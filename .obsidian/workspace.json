@@ -226,7 +226,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Weak Derivative.md",
+                "file": "Analysis/Lp Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -422,15 +422,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f3fbabcddd27cc03",
+  "active": "cd294558588f1652",
   "lastOpenFiles": [
+    "Analysis/Lp Space.md",
+    "Analysis/Functional Analysis/Weak Derivative.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
+    "Analysis/Approximate Identity.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Weak Derivative.md",
-    "Analysis/Approximate Identity.md",
     "untitled folder",
     "Plato",
-    "Analysis/Functional Analysis/Weak Derivative.md",
     "Analysis/Convolution.md",
     "Analysis/Smooth Function with Compact Support.md",
     "Measure Theory/Summable Function.md",
@@ -451,7 +452,6 @@
     "Analysis/Functional Analysis/Extreme Points and Sets.md",
     "Analysis/Functional Analysis/Convex Hull.md",
     "Topology/Topological Vector Space with Seminorms.md",
-    "Analysis/Convex Set.md",
     "hihi.py",
     "Machine Learning/NLP",
     "Courses/Algebra I/ARVST.jpeg",

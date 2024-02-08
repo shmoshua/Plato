@@ -9,10 +9,10 @@
 > [!lemma] Proposition 1
 > $W^{p,k}(\Omega)$ is a [[Banach space]]. 
 
-> [!proof]-
-> Let $(f_{k})_{k}\subseteq W^{p,k}(\Omega)$ be a Cauchy sequence. Then, for all $\alpha$ with $\left| \alpha \right|\leq k$, $$(D^\alpha_{w}f_{k})_{k\geq 1}$$is a Cauchy sequence in $L^p(\Omega)$ and hence has a limit $f^\alpha\in L^p(\Omega)$.
-> 
-> Let $f:=f^\alpha$ with $\alpha=(0,\dots,0)$. Then, $$f\in L^p(\Omega)\subseteq L^p_{\text{loc}}(\Omega)\subseteq L^1_{\text{loc}}(\Omega)$$By definition, we have for all $\alpha$, $\left| \alpha \right|\leq k$ and $\varphi\in C_{00}^\infty(\Omega)$: $$\int_{\Omega}^{}  f_{k}(x)D^\alpha \varphi(x)\, dm(x)=(-1)^{\left| \alpha \right| }\int_{\Omega}^{} D^\alpha_{w}f_{k}(x)\varphi(x) \, dm(x)  $$But as $D_{w}^\alpha f_{k}\to f^\alpha$ in $L^p(\Omega)$ and $\varphi\in L^p(\Omega)$, $$\int_{\Omega}^{} (D_{w}^\alpha f_{k})(x)\varphi(x) \, dm(x)\xrightarrow{k\to \infty} \int_{\Omega}^{} f^\alpha(x)\varphi(x) \, dm(x) $$Since $f_{k}\to f$ in $L^p(\Omega)$, we get: $$\int_{\Omega}f(x)D^\alpha\varphi(x) \, dm(x)=(-1)^{\left| \alpha \right| }\int_{\Omega}^{} f^\alpha(x)\varphi(x) \, dm(x)  $$and hence, $D_{w}^\alpha f=f^\alpha$.
+> [!proof]+
+> Let $(f_{k})_{k}\subseteq W^{p,k}(\Omega)$ be a Cauchy sequence. Then, for all $\alpha$ with $\left| \alpha \right|\leq k$, $$(D^\alpha_{w}f_{k})_{k\geq 1}$$is a Cauchy sequence in $L^p(\Omega)$ and hence has a limit $f^\alpha\in L^p(\Omega)$. Let $f:=f^\alpha$ with $\alpha=(0,\dots,0)$. 
+> 1. 
+> Then, $$f\in L^p(\Omega)\subseteq L^p_{\text{loc}}(\Omega)\subseteq L^1_{\text{loc}}(\Omega)$$By definition, we have for all $\alpha$, $\left| \alpha \right|\leq k$ and $\varphi\in C_{00}^\infty(\Omega)$: $$\int_{\Omega}^{}  f_{k}D^\alpha \varphi\, dm=(-1)^{\left| \alpha \right| }\int_{\Omega}^{} D^\alpha_{w}f_{k}\varphi \, dm  $$But as $D_{w}^\alpha f_{k}\to f^\alpha$ in $L^p(\Omega)$ and $\varphi\in L^1(\Omega)$ by [[Lp Space|Hölder's inequality]],$$\left| \int_{\Omega}^{} (D^\alpha_{w}f_{k}-f^\alpha)\varphi \, dm  \right| \leq \left\| D^\alpha_{w}f_{k}-f^\alpha \right\| _{p}\left\| \varphi \right\| _{1}$$ $$\int_{\Omega}^{} (D_{w}^\alpha f_{k})(x)\varphi(x) \, dm(x)\xrightarrow{k\to \infty} \int_{\Omega}^{} f^\alpha(x)\varphi(x) \, dm(x) $$Since $f_{k}\to f$ in $L^p(\Omega)$, we get: $$\int_{\Omega}f(x)D^\alpha\varphi(x) \, dm(x)=(-1)^{\left| \alpha \right| }\int_{\Omega}^{} f^\alpha(x)\varphi(x) \, dm(x)  $$and hence, $D_{w}^\alpha f=f^\alpha$.
 ---
 > [!lemma] Lemma 2
 > We have:
