@@ -1,7 +1,7 @@
 #Definition #Analysis #FunctionalAnalysis 
 
 > [!definition]
-> Let $\Omega \subseteq \mathbb{R}^n$ be an open set. For $1\leq p<+\infty$ and $k\geq 0$, the ***Sobolev space*** $W^{p,k}(\Omega)$ is defined as: $$W^{p,k}(\Omega):=\{ f:\Omega\to \mathbb{C}|D_{w}^\alpha f\text{ exists for all }\left| \alpha \right|\leq k, D_{w}^\alpha f\in L^p(\Omega)  \}$$ with the norm: $$\left\| f \right\| _{p,k}:=\sum_{\left| \alpha \right| \leq k}^{}\left\| D^\alpha_{w}f \right\|_{p} $$where $D^\alpha_{w}f$ denotes the [[Analysis/Weak Derivative|weak derivative]] of $f$. 
+> Let $\Omega \subseteq \mathbb{R}^n$ be an open set. For $1\leq p<+\infty$ and $k\geq 0$, the ***Sobolev space*** $W^{p,k}(\Omega)$ is defined as: $$W^{p,k}(\Omega):=\{ f:\Omega\to \mathbb{C}|D_{w}^\alpha f\text{ exists for all }\left| \alpha \right|\leq k, D_{w}^\alpha f,f\in L^p(\Omega)  \}$$ with the norm: $$\left\| f \right\| _{p,k}:=\sum_{\left| \alpha \right| \leq k}^{}\left\| D^\alpha_{w}f \right\|_{p} $$where $D^\alpha_{w}f$ denotes the [[Analysis/Weak Derivative|weak derivative]] of $f$. 
 - **Remark**: $W^{2,k}(\Omega)$ is a [[Hilbert Space|Hilbert space]]: for $f_{1},f_{2}\in W^{2,k}(\Omega)$, $$\braket{ f_{1} , f_{2} } :=\sum_{\left| \alpha \right| \leq k}^{}\braket{ D_{w}^\alpha f_{1} ,D_{w}^\alpha f_{2}  } $$which induces the norm: $$\left\| f \right\| =\left( \sum_{\left| \alpha \right| \leq k}^{} \left\| D_{w}^\alpha f \right\| ^2_{2}\right)^{1/2}=\left\| f \right\| _{2,k}$$
 - **Related definition**: $C_{p,k}^\infty(\Omega):=\{ f\in C^\infty(\Omega):\left\| D^\alpha f \right\|_{p}<+\infty, \forall \left| \alpha \right|\leq k \}=C^\infty(\Omega)\cap W^{p,k}(\Omega)$
 ---

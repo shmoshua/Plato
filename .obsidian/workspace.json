@@ -175,9 +175,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "f3fbabcddd27cc03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Sobolev Space.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       },
       {
         "id": "2420a352e3e58c04",
@@ -197,24 +209,24 @@
             }
           },
           {
-            "id": "dc51f004438d475d",
+            "id": "cd294558588f1652",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Weak Derivative.md",
+                "file": "Analysis/Functional Analysis/Sobolev Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "a0112061e4ef56c4",
+            "id": "dc51f004438d475d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Weak Derivative.md",
+                "file": "Analysis/Functional Analysis/Weak Derivative.md",
                 "mode": "preview",
                 "source": false
               }
@@ -281,7 +293,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -327,8 +339,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -348,7 +359,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Weak Derivative.md",
+                "file": "Analysis/Functional Analysis/Sobolev Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -365,7 +376,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Weak Derivative.md",
+                "file": "Analysis/Functional Analysis/Sobolev Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -388,7 +399,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Weak Derivative.md"
+                "file": "Analysis/Functional Analysis/Sobolev Space.md"
               }
             }
           }
@@ -411,16 +422,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3b1d271c2c67588d",
+  "active": "f3fbabcddd27cc03",
   "lastOpenFiles": [
-    "untitled folder",
-    "Plato",
+    "Analysis/Functional Analysis/Sobolev Space.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Weak Derivative.md",
+    "Analysis/Approximate Identity.md",
+    "untitled folder",
+    "Plato",
     "Analysis/Functional Analysis/Weak Derivative.md",
     "Analysis/Convolution.md",
     "Analysis/Smooth Function with Compact Support.md",
-    "Analysis/Approximate Identity.md",
     "Measure Theory/Summable Function.md",
     "Analysis/Fourier Transform.md",
     "Measure Theory/Continuous Function with Compact Support.md",
@@ -448,7 +460,6 @@
     "Courses/Functional Analysis",
     "Courses/Measure Theory",
     "Analysis/Functional Analysis/Examples",
-    "Analysis/Functional Analysis",
-    "Algebra/Linear Algebra"
+    "Analysis/Functional Analysis"
   ]
 }
