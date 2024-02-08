@@ -221,12 +221,48 @@
             }
           },
           {
+            "id": "1ad3152eb32f7440",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Bidual Space.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "adb813227597747a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Dual Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b27cf94f03780ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0686659593ffb2b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Seminorm.md",
+                "file": "Analysis/Functional Analysis/Adjoint Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -503,7 +539,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Seminorm.md",
+                "file": "Analysis/Functional Analysis/Bidual Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -520,7 +556,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Seminorm.md",
+                "file": "Analysis/Functional Analysis/Bidual Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -543,7 +579,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Seminorm.md"
+                "file": "Analysis/Functional Analysis/Bidual Space.md"
               }
             }
           }
@@ -566,17 +602,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0686659593ffb2b1",
+  "active": "1ad3152eb32f7440",
   "lastOpenFiles": [
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Functional Analysis/Adjoint Linear Map.md",
+    "Analysis/Functional Analysis/Seminorm.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Functional Analysis/Dual Space.md",
     "Analysis/Functional Analysis/Gauge Function.md",
     "Algebra/Unitary Representation of a Group.md",
     "Analysis/Fourier Transform.md",
     "Analysis/Functional Analysis/Group Representation.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Multiplication Operator on Lp Space.md",
-    "Analysis/Functional Analysis/Adjoint Linear Map.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Equivalence of Norms.md",
     "Analysis/Banach Space.md",
     "Analysis/Normed Space.md",
@@ -594,8 +632,6 @@
     "Measure Theory/Continuous Function with Compact Support.md",
     "Topology/Compact sets.md",
     "Analysis/Functional Analysis/Ergodic Measure.md",
-    "Analysis/Functional Analysis/Space of Probability Measures.md",
-    "Analysis/Functional Analysis/Amenable Group.md",
     "hihi.py",
     "Machine Learning/NLP",
     "Courses/Algebra I/ARVST.jpeg",
