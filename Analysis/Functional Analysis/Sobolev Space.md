@@ -16,9 +16,9 @@
 ---
 > [!lemma] Lemma 2
 > We have:
-> 1. if $f\in W^{p,k}(\Omega)$ and $\left| \alpha \right|+\left| \beta \right|\leq k$, then $$D_{w}^\alpha(D_{w}^\beta f)=D_{w}^{\alpha+\beta}f$$
+> 1. if $f\in W^{p,k}(\Omega)$ and $\left| \alpha \right|+\left| \beta \right|\leq k$, then $D_{w}^\alpha(D_{w}^\beta f)=D_{w}^{\alpha+\beta}f$
 > 2. if $f\in W^{p,k}(\Omega)$ and $\varphi\in C_{00}^\infty(\Omega)$, then $\varphi \cdot f\in W^{p,k}(\Omega)$.
-> 3. if $f\in W^{p,k}(\mathbb{R}^n)$ and $\varphi\in C_{00}^\infty(\mathbb{R}^n)$, then $\varphi * f\in C_{p,k}^\infty(\Omega)$ and $$D^\alpha(\varphi * f)=\varphi*D^\alpha_{w}f,\quad \forall \left| \alpha \right| \leq k$$
+> 3. if $f\in W^{p,k}(\mathbb{R}^n)$ and $\varphi\in C_{00}^\infty(\mathbb{R}^n)$, then $\varphi * f\in C_{p,k}^\infty(\mathbb{R}^n)$ and $$D^\alpha(\varphi * f)=\varphi*D^\alpha_{w}f,\quad \forall \left| \alpha \right| \leq k$$
 
 > [!proof]-
 > We have: 
