@@ -38,7 +38,7 @@
 > [!lemma] Proposition 4
 > Let $K\in C(X\times X,\mathbb{C})$ be a continuous kernel s.t. $K(gx,gy)=K(x,y)$. Then, for all $g\in G$ and $T_{K}$ an [[Integral Operator|integral operator]]:$$\pi(g)T_{K}=T_{K}\pi(g)$$
 
-> [!proof]+
+> [!proof]-
 > $$\begin{align}(\pi(g)T_{K}f)(x)=(T_{K}f)(g^{-1}x)&=\int_{X}^{} f(y)K(g^{-1}x,y) \, d\mu(y)\\&=\int_{X}^{} f(y)K(x,gy) \, d\mu(y) \\&=\int_{X}^{} f(g^{-1}y)K(x,y) \, d\mu(y)\\&=\int_{X}^{} (\pi(g)f)(y)K(x,y) \, d\mu(y)\\&=(T_{K}\pi(g)f)(x) \end{align} $$
 ---
 > [!lemma] Theorem 5

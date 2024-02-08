@@ -194,14 +194,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Fourier Transform.md",
+                "file": "Algebra/Unitary Representation of a Group.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       },
       {
         "id": "2420a352e3e58c04",
@@ -215,6 +215,54 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc16458c1a36fd33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Gauge Function.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfacbaf4fc4881fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Unitary Representation of a Group.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fe887dae1015c9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Group Representation.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ae5049645cdb6ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Adjoint Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -443,7 +491,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Analysis/Functional Analysis/Gauge Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -460,7 +508,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Analysis/Functional Analysis/Gauge Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -483,7 +531,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md"
+                "file": "Analysis/Functional Analysis/Gauge Function.md"
               }
             }
           }
@@ -506,15 +554,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "58aa9436175fce93",
+  "active": "bc16458c1a36fd33",
   "lastOpenFiles": [
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Algebra/Unitary Representation of a Group.md",
+    "Analysis/Fourier Transform.md",
+    "Analysis/Functional Analysis/Group Representation.md",
+    "Analysis/Hilbert Space.md",
+    "Analysis/Functional Analysis/Multiplication Operator on Lp Space.md",
+    "Analysis/Functional Analysis/Adjoint Linear Map.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Equivalence of Norms.md",
     "Analysis/Banach Space.md",
     "Analysis/Normed Space.md",
     "Analysis/Norm.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
-    "Analysis/Fourier Transform.md",
     "Analysis/Lp Space.md",
     "Analysis/Functional Analysis/Weak Derivative.md",
     "Analysis/Approximate Identity.md",
@@ -530,12 +584,6 @@
     "Analysis/Functional Analysis/Space of Probability Measures.md",
     "Analysis/Functional Analysis/Amenable Group.md",
     "Courses/Measure Theory/Measure Theory Roadmap.md",
-    "Analysis/Functional Analysis/Unitary Linear Map.md",
-    "Analysis/Absorbant Set.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Measure Theory/Lebesgue Measure.md",
-    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Analysis/Kernel.md",
     "hihi.py",
     "Machine Learning/NLP",
     "Courses/Algebra I/ARVST.jpeg",
