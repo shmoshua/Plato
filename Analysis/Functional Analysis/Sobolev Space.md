@@ -34,7 +34,7 @@
 > For an [[approximate identity]] $\delta$ and let $f\in W^{p,k}(\mathbb{R}^n)$. By Lemma 2, $\delta_{\varepsilon}*f\in C^\infty_{p,k}(\Omega)$ for all $\varepsilon>0$ and $$D^\alpha(\delta_{\varepsilon}*f)=\delta_{\varepsilon}*D^\alpha_{w}f$$for all $\left| \alpha \right|\leq k$. By [[Approximate Identity|Proposition 2]], $$\delta_{\varepsilon}*D^\alpha_{w}f\xrightarrow{\varepsilon\to 0}D^\alpha_{w}f$$in $L^p(\mathbb{R}^n)$ and $D^\alpha(\delta_{\varepsilon}*f)\to D^\alpha_{w}f$ in $L^p(\mathbb{R}^n)$.
 ---
 > [!lemma] Theorem 4 (Sobolev Embedding Theorem)
-> If $f\in W^{2,k}(\mathbb{R}^n)$ and $k>r + n / 2$, then $f\in C^r_{b}(\mathbb{R}^n)$. Moreover, the inclusion $$W^{2,k}(\mathbb{R}^n)\hookrightarrow C^r_{b}(\mathbb{R}^n)$$ is a bounded operator.
+> If $f\in W^{2,k}(\mathbb{R}^n)$ and $k>r + n / 2$, then $f\in C^r_{b}(\mathbb{R}^n)$, i.e. there exists a function $g\in C^r_{b}(\mathbb{R}^n)$ s.t. $f=g$ $m$-a.e. Moreover, the inclusion $$W^{2,k}(\mathbb{R}^n)\hookrightarrow C^r_{b}(\mathbb{R}^n)$$ is a bounded operator.
 
 > [!proof]+
 > By [[Fourier Transform|Lemma 8]], $\xi^\alpha \hat{f}\in L^2(\mathbb{R}^n)$ for all $\left| \alpha \right|\leq k$. To show that $f\in C^r_{b}(\mathbb{R}^n)$, it suffices to show that $$\xi^\alpha \hat{f}\in L^1(\mathbb{R}^n)$$for all $\left| \alpha \right|\leq r$. We can write: $$\xi^\alpha \hat{f}=h_{1}\cdot h_{2,\alpha}$$ where:

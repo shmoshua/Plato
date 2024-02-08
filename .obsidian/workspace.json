@@ -226,7 +226,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convolution.md",
+                "file": "Analysis/Fourier Transform.md",
                 "mode": "preview",
                 "source": false
               }
@@ -424,9 +424,10 @@
   },
   "active": "cd294558588f1652",
   "lastOpenFiles": [
-    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Fourier Transform.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
     "Analysis/Convolution.md",
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Lp Space.md",
     "Analysis/Smooth Function with Compact Support.md",
     "Analysis/Approximate Identity.md",
@@ -435,7 +436,6 @@
     "untitled folder",
     "Plato",
     "Measure Theory/Summable Function.md",
-    "Analysis/Fourier Transform.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Topology/Compact sets.md",
     "Analysis/Functional Analysis/Ergodic Measure.md",
