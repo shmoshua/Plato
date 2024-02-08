@@ -106,12 +106,14 @@
 > Let $r\in \mathbb{N}$. Further, let $h,\xi^\alpha h\in L^1(\mathbb{R}^n)$ for all $\left| \alpha \right|\leq r$. Then, $\mathcal{F^{*}}(h)\in C^r_{b}(\mathbb{R}^n)$ and:
 > $$D^\alpha(\mathcal{F^{*}h})(x)=i^{\left| \alpha \right| }\mathcal{F^{*}}(\xi^\alpha h)(x)$$
 
-> [!proof]+
+> [!proof]-
 > We will show this using induction on $r$. First, we show for $r=1$. Use Lemma in [[Convolution|Proposition 4]] on:
 > 1. $X = \mathbb{R}^n$, $D=\mathbb{R}^n$
-> 1. $f(x,\xi)=h(\xi)e^{i\braket{ x , \xi }}$ where $f(\cdot,\xi)\in C^1(\mathbb{R}^n)$ and $f(x,\cdot)$
-> 2. 
-> 3. 
+> 1. $f(x,\xi)=h(\xi)e^{i\braket{ x , \xi }}$ where $f(\cdot,\xi)\in C^1(\mathbb{R}^n)$ and $f(x,\cdot)\in L^1(\mathbb{R}^n)$
+> 2. $\partial_{j}f(x,\xi)=h(\xi)i\xi_{j}e^{i\braket{ x , \xi }}=i\xi_{j}f(x,\xi)$, so $\partial_{j}f(x,\cdot)\in L^1(\mathbb{R}^n)$
+> 3. $G_{j}(x)=\int_{\mathbb{R}^n}^{} h(\xi)i\xi_{j}e^{i\braket{ x , \xi }} \, dm(\xi)=i\mathcal{F}^{*}(h\cdot_{j})(x)$, therefore it is continuous.
+> 
+> Hence, we can conclude that $\partial_{j}\int_{\mathbb{R}^n}^{} h(\xi)e^{i\braket{ x , \xi }} \, dm(\xi)=\partial_{j}\mathcal{F}^{*}h(x)=G_{j}(x)$.
 > 
 ---
 > [!lemma] Lemma 10

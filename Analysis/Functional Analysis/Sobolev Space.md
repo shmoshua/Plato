@@ -42,3 +42,5 @@
 > 2. $h_2:= \frac{\xi^\alpha}{1+\left\| \xi \right\|^k}$
 > 
 > Now, let's show that $h_{1}, h_{2,\alpha}\in L^2(\mathbb{R}^n)$. 
+> 1. **Showing $h_{2,\alpha}\in L^2$**:
+>    We have: $$\left| h_{2,\alpha}(\xi) \right| \leq\frac{ \left\| \xi \right\| ^\left| \alpha \right|}{1+\|\xi\|^k} \leq\frac{ \left\| \xi \right\| ^r}{1+\|\xi\|^k} $$Therefore, $$\left\| h_{2,\alpha} \right\| _{2}^2\leq \int_{\mathbb{R}^n}^{} \frac{ \left\| \xi \right\| ^{2r}}{(1+\|\xi\|^k)^{2}} \, dm(\xi) =\int_{0}^{\infty} R^{2r} \, dx $$
