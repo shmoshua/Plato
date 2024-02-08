@@ -1,0 +1,44 @@
+#Definition #FunctionalAnalysis 
+> [!definition]
+> A [[Hausdorff space]] $X$ is ***locally compact***, if every point $x\in X$ has a compact neighborhood, i.e. there exists an open set $U$ and a compact set $K$, s.t. $x\in U\subseteq K$.
+---
+##### Properties
+> [!lemma] Lemma 1
+> Let $X$ be locally compact Hausdorff. For $K\subseteq X$ compact and $y\notin K$, there exists disjoint open sets $U,V\subseteq X$ s.t. $y\in U$, $K\subseteq V$ and $\overline{V}$ is compact.
+
+> [!proof]-
+> For $x\in K$, let $V_{x}$ be the open neighborhood with compact closure. Then, $U_{x}$ is the open neighborhood of $y$ s.t. $U_{x}\cap V_{x}=\varnothing$. Then, $\{ V_{x}: x\in K \}$ is an open cover of $K$ and there exists $\{ x_{1},\dots,x_{n} \}\subseteq K$ s.t. $K\subseteq \bigcup_{j=1}^{n}V_{x_{j}}=:V$. Let $U:=\bigcap_{j=1}^{n}U_{x_{u}}$. 
+> 
+> Since, $\overline{V}\subseteq \bigcup_{j=1}^{n}\overline{V_{j}}$ which is compact, $V$ has compact closure.
+---
+> [!lemma] Lemma 2
+> For a locally compact Hausdorff space $X$, for $K\subseteq U\subseteq X$ with $K$ compact and $U$ open, there exists an open set $V\subseteq X$ with compact closure s.t. $$K\subseteq V\subseteq \overline{V}\subseteq U$$
+
+> [!proof]-
+> For every $y\in U^c$, by Lemma 1, there exists open $V_{y}$, $W_{y}$ s.t. $K\subseteq V_{y}$, $y\in W_{y}$ and $\overline{V_{y}}$ is compact. Since $y\notin \overline{V_{y}}$, $$\bigcap_{y\in U^c}^{}U^c \cap \overline{V_{y}}=\varnothing$$and $U^c\cap \overline{V_{y}}$ is compact as a closed subset of a compact set. 
+---
+> [!lemma] Theorem 3 (Urysohn's Lemma)
+> Let $X$ be a locally compact Hausdorff space. Suppose $K\subseteq U\subseteq X$ with $K$ compact and $U$ open. Then, there exists a continuous function $f\in$ [[Continuous Function with Compact Support|$C_{c}(X)$]] s.t. 
+> 1. $\text{Im }f\subseteq[0,1]$
+> 2. $f(x)=1$ for all $x\in K$.
+> 3. $\text{supp }f\subseteq U$
+
+> [!proof]-
+> By lemma 2, we first choose an open set $G$ with compact closure s.t. $K\subseteq G\subseteq \overline{G}\subseteq U$. 
+> https://sites.math.rutgers.edu/~carlen/502S17/hahnsaks.pdf
+---
+> [!lemma] Proposition 1
+> For a compact set $K\subseteq X$, let: $$\|f\|_{K}=\sup_{x\in K}\left| f(x) \right| $$define a [[Seminorm|semi-norm]] on $C(X)$. Then, 
+> 1. $\{ \|\cdot\|_{K}:K\subseteq X,\text{ compact} \}$ is sufficient. 
+> 2. If there exists $\{ K_{n} \}_{n\geq 1}$ s.t. $X=\bigcup_{n\geq 1}^{}K_{n}$,  then $\{  \|\cdot\|_{K_{n}}\}_{n\geq 1}$ induces the topology of uniform convergence on compact sets in $C(X)$.
+
+> [!proof]-
+> We can see that $\{ p_{K_{n}} \}_{n\geq 1}$ is a sufficient countable family of semi-norms. Therefore, by [[Topological Vector Space with Seminorms|Proposition 4]], it is metrizable.
+---
+> [!lemma] Corollary 2
+> $C(\mathbb{R}^d)$ is not normable for $d\geq 1$.
+
+> [!proof]-
+> Assume there exists a norm $\|\cdot\|$ that induces the topology. Then, $B_{<1}(0)$ is an open neighborhood of $0$. Therefore, there exists $\{ p_{K_{i}} \}_{i\in[\ell]}$ and $\varepsilon>0$ s.t. $$N(0,\{ p_{K_{i}} \}_{i\in[\ell]},\varepsilon)\subseteq B_{<1}(0)$$Let $K:=\bigcup_{i=1}^{\ell}K$. Then, $$\{ f\in C(\mathbb{R}^d):\text{supp}(f)\subseteq \mathbb{R}^d \backslash K \}\subseteq B_{<1}(0)$$which is nonsense.
+---
+> 

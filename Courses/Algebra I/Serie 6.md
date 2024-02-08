@@ -1,0 +1,19 @@
+#Series #Algebra-I 
+
+##### Problem 36
+1. Firstly, we can define $\varphi:\mathbb{Z} \to \braket{ (1,1) }, x \mapsto (x,x)$. Then, by the first isomorphism theorem, $$\mathbb{Z} \cong \braket{ (1,1)  } $$Furthermore, we know that any subgroup of $\mathbb{Z}$ is of form $n\mathbb{Z}$ for $n\in \mathbb{Z}$. By defining, $$\psi:\mathbb{Z} \to n\mathbb{Z},x\mapsto nx$$we also have, $\mathbb{Z}\cong n\mathbb{Z}$. Therefore, there is no $n,m\in \mathbb{Z}$, s.t. $$n\mathbb{Z}\times m\mathbb{Z}\cong \mathbb{Z}\times \mathbb{Z}\not\cong\mathbb{Z}\cong\braket{ (1,1)  } $$
+ 2. Let $H\leq(\mathbb{Q},+)$ be a non-trivial finitely generated subgroup. Then, we have the following generators: $$\frac{m_{1}}{n_{1}},\dots,\frac{m_{r}}{n_{r}}$$This means for any $h\in H$: $$h= \sum_{i=1}^{r}a_{i}\frac{m_{i}}{n_{i}}=\frac{1}{\prod_{j=1}^{r}n_{j}}\sum_{i=1}^{r}a_{i}m_{i}\prod_{k\neq i}^{}n_{i}$$for some $a_{1},\dots,a_{r}\in \mathbb{Z}$. Therefore, $H\leq \braket{ \frac{1}{\prod_{j=1}^{r}n_{j}}  }$ and therefore, $H$ is infinitely cyclic. However, $\mathbb{Q}$ is a subgroup of $\mathbb{Q}$ that is not finitely cyclic nor trivial. Therefore, $\mathbb{Q}$ is not finitely generated.
+ 3. Assuming that $G^{2}=\{ g^{2}:g\in G \}$, assume that $G/G^{2}$ is finite. As $G$ is abelian, $G^{2}$ is normal and $G / G^{2}$ is abelian. Therefore, there exist generators:
+	 $$\frac{m_{1}}{n_{1}}G^{2},\dots,\frac{m_{r}}{n_{r}}G^{2}$$for $G / G^{2}$ where $m_{1},\dots,m_{r},n_{1},\dots,n_{r}\in \mathbb{Z}^{*}$. Let $p$ be a prime that does not appear in any of the prime decomposition of $m_{1},\dots,m_{r},n_{1},\dots,n_{r}$. Then, we have that $\frac{1}{p}G^{2} \neq \prod_{i=1}^{r}\frac{m_{i}}{n_{i}}G^{2}$ as:$$p \frac{m_{1}}{n_{1}}\dots\frac{ m_{r}}{n_{r}}\notin G^{2}$$
+---
+##### Problem 37
+1. From Corollary 5.5, we have that: $$G\cong C_{n_{1}}\times C_{n_{2}}\times\dots \times C_{n_{t}}\times \mathbb{Z}^k$$ where $n_{i}|n_{i+1}$ for all $1\leq i<t$. For 
+
+1. First, we know that there exist generators $x_{1},\dots,x_{r}\in G$ s.t. $G\cong \braket{ x_{1}  }\times \braket{ x_{2}  }\times\dots \times \braket{ x_{r}  }$. Now, let $k:=| \{ x_{i}: \text{ord}(x_{i})=\infty,1\leq j\leq r \}|$. With re-indexing, we can write: $$G\cong\braket{ x_{1}  }\times\dots \times \braket{ x_{r-k}  }\times \mathbb{Z}^k$$
+	Let $m_{j}:=\text{ord}(x_{j})$ for all $1\leq j\leq r-k$. Then, there exists for every $m_{j}$ a prime factorization. We denote $$P:=\{ p\text{ prime}: \exists 1\leq j\leq r-k, p\text{ is in the prime factorization of }m_{j} \}$$
+	and define $n:=|P|$. In other words, we can write $P=\{ p_{1},\dots,p_{n} \}$. Then, we define $a_{i,j}$ as the exponent of prime $p_{i}$ in the prime decomposition of $m_{j}$ for $1\leq i\leq n$ and $1 \leq j\leq r-k$. Then, we can write that $m_{i}=\prod_{1 \leq i \leq n, a_{i,j}>0}^{}p_{i}^{a_{i,j}}$. It follows that:
+	$$\braket{ x_{1}  }\times\dots \times \braket{ x_{r-k}  }\cong \prod_{j=1}^{r-k}C_{m_{i}}\cong \prod_{j=1}^{r-k} \prod_{1\le i\le n, a_{i,j}>0}C_{p_{i}^{a_{i,j}}}=\prod_{i=1}^{n} \prod_{1\leq j\leq r-k, a_{i,j}>0}C_{p_{i}^{a_{i,j}}}$$
+	Per definition, we have that $a_{i,j}>0$ for at least one $j$ for every $i$. This proves the statement.
+2. We can assume that all the primes $p_{1},\dots,p_{n}$ and numbers $\alpha_{i1},\dots,\alpha_{ij_{i}}$ are increasingly ordered. Now assume we have two different (increasingly. ordered) decompositions of $G$. The $k$ has to be the same, as otherwise the two decompositions are not isomorphic. Then, we have that the list of the primes have to be the same: if there exists $p$ in one decomposition, but not the other, the two decompositions cannot be isomorphic, as the order of the finite part are different.
+3. : $$\prod_{i=1}^{n}\prod_{\iota=1}^{j_{i}}p^\alpha$$
+4. 

@@ -1,0 +1,45 @@
+#Series #LST 
+
+##### Exercise 1
+We have that: 
+1. Using the Jordan form, $$T=\begin{bmatrix}0&-1&0\\2&0&1\\1&1&0\end{bmatrix}^{-1}=\begin{bmatrix}1&0&1\\-1&0&0\\-2&1&-2\end{bmatrix}$$Therefore, $$A=T^{-1}JT=\begin{bmatrix}0&-1&0\\2&0&1\\1&1&0\end{bmatrix}\begin{bmatrix}-2&1&0\\0&-2&0\\0&0&-1\end{bmatrix}\begin{bmatrix}1&0&1\\-1&0&0\\-2&1&-2\end{bmatrix}=\begin{bmatrix}-2&0&0\\-6&-1&-2\\-2&0&-2\end{bmatrix}$$
+2. Then,
+	$$\begin{align}e^{ At }=T^{-1}e^{Jt}T&=\begin{bmatrix}0&-1&0\\2&0&1\\1&1&0\end{bmatrix}\begin{bmatrix}e^{ -2t }&te^{ -2t }&0\\0&e^{ -2t }&0\\0&0&e^{ -t }\end{bmatrix}\begin{bmatrix}1&0&1\\-1&0&0\\-2&1&-2\end{bmatrix}\\&=\begin{bmatrix}e^{- 2t }&0&0\\2e^{ -2t }-2te^{ -2t }-2e^{ -t }&e^{ -t }&2e^{ -2t }-2e^{ -t }\\-te^{ -2t }&0&e^{ -2t }\end{bmatrix}\end{align}$$
+3. Firstly, as $\text{det}(A)=-4$, $A$ is invertible. Therefore, $$\begin{align}\int_{0}^{t} e^{ A(t-\tau) } \, d\tau &=\sum_{n=0}^{\infty} \frac{A^n}{n!}\int_{0}^{t}(t-\tau)^n \, d\tau\\&=\sum_{n=0}^{\infty} \frac{A^n}{n!} \frac{t^{n+1}}{n+1}\\&=A^{-1}\sum_{n=1}^{\infty} \frac{A^nt^n}{n!} \\&=A^{-1}(e^{ At }-I)\\&=T^{-1}J^{-1}T(T^{-1}(e^{ Jt }-I)T)\\&=T^{-1}J^{-1}(e^{ Jt }-I)T\end{align}$$
+    Then, we have: $$\begin{align}y(t)&=Ce^{ At }x_{0}+(H*u)(t)\\&=\begin{bmatrix}1&1&0\end{bmatrix}e^{ At }\begin{bmatrix}0\\0\\1\end{bmatrix}+\begin{bmatrix}1&1&0\end{bmatrix}\int_{0}^{t}  e^{ A(t-\tau)} \, d\tau\begin{bmatrix}0\\1\\0\end{bmatrix}\\&=\begin{bmatrix}1&1&0\end{bmatrix}e^{ At }\begin{bmatrix}0\\0\\1\end{bmatrix}+\begin{bmatrix}1&1&0\end{bmatrix}T^{-1}J^{-1}(e^{ Jt }-I)\begin{bmatrix}0\\0\\1\end{bmatrix}\\&=\begin{bmatrix}1&1&0\end{bmatrix}e^{ At }\begin{bmatrix}0\\0\\1\end{bmatrix}+\begin{bmatrix}1&1&0\end{bmatrix}T^{-1}J^{-1}\begin{bmatrix}0\\0\\e^{ -t }-1\end{bmatrix}\\&=\begin{bmatrix}1&1&0\end{bmatrix}e^{ At }\begin{bmatrix}0\\0\\1\end{bmatrix}+\begin{bmatrix}1&1&0\end{bmatrix}T^{-1}\begin{bmatrix}0\\0\\1-e^{ -t }\end{bmatrix}\\&=\begin{bmatrix}1&1&0\end{bmatrix}\begin{bmatrix}0\\2e^{ -2t }-2e^{ -t }\\e^{ -2t }\end{bmatrix}+\begin{bmatrix}1&1&0\end{bmatrix}\begin{bmatrix}0\\1-e^{ -t }\\0\end{bmatrix}\\&=2e^{ -2t }-3e^{ -t }+1\\&=(2e^{ -t }-1)(e^{ -t }-1)\end{align}$$
+---
+##### Exercise 2
+1. We can write that: $$\chi_{A}(s)=\det(sI-A)=\prod_{i=1}^{k}(s-\lambda_{i})^{\mu_{i}}$$
+	Therefore, $c_{0}=\prod_{i=1}^{k}(-1)^{\mu_{i}}\lambda_{i}^{\mu_{i}}$. As $\sum_{i=1}^{k}\mu_{i}=n$, $$\prod_{i=1}^{k}\lambda_{i}^{\mu_{i}}=(-1)^n c_{0}$$and $c_{n-1}=-\sum_{i=1}^{k}\mu_{i}\lambda_{i}$.
+2. We have that $\det(sI-T^{-1}AT)=\det(T^{-1}sIT-T^{-1}AT)=\det(T^{-1})\det(sI-A)\det(T)$. Then, $\det(T^{-1})=\det(T)^{-1}$. Therefore, $$\det(sI-T^{-1}AT)=\det(sI-A)$$
+	As the characteristic polynomial is invariant under change of basis, the coefficients of the polynomials are invariant. It follows that the determinant and trace of $A$ remain invariant as well.
+3. We have that: $$\begin{align}\det(e^{ A })&=\det (T^{-1}e^{ J }T)=\det (e^{ J })\end{align}$$As $e^J$ is an upper-triangular matrix, we have: $$\text{det}(e^{ J })=\prod_{i=1}^k e^{ \lambda_{i}\mu_{i} }=e^{ \sum_{i=1}^{k}\mu_{i}\lambda_{i} }=e^{ \text{tr}(A) }$$
+---
+##### Exercise 3
+1. We will write the system into a affine ODE. First, we define the vectorize operation $\text{vec}:\mathbb{R}^{n,n}\to \mathbb{R}^{n^2}$ where: $$\text{vec}([x_{1}|\dots|x_{n}])=\begin{bmatrix}x_{1}\\\vdots\\ x_{n}\end{bmatrix}$$
+	Then, for the $i$-th column of $AX(t)$ of $A\in \mathbb{R}^{n,n}$, $$[AX(t)]_{:,i}=Ax_{i}(t)$$Therefore, we have: $\text{vec}(AX(t))=[I \otimes A]\text{vec}(X(t))$ where $\otimes$ denotes the Kronecker product. Similarly, $$[X(t)A^\top]_{:,i}=\sum_{j=1}^{n}A_{i,j}x_{j}(t)$$Therefore, $\text{vec}(X(t)A^\top)=[A \otimes I]\text{vec}(X(t))$. Therefore, we have that: $$\dot{x}(t)=A(t)x(t)+b(t)u(t)$$where:
+	1. $x(t)=\text{vec}(X(t))$
+	2. $A(t)=[I\otimes A_{1}]+[A_{2}\otimes I]$
+	3. $b(t)=\text{vec}(F(t))$
+	4. $u(t)=1$ for all $t\in \mathbb{R}$.
+	
+	and $x(t_{0})=\text{vec}(X_{0})$. Then, from the piecewise continuity, there exists a solution $x(t)$ that is unique and therefore $X(t)$ by reverting back to a matrix. 
+2. We have that: $$\Phi_{1}(t_{0},t_{0})X_{0}\Phi^\top_{2}(t_{0},t_{0})=IX_{0}I=X_{0}$$Furthermore, $$\begin{align}\frac{d}{dt} \left( \Phi_{1}(t,t_{0})X_{0}\Phi^\top_{2}(t,t_{0}) \right) &=\frac{d}{dt}\Phi_{1}(t,t_{0})X_{0}\Phi^\top_{2}(t,t_{0}) +\Phi_{1}(t,t_{0})X_{0}\frac{d}{dt} \Phi^\top_{2}(t,t_{0}) \\&= A_{1}(t)\Phi_{1}(t,t_{0})X_{0}\Phi^\top_{2}(t,t_{0}) +\Phi_{1}(t,t_{0})X_{0}\Phi^\top_{2}(t,t_{0})A_{2}^\top(t)\end{align}$$
+    Therefore, by the uniqueness of solution in ODE, $$X(t)=\Phi_{1}(t,t_{0})X_{0}\Phi^\top_{2}(t,t_{0})$$
+3. Let $R(t):=\Phi_{1}(t,t_{0})X_{0}\Phi^\top_{2}(t,t_{0}) +\int_{t_{0}}^{t} \Phi_{1}(t,\tau)F(\tau)\Phi^\top_{2}(t,\tau) \, d\tau$. We have that: $$R(t_{0})=\Phi_{1}(t_{0},t_{0})X_{0}\Phi^\top_{2}(t_{0},t_{0})+\int_{t_{0}}^{t_{0}} \Phi_{1}(t_{0},\tau)F(\tau)\Phi^\top_{2}(t_{0},\tau) \, d\tau=X_{0}+0=X_{0} $$
+	and using the answer from the previous problem and defining $Q(t):=\Phi_{1}(t,t_{0})X_{0}\Phi^\top_{2}(t,t_{0})$, $$\begin{align}\frac{d}{dt}R(t) &=A_{1}(t)\Phi_{1}(t,t_{0})X_{0}\Phi^\top_{2}(t,t_{0}) +\Phi_{1}(t,t_{0})X_{0}\Phi^\top_{2}(t,t_{0})A_{2}^\top(t)+\frac{d}{dt} \int_{t_{0}}^{t} \Phi_{1}(t,\tau)F(\tau)\Phi^\top_{2}(t,\tau) \, d\tau \\&=A_{1}(t)Q(t)+Q(t)A_{2}^\top(t)+\int_{t_{0}}^{t} \frac{ \partial  }{ \partial t } (\Phi_{1}(t,\tau)F(\tau)\Phi^\top_{2}(t,\tau) )\, d\tau+\Phi_{1}(t,t)F(t)\Phi^\top_{2}(t,t)\\&=A_{1}(t)R(t)+R(t)A_{2}^\top(t)+F(t)\end{align}$$
+	Therefore, by the uniqueness of the ODE, $$X(t)=R(t)$$
+---
+##### Exercise 4
+1. Assume that $\frac{d}{dt}(A(t)^k)=k\dot{A}(t)A^{k-1}(t)$ for all $k\in \mathbb{N}$. Then, $$\begin{align}\dot{A}(t)A(t)&=\frac{1}{2} \frac{d}{dt} (A(t)^{2})=A(t)\dot{A}(t)\end{align}$$using the chain rule. Conversely, if $A(t)$ and $\dot{A} (t)$ commute, $$\frac{d}{dt} (A(t)^k)=kA^{k-1}(t)\dot{A}(t)=k\dot{A}(t)A^{k-1}(t)$$
+2. Assume that $A(t)$ and $\int_{t_{0}}^{t} A(\tau) \, d\tau$ commute. If $B(t):=\int_{t_{0}}^{t} A(\tau) \, d\tau$, then,$$\dot{B}(t)=\frac{d}{dt}  \int _{t_{0}}^t A(\tau)\, d\tau=A(t) $$Then, we have: $$\exp \left( \int_{t_{0}}^{t_{0}} A(\tau) \, d\tau  \right) =\exp(0)=I$$Further, 
+	$$\begin{align}\frac{d}{dt} \exp \left( B(t)  \right) =\sum_{n=0}^{\infty}\frac{1}{n!} \frac{d}{dt}\left( B(t) \right) ^n&=\sum_{n=1}^{\infty}\frac{n}{n!} \dot{B}(t)B^{n-1}(t)\\&=A(t)\sum_{n=1}^{\infty} \frac{B^{n-1}(t)}{(n-1)!}\\&=A(t)\sum_{n=0}^{\infty} \frac{B^n(t)}{n!}\\&=A(t)\exp(B(t))\end{align}$$
+	Therefore, by the uniqueness, $\Phi(t,t_{0})=\exp(B(t))=\exp\left( \int_{t_{0}}^{t} A(\tau) \, d\tau \right)$.
+3. Assume that $A(t)A(\tau)=A(\tau)A(t)$ for all $t,\tau\in \mathbb{R}$. Then,$$A(t)\int_{t_{0}}^{t} A(\tau) \, d\tau=\int_{t_{0}}^{t} A(t)A(\tau) \, d\tau =\int_{t_{0}}^{t} A(\tau) A(t)\, d\tau=\left( \int_{t_{0}}^{t} A(\tau)\, d\tau \right) A(t) $$
+4. For $t,\tau\in \mathbb{R}$, we have that: $$\begin{align}A(t)A(\tau)&=\left( A_{1}g(t)+A_{2}h(t) \right) (A_{1}g(\tau)+A_{2}h(\tau))\\&=A_{1}^2g(t)g(\tau)+A_{1}A_{2}g(t)h(\tau)+A_{2}A_{1}h(t)g(\tau)+A^{2}_{2}h(t)h(\tau)\\&=A_{1}^2g(t)g(\tau)+A_{2}A_{1}g(t)h(\tau)+A_{1}A_{2}h(t)g(\tau)+A^{2}_{2}h(t)h(\tau)\\&=(A_{1}g(\tau)+A_{2}h(\tau))(A_{1}g(t)+A_{2}h(t))\\&=A(\tau)A(t)\end{align}$$
+	Therefore, $A(t)$ and $\int_{t_{0}}^{t} A(\tau) \, d\tau$ commute and consequently, $$\begin{align}\Phi(t,t_{0})=\exp \left( \int_{t_{0}}^{t} A(\tau) \, d\tau  \right) &=\exp \left( \int_{t_{0}}^{t} A_{1}g(\tau)+A_{2}h(\tau)\, d\tau  \right)\\&=\exp \left( A_{1}\int_{t_{0}}^{t} g(\tau)d\tau+A_{2}\int_{t_{0}}^{t} h(\tau)\, d\tau  \right)\end{align} $$
+5. Let $A_{1}=I$, $g(t)=2t$, $h(t)=1$ and $$A_{2}=\begin{bmatrix}0&1\\-1&0\end{bmatrix}$$
+	Then, we have $\dot{x}(t)=A(t)x(t)$ where $A(t)=A_{1}g(t)+A_{2}h(t)$ and $A_{1}$ and $A_{2}$ commute as $A_{1}=I$. Therefore,$$\begin{align}\Phi(t,t_{0})&=\exp \left( I\int_{t_{0}}^{t} 2\tau \, d\tau  \right) \exp \left( A_{2}\int_{t_{0}}^{t} 1\, d\tau  \right)\\&=\exp \left( I(t^{2}-t_{0}^{2})  \right) \exp \left( A_{2}(t-t_{0}) \right)\end{align} $$We have that:
+	$$\exp \left( I(t^{2}-t_{0}^{2})  \right) =\sum_{n=0}^{\infty}\frac{I^n(t^{2}-t_{0}^{2})^n}{n!}=I\sum_{n=0}^{\infty}\frac{(t^{2}-t_{0}^{2})^n}{n!}=e^{ t^{2}-t_{0}^{2} }I$$Similarly, we have: $$\begin{align}\exp \left( A_{2}(t-t_{0})  \right) =\sum_{n=0}^{\infty}\frac{A_{2}^n(t-t_{0})^n}{n!}&=\begin{bmatrix}\sum_{n=0}^{\infty} \frac{(-1)^n(t-t_{0})^{2n}}{(2n)!}&\sum_{n=0}^{\infty}\frac{(-1)^n(t-t_{0})^{2n+1}}{(2n+1)!}\\-\sum_{n=0}^{\infty}\frac{(-1)^n(t-t_{0})^{2n+1}}{(2n+1)!}&\sum_{n=0}^{\infty}\frac{(-1)^n(t-t_{0})^{2n}}{(2n)!}\end{bmatrix}\\&=\begin{bmatrix}\cos(t-t_{0})&\sin(t-t_{0})\\-\sin(t-t_{0})&\cos(t-t_{0})\end{bmatrix}\end{align}$$
+	Therefore, $$\Phi(t,t_{0})=e^{ t^{2}-t_{0}^{2} }\begin{bmatrix}\cos(t-t_{0})&\sin(t-t_{0})\\-\sin(t-t_{0})&\cos(t-t_{0})\end{bmatrix}$$
+---

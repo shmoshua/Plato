@@ -1,0 +1,454 @@
+{
+  "main": {
+    "id": "da9fa0f33c2a615f",
+    "type": "split",
+    "children": [
+      {
+        "id": "744bad5cdffeb197",
+        "type": "tabs",
+        "dimension": 47.2127417519909,
+        "children": [
+          {
+            "id": "71183eb07a01f7d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f5c02533cef99244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Topological Vector Space with Seminorms.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4f04d6f8477a49b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Signed Measure.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "45423e26f42559e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Complex Measure.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "642eac7d7e6cf29c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f817cd730e4dc5ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Borel Measure.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a12ccafb5ae16981",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cef70ea6a185b74d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Borel Regular Measure.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ccba264d923b5ef0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Topological Vector Space with Seminorms.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cd4159e0adddcc60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Weak Topology.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8828dc5a48ea4ec1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Extreme Points and Sets.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f0da980e4eff1bb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Fourier Transform.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "970892c765c304fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Convolution.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3b1d271c2c67588d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Weak Derivative.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 13
+      },
+      {
+        "id": "2420a352e3e58c04",
+        "type": "tabs",
+        "dimension": 52.7872582480091,
+        "children": [
+          {
+            "id": "0e82947ab6633954",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc51f004438d475d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Weak Derivative.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0112061e4ef56c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Weak Derivative.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbd581b68c818add",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Approximate Identity.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cacee5fd23bf7275",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Summable Function.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3cf3982409bab148",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Summable Function.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5e7bf6c756702e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Ergodic Measure.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79b721d3166c1724",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Extreme Points and Sets.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "74ebf3055b564f0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "595ad8f59f37c1e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee568ad677adda89",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "426a3c97ada45d5c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "ergodicity",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "60801509214fc457",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.50312423706055
+  },
+  "right": {
+    "id": "82bf382e913ed633",
+    "type": "split",
+    "children": [
+      {
+        "id": "05fbbbb6591f1691",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5fd535eb84e009b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Analysis/Weak Derivative.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "35a3e8565c5b4d95",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Analysis/Weak Derivative.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7837eea807a9d2c5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d2a2a97b96c60ea5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Analysis/Weak Derivative.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "3d-graph:3D Graph": false
+    }
+  },
+  "active": "3b1d271c2c67588d",
+  "lastOpenFiles": [
+    "untitled folder",
+    "Plato",
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Weak Derivative.md",
+    "Analysis/Functional Analysis/Weak Derivative.md",
+    "Analysis/Convolution.md",
+    "Analysis/Smooth Function with Compact Support.md",
+    "Analysis/Approximate Identity.md",
+    "Measure Theory/Summable Function.md",
+    "Analysis/Fourier Transform.md",
+    "Measure Theory/Continuous Function with Compact Support.md",
+    "Topology/Compact sets.md",
+    "Analysis/Functional Analysis/Ergodic Measure.md",
+    "Analysis/Functional Analysis/Space of Probability Measures.md",
+    "Analysis/Functional Analysis/Amenable Group.md",
+    "Courses/Measure Theory/Measure Theory Roadmap.md",
+    "Analysis/Functional Analysis/Unitary Linear Map.md",
+    "Analysis/Absorbant Set.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Banach Space.md",
+    "Measure Theory/Lebesgue Measure.md",
+    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Analysis/Kernel.md",
+    "Analysis/Functional Analysis/Extreme Points and Sets.md",
+    "Analysis/Functional Analysis/Convex Hull.md",
+    "Topology/Topological Vector Space with Seminorms.md",
+    "Analysis/Convex Set.md",
+    "hihi.py",
+    "Machine Learning/NLP",
+    "Courses/Algebra I/ARVST.jpeg",
+    "Courses/Algebra I",
+    "Courses/LST",
+    "Courses/Functional Analysis",
+    "Courses/Measure Theory",
+    "Analysis/Functional Analysis/Examples",
+    "Analysis/Functional Analysis",
+    "Algebra/Linear Algebra"
+  ]
+}

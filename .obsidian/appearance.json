@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "callouts",
+    "mathwiki",
+    "notation-colour-blocks"
+  ],
+  "theme": "moonstone",
+  "interfaceFontFamily": "",
+  "textFontFamily": "Avenir",
+  "baseFontSize": 16
+}
