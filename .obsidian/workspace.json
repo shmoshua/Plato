@@ -221,6 +221,18 @@
             }
           },
           {
+            "id": "0686659593ffb2b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Seminorm.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bc16458c1a36fd33",
             "type": "leaf",
             "state": {
@@ -424,7 +436,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -490,7 +503,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Analysis/Functional Analysis/Seminorm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -507,7 +520,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Analysis/Functional Analysis/Seminorm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -530,7 +543,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md"
+                "file": "Analysis/Functional Analysis/Seminorm.md"
               }
             }
           }
@@ -553,10 +566,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0e82947ab6633954",
+  "active": "0686659593ffb2b1",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Gauge Function.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Functional Analysis/Gauge Function.md",
     "Algebra/Unitary Representation of a Group.md",
     "Analysis/Fourier Transform.md",
     "Analysis/Functional Analysis/Group Representation.md",
