@@ -187,9 +187,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "63e23ee15867079b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Fourier Transform.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       },
       {
         "id": "2420a352e3e58c04",
@@ -203,6 +215,30 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c8414139e2f101c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Fourier Transform.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99884fdf1bc9eb62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Convolution.md",
                 "mode": "preview",
                 "source": false
               }
@@ -359,7 +395,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Sobolev Space.md",
+                "file": "Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -376,7 +412,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Sobolev Space.md",
+                "file": "Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -399,7 +435,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Sobolev Space.md"
+                "file": "Analysis/Fourier Transform.md"
               }
             }
           }
@@ -422,12 +458,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "cd294558588f1652",
+  "active": "6c8414139e2f101c",
   "lastOpenFiles": [
-    "Analysis/Fourier Transform.md",
-    "Analysis/Functional Analysis/Sobolev Space.md",
     "Analysis/Convolution.md",
+    "Analysis/Fourier Transform.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Functional Analysis/Sobolev Space.md",
     "Analysis/Lp Space.md",
     "Analysis/Smooth Function with Compact Support.md",
     "Analysis/Approximate Identity.md",

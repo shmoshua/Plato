@@ -100,14 +100,18 @@
 > Let $f\in W^{2,k}(\mathbb{R}^n)$, the [[Sobolev space]], then for all $\left| \alpha \right|\leq k$, $$\mathcal{F}(D^\alpha_{w}f)(\xi)=i^{\left| \alpha \right|}\xi^\alpha \mathcal{F}(f)(\xi)$$In particular, $\xi^\alpha \hat{f}\in L^2(\mathbb{R}^n)$. 
 
 > [!proof]-
-> We will show this using induction on $k$. First, we show for $k=1$. For $\varphi\in C_{00}^\infty(\mathbb{R}^n)$, we have $\partial_{j}^wf\in L^2(\mathbb{R}^n)$ we have, by Plancherel: $$\begin{align}\braket{ \mathcal{F}(\partial^w_{j}f) , \mathcal{F}(\varphi) }&=\braket{ \partial^w_{j}f , \varphi } \\&=-\braket{ f , \partial_{j}\varphi }  \\&=-\braket{ \mathcal{F}(f) , \mathcal{F}(\partial_{j}\varphi) } \\&=-\int_{\mathbb{R}^n}^{} \hat{f}(\xi)\overline{\mathcal{F}(\partial_{j}\varphi)(\xi)} \, dm(\xi) \\&=\int_{\mathbb{R}^n}^{} \hat{f}(\xi)i\xi_{j}\overline{\hat{\varphi}(\xi)} \, dm(\xi)\\&=\braket{ i\xi_{j}\hat{f} , \hat{\varphi} } \end{align}$$As $\{ \hat{\varphi}:\varphi\in C^\infty_{00}(\mathbb{R}^n) \}$ is dense in $L^2(\mathbb{R}^n)$, we get: $$\mathcal{F}(\partial_{j}^wf)=i\xi_{j}\hat{f}$$
+> We will show this using induction on $k$. First, we show for $k=1$. For $\varphi\in C_{00}^\infty(\mathbb{R}^n)$, we have $\partial_{j}^wf\in L^2(\mathbb{R}^n)$ we have, by Plancherel: $$\begin{align}\braket{ \mathcal{F}(\partial^w_{j}f) , \mathcal{F}(\varphi) }&=\braket{ \partial^w_{j}f , \varphi } \\&=-\braket{ f , \partial_{j}\varphi }  \\&=-\braket{ \mathcal{F}(f) , \mathcal{F}(\partial_{j}\varphi) } \\&=-\int_{\mathbb{R}^n}^{} \hat{f}\overline{\mathcal{F}(\partial_{j}\varphi)} \, dm \\&=\int_{\mathbb{R}^n}^{} \hat{f}(\xi)i\xi_{j}\overline{\hat{\varphi}(\xi)} \, dm(\xi)\\&=\braket{ i\xi_{j}\mathcal{F}f, \mathcal{F\varphi} } \end{align}$$As $\{ \mathcal{F}\varphi:\varphi\in C^\infty_{00}(\mathbb{R}^n) \}$ is dense in $L^2(\mathbb{R}^n)$, we get: $$\mathcal{F}(\partial_{j}^wf)=i\xi_{j}\mathcal{F}f$$The rest follows from recursion.
 ---
 > [!lemma] Lemma 9
-> Let $r\in \mathbb{N}$. Further, let $h\in L^1(\mathbb{R}^n)$ and $\xi^\alpha h\in L^1(\mathbb{R}^n)$ for all $\left| \alpha \right|\leq r$. Then, $\mathcal{F^{*}}(h)\in C^r_{b}(\mathbb{R}^n)$ and:
+> Let $r\in \mathbb{N}$. Further, let $h,\xi^\alpha h\in L^1(\mathbb{R}^n)$ for all $\left| \alpha \right|\leq r$. Then, $\mathcal{F^{*}}(h)\in C^r_{b}(\mathbb{R}^n)$ and:
 > $$D^\alpha(\mathcal{F^{*}h})(x)=i^{\left| \alpha \right| }\mathcal{F^{*}}(\xi^\alpha h)(x)$$
 
-> [!proof]-
-> We will show this using induction on $r$. First, we show for $r=1$. Use Lemma in [[Convolution|Proposition 2]]
+> [!proof]+
+> We will show this using induction on $r$. First, we show for $r=1$. Use Lemma in [[Convolution|Proposition 4]] on:
+> 1. $X = \mathbb{R}^n$, $D=\mathbb{R}^n$
+> 1. $f(x,\xi)=h(\xi)e^{i\braket{ x , \xi }}$ where $f(\cdot,\xi)\in C^1(\mathbb{R}^n)$ and $f(x,\cdot)$
+> 2. 
+> 3. 
 > 
 ---
 > [!lemma] Lemma 10
