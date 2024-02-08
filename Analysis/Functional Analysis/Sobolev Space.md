@@ -36,7 +36,7 @@
 > [!lemma] Theorem 4 (Sobolev Embedding Theorem)
 > If $f\in W^{2,k}(\mathbb{R}^n)$ and $k>r + n / 2$, then $f\in C^r_{b}(\mathbb{R}^n)$, i.e. there exists a function $g\in C^r_{b}(\mathbb{R}^n)$ s.t. $f=g$ $m$-a.e. Moreover, the inclusion $$W^{2,k}(\mathbb{R}^n)\hookrightarrow C^r_{b}(\mathbb{R}^n)$$ is a bounded operator.
 
-> [!proof]+
+> [!proof]- Proof (Incomplete)
 > By [[Fourier Transform|Lemma 8]], $\xi^\alpha \hat{f}\in L^2(\mathbb{R}^n)$ for all $\left| \alpha \right|\leq k$. To show that $f\in C^r_{b}(\mathbb{R}^n)$, it suffices to show that $$\xi^\alpha \hat{f}\in L^1(\mathbb{R}^n)$$for all $\left| \alpha \right|\leq r$. We can write: $$\xi^\alpha \hat{f}=h_{1}\cdot h_{2,\alpha}$$ where:
 > 1. $h_{1}:=(1+\left\| \xi \right\|^k)\hat{f}$
 > 2. $h_2:= \frac{\xi^\alpha}{1+\left\| \xi \right\|^k}$
@@ -47,4 +47,5 @@
 >  2. **Showing $h_{1}\in L^2$**:
 >    We have: $$\left\| \xi \right\| \leq \sum_{j=1}^{n}\left| \xi_{j} \right| \leq \left( \sum_{j=1}^{n}\left| \xi_{j} \right|^k  \right)^{1/k}n^{1-1/k} $$Therefore, $$\left\| \xi \right\| ^k\leq \left( \sum_{j=1}^{n}\left| \xi_{j} \right|^k  \right)n^{k-1} $$Thus, $$\left| h_{1}(\xi) \right| \leq \left| \hat{f}(\xi) \right| +n^{k-1}\sum_{j=1}^{n}\left| \xi_{j}^k\hat{f}(\xi) \right| $$and by [[Fourier Transform|Plancherel]] and [[Fourier Transform|Lemma 8]], $$\begin{align}\left\| h_{1} \right\|_{2}\leq \left\| f \right\|_{2}+n^{k-1}\sum_{j=1}^{n}\left\| D^{\alpha_{j}}_{w}f \right\|_{2}  \leq n^{k-1}\left\| f \right\|_{2,k} \end{align}$$where $\alpha_{j}=(0,\dots,k ,\dots0)$ at $j$.
 > 3. **Showing $f\in C^r_{b}(\mathbb{R}^n)$**:
->    Now, we have by [[Lp Space|Hölder's inequality]]: $$\left\| \xi^\alpha \hat{f} \right\|_{1}\leq \left\| h_{1} \right\| _{2}\left\| h_{2} \right\| _{2} $$and $\xi^\alpha \hat{f}\in L^1(\mathbb{R}^n)$. Therefore, by [[Fourier Transform|Lemma 10]], $f\in C^r_{b}(\mathbb{R}^n)$. Fureth
+>    Now, we have by [[Lp Space|Hölder's inequality]]: $$\left\| \xi^\alpha \hat{f} \right\|_{1}\leq \left\| h_{1} \right\| _{2}\left\| h_{2,\alpha} \right\| _{2} $$and $\xi^\alpha \hat{f}\in L^1(\mathbb{R}^n)$. Therefore, by [[Fourier Transform|Lemma 10]], $f\in C^r_{b}(\mathbb{R}^n)$. Further, $$\left\| f \right\|_{b,r}=\sum_{\left| \alpha \right| \leq k}^{} \left\| D^\alpha f \right\| _{b}\leq\sum_{\left| \alpha \right| \leq k}^{} \left\| \xi^\alpha \hat{f} \right\|_{1} \leq\sum_{\left| \alpha \right| \leq k}^{}\left\| h_{1} \right\|_{2}\left\| h_{2,\alpha} \right\| _{2}$$
+---
