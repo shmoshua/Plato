@@ -424,8 +424,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -491,7 +490,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Gauge Function.md",
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -508,7 +507,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Gauge Function.md",
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -531,7 +530,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Gauge Function.md"
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md"
               }
             }
           }
@@ -554,8 +553,9 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "bc16458c1a36fd33",
+  "active": "0e82947ab6633954",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Gauge Function.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Algebra/Unitary Representation of a Group.md",
     "Analysis/Fourier Transform.md",
@@ -583,7 +583,6 @@
     "Analysis/Functional Analysis/Ergodic Measure.md",
     "Analysis/Functional Analysis/Space of Probability Measures.md",
     "Analysis/Functional Analysis/Amenable Group.md",
-    "Courses/Measure Theory/Measure Theory Roadmap.md",
     "hihi.py",
     "Machine Learning/NLP",
     "Courses/Algebra I/ARVST.jpeg",
