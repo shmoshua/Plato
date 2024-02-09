@@ -245,235 +245,19 @@
             }
           },
           {
-            "id": "0b27cf94f03780ff",
+            "id": "aea0842aad1d780b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0686659593ffb2b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Adjoint Linear Map.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc16458c1a36fd33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Gauge Function.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cfacbaf4fc4881fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Unitary Representation of a Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0fe887dae1015c9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Group Representation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ae5049645cdb6ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Adjoint Linear Map.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58aa9436175fce93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e34b1db2eb11ef8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Banach Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a61a3490049bc0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Banach Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f24c9aae4ce6a878",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Normed Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd294558588f1652",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Sobolev Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c8414139e2f101c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Fourier Transform.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99884fdf1bc9eb62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Lp Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc51f004438d475d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Fourier Transform.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbd581b68c818add",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Weak Derivative.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cacee5fd23bf7275",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Summable Function.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3cf3982409bab148",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Summable Function.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5e7bf6c756702e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Ergodic Measure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79b721d3166c1724",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Extreme Points and Sets.md",
+                "file": "Topology/Continuous Functions in Metric Spaces.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -539,7 +323,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Banach Space.md",
+                "file": "Topology/Continuous Functions in Metric Spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -556,7 +340,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Banach Space.md",
+                "file": "Topology/Continuous Functions in Metric Spaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -579,7 +363,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Banach Space.md"
+                "file": "Topology/Continuous Functions in Metric Spaces.md"
               }
             }
           }
@@ -602,11 +386,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "49d364ba944a66c7",
+  "active": "aea0842aad1d780b",
   "lastOpenFiles": [
+    "Analysis/Continuous Functions in Normed Spaces.md",
+    "Topology/Continuous Functions in Metric Spaces.md",
+    "Analysis/Banach Space.md",
     "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
     "Analysis/Functional Analysis/Dual Space.md",
-    "Analysis/Banach Space.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Functional Analysis/Bidual Space.md",
     "Analysis/Functional Analysis/Adjoint Linear Map.md",
@@ -630,8 +416,6 @@
     "Analysis/Weak Derivative.md",
     "untitled folder",
     "Plato",
-    "Measure Theory/Summable Function.md",
-    "Measure Theory/Continuous Function with Compact Support.md",
     "hihi.py",
     "Machine Learning/NLP",
     "Courses/Algebra I/ARVST.jpeg",
