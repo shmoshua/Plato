@@ -221,18 +221,6 @@
             }
           },
           {
-            "id": "b81649653422ec31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dd4dc5427ef93af1",
             "type": "leaf",
             "state": {
@@ -448,8 +436,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -515,7 +502,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -532,7 +519,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -555,7 +542,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md"
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md"
               }
             }
           }
@@ -578,8 +565,9 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b81649653422ec31",
+  "active": "ef3492b8ffd53aaf",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Banach Space.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
@@ -605,7 +593,6 @@
     "Analysis/Functional Analysis/Diagonal Operator in Separable Hilbert Spaces.md",
     "Analysis/Convolution.md",
     "Analysis/Functional Analysis/Finite-Rank Linear Operator.md",
-    "Analysis/Functional Analysis/Examples/Finitely-additive Translation and Rotation Invariant Extension of Lebesgue Measure.md",
     "untitled folder",
     "Plato",
     "hihi.py",
