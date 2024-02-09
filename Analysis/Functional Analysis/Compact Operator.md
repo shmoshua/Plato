@@ -11,7 +11,7 @@
 > 2. If $A\in \mathcal{B}(V,V)$, $T\in \mathcal{K}(V,W)$ and $B\in \mathcal{B}(W,W)$, then: $$B\circ T\circ A\in \mathcal{K}(V,W) $$
 > 3. $\mathcal{K}(V,W)$ is closed in $\mathcal{B}(V,W)$ w.r.t. the operator norm.
 
-> [!proof]+
+> [!proof]-
 > We have that: 
 > 1. As $\{ 0 \}$ is compact, $0\in \mathcal{K}(V,W)$. 
 >    
