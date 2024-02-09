@@ -221,12 +221,24 @@
             }
           },
           {
+            "id": "49d364ba944a66c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Banach Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "adb813227597747a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Dual Space.md",
+                "file": "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
                 "mode": "preview",
                 "source": false
               }
@@ -460,7 +472,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -526,7 +539,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Analysis/Banach Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -543,7 +556,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Analysis/Banach Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -566,7 +579,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md"
+                "file": "Analysis/Banach Space.md"
               }
             }
           }
@@ -589,14 +602,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0e82947ab6633954",
+  "active": "49d364ba944a66c7",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Bidual Space.md",
+    "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
+    "Analysis/Functional Analysis/Dual Space.md",
+    "Analysis/Banach Space.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Functional Analysis/Bidual Space.md",
     "Analysis/Functional Analysis/Adjoint Linear Map.md",
     "Analysis/Functional Analysis/Seminorm.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Analysis/Functional Analysis/Dual Space.md",
     "Analysis/Functional Analysis/Gauge Function.md",
     "Algebra/Unitary Representation of a Group.md",
     "Analysis/Fourier Transform.md",
@@ -604,7 +619,6 @@
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Multiplication Operator on Lp Space.md",
     "Analysis/Equivalence of Norms.md",
-    "Analysis/Banach Space.md",
     "Analysis/Normed Space.md",
     "Analysis/Norm.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
@@ -618,7 +632,6 @@
     "Plato",
     "Measure Theory/Summable Function.md",
     "Measure Theory/Continuous Function with Compact Support.md",
-    "Topology/Compact sets.md",
     "hihi.py",
     "Machine Learning/NLP",
     "Courses/Algebra I/ARVST.jpeg",
