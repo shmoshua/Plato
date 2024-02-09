@@ -23,13 +23,13 @@
 > [!lemma] Lemma 2
 > Let $T\in \mathcal{B}(\mathcal{H})$ and $T=T^{*}$. Then, $$\left\| T \right\| =\sup_{\|v\|\leq 1}\left| \braket{ T(v) , v }  \right| $$
 
-> [!proof]+
+> [!proof]-
 > Let $\alpha:=\sup_{\|v\|\leq 1}\left| \braket{ T(v) , v }  \right|\leq \sup_{\|v\|\leq 1}\left\| T(v) \right\|\|v\|\leq\sup_{\|v\|\leq 1}\|T(v)\|=\|T\|$. So we show that $\left\| T \right\|\leq\alpha$, more specifically, we show that for all $v,w\in \mathcal{H}$: $$\left| \braket{ T(v) , w }  \right| \leq\alpha \|v\|\|w\| $$Wlog we can assume $\braket{ T(v) , w }\in \mathbb{R}$ (otherwise we can rotate it onto the real plane). Then, we have: $$\begin{align}\braket{ T(v+w) , v+w }  &=\braket{ T(v) ,v  }+2\braket{ T(v) , w } +\braket{ T(w) , w }  \\\braket{ T(v-w) , v-w }  &=\braket{ T(v) ,v  }-2\braket{ T(v) , w } +\braket{ T(w) , w }  \end{align}$$Hence, $$\begin{align}4\left| \braket{ T(v) , w } \right|  &=\left|\braket{ T(v+w) , v+w }-\braket{ T(v-w) , v-w }  \right|\\&\leq\left|\braket{ T(v+w) , v+w }\right|+\left|\braket{ T(v-w) , v-w }  \right|\\&\leq\alpha \|v+w\|^{2} +\alpha\|v-w\|^{2} \\&=2\alpha (\|v\|^{2}+\|w\|^{2})\end{align} $$from the parallelogram identity. As this holds for all $v,w\in \mathcal{H}$, we have $v'=\frac{v}{\sqrt{ a }}$ and $w'=\sqrt{ a }w$ for $a>0$. Then, $$4\left| \braket{ T(v) , w }  \right| \leq 2\alpha\left(  \frac{\|v\|^{2}}{a}+a\|w\|^{2} \right)$$By assuming $w\neq 0$ and setting $a=\|v\| / \|w\|$, $$4\left| \braket{ T(v) , w }  \right| \leq 4\alpha\|v\|\|w\|$$From which we have the desired inequality. Therefore, $$\|T\|=\sup_{\|v\|,\|w\|\leq 1}\left| \braket{ T(v) , w }  \right| \leq\alpha$$from Lemma 1.3.
 ---
 > [!lemma] Lemma 3
 > Either $\left\| T \right\|$ or $-\left\| T \right\|$ is an eigenvalue of $T$.
 
-> [!proof]+
+> [!proof]-
 > We may assume that $T \neq 0$. Let $(v_{n})_{n\geq 1}$ s.t. $\left\| v_{n} \right\|=1$ and $$\lim_{ n \to \infty } \left| \braket{ T(v_{n}) , v_{n} }  \right| =\left\| T \right\| $$this exists due to Lemma 2. We may also assume that $\lim_{ n \to \infty }\braket{ T(v_{n}) , v_{n} }=\lambda$ where $\left| \lambda \right|=\left\| T \right\|$
 > 
 > As $T$ is compact, we have that $(T(v_{n}))_{n}\subseteq \overline{T(B_{\leq 1}(0))}$ and modulo passing to the subsequence, we may assume that $\lim_{ n \to \infty }T(v_{n})=:w$. Then, $$\begin{align}\left\| T(v_{n})-\lambda v_{n} \right\|^{2}&=\left\| T(v_{n}) \right\|^{2} -2\lambda \braket{ T(v_{n}) , v_{n} } +\lambda^{2}\left\| v_{n} \right\| ^{2} \\&\leq \left\| T \right\| ^{2}-2\lambda \braket{ T(v_{n}) , v_{n} } +\lambda^{2}\\&=2(\left\| T \right\| ^{2}-\lambda \braket{ T(v_{n}) , v_{n} } )\to 2(\left\| T \right\| ^{2}-\left\| T \right\| ^{2})=0\end{align} $$This implies that $\left\| w-\lambda v_{n} \right\|\to 0$ and $\lim_{ n \to \infty }\lambda v_{n}=w$. As $\left\| v_{n} \right\|=1$ and $\lambda\neq 0$, $w\neq 0$.
@@ -42,7 +42,7 @@
 > 2. for all eigenvalue $\lambda\neq 0$, $\text{dim } \mathcal{H}_{\lambda}<+\infty$ and
 > 3. for all $\varepsilon>0$, $$\{ \lambda\in \mathbb{C}:\left| \lambda \right| \geq\varepsilon, \text{dim }\mathcal{H}_{\lambda}>0 \}$$is finite.
 
-> [!proof]+
+> [!proof]-
 > We have that: 
 > 
 > 1. By [[Poset|Zorn's lemma]], we can choose an orthonormal set $A\subseteq \mathcal{H}$ of eigenvalues of $T$ that is maximal among all subsets of consisting eigenvectors.

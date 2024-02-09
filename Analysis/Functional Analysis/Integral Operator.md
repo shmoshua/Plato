@@ -12,7 +12,7 @@
 > For all $f\in L^2(X)$, 
 > 1. $T_{K}f$ is well-defined for all $f\in L^2(X)$
 > 2. $T_{K}$ is bounded.
-> 3. $T_{K}^{*}=T_{K^{*}}$ where $K^{*}(x,y)=\overline{K(x,y)}$
+> 3. $T_{K}^{*}=T_{K^{*}}$ where $K^{*}(x,y)=\overline{K(y,x)}$
 > 4. $T_{K}$ is [[Adjoint Linear Map|self-adjoint]] if and only if for all $x,y\in X$: $K(x,y)=\overline{K(y,x)}$.
 
 > [!proof]-
