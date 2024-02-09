@@ -233,6 +233,18 @@
             }
           },
           {
+            "id": "209d68e3912b1e88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Kernel.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0dbba1e828656abe",
             "type": "leaf",
             "state": {
@@ -352,7 +364,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -418,7 +431,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Unitary Representation of a Group.md",
+                "file": "Analysis/Kernel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +448,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Unitary Representation of a Group.md",
+                "file": "Analysis/Kernel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -458,7 +471,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Unitary Representation of a Group.md"
+                "file": "Analysis/Kernel.md"
               }
             }
           }
@@ -481,14 +494,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0e82947ab6633954",
+  "active": "209d68e3912b1e88",
   "lastOpenFiles": [
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
     "Algebra/Unitary Representation of a Group.md",
     "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
-    "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
     "Analysis/Functional Analysis/Integral Operator.md",
     "Algebra/Integral Domain.md",
     "Analysis/Functional Analysis/Compact Operator.md",
