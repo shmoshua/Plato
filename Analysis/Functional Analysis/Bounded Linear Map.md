@@ -104,7 +104,7 @@
 > 	Further, notice that $\left( \sum_{i=1}^{n}z_{i} \right)_{n}$ is a Cauchy sequence, as for $n\geq m\geq N$: $$\left\| \sum_{i=1}^{n}z_{i}-\sum_{i=1}^{m}z_{i} \right\| \leq \sum_{i=m+1}^{n}\|z_{i}\|\le \sum_{i=m+1}^{n} \frac{1}{2^i}\leq \frac{1}{2^m}\leq \frac{1}{2^N}$$Therefore, $\sum_{i=1}^{n}z_{i} \to x$ in $V$ and since $\left\| y-T\left( \sum_{i=1}^{n}z_{i} \right) \right\|< \frac{c}{2^n}$, we get that $y=T(x)$. However, $$\|x\|\le \sum_{i=1}^{\infty}\left\| z_{i} \right\| < \sum_{i=1}^{\infty} \frac{1}{2^i}= 1$$It follows that $B_{<c}(0)\subseteq T(B_{<1}(0))$.
 > 3. **Showing $T$ is open**:
 >    Let $U\subseteq V$ be an open set. Then, for any $v\in U$, there exists $\varepsilon>0$ s.t. $B_{<\varepsilon}(v)\subseteq U$.  Then,$$B_{<c\varepsilon }(T(v))=T(v)+B_{<c \varepsilon}(0)\subseteq T(v)+T(B_{<\varepsilon}(0))=T(B_{<\varepsilon}(v))\subseteq T(U)$$Therefore, $T(U)$ is open.
-- **Remark**: If $T\in \mathcal{B}(V,W)$ bijective, then, $T^{-1}\in \mathcal{B}(W,V)$ as $(T^{-1})^{-1}(U)=T(U)$ for any open $U\subseteq V$.
+- **Corollary**: Let $V,W$ be Banach spaces and if $T\in \mathcal{B}(V,W)$ bijective, then, $T^{-1}\in \mathcal{B}(W,V)$ as $(T^{-1})^{-1}(U)=T(U)$ for any open $U\subseteq V$.
 ---
 > [!lemma] Theorem 7 (Closed Graph Theorem)
 > Let $V,W$ be Banach spaces and $T:V\to W$ is linear. If $$\text{graph}(T):=\{ (v,T(v)):v\in V \}\subseteq V\times W$$ is closed, $T$ is bounded.
