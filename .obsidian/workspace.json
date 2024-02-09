@@ -221,12 +221,36 @@
             }
           },
           {
+            "id": "a4bf2a84847dea29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Meager Set.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6e3f3969466b0a64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Topology/Complete Metric Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "419f67ccee0bb911",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Dense Subset.md",
                 "mode": "preview",
                 "source": false
               }
@@ -419,7 +443,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Complete Metric Space.md",
+                "file": "Analysis/Functional Analysis/Meager Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -436,7 +460,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Complete Metric Space.md",
+                "file": "Analysis/Functional Analysis/Meager Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -459,7 +483,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Complete Metric Space.md"
+                "file": "Analysis/Functional Analysis/Meager Set.md"
               }
             }
           }
@@ -482,12 +506,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6e3f3969466b0a64",
+  "active": "a4bf2a84847dea29",
   "lastOpenFiles": [
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Topology/Complete Metric Space.md",
     "Topology/Dense Subset.md",
     "Analysis/Functional Analysis/Meager Set.md",
-    "Topology/Complete Metric Space.md",
-    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Algebra/Unitary Representation of a Group.md",
     "Topology/Closure.md",
     "Topology/Interior.md",
