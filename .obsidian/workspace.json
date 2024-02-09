@@ -340,8 +340,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -407,7 +406,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -424,7 +423,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -447,7 +446,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md"
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md"
               }
             }
           }
@@ -470,11 +469,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "63e23ee15867079b",
+  "active": "0e82947ab6633954",
   "lastOpenFiles": [
-    "Measure Theory/Continuous Function with Compact Support.md",
     "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Measure Theory/Continuous Function with Compact Support.md",
     "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
     "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
     "Analysis/Functional Analysis/Integral Operator.md",
