@@ -221,6 +221,18 @@
             }
           },
           {
+            "id": "24e9b81438508969",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a4bf2a84847dea29",
             "type": "leaf",
             "state": {
@@ -443,7 +455,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Meager Set.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -460,7 +472,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Meager Set.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -483,7 +495,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Meager Set.md"
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md"
               }
             }
           }
@@ -506,12 +518,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a4bf2a84847dea29",
+  "active": "24e9b81438508969",
   "lastOpenFiles": [
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Complete Metric Space.md",
-    "Topology/Dense Subset.md",
     "Analysis/Functional Analysis/Meager Set.md",
+    "Topology/Dense Subset.md",
     "Algebra/Unitary Representation of a Group.md",
     "Topology/Closure.md",
     "Topology/Interior.md",
@@ -533,7 +546,6 @@
     "Topology/Locally Compact Topological Space.md",
     "Analysis/Complex Measure.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Analysis/Smooth Function with Compact Support.md",
     "untitled folder",
     "Plato",
     "hihi.py",
