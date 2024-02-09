@@ -1,7 +1,7 @@
 #Definition #Analysis #FunctionalAnalysis 
 
 > [!definition]
-> For a topological space $X$, the ***support*** of a function $f:X\to \mathbb{R}$ is defined as: $$\text{supp }f:=\overline{f^{-1}[X \backslash\{ 0 \}]}$$
+> For a topological space $X$, the ***support*** of a function $f:X\to \mathbb{R}$ is defined as: $$\text{supp }f:=\overline{f^{-1}[\mathbb{C}\backslash\{ 0 \}]}$$
 > Further if $\text{supp }f$ is compact and $f$ is smooth, then $f$ is a smooth function with compact support, i.e. $f\in C_{00}^\infty(X)$.
 - **Remark**: If $X$ is Euclidean, bounded support means compact support. 
 ---

@@ -1,7 +1,7 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> For a [[topological space]] $X$, $(C_{c}(X),\|\cdot\|_{b})$ denotes the space of ***continuous functions $f:X\to \mathbb{C}$ with compact support*** where: $$\text{supp }f:=\overline{f^{-1}[X \backslash\{ 0 \}]}$$
+> For a [[topological space]] $X$, $(C_{c}(X),\|\cdot\|_{b})$ denotes the space of ***continuous functions $f:X\to \mathbb{C}$ with compact support*** where: $$\text{supp }f:=\overline{f^{-1}[\mathbb{C}\backslash\{ 0 \}]}$$
 - **Remark**: If $X$ is not compact, $C_{c}(X)$ is not complete.
 ---
 ##### Properties

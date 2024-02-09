@@ -194,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unitary Representation of a Group.md",
+                "file": "Measure Theory/Continuous Function with Compact Support.md",
                 "mode": "source",
                 "source": true
               }
@@ -215,6 +215,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e41c1f01ec818b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Compact Metric Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -250,14 +262,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Functions in Metric Spaces.md",
+                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -323,7 +335,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Continuous Functions in Metric Spaces.md",
+                "file": "Topology/Compact Metric Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -340,7 +352,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Continuous Functions in Metric Spaces.md",
+                "file": "Topology/Compact Metric Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -363,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Continuous Functions in Metric Spaces.md"
+                "file": "Topology/Compact Metric Space.md"
               }
             }
           }
@@ -386,20 +398,26 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "aea0842aad1d780b",
+  "active": "0e41c1f01ec818b2",
   "lastOpenFiles": [
-    "Analysis/Continuous Functions in Normed Spaces.md",
-    "Topology/Continuous Functions in Metric Spaces.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Locally Compact Topological Space.md",
+    "Analysis/Complex Measure.md",
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Measure Theory/Continuous Function with Compact Support.md",
+    "Algebra/Unitary Representation of a Group.md",
+    "Analysis/Smooth Function with Compact Support.md",
     "Analysis/Banach Space.md",
+    "Topology/Continuous Functions in Metric Spaces.md",
+    "Analysis/Continuous Functions in Normed Spaces.md",
     "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
     "Analysis/Functional Analysis/Dual Space.md",
-    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Functional Analysis/Bidual Space.md",
     "Analysis/Functional Analysis/Adjoint Linear Map.md",
     "Analysis/Functional Analysis/Seminorm.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Functional Analysis/Gauge Function.md",
-    "Algebra/Unitary Representation of a Group.md",
     "Analysis/Fourier Transform.md",
     "Analysis/Functional Analysis/Group Representation.md",
     "Analysis/Hilbert Space.md",
@@ -408,12 +426,6 @@
     "Analysis/Normed Space.md",
     "Analysis/Norm.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
-    "Analysis/Lp Space.md",
-    "Analysis/Functional Analysis/Weak Derivative.md",
-    "Analysis/Approximate Identity.md",
-    "Analysis/Convolution.md",
-    "Analysis/Smooth Function with Compact Support.md",
-    "Analysis/Weak Derivative.md",
     "untitled folder",
     "Plato",
     "hihi.py",
