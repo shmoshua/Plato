@@ -221,12 +221,12 @@
             }
           },
           {
-            "id": "50e9e78e7ac3312c",
+            "id": "dd4dc5427ef93af1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Analysis/Banach Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -503,7 +503,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Analysis/Banach Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -520,7 +520,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Analysis/Banach Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -543,7 +543,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Lp Space.md"
+                "file": "Analysis/Banach Space.md"
               }
             }
           }
@@ -566,12 +566,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "50e9e78e7ac3312c",
+  "active": "dd4dc5427ef93af1",
   "lastOpenFiles": [
-    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
-    "Courses/Functional Analysis/Exercise Sheet 6.md",
-    "Analysis/Lp Space.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Banach Space.md",
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Lp Space.md",
+    "Courses/Functional Analysis/Exercise Sheet 6.md",
     "Analysis/Equivalence of Norms.md",
     "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
     "Analysis/Functional Analysis/Open and Closed Maps.md",
@@ -593,7 +594,6 @@
     "Analysis/Convolution.md",
     "Analysis/Functional Analysis/Finite-Rank Linear Operator.md",
     "Analysis/Functional Analysis/Examples/Finitely-additive Translation and Rotation Invariant Extension of Lebesgue Measure.md",
-    "Topology/Compact sets.md",
     "untitled folder",
     "Plato",
     "hihi.py",

@@ -1,4 +1,4 @@
-=#Definition #LST #Analysis 
+#Definition #LST #Analysis 
 
 > [!definition]
 > A [[Analysis/Normed Space|normed space]] $(V,\|\cdot\|)$ is called ***Banach*** or ***complete*** if every [[Cauchy Sequence|Cauchy sequence]] in it converges, i.e. the underlying [[metric space]] $(V,d)$ is [[complete]].
