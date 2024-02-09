@@ -221,6 +221,18 @@
             }
           },
           {
+            "id": "b81649653422ec31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "dd4dc5427ef93af1",
             "type": "leaf",
             "state": {
@@ -503,7 +515,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Banach Space.md",
+                "file": "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -520,7 +532,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Banach Space.md",
+                "file": "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -543,7 +555,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Banach Space.md"
+                "file": "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md"
               }
             }
           }
@@ -566,11 +578,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "dd4dc5427ef93af1",
+  "active": "b81649653422ec31",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Analysis/Banach Space.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Banach Space.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Lp Space.md",
     "Courses/Functional Analysis/Exercise Sheet 6.md",
     "Analysis/Equivalence of Norms.md",
