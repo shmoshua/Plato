@@ -209,12 +209,12 @@
         "dimension": 52.7889591719379,
         "children": [
           {
-            "id": "ef3492b8ffd53aaf",
+            "id": "58f13617e1b417d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Topology/Topological Vector Space with Seminorms.md",
                 "mode": "preview",
                 "source": false
               }
@@ -239,6 +239,18 @@
               "type": "markdown",
               "state": {
                 "file": "Analysis/Functional Analysis/Gauge Function.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d07bb9a26a5c18eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -472,8 +484,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -539,7 +550,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Gauge Function.md",
+                "file": "Topology/Topological Vector Space with Seminorms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -556,7 +567,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Gauge Function.md",
+                "file": "Topology/Topological Vector Space with Seminorms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -579,7 +590,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Gauge Function.md"
+                "file": "Topology/Topological Vector Space with Seminorms.md"
               }
             }
           }
@@ -602,10 +613,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5f5bad3dab41e865",
+  "active": "58f13617e1b417d1",
   "lastOpenFiles": [
-    "Topology/Topological Vector Space with Seminorms.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Topology/Topological Vector Space with Seminorms.md",
     "Analysis/Functional Analysis/Gauge Function.md",
     "Analysis/Absorbant Set.md",
     "Analysis/Convex Set.md",
