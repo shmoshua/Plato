@@ -25,7 +25,7 @@
 >  is weak\*-closed.
 > 2. The space of probability measures, $$M^1(X):=\{ \mu\in M(X,\mathbb{R}):\mu \text{ is non-negative, }\mu(X)=1 \}$$is weak\*-closed.
 		
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. From the [[Analysis/Complex Measure|Riesz representation theorem]], there exists a bijection: $$\begin{array}{cccc}R:&{(M(X,\mathbb{R}),\|\cdot \|)}&\to&{(C(X,\mathbb{R})^{*},\|\cdot \|_{b})}\\&{\mu} &\mapsto & {\Phi_{\mu}} \end{array}{}$$
 > where $\Phi_{\mu}(f)=\int_{X}^{} f \, d\mu$ and $\|\mu\|=\left| \mu \right|(X)$.
