@@ -221,12 +221,24 @@
             }
           },
           {
-            "id": "cc5616918f331379",
+            "id": "42dbf2a0bb5dd559",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Vector Space with Seminorms.md",
+                "file": "Analysis/Functional Analysis/Mean (Group Theory).md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bbb3d8bb35fdff2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Space of Probability Measures.md",
                 "mode": "preview",
                 "source": false
               }
@@ -339,150 +351,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6e3f3969466b0a64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Complete Metric Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "419f67ccee0bb911",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Dense Subset.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a643e4483fb180a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Dense Subset.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31615ad79c0bf023",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3040b26ba5d230dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Integral Operator.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8cecfc30e8b1865c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cfbad8c2d618980d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Compact Operator.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "902cccfea7eb9a86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Finite-Rank Linear Operator.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec7a799c738e9b18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Examples/Finitely-additive Translation and Rotation Invariant Extension of Lebesgue Measure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49d364ba944a66c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Banach Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "adb813227597747a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aea0842aad1d780b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -551,7 +419,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Topological Vector Space with Seminorms.md",
+                "file": "Analysis/Functional Analysis/Mean (Group Theory).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -568,7 +436,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Topological Vector Space with Seminorms.md",
+                "file": "Analysis/Functional Analysis/Mean (Group Theory).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -591,7 +459,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Topological Vector Space with Seminorms.md"
+                "file": "Analysis/Functional Analysis/Mean (Group Theory).md"
               }
             }
           }
@@ -614,18 +482,27 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "cc5616918f331379",
+  "active": "42dbf2a0bb5dd559",
   "lastOpenFiles": [
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Pushforward Measure.md",
+    "Analysis/Functional Analysis/Space of Probability Measures.md",
+    "Analysis/Functional Analysis/Meager Set.md",
+    "Analysis/Banach Space.md",
+    "Analysis/Functional Analysis/Examples/Finitely-additive Translation and Rotation Invariant Extension of Lebesgue Measure.md",
+    "Analysis/Functional Analysis/Finite-Rank Linear Operator.md",
+    "Analysis/Functional Analysis/Compact Operator.md",
+    "Topology/Dense Subset.md",
+    "Topology/Complete Metric Space.md",
+    "Analysis/Functional Analysis/Mean (Group Theory).md",
+    "Topology/Topological Vector Space with Seminorms.md",
     "Analysis/Automorphism on Vector Spaces.md",
     "Topology/Weak Topology.md",
-    "Topology/Topological Vector Space with Seminorms.md",
     "Analysis/Functional Analysis/Convex Hull.md",
     "Analysis/Functional Analysis/Gauge Function.md",
     "Analysis/Absorbant Set.md",
     "Analysis/Convex Set.md",
     "Courses/Functional Analysis/Exercise Sheet 10.md",
-    "Analysis/Pushforward Measure.md",
     "Measure Theory/Dirac Measure.md",
     "Measure Theory/Borel Measure.md",
     "Analysis/Hilbert Space.md",
@@ -633,15 +510,6 @@
     "Topology/Initial Topology.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Lp-loc Space.md",
-    "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Topological Vector Space.md",
-    "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
-    "Analysis/Banach Space.md",
-    "Analysis/Lp Space.md",
-    "Courses/Functional Analysis/Exercise Sheet 6.md",
-    "Analysis/Equivalence of Norms.md",
-    "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
-    "Analysis/Functional Analysis/Open and Closed Maps.md",
     "untitled folder",
     "Plato",
     "hihi.py",
