@@ -221,24 +221,12 @@
             }
           },
           {
-            "id": "24d96cc260a316c9",
+            "id": "7b81c240219fa816",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Dirac Measure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9982c89afb8477ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Borel Measure.md",
+                "file": "Topology/Weak Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -515,7 +503,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Measure Theory/Dirac Measure.md",
+                "file": "Topology/Weak Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -532,7 +520,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Measure Theory/Dirac Measure.md",
+                "file": "Topology/Weak Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -555,7 +543,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Measure Theory/Dirac Measure.md"
+                "file": "Topology/Weak Topology.md"
               }
             }
           }
@@ -578,11 +566,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "24d96cc260a316c9",
+  "active": "7b81c240219fa816",
   "lastOpenFiles": [
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
-    "Measure Theory/Borel Measure.md",
     "Topology/Weak Topology.md",
+    "Measure Theory/Dirac Measure.md",
+    "Measure Theory/Borel Measure.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
     "Topology/Initial Topology.md",
@@ -605,7 +594,6 @@
     "Algebra/Unitary Representation of a Group.md",
     "Topology/Closure.md",
     "Topology/Interior.md",
-    "Analysis/Kernel.md",
     "untitled folder",
     "Plato",
     "hihi.py",
