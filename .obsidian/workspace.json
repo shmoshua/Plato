@@ -449,7 +449,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -515,7 +515,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Measure Theory/Borel Measure.md",
+                "file": "Topology/Weak Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -532,7 +532,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Measure Theory/Borel Measure.md",
+                "file": "Topology/Weak Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -555,7 +555,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Measure Theory/Borel Measure.md"
+                "file": "Topology/Weak Topology.md"
               }
             }
           }
@@ -578,10 +578,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "63e23ee15867079b",
+  "active": "e067eafb2ab9ad2e",
   "lastOpenFiles": [
-    "Analysis/Hilbert Space.md",
     "Measure Theory/Borel Measure.md",
+    "Analysis/Hilbert Space.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
     "Topology/Initial Topology.md",
