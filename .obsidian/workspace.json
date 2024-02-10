@@ -221,6 +221,18 @@
             }
           },
           {
+            "id": "5abe9dd8538fbda4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Topological Vector Space with Seminorms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5f5bad3dab41e865",
             "type": "leaf",
             "state": {
@@ -461,7 +473,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -592,9 +604,10 @@
   },
   "active": "5f5bad3dab41e865",
   "lastOpenFiles": [
+    "Topology/Topological Vector Space with Seminorms.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
-    "Analysis/Absorbant Set.md",
     "Analysis/Functional Analysis/Gauge Function.md",
+    "Analysis/Absorbant Set.md",
     "Analysis/Convex Set.md",
     "Courses/Functional Analysis/Exercise Sheet 10.md",
     "Analysis/Pushforward Measure.md",
@@ -604,7 +617,6 @@
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
     "Topology/Initial Topology.md",
-    "Topology/Topological Vector Space with Seminorms.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Lp-loc Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
