@@ -226,7 +226,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Pushforward Measure.md",
+                "file": "Courses/Functional Analysis/Exercise Sheet 10.md",
                 "mode": "preview",
                 "source": false
               }
@@ -503,7 +503,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Pushforward Measure.md",
+                "file": "Courses/Functional Analysis/Exercise Sheet 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -520,7 +520,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Pushforward Measure.md",
+                "file": "Courses/Functional Analysis/Exercise Sheet 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -543,7 +543,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Pushforward Measure.md"
+                "file": "Courses/Functional Analysis/Exercise Sheet 10.md"
               }
             }
           }
@@ -568,6 +568,7 @@
   },
   "active": "00f6776000dd5406",
   "lastOpenFiles": [
+    "Analysis/Pushforward Measure.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Topology/Weak Topology.md",
     "Measure Theory/Dirac Measure.md",
@@ -593,7 +594,6 @@
     "Topology/Dense Subset.md",
     "Algebra/Unitary Representation of a Group.md",
     "Topology/Closure.md",
-    "Topology/Interior.md",
     "untitled folder",
     "Plato",
     "hihi.py",
