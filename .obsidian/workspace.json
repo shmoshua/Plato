@@ -194,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Borel Measure.md",
+                "file": "Analysis/Functional Analysis/Mean (Group Theory).md",
                 "mode": "source",
                 "source": true
               }
@@ -365,7 +365,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -431,7 +431,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Amenable Group.md",
+                "file": "Analysis/Functional Analysis/Mean (Group Theory).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -448,7 +448,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Amenable Group.md",
+                "file": "Analysis/Functional Analysis/Mean (Group Theory).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -471,7 +471,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Amenable Group.md"
+                "file": "Analysis/Functional Analysis/Mean (Group Theory).md"
               }
             }
           }
@@ -494,11 +494,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8f9b64236e2c8f74",
+  "active": "63e23ee15867079b",
   "lastOpenFiles": [
+    "Measure Theory/Borel Measure.md",
     "Analysis/Functional Analysis/Mean (Group Theory).md",
-    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Functional Analysis/Amenable Group.md",
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Functional Analysis/Space of Probability Measures.md",
     "Analysis/Pushforward Measure.md",
     "Analysis/Functional Analysis/Meager Set.md",
@@ -517,7 +518,6 @@
     "Analysis/Convex Set.md",
     "Courses/Functional Analysis/Exercise Sheet 10.md",
     "Measure Theory/Dirac Measure.md",
-    "Measure Theory/Borel Measure.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
     "Topology/Initial Topology.md",
