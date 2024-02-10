@@ -4,7 +4,7 @@
 > For a set $X$ and a family $\mathcal{F}=\{ (Y_{i},\varphi_{i}) \}_{i\in I}$ of [[Topological Space|topological spaces]] $Y_{i}$ with $\varphi_{i}:X\to Y_{i}$, the ***initial topology*** is the smallest topology that makes $\varphi_{i}$ continuous for all $i\in I$.
 > 
 > In other words, we have: 
-> 1. $\mathcal{O}_{1}:=\{ \varphi_{i}^{-1}[U_{i}]:U_{i}\in Y_{i}\text{ open },i\in I \}$
+> 1. $\mathcal{O}_{1}:=\{ \varphi_{i}^{-1}[U_{i}]:U_{i}\subseteq Y_{i}\text{ open },i\in I \}$
 > 2. $\mathcal{O}_{2}:=\text{set of all finite intersections of }\mathcal{O}_{1}$.
 > 3. $\mathcal{T}_{\mathcal{F}}:=\text{set of all arbitrary unions of }\mathcal{O}_{2}$
 > 

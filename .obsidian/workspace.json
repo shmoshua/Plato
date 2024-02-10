@@ -194,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Topology/Initial Topology.md",
                 "mode": "source",
                 "source": true
               }
@@ -221,12 +221,12 @@
             }
           },
           {
-            "id": "c0bc995e23ebc048",
+            "id": "d336dd55d51460fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Weak Topology.md",
+                "file": "Topology/Initial Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -563,7 +563,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Weak Topology.md",
+                "file": "Topology/Initial Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -580,7 +580,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Weak Topology.md",
+                "file": "Topology/Initial Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -603,7 +603,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Weak Topology.md"
+                "file": "Topology/Initial Topology.md"
               }
             }
           }
@@ -626,8 +626,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c0bc995e23ebc048",
+  "active": "63e23ee15867079b",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Topology/Initial Topology.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Topology/Weak Topology.md",
     "Topology/Topological Vector Space with Seminorms.md",
@@ -636,7 +638,6 @@
     "Topology/Topological Vector Space.md",
     "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
     "Analysis/Banach Space.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Lp Space.md",
     "Courses/Functional Analysis/Exercise Sheet 6.md",
     "Analysis/Equivalence of Norms.md",
@@ -653,7 +654,6 @@
     "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
-    "Analysis/Functional Analysis/Integral Operator.md",
     "untitled folder",
     "Plato",
     "hihi.py",
