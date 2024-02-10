@@ -41,4 +41,4 @@
 > 1. $(\lambda ^{*}(\gamma)\mu)(\chi_{\Gamma})=\mu(\lambda(\gamma ^{-1})(\chi_{\Gamma}))=\mu(\chi_{\Gamma})=1$
 > 2. $(\lambda ^{*}(\gamma)\mu)(g)=\mu(\lambda(\gamma ^{-1})(g))\geq 0$ as $\lambda(\gamma^{-1})g\geq 0$. 
 > 
-> This shows that $\lambda ^{*}(\gamma)(\mathcal{M}(\Gamma))\subseteq \mathcal{\mu}(\Gamma)$.
+> This shows that $\lambda ^{*}(\gamma)(\mathcal{M}(\Gamma))\subseteq \mathcal{M}(\Gamma)$.
