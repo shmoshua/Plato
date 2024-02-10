@@ -221,6 +221,18 @@
             }
           },
           {
+            "id": "8f9b64236e2c8f74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Amenable Group.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "42dbf2a0bb5dd559",
             "type": "leaf",
             "state": {
@@ -419,7 +431,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Mean (Group Theory).md",
+                "file": "Analysis/Functional Analysis/Amenable Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -436,7 +448,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Mean (Group Theory).md",
+                "file": "Analysis/Functional Analysis/Amenable Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -459,7 +471,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Mean (Group Theory).md"
+                "file": "Analysis/Functional Analysis/Amenable Group.md"
               }
             }
           }
@@ -482,11 +494,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "42dbf2a0bb5dd559",
+  "active": "8f9b64236e2c8f74",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Mean (Group Theory).md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
-    "Analysis/Pushforward Measure.md",
+    "Analysis/Functional Analysis/Amenable Group.md",
     "Analysis/Functional Analysis/Space of Probability Measures.md",
+    "Analysis/Pushforward Measure.md",
     "Analysis/Functional Analysis/Meager Set.md",
     "Analysis/Banach Space.md",
     "Analysis/Functional Analysis/Examples/Finitely-additive Translation and Rotation Invariant Extension of Lebesgue Measure.md",
@@ -494,7 +508,6 @@
     "Analysis/Functional Analysis/Compact Operator.md",
     "Topology/Dense Subset.md",
     "Topology/Complete Metric Space.md",
-    "Analysis/Functional Analysis/Mean (Group Theory).md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Analysis/Automorphism on Vector Spaces.md",
     "Topology/Weak Topology.md",
@@ -509,7 +522,6 @@
     "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
     "Topology/Initial Topology.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Analysis/Lp-loc Space.md",
     "untitled folder",
     "Plato",
     "hihi.py",
