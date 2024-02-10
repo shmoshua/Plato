@@ -472,8 +472,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -539,7 +538,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Weak Topology.md",
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -556,7 +555,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Weak Topology.md",
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -579,7 +578,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Weak Topology.md"
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md"
               }
             }
           }
@@ -602,8 +601,9 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ea31efdb5d652360",
+  "active": "d07bb9a26a5c18eb",
   "lastOpenFiles": [
+    "Analysis/Automorphism on Vector Spaces.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Topology/Weak Topology.md",
     "Topology/Topological Vector Space with Seminorms.md",
@@ -629,7 +629,6 @@
     "Analysis/Equivalence of Norms.md",
     "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
     "Analysis/Functional Analysis/Open and Closed Maps.md",
-    "Analysis/Functional Analysis/Dual Space.md",
     "untitled folder",
     "Plato",
     "hihi.py",
