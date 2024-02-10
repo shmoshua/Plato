@@ -221,6 +221,18 @@
             }
           },
           {
+            "id": "e067eafb2ab9ad2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Weak Topology.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d336dd55d51460fe",
             "type": "leaf",
             "state": {
@@ -238,79 +250,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Vector Space with Seminorms.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "39961034dec652b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Lp-loc Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1eaa78d75679e396",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "252d1e3b9afd739b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Topological Vector Space with Seminorms.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd4dc5427ef93af1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Banach Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ed49214f0755bf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e034db92f4b2e83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Topology/Weak Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -563,7 +503,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Initial Topology.md",
+                "file": "Topology/Weak Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -580,7 +520,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Initial Topology.md",
+                "file": "Topology/Weak Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -603,7 +543,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Initial Topology.md"
+                "file": "Topology/Weak Topology.md"
               }
             }
           }
@@ -626,13 +566,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "63e23ee15867079b",
+  "active": "e067eafb2ab9ad2e",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Topology/Initial Topology.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Topology/Weak Topology.md",
+    "Topology/Initial Topology.md",
     "Topology/Topological Vector Space with Seminorms.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Lp-loc Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Topological Vector Space.md",
