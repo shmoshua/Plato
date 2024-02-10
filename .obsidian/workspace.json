@@ -221,6 +221,18 @@
             }
           },
           {
+            "id": "b4cc8dce9b7dee23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Space of Probability Measures.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8f9b64236e2c8f74",
             "type": "leaf",
             "state": {
@@ -419,7 +431,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Amenable Group.md",
+                "file": "Analysis/Functional Analysis/Space of Probability Measures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -436,7 +448,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Amenable Group.md",
+                "file": "Analysis/Functional Analysis/Space of Probability Measures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -459,7 +471,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Amenable Group.md"
+                "file": "Analysis/Functional Analysis/Space of Probability Measures.md"
               }
             }
           }
@@ -482,12 +494,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8f9b64236e2c8f74",
+  "active": "b4cc8dce9b7dee23",
   "lastOpenFiles": [
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Functional Analysis/Amenable Group.md",
     "Analysis/Functional Analysis/Mean (Group Theory).md",
     "Measure Theory/Borel Measure.md",
-    "Analysis/Functional Analysis/Amenable Group.md",
-    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Functional Analysis/Space of Probability Measures.md",
     "Analysis/Pushforward Measure.md",
     "Analysis/Functional Analysis/Meager Set.md",
