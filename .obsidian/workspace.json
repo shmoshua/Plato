@@ -226,7 +226,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Space of Probability Measures.md",
+                "file": "Algebra/Special Linear Groups.md",
                 "mode": "preview",
                 "source": false
               }
@@ -364,7 +364,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -393,7 +394,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ergodicity",
+                "query": "projective line",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -410,7 +411,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -430,7 +432,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Algebra/Special Linear Groups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -447,7 +449,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Algebra/Special Linear Groups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -470,7 +472,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md"
+                "file": "Algebra/Special Linear Groups.md"
               }
             }
           }
@@ -493,12 +495,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d07bb9a26a5c18eb",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Ergodic Measure.md",
-    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
-    "Analysis/Functional Analysis/Extreme Points and Sets.md",
     "Analysis/Functional Analysis/Space of Probability Measures.md",
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Functional Analysis/Ergodic Measure.md",
+    "Analysis/Functional Analysis/Extreme Points and Sets.md",
     "Analysis/Functional Analysis/Amenable Group.md",
     "Analysis/Functional Analysis/Mean (Group Theory).md",
     "Measure Theory/Borel Measure.md",
