@@ -194,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convolution.md",
+                "file": "Analysis/Weak Derivative.md",
                 "mode": "source",
                 "source": true
               }
@@ -215,6 +215,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c0ca85c01d4f80e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Weak Derivative.md",
                 "mode": "preview",
                 "source": false
               }
@@ -412,7 +424,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -479,7 +492,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Analysis/Weak Derivative.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -496,7 +509,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Analysis/Weak Derivative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -519,7 +532,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md"
+                "file": "Analysis/Weak Derivative.md"
               }
             }
           }
@@ -542,17 +555,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d07bb9a26a5c18eb",
+  "active": "63e23ee15867079b",
   "lastOpenFiles": [
     "Analysis/Convolution.md",
-    "Analysis/Functional Analysis/Mean (Group Theory).md",
+    "Analysis/Weak Derivative.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Functional Analysis/Weak Derivative.md",
+    "Analysis/Functional Analysis/Mean (Group Theory).md",
     "Analysis/Fourier Transform.md",
     "Analysis/Approximate Identity.md",
     "Analysis/Smooth Function with Compact Support.md",
     "Analysis/Lp Space.md",
     "Analysis/Lp-loc Space.md",
-    "Analysis/Weak Derivative.md",
     "Algebra/Special Linear Groups.md",
     "Analysis/Functional Analysis/Space of Probability Measures.md",
     "Analysis/Functional Analysis/Ergodic Measure.md",
@@ -569,7 +583,6 @@
     "Topology/Complete Metric Space.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Analysis/Automorphism on Vector Spaces.md",
-    "Topology/Weak Topology.md",
     "untitled folder",
     "Plato",
     "hihi.py",
