@@ -238,7 +238,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis/Exercise Sheet 9.md",
+                "file": "Analysis/Lp Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -504,7 +504,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis/Exercise Sheet 9.md",
+                "file": "Analysis/Lp Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -521,7 +521,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis/Exercise Sheet 9.md",
+                "file": "Analysis/Lp Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -544,7 +544,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis/Exercise Sheet 9.md"
+                "file": "Analysis/Lp Space.md"
               }
             }
           }
@@ -569,6 +569,7 @@
   },
   "active": "9c0ca85c01d4f80e",
   "lastOpenFiles": [
+    "Courses/Functional Analysis/Exercise Sheet 9.md",
     "Analysis/Weak Derivative.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
@@ -594,7 +595,6 @@
     "Analysis/Functional Analysis/Compact Operator.md",
     "Topology/Dense Subset.md",
     "Topology/Complete Metric Space.md",
-    "Topology/Topological Vector Space with Seminorms.md",
     "untitled folder",
     "Plato",
     "hihi.py",
