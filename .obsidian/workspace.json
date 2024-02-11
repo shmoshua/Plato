@@ -221,6 +221,18 @@
             }
           },
           {
+            "id": "8e8bd248ed56b488",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Fourier Transform.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9778b879d0c838b7",
             "type": "leaf",
             "state": {
@@ -504,7 +516,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Sobolev Space.md",
+                "file": "Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -521,7 +533,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Sobolev Space.md",
+                "file": "Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -544,7 +556,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Sobolev Space.md"
+                "file": "Analysis/Fourier Transform.md"
               }
             }
           }
@@ -567,11 +579,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "63e23ee15867079b",
+  "active": "8e8bd248ed56b488",
   "lastOpenFiles": [
-    "Analysis/Weak Derivative.md",
-    "Analysis/Functional Analysis/Sobolev Space.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Functional Analysis/Sobolev Space.md",
+    "Analysis/Weak Derivative.md",
     "Analysis/Convolution.md",
     "Analysis/Functional Analysis/Weak Derivative.md",
     "Analysis/Functional Analysis/Mean (Group Theory).md",
