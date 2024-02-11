@@ -194,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Mean (Group Theory).md",
+                "file": "Analysis/Convolution.md",
                 "mode": "source",
                 "source": true
               }
@@ -215,6 +215,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d065d0936f622b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Convolution.md",
                 "mode": "preview",
                 "source": false
               }
@@ -480,7 +492,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Smooth Function with Compact Support.md",
+                "file": "Analysis/Convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -497,7 +509,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Smooth Function with Compact Support.md",
+                "file": "Analysis/Convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -520,7 +532,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Smooth Function with Compact Support.md"
+                "file": "Analysis/Convolution.md"
               }
             }
           }
@@ -543,21 +555,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "735d1fe3ed674c3d",
+  "active": "63e23ee15867079b",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Mean (Group Theory).md",
+    "Analysis/Convolution.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Fourier Transform.md",
+    "Analysis/Approximate Identity.md",
+    "Analysis/Smooth Function with Compact Support.md",
     "Analysis/Lp Space.md",
     "Analysis/Lp-loc Space.md",
     "Analysis/Weak Derivative.md",
-    "Analysis/Approximate Identity.md",
-    "Analysis/Convolution.md",
-    "Analysis/Fourier Transform.md",
     "Algebra/Special Linear Groups.md",
     "Analysis/Functional Analysis/Space of Probability Measures.md",
     "Analysis/Functional Analysis/Ergodic Measure.md",
     "Analysis/Functional Analysis/Extreme Points and Sets.md",
     "Analysis/Functional Analysis/Amenable Group.md",
-    "Analysis/Functional Analysis/Mean (Group Theory).md",
     "Measure Theory/Borel Measure.md",
     "Analysis/Pushforward Measure.md",
     "Analysis/Functional Analysis/Meager Set.md",
@@ -570,7 +583,6 @@
     "Topology/Topological Vector Space with Seminorms.md",
     "Analysis/Automorphism on Vector Spaces.md",
     "Topology/Weak Topology.md",
-    "Analysis/Functional Analysis/Convex Hull.md",
     "untitled folder",
     "Plato",
     "hihi.py",

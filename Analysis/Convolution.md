@@ -44,7 +44,7 @@
 > 1. $f*g\in C^{\infty}(\mathbb{R}^n)$ and 
 > 2. $D^\alpha(f*g)=(D^\alpha f)*g$
 
-> [!proof]-
+> [!proof]+
 > > [!lemma]
 > > Let $(X,\Sigma,\mu)$ be a $\sigma$-finite measure space, $D\subseteq \mathbb{R}^n$ an open set and $f:D\times X \to \mathbb{C}$ a measurable function s.t. 
 > > 1. $f(\cdot,y)\in C^1(D)$ for all $y\in Y$
@@ -56,7 +56,7 @@
 > > 1.  $F:x\mapsto \int_{X}^{} f(x,y) \, d\mu(y)\in C^1(D)$
 > > 2.  $\frac{ \partial F }{ \partial x_{i} }=G_{i}$ for all $i\in[n]$.
 >
-> > [!proof]-
+> > [!proof]+
 > > We have: $$\begin{align}\frac{F(x+te_{i})-F(x)}{t}&=\frac{1}{t}\int_X f(x+te_{i},y)-f(x,y)d\mu(y)\\&=\int_X \frac{f(x+te_{i},y)-f(x,y)}{t}d\mu(y)\end{align}$$As $\left| f(x+te_{i},y)-f(x,y) \right|\leq \left| f(x+te_{i},y) \right|+\left| f(x,y) \right|$, using [[Summable Function|DCT]], $$\begin{align}\lim_{ t \to 0 }\frac{F(x+te_{i})-F(x)}{t}&=\lim_{ t \to 0 }\int_X \frac{f(x+te_{i},y)-f(x,y)}{t}d\mu(y)\\&=\int_X \lim_{ t \to 0 }\frac{f(x+te_{i},y)-f(x,y)}{t}d\mu(y)\\&=\int_{X}^{} \frac{ \partial f }{ \partial x_{i} } (x,y) \, d\mu(y) \end{align} $$
 > 
 > We want to apply this lemma to 
