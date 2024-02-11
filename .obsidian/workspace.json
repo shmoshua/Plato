@@ -245,6 +245,18 @@
             }
           },
           {
+            "id": "b38fca1dda2a0e10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Dual Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bac40b684857da98",
             "type": "leaf",
             "state": {
@@ -491,7 +503,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Approximate Identity.md",
+                "file": "Analysis/Functional Analysis/Dual Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -508,7 +520,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Approximate Identity.md",
+                "file": "Analysis/Functional Analysis/Dual Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -531,7 +543,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Approximate Identity.md"
+                "file": "Analysis/Functional Analysis/Dual Space.md"
               }
             }
           }
@@ -554,11 +566,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "bac40b684857da98",
+  "active": "b38fca1dda2a0e10",
   "lastOpenFiles": [
-    "Courses/Functional Analysis/Exercise Sheet 2.md",
-    "Analysis/Functional Analysis/Sobolev Space.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Courses/Functional Analysis/Exercise Sheet 2.md",
+    "Analysis/Approximate Identity.md",
+    "Analysis/Functional Analysis/Sobolev Space.md",
     "Analysis/Lp Space.md",
     "Courses/Functional Analysis/Exercise Sheet 9.md",
     "Analysis/Weak Derivative.md",
@@ -566,7 +579,6 @@
     "Analysis/Convolution.md",
     "Analysis/Functional Analysis/Weak Derivative.md",
     "Analysis/Functional Analysis/Mean (Group Theory).md",
-    "Analysis/Approximate Identity.md",
     "Analysis/Smooth Function with Compact Support.md",
     "Analysis/Lp-loc Space.md",
     "Algebra/Special Linear Groups.md",
