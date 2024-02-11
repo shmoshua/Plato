@@ -436,8 +436,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -503,7 +502,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Courses/Functional Analysis/Exercise Sheet 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -520,7 +519,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Courses/Functional Analysis/Exercise Sheet 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -543,7 +542,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md"
+                "file": "Courses/Functional Analysis/Exercise Sheet 2.md"
               }
             }
           }
@@ -566,12 +565,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9c0ca85c01d4f80e",
+  "active": "d07bb9a26a5c18eb",
   "lastOpenFiles": [
-    "Analysis/Lp Space.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
-    "Courses/Functional Analysis/Exercise Sheet 2.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Lp Space.md",
+    "Courses/Functional Analysis/Exercise Sheet 2.md",
     "Courses/Functional Analysis/Exercise Sheet 9.md",
     "Analysis/Weak Derivative.md",
     "Analysis/Fourier Transform.md",
