@@ -194,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Sobolev Space.md",
+                "file": "Courses/Functional Analysis/Exercise Sheet 2.md",
                 "mode": "source",
                 "source": true
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Courses/Functional Analysis/Exercise Sheet 2.md",
                 "mode": "preview",
                 "source": false
               }
@@ -238,7 +238,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -483,8 +483,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -504,7 +503,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -521,7 +520,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -544,7 +543,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Lp Space.md"
+                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md"
               }
             }
           }
@@ -569,17 +568,18 @@
   },
   "active": "9c0ca85c01d4f80e",
   "lastOpenFiles": [
+    "Analysis/Lp Space.md",
+    "Analysis/Functional Analysis/Sobolev Space.md",
+    "Courses/Functional Analysis/Exercise Sheet 2.md",
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Courses/Functional Analysis/Exercise Sheet 9.md",
     "Analysis/Weak Derivative.md",
-    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
-    "Analysis/Functional Analysis/Sobolev Space.md",
     "Analysis/Fourier Transform.md",
     "Analysis/Convolution.md",
     "Analysis/Functional Analysis/Weak Derivative.md",
     "Analysis/Functional Analysis/Mean (Group Theory).md",
     "Analysis/Approximate Identity.md",
     "Analysis/Smooth Function with Compact Support.md",
-    "Analysis/Lp Space.md",
     "Analysis/Lp-loc Space.md",
     "Algebra/Special Linear Groups.md",
     "Analysis/Functional Analysis/Space of Probability Measures.md",
@@ -594,7 +594,6 @@
     "Analysis/Functional Analysis/Finite-Rank Linear Operator.md",
     "Analysis/Functional Analysis/Compact Operator.md",
     "Topology/Dense Subset.md",
-    "Topology/Complete Metric Space.md",
     "untitled folder",
     "Plato",
     "hihi.py",

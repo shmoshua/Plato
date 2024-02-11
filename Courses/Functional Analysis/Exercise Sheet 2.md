@@ -20,3 +20,11 @@ Then,
 $$ \left\| T f \right\| ^2_{2} = \sum_{n}^{}\left| Tf(n) \right| ^{2}=\sum_{n\text{ even}}^{}\left| f\left( \frac{n}{2} \right) \right| ^{2}=\sum_{n}^{}\left| f(n) \right| ^{2}=\left\| f \right\| ^{2}_{2}$$The image is $R(T)=\{ f\in \ell^{2}(\mathbb{Z}):f(n)=0 \text{ for all even }n \}$
 ---
 ##### Problem 4
+---
+We have that:
+> [!proof]+
+> From $f_{n}\xrightarrow{w^{*}}f$, we have:
+> $$\limsup_{ n \to \infty } \left| \int_{\Omega}^{} (f_{n}-f)g \, d\mu \right|=0,\quad \forall g\in L^1(\Omega) $$
+> We need to show that $\limsup_{ n \to \infty }\left| V(f_{n})-V(f) \right|=0$.
+> 1. For every $h\in L^\infty(\Omega)$,$$\left| (g*h)(x) \right| \leq\int_{\Omega}^{} \left| g(x-y)h(y) \right|  \, dy \leq \left\| h \right\| _{\infty}\left\| g \right\| _{1}$$Therefore, $$\begin{array}{cccc} {K:}&{L^\infty(\Omega)}&\to&{L^\infty(\Omega)}\\&{h} &\mapsto & {g*h} \end{array}{}$$ is well defined, $\left\| g*h \right\|_{\infty}\leq \left\| h \right\|_{\infty}\left\| g \right\|_{1}$ and $\left\| K \right\|\leq \left\| g \right\|_{1}$ with $Kh\in L^1(\Omega)$. Then, $$V(f)=\int_{\Omega}^{} Kf(x) f(x) \, dx $$
+> 2. We have for all $x\in \Omega$: $$\limsup_{ n \to \infty } \left| Kf_{n}(x)-Kf(x) \right| =\limsup_{ n \to \infty } \left| \int_{\Omega}^{} g(x-y)(f_{n}-f)(y) \, dy  \right| =0$$
