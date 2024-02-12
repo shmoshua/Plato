@@ -245,6 +245,18 @@
             }
           },
           {
+            "id": "a75990070a1d3c16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "22af5f1a6117a110",
             "type": "leaf",
             "state": {
@@ -578,10 +590,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "22af5f1a6117a110",
+  "active": "a75990070a1d3c16",
   "lastOpenFiles": [
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Courses/Functional Analysis/Exercise Sheet 6.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/Dual Space.md",
     "Analysis/Approximate Identity.md",
@@ -605,7 +618,6 @@
     "Analysis/Functional Analysis/Meager Set.md",
     "Analysis/Banach Space.md",
     "Analysis/Functional Analysis/Examples/Finitely-additive Translation and Rotation Invariant Extension of Lebesgue Measure.md",
-    "Analysis/Functional Analysis/Finite-Rank Linear Operator.md",
     "untitled folder",
     "Plato",
     "hihi.py",
