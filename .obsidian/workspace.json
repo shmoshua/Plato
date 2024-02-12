@@ -262,7 +262,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Topology/Interior.md",
                 "mode": "preview",
                 "source": false
               }
@@ -317,7 +317,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -383,7 +383,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Weak Topology.md",
+                "file": "Topology/Interior.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -400,7 +400,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Weak Topology.md",
+                "file": "Topology/Interior.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -423,7 +423,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Weak Topology.md"
+                "file": "Topology/Interior.md"
               }
             }
           }
@@ -446,10 +446,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "acccfd28fbfa5ac9",
+  "active": "5878f667dd6ddc80",
   "lastOpenFiles": [
-    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Lp Space.md",
+    "Topology/Weak Topology.md",
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Closure.md",
     "Continuous Functions.md",
@@ -473,7 +474,6 @@
     "Analysis/Functional Analysis/Extreme Points and Sets.md",
     "Analysis/Functional Analysis/Amenable Group.md",
     "Measure Theory/Borel Measure.md",
-    "Analysis/Pushforward Measure.md",
     "untitled folder",
     "Plato",
     "hihi.py",
