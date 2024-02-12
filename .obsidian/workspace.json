@@ -245,6 +245,18 @@
             }
           },
           {
+            "id": "5878f667dd6ddc80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Lp Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a75990070a1d3c16",
             "type": "leaf",
             "state": {
@@ -527,7 +539,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Analysis/Lp Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -544,7 +556,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Analysis/Lp Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -567,7 +579,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md"
+                "file": "Analysis/Lp Space.md"
               }
             }
           }
@@ -590,13 +602,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a75990070a1d3c16",
+  "active": "5878f667dd6ddc80",
   "lastOpenFiles": [
-    "Topology/Closure.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Topology/Closure.md",
     "Continuous Functions.md",
     "Topology/Dense Subset.md",
-    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Courses/Functional Analysis/Exercise Sheet 6.md",
     "Courses/Functional Analysis/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/Dual Space.md",
