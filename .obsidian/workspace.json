@@ -245,6 +245,18 @@
             }
           },
           {
+            "id": "acccfd28fbfa5ac9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Weak Topology.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5878f667dd6ddc80",
             "type": "leaf",
             "state": {
@@ -263,174 +275,6 @@
               "type": "markdown",
               "state": {
                 "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22af5f1a6117a110",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Closure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b38fca1dda2a0e10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Dual Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bac40b684857da98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Approximate Identity.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "178fdbab682670d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Weak Derivative.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d654b7c77505e4a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Lp Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4cc8dce9b7dee23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Special Linear Groups.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f9b64236e2c8f74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Amenable Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbb3d8bb35fdff2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Space of Probability Measures.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea31efdb5d652360",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Weak Topology.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d39272c62e1e058",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Weak Topology.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a536c46f5b8bb49e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Gauge Function.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73f81e77bafc8bf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Convex Set.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d336dd55d51460fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Initial Topology.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31346974387186d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Weak Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -539,7 +383,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Topology/Weak Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -556,7 +400,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Topology/Weak Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -579,7 +423,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Lp Space.md"
+                "file": "Topology/Weak Topology.md"
               }
             }
           }
@@ -602,10 +446,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5878f667dd6ddc80",
+  "active": "acccfd28fbfa5ac9",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Lp Space.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Closure.md",
     "Continuous Functions.md",
     "Topology/Dense Subset.md",
@@ -614,7 +459,6 @@
     "Analysis/Functional Analysis/Dual Space.md",
     "Analysis/Approximate Identity.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
-    "Analysis/Lp Space.md",
     "Courses/Functional Analysis/Exercise Sheet 9.md",
     "Analysis/Weak Derivative.md",
     "Analysis/Fourier Transform.md",
