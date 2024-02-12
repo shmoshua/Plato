@@ -262,7 +262,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Topology/Closure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -461,7 +461,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -527,7 +527,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Topology/Closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -544,7 +544,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Topology/Closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -567,7 +567,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md"
+                "file": "Topology/Closure.md"
               }
             }
           }
@@ -590,12 +590,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a75990070a1d3c16",
+  "active": "22af5f1a6117a110",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Continuous Functions.md",
     "Topology/Closure.md",
     "Topology/Dense Subset.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Courses/Functional Analysis/Exercise Sheet 6.md",
     "Courses/Functional Analysis/Exercise Sheet 2.md",
