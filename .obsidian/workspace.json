@@ -238,7 +238,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Topology/Weak Topology.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33b3ef805a266570",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Initial Topology.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9209d8e4e3d6bd19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Topological Vector Space with Seminorms.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f62c3d01b45f8824",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b84bfc85fb81cb97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Banach Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -353,7 +401,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -419,7 +467,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Topology/Weak Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -436,7 +484,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Topology/Weak Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -459,7 +507,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md"
+                "file": "Topology/Weak Topology.md"
               }
             }
           }
@@ -482,16 +530,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "16d88faa30967b37",
+  "active": "9c0ca85c01d4f80e",
   "lastOpenFiles": [
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Topology/Initial Topology.md",
+    "Topology/Topological Vector Space with Seminorms.md",
+    "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
+    "Analysis/Banach Space.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Complete Metric Space.md",
     "Analysis/Functional Analysis/Meager Set.md",
     "Courses/Functional Analysis/Exercise Sheet 6.md",
     "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
     "Analysis/Functional Analysis/Dual Space.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Analysis/Banach Space.md",
     "Topology/Interior.md",
     "Analysis/Lp Space.md",
     "Topology/Weak Topology.md",
@@ -507,9 +558,6 @@
     "Analysis/Convolution.md",
     "Analysis/Functional Analysis/Weak Derivative.md",
     "Analysis/Functional Analysis/Mean (Group Theory).md",
-    "Analysis/Smooth Function with Compact Support.md",
-    "Analysis/Lp-loc Space.md",
-    "Algebra/Special Linear Groups.md",
     "untitled folder",
     "Plato",
     "hihi.py",
