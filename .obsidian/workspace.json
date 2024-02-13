@@ -245,6 +245,30 @@
             }
           },
           {
+            "id": "16d88faa30967b37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "132ce5002621f067",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7344b1dbd84d41dd",
             "type": "leaf",
             "state": {
@@ -458,20 +482,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "7344b1dbd84d41dd",
+  "active": "16d88faa30967b37",
   "lastOpenFiles": [
-    "Analysis/Banach Space.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Topology/Complete Metric Space.md",
+    "Analysis/Functional Analysis/Meager Set.md",
     "Courses/Functional Analysis/Exercise Sheet 6.md",
+    "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
+    "Analysis/Functional Analysis/Dual Space.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Banach Space.md",
     "Topology/Interior.md",
     "Analysis/Lp Space.md",
     "Topology/Weak Topology.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Closure.md",
     "Continuous Functions.md",
     "Topology/Dense Subset.md",
     "Courses/Functional Analysis/Exercise Sheet 2.md",
-    "Analysis/Functional Analysis/Dual Space.md",
     "Analysis/Approximate Identity.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
     "Courses/Functional Analysis/Exercise Sheet 9.md",
@@ -483,9 +510,6 @@
     "Analysis/Smooth Function with Compact Support.md",
     "Analysis/Lp-loc Space.md",
     "Algebra/Special Linear Groups.md",
-    "Analysis/Functional Analysis/Space of Probability Measures.md",
-    "Analysis/Functional Analysis/Ergodic Measure.md",
-    "Analysis/Functional Analysis/Extreme Points and Sets.md",
     "untitled folder",
     "Plato",
     "hihi.py",
