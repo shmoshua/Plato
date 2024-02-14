@@ -232,8 +232,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -299,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Leibniz Integral Rule.md",
+                "file": "Courses/Functional Analysis/Exercise Sheet 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -316,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Leibniz Integral Rule.md",
+                "file": "Courses/Functional Analysis/Exercise Sheet 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,7 +338,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Leibniz Integral Rule.md"
+                "file": "Courses/Functional Analysis/Exercise Sheet 2.md"
               }
             }
           }
@@ -362,9 +361,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2c745754382a83d5",
+  "active": "63e23ee15867079b",
   "lastOpenFiles": [
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+    "Analysis/Leibniz Integral Rule.md",
     "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
     "Analysis/Weak Derivative.md",
@@ -389,7 +389,6 @@
     "Topology/Closure.md",
     "Continuous Functions.md",
     "Topology/Dense Subset.md",
-    "Courses/Functional Analysis/Exercise Sheet 2.md",
     "untitled folder",
     "Plato",
     "hihi.py",
