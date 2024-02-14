@@ -214,7 +214,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/LST/Problem Set 4.md",
+                "file": "Courses/LST/Problem Set 5.md",
                 "mode": "preview",
                 "source": false
               }
@@ -298,7 +298,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/LST/Problem Set 4.md",
+                "file": "Courses/LST/Problem Set 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,7 +315,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/LST/Problem Set 4.md",
+                "file": "Courses/LST/Problem Set 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,7 +338,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/LST/Problem Set 4.md"
+                "file": "Courses/LST/Problem Set 5.md"
               }
             }
           }
@@ -363,8 +363,9 @@
   },
   "active": "d07bb9a26a5c18eb",
   "lastOpenFiles": [
-    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Courses/LST/Problem Set 4.md",
+    "Courses/LST/Problem Set 6.md",
+    "Courses/Functional Analysis/Functional Analysis Roadmap.md",
     "Courses/Functional Analysis/Exercise Sheet 2.md",
     "Analysis/Leibniz Integral Rule.md",
     "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
@@ -388,7 +389,6 @@
     "Analysis/Functional Analysis/Dual Space.md",
     "Topology/Interior.md",
     "Analysis/Lp Space.md",
-    "Topology/Closure.md",
     "untitled folder",
     "Plato",
     "hihi.py",
