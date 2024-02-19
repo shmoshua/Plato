@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0f84435d430a22dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
                 "mode": "source",
                 "source": true
               }
@@ -79,14 +91,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ideal.md",
+                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md"
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
               }
             }
           }
@@ -215,15 +227,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "21f18609dc1ee3b0",
+  "active": "31894d5af9f7e9ef",
   "lastOpenFiles": [
     "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Algebra/Ideal.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Analysis/Functional Analysis/Ideal (Algebra).md",
-    "Algebra/Ideal.md",
     "Topology/Topological Space.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Functional Analysis II",
@@ -245,7 +257,6 @@
     "Measure Theory/Complex Measure.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Measure Theory/Borel Measure.md",
-    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "untitled folder",
     "Plato",
     "hihi.py",

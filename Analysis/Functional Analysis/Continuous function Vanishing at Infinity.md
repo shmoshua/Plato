@@ -6,7 +6,7 @@
 > [!lemma] Proposition 1
 > $(C_{0}(X),\|\cdot\|_{b})$ is a [[Banach space]].
 
-> [!proof]+
+> [!proof]-
 > Let $(f_{n})_{n}$ be a [[Cauchy sequence]] in $C_{0}(X)$. Then, for all $x\in X$, $(f_{n}(x))_{n}$ is a Cauchy sequence and there exists $f_{n}\to f$ pointwise.
 > 1. **$f$ is continuous** by the uniform convergence theorem.
 > 2. **$f$ vanishes at infinity**: let $\varepsilon>0$. Then, there exists $N$ s.t. $\left\| f_{n}-f_{m} \right\|_{b}<\varepsilon$ for all $n,m\geq N$. Further, there exists $K\subseteq X$ compact s.t. $\left| f_{N}(x) \right|<\varepsilon$ for all $x\in X \backslash K$. Therefore, for $x\in X \backslash K$, $$\left| f(x) \right| \leq \left| f(x)-f_{N}(x) \right| +\left| f_{N}(x) \right|< \varepsilon+\varepsilon=2\varepsilon$$
