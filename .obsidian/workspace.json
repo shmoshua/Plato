@@ -4,235 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "744bad5cdffeb197",
+        "id": "8d2d824e9f909e1d",
         "type": "tabs",
-        "dimension": 47.2110408280621,
         "children": [
           {
-            "id": "71183eb07a01f7d9",
+            "id": "2008b1ed5ed89d38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis/Functional Analysis Roadmap.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "f5c02533cef99244",
+            "id": "7d53de2053ff5996",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Vector Space with Seminorms.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4f04d6f8477a49b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Signed Measure.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "45423e26f42559e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Complex Measure.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "642eac7d7e6cf29c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f817cd730e4dc5ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Borel Measure.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a12ccafb5ae16981",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cef70ea6a185b74d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Borel Regular Measure.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ccba264d923b5ef0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Topological Vector Space with Seminorms.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cd4159e0adddcc60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Weak Topology.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8828dc5a48ea4ec1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Extreme Points and Sets.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f0da980e4eff1bb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Fourier Transform.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "970892c765c304fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Integral Operator.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3b1d271c2c67588d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Weak Derivative.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f3fbabcddd27cc03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Sobolev Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "63e23ee15867079b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/LST/Problem Set 4.md",
+                "file": "Differential Geometry/Locally Euclidean Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 1
       },
       {
-        "id": "2420a352e3e58c04",
+        "id": "241f7b1dc219f423",
         "type": "tabs",
-        "dimension": 52.7889591719379,
         "children": [
           {
-            "id": "d07bb9a26a5c18eb",
+            "id": "e2ecc26504b65e29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/LST/Problem Set 6.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "2c745754382a83d5",
+            "id": "4fe91b891a91ee95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Leibniz Integral Rule.md",
-                "mode": "source",
+                "file": "Differential Geometry/Locally Euclidean Space.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -298,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/LST/Problem Set 6.md",
+                "file": "Differential Geometry/Locally Euclidean Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/LST/Problem Set 6.md",
+                "file": "Differential Geometry/Locally Euclidean Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/LST/Problem Set 6.md"
+                "file": "Differential Geometry/Locally Euclidean Space.md"
               }
             }
           }
@@ -361,34 +192,36 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d07bb9a26a5c18eb",
+  "active": "4fe91b891a91ee95",
   "lastOpenFiles": [
-    "Courses/LST/Problem Set 5.md",
-    "Courses/LST/Problem Set 4.md",
-    "Courses/LST/Problem Set 3.md",
-    "Courses/LST/Problem Set 1.md",
-    "Courses/LST/Problem Set 6.md",
+    "Topology/Metrizable Space.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Locally Euclidean Space.md",
+    "Differential Geometry/Arc Length.md",
+    "Differential Geometry/hihi.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
-    "Courses/Functional Analysis/Exercise Sheet 2.md",
-    "Analysis/Leibniz Integral Rule.md",
-    "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
-    "Analysis/Functional Analysis/Sobolev Space.md",
-    "Analysis/Weak Derivative.md",
-    "Analysis/Functional Analysis/Weak Derivative.md",
-    "Analysis/Fourier Transform.md",
-    "Analysis/Convolution.md",
-    "Analysis/Functional Analysis/Space of Probability Measures.md",
-    "Algebra/Function Space.md",
-    "Courses/Functional Analysis/Exercise Sheet 6.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Untitled.md",
+    "Courses/Differential Geometry",
+    "Courses/Topology",
     "Topology/Topological Vector Space with Seminorms.md",
+    "Measure Theory/Signed Measure.md",
+    "Measure Theory/Complex Measure.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Measure Theory/Borel Measure.md",
+    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Measure Theory/Borel Regular Measure.md",
     "Topology/Weak Topology.md",
-    "Analysis/Hilbert Space.md",
-    "Topology/Initial Topology.md",
-    "Analysis/Banach Space.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Topology/Complete Metric Space.md",
-    "Analysis/Functional Analysis/Meager Set.md",
-    "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
+    "Analysis/Functional Analysis/Extreme Points and Sets.md",
+    "Analysis/Fourier Transform.md",
+    "Analysis/Functional Analysis/Integral Operator.md",
+    "Analysis/Weak Derivative.md",
+    "Analysis/Functional Analysis/Sobolev Space.md",
+    "Courses/LST/Problem Set 4.md",
+    "Analysis/Leibniz Integral Rule.md",
+    "Courses/LST/Problem Set 6.md",
+    "Courses/LST/Problem Set 5.md",
+    "Courses/LST/Problem Set 3.md",
     "untitled folder",
     "Plato",
     "hihi.py",
@@ -397,8 +230,6 @@
     "Courses/Algebra I",
     "Courses/LST",
     "Courses/Functional Analysis",
-    "Courses/Measure Theory",
-    "Analysis/Functional Analysis/Examples",
-    "Analysis/Functional Analysis"
+    "Courses/Measure Theory"
   ]
 }
