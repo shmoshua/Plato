@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "31894d5af9f7e9ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Smooth Vector Field.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "43ab93d3630784bc",
             "type": "leaf",
             "state": {
@@ -44,15 +32,31 @@
             }
           },
           {
-            "id": "986ce412e4196022",
+            "id": "ecf1c042ba3b0f9c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Riemannian Metric.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7a7d435d94ce0590",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Riemannian Manifold.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "241f7b1dc219f423",
@@ -71,43 +75,31 @@
             }
           },
           {
+            "id": "486bc08ebc04eeed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Riemannian Metric.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0e201fb7e19fb452",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Vector Field.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a21d8c51652d4de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Tangent Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee37dcabfde562f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Riemannian Manifold.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Smooth Vector Field.md",
+                "file": "Differential Geometry/Riemannian Manifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Smooth Vector Field.md",
+                "file": "Differential Geometry/Riemannian Manifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Smooth Vector Field.md"
+                "file": "Differential Geometry/Riemannian Manifold.md"
               }
             }
           }
@@ -238,11 +230,16 @@
   },
   "active": "0e201fb7e19fb452",
   "lastOpenFiles": [
-    "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Smooth Vector Field.md",
+    "Differential Geometry/Riemannian Manifold.md",
+    "Differential Geometry/Riemannian Manifolds.md",
+    "Differential Geometry/Riemannian Metric.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Cotangent Space.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Surface.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -254,17 +251,12 @@
     "Algebra/Ideal.md",
     "Analysis/Functional Analysis/Ideal (Algebra).md",
     "Topology/Topological Space.md",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Functional Analysis II",
     "Courses/Fu.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Continuous Functions in Topological Spaces.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Conti.md",
-    "Differential Geometry/Locally Euclidean Space.md",
-    "Topology/Metrizable Space.md",
-    "Differential Geometry/Arc Length.md",
-    "Differential Geometry/hihi.md",
     "Courses/Differential Geometry",
     "Courses/Topology",
     "untitled folder",
