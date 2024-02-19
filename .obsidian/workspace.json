@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "14b2a7ff959b7669",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Topological Space.md",
+                "file": "Analysis/Functional Analysis/C-Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,12 +32,37 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21f18609dc1ee3b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab963af9e54ec6ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/C-Algebra.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Functional Analysis/C-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Functional Analysis/C-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
+                "file": "Analysis/Functional Analysis/C-Algebra.md"
               }
             }
           }
@@ -178,11 +191,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e2ecc26504b65e29",
+  "active": "2008b1ed5ed89d38",
   "lastOpenFiles": [
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
     "Topology/Topological Space.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Functional Analysis II",
     "Courses/Fu.md",
     "Courses/Topology/Topology Roadmap.md",
@@ -206,16 +222,13 @@
     "Measure Theory/Borel Regular Measure.md",
     "Topology/Weak Topology.md",
     "Analysis/Functional Analysis/Extreme Points and Sets.md",
-    "Analysis/Fourier Transform.md",
-    "Analysis/Functional Analysis/Integral Operator.md",
-    "Analysis/Weak Derivative.md",
     "untitled folder",
     "Plato",
     "hihi.py",
     "Machine Learning/NLP",
     "Courses/Algebra I/ARVST.jpeg",
     "Courses/Algebra I",
-    "Courses/LST",
+    "Courses/Linear System Theory",
     "Courses/Functional Analysis I"
   ]
 }
