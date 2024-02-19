@@ -13,42 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "2008b1ed5ed89d38",
+            "id": "4dee9b8d111a4b70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "source",
                 "source": true
               }
-            }
-          },
-          {
-            "id": "0f84435d430a22dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c74efadd43e734e6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
@@ -64,56 +44,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "3052e344a82327b8",
+            "id": "1a21d8c51652d4de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "757e32cd293a966b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91a144b9484a53bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Compact Metric Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab963af9e54ec6ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-                "mode": "preview",
+                "file": "Differential Geometry/Topological Manifold.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -185,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md"
+                "file": "Differential Geometry/Topological Manifold.md"
               }
             }
           }
@@ -248,10 +192,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2008b1ed5ed89d38",
+  "active": "4dee9b8d111a4b70",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Differential Geometry/Surface.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Topology/Compact Metric Space.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
@@ -266,8 +213,6 @@
     "Topology/Continuous Functions in Topological Spaces.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Conti.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Locally Euclidean Space.md",
     "Topology/Metrizable Space.md",
     "Differential Geometry/Arc Length.md",
@@ -278,7 +223,6 @@
     "Measure Theory/Signed Measure.md",
     "Measure Theory/Complex Measure.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Measure Theory/Borel Measure.md",
     "untitled folder",
     "Plato",
     "hihi.py",
