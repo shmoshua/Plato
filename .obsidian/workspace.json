@@ -30,9 +30,28 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "c5cd0e32de9b3e34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Tangent Space.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "986ce412e4196022",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "241f7b1dc219f423",
@@ -56,8 +75,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
-                "mode": "source",
+                "file": "Differential Geometry/Tangent Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee37dcabfde562f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differential.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -129,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md"
+                "file": "Differential Geometry/Tangent Space.md"
               }
             }
           }
@@ -192,11 +223,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4dee9b8d111a4b70",
+  "active": "1a21d8c51652d4de",
   "lastOpenFiles": [
-    "Differential Geometry/Surface.md",
-    "Differential Geometry/Topological Manifold.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Surface.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
@@ -220,9 +254,6 @@
     "Courses/Differential Geometry",
     "Courses/Topology",
     "Topology/Topological Vector Space with Seminorms.md",
-    "Measure Theory/Signed Measure.md",
-    "Measure Theory/Complex Measure.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "untitled folder",
     "Plato",
     "hihi.py",

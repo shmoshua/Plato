@@ -1,15 +1,12 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> A ***topological manifold $M$ of dimension $m$*** is a 2nd-countable [[Hausdorff space]] s.t. for all $p\in M$, there exists an open neighborhood $U_{p}\subseteq M$ s.t. $\phi:U\to \phi(U)\subseteq \mathbb{R}^m$ is a homeomorphism.
-
-1. $(\phi,U), (\psi,V)$ are ***compatible***, if $\phi \circ\psi ^{-1}$ with $\psi(U\cap V)\to \phi(U\cap V)$ is a smooth diffeomorphism.
-2. A ***smooth manifold*** is a pair $(M)$ where
-	- $M$ is a topological manifold equipped with a smooth structure = maximal atlas = maximal system of charts $(\phi_{\alpha},U_{\alpha})$ s.t. $\phi_{\alpha},\phi_{\beta}$ are compatible for all $\alpha,\beta$.
-3. For $p\in M$, the ***tangent space*** is defined as: $$T_{p}M=\{ [\varphi_{i}v]:\varphi \text{ chart around }p, v\in \mathbb{R}^m \}_{/\sim}$$where $[\varphi,v]\sim[\psi,w]\iff w=d_{\varphi(p)}(\psi \circ\varphi ^{-1})v$
-4. $T_{p}M$ is an $m$-dimensional vector space.
-5. Let $F:M\to N$ be a smooth map between manifolds, i.e. $\psi F\varphi ^{-1}$ is a $C^\infty$-map between open subsets of $\mathbb{R}^m$ and $\mathbb{R}^n$. 
-6. The ***differential*** is defined as: $$\begin{array}{cccc} {d_{p}F:}&{T_{p}M}&\to&{T_{F(p)}N}\\&{[\varphi,v]_{p}} &\mapsto & {[\psi,d_{\varphi(p)}(\psi F\varphi ^{-1})(v)]_{F(p)}} \end{array}{}$$
+> A ***topological manifold $M$ of dimension $m$*** is a 2nd-countable [[Hausdorff space]] s.t. for all $p\in M$, there exists an open neighborhood $U\subseteq M$ s.t. $\varphi :U\to \varphi(U)\subseteq\mathbb{R}^m$ is a homeomorphism.
+- **Related definition**: $(\varphi,U)$ is called a ***chart***.
+- **Related definition**: Two charts $(\phi,U),(\psi,V)$ are ***compatible***, if $\phi \circ\psi ^{-1}:\psi(U\cap V)\to \phi(U\cap V)$ is a smooth diffeomorphism.
+---
+4. Let $F:M\to N$ be a smooth map between manifolds, i.e. $\psi F\varphi ^{-1}$ is a $C^\infty$-map between open subsets of $\mathbb{R}^m$ and $\mathbb{R}^n$. 
+5. The ***differential*** is defined as: $$\begin{array}{cccc} {d_{p}F:}&{T_{p}M}&\to&{T_{F(p)}N}\\&{[\varphi,v]_{p}} &\mapsto & {[\psi,d_{\varphi(p)}(\psi F\varphi ^{-1})(v)]_{F(p)}} \end{array}{}$$
 ##### Interpretation of Tangent vectors
 1. Tangent vectors of $C^\infty$-curves $\gamma:(-1,1)\to M$, $\gamma(0)=p$, $$\left[ \varphi, \frac{d}{dt}\varphi(\gamma(t))|_{t=0} \right]_{p}=\gamma'(0)\in T_{p}M$$
 2. Directional derivatives. $f:M\xrightarrow{C^\infty} \mathbb{R}$, $V\in T_{p}M$, $$Vf= \frac{d}{dt}(f\circ \varphi ^{-1})(\varphi(p)+tv)|_{t=0}$$
@@ -47,4 +44,11 @@ $M$ is a $C^\infty$-manifold.
 
 Let $F:N\to M$ be a smooth map, $g$ a Riemmanian metric on $M$. Then, pullback of $g$ along $F$ is: $$(F^{*}g)_{p}(V,W)=g_{F(p)}(d_{p}F(V),d_{p}F(W))$$for $p\in N$, $V,W\in T_{p}N$
 
-If $F$ is an immersion (i,e $d_{p}F is injective for all $p$$), then $F^{*}g$ is a Riemannian metric on $N$.
+If $F$ is an immersion (i,e $d_{p}F is injective for all $p$$), then $F^{*}g$ is a Riemannian metric on $N$. 
+
+Example: $M=\mathbb{R}^m$, $F:N\subseteq \mathbb{R}^n\hookrightarrow M=\mathbb{R}^m$ embedding. Then, $F^*g_{\text{Euclidean}}$ is the induced metric.
+
+---
+A smooth map $F:(N,k)\mapsto(M,g)$ is a local isometry if it is a local diffeomoroism and $F^{*}g=h$. for all $p\in N$, there existrs an open neighborhood $U$ s.t. $F|_{U}$ is a diffeomorphism
+
+Example: $F:()$
