@@ -1,7 +1,9 @@
 #FunctionalAnalysis #Roadmap 
 
 ##### 1. Banach Algebras: Definitions and Examples
-1. [[Banach Algebra]]
+1. [[C-Algebra|$\mathbb{C}$-algebra]] and [[Ideal]]
+3. [[Banach Algebra]]
+4. [[C*-Algebra|Involutive Banach Algebra]] and [[C*-Algebra]]
 ---
 ##### 2. Spectrum of a Banach Algebra Element
 ---

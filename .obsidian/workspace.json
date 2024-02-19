@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
+            "id": "31894d5af9f7e9ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "2008b1ed5ed89d38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,6 +50,18 @@
             }
           },
           {
+            "id": "91a144b9484a53bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "21f18609dc1ee3b0",
             "type": "leaf",
             "state": {
@@ -55,8 +79,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
-                "mode": "source",
+                "file": "Algebra/Ideal.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -128,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md"
+                "file": "Analysis/Functional Analysis/C*-Algebra.md"
               }
             }
           }
@@ -191,12 +215,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2008b1ed5ed89d38",
+  "active": "21f18609dc1ee3b0",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/C-Algebra.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
+    "Analysis/Functional Analysis/Ideal (Algebra).md",
+    "Algebra/Ideal.md",
     "Topology/Topological Space.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Functional Analysis II",
@@ -219,9 +246,6 @@
     "Topology/Locally Compact Hausdorff Space.md",
     "Measure Theory/Borel Measure.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Measure Theory/Borel Regular Measure.md",
-    "Topology/Weak Topology.md",
-    "Analysis/Functional Analysis/Extreme Points and Sets.md",
     "untitled folder",
     "Plato",
     "hihi.py",
