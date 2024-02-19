@@ -44,6 +44,11 @@ margin-bottom: 1.2em;
 --callout-color: 110, 110, 110;
 }
 
+.callout[data-callout="def"] {
+  --callout-color: 110, 110, 110;
+  --callout_title: "definition";
+  }
+
 .callout[data-callout="example"] {
   --callout-color: 40,0,256;
   }
