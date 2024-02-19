@@ -30,7 +30,10 @@
 > 2. $C^n([a,b])$ is not a [[C*-algebra]].
 > 3. $C^\infty([a,b])$ with pointwise multiplication does not admit any Banach algebra norm.
 
-> [!proof]+ proof (Incomplete)
+> [!proof]+ 
+> We have: 
+> 1. **Showing $C^n([a,b])$ is a Banach algebra**
+> 	$$\begin{align}\left\| fg \right\| &=\sum_{k=0}^{n} \frac{1}{k!}\left\| (fg)^{(k)} \right\|_{b} \\&=\sum_{k=0}^{n} \frac{1}{k!}\left\| \sum_{i=0}^{k} {k\choose i} f^{(k-i)}g^{(i)}\right\|_{b}\\&\leq\sum_{k=0}^{n} \sum_{i=0}^{k} \frac{1}{i!(k-i)!}\left\|f^{(k-i)}\right\|_{b}\left\|g^{(i)}\right\|_{b} \\&=\end{align}$$
 
 ---
 > [!lemma] Example 2
