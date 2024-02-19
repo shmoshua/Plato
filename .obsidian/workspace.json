@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -61,8 +61,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md"
+                "file": "Courses/Topology/Topology Roadmap.md"
               }
             }
           }
@@ -193,14 +192,14 @@
   },
   "active": "2008b1ed5ed89d38",
   "lastOpenFiles": [
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Locally Euclidean Space.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Metrizable Space.md",
     "Differential Geometry/Arc Length.md",
     "Differential Geometry/hihi.md",
     "Courses/Functional Analysis/Functional Analysis Roadmap.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Untitled.md",
     "Courses/Differential Geometry",
     "Courses/Topology",
