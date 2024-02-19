@@ -1,17 +1,19 @@
 #Definition #Topology
 
 > [!definition]
-> A ***topological space*** is a pair $(X,\mathcal{O})$ of a set $X$ and a set $\mathcal{ O}$ of subsets of $X$ called **open sets**, s.t.
-> 1. Any union of the open sets is open.
-> 2. The intersection of any two open sets is open.
-> 3. $\varnothing$ and $X$ are open.
+> A ***topological space*** is a pair $(X,\mathcal{T})$ of a set $X$ and a set $\mathcal{ T}$ of subsets of $X$ called **open sets**, s.t.
+> 1. for $\{ U_{\lambda} \}_{\lambda\in \Lambda}\subseteq \mathcal{T}$, $\bigcup_{\lambda\in \Lambda}^{}U_{\lambda}\in \mathcal{T}$. (any arbitrary union of open sets is open)
+> 2. for $U_{1},U_{2}\in\mathcal{T}$, $U_{1}\cap U_{2}\in \mathcal{T}$ (the intersection of any two open sets is open)
+> 4. $\varnothing,X\in \mathcal{T}$.
 > 
-> Then, $\mathcal{ O}$ is the ***topology*** of $(X,\mathcal{O})$.
+> Then, $\mathcal{T}$ is the ***topology*** of $X$. 
+
+- **Related definition:** $F \subset X$ is ***closed***, if $X \backslash F\in \mathcal{T}$.
+- **Related definition**: $U \subset X$ is a ***neighborhood*** of $x\in X$, if there is an open set $V$ s.t. $x\in V \subseteq U$.
 ---
 ##### Related Definitions
 For a topological space $X$,
-- $A \subset X$ is ***closed***, if $X \backslash A$ is open.
-- $U \subset X$ is a ***neighborhood*** of $x\in X$, if there is an open set $V$ s.t. $x\in V \subseteq U$.
+
 - For any subset $B\subseteq X$, a point $x\in X$ is:
   - an ***interior point*** of $B$ if $B$ is a neighborhood of $x$.
   - an ***exterior point*** of $B$ if $X\backslash B$ is a neighborhood of $x$.
