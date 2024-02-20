@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > A ***transposition*** is a [[Symmetry Group|cycle]] of length $2$. A transposition is ***elementary***, if it is of the form $(i,i+1)$.

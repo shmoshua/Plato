@@ -1,4 +1,4 @@
-#Definition #Algebra-I #Theorem 
+#Definition #Algebra #Theorem 
 
 > [!definition]
 > Let $G$ be a finite group with order $\left| G \right|=p^mn$ where $p \nmid n$ and $p$ prime. Then, there exists a [[Subgroup|subgroup]] of $G$ of order $p^m$ called the ***Sylow $p$-subgroup***. The set of all Sylow $p$-subgroups of $G$ are denoted as $\text{Syl}_{p}(G)$.

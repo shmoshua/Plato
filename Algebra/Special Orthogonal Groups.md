@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > The ***special orthogonal group*** for $n\in \mathbb{N}$, denoted as $(\text{SO}(n),\cdot)$ is defined as: $$\text{SO}(n):=\{  A\in \text{O}(n):\det(A)=1 \}$$

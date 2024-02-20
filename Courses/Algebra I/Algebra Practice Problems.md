@@ -1,4 +1,4 @@
-#Algebra-I 
+#Algebra
 
 > [!Q] Q1
 > Prove or disprove: 

@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > For a nontrivial commutative [[Ring|ring]] $R$, the ***polynomial ring*** $R[X]$ s.t. $X\notin R$,  is defined through the commutative ring $$\mathcal{F}_{R}:=\{ f:\mathbb{N}\to R\ |\ \exists n_{f}\in \mathbb{N}.\forall k\geq n_{f}.(f(k)=0_{R}) \}$$s.t. for $f\in \mathcal{F}_{R}$, we represent: $$f = \sum_{i=0}^{\infty}f(i)\cdot X^i\in R[X]$$

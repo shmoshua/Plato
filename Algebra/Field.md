@@ -1,4 +1,4 @@
-#Definition #Algebra-I  #LST 
+#Definition #Algebra  #LST 
 
 > [!definition]
 > A structure $(F,+,\cdot)$ is a ***field*** if: 

@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > A [[group]] $G$ is ***simple***, if $G$ doesn't have any non-trivial [[Normal Subgroup|normal divisors]].

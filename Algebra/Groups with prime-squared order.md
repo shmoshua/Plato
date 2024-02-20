@@ -1,4 +1,4 @@
-#Algebra-I 
+#Algebra
 
 ---
 ##### Properties

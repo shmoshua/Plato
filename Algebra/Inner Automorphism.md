@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $G$ be a group. Then, the group of ***inner automorphisms*** of $G$ $\text{Inn}(G)\subseteq \text{Aut}(G)$ is defined as: $$\text{Inn}(G):=\{ \varphi_{\sigma}\in \text{Aut}(G):\forall g \in G, \varphi_{\sigma}(g)=\sigma g\sigma^{-1} \}$$

@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $R$ be a [[Ring|ring]]. A ***prime ring*** of $R$ is the smallest non-trivial [[Subring|subring]] of $R$.

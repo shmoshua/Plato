@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $H,K \leq G$. then $HK=\{ hk:h\in H,k\in K \}$ is the ***inner product*** of $H$ and $K$.

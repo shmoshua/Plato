@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra 
 
 > [!definition]
 > If $G \cong (N\times H,*)$ s.t.

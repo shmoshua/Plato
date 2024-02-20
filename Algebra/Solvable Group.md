@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra 
 
 >[!definition]
 >A group $G$ is ***solvable*** if there exists a sequence of subgroups $\{ e \}=G_{0} \unlhd G_{1}\unlhd \cdots \unlhd G_{n}=G$ s.t. for all $1 \leq i \leq n$, it holds that $G_{i}/G_{i-1}$ is abelian.

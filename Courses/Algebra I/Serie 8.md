@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra
 
 ##### Exercise 45
 1. For $n\geq 5$, assume that we have a non-trivial normal subgroup $N\unlhd S_{n}$ s.t. $N\neq A_{n}$. Consider $N \cap A_{n}\unlhd A_{n}$. As $A_{n}$ is simple for $n\geq 5$, $N \cap A_{n}=\{ \iota \}$. As $N$ is non-trivial, we conclude that $N=\{ \iota, \pi \}$ where $\pi$ is odd and $\pi^{2}=\iota$. Now, as $N$ is normal, if $\sigma \pi\sigma ^{-1}=\iota$ for some $\sigma\in S_{n}$, then $\pi=\iota$, which is a contradiction. Therefore, for all $\sigma\in S_{n}$, $\sigma \pi \sigma^{-1}=\pi$, then $\sigma \pi=\pi\sigma$ and $\pi\in Z(S_{n})$. However, as $\pi\neq \iota$, there exists $i\in[n]$ s.t. $\pi(i)\neq i$. Then, there exists $j\in[n]$ s.t. $\pi(i)\neq j\neq i$. It follows that:

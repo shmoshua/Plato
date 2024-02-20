@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra 
 
 > [!definition]
 > The ***cyclic group*** of order $n\in \mathbb{N}^+$, denoted as $(C_{n},\cdot)$ is defined as: $$C_{n}:=\{ a^0,a^1,a^{2},\dots,a^{n-1} \}$$

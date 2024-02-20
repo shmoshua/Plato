@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > The ***conjugation*** is defined by the [[Group Action on Sets|group action]] $G \curvearrowright G$, s.t. 

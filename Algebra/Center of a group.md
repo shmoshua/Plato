@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > For a group $G$, the ***center*** $Z(G)$ of $G$ is defined as:

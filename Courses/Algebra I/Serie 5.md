@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra 
 
 ##### Problem 30
 

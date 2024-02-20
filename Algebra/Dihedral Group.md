@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > The ***dihedral group*** of degree $n\geq 3$, denoted as $(D_{n},\cdot)$ is defined as the group of [[Rigid Motions|rigid motions]] of a regular $n$-sided polygon. Formally, $$D_{n}:=\braket{ \rho, \sigma|\rho^n=e,\sigma^{2}=e,\sigma\rho=\rho^{n-1}\sigma } $$

@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > The ***alternating group*** $A_{n}$ of degree $n$ is defined as: $$A_{n}:=\{ \pi\in S_{n}:\pi \text{ is even} \}$$

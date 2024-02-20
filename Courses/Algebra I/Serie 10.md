@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra
 
 ##### Exercise 53
 1. Let $A,B\in \text{Mat}(n,\mathfrak{a})$. Then, 

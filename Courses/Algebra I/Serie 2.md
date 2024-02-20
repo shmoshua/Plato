@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra
 ##### Problem 13
 
 1. From last week, we know that:

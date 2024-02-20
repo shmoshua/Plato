@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra 
 
 > [!definition]
 > Let $G$ be a [[Group|group]] and $M$ a set. Then, the function $\circ:G\times M\to M, (a,x) \mapsto a\circ x$ is a ***group action of $G$ on $M$*** if the followings hold:

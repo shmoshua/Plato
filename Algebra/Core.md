@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $H \leq G$. Then, we define the ***core*** of $H$ as:$$\text{Core}(H):=\bigcap_{a\in G}^{}aHa^{-1}$$

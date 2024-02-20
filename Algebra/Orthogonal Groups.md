@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 Types:  [[Special Orthogonal Groups]]
 

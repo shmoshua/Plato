@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > For a field $K$, the smallest field $P\subseteq K$ is called ***prime field***. 

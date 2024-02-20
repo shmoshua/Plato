@@ -1,4 +1,4 @@
-#Algebra-I #Definition 
+#Algebra #Definition 
 
 > [!definition]
 > Let $R$ be a [[Ring|ring]]. An element $a\in R$ is called a ***unit***, if there exists $b,c\in R$ s.t. $$ab=1_{R}=ca$$i.e. $a$ is invertible.

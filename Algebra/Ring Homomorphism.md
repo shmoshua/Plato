@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $R$ and $S$ be [[Ring|rings]]. A map $\varphi:R \to S$ is a ***ring homomorphism*** if 

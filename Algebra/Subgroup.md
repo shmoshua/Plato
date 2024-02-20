@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!Definition]
 > For a group $G$, a non-empty subset $H \subseteq G$ is a ***subgroup*** of $G$ if for all $x,y\in H$, $$x y^{-1}\in H$$denoted as $H \leq G$. If $H\neq G$, we call $H$ a ***proper subgroup*** of $G$, denoted as $H < G$. $\{  e \}$ and $G$ are called ***trivial subgroups*** of $G$. 

@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra 
 ##### Problem 6
 1. Let $t:=\text{lcm}(k,\text{ord}(g))/k$. From the definition, $t$ is the smallest number s.t. $\text{ord}(g)|kt$ . However, we also have that for any $n$:
     

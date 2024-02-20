@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $G \curvearrowright M$ be a [[Group Action on Sets|group action]] and $x\in M$. Then: 

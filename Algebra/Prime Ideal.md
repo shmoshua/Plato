@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $R$ be a commutative [[Ring|ring]]. An [[ideal]] $\mathfrak{p}\subseteq R$ is a ***prime ideal***, if $R / \mathfrak{p}$ is an [[integral domain]].

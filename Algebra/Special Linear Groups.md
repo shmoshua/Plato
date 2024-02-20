@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 > [!definition]
 > The ***special linear group*** for $n\in \mathbb{N}$, denoted as $(\text{SL}(n),\cdot)$ is defined as: $$\text{SL}(n):=\{  A\in \text{GL}(n):\det(A)=1 \}$$
 > where $\text{GL}(n)$ is the [[General Linear Group| general linear group]].

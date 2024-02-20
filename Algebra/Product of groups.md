@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > For any two groups $(G,\circ_{G})$ and $(H,\circ_{H})$, the ***product*** of $G$ and $H$ is a group $(G\times H,\circ)$ denoted as:

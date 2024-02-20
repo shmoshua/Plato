@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra 
 
 ##### Exercise 49
 We first show that $(\text{End}(G),+)$ is an abelian group:

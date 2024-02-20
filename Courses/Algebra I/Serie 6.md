@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra
 
 ##### Problem 36
 1. Firstly, we can define $\varphi:\mathbb{Z} \to \braket{ (1,1) }, x \mapsto (x,x)$. Then, by the first isomorphism theorem, $$\mathbb{Z} \cong \braket{ (1,1)  } $$Furthermore, we know that any subgroup of $\mathbb{Z}$ is of form $n\mathbb{Z}$ for $n\in \mathbb{Z}$. By defining, $$\psi:\mathbb{Z} \to n\mathbb{Z},x\mapsto nx$$we also have, $\mathbb{Z}\cong n\mathbb{Z}$. Therefore, there is no $n,m\in \mathbb{Z}$, s.t. $$n\mathbb{Z}\times m\mathbb{Z}\cong \mathbb{Z}\times \mathbb{Z}\not\cong\mathbb{Z}\cong\braket{ (1,1)  } $$

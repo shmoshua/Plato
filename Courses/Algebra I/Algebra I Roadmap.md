@@ -1,4 +1,4 @@
-#Roadmap #Algebra-I 
+#Roadmap #Algebra
 
 ##### 0. Group Theory Axioms
 1. [[Group]]

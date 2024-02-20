@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra 
 
 > [!definition]
 > The ***symmetry group***, also known as ***permutation group***, of degree $n\in \mathbb{N}$, denoted as $(S_{n},\circ)$ is defined as: $$S_{n}:=\{  \sigma :[n]\to [n]\ | \ \sigma \text{ is a bijection} \}$$

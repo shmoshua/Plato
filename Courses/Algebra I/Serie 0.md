@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra
 ##### Problem 0
 $$ \begin{aligned}(a\circ (b\circ c))\circ d&=((a\circ b)\circ c)\circ d=(a\circ b)\circ (c\circ d)\end{aligned} $$
 

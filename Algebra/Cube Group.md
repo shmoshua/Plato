@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > The ***cube group*** $C$ is the group of all rigid motions of a cube, without reflections. It is to note that: 

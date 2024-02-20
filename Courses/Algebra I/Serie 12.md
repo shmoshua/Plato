@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra
 
 ##### Exercise 63
 $R^{*}\subseteq R[X]^{*}$ is easy to see as $R\subseteq R[X]$. Therefore, we will show $R[X]^{*}\subseteq R^{*}$. Let $p\in R[X]^{*}$, i.e. there exists $q\in R[X]$ s.t. $$pq=1_{R[X]}=1_{R}$$However, as $R$ is an integral domain, we have that: $\text{deg}(pq)=\text{deg}(p)+\text{deg}(q)=0$. Therefore, $\text{deg}(p)=0$ and $\text{deg}(q)=0$, i.e. $p,q\in R$. This proves that $p\in R^{*}$ and proves the statement.

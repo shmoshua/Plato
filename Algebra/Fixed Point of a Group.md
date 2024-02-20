@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $G \curvearrowright M$ be a [[Group Action on Sets|group action]] and $x\in M$. If the [[Orbit and Stablizer|orbit]] has $|Gx|=1$, i.e. $\text{St}_{G}(x)=G$, then $x$ is called a ***fixed point***.

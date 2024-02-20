@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra
 
 ##### Problem 25
 We will consider the group action $S_{3} \curvearrowright M$ where $M$ is the set of all possible combinations of three cards. Then,

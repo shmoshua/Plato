@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra
 
 ##### Problem 38
 We will use induction over $\left| G \right|$. 

@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra
 
 ##### Problem 20
 Let $aN$ be the generator of $G / N$. Then, for every $x\in G$, the coset $x N=a^iN$ for some $i$ and as $e\in N$, $x=a^iz$ for some $z\in N$. It follows that for any two elements $x,y\in G$:

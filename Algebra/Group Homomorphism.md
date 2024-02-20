@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $(G,\circ)$ and $(H,\bullet)$ be two groups and let $\varphi:G \to H$ be a function. $\varphi$ is a ***group homomorphism*** if for all $x,y\in G$: $$\varphi(x \circ y)=\varphi(x)\bullet \varphi(y)$$

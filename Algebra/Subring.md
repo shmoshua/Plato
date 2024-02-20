@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $R$ be a [[Ring|ring]]. A set $S\subseteq R$ is a ***subring*** of $R$, if:

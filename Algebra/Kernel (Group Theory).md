@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > For a [[Group Homomorphism|group homomorphism]] $\varphi:G \to H$, the ***kernel*** of $\varphi$ is defined as:$$\text{ker}(\varphi):=\{ x\in G: \varphi(x)=e_{H} \}$$

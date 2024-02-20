@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > The ***general linear group*** for $n\in \mathbb{N}$, denoted as $(\text{GL}(n),\cdot)$ is defined as: $$\text{GL}(n):=\{  A\in \text{M}(n):\det(A)\neq 0 \}$$

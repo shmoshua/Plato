@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 >[!definition]
 > For a group $G$ and $S\subseteq G$. The ***centralizer*** $Z_{G}(S)$  is defined as: $$Z_{G}(S):=\{ x\in G: xax ^{-1}=a \quad \forall a\in S\}$$

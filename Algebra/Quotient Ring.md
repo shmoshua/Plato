@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > For a [[Ring|ring]] $R$ and an [[Ideal|ideal]] $\mathfrak{a}\subseteq R$, $R / \mathfrak{a}$ is the ***quotient ring*** of $R$ w.r.t. $\mathfrak{a}$. 

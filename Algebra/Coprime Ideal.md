@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $R$ be a [[ring]]. Two [[Ideal|ideals]] $\mathfrak{a}, \mathfrak{b}\subseteq R$ are ***coprime*** if $\mathfrak{a}+\mathfrak{b}=R$.

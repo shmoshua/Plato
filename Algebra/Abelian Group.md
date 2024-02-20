@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra 
 
 > [!Definition]
 > A group $(G,\circ)$ is ***abelian*** if $\circ$ is commutative, i.e. for all $a,b\in G$:

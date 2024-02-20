@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!Definition]
 > For a [[group]] $G$ and $N \leq G$, if for all $x\in G$, $$xNx^{-1}=N$$

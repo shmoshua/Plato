@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > For [[Field]] $K\subseteq L$ and $s_{0}\in L$ and [[Algebraic and Transcendental Number|algebraic]] s.t. $$K[X] / (m_{s_{0}})\cong K[s_{0}]$$then, $m_{s_{0}}$ is called the ***minimal polynomial*** of $s_{0}$ over $K$.

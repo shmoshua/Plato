@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 > [!definition]
 > An [[integral domain]] $R$ is ***euclidean***, if there exists a map $\delta:R \backslash \{ 0 \}\to \mathbb{N}$ s.t. for all $a,b\in R$ and $b\neq 0$, there exists $q,r\in R$ with:
 > 1. $a=qb+r$ and 

@@ -1,4 +1,4 @@
-#Series #Algebra-I 
+#Series #Algebra
 
 ##### Exercise 58
 1. We assume that $R$ is a non-trivial domain. Let $n:=\text{char}(R)$ and assume $n\neq 0$. As $R$ is non-trivial, $n\geq 2$. We will show that $n$ has to be prime. If $n$ is not prime, there exists $1<p,q<n$ s.t. $n=pq$. Then, we have that: $$n\cdot 1_{R}=(p\cdot 1_{R})(q\cdot 1_{R})=0_{R}$$

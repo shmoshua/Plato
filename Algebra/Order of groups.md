@@ -1,4 +1,4 @@
-#Definition #Algebra-I
+#Definition #Algebra
 
 > [!Definition]
 > For a [[group]] $G$, the **order** of the group denoted by $|G|$ is the cardinality of $G$.

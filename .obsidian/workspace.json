@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Algebra/Zero Divisor.md",
                 "mode": "source",
                 "source": true
               }
@@ -42,21 +42,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "7a7d435d94ce0590",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Pullback.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "241f7b1dc219f423",
@@ -80,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Pullback.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,8 +79,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
-                "mode": "source",
+                "file": "Algebra/Zero Divisor.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -183,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -212,7 +199,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "projective line",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -249,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Pullback.md",
+                "file": "Algebra/Zero Divisor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Pullback.md",
+                "file": "Algebra/Zero Divisor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +276,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Pullback.md"
+                "file": "Algebra/Zero Divisor.md"
               }
             }
           }
@@ -312,35 +299,37 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "38e5954e76feca32",
+  "active": "8628a06c9cf5066c",
   "lastOpenFiles": [
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Zero Divisor.md",
+    "Algebra/Division Ring.md",
+    "Algebra/Unit.md",
+    "Algebra/Integral Domain.md",
     "Differential Geometry/Differential.md",
-    "Differential Geometry/Pullback.md",
-    "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Tangent Space.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Cotangent Space.md",
-    "Differential Geometry/Smooth Vector Field.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Riemannian Manifold.md",
-    "Differential Geometry/Riemannian Manifolds.md",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
-    "Differential Geometry/Surface.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Topology/Compact Metric Space.md",
-    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
-    "Algebra/Ideal.md",
-    "Analysis/Functional Analysis/Ideal (Algebra).md",
-    "Topology/Topological Space.md",
+    "Differential Geometry/Riemannian Metric.md",
+    "Algebra/Symmetry Group.md",
+    "Algebra/Transpostion.md",
+    "Algebra/Subgroup.md",
+    "Algebra/Sylow p-Subgroups.md",
+    "Algebra/Subring.md",
+    "Algebra/Special Linear Groups.md",
+    "Algebra/Special Orthogonal Groups.md",
+    "Algebra/Solvable Group.md",
+    "Courses/Algebra I/Serie 7.md",
+    "Algebra/Simple Group.md",
+    "Courses/Algebra I/Serie 4.md",
+    "Courses/Algebra I/Serie 9.md",
+    "Courses/Algebra I/Serie 11.md",
+    "Courses/Algebra I/Serie 12.md",
+    "Courses/Algebra I/Serie 10.md",
+    "Courses/Algebra I/Serie 5.md",
+    "Courses/Algebra I/Serie 8.md",
+    "Courses/Algebra I/Serie 6.md",
+    "Courses/Algebra II/Untitled",
+    "Courses/Algebra II",
     "Courses/Functional Analysis II",
-    "Courses/Fu.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Continuous Functions in Topological Spaces.md",
-    "Topology/Continuous Functions in Metric Spaces.md",
     "Courses/Differential Geometry",
     "Courses/Topology",
     "untitled folder",
@@ -348,8 +337,6 @@
     "hihi.py",
     "Machine Learning/NLP",
     "Courses/Algebra I/ARVST.jpeg",
-    "Courses/Algebra I",
-    "Courses/Linear System Theory",
-    "Courses/Functional Analysis I"
+    "Courses/Algebra I"
   ]
 }

@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 >[!Definition]
 >For $H \leq G$ and $x\in G$, let $$xH:=\{ xh:h\in H \}\quad \text{and}\quad Hx:=\{ hx:h\in H \}$$

@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > An ***integral domain*** is a non-trivial commutative [[Zero Divisor|domain]]. 

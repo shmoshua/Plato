@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $R_{1},\dots,R_{n}$ be [[Ring|rings]]. The ***direct sum*** $R_{1}\oplus\dots \oplus R_{n}$ is the set $R_{1}\times\dots \times R_{n}$ with component-wise addition and multiplication. Then, 

@@ -1,4 +1,4 @@
-#Definition #Algebra-I  #LST
+#Definition #Algebra  #LST
 
 > [!definition]
 > A ***ring*** $(R,0,1,+,\cdot)$ is a set $R$ equipped with two binary operations $+:R\times R \to R$ (addition) and $\cdot:R \times R \to R$ (multiplication) s.t. the following axioms hold:

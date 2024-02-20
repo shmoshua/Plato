@@ -1,4 +1,4 @@
-#Definition #Algebra-I 
+#Definition #Algebra
 
 > [!definition]
 > Let $R$ be a [[Ring|ring]] and $\mathfrak{a} \subseteq R$. Then, $\mathfrak{a}$ is an ideal in $R$, if: 
