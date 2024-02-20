@@ -6,11 +6,12 @@
 > [!lemma] Proposition 1
 > If $F$ is an immersion, i.e. $d_{p}F:T_{p}N\to T_{F(p)}M$ is injective for all $p\in N$, then $F^{*}g$ is a [[Riemannian metric]] on $N$. 
 
-> [!proof]+
+> [!proof]- Proof (Incomplete)
 > We show that:
 > 1. **$(F^{*}g)_{p}$ is bilinear**:
->    For $V,W\in T_{p}N$, $$$$
-If $F$ is an immersion (i,e $d_{p}F is injective for all $p$$), then $F^{*}g$ is a Riemannian metric on $N$. 
+>    For $[\varphi_{1},v]_{p},[\varphi_{2},w]_{p}\in T_{p}N$, $$(F^{*}g)_{p}([\varphi_{1},v]_{p},[\varphi_{2},w]_{p})=g_{F(p)}([\psi_{1},d_{\varphi(p)}(\psi F\varphi ^{-1})(v)]_{F(p)},[\psi_{2},d_{\varphi(p)}(\psi F\varphi ^{-1})(w)]_{F(p)})$$
+> 2. 
+ 
 ---
 
 Example: $M=\mathbb{R}^m$, $F:N\subseteq \mathbb{R}^n\hookrightarrow M=\mathbb{R}^m$ embedding. Then, $F^*g_{\text{Euclidean}}$ is the induced metric.
