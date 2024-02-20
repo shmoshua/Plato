@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Pullback.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,6 +69,42 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20a4a4e81771878a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Tangent Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3279210172397e55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Topological Manifold.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b4bd89e2fd042ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Smooth Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -171,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -300,14 +336,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "83d9924bba434572",
+  "active": "7a7d435d94ce0590",
   "lastOpenFiles": [
-    "Differential Geometry/Topological Manifold.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Pullback.md",
+    "Differential Geometry/Tangent Space.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Riemannian Manifold.md",
     "Differential Geometry/Cotangent Space.md",
