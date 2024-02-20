@@ -75,48 +75,12 @@
             }
           },
           {
-            "id": "20a4a4e81771878a",
+            "id": "8628a06c9cf5066c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3279210172397e55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b4bd89e2fd042ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Smooth Manifold.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6655522227c20caa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "mode": "preview",
                 "source": false
               }
@@ -273,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md"
+                "file": "Differential Geometry/Riemannian Metric.md"
               }
             }
           }
@@ -336,18 +300,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "7a7d435d94ce0590",
+  "active": "8628a06c9cf5066c",
   "lastOpenFiles": [
-    "Differential Geometry/Pullback.md",
-    "Differential Geometry/Tangent Space.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Riemannian Manifold.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Smooth Vector Field.md",
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Pullback.md",
+    "Differential Geometry/Riemannian Manifold.md",
     "Differential Geometry/Riemannian Manifolds.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Differential Geometry/Surface.md",
