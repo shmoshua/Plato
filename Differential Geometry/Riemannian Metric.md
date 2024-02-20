@@ -2,14 +2,9 @@
 
 > [!definition]
 > Let $M$ be a [[smooth manifold]]. A ***Riemannian metric*** $g$ on $M$ assigns to each $p\in M$, a SPD bilinear form $g_{p}:T_{p}M\times T_{p}M\to \mathbb{R}$ s.t. for all $V,W\in \Gamma(TM)$, $$\begin{array}{cccc} &{M}&\to&{\mathbb{R}}\\&{p} &\mapsto & {g_{p}(V(p),W(p))} \end{array}{}$$is smooth.
+- **Related definition**: For a chart $(\varphi,U)$, we have the local coordinates $(x^1,\dots,x^m)$ on $U$. Then, $$g_{ij}(p):=g_{p}\left( \left. \frac{ \partial  }{ \partial x^i }   \right|_{p},\left. \frac{ \partial  }{ \partial x^j }   \right|_{p} \right) $$are called ***metric coefficients***. Then, they're:
+	1. **symmetric**: $g_{ij}=g_{ji}$.
+	2. **positive definite**: $\sum_{i,j=1}^{m}g_{ij}v^iv^j=g(V,V)\geq 0$ where $V=\sum_{i=1}^{m}v^i \left. \frac{ \partial  }{ \partial x^i } \right|_{p}$.
+	3. **smoothness**: $g_{ij}(p)$ is smooth in $p$.
+- **Remark**: One can also write the Riemannian metric from the metric coefficients as follows: $$g_{p}:=\sum_{i,j=1}^{m}g_{ij}(p)\cdot d_{p}x^i \otimes  d_{p}x^j$$where $\xi \otimes \eta:T_{p}M\times T_{p}M\to \mathbb{R}, (v,w)\mapsto \xi(v)\eta(w)$ for $\xi,\eta\in T^{*}_{p}M$ is a bilinear form on $T_{p}M$.
 ---
-##### Riemannian Metrics
-
-
-2. A ***Riemannian manifold*** is a pair $(M,g)$.
-3. Local coordinate description: For a chart $\varphi$, we have the local coordinates $(\varphi^1,\dots,\varphi^m)$ on $U$. Then, $$g_{ij}(p):=g_{p}\left( \frac{ \partial  }{ \partial \varphi^i } |_{p},\frac{ \partial  }{ \partial \varphi^j } |_{p} \right) $$ $g_{ij}(p)$ is smooth in $p$ as long as $p\in U$ and are called metric coefficients s.t.
-	- Symmetry: $g_{ij}=g_{ji}$
-	- Positive definite: $g_{ij}(p)v^iv^j>0$ for all $v\in \mathbb{R}^m \backslash \{ 0 \}$.
-	- Conversely, we can write: $$g_{p}:=\sum_{i,j=1}^{m}g_{ij}(p)d_{p}\varphi^i \otimes  d_{p}\varphi^j$$Here, $\xi,\eta\in T^{*}_{p}M$, then $\xi \otimes \eta:T_{p}M\times T_{p}M\to \mathbb{R}, (v,w)\mapsto \xi(v)\eta(w)$ is a bilinear form on $T_{p}M$.
-4. Notation: $d_{p}\varphi^id_{p}\varphi^j= \frac{1}{2}\left(  d_{p}\varphi^i \otimes  d_{p}\varphi^j+d_{p}\varphi^j \otimes  d_{p}\varphi^i \right)$ with $g=g_{ij}d\varphi^id\varphi^j$
-5. $\left| V \right|_{g}^{2}=g_{p}(V,V)$ for $V\in T_{p}M$.
