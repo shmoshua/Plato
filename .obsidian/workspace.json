@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "241f7b1dc219f423",
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -288,15 +288,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ecf1c042ba3b0f9c",
+  "active": "4dee9b8d111a4b70",
   "lastOpenFiles": [
+    "Differential Geometry/Topological Manifold.md",
+    "Lie Group/Topological Group.md",
+    "Topology/Compact-Open Topology.md",
+    "Differential Geometry/Tangent Space.md",
+    "Algebra/Ring Homomorphism.md",
     "Differential Geometry/Riemannian Metric.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Lie Group/Topological Group.md",
     "Lie Group",
-    "Algebra/Ring Homomorphism.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Courses/Lie Groups",
     "Algebra/Coprime Ideal.md",
@@ -315,9 +318,6 @@
     "Algebra/Special Orthogonal Groups.md",
     "Algebra/Solvable Group.md",
     "Courses/Algebra I/Serie 7.md",
-    "Algebra/Simple Group.md",
-    "Courses/Algebra I/Serie 4.md",
-    "Courses/Algebra I/Serie 9.md",
     "Courses/Algebra II/Untitled",
     "Courses/Algebra II",
     "Courses/Functional Analysis II",
