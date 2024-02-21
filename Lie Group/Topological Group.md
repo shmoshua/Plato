@@ -26,12 +26,12 @@
 > 3. For $H\leq G$, the canonical projection $\pi:G \to G / H$ is [[Open and Closed Maps|open]].
 > 4. for $N\unlhd G$, $G / N$ is a topological group with the quotient topology.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. The restriction of the group operations is continuous.
-> 2. For $\Gamma:=\prod_{\alpha\in A}^{}G_{\alpha}$, $\pi_{\alpha}\circ m_{\Gamma}=m_{\alpha}\circ(\pi_{\alpha},\pi_{\alpha})$ and therefore continuous. This shows that $\times_{\Gamma}$ is continuous [[Initial Topology|Lemma 2]]. Similarly, $\pi_{\alpha}\circ i_{\Gamma}=i_{\alpha}\circ(\pi_{\alpha},\pi_{\alpha})$ is continuous.
-> 3. Suppose $U\subseteq G$ is an open set. Then, $\pi ^{-1}(\pi(U))=UH$
-> 4. For $U\subseteq G / N$ open, $$
+> 2. For $\Gamma:=\prod_{\alpha\in A}^{}G_{\alpha}$, $\pi_{\alpha}\circ m_{\Gamma}=m_{\alpha}\circ(\pi_{\alpha},\pi_{\alpha})$ and therefore continuous. This shows that $\times_{\Gamma}$ is continuous [[Initial Topology|Lemma 2]]. Similarly, $\pi_{\alpha}\circ i_{\Gamma}=i_{\alpha}\circ(\pi_{\alpha}\times\pi_{\alpha})$ is continuous.
+> 3. Suppose $U\subseteq G$ is an open set. Then, $\pi ^{-1}(\pi(U))=UH=\bigcup_{h\in H}^{}Uh=\bigcup_{h\in H}^{}R_{h}(U)$ is open. Therefore, $\pi(U)$ is open in the quotient topology.
+> 4. For $U\subseteq G / N$ open, $\pi \circ m_{G}=m_{G / N}\circ(\pi \times \pi)$ and $\pi \circ m_{G}$ is continuous. As $\pi \times \pi$ is open, $m_{G /N}$ is continuous. Analogously for inversion.
 > 
 ---
 ##### Examples
@@ -48,6 +48,9 @@
 > 2. $\text{Homeo}(X)$ is a topological group if $X$ is compact.
 > 3. $\text{Homeo}(X)$ is a topological group if $X$ is locally connected.
 > 4. $\text{Homeo}(X)$ is a topological group if $X$ is a [[topological manifold]].
+
+> [!proof]+
+> 
 ---
 > [!h] Example 3
 > If $M$ is a [[smooth manifold]], for any $r\in \mathbb{N}$, and $$\text{Diff}^r:=\{ f\in \text{Homeo}(M):f,f^{-1}\in C^r(M) \}$$

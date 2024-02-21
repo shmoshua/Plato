@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Initial Topology.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Topological Group.md"
+                "file": "Topology/Compact-Open Topology.md"
               }
             }
           }
@@ -288,11 +288,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "486bc08ebc04eeed",
+  "active": "83d9924bba434572",
   "lastOpenFiles": [
-    "Topology/Initial Topology.md",
     "Lie Group/Topological Group.md",
     "Topology/Compact-Open Topology.md",
+    "Topology/Initial Topology.md",
     "Algebra/Orthogonal Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Ideal.md",

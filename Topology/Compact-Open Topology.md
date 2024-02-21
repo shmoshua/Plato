@@ -5,4 +5,7 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
+> If $X$ is discrete, 
+
+> [!lemma] Proposition 1
 > Let $(X,d)$ be a [[metric space]]. Then, the compact-open topology on $C(X)$ is equivalent to the topology of uniform convergence on compact subsets of $X$. 
