@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Topology/Locally Connected Topological Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -87,24 +87,12 @@
             }
           },
           {
-            "id": "83d9924bba434572",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "aeffe674cf8007a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Functions in Metric Spaces.md",
+                "file": "Topology/Locally Connected Topological Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -225,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Topology/Locally Connected Topological Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Topology/Locally Connected Topological Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md"
+                "file": "Topology/Locally Connected Topological Space.md"
               }
             }
           }
@@ -288,13 +276,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "83d9924bba434572",
+  "active": "4dee9b8d111a4b70",
   "lastOpenFiles": [
-    "Topology/Locally Compact Topological Space.md",
-    "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Compact-Open Topology.md",
-    "Lie Group/Topological Group.md",
+    "Topology/Connected Topological Space.md",
+    "Topology/Locally Connected Topological Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
+    "Lie Group/Topological Group.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Locally Compact Topological Space.md",
+    "Topology/Compact-Open Topology.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Initial Topology.md",
@@ -316,8 +306,6 @@
     "Algebra/Integral Domain.md",
     "Differential Geometry/Differential.md",
     "Algebra/Symmetry Group.md",
-    "Algebra/Transpostion.md",
-    "Algebra/Subgroup.md",
     "Courses/Algebra II/Untitled",
     "Courses/Algebra II",
     "Courses/Functional Analysis II",
