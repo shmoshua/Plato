@@ -17,7 +17,12 @@
 > \end{tikzcd}
 > \end{document}
 > ```
-> Therefore, $\varphi$ is continuous if and only if it is continuous at one point.
+> Therefore, $\varphi$ is continuous if and only if it is continuous at $e\in G_{1}$.
+
+> [!proof]-
+> One direction is trivial. 
+> 
+> For the other, if $\varphi$ is continuous at $e$. Let $U\subseteq G_{2}$ open. If $\varphi^{-1}(U)=\varnothing$, we are done. Otherwise, let $x\in G_{1}$ s.t. $\varphi(x)\in U$. We have that: $$\varphi^{-1}(U)=x\varphi^{-1}(\varphi(x ^{-1})U)$$As $\varphi(x ^{-1})U=L_{\varphi(x ^{-1})}(U)$ is open and $\varphi(e)=e_{2}\in \varphi(x ^{-1})U$. Therefore,  by continuity at $e$, $\varphi ^{-1}(\varphi(x ^{-1})U)$ is open. Therefore, $\varphi ^{-1}(U)=x\varphi^{-1}(\varphi(x ^{-1})U)=L_{x}(\varphi^{-1}(\varphi(x ^{-1})U))$ is open.
 ---
 > [!lemma] Proposition 2
 > Let $G,\{ G_{\alpha} \}_{\alpha\in A}$ be a topological group. Then:
@@ -44,13 +49,13 @@
 ---
 > [!h] Example 2
 > Let $X$ be a [[locally compact Hausdorff space]]. Then, with respect to the [[compact-open topology]],
-> 1. $\text{Homeo}(X)$ is not necessarily a topological group.
-> 2. $\text{Homeo}(X)$ is a topological group if $X$ is compact.
-> 3. $\text{Homeo}(X)$ is a topological group if $X$ is locally connected.
-> 4. $\text{Homeo}(X)$ is a topological group if $X$ is a [[topological manifold]].
+> 1. $\text{Homeo}(X)$ is a topological group if $X$ is compact.
+> 2. $\text{Homeo}(X)$ is a topological group if $X$ is locally connected.
+> 3. $\text{Homeo}(X)$ is a topological group if $X$ is a [[topological manifold]].
 
 > [!proof]+
-> 
+> We have:
+> 1. Assume $X$ is compact. For $K$ compact and $U$ open, we have that: $$i^{-1}(S(K,U))=S(U^c,K^c)$$where $U^c$ is compact (as $X$ is compact) and $K^c$ is open. Therefore, $i$ is continuous. 
 ---
 > [!h] Example 3
 > If $M$ is a [[smooth manifold]], for any $r\in \mathbb{N}$, and $$\text{Diff}^r:=\{ f\in \text{Homeo}(M):f,f^{-1}\in C^r(M) \}$$

@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "241f7b1dc219f423",
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Lie Group/Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Lie Group/Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact-Open Topology.md"
+                "file": "Lie Group/Topological Group.md"
               }
             }
           }
@@ -288,12 +288,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "83d9924bba434572",
+  "active": "486bc08ebc04eeed",
   "lastOpenFiles": [
-    "Lie Group/Topological Group.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Compact-Open Topology.md",
+    "Lie Group/Topological Group.md",
     "Topology/Continuous Functions in Metric Spaces.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Initial Topology.md",
     "Algebra/Orthogonal Group.md",
