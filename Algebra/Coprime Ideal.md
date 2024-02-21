@@ -1,7 +1,7 @@
 #Definition #Algebra
 
 > [!definition]
-> Let $R$ be a [[ring]]. Two [[Ideal|ideals]] $\mathfrak{a}, \mathfrak{b}\subseteq R$ are ***coprime*** if $\mathfrak{a}+\mathfrak{b}=R$.
+> Let $R$ be a non-trivial [[ring]]. Two [[Ideal|ideals]] $\mathfrak{a}, \mathfrak{b}\subseteq R$ are ***coprime*** if $\mathfrak{a}+\mathfrak{b}=R$.
 ---
 ##### Properties
 > [!lemma] Lemma 1

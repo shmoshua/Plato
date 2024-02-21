@@ -70,7 +70,7 @@ $$\begin{array}{cccccc}\varphi:&S&\xhookrightarrow{}&S+\mathfrak{a}&\xrightarrow
 > [!lemma] Theorem 4 (Third isomorphism theorem)
 > Let $R$ be a ring and $\mathfrak{a,b}\subseteq R$ ideals s.t. $\mathfrak{b}\subseteq \mathfrak{a}$. Then, $$(R / \mathfrak{b}) / (\mathfrak{a}/\mathfrak{b})\cong R / \mathfrak{a}$$where $\mathfrak{a}/\mathfrak{b}:=\{ a+\mathfrak{b}:a\in \mathfrak{a} \}$
 
-> [!proof]+
+> [!proof]-
 > We first show that $\mathfrak{a / b}$ is an ideal in $R / \mathfrak{b}$. We have that: 
 > 1. for $a_{1}+\mathfrak{b},a_{2}+\mathfrak{b}\in \mathfrak{a} / \mathfrak{b}$, $a_{1}+a_{2}+\mathfrak{b}\in \mathfrak{a / b}$.
 > 2. for $a+\mathfrak{b}\in \mathfrak{a / b}$ and $r+\mathfrak{b}\in R / \mathfrak{b}$, $ra+\mathfrak{b}\in\mathfrak{a / b}$.
