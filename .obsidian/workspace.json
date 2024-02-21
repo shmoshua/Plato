@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "241f7b1dc219f423",
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Topology/Continuous Functions in Metric Spaces.md",
                 "mode": "preview",
                 "source": false
               }
@@ -291,12 +291,13 @@
   "active": "83d9924bba434572",
   "lastOpenFiles": [
     "Lie Group/Topological Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Compact-Open Topology.md",
+    "Topology/Continuous Functions in Metric Spaces.md",
+    "Differential Geometry/Topological Manifold.md",
     "Topology/Initial Topology.md",
     "Algebra/Orthogonal Group.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Ideal.md",
-    "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Tangent Space.md",
     "Algebra/Ring Homomorphism.md",
     "Differential Geometry/Riemannian Metric.md",
@@ -317,7 +318,6 @@
     "Algebra/Subgroup.md",
     "Algebra/Sylow p-Subgroups.md",
     "Algebra/Special Linear Groups.md",
-    "Algebra/Special Orthogonal Groups.md",
     "Courses/Algebra II/Untitled",
     "Courses/Algebra II",
     "Courses/Functional Analysis II",
