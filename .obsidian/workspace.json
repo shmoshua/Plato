@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Topology/Initial Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -290,11 +290,12 @@
   },
   "active": "486bc08ebc04eeed",
   "lastOpenFiles": [
-    "Algebra/Orthogonal Group.md",
+    "Topology/Initial Topology.md",
     "Lie Group/Topological Group.md",
+    "Topology/Compact-Open Topology.md",
+    "Algebra/Orthogonal Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Ideal.md",
-    "Topology/Compact-Open Topology.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Tangent Space.md",
     "Algebra/Ring Homomorphism.md",
@@ -317,7 +318,6 @@
     "Algebra/Sylow p-Subgroups.md",
     "Algebra/Special Linear Groups.md",
     "Algebra/Special Orthogonal Groups.md",
-    "Algebra/Solvable Group.md",
     "Courses/Algebra II/Untitled",
     "Courses/Algebra II",
     "Courses/Functional Analysis II",

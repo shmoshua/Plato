@@ -1,8 +1,8 @@
 #Definition #LieGroups 
 > [!definition]
 > A [[group]] $G$ is ***topological*** if the underlying set is a [[topological space]] and the group operations are continuous, i.e.
-> 1. $G\times G\to G,(g,h)\mapsto gh$ is continuous (under the product topology) and
-> 2. $G\to G,g\mapsto g^{-1}$ is continuous.
+> 1. $m:G\times G\to G,(g,h)\mapsto gh$ is continuous (under the product topology) and
+> 2. $i:G\to G,g\mapsto g^{-1}$ is continuous.
 - **Remark**: $g\mapsto g^{-1}$ is a [[homeomorphism]].
 - **Related definition**: For any $g\in G$, the ***left/right translation*** are: $$\begin{array}{cccc} {L_{g}:}&{G}&\to&{G}\\&{x} &\mapsto & {gx} \end{array}{}\quad\quad\quad\quad\quad \begin{array}{cccc} {R_{g}:}&{G}&\to&{G}\\&{x} &\mapsto & {xg} \end{array}{}$$continuous and homeomorphisms (with inverses as $L_{g^{-1}},R_{g^{-1}}$).
 ---
@@ -21,9 +21,18 @@
 ---
 > [!lemma] Proposition 2
 > Let $G,\{ G_{\alpha} \}_{\alpha\in A}$ be a topological group. Then:
-> 1. $H\leq G$ is a topological group.
+> 1. $H\leq G$ is a topological group with the subspace topology.
 > 2. $\prod_{\alpha\in A}^{}G_{\alpha}$ is a topological group with the product topology.
-> 3. for $N\unlhd G$, $G / N$ is a topological group with the quotient topology.
+> 3. For $H\leq G$, the canonical projection $\pi:G \to G / H$ is [[Open and Closed Maps|open]].
+> 4. for $N\unlhd G$, $G / N$ is a topological group with the quotient topology.
+
+> [!proof]+
+> We have that:
+> 1. The restriction of the group operations is continuous.
+> 2. For $\Gamma:=\prod_{\alpha\in A}^{}G_{\alpha}$, $\pi_{\alpha}\circ m_{\Gamma}=m_{\alpha}\circ(\pi_{\alpha},\pi_{\alpha})$ and therefore continuous. This shows that $\times_{\Gamma}$ is continuous [[Initial Topology|Lemma 2]]. Similarly, $\pi_{\alpha}\circ i_{\Gamma}=i_{\alpha}\circ(\pi_{\alpha},\pi_{\alpha})$ is continuous.
+> 3. Suppose $U\subseteq G$ is an open set. Then, $\pi ^{-1}(\pi(U))=UH$
+> 4. For $U\subseteq G / N$ open, $$
+> 
 ---
 ##### Examples
 > [!h] Example 1 (Elementary Topological Groups)
