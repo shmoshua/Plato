@@ -56,6 +56,8 @@
 > [!proof]+
 > We have:
 > 1. Assume $X$ is compact. For $K$ compact and $U$ open, we have that: $$i^{-1}(S(K,U))=S(U^c,K^c)$$where $U^c$ is compact (as $X$ is compact) and $K^c$ is open. Therefore, $i$ is continuous. 
+>    
+>    For $K$ compact and $U$ open, let $(f,g)\in m^{-1}(S(K,U))$. Then, $f(g(K))\subseteq U$ and:$$(f,g)\in S(g(K),U)\times S(K,f^{-1}(U))$$Let $(p,q)\in S(g(K),U)\times S(K,f^{-1}(U))$. Then, $pq(K)\subseteq p(f^{-1}(U))$
 ---
 > [!h] Example 3
 > If $M$ is a [[smooth manifold]], for any $r\in \mathbb{N}$, and $$\text{Diff}^r:=\{ f\in \text{Homeo}(M):f,f^{-1}\in C^r(M) \}$$
