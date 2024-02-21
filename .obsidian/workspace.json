@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -158,7 +158,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Lie Group/Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Lie Group/Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md"
+                "file": "Lie Group/Topological Group.md"
               }
             }
           }
@@ -287,18 +288,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e2ecc26504b65e29",
+  "active": "ecf1c042ba3b0f9c",
   "lastOpenFiles": [
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Riemannian Metric.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Lie Group/Topological Group.md",
+    "Lie Group",
     "Algebra/Ring Homomorphism.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Courses/Lie Groups",
     "Algebra/Coprime Ideal.md",
-    "Differential Geometry/Riemannian Metric.md",
     "Algebra/Ideal.md",
     "Algebra/Subring.md",
     "Algebra/Zero Divisor.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Division Ring.md",
     "Algebra/Unit.md",
     "Algebra/Integral Domain.md",
@@ -314,8 +318,6 @@
     "Algebra/Simple Group.md",
     "Courses/Algebra I/Serie 4.md",
     "Courses/Algebra I/Serie 9.md",
-    "Courses/Algebra I/Serie 11.md",
-    "Courses/Algebra I/Serie 12.md",
     "Courses/Algebra II/Untitled",
     "Courses/Algebra II",
     "Courses/Functional Analysis II",
@@ -324,7 +326,6 @@
     "untitled folder",
     "Plato",
     "hihi.py",
-    "Machine Learning/NLP",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
