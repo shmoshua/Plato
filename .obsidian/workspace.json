@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Functional Analysis/C-Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -250,9 +250,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e2ecc26504b65e29",
+  "active": "43ab93d3630784bc",
   "lastOpenFiles": [
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Locally Connected Topological Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
@@ -279,7 +280,6 @@
     "Algebra/Zero Divisor.md",
     "Algebra/Division Ring.md",
     "Algebra/Unit.md",
-    "Algebra/Integral Domain.md",
     "Courses/Algebra II/Untitled",
     "Courses/Algebra II",
     "Courses/Functional Analysis II",
