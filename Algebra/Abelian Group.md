@@ -18,7 +18,7 @@
 1. $\text{M}(n):=\mathbb{R}^{n,n}$, the matrix monoid (not a group)
 1. [[General Linear Group|$\text{GL}(n)$]], general linear group with $n>1$.
 2. [[Special Linear Groups|$\text{SL}(n)$]], special linear group with $n>1$.
-3. [[Orthogonal Groups|$\text{O}(n)$]], orthogonal group with $n>1$.
+3. [[Orthogonal Group|$\text{O}(n)$]], orthogonal group with $n>1$.
 4. [[Special Orthogonal Groups|$\text{SO}(n)$]], special orthogonal group with $n>2$.
 ---
 **Examples of Finite Abelian groups**: 
