@@ -28,7 +28,7 @@
 > By the [[Bounded Linear Map|Closed graph theorem]], $T$ is bounded and, there exists $K>0$ s.t. $$\left\| xy \right\| \leq \left\| M_{x} \right\| \left\| y \right\| \leq K\|x\|\|y\|$$Now, let $\|x\|_{\text{new}}=K\|x\|$. Then, $$\left\| xy \right\| _{\text{new}}=K\left\| xy \right\| \leq K^{2}\|x\|\|y\|=\|x\|_{\text{new}}\|y\|_{\text{new}}$$and $(A,\|\cdot\|_{\text{new}})$ is Banach as the norms are equivalent. 
 ----
 ##### Examples
-3 Families of Banach Algebras
+**3 Families of Banach Algebras**
 1. Function space with multiplication
 2. Space of bounded operators
 3. Group algebras with convolution.
@@ -47,11 +47,8 @@
 > 3. TODO
 ---
 > [!h] Example 2
-> For a [[Banach space]] $(B,\|\cdot\|)$, 
-> 1. $\mathcal{B}(B)$ is a Banach algebra.
-> 2. If $B=\mathcal{H}$, then $\mathcal{B}(\mathcal{H})$ is a [[C*-Algebra]] with the adjoint.
+> For a [[Banach space]] $(B,\|\cdot\|)$, $\mathcal{B}(B)$ is a Banach algebra.
 
-> [!proof]+
-> We have: 
-> 1. $\mathcal{B}(B)$ is a Banach space from [[Bounded Linear Map|Proposition 1]] and $\left\| TS \right\|\leq \left\| T \right\|\left\| S \right\|$ from [[Linear Map|Theorem 4]].
-> 2. We have: $$\left\| Tx \right\| ^{2}=\braket{ Tx , Tx } =\braket{ x , T^{*}Tx } \leq \left\| T^{*}T x\right\| \|x\|\leq \left\| T^{*} T\right\| mn$$Therefore, $\left\| T \right\|^{2}\leq \left\| T^{*}T \right\|$. The other direction holds from the Banach algebra property.
+> [!proof]-
+> $\mathcal{B}(B)$ is a Banach space from [[Bounded Linear Map|Proposition 1]] and $\left\| TS \right\|\leq \left\| T \right\|\left\| S \right\|$ from [[Linear Map|Theorem 4]].
+---

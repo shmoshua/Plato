@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -63,18 +63,6 @@
             }
           },
           {
-            "id": "38e5954e76feca32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "aeffe674cf8007a9",
             "type": "leaf",
             "state": {
@@ -92,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -135,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md"
+                "file": "Analysis/Functional Analysis/Volterra Algebra.md"
               }
             }
           }
@@ -264,14 +252,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "38e5954e76feca32",
+  "active": "3fbaa52ccb70767c",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Convolution.md",
-    "Differential Geometry/Tangent Space.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Fourier Transform.md",
     "Analysis/Functional Analysis/Volterra Algebra.md",
+    "Analysis/Convolution.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Differential Geometry/Tangent Space.md",
     "Topology/Locally Connected Topological Space.md",
     "Courses/Functional Analysis I/Exercise Sheet 6.md",
     "Banach-Tarski.md",
@@ -291,7 +280,6 @@
     "Algebra/Orthogonal Group.md",
     "Algebra/Ideal.md",
     "Algebra/Ring Homomorphism.md",
-    "Differential Geometry/Riemannian Metric.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
