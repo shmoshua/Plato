@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Analysis/Functional Analysis/Spectral Radius.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Quotient Field.md",
+                "file": "Analysis/Functional Analysis/Spectral Radius.md",
                 "mode": "preview",
                 "source": false
               }
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Analysis/Functional Analysis/Spectral Radius.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Analysis/Functional Analysis/Spectral Radius.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md"
+                "file": "Analysis/Functional Analysis/Spectral Radius.md"
               }
             }
           }
@@ -277,10 +277,12 @@
   },
   "active": "43ab93d3630784bc",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
-    "Analysis/Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Spectral Radius.md",
+    "Algebra/Quotient Field.md",
+    "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/C-Algebra.md",
+    "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Differential Geometry/Riemannian Manifold.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
@@ -301,8 +303,6 @@
     "Algebra/Characteristic.md",
     "Characteristic.md",
     "Algebra/Prime Ring.md",
-    "Courses/Algebra I/Algebra Practice Problems.md",
-    "Courses/Algebra I/Algebra I Roadmap.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
