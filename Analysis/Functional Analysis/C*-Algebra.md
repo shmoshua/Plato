@@ -55,3 +55,11 @@
 > 1. $\mathcal{H}$ is a Banach algebra from [[Banach Algebra|Example 2]] and involutive from the adjoint properties.
 > 2. We have: $$\left\| Tx \right\| ^{2}=\braket{ Tx , Tx } =\braket{ x , T^{*}Tx } \leq \left\| T^{*}T x\right\| \|x\|\leq \left\| T^{*} T\right\| \|x\|^{2}$$Therefore, $\left\| T \right\|^{2}\leq \left\| T^{*}T \right\|$. The other direction holds from the Banach algebra property.
 ---
+> [!h] Example 4
+> Let $\Gamma$ be a group. Then, $$\ell^1(\Gamma):=\left\{  f:\Gamma\to \mathbb{C} |\left\| f \right\| _{1}:=\sum_{\gamma\in \Gamma}^{} \left| f(\gamma) \right| <+\infty\right\}$$is Banach with the convolution: $$(f*g)(\gamma)=\sum_{\eta\in \Gamma}^{}f(\gamma \eta)g(\eta ^{-1})$$with $\left\| f*g \right\|_{1}\leq \left\| f \right\|_{1}\left\| g \right\|_{1}$ and 
+> 1. $\delta_{\alpha}*\delta_{\beta}=\delta_{\alpha\beta}$ 
+> 2. involution $f^{*}(\gamma)=\overline{f(\gamma ^{-1})}$
+> 3. Therefore it is an involutive Banach algebra. 
+---
+> [!h] Example 5
+> For $d>2$, let $T_{\alpha}:=(V,E)$ be a $d$-regular tree. Then, we can define a 

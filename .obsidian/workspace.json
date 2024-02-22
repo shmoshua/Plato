@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -35,11 +35,16 @@
             "id": "b06a91106e3ad88f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "241f7b1dc219f423",
@@ -51,19 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "802e314575b552a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Tensor Bundle.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -75,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Riemannian Manifold.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -154,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Riemannian Manifold.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -237,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Riemannian Manifold.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Riemannian Manifold.md"
+                "file": "Analysis/Functional Analysis/C*-Algebra.md"
               }
             }
           }
@@ -283,17 +276,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "04c3cc8a4a4f35af",
+  "active": "b06a91106e3ad88f",
   "lastOpenFiles": [
-    "Differential Geometry/Tensor Bundle.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
     "Differential Geometry/Riemannian Manifold.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Length.md",
+    "Differential Geometry/Tensor Bundle.md",
     "Differential Geometry/Section.md",
     "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Transition Function.md",
     "Differential Geometry/Vector Bundle.md",
     "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
     "Differential Geometry/Hyperbolic Space.md",
     "Algebra/Field.md",
     "Differentiable Functions.md",
@@ -307,10 +304,6 @@
     "Courses/Algebra I/Algebra I Roadmap.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Quotient Field.md",
-    "Analysis/Functional Analysis/Volterra Algebra.md",
-    "Algebra/Ideal.md",
-    "Algebra/Ring.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",

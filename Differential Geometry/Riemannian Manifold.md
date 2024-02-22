@@ -16,3 +16,11 @@ hehe
 > [!proof]-
 > Follows from the non-degeneracy of the bilinear form $g_{p}$.
 ---
+$$V^\flat=g(V,\cdot )=g_{ij}V^idx^j=V_{j}dx^j$$
+$V_{j}=g_{ij}V^i$ flipped sum sign (index lowering)
+$\xi=\xi_{j}dx^j$ and 
+$$\xi^\sharp=g^{ij}\xi_{j}\partial x^i=\xi^i\partial x^i$$
+$\xi^i=g^{ij}\xi_{j}$ "index raising"
+
+Inner product on $T^{*}M$: $$g^{-1}(\xi,\eta)=g(\xi^\sharp,\eta^\sharp)$$
+$g^{-1}(dx^i,dx^j)=g^{ij}$

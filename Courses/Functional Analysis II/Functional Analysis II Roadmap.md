@@ -9,6 +9,7 @@
 7. **Example of a Banach Algebra**: [[Banach Algebra|$\mathcal{B}(B)$]] for Banach $B$.
 8. **Example of a C\*-Algebra**: [[C*-Algebra|$\mathcal{B}(\mathcal{H})$]] for Hilbert $\mathcal{H}$.
 9. **Example of a involutive Banach Algebra**: [[Volterra Algebra]]
+10. **Example of a involutive Banach Algebra**: [[Volterra Algebra]]
 ---
 ##### 2. Spectrum of a Banach Algebra Element
 ---
