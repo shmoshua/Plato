@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Courses/Functional Analysis I/Exercise Sheet 6.md",
                 "mode": "preview",
                 "source": false
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md"
+                "file": "Analysis/Functional Analysis/C*-Algebra.md"
               }
             }
           }
@@ -252,15 +252,20 @@
   },
   "active": "43ab93d3630784bc",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Courses/Functional Analysis I/Exercise Sheet 6.md",
+    "Courses/Functional Analysis I/Exercise Sheet 7.md",
+    "Lie Group/Topological Group.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Locally Connected Topological Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Differential Geometry/Cotangent Space.md",
     "Topology/Connected Topological Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
-    "Lie Group/Topological Group.md",
     "Topology/Locally Compact Topological Space.md",
     "Topology/Compact-Open Topology.md",
     "Differential Geometry/Topological Manifold.md",
@@ -275,11 +280,6 @@
     "Lie Group",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Courses/Lie Groups",
-    "Algebra/Coprime Ideal.md",
-    "Algebra/Subring.md",
-    "Algebra/Zero Divisor.md",
-    "Algebra/Division Ring.md",
-    "Algebra/Unit.md",
     "Courses/Algebra II/Untitled",
     "Courses/Algebra II",
     "Courses/Functional Analysis II",

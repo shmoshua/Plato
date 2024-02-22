@@ -14,7 +14,8 @@
 > 1. $A_{I}$ is unital with $(0,1)$ as unit.
 > 2. The map: $$\begin{array}{cccc} {\varphi:}&{A}&\to&{A_{I}}\\&{a} &\mapsto & {(a,0)} \end{array}{}$$is an injective algebra homomorphism.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. $$(x,\lambda)(0,1)=(x,\lambda),\quad (0,1)(x,\lambda)=(x,\lambda)$$
 > 2. Injectivity is clear. Then,$$\varphi(xy)=(xy,0)=(x,0)(y,0)=\varphi(x)\varphi(y)$$
+---
