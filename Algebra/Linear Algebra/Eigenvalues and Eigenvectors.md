@@ -8,4 +8,4 @@
 - **Remark**: The set of eigenvectors is a subspace of $V$.
 ---
 ##### Related Definitions
-- [[Spectrum]] 
+- [[Algebra/Linear Algebra/Spectrum]] 

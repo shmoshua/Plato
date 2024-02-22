@@ -12,6 +12,7 @@
 10. **Example of a involutive Banach Algebra**: [[Volterra Algebra]]
 ---
 ##### 2. Spectrum of a Banach Algebra Element
+
 ---
 ##### 3. The Guelfand Representations
 ---
