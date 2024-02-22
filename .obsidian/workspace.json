@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "241f7b1dc219f423",
@@ -123,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Volterra Algebra.md"
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
               }
             }
           }
@@ -252,14 +251,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3fbaa52ccb70767c",
+  "active": "aeffe674cf8007a9",
   "lastOpenFiles": [
-    "Analysis/Fourier Transform.md",
-    "Analysis/Functional Analysis/Volterra Algebra.md",
-    "Analysis/Convolution.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Functional Analysis/Volterra Algebra.md",
+    "Analysis/Fourier Transform.md",
+    "Analysis/Convolution.md",
     "Differential Geometry/Tangent Space.md",
     "Topology/Locally Connected Topological Space.md",
     "Courses/Functional Analysis I/Exercise Sheet 6.md",
