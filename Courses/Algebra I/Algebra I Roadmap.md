@@ -65,7 +65,6 @@
 7. [[Unit]]
 8. [[Integral Domain]]
 9. [[Direct Sum]]
-10. 
 ---
 ##### 10. Ideals and Homomorphisms
 1. [[Ideal]]
@@ -81,7 +80,7 @@
 2. [[Coprime Ideal]]
 3. Coprime ideals: if $I,J$ coprime, $R / IJ \cong R / I \times R / J$ 
 4. [[Maximal Ideal]]
-5. [[Field of Quotients]]
+5. [[Quotient Field]]
 ---
 ##### 12. Polynomial Rings
 1. [[Polynomial Ring]]
