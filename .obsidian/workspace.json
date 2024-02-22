@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/One-Point Compactification.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "241f7b1dc219f423",
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -81,18 +81,6 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04c3cc8a4a4f35af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
                 "mode": "preview",
                 "source": false
               }
@@ -302,17 +290,18 @@
   },
   "active": "e73237a4ef6ed5ed",
   "lastOpenFiles": [
+    "Analysis/Lp Space.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
+    "Topology/One-Point Compactification.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Compact sets.md",
     "Analysis/Convolution.md",
     "Analysis/Functional Analysis/Volterra Algebra.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/C-Algebra.md",
-    "Topology/One-Point Compactification.md",
     "Analysis/Functional Analysis/Spectrum.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Spectral Radius.md",
     "Algebra/Quotient Field.md",
     "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
@@ -327,7 +316,6 @@
     "Differential Geometry/Vector Bundle.md",
     "Differential Geometry/Hyperbolic Space.md",
     "Algebra/Field.md",
-    "Differentiable Functions.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",

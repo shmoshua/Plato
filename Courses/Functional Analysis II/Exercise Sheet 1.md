@@ -24,3 +24,9 @@ This proves that $\varphi$ is an isomorphism.
 ---
 ##### Exercise 3
 > Construct a function $f\in L^1(\mathbb{R})$ s.t. $\left\| f*f^{*} \right\|_{1}<\left\| f \right\|^2_{1}$
+
+Consider the function: $$f(x)=\begin{cases}1&0<x\leq 1\\-1&-1\leq x<0\\0&\text{otherwise}\end{cases}$$Then, $f^{*}=-f$ and: $$\left\| f*f^{*} \right\| _{1}=\int_{\mathbb{R}}^{}\left| \int_{\mathbb{R}}^{} f(x-t)f(t) \, dt  \right|   \, dx \leq \int_{\mathbb{R}}^{} \int_{\mathbb{R}}^{} \left| f(x-t) \right| \left| f(t) \right|  \, dt  \, dx $$
+
+$$-\int_{-1}^{0} f(x-t) \, dt+\int_{0}^{1} f(x-t) \, dt=\int_{x-1}^{x} f(y) \, dy-   $$
+$$\left\| f*f^{*} \right\| _{1}=\int_{0}^{1} \int_{0}^{1}  \, dt  \, dx $$
+$$\left| f*f^{*}(x) \right| \leq \int_{-1}^{1} \left| f(x-t) \right|  \, dt =$$
