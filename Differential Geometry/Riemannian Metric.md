@@ -12,6 +12,12 @@
 > [!lemma] Proposition 1
 > Let $M$ be a smooth manifold. Then, there exists a Riemannian metric $g$ on $M$.
 ---
+> [!lemma] Lemma 2
+> A Riemannian metric $g$ on $M$ defines an element of $\Gamma(T_{(0,2)}M)=\Gamma(T^{*}M\otimes T^{*}M)$. 
+> Conversely, every $g\in \Gamma(T_{(0,2)}M)$ s.t. $$g_{p}\in (T_{(0,2)}M)_{p}=T^{*}_{p}M\otimes T^{*}_{p}M$$is a symmetric, positive definite bilinear form on $T_{p}M$. (smoothness in $p$ is encoded in $\Gamma(T_{(0,2)}M)$).
+> 
+> Further, $\{ d_{p}\varphi^i\otimes d_{p}\varphi^j ,1\leq i,j\leq m\}$ forms a basis of $T^{*}_{p}M\otimes T^{*}_{p}M$.
+---
 ##### Examples
 > [!lemma] Example 1
 > Let $M=\mathbb{R}^m$ and $(x^1,\dots,x^m)$ be standard coordinates. Then, $$g:=\sum_{i=1}^{m}dx^i\otimes dx^i$$is the Euclidean metric. 

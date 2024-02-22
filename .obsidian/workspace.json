@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Bundle.md",
+                "file": "Differential Geometry/Riemannian Manifold.md",
                 "mode": "source",
                 "source": true
               }
@@ -39,8 +39,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "241f7b1dc219f423",
@@ -64,8 +63,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Transition Function.md",
-                "mode": "source",
+                "file": "Differential Geometry/Tensor Bundle.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -76,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Bundle.md",
+                "file": "Differential Geometry/Riemannian Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -221,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Vector Bundle.md",
+                "file": "Differential Geometry/Riemannian Manifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Vector Bundle.md",
+                "file": "Differential Geometry/Riemannian Manifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -261,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Vector Bundle.md"
+                "file": "Differential Geometry/Riemannian Manifold.md"
               }
             }
           }
@@ -286,12 +285,15 @@
   },
   "active": "04c3cc8a4a4f35af",
   "lastOpenFiles": [
-    "Differential Geometry/Transition Function.md",
+    "Differential Geometry/Tensor Bundle.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Riemannian Manifold.md",
+    "Differential Geometry/Section.md",
+    "Differential Geometry/Riemannian Metric.md",
+    "Differential Geometry/Transition Function.md",
     "Differential Geometry/Vector Bundle.md",
     "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
-    "Differential Geometry/Section.md",
     "Differential Geometry/Hyperbolic Space.md",
     "Algebra/Field.md",
     "Differentiable Functions.md",
@@ -309,9 +311,6 @@
     "Algebra/Ideal.md",
     "Algebra/Ring.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Fourier Transform.md",
-    "Analysis/Convolution.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",

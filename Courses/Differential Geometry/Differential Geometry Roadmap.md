@@ -20,4 +20,6 @@
 1. [[Vector Bundle]]
 2. [[Section]]
 3. [[Transition Function]]
+4. [[Tensor Bundle]]
+5. [[Riemannian Manifold|Nash's Theorem]]
 ---
