@@ -20,8 +20,20 @@
 > 1. $e-x$ is invertible and
 > 2. $(e-x)^{-1}=\sum_{n=1}^{\infty}x^n$ where $x^0=e$.
 
-> [!proof]+
+> [!proof]- Proof (incomplete)
 > We have:
 > 1. $\sum_{n=0}^{\infty}a_{n}$ in a Banach space is convergent if $S_{N}:=\sum_{n=0}^{N}a_{n}$ converges.
 > 2. $\sum_{n=0}^{\infty}a_{n}$ in a Banach space is absolutely convergent if $\sum_{n=0}^{\infty}\left\| a_{n} \right\|$ converges.
 > 3. absolute convergence => convergent.
+---
+> [!lemma] Lemma 3
+> Let $A$ be a unital Banach algebra. 
+> 1. Then, the map $G(A)\to G(A), y\mapsto y^{-1}$ is Lipschitz continuous in some neighborhood of every $x\in G(A)$.
+> 2. More precisely, if $\left\| y-x \right\| \leq \frac{1}{2}\left\|x ^{-1} \right\| ^{-1}$, then: $$\left\| y^{-1}-x ^{-1} \right\| \leq 2\left\|  x ^{-1} \right\|^2 \left\| y-x \right\| $$
+> 3. Let $x\in G(A)$. If $y\in A$ satisfies $\left\| y-x \right\|<\left\| x ^{-1} \right\|^{-1}$. Then, $y\in G(A)$, in particular $G(A)$ is open in $A$.
+
+> [!proof]-
+> We have
+> 1. $(y^{-1}-x ^{-1})=y^{-1}(x-y) x ^{-1}$ and: $$\left\| y^{-1} \right\| -\left\| x ^{-1} \right\|\leq \left\| y^{-1}-x ^{-1} \right\| \leq \left\| y^{-1} \right\|\left\| x-y \right\| \left\| x ^{-1} \right\| \leq \frac{1}{2}\left\| y^{-1} \right\|  $$Therefore, $\left\| y^{-1} \right\|\leq 2\left\| x ^{-1} \right\|$ and $\left\| y^{-1}-x ^{-1} \right\|\leq 2\left\| x ^{-1} \right\|^2\left\| x-y \right\|$
+> 2. We have: $e-x ^{-1}y=x ^{-1}(x-y)$. Therefore, $$\left\| e-x^{-1}y \right\| \leq \left\| x^{-1} \right\| \left\| x-y \right\| <1$$Therefore, from Lemma 2, $e-(e-x^{-1}y)=x^{-1}y\in G(A)$. Therefore, $y\in G(A)$. 
+---
