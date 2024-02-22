@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b06a91106e3ad88f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "241f7b1dc219f423",
@@ -55,19 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "486bc08ebc04eeed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis I/Exercise Sheet 6.md",
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -79,7 +80,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Connected Topological Space.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3fbaa52ccb70767c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -91,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Analysis/Convolution.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +134,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md"
+                "file": "Analysis/Functional Analysis/Banach Algebra.md"
               }
             }
           }
@@ -250,35 +264,35 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "43ab93d3630784bc",
+  "active": "38e5954e76feca32",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Convolution.md",
+    "Differential Geometry/Tangent Space.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Functional Analysis/Volterra Algebra.md",
+    "Topology/Locally Connected Topological Space.md",
     "Courses/Functional Analysis I/Exercise Sheet 6.md",
+    "Banach-Tarski.md",
+    "Topology/Compact-Open Topology.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis I/Exercise Sheet 7.md",
     "Lie Group/Topological Group.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Topology/Locally Connected Topological Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Differential Geometry/Cotangent Space.md",
     "Topology/Connected Topological Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Locally Compact Topological Space.md",
-    "Topology/Compact-Open Topology.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Initial Topology.md",
     "Algebra/Orthogonal Group.md",
     "Algebra/Ideal.md",
-    "Differential Geometry/Tangent Space.md",
     "Algebra/Ring Homomorphism.md",
     "Differential Geometry/Riemannian Metric.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Lie Group",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
     "Courses/Algebra II",

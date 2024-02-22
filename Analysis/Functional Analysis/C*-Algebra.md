@@ -9,12 +9,21 @@
 >
 > An involutive Banach algebra is a ***C\*-algebra***, if $\left\| xx^{*} \right\|=\|x\|\|x^{*}\|$ for all $x\in B$.
 ---
+##### Properties
+> [!lemma] Lemma 1
+> Let $e$ be the unit in an involutive Banach algebra $B$. Then, $e=e^{*}$.
+
+> [!proof]-
+> Firstly, a unit is unique as $e=e e'=e'$ if $e\neq e'$ and both are units. Then, for all $x\in B$:$$xe^{*}=(ex^{*})^{*}=(x^{*})^{*}=x,\quad e^{*}x=(x^{*}e)^{*}=(x^{*})^{*}=x$$
+> Therefore, $e=e^{*}$.
+> 
+---
 ##### Examples
-> [!lemma] Example 1
+> [!h] Example 1
 > For a [[locally compact Hausdorff space]] $X$, Then, 
 > 1. $C_{b}(X)$ is a Banach algebra
 > 2. $C_{b}(X)$ is involutive with $f^{*}=\overline{f}$.
-> 3. $C_{b}(X)$ is a C*-algebra.
+> 3. $C_{b}(X)$ is a $C^{*}$-algebra.
 
 > [!proof]-
 > We have that $(C_{b}(X),\|\cdot\|_{b})$ is a Banach space. Then, 
@@ -24,17 +33,17 @@
 > 	
 > 3. **Showing $C_{b}$ is C\*-algebra**:$$\left\| ff^{*} \right\|_{b}=\sup_{x\in X}\left| \overline{f(x)}f(x) \right| =\sup_{x\in X}\left| f(x) \right| ^{2}=\left\| f \right\| ^2_{b}=\left\| f^{*} \right\|_{b}\left\| f \right\|_{b} $$
 ---
-> [!lemma] Example 2
+> [!h] Example 2
 > For a [[locally compact Hausdorff space]] $X$, Then, 
 > 1. $C_{0}(X)$ is a C*-algebra.
 > 2. $C_{0}(X)$ is [[C-Algebra|unital]], if and only if $X$ is compact.
 
-> [!proof]+
+> [!proof]-
 > We have that $(C_{0}(X),\|\cdot\|_{b})$ is a Banach space. Then, 
 > 1. **Showing $C_{0}$ is a C\*-algebra**: 
 > 	Analogous to Example 1. 
 > 2. **Showing $C_{0}(X)$ is unital if $X$ is compact**:
 >    Let $f=1$. Then, $1\in C_{0}(X)$ and it is clearly a unit.
 > 3. **Showing $X$ is compact if $C_{0}(X)$ is unital**:
-> 	Assume $X$ is not compact. But assume that we have a unit $f\in C_{0}(X)$. 
+> 	Assume $X$ is not compact but that we have a unit $f\in C_{0}(X)$. Then, $f=1$ as we can have a bump function in $C_{00}(X)\subseteq C_{0}(X)$ around any point. This is a contradiction to $f\in C_{0}(X)$. 
 ---

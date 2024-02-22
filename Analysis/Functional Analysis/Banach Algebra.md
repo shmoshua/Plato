@@ -36,21 +36,22 @@
 > [!h] Example 1
 > Let $-\infty<a<b<+\infty$. Then, for $n<+\infty$, 
 > 1. $C^n([a,b])$ with pointwise multiplication is a Banach algebra with $\left\| f \right\|:=\sum_{k=0}^{n} \frac{1}{k!}\left\| f^{(k)} \right\|_{b}$
-> 2. $C^n([a,b])$ is not a [[C*-algebra]].
+> 2. $C^n([a,b])$ is not a [[C*-algebra]] with $f\mapsto \overline{f}$
 > 3. $C^\infty([a,b])$ with pointwise multiplication does not admit any Banach algebra norm.
 
 > [!proof]-
 > We have: 
-> 1. **Showing $C^n([a,b])$ is a Banach algebra**
-> 	$$\begin{align}\left\| fg \right\| &=\sum_{k=0}^{n} \frac{1}{k!}\left\| (fg)^{(k)} \right\|_{b} \\&=\sum_{k=0}^{n} \frac{1}{k!}\left\| \sum_{i=0}^{k} {k\choose i} f^{(k-i)}g^{(i)}\right\|_{b}\\&\leq\sum_{k=0}^{n} \sum_{i=0}^{k} \frac{1}{i!(k-i)!}\left\|f^{(k-i)}\right\|_{b}\left\|g^{(i)}\right\|_{b} \\&\leq \left( \sum_{k=0}^{n} \frac{1}{k!}\left\| f^{(k)} \right\| _{b} \right) \end{align}$$
-
+> 1. **Showing $C^n([a,b])$ is a Banach algebra**:
+> 	$$\begin{align}\left\| fg \right\| &=\sum_{k=0}^{n} \frac{1}{k!}\left\| (fg)^{(k)} \right\|_{b} \\&=\sum_{k=0}^{n} \frac{1}{k!}\left\| \sum_{i=0}^{k} {k\choose i} f^{(k-i)}g^{(i)}\right\|_{b}\\&\leq\sum_{k=0}^{n} \sum_{i=0}^{k} \frac{1}{i!(k-i)!}\left\|f^{(k-i)}\right\|_{b}\left\|g^{(i)}\right\|_{b} \\&\leq \left( \sum_{k=0}^{n} \frac{1}{k!}\left\| f^{(k)} \right\| _{b} \right) \left( \sum_{k=0}^{n} \frac{1}{k!}\left\| g^{(k)} \right\| _{b} \right)\\&=\left\| f \right\| \cdot \left\| g \right\|  \end{align}$$
+> 2. Obvious.
+> 3. TODO
 ---
 > [!h] Example 2
 > For a [[Banach space]] $(B,\|\cdot\|)$, 
 > 1. $\mathcal{B}(B)$ is a Banach algebra.
 > 2. If $B=\mathcal{H}$, then $\mathcal{B}(\mathcal{H})$ is a [[C*-Algebra]] with the adjoint.
 
-> [!proof]-
+> [!proof]+
 > We have: 
-> 1. $\left\| TS \right\|\leq \left\| T \right\|\left\| S \right\|$
-> 2. We have: $$\left\| Tx \right\| ^{2}=\braket{ Tx , Tx } =\braket{ x , T^{*}Tx } \leq \left\| T^{*}T x\right\| \|x\|$$Therefore, $\left\| T \right\|^{2}\leq \left\| T^{*}T \right\|$. The other direction holds from the Banach algebra property.
+> 1. $\mathcal{B}(B)$ is a Banach space from [[Bounded Linear Map|Proposition 1]] and $\left\| TS \right\|\leq \left\| T \right\|\left\| S \right\|$ from [[Linear Map|Theorem 4]].
+> 2. We have: $$\left\| Tx \right\| ^{2}=\braket{ Tx , Tx } =\braket{ x , T^{*}Tx } \leq \left\| T^{*}T x\right\| \|x\|\leq \left\| T^{*} T\right\| mn$$Therefore, $\left\| T \right\|^{2}\leq \left\| T^{*}T \right\|$. The other direction holds from the Banach algebra property.
