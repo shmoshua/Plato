@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "241f7b1dc219f423",
@@ -69,6 +69,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e73237a4ef6ed5ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Topology/Compact sets.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectral Radius.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -116,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
+                "file": "Analysis/Functional Analysis/C-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -225,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/One-Point Compactification.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/One-Point Compactification.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/One-Point Compactification.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md"
               }
             }
           }
@@ -288,19 +300,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "04c3cc8a4a4f35af",
+  "active": "e73237a4ef6ed5ed",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Topology/One-Point Compactification.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Spectral Radius.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
     "Analysis/Functional Analysis/Spectrum.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Topology/Compact sets.md",
+    "Topology/One-Point Compactification.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
+    "Analysis/Functional Analysis/Volterra Algebra.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Functional Analysis/Spectral Radius.md",
     "Algebra/Quotient Field.md",
     "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
     "Differential Geometry/Riemannian Manifold.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Length.md",
@@ -314,8 +328,6 @@
     "Differentiable Functions.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Polynomial Ring.md",
-    "Algebra/Prime Field.md",
-    "Algebra/Characteristic.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
