@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Differential Geometry/Section.md",
                 "mode": "source",
                 "source": true
               }
@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Differential Geometry/Section.md",
                 "mode": "preview",
                 "source": false
               }
@@ -129,7 +129,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Differential Geometry/Section.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Differential Geometry/Section.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Polynomial Ring.md"
+                "file": "Differential Geometry/Section.md"
               }
             }
           }
@@ -258,21 +259,26 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "aeffe674cf8007a9",
+  "active": "43ab93d3630784bc",
   "lastOpenFiles": [
-    "Algebra/Prime Field.md",
+    "Differential Geometry/Vector Bundle.md",
+    "Differential Geometry/Section.md",
+    "Differential Geometry/Hyperbolic Space.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Algebra/Field.md",
+    "Differentiable Functions.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Prime Field.md",
     "Algebra/Characteristic.md",
     "Characteristic.md",
     "Algebra/Prime Ring.md",
     "Courses/Algebra I/Algebra Practice Problems.md",
     "Courses/Algebra I/Algebra I Roadmap.md",
-    "Algebra/Field.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Quotient Field.md",
     "Analysis/Functional Analysis/Volterra Algebra.md",
     "Algebra/Ideal.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Ring.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
@@ -281,11 +287,6 @@
     "Analysis/Convolution.md",
     "Differential Geometry/Tangent Space.md",
     "Topology/Locally Connected Topological Space.md",
-    "Courses/Functional Analysis I/Exercise Sheet 6.md",
-    "Banach-Tarski.md",
-    "Topology/Compact-Open Topology.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
