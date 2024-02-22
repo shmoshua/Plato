@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectral Radius.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b6438c57c0b85e2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/One-Point Compactification.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Topology/One-Point Compactification.md",
                 "mode": "preview",
                 "source": false
               }
@@ -213,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Topology/One-Point Compactification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Topology/One-Point Compactification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md"
+                "file": "Topology/One-Point Compactification.md"
               }
             }
           }
@@ -278,13 +290,15 @@
   },
   "active": "04c3cc8a4a4f35af",
   "lastOpenFiles": [
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Topology/One-Point Compactification.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Spectral Radius.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Analysis/Functional Analysis/Spectrum.md",
-    "Analysis/Functional Analysis/Spectral Radius.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Quotient Field.md",
     "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
     "Differential Geometry/Riemannian Manifold.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
@@ -302,8 +316,6 @@
     "Algebra/Polynomial Ring.md",
     "Algebra/Prime Field.md",
     "Algebra/Characteristic.md",
-    "Characteristic.md",
-    "Algebra/Prime Ring.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
