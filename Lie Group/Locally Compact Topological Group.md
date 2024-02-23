@@ -46,17 +46,27 @@
 > 1. $\text{Iso}(X)$ is locally compact.
 > 2. $\text{Iso}(X)$ is compact, if $X$ is compact.
 
-> [!proof]+
+> [!proof]-
 > We have: 
-> 1. Assume $X$ is compact. The [[compact-open topology]] on $\text{Homeo}(X)$ coincides with the topology induced by the metric of uniform convergence: $$d_{\infty}(f,g)=$$ d∞(f, g) = sup{d(f(x), g(x)) : x ∈ X}. Note that by Arzel`a–Ascoli a family F ⊆ C(X, X) of continuous maps is compact if and only if F is equicontinuous, and F is closed. Equicontinuity of F := Iso(X) is clear, because we are dealing with isometries. We check that Iso(X) is closed. Let f ∈ C(X, X) and let (fn)n∈N ⊂ Iso(X) be a sequence converging to it. Let x, y ∈ X then 0 ⩽ |d(f(x), f(y)) − d(x, y)| = |d(f(x), f(y)) − d(fn(x), fn(y))| ⩽ |d(f(x), f(y)) − d(fn(x), f(y))| + |d(fn(x), f(y)) − d(fn(x), fn(y))| ⩽ d(f(x), fn(x)) + d(f(y), fn(y)) → 0 (n → ∞). Hence, f is an isometry as wished for. Because f was arbitrary this shows that Iso(X) ⊆ C(X, X) is closed.
+> 1. 
+> 1. Assume $X$ is compact. The [[compact-open topology]] on $\text{Homeo}(X)$ coincides with the topology induced by the metric of uniform convergence: $$d_{\infty}(f,g)=\sup\{ d(f(x),g(x)): x\in X \}$$ By Arzelà-Ascoli Theorem, $\text{Iso}(X)$ is compact if and only if $\text{Iso}(X)$ is equicontinuous and closed.
+> 	
+> 	The equicontinuity is clear as we have isometries. For closedness, let $f\in C(X,X)$ and $(f_{n})\subseteq \text{Iso}(X)$ s.t. $f_{n}\to f$. For $x,y\in X$, we have: $$\begin{align}0&\leq \left| d(f(x),f(y))-d(x,y) \right| \\&=\left| d(f(x),f(y))-d(f_{n}(x),f_{n}(y)) \right|\\&\leq \left| d(f(x),f(y))-d(f_{n}(x),f(y)) \right| +\left| d(f_{n}(x),f(y))-d(f_{n}(x),f_{n}(y)) \right| \\&\leq d(f(x),f_{n}(x))+d(f(y),f_{n}(y)) \end{align}$$which converges to $0$. Therefore, $f\in \text{Iso}(X)$ and $\text{Iso}(X)$ is compact.
+---
+> [!h] Example 4
+> For $\text{GL}(n,\mathbb{R})$, 
+> 1. $\text{A},\text{UT}(n,\mathbb{R}(),\text{O}(n)$ from [[Topological Group|Example 5]] are locally compact.
+> 2. $\text{O}(n)$ is compact.
+
+> [!proof]-
+> We have:
+> 1. They are closed in $\text{GL}(n,\mathbb{R})$ and $\text{GL}(n,\mathbb{R})$ is locally compact.
+> 2. Define the map: $$\begin{array}{cccc} {T:}&{\text{M}_{n,n}(\mathbb{R})}&\to&{\text{M}_{n,n}(\mathbb{R})}\\&{A} &\mapsto & {A^\top A} \end{array}{}$$Then, $\text{O}(n)= T^{-1}(\{ I \})$ and closed in $\text{M}_{n,n}(\mathbb{R})$. 
+>    
+>    Further, for $A\in \text{O}(n)$, it holds that $\sum_{i=1}^{n}\left\| A_{:,i} \right\|^{2}=n$. Therefore, $\text{O}(n)$ is bounded in $\text{M}_{n,n}(\mathbb{R})$. Therefore, $\text{O}(n)$ is compact by Heine-Borel.
 ---
 > [!h] Example 5
-> For $\text{GL}(n,\mathbb{R})$, 
-> 1. $\text{A}:=\{ \text{diag}(\lambda_{1},\dots,\lambda_{n}):\lambda_{i}\in\mathbb{R}_{>0} \}\cong \mathbb{R}_{>0}^n$ is a closed subgroup of $\text{GL}(n,\mathbb{R})$.
-> 2. $\text{UT}(n,\mathbb{R})$, the upper unitriangular group, is a closed subgroup of $\text{GL}(n,\mathbb{R})$. $\text{UT}(n,\mathbb{R})$ is homeomorphic to $\mathbb{R}^{n(n-1)/2}$ but not isomorphic, as $\text{UT}(n,\mathbb{R})$ is non-abelian.
-> 3. [[Orthogonal Group|$\text{O}(n)$]] is the closed subgroup of $\text{GL}(n,\mathbb{R})$.
-> 4. $\text{O}(n)\times \text{A}\times \text{UT}(n,\mathbb{R})\to \text{GL}(n,\mathbb{R}),(O,A,N)\mapsto OAN$ is a homeomorphism.
-> 5. The following symmetric bilinear form on $\mathbb{R}^n$: $$B(x,y):=-\sum_{i=1}^{p}x_{i}y_{i}+\sum_{j=p+1}^{n}x_{j}y_{y}=x^\top \begin{bmatrix}-I_{p}&\\&I_{{n-p}}\end{bmatrix}y$$Then, $$O(p,q):=\{ g\in \text{GL}(n,\mathbb{R}):B_{p}(g,g) \}$$is closed in $\text{GL}(n,\mathbb{R})$.
+> 
 ---
 > [!h] Example 6
 > For $\text{GL}(n,\mathbb{C})$,
