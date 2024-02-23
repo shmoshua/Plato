@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "241f7b1dc219f423",
@@ -325,13 +325,13 @@
   },
   "active": "aeffe674cf8007a9",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 1.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
+    "Courses/Topology/Exercise Sheet 1.md",
     "Topology/Topological Space.md",
     "Analysis/Inner Product Space.md",
-    "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Analysis IV",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
