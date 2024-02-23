@@ -23,3 +23,15 @@
 > Conversely, if a normed space satisfies the parallelogram law, 
 > $$$$
 ---
+##### Examples
+> [!h] Example 1
+> For a measure space $(X,\mathcal{F},\mu)$,
+> 1. $L^2(X)$ is an inner product space.
+> 2. $\ell^2(\mathbb{N})$ is an inner product space.
+
+> [!proof]+
+---
+> [!h] Example 2
+> $C([0,1],\|\cdot\|_{2})$  is an inner product space.
+---
+

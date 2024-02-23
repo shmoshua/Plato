@@ -11,7 +11,7 @@
 10. **Example of a involutive Banach Algebra**: [[Volterra Algebra]]
 11. **Example of a involutive Banach Algebra**: [[C*-Algebra|$L^1(\mathbb{R})$]] with convolution product.
 12. **Example of a involutive Banach Algebra**: [[C*-Algebra|$\ell^1(\Gamma)$]] for a group $\Gamma$ with convolution product.
-13. **Example of a involutive Banach Algebra**: [[C*-Algebra|$\ell^1(\Gamma)$]] for a group $\Gamma$ with convolution product.
+13. **Example of a involutive Banach Algebra**: [[L1 Space on d-regular Trees]]
 ---
 ##### 2. Spectrum of a Banach Algebra Element
 1. [[Analysis/Functional Analysis/Spectrum|Spectrum]]

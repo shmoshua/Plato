@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -35,11 +35,28 @@
             "id": "b06a91106e3ad88f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Inner Product Space.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bf1ef6096bea0ba5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "241f7b1dc219f423",
@@ -51,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
                 "mode": "preview",
                 "source": false
               }
@@ -63,7 +80,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2643e9be74f0ed37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Inner Product Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -129,8 +158,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +264,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
+                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md"
               }
             }
           }
@@ -259,13 +287,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d4ad32b5b3e01906",
+  "active": "aeffe674cf8007a9",
   "lastOpenFiles": [
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Analysis/Inner Product Space.md",
     "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Analysis IV",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Topology/Compact sets.md",
@@ -285,8 +316,6 @@
     "Differential Geometry/Tensor Bundle.md",
     "Differential Geometry/Section.md",
     "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Transition Function.md",
-    "Differential Geometry/Vector Bundle.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
@@ -296,7 +325,6 @@
     "Courses/Topology",
     "untitled folder",
     "Plato",
-    "hihi.py",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
