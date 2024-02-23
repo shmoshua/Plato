@@ -23,6 +23,21 @@
 > Conversely, if a normed space satisfies the parallelogram law, 
 > $$$$
 ---
+> [!lemma] Proposition 3 (Polarization Identities)
+> Let $V$ be a $\mathbb{C}$-vector space. Then, for all $x,y\in V:$$$\braket{ x,y  }=\frac{1}{4}\left( \left\| x+y \right\| ^{2}+i \left\| x+iy \right\| ^{2}-\left\| x-y \right\| ^{2}-i \left\| x-iy \right\| ^{2} \right)  $$If $V$ is a $\mathbb{R}$-vector space, then: $$\braket{ x , y } =\frac{1}{4}\left( \left\| x+y \right\| ^{2}-\left\| x-y \right\| ^{2} \right) $$
+
+> [!proof]-
+> We have that: $$\begin{align}\left\| x \pm y \right\| ^{2}&=\|x\|^{2}+\|y\|^{2}\pm 2 \text{Re}\braket{ x , y } \\\left\| x\pm iy \right\| ^{2}&=\|x\|^{2}+\|y\|^{2}\mp 2i\text{Im} \braket{ x , y } \end{align}$$
+---
+> [!lemma] Proposition 4 (Ptolemy's inequality)
+> For all $x,y,z\in V$, it holds that: $$\left\| x-y \right\|\|z\|+\|y-z\|\|x\| \geq \|x-z\|\|y\|$$
+
+> [!proof]-
+> The proof is trivial if one of $x,y,z$ is zero. Therefore, assume that none are. Consider $$x'=\frac{x}{\|x\|^{2}},\quad y'=\frac{y}{\|y\|^{2}},\quad z'=\frac{z}{\|z\|^{2}}$$Then, $$\left\| x'-y' \right\| ^{2}=\left\| x' \right\| ^{2}+\left\| y' \right\| ^{2}-2\text{Re}\braket{ x' , y' }=\frac{1}{\|x\|^{2}}+\frac{1}{\|y\|^{2}}-\frac{2\text{Re}\braket{ x , y } }{\|x\|^{2}\|y\|^{2}} =\frac{\left\| x-y \right\| ^{2}}{\|x\|^{2}\|y\|^{2}}$$Then, $$\frac{\| x-z \|}{\|x\|\|z\|} \leq \frac{\left\| x-y \right\| }{\|x\|\|y\|}+\frac{\left\| y-z \right\|} {\|y\|\|z\|}$$
+---
+> [!lemma] Lemma 5 (Inner Product is continuous)
+> Let $V$ be an inner product space. Then, the inner product $\braket{ \cdot , \cdot }:V\times V\to \mathbb{K}$ is continuous.
+---
 ##### Examples
 > [!h] Example 1
 > For a measure space $(X,\mathcal{F},\mu)$,
