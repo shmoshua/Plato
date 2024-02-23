@@ -12,7 +12,23 @@
 > 4. [[General Linear Group|$\text{GL}(n,\mathbb{R})$]] is locally compact Hausdorff by [[Locally Compact Hausdorff Space|Lemma 4]] as it is open in $\text{M}_{n,n}(\mathbb{R})$.
 ---
 > [!h] Example 2
+> Let $M$ be a [[topological manifold]] of dimension $m\geq 1$. Then, $\text{Homeo}(M)$ is a topological group but not locally compact.
+
+> [!proof]+
+> We will show that $\text{Homeo}(M)$ is not locally compact for any compact manifold $M$. Note that we can think of $M$ as a compact metric space $(M,d)$ by Urysohn’s metrization theorem. In the case when $M$ is a smooth manifold this is even easier to see by endowing it with a Riemannian metric. 
 > 
+> This puts us now in the favorable position of being able to identify the compact-open topology on $\text{Homeo}(X)$ with the topology of uniform convergence. We denote by $$d_{\infty}(f,g):=\sup\{ d(f(x),g(x)): x\in M \}$$
+>  the metric of uniform convergence on $\text{Homeo}(M)$. Further denote by $B^\infty_{<r}(f)\subseteq\text{Homeo}(M)$ the ball of radius $r>0$ about a homeomorphism $f\in \text{Homeo}(M)$. 
+>  
+>  In order to show that $\text{Homeo}(M)$ is not locally compact, for every $\varepsilon>0$, we will construct $(f_{k})_{k}\subseteq B^\infty_{<\varepsilon}(\text{id})$ with no convergent subsequence.
+>  
+>  Let $B:=B^\infty_{<\varepsilon}(\text{id})$ and $x_{0}\in M$. Choose a chart $(\varphi,U)$ s.t.
+>  1. $U\subseteq B_{<\varepsilon /2}(x_{0})$ and 
+>  2. $\varphi(x_{0})=0$
+>  
+>  Consider the following homeomorphisms: $$\begin{array}{cccc} {\varphi_{k}:}&{B_{\leq 1}(0)}\subseteq \mathbb{R}^m&\to&{B_{\leq 1}(0)\subseteq \mathbb{R}^m}\\&{x} &\mapsto & {\|x\|^kx} \end{array}{}$$which fix $0\in \mathbb{R}^m$ and the boundary $\partial B_{<1}(0)\subseteq \mathbb{R}^m$ pointwise. Then, $\varphi_{k}\to\varphi_{\infty}$ pointwise where: $$\varphi_{\infty}(x)=\begin{cases}x&\end{cases}$$
+>  
+ Note that the sequence (ψk)k∈N converges pointwise to ψ∞ = ( x, if x ∈ ∂B1(0), 0, if x ∈ B1(0). Now, define fk(x) := ( x, if x /∈ φ −1 (B1(0)), φ −1 (ψk(φ(x))), if x ∈ φ −1 (B1(0)). It is easy to see that the maps fk : M → M are indeed homeomorphisms: fk|φ−1(B1(0))c = id : φ −1 (B1(0))c → φ −1 (B1(0))c is a homeomorphism, φ −1 ◦ψk ◦φ : φ −1 (B1(0)) → φ −1 (B1(0)) is a homeomorphism and both coincide on φ −1 (∂B1(0)). Further, the homeomorphisms fk map the ε/2-ball Bε/2(x0) to itself and fix x0. Therefore, d(fk(x), x) ⩽ d(fk(x), fk(x0) | {z } =x0 ) + d(x0, x) < ε, for every x ∈ Bε/2(x0), and clearly fk(x) = x for every x /∈ Bε/2(x0). Hence, the sequence (fk)k∈N is in B∞ ε (id). However, the sequence (fk)k∈N converges pointwise to f∞(x) = ( x, if x /∈ φ −1 (B1(0)), x0, if x ∈ φ −1 (B1(0)), 4 If there were a subsequence (fkl )l∈N converging to some f ∈ Homeo(M) uniformly then this sequence would also converge pointwise to f, i.e. f needs to coincide with f∞. But f∞ is not even continuous which contradicts our assumption of f ∈ Homeo(M). Therefore (fk)k∈N ⊂ B∞ ε (id) has no uniformly convergent subsequences.
 ---
 > [!h] Example 2
 > Let $X$ be a [[locally compact Hausdorff space]]. Then, with respect to the [[compact-open topology]],
