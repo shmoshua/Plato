@@ -1,51 +1,18 @@
 #Definition #LieGroups 
+
 > [!definition]
-> A [[group]] $G$ is ***topological*** if the underlying set is a [[topological space]] and the group operations are continuous, i.e.
-> 1. $m:G\times G\to G,(g,h)\mapsto gh$ is continuous (under the product topology) and
-> 2. $i:G\to G,g\mapsto g^{-1}$ is continuous.
-- **Remark**: $g\mapsto g^{-1}$ is a [[homeomorphism]].
-- **Related definition**: For any $g\in G$, the ***left/right translation*** are: $$\begin{array}{cccc} {L_{g}:}&{G}&\to&{G}\\&{x} &\mapsto & {gx} \end{array}{}\quad\quad\quad\quad\quad \begin{array}{cccc} {R_{g}:}&{G}&\to&{G}\\&{x} &\mapsto & {xg} \end{array}{}$$continuous and homeomorphisms (with inverses as $L_{g^{-1}},R_{g^{-1}}$).
----
-> [!lemma] Proposition 1
-> Let $G_{1},G_{2}$ be topological groups. If $\varphi:G_{1}\to G_{2}$ is a [[group homomorphism]], it holds that: 
-> ```tikz 
-> \usepackage{tikz-cd} \usepackage{amsfonts} 
-> \usepackage{amssymb} 
-> \begin{document} 
-> \begin{tikzcd}
-> G_1 \arrow[r, "\varphi"] & G_2\arrow[d, "L_{\varphi(g)}"] \\G_1 \arrow[u,"L_{g^{-1}}"]\arrow[r, swap,"\overline{\varphi}"]&G_2
-> \end{tikzcd}
-> \end{document}
-> ```
-> Therefore, $\varphi$ is continuous if and only if it is continuous at $e\in G_{1}$.
-
-> [!proof]-
-> One direction is trivial. 
-> 
-> For the other, if $\varphi$ is continuous at $e$. Let $U\subseteq G_{2}$ open. If $\varphi^{-1}(U)=\varnothing$, we are done. Otherwise, let $x\in G_{1}$ s.t. $\varphi(x)\in U$. We have that: $$\varphi^{-1}(U)=x\varphi^{-1}(\varphi(x ^{-1})U)$$As $\varphi(x ^{-1})U=L_{\varphi(x ^{-1})}(U)$ is open and $\varphi(e)=e_{2}\in \varphi(x ^{-1})U$. Therefore,  by continuity at $e$, $\varphi ^{-1}(\varphi(x ^{-1})U)$ is open. Therefore, $\varphi ^{-1}(U)=x\varphi^{-1}(\varphi(x ^{-1})U)=L_{x}(\varphi^{-1}(\varphi(x ^{-1})U))$ is open.
----
-> [!lemma] Proposition 2
-> Let $G,\{ G_{\alpha} \}_{\alpha\in A}$ be a topological group. Then:
-> 1. $H\leq G$ is a topological group with the subspace topology.
-> 2. $\prod_{\alpha\in A}^{}G_{\alpha}$ is a topological group with the product topology.
-> 3. For $H\leq G$, the canonical projection $\pi:G \to G / H$ is [[Open and Closed Maps|open]].
-> 4. for $N\unlhd G$, $G / N$ is a topological group with the quotient topology.
-
-> [!proof]-
-> We have that:
-> 1. The restriction of the group operations is continuous.
-> 2. For $\Gamma:=\prod_{\alpha\in A}^{}G_{\alpha}$, $\pi_{\alpha}\circ m_{\Gamma}=m_{\alpha}\circ(\pi_{\alpha},\pi_{\alpha})$ and therefore continuous. This shows that $\times_{\Gamma}$ is continuous [[Initial Topology|Lemma 2]]. Similarly, $\pi_{\alpha}\circ i_{\Gamma}=i_{\alpha}\circ(\pi_{\alpha}\times\pi_{\alpha})$ is continuous.
-> 3. Suppose $U\subseteq G$ is an open set. Then, $\pi ^{-1}(\pi(U))=UH=\bigcup_{h\in H}^{}Uh=\bigcup_{h\in H}^{}R_{h}(U)$ is open. Therefore, $\pi(U)$ is open in the quotient topology.
-> 4. For $U\subseteq G / N$ open, $\pi \circ m_{G}=m_{G / N}\circ(\pi \times \pi)$ and $\pi \circ m_{G}$ is continuous. As $\pi \times \pi$ is open, $m_{G /N}$ is continuous. Analogously for inversion.
-> 
+> A [[topological group]] $G$ is ***locally compact***, if the underlying [[topological space]] is [[Locally Compact Topological Space|locally compact]].
 ---
 ##### Examples
 > [!h] Example 1 (Elementary Topological Groups)
 > We have:
-> 1. Any group $G$ is a topological group with respect to the discrete topology. 
-> 2. $(\mathbb{R}^n,+)$ is a topological group with respect to the Euclidean topology.
-> 3. $\mathbb{R}^{*},\mathbb{C}^{*}$ are topological groups.
-> 4. [[General Linear Group|$\text{GL}(n,\mathbb{R})$]] is a topological group.
+> 1. Any group $G$ w.r.t the discrete topology is locally compact Hausdorff.
+> 2. $(\mathbb{R}^n,+)$ w.r.t the Euclidean topology is locally compact Hausdorff.
+> 3. $\mathbb{R}^{*},\mathbb{C}^{*}$ is locally compact Hausdorff.
+> 4. [[General Linear Group|$\text{GL}(n,\mathbb{R})$]] is locally compact Hausdorff by [[Locally Compact Hausdorff Space|Lemma 4]] as it is open in $\text{M}_{n,n}(\mathbb{R})$.
+---
+> [!h] Example 2
+> 
 ---
 > [!h] Example 2
 > Let $X$ be a [[locally compact Hausdorff space]]. Then, with respect to the [[compact-open topology]],

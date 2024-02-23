@@ -27,6 +27,9 @@
 > By lemma 2, we first choose an open set $G$ with compact closure s.t. $K\subseteq G\subseteq \overline{G}\subseteq U$. 
 > https://sites.math.rutgers.edu/~carlen/502S17/hahnsaks.pdf
 ---
+> [!lemma] Lemma 4
+> Let $X$ be locally compact Hausdorff. Then, $Y\subseteq X$ is locally compact if and only if $Y$ is open in $\overline{Y}$.
+---
 > [!lemma] Proposition 1
 > For a compact set $K\subseteq X$, let: $$\|f\|_{K}=\sup_{x\in K}\left| f(x) \right| $$define a [[Seminorm|semi-norm]] on $C(X)$. Then, 
 > 1. $\{ \|\cdot\|_{K}:K\subseteq X,\text{ compact} \}$ is sufficient. 

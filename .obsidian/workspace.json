@@ -13,50 +13,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Lie Group/Locally Compact Topological Group.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "1faa274cd42c25ab",
+            "id": "4b9e074a088ddd3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 1.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "ecf1c042ba3b0f9c",
+            "id": "1ee03b7663b3d75b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b06a91106e3ad88f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "241f7b1dc219f423",
@@ -68,7 +55,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e285b78a0e7e61af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Topological Group.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1282efefa7aee64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Locally Compact Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Space.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -170,7 +181,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -236,7 +248,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Lie Group/Locally Compact Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Lie Group/Locally Compact Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Inner Product Space.md"
+                "file": "Lie Group/Locally Compact Topological Group.md"
               }
             }
           }
@@ -299,22 +311,27 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b06a91106e3ad88f",
+  "active": "e1282efefa7aee64",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Compact sets.md",
+    "Lie Group/Topological Group.md",
+    "Lie Group/Locally Compact Topological Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Topology/Locally Compact Topological Space.md",
+    "Topology/Topological Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Topology/Exercise Sheet 1.md",
-    "Topology/Topological Space.md",
-    "Analysis/Inner Product Space.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Analysis/Inner Product Space.md",
+    "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Analysis IV",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/C-Algebra.md",
-    "Topology/Compact sets.md",
     "Analysis/Lp Space.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Topology/One-Point Compactification.md",
@@ -323,11 +340,6 @@
     "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Spectral Radius.md",
     "Algebra/Quotient Field.md",
-    "Analysis/Functional Analysis/Eigenvalues and Eigenvectors of Bounded Operators.md",
-    "Differential Geometry/Riemannian Manifold.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Length.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
