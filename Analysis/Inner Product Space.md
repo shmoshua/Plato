@@ -37,6 +37,9 @@
 ---
 > [!lemma] Lemma 5 (Inner Product is continuous)
 > Let $V$ be an inner product space. Then, the inner product $\braket{ \cdot , \cdot }:V\times V\to \mathbb{K}$ is continuous.
+
+> [!proof]-
+> We know that $\braket{ x , \cdot },\braket{ \cdot , y }\in V^{*}$. Suppose now $(x_{n},y_{n})\to (x,y)$. Then, $$\begin{align}\left| \braket{ x_{n} , y_{n} } -\braket{ x , y }  \right| &\leq \left| \braket{ x_{n} , y_{n} } -\braket{ x , y_{n} }  \right|+\left| \braket{ x , y_{n} } -\braket{ x , y }  \right| \\&\leq\left\| y_{n} \right\| \left\| x_{n}-x \right\|+\|x\|\left\| y_{n}-y \right\|  \\&\leq 2\left\| x_{n}-x \right\| \left\| y_{0} \right\|  +\|x\|\left\| y_{n}-y \right\| \end{align}$$for $n$ large enough. This proves the statement.
 ---
 ##### Examples
 > [!h] Example 1

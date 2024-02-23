@@ -11,8 +11,10 @@
 > [!lemma] Proposition 1
 > $\left\| K \right\|_{1}$ is well-defined, i.e. if $\sum_{w\in V}^{}K(v,w)$ converges, then the value is independent of $v$.
 
-> [!proof]-
-> Let $S_{n}(v)$ denote the sphere of radius $n$ from $v$. Then, for any $v\in V$, one can slayfully see that $\left| S_{n}(v) \right|=d(d-1)^{n-1}$. 
+> [!proof]+
+> Let $S_{n}(v)$ denote the sphere of radius $n$ from $v$, i.e. 
+> $$S_{n}(v):=\{ w\in V:\delta(v,w)=n \}$$
+> Then, for any $v\in V$, one can slayfully see that $\left| S_{n}(v) \right|=d(d-1)^{n-1}$. 
 > 
 > It follows that: $$\begin{align}\sum_{w\in V}^{}K(v,w)&=\sum_{w\in V}^{}k(\delta(v,w))=\sum_{n=0}^{\infty}\sum_{w\in S_{n}(v)}^{}k(n)=\sum_{n=0}^{\infty}\left| S_{n}(v) \right| \cdot k(n)=k(0)+\sum_{n=1}^{\infty}k(n)\cdot d(d-1)^{n-1}\end{align}$$Therefore, it is independent of $v\in V$.
 ---

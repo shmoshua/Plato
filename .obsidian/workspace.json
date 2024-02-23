@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "241f7b1dc219f423",
@@ -194,8 +194,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -261,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Inner Product Space.md"
+                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md"
               }
             }
           }
@@ -324,13 +323,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b06a91106e3ad88f",
+  "active": "aeffe674cf8007a9",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
-    "Analysis/Inner Product Space.md",
     "Courses/Topology/Exercise Sheet 1.md",
-    "Topology/Topological Space.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Topology/Topological Space.md",
+    "Analysis/Inner Product Space.md",
+    "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
