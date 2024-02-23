@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 1.md",
+                "file": "Topology/Locally Connected Topological Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -300,10 +300,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "426a3c97ada45d5c",
+  "active": "e1282efefa7aee64",
   "lastOpenFiles": [
     "Lie Group/Topological Group.md",
+    "Analysis/Inner Product Space.md",
+    "Topology/Locally Connected Topological Space.md",
     "Lie Group/Locally Compact Topological Group.md",
+    "Courses/Topology/Exercise Sheet 1.md",
     "Topology/Proper Metric Space.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Locally Compact Hausdorff Space.md",
@@ -312,9 +315,7 @@
     "Topology/Topological Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Topology/Exercise Sheet 1.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Analysis/Inner Product Space.md",
     "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Analysis IV",
@@ -328,7 +329,6 @@
     "Analysis/Convolution.md",
     "Analysis/Functional Analysis/Volterra Algebra.md",
     "Analysis/Functional Analysis/Spectrum.md",
-    "Analysis/Functional Analysis/Spectral Radius.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",

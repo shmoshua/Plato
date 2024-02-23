@@ -57,22 +57,18 @@
 > For $\text{GL}(n,\mathbb{R})$, 
 > 1. $\text{A},\text{UT}(n,\mathbb{R}(),\text{O}(n)$ from [[Topological Group|Example 5]] are locally compact.
 > 2. $\text{O}(n)$ is compact.
+> 3. $\text{O}(p,q)\subseteq \text{GL}(n,\mathbb{R})$ is compact if $p=n$ or $q=n$. 
+> 4. $\text{O}(1,1)$ is non-compact.
+> 5. $\text{O}(p,q)$ is non-compact for $p\geq 1,q\geq 1$. 
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. They are closed in $\text{GL}(n,\mathbb{R})$ and $\text{GL}(n,\mathbb{R})$ is locally compact.
 > 2. Define the map: $$\begin{array}{cccc} {T:}&{\text{M}_{n,n}(\mathbb{R})}&\to&{\text{M}_{n,n}(\mathbb{R})}\\&{A} &\mapsto & {A^\top A} \end{array}{}$$Then, $\text{O}(n)= T^{-1}(\{ I \})$ and closed in $\text{M}_{n,n}(\mathbb{R})$. 
 >    
 >    Further, for $A\in \text{O}(n)$, it holds that $\sum_{i=1}^{n}\left\| A_{:,i} \right\|^{2}=n$. Therefore, $\text{O}(n)$ is bounded in $\text{M}_{n,n}(\mathbb{R})$. Therefore, $\text{O}(n)$ is compact by Heine-Borel.
+>  3. $\text{O}(n,0)=\text{O}(0,n)=\text{O}(n)$.
+>  4. As $\text{SO}(1,1)$ is a closed subgroup of $\text{O}(1,1)$, we will show that $\text{SO}(1,1)$ is not compact. First, notice that: $$\text{SO}(1,1)=\{ bmat \}$$
 ---
 > [!h] Example 5
-> 
----
-> [!h] Example 6
-> For $\text{GL}(n,\mathbb{C})$,
-> 1. $\text{GL}(n,\mathbb{C})$ is an open subset of $\text{M}_{n,n}(\mathbb{C})$.
-> 2. $\text{GL}(n,\mathbb{C})$ is a topological group w.r.t the induced topology.
-> 3. $\text{U}(n) \times \text{A}\times \text{UT}(n,\mathbb{C})\to \text{GL}(n,\mathbb{C}),(U,A,N)\mapsto UAN$ is a homeomorphism.
----
-> [!h] Example 7
-> For $\text{SO}(p,q):=\text{O}(p,q)\cap \text{SL}(n,\mathbb{R})$ and $\text{SU}(n)=\text{U}(n)\cap \text{SL}(n,\mathbb{C})$:
+> For $\text{GL}$
