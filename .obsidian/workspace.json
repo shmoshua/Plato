@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "b6438c57c0b85e2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "ecf1c042ba3b0f9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
                 "mode": "source",
                 "source": true
               }
@@ -47,16 +35,11 @@
             "id": "b06a91106e3ad88f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "241f7b1dc219f423",
@@ -75,24 +58,12 @@
             }
           },
           {
-            "id": "e73237a4ef6ed5ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d4ad32b5b3e01906",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -225,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md"
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
               }
             }
           }
@@ -288,17 +259,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e73237a4ef6ed5ed",
+  "active": "d4ad32b5b3e01906",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Topology/Compact sets.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Analysis/Lp Space.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Topology/One-Point Compactification.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Convolution.md",
     "Analysis/Functional Analysis/Volterra Algebra.md",
     "Analysis/Functional Analysis/Spectrum.md",
@@ -314,8 +287,6 @@
     "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Transition Function.md",
     "Differential Geometry/Vector Bundle.md",
-    "Differential Geometry/Hyperbolic Space.md",
-    "Algebra/Field.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",

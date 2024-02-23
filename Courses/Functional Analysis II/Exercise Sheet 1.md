@@ -26,11 +26,8 @@ This proves that $\varphi$ is an isomorphism.
 > Construct a function $f\in L^1(\mathbb{R})$ s.t. $\left\| f*f^{*} \right\|_{1}<\left\| f \right\|^2_{1}$
 
 Consider the function: $$f(x)=\begin{cases}1&0<x\leq 1\\-1&-1\leq x<0\\0&\text{otherwise}\end{cases}$$Then, $f^{*}=-f$ and: 
-$$\begin{align}f*f^{*}(x)&=\int_{-1}^{0} f(x-t) \, dt -\int_{0}^{1} f(x-t) \, dt \\&=-\int_{x-1}^{x} f(t) \, dt +\int_{x}^{x+1} f(t) \, dt\\&=\begin{cases}-x-2&-2<x<-1\\3x+2&-1\leq x<0\\-3x+2&0\leq x\leq 1\\ x-2&1<x<2\\0&\text{otherwise}\end{cases} \end{align}$$It follows that: $$\left\| f *f^{*}\right\|_{1}=\int_{\mathbb{R}}^{} \left| f*f^{*}(x) \right|  \, dx= \frac{8}{3}<4=\left\| f \right\|   $$
+$$\begin{align}f*f^{*}(x)&=\int_{-1}^{0} f(x-t) \, dt -\int_{0}^{1} f(x-t) \, dt \\&=-\int_{x-1}^{x} f(t) \, dt +\int_{x}^{x+1} f(t) \, dt\\&=\begin{cases}-x-2&-2<x<-1\\3x+2&-1\leq x<0\\-3x+2&0\leq x\leq 1\\ x-2&1<x<2\\0&\text{otherwise}\end{cases} \end{align}$$It follows that: $$\left\| f *f^{*}\right\|_{1}=\int_{\mathbb{R}}^{} \left| f*f^{*}(x) \right|  \, dx= \frac{8}{3}<4=\left\| f \right\| _{1}^{2}  $$
 
-$$-\int_{-1}^{0} f(x-t) \, dt+\int_{0}^{1} f(x-t) \, dt=\int_{x-1}^{x} f(y) \, dy-\int_{x}^{x+1} f(y) \, dy   =\begin{cases}x+2&-2<x<-1\\-3x-2&-1\leq x<0\\3x-2&0\leq x\leq 1\\-x+2&1<x<2\\0&\text{otherwise}\end{cases} $$
-$$\left\| f*f^{*} \right\| _{1}=\int_{\mathbb{R}}^{} \left| f*f^{*} \right|  \, dx  $$
-$$\left| f*f^{*}(x) \right| \leq \int_{-1}^{1} \left| f(x-t) \right|  \, dt =$$
 ---
 ##### Exercise 4
 > Let $A$ be a unital $\mathbb{C}$-algebra with a norm $\|\cdot\|$ such that: 

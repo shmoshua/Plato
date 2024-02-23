@@ -55,15 +55,34 @@
 > 1. $\mathcal{H}$ is a Banach algebra from [[Banach Algebra|Example 2]] and involutive from the adjoint properties.
 > 2. We have: $$\left\| Tx \right\| ^{2}=\braket{ Tx , Tx } =\braket{ x , T^{*}Tx } \leq \left\| T^{*}T x\right\| \|x\|\leq \left\| T^{*} T\right\| \|x\|^{2}$$Therefore, $\left\| T \right\|^{2}\leq \left\| T^{*}T \right\|$. The other direction holds from the Banach algebra property.
 ---
-> [!h] Example 4
-> 
+> [!h] Example 4 (L1 and convolution)
+> We have that:
+> 1. $L^1(\mathbb{R})$ with [[convolution]] product is a commutative [[Banach algebra]].
+> 2. $L^1(\mathbb{R})$ with $f^{*}(t)=f(-t)$ is involutive.
+> 3. $L^1(\mathbb{R})$ with $f^{*}(t)=f(-t)$ is not a $C^{*}$-algebra.
+
+> [!proof]-
+> We know that:
+> 1. $L^1(\mathbb{R})$ is a Banach space and $\left\| f*g \right\|_{1}\leq \left\| f \right\|_{1}\left\| g \right\|_{1}$ from [[Convolution|Theorem 2]].
+> 2. One can easily check.
+> 3. Consider the function: $$f(x)=\begin{cases}1&0<x\leq 1\\-1&-1\leq x<0\\0&\text{otherwise}\end{cases}$$Then, $f^{*}=-f$ and: 
+$$\begin{align}f*f^{*}(x)&=\int_{-1}^{0} f(x-t) \, dt -\int_{0}^{1} f(x-t) \, dt \\&=-\int_{x-1}^{x} f(t) \, dt +\int_{x}^{x+1} f(t) \, dt\\&=\begin{cases}-x-2&-2<x<-1\\3x+2&-1\leq x<0\\-3x+2&0\leq x\leq 1\\ x-2&1<x<2\\0&\text{otherwise}\end{cases} \end{align}$$It follows that: $$\left\| f *f^{*}\right\|_{1}=\int_{\mathbb{R}}^{} \left| f*f^{*}(x) \right|  \, dx= \frac{8}{3}<4=\left\| f \right\| _{1}^{2}  $$
+
 ---
-> [!h] Example 4
-> Let $\Gamma$ be a group. Then, $$\ell^1(\Gamma):=\left\{  f:\Gamma\to \mathbb{C} |\left\| f \right\| _{1}:=\sum_{\gamma\in \Gamma}^{} \left| f(\gamma) \right| <+\infty\right\}$$is Banach with the convolution: $$(f*g)(\gamma)=\sum_{\eta\in \Gamma}^{}f(\gamma \eta)g(\eta ^{-1})$$with $\left\| f*g \right\|_{1}\leq \left\| f \right\|_{1}\left\| g \right\|_{1}$ and 
-> 1. $\delta_{\alpha}*\delta_{\beta}=\delta_{\alpha\beta}$ 
-> 2. involution $f^{*}(\gamma)=\overline{f(\gamma ^{-1})}$
-> 3. Therefore it is an involutive Banach algebra. 
+> [!h] Example 5
+> Let $\Gamma$ be a (countable) [[group]]. Then, consider $$\ell^1(\Gamma):=\left\{  f:\Gamma\to \mathbb{C} \left|\left\| f \right\| _{1}:=\sum_{\gamma\in \Gamma}^{} \left| f(\gamma) \right| <+\infty\right.\right\}$$
+> 1. $\ell^1(\Gamma)$ with convolution product $$(f*g)(\gamma)=\sum_{\eta\in \Gamma}^{}f(\gamma \eta)g(\eta ^{-1})$$is a [[Banach algebra]].
+> 2. $\ell^1(\Gamma)$ with $f^{*}(\gamma)=\overline{f(\gamma ^{-1})}$ is involutive.
+
+> [!proof]-
+> We have that:
+> Consider for $\alpha\in \Gamma$, $\delta_{\alpha}=\chi_{\{ \alpha \}}$. Then, $$(\delta_{\alpha}*\delta_{\beta})(\gamma)=\sum_{\eta\in \Gamma}^{}\delta_{\alpha}(\gamma \eta)\delta_{\beta}(\eta ^{-1})=1\iff\gamma=\alpha\beta$$and $\delta_{\alpha}*\delta_{\beta}=\delta_{\alpha\beta}$. As $\{ \delta_{\gamma}:\gamma\in \Gamma \}$ forms the basis of $\mathbb{C}[\Gamma]$, $\ell^1(\Gamma)$ is a $\mathbb{C}$-algebra. Then, $\ell^1(\Gamma)$ is a Banach space and:
+> $$\begin{align}\left\| f*g \right\| _{1}&\leq\sum_{\eta\in \Gamma}^{}\sum_{\gamma\in \Gamma}^{}\left| f(\gamma \eta) \right|\left| g(\eta ^{-1}) \right|   =\left\| f \right\|_{1} \left\| g \right\|_{1}\end{align}$$
+> The involutivity is easy to check.
 ---
+**Other Examples**
+1. [[Volterra Algebra]]
+2. 
 > [!h] Example 5
 > For $d>2$, let $T_{d}:=(V,E)$ be a $d$-regular tree. Then, we can define a distance $\delta:V\times V\to \mathbb{N}$. Let $K:V\times V\to \mathbb{C}$ be point-pair invariant, i.e. $K(v,w)$ only depends on $\delta(v,w)$, i.e. there exists $k:\mathbb{N}\to \mathbb{C}$ s.t. $$K(v,w)=k(\delta(v,w)),\quad v,w\in V$$
 > If $\sum_{w\in V}^{}K(v,w)$ converges, then the value is independent of the vertex $v$. 
