@@ -31,6 +31,12 @@
 > 	Let $v,w\in V$. Then one can find the shortest path that goes through $v$ and $w$. Then, there exists $h\in \text{Aut}(T_{d})$ that translates the path by one along the path. In other words, $h^{\delta(v,w)}(v)=w$. 
 > 2. Now if $\delta(v_{1},w_{1})=\delta(v_{2},w_{2})$, choose $h\in \text{Aut}(T_{d})$ s.t. $h(v_{1})=v_{2}$. Then, $w_{2},h(w_{1})\in S_{n}(v_{2})$ where $n=\delta(v_{1},w_{1})$.
 > 3. **Showing that $\{ g\in \text{Aut}(T_{d}):g(v_{2})=v_{2} \}$ acts transitively on $S_{n}(v_{2})$**:
+>    We will show a stronger statement. Namely, for any $n\in \mathbb{N},u\in V$ and $v,w\in S_{n}(u)$, there exists $g\in \text{Aut}(T_{d})$ s.t.
+>    1. $g(u)=u$
+>    2. $g(v)=w$
+>    3. $g(w)=u$
+>    4. $g(x)=x$ for all $S_{n}(u) \backslash \{ v,w \}$
+>    
 >    If $n=0$, then $\text{id}$ is such automorphism. Now, let $n>0$. Then, for $v,w\in S_{n}(v_{2})$ there exists $v',w'\in S_{n-1}(v_{2})$ s.t. 
 > - (2=>1): clear.
 > - (1=>2): 
