@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "43ab93d3630784bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Locally Compact Topological Group.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "4b9e074a088ddd3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Lie Group/Locally Compact Topological Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -63,18 +51,6 @@
           },
           {
             "id": "e285b78a0e7e61af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Topological Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1282efefa7aee64",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -170,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -300,18 +276,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e1282efefa7aee64",
+  "active": "e285b78a0e7e61af",
   "lastOpenFiles": [
+    "Topology/Locally Compact Topological Space.md",
     "Lie Group/Topological Group.md",
+    "Lie Group/Locally Compact Topological Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Analysis/Inner Product Space.md",
     "Topology/Locally Connected Topological Space.md",
-    "Lie Group/Locally Compact Topological Group.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Topology/Proper Metric Space.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Compact sets.md",
-    "Topology/Locally Compact Topological Space.md",
     "Topology/Topological Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",

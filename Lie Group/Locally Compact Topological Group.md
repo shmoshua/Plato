@@ -68,7 +68,20 @@
 >    
 >    Further, for $A\in \text{O}(n)$, it holds that $\sum_{i=1}^{n}\left\| A_{:,i} \right\|^{2}=n$. Therefore, $\text{O}(n)$ is bounded in $\text{M}_{n,n}(\mathbb{R})$. Therefore, $\text{O}(n)$ is compact by Heine-Borel.
 >  3. $\text{O}(n,0)=\text{O}(0,n)=\text{O}(n)$.
->  4. As $\text{SO}(1,1)$ is a closed subgroup of $\text{O}(1,1)$, we will show that $\text{SO}(1,1)$ is not compact. First, notice that: $$\text{SO}(1,1)=\{ bmat \}$$
+>  4. As $\text{SO}(1,1)$ is a closed subgroup of $\text{O}(1,1)$, we will show that $\text{SO}(1,1)$ is not compact. First, notice that: $$\text{SO}(1,1)=\left\{ \left. \begin{bmatrix}x&y\\y&x\end{bmatrix}  \right| x^{2}-y^{2}=1,x,y\in \mathbb{R}\right\}$$The orbit of $e_{1}$ under $\text{SO}(1,1)$ is given as: 
+>	``` tikz
+>	\begin{document}
+>	\begin{tikzpicture}[domain=-4:4] 
+>	\draw[very thin,color=gray] (-4.1,-4.1) grid (3.9,3.9); 
+>	\draw[->] (-4.2,0) -- (4.2,0) node[right] {$x$}; 
+>	\draw[->] (0,-4.2) -- (0,4.2) node[above] {$y$}; 
+>	\draw[color=red] plot ({sqrt(1+\x*\x)},\x);
+>	\draw[color=red] plot (-{sqrt(1+\x*\x)},\x);
+>	\end{tikzpicture} 
+>	\end{document}
+>	```
+>	Then, the hyperbola containing $e_{1}$ can be characterized by: $t\mapsto \begin{bmatrix}\cosh t\\\sinh t\end{bmatrix}$ for $t\in \mathbb{R}$. 
+
 ---
 > [!h] Example 5
 > For $\text{GL}$
