@@ -41,33 +41,14 @@
 
  
 ---
-> [!h] Example 2
-> Let $X$ be a [[locally compact Hausdorff space]]. Then, with respect to the [[compact-open topology]],
-> 1. $\text{Homeo}(X)$ is not necessarily a topological group.
-> 1. $\text{Homeo}(X)$ is a topological group if $X$ is compact.
-> 2. $\text{Homeo}(X)$ is a topological group if $X$ is locally connected.
-> 3. $\text{Homeo}(X)$ is a topological group if $X$ is a [[topological manifold]].
-
-> [!proof]-
-> We have:
-> 1. Let $C$ be the [[Cantor Set]] and consider:
-> 	1. $U_{n}:=C\cap [0,3^{-n}]$ and
-> 	2. $V_{n}:=C\cap[1-3^{-n},1]$
-> 	3. $X:= C \backslash\{ 0 \}$.
-> 	  
->    Then, $h_{n}|_{X}\to \text{id}$ but $h_{n}|_{X}^{-1}\not\to \text{id}$. 
-> 1. Assume $X$ is compact. For $K$ compact and $U$ open, we have that: $$i^{-1}(S(K,U))=S(U^c,K^c)$$where $U^c$ is compact (as $X$ is compact) and $K^c$ is open. Therefore, $i$ is continuous. 
->    
->    For $K$ compact and $U$ open, assume $m^{-1}(S(K,U))\neq \varnothing$ and let $(f,g)\in m^{-1}(S(K,U))$. Then, $f(g(K))\subseteq U$ and as $X$ is Hausdorff, there exists $U_{1},U_{2}\subseteq X$ open s.t. $$g(K)\subseteq U_{1}\subseteq U_{2}^c\subseteq f^{-1}(U)$$Therefore, $(f,g)\in S(U^c_{2},U)\times S(K,U_{1})$. Let $(p,q)\in S(U^c_{2},U)\times S(K,U_{1})$. Then, $$p(q(K))\subseteq p(U_{1})\subseteq p(U^c_{2})\subseteq U$$This proves that $m^{-1}(S(K,U))$ is open.
-> 2. Assume $X$ is locally connected. 
----
 > [!h] Example 3
-> If $M$ is a [[smooth manifold]], for any $r\in \mathbb{N}$, and $$\text{Diff}^r:=\{ f\in \text{Homeo}(M):f,f^{-1}\in C^r(M) \}$$
-> 1. $\text{Diff}^r$ is a topological group.
-> 2. $\text{Diff}^r$ is not a closed subgroup of $\text{Homeo}(M)$.
----
-> [!h] Example 4
-> Let $(X,d)$ be a proper [[metric space]], i.e. all closed balls are compact. Then, the group of isometries $\text{Iso}(X)$ is a topological group w.r.t the compact-open topology.
+> Let $(X,d)$ be a [[proper metric space]]. Then, 
+> 1. $\text{Iso}(X)$ is locally compact.
+> 2. $\text{Iso}(X)$ is compact, if $X$ is compact.
+
+> [!proof]+
+> We have: 
+> 1. Assume $X$ is compact. The [[compact-open topology]] on $\text{Homeo}(X)$ coincides with the topology induced by the metric of uniform convergence: $$d_{\infty}(f,g)=$$ d∞(f, g) = sup{d(f(x), g(x)) : x ∈ X}. Note that by Arzel`a–Ascoli a family F ⊆ C(X, X) of continuous maps is compact if and only if F is equicontinuous, and F is closed. Equicontinuity of F := Iso(X) is clear, because we are dealing with isometries. We check that Iso(X) is closed. Let f ∈ C(X, X) and let (fn)n∈N ⊂ Iso(X) be a sequence converging to it. Let x, y ∈ X then 0 ⩽ |d(f(x), f(y)) − d(x, y)| = |d(f(x), f(y)) − d(fn(x), fn(y))| ⩽ |d(f(x), f(y)) − d(fn(x), f(y))| + |d(fn(x), f(y)) − d(fn(x), fn(y))| ⩽ d(f(x), fn(x)) + d(f(y), fn(y)) → 0 (n → ∞). Hence, f is an isometry as wished for. Because f was arbitrary this shows that Iso(X) ⊆ C(X, X) is closed.
 ---
 > [!h] Example 5
 > For $\text{GL}(n,\mathbb{R})$, 

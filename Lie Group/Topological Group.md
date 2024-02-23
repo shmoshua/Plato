@@ -73,7 +73,7 @@
 > 2. $\text{Diff}^r$ is not a closed subgroup of $\text{Homeo}(M)$.
 ---
 > [!h] Example 4
-> Let $(X,d)$ be a proper [[metric space]], i.e. all closed balls are compact. Then, the group of isometries $\text{Iso}(X)$ is a topological group w.r.t the compact-open topology.
+> Let $(X,d)$ be a [[proper metric space]]. Then, the group of isometries $\text{Iso}(X)$ is a topological group w.r.t the compact-open topology.
 ---
 > [!h] Example 5
 > For $\text{GL}(n,\mathbb{R})$, 

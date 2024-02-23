@@ -86,18 +86,6 @@
             }
           },
           {
-            "id": "f7cb9e5f3c0afcc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d773e2e40109c0de",
             "type": "leaf",
             "state": {
@@ -211,7 +199,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "characteristic",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -228,7 +216,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -315,9 +304,10 @@
   "lastOpenFiles": [
     "Lie Group/Topological Group.md",
     "Lie Group/Locally Compact Topological Group.md",
+    "Topology/Proper Metric Space.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Compact sets.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Locally Compact Topological Space.md",
     "Topology/Topological Space.md",
     "Courses/Topology/Topology Roadmap.md",
@@ -339,7 +329,6 @@
     "Analysis/Functional Analysis/Volterra Algebra.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Spectral Radius.md",
-    "Algebra/Quotient Field.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
