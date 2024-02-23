@@ -54,38 +54,14 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "bf1ef6096bea0ba5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "241f7b1dc219f423",
         "type": "tabs",
         "children": [
-          {
-            "id": "aeffe674cf8007a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
           {
             "id": "d4ad32b5b3e01906",
             "type": "leaf",
@@ -260,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
+                "file": "Analysis/Inner Product Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
+                "file": "Analysis/Inner Product Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +276,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md"
+                "file": "Analysis/Inner Product Space.md"
               }
             }
           }
@@ -323,11 +299,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "aeffe674cf8007a9",
+  "active": "b06a91106e3ad88f",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Topology/Topological Space.md",
     "Analysis/Inner Product Space.md",
