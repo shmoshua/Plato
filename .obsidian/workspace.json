@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1faa274cd42c25ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 1.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "241f7b1dc219f423",
@@ -80,7 +92,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7cb9e5f3c0afcc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Topological Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d773e2e40109c0de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 1.md",
                 "mode": "preview",
                 "source": false
               }
@@ -158,7 +194,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -224,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
+                "file": "Courses/Topology/Exercise Sheet 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
+                "file": "Courses/Topology/Exercise Sheet 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/L1 Space on d-regular Trees.md"
+                "file": "Courses/Topology/Exercise Sheet 1.md"
               }
             }
           }
@@ -287,13 +324,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "aeffe674cf8007a9",
+  "active": "d773e2e40109c0de",
   "lastOpenFiles": [
+    "Topology/Topological Space.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Topology/Exercise Sheet 1.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Analysis IV",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
@@ -313,9 +353,6 @@
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Length.md",
-    "Differential Geometry/Tensor Bundle.md",
-    "Differential Geometry/Section.md",
-    "Differential Geometry/Riemannian Metric.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",

@@ -12,7 +12,7 @@
 > For all $x,y\in V$: $\left| \braket{ x , y } \right|\leq \|x\|\cdot\|y\|$
 
 > [!proof]-
-> If $x=0$ or $y=0$, the proof is obvious. Otherwise, choose $\alpha\in \mathbb{C}$ s.t. $\left| \alpha \right|=1$ and $\alpha \braket{ x , y }=\left| \braket{ x , y } \right|$. Then, for all $\lambda\in \mathbb{R}$:$$\begin{align}\left\| \lambda x +\alpha y\right\|^2&=\braket{ \lambda x+\alpha y , \lambda x+\alpha y }\\&=\lambda^{2}\|x\|^{2}+2\lambda \left| \braket{ x , y }  \right| +\|y\|^{2} \end{align}$$
+> If $x=0$ or $y=0$, the proof is obvious. Otherwise, choose $\alpha\in \mathbb{C}$ s.t. $\left| \alpha \right|=1$ and $\alpha \braket{ x , y }=-\left| \braket{ x , y } \right|$. Then, for all $\lambda\in \mathbb{R}$:$$\begin{align}\left\| \lambda x +\alpha y\right\|^2&=\braket{ \lambda x+\alpha y , \lambda x+\alpha y }\\&=\lambda^{2}\|x\|^{2}+\braket{ \lambda x , \alpha y }+\braket{ \alpha y , \lambda x } +\left\| y \right\| ^{2}\\&=\lambda^{2}\|x\|^{2}+\lambda \braket{ x , \alpha y }+\lambda \braket{ \alpha y , x } +\left\| y \right\| ^{2} \\&=\lambda^{2}\|x\|^{2}+2\lambda \left| \braket{ x , y }  \right| +\|y\|^{2} \geq 0\end{align}$$Therefore, $\lambda^{2}\|x\|^{2}+\|y\|^{2}\geq -2\lambda \left| \braket{ x , y } \right|$
 ---
 > [!lemma] Theorem 2
 > A normed space $(V,\|\cdot\|)$ is an inner product space if it satisfies the parallelogram law: $$\left\| x-y \right\| ^{2}+\left\| x+y \right\| ^{2}=2(\|x\|^{2}+\left\| y \right\| ^{2})$$
