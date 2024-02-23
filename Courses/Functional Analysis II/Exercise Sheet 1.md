@@ -25,10 +25,11 @@ This proves that $\varphi$ is an isomorphism.
 ##### Exercise 3
 > Construct a function $f\in L^1(\mathbb{R})$ s.t. $\left\| f*f^{*} \right\|_{1}<\left\| f \right\|^2_{1}$
 
-Consider the function: $$f(x)=\begin{cases}1&0<x\leq 1\\-1&-1\leq x<0\\0&\text{otherwise}\end{cases}$$Then, $f^{*}=-f$ and: $$\left\| f*f^{*} \right\| _{1}=\int_{\mathbb{R}}^{}\left| \int_{\mathbb{R}}^{} f(x-t)f(t) \, dt  \right|   \, dx \leq \int_{\mathbb{R}}^{} \int_{\mathbb{R}}^{} \left| f(x-t) \right| \left| f(t) \right|  \, dt  \, dx $$
+Consider the function: $$f(x)=\begin{cases}1&0<x\leq 1\\-1&-1\leq x<0\\0&\text{otherwise}\end{cases}$$Then, $f^{*}=-f$ and: 
+$$\begin{align}f*f^{*}(x)&=\int_{-1}^{0} f(x-t) \, dt -\int_{0}^{1} f(x-t) \, dt \\&=-\int_{x-1}^{x} f(t) \, dt +\int_{x}^{x+1} f(t) \, dt\\&=\begin{cases}-x-2&-2<x<-1\\3x+2&-1\leq x<0\\-3x+2&0\leq x\leq 1\\ x-2&1<x<2\\0&\text{otherwise}\end{cases} \end{align}$$It follows that: $$\left\| f *f^{*}\right\|_{1}=\int_{\mathbb{R}}^{} \left| f*f^{*}(x) \right|  \, dx= \frac{8}{3}<4=\left\| f \right\|   $$
 
-$$-\int_{-1}^{0} f(x-t) \, dt+\int_{0}^{1} f(x-t) \, dt=\int_{x-1}^{x} f(y) \, dy-\int_{x}^{x+1} f(y) \, dy   =\begin{cases}3x-2&0\leq x\leq 1\\-3x-2&-1\leq x<0\end{cases} $$
-$$\left\| f*f^{*} \right\| _{1}=\int_{0}^{1} \int_{0}^{1}  \, dt  \, dx $$
+$$-\int_{-1}^{0} f(x-t) \, dt+\int_{0}^{1} f(x-t) \, dt=\int_{x-1}^{x} f(y) \, dy-\int_{x}^{x+1} f(y) \, dy   =\begin{cases}x+2&-2<x<-1\\-3x-2&-1\leq x<0\\3x-2&0\leq x\leq 1\\-x+2&1<x<2\\0&\text{otherwise}\end{cases} $$
+$$\left\| f*f^{*} \right\| _{1}=\int_{\mathbb{R}}^{} \left| f*f^{*} \right|  \, dx  $$
 $$\left| f*f^{*}(x) \right| \leq \int_{-1}^{1} \left| f(x-t) \right|  \, dt =$$
 ---
 ##### Exercise 4
@@ -42,5 +43,6 @@ For any $x\in A$, consider $R_{x}:A\to A,y\mapsto xy$. Then, $R_{x}\in \mathcal{
 1. **Showing that $\text{graph}(T)$ is closed**: 
    For $(x,R)\in \overline{\text{graph}(T)}$, there exists $(x_{n})_{n} \subseteq A$ s.t. $x_{n}\to x$ and $R_{x_{n}}\to R$. Then, $$\left\| x_{n}y-R(y) \right\| \leq \left\| R_{x_{n}}-R \right\|\left\| y \right\|  $$
    Therefore, for all $y\in A$: $x_{n}y\to R(y)$. However, as $x\mapsto xy$ is continuous for all $y\in A$, $x_{n}y\to xy$. It follows that $R(y)=xy$ for all $y\in A$ and $(x,R=R_{x})\in \text{graph}(T)$, i.e. the graph is closed.
-
-By the [[Bounded Linear Map|Closed graph theorem]], $T$ is bounded and, there exists $K>0$ s.t. $$\left\| xy \right\| \leq \left\| M_{x} \right\| \left\| y \right\| \leq K\|x\|\|y\|$$Now, let $\|x\|_{\text{new}}=K\|x\|$. Then, $$\left\| xy \right\| _{\text{new}}=K\left\| xy \right\| \leq K^{2}\|x\|\|y\|=\|x\|_{\text{new}}\|y\|_{\text{new}}$$and $(A,\|\cdot\|_{\text{new}})$ is Banach as the norms are equivalent. 
+2. **Constructing $\|\cdot\|_{\text{new}}$**:
+By the [[Bounded Linear Map|closed graph theorem]], $T$ is bounded and, there exists $K>0$ s.t. $$\left\| xy \right\| \leq \left\| R_{x} \right\| \left\| y \right\| \leq K\|x\|\|y\|$$Now, let $\|x\|_{\text{new}}=K\|x\|$. Then, $(A,\|\cdot\|_{\text{new}})$ is Banach as the norms are equivalent and: $$\left\| xy \right\| _{\text{new}}=K\left\| xy \right\| \leq K^{2}\|x\|\|y\|=\|x\|_{\text{new}}\|y\|_{\text{new}}$$
+---
