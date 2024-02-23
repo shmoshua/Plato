@@ -81,7 +81,7 @@
 > 2. $\text{UT}(n,\mathbb{R})$, the upper unitriangular group, is a closed subgroup of $\text{GL}(n,\mathbb{R})$. $\text{UT}(n,\mathbb{R})$ is homeomorphic to $\mathbb{R}^{n(n-1)/2}$ but not isomorphic, as $\text{UT}(n,\mathbb{R})$ is non-abelian.
 > 3. [[Orthogonal Group|$\text{O}(n)$]] is the closed subgroup of $\text{GL}(n,\mathbb{R})$.
 > 4. $\text{O}(n)\times \text{A}\times \text{UT}(n,\mathbb{R})\to \text{GL}(n,\mathbb{R}),(O,A,N)\mapsto OAN$ is a homeomorphism.
-> 5. The following symmetric bilinear form on $\mathbb{R}^n$: $$B(x,y):=-\sum_{i=1}^{p}x_{i}y_{i}+\sum_{j=p+1}^{n}x_{j}y_{y}=x^\top \begin{bmatrix}-I_{p}&\\&I_{{n-p}}\end{bmatrix}y$$Then, $$O(p,q):=\{ g\in \text{GL}(n,\mathbb{R}):B_{p}(g,g) \}$$is closed in $\text{GL}(n,\mathbb{R})$.
+> 5. The following symmetric bilinear form on $\mathbb{R}^n$: $$B(x,y):=-\sum_{i=1}^{p}x_{i}y_{i}+\sum_{j=p+1}^{n}x_{j}y_{y}=x^\top \begin{bmatrix}-I_{p}&\\&I_{{n-p}}\end{bmatrix}y$$Then, $$O(p,q):=\left\{ A\in \text{GL}(p+q,\mathbb{R}):A^\top \begin{bmatrix}-I_{p}&\\&I_{{q}}\end{bmatrix}A=\begin{bmatrix}-I_{p}&\\&I_{{q}}\end{bmatrix}\right\}$$is closed in $\text{GL}(p+q,\mathbb{R})$.
 ---
 > [!h] Example 6
 > For $\text{GL}(n,\mathbb{C})$,

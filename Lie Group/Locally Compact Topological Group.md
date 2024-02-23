@@ -61,7 +61,7 @@
 > 4. $\text{O}(1,1)$ is non-compact.
 > 5. $\text{O}(p,q)$ is non-compact for $p\geq 1,q\geq 1$. 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. They are closed in $\text{GL}(n,\mathbb{R})$ and $\text{GL}(n,\mathbb{R})$ is locally compact.
 > 2. Define the map: $$\begin{array}{cccc} {T:}&{\text{M}_{n,n}(\mathbb{R})}&\to&{\text{M}_{n,n}(\mathbb{R})}\\&{A} &\mapsto & {A^\top A} \end{array}{}$$Then, $\text{O}(n)= T^{-1}(\{ I \})$ and closed in $\text{M}_{n,n}(\mathbb{R})$. 
@@ -80,7 +80,8 @@
 >	\end{tikzpicture} 
 >	\end{document}
 >	```
->	Then, the hyperbola containing $e_{1}$ can be characterized by: $t\mapsto \begin{bmatrix}\cosh t\\\sinh t\end{bmatrix}$ for $t\in \mathbb{R}$. 
+>	Therefore, one sees that the orbit is not compact. However, $$\begin{array}{cccc} {f:}&{\text{SO}(1,1)}&\to&{\mathbb{R}^{2}}\\&{A} &\mapsto & {Ae_{1}} \end{array}{}$$is a continuous function. This implies $\text{SO}(1,1)$ cannot be compact. Therefore, $\text{O}(1,1)$ is not compact.
+>5. For $p,q\geq 1$, there is an injection: $$\begin{array}{cccc} {f:}&{\text{O}(1,1)}&\to&{\text{O}(p,q)}\\&{\begin{bmatrix}a&b\\c&d\end{bmatrix}} &\mapsto & {\begin{bmatrix}aI_{p}&bI_{p,q}\\cI_{q,p}&dI_{q}\end{bmatrix}} \end{array}{}$$
 
 ---
 > [!h] Example 5
