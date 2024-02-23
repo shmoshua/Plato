@@ -3,6 +3,13 @@
 > [!definition]
 > A [[topological group]] $G$ is ***locally compact***, if the underlying [[topological space]] is [[Locally Compact Topological Space|locally compact]].
 ---
+##### Properties
+> [!lemma] Lemma 1
+> Let $\{ G_{\alpha} \}_{\alpha\in A}$ be a collection of Hausdorff [[Topological Group|topological groups]]. Then, 
+> 1. $\prod_{\alpha\in A}^{}G_{\alpha}$ is compact if and only if $G_{\alpha}$ is compact for all $\alpha\in A$.
+> 2. $\prod_{\alpha\in A}^{}G_{\alpha}$ is locally compact if and only if $G_{\alpha}$ is locally compact for all $\alpha\in A$ and $G_{\alpha}$ is compact for all except finitely many $\alpha\in A$.
+
+---
 ##### Examples
 > [!h] Example 1 (Elementary Topological Groups)
 > We have:
@@ -14,7 +21,7 @@
 > [!h] Example 2
 > Let $M$ be a [[topological manifold]] of dimension $m\geq 1$. Then, $\text{Homeo}(M)$ is a topological group but not locally compact.
 
-> [!proof]+
+> [!proof]-
 > We will show that $\text{Homeo}(M)$ is not locally compact for any compact manifold $M$. Note that we can think of $M$ as a compact metric space $(M,d)$ by Urysohn’s metrization theorem. In the case when $M$ is a smooth manifold this is even easier to see by endowing it with a Riemannian metric. 
 > 
 > This puts us now in the favorable position of being able to identify the compact-open topology on $\text{Homeo}(X)$ with the topology of uniform convergence. We denote by $$d_{\infty}(f,g):=\sup\{ d(f(x),g(x)): x\in M \}$$
@@ -30,8 +37,8 @@
 >  
 >  Now, define $f_{k}:M\to M$: $$f_{k}(x):=\begin{cases}x&x\notin \varphi ^{-1}(B_{\leq1}(0))\\\varphi ^{-1}(\psi_{k}(\varphi(x)))&x\in \varphi ^{-1}(B_{\leq1}(0))\end{cases}$$Then, $f_{k}\in \text{Homeo}(M)$ as $\varphi ^{-1}\circ\psi_{k}\circ\varphi:\varphi ^{-1}(B_{\leq 1}(0))\to\varphi ^{-1}(B_{\leq 1}(0))$ is a homeomorphism and $f_{k}$ is $\text{id}$ everywhere else. Further they coincide on the boundary $\varphi ^{-1}(\partial B_{<1}(0))$.
 >  
->  Further, we have that $f_{k}(B_{<\varepsilon / 2}(x_{0}))=B_{<\varepsilon / 2}(x_{0})$
-Further, the homeomorphisms fk map the ε/2-ball Bε/2(x0) to itself and fix x0. Therefore, d(fk(x), x) ⩽ d(fk(x), fk(x0) | {z } =x0 ) + d(x0, x) < ε, for every x ∈ Bε/2(x0), and clearly fk(x) = x for every x /∈ Bε/2(x0). Hence, the sequence (fk)k∈N is in B∞ ε (id). However, the sequence (fk)k∈N converges pointwise to f∞(x) = ( x, if x /∈ φ −1 (B1(0)), x0, if x ∈ φ −1 (B1(0)), 4 If there were a subsequence (fkl )l∈N converging to some f ∈ Homeo(M) uniformly then this sequence would also converge pointwise to f, i.e. f needs to coincide with f∞. But f∞ is not even continuous which contradicts our assumption of f ∈ Homeo(M). Therefore (fk)k∈N ⊂ B∞ ε (id) has no uniformly convergent subsequences.
+>  Further, we have that $f_{k}(B_{<\varepsilon / 2}(x_{0}))=B_{<\varepsilon / 2}(x_{0})$ and $f_{k}(x_{0})=x_{0}$. Therefore, for every $x\in B_{\varepsilon / 2}(x_{0})$:$$d(f_{k}(x),x)\leq d(f_{k}(x),f_{k}(x_{0}))+d(x_{0},x)<\varepsilon$$This means, $(f_{k})_{k}\subseteq B^\infty_{<\varepsilon}(\text{id})$. However, $f_{k}\to f_{\infty}$ pointwise, where: $$f_{\infty}(x):=\begin{cases}x&x\notin \varphi ^{-1}(B_{\leq1}(0))\\x_{0}&x\in \varphi ^{-1}(B_{\leq1}(0))\end{cases}$$which is not even continuous. Therefore, $(f_{k})_{k}$ cannot have a convergent subsequence and $\text{Homeo}(M)$ is not locally compact.
+
  
 ---
 > [!h] Example 2
