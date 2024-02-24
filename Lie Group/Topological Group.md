@@ -37,7 +37,24 @@
 > 2. For $\Gamma:=\prod_{\alpha\in A}^{}G_{\alpha}$, $\pi_{\alpha}\circ m_{\Gamma}=m_{\alpha}\circ(\pi_{\alpha},\pi_{\alpha})$ and therefore continuous. This shows that $\times_{\Gamma}$ is continuous [[Initial Topology|Lemma 2]]. Similarly, $\pi_{\alpha}\circ i_{\Gamma}=i_{\alpha}\circ(\pi_{\alpha}\times\pi_{\alpha})$ is continuous.
 > 3. Suppose $U\subseteq G$ is an open set. Then, $\pi ^{-1}(\pi(U))=UH=\bigcup_{h\in H}^{}Uh=\bigcup_{h\in H}^{}R_{h}(U)$ is open. Therefore, $\pi(U)$ is open in the quotient topology.
 > 4. For $U\subseteq G / N$ open, $\pi \circ m_{G}=m_{G / N}\circ(\pi \times \pi)$ and $\pi \circ m_{G}$ is continuous. As $\pi \times \pi$ is open, $m_{G /N}$ is continuous. Analogously for inversion.
+---
+> [!lemma] Proposition 3
+> Let $G$ be a topological group. Then, 
+> 1. If $H\leq G$, then $\overline{H}\leq G$.
+> 2. If $H\leq G$ is open, then it is closed.
+> 3. Let $G^\circ$ be the [[Connected Topological Space|connected component]] of $e\in G$. Then, $G^{\circ}$ is a closed and $G^\circ\unlhd G$.
+> 4. If $G$ is [[Connected Topological Space|connected]] and $U\subseteq G$ is a neighborhood of $e$, then $G=\bigcup_{n=1}^{\infty}U^n$
+> 5. If $G$ is [[Connected Topological Space|connected]] and $N\unlhd G$ is discrete. Then, $N\subseteq Z(G)$ where $Z(G)$ denotes the [[Center of a group|center]].
+
+> [!proof]+
+> > [!lemma]
+> > We have:
+> > 1. If $U$ is a neighborhood of $e$, there exists an open symmetric neighborhood $V\subseteq U$ of $e$, i.e. $V=V^{-1}$.
+> > 2. If $U$ is a neighborhood of $e$, there exists an open symmetric neighborhood $V$ of $e$ s.t. $$V^{2}=V^{-1}V\subseteq U$$
 > 
+> > [!proof]+
+> > We have:
+> > 1. Let $e\in W\subseteq U$ with $W$ open. Then, $W^{-1}=i(W)$ is open and $e\in W^{-1}$. Therefore, $$V$$
 ---
 ##### Examples
 > [!h] Example 1 (Elementary Topological Groups)
