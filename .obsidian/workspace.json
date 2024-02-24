@@ -13,43 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Locally Compact Topological Group.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "1ee03b7663b3d75b",
+            "id": "be86287a2be2b349",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4ff353e0454239a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2075d58a2ad5e566",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Connected Topological Space.md",
+                "file": "Courses/Topology/Exercise Sheet 1.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,31 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8b7ec7d79b7a344",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Topological Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a70d45e534ab8ded",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Connected Topological Space.md",
+                "file": "Courses/Topology/Exercise Sheet 1.md",
                 "mode": "preview",
                 "source": false
               }
@@ -134,8 +86,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,8 +132,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Courses/Topology/Exercise Sheet 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Courses/Topology/Exercise Sheet 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Topological Group.md"
+                "file": "Courses/Topology/Exercise Sheet 1.md"
               }
             }
           }
@@ -265,26 +215,27 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d8b7ec7d79b7a344",
+  "active": "be86287a2be2b349",
   "lastOpenFiles": [
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Courses/Topology/Exercise Sheet 1.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Analysis/Functional Analysis/Unitary Linear Map.md",
+    "Lie Group/Locally Compact Topological Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Topological Group.md",
     "Topology/Connected Topological Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
-    "Lie Group/Topological Group.md",
     "Topology/Closure.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Lie Group/Locally Compact Topological Group.md",
-    "Analysis/Functional Analysis/Unitary Linear Map.md",
     "Analysis/Functional Analysis/Adjoint Linear Map.md",
     "Topology/Initial Topology.md",
     "Analysis/Inner Product Space.md",
     "Topology/Locally Connected Topological Space.md",
     "Topology/Locally Compact Topological Space.md",
-    "Courses/Topology/Exercise Sheet 1.md",
     "Topology/Proper Metric Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Compact sets.md",
     "Topology/Topological Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
@@ -293,7 +244,6 @@
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",

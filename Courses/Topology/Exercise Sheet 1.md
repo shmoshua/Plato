@@ -38,7 +38,11 @@ We have:
 > 1. Show $U\subseteq X$ open if and only if $U_{\lambda}\cap U$ is open for all $\lambda\in \Lambda$.
 > 2. Show that if $f$ is continuous, then $f|_{U_{\lambda}}$ is continuous for all $\lambda\in \Lambda$ w.r.t. the subspace topology.
 > 3. Show the converse: if $f|_{U_{\lambda}}$ is continuous for all $\lambda\in\Lambda$, then $f$ is continuous.
-> 4. Construct $X,Y,f$ and $\{ U_{\lambda} \}\subseteq \mathcal{T}_{X}$ s.t. $f$ is not always(d) Konstruieren Sie X, Y , f und ein gewisses (Ui)i∈I , so dass f nicht immer dann konstant ist, wenn f|Ui f¨ur alle i konstant ist. (Dieses Ergebnis l¨asst sich wie folgt zusammenfassen: Kontinuierlich zu sein ist eine lokale Eigenschaft einer Funktion, aber konstant zu sein jedoch nicht.) (e) F¨ur i ∈ I, sei fi : Ui → Y eine stetige Funktion (wobei Ui die Unterraumtopologie hat). Wenn fi(x) = fj (x) f¨ur alle i und j in I und alle x ∈ Ui ∩ Uj , zeigen Sie, dass es eine einzige stetige Funktion f : X → Y gibt, wobei fi und f auf Ui ¨ubereinstimmen. (Dieses Ergebnis bedeutet, dass man stetige Funktionen lokal definieren kann, vorausgesetzt, dass zwei m¨ogliche Definitionen an den Stellen, an denen eine Mehrdeutigkeit bestehen k¨onnte, dieselbe Antwort geben.)
-##### Problem 2
+> 4. Construct $X,Y,f$ and $\{ U_{\lambda} \}\subseteq \mathcal{T}_{X}$ s.t. $f|_{U_{\lambda}}$ is constant for all $\lambda\in \Lambda$ but $f$ is not.
+> 5. For $\lambda\in \Lambda$, let $f_{\lambda}:U_{\lambda}\to Y$ be a continuous function w.r.t. the subspace topology. If $f_{\alpha}(x)=f_{\beta}(x)$ for all $\alpha,\beta\in \Lambda$ and $x\in U_{\alpha}\cap U_{\beta}$, then show that there exists a unique continuous function $f:X\to Y$ where $f_{\lambda}$ and $f$ coincide on $U_{\lambda}$.
 
-> Sei X eine Menge und sei Y ein topologischer Raum. Sei f : X → Y eine beliebige Funktion. (a) Zeigen Sie, dass die Menge T der Teilmengen von X der Form U = f −1 (V ) f¨ur eine offene Menge V = f −1 (V ) eine Topologie auf X ist. (b) Zeigen Sie, dass f : (X, T ) → Y stetig ist.
+We have:
+1. If $U$ is open, $U_{\lambda}\cap U$ is open as an intersection of open sets. Conversely, $$U=U\cap X=U\cap \bigcup_{\lambda\in \Lambda}^{}U_{\lambda}=\bigcup_{\lambda\in \Lambda}^{}(U\cap U_{\lambda})$$which is open as a union of open sets. 
+2. 
+
+---

@@ -16,8 +16,8 @@
 
 **1.3 General Facts about Topological Groups**
 1. [[Connected Topological Space]]
-2. [[Connected Components|Connected Topological Space]]
-3. **Properties of a Topological Group**: [[Topological Group]]
+2. [[Connected Topological Space|Connected Components]]
+3. **Properties of a Topological Group**: [[Topological Group]] and connectedness
 ---
 
 ##### 2. Lie Groups
