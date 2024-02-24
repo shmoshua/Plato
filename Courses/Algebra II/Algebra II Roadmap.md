@@ -6,3 +6,4 @@
 3. [[Maximal Ideal]]
 4. [[Characteristic]]
 5. [[Prime Ring]] and [[Prime Field]]
+6. [[Polynomial Ring]]

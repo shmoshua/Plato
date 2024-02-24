@@ -6,7 +6,7 @@
 > 1. $\text{deg}(p):=n$ is the ***degree*** of $p$,
 > 2. $a_{n}$ is the ***leading coefficient*** of $p$,
 > 
-> If $a_{n}=1$, then $p$ is ***normalized***. If $p=0$, then $\text{deg}(p)=-\infty$.
+> If $a_{n}=1$, then $p$ is ***normalized/monic***. If $p=0$, then $\text{deg}(p)=-\infty$.
 ---
 ##### Properties
 > [!lemma] Fact 1

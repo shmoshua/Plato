@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,8 +37,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tensor Bundle.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "85068a2cfa20fa21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra I/Algebra I Roadmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a324bc6d02d6db84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Integral Domain.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -56,7 +80,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 1.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36bfe7ada9baaa9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Polynomial Ring.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "780c186aa6a0dbe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -98,7 +146,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tensor Bundle.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tensor Bundle.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tensor Bundle.md"
+                "file": "Algebra/Polynomial Ring.md"
               }
             }
           }
@@ -229,10 +278,17 @@
   },
   "active": "b096e327171116a4",
   "lastOpenFiles": [
-    "Differential Geometry/Arc Length.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Courses/Topology/Exercise Sheet 1.md",
+    "Algebra/Integral Domain.md",
+    "Courses/Algebra I/Algebra I Roadmap.md",
+    "Algebra/Polynomial Ring.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
+    "Courses/Topology/Exercise Sheet 1.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Analysis/Functional Analysis/Gauge Function.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Differential Geometry/Tensor Bundle.md",
+    "Differential Geometry/Arc Length.md",
     "Analysis/Functional Analysis/Unitary Linear Map.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
@@ -248,14 +304,7 @@
     "Topology/Proper Metric Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Compact sets.md",
-    "Topology/Topological Space.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Analysis IV",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
