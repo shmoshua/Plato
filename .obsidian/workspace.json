@@ -265,11 +265,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1ee03b7663b3d75b",
+  "active": "d8b7ec7d79b7a344",
   "lastOpenFiles": [
     "Topology/Connected Topological Space.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Topology/Continuous Functions in Metric Spaces.md",
     "Lie Group/Topological Group.md",
+    "Topology/Closure.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Analysis/Functional Analysis/Unitary Linear Map.md",
     "Analysis/Functional Analysis/Adjoint Linear Map.md",
@@ -292,8 +294,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/C-Algebra.md",
-    "Analysis/Lp Space.md",
-    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
