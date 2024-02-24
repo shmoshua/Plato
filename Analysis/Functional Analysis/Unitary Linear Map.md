@@ -19,5 +19,16 @@
 > 	1. $S_{i}(x)\to S(x)$ and
 > 	2. $T_{i}(x)\to T(x)$
 > 	
-> 	Now let $x\in \mathcal{H}$. We
+> 	Now let $x\in \mathcal{H}$. We have: $$\begin{align}\left\| (S_{i}T_{i}-S T)x \right\| &\leq \left\|  (S_{i}T_{i}-S_{i}T)x \right\|+ \left\| (S_{i}T-ST)x \right\|\\&\leq \left\| S_{i}(T_{i}-T)x \right\|+\left\| (S_{i}-S)Tx \right\| \\&\leq \left\| (T_{i}-T)x \right\|  +\left\| (S_{i}-S)Tx \right\|  \end{align}$$Then, choose $i_{0}\in \mathbb{N}$ s.t. 
+> 	1. $T_{i}\in U(T,x,\varepsilon/2)$ for all $i\geq i_{0}$
+> 	2. $S_{i}\in U(S,Tx,\varepsilon /2)$ for all $i\geq i_{0}$
+> 	 
+> 	 It follows that $S_{i}T_{i}\in U(ST,x, \varepsilon)$ for all $i\geq i_{0}$ and therefore continuous.
+> 2. **Showing that the inversion is continuous**:
+> 	Let $T,(T_{i})_{i}\subseteq \mathcal{U}(\mathcal{H})$ s.t. $T_{i}\to T$ in strong operator topology. Then, for $\varepsilon>0$, $$\begin{align}\left\| T^{*}_{i}x-T^{*}x \right\| &=\left\| T^{*}T(T^{*}_{i}-T^{*}) x\right\| \\&\leq \left\| (TT^{*}_{i}-\text{id}_{\mathcal{H}}) x\right\| \\&=\left\| (TT_{i}^{*}-T_{i}T_{i}^{*})x \right\|\\&=\left\| (T-T_{i})T_{i}^{*}x \right\|  \end{align}$$Therefore, for $i_{0}\in \mathbb{N}$ s.t. $T_{i}\in U(T;T_{i}^{*}x;\varepsilon)$ for all $i\geq i_{0}$, $T_{i}^{*}\in U(T^{*},x,\varepsilon)$. This proves the statement.
+> 3. **Showing if $\text{dim}\mathcal{H}<+\infty$ $\mathcal{U}(\mathcal{H})$ is compact**:
+> 	Let $n=\text{dim }\mathcal{H}<+\infty$.  Then, $\mathcal{U}(\mathcal{H})=\text{U}(n)$ which is compact.
+> 4. **Showing if $\mathcal{U}(\mathcal{H})$ is locally compact it is finite-dimensional**:
+>    Assume that it is infinite-dimensional. 
+> 	Let $n=\text{dim }\mathcal{H}<+\infty$.  Then, $\mathcal{U}(\mathcal{H})=\text{U}(n)$ which is compact.
 ---
