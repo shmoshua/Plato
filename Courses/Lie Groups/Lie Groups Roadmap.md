@@ -11,6 +11,8 @@
 1. [[Locally Compact Topological Space]]
 2. [[Locally Compact Hausdorff Space]]
 3. [[Locally Compact Topological Group]]
+4. **Examples of Compact/Locally Compact Topological Groups**: [[Locally Compact Topological Group|Examples]]
+5. **Examples of Compact/Locally Compact Topological Groups**: [[Unitary Linear Map|$\mathcal{U}(\mathcal{H})$]] of a Hilbert space.
 ---
 ##### 2. Lie Groups
 ---

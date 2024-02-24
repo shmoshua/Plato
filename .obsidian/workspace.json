@@ -30,8 +30,33 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "4ff353e0454239a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "fa9329f6b3aec9d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "241f7b1dc219f423",
@@ -55,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Locally Compact Topological Group.md",
+                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -79,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Topology/Initial Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -146,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Locally Compact Topological Group.md",
+                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Locally Compact Topological Group.md",
+                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Locally Compact Topological Group.md"
+                "file": "Analysis/Functional Analysis/Unitary Linear Map.md"
               }
             }
           }
@@ -276,14 +301,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4b9e074a088ddd3c",
+  "active": "e285b78a0e7e61af",
   "lastOpenFiles": [
     "Lie Group/Topological Group.md",
+    "Analysis/Functional Analysis/Unitary Linear Map.md",
+    "Topology/Initial Topology.md",
+    "Analysis/Inner Product Space.md",
+    "Lie Group/Locally Compact Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Locally Connected Topological Space.md",
-    "Lie Group/Locally Compact Topological Group.md",
     "Topology/Locally Compact Topological Space.md",
-    "Analysis/Inner Product Space.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Topology/Proper Metric Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
@@ -303,8 +330,6 @@
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Topology/One-Point Compactification.md",
     "Analysis/Convolution.md",
-    "Analysis/Functional Analysis/Volterra Algebra.md",
-    "Analysis/Functional Analysis/Spectrum.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
