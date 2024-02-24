@@ -13,7 +13,11 @@
 3. [[Locally Compact Topological Group]]
 4. **Examples of Compact/Locally Compact Topological Groups**: [[Locally Compact Topological Group|Examples]]
 5. **Examples of Compact/Locally Compact Topological Groups**: [[Unitary Linear Map|$\mathcal{U}(\mathcal{H})$]] of a Hilbert space.
+
+**1.3 General Facts about Topological Groups**
+1. [[Connected Topological Space]]
 ---
+
 ##### 2. Lie Groups
 ---
 ##### 3. Structure Theory

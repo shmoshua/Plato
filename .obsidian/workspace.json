@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "fa9329f6b3aec9d4",
+            "id": "2075d58a2ad5e566",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
+                "file": "Topology/Connected Topological Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,6 +69,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a70d45e534ab8ded",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Connected Topological Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
+                "file": "Topology/Connected Topological Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
+                "file": "Topology/Connected Topological Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Unitary Linear Map.md"
+                "file": "Topology/Connected Topological Space.md"
               }
             }
           }
@@ -241,15 +253,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fa9329f6b3aec9d4",
+  "active": "a70d45e534ab8ded",
   "lastOpenFiles": [
+    "Topology/Connected Topological Space.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Analysis/Functional Analysis/Unitary Linear Map.md",
+    "Lie Group/Locally Compact Topological Group.md",
     "Analysis/Functional Analysis/Adjoint Linear Map.md",
     "Lie Group/Topological Group.md",
     "Topology/Initial Topology.md",
     "Analysis/Inner Product Space.md",
-    "Lie Group/Locally Compact Topological Group.md",
     "Topology/Locally Connected Topological Space.md",
     "Topology/Locally Compact Topological Space.md",
     "Courses/Topology/Exercise Sheet 1.md",
@@ -269,7 +282,6 @@
     "Analysis/Functional Analysis/C-Algebra.md",
     "Analysis/Lp Space.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Topology/One-Point Compactification.md",
     "Lie Group",
     "Courses/Lie Groups",
     "Courses/Algebra II/Untitled",
