@@ -28,4 +28,21 @@ hihi
 
 We have:
 1. $\text{Im }\varphi=\mathbb{Z}$ is not a prime ideal in $\mathbb{Z}$.
-2. Firstly, we know that $\varphi ^{-1}(\mathfrak{s})$ is an ideal in $R$. Then, clearly $\varphi ^{-1}(\mathfrak{s})\neq R$ as $\mathfrak{s}\neq \mathbb{Z}$. Finally, for $a,b\in R$: $$ab\in \varphi ^{-1}(\mathfrak{s})\implies\varphi(a)\varphi(b)=\varphi(ab)\in \mathfrak{s}\implies\varphi(a)\in \mathfrak{s}\lor\varphi(b)\in \mathfrak{s}$$
+2. Firstly, we know that $\varphi ^{-1}(\mathfrak{s})$ is an ideal in $R$. Then, clearly $\varphi ^{-1}(\mathfrak{s})\neq R$ as $\mathfrak{s}\neq \mathbb{Z}$. Finally, for $a,b\in R$: $$ab\in \varphi ^{-1}(\mathfrak{s})\implies\varphi(a)\varphi(b)=\varphi(ab)\in \mathfrak{s}\implies\varphi(a)\in \mathfrak{s}\lor\varphi(b)\in \mathfrak{s}\implies a\in \varphi ^{-1}(\mathfrak{s})\lor b\in \varphi ^{-1}(\mathfrak{s})$$Therefore, $\varphi ^{-1}(\mathfrak{s})$ is prime.
+3. Firstly, $\varphi(\mathfrak{r})$ is proper as if $\varphi(\mathfrak{r})=\mathbb{Z}$, then for all $x\notin\mathfrak{r}$, there exists $y\in \mathfrak{r}$ s.t. $x-y\in \text{ker}\varphi \subseteq \mathfrak{r}$ which is a contradiction. Now, let $a,b\in \mathbb{Z}$ s.t. $ab\in \varphi(\mathfrak{r})$. As $\varphi$ is surjective, there exists $x,y\in R$ s.t. $\varphi(x)=a,\varphi(y)=b$. Therefore, there exists $z\in \mathfrak{r}$ s.t. $$\varphi(x)\varphi(y)=\varphi(z)$$In other words, $xy-z\in \text{ker}(\varphi)\subseteq \mathfrak{r}$. Therefore, $xy\in \mathfrak{r}$ and as $\mathfrak{r}$ is prime, $x\in \mathfrak{r}$ or $y\in \mathfrak{r}$. This shows that $a\in \varphi(\mathfrak{r})$ or $b\in \varphi(\mathfrak{r})$. Therefore, $\varphi(\mathfrak{r})$ is prime.
+---
+> [!definition] Problem 4
+> Show that any finite integral domain is a field.
+
+Let $R$ be a finite integral domain and $(0)\neq\mathfrak{a}\subseteq R$ an ideal. Then, there exists non-zero $a\in \mathfrak{a}$ s.t. from the finiteness, $a^m=a^n$ for some $m>n>0$. It follows that $1=a^{m-n}\in \mathfrak{a}$ and $\mathfrak{a}=R$. This proves that $R$ is a field.
+
+---
+> [!definition] Problem 5
+> Let $R$ and $S$ be rings with $1$ and $\varphi:R\to S$ be a nonzero map which satisfies for all $a,b\in R$:
+> 1. $\varphi(a+b)=\varphi(a)+\varphi(b)$ and 
+> 2. $\varphi(ab)=\varphi(a)\varphi (b)$. 
+> 
+> Show that if $\varphi(1_{R})\neq 1_{S}$ then $\varphi(1_{R})$ is a zero divisor. Hence if $S$ has no zero divisors then $\varphi(1_{R})=1_{S}$.
+> 
+
+

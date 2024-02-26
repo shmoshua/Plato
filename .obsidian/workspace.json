@@ -68,7 +68,7 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Algebra II/Exercise Sheet 0.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Prime Ideal.md",
+                "file": "Algebra/Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Initial Topology.md",
+                "file": "Algebra/Unit.md",
                 "mode": "preview",
                 "source": false
               }
@@ -241,9 +241,13 @@
   },
   "active": "77d01ba8275de526",
   "lastOpenFiles": [
+    "Algebra/Field.md",
     "Algebra/Prime Ideal.md",
     "Courses/Algebra II/Exercise Sheet 0.md",
-    "Algebra/Field.md",
+    "Algebra/Unit.md",
+    "Analysis/Convolution.md",
+    "Algebra/Ring Homomorphism.md",
+    "Topology/Initial Topology.md",
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Associate.md",
@@ -263,10 +267,6 @@
     "Analysis/Functional Analysis/Gauge Function.md",
     "Differential Geometry/Tensor Bundle.md",
     "Differential Geometry/Arc Length.md",
-    "Lie Group/Locally Compact Topological Group.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Lie Group/Topological Group.md",
-    "Topology/Connected Topological Space.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
