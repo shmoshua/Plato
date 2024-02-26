@@ -16,8 +16,11 @@
 ##### 2. Spectrum of a Banach Algebra Element
 1. [[Analysis/Functional Analysis/Spectrum|Spectrum]]
 2. [[Spectral Radius]]
+3. [[Analysis/Functional Analysis/Spectrum|Spectral Radius Formula]]
 ---
 ##### 3. The Guelfand Representations
+**3.1 Regular Ideals**
+1. 
 ---
 ##### 4. The Guelfand Isomorphisms
 ---
