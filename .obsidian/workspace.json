@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Greatest Common Divisor.md",
+                "file": "Courses/Algebra II/Exercise Sheet 0.md",
                 "mode": "source",
                 "source": true
               }
@@ -30,21 +30,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "92c806e3d27d72a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Greatest Common Divisor.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "241f7b1dc219f423",
@@ -75,13 +62,13 @@
             }
           },
           {
-            "id": "780c186aa6a0dbe4",
+            "id": "77d01ba8275de526",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Greatest Common Divisor.md",
-                "mode": "preview",
+                "file": "Courses/Algebra II/Exercise Sheet 0.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -92,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Prime Ideal.md",
                 "mode": "preview",
                 "source": false
               }
@@ -123,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Courses/Algebra II/Exercise Sheet 0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Courses/Algebra II/Exercise Sheet 0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Integral Domain.md"
+                "file": "Courses/Algebra II/Exercise Sheet 0.md"
               }
             }
           }
@@ -252,20 +239,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9855887446e6eb27",
+  "active": "77d01ba8275de526",
   "lastOpenFiles": [
-    "Algebra/Greatest Common Divisor.md",
+    "Algebra/Prime Ideal.md",
+    "Courses/Algebra II/Exercise Sheet 0.md",
+    "Algebra/Field.md",
     "Algebra/Integral Domain.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Associate.md",
+    "Algebra/Greatest Common Divisor.md",
     "Algebra/Prime.md",
     "Algebra/Groups with prime-squared order.md",
     "Algebra/Irreducibility.md",
     "Analysis/Functional Analysis/Unitary Linear Map.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Principal Ideal Domain.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Courses/Topology/Exercise Sheet 1.md",
-    "Algebra/Field.md",
     "Algebra/Euclidean Domain.md",
     "Courses/Algebra I/Algebra I Roadmap.md",
     "Algebra/Polynomial Ring.md",
@@ -278,8 +267,6 @@
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Topological Group.md",
     "Topology/Connected Topological Space.md",
-    "Topology/Continuous Functions in Metric Spaces.md",
-    "Topology/Closure.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

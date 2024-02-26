@@ -30,6 +30,8 @@
 > 1. every prime element is irreducible.
 > 2. for every non-zero element $p\in R$, $p$ is prime if and only if $(p)\subseteq R$ is a [[prime ideal]].
 > 3. the greatest common divisor of $a,b$ (if it exists) is uniquely determined up to units.
+- **Remark**: In $\mathbb{Z}$, $n\in \mathbb{Z}$ is prime if and only if $n$ is irreducible.
+- **Remark**: Generally irreducible elements are not prime, e.g. $2\in \mathbb{Z}[\sqrt{ 5 }]$ is irreducible but not prime as $2\cdot 3 =(1+\sqrt{ 5 })(1-\sqrt{ 5 })$.
 ---
 ##### Examples
 - $\mathbb{Q},\mathbb{R},\mathbb{C},\mathbb{Z} / p\mathbb{Z}$ where $p$ prime are [[Field|fields]], so they are integral domains.

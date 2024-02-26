@@ -14,6 +14,7 @@
 ##### 1. Euclidean Domains, Principal Ideal Domains, Unique Factorization Domains
 1. [[Euclidean Domain]]
 2. [[Principal Ideal Domain]]
-3. [[Irreducibility]]
-4. [[Prime]]
-5. [[Associate]]
+3. [[Integral Domain|Irreducibility, Prime, Associates, gcd]]
+---
+### Exercises
+1. [[Exercise Sheet 0]]
