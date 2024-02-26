@@ -7,17 +7,19 @@
 > 3. **Symmetry**: $d(x,y)=d(y,x)$ for all $x,y\in X$
 > 4. **Triangle Inequality**: $d(x,z)\leq d(x,y)+d(y,z)$ for all $x,y,z\in X$.
 > 
+
 - **Related Definition**: $(X,d)$ is ***complete***, if every [[Cauchy Sequence| Cauchy sequence]] of points in $X$ has a limit that is also in $X$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
 > The metric $d$ defines a [[Topological Space|topology]] $\mathcal{T}_{d}$ on $X$ as follows: $U\in \mathcal{T}_{d}$ if and only if for all $x\in U$, there exists $r>0$ s.t. $$B_{<r}(x):=\{ y\in X:d(x,y)<r \}\subseteq U$$
 
-> [!proof]+
+> [!proof]-
 > We will show that $\mathcal{T}_{d}$ is a topology.
 > 1. $\varnothing,X\in \mathcal{T}_{d}$ (take any $r>0$)
 > 2. Let $(U_{\lambda})_{\lambda\in \Lambda}\subseteq \mathcal{T}_{d}$ and $x\in \bigcup_{\lambda\in \Lambda}^{}U_{\lambda}$. Then, there exists $\alpha\in \Lambda$ s.t. $x\in U_{\alpha}$ and there exists $r>0$ s.t. $B_{<r}(x)\subseteq U_{\alpha}\subseteq \bigcup_{\lambda\in \Lambda}^{}U_{\alpha}$.
-> 3. Let $U_{1},U_{2}$ be 
+> 3. Let $U_{1},U_{2}$ be open and $x\in U_{1}\cap U_{2}$. Then, there exists $r_{1},r_{2}>0$ s.t. $B_{<r_{1}}(x)\subseteq U_{1}$ and $B_{<r_{2}}(x)\subseteq U_{2}$. Then, $B_{<r}(x)\subseteq U_{1}\cap U_{2}$ for $r:=\min\{ r_{1},r_{2} \}$.
+- -**Remark**: There can be infinitely many metrics defining the same topology, e.g. $d_{p}(x,y):=\left( \sum_{i=1}^{n}\left| x_{i}-y_{i} \right|^p \right)^{1/p}$ on $\mathbb{R}^n.$
 ---
 > [!lemma] Proposition 2
 > Let $(X,d)$ be a complete metric space. For a subset $A \subseteq X$, the following are equivalent: 

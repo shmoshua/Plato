@@ -13,6 +13,10 @@
 
 **1.2 Metric Spaces**
 1. [[Metric Space]]
+2. [[Metrizable Space]]
+
+**1.3 Topological Manifolds**
+1. [[Topological Manifold]]
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
