@@ -20,7 +20,13 @@
 
 > [!proof]-
 > $$b=1b=a^{-1}ab=a^{-1}ac=1c=c$$
-
+---
+> [!lemma] Theorem 3
+> Let $F$ be a field. Then $F[X]$ is a principal ideal domain.
+---
+> [!lemma] Theorem 4
+> Let $F$ be a field. If $f\in F[X]$ with $\text{deg}(f)=:n>0$, then $F$ has at most $n$ zeros.
+- **Remark**: This is not true for general rings. $x^{2}-1\in (\mathbb{Z} / 8\mathbb{Z})[x]$ has 4 zeros: $1,3,5,7$.
 ---
 ##### Examples
 - $\mathbb{Q},\mathbb{R},\mathbb{C}$

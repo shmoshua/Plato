@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Field.md",
                 "mode": "source",
                 "source": true
               }
@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
-                "mode": "preview",
-                "source": false
+                "file": "Algebra/Euclidean Domain.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "241f7b1dc219f423",
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -146,8 +146,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Polynomial Ring.md"
+                "file": "Algebra/Euclidean Domain.md"
               }
             }
           }
@@ -276,14 +275,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b096e327171116a4",
+  "active": "a324bc6d02d6db84",
   "lastOpenFiles": [
     "Algebra/Integral Domain.md",
-    "Courses/Algebra I/Algebra I Roadmap.md",
-    "Algebra/Polynomial Ring.md",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Euclidean Domain.md",
+    "Algebra/Principal Ideal.md",
     "Courses/Topology/Exercise Sheet 1.md",
+    "Algebra/Field.md",
+    "Algebra/Polynomial Ring.md",
+    "Courses/Algebra I/Algebra I Roadmap.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Topology/Topology Roadmap.md",
     "Analysis/Functional Analysis/Gauge Function.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
@@ -301,9 +303,6 @@
     "Analysis/Inner Product Space.md",
     "Topology/Locally Connected Topological Space.md",
     "Topology/Locally Compact Topological Space.md",
-    "Topology/Proper Metric Space.md",
-    "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Compact sets.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
