@@ -62,4 +62,18 @@ We have that:
 	1. $U=B_{<\varepsilon / 4}(x):=\{ z\in X:d(z,x)<\varepsilon / 4 \}$ which contains $x$
 	2. $V=B_{<\varepsilon / 4}(y):=\{ z\in X:d(z,y)<\varepsilon / 4 \}$ which contains $y$
 	Further, if $z\in U\cap V$, then, $d(x,y)\leq d(x,z)+d(z,y)<\varepsilon /2$ which is a contradiction. 
-2. 
+2. Let $x,y\in X$ and two open sets $U,V\subseteq X$ s.t. $x\in U$ and $y\in V$. Then, $X \backslash U,X \backslash V$ are finite and $X \backslash U\cup X \backslash V$ is finite. Therefore, $X \backslash(U\cap V)=X \backslash U \cup X \backslash V\neq X$. It follows that $U\cap V\neq \varnothing$. 
+---
+> [!definition] Problem 5
+> Let $X=[-1,1]$ be a subspace of $\mathbb{R}$ with the subspace topology. Decide for the following sets if they are open, closed or neither in $X$.
+> 1. $\{ x\in X: 1/2<\left| x \right|<1 \}$
+> 2. $\{ x\in X: 1/2<\left| x \right|\leq1 \}$
+> 3. $\{ x\in X: 1/2\leq\left| x \right|<1 \}$
+> 4. $\{ x\in X: 1/2\leq\left| x \right|\leq1 \}$
+
+We have:
+1.  $X_{1}:=\{ x\in X: 1/2<\left| x \right|<1 \}$ is open in $\mathbb{R}$. Therefore, $X_{1}=X_{1}\cap X$ is open in $X$.
+2. $X_{2}:=\{ x\in X: 1/2<\left| x \right|\leq1 \}=X \cap\{ x\in X: 1/2<\left| x \right|< 2 \}$. Therefore, $X_{2}$ is open in $X$.
+3. $X_{3}:=\{ x\in X: 1/2\leq\left| x \right|<1 \}$ is not open as $x= 1/2$ does not have an open neighborhood contained in $X_{3}$. Similarly, $X \backslash X_{3}=\{ x\in X: \left| x \right|<1/2 \}\cup \{ 1,-1 \}$ is not open as there exists no open set $U$ that contains an open neighborhood of $1$ in $\mathbb{R}$ s.t. $U\cap X\subseteq X \backslash X_{3}$. Therefore, $X_{3}$ is neither open nor closed.
+4. $X_{4}:=\{ x\in X: 1/2\leq\left| x \right|\leq1 \}$ is closed as $X \backslash X_{4}=\{ x\in X: \left| x \right|<1/ 2 \}$ is open in $\mathbb{R}$ and thereby in $X$. 
+---
