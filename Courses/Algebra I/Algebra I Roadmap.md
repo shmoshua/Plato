@@ -69,7 +69,7 @@
 ##### 10. Ideals and Homomorphisms
 1. [[Ideal]]
 2. [[Quotient Ring]]
-3. [[Principal Ideal]]
+3. [[Principal Ideal Domain]]
 4. [[Ring Homomorphism|Ring Isomorphism Theorems]]
 5. [[Ideal|Chinese Remainder Theorem]]
 6. [[Prime Ring]]
@@ -89,7 +89,7 @@
 4. [[Polynomial Ring|Degree of a polynomial]]
 5. [[Integral Domain|Polynomial Integral Domain]]
 6. [[Polynomial Ring|Euclidean Algorithm]]
-7. Polynomial rings, Fields and [[Principal Ideal|Principal Ideal Rings]]
+7. Polynomial rings, Fields and [[Principal Ideal Domain|Principal Ideal Rings]]
 8. [[Minimal Polynomial]]
 ---
 ##### Problem Sets

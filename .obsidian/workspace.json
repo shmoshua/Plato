@@ -13,74 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Greatest Common Divisor.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "be86287a2be2b349",
+            "id": "9855887446e6eb27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 1.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "b096e327171116a4",
+            "id": "92c806e3d27d72a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "85068a2cfa20fa21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebra I/Algebra I Roadmap.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a324bc6d02d6db84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Greatest Common Divisor.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "241f7b1dc219f423",
         "type": "tabs",
         "children": [
           {
-            "id": "d4ad32b5b3e01906",
+            "id": "7d85cfd902e90f16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Algebra/Greatest Common Divisor.md",
                 "mode": "preview",
                 "source": false
               }
@@ -116,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -146,7 +122,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Integral Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Integral Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Euclidean Domain.md"
+                "file": "Algebra/Integral Domain.md"
               }
             }
           }
@@ -275,34 +252,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a324bc6d02d6db84",
+  "active": "9855887446e6eb27",
   "lastOpenFiles": [
+    "Algebra/Greatest Common Divisor.md",
     "Algebra/Integral Domain.md",
+    "Algebra/Associate.md",
+    "Algebra/Prime.md",
+    "Algebra/Groups with prime-squared order.md",
+    "Algebra/Irreducibility.md",
+    "Analysis/Functional Analysis/Unitary Linear Map.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Euclidean Domain.md",
-    "Algebra/Principal Ideal.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Algebra/Field.md",
-    "Algebra/Polynomial Ring.md",
+    "Algebra/Euclidean Domain.md",
     "Courses/Algebra I/Algebra I Roadmap.md",
+    "Algebra/Polynomial Ring.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Topology/Topology Roadmap.md",
     "Analysis/Functional Analysis/Gauge Function.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Differential Geometry/Tensor Bundle.md",
     "Differential Geometry/Arc Length.md",
-    "Analysis/Functional Analysis/Unitary Linear Map.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Topological Group.md",
     "Topology/Connected Topological Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Closure.md",
-    "Analysis/Functional Analysis/Adjoint Linear Map.md",
-    "Topology/Initial Topology.md",
-    "Analysis/Inner Product Space.md",
-    "Topology/Locally Connected Topological Space.md",
-    "Topology/Locally Compact Topological Space.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
