@@ -50,9 +50,14 @@ Let $\varphi(1_{R})\neq 1_{S}$. By the uniqueness of $1$ in $S$, there exists $s
 > [!definition] Problem 6
 > Let $\varphi:R\to Q$ be a surjective ring homomorphism. Prove that there is a one-to-one correspondence between the ideals of $Q$ and the ideals of $R$ that contain $\text{ker}(\varphi)$.
 
-Let $\mathfrak{a}\subseteq Q$ be an ideal. Then, we show that the 
-1. $\varphi ^{-1}(\mathfrak{a})$ is an ideal and for $a\in \text{ker}(\varphi)$, $\varphi(a)=0\in (\mathfrak{a})$. Therefore, it is well-defined.
-2. $\varphi ^{-1}(\mathfrak{a})=\text{ker}(\varphi)$ implies that $\mathfrak{a}=\varphi(\text{ker}(\varphi))=(0)$. Therefore, the mapping is injective. 
-3. Let $\mathfrak{b}\subseteq R$ be an ideal s.t. $\text{ker}(\varphi)\subseteq \mathfrak{b}$. 
+Let $\mathcal{I}(Q)$ denote the set of ideals of $Q$ and $\mathcal{I}(R)$ denote the ideals that contain $\text{ker}(\varphi)$. Then, $$\begin{array}{cccc} {J:}&{\mathcal{I}(Q)}&\to&{\mathcal{I}(R)}\\&{\mathfrak{a}} &\mapsto & {\varphi ^{-1}(\mathfrak{a})} \end{array}{}$$
 
-$$f\in H^{k}(\mathbb{R}^n)\iff \hat{f}(\xi)(1+\left| \xi \right| ^{2})^{k/2}\in L^{2}$$
+We show that:
+1. **$J$ is well-defined**:
+   $\varphi ^{-1}(\mathfrak{a})$ is an ideal and for $a\in \text{ker}(\varphi)$, $\varphi(a)=0\in \mathfrak{a}$. Therefore, it is well-defined.
+2. **$J$ is injective**:
+   $\varphi ^{-1}(\mathfrak{a})=\text{ker}(\varphi)$ implies that $\mathfrak{a}=\varphi(\text{ker}(\varphi))=(0)$. Therefore, the mapping is injective. 
+3. **$J$ is surjective**:
+   Let $\mathfrak{b}\in \mathcal{I}(R)$. Then, $\varphi(\mathfrak{b})\in \mathcal{I}(Q)$. Then, $\varphi ^{-1}(\varphi(\mathfrak{b}))=\mathfrak{b}$ as $\text{ker}(\varphi)\subseteq \mathfrak{b}$. 
+---
+   

@@ -49,3 +49,4 @@
 > 3. **Showing $f\in C^r_{b}(\mathbb{R}^n)$**:
 >    Now, we have by [[Lp Space|Hölder's inequality]]: $$\left\| \xi^\alpha \hat{f} \right\|_{1}\leq \left\| h_{1} \right\| _{2}\left\| h_{2,\alpha} \right\| _{2} $$and $\xi^\alpha \hat{f}\in L^1(\mathbb{R}^n)$. Therefore, by [[Fourier Transform|Lemma 10]], $f\in C^r_{b}(\mathbb{R}^n)$. Further, $$\left\| f \right\|_{b,r}=\sum_{\left| \alpha \right| \leq k}^{} \left\| D^\alpha f \right\| _{b}\leq\sum_{\left| \alpha \right| \leq k}^{} \left\| \xi^\alpha \hat{f} \right\|_{1} \leq\sum_{\left| \alpha \right| \leq k}^{}\left\| h_{1} \right\|_{2}\left\| h_{2,\alpha} \right\| _{2}$$
 ---
+$$f\in H^{k}(\mathbb{R}^n)\iff \hat{f}(\xi)(1+\left| \xi \right| ^{2})^{k/2}\in L^{2}$$
