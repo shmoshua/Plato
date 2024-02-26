@@ -17,7 +17,8 @@ and the distributivity is inherited from $K$ directly.
 > 5. $R_{5}:= \mathbb{R}[X,Y,Z] / (XY)$
 > 6. $R_{6}:=\mathbb{R}[X,Y,Z] / (XY+2X+Y+Z)$
 
-hihi
+We have:
+2. $$
 
 ---
 > [!definition] Problem 3

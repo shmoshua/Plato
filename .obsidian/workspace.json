@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convolution.md",
+                "file": "Algebra/Ring Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -239,12 +239,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4b9e074a088ddd3c",
+  "active": "77d01ba8275de526",
   "lastOpenFiles": [
+    "Algebra/Ring Homomorphism.md",
+    "Courses/Algebra II/Exercise Sheet 0.md",
+    "Analysis/Convolution.md",
     "Analysis/Functional Analysis/Spectral Radius.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
-    "Courses/Algebra II/Exercise Sheet 0.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Locally Compact Hausdorff Space.md",
@@ -253,12 +255,10 @@
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Integral Domain.md",
-    "Analysis/Convolution.md",
     "Analysis/Lp Space.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Algebra/Ring.md",
     "Algebra/Group Homomorphism.md",
-    "Algebra/Ring Homomorphism.md",
     "Algebra/Zero Divisor.md",
     "Algebra/Unit.md",
     "Algebra/Field.md",
