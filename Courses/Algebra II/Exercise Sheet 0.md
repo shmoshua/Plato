@@ -43,6 +43,13 @@ Let $R$ be a finite integral domain and $(0)\neq\mathfrak{a}\subseteq R$ an idea
 > 2. $\varphi(ab)=\varphi(a)\varphi (b)$. 
 > 
 > Show that if $\varphi(1_{R})\neq 1_{S}$ then $\varphi(1_{R})$ is a zero divisor. Hence if $S$ has no zero divisors then $\varphi(1_{R})=1_{S}$.
-> 
 
+Let $\varphi(1_{R})\neq 1_{S}$. By the uniqueness of $1$ in $S$, there exists $s\in S\backslash\{ 0 \}$ s.t. $\varphi(1_{R})\cdot s\neq s$. In other words, $$(\varphi(1_{R})-1_{S})s\neq 0$$Then, $\varphi(1_{R})$ is a zero divisor as: $$\varphi(1_{R})(\varphi(1_{R})-1_{S})s=(\varphi(1_{R})\varphi(1_{R})-\varphi(1_{R}))s=(\varphi(1_{R})-\varphi(1_{R}))s=0s=0$$
+
+---
+> [!definition] Problem 6
+> Let $\varphi:R\to Q$ be a surjective ring homomorphism. Prove that there is a one-to-one correspondence between the ideals of $Q$ and the ideals of $R$ that contain $\text{ker}(\varphi)$.
+
+Let $\mathfrak{a}\subseteq Q$ be an ideal. Then, we show that the 
+1. $\varphi ^{-1}(\mathfrak{a})$ is an ideal and for $a\in \text{ker}(\varphi)$, $\varphi(a)=0\in (\mathfrak{a})$. Therefore, it is well-defined.
 

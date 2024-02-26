@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unit.md",
+                "file": "Analysis/Lp Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convolution.md",
+                "file": "Algebra/Ring.md",
                 "mode": "preview",
                 "source": false
               }
@@ -241,12 +241,17 @@
   },
   "active": "77d01ba8275de526",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Lp Space.md",
+    "Algebra/Ring.md",
+    "Algebra/Group Homomorphism.md",
+    "Courses/Algebra II/Exercise Sheet 0.md",
+    "Algebra/Ring Homomorphism.md",
+    "Analysis/Convolution.md",
+    "Algebra/Zero Divisor.md",
+    "Algebra/Unit.md",
     "Algebra/Field.md",
     "Algebra/Prime Ideal.md",
-    "Courses/Algebra II/Exercise Sheet 0.md",
-    "Algebra/Unit.md",
-    "Analysis/Convolution.md",
-    "Algebra/Ring Homomorphism.md",
     "Topology/Initial Topology.md",
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
@@ -262,11 +267,6 @@
     "Algebra/Euclidean Domain.md",
     "Courses/Algebra I/Algebra I Roadmap.md",
     "Algebra/Polynomial Ring.md",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Analysis/Functional Analysis/Gauge Function.md",
-    "Differential Geometry/Tensor Bundle.md",
-    "Differential Geometry/Arc Length.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
