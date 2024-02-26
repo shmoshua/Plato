@@ -24,7 +24,10 @@ We have:
 3. $R_{3}=\mathbb{R}[X,Y,Z] / (Y^{2},X+Z)\cong(\mathbb{R}[X,Y,Z] / (X+Z))/(Y^{2})\cong \mathbb{R}[Y,Z] /(Y^{2})$
 4. $R_{4}=\mathbb{R}[X,Y] / (X+Y)\cong \mathbb{R}[Y]$ 
 5. $R_{5}=\mathbb{R}[X,Y,Z] / (XY)$
-6. $R_{6}=\mathbb{R}[X,Y,Z] / (XY+2X+Y+2)\cong\mathbb{R}[X,Y]$
+6. We define: 
+	$$\begin{array}{cccc} {\varphi:}&{\mathbb{R}[X,Y,Z]}&\to&{\mathbb{R}[X,Y,Z] / (XY)}\\&{f} &\mapsto & {f(X-1,Y-2,Z)+(XY)} \end{array}{}$$Then, $\varphi$ is surjective and $\text{ker }\varphi=((X+1)(Y+2))=(XY+2X+Y+2)$. Therefore, $R_{6}\cong\mathbb{R}[X,Y,Z] / (XY)$.
+	
+It follows that $R_{1}\cong R_{3}$, $R_{2}\cong R_{4}$ and $R_{5}\cong R_{6}$.
 
 
 ---
@@ -64,7 +67,7 @@ We show that:
 1. **$J$ is well-defined**:
    $\varphi ^{-1}(\mathfrak{a})$ is an ideal and for $a\in \text{ker}(\varphi)$, $\varphi(a)=0\in \mathfrak{a}$. Therefore, it is well-defined.
 2. **$J$ is injective**:
-   $\varphi ^{-1}(\mathfrak{a})=\text{ker}(\varphi)$ implies that $\mathfrak{a}=\varphi(\text{ker}(\varphi))=(0)$. Therefore, the mapping is injective. 
+   $\varphi ^{-1}(\mathfrak{a})=\text{ker}(\varphi)$ if and only if $\mathfrak{a}=\varphi(\text{ker}(\varphi))=(0)$. Therefore, the mapping is injective. 
 3. **$J$ is surjective**:
    Let $\mathfrak{b}\in \mathcal{I}(R)$. Then, $\varphi(\mathfrak{b})\in \mathcal{I}(Q)$. Then, $\varphi ^{-1}(\varphi(\mathfrak{b}))=\mathfrak{b}$ as $\text{ker}(\varphi)\subseteq \mathfrak{b}$. 
 ---

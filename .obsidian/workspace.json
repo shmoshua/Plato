@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Zero Divisor.md",
                 "mode": "preview",
                 "source": false
               }
@@ -242,9 +242,10 @@
   "active": "77d01ba8275de526",
   "lastOpenFiles": [
     "Algebra/Ring Homomorphism.md",
-    "Courses/Algebra II/Exercise Sheet 0.md",
     "Algebra/Integral Domain.md",
+    "Algebra/Zero Divisor.md",
     "Algebra/Polynomial Ring.md",
+    "Courses/Algebra II/Exercise Sheet 0.md",
     "Algebra/Ideal.md",
     "Algebra/Ring.md",
     "Analysis/Lp Space.md",
@@ -261,7 +262,6 @@
     "Algebra/Principal Ideal Domain.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Algebra/Group Homomorphism.md",
-    "Algebra/Zero Divisor.md",
     "Algebra/Unit.md",
     "Algebra/Field.md",
     "Algebra/Prime Ideal.md",
