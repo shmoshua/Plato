@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "preview",
                 "source": false
               }
@@ -243,6 +243,11 @@
   "lastOpenFiles": [
     "Algebra/Ring Homomorphism.md",
     "Courses/Algebra II/Exercise Sheet 0.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Ideal.md",
+    "Algebra/Ring.md",
+    "Analysis/Lp Space.md",
     "Analysis/Convolution.md",
     "Analysis/Functional Analysis/Spectral Radius.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
@@ -254,10 +259,7 @@
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Integral Domain.md",
-    "Analysis/Lp Space.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Algebra/Ring.md",
     "Algebra/Group Homomorphism.md",
     "Algebra/Zero Divisor.md",
     "Algebra/Unit.md",
@@ -265,8 +267,6 @@
     "Algebra/Prime Ideal.md",
     "Topology/Initial Topology.md",
     "Algebra/Associate.md",
-    "Algebra/Greatest Common Divisor.md",
-    "Algebra/Prime.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

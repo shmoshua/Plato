@@ -15,10 +15,17 @@ and the distributivity is inherited from $K$ directly.
 > 3. $R_{3}:=\mathbb{R}[X,Y,Z]/(Y^{2},X+Z)$
 > 4. $R_{4}:=\mathbb{R}[X,Y] / (X+Y)$
 > 5. $R_{5}:= \mathbb{R}[X,Y,Z] / (XY)$
-> 6. $R_{6}:=\mathbb{R}[X,Y,Z] / (XY+2X+Y+Z)$
+> 6. $R_{6}:=\mathbb{R}[X,Y,Z] / (XY+2X+Y+2)$
 
 We have:
-2. $$
+
+1. $R_{1}=\mathbb{R}[X,Y] / (X^{2})$
+2. $R_{2}=\mathbb{R}[X,Y,Z] / (X,Y)\cong (\mathbb{R}[X,Y,Z] / (X)) /((X,Y) / (X))\cong\mathbb{R}[Y,Z] / (Y)\cong \mathbb{R}[X]$
+3. $R_{3}=\mathbb{R}[X,Y,Z] / (Y^{2},X+Z)\cong(\mathbb{R}[X,Y,Z] / (X+Z))/(Y^{2})\cong \mathbb{R}[Y,Z] /(Y^{2})$
+4. $R_{4}=\mathbb{R}[X,Y] / (X+Y)\cong \mathbb{R}[Y]$ 
+5. $R_{5}=\mathbb{R}[X,Y,Z] / (XY)$
+6. $R_{6}=\mathbb{R}[X,Y,Z] / (XY+2X+Y+2)\cong\mathbb{R}[X,Y]$
+
 
 ---
 > [!definition] Problem 3
