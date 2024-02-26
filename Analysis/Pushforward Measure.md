@@ -5,7 +5,7 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1
-> If $Y=X$ and $\psi\in \text{Homeo}(X)$ is a [[homeomorphism|homeomorphism]], then for $$\begin{array}{cccc} {\lambda(\psi):}&{C(X)}&\to&{C(X)}\\&{f} &\mapsto & {f\circ \psi ^{-1}} \end{array}{}$$it holds that: 
+> If $Y=X$ and $\psi\in \text{Homeo}(X)$ is a [[Homeomorphism|Homeomorphism]], then for $$\begin{array}{cccc} {\lambda(\psi):}&{C(X)}&\to&{C(X)}\\&{f} &\mapsto & {f\circ \psi ^{-1}} \end{array}{}$$it holds that: 
 > 1. $\lambda(\psi)$ is a bijective isometry on $(C(X),\|\cdot\|_{b})$.
 > 2. $\lambda(\psi)^{*}$ is a bijective isometry on $C(X)^{*}$.
 > 3. $\lambda(\psi)^{*}$ is weak\*-continuous in $C(X)^{*}$ 

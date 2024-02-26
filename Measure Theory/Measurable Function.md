@@ -17,7 +17,7 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> Let $f,g:\Omega\to \mathbb{R}$ be $\mu$-measurable functions and $h:\mathbb{R} \to \mathbb{R}$ [[Continuous Functions|continuous]]. Then, 
+> Let $f,g:\Omega\to \mathbb{R}$ be $\mu$-measurable functions and $h:\mathbb{R} \to \mathbb{R}$ [[Continuous Function|continuous]]. Then, 
 > 1. $h\circ f$ is $\mu$-measurable.
 > 2. $f+g,f\cdot g,|f|,\min(f,g),\max(f,g)$ are $\mu$-measurable. 
 > 3. If $g(x)\neq 0$ for all $x\in \Omega$, $\frac{f}{g}$ is $\mu$-measurable.

@@ -9,7 +9,7 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1
-> For all $\lambda\neq 0$ and all $v\in V$, $M_{\lambda}$ and $L_{v}$ are [[homeomorphism|homeomorphisms]]. 
+> For all $\lambda\neq 0$ and all $v\in V$, $M_{\lambda}$ and $L_{v}$ are [[Homeomorphism|homeomorphisms]]. 
 
 > [!proof]-
 > We know that $M_{\lambda}$ is continuous with a continuous inverse $M_{\lambda ^{-1}}$, and $L_{v}$ is continuous with a continuous inverse $L_{-v}$.

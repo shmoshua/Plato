@@ -8,7 +8,7 @@
 > The identity element is $e:D\to V$ s.t. $e(d)=0$ for all $d\in D$ and the inverse element $(\ominus  f)(d) = -f(d)$ for all $d\in D$.
 ---
 ##### Examples
-- $C([t_{0},t_{1}],\mathbb{R}^n)$ is the linear space of [[Continuous Functions|continuous functions]] $f:[t_{0},t_{1}]\to \mathbb{R}^n$.
+- $C([t_{0},t_{1}],\mathbb{R}^n)$ is the linear space of [[Continuous Function|continuous functions]] $f:[t_{0},t_{1}]\to \mathbb{R}^n$.
 - $C^1([t_{0},t_{1}],\mathbb{R}^n)$ is the linear space of [[Differentiable Functions|differentiable functions]] $f:[t_{0},t_{1}]\to \mathbb{R}^n$.
 - $C^k([t_{0},t_{1}],\mathbb{R}^n)$ is the linear space of $k$-times [[Differentiable Functions|differentiable functions]] $f:[t_{0},t_{1}]\to \mathbb{R}^n$.
 - $C^\infty([t_{0},t_{1}],\mathbb{R}^n)$ is the linear space of infinitely [[Differentiable Functions|differentiable functions]] $f:[t_{0},t_{1}]\to \mathbb{R}^n$.

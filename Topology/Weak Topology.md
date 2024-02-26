@@ -84,7 +84,7 @@
 > 2. **$\text{Im }I\subseteq \prod_{v\in V}^{}D_{v}$ is a closed subset in the product topology**: We define for all $x,y\in V$ and $\lambda\in \mathbb{K}$, $$C_{x,y}:=\left\{  (z_{v})_{v\in V}\in \prod_{v\in V}^{}D_{v}: z_{x}+z_{y}=z_{x+y}  \right\}$$
 > 	$$C_{\lambda,x}:=\left\{  (z_{v})_{v\in V}\in \prod_{v\in V}^{}D_{v}: \lambda z_{x}=z_{\lambda x}  \right\}$$which are all closed subsets of $\prod_{v\in V}^{}D_{v}$. Therefore, $$\text{Im }I=\left( \bigcap_{x,y\in V}^{}C_{x,y} \right) \cap \left( \bigcap_{\lambda\in \mathbb{K},x\in V}^{}C_{\lambda,x} \right)$$ is closed.
 >
-> As $I$ is a bijection by construction and both $I$ and $I^{-1}$ are continuous (as $I$ is open), $I$ is a [[homeomorphism]] between $B_{\leq 1}^{V^{*}}(0)$ and $\text{Im }I$. As $\text{Im }I$ is compact, we therefore have that $B_{\leq 1}^{V^{*}}(0)$ is compact.
+> As $I$ is a bijection by construction and both $I$ and $I^{-1}$ are continuous (as $I$ is open), $I$ is a [[Homeomorphism]] between $B_{\leq 1}^{V^{*}}(0)$ and $\text{Im }I$. As $\text{Im }I$ is compact, we therefore have that $B_{\leq 1}^{V^{*}}(0)$ is compact.
 
 - **Remark**: In general, it is not true that $B_{\leq 1}^V(0)$ is weak-compact.
 ---

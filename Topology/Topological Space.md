@@ -11,6 +11,13 @@
 - **Related definition:** $F \subset X$ is ***closed***, if $X \backslash F\in \mathcal{T}$.
 - **Related definition**: $U \subset X$ is a ***neighborhood*** of $x\in X$, if there is an open set $V$ s.t. $x\in V \subseteq U$.
 ---
+##### Examples
+> [!h] Example 1 (Euclidean Topology)
+> In the Euclidean topology on $\mathbb{R}^n$, $U\subseteq \mathbb{R}^n$ is open if and only if for all $x\in U$, there exists $\varepsilon>0$ s.t. $B_{<\varepsilon}(x)\subseteq U$ by the Euclidean distance.
+---
+> [!h] Example 2 (Subspace Topology)
+> For a topological space $(X,\mathcal{T})$ and $Y\subseteq X$, a set $A\subseteq Y$ is open w.r.t. the ***subspace topology*** on $Y$ if and only if there exists $U\in \mathcal{T}$ s.t. $A=U\cap Y$.
+
 ##### Related Definitions
 For a topological space $X$,
 

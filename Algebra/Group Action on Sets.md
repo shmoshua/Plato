@@ -5,7 +5,7 @@
 > 1. for all $x\in M$, $e_{G}\circ x = x$.
 > 2. for all $a,b\in G$ and $x\in M$, $(ab)\circ x=a \circ(b \circ x)$
 > 
-> Then, we write $G \curvearrowright M$. $G$ is called the ***transformation group*** and $M$ is called the **$G$-set**. Further, if $M$ is a [[Topological Space|topological space]], for all $g\in G$: $x\mapsto a\circ x$ is a [[homeomorphism]].
+> Then, we write $G \curvearrowright M$. $G$ is called the ***transformation group*** and $M$ is called the **$G$-set**. Further, if $M$ is a [[Topological Space|topological space]], for all $g\in G$: $x\mapsto a\circ x$ is a [[Homeomorphism]].
 ---
 ##### Properties
 > [!lemma] Theorem 1

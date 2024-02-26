@@ -37,26 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8ae6dd02b9d9813f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Spectral Radius.md",
+                "file": "Topology/Topological Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "241f7b1dc219f423",
@@ -75,12 +63,36 @@
             }
           },
           {
+            "id": "cfacd97229847456",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Topological Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "451d87b2eb4683ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Topology/Topological Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b419d1fd80635c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Homeomorphism.md",
                 "mode": "source",
                 "source": false
               }
@@ -216,10 +228,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d2c80b0d10f6a3a9",
+  "active": "9855887446e6eb27",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Spectrum.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Topological Space.md",
+    "Algebra/Group Action on Sets.md",
+    "Topology/Homeomorphism.md",
+    "Topology/Continuous Function.md",
+    "Analysis/Functional Analysis/Spectral Radius.md",
     "Courses/Algebra II/Exercise Sheet 0.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Ring Homomorphism.md",
@@ -230,20 +247,15 @@
     "Algebra/Ring.md",
     "Analysis/Lp Space.md",
     "Analysis/Convolution.md",
-    "Analysis/Functional Analysis/Spectral Radius.md",
     "Analysis/Functional Analysis/Sobolev Space.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Analysis/Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Algebra/Principal Ideal Domain.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Algebra/Group Homomorphism.md",
-    "Algebra/Unit.md",
-    "Algebra/Field.md",
-    "Algebra/Prime Ideal.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
