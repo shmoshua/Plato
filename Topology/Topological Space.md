@@ -17,6 +17,11 @@
 ---
 > [!h] Example 2 (Subspace Topology)
 > For a topological space $(X,\mathcal{T})$ and $Y\subseteq X$, a set $A\subseteq Y$ is open w.r.t. the ***subspace topology*** on $Y$ if and only if there exists $U\in \mathcal{T}$ s.t. $A=U\cap Y$.
+---
+> [!h] Example 3 (Discrete Topology)
+> The ***discrete topology*** for a set $X$ is $\mathcal{T}:=\mathcal{P}(X)$, i.e. every subset is open.
+- **Remark**: On $\mathbb{Z}$, the discrete topology and subspace topology coincide.
+---
 
 ##### Related Definitions
 For a topological space $X$,
