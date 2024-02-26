@@ -1,9 +1,10 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
 > Let $A$ be a [[Banach algebra]]. Then, for $x\in A$, the ***spectral radius*** of $x$ is defined as: $$r_{A}(x):=\inf_{n\geq 1}\left\| x^n \right\|^{1/n} $$
+> For $x\in A$, the ***spectral radius*** is defined as:$$\|x\|_{\text{sp}}:=\max\{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}$$
 ---
 ##### Properties
-> [!lemma] Proposition 1 (Spectral Radius Formula)
+> [!lemma] Proposition 1 
 > For $x\in A$, we have that:
 > 1. $r_{A}(x)$ is well-defined
 > 2. $\lim_{ n \to \infty }\left\| x^n \right\|^{1/n}=r_{A}(x)$
@@ -36,4 +37,5 @@
 > We have
 > 1. $(y^{-1}-x ^{-1})=y^{-1}(x-y) x ^{-1}$ and: $$\left\| y^{-1} \right\| -\left\| x ^{-1} \right\|\leq \left\| y^{-1}-x ^{-1} \right\| \leq \left\| y^{-1} \right\|\left\| x-y \right\| \left\| x ^{-1} \right\| \leq \frac{1}{2}\left\| y^{-1} \right\|  $$Therefore, $\left\| y^{-1} \right\|\leq 2\left\| x ^{-1} \right\|$ and $\left\| y^{-1}-x ^{-1} \right\|\leq 2\left\| x ^{-1} \right\|^2\left\| x-y \right\|$
 > 2. We have: $e-x ^{-1}y=x ^{-1}(x-y)$. Therefore, $$\left\| e-x^{-1}y \right\| \leq \left\| x^{-1} \right\| \left\| x-y \right\| <1$$Therefore, from Lemma 2, $e-(e-x^{-1}y)=x^{-1}y\in G(A)$. Therefore, $y\in G(A)$. 
+- **Remark**: $G(A)$ is an open subset of $A$ and multiplication and inversion are continuous on $G(A)$.
 ---

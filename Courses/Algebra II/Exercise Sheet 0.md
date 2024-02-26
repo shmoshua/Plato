@@ -52,4 +52,7 @@ Let $\varphi(1_{R})\neq 1_{S}$. By the uniqueness of $1$ in $S$, there exists $s
 
 Let $\mathfrak{a}\subseteq Q$ be an ideal. Then, we show that the 
 1. $\varphi ^{-1}(\mathfrak{a})$ is an ideal and for $a\in \text{ker}(\varphi)$, $\varphi(a)=0\in (\mathfrak{a})$. Therefore, it is well-defined.
+2. $\varphi ^{-1}(\mathfrak{a})=\text{ker}(\varphi)$ implies that $\mathfrak{a}=\varphi(\text{ker}(\varphi))=(0)$. Therefore, the mapping is injective. 
+3. Let $\mathfrak{b}\subseteq R$ be an ideal s.t. $\text{ker}(\varphi)\subseteq \mathfrak{b}$. 
 
+$$f\in H^{k}(\mathbb{R}^n)\iff \hat{f}(\xi)(1+\left| \xi \right| ^{2})^{k/2}\in L^{2}$$
