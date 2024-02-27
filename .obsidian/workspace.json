@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "91ef2b8dc2f73216",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Riemannian Metric.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "5d8acba6b70a0f8c",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -133,9 +145,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9b72b8b24d98cf3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differential.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -201,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Pullback.md",
+                "file": "Differential Geometry/Differential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Pullback.md",
+                "file": "Differential Geometry/Differential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Pullback.md"
+                "file": "Differential Geometry/Differential.md"
               }
             }
           }
@@ -263,16 +287,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b5f6b5a7ff3f6458",
+  "active": "9b72b8b24d98cf3a",
   "lastOpenFiles": [
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Riemannian Metric.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Tangent Space.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Smooth Function.md",
     "Algebra/Euclidean Domain.md",
     "Analysis/Euclidean Norm.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Riemannian Manifold.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Field.md",

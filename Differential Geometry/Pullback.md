@@ -8,17 +8,12 @@
 > If $F$ is an [[Differential|immersion]], then $F^{*}g$ is a [[Riemannian metric]] on $N$. 
 
 > [!proof]+
-> We will show that the metric coefficients $(F^{*}g)_{ij}$ meet the properties. Consider a local coordinate chart $(U,x=(x^1,\dots,x^n))$. Then:
-> 1. **$(F^{*}g)_{ij}$ is symmetric**:
-> 	$$\begin{align}(F^{*}g)_{ij}(p)&=(F^{*}g)_{p}\left(\left. \frac{ \partial  }{ \partial x ^i}    \right| _{p},\left. \frac{ \partial  }{ \partial x ^j}    \right| _{p}\right)\\&=g_{F(p)}\left(d_{p}F\left( \left. \frac{ \partial  }{ \partial x ^i}    \right| _{p} \right),d_{p}F\left( \left. \frac{ \partial  }{ \partial x ^j}    \right| _{p} \right) \right)\end{align}$$Therefore, the symmetry is inherited from $g_{F(p)}$.
-> 2. **$(F^{*}g)_{ij}$ is positive definite**:
-> 	For $v\in \mathbb{R}^n$, $$\begin{align}\sum_{i,j=1}^{n}v^i (F^{*}g)_{ij}(p)v^j&=\end{align}$$
+> Firstly, as $d_{p}F$ is linear and $g_{F(p)}$ is bilinear, $(F^{*}g)$ is bilinear. Further, from the symmetry of $g_{F(p)}$, $F^{*}g$ is symmetric.
 > 
-> 1. **$(F^{*}g)_{p}$ is bilinear**: we have: $$\begin{align}(F^{*}g)_{p}(av+b,w)&=g_{F(p)}(d_{p}F(av+b),d_{p}F(w))\\&=g_{F(p)}(d_{p}F(av+b),d_{p}F(w))\end{align}$$
-> 	
-> 2. **$(F^{*}g)_{p}$ is bilinear**:
->    For $[\varphi_{1},v]_{p},[\varphi_{2},w]_{p}\in T_{p}N$, $$(F^{*}g)_{p}([\varphi_{1},v]_{p},[\varphi_{2},w]_{p})=g_{F(p)}([\psi_{1},d_{\varphi(p)}(\psi F\varphi ^{-1})(v)]_{F(p)},[\psi_{2},d_{\varphi(p)}(\psi F\varphi ^{-1})(w)]_{F(p)})$$
-> 2. 
+> For the positive definiteness, if $F$ is an immersion, $d_{p}F$ is injective and for every non-zero $v\in T_{p}N$, $d_{p}F(v)\neq 0$ and $$(F^{*}g)_{p}(v,v)=g_{F(p)}(d_{p}F(v),d_{p}F(v))>0$$
+> 
+> Lastly, for two smooth vector fields $V,W\in \Gamma(TN)$:$$(F^{*}g)_{p}(V(p),W(p))=g_{F(p)}(d_{p}F(V(p)),d_{p}F(W(p)))$$
+
  
 ---
 
