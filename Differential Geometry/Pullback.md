@@ -1,6 +1,7 @@
 #Definition #MeasureTheory 
 > [!definition]
-> Let $M,N$ be [[Smooth Manifold|smooth manifolds]], $F:N\to M$ a smooth map and $g$ a [[Riemannian metric]] on $M$. Then, the ***pullback*** of $g$ along $F$ is : $$(F^{*}g)_{p}(V,W):=g_{F(p)}(d_{p}F(V),d_{p}F(W))$$for $p\in N$, $V,W\in T_{p}N$.
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]], $F:N\to M$ a [[Smooth Function|smooth map]] and $g$ a [[Riemannian metric]] on $M$. Then, the ***pullback of $g$ along $F$***  is: 
+> $$(F^{*}g)_{p}(v,w):=g_{F(p)}(d_{p}F(v),d_{p}F(w))$$for $p\in N$, $v,w\in$ [[Tangent Space|$T_{p}N$]].
 ---
 ##### Properties
 > [!lemma] Proposition 1
