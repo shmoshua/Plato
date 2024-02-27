@@ -5,7 +5,7 @@ We have that
 1. $x=\rho \cos\sigma$
 2. $y=\rho \sin \sigma$
 
-Therefore, we can define a [[Diffeomorphsim|$C^1$-diffeomorphism]] $\Phi:(0,+\infty)\times(-\pi,\pi)\to \mathbb{R}^2 \backslash\{ (x,y): x\leq 0,y=0 \}$ as follows: $$\Phi(\rho,\sigma)=(\rho \cos\sigma,\rho \sin\sigma)$$where: $$\left| \det(D\Phi) \right| =\left| \det \left( \begin{bmatrix}\cos\sigma&-\rho \sin\sigma\\ \sin\sigma&\rho \cos\sigma\end{bmatrix} \right)  \right|=\rho $$
+Therefore, we can define a [[Diffeomorphism|$C^1$-diffeomorphism]] $\Phi:(0,+\infty)\times(-\pi,\pi)\to \mathbb{R}^2 \backslash\{ (x,y): x\leq 0,y=0 \}$ as follows: $$\Phi(\rho,\sigma)=(\rho \cos\sigma,\rho \sin\sigma)$$where: $$\left| \det(D\Phi) \right| =\left| \det \left( \begin{bmatrix}\cos\sigma&-\rho \sin\sigma\\ \sin\sigma&\rho \cos\sigma\end{bmatrix} \right)  \right|=\rho $$
 Therefore, by [[Lebesgue Measure|Change of variable formula]]: for any $\mathcal{L}^2$-summable function $f:A\subseteq \mathbb{R}^2\to \mathbb{R}^2$, $$\int_{A}^{} f \, d\mathcal{L}^2=\int_{\varphi ^{-1}[A]}^{} f(\rho \cos\sigma,\rho \sin\sigma)\rho \, d\mathcal{L}^2(\rho,\sigma)  $$
 
 ---

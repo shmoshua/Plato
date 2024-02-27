@@ -20,60 +20,12 @@
             }
           },
           {
-            "id": "ff0318136f1523cf",
+            "id": "00f2b7a9c2a1c31e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Differential Geometry/Smooth Manifold.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "33ebac77fb6a0a89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "34689fc2952fe444",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Tangent Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "bb72704d3a641722",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "34e7ac02e3d43ab1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Diffeomorphsim.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,30 +45,6 @@
               "type": "markdown",
               "state": {
                 "file": "Differential Geometry/Smooth Manifold.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3f8a17b880904ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Smooth Atlas.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5085f629c6bfd69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -250,13 +178,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c73ca240fb671166",
+  "active": "00f2b7a9c2a1c31e",
   "lastOpenFiles": [
-    "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Smooth Atlas.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Measure Theory/Diffeomorphsim.md",
+    "Measure Theory/Diffeomorphism.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Smooth Atlas.md",
+    "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Tangent Space.md",
     "Courses/Functional Analysis I/Exercise Sheet 7.md",
     "Analysis/Lp Space.md",

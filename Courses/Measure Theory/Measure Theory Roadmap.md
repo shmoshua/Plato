@@ -93,7 +93,7 @@
 3. [[Product Measure|Tonelli's Theorem]]
 
 **4.2 Transformation Formula for Lebesgue Integrals**
-1. [[Diffeomorphsim]]
+1. [[Diffeomorphism]]
 2. [[Lebesgue Measure|Transformation Formula]]
 3. **Application of the Transformaltion Formula: **[[Polar Coordinates in R2]]
 

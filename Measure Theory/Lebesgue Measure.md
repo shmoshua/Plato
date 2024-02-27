@@ -86,7 +86,7 @@
 > Therefore, by the [[Integrable Function|Monotone Convergence Theorem]], $f$ is $\mathcal{L}^1$-summable if and only if $$\infty>\lim_{ b \to \infty }\int_{[a,+\infty)}g_{b}  \, d\mathcal{L}^1=\lim_{ b \to \infty } \int_{a}^{b}\left| f(x) \right|   \, dx   $$
 ---
 > [!lemma] Theorem 10 (Change of Variable)
-> Let $\Omega,O\subseteq \mathbb{R}^n$ be two open sets, $\Phi:\Omega\to O$ be a [[Diffeomorphsim|$C^1$-diffeomorphism]]. Then, for $f:O\to \overline{\mathbb{R}}$:
+> Let $\Omega,O\subseteq \mathbb{R}^n$ be two open sets, $\Phi:\Omega\to O$ be a [[Diffeomorphism|$C^1$-diffeomorphism]]. Then, for $f:O\to \overline{\mathbb{R}}$:
 > 1. $f$ is $\mathcal{L}^n$-measurable in $O$ $\Longleftrightarrow$ $x\mapsto (f\circ\Phi)(x)\left| \det(D\Phi(x)) \right|$ is $\mathcal{L}^n$-measurable in $\Omega$.
 > 2. $f$ is $\mathcal{L}^n$-integrable in $O$ $\Longleftrightarrow$ $x\mapsto (f\circ\Phi)(x)\left| \det(D\Phi(x)) \right|$ is $\mathcal{L}^n$-integrable in $\Omega$. Then, $$\int_{O}f  \, d\mathcal{L}^n=\int_{\Omega}^{} f(\Phi(x))\left| \det(D\Phi(x)) \right|  \, d\mathcal{L}^n(x)  $$
 ---
