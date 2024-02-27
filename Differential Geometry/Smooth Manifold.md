@@ -2,7 +2,7 @@
 
 > [!definition]
 > A ***smooth manifold*** is a [[topological manifold]] $M$ equipped with a ***smooth structure*** $\mathcal{X}$, i.e. a maximal [[smooth atlas]] 
-- **Related definition**: A map $\varphi:M\to N$ between smooth manifolds is $C^k$ or ***$k$-times continuously differentiable***, if for any chart $(U,x)$ in $M$ and $(V,y)$ in $N$, $$y\circ \varphi o$$
+- **Related definition**: 
 ---
 ##### Properties
 > [!lemma] Lemma 1

@@ -5,3 +5,6 @@
 > 1. $f\in C^r(M,N)$
 > 2. $f ^{-1}\in C^r(N,M)$
 ---
+##### Examples
+> [!h] Example 1
+> If $(M,\mathcal{X})$ is a smooth manifold, $x:U\to x(U)$ is a [[diffeomorphism]]. 
