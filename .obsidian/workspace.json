@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,9 +30,20 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "e0d8897623dffec1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Riemannian Manifold.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -44,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
+                "file": "Algebra/Unit.md",
                 "mode": "preview",
                 "source": false
               }
@@ -205,12 +216,14 @@
   },
   "active": "9d48f0406fd967c8",
   "lastOpenFiles": [
+    "Algebra/Unit.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Differential Geometry/Cotangent Space.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Riemannian Manifold.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Differential.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Smooth Vector Field.md",
     "Differential Geometry/Smooth Manifold.md",
     "Topology/Lindelöf Space.md",
@@ -229,8 +242,6 @@
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Topology/Continuous Functions in Topological Spaces.md",
-    "Project/Trajectory Generators.md",
-    "Differential Geometry/Arc Length.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

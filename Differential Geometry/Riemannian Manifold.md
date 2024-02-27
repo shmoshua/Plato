@@ -24,3 +24,7 @@ $\xi^i=g^{ij}\xi_{j}$ "index raising"
 
 Inner product on $T^{*}M$: $$g^{-1}(\xi,\eta)=g(\xi^\sharp,\eta^\sharp)$$
 $g^{-1}(dx^i,dx^j)=g^{ij}$
+---
+##### Examples
+> [!h] Example 1
+> 

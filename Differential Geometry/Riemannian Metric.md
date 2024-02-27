@@ -13,6 +13,9 @@
 ##### Properties
 > [!lemma] Proposition 1
 > Let $M$ be a smooth manifold. Then, there exists a Riemannian metric $g$ on $M$.
+
+> [!proof]-
+> Let $\{ (U_{\alpha},x_{\alpha}) \}_{\alpha\in A}$ be the atlas. For each $\alpha\in A$, consider the Riemannian metric $g_{\alpha}$ on $U_{\alpha}$ where $$(g_{\alpha})_{ij}=\delta_{ij}$$Let $\{ \rho_{\alpha} \}$ be a smooth partition of unity of $M$ subordinate to the covering $\{ U_{\alpha} \}$, and define: $$g=\sum_{\alpha\in A}^{}\rho_{\alpha}g_{\alpha}$$Since the family of supports of the $\rho_{\alpha}$ is locally finite, the above sum is locally finite, and hence $g$ is well defined and smooth, and it is bilinear and symmetric at each point. Since $\rho_{\alpha}\geq 0$ for all $\alpha$ and $\sum_{\alpha}^{}\rho_{\alpha}=1$, it also follows that $g$ is positive definite, and thus is a Riemannian metric in $M$.
 ---
 > [!lemma] Lemma 2
 > A Riemannian metric $g$ on $M$ defines an element of $\Gamma(T_{(0,2)}M)=\Gamma(T^{*}M\otimes T^{*}M)$. 
@@ -22,8 +25,11 @@
 ---
 ##### Examples
 > [!h] Example 1
-> Let $M=\mathbb{R}^m$ and $(x^1,\dots,x^m)$ be standard coordinates. Then, $$g:=\sum_{i=1}^{m}dx^i\otimes dx^i$$is the Euclidean metric. 
+> Let $M=\mathbb{R}^m$ and $(x^1,\dots,x^m)$ be standard coordinates. Then, $$g:=\sum_{i=1}^{m}dx^i\otimes dx^i=\sum_{i=1}^{m}(dx^i)^{2}$$is the Euclidean metric. 
 ---
 > [!h] Example 2
-> Let $M=(0,\infty)\times(0,2\pi)$ with coordinates $r,\varphi$. Then, $$g=dr^{2}+r^{2}d\varphi$$is the Euclidean metric in polar coordinates.
+> Let $M=(0,\infty)\times(0,2\pi)$ with coordinates $r,\theta$. Then, $$g=dr^{2}+r^{2}d\theta^{2}$$is the Euclidean metric in polar coordinates.
+
+> [!proof]-
+> As $x=r\cos \theta$ and $y=r\sin\theta$, $$\begin{align}g&=(dx)^{2}+(dy)^{2}\\&=(\cos ^{2} \theta (dr)^{2}+r^{2}\sin ^{2} \theta (d\theta)^{2}-2r\cos\theta \sin\theta dr d\theta)+(\sin ^{2}\theta(dr)^{2}+r^{2}\cos ^{2}\theta(d\theta)^{2}+2r\sin\theta \cos\theta dr d\theta)\\&=dr^{2}+r^{2}d\theta^{2}\end{align}$$
 ---
