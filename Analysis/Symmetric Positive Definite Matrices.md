@@ -6,4 +6,4 @@
 ---
 ##### Properties
 > [!lemma] Theorem SPD.1
-> For a finite-dimensional vector space $V$, $\braket{ \cdot , \cdot }:V\times V \to \mathbb{R}$ is an [[inner product]] if and only if there exists a symmetric, positive definite matrix $A\in \mathbb{R}^{n,n}$ s.t. $$\braket{ x , y } =x^\top A y$$for all $x,y\in \mathbb{R}^n$.
+> For a finite-dimensional vector space $V$, $\braket{ \cdot , \cdot }:V\times V \to \mathbb{R}$ is an [[Inner Product Space|inner product]] if and only if there exists a symmetric, positive definite matrix $A\in \mathbb{R}^{n,n}$ s.t. $$\braket{ x , y } =x^\top A y$$for all $x,y\in \mathbb{R}^n$.

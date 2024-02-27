@@ -2,7 +2,7 @@
 
 > [!definition]
 > A _**normed space**_ is $(V,\|\cdot \|)$ where $V$ is a $\mathbb{K}$-vector space $V$ and $\|\cdot \|$ is a [[norm]].
-- **Remark**: In a normed space $(V,\|\cdot\|)$, $d(v_1,v_2):=\|v_1-v_2\|$ defines the [[natural distance]].
+- **Remark**: In a normed space $(V,\|\cdot\|)$, $d(v_1,v_2):=\|v_1-v_2\|$ defines the natural [[Metric Space|distance]].
 - **Remark**:  A normed space is a [[topological space]] where the set of all open balls: $$\{ B(x,r): x\in V, r\in (0,+\infty) \}$$forms a basis of the topology.  
 - **Related Definition**: A normed space $(V,\| \cdot \|)$ is ***separable***, if the underlying metric space $(V,d)$ is.
 ---

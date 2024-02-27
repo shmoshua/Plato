@@ -170,7 +170,7 @@
 >    However, observe that for all $x\in S$, $\rho\mapsto f_{\rho}(x)$ is continuous and therefore, $\left| f_{\rho}(x) \right| \leq A$ for all $x\in S$ and $\rho\in B$. For a fixed $x\in S$, $$\left( \sum_{j=1}^{n}\left| f_{j}(x) \right| ^{2} \right)^{1/2}=\sup_{\left\| \rho \right\| _{2}\leq 1}\left| f_{\rho}(x) \right| \leq A$$Then, $$n=\sum_{j=1}^{n}\int_{S}^{} \left| f_{k} \right|^{2}  \, d\mu=\int_{S}^{} \sum_{j=1}^{n}\left| f_{k} \right|^{2}  \, d\mu \leq A^{2} \mu(X)$$Therefore, $\text{dim }E<+\infty$.
 ---
 ##### Dual of $L^p(X)$
-Let $1\leq p <+\infty$ and $q$ the conjugate exponent, i.e. $$\frac{1}{p}+\frac{1}{q }=1$$Then, [[Hölder's inequality]] ensures that every $g\in L^q(X)$ gives rise to a continuous linear form $\ell_{g}:L^p(X)\to \mathbb{C}$ by: $$\ell_{g}(f):=\int _{X}f(x)g(x) \, d\mu(x) $$with $\left\| \ell \right\|\leq \left\| g \right\|_{q}$.
+Let $1\leq p <+\infty$ and $q$ the conjugate exponent, i.e. $$\frac{1}{p}+\frac{1}{q }=1$$Then, Hölder's inequality ensures that every $g\in L^q(X)$ gives rise to a continuous linear form $\ell_{g}:L^p(X)\to \mathbb{C}$ by: $$\ell_{g}(f):=\int _{X}f(x)g(x) \, d\mu(x) $$with $\left\| \ell \right\|\leq \left\| g \right\|_{q}$.
 
 > [!lemma] Theorem 3
 > 
