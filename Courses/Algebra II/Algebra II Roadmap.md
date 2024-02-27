@@ -17,4 +17,4 @@
 3. [[Integral Domain|Irreducibility, Prime, Associates, gcd]]
 ---
 ### Exercises
-1. [[Exercise Sheet 0]]
+1. [[Courses/Algebra II/Exercise Sheet 0]]

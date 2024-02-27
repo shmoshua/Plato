@@ -13,62 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "91ef2b8dc2f73216",
+            "id": "2b4009cb46841779",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5d8acba6b70a0f8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Pullback.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "42bd848265e6d3f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Differential.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e0d8897623dffec1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Riemannian Manifold.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 0.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -152,14 +116,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e89e9b47ca0735e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Analysis IV/Exercise Sheet 0.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -225,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential.md"
+                "file": "Courses/Analysis IV/Exercise Sheet 0.md"
               }
             }
           }
@@ -287,13 +263,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9b72b8b24d98cf3a",
+  "active": "6e89e9b47ca0735e",
   "lastOpenFiles": [
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Courses/Analysis IV/Exercise Sheet 0.md",
+    "Differential Geometry/Differential.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Space.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Smooth Function.md",
     "Algebra/Euclidean Domain.md",
     "Analysis/Euclidean Norm.md",
@@ -313,8 +291,6 @@
     "Analysis/Lp Space.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Analysis/Normed Space.md",
-    "natural distance.md",
-    "Algebra/Hölder's inequality.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
