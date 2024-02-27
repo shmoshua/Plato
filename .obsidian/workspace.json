@@ -68,8 +68,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
-                "mode": "source",
+                "file": "Differential Geometry/Riemannian Manifold.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -203,13 +203,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "42bd848265e6d3f0",
+  "active": "9d48f0406fd967c8",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Riemannian Metric.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Riemannian Metric.md",
+    "Differential Geometry/Riemannian Manifold.md",
     "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Differential.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Smooth Vector Field.md",
     "Differential Geometry/Smooth Manifold.md",
     "Topology/Lindelöf Space.md",
@@ -230,7 +231,6 @@
     "Topology/Continuous Functions in Topological Spaces.md",
     "Project/Trajectory Generators.md",
     "Differential Geometry/Arc Length.md",
-    "Topology/Metrizable Space.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
