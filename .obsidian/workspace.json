@@ -133,6 +133,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e0f3f84206169bd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Lp Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 7
@@ -265,10 +277,12 @@
   },
   "active": "6e89e9b47ca0735e",
   "lastOpenFiles": [
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Courses/Analysis IV/Exercise Sheet 0.md",
-    "Differential Geometry/Differential.md",
+    "Analysis/Lp Space.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Courses/Analysis IV/Exercise Sheet 0.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Tangent Space.md",
@@ -276,7 +290,6 @@
     "Algebra/Euclidean Domain.md",
     "Analysis/Euclidean Norm.md",
     "Differential Geometry/Riemannian Manifold.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Field.md",
     "Algebra/Ring.md",
     "Algebra/Unit.md",
@@ -288,7 +301,6 @@
     "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Topological Manifold.md",
     "Courses/Functional Analysis I/Exercise Sheet 7.md",
-    "Analysis/Lp Space.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Analysis/Normed Space.md",
     "Courses/Analysis IV",
