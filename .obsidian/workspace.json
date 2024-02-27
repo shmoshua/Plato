@@ -20,60 +20,12 @@
             }
           },
           {
-            "id": "5e80c325304f74d5",
+            "id": "42bd848265e6d3f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Vector Field.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "65c3e3845bdcf477",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Tangent Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cf958148ede3bdb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Smooth Manifold.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "00f2b7a9c2a1c31e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Lindelöf Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a574b198c3461f38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Diffeomorphism.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "mode": "source",
                 "source": true
               }
@@ -87,25 +39,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ea2acfd07f8b0741",
+            "id": "99da6e9dae9b60b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Vector Field.md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "99da6e9dae9b60b5",
+            "id": "9d48f0406fd967c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Riemannian Metric.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4f5affdc90a1b81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Differential Geometry/Tangent Space.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -177,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md"
+                "file": "Differential Geometry/Riemannian Metric.md"
               }
             }
           }
@@ -239,15 +203,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "99da6e9dae9b60b5",
+  "active": "42bd848265e6d3f0",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Vector Field.md",
-    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Riemannian Metric.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Smooth Vector Field.md",
+    "Differential Geometry/Smooth Manifold.md",
     "Topology/Lindelöf Space.md",
     "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Topological Manifold.md",
@@ -265,8 +231,6 @@
     "Project/Trajectory Generators.md",
     "Differential Geometry/Arc Length.md",
     "Topology/Metrizable Space.md",
-    "Topology/Metric Space.md",
-    "Topology/Homeomorphism.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
