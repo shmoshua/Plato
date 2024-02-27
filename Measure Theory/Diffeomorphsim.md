@@ -1,7 +1,7 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> Let $M,N$ be two [[Topological Manifold|manifolds]]. Then, a function $\Omega:M\to N$ is called a ***$C^r$-diffeomorphism*** if: 
-> 1. $\Phi\in C^r(M,N)$
-> 2. $\Phi ^{-1}\in C^r(N,M)$
+> Let $M,N$ be two differentiable [[Topological Manifold|manifolds]]. Then, a bijective function $f:M\to N$ is called a ***$C^r$-diffeomorphism*** if: 
+> 1. $f\in C^r(M,N)$
+> 2. $f ^{-1}\in C^r(N,M)$
 ---

@@ -3,12 +3,13 @@
 ##### 1. Riemannian Manifolds
 
 **1.1 Introduction of Basic Notions**
-1. [[Topological Manifold]]
-2. [[Smooth Manifold]]
-3. [[Tangent Space]]
-4. [[Differential]]
-5. [[Smooth Vector Field]]
-6. [[Cotangent Space]]
+1. [[Topological Manifold]] and [[Topological Manifold|charts]].
+2. [[Smooth Atlas]]
+3. [[Smooth Manifold]]
+4. [[Tangent Space]]
+5. [[Differential]]
+6. [[Smooth Vector Field]]
+7. [[Cotangent Space]]
 
 **1.2 Riemannian Metrics**
 1. [[Riemannian Metric]]
