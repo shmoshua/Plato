@@ -7,9 +7,9 @@
 > 3. Give an example of a function that is $L^{99}(0,1)$ but not $L^{100}(0,1)$. Could you find one also in $L^{100}(0,1)\backslash L^{99}(0,1)$?
 
 We have:
-1. Consider $f(x)= \frac{1}{\sqrt{ x }}\chi_{(0,1]}(x)$. Then, $$\left\| f \right\| _{1}=\int_{0}^{1}  \frac{1}{\sqrt{ x }} \, dx =2,\quad \left\| f \right\| _{2}=\int_{0}^{1} \frac{1}{x} \, dx=\infty$$
+1. Consider $f(x)= \frac{1}{\sqrt{ x }}\chi_{(0,1]}(x)$. Then, $$\left\| f \right\| _{1}=\int_{0}^{1}  \frac{1}{\sqrt{ x }} \, dx =2,\quad \left\| f \right\| _{2}^{2}=\int_{0}^{1} \frac{1}{x} \, dx=\infty$$
 2. Yes. Assume that $\sum_{n=0}^{\infty}\left| f(n) \right|<+\infty$. Then, $\lim_{ n \to \infty }f(n)=0$ and there exists $N\geq 0$ s.t. $\left| f(n) \right|<1$ for all $N\geq n$. Therefore, $\left| f(n) \right|^{2}\leq \left| f(n) \right|$ and $$\sum_{n=0}^{\infty}\left| f(n) \right| ^{2}\leq\sum_{n=0}^{N}\left| f(n) \right| ^{2}+\sum_{n=0}^{\infty}\left| f(n) \right| <+\infty$$
-3. Let $f(x)=x^{- 1/100}$. Then, $$\left\| f \right\|_{99}=\int_{0}^{1}  \frac{1}{x^{99/100}}  \, dx =100, \quad \left\| f \right\| _{100}=\int_{0}^{1} \frac{1}{x} \, dx =\infty$$$L^{100}(0,1) \backslash L^{99}(0,1)=\varnothing$ as $\mathcal{L}^1(0,1)=1<+\infty$ and $L^{100}(0,1)\subseteq L^{99}(0,1)$.
+3. Let $f(x)=x^{- 1/100}$. Then, $$\left\| f \right\|_{99}^{99}=\int_{0}^{1}  \frac{1}{x^{99/100}}  \, dx =100, \quad \left\| f \right\| _{100}^{100}=\int_{0}^{1} \frac{1}{x} \, dx =\infty$$$L^{100}(0,1) \backslash L^{99}(0,1)=\varnothing$ as $\mathcal{L}^1(0,1)=1<+\infty$ and $L^{100}(0,1)\subseteq L^{99}(0,1)$.
 ---
 > [!definition] Problem 2: Exchanging limits and integrals.
 > Consider
@@ -25,9 +25,11 @@ We have:
 > [!definition] Problem 3: Completeness and Cauchy sequences
 > Consider:
 > 1. Is it true that a Cauchy sequence (say, in a metric space) can have at most one limit?
-> 2. Is it true that the interval $(0,1)\subseteq \mathbb{R}$is complete?
+> 2. Is it true that the interval $(0,1)\subseteq \mathbb{R}$ is complete?
 > 3. Consider the sequence of functions $f_{n}:(0,+\infty)\to \mathbb{R}$ defined by $$f_{n}(x)=\frac{\tanh(x)}{x}\chi_{(0,n)}(x)$$Determine the pointwise limit $f$ and discuss the convergence $f_{n}\to f$ in $L_2$. Is the limit also in $L_{1}$? What can we deduce about the completeness of $L_{1}$ with respect to $\|\cdot\|_{2}$?
 > 4. Can you build a sequence of functions $\{ f_{k} \}_{k}\subseteq L^2(\mathbb{R})$ s.t. $$\int_{\mathbb{R}}^{} \left| f_{k}(x)-1 \right| ^{2} \, dx \xrightarrow{k\to \infty}0$$
 
 We have:
-1. Let $(x_{n})\subseteq X$ be a Cauchy sequence and $\{ x_{k_{n}} \}$ and $\{ x_{p_{n}} \}$ be two subsequences s.t. $x_{k_{n}}\xrightarrow{n\to \infty}x$ and $x_{p_{n}}\xrightarrow{n\to \infty}y$. Let $\varepsilon>0$. Then, there exists $N_{1},N_{2},N_{3}\geq 0$ s.t.$$\left| x-y \right| \leq \left| x-x_{} \right| +\left| x_{n_{i}}-x_{n_{j}} \right| +\left| x_{n_{j}}-y \right|\leq \frac{\varepsilon}{3}+\frac{\varepsilon}{3}+\frac{\varepsilon}{3}=\varepsilon $$for all $$
+1. Let $(x_{n})\subseteq X$ be a Cauchy sequence and $\{ x_{k_{n}} \}$ and $\{ x_{p_{n}} \}$ be two subsequences s.t. $x_{k_{n}}\xrightarrow{n\to \infty}x$ and $x_{p_{n}}\xrightarrow{n\to \infty}y$. Let $\varepsilon>0$. Then, there exists $N_{1},N_{2},N_{3}\geq 0$ s.t.$$\left| x-y \right| \leq \left| x-x_{k_{n}} \right| +\left| x_{k_{n}}-x_{p_{n}} \right| +\left| x_{p_{n}}-y \right|\leq \frac{\varepsilon}{3}+\frac{\varepsilon}{3}+\frac{\varepsilon}{3}=\varepsilon $$for all $n\geq \text{max}\{ N_{1},N_{2},N_{3} \}$. Therefore, $x=y$.
+2. $\left( \frac{1}{n} \right)_{n}$ is a Cauchy sequence, but $\lim_{ n \to \infty } \frac{1}{n}=0$ is not in $(0,1)$.
+3. $f_{n}$ converges to $f(x)= \tanh(x) /x$ pointwise. Further, as $f$ is a decreasing function, for every $\varepsilon>0$, there exists $x_{0}$ s.t. $f(x)\leq \varepsilon$ for all $x\geq x_{0}$. Therefore, $f_{n}\xrightarrow{\mu} f$. Further, $$\lim_{ n \to \infty } \left\| f_{n} \right\| _{2}^2=\lim_{ n \to \infty } \int_{0}^{n}\frac{\tanh(x)^{2}}{x^{2}}  \, dx =\int_{0}^{\infty} \frac{\tanh(x)^{2}}{x^{2}}   \, dx=\left\| f \right\| _{2}^2 $$This shows that $f_{n}\xrightarrow{L^2}f$.

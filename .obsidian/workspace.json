@@ -152,7 +152,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Integrable Function.md",
+                "file": "Analysis/Lp Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a7787e7b9702034",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Convergence in Measure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -287,13 +299,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2b4009cb46841779",
+  "active": "6e89e9b47ca0735e",
   "lastOpenFiles": [
+    "Analysis/Lp Space.md",
+    "Measure Theory/Convergence in Measure.md",
+    "Courses/Linear System Theory/Problem Set 2.md",
     "Measure Theory/Integrable Function.md",
+    "Courses/Analysis IV/Exercise Sheet 0.md",
     "Measure Theory/Measurable Function.md",
     "Measure Theory/Summable Function.md",
-    "Analysis/Lp Space.md",
-    "Courses/Analysis IV/Exercise Sheet 0.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
@@ -313,8 +327,6 @@
     "Differential Geometry/Smooth Manifold.md",
     "Topology/Lindelöf Space.md",
     "Measure Theory/Diffeomorphism.md",
-    "Differential Geometry/Smooth Atlas.md",
-    "Differential Geometry/Topological Manifold.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
