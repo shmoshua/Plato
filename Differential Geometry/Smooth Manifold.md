@@ -30,4 +30,4 @@
 > 1. $x_{N}:U_{N}\to \mathbb{R}^m,x_{N}(u^1,\dots,u^{m+1}):= \frac{1}{1-u^{m+1}}(u^1,\dots,u^{m})$
 > 2. $x_{S}:U_{S}\to \mathbb{R}^m,x_{S}(u^1,\dots,u^{m+1}):= \frac{1}{1+u^{m+1}}(u^1,\dots,u^{m})$
 >    
-> which are the stereographic projection from the north/south pole respectively. Then, the transition maps are given as: $$$$
+> which are the stereographic projection from the north/south pole respectively. Then, the transition maps are given as: $$(u^1,\dots,)$$
