@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "source",
                 "source": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -265,10 +265,12 @@
   },
   "active": "b5f6b5a7ff3f6458",
   "lastOpenFiles": [
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Pullback.md",
-    "Algebra/Euclidean Domain.md",
     "Differential Geometry/Riemannian Metric.md",
+    "Differential Geometry/Smooth Function.md",
+    "Algebra/Euclidean Domain.md",
     "Analysis/Euclidean Norm.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Riemannian Manifold.md",
@@ -277,11 +279,9 @@
     "Algebra/Ring.md",
     "Algebra/Unit.md",
     "Differential Geometry/Cotangent Space.md",
-    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Smooth Vector Field.md",
     "Differential Geometry/Smooth Manifold.md",
     "Topology/Lindelöf Space.md",
-    "Differential Geometry/Smooth Function.md",
     "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Topological Manifold.md",
