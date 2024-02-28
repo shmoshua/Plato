@@ -31,6 +31,9 @@
 >    
 > Therefore, $X=ab+acX$ and $ac=1$. 
 ---
+> [!lemma] Lemma 3
+> Let $R$ be a principal ideal domain and $a,b\in R \backslash \{ 0 \}$. If $a,b$ has a [[Integral Domain|greatest common divisor]] $d$, then $(a,b)=(d)$.
+---
 ##### Examples
 
 ---

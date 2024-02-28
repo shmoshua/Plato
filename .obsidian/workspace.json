@@ -54,9 +54,45 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "12757416b552ae2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03c3b1fbe02b42a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Principal Ideal Domain.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "251b80ced8a543e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Integral Domain.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "c45eeefa3389e702",
@@ -68,7 +104,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2fcdf1da87db4fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,8 +128,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Pullback.md",
-                "mode": "source",
+                "file": "Algebra/Principal Ideal Domain.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -201,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential.md"
+                "file": "Algebra/Principal Ideal Domain.md"
               }
             }
           }
@@ -263,12 +311,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "92de19432c0b54e5",
+  "active": "03c3b1fbe02b42a4",
   "lastOpenFiles": [
-    "Differential Geometry/Riemannian Manifold.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Pullback.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Integral Domain.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Riemannian Metric.md",
+    "Differential Geometry/Riemannian Manifold.md",
     "Differential Geometry/Tangent Space.md",
     "Topology/Interior.md",
     "Analysis/Hilbert Space.md",
@@ -287,10 +339,6 @@
     "Courses/Analysis IV/Exercise Sheet 0.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Measure Theory/Measurable Function.md",
-    "Analysis/Lp Space.md",
-    "Measure Theory/Uniformly Summable Function.md",
-    "Measure Theory/Measure.md",
-    "Measure Theory/Simple Function.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

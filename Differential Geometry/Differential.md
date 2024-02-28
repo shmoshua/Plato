@@ -7,4 +7,4 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $M,N$ be a [[smooth manifold]] and $F:M\to N$ be a [[Smooth Function|smooth map]]. Then, for a [[smooth vector field]] $V\in \Gamma(TM)$, $$\begin{array}{cccc} {F:}&{}&\to&{}\\&{} &\mapsto & {} \end{array}{}$$
+> Let $M,N$ be a [[smooth manifold]] and $F:N\to M$ be a [[Smooth Function|smooth map]]. Then, for a [[smooth vector field]] $V\in \Gamma(TM)$, $$\begin{array}{cccc} {F_{*}V:}&{N}&\to&{TN}\\&{p} &\mapsto & {d_{p}F(V(p))} \end{array}{}$$
