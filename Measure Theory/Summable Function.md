@@ -110,7 +110,7 @@
 > Then, $f_{k}\xrightarrow{L^1}f$.
 
 > [!proof]-
-> Since $\lim_{ k \to \infty } \int_{\Omega}^{} \left| g-g_{k} \right|  \, d\mu=0$, by [[Uniformly Summable Functions|Vitali's Theorem]], $\{ g_{k} \}_{k}$ are uniformly $\mu$-summable, i.e. for every $\varepsilon>0$ there exists $\delta>0$ s.t. for any $\mu$-measurable set $A\subseteq\Omega$ with $\mu(A)<\delta$, we have: $$\sup_{k\in \mathbb{N}}\int_{A}^{} \left| g_{k} \right|  \, d\mu<\varepsilon $$Therefore, we have: $$\int_{A}^{}  \left| f_{k} \right| \, d\mu\leq \int_{A}^{} \left| g_{k} \right|  \, d\mu<\varepsilon  $$for every $k\geq 1$. Therefore, $(f_{k})_{k}$ is also uniformly $\mu$-summable and by Vitali's theorem, we get the result.
+> Since $\lim_{ k \to \infty } \int_{\Omega}^{} \left| g-g_{k} \right|  \, d\mu=0$, by [[Uniformly Summable Function|Vitali's Theorem]], $\{ g_{k} \}_{k}$ are uniformly $\mu$-summable, i.e. for every $\varepsilon>0$ there exists $\delta>0$ s.t. for any $\mu$-measurable set $A\subseteq\Omega$ with $\mu(A)<\delta$, we have: $$\sup_{k\in \mathbb{N}}\int_{A}^{} \left| g_{k} \right|  \, d\mu<\varepsilon $$Therefore, we have: $$\int_{A}^{}  \left| f_{k} \right| \, d\mu\leq \int_{A}^{} \left| g_{k} \right|  \, d\mu<\varepsilon  $$for every $k\geq 1$. Therefore, $(f_{k})_{k}$ is also uniformly $\mu$-summable and by Vitali's theorem, we get the result.
 ---
 ##### Exercises
 > [!Exercise] Exercise 1

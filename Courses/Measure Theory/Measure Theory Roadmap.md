@@ -77,7 +77,7 @@
 3. [[Summable Function|Dominated Convergence Theorem]]
 
 **3.4 Vitali's Theorem**
-1. [[Uniformly Summable Functions]]
+1. [[Uniformly Summable Function]]
 2. [[Summable Function|Improved Lebesgue Theorem]]
 
 **3.5 $L^p$-space**

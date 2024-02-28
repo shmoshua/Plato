@@ -135,6 +135,18 @@
             }
           },
           {
+            "id": "e0f3f84206169bd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Convergence in Measure.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6e89e9b47ca0735e",
             "type": "leaf",
             "state": {
@@ -147,24 +159,12 @@
             }
           },
           {
-            "id": "e0f3f84206169bd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Summable Function.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0a7787e7b9702034",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Measure Theory/Uniformly Summable Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -183,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -313,17 +313,20 @@
   },
   "active": "6e89e9b47ca0735e",
   "lastOpenFiles": [
-    "Analysis/Lp Space.md",
-    "Measure Theory/Summable Function.md",
+    "Measure Theory/Uniformly Summable Function.md",
     "Courses/Analysis IV/Exercise Sheet 0.md",
-    "Measure Theory/Measurable Function.md",
-    "Measure Theory/Integrable Function.md",
     "Measure Theory/Convergence in Measure.md",
+    "Analysis/Lp Space.md",
+    "Measure Theory/Measure.md",
+    "Measure Theory/Measurable Function.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Measure Theory/Simple Function.md",
+    "Measure Theory/Summable Function.md",
+    "Measure Theory/Integrable Function.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Courses/Linear System Theory/Problem Set 2.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Riemannian Metric.md",
@@ -336,9 +339,6 @@
     "Algebra/Ring.md",
     "Algebra/Unit.md",
     "Differential Geometry/Cotangent Space.md",
-    "Differential Geometry/Smooth Vector Field.md",
-    "Differential Geometry/Smooth Manifold.md",
-    "Topology/Lindelöf Space.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
