@@ -5,3 +5,6 @@
 - **Remark**: given $f\in C^\infty(M)$, the differential at $p$ is defined as $$\begin{array}{cccc} {d_{p}f:}&{T_{p}M}&\to&{\mathbb{R}}\\&{[x,e_{i}]_{p}} &\mapsto & {[x,e_{i}]_{p}f} \end{array}{}$$
 - **Related definition**: $F$ is an ***immersion***, if $d_{p}F$ is injective for all $p\in M$.
 ---
+##### Properties
+> [!lemma] Proposition 1
+> Let $M,N$ be a [[smooth manifold]] and $F:M\to N$ be a [[Smooth Function|smooth map]]. Then, for a [[smooth vector field]] $V\in \Gamma(TM)$, $$\begin{array}{cccc} {F:}&{}&\to&{}\\&{} &\mapsto & {} \end{array}{}$$
