@@ -7,7 +7,7 @@
 ---
 ##### Propositions
 > [!lemma] Proposition 1
-> For $A,B,C \subseteq X$, being dense is transitive, i.e. if $A$ is dense w.r.t $B$ and $B$ is dense w.r.t $C$, then $A$ is dense w.r.t. $C$.
+> For $A,B,C \subseteq X$, being dense is transitive, i.e. if $A$ is dense w.r.t. $B$ and $B$ is dense w.r.t. $C$, then $A$ is dense w.r.t. $C$.
 
 > [!proof]-
 > $$C\subseteq \overline{B}\subseteq \overline{A}$$

@@ -1,6 +1,6 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
-> An [[Inner Product Space|inner product space]] is a ***Hilbert space***, if the induced [[Analysis/Normed Space|normed space]] is [[Banach Space|Banach]]/complete.
+> An [[Inner Product Space|inner product space]] is a ***Hilbert space***, if the induced [[Analysis/Normed Space|normed space]] is [[Banach Space|Banach]].
 ---
 ##### Properties
 > [!lemma] Theorem 1

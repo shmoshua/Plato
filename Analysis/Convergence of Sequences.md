@@ -1,8 +1,8 @@
-#Definition #LST #Analysis 
+#Definition #Analysis  #LST
 > [!definition]
-> Let $(X,d)$ be a [[Metric Space|metric space]]. A sequence $(x_{n})_{n}\subseteq X$ ***converges*** to $a\in X$ if and only if for all $\varepsilon>0$ there exists $N\geq 0$ s.t. $$d(x_{n},a)<\varepsilon$$ for all $n\geq N$. Then, $a$ is the ***limit*** of our sequence and is written as $a=\lim_{ n \to \infty }x_{n}$.
-- **Equivalent Definition**: $(x_{n})_{n}\subseteq X$ converges to $a$, if for every neighborhood $V$ of $a$, there exists $N\in \mathbb{N}$ s.t. $x_{n}\in V$ for $n\geq N$.
-- **Remark**: $a=\lim_{ n \to \infty }x_{n}$ can be also written as $\lim_{ n \to \infty }d(x_{n},a)=0$.
+> Let $X$ be a [[topological space]]. A sequence $(x_{n})_{n}\subseteq X$ ***converges to $x\in X$*** if for any (open) neighborhood $U$ of $x$, there exists $N\geq 0$ s.t. $x_{n}\in U$ for all $n\geq N$. Then, Then, $x$ is the ***limit*** of our sequence and is written as $x=\lim_{ n \to \infty }x_{n}$.
+- **Remark**: If $X$ is a [[metric space]], this is equivalent to: for all $\varepsilon>0$, there exists $N\geq 0$ s.t. $d(x_{n},x)<\varepsilon$ for all $n\geq N$. Furthermore, $x=\lim_{ n \to \infty }x_{n}$ if and only if $\lim_{ n \to \infty }d(x_{n},x)=0$.
+
 ---
 ##### Properties
 > [!lemma] Proposition 1

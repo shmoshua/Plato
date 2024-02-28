@@ -8,5 +8,5 @@
 > In a [[normed space]] $X$, the [[Open and Closed Balls|open ball]] $B_{<r}(x)$ is convex.
 
 > [!proof]-
-> Let $v,w\in B_{<r}(x)$. Then, for any $t\in [0,1]$, $$\left\| tv+(1-t)w-x \right\| \leq \left\| t(v-x) \right\| +\left\| (1-t)(w-x) \right\| \leq tr+(1-t)r=r$$
+> Let $v,w\in B_{<r}(x)$. Then, for any $t\in [0,1]$, $$\left\| tv+(1-t)w-x \right\| \leq \left\| t(v-x) \right\| +\left\| (1-t)(w-x) \right\| < tr+(1-t)r=r$$
 ---

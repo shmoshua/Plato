@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "654174b87ae95a6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dbd4dc2c12260e19",
             "type": "leaf",
             "state": {
@@ -30,9 +18,29 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "a436566420abc621",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Topological Vector Space.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "254090422be49732",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -109,45 +117,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9b72b8b24d98cf3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d9a80fb712df87b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Interior.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d867eef3b537c437",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Convex Set.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -213,7 +185,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Convex Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +201,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Convex Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,9 +222,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Analysis/Convex Set.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -275,13 +243,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d867eef3b537c437",
+  "active": "254090422be49732",
   "lastOpenFiles": [
-    "Topology/Metric Space.md",
-    "Topology/Interior.md",
-    "Analysis/Convex Set.md",
+    "Analysis/Hilbert Space.md",
+    "Differential Geometry/Tangent Space.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Topology/Dense Subset.md",
+    "Topology/Interior.md",
+    "Topology/Complete Metric Space.md",
+    "Analysis/Cauchy Sequence.md",
+    "Analysis/Convergence of Sequences.md",
+    "Measure Theory/Convergence of Sets.md",
+    "Topology/Topological Vector Space.md",
+    "Topology/Topology of Metric Spaces.md",
     "Analysis/Open and Closed Balls.md",
+    "Analysis/Convex Set.md",
+    "Topology/Metric Space.md",
     "Measure Theory/Convergence in Measure.md",
     "Courses/Analysis IV/Exercise Sheet 0.md",
     "Measure Theory/Continuous Function with Compact Support.md",
@@ -294,15 +271,6 @@
     "Measure Theory/Integrable Function.md",
     "Courses/Linear System Theory/Problem Set 2.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Pullback.md",
-    "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Smooth Function.md",
-    "Algebra/Euclidean Domain.md",
-    "Analysis/Euclidean Norm.md",
-    "Differential Geometry/Riemannian Manifold.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

@@ -5,7 +5,9 @@
 > 1. $\mathbb{K}\times V\to V,(\lambda,v)\mapsto\lambda v$ is continuous and
 > 2. $V\times V\to V,(x,y)\mapsto x+y$ is continuous.
 > 
-> For $\lambda\in \mathbb{K}$, we define the ***multiplication map***: $$\begin{array}{cccc} {M_{\lambda}:}&{V}&\to&{V}\\&{v} &\mapsto & {\lambda v} \end{array}{}$$and for $v\in V$, we define the ***translation map***: $$\begin{array}{cccc} {L_{v}:}&{V}&\to&{V}\\&{w} &\mapsto & {v+w} \end{array}{}$$
+- **Related definition**: For $\lambda\in \mathbb{K}$, we define:
+  1. the ***multiplication map***: $M_{\lambda}:V\to V,v\mapsto \lambda v$
+  2. the ***translation map***: $L_{v}:V\to V,w\mapsto v+w$
 ---
 ##### Properties
 > [!lemma] Lemma 1

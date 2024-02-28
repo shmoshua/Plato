@@ -2,6 +2,7 @@
 
 > [!definition]
 > A [[metric space]] $(X,d)$ is ***complete***, if every [[Cauchy Sequence|Cauchy sequence]] of points in $X$ has a limit that is also in $X$.
+- **Equivalent definition**: $X$ is complete if for any $\{ F_{n} \}_{n}$ closed subsets with $F_{n+1}\subseteq F_{n}$ and $\text{diam}(F_{n})\to{0}$, $\bigcap_{n=1}^{\infty}F_{n}\neq \varnothing$.
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Baire Category Theorem)
