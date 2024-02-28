@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential.md"
+                "file": "Differential Geometry/Tangent Space.md"
               }
             }
           }
@@ -274,12 +274,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b5f6b5a7ff3f6458",
+  "active": "c09073eca40682c0",
   "lastOpenFiles": [
-    "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Local Isometry.md",
-    "Differential Geometry/Differential.md",
+    "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Pullback.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Topological Vector Space.md",
