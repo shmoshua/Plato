@@ -32,4 +32,14 @@ We have:
 We have:
 1. Let $(x_{n})\subseteq X$ be a Cauchy sequence and $\{ x_{k_{n}} \}$ and $\{ x_{p_{n}} \}$ be two subsequences s.t. $x_{k_{n}}\xrightarrow{n\to \infty}x$ and $x_{p_{n}}\xrightarrow{n\to \infty}y$. Let $\varepsilon>0$. Then, there exists $N_{1},N_{2},N_{3}\geq 0$ s.t.$$\left| x-y \right| \leq \left| x-x_{k_{n}} \right| +\left| x_{k_{n}}-x_{p_{n}} \right| +\left| x_{p_{n}}-y \right|\leq \frac{\varepsilon}{3}+\frac{\varepsilon}{3}+\frac{\varepsilon}{3}=\varepsilon $$for all $n\geq \text{max}\{ N_{1},N_{2},N_{3} \}$. Therefore, $x=y$.
 2. $\left( \frac{1}{n} \right)_{n}$ is a Cauchy sequence, but $\lim_{ n \to \infty } \frac{1}{n}=0$ is not in $(0,1)$.
-3. $f_{n}$ converges to $f(x)= \tanh(x) /x$ pointwise. Further, as $f$ is a decreasing function, for every $\varepsilon>0$, there exists $x_{0}$ s.t. $f(x)\leq \varepsilon$ for all $x\geq x_{0}$. Therefore, $f_{n}\xrightarrow{\mu} f$. Further, $$\lim_{ n \to \infty } \left\| f_{n} \right\| _{2}^2=\lim_{ n \to \infty } \int_{0}^{n}\frac{\tanh(x)^{2}}{x^{2}}  \, dx =\int_{0}^{\infty} \frac{\tanh(x)^{2}}{x^{2}}   \, dx=\left\| f \right\| _{2}^2 $$This shows that $f_{n}\xrightarrow{L^2}f$.
+3. $f_{n}$ converges to $f(x)= \tanh(x) /x$ pointwise. Further, as $f$ is a decreasing function, for every $\varepsilon>0$, there exists $x_{0}$ s.t. $f(x)\leq \varepsilon$ for all $x\geq x_{0}$. Therefore, $f_{n}\xrightarrow{\mu} f$. Further, $$\lim_{ n \to \infty } \left\| f_{n} \right\| _{2}^2=\lim_{ n \to \infty } \int_{0}^{n}\frac{\tanh(x)^{2}}{x^{2}}  \, dx =\int_{0}^{\infty} \frac{\tanh(x)^{2}}{x^{2}}   \, dx=\left\| f \right\| _{2}^2 $$This shows that $f_{n}\xrightarrow{L^2}f$. However, $f\notin L^1(0,\infty)$. Therefore, $L^1$ is not complete w.r.t. the $\|\cdot\|_{2}$ norm as $f_{n}$ is a Cauchy sequence.
+4. Assume we have $\{ f_{k} \}\subseteq L^2(\mathbb{R})$ s.t. $\lim_{ k \to \infty } \left\| f_{k}-1 \right\|_{2}=0$. Then, $$\left\| 1 \right\| _{2}\leq \left\| f_{k} \right\|_{2} +\left\| f_{k}-1 \right\|_{2} <+\infty$$which is a contradiction as $1\notin  L^2(\mathbb{R})$.
+---
+> [!definition] Problem 4: Approximability in normed spaces
+> Determine whether the following statements are true or false and justify your answer.
+> 1. $L^1([0,1])\subseteq \overline{C([0,1])}^{L^1}$
+> 2. $L^\infty([0,1])\subseteq \overline{C([0,1])}^{L^\infty}$
+> 3. $L^1([0,1])\subseteq \overline{S([0,1])}^{L^1}$
+> 4. $L^\infty([0,1])\subseteq \overline{S([0,1])}^{L^\infty}$
+> 5. $L^\infty([0,1])\subseteq \overline{C([0,1])}^{L^1}$
+> 6. $C((0,1))\subseteq \overline{C_{c}((0,1))}^{L^\infty}$

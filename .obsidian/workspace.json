@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Measure Theory/Continuous Function with Compact Support.md",
                 "mode": "preview",
                 "source": false
               }
@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -237,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 0.md",
+                "file": "Measure Theory/Continuous Function with Compact Support.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 0.md",
+                "file": "Measure Theory/Continuous Function with Compact Support.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 0.md"
+                "file": "Measure Theory/Continuous Function with Compact Support.md"
               }
             }
           }
@@ -299,13 +299,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6e89e9b47ca0735e",
+  "active": "e0f3f84206169bd6",
   "lastOpenFiles": [
     "Analysis/Lp Space.md",
+    "Courses/Analysis IV/Exercise Sheet 0.md",
     "Measure Theory/Convergence in Measure.md",
     "Courses/Linear System Theory/Problem Set 2.md",
     "Measure Theory/Integrable Function.md",
-    "Courses/Analysis IV/Exercise Sheet 0.md",
     "Measure Theory/Measurable Function.md",
     "Measure Theory/Summable Function.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
