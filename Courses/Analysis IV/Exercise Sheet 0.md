@@ -43,3 +43,8 @@ We have:
 > 4. $L^\infty([0,1])\subseteq \overline{S([0,1])}^{L^\infty}$
 > 5. $L^\infty([0,1])\subseteq \overline{C([0,1])}^{L^1}$
 > 6. $C((0,1))\subseteq \overline{C_{c}((0,1))}^{L^\infty}$
+
+We have:
+1. **$C([0,1])$ is dense in $L^1([0,1])$**:
+   Let $f\in L^1([0,1])$ and $\varepsilon>0$. Then, choose $N$ s.t. $$\left\| f-f\chi_{f^{-1}([-N,N])} \right\| \leq \varepsilon$$Let $f_{\varepsilon}:=f\chi_{f^{-1}([-N,N])}$. By Lusin's theorem, there exists a compact set $K$ s.t. $\mu([0,1] \backslash K)\leq \varepsilon /2N$ and $f_{\varepsilon}|_{K}$ is continuous. As $K$ is closed, using Tietze's extension theorem, we can extend $f_{\varepsilon}|_{K_{\varepsilon}}$ to $g_{\varepsilon}$ that is continuous on $[0,1]$. $$\begin{align}\left\| f-g_{\varepsilon} \right\|_{1} &\leq \left\| f-f_{\varepsilon} \right\|_{1}+\left\| f_{\varepsilon}-g_{\varepsilon} \right\| _{1}\\&\leq \varepsilon+\int_{[0,1] \backslash K}^{} \left| f_{\varepsilon}-g_{\varepsilon} \right|  \, dx  \\&\leq \varepsilon+\mu([0,1 ]\backslash K)\cdot  2N\\&\leq 2\varepsilon  \end{align}$$
+	
