@@ -85,13 +85,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
         "id": "c45eeefa3389e702",
@@ -103,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Local Isometry.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -145,8 +146,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -212,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md"
+                "file": "Differential Geometry/Topological Manifold.md"
               }
             }
           }
@@ -274,18 +274,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c09073eca40682c0",
+  "active": "251b80ced8a543e2",
   "lastOpenFiles": [
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Local Isometry.md",
     "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Differential.md",
+    "Algebra/Integral Domain.md",
     "Differential Geometry/Pullback.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Topological Vector Space.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Integral Domain.md",
     "Differential Geometry/Riemannian Manifold.md",
     "Topology/Interior.md",
     "Analysis/Hilbert Space.md",
@@ -300,8 +302,6 @@
     "Analysis/Convex Set.md",
     "Topology/Metric Space.md",
     "Measure Theory/Convergence in Measure.md",
-    "Courses/Analysis IV/Exercise Sheet 0.md",
-    "Measure Theory/Continuous Function with Compact Support.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
