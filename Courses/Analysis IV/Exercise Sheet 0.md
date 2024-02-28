@@ -52,4 +52,9 @@ We have:
 3. **$S([0,1])$ is dense in $L^1([0,1])$**:
 	For $f\in L^1([0,1])$ let $f=f^+-f^-$ with $f^+:=f\cdot \chi_{f^{-1}([0,+\infty))}$ and $f^-:=-f\cdot \chi_{f^{-1}((-\infty,0])}$ Then, both functions are non-negative. Let $\varepsilon>0$. Then, there exists step functions $g^+,g^-\in S([0,1])$ s.t. $$\left\| f^\pm- g^\pm \right\|_{1} < \varepsilon $$ Therefore, $\left\| f-g \right\|_{1}\leq \left\| f^+ -g^+ \right\|_{1}+\left\| f^- -g^- \right\|_{1}<2\varepsilon$. 
 4. **$S([0,1])$ is not dense in $L^\infty([0,1])$**:
-	Consider $f=\sum_{n=1}^{}\chi_{}$
+	Consider $f=\sum_{n=1}^{\infty}\chi_{\left[  \frac{1}{2n-1}, \frac{1}{2n} \right]}$. Then, $f\in L^\infty([0,1])$. But for any step function $g$, $\left\| f-g \right\|_{\infty}> \frac{1}{2}$.
+5. **$C([0,1])$ is dense in $(L^\infty([0,1]),\|\cdot\|_{1})$**: 
+	   As $\mu([0,1])=1$, $L^\infty([0,1])\subseteq L^1([0,1])\subseteq \overline{C([0,1])}^{L^1}$. 
+6. **$C_{c}((0,1))$ is dense in $C((0,1))$ w.r.t the sup norm**:
+		$C_{c}((0,1))$ is dense in $C_{0}((0,1))$, the space of functions on $(0,1)$ that vanish at infinity, w.r.t. the sup norm. However, as $(0,1)$ is bounded, $C_{0}((0,1))=C((0,1))$.
+---

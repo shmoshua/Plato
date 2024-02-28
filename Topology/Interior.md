@@ -1,7 +1,8 @@
 #Definition #Topology 
 
 > [!definition]
-> In a [[Topological Space|topological space]] $(X,\mathcal{O})$, let $A \subseteq X$. Then, the ***interior*** $A^\circ$ of $A$ is defined as: $$A^\circ :=\{ x\in A:A\text{ is a neighborhood of }x \}$$Equivalently, in a [[Metric Space|metric space]], $A^\circ=\{ x\in A:\exists r>0. B(x,r)\subseteq A \}$
+> Let $(X,\mathcal{T})$ be a [[Topological Space|topological space]] and  $A \subseteq X$. The ***interior*** $A^\circ$ of $A$ is defined as: $$A^\circ :=\{ x\in A:A\text{ is a neighborhood of }x \}$$
+- **Remark**: In a [[Metric Space|metric space]], $A^\circ=\{ x\in A:\exists r>0. B_{<r}(x)\subseteq A \}$
 ---
 ##### Properties
 > [!lemma] Proposition 1
