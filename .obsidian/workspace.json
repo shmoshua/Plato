@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Differential Geometry/Local Isometry.md",
                 "mode": "source",
                 "source": true
               }
@@ -91,56 +91,19 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
         "children": [
           {
-            "id": "9d48f0406fd967c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2fcdf1da87db4fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Integral Domain.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2ac3859b9e10fb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c338b40fbf4aa7ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Local Isometry.md",
                 "mode": "preview",
                 "source": false
               }
@@ -182,8 +145,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Differential Geometry/Local Isometry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Differential Geometry/Local Isometry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +251,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md"
+                "file": "Differential Geometry/Local Isometry.md"
               }
             }
           }
@@ -311,14 +273,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "03c3b1fbe02b42a4",
+  "active": "dbd4dc2c12260e19",
   "lastOpenFiles": [
-    "Differential Geometry/Pullback.md",
-    "Algebra/Principal Ideal Domain.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Integral Domain.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Local Isometry.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Integral Domain.md",
+    "Differential Geometry/Pullback.md",
     "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Riemannian Manifold.md",
     "Differential Geometry/Tangent Space.md",
@@ -338,7 +301,6 @@
     "Measure Theory/Convergence in Measure.md",
     "Courses/Analysis IV/Exercise Sheet 0.md",
     "Measure Theory/Continuous Function with Compact Support.md",
-    "Measure Theory/Measurable Function.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

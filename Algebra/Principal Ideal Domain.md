@@ -31,8 +31,17 @@
 >    
 > Therefore, $X=ab+acX$ and $ac=1$. 
 ---
-> [!lemma] Lemma 3
-> Let $R$ be a principal ideal domain and $a,b\in R \backslash \{ 0 \}$. If $a,b$ has a [[Integral Domain|greatest common divisor]] $d$, then $(a,b)=(d)$.
+> [!lemma] Theorem 3
+> Let $R$ be a principal ideal domain and $a,b\in R \backslash \{ 0 \}$. Then, for $d\in R$, the following are equivalent:
+> 1. $d=\text{gcd}(a,b)$
+> 2. $(a,b)=(d)$
+> 3. there exist $x,y\in R$ s.t. $d=ax+by$ and for all $s,t\in R$, $d|as+bt$.
+> 4. there exist $x,y\in R$ s.t. $d=ax+by$ and $d|a$ and $d|b$.
+
+> [!proof]-
+> As $R$ is a PID, there exists $c\in R$ s.t. $(a,b)=(c)$. Therefore, $c|a$ and $c|b$ and therefore, $c|d$. This shows that $(d)\subseteq(c)$.
+> 
+> On the other hand, $d|a$, $d|b$ and $a,b\in (d)$. Therefore, $(c)\subseteq(d)$. So $(c)=(d)$.
 ---
 ##### Examples
 
