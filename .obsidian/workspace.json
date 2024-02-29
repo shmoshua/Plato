@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Torus.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -61,13 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Manifold.md",
+                "file": "Differential Geometry/Open Equivalence Relation.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "c45eeefa3389e702",
@@ -115,14 +116,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Open Equivalence Relation.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Torus.md",
+                "file": "Differential Geometry/Open Equivalence Relation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Torus.md",
+                "file": "Differential Geometry/Open Equivalence Relation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Torus.md"
+                "file": "Differential Geometry/Open Equivalence Relation.md"
               }
             }
           }
@@ -250,20 +251,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "dbd4dc2c12260e19",
+  "active": "c09073eca40682c0",
   "lastOpenFiles": [
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Torus.md",
-    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Open Equivalence Relation.md",
     "Differential Geometry/Smooth Manifold.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Pullback.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Local Isometry.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Tangent Space.md",
     "Algebra/Integral Domain.md",
-    "Differential Geometry/Pullback.md",
     "Topology/Topological Vector Space.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Principal Ideal Domain.md",
@@ -277,7 +279,6 @@
     "Analysis/Convergence of Sequences.md",
     "Measure Theory/Convergence of Sets.md",
     "Topology/Topology of Metric Spaces.md",
-    "Analysis/Open and Closed Balls.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

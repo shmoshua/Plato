@@ -5,7 +5,8 @@
 1. [[Topological Manifold]]
 2. [[Atlas]]
 3. [[Smooth Manifold]]
-4. **Example of a Construction of a Smooth Manifold**: 
+4. **Example of a Construction of a Smooth Manifold**: [[Torus]]
+5. **Example of a Construction of a Smooth Manifold**: [[Open Equivalence Relation]]
 
 ### Part 2. Riemannian Geometry
 
