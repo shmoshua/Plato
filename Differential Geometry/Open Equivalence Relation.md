@@ -20,4 +20,13 @@
 ---
 ##### Example
 > [!h] Example 1 (Real Projective Space)
-> The projective space $\mathbb{P}^n \mathbb{R}$ is defined as the quotient of $X= \mathbb{R}^{n+1} \backslash \{ 0 \}$ with the qu
+> The projective space $\mathbb{P}^n \mathbb{R}$ is defined as the quotient of $X= \mathbb{R}^{n+1} \backslash \{ 0 \}$ with the equivalence relation: $$x\sim y\iff \exists\lambda\in \mathbb{R}^{*}: x=\lambda y$$
+> 1. $\sim$ is open.
+> 2. $R$ is closed.
+> 3. $\mathbb{P}^n\mathbb{R}$ is a smooth manifold.
+
+> [!proof]+
+> We have that:
+> 1. Let $A\subseteq \mathbb{R}^{n+1} \backslash\{ 0 \}$ be open. Then, $$\pi^{-1}(\pi(A))=\bigcup_{\lambda\in \mathbb{R}^{*}}^{}\lambda A$$is open.
+> 2. We define: $$\begin{array}{cccc} {f:}&{\mathbb{R}^{n+1}\times \mathbb{R}^{n+1}}&\to&{\mathbb{R}}\\&{(x,y)} &\mapsto & {\sum_{i,j=1}^{n+1}(x_{i}y_{j}-x_{j}y_{i})^{2}} \end{array}{}$$Then, $R=f^{-1}(\{ 0 \})$ which is closed.
+> 3. We will equip $\mathbb{P}^n\mathbb{R}$ with charts. Define $\tilde{U}_{i}:=\{ x=(x_{1},\dots,x_{n+1})\subseteq \mathbb{R}^{n+1}:x_{i}=1 \}$. Then, $\pi ^{-1}(\pi(\tilde{U}_{i}))=\{ (x_{1},\dots,x_{n+1})|x_{i}\neq 0 \}$ is open and $U_{i}:=\pi(\tilde{U}_{i})\subseteq \mathbb{P}^n\mathbb{R}$ is open as well. 
