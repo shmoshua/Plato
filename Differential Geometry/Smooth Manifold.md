@@ -1,7 +1,7 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> A ***smooth manifold*** is a [[topological manifold]] $M$ equipped with a ***smooth structure*** $\mathcal{X}$, i.e. a maximal [[smooth atlas]] 
+> A ***smooth manifold*** is a [[topological manifold]] $M$ equipped with a ***smooth structure*** $\mathcal{X}$, i.e. a maximal [[smooth atlas]].
 - **Related definition**: 
 ---
 ##### Properties

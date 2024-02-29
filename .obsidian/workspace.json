@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Smooth Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -146,8 +146,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -277,13 +276,14 @@
   },
   "active": "251b80ced8a543e2",
   "lastOpenFiles": [
-    "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Atlas.md",
     "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Atlas.md",
     "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Local Isometry.md",
+    "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Riemannian Metric.md",
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Local Isometry.md",
     "Algebra/Integral Domain.md",
     "Differential Geometry/Pullback.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
@@ -302,7 +302,6 @@
     "Topology/Topology of Metric Spaces.md",
     "Analysis/Open and Closed Balls.md",
     "Analysis/Convex Set.md",
-    "Topology/Metric Space.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

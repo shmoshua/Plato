@@ -54,7 +54,7 @@
 	2. $\theta_{\alpha\beta}:=\varphi_{\alpha}\circ(\varphi_{\beta}|_{U_{\alpha}\cap U_{\beta}})^{-1}:\varphi_{\beta}(U_{\alpha}\cap U_{\beta})\to\varphi_{\alpha}(U_{\alpha}\cap U_{\beta})$
 - **Remark**: The coordinate transformations are [[Homeomorphism|homeomorphisms]].
 	
-- **Related definition**: Two charts $(\phi,U),(\psi,V)$ are ***compatible***, if $\phi \circ\psi ^{-1}:\psi(U\cap V)\to \phi(U\cap V)$ is a [[Diffeomorphism|smooth diffeomorphism]].
+- **Related definition**: Two charts $(U_{\alpha},\varphi_{\alpha}),(U_{\beta},\varphi_{\beta})$ are ***$C^k$-compatible***, if $\theta_{\beta\alpha},\theta_{\alpha\beta}\in C^k$.
 ---
 ##### Examples
 > [!h] Example 1
