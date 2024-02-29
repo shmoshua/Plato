@@ -30,9 +30,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "d82fce9660cdb62d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -80,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Atlas.md",
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +111,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -165,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Regular Ideal.md",
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Regular Ideal.md",
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Regular Ideal.md"
+                "file": "Analysis/Functional Analysis/Banach Algebra.md"
               }
             }
           }
@@ -227,10 +239,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5c002b8ba9c79718",
+  "active": "d82fce9660cdb62d",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Differential Geometry/Atlas.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Untitled.md",
     "Differential Geometry/Rank.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
@@ -238,7 +252,6 @@
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Differentiable Function.md",
-    "Differential Geometry/Atlas.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Open Equivalence Relation.md",
@@ -254,7 +267,6 @@
     "Algebra/Principal Ideal Domain.md",
     "Differential Geometry/Riemannian Manifold.md",
     "Topology/Interior.md",
-    "Analysis/Hilbert Space.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
