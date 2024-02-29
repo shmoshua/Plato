@@ -76,7 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differentiable Function.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -223,14 +223,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "71b605036c4880c9",
+  "active": "31171c08ffd637c5",
   "lastOpenFiles": [
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Differentiable Function.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Immersion.md",
-    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Rank.md",
     "Analysis/Functional Analysis/Volterra Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
