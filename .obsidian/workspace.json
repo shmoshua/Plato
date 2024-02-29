@@ -61,13 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Differential Geometry/Rank.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "c45eeefa3389e702",
@@ -91,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differentiable Function.md",
+                "file": "Differential Geometry/Rank.md",
                 "mode": "preview",
                 "source": false
               }
@@ -103,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Manifold.md",
+                "file": "Differential Geometry/Atlas.md",
                 "mode": "preview",
                 "source": false
               }
@@ -121,7 +122,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differentiable Function.md",
+                "file": "Differential Geometry/Rank.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differentiable Function.md",
+                "file": "Differential Geometry/Rank.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differentiable Function.md"
+                "file": "Differential Geometry/Rank.md"
               }
             }
           }
@@ -249,15 +251,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "dbd4dc2c12260e19",
+  "active": "1af05518e31dbdc6",
   "lastOpenFiles": [
+    "Differential Geometry/Differentiable Function.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Rank.md",
+    "Differential Geometry/Atlas.md",
+    "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Open Equivalence Relation.md",
     "Differential Geometry/Grassmannian.md",
-    "Differential Geometry/Differentiable Function.md",
-    "Differential Geometry/Atlas.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Topology/Topological Vector Space.md",
     "Differential Geometry/Torus.md",
     "Differential Geometry/Pullback.md",
@@ -276,7 +279,6 @@
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Topology/Dense Subset.md",
     "Topology/Complete Metric Space.md",
-    "Analysis/Cauchy Sequence.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
