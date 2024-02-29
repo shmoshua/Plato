@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Local Isometry.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,31 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "12757416b552ae2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03c3b1fbe02b42a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "source",
                 "source": true
               }
@@ -92,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       },
       {
         "id": "c45eeefa3389e702",
@@ -104,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -146,7 +122,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -276,17 +253,17 @@
   },
   "active": "251b80ced8a543e2",
   "lastOpenFiles": [
-    "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Atlas.md",
     "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Smooth Atlas.md",
+    "Differential Geometry/Atlas.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Local Isometry.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Local Isometry.md",
     "Algebra/Integral Domain.md",
     "Differential Geometry/Pullback.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Topological Vector Space.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Principal Ideal Domain.md",

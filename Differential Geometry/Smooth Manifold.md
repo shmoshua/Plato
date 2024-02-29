@@ -1,8 +1,8 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> A ***smooth manifold*** is a [[topological manifold]] $M$ equipped with a ***smooth structure*** $\mathcal{X}$, i.e. a maximal [[smooth atlas]].
-- **Related definition**: 
+> A ***smooth manifold*** is a [[topological manifold]] $M$ equipped with a ***smooth structure*** $\mathcal{X}$, i.e. a maximal [[Atlas|smooth atlas]].
+- **Related definition**: A ***$C^k$-differential manifold*** is a topological manifold with a maximal $C^k$-atlas.
 ---
 ##### Properties
 > [!lemma] Lemma 1
