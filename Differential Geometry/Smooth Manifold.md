@@ -6,7 +6,11 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1
-> Let $M$ be a smooth manifold of dimension $m$ and $W\subseteq M$ a non-empty open set. Then, $W$ naturally inherits the smooth structure of a smooth manifold of dimension $m$.
+> Let $M,N$ be smooth manifolds  with atlases $\mathcal{A},\mathcal{B}$. Further, let $f:\mathbb{R}^n\to \mathbb{R}^m$ be a smooth map.
+> 1. Let $a\in \mathbb{R}^m$ be a ***regular value***, i.e. for every $x\in f^{-1}(a)$ the derivative $D_{x}f:\mathbb{R}^n\to \mathbb{R}^m$ has full rank $m$. Then, $f^{-1}(a)$ is a smooth manifold.
+> 2. For $U\subseteq M$ open, $\mathcal{A}|_{U}:=\{ (U\cap V,\varphi|_{U\cap V})|(V,\varphi)\in \mathcal{A} \}$ is a smooth atlas on $U$ that is not necessarily maximal. However, it is contained in a unique maximal smooth atlas by [[Atlas|Lemma 2]].
+> 3. $\mathcal{P}:=\{ (U_{\alpha}\times V_{\beta},\varphi_{\alpha}\times \psi_{\beta}) |(U_{\alpha},\varphi_{\alpha})\in \mathcal{A},(V_{\beta},\psi_{\beta})\in \mathcal{B}\}$ is a smooth atlas on $M\times N$ that is not necessarily maximal.
+> 
 
 > [!proof]-
 > Let $\mathcal{X}=\{ (U_{\alpha},x_{\alpha}) \}_{\alpha}$ be a smooth structure on $M$. Then, $$\{ x_{\alpha}|_{U_{\alpha}\cap W}: U_{\alpha}\cap W\to x_{\alpha}(U_{\alpha}\cap W)\}_{\alpha}$$is a smooth structure on $W$. 

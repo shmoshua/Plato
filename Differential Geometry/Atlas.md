@@ -30,8 +30,10 @@
 > [!lemma] Lemma 3
 > Let $M$ be a [[smooth manifold]] with maximal atlas $\mathcal{A}$. If $F:M\to M$ is a [[homeomorphism]], then $$\mathcal{A}':=\{ (F(U),\varphi \circ F^{-1})|(U,\varphi)\in \mathcal{A} \}$$is a maximal smooth atlas as well.
 
-> [!proof]+
-> Let $(F(U_{\alpha}),\varphi_{\alpha}\circ F^{-1}),(F(U_{\beta}),\varphi_{\beta}\circ F^{-1})\in \mathcal{A'}$. Then, $$\theta_{\beta\alpha}'=\varphi_{\beta}\circ F^{-1}\circ F\circ \varphi_{\alpha}^{-1}=\varphi_{\beta}\circ\varphi_{\alpha}^{-1} $$on $\varphi_{\alpha}(F^{-1}(F(U_{\alpha})\cap F(U_{\beta})))$ which is an open subset of $\varphi+\a$
+> [!proof]-
+> Let $(F(U_{\alpha}),\varphi_{\alpha}\circ F^{-1}),(F(U_{\beta}),\varphi_{\beta}\circ F^{-1})\in \mathcal{A'}$. Then, $$\theta_{\beta\alpha}'=\varphi_{\beta}\circ F^{-1}\circ F\circ \varphi_{\alpha}^{-1}=\varphi_{\beta}\circ\varphi_{\alpha}^{-1} $$on $\varphi_{\alpha}(F^{-1}(F(U_{\alpha})\cap F(U_{\beta})))$ which is an open subset of $\varphi_{\alpha}(U_{\alpha}\cap U_{\beta})$. Therefore,  $\theta_{\beta\alpha}$ is smooth.
+> 
+> The maximality of $\mathcal{A}'$ then follows from the maximality of $\mathcal{A}$.
 ---
 ##### Examples
 > [!h] Example 1

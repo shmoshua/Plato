@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Differential Geometry/Torus.md",
                 "mode": "source",
                 "source": true
               }
@@ -61,14 +61,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Atlas.md",
+                "file": "Differential Geometry/Smooth Manifold.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -123,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Atlas.md",
+                "file": "Differential Geometry/Torus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Atlas.md",
+                "file": "Differential Geometry/Torus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Atlas.md"
+                "file": "Differential Geometry/Torus.md"
               }
             }
           }
@@ -251,12 +250,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "251b80ced8a543e2",
+  "active": "dbd4dc2c12260e19",
   "lastOpenFiles": [
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Torus.md",
+    "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Atlas.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Local Isometry.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Atlas.md",
@@ -278,7 +278,6 @@
     "Measure Theory/Convergence of Sets.md",
     "Topology/Topology of Metric Spaces.md",
     "Analysis/Open and Closed Balls.md",
-    "Analysis/Convex Set.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
