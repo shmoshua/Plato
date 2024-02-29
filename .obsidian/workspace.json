@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "84fc84d268721227",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Rank.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "71b605036c4880c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "source",
                 "source": true
               }
@@ -71,12 +59,12 @@
             }
           },
           {
-            "id": "1af05518e31dbdc6",
+            "id": "9fc2683c13bd92bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Rank.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -149,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Rank.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Rank.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Rank.md"
+                "file": "Differential Geometry/Submanifold.md"
               }
             }
           }
@@ -211,12 +199,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "84fc84d268721227",
+  "active": "9fc2683c13bd92bd",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Rank.md",
+    "Differential Geometry/Submanifold.md",
     "Analysis/Functional Analysis/Volterra Algebra.md",
+    "Differential Geometry/Rank.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/Character.md",
@@ -238,7 +227,6 @@
     "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Riemannian Metric.md",
     "Algebra/Integral Domain.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

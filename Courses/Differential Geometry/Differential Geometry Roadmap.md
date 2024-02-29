@@ -18,6 +18,8 @@
 **1.3 The Rank Theorem**
 1. [[Rank]]
 
+**1.4 Submanifolds, Immersions, Embeddings**
+1. [[Submanifold]]
 ### Part 2. Riemannian Geometry
 
 ##### 1. Riemannian Manifolds
