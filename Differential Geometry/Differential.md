@@ -7,13 +7,17 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1
-> For the differential, 
+> Let $M,N,R$ be [[Smooth Manifold|smooth manifolds]] and [[Differentiable Function|smooth maps]] 
 > 1. $d_{p}F$ is well-defined.
 > 2. the [[rank]] of $F$ at $p$ is $\text{dim }d_{p}F(\text{T}_{p}M)$.
+> 3. $d_{p}(G\circ F)=d_{F(p)}(G)d_{p}(F)$
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. Let $v\in \text{T}_{p}M$ represented by $[U_{1},\varphi_{1},v_{1}]$ and $[U_{2},\varphi_{2},v_{2}]$ and let $(V_{1},\psi_{1}),(V_{2},\psi_{2})$ be two charts at $F(p)$ where $F(U_{1})\subseteq V_{1},F(U_{2})\subseteq V_{2}$. Therefore, $$d_{\psi_{1}(F(p))}(\psi_{2}\psi_{1}^{-1})d_{\varphi(p)}(\psi F)$$
+> 1. Let $v\in \text{T}_{p}M$ represented by $[U_{1},\varphi_{1},v_{1}]$ and $[U_{2},\varphi_{2},v_{2}]$ and let $(V_{1},\psi_{1}),(V_{2},\psi_{2})$ be two charts at $F(p)$ where $F(U_{1})\subseteq V_{1},F(U_{2})\subseteq V_{2}$. Therefore, $$\begin{align}d_{\psi_{1}(F(p))}(\psi_{2}\psi_{1}^{-1})d_{\varphi_{1}(p)}(\psi_{1} F\varphi_{1}^{-1})v_{1}&=d_{\varphi_{1}(p)}(\psi_{2}F\varphi_{1}^{-1})v_{1}\\&=d_{\varphi_{2}(p)}(\psi_{2}F\varphi_{2}^{-1})d_{\varphi_{1}(p)}(\varphi_{2}\varphi_{1}^{-1})v_{1}\\&=d_{\varphi_{2}(p)}(\psi_{2}F\varphi_{2}^{-1})v_{2}\end{align}$$This shows the well-definedness.
+> 2. The rank of $F$ at $p$ is $$\text{rank }d_{\varphi(p)}(\psi F\varphi ^{-1})=\text{dim }d_{p}F(\text{T}_{p}M)$$
+---
+
 
 > [!lemma] Proposition 1
 > Let $M,N$ be a [[smooth manifold]] and $F:N\to M$ be a [[Smooth Function|smooth map]]. Then, for a [[smooth vector field]] $V\in \Gamma(TM)$, $$\begin{array}{cccc} {F_{*}V:}&{N}&\to&{TN}\\&{p} &\mapsto & {d_{p}F(V(p))} \end{array}{}$$
