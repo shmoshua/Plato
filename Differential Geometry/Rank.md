@@ -12,4 +12,4 @@
 > 4. we have: $$HFG^{-1}(x_{1},\dots,x_{n})=(x_{1},\dots,x_{k},0, \dots,0)$$
 
 > [!proof]+
-> Altering $G,H$ with translations if necessary, we may assume that $a_{0}=0$ as well as $F(a_{0})=0$. 
+> Altering $G,H$ with translations if necessary, we may assume that $a_{0}=0$ as well as $F(a_{0})=0$. Now, let $D_{x}F(0)=\left[ \frac{ \partial F_{j} }{ \partial x_{i} } \right]_{ij}\in \text{M}_{n,m}(\mathbb{R})$ has rank $k$. Modulo permuting coordinates in $\mathbb{R}^n$ and $\mathbb{R}^m$, we may assume that the first principal $k\times k$-minor of $D_{x}F(0)$ has non-zero determinant, that is: $$\det \begin{bmatrix}\frac{ \partial F }{ \partial x } \end{bmatrix}$$

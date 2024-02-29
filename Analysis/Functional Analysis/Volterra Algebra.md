@@ -17,3 +17,5 @@
 > 	Assume the unit $\delta\in L^1([0,1])$ exists. Using [[Laplace Transform]], we get that: 
 > 	$$\mathcal{L}(f*\delta)=\mathcal{L}(f)\cdot \mathcal{L}(\delta)$$for all $f\in L^1([0,1])$. 
 ---
+> [!lemma] Proposition 2
+> The [[Guelfand spectrum]] of the Volterra algebra is empty.

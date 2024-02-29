@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
@@ -25,13 +25,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Differential Geometry/Rank.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
+          },
+          {
+            "id": "71b605036c4880c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c4054f7f7a5ebcb5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -55,38 +76,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c002b8ba9c79718",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Regular Ideal.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5f6b5a7ff3f6458",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Differential Geometry/Rank.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Differential Geometry/Rank.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Differential Geometry/Rank.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md"
+                "file": "Differential Geometry/Rank.md"
               }
             }
           }
@@ -214,18 +211,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b5f6b5a7ff3f6458",
+  "active": "84fc84d268721227",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Rank.md",
+    "Analysis/Functional Analysis/Volterra Algebra.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/Character.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Differential Geometry/Grassmannian.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
     "Differential Geometry/Atlas.md",
-    "Differential Geometry/Rank.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Differentiable Function.md",
@@ -241,7 +239,6 @@
     "Differential Geometry/Riemannian Metric.md",
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Principal Ideal Domain.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

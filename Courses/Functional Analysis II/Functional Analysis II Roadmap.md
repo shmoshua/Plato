@@ -24,7 +24,8 @@
 2. [[Locally Compact Hausdorff Space]] and closed ideals. (FINISH PROOF)
 
 **3.2 Guelfand Spectrum and Ideals**
-1. 
+1. [[Guelfand Spectrum]]
+2. **Example of a Guelfand Spectrum**: [[Volterra Algebra]]
 ---
 ##### 4. The Guelfand Isomorphisms
 ---
