@@ -4,4 +4,10 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $F\in C^\infty(N,M)$ 
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $F\in C^\infty(N,M)$ with constant rank $k$. For $q\in F(N), F^{-1}(q)$ is a submanifold of $N$ of dimension $n-k$.
+
+> [!proof]-
+> Let $p\in F^{-1}(q)$. Then, by [[Rank|Corollary 2]], there are charts $(U,\varphi),(W,\psi)$ at $p,F(p)$ respectively s.t. 
+> 1. $\varphi(p)=0$, $\psi(q)=0$ and
+> 2. $\varphi(U)=(-\varepsilon,\varepsilon)^n$ and $\psi(W)=(-\varepsilon,\varepsilon)^m$ as well as:
+> 3. $\psi \circ F\circ\varphi ^{-1}(x_{1},\dots,x_{n})=(x_{1},\dots,x_{k},0,\dots,0)$

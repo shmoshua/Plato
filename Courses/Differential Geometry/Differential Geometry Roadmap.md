@@ -20,6 +20,12 @@
 
 **1.4 Submanifolds, Immersions, Embeddings**
 1. [[Submanifold]]
+2. [[immersion]]
+---
+##### 2. Tangent spaces, Differential and Whitney’s Embedding Theorem
+**2.1 Tangent Spaces**
+1. [[Tangent Space]]
+---
 ### Part 2. Riemannian Geometry
 
 ##### 1. Riemannian Manifolds

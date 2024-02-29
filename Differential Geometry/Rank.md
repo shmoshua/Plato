@@ -16,3 +16,9 @@
 > Define $G(x):=(F_{1}(x),\dots,F_{k}(x),x_{k+1},\dots,x_{n})$. Then, $G(0)=0$ and for all $x\in A_{0}$: $$D_{x}G=\begin{bmatrix}[\partial_{i}F_{j}]_{i,j}^k&*\\0&I_{n-k}\end{bmatrix}$$Therefore, $\det D_{x}G=\det [\partial_{i}F_{j}]_{i,j}^k\neq 0$. Using the inverse function theorem on $G$, there exists open subsets $A\subseteq A_{0}$ and $U\subseteq \mathbb{R}^n$, both containing $0$, s.t. $G:A\to U$ is a $C^r$-diffeomorphism. 
 > 
 > Then, for $y\in U$, there exists $x\in A$ s.t. $G(x)=y$. We have: $$\begin{align}(F\circ G^{-1})(y)&=F(x_{1},\dots,x_{n})\\&=(F_{1}(x),\dots,F_{m}(x))\\&=(y_{1},\dots,y_{k},f_{k+1}(y),\dots,f_{m}(y))\end{align}$$where $f_{\ell}(y)=F_{\ell}(x)$ for all $\ell\geq k+1$. Now observe that $F\circ G^{-1}$ has constant rank $k$ on $U$ and that for $y\in U$, we have $$D_{y}(F\circ G^{-1})=D_{G^{-1}(y)}F\circ D_{y}G$$ Hence the
+---
+> [!lemma] Corollary 2
+> Let $M,N$ be smooth manifolds and $F\in C^\infty(M,N)$ of constant rank $k$. Then, for $p\in M$, there exists charts $(U,\varphi)$ at $p$ and $(W,\psi)$ at $F(p)$ and $\varepsilon>0$ s.t. 
+> 1. $\varphi(p)=0$, $\psi(F(p))=0$
+> 2. $\varphi(U)=(-\varepsilon,\varepsilon)^m$, $\psi(W)=(-\varepsilon,\varepsilon)^n$
+> 3. $$\psi F\varphi ^{-1}(x_{1},\dots,x_{n})=(x_{1},\dots,x_{k},0,\dots,0)$$
