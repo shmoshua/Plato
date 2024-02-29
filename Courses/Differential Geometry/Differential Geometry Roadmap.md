@@ -12,7 +12,8 @@
 7. **Example of a Smooth Manifold**: [[Grassmannian]]
 
 **1.2 Differentiable Maps: Definition and Examples**
-1. 
+1. [[Differentiable Function]]
+2. [[Diffeomorphism]]
 
 ### Part 2. Riemannian Geometry
 

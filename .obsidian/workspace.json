@@ -61,13 +61,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Open Equivalence Relation.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "e66c50310fee80ac",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "c45eeefa3389e702",
@@ -121,8 +130,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,7 +196,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differentiable Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +212,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differentiable Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,9 +233,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Differential Geometry/Differentiable Function.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -250,14 +254,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "dbd4dc2c12260e19",
+  "active": "e66c50310fee80ac",
   "lastOpenFiles": [
-    "Differential Geometry/Atlas.md",
-    "Differential Geometry/Differentiable Function.md",
+    "Differential Geometry/Cotangent Space.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Grassmannian.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Open Equivalence Relation.md",
+    "Differential Geometry/Grassmannian.md",
+    "Differential Geometry/Differentiable Function.md",
+    "Differential Geometry/Atlas.md",
+    "Differential Geometry/Smooth Manifold.md",
     "Topology/Topological Vector Space.md",
     "Differential Geometry/Torus.md",
     "Differential Geometry/Pullback.md",
@@ -277,7 +282,6 @@
     "Topology/Dense Subset.md",
     "Topology/Complete Metric Space.md",
     "Analysis/Cauchy Sequence.md",
-    "Analysis/Convergence of Sequences.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
