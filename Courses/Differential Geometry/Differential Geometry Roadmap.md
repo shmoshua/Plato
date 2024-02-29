@@ -28,7 +28,7 @@
 2. [[Differential]]
 
 **2.2 Tangent Vectors and Derivations**
-1. 
+1. [[Derivation]]
 ---
 ### Part 2. Riemannian Geometry
 

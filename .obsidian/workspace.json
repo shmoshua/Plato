@@ -76,7 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Differential Geometry/Derivation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Differential Geometry/Derivation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Submanifold.md"
+                "file": "Differential Geometry/Derivation.md"
               }
             }
           }
@@ -223,13 +223,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9fc2683c13bd92bd",
+  "active": "31171c08ffd637c5",
   "lastOpenFiles": [
-    "Differential Geometry/Derivation.md",
-    "Differential Geometry/Smooth Curves in Rn.md",
+    "Topology/Locally Compact Hausdorff Space.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Derivation.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Smooth Curves in Rn.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Differential Geometry/Rank.md",
     "Differential Geometry/Differentiable Function.md",
@@ -240,7 +241,6 @@
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/Character.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Differential Geometry/Grassmannian.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
     "Differential Geometry/Atlas.md",
