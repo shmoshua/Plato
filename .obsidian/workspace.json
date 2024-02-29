@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "source",
                 "source": true
               }
@@ -64,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -141,8 +141,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -162,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Differential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Differential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md"
+                "file": "Differential Geometry/Differential.md"
               }
             }
           }
@@ -224,13 +223,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "31171c08ffd637c5",
+  "active": "71b605036c4880c9",
   "lastOpenFiles": [
     "Differential Geometry/Differentiable Function.md",
-    "Differential Geometry/Immersion.md",
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Differential.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Immersion.md",
+    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Rank.md",
     "Analysis/Functional Analysis/Volterra Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -249,7 +249,6 @@
     "Topology/Topological Vector Space.md",
     "Differential Geometry/Torus.md",
     "Differential Geometry/Local Isometry.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Riemannian Metric.md",
     "Courses/Analysis IV",

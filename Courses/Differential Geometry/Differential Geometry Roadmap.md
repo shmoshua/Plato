@@ -25,6 +25,7 @@
 ##### 2. Tangent spaces, Differential and Whitney’s Embedding Theorem
 **2.1 Tangent Spaces**
 1. [[Tangent Space]]
+2. [[Differential]]
 ---
 ### Part 2. Riemannian Geometry
 
