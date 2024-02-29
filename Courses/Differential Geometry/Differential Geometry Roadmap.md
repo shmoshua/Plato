@@ -2,6 +2,7 @@
 
 ### Part 1. Differential Geometry
 ##### 1. Differential Manifolds and Differentiable Maps
+**1.1 Differential Manifolds: Definitions and Examples**
 1. [[Topological Manifold]]
 2. [[Atlas]]
 3. [[Smooth Manifold]]
@@ -9,6 +10,9 @@
 5. **Example of a Construction of a Smooth Manifold**: [[Open Equivalence Relation]]
 6. **Example of a Construction of a Smooth Manifold**: [[Open Equivalence Relation|Real Projective Space]] $\mathbb{P}^n\mathbb{R}$
 7. **Example of a Smooth Manifold**: [[Grassmannian]]
+
+**1.2 Differentiable Maps: Definition and Examples**
+1. 
 
 ### Part 2. Riemannian Geometry
 
