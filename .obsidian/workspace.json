@@ -66,17 +66,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "e66c50310fee80ac",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -196,6 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Differential Geometry/Differentiable Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,6 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Differential Geometry/Differentiable Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,7 +226,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Differential Geometry/Differentiable Function.md"
+              }
             }
           }
         ]
@@ -254,10 +249,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e66c50310fee80ac",
+  "active": "dbd4dc2c12260e19",
   "lastOpenFiles": [
-    "Differential Geometry/Cotangent Space.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Open Equivalence Relation.md",
     "Differential Geometry/Grassmannian.md",
     "Differential Geometry/Differentiable Function.md",
