@@ -21,6 +21,10 @@
 ##### 3. The Guelfand Representations
 **3.1 Regular Ideals**
 1. [[Regular Ideal]]
+2. [[Locally Compact Hausdorff Space]] and closed ideals. (FINISH PROOF)
+
+**3.2 Guelfand Spectrum and Ideals**
+1. 
 ---
 ##### 4. The Guelfand Isomorphisms
 ---

@@ -44,4 +44,5 @@
 > [!proof]-
 > Assume there exists a norm $\|\cdot\|$ that induces the topology. Then, $B_{<1}(0)$ is an open neighborhood of $0$. Therefore, there exists $\{ p_{K_{i}} \}_{i\in[\ell]}$ and $\varepsilon>0$ s.t. $$N(0,\{ p_{K_{i}} \}_{i\in[\ell]},\varepsilon)\subseteq B_{<1}(0)$$Let $K:=\bigcup_{i=1}^{\ell}K$. Then, $$\{ f\in C(\mathbb{R}^d):\text{supp}(f)\subseteq \mathbb{R}^d \backslash K \}\subseteq B_{<1}(0)$$which is nonsense.
 ---
-> 
+> [!lemma] Proposition 1
+> Let $X$ be a locally compact Hausdorff space and: $$I(E):=\{ f\in C_{0}(X):f|_{E}=0 \}\quad \forall E\subseteq X$$Then, $$\begin{array}{cccc} &{\{ E\subseteq X :E \text{ is closed}\}}&\to&{\{ \mathfrak{a}\subseteq C_{0}(X):\mathfrak{a}\text{ is a closed ideal} \}}\\&{E} &\mapsto & {I(E)} \end{array}{}$$is a bijection. Moreover, $I(E)$ is maximal if and only if $\left| E \right|=1$.

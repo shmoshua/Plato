@@ -21,7 +21,7 @@
 > 1. $\mathfrak{a}\subsetneq A$ is proper and regular, then $\overline{\mathfrak{a}}\subsetneq A$ is proper and regular.
 > 2. $\mathfrak{a}\subseteq A$ is [[Maximal Ideal|maximal]] regular, then $\mathfrak{\overline{a}}=\mathfrak{a}$.
 
-> [!proof]-
+> [!proof]- Proof (Incomplete)
 > We have: 
 > 1. If $\mathfrak{a}\subseteq A$ is an ideal, $\overline{\mathfrak{a}}$ is an ideal due to the continuity of algebraic operations. Further, $\overline{\mathfrak{a}}$ is regular from Proposition 2. 
 > 2. If $\mathfrak{a}=A$, then $\mathfrak{\overline{a}}=A$. Otherwise, $\mathfrak{a}\subseteq A$ is proper and regular. Therefore, $\overline{\mathfrak{a}}$ is proper and regular, but by the maximality, $\mathfrak{\overline{a}}=\mathfrak{a}$.

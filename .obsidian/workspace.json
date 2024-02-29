@@ -13,38 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "84fc84d268721227",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3afa2ca8038ff521",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Regular Ideal.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d82fce9660cdb62d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
-                "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -92,19 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c09073eca40682c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Grassmannian.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
@@ -177,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md"
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md"
               }
             }
           }
@@ -239,16 +214,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d82fce9660cdb62d",
+  "active": "b5f6b5a7ff3f6458",
   "lastOpenFiles": [
-    "Differential Geometry/Atlas.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
-    "Analysis/Functional Analysis/Regular Ideal.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Functional Analysis/Character.md",
+    "Topology/Locally Compact Hausdorff Space.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/Untitled.md",
+    "Differential Geometry/Grassmannian.md",
+    "Analysis/Functional Analysis/Regular Ideal.md",
+    "Differential Geometry/Atlas.md",
     "Differential Geometry/Rank.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Grassmannian.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Differentiable Function.md",
@@ -265,8 +242,6 @@
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Principal Ideal Domain.md",
-    "Differential Geometry/Riemannian Manifold.md",
-    "Topology/Interior.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

@@ -28,7 +28,20 @@
 > By the [[Bounded Linear Map|Closed graph theorem]], $T$ is bounded and, there exists $K>0$ s.t. $$\left\| xy \right\| \leq \left\| M_{x} \right\| \left\| y \right\| \leq K\|x\|\|y\|$$Now, let $\|x\|_{\text{new}}=K\|x\|$. Then, $$\left\| xy \right\| _{\text{new}}=K\left\| xy \right\| \leq K^{2}\|x\|\|y\|=\|x\|_{\text{new}}\|y\|_{\text{new}}$$and $(A,\|\cdot\|_{\text{new}})$ is Banach as the norms are equivalent. 
 ---
 > [!lemma] Proposition 3
-> Let $A$ be a Banach algebra and $\mathfrak{a}\subseteq A$ a closed ideal. Then, the quotient Banach space $A / \mathfrak{a}$ together with the quotient $\mathbb{C}$-algebra struc
+> Let $A$ be a Banach algebra and $\mathfrak{a}\subseteq A$ a closed [[ideal]]. Then, the quotient Banach space $A / \mathfrak{a}$ together with the quotient $\mathbb{C}$-algebra structure is a Banach algebra.
+
+> [!proof]-
+> We have that:
+> 1. **$A / \mathfrak{a}$ is an algebra:**
+> 	$$(x+\mathfrak{a})(y+\mathfrak{a})=xy+\mathfrak{a}$$
+> 2. **$A / \mathfrak{a}$ is a Banach space** with $\|x+\mathfrak{a}\|=\inf\{ \|x+y\|: y\in \mathfrak{a} \}$
+> 3. **$A / \mathfrak{a}$ is a Banach algebra**: 
+> 	Let $\varepsilon>0$ and $u,v\in \mathfrak{a}$ s.t. 
+> 	1. $\|x+u\|<\|x+\mathfrak{a}\|+\varepsilon$
+> 	2. $\|y+v\|<\|y+\mathfrak{a}\|+\varepsilon$
+> 	
+> 	Then, $$(x+u)(y+v)=xy+\underbrace{ xv+uy+uv }_{ =:w\in \mathfrak{a} }=xy+w$$
+> 	Therefore, $$\begin{align}\left\| xy+\mathfrak{a} \right\| \leq \left\| xy+w \right\| =\left\| (x+u)(y+v) \right\|\leq\|x+u\|\|y+v\|<\left( \|x+\mathfrak{a}\|+\varepsilon \right) \left( \|y+\mathfrak{a}\|+\varepsilon \right)  \end{align}$$
 ---
 ##### Examples
 **3 Families of Banach Algebras**
