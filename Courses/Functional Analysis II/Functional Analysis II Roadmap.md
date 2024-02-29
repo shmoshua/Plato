@@ -20,7 +20,7 @@
 ---
 ##### 3. The Guelfand Representations
 **3.1 Regular Ideals**
-1. 
+1. [[Regular Ideal]]
 ---
 ##### 4. The Guelfand Isomorphisms
 ---

@@ -3,6 +3,13 @@
 > Let $A$ be a commutative [[Banach algebra]]. An ideal $\mathfrak{a}\subseteq A$ is ***regular***, if there exists $u\in A$ s.t. $$ux-x\in \mathfrak{a},\quad\forall x\in A$$
 - **Equivalent definition**: $\mathfrak{a}$ is regular if either $\mathfrak{a}=A$ or $\mathfrak{a}\subsetneq A$ and $A / \mathfrak{a}$ is [[C-Algebra|unital]].
 ---
+##### Properties
+> [!lemma] Proposition 1
+> Let $A$ be a commutative Banach algebra and $\mathfrak{a}\subseteq A$ a proper regular ideal. Further, let $u\in A$ be a [[unit]] modulo $\mathfrak{a}$. Then, $$\|u-x\|\geq 1,\quad \forall x\in \mathfrak{a}$$
+
+> [!proof]+
+> Assume $x\in \mathfrak{a}$ s.t. $\|u-x\|<1$. Then, $$s:=\sum_{n=1}^{\infty}(u-x)^n$$converges absolutely.  Now, $u-x=s-s(u-x)=s-su+sx$
+---
 ##### Examples
 > [!h] Example 1
 > We have:

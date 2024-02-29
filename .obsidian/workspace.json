@@ -13,62 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differentiable Function.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "a436566420abc621",
+            "id": "3afa2ca8038ff521",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Grassmannian.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "254090422be49732",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Pullback.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92de19432c0b54e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "251b80ced8a543e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Rank.md",
+                "file": "Analysis/Functional Analysis/Regular Ideal.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -92,7 +56,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Rank.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c002b8ba9c79718",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Regular Ideal.md",
                 "mode": "preview",
                 "source": false
               }
@@ -123,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Rank.md",
+                "file": "Analysis/Functional Analysis/Regular Ideal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Rank.md",
+                "file": "Analysis/Functional Analysis/Regular Ideal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Rank.md"
+                "file": "Analysis/Functional Analysis/Regular Ideal.md"
               }
             }
           }
@@ -251,20 +227,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1af05518e31dbdc6",
+  "active": "5c002b8ba9c79718",
   "lastOpenFiles": [
-    "Differential Geometry/Differentiable Function.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Regular Ideal.md",
+    "Analysis/Functional Analysis/Untitled.md",
     "Differential Geometry/Rank.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Grassmannian.md",
+    "Differential Geometry/Pullback.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Open Equivalence Relation.md",
-    "Differential Geometry/Grassmannian.md",
     "Topology/Topological Vector Space.md",
     "Differential Geometry/Torus.md",
-    "Differential Geometry/Pullback.md",
-    "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Local Isometry.md",
     "Differential Geometry/Differential.md",
@@ -276,9 +255,6 @@
     "Differential Geometry/Riemannian Manifold.md",
     "Topology/Interior.md",
     "Analysis/Hilbert Space.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Topology/Dense Subset.md",
-    "Topology/Complete Metric Space.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

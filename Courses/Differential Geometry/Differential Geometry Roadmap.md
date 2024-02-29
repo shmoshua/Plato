@@ -15,6 +15,9 @@
 1. [[Differentiable Function]]
 2. [[Diffeomorphism]]
 
+**1.3 The Rank Theorem**
+1. [[Rank]]
+
 ### Part 2. Riemannian Geometry
 
 ##### 1. Riemannian Manifolds
