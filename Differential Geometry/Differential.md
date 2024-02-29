@@ -22,12 +22,12 @@
 > 1. $F^{-1}(y)\subseteq M$ is a regular $m-k$ dimensional [[submanifold]].
 > 2. for the injection $i:F^{-1}(y)\hookrightarrow M$ and $p\in F^{-1}(y)$:$$d_{p}i(\text{T}_{p}(F^{-1}(y)))=\text{ker }d_{p}F$$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. From [[Submanifold|Theorem 1]].
 > 2. Consider the map $F\circ i:F^{-1}(y)\to N,p\mapsto y$. Then, $d_{p}(f\circ i)=0$. Using the chain rule, $$d_{i(p)}F\circ d_{p}i=0$$In particular, $d_{p}i(\text{T}_{p}(F^{-1}(y)))\subseteq \text{ker }d_{p}F$.
 >    
->    For the other inclusion, as the rank of $i$ at any $p\in F^{-1}(y)$ is $m-k$. Therefore, 
+>    For the other inclusion, as the rank of $i$ at any $p\in F^{-1}(y)$ is $m-k$. Therefore, by Lemma 1.2, $\text{dim }d_{p}i(\text{T}_{p}(F^{-1}y))=m-k$. Then, $$\text{dim }\text{ker }d_{p}F=\text{dim }\text{T}_{p}M-\text{dim }d_{p}F(\text{T}_{p}M)=m-k$$This implies the inverse conclusion.
 ---
 > [!lemma] Proposition 1
 > Let $M,N$ be a [[smooth manifold]] and $F:N\to M$ be a [[Smooth Function|smooth map]]. Then, for a [[smooth vector field]] $V\in \Gamma(TM)$, $$\begin{array}{cccc} {F_{*}V:}&{N}&\to&{TN}\\&{p} &\mapsto & {d_{p}F(V(p))} \end{array}{}$$

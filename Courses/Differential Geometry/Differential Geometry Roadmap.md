@@ -26,6 +26,9 @@
 **2.1 Tangent Spaces**
 1. [[Tangent Space]]
 2. [[Differential]]
+
+**2.2 Tangent Vectors and Derivations**
+1. 
 ---
 ### Part 2. Riemannian Geometry
 
