@@ -7,6 +7,8 @@
 3. [[Smooth Manifold]]
 4. **Example of a Construction of a Smooth Manifold**: [[Torus]]
 5. **Example of a Construction of a Smooth Manifold**: [[Open Equivalence Relation]]
+6. **Example of a Construction of a Smooth Manifold**: [[Open Equivalence Relation|Real Projective Space]] $\mathbb{P}^n\mathbb{R}$
+7. **Example of a Smooth Manifold**: [[Grassmannian]]
 
 ### Part 2. Riemannian Geometry
 
