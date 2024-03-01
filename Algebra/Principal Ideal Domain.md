@@ -39,9 +39,24 @@
 > 4. there exist $x,y\in R$ s.t. $d=ax+by$ and $d|a$ and $d|b$.
 
 > [!proof]-
-> As $R$ is a PID, there exists $c\in R$ s.t. $(a,b)=(c)$. Therefore, $c|a$ and $c|b$ and therefore, $c|d$. This shows that $(d)\subseteq(c)$.
-> 
-> On the other hand, $d|a$, $d|b$ and $a,b\in (d)$. Therefore, $(c)\subseteq(d)$. So $(c)=(d)$.
+> We have: 
+> - (2=>3): SInce $d\in (a,b)$, there exists $x,y\in R$ s.t. $d=ax+by$. Further, for $s,t\in R$, $as+bt\in (a,b)=(d)$. Therefore, $d|as+bt$.
+> - (3=>4): By choosing $(s,t)=(1,0)$ and $(s,t)=(0,1)$ it follows.
+> - (4=>2): As $d=ax+by$, $d\in (a,b)$ and $(d)\subseteq(a,b)$. However, by assumption, $a,b\in (d)$. Therefore, $(a,b)\subseteq(d)$.
+> - (1=>2): As $R$ is a PID, there exists $c\in R$ s.t. $(a,b)=(c)$. Therefore, $c|a$, $c|b$ and  $c|d$. This shows that $(d)\subseteq(c)$. On the other hand, $d|a$, $d|b$ and $a,b\in (d)$. Therefore, $(c)\subseteq(d)$. So $(c)=(d)$.
+> - (4=>1): By assumption $d|a$ and $d|b$. Assume there exists $c\in R$ with $c|a,c|b$. Then, $c|ax$ and $c|by$. Therefore, $c|ax+by=d$. Therefore, $d=\text{gcd}(a,b)$.
+---
+> [!lemma] Proposition 4
+> In a principal ideal domain $R$, 
+> 1. $x\in R$ is a [[Integral Domain|prime]] if and only if $x$ is [[Integral Domain|irreducible]]. 
+> 2. every non-zero [[prime ideal]] $\mathfrak{p}$ is [[Maximal Ideal|maximal]].
+
+> [!proof]+
+> We have
+> 1. By [[Integral Domain|Lemma 2]], a prime element is irreducible.
+> 2. Let $\mathfrak{p}\subseteq R$ be a non-zero prime. As $R$ is a PID, then there exists $p\in R$ s.t. $\mathfrak{p}=(p)$ and from [[Integral Domain|Lemma 2]], $p$ is prime. Therefore, $p$ is irreducible. 
+>    
+>    Hence, for any $m\in R$ s.t. $(p)\subseteq(m)$, $p=am$. From the irreducibility, $m\in R^{*}$ or $a\in R^{*}$. If $m\in R^{*}$, then $(m)=R$. Conversely, if $a\in R^{*}$, then $m\sim p$ are associates, i.e. $(m)=(p)$.
 ---
 ##### Examples
 

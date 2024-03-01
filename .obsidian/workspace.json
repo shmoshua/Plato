@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Local Isometry.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "3b6bfb5a542486a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Principal Ideal Domain.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "c45eeefa3389e702",
@@ -56,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -68,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Cantor Space.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -152,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Local Isometry.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Local Isometry.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Local Isometry.md"
+                "file": "Algebra/Principal Ideal Domain.md"
               }
             }
           }
@@ -214,34 +226,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "35ce9b9157b9ea28",
+  "active": "c338b40fbf4aa7ff",
   "lastOpenFiles": [
+    "Algebra/Integral Domain.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Differential Geometry/Derivation.md",
+    "Algebra/Euclidean Domain.md",
+    "Analysis/Lp Space.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Topology/Cantor Space.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Hyperbolic Space.md",
+    "Differential Geometry/Rank.md",
+    "Differential Geometry/Regular Curves in Rn.md",
+    "Differential Geometry/Riemannian Manifold.md",
+    "Differential Geometry/Section.md",
+    "Differential Geometry/Smooth Atlas.md",
+    "Differential Geometry/Riemannian Metric.md",
+    "Differential Geometry/Local Isometry.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Transition Function.md",
     "Differential Geometry/Torus.md",
     "Differential Geometry/Immersion.md",
-    "Differential Geometry/Hyperbolic Space.md",
     "Differential Geometry/Grassmannian.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Arc Length.md",
     "Analysis/Functional Analysis/Spectral Radius.md",
     "Analysis/Functional Analysis/Spectrum.md",
-    "Analysis/Functional Analysis/Unitary Linear Map.md",
-    "Analysis/Functional Analysis/Volterra Algebra.md",
-    "Analysis/Functional Analysis/Sobolev Space.md",
-    "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
-    "Analysis/Functional Analysis/Seminorm.md",
-    "Analysis/Functional Analysis/Regular Ideal.md",
-    "Analysis/Functional Analysis/Open and Closed Maps.md",
-    "Analysis/Functional Analysis/Normal Operator.md",
-    "Analysis/Functional Analysis/Multiplication Operator on Lp Space.md",
-    "Analysis/Functional Analysis/Mean (Group Theory).md",
-    "Analysis/Functional Analysis/Meager Set.md",
-    "Analysis/Functional Analysis/L1 Space on d-regular Trees.md",
-    "Analysis/Functional Analysis/Integral Operator.md",
-    "Analysis/Functional Analysis/Hilbert-Schmidt Operator.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
