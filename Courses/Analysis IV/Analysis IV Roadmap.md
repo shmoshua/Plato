@@ -24,6 +24,7 @@
 
 **1.4 Basis of a Hilbert Space**
 1. [[Separable Space]]
+2. [[Hilbert Basis]]
 ---
 ### Exercises
 1. [[Courses/Analysis IV/Exercise Sheet 0|Exercise Sheet 0]]

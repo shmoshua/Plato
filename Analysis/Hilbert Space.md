@@ -4,6 +4,16 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1
+> Let $\mathcal{H}$ be a [[separable]] Hilbert space with $\{ e_{k} \}$ as orthonormal basis. Then:
+> 1. **Bessel's inequality**: for all $x\in \mathcal{H}$, $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
+> 2. For all $x\in \mathcal{H}$, $\sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k}$ converges to  $\overline{x}\in\mathcal{H}$.
+> 3. $\left\| \overline{x} \right\|^{2}=\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} } \right|^{2}\leq \|x\|^{2}$
+> 4. $x-\overline{x}$ is orthogonal to $\overline{\braket{ \{ e_{k} \}_{k}  }}$
+> 5. **Parseval's identity**: The equality in Bessel's inequality holds if and only if $x=\overline{x}$.
+
+> [!proof]+
+---
+> [!lemma] Theorem 1
 > For a Hilbert space $\mathcal{H}$ and a closed convex subset $C\subseteq \mathcal{H}$. Then, for all $v\in \mathcal{H}$, there exists a unique $\rho_{C}(v)\in C$ s.t.
 > $$\|v-\rho_{C}(v)\|=d(v,C)$$
 

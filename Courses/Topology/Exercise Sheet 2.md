@@ -21,7 +21,9 @@ We have:
 
 We have:
 1. The symmetry and non-negativity are clear from the definition. For non-degeneracy, if $x=y$, then $\delta(x,y)=d(x,y)=0$. If $\delta(x,y)=0$, then $d(x,y)=0$ and $x=y$ or $d(x,0)+d(0,y)=0$ with $x$ not proportional to $y$, which cannot happen. Lastly, for triangle inequality, let $x,y,z\in \mathbb{R}^{2}$. Firstly, by triangle inequality of $d$, notice that $d(x,y)\leq\delta(x,y)$. If $x$ and $z$ are proportional, $$\delta(x,z)=d(x,z)\leq d(x,y)+d(y,z)=\delta(x,y)+\delta(y,z)$$If $x$ and $z$ are not proportional, by transitivity of proportionality, $y$ is not proportional to at least one of $x,z$. Wlog assume $y$ is not proportional to $x$. Then, $$\delta(x,z)=d(x,0)+d(0,z)\leq d(x,0)+d(0,y)+d(y,z)\leq\delta(x,y)+\delta(y,z)$$This proves the statement.
-2. For $y,z\in \mathbb{R}^{2}$, let $[y:z]$ define the line that goes through $y$ and $z$. Then, geometrically we can consider the ball as follows: $$B_{<r}^\delta(x)=$$
+2. For $y,z\in \mathbb{R}^{2}$, let $[y:z]$ define the line that goes through $y$ and $z$. Then, geometrically we can consider the ball as follows: $$B_{<r}^\delta(x)=([0:x]\cap B_{<r}^d(x))\cup B_{<r-d(x,0)}(0)$$ where $B_{<\varepsilon}(0)=\varnothing$ for $\varepsilon\leq 0$. In other words, the open balls are a union of a line segment of length $2r$ that goes centered at $x$ and an open ball at $0$ with radius $r-d(x,0)$, if this value is positive.
+3. Let $U\in \mathcal{T}_{d}$. Then, for $x\in U$, there exists $r$ s.t. $B^d_{<r}(x)\subseteq U$. 
+   If $x=0$, then, $B^\delta_{r}(x)=B^d_{r}(x)\subseteq U$. Otherwise, let $\varepsilon:=\min\{ r,d(x,0)\}>0$. Then, $$B_{<\varepsilon}^\delta(x)=\{ y\in x: \}$$
 ---
 > [!definition] Problem 3
 > Let $X$ be a set. 
