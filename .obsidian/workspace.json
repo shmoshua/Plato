@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "150cfca53889987a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "7594ff4e94cf9a86",
             "type": "leaf",
             "state": {
@@ -78,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e50d655d12c9880",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Separable Space.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "c45eeefa3389e702",
@@ -117,42 +117,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Topology/Exercise Sheet 2.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "5f4576e15927ace7",
+            "id": "9a7a8dbc6ed480e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Topology/Metric Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9fc2683c13bd92bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e55e59676c10c4cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Linear Algebra/Rank and Nullity.md",
                 "mode": "preview",
                 "source": false
               }
@@ -291,18 +267,21 @@
   "lastOpenFiles": [
     "Topology/Metric Space.md",
     "Courses/Topology/Exercise Sheet 2.md",
+    "Topology/Separable Space.md",
+    "Analysis/Hilbert Space.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Analysis/Gram-Schmidt Orthogonalization.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Algebra/Linear Algebra/Rank and Nullity.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Derivation.md",
     "Topology/Cantor Space.md",
     "Measure Theory/Cantor Set.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Smooth Curves in Rn.md",
-    "Algebra/Linear Algebra/Rank and Nullity.md",
     "Differential Geometry/Rank.md",
     "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Tangent Space.md",
@@ -312,9 +291,6 @@
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/Character.md",
-    "Differential Geometry/Grassmannian.md",
-    "Analysis/Functional Analysis/Regular Ideal.md",
-    "Differential Geometry/Atlas.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

@@ -20,6 +20,10 @@
 
 **1.3 Hilbert Spaces**
 1. [[Hilbert Space]]
+2. [[Gram-Schmidt Orthogonalization]]
+
+**1.4 Basis of a Hilbert Space**
+1. [[Separable Space]]
 ---
 ### Exercises
 1. [[Courses/Analysis IV/Exercise Sheet 0|Exercise Sheet 0]]
