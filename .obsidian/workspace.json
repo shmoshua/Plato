@@ -66,6 +66,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "91e7266879ff7d92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 4
@@ -275,10 +287,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "7594ff4e94cf9a86",
+  "active": "c75bb400a24c3d7c",
   "lastOpenFiles": [
     "Topology/Metric Space.md",
     "Courses/Topology/Exercise Sheet 2.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
@@ -302,7 +315,6 @@
     "Differential Geometry/Grassmannian.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
     "Differential Geometry/Atlas.md",
-    "Differential Geometry/Pullback.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
