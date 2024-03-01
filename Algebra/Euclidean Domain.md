@@ -12,6 +12,7 @@
 
 > [!proof]-
 > Let $R$ be euclidean and $\mathfrak{a}\subseteq R$ a non-trivial ideal. Then, we choose $a\in \mathfrak{a}$ s.t. $$a=\arg\min_{b\in \mathfrak{a}} N(b) $$Therefore, for any $b\in \mathfrak{a}$, we have that $b=qa+r$ for some $q,r\in R$. As $a,b\in \mathfrak{a}, r\in \mathfrak{a}$. However, by the minimality assumption, $N(r)\geq N(a)$. This means $r=0$. Therefore, $b=qa$. This shows that $\mathfrak{a}=(a)$.
+- **Remark**: $R=\left\{  a+b \left( \frac{1+\sqrt{ -19 }}{2} \right) |a,b\in \mathbb{Z} \right\}$ is a PID but not a euclidean domain.
 ---
 > [!lemma] Theorem 2
 > Let $R$ be an euclidean domain and $a,b\in R \backslash\{ 0 \}$. Further, let $d=r_{n}$ be the last non-zero remainder in the Euclidean algorithm with $a,b$. Then, 
