@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Basis.md",
+                "file": "Topology/Cantor Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -251,12 +251,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "7594ff4e94cf9a86",
+  "active": "c75bb400a24c3d7c",
   "lastOpenFiles": [
+    "Topology/Cantor Space.md",
+    "Measure Theory/Cantor Set.md",
+    "Analysis/Hilbert Basis.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Analysis/Hilbert Space.md",
-    "Analysis/Hilbert Basis.md",
     "Topology/Separable Space.md",
     "Analysis/Lp Space.md",
     "Topology/Metric Space.md",
@@ -267,8 +269,6 @@
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Derivation.md",
-    "Topology/Cantor Space.md",
-    "Measure Theory/Cantor Set.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Smooth Curves in Rn.md",
