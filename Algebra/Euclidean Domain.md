@@ -8,10 +8,21 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> Every euclidean ring is a [[Principal Ideal Domain|principal ideal domain]].
+> Every euclidean domain is a [[Principal Ideal Domain|principal ideal domain]].
 
 > [!proof]-
 > Let $R$ be euclidean and $\mathfrak{a}\subseteq R$ a non-trivial ideal. Then, we choose $a\in \mathfrak{a}$ s.t. $$a=\arg\min_{b\in \mathfrak{a}} N(b) $$Therefore, for any $b\in \mathfrak{a}$, we have that $b=qa+r$ for some $q,r\in R$. As $a,b\in \mathfrak{a}, r\in \mathfrak{a}$. However, by the minimality assumption, $N(r)\geq N(a)$. This means $r=0$. Therefore, $b=qa$. This shows that $\mathfrak{a}=(a)$.
+---
+> [!lemma] Theorem 2
+> Let $R$ be an euclidean domain and $a,b\in R \backslash\{ 0 \}$. Further, let $d=r_{n}$ be the last non-zero remainder in the Euclidean algorithm with $a,b$. Then, 
+> 1. $d=\gcd(a,b)$
+> 2. $(d)=(a,b)$ and $d=ax+by$ for some $x,y\in R$.
+
+> [!proof]-
+> As $R$ is also a PID by Theorem 1, it suffices to show that $(a,b)=(d)$ by [[Principal Ideal Domain|Theorem 3]].
+> 1. **Showing $(a,b)\subseteq (d)$**: By induction, we get that $r_{n}|b$ and $r_{n}|a$. Therefore, $(a,b)\subseteq(d)$.
+> 2.  **Showing $(a,b)\supseteq (d)$**: By induction, we get that $r_{i}\in (a,b)$ for all $i\in [n]$.
+> 
 ---
 ##### Examples
 > [!h] Example 1

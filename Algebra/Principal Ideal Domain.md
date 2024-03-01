@@ -51,7 +51,7 @@
 > 1. $x\in R$ is a [[Integral Domain|prime]] if and only if $x$ is [[Integral Domain|irreducible]]. 
 > 2. every non-zero [[prime ideal]] $\mathfrak{p}$ is [[Maximal Ideal|maximal]].
 
-> [!proof]+
+> [!proof]-
 > We have
 > 1. By [[Integral Domain|Lemma 2]], a prime element is irreducible.
 > 2. Let $\mathfrak{p}\subseteq R$ be a non-zero prime. As $R$ is a PID, then there exists $p\in R$ s.t. $\mathfrak{p}=(p)$ and from [[Integral Domain|Lemma 2]], $p$ is prime. Therefore, $p$ is irreducible. 
