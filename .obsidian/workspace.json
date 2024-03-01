@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,9 +85,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ee3a4b83f10bd160",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Unique Factorization Domain.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b7b18ab2369ca47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Integral Domain.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,8 +157,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Euclidean Domain.md"
+                "file": "Algebra/Unique Factorization Domain.md"
               }
             }
           }
@@ -216,15 +239,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3b6bfb5a542486a5",
+  "active": "ee3a4b83f10bd160",
   "lastOpenFiles": [
+    "Algebra/Integral Domain.md",
+    "Algebra/Unique Factorization Domain.md",
     "Algebra/Principal Ideal Domain.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Euclidean Domain.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
-    "Algebra/Integral Domain.md",
     "Differential Geometry/Derivation.md",
     "Analysis/Lp Space.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Topology/Cantor Space.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Hyperbolic Space.md",
@@ -243,7 +267,6 @@
     "Differential Geometry/Differential.md",
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Arc Length.md",
-    "Analysis/Functional Analysis/Spectral Radius.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
