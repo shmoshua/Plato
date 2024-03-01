@@ -19,6 +19,10 @@
 1. [[Topological Manifold]]
 
 **1.4 Cantor Set/Space**
+1. [[Cantor Space]]
+1. [[Cantor Set]]
+
+**1.5 Function Spaces**
 1. 
 ---
 ### Exercises
