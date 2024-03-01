@@ -128,14 +128,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Metric Space.md",
+                "file": "Topology/Separable Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ffc7a84ad3e8cfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Lp Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -263,14 +275,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c75bb400a24c3d7c",
+  "active": "7594ff4e94cf9a86",
   "lastOpenFiles": [
-    "Topology/Metric Space.md",
-    "Courses/Topology/Exercise Sheet 2.md",
     "Topology/Separable Space.md",
-    "Analysis/Hilbert Space.md",
+    "Courses/Topology/Exercise Sheet 2.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Analysis/Lp Space.md",
+    "Topology/Metric Space.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Analysis/Hilbert Space.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Analysis/Gram-Schmidt Orthogonalization.md",
     "Topology/Locally Compact Hausdorff Space.md",
@@ -290,7 +303,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
-    "Analysis/Functional Analysis/Character.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

@@ -13,3 +13,13 @@
 
 > [!proof]-
 > Let $X$ be compact metric. Then, $X$ is totally bounded and let $X_{\varepsilon}$ define the $\varepsilon$-net for $\varepsilon>0$. Therefore, $Y:=\bigcup_{n=1}^{\infty}X_{1 / n}$ is a countable dense subset.
+---
+> [!h] Example 3
+> For a compact set $K\subseteq \mathbb{R}$, $C(K)$ is separable.
+
+> [!proof]-
+> Weierstrass
+---
+> [!h] Example 4 (Non-separable Hilbert space)
+> Let $X$ be an uncountable set and consider $L^2(X,\#)$. Then, $$\{ B_{< \sqrt{ 2 }/2}(\chi_{\{ x \}}): x\in X \}$$is an uncountable family of disjoint balls. Therefore, $L^2(X,\#)$ is not separable.
+---

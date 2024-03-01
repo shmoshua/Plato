@@ -15,9 +15,13 @@ We have:
 > [!definition] Problem 2
 > Let $X=\mathbb{R}^2$. Let $d$ denote the euclidean distance on $X$. Define for $(x,y)\in X\times X$, $$\delta(x,y)=\begin{cases}d(x,y)&\exists\lambda\in \mathbb{R}: y=\lambda x\\d(x,0)+d(0,y)&\text{otherwise}\end{cases}$$
 > 1. Show that $\delta$ is a distance on $\mathbb{R}^{2}$.
-> 2. Give a geometric description of the sets: $$B^\delta_{<r}(x_{0}):=\{ y\in \mathbb{R}^{2}:\delta(x,y)<r \}$$
+> 2. Give a geometric description of the sets: $$B^\delta_{<r}(x):=\{ y\in \mathbb{R}^{2}:\delta(x,y)<r \}$$
 > 3. Show that $\mathcal{T}_{d}\subseteq \mathcal{T}_{\delta}$.
 > 4. Show that $\mathcal{T}_{\delta}\not\subseteq \mathcal{T}_{d}$.
+
+We have:
+1. The symmetry and non-negativity are clear from the definition. For non-degeneracy, if $x=y$, then $\delta(x,y)=d(x,y)=0$. If $\delta(x,y)=0$, then $d(x,y)=0$ and $x=y$ or $d(x,0)+d(0,y)=0$ with $x$ not proportional to $y$, which cannot happen. Lastly, for triangle inequality, let $x,y,z\in \mathbb{R}^{2}$. Firstly, by triangle inequality of $d$, notice that $d(x,y)\leq\delta(x,y)$. If $x$ and $z$ are proportional, $$\delta(x,z)=d(x,z)\leq d(x,y)+d(y,z)=\delta(x,y)+\delta(y,z)$$If $x$ and $z$ are not proportional, by transitivity of proportionality, $y$ is not proportional to at least one of $x,z$. Wlog assume $y$ is not proportional to $x$. Then, $$\delta(x,z)=d(x,0)+d(0,z)\leq d(x,0)+d(0,y)+d(y,z)\leq\delta(x,y)+\delta(y,z)$$This proves the statement.
+2. For $y,z\in \mathbb{R}^{2}$, let $[y:z]$ define the line that goes through $y$ and $z$. Then, geometrically we can consider the ball as follows: $$B_{<r}^\delta(x)=$$
 ---
 > [!definition] Problem 3
 > Let $X$ be a set. 
