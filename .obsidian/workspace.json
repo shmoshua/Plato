@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topology of Pointwise Convergence.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Cantor Space.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7594ff4e94cf9a86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 2.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "c45eeefa3389e702",
@@ -87,12 +99,24 @@
             }
           },
           {
+            "id": "c75bb400a24c3d7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5f4576e15927ace7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topology of Pointwise Convergence.md",
+                "file": "Topology/Metric Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -189,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Topology of Pointwise Convergence.md",
+                "file": "Courses/Topology/Exercise Sheet 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Topology of Pointwise Convergence.md",
+                "file": "Courses/Topology/Exercise Sheet 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Topology of Pointwise Convergence.md"
+                "file": "Courses/Topology/Exercise Sheet 2.md"
               }
             }
           }
@@ -251,16 +275,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3798cb7297dd88f3",
+  "active": "7594ff4e94cf9a86",
   "lastOpenFiles": [
-    "Topology/Cantor Space.md",
+    "Topology/Metric Space.md",
+    "Courses/Topology/Exercise Sheet 2.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/Topology of Pointwise Convergence.md",
-    "Measure Theory/Cantor Set.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Derivation.md",
+    "Topology/Cantor Space.md",
+    "Measure Theory/Cantor Set.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Differential Geometry/Differential.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Smooth Curves in Rn.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
@@ -277,8 +303,6 @@
     "Analysis/Functional Analysis/Regular Ideal.md",
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Pullback.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
