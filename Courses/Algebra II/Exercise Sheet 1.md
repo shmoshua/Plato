@@ -18,7 +18,13 @@ Let $R$ be a PID and we define a poset with respect to inclusion:
 $$\mathcal{I}:=\{ (r)\subseteq R:r\neq 0,r\notin R^{*},r \text{ has no unique factorization} \}$$
 Then, we will use Zorn's lemma to show that there is a maximal element in $\mathcal{I}$. Let $\{ (r_{n}) \}_{n}\subseteq \mathcal{I}$ be an ascending chain. From 1, we know that there is $n\geq 1$ s.t. $(r_{k})=(r_{n})$ for all $k\geq n$. Therefore, $(r_{n})$ is the upper bound. Indeed, now we can use the Zorn's lemma to find a maximal element $(m)\in \mathcal{I}$. 
 
-As $m$ is not irreducible by definition, $(m)$ is not maximal and there exists $q\in R$ s.t. $(m)\subsetneq (q)\subsetneq R$. However, we claim that $(q)\in \mathcal{I}$. As $m\neq 0$, $q\neq 0$. Further, as $(q)\neq R$, $q\notin R^{*}$. 
+As $m$ is not irreducible by definition, $(m)$ is not maximal and there exists $q\in R$ s.t. $(m)\subsetneq (q)\subsetneq R$. Then, $q|m$ and  by assumption, $(q)\notin \mathcal{I}$. This means there exists an irreducible $a\in R$ s.t. $a|q$ and therefore, $$m=ab$$for some $b\in R$. If $(b)\notin \mathcal{I}$, then we have the following possibilties.
+1. $b\in R^{*}$ and $m\sim a$ 
+1. $m\in (b)$ and $(m)\subsetneq(b)$ as $a\notin R^{*}$. 
+2. 
+3. We claim that $(b)\in \mathcal{I}$. 
+
+However, we claim that $(q)\in \mathcal{I}$. As $m\neq 0$, $q\neq 0$. Further, as $(q)\neq R$, $q\notin R^{*}$. 
 
 From 1, we know that every ascending chain $I_{1}\subseteq I$
 
