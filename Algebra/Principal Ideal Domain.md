@@ -47,16 +47,21 @@
 > - (4=>1): By assumption $d|a$ and $d|b$. Assume there exists $c\in R$ with $c|a,c|b$. Then, $c|ax$ and $c|by$. Therefore, $c|ax+by=d$. Therefore, $d=\text{gcd}(a,b)$.
 ---
 > [!lemma] Proposition 4
-> In a principal ideal domain $R$, 
-> 1. $x\in R$ is a [[Integral Domain|prime]] if and only if $x$ is [[Integral Domain|irreducible]]. 
-> 2. every non-zero [[prime ideal]] $\mathfrak{p}$ is [[Maximal Ideal|maximal]].
+> In a principal ideal domain $R$, let $0\neq x\in R$. Then, the following are equivalent.
+> 1. $x$ is [[Integral Domain|prime]].
+> 2. $x$ is [[Integral Domain|irreducible]].
+> 3. $(x)$ is a [[prime ideal]].
+> 4. $(x)$ is a [[maximal ideal]].
 
-> [!proof]-
-> We have
-> 1. By [[Integral Domain|Lemma 2]], a prime element is irreducible.
-> 2. Let $\mathfrak{p}\subseteq R$ be a non-zero prime. As $R$ is a PID, then there exists $p\in R$ s.t. $\mathfrak{p}=(p)$ and from [[Integral Domain|Lemma 2]], $p$ is prime. Therefore, $p$ is irreducible. 
->    
->    Hence, for any $m\in R$ s.t. $(p)\subseteq(m)$, $p=am$. From the irreducibility, $m\in R^{*}$ or $a\in R^{*}$. If $m\in R^{*}$, then $(m)=R$. Conversely, if $a\in R^{*}$, then $m\sim p$ are associates, i.e. $(m)=(p)$.
+
+> [!proof]+
+> We have:
+> - (1=>2): By [[Integral Domain|Lemma 2]], a prime element is irreducible.
+> - (2=>1):
+> - (3=>4): Let $(x)\subseteq R$ be prime. From [[Integral Domain|Lemma 2]], $x$ is prime. Therefore, $x$ is irreducible. Hence, for any $m\in R$ s.t. $(x)\subseteq(m)$, $p=am$. From the irreducibility, $m\in R^{*}$ or $a\in R^{*}$. If $m\in R^{*}$, then $(m)=R$. Conversely, if $a\in R^{*}$, then $m\sim x$ are associates, i.e. $(m)=(x)$.
+> - (4=>3): [[Maximal Ideal|Remark]]
+> - (2=>4): [[Integral Domain|Proposition 3]]
+> - (4=>2): [[Integral Domain|Proposition 3]]
 ---
 ##### Examples
 

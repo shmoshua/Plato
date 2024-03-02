@@ -42,6 +42,16 @@
 - **Remark**: Generally irreducible elements are not prime, e.g. $2\in \mathbb{Z}[\sqrt{ 5 }]$ is irreducible but not prime as $2\cdot 3 =(1+\sqrt{ 5 })(1-\sqrt{ 5 })$.
 - **Remark**: If $R$ is not an integral domain, then prime does not imply irreducibility in general, e.g. $R=\mathbb{Z} /6\mathbb{Z}$ and $2$ is prime but not irreducible as $2=2\cdot{4}$.
 ---
+> [!lemma] Proposition 3
+> Let $R$ be an integral domain and $r\in R \backslash\{ 0 \}$ and $r\notin R^{*}$. Then, the following are equivalent:
+> 1. $r$ is irreducible.
+> 2. $(r)$ is maximal among all proper [[Principal Ideal Domain|principal ideals]].
+
+> [!proof]-
+> We have:
+> - =>: Suppose $r$ is irreducible and $s\in R$ s.t. $(r)\subseteq(s)\subsetneq R$. Then, firstly $s$ cannot be a unit. Then, $r=xs$ for some $x\in R$. As $r$ is irreducible, $x\in R^{*}$, i.e. $r\sim s$ and $(r)=(s)$.
+> - <=: Suppose $(r)$ is maximal among proper principal ideals. Assume $r=xs$ where $x,s$ are both non-zero non-units. Then, $(xs)\subsetneq(x)$ because if $(xs)=(s)$, then $x\in (xs)$ and there exists $t\in R$ s.t. $x=xst$, which means that $st=1$ and $s\in R^{*}$. Therefore, we have: $$(r)=(xs)\subsetneq(x)\subsetneq R$$which is a contradiction.
+---
 ##### Examples
 - $\mathbb{Q},\mathbb{R},\mathbb{C},\mathbb{Z} / p\mathbb{Z}$ where $p$ prime are [[Field|fields]], so they are integral domains.
 - $\mathbb{Z},\mathbb{Z}[i]$

@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Integral Domain.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e0e3c135de36ac22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Principal Ideal Domain.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "c45eeefa3389e702",
@@ -104,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -122,8 +134,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,12 +262,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9b7b18ab2369ca47",
+  "active": "c338b40fbf4aa7ff",
   "lastOpenFiles": [
+    "Algebra/Integral Domain.md",
+    "Algebra/Principal Ideal Domain.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Euclidean Domain.md",
-    "Algebra/Principal Ideal Domain.md",
-    "Algebra/Integral Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Differential Geometry/Derivation.md",

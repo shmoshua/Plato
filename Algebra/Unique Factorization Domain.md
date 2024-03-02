@@ -6,7 +6,7 @@
 > 2. the decomposition in 1 is unique up to associates and renumbering.
 - **Remark**: Unlike in PIDs, not every non-zero prime ideals are maximal ideals in UFD, e.g. $(2)\subseteq \mathbb{Z}[X]$
 - **Remark**: In a UFD $R$, $a,b\in R$ with $a=up_{1}^{e_{1}}\dots p_{n}^{e_{n}},b=vp_{1}^{f_{1}}\dots p_{n}^{f_{n}}$ with $e_{i},f_{i}\geq 0$ and $u,v\in R^{*}$, $$\text{gcd}(a,b)=p_{1}^{\min\{ e_{1},f_{1} \}}\dots p_{n}^{\min\{ e_{n},f_{n} \}}$$
-- **Remark**: $\mathbb{Z}[2i]$ is an integral domain that is not a UFD.
+- **Remark**: $\mathbb{Z}[2i]$ is an integral domain that is not a UFD.**
 ---
 ##### Properties
 > [!lemma] Proposition 1
