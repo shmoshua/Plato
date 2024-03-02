@@ -14,4 +14,15 @@ We have:
    If $c\in R^{*}$, then $R=(c)\subseteq(r)$ and $r\in R^{*}$, which is a contradiction. Therefore, $s\in R^{*}$. Then, $r\sim c$ and $(r)=(c)=(ab)$. This gives us $r=mab$ for some $m\in R$. As it is not possible that $a,b$ are both units as $r$ is non-unit, we have from irreducibility that either $ma\in R^{*}$ or $mb\in R^{*}$. Wlog assume that $ma\in R^{*}$. Then, $r\sim b$ and $r|b$.
 ---
 > [!def] Problem 2
-> 
+> Show that every principal ideal domain is a unique factorization domain.
+
+Let $R$ be a PID and $r\in R$ non-zero and non-unit. Let $r_{0}=r$ and we construct the following algorithm:
+1. If $r_{i}$ is irreducible, we are done.
+2. If $r_{i}$ is not irreducible, $(r_{i})$ is not a maximal ideal. Then, we can find a non-zero non-unit $r_{i+1}\in R$ s.t. $(r_{i})\subsetneq(r_{i+1})\subsetneq R$. Proceed with $r_{i+1}$.
+
+We will now show the following:
+1. **For all $i$, $r_{i}=s_{i}r_{i+1}$ where $s_{i}$ is irreducible**:
+   As $(r_{i})\subseteq(r_{i+1})$, there exists $s_{i}\in R$ with $r_{i}=s_{i}r_{i+1}$. We just need to show that $s_{i}$ is irreducible. If $s_{i}=0$, then $r_{i}=0$. If $s_{i}\in R^{*}$, then $r_{i}\sim r_{i+1}$ and $(r_{i})=(r_{i+1})$. Therefore, $s_{i}$ is non-zero and non-unit.
+
+
+We first show that it is possible to find such $r_{i+1}$. As $R$ is a PID, there exists $r_{i+1}$ with $(r_{i})\subsetneq(r_{i+1})$. Then, as $r_{i}\neq 0$, $r_{i+1}\neq 0$. Further, there exists $s\in R$ with $r_{i}=sr_{i+1}$. 
