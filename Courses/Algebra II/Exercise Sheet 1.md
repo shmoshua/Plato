@@ -57,6 +57,7 @@ Assuming a ring with unique factorization means a UFD:
 1. As $a,b,c$ are non-zero, we can write them as:
 	1. $a=up_{1}\dots p_{\alpha}$ where $u\in R^{*}$ and $p_{1},\dots,p_{\alpha}$ are irreducibles.
 	2. $b=vq_{1}\dots q_{\beta}$ where $v\in R^{*}$ and $q_{1},\dots,q_{\beta}$ are irreducibles.
-	3. $c=wr_{1}\dots r_{\gamma}$ where $w\in R^{*}$ and $r_{1},\dots,r_{\gamma}$ are irreducibles.
+	3. $c^n=wr_{1}\dots r_{\gamma}$ where $w\in R^{*}$ and $r_{1},\dots,r_{\gamma}$ are irreducibles.
 	   
-	Then, as $\gcd(a,b)=1$, $\{ p_{1},\dots,p_{\alpha} \}\cap \{ q_{1},\dots,q_{\beta} \}=\varnothing$. Now, $$ab=uvp_{1}\dots p_{\alpha}q_{1}\dots q_{\beta}=w^nr_{1}^n\dots r_{\gamma}^n=c^n$$
+	Then, as $\gcd(a,b)=1$, $\{ p_{1},\dots,p_{\alpha} \}\cap \{ q_{1},\dots,q_{\beta} \}=\varnothing$. Now, $$ab=uvp_{1}\dots p_{\alpha}q_{1}\dots q_{\beta}=wr_{1}\dots r_{\gamma}=c^n$$By the uniqueness of the factorization, we have modulo renumbering that $a\sim r_{1}\dots r_{\alpha}$ and $b\sim r_{\alpha+1}\dots r_{\alpha+\beta}$.
+2. Counterexample. Consider $(1+\sqrt{ -26 })$ and $(1-\sqrt{ -26 })$. Then, $$(1+\sqrt{ -26 })(1-\sqrt{ -26 })=3^3$$Further, $1\pm \sqrt{ -26 }$ is irreducible as if there exists $a,b,c,d\in \mathbb{Z}$: $$\begin{align}1+\sqrt{ -26 }&=(a+b \sqrt{ -26 })(c+d \sqrt{ -26 })\\27&=(a^{2}+26b ^{2})(c^{2}+26 d^{2})\end{align}$$which is only possible if $a+b \sqrt{ -26 }=1$ or $c+d \sqrt{ -26 }=1$. Hence, $\gcd(1+\sqrt{ -26 },1-\sqrt{ -26 })=1$. However, if there exists $u\in R^{*},x\in R$ s.t. $1+\sqrt{ -26 }=ux^3$, as $1+\sqrt{ -26 }$ is irreducible, 
