@@ -54,7 +54,7 @@
 > 4. $(x)$ is a [[maximal ideal]].
 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > - (1=>2): By [[Integral Domain|Lemma 2]], a prime element is irreducible.
 > - (2=>1):

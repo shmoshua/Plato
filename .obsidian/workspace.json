@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "mode": "source",
                 "source": true
               }
@@ -134,7 +134,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md"
+                "file": "Algebra/Unique Factorization Domain.md"
               }
             }
           }
@@ -262,11 +263,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c338b40fbf4aa7ff",
+  "active": "ee3a4b83f10bd160",
   "lastOpenFiles": [
-    "Algebra/Integral Domain.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Unique Factorization Domain.md",
+    "Algebra/Integral Domain.md",
     "Algebra/Euclidean Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",

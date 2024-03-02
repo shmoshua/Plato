@@ -4,9 +4,8 @@
 > Let $R$ be an [[integral domain]]. $R$ is a ***unique factorization domain (UFD)***, if every $r\in R\backslash\{ 0 \}$ and $r\notin R^{*}$ has the following properties:
 > 1. $r$ can be written as a product of [[Integral Domain|irreducibles]]: $r=s_{1}\dots s_{n}$
 > 2. the decomposition in 1 is unique up to associates and renumbering.
-- **Remark**: Unlike in PIDs, not every non-zero prime ideals are maximal ideals in UFD, e.g. $(2)\subseteq \mathbb{Z}[X]$
-- **Remark**: In a UFD $R$, $a,b\in R$ with $a=up_{1}^{e_{1}}\dots p_{n}^{e_{n}},b=vp_{1}^{f_{1}}\dots p_{n}^{f_{n}}$ with $e_{i},f_{i}\geq 0$ and $u,v\in R^{*}$, $$\text{gcd}(a,b)=p_{1}^{\min\{ e_{1},f_{1} \}}\dots p_{n}^{\min\{ e_{n},f_{n} \}}$$
-- **Remark**: $\mathbb{Z}[2i]$ is an integral domain that is not a UFD.**
+- **Remark**: In a UFD $R$, $a,b\in R$ with $a=up_{1}^{e_{1}}\dots p_{n}^{e_{n}},b=vp_{1}^{f_{1}}\dots p_{n}^{f_{n}}$ with $e_{i},f_{i}\geq 0$ and $u,v\in R^{*}$, $$\text{gcd}(a,b)=p_{1}^{\min\{ e_{1},f_{1} \}}\dots p_{n}^{\min\{ e_{n},f_{n} \}}$$However, $\text{gcd}(a,b)$ is not necessarily a linear combination of $a,b$ (compare it with [[Principal Ideal Domain|Theorem 3]])
+- **Remark**: $\mathbb{Z}[2i]$ is an integral domain that is not a UFD.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -27,3 +26,19 @@
 > Every [[principal ideal domain]] is a unique factorization domain.
 
 - **Remark**: $\mathbb{Z}[X]$ is a unique factorization domain, but not a principal ideal domain.
+---
+> [!lemma] Proposition 3
+> In a unique factorization domain $R$, let $0\neq x\in R$. Then, the following are equivalent.
+> 1. $x$ is [[Integral Domain|prime]].
+> 2. $x$ is [[Integral Domain|irreducible]].
+> 3. $(x)$ is a [[prime ideal]].
+
+
+> [!proof]-
+> We have:
+> - (1<=>2): Proposition 1
+> - (2<=>3): [[Integral Domain|Lemma 2]]
+- **Remark**: Unlike in PIDs, not every non-zero prime ideals are maximal ideals in UFD, e.g. $(X)\subseteq \mathbb{Z}[X]$
+	1. $(X)$ is prime: $\mathbb{Z}[X]  / (X)\cong \mathbb{Z}$ which is an integral domain.
+	2. $(X)$ is not maximal: $(X)\subsetneq(2,X)\subsetneq \mathbb{Z}[X]$ or $\mathbb{Z}[X]  / (X)\cong \mathbb{Z}$ is not a field.
+---
