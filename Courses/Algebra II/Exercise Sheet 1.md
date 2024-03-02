@@ -34,3 +34,6 @@ To prove that the factorization is unique, assume that for any $r\neq 0$, $r\not
 > 3. Write $3+i$ as a product of prime elements from $R$.
 > 4. Prove that each prime element of $R$ divides exactly one prime number $p\in \mathbb{Z}$.
 > 5. Prove that each prime number $p\equiv 3\mod 4$ is a prime element of $R$.
+
+We have: 
+1. Let $a,b\in R \backslash \{ 0 \}$. Indeed $bi=$
