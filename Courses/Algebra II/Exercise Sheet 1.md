@@ -44,4 +44,4 @@ We have:
    Now, let $x\in R$ be prime. Then, $N(x)>2$ and there exists a prime factorization of $N(x)=p_{1}\dots p_{n}$ over the integers, as $\mathbb{Z}$ is a UFD, where $p_{1},\dots,p_{n}$ are primes. Indeed, $N(x)=x \overline{x}$ and as $x$ is prime, there exists $i\in [n]$ s.t. $x|p_{i}$. This shows the existence.
    
    For uniqueness, assume $x|p$ and $x|q$ where $p\neq q$ are primes. Then, $N(x)|p^{2}$ and $N(x)|q^{2}$. But at $\gcd(p^{2},q^{2})=1$, $N(x)=1$ which is a contradiction as $x$ is non-unit.
-5. 
+5. Firstly, we notice that there is no $a,b\geq 1$ s.t. $a^{2}+b ^{2}=$
