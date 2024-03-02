@@ -38,5 +38,6 @@ To prove that the factorization is unique, assume that for any $r\neq 0$, $r\not
 We have: 
 1. Let $a=a_{1}+a_{2}i,b=b_{1}+b_{2}i\in R \backslash \{ 0 \}$. Indeed $bi=-b_{2}+b_{1}i$ and $b$ and $bi$ are orthogonal in $\mathbb{C}$. Therefore, $B:=\{ qb:q\in \mathbb{Z}[i] \}$ is a square grid of side length $N(b)$, rotated by $b$. Now consider $B_{<N(b)}(a)$ in $\mathbb{C}$. Then, there exists $x\in B \cap B_{<N(b)}(a)$ and $q\in\mathbb{Z}[i]$ s.t. $qb=x$. Let $r=a-bq$. Then, surely $a=bq+r$ and: $$N(r)=N(a-bq)=N(a-x)<N(b)$$Therefore, $R$ is a euclidean domain.
 2. We have: $$\begin{align}3-i&=(3+i)-2i\\3+i&=i(-2i)+(1+i)\\-2i&=(-1-i)(1+i)\end{align}$$Therefore, $\gcd(3-i,3+i)=1+i$. Similarly, $$\begin{align}2-i&=(2+i)-2i\\2+i&=i(-2i)+i\\-2i&=(-2)i\end{align}$$Therefore, $\gcd(2-i,2+i)=i$.
-3. We have that: $3+i=(1+2i)(1-i)$. Then, 
+3. We have that: $3+i=(1+2i)(1-i)$. Then, notice that $N$ is multiplicative. Therefore, $(1+2i)$ is irreducible, as $N(1+2i)=5$ and if $1+2i=ab$, either $N(a)=1$ or $N(b)=1$. However, any $x\in R$ with $N(x)=1$ is a unit. Analogously we can show that $1-i$ is irreducible. As $R$ is euclidean and therefore a PID, this means that $1+2i$ and $1-i$ are primes.
+4. Let $x\in R$ be prime. Then, $(x)\subseteq R$ is prime. 
 	1. 
