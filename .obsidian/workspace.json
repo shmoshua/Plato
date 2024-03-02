@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -265,11 +265,11 @@
   },
   "active": "c8bbd977aafe032b",
   "lastOpenFiles": [
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Integral Domain.md",
     "Algebra/Euclidean Domain.md",
     "Courses/Algebra II/Exercise Sheet 1.md",
-    "Algebra/Unique Factorization Domain.md",
-    "Algebra/Principal Ideal Domain.md",
-    "Algebra/Integral Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Axiom of Choice.md",
     "Algebra/Subgroup.md",
