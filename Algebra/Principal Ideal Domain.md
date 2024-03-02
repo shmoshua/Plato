@@ -6,15 +6,7 @@
 > A ***principal ideal domain (PID)*** is an [[integral domain]] where every ideal is a principal ideal.
 ---
 ##### Properties
-> [!lemma] Proposition 1
-> $\mathbb{Z}$ is a principal ideal domain, where every ideal has the form $\mathfrak{a}=m\mathbb{Z}$. 
-
-> [!proof]-
-> Let $\mathfrak{a}\subseteq \mathbb{Z}$ be an ideal and let $m:= \min\{ a\in \mathfrak{a}:a>0 \}$. If $m$ does not exist, then $\mathfrak{a}=\{ 0 \}=0\mathbb{Z}$. 
-> 
-> For every $x\in \mathfrak{a}$, exists $b,r\in \mathbb{Z}$ s.t. $x=bm+r$ with $0\leq r<m$, i.e. $r=x-bm\in \mathfrak{a}$. However, from $r<m$, we have that $r=0$. It follows that $x\in m\mathbb{Z}$, i.e. $\mathfrak{a}=m\mathbb{Z}$.
----
-> [!lemma] Theorem 2
+> [!lemma] Theorem 1
 > Let $R$ be a integral domain. Then, $R[X]$ is a principal ideal domain if and only if $R$ is a [[field]].
 
 > [!proof]-
@@ -31,7 +23,7 @@
 >    
 > Therefore, $X=ab+acX$ and $ac=1$. 
 ---
-> [!lemma] Theorem 3
+> [!lemma] Theorem 2
 > Let $R$ be a principal ideal domain and $a,b\in R \backslash \{ 0 \}$. Then, for $d\in R$, the following are equivalent:
 > 1. $d=\text{gcd}(a,b)$
 > 2. $(a,b)=(d)$
@@ -46,7 +38,7 @@
 > - (1=>2): As $R$ is a PID, there exists $c\in R$ s.t. $(a,b)=(c)$. Therefore, $c|a$, $c|b$ and  $c|d$. This shows that $(d)\subseteq(c)$. On the other hand, $d|a$, $d|b$ and $a,b\in (d)$. Therefore, $(c)\subseteq(d)$. So $(c)=(d)$.
 > - (4=>1): By assumption $d|a$ and $d|b$. Assume there exists $c\in R$ with $c|a,c|b$. Then, $c|ax$ and $c|by$. Therefore, $c|ax+by=d$. Therefore, $d=\text{gcd}(a,b)$.
 ---
-> [!lemma] Proposition 4
+> [!lemma] Proposition 3
 > In a principal ideal domain $R$, let $0\neq x\in R$. Then, the following are equivalent.
 > 1. $x$ is [[Integral Domain|prime]].
 > 2. $x$ is [[Integral Domain|irreducible]].
@@ -64,5 +56,11 @@
 > - (4=>2): [[Integral Domain|Proposition 3]]
 ---
 ##### Examples
+> [!h] Example 1
+> $\mathbb{Z}$ is a principal ideal domain, where every ideal has the form $\mathfrak{a}=m\mathbb{Z}$. 
 
+> [!proof]-
+> Let $\mathfrak{a}\subseteq \mathbb{Z}$ be an ideal and let $m:= \min\{ a\in \mathfrak{a}:a>0 \}$. If $m$ does not exist, then $\mathfrak{a}=\{ 0 \}=0\mathbb{Z}$. 
+> 
+> For every $x\in \mathfrak{a}$, exists $b,r\in \mathbb{Z}$ s.t. $x=bm+r$ with $0\leq r<m$, i.e. $r=x-bm\in \mathfrak{a}$. However, from $r<m$, we have that $r=0$. It follows that $x\in m\mathbb{Z}$, i.e. $\mathfrak{a}=m\mathbb{Z}$.
 ---

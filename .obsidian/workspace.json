@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,9 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Algebra II/Exercise Sheet 1.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -49,26 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Courses/Algebra II/Exercise Sheet 0.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e0e3c135de36ac22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
-                "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -80,7 +68,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8bbd977aafe032b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Exercise Sheet 1.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Ideal.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Subgroup.md",
                 "mode": "preview",
                 "source": false
               }
@@ -135,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Courses/Algebra II/Exercise Sheet 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Courses/Algebra II/Exercise Sheet 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md"
+                "file": "Courses/Algebra II/Exercise Sheet 1.md"
               }
             }
           }
@@ -263,15 +263,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ee3a4b83f10bd160",
+  "active": "c8bbd977aafe032b",
   "lastOpenFiles": [
-    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Subgroup.md",
     "Algebra/Unique Factorization Domain.md",
-    "Algebra/Integral Domain.md",
+    "Algebra/Ideal.md",
+    "Courses/Algebra II/Exercise Sheet 1.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Differential Geometry/Derivation.md",
     "Algebra/Euclidean Domain.md",
+    "Algebra/Integral Domain.md",
+    "Courses/Algebra II/Exercise Sheet 0.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
-    "Differential Geometry/Derivation.md",
     "Analysis/Lp Space.md",
     "Topology/Cantor Space.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
@@ -287,10 +291,6 @@
     "Differential Geometry/Transition Function.md",
     "Differential Geometry/Torus.md",
     "Differential Geometry/Immersion.md",
-    "Differential Geometry/Grassmannian.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Atlas.md",
-    "Differential Geometry/Arc Length.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
