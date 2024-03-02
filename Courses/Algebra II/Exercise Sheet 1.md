@@ -9,32 +9,28 @@ We have:
 1. Let $\{ I_{k} \}_{k}$ be an ascending chain of ideals. We claim that $I:=\bigcup_{k=1}^{\infty}I_{k}$ is an ideal. For $x,y\in I$, there exists $a,b\geq 1$ s.t. $x\in I_{a}$ and $y\in I_{b}$. Then, $x-y\in I_{\max\{ a,b \}}\subseteq I$. Similarly, for $r\in R$, $rx\in I_a\subseteq I$. 
    
    This means, $I=(x)$ for some $x\in R$ as $R$ is a PID. Therefore, there exists $n\geq 1$ s.t. $x\in I_{n}$. Hence, for any $k\geq n$, $x\in I_{k}$ and therefore, $I=(x)\subseteq I_{k}\subseteq I$. This shows that $I_{k}=I_{n}=I$ for all $k\geq n$.
-2. Let $r\in R$ be irreducible. Then, by definition, $r\neq 0$ and $r\notin R^{*}$. Now let $a,b\in R$ s.t. $r|ab$. Then, $rs=ab$ for some $s\in R$. From the irreducibility, $s\in R^{*}$ or $ab\in R^{*}$. If $ab\in R^{*}$, then $R=(ab)\subseteq(r)$ and $r\in R^{*}$, which is a contradiction. Therefore, $s\in R^{*}$. Now, as $r$ is irreducible, $sa\in R^{*}$ or $b\in R^{*}$. If $sa\in R^{*}$, $r\sim b$ and $r|b$. If $b\in R^{*}$, $r|sa$ and as $s\in R^{*}$, $r|a$.
+3. Let $r\in R$ be irreducible. Then, $(r)$ is maximal and therefore prime. As $r\neq 0$, this means that $r$ is prime.
 ---
 > [!def] Problem 2
 > Show that every principal ideal domain is a unique factorization domain.
 
 Let $R$ be a PID and we define a poset with respect to inclusion:
-$$\mathcal{I}:=\{ (r)\subseteq R:r\neq 0,r\notin R^{*},r \text{ has no unique factorization} \}$$
+$$\mathcal{I}:=\{ (r)\subseteq R:r\neq 0,r\notin R^{*},r \text{ has a factorization} \}$$
 Then, we will use Zorn's lemma to show that there is a maximal element in $\mathcal{I}$. Let $\{ (r_{n}) \}_{n}\subseteq \mathcal{I}$ be an ascending chain. From 1, we know that there is $n\geq 1$ s.t. $(r_{k})=(r_{n})$ for all $k\geq n$. Therefore, $(r_{n})$ is the upper bound. Indeed, now we can use the Zorn's lemma to find a maximal element $(m)\in \mathcal{I}$. 
 
-As $m$ is not irreducible by definition, $(m)$ is not maximal and there exists $q\in R$ s.t. $(m)\subsetneq (q)\subsetneq R$. Then, $q|m$ and  by assumption, $(q)\notin \mathcal{I}$. This means there exists an irreducible $a\in R$ s.t. $a|q$ and therefore, $$m=ab$$for some $b\in R$. If $(b)\notin \mathcal{I}$, then we have the following possibilties.
-1. $b\in R^{*}$ and $m\sim a$ 
-1. $m\in (b)$ and $(m)\subsetneq(b)$ as $a\notin R^{*}$. 
-2. 
-3. We claim that $(b)\in \mathcal{I}$. 
+As $m$ is not irreducible by definition, $(m)$ is not maximal and there exists $q\in R$ s.t. $(m)\subsetneq (q)\subsetneq R$. Then, $q|m$ and  by assumption, $(q)\notin \mathcal{I}$. This means there exists an irreducible $a\in R$ s.t. $a|q$ and therefore, $$m=ab$$for some $b\in R$. If $(b)\notin \mathcal{I}$, then we have the following possibilities.
+1. $b\in R^{*}$ and $m\sim a$ and $(m)=(a)\in \mathcal{I}$ which is a contradiction as $a$ is irreducible.
+2. $b$ has a factorization, which is a contradiction as $m$ doesn't have a factorization.
 
-However, we claim that $(q)\in \mathcal{I}$. As $m\neq 0$, $q\neq 0$. Further, as $(q)\neq R$, $q\notin R^{*}$. 
+Therefore, $(b)\in \mathcal{I}$. However, this is also a contradiction to the maximality of $(m)$ as $m\in (b)$ and $(m)\subsetneq(b)$ as $a\notin R^{*}$. 
 
-From 1, we know that every ascending chain $I_{1}\subseteq I$
+To prove that the factorization is unique, assume that for any $r\neq 0$, $r\notin R^{*}$:$$r=p_{1}\dots p_{n}=q_{1}\dots q_{m}$$where $p_{i},q_{j}$ are irreducibles and thereby primes. Indeed, $p_{1}|q_{1}\dots q_{m}$ and modulo reordering, $p_{1}|q_{1}$ and $(q_{1})\subseteq(p_{1})$. However, from the maximality of $(q_{1})$, $p_{1}\sim q_{1}$, i.e. $p_{1}=sq_{1}$ where $s\in R^{*}$. As $R$ is an integral domain and $q_{1}\neq 0$, $sp_{2}\dots p_{n}=q_{2}\dots q_{m}$. This proves the uniqueness.
 
-Let $R$ be a PID and $r\in R$ non-zero and non-unit. Let $r_{0}=r$ and we construct the following algorithm:
-1. If $r_{i}$ is irreducible, we are done.
-2. If $r_{i}$ is not irreducible, $(r_{i})$ is not a maximal ideal. Then, we can find a non-zero non-unit $r_{i+1}\in R$ s.t. $(r_{i})\subsetneq(r_{i+1})\subsetneq R$. Proceed with $r_{i+1}$.
-
-We will now show the following:
-1. **For all $i$, $r_{i}=s_{i}r_{i+1}$ where $s_{i}$ is irreducible**:
-   As $(r_{i})\subseteq(r_{i+1})$, there exists $s_{i}\in R$ with $r_{i}=s_{i}r_{i+1}$. We just need to show that $s_{i}$ is irreducible. If $s_{i}=0$, then $r_{i}=0$. If $s_{i}\in R^{*}$, then $r_{i}\sim r_{i+1}$ and $(r_{i})=(r_{i+1})$. Therefore, $s_{i}$ is non-zero and non-unit.
-
-
-We first show that it is possible to find such $r_{i+1}$. As $R$ is a PID, there exists $r_{i+1}$ with $(r_{i})\subsetneq(r_{i+1})$. Then, as $r_{i}\neq 0$, $r_{i+1}\neq 0$. Further, there exists $s\in R$ with $r_{i}=sr_{i+1}$. 
+---
+> [!def] Problem 3
+> Consider the ring $R:=\mathbb{Z}[i]\subseteq\mathbb{C}$ with the so called field norm:$$\begin{array}{cccc} {N:}&{R}&\to&{\mathbb{Z}_{\geq0}}\\&{a+bi} &\mapsto & {a^{2}+b ^{2}} \end{array}{}$$
+> 1. Prove that $R$ is a Euclidean domain with respect to $N$.
+> 2. Determine $\gcd(3-i,3+i)$ and $\gcd(2-i,2+i)$ in $R$.
+> 3. Write $3+i$ as a product of prime elements from $R$.
+> 4. Prove that each prime element of $R$ divides exactly one prime number $p\in \mathbb{Z}$.
+> 5. Prove that each prime number $p\equiv 3\mod 4$ is a prime element of $R$.
