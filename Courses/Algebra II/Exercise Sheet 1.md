@@ -44,4 +44,19 @@ We have:
    Now, let $x\in R$ be prime. Then, $N(x)>2$ and there exists a prime factorization of $N(x)=p_{1}\dots p_{n}$ over the integers, as $\mathbb{Z}$ is a UFD, where $p_{1},\dots,p_{n}$ are primes. Indeed, $N(x)=x \overline{x}$ and as $x$ is prime, there exists $i\in [n]$ s.t. $x|p_{i}$. This shows the existence.
    
    For uniqueness, assume $x|p$ and $x|q$ where $p\neq q$ are primes. Then, $N(x)|p^{2}$ and $N(x)|q^{2}$. But at $\gcd(p^{2},q^{2})=1$, $N(x)=1$ which is a contradiction as $x$ is non-unit.
-5. Firstly, we notice that there is no $a,b\geq 1$ s.t. $a^{2}+b ^{2}=$
+5. Firstly, we notice that there is no $a,b\in \mathbb{Z}$ s.t. $a^{2}+b ^{2}=3\mod 4$. By taking modulo 4 on both sides, we would have $a^{2}+b ^{2}=3$ for $a,b\in \mathbb{Z} / 4\mathbb{Z}$. However, as $z^{2}\in \{ 0,1 \}$ in $\mathbb{Z} / 4\mathbb{Z}$, this is not possible, i.e. there is no $x\in R$ s.t. $N(x)=3\mod{4}$.
+   
+   Now, for any prime $p\equiv 3 \mod 4$, assume $p$ is not a prime/irreducible in $R$. Then, there are $r,s\notin R^{*}$ s.t. $p=rs$ and $p^{2}=N(p)=N(r)N(s)$. Then, as $N(r),N(s)\neq 1$, $N(r)=N(s)=p$, which is a contradiction.
+---
+> [!def] Problem 4
+> Solve:
+> 1. Let $R$ be a ring with unique factorization. Prove: if $a,b,c\in R$ are nonzero, $ab=c^n$  and $\gcd(a,b)=1$, then there are units $u,v\in R$ as well as elements $a',b'\in R$, s.t. $a=ua'^n$ and $b= vb'^n$.
+> 2. There are counterexamples to the conclusion of (a) if we drop the the hypothesis that $R$ has unique factorization. Use $R=\mathbb{Z}[\sqrt{ -26 }]$ to give such a counterexample.
+
+Assuming a ring with unique factorization means a UFD: 
+1. As $a,b,c$ are non-zero, we can write them as:
+	1. $a=up_{1}\dots p_{\alpha}$ where $u\in R^{*}$ and $p_{1},\dots,p_{\alpha}$ are irreducibles.
+	2. $b=vq_{1}\dots q_{\beta}$ where $v\in R^{*}$ and $q_{1},\dots,q_{\beta}$ are irreducibles.
+	3. $c=wr_{1}\dots r_{\gamma}$ where $w\in R^{*}$ and $r_{1},\dots,r_{\gamma}$ are irreducibles.
+	   
+	Then, as $\gcd(a,b)=1$, $\{ p_{1},\dots,p_{\alpha} \}\cap \{ q_{1},\dots,q_{\beta} \}=\varnothing$. Now, $$ab=uvp_{1}\dots p_{\alpha}q_{1}\dots q_{\beta}=w^nr_{1}^n\dots r_{\gamma}^n=c^n$$
