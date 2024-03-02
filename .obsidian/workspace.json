@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Axiom of Choice.md",
                 "mode": "preview",
                 "source": false
               }
@@ -269,10 +269,11 @@
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Exercise Sheet 1.md",
+    "Axiom of Choice.md",
+    "Algebra/Euclidean Domain.md",
     "Algebra/Subgroup.md",
     "Algebra/Ideal.md",
     "Differential Geometry/Derivation.md",
-    "Algebra/Euclidean Domain.md",
     "Courses/Algebra II/Exercise Sheet 0.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
@@ -290,7 +291,6 @@
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Transition Function.md",
     "Differential Geometry/Torus.md",
-    "Differential Geometry/Immersion.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
