@@ -57,7 +57,14 @@ Assuming a ring with unique factorization means a UFD:
 1. As $a,b,c$ are non-zero, we can write them as:
 	1. $a=up_{1}\dots p_{\alpha}$ where $u\in R^{*}$ and $p_{1},\dots,p_{\alpha}$ are irreducibles.
 	2. $b=vq_{1}\dots q_{\beta}$ where $v\in R^{*}$ and $q_{1},\dots,q_{\beta}$ are irreducibles.
-	3. $c^n=wr_{1}\dots r_{\gamma}$ where $w\in R^{*}$ and $r_{1},\dots,r_{\gamma}$ are irreducibles.
-	   
-	Then, as $\gcd(a,b)=1$, $\{ p_{1},\dots,p_{\alpha} \}\cap \{ q_{1},\dots,q_{\beta} \}=\varnothing$. Now, $$ab=uvp_{1}\dots p_{\alpha}q_{1}\dots q_{\beta}=wr_{1}\dots r_{\gamma}=c^n$$By the uniqueness of the factorization, we have modulo renumbering that $a\sim r_{1}\dots r_{\alpha}$ and $b\sim r_{\alpha+1}\dots r_{\alpha+\beta}$.
-2. Counterexample. Consider $(1+\sqrt{ -26 })$ and $(1-\sqrt{ -26 })$. Then, $$(1+\sqrt{ -26 })(1-\sqrt{ -26 })=3^3$$Further, $1\pm \sqrt{ -26 }$ is irreducible as if there exists $a,b,c,d\in \mathbb{Z}$: $$\begin{align}1+\sqrt{ -26 }&=(a+b \sqrt{ -26 })(c+d \sqrt{ -26 })\\27&=(a^{2}+26b ^{2})(c^{2}+26 d^{2})\end{align}$$which is only possible if $a+b \sqrt{ -26 }=1$ or $c+d \sqrt{ -26 }=1$. Hence, $\gcd(1+\sqrt{ -26 },1-\sqrt{ -26 })=1$. However, if there exists $u\in R^{*},x\in R$ s.t. $1+\sqrt{ -26 }=ux^3$, as we have seen above, either $ux=1$ or $x^{2}=1$. This means $x\in R^{*}$ and $1+\sqrt{ -26 }\in R^{*}$, which is a contradiction.
+	3. $c=wr_{1}\dots r_{\gamma}$ where $w\in R^{*}$ and $r_{1},\dots,r_{\gamma}$ are irreducibles.
+	
+	Then, as $\gcd(a,b)=1$, $p_{i}\not\sim q_{j}$ for all $i,j$. Further, 
+	$$ab=uvp_{1}\dots p_{\alpha}q_{1}\dots q_{\beta}=w^nr_{1}^n\dots r_{\gamma}^n=c^n$$First notice that $w^n\in R^{*}$. By the uniqueness of the factorization, $\alpha+\beta=\gamma n$ and for all $i,j$, $p_{i}\sim r_{k}$ for some $k$ and $q_{j}\sim r_{\ell}$ for some $\ell$. Indeed, it is also not possible that $p_{i}\sim r_{k}\sim q_{j}$ for some $i,j,k$ as associates are transitive and $a,b$ are coprime. In other words, the $n$ copies of $r_{k}$ get paired up with exactly one of $a$ or $b$. This shows that, modulo renumbering: 
+	- $a\sim r_{1}^n\dots r_{\alpha /n}^n$
+	- $b\sim r_{\alpha / n+1}^n\dots r_{\gamma}^n$
+	
+	which proves the statement.
+	
+1. Counterexample. Consider $(1+\sqrt{ -26 })$ and $(1-\sqrt{ -26 })$. Then, $$(1+\sqrt{ -26 })(1-\sqrt{ -26 })=3^3$$Further, $1\pm \sqrt{ -26 }$ is irreducible as if there exists $a,b,c,d\in \mathbb{Z}$: $$\begin{align}1+\sqrt{ -26 }&=(a+b \sqrt{ -26 })(c+d \sqrt{ -26 })\\27&=(a^{2}+26b ^{2})(c^{2}+26 d^{2})\end{align}$$which is only possible if $a+b \sqrt{ -26 }=1$ or $c+d \sqrt{ -26 }=1$. Hence, $\gcd(1+\sqrt{ -26 },1-\sqrt{ -26 })=1$. However, if there exists $u\in R^{*},x\in R$ s.t. $1+\sqrt{ -26 }=ux^3$, as we have seen above, either $ux=1$ or $x^{2}=1$. This means $x\in R^{*}$ and $1+\sqrt{ -26 }\in R^{*}$, which is a contradiction.
+---
