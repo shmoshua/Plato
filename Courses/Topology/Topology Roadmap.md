@@ -32,6 +32,10 @@
 1. [[Basis of a Topology]]
 2. [[Fundamental System]]
 ---
+##### 3. Closure, Interior, Boundary
+1. [[Interior and Closure]]
+2. [[Closure]]
+---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
 2. [[Courses/Topology/Exercise Sheet 2|Exercise Sheet 2]]

@@ -6,4 +6,5 @@
 ---
 ##### Examples
 > [!h] Example 1
-> For a metric space $(X,d)$, $\{ B_{<r}(x):r>0 \}$ is a fundamental system of neighb
+> For a metric space $(X,d)$, $\{ B_{<r}(x):r>0 \}$ is a fundamental system of open neighborhood of $x$.
+---

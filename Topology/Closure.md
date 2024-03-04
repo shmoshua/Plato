@@ -1,7 +1,9 @@
 #Definition #Topology 
 
 > [!definition]
-> For a metric space $(X,d)$, $x\in X$ is a ***cluster point*** of $A \subseteq X$ if for every neighborhood $B$ of $x$, $$A \cap B\neq \varnothing$$
+> Let $X$ be a [[Topological Space|topological space]] and  $A \subseteq X$. The ***closure*** $\overline{A}$ of $A$ is defined as: $$\overline{A}:=\bigcap_{A\subseteq C, C\text{ closed}}^{}C$$
+> 
+ is a ***cluster point*** of $A \subseteq X$ if for every neighborhood $B$ of $x$, $$A \cap B\neq \varnothing$$
 > Then, the ***closure*** of $A$ is defined as: $$\overline{A}:=\{ x\in A: x\text{ is a cluster point of }A \}$$
 ---
 ##### Properties
@@ -18,7 +20,7 @@
 > For any $A\subseteq X$, $\overline{A}$ is the smallest closed set containing $A$.
 
 > [!proof]-
-> We have that $(X \backslash A)^\circ$ is the largest open set in $X \backslash A$. Therefore, $\overline{A}=X \backslash (X \backslash A)^\circ$ is the smallest closed set containing $X \backslash (X \backslash A)= A$, from [[Interior|Proposition 1]].
+> We have that $(X \backslash A)^\circ$ is the largest open set in $X \backslash A$. Therefore, $\overline{A}=X \backslash (X \backslash A)^\circ$ is the smallest closed set containing $X \backslash (X \backslash A)= A$, from [[Interior and Closure|Proposition 1]].
 ---
 > [!lemma] Proposition 3
 > For $A,B \subseteq X$,

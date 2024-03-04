@@ -1,10 +1,24 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $(X,\mathcal{T})$ be a [[Topological Space|topological space]] and  $A \subseteq X$. The ***interior*** $A^\circ$ of $A$ is defined as: $$A^\circ :=\{ x\in A:A\text{ is a neighborhood of }x \}$$
+> Let $X$ be a [[Topological Space|topological space]] and  $A \subseteq X$. 
+> 1. The ***interior*** $A^\circ$ of $A$ is defined as: $$A^\circ :=\bigcup_{U\subseteq A,\text{open}}^{}U$$
+> 2. The ***closure*** $\overline{A}$ of $A$ is defined as: $$\overline{A}:=\bigcap_{A\subseteq C, C\text{ closed}}^{}C$$
+> 3. The ***boundary*** $\partial A$ is defined as $\overline{A} \cap \overline{X \backslash A}$.
+> 
 - **Remark**: In a [[Metric Space|metric space]], $A^\circ=\{ x\in A:\exists r>0. B_{<r}(x)\subseteq A \}$
 ---
 ##### Properties
+> [!lemma] Lemma 1
+> For $A\subseteq X$:
+> 1. ${(X\backslash A)}^\circ=X \backslash \overline{A}$
+> 2. $\overline{X\backslash A}=X \backslash A^\circ$
+> 3. $\partial A= \overline{A} \backslash A^\circ$
+> 4. $x\in A^\circ$ if and only if there is an open neighborhood $U\subseteq X$ of $x$ in $A$. 
+> 5. $x\in \overline{A}$ if and only if for all neighborhood $U\subseteq X$ of $x$, $A\cap B\neq \varnothing$ 
+> 6. $A^{\circ}=A$ if and only if $A$ is open.
+> 7. $\overline{A}=A$ if and only if $A$ is closed.
+
 > [!lemma] Proposition 1
 > For any set $A\subseteq X$, $A^\circ$ is the largest open set contained in $A$.
 

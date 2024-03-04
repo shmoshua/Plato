@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "35ce9b9157b9ea28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Fundamental System.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Space.md",
+                "file": "Topology/Closure.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -92,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Space.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,14 +92,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Topology/Closure.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Fundamental System.md",
+                "file": "Topology/Interior and Closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Fundamental System.md",
+                "file": "Topology/Interior and Closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Fundamental System.md"
+                "file": "Topology/Interior and Closure.md"
               }
             }
           }
@@ -239,15 +227,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "35ce9b9157b9ea28",
+  "active": "1ffc7a84ad3e8cfe",
   "lastOpenFiles": [
-    "Topology/Basis of a Topology.md",
-    "Topology/Fundamental System.md",
-    "Topology/Continuous Function.md",
+    "Topology/Closure.md",
+    "Topology/Interior and Closure.md",
     "Topology/Topological Space.md",
-    "Algebra/Euclidean Domain.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Algebra/Principal Ideal Domain.md",
+    "Topology/Fundamental System.md",
+    "Analysis/Open and Closed Balls.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Basis of a Topology.md",
+    "Topology/Continuous Function.md",
+    "Algebra/Euclidean Domain.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Algebra/Integral Domain.md",
     "Topology/Basis of Topology.md",
@@ -264,9 +255,6 @@
     "Courses/Algebra II/Exercise Sheet 0.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Analysis/Lp Space.md",
-    "Topology/Cantor Space.md",
-    "Differential Geometry/Hyperbolic Space.md",
-    "Differential Geometry/Rank.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
