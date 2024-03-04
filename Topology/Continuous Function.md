@@ -22,8 +22,16 @@
 > For topological spaces $X,Y$ and a map $f:X\to Y$. The following are equivalent:
 > 1. $f$ is continuous.
 > 2. $f^{-1}(U)$ is open in $X$ for every $U\in \mathcal{B}_{Y}$ in the [[Basis of a Topology|basis]] of $Y$.
+> 3. For all $x\in X$ and a neighborhood $V\subseteq Y$ of $f(x)$, there exists a neighborhood $W\subseteq X$  of $x$ s.t. $f(W)\subseteq V$.
+> 4. For all $x\in X$ and a set $V$ in a [[Fundamental System|fundamental system of (open) neighborhoods]] of $f(x)$, there exists a set $W$ in the fundamental system of (open) neighborhoods of $x$ s.t. $f(W)\subseteq V$.
 
 > [!proof]-
-> => is clear from the definition. Conversely, if $f^{-1}(U)$ is open for all open sets in the basis, for $V\subseteq Y$ open, there exists $\{ U_{\lambda} \}$ s.t. $V=\bigcup_{\lambda\in\Lambda}U_{\lambda}$ and: $$f^{-1}(V)=f^{-1}\left(\bigcup_{\lambda\in\Lambda}U_{\lambda}  \right)=\bigcup_{\lambda\in \Lambda}^{}f^{-1}(U_{\lambda}) $$
-which is open.
+> We have: 
+> - (1=>2) is clear from the definition. 
+> - (2=>1) If $f^{-1}(U)$ is open for all open sets in the basis, for $V\subseteq Y$ open, there exists $\{ U_{\lambda} \}$ s.t. $V=\bigcup_{\lambda\in\Lambda}U_{\lambda}$ and: $$f^{-1}(V)=f^{-1}\left(\bigcup_{\lambda\in\Lambda}U_{\lambda}  \right)=\bigcup_{\lambda\in \Lambda}^{}f^{-1}(U_{\lambda}) $$which is open.
+> - (1=>3): Let $x\in X$ and $V\subseteq Y$ a neighborhood of $f(x)$. Then, there exists an open neighborhood $W\subseteq V$ with $f^{-1}(W)$ as an open neighborhood of $x$
+> - (3=>1): Let $V\subseteq Y$ be open. Then, for every $x\in f^{-1}(V)$, there is an open neighborhood $W\subseteq X$ of $x$ s.t. $f(W)\subseteq V$, i.e. $W\subseteq f^{-1}(V)$.
+> - (3=>4) clear.
+> - (4=>3) Let $V\subseteq Y$ be a neighborhood of $f(x)$. Then, there exists $V_{1}\subseteq V$ in the fundamental system and $W\subseteq X$ s.t. $f(W)\subseteq V_{1}\subseteq V$.
+> - (4=>5) clear.
 ---

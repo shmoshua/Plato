@@ -11,6 +11,15 @@
 - **Related definition:** $F \subset X$ is ***closed***, if $X \backslash F\in \mathcal{T}$.
 - **Related definition**: $U \subset X$ is a ***neighborhood*** of $x\in X$, if there is an open set $V$ s.t. $x\in V \subseteq U$.
 ---
+##### Properties
+> [!lemma] Proposition 1
+> A set $U\subseteq X$ is open if and only if for every $x\in U$, there exists a neighborhood $V$ of $x$ contained in $U$.
+
+> [!proof]-
+> If $U$ is open, $U$ is such neighborhood for all $x\in U$.
+> 
+> Conversely, let $x\in U$. If $V_{x}$ is such a neighborhood contained in $U$, then we have $x\in W_{x}\subseteq V_{x}\subseteq U$ where $W_{x}$ is open. It follows that: $$U=\bigcup_{x\in U}^{}W_{x}$$and $U$ is open.
+---
 ##### Examples
 > [!h] Example 1 (Euclidean Topology)
 > In the Euclidean topology on $\mathbb{R}^n$, $U\subseteq \mathbb{R}^n$ is open if and only if for all $x\in U$, there exists $\varepsilon>0$ s.t. $B_{<\varepsilon}(x)\subseteq U$ by the Euclidean distance.

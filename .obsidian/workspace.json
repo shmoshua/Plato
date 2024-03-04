@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Fundamental System.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "936b4ce723f54e0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Topological Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Fundamental System.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Topology/Topological Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -165,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Fundamental System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Fundamental System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Continuous Function.md"
+                "file": "Topology/Fundamental System.md"
               }
             }
           }
@@ -227,15 +239,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9b7b18ab2369ca47",
+  "active": "35ce9b9157b9ea28",
   "lastOpenFiles": [
-    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Basis of a Topology.md",
+    "Topology/Fundamental System.md",
     "Topology/Continuous Function.md",
+    "Topology/Topological Space.md",
+    "Algebra/Euclidean Domain.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Algebra/Principal Ideal Domain.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Algebra/Integral Domain.md",
     "Topology/Basis of Topology.md",
-    "Topology/Basis of a Topology.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Algebra/Unique Factorization Domain.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
@@ -243,7 +258,6 @@
     "Topology/Compact-Open Topology.md",
     "Differential Geometry/Derivation.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Euclidean Domain.md",
     "Algebra/Ideal.md",
     "Axiom of Choice.md",
     "Algebra/Subgroup.md",
@@ -253,8 +267,6 @@
     "Topology/Cantor Space.md",
     "Differential Geometry/Hyperbolic Space.md",
     "Differential Geometry/Rank.md",
-    "Differential Geometry/Regular Curves in Rn.md",
-    "Differential Geometry/Riemannian Manifold.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
