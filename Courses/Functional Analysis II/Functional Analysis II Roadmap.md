@@ -14,6 +14,7 @@
 13. **Example of a Banach Algebra**: [[L1 Space on d-regular Trees]]
 ---
 ##### 2. Spectrum of a Banach Algebra Element
+1. [[C-Algebra|Invertible elements]] of a $\mathbb{C}$-algebra
 1. [[Analysis/Functional Analysis/Spectrum|Spectrum]]
 2. [[Spectral Radius]]
 3. [[Analysis/Functional Analysis/Spectrum|Spectral Radius Formula]]

@@ -5,8 +5,24 @@
 > $$\text{Sp}_{A}(x):=\{ \lambda\in \mathbb{C}:x-\lambda e\notin G(A) \}$$
 > If $A$ is non-unital, we define: $$\text{Sp}_{A}(x):=\text{Sp}_{A_{I}}(x)$$
 - **Related definition**: The complement of a spectrum $\rho_{A}(x):=\mathbb{C} \backslash \text{Sp}_{A}(x)$ is called the ***resolvent set***.
+- **Related definition**: In a [[Banach algebra]], for $x\in A$, define $r_{A}(x):=\inf_{n\geq 1}\left\| x^n \right\|^{1/n}$.
+- **Related definition**: In a [[Banach algebra]], for $x\in A$, the ***spectral radius*** is defined as:$$\|x\|_{\text{sp}}:=\max\{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}$$
 ---
 ##### Properties
+> [!lemma] Proposition 1 
+> Let $A$ be a [[Banach algebra]]. For $x\in A$, we have that:
+> 1. $r_{A}(x)$ is well-defined.
+> 2. $r_{A}(x)=\lim_{ n \to \infty }\left\| x^n \right\|^{1/n}$
+
+> [!proof]+
+> We will prove this for a general function $f:\mathbb{N}^{*}\to \mathbb{R}_{>0}$ then the statement follows by taking $f(x)=\|x^n\|$. 
+> 1. **Showing the well-definedness**:
+> 	Assume $f(n+m)\leq f(n)f(m)$ for all $n,m\geq 1$. Then,  $\lim_{ n \to \infty }f(n)^{1/n}$ exists and equals $\inf\{ f(n)^{1/n}:n\geq 1 \}$.
+> 2. **Showing the inequality**:
+> 	If $f(1)=0$, then $f(n)=0$ for all $n\geq 1$ and the statement trivially holds. Therefore, assume that $f(1)>0$. 
+> 	
+> 	Let $r:=\text{inf}\{ f(n)^{1/n} :n\geq 1\}\geq 0$. Further, let $\varepsilon>0$ and $k\geq 1$ s.t. $f(k)^{1/k}<r+\varepsilon$. It is sufficient to show that: $\limsup_{ n \to \infty } f(n)^{1/n}\leq r$ from which it follows that: $$r\leq\liminf_{ n \to \infty } f(n)^{1 /n}\leq \limsup_{ n \to \infty } f(n)^{1/n}\leq r$$ Now, let $n>k$ and $n:=ak+b$ where $a\geq 1$ and $0\leq b<k$. Then, $$f(n)^{1/n}=f(ak+{b})^{1/n}\leq f(ak)^{1/n}f(b)^{1/n}\leq f(k)^{a/n}f(1)^{b/n}=(f(k)^{1/k})^{1-b/n}f(1)^{b/n}\to f(k)^{1/k}$$Therefore, $$\limsup_{ n \to \infty } f(n)^{1/n}\leq f(k)^{1/k}<r+\varepsilon$$As $\varepsilon$ was arbitrary, this concludes the proof.
+---
 > [!lemma] Theorem 1
 > Let $A$ be a [[Banach algebra]] and $x\in A$. Then, $\text{Sp}_{A}(x)\subseteq \mathbb{C}$ is a  non-empty compact set and: $$r_{A}(x)=\max \{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}=\|x\|_{\text{sp}}$$
 
@@ -42,8 +58,7 @@
 ---
 ##### Examples
 > [!h] Example 1
-> Let $A=\text{End}(V)$ where $V$ is a finite-dimensional $\mathbb{C}$-vector space. Then, for $T\in A$: 
-> 1. $\text{Sp}_{A}(T)$ is the set of roots of the characteristic polynomial of $T$.
+> Let $A=\text{End}(V)$ where $V$ is a finite-dimensional $\mathbb{C}$-vector space. Then, for $T\in A$, $\text{Sp}_{A}(T)$ is the set of roots of the characteristic polynomial of $T$.
 ---
 > [!h] Example 2
 > Let $X$ be compact Hausdorff, then consider $A:=C(X)$ with $\|\cdot\|_{b}$. Then, for $f\in C(X)$, $$\text{Sp}_{A}(f)=\text{Im}(f)$$
