@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
-> Let $A$ be a commutative [[Banach algebra]]. An ideal $\mathfrak{a}\subseteq A$ is ***regular***, if there exists $u\in A$ s.t. $$ux-x\in \mathfrak{a},\quad\forall x\in A$$
-- **Equivalent definition**: $\mathfrak{a}$ is regular if either $\mathfrak{a}=A$ or $\mathfrak{a}\subsetneq A$ and $A / \mathfrak{a}$ is [[C-Algebra|unital]].
+> Let $A$ be a commutative [[Banach algebra]]. An [[ideal]] $I\subseteq A$ is ***regular***, if there exists $u\in A$ s.t. $$ux-x\in I,\quad\forall x\in A$$
+- **Equivalent definition**: $I$ is regular if either $I=A$ or $I\subsetneq A$ and $A / I$ is [[C-Algebra|unital]] as: $$(x+I)(u+I)=xu+I=ux-ux+x+I=x+I$$
 ---
 ##### Properties
 > [!lemma] Proposition 1
