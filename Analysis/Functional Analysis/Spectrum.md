@@ -6,7 +6,7 @@
 > If $A$ is non-unital, we define: $$\text{Sp}_{A}(x):=\text{Sp}_{A_{I}}(x)$$
 - **Related definition**: The complement of a spectrum $\rho_{A}(x):=\mathbb{C} \backslash \text{Sp}_{A}(x)$ is called the ***resolvent set***.
 - **Related definition**: In a [[Banach algebra]], for $x\in A$, define $r_{A}(x):=\inf_{n\geq 1}\left\| x^n \right\|^{1/n}$.
-- **Related definition**: In a [[Banach algebra]], for $x\in A$, the ***spectral radius*** is defined as:$$\|x\|_{\text{sp}}:=\max\{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}$$
+- **Related definition**: In a [[Banach algebra]], for $x\in A$, the ***spectral radius*** is defined as:$$\|x\|_{\text{sp}}:=\max\{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}$$where the existence of the maximum is given by Theorem 4.
 ---
 ##### Properties
 > [!lemma] Proposition 1 
@@ -50,12 +50,14 @@
 
 
 > [!lemma] Theorem 4 (Spectral Radius Formula)
-> Let $A$ be a [[Banach algebra]] and $x\in A$. Then, $\text{Sp}_{A}(x)\subseteq \mathbb{C}$ is a  non-empty compact set and: $$r_{A}(x)=\max \{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}=\|x\|_{\text{sp}}$$
+> Let $A$ be a [[Banach algebra]] and $x\in A$. Then, 
+> 1. $\text{Sp}_{A}(x)\subseteq \mathbb{C}$ is a  non-empty compact set and: 
+> 2. it holds that$$r_{A}(x)=\max \{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}=\|x\|_{\text{sp}}$$
 
-> [!proof]-
+> [!proof]+
 > Wlog we may assume that $A$ is unital.
-> 1. **Show that $\text{Sp}_{A}(x)\subseteq \{ \lambda\in \mathbb{C}:\left| \lambda \right|\leq r_{A}(x) \}$**:
->    Assume $\left| \lambda \right|>r_{A}(x)$. Then, $r_{A}(x) / \left| \lambda \right|<1$. By definition, we have: $$\frac{r_{A}(x)}{\left| \lambda \right| }=r_{A}\left( \frac{x}{\lambda} \right)$$ Therefore, $e-x / \lambda$ is invertible by [[Spectral Radius|Lemma 2]]. As $\lambda e$ is invertible as well, the product $\lambda e-x$ is invertible, i.e. $\lambda\notin \text{Sp}_{A}(x)$.
+> 1. **Show that $\text{Sp}_{A}(x)\subseteq B_{<r_{A}(x)}(0)$**:
+>    Assume $\left| \lambda \right|>r_{A}(x)$. Then, $r_{A}(x) / \left| \lambda \right|<1$. By definition, we have: $$\frac{r_{A}(x)}{\left| \lambda \right| }=r_{A}\left( \frac{x}{\lambda} \right)$$ Therefore, $e-x / \lambda$ is invertible by Lemma 2. As $\lambda e$ is invertible as well, the product $\lambda e-x$ is invertible, i.e. $\lambda\notin \text{Sp}_{A}(x)$.
 > 2. **Show that $\text{Sp}_{A}(x)$ is compact**:$$\text{Sp}_{A}(x)=\{ \lambda\in \mathbb{C}: x-\lambda e\in A \backslash G(A) \}$$Therefore, $\text{Sp}_{A}(x)$ is the inverse image of the closed subset $A \backslash G(A)$ under the continuous map $\lambda\mapsto x-\lambda e$. This proves that $\text{Sp}_{A}(x)$ is closed and bounded, i.e. compact.
 > 3. **Show that $\text{Sp}_{A}(x)$ is non-empty**:
 >    Recall $\rho_{A}(x):=\mathbb{C} \backslash \text{Sp}_{A}(x)$ is an open subset of $\mathbb{C}$. For $\ell\in A^{*}$, we define: $$\begin{array}{cccc} {f:}&{\rho_{A}(x)}&\to&{\mathbb{C}}\\&{\lambda} &\mapsto & {\ell((\lambda e-x)^{-1})} \end{array}{}$$For $\lambda,\mu\in \rho_{A}(x)$, we have: $$f(\lambda)-f(\mu)=\ell((\lambda e-x)^{-1}-(\mu e-x)^{-1})$$If $y,z\in G(A)$ and $y,z$ commute. Then, $y,z,y^{-1},z^{-1}$ commute pairwise. Therefore, $$(\lambda e-x)(\mu e-x)\left( (\lambda e-x)^{-1}-(\mu e-x)^{-1} \right) =(\mu e-x)-(\lambda e-x)=(\mu-\lambda)e$$It follows that $(\lambda e-x)^{-1}-(\mu e-x)^{-1}=-(\lambda-\mu)((\lambda e-x)(\mu e-x))^{-1}$ and: $$f(\lambda)-f(\mu)=-(\lambda-\mu)\ell([(\lambda e-x)(\mu e-x)]^{-1})$$If $\lambda\neq \mu$, then: $$\frac{f(\lambda)-f(\mu)}{\lambda-\mu}=-\ell([(\lambda e-x)(\mu e-x)]^{-1})$$As $\mu\mapsto \ell([(\lambda e-x)(\mu e-x)]^{-1})$ is continuous and $\lim_{ \mu \to \lambda }\frac{f(\lambda)-f(\mu)}{\lambda-\mu}=-\ell((\lambda e-x)^{-2})$ exists and $f:\rho_{A}(x)\to \mathbb{C}$ is holomorphic.
