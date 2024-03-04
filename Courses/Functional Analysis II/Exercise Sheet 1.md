@@ -1,12 +1,13 @@
 #FunctionalAnalysis #Series 
 
-##### Exercise 1
+
+> [!def] Problem 1
 > Let $A$ be a unital $\mathbb{C}$-algebra and $x\in A$. Suppose there are $y,z\in A$ with $xy=zx=e$. Prove $y=z$. Moreover, prove that if there is $y'\in A$ with $xy'=e$ then $y'=y$.
 
 We have that $\begin{align}y=ey=zxy=ze=z\end{align}$. Further, $xy'=xy=yx=e$. Therefore, $y'=y$.
 
 ---
-##### Exercise 2
+> [!def] Problem 2
 > Let $X$ be a locally compact Hausdorff space, which is not compact. Denote by $\alpha X$ the one-point compactification of $X$. Show that the unital algebra $C_{0}(X)_{I}$ is canonically isomorphic to $C(\alpha X)$.
 
 Let $\alpha X:=X \cup \{ \infty \}$. Consider the map: $$\begin{array}{cccc} {\varphi:}&{C_{0}(X)_{I}}&\to&{C(\alpha X)}\\&{(f,\lambda)} &\mapsto & {f_{\alpha}+\lambda} \end{array}{}$$where $f_{\alpha}(x)=f(x)$ for $x\neq \infty$ and $f_{\alpha}(\infty)=0$. Then,
@@ -22,14 +23,14 @@ Let $\alpha X:=X \cup \{ \infty \}$. Consider the map: $$\begin{array}{cccc} {\v
 This proves that $\varphi$ is an isomorphism.
 
 ---
-##### Exercise 3
+> [!def] Problem 3
 > Construct a function $f\in L^1(\mathbb{R})$ s.t. $\left\| f*f^{*} \right\|_{1}<\left\| f \right\|^2_{1}$
 
 Consider the function: $$f(x)=\begin{cases}1&0<x\leq 1\\-1&-1\leq x<0\\0&\text{otherwise}\end{cases}$$Then, $f^{*}=-f$ and: 
 $$\begin{align}f*f^{*}(x)&=\int_{-1}^{0} f(x-t) \, dt -\int_{0}^{1} f(x-t) \, dt \\&=-\int_{x-1}^{x} f(t) \, dt +\int_{x}^{x+1} f(t) \, dt\\&=\begin{cases}-x-2&-2<x<-1\\3x+2&-1\leq x<0\\-3x+2&0\leq x\leq 1\\ x-2&1<x<2\\0&\text{otherwise}\end{cases} \end{align}$$It follows that: $$\left\| f *f^{*}\right\|_{1}=\int_{\mathbb{R}}^{} \left| f*f^{*}(x) \right|  \, dx= \frac{8}{3}<4=\left\| f \right\| _{1}^{2}  $$
 
 ---
-##### Exercise 4
+> [!def] Problem 4
 > Let $A$ be a unital $\mathbb{C}$-algebra with a norm $\|\cdot\|$ such that: 
 > 1. The pair $(A,\|\cdot\|)$ is a Banach space. 
 > 2. The multiplication map $A\times A\to A$ is continuous in each variable. 

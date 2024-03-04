@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,21 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 1.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "source",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "3b6bfb5a542486a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 0.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -68,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -109,20 +97,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "dccdef1a460cd083",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Integral Domain.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Topology/Continuous Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Topology/Continuous Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+                "file": "Topology/Continuous Function.md"
               }
             }
           }
@@ -250,34 +227,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c338b40fbf4aa7ff",
+  "active": "9b7b18ab2369ca47",
   "lastOpenFiles": [
-    "Courses/Algebra II/Exercise Sheet 1.md",
-    "Algebra/Unique Factorization Domain.md",
-    "Algebra/Integral Domain.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Continuous Function.md",
     "Algebra/Principal Ideal Domain.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
+    "Algebra/Integral Domain.md",
+    "Topology/Basis of Topology.md",
+    "Topology/Basis of a Topology.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Courses/Algebra II/Exercise Sheet 1.md",
+    "Topology/Compact-Open Topology.md",
+    "Differential Geometry/Derivation.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Euclidean Domain.md",
     "Algebra/Ideal.md",
     "Axiom of Choice.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Subgroup.md",
-    "Differential Geometry/Derivation.md",
     "Courses/Algebra II/Exercise Sheet 0.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Analysis/Lp Space.md",
     "Topology/Cantor Space.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Hyperbolic Space.md",
     "Differential Geometry/Rank.md",
     "Differential Geometry/Regular Curves in Rn.md",
     "Differential Geometry/Riemannian Manifold.md",
-    "Differential Geometry/Section.md",
-    "Differential Geometry/Smooth Atlas.md",
-    "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Local Isometry.md",
-    "Differential Geometry/Pullback.md",
-    "Differential Geometry/Transition Function.md",
-    "Differential Geometry/Torus.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

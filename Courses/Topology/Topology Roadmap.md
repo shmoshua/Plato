@@ -28,6 +28,9 @@
 **1.6 Topological Groups**
 1. [[Topological Group]]
 ---
+##### 2. Basis and Fundamental Systems
+1. [[Basis of a Topology]]
+---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
 2. [[Courses/Topology/Exercise Sheet 2|Exercise Sheet 2]]
