@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Functions in Metric Spaces.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -226,19 +226,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "dbd4dc2c12260e19",
+  "active": "1ffc7a84ad3e8cfe",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Radical.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Banach Space.md",
+    "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Continuous Function.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
     "Topology/Fundamental System.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Closure.md",
-    "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Interior and Closure.md",
     "Topology/Topological Space.md",
     "Algebra/Principal Ideal Domain.md",
@@ -252,8 +254,6 @@
     "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Courses/Algebra II/Exercise Sheet 1.md",
     "Topology/Compact-Open Topology.md",
-    "Differential Geometry/Derivation.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

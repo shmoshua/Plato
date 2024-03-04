@@ -47,7 +47,7 @@
 > 
 > This shows that $(C^b(X),\|\cdot\|_{b})$ is Banach.
 
-> [!proof]+
+> [!proof]-
 > Let $\{ f_{k} \}_{k}\subseteq C^b(X)$ be a Cauchy sequence. Then, by extraction we have a subsequence $\{ f_{k_{n}} \}_{n}$ s.t. $\left\| f_{k_{n+1}}-f_{k_{n}} \right\|_{b} < \frac{1}{2^n}$ for all $n\geq 1$. By setting: $$f:=f_{k_{1}}+\sum_{n=1}^{\infty}(f_{k_{n+1}}-f_{k})$$We have: $\left\| f \right\|_{b}\leq \left\| f_{k_{1}} \right\|+1$. Therefore, $f\in C^b(X)$. Then, for $\varepsilon>0$, choose $n_{0}$ s.t. $2^{-n_{0}}< \varepsilon/2$. Then, for all $k\geq k_{n_{0}}$$$\left\| f-f_{k} \right\| \leq \left\| f-f_{k_{n_{0}}} \right\|+\left\| f_{k}-f_{k_{n_{0}}} \right\|<\left\| f-f_{k_{n_{0}}} \right\|+\varepsilon / 2 $$
 > 
 

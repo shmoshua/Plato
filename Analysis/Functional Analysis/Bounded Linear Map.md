@@ -107,7 +107,10 @@
 - **Corollary**: Let $V,W$ be Banach spaces and if $T\in \mathcal{B}(V,W)$ bijective, then, $T^{-1}\in \mathcal{B}(W,V)$ as $(T^{-1})^{-1}(U)=T(U)$ for any open $U\subseteq V$.
 ---
 > [!lemma] Theorem 7 (Closed Graph Theorem)
-> Let $V,W$ be Banach spaces and $T:V\to W$ is linear. If $$\text{graph}(T):=\{ (v,T(v)):v\in V \}\subseteq V\times W$$ is closed, $T$ is bounded.
+> Let $V,W$ be Banach spaces and $T:V\to W$ linear. Then, the following are equivalent:
+> 1. $T\in \mathcal{B}(V,W)$ 
+> 2. $\text{graph}(T)\subseteq V\times W$ is closed.
+> 3. If $x_{n}\to 0$ is $V$ and $Tx_{n}\to y$ in $V$, then $y=0$.
 
 > [!proof]-
 > First, we define a norm in $V\times W$ as: $$\left\| (v,w) \right\| =\|v\|_{V}+\|w\|_{W}$$
@@ -117,6 +120,9 @@
 > 1. $P_{V}|_{\text{graph}(T)}:\text{graph}(T)\to V$ is bijective and hence, $(P _{V}|_{\text{graph}(T)})^{-1}$ is continuous from bounded inverse theorem.
 > 
 > Therefore, $$P_{W}\circ (P _{V}|_{\text{graph}(T)})^{-1}=T$$is continuous and bounded.
+> 
+> 2=>3: $(x_{n},T(x_{n}))\to(0,y)$. However, as the graph is closed, $y=T(0)=0$.
+> 3=>2: Let $(x_{n},T(x_{n}))\to(x,y)$. Then, $x_{n}-x\to 0$ and $T(x_{n}-x)=T(x_{n})-T(x)\to y-T(x)$. Therefore, $T(x)=y$ and the graph is closed.
 
 - **Remark**: The converse holds since $W$ is [[Hausdorff space|Hausdorff]].
 - **Remark**: $f(x)=\begin{cases}1/x&x\neq 0\\0&x=0\end{cases}$   has a closed graph but is not continuous.

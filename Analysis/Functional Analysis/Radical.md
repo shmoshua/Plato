@@ -1,8 +1,25 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
 > Let $A$ be a commutative [[Banach algebra]]. The ***radical*** of $A$ is defined as:
-> $$\text{Rad }A:= \bigcap_{}^{}\{ M:M\in \text{Max }A \}=\bigcap_{\varphi\in A}^{}$$
+> $$\text{Rad }A:= \bigcap_{}^{}\{ M:M\in \text{Max }A \}=\bigcap_{\varphi\in \hat{A}}^{}\text{ker }\varphi$$
 > If $\text{Max}(A)= \varnothing$, then $\text{Rad }A=A$.
 - **Related definition**: $A$ is **semisimple** if $\text{Rad}(A)=(0)$. Equivalently, for all $0\neq a\in A$, there exists $\varphi\in \hat{A}$ s.t. $\varphi(a)\neq 0$.
 ---
 ##### Properties
+> [!lemma] Corollary 1
+> Let $A,B$ be commutative [[Banach Algebra|Banach algebras]] with $B$ semi-simple. Then, every $\mathbb{C}$-algebra homomorphism $\varphi:A\to B$ is continuous.
+
+> [!proof]-
+> Let $x_{n}\to {0}$ in $A$ and assume $\varphi(x_{n})\to b\in B$. Let $\chi\in \hat{B}$, then $\chi \circ\varphi:A\to \mathbb{C}$ is a $\mathbb{C}$-algebra homomorphism so either $\chi \circ\varphi=0$ or $\chi \circ\varphi\in \hat{A}$. From [[Guelfand Spectrum|Proposition 1]], we know that $\chi \circ\varphi$ is continuous.
+> 
+> Then, $$\chi(b)=\lim_{ n \to \infty } \chi(\varphi(x_{n}))=\lim_{ n \to \infty } (\chi \circ \varphi)(x_{n})=(\chi \circ \varphi)(0)=0$$Therefore, $\chi(b)=0$ for all $\chi\in \hat{B}$ and $B$ is semi-simple, i.e. $\bigcap_{\chi\in \hat{B}}^{}\text{ker }\chi=(0)$ and $b=0$. Now, from the [[Bounded Linear Map|Closed graph theorem]], $\varphi$ is continuous.
+---
+##### Example
+> [!h] Example 1
+> There is no Banach algebra norm on $C^\infty([0,1])$. Assume $\|\cdot\|$ is such a norm and consider: $C^\infty([0,1])\hookrightarrow C([0,1])$. Then, 
+> 1. $C([0,1])$ is semisimple.
+> 2. The injection is continuous and there exists $c>0$ s.t. $\left\| f \right\|_{b}\leq c\left\| f \right\|$ for all $f\in C^\infty([0,1])$.
+> Let $$\begin{array}{cccc} {D:}&{C^\infty([0,1])}&\to&{C^\infty([0,1])}\\&{f} &\mapsto & {f'} \end{array}{}$$
+> 3. $D$ is continuous for $(C^\infty[0,1],\|\cdot\|)$. Let $f_{n}\to {0}$ and $f'_{n}\to g$. Then, $f_{n}\to {0}$ uniformly, $f_{n}' \to g$ uniformly. Therefore, $g=0$ as a derivative of $0$ and the derivative is continuous.
+>    
+> 4. However, $D$ is not bounded: consider $t\mapsto e^{\alpha t}$
