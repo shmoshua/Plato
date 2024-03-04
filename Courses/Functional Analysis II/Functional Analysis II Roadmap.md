@@ -22,7 +22,7 @@
 ##### 3. The Guelfand Representations
 **3.1 Regular Ideals**
 1. [[Regular Ideal]]
-2. [[Locally Compact Hausdorff Space]] and closed ideals. (FINISH PROOF)
+2. **Example of a Regular Ideal**: [[Regular Ideal|$I(E)$]] of a closed subset $E\subseteq X$ of a locally compact Hausdorff space.
 
 **3.2 Guelfand Spectrum and Ideals**
 1. [[Guelfand Spectrum]]

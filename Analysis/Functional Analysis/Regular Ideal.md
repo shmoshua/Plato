@@ -1,14 +1,14 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
-> Let $A$ be a commutative [[Banach algebra]]. An [[ideal]] $I\subseteq A$ is ***regular***, if there exists $u\in A$ s.t. $$ux-x\in I,\quad\forall x\in A$$
+> Let $A$ be a commutative [[Banach algebra]]. An [[ideal]] $I\subseteq A$ is ***regular***, if there exists $u\in A$ s.t. $$ux-x\in I,\quad\forall x\in A$$where $u$ is called a ***unit modulo $I$.***
 - **Equivalent definition**: $I$ is regular if either $I=A$ or $I\subsetneq A$ and $A / I$ is [[C-Algebra|unital]] as: $$(x+I)(u+I)=xu+I=ux-ux+x+I=x+I$$
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $A$ be a commutative Banach algebra and $\mathfrak{a}\subseteq A$ a proper regular ideal. Further, let $u\in A$ be a unit modulo $\mathfrak{a}$. Then, $$\|u-x\|\geq 1,\quad \forall x\in \mathfrak{a}$$
+> Let $A$ be a commutative [[Banach algebra]] and $I\subseteq A$ a proper regular ideal. Further, let $u\in A$ be a unit modulo $I$. Then, $$\|u-x\|\geq 1,\quad \forall x\in I$$
 
-> [!proof]-
-> Assume $x\in \mathfrak{a}$ s.t. $\|u-x\|<1$. Then, $$s:=\sum_{n=1}^{\infty}(u-x)^n$$converges absolutely.  Now, $u-x=s-s(u-x)=\underbrace{ s-su }_{\in \mathfrak{a} }+\underbrace{ sx }_{ \in \mathfrak{a} }\in \mathfrak{a}$. Therefore, $u\in \mathfrak{a}$ and $A  / \mathfrak{a}= (0)$This implies that $\mathfrak{a}=A$, which is a contradiction. 
+> [!proof]+
+> Assume $x\in I$ s.t. $\|u-x\|<1$. Then, $$s:=\sum_{n=0}^{\infty}(u-x)^n$$converges absolutely by [[]s].  Now, $u-x=s-s(u-x)=\underbrace{ s-su }_{\in \mathfrak{a} }+\underbrace{ sx }_{ \in \mathfrak{a} }\in \mathfrak{a}$. Therefore, $u\in \mathfrak{a}$ and $A  / \mathfrak{a}= (0)$This implies that $\mathfrak{a}=A$, which is a contradiction. 
 ---
 > [!lemma] Proposition 2
 > Let $\mathfrak{a}\subseteq A$ be regular and $\mathfrak{a}\subseteq \mathfrak{b}\subseteq A$ also an ideal. Then, $\mathfrak{b}$ is regular as well. 
@@ -60,7 +60,10 @@
 > 1. $I(E)$ is an ideal in $C_{0}(X)$.
 > 2. $I(E)$ is regular if and only if $E$ is compact. 
 
-> [!proof]+
+> [!proof]-
 > Let $f\in C_{0}(X)$ and $g\in I(E)$. Then, 
 > 1. $f(x)\cdot g(x)=0$ for all $x\in E$ and therefore, $fg\in I(E)$. From the commutativity, $I(E)$ is an ideal.
-> 2. Assume $I(E)$ is regular. Then, let $f\in C_{0}(X)$ s.t. for all $g\in C_{0}(X)$, $$f(x)g(x)=g(x),\quad \forall x\in E$$Therefore, $f|_{E}=1$. 
+> 2. Assume $I(E)$ is regular. Then, let $f\in C_{0}(X)$ s.t. for all $g\in C_{0}(X)$, $$f(x)g(x)=g(x),\quad \forall x\in E$$Therefore, $f|_{E}=1$. As $f\in C_{0}(X)$, there exists $K\subseteq X$ compact s.t. $\sup_{x\in X \backslash K} \left| f(x) \right|<1 /2$. Indeed it follows that $E\subseteq K$ and as a closed subset of a compact set, $E$ is compact.
+>    
+>    Conversely, assume that $E$ is compact. Then, for $E\subseteq U\subseteq X$ where $U$ is open, by [[Locally Compact Hausdorff Space|Urysohn's Lemma]], there exists $f\in C_{c}(X)\subseteq C_{0}(X)$ with $f(x)=1$ for all $x\in E$. Therefore, for any $g\in C_{0}(X)$, $$f(x)g(x)-g(x)=0,\quad \forall x\in E$$and $fg-g\in I(E)$. This proves the statement.
+---
