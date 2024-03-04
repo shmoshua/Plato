@@ -18,7 +18,7 @@
 > 5. $x\in \overline{A}$ if and only if for all neighborhood $U\subseteq X$ of $x$, $A\cap B\neq \varnothing$ 
 > 6. $A^{\circ}=A$ if and only if $A$ is open.
 > 7. $\overline{A}=A$ if and only if $A$ is closed.
-
+---
 > [!lemma] Proposition 1
 > For any set $A\subseteq X$, $A^\circ$ is the largest open set contained in $A$.
 

@@ -26,6 +26,7 @@
 **3.2 Guelfand Spectrum and Ideals**
 1. [[Guelfand Spectrum]]
 2. **Example of a Guelfand Spectrum**: [[Volterra Algebra]]
+3. [[Radical]]
 ---
 ##### 4. The Guelfand Isomorphisms
 ---
