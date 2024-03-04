@@ -16,7 +16,7 @@
 ##### 2. Spectrum of a Banach Algebra Element
 1. [[C-Algebra|Invertible elements]] of a $\mathbb{C}$-algebra
 1. [[Analysis/Functional Analysis/Spectrum|Spectrum]]
-2. [[Spectral Radius]]
+2. [[Analysis/Functional Analysis/Spectrum|Spectral Radius]]
 3. [[Analysis/Functional Analysis/Spectrum|Spectral Radius Formula]]
 ---
 ##### 3. The Guelfand Representations

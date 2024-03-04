@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Radical.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectral Radius.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -83,18 +83,6 @@
             }
           },
           {
-            "id": "15ca26f0db114305",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Spectral Radius.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4a0ec9a2bfd00837",
             "type": "leaf",
             "state": {
@@ -142,8 +130,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,13 +260,13 @@
   },
   "active": "e6f158052a79d414",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Spectral Radius.md",
-    "Analysis/Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Spectrum.md",
+    "Analysis/Functional Analysis/Spectral Radius.md",
+    "Analysis/Functional Analysis/Radical.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Topology/Weak Topology.md",
-    "Analysis/Functional Analysis/Radical.md",
     "Topology/Initial Topology.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
