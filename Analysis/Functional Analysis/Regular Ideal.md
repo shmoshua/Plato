@@ -48,13 +48,19 @@
 > [!h] Example 1
 > We have:
 > 1. Any ideal in a unital Banach algebra is regular.
-> 2. For an algebra homomorphism $\chi:A\to \mathbb{C}$, $\text{ker }\chi$ is regular. 
+> 2. For an algebra homomorphism $\chi:A\to \mathbb{C}$, $\text{ker }\chi \subseteq A$ is regular. 
 
 > [!proof]-
 > We have: 
-> 1. If $\text{ker } \chi\neq A$, then $\chi(A)=\mathbb{C}$ and we can pick $u\in A$ with $\chi(u)=1$. Then, $ux-x\in \text{ker }\chi$ for all $x\in A$.
+> 1. Take the unit $u=e$.
+> 3. If $\text{ker } \chi\neq A$, then $\chi(A)=\mathbb{C}$ and we can pick $u\in A$ with $\chi(u)=1$. Then, $ux-x\in \text{ker }\chi$ for all $x\in A$.
 ---
 > [!h] Example 2
-> For a [[locally compact Hausdorff space]] $X$ and a closed subset $E\subseteq X$, we define: $$\mathfrak{E}:=\{ f\in C_{0}(X):f|_{E}=0 \}$$Then, 
-> 1. $\mathfrak{E}$ is an ideal in $C_{0}(X)$.
-> 2. $\mathfrak{E}$ is regular if and only if $E$ is compact. (Urysohn's lemma)
+> For a [[locally compact Hausdorff space]] $X$ and a closed subset $E\subseteq X$, we define: $$I(E):=\{ f\in C_{0}(X):f|_{E}=0 \}$$Then, 
+> 1. $I(E)$ is an ideal in $C_{0}(X)$.
+> 2. $I(E)$ is regular if and only if $E$ is compact. 
+
+> [!proof]+
+> Let $f\in C_{0}(X)$ and $g\in I(E)$. Then, 
+> 1. $f(x)\cdot g(x)=0$ for all $x\in E$ and therefore, $fg\in I(E)$. From the commutativity, $I(E)$ is an ideal.
+> 2. Assume $I(E)$ is regular. Then, let $f\in C_{0}(X)$ s.t. for all $g\in C_{0}(X)$, $$f(x)g(x)=g(x),\quad \forall x\in E$$Therefore, $f|_{E}=1$. 
