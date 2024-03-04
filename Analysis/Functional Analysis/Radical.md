@@ -20,6 +20,11 @@
 > 1. $C([0,1])$ is semisimple.
 > 2. The injection is continuous and there exists $c>0$ s.t. $\left\| f \right\|_{b}\leq c\left\| f \right\|$ for all $f\in C^\infty([0,1])$.
 > Let $$\begin{array}{cccc} {D:}&{C^\infty([0,1])}&\to&{C^\infty([0,1])}\\&{f} &\mapsto & {f'} \end{array}{}$$
-> 3. $D$ is continuous for $(C^\infty[0,1],\|\cdot\|)$. Let $f_{n}\to {0}$ and $f'_{n}\to g$. Then, $f_{n}\to {0}$ uniformly, $f_{n}' \to g$ uniformly. Therefore, $g=0$ as a derivative of $0$ and the derivative is continuous.
+> 3. $D$ is continuous for $(C^\infty[0,1],\|\cdot\|)$. Let $f_{n}\to {0}$ and $f'_{n}\to g$. Then, $f_{n}\to {0}$ uniformly, $f_{n}' \to g$ uniformly. Therefore, $g=0$ as a derivative of $0$ and $D$ is continuous.
 >    
-> 4. However, $D$ is not bounded: consider $t\mapsto e^{\alpha t}$
+> 4. However, $D$ cannot be bounded: consider $t\mapsto e^{\alpha t}$
+---
+> [!h] Example 2
+> Let $\Gamma$ be a (countable) [[abelian group]] and $$\ell^!(\Gamma):=\left\{  f:\Gamma\to \mathbb{C} :\|f\|_{1}:=\sum_{\gamma\in \Gamma}^{}\left| f(\gamma) \right|<+\infty  \right\}$$
+> 1. $\ell^1(\Gamma)$ is semisimple. (but why?)
+---

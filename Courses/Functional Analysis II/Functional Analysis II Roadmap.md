@@ -28,6 +28,10 @@
 2. **Example of a Guelfand Spectrum**: [[Volterra Algebra]]
 3. [[Radical]]
 4. [[Bounded Linear Map|Closed Graph Theorem]]
+5. **Examples**:
+---
+**3.3 Guelfand Topology**
+1. [[Guelfand Topology]]
 ---
 ##### 4. The Guelfand Isomorphisms
 ---

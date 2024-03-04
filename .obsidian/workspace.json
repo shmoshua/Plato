@@ -30,8 +30,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "4f0a6231d1094e57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -79,19 +92,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Radical.md",
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "ee3a4b83f10bd160",
+            "id": "939f6b4351058ed0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Topology/Weak Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -164,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Radical.md",
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Radical.md",
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Radical.md"
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md"
               }
             }
           }
@@ -228,11 +241,14 @@
   },
   "active": "1ffc7a84ad3e8cfe",
   "lastOpenFiles": [
+    "Topology/Weak Topology.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Analysis/Functional Analysis/Radical.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Functional Analysis/Radical.md",
+    "Topology/Initial Topology.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Banach Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Continuous Function.md",
@@ -251,9 +267,6 @@
     "Algebra/Integral Domain.md",
     "Topology/Basis of Topology.md",
     "Algebra/Unique Factorization Domain.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Courses/Algebra II/Exercise Sheet 1.md",
-    "Topology/Compact-Open Topology.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
