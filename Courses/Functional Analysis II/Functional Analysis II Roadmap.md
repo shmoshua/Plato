@@ -43,3 +43,4 @@
 
 ### Exercises
 1. [[Courses/Functional Analysis II/Exercise Sheet 1|Exercise Sheet 1]]
+2. [[Courses/Functional Analysis II/Exercise Sheet 2|Exercise Sheet 2]]

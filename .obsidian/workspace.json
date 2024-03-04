@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dbd4dc2c12260e19",
+            "id": "936b4ce723f54e0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "936b4ce723f54e0a",
+            "id": "57bf51f0b013a032",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -51,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -66,6 +65,30 @@
               "state": {
                 "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "169de1b4d9d3aba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61a5e32f37a130bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -197,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md"
+                "file": "Analysis/Functional Analysis/C*-Algebra.md"
               }
             }
           }
@@ -259,10 +282,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "be36a608b8d55fb8",
+  "active": "169de1b4d9d3aba2",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/Spectrum.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Spectral Radius.md",
     "Analysis/Functional Analysis/Radical.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
@@ -285,8 +310,6 @@
     "Analysis/Open and Closed Balls.md",
     "Topology/Basis of a Topology.md",
     "Algebra/Euclidean Domain.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
-    "Algebra/Integral Domain.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
