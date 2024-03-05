@@ -147,7 +147,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/C-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Abelian Group.md",
+                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Abelian Group.md",
+                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -249,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Abelian Group.md",
+                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Abelian Group.md"
+                "file": "Analysis/Functional Analysis/Volterra Algebra.md"
               }
             }
           }
@@ -296,16 +296,19 @@
   },
   "active": "d5ca6440df640336",
   "lastOpenFiles": [
-    "Algebra/Group.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
+    "Analysis/Functional Analysis/Volterra Algebra.md",
+    "Analysis/Lp Space.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Spectrum.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Functional Analysis/Regular Ideal.md",
+    "Algebra/Abelian Group.md",
+    "Algebra/Group.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
-    "Analysis/Functional Analysis/Regular Ideal.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Analysis/Functional Analysis/Spectral Radius.md",
@@ -319,9 +322,6 @@
     "Topology/Continuous Function.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Fundamental System.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Closure.md",
-    "Topology/Interior and Closure.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
