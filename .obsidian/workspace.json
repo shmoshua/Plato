@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convergence of Sequences.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,38 +25,49 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Algebra/Field.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
         "children": [
           {
-            "id": "c338b40fbf4aa7ff",
+            "id": "d97152b3f80db9ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "4435ea620322e6a3",
+            "id": "01718d113428faab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Algebra/Field.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69a17baf773b2c84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Euclidean Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -129,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md"
+                "file": "Courses/Algebra II/Algebra II Roadmap.md"
               }
             }
           }
@@ -191,9 +202,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1b2d6fcdcf345909",
+  "active": "c6a89dd090ba2d09",
   "lastOpenFiles": [
+    "Algebra/Field.md",
+    "Algebra/Euclidean Domain.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Topology/Hausdorff Space.md",
     "Analysis/Convergence of Sequences.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -215,10 +230,6 @@
     "Analysis/Functional Analysis/Radical.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
     "Topology/Weak Topology.md",
-    "Topology/Initial Topology.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Analysis/Banach Space.md",
-    "Topology/Continuous Functions in Metric Spaces.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

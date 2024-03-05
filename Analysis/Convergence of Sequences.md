@@ -7,15 +7,14 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> In a metric space $X$,  a sequence $(x_{n})_{n}$ can only have at most one limit.
+> In a Hausdorff space $X$,  a sequence $(x_{n})_{n}$ can only have at most one limit.
 
 > [!proof]-
-> Suppose $\lim_{ n \to \infty }x_{n}=a$ and $\lim_{ n \to \infty }x_{n}=b$. Then, for each $\varepsilon>0$, there exists $N_{1}$ and $N_{2}$ s.t. 
-> 1. $d(x_{n},a)<\varepsilon$ for $n\geq N_{1}$ and 
-> 2. $d(x_{n},b)<\varepsilon$ for $n\geq N_{2}$
->    
-> Now, if we take $n\geq N:=\max\{ N_{1},N_{2} \}$, we have: $$d(a,b)\leq d(a,x_{n})+d(x_{n},b)<2\varepsilon$$
-> As $\varepsilon$ was arbitrary, $d(a,b)=0$ and $a=b$.
+> Suppose $x_{n}\to a$ and $x_{n}\to b$ where $a\neq b$. Let $U,V$ be the disjoint neighborhoods of $a$ and $b$. Then, there exists $N,M\in \mathbb{N}$ s.t. 
+> 1. $x_{n}\in U$ for all $n\geq N$
+> 2. $x_{m}\in V$ for all $m\in M$
+> 
+> Therefore, $U\cap V\neq \varnothing$.
 ---
 ##### Examples
 > [!h] Example 1

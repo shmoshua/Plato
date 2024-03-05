@@ -22,7 +22,14 @@
 > $$b=1b=a^{-1}ab=a^{-1}ac=1c=c$$
 ---
 > [!lemma] Theorem 3
-> Let $F$ be a field. Then $F[X]$ is a principal ideal domain.
+> Let $R$ be an [[integral domain]]. Then, $R$ is a field if and only if $R[X]$ is a [[principal ideal domain]].
+
+> [!proof]-
+> Suppose $R[X]$ is a PID. We have that $R[X] / (X)\cong R$. But $X$ is maximal as $X$ is prime. Therefore, $R$ is a field.
+> 
+> Conversely, for a field $R$, $R[X]$ is a [[Euclidean domain]] and therefore a PID.
+
+- **Remark**: $R[X]$ being UFD does not imply that $R$ is a field, e.g. $R=\mathbb{Z}$.
 ---
 > [!lemma] Theorem 4
 > Let $F$ be a field. If $f\in F[X]$ with $\text{deg}(f)=:n>0$, then $F$ has at most $n$ zeros.

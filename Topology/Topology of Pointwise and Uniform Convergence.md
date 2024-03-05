@@ -13,5 +13,10 @@
 > 1. $f_{n}\to g$ in $\mathcal{T}_{p}$ if and only if $f_{n}(x)\to g(x)$ for all $x\in X$.
 > 2. $f_{n}\to g$ in $\mathcal{T}_{u}$ if and only if $f_{n}(x)\to g(x)$ uniformly.
 
-> [!proof]+
-> 
+> [!proof]-
+> We have:
+> 1. Suppose that $f_{n}\to g$ in $\mathcal{T}_{p}$. Then, for $x\in X$ and $\varepsilon>0$, $$V_{\varepsilon}:=\{ f\in \mathcal{F}(X):\left| f(x)-g(x) \right| <\varepsilon \}$$is an open neighborhood of $g$. Therefore, there exists $N\geq 0$ s.t. $f_{n}\in V_{\varepsilon}$ for all $n\geq N$, i.e. $\left| f_{n}(x)-g(x) \right|<\varepsilon$. 
+> 	
+> 	Conversely, assume that $f_{n}(x)\to g(x)$ for all $x\in X$. For a neighborhood $U$ of $g$, there exists $\{ f\in \mathcal{F}(X):\left| f(x_{0})-g(x_{0}) \right|<\varepsilon \}\subseteq U$ for some $\varepsilon>0$ and $x_{0}\in X$. Then, as $f_{n}(x_{0})\to g(x_{0})$, there exists $N\in \mathbb{N}$ s.t. $f_{n}\in U$ for all $n\geq N$.
+> 2. Analogous.
+---
