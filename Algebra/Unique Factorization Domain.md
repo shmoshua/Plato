@@ -42,3 +42,9 @@
 	1. $(X)$ is prime: $\mathbb{Z}[X]  / (X)\cong \mathbb{Z}$ which is an integral domain.
 	2. $(X)$ is not maximal: $(X)\subsetneq(2,X)\subsetneq \mathbb{Z}[X]$ or $\mathbb{Z}[X]  / (X)\cong \mathbb{Z}$ is not a field.
 ---
+> [!lemma] Lemma 4
+> Let $R$ be an integral domain. Then, $R$ is a unique factorization domain if and only if $R[X]$ is a unique factorization domain.
+
+> [!proof]+
+> We have: 
+> 1. Since $R[X]$ is a UFD, the constant polynomials have to be factored uniquely. However, due to degree concerns, the factorization in $R[X]$ is a factorization in $R$.

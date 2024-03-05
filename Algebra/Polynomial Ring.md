@@ -7,6 +7,7 @@
 > 2. $a_{n}$ is the ***leading coefficient*** of $p$,
 > 
 > If $a_{n}=1$, then $p$ is ***normalized/monic***. If $p=0$, then $\text{deg}(p)=-\infty$.
+- **Related definition**: For an [[Unique Factorization Domain|UFD]] $R$ and a polynomial $f\in R[X]$, the ***content*** $c(f)$ of $f$ is the [[Integral Domain|greatest common divisor]] of the coefficients of the polynomial. 
 ---
 ##### Properties
 > [!lemma] Fact 1

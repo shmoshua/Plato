@@ -16,7 +16,9 @@
 2. [[Principal Ideal Domain]]
 3. [[Integral Domain|Irreducibility, Prime, Associates, gcd]]
 4. [[Unique Factorization Domain]]
-5. [[Field]]
+5. [[Field]] and $F[X]$.
+6. [[Polynomial Ring|Content]]
+7. 
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
