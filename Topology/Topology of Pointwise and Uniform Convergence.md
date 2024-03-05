@@ -9,4 +9,9 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1
+> For $(f_{n})_{n}\subseteq \mathcal{F}(X)$, 
+> 1. $f_{n}\to g$ in $\mathcal{T}_{p}$ if and only if $f_{n}(x)\to g(x)$ for all $x\in X$.
+> 2. $f_{n}\to g$ in $\mathcal{T}_{u}$ if and only if $f_{n}(x)\to g(x)$ uniformly.
+
+> [!proof]+
 > 

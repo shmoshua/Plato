@@ -27,6 +27,9 @@
 
 **1.6 Topological Groups**
 1. [[Topological Group]]
+
+**1.7 Limits and Convergence**
+1. [[Convergence of Sequences]]
 ---
 ##### 2. Basis and Fundamental Systems
 1. [[Basis of a Topology]]

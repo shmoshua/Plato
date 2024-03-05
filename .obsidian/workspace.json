@@ -8,74 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "936b4ce723f54e0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b72f18911b102e40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "c6a89dd090ba2d09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Convergence of Sequences.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "57bf51f0b013a032",
+            "id": "1b2d6fcdcf345909",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Regular Ideal.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "mode": "source",
                 "source": true
               }
-            }
-          },
-          {
-            "id": "e6f158052a79d414",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4f0a6231d1094e57",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -87,86 +44,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "778d12464eee4881",
+            "id": "4435ea620322e6a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79e1e2c8c9ca6c8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcdeca6905a145bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Regular Ideal.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61a5e32f37a130bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aab1e0bed78d02b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5ca6440df640336",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,8 +109,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -233,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md"
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md"
               }
             }
           }
@@ -295,19 +191,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "426a3c97ada45d5c",
+  "active": "1b2d6fcdcf345909",
   "lastOpenFiles": [
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Analysis/Convergence of Sequences.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Functional Analysis/Regular Ideal.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Analysis/Functional Analysis/Volterra Algebra.md",
-    "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Analysis/Lp Space.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Spectrum.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Analysis/Functional Analysis/Regular Ideal.md",
     "Algebra/Abelian Group.md",
     "Algebra/Group.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
@@ -320,9 +219,6 @@
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Banach Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
-    "Topology/Continuous Function.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Topology/Fundamental System.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
