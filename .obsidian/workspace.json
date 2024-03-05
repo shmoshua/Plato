@@ -166,7 +166,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -195,7 +195,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "immersion",
+                "query": "inverse function theorem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -212,7 +212,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -232,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -249,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Volterra Algebra.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -272,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Volterra Algebra.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md"
               }
             }
           }
@@ -294,11 +295,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d5ca6440df640336",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Analysis/Functional Analysis/Volterra Algebra.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Analysis/Lp Space.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Spectrum.md",
