@@ -43,8 +43,24 @@
 	2. $(X)$ is not maximal: $(X)\subsetneq(2,X)\subsetneq \mathbb{Z}[X]$ or $\mathbb{Z}[X]  / (X)\cong \mathbb{Z}$ is not a field.
 ---
 > [!lemma] Lemma 4
+> Let $R$ be a unique factorization domain. Every non-constant polynomial $f\in R[X]$ can be written as $f=cg$ where:
+> 1. $c$ is unique up to units in $R$.
+> 2. $g$ is [[Polynomial Ring|primitive]] and unique up to units.
+> 3. $\deg f=\deg g$
+
+> [!proof]-
+> Let $f(x)=a_{0}+a_{1}x+a_{2}x^{2}+\dots+a_{n}x^n$ and let $c:=c(f)$. Then, $a_{i}=cb_{i}$ for some $b_{i}\in R$ and: $$f(x)=c\cdot (b_{0}+b_{1}x+b_{2}x^{2}+\dots+b_{n}x^n)$$
+> $g(x)$ is primitive, as if there is any irreducible $r$ that divides all $b_{i}$s, then $c|cr$, which is the contradiction to the maximality of $c$.
+> 
+> For uniqueness, suppose $f(x)=dh(x)$ where $h(x)\in R[X]$ is primitive. Any irreducible factor of $c$ must divide $h(x)$ and vice versa. Therefore, $c=du$ for some $u\in R^{*}$ and $ug(x)=h(x)$ as claimed.
+---
+> [!lemma] Lemma 5 (Gauss' Lemma)
+> Let $R$ be a unique factorization domain. Then, the product of two primitive polynomials in $R[X]$ is primitive.
+---
+> [!lemma] Lemma 4
 > Let $R$ be an integral domain. Then, $R$ is a unique factorization domain if and only if $R[X]$ is a unique factorization domain.
 
 > [!proof]+
 > We have: 
 > 1. Since $R[X]$ is a UFD, the constant polynomials have to be factored uniquely. However, due to degree concerns, the factorization in $R[X]$ is a factorization in $R$.
+---
