@@ -7,42 +7,38 @@
 > [!lemma] Proposition 1
 > Let $A$ be a commutative [[Banach algebra]] and $I\subseteq A$ a proper regular ideal. Further, let $u\in A$ be a unit modulo $I$. Then, $$\|u-x\|\geq 1,\quad \forall x\in I$$
 
-> [!proof]+
-> Assume $x\in I$ s.t. $\|u-x\|<1$. Then, $$s:=\sum_{n=0}^{\infty}(u-x)^n$$converges absolutely by [[]s].  Now, $u-x=s-s(u-x)=\underbrace{ s-su }_{\in \mathfrak{a} }+\underbrace{ sx }_{ \in \mathfrak{a} }\in \mathfrak{a}$. Therefore, $u\in \mathfrak{a}$ and $A  / \mathfrak{a}= (0)$This implies that $\mathfrak{a}=A$, which is a contradiction. 
+> [!proof]-
+> Assume $x\in I$ s.t. $\|u-x\|<1$. Then, $$s:=\sum_{n=0}^{\infty}(u-x)^n$$converges absolutely by [[Analysis/Functional Analysis/Spectrum|Lemma 2]].  Now, $$u-x=s-s(u-x)=\underbrace{ us-s }_{\in I }+\underbrace{ sx }_{ \in I }\in I$$ Therefore, $u\in I$ and $A  / I= (0)$. This implies that $I=A$, which is a contradiction. 
 ---
 > [!lemma] Proposition 2
-> Let $\mathfrak{a}\subseteq A$ be regular and $\mathfrak{a}\subseteq \mathfrak{b}\subseteq A$ also an ideal. Then, $\mathfrak{b}$ is regular as well. 
+> Let $I\subseteq A$ be regular and $I\subseteq J\subseteq A$ also an ideal. Then, $J$ is regular as well. 
 
 > [!proof]-
-> There exists $u\in A$ s.t. $ux-x\in \mathfrak{a}\subseteq \mathfrak{b}$ for all $x\in A$.
+> There exists $u\in A$ s.t. $ux-x\in I\subseteq J$ for all $x\in A$.
 ---
 > [!lemma] Corollary 3
 > We have: 
-> 1. $\mathfrak{a}\subsetneq A$ is proper and regular, then $\overline{\mathfrak{a}}\subsetneq A$ is proper and regular.
-> 2. $\mathfrak{a}\subseteq A$ is [[Maximal Ideal|maximal]] regular, then $\mathfrak{\overline{a}}=\mathfrak{a}$.
-
-> [!proof]- Proof (Incomplete)
-> We have: 
-> 1. If $\mathfrak{a}\subseteq A$ is an ideal, $\overline{\mathfrak{a}}$ is an ideal due to the continuity of algebraic operations. Further, $\overline{\mathfrak{a}}$ is regular from Proposition 2. 
-> 2. If $\mathfrak{a}=A$, then $\mathfrak{\overline{a}}=A$. Otherwise, $\mathfrak{a}\subseteq A$ is proper and regular. Therefore, $\overline{\mathfrak{a}}$ is proper and regular, but by the maximality, $\mathfrak{\overline{a}}=\mathfrak{a}$.
----
-> [!lemma] Lemma 4
-> Every regular and proper ideal $\mathfrak{a}\subseteq A$ is contained in some maximal regular ideal.
+> 1. $I\subsetneq A$ is proper and regular, then $\overline{I}\subsetneq A$ is proper and regular.
+> 2. $I\subseteq A$ is [[Maximal Ideal|maximal]] regular, then $\overline{I}=I$.
 
 > [!proof]-
-> Let $u\in A$ be a unit modulo $\mathfrak{a}$. For ideals $\mathfrak{a}\subseteq \mathfrak{b}\subseteq A$, the following are equivalent:
-> 1. $\mathfrak{b}\subsetneq A$
-> 2. $u\notin \mathfrak{b}$
-> 
-> Therefore, $$\mathcal{L}:=\{ \mathfrak{b}\subseteq A:\mathfrak{a}\subseteq \mathfrak{b}\subseteq A,\mathfrak{b}\text{ is an ideal}, u\notin \mathfrak{b} \}$$Let $\mathcal{K}\subseteq \mathcal{L}$ be a totally ordered subset in $\mathcal{L}$. Then, define $\mathfrak{L}:=\bigcup_{\mathfrak{b}\subseteq \mathcal{K}}^{}\mathfrak{b}\supseteq\mathfrak{a}$. Since $\mathcal{K}$ is totally ordered, $\mathfrak{L}$ is an ideal of $A$. Also, it is proper as otherwise, $u\in \mathfrak{L}$ which means $u\in \mathfrak{b}$ for some $\mathfrak{b}\in \mathcal{L}$, a contradiction. 
+> We have: 
+> 1. If $I\subseteq A$ is an ideal, $\overline{I}\subseteq A$ is an ideal due to the continuity of algebraic operations. Further, $\overline{I}$ is regular from Proposition 2 as well. Lastly, if $\|u-x\|\geq 1$ for all $x\in I$, then it also holds for $x\in \overline{I}$. Therefore, $u\notin \overline{I}$ and $\overline{I}$ is proper.
+> 2. $I\subseteq A$ is proper and regular. Therefore, $\overline{I}$ is proper and regular, but by the maximality, $\overline{I}=I$.
+---
+> [!lemma] Lemma 4
+> Every proper regular ideal $I\subseteq A$ is contained in some maximal regular ideal.
+
+> [!proof]-
+> Let $u\in A$ be a unit modulo $I$. We define: $$\mathcal{L}:=\{ J\subseteq A:I\subseteq J\subseteq A,J\text{ is an ideal}, u\notin J \}$$Let $\mathcal{K}\subseteq \mathcal{L}$ be a totally ordered subset in $\mathcal{L}$. Then, define $L:=\bigcup_{J\subseteq \mathcal{K}}^{}J\supseteq I$. Since $\mathcal{K}$ is totally ordered, $L$ is an ideal of $A$. Also, it is proper as otherwise, $u\in L$ which means $u\in J$ for some $J\in \mathcal{L}$, a contradiction. 
 > 
 > Therefore, by [[Axiom of Choice|Zorn's lemma]], $\mathcal{L}$ has a maximal element. 
 ---
 > [!lemma] Corollary 5
-> Let $A$ be a unital commutative Banach algebra. If $x\in A$ is not invertible, then $x$ is contained in a maximal ideal.
+> Let $A$ be a unital commutative [[Banach algebra]]. If $x\in A$ is not invertible, then $x$ is contained in a maximal ideal.
 
 > [!proof]-
-> Let $e\in A$ be the identity and consider the proper ideal $Ax$. Then, $e\notin Ax$, so $Ax$ is regular. Therefore, by Lemma 4, there exists a maximal regular ideal $\mathfrak{m}$ s.t. $x\in \mathfrak{m}.$
+> Let $e\in A$ be the identity and consider the proper ideal $Ax$. Then, $e\notin Ax$, so $Ax$ is regular. Therefore, by Lemma 4, there exists a maximal regular ideal $I$ s.t. $x\in I.$
 ---
 ##### Examples
 > [!h] Example 1

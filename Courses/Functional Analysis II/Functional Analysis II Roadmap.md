@@ -23,6 +23,7 @@
 **3.1 Regular Ideals**
 1. [[Regular Ideal]]
 2. **Example of a Regular Ideal**: [[Regular Ideal|$I(E)$]] of a closed subset $E\subseteq X$ of a locally compact Hausdorff space.
+3. [[Banach Algebra|Quotient Banach Algebra]]
 
 **3.2 Guelfand Spectrum and Ideals**
 1. [[Guelfand Spectrum]]
