@@ -75,8 +75,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -136,14 +135,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aab1e0bed78d02b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5ca6440df640336",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Abelian Group.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -209,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Algebra/Abelian Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Algebra/Abelian Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md"
+                "file": "Algebra/Abelian Group.md"
               }
             }
           }
@@ -271,18 +294,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "778d12464eee4881",
+  "active": "d5ca6440df640336",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Spectrum.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Algebra/Group.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/Regular Ideal.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Analysis/Functional Analysis/Spectrum.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Topology/Exercise Sheet 2.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Functional Analysis/Regular Ideal.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
     "Analysis/Functional Analysis/Spectral Radius.md",
     "Analysis/Functional Analysis/Radical.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
@@ -297,8 +322,6 @@
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Closure.md",
     "Topology/Interior and Closure.md",
-    "Topology/Topological Space.md",
-    "Algebra/Principal Ideal Domain.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

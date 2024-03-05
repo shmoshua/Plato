@@ -9,3 +9,10 @@ Now, assume that $X$ is not compact, i.e. $C_{0}(X)$ is non-unital. Then, $$\tex
 ---
 > [!def] Problem 2
 > Let $\Gamma$ be an abelian group and $A:=\ell^1(\Gamma)$ with convolution product. Compute the Guelfand spectrum $\hat{A}$ of $A$ as a set.
+
+We will show that: $$\begin{array}{cccc} {J:}&{\Gamma}&\to&{\widehat{\ell^1(\Gamma)}}\\&{\gamma} &\mapsto & {\text{ev}_{\gamma}} \end{array}{}$$is a bijection.
+
+1. **Showing that $J$ is well-defined**:
+	We show that 
+
+
