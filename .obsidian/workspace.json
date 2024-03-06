@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Smooth Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -265,12 +265,13 @@
   },
   "active": "7c6f119dd6d69c0f",
   "lastOpenFiles": [
-    "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Cotangent Bundle.md",
-    "Differential Geometry/Differential 1-Form.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Immersion.md",
     "Differential Geometry/Smooth Vector Field.md",
@@ -290,7 +291,6 @@
     "Analysis/Lp Space.md",
     "Courses/Analysis IV/Exercise Sheet 0.md",
     "Courses/Algebra II/Exercise Sheet 1.md",
-    "Algebra/Unique Factorization Domain.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
