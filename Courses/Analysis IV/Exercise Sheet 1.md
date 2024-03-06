@@ -9,5 +9,5 @@
 > 5. In the normed space $(L^2([0,1]),\|\cdot\|_{2})$, the subset $X=\left\{  f:f\geq 0\land \int_{0}^{1} \frac{2f}{1+f} \, dx \geq 1 \right\}$.
 
 We have:
-1. As:
-	- **$X$ is well-defined**: For $f\in X$, we have: $\|f\|_{2}^2=\int_{0}^{1} \left| f(x) \right| ^{2} \, dx \leq \|f\|_{\infty}\left\| f \right\| _{1}=\left\| f \right\|_{\infty}$. However, we know that 
+1. 
+1. **$X$ is not well-defined**: Consider $f(x)=\frac{1}{2\sqrt{ x }}$. Then, $$\int_{0}^{1} \frac{1}{2\sqrt{ x }} \, dx =\sqrt{ x }|^1_{0}=1$$and $f\in X$. However, $$\|f\|_{2}^2=\int_{0}^{1} \frac{1}{4x} \, dx=\frac{1}{4} \ln x=+\infty$$
