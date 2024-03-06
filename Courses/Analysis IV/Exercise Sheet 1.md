@@ -32,8 +32,6 @@ We have:
 > 4. In the normed space $(L^2(\mathbb{R}),\|\cdot\|_{2})$, the subset $\{ f:f(x)=f(-x)\text{ for a.e.}x\in \mathbb{R} \}$.
 > 5. In the normed space $(L^2([0,1]),\|\cdot\|_{2})$, the subset $X=\left\{  f:f\geq 0\land \int_{0}^{1} \frac{2f}{1+f} \, dx \geq 1 \right\}$.
 
-We have:
-1. $X$ is well-defined. 
 
 **Disclaimer**: what exactly is meant by *well-defined*? Is the "*subset*" defined as: 
 1. $X:=\left\{  f\in L^2(0,1):\int_{0}^{1} f \, dx =1  \right\}$ or 
@@ -48,3 +46,50 @@ If we define it as 1, then $X$ is well-defined, closed, convex but not linear su
 If we define it as 2, then $f(x)=\frac{1}{2\sqrt{ x }}$ gives us an counterexample. We have: $$\int_{0}^{1} \frac{1}{2\sqrt{ x }} \, dx =\sqrt{ x }|^1_{0}=1$$But $\left\| f \right\| _{2}^2=\int_{0}^{1} \frac{1}{4x} \, dx =\infty$.
 
 ---
+> [!def] Problem 4
+> Let $H$ be a $\mathbb{R}$-inner product space. 
+> 1. Prove the identity: $$\left| x \right| \left| y \right| -\braket{ x , y } = \frac{\left| x \right| \left| y \right|}{2}\left| \frac{x}{\left| x \right| }-\frac{y}{\left| y \right| } \right| ^{2}\geq 0,\quad \forall x,y\in H$$
+> 2. Characterize the set $C\subseteq H\times H$ of pair of vectors that saturate the Cauchy-Schwarz inequality, i.e. $\braket{ x , y }=\left| x \right|\left| y \right|$. Plot $C$ in the case $H=\mathbb{R}$.
+
+We have: 
+1. For any $x,y\in H$:$$\begin{align}\left| x \right| \left| y \right| -\braket{ x , y } &=\frac{\left| x \right| \left| y \right| }{2}\left( 2-\frac{2\braket{ x , y } }{\left| x \right| \left| y \right| } \right)\\&=\frac{\left| x \right| \left| y \right| }{2}\left( \left\langle \frac{x}{\left| x \right| } , \frac{x}{\left| x\right| } \right\rangle+\left\langle \frac{y}{\left| y \right| } , \frac{y}{\left| y \right| } \right\rangle -2 \left\langle \frac{x}{\left| x \right| } , \frac{y}{\left| y \right| } \right\rangle  \right)\\&=\frac{\left| x \right| \left| y \right| }{2}\left\langle \frac{x}{\left| x \right| } -\frac{y}{\left| y \right| }, \frac{x}{\left| x \right| } -\frac{y}{\left| y \right| }\right\rangle\\&=\frac{\left| x \right| \left| y \right| }{2}\left|\frac{x}{\left| x \right| } -\frac{y}{\left| y \right| }\right|^2\geq 0 \end{align}$$
+2. From the above identity, $(x,y)\in C$ if and only if:
+	1. $x=0$ or $y=0$ or
+	2. $\frac{x}{\|x\|}-\frac{y}{\|y\|}=0$, 
+
+	Therefore, on $H=\mathbb{R}$, $C:=\{ (x,y)\in \mathbb{R}^{2}: xy\geq 0 \}$.
+	
+
+
+
+Hello everyone, today we’ll learn a few clapping exercises. 
+There are 8 clapping exercises waiting for us today! For each exercise, there will be short tutorials followed up by 10 reps, twice for each exercise.
+Let’s start!
+
+First exercise is Wrist Clapping.
+Use both sides of your inner wrists to clap. When we do wrist clapping, it mainly helps ladies with menstrual irregularities and cramps by improving our reproductive function.   
+
+Second one is Knife Clapping
+Knife clapping stimulates the meridians flowing from the little finger to the heart.  It helps with stress and ~mental illnesses~ mainly and even with constipation. (Cross over the side of hands below little fingers as it shown and hit hard with the vertical hand the other.) 뭔소린지 잘 몰?루
+
+Third exercise is Thumb Clapping 
+We will use the outer side of our radial portion located just below the thumb to clap. It helps our digestion and relieves leg pain. 
+
+Number 4, our exercise is Fist Clapping
+Fist clapping is good to prevent chronic headaches and shoulder pain. The position of this clap is simple. Instead of your opened hands, clap with your two fists.   
+
+Our fifth exercise is Palm and Fist Clapping. With one fist, hit the palm of the other hand. 
+It is to stimulate our circulatory system and respiratory system.
+This time let’s do it the other way around. 
+
+Next number 6 is Ball Clapping. 
+Hold your wrists and each finger together and create a ball shape and clap. Make sure your wrists and fingers are connected while you are clapping. You should feel your wrists and fingers getting stimulated while you are clapping. 
+Ball clapping helps to prevent stroke, dementia, forgetfulness. Add to that, it improves our memory.  
+
+Exercise number 7 is Fingertip Clapping. 
+Fingertip Clapping is almost the same as ball clapping exercise but without the assistance of wrists. So only gather your fingers and clap. When you do it correctly, you’ll feel some tingling in your fingertips. 
+Fingertip clapping is effective for chronic rhinitis, eye fatigue, frequent nosebleeds, and nasal colds. It also improves our eyesight.
+
+Finally, our last exercise is Palm Clapping. 
+Stretch your hand, spread apart your fingers and clap.  
+Palm clapping prevents diabetes and helps internal functions such as thyroid, stomach, spleen, and circulatory system.
