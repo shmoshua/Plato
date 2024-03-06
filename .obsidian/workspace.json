@@ -87,7 +87,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,8 +104,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6c4c2e9c6880b092",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differential.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -233,13 +246,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9d30b583c55ff56f",
+  "active": "364401c7446b7467",
   "lastOpenFiles": [
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Differential.md",
-    "Differential Geometry/Derivation.md",
     "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Derivation.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Smooth Vector Field.md",
     "Differential Geometry/Differentiable Function.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
