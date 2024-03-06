@@ -58,6 +58,10 @@ We have:
 	2. $\frac{x}{\|x\|}-\frac{y}{\|y\|}=0$, 
 
 	Therefore, on $H=\mathbb{R}$, $C:=\{ (x,y)\in \mathbb{R}^{2}: xy\geq 0 \}$.
+3. Let 
+	$$\begin{align}\left\| x-x' \right\| \left\| y-y' \right\| &\geq\left| (\|x\|-\|x'\|)(\|y\|-\|y'\|) \right|\\& =\left| \|x\|\|y\|-\|x\|\|y'\|-\|x'\|\|y\|+\|x'\|\|y'\| \right|\\& \geq- \|x\|\|y\|+\|x\|\|y'\|+\|x'\|\|y\|-\braket{ x' ,y'  }  \\&\geq-\braket{ x , y } +\braket{ x , y' } +\braket{ x' , y } -\braket{ x ', y' } -\varepsilon \|x\|\|y\|\\&=\braket{ x , y'-y } -\braket{ x' ,y'-y  }-\varepsilon \|x\|\|y\|\\&=-\braket{ x'-x , y'-y } -\varepsilon \|x\|\|y\|\\&\geq-\left\| x-x' \right\| \left\| y'-y \right\| -\varepsilon\|x\|\|y\| \end{align}$$
+---
+
 	
 
 
