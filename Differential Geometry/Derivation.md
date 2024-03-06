@@ -33,4 +33,14 @@
 > Let $M$ be a [[smooth manifold]] and $p\in M$. $$\begin{array}{cccc} {}&{\text{T}_{p}M}&\to&{\text{Der}_{p}C^\infty(M)}\\&{v} &\mapsto & {\delta_{v}:f\mapsto d_{p}f(v)} \end{array}{}$$is a vector space isomorphism.
 
 > [!proof]+
-> Let $(U,\varphi)$ be a chart at $p$. Choose $\varepsilon>0$ s.t. $\prod_{i=1}^{n}(\varphi(p)_{i}-2\varepsilon,\varphi(p)_{i}+2\varepsilon)\subseteq\varphi(U)$. Now, by the smooth version of the Urysohn lemma, there exists a functon $g\in C^\infty([0,1])$
+> Let $(U,\varphi)$ be a chart at $p$. Choose $\varepsilon>0$ s.t. $V:=\prod_{i=1}^{m}(\varphi(p)_{i}-2\varepsilon,\varphi(p)_{i}+2\varepsilon)\subseteq\varphi(U)$. Now, by the smooth version of the Urysohn lemma, there exists a functon $g\in C^\infty(\mathbb{R}^m,[0,1])$ s.t. 
+> 1. $g(x)=1$ for $x\in \prod_{i=1}^{m}\left( \varphi(p)_{i}-\frac{\varepsilon}{2},\varphi(p)_{i}+\frac{\varepsilon}{2} \right)$ and 
+> 2. $g(x)=0$ for $x\notin \prod_{i=1}^{m}\left( \varphi(p)_{i}-\varepsilon,\varphi(p)_{i}+\varepsilon \right)$
+> 
+> For $f\in C^\infty(M)$, by Lemma 1, we have $\delta(f)=\delta(f\cdot(g\circ\varphi))$ where we extend $g\circ\varphi$ to $M \backslash U$ with zero. Then, $$\delta(f)=\delta(f\cdot (g\circ \varphi))=\delta(((f\circ \varphi^{-1})\cdot g)\circ \varphi)$$where $(f\circ\varphi ^{-1})\cdot g\in C^\infty(\mathbb{R}^n)$ with support in $\prod_{i=1}^{m}\left( \varphi(p)_{i}-\varepsilon,\varphi(p)_{i}+\varepsilon \right)$.
+> 
+> Now, for every $F\in C^\infty(V)$ define $\alpha(F):=\delta((F\cdot g)\circ\varphi)$ which is a derivation of $C^\infty(V)$ at $\varphi(p)$ as: $$\begin{align}\alpha(FG)&=\delta((F\cdot G\cdot g)\circ \varphi)\\&=\delta((F\cdot g)\circ \varphi)(G\cdot g)(\varphi(p))+(F\cdot g)(\varphi(p))\delta((G\cdot g)\circ \varphi)\\&=\alpha(F)G(\varphi(p))+ F(\varphi(p))\alpha(G)\end{align}$$Therefore, by Lemma 2, there exists $G_{1},\dots,G_{n}\in C^\infty(V)$ with: 
+> 1. $G_{i}(\varphi(p))=\partial_{i}F(\varphi(p))$ and
+> 2. $F(x)=F(\varphi(p))+\sum_{i=1}^{n}(x_{i}-\varphi(p)_{i})G_{i}(x)$
+>    
+> Then, $$\begin{align}\alpha(F)&=\alpha(F(\varphi(p))\cdot 1)+\sum_{i=1}^{n}\alpha()\end{align}$$
