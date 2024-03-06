@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "acea78292766f45e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Smooth Vector Field.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "c6a89dd090ba2d09",
             "type": "leaf",
             "state": {
@@ -59,11 +71,16 @@
             "id": "89ce1c862caaf17c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Tangent Space.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -106,19 +123,19 @@
             }
           },
           {
-            "id": "6c4c2e9c6880b092",
+            "id": "923f885ed59d4b53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Smooth Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -184,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tangent Bundle.md",
+                "file": "Differential Geometry/Smooth Vector Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tangent Bundle.md",
+                "file": "Differential Geometry/Smooth Vector Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tangent Bundle.md"
+                "file": "Differential Geometry/Smooth Vector Field.md"
               }
             }
           }
@@ -246,14 +263,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "364401c7446b7467",
+  "active": "acea78292766f45e",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Tangent Bundle.md",
-    "Differential Geometry/Derivation.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Smooth Vector Field.md",
+    "Differential Geometry/Rank.md",
+    "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Atlas.md",
+    "Differential Geometry/Smooth Atlas.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Derivation.md",
     "Differential Geometry/Differentiable Function.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
@@ -270,10 +291,6 @@
     "Algebra/Integral Domain.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Field.md",
-    "Algebra/Unit.md",
-    "Algebra/Euclidean Domain.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Topology/Hausdorff Space.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

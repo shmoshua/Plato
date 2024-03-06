@@ -32,6 +32,7 @@
 
 **2.3 The Tangent Bundle**
 1. [[Tangent Bundle]]
+2. [[Smooth Vector Field]]
 ---
 ### Part 2. Riemannian Geometry
 
