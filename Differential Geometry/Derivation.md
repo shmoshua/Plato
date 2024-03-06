@@ -29,7 +29,7 @@
 > Since $U$ is star-shaped w.r.t. $v$, we may write: $$\begin{align}f(x)&=f(v)+\int_{0}^{1} \frac{ \partial f }{ \partial t } (v+t(x-v)) \, dt\\&=f(v)+\sum_{i=1}^{n}(x_{i}-v_{i})\underbrace{ \int_{0}^{1} \frac{ \partial f }{ \partial x_{i} } (v+t(x-v)) \, dt }_{ =:g_{i}(x) } \end{align} $$In particular, $$g_{i}(v)=\int_{0}^{1} \frac{ \partial f }{ \partial x_{i} } (v) \, dt=\partial_{i}f(v) $$
 
 ---
-> [!lemma] Theorem 1
+> [!lemma] Theorem 3
 > Let $M$ be a [[smooth manifold]] and $p\in M$. $$\begin{array}{cccc} {}&{\text{T}_{p}M}&\to&{\text{Der}_{p}C^\infty(M)}\\&{v} &\mapsto & {\delta_{v}:f\mapsto d_{p}f(v)} \end{array}{}$$is a vector space isomorphism.
 
 > [!proof]-
@@ -44,16 +44,12 @@
 > 2. $F(x)=F(\varphi(p))+\sum_{i=1}^{n}(x_{i}-\varphi(p)_{i})G_{i}(x)$
 >    
 > Then, $$\begin{align}\alpha(F)&=\alpha(F(\varphi(p))\cdot 1)+\sum_{i=1}^{n}\alpha(x\mapsto x_{i}-\varphi(p)_{i})G_{i}(\varphi(p))\\&=\sum_{i=1}^{n}\underbrace{ \alpha(x\mapsto x_{i}-\varphi(p)_{i}) }_{ =:v_{i} }\frac{ \partial F }{ \partial x_{i} } (\varphi(p))\end{align}$$Therefore, $$\begin{align}\delta(f)&=\delta(((f\circ \varphi ^{-1})\cdot g)\circ \varphi)\\&=\alpha(f\circ \varphi ^{-1})\\&=\sum_{i=1}^{n}v_{i}\frac{ \partial (f\circ \varphi^{-1}) }{ \partial x _{i}}\varphi(p)\\&=d_{\varphi(p)}(f\circ \varphi ^{-1})(v)\\&=d_{p}f(v)\end{align} $$
+---
+> [!lemma] Corollary 4
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and let $F:M\to N$ be a [[Smooth Function|smooth map]]. Then, we can define the function: $$\begin{array}{cccc} {F_{*}:}&{\text{Der}_{p}C^\infty(M)}&\to&{\text{Der}_{F(p)}C^\infty(N)}\\&{\delta} &\mapsto & {f\mapsto \delta(f\circ F)} \end{array}{}$$Further, the following diagram commutes:
+> $$\begin{CD} \text{T}_{p}M @>d_{p}F>> \text{T}_{F(p)}N\\@V\cong VV&@V\cong VV\\\text{Der}_{p}C^\infty(M) @>>F_{*}>\text{Der}_{F(p)}C^\infty(N)\end{CD}$$
 
-> [!lemma] Theorem 1
-> Let $M$ be a smooth manifold and 
-> $$\begin{array}{cccc} &{\Gamma(\text{T}M)}&\to&{\text{Der }C^\infty(M)}\\&{V} &\mapsto & {\delta_{v}:f\mapsto(p\mapsto d_{p}f(V(p)))} \end{array}{}$$is an isomorphism.
-
-> [!proof]+
-> Let $\delta\in \text{Der }C^\infty(M)$. Further, we define the notation: $C_{<r}(x):=\prod_{i=1}^{m}(x_{i}-r,x_{i}+r)$ for $r>0$ and $x\in \mathbb{R}^m$, i.e. the open cube centered at $x$ with side length $2r$.
-> 1. **Constructing $V\in\Gamma(\text{T}M)$**:
-> 	Let $(U,\varphi)$ be a chart at $p$ and $\varepsilon>0$ s.t. $C_{<2\varepsilon}(\varphi(p))\subseteq\varphi(U)$. Then, by the smooth version of Urysohn's lemma, we have $g\in C^\infty(\mathbb{R}^m,[0,1])$ with: 
-> 	1.  $g(x)=1$ for all $x\in C_{<\varepsilon / 2}(\varphi(p))$ and 
-> 	2. $g(x)=0$ for all $x\notin C_{<\varepsilon}(\varphi(p))$
-> 	
-> 	Now, let $f\in C^\infty(M)$. We first show that $\delta(f)=\delta(f\cdot(g\circ\varphi))$ where $g\circ\varphi$ is extended with zero on $M \backslash U$. It suffices to show that $\delta(h)=0$ for $h=f-f\cdot(g\circ\varphi)$. Then, 
+> [!proof]-
+> For $\delta\in \text{Der}_{p}C^\infty(M)$ and $g_{1},g_{2}\in C^\infty(N)$, $$\begin{align}F_{*}\delta(g_{1}g_{2})&=\delta((g_{1}\cdot g_{2})\circ F)\\&=\delta(g_{1}\circ F)g_{2}(F(p))+g_{1}(F(p))\delta(g_{2}\circ F)\\&=F_{*}\delta(g_{1})g_{2}(F(p))+g_{1}(F(p))F_{*}\delta(g_{2})\end{align}$$
+> Further, for $v\in \text{T}_{p}M$, $$F_{*}(\delta_{v})(f)=\delta_{v}(f\circ F)=d_{p}(f\circ F)v=d_{F(p)}(f)d_{p}F(v)=\delta_{d_{p}F(v)}(f)$$
+---

@@ -29,6 +29,9 @@
 
 **2.2 Tangent Vectors and Derivations**
 1. [[Derivation]]
+
+**2.3 The Tangent Bundle**
+1. [[Tangent Bundle]]
 ---
 ### Part 2. Riemannian Geometry
 
