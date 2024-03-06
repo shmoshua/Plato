@@ -32,7 +32,7 @@
 > [!lemma] Theorem 1
 > Let $M$ be a [[smooth manifold]] and $p\in M$. $$\begin{array}{cccc} {}&{\text{T}_{p}M}&\to&{\text{Der}_{p}C^\infty(M)}\\&{v} &\mapsto & {\delta_{v}:f\mapsto d_{p}f(v)} \end{array}{}$$is a vector space isomorphism.
 
-> [!proof]+
+> [!proof]-
 > Let $(U,\varphi)$ be a chart at $p$. Choose $\varepsilon>0$ s.t. $V:=\prod_{i=1}^{m}(\varphi(p)_{i}-2\varepsilon,\varphi(p)_{i}+2\varepsilon)\subseteq\varphi(U)$. Now, by the smooth version of the Urysohn lemma, there exists a functon $g\in C^\infty(\mathbb{R}^m,[0,1])$ s.t. 
 > 1. $g(x)=1$ for $x\in \prod_{i=1}^{m}\left( \varphi(p)_{i}-\frac{\varepsilon}{2},\varphi(p)_{i}+\frac{\varepsilon}{2} \right)$ and 
 > 2. $g(x)=0$ for $x\notin \prod_{i=1}^{m}\left( \varphi(p)_{i}-\varepsilon,\varphi(p)_{i}+\varepsilon \right)$
@@ -43,4 +43,17 @@
 > 1. $G_{i}(\varphi(p))=\partial_{i}F(\varphi(p))$ and
 > 2. $F(x)=F(\varphi(p))+\sum_{i=1}^{n}(x_{i}-\varphi(p)_{i})G_{i}(x)$
 >    
-> Then, $$\begin{align}\alpha(F)&=\alpha(F(\varphi(p))\cdot 1)+\sum_{i=1}^{n}\alpha()\end{align}$$
+> Then, $$\begin{align}\alpha(F)&=\alpha(F(\varphi(p))\cdot 1)+\sum_{i=1}^{n}\alpha(x\mapsto x_{i}-\varphi(p)_{i})G_{i}(\varphi(p))\\&=\sum_{i=1}^{n}\underbrace{ \alpha(x\mapsto x_{i}-\varphi(p)_{i}) }_{ =:v_{i} }\frac{ \partial F }{ \partial x_{i} } (\varphi(p))\end{align}$$Therefore, $$\begin{align}\delta(f)&=\delta(((f\circ \varphi ^{-1})\cdot g)\circ \varphi)\\&=\alpha(f\circ \varphi ^{-1})\\&=\sum_{i=1}^{n}v_{i}\frac{ \partial (f\circ \varphi^{-1}) }{ \partial x _{i}}\varphi(p)\\&=d_{\varphi(p)}(f\circ \varphi ^{-1})(v)\\&=d_{p}f(v)\end{align} $$
+
+> [!lemma] Theorem 1
+> Let $M$ be a smooth manifold and 
+> $$\begin{array}{cccc} &{\Gamma(\text{T}M)}&\to&{\text{Der }C^\infty(M)}\\&{V} &\mapsto & {\delta_{v}:f\mapsto(p\mapsto d_{p}f(V(p)))} \end{array}{}$$is an isomorphism.
+
+> [!proof]+
+> Let $\delta\in \text{Der }C^\infty(M)$. Further, we define the notation: $C_{<r}(x):=\prod_{i=1}^{m}(x_{i}-r,x_{i}+r)$ for $r>0$ and $x\in \mathbb{R}^m$, i.e. the open cube centered at $x$ with side length $2r$.
+> 1. **Constructing $V\in\Gamma(\text{T}M)$**:
+> 	Let $(U,\varphi)$ be a chart at $p$ and $\varepsilon>0$ s.t. $C_{<2\varepsilon}(\varphi(p))\subseteq\varphi(U)$. Then, by the smooth version of Urysohn's lemma, we have $g\in C^\infty(\mathbb{R}^m,[0,1])$ with: 
+> 	1.  $g(x)=1$ for all $x\in C_{<\varepsilon / 2}(\varphi(p))$ and 
+> 	2. $g(x)=0$ for all $x\notin C_{<\varepsilon}(\varphi(p))$
+> 	
+> 	Now, let $f\in C^\infty(M)$. We first show that $\delta(f)=\delta(f\cdot(g\circ\varphi))$ where $g\circ\varphi$ is extended with zero on $M \backslash U$. It suffices to show that $\delta(h)=0$ for $h=f-f\cdot(g\circ\varphi)$. Then, 
