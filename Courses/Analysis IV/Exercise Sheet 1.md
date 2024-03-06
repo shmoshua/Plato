@@ -62,34 +62,3 @@ We have:
 
 
 
-Hello everyone, today we’ll learn a few clapping exercises. 
-There are 8 clapping exercises waiting for us today! For each exercise, there will be short tutorials followed up by 10 reps, twice for each exercise.
-Let’s start!
-
-First exercise is Wrist Clapping.
-Use both sides of your inner wrists to clap. When we do wrist clapping, it mainly helps ladies with menstrual irregularities and cramps by improving our reproductive function.   
-
-Second one is Knife Clapping
-Knife clapping stimulates the meridians flowing from the little finger to the heart.  It helps with stress and ~mental illnesses~ mainly and even with constipation. (Cross over the side of hands below little fingers as it shown and hit hard with the vertical hand the other.) 뭔소린지 잘 몰?루
-
-Third exercise is Thumb Clapping 
-We will use the outer side of our radial portion located just below the thumb to clap. It helps our digestion and relieves leg pain. 
-
-Number 4, our exercise is Fist Clapping
-Fist clapping is good to prevent chronic headaches and shoulder pain. The position of this clap is simple. Instead of your opened hands, clap with your two fists.   
-
-Our fifth exercise is Palm and Fist Clapping. With one fist, hit the palm of the other hand. 
-It is to stimulate our circulatory system and respiratory system.
-This time let’s do it the other way around. 
-
-Next number 6 is Ball Clapping. 
-Hold your wrists and each finger together and create a ball shape and clap. Make sure your wrists and fingers are connected while you are clapping. You should feel your wrists and fingers getting stimulated while you are clapping. 
-Ball clapping helps to prevent stroke, dementia, forgetfulness. Add to that, it improves our memory.  
-
-Exercise number 7 is Fingertip Clapping. 
-Fingertip Clapping is almost the same as ball clapping exercise but without the assistance of wrists. So only gather your fingers and clap. When you do it correctly, you’ll feel some tingling in your fingertips. 
-Fingertip clapping is effective for chronic rhinitis, eye fatigue, frequent nosebleeds, and nasal colds. It also improves our eyesight.
-
-Finally, our last exercise is Palm Clapping. 
-Stretch your hand, spread apart your fingers and clap.  
-Palm clapping prevents diabetes and helps internal functions such as thyroid, stomach, spleen, and circulatory system.
