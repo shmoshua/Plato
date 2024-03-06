@@ -93,7 +93,7 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Analysis IV/Exercise Sheet 1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -242,6 +242,8 @@
   "active": "848404161f90c1ba",
   "lastOpenFiles": [
     "Analysis/Inner Product Space.md",
+    "Analysis/Inner Product of a Vector Space.md",
+    "Analysis/Normed Space.md",
     "Courses/Analysis IV/Exercise Sheet 1.md",
     "Courses/Analysis IV/Problem Set 1.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
@@ -265,8 +267,6 @@
     "Analysis/Functional Analysis/Regular Ideal.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/C-Algebra.md",
-    "Analysis/Functional Analysis/Volterra Algebra.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
