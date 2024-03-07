@@ -103,6 +103,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Differential Geometry/Smooth Function.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97a4094345085a43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Differential Geometry/Differentiable Function.md",
                 "mode": "preview",
                 "source": false
@@ -240,14 +252,15 @@
   },
   "active": "0cee44803ce326a7",
   "lastOpenFiles": [
-    "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Differentiable Function.md",
-    "Differential Geometry/Differential k-Form.md",
-    "Differential Geometry/Tangent Bundle.md",
-    "Differential Geometry/Tangent Space.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Differential k-Form.md",
+    "Differential Geometry/Exterior Algebra.md",
+    "Differential Geometry/Differentiable Function.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Tangent Bundle.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Pullback.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -265,7 +278,6 @@
     "Differential Geometry/Multilinear k-Form.md",
     "Differential Geometry/Derivation.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Courses/Analysis IV/Exercise Sheet 1.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
