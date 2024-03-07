@@ -12,7 +12,7 @@
 > 4. if $A$ is non-unital, $\text{Sp}_{A}(x)=\hat{x}(\hat{A})\cup \{ 0 \}$.
 > 5. $\|\hat{x}\|_{\infty}=\|x\|_{\text{sp}}$
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. Let $A$ be non-unital. Observe that for all $\varphi\in \hat{A}$, $\hat{x}(\varphi)=\varphi(x)=\tilde{\varphi}((x,0))=\widehat{(x,0)}(\tilde{\varphi})$. Of course, $\widehat{(x,0)}:\widehat{A_{I}}\to \mathbb{C}$ with $\widehat{(x,0)}(\varphi_{\infty})=\varphi_{\infty}(x,0)=0$. 
 >    

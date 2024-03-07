@@ -14,7 +14,16 @@
 > 
 > Lastly, for two smooth vector fields $V,W\in \Gamma(TN)$:$$(F^{*}g)_{p}(V(p),W(p))=g_{F(p)}(d_{p}F(V(p)),d_{p}F(W(p)))$$
 
- 
+---
+ ##### Examples
+> [!h] Pullback Smooth Functional
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and a [[Smooth Function|smooth map]] $F:N\to M$. Then, the the [[pullback]] is defined as: $$\begin{array}{cccc} {F ^{*}:}&{C^\infty(M)}&\to&{C^\infty(N)}\\&{g} &\mapsto & {g\circ F^{*}} \end{array}{}$$
+---
+> [!h] Pullback Differential 1-Form
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and a [[Smooth Function|smooth map]] $F:N\to M$. Then, the the [[pullback]] is defined as: $$\begin{array}{cccc} {F ^{*}:}&{\Omega^1(M)}&\to&{\Omega^1(N)}\\&{\omega} &\mapsto & {p\mapsto \omega_{F(p)}\circ d_{p}F} \end{array}{}$$
+---
+> [!h] Pullback Differential k-Forms
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $F:N\to M$ a [[Smooth Function|smooth map]]. Then, the [[pullback]] is defined as:$$\begin{array}{cccc} {F^{*}:}&{\Gamma(\Lambda^k(M))}&\to&{\Gamma(\Lambda^k(N))}\\&{\omega} &\mapsto & {F^{*}\omega} \end{array}{}$$where $(F^{*}w)_{x}(v_{1},\dots,v_{k}):=\omega_{F(x)}(d_{x}F(v_{1}),\dots,d_{x}F(v_{k}))$ for all $x\in N$ and $v_{1},\dots,v_{k}\in \text{T}_{x}N$.
 ---
 
 Example: $M=\mathbb{R}^m$, $F:N\subseteq \mathbb{R}^n\hookrightarrow M=\mathbb{R}^m$ embedding. Then, $F^*g_{\text{Euclidean}}$ is the induced metric.

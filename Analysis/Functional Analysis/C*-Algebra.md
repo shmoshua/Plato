@@ -8,6 +8,7 @@
 > 4. $\left\| x^{*} \right\|=\|x\|$ for $x\in B$.
 >
 > An involutive Banach algebra is a ***C\*-algebra***, if $\left\| xx^{*} \right\|=\|x\|\|x^{*}\|$ for all $x\in B$.
+- **Related definition**: $x\in A$ is ***normal*** if $xx^{*}=x^{*}x$.
 ---
 ##### Properties
 > [!lemma] Lemma 1
@@ -16,7 +17,13 @@
 > [!proof]-
 > Firstly, a unit is unique as $e=e e'=e'$ if $e\neq e'$ and both are units. Then, for all $x\in B$:$$xe^{*}=(ex^{*})^{*}=(x^{*})^{*}=x,\quad e^{*}x=(x^{*}e)^{*}=(x^{*})^{*}=x$$
 > Therefore, $e=e^{*}$.
-> 
+---
+> [!lemma] Proposition 2
+> Let $A$ be a $C^{*}$-algebra and $x\in A$ normal. Then, $$\|x\|=\|x\|_{\text{sp}}$$
+
+> [!proof]-
+> Let $x\in A$ be normal. Then, $$\left\| x^{2n} \right\| ^2=\left\| (x^{2n})^{*}(x^{2n}) \right\|=\left\| (x^{*}x)^{2n} \right\| =\left\| (x^{*}x)^n (x^{*}x)^n \right\| =\left\| (x^{*}x)^n \right\| ^{2} $$Therefore, $\left\| x^{2n} \right\|=\left\| (x^{*} x)^n \right\|$. It follows that $$\left\| x^{2^m} \right\| =\left\| (x^{*}x)^{2^{m-1}} \right\| =\left\| (x^{*}x)^{2^{m-2}} (x^{*}x)^{2^{m-2}} \right\| =\left\| (x^{2} x)^{2^{m-2}} \right\| ^{2}=\left\| x^{2^{m-1}} \right\|^{2} $$Indeed, it follows that $\left\| x^{2^m} \right\|=\|x\|^{2^m}$ and: $$\|x\|=\|x^{2^m}\|^{1 / 2^m}\to\|x\|_{\text{sp}}$$
+
 ---
 ##### Examples
 > [!h] Example 1
