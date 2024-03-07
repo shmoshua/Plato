@@ -115,8 +115,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differentiable Function.md",
+                "file": "Differential Geometry/Tangent Bundle.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68bf9871dc35e1bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Tangent Space.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -252,14 +264,14 @@
   },
   "active": "0cee44803ce326a7",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Differential k-Form.md",
-    "Differential Geometry/Exterior Algebra.md",
-    "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Exterior Algebra.md",
+    "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Differentiable Function.md",
+    "Differential Geometry/Differential k-Form.md",
+    "Differential Geometry/Differential.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Pullback.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
