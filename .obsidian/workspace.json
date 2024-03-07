@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -212,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Exterior Algebra.md",
+                "file": "Differential Geometry/Differential k-Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Exterior Algebra.md",
+                "file": "Differential Geometry/Differential k-Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Exterior Algebra.md"
+                "file": "Differential Geometry/Differential k-Form.md"
               }
             }
           }
@@ -274,13 +274,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9a5ec50badda4626",
+  "active": "a7833fc99d403f3a",
   "lastOpenFiles": [
-    "Differential Geometry/Differential k-Form.md",
-    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Differentiable Function.md",
-    "Differential Geometry/Exterior Algebra.md",
+    "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Tangent Space.md",

@@ -38,17 +38,30 @@
 > 1. $\omega$ is smooth, i.e. $\omega\in \Omega^k(M)$
 > 2. for every $(U,\varphi)$, the coordinates $a_{I}:U\to \mathbb{R}$ are smooth w.r.t. $(U,\varphi)$.
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. Let $\omega\in \Gamma(\Lambda^k(M))$ be smooth and $(U,\varphi)$ a chart on $M$. Further, let $I:=i_{1}\dots i_{k}$ a multi-index where $1\leq i_{1}<\dots<i_{k}\leq m$. Let $(V,\psi)$ be another chart on $M$ s.t. $U\subseteq V$. We further define, $$v_{i_{k}}:=d_{\psi \circ \varphi ^{-1}(v)}$$
 >    
 >    Then, $(\pi ^{-1}(V),\Psi)$ is a chart on $\Lambda^k(M)$ where:
 >    $$\begin{array}{cccc} {\Psi:}&{\pi ^{-1}(V)}&\to&{\psi(V)\times\Lambda^k((\mathbb{R}^m)^{*})}\\&{(x,\omega_{x})} &\mapsto & {(\psi(x),\Lambda^k(d_{\psi(x)}\psi ^{-1})^{*}(\omega_{x}))} \end{array}{}$$Therefore, from $\omega|_{U}$ being smooth, $\Psi \circ\omega \circ \varphi ^{-1}:\varphi(U)\to \psi(V)\times\Lambda^k((\mathbb{R}^m)^{*})$ is smooth where: $$\begin{align}(\Psi \circ \omega \circ \varphi ^{-1})(v)&=\Psi(\varphi ^{-1}(v),\omega_{\varphi ^{-1}(v)})\\&=((\psi \circ \varphi ^{-1})(v),\Lambda^k(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1})^{*}(\omega_{\varphi ^{-1}(v)}))\end{align}$$We now define now a function $F:U\to \mathbb{R}^m\times\dots \times\mathbb{R}^m$ where:$$F(v)=(d_{v}(\psi \circ \varphi ^{-1})e_{i_{1}},\dots,d_{v}(\psi \circ \varphi ^{-1})e_{i_{k}})$$which is smooth. Then, $$\begin{array}{ccccc}U&\to&U\times \mathbb{R}^m\times\dots \times \mathbb{R}^m&\to&\mathbb{R}\\v&\mapsto&(v,F(v))&\mapsto&\Lambda^k(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1})^{*}(\omega_{\varphi ^{-1}(v)})(F(v))\end{array}$$ is smooth.
 >    
->    Indeed, we have: $$\begin{align}\Lambda^k(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1})^{*}(\omega_{\varphi ^{-1}(v)})(F(v))&=\omega_{\varphi ^{-1}(v)}(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1}d_{v}(\psi \circ \varphi ^{-1})e_{i_{1}},\dots,d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1}d_{v}(\psi \circ \varphi ^{-1})e_{i_{k}})\\&=\omega_{\varphi ^{-1}(v)}(d_{v}\varphi ^{-1}e_{i_{1}},\dots,d_{v}\varphi ^{-1}e_{i_{k}})\\&=\sum_{J}^{}a_{J}(\varphi ^{-1}(v))(dx_{J})_{\varphi ^{-1}(v)}(d_{v}\varphi ^{-1}e_{i_{1}},\dots,d_{v}\varphi ^{-1}e_{i_{k}})\\&=\sum_{J}^{}a_{J}(\varphi ^{-1}(v))\det[(dx_{i_{p}})_{\varphi ^{-1}(v)}(d_{v}\varphi ^{-1}e_{i_{q}})]_{p,q=1}^k\\&=\sum_{J}^{}(a_{J}\circ \varphi ^{-1})(v)\det[(\varphi ^{*}(d\pi_{i_{p}}))_{\varphi ^{-1}(v)}(d_{v}\varphi ^{-1}e_{i_{q}})]_{p,q=1}^k\\&=\sum_{J}^{}(a_{J}\circ \varphi ^{-1})(v)\det[(d\pi_{i_{p}})_{v}e_{i_{q}}]_{p,q=1}^k\\&=\sum_{J}^{}(a_{J}\circ \varphi ^{-1})(v)\det[\delta_{i_{p}i_{q}}]_{p,q=1}^k\\&=(a_{I}\circ \varphi ^{-1})(v)\end{align}$$
+>    Indeed, we have: $$\begin{align}\Lambda^k(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1})^{*}(\omega_{\varphi ^{-1}(v)})(F(v))&=\omega_{\varphi ^{-1}(v)}(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1}d_{v}(\psi \circ \varphi ^{-1})e_{i_{1}},\dots,d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1}d_{v}(\psi \circ \varphi ^{-1})e_{i_{k}})\\&=\omega_{\varphi ^{-1}(v)}(d_{v}\varphi ^{-1}e_{i_{1}},\dots,d_{v}\varphi ^{-1}e_{i_{k}})\\&=\sum_{J}^{}a_{J}(\varphi ^{-1}(v))(dx_{J})_{\varphi ^{-1}(v)}(d_{v}\varphi ^{-1}e_{i_{1}},\dots,d_{v}\varphi ^{-1}e_{i_{k}})\\&=\sum_{J}^{}a_{J}(\varphi ^{-1}(v))\det[(dx_{j_{p}})_{\varphi ^{-1}(v)}(d_{v}\varphi ^{-1}e_{i_{q}})]_{p,q=1}^k\\&=\sum_{J}^{}(a_{J}\circ \varphi ^{-1})(v)\det[(\varphi ^{*}(d\pi_{j_{p}}))_{\varphi ^{-1}(v)}(d_{v}\varphi ^{-1}e_{i_{q}})]_{p,q=1}^k\\&=\sum_{J}^{}(a_{J}\circ \varphi ^{-1})(v)\det[(d\pi_{j_{p}})_{v}e_{i_{q}}]_{p,q=1}^k\\&=\sum_{J}^{}(a_{J}\circ \varphi ^{-1})(v)\det[\delta_{j_{p}i_{q}}]_{p,q=1}^k\\&=(a_{I}\circ \varphi ^{-1})(v)\end{align}$$
 >    
 >    Therefore, $a_{I}$ is smooth.
 >  2. Assume that the coordinates $a_{I}$ are smooth for every $(U,\varphi)$. Then, let $(U,\varphi)$ and $(\pi ^{-1}(V),\Psi)$ be charts on $M$ and $\Lambda^k(M)$ respectively s.t. $\omega(U)\subseteq \pi ^{-1}(V)$. Then, $U=\pi(\omega(U))\subseteq V$. We now have to show that $\Psi \circ\omega \circ\varphi ^{-1}:\mathbb{R}^m\supseteq\varphi(U)\to \psi(V)\times\Lambda^k((\mathbb{R}^m)^{*})$ is smooth. It suffices to show that $v\mapsto \Lambda^k(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1})^{*}(\omega_{\varphi ^{-1}(v)})$ is smooth. 
+>     
+>     For any $v_{1},\dots,v_{k}\in \mathbb{R}^m$, we have: $$\begin{align}&\Lambda^k(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1})^{*}(\omega_{\varphi ^{-1}(v)})(v_{1},\dots,v_{k})\\&=\sum_{I}^{}(a_{I}\circ \varphi ^{-1})(v)\det[(dx_{i_{p}})_{\varphi ^{-1}(v)}(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1}v_{q})]_{pq}\\&=\sum_{I}^{}(a_{I}\circ \varphi ^{-1})(v)\det[(\varphi ^{*}(d\pi_{i_{p}}))_{\varphi ^{-1}(v)}(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1}v_{q})]_{pq}\\&=\sum_{I}^{}(a_{I}\circ \varphi ^{-1})(v)\det[(d\pi_{i_{p}})_{v}(d_{\psi \circ \varphi ^{-1}(v)}(\varphi \circ \psi ^{-1})v_{q})]_{pq}\\&=\sum_{I}^{}(a_{I}\circ \varphi ^{-1})(v)\underbrace{ \det[\pi_{i_{p}}(d_{\psi \circ \varphi ^{-1}(v)}(\varphi \circ \psi ^{-1})v_{q})]_{pq} }_{ =:c_{I}(v) }\end{align}$$Therefore, $v\mapsto \Lambda^k(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1})^{*}(\omega_{\varphi ^{-1}(v)})(v_{1},\dots,v_{k})$ is smooth for all  $v_{1},\dots,v_{k}\in \mathbb{R}^m$ and: $$\omega|_{U}\in \Omega^k(U)$$by [[Differentiable Function|Lemma 1]], $\omega$ is smooth.
+---
+> [!lemma] Proposition 4
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $F:N\to M$ a smooth map. Then, 
+> 1. for $\alpha\in \Omega^p(M),\beta\in \Omega^q(M)$, $\alpha\land\beta\in\Omega^{p+q}(M)$.
+> 2. for $\omega\in \Omega^k(M)$, $F^{*}\omega\in \Omega^k(N)$.
+
+> [!proof]+
+> We have: 
+> 1. Let $(U,\varphi)$ be a chart on $M$. Then, we can write $\alpha|_{U}=\sum_{I}^{}a_{I}dx_{I}$ and $\beta|_{U}=\sum_{I}^{}b_{I}dx_{I}$, where $a_{I},b_{J}:U\to \mathbb{R}$ are smooth. Therefore, $$\alpha \land\beta=\sum_{I,J}^{}a_{I}b_{J}dx_{I}\land dx_{J}=\sum_{I\cap J= \varnothing}^{}a_{I}b_{J}(\pm{1})dx_{Q}$$where $Q$ is the ordered multi-index of $I\cup J$. As the coordinates $v\mapsto a_{I}(v)b_{J}(v)$ are smooth, $\alpha \land\beta\in \Omega^{p+q}(M)$.
+> 2. 
+> 
 ---
 ##### Examples
 > [!h] Example 1
