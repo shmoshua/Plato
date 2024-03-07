@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -86,19 +87,31 @@
             }
           },
           {
-            "id": "970d78bce204443b",
+            "id": "99e8a19563983ade",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
-                "mode": "source",
+                "file": "Analysis/Functional Analysis/Regular Ideal.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b27a662df51187e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Radical.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md"
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
               }
             }
           }
@@ -226,13 +239,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "970d78bce204443b",
+  "active": "839bf15fd702c0d6",
   "lastOpenFiles": [
     "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Analysis/Functional Analysis/Regular Ideal.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Radical.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/One-Point Compactification.md",
     "Differential Geometry/Differential k-Form.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
@@ -251,9 +267,6 @@
     "Algebra/Symmetry Group.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Differentiable Function.md",
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Cotangent Bundle.md",
-    "Differential Geometry/Immersion.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

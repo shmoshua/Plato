@@ -35,9 +35,10 @@
 **3.3 Guelfand Topology**
 1. [[Guelfand Topology]]
 2. Guelfand Topology and [[One-Point Compactification]]
+3. [[Guelfand Transform]]
 ---
 ##### 4. The Guelfand Isomorphisms
-1. [[Guelfand Transform]]
+1. 
 ---
 ##### 5. Spectral Theorems
 ---
