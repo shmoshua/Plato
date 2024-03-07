@@ -31,11 +31,13 @@
 3. [[Radical]]
 4. [[Bounded Linear Map|Closed Graph Theorem]]
 5. **Examples**:
----
+
 **3.3 Guelfand Topology**
 1. [[Guelfand Topology]]
+2. Guelfand Topology and [[One-Point Compactification]]
 ---
 ##### 4. The Guelfand Isomorphisms
+1. [[Guelfand Transform]]
 ---
 ##### 5. Spectral Theorems
 ---

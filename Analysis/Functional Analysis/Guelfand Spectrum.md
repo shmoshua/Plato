@@ -10,7 +10,7 @@
 > [!lemma] Proposition 1
 > For every $\varphi\in \hat{A}$ we have: $$\left| \varphi(x) \right| \leq\|x\|_{\text{sp}}\quad \forall x\in A$$ In particular, $\varphi\in A^{*}$ with $\left\| \varphi \right\|\leq 1$ with equality if $A$ is unital with $\|e\|=1$ for the unit.
 
-> [!proof]+
+> [!proof]-
 > Due to the remark, we may assume that $A$ is unital. If $\left| \lambda \right|>\|x\|_{\text{sp}}$.  Then, $x-\lambda e$ is invertible. But then if $y\in A$ is the inverse of $x-\lambda e$, we have: $$y(x-\lambda e)=e\implies\varphi(y)\varphi(x-\lambda e)=\varphi(e)=1$$which means $\varphi(x-\lambda e)\neq 0$ and $\varphi(x)\neq\lambda$. Therefore, $\left| \varphi(x) \right|\leq \|x\|_{\text{sp}}$.
 > 
 > Further, as $\|x\|_{\text{sp}}\leq\|x\|$, $\left\| \varphi \right\|\leq 1$. If $\|e\|=1$, then since $\varphi(e)=1=\|e\|$, $\|\varphi\|=1$.

@@ -8,12 +8,48 @@
         "type": "tabs",
         "children": [
           {
+            "id": "a7833fc99d403f3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "839bf15fd702c0d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "9d30b583c55ff56f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Analysis/Functional Analysis/Guelfand Topology.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "718aba3fe2897567",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,31 +74,31 @@
             }
           },
           {
-            "id": "d75e2635872aca5f",
+            "id": "88c7e1de5b4e3fed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "88c7e1de5b4e3fed",
+            "id": "970d78bce204443b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
-                "mode": "preview",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Topology.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md"
               }
             }
           }
@@ -190,11 +226,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d75e2635872aca5f",
+  "active": "970d78bce204443b",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Topology/One-Point Compactification.md",
     "Differential Geometry/Differential k-Form.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Differential Geometry/Exterior Algebra.md",
@@ -215,9 +254,6 @@
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Immersion.md",
-    "Differential Geometry/Smooth Vector Field.md",
-    "Differential Geometry/Rank.md",
-    "Differential Geometry/Topological Manifold.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
