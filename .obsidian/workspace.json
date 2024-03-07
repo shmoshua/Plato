@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Multilinear k-Form.md",
+                "file": "Differential Geometry/Exterior Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,7 +80,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential 1-Form.md",
+                "file": "Differential Geometry/Exterior Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "923f885ed59d4b53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Multilinear k-Form.md",
                 "mode": "preview",
                 "source": false
               }
@@ -111,18 +123,6 @@
             }
           },
           {
-            "id": "923f885ed59d4b53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Multilinear k-Form.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d19519d70a03957a",
             "type": "leaf",
             "state": {
@@ -135,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Multilinear k-Form.md",
+                "file": "Differential Geometry/Exterior Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Multilinear k-Form.md",
+                "file": "Differential Geometry/Exterior Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Multilinear k-Form.md"
+                "file": "Differential Geometry/Exterior Algebra.md"
               }
             }
           }
@@ -263,17 +263,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "923f885ed59d4b53",
+  "active": "7c6f119dd6d69c0f",
   "lastOpenFiles": [
-    "Algebra/Symmetry Group.md",
     "Differential Geometry/Multilinear k-Form.md",
-    "Differential Geometry/Differential.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Differentiable Function.md",
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Tangent Bundle.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Algebra/Symmetry Group.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Differentiable Function.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Immersion.md",
@@ -290,7 +291,6 @@
     "Analysis/Inner Product of a Vector Space.md",
     "Analysis/Normed Space.md",
     "Courses/Analysis IV/Problem Set 1.md",
-    "Analysis/Lp Space.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
