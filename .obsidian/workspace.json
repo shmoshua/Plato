@@ -13,43 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential k-Form.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "60f866743c7c9d18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aaf148795e99e581",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Multilinear k-Form.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c6a89dd090ba2d09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
                 "mode": "source",
                 "source": true
               }
@@ -62,43 +26,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d97152b3f80db9ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da856adb0ef52aab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Tangent Bundle.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0aa7d2600ccf8107",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential k-Form.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d75e2635872aca5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88c7e1de5b4e3fed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential k-Form.md",
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential k-Form.md",
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential k-Form.md"
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md"
               }
             }
           }
@@ -226,14 +190,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0aa7d2600ccf8107",
+  "active": "d75e2635872aca5f",
   "lastOpenFiles": [
-    "Differential Geometry/Differential 1-Form.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Differential Geometry/Differential k-Form.md",
-    "Differential Geometry/Multilinear k-Form.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Differential Geometry/Exterior Algebra.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Tangent Bundle.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
+    "Measure Theory/Algebra.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Multilinear k-Form.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Derivation.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Courses/Analysis IV/Exercise Sheet 1.md",
@@ -248,12 +218,6 @@
     "Differential Geometry/Smooth Vector Field.md",
     "Differential Geometry/Rank.md",
     "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Atlas.md",
-    "Differential Geometry/Smooth Atlas.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Analysis/Inner Product Space.md",
-    "Analysis/Inner Product of a Vector Space.md",
-    "Analysis/Normed Space.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
