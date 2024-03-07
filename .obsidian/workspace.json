@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential 1-Form.md",
+                "file": "Differential Geometry/Multilinear k-Form.md",
                 "mode": "source",
                 "source": true
               }
@@ -54,17 +54,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "58f1e322ee7aee0f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -83,19 +74,19 @@
             }
           },
           {
-            "id": "0aa7d2600ccf8107",
+            "id": "da856adb0ef52aab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential 1-Form.md",
+                "file": "Differential Geometry/Tangent Bundle.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "819ee6d2fa762b75",
+            "id": "0aa7d2600ccf8107",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -105,20 +96,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bbbddc3931eb8ddb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Exterior Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,6 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Differential Geometry/Differential k-Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Differential Geometry/Differential k-Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +203,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Differential Geometry/Differential k-Form.md"
+              }
             }
           }
         ]
@@ -242,18 +226,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "58f1e322ee7aee0f",
+  "active": "0aa7d2600ccf8107",
   "lastOpenFiles": [
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Differential k-Form.md",
+    "Differential Geometry/Multilinear k-Form.md",
     "Differential Geometry/Exterior Algebra.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Derivation.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Courses/Analysis IV/Exercise Sheet 1.md",
     "Differential Geometry/Pullback.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Differential k-Form.md",
-    "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Multilinear k-Form.md",
     "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Tangent Bundle.md",
     "Algebra/Symmetry Group.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Differentiable Function.md",
@@ -265,7 +250,6 @@
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Smooth Atlas.md",
-    "Differential Geometry/Derivation.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Inner Product of a Vector Space.md",

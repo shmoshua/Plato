@@ -4,7 +4,7 @@
 > 1. $\Lambda^0(V^{*}):=\mathbb{R}$
 > 3. $\Lambda^k(V^{*})$ is the vector space of all [[Multilinear k-Form|alternating multilinear $k$-forms]].
 >  
->  With the above definition, the ***exterior algebra*** of $V^{*}$ is the graded vector space: $$\Lambda ^{*}(V^{*}):=\bigoplus_{{k\geq 0}}\Lambda^k(V^{*}) $$with the ***wedge vector product***: for $\alpha\in\Lambda^p(V^{*})$ and $\beta\in \Lambda^q(V^{*})$: $$(\alpha  \land\beta)(v_{1},\dots,v_{p+q}):= \frac{1}{p!q!}\sum_{\sigma\in S_{p+q}}^{}\text{sgn}(\sigma)\alpha(v_{\sigma(1)},\dots,v_{\sigma(p)})\beta(v_{\sigma(p+1)},\dots,v_{\sigma(p+q)})$$
+>  With the above definition, the ***exterior algebra*** of $V^{*}$ is the graded vector space: $$\Lambda ^{*}(V^{*}):=\bigoplus_{{k\geq 0}}\Lambda^k(V^{*}) $$with the ***exterior product/wedge vector product***: for $\alpha\in\Lambda^p(V^{*})$ and $\beta\in \Lambda^q(V^{*})$: $$(\alpha  \land\beta)(v_{1},\dots,v_{p+q}):= \frac{1}{p!q!}\sum_{\sigma\in S_{p+q}}^{}\text{sgn}(\sigma)\alpha(v_{\sigma(1)},\dots,v_{\sigma(p)})\beta(v_{\sigma(p+1)},\dots,v_{\sigma(p+q)})$$
 
 - **Remark**: $\Lambda^1(V^{*})=V^{*}$.
 - **Remark**: if $p=0$, then $\alpha \land \beta=a\beta$.
