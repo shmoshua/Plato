@@ -19,7 +19,18 @@
 > 3. For $\alpha\in \Gamma(\Lambda^p(M)),\beta\in \Gamma(\Lambda^q(M))$, we extend the [[Exterior Algebra|exterior product]] $\alpha \land\beta\in \Gamma(\Lambda^{p+q}(M))$ where: $$(\alpha \land\beta)_{x}:=\alpha_{x}\land\beta_{x}$$Therefore, by [[Exterior Algebra|Proposition 2]], $\Gamma(\Lambda ^{*}(M))$ is an associative graded-commutative algebra.
 ---
 > [!lemma] Lemma 2
-> For 
+> For [[Smooth Manifold|smooth manifolds]] $M,N$ and $P$ with [[Smooth Function|smooth maps]] $F:N\to M$ and $G:M\to P$, it holds that: 
+> 1. the [[pullback]] $F^{*}:\Gamma(\Lambda^k(M))\to\Gamma(\Lambda^k(N))$ is $\mathbb{R}$-linear.
+> 2. for $\omega_{1}\in \Gamma(\Lambda^p(M)),\omega_{2}\in \Gamma(\Lambda^q(M))$, $$F^{*}(\omega_{1}\land \omega_{2})=F^{*}(\omega_{1})\land F^{*}(\omega_{2})$$
+> 3. for smooth $h:M\to \mathbb{R}$ and $\omega\in\Gamma(\Lambda^k(M))$: $$F^{*}(h\omega)=(h\circ F)F^{*}(\omega)$$
+> 4. We have: $$(G\circ F)^{*}(\omega)=F^{*} (G^{*}(\omega))$$
+
+> [!proof]+
+> We have: 
+> 1. Let $\omega_{1},\omega_{2}\in \Gamma(\Lambda^k(M))$ and $\lambda\in \mathbb{R}$. Then, $$\begin{align}F^{*}(\lambda\omega_{1}+\omega_{2})_{x}(v_{1},\dots,v_{k})&=(\lambda\omega_{1}+\omega_{2})_{F(x)}(d_{x}F(v_{1}),\dots,d_{x}F(v_{k}))\end{align}$$
+> 2. Let $x\in N$ and $v_{1},\dots,v_{{p+q}}\in \text{T}_{x}N$. Then, $$\begin{align}&F^{*}(\omega_{1}\land \omega_{2})_{x}(v_{1},\dots,v_{p+q})\\&=(\omega_{1}\land\omega_{2})_{F(x)}(d_{x}F(v_{1}),\dots,d_{x}F(v_{p+q}))\\&=(\omega_{1,F(x)}\land\omega_{2,F(x)})(d_{x}F(v_{1}),\dots,d_{x}F(v_{p+q}))\\&=\frac{1}{p!q!}\sum_{\sigma\in S_{p+q}}^{}\text{sgn}(\sigma)\omega_{1,F(x)}(d_{x}F(v_{\sigma(1)}),\dots,d_{x}F(v_{\sigma(p)}))\omega_{2,F(x)}(d_{x}F(v_{\sigma(p+1)}),\dots,d_{x}F(v_{\sigma(p+q)}))\\&=\frac{1}{p!q!}\sum_{\sigma\in S_{p+q}}^{}\text{sgn}(\sigma)(F^{*}\omega_{1})_{x}(v_{\sigma(1)},\dots,v_{\sigma(p)})(F^{*}\omega_{2})_{x}(v_{\sigma(p+1)},\dots,v_{\sigma(p+q)})\\&=((F^{*}\omega_{1})_{x}\land(F^{*}\omega_{2})_{x})(v_{1},\dots,v_{p+q})\\&=(F^{*}\omega_{1}\land F^{*}\omega_{2})_{x}(v_{1},\dots,v_{p+q})\end{align}$$
+> 3. We have: $$\begin{align}F^{*}(h\omega)_{x}(v_{1},\dots,v_{k})&=h(F(x))\omega_{F(x)}(d_{x}F(v_{1}),\dots,d_{x}F(v_{k}))=(h(F(x)))F^{*}\omega_{x}(v_{1},\dots,v_{k})\end{align}$$
+> 4. For $\omega\in \Gamma(\Lambda^k(P))$, $$\begin{align}(G\circ F)^{*}\end{align}$$
 ---
 ##### Examples
 > [!h] Example 1
