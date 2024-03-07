@@ -39,7 +39,10 @@
 > 2. for every $(U,\varphi)$, the coordinates $a_{I}:U\to \mathbb{R}$ are smooth w.r.t. $(U,\varphi)$.
 
 > [!proof]+
-> Let $\omega\in \Gamma(\Lambda^k(M))$ be smooth. Then, for $(U,\varphi),(V,\psi)$ a charts on $M$ s.t. $U\subseteq V$, $(\pi ^{-1}(V),\Psi)$ is a chart on $\Lambda^k(M)$ where: $$\begin{array}{cccc} {\Psi:}&{\pi ^{-1}(V)}&\to&{\psi(V)\times\Lambda^k((\mathbb{R}^m)^{*})}\\&{(x,\omega)} &\mapsto & {(\psi(x),\Lambda^k(d_{\psi(x)}\psi ^{-1})^{*}(\omega))} \end{array}{}$$Therefore, $$\begin{array}{cccc} {\Psi \circ\omega \circ \varphi ^{-1}:}&{\varphi(U)}&\to&{\psi(V)\times\Lambda^k((\mathbb{R}^m)^{*})}\\&{v} &\mapsto & {(\psi \circ \varphi ^{-1}(v),\Lambda^k(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1})^{*}(\omega_{\varphi ^{-1}(v)}))} \end{array}{} $$is smooth. 
+> We have: 
+> 1. Let $\omega\in \Gamma(\Lambda^k(M))$ be smooth and $(U,\varphi)$ a chart on $M$. Further, let $I:=i_{1}\dots i_{k}$ a multi-index where $1\leq i_{1}<\dots<i_{k}\leq m$. 
+>    
+>    Then, for $(U,\varphi),(V,\psi)$ a charts on $M$ s.t. $U\subseteq V$, $(\pi ^{-1}(V),\Psi)$ is a chart on $\Lambda^k(M)$ where: $$\begin{array}{cccc} {\Psi:}&{\pi ^{-1}(V)}&\to&{\psi(V)\times\Lambda^k((\mathbb{R}^m)^{*})}\\&{(x,\omega)} &\mapsto & {(\psi(x),\Lambda^k(d_{\psi(x)}\psi ^{-1})^{*}(\omega))} \end{array}{}$$Therefore, $$\begin{array}{cccc} {\Psi \circ\omega \circ \varphi ^{-1}:}&{\varphi(U)}&\to&{\psi(V)\times\Lambda^k((\mathbb{R}^m)^{*})}\\&{v} &\mapsto & {(\psi \circ \varphi ^{-1}(v),\Lambda^k(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1})^{*}(\omega_{\varphi ^{-1}(v)}))} \end{array}{} $$is smooth. 
 > 
 > Then, $\omega|_{U}:U\to \pi ^{-1}(U)$ is smooth with $\omega|_{U}=\sum_{I}^{}a_{I}(dx_{I})$. Therefore, $$\begin{align}\Lambda^k(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1})^{*}(\omega_{\varphi ^{-1}(v)})(v_{1},\dots,v_{k})&=\Lambda^k(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1})^{*}\left( \sum_{I}^{}a_{I}(\varphi ^{-1}(v))(dx_{I}) \right)(v_{1},\dots,v_{k})\\&=\left( \sum_{I}^{}a_{I}(\varphi ^{-1}(v))(dx_{I}) \right)(d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1}(v_{1}),\dots,d_{\psi \circ \varphi ^{-1}(v)}\psi ^{-1}(v_{k}))\\&=\sum_{I}^{}(a_{I}\circ \varphi ^{-1})(v)((\psi ^{-1})^{*}dx_{I})_{\psi \circ \varphi ^{-1}(v)}(v_{1},\dots,v_{k})\end{align}$$
 ---

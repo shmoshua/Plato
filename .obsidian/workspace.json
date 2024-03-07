@@ -38,8 +38,8 @@
               "type": "markdown",
               "state": {
                 "file": "Differential Geometry/Tangent Space.md",
-                "mode": "preview",
-                "source": false
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -128,7 +128,19 @@
               "type": "markdown",
               "state": {
                 "file": "Differential Geometry/Tangent Space.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4151d639ba211ec5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Topological Manifold.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -262,15 +274,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0cee44803ce326a7",
+  "active": "a7833fc99d403f3a",
   "lastOpenFiles": [
-    "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Exterior Algebra.md",
-    "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Differential k-Form.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Exterior Algebra.md",
+    "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Atlas.md",
+    "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Differential.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Pullback.md",
@@ -287,9 +302,6 @@
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Measure Theory/Algebra.md",
-    "Differential Geometry/Multilinear k-Form.md",
-    "Differential Geometry/Derivation.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
