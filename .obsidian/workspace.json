@@ -62,6 +62,18 @@
             }
           },
           {
+            "id": "4151d639ba211ec5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differentiable Function.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0cee44803ce326a7",
             "type": "leaf",
             "state": {
@@ -132,21 +144,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4151d639ba211ec5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -212,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential k-Form.md",
+                "file": "Differential Geometry/Exterior Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential k-Form.md",
+                "file": "Differential Geometry/Exterior Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential k-Form.md"
+                "file": "Differential Geometry/Exterior Algebra.md"
               }
             }
           }
@@ -274,18 +274,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0cee44803ce326a7",
+  "active": "9a5ec50badda4626",
   "lastOpenFiles": [
-    "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Differentiable Function.md",
+    "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Atlas.md",
-    "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Differential.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Pullback.md",
