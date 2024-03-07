@@ -29,12 +29,12 @@
 > 1. $(e_{j_{1}}^{*}\land\dots \land e^{*}_{j_{k}})_{1\leq j_{1}<\dots<j_{k}\leq n}$ forms a basis of $\Lambda^k(V^{*})$.
 > 2. $\text{dim } \Lambda^k(V^{*})= {n\choose k}$ 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. **Showing that they are linearly independent**: 
 >    Let $1\leq j_{1}<\dots<j_{k}\leq n$ and $1\leq \ell_{1}<\dots<\ell_{k}\leq n$. Then, by Example 1: $$(e^{*}_{j_{1}}\land\dots \land e^{*}_{j_{k}})(e_{\ell_{1}},\dots,e_{\ell_{k}})=\det \begin{bmatrix}e_{j_{1}}^{*}(e_{\ell_{1}})&\dots&e_{j_{1}}^{*}(e_{\ell_{k}})\\ \vdots&&\vdots\\e_{j_{k}}^{*}(e_{\ell_{1}})&\dots&e_{j_{k}}^{*}(e_{\ell_{k}})\end{bmatrix}$$ If the above expression is non-zero, the first row is non-zero and $j_{1}\in\{ \ell_{1},\dots,\ell_{k} \}$. Similarly, $j_{i}\in\{ \ell_{1},\dots,\ell_{k} \}$ for all $i$ and: $$(e_{j_{1}}^{*}\land\dots \land e_{j_{k}^{*}})(e_{\ell_{1}},\dots,e_{\ell_{k}})=\delta_{j_{1}\ell_{1}}\dots\delta_{j_{k}\ell_{k}}$$Therefore, $$\sum_{1\leq j_{1}<\dots<j_{k}\leq n}^{}a_{j_{1}\dots j_{k}}(e^{*}_{j_{1}}\land \dots \land e^{*}_{j_{k}})=0$$implies that $a_{j_{1}\dots j_{k}}=0$, which shows the linear independence.
 >  2. **Showing the dimension**:
->     We will show that the following map is injective: $$\begin{array}{cccc} {e:}&{\Lambda ^{*}(V^{*})}&\to&{\mathbb{R}^{n \choose k}}\\&{\omega} &\mapsto & {(\omega(e_{j_{1}},\dots,e_{j_{k}}))_{1\leq j_{1}<\dots<j_{k}\leq}} \end{array}{}$$
+>     We will show that the following map is injective: $$\begin{array}{cccc} {e:}&{\Lambda ^{*}(V^{*})}&\to&{\mathbb{R}^{n \choose k}}\\&{\omega} &\mapsto & {(\omega(e_{j_{1}},\dots,e_{j_{k}}))_{1\leq j_{1}<\dots<j_{k}\leq n}} \end{array}{}$$Suppose $e(\omega)=0$ and let $v_{1},\dots,v_{k}\in V$. It suffices to show that $\omega(v_{1},\dots,v_{k})=0$. Indeed, $$\begin{align}\omega(v_{1},\dots,v_{k})&=\omega\left( \sum_{j=1}^{n}v_{1j}e_{j},\dots,\sum_{j=1}^{n}v_{kj}e_{j} \right)\\&=\sum_{j_{1},\dots,j_{k}}^{}v_{1j_{1}}\dots v_{kj_{k}}\omega(e_{j_{1}},\dots,e_{j_{k}})\\&=\sum_{j_{1},\dots,j_{k},\text{ distinct}}^{}v_{1j_{1}}\dots v_{kj_{k}}\omega(e_{j_{1}},\dots,e_{j_{k}})\\&=0\end{align}$$
 ---
 ##### Example
 > [!h] Example 1
@@ -45,3 +45,8 @@
 > 1. If $k=1$, then $\phi_{1}(v_{1})=\det(\phi_{1}(v_{1}))$.
 > 2. If $k\geq 2$, $$\begin{align}&\det[\phi_{i}(v_{j})]_{ij}\\&=\sum_{j=1}^{k}(-1)^{k-1}(-1)^{j-1}\phi_{k}(v_{j})\det \begin{bmatrix}\phi_{1}(v_{1})&\dots&\phi_{1}(v_{j-1})&\phi_{1}(v_{j+1})&\dots&\phi_{1}(v_{k})\\ \vdots&&\vdots&\vdots&&\vdots\\\phi_{k-1}(v_{1})&\dots&\phi_{k-1}(v_{j-1})&\phi_{k-1}(v_{j+1})&\dots&\phi_{k-1}(v_{k})\end{bmatrix}\\&= \sum_{j=1}^{k}(-1)^{k-j}(\phi_{1}\land \dots \land \phi_{k-1})(v_{1},\dots,v_{j-1},v_{j},\dots,v_{k})\phi_{k}(v_{j})\\&=(\phi_{1}\land\dots \land\phi_{k})(v_{1},\dots,v_{k})\end{align}$$by Lemma 1.
 ---
+> [!h] Example 2
+> Let $V,W$ be finite-dimensional vector spaces and $T:V\to W$ a linear map. Then, there is an induced map: $$\begin{array}{cccc} {\Lambda ^kT^{*}:}&{\Lambda^k(W^{*})}&\to&{\Lambda^k(V^{*})}\\&{\alpha} &\mapsto & {(v_{1},\dots,v_{k})\mapsto\alpha(Tv_{1},\dots,Tv_{k})} \end{array}{}$$
+> 1. If $T\in \text{End}(V)$, $\Lambda^nT^{*}\in \text{End}(\Lambda^n(V^{*}))$ which is one dimensional.
+> 2. We have that: $$\begin{array}{cccc} {}&{\mathbb{R}}&\to&{\text{End}(\Lambda^n(V^{*}))}\\&{\lambda} &\mapsto & {\lambda \cdot \text{id}} \end{array}{}$$is an isomorphism. 
+> 3. $\Lambda^nT^{*}=\det T\cdot \text{id}$.

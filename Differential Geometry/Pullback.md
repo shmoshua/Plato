@@ -1,4 +1,4 @@
-#Definition #MeasureTheory 
+#Definition #DifferentialGeometry 
 > [!definition]
 > Let $M,N$ be [[Smooth Manifold|smooth manifolds]], $F:N\to M$ a [[Smooth Function|smooth map]] and $g$ a [[Riemannian metric]] on $M$. Then, the ***pullback of $g$ along $F$***  is: 
 > $$(F^{*}g)_{p}(v,w):=g_{F(p)}(d_{p}F(v),d_{p}F(w))$$for $p\in N$, $v,w\in$ [[Tangent Space|$T_{p}N$]].

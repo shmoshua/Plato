@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Differential Geometry/Differential k-Form.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "60f866743c7c9d18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "source",
                 "source": false
@@ -47,24 +59,12 @@
             "id": "58f1e322ee7aee0f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Exterior Algebra.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "62999ac68955ca91",
-            "type": "leaf",
-            "state": {
               "type": "graph",
               "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "c45eeefa3389e702",
@@ -83,7 +83,31 @@
             }
           },
           {
-            "id": "7c6f119dd6d69c0f",
+            "id": "0aa7d2600ccf8107",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differential 1-Form.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "819ee6d2fa762b75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differential k-Form.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bbbddc3931eb8ddb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -93,57 +117,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "923f885ed59d4b53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Multilinear k-Form.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63db362d718f092a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Smooth Manifold.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "364401c7446b7467",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Tangent Bundle.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d19519d70a03957a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Symmetry Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,7 +184,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Exterior Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +200,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Exterior Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,9 +221,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Differential Geometry/Exterior Algebra.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -273,17 +244,20 @@
   },
   "active": "58f1e322ee7aee0f",
   "lastOpenFiles": [
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Exterior Algebra.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Courses/Analysis IV/Exercise Sheet 1.md",
+    "Differential Geometry/Pullback.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Differential k-Form.md",
+    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Multilinear k-Form.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Tangent Bundle.md",
-    "Differential Geometry/Differential 1-Form.md",
     "Algebra/Symmetry Group.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Pullback.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Immersion.md",
     "Differential Geometry/Smooth Vector Field.md",
@@ -293,12 +267,9 @@
     "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Derivation.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Courses/Analysis IV/Exercise Sheet 1.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Inner Product of a Vector Space.md",
     "Analysis/Normed Space.md",
-    "Courses/Analysis IV/Problem Set 1.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
