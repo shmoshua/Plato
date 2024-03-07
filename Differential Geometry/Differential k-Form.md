@@ -4,6 +4,7 @@
 - **Related definition**: $\Gamma(\Lambda^k(M))$ is the set of differential $k$-forms on $M$.
 - **Related definition**: $\Omega^k(M)$ is the set of smooth $k$-forms on $M$.
 - **Remark**: As $d_{\varphi(x)}\varphi ^{-1}:\mathbb{R}^m\to \text{T}_{x}M$ is a homeomorphism, by [[Exterior Algebra|Example 2]], we can define an isomorphism: $$\begin{array}{cccc} {\Lambda^k(d_{\varphi(x)}\varphi ^{-1})^{*}:}&{\Lambda^k(\text{T}_{x}^{*}M)}&\to&{\Lambda^k((\mathbb{R}^m)^{*})}\\&{\omega} &\mapsto & {(v_{1},\dots,v_{k})\mapsto \omega(d_{\varphi(x)}\varphi ^{-1}(v_{1}),\dots,d_{\varphi(x)}\varphi ^{-1}(v_{k}))} \end{array}{}$$Then, $\Lambda^k(M)$ admits the [[initial topology]] and a smooth structure using the bijections: $$\begin{array}{cccc} {}&{\pi ^{-1}(U)}&\to&{\varphi(U)\times\Lambda^k((\mathbb{R}^m)^{*})}\\&{(x,\omega)} &\mapsto & {(\varphi(x),\Lambda^k(d_{\varphi(x)}\varphi ^{-1})^{*}(\omega))} \end{array}{}$$ 
+- **Remark**: For chart $(U,\varphi)$, $\omega\in \Gamma(\Lambda ^{k}(M))$ and $p\in U$, we can uniquely write: $$\omega_{p}=\sum_{1\leq i_{1}<\dots<i_{k}\leq m}^{}a_{i_{1}\dots i_{k}}(p)(dx_{i_{1}})_{p}\land\dots \land(dx_{i_{k}})_{p}$$where $dx_{i}:=\varphi ^{*}(d\pi_{i})$, as they form a basis per [[Exterior Algebra|Proposition 3]]. Using multiindex $I$, we can write: $$\omega|_{U}=\sum_{I}^{}a_{I}dx_{I}$$
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -25,12 +26,20 @@
 > 3. for smooth $h:M\to \mathbb{R}$ and $\omega\in\Gamma(\Lambda^k(M))$: $$F^{*}(h\omega)=(h\circ F)F^{*}(\omega)$$
 > 4. We have: $$(G\circ F)^{*}(\omega)=F^{*} (G^{*}(\omega))$$
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. Let $\omega_{1},\omega_{2}\in \Gamma(\Lambda^k(M))$ and $\lambda\in \mathbb{R}$. Then, $$\begin{align}F^{*}(\lambda\omega_{1}+\omega_{2})_{x}(v_{1},\dots,v_{k})&=(\lambda\omega_{1}+\omega_{2})_{F(x)}(d_{x}F(v_{1}),\dots,d_{x}F(v_{k}))\end{align}$$
 > 2. Let $x\in N$ and $v_{1},\dots,v_{{p+q}}\in \text{T}_{x}N$. Then, $$\begin{align}&F^{*}(\omega_{1}\land \omega_{2})_{x}(v_{1},\dots,v_{p+q})\\&=(\omega_{1}\land\omega_{2})_{F(x)}(d_{x}F(v_{1}),\dots,d_{x}F(v_{p+q}))\\&=(\omega_{1,F(x)}\land\omega_{2,F(x)})(d_{x}F(v_{1}),\dots,d_{x}F(v_{p+q}))\\&=\frac{1}{p!q!}\sum_{\sigma\in S_{p+q}}^{}\text{sgn}(\sigma)\omega_{1,F(x)}(d_{x}F(v_{\sigma(1)}),\dots,d_{x}F(v_{\sigma(p)}))\omega_{2,F(x)}(d_{x}F(v_{\sigma(p+1)}),\dots,d_{x}F(v_{\sigma(p+q)}))\\&=\frac{1}{p!q!}\sum_{\sigma\in S_{p+q}}^{}\text{sgn}(\sigma)(F^{*}\omega_{1})_{x}(v_{\sigma(1)},\dots,v_{\sigma(p)})(F^{*}\omega_{2})_{x}(v_{\sigma(p+1)},\dots,v_{\sigma(p+q)})\\&=((F^{*}\omega_{1})_{x}\land(F^{*}\omega_{2})_{x})(v_{1},\dots,v_{p+q})\\&=(F^{*}\omega_{1}\land F^{*}\omega_{2})_{x}(v_{1},\dots,v_{p+q})\end{align}$$
 > 3. We have: $$\begin{align}F^{*}(h\omega)_{x}(v_{1},\dots,v_{k})&=h(F(x))\omega_{F(x)}(d_{x}F(v_{1}),\dots,d_{x}F(v_{k}))=(h(F(x)))F^{*}\omega_{x}(v_{1},\dots,v_{k})\end{align}$$
-> 4. For $\omega\in \Gamma(\Lambda^k(P))$, $$\begin{align}(G\circ F)^{*}\end{align}$$
+> 4. For $\omega\in \Gamma(\Lambda^k(P))$, $$\begin{align}(G\circ F)^{*}(\omega)_{x}(v_{1},\dots,v_{k})&=\omega_{G(F(x))}(d_{x}(G\circ F)(v_{1}),\dots,d_{x}(G\circ F)(v_{k}))\\&=\omega_{G(F(x))}(d_{F(x)}Gd_{x}(F)(v_{1}),\dots,d_{F(x)}Gd_{x}(F)(v_{k}))\\&=G^{*}\omega_{F(x)}(d_{x}F(v_{1}),\dots,d_{x}F(v_{k}))\\&=F^{*}(G^{*}(\omega))_{x}(v_{1},\dots,v_{k})\end{align}$$
+---
+> [!lemma] Lemma 3
+> Let $M$ be a [[smooth manifold]] and $\omega\in \Gamma(\Lambda^k(M))$. Then, the following are equivalent.
+> 1. $\omega$ is smooth, i.e. $\omega\in \Omega^k(M)$
+> 2. for every $(U,\varphi)$, the coordinates $a_{I}:I\to \mathbb{R}$ are smooth w.r.t. $(U,\varphi)$.
+
+> [!proof]+
+> 
 ---
 ##### Examples
 > [!h] Example 1

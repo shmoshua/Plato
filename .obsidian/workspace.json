@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Differential Geometry/Tangent Bundle.md",
                 "mode": "preview",
                 "source": false
               }
@@ -77,12 +77,40 @@
             "id": "2b9f34902aadc25c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differential 1-Form.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a5ec50badda4626",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Exterior Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ddf870a69bf5bc57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differentiable Function.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,6 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Differential Geometry/Differential k-Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Differential Geometry/Differential k-Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +215,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Differential Geometry/Differential k-Form.md"
+              }
             }
           }
         ]
@@ -206,14 +238,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2b9f34902aadc25c",
+  "active": "0cee44803ce326a7",
   "lastOpenFiles": [
-    "Differential Geometry/Differential k-Form.md",
-    "Differential Geometry/Pullback.md",
-    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Differentiable Function.md",
+    "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Tangent Space.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Exterior Algebra.md",
+    "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Pullback.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Spectrum.md",
@@ -225,15 +260,12 @@
     "Analysis/Functional Analysis/Guelfand Topology.md",
     "Topology/One-Point Compactification.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
-    "Differential Geometry/Exterior Algebra.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Measure Theory/Algebra.md",
     "Differential Geometry/Multilinear k-Form.md",
     "Differential Geometry/Derivation.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Courses/Analysis IV/Exercise Sheet 1.md",
-    "Differential Geometry/Smooth Manifold.md",
-    "Algebra/Symmetry Group.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
