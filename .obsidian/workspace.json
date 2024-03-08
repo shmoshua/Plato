@@ -71,18 +71,6 @@
             }
           },
           {
-            "id": "0ffd9813dcbffc49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Integration on Manifolds.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f9e91ce9791bd025",
             "type": "leaf",
             "state": {
@@ -143,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential 1-Form.md",
+                "file": "Differential Geometry/Exterior Derivative.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential 1-Form.md",
+                "file": "Differential Geometry/Exterior Derivative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential 1-Form.md"
+                "file": "Differential Geometry/Exterior Derivative.md"
               }
             }
           }
@@ -271,16 +259,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "956d729e95a32cb4",
+  "active": "f9e91ce9791bd025",
   "lastOpenFiles": [
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Integration on Manifolds.md",
     "Differential Geometry/Exterior Derivative.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Differential k-Form.md",
-    "Differential Geometry/Integration on Manifolds.md",
-    "Differential Geometry/Differential 1-Form.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Atlas.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Partition of Unity.md",
     "Measure Theory/Lebesgue Measure.md",
     "Differential Geometry/Orientable Manifold.md",
