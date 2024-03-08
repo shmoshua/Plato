@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Integration on Manifolds.md",
+                "file": "Differential Geometry/Regular Domain.md",
                 "mode": "source",
                 "source": true
               }
@@ -39,7 +39,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -63,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Exterior Derivative.md",
+                "file": "Differential Geometry/Regular Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Differential Geometry/Regular Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Differential Geometry/Regular Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md"
+                "file": "Differential Geometry/Regular Domain.md"
               }
             }
           }
@@ -246,14 +247,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a7833fc99d403f3a",
+  "active": "2e106b6ef032858f",
   "lastOpenFiles": [
-    "Differential Geometry/De Rham Cohomology.md",
     "Differential Geometry/Exterior Derivative.md",
-    "Differential Geometry/Exterior Algebra.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Regular Domain.md",
     "Differential Geometry/Integration on Manifolds.md",
+    "Differential Geometry/De Rham Cohomology.md",
+    "Differential Geometry/Exterior Algebra.md",
+    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Atlas.md",
@@ -273,7 +275,6 @@
     "Differential Geometry/Smooth Function.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/Spectrum.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
