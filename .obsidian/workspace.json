@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -209,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Exterior Derivative.md",
+                "file": "Differential Geometry/Differential 1-Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Exterior Derivative.md",
+                "file": "Differential Geometry/Differential 1-Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Exterior Derivative.md"
+                "file": "Differential Geometry/Differential 1-Form.md"
               }
             }
           }
@@ -271,11 +271,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f9e91ce9791bd025",
+  "active": "956d729e95a32cb4",
   "lastOpenFiles": [
-    "Differential Geometry/Differential k-Form.md",
-    "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Exterior Derivative.md",
+    "Differential Geometry/Exterior Algebra.md",
+    "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Integration on Manifolds.md",
     "Differential Geometry/Differential 1-Form.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
