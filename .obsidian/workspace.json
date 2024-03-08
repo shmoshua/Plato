@@ -71,6 +71,18 @@
             }
           },
           {
+            "id": "0ffd9813dcbffc49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Integration on Manifolds.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f9e91ce9791bd025",
             "type": "leaf",
             "state": {
@@ -131,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -261,13 +273,13 @@
   },
   "active": "f9e91ce9791bd025",
   "lastOpenFiles": [
+    "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Exterior Derivative.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Integration on Manifolds.md",
-    "Differential Geometry/Atlas.md",
     "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Differential k-Form.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Atlas.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Partition of Unity.md",
     "Measure Theory/Lebesgue Measure.md",
