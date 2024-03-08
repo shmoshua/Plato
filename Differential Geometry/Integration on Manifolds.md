@@ -1,8 +1,8 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M$ be a [[smooth manifold]] with an [[Orientable Manifold|oriented atlas]] $\mathcal{A}$. Further let $\Omega^p_{c}(M)\subseteq \Omega^p(M)$ be the set of smooth $p$-forms with compact support and $(U,\varphi)\in \mathcal{A}$. Then, the ***integration*** is a linear form:
-> $$\begin{array}{cccc} {I_{(U,\varphi )}:}&{\Omega^m_{c}(U)}&\to&{\mathbb{R}}\\&{\omega} &\mapsto & {\int_{\mathbb{R}^m}a  \, d\mu} \end{array}{}$$where $a d\pi_{1}\land\dots \land d\pi_{m}=(\varphi ^{-1})^{*}(\omega)\in \Omega^m_{c}(\varphi(U))$ with $a\in C^\infty_{c}(\mathbb{R}^m)$ with $\text{supp }a\subseteq\varphi(U)$. 
+> Let $M$ be a [[smooth manifold]] with an [[Orientable Manifold|oriented atlas]] $\mathcal{A}$. Further let $\Omega^p_{c}(M)\subseteq \Omega^p(M)$ be the set of smooth $p$-forms with compact support and $(U,\varphi)\in \mathcal{A}$. Then, the ***integral*** is a linear form:
+> $$\begin{array}{cccc} {I_{(U,\varphi )}:}&{\Omega^m_{c}(U)}&\to&{\mathbb{R}}\\&{\omega} &\mapsto & {\int_{\mathbb{R}^m}a  \, d\mu} \end{array}{}$$where $a d\pi_{1}\land\dots \land d\pi_{m}=(\varphi ^{-1})^{*}(\omega)\in \Omega^m_{c}(\varphi(U))$ with $a\in C^\infty_{c}(\mathbb{R}^m)$ with $\text{supp }a\subseteq\varphi(U)$. To extend the integral on the whole manifold, let $(U_{i},\varphi_{i},f_{i})_{i\in \mathbb{N}}$ where $(U_{i},\varphi_{i})\in \mathcal{A}$ thats forms a locally finite covering and $(f_{i})_{i\in \mathbb{N}}$ is a [[partition of unity]] subordinate to $(U_{i})_{i\in \mathbb{N}}$. Then, for $\omega\in \Omega_{c}^m(M)$: $$\int_{M}^{} \omega :=\sum_{n=1}^{} $$
 ---
 ##### Properties
 > [!lemma] Lemma 1
