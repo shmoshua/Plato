@@ -39,8 +39,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -249,10 +248,10 @@
   },
   "active": "f9e91ce9791bd025",
   "lastOpenFiles": [
-    "Differential Geometry/Orientable Manifold.md",
-    "Differential Geometry/Regular Domain.md",
-    "Differential Geometry/De Rham Cohomology.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Regular Domain.md",
+    "Differential Geometry/Orientable Manifold.md",
+    "Differential Geometry/De Rham Cohomology.md",
     "Differential Geometry/Exterior Derivative.md",
     "Differential Geometry/Integration on Manifolds.md",
     "Differential Geometry/Exterior Algebra.md",
