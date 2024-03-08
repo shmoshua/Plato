@@ -43,7 +43,7 @@
 > 
 > If further $M$ is a [[smooth manifold]] with atlas the then the charts can be chosen to be [[Diffeomorphism|diffeomorphisms]].
 
-> [!proof]+
+> [!proof]-
 > We may assume that $M$ is connected and non-compact. 
 > 
 > As $M$ is locally compact Hausdorff, for a basis $\mathcal{B}=\{ B_{i}: i\in \mathbb{N} \}$, every $B_{i}$ is a union of open sets with compact closure. However, any open set with compact closure lies in $\mathcal{B}_{c}:=\{ B\in \mathcal{B}:\overline{B}\text{ is compact} \}$. Therefore, there exists a countable basis of open sets $\{ P_{i}: i\in \mathbb{N} \}$ s.t. $\overline{P}_{i}$ is compact for every $i\in \mathbb{N}$. 
@@ -56,7 +56,10 @@
 > 
 > Consider $K_{i+2}^\circ \backslash K_{i-1}\cap V_{\alpha}$. For every $p\in K_{i+2}^\circ \backslash K_{i-1}\cap V_{\alpha}$, let $(U^i_{p},\varphi^i_{p})$ be a chart at $p$ contained in $K_{i+2}^\circ \backslash K_{i-1}\cap V_{\alpha}$ and s.t. $\varphi^i_{p}(U^i_{p})\subseteq C_{3\varepsilon}^m(0)$. Further define $V^i_{p}:=(\varphi^i_{p})^{-1}(C_{\varepsilon}^m(0))$. 
 > 
-> For fixed $i\in \mathbb{N}$, consider the set of all charts $(U^i_{p},\varphi^i_{p})$ obtained this way by varying $\alpha$. Since $V_{\alpha}$ covers $M$
+> For fixed $i\in \mathbb{N}$, consider the set of all charts $(U^i_{p},\varphi^i_{p})$ obtained this way by varying $\alpha$. Since $V_{\alpha}$ covers $M$, $\{ V^i_{p} \}_{p}$ is an open cover of $K^\circ_{i+2}  \backslash K_{i-1}$. By compactness we therefore have a finite set $S_{i}$ s.t. $$K_{i+1} \backslash K_{i}^\circ\subseteq K^\circ_{i+2}  \backslash K_{i-1}\subseteq\bigcup_{p\in S_{i}}^{}V^i_{p}$$Now consider the collection $\mathcal{A}:=\{ (U^i_{p},\varphi^i_{p}): i\in \mathbb{N}, p\in S_{i} \}$.
+> 1. $\mathcal{A}$ is a countable refinement of $\{ V_{\alpha} \}_{\alpha}$ by construction.
+> 2. $\bigcup_{i,p}^{}V^i_{p}=M$ by construction.
+> 3. Let $p\in M$ and $i\in \mathbb{N}$ s.t. $p\in K^\circ_{i-1}$. Then, $K^\circ_{j+2} \backslash K_{j-1}\cap K ^\circ_{i-1}=\varnothing$ for all $j\geq i$. Therefore, only finitely many domains of $\{ U^i_{p} \}$ intersects $K_{i-1}^\circ$.
 ---
 ##### Examples
 > [!h] Example 1

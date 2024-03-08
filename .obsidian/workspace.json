@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Differential Geometry/Partition of Unity.md",
                 "mode": "source",
                 "source": true
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -68,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Atlas.md",
+                "file": "Differential Geometry/Partition of Unity.md",
                 "mode": "preview",
                 "source": false
               }
@@ -165,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Atlas.md",
+                "file": "Differential Geometry/Partition of Unity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Atlas.md",
+                "file": "Differential Geometry/Partition of Unity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Atlas.md"
+                "file": "Differential Geometry/Partition of Unity.md"
               }
             }
           }
@@ -227,14 +226,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "69ba03a1be825d12",
+  "active": "a7833fc99d403f3a",
   "lastOpenFiles": [
-    "Topology/Interior and Closure.md",
     "Differential Geometry/Atlas.md",
+    "Differential Geometry/Partition of Unity.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Topology/Interior and Closure.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Differential Geometry/Pullback.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Differential k-Form.md",
@@ -254,7 +254,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
-    "Topology/One-Point Compactification.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

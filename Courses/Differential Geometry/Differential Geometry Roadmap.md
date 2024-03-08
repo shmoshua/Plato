@@ -46,7 +46,8 @@
 1. [[Differential k-Form]]
 
 **3.3 Partition of Unity**
-
+1. **Step to Partition of Unity**: [[Topological Manifold|Construction of Countable Chart Basis]]
+2. 
 
 ---
 ### Part 2. Riemannian Geometry
