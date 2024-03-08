@@ -47,7 +47,11 @@
 
 **3.3 Partition of Unity**
 1. **Step to Partition of Unity**: [[Topological Manifold|Construction of Countable Chart Basis]]
-2. 
+2. [[Partition of Unity]]
+
+**3.4 Orientation**
+1. [[Orientable Manifold]]
+2. [[Volume Form]]
 
 ---
 ### Part 2. Riemannian Geometry
