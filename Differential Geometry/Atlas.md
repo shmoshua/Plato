@@ -35,6 +35,12 @@
 > 
 > The maximality of $\mathcal{A}'$ then follows from the maximality of $\mathcal{A}$.
 ---
+> [!lemma] Lemma 4
+> Let $M$ be a [[topological manifold]] with a maximal atlas. Further, let $\{ V_{\alpha} \}_{\alpha\in A}$ be an open cover of $M$. Then, there is at most countable family of charts $(U_{i},\varphi_{i})_{i}$ where:
+> 1. $\{ U_{i} \}_{i}$ is a locally finite cover of $M$ refining $\{ V_{\alpha} \}_{\alpha}$.
+> 2. $\varphi_{i}(U_{i})\subseteq C_{3\varepsilon}^m(0)$
+> 3. $\bigcup_{i}^{}V_{i}=M$ where $V_{i}:=\varphi_{i}^{-1}(C_{\varepsilon}^m(0))$
+---
 ##### Examples
 > [!h] Example 1
 > For $M\subseteq \mathbb{R}^n$ an open subset, $\mathcal{A}:=\{ (M,\text{id}) \}$ is a smooth atlas.

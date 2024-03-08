@@ -45,6 +45,8 @@
 **3.2 Differential Forms on Manifolds**
 1. [[Differential k-Form]]
 
+**3.3 Partition of Unity**
+
 
 ---
 ### Part 2. Riemannian Geometry
