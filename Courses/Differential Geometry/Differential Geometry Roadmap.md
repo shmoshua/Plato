@@ -53,6 +53,9 @@
 1. [[Orientable Manifold]]
 2. [[Volume Form]]
 
+**3.5 Integrating Smooth Compactly Supported Forms**
+
+
 ---
 ### Part 2. Riemannian Geometry
 
