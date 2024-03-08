@@ -23,8 +23,19 @@
 > [!lemma] Proposition 2
 > For a [[smooth manifold]] $M$, the exterior derivative $d:\Omega^k(M)\to\Omega^{k+1}(M)$ is well-defined.
 
-> [!proof]+
-> Let $\omega\in \Omega^k(M)$. Then, for chart $(U,\varphi)$, we have: $$\begin{align}d\omega|_{U}&=\sum_{I}^{}da_{I}\land dx_{I}\\&=\sum_{I}^{}d(a_{I}\circ \varphi^{-1} \circ \varphi)\land \varphi ^{*}(d\pi_{I})\\&=\sum_{I}^{}d(\varphi ^{*}(a_{I}\circ \varphi ^{-1}))\land\varphi ^{*}(d\pi_{I})\end{align}$$
+> [!proof]-
+> Let $\omega\in \Omega^k(M)$. Then, for chart $(U,\varphi)$, we have: 
+> $$d_{p}a_{I}=d_{\varphi(p)}(a_{I}\circ \varphi ^{-1})d_{p}\varphi=\varphi ^{*}(d(a_{I}\circ \varphi ^{-1}))_{p}$$Therefore,
+> 
+> $$\begin{align}d\omega|_{U}&=\sum_{I}^{}da_{I}\land dx_{I}\\&=\sum_{I}^{}\varphi ^{*}(d(a_{I}\circ \varphi ^{-1}))\land\varphi ^{*}(d\pi_{I})\\&=\varphi ^{*}\left( \sum_{I}^{}d(a_{I}\circ \varphi ^{-1})\land d\pi_{I} \right)\\&=\varphi ^{*}\left( d\left( \sum_{I}^{}(a_{I}\circ \varphi ^{-1})d\pi_{I} \right)  \right) \\&= \varphi ^{*}(d((\varphi ^{-1})^{*}\omega))\end{align}$$
+> Now, let $(U_{\alpha},\varphi_{\alpha}),(U_{\beta},\varphi_{\beta})$ be two charts on $M$. Then, for $\omega_{\alpha}:=(\varphi_{\alpha}^{-1})^{*}\omega$, $$\begin{align}\varphi_{\alpha} ^{*}(d\omega_{\alpha})&=(\theta_{\alpha\beta}\varphi_{\beta})^{*}(d\omega_{\alpha})\\&=\varphi_{\beta}^{*}\theta_{\alpha\beta}^{*}(d\omega_{\alpha})\\&=\varphi_{\beta}^{*}d(\theta ^{*}_{\alpha\beta}(\varphi_{\alpha}^{-1})^{*}\omega)\\&=\varphi_{\beta}^{*}d((\varphi_{\beta}^{-1})^{*}\omega)\\&\end{align}$$
+---
+> [!lemma] Theorem 3
+> Let $M,N$ be [[smooth manifold|smooth manifolds]]. Then: 
+> 1. $d:\Omega^0(M)\to\Omega^1(M)$ coincides with [[Differential|differentials]].
+> 2. For $\omega_{1}\in \Omega^p(M),\omega_{2}\in \Omega^q(M)$, we have: $$d(\omega_{1}\land\omega_{2})=d\omega_{1}\land\omega_{2}+(-1)^{p}\omega_{1}\land d\omega_{2}$$
+> 3. $d^{2}=0$
+> 4. For a [[Smooth Function|smooth map]] $F:N\to M$, $d( F^{*}\omega)=F^{*}(d\omega)$ for all $\omega\in \Omega^k(M)$.
 ---
 ##### Examples
 > [!h] Example 1

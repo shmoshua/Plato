@@ -58,6 +58,10 @@
 
 **3.6 Exterior Derivative**
 1. [[Exterior Derivative]]
+2. [[De Rham Cohomology]]
+
+**3.7 Stoke's Theorem**
+
 
 ---
 ### Part 2. Riemannian Geometry

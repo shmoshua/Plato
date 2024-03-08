@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "66bda78623ed7b8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Exterior Derivative.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "2e106b6ef032858f",
             "type": "leaf",
             "state": {
@@ -51,8 +39,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -88,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Exterior Algebra.md",
+                "file": "Differential Geometry/De Rham Cohomology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -131,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Exterior Derivative.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Exterior Derivative.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Exterior Derivative.md"
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md"
               }
             }
           }
@@ -259,14 +246,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f9e91ce9791bd025",
+  "active": "a7833fc99d403f3a",
   "lastOpenFiles": [
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Integration on Manifolds.md",
+    "Differential Geometry/De Rham Cohomology.md",
     "Differential Geometry/Exterior Derivative.md",
-    "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Exterior Algebra.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Integration on Manifolds.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Partition of Unity.md",
@@ -286,7 +274,6 @@
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Spectrum.md",
-    "Analysis/Functional Analysis/Regular Ideal.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
