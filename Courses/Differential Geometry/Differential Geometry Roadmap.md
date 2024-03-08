@@ -54,7 +54,10 @@
 2. [[Volume Form]]
 
 **3.5 Integrating Smooth Compactly Supported Forms**
+1. [[Integration on Manifolds]]
 
+**3.6 Exterior Derivative**
+1. [[Exterior Derivative]]
 
 ---
 ### Part 2. Riemannian Geometry
