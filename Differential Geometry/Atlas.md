@@ -40,6 +40,23 @@
 > 1. $\{ U_{i} \}_{i}$ is a locally finite cover of $M$ refining $\{ V_{\alpha} \}_{\alpha}$.
 > 2. $\varphi_{i}(U_{i})\subseteq C_{3\varepsilon}^m(0)$
 > 3. $\bigcup_{i}^{}V_{i}=M$ where $V_{i}:=\varphi_{i}^{-1}(C_{\varepsilon}^m(0))$
+> 
+> If further $M$ is a [[smooth manifold]] with atlas the then the charts can be chosen to be [[Diffeomorphism|diffeomorphisms]].
+
+> [!proof]+
+> We may assume that $M$ is connected and non-compact. 
+> 
+> As $M$ is locally compact Hausdorff, for a basis $\mathcal{B}=\{ B_{i}: i\in \mathbb{N} \}$, every $B_{i}$ is a union of open sets with compact closure. However, any open set with compact closure lies in $\mathcal{B}_{c}:=\{ B\in \mathcal{B}:\overline{B}\text{ is compact} \}$. Therefore, there exists a countable basis of open sets $\{ P_{i}: i\in \mathbb{N} \}$ s.t. $\overline{P}_{i}$ is compact for every $i\in \mathbb{N}$. 
+> 
+> Let $K_{1}:=\overline{P_{1}}$. By compactness and the fact that $\{ P_{i} \}_{i}$ is a basis, there exists $j\in \mathbb{N}$ s.t. $$\overline{P_{1}}=K_{1}\subseteq P_{1}\cup\dots \cup P_{j}$$where $j\geq 2$ as $M$ is connected and non-compact. Let $r_{1}:=\min\{ j:\overline{P_{1}}\subseteq P_{1}\cup\dots \cup P_{j} \}\geq 2$ and set $$K_{2}:=\overline{P_{1}}\cup\dots \cup \overline{P}_{r_{1}}$$Iterate this process s.t.
+> 1. $K_{j}:=\overline{P}_{1}\cup\dots \cup \overline{P}_{r_{j-1}}$ and 
+> 2. $K_{j-1}\subseteq P_{1}\cup\dots \cup P_{r_{j-1}}$ and $K_{j-1}\nsubseteq P_{1}\cup\dots \cup P_{\ell}$ for any $\ell<r_{j-1}$.
+> 
+> Now, observe that $K_{j-1}\subseteq P_{1}\cup\dots \cup P_{j-1}\subseteq K_{j}^\circ$. Therefore, $K_{i+2}^\circ \backslash K_{i-1}$ is an open set and $K_{i+1} \backslash K_{i}^\circ$ compact s.t. $K_{i+1} \backslash K_{i}^\circ\subseteq K_{i+2}^\circ \backslash K_{i-1}$.
+> 
+> Consider $K_{i+2}^\circ \backslash K_{i-1}\cap V_{\alpha}$. For every $p\in K_{i+2}^\circ \backslash K_{i-1}\cap V_{\alpha}$, let $(U^i_{p},\varphi^i_{p})$ be a chart at $p$ contained in $K_{i+2}^\circ \backslash K_{i-1}\cap V_{\alpha}$ and s.t. $\varphi^i_{p}(U^i_{p})\subseteq C_{3\varepsilon}^m(0)$. Further define $V^i_{p}:=(\varphi^i_{p})^{-1}(C_{\varepsilon}^m(0))$. 
+> 
+> For fixed $i\in \mathbb{N}$, consider the set of all charts $(U^i_{p},\varphi^i_{p})$ obtained this way by varying $\alpha$. Since $V_{\alpha}$ covers $M$
 ---
 ##### Examples
 > [!h] Example 1
