@@ -60,7 +60,7 @@
 > [!proof]+
 > We have: 
 > 1. Let $(U,\varphi)$ be a chart on $M$. Then, we can write $\alpha|_{U}=\sum_{I}^{}a_{I}dx_{I}$ and $\beta|_{U}=\sum_{I}^{}b_{I}dx_{I}$, where $a_{I},b_{J}:U\to \mathbb{R}$ are smooth. Therefore, $$\alpha \land\beta=\sum_{I,J}^{}a_{I}b_{J}dx_{I}\land dx_{J}=\sum_{I\cap J= \varnothing}^{}a_{I}b_{J}(\pm{1})dx_{Q}$$where $Q$ is the ordered multi-index of $I\cup J$. As the coordinates $v\mapsto a_{I}(v)b_{J}(v)$ are smooth, $\alpha \land\beta\in \Omega^{p+q}(M)$.
-> 2. 
+> 2. Let $\omega\in \Omega^k(M)$ and let $(U,\varphi)$ and $(V,\psi)$ be charts on $M$ and $N$ respectively s.t. $F(V)\subseteq U$. Then, in $(U,\varphi)$-local coordinates: $$\omega|_{U}=\sum_{I}^{}a_{I}dx_{I}=\sum_{1\leq i_{1}<\dots<i_{k}\leq m}^{}a_{i_{1}\dots i_{k}}dx_{i_{1}}\land\dots \land dx_{i_{k}}$$Therefore, $$F^{*}\omega|_{U}=\sum_{1\leq i_{1}<\dots<i_{k}\leq m}^{}(a_{i_{1}\dots i_{k}}\circ F)F^{*}(dx_{i_{1}})\land\dots \land F^{*}(dx_{i_{k}})$$Since $F^{*}(dx_{i_{p}})\in \Omega^1(N)$, $F^{*}\omega\in \Omega^k(N)$.
 > 
 ---
 ##### Examples
