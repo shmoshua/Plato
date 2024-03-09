@@ -39,7 +39,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -111,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Partition of Unity.md",
                 "mode": "preview",
                 "source": false
               }
@@ -251,15 +252,15 @@
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Regular Domain.md",
     "Differential Geometry/Orientable Manifold.md",
+    "Differential Geometry/Partition of Unity.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Differential k-Form.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/De Rham Cohomology.md",
     "Differential Geometry/Exterior Derivative.md",
     "Differential Geometry/Integration on Manifolds.md",
     "Differential Geometry/Exterior Algebra.md",
-    "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Atlas.md",
-    "Differential Geometry/Partition of Unity.md",
     "Measure Theory/Lebesgue Measure.md",
     "Differential Geometry/Volume Form.md",
     "Topology/Locally Compact Hausdorff Space.md",
