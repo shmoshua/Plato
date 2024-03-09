@@ -65,7 +65,12 @@ We have:
 2. Assume we have $f\in I_{1}\cap I_{2}$ where $f\not\equiv 0$. Then, $f(x)=0$ for all $x\in A_{1}\cup A_{2}=\mathbb{C}^n$, which is a contradiction.
 3. Assume that there exists non-zero $f,g\in \mathbb{C}[X_{1},\dots,X_{n}]$ s.t. $f\in I_{1}$ and $g\in I_{2}$. Then, $fg$ is non-zero and $f(x)g(x)=0$ for all $x\in A_{1}\cup A_{2}$. Therefore, $fg\in I_{1}\cap I_{2}$, which is a contradiction. Therefore, $I_{1}=\{ 0 \}$ or $I_{2}=\{ 0 \}$.
    
-   However, 
+   However, as $U$ is not dense, there exists non-zero $f\in \mathbb{C}[X_{1},\dots,X_{n}]$ s.t. $$\overline{U}\subseteq \{ x\in \mathbb{C}^n:f(x)=0 \}$$i.e. $f\in I_{1}$, which implies that $I_{2}=\{ 0 \}$. Then, $\mathbb{C}^n \backslash U$ is dense and $\mathbb{C}^n \backslash U = \mathbb{C}^n$, which implies that $U=\varnothing$. This is a contradiction.
 ---
 > [!def] Problem 5
-> Let n ≥ 1 be an integer. We identify the space Mn(C) of n × n matrices with complex coefficients with the space Cn 2 . Show that GLn(C) ⊂ Mn(C) is open. Deduce that any polynomial function of the entries of a matrix which vanishes for all invertible matrices is the zero polynomial, so vanishes for all matrices. (Hint: use the previous exercise.)
+> Let $n\geq 1$ be an integer. 
+> 1. Show that $\text{GL}_{n}(\mathbb{C})\subseteq \text{M}_{n,n}(\mathbb{C})$ is open.
+> 2. Deduce that any polynomial function of the entries of a matrix which vanishes for all invertible matrices is the zero polynomial, so vanishes for all matrices.
+
+Notice that $\det:\mathbb{\mathbb{C}}^{n^{2}}\to \mathbb{C}$ is a polynomial $\text{det}\in \mathbb{C}[X_{1},\dots,X_{n^{2}}]$. Then, $$\text{M}_{n,n}(\mathbb{C}) \backslash \text{GL}_{n}(\mathbb{C})=\{ A\in \mathbb{C}^{n^{2}}:\det(A)=0 \}$$Therefore, $\text{M}_{n,n}(\mathbb{C}) \backslash \text{GL}_{n}(\mathbb{C})$ is algebraic and $\text{GL}_{n}(\mathbb{C})$ is open and non-empty as $\text{id}\in \text{GL}_{n}(\mathbb{C})$. Therefore, $\text{GL}_{n}(\mathbb{C})$ is dense in $\text{M}_{n,n}(\mathbb{C})$. Now let $f:\mathbb{C}^{n^{2}}\to \mathbb{C}$ be a polynomial s.t. $f(A)=0$ for all $A\in \text{GL}_{n}(\mathbb{C})$. Then, let $B\in \text{M}_{n,n}(\mathbb{C})$. For any algebraic set $F\subseteq \text{M}_{n,n}(\mathbb{C})$ s.t. $B\notin F$, there exists $A\in \text{GL}_{n}(\mathbb{C})$ s.t. $A\notin F$. Therefore, 
+
