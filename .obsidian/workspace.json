@@ -30,9 +30,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "10e8d4f8a25be7ad",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -46,6 +54,18 @@
               "state": {
                 "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70c789b883576331",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Integration on Manifolds.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,8 +130,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +196,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Regular Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +212,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Regular Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,9 +233,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Differential Geometry/Regular Domain.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -239,11 +254,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2efa503e5bc459b6",
+  "active": "10e8d4f8a25be7ad",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 3.md",
-    "Differential Geometry/Regular Domain.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Regular Domain.md",
+    "Differential Geometry/Integration on Manifolds.md",
+    "Courses/Topology/Exercise Sheet 3.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Interior and Closure.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
@@ -257,7 +273,6 @@
     "Differential Geometry/Differential.md",
     "Differential Geometry/De Rham Cohomology.md",
     "Differential Geometry/Exterior Derivative.md",
-    "Differential Geometry/Integration on Manifolds.md",
     "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Atlas.md",
     "Measure Theory/Lebesgue Measure.md",
