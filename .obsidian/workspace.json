@@ -99,18 +99,6 @@
             }
           },
           {
-            "id": "bfad40c4c7bc61ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "956d729e95a32cb4",
             "type": "leaf",
             "state": {
@@ -278,9 +266,9 @@
   "active": "91e8b8a67037614e",
   "lastOpenFiles": [
     "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Topology/Interior and Closure.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Topology/Topological Space.md",
-    "Topology/Interior and Closure.md",
     "Differential Geometry/Partition of Unity.md",
     "Topology/Fundamental System.md",
     "Differential Geometry/Differential k-Form.md",

@@ -41,6 +41,14 @@ We have:
 1. Firstly, for $f\equiv{1}$, $\varnothing=\{ x\in \mathbb{C}^n:f(x)=0 \}$. For $f\equiv 0$, $\mathbb{C}^n=\{ x\in \mathbb{C}^n:f(x)=0 \}$. Therefore, $\varnothing,X$ are algebraic, closed and thereby open.
    
    Let $A_{1},A_{2}$ be two algebraic sets with $(f_{i})_{i\in I},(g_{j})_{j\in J}$ as the associated sets respectively. Then, consider $\{ f_{i}g_{j}: i\in I,j\in J \}$. We claim that:
-   $$A_{1}\cup A_{2}=\{ x\in \mathbb{C}^n:f_{i}(x)g_{j}(x)=0,\quad \forall i\in I,j\in J \}$$Let $x\in A_{1}\cup A_{2}$. Then, wlog assume that $x\in A_{1}$. Indeed, $f_{i}(x)g_{j}(x)=0$ for all $i\in I$ and $j\in J$ as $f_{i}(x)=0$ for all $i\in I$. Conversely, if $x\notin A_{1}\cup A_{2}$, then $x\notin A_{1}$ and $x\notin A_{2}$. Therefore, there exists $f_{i}$ and $g_{j}$ s.t. $f_{i}(x)g_{j}(x)\neq 0$. This proves the claim.
+   $$A_{1}\cup A_{2}=\{ x\in \mathbb{C}^n:f_{i}(x)g_{j}(x)=0,\quad \forall i\in I,j\in J \}$$Let $x\in A_{1}\cup A_{2}$. Then, wlog assume that $x\in A_{1}$. Indeed, $f_{i}(x)g_{j}(x)=0$ for all $i\in I$ and $j\in J$ as $f_{i}(x)=0$ for all $i\in I$. Conversely, if $x\notin A_{1}\cup A_{2}$, then $x\notin A_{1}$ and $x\notin A_{2}$. Therefore, there exists $f_{i}$ and $g_{j}$ s.t. $f_{i}(x)g_{j}(x)\neq 0$. This proves the claim, i.e. $A_{1}\cup A_{2}$ is algebraic.
    
-   Let $(A_{n})_{n}$ be an arbitrary family of algebraic sets with $(f_{n,i})_{i\in I_{n}}$ as the associated polynomials. Then, $$\bigcap_{n=1}^{\infty}A_{n}=\{ x\in \mathbb{C}^n: \}$$
+   Let $(A_{n})_{n}$ be an arbitrary family of algebraic sets with $(f_{n,i})_{i\in I_{n}}$ as the associated polynomials. Then, $$\bigcap_{n=1}^{\infty}A_{n}=\{ x\in \mathbb{C}^n:f_{n,i}(x)=0,\quad \forall n\geq 1,i\in I_{n} \}$$Therefore, any arbitrary intersection is also algebraic.
+   
+   This shows the statement.
+2. We have from above that $\mathbb{C}$ is algebraic. Now, for any $x_{0}\in \mathbb{C}$, let $f(x)=x-x_{0}$ and $$\{ x_{0} \}=\{ x\in \mathbb{C}^n:f(x)=0 \}$$Therefore, $\{ x_{0} \}$ is closed w.r.t the Zariski topology and thereby any finite set. If $A\subseteq \mathbb{C}^n$ is infinite with $A\neq \mathbb{C}$, then there exists a non-zero $f\in \mathbb{C}[X]$ with infinitely many roots which is a contradiction. Therefore, no non-$\mathbb{C}$ infinite set is algebraic.
+3. Let $A\subseteq \mathbb{C}^m$ be algebraic with $(g_{i})_{i\in I}$ as its associated polynomials. Then, $(g_{i}\circ f)_{i\in I}$ is a set of polynomials and: $$f^{-1}(A)=\{ x\in \mathbb{C}^n:(g_{i}\circ f)(x)=0,\quad\forall i\in I \}$$If for $x\in \mathbb{C}^n$ $(g_{i}\circ f)(x)=0$ for all $i\in I$, $f(x)\in A$. Similarly, if $x\in f^{-1}(A)$, then $g_{i}(f(x))=0$ for all $i\in I$. Therefore, $f$ is continuous.
+4. 
+---
+
+   
