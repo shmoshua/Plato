@@ -24,4 +24,17 @@ We have:
 1. let $f\in X$ and $U$ be an open neighborhood of $f$ w.r.t $\mathcal{T}_{p}$. Let $x\in \mathbb{C}$ then there exists $x\in \mathbb{C}$ and $\varepsilon>0$ s.t. $$\{ g\in X :\left| g(x)-f(x) \right| <\varepsilon\}\subseteq U$$Now choose $g\equiv f(x)$. Then, $g\in U\cap A$. Therefore, $f\in \overline{A}$, i.e. $X=\overline{A}$.
 2. Let $U$ be an open set s.t. $U\subseteq A$. If $f\in U$, then there exists $x_{0}\in \mathbb{C}$ and $\varepsilon>0$ s.t. $$\{ g\in X:\left| g(x_{0})-f(x_{0}) \right|<\varepsilon \}\subseteq U$$However, consider $h(x)=\begin{cases}f(x)&x=x_{0}\\0&x\neq x_{0}&\end{cases}$. Then, $h\notin A$ but $\left| h(x_{0})-f(x_{0}) \right|=0$. Therefore, this is a contradiction and $U$ has to be empty. As $U$ is arbitrary, $A^\circ=\varnothing$.
 3. Let $V$ be a neighborhood of $f$ in $(X,\mathcal{T}_{u})$. Then, there is an open set $f\in U\subseteq V$. Therefore, there exists $\varepsilon>0$ and $n\geq 1$ (e.g. $\frac{1}{n}<\varepsilon$) s.t. $V_{f,n}\subseteq\{ g\in X:\sup_{x\in\mathbb{C}}\left| f(x)-g(x) \right|<\varepsilon \}\subseteq U\subseteq V$.
-4. Let $f\subseteq A_{0}$. It suffices to show that $\{ f \}$ is open w.r.t. the subspace topology.  
+4. Let $f\subseteq A_{0}$. It suffices to show that $\{ f \}$ is open w.r.t. the subspace topology. Let $\varepsilon>0$ and we will show that $\{ f \}:=\{ g\in X:\sup_{x\in \mathbb{C}}\left| f(x)-g(x) \right|<\varepsilon \}\cap A_{0}$. Assume there exists $g\in \{ g\in X:\sup_{x\in \mathbb{C}}\left| f(x)-g(x) \right|<\varepsilon \}\cap A_{0}$. As $g$ is a polynomial, $f-g$ is a polynomial and from $\left| (f-g)(x) \right|<\varepsilon$, $f-g$ is constant, i.e. $f(x)=g(x)+k$ for some $k$ for all $x\in \mathbb{C}$. However, as $f(0)=0=g(0)$, $k=0$ and $g=f$. 
+   
+   Indeed, $\{ g\in X:\sup_{x\in \mathbb{C}}\left| f(x)-g(x) \right|<\varepsilon \}$ is open and this shows that $A_{0}$ is discrete.
+----
+> [!def] Problem 3
+> Let $n\geq 0$ be an integer. A subset $A\subseteq \mathbb{C}^n$ is called ***algebraic*** if there exists a set $I$ (potentially arbitrary) and a family $(f_{i})_{i\in I}$ of polynomials $f_{i}\in\mathbb{C}[X_{1},\dots,X_{n}]$ s.t. $$X=\{ x\in \mathbb{C}^n:f_{i}(x)=0,\quad \forall i\in I \}$$ 
+> 1. Show that there is a topology $\mathcal{T}_{Z}$ (the “Zariski topology”) on $\mathbb{C}^n$ such that $A\subseteq \mathbb{C}^n$ is closed if and only if $A$ is algebraic.
+> 2. Show that for $n=1$, the Zariski topology on $\mathbb{C}$ is identical with the topology $\mathcal{T}_{\text{fin}}$ with closed sets given by $\mathbb{C}$ and finite sets.
+> 3. Let $m\geq 0$ be an integer and let $f:\mathbb{C}^n\to \mathbb{C}^m$ be a polynomial map. Show that $f$ is continuous for the Zariski topologies.
+> 4. For $n\geq 1$, show that the Zariski topology on $\mathbb{C}^n$ is not Hausdorff.
+> 5. Show that $A\subseteq \mathbb{C}^n$ is dense for the Zariski topology unless there exists $f\in \mathbb{C}[X_{1},..,X_{n}]$, $f\neq 0$, s.t. $A\subseteq \{ x\in \mathbb{C}^n:f(x)=0 \}$
+> 6. Show that $\mathbb{Z}^n$ is dense in $\mathbb{C}^n$ for the Zariski topology. (Hint: use the previous question, and argue by induction on $n$, writing a polynomial $f$ vanishing on $\mathbb{Z}^n$ as a polynomial in $X_{n}$ with coefficients in $C[X_{1},\dots,X_{n-1}]$ for the induction step.)
+
+We have:
