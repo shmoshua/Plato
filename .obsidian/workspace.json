@@ -93,7 +93,7 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Topology/Exercise Sheet 3.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential 1-Form.md",
+                "file": "Topology/Closure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -278,13 +278,14 @@
   "active": "91e8b8a67037614e",
   "lastOpenFiles": [
     "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Differential Geometry/Orientable Manifold.md",
+    "Topology/Closure.md",
     "Courses/Topology/Exercise Sheet 3.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Orientable Manifold.md",
     "Differential Geometry/Regular Domain.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Partition of Unity.md",
-    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/De Rham Cohomology.md",
@@ -302,7 +303,6 @@
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Differentiable Function.md",
-    "Differential Geometry/Derivation.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
