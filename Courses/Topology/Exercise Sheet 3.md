@@ -48,7 +48,10 @@ We have:
    This shows the statement.
 2. We have from above that $\mathbb{C}$ is algebraic. Now, for any $x_{0}\in \mathbb{C}$, let $f(x)=x-x_{0}$ and $$\{ x_{0} \}=\{ x\in \mathbb{C}^n:f(x)=0 \}$$Therefore, $\{ x_{0} \}$ is closed w.r.t the Zariski topology and thereby any finite set. If $A\subseteq \mathbb{C}^n$ is infinite with $A\neq \mathbb{C}$, then there exists a non-zero $f\in \mathbb{C}[X]$ with infinitely many roots which is a contradiction. Therefore, no non-$\mathbb{C}$ infinite set is algebraic.
 3. Let $A\subseteq \mathbb{C}^m$ be algebraic with $(g_{i})_{i\in I}$ as its associated polynomials. Then, $(g_{i}\circ f)_{i\in I}$ is a set of polynomials and: $$f^{-1}(A)=\{ x\in \mathbb{C}^n:(g_{i}\circ f)(x)=0,\quad\forall i\in I \}$$If for $x\in \mathbb{C}^n$ $(g_{i}\circ f)(x)=0$ for all $i\in I$, $f(x)\in A$. Similarly, if $x\in f^{-1}(A)$, then $g_{i}(f(x))=0$ for all $i\in I$. Therefore, $f$ is continuous.
-4. 
+4. Let $A_{1},A_{2}$ be algebraic sets s.t. $A_{1}\neq \mathbb{C}\neq A_{2}$ with $(f_{i})_{i\in I},(g_{j})_{j\in J}$ respectively. Then, there exists 
 ---
-
-   
+> [!def] Problem 4
+> Let $n\geq 1$ be an integer. The goal of this exercise is to show that if U ⊂ Cn is any non-empty open set for the Zariski topology, then U is dense for the Zariski topology. We argue by contradiction, so assume that U¯ ̸= Cn .
+---
+> [!def] Problem 5
+> Let n ≥ 1 be an integer. We identify the space Mn(C) of n × n matrices with complex coefficients with the space Cn 2 . Show that GLn(C) ⊂ Mn(C) is open. Deduce that any polynomial function of the entries of a matrix which vanishes for all invertible matrices is the zero polynomial, so vanishes for all matrices. (Hint: use the previous exercise.)
