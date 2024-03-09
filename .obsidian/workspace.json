@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Closure.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -277,8 +277,9 @@
   },
   "active": "91e8b8a67037614e",
   "lastOpenFiles": [
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Topology/Interior and Closure.md",
     "Topology/Closure.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Orientable Manifold.md",
@@ -296,7 +297,6 @@
     "Measure Theory/Lebesgue Measure.md",
     "Differential Geometry/Volume Form.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Interior and Closure.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Topological Manifold.md",
