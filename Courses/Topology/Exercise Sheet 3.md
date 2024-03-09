@@ -29,7 +29,7 @@ We have:
    Indeed, $\{ g\in X:\sup_{x\in \mathbb{C}}\left| f(x)-g(x) \right|<\varepsilon \}$ is open and this shows that $A_{0}$ is discrete.
 ----
 > [!def] Problem 3
-> Let $n\geq 0$ be an integer. A subset $A\subseteq \mathbb{C}^n$ is called ***algebraic*** if there exists a set $I$ (potentially arbitrary) and a family $(f_{i})_{i\in I}$ of polynomials $f_{i}\in\mathbb{C}[X_{1},\dots,X_{n}]$ s.t. $$X=\{ x\in \mathbb{C}^n:f_{i}(x)=0,\quad \forall i\in I \}$$ 
+> Let $n\geq 0$ be an integer. A subset $A\subseteq \mathbb{C}^n$ is called ***algebraic*** if there exists a set $I$ (potentially arbitrary) and a family $(f_{i})_{i\in I}$ of polynomials $f_{i}\in\mathbb{C}[X_{1},\dots,X_{n}]$ s.t. $$A=\{ x\in \mathbb{C}^n:f_{i}(x)=0,\quad \forall i\in I \}$$ 
 > 1. Show that there is a topology $\mathcal{T}_{Z}$ (the “Zariski topology”) on $\mathbb{C}^n$ such that $A\subseteq \mathbb{C}^n$ is closed if and only if $A$ is algebraic.
 > 2. Show that for $n=1$, the Zariski topology on $\mathbb{C}$ is identical with the topology $\mathcal{T}_{\text{fin}}$ with closed sets given by $\mathbb{C}$ and finite sets.
 > 3. Let $m\geq 0$ be an integer and let $f:\mathbb{C}^n\to \mathbb{C}^m$ be a polynomial map. Show that $f$ is continuous for the Zariski topologies.
@@ -38,3 +38,9 @@ We have:
 > 6. Show that $\mathbb{Z}^n$ is dense in $\mathbb{C}^n$ for the Zariski topology. (Hint: use the previous question, and argue by induction on $n$, writing a polynomial $f$ vanishing on $\mathbb{Z}^n$ as a polynomial in $X_{n}$ with coefficients in $C[X_{1},\dots,X_{n-1}]$ for the induction step.)
 
 We have:
+1. Firstly, for $f\equiv{1}$, $\varnothing=\{ x\in \mathbb{C}^n:f(x)=0 \}$. For $f\equiv 0$, $\mathbb{C}^n=\{ x\in \mathbb{C}^n:f(x)=0 \}$. Therefore, $\varnothing,X$ are algebraic, closed and thereby open.
+   
+   Let $A_{1},A_{2}$ be two algebraic sets with $(f_{i})_{i\in I},(g_{j})_{j\in J}$ as the associated sets respectively. Then, consider $\{ f_{i}g_{j}: i\in I,j\in J \}$. We claim that:
+   $$A_{1}\cup A_{2}=\{ x\in \mathbb{C}^n:f_{i}(x)g_{j}(x)=0,\quad \forall i\in I,j\in J \}$$Let $x\in A_{1}\cup A_{2}$. Then, wlog assume that $x\in A_{1}$. Indeed, $f_{i}(x)g_{j}(x)=0$ for all $i\in I$ and $j\in J$ as $f_{i}(x)=0$ for all $i\in I$. Conversely, if $x\notin A_{1}\cup A_{2}$, then $x\notin A_{1}$ and $x\notin A_{2}$. Therefore, there exists $f_{i}$ and $g_{j}$ s.t. $f_{i}(x)g_{j}(x)\neq 0$. This proves the claim.
+   
+   Let $(A_{n})_{n}$ be an arbitrary family of algebraic sets with $(f_{n,i})_{i\in I_{n}}$ as the associated polynomials. Then, $$\bigcap_{n=1}^{\infty}A_{n}=\{ x\in \mathbb{C}^n: \}$$
