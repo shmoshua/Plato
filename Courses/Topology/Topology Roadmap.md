@@ -44,3 +44,4 @@
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
 2. [[Courses/Topology/Exercise Sheet 2|Exercise Sheet 2]]
+3. [[Courses/Topology/Exercise Sheet 3|Exercise Sheet 3]]

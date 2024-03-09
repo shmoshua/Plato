@@ -35,12 +35,28 @@
             "id": "a629a2b4c2f57be6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Topology Roadmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4efeaca5f537b76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 3.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "c45eeefa3389e702",
@@ -71,12 +87,24 @@
             }
           },
           {
+            "id": "91e8b8a67037614e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bfad40c4c7bc61ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Orientable Manifold.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "mode": "preview",
                 "source": false
               }
@@ -119,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Regular Domain.md",
+                "file": "Courses/Topology/Exercise Sheet 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Regular Domain.md",
+                "file": "Courses/Topology/Exercise Sheet 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Regular Domain.md"
+                "file": "Courses/Topology/Exercise Sheet 3.md"
               }
             }
           }
@@ -247,11 +275,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f9e91ce9791bd025",
+  "active": "91e8b8a67037614e",
   "lastOpenFiles": [
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Regular Domain.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Differential Geometry/Orientable Manifold.md",
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Differential Geometry/Regular Domain.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Partition of Unity.md",
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Differential k-Form.md",
@@ -272,9 +303,6 @@
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Derivation.md",
-    "Differential Geometry/Smooth Function.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
