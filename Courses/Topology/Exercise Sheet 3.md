@@ -22,4 +22,6 @@ We have:
 
 We have:
 1. let $f\in X$ and $U$ be an open neighborhood of $f$ w.r.t $\mathcal{T}_{p}$. Let $x\in \mathbb{C}$ then there exists $x\in \mathbb{C}$ and $\varepsilon>0$ s.t. $$\{ g\in X :\left| g(x)-f(x) \right| <\varepsilon\}\subseteq U$$Now choose $g\equiv f(x)$. Then, $g\in U\cap A$. Therefore, $f\in \overline{A}$, i.e. $X=\overline{A}$.
-2. Let $U$ be an open set s.t. $U\subseteq A$. If $f\in U$, then there exists $x\in \mathbb{C}$ and $\varepsilon>0$ s.t. $$\{ g\in X:\left| g(x)-f(x) \right|<\varepsilon \}\subseteq U$$.
+2. Let $U$ be an open set s.t. $U\subseteq A$. If $f\in U$, then there exists $x_{0}\in \mathbb{C}$ and $\varepsilon>0$ s.t. $$\{ g\in X:\left| g(x_{0})-f(x_{0}) \right|<\varepsilon \}\subseteq U$$However, consider $h(x)=\begin{cases}f(x)&x=x_{0}\\0&x\neq x_{0}&\end{cases}$. Then, $h\notin A$ but $\left| h(x_{0})-f(x_{0}) \right|=0$. Therefore, this is a contradiction and $U$ has to be empty. As $U$ is arbitrary, $A^\circ=\varnothing$.
+3. Let $V$ be a neighborhood of $f$ in $(X,\mathcal{T}_{u})$. Then, there is an open set $f\in U\subseteq V$. Therefore, there exists $\varepsilon>0$ and $n\geq 1$ (e.g. $\frac{1}{n}<\varepsilon$) s.t. $V_{f,n}\subseteq\{ g\in X:\sup_{x\in\mathbb{C}}\left| f(x)-g(x) \right|<\varepsilon \}\subseteq U\subseteq V$.
+4. Let $f\subseteq A_{0}$. It suffices to show that $\{ f \}$ is open w.r.t. the subspace topology.  
