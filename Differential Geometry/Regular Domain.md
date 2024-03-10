@@ -38,6 +38,18 @@
 > 	 
 > Therefore, $$\int_{\widetilde{\partial D\cap U_{j}}}i^{*}(f_{j}\omega)=(-1)^m\int_{\mathbb{R}^{m-1}}^{} g_{m}(x_{1},\dots,x_{m-1},0) \, dx_{1}\dots dx_{m-1}  $$
 ---
+> [!lemma] Corollary 3
+> Let $M$ be an orientable manifold with $m\geq 2$ and $D\subseteq M$ a compact regular domain. Further, let $\Omega \supseteq D$ be open. Then, there is no smooth map $f:\Omega\to \partial D$ s.t. $f|_{\partial D}=\text{id}$.
+
+> [!proof]-
+> Assume that we have such a function $f$. Pick a volume form $\omega\in \Omega^{m-1}(\partial D)$ on $\partial D$. Then, $\int_{\partial D}^{} \omega \neq 0$. On the other hand, $$d^\Omega(f^{*}\omega)=f^{*}(d\omega)=0$$As $d\omega$ is a $m$-form on $\partial D$. This leads to a contradiction as: $$0=\int_{D}^{} d(f^{*}\omega) \, dx =\int_{\widetilde{\partial D}}(f\circ i)^{*}\omega=\int_{\widetilde{\partial D}}\omega\neq 0 $$
+---
+> [!lemma] Corollary 4 (Brouwer's Fixed Point Theorem)
+> Let $m\geq 2$ and $B:=B_{\leq 1}(0)\subseteq \mathbb{R}^n$. Then, any continuous map $f:B\to B$ has a fixed point.
+
+> [!proof]+
+> We first show the statement in smooth setting. Let $\delta>0$ and a smooth map $G:B_{<1+\delta}(0)\to B$. Assume that $G(x)\neq x$ for all $x\in B_{<1+\delta}(0)$ Then, $$\begin{array}{cccc} {f:}&{B_{<1+\delta}(0)}&\to&{B}\\&{x} &\mapsto & {} \end{array}{}$$
+---
 ##### Examples
 > [!h] Example 1
 > $D:=\{ x\in \mathbb{R}^m:\|x\|\leq 1 \}$ is a regular domain in $\mathbb{R}^m$.

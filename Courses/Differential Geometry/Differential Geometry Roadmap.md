@@ -64,6 +64,8 @@
 1. [[Regular Domain]]
 2. [[Regular Domain|Stoke's Theorem]]
 
+**3.8 De Rham Cohomology in Top Degree**
+
 ---
 ##### 4. De Rham Cohomology
 
