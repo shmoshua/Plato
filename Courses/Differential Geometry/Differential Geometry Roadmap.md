@@ -73,6 +73,8 @@
 
 **4.2 The Degree of a Map**
 
+
+
 ---
 ### Part 2. Riemannian Geometry
 
