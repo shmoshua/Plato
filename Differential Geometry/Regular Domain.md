@@ -45,10 +45,18 @@
 > Assume that we have such a function $f$. Pick a volume form $\omega\in \Omega^{m-1}(\partial D)$ on $\partial D$. Then, $\int_{\partial D}^{} \omega \neq 0$. On the other hand, $$d^\Omega(f^{*}\omega)=f^{*}(d\omega)=0$$As $d\omega$ is a $m$-form on $\partial D$. This leads to a contradiction as: $$0=\int_{D}^{} d(f^{*}\omega) \, dx =\int_{\widetilde{\partial D}}(f\circ i)^{*}\omega=\int_{\widetilde{\partial D}}\omega\neq 0 $$
 ---
 > [!lemma] Corollary 4 (Brouwer's Fixed Point Theorem)
-> Let $m\geq 2$ and $B:=B_{\leq 1}(0)\subseteq \mathbb{R}^n$. Then, any continuous map $f:B\to B$ has a fixed point.
+> Let $m\geq 2$ and $B:=B_{\leq 1}(0)\subseteq \mathbb{R}^m$. Then, any continuous map $f:B\to B$ has a fixed point.
 
-> [!proof]+
-> We first show the statement in smooth setting. Let $\delta>0$ and a smooth map $G:B_{<1+\delta}(0)\to B$. Assume that $G(x)\neq x$ for all $x\in B_{<1+\delta}(0)$ Then, $$\begin{array}{cccc} {f:}&{B_{<1+\delta}(0)}&\to&{B}\\&{x} &\mapsto & {} \end{array}{}$$
+> [!proof]-
+> We first show the statement in smooth setting. Let $\delta>0$ and a smooth map $G:B_{<1+\delta}(0)\to B$. Assume that $G(x)\neq x$ for all $x\in B_{<1+\delta}(0)$ Then, consider the ray $G(x)+t(x-G(x))$ for $t\geq0$ and denote the intersection of the ray with $S^{m-1}$ as $f(x)$ for each $x\in B_{<1+\delta}(0)$. Then, $f$ is smooth and $f|_{\partial B}=\text{id}$. This is a contradiction to Corollary 3.
+> 
+> Assume that now we have a continuous function $F:B\to B$. If $F(x)\neq x$ for all $x\in B$, then there is $\varepsilon>0$ s.t. $0<2\varepsilon<\min_{x\in B}\left\| F(x)-x \right\|$. Further, by Weierstrass approximation, there is a polynomial $P:\mathbb{R}^m\to \mathbb{R}^m$ s.t. $\left\| F(x)-P(x) \right\|<\varepsilon$ for all $x\in B$. As $\|F(x)\|\leq 1$, we have that $\max_{x\in B}\|P(x)\|<1+\varepsilon$. 
+> 
+> Now define $G:\mathbb{R}^m\to \mathbb{R}^m, G(x)=P(x) / (1+\varepsilon)$. Then, $\max_{x\in B}\|G(x)\|<1$. Hence there is $\delta>0$ s.t. $G(B_{<1+\delta}(0))\subseteq B$. 
+> - If $x\in B_{<1+\delta}(0 ) \backslash B$, then as $G(x)\in B$, $G(x)\neq x$.
+> - If $x\in B$, then: $$\left\| G(x)-F(x) \right\| \leq \left\| G(x)-P(x) \right\| +\left\| P(x)-F(x) \right\| <2\varepsilon$$Therefore, $$\left\| G(x)-x \right\| > \left\| F(x)-x \right\|-2\varepsilon>0 $$
+>   
+> Therefore, $G(x)\neq x$ and this is a contradiction to part 1. 
 ---
 ##### Examples
 > [!h] Example 1

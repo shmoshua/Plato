@@ -63,7 +63,13 @@
 > 2. Let $\omega\in \Omega^k(M)$ and let $(U,\varphi)$ and $(V,\psi)$ be charts on $M$ and $N$ respectively s.t. $F(V)\subseteq U$. Then, in $(U,\varphi)$-local coordinates: $$\omega|_{U}=\sum_{I}^{}a_{I}dx_{I}=\sum_{1\leq i_{1}<\dots<i_{k}\leq m}^{}a_{i_{1}\dots i_{k}}dx_{i_{1}}\land\dots \land dx_{i_{k}}$$Therefore, $$F^{*}\omega|_{U}=\sum_{1\leq i_{1}<\dots<i_{k}\leq m}^{}(a_{i_{1}\dots i_{k}}\circ F)F^{*}(dx_{i_{1}})\land\dots \land F^{*}(dx_{i_{k}})$$Since $F^{*}(dx_{i_{p}})\in \Omega^1(N)$, $F^{*}\omega\in \Omega^k(N)$.
 >    
 >    We could also compute the local coordinates of $F^{*}(dx_{i})$ directly. Namely, $$F^{*}(dx_{i})=F^{*}(\varphi ^{*}(d\pi_{i}))=(\varphi \circ F)^{*}(d\pi_{i})=(\varphi \circ F\circ \psi ^{-1}\circ \psi)^{*}(d\pi_{i})=\psi ^{*}((\varphi \circ F\circ \psi ^{-1})^{*}(d\pi_{i}))$$Let now $G:=\varphi \circ F\circ \psi ^{-1}:\psi(V)\to\varphi(U)$. Further, we note $p_{1},\dots,p_{n}:\mathbb{R}^n\to \mathbb{R}$ the coordinate transforms on $\mathbb{R}^n$ with $dy_{i}:=\psi ^{*}(dp_{i})$. Then, $$G^{*}(d\pi_{i})_{y}=(d\pi_{i})_{\varphi F\psi ^{-1}(y)}\circ d_{y}G=\sum_{j=1}^{n}\frac{ \partial G_{i} }{ \partial y_{j} } (y)dp_{j}$$Therefore, $$F^{*}(dx_{i})_{p}=\sum_{j=1}^{n}\frac{ \partial G_{i} }{ \partial y_{j} } (\psi(p))dy_{j}$$
-> 
+---
+> [!lemma] Lemma 5
+> Let $M$ be a [[smooth manifold]] and $(U,\varphi)$ a chart. Further, suppose that $F\subseteq U$ s.t. $\varphi(F)=[0,1]^m$. If $\omega\in \Omega^m(M)$ satisfies $\int_{M}^{} \omega=0$ and $\text{supp }\omega \subseteq F$ then there is $\eta\in \Omega^{m-1}(M)$ s.t. $\text{supp }\eta \subseteq F$ and $\omega=d \eta$.
+
+> [!proof]+
+> Consider $(\varphi ^{-1})^{*}\omega\in \Omega^m(\varphi(U))$ with support in $[0,1]^m$. Then, we can write: $$(\varphi ^{-1})^{*}\omega=fdx_{1}\land\dots \land dx_{m}$$
+
 ---
 ##### Examples
 > [!h] Example 1
