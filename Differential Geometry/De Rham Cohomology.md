@@ -5,4 +5,6 @@
 - **Remark**: This is well defined as $\text{im } d_{k-1}\subseteq \text{ker }d_{k}$ given by [[Exterior Derivative|Theorem 3.3]].
 - **Remark**: $\text{H}^0_{\text{dR}}(M)=\text{ker }d_{0}\cong\mathbb{R}^{\pi_{0}(M)}$ where $\pi_{0}(M)$ is the number of connected components in $M$.
 ---
-
+##### Properties
+> [!lemma] Theorem 1
+> Let $M$ be a compact, connected and [[Orientable Manifold|oriented manifold]]. Then, $$$$
