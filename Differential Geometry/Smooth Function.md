@@ -2,7 +2,7 @@
 
 > [!definition]
 > Let $M,N$ be [[Smooth Manifold|smooth manifolds]]. A map $\varphi:M\to N$ is $C^k$ or ***$k$-times continuously differentiable***, if for any chart $(U,x)$ in $M$ and $(V,y)$ in $N$, $$y\circ \varphi \circ x^{-1}:x(U)\to y(V)\in C^k(\mathbb{R}^m,\mathbb{R}^n)$$If $\varphi\in C^k$ for all $k\geq 1$, $\varphi$ is ***smooth***, i.e. $\varphi\in C^\infty$.
-- **Related definition**:
+- **Related definition**: Let $M,N$ be compact, connected and [[Orientable Manifold|oriented]] with dimension $m$. Then, for a smooth function $F:N\to M$, the ***degree*** of $F$, $\deg(F)\in \mathbb{R}$ is the unique real number s.t. $$(\deg F )\cdot $$
 ---
 ##### Properties
 > [!lemma] Lemma 1

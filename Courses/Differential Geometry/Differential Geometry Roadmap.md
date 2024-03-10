@@ -72,7 +72,7 @@
 1. [[De Rham Cohomology]]
 
 **4.2 The Degree of a Map**
-
+1. [[Smooth Function|Degree of a Smooth function]]
 
 
 ---
