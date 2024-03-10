@@ -67,11 +67,16 @@
 > [!lemma] Lemma 5
 > Let $M$ be a [[smooth manifold]] and $(U,\varphi)$ a chart. Further, suppose that $F\subseteq U$ s.t. $\varphi(F)=[0,1]^m$. If $\omega\in \Omega^m(M)$ satisfies $\int_{M}^{} \omega=0$ and $\text{supp }\omega \subseteq F$ then there is $\eta\in \Omega^{m-1}(M)$ s.t. $\text{supp }\eta \subseteq F$ and $\omega=d \eta$.
 
-> [!proof]+
+> [!proof]-
 > Consider $(\varphi ^{-1})^{*}\omega\in \Omega^m(\varphi(U))$ with support in $[0,1]^m$. Then, we can write: $$(\varphi ^{-1})^{*}\omega=fdx_{1}\land\dots \land dx_{m}$$for some $f\in C^\infty(\mathbb{R}^m)$ with $\text{supp }f\in [0,1]^m$. Then, $$\begin{align}f(x)&=\int_{0}^{1} \frac{ \partial }{ \partial t } f (tx) \, dt\\&=\sum_{i=1}^{m}\int_{0}^{1} \frac{ \partial f }{ \partial x_{i} } (tx)\cdot x_{i} \, dt \\&= \sum_{i=1}^{m}\frac{ \partial  }{ \partial x_{i} } \underbrace{ \int_{0}^{1} x_{i}f(tx) \, dt  }_{ =:f_{i}(x) }\end{align}$$where $f_{i}\in C^\infty(\mathbb{R}^m)$ and $\text{supp }f_{i}\subseteq [0,1]^m$. Now we define $\alpha\in\Omega^{m-1}(\mathbb{R}^m)$ as: $$\alpha:=\sum_{i=1}^{m}(-1)^{i-1}f_{i}dx_{1}\land\dots \land\widehat{dx_{i}}\land\dots \land dx_{m}$$which is supported in $[0,1]^m$. Then, $$\begin{align}d\alpha&=\sum_{i=1}^{m}(-1)^{i-1}df_{i}\land dx_{1}\land\dots \land\widehat{dx_{i}}\land\dots \land dx_{m}\\&=\sum_{i=1}^{m}(-1)^{i-1}\sum_{j=1}^{m}\frac{ \partial f_{j} }{ \partial x_{j} } dx_{j}\land dx_{1}\land\dots \land\widehat{dx_{i}}\land\dots \land dx_{m}\\&=\sum_{i=1}^{m}\frac{ \partial f_{i} }{ \partial x_{i} }  dx_{1}\land\dots \land {dx_{i}}\land\dots \land dx_{m}\\&=f dx_{1}\land\dots \land {dx_{i}}\land\dots \land dx_{m}\\&=(\varphi ^{-1})^{*}\omega\end{align}$$Therefore, $\eta:=(\varphi)^{*}\alpha$.
 ---
 > [!lemma] Lemma 6
-> Let $M$ be a [[smooth manifold]] and
+> Let $M$ be a [[smooth manifold]] that is connected and compact and $(U,\varphi)$ a chart of $M$ s.t. $F\subseteq U$ with $\varphi(F)=[0,1]^m$. If $\omega\in \Omega^m(M)$, there is $\eta\in \Omega^{m-1}(M)$ s.t. $$\text{supp}(\omega+d \eta)\subseteq F$$
+
+> [!proof]+
+> Let $(V_{i},\varphi_{i},F_{i})_{i=0}^n$ s.t. for all $i\in \{ 0,\dots,n \}$, $(V_{i},\varphi_{i})$ is a chart with $F_{i}\subseteq V_{i}$ satisfying $\varphi_{i}(F_{i})=[0,1]^m$. Furthermore, assume that $F_{i-1}^\circ\cap F_{i}^\circ\neq \varnothing$ for all $1\leq i\leq n$. Let $\omega_{0}\in \Omega^m(M)$ with $\text{supp }\omega_{0}\subseteq F_{0}$. We will show that then there is $\eta\in \Omega^{m-1}(M)$ with $\text{supp}(\omega_{0}+d \eta)\subseteq F_{n}$.
+> 
+> We can choose $\omega_{1},\dots,\omega_{n}\in \Omega^m(M)$ with $\text{supp }\omega_{i}\subseteq F^\circ_{i-1}\cap F^\circ_{i}$ and $$\int_{F^\circ _{i-1}}^{} \omega_{i}=\int_{F^\circ _{i-1}}^{} \omega_{i-1}$$Then, $\text{supp}(\omega_{i}-\omega_{i-1})\subseteq F_{i-1}$ for all $i\in[n]$ and $\int_{V_{i-1}}^{} (\omega_{i}-\omega_{i-1}) =0$. Then by Lemma 5, there are $\eta_{i-1}\in \Omega^{m-1}(M)$ s.t. $\omega_{i}-\omega_{i-1}=d \eta_{i}$ for all $i\in [n]$. Therefore, $$\omega_{n}=\sum_{i=1}^{n}(\omega_{i}-\omega_{i-1})+\omega_{0}=\sum_{i=1}^{n}d \eta_{i}+\omega_{0}$$
 ---
 ##### Examples
 > [!h] Example 1
