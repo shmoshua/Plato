@@ -3,8 +3,12 @@
 > [!definition]
 > Let $M$ be a [[smooth manifold]] and $d_{k}:\Omega^k(M)\to\Omega^{k+1}(M)$ the [[exterior derivative]] operator. Then, the ***$k$-th de Rham cohomology of $M$*** is the quotient vector space: $$\text{H}_{\text{dR}}^k(M):=\text{ker }d_{k}  /\text{im }d_{k-1}$$
 - **Related definition**: The elements of $\text{Im }d_{k-1}$ are called the ***exact forms*** and the elements of $\text{ker }d_{k}$ are called ***closed forms***.
+- **Related definition**: $\omega\in \Omega^m(M)$ with $\int_{M}^{} \omega =1$ is said to represent the ***fundamental class of $M$***.
 - **Remark**: This is well defined as $\text{im } d_{k-1}\subseteq \text{ker }d_{k}$ given by [[Exterior Derivative|Theorem 3.3]].
 - **Remark**: $\text{H}^0_{\text{dR}}(M)=\text{ker }d_{0}\cong\mathbb{R}^{\pi_{0}(M)}$ where $\pi_{0}(M)$ is the number of connected components in $M$.
+- **Remark**: For smooth manifolds $M,N$ and a smooth map $F:N\to M$: $$\begin{CD} 0 @>>> \Omega^0(M)@>d_{0}>>\Omega^1(M)@>d_{1}>>\cdots @>d_{k-1}>>\Omega^k(M)@>d_{k}>>\cdots
+  \\& @VF^{*}VV&@VF^{*}VV&&@VF^{*}VV
+  \\0@>>> \Omega^0(N)@>d_{0}>>\Omega^1(N)@>d_{1}>>\cdots @>d_{k-1}>>\Omega^k(N)@>d_{k}>>\cdots\end{CD}$$where the above diagram commutes as well as pullback and exterior derivative commutes. Further, $$F^{*}(\text{ker }d_{k}^M)\subseteq \text{ker }d_{k}^N,\quad F^{*}(\text{Im }d_{k}^M)\subseteq \text{Im }d_{k}^N$$from which we get the pullback $F^{*}:\text{H}_{\text{dR}}^k(M)\to\text{H}_{\text{dR}}^k(N)$.
 
 ---
 ##### Properties

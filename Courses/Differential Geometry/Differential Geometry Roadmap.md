@@ -71,6 +71,8 @@
 **4.1 Basic Definitions**
 1. [[De Rham Cohomology]]
 
+**4.2 The Degree of a Map**
+
 ---
 ### Part 2. Riemannian Geometry
 
