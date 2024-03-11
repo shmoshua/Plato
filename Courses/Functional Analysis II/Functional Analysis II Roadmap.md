@@ -18,6 +18,9 @@
 1. [[Analysis/Functional Analysis/Spectrum|Spectrum]]
 2. [[Analysis/Functional Analysis/Spectrum|Spectral Radius]]
 3. [[Analysis/Functional Analysis/Spectrum|Spectral Radius Formula]]
+
+**2.1 Holomorphic Functional Calculus**
+
 ---
 ##### 3. The Guelfand Representations
 **3.1 Regular Ideals**
@@ -39,7 +42,8 @@
 ---
 ##### 4. The Guelfand Isomorphisms
 1. [[C*-Algebra]] and normal elements.
-2. 
+2. Uniqueness of the norm in a [[C*-algebra]].
+3. [[C*-Algebra|Construction of a C\*-algbra norm on $A_{I}$ ]]
 ---
 ##### 5. Spectral Theorems
 ---

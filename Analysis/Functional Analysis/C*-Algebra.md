@@ -34,7 +34,7 @@
 > [!lemma] Proposition 4
 > Let $A$ be a non-unital $C^{*}$-algebra. Then, there is a $C^{*}$-algebra norm on $A_{I}$ extending the one on $A$.
 
-> [!proof]+
+> [!proof]-
 > We will identify $A\to A_{I},x \mapsto (x,0)$ and with $e=(0,1)$, we will write $z\in A_{I}$ as $z=x+\lambda e$. Observe that $A$ is an ideal in $A_{I}$. Therefore, for:$$\begin{array}{cccc} {L_{z}:}&{A}&\to&{A}\\&{x} &\mapsto & {zx} \end{array}{}$$it holds that $L_{z}\in\mathcal{B}(A)$ and $A_{I}\to \mathcal{B}(A),z\mapsto L_{z}$ is a $\mathbb{C}$-algebra homomorphism. Now, let $N(z):=\|L_{z}\|$. Then, 
 > 1. $N(z_{1}+z_{2})=\left\| L_{z_{1}+z_{2}} \right\|=\left\| L_{z_{1}}+L_{z_{2}} \right\|\leq \left\| L_{z_{1}} \right\|+\left\| L_{z_{2}} \right\|=N(z_{1})+N(z_{2})$
 > 2. $N(z_{1}z_{2})=\left\| L_{z_{1}z_{2}} \right\|=\left\| L_{z_{1}}\circ L_{z_{2}} \right\|\leq \left\| L_{z_{1}} \right\|\left\| L_{z_{2}} \right\|$
@@ -47,7 +47,13 @@
 > 	We assume that $z=x+\lambda e$ with $x\in A$ and $\lambda\neq 0$. Assume that $N(z)=0$. Then, $L_{z}(y)=zy=0$ for any $y\in A$ and $(x+\lambda e)y=0$, i.e. $y=(-x / \lambda)y$.
 > 	
 > 	Then, there exists $u\in A$ s.t. $y=u y$ for all $y\in A$ and $A$ has an identity $u$, which is a contradiction. Therefore, $z\in A$ and from $0=N(z)=\|z\|$, $z=0$.
->3. The involution $x+\lambda e\mapsto x^{*}+\overline{\lambda}e$ satisfies the properties of 
+>3. **Showing that the involution $x+\lambda e\mapsto x^{*}+\overline{\lambda}e$ satisfies the properties of an involutive Banach algebra**: For all $a\in A$
+>	$$\left\| L_{z}(a) \right\| ^{2}=\|za\|^{2}=\|(za)^{*}za\|=\|a^{*}z^{*} z a\|\leq \|a\|\|L_{z^{*}z}(a)\|$$Then, $$\left(\frac{ \|L_{z}(a)\|}{\|a\|} \right)^{2} \leq\frac{\|L_{z^{*}z}(a)\|}{\|a\|}$$By taking all sup, $N(z)^{2}\leq N(z^{*}z)$. Therefore,
+>	1. $N(z)^{2}\leq N(zz^{*})\leq N(z)N(z^{*})$ and $N(z)\leq N(z^{*})$ for all $z\in A_{I}$. Therefore, $N(z)=N(z^{*})$.
+>	3. $N(zz^{*})\leq N(z)N(z^{*})=N(z)^{2}\leq N(zz^{*})$
+>
+>Therefore, $N$ is a $C^{*}$-algebra norm on $A_{I}$ extending $A$.
+>
 ---
 ##### Examples
 > [!h] Example 0

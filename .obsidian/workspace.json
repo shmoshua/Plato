@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Functional Analysis/Holomorphic Function.md",
                 "mode": "source",
                 "source": true
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -44,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -56,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Analysis/Functional Analysis/Holomorphic Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -68,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +85,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,8 +132,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -153,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Holomorphic Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Holomorphic Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md"
+                "file": "Analysis/Functional Analysis/Holomorphic Function.md"
               }
             }
           }
@@ -215,13 +214,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0aa7d2600ccf8107",
+  "active": "a533e24e381fee85",
   "lastOpenFiles": [
-    "Analysis/Norm.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
+    "Analysis/Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
+    "Analysis/Functional Analysis/Holomorphic Function.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Norm.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Differential Geometry/Tangent Space.md",
@@ -241,8 +242,6 @@
     "Differential Geometry/Differential k-Form.md",
     "Topology/Topological Space.md",
     "Differential Geometry/Volume Form.md",
-    "Courses/Topology/Exercise Sheet 3.md",
-    "Differential Geometry/Integration on Manifolds.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
