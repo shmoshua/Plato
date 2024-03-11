@@ -57,13 +57,28 @@
 > [!lemma] Lemma 5 (Gauss' Lemma)
 > Let $R$ be a unique factorization domain. Then, the product of two primitive polynomials in $R[X]$ is primitive.
 
-> [!proof]+
-> Let $f(X)=a_{0}+a_{1}X+\dots +a_{n}X^n$ and $g(X)=b_{0}+b_{1}X+\dots+b_{m}X^m$ for $a_{n},b_{m}\neq 0$ be two primitives. Let $$h(X):=f(X)g(X)=c_{0}+c_{1}X+\dots+c_{m+n}X^{m+n}$$
+> [!proof]-
+> Let $f(X)=a_{0}+a_{1}X+\dots +a_{n}X^n$ and $g(X)=b_{0}+b_{1}X+\dots+b_{m}X^m$ for $a_{n},b_{m}\neq 0$ be two primitives. Let $$h(X):=f(X)g(X)=c_{0}+c_{1}X+\dots+c_{m+n}X^{m+n}$$Let $p\in R$ be an irreducible. Then, $p$ doesn't divide all $a_{i}$s and it doesn't divide all $b_{j}$s. Let $a_{r}$ be the first coefficient not divisible by $p$. Similarly, let $b_{s}$ be the first coefficient not divisible by $p$. Then, $$c_{r+s}=(a_{0}b_{r+s}+\dots+a_{r-1}b_{s+1})+a_{r}b_{s}+(a_{r+1}b_{s-1}+\dots+a_{r+s}b_{0})$$and $p$ does not divide $a_{r}b_{s}$. Therefore, $p$ does not divide $c_{r+s}$.
 ---
-> [!lemma] Lemma 4
+> [!lemma] Proposition 6
+> Let $R$ be a unique factorization domain and $F:=\text{Quot}(R)$ the [[quotient field]] of $R$. Let $f(x)\in R[X]$ with $\deg f>0$. If $f$ is irreducible in $R[X]$, then $f$ is irreducible in $F[X]$. 
+> 
+> Moreover, if $f$ is primitive in $R[X]$ and irreducible in $F[X]$, then $f$ is irreducible in $R[X]$.
+
+> [!proof]-
+> We will prove the contrapositive. Suppose $f(x)\in R[X]\subseteq F[X]$ is a product of lower degree polynomials in $F[X]$, i.e. $f(x)=r(x)s(x)$ for $r(x),s(x)\in F[X]$ and $\deg r<\deg f$ and $\deg s<\deg f$. 
+> 
+> Then, from quotient field, there exists $d\in R$ and $r_{1},s_{1}\in R[X]$ s.t. $$f(x)=\frac{r_{1}(x)s_{1}(x)}{d}$$with $\deg r_{1}=\deg r$ and $\deg s_{1}=\deg s$. By Lemma 4, we have $r_{2},s_{2},g\in R[X]$ primitives and $c,c_{1},c_{2}\in R$ s.t. $$df(x)=dcg(x)=c_{1}c_{2}r_{2}(x)s_{2}(x)$$where by Gauss' lemma $r_{2}s_{2}$ is primitive as well. Looking at the contents on both sides, $c_{1}c_{2}=dcu$ for some unit $u\in R$. Therefore, $$f(x)=cg(x)=cur_{2}(x)s_{2}(x)$$ This shows that $f$ is reducible. 
+> 
+> If $f$ is primitive and was reducible, then $f(x)=r(x)s(x)\subseteq R[X]\subseteq F[X]$ which is a contradiction.
+- For non-primitive $f\in R[X]$, $f(x)$ can be reducible in $R[X]$ and irreducible in $F[X]$, e.g. $5x\in \mathbb{Z}[X]$ and $\mathbb{Q}[X]$.
+---
+
+> [!lemma] Lemma 7
 > Let $R$ be an integral domain. Then, $R$ is a unique factorization domain if and only if $R[X]$ is a unique factorization domain.
 
 > [!proof]+
 > We have: 
 > 1. Since $R[X]$ is a UFD, the constant polynomials have to be factored uniquely. However, due to degree concerns, the factorization in $R[X]$ is a factorization in $R$.
+> 2. Let $R$ be a UFD and let $f\in R[X]$, $f\neq 0$ and non-unit. If $\deg f=0$, we are done. Suppose $deg f$
 ---
