@@ -9,6 +9,7 @@
 >
 > An involutive Banach algebra is a ***C\*-algebra***, if $\left\| xx^{*} \right\|=\|x\|\|x^{*}\|$ for all $x\in B$.
 - **Related definition**: $x\in A$ is ***normal*** if $xx^{*}=x^{*}x$.
+- **Related definition**: $x\in A$ is ***self-adjoint*** if $x=x^{*}$ and self-adjoint elements are trivially normal.
 ---
 ##### Properties
 > [!lemma] Lemma 1
@@ -23,9 +24,17 @@
 
 > [!proof]-
 > Let $x\in A$ be normal. Then, $$\left\| x^{2n} \right\| ^2=\left\| (x^{2n})^{*}(x^{2n}) \right\|=\left\| (x^{*}x)^{2n} \right\| =\left\| (x^{*}x)^n (x^{*}x)^n \right\| =\left\| (x^{*}x)^n \right\| ^{2} $$Therefore, $\left\| x^{2n} \right\|=\left\| (x^{*} x)^n \right\|$. It follows that $$\left\| x^{2^m} \right\| =\left\| (x^{*}x)^{2^{m-1}} \right\| =\left\| (x^{*}x)^{2^{m-2}} (x^{*}x)^{2^{m-2}} \right\| =\left\| (x^{2} x)^{2^{m-2}} \right\| ^{2}=\left\| x^{2^{m-1}} \right\|^{2} $$Indeed, it follows that $\left\| x^{2^m} \right\|=\|x\|^{2^m}$ and: $$\|x\|=\|x^{2^m}\|^{1 / 2^m}\to\|x\|_{\text{sp}}$$
+---
+> [!lemma] Corollary 3
+> If a $C^{*}$-algebra admits any other $C^{*}$-algebra norm $\|\cdot\|'$, then $\|\cdot\|=\|\cdot\|'$.
 
+> [!proof]-
+> We have that: $$(\|x\|')^{2}=\|x x^{*}\|'=\|x x^{*}\|_{\text{sp}}=\|x x^{*}\|=(\|x\|)^{2}$$
 ---
 ##### Examples
+> [!h] Example 0
+> Let $A$ be an involutive Banach algebra. We have that $A_{I}$ is an involutive Banach algebra with$$(x,\lambda)^{*}:=(x^{*},\overline{\lambda})$$
+---
 > [!h] Example 1
 > For a [[locally compact Hausdorff space]] $X$, Then, 
 > 1. $C_{b}(X)$ is a Banach algebra
@@ -87,6 +96,7 @@ $$\begin{align}f*f^{*}(x)&=\int_{-1}^{0} f(x-t) \, dt -\int_{0}^{1} f(x-t) \, dt
 > $$\begin{align}\left\| f*g \right\| _{1}&\leq\sum_{\eta\in \Gamma}^{}\sum_{\gamma\in \Gamma}^{}\left| f(\gamma \eta) \right|\left| g(\eta ^{-1}) \right|   =\left\| f \right\|_{1} \left\| g \right\|_{1}\end{align}$$
 > The involutivity is easy to check.
 ---
+
 **Other Examples**
 1. [[Volterra Algebra]]
 2. 

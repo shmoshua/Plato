@@ -1,4 +1,4 @@
-#FunctionalAnalysis #Roadmap 
+**#FunctionalAnalysis #Roadmap 
 
 ##### 1. Banach Algebras: Definitions and Examples
 1. [[C-Algebra|$\mathbb{C}$-algebra]] and [[Ideal]]
@@ -38,7 +38,8 @@
 3. [[Guelfand Transform]]
 ---
 ##### 4. The Guelfand Isomorphisms
-1. 
+1. [[C*-Algebra]] and normal elements.
+2. 
 ---
 ##### 5. Spectral Theorems
 ---

@@ -13,43 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/De Rham Cohomology.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "d46df313d10be0ac",
+            "id": "2e36f9b498df9ba1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5fb91947ca453c05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Derivation.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0a3ff56ca45ed2d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Rank.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,55 +44,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "29ab69664e2f48b2",
+            "id": "a533e24e381fee85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Analysis/Functional Analysis/C-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "f9e91ce9791bd025",
+            "id": "bc5e995975b19d1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Exterior Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "956d729e95a32cb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Interior and Closure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1902f70c405c95f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Differentiable Function.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
                 "mode": "preview",
                 "source": false
               }
@@ -151,7 +103,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pullback",
+                "query": "normal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,7 +120,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -188,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md"
+                "file": "Analysis/Functional Analysis/C*-Algebra.md"
               }
             }
           }
@@ -252,17 +205,23 @@
   },
   "active": "0aa7d2600ccf8107",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/C-Algebra.md",
+    "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Differential Geometry/Tangent Space.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
+    "Courses/Topology/Exercise Sheet 2.md",
+    "Differential Geometry/De Rham Cohomology.md",
     "Differential Geometry/Derivation.md",
     "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/De Rham Cohomology.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Rank.md",
     "Differential Geometry/Exterior Algebra.md",
     "Topology/Interior and Closure.md",
     "Topology/Fundamental System.md",
-    "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Differential Geometry/Exterior Derivative.md",
     "Differential Geometry/Regular Domain.md",
     "Differential Geometry/Differential k-Form.md",
@@ -272,12 +231,6 @@
     "Differential Geometry/Integration on Manifolds.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Differential Geometry/Partition of Unity.md",
-    "Topology/Closure.md",
-    "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Orientable Manifold.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Atlas.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
