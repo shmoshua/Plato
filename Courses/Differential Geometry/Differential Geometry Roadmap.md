@@ -73,19 +73,13 @@
 
 **4.2 The Degree of a Map**
 1. [[Smooth Function|Degree of a Smooth function]]
-
-
 ---
 ### Part 2. Riemannian Geometry
 
-##### 1. Riemannian Manifolds
+##### 1. Riemannian Metric
 
 **1.1 Introduction of Basic Notions**
-1. [[Topological Manifold]] and [[Topological Manifold|charts]].
-2. [[Smooth Atlas]]
-3. [[Smooth Manifold]]
-4. [[Diffeomorphism]]
-5. [[Tangent Space]]
+1. [[Tangent Space]]
 6. [[Differential]]
 7. [[Smooth Vector Field]]
 8. [[Cotangent Space]]
