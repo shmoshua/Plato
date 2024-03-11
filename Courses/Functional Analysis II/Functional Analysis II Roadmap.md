@@ -20,7 +20,7 @@
 3. [[Analysis/Functional Analysis/Spectrum|Spectral Radius Formula]]
 
 **2.1 Holomorphic Functional Calculus**
-
+1. [[Holomorphic Function]]
 ---
 ##### 3. The Guelfand Representations
 **3.1 Regular Ideals**

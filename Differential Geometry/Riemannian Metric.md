@@ -3,7 +3,7 @@
 > [!definition]
 > Let $M$ be a [[smooth manifold]]. A ***Riemannian metric*** $g$ on $M$ is a smooth family of [[Inner Product Space|inner products]] on the [[Tangent Space|tangent spaces]] of $M$. Namely, 
 > 1. $g$ associates to each $p\in M$ a symmetric positive definite bilinear form $g_{p}:T_{p}M\times T_{p}M\to \mathbb{R}$ 
-> 2. for all [[Smooth Vector Field|smooth vector fields]] $V,W\in \Gamma(TM)$, $$\begin{array}{cccc} &{M}&\to&{\mathbb{R}}\\&{p} &\mapsto & {g_{p}(V(p),W(p))} \end{array}{}$$is smooth.
+> 2. for all [[Vector Field|smooth vector fields]] $V,W\in \Gamma(TM)$, $$\begin{array}{cccc} &{M}&\to&{\mathbb{R}}\\&{p} &\mapsto & {g_{p}(V(p),W(p))} \end{array}{}$$is smooth.
 - **Related definition**: For a chart $(U,x=(x^1,\dots,x^m))$, $$g_{ij}(p):=g_{p}\left( \left. \frac{ \partial  }{ \partial x^i }   \right|_{p},\left. \frac{ \partial  }{ \partial x^j }   \right|_{p} \right) $$are called ***metric coefficients***. Then, they're:
 	1. **symmetric**: $g_{ij}=g_{ji}$.
 	2. **positive definite**: $\sum_{i,j=1}^{m}g_{ij}v^iv^j=g(v,v)\geq 0$ where $v=\sum_{i=1}^{m}v^i \left. \frac{ \partial  }{ \partial x^i } \right|_{p}$ with equality if and only if $v=0$.

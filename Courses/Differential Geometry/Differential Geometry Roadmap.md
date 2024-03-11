@@ -32,7 +32,7 @@
 
 **2.3 The Tangent Bundle**
 1. [[Tangent Bundle]]
-2. [[Smooth Vector Field]]
+2. [[Vector Field]]
 3. [[Cotangent Space]]
 4. [[Cotangent Bundle]]
 5. [[Differential 1-Form]]
@@ -81,7 +81,7 @@
 **1.1 Introduction of Basic Notions**
 1. [[Tangent Space]]
 6. [[Differential]]
-7. [[Smooth Vector Field]]
+7. [[Vector Field]]
 8. [[Cotangent Space]]
 
 **1.2 Riemannian Metrics**
