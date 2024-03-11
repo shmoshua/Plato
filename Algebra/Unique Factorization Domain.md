@@ -86,3 +86,10 @@
 >    
 >    Since $F[X]$ is a UFD, $r=s$ and the factorizations are unique modulo unit multiplication and reordering. Therefore, $g_{i}=c_{i}h_{i}$ where $c_{i}=a_{i} / b_{i}$ for $a_{i},b_{i}\in R$. As $b_{i}g_{i}=a_{i}h_{i}$ and by uniqueness in Lemma 4, $ub_{i}=a_{i}$ for some $u\in R^{*}$ and $g_{i}=uh_{i}$, i.e. $g_{i}\sim h_{i}$ in $R[X]$.
 ---
+> [!lemma] Theorem 8 (Eisenstein Criteria)
+> Let $R$ be a unique factorization domain with $F:=\text{Quot}(R)$ and let: $$f(x)=a_{n}x^n+\dots+a_{1}x+a_{0}\in R[X]$$If $p$ is [[Integral Domain|prime]] in $R$ s.t. 
+> 1. $p|a_{i}$ for all $0\leq i<n$
+> 2. $p\nmid a_{n}$
+> 3. $p^{2}\nmid a_{0}$
+>    
+>  Then, $f$ is irreducible over $F[X]$. 
