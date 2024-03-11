@@ -313,8 +313,9 @@
   },
   "active": "c368b0f4b599c231",
   "lastOpenFiles": [
-    "Algebra/Integral Domain.md",
+    "Differential Geometry/Vector Bundle.md",
     "Algebra/Unique Factorization Domain.md",
+    "Algebra/Integral Domain.md",
     "Algebra/Principal Ideal Domain.md",
     "Differential Geometry/Vector Field.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
@@ -322,7 +323,6 @@
     "Algebra/Field.md",
     "Algebra/Polynomial Ring.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Vector Bundle.md",
     "Differential Geometry/Section.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Differential k-Form.md",

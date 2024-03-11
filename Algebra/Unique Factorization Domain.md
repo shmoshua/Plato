@@ -93,3 +93,12 @@
 > 3. $p^{2}\nmid a_{0}$
 >    
 >  Then, $f$ is irreducible over $F[X]$. 
+
+> [!proof]-
+> If we define $f$ with its content, then $f=cf'$ and the assertion is valid for $f'$ as well, as $p\nmid a_{n}$ and therefore $p \nmid c$. Therefore, wlog we may assume that $f$ is primitive.
+> 
+> Assume $f$ is reducible, i.e. $f=gh$ with $g(x)=b_{0}+b_{1}x+\dots+b_{r}x^r$ and $h(x)=c_{0}+c_{1}x+\dots+c_{s}x^s$. If $r=0$ or $s=0$, then as $f$ is primitive, $b_{0}$ or $c_{0}$ is a unit. Therefore, we can assume that $r,s\geq 1$. 
+> 
+> From $p|a_{0}=b_{0}c_{0}$ and $p^{2}\nmid a_{0}=b_{0}c_{0}$, we have that $p$ divides either $b_{0}$ or $c_{0}$ but not both. Assume $p|b_{0}$ and $p\nmid c_{0}$. Further, as $p\nmid a_{n}=b_{r}c_{s}$, $p\nmid b_{r}$. 
+> 
+> Now, let $i$ be the smallest index s.t. $p\nmid b_{i}$ where $1\leq i\leq r<n$. Then, consider: $$a_{i}=b_{0}c_{i}+b_{1}c_{i-1}+\dots+b_{i-1}c_{1}+b_{i}c_{0}$$Then, as $p|a_{i}$ and $p|b_{j}c_{i-j}$ for all $j<i$, $p|b_{i}c_{0}$ and $p|c_{0}$ which is a contradiction.
