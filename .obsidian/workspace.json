@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Vector Bundle.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "8716cb8c6f1c4ea6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Section.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -44,6 +57,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "227f4652c6a04865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -67,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential 1-Form.md",
+                "file": "Differential Geometry/Vector Bundle.md",
                 "mode": "preview",
                 "source": false
               }
@@ -98,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
+                "file": "Differential Geometry/Vector Bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
+                "file": "Differential Geometry/Vector Bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md"
+                "file": "Differential Geometry/Vector Bundle.md"
               }
             }
           }
@@ -226,13 +251,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c81d888a70f9d7d8",
+  "active": "2e36f9b498df9ba1",
   "lastOpenFiles": [
+    "Differential Geometry/Section.md",
+    "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Vector Bundle.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Cotangent Space.md",
-    "Differential Geometry/Vector Field.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
@@ -252,8 +279,6 @@
     "Differential Geometry/Exterior Algebra.md",
     "Topology/Interior and Closure.md",
     "Topology/Fundamental System.md",
-    "Differential Geometry/Exterior Derivative.md",
-    "Differential Geometry/Regular Domain.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
