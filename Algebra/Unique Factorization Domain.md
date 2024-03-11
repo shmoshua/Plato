@@ -56,6 +56,9 @@
 ---
 > [!lemma] Lemma 5 (Gauss' Lemma)
 > Let $R$ be a unique factorization domain. Then, the product of two primitive polynomials in $R[X]$ is primitive.
+
+> [!proof]+
+> Let $f(X)=a_{0}+a_{1}X+\dots +a_{n}X^n$ and $g(X)=b_{0}+b_{1}X+\dots+b_{m}X^m$ for $a_{n},b_{m}\neq 0$ be two primitives. Let $$h(X):=f(X)g(X)=c_{0}+c_{1}X+\dots+c_{m+n}X^{m+n}$$
 ---
 > [!lemma] Lemma 4
 > Let $R$ be an integral domain. Then, $R$ is a unique factorization domain if and only if $R[X]$ is a unique factorization domain.

@@ -23,4 +23,4 @@
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
 2. [[Courses/Algebra II/Exercise Sheet 1|Exercise Sheet 1]]
-3. 
+3. [[Courses/Algebra II/Exercise Sheet 2|Exercise Sheet 2]]

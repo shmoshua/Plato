@@ -6,9 +6,10 @@
 > 2. $\pi: E\to M$ is a surjective smooth map, called ***projection*** s.t. for each $p\in M$, the ***fiber*** of $p$, defined to be $\pi ^{-1}(p)$, has the structure of a $k$-dimensional $\mathbb{R}$-vector space. 
 > 3. **local triviality**: for all $p\in M$ there exists an open neighborhood $U\subseteq M$ of $p$ and a [[Diffeomorphism|diffeomorphism]] $\psi:\pi ^{-1}(U)\to U\times \mathbb{R}^k$ s.t. $$\psi|_{\pi ^{-1}(q)}:\pi ^{-1}(q)\to \{ q \}\times \mathbb{R}^k$$ is a linear isomorphism for all $q\in U$.
 - **Related definition**: A (smooth) ***section*** $S$ of a vector bundle $(E,\pi,M)$ is a (smooth) map $S:M\to E$ with $\pi \circ S=\text{id}_{M}$. Then, 
-	1. $\Gamma(E)$ denotes the 
+	1. $\Gamma(E)$ denotes the space of all smooth sections of $E$.
+
+- **Related definition**: A vector bundle $(E,\pi,M)$ is ***trivial*** if there is a diffeomorphism: $$\Psi: E\to M\times \mathbb{R}^k$$s.t. $\Psi|_{\pi ^{-1}(q)}$ is a linear isomorphism for all $q\in M$.
 - Remark: $(E^{*})_{p}=(E_{p})^{*}$
-- 
 ---
 ##### Properties
 > [!lemma] Lemma 1
