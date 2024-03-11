@@ -5,8 +5,10 @@
 
 
 - **Remark**: If $\gamma:(-1,1)\to M$ smooth with $\gamma(0)=p$. Then, $\gamma'(0):=\left[ \varphi, \left. \frac{d}{dt}\varphi(\gamma(t)) \right|_{t=0} \right]_{p}\in T_{p}M$.
-- **Related definition**: For a [[smooth function]] $f:M\to \mathbb{R}$ and $v=[\varphi,w]_{p}\in T_{p}M$, the ***directional derivative***  is given as:$$[x,v]_{p}f:= \left. \frac{d}{dt}(f\circ x ^{-1})(x(p)+tv) \right|_{t=0} $$This is analogous to defining $\gamma:(-1,1)\to \mathbb{R}^m,t\mapsto x(p)+tv$. 
-- **Related definition**: Let $\left. \frac{ \partial  }{ \partial x^i } \right|_{p}:=[x,e_{i}]_{p}\in T_{p}M$. Then, for every $[x,v]_{p}\in T_{p}M$, $$[x,v]_{p}=\sum_{i=1}^{m}v^i[x,e_{i}]_{p}=\sum_{i=1}^{m}v^i\left. \frac{ \partial  }{ \partial \varphi^i } \right|_{p}$$ where $v^i\in \mathbb{R}$ are called the ***coefficients*** of $v$ in chart $x$.
+- **Related definition**: For $v=[\varphi,w]_{p}\in \text{T}_{p}M$, the ***directional derivative***  is defined as: $$\begin{array}{cccc} {\delta_{v}:}&{C^\infty(M)}&\to&{\mathbb{R}}\\&{f} &\mapsto & {d_{p}f(v)} \end{array}{}$$ or equivalently, $\delta_{v}(f)=\left. \frac{d}{dt}(f\circ \varphi ^{-1})(\varphi(p)+tw) \right|_{t=0}$ by $\gamma:(-1,1)\to \mathbb{R}^m,t\mapsto \varphi(p)+tw$. 
+- **Remark**: Due to the isomorphism $\text{T}_{p}M\ni v\mapsto \delta_{v}\in \text{Der}_{p}C^\infty(M)$ (cf. [[Derivation|Theorem 3]]), one also denotes $vf:=\delta_{v}f$. Then, we use $\delta_{v}\ \tilde{\in}\ \text{T}_{p}M$.
+- **Related definition**: For a chart $(U,\varphi)$ on $M$, we have: $$\left. \frac{ \partial  }{ \partial x^i } \right|_{p}:=\left. \frac{ \partial  }{ \partial \varphi^i } \right|_{p}:=\delta _{[\varphi,e_{i}]}\ \tilde{\in}\ \text{T}_{p}M$$Then, for any $v=[\varphi,(v^1,\dots,v^m)]_{p}\in \text{T}_{p}M$:$$\delta_{v}=\sum_{i=1}^mv^i\delta_{[\varphi,e_{i}]}=\sum_{i=1}^mv^i \left. \frac{ \partial  }{ \partial x^i } \right|_{p}\ \tilde{\in}\ \text{T}_{p}M$$
+	where $v^i\in \mathbb{R}$ are called the ***coefficients*** of $v$ in chart $\varphi$.
 ---
 ##### Properties
 > [!lemma] Lemma 1
