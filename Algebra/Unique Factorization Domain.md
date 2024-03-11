@@ -77,8 +77,12 @@
 > [!lemma] Lemma 7
 > Let $R$ be an integral domain. Then, $R$ is a unique factorization domain if and only if $R[X]$ is a unique factorization domain.
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. Since $R[X]$ is a UFD, the constant polynomials have to be factored uniquely. However, due to degree concerns, the factorization in $R[X]$ is a factorization in $R$.
-> 2. Let $R$ be a UFD and let $f\in R[X]$, $f\neq 0$ and non-unit. If $\deg f=0$, we are done. Suppose $deg f$
+> 2. Let $R$ be a UFD and let $f\in R[X]$, $f\neq 0$ and non-unit. If $\deg f=0$, we are done. Suppose $\deg f>0$. Then, $f(x)\in F[X]$. As $F$ is a field $F[X]$ is a PID, hence UFD and there exists $p_{1},\dots,p_{r}\in F[X]$ irreducibles s.t. $$f(x)=p_{1}(x)\dots p_{r}(x)$$Therefore, there exists $d\in R$ and $q_{1},\dots,q_{r}\in R[X]$ s.t. $$df(x)=q_{1}(x)\dots q_{r}(x)$$As $d$ is a unit in $F[X]$, $q_{1},\dots,q_{r}$ are irreducible in $F[X]$.  Therefore, by Lemma 4, there exists $c,c_{i}\in R$ and primitive $g,q'_{i}\in R[X]$ s.t. $$df(x)=dcg(x)=c_{1}\dots c_{r}q'_{1}(x)\dots q'_{r}(x)$$Using Gauss' lemma, there exists a unit $u\in R$ s.t. $udc=c_{1}\dots c_{r}$. Therefore, $$f(x)=cuq'_{1}(x)\dots q'_{r}(x)$$As $cu\in R$ and $R$ is a UFD, $f(x)$ can be factorized into irreducibles. 
+>    
+>    For uniqueness, we may assume wlog that $f$ is primitive. Otherwise $f=cg$ where $c$ has a unique factorization and $g$ is primitive. Let $f=g_{1}\dots g_{r}=h_{1}\dots h_{s}$ with each irreducible in $R[X]$. As $c(f)=1$, $c(g_{i})=c(h_{j})=1$. By Proposition 6, they are also irreducible in $F[X]$. 
+>    
+>    Since $F[X]$ is a UFD, $r=s$ and the factorizations are unique modulo unit multiplication and reordering. Therefore, $g_{i}=c_{i}h_{i}$ where $c_{i}=a_{i} / b_{i}$ for $a_{i},b_{i}\in R$. As $b_{i}g_{i}=a_{i}h_{i}$ and by uniqueness in Lemma 4, $ub_{i}=a_{i}$ for some $u\in R^{*}$ and $g_{i}=uh_{i}$, i.e. $g_{i}\sim h_{i}$ in $R[X]$.
 ---
