@@ -31,6 +31,24 @@
 > [!proof]-
 > We have that: $$(\|x\|')^{2}=\|x x^{*}\|'=\|x x^{*}\|_{\text{sp}}=\|x x^{*}\|=(\|x\|)^{2}$$
 ---
+> [!lemma] Proposition 4
+> Let $A$ be a non-unital $C^{*}$-algebra. Then, there is a $C^{*}$-algebra norm on $A_{I}$ extending the one on $A$.
+
+> [!proof]+
+> We will identify $A\to A_{I},x \mapsto (x,0)$ and with $e=(0,1)$, we will write $z\in A_{I}$ as $z=x+\lambda e$. Observe that $A$ is an ideal in $A_{I}$. Therefore, for:$$\begin{array}{cccc} {L_{z}:}&{A}&\to&{A}\\&{x} &\mapsto & {zx} \end{array}{}$$it holds that $L_{z}\in\mathcal{B}(A)$ and $A_{I}\to \mathcal{B}(A),z\mapsto L_{z}$ is a $\mathbb{C}$-algebra homomorphism. Now, let $N(z):=\|L_{z}\|$. Then, 
+> 1. $N(z_{1}+z_{2})=\left\| L_{z_{1}+z_{2}} \right\|=\left\| L_{z_{1}}+L_{z_{2}} \right\|\leq \left\| L_{z_{1}} \right\|+\left\| L_{z_{2}} \right\|=N(z_{1})+N(z_{2})$
+> 2. $N(z_{1}z_{2})=\left\| L_{z_{1}z_{2}} \right\|=\left\| L_{z_{1}}\circ L_{z_{2}} \right\|\leq \left\| L_{z_{1}} \right\|\left\| L_{z_{2}} \right\|$
+> 3. $N(z)=\|L_{z}\|=\sup_{x\in A:\|x\|\leq 1}\left\| zx \right\|$
+> 
+> Then, we have: 
+> 1. **Showing $N:A_{I}\to[0,+\infty)$ extends $\|\cdot\|$ on $A$**: 
+>    For $z\in A$, $$N(z)=\sup_{\|x\|\leq 1}\|zx\|\leq\|z\|$$However, for $z\neq0$, $$\left\| L_{z}\left(  \frac{z^{*}}{\|z\|} \right) \right\| =\frac{\left\| zz^{*} \right\|}{\|z\|}=\frac{\|z\|^{2} }{\|z\|}=\|z\|$$Therefore, $N(z)=\|z\|$.
+> 2. **Showing positive definiteness of $N$**:
+> 	We assume that $z=x+\lambda e$ with $x\in A$ and $\lambda\neq 0$. Assume that $N(z)=0$. Then, $L_{z}(y)=zy=0$ for any $y\in A$ and $(x+\lambda e)y=0$, i.e. $y=(-x / \lambda)y$.
+> 	
+> 	Then, there exists $u\in A$ s.t. $y=u y$ for all $y\in A$ and $A$ has an identity $u$, which is a contradiction. Therefore, $z\in A$ and from $0=N(z)=\|z\|$, $z=0$.
+>3. The involution $x+\lambda e\mapsto x^{*}+\overline{\lambda}e$ satisfies the properties of 
+---
 ##### Examples
 > [!h] Example 0
 > Let $A$ be an involutive Banach algebra. We have that $A_{I}$ is an involutive Banach algebra with$$(x,\lambda)^{*}:=(x^{*},\overline{\lambda})$$
