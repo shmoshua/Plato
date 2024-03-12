@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "source",
                 "source": true
               }
@@ -99,24 +99,12 @@
             }
           },
           {
-            "id": "3b2a2f213e5838c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c368b0f4b599c231",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "preview",
                 "source": false
               }
@@ -183,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md"
+                "file": "Algebra/Polynomial Ring.md"
               }
             }
           }
@@ -313,15 +301,16 @@
   },
   "active": "c368b0f4b599c231",
   "lastOpenFiles": [
-    "Differential Geometry/Vector Bundle.md",
-    "Algebra/Unique Factorization Domain.md",
-    "Algebra/Integral Domain.md",
+    "Algebra/Polynomial ring over Z.md",
+    "Algebra/Polynomial Ring.md",
+    "Courses/Algebra II/Exercise Sheet 2.md",
     "Algebra/Principal Ideal Domain.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Differential Geometry/Vector Bundle.md",
+    "Algebra/Integral Domain.md",
     "Differential Geometry/Vector Field.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Courses/Algebra II/Exercise Sheet 2.md",
     "Algebra/Field.md",
-    "Algebra/Polynomial Ring.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Section.md",
     "Differential Geometry/Cotangent Space.md",
@@ -338,7 +327,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
-    "Courses/Topology/Exercise Sheet 2.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

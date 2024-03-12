@@ -109,3 +109,6 @@
 ---
 > [!h] Example 2
 > The $p$-th cyclotomic polynomial is defined as: $$\Phi_{p}(x):=\frac{x^p-1}{x-1}=x^{p-1}+x^{p-2}+\dots+x+1$$Then, $\Phi_{p}(x)$ is irreducible in $\mathbb{Z}[X]$. 
+
+> [!proof]-
+> Using Eisenstein on $\Phi_{p}(x+1)$, we get: $$\Phi_{p}(x+1)=\frac{(x+1)^p-1}{x}=x^{p-1}+px^{p-2}+\dots{p\choose i}x^{i-1}+\dots+p$$and by using Eisenstein with $p$. 
