@@ -39,7 +39,7 @@
               "state": {
                 "file": "Courses/Analysis IV/Exercise Sheet 2.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unit.md",
+                "file": "Analysis/Inner Product Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -299,23 +299,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8716cb8c6f1c4ea6",
+  "active": "f5f7eeefc1b6dbc8",
   "lastOpenFiles": [
+    "Analysis/Inner Product Space.md",
+    "Analysis/Norm.md",
+    "Courses/Analysis IV/Exercise Sheet 2.md",
+    "Algebra/Unit.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Courses/Analysis IV/Exercise Sheet 2.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Coprime Ideal.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Polynomial Ring.md",
-    "Algebra/Unit.md",
     "Algebra/Unique Factorization Domain.md",
     "Differential Geometry/Differential k-Form.md",
     "Algebra/Integral Domain.md",
     "Algebra/Euclidean Domain.md",
-    "Analysis/Norm.md",
     "Differential Geometry/Vector Bundle.md",
     "Differential Geometry/Cotangent Space.md",
     "Algebra/Polynomial ring over Z.md",
@@ -326,7 +327,6 @@
     "Analysis/Functional Analysis/Spectrum.md",
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Tangent Space.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
