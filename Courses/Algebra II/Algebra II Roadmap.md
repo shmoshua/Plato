@@ -18,7 +18,9 @@
 4. [[Unique Factorization Domain]]
 5. [[Field]] and $F[X]$.
 6. [[Polynomial Ring|Content]]
-7. 
+---
+##### 2. Fields and Field Extensions
+
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
