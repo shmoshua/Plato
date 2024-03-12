@@ -29,6 +29,4 @@ Notice that:
 > 3. Show that the only units in $\mathbb{Z}[\sqrt{ -2 }]$s are $\pm 1$.
 
 We have:
-1. Let $a+b \sqrt{ -2 }, c+d \sqrt{ -2 }\in R$ be non-zero. 
-	$$(p+q \sqrt{ -2 })(c+d \sqrt{ -2 })=(pc-2qd)+(pd+qc)\sqrt{ -2 }$$
-	Therefore, 
+1. Let $a+b \sqrt{ -2 }, c+d \sqrt{ -2 }\in R$ be non-zero. Then, in $\mathbb{Q}[\sqrt{ -2 }]$, $$\frac{a+ b\sqrt{ -2 }}{c+d\sqrt{ -2 }}= \underbrace{ \frac{ac+2bd}{N(c+d\sqrt{ -2 })} }_{ =:p_{1} }+\underbrace{ \frac{bc-ad}{N(c+d\sqrt{ -2 })} }_{ =:p_{2} }\sqrt{ -2 }$$Now, let $q_{1},q_{2}\in \mathbb{Z}$ be the integers closest to $p_{1}$ and $p_{2}$, respectively. 

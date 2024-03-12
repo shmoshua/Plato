@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Courses/Algebra II/Exercise Sheet 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Courses/Algebra II/Exercise Sheet 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Integral Domain.md"
+                "file": "Courses/Algebra II/Exercise Sheet 2.md"
               }
             }
           }
@@ -287,19 +287,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2bb57930fe30e2c2",
+  "active": "6232b2d5375043c6",
   "lastOpenFiles": [
-    "Algebra/Unique Factorization Domain.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Integral Domain.md",
-    "Differential Geometry/Differential k-Form.md",
-    "Algebra/Euclidean Domain.md",
-    "Algebra/Polynomial Ring.md",
-    "Analysis/Norm.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Euclidean Domain.md",
+    "Differential Geometry/Differential k-Form.md",
+    "Analysis/Norm.md",
     "Differential Geometry/Vector Bundle.md",
     "Algebra/Prime Ideal.md",
     "Differential Geometry/Cotangent Space.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Polynomial ring over Z.md",
     "Algebra/Principal Ideal Domain.md",
     "Differential Geometry/Vector Field.md",
