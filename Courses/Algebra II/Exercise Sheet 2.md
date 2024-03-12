@@ -36,8 +36,9 @@ We have:
 > [!def] Problem 4
 > The goal of this exercise is to show that the only integral solutions of the diophantine equation $y^{2}=x^{3}-2$ are $(x,y)=(3,5)$ and $(3,-5)$.
 > 1. Show that if $x,y\in \mathbb{Z}$ satisfy $y^{2}=x^{3}-2$ then $x$ is odd.
-> 2. Show that if $x,y\in \mathbb{Z}$ satisfy$y^{2}=x^{3}-2$ then $y+\sqrt{ -2 }$ and $y-\sqrt{ -2 }$ are relatively prime over $\mathbb{Z}[\sqrt{ -2 }]$.
+> 2. Show that if $x,y\in \mathbb{Z}$ satisfy $y^{2}=x^{3}-2$ then $y+\sqrt{ -2 }$ and $y-\sqrt{ -2 }$ are relatively prime over $\mathbb{Z}[\sqrt{ -2 }]$.
 > 3. Write $x^3=y^{2}+2=(y+\sqrt{ -2 })(y-\sqrt{ -2 })$ to write $(y+\sqrt{ -2 })=(a+b \sqrt{ -2 })^3$ and conclude that only solutions are $(x,y)=(3,5)$ and $(3,-5)$.
 
 We have:
-1. Assume $x=2k$ is even with $k\in\mathbb{Z}$. Then, 
+1. Assume $x=2k$ is even with $k\in\mathbb{Z}$. Then, $y^{2}=2(4k^{3} -1)$ and $2|y$. Indeed, it follows that $4|y^{2}$ which is a contradiction as $2\nmid (4k^3-1)$ (as it is odd).
+2. Let $y+\sqrt{ -2 }$ and $y-\sqrt{ -2 }$ not be relatively prime. Then, for any $a_{1},a_{2},b_{1},b_{2}\in \mathbb{Z}$: $$\begin{align}(a_{1}+a_{2}\sqrt{ -2 })(y+\sqrt{ -2 })+(b_{1}+b_{2}\sqrt{ -2 })(y-\sqrt{ -2 })&\neq 1\\((a_{1}+b_{1})y-2(a_{2}-b_{2}))+((a_{1}-b_{1})+(a_{2}+b_{2})y)\sqrt{ -2 }&\neq 1\\(a_{1}+b_{1})^{2}y^{2}-4(a_{1}+b_{1})(a_{2}-b_{2})+4(a_{2}-b_{2})^{2}+2(a_{1}+b_{1})^{2}-8a_{1}b_{1}+4(a_{1}-b_{1})(a_{2}+b_{2})y+2(a_{2}+b_{2})^{2}y^{2}\sqrt{ -2 }&\neq 1\end{align}$$
