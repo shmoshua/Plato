@@ -22,3 +22,13 @@ Notice that:
 1. $X^{2}+5$ is irreducible in $\mathbb{Q}[X]$ by Eisenstein. As $X^{2}+5$ is also primitive, it is irreducible in $\mathbb{Z}[X]$. As $\mathbb{Z}[X]$ is a UFD, $(X^{2}+5)$ is prime and $R$ is an integral domain.
 2. We have: $(X+1)(X-1)=6=2\cdot{3}$.
 ---
+> [!def] Problem 3
+> Consider the ring $R:=\mathbb{Z}[\sqrt{ -2 }]$.
+> 1. Show that $R$ is a Euclidean domain with the norm function: $$\begin{array}{cccc} {N:}&{R}&\to&{\mathbb{Z}_{\geq 0}}\\&{a+ b\sqrt{ -2 }} &\mapsto & {a^{2}+2 b ^{2}} \end{array}{}$$
+> 2. Show that the norm $N$ is multiplicative and hence if $r|s$ in $\mathbb{Z}[\sqrt{ -2 }]$, then $N(r)$ divides $N(s)$.
+> 3. Show that the only units in $\mathbb{Z}[\sqrt{ -2 }]$s are $\pm 1$.
+
+We have:
+1. Let $a+b \sqrt{ -2 }, c+d \sqrt{ -2 }\in R$ be non-zero. 
+	$$(p+q \sqrt{ -2 })(c+d \sqrt{ -2 })=(pc-2qd)+(pd+qc)\sqrt{ -2 }$$
+	Therefore, 

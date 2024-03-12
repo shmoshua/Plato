@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Bundle.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -152,14 +152,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Norm.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md",
+                "file": "Algebra/Integral Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md",
+                "file": "Algebra/Integral Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md"
+                "file": "Algebra/Integral Domain.md"
               }
             }
           }
@@ -287,23 +287,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6232b2d5375043c6",
+  "active": "2bb57930fe30e2c2",
   "lastOpenFiles": [
-    "Algebra/Polynomial Ring.md",
     "Algebra/Unique Factorization Domain.md",
-    "Algebra/Prime Ideal.md",
-    "Courses/Algebra II/Exercise Sheet 2.md",
-    "Differential Geometry/Cotangent Space.md",
     "Algebra/Integral Domain.md",
+    "Differential Geometry/Differential k-Form.md",
+    "Algebra/Euclidean Domain.md",
+    "Algebra/Polynomial Ring.md",
+    "Analysis/Norm.md",
+    "Courses/Algebra II/Exercise Sheet 2.md",
+    "Differential Geometry/Vector Bundle.md",
+    "Algebra/Prime Ideal.md",
+    "Differential Geometry/Cotangent Space.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Polynomial ring over Z.md",
     "Algebra/Principal Ideal Domain.md",
-    "Differential Geometry/Vector Bundle.md",
     "Differential Geometry/Vector Field.md",
     "Algebra/Field.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Section.md",
-    "Differential Geometry/Differential k-Form.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Tangent Space.md",
@@ -312,9 +314,7 @@
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Analysis/Functional Analysis/Holomorphic Function.md",
     "Analysis/Functional Analysis/C-Algebra.md",
-    "Analysis/Norm.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
-    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
