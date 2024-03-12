@@ -26,7 +26,18 @@ Notice that:
 > Consider the ring $R:=\mathbb{Z}[\sqrt{ -2 }]$.
 > 1. Show that $R$ is a Euclidean domain with the norm function: $$\begin{array}{cccc} {N:}&{R}&\to&{\mathbb{Z}_{\geq 0}}\\&{a+ b\sqrt{ -2 }} &\mapsto & {a^{2}+2 b ^{2}} \end{array}{}$$
 > 2. Show that the norm $N$ is multiplicative and hence if $r|s$ in $\mathbb{Z}[\sqrt{ -2 }]$, then $N(r)$ divides $N(s)$.
-> 3. Show that the only units in $\mathbb{Z}[\sqrt{ -2 }]$s are $\pm 1$.
+> 3. Show that the only units in $\mathbb{Z}[\sqrt{ -2 }]$ are $\pm 1$.
 
 We have:
-1. Let $a+b \sqrt{ -2 }, c+d \sqrt{ -2 }\in R$ be non-zero. Then, in $\mathbb{Q}[\sqrt{ -2 }]$, $$\frac{a+ b\sqrt{ -2 }}{c+d\sqrt{ -2 }}= \underbrace{ \frac{ac+2bd}{N(c+d\sqrt{ -2 })} }_{ =:p_{1} }+\underbrace{ \frac{bc-ad}{N(c+d\sqrt{ -2 })} }_{ =:p_{2} }\sqrt{ -2 }$$Now, let $q_{1},q_{2}\in \mathbb{Z}$ be the integers closest to $p_{1}$ and $p_{2}$, respectively. 
+1. Let $a,b\in R$ non-zero. Then, in $\mathbb{Q}[\sqrt{ -2 }]$, we have $p_{1},p_{2}\in \mathbb{Q}$ s.t.  $$\frac{a}{b}=p_{1}+p_{2}\sqrt{ 2 }$$Now, let $q_{1},q_{2}\in \mathbb{Z}$ be integers closest to $p_{1}$ and $p_{2}$, respectively. Then, we define $q:=q_{1}+q_{2}\sqrt{ -2 }$ and $\theta:= \frac{a}{b}-q$. Therefore, we get: $$a=qb+b\theta$$We are left to show that if $b\theta\neq0$ then $N(b\theta)<N(b)$. Notice that from the definition of $q$, $$N(\theta)\leq \frac{1}{4}+\frac{2}{4}=\frac{3}{4}$$From the multiplicativity of $N$ (shown in part b), we have $N(b\theta)\leq \frac{3}{4}N(b)<N(b)$.
+2. Let $a:=a_{1}+a_{2}\sqrt{ -2 }$ and $b:=b_{1}+b_{2}\sqrt{ -2 }$ for $a,b\in \mathbb{Z}[\sqrt{ -2 }]$. Then, $$\begin{align}N(ab)&=(a_{1}b_{1}-2a_{2}b_{2})^{2}+2(a_{1}b_{2}+b_{1}a_{2})^{2}\\&=a_{1}^{2}b_{1}^{2}\cancel{ -4a_{1}a_{2}b_{1}b_{2} }+4a_{2}^{2}b_{2}^{2}+2a_{1}^{2}b_{2}^{2}+\cancel{ 4a_{1}a_{2}b_{1}b_{2} }+2a_{2}^{2}b_{1}^{2}\\&=(a_{1}^{2}+2a^{2}_{2})(b_{1}^{2}+2b_{2}^{2})\\&=N(a)N(b)\end{align}$$Let $r|s$ then there exists $x\in \mathbb{Z}[\sqrt{ -2 }]$ s.t. $rx=s$. Therefore, $N(r)N(x)=N(s)$ and $N(r)|N(s)$.
+3. Let $a$ be a unit. Then, there exists $b\in \mathbb{R}$ s.t. $N(a)N(b)=1$. As $N(R)\subseteq\mathbb{Z}_{\geq 0}$, $N(a)=1$.  This is equivalent to $a=\pm 1$.
+---
+> [!def] Problem 4
+> The goal of this exercise is to show that the only integral solutions of the diophantine equation $y^{2}=x^{3}-2$ are $(x,y)=(3,5)$ and $(3,-5)$.
+> 1. Show that if $x,y\in \mathbb{Z}$ satisfy $y^{2}=x^{3}-2$ then $x$ is odd.
+> 2. Show that if $x,y\in \mathbb{Z}$ satisfy$y^{2}=x^{3}-2$ then $y+\sqrt{ -2 }$ and $y-\sqrt{ -2 }$ are relatively prime over $\mathbb{Z}[\sqrt{ -2 }]$.
+> 3. Write $x^3=y^{2}+2=(y+\sqrt{ -2 })(y-\sqrt{ -2 })$ to write $(y+\sqrt{ -2 })=(a+b \sqrt{ -2 })^3$ and conclude that only solutions are $(x,y)=(3,5)$ and $(3,-5)$.
+
+We have:
+1. Assume $x=2k$ is even with $k\in\mathbb{Z}$. Then, 
