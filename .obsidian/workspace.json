@@ -111,18 +111,6 @@
             }
           },
           {
-            "id": "227f4652c6a04865",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Prime Ideal.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c81d888a70f9d7d8",
             "type": "leaf",
             "state": {
@@ -171,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -237,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Courses/Algebra II/Exercise Sheet 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Courses/Algebra II/Exercise Sheet 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md"
+                "file": "Courses/Algebra II/Exercise Sheet 2.md"
               }
             }
           }
@@ -299,11 +287,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c81d888a70f9d7d8",
+  "active": "6232b2d5375043c6",
   "lastOpenFiles": [
-    "Algebra/Prime Ideal.md",
-    "Algebra/Unique Factorization Domain.md",
     "Algebra/Polynomial Ring.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Prime Ideal.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
     "Differential Geometry/Cotangent Space.md",
     "Algebra/Integral Domain.md",

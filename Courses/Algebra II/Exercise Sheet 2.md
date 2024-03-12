@@ -17,3 +17,8 @@ We have that:
 > Consider the ring $R:=\mathbb{Z}[X] / (X^{2}+5)$.
 > 1. Show that $R$ is an integral domain.
 > 2. Show that $R$ is not a unique factorization domain.
+
+Notice that:
+1. $X^{2}+5$ is irreducible in $\mathbb{Q}[X]$ by Eisenstein. As $X^{2}+5$ is also primitive, it is irreducible in $\mathbb{Z}[X]$. As $\mathbb{Z}[X]$ is a UFD, $(X^{2}+5)$ is prime and $R$ is an integral domain.
+2. We have: $(X+1)(X-1)=6=2\cdot{3}$.
+---
