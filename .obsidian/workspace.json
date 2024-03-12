@@ -37,21 +37,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bb3cda439267f439",
+            "id": "e5c8af4961787e2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -92,7 +92,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5f7eeefc1b6dbc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Analysis IV/Exercise Sheet 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -159,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -205,8 +217,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -226,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md"
+                "file": "Courses/Analysis IV/Exercise Sheet 2.md"
               }
             }
           }
@@ -288,10 +299,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6232b2d5375043c6",
+  "active": "8716cb8c6f1c4ea6",
   "lastOpenFiles": [
-    "Algebra/Coprime Ideal.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Courses/Analysis IV/Exercise Sheet 2.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Coprime Ideal.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Polynomial Ring.md",
@@ -300,7 +315,6 @@
     "Differential Geometry/Differential k-Form.md",
     "Algebra/Integral Domain.md",
     "Algebra/Euclidean Domain.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Analysis/Norm.md",
     "Differential Geometry/Vector Bundle.md",
     "Differential Geometry/Cotangent Space.md",
@@ -313,9 +327,6 @@
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Tangent Space.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
-    "Analysis/Functional Analysis/Holomorphic Function.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
