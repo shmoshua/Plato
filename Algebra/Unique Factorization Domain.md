@@ -102,3 +102,10 @@
 > From $p|a_{0}=b_{0}c_{0}$ and $p^{2}\nmid a_{0}=b_{0}c_{0}$, we have that $p$ divides either $b_{0}$ or $c_{0}$ but not both. Assume $p|b_{0}$ and $p\nmid c_{0}$. Further, as $p\nmid a_{n}=b_{r}c_{s}$, $p\nmid b_{r}$. 
 > 
 > Now, let $i$ be the smallest index s.t. $p\nmid b_{i}$ where $1\leq i\leq r<n$. Then, consider: $$a_{i}=b_{0}c_{i}+b_{1}c_{i-1}+\dots+b_{i-1}c_{1}+b_{i}c_{0}$$Then, as $p|a_{i}$ and $p|b_{j}c_{i-j}$ for all $j<i$, $p|b_{i}c_{0}$ and $p|c_{0}$ which is a contradiction.
+---
+##### Examples
+> [!h] Example 1
+> For a primitive $f\in \mathbb{Z}[X]$ and $a\in \mathbb{Z}$, $f$ is irreducible in $\mathbb{Z}[X]$ if and only if $f(x+a)$ is irreducible in $\mathbb{Z}[X].$
+---
+> [!h] Example 2
+> The $p$-th cyclotomic polynomial is defined as: $$\Phi_{p}(x):=\frac{x^p-1}{x-1}=x^{p-1}+x^{p-2}+\dots+x+1$$Then, $\Phi_{p}(x)$ is irreducible in $\mathbb{Z}[X]$. 
