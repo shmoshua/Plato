@@ -13,50 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Metric Space.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "de056ff910b5a69f",
+            "id": "6ea17b87ad6bc4ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3887327c475bfc81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 3.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5f4c33655f7b494e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Topology/Filter.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -68,158 +44,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "6232b2d5375043c6",
+            "id": "438c9bb8da75d244",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Filter.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "94f170bcd5c8cc6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53d77ee9d5b94155",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 3.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d2e7c2324ccf1e6",
+            "id": "f29e294fdfa2b1fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Topology/Compact Metric Space.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc2792bf6133af59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Compact Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96109cd5a63718ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Interior and Closure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "324db2dab32cf632",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Convergence of Sequences.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "935dabf304fdb469",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Interior and Closure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c368b0f4b599c231",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Fundamental System.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c81d888a70f9d7d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bb57930fe30e2c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8222a07d95c914a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Coprime Ideal.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -285,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 3.md",
+                "file": "Topology/Filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 3.md",
+                "file": "Topology/Filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 3.md"
+                "file": "Topology/Filter.md"
               }
             }
           }
@@ -347,19 +203,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "53d77ee9d5b94155",
+  "active": "438c9bb8da75d244",
   "lastOpenFiles": [
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Courses/Topology/Exercise Sheet 3.md",
-    "Topology/Compact sets.md",
     "Topology/Compact Metric Space.md",
+    "Topology/Filter.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Topology/Compact sets.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Compact Space.md",
-    "Topology/Filter.md",
     "Topology/Interior and Closure.md",
     "Topology/Fundamental System.md",
     "Differential Geometry/Vector Field.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Polynomial Ring.md",
     "Analysis/Inner Product Space.md",
     "Topology/Closure.md",
@@ -370,7 +227,6 @@
     "Analysis/Norm.md",
     "Algebra/Unit.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Coprime Ideal.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Principal Ideal Domain.md",

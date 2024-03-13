@@ -1,4 +1,4 @@
-**#FunctionalAnalysis #Roadmap 
+#FunctionalAnalysis #Roadmap 
 
 ##### 1. Banach Algebras: Definitions and Examples
 1. [[C-Algebra|$\mathbb{C}$-algebra]] and [[Ideal]]
