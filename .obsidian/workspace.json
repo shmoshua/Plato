@@ -49,9 +49,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact sets.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -93,7 +93,7 @@
               "type": "markdown",
               "state": {
                 "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -347,15 +347,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "53d77ee9d5b94155",
+  "active": "3887327c475bfc81",
   "lastOpenFiles": [
     "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 3.md",
+    "Topology/Compact sets.md",
     "Topology/Compact Metric Space.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Compact Space.md",
     "Topology/Filter.md",
-    "Topology/Compact sets.md",
     "Topology/Interior and Closure.md",
     "Topology/Fundamental System.md",
     "Differential Geometry/Vector Field.md",
