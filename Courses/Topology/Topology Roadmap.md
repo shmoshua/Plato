@@ -27,23 +27,25 @@
 
 **1.6 Topological Groups**
 1. [[Topological Group]]
----
-##### 2. Basis and Fundamental Systems
+
+**1.7 Basis and Fundamental Systems**
 1. [[Basis of a Topology]]
 2. [[Fundamental System]]
----
-##### 3. Closure, Interior, Boundary
+
+**1.8 Closure, Interior, Boundary**
 1. [[Interior and Closure]]
 2. [[Closure]]
----
-##### 4. Limits and Convergence
+
+**1.9 Limits and Convergence**
 1. [[Convergence of Sequences]]
 2. [[Topology of Pointwise and Uniform Convergence]]
 3. [[Hausdorff Space]]
----
-##### 5. Filters
+
+**1.10 Filters**
 1. [[Filter]]
-2. [[Filter|Convergnece in]]
+2. [[Filter|Convergence of Filters]]
+---
+##### 2. Compactness, Connectedness and Completeness
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
