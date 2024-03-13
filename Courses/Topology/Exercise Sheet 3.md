@@ -12,8 +12,8 @@ We have:
    
    For the indicator functions, $f_{S}\neq 0$ as $S\subseteq \mathbb{R}$ is finite. Therefore, $0\notin A$.  Further, for any $N\geq 1$, $(x_{n})_{n}\in \mathbb{R}^N$ and $\varepsilon>0$, define $S:=\{ x_{n} \}_{n}$ and $f_{S}(x_{n})=0$ for all $n\in [N]$. This proves the statement.
 3. Let $(f_{n})_{n}$ be a sequence of monic polynomials with real coefficients s.t. $f_{n}\to 0$ in $\mathcal{T}_{p}$, i.e. $f_{n}(x)\to 0$ for all $x\in \mathbb{R}$.
-1. 
-2. Let $(g_{t_{n}})_{n}\subseteq A$ s.t. $g_{t_{n}}\to{0}$ in $\mathcal{T}_{p}$. This means that for all $x\in \mathbb{R}$, $g_{t_{n}}(x)=x-t_{n}\to 0$, i.e. $\lim_{ n \to \infty }t_{n}=x$ for all $x\in \mathbb{R}$, which is a contradiction.
+   
+   Similarly, let $(f_{S_{n}})_{n}$ be a sequence of functions of the second kind s.t. $f_{S_{n}}(x)\to 0$. As $f_{S_{n}}(\mathbb{R})=\{ 0,1 \}$ this means that for each $x\in \mathbb{R}$, there exists $n$ s.t. $x\in S_{n}$ for all $n\geq N$. 
 ---
 > [!def] Problem 2
 > Let $X$ be the space of all functions from $\mathbb{C}$ to $\mathbb{C}$, and denote by $\mathcal{T}_{p}$ and $\mathcal{T}_{u}$ the topologies of pointwise convergence and uniform convergence, respectively. Let $A\subseteq X$ be the subset of polynomial functions $f:\mathbb{C}\to \mathbb{C}$.
