@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,13 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Topology/Fundamental System.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "c45eeefa3389e702",
@@ -79,8 +80,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "324db2dab32cf632",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Convergence of Sequences.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -91,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -103,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Topology/Fundamental System.md",
                 "mode": "preview",
                 "source": false
               }
@@ -146,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -212,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
+                "file": "Topology/Fundamental System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
+                "file": "Topology/Fundamental System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md"
+                "file": "Topology/Fundamental System.md"
               }
             }
           }
@@ -274,11 +287,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a7833fc99d403f3a",
+  "active": "5f4c33655f7b494e",
   "lastOpenFiles": [
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Courses/Analysis IV/Exercise Sheet 2.md",
+    "Algebra/Polynomial Ring.md",
+    "Topology/Fundamental System.md",
+    "Topology/Interior and Closure.md",
     "Analysis/Inner Product Space.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Closure.md",
+    "Analysis/Convergence of Sequences.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Differential Geometry/Cotangent Space.md",
+    "Courses/Analysis IV/Exercise Sheet 2.md",
     "Analysis/Norm.md",
     "Algebra/Unit.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -287,21 +307,14 @@
     "Algebra/Coprime Ideal.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Unique Factorization Domain.md",
     "Differential Geometry/Differential k-Form.md",
     "Algebra/Integral Domain.md",
     "Algebra/Euclidean Domain.md",
     "Differential Geometry/Vector Bundle.md",
-    "Differential Geometry/Cotangent Space.md",
     "Algebra/Polynomial ring over Z.md",
     "Differential Geometry/Vector Field.md",
     "Algebra/Field.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Section.md",
-    "Analysis/Functional Analysis/Spectrum.md",
-    "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Tangent Space.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

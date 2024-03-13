@@ -2,7 +2,18 @@
 
 > [!definition]
 > Let $X$ be a [[topological space]] and $x_{0}\in X$. A ***fundamental system of (open) neighborhoods*** of $x_{0}$ is a set $\mathcal{V}$ of (open) neighborhoods of $x_{0}$ s.t. 
-> 1. for every neighborhood $V$ of $x_{0}$, there exists $W\in \mathcal{V}$ with $W\subseteq V$.
+> 1. for every neighborhood $U$ of $x_{0}$, there exists $V\in \mathcal{V}$ with $V\subseteq U$.
+---
+##### Properties
+> [!lemma] Proposition 1
+> Let $X$ be a topological space and $x_{0}\in X$ with a fundamental system of neighborhoods $\mathcal{V}$ of $x_{0}$. Then,
+> 1. there exists a fundamental system of open neighborhoods $\mathcal{U}$ of $x_{0}$.
+> 2. if $\mathcal{V}$ is countable, there exists a decreasing sequence of open sets $(U_{n})_{n}$ that form a fundamental system of open neighborhoods of $x_{0}$.
+
+> [!proof]+
+> We have:
+> 1. For each $V\in \mathcal{V}$ there exists an open set $U\subseteq V$. Take $\mathcal{U}:=\{ U_{\alpha}:V_{\alpha}\in\mathcal{V},U_{\alpha}\subseteq V_{\alpha} \text{ open} \}$. Then, for any neighborhood $W$ of $x_{0}$, there exists $U\in \mathcal{U}$ with $U\subseteq V\subseteq W$.
+> 2. Let $(V_{n})_{n}$ be the countable fundamental system of open neighborhoods of $x_{0}$ from 1. Then, define $U_{n}:=\bigcap_{i=1}^{n}V_{i}$. 
 ---
 ##### Examples
 > [!h] Example 1

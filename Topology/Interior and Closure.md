@@ -15,7 +15,7 @@
 > 2. $\overline{X\backslash A}=X \backslash A^\circ$
 > 3. $\partial A= \overline{A} \backslash A^\circ$
 > 4. $x\in A^\circ$ if and only if there is an open neighborhood $U\subseteq X$ of $x$ in $A$. 
-> 5. $x\in \overline{A}$ if and only if for all neighborhood $U\subseteq X$ of $x$, $A\cap B\neq \varnothing$ 
+> 5. $x\in \overline{A}$ if and only if for all neighborhood $U\subseteq X$ of $x$, $A\cap U\neq \varnothing$ 
 > 6. $A^{\circ}=A$ if and only if $A$ is open.
 > 7. $\overline{A}=A$ if and only if $A$ is closed.
 ---
@@ -44,3 +44,12 @@
 >    Conversely, if $A^\circ \cap B^\circ$, we have that $A^\circ \cap B^\circ \subseteq A\cap B$ and $A^\circ \cap B^\circ$ is open. Therefore, $$A^\circ  \cap B^\circ  = (A^\circ  \cap B^\circ )^\circ  \subseteq (A \cap B)^\circ $$
 > 	   It follows that $(A \cap B)^\circ =A^\circ \cap B^\circ$.
 ---
+> [!lemma] Proposition 4
+> Let $X$ be a topological space and assume every $x\in X$ has a countable [[Fundamental System|fundamental system]] of (open) neighborhoods. Then, for $A\subseteq X$, the following are equivalent:
+> 1. $x\in \overline{A}$
+> 2. there exists $(x_{n})_{n}\subseteq A$ for all $n$ s.t. $x_{n}\to x$.
+
+> [!proof]+
+> We have:
+> - <=: Let $U$ be a neighborhood of $x$. Since $x_{n}\to x$, there exists $N\in \mathbb{N}$ s.t. $x_{n}\in U$ for $n\geq N$. Therefore, $x_{N}\in A \cap U$ and $x\in \overline{A}$.
+> - =>: If $x$ has a countable fundamental system of neighborhoods, there exists a
