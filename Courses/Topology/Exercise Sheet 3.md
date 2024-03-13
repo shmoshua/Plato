@@ -4,16 +4,14 @@
 > Let $X=\mathcal{F}(\mathbb{R},\mathbb{C})$ with the topology $\mathcal{T}_{p}$.
 > 1. Let $A\subseteq X$ be any subset. Show that $0\in \bar{A}$ if and only if, for any $N\geq 1$, $(x_{n})_{n}\in \mathbb{R}^N$ and $\varepsilon>0$, there exists $f\in A$ such that $\left| f(x_{n}) \right|<\varepsilon$ for all $n$.
 > 2. Let $A\subseteq X$ be the subset of monic polynomials with real coefficients. Show that $0\notin A$ and that $0\in \overline{A}$. Show that the same holds for $A$ the subset of the indicator functions of the complements of finite sets (i.e $f_{S}:=1-\chi_{S}$, with $S$ finite).
-> 3. For the sets $A$ of the previous point, show that there exists no sequence $(f_{n})_{n}\subseteq A$ s.t. $f_{n}\to 0$.
+> 3. For the set $A$ with the indicator functions, show that there exists no sequence $(f_{n})_{n}\subseteq A$ s.t. $f_{n}\to 0$.
 
 We have: 
 1. Let $0\in \overline{A}$. Then, for any neighborhood $U$ of $0$, $U\cap A\neq \varnothing$. Therefore, for any $N\geq 1$, $(x_{n})_{n}\in \mathbb{R}^N$ and $\varepsilon >0$, $\{ g\in \mathcal{F}(\mathbb{R},\mathbb{C}):\left| g(x_{n}) \right| <\varepsilon,\forall n\in [N] \}$ is an open neighborhood of $0$ and there exists $$f\in \{ g\in \mathcal{F}(\mathbb{R},\mathbb{C}):\left| g(x_{n}) \right| <\varepsilon,\forall n\in [N] \}\cap A$$Conversely, suppose for all $N\geq 1$, $(x_{n})_{n}\in \mathbb{R}^N$ and $\varepsilon>0$ there exists $f\in A$ s.t. $\left| f(x_{n}) \right|<\varepsilon$ for all $n$. Let $U$ be any neighborhood of $0$. Then, there exists $(x_{n})_{n}\in \mathbb{R}^N$ and $\varepsilon>0$ s.t. $$V:=\{ f\in \mathcal{F}(\mathbb{R},\mathbb{C}):\left| f(x_{n}) \right| <\varepsilon,\ \forall n\in [N] \}\subseteq U$$By assumption, we have $f\in V\cap A\subseteq U\cap A$. Therefore, $U\cap A\neq \varnothing$ and $0\in\overline{A}$.
 2. We know that $0$ is not monic by definition, so $0\notin A$. However, for any $N\geq 1$, $(x_{n})_{n}\in \mathbb{R}^N$ and $\varepsilon>0$, $$f(x):=\prod_{n=1}^{N}(x-x_{n})$$is a monic polynomial s.t. $\left| f(x_{n}) \right|<\varepsilon$. Therefore, from 1, $0\in \overline{A}$.
    
    For the indicator functions, $f_{S}\neq 0$ as $S\subseteq \mathbb{R}$ is finite. Therefore, $0\notin A$.  Further, for any $N\geq 1$, $(x_{n})_{n}\in \mathbb{R}^N$ and $\varepsilon>0$, define $S:=\{ x_{n} \}_{n}$ and $f_{S}(x_{n})=0$ for all $n\in [N]$. This proves the statement.
-3. Let $(f_{n})_{n}$ be a sequence of monic polynomials with real coefficients s.t. $f_{n}\to 0$ in $\mathcal{T}_{p}$, i.e. $f_{n}(x)\to 0$ for all $x\in \mathbb{R}$.
-   
-   Similarly, let $(f_{S_{n}})_{n}$ be a sequence of functions of the second kind s.t. $f_{S_{n}}(x)\to 0$. As $f_{S_{n}}(\mathbb{R})=\{ 0,1 \}$ this means that for each $x\in \mathbb{R}$, there exists $n$ s.t. $x\in S_{n}$ for all $n\geq N$. 
+3. Let $(f_{S_{n}})_{n}$ be a sequence of such indicator functions s.t. $f_{S_{n}}(x)\to 0$ where $S_{n}$ is finite for all $n$. As $f_{S_{n}}(\mathbb{R})\subseteq\{ 0,1 \}$ this means that for each $x\in \mathbb{R}$, there exists $n$ s.t. $x\in S_{n}$ for all $n\geq N$. However, from the finiteness of $S_{n}$, this means we can construct a countable sequence $(x_{n})_{n}=\mathbb{R}$, i.e. $\mathbb{R}$ is countable. Indeed, this is a contradiction. 
 ---
 > [!def] Problem 2
 > Let $X$ be the space of all functions from $\mathbb{C}$ to $\mathbb{C}$, and denote by $\mathcal{T}_{p}$ and $\mathcal{T}_{u}$ the topologies of pointwise convergence and uniform convergence, respectively. Let $A\subseteq X$ be the subset of polynomial functions $f:\mathbb{C}\to \mathbb{C}$.
