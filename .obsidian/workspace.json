@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2e36f9b498df9ba1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Filter.md",
+                "file": "Topology/Compact Metric Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3887327c475bfc81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 3.md",
                 "mode": "source",
                 "source": true
               }
@@ -47,12 +47,16 @@
             "id": "5f4c33655f7b494e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Compact sets.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -83,12 +87,36 @@
             }
           },
           {
+            "id": "53d77ee9d5b94155",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d2e7c2324ccf1e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Compact Metric Space.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cc2792bf6133af59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -245,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Courses/Topology/Exercise Sheet 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Courses/Topology/Exercise Sheet 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md"
+                "file": "Courses/Topology/Exercise Sheet 3.md"
               }
             }
           }
@@ -307,10 +335,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "cc2792bf6133af59",
+  "active": "3887327c475bfc81",
   "lastOpenFiles": [
-    "Topology/Filter.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Topology/Compact Metric Space.md",
+    "Topology/Compact Space.md",
+    "Topology/Filter.md",
+    "Topology/Compact sets.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Topology/Interior and Closure.md",
     "Topology/Fundamental System.md",
     "Differential Geometry/Vector Field.md",
@@ -330,11 +363,6 @@
     "Algebra/Prime Ideal.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Unique Factorization Domain.md",
-    "Differential Geometry/Differential k-Form.md",
-    "Algebra/Integral Domain.md",
-    "Algebra/Euclidean Domain.md",
-    "Differential Geometry/Vector Bundle.md",
-    "Algebra/Polynomial ring over Z.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

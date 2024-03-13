@@ -46,6 +46,9 @@
 2. [[Filter|Convergence of Filters]]
 ---
 ##### 2. Compactness, Connectedness and Completeness
+**2.1 Compactness**
+1. [[Compact Space]]
+1. [[Compact Metric Space]]
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
