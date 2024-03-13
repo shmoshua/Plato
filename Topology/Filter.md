@@ -20,6 +20,16 @@
 > 2. $f(x)\to y$ as $x\to x_{0}$ is equivalent to for all $\varepsilon>0$ there exists $\delta>0$ s.t. $$\|x-x_{0}\|<\delta\implies\|f(x)-y_{0}\|<\varepsilon$$Similarly, $f$ converges to $y_{0}$ along $\mathcal{F}_{x_{0}}$ if for any neighborhood $U$ of $y_{0}$, there exists a neighborhood $V$ of $x_{0}$ s.t. $f(V)\subseteq U$. As the open balls form a fundamental system of neighborhoods and the definitions coincide on the balls, we have that they are equivalent.
 - **Remark**: Filters unify all kinds of limits.
 ---
+> [!lemma] Proposition 2
+> Let $X$ be a [[topological space]] and $A\subseteq X$. For $x\in X$, the following are equivalent:
+> 1. $x\in \overline{A}$
+> 2. there exists a filter $\mathcal{F}$ on $A$ s.t. $i:A\hookrightarrow X$ converges to $x$ along $\mathcal{F}$.
+
+> [!proof]-
+> We have: 
+> 1. (2=>1): Assume $\mathcal{F}$ is such a filter. Then, for any neighborhood $U$ of $x$, there exists $V\in \mathcal{F}$ s.t. $V\subseteq U$. However, by definition $V\subseteq A$. Therefore, $V\subseteq U\cap A$ and $V\neq \varnothing$. Therefore, $x\in \overline{A}$.
+> 2. (1=>2): Let: $$\mathcal{F}:=\{ B\subseteq A: \exists U\in \mathcal{F}_{x},B=U\cap A \}$$We first show that $\mathcal{F}$ is a filter. As $U\cap A\neq \varnothing$, $\varnothing \notin \mathcal{F}$. For $B\in \mathcal{F}$, there exists $U\in \mathcal{F}_{x}$ with $U\cap A$. Then, for $B\subseteq D\subseteq A$, $D\cup U\in \mathcal{F}_{x}$ and $$(D\cup U)\cap A=D\cup B=D$$ Lastly, for $B,C\subseteq \mathcal{F}$ with $B=U\cap A$ and $C=V\cap A$, $$(U\cap V)\cap A=B\cap C$$It remains to show that $i$ converges to $x$ along $\mathcal{F}$. Let $V$ be a neighborhood of $x$. Then, $V\cap A\in \mathcal{F}$ and $f(V\cap A)=V\cap A \subseteq V$. This proves the statement.
+---
 ##### Examples
 > [!h] Example 1
 > For a [[topological space]] $X$ and $x\in X$, the set of all neighborhoods $\mathcal{F}_{x}$ of $x$ is a filter.

@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -87,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "mode": "preview",
                 "source": false
               }
@@ -244,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -284,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Filter.md"
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md"
               }
             }
           }
@@ -308,8 +309,8 @@
   },
   "active": "cc2792bf6133af59",
   "lastOpenFiles": [
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Filter.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Interior and Closure.md",
     "Topology/Fundamental System.md",
     "Differential Geometry/Vector Field.md",
