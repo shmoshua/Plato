@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "8716cb8c6f1c4ea6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 2.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "e5c8af4961787e2c",
             "type": "leaf",
             "state": {
@@ -67,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -93,18 +80,6 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5f7eeefc1b6dbc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -171,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -237,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 2.md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 2.md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 2.md"
+                "file": "Differential Geometry/Cotangent Space.md"
               }
             }
           }
@@ -299,14 +274,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f5f7eeefc1b6dbc8",
+  "active": "a7833fc99d403f3a",
   "lastOpenFiles": [
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Courses/Analysis IV/Exercise Sheet 2.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Norm.md",
-    "Courses/Analysis IV/Exercise Sheet 2.md",
     "Algebra/Unit.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Coprime Ideal.md",

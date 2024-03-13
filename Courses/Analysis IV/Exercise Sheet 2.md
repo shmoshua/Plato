@@ -8,5 +8,7 @@
 
 Determining the inner space, we can use the parallelogram identity:
 - For **B**, $$\begin{align}\|u+v\|_{B}^{2}+\|u-v\|_{B}^{2}&=\int_{0}^{1} \left| u'+v' \right| ^{2} \, dx+\int_{0}^{1} \left| u'-v' \right| ^{2} \, dx \\&=\int_{0}^{1} 2|u'|^{2}+2|v'|^{2} \, dx \\&=2(\|u\|_{B}^{2}+\|v\|_{B}^{2})\end{align}$$Therefore, it is an inner product space.
-- For **C**, consider $u: x\mapsto x$ and $v: x\mapsto 2x$. Then, $$\begin{align}\|u+v\|^{2}_{C}+\|u-v\|^2_{C}&=\left( \int_{0}^{1} 3^3  \, dx  \right)^{2/3}+\left( \int_{0}^{1} 1  \, dx  \right)^{2/3}\\&=9+1\end{align}$$and we have: $\|u\|^{2}_{C}=1$ and $\|v\|^2_{C}=4$
-- $$\begin{align}\|u+v\|_{B}^{2}+\|u-v\|_{B}^{2}&=\int_{0}^{1} \left| u'+v' \right| ^{2} \, dx+\int_{0}^{1} \left| u'-v' \right| ^{2} \, dx \\&=\int_{0}^{1} 2|u'|^{2}+2|v'|^{2} \, dx \\&=2(\|u\|_{B}^{2}+\|v\|_{B}^{2})\end{align}$$
+- For **C**, consider $u: x\mapsto x^{2}$ and $v: x\mapsto x$. Then, $$\begin{align}\|u+v\|^{2}_{C}+\|u-v\|^2_{C}&=\left( \int_{0}^{1} \left| 2x+1 \right| ^3  \, dx  \right)^{2/3}+\left( \int_{0}^{1} \left| 2x-1 \right| ^3  \, dx  \right)^{2/3}\\&=10^{2/3}+\left( \frac{1}{4} \right)^{2/3}\end{align}$$and we have: $\|u\|^{2}_{C}=\left( \int_{0}^{1} \left| 2x \right|^3 \, dx \right)^{2/3}=2^{2/3}$ and $\|v\|^2_{C}=1$. Therefore, $(V,\|\cdot\|_{C})$ is not an inner product space.
+- For **D**, we have: $$\begin{align}\|u+v\|^2_{D}+\|u-v\|^2_{D}&=\int_{0}^{1} \int_{0}^{1} \frac{\left| u(x)+v(x)-u(y)-v(y) \right|^{2}+\left| u(x)-v(x)-u(y)+v(y) \right|^{2}}{\left| x-y \right| ^{2}}  \, dx  \, dy \\&=\int_{0}^{1} \int_{0}^{1} \frac{2\left| u(x)-u(y) \right|^{2}+2\left| v(x)-v(y) \right|^{2}}{\left| x-y \right| ^{2}}  \, dx  \, dy \\&=2(\|u\|^{2}_{D}+\|v\|^2_{D})\end{align}$$ Therefore, it is an inner product space.
+
+In total, $B$ and $D$ define a norm induced by an inner product.
