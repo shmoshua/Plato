@@ -36,10 +36,13 @@
 1. [[Interior and Closure]]
 2. [[Closure]]
 ---
-##### 4 Limits and Convergence
+##### 4. Limits and Convergence
 1. [[Convergence of Sequences]]
 2. [[Topology of Pointwise and Uniform Convergence]]
 3. [[Hausdorff Space]]
+---
+##### 5. Filters
+
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]

@@ -25,21 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "source",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "e5c8af4961787e2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-                "mode": "source",
-                "source": false
               }
             }
           },
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -81,7 +69,19 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Topology/Topology Roadmap.md",
-                "mode": "source",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96109cd5a63718ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Interior and Closure.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Fundamental System.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Fundamental System.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Fundamental System.md"
+                "file": "Courses/Topology/Topology Roadmap.md"
               }
             }
           }
@@ -287,13 +287,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5f4c33655f7b494e",
+  "active": "6232b2d5375043c6",
   "lastOpenFiles": [
-    "Algebra/Polynomial Ring.md",
-    "Topology/Fundamental System.md",
     "Topology/Interior and Closure.md",
-    "Analysis/Inner Product Space.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Differential Geometry/Vector Field.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Topology/Fundamental System.md",
+    "Algebra/Polynomial Ring.md",
+    "Analysis/Inner Product Space.md",
     "Topology/Closure.md",
     "Analysis/Convergence of Sequences.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
@@ -301,7 +303,6 @@
     "Courses/Analysis IV/Exercise Sheet 2.md",
     "Analysis/Norm.md",
     "Algebra/Unit.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Coprime Ideal.md",
@@ -313,7 +314,6 @@
     "Algebra/Euclidean Domain.md",
     "Differential Geometry/Vector Bundle.md",
     "Algebra/Polynomial ring over Z.md",
-    "Differential Geometry/Vector Field.md",
     "Algebra/Field.md",
     "Courses/Analysis IV",
     "Lie Group",

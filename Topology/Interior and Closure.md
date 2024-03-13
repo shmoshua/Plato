@@ -49,7 +49,10 @@
 > 1. $x\in \overline{A}$
 > 2. there exists $(x_{n})_{n}\subseteq A$ for all $n$ s.t. $x_{n}\to x$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > - <=: Let $U$ be a neighborhood of $x$. Since $x_{n}\to x$, there exists $N\in \mathbb{N}$ s.t. $x_{n}\in U$ for $n\geq N$. Therefore, $x_{N}\in A \cap U$ and $x\in \overline{A}$.
-> - =>: If $x$ has a countable fundamental system of neighborhoods, there exists a
+> - =>: If $x$ has a countable fundamental system of neighborhoods, there exists by [[Fundamental System|Prop 1.1]] a decreasing fundamental system of open neighborhoods $(U_{n})_{n}$ of $x$. As $x\in \overline{A}$, $A\cap U_{n}\neq \varnothing$ and we find $(x_{n})_{n}$ s.t. $x_{n}\in A\cap U_{n}$. 
+>   
+>   Now for any neighborhood $U$ of $x$, let $N\in \mathbb{N}$ s.t. $U_{n}\subseteq U$ for all $n\geq N$. Then, for all $n\geq N$, $x_{n}\in U$. This proves the statement.
+---
