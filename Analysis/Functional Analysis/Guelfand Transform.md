@@ -51,3 +51,9 @@
 > 2. $\hat{A}\cong \hat{B}$ are homeomorphic.
 > 3. $A$ and $B$ are isomorphic as $C^{*}$-algebra.
 ---
+> [!lemma] Theorem 4 (Pre-spectral Theorem)
+> Let $A$ be a unital $C^{*}$-algebra and $x\in A$ normal. We define: $$B:=\overline{\{ P(x,x^{*}):P\in \mathbb{C}[X,Y] \}}\subseteq A$$with $x^0=e$. Then, 
+> 1. $B$ is an abelian sub-$C^{*}$-algebra of $A$.
+> 2. $\widehat{B}\ \hat{\to}\ \text{Sp}_{A}(x)$ is a homomorphism. 
+> 3. For every $f\in C(\text{Sp}_{A}(x))$ there exists a unique element denoted $f(x)\in B$ s.t. $$\widehat{f(x)}(\chi)=f(\chi(x)),\quad \forall x\in \widehat{B}$$The resulting map $$\begin{array}{cccc}&{C(\text{Sp}_{A}(x))}&\to&{B}\\&{\hat{f}} &\mapsto & {f(x)} \end{array}{}$$is a $C^{*}$-algebra isomorphism with $1\mapsto e$ and $\text{id}\mapsto x$.
+---

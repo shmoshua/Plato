@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
                 "mode": "source",
                 "source": true
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
                 "mode": "preview",
                 "source": false
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md"
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md"
               }
             }
           }
@@ -239,10 +239,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1edeb174924d7b8e",
+  "active": "f29e294fdfa2b1fe",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
