@@ -59,16 +59,18 @@
 > Let $A$ be a unital $C^{*}$-algebra with identity $e$. 
 > 1. If $u\in A$ is unitary, then $\text{Sp}_{A}(u)\subseteq \mathbb{T}:=\{ \xi\in \mathbb{C}:\left| \xi \right|=1 \}$.
 > 2. If $h=h^{*}$, then $\text{Sp}_{A}(h)\subseteq \mathbb{R}$.
+> 3. If $A$ is non-unital and $h=h^{*}$, $\text{Sp}_{A}(h)\subseteq \mathbb{R}$.
 
-> [!proof]+
+> [!proof]-
 > Firstly, we have that: $$\|e\|=\|e e^{*}\|=\|e\|^{2}$$Therefore, $\|e\|=1$. Further, for any unitary $u\in A$, $$\|u\|^{2}=\|u u^{*}\|=\|e\|=1$$and $\|u\|=1$. 
 > 
 > Now, let $\lambda\notin \mathbb{T}$. 
 > 1. If $\left| \lambda \right|<1$, $u-\lambda e=(e-\lambda u^{*})u$ and: $$\left\| \lambda u^{*} \right\| =\left| \lambda \right| \|u\|=\left| \lambda \right| <1$$Therefore, $e-\lambda u^{*}$ is invertible and $u-\lambda e$ is invertible. So $\lambda\notin \text{Sp}_{A}(u)$.
 > 2. If $\left| \lambda \right|>1$, $u-\lambda e=\lambda\left( \frac{u}{\lambda}-e \right)$ and $\|\frac{u}{\lambda}\|= \frac{1}{\left| \lambda \right|}<1$. Therefore, $\frac{u}{\lambda}-e$ is invertible and $u-\lambda e$ is invertible. So $\lambda\notin \text{Sp}_{A}(u)$.
 > 
-> For self-adjoint $h\in A$, let $\lambda\in \text{Sp}_{A}(h)$. Then, $\lambda-\mu\in \text{Sp}_{A}(h-\mu e)$ as $$(h-\mu e)-(\lambda-\mu)e=h-\lambda e$$Let $\mu=iy$ for some $y\in \mathbb{R}$. Then, as $\left| \lambda-iy \right|\in \text{Sp}_{A}(h-iye)$, $$\begin{align}\left| \lambda-iy \right| ^{2}\leq \left\| h-iye \right\| _{\text{sp}}^{2}\leq \left\| h-iye \right\| ^2=\left\| (h-iye)^{*}(h-iye) \right\| =\left\| h^{2}+y^{2}e \right\| <\left\| h \right\| ^{2}+y^{2}\end{align}$$ 
+> For self-adjoint $h\in A$, let $\lambda\in \text{Sp}_{A}(h)$. Then, $\lambda-\mu\in \text{Sp}_{A}(h-\mu e)$ as $$(h-\mu e)-(\lambda-\mu)e=h-\lambda e$$Let $\mu=iy$ for some $y\in \mathbb{R}$. Then, as $\left| \lambda-iy \right|\in \text{Sp}_{A}(h-iye)$, $$\begin{align}\left| \lambda-iy \right| ^{2}\leq \left\| h-iye \right\| _{\text{sp}}^{2}\leq \left\| h-iye \right\| ^2=\left\| (h-iye)^{*}(h-iye) \right\| =\left\| h^{2}+y^{2}e \right\| <\left\| h \right\| ^{2}+y^{2},\quad \forall y\in \mathbb{R}\end{align}$$ Let $\lambda=x_{0}+iy_{0}$. Then, $$\left|\lambda-iy \right| ^{2}=\left| x_{0}+i(y_{0}-y) \right| ^{2}=x_{0}^{2}+y_{0}^{2}-2y_{0}y+y^{2}\leq \|h\|^{2}+y^{2}$$and $$x_{0}^{2}+y_{0}^{2}-2y_{0}y\leq\|h\|^{2}$$By setting $y=-y_{0}t$, $$x^2_{0}+y_{0}^{2}(1+2t)\leq\|h\|^{2},\quad \forall t\in \mathbb{R}$$Therefore, $y_{0}=0$.
 ---
+
 ##### Examples
 > [!h] Example 0
 > Let $A$ be an involutive Banach algebra. We have that $A_{I}$ is an involutive Banach algebra with$$(x,\lambda)^{*}:=(x^{*},\overline{\lambda})$$

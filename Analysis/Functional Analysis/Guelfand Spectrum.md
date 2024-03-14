@@ -26,7 +26,7 @@
 > 
 > Indeed otherwise, if $x+I \neq I$, where not invertible, $J:=(x+I)A / I\subsetneq A / I$. Then, $$I\subseteq \pi ^{-1}(J)\subseteq A$$ correspodingin the maximality of $I$.
 > 
-> Therefore, by Guelfand-Mazur, $A / I\xrightarrow{\sim}\mathbb{C}$. Now, compsoing $A\xrightarrow{\pi}A / I\xrightarrow{\sim}\mathbb{C}$, we get a $\mathbb{C}$-algebra hoomorphism $\varphi:A\to C$ with $\text{ker }\varphi=I$.
+> Therefore, by Guelfand-Mazur, $A / I\xrightarrow{\sim}\mathbb{C}$. Now, compsoing $A\xrightarrow{\pi}A / I\xrightarrow{\sim}\mathbb{C}$, we get a $\mathbb{C}$-algebra homomorphism $\varphi:A\to C$ with $\text{ker }\varphi=I$.
 ---
 ##### Examples
 > [!h] Example 1

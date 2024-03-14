@@ -14,3 +14,11 @@
 ---
 > [!lemma] Proposition 2
 > $C_{0}(X,\mathbb{C})^{*}$ is the space of [[Analysis/Complex Measure|complex measures]] $\mu:\mathcal{B}_{X}\to \mathbb{C}$.
+---
+> [!lemma] Theorem 3 (Stone-Weierstrass)
+> Let $X$ be a [[locally compact Hausdorff space]] and let $\mathcal{B}\subseteq C_{0}(X)$ be a subalgebra s.t. 
+> 1. if $f\in \mathcal{B}$, then $\overline{f}\in \mathcal{B}$.
+> 2. for all $x\in X$, there exists $f\in \mathcal{B}$ with $f(x)\neq 0$.
+> 3. for all $x,y\in X$ with $x\neq y$, there exists $f\in \mathcal{B}$ with $f(x)\neq f(y)$.
+> 
+> Then, $\mathcal{B}$ is dense in $(C_{0}(X),\|\cdot\|_{\infty})$.

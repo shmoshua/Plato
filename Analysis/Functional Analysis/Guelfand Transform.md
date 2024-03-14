@@ -24,3 +24,18 @@
 >     
 - **Corollary**: For $x,y\in A$, $\|xy\|_{\text{sp}}=\left\| \widehat{xy} \right\|_{\infty}\leq\|\hat{x}\|_{\infty}\|\hat{y}\|_{\infty}=\|x\|_{\text{sp}}\|y\|_{\text{sp}}$.
 - **Remark**: For every non-commutative Banach algebra $A$ and $x,y\in A$, s.t. $xy=yx$, $\|xy\|_{\text{sp}}\leq\|x\|_{\text{sp}}\|y\|_{\text{sp}}$.
+---
+> [!lemma] Theorem 2
+> Let $A$ be an abelian [[C*-Algebra|$C^{*}$-algebra]]. Then, the Guelfand transformation: $$A\to C_{0}(\hat{A})$$is an $C^{*}$-algebra homomorphism. More precisely, 
+> 1. $\|\hat{x}\|_{\infty}=\|x\|$ for all $x\in A$.
+> 2. $\widehat{x^{*}}=\overline{\widehat{x}}$ for all $x\in A$.
+
+> [!proof]+
+> Since $A$ is abelian, every $x\in A$ is normal and by [[C*-Algebra|Proposition 2]] and Theorem 1, $\left\| \hat{x} \right\|_{\infty}=\|x\|_{\text{sp}}=\|x\|$ for all $x\in A$. 
+> 
+> Hence, $A\ \hat{\to}\ C_{0}(\hat{A})$ is a norm-preserving $\mathbb{C}$-algebra homomorphism. In particular, it is injective and its image is closed, because an isometric image of $A$ is complete and thereby closed.
+> 
+> Let $\mathcal{B}:=\{ \hat{x}: x\in A \}\subseteq C_{0}(\hat{A})$. 
+> 1. **Showing that $\widehat{x^{*}}=\overline{\widehat{x}}$**:
+>    Let $$x=\underbrace{ \left( \frac{x+x^{*}}{2} \right) }_{ =: x_{1} }+i\underbrace{ \left( \frac{x-x^{*} }{2i}\right) }_{ =: x_{2} } $$ where $x_{1},x_{2}$ are self-adjoint. Then, by Theorem 2, $\widehat{x_{i}}(\hat{A})\subseteq \text{Sp}_{A}(x_{i})\subseteq \mathbb{R}$. Therefore, $$\widehat{x^{*}}(\chi)=\widehat{x_{1}}(\chi)-i\widehat{x}$$
+---
