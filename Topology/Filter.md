@@ -54,21 +54,34 @@
 > [!lemma] Lemma 5
 > Every filter is contained in a maximal one.
 
-> [!proof]+
+> [!proof]-
 > Let $\mathcal{F}$ be a filter: $$\mathcal{Z}:=\{ \mathcal{G} \subseteq \mathcal{P}(X):\mathcal{G}\supseteq \mathcal{F},\mathcal{G}\text{ is a filter}\}$$
-> Now, let $\mathcal{(G_{i})}_{i}$ be an increasing sequence of filters. We will show that $\mathcal{G}:=\bigcup_{i}^{}\mathcal{G_{i}}$ is a filter. 
+> Now, let $(\mathcal{G_{i}})_{i}$ be an increasing sequence of filters. We will show that $\mathcal{G}:=\bigcup_{i}^{}\mathcal{G_{i}}$ is a filter. 
 > - $\varnothing \notin \mathcal{G}$ as $\varnothing \notin \mathcal{G}_{i}$ for all $i$.
 > - For $A,B\in \mathcal{G}$, there exists $i$ s.t. $A,B\in \mathcal{G_{i}}$. Therefore, $A\cap B\in \mathcal{G_{i}}$ and $A\cap B\in \mathcal{G}$.
 > - For $A\in \mathcal{G}$ and $B\supseteq A$, there exists $i$ s.t. $A\in \mathcal{G}_{i}$ and $B\in \mathcal{G_{i}}$. Therefore, $B\in \mathcal{G}_{i}$.
 >   
-> The
+> Therefore, by [[Poset|Zorn's lemma]], $\mathcal{Z}$ has a maximal element.
+---
+> [!lemma] Proposition 6
+> Consider the following set function $\omega:\mathcal{P}(X)\to \{ 0,1 \}$ s.t. 
+> 1. $\omega(\varnothing)=0$, $\omega(X)=1$,
+> 2. for $A_{1},A_{2}\subseteq X$ s.t. $A_{1}\cap A_{2}=\varnothing$, $\omega(A_{1}\cup A_{2})=\min\{1,\omega(A_{1})+\omega(A_{2})\}$
+> 
+> Denote $\Omega(X)$ the set of such functions and $\text{Ultra}(X)$ the set of ultrafilters on $X$. Then, $$\begin{array}{cccc} {}&{\Omega(X)}&\to&{\text{Ultra}(X)}\\&{\omega} &\mapsto & {\mathcal{F}_{\omega}:=\{ A\subseteq X:\omega(A)=1 \}} \end{array}{}$$is a bijection.
+
+> [!proof]+
+> We show that $\mathcal{F}_{\omega}$ is an ultrafilter. We see that $\varnothing\notin \mathcal{F}_{\omega}$. For $A,B\in \mathcal{F}_{\omega}$, $\omega(A)=1$, $\omega(B)=1$ and
 ---
 ##### Examples
 > [!h] Example 1
 > For a [[topological space]] $X$ and $x\in X$, the set of all neighborhoods $\mathcal{F}_{x}$ of $x$ is a filter.
 ---
 > [!h] Example 2 (Frechet Filter)
-> Let $X$ be an infinite set. $\mathcal{F}:=\{ A\subseteq X:A^c\text{ is finite} \}$ is a filter.
+> Let $X$ be an infinite set. Then, for the Frechet filter $\mathcal{F}:=\{ A\subseteq X:A^c\text{ is finite} \}$:
+> 1. $\mathcal{F}$ is a filter.
+> 2. $\mathcal{F}\subseteq \mathcal{G}$ where $\mathcal{G}$ is some ultrafilter from Lemma 5.
+> 3. The ultrafilter $\mathcal{G}$ is not a principal filter.
 ---
 > [!h] Example 3
 > Let $X=\mathbb{R}$. Then, $\mathcal{F}_{\infty}:=\{ A\subseteq \mathbb{R}: \exists t\in \mathbb{R}, [t,+\infty)\subseteq A \}$ is a filter. 
