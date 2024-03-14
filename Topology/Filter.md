@@ -66,12 +66,12 @@
 > [!lemma] Proposition 6
 > Consider the following set function $\omega:\mathcal{P}(X)\to \{ 0,1 \}$ s.t. 
 > 1. $\omega(\varnothing)=0$, $\omega(X)=1$,
-> 2. for $A_{1},A_{2}\subseteq X$ s.t. $A_{1}\cap A_{2}=\varnothing$, $\omega(A_{1}\cup A_{2})=\min\{1,\omega(A_{1})+\omega(A_{2})\}$
+> 2. for $A_{1},A_{2}\subseteq X$ s.t. $A_{1}\cap A_{2}=\varnothing$, $\omega(A_{1}\cup A_{2})=\omega(A_{1})+\omega(A_{2})$
 > 
 > Denote $\Omega(X)$ the set of such functions and $\text{Ultra}(X)$ the set of ultrafilters on $X$. Then, $$\begin{array}{cccc} {}&{\Omega(X)}&\to&{\text{Ultra}(X)}\\&{\omega} &\mapsto & {\mathcal{F}_{\omega}:=\{ A\subseteq X:\omega(A)=1 \}} \end{array}{}$$is a bijection.
 
 > [!proof]+
-> We show that $\mathcal{F}_{\omega}$ is an ultrafilter. We see that $\varnothing\notin \mathcal{F}_{\omega}$. For $A,B\in \mathcal{F}_{\omega}$, $\omega(A)=1$, $\omega(B)=1$ and
+> We show that $\mathcal{F}_{\omega}$ is an ultrafilter. We see that $\varnothing\notin \mathcal{F}_{\omega}$. For $A\in \mathcal{F}_{\omega}$ and $B\supseteq A$, we have first that: $$0=\omega(X \backslash A)=\omega(X \backslash B)+\omega(B \backslash A)$$Therefore, $\omega(X \backslash B)=0$ and $\omega(B)=1$. Now, for $A,B\in \mathcal{\mathcal{F}_{\omega}}$, if $A\cap B\notin \mathcal{F}_{\Omega}$
 ---
 ##### Examples
 > [!h] Example 1
