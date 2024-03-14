@@ -70,7 +70,21 @@
 > 
 > For self-adjoint $h\in A$, let $\lambda\in \text{Sp}_{A}(h)$. Then, $\lambda-\mu\in \text{Sp}_{A}(h-\mu e)$ as $$(h-\mu e)-(\lambda-\mu)e=h-\lambda e$$Let $\mu=iy$ for some $y\in \mathbb{R}$. Then, as $\left| \lambda-iy \right|\in \text{Sp}_{A}(h-iye)$, $$\begin{align}\left| \lambda-iy \right| ^{2}\leq \left\| h-iye \right\| _{\text{sp}}^{2}\leq \left\| h-iye \right\| ^2=\left\| (h-iye)^{*}(h-iye) \right\| =\left\| h^{2}+y^{2}e \right\| <\left\| h \right\| ^{2}+y^{2},\quad \forall y\in \mathbb{R}\end{align}$$ Let $\lambda=x_{0}+iy_{0}$. Then, $$\left|\lambda-iy \right| ^{2}=\left| x_{0}+i(y_{0}-y) \right| ^{2}=x_{0}^{2}+y_{0}^{2}-2y_{0}y+y^{2}\leq \|h\|^{2}+y^{2}$$and $$x_{0}^{2}+y_{0}^{2}-2y_{0}y\leq\|h\|^{2}$$By setting $y=-y_{0}t$, $$x^2_{0}+y_{0}^{2}(1+2t)\leq\|h\|^{2},\quad \forall t\in \mathbb{R}$$Therefore, $y_{0}=0$.
 ---
+> [!lemma] Proposition 6
+> Let $A,B$ be unital $C^{*}$-algebras where $e\in B\subseteq A$. Then, for $x\in B$, $\text{Sp}_{B}(x)=\text{Sp}_{A}(x)$.
 
+> [!proof]-
+> Let $\lambda\in \text{Sp}_{A}(x)$. Then, $x-\lambda e$ is not invertible in $A$ and thereby not in $B$. Therefore, $\text{Sp}_{A}(x)\subseteq \text{Sp}_{B}(x)$
+> 
+> Let however $\lambda \notin \text{Sp}_{A}(x)$. 
+> 1. If $x=x^{*}$, then $\text{Sp}_{B}(x)\subseteq \mathbb{R}$ and for all $\varepsilon>0$, $\lambda_{\varepsilon}:=\lambda+i\varepsilon\notin \text{Sp}_{B}(x)$. Hence, $$(x-\lambda_{\varepsilon}e)^{-1}\in B$$Since we have that $(x-\lambda e)^{-1}\in A$ and $$\begin{array}{cccc} {}&{[0,1]}&\to&{G(A)}\\&{\varepsilon} &\mapsto & {(x-\lambda_{\varepsilon}e)^{-1}} \end{array}{}$$is continuous, we have: $$(x-\lambda e)^{-1}=\lim_{ \varepsilon \to 0^+ } (x-\lambda _{\varepsilon}e)^{-1}\in B$$as $B$ is closed. Therefore, $\text{Sp}_{B}(x)\subseteq \text{Sp}_{A}(x)$.
+> 2. Let $y\in B$ and assume $y$ is invertible in $A$. Then, $y^{*}y\in B$ and $y^{*}y$ is invertible in $A$ so it is invertible in $B$. Similarly, $yy^{*}$ is invertible in $B$.
+>    
+>    Therefore, there exists $z,t\in B$ s.t. $zy^{*}y=e$ and $yy^{*}t=e$. It follows that $y$ is invertible in $B$.
+>    
+>    Now, $x-\lambda e$ is invertible in $A$ and hence in $B$. Therefore, $\lambda\notin \text{Sp}_{B}(x)$.
+>    
+---
 ##### Examples
 > [!h] Example 0
 > Let $A$ be an involutive Banach algebra. We have that $A_{I}$ is an involutive Banach algebra with$$(x,\lambda)^{*}:=(x^{*},\overline{\lambda})$$
