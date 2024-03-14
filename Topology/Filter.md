@@ -70,8 +70,10 @@
 > 
 > Denote $\Omega(X)$ the set of such functions and $\text{Ultra}(X)$ the set of ultrafilters on $X$. Then, $$\begin{array}{cccc} {}&{\Omega(X)}&\to&{\text{Ultra}(X)}\\&{\omega} &\mapsto & {\mathcal{F}_{\omega}:=\{ A\subseteq X:\omega(A)=1 \}} \end{array}{}$$is a bijection.
 
-> [!proof]+
-> We show that $\mathcal{F}_{\omega}$ is an ultrafilter. We see that $\varnothing\notin \mathcal{F}_{\omega}$. For $A\in \mathcal{F}_{\omega}$ and $B\supseteq A$, we have first that: $$0=\omega(X \backslash A)=\omega(X \backslash B)+\omega(B \backslash A)$$Therefore, $\omega(X \backslash B)=0$ and $\omega(B)=1$. Now, for $A,B\in \mathcal{\mathcal{F}_{\omega}}$, if $A\cap B\notin \mathcal{F}_{\Omega}$
+> [!proof]-
+> We show that $\mathcal{F}_{\omega}$ is an ultrafilter. We see that $\varnothing\notin \mathcal{F}_{\omega}$. For $A\in \mathcal{F}_{\omega}$ and $B\supseteq A$, we have first that: $$0=\omega(X \backslash A)=\omega(X \backslash B)+\omega(B \backslash A)$$Therefore, $\omega(X \backslash B)=0$ and $\omega(B)=1$. Now, for $A,B\in \mathcal{\mathcal{F}_{\omega}}$, $$\omega(A\cap B)+\omega(A \backslash B)=\omega(A)=1$$where $\omega(A \backslash B)=0$ as $\omega(X \backslash B)=0$ and $A \backslash B\subseteq X \backslash B$. Finally, for $A\subseteq X$, $\omega(A)=1$ or $\omega(X \backslash A)=1$ as $\omega(X)=1$. 
+> 
+> Conversely, assume $\mathcal{F}$ is an ultrafilter and we define the set function: $$\omega(A)=1 \iff A\in \mathcal{F}$$Then, $\omega(\varnothing)=0$ and therefore, $X\in \mathcal{F}$ and $\omega(X)=1$. Similarly, for $A_{1},A_{2}\subseteq X$ with $A_{1}\cap A_{2}=\varnothing$, it's not possible that $A_{1}\in \mathcal{F}\land A_{2}\in \mathcal{F}$ from the finite intersection property. Therefore, if $A_{1}\in \mathcal{F}$ wlog, then $A_{1}\cup A_{2}\in \mathcal{F}$ and if $A_{1},A_{2}\notin \mathcal{F}$, Then, $X \backslash A_{1} \cap X \backslash A_{2}=X \backslash (A_{1}\cup A_{2})\in \mathcal{F}$ and $\omega(A_{1}\cup A_{2})=0$.
 ---
 ##### Examples
 > [!h] Example 1

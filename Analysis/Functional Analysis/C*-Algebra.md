@@ -10,6 +10,7 @@
 > An involutive Banach algebra is a ***C\*-algebra***, if $\left\| xx^{*} \right\|=\|x\|\|x^{*}\|$ for all $x\in B$.
 - **Related definition**: $x\in A$ is ***normal*** if $xx^{*}=x^{*}x$.
 - **Related definition**: $x\in A$ is ***self-adjoint*** if $x=x^{*}$ and self-adjoint elements are trivially normal.
+- **Related definition**: If $A$ is unital, $x\in A$ is ***unitary*** if $xx^{*}=x^{*}x=e$.
 ---
 ##### Properties
 > [!lemma] Lemma 1
@@ -53,7 +54,20 @@
 >	3. $N(zz^{*})\leq N(z)N(z^{*})=N(z)^{2}\leq N(zz^{*})$
 >
 >Therefore, $N$ is a $C^{*}$-algebra norm on $A_{I}$ extending $A$.
->
+---
+> [!lemma] Proposition 5
+> Let $A$ be a unital $C^{*}$-algebra with identity $e$. 
+> 1. If $u\in A$ is unitary, then $\text{Sp}_{A}(u)\subseteq \mathbb{T}:=\{ \xi\in \mathbb{C}:\left| \xi \right|=1 \}$.
+> 2. If $h=h^{*}$, then $\text{Sp}_{A}(h)\subseteq \mathbb{R}$.
+
+> [!proof]+
+> Firstly, we have that: $$\|e\|=\|e e^{*}\|=\|e\|^{2}$$Therefore, $\|e\|=1$. Further, for any unitary $u\in A$, $$\|u\|^{2}=\|u u^{*}\|=\|e\|=1$$and $\|u\|=1$. 
+> 
+> Now, let $\lambda\notin \mathbb{T}$. 
+> 1. If $\left| \lambda \right|<1$, $u-\lambda e=(e-\lambda u^{*})u$ and: $$\left\| \lambda u^{*} \right\| =\left| \lambda \right| \|u\|=\left| \lambda \right| <1$$Therefore, $e-\lambda u^{*}$ is invertible and $u-\lambda e$ is invertible. So $\lambda\notin \text{Sp}_{A}(u)$.
+> 2. If $\left| \lambda \right|>1$, $u-\lambda e=\lambda\left( \frac{u}{\lambda}-e \right)$ and $\|\frac{u}{\lambda}\|= \frac{1}{\left| \lambda \right|}<1$. Therefore, $\frac{u}{\lambda}-e$ is invertible and $u-\lambda e$ is invertible. So $\lambda\notin \text{Sp}_{A}(u)$.
+> 
+> For self-adjoint $h\in A$, let $\lambda\in \text{Sp}_{A}(h)$. Then, $\lambda-\mu\in \text{Sp}_{A}(h-\mu e)$ as $$(h-\mu e)-(\lambda-\mu)e=h-\lambda e$$Let $\mu=iy$ for some $y\in \mathbb{R}$. Then, as $\left| \lambda-iy \right|\in \text{Sp}_{A}(h-iye)$, $$\begin{align}\left| \lambda-iy \right| ^{2}\leq \left\| h-iye \right\| _{\text{sp}}^{2}\leq \left\| h-iye \right\| ^2=\left\| (h-iye)^{*}(h-iye) \right\| =\left\| h^{2}+y^{2}e \right\| <\left\| h \right\| ^{2}+y^{2}\end{align}$$ 
 ---
 ##### Examples
 > [!h] Example 0
