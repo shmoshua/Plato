@@ -43,6 +43,16 @@
 > 
 > Conversely, suppose there exists a filter $\mathcal{F}\supseteq \mathcal{A}$. Take $A_{1},\dots,A_{n}\in \mathcal{A}$. Then, $A_{1}\cap\dots \cap A_{n}\in \mathcal{F}$. However, as $\varnothing\notin \mathcal{F}$, we have the finite intersection property.
 ---
+> [!lemma] Theorem 4
+> A filter $\mathcal{F}$ is an ultrafilter if and only if it is a maximal filter.
+
+> [!proof]-
+> Assume $\mathcal{F}$ is maximal and $A\notin \mathcal{F}$. Since $\mathcal{F}\cup \{ A \}$ is not a filter, $\mathcal{F}\cup \{ A \}$ doesn't have the finite intersection property. So there is $B\in \mathcal{F}$ with $B\cap A=\varnothing$. Hence, $B\subseteq A^c$ and $A^c\in \mathcal{F}$.
+> 
+> Conversely, assume that $\mathcal{F}$ is an ultrafilter and that there exists $\mathcal{F}\subsetneq\mathcal{G}$ where $\mathcal{G}$ is a filter. Then, there exists $A\in \mathcal{G} \backslash \mathcal{F}$ and $A^c\in \mathcal{F}$. Then, $A^c\in \mathcal{G}$ and as $\mathcal{G}\cup \{ A \}$ has the finite intersection property by Lemma 3, $A^c\cap A\neq \varnothing$, which is a contradiction.
+---
+
+---
 ##### Examples
 > [!h] Example 1
 > For a [[topological space]] $X$ and $x\in X$, the set of all neighborhoods $\mathcal{F}_{x}$ of $x$ is a filter.
