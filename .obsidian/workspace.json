@@ -74,6 +74,18 @@
             }
           },
           {
+            "id": "1128b6d6812b8c6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Radical.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7290605ce7167028",
             "type": "leaf",
             "state": {
@@ -168,9 +180,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3ce77f3fbdd82205",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Regular Ideal.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -300,18 +324,19 @@
   },
   "active": "a0540f5b74d77b5e",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Analysis/Functional Analysis/Radical.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
+    "Topology/Homeomorphism.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
-    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Banach Space.md",
-    "Topology/Homeomorphism.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Topology/Filter.md",
     "Courses/Functional Analysis II/Untitled",
@@ -326,7 +351,6 @@
     "Topology/Compact Space.md",
     "Topology/Interior and Closure.md",
     "Topology/Fundamental System.md",
-    "Differential Geometry/Vector Field.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
