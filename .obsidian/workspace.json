@@ -199,7 +199,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
                 "mode": "preview",
                 "source": false
               }
@@ -272,7 +272,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -289,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -312,7 +312,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Continuous Function.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md"
               }
             }
           }
@@ -336,21 +336,23 @@
   },
   "active": "7f5c22017bb5c1ef",
   "lastOpenFiles": [
+    "Courses/Topology/Exercise Sheet 2.md",
+    "Analysis/Convolution.md",
+    "Topology/Weak Topology.md",
+    "Courses/Functional Analysis II/Exercise Sheet 3.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Topology/Continuous Function.md",
     "Topology/Homeomorphism.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
     "Analysis/Functional Analysis/Radical.md",
-    "Courses/Functional Analysis II/Exercise Sheet 3.md",
-    "Topology/Weak Topology.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Analysis/Functional Analysis/Guelfand Topology.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Banach Space.md",
-    "Courses/Topology/Exercise Sheet 2.md",
     "Topology/Filter.md",
     "Courses/Functional Analysis II/Untitled",
     "Topology/Compact Metric Space.md",
@@ -361,8 +363,6 @@
     "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Topology/Compact sets.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/Compact Space.md",
-    "Topology/Interior and Closure.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
