@@ -98,6 +98,18 @@
             }
           },
           {
+            "id": "f29e294fdfa2b1fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a0540f5b74d77b5e",
             "type": "leaf",
             "state": {
@@ -115,19 +127,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Filter.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f29e294fdfa2b1fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
                 "mode": "preview",
                 "source": false
               }
@@ -139,14 +139,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Homeomorphism.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9cfef01e84db5665",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "768ba5ab441dae9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Regular Ideal.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -276,18 +300,22 @@
   },
   "active": "a0540f5b74d77b5e",
   "lastOpenFiles": [
-    "Topology/Filter.md",
-    "Topology/Homeomorphism.md",
-    "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Courses/Functional Analysis II/Exercise Sheet 3.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Functional Analysis II/Exercise Sheet 2.md",
-    "Courses/Functional Analysis II/Untitled",
-    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
-    "Topology/Compact Metric Space.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
+    "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Banach Space.md",
+    "Topology/Homeomorphism.md",
+    "Courses/Topology/Exercise Sheet 2.md",
+    "Topology/Filter.md",
+    "Courses/Functional Analysis II/Untitled",
+    "Topology/Compact Metric Space.md",
     "Discrete Mathematics/Poset.md",
     "Axiom of Choice.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
@@ -299,10 +327,6 @@
     "Topology/Interior and Closure.md",
     "Topology/Fundamental System.md",
     "Differential Geometry/Vector Field.md",
-    "Algebra/Polynomial Ring.md",
-    "Analysis/Inner Product Space.md",
-    "Topology/Closure.md",
-    "Analysis/Convergence of Sequences.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
