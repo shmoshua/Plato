@@ -10,5 +10,3 @@ Consider the map $X\to \widehat{C_{0}(X)}, x\mapsto \text{ev}_{x}$.
 	Firstly, by definition, for any $f\in C_{0}(X)$, $x\mapsto f(x)=\text{ev}_{x}(f)$ is continuous. Therefore, $x\mapsto \text{ev}_{x}$ is continuous in the weak*-topology and thereby the Guelfand topology. 
 	
 	Conversely, let $U\subseteq X$ be open. It suffices to show that $\{ \text{ev}_{x}: x\in U \}$ is open in Guelfand topology. 
-
-	First, notice that $\text{Rad }C_{0}(X)=\bigcap_{x\in X}^{}I_{x}=(0)$. Therefore, $C_{0}(X)$ is semi-simple.

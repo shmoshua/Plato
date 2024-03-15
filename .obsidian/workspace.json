@@ -163,7 +163,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+                "file": "Topology/Continuous Functions in Metric Spaces.md",
                 "mode": "preview",
                 "source": false
               }
@@ -199,14 +199,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -272,7 +272,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -289,7 +289,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -312,7 +312,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md"
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md"
               }
             }
           }
@@ -334,25 +334,27 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "7f5c22017bb5c1ef",
+  "active": "f29e294fdfa2b1fe",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 2.md",
-    "Analysis/Convolution.md",
-    "Topology/Weak Topology.md",
-    "Courses/Functional Analysis II/Exercise Sheet 3.md",
-    "Analysis/Functional Analysis/Guelfand Topology.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Continuous Function.md",
-    "Topology/Homeomorphism.md",
-    "Analysis/Functional Analysis/Regular Ideal.md",
-    "Analysis/Functional Analysis/Radical.md",
-    "Courses/Functional Analysis II/Exercise Sheet 2.md",
-    "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Courses/Functional Analysis II/Exercise Sheet 3.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Banach Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Topology/Weak Topology.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
+    "Analysis/Functional Analysis/Regular Ideal.md",
+    "Topology/Homeomorphism.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
-    "Analysis/Banach Space.md",
+    "Courses/Topology/Exercise Sheet 2.md",
+    "Analysis/Convolution.md",
+    "Analysis/Functional Analysis/Radical.md",
+    "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Filter.md",
     "Courses/Functional Analysis II/Untitled",
     "Topology/Compact Metric Space.md",
@@ -361,8 +363,6 @@
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Topology/Compact sets.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
