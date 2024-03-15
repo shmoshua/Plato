@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d672511a90a97104",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
@@ -43,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -63,6 +74,18 @@
             }
           },
           {
+            "id": "7290605ce7167028",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b27a24377af00862",
             "type": "leaf",
             "state": {
@@ -70,6 +93,18 @@
               "state": {
                 "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0540f5b74d77b5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -104,7 +139,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "file": "Topology/Homeomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -177,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md"
               }
             }
           }
@@ -239,15 +274,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f29e294fdfa2b1fe",
+  "active": "a0540f5b74d77b5e",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Topology/Filter.md",
+    "Topology/Homeomorphism.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Courses/Functional Analysis II/Untitled",
+    "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
     "Topology/Compact Metric Space.md",
-    "Topology/Filter.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Discrete Mathematics/Poset.md",
     "Axiom of Choice.md",
@@ -264,9 +303,6 @@
     "Analysis/Inner Product Space.md",
     "Topology/Closure.md",
     "Analysis/Convergence of Sequences.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Differential Geometry/Cotangent Space.md",
-    "Courses/Analysis IV/Exercise Sheet 2.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
@@ -276,7 +312,6 @@
     "Courses/Differential Geometry",
     "Courses/Topology",
     "untitled folder",
-    "Plato",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
