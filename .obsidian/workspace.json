@@ -199,14 +199,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Topology/Topological Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2c75e7f60a6cb94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Weak Topology.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85a8d606a21ea71f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Topological Vector Space with Seminorms.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf5a894090824057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Regular Ideal.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -235,7 +271,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "relatively",
+                "query": "urysohn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -252,7 +288,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -272,7 +309,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
+                "file": "Topology/Topological Vector Space with Seminorms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -289,7 +326,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
+                "file": "Topology/Topological Vector Space with Seminorms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -312,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Topology.md"
+                "file": "Topology/Topological Vector Space with Seminorms.md"
               }
             }
           }
@@ -334,26 +371,28 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f29e294fdfa2b1fe",
+  "active": "85a8d606a21ea71f",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Regular Ideal.md",
+    "Topology/Topological Vector Space with Seminorms.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Topology/Weak Topology.md",
+    "Topology/Topological Space.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
+    "Courses/Functional Analysis II/Exercise Sheet 3.md",
+    "Analysis/Functional Analysis/Radical.md",
+    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Continuous Function.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Courses/Functional Analysis II/Exercise Sheet 3.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Banach Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
-    "Topology/Weak Topology.md",
-    "Analysis/Functional Analysis/Guelfand Topology.md",
-    "Analysis/Functional Analysis/Regular Ideal.md",
     "Topology/Homeomorphism.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Analysis/Convolution.md",
-    "Analysis/Functional Analysis/Radical.md",
-    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Filter.md",
     "Courses/Functional Analysis II/Untitled",
@@ -361,8 +400,6 @@
     "Discrete Mathematics/Poset.md",
     "Axiom of Choice.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Courses/Topology/Exercise Sheet 3.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
