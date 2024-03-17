@@ -9,4 +9,7 @@ Consider the map $X\to \widehat{C_{0}(X)}, x\mapsto \text{ev}_{x}$.
 2. **Showing that the map is a homeomorphism**:
 	Firstly, by definition, for any $f\in C_{0}(X)$, $x\mapsto f(x)=\text{ev}_{x}(f)$ is continuous. Therefore, $x\mapsto \text{ev}_{x}$ is continuous in the weak*-topology and thereby the Guelfand topology. 
 	
-	Conversely, let $U\subseteq X$ be open. It suffices to show that $\{ \text{ev}_{x}: x\in U \}$ is open in Guelfand topology. 
+	Conversely, let $U\subseteq X$ be open. It suffices to show that $\{ \text{ev}_{x}: x\in U \}$ is open in Guelfand topology. Let $x\in U$. Then, there exists a compact neighborhood $K$ of $x$ s.t.  $K\subseteq U$. Then, by Urysohn's lemma, there exists a function $f\in C_{0}(X)$ s.t. $f(X)\subseteq[0,1]$, $f|_{K}=1$, especially $f(x)=1$ and $\text{supp }f\subseteq U$. Now, $$\begin{align}N(\text{ev}_{x},f,1)\cap \{ \text{ev}_{y}: y\in X \}&=\{ \text{ev}_{y}: y\in X,|f(x)-f(y)|<1 \}\\&=\{ \text{ev}_{y}: y\in X,|1-f(y)|<1 \}\\&\subseteq \{ \text{ev}_{y}: y\in U \}\end{align}$$This proves the statement.
+---
+> [!def] Problem 2
+> Find an example of a commutative Banach algebra $A$ for which the Guelfand transform $A\to C_{0}(\widehat{A})$ is not surjective.
