@@ -223,14 +223,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Analysis/Functional Analysis/C-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -296,7 +296,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/C-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -313,7 +313,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/C-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md"
+                "file": "Analysis/Functional Analysis/C-Algebra.md"
               }
             }
           }
@@ -358,12 +358,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5031436129b7d4c0",
+  "active": "2b431d7888c460a9",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Exercise Sheet 2.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Radical.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
