@@ -242,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -308,7 +308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -325,7 +325,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -348,7 +348,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md"
               }
             }
           }
@@ -370,16 +370,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5031436129b7d4c0",
+  "active": "a0540f5b74d77b5e",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Radical.md",
+    "Analysis/Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Radical.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Topology/Topological Space.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
