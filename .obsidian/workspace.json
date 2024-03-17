@@ -74,6 +74,30 @@
             }
           },
           {
+            "id": "5031436129b7d4c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c10d1ea9952a7344",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1128b6d6812b8c6c",
             "type": "leaf",
             "state": {
@@ -116,7 +140,7 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis II/Exercise Sheet 3.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -199,14 +223,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b431d7888c460a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,7 +308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -289,7 +325,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -312,7 +348,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md"
+                "file": "Analysis/Functional Analysis/C*-Algebra.md"
               }
             }
           }
@@ -334,35 +370,35 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "7290605ce7167028",
+  "active": "5031436129b7d4c0",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Analysis/Functional Analysis/Guelfand Topology.md",
-    "Courses/Functional Analysis II/Exercise Sheet 3.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Topology/Locally Compact Hausdorff Space.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Functional Analysis/Spectrum.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
+    "Courses/Functional Analysis II/Exercise Sheet 3.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Radical.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Topology/Topological Space.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
     "Topology/Weak Topology.md",
     "Topology/Locally Compact Topological Space.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Topology/Topological Space.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Continuous Function.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Analysis/Banach Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Topology/Homeomorphism.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Analysis/Convolution.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Filter.md",
     "Courses/Functional Analysis II/Untitled",
-    "Topology/Compact Metric Space.md",
-    "Discrete Mathematics/Poset.md",
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",

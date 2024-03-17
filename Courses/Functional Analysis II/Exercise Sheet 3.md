@@ -13,3 +13,8 @@ Consider the map $X\to \widehat{C_{0}(X)}, x\mapsto \text{ev}_{x}$.
 ---
 > [!def] Problem 2
 > Find an example of a commutative Banach algebra $A$ for which the Guelfand transform $A\to C_{0}(\widehat{A})$ is not surjective.
+---
+> [!def] Problem 3
+> Consider the Banach algebra $A:=\ell^1(\mathbb{Z})$ with convolution product and $$B:=\{ f\in A:f(n)=0, \forall n<0 \}$$Show that $B$ is a unital subalgebra of $A$. Moreover, prove $\text{Sp}_{A}(\delta_{1})\subsetneq \text{Sp}_{B}(\delta_{1})$.
+
+Firstly, let $f,g\in B$. Then, for $n<0$, $$(f*g)(n)=\sum_{m\in \mathbb{Z}}^{}f(n-m)g(m)=\sum_{m=0}^{\infty}\underbrace{ f(n-m) }_{ =0 }g(m)+\sum_{m=1}^{\infty}f(n+m)\underbrace{ g(-m) }_{ =0 }=0$$Therefore, $B$ is closed under convolution. Further, $\delta_{0}\in B$ is a unit as: $$(f*\delta_{0})(n)=\sum_{m\in \mathbb{Z}}^{}f(n-m)\delta_{0}(m)=f(n),\quad (\delta_{0}*f)(n)=\sum_{m\in \mathbb{Z}}^{}\delta_{0}(n-m)f(m)=f(n)$$Indeed $B$ is a unital subalgebra of $A$. 
