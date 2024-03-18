@@ -37,4 +37,17 @@ We have:
    Conversely, assume that $\Delta$ is closed and let $x,y\in X$ with $x\neq y$. Then, $(x,y)\in X\times X \backslash \Delta$ and there exists open neighborhoods $V,W$ of $x,y$ respectively s.t. $V\times W\subseteq X \times X \backslash \Delta$, i.e. $V\cap W=\varnothing$. 
 3. Let $x,y\in X$ s.t. $f(x)\neq g(y)$. Then, as $Y$ is Hausdorff, there exists $V,W\subseteq Y$ neighborhoods of $f(x),g(y)$ respectively s.t. $V\cap W=\varnothing$. Then, $f^{-1}(V)$ and $g^{-1}(W)$ are neighborhoods of $x,y$ respectively, s.t. $f^{-1}(V)\times g^{-1}(W)\subseteq X\times X \backslash\{ (a,b):f(a)=g(b) \}$. This shows that $\{ (x,y):f(x)=g(y) \}$ is closed.
    
-   Similarly, 
+   One can easily see from the definition of product topology that $X$ is homeomorphic to $\Delta$ w.r.t the subspace topology of the product topology. Then, as $$\{(x,x)\in X:f(x) =g(x)\}=\Delta \cap\{ (x,y):f(x)= g(y)  \}$$ is closed in $\Delta$, our set is closed in $X$.
+4. Let $\overline{E}=X$ and for all $x\in E$, $f(x)=g(x)$. Now, let $y\in X$ and assume that $f(y)\neq g(y)$. As $Y$ is Hausdorff, then we have disjoint open neighborhoods $V,W$ of $f(y)$ and $g(y)$ respectively. Consequently, $f^{-1}(V)$ and $g^{-1}(W)$ are open neighborhoods of $y$. Therefore, $f^{-1}(V)\cap g^{-1}(W)$ is an open neighborhood of $y$. By the density of $E$, then there exists $x\in f^{-1}(V)\cap g^{-1}(W)$ s.t. $f(x)=g(x)\in V\cap W$, which is a contradiction.
+5. Let $(x,y)\in X\times Y$ s.t. $f(x)\neq y$. Then, there exist disjoint open neighborhoods $V,W$ of $f(x)$ and $y$ respectively. Therefore, $f^{-1}(V)$ is an open neighborhood of $x$ and $f^{-1}(V)\times W\subseteq X\times Y \backslash \text{graph}(f)$. Indeed if otherwise, there exists $f(a)=b\in V\cap W$ which is a contradiction. 
+---
+> [!def] Problem 4
+> Let $X=\mathbb{R}$ with the cofinite topology.
+> 1. Show that for every $x\neq y$ in $X$, there exists a neighborhood $U$ of $x$ such that $y\notin U$, but that $X$ is not Hausdorff.
+> 2. Show that the graph of the identity map $X\hookrightarrow X$ is not closed in $X\times X$ (with the product topology).
+> 3. Show that a function $f:X\to X$ is continuous if either $f$ is constant, or if the equation $f(x)=y$ has at most finitely many solutions for arbitrary $y\in \mathbb{R}$. In particular, any bijection $X\to X$ is continuous.
+> 4. Find examples of two bijections $f:X\to X$ and $g:X\to X$ such that $f-g$ is not continuous.
+> 5. Deduce examples showing that the properties of (3) and (4) of the previous exercise are not always true if $X$ is not Hausdorff.
+
+We have: 
+1. For $x,y\in X$ with $x\neq y$, $U:=X \backslash \{ y \}$ is an open neighborhood of $x$ s.t. $y\notin U$. However, assume that we have open neighborhoods $U,V$ of $x,y$ respectively. Then, $U,V$ are both non-empty and therefore,  $X \backslash(U\cap V)=(X \backslash U) \cup (X \backslash V)$ $$X \backslash (U \cap V)=X$$

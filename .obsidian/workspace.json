@@ -80,6 +80,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Topology/Interior and Closure.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06e0a8d265922d80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "preview",
                 "source": false
@@ -152,14 +164,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -290,20 +302,21 @@
   },
   "active": "800db26bba0b641a",
   "lastOpenFiles": [
-    "Topology/Continuous Function.md",
-    "Topology/Hausdorff Space.md",
-    "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Filter.md",
-    "Measure Theory/Radon Measure.md",
+    "Measure Theory/Complex Measure.md",
+    "Topology/Interior and Closure.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Topology/Continuous Function.md",
+    "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Topological Space.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Topology/Hausdorff Space.md",
+    "Measure Theory/Radon Measure.md",
     "Analysis/Product Space.md",
-    "Measure Theory/Complex Measure.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Measure Theory/Borel Regular Measure.md",
-    "Topology/Interior and Closure.md",
     "Measure Theory/Signed Measure.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Topology/Compact Space.md",
@@ -315,7 +328,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Radical.md",
-    "Topology/Homeomorphism.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
