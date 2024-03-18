@@ -24,5 +24,17 @@ We have:
 > 1. Check that this is a topology on $X\times Y$.
 > 2. Show that $X$ is a Hausdorff space if and only if the diagonal $$\Delta:=\{ (x,x)|x\in X \}\subseteq X\times X$$ is closed in $X\times X$ (with the above topology for $Y=X$).
 > 
-> In the following points, let Y be a Hausdorff space.
->1. For any topological space $X$ and any continuous maps $f:X\to Y$ and $g:X\to Y$, show that the sets $$\{ (x,y): \}$$ are closed in X × X and in X, respectively. 
+> In the following points, let $Y$ be a Hausdorff space.
+>1. For any topological space $X$ and any continuous maps $f:X\to Y$ and $g:X\to Y$, show that the sets $$\{ (x,y):f(x)=g(y) \},\quad \{ x\in X:f(x)=g(x) \}$$ are closed in $X\times X$ and in $X$, respectively. 
+>2. For any topological space $X$ and any continuous maps $f:X\to Y$ and $g:X\to Y$, show that if $f(x)=g(x)$ for all $x$ in a dense set, then $f=g$.
+>3. For any topological space $X$ and any continuous map $f:X\to Y$ , show that the graph $$\text{graph}(f):=\{ (x,y) :y=f(x)\}$$ of $f$ is closed in $X\times Y$.
+
+We have:
+1. $\varnothing$ is open by definition. Further, $X\times Y$ is open by taking $X,Y$ as the neighborhoods. For a family of open sets $(U_{\lambda})_{\lambda\in \Lambda}$, we have that for $(x,y)\in \bigcup_{\lambda\in \Lambda}^{}U_{\lambda}$, there exists $\alpha\in \Lambda$ s.t. $(x,y)\in U_{\alpha}$ and there exists neighborhoods $V,W$ of $x,y$ respectively s.t. $$V\times W\subseteq U_{\alpha}\subseteq \bigcup_{\lambda\in \Lambda}^{}U_{\lambda}$$
+	Similarly, for $U_{1},U_{2}$ open s.t. $U_{1}\cap U_{2}\neq \varnothing$, let $(x,y)\in U_{1}\cap U_{2}$. Then, there exists open neighborhoods $V_{1},W_{1}$ and $V_{2},W_{2}$  s.t. $V_{1}\cap V_{2}$ and $W_{1}\cap W_{2}$ are open neighborhoods of $x$ and $y$ respectively and: $$(V_{1}\cap V_{2})\times(W_{1}\cap W_{2})\subseteq U_{1}\cap U_{2}$$ This shows that this is indeed a topology.
+2. Assume $X$ is Hausdorff. We show that $U:=X\times X \backslash\Delta$ is open. Let $(x,y)\in U$. By definition $x\neq y$ and there exist disjoint open neighborhoods $V,W$ of $x,y$ respectively, i.e. $V\times W\subseteq X\times X \backslash \Delta$. 
+   
+   Conversely, assume that $\Delta$ is closed and let $x,y\in X$ with $x\neq y$. Then, $(x,y)\in X\times X \backslash \Delta$ and there exists open neighborhoods $V,W$ of $x,y$ respectively s.t. $V\times W\subseteq X \times X \backslash \Delta$, i.e. $V\cap W=\varnothing$. 
+3. Let $x,y\in X$ s.t. $f(x)\neq g(y)$. Then, as $Y$ is Hausdorff, there exists $V,W\subseteq Y$ neighborhoods of $f(x),g(y)$ respectively s.t. $V\cap W=\varnothing$. Then, $f^{-1}(V)$ and $g^{-1}(W)$ are neighborhoods of $x,y$ respectively, s.t. $f^{-1}(V)\times g^{-1}(W)\subseteq X\times X \backslash\{ (a,b):f(a)=g(b) \}$. This shows that $\{ (x,y):f(x)=g(y) \}$ is closed.
+   
+   Similarly, 
