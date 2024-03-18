@@ -14,13 +14,9 @@ Consider the map $X\to \widehat{C_{0}(X)}, x\mapsto \text{ev}_{x}$.
 > [!def] Problem 2
 > Find an example of a commutative Banach algebra $A$ for which the Guelfand transform $A\to C_{0}(\widehat{A})$ is not surjective.
 
-Consider $A:=C^1([0,1])$. Then, 
-1. **Showing that $\text{Max }C^1([0,1])=\{ I_{x}: x\in [0,1] \}$**:
-   One can easily see that $I_{x}$ is an ideal for all $x\in [0,1]$. Let $I\in \text{Max }C^1([0,1])$. 
-   
-   Now, let $x\in [0,1]$. $I_{x}$ is regular, as $1\in C^1([0,1])$. 
+Consider $A:=C^1([0,1])$. Then, as $C^1([0,1])$ is dense in $C_{0}([0,1])$ by Weierstrass, we have a bijection: $\widehat{C^1([0,1])}\to \text{Max }C^1{([0,1])}=\{ I_{x}: x\in [0,1] \}$ with $I_{x}:=\{ f\in C^1([0,1]):f(x)=0 \}$. Therefore, from 1, $[0,1]\to \widehat{C^1([0,1])}$ is a homeomorphism. Therefore, the Guelfand transform is the inclusion: $$\begin{array}{cccc} {}&{C^1([0,1])}&\hookrightarrow&{C_{0}([0,1])}\end{array}{}$$
+which is not surjective.
 
-Consider $A:=L^1(\mathbb{R})$. Then, we know that $$\widehat{L^1(\mathbb{R})}\cong \text{Hom}(\mathbb{R},\mathbb{T})=\{ e^{iax}:a\in\mathbb{R} \}$$Therefore, $$\begin{array}{cccc} {\chi_{a}:}&{L^1(\mathbb{R})}&\to&{\mathbb{C}}\\&{f} &\mapsto & {\int_{\mathbb{R}}^{} f(x)\cdot e^{iax} \, dx } \end{array}{}$$and $\widehat{L^1(\mathbb{R})}=\{ \chi_{a}|a\in\mathbb{R} \}$. 
 
 ---
 > [!def] Problem 3

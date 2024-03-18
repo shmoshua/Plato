@@ -5,6 +5,11 @@
 - **Related definition**: A subset $A\subseteq X$ is ***compact*** if it is with the subspace topology.
 ---
 ##### Properties
+> [!lemma] Proposition 1
+> Let $X$ be an compact space: 
+> 1. for a topological space $Y$ and a continuous function $f:X\to Y$. $f(X)\subseteq Y$ is compact.
+> 2. if $X$ is [[Hausdorff Space|Hausdorff]], 
+
 > [!lemma]
 > Let $X$ be compact space and $Y$ a metric space. Further, let $f:X\to Y$ locally bounded, i.e. for all $x\in X$, there exists neighborhood $U \ni x$ s.t. $f|_{U}\subseteq B_{<r}(0)$ for some $r>0$. Then, $f$ is bounded on $X$.
 
