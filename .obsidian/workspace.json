@@ -230,7 +230,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -296,7 +296,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -313,7 +313,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -336,7 +336,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md"
               }
             }
           }
@@ -358,8 +358,9 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2b431d7888c460a9",
+  "active": "a0540f5b74d77b5e",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/C-Algebra.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
@@ -368,7 +369,6 @@
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
     "Topology/Topological Space.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Topology/Locally Compact Hausdorff Space.md",
