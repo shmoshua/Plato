@@ -49,8 +49,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e4eaf6571dd13461",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +125,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +141,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,9 +162,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Topology/Compact Space.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -178,10 +183,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a7833fc99d403f3a",
+  "active": "e4eaf6571dd13461",
   "lastOpenFiles": [
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Compact Space.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
