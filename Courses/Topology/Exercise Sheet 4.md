@@ -10,5 +10,8 @@ Conversely, assume that the condition holds. We will show that $X$ is Hausdorff.
 ---
 > [!def] Problem 2
 > Let $X$ be a topological space. 
-> 1. If $X$ is a Hausdorff space, show that a filter $F$ on $X$ which converges has a unique limit.
-> 2. Conversely, suppose a convergent filter $F$ on $X$ always has a unique limit. Show that X is a Hausdorff space. (Hint: consider the set F = {∅ ̸= A ⊂ X | A ⊃ V ∩ W for some open neighborhood V of x and W of y}, and show that it is a filter on X.)
+> 1. If $X$ is a Hausdorff space, show that a filter $\mathcal{F}$ on $X$ which converges has a unique limit.
+> 2. Conversely, suppose a convergent filter $\mathcal{F}$ on $X$ always has a unique limit. Show that $X$ is a Hausdorff space. 
+
+We have: 
+1. Assume that $X$ is Hausdorff and that $\mathcal{F}$ converges to $x$ and $y$ s.t. $x\neq y$. Let $U,V$ be the disjoint open neighborhoods of $x,y$ and by convergence, there exists $W\in \mathcal{F}$ s.t. $W\subseteq U$ and $W\subseteq V$. (this is given as the filter is closed under intersection). As $\varnothing\notin \mathcal{F}$, we have that $U\cap V\neq \varnothing$, which is a contradiction.

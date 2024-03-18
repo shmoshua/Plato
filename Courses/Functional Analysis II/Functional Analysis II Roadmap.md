@@ -43,13 +43,17 @@
 ##### 4. The Guelfand Isomorphisms
 1. [[C*-Algebra]] and normal elements.
 2. Uniqueness of the norm in a [[C*-algebra]].
-3. [[C*-Algebra|Construction of a C\*-algbra norm on $A_{I}$ ]]
+3. [[C*-Algebra|Construction of a C\*-algbra norm on $A_{I}$]]
+4. [[Guelfand Transform]]
 ---
 ##### 5. Spectral Theorems
 ---
 ##### 6. Locally Compact Groups
 ---
-
+##### 8. Complex Measures
+1. [[Measure Theory/Complex Measure|Complex Measure]]
+2. [[Analysis/Complex Measure|Complex Measure]]
+---
 ### Exercises
 1. [[Courses/Functional Analysis II/Exercise Sheet 1|Exercise Sheet 1]]
 2. [[Courses/Functional Analysis II/Exercise Sheet 2|Exercise Sheet 2]]
