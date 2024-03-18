@@ -4,28 +4,20 @@
 > A [[Metric Space|metric space]] $(X,d)$ is ***compact***, if every open covering has a finite sub-covering. 
 > 
 > More formally, if $(U_{i})_{i\in I}$ is a collection of open sets  of $X$ s.t. $\bigcup_{i\in I}^{}U_{i}=X$, then there exists a finite subset $J \subseteq I$ s.t. $$\bigcup_{i\in J}^{}U_{i}=X$$
-- **Related Definition**:  A metric space $(X,d)$ is ***sequentially compact*** if every sequence $(x_{n})_{n=1}^\infty \subseteq X$ has a convergent subsequence.
+- **Related Definition**:  A metric space $(X,d)$ is ***sequentially compact*** if every sequence $(x_{n})_{n}\subseteq X$ has a convergent subsequence.
 - **Related Definition**:  A metric space $(X,d)$ is ***totally bounded/pre-compact*** if for every $\varepsilon>0$, there exists finite $J$ s.t. $\bigcup_{i\in J}^{}B(x_{i},\varepsilon)=X$. In other words, for every $\varepsilon>0$, there exists finite $A\subseteq X$ s.t. $d(x,A)<\varepsilon$ for all $x\in X$. Then, $A$ is called ***$\varepsilon$-net***.
 ---
 ##### Properties
-> [!lemma] Proposition 1
-> A metric space $(X,d)$ is compact if and only if for every closed collection $\mathcal{F}=(C_{i})_{i\in I}\subseteq \mathcal{P}(X)$,  $$\bigcap_{i\in J}^{}C_{i}\neq \varnothing\quad \forall \text{finite}J\subseteq I \implies \bigcap_{i\in I}^{}C_{i}\neq \varnothing$$
-
-> [!proof]-
-> The condition can be also written as:
-> $$\bigcap_{i\in I}^{}C_{i}= \varnothing\implies\bigcap_{i\in J}^{}C_{i}= \varnothing\quad \forall \text{finite }J\subseteq I$$
-> Let $(U_{i})_{i\in I}$ is an open covering of $X$. Then, take $C_{i}:= U_{i}^c$. Then, $$\bigcap_{i\in I}^{}U^c_{i}=X^c=\varnothing$$and for every finite $J\subseteq I$, $\bigcup_{i\in J}^{}U_{i}=X$. 
----
-> [!lemma] Theorem 2
+> [!lemma] Theorem 1
 > For a metric space $(X,d)$, the following are equivalent:
 > 1. $X$ is compact.
-> 2. Every collection of closed sets in $X$ with the finite intersection property (Proposition 1) has a non-empty intersection.
+> 2. Every collection of closed sets in $X$ with the finite intersection property has a non-empty intersection.
 > 3. If $F_{1}\supseteq F_2\supseteq\dots$ is a decreasing sequence of non-empty closed sets in $X$, $\bigcap_{n=1}^{\infty}F_{n}\neq \varnothing$.
 > 4. $X$ is sequentially compact.
 > 5. $X$ is totally bounded and complete.
 
 > [!proof]-
-> - (1 => 2): Proposition 1
+> - (1 => 2): Let $(C_{i})_{i}$ be a collection of closed sets. It suffices to show that if $\bigcap_{i\in I}^{}C_{i}=\varnothing$, then it holds for some finite subset. Indeed, $(U_{i})_{i}$ is an open covering of $X$ and there exists finite $J\subseteq I$ s.t. $(U_{i})_{i\in J}$ covers $X$. Then, we have that $$\bigcap_{i\in J}^{}C_{j}=X \backslash \bigcup_{i\in J}^{}U_{j}=\varnothing$$This shows the statement.
 > - (2 => 3): A decreasing sequence  $(F_{i})_{i=1}^\infty$ has the finite intersection property.
 > - (3 => 4): Let $(x_{n})_{n=1}^\infty \subseteq X$. We then define, $$F_{n}:=\overline{\{ x_{n},x_{n+1},\dots \}}$$Then, $F_{1}\supseteq F_{2}\supseteq F_{3}\supseteq \dots$ are decreasing, non-empty and closed. Therefore, there exists $a\in X$ s.t. $a\in \bigcap_{n=1}^{\infty}F_{n}$. It follows that there exists a subsequence converging to $a$.
 > - (4 => 5): We first show that $X$ is complete. Let $(x_{n})\subseteq X$ be any Cauchy sequence. Then, $(x_{n})_{n}$ has a convergent subsequence converging to $a$. This however, means that the whole sequence converges to $a$. Therefore, $X$ is complete.

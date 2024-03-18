@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Courses/Topology/Exercise Sheet 4.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7ae82cc0774442c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "source",
                 "source": true
@@ -31,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -44,13 +55,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62bc306dc46ca531",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 4.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd3cf9e37e6036d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Filter.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0443402bbfbb821e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Interior and Closure.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8717c14d71c9b528",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact Metric Space.md",
+                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact Metric Space.md",
+                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact Metric Space.md"
+                "file": "Courses/Topology/Exercise Sheet 4.md"
               }
             }
           }
@@ -178,13 +238,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a7833fc99d403f3a",
+  "active": "62bc306dc46ca531",
   "lastOpenFiles": [
-    "Topology/Compact Space.md",
+    "Topology/Filter.md",
+    "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Compact Metric Space.md",
+    "Topology/Interior and Closure.md",
+    "Topology/Hausdorff Space.md",
+    "Topology/Fundamental System.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Compact Space.md",
     "Measure Theory/Cantor Set.md",
     "Courses/Topology/Exercise Sheet 2.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
@@ -201,11 +266,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Topology/Weak Topology.md",
     "Analysis/Functional Analysis/Spectrum.md",
-    "Topology/Locally Compact Hausdorff Space.md",
-    "Analysis/Functional Analysis/Guelfand Topology.md",
-    "Topology/Locally Compact Topological Space.md",
-    "Topology/Topological Vector Space with Seminorms.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
