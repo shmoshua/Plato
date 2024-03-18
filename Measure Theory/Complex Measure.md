@@ -35,12 +35,19 @@
 > [!lemma] Proposition 2
 > positive measures
 ---
-> [!lemma] Theorem 3 (Riesz Representation)
+> [!lemma] Theorem 3
+> Let $\Lambda: C_{00}(X)\to \mathbb{C}$ be a positive linear functional, i.e. if $f\geq 0$ then $\Lambda(f)\geq 0$. Then, there exists a $\sigma$-algebra $\mathfrak{M}\supseteq \mathcal{B}$ and a positive measure $\lambda:\mathfrak{M}\to[0,+\infty]$ s.t. $$\Lambda(f)=\int_{X}f  \, d\lambda,\quad \forall f\in C_{00}(X) $$with the following properties:
+> 1. $\lambda(K)<+\infty$ for all $K\subseteq X$ compact, i.e. $\lambda$ is [[Radon Measure|Radon]].
+> 2. for all $E\in \mathfrak{M}$, $$\lambda(E)=\text{inf}\{ \lambda(V):E \subseteq V, V\text{ open} \}$$
+> 3. if $E$ is open or $\lambda(E)<+\infty$, then: $$\lambda(E)=\sup\{ \lambda(K):K\subseteq E, K\text{ compact} \}$$
+> 4. if $E\in \mathfrak{M}$ and $\lambda(E)=0$, then for all $A\subseteq E$, $A\in \mathfrak{M}.$
+
+---
+
+> [!lemma] Theorem 4 (Riesz Representation)
 > Let $X$ be [[Locally Compact Hausdorff Space|locally compact Hausdorff]] and $\mathcal{B}$ a [[Borel Sigma-Algebra|Borel $\sigma$-algebra]]. For every $\Phi\in C_{0}(X)^{*}$, there exists a unique complex regular measure $\mu:\mathcal{B}\to \mathbb{C}$ s.t. $$\Phi(f)=\int_{X}^{} f \, d\mu,\quad \forall f\in C_{0}(X) $$and $\left\| \Phi \right\|=\left| \mu \right|(X)$.
 ---
-> [!lemma] Theorem 4
-> Let $\Lambda: C_{00}(X)\to \mathbb{C}$ be a positive linear functional, i.e. if $f\geq 0$ then $\Lambda(f)\geq 0$. Then, there exists a 
----
+
 > [!lemma] Theorem 1 (Radon-Nykodym)
 > Let $(X,\Sigma)$ be a measure space, $\mu:\Sigma\to[0,+\infty]$ a non-negative finite measure and $\nu:\Sigma\to \mathbb{C}$ a complex measure s.t. $$\left| \nu(A) \right|\leq \mu(A)\quad \forall A\in \Sigma$$
 > Then, $d\nu=\rho d\mu$ where $\left| \rho \right|\leq 1$. Moreover, if $\nu$ is positive, then $0\leq\rho\leq 1$
