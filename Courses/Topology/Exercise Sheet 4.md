@@ -16,3 +16,13 @@ Conversely, assume that the condition holds. We will show that $X$ is Hausdorff.
 We have: 
 1. Assume that $X$ is Hausdorff and that $\mathcal{F}$ converges to $x$ and $y$ s.t. $x\neq y$. Let $U,V$ be the disjoint open neighborhoods of $x,y$ and by convergence, there exists $W\in \mathcal{F}$ s.t. $W\subseteq U$ and $W\subseteq V$. (this is given as the filter is closed under intersection). As $\varnothing\notin \mathcal{F}$, we have that $U\cap V\neq \varnothing$, which is a contradiction.
 2. Let $x,y\in X$ with $x\neq y$. We first consider the following set: $$\mathcal{F}:=\{\varnothing\neq A\subseteq X: A\supseteq V\cap W \text{ for some open neighborhood }V\text{ of }x \text{ and }W\text{ of }y \}$$Then, by definition $\varnothing \notin \mathcal{F}$ and for $A\in \mathcal{F}$ and $A\subseteq B$, $B\in \mathcal{F}$ with the same $V\cap W$. Lastly, consider $A,B\in \mathcal{F}$ with $V_{1},W_{1}$ and $V_{2},W_{2}$ as open neighborhoods. Then, $V_{1}\cap V_{2}$, $W_{1}\cap W_{2}$ are open neighborhoods of $x,y$ respectively and $A \cap B\supseteq (V_{1}\cap V_{2})\cap(W_{1}\cap W_{2})$. Therefore, $A\cap B\in \mathcal{F}$ and $\mathcal{F}$ is a filter. 
+   
+   Assume for all open neighborhoods $V,W$ of $x,y$ respectively, we have $V\cap W\neq \varnothing$. Then, for all open neighborhood $U$ of $x$, then $\varnothing \neq U\cap W\subseteq U$ for any open neighborhood $W$ of $y$. It follows that $\mathcal{F}$ converges to $x$ and by symmetry to $y$. This is a contradiction to $\mathcal{F}$ having a unique limit. Therefore, $X$ is Hausdorff.
+---
+> [!def] Problem 3
+> Let $X,Y$ be topological spaces. Define a topology on $X\times Y$ by saying that $U\subseteq X\times Y$ is open if and only if, for every $(x,y)\in U$, there exist neighborhoods $V$ and $W$ of $x$ and $y$ respectively such that $V\times W\subseteq U$ (this is the product topology).
+> 1. Check that this is a topology on $X\times Y$.
+> 2. Show that $X$ is a Hausdorff space if and only if the diagonal $$\Delta:=\{ (x,x)|x\in X \}\subseteq X\times X$$ is closed in $X\times X$ (with the above topology for $Y=X$).
+> 
+> In the following points, let Y be a Hausdorff space.
+>1. For any topological space $X$ and any continuous maps $f:X\to Y$ and $g:X\to Y$, show that the sets $$\{ (x,y): \}$$ are closed in X × X and in X, respectively. 
