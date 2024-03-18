@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Compact Metric Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,17 +49,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e4eaf6571dd13461",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,6 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Topology/Compact Metric Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,6 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Topology/Compact Metric Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +155,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Topology/Compact Metric Space.md"
+              }
             }
           }
         ]
@@ -183,9 +178,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e4eaf6571dd13461",
+  "active": "a7833fc99d403f3a",
   "lastOpenFiles": [
     "Topology/Compact Space.md",
+    "Topology/Compact Metric Space.md",
+    "Measure Theory/Cantor Set.md",
+    "Courses/Topology/Exercise Sheet 2.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -208,9 +206,6 @@
     "Topology/Locally Compact Topological Space.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Topology/Continuous Function.md",
-    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Analysis/Banach Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

@@ -22,7 +22,7 @@
 >4. It suffices to show that $f$ is closed. For a closed set $A\subseteq X$, $A$ is compact, $f(A)$ is compact, hence closed. 
 
 ---
-> [!lemma]
+> [!lemma] Lemma 2
 > Let $X$ be compact space and $Y$ a metric space. Further, let $f:X\to Y$ locally bounded, i.e. for all $x\in X$, there exists neighborhood $U \ni x$ s.t. $f|_{U}\subseteq B_{<r}(0)$ for some $r>0$. Then, $f$ is bounded on $X$.
 
 > [!proof]-
@@ -42,4 +42,15 @@
 > Let $A\subseteq \bigcup_{{\lambda\in \Lambda}}^{}U_{\lambda}$ where $U_{\lambda}$ is open in $X$.  Then, there is $\lambda_{0}\in \Lambda$ s.t. $y\in U_{\lambda_{0}}$. Therefore, there exists $N\in \mathbb{N}$ s.t. $x_{n}\in U_{\lambda_{0}}$ for $n\geq N$. Further, for $n\in [N-1]$, let $U_{\lambda_{n}}$ s.t. $x_{n}\in U_{\lambda_{n}}$. Then, $$A\subseteq \bigcup_{0\leq n <N}^{}U_{\lambda_{n}}$$
 ---
 > [!h] Example 3 (Heine-Borel)
-> Let $A\subseteq \mathbb{R}^n$ for $n\geq 0$. 
+> Let $A\subseteq \mathbb{R}^n$ for $n\geq 0$. Then, the following are equivalent:
+> 1. $A$ is compact.
+> 2. $A$ is closed and bounded.
+
+> [!proof]-
+> We first show it for $n=1$. 
+> 1. if $A$ is compact, $A$ is closed as $\mathbb{R}$ is Hausdorff. By Lemma 2 and the locally bounded map $$\begin{array}{cccc} {}&{A}&\to&{\mathbb{R}}\\&{x} &\mapsto & {x } \end{array}{}$$$A$ is bounded in $X$. 
+> 2. Conversely, if $A$ is closed and bounded, there exists $a\in \mathbb{R}$ s.t. $A\subseteq[-a,a]\subseteq \mathbb{R}$. As $A$ is closed, it suffices to show that $[-a,a]$ is compact. This is done by showing that $[0,1]$ is compact as a continuous image of the [[Cantor set]], which is compact. Then, one can easily establish a homeomorphism between $[-a,a]$ and $[0,1]$.
+---
+> [!h] Example 4
+> The unit ball in $L^2([0,1])$ is not compact.
+---

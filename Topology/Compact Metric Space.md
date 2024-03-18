@@ -9,7 +9,7 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> A metric space $(X,d)$ is compact if and only if for every closed collection $\mathcal{F}=(C_{i})_{i\in I}\subseteq \mathcal{P}(X)$,  $$\bigcap_{i\in J}^{}C_{i}\neq \varnothing\quad \forall \text{finite }J\subseteq I \implies \bigcap_{i\in I}^{}C_{i}\neq \varnothing$$
+> A metric space $(X,d)$ is compact if and only if for every closed collection $\mathcal{F}=(C_{i})_{i\in I}\subseteq \mathcal{P}(X)$,  $$\bigcap_{i\in J}^{}C_{i}\neq \varnothing\quad \forall \text{finite}J\subseteq I \implies \bigcap_{i\in I}^{}C_{i}\neq \varnothing$$
 
 > [!proof]-
 > The condition can be also written as:
