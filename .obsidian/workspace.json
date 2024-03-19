@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Algebraic and Transcendental Number.md",
                 "mode": "source",
                 "source": true
               }
@@ -35,27 +35,12 @@
             "id": "a7833fc99d403f3a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Compact Metric Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "542bd4e1eb55b8e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Field.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -68,6 +53,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "edfabcaa9afd319e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Algebraic and Transcendental Number.md",
                 "mode": "preview",
                 "source": false
               }
@@ -91,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Ring Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -176,7 +173,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Extension Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +189,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Extension Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,9 +210,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algebra/Extension Field.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -238,13 +231,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "789334e34777709c",
+  "active": "a7833fc99d403f3a",
   "lastOpenFiles": [
-    "Algebra/Polynomial Ring.md",
-    "Algebra/Extension Field.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Integral Domain.md",
+    "Topology/Compact Metric Space.md",
     "Algebra/Field.md",
+    "Algebra/Algebraic and Transcendental Number.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Extension Field.md",
+    "Algebra/Ring Homomorphism.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Integral Domain.md",
     "Topology/Filter.md",
     "Algebra/Linear Algebra/Vector Space.md",
     "Topology/Compact Space.md",
@@ -263,9 +259,6 @@
     "Analysis/Product Space.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Measure Theory/Borel Regular Measure.md",
-    "Measure Theory/Signed Measure.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
-    "Analysis/Complex Measure.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

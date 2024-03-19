@@ -22,6 +22,9 @@
 ##### 2. Fields and Field Extensions
 **2.1 Definitions and Basic Theorems**
 1. [[Extension Field]]
+
+**2.2 Algebraic Extension**
+1. [[Algebraic and Transcendental Number]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]

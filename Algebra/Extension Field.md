@@ -55,6 +55,22 @@
 ---
 > [!lemma] Theorem 5
 > Let $F$ be a field and $p(x)\in F[X]$ an irreducible polynomial. For any field extension $L:F$ with a root $\alpha$ of $p(x)$, $$F[X] / (p(x))\cong F(\alpha)\subseteq L$$
+
+> [!proof]-
+> Consider the following homomorphism. $$\begin{array}{cccc} {\varphi:}&{F[X]}&\to&{F(\alpha)\subseteq L}\\&{f(x)} &\mapsto & {f(\alpha)} \end{array}{}$$ As $(p(x))\subseteq \text{ker }\varphi$, this induces a unique homomorphism: $\overline{\varphi}:F[X] / (p(x))\to F(\alpha)$.  As this is a field homomorphism, it is injective and $F[X] / (p(x))\cong \text{Im}(\overline{\varphi})\subseteq F(\alpha)$. However, as the image contains $F$ and $\alpha$, $F[X] / (p(x))\cong F(\alpha)$.
+---
+> [!lemma] Theorem 6
+> Let $\varphi:F\to \tilde{F}$ be a field isomorphism and $p(x)\in F[X]$ be irreducible. Let $\tilde{p}(x)\in \tilde{F}[X]$ be the irreducible polynomial obtained by applying $\varphi$ to the coefficients of $p$. If $\alpha$ is the root of $p(x)$ in some extension of $F[X]$ and $\beta$ is the root of $\tilde{p}(x)$ in some extension of $\tilde{F}[X]$. Then, there exists an isomorphism $\sigma:F(\alpha)\to \tilde{F}(\beta)$ s.t. 
+> 1. $\sigma|_{F}=\varphi$ and
+> 2. $\sigma(\alpha)=\beta$.
+
+> [!proof]-
+> We get an isomorphism $F(\alpha)\cong F[X] / (p(x))\cong \tilde{F}[X] / (\tilde{p} (x))\cong \tilde{F} (\beta)$. 
+---
+> [!lemma] Lemma 7
+> Let $f,g\in F[X]$. then, 
+> 1. $f,g$ are relatively prime if and only if $f,g$ have no common root in any extension of $F$.
+> 2. if $f,g$ are distinct monic irreducible polynomials, then they have no common root in any extension of $F$.
 ---
 ##### Examples
 > [!h] Example 1
