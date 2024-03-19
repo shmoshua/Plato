@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 3.md",
                 "mode": "source",
                 "source": true
               }
@@ -92,8 +92,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Extension Field.md",
-                "mode": "preview",
+                "file": "Courses/Analysis IV/Exercise Sheet 3.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -140,14 +140,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Algebraic and Transcendental Number.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md"
+                "file": "Courses/Analysis IV/Exercise Sheet 3.md"
               }
             }
           }
@@ -275,17 +275,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5c5153beac5dce0d",
+  "active": "b9da19c2f0b8cec7",
   "lastOpenFiles": [
-    "Algebra/Integral Domain.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
+    "Courses/Analysis IV/Exercise Sheet 3.md",
     "Algebra/Extension Field.md",
-    "Algebra/Coprime Ideal.md",
-    "Algebra/Principal Ideal Domain.md",
     "Algebra/Ring Homomorphism.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Algebraic and Transcendental Number.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Coprime Ideal.md",
     "Algebra/Minimal Polynomial.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Algebraic and Transcendental Number.md",
     "Algebra/Untitled.md",
     "Topology/Compact Metric Space.md",
     "Algebra/Field.md",
@@ -302,7 +303,6 @@
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Continuous Function.md",
     "Topology/Topological Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
