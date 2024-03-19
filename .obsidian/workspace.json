@@ -40,7 +40,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,6 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algebra/Extension Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,6 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algebra/Extension Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +212,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algebra/Extension Field.md"
+              }
             }
           }
         ]
@@ -231,11 +235,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a7833fc99d403f3a",
+  "active": "789334e34777709c",
   "lastOpenFiles": [
+    "Algebra/Algebraic and Transcendental Number.md",
     "Topology/Compact Metric Space.md",
     "Algebra/Field.md",
-    "Algebra/Algebraic and Transcendental Number.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Extension Field.md",
     "Algebra/Ring Homomorphism.md",
