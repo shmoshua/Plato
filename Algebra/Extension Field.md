@@ -62,3 +62,17 @@
 ---
 > [!h] Example 2 (Kronecker)
 > For $p(x)=x^2+1\in \mathbb{R}[X]$, there is no zeros in $\mathbb{R}$. However, in $K:=\mathbb{R}[X] / (X^{2}+1)$, $\alpha:=X+(X^{2}+1)\in K$ is a root as: $$\alpha^{2}+1=X^{2}+(X^{2}+1)+1+(X^{2}+1)=0_{K}$$
+---
+> [!h] Example 3 (Complex Numbers)
+> Let $F:=\mathbb{R}$ and $p(x):=x^{2}+1$ with $\alpha=x+(x^{2}+1)$. Then, for $$K=\mathbb{R}[X] / (X^{2}+1)=\{ a+b\alpha:a,b\in \mathbb{R} \}$$
+> 1. $(a+b\alpha)+(c+d\alpha)=(a+c)+(b+d)\alpha$
+> 2. $(a+b\alpha)(c+d\alpha)=ac+(ad+bc)\alpha+bd\alpha^{2}=(ac-bd)+(ad+bc)\alpha$
+> 3. Therefore, there exists an isomorphism: $$\begin{array}{cccc} {\varphi:}&{\mathbb{R} [X] / (X^{2}+1)}&\to&{\mathbb{C}}\\&{a+b\alpha} &\mapsto & {a+bi} \end{array}{}$$
+---
+> [!h] Example 4 (Finding Inverses)
+> Let $p(x)=x^{3}-2\in \mathbb{Q}[X]$ which is irreducible by [[Unique Factorization Domain|Eisenstein]]. 
+> 1. $(1-\alpha)^{-1}=-\alpha^{2}-\alpha-1$
+
+> [!proof]+
+> We have that:
+> $$\begin{align}x^{3}-2&=()(1-x)\end{align}$$
