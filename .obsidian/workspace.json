@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "b9da19c2f0b8cec7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "5641fbfc1c8fd395",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -79,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Minimal Polynomial.md",
+                "file": "Algebra/Extension Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -111,6 +124,18 @@
           },
           {
             "id": "a4f7af31f685dbf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Principal Ideal Domain.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d571566c811bc299",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -252,16 +277,18 @@
   },
   "active": "5c5153beac5dce0d",
   "lastOpenFiles": [
-    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Integral Domain.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
-    "Algebra/Minimal Polynomial.md",
     "Algebra/Extension Field.md",
+    "Algebra/Coprime Ideal.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Ring Homomorphism.md",
+    "Algebra/Minimal Polynomial.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Algebraic and Transcendental Number.md",
     "Algebra/Untitled.md",
-    "Algebra/Integral Domain.md",
     "Topology/Compact Metric Space.md",
     "Algebra/Field.md",
-    "Algebra/Ring Homomorphism.md",
     "Algebra/Polynomial Ring.md",
     "Topology/Filter.md",
     "Algebra/Linear Algebra/Vector Space.md",
@@ -276,8 +303,6 @@
     "Topology/Continuous Function.md",
     "Topology/Topological Space.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/Hausdorff Space.md",
-    "Measure Theory/Radon Measure.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
