@@ -46,10 +46,12 @@
 > 2. $[K:F]=n$
 > 3. We have: $$K=\{ a_{0}+a_{1} \alpha+\dots+a_{n-1}\alpha^{n-1}:a_{i}\in F\}=F_{n-1}[\alpha]=F(\alpha)$$
 
-> [!proof]+
+> [!proof]-
 > For any $f(x)\in F[X]$, using the euclidean algorithm we get that: $$f(x)=p(x)q(x)+r(x)$$where $\deg r<\deg p$. Therefore, $f(x)+(p(x))=r(x)+(p(x))$ where $\deg r<n$. 
 > 
 > Now, if $1,\alpha,\dots,\alpha^{n-1}$ were linearly dependent in $K$, then there would be $b_{0},\dots,b_{n-1}$ in $F$, not all zero, s.t. $$g(\alpha)+(p(x)):=b_{0}+b_{1}\alpha+\dots+b_{n-1}\alpha^{n-1}=0_{K}$$Therefore, $g(x)\in (p(x))$ and $p(x)|g(x)$. But this is impossible as $\deg p=n>n-1=\deg q$. It follows that they form a basis in $K$.
+> 
+> Note that $K=F_{n-1}[\alpha]\subseteq F(\alpha)$. However, as $F(\alpha)$ is the smallest field that contains $F$ and $\alpha$, $F_{n-1}[\alpha]\supseteq F(\alpha)$ and $K=F(\alpha)$.
 ---
 ##### Examples
 > [!h] Example 1
