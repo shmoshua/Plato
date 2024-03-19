@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -238,13 +238,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d7901e0671c3fbd6",
+  "active": "789334e34777709c",
   "lastOpenFiles": [
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Extension Field.md",
+    "Algebra/Integral Domain.md",
     "Algebra/Field.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Extension Field.md",
     "Topology/Filter.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Linear Algebra/Vector Space.md",
     "Topology/Compact Space.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -265,7 +266,6 @@
     "Measure Theory/Signed Measure.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Analysis/Complex Measure.md",
-    "Topology/Compact Metric Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

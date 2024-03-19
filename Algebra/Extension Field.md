@@ -40,6 +40,17 @@
 > 
 > Now, we show that $K$ has a root of $p(x)$. Let $\alpha:=x+I\in K$. Then, for $p(x):=a_{0}+a_{1}x+\dots+a_{n}x^n$, $$\begin{align}p(\alpha)&=a_{0}+a_{1}x+\dots+a_{n}x^n +I\\&=p(x)+(p(x))\\&=0_{K}\end{align}$$
 ---
+> [!lemma] Theorem 4
+> Let $p(x)\in F[X]$ be an irreducible polynomial of degree $n$ over a field $F$. Let $K:=F[X] / (p(x))$ and $\alpha:=x+(p(x))$. Then, 
+> 1. $1,\alpha,\alpha^{2},\dots,\alpha^{n-1}$ forms a basis of $K$ as a $F$-vector space.
+> 2. $[K:F]=n$
+> 3. We have: $$K=\{ a_{0}+a_{1} \alpha+\dots+a_{n-1}\alpha^{n-1}:a_{i}\in F\}=F_{n-1}[\alpha]=F(\alpha)$$
+
+> [!proof]+
+> For any $f(x)\in F[X]$, using the euclidean algorithm we get that: $$f(x)=p(x)q(x)+r(x)$$where $\deg r<\deg p$. Therefore, $f(x)+(p(x))=r(x)+(p(x))$ where $\deg r<n$. 
+> 
+> Now, if $1,\alpha,\dots,\alpha^{n-1}$ were linearly dependent in $K$, then there would be $b_{0},\dots,b_{n-1}$ in $F$, not all zero, s.t. $$g(\alpha)+(p(x)):=b_{0}+b_{1}\alpha+\dots+b_{n-1}\alpha^{n-1}=0_{K}$$Therefore, $g(x)\in (p(x))$ and $p(x)|g(x)$. But this is impossible as $\deg p=n>n-1=\deg q$. It follows that they form a basis in $K$.
+---
 ##### Examples
 > [!h] Example 1
 > We have that:
@@ -48,4 +59,4 @@
 > 3. $\mathbb{C}:\mathbb{Q}$ with $\mathbb{R}$ as intermediate field.
 ---
 > [!h] Example 2 (Kronecker)
-> For $p(x)=x^2+1\in \mathbb{R}[X]$, 
+> For $p(x)=x^2+1\in \mathbb{R}[X]$, there is no zeros in $\mathbb{R}$. However, in $K:=\mathbb{R}[X] / (X^{2}+1)$, $\alpha:=X+(X^{2}+1)\in K$ is a root as: $$\alpha^{2}+1=X^{2}+(X^{2}+1)+1+(X^{2}+1)=0_{K}$$
