@@ -20,30 +20,6 @@
             }
           },
           {
-            "id": "a3ed88c7c32f44e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 1.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7ae82cc0774442c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "a7833fc99d403f3a",
             "type": "leaf",
             "state": {
@@ -67,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -105,18 +80,6 @@
               "type": "markdown",
               "state": {
                 "file": "Topology/Topological Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "800db26bba0b641a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "mode": "preview",
                 "source": false
               }
@@ -171,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md"
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
               }
             }
           }
@@ -300,15 +263,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "800db26bba0b641a",
+  "active": "d7901e0671c3fbd6",
   "lastOpenFiles": [
-    "Measure Theory/Complex Measure.md",
-    "Topology/Interior and Closure.md",
-    "Topology/Compact Space.md",
-    "Topology/Compact sets.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Courses/Topology/Exercise Sheet 1.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Filter.md",
+    "Topology/Compact Space.md",
+    "Measure Theory/Complex Measure.md",
+    "Topology/Interior and Closure.md",
+    "Topology/Compact sets.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Continuous Function.md",
     "Topology/Topological Space.md",
     "Courses/Topology/Topology Roadmap.md",
@@ -316,7 +280,6 @@
     "Measure Theory/Radon Measure.md",
     "Analysis/Product Space.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Topology/Exercise Sheet 1.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Measure Theory/Borel Regular Measure.md",
     "Measure Theory/Signed Measure.md",

@@ -71,4 +71,15 @@ We have:
 > 3. Prove that $f$ is continuous.
 
 We have:
-1. We know that for any $y\neq y_{0}$ in $Y$, $(x_{0},y)\notin \text{graph}(f)$. Therefore, by the definition of product topology, there exists open neighborhoods $U_{y}$
+1. We know that for any $y\neq y_{0}$ in $Y$, $(x_{0},y)\notin \text{graph}(f)$. Therefore, by the definition of product topology, there exists open neighborhoods $U_{y},V_{y}$ of $x_{0}$ and $y$ respectively, s.t. $U_{y}\times V_{y}\subseteq X\times Y\backslash\text{graph}(f)$, which shows the statement.
+2. As $Y$ is compact, $Y \backslash V$ is compact as a closed set. Now, consider $\{ V_{y}:y\in Y \backslash V \}$ as an open cover of $Y \backslash V$. Then, there exists a finite set $J\subseteq Y \backslash V$ s.t. $Y \backslash V\subseteq \bigcup_{y\in J}^{}V_{y}$. Now, set $U:=\bigcap_{y\in J}^{}U_{y}\ni x_{0}$. Then, for any $(x,y)\in U\times(Y \backslash V)$, there exists $z\in J$ s.t. $(x,y)\in U_{z}\times V_{z}$. This proves the statement.
+3. Let $V$ an open set in $Y$. If $f^{-1}(V)=\varnothing$, we are done. Otherwise, take $x_{0}\in f^{-1}(V)$. As $V$ is an open neighborhood of $f(x_{0})$, there exists an open neighborhood $U$ of $x_{0}$ s.t. $U\times Y \backslash V\cap \text{graph}(f)=\varnothing$. Let $x\in U$. Then, $f(x)\in V$ and consequently, $U\subseteq f^{-1}(V)$. This proves that $f$ is continuous.
+---
+> [!def] Problem 7
+> Let $X$ be a topological space. Show that $X$ is compact if and only if, for any family $(U_{x})_{x\in X}$ of open sets such that $U_{x}$ is an open neighborhood of $x$ for all $x$, there exists a finite subset $S\subseteq X$ such that: $$X=\bigcup_{x\in S}^{}U_{x}$$
+
+First, assume that $X$ is compact. Then, $(U_{x})_{x}$ is an open covering of $X$ and the property holds by assumption. 
+
+Conversely, assume that the property holds and let $(U_{i})_{i\in I}$ be an arbitrary open cover of $X$. For each $x\in X$, let $V_{x}$ be the open set in $(U_{i})_{i}$ s.t. $x\in V_{x}$, where such open set exists as $(U_{i})_{i}$ is an open cover of $X$. Then, $(V_{x})_{x\in X}\subseteq (U_{i})_{i\in I}$ and there exists a finite subset $S\subseteq X$ s.t. $X=\bigcup_{x\in S}^{}V_{x}$. Therefore, $(V_{x})_{x\in S}$ is a finite sub-cover of $X$ of our original open cover. This proves the statement.
+
+---
