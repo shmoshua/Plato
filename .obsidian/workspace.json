@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Algebra/Extension Field.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5641fbfc1c8fd395",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,91 +62,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0aa7d2600ccf8107",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Interior and Closure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06e0a8d265922d80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6984370ff6f048c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Topological Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd3cf9e37e6036d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Filter.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b4c2a041857c3b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Complex Measure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0443402bbfbb821e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Interior and Closure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a46806264f6ab3ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "789334e34777709c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Extension Field.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52e03406ec562448",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Linear Algebra/Vector Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cofinite",
+                "query": "monic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,8 +144,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Algebra/Extension Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Algebra/Extension Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
+                "file": "Algebra/Extension Field.md"
               }
             }
           }
@@ -263,12 +226,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d7901e0671c3fbd6",
+  "active": "789334e34777709c",
   "lastOpenFiles": [
+    "Algebra/Linear Algebra/Vector Space.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Extension Field.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Topology/Compact Space.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Filter.md",
-    "Topology/Compact Space.md",
     "Measure Theory/Complex Measure.md",
     "Topology/Interior and Closure.md",
     "Topology/Compact sets.md",
@@ -279,7 +247,6 @@
     "Topology/Hausdorff Space.md",
     "Measure Theory/Radon Measure.md",
     "Analysis/Product Space.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Measure Theory/Borel Regular Measure.md",
     "Measure Theory/Signed Measure.md",
@@ -287,10 +254,6 @@
     "Analysis/Complex Measure.md",
     "Topology/Compact Metric Space.md",
     "Topology/Fundamental System.md",
-    "Measure Theory/Cantor Set.md",
-    "Courses/Topology/Exercise Sheet 2.md",
-    "Courses/Functional Analysis II/Exercise Sheet 3.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
