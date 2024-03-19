@@ -53,6 +53,9 @@
 > 
 > Note that $K=F_{n-1}[\alpha]\subseteq F(\alpha)$. However, as $F(\alpha)$ is the smallest field that contains $F$ and $\alpha$, $F_{n-1}[\alpha]\supseteq F(\alpha)$ and $K=F(\alpha)$.
 ---
+> [!lemma] Theorem 5
+> Let $F$ be a field and $p(x)\in F[X]$ an irreducible polynomial. For any field extension $L:F$ with a root $\alpha$ of $p(x)$, $$F[X] / (p(x))\cong F(\alpha)\subseteq L$$
+---
 ##### Examples
 > [!h] Example 1
 > We have that:
@@ -73,6 +76,7 @@
 > Let $p(x)=x^{3}-2\in \mathbb{Q}[X]$ which is irreducible by [[Unique Factorization Domain|Eisenstein]]. 
 > 1. $(1-\alpha)^{-1}=-\alpha^{2}-\alpha-1$
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> $$\begin{align}x^{3}-2&=()(1-x)\end{align}$$
+> $$\begin{align}x^{3}-2&=(-x^{2}-x-1)(1-x)-1\end{align}$$Therefore, $(1-\alpha)^{-1}=(-\alpha^{2}-\alpha-1)$.
+---
