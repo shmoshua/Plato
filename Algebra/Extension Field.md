@@ -19,7 +19,7 @@
 > [!lemma] Theorem 2 (Dimension behaves multiplicatively)
 > If $K$ is an intermediate field of a field extension $L:F$, then: $$[L:F]=[L:K][K:F]$$
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. **Case 1: $[K:F]=\infty$**:
 >    Then, there are infinitely many linearly independent vectors in $K$ and thereby in $L$. Therefore, the dimension of $[L:F]$ is also infinite.
@@ -28,8 +28,17 @@
 > 3. **Case 3: $[L:K],[K:F]<+\infty$**:
 >    Let $\{ x_{1},\dots,x_{n} \}$ be the basis of $K / F$ and $\{ y_{1},\dots,y_{m} \}$ be a basis of $L / K$. Then, we show that: $$\{ x_{i}y_{j}: i\in [n],j\in [m] \}$$is a basis of $L / F$.
 >    - **Showing that they are generating**:
-> 	  Let $y\in L$. Then, $y=\sum_{j=1}^{m}b_{j}y_{j}$ with $b_{j}\in K$. Therefore, for all $j\in [m]$, $b_{j}=\sum_{i=1}^{n}a_{ij}x_{i}$ with $a_{ij}\in F$. It follows that: $$y=\sum_{i=1}^{n}\sum_{j}^{}$$
+> 	  Let $y\in L$. Then, $y=\sum_{j=1}^{m}b_{j}y_{j}$ with $b_{j}\in K$. Therefore, for all $j\in [m]$, $b_{j}=\sum_{i=1}^{n}a_{ij}x_{i}$ with $a_{ij}\in F$. It follows that: $$y=\sum_{i=1}^{n}\sum_{j=1}^{m}a_{ij}x_{i}y_{j}$$
 >    - **Showing that they are linearly independent**:
+> 	   Assume that $\sum_{i=1}^{n}\sum_{j=1}^{m}a_{ij}x_{i}y_{j}=0$. As $y_{j}$'s are linearly independent, $\sum_{i=1}^{n}a_{ij}x_{i}=0$ for all $j\in [m]$. Then, by linear independence of $x_{i}$, $a_{ij}=0$ for all $i,j$.
+---
+> [!lemma] Theorem 3 (Kronecker)
+> Let $F$ be a field and $p(x)\in F[X]$ an [[Integral Domain|irreducible]] polynomial. Then, there exists a field $K$ containing an isomorphic copy of $F$ in which $p(x)$ has a root.
+
+> [!proof]-
+> Since $p(x)$ is irreducible, $I:=(p(x))$ is maximal in the PID $F[X]$. Let $K:=F[X] / I$. Then, $K$ is a field and for the following canonical map: $$\begin{array}{cccc} {\pi:}&{F[X]}&\to&{F[X] / I}\\&{q} &\mapsto & {q+I} \end{array}{}$$the restriction $\pi|_{F}$ gives a field homomorphism, which is injective by [[Field|Lemma 5]]. Therefore, $F\cong \pi(F)\subseteq K$ and $K$ contains an isomorphic copy of $F$. 
+> 
+> Now, we show that $K$ has a root of $p(x)$. Let $\alpha:=x+I\in K$. Then, for $p(x):=a_{0}+a_{1}x+\dots+a_{n}x^n$, $$\begin{align}p(\alpha)&=a_{0}+a_{1}x+\dots+a_{n}x^n +I\\&=p(x)+(p(x))\\&=0_{K}\end{align}$$
 ---
 ##### Examples
 > [!h] Example 1
@@ -38,3 +47,5 @@
 > 2. $\mathbb{C}:\mathbb{R}$
 > 3. $\mathbb{C}:\mathbb{Q}$ with $\mathbb{R}$ as intermediate field.
 ---
+> [!h] Example 2 (Kronecker)
+> For $p(x)=x^2+1\in \mathbb{R}[X]$, 

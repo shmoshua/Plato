@@ -35,6 +35,12 @@
 > Let $F$ be a field. If $f\in F[X]$ with $\text{deg}(f)=:n>0$, then $F$ has at most $n$ zeros.
 - **Remark**: This is not true for general rings. $x^{2}-1\in (\mathbb{Z} / 8\mathbb{Z})[x]$ has 4 zeros: $1,3,5,7$.
 ---
+> [!lemma] Lemma 5
+> A field homomorphism $\varphi:F\to K$ is always injective.
+
+> [!proof]-
+> As a field $F$ only has $(0)$ and $F$ as ideals, $\text{ker }\varphi$ has to be one of the two. However, $\varphi(1)\neq 0$ and therefore $\text{ker }\varphi=(0)$. 
+---
 ##### Examples
 - $\mathbb{Q},\mathbb{R},\mathbb{C}$
 - $\mathbb{Z} / p\mathbb{Z}$ for $p$ prime.
