@@ -25,8 +25,10 @@
 
 **2.2 Algebraic Extension**
 1. [[Algebraic and Transcendental Number]]
+2. [[Minimal Polynomial]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
 2. [[Courses/Algebra II/Exercise Sheet 1|Exercise Sheet 1]]
 3. [[Courses/Algebra II/Exercise Sheet 2|Exercise Sheet 2]]
+4. [[Courses/Algebra II/Exercise Sheet 3|Exercise Sheet 3]]

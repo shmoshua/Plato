@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Extension Field.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -35,12 +35,15 @@
             "id": "a7833fc99d403f3a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Minimal Polynomial.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -59,12 +62,24 @@
             }
           },
           {
+            "id": "5c5153beac5dce0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "edfabcaa9afd319e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md",
+                "file": "Algebra/Minimal Polynomial.md",
                 "mode": "preview",
                 "source": false
               }
@@ -76,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Extension Field.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -107,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Extension Field.md",
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Extension Field.md",
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Extension Field.md"
+                "file": "Courses/Algebra II/Exercise Sheet 3.md"
               }
             }
           }
@@ -235,16 +250,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "789334e34777709c",
+  "active": "5c5153beac5dce0d",
   "lastOpenFiles": [
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Courses/Algebra II/Exercise Sheet 3.md",
+    "Algebra/Minimal Polynomial.md",
+    "Algebra/Extension Field.md",
     "Algebra/Algebraic and Transcendental Number.md",
+    "Algebra/Untitled.md",
+    "Algebra/Integral Domain.md",
     "Topology/Compact Metric Space.md",
     "Algebra/Field.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Extension Field.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Polynomial Ring.md",
-    "Algebra/Integral Domain.md",
     "Topology/Filter.md",
     "Algebra/Linear Algebra/Vector Space.md",
     "Topology/Compact Space.md",
@@ -260,9 +278,6 @@
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Hausdorff Space.md",
     "Measure Theory/Radon Measure.md",
-    "Analysis/Product Space.md",
-    "Measure Theory/Continuous Function with Compact Support.md",
-    "Measure Theory/Borel Regular Measure.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
