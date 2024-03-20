@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "c0845d4d7e21d1a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "5641fbfc1c8fd395",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -75,12 +87,24 @@
             }
           },
           {
+            "id": "744dbeebeff9eecc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3107dd80ec0db4bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Extension Field.md",
+                "file": "Algebra/Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -116,8 +140,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md",
-                "mode": "source",
+                "file": "Algebra/Extension Field.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -171,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -237,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md",
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md",
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md"
+                "file": "Courses/Algebra II/Exercise Sheet 3.md"
               }
             }
           }
@@ -299,13 +323,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8e722292e3bc8519",
+  "active": "744dbeebeff9eecc",
   "lastOpenFiles": [
-    "Algebra/Extension Field.md",
     "Algebra/Algebraic and Transcendental Number.md",
+    "Algebra/Field.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Extension Field.md",
     "Algebra/Minimal Polynomial.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Composite Field.md",
     "Courses/Analysis IV/Exercise Sheet 3.md",
     "Algebra/Ring Homomorphism.md",
@@ -314,7 +339,6 @@
     "Algebra/Coprime Ideal.md",
     "Algebra/Untitled.md",
     "Topology/Compact Metric Space.md",
-    "Algebra/Field.md",
     "Algebra/Polynomial Ring.md",
     "Topology/Filter.md",
     "Algebra/Linear Algebra/Vector Space.md",

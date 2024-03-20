@@ -1,4 +1,4 @@
-#Series #Algebra 
+x#Series #Algebra 
 
 > [!def] Problem 1
 > Consider the following: 
@@ -14,3 +14,9 @@ We have:
 > 1. Show that $\overline{\mathbb{Q}}$ is a field.
 > 2. Show that $\overline{\mathbb{Q}}:\mathbb{Q}$ is an infinite extension.
 
+We have: 
+1. We trivially have $0,1\in \overline{\mathbb{Q}}$. Now, consider $\alpha,\beta\in \overline{\mathbb{Q}}$. As $\alpha,\beta$ are algebraic over $\mathbb{Q}$, $\mathbb{Q}(\alpha,\beta):\mathbb{Q}$ is finite and algebraic. Therefore, $\alpha-\beta$ is algebraic over $\mathbb{Q}$ and $\alpha-\beta\in \overline{\mathbb{Q}}$. 
+   
+   Now it suffices to show that for every non-zero $\alpha\in \overline{\mathbb{Q}}$, there exists an multiplicative inverse. 
+	- **Showing that $\alpha-\beta\in \overline{\mathbb{Q}}$**:
+2. Let $0\neq\alpha\in \overline{\mathbb{Q}}$. Then, there exists a non-zero polynomial $p(x)\in \mathbb{Q}[X]$ s.t. $p(\alpha)=0$. Let: $$p(x):=a_{0}+a_{1}x+\dots +a_{n}x^n$$and define a new polynomial: $$q(x):=a_{n}+a_{n-1}x+\dots+a_{0}x^n$$Then, $$q\left( \frac{1}{\alpha} \right)=$$
