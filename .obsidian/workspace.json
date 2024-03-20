@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Minimal Polynomial.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,13 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Minimal Polynomial.md",
+                "file": "Algebra/Extension Field.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "aedda04834e89531",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Algebraic and Transcendental Number.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "c45eeefa3389e702",
@@ -74,7 +87,7 @@
             }
           },
           {
-            "id": "28b432baa4feb3d7",
+            "id": "3107dd80ec0db4bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,7 +170,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -223,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Minimal Polynomial.md",
+                "file": "Algebra/Algebraic and Transcendental Number.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Minimal Polynomial.md",
+                "file": "Algebra/Algebraic and Transcendental Number.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Minimal Polynomial.md"
+                "file": "Algebra/Algebraic and Transcendental Number.md"
               }
             }
           }
@@ -285,12 +299,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a46806264f6ab3ea",
+  "active": "8e722292e3bc8519",
   "lastOpenFiles": [
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Minimal Polynomial.md",
     "Algebra/Extension Field.md",
     "Algebra/Algebraic and Transcendental Number.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Minimal Polynomial.md",
+    "Algebra/Composite Field.md",
     "Courses/Analysis IV/Exercise Sheet 3.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Ring Homomorphism.md",
@@ -312,7 +327,6 @@
     "Topology/Compact sets.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Continuous Function.md",
-    "Topology/Topological Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

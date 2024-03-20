@@ -20,14 +20,6 @@
 > [!proof]-
 > From [[Extension Field|Theorem 4]]
 ---
-> [!lemma] Proposition 3
-> Let $K:F$ and $\alpha\in K$. The following are equivalent:
-> 1.  $\alpha$ is algebraic over $F$. 
-> 2. $[F(\alpha):F]<+\infty$
-
-> [!proof]-
-> (1=>2) holds from Theorem 2. For the converse, suppose that $[F(\alpha):F]=n$. Then, $$1,\alpha,\dots,\alpha^n$$are linearly dependent and there exists $b_{0},\dots,b_{n}\in F$ not all zero, s.t. $$b_{0}+b_{1}\alpha+\dots+b_{n}\alpha^n=0$$By defining $g(x):=b_{0}+b_{1}x+\dots+b_{n}x^n\in F[X]$, we have that $\alpha$ is algebraic over $F$. 
----
 ##### Examples
 1. $K=\mathbb{Q}, L=\mathbb{R},\mathbb{C}$ and $s_{0}=\sqrt{ 2 }$. Then, $$m_{\sqrt{ 2 }}=X^{2}-2$$and $$\mathbb{Q}[X] / (X^2-2)\cong \mathbb{Q}[\sqrt{ 2 }]$$
 2. $K=\mathbb{Q},$ and $s_{0}=2\cos\left( \frac{2\pi}{5} \right)=e^{i 2\pi/5}+e^{-i 2\pi /5}$. Then, $$m_{s_{0}}=X^{2}+X-1$$with $\varphi$ as a root. Therefore, $$\cos\left( \frac{2\pi}{5} \right)=\frac{\varphi}{2}$$and $\text{gcd}(X^2+X-1,X)$ and get: $$\frac{1}{\overline{X}}=\overline{X+1},\quad \frac{1}{\varphi}=\varphi+1$$

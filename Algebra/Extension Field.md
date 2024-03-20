@@ -8,6 +8,7 @@
 - **Related definition**: An extension $K:F$ is ***simple*** if there exists $a\in K$ s.t. $K=F(a)$. Then, $a$ is called the ***primitive element***.
 - **Related definition**: If $L:K$ and $K:F$, then $K$ is the ***intermediate field*** of $L:F$.
 - **Related definition**: The ***degree*** of extension $K:F$ is denoted as $[K:F]:=\text{dim}_{F} K$ as a $F$-vector space. (cf. Lemma 1)
+- **Related definition**: An extension $K:F$ is ***finitely generated*** if there exists $\alpha_{1},\dots,\alpha_{n}\in K$ s.t. $K=F(\alpha_{1},\dots,\alpha_{n})$.
 ---
 ##### Properties
 > [!lemma] Lemma 1
@@ -71,6 +72,14 @@
 > Let $f,g\in F[X]$. then, 
 > 1. $f,g$ are relatively prime if and only if $f,g$ have no common root in any extension of $F$.
 > 2. if $f,g$ are distinct monic irreducible polynomials, then they have no common root in any extension of $F$.
+---
+> [!lemma] Theorem 8
+> An extension $K:F$ is finite, i.e. $[K:F]<+\infty$ if and only if there exists $\alpha_{1},\dots,\alpha_{n}\in K$ algebraic over $F$ s.t. $$K=F(\alpha_{1},\dots,\alpha_{n})$$
+
+> [!proof]-
+> Assume that $[K:F]=n$. Then, there exists a basis $\alpha_{1},\dots,\alpha_{n}\in K$ that generates $K$. Furthermore, $\alpha_{i}$ is algebraic as $K:F(\alpha_{i}):F$ and $[F(\alpha_{i}):F]$ is finite by [[Algebraic and Transcendental Number|Prop 2]].
+> 
+> Conversely, if there exists $\alpha_{1},\dots,\alpha_{n}\in K$ algebraic over $F$ s.t. $K=F(\alpha_{1},\dots,\alpha_{n})$, we have that: $$[K:F]=[F(\alpha_{1}):F]\prod_{i=2}^{n}[F(\alpha_{1},\dots,\alpha_{i}):F(\alpha_{1},\dots,\alpha_{i-1})]$$which is finite as a finite product.
 ---
 ##### Examples
 > [!h] Example 1

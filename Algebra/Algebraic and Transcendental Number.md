@@ -26,3 +26,17 @@
 > 	
 > 	This especially shows the uniqueness of such polynomial.
 ---
+> [!lemma] Proposition 2
+> Let $K:F$ and $\alpha\in K$. The following are equivalent:
+> 1.  $\alpha$ is algebraic over $F$. 
+> 2. $[F(\alpha):F]<+\infty$
+
+> [!proof]-
+> (1=>2) holds from Theorem 2. For the converse, suppose that $[F(\alpha):F]=n$. Then, $$1,\alpha,\dots,\alpha^n$$are linearly dependent and there exists $b_{0},\dots,b_{n}\in F$ not all zero, s.t. $$b_{0}+b_{1}\alpha+\dots+b_{n}\alpha^n=0$$By defining $g(x):=b_{0}+b_{1}x+\dots+b_{n}x^n\in F[X]$, we have that $\alpha$ is algebraic over $F$. 
+- **Corollary**: If $[K:F]$ is finite, $K:F$ is an [[Algebraic and Transcendental Number|algebraic extension]]. (cf. [[Extension Field|Theorem 2]])
+---
+> [!lemma] Theorem 3
+> Let $L:K:F$. If $L$ is algebraic over $K$ and $K$ is algebraic over $F$, then $L$ is algebraic over $F$. 
+
+> [!proof]+
+> Let $\alpha\in L$. Then, $\alpha$ is algebraic over $K$ and therefore, $[K(\alpha):K]=:n$. 

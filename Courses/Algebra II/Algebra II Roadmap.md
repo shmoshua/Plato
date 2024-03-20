@@ -26,6 +26,8 @@
 **2.2 Algebraic Extension**
 1. [[Algebraic and Transcendental Number]]
 2. [[Minimal Polynomial]]
+3. [[Extension Field|Finitely Generated Extensions]]
+4. [[Composite Field]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
