@@ -17,7 +17,7 @@
 **1.4 Subspaces and Bases**
 1. [[Vector Subspace]]
 2. [[Linear Independence]]
-3. [[Basis]]
+3. [[Algebraic Basis]]
 4. [[Dimension]]
 
 **1.5 Linear Maps**

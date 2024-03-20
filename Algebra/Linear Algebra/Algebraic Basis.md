@@ -1,7 +1,7 @@
 #Definition #LST #LinearAlgebra 
 
 > [!definition]
-> Let $(V,F)$ be a [[Vector Space|linear space]]. A set of vectors $S \subseteq V$ is a ***basis*** of $(V,F)$ if and only if they are [[Linear Independence|linearly independent ]] and [[Span|spans]] $V$, i.e. $\text{Span}(S)=V$.
+> Let $V$ be a $\mathbb{K}$-[[Vector Space|linear space]]. A set of vectors $S \subseteq V$ is an ***(algebraic) basis*** of $(V,F)$ if and only if they are [[Linear Independence|linearly independent ]] and [[Span|spans]] $V$, i.e. $\text{Span}(S)=V$.
 
 ---
 ##### Properties

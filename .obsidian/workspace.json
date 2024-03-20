@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Vector Space.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Norm.md",
+                "file": "Algebra/Linear Algebra/Algebraic Basis.md",
                 "mode": "source",
                 "source": true
               }
@@ -74,127 +74,31 @@
             }
           },
           {
+            "id": "6b3f454a4b6e39ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Hilbert Basis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6d9e233fb4c73d49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "744dbeebeff9eecc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Topological Vector Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3107dd80ec0db4bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Field.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e722292e3bc8519",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a46806264f6ab3ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Minimal Polynomial.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c5153beac5dce0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Composite Field.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "789334e34777709c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Extension Field.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52e03406ec562448",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Ring Homomorphism.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4f7af31f685dbf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d571566c811bc299",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md",
+                "file": "Topology/Separable Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -260,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Topological Vector Space.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Topological Vector Space.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Topological Vector Space.md"
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md"
               }
             }
           }
@@ -322,19 +226,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "744dbeebeff9eecc",
+  "active": "d7901e0671c3fbd6",
   "lastOpenFiles": [
-    "Analysis/Norm.md",
-    "Topology/Topological Vector Space.md",
+    "Topology/Separable Space.md",
+    "Analysis/Hilbert Basis.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Analysis/Inner Product Space.md",
+    "Algebra/Linear Algebra/Algebraic Basis.md",
+    "Analysis/Hilbert Space.md",
+    "Analysis/Norm.md",
+    "Analysis/Gram-Schmidt Orthogonalization.md",
+    "Analysis/Banach Space.md",
+    "Algebra/Algebraic and Transcendental Number.md",
+    "Topology/Topological Vector Space.md",
     "Analysis/Normed Space.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
     "Analysis/Inner Product of a Vector Space.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Field.md",
-    "Algebra/Algebraic and Transcendental Number.md",
     "Algebra/Minimal Polynomial.md",
     "Algebra/Composite Field.md",
     "Algebra/Extension Field.md",
@@ -344,12 +254,6 @@
     "Courses/Analysis IV/Exercise Sheet 3.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Coprime Ideal.md",
-    "Algebra/Untitled.md",
-    "Topology/Compact Metric Space.md",
-    "Algebra/Polynomial Ring.md",
-    "Topology/Filter.md",
-    "Algebra/Linear Algebra/Vector Space.md",
-    "Topology/Compact Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
