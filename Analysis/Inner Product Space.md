@@ -9,7 +9,6 @@
 
 - **Remark**: 2 implies that for all $u\in V$, $\braket{ u , u }\in \mathbb{R}$. 
 
-- **Remark**: $\|\cdot \|:V \to \mathbb{K}, x \mapsto \sqrt{ \braket{ x , x } }$ defines a [[Norm|norm]] on $V$.
 - **Related definition**: If $(V,\|\cdot\|)$ is [[Banach Space|Banach]], $V$ is a [[Hilbert space]].
 
 ---
@@ -17,17 +16,27 @@
 > [!lemma] Theorem 1 (Cauchy-Schwarz)
 > For an inner product space $V$ and all $x,y\in V$: $$\left| \braket{ x , y } \right|\leq \|x\|\cdot\|y\|$$
 
-> [!proof]+
-> If $x=0$ or $y=0$, the proof is obvious. Otherwise, choose $\alpha\in \mathbb{C}$ s.t. $\left| \alpha \right|=1$ and $\alpha \braket{ x , y }=-\left| \braket{ x , y } \right|$. Then, for all $\lambda\in \mathbb{R}$:$$\begin{align}0\leq\left\| \lambda x +\alpha y\right\|^2&=\braket{ \lambda x+\alpha y , \lambda x+\alpha y }\\&=\lambda^{2}\|x\|^{2}+\braket{ \lambda x , \alpha y }+\braket{ \alpha y , \lambda x } +\left\| y \right\| ^{2}\\&=\lambda^{2}\|x\|^{2}+\lambda \braket{ x , \alpha y }+\lambda \braket{ \alpha y , x } +\left\| y \right\| ^{2} \\&=\lambda^{2}\|x\|^{2}+2\lambda \left| \braket{ x , y }  \right| +\|y\|^{2}\end{align}$$Therefore, $\lambda^{2}\|x\|^{2}+\|y\|^{2}\geq -2\lambda \left| \braket{ x , y } \right|$
+> [!proof]-
+> If $x=0$ or $y=0$, the proof is obvious. Otherwise, choose $\alpha\in \mathbb{C}$ s.t. $\left| \alpha \right|=1$ and $\alpha \braket{ x , y }=-\left| \braket{ x , y } \right|$. Then, for all $\lambda\in \mathbb{R}$:$$\begin{align}0\leq\left\| \lambda x +\alpha y\right\|^2&=\braket{ \lambda x+\alpha y , \lambda x+\alpha y }\\&=\lambda^{2}\|x\|^{2}+\braket{ \lambda x , \alpha y }+\braket{ \alpha y , \lambda x } +\left\| y \right\| ^{2}\\&=\lambda^{2}\|x\|^{2}+\lambda \braket{ x , \alpha y }+\lambda \braket{ \alpha y , x } +\left\| y \right\| ^{2} \\&=\lambda^{2}\|x\|^{2}+2\lambda \left| \braket{ x , y }  \right| +\|y\|^{2}\end{align}$$Therefore, $\lambda^{2}\|x\|^{2}+\|y\|^{2}\geq -2\lambda \left| \braket{ x , y } \right|$. Notice that $f:\lambda\mapsto \lambda^{2}\|x\|^{2}+2\lambda \left| \braket{ x , y }  \right| +\|y\|^{2}$ has its minimum at $\lambda= -\frac{\left| \braket{ x , y } \right|}{\|x\|^{2}}$. Then, $$f(\lambda)=-\frac{\left| \braket{ x , y }  \right| ^{2}}{\|x\|^{2}}+\|y\|^{2}\geq 0$$This proves the statement.
 ---
-> [!lemma] Theorem 2
-> A normed space $(V,\|\cdot\|)$ is an inner product space if it satisfies the parallelogram law: $$\left\| x-y \right\| ^{2}+\left\| x+y \right\| ^{2}=2(\|x\|^{2}+\left\| y \right\| ^{2})$$
+> [!lemma] Theorem 2 (Inner Product Space is Normed)
+> An inner product space $V$ is a [[normed space]] with $\|v\|^{2}=\braket{ v , v }$ for all $v\in V$.
 
 > [!proof]-
-> For an inner product space $(V,\braket{ \cdot , \cdot })$, 
+> We have that: 
+> 1. **Absolute homogeneity**:$$\left\| \lambda v \right\| ^{2}=\braket{ \lambda v , \lambda v } =\left| \lambda \right| ^{2}\braket{ v , v } =\left| \lambda \right| ^{2}\|v\|^{2}$$
+> 2. **Triangle inequality**:$$\begin{align}\|v+w\|^{2}&=\braket{ v+w , v+w } \\&=\braket{ v , v } +\braket{ v , w } +\braket{ w , v } +\braket{ w , w } \\&=\|v\|^{2}+2\text{Re}\braket{ v , w } +\|w\|^{2}\\&\leq\|v\|^{2}+2\left| \braket{ v , w }  \right|  +\|w\|^{2}\\&\leq(\|v\|+\|w\|)^{2}\end{align}$$
+> 3. **Positive definiteness**:$$\|v\|^{2}=\braket{ v , v } =0 \iff v=0$$
+---
+> [!lemma] Theorem 3 (Parallelogram Law)
+> A [[normed space]] $V$ is an inner product space if it satisfies the parallelogram law: $$\left\| x-y \right\| ^{2}+\left\| x+y \right\| ^{2}=2(\|x\|^{2}+\left\| y \right\| ^{2})$$
+
+> [!proof]- Proof (Incomplete)
+> For an inner product space $V$, 
 > $$\begin{align}\left\| x-y \right\| ^{2} +\left\| x+y \right\| ^{2}&=\braket{ x-y , x-y } +\braket{ x+y , x+y } \\&=\|x\|^{2}-\braket{ x , y } -\braket{ y , x } +\left\| y \right\| ^{2}+\|x\|^{2}+\braket{ x , y } +\braket{ y , x } +\left\| y \right\| ^{2}\\&=2(\|x\|^{2} +\|y\|^{2})\end{align}$$
 > Conversely, if a normed space satisfies the parallelogram law, 
 > $$$$
+- **Corollary (Pythagoras)**: If $\braket{ x,y  }=0$, then $\|x-y\|=\|x+y\|$ and $\|x+y\|^{2}=\|x\|^{2}+\|y\|^{2}$.
 ---
 > [!lemma] Proposition 3 (Polarization Identities)
 > Let $V$ be a $\mathbb{C}$-vector space. Then, for all $x,y\in V:$$$\braket{ x,y  }=\frac{1}{4}\left( \left\| x+y \right\| ^{2}+i \left\| x+iy \right\| ^{2}-\left\| x-y \right\| ^{2}-i \left\| x-iy \right\| ^{2} \right)  $$If $V$ is a $\mathbb{R}$-vector space, then: $$\braket{ x , y } =\frac{1}{4}\left( \left\| x+y \right\| ^{2}-\left\| x-y \right\| ^{2} \right) $$

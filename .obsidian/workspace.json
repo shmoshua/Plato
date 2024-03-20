@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -52,6 +51,30 @@
         "children": [
           {
             "id": "0f2d54b6ae091db2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Inner Product Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69ca4451a4199f17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d9e233fb4c73d49",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -170,7 +193,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -298,13 +322,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "444d4c72ca9a649b",
+  "active": "6d9e233fb4c73d49",
   "lastOpenFiles": [
     "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Analysis/Inner Product Space.md",
     "Analysis/Norm.md",
     "Analysis/Normed Space.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
-    "Analysis/Inner Product Space.md",
     "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
     "Analysis/Inner Product of a Vector Space.md",
     "Courses/Algebra II/Algebra II Roadmap.md",

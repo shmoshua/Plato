@@ -5,6 +5,9 @@
 1. [[Inner Product Space]] with [[Inner Product Space|examples]]
 3. [[Norm]]
 4. [[Inner Product Space|Cauchy-Schwarz Inequality]]
+5. [[Inner Product Space|Parallelogram Law]] and Pythagoras' theorem
+6. [[Inner Product Space|Polarization identities]]
+7. [[Inner Product Space|Ptolemy's inequality]]
 
 **1.2 Brief review about normed vector spaces**
 1. [[Lp Space]]
