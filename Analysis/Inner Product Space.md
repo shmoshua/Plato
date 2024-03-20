@@ -31,11 +31,10 @@
 > [!lemma] Theorem 3 (Parallelogram Law)
 > A [[normed space]] $V$ is an inner product space if it satisfies the parallelogram law: $$\left\| x-y \right\| ^{2}+\left\| x+y \right\| ^{2}=2(\|x\|^{2}+\left\| y \right\| ^{2})$$
 
-> [!proof]- Proof (Incomplete)
+> [!proof]-
 > For an inner product space $V$, 
 > $$\begin{align}\left\| x-y \right\| ^{2} +\left\| x+y \right\| ^{2}&=\braket{ x-y , x-y } +\braket{ x+y , x+y } \\&=\|x\|^{2}-\braket{ x , y } -\braket{ y , x } +\left\| y \right\| ^{2}+\|x\|^{2}+\braket{ x , y } +\braket{ y , x } +\left\| y \right\| ^{2}\\&=2(\|x\|^{2} +\|y\|^{2})\end{align}$$
-> Conversely, if a normed space satisfies the parallelogram law, 
-> $$$$
+> Conversely, if a normed space satisfies the parallelogram law, through the polarization identities, we can define the inner product $\braket{ x , y }$ s.t. $\braket{ x , x }=\|x\|^{2}$ for all $x\in V$.
 - **Corollary (Pythagoras)**: If $\braket{ x,y  }=0$, then $\|x-y\|=\|x+y\|$ and $\|x+y\|^{2}=\|x\|^{2}+\|y\|^{2}$.
 ---
 > [!lemma] Proposition 3 (Polarization Identities)

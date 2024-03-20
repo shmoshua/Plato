@@ -10,11 +10,19 @@
 
 ---
 ##### Properties
-> [!lemma] Theorem Norm.1
+> [!lemma] Theorem 1
 > The norm $\|\cdot\|:(V,F,\|\cdot\|)\to(\mathbb{R},\mathbb{R},|\cdot|)$ is a [[Continuous Functions in Normed Spaces|continuous function]] on $V$.
 
 >[!proof]-
 > For any $x\in V$ and $\varepsilon>0$, let $\delta=\varepsilon$. Then, if $\left\| x- x_{0}\right\|<\varepsilon$ then $|\|x\|-\|x_{0}\||\leq \|x-x_{0}\|<\varepsilon$ by the triangle identity.
 ---
-##### Related Definitions
-- [[Open and Closed Balls]]
+##### Examples
+> [!lh] Example 1 (Finite-dimensional Vector Space)
+> On $\mathbb{K}^d$, we have: 
+> 1. **$p$-norm**: $\|v\|^p:=\sum_{j=1}^{d}\left| v_{j} \right| ^p$
+> 2. **maximum norm**: $\|v\|_{\infty}:=\max_{j\in[d]}\left| v_{j} \right|$
+
+> [!proof]-
+> We have:
+> 1. Firstly, $\|\lambda v\|^p=\sum_{j=1}^{d}\left| \lambda \right|^p\left| v_{j} \right|^p=\left| \lambda \right|^p\|v\|^p$. Further, $\|v\|^p=0 \iff \left| v_{j} \right|=0$ for all $j\in[d]$. Lastly, the triangular inequality follows from the minkowski inequality.
+---

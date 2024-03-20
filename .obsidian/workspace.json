@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "file": "Topology/Topological Vector Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,9 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Normed Space.md",
+                "file": "Analysis/Norm.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Norm.md",
+                "file": "Topology/Topological Vector Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -194,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -260,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Topology/Topological Vector Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Topology/Topological Vector Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Inner Product Space.md"
+                "file": "Topology/Topological Vector Space.md"
               }
             }
           }
@@ -322,11 +322,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6d9e233fb4c73d49",
+  "active": "744dbeebeff9eecc",
   "lastOpenFiles": [
+    "Analysis/Norm.md",
+    "Topology/Topological Vector Space.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Analysis/Inner Product Space.md",
-    "Analysis/Norm.md",
     "Analysis/Normed Space.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
@@ -349,7 +350,6 @@
     "Topology/Filter.md",
     "Algebra/Linear Algebra/Vector Space.md",
     "Topology/Compact Space.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
