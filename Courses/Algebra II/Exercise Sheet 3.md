@@ -1,4 +1,4 @@
-x#Series #Algebra 
+#Series #Algebra 
 
 > [!def] Problem 1
 > Consider the following: 
@@ -23,3 +23,14 @@ We have:
 > [!def] Problem 3
 > Let $\mathbb{A}:=\mathbb{R}\cap  \overline{\mathbb{Q}}$. Show that $\mathbb{A}$ is countable, and conclude that there are real numbers which are transcendental.
 
+Firstly, notice that the set $\mathbb{Q}[X]$ is countable as $\mathbb{Q}$ is countable. As each polynomial in $\mathbb{Q}[X]$ admit finitely many roots, it follows that $\mathbb{A}$ is a countable set. However, as $\mathbb{R}$ is uncountable, there exist real numbers that are not algebraic over $\mathbb{Q}$, i.e. they are transcendental.
+
+---
+> [!def] Problem 4
+> Let $L:K$ be an algebraic field extension. Let $K_{1},K_{2}$ be two fields with $K\subseteq K_{1},K_{2}\subseteq L$, such that the field extensions $K_{1}:K$ and $K_{2}:K$ are finite. The composite of $K_{1}$ and $K_{2}$ is defined as $K_{1}K_{2}:=K(K_{1}\cup K_{2})$. Show:
+> 1. $[K_{1}K_{2}:K_{2}]\leq [K_{1}:K]$
+> 2. $[K_{1}K_{2}:K]\leq[K_{1}:K][K_{2}:K]$
+> 3. if $\gcd([K_{1}:K],[K_{2}:K])=1$, then equality holds in 2.
+
+We have that:
+1. Let $[K_{1}:K]=:n$ and assume $\alpha_{1},\dots,\alpha_{n}\in K_{1}$ is a basis of $K_{1}$ over $K$. Then, we will show that $\alpha_{1},\dots,\alpha_{n}$ spans $K_{1}K_{2}$ over $K_{2}$. Let $\beta\in K_{1}K_{2}$. Then, 
