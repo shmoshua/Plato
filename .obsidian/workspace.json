@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b9da19c2f0b8cec7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 3.md",
+                "file": "Algebra/Minimal Polynomial.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -68,7 +55,43 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Algebra/Minimal Polynomial.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f2d54b6ae091db2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28b432baa4feb3d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Extension Field.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e722292e3bc8519",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Algebraic and Transcendental Number.md",
                 "mode": "preview",
                 "source": false
               }
@@ -81,18 +104,6 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Algebra II/Exercise Sheet 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edfabcaa9afd319e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,8 +157,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 3.md",
+                "file": "Algebra/Minimal Polynomial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 3.md",
+                "file": "Algebra/Minimal Polynomial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +263,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 3.md"
+                "file": "Algebra/Minimal Polynomial.md"
               }
             }
           }
@@ -275,18 +285,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b9da19c2f0b8cec7",
+  "active": "a46806264f6ab3ea",
   "lastOpenFiles": [
-    "Courses/Algebra II/Exercise Sheet 3.md",
-    "Courses/Analysis IV/Exercise Sheet 3.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Minimal Polynomial.md",
     "Algebra/Extension Field.md",
+    "Algebra/Algebraic and Transcendental Number.md",
+    "Courses/Analysis IV/Exercise Sheet 3.md",
+    "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Algebraic and Transcendental Number.md",
     "Algebra/Integral Domain.md",
     "Algebra/Coprime Ideal.md",
-    "Algebra/Minimal Polynomial.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Untitled.md",
     "Topology/Compact Metric Space.md",
     "Algebra/Field.md",
