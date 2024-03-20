@@ -20,7 +20,11 @@ We have:
    Now it suffices to show that for every non-zero $\alpha\in \overline{\mathbb{Q}}$, there exists an multiplicative inverse. Then, we can proceed analogously to addition to show that the non-zero elements form a multiplicative group. Let $0\neq\alpha\in \overline{\mathbb{Q}}$. Then, there exists a non-zero polynomial $p(x):=a_{0}+a_{1}x+\dots +a_{n}x^n\in \mathbb{Q}[X]$ s.t. $p(\alpha)=0$. We define a new polynomial: $q(x):=a_{n}+a_{n-1}x+\dots+a_{0}x^n$. Then, $$q\left( \frac{1}{\alpha} \right)=a_{n}+\frac{a_{n-1}}{\alpha}+\dots+\frac{a_{0}}{\alpha^n}=\alpha^n\cdot p(\alpha)=0$$Therefore, $\frac{1}{\alpha}\in \overline{\mathbb{Q}}$. This proves that $\overline{\mathbb{Q}}$ is a field.
 2. Let $(p_{i})_{i}\subseteq \mathbb{Z}$ be the enumeration of primes. Then, $\sqrt{ p_{i} }$ is algebraic over $\mathbb{Q}$ with $X^{2}-p$ as the minimal polynomial. We will show that for any $n\geq 1$, $[\mathbb{Q}(\sqrt{ p_{1} },\dots,\sqrt{ p_{n} }):\mathbb{Q}]=2^n$ by induction. Firstly, one can easily see that this holds for $n=1,2$. Let $K_{n}:=\mathbb{Q}(\sqrt{ p_{1} },\dots,\sqrt{ p_{n} })$ for all $n$. 
 
-   We will show that for all $n\geq 1$, $\sqrt{ p_{n} }\notin K_{n-1}$. For $n=1$, $\sqrt{ p_{1} }\notin \mathbb{Q}$. Then, assume $\sqrt{ p_{n} }\in K_{n-1}$. We have $\sqrt{ p_{n} }=a+b \sqrt{ p_{n-1} }$ for $a,b\in K_{n-2}$. By squaring, we get: $$p_{n}=a^{2}+p_{n-1}b ^{2}+2ab \sqrt{ p_{n-1} }$$If $ab\neq 0$, then $\sqrt{ p_{n-1} }$
+   We will show that for all $n\geq 1$, $\sqrt{ p_{n} }\notin K_{n-1}$. For $n=1$, $\sqrt{ p_{1} }\notin \mathbb{Q}$. 
+   
+   Now, assume $\sqrt{ p_{n} }\in K_{n-1}$. Let $m\geq 1$ be the smallest integer s.t. $\sqrt{ p_{n} }\in K_{m}=K_{m-1}(\sqrt{ p_{m} })$. Then, $\sqrt{ p_{n} }=a+b \sqrt{ p_{m} }$ for $a,b\in K_{m-1}$. By squaring, we get: $$p_{n}=a^{2}+p_{m}b ^{2}+2ab \sqrt{ p_{m} }$$If $ab\neq 0$, then $\sqrt{ p_{m} }\in K_{m-1}$ which is a contradiction. If $b=0$, then $\sqrt{ p_{n} }=a\in K_{m-1}$ which is a contradiction to the minimality of $m$. Finally, if $a=0$, then $p_{n}=p_{m}b ^{2}$
+   
+   We have $\sqrt{ p_{n} }=a+b \sqrt{ p_{n-1} }$ for $a,b\in K_{n-2}$. By squaring, we get: $$p_{n}=a^{2}+p_{n-1}b ^{2}+2ab \sqrt{ p_{n-1} }$$If $ab\neq 0$, then $\sqrt{ p_{n-1} }=(p_{n}-a^{2}-p_{n-1}b ^{2}) / 2ab\in K_{n-2}$ which is a contradiction. If $a=0$, then $p_{n}=p_{n-1} b ^{2}$
    
    
    We will show that $[K_{n-2}(\sqrt{p_{n-1}  },\sqrt{ p_{n} }):K_{n-2}]=4$. 
