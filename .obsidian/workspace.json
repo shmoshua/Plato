@@ -13,57 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "c0845d4d7e21d1a7",
+            "id": "444d4c72ca9a649b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "file": "Analysis/Inner Product Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "5641fbfc1c8fd395",
+            "id": "115066a6e1efe163",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md",
+                "file": "Analysis/Normed Space.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a7833fc99d403f3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Extension Field.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "aedda04834e89531",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md",
-                "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -80,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Analysis/Inner Product Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "file": "Analysis/Norm.md",
                 "mode": "preview",
                 "source": false
               }
@@ -194,8 +170,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -261,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "file": "Analysis/Inner Product Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "file": "Analysis/Inner Product Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +276,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md"
+                "file": "Analysis/Inner Product Space.md"
               }
             }
           }
@@ -323,18 +298,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "744dbeebeff9eecc",
+  "active": "444d4c72ca9a649b",
   "lastOpenFiles": [
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Analysis/Norm.md",
+    "Analysis/Normed Space.md",
+    "Courses/Algebra II/Exercise Sheet 3.md",
+    "Analysis/Inner Product Space.md",
+    "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
+    "Analysis/Inner Product of a Vector Space.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Field.md",
     "Algebra/Algebraic and Transcendental Number.md",
     "Algebra/Minimal Polynomial.md",
     "Algebra/Composite Field.md",
     "Algebra/Extension Field.md",
-    "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Integral Domain.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Principal Ideal Domain.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Analysis IV/Exercise Sheet 3.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Coprime Ideal.md",
@@ -345,12 +326,6 @@
     "Algebra/Linear Algebra/Vector Space.md",
     "Topology/Compact Space.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Topology/Exercise Sheet 1.md",
-    "Courses/Topology/Exercise Sheet 4.md",
-    "Measure Theory/Complex Measure.md",
-    "Topology/Interior and Closure.md",
-    "Topology/Compact sets.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

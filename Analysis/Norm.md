@@ -1,13 +1,13 @@
 #Definition #Analysis
 
 > [!definition]
-> A ***norm*** on a [[Vector Space|linear space]] $(V,\mathbb{K})$ is a function $\left\| \cdot \right\|:V \to \mathbb{R}_{+}$ s.t. the following holds:
+> A ***norm*** on a $\mathbb{K}$-[[Vector Space|vector space]] $V$ is a function $\|\cdot \|:V \to [0,+\infty)$ s.t. the following holds:
 > 1.  **Triangle inequality**: for all $v_{1},v_{2}\in V$: $$\left\| v_{1}+v_{2} \right\| \leq \left\| v_{1} \right\| +\left\| v_{2} \right\| $$
 > 2. **Absolute homogeneity**: for all $v\in V$ and $a\in \mathbb{K}$: $$\| a v \|=|a|\cdot\|v\|$$
 > 3. **Positive definiteness**: for all $v\in V$: $$\|v\|=0 \iff v=0$$
 > 	where with 1,2,3 implies that $\|v\|\ge 0$ for all $v\in V$.
 
-- A linear space equipped with such a norm is called a **normed linear space**. 
+
 ---
 ##### Properties
 > [!lemma] Theorem Norm.1
