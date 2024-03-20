@@ -39,10 +39,10 @@
 - **Corollary (Pythagoras)**: If $\braket{ x,y  }=0$, then $\|x-y\|=\|x+y\|$ and $\|x+y\|^{2}=\|x\|^{2}+\|y\|^{2}$.
 ---
 > [!lemma] Proposition 3 (Polarization Identities)
-> Let $V$ be a $\mathbb{C}$-vector space. Then, for all $x,y\in V:$$$\braket{ x,y  }=\frac{1}{4}\left( \left\| x+y \right\| ^{2}+i \left\| x+iy \right\| ^{2}-\left\| x-y \right\| ^{2}-i \left\| x-iy \right\| ^{2} \right)  $$If $V$ is a $\mathbb{R}$-vector space, then: $$\braket{ x , y } =\frac{1}{4}\left( \left\| x+y \right\| ^{2}-\left\| x-y \right\| ^{2} \right) $$
+> Let $V$ be a $\mathbb{C}$-inner product space. Then, for all $x,y\in V:$$$\braket{ x,y  }=\frac{1}{4}\left( \left\| x+y \right\| ^{2}+i \left\| x+iy \right\| ^{2}-\left\| x-y \right\| ^{2}-i \left\| x-iy \right\| ^{2} \right)  $$If $V$ is a $\mathbb{R}$-inner product  space, then: $$\braket{ x , y } =\frac{1}{4}\left( \left\| x+y \right\| ^{2}-\left\| x-y \right\| ^{2} \right) $$
 
 > [!proof]-
-> We have that: $$\begin{align}\left\| x \pm y \right\| ^{2}&=\|x\|^{2}+\|y\|^{2}\pm 2 \text{Re}\braket{ x , y } \\\left\| x\pm iy \right\| ^{2}&=\|x\|^{2}+\|y\|^{2}\mp 2i\text{Im} \braket{ x , y } \end{align}$$
+> We have that: $$\begin{align}\left\| x \pm y \right\| ^{2}&=\|x\|^{2}+\|y\|^{2}\pm 2 \text{Re}\braket{ x , y } \\\left\| x\pm iy \right\| ^{2}&=\|x\|^{2}+\|y\|^{2}\pm 2\text{Im} \braket{ x , y } \end{align}$$Therefore, $$\begin{align}\left\| x+y \right\| ^{2}+i \left\| x+iy \right\| ^{2}-\left\| x-y \right\| ^{2}- i \left\| x-iy \right\| ^{2}&=4\text{Re}\braket{ x , y } +4i\text{Im}\braket{ x ,y  }=4\braket{ x , y }  \end{align}$$
 ---
 > [!lemma] Proposition 4 (Ptolemy's inequality)
 > For all $x,y,z\in V$, it holds that: $$\left\| x-y \right\|\|z\|+\|y-z\|\|x\| \geq \|x-z\|\|y\|$$
