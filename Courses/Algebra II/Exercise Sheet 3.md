@@ -33,4 +33,8 @@ Firstly, notice that the set $\mathbb{Q}[X]$ is countable as $\mathbb{Q}$ is cou
 > 3. if $\gcd([K_{1}:K],[K_{2}:K])=1$, then equality holds in 2.
 
 We have that:
-1. Let $[K_{1}:K]=:n$ and assume $\alpha_{1},\dots,\alpha_{n}\in K_{1}$ is a basis of $K_{1}$ over $K$. Then, we will show that $\alpha_{1},\dots,\alpha_{n}$ spans $K_{1}K_{2}$ over $K_{2}$. Let $\beta\in K_{1}K_{2}$. Then, 
+1. Let $[K_{1}:K]=:n$ and assume $\alpha_{1},\dots,\alpha_{n}\in K_{1}$ is a basis of $K_{1}$ over $K$. Therefore, $K_{1}=K(\alpha_{1},\dots,\alpha_{n})$ and $K_{1}K_{2}=K_{2}(\alpha_{1},\dots,\alpha_{n})$. However, as $\alpha_{1},\dots,\alpha_{n}$ are algebraic over $K$ and therefore over $K_{2}$, we have $K_{1}K_{2}=K_{2}[\alpha_{1},\dots,\alpha_{n}]$. It follows that $\alpha_{1},\dots,\alpha_{n}$ generate $K_{1}K_{2}$ over $K_{2}$ and this proves the statement.
+2. We have: $$[K_{1}K_{2}:K]=[K_{1}K_{2}:K_{2}][K_{2}:K]\leq[K_{1}:K][K_{2}:K]$$
+3. We have that $[K_{1}:K]|[K_{1}K_{2}:K]$ and by symmetry $[K_{2}:K]|[K_{1}K_{2}:K]$. However, as they are coprime, $[K_{1}:K][K_{2}:K]|[K_{1}K_{2}:K]$. This shows that $[K_{1}:K][K_{2}:K]\leq[K_{1}K_{2}:K]$.
+---
+
