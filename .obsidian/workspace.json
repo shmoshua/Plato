@@ -176,7 +176,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -325,16 +325,17 @@
   },
   "active": "744dbeebeff9eecc",
   "lastOpenFiles": [
-    "Algebra/Algebraic and Transcendental Number.md",
     "Algebra/Field.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Principal Ideal Domain.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
-    "Algebra/Extension Field.md",
     "Algebra/Minimal Polynomial.md",
+    "Algebra/Extension Field.md",
+    "Algebra/Algebraic and Transcendental Number.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Composite Field.md",
     "Courses/Analysis IV/Exercise Sheet 3.md",
     "Algebra/Ring Homomorphism.md",
-    "Algebra/Principal Ideal Domain.md",
     "Algebra/Integral Domain.md",
     "Algebra/Coprime Ideal.md",
     "Algebra/Untitled.md",
@@ -350,7 +351,6 @@
     "Topology/Interior and Closure.md",
     "Topology/Compact sets.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Topology/Continuous Function.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
