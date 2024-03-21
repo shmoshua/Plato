@@ -8,8 +8,8 @@
 > Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space with $\{ e_{k} \}$ as an orthonormal system. Then, for any $x\in \mathcal{H}$: 
 $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 
-> [!proof]+
-> Let $x\in \mathcal{H}$ and $n\geq 1$ and define $S_{n}(x):=\sum_{k=0}^{n}\braket{ x , e_{k} }e_{k}$. Then, from Pythagoras, $$\left\| S_{n}(x) \right\|^{2}=\sum_{k=0}^{n} \left| \braket{ x , e_{k} }  \right| ^{2}$$and $$\braket{ S_{n}(x) , x } =\left\langle \sum_{k=0}^{n}\braket{ x , e_{k} } e_{k}\right\rangle$$$$0\leq \left\| S_{n}(x)-x \right\| ^{2}=\left\| S_{n}(x) \right\|^{2}+\|x\|^{2}-2\text{Re}\braket{ S_{n}(x) , x }  =\sum_{k=0}^{n}\left| \braket{ x , e_{k} }  \right| ^{2}$$
+> [!proof]-
+> Let $x\in \mathcal{H}$ and $n\geq 1$ and define $S_{n}(x):=\sum_{k=0}^{n}\braket{ x , e_{k} }e_{k}$. Then, from Pythagoras, $$\left\| S_{n}(x) \right\|^{2}=\sum_{k=0}^{n} \left| \braket{ x , e_{k} }  \right| ^{2}$$and $$\braket{ S_{n}(x) , x } =\left\langle \sum_{k=0}^{n}\braket{ x , e_{k} } e_{k},x\right\rangle=\sum_{k=0}^{n}\braket{ x , e_{k} } \braket{ e_{k} , x } =\sum_{k=0}^{n}\left| \braket{ x , e_{k} }  \right| ^{2}$$Therefore, $$0\leq \left\| S_{n}(x)-x \right\| ^{2}=\left\| S_{n}(x) \right\|^{2}+\|x\|^{2}-2\text{Re}\braket{ S_{n}(x) , x }  =\|x\|^{2}-\sum_{k=0}^{n}\left| \braket{ x , e_{k} }  \right| ^{2}$$This proves the statement.
 ---
 > [!lemma] Theorem 2 (Parseval's Identity)
 > Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space with $\{ e_{k} \}$ as an orthonormal system. Then, for any $x\in \mathcal{H}$:
@@ -18,7 +18,12 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > 3. $x-\sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k} \ {\bot}\ \overline{\text{Span} \{ e_{k} \}_{k}  }$
 > 4. $x=\sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k}$ if and only if $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right|^{2}=\|x\|^{2} $$
 
-> [!proof]+
+> [!proof]-
+> For $S_{n}(x):=\sum_{k=0}^{n}\braket{ x , e_{k} }e_{k}$, we show that $(S_{n}(x))_{n}$ is Cauchy. We have; $$\left\| S_{m}(x)-S_{n}(x) \right\|^{2}=\sum_{k=n+1}^{m}\left| \braket{ x , e_{k} }  \right| ^{2} $$which is part of a convergent series by Bessel's inequality. Therefore, $(S_{n}(x))_{n}$ is Cauchy and this shows 1 and 2.
+> 
+> For $n,k$ s.t. $n\geq k$: $$\braket{ S_{n}(x) , e_{k} } =\sum_{j=0}^{n}\braket{ x , e_{j} } \delta_{jk}=\braket{ x , e_{k} } $$Therefore, $\braket{ x-S_{n}(x) , e_{k} } =\braket{ x , e_{k} } -\braket{ x , e_{k} } =0$ and we have the result by $n\to \infty$.
+> 
+> Lastly, we have: $$\left\| x-S_{n}(x) \right\| =\|x\|^{2}-\sum_{k=0}^{n}\left| \braket{ x , e_{k} }  \right| ^{2}$$This proves the statement.
 ---
 > [!lemma] Theorem 1
 > For a Hilbert space $\mathcal{H}$ and a closed convex subset $C\subseteq \mathcal{H}$. Then, for all $v\in \mathcal{H}$, there exists a unique $\rho_{C}(v)\in C$ s.t.

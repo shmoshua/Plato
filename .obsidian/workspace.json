@@ -6,6 +6,7 @@
       {
         "id": "8778a634edfe3433",
         "type": "tabs",
+        "dimension": 53.735632183908045,
         "children": [
           {
             "id": "d7901e0671c3fbd6",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "file": "Analysis/Hilbert Basis.md",
                 "mode": "source",
                 "source": true
               }
@@ -42,13 +43,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c100773914998120",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
+        "dimension": 46.264367816091955,
         "children": [
           {
             "id": "0f2d54b6ae091db2",
@@ -90,12 +100,16 @@
             "id": "25b4c84d98b23c64",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Hilbert Basis.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -161,7 +175,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +191,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,9 +212,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Analysis/Hilbert Space.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -223,34 +233,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f154484d52ef2107",
+  "active": "c100773914998120",
   "lastOpenFiles": [
+    "Analysis/Lp Space.md",
+    "Analysis/Banach Space.md",
+    "Algebra/Solvable Group.md",
+    "Analysis/Hilbert Basis.md",
+    "Algebra/Linear Algebra/Vector Space.md",
     "Topology/Separable Space.md",
-    "Analysis/Hilbert Space.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Analysis/Orthonormal System.md",
+    "Algebra/Linear Algebra/Nilpotent Matrix.md",
+    "Galois theory.md",
+    "Topology/Lindelöf Space.md",
+    "Algebra/Hölder's inequality.md",
+    "Riesz map.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Analysis/Hilbert Space.md",
+    "Analysis/Orthonormal System.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Inner Product Space.md",
-    "Analysis/Hilbert Basis.md",
     "Algebra/Linear Algebra/Algebraic Basis.md",
     "Analysis/Norm.md",
     "Analysis/Gram-Schmidt Orthogonalization.md",
-    "Analysis/Banach Space.md",
     "Algebra/Algebraic and Transcendental Number.md",
     "Topology/Topological Vector Space.md",
     "Analysis/Normed Space.md",
-    "Courses/Algebra II/Exercise Sheet 3.md",
-    "Analysis/Functional Analysis/Sequence Space over Natural Numbers.md",
-    "Analysis/Inner Product of a Vector Space.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Field.md",
-    "Algebra/Minimal Polynomial.md",
-    "Algebra/Composite Field.md",
-    "Algebra/Extension Field.md",
-    "Algebra/Integral Domain.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
