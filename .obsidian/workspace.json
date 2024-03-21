@@ -31,29 +31,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "bbb7b911d9cf7c44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Separable Space.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c100773914998120",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -175,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Analysis/Hilbert Basis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Analysis/Hilbert Basis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +193,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Analysis/Hilbert Basis.md"
+              }
             }
           }
         ]
@@ -233,14 +216,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c100773914998120",
+  "active": "25b4c84d98b23c64",
   "lastOpenFiles": [
+    "Analysis/Hilbert Space.md",
+    "Analysis/Hilbert Basis.md",
+    "Topology/Separable Space.md",
     "Analysis/Lp Space.md",
     "Analysis/Banach Space.md",
     "Algebra/Solvable Group.md",
-    "Analysis/Hilbert Basis.md",
     "Algebra/Linear Algebra/Vector Space.md",
-    "Topology/Separable Space.md",
     "Algebra/Linear Algebra/Nilpotent Matrix.md",
     "Galois theory.md",
     "Topology/Lindelöf Space.md",
@@ -249,7 +233,6 @@
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Analysis/Hilbert Space.md",
     "Analysis/Orthonormal System.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
