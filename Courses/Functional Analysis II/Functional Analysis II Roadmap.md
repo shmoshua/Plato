@@ -47,6 +47,11 @@
 4. [[Guelfand Transform]]
 ---
 ##### 5. Spectral Theorems
+**5.1 Complex Measures**
+1. [[Measure Theory/Complex Measure|Complex Measure]]
+
+**5.2 Operators in Hilbert Spaces**
+1. [[Hilbert Space Operator]]
 ---
 ##### 6. Locally Compact Groups
 ---
