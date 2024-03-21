@@ -28,6 +28,9 @@
 1. [[Separable Space]]
 2. [[Hilbert Space|Orthonormal System]]
 3. [[Hilbert Basis]]
+
+**1.5 Closest Point Property, Projections**
+1. 
 ---
 ### Exercises
 1. [[Courses/Analysis IV/Exercise Sheet 0|Exercise Sheet 0]]

@@ -29,9 +29,17 @@
 > 
 > Then, $\{ e_{k} \}_{k}$ is an orthonormal system with a dense span as the span contains $\mathcal{D}$.
 ---
+> [!lemma] Theorem 3
+> Let $\mathcal{H}$ be a  [[Separable Space|separable]] [[Hilbert space]] with orthonormal basis $\{ e_{k} \}_{k}$. Then, $\mathcal{H}$ is isometric to $\ell^2(\mathbb{N},\mathbb{C})$, i.e. there exists a linear isometric isomorphism $J:\mathcal{H}\to \ell^{2}(\mathbb{N},\mathbb{C})$ s.t. $$\braket{ x , y } _{\mathcal{H}}=\braket{ Tx , Ty } _{\ell^2(\mathbb{N})},\quad \forall x,y\in \mathcal{H}$$
+
+> [!proof]-
+> We define: $$\begin{array}{cccc} {J:}&{\text{Span}\{ e_{k} \}_{k}}&\to&{\ell^{2}(\mathbb{N})}\\&{\sum_{k=0}^{n}x_{k}e_{k}} &\mapsto & {\sum_{k=0}^{n}x_{k}\delta_{k}} \end{array}{}$$Then, it is a linear isometry on $\text{Span}\{ e_{k} \}_{k}$. Therefore, $J$ is a bounded linear operator and by [[Bounded Linear Map|BLT theorem]], we can uniquely extend it to a linear isometry $\overline{J}:\mathcal{H}\to \ell^2(\mathbb{N,C})$.
+> 
+> We are left to show that $\overline{J}$ is an isomorphism. As it preserves the distance, it is injective. To show that it is surjective, for $y\in \ell^2(\mathbb{N})$, $x:=\sum_{k\in \mathbb{N}}^{}y(k)e_{k}\in \mathcal{H}$ as: $$\|x\|^{2}_{\mathcal{H}}=\left\| \sum_{k\in \mathbb{N}}^{}y(k)e_{k} \right\|^{2}_{\mathcal{H}}=\sum_{k\in \mathbb{N}}^{}\left| y_{k} \right|^{2}=\|y\|^2_{\ell^2(\mathbb{N})}<+\infty  $$Therefore, $\overline{J}x=y$.
+---
 ##### Examples
 > [!h] Example 1
-> Consider $\ell^2(\mathbb{N})$. Then, 
+> Consider $\ell^2(\mathbb{N},\mathbb{C})$. Then, 
 > 1. $\{ \delta_{n} \}_{n}\subseteq \ell^2(\mathbb{N})$ forms a Hilbert basis where $\delta_{n}(m)=\delta_{nm}$. 
 > 2. $c_{00}(\mathbb{N})\subseteq \ell^2(\mathbb{N})$ is a proper dense subset and therefore not a Hilbert space.
 
