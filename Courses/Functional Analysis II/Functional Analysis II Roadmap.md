@@ -52,6 +52,9 @@
 
 **5.2 Operators in Hilbert Spaces**
 1. [[Hilbert Space Operator]]
+
+**5.3 Resolution of Identity**
+
 ---
 ##### 6. Locally Compact Groups
 ---
