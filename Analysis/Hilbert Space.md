@@ -8,16 +8,15 @@
 > Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space with $\{ e_{k} \}$ as an orthonormal system. Then, for any $x\in \mathcal{H}$: 
 $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 
+> [!proof]+
+> Let $x\in \mathcal{H}$ and $n\geq 1$ and define $S_{n}(x):=\sum_{k=0}^{n}\braket{ x , e_{k} }e_{k}$. Then, from Pythagoras, $$\left\| S_{n}(x) \right\|^{2}=\sum_{k=0}^{n} \left| \braket{ x , e_{k} }  \right| ^{2}$$and $$\braket{ S_{n}(x) , x } =\left\langle \sum_{k=0}^{n}\braket{ x , e_{k} } e_{k}\right\rangle$$$$0\leq \left\| S_{n}(x)-x \right\| ^{2}=\left\| S_{n}(x) \right\|^{2}+\|x\|^{2}-2\text{Re}\braket{ S_{n}(x) , x }  =\sum_{k=0}^{n}\left| \braket{ x , e_{k} }  \right| ^{2}$$
 ---
 > [!lemma] Theorem 2 (Parseval's Identity)
 > Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space with $\{ e_{k} \}$ as an orthonormal system. Then, for any $x\in \mathcal{H}$:
 > 1. $\sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k}$ converges in $\mathcal{H}$.
 > 2. $\left\| \sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k} \right\|^{2}=\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} } \right|^{2}\leq \|x\|^{2}$
-> 3. $x-\overline{x} \ {\bot}\ $
-1. For all $x\in \mathcal{H}$, $\sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k}$ converges to  $\overline{x}\in\mathcal{H}$.
-> 3. $\left\| \overline{x} \right\|^{2}=\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} } \right|^{2}\leq \|x\|^{2}$
-> 4. $x-\overline{x}$ is orthogonal to $\overline{\braket{ \{ e_{k} \}_{k}  }}$
-> 5. **Parseval's identity**: The equality in Bessel's inequality holds if and only if $x=\overline{x}$.
+> 3. $x-\sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k} \ {\bot}\ \overline{\text{Span} \{ e_{k} \}_{k}  }$
+> 4. $x=\sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k}$ if and only if $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right|^{2}=\|x\|^{2} $$
 
 > [!proof]+
 ---
