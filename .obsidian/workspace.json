@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e46ab1a532bd5297",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -51,6 +64,18 @@
           },
           {
             "id": "eee5d812a80c3784",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f784cfc99db2fb4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -128,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md"
               }
             }
           }
@@ -190,9 +215,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d7901e0671c3fbd6",
+  "active": "eee5d812a80c3784",
   "lastOpenFiles": [
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Inner Product Space.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
@@ -216,8 +243,6 @@
     "Algebra/Extension Field.md",
     "Algebra/Integral Domain.md",
     "Algebra/Unique Factorization Domain.md",
-    "Algebra/Principal Ideal Domain.md",
-    "Courses/Analysis IV/Exercise Sheet 3.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

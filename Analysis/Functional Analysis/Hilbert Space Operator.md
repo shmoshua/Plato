@@ -35,7 +35,7 @@ For $T\in \mathcal{B}(\mathcal{H})$, we have that: $$\begin{align}\braket{ T(x+y
 > - (3=>4): We have $\text{Im }P\oplus \text{ker }P=\mathcal{H}$. Therefore, for any $x\in \mathcal{H}$, there exists $y\in \text{Im }P$ and $z\in \text{ker } P$ s.t. $x=y+z$. Therefore, $$\braket{ Px , x } =\braket{ y , y+z } =\braket{ y , y } =\braket{ Px , Px } =\left\| Px \right\| ^{2}$$
 > - (4=>1): As $\braket{ Px , x }=\left\| Px \right\|^{2}\in \mathbb{R}$, $$\braket{ Px , x } =\braket{ x , Px } =\braket{ P^{*}x , x } $$for all $x\in \mathcal{H}$.
 ---
-> [!lemma] Corollary 3
+> [!lemma] Proposition 3
 > Let $P,Q\in \mathcal{B}(\mathcal{H})$ be self-adjoint projections. Then, $$\text{Im }P\ \bot\ \text{Im }Q\iff PQ=0$$
 
 > [!proof]-
@@ -44,3 +44,10 @@ For $T\in \mathcal{B}(\mathcal{H})$, we have that: $$\begin{align}\braket{ T(x+y
 ##### Examples
 > [!h] Example 1(Projection)
 > $P\in \mathcal{B}(\mathcal{H})$ is a ***projection*** if $P^{2}=P$.
+---
+> [!h] Example 2
+> $T: \ell^{2}(\mathbb{Z})\to \ell^{2}(\mathbb{Z})$ then
+>1. $Tf(x)=f(x+1)$
+>2. $T^{*}f(x)=f(x-1)$
+>3. $T$ is unitary
+>4. $\text{Sp}_{\mathcal{B}(\ell^2(\mathbb{Z}))}T\subseteq \mathbb{T}$ by [[C*-Algebra|Proposition 5]]. Assume that there exists $\mu\in \mathbb{T}$ s.t. $\mu\notin \text{Sp }T$. Then, $(T-\mu \cdot\text{id})^{-1}$ exists. Let us define $\mu_{n}:=\left( 1+\frac{1}{n} \right)\mu$. Then, $$(T-\mu_{n}\cdot \text{id})^{-1}=\left( \mu_{n}\left[ \frac{T}{\mu_{n}}-\text{id} \right] \right) ^{-1}$$So, $$\lim_{ \mu_{n}\to \mu } \left( \text{id}+\frac{T}{\mu_{n}}+\frac{T^{2}}{\mu_{n}^{2}}+\dots \right)\delta_{1}=(T-\mu \cdot \text{id})^{-1}\delta_{1}$$Then, $$\left\| \delta_{1}+ \frac{1}{\mu_{n}}\delta_{2}+ \frac{1}{\mu_{n}^{2}}\delta_{3} +\dots\right\| ^{2}=1+\frac{1}{\left| \mu_{n} \right| ^{2}}+ \frac{1}{\left| \mu_{n} \right| ^{3}}+\dots\to +\infty$$which is a contradiction.
