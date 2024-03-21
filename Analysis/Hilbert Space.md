@@ -1,12 +1,20 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
-> An [[Inner Product Space|inner product space]] is a ***Hilbert space***, if the induced [[Analysis/Normed Space|normed space]] is [[Banach Space|Banach]].
+> An [[Inner Product Space|inner product space]] $\mathcal{H}$ is a ***Hilbert space***, if the induced [[Analysis/Normed Space|normed space]] is [[Banach Space|Banach]].
+- **Related definition**: an ***orthonormal system*** is $\{ e_{n} \}_{n}\subseteq \mathcal{H}$ s.t. $\braket{ e_{i} , e_{j} } =\delta_{ij}$ for all $i,j\in \mathbb{N}$.
 ---
 ##### Properties
-> [!lemma] Theorem 1
-> Let $\mathcal{H}$ be a [[separable]] Hilbert space with $\{ e_{k} \}$ as orthonormal basis. Then:
-> 1. **Bessel's inequality**: for all $x\in \mathcal{H}$, $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
-> 2. For all $x\in \mathcal{H}$, $\sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k}$ converges to  $\overline{x}\in\mathcal{H}$.
+> [!lemma] Theorem 1 (Bessel's Inequality)
+> Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space with $\{ e_{k} \}$ as an orthonormal system. Then, for any $x\in \mathcal{H}$: 
+$$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
+
+---
+> [!lemma] Theorem 2 (Parseval's Identity)
+> Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space with $\{ e_{k} \}$ as an orthonormal system. Then, for any $x\in \mathcal{H}$:
+> 1. $\sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k}$ converges in $\mathcal{H}$.
+> 2. $\left\| \sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k} \right\|^{2}=\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} } \right|^{2}\leq \|x\|^{2}$
+> 3. $x-\overline{x} \ {\bot}\ $
+1. For all $x\in \mathcal{H}$, $\sum_{k=0}^{\infty}\braket{ x , e_{k} }e_{k}$ converges to  $\overline{x}\in\mathcal{H}$.
 > 3. $\left\| \overline{x} \right\|^{2}=\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} } \right|^{2}\leq \|x\|^{2}$
 > 4. $x-\overline{x}$ is orthogonal to $\overline{\braket{ \{ e_{k} \}_{k}  }}$
 > 5. **Parseval's identity**: The equality in Bessel's inequality holds if and only if $x=\overline{x}$.

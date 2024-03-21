@@ -13,33 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "b35f1dc9502d0a67",
+            "id": "f154484d52ef2107",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "e46ab1a532bd5297",
+            "id": "bbb7b911d9cf7c44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
+                "file": "Topology/Separable Space.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "file": "Analysis/Hilbert Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "file": "Analysis/Hilbert Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md"
+                "file": "Analysis/Hilbert Space.md"
               }
             }
           }
@@ -223,18 +223,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b35f1dc9502d0a67",
+  "active": "f154484d52ef2107",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Topology/Separable Space.md",
+    "Analysis/Hilbert Space.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Analysis/Orthonormal System.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Inner Product Space.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Topology/Separable Space.md",
     "Analysis/Hilbert Basis.md",
     "Algebra/Linear Algebra/Algebraic Basis.md",
-    "Analysis/Hilbert Space.md",
     "Analysis/Norm.md",
     "Analysis/Gram-Schmidt Orthogonalization.md",
     "Analysis/Banach Space.md",
@@ -250,7 +251,6 @@
     "Algebra/Composite Field.md",
     "Algebra/Extension Field.md",
     "Algebra/Integral Domain.md",
-    "Algebra/Unique Factorization Domain.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
