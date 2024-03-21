@@ -54,6 +54,9 @@
 1. [[Hilbert Space Operator]]
 
 **5.3 Resolution of Identity**
+1. [[Resolution of Identity]]
+
+**5.4 The algebra $L^\infty(E)$**
 
 ---
 ##### 6. Locally Compact Groups
