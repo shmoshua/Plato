@@ -32,7 +32,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -58,6 +59,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98ef213d43fcd260",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -100,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "monic",
+                "query": "stone-",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +159,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "file": "Analysis/Hilbert Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "file": "Analysis/Hilbert Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md"
+                "file": "Analysis/Hilbert Space.md"
               }
             }
           }
@@ -228,13 +242,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "eee5d812a80c3784",
+  "active": "f154484d52ef2107",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Analysis/Hilbert Space.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Hilbert Basis.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Analysis/Hilbert Space.md",
     "Topology/Separable Space.md",
     "Analysis/Lp Space.md",
     "Analysis/Banach Space.md",
@@ -255,7 +270,6 @@
     "Analysis/Norm.md",
     "Analysis/Gram-Schmidt Orthogonalization.md",
     "Algebra/Algebraic and Transcendental Number.md",
-    "Topology/Topological Vector Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

@@ -30,7 +30,7 @@
 3. [[Hilbert Basis]]
 
 **1.5 Closest Point Property, Projections**
-1. 
+1. [[Hilbert Space|Projections]]
 ---
 ### Exercises
 1. [[Courses/Analysis IV/Exercise Sheet 0|Exercise Sheet 0]]
