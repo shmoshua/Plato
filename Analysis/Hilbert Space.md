@@ -26,18 +26,25 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > Lastly, we have: $$\left\| x-S_{n}(x) \right\| =\|x\|^{2}-\sum_{k=0}^{n}\left| \braket{ x , e_{k} }  \right| ^{2}$$This proves the statement.
 ---
 > [!lemma] Theorem 3 (Existence of Projections)
-> For a Hilbert space $\mathcal{H}$ and a closed convex subset $C\subseteq \mathcal{H}$. Then, for all $v\in \mathcal{H}$, there exists a unique $\rho_{C}(v)\in C$ s.t.
-> $$\|v-\rho_{C}(v)\|=d(v,C)$$Furthermore, if $C$ is a vector subspace, $x-\rho_{C}(x)\  \bot\ C$.
+> For a Hilbert space $\mathcal{H}$ and a closed convex subset $C\subseteq \mathcal{H}$. Then, for all $v\in \mathcal{H}$, 
+> 1. there exists a unique $\rho_{C}(v)\in C$ s.t.
+> $$\|v-\rho_{C}(v)\|=d(v,C)$$
+> 2. $\rho_{C}(v)$ is characterized by $\text{Re}\braket{ v-\rho_{C}(v), w-\rho_{C}(w) }$ for all $w\in C$.
+> 3. if $C$ is a vector subspace, $v-\rho_{C}(v)\  \bot\ C$.
 
-> [!proof]+
+> [!proof]-
 > By translating the situation by $-v$, we may assume that $v=0$. Then, let:
 > - $d:=d(0,C)$ and
 > - $(v_{n})_{n\geq 1}\subseteq C$ s.t. $d^{2} \leq \left\| v_{n} \right\|^{2}< d^{2}+\frac{1}{n}$.
 >   
 > Then, we have: $$\left\| \frac{v_{n}+v_{m}}{2} \right\|^{2}+\left\| \frac{v_{n}-v_{m}}{2} \right\|^{2}=\frac{1}{2} (\| v_{n} \| ^{2}+\|  v_{m} \| ^{2})  <d^{2}+\frac{1}{2} \left( \frac{1}{n}+\frac{1}{m} \right)$$ Then, as $\frac{v_{n}+v_{m}}{2}\in C$, we have $\left\| \frac{v_{n}+v_{m}}{2} \right\|^{2}\ge d^{2}$ and $$\left\| \frac{v_{n}-v_{m}}{2} \right\|^{2}<\frac{1}{2} \left( \frac{1}{n}+\frac{1}{m} \right)$$ which implies that $(v_{n})_{n}$ is a Cauchy sequence. Since $\mathcal{H}$ is a Hilbert space, $x:=\lim_{ n \to \infty }v_{n}\in C$ exists and clearly, $d(0,C)=\|x\|$. 
 > 
-> Uniqueness follows directly from the strict convexity property:
-
+> Uniqueness follows directly from the strict convexity property.
+> 
+> Take any $w\in C$ and $\lambda\in[0,1]$. Then,$$F_{w}(\lambda):=\left\| v-((1-\lambda)\rho_{C}(v)+\lambda w) \right\|^{2}=\left\| v-\rho_{C}(v) \right\| ^{2}+\lambda^{2}\left\| w-\rho_{C}(v)\right\|^{2}-2\lambda \text{Re}\braket{ v-\rho_{C}(v) , w-\rho_{C}(v) }   $$with $F'_{w}(\lambda)=2\lambda \left\| w-\rho_{C}(v) \right\|^{2}-2\text{Re}\braket{ v-\rho_{C}(v) , w-\rho_{C}(v) }$. As $F_{w}$ takes its minimum at $\lambda=0$, we have that $\text{Re}\braket{ v-\rho_{C}(v) , w-\rho_{C}(v) }\leq 0$. 
+> 
+> Conversely, if it holds, we have: $$F_{w}(\lambda)\geq\|v-\rho_{C}(v)\|^{2}+\lambda^{2}\|w-\rho_{C}(v)\|^{2}\geq\|v-\rho_{C}(v)\|^{2}$$By taking $\lambda=1$, $\|v-w\|^{2}\geq\|v-\rho_{C}(v)\|^{2}$.
+- **Corollary**: For a proper closed subspace $Y\subseteq \mathcal{H}$, there always exists $0\neq x_{0}\in Y^{\bot}$. (Take $x_{0}:=z_{0}-\rho_{Y}(z_{0})$ where $z_{0}\notin Y$) 
 ---
 > [!lemma] Proposition 2
 > Let $V \subseteq \mathcal{H}$ be a closed subspace of a Hilbert space.  Then, $\mathcal{H}$ is the orthogonal direct sum of $V$ and $V^{\bot}$, i.e.: $$\mathcal{H}= V \oplus V^{\bot}$$
