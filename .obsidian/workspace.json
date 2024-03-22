@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Linear Algebra/Orthogonal Complement.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,13 +26,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Measure Theory/Integrable Function.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a90f272d8b52ca4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d9bff430570daa78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Norm.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -69,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Measure Theory/Integrable Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -81,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -141,7 +166,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stone-",
+                "query": "nikodym",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Measure Theory/Integrable Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Measure Theory/Integrable Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Hilbert Space.md"
+                "file": "Measure Theory/Integrable Function.md"
               }
             }
           }
@@ -241,15 +266,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "98ef213d43fcd260",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
-    "Algebra/Linear Algebra/Orthogonal Complement.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Hilbert Space.md",
+    "Measure Theory/Integrable Function.md",
+    "Measure Theory/Measurable Function.md",
+    "Algebra/Linear Algebra/Linear Map.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Norm.md",
+    "Analysis/Operator Norm.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Algebra/Linear Algebra/Orthogonal Complement.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Analysis/Hilbert Basis.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Separable Space.md",
     "Analysis/Lp Space.md",
     "Analysis/Banach Space.md",
@@ -264,11 +294,6 @@
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Orthonormal System.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Inner Product Space.md",
-    "Algebra/Linear Algebra/Algebraic Basis.md",
-    "Analysis/Norm.md",
-    "Analysis/Gram-Schmidt Orthogonalization.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

@@ -4,7 +4,7 @@
 > A [[Linear Map|linear map]] $T:V \to W$ between two [[Normed Space|normed spaces]] is ***bounded*** if $T(B)$ is [[Bounded Sets|bounded]] whenever $B \subseteq V$ is bounded. In other words,
 > $$\left\| T \right\| :=\sup_{\|x\|_{V}\leq 1 }  \left\| T(x) \right\| _{W}<+\infty$$
 > Then, $\mathcal{B}(V,W)$ denotes the set of all bounded linear maps $T:V \to W$. 
-
+- **Remark**: We have for the operator norm: $$\|T\|=\sup_{\|x\|_{V}\leq 1 }  \left\| T(x) \right\| _{W}=\sup_{\|x\|_{V}= 1 }  \left\| T(x) \right\| _{W}=\sup_{x\neq 0 }  \frac{\left\| T(x) \right\| _{W}}{\|x\|_{V}}$$
 - **Related Definition**: a bounded linear map $T\in \mathcal{B}(V,W)$ is an ***isometry***, if $\left\| Tv \right\|_{W}=\|v\|_{V}$ for all $v\in V$. e.g. [[Unitary Linear Map|unitary operators]].
 ---
 ##### Properties

@@ -44,7 +44,7 @@
 
 ---
 > [!lemma] Theorem LinMap.4
-> For two [[Continuous Function|continuous]] linear maps $\mathcal{A},\tilde{\mathcal{A}}:(V,F,\|\cdot\|_{V})\to(W,F,\|\cdot\|_{W})$ and $\mathcal{B}:(U,F,\|\cdot\|_{U})\to(V,F,\|\cdot\|_{V})$ with the [[Induced Norm|induced norm]] $\|\cdot\|$, we have the followings:
+> For two [[Continuous Function|continuous]] linear maps $\mathcal{A},\tilde{\mathcal{A}}:(V,F,\|\cdot\|_{V})\to(W,F,\|\cdot\|_{W})$ and $\mathcal{B}:(U,F,\|\cdot\|_{U})\to(V,F,\|\cdot\|_{V})$ with the [[Operator Norm|induced norm]] $\|\cdot\|$, we have the followings:
 > 1. For all $v\in V$: $\left\| \mathcal{A} (v)\right\|_{W} \leq \left\| \mathcal{A} \right\|\cdot \|v\|_{V}$
 > 2. For all $a\in F$: $\left\| a\mathcal{A} \right\|=|a|\cdot \left\| \mathcal{A} \right\|$
 > 3. $\left\| \mathcal{A}+\tilde{\mathcal{A}} \right\|\leq \left\| \mathcal{A} \right\|+\left\| \tilde{\mathcal{A}} \right\|$

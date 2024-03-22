@@ -50,21 +50,23 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > Let $V \subseteq \mathcal{H}$ be a closed subspace of a Hilbert space.  Then, $\mathcal{H}$ is the orthogonal [[direct sum]] of $V$ and $V^{\bot}$, i.e.: $$\begin{array}{cccc} {T:}&{\mathcal{H}}&\to&{V\oplus V^{\bot}}\\&{v} &\mapsto & {(\rho_{V}(v),\rho_{V^{\bot}}(v))} \end{array}{}$$is an isometry of Hilbert spaces with $\|v\|^{2}=\|\rho_{V}(v)\|^{2}+\|\rho_{V^{\bot}}(v)\|^{2}$.
 > 
 
->[!proof]+
+>[!proof]-
 > Firstly, $\rho_{V}(v)\in V$ exists per Theorem 3. Then, for any $z\in V^{\bot}$:$$\braket{ v-(v-\rho_{V}(v)) , z } =\braket{ \rho_{V}(v) , z } =0$$Therefore, by Theorem 3, $v-\rho_{V}(v)=\rho_{V^{\bot}}(v)$. 
 >
->Then, it is clear that $T$ is surjective. Furthermore, to show the injectivity: $$\begin{align}\braket{ Tu , Tv }&=\braket{ \rho_{V}(u) , \rho_{V}(v) } +\braket{u- \rho_{V}(u) , v-\rho_{V}(v) }\\&=\braket{ \rho_{V}(u) , \rho_{V}(v) } +\braket{ u , v } -\braket{ u , \rho_{V}(v) }-\underbrace{ \braket{ \rho_{V}(u) , v-\rho_{V}(v) } }_{ =0 }\\&=\underbrace{ \braket{ \rho _{V}(u)-u ,\rho_{V}(v)   } }_{ =0 }+\braket{ u , v } \\&=\braket{ u , v }  \end{align} $$
+>Then, it is clear that $T$ is surjective. Furthermore, to show the injectivity: $$\begin{align}\braket{ Tu , Tv }&=\braket{ \rho_{V}(u) , \rho_{V}(v) } +\braket{u- \rho_{V}(u) , v-\rho_{V}(v) }\\&=\braket{ \rho_{V}(u) , \rho_{V}(v) } +\braket{ u , v } -\braket{ u , \rho_{V}(v) }-\underbrace{ \braket{ \rho_{V}(u) , v-\rho_{V}(v) } }_{ =0 }\\&=\underbrace{ \braket{ \rho _{V}(u)-u ,\rho_{V}(v)   } }_{ =0 }+\braket{ u , v } \\&=\braket{ u , v }  \end{align} $$Therefore, $T$ is a bijective isometry.
+>
+>---
 >Since $V$ is closed and convex, we have the nearest point projection: $$P_{V}:\mathcal{H} \to V$$from Theorem 1.  Then, for all $u\in V$, the polynomial $$\begin{array}{cccc} {}&{\mathbb{R}}&\to&{\mathbb{R}}\\&{t} &\mapsto & {\left\| v-(P_{V}(v)-tu) \right\| ^{2}} \end{array}{}$$attains a minimum at $t=0$. Then, then in the derivative, we should have: $$\text{Re}\braket{ v-P_{V}(v) , u } =0$$for all $u\in V$. Now, for $u\in V$, let $\alpha\in \mathbb{C}$ s.t. $$\left| \braket{ v-P_{V}(v) , u }  \right| =\alpha \cdot \braket{ v-P_{V}(v) , u }=\text{Re} \braket{ v-P_{V} (v), \overline{\alpha}u }=0  $$Therefore, $v-P_{V}(v)\in V^{\bot}$. It follows that: $$\|v\|^2=\left\| P_{V}(v)+(v-P_{V}(v)) \right\|^{2}=\left\| P_{V}(v) \right\| ^2+\left\| v-P_{V}(v) \right\| ^2$$
 ---
-> [!lemma] Theorem 3 (Riesz Representation Theorem)
-> For a Hilbert space $\mathcal{H}$, the Riesz map, defined as: $$\begin{array}{cccc} {i:}&{\mathcal{H}}&\to&{\mathcal{H}^{*}}\\&{u} &\mapsto & {i(u)} \end{array}{}$$s.t. $i(u)(v):=\braket{ v , u }$ is an anti-linear, norm-preserving bijection.
+> [!lemma] Theorem 5 (Riesz Representation Theorem)
+> For a Hilbert space $\mathcal{H}$, the Riesz map, defined as: $$\begin{array}{cccc} {i:}&{\mathcal{H}}&\to&{\mathcal{H}^{*}}\\&{u} &\mapsto & {\braket{ \cdot  , u } } \end{array}{}$$is an anti-linear, norm-preserving bijection. Therefore, $\mathcal{H}^{*}\cong \mathcal{H}$.
 
 > [!proof]-
-> Anti-linearity is clear. For the norm, we have: $$\left\| i(u) \right\| =\sup_{\|v\|\leq 1}\left| \braket{ v,u }  \right| \leq \|u\| $$Since, $i(u)\left( \frac{u}{\|u\|} \right)=\|u\|$, we have $\|i(u)\|=\|u\|$, i.e. $i$ is norm-preserving.
+> Anti-linearity is clear. For the norm, by [[Inner Product Space|Cauchy-Schwarz]], we have: $$\left\| i(u) \right\| =\sup_{\|v\|\leq 1}\left| \braket{ v,u }  \right| \leq \|u\| $$Since, $i(u)\left( \frac{u}{\|u\|} \right)=\|u\|$, we have $\|i(u)\|=\|u\|$, i.e. $i$ is norm-preserving.
 > 
-> Now, let $\lambda\in \mathcal{H}^{*}$ s.t. $\lambda\neq 0$. Then, $\text{ker}\lambda$ is a closed, co-dimension 1 subspace of $\mathcal{H}$. By Proposition 2, we have: $$\text{ker}\lambda \oplus (\text{ker}\lambda)^{\bot}=\mathcal{H}$$Let $(\text{ker}\lambda)^{\bot}=\mathbb{K}\cdot e$ for some $\|e\|=1$. Further, let $u:=\overline{\lambda(e)}\cdot e$. Then, for any $v\in \mathcal{H}$, we have $v=v_{1} +r \cdot e$. for some $r\in \mathbb{K}$, $v_{1}\in \text{ker}\lambda$ and:$$i(u)(v)=\braket{ v , u } =\braket{ re ,  \overline{\lambda(e)}e}=r\lambda(e)=\lambda(re)=\lambda(v) $$which shows that $i(u)=\lambda$.
+> Now, let $\lambda\in \mathcal{H}^{*}$ s.t. $\lambda\neq 0$. Then, $\text{ker}\lambda$ is a closed, co-dimension 1 subspace of $\mathcal{H}$. By Proposition 4, we have: $$\text{ker}\lambda \oplus (\text{ker}\lambda)^{\bot}=\mathcal{H}$$Let $(\text{ker}\lambda)^{\bot}=\mathbb{K}\cdot e$ for some $\|e\|=1$. Further, let $u:=\overline{\lambda(e)}\cdot e$. Then, for any $v\in \mathcal{H}$, we have $v=v_{1} +r \cdot e$. for some $r\in \mathbb{K}$, $v_{1}\in \text{ker}\lambda$ and:$$i(u)(v)=\braket{ v , u } =\braket{ re ,  \overline{\lambda(e)}e}=r\lambda(e)=\lambda(re)=\lambda(v) $$which shows that $i(u)=\lambda$.
 ---
-> [!lemma] Proposition 4
+> [!lemma] Proposition 6
 > Let $\mathcal{H}$ be a [[Separable Space|separable]] $\infty$-dimensional Hilbert space and $\{ e_{n} \}_{n\geq 1}$ an orthonormal basis. Then, $e_{n}\to 0$ weakly as $n\to \infty$.
 
 

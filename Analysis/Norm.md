@@ -26,3 +26,6 @@
 > We have:
 > 1. Firstly, $\|\lambda v\|^p=\sum_{j=1}^{d}\left| \lambda \right|^p\left| v_{j} \right|^p=\left| \lambda \right|^p\|v\|^p$. Further, $\|v\|^p=0 \iff \left| v_{j} \right|=0$ for all $j\in[d]$. Lastly, the triangular inequality follows from the minkowski inequality.
 ---
+> [!h] Example 2 (Operator Norm)
+> Let $V,W$ be [[Normed Space|normed spaces]]. Then, the ***operator norm*** on [[Bounded Linear Map|$\mathcal{B}(V,W)$]] is defined as: $$\left\| T \right\| :=\sup_{v\neq 0}\frac{\left\| Tv \right\| _{W}}{\|v\|_{V}}$$
+---

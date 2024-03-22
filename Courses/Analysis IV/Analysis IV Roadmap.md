@@ -32,6 +32,10 @@
 **1.5 Closest Point Property, Projections**
 1. [[Hilbert Space|Projections]]
 2. [[Orthogonal Complement]]
+3. [[Hilbert Space|Orthogonal Decomposition of Hilbert spaces]]
+
+**1.6 Linear Operators and Continuous Functionals**
+
 ---
 ### Exercises
 1. [[Courses/Analysis IV/Exercise Sheet 0|Exercise Sheet 0]]

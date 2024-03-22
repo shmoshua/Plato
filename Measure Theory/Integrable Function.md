@@ -83,3 +83,9 @@
 > [!proof]-
 > We have that $\chi_{E_{k}}$ are $\mu$-measurable functions. Then, $$\int_{\Omega}^{} \sum_{k=1}^{\infty}\chi_{E_{k}} \, d\mu=\sum_{k=1}^{\infty}\int_{\Omega}^{} \chi_{E_{k}} \, d\mu =\sum_{k=1}^{\infty}\mu(E_{k})<+\infty $$Therefore, since $f$ is $\mu$-summable, by [[Summable Function|Proposition 2]],$$\mu\left(\limsup_{ k \to \infty } E_{k}\right)=\mu(\{ x\in \Omega: f(x)=+\infty \})=0$$
 ---
+> [!lemma] Theorem 8 (Radon-Nikodym)
+> Let $(X,\Sigma)$ be a measurable space and $\mu,\nu$ are finite measures on $(X,\Sigma)$ s.t. $\nu\ll $ for every $E\in \Sigma$, $$\mu(E)=0 \implies \nu(E)=0$$Then, there exists a unique function $\rho\in L^1(X,\mu)$ s.t. for any $E\in \Sigma$:$$\nu(E)=\int_{E}^{} \rho \, d\mu $$
+
+> [!proof]+
+> We have: 
+> 1. **Proving the existence**: We define the auxiliary measure $\lambda:=\mu+\nu$. Then, 

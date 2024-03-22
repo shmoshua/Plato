@@ -46,7 +46,7 @@
 2. [[Banach Space]]
 
 **2.4 Induced Norms and Matrix Norms**
-1. [[Induced Norm]]
+1. [[Operator Norm]]
 2. [[Bounded Linear Map]]
 
 **2.5 Ordinary Differential Equations**
