@@ -1,8 +1,11 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M$ be a [[smooth manifold]] and $p\in M$. A ***derivation*** of $C^\infty(M)$ at $p$ is a map $\delta\in C^\infty(M)^{*}$ s.t. for all $f,g\in C^\infty(M)$, $$\delta(fg)=\delta(f)g(p)+f(p)\delta(g)$$
+> Let $M$ be a [[smooth manifold]] and $p\in M$. 
+> 1. A ***derivation of $C^\infty(M)$ at $p$***  is a map $\delta\in C^\infty(M)^{*}$ s.t. for all $f,g\in C^\infty(M)$, $$\delta(fg)=\delta(f)g(p)+f(p)\delta(g)$$
 > Let $\text{Der}_{p}C^\infty(M)$ be the vector space of derivations at $p$.
+> 2. A ***derivation of of $C^\infty(M)$*** is a linear map $\delta:C^\infty(M)\to C^\infty(M)$ s.t. for all $f,g\in C^\infty(M)$, $$\delta(fg)=\delta(f)g+f\delta(g)$$
+> 	Let $\text{Der }C^\infty(M)$ be the vector space of derivations.
 ---
 ##### Properties
 > [!lemma] Lemma 1
@@ -53,3 +56,8 @@
 > For $\delta\in \text{Der}_{p}C^\infty(M)$ and $g_{1},g_{2}\in C^\infty(N)$, $$\begin{align}F_{*}\delta(g_{1}g_{2})&=\delta((g_{1}\cdot g_{2})\circ F)\\&=\delta(g_{1}\circ F)g_{2}(F(p))+g_{1}(F(p))\delta(g_{2}\circ F)\\&=F_{*}\delta(g_{1})g_{2}(F(p))+g_{1}(F(p))F_{*}\delta(g_{2})\end{align}$$
 > Further, for $v\in \text{T}_{p}M$, $$F_{*}(\delta_{v})(f)=\delta_{v}(f\circ F)=d_{p}(f\circ F)v=d_{F(p)}(f)d_{p}F(v)=\delta_{d_{p}F(v)}(f)$$
 ---
+> [!lemma] Lemma 5
+> Let $M$ be a [[smooth manifold]] and $\delta,\delta'\in \text{Der }C^\infty(M)$. Then, $[\delta,\delta']\in \text{Der }C^\infty(M)$.
+
+> [!proof]+
+> We have: $$\begin{align}\delta\delta'(fg)=\delta(\delta'(f)g+f\delta'(g))=\delta\delta'(f)g+\delta'(f)\delta(g)+\delta(f)\delta'(g)+f\delta\delta'(g)\\\delta'\delta(fg)=\delta'(\delta(f)g+f\delta(g))=\delta'\delta(f)g+\delta(f)\delta'(g)+\delta'(f)\delta(g)+f\delta'\delta(g)\end{align}$$Therefore, $$[\delta,\delta'](fg)=(\delta\delta'(f)-\delta'\delta(f))g$$

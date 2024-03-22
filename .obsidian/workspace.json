@@ -31,9 +31,33 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "e13a82322a521fdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Lie Bracket.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1e78df342d51638e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Derivation.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "c45eeefa3389e702",
@@ -75,9 +99,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "396e4b68aba120ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Derivation.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -143,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Derivation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Derivation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Vector Field.md"
+                "file": "Differential Geometry/Derivation.md"
               }
             }
           }
@@ -205,8 +241,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9ad1af80f5cca89b",
+  "active": "1e78df342d51638e",
   "lastOpenFiles": [
+    "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Derivation.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Vector Bundle.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
@@ -231,8 +269,6 @@
     "Analysis/Norm.md",
     "Analysis/Operator Norm.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Topology/Separable Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
