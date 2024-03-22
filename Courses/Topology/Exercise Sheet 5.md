@@ -17,7 +17,7 @@ We have that:
 ---
 > [!def] Problem 2
 > Let $X$ be a compact Hausdorff space. Let $(C_{n})_{n}$ be a sequence of closed subsets of $X$ with empty interior for all $n$. Denote $C:=\bigcup_{n\geq 1}^{}C_{n}$. Let $U$ be a non-empty open subset of $X$.
-> 1. Let $x\in X$ and $A\subseteq X$ be a closed subspace with $x\notin A$. Show that there exists a neighborhood $U$ of $x$ s.t. $U\cap A=\varnothing$.
+> 1. Let $x\in X$ and $A\subseteq X$ be a closed subspace with $x\notin A$. Show that there exists a neighborhood $U$ of $x$ s.t. $\overline{U}\cap A=\varnothing$.
 > 1. Let $U_{0}=U$. Show that one can construct by induction a sequence of open set $(U_{n})_{n\geq 1}$ such that, for all $n\geq 1$, the properties $$\begin{cases}\overline{U}_{n}\cap C_{n}=\varnothing\\\overline{U}_{n}\subseteq U_{n-1}\end{cases}$$ are satisfied.
 > 2. Show that: $$\bigcap_{n\geq 1}^{}\overline{U_{n}}\neq \varnothing$$and deduce that $U\cap(X \backslash C)\neq\varnothing$.
 > 3. Deduce that the interior of $C$ is empty.
@@ -25,4 +25,5 @@ We have that:
 > 5. Give an example of a sequence $(V_{n})_{n}$ of dense open sets in the compact space $[0,1]$ such that the intersection of the $V_{n}$’s is not open.
 
 We have: 
-1. Let $y\in A$. Then, we will
+1. Let $y\in A$. Then, $x\neq y$ and as $X$ is Hausdorff, there exists disjoint open neighborhoods $U_{y},V_{y}$ of $x$ and $y$ respectively. As $A$ is a closed subspace, $A$ is compact and $\{ V_{y} \}_{y\in A}$ is an open cover of $A$. Therefore, there exists a finite set $J\subseteq A$ s.t. $\bigcup_{y\in J}^{}V_{y}\supseteq A$. Let $U:=\bigcap_{y\in J}^{}U_{y}$ which is an open neighborhood of $x$. Then, we have that $U\cap \bigcup_{y\in J}^{}V_{j}=\varnothing$ and as both sets are open, $\overline{U}\cap A \subseteq \overline{U}\cap \bigcup_{y\in J}^{}V_{j}=\varnothing$. 
+2. As $C_{1}$ does not contain any non-empty open set, there exists $x_{1}\in U$ s.t. $x_{1}\notin C_{1}$. Therefore, there exists a neighborhood $U_{1}$ of $x_{1}$ modulo taking the intersection with $U$, s.t. $\overline{U_{1}}\cap C_{1} =\varnothing$ and $\overline{U_{1}}\subseteq U$.
