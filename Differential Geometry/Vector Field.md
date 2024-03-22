@@ -14,9 +14,19 @@
 > [!lemma] Lemma 1
 > A vector field $X$ is smooth if and only if for every chart, the local expression $X^i$ is smooth.
 
-> [!proof]+
-> Assume $X$ is smooth. Let $(U,\varphi),(V,\psi)$ be a chart on $M$ with $U\subseteq V$. Then, $d\psi \circ X\circ\varphi ^{-1}\in C^\infty$. Then, for any $a\in \varphi(U)$, let $p:=\varphi ^{-1}(a)$ s.t. $$\begin{align}(d\psi \circ X\circ \varphi ^{-1})(a)&=d\psi (X_{p})=\end{align}$$
+> [!proof]-
+> Let $(U,\varphi)$ be a chart on $M$. Then, for any $a\in \varphi(U)$, let $p:=\varphi ^{-1}(a)$ s.t. $$\begin{align}(d\varphi \circ X\circ \varphi ^{-1})(a)&=d\varphi (X_{p})\\&=(\varphi(p),d_{p}\varphi(X_{p}))\\&=\left( a,\sum_{i=1}^{m}X^i(p)e_{i} \right)\\&=\left( a,(X^1(p),\dots,X^m(p)) \right)\\&=\left( a,(X^1(\varphi ^{-1}(a)),\dots,X^m(\varphi ^{-1}(a))) \right)\\&=(\text{id}_{\varphi(U)},(X^1\circ \varphi ^{-1},\dots,X^m\circ \varphi ^{-1}))(a) \end{align}$$
 > 
+> Therefore, $d\varphi \circ X\circ\varphi ^{-1}\in C^\infty$ if and only if $X^i\circ\varphi ^{-1}\in C^\infty$ for all $i\in [m]$.
+---
+> [!lemma] Proposition 2
+> The following map: $$\begin{array}{cccc} {L:}&{\Gamma(\text{T}M)}&\to&{\text{Der }C^\infty(M)}\\&{X} &\mapsto & {L_{X}:f\mapsto (p\mapsto X_{p}f)} \end{array}{}$$is an isomorphism.
+
+> [!proof]+
+> We have: 
+> 1. **Showing that $L$ is well-defined**:
+>    Let $X$ be a smooth vector field. Then, as $\delta_{X_{p}}\in \text{Der}_{p}C^\infty(M)$, $$L_{X}(fg)(p)=X_{p}fg=X_{p}f\cdot g(p)+f(p)\cdot X_{p}g=(L_{X}(f)\cdot g+f\cdot L_{X}(g))(p)$$Therefore, $L_{X}$ is a derivation.
+> 2. **Showing that $L$ is injective**:
 ---
 ##### Examples
 > [!h] Example 1
