@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "file": "Algebra/Linear Algebra/Orthogonal Complement.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,8 +32,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -41,24 +40,24 @@
         "dimension": 46.264367816091955,
         "children": [
           {
-            "id": "0f2d54b6ae091db2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "eee5d812a80c3784",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84421ef643ba3cd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Linear Algebra/Orthogonal Complement.md",
                 "mode": "preview",
                 "source": false
               }
@@ -242,12 +241,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f154484d52ef2107",
+  "active": "98ef213d43fcd260",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Analysis/Hilbert Space.md",
+    "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Hilbert Space.md",
+    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Analysis/Hilbert Basis.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Separable Space.md",
@@ -269,7 +269,6 @@
     "Algebra/Linear Algebra/Algebraic Basis.md",
     "Analysis/Norm.md",
     "Analysis/Gram-Schmidt Orthogonalization.md",
-    "Algebra/Algebraic and Transcendental Number.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

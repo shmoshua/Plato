@@ -30,7 +30,7 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > 1. there exists a unique $\rho_{C}(v)\in C$ s.t.
 > $$\|v-\rho_{C}(v)\|=d(v,C)$$
 > 2. $\rho_{C}(v)$ is characterized by $\text{Re}\braket{ v-\rho_{C}(v), w-\rho_{C}(w) }$ for all $w\in C$.
-> 3. if $C$ is a vector subspace, $v-\rho_{C}(v)\  \bot\ C$.
+> 3. if $C$ is a vector subspace and $w\in \mathcal{H}$, $w=\rho_{C}(v)$ if and only if $v-w\  \bot\ C$.
 
 > [!proof]-
 > By translating the situation by $-v$, we may assume that $v=0$. Then, let:
@@ -46,11 +46,14 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > Conversely, if it holds, we have: $$F_{w}(\lambda)\geq\|v-\rho_{C}(v)\|^{2}+\lambda^{2}\|w-\rho_{C}(v)\|^{2}\geq\|v-\rho_{C}(v)\|^{2}$$By taking $\lambda=1$, $\|v-w\|^{2}\geq\|v-\rho_{C}(v)\|^{2}$.
 - **Corollary**: For a proper closed subspace $Y\subseteq \mathcal{H}$, there always exists $0\neq x_{0}\in Y^{\bot}$. (Take $x_{0}:=z_{0}-\rho_{Y}(z_{0})$ where $z_{0}\notin Y$) 
 ---
-> [!lemma] Proposition 2
-> Let $V \subseteq \mathcal{H}$ be a closed subspace of a Hilbert space.  Then, $\mathcal{H}$ is the orthogonal direct sum of $V$ and $V^{\bot}$, i.e.: $$\mathcal{H}= V \oplus V^{\bot}$$
-> Further, every $u\in \mathcal{H}$ can be uniquely written as: $$u=v+v^{\bot}$$for $v\in V,v^{\bot}\in V^{\bot}$ and $\|u\|^{2}=\|v\|^{2}+\|v^{\bot}\|^2$
+> [!lemma] Proposition 4 (Orthogonal Decomposition)
+> Let $V \subseteq \mathcal{H}$ be a closed subspace of a Hilbert space.  Then, $\mathcal{H}$ is the orthogonal [[direct sum]] of $V$ and $V^{\bot}$, i.e.: $$\begin{array}{cccc} {T:}&{\mathcal{H}}&\to&{V\oplus V^{\bot}}\\&{v} &\mapsto & {(\rho_{V}(v),\rho_{V^{\bot}}(v))} \end{array}{}$$is an isometry of Hilbert spaces with $\|v\|^{2}=\|\rho_{V}(v)\|^{2}+\|\rho_{V^{\bot}}(v)\|^{2}$.
+> 
 
->[!proof]-
+>[!proof]+
+> Firstly, $\rho_{V}(v)\in V$ exists per Theorem 3. Then, for any $z\in V^{\bot}$:$$\braket{ v-(v-\rho_{V}(v)) , z } =\braket{ \rho_{V}(v) , z } =0$$Therefore, by Theorem 3, $v-\rho_{V}(v)=\rho_{V^{\bot}}(v)$. 
+>
+>Then, it is clear that $T$ is surjective. Furthermore, to show the injectivity: $$\begin{align}\braket{ Tu , Tv }&=\braket{ \rho_{V}(u) , \rho_{V}(v) } +\braket{u- \rho_{V}(u) , v-\rho_{V}(v) }\\&=\braket{ \rho_{V}(u) , \rho_{V}(v) } +\braket{ u , v } -\braket{ u , \rho_{V}(v) }-\underbrace{ \braket{ \rho_{V}(u) , v-\rho_{V}(v) } }_{ =0 }\\&=\underbrace{ \braket{ \rho _{V}(u)-u ,\rho_{V}(v)   } }_{ =0 }+\braket{ u , v } \\&=\braket{ u , v }  \end{align} $$
 >Since $V$ is closed and convex, we have the nearest point projection: $$P_{V}:\mathcal{H} \to V$$from Theorem 1.  Then, for all $u\in V$, the polynomial $$\begin{array}{cccc} {}&{\mathbb{R}}&\to&{\mathbb{R}}\\&{t} &\mapsto & {\left\| v-(P_{V}(v)-tu) \right\| ^{2}} \end{array}{}$$attains a minimum at $t=0$. Then, then in the derivative, we should have: $$\text{Re}\braket{ v-P_{V}(v) , u } =0$$for all $u\in V$. Now, for $u\in V$, let $\alpha\in \mathbb{C}$ s.t. $$\left| \braket{ v-P_{V}(v) , u }  \right| =\alpha \cdot \braket{ v-P_{V}(v) , u }=\text{Re} \braket{ v-P_{V} (v), \overline{\alpha}u }=0  $$Therefore, $v-P_{V}(v)\in V^{\bot}$. It follows that: $$\|v\|^2=\left\| P_{V}(v)+(v-P_{V}(v)) \right\|^{2}=\left\| P_{V}(v) \right\| ^2+\left\| v-P_{V}(v) \right\| ^2$$
 ---
 > [!lemma] Theorem 3 (Riesz Representation Theorem)
