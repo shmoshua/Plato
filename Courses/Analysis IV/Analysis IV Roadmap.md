@@ -35,6 +35,10 @@
 3. [[Hilbert Space|Orthogonal Decomposition of Hilbert spaces]]
 
 **1.6 Linear Operators and Continuous Functionals**
+1. [[Bounded Linear Map]]
+2. [[Integrable Function|Radon-Nikodym]]
+---
+##### 2. Fourier Series
 
 ---
 ### Exercises
