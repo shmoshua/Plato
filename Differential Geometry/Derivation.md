@@ -59,5 +59,6 @@
 > [!lemma] Lemma 5
 > Let $M$ be a [[smooth manifold]] and $\delta,\delta'\in \text{Der }C^\infty(M)$. Then, $[\delta,\delta']\in \text{Der }C^\infty(M)$.
 
-> [!proof]+
-> We have: $$\begin{align}\delta\delta'(fg)=\delta(\delta'(f)g+f\delta'(g))=\delta\delta'(f)g+\delta'(f)\delta(g)+\delta(f)\delta'(g)+f\delta\delta'(g)\\\delta'\delta(fg)=\delta'(\delta(f)g+f\delta(g))=\delta'\delta(f)g+\delta(f)\delta'(g)+\delta'(f)\delta(g)+f\delta'\delta(g)\end{align}$$Therefore, $$[\delta,\delta'](fg)=(\delta\delta'(f)-\delta'\delta(f))g$$
+> [!proof]-
+> We have: $$\begin{align}\delta\delta'(fg)=\delta(\delta'(f)g+f\delta'(g))=\delta\delta'(f)g+\delta'(f)\delta(g)+\delta(f)\delta'(g)+f\delta\delta'(g)\\\delta'\delta(fg)=\delta'(\delta(f)g+f\delta(g))=\delta'\delta(f)g+\delta(f)\delta'(g)+\delta'(f)\delta(g)+f\delta'\delta(g)\end{align}$$Therefore, $$[\delta,\delta'](fg)=(\delta\delta'(f)-\delta'\delta(f))g+f(\delta\delta'(g)-\delta'\delta(g))=[\delta,\delta'](f)g+f[\delta,\delta'](g)$$
+---
