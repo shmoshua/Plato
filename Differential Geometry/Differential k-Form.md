@@ -67,7 +67,7 @@
 > [!lemma] Lemma 5
 > Let $M$ be a [[smooth manifold]] and $(U,\varphi)$ a chart. Further, suppose that $F\subseteq U$ s.t. $\varphi(F)=[0,1]^m$. If $\omega\in \Omega^m(M)$ satisfies $\int_{M}^{} \omega=0$ and $\text{supp }\omega \subseteq F$ then there is $\eta\in \Omega^{m-1}(M)$ s.t. $\text{supp }\eta \subseteq F$ and $\omega=d \eta$.
 
-> [!proof]+
+> [!proof]-
 > Consider $(\varphi ^{-1})^{*}\omega\in \Omega^m(\varphi(U))$ with support in $[0,1]^m$. Then, we can write: $$(\varphi ^{-1})^{*}\omega=fdx_{1}\land\dots \land dx_{m}$$for some $f\in C^\infty(\mathbb{R}^m)$ with $\text{supp }f\in [0,1]^m$. Then, there exists $f_{i}$ s.t. $f=\sum_{i=1}^{m}\partial_{i}f_{i}$ where $f_{i}\in C^\infty(\mathbb{R}^m)$ and $\text{supp }f_{i}\subseteq [0,1]^m$. Now we define $\alpha\in\Omega^{m-1}(\mathbb{R}^m)$ as: $$\alpha:=\sum_{i=1}^{m}(-1)^{i-1}f_{i}dx_{1}\land\dots \land\widehat{dx_{i}}\land\dots \land dx_{m}$$which is supported in $[0,1]^m$. Then, $$\begin{align}d\alpha&=\sum_{i=1}^{m}(-1)^{i-1}df_{i}\land dx_{1}\land\dots \land\widehat{dx_{i}}\land\dots \land dx_{m}\\&=\sum_{i=1}^{m}(-1)^{i-1}\sum_{j=1}^{m}\frac{ \partial f_{j} }{ \partial x_{j} } dx_{j}\land dx_{1}\land\dots \land\widehat{dx_{i}}\land\dots \land dx_{m}\\&=\sum_{i=1}^{m}\frac{ \partial f_{i} }{ \partial x_{i} }  dx_{1}\land\dots \land {dx_{i}}\land\dots \land dx_{m}\\&=f dx_{1}\land\dots \land {dx_{i}}\land\dots \land dx_{m}\\&=(\varphi ^{-1})^{*}\omega\end{align}$$Therefore, $\eta:=(\varphi)^{*}\alpha$.
 ---
 > [!lemma] Lemma 6

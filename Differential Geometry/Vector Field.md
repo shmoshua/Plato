@@ -22,11 +22,16 @@
 > [!lemma] Proposition 2
 > The following map: $$\begin{array}{cccc} {L:}&{\Gamma(\text{T}M)}&\to&{\text{Der }C^\infty(M)}\\&{X} &\mapsto & {L_{X}:f\mapsto (p\mapsto X_{p}f)} \end{array}{}$$is an isomorphism.
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. **Showing that $L$ is well-defined**:
 >    Let $X$ be a smooth vector field. Then, as $\delta_{X_{p}}\in \text{Der}_{p}C^\infty(M)$, $$L_{X}(fg)(p)=X_{p}fg=X_{p}f\cdot g(p)+f(p)\cdot X_{p}g=(L_{X}(f)\cdot g+f\cdot L_{X}(g))(p)$$Therefore, $L_{X}$ is a derivation.
-> 2. **Showing that $L$ is injective**:
+> 2. **Showing that $L$ is injective**: 
+>    Assume $L_{X}=L_{Y}$. Then, for all $f\in C^\infty(M)$, $X_{p}f=Y_{p}f$ and $X_{p}=Y_{p}$. Therefore, $X=Y$.
+>  3. **Showing that $L$ is surjective**:
+>    Let $\delta\in \text{Der }C^\infty(M)$. Then, for all $p\in M$, $f\mapsto \delta(f)(p)$ is a derivation at $p$. Therefore, there exists a well-defined $X_{p}\in \text{T}_{p}M$ s.t. $\delta(f)p=X_{p}f$ for all $f\in C^\infty(M)$. We only need to verify that $X:p\mapsto X_{p}$ is smooth. 
+>    
+>     Let $(U,\varphi)$ be a chart of $M$ at $p$ and $X_{p}:=\sum_{i=1}^{m}X^i(p)\frac{ \partial  }{ \partial x^i }|_{p}$ the associated representation of $X$. For every $f\in C^\infty(M)$, the map $\delta(f):p\mapsto X_{p}f$ is smooth. In particular, $$p\mapsto \sum_{i=1}^{m}X^i(p)\frac{ \partial (f\circ \varphi ^{-1}) }{ \partial x^i } (\varphi(p))$$is smooth. This proves the statement.
 ---
 ##### Examples
 > [!h] Example 1

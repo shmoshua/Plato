@@ -82,7 +82,9 @@
 1. [[Tangent Space]]
 6. [[Differential]]
 7. [[Vector Field]]
-8. [[Cotangent Space]]
+8. Vector fields as [[Derivation]]
+9. [[Lie Bracket]]
+10. [[Cotangent Space]]
 
 **1.2 Riemannian Metrics**
 1. [[Riemannian Metric]]
