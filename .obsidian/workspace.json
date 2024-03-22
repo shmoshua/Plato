@@ -14,49 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 5.md",
+                "file": "Differential Geometry/Vector Bundle.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "f154484d52ef2107",
+            "id": "ef12195014b29e66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Integrable Function.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a90f272d8b52ca4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d9bff430570daa78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Norm.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -69,55 +46,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "5be777ec81d148db",
+            "id": "6c3c2a3614bc3181",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84421ef643ba3cd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Differential Geometry/Vector Bundle.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "25b4c84d98b23c64",
+            "id": "9ad1af80f5cca89b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Basis.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ba6237ae955348a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -153,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "baire",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact Space.md"
+                "file": "Differential Geometry/Vector Field.md"
               }
             }
           }
@@ -252,19 +205,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "84421ef643ba3cd1",
+  "active": "9ad1af80f5cca89b",
   "lastOpenFiles": [
-    "Topology/Locally Compact Topological Space.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Topology/Compact Space.md",
+    "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Vector Bundle.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 5.md",
-    "Topology/Interior and Closure.md",
-    "Topology/Closure.md",
     "Measure Theory/Integrable Function.md",
+    "Topology/Compact Space.md",
+    "Analysis/Hilbert Basis.md",
+    "Analysis/Functional Analysis/Meager Set.md",
+    "Topology/Interior and Closure.md",
+    "Topology/Complete Metric Space.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Topology/Locally Compact Topological Space.md",
+    "Topology/Closure.md",
     "Topology/Hausdorff Space.md",
     "Topology/One-Point Compactification.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Analysis/Hilbert Space.md",
     "Measure Theory/Measurable Function.md",
@@ -273,13 +232,7 @@
     "Analysis/Operator Norm.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Analysis/Hilbert Basis.md",
     "Topology/Separable Space.md",
-    "Analysis/Lp Space.md",
-    "Analysis/Banach Space.md",
-    "Algebra/Solvable Group.md",
-    "Algebra/Linear Algebra/Vector Space.md",
-    "Algebra/Linear Algebra/Nilpotent Matrix.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

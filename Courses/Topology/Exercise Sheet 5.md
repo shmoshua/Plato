@@ -26,4 +26,7 @@ We have that:
 
 We have: 
 1. Let $y\in A$. Then, $x\neq y$ and as $X$ is Hausdorff, there exists disjoint open neighborhoods $U_{y},V_{y}$ of $x$ and $y$ respectively. As $A$ is a closed subspace, $A$ is compact and $\{ V_{y} \}_{y\in A}$ is an open cover of $A$. Therefore, there exists a finite set $J\subseteq A$ s.t. $\bigcup_{y\in J}^{}V_{y}\supseteq A$. Let $U:=\bigcap_{y\in J}^{}U_{y}$ which is an open neighborhood of $x$. Then, we have that $U\cap \bigcup_{y\in J}^{}V_{j}=\varnothing$ and as both sets are open, $\overline{U}\cap A \subseteq \overline{U}\cap \bigcup_{y\in J}^{}V_{j}=\varnothing$. 
-2. As $C_{1}$ does not contain any non-empty open set, there exists $x_{1}\in U$ s.t. $x_{1}\notin C_{1}$. Therefore, there exists a neighborhood $U_{1}$ of $x_{1}$ modulo taking the intersection with $U$, s.t. $\overline{U_{1}}\cap C_{1} =\varnothing$ and $\overline{U_{1}}\subseteq U$.
+2. For each $n$, we define $U_{n}$ as follows: As $C_{n}$ has an empty interior, there exists $x_{n}\in U_{n-1} \backslash C_{n}$. Therefore, there exists a neighborhood $V_{n}$ of $x_{n}$ s.t. $\overline{V_{n}}\cap C_{n}=\varnothing$. 
+3. 
+4. As $C_{1}$ does not contain any non-empty open set, there exists $x_{1}\in U$ s.t. $x_{1}\notin C_{1}$. Therefore, there exists a neighborhood $U_{1}$ of $x_{1}$ modulo taking the intersection with $U$, s.t. $\overline{U_{1}}\cap C_{1} =\varnothing$ and $\overline{U_{1}}\subseteq U$.
+---
