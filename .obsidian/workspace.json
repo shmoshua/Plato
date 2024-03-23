@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,8 +68,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -118,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "mode": "preview",
                 "source": false
               }
@@ -215,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md"
+                "file": "Differential Geometry/Riemannian Metric.md"
               }
             }
           }
@@ -279,9 +278,10 @@
   },
   "active": "7a6f6fbfbd5d6ade",
   "lastOpenFiles": [
-    "Differential Geometry/Vector Field.md",
     "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Riemannian Metric.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Vector Field.md",
     "Differential Geometry/Vector Bundle.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Differentiable Function.md",
@@ -304,7 +304,6 @@
     "Topology/Locally Compact Topological Space.md",
     "Topology/Closure.md",
     "Topology/Hausdorff Space.md",
-    "Topology/One-Point Compactification.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
