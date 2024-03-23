@@ -42,10 +42,9 @@
 > 1. For a Riemannian metric $h$ on $N$, $$f^{*}(h)_{p}(u,v):=h_{f(p)}(d_{p}f (u),d_{p}f(v))$$for $p\in M$ and $u,v\in \text{T}_{p}M$ defines the ***pullback metric*** on $M$.
 > 2. Additionally, if $f$ is an immersion, $f^{*}(h)$ is a Riemannian metric.
 
-> [!proof]+
+> [!proof]-
 > Firstly, as $d_{p}f$ is linear and $h_{f(p)}$ is bilinear, $f^{*}(h)_{p}$ is bilinear. Further, from the symmetry of $h_{f(p)}$, $f^{*}(h)_{p}$ is symmetric.
 > 
 > For the positive definiteness, if $f$ is an immersion, $d_{p}f$ is injective and for every non-zero $v\in \text{T}_{p}M$, $d_{p}f(v)\neq 0$ and $$(f^{*}h)_{p}(v,v)=h_{f(p)}(d_{p}f(v),d_{p}f(v))>0$$
-> 
-> Lastly, let $(U,\varphi)$ be a chart on $M$ and  for $i,j\in [m]$, $$\begin{align}(f^{*}h)_{ij}(p)&=h_{f(p)}\left(d_{p}f\left( \left. \frac{ \partial  }{ \partial x^i }  \right|_{p}  \right),d_{p}f\left( \left. \frac{ \partial  }{ \partial x^j }  \right|_{p}  \right)  \right)\end{align} $$
-> Lastly, for two smooth vector fields $V,W\in \Gamma(TN)$:$$(F^{*}g)_{p}(V(p),W(p))=g_{F(p)}(d_{p}F(V(p)),d_{p}F(W(p)))$$
+> The smoothness follows from the assumption.
+---

@@ -74,14 +74,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Pullback.md",
+                "file": "Differential Geometry/Tensor Bundle.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "c45eeefa3389e702",
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Isometry.md",
+                "file": "Differential Geometry/Tensor Bundle.md",
                 "mode": "preview",
                 "source": false
               }
@@ -183,9 +183,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "40a543dbcb7ecab9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differential 1-Form.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -251,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Differential Geometry/Tensor Bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Differential Geometry/Tensor Bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md"
+                "file": "Differential Geometry/Tensor Bundle.md"
               }
             }
           }
@@ -313,21 +325,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "396e4b68aba120ce",
+  "active": "7a6f6fbfbd5d6ade",
   "lastOpenFiles": [
-    "Differential Geometry/Derivation.md",
+    "Differential Geometry/Multilinear k-Form.md",
+    "Differential Geometry/Tensor Bundle.md",
+    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Derivation.md",
+    "Differential Geometry/Differential k-Form.md",
+    "Differential Geometry/Isometry.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Isometry.md",
     "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Lie Bracket.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Vector Bundle.md",
     "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Integration on Manifolds.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/De Rham Cohomology.md",
@@ -339,8 +353,6 @@
     "Analysis/Hilbert Basis.md",
     "Analysis/Functional Analysis/Meager Set.md",
     "Topology/Interior and Closure.md",
-    "Topology/Complete Metric Space.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

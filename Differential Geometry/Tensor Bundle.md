@@ -1,6 +1,9 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $r,s\in \mathbb{N}$. Then, the ***$(r,s)$-tensor bundle*** over $M$ is: $$T_{(r,s)}M:=\underbrace{ TM\otimes \dots \otimes TM }_{ r\text{ times} }\otimes \underbrace{ T^{*}M\otimes \dots \otimes T^{*}M }_{ s\text{ times} }$$
-- **Remark**:  $(T_{(r,s)}M)_{p}:=\underbrace{ T_{p}M\otimes \dots \otimes T_{p}M }_{ r\text{ times} }\otimes \underbrace{ T^{*}_{p}M\otimes \dots \otimes T^{*}_{p}M }_{ s\text{ times} }\cong$ multilinear map:
+> Let $M$ be a [[smooth manifold]] and $r,s\in \mathbb{N}$. Then, the ***$(r,s)$-tensor bundle*** over $M$ is a [[vector bundle]] defined as:$$\text{T}_{(r,s)}M:=\bigcup_{p\in M}^{}\{ p \}\times\underbrace{ \text{T}M\otimes \dots \otimes \text{T}M }_{ r\text{ times} }\otimes \underbrace{ \text{T}^{*}M\otimes \dots \otimes \text{T}^{*}M }_{ s\text{ times} }$$
+- **Remark**:  $(\text{T}_{(r,s)}M)_{p}:=\text{T}_{p}M\otimes \dots \otimes \text{T}_{p}M \otimes \text{T}^{*}_{p}M\otimes \dots \otimes \text{T}^{*}_{p}M$ is the space of [[Multilinear k-Form|multilinear $(r+s)$-forms]] $\text{T}^{*}_{p}M\otimes\dots \otimes \text{T}^{*}_{p}M\otimes \text{T}_{p}M \otimes\dots \otimes \text{T}_{p}M\to \mathbb{R}$.
 ---
+##### Properties
+> [!lemma] Lemma 1
+> A smooth section of the $(r,s)$-tensor bundle $T\in \Gamma(\text{T}_{(r,s)}M)$ is uniquely characterized by the following $C^\infty(M)$-multilinear map: $$\begin{array}{cccc} &{(\Gamma(\text{T}^{*}M))^r \times(\Gamma(\text{T}M))^s}&\to&{C^\infty(M)}\\&{(w_{1},\dots,w_{r},X_{1},\dots,X_{s})} &\mapsto & {T(\omega_{1},\dots,\omega _{r},X_{1},\dots,X_{s})} \end{array}{}$$
