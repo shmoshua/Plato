@@ -49,4 +49,5 @@
 > The smoothness follows from the assumption.
 ---
 > [!h] Example 4 (Musical Notation)
-> Let $(M,g)$ be a [[Riemannian manifold]]. For $p\in M$, we have a positive definite symmetric bilinear form $g_{p}^{-1}:\text{T}_{p}^{*}M\times \text{T}^{*}_{p}M\to \mathbb{R}$ defined as: $$g^{-1}_{p}(\xi,\eta):=g_{p}(\xi^\sharp,\eta^\sharp)$$Then, $$g_{p}^{-1}((dx^i)_{p},(dx^j)_{p})=g_{p}\left( g^{ik}\left. \frac{ \partial  }{ \partial x^k }   \right|_{p},g^{j\ell}\left. \frac{ \partial  }{ \partial x^\ell }  \right|_{p}  \right)=g^{ik}g_{k\ell}g^{j\ell}=(g^{-1})$$
+> Let $(M,g)$ be a [[Riemannian manifold]]. For $p\in M$, we have a positive definite symmetric bilinear form $g_{p}^{-1}:\text{T}_{p}^{*}M\times \text{T}^{*}_{p}M\to \mathbb{R}$ defined as: $$g^{-1}_{p}(\xi,\eta):=g_{p}(\xi^\sharp,\eta^\sharp)$$Then, $$g_{p}^{-1}((dx^i)_{p},(dx^j)_{p})=g_{p}\left( g^{ik}(p)\left. \frac{ \partial  }{ \partial x^k }   \right|_{p},g^{j\ell}(p)\left. \frac{ \partial  }{ \partial x^\ell }  \right|_{p}  \right)=(g^{ik}g_{k\ell}g^{j\ell})(p)=(g^{-1}g g^{-1})_{ij}(p)=g^{ij}(p)$$and $$g^{-1}_{p}=g^{ij}(p) \left. \frac{ \partial  }{ \partial x^i } \right| _{p}\otimes \left. \frac{ \partial  }{ \partial x^j } \right| _{p} $$
+---
