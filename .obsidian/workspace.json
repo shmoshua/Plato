@@ -80,7 +80,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "c45eeefa3389e702",
@@ -275,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Musical Isomorphism.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Musical Isomorphism.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Musical Isomorphism.md"
+                "file": "Differential Geometry/Riemannian Metric.md"
               }
             }
           }
@@ -337,10 +338,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9ad1af80f5cca89b",
+  "active": "1e78df342d51638e",
   "lastOpenFiles": [
-    "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Musical Isomorphism.md",
+    "Differential Geometry/Riemannian Metric.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Tangent Space.md",

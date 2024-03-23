@@ -48,3 +48,5 @@
 > For the positive definiteness, if $f$ is an immersion, $d_{p}f$ is injective and for every non-zero $v\in \text{T}_{p}M$, $d_{p}f(v)\neq 0$ and $$(f^{*}h)_{p}(v,v)=h_{f(p)}(d_{p}f(v),d_{p}f(v))>0$$
 > The smoothness follows from the assumption.
 ---
+> [!h] Example 4 (Musical Notation)
+>  
