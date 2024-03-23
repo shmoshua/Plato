@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Pullback.md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -201,8 +201,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
-                "mode": "source",
+                "file": "Analysis/Inner Product Space.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -254,7 +254,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -338,23 +339,24 @@
   },
   "active": "9ad1af80f5cca89b",
   "lastOpenFiles": [
-    "Differential Geometry/Vector Field.md",
-    "Differential Geometry/Musical Isomorphism.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Isometry.md",
     "Differential Geometry/Differential k-Form.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Musical Isomorphism.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Tensor Bundle.md",
-    "Differential Geometry/Pullback.md",
     "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Pullback.md",
     "Differential Geometry/Differential 1-Form.md",
+    "Analysis/Inner Product Space.md",
+    "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Isometry.md",
+    "Differential Geometry/Tensor Bundle.md",
     "Differential Geometry/Derivation.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Multilinear k-Form.md",
     "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Vector Bundle.md",
-    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Integration on Manifolds.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/De Rham Cohomology.md",
@@ -363,7 +365,6 @@
     "Courses/Topology/Exercise Sheet 5.md",
     "Measure Theory/Integrable Function.md",
     "Topology/Compact Space.md",
-    "Analysis/Hilbert Basis.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
