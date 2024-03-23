@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Length.md",
+                "file": "Differential Geometry/Length and Distance.md",
                 "mode": "source",
                 "source": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Length.md",
+                "file": "Differential Geometry/Length and Distance.md",
                 "mode": "preview",
                 "source": false
               }
@@ -275,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Length.md",
+                "file": "Differential Geometry/Length and Distance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Length.md",
+                "file": "Differential Geometry/Length and Distance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Length.md"
+                "file": "Differential Geometry/Length and Distance.md"
               }
             }
           }
@@ -337,10 +337,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "396e4b68aba120ce",
+  "active": "d7901e0671c3fbd6",
   "lastOpenFiles": [
     "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Length.md",
+    "Differential Geometry/Length and Distance.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Musical Isomorphism.md",
     "Differential Geometry/Tangent Space.md",
