@@ -4,7 +4,7 @@
 > Let $M$ be a [[smooth manifold]]. A ***Riemannian metric*** $g$ on $M$ is a smooth family of [[Inner Product Space|inner products]] on the [[Tangent Space|tangent spaces]] of $M$. Namely, 
 > 1. $g$ associates to each $p\in M$ a symmetric positive definite bilinear form $g_{p}:\text{T}_{p}M\times \text{T}_{p}M\to \mathbb{R}$ 
 > 2. for all [[Vector Field|smooth vector fields]] $X,Y\in \Gamma(\text{T}M)$, $$\begin{array}{cccc} &{M}&\to&{\mathbb{R}}\\&{p} &\mapsto & {g_{p}(X_{p},Y_{p})} \end{array}{}$$is smooth.
-- **Equivalent definition**: For a $\mathbb{R}$-vector space $V$, let $S^2(V^{*})$ denote the vector space of all symmetric bilinear maps $V\times V\to \mathbb{R}$. Then, we define the vector bundle: $$S^2(\text{T}^{*}M):=\bigcup_{p\in M}^{}\{ p \}\times S^2(\text{T}^{*}_{p}M)$$Then, a Riemannian metric is a smooth section $g\in \Gamma(S^2(\text{T}^{*}M))$ s.t. $g_{p}\gg 0$ for all $p\in M$.
+- **Equivalent definition**: A smooth section $g\in \Gamma(\text{T}_{(0,2)}M)=\Gamma(\text{T}^{*}M\otimes \text{T}^{*}M)$ is a Riemannian metric if and only if $g_{p}$ is symmetric and positive definite for all $p\in M$.
 - **Related definition**: For a chart $(U,\varphi)$, $$g_{ij}(p):=g_{p}\left( \left. \frac{ \partial  }{ \partial x^i }   \right|_{p},\left. \frac{ \partial  }{ \partial x^j }   \right|_{p} \right) $$are called ***metric coefficients***. Then, they're:
 	1. **symmetric**: $g_{ij}=g_{ji}$.
 	2. **positive definite**: $\sum_{i,j=1}^{m}g_{ij}v^iv^j=g(v,v)\geq 0$ where $v=\sum_{i=1}^{m}v^i \left. \frac{ \partial  }{ \partial x^i } \right|_{p}$ with equality if and only if $v=0$.
