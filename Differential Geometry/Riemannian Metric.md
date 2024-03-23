@@ -5,7 +5,7 @@
 > 1. $g$ associates to each $p\in M$ a symmetric positive definite bilinear form $g_{p}:\text{T}_{p}M\times \text{T}_{p}M\to \mathbb{R}$ 
 > 2. for all [[Vector Field|smooth vector fields]] $X,Y\in \Gamma(\text{T}M)$, $$\begin{array}{cccc} &{M}&\to&{\mathbb{R}}\\&{p} &\mapsto & {g_{p}(X_{p},Y_{p})} \end{array}{}$$is smooth.
 - **Equivalent definition**: For a $\mathbb{R}$-vector space $V$, let $S^2(V^{*})$ denote the vector space of all symmetric bilinear maps $V\times V\to \mathbb{R}$. Then, we define the vector bundle: $$S^2(\text{T}^{*}M):=\bigcup_{p\in M}^{}\{ p \}\times S^2(\text{T}^{*}_{p}M)$$Then, a Riemannian metric is a smooth section $g\in \Gamma(S^2(\text{T}^{*}M))$ s.t. $g_{p}\gg 0$ for all $p\in M$.
-- **Related definition**: For a chart $(U,x=(x^1,\dots,x^m))$, $$g_{ij}(p):=g_{p}\left( \left. \frac{ \partial  }{ \partial x^i }   \right|_{p},\left. \frac{ \partial  }{ \partial x^j }   \right|_{p} \right) $$are called ***metric coefficients***. Then, they're:
+- **Related definition**: For a chart $(U,\varphi)$, $$g_{ij}(p):=g_{p}\left( \left. \frac{ \partial  }{ \partial x^i }   \right|_{p},\left. \frac{ \partial  }{ \partial x^j }   \right|_{p} \right) $$are called ***metric coefficients***. Then, they're:
 	1. **symmetric**: $g_{ij}=g_{ji}$.
 	2. **positive definite**: $\sum_{i,j=1}^{m}g_{ij}v^iv^j=g(v,v)\geq 0$ where $v=\sum_{i=1}^{m}v^i \left. \frac{ \partial  }{ \partial x^i } \right|_{p}$ with equality if and only if $v=0$.
 	3. **smoothness**: $g_{ij}(p)$ is smooth in $p$.
@@ -39,12 +39,13 @@
 ---
 > [!h] Example 3 (Pullback)
 > Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $f:M\to N$ a smooth map. 
-> 1. For a Riemannian metric $h$ on $N$, $$f^{*}(h)_{p}(u,v):=h_{f(p)}(d_{p}f (u),d_{p}f(v))$$for $p\in M$ and $u,v\in \text{T}_{p}M$ defines the ***pullback metric***.
+> 1. For a Riemannian metric $h$ on $N$, $$f^{*}(h)_{p}(u,v):=h_{f(p)}(d_{p}f (u),d_{p}f(v))$$for $p\in M$ and $u,v\in \text{T}_{p}M$ defines the ***pullback metric*** on $M$.
 > 2. Additionally, if $f$ is an immersion, $f^{*}(h)$ is a Riemannian metric.
 
 > [!proof]+
-> Firstly, as $d_{p}F$ is linear and $g_{F(p)}$ is bilinear, $(F^{*}g)$ is bilinear. Further, from the symmetry of $g_{F(p)}$, $F^{*}g$ is symmetric.
+> Firstly, as $d_{p}f$ is linear and $h_{f(p)}$ is bilinear, $f^{*}(h)_{p}$ is bilinear. Further, from the symmetry of $h_{f(p)}$, $f^{*}(h)_{p}$ is symmetric.
 > 
-> For the positive definiteness, if $F$ is an immersion, $d_{p}F$ is injective and for every non-zero $v\in T_{p}N$, $d_{p}F(v)\neq 0$ and $$(F^{*}g)_{p}(v,v)=g_{F(p)}(d_{p}F(v),d_{p}F(v))>0$$
+> For the positive definiteness, if $f$ is an immersion, $d_{p}f$ is injective and for every non-zero $v\in \text{T}_{p}M$, $d_{p}f(v)\neq 0$ and $$(f^{*}h)_{p}(v,v)=h_{f(p)}(d_{p}f(v),d_{p}f(v))>0$$
 > 
+> Lastly, let $(U,\varphi)$ be a chart on $M$ and  for $i,j\in [m]$, $$\begin{align}(f^{*}h)_{ij}(p)&=h_{f(p)}\left(d_{p}f\left( \left. \frac{ \partial  }{ \partial x^i }  \right|_{p}  \right),d_{p}f\left( \left. \frac{ \partial  }{ \partial x^j }  \right|_{p}  \right)  \right)\end{align} $$
 > Lastly, for two smooth vector fields $V,W\in \Gamma(TN)$:$$(F^{*}g)_{p}(V(p),W(p))=g_{F(p)}(d_{p}F(V(p)),d_{p}F(W(p)))$$
