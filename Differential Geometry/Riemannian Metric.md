@@ -4,7 +4,7 @@
 > Let $M$ be a [[smooth manifold]]. A ***Riemannian metric*** $g$ on $M$ is a smooth family of [[Inner Product Space|inner products]] on the [[Tangent Space|tangent spaces]] of $M$. Namely, 
 > 1. $g$ associates to each $p\in M$ a symmetric positive definite bilinear form $g_{p}:\text{T}_{p}M\times \text{T}_{p}M\to \mathbb{R}$ 
 > 2. for all [[Vector Field|smooth vector fields]] $X,Y\in \Gamma(\text{T}M)$, $$\begin{array}{cccc} &{M}&\to&{\mathbb{R}}\\&{p} &\mapsto & {g_{p}(X_{p},Y_{p})} \end{array}{}$$is smooth.
-- **Equivalent definition**: For a $\mathbb{R}$-vector space $V$, let $S^2(V^{*})$ denote the vector space of all symmetric bilinear maps $V\times V\to \mathbb{R}$. 
+- **Equivalent definition**: For a $\mathbb{R}$-vector space $V$, let $S^2(V^{*})$ denote the vector space of all symmetric bilinear maps $V\times V\to \mathbb{R}$. Then, we define the vector bundle: $$S^2(\text{T}^{*}M):=\bigcup_{p\in M}^{}\{ p \}\times S^2(\text{T}^{*}_{p}M)$$Then, a Riemannian metric is a smooth section $g\in \Gamma(S^2(\text{T}^{*}M))$ s.t. $g_{p}\gg 0$ for all $p\in M$.
 - **Related definition**: For a chart $(U,x=(x^1,\dots,x^m))$, $$g_{ij}(p):=g_{p}\left( \left. \frac{ \partial  }{ \partial x^i }   \right|_{p},\left. \frac{ \partial  }{ \partial x^j }   \right|_{p} \right) $$are called ***metric coefficients***. Then, they're:
 	1. **symmetric**: $g_{ij}=g_{ji}$.
 	2. **positive definite**: $\sum_{i,j=1}^{m}g_{ij}v^iv^j=g(v,v)\geq 0$ where $v=\sum_{i=1}^{m}v^i \left. \frac{ \partial  }{ \partial x^i } \right|_{p}$ with equality if and only if $v=0$.
@@ -16,7 +16,7 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $M$ be a smooth manifold. Then, there exists a Riemannian metric $g$ on $M$.
+> Every [[smooth manifold]] $M$ admits a Riemannian metric.
 
 > [!proof]-
 > Let $\{ (U_{\alpha},x_{\alpha}) \}_{\alpha\in A}$ be the atlas. For each $\alpha\in A$, consider the Riemannian metric $g_{\alpha}$ on $U_{\alpha}$ where $$(g_{\alpha})_{ij}=\delta_{ij}$$Let $\{ \rho_{\alpha} \}$ be a smooth partition of unity of $M$ subordinate to the covering $\{ U_{\alpha} \}$, and define: $$g=\sum_{\alpha\in A}^{}\rho_{\alpha}g_{\alpha}$$Since the family of supports of the $\rho_{\alpha}$ is locally finite, the above sum is locally finite, and hence $g$ is well defined and smooth, and it is bilinear and symmetric at each point. Since $\rho_{\alpha}\geq 0$ for all $\alpha$ and $\sum_{\alpha}^{}\rho_{\alpha}=1$, it also follows that $g$ is positive definite, and thus is a Riemannian metric in $M$.
@@ -37,3 +37,14 @@
 > [!proof]-
 > As $x=r\cos \theta$ and $y=r\sin\theta$, $$\begin{align}g&=(dx)^{2}+(dy)^{2}\\&=(\cos ^{2} \theta (dr)^{2}+r^{2}\sin ^{2} \theta (d\theta)^{2}-2r\cos\theta \sin\theta dr d\theta)+(\sin ^{2}\theta(dr)^{2}+r^{2}\cos ^{2}\theta(d\theta)^{2}+2r\sin\theta \cos\theta dr d\theta)\\&=dr^{2}+r^{2}d\theta^{2}\end{align}$$
 ---
+> [!h] Example 3 (Pullback)
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $f:M\to N$ a smooth map. 
+> 1. For a Riemannian metric $h$ on $N$, $$f^{*}(h)_{p}(u,v):=h_{f(p)}(d_{p}f (u),d_{p}f(v))$$for $p\in M$ and $u,v\in \text{T}_{p}M$ defines the ***pullback metric***.
+> 2. Additionally, if $f$ is an immersion, $f^{*}(h)$ is a Riemannian metric.
+
+> [!proof]+
+> Firstly, as $d_{p}F$ is linear and $g_{F(p)}$ is bilinear, $(F^{*}g)$ is bilinear. Further, from the symmetry of $g_{F(p)}$, $F^{*}g$ is symmetric.
+> 
+> For the positive definiteness, if $F$ is an immersion, $d_{p}F$ is injective and for every non-zero $v\in T_{p}N$, $d_{p}F(v)\neq 0$ and $$(F^{*}g)_{p}(v,v)=g_{F(p)}(d_{p}F(v),d_{p}F(v))>0$$
+> 
+> Lastly, for two smooth vector fields $V,W\in \Gamma(TN)$:$$(F^{*}g)_{p}(V(p),W(p))=g_{F(p)}(d_{p}F(V(p)),d_{p}F(W(p)))$$

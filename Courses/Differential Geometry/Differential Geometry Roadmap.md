@@ -90,7 +90,7 @@
 1. [[Riemannian Metric]]
 2. [[Riemannian Manifold]]
 3. [[Pullback]]
-4. [[Local Isometry]]
+4. [[Isometry]]
 5. [[Hyperbolic Space]]
 
 **1.3 Tensor Bundles**
