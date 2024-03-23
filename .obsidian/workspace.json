@@ -124,6 +124,18 @@
             }
           },
           {
+            "id": "396e4b68aba120ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Riemannian Metric.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7a6f6fbfbd5d6ade",
             "type": "leaf",
             "state": {
@@ -142,18 +154,6 @@
               "type": "markdown",
               "state": {
                 "file": "Differential Geometry/Cotangent Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "396e4b68aba120ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
                 "mode": "preview",
                 "source": false
               }
@@ -339,11 +339,11 @@
   },
   "active": "9ad1af80f5cca89b",
   "lastOpenFiles": [
-    "Differential Geometry/Differential k-Form.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Musical Isomorphism.md",
-    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Riemannian Metric.md",
+    "Differential Geometry/Musical Isomorphism.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Differential k-Form.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Differential 1-Form.md",
