@@ -107,7 +107,7 @@
               "type": "markdown",
               "state": {
                 "file": "Topology/Metric Space.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -123,8 +123,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "14c1020688b23eea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Immersion.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -252,11 +265,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a391fdd17c7060ea",
+  "active": "1e58202bc258e2c7",
   "lastOpenFiles": [
     "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Length and Distance.md",
+    "Differential Geometry/Immersion.md",
+    "Analysis/Inner Product Space.md",
     "Topology/Metric Space.md",
+    "Differential Geometry/Length and Distance.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Algebra/Ring.md",
     "Topology/Interior and Closure.md",
@@ -278,8 +293,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
-    "Differential Geometry/Lie Bracket.md",
-    "Differential Geometry/Tensor Bundle.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
