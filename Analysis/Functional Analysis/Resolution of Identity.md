@@ -21,10 +21,11 @@
 - **Remark**: If $\left\| f \right\|_{\infty}=0$, then, since $E(f^{-1}(\mathbb{C} \backslash \{ 0 \}))=0,$
 	1. $\int_{X}^{} f \, dE_{x,x}=\int_{f^{-1}(\mathbb{C} \backslash \{ 0 \})}^{} f \, dE_{x,x}=0$ and
 	2. $\int_{X}^{} f \, dE_{x,y}=0$ by the [[Inner Product Space|polarization identity]] ($E_{x+y,x+y},E_{x,x},E_{y,y},E_{x+iy,x+iy}$)
+- **Related definition**: $f\in \mathcal{B}^\infty(X)$ is ***simple*** if $f(X)$ is finite. $\mathcal{S}(X)\subseteq \mathcal{B}^\infty(X)$ denotes the space of simple functions.
 
 ---
 ##### Properties
-> [!lemma] Proposition 
+> [!lemma] Proposition 1
 > For every $x\in \mathcal{H}$, the map $\mathcal{B}_{X}\to \mathcal{H}:\omega\mapsto E(\omega)x$ is $\sigma$-additive, i.e. if $\omega=\bigsqcup_{n=1}^{\infty}\omega_{n}$ for $\omega_{n}\in \mathcal{B}_{X}$, then: $$E(\omega)x=\sum_{n=1}^{\infty}E(\omega_{n})x$$
 
 > [!proof]- Proof (Incomplete)
@@ -56,3 +57,18 @@
 > 3. $\text{ess im}(f)$ is closed.
 
 ---
+> [!lemma] Theorem 5
+> Given a resolution of identity $E:\mathcal{B}_{X}\to \mathcal{B}(\mathcal{H})$, 
+> 1. there exists a $C^{*}$-algebra isomorphism: $$\begin{array}{cccc} {\psi:}&{L^\infty(E)}&\to&{B\subseteq \mathcal{B}(\mathcal{H})}\end{array}{}$$s.t. $\braket{ \psi(f)x , y }=\int_{X}^{} f \, dE_{x,y}$ for all $f\in L^\infty(E)$.
+> 2. $\|\psi(f)x\|^{2}=\int_{X}^{}  \left| f \right|^{2}\, dE_{x,x}$
+> 3. $Q\in \mathcal{B}(\mathcal{H})$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}$ if and only if $Q$ commutes with $\psi(L^\infty(E)):=B$
+
+> [!proof]+ Proof (Exercise)
+> We introduce the following notation: $\int_{X}^{} f \, dE:=\psi(f)$. We show: 
+> 1. **Showing that $\mathcal{S}(X)$ is dense in $\mathcal{B}^\infty(X)$**: 
+>    Let $\varepsilon>0$ and $f\in \mathcal{B}^\infty(X)$. Then, $f(X)\subseteq \mathbb{C}$ is bounded and we get a finite family of partition $$f(X)\subseteq \bigsqcup_{i,j}^{}D_{i,j}$$ s.t. $D_{i,j}$ is a square of side-length $\varepsilon$. Then, by selecting $z_{i,j}\in D_{i,j}$ for all $i,j$ and $$s_{\varepsilon}:=\sum_{i,j}^{}z_{i,j}\chi_{D_{i,j}}$$Then, $\|f-s_{\varepsilon}\|\leq \varepsilon$. 
+> 2. **Showing that $\psi$ exists for $\mathcal{S}(X)$**:
+>    Let $s\in \mathcal{S}(X)$ be simple. Then, there is a partition $\bigsqcup_{i=1}^{n}\omega_{i}=X$ with $s=\sum_{i=1}^{n}\alpha_{i}\chi_{\omega_{i}}$. Then, we define:$$\psi(s):=\sum_{i=1}^{n}\alpha_{i}E(\omega_{i})$$which has the property: 
+>    - $\psi$ is linear: (Exercise)
+>    $$\psi(s)^{*}=\left( \sum_{i=1}^{n}\alpha_{i} E(\omega_{i})\right)^{*}=\sum_{i=1}^{n}\overline{\alpha_{i}}E(\omega_{i})=\psi(\overline{s})$$
+>    - Let $s=\sum_{i=1}^{n}\alpha_{i}\chi_{\omega_{i}}$ and $t=\sum_{j=1}^{m}\beta_{j}\chi_{\omega'_{j}}$. Then, $st=\sum_{i=1}^{m}\sum_{j=1}^{m}\alpha_{i}\beta_{j}\chi_{\omega_{i}\cap\omega_{j}'}$ and: $$\psi(st)=\sum_{i=1}^{n}\sum_{j=1}^{m}\alpha_{i}\beta_{j}E(\omega_{i}\cap\omega')$$

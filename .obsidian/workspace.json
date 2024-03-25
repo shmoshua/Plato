@@ -158,78 +158,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7a6f6fbfbd5d6ade",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/One-Point Compactification.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "035be92f15573735",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ff31090f74c8091",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Derivation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81e8c3d45d120639",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Differential.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40a543dbcb7ecab9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Differential 1-Form.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42e21f85283e6fe8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -360,34 +288,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d7901e0671c3fbd6",
+  "active": "835816ced0e8fd8b",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
+    "Courses/Functional Analysis II/Exercise Sheet 4.md",
+    "Topology/One-Point Compactification.md",
+    "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Derivation.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Length and Distance.md",
-    "Courses/Functional Analysis II/Exercise Sheet 4.md",
-    "Analysis/Functional Analysis/Guelfand Topology.md",
-    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Differential Geometry/Tensor Bundle.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Topology/One-Point Compactification.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
-    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Differential Geometry/Musical Isomorphism.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Riemannian Metric.md",
     "Analysis/Inner Product Space.md",
-    "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Pullback.md",
-    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Isometry.md",
-    "Differential Geometry/Derivation.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Multilinear k-Form.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
