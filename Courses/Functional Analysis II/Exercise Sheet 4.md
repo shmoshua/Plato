@@ -25,8 +25,11 @@ Let $x\in \text{ker}(T^{*})$ and $y\in \text{Im }T$ with $y=Tz$. Then, $\braket{
 > [!def] Problem 4
 > Let $\mathcal{H}$ be a finite-dimensional complex Hilbert space and $T\in \mathcal{B}(\mathcal{H})$. Prove that $T$ is normal if and only if $\mathcal{H}$ admits an orthonormal basis of eigenvectors.
 
-Let $T\in \mathcal{B}(\mathcal{H})$ be normal. As $\mathcal{H}$ is finite-dimensional with dimension $n$, $\text{Sp}(T)$ is the set of roots of the characteristic polynomial of $T$. We know that distinct eigenvalues have orthogonal eigenspaces. Therefore, it suffices to show that $T$ has $n$ distinct eigenvalues. Assume $A:=\{\alpha_{1},\dots,\alpha_{k} \}\subseteq \mathcal{H}$ for $k\leq n$ denote the maximal set of disjoint eigenvalues and $E$ the direct sum of the eigenspaces. Then, $T(E)\subseteq E$ and $T(E^{\bot})\subseteq E^{\bot}$: Indeed for $x\in E^{\bot}$ and $y\in E$, $$\braket{ Tx , y } =\braket{ x , T^{*}y } =\alpha \braket{ x , y } =0$$ for some $\alpha\in \mathbb{C}$. Then, consider $T|_{E^{\bot}}$ and assume $E^{\bot}\neq \{ 0 \}$. Then, $\text{Sp}_{\mathcal{B}(E^{\bot})}(T|_{E})$ is non-empty with $\alpha$ as eigenvalue but by the maximality, $\alpha\in A$. 
+Let $T\in \mathcal{B}(\mathcal{H})$ be normal. As $\mathcal{H}$ is finite-dimensional with dimension $n$, $\text{Sp}(T)$ is the set of roots of the characteristic polynomial of $T$. We know that distinct eigenvalues have orthogonal eigenspaces. Assume $A:=\{\alpha_{1},\dots,\alpha_{k} \}\subseteq \mathcal{H}$ for $k\leq n$ denote the maximal set of disjoint eigenvalues and $E$ the direct sum of the eigenspaces. Then, $T(E)\subseteq E$ and $T(E^{\bot})\subseteq E^{\bot}$: Indeed for $x\in E^{\bot}$ and $y\in E$, $$\braket{ Tx , y } =\braket{ x , T^{*}y } =\alpha \braket{ x , y } =0$$ for some $\alpha\in \mathbb{C}$. Then, consider $T|_{E^{\bot}}$ and assume $E^{\bot}\neq \{ 0 \}$. Then, $\text{Sp}_{\mathcal{B}(E^{\bot})}(T|_{E})$ is non-empty with the eigenpair $(\alpha,v)$. However, by the maximality of $A$, $\alpha\in A$ and $v\in E\cap E^{\bot}=\{ 0 \}$, which is a contradiction. Therefore, $E^{\bot}=\{ 0 \}$ and $E=\mathcal{H}$. This proves the statement.
+
+
 
 
 Conversely, let $\{ v_{i} \}_{i}$ be a finite orthonormal basis of eigenvectors. Then, 
 $$T^{*}T v_{i}=\lambda_{i}T^{*}v_{i}=\left| \lambda_{i} \right| ^{2}=\overline{\lambda_{i}}Tv_{i}=TT^{*}v_{i}$$This shows that $T$ is normal.
+---
