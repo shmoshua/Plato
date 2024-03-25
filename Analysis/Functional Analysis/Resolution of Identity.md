@@ -63,7 +63,7 @@
 > 2. $\|\psi(f)x\|^{2}=\int_{X}^{}  \left| f \right|^{2}\, dE_{x,x}$
 > 3. $Q\in \mathcal{B}(\mathcal{H})$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}$ if and only if $Q$ commutes with $\psi(L^\infty(E)):=B$
 
-> [!proof]+ Proof (Exercise)
+> [!proof]- Proof (Exercise)
 > We introduce the following notation: $\int_{X}^{} f \, dE:=\psi(f)$. We show: 
 > 1. **Showing that $\mathcal{S}(X)$ is dense in $\mathcal{B}^\infty(X)$**: 
 >    Let $\varepsilon>0$ and $f\in \mathcal{B}^\infty(X)$. Then, $f(X)\subseteq \mathbb{C}$ is bounded and we get a finite family of partition $$f(X)\subseteq \bigsqcup_{i,j}^{}D_{i,j}$$ s.t. $D_{i,j}$ is a square of side-length $\varepsilon$. Then, by selecting $z_{i,j}\in D_{i,j}$ for all $i,j$ and $$s_{\varepsilon}:=\sum_{i,j}^{}z_{i,j}\chi_{D_{i,j}}$$Then, $\|f-s_{\varepsilon}\|\leq \varepsilon$. 
@@ -77,7 +77,8 @@
 >    and $$\left\| \psi(s)x \right\| ^{2}=\braket{ \psi(s)x , \psi(s)x } =\braket{ \psi(s)^{*}\psi(s)x , x } =\braket{ \psi(\overline{s}s)x , x } =\braket{ \psi (\left| s \right|^{2} )x , x } =\int_{X}^{} \left| s \right| ^{2} \, dE_{x,x} $$therefore, $\left\| \psi(s)x \right\|^{2}\leq \|s\|_{\infty}^{2} E_{x,x}(X)\leq\|s\|^{2}_{\infty}\|x\|^{2}$ and $\|\psi(s)\|\leq\|s\|_{\infty}$. Furthermore, we have that $\|s\|_{\infty}=\max\{ \left| \alpha_{i} \right|:E(\omega_{i})\neq 0 \}=\left| \alpha_{j_{0}} \right|$ for some $j_{0}$. 
 >     
 >     
->    Then, for $x\in \text{Im }E(\omega_{j_{0}})$ and $\|x\|=1$, we get: $$\psi(s)x=\sum_{i=1}^{n}\alpha_{i}E(\omega_{i})x=\alpha_{j_{0}} E(\omega_{j_{0}})x=\alpha_{j_{0}} x$$where for all $i\neq j_{0}$, $E(\omega_{i})x=E(\omega_{i})E(\omega_{j_{0}})x=E(\omega_{i}\cap\omega_{j_{0}})x=0$. Therefore, $$\left\| \psi(s)x \right\| =\left| \alpha_{j_{0}} \right| \|x\|=\left| \alpha_{j_{0}} \right| =\|s\|_{\infty}$$This shows that $\|\psi(s)\|=\|s\|_{\infty}$. Therefore, by the [[Bounded Linear Map|BLT Theorem]], $\psi$ extends to $\psi:L^\infty(E)\to \mathcal{B}(\mathcal{H})$ s.t. $\|\psi(f)\|=\|f\|_{\infty}$.
+>    Then, for $x\in \text{Im }E(\omega_{j_{0}})$ and $\|x\|=1$, we get: $$\psi(s)x=\sum_{i=1}^{n}\alpha_{i}E(\omega_{i})x=\alpha_{j_{0}} E(\omega_{j_{0}})x=\alpha_{j_{0}} x$$where for all $i\neq j_{0}$, $E(\omega_{i})x=E(\omega_{i})E(\omega_{j_{0}})x=E(\omega_{i}\cap\omega_{j_{0}})x=0$. Therefore, $$\left\| \psi(s)x \right\| =\left| \alpha_{j_{0}} \right| \|x\|=\left| \alpha_{j_{0}} \right| =\|s\|_{\infty}$$This shows that $\|\psi(s)\|=\|s\|_{\infty}$. Therefore, by the [[Bounded Linear Map|BLT Theorem]], $\psi$ extends to $\psi:L^\infty(E)\to \mathcal{B}(\mathcal{H})$ s.t. $\|\psi(f)\|=\|f\|_{\infty}$. 
 >  3. We have: $$\braket{ \psi(f)x , y } =\lim_{ k \to \infty }\braket{ \psi(s_{k})x , y } =\lim_{ k \to \infty } \int_{X}^{} s_{k} \, dE_{x,y}  $$where the limit converges for all diagonal coefficients $$\left| \int_{X}^{} f \, dE_{x,x} -\int_{X}^{} s_{k} \, dE_{x,x}  \right|=\left| \int_{X}^{} (f-s_{k}) \, dE_{x,x}  \right|\leq \left\| f-s_{k} \right\| E_{x,x}(X)=\left\| f-s_{k} \right\| \|x\|^{2}\to 0  $$and thereby for every $x,y\in \mathcal{H}$.
->   
+
+ ---
  
