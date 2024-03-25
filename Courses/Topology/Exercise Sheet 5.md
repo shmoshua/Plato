@@ -69,4 +69,6 @@ We have:
 3. For $f\in m_{x_{0}}$ and $g\in C(X)$, $(fg)(x)=f(x)g(x)=0$. Therefore, $fg\in m_{x_{0}}$.
 4. If there exists such a function $f$, then $f$ is a unit as $\frac{1}{f}\in C(X)$ is well-defined everywhere on $X$. This shows that $I=C(X)$.
 5. Assume that there exists $x\in X$ s.t. for all open neighborhoods $U_{x}$ and functions $f_{x}\in I$ that $f_{x}|_{U_{x}}\equiv 0$. Then clearly, $I\subseteq m_{x}$. 
-6. 
+6. As $X$ is compact and $(U_{x})_{x}$ is a covering of $X$, there exists finite $J\subseteq X$ s.t. $\bigcup_{x\in J}^{}U_{x}=X$. Notice that $\left| f_{x} \right|^{2}\in I$ for all $x\in J$. Therefore, $\sum_{x\in J}^{}\left| f_{x} \right| ^{2}\in I$ is a function that does not take 0 as value. Therefore, $I=C(X)$.
+7. Let $I=m_{x_{0}}$ for some $x_{0}\in X$ and $I\subsetneq J$. Then, there exists $f\in J \backslash I$, i.e. $f(x_{0})\neq 0$. Therefore, there is no $y\in X$ s.t. $J\subseteq m_{y}$ and $J=C(X)$. Conversely assume that $I\neq m_{x_{0}}$ for all $x_{0}\in X$. If $I\subsetneq m_{x_{0}}$ for some $x_{0}\in X$ then $I$ is not maximal. Otherwise there is no $x_{0}$ s.t. $I\subseteq m_{x_{0}}$, which means $I=C(X)$.
+---

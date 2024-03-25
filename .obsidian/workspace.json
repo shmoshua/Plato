@@ -89,42 +89,6 @@
         "dimension": 46.264367816091955,
         "children": [
           {
-            "id": "eee5d812a80c3784",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 5.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec64d463122658b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Fundamental System.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "045abd6529d56b5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a391fdd17c7060ea",
             "type": "leaf",
             "state": {
@@ -182,8 +146,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -265,7 +228,7 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "eee5d812a80c3784",
+  "active": "ee568ad677adda89",
   "lastOpenFiles": [
     "Algebra/Ring.md",
     "Courses/Topology/Exercise Sheet 5.md",
