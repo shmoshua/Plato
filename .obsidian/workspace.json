@@ -124,6 +124,18 @@
             }
           },
           {
+            "id": "830f7c8cfb707983",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "396e4b68aba120ce",
             "type": "leaf",
             "state": {
@@ -141,7 +153,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
+                "file": "Topology/One-Point Compactification.md",
                 "mode": "preview",
                 "source": false
               }
@@ -208,7 +220,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -237,7 +249,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "baire",
+                "query": "compactification",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -254,7 +266,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -274,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md"
               }
             }
           }
@@ -336,22 +349,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9ad1af80f5cca89b",
+  "active": "396e4b68aba120ce",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Guelfand Topology.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Courses/Functional Analysis II/Exercise Sheet 4.md",
+    "Topology/One-Point Compactification.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Tensor Bundle.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
+    "Differential Geometry/Differential k-Form.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Courses/Functional Analysis II/Exercise Sheet 4.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
-    "Analysis/Functional Analysis/Guelfand Topology.md",
     "Differential Geometry/Musical Isomorphism.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Length and Distance.md",
     "Differential Geometry/Riemannian Metric.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Tensor Bundle.md",
     "Analysis/Inner Product Space.md",
     "Differential Geometry/Cotangent Space.md",
-    "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Pullback.md",
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Vector Field.md",
@@ -361,9 +377,6 @@
     "Differential Geometry/Multilinear k-Form.md",
     "Differential Geometry/Differentiable Function.md",
     "Differential Geometry/Lie Bracket.md",
-    "Differential Geometry/Vector Bundle.md",
-    "Differential Geometry/Integration on Manifolds.md",
-    "Differential Geometry/Tangent Bundle.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
