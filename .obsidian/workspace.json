@@ -177,7 +177,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+                "file": "Topology/Compact Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1654b5675531103e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eeaa557ad5d38352",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 5.md",
                 "mode": "preview",
                 "source": false
               }
@@ -314,13 +338,18 @@
   },
   "active": "396e4b68aba120ce",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Topology/Exercise Sheet 5.md",
+    "Courses/Topology/Exercise Sheet 4.md",
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Compact Space.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
-    "Analysis/Functional Analysis/Resolution of Identity.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Guelfand Topology.md",
     "Topology/One-Point Compactification.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Derivation.md",
@@ -332,14 +361,9 @@
     "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Length and Distance.md",
     "Differential Geometry/Tensor Bundle.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Differential Geometry/Musical Isomorphism.md",
     "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Riemannian Metric.md",
-    "Analysis/Inner Product Space.md",
-    "Differential Geometry/Pullback.md",
-    "Differential Geometry/Vector Field.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
