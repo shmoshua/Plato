@@ -26,8 +26,20 @@ We have that:
 
 We have: 
 1. Let $y\in A$. Then, $x\neq y$ and as $X$ is Hausdorff, there exists disjoint open neighborhoods $U_{y},V_{y}$ of $x$ and $y$ respectively. As $A$ is a closed subspace, $A$ is compact and $\{ V_{y} \}_{y\in A}$ is an open cover of $A$. Therefore, there exists a finite set $J\subseteq A$ s.t. $\bigcup_{y\in J}^{}V_{y}\supseteq A$. Let $U:=\bigcap_{y\in J}^{}U_{y}$ which is an open neighborhood of $x$. Then, we have that $U\cap \bigcup_{y\in J}^{}V_{j}=\varnothing$ and as both sets are open, $\overline{U}\cap A \subseteq \overline{U}\cap \bigcup_{y\in J}^{}V_{j}=\varnothing$. 
-2. For each $n$, we define $U_{n}$ as follows: As $C_{n}$ has an empty interior, there exists $x_{n}\in U_{n-1} \backslash C_{n}$. Then, $x_{n}\notin C_{n}\cup \partial U_{n-1}$ which is a closed set. Therefore, there exists a neighborhood $U_{n}$ of $x$ s.t. $\overline{U_{n}}\cap (C_{n}\cup \partial U_{n-1})=\varnothing$. As $x\in U_{n-1}$, $U_{n} $
-   Therefore, there exists an open neighborhood $V_{n}$ of $x_{n}$ s.t. $\overline{V_{n}}\cap C_{n}=\varnothing$. Then, $V_{n}\cap U_{n-1}$ is an open set and 
-3. 
-4. As $C_{1}$ does not contain any non-empty open set, there exists $x_{1}\in U$ s.t. $x_{1}\notin C_{1}$. Therefore, there exists a neighborhood $U_{1}$ of $x_{1}$ modulo taking the intersection with $U$, s.t. $\overline{U_{1}}\cap C_{1} =\varnothing$ and $\overline{U_{1}}\subseteq U$.
+2. For each $n$, we define $U_{n}$ as follows: As $C_{n}$ has an empty interior, there exists $x_{n}\in U_{n-1} \backslash C_{n}$. Then, $x_{n}\notin C_{n}\cup \partial U_{n-1}$ which is a closed set. Therefore, there exists a neighborhood $U_{n}$ of $x$ s.t. $\overline{U_{n}}\cap (C_{n}\cup \partial U_{n-1})=\varnothing$. As $x\in U_{n-1}$, $U_{n}$ meets the required conditions.
+3. Assume that $\bigcap_{n\geq 1}^{}\overline{U}_{n}=\varnothing$. Then, $(X \backslash \overline{U}_{n})_{n}$ is an open cover of $X$ and there exists a finite $J$ s.t. $\bigcup_{n\in J}^{}(X \backslash \overline{U}_{n})=X$. In other words, $\bigcap_{n\in J}^{}\overline{U}_{n}=\varnothing$, which is a contradiction as $(U_{n})_{n}$ is a decreasing sequence of non-empty open sets. Furthermore, $$U\cap(X \backslash C)=U\cap \bigcap_{n\geq 1}^{}(X \backslash C_{n})\supseteq\bigcap_{n\geq 1}^{}\overline{U}_{n}\neq \varnothing$$
+4. We have that for any non-empty open set $U$, $U\not\subseteq C$. Therefore, $C^\circ=\varnothing$. 
+5. Let $C_{n}:=X \backslash V_{n}$. Then, $C_{n}$ is closed and $C_{n}^\circ=(X \backslash V_{n})^{\circ}=X\backslash X=\varnothing$. Therefore, the interior of $C:=\bigcup_{n\geq 1}^{}C_{n}$ is empty and: $$\overline{\bigcap_{n\geq 1}^{}V_{n}}=\overline{X\backslash C}=X \backslash C^\circ =X$$
+6. Let $C_n:=\{ x\in[0,1]:nx\in \mathbb{Z} \}$ for $n\geq 1$. Then, $C_{n}$ is closed as a finite union of singleton sets ($X$ is Hausdorff) and by setting $V_{n}:= [0,1] \backslash C_{n}$, we have our desired sequence as $\bigcup_{n\geq 1}^{}C_{n}=[0,1]\cap \mathbb{Q}$, which is not closed in $\mathbb{R}$. 
 ---
+> [!def] Problem 3
+> Let $X=\mathbb{R}\times \{ -1,1 \}$ with the product topology (where $\{ -1,1 \}$ has the discrete topology). We define an equivalence relation on $X$ so that $(x,1)\sim(x,-1)$ if $x\neq 0$, and there are no further equivalences except equality. (In particular, the equivalence classes $o_{+}$ and $o_{-}$ of the points $(0,1)$ and $(0,-1)$ have only one element, and give different points in $Y$.) 
+> 
+> Let $Y=X / \sim$ be the space of equivalence classes. Let $p:X\to Y$ be the quotient map; define a topology $\mathcal{T}$ on $Y$ so that $U\subseteq Y$ is open if and only if $p ^{-1}(U)\subseteq X$ is open.
+> 1. Show that this defines a topology on $Y$. 
+> 2. For $\varepsilon\in\{ -1,1 \}$, define a map $i_{\varepsilon}:\mathbb{R}\to Y,x\mapsto[(x,\varepsilon)]_{\sim}$. Show that $i_{\varepsilon}$ is continuous and injective. 
+> 3. Show that $i_{+}$ has image $Y \backslash \{ o_{-} \}$ and gives a homeomorphism $\mathbb{R}\to Y \backslash \{ o_{-} \}$. Similarly, $i_{-}$ defines a homeomorphism $\mathbb{R}\to Y \backslash \{ o_{+} \}$. 
+> 4. Show that $Y$ is a topological manifold of dimension 1 (i.e., for every $y\in Y$, there exists an open neighborhood of $y$ which is homeomorphic to an open subset of $\mathbb{R}$). 
+> 5. Show that every $y\in Y$ has a countable fundamental system of neighborhoods. 
+> 6. Show that $Y$ is not Hausdorff. In particular, find a sequence $(y_{n})_{n}\subseteq U$ which converges to both $o_{+}$ and $o_{-}$.
+
