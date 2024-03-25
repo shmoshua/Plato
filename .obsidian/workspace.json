@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md",
+                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,7 +93,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b7cb19c3945d4c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
@@ -148,36 +160,24 @@
             }
           },
           {
-            "id": "830f7c8cfb707983",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9054175817417153",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "396e4b68aba120ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis II/Exercise Sheet 4.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47749e313f4e4703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
                 "mode": "preview",
                 "source": false
               }
@@ -220,18 +220,6 @@
             }
           },
           {
-            "id": "47749e313f4e4703",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Hilbert Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d914ea738147573d",
             "type": "leaf",
             "state": {
@@ -244,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -273,7 +261,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "normal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -290,7 +278,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -374,32 +363,32 @@
   },
   "active": "396e4b68aba120ce",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 5.md",
-    "Analysis/Functional Analysis/Adjoint Linear Map.md",
+    "Analysis/Functional Analysis/Hilbert Space Operator.md",
+    "Analysis/Hilbert Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
+    "Analysis/Functional Analysis/Spectrum.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Analysis/Functional Analysis/Adjoint Linear Map.md",
+    "Courses/Topology/Exercise Sheet 5.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Topology/Closure.md",
-    "Analysis/Hilbert Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Tensor Bundle.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Compact Space.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Analysis/Functional Analysis/Guelfand Topology.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
     "Topology/One-Point Compactification.md",
     "Differential Geometry/Cotangent Space.md",
-    "Differential Geometry/Derivation.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Differential 1-Form.md",
-    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

@@ -19,6 +19,13 @@ Then, we have $\overline{E}\subseteq(\overline{E}^{\bot})^{\bot}=(E^{\bot})^{\bo
 > [!def] Problem 3
 > Let $\mathcal{H}$ be a complex Hilbert space and $T\in \mathcal{B}(\mathcal{H})$. Prove $\text{ker}(T^{*})=(\text{Im }T)^{\bot}$ and $\text{ker }T=(\text{Im}(T^{*}))^{\bot}$.
 
-Let $x\in \text{ker}(T^{*})$ and $y\in \text{Im }T$ with $y=Tz$. Then, $\braket{ x , y }=\braket{ x , Tz }=\braket{ T^{*}x , z }=\braket{ 0 , z }=0$. Similarly, for $x\in (\text{Im }T)^{\bot}$, we have that $\braket{ T^{*}x , z }=\braket{ x ,Tz  }=0$ for all $z\in \mathcal{H}$. This proves the statement. The other statement follows from symmetry and $T$
+Let $x\in \text{ker}(T^{*})$ and $y\in \text{Im }T$ with $y=Tz$. Then, $\braket{ x , y }=\braket{ x , Tz }=\braket{ T^{*}x , z }=\braket{ 0 , z }=0$. Similarly, for $x\in (\text{Im }T)^{\bot}$, we have that $\braket{ T^{*}x , z }=\braket{ x ,Tz  }=0$ for all $z\in \mathcal{H}$. This proves the statement. The other statement follows from symmetry and $(T^{*})^{*}=T$.
 
 ---
+> [!def] Problem 4
+> Let $\mathcal{H}$ be a finite-dimensional complex Hilbert space and $T\in \mathcal{B}(\mathcal{H})$. Prove that $T$ is normal if and only if $\mathcal{H}$ admits an orthonormal basis of eigenvectors.
+
+Let $T\in \mathcal{B}(\mathcal{H})$ be normal. As $\mathcal{H}$ is finite-dimensional, $\text{Sp}(T)$ is the set of roots of the characteristic polynomial of $T$. 
+
+Let $\{ v_{i} \}_{i}$ be a finite orthonormal basis of eigenvectors. Then, 
+$$T^{*}T v_{i}=\lambda_{i}T^{*}v_{i}=$$
