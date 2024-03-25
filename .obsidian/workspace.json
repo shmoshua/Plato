@@ -101,6 +101,18 @@
             }
           },
           {
+            "id": "ec64d463122658b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Fundamental System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "045abd6529d56b5a",
             "type": "leaf",
             "state": {
@@ -118,18 +130,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Interior and Closure.md",
+                "file": "Algebra/Ring.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "ec64d463122658b5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -263,11 +267,13 @@
   },
   "active": "eee5d812a80c3784",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 4.md",
+    "Algebra/Ring.md",
     "Courses/Topology/Exercise Sheet 5.md",
+    "Topology/Interior and Closure.md",
+    "Topology/Fundamental System.md",
+    "Courses/Topology/Exercise Sheet 4.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Topology/Compact Metric Space.md",
-    "Topology/Interior and Closure.md",
     "Topology/Compact Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
@@ -287,8 +293,6 @@
     "Differential Geometry/Tensor Bundle.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Courses/Topology/Exercise Sheet 3.md",
-    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

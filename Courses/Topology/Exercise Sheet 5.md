@@ -41,9 +41,32 @@ We have:
 > 3. Show that $i_{+}$ has image $Y \backslash \{ o_{-} \}$ and gives a homeomorphism $\mathbb{R}\to Y \backslash \{ o_{-} \}$. Similarly, $i_{-}$ defines a homeomorphism $\mathbb{R}\to Y \backslash \{ o_{+} \}$. 
 > 4. Show that $Y$ is a topological manifold of dimension 1 (i.e., for every $y\in Y$, there exists an open neighborhood of $y$ which is homeomorphic to an open subset of $\mathbb{R}$). 
 > 5. Show that every $y\in Y$ has a countable fundamental system of neighborhoods. 
-> 6. Show that $Y$ is not Hausdorff. In particular, find a sequence $(y_{n})_{n}\subseteq U$ which converges to both $o_{+}$ and $o_{-}$.
+> 6. Show that $Y$ is not Hausdorff. In particular, find a sequence $(y_{n})_{n}\subseteq Y$ which converges to both $o_{+}$ and $o_{-}$.
 
 We have:
 1. $\varnothing,Y$ are trivially open. For $U_{1},U_{2}\subseteq Y$ open, $p ^{-1}(U_{1}\cap U_{2})=p ^{-1}(U_{1})\cap p ^{-1}(U_{2})$ which is open in $X$. Lastly, for open sets $(U_{i})_{i\in I}$ in $Y$, $p ^{-1}\left( \bigcup_{i\in I}^{}U_{i} \right)=\bigcup_{i\in I}^{}p ^{-1}(U_{i})$ which is open. 
 2. Let $U\subseteq Y$ open. For $\varepsilon\in\{ -1,1 \}$, we define $\varphi_{\varepsilon}:\mathbb{R}\to \mathbb{R}\times \{ -1,1 \},x\mapsto(x,\varepsilon)$. We show that $\varphi_{\varepsilon}$ is continuous: For $U\subseteq \mathbb{R} \times \{ -1,1 \}$ open and non-empty, if for all $(x,a)\in U$, $a=-\varepsilon$ then $\varphi_{\varepsilon}^{-1}(U)=\varnothing$. Otherwise, there exists $(x,1)\in U$ and an open neighborhood $V$ of $x$ in $\mathbb{R}$ with $\varphi_{\varepsilon}^{-1}(U)=V$. As $p$ is continuous by definition of the quotient topology and $i_{\varepsilon}=p(\varphi_{\varepsilon})$, $i_{\varepsilon}$ is continuous. For injectivity, if $x\neq y\in \mathbb{R}$, then $(x,\varepsilon)\not\sim(y,\varepsilon)$.
-3. Notice that by definition $Y=\{ [(x,+1)]_{\sim}:x\neq 0 \}\cup \{ o_{+},o_{-} \}$. For $0\neq x\in \mathbb{R}$, $i_{+}(x)=[(x,+1)]_{\sim}$ and $i_{+}(0)=o_{+}$. It suffices to show that $i_{+}$ is open. Let $U\subseteq \mathbb{R}$ be non-empty and let $(x,\varepsilon)\in$ $p ^{-1}(i_{+}(U))$. Then, $[(x,\varepsilon)]_{\sim}\in i_{+}(U)$. If $x=0$, $\varepsilon=1$ and $U\times \{ 1 \}\subseteq \pi nv$ is an open neighborhood
+3. Notice that by definition $Y=\{ [(x,+1)]_{\sim}:x\neq 0 \}\cup \{ o_{+},o_{-} \}$. For $0\neq x\in \mathbb{R}$, $i_{+}(x)=[(x,+1)]_{\sim}$ and $i_{+}(0)=o_{+}$. It suffices to show that $i_{+}$ is open. Let $U\subseteq \mathbb{R}$ be non-empty and let $(x,\varepsilon)\in$ $p ^{-1}(i_{+}(U))$. Then, $[(x,\varepsilon)]_{\sim}\in i_{+}(U)$. If $x=0$, $\varepsilon=1$ and $U\times \{ 1 \}\subseteq p ^{-1}(i_{+}(U))$ is an open neighborhood. Similarly, if $x\neq 0$, then $U\times \{ -1,1 \}\subseteq p ^{-1}(i_{+}(U))$ is an open neighborhood. This shows that $i_{+}$ is open. $i_{-}$ follows from symmetry,
+4. Let $y\in Y$. If $y=o_{+}$, then, $i_{+}^{-1}$ is such a homeomorphism and if $y\neq o_{-}$, then take $i_{-}^{-1}$.
+5. This follows from the fact that $Y$ is a topological manifold and $\mathbb{R}$ is a metric space.
+6. Consider $\left( \left[ \left( \frac{1}{n},1 \right) \right]_{\sim} \right)_{n}$. Let $U\subseteq Y$ be an open neighborhood of $o_{+}$. Then, $$i_{+}\left(  \lim_{ n \to \infty }i_{+}^{-1}\left( \left[ \left( \frac{1}{n},1 \right) \right]_{\sim} \right) \right)=i_{+}\left( \lim_{ n \to \infty } \frac{1}{n} \right)=o_{+}$$where the sequence also converges to $o_{-}$ by symmetry. 
+---
+> [!def] Problem 4
+> Let $X$ be a compact topological space. We denote by $C(X)$ the set of continuous functions $f:X\to \mathbb{C}$, where $\mathbb{C}$ has the euclidean topology. 
+> 1. Show that $C(X)$ is a commutative ring, with addition given by $(f+g)(x)=f(x)+g(x)$, multiplication by $(fg)(x)=f(x)g(x)$ and neutral element for multiplication the constant function $1$.
+> 
+> Let $I\subseteq C(X)$ be an ideal. 
+> 1. Show that the function $x\mapsto \left| f(x) \right|^{2}$ is in $I$ for all $f\in I$.
+> 2. Show that $m_{x_{0}}:=\{ f\in C(X):f(x_{0})=0 \}$ is an ideal whenever $x_{0}\in X$.
+> 3. Show that if there exists a function $f\in I$ such that $f(x)\neq 0$ for all $x\in X$, then $I=C(X)$.
+> 4. Suppose there is no $x_{0}$ such that $I\subseteq m_{x_{0}}$. Deduce that for every $x\in X$, there exists an open neighborhood $U_{x}$ of $x$ and a function $f_{x}\in I$ such that $f_{x}(y)\neq 0$ for all $y\in U_{x}$.
+> 5. Deduce that if there is no $x_{0}$ such that $I\subseteq m_{x_{0}}$, then $I=C(X)$.
+> 6. Show that $I$ is a maximal ideal if and only if $I=m_{x_{0}}$ for some $x_{0}\in X$.
+
+We have:
+1. Continuous functions are closed under pointwise addition and multiplication. The multiplicative associativity, identity and distributivity all follows from that of $\mathbb{C}$.
+2. For $f\in I$, we have that $\overline{f}\in C(X)$. Therefore, $\left| f \right|^{2}=f\overline{f}\in I$. 
+3. For $f\in m_{x_{0}}$ and $g\in C(X)$, $(fg)(x)=f(x)g(x)=0$. Therefore, $fg\in m_{x_{0}}$.
+4. If there exists such a function $f$, then $f$ is a unit as $\frac{1}{f}\in C(X)$ is well-defined everywhere on $X$. This shows that $I=C(X)$.
+5. Assume that there exists $x\in X$ s.t. for all open neighborhoods $U_{x}$ and functions $f_{x}\in I$ that $f_{x}|_{U_{x}}\equiv 0$. Then clearly, $I\subseteq m_{x}$. 
+6. 
