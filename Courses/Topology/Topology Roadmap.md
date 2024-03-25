@@ -54,5 +54,5 @@
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
 2. [[Courses/Topology/Exercise Sheet 2|Exercise Sheet 2]]
 3. [[Courses/Topology/Exercise Sheet 3|Exercise Sheet 3]]
-4. [[Exercise Sheet 4]]
+4. [[Courses/Topology/Exercise Sheet 4]]
 5. [[Exercise Sheet 5]]
