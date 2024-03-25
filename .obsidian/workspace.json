@@ -160,6 +160,18 @@
             }
           },
           {
+            "id": "9054175817417153",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "396e4b68aba120ce",
             "type": "leaf",
             "state": {
@@ -172,24 +184,12 @@
             }
           },
           {
-            "id": "9054175817417153",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Compact Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1654b5675531103e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Algebra/Linear Algebra/Orthogonal Complement.md",
                 "mode": "preview",
                 "source": false
               }
@@ -206,9 +206,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e781bf155899f05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Closure.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -274,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md",
+                "file": "Topology/Closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -291,7 +303,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md",
+                "file": "Topology/Closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -314,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md"
+                "file": "Topology/Closure.md"
               }
             }
           }
@@ -336,17 +348,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "396e4b68aba120ce",
+  "active": "3e781bf155899f05",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Algebra/Linear Algebra/Orthogonal Complement.md",
+    "Courses/Functional Analysis II/Exercise Sheet 4.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Courses/Topology/Exercise Sheet 5.md",
-    "Courses/Topology/Exercise Sheet 4.md",
-    "Courses/Topology/Exercise Sheet 3.md",
+    "Topology/Closure.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Compact Space.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Topology/Exercise Sheet 4.md",
+    "Courses/Topology/Exercise Sheet 3.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Courses/Functional Analysis II/Exercise Sheet 4.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
@@ -361,9 +376,6 @@
     "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Length and Distance.md",
     "Differential Geometry/Tensor Bundle.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
-    "Differential Geometry/Musical Isomorphism.md",
-    "Differential Geometry/Tangent Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
