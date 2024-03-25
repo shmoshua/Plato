@@ -74,13 +74,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "c45eeefa3389e702",
@@ -225,14 +226,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Adjoint Linear Map.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -299,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -316,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,7 +340,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md"
+                "file": "Analysis/Functional Analysis/Spectrum.md"
               }
             }
           }
@@ -361,19 +362,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "396e4b68aba120ce",
+  "active": "d914ea738147573d",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Adjoint Linear Map.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
-    "Analysis/Hilbert Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
+    "Analysis/Functional Analysis/Spectrum.md",
+    "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
-    "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Analysis/Functional Analysis/Adjoint Linear Map.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Topology/Closure.md",
