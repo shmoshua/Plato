@@ -11,4 +11,14 @@ $$\left\| L_{(f,\lambda)} \right\| =\sup_{\|g\|_{\infty}\leq 1}\|(f+\lambda)g\|_
 > [!def] Problem 2
 > Let $\mathcal{H}$ be a complex Hilbert space and $E\subseteq \mathcal{H}$ a vector subspace. Show $(E^{\bot})^{\bot}=\overline{E}$.
 
-Let $x\in E$. Then, for any $y\in E^{\bot}$,  $\braket{ x , y }=\overline{\braket{ y , x }}=0$. Therefore, $E\subseteq (E^{\bot})^{\bot}$. However, indeed for any $A\subseteq \mathcal{H}$, $A^{\bot}$ is closed as $A^{\bot}=\bigcap_{a\in A}^{}\text{ker}\braket{ \cdot , a }$. This shows that $\overline{E}\subseteq(E^{\bot})^{\bot}$. Conversely, if $x\in (E^{\bot})^{\bot}$, then for any $y\in E^{\bot}$, $\braket{ x , y }=0$
+We show that $E^{\bot}=\overline{E}^{\bot}$. If for $x\in \mathcal{H}$, $\braket{ x , y }=0$ for all $y\in E$, then $\braket{ x,y  }=0$ for all $y\in\overline{E}$ by continuity. The other direction is trivial. 
+
+Then, we have $\overline{E}\subseteq(\overline{E}^{\bot})^{\bot}=(E^{\bot})^{\bot}$. Conversely, let $x\in (E^{\bot})^{\bot}$. Then, $x=x_{1}+x_{2}$ where $x_{1}\in \overline{E}$ and $x_{2}\in E^{\bot}$. Therefore, for any $y\in E^{\bot}$, $0=\braket{ x , y }=\braket{ x_{2} , y }$ and $x_{2}= 0$, which shows that $x\in \overline{E}$. This shows $(E^{\bot})^{\bot}\subseteq \overline{E}$.
+
+---
+> [!def] Problem 3
+> Let $\mathcal{H}$ be a complex Hilbert space and $T\in \mathcal{B}(\mathcal{H})$. Prove $\text{ker}(T^{*})=(\text{Im }T)^{\bot}$ and $\text{ker }T=(\text{Im}(T^{*}))^{\bot}$.
+
+Let $x\in \text{ker}(T^{*})$ and $y\in \text{Im }T$ with $y=Tz$. Then, $\braket{ x , y }=\braket{ x , Tz }=\braket{ T^{*}x , z }=\braket{ 0 , z }=0$. Similarly, for $x\in (\text{Im }T)^{\bot}$, we have that $\braket{ T^{*}x , z }=\braket{ x ,Tz  }=0$ for all $z\in \mathcal{H}$. This proves the statement. The other statement follows from symmetry and $T$
+
+---

@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tensor Bundle.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -218,9 +218,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "47749e313f4e4703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Hilbert Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d914ea738147573d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Adjoint Linear Map.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -286,7 +310,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Closure.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +327,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Closure.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -326,7 +350,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Closure.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 4.md"
               }
             }
           }
@@ -348,13 +372,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3e781bf155899f05",
+  "active": "396e4b68aba120ce",
   "lastOpenFiles": [
-    "Algebra/Linear Algebra/Orthogonal Complement.md",
-    "Courses/Functional Analysis II/Exercise Sheet 4.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Courses/Topology/Exercise Sheet 5.md",
+    "Analysis/Functional Analysis/Adjoint Linear Map.md",
+    "Courses/Functional Analysis II/Exercise Sheet 4.md",
+    "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Topology/Closure.md",
+    "Analysis/Hilbert Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Riemannian Metric.md",
+    "Differential Geometry/Tensor Bundle.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Compact Space.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
@@ -371,11 +400,6 @@
     "Differential Geometry/Differential.md",
     "Differential Geometry/Differential 1-Form.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Differential Geometry/Differential k-Form.md",
-    "Differential Geometry/Length and Distance.md",
-    "Differential Geometry/Tensor Bundle.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

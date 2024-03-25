@@ -29,7 +29,7 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > For a Hilbert space $\mathcal{H}$ and a closed convex subset $C\subseteq \mathcal{H}$. Then, for all $v\in \mathcal{H}$, 
 > 1. there exists a unique $\rho_{C}(v)\in C$ s.t.
 > $$\|v-\rho_{C}(v)\|=d(v,C)$$
-> 2. $\rho_{C}(v)$ is characterized by $\text{Re}\braket{ v-\rho_{C}(v), w-\rho_{C}(w) }$ for all $w\in C$.
+> 2. $\rho_{C}(v)$ is characterized by $\text{Re}\braket{ v-\rho_{C}(v), w-\rho_{C}(w) }\leq 0$ for all $w\in C$.
 > 3. if $C$ is a vector subspace and $w\in \mathcal{H}$, $w=\rho_{C}(v)$ if and only if $v-w\  \bot\ C$.
 
 > [!proof]-
