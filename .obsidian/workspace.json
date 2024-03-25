@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Metric Space.md",
+                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "mode": "preview",
                 "source": false
               }
@@ -261,11 +261,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1e58202bc258e2c7",
+  "active": "eee5d812a80c3784",
   "lastOpenFiles": [
-    "Topology/Interior and Closure.md",
-    "Topology/Compact Metric Space.md",
+    "Courses/Topology/Exercise Sheet 4.md",
     "Courses/Topology/Exercise Sheet 5.md",
+    "Courses/Topology/Exercise Sheet 1.md",
+    "Topology/Compact Metric Space.md",
+    "Topology/Interior and Closure.md",
     "Topology/Compact Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
@@ -285,10 +287,8 @@
     "Differential Geometry/Tensor Bundle.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Courses/Topology/Exercise Sheet 4.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
