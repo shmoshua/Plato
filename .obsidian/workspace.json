@@ -81,7 +81,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4eae356e360d92c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Extension Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -124,6 +136,18 @@
             }
           },
           {
+            "id": "802257c1ea316c7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f12d74f72a4fd842",
             "type": "leaf",
             "state": {
@@ -153,7 +177,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Algebra/Splitting Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -184,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -250,7 +274,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +291,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -290,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+                "file": "Courses/Algebra II/Exercise Sheet 3.md"
               }
             }
           }
@@ -312,16 +336,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d7901e0671c3fbd6",
+  "active": "802257c1ea316c7f",
   "lastOpenFiles": [
+    "Courses/Analysis IV/Exercise Sheet 3.md",
     "Algebra/Algebraic and Transcendental Number.md",
-    "Differential Geometry/Riemannian Metric.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Extension Field.md",
+    "Algebra/Ring.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Algebra/Splitting Field.md",
     "Differential Geometry/Derivation.md",
+    "Differential Geometry/Riemannian Metric.md",
     "Algebra/Integral Domain.md",
     "Algebra/Polynomial Ring.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Differential.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Composite Field.md",
     "Measure Theory/Algebra.md",
     "Differential Geometry/Atlas.md",
@@ -330,16 +359,11 @@
     "Algebra/Characteristic.md",
     "Topology/Metric Space.md",
     "Differential Geometry/Immersion.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Algebra/Ring.md",
     "Differential Geometry/Length and Distance.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Inner Product Space.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Topology/Interior and Closure.md",
-    "Topology/Fundamental System.md",
-    "Courses/Topology/Exercise Sheet 4.md",
-    "Courses/Topology/Exercise Sheet 1.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
