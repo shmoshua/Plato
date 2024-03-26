@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -170,9 +170,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "79dbcb7e2841aa16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Polynomial Ring.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -238,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md"
+                "file": "Courses/Algebra II/Algebra II Roadmap.md"
               }
             }
           }
@@ -300,17 +312,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "14c1020688b23eea",
+  "active": "d7901e0671c3fbd6",
   "lastOpenFiles": [
+    "Algebra/Algebraic and Transcendental Number.md",
+    "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Derivation.md",
     "Algebra/Integral Domain.md",
+    "Algebra/Polynomial Ring.md",
+    "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Differential.md",
-    "Algebra/Algebraic and Transcendental Number.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Composite Field.md",
-    "Differential Geometry/Riemannian Metric.md",
     "Measure Theory/Algebra.md",
-    "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Smooth Atlas.md",
@@ -327,7 +340,6 @@
     "Topology/Fundamental System.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Courses/Topology/Exercise Sheet 1.md",
-    "Topology/Compact Metric Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

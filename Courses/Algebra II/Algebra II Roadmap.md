@@ -28,6 +28,9 @@
 2. [[Minimal Polynomial]]
 3. [[Extension Field|Finitely Generated Extensions]]
 4. [[Composite Field]]
+
+**2.3 Splitting Fields**
+
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
