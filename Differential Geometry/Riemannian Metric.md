@@ -28,11 +28,14 @@
 > Further, $\{ d_{p}\varphi^i\otimes d_{p}\varphi^j ,1\leq i,j\leq m\}$ forms a basis of $T^{*}_{p}M\otimes T^{*}_{p}M$.
 ---
 > [!lemma] Lemma 3
-> Let $(U,\varphi)$ and $(V,\psi)$ be two charts on $(M,g)$ with coordinates $(x^i)_{i}$, $(y^j)_{j}$ and we have $p=\alpha(q)$ for $\alpha:\psi (U\cap V)\to \varphi(U\cap V)$. Then, on $U\cap V$, 
+> Let $(U,\varphi)$ and $(V,\psi)$ be two charts on $(M,g)$ with coordinates $(x^i)_{i}$, $(y^j)_{j}$ and we have $x=\alpha(y)$ for $\alpha:\psi (U\cap V)\to \varphi(U\cap V)$. Then, on $U\cap V$, 
 > 1. $g=h_{ij}dy^i\otimes dy^j$ where $[h_{ij}(y)]=\left[ \frac{ \partial \alpha }{ \partial y } \right]^\top [g_{ij}]\left[ \frac{ \partial \alpha }{ \partial y } \right]$ and $g=g_{ij}dx^i\otimes dx^j$.
 
 > [!proof]+
-> Let $g=g_{ij}dx^i\otimes dx^j$. Then, let $g=h_{ij}dy^i\otimes dy^j$ where: $$\begin{align}(\alpha ^{*}g)_{q}\left( \left. \frac{ \partial  }{ \partial y^i }  \right|_{q},\left. \frac{ \partial  }{ \partial y^j }  \right|_{q}  \right) =g_{\alpha(q)}\left( d \right) \end{align}$$
+> Let $g=g_{ij}dx^i\otimes dx^j$. Then, let $g=h_{ij}dy^i\otimes dy^j$. Then, by letting $q:=\psi ^{-1}(y)$ we have: $$d_{q}f([\psi,e^i]_{q})=d_{y}(f\psi ^{-1})e^i=d_{\alpha ^{-1}(x)}(f\psi ^{-1})e^i=d_{x}(f\psi ^{-1}\alpha ^{-1})d_{\alpha ^{-1}(x)}\alpha(e^i)=d_{p}(f\psi ^{-1}\alpha ^{-1}\varphi)d_{y}(\varphi ^{-1}\alpha)(e^i)$$
+> $$h_{ij}(q)=g_{q}\left( \left. \frac{ \partial  }{ \partial y^i }  \right| _{q},\left. \frac{ \partial  }{ \partial y^j }  \right| _{q} \right) $$
+> Hihi
+> $$\begin{align}(\alpha ^{*}g)_{q}\left( \left. \frac{ \partial  }{ \partial y^i }  \right|_{q},\left. \frac{ \partial  }{ \partial y^j }  \right|_{q}  \right) =g_{\alpha(q)}\left( d \right) \end{align}$$
 > 
 > $$(\alpha ^{*}g)_{y}\left( \frac{ \partial  }{ \partial y^i } ,\frac{ \partial  }{ \partial y^j }  \right)=g_{\alpha(y)}\left( d_{y}\alpha\left( \frac{ \partial  }{ \partial y^i }  \right) ,d_{y}\alpha\left( \frac{ \partial  }{ \partial y^j }  \right) \right)=g_{\alpha(y)}\frac{ \partial \alpha }{ \partial x }  $$
 ---
