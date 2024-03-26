@@ -32,7 +32,7 @@
 > 1. $g=h_{ij}dy^i\otimes dy^j$ where $[h_{ij}(y)]=\left[ \frac{ \partial \alpha }{ \partial y } \right]^\top [g_{ij}]\left[ \frac{ \partial \alpha }{ \partial y } \right]$ and $g=g_{ij}dx^i\otimes dx^j$.
 
 > [!proof]+
-> Let $g=g_{ij}dx^i\otimes dx^j$. Then, $$\begin{align}(\alpha ^{*}g)_{q}\left( \left. \frac{ \partial  }{ \partial y^i }  \right|_{q},\left. \frac{ \partial  }{ \partial y^j }  \right|_{q}  \right) =g_{\alpha(q)}\left( d \right) \end{align}$$
+> Let $g=g_{ij}dx^i\otimes dx^j$. Then, let $g=h_{ij}dy^i\otimes dy^j$ where: $$\begin{align}(\alpha ^{*}g)_{q}\left( \left. \frac{ \partial  }{ \partial y^i }  \right|_{q},\left. \frac{ \partial  }{ \partial y^j }  \right|_{q}  \right) =g_{\alpha(q)}\left( d \right) \end{align}$$
 > 
 > $$(\alpha ^{*}g)_{y}\left( \frac{ \partial  }{ \partial y^i } ,\frac{ \partial  }{ \partial y^j }  \right)=g_{\alpha(y)}\left( d_{y}\alpha\left( \frac{ \partial  }{ \partial y^i }  \right) ,d_{y}\alpha\left( \frac{ \partial  }{ \partial y^j }  \right) \right)=g_{\alpha(y)}\frac{ \partial \alpha }{ \partial x }  $$
 ---
