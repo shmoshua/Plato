@@ -41,3 +41,6 @@
 > [!proof]-
 > Let $\alpha\in L$. Then, $\alpha$ is algebraic over $K$ and therefore, there exists a polynomial $$p(x)=a_{0}+a_{1}\alpha+\dots+a_{n}\alpha^n\in K[X]$$As $a_{i}$ is algebraic over $F$ for all $i$, we have: $[F(a_{0},a_{1},\dots,a_{n}):F]<+\infty$. Therefore, $$[F(a_{0},a_{1},\dots,a_{n},\alpha):F]=[F(a_{0},a_{1},\dots,a_{n},\alpha):F(a_{0},\dots,a_{n})][F(a_{0},\dots ,a_{n}):F]<+\infty$$Therefore, $\alpha$ is algebraic over $F$.
 ---
+> [!lemma] Theorem 4
+> For a [[Extension Field|field extension]] $L:K$ and $\alpha\in L$ transcendental over $K$. Then, $\text{ev}_{\alpha}:K[x]\to K[\alpha]$ extends to an isomorphism $\Phi:K(x)\to K(\alpha)$
+---

@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Algebra/Algebraic and Transcendental Number.md",
                 "mode": "source",
                 "source": true
               }
@@ -117,7 +117,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f12d74f72a4fd842",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Algebraic and Transcendental Number.md",
                 "mode": "preview",
                 "source": false
               }
@@ -160,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -226,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Algebra/Algebraic and Transcendental Number.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Algebra/Algebraic and Transcendental Number.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md"
+                "file": "Algebra/Algebraic and Transcendental Number.md"
               }
             }
           }
@@ -288,10 +300,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5ebcbf5cb4fa0ac9",
+  "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Algebraic and Transcendental Number.md",
+    "Algebra/Composite Field.md",
     "Differential Geometry/Riemannian Metric.md",
+    "Measure Theory/Algebra.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Derivation.md",
     "Differential Geometry/Atlas.md",
@@ -312,10 +328,6 @@
     "Courses/Topology/Exercise Sheet 1.md",
     "Topology/Compact Metric Space.md",
     "Topology/Compact Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 4.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Topology/Closure.md",
-    "Analysis/Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
