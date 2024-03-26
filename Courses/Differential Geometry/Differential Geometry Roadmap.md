@@ -102,5 +102,8 @@
 6. [[Musical Isomorphism]]
 ---
 ##### 2. Lengths and Volumes
+**2.1 Riemannian Manifolds as Metric Spaces**
 1. [[Length and Distance]]
-2. 
+
+**2.2 Integration and Volume**
+1. [[Riemannian Metric|Transition of the metric over local coordinates]]

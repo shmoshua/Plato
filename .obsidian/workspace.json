@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,8 +80,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -94,7 +93,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Length and Distance.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03a7e583e2e80efd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,14 +141,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Immersion.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -203,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Length and Distance.md",
+                "file": "Differential Geometry/Differential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Length and Distance.md",
+                "file": "Differential Geometry/Differential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Length and Distance.md"
+                "file": "Differential Geometry/Differential.md"
               }
             }
           }
@@ -265,15 +276,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1e58202bc258e2c7",
+  "active": "14c1020688b23eea",
   "lastOpenFiles": [
-    "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Immersion.md",
+    "Differential Geometry/Riemannian Metric.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Algebra/Ring.md",
+    "Differential Geometry/Length and Distance.md",
+    "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Inner Product Space.md",
     "Topology/Metric Space.md",
-    "Differential Geometry/Length and Distance.md",
     "Courses/Topology/Exercise Sheet 5.md",
-    "Algebra/Ring.md",
     "Topology/Interior and Closure.md",
     "Topology/Fundamental System.md",
     "Courses/Topology/Exercise Sheet 4.md",
@@ -282,7 +295,6 @@
     "Topology/Compact Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Topology/Closure.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Adjoint Linear Map.md",
@@ -292,7 +304,6 @@
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

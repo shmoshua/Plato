@@ -27,6 +27,15 @@
 > 
 > Further, $\{ d_{p}\varphi^i\otimes d_{p}\varphi^j ,1\leq i,j\leq m\}$ forms a basis of $T^{*}_{p}M\otimes T^{*}_{p}M$.
 ---
+> [!lemma] Lemma 3
+> Let $(U,\varphi)$ and $(V,\psi)$ be two charts on $(M,g)$ with coordinates $(x^i)_{i}$, $(y^j)_{j}$ and we have $p=\alpha(q)$ for $\alpha:\psi (U\cap V)\to \varphi(U\cap V)$. Then, on $U\cap V$, 
+> 1. $g=h_{ij}dy^i\otimes dy^j$ where $[h_{ij}(y)]=\left[ \frac{ \partial \alpha }{ \partial y } \right]^\top [g_{ij}]\left[ \frac{ \partial \alpha }{ \partial y } \right]$ and $g=g_{ij}dx^i\otimes dx^j$.
+
+> [!proof]+
+> Let $g=g_{ij}dx^i\otimes dx^j$. Then, $$\begin{align}(\alpha ^{*}g)_{q}\left( \left. \frac{ \partial  }{ \partial y^i }  \right|_{q},\left. \frac{ \partial  }{ \partial y^j }  \right|_{q}  \right) =g_{\alpha(q)}\left( d \right) \end{align}$$
+> 
+> $$(\alpha ^{*}g)_{y}\left( \frac{ \partial  }{ \partial y^i } ,\frac{ \partial  }{ \partial y^j }  \right)=g_{\alpha(y)}\left( d_{y}\alpha\left( \frac{ \partial  }{ \partial y^i }  \right) ,d_{y}\alpha\left( \frac{ \partial  }{ \partial y^j }  \right) \right)=g_{\alpha(y)}\frac{ \partial \alpha }{ \partial x }  $$
+---
 ##### Examples
 > [!h] Example 1
 > Let $M=\mathbb{R}^m$ and $(x^1,\dots,x^m)$ be standard coordinates. Then, $$g:=\sum_{i=1}^{m}dx^i\otimes dx^i=\sum_{i=1}^{m}(dx^i)^{2}$$is the Euclidean metric. 
