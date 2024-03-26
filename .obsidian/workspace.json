@@ -153,7 +153,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": false
               }
@@ -225,7 +225,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "normal",
+                "query": "characteristic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -242,7 +242,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -262,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md",
+                "file": "Algebra/Integral Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md",
+                "file": "Algebra/Integral Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Number.md"
+                "file": "Algebra/Integral Domain.md"
               }
             }
           }
@@ -326,12 +327,13 @@
   },
   "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Characteristic.md",
+    "Algebra/Algebraic and Transcendental Number.md",
     "Algebra/Minimal Polynomial.md",
     "Differential Geometry/Topological Manifold.md",
-    "Algebra/Algebraic and Transcendental Number.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Courses/Analysis IV/Exercise Sheet 3.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Extension Field.md",
     "Algebra/Ring.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
@@ -346,7 +348,6 @@
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Smooth Atlas.md",
-    "Algebra/Characteristic.md",
     "Topology/Metric Space.md",
     "Differential Geometry/Immersion.md",
     "Differential Geometry/Length and Distance.md",
