@@ -28,16 +28,16 @@
 > Further, $\{ d_{p}\varphi^i\otimes d_{p}\varphi^j ,1\leq i,j\leq m\}$ forms a basis of $T^{*}_{p}M\otimes T^{*}_{p}M$.
 ---
 > [!lemma] Lemma 3
-> Let $(U,\varphi)$ and $(V,\psi)$ be two charts on $(M,g)$ with coordinates $(x^i)_{i}$, $(y^j)_{j}$ and we have $x=\alpha(y)$ for $\alpha:\psi (U\cap V)\to \varphi(U\cap V)$. Then, on $U\cap V$, 
-> 1. $g=h_{ij}dy^i\otimes dy^j$ where $[h_{ij}(y)]=\left[ \frac{ \partial \alpha }{ \partial y } \right]^\top [g_{ij}]\left[ \frac{ \partial \alpha }{ \partial y } \right]$ and $g=g_{ij}dx^i\otimes dx^j$.
+> Let $(U,\varphi)$ and $(V,\psi)$ be two charts on $(M,g)$ with coordinates $(x^i)_{i}$, $(y^j)_{j}$ and $\alpha:=\varphi \circ\psi^{-1}$. Then, on $U\cap V$, 
+> 1. $g=h_{ij}dy^i\otimes dy^j$ where $[h_{ij}]=\left[ \frac{ \partial \alpha }{ \partial y } \right]^\top [g_{ij}]\left[ \frac{ \partial \alpha }{ \partial y } \right]$ and $g=g_{ij}dx^i\otimes dx^j$.
+> 2. $\det[h_{ij}]=\det[g_{ij}]\left( \det\left[ \frac{ \partial \alpha }{ \partial y } \right] \right)^{2}$
+> 3. for $f\in C^\infty_{c}(U\cap V)$, we have: $$\int_{\varphi(U\cap V)}^{} (f\circ \varphi ^{-1})(x)\sqrt{ \det(g_{ij}(\varphi ^{-1}(x))) } \, dx=\int_{\psi(U\cap V)}^{} (f\circ \psi ^{-1})(y)\sqrt{ \det(h_{ij}(\psi ^{-1}(y))) } \, dy $$
 
-> [!proof]+
-> Let $g=g_{ij}dx^i\otimes dx^j$. Then, let $g=h_{ij}dy^i\otimes dy^j$. Then, by letting $q:=\psi ^{-1}(y)$ we have: $$d_{q}f([\psi,e^i]_{q})=d_{y}(f\psi ^{-1})e^i=d_{\alpha ^{-1}(x)}(f\psi ^{-1})e^i=d_{x}(f\psi ^{-1}\alpha ^{-1})d_{\alpha ^{-1}(x)}\alpha(e^i)=d_{p}(f\psi ^{-1}\alpha ^{-1}\varphi)d_{y}(\varphi ^{-1}\alpha)(e^i)$$
-> $$h_{ij}(q)=g_{q}\left( \left. \frac{ \partial  }{ \partial y^i }  \right| _{q},\left. \frac{ \partial  }{ \partial y^j }  \right| _{q} \right) $$
-> Hihi
-> $$\begin{align}(\alpha ^{*}g)_{q}\left( \left. \frac{ \partial  }{ \partial y^i }  \right|_{q},\left. \frac{ \partial  }{ \partial y^j }  \right|_{q}  \right) =g_{\alpha(q)}\left( d \right) \end{align}$$
-> 
-> $$(\alpha ^{*}g)_{y}\left( \frac{ \partial  }{ \partial y^i } ,\frac{ \partial  }{ \partial y^j }  \right)=g_{\alpha(y)}\left( d_{y}\alpha\left( \frac{ \partial  }{ \partial y^i }  \right) ,d_{y}\alpha\left( \frac{ \partial  }{ \partial y^j }  \right) \right)=g_{\alpha(y)}\frac{ \partial \alpha }{ \partial x }  $$
+> [!proof]-
+> Let $g=g_{ij}dx^i\otimes dx^j$. Then, let $g=h_{ij}dy^i\otimes dy^j$. Then, by letting $y\in \psi(U\cap V)$ and $q:=\psi ^{-1}(y)$ we have: 
+> $$\begin{align}\left. \frac{ \partial f }{ \partial y^i }  \right| _{q}&=d_{\psi(q)}(f\circ \psi ^{-1})e_{i}\\&=d_{\varphi(q)}(f\circ \varphi ^{-1})d_{\psi(q)}\alpha e_{i}\\&=d_{\varphi(q)}(f\circ \varphi ^{-1})\frac{ \partial \alpha^k }{ \partial y^i } e_{k}\\&=\frac{ \partial \alpha^k }{ \partial y^i } \left. \frac{ \partial f }{ \partial x^k }  \right|_{q} \end{align}$$
+> Therefore, $$h_{ij}(q)=g_{q}\left( \left. \frac{ \partial  }{ \partial y^i }  \right|_{q},\left. \frac{ \partial  }{ \partial y^i }  \right|_{q}  \right)=\frac{ \partial \alpha^k }{ \partial y^i }\frac{ \partial \alpha^\ell }{ \partial y^j }g_{k\ell}(q) $$
+> Further, we have: $$\begin{align}\int_{\varphi(U\cap V)}^{} (f\circ \varphi ^{-1})(x)\sqrt{ \det(g_{ij}(\varphi ^{-1}(x))) } \, dx&=\int_{\varphi(U\cap V)}^{} (f\circ \psi ^{-1})(y)\sqrt{ \det(g_{ij}(\psi ^{-1}(y))) }\left| \det \left[ \frac{ \partial \alpha }{ \partial y }  \right] \right|  \, dy\\&=\int_{\varphi(U\cap V)}^{} (f\circ \psi ^{-1})(y)\sqrt{ \det(h_{ij}(\psi ^{-1}(y))) } \, dy\end{align}$$
 ---
 ##### Examples
 > [!h] Example 1

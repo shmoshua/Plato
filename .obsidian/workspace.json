@@ -14,7 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "30bed96458800bad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +80,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -153,7 +166,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e86ac728447fd27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "mode": "preview",
                 "source": false
               }
@@ -196,7 +221,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -242,8 +267,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -263,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Integral Domain.md"
+                "file": "Differential Geometry/Riemannian Metric.md"
               }
             }
           }
@@ -325,8 +349,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f12d74f72a4fd842",
+  "active": "30bed96458800bad",
   "lastOpenFiles": [
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Riemannian Metric.md",
+    "Algebra/Integral Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Characteristic.md",
     "Algebra/Algebraic and Transcendental Number.md",
@@ -336,11 +363,8 @@
     "Courses/Analysis IV/Exercise Sheet 3.md",
     "Algebra/Extension Field.md",
     "Algebra/Ring.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Algebra/Splitting Field.md",
     "Differential Geometry/Derivation.md",
-    "Differential Geometry/Riemannian Metric.md",
-    "Algebra/Integral Domain.md",
     "Algebra/Polynomial Ring.md",
     "Differential Geometry/Differential.md",
     "Algebra/Composite Field.md",
