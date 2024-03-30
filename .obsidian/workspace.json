@@ -21,12 +21,24 @@
             }
           },
           {
+            "id": "edcfc0c2b86e39c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Volume Form.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "30bed96458800bad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Differential Geometry/Volume Form.md",
                 "mode": "source",
                 "source": true
               }
@@ -166,7 +178,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Differential Geometry/Volume Form.md",
                 "mode": "preview",
                 "source": false
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Differential Geometry/Integration on Manifolds.md",
                 "mode": "preview",
                 "source": false
               }
@@ -221,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -287,7 +299,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Differential Geometry/Volume Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +316,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Differential Geometry/Volume Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -327,7 +339,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md"
+                "file": "Differential Geometry/Volume Form.md"
               }
             }
           }
@@ -349,10 +361,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "30bed96458800bad",
+  "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
+    "Differential Geometry/Integration on Manifolds.md",
+    "Differential Geometry/Volume Form.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Riemannian Metric.md",
+    "Differential Geometry/Untitled.md",
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Characteristic.md",
@@ -374,9 +389,6 @@
     "Differential Geometry/Smooth Atlas.md",
     "Topology/Metric Space.md",
     "Differential Geometry/Immersion.md",
-    "Differential Geometry/Length and Distance.md",
-    "Analysis/Functional Analysis/Hilbert Space Operator.md",
-    "Analysis/Inner Product Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

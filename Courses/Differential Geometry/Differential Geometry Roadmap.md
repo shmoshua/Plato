@@ -107,3 +107,4 @@
 
 **2.2 Integration and Volume**
 1. [[Riemannian Metric|Transition of the metric over local coordinates]]
+2. [[Volume Form|Integral with Volume]]
