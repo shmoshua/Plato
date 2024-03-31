@@ -5,3 +5,5 @@
 - **Related definition**: For $f\in C^\infty_{c}(M)$, we can define: $$\int_{M}^{} f \, d\text{Vol}_{g}:=\sum_{i\in I}^{}\int_{\varphi_{i}(U_{i})}^{} (f\cdot g_{i})(\varphi _{i}^{-1}(x))\sqrt{ \det g^{(i)}(x) } \, dx  $$
 ---
 ##### Properties
+
+$$\begin{align}Z&:=\sum_{t=0}^{\infty}P_{\text{LN}}(a_{t})\\&=\sum_{t=0}^{\infty}P_{\text{SM}}(\mathsf{EOS}|a^{t})\left( \prod_{t=0}^{t-1} \underbrace{ P_{\text{SM}}(a|a^t) }_{ =:c }\right) \\&=\sum_{t=0}^{\infty}P_{\text{SM}}(\mathsf{EOS}|a^{t}) c^t\end{align}$$
