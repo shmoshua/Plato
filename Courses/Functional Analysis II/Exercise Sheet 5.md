@@ -5,9 +5,7 @@
 
 We have:
 1. **Showing $\mathcal{B}^\infty(X)$ is a Banach space with the sup norm**:
-   Firstly, one can easily see that $\mathcal{B}^\infty(X)$ is a normed space. To see that $\mathcal{B}^\infty(X)$ is a Banach space, let $(f_{n})_{n}\subseteq \mathcal{B}^\infty(X)$ be a Cauchy sequence. Then, $(f_{n}(x))_{n}$ is a Cauchy sequence in $\mathbb{C}$ for all $x\in X$ and there exists $f:X\to \mathbb{C},x\mapsto \lim_{ n \to \infty }f_{n}(x)$. To check the measurability of $f$, let $U\subseteq \mathbb{C}$ be open. Then, $$f^{-1}(U)=\{ x\in X:\lim_{ n \to \infty } f_{n}(x)\in U \}$$
-   
-   $$\left\| f \right\| =\sup_{x\in X}\left| f(x) \right| =$$
+   Firstly, one can easily see that $\mathcal{B}^\infty(X)$ is a normed space. To see that $\mathcal{B}^\infty(X)$ is a Banach space, let $(f_{n})_{n}\subseteq \mathcal{B}^\infty(X)$ be a Cauchy sequence. Then, $(f_{n}(x))_{n}$ is a Cauchy sequence in $\mathbb{C}$ for all $x\in X$ and there exists $f:X\to \mathbb{C},x\mapsto \lim_{ n \to \infty }f_{n}(x)$. Then, as $f=\limsup_{ n \to \infty }f_{n}$, $f$ is Borel-measurable. Further, $$\|f\|=\sup_{x\in X}$$
 
 ---
 > [!def] Problem 2

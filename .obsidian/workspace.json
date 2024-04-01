@@ -113,12 +113,12 @@
             }
           },
           {
-            "id": "12f51f66643d3037",
+            "id": "000aa54ff9959f16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -137,12 +137,12 @@
             }
           },
           {
-            "id": "000aa54ff9959f16",
+            "id": "12f51f66643d3037",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Measure Theory/Measurable Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -161,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -227,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md"
               }
             }
           }
@@ -289,12 +289,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "000aa54ff9959f16",
+  "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
     "Measure Theory/Measurable Function.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Measure Theory/Borel Measure.md",
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
@@ -316,7 +317,6 @@
     "Differential Geometry/Derivation.md",
     "Algebra/Polynomial Ring.md",
     "Differential Geometry/Differential.md",
-    "Algebra/Composite Field.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
