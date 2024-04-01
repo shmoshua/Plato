@@ -5,7 +5,10 @@
 
 We have:
 1. **Showing $\mathcal{B}^\infty(X)$ is a Banach space with the sup norm**:
-   Firstly, one can easily see that $\mathcal{B}^\infty(X)$ is a normed space. To see that $\mathcal{B}^\infty(X)$ is a Banach space, let $(f_{n})_{n}\subseteq \mathcal{B}^\infty(X)$ be a Cauchy sequence. Then, $(f_{n}(x))_{n}$ is a Cauchy sequence in $\mathbb{C}$ for all $x\in X$ and there exists $f:X\to \mathbb{C},x\mapsto \lim_{ n \to \infty }f_{n}(x)$. Then, as $f=\limsup_{ n \to \infty }f_{n}$, $f$ is Borel-measurable. Further, $$\|f\|=\sup_{x\in X}$$
+	Let $\{ f_{k} \}_{k}\subseteq \mathcal{B}^\infty(X)$ be a Cauchy sequence. Then, for all $x\in X$, $\{ f_{k}(x) \}_{k}$ is a Cauchy sequence and there exists $f:X\to \mathbb{C}$ s.t. $f_{k}(x)\to f(x)$ for all $x\in X$. As $f=\limsup_{ n \to \infty }$
+	
+	Then, for $\varepsilon>0$, there exists $N$ s.t. $\left\| f_{n}-f_{k} \right\|<\varepsilon$ for all $n,k\geq N$. We have, $$\left\| f-f_{k} \right\| =\sup_{x\in X}\left|f(x)-f_{k}(x)  \right|\leq \limsup_{ n \to \infty } \left\| f_{n}-f_{k} \right\| \leq \varepsilon $$and $f_{k}\to f$ in supremum norm. Further, $\|f\|\leq\|f-f_{k}\|+\|f_{k}\|<+\infty$. It's left to show that $f$ is Borel measurable.
+ 	
 
 ---
 > [!def] Problem 2

@@ -31,6 +31,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "d67e40124cc40aaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Banach Space.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -113,12 +125,12 @@
             }
           },
           {
-            "id": "000aa54ff9959f16",
+            "id": "12f51f66643d3037",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Measure Theory/Measurable Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -131,18 +143,6 @@
               "type": "markdown",
               "state": {
                 "file": "Analysis/Functional Analysis/Resolution of Identity.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12f51f66643d3037",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Measurable Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -292,10 +292,11 @@
   "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
     "Measure Theory/Measurable Function.md",
-    "Courses/Functional Analysis II/Exercise Sheet 5.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Functional Analysis II/Exercise Sheet 5.md",
+    "Analysis/Banach Space.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
     "Measure Theory/Borel Measure.md",
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
@@ -316,7 +317,6 @@
     "Algebra/Ring.md",
     "Differential Geometry/Derivation.md",
     "Algebra/Polynomial Ring.md",
-    "Differential Geometry/Differential.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
