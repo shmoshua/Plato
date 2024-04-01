@@ -5,17 +5,25 @@
 
 We have:
 1. **Showing $\mathcal{B}^\infty(X)$ is a Banach space with the sup norm**:
-	Let $\{ f_{k} \}_{k}\subseteq \mathcal{B}^\infty(X)$ be a Cauchy sequence. Then, for all $x\in X$, $\{ f_{k}(x) \}_{k}$ is a Cauchy sequence and there exists $f:X\to \mathbb{C}$ s.t. $f_{k}(x)\to f(x)$ for all $x\in X$. As $f=\limsup_{ n \to \infty }$
+	Let $\{ f_{k} \}_{k}\subseteq \mathcal{B}^\infty(X)$ be a Cauchy sequence. Then, for all $x\in X$, $\{ f_{k}(x) \}_{k}$ is a Cauchy sequence and there exists $f:X\to \mathbb{C}$ s.t. $f_{k}(x)\to f(x)$ for all $x\in X$. As $f=\limsup_{ k \to \infty }f_{k}$, $f$ is Borel-measurable. 
 	
-	Then, for $\varepsilon>0$, there exists $N$ s.t. $\left\| f_{n}-f_{k} \right\|<\varepsilon$ for all $n,k\geq N$. We have, $$\left\| f-f_{k} \right\| =\sup_{x\in X}\left|f(x)-f_{k}(x)  \right|\leq \limsup_{ n \to \infty } \left\| f_{n}-f_{k} \right\| \leq \varepsilon $$and $f_{k}\to f$ in supremum norm. Further, $\|f\|\leq\|f-f_{k}\|+\|f_{k}\|<+\infty$. It's left to show that $f$ is Borel measurable.
- 	
-
+	Then, for $\varepsilon>0$, there exists $N$ s.t. $\left\| f_{n}-f_{k} \right\|<\varepsilon$ for all $n,k\geq N$. We have, $$\left\| f-f_{k} \right\| =\sup_{x\in X}\left|f(x)-f_{k}(x)  \right|\leq \limsup_{ n \to \infty } \left\| f_{n}-f_{k} \right\| \leq \varepsilon $$and $f_{k}\to f$ in supremum norm. Further, $\|f\|\leq\|f-f_{k}\|+\|f_{k}\|<+\infty$. Therefore, $f\in \mathcal{B}^\infty(X)$.
+2. **Showing $\mathcal{B}^\infty(X)$ is an involutive Banach algebra**:
+	Let $f,g\in \mathcal{B}^\infty(X)$. Then, $$\left\| fg \right\| =\sup_{x\in X}\left| f(x)g(x) \right| \leq \sup_{x\in X}\left| f(x) \right| \sup_{x\in X}\left| g(x) \right|=\|f\|\cdot \|g\| $$Further, with the involution $f^{*}=\overline{f}$, one easily sees that $\mathcal{B}^\infty(X)$ is an involutive Banach algebra.
+3. **Showing $\mathcal{B}^\infty(X)$ is a $C^{*}$-algebra**:
+	For $f\in\mathcal{B}^\infty(X)$,$$\left\| f\overline{f} \right\|=\sup_{x\in X}\left| f(x) \right| ^{2}=(\sup_{x\in X}\left| f(x) \right| )^{2}=\left\| f \right\| ^{2} $$
+ 	Therefore, $\mathcal{B}^\infty(X)$ is a $C^{*}$-algebra.
 ---
 > [!def] Problem 2
 > Prove for all $f,g\in \mathcal{B}^\infty(X)$:
 > 1. $\|f\|_{\infty}\leq\|f\|$
 > 2. $\|f+g\|_{\infty}\leq\|f\|_{\infty}+\|g\|_{\infty}$
 > 3. $\|fg\|_{\infty}\leq\|f\|_{\infty}\|g\|_{\infty}$
+
+We have:
+1. Let $\lambda\in \text{ess im}(f)$ and $D\subseteq \mathbb{C}$ any open neighborhood of $\lambda$ where $D=\bigcup_{k}^{}D_{k}$. Then, there exists $k_{0}$ s.t. $\lambda\in D_{k_{0}}$ and $E(f^{-1}(D))=E(f^{-1}(D \backslash D_{k_{0}})\sqcup f^{-1}(D_{k_{0}}))=E(f^{-1}(D \backslash D_{k_{0}}))+E(f^{-1}(D_{k_{0}}))$$$E(f^{-1}(D))=E\left( \bigcup_{}^{}f^{-1}(D_{n_{k}}) \right)$$
+2. 
+3. Assume for all $x\in X$, $f(x)\neq\lambda$.  Then, for every $n$ s.t. $\lambda\in D_{n}$, $E(f^{-1}(D_{n}))\neq 0$. 
 ---
 > [!def] Problem 3
 > Prove the equality $\|f+g\|_{\infty}=\|f\|_{\infty}$ for all $f\in \mathcal{B}^\infty(X)$ and $g\in N$. Deduce that the quotient norm on $\mathcal{B}^\infty(X) / N$ is given by $\|f+N\|_{\infty}=\|f\|_{\infty}$.
