@@ -14,79 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "edcfc0c2b86e39c4",
+            "id": "ce1d13c20305522f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Volume Form.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "30bed96458800bad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Volume Form.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a89348e1f0e74cae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Differential k-Form.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ef12195014b29e66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Vector Field.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1e78df342d51638e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1e58202bc258e2c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Length and Distance.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
                 "mode": "source",
                 "source": true
               }
@@ -161,36 +101,12 @@
             }
           },
           {
-            "id": "802257c1ea316c7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f12d74f72a4fd842",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Volume Form.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e86ac728447fd27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Integration on Manifolds.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
                 "mode": "preview",
                 "source": false
               }
@@ -202,7 +118,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e86ac728447fd27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
                 "mode": "preview",
                 "source": false
               }
@@ -214,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -233,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -299,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Volume Form.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -316,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Volume Form.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Volume Form.md"
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md"
               }
             }
           }
@@ -361,34 +289,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f12d74f72a4fd842",
+  "active": "000aa54ff9959f16",
   "lastOpenFiles": [
+    "Measure Theory/Measurable Function.md",
+    "Courses/Functional Analysis II/Exercise Sheet 5.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Measure Theory/Borel Measure.md",
+    "Algebra/Integral Domain.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Courses/Algebra II/Exercise Sheet 3.md",
+    "Algebra/Splitting Field.md",
     "Differential Geometry/Integration on Manifolds.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Differential Geometry/Volume Form.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Untitled.md",
-    "Algebra/Integral Domain.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Characteristic.md",
     "Algebra/Algebraic and Transcendental Number.md",
     "Algebra/Minimal Polynomial.md",
     "Differential Geometry/Topological Manifold.md",
-    "Courses/Algebra II/Exercise Sheet 3.md",
     "Courses/Analysis IV/Exercise Sheet 3.md",
     "Algebra/Extension Field.md",
     "Algebra/Ring.md",
-    "Algebra/Splitting Field.md",
     "Differential Geometry/Derivation.md",
     "Algebra/Polynomial Ring.md",
     "Differential Geometry/Differential.md",
     "Algebra/Composite Field.md",
-    "Measure Theory/Algebra.md",
-    "Differential Geometry/Atlas.md",
-    "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Smooth Atlas.md",
-    "Topology/Metric Space.md",
-    "Differential Geometry/Immersion.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
