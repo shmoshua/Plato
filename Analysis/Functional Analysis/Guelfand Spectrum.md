@@ -31,8 +31,8 @@
 > [!lemma] Theorem 3 (Spectral Theorem)
 > Let $A\subseteq \mathcal{B}(\mathcal{H})$ be an commutative sub-$C^{*}$-algebra containing $\text{id}_{\mathcal{H}}$ and $\widehat{A}$ is Guelfand spectrum. Then, 
 > 1. there exists a unique [[resolution of identity]] $E$ on $\mathcal{B}_{\widehat{A}}$ s.t. for every $T\in A$,$$T=\int_{\widehat{A}}\widehat{T}  \, dE $$where $\widehat{T}\in C(\widehat{A})$ is the Guelfand transform of $T$. This is equivalent to: $$\braket{ T(x) , y } =\int_{\widehat{A}}\widehat{T}  \, dE_{x,y} $$
-> 2. the inverse of the Guelfand transform $\gamma$ extends to a $C^{*}$-algebra isomorphism $\Phi:L^\infty(E)\to B$, with the following commutative diagram: $$\begin{CD}L^\infty(E) @>\Phi>> B\\@AAA&@AAA\\C(\widehat{A}) @>\gamma>>A\end{CD}$$given by $$\Phi(f):=\int_{\widehat{A}}f \, dE$$where $\Phi$ is linear, multiplicative and satisfies $\Phi(\bar{f})=\Phi(f)^{*}$ and $\left\| \Phi(f) \right\|=\left\| f \right\|_{\infty}$.
-> 3. we have: $B=\overline{\Phi(\mathcal{S}(\hat{A}))}$
+> 2. the inverse of the Guelfand transform $\gamma$ extends to a $C^{*}$-algebra isomorphism $\Psi:L^\infty(E)\to B$, with the following commutative diagram: $$\begin{CD}L^\infty(E) @>\Psi>> B\\@AAA&@AAA\\C(\widehat{A}) @>\gamma>>A\end{CD}$$given by $$\Psi(f):=\int_{\widehat{A}}f \, dE$$where $\Phi$ is linear, multiplicative and satisfies $\Psi(\bar{f})=\Psi(f)^{*}$ and $\left\| \Psi(f) \right\|=\left\| f \right\|_{\infty}$.
+> 3. we have: $B=\overline{\Psi(\mathcal{S}(\hat{A}))}$
 > 4. If $\omega \subseteq \widehat{A}$ is non-empty and open, then $E(\omega)\neq 0$.
 > 5. an operator $S\in \mathcal{B}(\mathcal{H})$ commutes with $A$ if and only if $S$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}_{\widehat{A}}$.
 
@@ -43,7 +43,19 @@
 > 3. $\Phi(f)^{*}=\Phi(\overline{f})$ for all $f\in \mathcal{B}^\infty(\widehat{A})$.
 > 4. $\Phi(fg)=\Phi(f)\Phi(g)$
 >
-> Then, we
+> Then, we can define the following resolution of identity: $E:\omega\mapsto \Phi(\chi_{\omega})$.
+> 1. **Showing $E$ is a resolution of identity**:
+> 	We have $E(\varnothing)=\Phi(0)=0$ as $\Phi$ is linear. Similarly, $E(\widehat{A})=\Phi(1)$. Consider $T=\text{id}_{\mathcal{H}}$. Then, $$\widehat{T}(\chi)=\chi(\text{id}_{\mathcal{H}})=1,\quad \forall \chi\in \widehat{A}$$Therefore, $$\braket{ x , y } =\braket{ \text{id}_{\mathcal{H}}(x) , y } =\int_{\widehat{A}}^{} 1 \, dE_{x,y}=\braket{ \Phi(1)x ,y  }  $$This shows that $E(\widehat{A})=\Phi(1)=\text{id}_{\mathcal{H}}$.
+> 	
+> 	We now have that: $$E(\omega)=\Phi(\chi_{\omega})=\Phi(\chi^{2}_{\omega})=\Phi(\chi_{\omega})\Phi(\chi_{\omega})=E(\omega)E(\omega)=E(\omega^{2})$$and $$E(\omega)^{*}=\Phi(\chi_{\omega})^{*}=\Phi(\chi_{\omega})=E(\omega)$$therefore $E(\omega)$ is normal and by [[Hilbert Space Operator|Proposition 2]], $E(\omega)$ is a self-adjoint projection,
+> 	
+> 	Now, $$E(\omega_{1}\cap\omega_{2})=\Phi(\chi_{\omega_{1}\cap\omega_{2}})=\Phi(\chi_{\omega_{1}})\Phi(\chi_{\omega_{2}})=\Phi(\chi_{\omega_{1}})\Phi(\chi_{\omega_{2}})=E(\omega_{1})E(\omega_{2})$$
+> 	and for $\omega_{1}\sqcup \omega_{2}$, $$E(\omega_{1}\sqcup \omega_{2})=\Phi(\chi_{\omega_{1}}+\chi_{\omega_{2}})=\Phi(\chi_{\omega_{1}})+\Phi(\chi_{\omega_{2}})=E(\omega_{1})+E(\omega_{2})$$
+> 		Lastly, $$\braket{ E(\omega)x , y } =\braket{ \Phi(\chi_{\omega})x , y } =\int_{\widehat{A}}^{} \chi_{\omega} \, dF_{x,y} =\int_{\omega}^{}  \, dF_{x,y}=E_{x,y}(\omega) $$
+> 
+> Recall that $\Psi$ was defined first on simple functions $s=\sum_{i}^{}\alpha_{i}\chi_{\omega_{i}}$ by $\Psi(s)=\sum_{i}\alpha_{i}E(\omega_{i})$. This gives a $C^{*}$-algebra map $\mathcal{S}(\widehat{A})\to \mathcal{B}(\mathcal{H})$ with $\left\| \Psi(s) \right\|=\|s\|_{\infty}$ This extends to $\mathcal{B}^\infty(\widehat{A})\to \mathcal{B}(\mathcal{H})$ and by factoring $L^\infty(E)\to \mathcal{B}(\mathcal{H})$.
+> 
+> But we also have $\Phi(s)=\sum_{i}^{}\alpha_{i}\Phi(\chi_{\omega_{i}})=\sum_{i}^{}\alpha_{i}E(\omega_{i})$. As $\mathcal{S}(\widehat{A})$ is dense in $\mathcal{B}^\infty(\widehat{A})$, $\Phi=\Psi$
 ---
 ##### Examples
 > [!h] Example 1

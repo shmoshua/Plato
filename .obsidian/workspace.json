@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
@@ -281,6 +281,8 @@
   "lastOpenFiles": [
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Topology/Metric Space.md",
+    "Differential Geometry/Riemannian Metric.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Algebra/Extension Field.md",
@@ -299,12 +301,10 @@
     "Differential Geometry/Integration on Manifolds.md",
     "Differential Geometry/Volume Form.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Untitled.md",
     "Algebra/Characteristic.md",
     "Algebra/Algebraic and Transcendental Number.md",
     "Algebra/Minimal Polynomial.md",
-    "Differential Geometry/Topological Manifold.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
