@@ -28,6 +28,23 @@
 > 
 > Therefore, by Guelfand-Mazur, $A / I\xrightarrow{\sim}\mathbb{C}$. Now, compsoing $A\xrightarrow{\pi}A / I\xrightarrow{\sim}\mathbb{C}$, we get a $\mathbb{C}$-algebra homomorphism $\varphi:A\to C$ with $\text{ker }\varphi=I$.
 ---
+> [!lemma] Theorem 3 (Spectral Theorem)
+> Let $A\subseteq \mathcal{B}(\mathcal{H})$ be an commutative sub-$C^{*}$-algebra containing $\text{id}_{\mathcal{H}}$ and $\widehat{A}$ is Guelfand spectrum. Then, 
+> 1. there exists a unique [[resolution of identity]] $E$ on $\mathcal{B}_{\widehat{A}}$ s.t. for every $T\in A$,$$T=\int_{\widehat{A}}\widehat{T}  \, dE $$where $\widehat{T}\in C(\widehat{A})$ is the Guelfand transform of $T$. This is equivalent to: $$\braket{ T(x) , y } =\int_{\widehat{A}}\widehat{T}  \, dE_{x,y} $$
+> 2. the inverse of the Guelfand transform $\gamma$ extends to a $C^{*}$-algebra isomorphism $\Phi:L^\infty(E)\to B$, with the following commutative diagram: $$\begin{CD}L^\infty(E) @>\Phi>> B\\@AAA&@AAA\\C(\widehat{A}) @>\gamma>>A\end{CD}$$given by $$\Phi(f):=\int_{\widehat{A}}f \, dE$$where $\Phi$ is linear, multiplicative and satisfies $\Phi(\bar{f})=\Phi(f)^{*}$ and $\left\| \Phi(f) \right\|=\left\| f \right\|_{\infty}$.
+> 3. we have: $B=\overline{\Phi(\mathcal{S}(\hat{A}))}$
+> 4. If $\omega \subseteq \widehat{A}$ is non-empty and open, then $E(\omega)\neq 0$.
+> 5. an operator $S\in \mathcal{B}(\mathcal{H})$ commutes with $A$ if and only if $S$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}_{\widehat{A}}$.
+
+> [!proof]+
+> From lemma 5.21 we have a unique $\Phi(f)\in \mathcal{B}(\mathcal{H})$ s.t. $\int_{\widehat{A}}^{} f \, dE_{x,y}=\braket{ \Phi(f)x , y }$ for all $x,y\in \mathcal{H}$ with the characteristics:
+> 1. $\Phi:\mathcal{B}^\infty(\widehat{A})\to \mathcal{B}(\mathcal{H})$ is linear.
+> 2. the diagram in 2 commutes
+> 3. $\Phi(f)^{*}=\Phi(\overline{f})$ for all $f\in \mathcal{B}^\infty(\widehat{A})$.
+> 4. $\Phi(fg)=\Phi(f)\Phi(g)$
+>
+> Then, we
+---
 ##### Examples
 > [!h] Example 1
 > Let $X$ be a [[locally compact Hausdorff space]]. Then, $$\begin{array}{cccc} {}&{X}&\to&{\widehat{C_{0}(X)}}\\&{x} &\mapsto & {\text{ev}(x)} \end{array}{}$$is a bijection.

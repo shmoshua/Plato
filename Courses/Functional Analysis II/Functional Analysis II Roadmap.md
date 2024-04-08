@@ -58,6 +58,9 @@
 
 **5.4 The algebra $L^\infty(E)$**
 
+**5.5 The Spectral Theorem**
+1. [[Guelfand Spectrum|Spectral Theorem]]
+
 ---
 ##### 6. Locally Compact Groups
 ---

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "mode": "source",
                 "source": true
               }
@@ -53,24 +53,24 @@
         "dimension": 46.264367816091955,
         "children": [
           {
-            "id": "a391fdd17c7060ea",
+            "id": "4eae356e360d92c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "4eae356e360d92c5",
+            "id": "ff67265067c73f51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Extension Field.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
@@ -125,16 +125,6 @@
             }
           },
           {
-            "id": "66c091c8ab153a8b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
-          },
-          {
             "id": "12f51f66643d3037",
             "type": "leaf",
             "state": {
@@ -159,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md"
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md"
               }
             }
           }
@@ -287,12 +277,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "66c091c8ab153a8b",
+  "active": "ff67265067c73f51",
   "lastOpenFiles": [
     "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
-    "Topology/Fundamental System.md",
+    "Algebra/Extension Field.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
+    "Topology/Fundamental System.md",
     "Topology/Interior and Closure.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
@@ -304,7 +297,6 @@
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Splitting Field.md",
     "Differential Geometry/Integration on Manifolds.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Differential Geometry/Volume Form.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Riemannian Metric.md",
@@ -313,8 +305,6 @@
     "Algebra/Algebraic and Transcendental Number.md",
     "Algebra/Minimal Polynomial.md",
     "Differential Geometry/Topological Manifold.md",
-    "Courses/Analysis IV/Exercise Sheet 3.md",
-    "Algebra/Extension Field.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
