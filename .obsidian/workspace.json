@@ -125,6 +125,16 @@
             }
           },
           {
+            "id": "66c091c8ab153a8b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
             "id": "12f51f66643d3037",
             "type": "leaf",
             "state": {
@@ -149,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -277,7 +287,7 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f12d74f72a4fd842",
+  "active": "66c091c8ab153a8b",
   "lastOpenFiles": [
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
