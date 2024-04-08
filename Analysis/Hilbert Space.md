@@ -74,3 +74,7 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > Recall that every $f\in \mathcal{H}^{*}$ is given by $f(v)=\braket{ v , x }$ for some $x\in \mathcal{H}$ from Riesz Representation theorem. Let $x=\sum_{n=1}^{\infty}\braket{ x , e_{n} }e_{n}$, with $\|x\|^{2}=\sum_{n=1}^{\infty}\left| \braket{ x , e_{n} } \right|^{2}$. Then, $$f(e_{n})=\braket{ e_{n} , x } $$Since $\|x\|^{2}=\sum_{n=1}^{\infty}|\braket{ e_{n} , x } |^{2}$, we have that $\lim_{ n \to \infty }\braket{ e_{n} , x } =0$. This shows that $f(e_{n})\to 0$. From [[Weak Topology|Lemma 2]], $e_{n}\to{0}$ in weak-topology.
 - **Corollary**: $B_{\leq 1}^\mathcal{H}(0)$ is weakly closed, $S_{1}^\mathcal{H}(0)=\{ v\in \mathcal{H}:\|v\|=1 \}$ is not weakly closed.
 ---
+> [!lemma] Theorem
+> Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space and $A\subseteq \mathcal{B}(\mathcal{H})$ is a [[C*-Algebra|commutative sub-$C^{*}$-algebra]] containing $\text{id}_{\mathcal{H}}$. Then, 
+> 1. there exists a finite positive Borel regular measure $\mu$ on $\widehat{A}\times \mathbb{N}$
+> 2. there exists a Hilbert space isomorphism $\Lambda:\mathcal{H}\to L^{2}(\widehat{A}\times \mathbb{N},\mu)$ s.t. for all $T\in A$ and $v\in \mathcal{H}$, $$\Lambda(Tv)(\chi,n)=\widehat{T}(\chi)\Lambda(v)(\chi,n)$$In other words, there exists$$$$

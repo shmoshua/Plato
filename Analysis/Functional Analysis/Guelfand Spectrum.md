@@ -36,7 +36,7 @@
 > 4. If $\omega \subseteq \widehat{A}$ is non-empty and open, then $E(\omega)\neq 0$.
 > 5. an operator $S\in \mathcal{B}(\mathcal{H})$ commutes with $A$ if and only if $S$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}_{\widehat{A}}$.
 
-> [!proof]+
+> [!proof]-
 > From lemma 5.21 we have a unique $\Phi(f)\in \mathcal{B}(\mathcal{H})$ s.t. $\int_{\widehat{A}}^{} f \, dE_{x,y}=\braket{ \Phi(f)x , y }$ for all $x,y\in \mathcal{H}$ with the characteristics:
 > 1. $\Phi:\mathcal{B}^\infty(\widehat{A})\to \mathcal{B}(\mathcal{H})$ is linear.
 > 2. the diagram in 2 commutes
@@ -56,6 +56,14 @@
 > Recall that $\Psi$ was defined first on simple functions $s=\sum_{i}^{}\alpha_{i}\chi_{\omega_{i}}$ by $\Psi(s)=\sum_{i}\alpha_{i}E(\omega_{i})$. This gives a $C^{*}$-algebra map $\mathcal{S}(\widehat{A})\to \mathcal{B}(\mathcal{H})$ with $\left\| \Psi(s) \right\|=\|s\|_{\infty}$ This extends to $\mathcal{B}^\infty(\widehat{A})\to \mathcal{B}(\mathcal{H})$ and by factoring $L^\infty(E)\to \mathcal{B}(\mathcal{H})$.
 > 
 > But we also have $\Phi(s)=\sum_{i}^{}\alpha_{i}\Phi(\chi_{\omega_{i}})=\sum_{i}^{}\alpha_{i}E(\omega_{i})$. As $\mathcal{S}(\widehat{A})$ is dense in $\mathcal{B}^\infty(\widehat{A})$, $\Phi=\Psi$
+> 
+> We further show that $C(\widehat{A})\to L^\infty(E)$ is a norm-preserving injection. Let $\omega \subseteq \widehat{A}$ be non-empty open and $T\in A$ s.t. $\text{supp}(\widehat{T})\subseteq\omega$. Then, $$\left\| T (x)\right\|^{2}=\braket{ T(x) , T(x) } =\braket{ T^{*}T(x),x } =\int_{\widehat{A}}^{} \widehat{T^{*}T} \, dE_{x,x}=\int_{\widehat{A}}^{} \left| \widehat{T} \right| ^{2} \, dE_{x,x}=\int_{\omega}\left| \widehat{T} \right| ^{2} \, dE_{x,x}    $$ If $E(\omega)=0$, then for all $x\in \mathcal{H}$, $E_{x,x}(\omega)=\braket{ E(\omega)x , x }=0$ Hence, $$\left\| Tx \right\| ^{2}=\int_{\omega}^{} \left| \widehat{T} \right| ^{2} \, dE_{x,x}=0 $$Therefore, $T=0$ and $\widehat{T}=0$. So $C_{00}(\omega)=(0)$ but $\omega\neq \varnothing$ and this is a contradiction./
+> 
+> Let $f\in C(\widehat{A})$ and we claim $\text{im }f=\text{ess im}(f)$. Let $(D_{n})_{n}$ be a countable open cover of $\mathbb{C}$ and assume $D_{n}\cap \text{im }f=\varnothing$. Then, $f^{-1}(D_{n})=\varnothing$ and $E(f^{-1}(D_{n}))=0$. Therefore,$$D_{n}\subseteq \text{ess im}(f)=\varnothing$$Now, let $D_{n}\subseteq \mathbb{C}$ s.t. $D_{n}\cap \text{ess im}(f)=\varnothing$. Then, $E(f^{-1}(D_{n}))=0$. But as $D_n$ is open and $f$ is continuous, $f^{-1}(D_{n})$ is open and $f^{-1}(D_{n})=\varnothing$. Therefore, $D_{n}\cap \text{im}(f)=\varnothing$. In other words, for $f\in C(\widehat{A})$, $$\left\| f \right\| _{\infty}=\left\| f \right\| $$
+> 
+> Lastly, if $S$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}_{\widehat{A}}$, then it does with the simple functions $\mathcal{S}(\widehat{A})$ and the closure $B\supseteq A$.
+> 
+> Conversely, assume that $ST=TS$ for all $T\in A$. Then, $$\int_{\widehat{A}}^{} \widehat{T} \, dE_{S(x),y}= \braket{ TS(x) , y } =\braket{ ST(x) , y } =\braket{ T(x) , S^{*}(y) }=\int_{\widehat{A}}^{} \widehat{T} \, dE_{x,S^{*}(y)}  $$Therefore, $E_{S(x),y}$ and $E_{x,S^{*}(y)}$ represent the same linear form on $C(\widehat{A})$. Therefore, they coincide. Then, $$\braket{ E(\omega)S(x) , y } =E_{S(x),y}(\omega)=E_{x,S^{*}(y)}(\omega)=\braket{ E(\omega)x , S^{*}(y) } =\braket{ SE(\omega)x , y } $$and $E(\omega)S=SE(\omega)$.
 ---
 ##### Examples
 > [!h] Example 1

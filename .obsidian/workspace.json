@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Analysis/Functional Analysis/Diagonal Operator in Separable Hilbert Spaces.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Banach Space.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Analysis/Hilbert Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Analysis/Hilbert Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md"
+                "file": "Analysis/Hilbert Space.md"
               }
             }
           }
@@ -279,8 +279,11 @@
   },
   "active": "ff67265067c73f51",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Hilbert Space.md",
+    "Analysis/Banach Space.md",
+    "Analysis/Functional Analysis/Diagonal Operator in Separable Hilbert Spaces.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Topology/Metric Space.md",
     "Differential Geometry/Riemannian Metric.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -291,7 +294,6 @@
     "Topology/Interior and Closure.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
-    "Analysis/Banach Space.md",
     "Measure Theory/Measurable Function.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Measure Theory/Borel Measure.md",
@@ -303,8 +305,6 @@
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Untitled.md",
     "Algebra/Characteristic.md",
-    "Algebra/Algebraic and Transcendental Number.md",
-    "Algebra/Minimal Polynomial.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
