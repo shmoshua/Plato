@@ -22,14 +22,16 @@ We have:
 
 We have:
 1. Assume $\|f\|<\|f\|_{\infty}$. Then, there exists $\lambda\in \text{ess im}(f)$ s.t. $\|f\|<\left| \lambda \right|$. However, this means that $\lambda\notin \overline{\text{im }f}$ and there exists $D_{n}\ni \lambda$ s.t. $D_{n}\cap \text{im }f=\varnothing$. Therefore, $f^{-1}(D_{n})=\varnothing$ and $E(f^{-1}(D_{n}))=0$, which gives us that $\lambda\notin \text{ess im}(f)$. This is a contradiction.
-2. Let $\lambda\in \mathbb{C}$ s.t. $\|f\|_{\infty}+\|g\|_{\infty}\leq \left| \lambda \right|$. Then, for all $x\in \text{ess im}(f)$ and $y\in \text{ess im}(g)$, $\left| x +y \right|\leq \left| \lambda \right|$. We now show that $\text{ess im}(f+g)\subseteq \text{ess im}(f)+\text{ess im}(g)$. Now let $z\in \text{ess im}(f+g)$. If $z\notin \text{ess im}(f)+\text{ess im}(g)$, then for $x \in \text{ess im}(f)$, $z-x\notin \text{ess im}(g)$. This means there exists $D_{y}\ni z-x$ s.t. $E(g^{-1}(D_{y}))=0$. Let $D_{x}$ be also an 
+2. Assume $\|f+g\|_{\infty}>\|f\|_{\infty}+\|g\|_{\infty}$. Then, there exists $\lambda\in \text{ess im}(f+g)$ s.t. $$\left| \lambda \right|>\|f\|_{\infty}+\|g\|_{\infty}\geq \left| a \right| +\left| b \right|\geq \left| a+b \right| ,\quad \forall a\in \text{ess im}(f),b\in \text{ess im}(g) $$Therefore, for any $a\in \text{ess im}(f)$, $\lambda-a\notin \text{ess im}(g)$
+3. 
+4. Let $\lambda\in \mathbb{C}$ s.t. $\|f\|_{\infty}+\|g\|_{\infty}\leq \left| \lambda \right|$. Then, for all $x\in \text{ess im}(f)$ and $y\in \text{ess im}(g)$, $\left| x +y \right|\leq \left| \lambda \right|$. We now show that $\text{ess im}(f+g)\subseteq \text{ess im}(f)+\text{ess im}(g)$. Now let $z\in \text{ess im}(f+g)$. If $z\notin \text{ess im}(f)+\text{ess im}(g)$, then for $x \in \text{ess im}(f)$, $z-x\notin \text{ess im}(g)$. This means there exists $D_{y}\ni z-x$ s.t. $E(g^{-1}(D_{y}))=0$. Let $D_{x}$ be also an 
    
 	If $c\in \text{ess im}(f)\cap \text{ess im}(g)$, then $c\in \mathbb{C} \backslash \left( \bigcup_{E(f^{-1}(D_{n}))=0}^{}D_{n}\cup\bigcup_{E(g^{-1}(D_{n}))=0}^{}D_{n} \right)$. Now, for $D_{n}\ni 2c$, 
 
 	Let $(D_{n})_{n}$ be a subcover that covers $\text{ess im}(f)$. Wlog we may assume that $D_{n}\cap \text{ess im}(f)\neq \varnothing$ and $E(f^{-1}(D_{n}))\neq 0$. 
 ---
 > [!def] Problem 3
-> Prove the equality $\|f+g\|_{\infty}=\|f\|_{\infty}$ for all $f\in \mathcal{B}^\infty(X)$ and $g\in N$. Deduce that the quotient norm on $\mathcal{B}^\infty(X) / N$ is given by $\|f+N\=\|f\|_{\infty}$.
+> Prove the equality $\|f+g\|_{\infty}=\|f\|_{\infty}$ for all $f\in \mathcal{B}^\infty(X)$ and $g\in N$. Deduce that the quotient norm on $\mathcal{B}^\infty(X) / N$ is given by $\|f+N\|=\|f\|_{\infty}$.
 
 For any $a\in \mathbb{C} \backslash \{ 0 \}$, let $(D_{n_{k}})_{k}$ be a decreasing subseqeunce of $(D_{n})_{n}$ s.t. $a\in \bigcap_{k}^{}D_{n_{k}}$. Then, by assumption, for any $k\geq 1$, $E(g^{-1}(D_{n_{k}}))=0$ and $E(X \backslash g^{-1}( D_{n_{k}}))=\text{id}_{\mathcal{H}}$. Therefore, by $\sigma$-additivity of $E_{x,x}$ for any $x\in \mathcal{H}$, $$\braket{ E(X \backslash g^{-1}(a))x ,x  } =E_{x,x}(X \backslash g^{-1}(a))=\lim_{ k \to \infty }E_{x,x}(X \backslash g^{-1}(D_{n_{k}})) $$and $E(X \backslash g^{-1}(a))=\text{id}_{\mathcal{H}}$. Therefore, $E(g^{-1}(a))=0$. 
 
