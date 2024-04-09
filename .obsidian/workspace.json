@@ -101,18 +101,6 @@
             }
           },
           {
-            "id": "e2426e465b8e08e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5ebcbf5cb4fa0ac9",
             "type": "leaf",
             "state": {
@@ -142,14 +130,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Analysis/Lp Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -215,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Analysis/Lp Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Analysis/Lp Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md"
+                "file": "Analysis/Lp Space.md"
               }
             }
           }
@@ -277,18 +265,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f12d74f72a4fd842",
+  "active": "79dbcb7e2841aa16",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Algebra/Polynomial Ring.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Topology/Compact Space.md",
+    "Topology/Hausdorff Space.md",
+    "Topology/Locally Compact Hausdorff Space.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Measure Theory/Measurable Function.md",
-    "Topology/Compact Space.md",
     "Analysis/Hilbert Space.md",
     "Topology/Interior and Closure.md",
-    "Topology/Hausdorff Space.md",
     "Topology/Continuous Function.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Metric Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Topology/Exercise Sheet 5.md",
@@ -304,7 +293,6 @@
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Measure Theory/Borel Measure.md",
     "Algebra/Integral Domain.md",
-    "Courses/Algebra II/Exercise Sheet 3.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

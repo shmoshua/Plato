@@ -23,7 +23,7 @@ We have:
 We have:
 1. It suffices to show that $\text{ess im}(f)\subseteq \text{im}(f)$. Let $(D_{n})_{n}$ be a countable basis of $\mathbb{C}$ and $B:=B_{\leq\|f\|}(0)$ in $\mathbb{C}$. Then, $\text{im }f\subseteq B$.
    
-   Let $\lambda\in \overline{\text{im}(f)}$. Then, we need to show that there exists $D_{n}\ni \lambda$ s.t. $E(f^{-1}(D_{n}))=0$. We need to find $f^{-1}(D_{n})=\bigcup_{m\geq 1}^{}\omega_{m}$
+   Let $\lambda\in \overline{\text{im}(f)}$. Then, we need to show that there exists $D_{n}\ni \lambda$ s.t. $E(f^{-1}(D_{n}))=0$. We need to find $f^{-1}(D_{n})=\bigcup_{m\geq 1}^{}\omega_{m}$ and $E(\omega_{m})=0$. 
    
    Then, for any $D_{n}\ni \lambda$, there exists $x_{n}\in D_{n}\cap \text{im }f$. Therefore, we can construct a strictly decreasing sequence $(D_{m})_{m}$. Consequently, $(f^{-1}(D_{m}))_{m}$ is also a strictly decreasing sequence. Let $S:=\bigcap_{m\geq 1}^{}f^{-1}(D_{m})$ and $$E(S)=E\left( \bigcap_{m\geq 1}^{}f^{-1}(D_{m}) \right)$$
    $$E(S_{n})=E(f^{-1}(D_{n}))\dots E(f^{-1}(D_{1}))$$
