@@ -21,11 +21,12 @@ We have:
 > 3. $\|fg\|_{\infty}\leq\|f\|_{\infty}\|g\|_{\infty}$
 
 We have:
-1. Let $\lambda\in \text{ess im}(f)$ and $D\subseteq \mathbb{C}$ any open neighborhood of $\lambda$ where $D=\bigcup_{k}^{}D_{k}$. Then, there exists $k_{0}$ s.t. $\lambda\in D_{k_{0}}$ and $E(f^{-1}(D))=E(f^{-1}(D \backslash D_{k_{0}})\sqcup f^{-1}(D_{k_{0}}))=E(f^{-1}(D \backslash D_{k_{0}}))+E(f^{-1}(D_{k_{0}}))$$$E(f^{-1}(D))=E\left( \bigcup_{}^{}f^{-1}(D_{n_{k}}) \right)$$
-2. Let $\lambda\in \text{ess im}(f)$ and $(D_{n})_{n}$ the countable basis of the topology of $\mathbb{C}$. Assume that $f^{-1}(\lambda)= \varnothing$. Then, as $\mathbb{C} \backslash \{ \lambda \}$ is open, there exists $(D_{n_{k}})_{k}$ s.t. $\mathbb{C} \backslash \{ \lambda \}=\bigcup_{k}^{}D_{n_{k}}$. Let $Y_{k}:=f^{-1}(D_{n_{k}})$. We have: $$f^{-1}(\mathbb{C} \backslash \{ \lambda \})=\bigcup_{k}^{}Y_{k}=X$$and from compactness there exists finite $J$ s.t. $X=\bigcup_{k\in J}^{}Y_{k}$. Without loss of generality we may assume that $Y_{k}$ are disjoint. Then, $$E(X)=\sum_{k\in J}^{}E(Y_{k})=\text{Id}_{\mathcal{H}}$$
-3. 
-4. $f^{-1}(\mathbb{C} \backslash \{ \lambda \})=X$$$f^{-1}(\lambda)=f^{-1}()$$
-5. Assume for all $x\in X$, $f(x)\neq\lambda$.  Then, for every $n$ s.t. $\lambda\in D_{n}$, $E(f^{-1}(D_{n}))\neq 0$. Further, 
+1. It suffices to show that $\text{ess im}(f)\subseteq \text{im}(f)$. Let $(D_{n})_{n}$ be a countable basis of $\mathbb{C}$. If $\text{im}(f)=\mathbb{C}$, the inclusion holds trivially. Otherwise, there exists $\lambda\in \mathbb{C} \backslash\text{im}(f)$ and 
+2. Let $D_{n}\cap \text{im}(f)=\varnothing$. Then, $f^{-1}(D_{n})=\varnothing$ and $E(f^{-1}(D_{n}))=0$. Therefore, $D_{n}\cap \text{ess im}(f)=\varnothing$.
+3. Let $\lambda\in \text{ess im}(f)$ and $(D_{n})_{n}$ the countable basis of the topology of $\mathbb{C}$. Assume that $f^{-1}(\lambda)= \varnothing$. Then, as $\mathbb{C} \backslash \{ \lambda \}$ is open, there exists $(D_{n_{k}})_{k}$ s.t. $\mathbb{C} \backslash \{ \lambda \}=\bigcup_{k}^{}D_{n_{k}}$. Let $Y_{k}:=f^{-1}(D_{n_{k}})$. We have: $$f^{-1}(\mathbb{C} \backslash \{ \lambda \})=\bigcup_{k}^{}Y_{k}=X$$and from compactness there exists finite $J$ s.t. $X=\bigcup_{k\in J}^{}Y_{k}$. Without loss of generality we may assume that $Y_{k}$ are disjoint. Then, $$E(X)=\sum_{k\in J}^{}E(Y_{k})=\text{Id}_{\mathcal{H}}$$
+4. 
+5. $f^{-1}(\mathbb{C} \backslash \{ \lambda \})=X$$$f^{-1}(\lambda)=f^{-1}()$$
+6. Assume for all $x\in X$, $f(x)\neq\lambda$.  Then, for every $n$ s.t. $\lambda\in D_{n}$, $E(f^{-1}(D_{n}))\neq 0$. Further, 
 ---
 > [!def] Problem 3
 > Prove the equality $\|f+g\|_{\infty}=\|f\|_{\infty}$ for all $f\in \mathcal{B}^\infty(X)$ and $g\in N$. Deduce that the quotient norm on $\mathcal{B}^\infty(X) / N$ is given by $\|f+N\|_{\infty}=\|f\|_{\infty}$.
@@ -33,7 +34,3 @@ We have:
 > [!def] Problem 4
 > Show that the $L^\infty(X):=\mathcal{B}^\infty(X) / N$ equipped with the quotient norm is a $C^{*}$-algebra. Furthermore, show that $$\text{Sp}_{L^\infty(X)}(f+N)=\text{ess im}(f)$$the spectrum equals the essential image for all $f\in \mathcal{B}^\infty(X)$.
 
-b b t s
-s s l t
-a c r e
-b p b d

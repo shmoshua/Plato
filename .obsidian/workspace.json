@@ -43,27 +43,27 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "c7bd361ba8587370",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
         "dimension": 46.264367816091955,
         "children": [
-          {
-            "id": "4eae356e360d92c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
           {
             "id": "ff67265067c73f51",
             "type": "leaf",
@@ -77,12 +77,36 @@
             }
           },
           {
+            "id": "f12d74f72a4fd842",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4eae356e360d92c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "03a7e583e2e80efd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -107,18 +131,6 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Algebra II/Algebra II Roadmap.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f12d74f72a4fd842",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
                 "mode": "preview",
                 "source": false
               }
@@ -215,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Hilbert Space.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md"
               }
             }
           }
@@ -277,17 +289,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ff67265067c73f51",
+  "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Analysis/Hilbert Space.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Courses/Topology/Exercise Sheet 5.md",
     "Analysis/Banach Space.md",
     "Analysis/Functional Analysis/Diagonal Operator in Separable Hilbert Spaces.md",
     "Topology/Metric Space.md",
     "Differential Geometry/Riemannian Metric.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Algebra/Extension Field.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Topology/Fundamental System.md",
@@ -303,8 +317,6 @@
     "Differential Geometry/Integration on Manifolds.md",
     "Differential Geometry/Volume Form.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Untitled.md",
-    "Algebra/Characteristic.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
