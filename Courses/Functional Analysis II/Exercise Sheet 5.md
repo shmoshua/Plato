@@ -20,11 +20,15 @@ We have:
 > 2. $\|f+g\|_{\infty}\leq\|f\|_{\infty}+\|g\|_{\infty}$
 > 3. $\|fg\|_{\infty}\leq\|f\|_{\infty}\|g\|_{\infty}$
 
-We have:
+We first show that if $\lambda\notin \text{ess im}(f)$, $E(f^{-1}(\lambda))=0$. If $\lambda\notin \text{ess im}(f)$, there exists $D_{n}\ni \lambda$ s.t. $E(f^{-1}(D_{n}))=0$. Therefore, for any $x\in \mathcal{H}$:$$\braket{ E(f^{-1}(\lambda))x , x } =E_{x,x}(f^{-1}(\lambda))\leq E_{x,x}(f^{-1}(D_{n}))=0$$ as $E_{x,x}$ is a positive regular measure. Therefore, $E(f^{-1}(\lambda))=0$. 
+
+Then, we have:
 1. Assume $\|f\|<\|f\|_{\infty}$. Then, there exists $\lambda\in \text{ess im}(f)$ s.t. $\|f\|<\left| \lambda \right|$. However, this means that $\lambda\notin \overline{\text{im }f}$ and there exists $D_{n}\ni \lambda$ s.t. $D_{n}\cap \text{im }f=\varnothing$. Therefore, $f^{-1}(D_{n})=\varnothing$ and $E(f^{-1}(D_{n}))=0$, which gives us that $\lambda\notin \text{ess im}(f)$. This is a contradiction.
-2. Assume $\|f+g\|_{\infty}>\|f\|_{\infty}+\|g\|_{\infty}$. Then, there exists $\lambda\in \text{ess im}(f+g)$ s.t. $$\left| \lambda \right|>\|f\|_{\infty}+\|g\|_{\infty}\geq \left| a \right| +\left| b \right|\geq \left| a+b \right| ,\quad \forall a\in \text{ess im}(f),b\in \text{ess im}(g) $$Therefore, for any $a\in \text{ess im}(f)$, $\lambda-a\notin \text{ess im}(g)$
+2. Assume $\|f+g\|_{\infty}>\|f\|_{\infty}+\|g\|_{\infty}$. Then, there exists $\lambda\in \text{ess im}(f+g)$ s.t. $$\left| \lambda \right|>\|f\|_{\infty}+\|g\|_{\infty}\geq \left| a \right| +\left| b \right|\geq \left| a+b \right| ,\quad \forall a\in \text{ess im}(f),b\in \text{ess im}(g) $$Let $D_{n}\ni \lambda$. Then, $E((f+g)^{-1}(D_{n}))\neq 0$, where: $$(f+g)^{-1}(D_{n})=\bigsqcup_{x\in \mathbb{C}}^{}f^{-1}(x)\cap g^{-1}(D_{n}-x)$$If $x\notin \text{ess im}(f)$, then $E(f^{-1}(x))=0$. If $x\in \text{ess im}(f)$, then $\lambda-x\notin \text{ess im}(g)$ and there exists $D_{x}\ni \lambda-x$ s.t. $E(g^{-1}(D_{x}))=0$. Consider $D:=\bigcup_{x\in \text{ess im}(f)}^{}(D_{x}+x)\ni \lambda$. Then, $D$ is an open neighborhood of $\lambda$ and $E((f+g)^{-1}(D))\neq 0$. However, $$(f+g)^{-1}(D)=$$
 3. 
-4. Let $\lambda\in \mathbb{C}$ s.t. $\|f\|_{\infty}+\|g\|_{\infty}\leq \left| \lambda \right|$. Then, for all $x\in \text{ess im}(f)$ and $y\in \text{ess im}(g)$, $\left| x +y \right|\leq \left| \lambda \right|$. We now show that $\text{ess im}(f+g)\subseteq \text{ess im}(f)+\text{ess im}(g)$. Now let $z\in \text{ess im}(f+g)$. If $z\notin \text{ess im}(f)+\text{ess im}(g)$, then for $x \in \text{ess im}(f)$, $z-x\notin \text{ess im}(g)$. This means there exists $D_{y}\ni z-x$ s.t. $E(g^{-1}(D_{y}))=0$. Let $D_{x}$ be also an 
+4. Therefore, for any $a\in \text{ess im}(f)$, $\lambda-a\notin \text{ess im}(g)$
+5. 
+6. Let $\lambda\in \mathbb{C}$ s.t. $\|f\|_{\infty}+\|g\|_{\infty}\leq \left| \lambda \right|$. Then, for all $x\in \text{ess im}(f)$ and $y\in \text{ess im}(g)$, $\left| x +y \right|\leq \left| \lambda \right|$. We now show that $\text{ess im}(f+g)\subseteq \text{ess im}(f)+\text{ess im}(g)$. Now let $z\in \text{ess im}(f+g)$. If $z\notin \text{ess im}(f)+\text{ess im}(g)$, then for $x \in \text{ess im}(f)$, $z-x\notin \text{ess im}(g)$. This means there exists $D_{y}\ni z-x$ s.t. $E(g^{-1}(D_{y}))=0$. Let $D_{x}$ be also an 
    
 	If $c\in \text{ess im}(f)\cap \text{ess im}(g)$, then $c\in \mathbb{C} \backslash \left( \bigcup_{E(f^{-1}(D_{n}))=0}^{}D_{n}\cup\bigcup_{E(g^{-1}(D_{n}))=0}^{}D_{n} \right)$. Now, for $D_{n}\ni 2c$, 
 
