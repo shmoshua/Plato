@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
                 "mode": "preview",
                 "source": false
               }
@@ -268,16 +268,16 @@
   "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
     "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Analysis/Functional Analysis/Hilbert Space Operator.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Analysis/Hilbert Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Measure Theory/Measurable Function.md",
     "Analysis/Lp Space.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Analysis/Hilbert Space.md",
     "Algebra/Polynomial Ring.md",
     "Topology/Compact Space.md",
     "Topology/Hausdorff Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Topology/Interior and Closure.md",
     "Topology/Continuous Function.md",
     "Topology/Metric Space.md",
