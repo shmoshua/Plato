@@ -26,7 +26,7 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> For every $x\in \mathcal{H}$, the map $\mathcal{B}_{X}\to \mathcal{H}:\omega\mapsto E(\omega)x$ is $\sigma$-additive, i.e. if $\omega=\bigsqcup_{n=1}^{\infty}\omega_{n}$ for $\omega_{n}\in \mathcal{B}_{X}$, then: $$E(\omega)x=\sum_{n=1}^{\infty}E(\omega_{n})x$$
+> For every $x\in \mathcal{H}$, the map $\mathcal{B}_{X}\to \mathcal{H},\omega\mapsto E(\omega)x$ is $\sigma$-additive, i.e. if $\omega=\bigsqcup_{n=1}^{\infty}\omega_{n}$ for $\omega_{n}\in \mathcal{B}_{X}$, then: $$E(\omega)x=\sum_{n=1}^{\infty}E(\omega_{n})x$$
 
 > [!proof]- Proof (Incomplete)
 > Since $\omega\mapsto \braket{ E(\omega)x , y }$ is a complex measure, we have: $$\braket{ E(\omega)x , y } =\sum_{n=1}^{\infty}\braket{ E(\omega_{n})x , y } $$However, as $\omega_{i}\cap\omega_{j}=\varnothing$, $E(\omega_{i})x \ {\bot}\ E(\omega_{j})x$ for all $i,j\geq 1$. Therefore, by Lemma 2, we prove the statement.
@@ -45,10 +45,17 @@
 ---
 
 > [!lemma] Lemma 3
-> Let $\omega=\bigcup_{n= 1}^{\infty}\omega_{n}$ with $\omega_{n}\in \mathcal{B}_{X}$ s.t. $E(\omega_{n})=0$. Then, $E(\omega)=0$.
+> We have:
+> 1. let $\omega=\bigcup_{n= 1}^{\infty}\omega_{n}$ with $\omega_{n}\in \mathcal{B}_{X}$ s.t. $E(\omega_{n})=0$. Then, $E(\omega)=0$.
+> 2. let $(\omega_{n})_{n}\subseteq \mathcal{B}_{X}$ be increasing, then for all $x\in \mathcal{H}$, $$E\left( \bigcup_{n\geq 1}^{}\omega_{n} \right)x=\lim_{ n \to \infty } E(\omega_{n})x$$
+> 3. let $(\omega_{n})_{n}\subseteq \mathcal{B}_{X}$ be decreasing, then for all $x\in \mathcal{H}$, $$E\left( \bigcap_{n\geq 1}^{}\omega_{n} \right)x=\lim_{ n \to \infty } E(\omega_{n})x$$
+
 
 > [!proof]-
-> We have that $E_{x,x}$ is a $\sigma$-additive measure. Therefore, for any $x\in \mathcal{H}$, $$\braket{ E(\omega)x , x } =E_{x,x}(\omega)\leq \sum_{n=1}^{\infty}E_{x,x}(\omega_{n})=0$$It follows that $E(\omega)=0$.
+> We have that 
+> 1. $E_{x,x}$ is a $\sigma$-additive measure. Therefore, for any $x\in \mathcal{H}$, $$\braket{ E(\omega)x , x } =E_{x,x}(\omega)\leq \sum_{n=1}^{\infty}E_{x,x}(\omega_{n})=0$$It follows that $E(\omega)=0$.
+> 2. Consider $(\tilde{\omega}_{n})_{n}$ where $\tilde{\omega}_{n}:=\omega_{n}\backslash \omega_{n-1}$. Then, $(\tilde{ \omega}_{n})_{n}$ is disjoint and $$E\left( \bigcup_{n}^{} \omega_{n}\right)x=E\left( \bigcup_{n}^{}\tilde{\omega}_{n} \right)x=\sum_{n=1}^{\infty}E(\tilde{\omega}_{n})x=\lim_{ m\to \infty } \sum_{n=1}^{m}E(\tilde{\omega}_{n})x=\lim_{ m \to \infty } E(\omega_{m})x$$
+> 3. Consider $(\tilde{\omega}_{n})_{n}$ where $\tilde{\omega}_{n}:=\omega_{1}\backslash \omega_{n}$. Then, $(\tilde{ \omega}_{n})_{n}$ is increasing and $$\begin{align}E\left( \bigcap_{n=1}^{\infty}\omega_{n} \right)x=E(\omega_{1})x- \end{align}$$
 ---
 > [!lemma] Proposition 4
 > We have that: 

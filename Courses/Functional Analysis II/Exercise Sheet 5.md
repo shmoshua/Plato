@@ -31,7 +31,14 @@ We have:
 > [!def] Problem 3
 > Prove the equality $\|f+g\|_{\infty}=\|f\|_{\infty}$ for all $f\in \mathcal{B}^\infty(X)$ and $g\in N$. Deduce that the quotient norm on $\mathcal{B}^\infty(X) / N$ is given by $\|f+N\|_{\infty}=\|f\|_{\infty}$.
 
-For any $x\in \mathbb{C} \backslash \{ 0 \}$, we first show that $E(f^{-1}(x))=0$. For any $D_{n}\ni x$, we have that $E(f^{-1}(D_{n}))=0$. Therefore,  
+For any $a\in \mathbb{C} \backslash \{ 0 \}$, let $(D_{n_{k}})_{k}$ be a decreasing subseqeunce of $(D_{n})_{n}$ s.t. $a\in \bigcap_{k}^{}D_{n_{k}}$. Then, by assumption, for any $k\geq 1$, $E(g^{-1}(D_{n_{k}}))=0$ and $E(X \backslash g^{-1}( D_{n_{k}}))=\text{id}_{\mathcal{H}}$. Therefore, by $\sigma$-additivity of $E_{x,x}$ for any $x\in \mathcal{H}$, $$\braket{ E(X \backslash g^{-1}(a))x ,x  } =E_{x,x}$$
+
+and $x\in \mathcal{H}$, we have that: $$\braket{ E(g^{-1}(a))x ,x  }=E_{x,x}(bigc) $$
+For any $x\in \mathbb{C} \backslash \{ 0 \}$, we first show that $E(f^{-1}(x))=0$. We have that: $\text{Im }E(f^{-1}(x))\bot\ \text{Im }E(f^{-1}(\mathbb{C} \backslash \{ x \}))$. 
+
+If $E(f^{-1}(x))\neq0$, $E(f^{-1}(x))$ and $E(f^{-1}(\mathbb{C} \backslash X))$ are non-zero and 
+
+For any $D_{n}\ni x$, we have that $E(f^{-1}(D_{n}))=0$. Therefore,  
 
 
 For any $x\in\mathbb{C} \backslash\{ 0 \}$, let $D_{x}\ni x$ be the open set in $(D_{n})_{n}$ s.t. $E(g^{-1}(D_{x}))=0$. Then, $\mathbb{C} \backslash \{ 0 \}\subseteq \bigcup_{x\in \mathbb{C} \backslash \{ 0 \}}^{}D_{x}$ and the equality holds as well as $0\in \text{ess im}(g)$. As $\{ D_{x} \}_{x\in \mathbb{C} \backslash \{ 0 \}}$ is still a sub-family of $\{ D_{n} \}_{n}$, wlog we can use $\{ D_{n_{m}} \}_{m}$ to denote this family. 

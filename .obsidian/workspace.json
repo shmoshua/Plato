@@ -55,9 +55,33 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "4482708a141249ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c579c612ac3045da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Measure Space.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "c45eeefa3389e702",
@@ -106,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
+                "file": "Measure Theory/Measure Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -268,10 +292,11 @@
   "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
     "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Measure Theory/Measure Space.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
+    "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Analysis/Hilbert Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Measure Theory/Measurable Function.md",
     "Analysis/Lp Space.md",
     "Algebra/Polynomial Ring.md",
@@ -292,7 +317,6 @@
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Measure Theory/Borel Measure.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
