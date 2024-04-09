@@ -29,28 +29,13 @@ We have:
 	Let $(D_{n})_{n}$ be a subcover that covers $\text{ess im}(f)$. Wlog we may assume that $D_{n}\cap \text{ess im}(f)\neq \varnothing$ and $E(f^{-1}(D_{n}))\neq 0$. 
 ---
 > [!def] Problem 3
-> Prove the equality $\|f+g\|_{\infty}=\|f\|_{\infty}$ for all $f\in \mathcal{B}^\infty(X)$ and $g\in N$. Deduce that the quotient norm on $\mathcal{B}^\infty(X) / N$ is given by $\|f+N\|_{\infty}=\|f\|_{\infty}$.
+> Prove the equality $\|f+g\|_{\infty}=\|f\|_{\infty}$ for all $f\in \mathcal{B}^\infty(X)$ and $g\in N$. Deduce that the quotient norm on $\mathcal{B}^\infty(X) / N$ is given by $\|f+N\=\|f\|_{\infty}$.
 
-For any $a\in \mathbb{C} \backslash \{ 0 \}$, let $(D_{n_{k}})_{k}$ be a decreasing subseqeunce of $(D_{n})_{n}$ s.t. $a\in \bigcap_{k}^{}D_{n_{k}}$. Then, by assumption, for any $k\geq 1$, $E(g^{-1}(D_{n_{k}}))=0$ and $E(X \backslash g^{-1}( D_{n_{k}}))=\text{id}_{\mathcal{H}}$. Therefore, by $\sigma$-additivity of $E_{x,x}$ for any $x\in \mathcal{H}$, $$\braket{ E(X \backslash g^{-1}(a))x ,x  } =E_{x,x}$$
+For any $a\in \mathbb{C} \backslash \{ 0 \}$, let $(D_{n_{k}})_{k}$ be a decreasing subseqeunce of $(D_{n})_{n}$ s.t. $a\in \bigcap_{k}^{}D_{n_{k}}$. Then, by assumption, for any $k\geq 1$, $E(g^{-1}(D_{n_{k}}))=0$ and $E(X \backslash g^{-1}( D_{n_{k}}))=\text{id}_{\mathcal{H}}$. Therefore, by $\sigma$-additivity of $E_{x,x}$ for any $x\in \mathcal{H}$, $$\braket{ E(X \backslash g^{-1}(a))x ,x  } =E_{x,x}(X \backslash g^{-1}(a))=\lim_{ k \to \infty }E_{x,x}(X \backslash g^{-1}(D_{n_{k}})) $$and $E(X \backslash g^{-1}(a))=\text{id}_{\mathcal{H}}$. Therefore, $E(g^{-1}(a))=0$. 
 
-and $x\in \mathcal{H}$, we have that: $$\braket{ E(g^{-1}(a))x ,x  }=E_{x,x}(bigc) $$
-For any $x\in \mathbb{C} \backslash \{ 0 \}$, we first show that $E(f^{-1}(x))=0$. We have that: $\text{Im }E(f^{-1}(x))\bot\ \text{Im }E(f^{-1}(\mathbb{C} \backslash \{ x \}))$. 
-
-If $E(f^{-1}(x))\neq0$, $E(f^{-1}(x))$ and $E(f^{-1}(\mathbb{C} \backslash X))$ are non-zero and 
-
-For any $D_{n}\ni x$, we have that $E(f^{-1}(D_{n}))=0$. Therefore,  
+Now, let $\lambda\notin \text{ess im}(f+g)$. Then, for any $D_{n}\ni \lambda$, $E((f+g)^{-1}(D_{n}))=0$, where: $$(f+g)^{-1}(D_{n})=[f^{-1}(D_{n})\cap g^{-1}(0)]\sqcup \bigcup_{a\in \mathbb{C} \backslash \{ 0 \}}^{}[f^{-1}(D_{n}-a)\cap g^{-1}(a)]$$However, as $E([f^{-1}(D_{n}-a)\cap g^{-1}(a)])=E(f^{-1}(D_{n}-a))E(g^{-1}(a))=0$, we have that by [[Resolution of Identity|Lemma 5.17]], $$0=E((f+g)^{-1}(D_{n}))=E(f^{-1}(D_{n}))E(g^{-1}(0))=E(f^{-1}(D_{n}))$$Therefore, $\lambda\notin \text{ess im}(f)$. This shows that $\text{ess im}(f)\subseteq\text{ess im}(f+g)$ and $\|f\|_{\infty}\leq\|f+g\|_{\infty}$. The other inequality is given by Problem 2. 
 
 
-For any $x\in\mathbb{C} \backslash\{ 0 \}$, let $D_{x}\ni x$ be the open set in $(D_{n})_{n}$ s.t. $E(g^{-1}(D_{x}))=0$. Then, $\mathbb{C} \backslash \{ 0 \}\subseteq \bigcup_{x\in \mathbb{C} \backslash \{ 0 \}}^{}D_{x}$ and the equality holds as well as $0\in \text{ess im}(g)$. As $\{ D_{x} \}_{x\in \mathbb{C} \backslash \{ 0 \}}$ is still a sub-family of $\{ D_{n} \}_{n}$, wlog we can use $\{ D_{n_{m}} \}_{m}$ to denote this family. 
-
-$E(f^{-1}(x))=0$. 
-
-Now, let $\lambda\notin \text{ess im}(f+g)$. Then, for any $D_{n}\ni\lambda$, $E((f+g)^{-1}(D_{n}))=0$, where:
-$$(f+g)^{-1}(D_{n})=[f^{-1}(D_{n})\cap g^{-1}(0)]\cup\bigcup_{m}^{}\{ x\in X:(f(x)+D_{n_{m}})\cap D_{n }\neq \varnothing \}\cap g^{-1}(D_{n_{m}})$$
-
-Let $\mathbb{C} \backslash\{ 0 \}=\bigcup_{k}^{}D_{n_{k}}$. 
-We have that $E(g^{-1}(\mathbb{C} \backslash\{ 0 \}))=0$. Let $\lambda\notin \text{ess im}(f+g)$. Then, for any $D_{n}\ni\lambda$, $E((f+g)^{-1}(D_{n}))=0$, where: $$(f+g)^{-1}(D_{n})=\bigcup_{x\in\mathbb{C}}^{}f^{-1}(D_{n}-x)\cap g^{-1}(x)=\bigcup_{n}^{}\bigcup_{x\in D_{n}}^{}f^{-1}(D_{n}-x)\cap g^{-1}(x)$$
-It suffices to show that $\left\| f +g\right\|_{\infty}\geq \left\| f \right\|_{\infty}$. If $\left\| f+g \right\|_{\infty}<\left\| f \right\|_{\infty}$, then there exists $\lambda\in \text{ess im}(f)$ s.t. $\left\| f+g \right\|_{\infty}<\left| \lambda \right|$. Then, $\lambda\notin \text{ess im}(f+g)$ and for all $D_{n}\ni\lambda$, $E((f+g)^{-1}(D_{n}))=0$. 
 
 ---
 > [!def] Problem 4
