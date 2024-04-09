@@ -23,9 +23,17 @@ We have:
 We have:
 1. Assume $\|f\|<\|f\|_{\infty}$. Then, there exists $\lambda\in \text{ess im}(f)$ s.t. $\|f\|<\left| \lambda \right|$. However, this means that $\lambda\notin \overline{\text{im }f}$ and there exists $D_{n}\ni \lambda$ s.t. $D_{n}\cap \text{im }f=\varnothing$. Therefore, $f^{-1}(D_{n})=\varnothing$ and $E(f^{-1}(D_{n}))=0$, which gives us that $\lambda\notin \text{ess im}(f)$. This is a contradiction.
 2. Let $\lambda\in \mathbb{C}$ s.t. $\|f\|_{\infty}+\|g\|_{\infty}\leq \left| \lambda \right|$. Then, for all $x\in \text{ess im}(f)$ and $y\in \text{ess im}(g)$, $\left| x +y \right|\leq \left| \lambda \right|$. We now show that $\text{ess im}(f+g)\subseteq \text{ess im}(f)+\text{ess im}(g)$. Now let $z\in \text{ess im}(f+g)$. If $z\notin \text{ess im}(f)+\text{ess im}(g)$, then for $x \in \text{ess im}(f)$, $z-x\notin \text{ess im}(g)$. This means there exists $D_{y}\ni z-x$ s.t. $E(g^{-1}(D_{y}))=0$. Let $D_{x}$ be also an 
+   
+	If $c\in \text{ess im}(f)\cap \text{ess im}(g)$, then $c\in \mathbb{C} \backslash \left( \bigcup_{E(f^{-1}(D_{n}))=0}^{}D_{n}\cup\bigcup_{E(g^{-1}(D_{n}))=0}^{}D_{n} \right)$. Now, for $D_{n}\ni 2c$, 
+
+	Let $(D_{n})_{n}$ be a subcover that covers $\text{ess im}(f)$. Wlog we may assume that $D_{n}\cap \text{ess im}(f)\neq \varnothing$ and $E(f^{-1}(D_{n}))\neq 0$. 
 ---
 > [!def] Problem 3
 > Prove the equality $\|f+g\|_{\infty}=\|f\|_{\infty}$ for all $f\in \mathcal{B}^\infty(X)$ and $g\in N$. Deduce that the quotient norm on $\mathcal{B}^\infty(X) / N$ is given by $\|f+N\|_{\infty}=\|f\|_{\infty}$.
+
+We have that $E(g^{-1}(\mathbb{C} \backslash\{ 0 \}))=0$. Let $\lambda\notin \text{ess im}(f+g)$. Then, for any $D_{n}\ni\lambda$, $E((f+g)^{-1}(D_{n}))=0$, where: $$(f+g)^{-1}(D_{n})=\bigcup_{x\in\mathbb{C}}^{}f^{-1}()\cap g^{-1}(x)$$
+It suffices to show that $\left\| f +g\right\|_{\infty}\geq \left\| f \right\|_{\infty}$. If $\left\| f+g \right\|_{\infty}<\left\| f \right\|_{\infty}$, then there exists $\lambda\in \text{ess im}(f)$ s.t. $\left\| f+g \right\|_{\infty}<\left| \lambda \right|$. Then, $\lambda\notin \text{ess im}(f+g)$ and for all $D_{n}\ni\lambda$, $E((f+g)^{-1}(D_{n}))=0$. 
+
 ---
 > [!def] Problem 4
 > Show that the $L^\infty(X):=\mathcal{B}^\infty(X) / N$ equipped with the quotient norm is a $C^{*}$-algebra. Furthermore, show that $$\text{Sp}_{L^\infty(X)}(f+N)=\text{ess im}(f)$$the spectrum equals the essential image for all $f\in \mathcal{B}^\infty(X)$.
