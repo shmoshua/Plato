@@ -22,7 +22,7 @@ We have:
 
 We have:
 1. Assume $\|f\|<\|f\|_{\infty}$. Then, there exists $\lambda\in \text{ess im}(f)$ s.t. $\|f\|<\left| \lambda \right|$. However, this means that $\lambda\notin \overline{\text{im }f}$ and there exists $D_{n}\ni \lambda$ s.t. $D_{n}\cap \text{im }f=\varnothing$. Therefore, $f^{-1}(D_{n})=\varnothing$ and $E(f^{-1}(D_{n}))=0$, which gives us that $\lambda\notin \text{ess im}(f)$. This is a contradiction.
-2. Let $\lambda\in \text{ess im}(f+g)$. Then, for all $D_{n}\ni \lambda$, $E((f+g)^{-1}(D_{n}))\neq 0$
+2. Let $\lambda\in \mathbb{C}$ s.t. $\|f\|_{\infty}+\|g\|_{\infty}\leq \left| \lambda \right|$. Then, for all $x\in \text{ess im}(f)$ and $y\in \text{ess im}(g)$, $\left| x +y \right|\leq \left| \lambda \right|$. We now show that $\text{ess im}(f+g)\subseteq \text{ess im}(f)+\text{ess im}(g)$. Now let $z\in \text{ess im}(f+g)$. If $z\notin \text{ess im}(f)+\text{ess im}(g)$, then for $x \in \text{ess im}(f)$, $z-x\notin \text{ess im}(g)$. This means there exists $D_{y}\ni z-x$ s.t. $E(g^{-1}(D_{y}))=0$. Let $D_{x}$ be also an 
 ---
 > [!def] Problem 3
 > Prove the equality $\|f+g\|_{\infty}=\|f\|_{\infty}$ for all $f\in \mathcal{B}^\infty(X)$ and $g\in N$. Deduce that the quotient norm on $\mathcal{B}^\infty(X) / N$ is given by $\|f+N\|_{\infty}=\|f\|_{\infty}$.
