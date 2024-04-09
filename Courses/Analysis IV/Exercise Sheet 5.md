@@ -1,4 +1,7 @@
 
 #Series #Analysis 
 ##### Problem 5.2
-1. $\varphi(f)= \frac{1}{2\pi}\int_{-\pi}^{\pi} f(x)e^{-ix} \, dx$ is linear and $$\left| \varphi(f) \right|=\frac{1}{2\pi}\left| \int_{-\pi}^{\pi} f(x)e^{-ix} \, dx  \right|\leq\frac{1}{2\pi} \int_{-\pi}^{\pi}\left| f(x)e^{-ix} \right|\, dx  \leq $$
+1. $\varphi(f)= \frac{1}{2\pi}\int_{-\pi}^{\pi} f(x)e^{-ix} \, dx$ is linear and $$\left| \varphi(f) \right|=\frac{1}{2\pi}\left| \int_{-\pi}^{\pi} f(x)e^{-ix} \, dx  \right|\leq\frac{1}{2\pi} \int_{-\pi}^{\pi}\left| f(x)e^{-ix} \right|\, dx =\frac{1}{2\pi} \int_{-\pi}^{\pi}\left| f(x)\right|\, dx =\frac{1}{2\pi}\|f\|_{1}\leq \frac{1}{2\pi}\left\| f \right\|_{2}\sqrt{ 2\pi }$$Therefore, $\left\| \varphi \right\|\leq \sqrt{ 2\pi }$ and $\varphi$ is a continuous linear functional. Further, $$\varphi(f)=\int_{-\pi}^{\pi} f(x)\left( \frac{1}{2\pi}e^{-ix} \right) \, dx=\braket{ f , g }  $$where $g:x\mapsto \frac{1}{2\pi}e^{ix}$.
+2. $\varphi(f)=f(0)$ is linear but not bounded. Consider $f_{n}\in H$ for $n\geq 1$, where: $$f_{n}(x)=\begin{cases}n&x=0\\ \frac{1}{2}&x\neq 0\end{cases}$$Then, $\|f_{n}\|_{2}^2=1$ so it is well-defined, however, $\|\varphi\|=+\infty$. 
+3. We have $\left| \varphi((x_{k})_{k}) \right| =\left| x_{3}+2x_{7} \right| \leq \left| x_{3} \right|+2\left| x_{7} \right|  =\|(x_{k})_{k}(y_{k})_{k}\|_{1}\leq\sqrt{ 5 } \left\| (x_{k})_{k} \right\|_{2}$ where $$y_{k}=\begin{cases}1&k=3\\2&k=7\\0&\text{otherwise}\\\end{cases}$$Therefore, $\|\varphi\|\leq \sqrt{ 5 }$ and $\varphi$ is continuous. Further, $$\varphi((x_{k})_{k})=x_{3}+2x_{7}=\sum_{k=1}^{\infty}x_{k}y_{k}=\braket{ (x_{k})_{k} , (y_{k})_{k} } $$
+4. We have: $$\left| \varphi(f) \right|\leq \int_{-1}^{1} \left| 1+f(x) \right| ^{2} \, dx  $$

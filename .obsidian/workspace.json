@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "file": "Analysis/Lp Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Measure Space.md",
+                "file": "Analysis/Inner Product Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -289,17 +289,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c7bd361ba8587370",
+  "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Exercise Sheet 5.md",
+    "Analysis/Lp Space.md",
     "Courses/Analysis IV/Exercise Sheet 5.md",
-    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Analysis/Hilbert Space.md",
+    "Analysis/Inner Product Space.md",
     "Measure Theory/Measure Space.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Analysis/Hilbert Space.md",
     "Measure Theory/Measurable Function.md",
-    "Analysis/Lp Space.md",
     "Algebra/Polynomial Ring.md",
     "Topology/Compact Space.md",
     "Topology/Hausdorff Space.md",
@@ -316,7 +317,6 @@
     "Algebra/Extension Field.md",
     "Topology/Fundamental System.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
