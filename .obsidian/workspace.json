@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Interior and Closure.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -161,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Interior and Closure.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Interior and Closure.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Interior and Closure.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md"
               }
             }
           }
@@ -289,12 +289,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e2426e465b8e08e7",
+  "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
-    "Topology/Hausdorff Space.md",
-    "Measure Theory/Measurable Function.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
+    "Measure Theory/Measurable Function.md",
+    "Topology/Compact Space.md",
+    "Topology/Interior and Closure.md",
+    "Topology/Hausdorff Space.md",
     "Topology/Continuous Function.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Metric Space.md",
@@ -308,7 +310,6 @@
     "Algebra/Extension Field.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Topology/Fundamental System.md",
-    "Topology/Interior and Closure.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
@@ -316,7 +317,6 @@
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Splitting Field.md",
-    "Differential Geometry/Integration on Manifolds.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
