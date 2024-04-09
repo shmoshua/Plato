@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Measure Theory/Measurable Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Metric Space.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -161,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -227,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Topology/Interior and Closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Topology/Interior and Closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md"
+                "file": "Topology/Interior and Closure.md"
               }
             }
           }
@@ -289,17 +289,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f12d74f72a4fd842",
+  "active": "e2426e465b8e08e7",
   "lastOpenFiles": [
+    "Topology/Hausdorff Space.md",
+    "Measure Theory/Measurable Function.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
-    "Analysis/Hilbert Space.md",
+    "Topology/Continuous Function.md",
     "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Metric Space.md",
+    "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Analysis/Banach Space.md",
     "Analysis/Functional Analysis/Diagonal Operator in Separable Hilbert Spaces.md",
-    "Topology/Metric Space.md",
     "Differential Geometry/Riemannian Metric.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Extension Field.md",
@@ -308,15 +311,12 @@
     "Topology/Interior and Closure.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
-    "Measure Theory/Measurable Function.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Measure Theory/Borel Measure.md",
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Splitting Field.md",
     "Differential Geometry/Integration on Manifolds.md",
-    "Differential Geometry/Volume Form.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

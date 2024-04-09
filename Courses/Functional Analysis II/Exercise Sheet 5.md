@@ -21,12 +21,14 @@ We have:
 > 3. $\|fg\|_{\infty}\leq\|f\|_{\infty}\|g\|_{\infty}$
 
 We have:
-1. It suffices to show that $\text{ess im}(f)\subseteq \text{im}(f)$. Let $(D_{n})_{n}$ be a countable basis of $\mathbb{C}$. If $\text{im}(f)=\mathbb{C}$, the inclusion holds trivially. Otherwise, there exists $\lambda\in \mathbb{C} \backslash\text{im}(f)$ and 
-2. Let $D_{n}\cap \text{im}(f)=\varnothing$. Then, $f^{-1}(D_{n})=\varnothing$ and $E(f^{-1}(D_{n}))=0$. Therefore, $D_{n}\cap \text{ess im}(f)=\varnothing$.
-3. Let $\lambda\in \text{ess im}(f)$ and $(D_{n})_{n}$ the countable basis of the topology of $\mathbb{C}$. Assume that $f^{-1}(\lambda)= \varnothing$. Then, as $\mathbb{C} \backslash \{ \lambda \}$ is open, there exists $(D_{n_{k}})_{k}$ s.t. $\mathbb{C} \backslash \{ \lambda \}=\bigcup_{k}^{}D_{n_{k}}$. Let $Y_{k}:=f^{-1}(D_{n_{k}})$. We have: $$f^{-1}(\mathbb{C} \backslash \{ \lambda \})=\bigcup_{k}^{}Y_{k}=X$$and from compactness there exists finite $J$ s.t. $X=\bigcup_{k\in J}^{}Y_{k}$. Without loss of generality we may assume that $Y_{k}$ are disjoint. Then, $$E(X)=\sum_{k\in J}^{}E(Y_{k})=\text{Id}_{\mathcal{H}}$$
-4. 
-5. $f^{-1}(\mathbb{C} \backslash \{ \lambda \})=X$$$f^{-1}(\lambda)=f^{-1}()$$
-6. Assume for all $x\in X$, $f(x)\neq\lambda$.  Then, for every $n$ s.t. $\lambda\in D_{n}$, $E(f^{-1}(D_{n}))\neq 0$. Further, 
+1. It suffices to show that $\text{ess im}(f)\subseteq \text{im}(f)$. Let $(D_{n})_{n}$ be a countable basis of $\mathbb{C}$. If $\text{im}(f)=\mathbb{C}$, the inclusion holds trivially. Assume $\text{im}(f)$ is dense and $\lambda\in \text{ess im}(f)$. Then, for any $D_{n}$ with there exisst $\lambda_{n}\in D_{n}\cap \text{im}(f)$ and $\varnothing\neq f^{-1}(\lambda_{n})\subseteq f^{-1}(D_{n})$
+2. 
+   Assume there exists $\lambda\in \text{ess im}(f)$ but $\lambda\notin \text{im}(f)$. 
+3. Let $D_{n}\cap \text{im}(f)=\varnothing$. Then, $f^{-1}(D_{n})=\varnothing$ and $E(f^{-1}(D_{n}))=0$. Therefore, $D_{n}\cap \text{ess im}(f)=\varnothing$.
+4. Let $\lambda\in \text{ess im}(f)$ and $(D_{n})_{n}$ the countable basis of the topology of $\mathbb{C}$. Assume that $f^{-1}(\lambda)= \varnothing$. Then, as $\mathbb{C} \backslash \{ \lambda \}$ is open, there exists $(D_{n_{k}})_{k}$ s.t. $\mathbb{C} \backslash \{ \lambda \}=\bigcup_{k}^{}D_{n_{k}}$. Let $Y_{k}:=f^{-1}(D_{n_{k}})$. We have: $$f^{-1}(\mathbb{C} \backslash \{ \lambda \})=\bigcup_{k}^{}Y_{k}=X$$and from compactness there exists finite $J$ s.t. $X=\bigcup_{k\in J}^{}Y_{k}$. Without loss of generality we may assume that $Y_{k}$ are disjoint. Then, $$E(X)=\sum_{k\in J}^{}E(Y_{k})=\text{Id}_{\mathcal{H}}$$
+5. 
+6. $f^{-1}(\mathbb{C} \backslash \{ \lambda \})=X$$$f^{-1}(\lambda)=f^{-1}()$$
+7. Assume for all $x\in X$, $f(x)\neq\lambda$.  Then, for every $n$ s.t. $\lambda\in D_{n}$, $E(f^{-1}(D_{n}))\neq 0$. Further, 
 ---
 > [!def] Problem 3
 > Prove the equality $\|f+g\|_{\infty}=\|f\|_{\infty}$ for all $f\in \mathcal{B}^\infty(X)$ and $g\in N$. Deduce that the quotient norm on $\mathcal{B}^\infty(X) / N$ is given by $\|f+N\|_{\infty}=\|f\|_{\infty}$.
