@@ -113,6 +113,18 @@
             }
           },
           {
+            "id": "12f51f66643d3037",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4eae356e360d92c5",
             "type": "leaf",
             "state": {
@@ -135,33 +147,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "12f51f66643d3037",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79dbcb7e2841aa16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Closure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Closure.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Closure.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Closure.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md"
               }
             }
           }
@@ -289,15 +277,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "79dbcb7e2841aa16",
+  "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
-    "Measure Theory/Measurable Function.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
-    "Topology/Topological Vector Space.md",
     "Analysis/Lp Space.md",
+    "Analysis/Convergence of Sequences.md",
+    "Topology/Closure.md",
+    "Measure Theory/Measurable Function.md",
+    "Topology/Topological Vector Space.md",
     "Analysis/Inner Product Space.md",
     "Topology/Topological Space.md",
-    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Hilbert Space.md",
     "Courses/Analysis IV/Exercise Sheet 5.md",
     "Measure Theory/Measure Space.md",
@@ -315,8 +305,6 @@
     "Analysis/Banach Space.md",
     "Analysis/Functional Analysis/Diagonal Operator in Separable Hilbert Spaces.md",
     "Differential Geometry/Riemannian Metric.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Algebra/Extension Field.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
