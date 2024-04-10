@@ -20,8 +20,13 @@ We have:
 > 2. $\|f+g\|_{\infty}\leq\|f\|_{\infty}+\|g\|_{\infty}$
 > 3. $\|fg\|_{\infty}\leq\|f\|_{\infty}\|g\|_{\infty}$
 
+We claim that: $$\|f\|_{\infty}=\inf\{ t\geq 0:E(f^{-1}(\{ \left| z \right| >t \})) =0\}$$
+If $z\in \text{ess im}(f)$ and $t\geq 0$ s.t. $E(f^{-1}(\{ \left| z \right| >t \})) =0$, then $\left| z \right|\leq t$. Conversely, if $t>\|f\|_{\infty}$, then $f^{-1}(\{ \left| z \right|>t \})\subseteq \mathbb{C} \backslash\text{ess im}(f)$ and there exists a countable open cover $f^{-1}(\{ \left| z \right|>t \})\subseteq \bigcup_{n\in \mathbb{N}}^{}D_{n}$ where $E(D_{n})=0$. Therefore, $E(f^{-1}(\{ \left| z \right|>t \}))=0$. 
+
+---
 We first show that for $A,B\in \mathcal{B}_{X}$, if $A\subseteq B$ and $E(B)=0$, then $E(A)=0$. We have for any $x\in \mathcal{H}$, $$\braket{ E(A)x , x } =E_{x,x}(A)\leq E_{x,x}(B)=\braket{ E(B)x , x } =0$$as $E_{x,x}$ is a positive $\sigma$-additive measure. Therefore, $E(A)=0$. 
 
+1. Show that $\text{ess im}(f)\subseteq \text{im }f$. Let $\lambda\in \text{ess im}(f)$. Then, $\lambda\in \overline{\text{im }f}$, i.e. there exists $(\lambda_{n})_{n}\subseteq \text{im }f$ s.t. $\lambda_{n}\to\lambda$. Assume that $\lambda\notin \text{im }f$. Then, for any $D_{n}\ni\lambda$, $f^{-1}(D_{n})=f^{-1}(D_{n} \backslash\{ \lambda \})$ and $E(f^{-1}(\lambda))=0$. Assume that for every sequence $(\lambda_{n})_{n}\subseteq \text{ ess im}(f)$ s.t. $\lambda_{n}\to \lambda$, we have that $$
 
 Then, we have:
 1. Assume $\|f\|<\|f\|_{\infty}$. Then, there exists $\lambda\in \text{ess im}(f)$ s.t. $\|f\|<\left| \lambda \right|$. However, this means that $\lambda\notin \overline{\text{im }f}$ and there exists $D_{n}\ni \lambda$ s.t. $D_{n}\cap \text{im }f=\varnothing$. Therefore, $f^{-1}(D_{n})=\varnothing$ and $E(f^{-1}(D_{n}))=0$, which gives us that $\lambda\notin \text{ess im}(f)$. This is a contradiction.
