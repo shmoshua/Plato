@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,8 +106,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
-                "mode": "preview",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Vector Space.md",
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
                 "mode": "preview",
                 "source": false
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md"
               }
             }
           }
@@ -279,14 +279,17 @@
   },
   "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Exercise Sheet 5.md",
-    "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Lp Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 6.md",
+    "Analysis/Functional Analysis/Spectrum.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
+    "Topology/Topological Vector Space.md",
+    "Algebra/Linear Algebra/Algebraic and Geometric Multiplicity.md",
+    "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Closure.md",
     "Measure Theory/Measurable Function.md",
-    "Topology/Topological Vector Space.md",
     "Analysis/Inner Product Space.md",
     "Topology/Topological Space.md",
     "Analysis/Hilbert Space.md",
@@ -302,9 +305,6 @@
     "Topology/Continuous Function.md",
     "Topology/Metric Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Courses/Topology/Exercise Sheet 5.md",
-    "Analysis/Banach Space.md",
-    "Analysis/Functional Analysis/Diagonal Operator in Separable Hilbert Spaces.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
