@@ -6,5 +6,9 @@
 > 2. Identify the Guelfand spectrum $\widehat{A}$ with the spectrum $$\text{Sp}(T):=\{ \lambda\in \mathbb{C}|\exists v\in \mathcal{H}\backslash\{ 0 \}:Tv=\lambda v \}$$ 
 > 3. Let $\mathcal{B}$ be the Borel subsets of $\widehat{A}$. The spectral theorem shows that there is a resolution of the identity $E:\mathcal{B}\to \mathcal{B}(\mathcal{H})$ such that $$T=\int_{\widehat{A}}^{} \widehat{T} \, dE $$Determine the map $E$.
 
-We have: 
-1. Let $E$ be the resolution of identity on $\widehat{A}$ given by the spectral theorem. Then, from Exercise sheet 5, $$\text{Sp}_{L^\infty(E)}(T)$$
+Let $n=\text{dim }\mathcal{H}$. We have: 
+1. $T$ is compact and self-adjoint. Therefore, there exists an orthonormal basis $\{ v_{1},\dots,v_{n} \}$ of $\mathcal{H}$. Assume that each eigenvalue of $T$ has multiplicity one. Then, no two basis vector admit the same eigenvalue.
+3. 
+4. let $$\alpha\braket{  v, w }=\braket{ Tv , w } =\braket{  v, Tw }=\overline{\beta}\braket{ v , w }   $$
+5. If there exists a $v\in \mathcal{H}$ with $Av=\mathcal{H}$, 
+6. Let $E$ be the resolution of identity on $\widehat{A}$ given by the spectral theorem. Then, from Exercise sheet 5, $$\text{Sp}_{L^\infty(E)}(T)$$
