@@ -113,6 +113,18 @@
             }
           },
           {
+            "id": "478d134de59914e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "12f51f66643d3037",
             "type": "leaf",
             "state": {
@@ -131,18 +143,6 @@
               "type": "markdown",
               "state": {
                 "file": "Analysis/Functional Analysis/Guelfand Transform.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "478d134de59914e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
                 "mode": "preview",
                 "source": false
               }
@@ -293,9 +293,9 @@
   "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
     "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Measure Theory/Integrable Function.md",
     "Analysis/Semi-simple Matrix.md",
-    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Analysis/Functional Analysis/C-Algebra.md",
