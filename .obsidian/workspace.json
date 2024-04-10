@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Topology/Topological Vector Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Analysis/Lp Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -154,14 +154,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Measurable Function.md",
+                "file": "Topology/Closure.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -227,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Topology/Closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Topology/Closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md"
+                "file": "Topology/Closure.md"
               }
             }
           }
@@ -289,12 +289,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f12d74f72a4fd842",
+  "active": "79dbcb7e2841aa16",
   "lastOpenFiles": [
     "Measure Theory/Measurable Function.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
+    "Topology/Topological Vector Space.md",
     "Analysis/Lp Space.md",
     "Analysis/Inner Product Space.md",
+    "Topology/Topological Space.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Hilbert Space.md",
     "Courses/Analysis IV/Exercise Sheet 5.md",
@@ -315,8 +317,6 @@
     "Differential Geometry/Riemannian Metric.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Extension Field.md",
-    "Topology/Fundamental System.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
