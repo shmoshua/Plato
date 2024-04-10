@@ -18,6 +18,5 @@ Let $n=\text{dim }\mathcal{H}$. We have:
 4. Let $E$ be the resolution of identity on $\widehat{A}$ given by the spectral theorem. Then, from Exercise sheet 5, $$\text{Sp}_{L^\infty(E)}(T)$$
 
 ---
-We will show that: $$\begin{array}{cccc} {}&{\text{Sp}(T)}&\to&{\widehat{A}}\\&{\lambda} &\mapsto & {\varphi_{\lambda}:p(T)\to p(\lambda)} \end{array}{}$$is a homeomorphism.
-1. 
-1. 
+For $\lambda\in\mathbb{C}$, we define $\varphi_{\lambda}:A\to \mathbb{C},p(T)\to p(\lambda)$. Then, we claim that:$$\widehat{A}=\{ \varphi_{\lambda}:\lambda\in \text{Sp}(T) \}$$
+Let $\lambda\in \text{Sp}(T)$. For $p(T)=q(T)\in A$, we
