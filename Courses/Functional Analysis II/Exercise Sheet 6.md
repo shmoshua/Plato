@@ -16,4 +16,8 @@ Let $n=\text{dim }\mathcal{H}$. We have:
 2. let $$\alpha\braket{  v, w }=\braket{ Tv , w } =\braket{  v, Tw }=\overline{\beta}\braket{ v , w }   $$
 3. If there exists a $v\in \mathcal{H}$ with $Av=\mathcal{H}$, 
 4. Let $E$ be the resolution of identity on $\widehat{A}$ given by the spectral theorem. Then, from Exercise sheet 5, $$\text{Sp}_{L^\infty(E)}(T)$$
-5. The Guelfand spectrum is given as: $$$$
+
+---
+We will show that: $$\begin{array}{cccc} {}&{\text{Sp}(T)}&\to&{\widehat{A}}\\&{\lambda} &\mapsto & {\varphi_{\lambda}:p(T)\to p(\lambda)} \end{array}{}$$is a homeomorphism.
+1. 
+1. 

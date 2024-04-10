@@ -140,12 +140,28 @@
             "id": "478d134de59914e4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Radical.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ab10bb00f53fbd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Semi-simple Matrix.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -174,7 +190,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "characteristic",
+                "query": "semi-s",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,7 +207,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -211,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
+                "file": "Analysis/Semi-simple Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
+                "file": "Analysis/Semi-simple Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md"
+                "file": "Analysis/Semi-simple Matrix.md"
               }
             }
           }
@@ -273,17 +290,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f12d74f72a4fd842",
+  "active": "4ab10bb00f53fbd3",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Analysis/Functional Analysis/Radical.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Courses/Functional Analysis II/Exercise Sheet 4.md",
+    "Courses/Functional Analysis II/Exercise Sheet 3.md",
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
     "Analysis/Semi-simple Matrix.md",
-    "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
     "Analysis/Functional Analysis/Examples/Spectral Theorems.md",
@@ -295,12 +318,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Closure.md",
-    "Measure Theory/Measurable Function.md",
-    "Topology/Topological Space.md",
-    "Courses/Analysis IV/Exercise Sheet 5.md",
-    "Measure Theory/Measure Space.md",
-    "Analysis/Functional Analysis/Hilbert Space Operator.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
