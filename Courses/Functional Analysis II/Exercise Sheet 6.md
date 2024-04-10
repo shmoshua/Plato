@@ -18,5 +18,9 @@ Let $n=\text{dim }\mathcal{H}$. We have:
 4. Let $E$ be the resolution of identity on $\widehat{A}$ given by the spectral theorem. Then, from Exercise sheet 5, $$\text{Sp}_{L^\infty(E)}(T)$$
 
 ---
-For $\lambda\in\mathbb{C}$, we define $\varphi_{\lambda}:A\to \mathbb{C},p(T)\to p(\lambda)$. Then, we claim that:$$\widehat{A}=\{ \varphi_{\lambda}:\lambda\in \text{Sp}(T) \}$$
-Let $\lambda\in \text{Sp}(T)$. For $p(T)=q(T)\in A$, we
+Let $\varphi\in \widehat{A}$. Then, for any $p(x):=a_{0}+a_{1}x+\dots+a_{m}x^m\in \mathbb{C}[X]$, $$\varphi(p(T))=\varphi(a_{0}\text{id}_{\mathcal{H}}+a_{1}T+\dots+a_{m}T^m)=a_{0}\varphi(\text{id}_{\mathcal{H}})+a_{1}\varphi(T)+\dots+a_{m}\varphi(T)^m=p(\varphi(T))$$with $\varphi(T)\in \mathbb{C}$. Therefore, $\widehat{A}\subseteq \{ \varphi_{\lambda}:\lambda\in \mathbb{C} \}$ where $\varphi_{\lambda}:A\to \mathbb{C},p(T)\to p(\lambda)$. 
+
+Then, we claim that:$$\widehat{A}=\{ \varphi_{\lambda}:\lambda\in \text{Sp}(T) \}$$Let $\lambda\in \text{Sp}(T)$ with $v$ as eigenvector. For $p(T)=q(T)\in A$, we have that $$p(\lambda)v=p(T)v=q(T)v=q(\lambda)v$$As $v$ is non-zero, $p(\lambda)=q(\lambda)$. Therefore, $\varphi_{\lambda}$ is well-defined. Then, $\varphi_{\lambda}(\text{id}_{\mathcal{H}})=1$ and one can also easily check that $\varphi_{\lambda}$ is a $\mathbb{C}$-algebra homomorphism.
+
+Conversely, let $\varphi\in \widehat{A}$. Then, $\varphi:A\to \mathbb{C}$ and $\|\varphi\|=1$. Define for $v\in \mathcal{H}$, $$\begin{array}{cccc} {\lambda_{i}:}&{\mathcal{H}}&\to&{\mathbb{C}}\\&{x:=\sum_{i}^{n}a_{i}v_{i}} &\mapsto & {\varphi(a_{i}T)} \end{array}{}$$ Then, $\lambda_{i}\in \mathcal{H}^{*}$ and by Riesz representation theorem, there exists $x_{i}\in\mathcal{H}$ s.t. $$\varphi(a_{i}T)=\sum_{i=1}^{n}a_{i}\braket{ v_{i} ,x_{i}  } ,\quad \forall a\in \mathbb{C}^n$$
+Therefore, $$\varphi(p(T))=\varphi()$$
