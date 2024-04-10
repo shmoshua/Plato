@@ -21,16 +21,16 @@ Let $n=\text{dim }\mathcal{H}$. We have:
 1. Let $\varphi\in \widehat{A}$. Then, for any $p(x):=a_{0}+a_{1}x+\dots+a_{m}x^m\in \mathbb{C}[X]$, $$\varphi(p(T))=\varphi(a_{0}\text{id}_{\mathcal{H}}+a_{1}T+\dots+a_{m}T^m)=a_{0}\varphi(\text{id}_{\mathcal{H}})+a_{1}\varphi(T)+\dots+a_{m}\varphi(T)^m=p(\varphi(T))$$with $\varphi(T)\in \mathbb{C}$. Therefore, $\widehat{A}\subseteq \{ \varphi_{\lambda}:\lambda\in \mathbb{C} \}$ where $\varphi_{\lambda}:A\to \mathbb{C},p(T)\to p(\lambda)$. Suppose $\lambda\in \text{Sp}(T)$ with eigenvector $v$. For $p(T)=q(T)\in A$, we have that $$p(\lambda)v=p(T)v=q(T)v=q(\lambda)v$$As $v$ is non-zero, $p(\lambda)=q(\lambda)$ and $\varphi_{\lambda}$ is well-defined. Further, $\varphi_{\lambda}(\text{id}_{\mathcal{H}})=1$ and one can also easily check that $\varphi_{\lambda}$ is a character.
    
    However, if $\lambda\notin \text{Sp}(T)$, then there exists $p(T)\in A$ s.t. $(T-\lambda \text{id}_{\mathcal{H}})p(T)=\text{id}_{\mathcal{H}}$. It follows that, $$\varphi_{\lambda}((T-\lambda \text{id}_{\mathcal{H}})p(T))=\varphi_{\lambda}(T-\lambda \text{id}_{\mathcal{H}})\varphi(p(T))=0\neq 1=\varphi(\text{id}_{\mathcal{H}})$$and $\varphi_{\lambda}$ is not a character. This shows that: $$\widehat{A}=\{ \varphi_{\lambda}:\lambda\in \text{Sp}(T) \}$$
-2. Firstly, for an eigenvalue $\lambda\in \text{Sp}(T)$, let $\mathcal{H}_{\lambda}$ denote the corresponding eigenspace. Consider the following resolution of identity: $$\begin{array}{cccc} {E:}&{\mathcal{B}}&\to&{\mathcal{B}(\mathcal{H})}\\&{\Lambda} &\mapsto & {\Pi_{\bigoplus_{\lambda\in \Lambda}\mathcal{H}_{\lambda} }} \end{array}{}$$where $\Pi_{S}$ denotes the projection matrix onto a subspace $S$.
+2. Firstly, for an eigenvalue $\lambda\in \text{Sp}(T)$, let $\mathcal{H}_{\lambda}$ denote the corresponding eigenspace. Consider the following resolution of identity: $$\begin{array}{cccc} {E:}&{\mathcal{B}}&\to&{\mathcal{B}(\mathcal{H})}\\&{\omega} &\mapsto & {\Pi_{\bigoplus_{\lambda\in \omega}\mathcal{H}_{\lambda} }} \end{array}{}$$where $\Pi_{S}$ denotes the projection matrix onto a subspace $S$.
 	- **Showing that $E$ is a resolution of the identity**:
-	  Indeed, $E(\varnothing)=0$ and $E(\widehat{A})=\text{id}_{\mathcal{H}}$. Further, as the eigenspaces are orthogonal to each other, $\braket{ E(\omega)x , x }=\|E(\omega)x\|^{2}$ for all $x\in \mathcal{H}$ and $E(\omega)$ is self-adjoint for all $\omega\in \mathcal{B}$.
-	  
-   
-   As $\text{Sp}(T)$ is a finite set, so is $\widehat{A}$ and $\mathcal{B}=\mathcal{P}(\widehat{A})$. Now consider $f\in \mathcal{B}^\infty(\widehat{A})\cong \mathbb{C}^{\left| \text{Sp}(T) \right|}$. Then, $$\int_{\widehat{A}}^{} f \, dE_{x,y}=\sum_{\lambda\in \text{Sp}(T)}^{}f(\varphi_{\lambda})\braket{ E(\varphi_{\lambda})x , y } = $$
-4. 
-5. Then, for $\Lambda\in \mathcal{B}$, let $\mathcal{H}_{\Lambda}$ denote the eigenspace associated with 
-6. 
-7. let $\mathcal{H}_{\lambda}$
-8. Let $v_{1},\dots,v_{n}$ be the orthonormal basis of eigenvectors with eigenvalues $\lambda_{1},\dots,\lambda_{n}$. Then, 
-
+	  Indeed, $E(\varnothing)=0$ and $E(\widehat{A})=\text{id}_{\mathcal{H}}$. Further, as the eigenspaces are orthogonal to each other, $\braket{ E(\omega)x , x }=\|E(\omega)x\|^{2}$ for all $x\in \mathcal{H}$ and $E(\omega)$ is self-adjoint for all $\omega\in \mathcal{B}$. The third and the fourth properties are easily checked. Lastly, let $v_{1},\dots,v_{n}$ be the orthonormal basis of eigenvectors of $T$. Then, for $x=\sum_{i=1}^{n}a_{i}v_{i},y\in\sum_{i=1}^{n}b_{i}v_{i}\in \mathcal{H}$, $$E_{x,y}(\omega)=\sum_{v_{i}\in \bigoplus_{\lambda\in \omega}\mathcal{H}_{\lambda} }^{}a_{i}b_{i}$$which is additive. 
+	- **Showing that $E$ meets the condition**:
+	  For $x,y\in \mathcal{H}$, $$\int_{\widehat{A}}^{} \widehat{T} \, dE_{x,y}=\sum_{\lambda\in \text{Sp}(T)}^{}\widehat{T}(\varphi_{\lambda})E_{x,y}(\varphi_{\lambda})=\sum_{\lambda\in \text{Sp}(T)}^{}\lambda \braket{ \Pi_{\mathcal{H}_{\lambda}}x , y }=\braket{ Tx , y }   $$
+	This proves the statement.
 ---
+> [!def] Problem 2
+> Let $\mathcal{H}$ be a Hilbert space and $U\in \mathcal{B}(\mathcal{H})$ a unitary operator. Define the $C^{*}$-algebra: $$A:=\overline{\{ p(U,U^{*}):p\in \mathbb{C}[X,Y] \}}$$
+> This algebra is commutative, so the spectral theorem implies that there is a resolution of the identity $E$ with $$U=\int_{\widehat{A}}^{} \widehat{U} \, dE $$Define the set $X:=\{ \chi\in \widehat{A}:\chi(U)=1 \}$.
+> 1. Let $\chi \in \widehat{A}$. Prove $\left| \chi(U) \right|=1$. Apply the formula for the geometric series to obtain: $$\lim_{ n \to \infty } \frac{1}{n}\sum_{i=0}^{n-1}\chi(U^n)=1_{X}(\chi)$$for each $\chi\in \widehat{A}$ where $1_{X}$ denotes the indicator function of $X$.
+> 2. Let $W:=\{ v\in \mathcal{H}:Uv=v \}$ and denote by $P:\mathcal{H}\to \mathcal{H}$ the orthogonal projection onto $W$. Prove $$\lim_{ n \to \infty } \frac{1}{n}\sum_{i=0}^{n-1}U^iv=Pv$$for each $v\in \mathcal{H}$.
+
