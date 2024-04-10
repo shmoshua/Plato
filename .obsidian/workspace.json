@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 5.md"
+                "file": "Analysis/Functional Analysis/Spectrum.md"
               }
             }
           }
@@ -279,8 +279,9 @@
   },
   "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
+    "Analysis/Functional Analysis/Spectrum.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Lp Space.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Closure.md",
@@ -304,7 +305,6 @@
     "Courses/Topology/Exercise Sheet 5.md",
     "Analysis/Banach Space.md",
     "Analysis/Functional Analysis/Diagonal Operator in Separable Hilbert Spaces.md",
-    "Differential Geometry/Riemannian Metric.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
