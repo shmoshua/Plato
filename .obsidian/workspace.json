@@ -80,7 +80,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -93,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,24 +113,12 @@
             }
           },
           {
-            "id": "4ab10bb00f53fbd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Summable Function.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "12f51f66643d3037",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -141,13 +130,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -276,22 +266,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ff67265067c73f51",
+  "active": "12f51f66643d3037",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Measure Theory/Summable Function.md",
-    "Analysis/Functional Analysis/Hilbert Space Operator.md",
-    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Measure Theory/Integrable Function.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Hilbert Space.md",
+    "Analysis/Functional Analysis/Hilbert Space Operator.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Measure Theory/Integrable Function.md",
     "Analysis/Functional Analysis/Unitary Linear Map.md",
     "Analysis/Semi-simple Matrix.md",
     "Analysis/Functional Analysis/Spectrum.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
     "Analysis/Functional Analysis/Radical.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
@@ -303,7 +294,6 @@
     "Analysis/Functional Analysis/Examples/Spectral Theorems.md",
     "Analysis/Simple Matrix.md",
     "Analysis/Lp Space.md",
-    "Topology/Topological Vector Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

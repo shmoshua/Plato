@@ -79,18 +79,29 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > 1. $\overline{Av_{n}}\ \bot\  \overline{Av_{m}}$ for $n\neq m$.
 > 2. $\mathcal{H}=\widehat{\bigoplus}_{n\in J} \overline{Av_{n}}$ where $\widehat{\bigoplus}$ denotes the direct orthogonal sum.
 
-> [!proof]+
-> Consider $\mathcal{C}:=\{ F\subseteq \mathcal{H} \backslash \{ 0 \}:\forall v,w\in F,Av\ \bot\ Aw \}$. Then $\mathcal{C}\neq \varnothing$ and we will use the Zorn's lemma to find a maximal set. If $\mathcal{U}\subseteq \mathcal{C}$ is totally ordered, then $\bigcup_{F\in \mathcal{U}}^{}F\in \mathcal{C}$. Therefore, there exists a maximal element $J$. Then, one can see that the first condition holds for $J$.
+> [!proof]-
+> Consider $\mathcal{C}:=\{ F\subseteq \mathcal{H} \backslash \{ 0 \}:\forall v,w\in F,Av\ \bot\ Aw \}$. Then $\mathcal{C}\neq \varnothing$ and we will use the Zorn's lemma to find a maximal set. If $\mathcal{U}\subseteq \mathcal{C}$ is totally ordered, then $\bigcup_{F\in \mathcal{U}}^{}F\in \mathcal{C}$. Therefore, there exists a maximal element $J$. As $\mathcal{H}$ is separable, $J$ is countable. Then, one can see that the first condition holds for $J$.
 > 
-C 
+> Consider $\mathcal{L}:=\bigoplus_{v\in J}Av$. We want to show that $\overline{\mathcal{L}}=\mathcal{H}$. Assume otherwise. Then, $\mathcal{L}^{\bot}\neq(0)$. As $\mathcal{L}$ is $A$-invariant and $A$ is stable under $T\to T^{*}$, $\mathcal{L}^{\bot}$ is $A$-invariant.
+> 
+> Let $w\in \mathcal{L}^{\bot}\backslash\{ 0 \}$. Then, clearly $Aw\ {\bot}\ Av$ for all $v\in J$. This is a contradiction to the maximality of $J$.
 > 
 ---
 > [!lemma] Theorem
 > Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space and $A\subseteq \mathcal{B}(\mathcal{H})$ is a [[C*-Algebra|commutative sub-$C^{*}$-algebra]] containing $\text{id}_{\mathcal{H}}$. Then, 
 > 1. there exists a finite positive Borel regular measure $\mu$ on $\widehat{A}\times \mathbb{N}$
 > 2. there exists a Hilbert space isomorphism $\Lambda:\mathcal{H}\to L^{2}(\widehat{A}\times \mathbb{N},\mu)$ s.t. for all $T\in A$ and $v\in \mathcal{H}$, $$\Lambda(Tv)(\chi,n)=\widehat{T}(\chi)\Lambda(v)(\chi,n)$$In other words, the following diagram commutes: $$\begin{CD}\mathcal{H} @>\Lambda>>L^2(\widehat{A}\times \mathbb{N},\mu)\\@VTVV&@VVM_{\widehat{T}}V\\\mathcal{H}@>\Lambda>>L^2(\widehat{A}\times \mathbb{N},\mu)\end{CD}$$where $M_{\widehat{T}}$ is a [[Multiplication Operator on Lp Space|multiplication operator]] s.t. $(M_{\widehat{T}}f)(\chi,n)=\widehat{T}(\chi)f(\chi,n)$.
+
+> [!proof]+
+> Let $E$ be the resolution of identity given by the [[Guelfand Spectrum|spectral theorem]], i.e. for all $T\in A$: $$T=\int_{\widehat{A}}^{} \widehat{T} \, dE $$Let $v\neq 0$. Then, $$\braket{ Tv , v } =\int_{\widehat{A}}^{} \widehat{T} \, dE_{v,v} $$but as $E_{v,v}$ is a positive Borel regular measure on $\widehat{A}$ with $E_{v,v}(\widehat{A})=\braket{ v,v}=\|v\|^{2}$, $$\left\| Tv \right\| ^{2}=\braket{ Tv , Tv } =\braket{ T^{*}Tv , v } =\int_{\widehat{A}}^{} \overline{\widehat{T}}\widehat{T} \, dE_{v,v}=\int_{\widehat{A}}^{} \left| \widehat{T} \right| ^{2} \, dE_{v,v}  $$
+> For all $T\in A$, so $T(v)=0$ if and only if $\widehat{T}=0$ $E_{v,v}$-almost everywhere. Hence, $$\begin{array}{cccc} {}&{Av}&\to&{L^2(\widehat{A},E_{v,v})}\\&{Tv} &\mapsto & {\widehat{T}} \end{array}{}$$is a well-defined linear isometry. This extends to $L_{v}:\overline{Av}\to L^2(\widehat{A},E_{v,v})$ which is.a linear isometry and injective since $L_{v}(Av)=C(\widehat{A})$ and $C(\widehat{A})$ is dense in $L^2(\widehat{A},E_{v,v})$.
+> 
+> Let $T\in A$ and $w:=Sv$ where $S\in A$. Then, $$L_{v}(Tw)=L_{v}(TSv)=\widehat{T}\widehat{S}=\widehat{T}L_{v}(Sv)=\widehat{T}L_{v}(w)$$By continuity, this extends to all $w\in \overline{Av}$. 
+> 
+> Let $J\subseteq \mathbb{N}$ from the previous lemma. Then, $\mathcal{H}=\widehat{\bigoplus}_{n\in J}\overline{Av_{n}}$. Modulo rescaling, we may assume that $\sum_{n\in J}^{}\left\| v_{n} \right\|^{2}<+\infty$. Define $f\in C_{0}(\widehat{A}\times J)$. Then, $$\int_{\widehat{A}\times J} f  \, d\mu=\sum_{n\in J}^{}\int_{\widehat{A}}^{} f(x,n) \, dE_{v_{n},v_{n}}  $$and $\mu(\widehat{A}\times J)=\sum_{n\in J}^{}E_{v_{n},v_{n}}(\widehat{A})=\sum_{n\in J}^{}\left\| v_{n} \right\|^{2}<+\infty$. Therefore, $$ {\Lambda:\mathcal{H}}&\to&{L^{2}(\widehat{A}\times J,\mu)}\\&{} &\mapsto & {} \end{array}{}$$
 - **Remark**: from $J$ in Lemma, we can replace $\widehat{A}\times \mathbb{N}$ with $\widehat{A}\times J$ in which case $\mu(\widehat{A}\times \{ n \})>0$ for all $n\in J$. Especially, if there exists a cyclic vector for $A$, i.e. there exists $v\in \mathcal{H}$ with $\overline{Av}=\mathcal{H}$, then $\widehat{A}\times \mathbb{N}$ can be replaced with $\widehat{A}$.
 ---
 ##### Example
 > [!h] Example 1
 > Let $\mathcal{H}$ be finite dimensional. Then for $T\in \mathcal{B}(\mathcal{H})$ with $T=T^{*}$
+---
