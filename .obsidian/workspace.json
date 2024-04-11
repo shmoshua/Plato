@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -137,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Hilbert Space.md"
+                "file": "Analysis/Functional Analysis/Guelfand Transform.md"
               }
             }
           }
@@ -266,16 +266,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "12f51f66643d3037",
+  "active": "4eae356e360d92c5",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Courses/Functional Analysis II/Exercise Sheet 6.md",
-    "Measure Theory/Summable Function.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Analysis/Hilbert Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 6.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Measure Theory/Summable Function.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/C-Algebra.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
