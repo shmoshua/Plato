@@ -14,74 +14,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "ce1d13c20305522f",
+            "id": "311ef84d201c6d03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Diagonal Operator in Separable Hilbert Spaces.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d67e40124cc40aaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c7bd361ba8587370",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4482708a141249ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c579c612ac3045da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Measure Space.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -89,36 +40,12 @@
         "dimension": 46.264367816091955,
         "children": [
           {
-            "id": "ff67265067c73f51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Banach Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f12d74f72a4fd842",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "12f51f66643d3037",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -136,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,8 +109,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Topology/Connected Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Topology/Connected Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md"
+                "file": "Topology/Connected Space.md"
               }
             }
           }
@@ -266,18 +191,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4eae356e360d92c5",
+  "active": "d7901e0671c3fbd6",
   "lastOpenFiles": [
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Connected Space.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Topology/Compact Metric Space.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Courses/Functional Analysis II/Exercise Sheet 6.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Measure Theory/Summable Function.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/C-Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Measure Theory/Integrable Function.md",
     "Analysis/Functional Analysis/Unitary Linear Map.md",
@@ -291,9 +219,6 @@
     "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
-    "Analysis/Functional Analysis/Examples/Spectral Theorems.md",
-    "Analysis/Simple Matrix.md",
-    "Analysis/Lp Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

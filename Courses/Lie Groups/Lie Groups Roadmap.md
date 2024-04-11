@@ -15,8 +15,8 @@
 5. **Examples of Compact/Locally Compact Topological Groups**: [[Unitary Linear Map|$\mathcal{U}(\mathcal{H})$]] of a Hilbert space.
 
 **1.3 General Facts about Topological Groups**
-1. [[Connected Topological Space]]
-2. [[Connected Topological Space|Connected Components]]
+1. [[Connected Space]]
+2. [[Connected Space|Connected Components]]
 3. **Properties of a Topological Group**: [[Topological Group]] and connectedness
 ---
 

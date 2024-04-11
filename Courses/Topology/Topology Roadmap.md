@@ -49,6 +49,9 @@
 **2.1 Compactness**
 1. [[Compact Space]]
 1. [[Compact Metric Space]]
+
+**2.2 Completeness**
+1. [[Connected Space]]
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]

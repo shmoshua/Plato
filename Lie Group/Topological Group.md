@@ -42,9 +42,9 @@
 > Let $G$ be a topological group. Then, 
 > 1. If $H\leq G$, then $\overline{H}\leq G$.
 > 2. If $H\leq G$ is open, then it is closed.
-> 3. Let $G^\circ$ be the [[Connected Topological Space|connected component]] of $e\in G$. Then, $G^{\circ}$ is closed and $G^\circ\unlhd G$.
-> 4. If $G$ is [[Connected Topological Space|connected]] and $U\subseteq G$ is a neighborhood of $e$, then $G=\bigcup_{n=1}^{\infty}U^n$
-> 5. If $G$ is [[Connected Topological Space|connected]] and $N\unlhd G$ is discrete. Then, $N\subseteq Z(G)$ where $Z(G)$ denotes the [[Center of a group|center]].
+> 3. Let $G^\circ$ be the [[Connected Space|connected component]] of $e\in G$. Then, $G^{\circ}$ is closed and $G^\circ\unlhd G$.
+> 4. If $G$ is [[Connected Space|connected]] and $U\subseteq G$ is a neighborhood of $e$, then $G=\bigcup_{n=1}^{\infty}U^n$
+> 5. If $G$ is [[Connected Space|connected]] and $N\unlhd G$ is discrete. Then, $N\subseteq Z(G)$ where $Z(G)$ denotes the [[Center of a group|center]].
 
 > [!proof]-
 > > [!lemma]
@@ -58,7 +58,7 @@
 > > 2. As $m:G\times G\to G$ is continuous at $(e,e)$, there is a neighborhood $W$ of $e$ s.t. $$W^{2}=m(W\times W)\subseteq U$$Then, by 1, there exists open symmetric neighborhood $V$ of $e$ s.t. $V^{2}\subseteq W^{2}\subseteq U$.
 > 1. Since $m$ is continuous, $$m(\overline{H}\times \overline{H})\subseteq m(\overline{H\times H})\subseteq \overline{m(H\times H)}=\overline{H}$$Also, as $i$ is a homeomorphism, $i(\overline{H})=\overline{H}$. Therefore, $\overline{H}$ is a subgroup.
 > 2. Let $R$ be the representatives of $G / H$ with $e\in R$. Then, $$G=H \sqcup\bigsqcup_{r\in R \backslash\{ e \}}^{}rH=H \sqcup\bigsqcup_{r\in R \backslash\{ e \}}^{}L_{r}(H)$$As $L_{r}(H)$ is open, the disjoint union is also open. Therefore, $H$ is closed.
-> 3. We have that $G^\circ\times G^\circ$ is connected and contains $(e,e)$. Therefore, $m(G^\circ\times G^\circ)$ is also connected by [[Connected Topological Space|Lemma 1]]. Further, $m(G^\circ\times G^\circ)\subseteq G^\circ$. Since $i$ is a homeomorphism and $i(e)=e$, $i(G^\circ)=G^\circ$, i.e. $G^\circ$ is a subgroup.
+> 3. We have that $G^\circ\times G^\circ$ is connected and contains $(e,e)$. Therefore, $m(G^\circ\times G^\circ)$ is also connected by [[Connected Space|Lemma 1]]. Further, $m(G^\circ\times G^\circ)\subseteq G^\circ$. Since $i$ is a homeomorphism and $i(e)=e$, $i(G^\circ)=G^\circ$, i.e. $G^\circ$ is a subgroup.
 >    
 >    Since $\overline{G^\circ}$ is connected, by the maximality, $\overline{G^\circ}=G^\circ$ and $G^\circ$ is closed.
 >    
