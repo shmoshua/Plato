@@ -7,6 +7,7 @@
 > 3. Let $\mathcal{B}$ be the Borel subsets of $\widehat{A}$. The spectral theorem shows that there is a resolution of the identity $E:\mathcal{B}\to \mathcal{B}(\mathcal{H})$ such that $$T=\int_{\widehat{A}}^{} \widehat{T} \, dE $$Determine the map $E$.
 
 Let $n=\text{dim }\mathcal{H}$. We have: 
+1. $T$ is finite-rank and hence compact. Therefore, there exists an orthonormal basis $\{ v_{1},\dots,v_{n} \}$. Assume that each eigenvalue of $T$ has multiplicity one and let $x\in \mathcal{H}$. 
 1. $T$ is compact and self-adjoint. Therefore, there exists an orthonormal basis $\{ v_{1},\dots,v_{n} \}$ of $\mathcal{H}$. Assume that each eigenvalue of $T$ has multiplicity one. 
 	Let for $v\in \mathcal{H}$ and there exists $x\in \mathcal{H}$ s.t. $x\notin Av$. 
 2. Then, no two basis vector admit the same eigenvalue.
