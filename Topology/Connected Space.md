@@ -28,5 +28,9 @@
 > 1. A discrete space is connected if it has $\leq 1$ elements.
 > 2. In $\mathbb{R}$, $A\subseteq \mathbb{R}$ is connected if and only if $A$ is an interval.
 
-> [!proof]+
+> [!proof]-
+> Let $A\subseteq \mathbb{R}$ be a connected set. If $\left| A \right|\leq 1$, then $A$ is an interval. Now assume $\left| A \right|\geq 2$ with $a<c<b$ where $a,b\in A$. Assume $c\notin A$. Then, $$A=[(-\infty,c)\cap A]\sqcup[(c,+\infty)\cap A]$$and either $(-\infty,c)\cap A=\varnothing$ or  $(c,+\infty)\cap A=\varnothing$, which is a contradiction as $a,b\in A$.
 > 
+> Conversely, assume $A=[a,b]$ with $a\leq b$. Let $A=U_{1}\sqcup U_{2}$ with $U_{1},U_{2}$ open. Let wlog $a\in U_{1}$, we need to show that $A=U_{1}$. Let $c:=\sup_{{[a,t]\subseteq U_{1}}} t$. Then, we claim that $[a,c]\subseteq U_{1}$. Otherwise, $c\in U_{2}$ and as $U_{2}$ is open, there exists $\varepsilon>0$ s.t. $(c-\varepsilon,c+\varepsilon)\cap A\subseteq U_{2}$. Therefore, $c\leq c-\varepsilon$, which is a contradiction.
+> 
+> Assume $c\neq b$. Then, there exists $\varepsilon>0$ s.t. $(c-\varepsilon,c+\varepsilon)\cap A\subseteq U_{1}$ and $c+\varepsilon<b$. This is a contradiction to the maximality of $c$, as $\left[ a,c+\frac{\varepsilon}{2} \right]\subseteq U_{1}$. 
