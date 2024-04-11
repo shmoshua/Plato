@@ -34,3 +34,6 @@ Let $n=\text{dim }\mathcal{H}$. We have:
 > 1. Let $\chi \in \widehat{A}$. Prove $\left| \chi(U) \right|=1$. Apply the formula for the geometric series to obtain: $$\lim_{ n \to \infty } \frac{1}{n}\sum_{i=0}^{n-1}\chi(U^n)=1_{X}(\chi)$$for each $\chi\in \widehat{A}$ where $1_{X}$ denotes the indicator function of $X$.
 > 2. Let $W:=\{ v\in \mathcal{H}:Uv=v \}$ and denote by $P:\mathcal{H}\to \mathcal{H}$ the orthogonal projection onto $W$. Prove $$\lim_{ n \to \infty } \frac{1}{n}\sum_{i=0}^{n-1}U^iv=Pv$$for each $v\in \mathcal{H}$.
 
+We have: 
+1. Let $\chi\in \widehat{A}$. Then, $$\chi(U)\chi(U)$$
+2. $\chi(\text{id}_{\mathcal{H}})=1$. 

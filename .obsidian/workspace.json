@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -161,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
+                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
+                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md"
+                "file": "Analysis/Functional Analysis/Unitary Linear Map.md"
               }
             }
           }
@@ -290,11 +290,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f12d74f72a4fd842",
+  "active": "478d134de59914e4",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Measure Theory/Integrable Function.md",
     "Analysis/Semi-simple Matrix.md",
     "Analysis/Functional Analysis/Spectrum.md",
