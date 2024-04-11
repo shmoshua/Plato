@@ -64,6 +64,17 @@
 > Lastly, if $S$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}_{\widehat{A}}$, then it does with the simple functions $\mathcal{S}(\widehat{A})$ and the closure $B\supseteq A$.
 > 
 > Conversely, assume that $ST=TS$ for all $T\in A$. Then, $$\int_{\widehat{A}}^{} \widehat{T} \, dE_{S(x),y}= \braket{ TS(x) , y } =\braket{ ST(x) , y } =\braket{ T(x) , S^{*}(y) }=\int_{\widehat{A}}^{} \widehat{T} \, dE_{x,S^{*}(y)}  $$Therefore, $E_{S(x),y}$ and $E_{x,S^{*}(y)}$ represent the same linear form on $C(\widehat{A})$. Therefore, they coincide. Then, $$\braket{ E(\omega)S(x) , y } =E_{S(x),y}(\omega)=E_{x,S^{*}(y)}(\omega)=\braket{ E(\omega)x , S^{*}(y) } =\braket{ SE(\omega)x , y } $$and $E(\omega)S=SE(\omega)$.
+- **Corollary**: Let $T\in \mathcal{B}(\mathcal{H})$ normal and $A:=\overline{\{ p(T,T^{*}):p\in \mathbb{C}[X,Y] \}}$. Then,
+	1. there exists a unique resolution of identity $E$ on $\text{Sp}(T)$ s.t. $$T=\int_{\text{Sp}(T)}\lambda  \, dE(\lambda) $$
+	2. we have a commutative diagram: $$\begin{CD}C(\text{Sp}(T))@>>>A\\@VVV&@VVV\\L^\infty(E)&@>\Psi>>B\end{CD}$$
+	3. $B=\overline{\Psi(\mathcal{S}(\text{Sp}(T)))}$
+	4. $S\in \mathcal{B}(\mathcal{H})$ commutes with $T$ and $T^{*}$ if and only if $S$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}_{\text{Sp}(T)}$
+---
+> [!lemma] Corollary
+> Let $T\in \mathcal{B}(\mathcal{H})$ be normal, $\lambda_{0}\in \text{Sp}(T)$ and $\mathcal{H}_{\lambda_{0}}:=\text{ker}(T-\lambda_{0}\text{id}_{\mathcal{H}})$. Then, $E(\lambda_{0})=\Pi_{\mathcal{H}_{\lambda_{0}}}$.
+
+> [!proof]-
+> We have: $$TE(\lambda_{0})=(\text{id}_{\mathcal{H}}\cdot \chi_{\{ \lambda_{0} \}})(T)$$Therefore, $$\braket{ TE(\lambda_{0})x , y } =\lambda_{0}E_{x,y}(\lambda_{0})=\lambda_{0}\braket{ E(\lambda_{0})x , y } $$This means that $TE(\lambda_{0})-\lambda_{0}E(\lambda_{0})=0$ and $(T-\lambda_{0} \text{id}_{\mathcal{H}})E(\lambda_{0})=0$ and $\text{Im }E(\lambda_{0})\subseteq \text{ker}(T-\lambda_{0}\text{id}_{\mathcal{H}})$. Conversely, let $x\in \mathcal{H}_{\lambda_{0}}$. Then, $Tx=\lambda_{0}x$ and $T^{*}x=\overline{\lambda_{0}}x$. Therefore, for all $p\in \mathbb{C}[X,Y]$, $$p(T,T^{*})x=p(\lambda,\overline{\lambda})x$$As $\{ \lambda\mapsto p(\lambda,\overline{\lambda}):p\in \mathbb{C}[X,Y] \}$ is dense in $C(\text{Sp}(T))$, for all $C\in \text{Sp}(T)$, $f(T)x=f(\lambda_{0})x$. This implies: $$\braket{ f(T)x , y } =\int_{\text{Sp}(T)}^{} f(\lambda) \, dE_{x,y}(\lambda) $$Therefore, $E_{x,y}=\braket{ x , y }\delta_{\lambda_{0}}$ and $\braket{ E(\lambda_{0})x , y }=E_{x,y}(\lambda_{0})=\braket{ x , y }$ for all $y\in \mathcal{H}$. Therefore, $E(\{ \lambda_{0} \})x=x$ and $\mathcal{H}_{\lambda_{0}}\subseteq \text{Im }E(\lambda_{0})$.
 ---
 ##### Examples
 > [!h] Example 1

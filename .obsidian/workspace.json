@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "mode": "source",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md"
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md"
               }
             }
           }
@@ -268,15 +268,15 @@
   },
   "active": "4eae356e360d92c5",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Analysis/Hilbert Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Hilbert Space.md",
+    "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Measure Theory/Summable Function.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
     "Analysis/Functional Analysis/C-Algebra.md",
-    "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Measure Theory/Integrable Function.md",
