@@ -80,8 +80,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -94,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -148,8 +147,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
+                "file": "Analysis/Hilbert Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
+                "file": "Analysis/Hilbert Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md"
+                "file": "Analysis/Hilbert Space.md"
               }
             }
           }
@@ -278,13 +276,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f12d74f72a4fd842",
+  "active": "ff67265067c73f51",
   "lastOpenFiles": [
-    "Measure Theory/Summable Function.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Courses/Functional Analysis II/Exercise Sheet 6.md",
+    "Measure Theory/Summable Function.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
-    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Measure Theory/Integrable Function.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
@@ -297,8 +297,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Courses/Topology/Exercise Sheet 3.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/Compact, Self-adjoint Operators.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",

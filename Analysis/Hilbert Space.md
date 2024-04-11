@@ -74,10 +74,22 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > Recall that every $f\in \mathcal{H}^{*}$ is given by $f(v)=\braket{ v , x }$ for some $x\in \mathcal{H}$ from Riesz Representation theorem. Let $x=\sum_{n=1}^{\infty}\braket{ x , e_{n} }e_{n}$, with $\|x\|^{2}=\sum_{n=1}^{\infty}\left| \braket{ x , e_{n} } \right|^{2}$. Then, $$f(e_{n})=\braket{ e_{n} , x } $$Since $\|x\|^{2}=\sum_{n=1}^{\infty}|\braket{ e_{n} , x } |^{2}$, we have that $\lim_{ n \to \infty }\braket{ e_{n} , x } =0$. This shows that $f(e_{n})\to 0$. From [[Weak Topology|Lemma 2]], $e_{n}\to{0}$ in weak-topology.
 - **Corollary**: $B_{\leq 1}^\mathcal{H}(0)$ is weakly closed, $S_{1}^\mathcal{H}(0)=\{ v\in \mathcal{H}:\|v\|=1 \}$ is not weakly closed.
 ---
+> [!lemma] Lemma
+> Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space and $A\subseteq \mathcal{B}(\mathcal{H})$ is a [[C*-Algebra|commutative sub-$C^{*}$-algebra]] containing $\text{id}_{\mathcal{H}}$. Then, there exists $J\subseteq \mathbb{N}$ and $\{ v_{n}:n\in J \}\subseteq \mathcal{H} \backslash\{ 0 \}$ s.t. 
+> 1. $\overline{Av_{n}}\ \bot\  \overline{Av_{m}}$ for $n\neq m$.
+> 2. $\mathcal{H}=\widehat{\bigoplus}_{n\in J} \overline{Av_{n}}$ where $\widehat{\bigoplus}$ denotes the direct orthogonal sum.
+
+> [!proof]+
+> Consider $\mathcal{C}:=\{ F\subseteq \mathcal{H} \backslash \{ 0 \}:\forall v,w\in F,Av\ \bot\ Aw \}$. Then $\mathcal{C}\neq \varnothing$ and we will use the Zorn's lemma to find a maximal set. If $\mathcal{U}\subseteq \mathcal{C}$ is totally ordered, then $\bigcup_{F\in \mathcal{U}}^{}F\in \mathcal{C}$. Therefore, there exists a maximal element $J$. Then, one can see that the first condition holds for $J$.
+> 
+C 
+> 
+---
 > [!lemma] Theorem
 > Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space and $A\subseteq \mathcal{B}(\mathcal{H})$ is a [[C*-Algebra|commutative sub-$C^{*}$-algebra]] containing $\text{id}_{\mathcal{H}}$. Then, 
 > 1. there exists a finite positive Borel regular measure $\mu$ on $\widehat{A}\times \mathbb{N}$
 > 2. there exists a Hilbert space isomorphism $\Lambda:\mathcal{H}\to L^{2}(\widehat{A}\times \mathbb{N},\mu)$ s.t. for all $T\in A$ and $v\in \mathcal{H}$, $$\Lambda(Tv)(\chi,n)=\widehat{T}(\chi)\Lambda(v)(\chi,n)$$In other words, the following diagram commutes: $$\begin{CD}\mathcal{H} @>\Lambda>>L^2(\widehat{A}\times \mathbb{N},\mu)\\@VTVV&@VVM_{\widehat{T}}V\\\mathcal{H}@>\Lambda>>L^2(\widehat{A}\times \mathbb{N},\mu)\end{CD}$$where $M_{\widehat{T}}$ is a [[Multiplication Operator on Lp Space|multiplication operator]] s.t. $(M_{\widehat{T}}f)(\chi,n)=\widehat{T}(\chi)f(\chi,n)$.
+- **Remark**: from $J$ in Lemma, we can replace $\widehat{A}\times \mathbb{N}$ with $\widehat{A}\times J$ in which case $\mu(\widehat{A}\times \{ n \})>0$ for all $n\in J$. Especially, if there exists a cyclic vector for $A$, i.e. there exists $v\in \mathcal{H}$ with $\overline{Av}=\mathcal{H}$, then $\widehat{A}\times \mathbb{N}$ can be replaced with $\widehat{A}$.
 ---
 ##### Example
 > [!h] Example 1

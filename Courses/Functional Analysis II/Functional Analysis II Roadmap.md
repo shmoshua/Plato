@@ -60,6 +60,8 @@
 
 **5.5 The Spectral Theorem**
 1. [[Guelfand Spectrum|Spectral Theorem]]
+2. **Application of the spectral theorem**:  [[Hilbert Space]] isomorphism between $\mathcal{H}$ and $L^2(\widehat{A}\times \mathbb{N},\mu)$
+3. 
 
 ---
 ##### 6. Locally Compact Groups
