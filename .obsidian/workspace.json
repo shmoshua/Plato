@@ -113,12 +113,12 @@
             }
           },
           {
-            "id": "478d134de59914e4",
+            "id": "4ab10bb00f53fbd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -147,21 +147,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4ab10bb00f53fbd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Integrable Function.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Unitary Linear Map.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Unitary Linear Map.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md"
               }
             }
           }
@@ -290,19 +278,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "478d134de59914e4",
+  "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Measure Theory/Integrable Function.md",
+    "Analysis/Functional Analysis/Unitary Linear Map.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Semi-simple Matrix.md",
     "Analysis/Functional Analysis/Spectrum.md",
-    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Analysis/Functional Analysis/Radical.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Courses/Topology/Exercise Sheet 3.md",
@@ -317,7 +306,6 @@
     "Topology/Topological Vector Space.md",
     "Algebra/Linear Algebra/Algebraic and Geometric Multiplicity.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
-    "Analysis/Convergence of Sequences.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

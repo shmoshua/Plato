@@ -31,9 +31,11 @@ Let $n=\text{dim }\mathcal{H}$. We have:
 > [!def] Problem 2
 > Let $\mathcal{H}$ be a Hilbert space and $U\in \mathcal{B}(\mathcal{H})$ a unitary operator. Define the $C^{*}$-algebra: $$A:=\overline{\{ p(U,U^{*}):p\in \mathbb{C}[X,Y] \}}$$
 > This algebra is commutative, so the spectral theorem implies that there is a resolution of the identity $E$ with $$U=\int_{\widehat{A}}^{} \widehat{U} \, dE $$Define the set $X:=\{ \chi\in \widehat{A}:\chi(U)=1 \}$.
-> 1. Let $\chi \in \widehat{A}$. Prove $\left| \chi(U) \right|=1$. Apply the formula for the geometric series to obtain: $$\lim_{ n \to \infty } \frac{1}{n}\sum_{i=0}^{n-1}\chi(U^n)=1_{X}(\chi)$$for each $\chi\in \widehat{A}$ where $1_{X}$ denotes the indicator function of $X$.
+> 1. Let $\chi \in \widehat{A}$. Prove $\left| \chi(U) \right|=1$. Apply the formula for the geometric series to obtain: $$\lim_{ n \to \infty } \frac{1}{n}\sum_{i=0}^{n-1}\chi(U^i)=1_{X}(\chi)$$for each $\chi\in \widehat{A}$ where $1_{X}$ denotes the indicator function of $X$.
 > 2. Let $W:=\{ v\in \mathcal{H}:Uv=v \}$ and denote by $P:\mathcal{H}\to \mathcal{H}$ the orthogonal projection onto $W$. Prove $$\lim_{ n \to \infty } \frac{1}{n}\sum_{i=0}^{n-1}U^iv=Pv$$for each $v\in \mathcal{H}$.
 
 We have: 
-1. Let $\chi\in \widehat{A}$. Then, $$\chi(U)\chi(U)$$
-2. $\chi(\text{id}_{\mathcal{H}})=1$. 
+1. As $U$ is unitary, we have that $\text{Sp}_{A}(U)\subseteq \mathbb{T}:=\{ \xi\in \mathbb{C}:\left| \xi \right|=1 \}$. However, as $\widehat{U}(\widehat{A})=\text{Sp}_{A}(U)$, $\left| \chi(U) \right|=1$. We have:$$\chi(U)\sum_{i=0}^{n-1}\chi(U)^i=\sum_{i=0}^{n}\chi(U)^i-\chi(U)\chi(U^{*})$$
+
+3. 
+4. $$\lim_{ n \to \infty } \frac{1}{n}\sum_{i=0}^{n-1}\chi(U^i)=\lim_{ n \to \infty } \frac{1}{n}\sum_{i=0}^{n-1}\chi(U)^i=\frac{1}{n} \frac{\chi(U)^n-1}{\chi(U)-1}$$
