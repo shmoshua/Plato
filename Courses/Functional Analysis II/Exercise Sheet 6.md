@@ -7,16 +7,8 @@
 > 3. Let $\mathcal{B}$ be the Borel subsets of $\widehat{A}$. The spectral theorem shows that there is a resolution of the identity $E:\mathcal{B}\to \mathcal{B}(\mathcal{H})$ such that $$T=\int_{\widehat{A}}^{} \widehat{T} \, dE $$Determine the map $E$.
 
 Let $n=\text{dim }\mathcal{H}$. We have: 
-1. $T$ is finite-rank and hence compact. Therefore, there exists an orthonormal basis $\{ v_{1},\dots,v_{n} \}$. Assume that each eigenvalue of $T$ has multiplicity one and let $x\in \mathcal{H}$. 
-1. $T$ is compact and self-adjoint. Therefore, there exists an orthonormal basis $\{ v_{1},\dots,v_{n} \}$ of $\mathcal{H}$. Assume that each eigenvalue of $T$ has multiplicity one. 
-	Let for $v\in \mathcal{H}$ and there exists $x\in \mathcal{H}$ s.t. $x\notin Av$. 
-2. Then, no two basis vector admit the same eigenvalue.
-	
-	Let $x\in \mathcal{H}$. Then $x=\sum_{i=1}^{n}a_{i}v_{i}$ where $a_{i}\in \mathbb{C}$. 
-1. 
-2. let $$\alpha\braket{  v, w }=\braket{ Tv , w } =\braket{  v, Tw }=\overline{\beta}\braket{ v , w }   $$
-3. If there exists a $v\in \mathcal{H}$ with $Av=\mathcal{H}$, 
-4. Let $E$ be the resolution of identity on $\widehat{A}$ given by the spectral theorem. Then, from Exercise sheet 5, $$\text{Sp}_{L^\infty(E)}(T)$$
+1. $T$ is finite-rank and hence compact. Therefore, there exists an orthonormal basis $\{ v_{1},\dots,v_{n} \}$ with $\lambda_{1},\dots,\lambda_{n}$ as corresponding eigenvalues. Assume that each eigenvalue of $T$ has multiplicity one and let $x\in \mathcal{H}$. Let $v=\sum_{i=1}^{n}v_{i}$. Then, the following matrix: $$\Lambda:=\begin{bmatrix}1&\lambda_{1}&\dots&\lambda_{1}^{n-1}\\1&\lambda_{2}&\dots&\lambda_{2}^{n-1} \\ \vdots&\vdots&&\vdots\\1&\lambda_{n}&\dots&\lambda_{n}^{n-1}  \end{bmatrix}\in \text{Mat}_{n,n}(\mathbb{C})$$has linearly independent rows and therefore invertible. Let $x\in\mathcal{H}$ have coordinates $\xi\in \mathbb{C}^n$. Now, let $p(x)=\sum_{k=0}^{n-1}a_{k}x^k\in \mathbb{C}[X]$ be the polynomial with coordinates $\Lambda ^{-1}\xi=[a_{0},\dots,a_{n-1}]\in \mathbb{C}^n$. Then, $$p(T)v=\sum_{k=0}^{n-1}a_{k}T^kv=\sum_{k=0}^{n-1}a_{k}\sum_{i=1}^{n}\lambda^k_{i}v_{i}=\sum_{i=1}^{n}\underbrace{ \left( \sum_{k=0}^{n-1}a_{k}\lambda_{i}^k \right) }_{=\xi_{i}  }v_{i}=x$$Conversely, assume that there exists $v\in \mathcal{H}$ with $Av=\mathcal{H}$. For $v=\sum_{i=1}^{n}a_{i}v_{i}$, we claim that $a_{i}\neq 0$. 
+2. 
 
 ---
 1. Let $\varphi\in \widehat{A}$. Then, for any $p(x):=a_{0}+a_{1}x+\dots+a_{m}x^m\in \mathbb{C}[X]$, $$\varphi(p(T))=\varphi(a_{0}\text{id}_{\mathcal{H}}+a_{1}T+\dots+a_{m}T^m)=a_{0}\varphi(\text{id}_{\mathcal{H}})+a_{1}\varphi(T)+\dots+a_{m}\varphi(T)^m=p(\varphi(T))$$with $\varphi(T)\in \mathbb{C}$. Therefore, $\widehat{A}\subseteq \{ \varphi_{\lambda}:\lambda\in \mathbb{C} \}$ where $\varphi_{\lambda}:A\to \mathbb{C},p(T)\to p(\lambda)$. Suppose $\lambda\in \text{Sp}(T)$ with eigenvector $v$. For $p(T)=q(T)\in A$, we have that $$p(\lambda)v=p(T)v=q(T)v=q(\lambda)v$$As $v$ is non-zero, $p(\lambda)=q(\lambda)$ and $\varphi_{\lambda}$ is well-defined. Further, $\varphi_{\lambda}(\text{id}_{\mathcal{H}})=1$ and one can also easily check that $\varphi_{\lambda}$ is a character.
