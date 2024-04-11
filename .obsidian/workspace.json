@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
                 "mode": "preview",
                 "source": false
               }
@@ -280,10 +280,11 @@
   },
   "active": "f12d74f72a4fd842",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Measure Theory/Summable Function.md",
-    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Functional Analysis/Hilbert Space Operator.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Measure Theory/Integrable Function.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
@@ -305,7 +306,6 @@
     "Analysis/Simple Matrix.md",
     "Analysis/Lp Space.md",
     "Topology/Topological Vector Space.md",
-    "Algebra/Linear Algebra/Algebraic and Geometric Multiplicity.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
