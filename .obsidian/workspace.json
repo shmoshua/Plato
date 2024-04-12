@@ -89,6 +89,18 @@
             }
           },
           {
+            "id": "9a035bd76fc3739d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Connected Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e49df22dbf80df6a",
             "type": "leaf",
             "state": {
@@ -119,18 +131,6 @@
               "type": "markdown",
               "state": {
                 "file": "Topology/Locally Compact Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a035bd76fc3739d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -302,13 +302,14 @@
   },
   "active": "12f51f66643d3037",
   "lastOpenFiles": [
-    "Topology/Filter.md",
+    "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 6.md",
+    "Topology/Filter.md",
+    "Topology/Compact Space.md",
     "Topology/Locally Compact Space.md",
     "Topology/Locally Connected Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Compact Space.md",
     "Topology/Hausdorff Space.md",
     "Topology/Locally Complete Metric Space.md",
     "Analysis/Hilbert Space.md",
@@ -318,7 +319,6 @@
     "Topology/Uniform Structure.md",
     "Topology/Complete Space.md",
     "Axiom of Choice.md",
-    "Topology/Connected Space.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Compact Metric Space.md",
     "Analysis/Functional Analysis/Banach Algebra.md",

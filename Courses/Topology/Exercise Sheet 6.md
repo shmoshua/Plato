@@ -13,5 +13,20 @@ We have:
 2. We have that $\mathcal{F}:=\{ A\subseteq X:A^c\text{ is finite} \}$ is a filter. Therefore, there exists an ultrafilter $\mathcal{G}\supseteq\mathcal{F}$. If $\mathcal{G}$ is principal, then there exists a finite set $A\in \mathcal{G}$ and $A^c\notin\mathcal{G}$ which is a contradiction as $A^c\in \mathcal{F}$.
 3. One direction is shown above. Wlog assume that $A\in \mathcal{F}$. Then, $A\subseteq A\cup B\in \mathcal{F}$.
 4. If $\mu(A\cup B)=1$, $A\cup B\in \mathcal{F}$ and $A\in \mathcal{F}$ or $B\in \mathcal{F}$. Assume $A\in \mathcal{F}$. Then, $A^c\notin \mathcal{F}$. However, then if $B\in \mathcal{F}$, then $B\subseteq A^c\in \mathcal{F}$. Therefore, $B\notin\mathcal{F}$ and $\mu(A)+\mu(B)=1$. Conversely, assume that $\mu(A\cup B)=0$. Then, $A\notin \mathcal{F}$ and $B\notin \mathcal{F}$ as  $A,B\subseteq A\cup B$. Therefore, $\mu(A)+\mu(B)=0$.
-5. We have $\nu(A)=\nu(A \backslash B)+\nu(A\cap B)=$
-   
+5. We have $\nu(B)=\nu(B \backslash A)+\nu(A\cap B)$ and $$\nu(A\cup B)+\nu(A\cap B)=\nu(A)+\nu(B \backslash A)+\nu(A\cap B)=\nu(A)+\nu(B)$$
+6. As $\nu(X)=1$, $X\in \mathcal{F_{\nu}}$ and $\nu(\varnothing)=0$ with $\varnothing\notin \mathcal{F}_{\nu}$. For $A\subseteq B$ with $A\in \mathcal{F}_{\nu}$, $\nu(A)=1$ and $\nu(B)=\nu(A)+\nu(B \backslash A)\geq 1$. Therefore, $\nu(B)=1$ and $B\in \mathcal{F}_{\nu}$. Lastly, for $A,B\in \mathcal{F}_{\nu}$, $\nu(A \cap B)=\nu(A)+\nu(B)-\nu(A \cup B)=1$. Therefore, $A\cap B\in \mathcal{F}_{\nu}$. To show that it is an ultrafilter, for $A\subseteq X$, $1=\nu(X)=\nu(A)+\nu(X \backslash A)$. Therefore, either $A\in \mathcal{F}_{\nu}$ or $A^c\in \mathcal{F}_{\nu}$.
+---
+> [!def] Problem 2
+> We have:
+> 1. Let $X$ be a topological space and let $A$ be a connected subset of $X$. If $B$ is a subset of $X$ such that $A\subseteq B\subseteq \overline{A}$, show that $B$ is connected.
+> 2. Let $$A:=\{ (x,y)\in \mathbb{R}^{2} : x>0,y=\text{sin}(1 / x) \}\subseteq \mathbb{R}^{2}$$Show that $A$ is connected.
+
+We have: 
+1. Assume $B$ is disconnected. Then, there exists disjoint open $U_{1},U_{2}$ with $B\subseteq U_{1}\cup U_{2}$ s.t. $B\cap U_{1},B\cap U_{2}\neq \varnothing$. Then, $A\subseteq U_{1}\cup U_{2}$ and $A\cap U_{1}$ and $A\cap U_{2}$ are disjoint. However, as $A$ is connected, we can assume wlog $A\subseteq U_{1}$. Therefore, $U_{2}^c$ is a closed set that contains $A$ and $\overline{A}\subseteq U_{2}^c$. This is a contradiction to $B\subseteq \overline{A}$. 
+2. We have that $f:\mathbb{R}\to \mathbb{R}^{2},x\mapsto(x,\sin(1/x))$ is continuous and $A=f((0,+\infty))$
+---
+> [!def] Problem 3
+> Let $X$ be a topological space and $A\subseteq X$.
+> 1. Show that $$X-\partial A=A^\circ \cup(X \backslash A)^\circ $$
+> 2. Let $B\subseteq X$ be a connected subspace. If $B\cap \partial A$ is empty, show that $B\subseteq A^\circ$ or $B\subseteq(X \backslash A)^\circ$.
+> 3. 
