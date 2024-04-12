@@ -20,4 +20,20 @@ We have:
 
 We have:
 1. as $C_{n}$ is non-empty, we can construct a sequence $(x_{n})_{n}$ where $x_{n}\in C_{n}$. We show that this is a Cauchy sequence. Let $\varepsilon>0$. Then, there exists $N\geq 1$ s.t. $\text{diam}(C_{n})<\varepsilon$ for all $n\geq N$. As $(C_{n})$ is decreasing, for all $n,m\geq N$:$$d(x_{n},x_{m})\leq \text{diam}(C_{N})<\varepsilon$$ Therefore, $x_{n}\to x\in X$. For any $C_{n}$, we have that $(x_{m})_{m\geq n}\subseteq C_{n}$ and as $C_{n}$ is closed, $x\in C_{n}$. This shows that the intersection is non-empty.
-2. Consider $\mathbb{Q}$ with the euclidean subspace topology. 
+2. Consider $\mathbb{Q}$ with the euclidean subspace topology. Consider $C_{n}:=\left[ \pi-\frac{1}{n},\pi+\frac{1}{n} \right]\cap \mathbb{Q}$, which are closed and $\text{diam}(C_{n})\leq \frac{2}{n}$. However, $\bigcap_{n\geq 1}^{}C_{n}=\varnothing$ as $\pi \notin \mathbb{Q}$.
+---
+> [!def] Problem 3
+> Let $X$ be a complete metric space. Let $(C_{n})_{n\geq 1}$ be a sequence of closed subsets of $X$, each with empty interior. Let $C$ be the union of the $C_{n}$ for $n\geq 1$. Let $U$ be a non-empty open subset of $X$.
+> 1. Let $U_{0}=U$. Show that there exists a sequence $(U_{n})_{n\geq 1}$ of non empty open sets in $X$ such that the conditions 
+> 	- $\overline{U_{n}}\cap C_{n}=\varnothing$
+> 	- $\overline{U_{n}}\subseteq U_{n-1}$
+> 	- $d(x,y)< \frac{1}{ n}$ for all $(x,y)\in U_{n}\times U_{n}$
+> 
+>      hold for $n\geq 1$.
+>   2. Show that $\bigcap_{n\geq 1}^{}\overline{U_{n}}\neq \varnothing$.
+>   3. Deduce that $U\cap(X \backslash C)\neq \varnothing$, and therefore that $C$ has empty interior.
+
+We have: 
+1. Let $U_{n-1}$ be a non-empty open set that meets the condition. As $C_{n}$ has an empty interior, there exists $x_{n}\in U_{n-1}\backslash C_{n}$. Then, $x_{n}\notin C_{n}\cup \partial U_{n-1}$ which is a closed set. Therefore, there exists a neighborhood $V_{n}$ of $x$ s.t. $\overline{V_{n}}\cap (C_{n}\cup \partial U_{n-1})=\varnothing$. As $x\in U_{n-1}$, $V_{n}$ meets the first two conditions. Lastly, we just take $U_{n}:=V_{n}\cap B_{< \frac{1}{2n}}(x_{n})$ and all the conditions are satisfied.
+2. As $(\overline{U_{n}})_{n}$ is a decreasing sequence of non-empty closed sets with $\lim_{ n \to \infty } \text{diam}(\overline{U_{n}})=\lim_{ n \to \infty } \frac{1}{n}=0$Therefore, by the previous exercise, $\bigcap_{n\geq 1}^{}\overline{U_{n}}\neq \varnothing$.
+3. Let $x\in \bigcap_{n\geq 1}^{}\overline{U_{n}}$. Then, $x\notin C_{n}$ for all $n$ and $x\notin C$. However, $x\in\overline{U}_{1}\subseteq U$. Therefore, $x\in U\cap(X \backslash C)$. 
