@@ -1,6 +1,7 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
 > A [[Hausdorff space]] $X$ is ***locally compact***, if every point $x\in X$ has a compact neighborhood, i.e. there exists an open set $U$ and a compact set $K$, s.t. $x\in U\subseteq K$.
+- **Remark**: This is equivalent to the [[Locally Compact Space|local compactness]] definition. (cf.) per [[Compact Space|Lemma 3]].
 ---
 ##### Properties
 > [!lemma] Lemma 1

@@ -8,7 +8,7 @@
 4. **Examples of Topological Groups**: [[Topological Group|$\text{Homeo}(X)$]] for compact $X$.
    
 **1.2 Compactness and Local Compactness**
-1. [[Locally Compact Topological Space]]
+1. [[Locally Compact Space]]
 2. [[Locally Compact Hausdorff Space]]
 3. [[Locally Compact Topological Group]]
 4. **Examples of Compact/Locally Compact Topological Groups**: [[Locally Compact Topological Group|Examples]]

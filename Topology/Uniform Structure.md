@@ -14,8 +14,12 @@
 > Let $\mathcal{U}$ be a uniform structure on $X$. Consider the following topology, where $U\subseteq X$ is open if and only if $U$ is empty or for any $x\in U$ there exists $A\in \mathcal{U}$ s.t. $U=\{y\in X:(x,y)\in A \}$.
 
 > [!proof]-
-> We first have that $\varnothing$ is open. Further, $\Delta \subseteq X\times X\in \mathcal{U}$. Therefore, $X$ is open. Let $U_{1},U_{2}$ be open with $A_{1},A_{2}\in \mathcal{U}$ as the corresponding sets. Then, for $x\in U_{1}\cap U_{2}$, $$U_{1}\cap U_{2}=\{ y\in X:(x,y)\in A_{1} \}\cap\{ y\in X:(x,y)\in A_{2} \}=\{ y\in X:(x,y)\in A_{1}\cap A_{2} \}$$where $A_{1}\cap A_{2}\in\mathcal{U}$. Similarly, let $(U_{i})_{i\in I}$ be a family of open sets with $(A_{i})_{i\in I}\subseteq \mathcal{U}$. Then, for $x\in U:=\bigcup_{{i\in I}}^{}U_{i}$. Then, we let $A:=U\times U$ where $$
-> 
+> We first have that $\varnothing$ is open. Further, $\Delta \subseteq X\times X\in \mathcal{U}$. Therefore, $X$ is open. Let $U_{1},U_{2}$ be open with $A_{1},A_{2}\in \mathcal{U}$ as the corresponding sets. Then, for $x\in U_{1}\cap U_{2}$, $$U_{1}\cap U_{2}=\{ y\in X:(x,y)\in A_{1} \}\cap\{ y\in X:(x,y)\in A_{2} \}=\{ y\in X:(x,y)\in A_{1}\cap A_{2} \}$$where $A_{1}\cap A_{2}\in\mathcal{U}$. Similarly, let $(U_{i})_{i\in I}$ be a family of open sets with $(A_{i})_{i\in I}\subseteq \mathcal{U}$. Then, for $x\in U:=\bigcup_{{i\in I}}^{}U_{i}$. Then, we let $A:=U\times U$ where 
+---
+> [!lemma] Theorem 2
+> For a uniform space $(X,\mathcal{U})$, 
+> 1. there exists a continuous map $i:X\to \widehat{X}$ with $\widehat{X}$ Hausdorff and complete s.t. $i(X)$ is dense in $\widehat{X}$ and $i:X\to i(X)$ is a homeomorphism.
+> 2. for any other $j:X\to \widehat{X}'$ with the above properties, there exists a homeomorphism $f:\widehat{X}\to \widehat{X}'$ s.t. $f\circ i = j$.
 ---
 ##### Examples
 > [!h] Example 1 (Metric Space)

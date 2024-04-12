@@ -1,7 +1,7 @@
 #Definition #LieGroups 
 
 > [!definition]
-> A [[topological group]] $G$ is ***locally compact***, if the underlying [[topological space]] is [[Locally Compact Topological Space|locally compact]].
+> A [[topological group]] $G$ is ***locally compact***, if the underlying [[topological space]] is [[Locally Compact Space|locally compact]].
 ---
 ##### Properties
 > [!lemma] Lemma 1

@@ -56,6 +56,12 @@
 **2.3 Completeness**
 1. [[Uniform Structure]]
 1. [[Complete Space]]
+
+**2.4 Local Versions**
+1. [[Locally Compact Space]]
+2. [[Locally Connected Space]]
+3. [[Locally Complete Metric Space]]
+4. [[Locally Compact Hausdorff Space]]
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
