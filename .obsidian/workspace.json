@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/One-Point Compactification.md",
                 "mode": "source",
                 "source": true
               }
@@ -96,6 +96,18 @@
               "state": {
                 "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03920164fd78103e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 4.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -197,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -325,34 +337,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "53eb0cd7e8b506a2",
+  "active": "4c5f434ea28c39b4",
   "lastOpenFiles": [
-    "Topology/Connected Space.md",
+    "Topology/One-Point Compactification.md",
+    "Topology/Compact Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
+    "Courses/Topology/Exercise Sheet 4.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Topology/Exercise Sheet 5.md",
+    "Topology/Connected Space.md",
+    "Topology/Locally Connected Space.md",
     "Topology/Fundamental System.md",
     "Analysis/Cauchy Sequence.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Complete Metric Space.md",
     "Analysis/Convergence of Sequences.md",
-    "Courses/Topology/Exercise Sheet 5.md",
     "Topology/Metric Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Topology/Exercise Sheet 6.md",
-    "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Interior and Closure.md",
     "Topology/Complete Space.md",
-    "Topology/Locally Connected Space.md",
     "Topology/Locally Compact Space.md",
     "Topology/Locally Complete Metric Space.md",
     "Topology/Distance.md",
     "Topology/Cantor Space.md",
     "Topology/Filter.md",
-    "Topology/Compact Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Hausdorff Space.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
