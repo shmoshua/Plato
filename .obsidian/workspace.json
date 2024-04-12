@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -300,10 +300,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "12f51f66643d3037",
+  "active": "4c5f434ea28c39b4",
   "lastOpenFiles": [
     "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 6.md",
+    "Topology/Cantor Space.md",
+    "Topology/Interior and Closure.md",
     "Topology/Filter.md",
     "Topology/Compact Space.md",
     "Topology/Locally Compact Space.md",
@@ -326,8 +328,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Measure Theory/Summable Function.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
-    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

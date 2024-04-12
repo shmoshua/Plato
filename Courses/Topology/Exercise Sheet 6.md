@@ -27,6 +27,32 @@ We have:
 ---
 > [!def] Problem 3
 > Let $X$ be a topological space and $A\subseteq X$.
-> 1. Show that $$X-\partial A=A^\circ \cup(X \backslash A)^\circ $$
+> 1. Show that $$X\backslash\partial A=A^\circ \cup(X \backslash A)^\circ $$
 > 2. Let $B\subseteq X$ be a connected subspace. If $B\cap \partial A$ is empty, show that $B\subseteq A^\circ$ or $B\subseteq(X \backslash A)^\circ$.
-> 3. 
+> 3. For $B$ as above, if $B\cap A$ and $B\cap(X \backslash A)$ are both non-empty, deduce that $B\cap \partial A\neq \varnothing$.
+> 4. If $X$ is connected, and $A$ is not empty nor equal to $X$, show that $\partial A$ is not empty.
+> 5. If $X$ is not connected, find a subset $A$, not empty nor equal to $X$, with empty boundary.
+
+We have:
+1. $$X\backslash\partial A=X\backslash (\overline{A}\cap \overline{X\backslash A})=X \backslash \overline{A}\cup X \backslash \overline{X\backslash A}=(X \backslash A)^\circ \cup A^\circ $$
+2. If $B\cap \partial A$ is empty, $B\cap A^\circ$ and $B\cap(X \backslash A)^\circ$ are two open subsets that cover $B$. As $B$ is connected, we have that either $B\subseteq A^\circ$ or $B\subseteq(X \backslash A)^\circ$.
+3. If $B\cap \partial A=\varnothing$ then either $B\subseteq A^\circ\subseteq A$ or $B\subseteq(X\backslash A)^\circ\subseteq (X \backslash A)$. This is a contradiction.
+4. If $\partial A$ is empty, then $A^\circ=\varnothing$ or $(X \backslash A)^\circ=\varnothing$. If $A^\circ$ is empty, $A\subseteq A^\circ \cup \partial A=\varnothing$ and if $(X \backslash A)^\circ=\varnothing$, then $\overline{A}=X$ and $\varnothing=X \backslash A^\circ$. Therefore, $X= A^\circ=A$. This is a contradiction.
+5. If $X$ is not connected there exists $U,V$ open disjoint s.t. $U,V$ are both non-empty. As we have $X \backslash \partial U=U\cup V=X$, $\partial U$ is empty.
+---
+> [!def] Problem 4
+> Let $C$ be the Cantor space. Show that if $A\subseteq C$ is connected, then $A$ is either empty or a single point.
+
+Assume $A$ is connected but $\left| A \right|\geq 2$. Then, there exists $x,y\in A$ s.t. there exists $n$ where $x_{n}\neq y_{n}$. Let $U:=\{ z\in C: z_{n}=x_{n} \}$ and $V:=\{ z\in C:z_{n}=y_{n} \}$. Then, they are disjoint and open with $U\sqcup V=C \supseteq A$. Therefore, $U\cap A=\varnothing$ or $V\cap A=\varnothing$, which is a contradiction.
+
+---
+> [!def] Problem 5
+> Let $d\geq 0$ be an integer.
+> 1. Show that $\mathbb{R}^d$ is connected.
+> 2. If $d=1$, show that $\mathbb{R}^d \backslash \{ 0 \}$ is not connected. What are its connected components?
+> 3. If $d\geq 2$, show that $\mathbb{R}^d \backslash\{ 0 \}$ is connected.
+> 4. Show that $\mathbb{S}^d$ is connected if and only if $d\geq 1$.
+> 5. For $r\geq0$, show that $B_{\leq r}(0)$ is connected.
+
+We have:
+1. Consider $d=0$. Then, $\mathbb{R}^0=\{ 0 \}$ and is connected as it is discrete. For $d=1$, $\mathbb{R}$ is connected as it is an interval $(-\infty,+\infty)$. Now, let $f:\mathbb{R}^d\to \{ 0,1 \}$ be continuous. Consider $g:\mathbb{R}\to \mathbb{R}^d,x\mapsto (x,\dots,x)$. Then, $f\circ g:\mathbb{R}\to \{ 0,1 \}$ is continuous and constant. 
