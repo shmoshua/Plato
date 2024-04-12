@@ -50,8 +50,12 @@
 1. [[Compact Space]]
 1. [[Compact Metric Space]]
 
-**2.2 Completeness**
+**2.2 Connectedness**
 1. [[Connected Space]]
+
+**2.3 Completeness**
+1. [[Uniform Structure]]
+1. [[Complete Space]]
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]

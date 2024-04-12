@@ -8,7 +8,9 @@
 > 4. For all pair of disjoint open sets $U_{1},U_{2}\subseteq X$, if $U_{1}\cup U_{2}=X$ then,$$U_{1}=\varnothing\lor U_{2}=\varnothing$$
 > 5. The only sets that are both open and closed are $\varnothing$ and $X$.
 - **Related definition**: A set $A\subseteq X$ is ***connected*** if $A$ is connected subspace of $X$. 
-- **Related definition**: For $x,y\in X$, we define the equivalence relation $x\sim y$ if and only if there exists a connected set $A\subseteq X$ s.t. $\{ x,y \}\subseteq A$. Then, the equivalence classes define the ***connected components*** of $X$. 
+- **Related definition**: For $x,y\in X$, we define the equivalence relation $x\sim y$ if and only if there exists a connected set $A\subseteq X$ s.t. $\{ x,y \}\subseteq A$. Then, the equivalence classes define the ***connected components*** of $X$. Similarly for $x_{0}\in X$, the connected component of $x_{0}$ is the union of all connected subspaces of $X$ containing $x_{0}$, i.e. $\bigcup_{x_{0}\in A\subseteq X,A \text{ connected}}^{}A$.
+- **Remark**: the connected component of $x_{0}$ is the largest connected set containing $x_{0}$.
+- **Related definition**: $X$ is ***totally disconnected***, if for all $x_{0}\in X$, the connected component of $x_{0}$ is $\{ x_{0} \}$, e.g. $\mathbb{Q}$.
 ---
 ##### Properties
 
@@ -28,6 +30,7 @@
 > We have: 
 > 1. Let $\overline{A}=U_{1}\cup U_{2}$ where $U_{1},U_{2}$ are disjoint. Then, $A=(U_{1}\cap A)\cup(U_{2}\cap A)$ and by connectedness, $U_{1}\cap A=\varnothing$ or $U_{2}\cap A=\varnothing$. Wlog assume $U_{1}\cap A=\varnothing$. Then, $A\subseteq U_{2}$. Therefore, $$U_{1}=U_{1}\cap \overline{A}\subseteq U_{1}\cap \overline{U_{2}}=\varnothing$$
 > 2. Let $f(A)=U_{1}\cup U_{2}$ where $U_{1},U_{2}$ are disjoint open. Then, $f^{-1}(U_{1}),f^{-1}(U_{2})$ are disjoint open and $A=f^{-1}(U_{1})\cup f^{-1}(U_{2})$. Therefore, wlog $f^{-1}(U_{1})=\varnothing$. Therefore, $U_{1}=\varnothing$.
+
 ---
 ##### Examples
 > [!h] Example
@@ -41,3 +44,4 @@
 > Conversely, assume $A=[a,b]$ with $a\leq b$. Let $A=U_{1}\sqcup U_{2}$ with $U_{1},U_{2}$ open. Let wlog $a\in U_{1}$, we need to show that $A=U_{1}$. Let $c:=\sup_{{[a,t]\subseteq U_{1}}} t$. Then, we claim that $[a,c]\subseteq U_{1}$. Otherwise, $c\in U_{2}$ and as $U_{2}$ is open, there exists $\varepsilon>0$ s.t. $(c-\varepsilon,c+\varepsilon)\cap A\subseteq U_{2}$. Therefore, $c\leq c-\varepsilon$, which is a contradiction.
 > 
 > Assume $c\neq b$. Then, there exists $\varepsilon>0$ s.t. $(c-\varepsilon,c+\varepsilon)\cap A\subseteq U_{1}$ and $c+\varepsilon<b$. This is a contradiction to the maximality of $c$, as $\left[ a,c+\frac{\varepsilon}{2} \right]\subseteq U_{1}$. 
+---
