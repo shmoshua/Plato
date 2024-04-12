@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convergence of Sequences.md",
+                "file": "Analysis/Cauchy Sequence.md",
                 "mode": "preview",
                 "source": false
               }
@@ -327,16 +327,17 @@
   },
   "active": "53eb0cd7e8b506a2",
   "lastOpenFiles": [
+    "Topology/Complete Metric Space.md",
+    "Courses/Topology/Exercise Sheet 7.md",
+    "Analysis/Cauchy Sequence.md",
+    "Analysis/Convergence of Sequences.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Topology/Metric Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Courses/Topology/Exercise Sheet 7.md",
     "Courses/Topology/Exercise Sheet 6.md",
     "Courses/Topology/Exercise Sheet 4.md",
-    "Analysis/Convergence of Sequences.md",
     "Topology/Interior and Closure.md",
-    "Topology/Complete Metric Space.md",
     "Topology/Complete Space.md",
     "Topology/Locally Connected Space.md",
     "Topology/Locally Compact Space.md",
@@ -352,7 +353,6 @@
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Locally Connected Topological Space.md",
-    "Topology/Uniform Structure.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
