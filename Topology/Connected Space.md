@@ -13,6 +13,13 @@
 ##### Properties
 
 > [!lemma] Lemma 1
+> Let $X$ be a [[topological space]] and $(A_{i})_{i\in I}$ be any family of connected subsets of $X$. If $\bigcap_{i\in I}^{}A_{i}\neq \varnothing$, then $\bigcup_{i\in I}^{}A_{i}$ is connected.
+
+> [!proof]-
+> Let $f:\bigcup_{{i}}^{}A_{i}\to \{ 0,1 \}$ to be continuous. Then, $f|_{A_{i}}$ is continuous for each $i$ so constant. However, $\bigcap_{i\in I}^{}A_{i}\neq \varnothing$, hence $f$ is constant.
+---
+
+> [!lemma] Lemma 2
 > For a connected set $A\subseteq X$ and $f:X\to Y$ continuous, 
 > 1. $\overline{A}$ is connected.
 > 2. $f(A)$ is connected.
