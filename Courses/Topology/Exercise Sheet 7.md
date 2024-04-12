@@ -78,4 +78,10 @@ We have:
 
    We have for finite $I$,$$\bigcap_{i\in I}^{}(X \backslash K_{i}) \cup \{ \infty \}=\left( X \backslash \bigcup_{i\in I}^{}K_{i} \right) \cup \{ \infty \},\quad \bigcup_{\lambda\in \Lambda}^{}(X \backslash K_{\lambda})\cup \{ \infty \}= \left( X \backslash \bigcap_{\lambda\in \Lambda}^{}K_{\lambda} \right) \cup \{ \infty \} $$
 $$U\cap((X \backslash K)\cup \{ \infty \})=(X \backslash C)\cap(X \backslash K)=X \backslash (C \cup K)$$$$U\cup((X \backslash K)\cup \{ \infty \})=(X \backslash C)\cup(X\backslash K)\cup \{ \infty \}=(X \backslash (C\cap K))\cup \{ \infty \}$$Therefore, $\tau_{\infty}$ is a topology on $\widehat{X}$.
-2. 
+2. Let $x\neq y\in \widehat{X}$. If $x$ is $\infty$ wlog, then $y\in X$ and there exists a compact neighborhood $K$ of $y$. Let $U\subseteq K$. Then, $V:=\{ \infty \}\cup(X \backslash K)$ is an open neighborhood of $x$ and $U\cap V=\varnothing$. 
+   
+   If $x,y\in X$, then as $X$ is Hausdorff, there exists disjoint neighborhoods $U,V$ of $x,y$.
+3. Let $U\subseteq \widehat{X}$ be non-empty open. If $U$ is open in $X$, $i^{-1}(U)=U$ is of course open. If $U=\{ \infty \}\cup(X \backslash C)$ for some compact $C$, then $i^{-1}(U)=X \backslash C$ which is open as $C$ is closed as a compact subset of a Hausdorff space. Moreover, $i(X)=X$ and $i|_{X}^{-1}=i$. Therefore, $i$ is a continuous bijection and a homeomorphism.
+4. Let $\mathcal{U}:=(U_{i})_{i\in I}$ be an open cover of $\widehat{X}$. Then, there exists $U_{\infty}\in \mathcal{U}$ s.t. $U_{\infty}=\{ \infty \}\cup(X \backslash C)$ for compact $C$. Then, $\mathcal{U}\backslash\{ U_{\infty} \}$ is an open cover of $C$ and there exists a finite subcover $\mathcal{V}$. Then, $\mathcal{V}\cup \{ U_{\infty} \}$ is a finite subcover of $\widehat{X}$.
+5. If $X$ is compact, then $\{ \infty \}=\{ \infty \}\cup X \backslash X$ is open and closed at the same time. Therefore, $\widehat{X}$ is a compact space with an addition of a disjoint point. 
+---
