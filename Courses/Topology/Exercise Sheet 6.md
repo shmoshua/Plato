@@ -55,4 +55,4 @@ Assume $A$ is connected but $\left| A \right|\geq 2$. Then, there exists $x,y\in
 > 5. For $r\geq0$, show that $B_{\leq r}(0)$ is connected.
 
 We have:
-1. Consider $d=0$. Then, $\mathbb{R}^0=\{ 0 \}$ and is connected as it is discrete. For $d=1$, $\mathbb{R}$ is connected as it is an interval $(-\infty,+\infty)$. Now, let $f:\mathbb{R}^d\to \{ 0,1 \}$ be continuous. Consider $g:\mathbb{R}\to \mathbb{R}^d,x\mapsto (x,\dots,x)$. Then, $f\circ g:\mathbb{R}\to \{ 0,1 \}$ is continuous and constant. 
+1. Consider $d=0$. Then, $\mathbb{R}^0=\{ 0 \}$ and is connected as it is discrete. For $d=1$, $\mathbb{R}$ is connected as it is an interval $(-\infty,+\infty)$. Let $f:\mathbb{R}^d\to \{ 0,1 \}$ be continuous. Consider for $v\in \mathbb{R}^{d-1}$, $$\begin{array}{cccc} {g_{v}:}&{\mathbb{R}}&\to&{\mathbb{R}^d}\\&{x} &\mapsto & {(x,v)} \end{array}{}$$Then, $g_{v}$ is continuous: let $U\subseteq \mathbb{R}^d$ open. 
