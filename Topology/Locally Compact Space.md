@@ -18,3 +18,9 @@
 > 2. $\mathbb{R}^n$ is locally compact.
 > 3. Any [[topological manifold]] is locally compact.
 ---
+> [!h] Example 2
+> Any [[compact space]] $X$ is locally compact.
+
+> [!proof]-
+> Let $x\in X$ and $U\subseteq X$ be an open neighborhood. Then, by [[Compact Space|Lemma 3]], there exists a compact set $x\in K\subseteq U$. Therefore, $X$ is locally compact.
+---

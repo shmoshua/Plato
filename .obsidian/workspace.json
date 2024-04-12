@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Topology/Locally Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -159,8 +159,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md"
+                "file": "Courses/Topology/Topology Roadmap.md"
               }
             }
           }
@@ -290,13 +289,13 @@
   },
   "active": "d7901e0671c3fbd6",
   "lastOpenFiles": [
-    "Topology/Compact Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Locally Connected Space.md",
+    "Topology/Compact Space.md",
     "Topology/Locally Compact Space.md",
     "Topology/Hausdorff Space.md",
-    "Topology/Locally Connected Space.md",
     "Topology/Locally Complete Metric Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
