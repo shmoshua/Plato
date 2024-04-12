@@ -12,4 +12,6 @@ We have:
 1. Assume $\mathcal{F}$ is a principal ultrafilter of $x\in X$. Then, $\{ x \}\in \mathcal{F}$. Conversely, let $A\subseteq X$ be a finite set s.t. $A\in \mathcal{F}$. Let $F\cup G\in \mathcal{F}$. Then, $F\in\mathcal{F}$ or $G\in \mathcal{F}$. Assume otherwise. Then, $F^c,G^c$ are in $\mathcal{F}$ and $F^c\cap G^c=(F\cup G)^c\in \mathcal{F}$, which is a contradiction. Therefore, there exists $x\in A$ s.t. $\{ x \}\in \mathcal{F}$.
 2. We have that $\mathcal{F}:=\{ A\subseteq X:A^c\text{ is finite} \}$ is a filter. Therefore, there exists an ultrafilter $\mathcal{G}\supseteq\mathcal{F}$. If $\mathcal{G}$ is principal, then there exists a finite set $A\in \mathcal{G}$ and $A^c\notin\mathcal{G}$ which is a contradiction as $A^c\in \mathcal{F}$.
 3. One direction is shown above. Wlog assume that $A\in \mathcal{F}$. Then, $A\subseteq A\cup B\in \mathcal{F}$.
-4. If $\mu(A\cup B)=1$, $A\cup B\in \mathcal{F}$ and $A$
+4. If $\mu(A\cup B)=1$, $A\cup B\in \mathcal{F}$ and $A\in \mathcal{F}$ or $B\in \mathcal{F}$. Assume $A\in \mathcal{F}$. Then, $A^c\notin \mathcal{F}$. However, then if $B\in \mathcal{F}$, then $B\subseteq A^c\in \mathcal{F}$. Therefore, $B\notin\mathcal{F}$ and $\mu(A)+\mu(B)=1$. Conversely, assume that $\mu(A\cup B)=0$. Then, $A\notin \mathcal{F}$ and $B\notin \mathcal{F}$ as  $A,B\subseteq A\cup B$. Therefore, $\mu(A)+\mu(B)=0$.
+5. We have $\nu(A)=\nu(A \backslash B)+\nu(A\cap B)=$
+   
