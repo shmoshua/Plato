@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Metric Space.md",
+                "file": "Topology/Complete Metric Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Interior and Closure.md",
+                "file": "Analysis/Convergence of Sequences.md",
                 "mode": "preview",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Complete Space.md",
+                "file": "Topology/Complete Metric Space.md",
                 "mode": "source",
                 "source": false
               }
@@ -315,32 +315,32 @@
   },
   "active": "53eb0cd7e8b506a2",
   "lastOpenFiles": [
-    "Topology/Metric Space.md",
+    "Analysis/Convergence of Sequences.md",
+    "Topology/Interior and Closure.md",
+    "Topology/Complete Metric Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Complete Space.md",
+    "Topology/Metric Space.md",
+    "Topology/Locally Connected Space.md",
+    "Topology/Locally Compact Space.md",
+    "Topology/Locally Complete Metric Space.md",
     "Topology/Distance.md",
     "Topology/Connected Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 6.md",
     "Topology/Cantor Space.md",
-    "Topology/Interior and Closure.md",
     "Topology/Filter.md",
     "Topology/Compact Space.md",
-    "Topology/Locally Compact Space.md",
-    "Topology/Locally Connected Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Hausdorff Space.md",
-    "Topology/Locally Complete Metric Space.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Locally Connected Topological Space.md",
     "Topology/Uniform Structure.md",
-    "Topology/Complete Space.md",
     "Axiom of Choice.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Compact Metric Space.md",
-    "Analysis/Functional Analysis/Banach Algebra.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
