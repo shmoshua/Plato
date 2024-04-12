@@ -56,4 +56,7 @@ We have that:
 > 5. Give an example of a locally connected space which is not connected.
 
 We have:
-1. 
+1. We define the following functions: 
+	$$\begin{array}{cccc} {f_{n}:}&{\left[ 0,2+\frac{1}{n} \right]}&\to&{\mathbb{R}^{2}}\\&{x} &\mapsto & {\begin{cases}\left( \frac{1}{n},x-1 \right)&x\in[0,2]\\\left( 2+\frac{1}{n}-x,1 \right)&\text{otherwise}\end{cases}} \end{array}{}$$and $f_{0}:[0,2]\to \mathbb{R}^{2},x\mapsto(0,x-1)$. Then, one can easily see that the functions are continuous and as the domains are all intervals, $\text{im }f_{n}$ for all $n\geq 0$ is connected. As $(0,1)\in \bigcap_{n\geq 0}^{}\text{im }f_{n}$, $X=\bigcup_{n\geq 0}^{}\text{im }f_{n }$ is connected.
+2. Let $V$ be an open neighborhood of $x_{0}$ in $X$. Then, there exists $U$ open in $\mathbb{R}^{2}$ s.t. there exists $r>0$ s.t. $B_{<r}(x_{0})\subseteq U$. Therefore, $U_{r /\sqrt{ 2 }}\subseteq V$. One can also easily see that $U_{\delta}$ is open for any $0<\delta<1$. 
+3. Assume there exists a larger connected component $V$ of $x_{0}$ in $U_{\delta}$. Then, $y_{0}\in V$ s.t. $y_{0}\notin U_{\delta}\backslash(\{ 0 \}\times(-\delta,\delta))$. This means $y_{0}=\left( \frac{1}{n},y \right)$ where $0<\frac{1}{n}<\delta$. Then, 

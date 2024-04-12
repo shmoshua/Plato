@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Complete Metric Space.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -327,11 +327,13 @@
   },
   "active": "53eb0cd7e8b506a2",
   "lastOpenFiles": [
-    "Topology/Complete Metric Space.md",
+    "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
+    "Topology/Fundamental System.md",
     "Analysis/Cauchy Sequence.md",
-    "Analysis/Convergence of Sequences.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Topology/Complete Metric Space.md",
+    "Analysis/Convergence of Sequences.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Topology/Metric Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
@@ -343,7 +345,6 @@
     "Topology/Locally Compact Space.md",
     "Topology/Locally Complete Metric Space.md",
     "Topology/Distance.md",
-    "Topology/Connected Space.md",
     "Topology/Cantor Space.md",
     "Topology/Filter.md",
     "Topology/Compact Space.md",
@@ -352,7 +353,6 @@
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
-    "Locally Connected Topological Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
