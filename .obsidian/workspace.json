@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 7.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04571c0e88b95b0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -209,7 +221,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -275,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 7.md",
+                "file": "Lie Group/Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 7.md",
+                "file": "Lie Group/Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 7.md"
+                "file": "Lie Group/Topological Group.md"
               }
             }
           }
@@ -337,10 +349,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "53eb0cd7e8b506a2",
+  "active": "4c5f434ea28c39b4",
   "lastOpenFiles": [
-    "Topology/Locally Compact Space.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Topological Group.md",
     "Courses/Topology/Exercise Sheet 7.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Locally Compact Space.md",
     "Topology/Compact Space.md",
     "Topology/Compact sets.md",
     "Topology/Locally Compact Hausdorff Space.md",
@@ -351,7 +366,6 @@
     "Analysis/Cauchy Sequence.md",
     "Topology/Connected Space.md",
     "Topology/Locally Connected Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Topology/Fundamental System.md",
     "Analysis/Convergence of Sequences.md",
@@ -363,8 +377,6 @@
     "Topology/Distance.md",
     "Topology/Cantor Space.md",
     "Topology/Filter.md",
-    "Topology/Hausdorff Space.md",
-    "Analysis/Hilbert Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

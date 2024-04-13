@@ -59,7 +59,7 @@ We have:
 1. We define the following functions: 
 	$$\begin{array}{cccc} {f_{n}:}&{\left[ 0,2+\frac{1}{n} \right]}&\to&{\mathbb{R}^{2}}\\&{x} &\mapsto & {\begin{cases}\left( \frac{1}{n},x-1 \right)&x\in[0,2]\\\left( 2+\frac{1}{n}-x,1 \right)&\text{otherwise}\end{cases}} \end{array}{}$$and $f_{0}:[0,2]\to \mathbb{R}^{2},x\mapsto(0,x-1)$. Then, one can easily see that the functions are continuous and as the domains are all intervals, $\text{im }f_{n}$ for all $n\geq 0$ is connected. As $(0,1)\in \bigcap_{n\geq 0}^{}\text{im }f_{n}$, $X=\bigcup_{n\geq 0}^{}\text{im }f_{n }$ is connected.
 2. Let $V$ be an open neighborhood of $x_{0}$ in $X$. Then, there exists $U$ open in $\mathbb{R}^{2}$ s.t. there exists $r>0$ s.t. $B_{<r}(x_{0})\subseteq U$. Therefore, $U_{r /\sqrt{ 2 }}\subseteq V$. One can also easily see that $U_{\delta}$ is open for any $0<\delta<1$. 
-3. Assume there exists a larger connected component $V$ of $x_{0}$ in $U_{\delta}$. Then, $y_{0}\in V$ s.t. $y_{0}\notin U_{\delta}\backslash(\{ 0 \}\times(-\delta,\delta))$. This means $y_{0}=\left( \frac{1}{n},y \right)\in \mathbb{R}^{2}$ where $0<\frac{1}{n}<\delta$. Let $f:V\to \{ 0,1 \}$ where $f((x,y))=0$ if $x= \frac{1}{n}$ and $f((x,y))=1$ if $x\neq \frac{1}{n}$. Then, $f^{-1}(\{ 0 \})=U_{\delta}\cap \left( \frac{1}{n+1} ,\frac{1}{n-1}\right)\times(-\delta,\delta)$ is open and $f^{-1}(\{ 1 \})=U_{\delta}\cap\left(  \mathbb{R}^{2} \backslash\left\{  \frac{1}{n}  \right\}\times[-\delta,\delta] \right)$ which is open. This is a contradiction to $V$ being connected.
+3. Assume there exists a larger connected component $V$ of $x_{0}$ in $U_{\delta}$. Then, $y_{0}\in V$ s.t. $y_{0}\notin U_{\delta}\backslash(\{ 0 \}\times(-\delta,\delta))$. This means $y_{0}=\left( \frac{1}{n},y \right)\in \mathbb{R}^{2}$ where $0<\frac{1}{n}<\delta$. Let $f:V\to \{ 0,1 \}$ where $f((x,y))=0$ if $x= \frac{1}{n}$ and $f((x,y))=1$ if $x\neq \frac{1}{n}$. Then, $f^{-1}(\{ 0 \})=U_{\delta}\cap \left( \frac{1}{n+1} ,\frac{1}{n-1}\right)\times(-\delta,\delta)$ is open and $f^{-1}(\{ 1 \})=U_{\delta}\cap\left(  \mathbb{R}^{2} \backslash\left\{  \frac{1}{n}  \right\}\times[-\delta,\delta] \right)$ which is open. Therefore, $f$ is a non-constant continuous function. This is a contradiction to $V$ being connected.
 4. Assume $X$ is locally connected. Then, for all $\delta>0$, $\{ 0 \}\times(-\delta,\delta)$ is open in $X$. Therefore, there exists $r>0$ s.t. $B_{<r}(0)\cap X\subseteq \{ 0 \}\times(-\delta,\delta)$. This is a contradiction as there exists $n\geq 1$ s.t. $\frac{1}{n}<r$ and $\left( \frac{1}{n},0 \right)\in B_{<r}(0)\cap X$.
 5. Any discrete space with more than 1 element is locally connected but not connected.
 ---
@@ -72,9 +72,9 @@ We have:
 > 5. Where in this proof was it used that $X$ is locally compact? What happens if $X$ is assumed to be compact?
 
 We have: 
-1. It suffices to show that: 
+1. As $\varnothing$ is compact, $\widehat{X}$ is open and it suffices to show that: 
 	- the union and finite intersection of $(X \backslash K)\cup \{ \infty \}$ are closed among themselves.
-	- for $U,K\subseteq X$ where $U$ open and $K$ closed and compact in $X$, the union and intersection of $U$ and $(X \backslash K)\cup \{ \infty \}$ is again one of the two kinds. 
+	- for $U,K\subseteq X$ where $U$ open and $K$ compact in $X$, the union and intersection of $U$ and $(X \backslash K)\cup \{ \infty \}$ is again one of the two kinds. 
 
    We have for finite $I$,$$\bigcap_{i\in I}^{}(X \backslash K_{i}) \cup \{ \infty \}=\left( X \backslash \bigcup_{i\in I}^{}K_{i} \right) \cup \{ \infty \},\quad \bigcup_{\lambda\in \Lambda}^{}(X \backslash K_{\lambda})\cup \{ \infty \}= \left( X \backslash \bigcap_{\lambda\in \Lambda}^{}K_{\lambda} \right) \cup \{ \infty \} $$
 $$U\cap((X \backslash K)\cup \{ \infty \})=(X \backslash C)\cap(X \backslash K)=X \backslash (C \cup K)$$$$U\cup((X \backslash K)\cup \{ \infty \})=(X \backslash C)\cup(X\backslash K)\cup \{ \infty \}=(X \backslash (C\cap K))\cup \{ \infty \}$$Therefore, $\tau_{\infty}$ is a topology on $\widehat{X}$.
