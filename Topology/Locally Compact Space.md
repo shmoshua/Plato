@@ -7,7 +7,7 @@
 > [!lemma] Proposition 1
 > For a locally compact topological space $X$, every neighborhood $U$ of $x$ contains a compact neighborhood.
 
-> [!proof]+
+> [!proof]-
 > Let $K$ be the compact neighborhood of $x$. Then, $U\cap K$
 > Then, $U\cap V\subseteq U$ and $\overline{U\cap V}\subseteq \overline{V}$ which is compact.
 ---

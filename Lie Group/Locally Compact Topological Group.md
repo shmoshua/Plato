@@ -55,7 +55,7 @@
 ---
 > [!h] Example 4
 > For $\text{GL}(n,\mathbb{R})$, 
-> 1. $\text{A},\text{UT}(n,\mathbb{R}(),\text{O}(n)$ from [[Topological Group|Example 5]] are locally compact.
+> 1. $\text{A},\text{UT}(n,\mathbb{R}),\text{O}(n)$ from [[Topological Group|Example 5]] are locally compact.
 > 2. $\text{O}(n)$ is compact.
 > 3. $\text{O}(p,q)\subseteq \text{GL}(n,\mathbb{R})$ is compact if $p=n$ or $q=n$. 
 > 4. $\text{O}(1,1)$ is non-compact.
