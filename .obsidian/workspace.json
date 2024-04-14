@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Locally Compact Topological Group.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -360,15 +360,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "12f51f66643d3037",
+  "active": "2bd9aa713ed662fb",
   "lastOpenFiles": [
+    "Lie Group/Locally Compact Topological Group.md",
+    "Lie Group/Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Connected Space.md",
     "Analysis/Functional Analysis/Unitary Linear Map.md",
-    "Lie Group/Locally Compact Topological Group.md",
     "Topology/Locally Compact Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Lie Group/Topological Group.md",
     "Topology/One-Point Compactification.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Courses/Topology/Topology Roadmap.md",
