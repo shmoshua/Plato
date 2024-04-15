@@ -2,12 +2,21 @@
 
 > [!definition]
 > Let $A$ be a commutative [[Banach algebra]]. A ***character*** of $A$ is a non-trivial [[C-Algebra|$\mathbb{C}$-algebra]] homomorphism $\chi:A\to \mathbb{C}$. Then, the ***Guelfand spectrum*** $\hat{A}$ of $A$ is defined as the set of characters of $A$.
-- **Remark**: For any character $\chi\in \hat{A}$, $\chi(A)$ is a vector subspace of $\mathbb{C}$, i.e. $\chi(A)=\mathbb{C}$.
-- **Remark**: If a $\mathbb{C}$-algebra $A$ has a unit $e$, then for any $\mathbb{C}$-algebra homomorphism $\varphi:A\to \mathbb{C}$, $\varphi(e)=1$.
+
 - **Remark**: Given any $\mathbb{C}$-algebra homomorphism $\varphi:A\to \mathbb{C}$, we can define: $$\begin{array}{cccc} {\varphi_{I}:}&{A\times \mathbb{C}}&\to&{\mathbb{C}}\\&{(x,\lambda)} &\mapsto & {\varphi(x)+\lambda} \end{array}{}$$Then, $\hat{A}_{I}=\{ \varphi_{I}:\varphi\in \hat{A} \}\cup \{ \varphi_{\infty} \}$ where $\varphi_{\infty}(x,\lambda)=\lambda$. One also often denotes $\hat{A}_{I}=\hat{A}\cup \{ \varphi_\infty \}$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
+> Let $\chi\in \widehat{A}$ be a character. Then, 
+> 1. $\chi(A)=\mathbb{C}$. 
+> 2. If $A$ is unital, $\chi(e)=1$.
+
+> [!proof]+
+> As $\chi$ is a $\mathbb{C}$-algebra homomorphism, $\chi(A)$ is a $\mathbb{C}$-vector subspace of $\mathbb{C}$ which is $(0)$ or $\mathbb{C}$. But $\chi$ is non-trivial by definition. 
+> 
+> If $A$ is unital, for all $\lambda\in \mathbb{C}$, there exists $x\in A$ s.t. $\chi(x)=\lambda$. Therefore, $$\chi(e)\lambda=\chi(e)\chi(x)=\chi(ex)=\chi(x)=\lambda$$
+---
+> [!lemma] Proposition 2
 > For every $\varphi\in \hat{A}$ we have: $$\left| \varphi(x) \right| \leq\|x\|_{\text{sp}}\quad \forall x\in A$$ In particular, $\varphi\in A^{*}$ with $\left\| \varphi \right\|\leq 1$ with equality if $A$ is unital with $\|e\|=1$ for the unit.
 
 > [!proof]-
@@ -15,7 +24,7 @@
 > 
 > Further, as $\|x\|_{\text{sp}}\leq\|x\|$, $\left\| \varphi \right\|\leq 1$. If $\|e\|=1$, then since $\varphi(e)=1=\|e\|$, $\|\varphi\|=1$.
 ---
-> [!lemma] Theorem 2
+> [!lemma] Theorem 3
 > Let $A$ be a commutative [[Banach algebra]]. Then, $\varphi\mapsto \text{ker }\varphi$ gives a bijection between $\hat{A}$ and $$\text{Max}(A):=\{ I\subseteq A :I \text{ regular maximal ideal}\}$$
 
 > [!proof]-
