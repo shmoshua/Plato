@@ -33,7 +33,7 @@
 
 > [!proof]-
 > (1=>2) holds from Theorem 2. For the converse, suppose that $[F(\alpha):F]=n$. Then, $$1,\alpha,\dots,\alpha^n$$are linearly dependent and there exists $b_{0},\dots,b_{n}\in F$ not all zero, s.t. $$b_{0}+b_{1}\alpha+\dots+b_{n}\alpha^n=0$$By defining $g(x):=b_{0}+b_{1}x+\dots+b_{n}x^n\in F[X]$, we have that $\alpha$ is algebraic over $F$. 
-- **Corollary**: If $[K:F]$ is finite, $K:F$ is an [[Algebraic and Transcendental Number|algebraic extension]]. (cf. [[Extension Field|Theorem 2]])
+- **Corollary**: If $[K:F]$ is finite, $K:F$ is an [[Algebraic and Transcendental Element|algebraic extension]]. (cf. [[Extension Field|Theorem 2]])
 ---
 > [!lemma] Theorem 3
 > Let $L:K:F$. If $L$ is algebraic over $K$ and $K$ is algebraic over $F$, then $L$ is algebraic over $F$. 
@@ -41,6 +41,10 @@
 > [!proof]-
 > Let $\alpha\in L$. Then, $\alpha$ is algebraic over $K$ and therefore, there exists a polynomial $$p(x)=a_{0}+a_{1}\alpha+\dots+a_{n}\alpha^n\in K[X]$$As $a_{i}$ is algebraic over $F$ for all $i$, we have: $[F(a_{0},a_{1},\dots,a_{n}):F]<+\infty$. Therefore, $$[F(a_{0},a_{1},\dots,a_{n},\alpha):F]=[F(a_{0},a_{1},\dots,a_{n},\alpha):F(a_{0},\dots,a_{n})][F(a_{0},\dots ,a_{n}):F]<+\infty$$Therefore, $\alpha$ is algebraic over $F$.
 ---
-> [!lemma] Theorem 4
-> For a [[Extension Field|field extension]] $L:K$ and $\alpha\in L$ transcendental over $K$. Then, $\text{ev}_{\alpha}:K[x]\to K[\alpha]$ extends to an isomorphism $\Phi:K(x)\to K(\alpha)$
+> [!lemma] Theorem 4 (Transcendental Element Isomorphism Extension)
+> For a [[Extension Field|field extension]] $L:K$ and $\alpha\in L$ transcendental over $K$. Then, $\text{ev}_{\alpha}:K[x]\to K[\alpha]$ extends to an isomorphism: $$\Phi_{\alpha}:K(x)\to K(\alpha)$$
+
+> [!proof]-
+> Since $\alpha\in L$ is transcendental over $K$, $g(\alpha)\neq 0$ for any $g\in K[X] \backslash \{ 0 \}$ and we can define the map: $$\begin{array}{cccc} {\Phi_{\alpha}:}&{K(x)=K[X]\times(K[X]\backslash\{ 0 \})}&\to&{K(\alpha)}\\&{(f,g)} &\mapsto & {f(\alpha)g(\alpha)^{-1}} \end{array}{}$$
+> If $(f,g)\sim(f',g')$, then: $f(\alpha)g'(\alpha)=f'(\alpha)g(\alpha)$ and: $$f(\alpha)g(\alpha)^{-1}=f(\alpha)g'(\alpha)g'(\alpha)^{-1}g(\alpha)^{-1}=f'(\alpha)g(\alpha)g'(\alpha)^{-1}g(\alpha)^{-1}=f'(\alpha)g'(\alpha)^{-1}$$Thus, $\Phi_{\alpha}$ is well-defined. It is then straightforward to see that $\Phi_{\alpha}$ is an isomorphism. 
 ---

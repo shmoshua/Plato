@@ -85,7 +85,7 @@
 ##### 12. Polynomial Rings
 1. [[Polynomial Ring]]
 2. Subring [[Subring|$R[s]$]]
-3. [[Algebraic and Transcendental Number]]
+3. [[Algebraic and Transcendental Element]]
 4. [[Polynomial Ring|Degree of a polynomial]]
 5. [[Integral Domain|Polynomial Integral Domain]]
 6. [[Polynomial Ring|Euclidean Algorithm]]

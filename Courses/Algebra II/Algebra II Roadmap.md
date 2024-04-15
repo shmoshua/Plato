@@ -24,7 +24,7 @@
 1. [[Extension Field]]
 
 **2.2 Algebraic Extension**
-1. [[Algebraic and Transcendental Number]]
+1. [[Algebraic and Transcendental Element]]
 2. [[Minimal Polynomial]]
 3. [[Extension Field|Finitely Generated Extensions]]
 4. [[Composite Field]]

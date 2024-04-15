@@ -77,7 +77,7 @@
 > An extension $K:F$ is finite, i.e. $[K:F]<+\infty$ if and only if there exists $\alpha_{1},\dots,\alpha_{n}\in K$ algebraic over $F$ s.t. $$K=F(\alpha_{1},\dots,\alpha_{n})$$
 
 > [!proof]-
-> Assume that $[K:F]=n$. Then, there exists a basis $\alpha_{1},\dots,\alpha_{n}\in K$ that generates $K$. Furthermore, $\alpha_{i}$ is algebraic as $K:F(\alpha_{i}):F$ and $[F(\alpha_{i}):F]$ is finite by [[Algebraic and Transcendental Number|Prop 2]].
+> Assume that $[K:F]=n$. Then, there exists a basis $\alpha_{1},\dots,\alpha_{n}\in K$ that generates $K$. Furthermore, $\alpha_{i}$ is algebraic as $K:F(\alpha_{i}):F$ and $[F(\alpha_{i}):F]$ is finite by [[Algebraic and Transcendental Element|Prop 2]].
 > 
 > Conversely, if there exists $\alpha_{1},\dots,\alpha_{n}\in K$ algebraic over $F$ s.t. $K=F(\alpha_{1},\dots,\alpha_{n})$, we have that: $$[K:F]=[F(\alpha_{1}):F]\prod_{i=2}^{n}[F(\alpha_{1},\dots,\alpha_{i}):F(\alpha_{1},\dots,\alpha_{i-1})]$$which is finite as a finite product.
 ---

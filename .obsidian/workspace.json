@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Positive Operator.md",
+                "file": "Algebra/Splitting Field.md",
                 "mode": "source",
                 "source": true
               }
@@ -33,13 +33,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Positive Operator.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "0a1e657a1898c91e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Splitting Field.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10ec40fccf506ca0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Positive Operator.md",
+                "file": "Algebra/Splitting Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Positive Operator.md",
+                "file": "Algebra/Splitting Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Positive Operator.md"
+                "file": "Algebra/Splitting Field.md"
               }
             }
           }
@@ -167,15 +192,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d7901e0671c3fbd6",
+  "active": "0a1e657a1898c91e",
   "lastOpenFiles": [
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Splitting Field.md",
+    "Courses/Algebra II/Exercise Sheet 3.md",
+    "Analysis/Functional Analysis/Positive Operator.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Lie Group/Topological Group.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Topology/Locally Connected Space.md",
     "Topology/Locally Complete Metric Space.md",
     "Algebra/Unitary Representation.md",
-    "Analysis/Functional Analysis/Positive Operator.md",
     "Analysis/Symmetric Positive Definite Matrices.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Analysis/Functional Analysis/C-Algebra.md",
@@ -184,17 +214,12 @@
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Group Representation.md",
     "Courses/Topology/Topology Roadmap.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Courses/Topology/Exercise Sheet 4.md",
-    "Courses/Topology/Exercise Sheet 7.md",
-    "Topology/Compact Space.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Topology/Connected Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
