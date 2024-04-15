@@ -69,7 +69,8 @@
 4. **Application of the spectral theorem**: [[Unitary Representation|Schur's Lemma]]
 
 **5.7 Positive Operators and Polar Decomposition**
-1. 
+1. [[Positive Operator]]
+2. [[Positive Operator|Polar Decomposition]]
 ---
 ##### 6. Locally Compact Groups
 ---
@@ -83,3 +84,4 @@
 3. [[Courses/Functional Analysis II/Exercise Sheet 3|Exercise Sheet 3]]
 4. [[Courses/Functional Analysis II/Exercise Sheet 4|Exercise Sheet 4]]
 5. [[Courses/Functional Analysis II/Exercise Sheet 5|Exercise Sheet 5]]
+6. [[Courses/Functional Analysis II/Exercise Sheet 6|Exercise Sheet 6]]
