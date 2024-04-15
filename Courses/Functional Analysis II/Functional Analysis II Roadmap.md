@@ -65,6 +65,7 @@
 **5.6 Schur's Lemma**
 1. [[Group Representation]]
 2. [[Unitary Representation]]
+3. [[Unitary Representation|Invariant Subspaces]].
 
 ---
 ##### 6. Locally Compact Groups

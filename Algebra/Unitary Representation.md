@@ -4,8 +4,48 @@
 > Let $G$ be a group which we consider as a measure space w.r.t the counting measure. Then, for a [[Hilbert Space|Hilbert space]] $\mathcal{H}$, a ***unitary representation*** of $G$ is a group homomorphism $$\pi:G \to \text{U}(\mathcal{H})$$ 
 > If $\mathcal{H}=$ [[Lp Space|$L^2(X)$]] for a set $X$, we define $\pi:G \to \mathcal{B}(\mathcal{H})$ as:
 > $$(\pi(a)f)(x)=f(a^{-1}x)$$
+- **Related definition**: A subspace $A\subseteq \mathcal{H}$ is ***invariant*** if $\pi(g)A\subseteq A$ for all $g\in G$.
+- **Related definition**: A representation $(\pi,\mathcal{H})$ is ***irreducible*** if whenever $V\subseteq \mathcal{H}$ is closed invariant, either $V=(0)$ or $V=\mathcal{H}$.
+- **Related definition**: For a unitary representation $(\pi,\mathcal{H})$, an ***intertwining operator*** is $T\in \mathcal{B}(\mathcal{H})$ s.t. $T$ commutes with $\pi(g)$ for all $g\in G$. $\text{Int}(\pi)$ denotes the algebra of intertwining operators, as a sub-$C^{*}$-algebra of $\mathcal{B}(\mathcal{H})$.
 ---
+
 ##### Properties
+> [!lemma] Proposition 1
+> For an invariant subspace $A$, $A^{\bot}$ is also an invariant subspace.
+
+> [!proof]-
+> For all $v\in A,w\in A^{\bot}$ and $g\in G$, $$\braket{ v , \pi(g)w } =\braket{ \pi(g)^{*}v , w } =\braket{ \pi(g)^{-1}v , w } =\braket{ \pi(g^{-1})v , w } =0$$
+
+If $A\subseteq \mathcal{H}$ is a closed invariant subspace, $$\begin{array}{cccc} {\pi|_{A}:}&{G}&\to&{\text{U}(A)}\\&{g} &\mapsto & {\pi(g)|_A} \end{array}{}$$is a unitary representation of $G$. Since $A^{\bot}$ is also invariant as well, we get that: $$\mathcal{H}=A\oplus A^{\bot}$$and $\pi(g)=\pi(g)|_{A}\oplus \pi(g)|_{A^{\bot}}$.
+
+---
+Let $G=\text{SL}(2,\mathbb{Z})$ and $H=(\text{id}_{\mathcal{H}})$ with $\mathcal{H}:=\ell^{2}(\text{SL}(2,\mathbb{Z}))$ with $$(\lambda(g)f)(x)=f(g^{-1}x)$$Take $C_{00}(\text{SL}(2,\mathbb{Z}))$. This is an invariant subspace but it is not closed. Let $G$ be countable and $(\pi,\mathcal{H})$ any infinite dimensional unitary representation. Then, the linear span of $$\{  \pi(g)v:g\in G\}$$for any $0\neq v\in \mathcal{H}$is an invariant subspace of $\mathcal{H}$ which is not $(0)$. But it is also not $\mathcal{H}$ as $\mathcal{H}$ has an uncountable dimension. 
+
+---
+We have: $x=x_{1}+x_{2}$ where $x_{1}\in V$ and $x_{2}\in V^{\bot}$. Then, $x_{1}=\Pi_{V}(x)$ and $\pi(g)x_{1}=\Pi_{V}(\pi(g)x)$. Therefore, $\Pi_{V}\in \text{Int}(\pi).$
+
+---
+If $T\in $
+---
+> [!lemma] Theorem (Schur's Lemma)
+> The unitary representation $(\pi,\mathcal{H})$ is irreducible if and only if $\text{Int}(\pi)=\mathbb{C}\cdot \text{id}_{\mathcal{H}}$.
+
+> [!proof]+
+> If $(\pi,\mathcal{H})$ is not irreducible and $V\subseteq \mathcal{H}$ is a closed invariant subspace s.t. $0\subsetneq V\subsetneq\mathcal{H}$. Then, $\Pi_{V}\in \text{Int}(\pi)$. This cannot be $\lambda \cdot \text{id}_{\mathcal{H}}$.
+> 
+> Conversely, assume there exists 
+---
+##### Examples
+> [!h] Example 1
+> Let $H<G$ and $\mathcal{H}:=\ell^2(G / H)$. Then, 
+> 1. $\pi:G\to \text{U}(\mathcal{H})$ where $(\pi(g)f)(xH)=f(g^{-1}xH)$ is a unitary representation.
+> 2. Assume $G / H$ is finite. $\mathbb{C}\cdot \chi_{G / H}\subseteq \ell^{2}(G / H)$  is an invariant subspace.
+
+> [!proof]+
+
+---
+
+
 **Example 1:** $\mathcal{H}=\ell^2(G,\mathbb{C})=\left\{  f:G\to \mathbb{C}\left|\sum_{a\in G}^{}\left| f(a) \right|^{2}<+\infty \right. \right\}$
 > [!Lemma] Proposition 1
 > For any $a\in G$, we have that:
