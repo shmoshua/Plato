@@ -2,21 +2,22 @@
 
 > [!definition]
 > Let $G$ be a group which we consider as a measure space w.r.t the counting measure. Then, for a [[Hilbert Space|Hilbert space]] $\mathcal{H}$, a ***unitary representation*** of $G$ is a group homomorphism $$\pi:G \to \text{U}(\mathcal{H})$$ 
-> If $\mathcal{H}=$ [[Lp Space|$L^2(X)$]] for a set $X$, we define $\pi:G \to \mathcal{B}(\mathcal{H})$ as:
-> $$(\pi(a)f)(x)=f(a^{-1}x)$$
-- **Related definition**: A subspace $A\subseteq \mathcal{H}$ is ***invariant*** if $\pi(g)A\subseteq A$ for all $g\in G$.
+
+- **Related definition**: A subspace $V\subseteq \mathcal{H}$ is ***invariant*** if $\pi(g)V\subseteq V$ for all $g\in G$.
 - **Related definition**: A representation $(\pi,\mathcal{H})$ is ***irreducible*** if whenever $V\subseteq \mathcal{H}$ is closed invariant, either $V=(0)$ or $V=\mathcal{H}$.
 - **Related definition**: For a unitary representation $(\pi,\mathcal{H})$, an ***intertwining operator*** is $T\in \mathcal{B}(\mathcal{H})$ s.t. $T$ commutes with $\pi(g)$ for all $g\in G$. $\text{Int}(\pi)$ denotes the algebra of intertwining operators, as a sub-$C^{*}$-algebra of $\mathcal{B}(\mathcal{H})$.
 ---
 
 ##### Properties
 > [!lemma] Proposition 1
-> For an invariant subspace $A$, $A^{\bot}$ is also an invariant subspace.
+> For an invariant subspace $V$, $V^{\bot}$ is also an invariant subspace.
 
 > [!proof]-
-> For all $v\in A,w\in A^{\bot}$ and $g\in G$, $$\braket{ v , \pi(g)w } =\braket{ \pi(g)^{*}v , w } =\braket{ \pi(g)^{-1}v , w } =\braket{ \pi(g^{-1})v , w } =0$$
+> For all $v\in V,w\in V^{\bot}$ and $g\in G$, $$\braket{ v , \pi(g)w } =\braket{ \pi(g)^{*}v , w } =\braket{ \pi(g)^{-1}v , w } =\braket{ \pi(g^{-1})v , w } =0$$
 
-If $A\subseteq \mathcal{H}$ is a closed invariant subspace, $$\begin{array}{cccc} {\pi|_{A}:}&{G}&\to&{\text{U}(A)}\\&{g} &\mapsto & {\pi(g)|_A} \end{array}{}$$is a unitary representation of $G$. Since $A^{\bot}$ is also invariant as well, we get that: $$\mathcal{H}=A\oplus A^{\bot}$$and $\pi(g)=\pi(g)|_{A}\oplus \pi(g)|_{A^{\bot}}$.
+---
+> [!lemma] Corollary 2
+> If $V\subseteq \mathcal{H}$ is a closed invariant subspace, $$\begin{array}{cccc} {\pi|_{V}:}&{G}&\to&{\text{U}(V)}\\&{g} &\mapsto & {\pi(g)|_V} \end{array}{}$$is a unitary representation of $G$. Since $V^{\bot}$ is also invariant as well, we get that: $$\mathcal{H}=V\oplus V^{\bot}$$and $\pi(g)=\pi(g)|_{V}\oplus \pi(g)|_{V^{\bot}}$.
 
 ---
 Let $G=\text{SL}(2,\mathbb{Z})$ and $H=(\text{id}_{\mathcal{H}})$ with $\mathcal{H}:=\ell^{2}(\text{SL}(2,\mathbb{Z}))$ with $$(\lambda(g)f)(x)=f(g^{-1}x)$$Take $C_{00}(\text{SL}(2,\mathbb{Z}))$. This is an invariant subspace but it is not closed. Let $G$ be countable and $(\pi,\mathcal{H})$ any infinite dimensional unitary representation. Then, the linear span of $$\{  \pi(g)v:g\in G\}$$for any $0\neq v\in \mathcal{H}$is an invariant subspace of $\mathcal{H}$ which is not $(0)$. But it is also not $\mathcal{H}$ as $\mathcal{H}$ has an uncountable dimension. 
@@ -47,31 +48,21 @@ If $T\in \text{Int}(\pi)$, then $T^{*}\in \text{Int}(\pi)$. $T\pi(g)=\pi(g)T$, $
 ---
 ##### Examples
 > [!h] Example 1
-> Let $H<G$ and $\mathcal{H}:=\ell^2(G / H)$. Then, 
-> 1. $\pi:G\to \text{U}(\mathcal{H})$ where $(\pi(g)f)(xH)=f(g^{-1}xH)$ is a unitary representation.
-> 2. Assume $G / H$ is finite. $\mathbb{C}\cdot \chi_{G / H}\subseteq \ell^{2}(G / H)$  is an invariant subspace.
+> Let $X$ be a set and $\mathcal{H}:=L^{2}(X,\mu)$. Then, $\pi:G\to \mathcal{B}(\mathcal{H})$ given as: $$(\pi(g)f)(x)=f(g^{-1}x)$$is a unitary representation.
 
-> [!proof]+
-
+> [!proof]-
+> We first show that $\pi$ is a group homomorphism. $$(\pi(g)\pi(h)f)(x)=(\pi(h)f)(g^{-1}x)=f(h^{-1}g^{-1}x)=(\pi(gh)f)(x)$$Then, we show that $\pi(g)$ is unitary for any $g\in G$. Firstly, we have: $$\braket{ \pi(g)f_{1} , f_{2} }=\int_{X}^{} \pi(g)f_{1}(x)\overline{f_{2}(x)} \, d\mu(x)=\int_{X}^{} f_{1}(x)\overline{f_{2}(gx)}\, d\mu(x) = \braket{ f_{1} , \pi(g^{-1})f_{2} } $$Therefore, $\pi(g)^{*}=\pi(g^{-1})$. Then, $\pi(g)\pi(g)^{*}=\pi(gg ^{-1})=\pi(e)=\text{id}_{\mathcal{H}}$.
 ---
+> [!h] Example 2
+> Let $H\leq G$ and $\mathcal{H}:=\ell^2(G / H)$ s.t. $G / H$ is finite. Then, with $(\pi(g)f)(xH)=f(g^{-1}xH)$,
+> 1.  $\mathbb{C}\cdot \chi_{G / H}\subseteq \ell^{2}(G / H)$  is an invariant subspace.
 
-
-**Example 1:** $\mathcal{H}=\ell^2(G,\mathbb{C})=\left\{  f:G\to \mathbb{C}\left|\sum_{a\in G}^{}\left| f(a) \right|^{2}<+\infty \right. \right\}$
-> [!Lemma] Proposition 1
-> For any $a\in G$, we have that:
-> 1. $\pi(a)^{*}=\pi(a^{-1})$
-> 2. $\pi$ is a group homomorphism
-> 3. $\pi(a)$ is a unitary operator.
-
->[!proof]-
-> We have:
-> 1. 
->$$\braket{ \pi(a)f ,g  } =\sum_{x\in G}^{}|f(a^{-1}x)\overline{g(x)}|=\sum_{y\in G}^{}|f(x)\overline{g(ax)}|=\braket{ f , \pi(a^{-1})g } $$
-> 2. it holds that: $$(\pi(ab)f)(x)=f(b^{-1}a^{-1}x)=(\pi(b)f)(a^{-1}x)=(\pi(a)\pi(b)f)(x)$$
-> 3. $\pi(a)\pi(a)^*=\pi(a)\pi(a^{-1})=\pi(e)=\iota$.
+> [!proof]-
+> We have that for all $g\in G$ and $f=\lambda \cdot \chi_{G / H}$, $$(\pi(g)f)(xH)=f(g^{-1}xH)=\lambda \chi_{G / H}(g^{-1}xH)$$
 ---
-> [!lemma] Proposition 2
-> For $a\in G$, $\pi(a)$ admits an eigenfunction if and only if $a$ has a finite order in $G$.
+> [!h] Example 3
+> Let $G$ be a group and $\mathcal{H}=\ell^2(G,\mathbb{C})$. Then, with $(\pi(g)f)(x)=f(g^{-1}x)$,
+> 1. for $g\in G$, $\pi(g)$ admits an eigenfunction if and only if $g$ has a finite order in $G$.
 
 >[!proof]-
 >If $a$ has finite order, there exists $n\geq 1$ s.t. $\pi(a)^n=\text{Id}$. 

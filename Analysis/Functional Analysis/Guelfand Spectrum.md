@@ -11,7 +11,7 @@
 > 1. $\chi(A)=\mathbb{C}$. 
 > 2. If $A$ is unital, $\chi(e)=1$.
 
-> [!proof]+
+> [!proof]-
 > As $\chi$ is a $\mathbb{C}$-algebra homomorphism, $\chi(A)$ is a $\mathbb{C}$-vector subspace of $\mathbb{C}$ which is $(0)$ or $\mathbb{C}$. But $\chi$ is non-trivial by definition. 
 > 
 > If $A$ is unital, for all $\lambda\in \mathbb{C}$, there exists $x\in A$ s.t. $\chi(x)=\lambda$. Therefore, $$\chi(e)\lambda=\chi(e)\chi(x)=\chi(ex)=\chi(x)=\lambda$$
@@ -20,7 +20,7 @@
 > For every $\varphi\in \hat{A}$ we have: $$\left| \varphi(x) \right| \leq\|x\|_{\text{sp}}\quad \forall x\in A$$ In particular, $\varphi\in A^{*}$ with $\left\| \varphi \right\|\leq 1$ with equality if $A$ is unital with $\|e\|=1$ for the unit.
 
 > [!proof]-
-> Due to the remark, we may assume that $A$ is unital. If $\left| \lambda \right|>\|x\|_{\text{sp}}$.  Then, $x-\lambda e$ is invertible. But then if $y\in A$ is the inverse of $x-\lambda e$, we have: $$y(x-\lambda e)=e\implies\varphi(y)\varphi(x-\lambda e)=\varphi(e)=1$$which means $\varphi(x-\lambda e)\neq 0$ and $\varphi(x)\neq\lambda$. Therefore, $\left| \varphi(x) \right|\leq \|x\|_{\text{sp}}$.
+> First, assume that $A$ is unital. If $\left| \lambda \right|>\|x\|_{\text{sp}}$, then there exists $y\in A$ s.t. $(x-\lambda e)y=e$. Therefore, $$\varphi(y)\varphi(x-\lambda e)=\varphi(e)=1$$Indeed $\varphi(x-\lambda e)\neq 0$ and $\varphi(x)\neq\lambda$. Therefore, $\left| \varphi(x) \right|\leq\|x\|_{\text{sp}}$. 
 > 
 > Further, as $\|x\|_{\text{sp}}\leq\|x\|$, $\left\| \varphi \right\|\leq 1$. If $\|e\|=1$, then since $\varphi(e)=1=\|e\|$, $\|\varphi\|=1$.
 ---

@@ -30,10 +30,11 @@
 
 **3.2 Guelfand Spectrum and Ideals**
 1. [[Guelfand Spectrum]]
-2. **Example of a Guelfand Spectrum**: [[Volterra Algebra]]
-3. [[Radical]]
-4. [[Bounded Linear Map|Closed Graph Theorem]]
-5. **Examples**:
+2. **Properties of Guelfand Spectrum**: [[Guelfand Spectrum|$\widehat{A}$]] is bounded in $A^{*}$.
+3. **Example of a Guelfand Spectrum**: [[Volterra Algebra]]
+4. [[Radical]]
+5. [[Bounded Linear Map|Closed Graph Theorem]]
+6. **Examples**:
 
 **3.3 Guelfand Topology**
 1. [[Guelfand Topology]]
