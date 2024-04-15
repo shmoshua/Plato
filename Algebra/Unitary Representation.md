@@ -1,7 +1,7 @@
 #Definition #Example #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be a group which we consider as a measure space w.r.t the counting measure. Then, for a [[Hilbert Space|Hilbert space]] $\mathcal{H}$, a ***unitary representation*** of $G$ is an operator $$\pi:G \to \text{U}(\mathcal{H},\mathcal{H})$$ 
+> Let $G$ be a group which we consider as a measure space w.r.t the counting measure. Then, for a [[Hilbert Space|Hilbert space]] $\mathcal{H}$, a ***unitary representation*** of $G$ is a group homomorphism $$\pi:G \to \text{U}(\mathcal{H})$$ 
 > If $\mathcal{H}=$ [[Lp Space|$L^2(X)$]] for a set $X$, we define $\pi:G \to \mathcal{B}(\mathcal{H})$ as:
 > $$(\pi(a)f)(x)=f(a^{-1}x)$$
 ---

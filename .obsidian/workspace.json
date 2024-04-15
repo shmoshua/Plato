@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Algebra/Unitary Representation.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,8 +80,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -94,8 +93,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89459ae1b23ee19d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Unitary Representation.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c24567eeeb2f4d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Group Representation.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -123,116 +146,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "03920164fd78103e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53eb0cd7e8b506a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 7.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a291bc678f6aacf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Compact Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a035bd76fc3739d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Compact Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e49df22dbf80df6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Cauchy Sequence.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49b53a1f534d7e49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Connected Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96fb87c120e4fe23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Compact Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb183c32d96f461c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Uniform Structure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4eae356e360d92c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/One-Point Compactification.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -298,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Algebra/Unitary Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -315,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Algebra/Unitary Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -338,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Topological Group.md"
+                "file": "Algebra/Unitary Representation.md"
               }
             }
           }
@@ -360,21 +276,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2bd9aa713ed662fb",
+  "active": "89459ae1b23ee19d",
   "lastOpenFiles": [
-    "Lie Group/Locally Compact Topological Group.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Algebra/Unitary Representation.md",
+    "Analysis/Functional Analysis/Group Representation.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Lie Group/Topological Group.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 6.md",
+    "Courses/Topology/Exercise Sheet 4.md",
+    "Courses/Topology/Exercise Sheet 7.md",
+    "Topology/Compact Space.md",
+    "Lie Group/Locally Compact Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Connected Space.md",
     "Analysis/Functional Analysis/Unitary Linear Map.md",
     "Topology/Locally Compact Space.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Topology/One-Point Compactification.md",
-    "Courses/Topology/Exercise Sheet 7.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Compact Space.md",
     "Topology/Compact sets.md",
-    "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Metric Space.md",
     "Topology/Complete Metric Space.md",
     "Analysis/Cauchy Sequence.md",
@@ -384,10 +304,6 @@
     "Analysis/Convergence of Sequences.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Topology/Exercise Sheet 6.md",
-    "Topology/Interior and Closure.md",
-    "Topology/Complete Space.md",
-    "Topology/Locally Complete Metric Space.md",
-    "Topology/Distance.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

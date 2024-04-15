@@ -61,7 +61,10 @@
 **5.5 The Spectral Theorem**
 1. [[Guelfand Spectrum|Spectral Theorem]]
 2. **Application of the spectral theorem**:  [[Hilbert Space]] isomorphism between $\mathcal{H}$ and $L^2(\widehat{A}\times \mathbb{N},\mu)$
-3. 
+
+**5.6 Schur's Lemma**
+1. [[Group Representation]]
+2. [[Unitary Representation]]
 
 ---
 ##### 6. Locally Compact Groups

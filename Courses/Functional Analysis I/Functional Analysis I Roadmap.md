@@ -18,7 +18,7 @@
 5. [[Adjoint Linear Map]]
 6. [[Adjoint Linear Map]] with Hilbert spaces, self-adjoint and [[Unitary Linear Map|unitary maps]]
 7. **Example of Bounded Linear maps**: [[Multiplication Operator on Lp Space]]
-8. **Example of Bounded Linear maps**: [[Unitary Representation of a Group]]
+8. **Example of Bounded Linear maps**: [[Unitary Representation]]
 9. **Example of Bounded Linear maps**: [[Integral Operator]]
 ---
 ##### 2. Hahn-Banach and Consequences and Applications
@@ -45,7 +45,7 @@
 1. [[Eigenvalues and Eigenvectors of Bounded Operators]]
 2. Spectral Theorem of [[Compact, Self-adjoint Operators]]
 3. **Extension of Spectral Theorem**: [[Normal Operator]]
-4. **Application of Spectral Theorem**: [[Unitary Representation of a Group]]
+4. **Application of Spectral Theorem**: [[Unitary Representation]]
 
 **3.3 Mercer's Theorem**
 1. [[Kernel]]
