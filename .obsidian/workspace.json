@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Analysis/Functional Analysis/Positive Operator.md",
                 "mode": "source",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Analysis/Functional Analysis/Positive Operator.md",
                 "mode": "preview",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Group Representation.md",
+                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Analysis/Functional Analysis/Positive Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Analysis/Functional Analysis/Positive Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Unitary Representation.md"
+                "file": "Analysis/Functional Analysis/Positive Operator.md"
               }
             }
           }
@@ -278,17 +278,21 @@
   },
   "active": "d7901e0671c3fbd6",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Algebra/Unitary Representation.md",
+    "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Functional Analysis/Group Representation.md",
+    "Analysis/Functional Analysis/Positive Operator.md",
+    "Algebra/Unitary Representation.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Functional Analysis/Spectrum.md",
+    "Lie Group/Locally Compact Topological Group.md",
+    "Topology/Locally Compact Hausdorff Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Lie Group/Topological Group.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Topology/Compact Space.md",
-    "Lie Group/Locally Compact Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Connected Space.md",
     "Analysis/Functional Analysis/Unitary Linear Map.md",
@@ -300,10 +304,6 @@
     "Analysis/Cauchy Sequence.md",
     "Topology/Locally Connected Space.md",
     "Courses/Topology/Exercise Sheet 5.md",
-    "Topology/Fundamental System.md",
-    "Analysis/Convergence of Sequences.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Courses/Topology/Exercise Sheet 6.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

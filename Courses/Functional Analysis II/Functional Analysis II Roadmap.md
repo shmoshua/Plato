@@ -65,8 +65,11 @@
 **5.6 Schur's Lemma**
 1. [[Group Representation]]
 2. [[Unitary Representation]]
-3. [[Unitary Representation|Invariant Subspaces]].
+3. [[Unitary Representation|Invariant Subspaces]]
+4. **Application of the spectral theorem**: [[Unitary Representation|Schur's Lemma]]
 
+**5.7 Positive Operators and Polar Decomposition**
+1. 
 ---
 ##### 6. Locally Compact Groups
 ---
