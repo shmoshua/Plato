@@ -14,10 +14,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic Closure.md",
+                "file": "Algebra/Normal Extension.md",
                 "mode": "source",
                 "source": true
               }
+            }
+          },
+          {
+            "id": "4382c416c0a7b7ac",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -33,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Normal Extension.md",
                 "mode": "preview",
                 "source": false
               }
@@ -45,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic Closure.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "preview",
                 "source": false
               }
@@ -63,8 +71,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebraic Closure.md",
+                "file": "Algebra/Normal Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Algebraic Closure.md",
+                "file": "Algebra/Normal Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebraic Closure.md"
+                "file": "Algebra/Normal Extension.md"
               }
             }
           }
@@ -192,14 +199,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a1e657a1898c91e",
+  "active": "12f51f66643d3037",
   "lastOpenFiles": [
+    "Algebra/Field Extension.md",
+    "Algebra/Algebraic Closure.md",
+    "Algebra/Normal Extension.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Integral Domain.md",
     "Algebra/Minimal Polynomial.md",
-    "Algebra/Algebraic Closure.md",
     "Algebra/Splitting Field.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Extension Field.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Analysis/Functional Analysis/Positive Operator.md",
@@ -219,7 +227,6 @@
     "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Regular Ideal.md",
     "Analysis/Functional Analysis/Group Representation.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",

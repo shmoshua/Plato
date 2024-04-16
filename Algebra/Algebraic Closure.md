@@ -20,6 +20,12 @@
 > - 3=>4: Let $L$ be an algebraic extension of $K$. For $\alpha\in L$, the minimal polynomial $m_{\alpha,K}$ is irreducible and therefore linear. Then, $x-\alpha\in K$ and $\alpha\in K$.
 > - 4=>1: Let $f$ be a non-constant polynomial. Then, $K(\alpha):K$ is an algebraic extension therefore, $K(\alpha)=K$, i.e. $\alpha\in K$.
 ---
+> [!lemma] Theorem 2
+> We have: 
+> 1. for any field $F$, there exists an algebraically closed field $K$ containing $F$.
+> 2. for any algebraically closed field $K$ and its subfield $F$, $$\overline{F}=\{ \alpha\in K: \alpha \text{ is algebraic over }F\}$$
+> 3. if $K_{1},K_{2}$ are two algebraic closures of $F$, then there is an isomorphism $\varphi:K_{1}\to K_{2}$ s.t. $\varphi|_{F}=\text{id}_{F}$.
+---
 ##### Examples
 > [!h] Example 1
 > We have:

@@ -21,22 +21,22 @@
 ---
 ##### 2. Fields and Field Extensions
 **2.1 Definitions and Basic Theorems**
-1. [[Extension Field]]
+1. [[Field Extension]]
 
 **2.2 Algebraic Extension**
 1. [[Algebraic and Transcendental Element]]
 2. [[Minimal Polynomial]]
-3. [[Extension Field|Finitely Generated Extensions]]
+3. [[Field Extension|Finitely Generated Extensions]]
 4. [[Composite Field]]
 
 **2.3 Splitting Fields**
 1. [[Splitting Field]]
 
 **2.4 Algebraic Closures**
-1. 
+1. [[Algebraic Closure]]
 
 **2.5 Normal Extensions**
-1. 
+1. [[Normal Extension]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]

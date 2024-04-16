@@ -1,7 +1,7 @@
 #Definition #Algebra
 
 > [!definition]
-> For [[Extension Field|field extension]] $K:F$ and $\alpha\in K$ and [[Algebraic and Transcendental Element|algebraic]] over $F$. Then, the unique monic [[Integral Domain|irreducible]] polynomial $m_{\alpha,F}(x)\in F[X]$ that has $\alpha$ as a root is called the ***minimal polynomial of $\alpha$ over $F$***.
+> For [[Field Extension|field extension]] $K:F$ and $\alpha\in K$ and [[Algebraic and Transcendental Element|algebraic]] over $F$. Then, the unique monic [[Integral Domain|irreducible]] polynomial $m_{\alpha,F}(x)\in F[X]$ that has $\alpha$ as a root is called the ***minimal polynomial of $\alpha$ over $F$***.
 - **Related definition**: The degree of $m_{\alpha,F}(x)$ is called the ***degree of $\alpha$ over $F$.***
 ---
 ##### Properties
@@ -18,7 +18,7 @@
 > 3. $\{ 1,\alpha,\dots,\alpha^{n-1} \}$ is a basis for $F(\alpha)$ over $F$.
 
 > [!proof]-
-> From [[Extension Field|Theorem 4]]
+> From [[Field Extension|Theorem 4]]
 ---
 ##### Examples
 1. $K=\mathbb{Q}, L=\mathbb{R},\mathbb{C}$ and $s_{0}=\sqrt{ 2 }$. Then, $$m_{\sqrt{ 2 }}=X^{2}-2$$and $$\mathbb{Q}[X] / (X^2-2)\cong \mathbb{Q}[\sqrt{ 2 }]$$

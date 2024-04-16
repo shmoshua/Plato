@@ -1,7 +1,7 @@
 #Definition #Algebra 
 
 > [!definition] 
-> A [[Extension Field|field extension]] $L:F$ is a ***splitting field*** of a polynomial $f(x)\in F[X]$ if $f$ factors completely in $L[X]$ and $f$ does not split in any intermediate field $F\subseteq K\subsetneq L$
+> A [[Field Extension|field extension]] $L:F$ is a ***splitting field*** of a polynomial $f(x)\in F[X]$ if $f$ factors completely in $L[X]$ and $f$ does not split in any intermediate field $F\subseteq K\subsetneq L$
 ---
 ##### Properties
 > [!lemma] Theorem 1
@@ -25,7 +25,7 @@
 > 
 > Further, note that $\tilde{m}:=\varphi m_{\alpha,F}$ has a root in $\tilde{K}$, since the isomorphism $\varphi:F\to \tilde{F}$ extends to a ring isomorphism $\varphi:F[X]\to \tilde{F}[X]$ and $m_{\alpha,F}|f$ in $F[X]$, $\tilde{m}|\tilde{f}$ in $\tilde{F}[X]$. As $m_{\alpha,F}$ is irreducible in $F[X]$, $\tilde{m}$ is irreducible in $\tilde{F}[X]$, and since $\tilde{f}$ splits in $\tilde{K}$, so does $\tilde{m}$ in $\tilde{K}$. This shows that $\tilde{m}$ has a root in $\tilde{K}$. Pick $\tilde{\alpha}\in \tilde{K}$ s.t. $\tilde{m}(\tilde{\alpha})=0$. Then, $d:=\deg \tilde{m}=\deg m>1$ since $[F(\alpha):F]>1$, i.e. there are at most $d$ different choices for $\tilde{\alpha}$. 
 > 
-> This gives us an extension of $\varphi$ by [[Extension Field|Theorem 6]] $\varphi':F(\alpha)\to \tilde{F}(\tilde{\alpha})$ s.t. $\varphi'|_{F}=\varphi$ and $[F(\alpha):F]=[\tilde{F}(\tilde{\alpha}):\tilde{F}]$.
+> This gives us an extension of $\varphi$ by [[Field Extension|Theorem 6]] $\varphi':F(\alpha)\to \tilde{F}(\tilde{\alpha})$ s.t. $\varphi'|_{F}=\varphi$ and $[F(\alpha):F]=[\tilde{F}(\tilde{\alpha}):\tilde{F}]$.
 > 
 > Now we can apply the induction: Take $F(\alpha),\tilde{F}(\tilde{\alpha})$ as new base fields with isomorphism $\varphi'$. Since $K$ is a splitting field of $f$ over $F$, so is it a splitting field of $f$ over $F(\alpha)$ and same goes for $\tilde{K}$ and $\tilde{f}$ over $\tilde{F}(\tilde{\alpha})$. As $[F(\alpha):F]>1$, we have that $[K:F(\alpha)]=[K:F] /[F(\alpha):F]<[K:F]$. By induction, $\varphi:F(\alpha)\to \tilde{F}(\tilde{\alpha})$ extends to an isomorphism $\sigma:K\to \tilde{K}$ s.t. $\sigma|_{F(\alpha)}=\varphi'$.
 > 
