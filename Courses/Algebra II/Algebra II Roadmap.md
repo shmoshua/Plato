@@ -37,6 +37,9 @@
 
 **2.5 Normal Extensions**
 1. [[Normal Extension]]
+
+**2.6 Separable Extensions**
+1. [[Separable Extension]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
