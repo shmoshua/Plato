@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/F-Automorphism.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Characteristic.md",
+                "file": "Algebra/Ring Homomorphism.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10bacf3085d04c0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/F-Automorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -81,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exponent of a Group.md",
+                "file": "Algebra/Finite Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Algebra/Splitting Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -129,13 +141,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Algebraic Closure.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/F-Automorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/F-Automorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Finite Field.md"
+                "file": "Algebra/F-Automorphism.md"
               }
             }
           }
@@ -263,25 +276,28 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d7901e0671c3fbd6",
+  "active": "10bacf3085d04c0d",
   "lastOpenFiles": [
-    "Algebra/Cyclic Groups.md",
-    "Algebra/Finite Field.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Exponent of a Group.md",
-    "Algebra/Field.md",
-    "Untitled.md",
-    "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Separable Extension.md",
-    "Algebra/Characteristic.md",
-    "Algebra/Splitting Field.md",
     "Measure Theory/Algebra.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/F-Automorphism.md",
+    "Algebra/Ring Homomorphism.md",
+    "Algebra/Untitled",
+    "Algebra/Algebraic Closure.md",
+    "Algebra/Splitting Field.md",
+    "Algebra/Finite Field.md",
+    "Algebra/Finitely Generated Abelian Group.md",
+    "Algebra/Exponent of a Group.md",
+    "Algebra/Characteristic.md",
+    "Algebra/Field.md",
+    "Algebra/Cyclic Groups.md",
+    "Untitled.md",
     "Algebra/Field Extension.md",
     "Algebra/Frobenius Homomorphism.md",
     "Algebra/Minimal Polynomial.md",
     "Algebra/Normal Extension.md",
     "Algebra/Integral Domain.md",
-    "Algebra/Algebraic Closure.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Analysis/Functional Analysis/Positive Operator.md",
@@ -289,8 +305,6 @@
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Lie Group/Topological Group.md",
     "Courses/Topology/Exercise Sheet 5.md",
-    "Topology/Locally Connected Space.md",
-    "Topology/Locally Complete Metric Space.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
@@ -300,7 +314,6 @@
     "Courses/Functional Analysis II",
     "Courses/Differential Geometry",
     "Courses/Topology",
-    "untitled folder",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
