@@ -16,7 +16,7 @@
 > Let $\varphi:F\to \tilde{F}$ be an isomorphism of fields and $f\in F[X]$ and $\varphi \circ f=:\tilde{f}\in \tilde{F}[X]$. Further, let $K,\tilde{K}$ be the splitting fields of $f,\tilde{f}$ over $F,\tilde{F}$ respectively. Then, 
 > 1. $\varphi$ extends to an isomorphism $\sigma:K\to \tilde{K}$
 > 2. $[K:F]=[\tilde{K}:\tilde{F}]$
-> 3. the number of such extensions is at most $[K:F]$
+> 3. the number of such extensions is at most $[K:F]$, with equality if $f$ is [[Separable Extension|separable]] over $F$.
 
 > [!proof]-
 > We will use induction over $[K:F]$. If $[K:F]=1$, then $K=F,\sigma=\varphi$ and there exists at most 1 such extension. 

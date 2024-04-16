@@ -81,6 +81,17 @@
 > 
 > Conversely, if there exists $\alpha_{1},\dots,\alpha_{n}\in K$ algebraic over $F$ s.t. $K=F(\alpha_{1},\dots,\alpha_{n})$, we have that: $$[K:F]=[F(\alpha_{1}):F]\prod_{i=2}^{n}[F(\alpha_{1},\dots,\alpha_{i}):F(\alpha_{1},\dots,\alpha_{i-1})]$$which is finite as a finite product.
 ---
+> [!lemma] Theorem 9 (Finite Extensions are Simple in char 0)
+> Let $F$ be a field s.t. $\text{char }F=0$. Then, every finite extension $K:F$ is simple, i.e. there exists $\alpha\in K$ s.t. $K=F(\alpha)$.
+
+> [!proof]+
+> Since $[K:F]$ is finite, we have that $K=F(\alpha_{1},..,\alpha_{n})$ for some $\alpha_{i}\in K$. We will use induction on $n$. 
+> 
+> If $n=1$, the statement holds automatically. it suffices to prove the claim for $n=2$. So assume $K=F(a,b)$ and let $f,g$ be the minimal polynomial of $a,b$ respectively over $F$. Let $M:F$ be the field extension of $F$ where $f,g$ both split. 
+> 
+> Let $x_{1},\dots,x_{r}$ be the roots of $f$ and $y_{1},\dots,y_{s}$ be the roots of $g$
+> 
+---
 ##### Examples
 > [!h] Example 1
 > We have that:
