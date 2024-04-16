@@ -40,4 +40,4 @@ Conversely, assume that there exists a field isomorphism: $$\begin{array}{cccc} 
 
 We have: 
 1. $\mathbb{Q}(x)\subseteq \mathbb{Q}(\sqrt{ 2 },\sqrt[3]{3  })$ by definition. Then, let $y:=\sqrt[3]{3  }=x-\sqrt{ 2 }$. Then, $(x-\sqrt{ 2 })^3=3$ and $$(x^{3}+6x-3)=(3x^{2}+2)\sqrt{ 2 }$$Therefore, $\sqrt{ 2 }\in \mathbb{Q}(x)$.
-2. 
+2. Let $f(x):=x^{3}-3\sqrt{ 2 }x^{2}+6x-2\sqrt{ 2 }-3\in \mathbb{Q}(\sqrt{ 2 })[X]$. We will show that this is the minimal polynomial of $x$ over $\mathbb{Q}(\sqrt{  2})$. 

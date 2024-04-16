@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 4.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 6.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 4.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 6.md",
                 "mode": "preview",
                 "source": false
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 4.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 4.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 4.md"
+                "file": "Courses/Analysis IV/Exercise Sheet 6.md"
               }
             }
           }
@@ -264,10 +264,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "10bacf3085d04c0d",
+  "active": "d7901e0671c3fbd6",
   "lastOpenFiles": [
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Algebra II/Exercise Sheet 4.md",
+    "Courses/Analysis IV/Exercise Sheet 6.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Minimal Polynomial.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Algebraic and Transcendental Element.md",
@@ -292,7 +293,6 @@
     "Algebra/Normal Extension.md",
     "Algebra/Integral Domain.md",
     "Analysis/Functional Analysis/Positive Operator.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
