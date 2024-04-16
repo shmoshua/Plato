@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Extension Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -57,8 +57,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md",
-                "mode": "source",
+                "file": "Algebra/Minimal Polynomial.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -194,10 +194,12 @@
   },
   "active": "0a1e657a1898c91e",
   "lastOpenFiles": [
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Minimal Polynomial.md",
     "Algebra/Splitting Field.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
+    "Algebra/Extension Field.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Algebraic and Transcendental Element.md",
     "Analysis/Functional Analysis/Positive Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
@@ -218,8 +220,6 @@
     "Courses/Topology/Topology Roadmap.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 6.md",
-    "Courses/Topology/Exercise Sheet 4.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
