@@ -50,7 +50,7 @@
 ---
 ##### 3. Galois Theory
 **3.1 Basic Definitions**
-1. [[F-Automorphism]]
+1. [[Galois Group]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
