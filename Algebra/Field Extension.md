@@ -84,12 +84,16 @@
 > [!lemma] Theorem 9 (Finite Extensions are Simple in char 0)
 > Let $F$ be a field s.t. $\text{char }F=0$. Then, every finite extension $K:F$ is simple, i.e. there exists $\alpha\in K$ s.t. $K=F(\alpha)$.
 
-> [!proof]+
+> [!proof]-
 > Since $[K:F]$ is finite, we have that $K=F(\alpha_{1},..,\alpha_{n})$ for some $\alpha_{i}\in K$. We will use induction on $n$. 
 > 
 > If $n=1$, the statement holds automatically. it suffices to prove the claim for $n=2$. So assume $K=F(a,b)$ and let $f,g$ be the minimal polynomial of $a,b$ respectively over $F$. Let $M:F$ be the field extension of $F$ where $f,g$ both split. 
 > 
-> Let $x_{1},\dots,x_{r}$ be the roots of $f$ and $y_{1},\dots,y_{s}$ be the roots of $g$
+> Let $a=:x_{1},\dots,x_{r}$ be the roots of $f$ and $b=:y_{1},\dots,y_{s}$ be the roots of $g$. As $\text{char } F=0$, $g$ has distinct roots per [[Separable Extension|Theorem 3]] and $b\neq y_{j}$ for all $j\neq 1$. If we define: $$z_{ij}:=\frac{x_{i}-a}{b-y_{j}}\in M$$then $z_{ij}$ is the only element of $M$ which solves: $a+tb=x_{i}+ty_{j}$. Since $F$ is infinite, we can choose $z\in F$ different from all $z_{ij}$ s.t. $$a+zb\neq x_{i}+zy_{j}$$unless $i,j=1$. Then, for $c:=a+zb$, $F(c)\subseteq F(a,b)$. 
+> 
+> Now, define $h(x):=f(c-zx)\in F(c)[X]$. Then, $h(b)=f(c-zb)=f(a)=0$. Since $b$ is also a root of $g$, $(x-b)|g$ and $(x-b)|h$.
+> 
+> Since $g$ splits over $M$, $\text{gcd}(g,h)$ must be a product of linear factors. However, for $j\neq 1$, $$h(y_{j})=f(c-zy_{j})\neq 0$$as $c-zy_{j}\neq x_{i}$ for any $i$. Therefore, $(x-y_{j})\nmid h(x)$ and $\text{gcd}(g,h)=(x-b).$ In other words, $b\in F(c)$ and consequently, $a\in F(c)$. This shows that $F(c)=F(a,b)$.
 > 
 ---
 ##### Examples

@@ -41,6 +41,10 @@
 **2.6 Separable Extensions**
 1. [[Separable Extension]]
 2. [[Field Extension|Finite Extension]] are simple
+
+**2.7 Finite Fields**
+1. [[Frobenius Homomorphism]]
+2. [[Characteristic]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
