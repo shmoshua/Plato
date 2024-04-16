@@ -33,7 +33,7 @@
 1. [[Splitting Field]]
 
 **2.4 Algebraic Closures**
-1. hihi
+1. 
 
 **2.5 Normal Extensions**
 1. 

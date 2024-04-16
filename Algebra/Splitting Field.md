@@ -41,3 +41,17 @@
 ---
 > [!h] Example 2
 > Let $f(x):=x^3-2\in \mathbb{Q}[X]$. Then, the splitting field of $f$ over $\mathbb{Q}$ is $K:=\mathbb{Q}(\sqrt[3]{2  },\sqrt[3]{2  }\xi,\sqrt[3]{2  }\xi^{2})=\mathbb{Q}(\sqrt[3]{2  },\xi)$ where $\xi$ is the complex root of unity. Then, $$[K:\mathbb{Q}]=[\mathbb{Q}(\sqrt[3]{2  }):\mathbb{Q}]\cdot [\mathbb{Q}(\xi):\mathbb{Q}]=6$$
+---
+> [!h] Example 3
+> We have:
+> 1. $f(x):=(x^{2}-3)(x^{2}+1)\in \mathbb{Q}[X]$ has splitting field $\mathbb{Q}(\sqrt{ 3 },i)$ with degree 4.
+> 2. $g(x)=(x^{2}-2x-2)(x^{3}+1)\in \mathbb{Q}[X]$ has splitting field $\mathbb{Q}(\sqrt{ 3 },i)$
+>    
+>  Therefore, two different polynomials can have the same splitting field. Even two different irreducible polynomials can have the same splitting field, e.g. $f(x)=x^{2}-3$ and $g(x)=x^{2}-2x-2$.
+---
+> [!h] Example 4
+> Consider $f(x):=x^{2}+x+1\in \mathbb{Z}_{2}[X]$. Then, 
+> 1. $f$ is irreducible as $f(0)=f(1)=1$. 
+> 2. The splitting field of $f$ is $\mathbb{Z}_{2}(\alpha)$ where $[\mathbb{Z}_{2}(\alpha):\mathbb{Z}_{2}]=2$ as $\mathbb{Z}_{2}(\alpha)=\{ 0,1,\alpha,1+\alpha \}$. Further, it holds that: $$f(x)=(x-\alpha)(x+1+\alpha)$$
+
+---
