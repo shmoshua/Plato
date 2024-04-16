@@ -24,7 +24,8 @@
 > 1. $f$ is irreducible.
 > 2. $f$ is not separable over $\mathbb{Z}_{p}(t)$.
 
-> [!proof]+
+> [!proof]-
 > Let $\alpha$ be a root of $f$. Then, $\alpha^p=t$ and: $$(x-\alpha)^p=x^p-\alpha^p=x^p-t$$If $\beta$ is another root, then $0=(\beta-\alpha)^p$ and $\alpha=\beta$.
 > 
-> Assume that $f$ is not irreducible and $f=gh$ where $\deg g,\deg h<\deg f$. Then, as $f(x)=(x-\alpha)^p$, $g(x)=(x-\alpha)^s$ for $0<s<p$ as the factorization is unique with $\alpha^s\in \mathbb{Z}_{p}(t)$. As $s$ and $p$ are relatively prime, there exists $a,b$ s.t. $$as+bp=1$$Then, $\alpha=\alpha^{as}\alpha^{bp}\in \mathbb{Z}_{p}(t)$. 
+> Assume that $f$ is not irreducible and $f=gh$ where $\deg g,\deg h<\deg f$. Then, as $f(x)=(x-\alpha)^p$, $g(x)=(x-\alpha)^s$ for $0<s<p$ as the factorization is unique with $\alpha^s\in \mathbb{Z}_{p}(t)$. As $s$ and $p$ are relatively prime, there exists $a,b$ s.t. $$as+bp=1$$Then, $\alpha=\alpha^{as}\alpha^{bp}\in \mathbb{Z}_{p}(t)$ and there exists $u(t),v(t)\in \mathbb{Z}_{p}[t]$ s.t. $\alpha=\frac{u(t)}{v(t)}$. But as $\alpha^p=t$, $$u^p(t)-tv^p(t)=0$$which cannot happen as the terms are of different degree.
+---
