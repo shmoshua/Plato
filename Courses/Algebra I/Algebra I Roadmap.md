@@ -43,7 +43,7 @@
 3. [[Group Homomorphism|Isomorphism Theorems]]
 ---
 ##### 5. Finitely Generated Abelian Groups
-1. [[Finitely Generated Abelian Groups]] and generators
+1. [[Finitely Generated Abelian Group]] and generators
 ---
 ##### 6. Sylow Theorems
 1. [[Sylow p-Subgroups]]

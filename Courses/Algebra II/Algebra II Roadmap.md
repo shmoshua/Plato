@@ -45,6 +45,8 @@
 **2.7 Finite Fields**
 1. [[Frobenius Homomorphism]]
 2. [[Characteristic]]
+3. [[Exponent of a Group]]
+4. [[Finite Field]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]

@@ -6,7 +6,7 @@
 ---
 **Examples of general Abelian groups**: 
 1. $G\times H$ for two abelian groups $G,H$.
-2. [[Finitely Generated Abelian Groups]]
+2. [[Finitely Generated Abelian Group]]
 ---
 **Examples of Infinite Abelian groups**: 
 1. $(\mathbb{Z},+),(\mathbb{Q},+),(\mathbb{R},+),(\mathbb{C},+)$
