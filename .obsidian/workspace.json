@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 5.md",
+                "file": "Courses/Algebra II/Exercise Sheet 6.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 5.md",
+                "file": "Courses/Algebra II/Exercise Sheet 6.md",
                 "mode": "preview",
                 "source": false
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 5.md",
+                "file": "Courses/Algebra II/Exercise Sheet 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 5.md",
+                "file": "Courses/Algebra II/Exercise Sheet 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 5.md"
+                "file": "Courses/Algebra II/Exercise Sheet 6.md"
               }
             }
           }
@@ -264,16 +264,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d6023f714f58964e",
+  "active": "12f51f66643d3037",
   "lastOpenFiles": [
-    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Minimal Polynomial.md",
+    "Courses/Algebra II/Exercise Sheet 6.md",
     "Courses/Algebra II/Exercise Sheet 5.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Analysis IV/Exercise Sheet 7.md",
     "Courses/Algebra II/Exercise Sheet 4.md",
     "Algebra/Separable Extension.md",
     "Algebra/Galois Group.md",
     "Algebra/Unique Factorization Domain.md",
-    "Algebra/Minimal Polynomial.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Courses/Analysis IV/Exercise Sheet 6.md",
     "Algebra/Algebraic Closure.md",
@@ -292,7 +293,6 @@
     "Algebra/Cyclic Groups.md",
     "Untitled.md",
     "Algebra/Field Extension.md",
-    "Algebra/Frobenius Homomorphism.md",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
