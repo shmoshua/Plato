@@ -33,18 +33,6 @@
             }
           },
           {
-            "id": "d6023f714f58964e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NumCS Feedback.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "800dfb898a4e9bf7",
             "type": "leaf",
             "state": {
@@ -69,25 +57,13 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
         "dimension": 46.264367816091955,
         "children": [
-          {
-            "id": "12f51f66643d3037",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NumCS Feedback.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
           {
             "id": "fd2cfb620eeb14b1",
             "type": "leaf",
@@ -202,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NumCS Feedback.md",
+                "file": "Algebra/Field Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NumCS Feedback.md",
+                "file": "Algebra/Field Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NumCS Feedback.md"
+                "file": "Algebra/Field Extension.md"
               }
             }
           }
@@ -264,10 +240,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d6023f714f58964e",
+  "active": "fd2cfb620eeb14b1",
   "lastOpenFiles": [
-    "Courses/Algebra II/Exercise Sheet 6.md",
     "NumCS Feedback.md",
+    "Courses/Algebra II/Exercise Sheet 6.md",
     "Algebra/Field Extension.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Minimal Polynomial.md",
