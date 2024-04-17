@@ -12,15 +12,3 @@ Equivalently, one can simply use the Cauchy-Schwarz inequality to show: $$\left|
 > [!def] Problem 2
 > Let $\mathcal{H}$ be a Hilbert space and $T\in \mathcal{B}(\mathcal{H})$ a normal operator. Suppose there is an operator $S\in \mathcal{B}(\mathcal{H})$ such that $$S=\int_{\text{Sp}(T)}^{} f \, dE_{T}$$ for some $f\in\mathcal{B}^\infty(\text{Sp}(T))$. This implies that $S$ is a normal operator. Prove that the resolutions of the identity $E_{T}$ and $E_{S}$ associated with $T$ and $S$ by the spectral theorem are related by $$E_{S}(\omega)=E_{T}(f^{-1}(\omega))$$ for each Borel set $\omega \subseteq \text{Sp}(S)$.
 
-We claim that $\text{Sp}(T)=f^{-1}(\text{Sp}(S))$. Let $\lambda\in \text{Sp}(T)$. Then, $T-\lambda \text{id}_{\mathcal{H}}$ is 
-
-Let $\lambda_{0}\in f^{-1}(\text{Sp}(S))$. Then, $f(\lambda_{0})\in \text{Sp}(S)$ and $S-f(\lambda_{0})\text{id}_{\mathcal{H}}$ is not invertible. Therefore, $$S-f(\lambda_{0})\text{id}_{\mathcal{H}}=\int_{\text{Sp}(T)}^{} f(\lambda) \, dE_{T}(\lambda)-f(\lambda_{0})E_{T}(\text{Sp}(T)) =\int_{\text{Sp}(T)}^{} f(\lambda)-f(\lambda_{0}) \, dE_{T}(\lambda)   $$
-
-Let $\lambda\notin f^{-1}(\text{Sp}(S))$. Then, $f(\lambda)\notin \text{Sp}(S)$
-
-Let $\lambda_{0}\in \text{Sp}(T)$. Then, $T-\lambda_{0}\text{id}_{\mathcal{H}}$ is not invertible where: $$T-\lambda_{0}\text{id}_{\mathcal{H}}=\int_{\text{Sp}(T)}^{} \lambda \, dE_{T}(\lambda)-\int_{\text{Sp}(T)}\lambda_{0}\, dE_{T}(\lambda)=\int_{\text{Sp}(T)}^{} \lambda-\lambda_{0} \, dE_{T}(\lambda)$$Then, $$S-f(\lambda_{0})\text{id}_{\mathcal{H}}=$$
-$$T=\int_{\text{Sp}(T)}^{} \lambda \, dE_{T}(\lambda)=\int_{f^{-1}(\text{Sp}(S))}^{} f(\lambda) \, dE_{T}(\lambda)  $$$$S=\int_{\text{Sp}(T)}^{} f(\lambda) \, dE_{T}(\lambda)=\int_{f(\text{Sp}(T))}\lambda  \, dE_{T}(f^{-1}(\lambda))  $$
----
-Firstly, we have that: $$\text{id}_{\mathcal{H}}=E_{S}(\text{Sp}(S))=\int_{\text{Sp}(S)}1 \, dE_{S}(\xi)= \int_{0}^{\infty}  \, dx $$
-Hihi$$\braket{ E_{S}(\text{Sp}(S))x , x } =\int_{0}^{\infty}  \, dx $$We have to show that $E_{T}(f^{-1}(\omega))=\text{id}_{\mathcal{H}}$.
-$$\braket{ E_{T}(f^{-1}(\text{Sp}(S)))x , x } =(E_{T})_{x,x}(f^{-1}(\text{Sp}(S)))=\int_{f^{-1}}^{\infty}  \, dx $$
