@@ -18,5 +18,5 @@ Let $\lambda_{0}\in f^{-1}(\text{Sp}(S))$. Then, $f(\lambda_{0})\in \text{Sp}(S)
 
 Let $\lambda\notin f^{-1}(\text{Sp}(S))$. Then, $f(\lambda)\notin \text{Sp}(S)$
 
-
-Let $\omega\subseteq \text{Sp}(S)$. Further, let $\text{ev}_{S}:\widehat{A_{S}}\to \text{Sp}(S),\chi\mapsto \chi(S)$. Then, $$E_{S}(\omega)=E(\text{ev}^{-1}(\omega))$$
+Let $\lambda_{0}\in \text{Sp}(T)$. Then, $T-\lambda_{0}\text{id}_{\mathcal{H}}$ is not invertible where: $$T-\lambda_{0}\text{id}_{\mathcal{H}}=\int_{\text{Sp}(T)}^{} \lambda \, dE_{T}(\lambda)-\int_{\text{Sp}(T)}\lambda_{0}\, dE_{T}(\lambda)=\int_{\text{Sp}(T)}^{} \lambda-\lambda_{0} \, dE_{T}(\lambda)$$Then, $$S-f(\lambda_{0})\text{id}_{\mathcal{H}}=$$
+$$T=\int_{\text{Sp}(T)}^{} \lambda \, dE_{T}(\lambda)=\int_{f^{-1}(\text{Sp}(S))}^{} f(\lambda) \, dE_{T}(\lambda)  $$$$S=\int_{\text{Sp}(T)}^{} f(\lambda) \, dE_{T}(\lambda)=\int_{f(\text{Sp}(T))}\lambda  \, dE_{T}(f^{-1}(\lambda))  $$
