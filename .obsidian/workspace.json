@@ -177,7 +177,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "eisen",
+                "query": "radon niko",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,7 +194,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -278,13 +279,14 @@
   },
   "active": "fd2cfb620eeb14b1",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Positive Operator.md",
-    "Courses/Functional Analysis II/Exercise Sheet 7.md",
-    "Analysis/Functional Analysis/Spectrum.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
-    "Analysis/Inner Product Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
+    "Analysis/Functional Analysis/Spectrum.md",
+    "Measure Theory/Integrable Function.md",
+    "Analysis/Functional Analysis/Positive Operator.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Inner Product Space.md",
     "Analysis/Pushforward Measure.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Hilbert Space.md",
@@ -303,7 +305,6 @@
     "Courses/Algebra II/Exercise Sheet 5.md",
     "Courses/Analysis IV/Exercise Sheet 7.md",
     "Courses/Algebra II/Exercise Sheet 4.md",
-    "Algebra/Separable Extension.md",
     "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
