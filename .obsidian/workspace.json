@@ -160,8 +160,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md"
               }
             }
           }
@@ -290,15 +289,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "29d3b3cddded9ce7",
+  "active": "fd2cfb620eeb14b1",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Measure Theory/Integrable Function.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Functional Analysis II/Exercise Sheet 7.md",
+    "Analysis/Functional Analysis/Positive Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Spectrum.md",
-    "Courses/Functional Analysis II/Exercise Sheet 7.md",
-    "Measure Theory/Integrable Function.md",
-    "Analysis/Functional Analysis/Positive Operator.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Inner Product Space.md",
