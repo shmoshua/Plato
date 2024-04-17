@@ -14,7 +14,7 @@ Equivalently, one can simply use the Cauchy-Schwarz inequality to show: $$\left|
 
 We claim that $\text{Sp}(T)=f^{-1}(\text{Sp}(S))$. Let $\lambda\in \text{Sp}(T)$. Then, $T-\lambda \text{id}_{\mathcal{H}}$ is 
 
-Let $\lambda_{0}\in f^{-1}(\text{Sp}(S))$. Then, $f(\lambda_{0})\in \text{Sp}(S)$ and $S-f(\lambda_{0})\text{id}_{\mathcal{H}}$ is not invertible. Therefore, $$S-f(\lambda_{0})\text{id}_{\mathcal{H}}=\int_{\text{Sp}(T)}^{} f(\lambda) \, dE_{T}(\lambda)-f(\lambda_{0})E_{T}(\text{Sp}(T)) =\int_{\text{Sp}(T)}^{} f(\lambda)-f(\lambda_{0}) \, dE_{T}(\lambda)  $$
+Let $\lambda_{0}\in f^{-1}(\text{Sp}(S))$. Then, $f(\lambda_{0})\in \text{Sp}(S)$ and $S-f(\lambda_{0})\text{id}_{\mathcal{H}}$ is not invertible. Therefore, $$S-f(\lambda_{0})\text{id}_{\mathcal{H}}=\int_{\text{Sp}(T)}^{} f(\lambda) \, dE_{T}(\lambda)-f(\lambda_{0})E_{T}(\text{Sp}(T)) =\int_{\text{Sp}(T)}^{} f(\lambda)-f(\lambda_{0}) \, dE_{T}(\lambda)   $$
 
 Let $\lambda\notin f^{-1}(\text{Sp}(S))$. Then, $f(\lambda)\notin \text{Sp}(S)$
 
