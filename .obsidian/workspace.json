@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Algebra/p-adic Integer.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Algebra/p-adic Integer.md",
                 "mode": "preview",
                 "source": false
               }
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Algebra/p-adic Integer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Algebra/p-adic Integer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
+                "file": "Algebra/p-adic Integer.md"
               }
             }
           }
@@ -311,12 +311,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fd2cfb620eeb14b1",
+  "active": "d7901e0671c3fbd6",
   "lastOpenFiles": [
-    "Lie Group/Topological Group.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Algebra/p-adic Integer.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Lie Group/Locally Compact Topological Group.md",
+    "Lie Group/Topological Group.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
@@ -338,7 +339,6 @@
     "Algebra/Characteristic.md",
     "Algebra/Minimal Polynomial.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Field Extension.md",
     "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",

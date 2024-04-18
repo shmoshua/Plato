@@ -18,3 +18,5 @@ Let us define $E$ as a resolution of identity on $\text{Sp}(S)$ as follows, for 
 
 $f^{-1}(\text{Sp}(S))\subsetneq \text{Sp}(T)$??
 $$E(\omega)$$
+---
+$$E_{T}(f^{-1}(\omega))$$ is a resolution of identity? $$E_{T}(f^{-1}(\text{Sp}(S)))=\text{id}$$
