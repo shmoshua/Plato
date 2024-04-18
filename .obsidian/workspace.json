@@ -77,6 +77,30 @@
             }
           },
           {
+            "id": "21a927d72c323bff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29d3b3cddded9ce7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "41debb75827c1c12",
             "type": "leaf",
             "state": {
@@ -125,36 +149,12 @@
             }
           },
           {
-            "id": "21a927d72c323bff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29d3b3cddded9ce7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "02de422d55e980c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Integrable Function.md",
+                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
                 "mode": "preview",
                 "source": false
               }
@@ -291,20 +291,20 @@
   },
   "active": "fd2cfb620eeb14b1",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Measure Theory/Integrable Function.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
-    "Courses/Functional Analysis II/Exercise Sheet 7.md",
-    "Analysis/Functional Analysis/Positive Operator.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Spectrum.md",
+    "Courses/Functional Analysis II/Exercise Sheet 7.md",
+    "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Functional Analysis/Positive Operator.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Pushforward Measure.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Functional Analysis/C-Algebra.md",
-    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Characteristic.md",
