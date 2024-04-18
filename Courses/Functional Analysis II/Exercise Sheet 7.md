@@ -12,6 +12,9 @@ Equivalently, one can simply use the Cauchy-Schwarz inequality to show: $$\left|
 > [!def] Problem 2
 > Let $\mathcal{H}$ be a Hilbert space and $T\in \mathcal{B}(\mathcal{H})$ a normal operator. Suppose there is an operator $S\in \mathcal{B}(\mathcal{H})$ such that $$S=\int_{\text{Sp}(T)}^{} f \, dE_{T}$$ for some $f\in\mathcal{B}^\infty(\text{Sp}(T))$. This implies that $S$ is a normal operator. Prove that the resolutions of the identity $E_{T}$ and $E_{S}$ associated with $T$ and $S$ by the spectral theorem are related by $$E_{S}(\omega)=E_{T}(f^{-1}(\omega))$$ for each Borel set $\omega \subseteq \text{Sp}(S)$.
 
-Let us define $E$ as a resolution of identity on $\text{Sp}(S)$ as follows, for any $\omega \subseteq \text{Sp}(S)$, $$E(\omega):=E_{T}(f^{-1}(\omega))$$Then, 
-1. **Showing that $E$ is a resolution of identity**:
-   We have $E(\varnothing)=E_{T}(\varnothing)=0$ and $$E(\text{Sp}(S))=E_{T}(f^{-1}(\text{Sp}(S)))=\text{id}$$where: $$E_{T}(f^{-1}(\text{Sp}(S)))=\int_{f^{-1}(\text{Sp}(S))}^{} dE_{T}= $$$$E(\mathbb{C} \backslash \text{Sp}(S))=0$$.
+Let us define $E$ as a resolution of identity on $\text{Sp}(S)$ as follows, for any $\omega \subseteq \text{Sp}(S)$, $$E(\omega):=E_{T}(f^{-1}(\omega \sqcup  \text{Sp}(S)^c))=E_{T}(f^{-1}(\omega))E_{T}(f^{-1}(\text{Sp}(S)^c))$$Then, 
+1. **Showing that $E$ is a resolution of identity on $\text{Sp}(S)$**:
+   We have $E(\varnothing)=0$ and $E(\text{Sp}(S))=E_{T}(f^{-1}(\text{Sp}(S)\sqcup \text{Sp}(S)^c))=E_{T}(\text{Sp}(T))=\text{id}$. Further, by definition, $E(\omega)$ is a self-adjoint projection and: $$E(\omega_{1}\cap\omega_{2})=E(\omega)$$
+
+$f^{-1}(\text{Sp}(S))\subsetneq \text{Sp}(T)$??
+$$E(\omega)$$
