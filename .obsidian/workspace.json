@@ -136,7 +136,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
+                "file": "Algebra/Unitary Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
+                "file": "Algebra/Unitary Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md"
+                "file": "Algebra/Unitary Representation.md"
               }
             }
           }
@@ -264,10 +265,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "29d3b3cddded9ce7",
+  "active": "32762af39792a772",
   "lastOpenFiles": [
-    "Algebra/Unitary Representation.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
+    "Algebra/Unitary Representation.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",

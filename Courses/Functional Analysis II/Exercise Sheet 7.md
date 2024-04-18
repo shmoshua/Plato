@@ -37,4 +37,13 @@ If suffices to show that $\text{ess im }f\subseteq \text{Sp}(S)$.
 >and put $(\pi(g)f)(xH):=f(g^{-1}xH)$ for all $f\in \mathcal{H}$ and $g,x\in G$. This $G$-action defines a unitary representation of $G$ on $\mathcal{H}$. Show that $\pi$ is irreducible if and only if the $G$-action on $G / H$ is doubly transitive.
 
 Assume that $\pi$ is irreducible. Then, by Schur's lemma, $\text{Int}(\pi)=\mathbb{C}\cdot \text{id}_{\mathcal{H}}$. Let $x_{1}H,x_{2}H,y_{1}H,y_{2}H\in G / H$ s.t. $x_{1}x_{2}^{-1}\notin H$ and $y_{1}y_{2}^{-1}\notin H$. We have that $T:=\lambda \cdot \text{id}_\mathcal{H}\in \text{Int}(\pi)$ and for any $g\in G$: $$\lambda f(g^{-1}xH)=(T\pi(g)f)(xH)=(\pi(g)(\lambda f))(xH)=\lambda f(g^{-1}x H)$$
-Let $\pi$ be not irreducible. Then, there exists a closed invariant subspace $V$ s.t. $0\subsetneq V\subsetneq \mathcal{H}$. Let $0\neq f,g\in \mathcal{H}$ s.t. $f\in V$ and $g\in V^{\bot}$. Then, $(\pi(\gamma)f)(xH)+(\pi(\gamma)g)(xH)=\pi(\gamma)(f+g)(xH)=(f+g)(\gamma ^{-1}xH)$
+Let $\pi$ be not irreducible. Then, there exists a closed invariant subspace $V$ s.t. $0\subsetneq V\subsetneq \mathcal{H}$. Let $0\neq f,g\in \mathcal{H}$ s.t. $f\in V$ and $h\in V^{\bot}$. Then, $$\sum_{xH\in G / H}^{}f(xH)\overline{h(xH)}=0$$and $\psi:G / H\to \mathbb{C},xH\mapsto f(xH)\overline{h(xH)}$. Then, $\psi\in \mathcal{H}$ and $\psi=\psi_{1}+\psi_{2}$ and: $$0=\sum_{xH\in G / H}^{}f(g^{-1}xH)\overline{h(g^{-1}xH)}=\sum_{xH\in G / H}^{}\pi(g)\psi(xH)$$
+
+---
+Let the action be doubly transitive. Then, let $V$ be a closed invariant subspace of $\mathcal{H}$. If $0\neq f\in V$, let $h\in \mathcal{H}$. We need to show that $V=\mathcal{H}$, i.e. we will show that there exists a sequence $g_{1},\dots,g_{n}\in G$ s.t. $$\pi(g_{1})\pi(g_{2})\dots \pi(g_{n})f=h$$Let $xH\in G / H$. If $f(xH)\neq h(xH)$.
+$$\sum_{xH\in G / H}^{}f(xH)=0$$, $$\sum_{xH\in G / H}^{}f(g^{-1}xH)=0$$
+
+$G=C_{8}=\{ e,a,a^{2},a^{3},\dots \}$
+$H=C_{2}=\{ e,a^4 \}$
+
+Then, $$G / H=\{ eH,aH,a^{2}H,a^3H \}$$Let $f\in \mathcal{H}$. Then, $$f(eH)+f(aH)+f(a^{2}H)+f(a^3H)=0$$$$f(eH)\overline{h(eH)}$$
