@@ -20,3 +20,14 @@ $f^{-1}(\text{Sp}(S))\subsetneq \text{Sp}(T)$??
 $$E(\omega)$$
 ---
 $$E_{T}(f^{-1}(\omega))$$ is a resolution of identity? $$E_{T}(f^{-1}(\text{Sp}(S)))=\text{id}$$
+$$S=\int_{\text{Sp}(T)}^{} f(\xi) \, dE_{T}(\xi)=\int_{\text{Sp}(S)}\lambda  \, dE_{S}(\lambda)$$
+
+Let $E_{T}(f^{-1}(\text{Sp}(S)))=\text{id}$. Then, we have that $E(\omega):=E_{T}(f^{-1}(\omega))$ is a resolution of identity, s.t. $$S=\int_{\text{Sp}(S)}^{} \lambda \, dE_{S}(\lambda)=\int_{\text{Sp}(T)}f(\xi) \, dE_{T}(\xi)=\int_{f^{-1}(\text{Sp}(S))}f(\xi)  \, dE_{T}(\xi)=\int_{\text{Sp}(S)}^{} \lambda \, dE(\lambda)     $$
+
+---
+It suffices to show that:
+$$E_{T}(f^{-1}(\mathbb{C} \backslash \text{Sp}(S)))=E_{T}(\text{Sp}(T) \backslash f^{-1}(\text{Sp}(S)))=0$$
+If suffices to show that $\text{ess im }f\subseteq \text{Sp}(S)$. 
+1. Let $\lambda\in \text{ess im }f$. Then, $\left| \lambda \right|\leq \left\| f \right\|_{\infty}=\text{inf}\{ t\geq 0: E_{T}(f^{-1}(\{ \left| z \right|>t \}))=0 \}$
+2. Let $\alpha\notin \text{Sp}(S)$. Then, $S-\alpha \text{id}_{\mathcal{H}}$ is invertible. 
+	- There exists $c>0$ s.t. $\|(S-\alpha \text{id}_{\mathcal{H}})x\|\geq c\|x\|$ for all $x\in\mathcal{H}$.$$E_{T}(f^{-1}(\{ \left| z \right| >\left| \alpha \right|  \}))$$
