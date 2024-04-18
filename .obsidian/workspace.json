@@ -50,14 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring Homomorphism.md",
+                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "c45eeefa3389e702",
@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -240,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
+                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md"
+                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md"
               }
             }
           }
@@ -302,18 +302,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "10ec40fccf506ca0",
+  "active": "02de422d55e980c8",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Algebra/Ring Homomorphism.md",
+    "Courses/Functional Analysis II/Exercise Sheet 7.md",
+    "Analysis/Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "NumCS Feedback.md",
-    "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Measure Theory/Integrable Function.md",
-    "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Positive Operator.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Inner Product Space.md",
@@ -329,7 +330,6 @@
     "Courses/Algebra II/Exercise Sheet 6.md",
     "Algebra/Unique Factorization Domain.md",
     "Courses/Algebra II/Exercise Sheet 5.md",
-    "Courses/Analysis IV/Exercise Sheet 7.md",
     "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
