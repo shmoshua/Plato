@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -240,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
+                "file": "Analysis/Functional Analysis/Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md"
+                "file": "Analysis/Functional Analysis/Spectrum.md"
               }
             }
           }
@@ -302,11 +302,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "db3d59b46f9f8a8a",
+  "active": "10ec40fccf506ca0",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "NumCS Feedback.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
-    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Measure Theory/Integrable Function.md",
@@ -329,7 +330,6 @@
     "Algebra/Unique Factorization Domain.md",
     "Courses/Algebra II/Exercise Sheet 5.md",
     "Courses/Analysis IV/Exercise Sheet 7.md",
-    "Courses/Algebra II/Exercise Sheet 4.md",
     "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
