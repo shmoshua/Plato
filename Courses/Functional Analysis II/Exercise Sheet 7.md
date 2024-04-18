@@ -14,4 +14,4 @@ Equivalently, one can simply use the Cauchy-Schwarz inequality to show: $$\left|
 
 Let us define $E$ as a resolution of identity on $\text{Sp}(S)$ as follows, for any $\omega \subseteq \text{Sp}(S)$, $$E(\omega):=E_{T}(f^{-1}(\omega))$$Then, 
 1. **Showing that $E$ is a resolution of identity**:
-   We have $E(\varnothing)=E_{T}(\varnothing)=0$ and $$E(\text{Sp}(S))=E_{T}(f^{-1}(\text{Sp}(S)))$$
+   We have $E(\varnothing)=E_{T}(\varnothing)=0$ and $$E(\text{Sp}(S))=E_{T}(f^{-1}(\text{Sp}(S)))=\text{id}$$where: $$E_{T}(f^{-1}(\text{Sp}(S)))=\int_{f^{-1}(\text{Sp}(S))}^{} dE_{T}= $$$$E(\mathbb{C} \backslash \text{Sp}(S))=0$$.

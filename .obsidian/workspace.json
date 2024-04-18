@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 5.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -70,7 +70,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a48c7f464c475936",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -82,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 6.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
                 "mode": "preview",
                 "source": false
               }
@@ -185,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,8 +243,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -252,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
+                "file": "Lie Group/Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md",
+                "file": "Lie Group/Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Hilbert Space Operator.md"
+                "file": "Lie Group/Topological Group.md"
               }
             }
           }
@@ -314,17 +325,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "02de422d55e980c8",
+  "active": "a48c7f464c475936",
   "lastOpenFiles": [
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Functional Analysis II/Exercise Sheet 7.md",
+    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Courses/Algebra II/Exercise Sheet 5.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Spectrum.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Ring Homomorphism.md",
-    "Courses/Functional Analysis II/Exercise Sheet 7.md",
-    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "NumCS Feedback.md",
     "Measure Theory/Integrable Function.md",
     "Analysis/Functional Analysis/Positive Operator.md",
@@ -341,7 +353,6 @@
     "Algebra/Field Extension.md",
     "Courses/Algebra II/Exercise Sheet 6.md",
     "Algebra/Unique Factorization Domain.md",
-    "Courses/Algebra II/Exercise Sheet 5.md",
     "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",

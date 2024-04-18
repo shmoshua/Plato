@@ -74,6 +74,9 @@
 2. [[Positive Operator|Polar Decomposition]]
 ---
 ##### 6. Locally Compact Groups
+
+**6.1 Topological Groups**
+1. [[Topological Group]]
 ---
 ##### 8. Complex Measures
 1. [[Measure Theory/Complex Measure|Complex Measure]]
