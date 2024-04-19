@@ -41,3 +41,8 @@ $G=C_{8}=\{ e,a,a^{2},a^{3},\dots \}$
 $H=C_{2}=\{ e,a^4 \}$
 
 Then, $$G / H=\{ eH,aH,a^{2}H,a^3H \}$$Let $f\in \mathcal{H}$. Then, $$f(eH)+f(aH)+f(a^{2}H)+f(a^3H)=0$$$$f(eH)\overline{h(eH)}$$
+
+---
+Assume the $G$-action on $G/H$ is not doubly transitive. Then, there exists $xH,yH,aH,bH\in G / H$ with $xH\neq yH$ and $aH \neq bH$ s.t. 
+
+Assume the $G$-action on $G / H$ is doubly transitive. Then, $[G:H]\leq 2$. Assume otherwise. Then, we have $xH,yH,zH$, all different s.t. there exists $g\in G$ with: $yH=gxH=zH$ which is a contradiction. If $[G:H]=1$, $H=G$ and $\mathcal{H}=\{ 0 \}$. If $[G:H]=2$ with $G / H=\{ eH,xH \}$, then $\mathcal{H}\cong \mathbb{C}$ s.t. $$\begin{array}{cccc} {J:}&{\mathbb{C}}&\to&{\mathcal{H}}\\&{\lambda} &\mapsto & {f(eH)} \end{array}{}$$
