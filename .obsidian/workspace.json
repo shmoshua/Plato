@@ -160,8 +160,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md"
               }
             }
           }
@@ -289,10 +288,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5fffd546c7538a42",
+  "active": "29d3b3cddded9ce7",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Algebra/Unitary Representation.md",

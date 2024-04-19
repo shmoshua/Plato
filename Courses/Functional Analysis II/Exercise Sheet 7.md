@@ -12,40 +12,14 @@ Equivalently, one can simply use the Cauchy-Schwarz inequality to show: $$\left|
 > [!def] Problem 2
 > Let $\mathcal{H}$ be a Hilbert space and $T\in \mathcal{B}(\mathcal{H})$ a normal operator. Suppose there is an operator $S\in \mathcal{B}(\mathcal{H})$ such that $$S=\int_{\text{Sp}(T)}^{} f \, dE_{T}$$ for some $f\in\mathcal{B}^\infty(\text{Sp}(T))$. This implies that $S$ is a normal operator. Prove that the resolutions of the identity $E_{T}$ and $E_{S}$ associated with $T$ and $S$ by the spectral theorem are related by $$E_{S}(\omega)=E_{T}(f^{-1}(\omega))$$ for each Borel set $\omega \subseteq \text{Sp}(S)$.
 
-Let us define $E$ as a resolution of identity on $\text{Sp}(S)$ as follows, for any $\omega \subseteq \text{Sp}(S)$, $$E(\omega):=E_{T}(f^{-1}(\omega \sqcup  \text{Sp}(S)^c))=E_{T}(f^{-1}(\omega))E_{T}(f^{-1}(\text{Sp}(S)^c))$$Then, 
-1. **Showing that $E$ is a resolution of identity on $\text{Sp}(S)$**:
-   We have $E(\varnothing)=0$ and $E(\text{Sp}(S))=E_{T}(f^{-1}(\text{Sp}(S)\sqcup \text{Sp}(S)^c))=E_{T}(\text{Sp}(T))=\text{id}$. Further, by definition, $E(\omega)$ is a self-adjoint projection and: $$E(\omega_{1}\cap\omega_{2})=E(\omega)$$
+We have that: $$\max_{\lambda\in \text{Sp}(S)}\left| \lambda \right|=\|S\|\leq\|f\|=\sup\{ \left| f(\lambda) \right|:\lambda\in \text{Sp}(T) \}$$Therefore, there exists a compact $K\subseteq \mathbb{C}$ s.t. $\text{Sp}(S)\subseteq K$ and $f(\text{Sp}(T))\subseteq K$. We will extend $E_{S}$ onto $K$ and show that $f_{*}(E_{T})$ and $E_{S}$ coincides on $K$, which proves the statement.
+1. **Extension of $E_{S}$**: We define for $\omega\in \mathcal{B}_{K}$: $$\tilde{E}_{S}(\omega)=E_{S}(\omega \cap \text{Sp}(S))$$
 
-$f^{-1}(\text{Sp}(S))\subsetneq \text{Sp}(T)$??
-$$E(\omega)$$
----
-$$E_{T}(f^{-1}(\omega))$$ is a resolution of identity? $$E_{T}(f^{-1}(\text{Sp}(S)))=\text{id}$$
-$$S=\int_{\text{Sp}(T)}^{} f(\xi) \, dE_{T}(\xi)=\int_{\text{Sp}(S)}\lambda  \, dE_{S}(\lambda)$$
-
-Let $E_{T}(f^{-1}(\text{Sp}(S)))=\text{id}$. Then, we have that $E(\omega):=E_{T}(f^{-1}(\omega))$ is a resolution of identity, s.t. $$S=\int_{\text{Sp}(S)}^{} \lambda \, dE_{S}(\lambda)=\int_{\text{Sp}(T)}f(\xi) \, dE_{T}(\xi)=\int_{f^{-1}(\text{Sp}(S))}f(\xi)  \, dE_{T}(\xi)=\int_{\text{Sp}(S)}^{} \lambda \, dE(\lambda)     $$
-
----
-It suffices to show that:
-$$E_{T}(f^{-1}(\mathbb{C} \backslash \text{Sp}(S)))=E_{T}(\text{Sp}(T) \backslash f^{-1}(\text{Sp}(S)))=0$$
-If suffices to show that $\text{ess im }f\subseteq \text{Sp}(S)$. 
-1. Let $\alpha\in \text{ess im }f$. Then, let $U\ni\alpha$ be open and $E_{T}(U)\neq 0$ and $\text{Im }E_{T}(U)\neq (0)$. Now, let $0\neq x\in \text{Im }E_{T}(U)$. Then, $E_{T}(U)x=x$. Then, $$\braket{ Sx , x } =\int_{U}f(\xi)  \, d(E_{T})_{x,x} $$This shows that $x\in \text{Im }E_{S}(f(U))$. Otherwise, $x=y+z$ with $y\in \text{Im }E_{S}(U)$ and $z\in \text{ker }E_{T}(U)$$$\braket{ Sx , x }=\int_{\text{Sp}(S)} \lambda \, d(E_{S})_{x,x}   $$
-2. Let $\alpha\notin \text{Sp}(S)$. Then, $S-\alpha \text{id}_{\mathcal{H}}$ is invertible. 
-	- There exists $c>0$ s.t. $\|(S-\alpha \text{id}_{\mathcal{H}})x\|\geq c\|x\|$ for all $x\in\mathcal{H}$.$$E_{T}(f^{-1}(\{ \left| z \right| >\left| \alpha \right|  \}))$$
----
-We will extend $E_{S}$ onto $\mathbb{C}$ as follows: $$\tilde{E}_{S}(\omega)=E_{S}(\omega \cap \text{Sp}(S))$$Then, 
-1. **Showing $\tilde{E}_{S}$ is a resolution of identity**:
-   We have $\tilde{E}_{S}(\varnothing)=E_{S}(\varnothing)=0$, $\tilde{E}_{S}(\mathbb{C})=E_{S}(\text{Sp}(S))=\text{id}_{\mathcal{H}}$. For any $\omega \in \mathcal{B}_{\mathbb{C}}$, $\tilde{E}_{S}(\omega)$ is a self-adjoint projection by definition. Then, $$\tilde{E}_{S}(\omega_{1}\cap\omega_{2})=E_{S}(\omega_{1}\cap \text{Sp}(S)\cap\omega_{2}\cap \text{Sp}(S))=E_{S}(\omega_{1}\cap \text{Sp}(S))E_{S}(\omega_{2}\cap \text{Sp}(S))=\tilde{E}_{S}(\omega_{1})\tilde{E}_{S}(\omega_{2})$$Further, for $\omega_{1}\sqcup \omega_{2}$, $$\tilde{E}_{S}(\omega_{1}\sqcup\omega_{2})=E_{S}((\omega_{1}\cap\text{Sp}(S))\sqcup(\omega_{2}\cap\text{Sp}(S))  )=\tilde{E}_{S}(\omega_{1})+\tilde{E}_{S}(\omega_{2})$$The last property is inherited from $E_{S}$ as well. Then, $$S=\int_{\text{Sp}(S)}^{} \xi \, dE_{S}(\xi)=\int_{\text{Sp}(S)}^{} \xi \, d\tilde{E}_{S}(\xi)=\int_{f(\text{Sp}(T))}^{} \xi \, d\tilde{E}_{S}(\xi)  $$
-2. **Pushforward of $E_{T}$**: We have: $$\int_{f(\text{Sp}(T))}\xi  \, dE_{T}(f^{-1}(\xi))=\int_{\text{Sp}(T)}^{}  f(\lambda) \, dE_{T}(\lambda) =S=\int_{f(\text{Sp}(T))}^{} \xi \, d\tilde{E}_{S}(\xi)   $$Then, we get the result that for $p\in \mathbb{C}[X,Y]$, $$\int_{f(\text{Sp}(T))}p(\xi,\overline{\xi}) \, dE_{T}(f^{-1}(\xi))=p(S,S^{*})=\int_{f(\text{Sp}(T))}p(\xi,\overline{\xi}) \, d\tilde{E}_{S}(\xi)  $$As $\xi\mapsto p(\xi,\tilde{\xi})$ is dense in $C(f(\text{Sp}(T)))$, $$\int_{f(\text{Sp}(T))}^{} g(\xi) \, dE_{T}(f^{-1}(\xi))=g(S)=\int_{f(\text{Sp}(T))} g(\xi) \, d\tilde{E}_{S}(\xi), \quad \forall g\in C(f(\text{Sp}(T)))  $$which implies that $E_{T}(f^{-1}(\xi))$
----
-Let $\lambda_{0}\in \text{Sp}(T)$. Then, $SE_{T}(\lambda_{0})=(f\cdot \chi_{\{ \lambda_{0} \}})(T)$ and: $$\begin{align}\braket{ SE_{T}(\lambda_{0})x , y } &=\int_{\text{Sp}(T)}^{} f(\lambda)\chi_{\{ \lambda_{0} \}}(\lambda) \, dE^T_{x,y}(\lambda)\\&= f(\lambda_{0})E^T_{x,y}(\lambda_{0})\\&= f(\lambda_{0})\braket{ E^T(\lambda_{0}) x,  y} \end{align}$$Therefore, $(S-f(\lambda_{0})\text{id}_{\mathcal{H}})E_{T}(\lambda_{0})=0$ and $$\text{ker}(T-\lambda_{0}\text{id}_{\mathcal{H}})=\text{Im }E_{T}(\lambda_{0})\subseteq \text{ker}(S-f(\lambda_{0})\text{id}_{\mathcal{H}})$$
-If $\lambda_{0}\notin f^{-1}(\text{Sp}(S))$, then $E_{T}(\lambda_{0})E_{T}(f^{-1}(\text{Sp}(S)))=0$. Then, $$\begin{align}\braket{ SE_{T}(V)x , y } &=\int_{\lambda_{0}\cap f^{-1}(\text{Sp}(S))} f(\lambda) \, dE_{x,y}^T(\lambda)\\&=\int_{f(\lambda_{0})\cap \text{Sp}(S)}\xi\, dE^T_{x,y}(f^{-1}(\xi))\\&=f(\lambda_{0})\braket{ E_{T}(f^{-1} (f(\lambda_{0}))) x, y }  \end{align} $$
-
----
-If $\alpha_{0}\in \text{Sp}(S)$. 
-$$\begin{align}\braket{ SE_{T}(f^{-1}(f(\lambda_{0}))) ,  } \end{align}$$
----
-Let $x\in \text{ker}(S-f(\lambda_{0})\text{id}_{\mathcal{H}})$. Then, $Sx=f(\lambda_{0})x$ and $S^{*}x=\overline{f(\lambda_{0})}x$. Therefore, $$p(S,S^{*})=p(f(\lambda_{0}),\overline{f(\lambda_{0})})x$$For all $g\in C(\text{Sp}(T))$, $g$
-
+   Then, let's show that $\tilde{E}$ is a resolution of identity on $K$. We have $\tilde{E}_{S}(\varnothing)=E_{S}(\varnothing)=0$, $\tilde{E}_{S}(K)=E_{S}(\text{Sp}(S))=\text{id}_{\mathcal{H}}$. For any $\omega \in \mathcal{B}_{K}$, $\tilde{E}_{S}(\omega)$ is a self-adjoint projection by definition. Then, $$\tilde{E}_{S}(\omega_{1}\cap\omega_{2})=E_{S}(\omega_{1}\cap \text{Sp}(S)\cap\omega_{2}\cap \text{Sp}(S))=E_{S}(\omega_{1}\cap \text{Sp}(S))E_{S}(\omega_{2}\cap \text{Sp}(S))=\tilde{E}_{S}(\omega_{1})\tilde{E}_{S}(\omega_{2})$$Further, for $\omega_{1}\sqcup \omega_{2}$, $$\tilde{E}_{S}(\omega_{1}\sqcup\omega_{2})=E_{S}((\omega_{1}\cap\text{Sp}(S))\sqcup(\omega_{2}\cap\text{Sp}(S))  )=\tilde{E}_{S}(\omega_{1})+\tilde{E}_{S}(\omega_{2})$$The last property is inherited from $E_{S}$ as well. Lastly, for $\omega\in \mathcal{B}_{\text{Sp}(S)}$, $\tilde{E}_{S}(\omega)=E_{S}(\omega)$.
+   
+1. **Showing that of $\tilde{E}_{S}$ coincides with $f_{*}E_{T}$**: 
+   As $E_{T}(f^{-1}(K \backslash f(\text{Sp}(T))))=0$, $$S=\int_{\text{Sp}(T)}f(\lambda)  \, dE_{T}(\lambda)=\int_{f(\text{Sp}(T))}\xi  \, dE_{T}(f^{-1}(\xi))=\int_{K}\xi  \, dE_{T}(f^{-1}(\xi))$$Similarly, as $\tilde{E}_{S}(K \backslash\text{Sp}(S))=E_{S}(\varnothing)=0$,$$S=\int_{\text{Sp}(S)}\xi  \, d\tilde{E}_{S}(\xi)=\int_{K}\xi  \, d\tilde{E}_{S}(\xi) $$Due to the spectral theorem, it further holds that: $$\int_{K}\overline{\xi} \, dE_{T}(f^{-1}(\xi))=S^{*}=\int_{K}\overline{\xi}  \, d\tilde{E}_{S}(\xi)$$
+	Then, it holds that for $p\in \mathbb{C}[X,Y]$, $$\int_{K}p(\xi,\overline{\xi}) \, dE_{T}(f^{-1}(\xi))=p(S,S^{*})=\int_{K}p(\xi,\overline{\xi}) \, d\tilde{E}_{S}(\xi)  $$As $\xi\mapsto p(\xi,\overline{\xi})$ is dense in $C(K)$, $$\int_{C}^{} g(\xi) \, dE_{T}(f^{-1}(\xi))=g(S)=\int_{C} g(\xi) \, d\tilde{E}_{S}(\xi), \quad \forall g\in C(K)  $$which implies that $f_{*}E_{T}=\tilde{E}$ on $K$ and thereby on $\text{Sp}(S)$.
 ---
 > [!def] Problem 3
 > Let $G$ be a finite group and $H\leq G$ a subgroup. Recall that $G$ acts on a set $X$ ***doubly transitively*** if for all $x_{1},x_{2},y_{1},y_{2}\in X$ with $x_{1}\neq x_{2}$ and $y_{1}\neq y_{2}$ there is $g\in G$ with $x_{1}=gx_{2}$ and $y_{1}=gy_{2}$. Define the Hilbert space $$\mathcal{H}:=\left\{  f\in \ell^2(G / H) :\sum_{gH\in G / H}^{}f(gH)=0 \right\}$$
