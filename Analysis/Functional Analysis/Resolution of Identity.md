@@ -1,4 +1,4 @@
-#Definition #FunctionalAnalysis 
+E#Definition #FunctionalAnalysis 
 
 > [!definition]
 > Let $X$ be a [[locally compact Hausdorff space]], $\mathcal{B}_{X}$ the [[Borel Sigma-Algebra|Borel $\sigma$-algebra]]  and $\mathcal{H}$ a [[Hilbert space]]. A map $E:\mathcal{B}_{X}\to \mathcal{B}(\mathcal{H})$ is a ***resolution of identity*** if: 
