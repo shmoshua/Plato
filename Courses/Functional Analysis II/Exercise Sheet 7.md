@@ -43,6 +43,9 @@ $H=C_{2}=\{ e,a^4 \}$
 Then, $$G / H=\{ eH,aH,a^{2}H,a^3H \}$$Let $f\in \mathcal{H}$. Then, $$f(eH)+f(aH)+f(a^{2}H)+f(a^3H)=0$$$$f(eH)\overline{h(eH)}$$
 
 ---
-Assume the $G$-action on $G/H$ is not doubly transitive. Then, there exists $xH,yH,aH,bH\in G / H$ with $xH\neq yH$ and $aH \neq bH$ s.t. 
+Assume the $G$-action on $G/H$ is not doubly transitive. Then, there exists $xH,yH,aH,bH\in G / H$ with $xH\neq yH$ and $aH \neq bH$ s.t. for all $g\in G$, if $xH=gyH$, then $aH\neq gbH$. 
+1. If $xH=aH$, then $yH\neq bH$. Let $f\in \mathcal{H}$ s.t. $$f(P):=\begin{cases}1&P=xH\\-1&P=aH\\0&\text{otherwise}\end{cases}$$Then, for any $g\in G$, either  exists no $g\in G$ s.t. $(\pi(g)f)(xH)=f(g^{-1}xH)$
 
-Assume the $G$-action on $G / H$ is doubly transitive. Then, $[G:H]\leq 2$. Assume otherwise. Then, we have $xH,yH,zH$, all different s.t. there exists $g\in G$ with: $yH=gxH=zH$ which is a contradiction. If $[G:H]=1$, $H=G$ and $\mathcal{H}=\{ 0 \}$. If $[G:H]=2$ with $G / H=\{ eH,xH \}$, then $\mathcal{H}\cong \mathbb{C}$ s.t. $$\begin{array}{cccc} {J:}&{\mathbb{C}}&\to&{\mathcal{H}}\\&{\lambda} &\mapsto & {f(eH)} \end{array}{}$$
+Assume the $G$-action on $G / H$ is doubly transitive. We claim that $[G:H]\leq 2$. Assume otherwise. Then, we have $xH,yH,zH$, all different s.t. there exists $g\in G$ with: $yH=gxH=zH$ which is a contradiction. If $[G:H]=1$, $H=G$ and $\mathcal{H}=\{ 0 \}$. If $[G:H]=2$ with $G / H=\{ eH,xH \}$, then $\mathcal{H}\cong \mathbb{C}$ s.t. $$\begin{array}{cccc} {J:}&{\mathbb{C}}&\to&{\mathcal{H}}\\&{\lambda} &\mapsto & {f(eH)=\lambda,f(xH)=-\lambda} \end{array}{}$$Then, let $V$ be a non-zero closed invariant subspace with $J(\lambda)=f\in V$ with $\lambda\neq 0$. Let $g\in V^{\bot}$. Then, $$\braket{ f , g } =f(eH)\overline{g(eH)}+(-f(eH))(\overline{-g(eH)})=0$$and it follows that $g(eH)=0$ and $V^{\bot}=(0)$. Therefore, $V=\mathcal{H}$. This shows that $\pi$ is irreducible.
+
+---
