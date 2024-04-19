@@ -38,7 +38,10 @@ We will extend $E_{S}$ onto $\mathbb{C}$ as follows: $$\tilde{E}_{S}(\omega)=E_{
 2. **Pushforward of $E_{T}$**: We have: $$\int_{f(\text{Sp}(T))}\xi  \, dE_{T}(f^{-1}(\xi))=\int_{\text{Sp}(T)}^{}  f(\lambda) \, dE_{T}(\lambda) =S=\int_{f(\text{Sp}(T))}^{} \xi \, d\tilde{E}_{S}(\xi)   $$Then, we get the result that for $p\in \mathbb{C}[X,Y]$, $$\int_{f(\text{Sp}(T))}p(\xi,\overline{\xi}) \, dE_{T}(f^{-1}(\xi))=p(S,S^{*})=\int_{f(\text{Sp}(T))}p(\xi,\overline{\xi}) \, d\tilde{E}_{S}(\xi)  $$As $\xi\mapsto p(\xi,\tilde{\xi})$ is dense in $C(f(\text{Sp}(T)))$, $$\int_{f(\text{Sp}(T))}^{} g(\xi) \, dE_{T}(f^{-1}(\xi))=g(S)=\int_{f(\text{Sp}(T))} g(\xi) \, d\tilde{E}_{S}(\xi), \quad \forall g\in C(f(\text{Sp}(T)))  $$which implies that $E_{T}(f^{-1}(\xi))$
 ---
 Let $\lambda_{0}\in \text{Sp}(T)$. Then, $SE_{T}(\lambda_{0})=(f\cdot \chi_{\{ \lambda_{0} \}})(T)$ and: $$\begin{align}\braket{ SE_{T}(\lambda_{0})x , y } &=\int_{\text{Sp}(T)}^{} f(\lambda)\chi_{\{ \lambda_{0} \}}(\lambda) \, dE^T_{x,y}(\lambda)\\&= f(\lambda_{0})E^T_{x,y}(\lambda_{0})\\&= f(\lambda_{0})\braket{ E^T(\lambda_{0}) x,  y} \end{align}$$Therefore, $(S-f(\lambda_{0})\text{id}_{\mathcal{H}})E_{T}(\lambda_{0})=0$ and $$\text{ker}(T-\lambda_{0}\text{id}_{\mathcal{H}})=\text{Im }E_{T}(\lambda_{0})\subseteq \text{ker}(S-f(\lambda_{0})\text{id}_{\mathcal{H}})$$
-
+If $\lambda_{0}\notin f^{-1}(\text{Sp}(S))$, then $E_{T}(\lambda_{0})E_{T}(f^{-1}(\text{Sp}(S)))=0$. Then, 
+---
+If $\alpha_{0}\in \text{Sp}(S)$. 
+$$\begin{align}\braket{ SE_{T}(f^{-1}(f(\lambda_{0}))) ,  } \end{align}$$
 ---
 Let $x\in \text{ker}(S-f(\lambda_{0})\text{id}_{\mathcal{H}})$. Then, $Sx=f(\lambda_{0})x$ and $S^{*}x=\overline{f(\lambda_{0})}x$. Therefore, $$p(S,S^{*})=p(f(\lambda_{0}),\overline{f(\lambda_{0})})x$$For all $g\in C(\text{Sp}(T))$, $g$
 
