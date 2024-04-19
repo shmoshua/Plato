@@ -40,7 +40,7 @@ We will extend $E_{S}$ onto $\mathbb{C}$ as follows: $$\tilde{E}_{S}(\omega)=E_{
 Let $\lambda_{0}\in \text{Sp}(T)$. Then, $SE_{T}(\lambda_{0})=(f\cdot \chi_{\{ \lambda_{0} \}})(T)$ and: $$\begin{align}\braket{ SE_{T}(\lambda_{0})x , y } &=\int_{\text{Sp}(T)}^{} f(\lambda)\chi_{\{ \lambda_{0} \}}(\lambda) \, dE^T_{x,y}(\lambda)\\&= f(\lambda_{0})E^T_{x,y}(\lambda_{0})\\&= f(\lambda_{0})\braket{ E^T(\lambda_{0}) x,  y} \end{align}$$Therefore, $(S-f(\lambda_{0})\text{id}_{\mathcal{H}})E_{T}(\lambda_{0})=0$ and $$\text{ker}(T-\lambda_{0}\text{id}_{\mathcal{H}})=\text{Im }E_{T}(\lambda_{0})\subseteq \text{ker}(S-f(\lambda_{0})\text{id}_{\mathcal{H}})$$
 
 ---
-Let $x\in \text{ker}(S-f(\lambda_{0})\text{id}_{\mathcal{H}})$. Then, $Sx=f(\lambda_{0})x$ and $S^{*}x=\overline{f(\lambda_{0})}x$. Therefore, $$p(S,S^{*})=p(f(\lambda_{0}),\overline{f(\lambda_{0})})x$$For all $g\in C(f(\text{Sp}(T)))$, 
+Let $x\in \text{ker}(S-f(\lambda_{0})\text{id}_{\mathcal{H}})$. Then, $Sx=f(\lambda_{0})x$ and $S^{*}x=\overline{f(\lambda_{0})}x$. Therefore, $$p(S,S^{*})=p(f(\lambda_{0}),\overline{f(\lambda_{0})})x$$For all $g\in C(\text{Sp}(T))$, $g$
 
 ---
 > [!def] Problem 3

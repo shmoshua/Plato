@@ -160,8 +160,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -289,11 +288,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4cba061122136a6b",
+  "active": "29d3b3cddded9ce7",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Spectrum.md",
