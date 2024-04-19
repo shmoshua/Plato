@@ -30,22 +30,14 @@ We have that: $$\max_{\lambda\in \text{Sp}(S)}\left| \lambda \right|=\|S\|\leq\|
 > Let $G$ be a finite group and $H\leq G$ a subgroup. Recall that $G$ acts on a set $X$ ***doubly transitively*** if for all $x_{1},x_{2},y_{1},y_{2}\in X$ with $x_{1}\neq x_{2}$ and $y_{1}\neq y_{2}$ there is $g\in G$ with $x_{1}=gx_{2}$ and $y_{1}=gy_{2}$. Define the Hilbert space $$\mathcal{H}:=\left\{  f\in \ell^2(G / H) :\sum_{gH\in G / H}^{}f(gH)=0 \right\}$$
 >and put $(\pi(g)f)(xH):=f(g^{-1}xH)$ for all $f\in \mathcal{H}$ and $g,x\in G$. This $G$-action defines a unitary representation of $G$ on $\mathcal{H}$. Show that $\pi$ is irreducible if and only if the $G$-action on $G / H$ is doubly transitive.
 
-Assume that $\pi$ is irreducible. Then, by Schur's lemma, $\text{Int}(\pi)=\mathbb{C}\cdot \text{id}_{\mathcal{H}}$. Let $x_{1}H,x_{2}H,y_{1}H,y_{2}H\in G / H$ s.t. $x_{1}x_{2}^{-1}\notin H$ and $y_{1}y_{2}^{-1}\notin H$. We have that $T:=\lambda \cdot \text{id}_\mathcal{H}\in \text{Int}(\pi)$ and for any $g\in G$: $$\lambda f(g^{-1}xH)=(T\pi(g)f)(xH)=(\pi(g)(\lambda f))(xH)=\lambda f(g^{-1}x H)$$
-Let $\pi$ be not irreducible. Then, there exists a closed invariant subspace $V$ s.t. $0\subsetneq V\subsetneq \mathcal{H}$. Let $0\neq f,g\in \mathcal{H}$ s.t. $f\in V$ and $h\in V^{\bot}$. Then, $$\sum_{xH\in G / H}^{}f(xH)\overline{h(xH)}=0$$and $\psi:G / H\to \mathbb{C},xH\mapsto f(xH)\overline{h(xH)}$. Then, $\psi\in \mathcal{H}$ and $\psi=\psi_{1}+\psi_{2}$ and: $$0=\sum_{xH\in G / H}^{}f(g^{-1}xH)\overline{h(g^{-1}xH)}=\sum_{xH\in G / H}^{}\pi(g)\psi(xH)$$
-
----
-Let the action be doubly transitive. Then, let $V$ be a closed invariant subspace of $\mathcal{H}$. If $0\neq f\in V$, let $h\in \mathcal{H}$. We need to show that $V=\mathcal{H}$, i.e. we will show that there exists a sequence $g_{1},\dots,g_{n}\in G$ s.t. $$\pi(g_{1})\pi(g_{2})\dots \pi(g_{n})f=h$$Let $xH\in G / H$. If $f(xH)\neq h(xH)$.
-$$\sum_{xH\in G / H}^{}f(xH)=0$$, $$\sum_{xH\in G / H}^{}f(g^{-1}xH)=0$$
-
-$G=C_{8}=\{ e,a,a^{2},a^{3},\dots \}$
-$H=C_{2}=\{ e,a^4 \}$
-
-Then, $$G / H=\{ eH,aH,a^{2}H,a^3H \}$$Let $f\in \mathcal{H}$. Then, $$f(eH)+f(aH)+f(a^{2}H)+f(a^3H)=0$$$$f(eH)\overline{h(eH)}$$
-
----
-Assume the $G$-action on $G/H$ is not doubly transitive. Then, there exists $xH,yH,aH,bH\in G / H$ with $xH\neq yH$ and $aH \neq bH$ s.t. for all $g\in G$, if $xH=gyH$, then $aH\neq gbH$. 
-1. If $xH=aH$, then $yH\neq bH$. Let $f\in \mathcal{H}$ s.t. $$f(P):=\begin{cases}1&P=xH\\-1&P=aH\\0&\text{otherwise}\end{cases}$$Then, for any $g\in G$, either  exists no $g\in G$ s.t. $(\pi(g)f)(xH)=f(g^{-1}xH)$
-
-Assume the $G$-action on $G / H$ is doubly transitive. We claim that $[G:H]\leq 2$. Assume otherwise. Then, we have $xH,yH,zH$, all different s.t. there exists $g\in G$ with: $yH=gxH=zH$ which is a contradiction. If $[G:H]=1$, $H=G$ and $\mathcal{H}=\{ 0 \}$. If $[G:H]=2$ with $G / H=\{ eH,xH \}$, then $\mathcal{H}\cong \mathbb{C}$ s.t. $$\begin{array}{cccc} {J:}&{\mathbb{C}}&\to&{\mathcal{H}}\\&{\lambda} &\mapsto & {f(eH)=\lambda,f(xH)=-\lambda} \end{array}{}$$Then, let $V$ be a non-zero closed invariant subspace with $J(\lambda)=f\in V$ with $\lambda\neq 0$. Let $g\in V^{\bot}$. Then, $$\braket{ f , g } =f(eH)\overline{g(eH)}+(-f(eH))(\overline{-g(eH)})=0$$and it follows that $g(eH)=0$ and $V^{\bot}=(0)$. Therefore, $V=\mathcal{H}$. This shows that $\pi$ is irreducible.
-
----
+We show the following:
+1. **$G$-action on $G / H$ is doubly transitive if and only if $[G:H]\leq 2$**:
+   Let the $G$-action be doubly transitive and assume $[G:H]\geq 3$. Then, we have $xH,yH,zH$, all different s.t. there exists $g\in G$ with: $yH=gxH=zH$ which is a contradiction.  
+   
+   Conversely, if $[G:H]=1$, the action is trivially doubly transitive. If $[G:H]=2$ with $G / H=\{ eH,aH \}$, then $H$ is a normal subgroup of $G$ with $a^{2}=e$. Therefore, there exists $a\in G$ s.t. $aeH=aH$ and $aaH=eH$. This shows that the action is doubly transitive.
+2.  **$\pi$ is irreducible if and only if $[G:H]\leq 2$**:
+   If $[G:H]=1$, $H=G$ and $\mathcal{H}=\{ 0 \}$. If $[G:H]=2$ with $G / H=\{ eH,xH \}$, then $\mathcal{H}\cong \mathbb{C}$ s.t. $$\begin{array}{cccc} {J:}&{\mathbb{C}}&\to&{\mathcal{H}}\\&{\lambda} &\mapsto & {f(eH)=\lambda,f(xH)=-\lambda} \end{array}{}$$Then, let $V$ be a non-zero closed invariant subspace with $J(\lambda)=f\in V$ with $\lambda\neq 0$. Let $g\in V^{\bot}$. Then, $$\braket{ f , g } =f(eH)\overline{g(eH)}+(-f(eH))(\overline{-g(eH)})=0$$and it follows that $g(eH)=0$ and $V^{\bot}=(0)$. Therefore, $V=\mathcal{H}$. This shows that $\pi$ is irreducible.
+   
+   Conversely, let $[G:H]\geq 3$ and let $eH,xH,yH\in G / H$ be pairwise different. Then, $$f$$
+   
+  
