@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Analysis/Inner Product Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -306,6 +306,7 @@
     "Courses/Representation Theory/Representation Theory Roadmap.md",
     "Analysis/Functional Analysis/Linear Representation.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
+    "Analysis/Inner Product Space.md",
     "Algebra/Orbit and Stablizer.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Unitary Representation.md",
@@ -329,7 +330,6 @@
     "Algebra/Ring Homomorphism.md",
     "NumCS Feedback.md",
     "Measure Theory/Integrable Function.md",
-    "Analysis/Inner Product Space.md",
     "Analysis/Pushforward Measure.md",
     "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
