@@ -52,10 +52,16 @@ Let $0\neq f\in V$ and as $G$-action is doubly transitive, wlog we can assume th
 
 Finally, let $g_{0}\in G$ s.t. $xH=gyH$ and $yH=gxH$, which exists from double transitivity, $$(h-\pi(g_{0})h)(P)=\begin{cases}a-b&P=xH\\b-a&P=yH\\0&\text{otherwise}\\\end{cases}$$and $h-\pi(g_{0})h\in V$ from which it holds that $e_{xH,yH}\in V$.
 
-Conversely, suppose that the $G$-action is not doubly transitive. As a notation, we denote for $xH,$
+Conversely, suppose that the $G$-action is not doubly transitive. As a notation, we denote for $xH,yH\in G / H$, $[(xH,yH)]$ as the orbit of $(xH,yH)$ with respect to the $G$-action on $G / H\times G / H$, i.e. $$(yH,bH)\in [(xH,aH)]\iff \exists g\in G: gxH=yH\land gaH=bH$$ 
 
-We claim that there exists $xH,aH,bH$ with $bH\neq xH\neq aH$ s.t. $(gxH,gaH)\neq(xH,bH)$, i.e. $(xH,bH)$ is not in the orbit of $(xH,aH)$ assuming we extend the $G$-action onto $(G / H)\times(G / H)$. As the action is not doubly transitive, there exists $xH,yH,aH,bH$ s.t. $xH\neq aH$ and $yH\neq bH$ with $(yH,bH)$ is not in the orbit. If $xH\neq yH$
+We claim that there exists $xH,aH,bH\in G / H$ with $bH\neq xH\neq aH$ s.t. $(xH,bH)\notin [(xH,aH)]$. 
+
+As the action is not doubly transitive, there exists $xH,yH,aH,bH$ s.t. $xH\neq aH$ and $yH\neq bH$ with $(yH,bH)\notin[(xH,aH)]$. 
+1. If there exists $cH\neq xH$ s.t. $(xH,cH)\notin[(xH,aH)]$, we have the desired elements.
+2. If there exists $zH\neq aH$ s.t. $(zH,aH)\notin[(xH,aH)]$, we have the desired elements.
+3. Otherwise, $(xH,cH)\in[(xH,aH)]$ for all $cH\neq xH$ and $(zH,aH)\in[(xH,aH)]$ for all $zH\neq aH$. If $xH=bH$, then $(bH)$
+4. Otherwise, $(xH,cH)\in[(xH,aH)]$ for all $cH\neq xH$ and $(xH,bH)\in [(xH,aH)]$ and it follows that $(yH,bH)\notin[(xH,bH)]$. Otherwise, $(yH,bH)\in[(xH,aH)]$. By symmetry, this proves the claim. 
 
 
-1. not doubly transitive -> not irreducible
-2. irreducible -> doubly transitive.
+5. not doubly transitive -> not irreducible
+6. irreducible -> doubly transitive.
