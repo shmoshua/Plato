@@ -65,3 +65,5 @@ As the action is not doubly transitive, there exists $xH,yH,aH,bH$ s.t. $xH\neq 
 
 5. not doubly transitive -> not irreducible
 6. irreducible -> doubly transitive.
+7
+Assume it is not doubly transitive. Then, there exists $(yH,bH)\notin[(xH,aH)]$.
