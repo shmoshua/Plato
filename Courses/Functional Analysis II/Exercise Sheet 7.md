@@ -64,3 +64,6 @@ Further, as a notation, we denote for $xH,yH\in G / H$, $[(xH,yH)]$ as the orbit
 
 Assume that the $G$-action is not doubly transitive. Then, there exists $xH,yH,aH,bH\in G / H$ with $xH\neq aH$ and $yH \neq bH$ s.t. $(yH,bH)\notin[(xH,aH)]=:M$. We define the following inner product, $$\braket{ f , h } :=\sum_{(P,Q)\in M}^{}f(P)\overline{h(Q)}$$
 Indeed, the inner product is invariant to $\pi(G)$, since the representation permutes the values of the function inside the orbit by definition. Now, let us represent the inner product with respect to the basis $\{ e_{aH,yH} \}_{xH\in (G / H) \backslash\{ yH \}}$. Then, $$\begin{align}\braket{ f , h } &:=\sum_{P,Q}^{}f(P)\overline{h(Q)}\mathbb{1}_{M}(P,Q)\\&=\sum_{P\neq yH,Q\neq yH}^{}f(P)\overline{h(Q)}\underbrace{ (\mathbb{1}_{M}(P,Q)-\mathbb{1}_{M}(P,yH)-\mathbb{1}_{M}(yH,Q)+\mathbb{1}_{M}(yH,yH)) }_{ =:A_{P,Q} }\end{align}$$where $A_{bH,bH}=-\mathbb{1}_{M}(bH,yH)$. Assume that $\pi$ is irreducible. Then, by Schur's lemma, $A=-\text{id}_{\mathcal{H}}$ and $$\begin{align}\braket{ f , g } &=-\sum_{P\in (G / H) \backslash\{ yH \} }^{}f(P)\overline{h(P)}\\&=\end{align}$$
+
+---
+Then, $\braket{ e_{xH,aH} , e_{xH,aH} }$
