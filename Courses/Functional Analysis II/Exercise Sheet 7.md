@@ -52,6 +52,10 @@ Let $0\neq f\in V$ and as $G$-action is doubly transitive, wlog we can assume th
 
 Finally, let $g_{0}\in G$ s.t. $xH=gyH$ and $yH=gxH$, which exists from double transitivity, $$(h-\pi(g_{0})h)(P)=\begin{cases}a-b&P=xH\\b-a&P=yH\\0&\text{otherwise}\\\end{cases}$$and $h-\pi(g_{0})h\in V$ from which it holds that $e_{xH,yH}\in V$.
 
-Conversely, let $xH,yH,aH,bH$ s.t. $xH\neq aH$ and $yH\neq bH$. 
+Conversely, suppose that the $G$-action is not doubly transitive. As a notation, we denote for $xH,$
+
+We claim that there exists $xH,aH,bH$ with $bH\neq xH\neq aH$ s.t. $(gxH,gaH)\neq(xH,bH)$, i.e. $(xH,bH)$ is not in the orbit of $(xH,aH)$ assuming we extend the $G$-action onto $(G / H)\times(G / H)$. As the action is not doubly transitive, there exists $xH,yH,aH,bH$ s.t. $xH\neq aH$ and $yH\neq bH$ with $(yH,bH)$ is not in the orbit. If $xH\neq yH$
+
+
 1. not doubly transitive -> not irreducible
 2. irreducible -> doubly transitive.
