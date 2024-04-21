@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
                 "mode": "preview",
                 "source": false
               }
@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -219,8 +219,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -302,14 +301,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "426a3c97ada45d5c",
+  "active": "32762af39792a772",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Linear Representation.md",
+    "Algebra/Unitary Representation.md",
     "Courses/Representation Theory/Representation Theory Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
+    "Analysis/Functional Analysis/Linear Representation.md",
     "Representation Theory",
     "Courses/Representation Theory",
-    "Algebra/Unitary Representation.md",
     "Algebra/Subgroup.md",
     "Algebra/Coset.md",
     "Analysis/Functional Analysis/Examples/Finitely-additive Translation and Rotation Invariant Extension of Lebesgue Measure.md",

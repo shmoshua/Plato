@@ -41,3 +41,8 @@ We show the following:
    Conversely, let $[G:H]\geq 3$ and let $eH,xH,yH\in G / H$ be pairwise different. Then, $$f$$
    
   
+---
+Assume that the $G$-action is not doubly transitive. Then, there exists $xH,yH,aH,bH\in G / H$ with $xH\neq aH$ and $yH\neq bH$ s.t. for all $g\in G$, either $yH\neq gxH$ or $bH\neq gaH$.
+1. **Case 1**: $xH=yH$ or $aH=bH$. 
+	Wlog assume that $xH=yH$. Then $aH\neq bH$ otherwise $g=e$ contradicts. As $xH=yH\neq bH$, we define $f,f'\in \mathcal{H}$ where: $$f(P):=\begin{cases}1&P=xH\\-1&P=aH\\0&\text{otherwise}\end{cases},\quad f'(P):=\begin{cases}1&P=xH\\-1&P=bH\\0&\text{otherwise}\end{cases}$$
+---
