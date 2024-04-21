@@ -46,6 +46,12 @@ Assume that the $G$-action is not doubly transitive. Then, there exists $xH,yH,a
 1. **Case 1**: $xH=yH$ or $aH=bH$. 
 	Wlog assume that $xH=yH$. Then $aH\neq bH$ otherwise $g=e$ contradicts. As $xH=yH\neq bH$, we define $f,f'\in \mathcal{H}$ where: $$f(P):=\begin{cases}1&P=xH\\-1&P=aH\\0&\text{otherwise}\end{cases},\quad f'(P):=\begin{cases}1&P=yH\\-1&P=bH\\0&\text{otherwise}\end{cases}$$
 ---
-Assume that the $G$-action is doubly transitive. Let $V\subseteq \mathcal{H}$ be a closed invariant subspace s.t. $V\neq(0)$. We claim that for any $xH\neq yH\in G / H$, there exists $e_{x,y}\in V$ s.t. $$e_{i,j}(P)=\begin{cases}1&P=xH\\-1&P=yH\\0&\text{otherwise}\end{cases}$$
+Assume that the $G$-action is doubly transitive. Let $V\subseteq \mathcal{H}$ be a closed invariant subspace s.t. $V\neq(0)$. We claim that for any $xH\neq yH\in G / H$, there exists $e_{xH,yH}\in V$ s.t. $$e_{xH,yH}(P)=\begin{cases}1&P=xH\\-1&P=yH\\0&\text{otherwise}\end{cases}$$
 
-Let $0\neq f\in V$ and as $G$-action is doubly transitive, wlog we can assume that $f(xH)\neq 0$. Now consider, $$h:=\sum_{g\in \text{St}(xH)}^{}\pi(g)f\in V$$where $\text{St}(xH)$ denotes the stabilizer of $xH$. Then, $h(xH)=\left| \text{St}(xH) \right|\cdot f(xH)$ and for every $yH\neq xH$, $$h(yH)=\sum_{g\in \text{St}(xH)}^{}f(g^{-1}yH)$$
+Let $0\neq f\in V$ and as $G$-action is doubly transitive, wlog we can assume that $f(xH)\neq 0$. Now consider, $$h:=\sum_{g\in \text{St}(xH)}^{}\pi(g)f\in V$$where $\text{St}(xH)$ denotes the stabilizer of $xH$. Then, $h(xH)=\left| \text{St}(xH) \right|\cdot f(xH)=:a\neq 0$. Further, for distinct $yH\neq zH\in G / H$ different from $xH$, we have that: $h(yH)=h(zH)$ as the action is doubly transitive, i.e. there is $\text{St}(xH)$ is transitive on $(G / H) \backslash\{ xH \}$. Therefore, we get that $$h(P)=\begin{cases}\left| \text{St}(xH)  \right| \cdot f(xH)&P=xH\\\left| \text{St}(xH) \cap\text{St}(yH) \right| \cdot \sum_{zH\neq xH}^{}f(zH)&P\neq xH\end{cases}$$where $\sum_{zH\neq xH}^{}f(zH)=-f(xH)\neq 0$ and $\text{St}(xH) \cap\text{St}(yH)$ is non-empty from double transitivity. Therefore, $h(zH)=:b\neq 0$ for all $zH\neq xH$. Also, notice that $h\in H$ and therefore, $a\neq b$. 
+
+Finally, let $g_{0}\in G$ s.t. $xH=gyH$ and $yH=gxH$, which exists from double transitivity, $$(h-\pi(g_{0})h)(P)=\begin{cases}a-b&P=xH\\b-a&P=yH\\0&\text{otherwise}\\\end{cases}$$and $h-\pi(g_{0})h\in V$ from which it holds that $e_{xH,yH}\in V$.
+
+Conversely, let $xH,yH,aH,bH$ s.t. $xH\neq aH$ and $yH\neq bH$. 
+1. not doubly transitive -> not irreducible
+2. irreducible -> doubly transitive.
