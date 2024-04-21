@@ -52,18 +52,6 @@ Let $0\neq f\in V$ and as $G$-action is doubly transitive, wlog we can assume th
 
 Finally, let $g_{0}\in G$ s.t. $xH=gyH$ and $yH=gxH$, which exists from double transitivity, $$(h-\pi(g_{0})h)(P)=\begin{cases}a-b&P=xH\\b-a&P=yH\\0&\text{otherwise}\\\end{cases}$$and $h-\pi(g_{0})h\in V$ from which it holds that $e_{xH,yH}\in V$.
 
-Conversely, suppose that the $G$-action is not doubly transitive. As a notation, we denote for $xH,yH\in G / H$, $[(xH,yH)]$ as the orbit of $(xH,yH)$ with respect to the $G$-action on $G / H\times G / H$, i.e. $$(yH,bH)\in [(xH,aH)]\iff \exists g\in G: gxH=yH\land gaH=bH$$ 
+Conversely, suppose that the $G$-action is not doubly transitive. As a notation, we denote for $xH,yH\in G / H$, $[(xH,yH)]$ as the orbit of $(xH,yH)$ with respect to the $G$-action on $G / H\times G / H$, i.e. $$(yH,bH)\in [(xH,aH)]\iff \exists g\in G: gxH=yH\land gaH=bH$$ Then, there exists $xH,yH,aH,bH\in G / H$ with $xH\neq aH$ and $yH \neq bH$ s.t. $(yH,bH)\notin[(xH,aH)]$. We define the following inner product: $$\braket{ f , h } :=\sum_{(P,Q)\in [(xH,aH)]}^{}f(P)\overline{h(Q)}$$
 
-We claim that there exists $xH,aH,bH\in G / H$ with $bH\neq xH\neq aH$ s.t. $(xH,bH)\notin [(xH,aH)]$. 
-
-As the action is not doubly transitive, there exists $xH,yH,aH,bH$ s.t. $xH\neq aH$ and $yH\neq bH$ with $(yH,bH)\notin[(xH,aH)]$. 
-1. If there exists $cH\neq xH$ s.t. $(xH,cH)\notin[(xH,aH)]$, we have the desired elements.
-2. If there exists $zH\neq aH$ s.t. $(zH,aH)\notin[(xH,aH)]$, we have the desired elements.
-3. Otherwise, $(xH,cH)\in[(xH,aH)]$ for all $cH\neq xH$ and $(zH,aH)\in[(xH,aH)]$ for all $zH\neq aH$. If $xH=bH$, then $(bH)$
-4. Otherwise, $(xH,cH)\in[(xH,aH)]$ for all $cH\neq xH$ and $(xH,bH)\in [(xH,aH)]$ and it follows that $(yH,bH)\notin[(xH,bH)]$. Otherwise, $(yH,bH)\in[(xH,aH)]$. By symmetry, this proves the claim. 
-
-
-5. not doubly transitive -> not irreducible
-6. irreducible -> doubly transitive.
-7
-Assume it is not doubly transitive. Then, there exists $(yH,bH)\notin[(xH,aH)]$.
+We first show that the inner product is invariant to $\pi(G)$, for $g\in G$: $$\braket{ \pi(g)f , \pi(g)h } =\sum_{(P,Q)\in[(xH,aH)]}^{}f(g^{-1}P)\overline{h(g^{-1}Q)}=\braket{ f , h } $$Then, $$\begin{align}\braket{ f , h } &:=\sum_{(P,Q)\in [(xH,aH)]}^{}f(P)\overline{h(Q)}\\&=\sum_{(P,Q)\in (G / H)^{2}}^{}f(P)\overline{h(Q)}\chi_{[(xH,aH)]}(P,Q)\\&=\sum_{P\neq xH,Q\neq xH }^{}f(P)\overline{h(Q)}\chi_{[(xH,aH)]}(P,Q)+\sum_{Q\neq xH }^{}f(xH)\overline{h(Q)}+\sum_{P\neq xH }^{}f(P)\overline{h(xH)}+f(xH)\overline{h(xH)}\\&=\sum_{P\neq xH,Q\neq xH }^{}f(P)\overline{h(Q)}\chi_{[(xH,aH)]}(P,Q)+f(P)\overline{h(Q)}\chi_{[(xH,aH)]}(P,Q)+\sum_{Q\neq xH }^{}f(xH)\overline{h(Q)}+\sum_{P\neq xH }^{}f(P)\overline{h(xH)}+f(xH)\overline{h(xH)}\end{align}$$
