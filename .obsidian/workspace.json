@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Algebra/Orbit and Stablizer.md",
                 "mode": "preview",
                 "source": false
               }
@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
+                "file": "Algebra/Orbit and Stablizer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
+                "file": "Algebra/Orbit and Stablizer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md"
+                "file": "Algebra/Orbit and Stablizer.md"
               }
             }
           }
@@ -301,12 +301,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "32762af39792a772",
+  "active": "5fffd546c7538a42",
   "lastOpenFiles": [
-    "Algebra/Unitary Representation.md",
-    "Courses/Representation Theory/Representation Theory Roadmap.md",
-    "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Analysis/Functional Analysis/Linear Representation.md",
+    "Courses/Functional Analysis II/Exercise Sheet 7.md",
+    "Courses/Representation Theory/Representation Theory Roadmap.md",
+    "Algebra/Orbit and Stablizer.md",
+    "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Algebra/Unitary Representation.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Subgroup.md",
@@ -314,7 +316,6 @@
     "Analysis/Functional Analysis/Examples/Finitely-additive Translation and Rotation Invariant Extension of Lebesgue Measure.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
@@ -330,7 +331,6 @@
     "Measure Theory/Integrable Function.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Pushforward Measure.md",
-    "Analysis/Hilbert Space.md",
     "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",

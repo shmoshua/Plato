@@ -44,5 +44,6 @@ We show the following:
 ---
 Assume that the $G$-action is not doubly transitive. Then, there exists $xH,yH,aH,bH\in G / H$ with $xH\neq aH$ and $yH\neq bH$ s.t. for all $g\in G$, either $yH\neq gxH$ or $bH\neq gaH$.
 1. **Case 1**: $xH=yH$ or $aH=bH$. 
-	Wlog assume that $xH=yH$. Then $aH\neq bH$ otherwise $g=e$ contradicts. As $xH=yH\neq bH$, we define $f,f'\in \mathcal{H}$ where: $$f(P):=\begin{cases}1&P=xH\\-1&P=aH\\0&\text{otherwise}\end{cases},\quad f'(P):=\begin{cases}1&P=xH\\-1&P=bH\\0&\text{otherwise}\end{cases}$$
+	Wlog assume that $xH=yH$. Then $aH\neq bH$ otherwise $g=e$ contradicts. As $xH=yH\neq bH$, we define $f,f'\in \mathcal{H}$ where: $$f(P):=\begin{cases}1&P=xH\\-1&P=aH\\0&\text{otherwise}\end{cases},\quad f'(P):=\begin{cases}1&P=yH\\-1&P=bH\\0&\text{otherwise}\end{cases}$$
 ---
+Assume that the $G$-action is doubly transitive. Let $V\subseteq \mathcal{H}$ be a closed invariant subspace s.t. $V\neq(0)$. Then, there exists $0\neq f\in V$ and as $G$-action is doubly transitive, wlog we can assume that $f(H)\neq 0$. 
