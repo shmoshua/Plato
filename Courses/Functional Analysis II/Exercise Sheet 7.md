@@ -46,4 +46,6 @@ Assume that the $G$-action is not doubly transitive. Then, there exists $xH,yH,a
 1. **Case 1**: $xH=yH$ or $aH=bH$. 
 	Wlog assume that $xH=yH$. Then $aH\neq bH$ otherwise $g=e$ contradicts. As $xH=yH\neq bH$, we define $f,f'\in \mathcal{H}$ where: $$f(P):=\begin{cases}1&P=xH\\-1&P=aH\\0&\text{otherwise}\end{cases},\quad f'(P):=\begin{cases}1&P=yH\\-1&P=bH\\0&\text{otherwise}\end{cases}$$
 ---
-Assume that the $G$-action is doubly transitive. Let $V\subseteq \mathcal{H}$ be a closed invariant subspace s.t. $V\neq(0)$. Then, there exists $0\neq f\in V$ and as $G$-action is doubly transitive, wlog we can assume that $f(H)\neq 0$. 
+Assume that the $G$-action is doubly transitive. Let $V\subseteq \mathcal{H}$ be a closed invariant subspace s.t. $V\neq(0)$. We claim that for any $xH\neq yH\in G / H$, there exists $e_{x,y}\in V$ s.t. $$e_{i,j}(P)=\begin{cases}1&P=xH\\-1&P=yH\\0&\text{otherwise}\end{cases}$$
+
+Let $0\neq f\in V$ and as $G$-action is doubly transitive, wlog we can assume that $f(xH)\neq 0$. Now consider, $$h:=\sum_{g\in \text{St}(xH)}^{}\pi(g)f\in V$$where $\text{St}(xH)$ denotes the stabilizer of $xH$. Then, $h(xH)=\left| \text{St}(xH) \right|\cdot f(xH)$ and for every $yH\neq xH$, $$h(yH)=\sum_{g\in \text{St}(xH)}^{}f(g^{-1}yH)$$
