@@ -24,3 +24,6 @@
 2. [[Quiver Representation]]
 3. [[Path Algebra]]
 4. [[Graded Algebra]]
+
+**1.6 Lie Algebras**
+1. [[Lie Algebra]]

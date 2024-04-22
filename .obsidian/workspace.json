@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Graded Algebra.md",
+                "file": "Courses/Representation Theory/Representation Theory Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,19 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Graded Algebra.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b65a3df26d649dc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Ideal.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -126,8 +114,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Graded Algebra.md",
-                "mode": "source",
+                "file": "Representation Theory/Lie Algebra.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -139,54 +127,6 @@
               "type": "markdown",
               "state": {
                 "file": "Representation Theory/Path Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "639a015605970168",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Quiver.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5dce884185b9fd6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Cyclic Representation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3dcb645cb513aa04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Representation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "796dc4f2734db7f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -347,7 +287,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -367,7 +308,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Graded Algebra.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -384,7 +325,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Graded Algebra.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -407,7 +348,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Graded Algebra.md"
+                "file": "Representation Theory/Lie Algebra.md"
               }
             }
           }
@@ -429,34 +370,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c8711f95291210b0",
+  "active": "fd50cc16a8213552",
   "lastOpenFiles": [
-    "Courses/Representation Theory/Representation Theory Roadmap.md",
-    "Representation Theory/Quiver Representation.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Algebra/Ideal.md",
+    "Representation Theory/Lie Algebra.md",
     "Representation Theory/Graded Algebra.md",
+    "Courses/Representation Theory/Representation Theory Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Representation Theory/Quiver Representation.md",
     "Representation Theory/Path Algebra.md",
-    "Representation Theory/Representation.md",
+    "Differential Geometry/Grassmannian.md",
     "Representation Theory/Quiver.md",
+    "Representation Theory/Representation.md",
     "Lie Group/Topological Group.md",
     "Representation Theory/Weyl Algebra.md",
     "Representation Theory/Cyclic Representation.md",
     "Representation Theory/Quotient Representation.md",
-    "Algebra/Ideal.md",
     "Representation Theory/Representation Homomorphism.md",
     "Algebra/Associative Algebra.md",
     "Algebra/Algebra Homomorphism.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Algebra/Unitary Representation.md",
     "Analysis/Functional Analysis/Group Representation.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Algebra/Direct Sum.md",
     "Algebra/Group Homomorphism.md",
     "Algebra/p-adic Rational.md",
     "Algebra/Quotient Field.md",
-    "Algebra/p-adic Integer.md",
-    "Topology/Connected Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
