@@ -1,7 +1,7 @@
 #Definition #Algebra #RepresentationTheory 
 
 > [!definition]
-> Let $K$ be an [[Algebraic Closure|algebraically closed]] [[field]]. An ***associative algebra*** over $K$ is a $K$-vector space $A$ endowed with a bilinear map $A\times A\to A,(x,y)\mapsto xy$ s.t. 
+> Let $K$ be a [[field]]. An ***associative algebra*** over $K$ is a $K$-vector space $A$ endowed with a bilinear map $A\times A\to A,(x,y)\mapsto xy$ s.t. 
 > 1. **associativity**: $(xy)z=x(yz)$ for all $x,y,z\in A$.
 - **Related definition**: $A$ is ***unital***, if there exists a ***unit*** in $A$, i.e. an element $1\in A$ s.t. $a1=1 a=a$.
 - **Related definition**: $A$ is ***commutative***, if $ab=ba$ for all $a,b\in A$.

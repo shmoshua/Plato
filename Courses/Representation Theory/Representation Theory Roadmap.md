@@ -7,3 +7,5 @@
 
 **1.2 Representations**
 1. [[Representation]]
+2. [[Representation|Subrepresentation]]
+3. [[Representation Homomorphism]]
