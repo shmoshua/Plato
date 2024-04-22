@@ -47,7 +47,7 @@
 > [!lemma] Proposition 4 (Valuation Lemmas)
 > We have that: 
 > 1. $v_{p}(xy)=v_{p}(x)+v_{p}(y)$
-> 2. $v_{p}(x+y)\geq \max(v_{p}(x),v_{p}(y))$
+> 2. $v_{p}(x+y)\geq \min(v_{p}(x),v_{p}(y))$
 > 3. $\|x\|_{p}=0 \iff x=0$
 > 4. $\|xy\|_{p}=\|x\|_{p}\|y\|_{p}$
 > 5. $\|x+y\|_{p}\leq \max(\|x\|_{p},\|y\|_{p})$

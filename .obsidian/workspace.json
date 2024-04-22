@@ -14,7 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Rational.md",
+                "file": "Lie Group/Topological Group.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8e143ea7f78158e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/p-adic Integer.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -65,7 +77,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Integer.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75f39d69e501522c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -77,7 +101,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Rational.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -149,14 +173,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Subgroup.md",
+                "file": "Courses/Topology/Exercise Sheet 7.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Quotient Field.md",
+                "file": "Lie Group/Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Quotient Field.md",
+                "file": "Lie Group/Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Quotient Field.md"
+                "file": "Lie Group/Topological Group.md"
               }
             }
           }
@@ -284,22 +308,27 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5fffd546c7538a42",
+  "active": "75f39d69e501522c",
   "lastOpenFiles": [
+    "Topology/Connected Space.md",
+    "Lie Group/Topological Group.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Topology/Exercise Sheet 7.md",
+    "Algebra/Subgroup.md",
     "Algebra/p-adic Rational.md",
-    "Algebra/Quotient Field.md",
     "Algebra/p-adic Integer.md",
+    "Courses/Representation Theory/Representation Theory Roadmap.md",
+    "Algebra/Separable Extension.md",
+    "Algebra/Quotient Field.md",
     "Algebra/Orbit and Stablizer.md",
     "Analysis/Functional Analysis/Linear Representation.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Representation Theory/Representation Theory Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Unitary Representation.md",
     "Representation Theory",
     "Courses/Representation Theory",
-    "Algebra/Subgroup.md",
     "Algebra/Coset.md",
     "Analysis/Functional Analysis/Examples/Finitely-additive Translation and Rotation Invariant Extension of Lebesgue Measure.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
@@ -309,11 +338,6 @@
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Analysis/Functional Analysis/Positive Operator.md",
     "Lie Group/Locally Compact Topological Group.md",
-    "Lie Group/Topological Group.md",
-    "Courses/Functional Analysis II/Exercise Sheet 6.md",
-    "Courses/Algebra II/Exercise Sheet 5.md",
-    "Algebra/Ring Homomorphism.md",
-    "NumCS Feedback.md",
     "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",

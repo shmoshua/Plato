@@ -78,7 +78,12 @@
 **6.1 Topological Groups**
 1. [[Topological Group]]
 2. [[Locally Compact Topological Group]]
-3. [[p-adic Integer]]
+3. **Example of Topological Groups**: [[p-adic Integer]]
+4. **Example of Topological Groups**: [[p-adic Rational]]
+
+**6.2 Properties of Topological Groups** 
+1. Properties of [[Topological Group]] with [[Connected Space|connectedness]].
+
 ---
 ##### 8. Complex Measures
 1. [[Measure Theory/Complex Measure|Complex Measure]]
