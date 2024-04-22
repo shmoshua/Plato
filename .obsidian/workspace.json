@@ -209,7 +209,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 7.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -349,6 +349,8 @@
     "Algebra/Associative Algebra.md",
     "Representation Theory/Representation Homomorphism.md",
     "Courses/Representation Theory/Representation Theory Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Topology/Exercise Sheet 7.md",
     "Representation Theory/Representation.md",
     "Algebra/Direct Sum.md",
     "Algebra/Group Homomorphism.md",
@@ -359,9 +361,7 @@
     "Algebra/p-adic Integer.md",
     "Topology/Connected Space.md",
     "Lie Group/Topological Group.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Courses/Topology/Exercise Sheet 7.md",
     "Algebra/Subgroup.md",
     "Algebra/Separable Extension.md",
     "Algebra/Orbit and Stablizer.md",
