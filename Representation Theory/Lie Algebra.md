@@ -5,10 +5,11 @@
 > 1. Jacobi identity: $[[a,b],c]+[[b,c],a]+[[c,a],b]=0$ for all $a,b,c\in \mathfrak{g}$.
 - **Related definition**: A ***Lie subalgebra*** of $(\mathfrak{g},[,])$ is a subspace $\mathfrak{a}$ that is stable under $[,]$.
 - **Remark**: Ado’s theorem says that any finite-dimensional Lie algebra is a Lie subalgebra of $\mathfrak{gl}(V)$ for a suitable finite dimensional vector space $V$.
+- **Related definition**: A ***Lie algebra homomorphism*** is a linear map $\varphi:\mathfrak{g}_{1}\to \mathfrak{g}_{2}$ between Lie algebras s.t. $\varphi([a,b])=[\varphi(a),\varphi(b)]$.
 ---
 ##### Examples 
 > [!h] Example 1
-> Any space $\mathfrak{g}$ with $[,]\equiv 0$ is an abelian Lie algebra.
+> Any space $\mathfrak{g}$ with $[,]\equiv 0$ is an abelian Lie algebra. 
 ---
 > [!h] Example 2 (General Linear Lie Algebra)
 > Following are Lie algebras:
@@ -29,4 +30,8 @@
 > Defined as: $$\mathfrak{H}:=\left\{ A\in \text{M}_{3,3}(\mathbb{C}):A=\begin{bmatrix}0&*&*\\0&0&*\\0&0&0\end{bmatrix} \right\}$$with basis: $$x:=\begin{bmatrix}0&0&0\\0&0&1\\0&0&0\end{bmatrix},\quad y:=\begin{bmatrix}0&1&0\\0&0&0\\0&0&0\end{bmatrix},\quad c:=\begin{bmatrix}0&0&1\\0&0&0\\0&0&0\end{bmatrix}$$with $[y,x]=c$, $[y,c]=[x,c]=0$.
 ---
 > [!h] Example 7 (Affine Transformations)
-> 
+> Defined as: $$\text{aff}(1):=\left\{ A\in \text{M}_{2,2}(\mathbb{C}):A=\begin{bmatrix}*&*\\0&0\end{bmatrix} \right\}$$with basis: $$X:=\begin{bmatrix}1&0\\0&0\end{bmatrix},\quad Y:=\begin{bmatrix}0&1\\0&0\end{bmatrix}$$with $[X,Y]=Y$.
+---
+> [!h] Example 8 (Special Orthogonal Lie Algebra)
+> $$\mathfrak{so}_{n}(\mathbb{R}):=\{ A\in \mathfrak{gl}_{n}(\mathbb{R}):A^\top+A=0 \}$$
+---

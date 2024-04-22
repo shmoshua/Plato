@@ -27,3 +27,5 @@
 
 **1.6 Lie Algebras**
 1. [[Lie Algebra]]
+2. [[Lie Algebra Representation]]
+3. [[Universal Enveloping Algebra]]
