@@ -120,6 +120,18 @@
             }
           },
           {
+            "id": "639a015605970168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Representation.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5dce884185b9fd6e",
             "type": "leaf",
             "state": {
@@ -264,7 +276,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -392,11 +404,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9ea04376b7c4965a",
+  "active": "5dce884185b9fd6e",
   "lastOpenFiles": [
-    "Courses/Representation Theory/Representation Theory Roadmap.md",
-    "Representation Theory/Cyclic Representation.md",
     "Representation Theory/Representation.md",
+    "Representation Theory/Cyclic Representation.md",
+    "Courses/Representation Theory/Representation Theory Roadmap.md",
     "Representation Theory/Quotient Representation.md",
     "Algebra/Ideal.md",
     "Representation Theory/Representation Homomorphism.md",
