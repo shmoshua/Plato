@@ -126,7 +126,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Path Algebra.md",
+                "file": "Algebra/Associative Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -370,16 +370,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fd50cc16a8213552",
+  "active": "c8711f95291210b0",
   "lastOpenFiles": [
+    "Algebra/Associative Algebra.md",
+    "Representation Theory/Path Algebra.md",
+    "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Lie Bracket.md",
     "Algebra/Ideal.md",
-    "Representation Theory/Lie Algebra.md",
     "Representation Theory/Graded Algebra.md",
     "Courses/Representation Theory/Representation Theory Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Representation Theory/Quiver Representation.md",
-    "Representation Theory/Path Algebra.md",
     "Differential Geometry/Grassmannian.md",
     "Representation Theory/Quiver.md",
     "Representation Theory/Representation.md",
@@ -388,7 +389,6 @@
     "Representation Theory/Cyclic Representation.md",
     "Representation Theory/Quotient Representation.md",
     "Representation Theory/Representation Homomorphism.md",
-    "Algebra/Associative Algebra.md",
     "Algebra/Algebra Homomorphism.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Algebra/Unitary Representation.md",
