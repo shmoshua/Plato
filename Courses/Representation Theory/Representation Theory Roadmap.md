@@ -23,3 +23,4 @@
 1. [[Quiver]]
 2. [[Quiver Representation]]
 3. [[Path Algebra]]
+4. [[Graded Algebra]]
