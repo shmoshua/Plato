@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md"
               }
             }
           }
@@ -301,13 +301,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5fffd546c7538a42",
+  "active": "32762af39792a772",
   "lastOpenFiles": [
+    "Algebra/Orbit and Stablizer.md",
     "Analysis/Inner Product Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Courses/Representation Theory/Representation Theory Roadmap.md",
     "Analysis/Functional Analysis/Linear Representation.md",
-    "Algebra/Orbit and Stablizer.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Unitary Representation.md",
     "Representation Theory",

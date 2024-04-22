@@ -30,6 +30,8 @@ We have that: $$\max_{\lambda\in \text{Sp}(S)}\left| \lambda \right|=\|S\|\leq\|
 > Let $G$ be a finite group and $H\leq G$ a subgroup. Recall that $G$ acts on a set $X$ ***doubly transitively*** if for all $x_{1},x_{2},y_{1},y_{2}\in X$ with $x_{1}\neq x_{2}$ and $y_{1}\neq y_{2}$ there is $g\in G$ with $x_{1}=gx_{2}$ and $y_{1}=gy_{2}$. Define the Hilbert space $$\mathcal{H}:=\left\{  f\in \ell^2(G / H) :\sum_{gH\in G / H}^{}f(gH)=0 \right\}$$
 >and put $(\pi(g)f)(xH):=f(g^{-1}xH)$ for all $f\in \mathcal{H}$ and $g,x\in G$. This $G$-action defines a unitary representation of $G$ on $\mathcal{H}$. Show that $\pi$ is irreducible if and only if the $G$-action on $G / H$ is doubly transitive.
 
+Firstly, assume that the $G$-action is not doubly transitive but $\pi$ is irreducible. Then, there exists $xH,yH,aH,bH\in G / H$ with $xH\neq aH$ and $yH\neq bH$ s.t. there exists no $g\in G$ s.t. $gyH=xH$ and $gbH=aH$. In other words, let $$
+
 We show the following:
 1. **$G$-action on $G / H$ is doubly transitive if and only if $[G:H]\leq 2$**:
    Let the $G$-action be doubly transitive and assume $[G:H]\geq 3$. Then, we have $xH,yH,zH$, all different s.t. there exists $g\in G$ with: $yH=gxH=zH$ which is a contradiction.  
