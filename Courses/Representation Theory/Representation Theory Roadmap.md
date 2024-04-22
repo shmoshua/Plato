@@ -1,5 +1,9 @@
 #Roadmap #RepresentationTheory
 
 ##### 1. Basic Notions of Representation Theory
+**1.1 Algebras**
 1. [[Associative Algebra]]
-1. [[Linear Representation]]
+2. [[Algebra Homomorphism]]
+
+**1.2 Representations**
+1. [[Representation]]

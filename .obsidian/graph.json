@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 6084269
       }
+    },
+    {
+      "query": "tag:#RepresentationTheory  ",
+      "color": {
+        "a": 1,
+        "rgb": 1114367
+      }
     }
   ],
   "collapse-display": true,

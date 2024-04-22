@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Representation Theory/Representation Theory Roadmap.md",
+                "file": "Representation Theory/Representation.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Associative Algebra.md",
+                "file": "Algebra/Algebra Homomorphism.md",
                 "mode": "source",
                 "source": true
               }
@@ -76,8 +76,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -102,19 +101,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Associative Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75f39d69e501522c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
+                "file": "Representation Theory/Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -126,7 +113,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Quotient Field.md",
+                "file": "Algebra/Group Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -192,8 +179,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Associative Algebra.md",
+                "file": "Representation Theory/Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -276,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Associative Algebra.md",
+                "file": "Representation Theory/Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -299,7 +285,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Associative Algebra.md"
+                "file": "Representation Theory/Representation.md"
               }
             }
           }
@@ -321,20 +307,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d7901e0671c3fbd6",
+  "active": "9ea04376b7c4965a",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/C-Algebra.md",
     "Courses/Representation Theory/Representation Theory Roadmap.md",
+    "Representation Theory/Representation.md",
+    "Algebra/Algebra Homomorphism.md",
+    "Algebra/Group Homomorphism.md",
+    "Algebra/p-adic Rational.md",
     "Algebra/Associative Algebra.md",
-    "Algebra/p-adic Integer.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
     "Algebra/Quotient Field.md",
+    "Algebra/p-adic Integer.md",
     "Topology/Connected Space.md",
     "Lie Group/Topological Group.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Algebra/Subgroup.md",
-    "Algebra/p-adic Rational.md",
     "Algebra/Separable Extension.md",
     "Algebra/Orbit and Stablizer.md",
     "Analysis/Functional Analysis/Linear Representation.md",
@@ -348,9 +337,6 @@
     "Analysis/Functional Analysis/Examples/Finitely-additive Translation and Rotation Invariant Extension of Lebesgue Measure.md",
     "Analysis/Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
-    "Analysis/Functional Analysis/Spectrum.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Analysis/Functional Analysis/Guelfand Transform.md",
     "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
