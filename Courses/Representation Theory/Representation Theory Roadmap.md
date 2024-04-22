@@ -13,6 +13,6 @@
 
 **1.3 Ideals and Quotients**
 1. [[Ideal]] as subrepresentations
-2. [[Quotient Representation]]
+2. [[Representation|Quotient Representation]]
 
 **1.4 Quotients**

@@ -29,3 +29,13 @@
 ---
 > [!h] Example 2
 > For any representation $V$, $(0)$ and $V$ are subrepresentations.
+---
+> [!h] Example 3 (Quotient representation)
+> For a representation $V$ and a subrepresentation $W$, the ***quotient representation*** is defined as $V / W$ where: $$\rho_{V / W}(a)\pi(x):=\pi(\rho_{V}(a)x)$$
+> As any left ideal $I\subseteq A$ is a subrepresentation of the regular representation, $A / I$ is a representation of $A$.
+
+> [!proof]-
+> We have: $$\rho_{V / W}(ab)\pi(x)=\pi(\rho_{V}(ab)x)=\pi(\rho_{V}(a)\rho_{V}(b)x)=\rho_{V/W}(a)\pi(\rho_{V}(b)x)=\rho_{V/W}(a)\rho_{V / W}(b)\pi(x)$$
+---
+> [!h] Example 4
+> Let $A:=K[X_{1},\dots,X_{n}]$ and let $I\neq A$ be any ideal in $A$ containing all homogeneous polynomials of degree $\geq N$. Show that $A / I$ is an indecomposable representation of $A$.
