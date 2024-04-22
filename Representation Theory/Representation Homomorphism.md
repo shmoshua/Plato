@@ -59,8 +59,9 @@
 > Let $A$ be an algebra over $K$ (algebraically closed). 
 > 1. For an irreducible finite-dimensional representation $V$ of $A$, then for any $z\in Z(A)$, $z$ acts  in $V$ by multiplication by some scalar $\chi_{V}(z)\in K$. This defines a homomorphism: $\chi_{V}:Z(A)\to K$.
 > 2. Show that if $V$ is an indecomposable finite-dimensional representation of $A$, then for any $z\in Z(A)$, the operator $\rho(z)$ by which $z$ acts in $V$ has only one eigenvalue $\chi_{V}(z)$.
-> 3. Does $\rho(z)$ in 2 have to be a scalar operator?
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. for $z\in Z(A)$ and $a\in A$, $$\rho(z)\rho(a)v=\rho(za)v=\rho(az)v=\rho(a)\rho(z)v$$Then, $\rho(z)\in \text{Hom}_{A}(V)$ and therefore is scalar. Let the scalar be $\chi_{V}(z)$. Then, $$\chi_{V}(z_{1}z_{2})=$$
+> 1. for $z\in Z(A)$ and $a\in A$, $$\rho(z)\rho(a)v=\rho(za)v=\rho(az)v=\rho(a)\rho(z)v$$Then, $\rho(z)\in \text{Hom}_{A}(V)$ and therefore is scalar. Let the scalar be $\chi_{V}(z)$. Then, for any $v\in V$, $$\chi_{V}(z_{1}z_{2})v=\rho(z_{1}z_{2})v=\rho(z_{1})\rho(z_{2})v=\chi_{V}(z_{1})\chi_{V}(z_{2})v$$
+> 2. Assume $\rho(z)$ has multiple eigenvalues $\lambda_{1},\lambda_{2}$. Then, non-zero representations $V=V_{\lambda_{1}}\oplus V_{\lambda_{2}}$ and $V$ is not indecomposable. Therefore, $\rho(z)$ has only one eigenvalue.
+---

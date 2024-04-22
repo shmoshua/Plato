@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Representation.md",
+                "file": "Representation Theory/Quotient Representation.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Representation Homomorphism.md",
+                "file": "Algebra/Ideal.md",
                 "mode": "source",
                 "source": true
               }
@@ -88,8 +88,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -102,7 +101,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Representation Theory/Representation Theory Roadmap.md",
+                "file": "Representation Theory/Quotient Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -114,7 +113,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Representation Homomorphism.md",
+                "file": "Representation Theory/Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Associative Algebra.md",
+                "file": "Algebra/Unitary Representation.md",
                 "mode": "preview",
                 "source": true
               }
@@ -228,8 +227,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -295,7 +293,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Representation Homomorphism.md",
+                "file": "Representation Theory/Quotient Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -312,7 +310,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Representation Homomorphism.md",
+                "file": "Representation Theory/Quotient Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -335,7 +333,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Representation Homomorphism.md"
+                "file": "Representation Theory/Quotient Representation.md"
               }
             }
           }
@@ -357,20 +355,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "796dc4f2734db7f2",
+  "active": "9ea04376b7c4965a",
   "lastOpenFiles": [
     "Courses/Representation Theory/Representation Theory Roadmap.md",
+    "Representation Theory/Quotient Representation.md",
+    "Algebra/Ideal.md",
+    "Representation Theory/Representation Homomorphism.md",
     "Representation Theory/Representation.md",
     "Algebra/Associative Algebra.md",
+    "Algebra/Algebra Homomorphism.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
+    "Algebra/Unitary Representation.md",
     "Analysis/Functional Analysis/Group Representation.md",
-    "Representation Theory/Representation Homomorphism.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Algebra/Direct Sum.md",
     "Algebra/Group Homomorphism.md",
-    "Algebra/Algebra Homomorphism.md",
     "Algebra/p-adic Rational.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
     "Algebra/Quotient Field.md",
     "Algebra/p-adic Integer.md",
     "Topology/Connected Space.md",
@@ -382,11 +383,8 @@
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Algebra/Unitary Representation.md",
     "Representation Theory",
     "Courses/Representation Theory",
-    "Algebra/Coset.md",
-    "Analysis/Functional Analysis/Examples/Finitely-additive Translation and Rotation Invariant Extension of Lebesgue Measure.md",
     "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",

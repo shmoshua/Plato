@@ -11,4 +11,8 @@
 3. [[Representation Homomorphism]]
 4. [[Representation Homomorphism|Schur's Lemma]]
 
-**1.3 Ideals**
+**1.3 Ideals and Quotients**
+1. [[Ideal]] as subrepresentations
+2. [[Quotient Representation]]
+
+**1.4 Quotients**
