@@ -39,3 +39,5 @@
 ---
 > [!h] Example 4
 > Let $A:=K[X_{1},\dots,X_{n}]$ and let $I\neq A$ be any ideal in $A$ containing all homogeneous polynomials of degree $\geq N$. Show that $A / I$ is an indecomposable representation of $A$.
+
+---

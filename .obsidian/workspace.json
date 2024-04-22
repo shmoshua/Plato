@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Representation Theory/Representation Theory Roadmap.md",
+                "file": "Representation Theory/Cyclic Representation.md",
                 "mode": "source",
                 "source": true
               }
@@ -100,8 +100,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -115,6 +114,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Representation Theory/Representation Theory Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5dce884185b9fd6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Cyclic Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -319,7 +330,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Representation.md",
+                "file": "Representation Theory/Cyclic Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -336,7 +347,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Representation.md",
+                "file": "Representation Theory/Cyclic Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -359,7 +370,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Representation.md"
+                "file": "Representation Theory/Cyclic Representation.md"
               }
             }
           }
@@ -381,9 +392,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fd50cc16a8213552",
+  "active": "9ea04376b7c4965a",
   "lastOpenFiles": [
     "Courses/Representation Theory/Representation Theory Roadmap.md",
+    "Representation Theory/Cyclic Representation.md",
     "Representation Theory/Representation.md",
     "Representation Theory/Quotient Representation.md",
     "Algebra/Ideal.md",
@@ -408,7 +420,6 @@
     "Algebra/Orbit and Stablizer.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Analysis/Inner Product Space.md",
-    "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

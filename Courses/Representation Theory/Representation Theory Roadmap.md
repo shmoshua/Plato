@@ -14,5 +14,4 @@
 **1.3 Ideals and Quotients**
 1. [[Ideal]] as subrepresentations
 2. [[Representation|Quotient Representation]]
-
-**1.4 Quotients**
+3. [[Cyclic Representation]]
