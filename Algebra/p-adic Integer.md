@@ -19,19 +19,23 @@
 ---
 > [!lemma] Proposition 2
 > We have:
+> 1. $\mathbb{Z}\hookrightarrow \mathbb{Z}_{p}$ injects as a subring.
 > 1. $\varepsilon_{n}$ is surjective.
 > 2. $\text{ker }\varepsilon_{n}=p^n\mathbb{Z}_{p}$
 > 3. Multiplication by $p^n$ is injective.
 
-> [!proof]- Proof (Incomplete)
+> [!proof]+ Proof (Incomplete)
 > For $m\in A_{n-1}$, we have that: $$\varepsilon_{n}(m\cdot 1)=m$$
 > Let $x\in \mathbb{Z}_{p}$ and assume $px=(px_{n})_{n\geq 1}=(0)_{n\geq 1}$. 
-> Since $px_{1}=0$ 
+> Since $px_{1}=0$ $$0\to \mathbb{Z}_{p}\xrightarrow{p_{n}} \mathbb{Z}_{p}\xrightarrow{\varepsilon_{n}}A_{n}\to 0$$
 ---
 > [!lemma] Proposition 3
 > We have:
 > 1. $x\in \mathbb{Z}_{p}$ is invertible if and only if $x\notin p\mathbb{Z}_{p}$
+> 2. let $U:=\{ x\in \mathbb{Z}_{p}:x \text{ is invertible} \}$. Then, every $x\in \mathbb{Z}_{p} \backslash\{ 0 \}$ can be written uniquely as: $$x=p^n\cdot u$$for $n\geq 0,u\in U$
 
 > [!proof]+
 > If $x$ is invertible, then $\varepsilon_{1}(x)$ is invertible. Therefore, $x\notin \text{ker }\varepsilon_{1}=p\mathbb{Z}_{p}$. Conversely, if $x\notin p\mathbb{Z}_{p}$, then $x_{n}\notin p A_{n}$, so there exists $y_{n}\in A_{n}$ s.t. $x_{n}y_{n}=1_{A_{n}}$. 
+> 
+> 2. Let $0\neq x\in \mathbb{Z}_{p}$. Then, $x=(x_{\ell})_{\ell\geq 1}$ with $x_{\ell}\in \mathbb{Z} / p^\ell \mathbb{Z}$.
 > 

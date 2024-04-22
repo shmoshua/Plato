@@ -14,3 +14,8 @@
 > 1. **Left-regular representation**: $\rho:G\to \mathcal{F}(G)$, where$$(\rho(g)f)(x)=f(g^{-1}x)$$
 > 2. **Right-regular representation**: $\rho:G\to \mathcal{F}(G)$, where$$(\rho(g)f)(x)=f(xg)$$
 > 3. $\rho:G\times G\to \mathcal{F}(G)$, where$$(\rho(g,h)f)(x)=f(g^{-1}xh)$$
+---
+> [!h] Example 2
+> We have:
+> 1. $G=\mathbb{R}$ or $\mathbb{C}$ with $\rho: s\mapsto (x\mapsto e^{sx})$ is a one-dimensional representation.
+> 2.  $G=\mathbb{R / \mathbb{Z}}$ with $\rho: s\mapsto (x\mapsto e^{sx})$ is a one-dimensional representation.
