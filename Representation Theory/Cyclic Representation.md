@@ -22,9 +22,9 @@
 > 1. $V$ is not cyclic.
 > 2. $V$ is indecomposable.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $f\in V$ s.t. $Af=V$. Then, for any $g\in A^{*}$, there exists $a+bx+cy+I\in A$ s.t. $$g(x+I)=f(ax+I),\quad g(y+I)=f(ay+I),\quad g(1+I)=f(a+bx+cy+I)$$This is a contradiction as we can have $g_{1},g_{2}\in A^{*}$ s.t. $g_{1}(1+I)=g_{2}(1+I)$ but $g_{1}(x+I)\neq g_{2}(x+I)$.
 > 2. However, $V$ is indecomposable. Let $d_{1},d_{x},d_{y}\in A^{*}$ be defined as: $$\begin{align}d_{1}(a+bx+cy+I)=a\\d_{x}(a+bx+cy+I)=b\\d_{y}(a+bx+cy+I)=c\end{align}$$Then, $$\begin{align}(x+I)(\xi_{1}d_{1}+\xi_{x}d_{x}+\xi_{y}d_{y})(a+bx+cy+I)&=(\xi_{1}d_{1}+\xi_{x}d_{x}+\xi_{y}d_{y})(ax+I)\\&=\xi_{x}a\\&=\xi_{x}d_{1}(a+bx+cy+I)\end{align}$$Therefore, $$\begin{align}\rho(x+I)(\xi_{1}d_{1}+\xi_{x}d_{x}+\xi_{y}d_{y})=\xi_{x}d_{1}\\\rho(y+I)(\xi_{1}d_{1}+\xi_{x}d_{x}+\xi_{y}d_{y})=\xi_{y}d_{1}\end{align}$$
-> 	It follows that for any $v\in A^{*}$, there exists $a\in A$ s.t. $av=d_{1}$. 
-> 
+> 	It follows that for any $v\in A^{*}$, there exists $a\in A$ s.t. $av=d_{1}$. Therefore, $V$ cannot be a direct sum of two non-zero subrepresentations.
+---

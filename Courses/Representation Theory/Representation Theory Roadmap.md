@@ -15,3 +15,11 @@
 1. [[Ideal]] as subrepresentations
 2. [[Representation|Quotient Representation]]
 3. [[Cyclic Representation]]
+
+**1.4 Examples of Algebras**
+1. [[Weyl Algebra]]
+
+**1.5 Quivers**
+1. [[Quiver]]
+2. [[Quiver Representation]]
+3. [[Path Algebra]]
