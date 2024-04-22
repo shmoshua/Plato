@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Integer.md",
+                "file": "Algebra/p-adic Rational.md",
                 "mode": "source",
                 "source": true
               }
@@ -52,8 +52,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -78,7 +77,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Linear Representation.md",
+                "file": "Algebra/p-adic Rational.md",
                 "mode": "preview",
                 "source": false
               }
@@ -90,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Algebra/Quotient Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -156,7 +155,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -222,6 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algebra/Quotient Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,6 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algebra/Quotient Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -259,7 +261,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algebra/Quotient Field.md"
+              }
             }
           }
         ]
@@ -280,14 +284,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "51266993c28f03e7",
+  "active": "5fffd546c7538a42",
   "lastOpenFiles": [
+    "Algebra/p-adic Rational.md",
+    "Algebra/Quotient Field.md",
     "Algebra/p-adic Integer.md",
+    "Algebra/Orbit and Stablizer.md",
+    "Analysis/Functional Analysis/Linear Representation.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Representation Theory/Representation Theory Roadmap.md",
-    "Analysis/Functional Analysis/Linear Representation.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
-    "Algebra/Orbit and Stablizer.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Unitary Representation.md",
@@ -308,8 +314,6 @@
     "Courses/Algebra II/Exercise Sheet 5.md",
     "Algebra/Ring Homomorphism.md",
     "NumCS Feedback.md",
-    "Measure Theory/Integrable Function.md",
-    "Analysis/Pushforward Measure.md",
     "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
