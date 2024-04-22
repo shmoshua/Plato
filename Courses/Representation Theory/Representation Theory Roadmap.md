@@ -9,3 +9,6 @@
 1. [[Representation]]
 2. [[Representation|Subrepresentation]]
 3. [[Representation Homomorphism]]
+4. [[Representation Homomorphism|Schur's Lemma]]
+
+**1.3 Ideals**

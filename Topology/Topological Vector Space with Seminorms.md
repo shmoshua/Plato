@@ -134,7 +134,7 @@
 > Hence, $$t(v_{1}+x_{1})+(1-t)(v_{2}+x_{2})=tv_{1}+(1-t)v_{2}+\underbrace{ tx_{1}+(1-t)x_{2} }_{ \in N(0,F,\varepsilon) }\in C$$It follows that $tv_{1}+(1-t)v_{2}\in \overline{C}$.
 ---
 > [!lemma] Theorem 11 (Markov-Kakutani)
-> Let $E$ be a topological vector space with a sufficient family of seminorms $\{ \|\cdot\|_{a} \}_{a\in B}$, $G$ an [[Abelian Group|abelian group]] and $\pi:G \to \text{Aut}(E)$ a [[Linear Representation|representation]]. For a compact, convex, non-empty set $A\subseteq E$, if $A$ is $G$-invariant, i.e. $$\pi(g)[A]\subseteq A\quad \forall g\in G$$then, there exists $x\in A$ s.t. $\pi(g)(x)=x$ for all $g\in G$.
+> Let $E$ be a topological vector space with a sufficient family of seminorms $\{ \|\cdot\|_{a} \}_{a\in B}$, $G$ an [[Abelian Group|abelian group]] and $\pi:G \to \text{Aut}(E)$ a [[Group Representation|representation]]. For a compact, convex, non-empty set $A\subseteq E$, if $A$ is $G$-invariant, i.e. $$\pi(g)[A]\subseteq A\quad \forall g\in G$$then, there exists $x\in A$ s.t. $\pi(g)(x)=x$ for all $g\in G$.
 
 > [!proof]-
 > We have:

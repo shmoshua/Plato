@@ -64,7 +64,7 @@
 2. **Application of the spectral theorem**:  [[Hilbert Space]] isomorphism between $\mathcal{H}$ and $L^2(\widehat{A}\times \mathbb{N},\mu)$
 
 **5.6 Schur's Lemma**
-1. [[Linear Representation]]
+1. [[Group Representation]]
 2. [[Unitary Representation]]
 3. [[Unitary Representation|Invariant Subspaces]]
 4. **Application of the spectral theorem**: [[Unitary Representation|Schur's Lemma]]

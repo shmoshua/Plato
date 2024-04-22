@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Representation Homomorphism.md",
+                "file": "Representation Theory/Representation.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Representation Theory/Representation Theory Roadmap.md",
+                "file": "Representation Theory/Representation Homomorphism.md",
                 "mode": "source",
                 "source": true
               }
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -108,12 +109,24 @@
             }
           },
           {
-            "id": "5eaf4ead5e059b03",
+            "id": "796dc4f2734db7f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Representation Theory/Representation Homomorphism.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "caf6256507debc55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -344,14 +357,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5eaf4ead5e059b03",
+  "active": "796dc4f2734db7f2",
   "lastOpenFiles": [
-    "Algebra/Associative Algebra.md",
-    "Representation Theory/Representation Homomorphism.md",
     "Courses/Representation Theory/Representation Theory Roadmap.md",
+    "Representation Theory/Representation.md",
+    "Algebra/Associative Algebra.md",
+    "Analysis/Functional Analysis/Group Representation.md",
+    "Representation Theory/Representation Homomorphism.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Topology/Exercise Sheet 7.md",
-    "Representation Theory/Representation.md",
     "Algebra/Direct Sum.md",
     "Algebra/Group Homomorphism.md",
     "Algebra/Algebra Homomorphism.md",
@@ -365,7 +379,6 @@
     "Algebra/Subgroup.md",
     "Algebra/Separable Extension.md",
     "Algebra/Orbit and Stablizer.md",
-    "Analysis/Functional Analysis/Linear Representation.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",

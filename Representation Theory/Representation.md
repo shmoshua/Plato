@@ -12,6 +12,14 @@
 - **Related definition**: For two $A$-representations $V_{1},V_{2}$, the ***direct sum*** of $V_{1}$ and $V_{2}$ is a representation of $A$ given as $a(v_{1}\oplus v_{2})=a(v_{1})\oplus a(v_{2})$
 - **Related definition**: A representation $0\neq V$ of $A$ is called ***indecomposable*** if it's not isomorphic to a direct sum of two non-zero representations.
 ---
+##### Properties
+> [!lemma] Proposition 1
+> A non-zero finite-dimensional representation $V$ of an algebra $A$ has an irreducible subrepresentation.
+
+> [!proof]-
+> If $V$ has no proper non-trivial subrepresentation, then we are done and $V$ is irreducible. Otherwise, there exists a proper non-trivial subrepresentation $W$ and it holds that $0<\text{dim }W<\text{dim }V$. Continuing with $W$ has to stop in finite number of steps. Therefore, there exists an irreducible subrepresentation.
+- **Remark**: This does not hold for infinite-dimensional representations, e.g. $A=\mathbb{C}[X]$ with the regular representation. Then, every non-zero element generates a subrepresentation isomorphic to $A$.
+---
 ##### Examples
 > [!h] Example 1
 > Following are representations: 
