@@ -96,3 +96,9 @@
 4. [[Courses/Functional Analysis II/Exercise Sheet 4|Exercise Sheet 4]]
 5. [[Courses/Functional Analysis II/Exercise Sheet 5|Exercise Sheet 5]]
 6. [[Courses/Functional Analysis II/Exercise Sheet 6|Exercise Sheet 6]]
+---
+If $X$ is any compact Hausdorff space, then there exists $S$ totally disconnected compact and $S\to X$ is continuous surjective.
+
+$X_{d}\to X$ is continuous. It induces $C(X)\to \ell^\infty(X_{d})$ and $\widehat{\ell^{\infty}(X_{d})}\to \widehat{C(X)}\equiv X$. Them, why is $\widehat{\ell^\infty(X)}$ totally disconnected??
+
+---

@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> A **$\mathbb{C}$-algebra** is a $\mathbb{C}$-vector space $A$ endowed with a bilinear map $\cdot:A\times A\to A, (x,y)\mapsto xy$ s.t. 
+> A **$\mathbb{C}$-algebra** is an [[associative algebra]] over $\mathbb{C}$, i.e. it is a  $\mathbb{C}$-vector space $A$ endowed with a bilinear map $\cdot:A\times A\to A, (x,y)\mapsto xy$ s.t. 
 > 1. **associativity**: $(xy)z=x(yz)$ for all $x,y,z\in A$
 
 - **Related definition**: An algebra $A$ is ***unital***, if there exists $0\neq e\in A$ s.t. $xe=ex=x$ for all $x\in A$.

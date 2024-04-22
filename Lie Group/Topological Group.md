@@ -28,7 +28,7 @@
 > Let $G$ be a topological group. Then, 
 > 1. If $H\leq G$, then $\overline{H}\leq G$.
 > 2. If $H\leq G$ is open, then it is closed.
-> 3. Let $G_{0}$ be the [[Connected Space|connected component]] of $e\in G$. Then, $G^{\circ}$ is closed and $G_{0}\unlhd G$.
+> 3. Let $G_{0}$ be the [[Connected Space|connected component]] of $e\in G$. Then, $G_{0}$ is closed and $G_{0}\unlhd G$.
 > 4. If $G$ is [[Connected Space|connected]] and $U\subseteq G$ is a neighborhood of $e$, then $G=\bigcup_{n=1}^{\infty}U^n$
 > 5. If $G$ is [[Connected Space|connected]] and $N\unlhd G$ is discrete. Then, $N\subseteq Z(G)$ where $Z(G)$ denotes the [[Center of a group|center]].
 
@@ -50,8 +50,8 @@
 >    
 >    Since $\overline{G_{0}}$ is connected, by the maximality, $\overline{G_{0}}=G_{0}$ and $G_{0}$ is closed.
 >    
->    Lastly, consider the conjugation: $$\begin{array}{cccc} {\varphi_{g}:}&{G}&\to&{G}\\&{x} &\mapsto & {gxg^{-1}} \end{array}{}$$which is continuous. Therefore, $\text{int}(g)(G^\circ)$ is connected but as $\text{int}(g)(e)=e$, $\text{int}(g)(G^\circ)\subseteq G^\circ$, i.e. $G^\circ\unlhd G$.
->  4. From the lemma, we have an open symmetric neighborhood $V\subseteq U$ of $e$. Then, $$H:=\bigcup_{n=1}^{\infty}V^n\subseteq \bigcup_{n=1}^{\infty}U^n$$where $H$ is an open subgroup. Therefore, it is closed by 2. This implies that $H=G$ which proves the statement.
+>    Lastly, consider the conjugation: $$\begin{array}{cccc} {\varphi_{g}:}&{G}&\to&{G}\\&{x} &\mapsto & {gxg^{-1}} \end{array}{}$$which is continuous. Therefore, $\varphi_{g}(G_{0})$ is connected but as $\varphi_{g}(e)=e$, $\varphi_{g}(G_{0})\subseteq G_{0}$. This proves that $G_{0}\unlhd G$.
+>  4. From the lemma above, we have an open symmetric neighborhood $V\subseteq U$ of $e$. Then, $$H:=\bigcup_{n=1}^{\infty}V^n\subseteq \bigcup_{n=1}^{\infty}U^n$$where $H$ is an open subgroup. Therefore, it is closed by 2. This implies that $H=G$ which proves the statement.
 >  5. Let $N\unlhd G$ be a discrete subgroup. Then for all $n\in N$, there exists a continuous map: $$\begin{array}{cccc} {}&{G}&\to&{N}\\&{g} &\mapsto & {gng^{-1}} \end{array}{}$$is continuous and its image is continuous and contains $n$. As $N$ is discrete, this image has to be $\{ n \}$. Therefore, $N \subseteq Z(G)$.
 >    
 ---
