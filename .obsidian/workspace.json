@@ -14,7 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Galois Extension.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cde8752c0502a610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Galois Extension.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,13 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Normal Extension.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "c45eeefa3389e702",
@@ -57,7 +70,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Galois Extension.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ddb52a4121806c7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Normal Extension.md",
                 "mode": "preview",
                 "source": false
               }
@@ -76,13 +101,13 @@
             }
           },
           {
-            "id": "ddb52a4121806c7a",
+            "id": "d91ad909bc6bb721",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Algebra/Splitting Field.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -153,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Galois Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Galois Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Group.md"
+                "file": "Algebra/Galois Extension.md"
               }
             }
           }
@@ -215,12 +240,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9ea04376b7c4965a",
+  "active": "a8a209f3498bc407",
   "lastOpenFiles": [
+    "Algebra/Normal Extension.md",
     "Algebra/Splitting Field.md",
-    "Algebra/Galois Group.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Field Extension.md",
+    "Algebra/Galois Group.md",
+    "Algebra/Galois Extension.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Separable Extension.md",
     "Algebra/Fixed Field.md",
@@ -241,8 +268,6 @@
     "Representation Theory/Representation Homomorphism.md",
     "Representation Theory/Representation.md",
     "Algebra/Associative Algebra.md",
-    "Representation Theory/Lie Algebra.md",
-    "Representation Theory/Lie Algebra Representation.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

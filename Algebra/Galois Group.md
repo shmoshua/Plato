@@ -25,7 +25,11 @@
 > If $\sigma,\eta\in \text{Gal}(L:K)$, then: $$(\sigma \circ \eta)|_{R(f)}=\sigma|_{R(f)}\circ \eta|_{R(f)}$$hence, the restriction is a homomorphism. Let $R(f)=\{ \alpha_{1},\dots,\alpha_{n} \}\subseteq L=K(\alpha_{1},\dots,\alpha_{n})$. Then, $$L=\left\{  \frac{p(\alpha_{1},\dots,\alpha_{n})}{q(\alpha_{1},\dots,\alpha_{n})} :p,q\in K[X_{1},\dots,X_{n}],q(\alpha_{1},\dots,\alpha_{n})\neq 0 \right\}$$ If $\sigma|_{R(f)}=\text{id}$, then $\sigma(\alpha_{i})=\alpha_{i}$ and as $\sigma(k)=k$ as well, $\sigma(\ell)=\ell$ for all $\ell\in L$. Therefore, $\sigma=\text{id}$ and the homomorphism is injective.
 ---
 > [!lemma] Theorem 4
-> If $L$ is a splitting field of $f\in K[X]$ over $K$, then: $$\left| \text{Gal}(L:K) \right| \leq [L:K]$$with equality when $f$ is [[Separable Extension|separable]].
+> If $L$ is a splitting field of $f\in K[X]$ over $K$, then: $$\left| \text{Gal}(L:K) \right| \leq [L:K]$$with equality when $f$ is [[Separable Extension|separable]]. 
+
+
+> [!proof]-
+> Applying [[Splitting Field|Theorem 2]] on $\tilde{K}=K$ and $\tilde{L}=L$ with $\varphi=\text{id}$, then, the extensions of $\varphi$ are precisely the elements of $\text{Gal}(L:K)$.
 ---
 ##### Examples
 > [!h] Example 1

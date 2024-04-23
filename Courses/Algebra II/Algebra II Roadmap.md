@@ -52,6 +52,7 @@
 **3.1 Basic Definitions**
 1. [[Galois Group]]
 2. [[Fixed Field]]
+3. [[Galois Extension]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
