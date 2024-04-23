@@ -30,7 +30,9 @@
 2. [[Lie Algebra Representation]]
 3. [[Universal Enveloping Algebra]]
 
-**1.7 Tensor Products**
+**1.7 Tensor Products and Tensor Algebra**
 1. [[Tensor Product]]
 2. [[Exterior Algebra]]
 3. [[Bimodule]]
+4. [[Tensor Algebra]]
+

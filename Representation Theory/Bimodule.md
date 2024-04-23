@@ -26,3 +26,4 @@
 > Let $A,B,C,D$ be 4 algebras. Then,
 > 1. Let $V$ be a $(A,B)$-bimodule and $W$ a $(B,C)$-bimodule. For $b\in B,c\in C, f\in \text{Hom}_{A}(V,W)$, by setting $$(bf)(v)=f(vb), \quad (fc)(v)=f(v)c$$$\text{Hom}_{A}(V,W)$ is a $(B,C)$-bimodule.
 > 2. Let $V$ be a $(B,A)$-bimodule, $W$ a $(C,B)$-bimodule and $X$ a $(C,D)$-bimodule. Then, $$\begin{array}{cccc} {}&{\text{Hom}_{B}(V,\text{Hom}_{C}(W,X))}&\to&{\text{Hom}_{C}(W\otimes _{B}V,X)}\\&{f} &\mapsto & {w\otimes _{B}v\mapsto f(v)w} \end{array}{}$$is an isomorphism as $(A,D)$-bimodules.
+----

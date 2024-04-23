@@ -1,7 +1,8 @@
 #Definition #RepresentationTheory 
 
 > [!definition]
-> For a [[Lie algebra]] $\mathfrak{g}$, its ***Lie algebra representation*** is a vector space $V$ and a Lie-algebra homomorphism $\rho:\mathfrak{g}\to \text{End}(V)$, i.e. $$\rho([a,b])=[\rho(a),\rho(b)]=\rho(a)\rho(b)-\rho(b)\rho(a)=\rho(ab)-\rho(ba)$$
+> For a [[Lie algebra]] $\mathfrak{g}$, its ***Lie algebra representation*** is a vector space $V$ and a Lie-algebra homomorphism $\rho:\mathfrak{g}\to \text{End}(V)$, i.e. $$\rho([a,b])=[\rho(a),\rho(b)]=\rho(a)\rho(b)-\rho(b)\rho(a)$$
+- **Related definition**: The ***tensor product*** of two Lie algebra representations $V,W$ is $V\otimes W$ with: $$\rho_{V\otimes W}(x)=\rho_{V}(x)\otimes \text{id}+\text{id}\otimes \rho_{W}(x)$$
 ---
 ##### Properties
 > [!lemma] Theorem 1
