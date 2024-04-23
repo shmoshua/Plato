@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Tensor Product.md",
+                "file": "Representation Theory/Bimodule.md",
                 "mode": "source",
                 "source": true
               }
@@ -91,14 +91,6 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "6f4daa38a2d6035b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ]
       },
@@ -113,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Tensor Product.md",
+                "file": "Representation Theory/Bimodule.md",
                 "mode": "preview",
                 "source": true
               }
@@ -203,8 +195,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -250,8 +241,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -271,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Associative Algebra.md",
+                "file": "Representation Theory/Bimodule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -288,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Associative Algebra.md",
+                "file": "Representation Theory/Bimodule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -311,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Associative Algebra.md"
+                "file": "Representation Theory/Bimodule.md"
               }
             }
           }
@@ -333,20 +323,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "975d3a4a9540223c",
+  "active": "5ccca7e6ea457282",
   "lastOpenFiles": [
-    "Analysis/Functional Analysis/Resolution of Identity.md",
-    "Representation Theory/Representation.md",
-    "Algebra/Direct Sum.md",
     "Representation Theory/Representation Homomorphism.md",
+    "Algebra/Associative Algebra.md",
+    "Representation Theory/Representation.md",
+    "Representation Theory/Bimodule.md",
+    "Courses/Representation Theory/Representation Theory Roadmap.md",
+    "Lie Group/Topological Group.md",
     "Representation Theory/Tensor Product.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
+    "Algebra/Direct Sum.md",
     "Algebra/Algebra Homomorphism.md",
     "Differential Geometry/Tensor Bundle.md",
     "Analysis/Functional Analysis/Amenable Group.md",
-    "Courses/Representation Theory/Representation Theory Roadmap.md",
-    "Lie Group/Topological Group.md",
     "Representation Theory/Lie Algebra Representation.md",
-    "Algebra/Associative Algebra.md",
     "Algebra/Unitary Representation.md",
     "NumCS Feedback.md",
     "Locally Connected Topological Space.md",
@@ -360,7 +351,6 @@
     "Representation Theory/Graded Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Representation Theory/Quiver Representation.md",
-    "Differential Geometry/Grassmannian.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
