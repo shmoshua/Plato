@@ -20,7 +20,12 @@
 > [!lemma] Proposition 2
 > If $\{ v_{i} \}_{i}$ is a basis of $V$ and $\{ w_{j} \}_{j}$ is a basis of $W$, $\{ v_{i}\otimes w_{j} \}_{i,j}$ is a basis of $V\otimes W$. 
 
-> [!proof]+
-> Clearly $\{ v_{i}\otimes w_{j} \}$ spans $V\otimes W$ by definition. To see the linear independence, let $e_{ij}:V\otimes W\to K$ be s.t. $e_{ij}(v_{i}\otimes w_{j})=1$ and vanishes on any other basis ten
-> 1. **Linear independence**: 
->    Assume that: $\sum_{i,j}^{}a_{ij}(v_{i}\otimes w_{j})=0$. Then, $$0=\sum_{i,j}^{}a_{ij}(v_{i}\otimes w_{j})=\sum_{i}^{}v_{i}\otimes \left( \sum_{j}^{}a_{ij}w_{j} \right) $$
+> [!proof]-
+> Clearly $\{ v_{i}\otimes w_{j} \}$ spans $V\otimes W$ by definition. To see the linear independence, let $e_{ij}:V\otimes W\to K$ be s.t. $e_{ij}(v_{i}\otimes w_{j})=1$ and vanishes on any other basis tensor. 
+> 
+> Assume that $A:=\sum_{i,j}^{}a_{ij}(v_{i}\otimes w_{j})=0$. Then, $e_{ij}(A)=a_{ij}=0$ for all $i,j$.
+---
+##### Examples
+
+> [!h] Example 1
+> Let $V$ be a finite-dimensional vector space. Then
