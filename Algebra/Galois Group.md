@@ -21,7 +21,8 @@
 > Let $L$ be a splitting field of $f\in K[X]$. Then, $$\begin{array}{cccc} {}&{\text{Gal}(L:K)}&\to&{S(R(f))}\\&{\sigma} &\mapsto & {\sigma|_{R(f)}} \end{array}{}$$is an injective group homomorphism. In particular, $\text{Gal}(L:K)\cong H\leq S(R(f))$.
 
 > [!proof]+
-> If $\sigma,\eta\in \text{Gal}(L:K)$, then: $$(\sigma \circ \eta)|_{R(f)}=\sigma|_{\eta}$$
+> If $\sigma,\eta\in \text{Gal}(L:K)$, then: $$(\sigma \circ \eta)|_{R(f)}=\sigma|_{R(f)}\circ \eta|_{R(f)}$$hence, the restriction is a homomorphism.
+> Let $R(f)=\{ \alpha_{1},\dots,\alpha_{n} \}\subseteq L=K(\alpha_{1},\dots,\alpha_{n})$
 ---
 ##### Examples
 > [!h] Example 1
