@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Filtration.md",
+                "file": "Courses/Representation Theory/Representation Theory Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,25 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Weyl Algebra.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d7901e0671c3fbd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Algebra Homomorphism.md",
+                "file": "Algebra/Galois Group.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -69,157 +58,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Filtration.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "35c3ee9afbfa8e61",
+            "id": "a8a209f3498bc407",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Representation Homomorphism.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f1935c1ffe09902",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Dual Representation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb98af7e15d16994",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Semisimple Representation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce68932daaa107c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Representation Homomorphism.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d234edfca63a951a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Associative Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10bc628db9a815fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Representation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fffd546c7538a42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Representation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "975d3a4a9540223c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Associative Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41debb75827c1c12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebdbf54f916bd739",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10ec40fccf506ca0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/Spectrum.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02de422d55e980c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Algebra/Galois Group.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -248,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "free",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -285,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Filtration.md",
+                "file": "Algebra/Galois Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Filtration.md",
+                "file": "Algebra/Galois Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -325,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Filtration.md"
+                "file": "Algebra/Galois Group.md"
               }
             }
           }
@@ -347,12 +205,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5ccca7e6ea457282",
+  "active": "a8a209f3498bc407",
   "lastOpenFiles": [
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Galois Group.md",
+    "Representation Theory/Semisimple Representation.md",
     "Courses/Representation Theory/Representation Theory Roadmap.md",
+    "Representation Theory/Weyl Algebra.md",
+    "Algebra/Algebra Homomorphism.md",
+    "Representation Theory/Character.md",
+    "Courses/Linear System Theory/Problem Set 3.md",
+    "Analysis/Functional Analysis/Radical.md",
     "Representation Theory/Filtration.md",
     "Representation Theory/Dual Representation.md",
-    "Representation Theory/Semisimple Representation.md",
     "Representation Theory/Representation Homomorphism.md",
     "Representation Theory/Representation.md",
     "Algebra/Associative Algebra.md",
@@ -368,13 +233,6 @@
     "Representation Theory/Tensor Product.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Algebra/Direct Sum.md",
-    "Algebra/Algebra Homomorphism.md",
-    "Differential Geometry/Tensor Bundle.md",
-    "Analysis/Functional Analysis/Amenable Group.md",
-    "Algebra/Unitary Representation.md",
-    "NumCS Feedback.md",
-    "Locally Connected Topological Space.md",
-    "Lie group.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

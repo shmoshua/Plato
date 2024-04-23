@@ -43,4 +43,8 @@
 2. [[Semisimple Representation|Density Theorem]]
 3. [[Filtration]]
 
+**2.2 Finite Dimensional Algebras**
+1. [[Radical]]
 
+**2.3 Characters of Representations**
+1. [[Character]]
