@@ -6,7 +6,7 @@
       {
         "id": "8778a634edfe3433",
         "type": "tabs",
-        "dimension": 53.735632183908045,
+        "dimension": 50.05747126436781,
         "children": [
           {
             "id": "9ea04376b7c4965a",
@@ -14,19 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra Representation.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a0dddfd2c39fa8e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Universal Enveloping Algebra.md",
+                "file": "Representation Theory/Semisimple Representation.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,49 +43,13 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "8e143ea7f78158e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Functional Analysis/C-Algebra.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "800dfb898a4e9bf7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4382c416c0a7b7ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Topological Group.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ]
       },
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
-        "dimension": 46.264367816091955,
+        "dimension": 49.94252873563219,
         "children": [
           {
             "id": "5ccca7e6ea457282",
@@ -112,12 +64,24 @@
             }
           },
           {
+            "id": "eb98af7e15d16994",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Semisimple Representation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ce68932daaa107c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra Representation.md",
+                "file": "Representation Theory/Representation Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -286,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra Representation.md",
+                "file": "Representation Theory/Semisimple Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra Representation.md",
+                "file": "Representation Theory/Semisimple Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -326,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra Representation.md"
+                "file": "Representation Theory/Semisimple Representation.md"
               }
             }
           }
@@ -348,18 +312,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ce68932daaa107c5",
+  "active": "9ea04376b7c4965a",
   "lastOpenFiles": [
     "Courses/Representation Theory/Representation Theory Roadmap.md",
-    "Representation Theory/Tensor Algebra.md",
-    "Representation Theory/Lie Algebra Representation.md",
-    "Representation Theory/Lie Algebra.md",
+    "Representation Theory/Semisimple Representation.md",
     "Representation Theory/Representation.md",
     "Representation Theory/Representation Homomorphism.md",
+    "Representation Theory/Lie Algebra Representation.md",
+    "Representation Theory/Special Linear Lie Algebra.md",
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/Topological Group.md",
+    "Representation Theory/Universal Enveloping Algebra.md",
+    "Untitled.md",
+    "Representation Theory/Tensor Algebra.md",
     "Differential Geometry/Lie Bracket.md",
     "Representation Theory/Bimodule.md",
     "Algebra/Associative Algebra.md",
-    "Lie Group/Topological Group.md",
     "Representation Theory/Tensor Product.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Algebra/Direct Sum.md",
@@ -371,11 +339,7 @@
     "Locally Connected Topological Space.md",
     "Lie group.md",
     "Representation Theory/Weyl Algebra.md",
-    "Representation Theory/Universal Enveloping Algebra.md",
     "Representation Theory/Path Algebra.md",
-    "Algebra/Ideal.md",
-    "Representation Theory/Graded Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

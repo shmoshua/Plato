@@ -35,4 +35,8 @@
 2. [[Exterior Algebra]]
 3. [[Bimodule]]
 4. [[Tensor Algebra]]
+---
+##### 2. General Results of Representation Theory
 
+**2.1 Subrepresentations in Semisimple Representations**
+1. [[Semisimple Representation]]

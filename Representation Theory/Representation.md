@@ -11,7 +11,7 @@
 - **Related definition**: A representation $V\neq 0$ of $A$ is ***irreducible*** if the only subrepresentations of $V$ are $(0)$ and $V$.
 - **Related definition**: For two $A$-representations $V_{1},V_{2}$, the ***direct sum*** of $V_{1}$ and $V_{2}$ is a representation of $A$ given as $a(v_{1}\oplus v_{2})=a(v_{1})\oplus a(v_{2})$
 - **Related definition**: A representation $0\neq V$ of $A$ is called ***indecomposable*** if it's not isomorphic to a direct sum of two non-zero representations.
-- **Related definition**: A representation is ***O*** if $\rho$ is injective.
+- **Related definition**: A representation is ***faithful*** if $\rho$ is injective.
 ---
 ##### Properties
 > [!lemma] Proposition 1
