@@ -41,5 +41,6 @@
 **2.1 Subrepresentations in Semisimple Representations**
 1. [[Semisimple Representation]]
 2. [[Semisimple Representation|Density Theorem]]
+3. [[Filtration]]
 
 

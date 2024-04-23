@@ -1,0 +1,11 @@
+#Definition #RepresentationTheory 
+
+> [!definition]
+> Let $V$ be a [[representation]] of an algebra $A$. A ***(finite) filtration*** of $V$ is a sequence of subrepresentations $$0=V_{0}\subseteq V_{1}\subseteq\dots \subseteq V_{n}=V$$
+---
+##### Properties
+> [!lemma] Lemma 1
+> Any finite dimensional representation $V$ of an algebra $A$ admits a finite filtration $$0=V_{0}\subseteq V_{1}\subseteq\dots \subseteq V_{n}=V$$ s.t. the successive quotients $V_{i} / V_{i-1}$ are irreducible.
+
+> [!proof]+
+> Let us prove via induction on $n:=\text{dim}V$. The statement is clear for $n=1$. 
