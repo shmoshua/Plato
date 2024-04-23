@@ -29,3 +29,6 @@
 1. [[Lie Algebra]]
 2. [[Lie Algebra Representation]]
 3. [[Universal Enveloping Algebra]]
+
+**1.7 Tensor Products**
+1. [[Tensor Product]]
