@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 7.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,8 +69,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
-                "mode": "preview",
+                "file": "Courses/Analysis IV/Exercise Sheet 7.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -95,18 +95,6 @@
               "state": {
                 "file": "Algebra/Field Extension.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d91ad909bc6bb721",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Splitting Field.md",
-                "mode": "source",
                 "source": false
               }
             }
@@ -177,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+                "file": "Courses/Analysis IV/Exercise Sheet 7.md"
               }
             }
           }
@@ -241,12 +229,16 @@
   },
   "active": "a8a209f3498bc407",
   "lastOpenFiles": [
-    "Algebra/Galois Extension.md",
     "Algebra/Normal Extension.md",
-    "Algebra/Splitting Field.md",
     "Algebra/Field Extension.md",
-    "Algebra/Galois Group.md",
+    "Measure Theory/Summable Function.md",
+    "Measure Theory/Integrable Function.md",
+    "Algebra/Splitting Field.md",
+    "Courses/Analysis IV/Exercise Sheet 7.md",
+    "Algebra/Galois Extension.md",
+    "Courses/Analysis IV/Exercise Sheet 8.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Galois Group.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Separable Extension.md",
     "Algebra/Fixed Field.md",
@@ -263,10 +255,6 @@
     "Courses/Linear System Theory/Problem Set 3.md",
     "Analysis/Functional Analysis/Radical.md",
     "Representation Theory/Filtration.md",
-    "Representation Theory/Dual Representation.md",
-    "Representation Theory/Representation Homomorphism.md",
-    "Representation Theory/Representation.md",
-    "Algebra/Associative Algebra.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
