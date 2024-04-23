@@ -51,6 +51,7 @@
 ##### 3. Galois Theory
 **3.1 Basic Definitions**
 1. [[Galois Group]]
+2. [[Fixed Field]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]

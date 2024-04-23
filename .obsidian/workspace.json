@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Representation Theory/Representation Theory Roadmap.md",
+                "file": "Algebra/Fixed Field.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,8 +44,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -58,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Fixed Field.md",
                 "mode": "preview",
                 "source": true
               }
@@ -88,8 +87,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Fixed Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Fixed Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Group.md"
+                "file": "Algebra/Fixed Field.md"
               }
             }
           }
@@ -217,13 +215,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a8a209f3498bc407",
+  "active": "5ccca7e6ea457282",
   "lastOpenFiles": [
-    "Algebra/Symmetry Group.md",
-    "Algebra/Galois Group.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Representation Theory/Semisimple Representation.md",
+    "Algebra/Fixed Field.md",
     "Courses/Representation Theory/Representation Theory Roadmap.md",
+    "Algebra/Galois Group.md",
+    "Algebra/Symmetry Group.md",
+    "Representation Theory/Semisimple Representation.md",
     "Representation Theory/Weyl Algebra.md",
     "Algebra/Algebra Homomorphism.md",
     "Representation Theory/Character.md",
@@ -244,7 +243,6 @@
     "Differential Geometry/Lie Bracket.md",
     "Representation Theory/Bimodule.md",
     "Representation Theory/Tensor Product.md",
-    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

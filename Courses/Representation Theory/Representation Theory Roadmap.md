@@ -47,4 +47,4 @@
 1. [[Radical]]
 
 **2.3 Characters of Representations**
-1. [[Character]]
+1. [[*Character*]]
