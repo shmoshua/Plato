@@ -203,8 +203,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,7 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tensor Bundle.md",
+                "file": "Representation Theory/Tensor Product.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -288,7 +287,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tensor Bundle.md",
+                "file": "Representation Theory/Tensor Product.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -311,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tensor Bundle.md"
+                "file": "Representation Theory/Tensor Product.md"
               }
             }
           }
@@ -333,8 +332,9 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "10bc628db9a815fe",
+  "active": "5ccca7e6ea457282",
   "lastOpenFiles": [
+    "Differential Geometry/Tensor Bundle.md",
     "Representation Theory/Representation.md",
     "Representation Theory/Tensor Product.md",
     "Analysis/Functional Analysis/Amenable Group.md",
@@ -360,7 +360,6 @@
     "Representation Theory/Cyclic Representation.md",
     "Representation Theory/Quotient Representation.md",
     "Representation Theory/Representation Homomorphism.md",
-    "Algebra/Algebra Homomorphism.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
