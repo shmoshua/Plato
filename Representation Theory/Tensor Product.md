@@ -28,4 +28,14 @@
 ##### Examples
 
 > [!h] Example 1
-> Let $V$ be a finite-dimensional vector space. Then
+> Let $V$ be a finite-dimensional vector space. Then, $$\begin{array}{cccc} {J:}&{V^{*}\otimes W}&\to&{\text{Hom}(V,W)}\\&{f\otimes w} &\mapsto & {v\mapsto f(v)w} \end{array}{}$$is an isomorphism.
+
+> [!proof]-
+> First we show that $J(f\otimes w)$ is well-defined. $$J(f\otimes w)(v_{1}+v_{2})=f(v_{1})w+f(v_{2})w=J(f\otimes w)v_{1}+J(f\otimes w)v_{2}$$$$J(f\otimes w)(av)=af(v)w=aJ(f\otimes w)v$$
+> If $J(f\otimes w)=0$, then either $f=0$ or $w=0$. Therefore, $\text{ker }J=(0)$. Further, for $A\in \text{Hom}(V,W)$, let $f_{i}$ be the basis of $V^{*}$. Then, consider $\sum_{i}^{}f_{i}\otimes A(v_{i})$. $$J\left( \sum_{i}^{}f_{i}\otimes A(v_{i}) \right)(v)=\sum_{i}^{}f_{i}(v)A(v_{i})=A\left( \sum_{i}^{}f_{i}(v)v_{i} \right)=A(v) $$
+---
+> [!h] Example 2 (Symmetric and Exterior Power)
+> Let $V$ be a $K$-vector space. We define: $$S^nV:=V^{\otimes n} / \braket{ T-s(T) :T\in V^{\otimes }n ,s\in \text{Trans}} $$i.e. where $s$ is a transposition. If $\{ v_{i} \}_{i}$ is a basis of $V$, then $\{ v_{i_{1}}\otimes\dots \otimes v_{i_{n}}:i_{1}\leq\dots\leq i_{n} \}$ is the basis of $S^nV$ with dimension ${m+n-1\choose n}$ for $\text{dim} V=m$.
+> 
+> Similarly, for: $$\land^nV:=V^{\otimes n} / \braket{ s(T)=T  } $$we have $\{ v_{i_{1}}\otimes\dots \otimes v_{i_{n}}:i_{1}<\dots<i_{n} \}$ as a basis with dimension $m \choose n$.
+---

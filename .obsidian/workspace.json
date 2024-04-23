@@ -125,7 +125,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tensor Bundle.md",
+                "file": "Representation Theory/Representation Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Direct Sum.md",
+                "file": "Representation Theory/Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -149,8 +149,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Resolution of Identity.md",
-                "mode": "source",
+                "file": "Algebra/Associative Algebra.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -203,7 +203,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -270,7 +271,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Tensor Product.md",
+                "file": "Algebra/Associative Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,7 +288,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Tensor Product.md",
+                "file": "Algebra/Associative Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -310,7 +311,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Tensor Product.md"
+                "file": "Algebra/Associative Algebra.md"
               }
             }
           }
@@ -332,11 +333,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5ccca7e6ea457282",
+  "active": "975d3a4a9540223c",
   "lastOpenFiles": [
-    "Differential Geometry/Tensor Bundle.md",
+    "Analysis/Functional Analysis/Resolution of Identity.md",
     "Representation Theory/Representation.md",
+    "Algebra/Direct Sum.md",
+    "Representation Theory/Representation Homomorphism.md",
     "Representation Theory/Tensor Product.md",
+    "Algebra/Algebra Homomorphism.md",
+    "Differential Geometry/Tensor Bundle.md",
     "Analysis/Functional Analysis/Amenable Group.md",
     "Courses/Representation Theory/Representation Theory Roadmap.md",
     "Lie Group/Topological Group.md",
@@ -356,10 +361,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Representation Theory/Quiver Representation.md",
     "Differential Geometry/Grassmannian.md",
-    "Representation Theory/Quiver.md",
-    "Representation Theory/Cyclic Representation.md",
-    "Representation Theory/Quotient Representation.md",
-    "Representation Theory/Representation Homomorphism.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
