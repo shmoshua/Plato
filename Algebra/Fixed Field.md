@@ -16,6 +16,9 @@ It holds that:
 > 2. $\gamma(L)=\text{Gal}(L:L)=\{ \text{id} \}$
 > 3. if $M\subseteq N$, then $\text{Gal}(L:M)=\gamma(M)\supseteq \gamma(N)= \text{Gal}(L:N)$
 > 4. if $H\leq G$, then $\phi(G)\subseteq \phi(H)$
+
+> [!proof]-
+> 1 and 2 follow from the definition. For 3, for $\sigma\in \text{Gal}(L:N)$, $\sigma|_{N}=\text{id}_{N}$ and $\sigma|_{M}=\text{id}_{M}$. Lastly, if $\ell\in L^G$ then for every $\sigma\in H\subseteq G$, $\sigma(\ell)=\ell$. 
 ---
 > [!lemma] Theorem 2
 > Suppose $L:K$ is an extension, $G:=\text{Gal}(L:K)$, $H\subseteq G$ and $K\subseteq M\subseteq L$. Then, 
@@ -23,3 +26,14 @@ It holds that:
 > 2. $(\phi \circ\gamma)(M)\supseteq M$
 > 3. $(\phi \circ\gamma \circ\phi)(H)=\phi(H)$
 > 4. $(\gamma \circ\phi \circ\gamma)(M)=\gamma(M)$
+
+> [!proof]-
+> We have: 
+> 1. let $\sigma\in H\subseteq \text{Gal}(L:K)$. Let $\ell\in \phi(H)$. Then, by definition, $\sigma(\ell)=\ell$. Therefore, $$\sigma\in \text{Gal}(L:\phi(H))=\gamma(\phi(H))$$
+> 2. let $m\in M$. Then, $\sigma(m)=m$ for all $\sigma\in \text{Gal}(L:M)=\gamma(M)$. Therefore, $m\in \phi(\gamma(M))$.
+> 3. As $\gamma(\phi(H))\supseteq H$ from 1, we have from Lemma 1, $\phi(\gamma(\phi(H)))\subseteq \phi(H)$. However, by 2, we have the equality.
+> 4. Similarly, $\gamma(\phi(\gamma(M)))\supseteq\gamma(M)$ and from Lemma 1, $\gamma(\phi(\gamma(M)))\subseteq\gamma(M)$.
+---
+##### Examples
+> [!h] Example 1
+> Let $\alpha$ be the real root of $x^3-2\in \mathbb{Q}[X]$. Then, $$\text{Gal}(\mathbb{Q}(\alpha);)$$
