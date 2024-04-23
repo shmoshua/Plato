@@ -14,6 +14,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Courses/Representation Theory/Representation Theory Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "454ceafbb7fb994e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Representation Theory/Semisimple Representation.md",
                 "mode": "source",
                 "source": true
@@ -44,7 +56,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -57,9 +70,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Representation Theory/Representation Theory Roadmap.md",
+                "file": "Representation Theory/Semisimple Representation.md",
                 "mode": "preview",
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "9f1935c1ffe09902",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Representation.md",
+                "mode": "preview",
+                "source": false
               }
             }
           },
@@ -70,7 +95,7 @@
               "type": "markdown",
               "state": {
                 "file": "Representation Theory/Semisimple Representation.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Algebra/Associative Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -184,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -312,22 +337,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9ea04376b7c4965a",
+  "active": "eb98af7e15d16994",
   "lastOpenFiles": [
-    "Courses/Representation Theory/Representation Theory Roadmap.md",
-    "Representation Theory/Semisimple Representation.md",
-    "Representation Theory/Representation.md",
     "Representation Theory/Representation Homomorphism.md",
+    "Algebra/Associative Algebra.md",
+    "Representation Theory/Lie Algebra.md",
+    "Representation Theory/Representation.md",
+    "Representation Theory/Semisimple Representation.md",
+    "Courses/Representation Theory/Representation Theory Roadmap.md",
     "Representation Theory/Lie Algebra Representation.md",
     "Representation Theory/Special Linear Lie Algebra.md",
-    "Representation Theory/Lie Algebra.md",
     "Lie Group/Topological Group.md",
     "Representation Theory/Universal Enveloping Algebra.md",
     "Untitled.md",
     "Representation Theory/Tensor Algebra.md",
     "Differential Geometry/Lie Bracket.md",
     "Representation Theory/Bimodule.md",
-    "Algebra/Associative Algebra.md",
     "Representation Theory/Tensor Product.md",
     "Analysis/Functional Analysis/Resolution of Identity.md",
     "Algebra/Direct Sum.md",
