@@ -33,10 +33,19 @@
 
 > [!proof]-
 > Let $x\in X$ and $U$ an open neighborhood of $x$. Let $C:=X-U$. As $C$ is closed and $x\notin C$, there exists an open neighborhood $V$ of $x$ s.t. $\overline{V}\cap C=\varnothing$. Therefore, $\overline{V}\subseteq U$. 
+
 ---
 > [!lemma] Theorem 4 (Tychonoff)
 > For any arbitrary family of compact spaces $\{ X_{i} \}_{i\in I}$, $X:=\prod_{i\in I}^{}X_{i}$ is compact with respect to the [[product topology]].
 - **Remark**: This is equivalent to [[Axiom of Choice]].
+---
+##### Related Properties
+> hihi 
+
+[[Multilinear k-Form]]
+
+![[Filter#^27bdfd|Ultrafilter]]
+
 ---
 ##### Examples
 > [!h] Example 1

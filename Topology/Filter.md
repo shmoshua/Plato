@@ -1,4 +1,4 @@
-#Definition #Topology 
+#Definition #Topology  ^a8b681
 
 > [!definition]
 > Let $X$ be a set. A ***filter*** $\mathcal{F}$ on $X$ is a collection of subsets of $X$ s.t. 
@@ -79,6 +79,9 @@
 > For a topological space $X$, the following are equivalent:
 > 1. $X$ is compact.
 > 2. every ultrafilter $X$ converges.
+
+^27bdfd
+
 ---
 ##### Examples
 > [!h] Example 1

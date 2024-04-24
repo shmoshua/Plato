@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Topology/Filter.md",
                 "mode": "source",
                 "source": true
               }
@@ -71,6 +71,7 @@
               "state": {
                 "file": "Topology/Compact Space.md",
                 "mode": "preview",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -81,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Product Space.md",
+                "file": "Topology/Filter.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Cantor Space.md",
+                "file": "Measure Theory/Borel Measure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -239,21 +240,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9ea04376b7c4965a",
+  "active": "a8a209f3498bc407",
   "lastOpenFiles": [
-    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Filter.md",
     "Topology/Compact Space.md",
+    "Algebra/Galois Extension.md",
+    "Analysis/Functional Analysis/Space of Probability Measures.md",
     "Topology/Product Topology.md",
+    "Measure Theory/Borel Measure.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Topology/Cantor Space.md",
+    "Analysis/Product Space.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Topological Space.md",
     "Algebra/Field Extension.md",
-    "Analysis/Product Space.md",
     "Algebra/Normal Extension.md",
     "Courses/Analysis IV/Exercise Sheet 7.md",
     "Measure Theory/Summable Function.md",
     "Measure Theory/Integrable Function.md",
     "Algebra/Splitting Field.md",
-    "Algebra/Galois Extension.md",
     "Courses/Analysis IV/Exercise Sheet 8.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Galois Group.md",
@@ -263,10 +268,6 @@
     "Courses/Algebra II/Exercise Sheet 5.md",
     "Courses/Algebra II/Exercise Sheet 4.md",
     "Algebra/Ring Homomorphism.md",
-    "Algebra/Symmetry Group.md",
-    "Courses/Algebra II/Exercise Sheet 6.md",
-    "Courses/Representation Theory/Representation Theory Roadmap.md",
-    "Representation Theory/Semisimple Representation.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
