@@ -1,45 +1,12 @@
 .callout {
 	padding: 1em;
-  --callout-color: 40,0,256;
-  --callout-content-padding: 0px;
-  --callout-border-width: 0px;
-  line-height: 1em;
-  padding-top: 1em;
-  padding-bottom: 0em;
-  margin-bottom: 0em;
-  margin-top: 0em;
 }
 
 .callout-title {
   line-height: 0em;
   border-bottom: 1.5px solid lightgray;
-}
-
-.callout-title .callout-title-inner {
-  line-height: 0em;
   padding-bottom: 0.8em;
-}
-
-.callout-content {
-  padding-top: 0px;
-  margin-top: -0.5em;
-  line-height: 1.2em;
-  /* border-top: 1.5px solid lightgray; */
-}
-
-.callout-fold{
-  /* margin-top: -0.65em;  */
-  margin-top: 0em; 
-  /* margin-bottom: -0.4em; */
-  margin-bottom: 0em;
-  --callout-title-border-bottom: none;
-}
-
-.callout[data-callout="proof"] {
-  margin-top: 0.2em;
-  margin-bottom: 2em;
-  line-height: 1em;
---callout-color: 150, 150, 150;
+  
 }
 
 img {
@@ -48,12 +15,30 @@ img {
         margin-right: auto !important;
 }
     
+ .markdown-source-view.mod-cm6 .cm-content > * {
+        margin: auto auto !important;
+}
+
 .markdown-rendered ol {
   margin-block-start: -0.8em;
 }
 
+.callout{
+  --callout-color: 40,0,256;
+--callout-content-padding: 0px;
+--callout-border-width: 0px;
+line-height: 1em;
+padding-top: 1.2em;
+padding-bottom: 0.2em;
+margin-bottom: 1.2em;
+}
 
-
+.callout-content {
+  padding-top: 0px;
+  margin-top: -0.5em;
+  line-height: 1.2em;
+  /* border-top: 1.5px solid lightgray; */
+}
 
 .callout[data-callout="definition"] {
 --callout-color: 110, 110, 110;
@@ -78,6 +63,12 @@ img {
 --callout-color: 150, 150, 150;
 }
 
+.callout[data-callout="proof"] {
+  margin-top: -1em;
+  line-height: 1em;
+--callout-color: 150, 150, 150;
+}
+
 .callout:is([data-callout="proof"]) .callout-title{
   border-bottom: none;
 } 
@@ -90,22 +81,12 @@ img {
   display: none;
 }
 
-
+.callout-fold{
+  margin-top: -0.65em;
+  margin-bottom: -0.4em;
+  --callout-title-border-bottom: none;
+}
 
 hr {
   margin: -0.5rem 0;
 }
-
-/*
-    clean-embeds.css snippet
-
-    Removes title, link, padding, margins from embeds,
-    so they really look like the same note.
-
-    To be used with `cssclass: clean-embeds` in YAML frontmatter.
-
-    2021-08-24 Matthias C. Hormann (Moonbase59)
-
-    TODO: Find out how to correct PDF export. L/R margins & vspace too large on embeds.
-*/
-

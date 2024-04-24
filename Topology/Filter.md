@@ -46,45 +46,11 @@
 > 
 > Conversely, suppose there exists a filter $\mathcal{F}\supseteq \mathcal{A}$. Take $A_{1},\dots,A_{n}\in \mathcal{A}$. Then, $A_{1}\cap\dots \cap A_{n}\in \mathcal{F}$. However, as $\varnothing\notin \mathcal{F}$, we have the finite intersection property.
 ---
-> [!lemma] Theorem 4
-> A filter $\mathcal{F}$ is an ultrafilter if and only if it is a maximal filter.
+> [!lemma] Lemma 4
+> Let $\mathcal{F}$ be a filter on $\prod_{i\in I}^{}X_{i}$. Then, $\mathcal{F}$ converges to $x=(x_{i})_{i}$ if and only if the direct image: $$\pi_{i*}(\mathcal{F}):=\{ B \subseteq X_{i}: \exists A\in \mathcal{F}:\pi_{i}(A)\subseteq B  \}$$converges to $x_{i}$ for all $i\in I$.
 
-> [!proof]-
-> Assume $\mathcal{F}$ is maximal and $A\notin \mathcal{F}$. Since $\mathcal{F}\cup \{ A \}$ is not a filter, $\mathcal{F}\cup \{ A \}$ doesn't have the finite intersection property. So there is $B\in \mathcal{F}$ with $B\cap A=\varnothing$. Hence, $B\subseteq A^c$ and $A^c\in \mathcal{F}$.
+> [!proof]+
 > 
-> Conversely, assume that $\mathcal{F}$ is an ultrafilter and that there exists $\mathcal{F}\subsetneq\mathcal{G}$ where $\mathcal{G}$ is a filter. Then, there exists $A\in \mathcal{G} \backslash \mathcal{F}$ and $A^c\in \mathcal{F}$. Then, $A^c\in \mathcal{G}$ and as $\mathcal{G}\cup \{ A \}$ has the finite intersection property by Lemma 3, $A^c\cap A\neq \varnothing$, which is a contradiction.
----
-> [!lemma] Lemma 5
-> Every filter is contained in a maximal one.
-
-> [!proof]-
-> Let $\mathcal{F}$ be a filter: $$\mathcal{Z}:=\{ \mathcal{G} \subseteq \mathcal{P}(X):\mathcal{G}\supseteq \mathcal{F},\mathcal{G}\text{ is a filter}\}$$
-> Now, let $(\mathcal{G_{i}})_{i}$ be an increasing sequence of filters. We will show that $\mathcal{G}:=\bigcup_{i}^{}\mathcal{G_{i}}$ is a filter. 
-> - $\varnothing \notin \mathcal{G}$ as $\varnothing \notin \mathcal{G}_{i}$ for all $i$.
-> - For $A,B\in \mathcal{G}$, there exists $i$ s.t. $A,B\in \mathcal{G_{i}}$. Therefore, $A\cap B\in \mathcal{G_{i}}$ and $A\cap B\in \mathcal{G}$.
-> - For $A\in \mathcal{G}$ and $B\supseteq A$, there exists $i$ s.t. $A\in \mathcal{G}_{i}$ and $B\in \mathcal{G_{i}}$. Therefore, $B\in \mathcal{G}_{i}$.
->   
-> Therefore, by [[Poset|Zorn's lemma]], $\mathcal{Z}$ has a maximal element.
----
-> [!lemma] Proposition 6
-> Consider the following set function $\omega:\mathcal{P}(X)\to \{ 0,1 \}$ s.t. 
-> 1. $\omega(\varnothing)=0$, $\omega(X)=1$,
-> 2. for $A_{1},A_{2}\subseteq X$ s.t. $A_{1}\cap A_{2}=\varnothing$, $\omega(A_{1}\cup A_{2})=\omega(A_{1})+\omega(A_{2})$
-> 
-> Denote $\Omega(X)$ the set of such functions and $\text{Ultra}(X)$ the set of ultrafilters on $X$. Then, $$\begin{array}{cccc} {}&{\Omega(X)}&\to&{\text{Ultra}(X)}\\&{\omega} &\mapsto & {\mathcal{F}_{\omega}:=\{ A\subseteq X:\omega(A)=1 \}} \end{array}{}$$is a bijection.
-
-> [!proof]-
-> We show that $\mathcal{F}_{\omega}$ is an ultrafilter. We see that $\varnothing\notin \mathcal{F}_{\omega}$. For $A\in \mathcal{F}_{\omega}$ and $B\supseteq A$, we have first that: $$0=\omega(X \backslash A)=\omega(X \backslash B)+\omega(B \backslash A)$$Therefore, $\omega(X \backslash B)=0$ and $\omega(B)=1$. Now, for $A,B\in \mathcal{\mathcal{F}_{\omega}}$, $$\omega(A\cap B)+\omega(A \backslash B)=\omega(A)=1$$where $\omega(A \backslash B)=0$ as $\omega(X \backslash B)=0$ and $A \backslash B\subseteq X \backslash B$. Finally, for $A\subseteq X$, $\omega(A)=1$ or $\omega(X \backslash A)=1$ as $\omega(X)=1$. 
-> 
-> Conversely, assume $\mathcal{F}$ is an ultrafilter and we define the set function: $$\omega(A)=1 \iff A\in \mathcal{F}$$Then, $\omega(\varnothing)=0$ and therefore, $X\in \mathcal{F}$ and $\omega(X)=1$. Similarly, for $A_{1},A_{2}\subseteq X$ with $A_{1}\cap A_{2}=\varnothing$, it's not possible that $A_{1}\in \mathcal{F}\land A_{2}\in \mathcal{F}$ from the finite intersection property. Therefore, if $A_{1}\in \mathcal{F}$ wlog, then $A_{1}\cup A_{2}\in \mathcal{F}$ and if $A_{1},A_{2}\notin \mathcal{F}$, Then, $X \backslash A_{1} \cap X \backslash A_{2}=X \backslash (A_{1}\cup A_{2})\in \mathcal{F}$ and $\omega(A_{1}\cup A_{2})=0$.
----
-> [!lemma] Proposition 7
-> For a topological space $X$, the following are equivalent:
-> 1. $X$ is compact.
-> 2. every ultrafilter $X$ converges.
-
-^27bdfd
-
 ---
 ##### Examples
 > [!h] Example 1
