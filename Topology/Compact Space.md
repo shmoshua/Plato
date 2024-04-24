@@ -40,7 +40,14 @@
 - **Remark**: This is equivalent to [[Axiom of Choice]].
 ---
 ##### Related Properties
-![[Filter#^27bdfd]]
+hihi
+hehe
+![[Filter#^27bdfd|clean collapse lk-hvr]]
+![[Filter#^27bdfd|collapse clean]]
+
+---
+
+hihi
 
 
 ---
