@@ -2,8 +2,8 @@
   "accentColor": "",
   "enabledCssSnippets": [
     "mathwiki",
-    "notation-colour-blocks",
-    "callouts"
+    "callouts",
+    "notation-colour-blocks"
   ],
   "theme": "moonstone",
   "interfaceFontFamily": "",

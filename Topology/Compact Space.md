@@ -40,11 +40,8 @@
 - **Remark**: This is equivalent to [[Axiom of Choice]].
 ---
 ##### Related Properties
-> hihi 
+![[Filter#^27bdfd]]
 
-[[Multilinear k-Form]]
-
-![[Filter#^27bdfd|Ultrafilter]]
 
 ---
 ##### Examples

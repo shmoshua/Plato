@@ -19,6 +19,9 @@
 > We have: 
 > 1. $x_{n}\to x$ if and only if for all $U\in \mathcal{F}_{x}$, there exists $N\geq 1$ s.t. $x_{n}\in U$ for all $n\geq N$. This is equivalent to for all $U\in \mathcal{F}_{x}$, there exists $V\in \mathcal{F}$, the elementary filter, with $V\subseteq U$.
 > 2. $f(x)\to y$ as $x\to x_{0}$ is equivalent to for all $\varepsilon>0$ there exists $\delta>0$ s.t. $$\|x-x_{0}\|<\delta\implies\|f(x)-y_{0}\|<\varepsilon$$Similarly, $f$ converges to $y_{0}$ along $\mathcal{F}_{x_{0}}$ if for any neighborhood $U$ of $y_{0}$, there exists a neighborhood $V$ of $x_{0}$ s.t. $f(V)\subseteq U$. As the open balls form a fundamental system of neighborhoods and the definitions coincide on the balls, we have that they are equivalent.
+
+^e13c1f
+
 - **Remark**: Filters unify all kinds of limits.
 ---
 > [!lemma] Proposition 2
