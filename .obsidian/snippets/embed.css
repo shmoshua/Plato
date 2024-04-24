@@ -214,3 +214,9 @@
   .markdown-preview-view .markdown-preview-view {
     padding-bottom: 0px !important; /*Gets rid of bottom padding on embedded content in popovers*/
   }
+
+  .markdown-preview-view .markdown-embed, 
+.markdown-preview-view .file-embed {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

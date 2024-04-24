@@ -37,13 +37,15 @@
 ---
 > [!lemma] Theorem 4 (Tychonoff)
 > For any arbitrary family of compact spaces $\{ X_{i} \}_{i\in I}$, $X:=\prod_{i\in I}^{}X_{i}$ is compact with respect to the [[product topology]].
+
+^da67ad
+
 - **Remark**: This is equivalent to [[Axiom of Choice]].
 ---
 ##### Related Properties
-hihi
-hehe
-![[Filter#^27bdfd|clean collapse lk-hvr]]
-![[Filter#^27bdfd|collapse clean]]
+
+---
+![[Compact Space#^da67ad|clean]]
 
 ---
 
