@@ -32,7 +32,7 @@
 > 4. If $G$ is [[Connected Space|connected]] and $U\subseteq G$ is a neighborhood of $e$, then $G=\bigcup_{n=1}^{\infty}U^n$
 > 5. If $G$ is [[Connected Space|connected]] and $N\unlhd G$ is discrete. Then, $N\subseteq Z(G)$ where $Z(G)$ denotes the [[Center of a group|center]].
 
-> [!proof]+
+> [!proof]-
 > > [!lemma]
 > > We have:
 > > 1. If $U$ is a neighborhood of $e$, there exists an open symmetric neighborhood $V\subseteq U$ of $e$, i.e. $V=V^{-1}$.

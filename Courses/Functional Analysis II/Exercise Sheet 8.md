@@ -11,4 +11,4 @@
 
 We have: 
 1. We will show as follows:
-	- (1=>2): Let $s_{1},s_{2}\in S$ be two disjoint points and take $S_{1}=\{ s_{1} \}$ and $S_{2}:= S \backslash \{ s_{1} \}$. Then, as $S_{1}$ is connected,  
+	- (1=>2): Let $s_{1},s_{2}\in S$ be two disjoint points and take $S_{1}=\{ s_{1} \}$ and $S_{2}:= S \backslash \{ s_{1} \}$. As $S$ is Hausdorff, $S_{1}$ is closed. 
