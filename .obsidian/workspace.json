@@ -102,18 +102,6 @@
             }
           },
           {
-            "id": "5dc2a800e918997e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Product Topology.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "04134872aea65850",
             "type": "leaf",
             "state": {
@@ -126,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +143,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "field homomorphism",
+                "query": "Zariski",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,7 +160,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Topology/Ultrafilter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Topology/Ultrafilter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Filter.md"
+                "file": "Topology/Ultrafilter.md"
               }
             }
           }
@@ -254,15 +243,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "288d3a6e741c2063",
+  "active": "ddb52a4121806c7a",
   "lastOpenFiles": [
-    "Topology/Ultrafilter.md",
     "Topology/Filter.md",
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Differential Geometry/Partition of Unity.md",
+    "Topology/Product Topology.md",
+    "Topology/Ultrafilter.md",
     "Topology/Compact Space.md",
     "Representation Theory/Semisimple Representation.md",
     "Algebra/Galois Extension.md",
     "Analysis/Functional Analysis/Space of Probability Measures.md",
-    "Topology/Product Topology.md",
     "Measure Theory/Borel Measure.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Topology/Cantor Space.md",
@@ -280,8 +271,6 @@
     "Algebra/Galois Group.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Separable Extension.md",
-    "Algebra/Fixed Field.md",
-    "Courses/Algebra II/Exercise Sheet 5.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

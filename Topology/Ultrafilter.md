@@ -44,4 +44,9 @@
 ^041e9b
 
 ---
- > [!lemma] 
+ > [!lemma] Lemma 5
+ > Let $X:=\prod_{i\in I}^{}X_{i}$. For any ultrafilter $\mathcal{F}$ on $X$, the [[Filter|direct image]] $(\pi_{i})_{*}(\mathcal{F})$ is an ultrafilter.
+
+> [!proof]-
+> Let $A\subseteq X_{i}$ and consider $B:=\pi_{i}^{-1}(A)$. As $\mathcal{F}$ is an ultrafilter, we have that either $B\in \mathcal{F}$, in which case $A\in (\pi_{i})_{*}(\mathcal{F})$ or $X \backslash B\in \mathcal{F}$, in which case $X_{i} \backslash A\in (\pi_{i})_{*}(\mathcal{F})$.
+---
