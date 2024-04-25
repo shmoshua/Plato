@@ -55,6 +55,8 @@
 > [!lemma] Lemma 5
 > Let $\mathcal{F}$ be a filter on $\prod_{i\in I}^{}X_{i}$. Then, $\mathcal{F}$ converges to $x=(x_{i})_{i}$ if and only if $(\pi_{i})_{*}(\mathcal{F})$ converges to $x_{i}$ for all $i\in I$.
 
+^0214a6
+
 > [!proof]-
 > As $\pi_{i}$ is continuous, by Lemma 4, $(\pi_{i})_{*}(\mathcal{F})$ converges to $\pi_{i}(x)=x_{i}$.
 > 
