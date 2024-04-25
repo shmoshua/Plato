@@ -11,4 +11,8 @@
 
 We have: 
 1. We will show as follows:
-	- (1=>2): Let $s_{1},s_{2}\in S$ be two disjoint points and take $S_{1}=\{ s_{1} \}$ and $S_{2}:= S \backslash \{ s_{1} \}$. As $S$ is Hausdorff, $S_{1}$ is closed. 
+	- (1=>3): Assume that for all continuous function $\phi:S\to \{ 0,1 \}$, $\phi(s_{1})=\phi(s_{2})$. Then, $\phi|_{\{ s_{1},s_{2} \}}$ is continuous 
+	- (3=>4): 
+	- (1=>2): For $s_{1}$, let $U$ be all the points $x\in S$ s.t. there exists no clopen decomposition $S=S_{1}\sqcup S_{2}$ with $s_{1}\in S$ and $x\in S_{2}$. Firstly, we claim that $U$ is closed. For $x\in \overline{U}$, if there exists such decomposition $S=S_{1}\sqcup S_{2}$, as $S_{2}$ is an open neighborhood of $x$, there exists $y\in U$ s.t. $S_{1}\sqcup S_{2}$ is still a valid decomposition. This is a contradiction and $U$ is closed.
+	  
+	  We claim that $U=\{ s_{1} \}$. It suffices to show that $U$ is connected. Let $U=C_{1}\sqcup C_{2}$ for $C_{1},C_{2}$ closed in $U$. As $U$ is closed, $C_{1},C_{2}$ are closed in $S$. Therefore, due to $S$ being Hausdorff, there exists $V,W\subseteq X$ disjoint open s.t. $C_{1}\subseteq V$ and $C_{2}\subseteq W$. 

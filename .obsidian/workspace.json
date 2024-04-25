@@ -215,7 +215,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Inner Automorphism.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -352,9 +352,13 @@
   },
   "active": "a8a209f3498bc407",
   "lastOpenFiles": [
+    "Topology/Connected Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 8.md",
+    "Topology/Continuous Function.md",
+    "Topology/Subspace Topology.md",
+    "Algebra/Inner Automorphism.md",
     "Algebra/Normal Extension.md",
     "Analysis/Functional Analysis/Haar Measure.md",
-    "Algebra/Inner Automorphism.md",
     "Algebra/p-adic Rational.md",
     "Courses/Algebra I/Algebra I Roadmap.md",
     "Differential Geometry/Exterior Algebra.md",
@@ -365,8 +369,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 5.md",
-    "Courses/Functional Analysis II/Exercise Sheet 8.md",
-    "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Compact Space.md",
     "Topology/Hausdorff Space.md",
@@ -376,8 +378,6 @@
     "Topology/Quotient Topology.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Initial Topology.md",
-    "Topology/Filter.md",
-    "Topology/Continuous Function.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
