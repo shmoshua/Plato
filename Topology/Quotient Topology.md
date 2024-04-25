@@ -17,6 +17,22 @@
 > [!h] Example 1
 > Consider the following equivalence relation on $\mathbb{R}$: $$x\sim y \iff x-y\in \mathbb{Z}$$Then, $\mathbb{R} / \mathbb{Z}\cong S^1$.
 
-> [!proof]+
-> 
+> [!proof]-
+> Consider the map: $$\begin{array}{cccc} {e:}&{\mathbb{R}}&\to&{S^1}\\&{t} &\mapsto & {e^{2i\pi t}} \end{array}{}$$It is continuous and surjective. Further, it's compatible with $\sim$ as for $x\sim y$, $$e(x)=e^{2i\pi x}=e^{2i\pi y}e^{2i\pi(x-y)}=e(y)$$Therefore, there exists a continuous map $\tilde{e}:\mathbb{R} / \mathbb{Z}\to S^1$ and by Analysis, it is a bijection. As $\mathbb{R} / \mathbb{Z}=\pi([0,1])$, $\mathbb{R} / \mathbb{Z}$ is compact and by [[Compact Space#^2251ae|Proposition 1]], $\tilde{e}$ is a homeomorphism.
 ---
+> [!h] Example 2 (Möbius Strip)
+> Let $X:=[0,1]^{2}\subseteq \mathbb{R}^2$. Consider the following equivalence relation: 
+> 1. $\{ (x,y) \}$ if $0<x<1$ and 
+> 2. $\{ (0,y),(1,1-y) \}$ if $0\leq y\leq 1$.
+> 
+> Then, the quotient space $X / _\sim$ is called the ***Möbius strip*** and:
+> 1. it is connected and compact as $X$ is.
+> 2. $X/_{\sim}$ is Hausdorff.
+> 3. $X / _\sim$ is a topological manifold with boundary.
+---
+> [!h] Example 3
+> Let $X=\mathbb{R}$ and consider the following equivalence relation: $$x\sim y\iff x-y\in \mathbb{Q}$$Then, 
+> 1. the only open sets in $\mathbb{R} / \mathbb{Q}$ are $\varnothing$ and $\mathbb{R} / \mathbb{Q}$.
+
+> [!proof]-
+> Let $U\neq \varnothing$ be open and $U':=\pi ^{-1}(U)$ which is open. Then, $U'=\mathbb{Q}+U'$ and therefore $U'=\mathbb{R}$. 

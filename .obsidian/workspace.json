@@ -107,7 +107,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Borel Measure.md",
+                "file": "Topology/Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Quotient Topology.md"
+                "file": "Topology/Locally Compact Hausdorff Space.md"
               }
             }
           }
@@ -280,21 +280,23 @@
   },
   "active": "55d1be9cf5529fb6",
   "lastOpenFiles": [
-    "Topology/Initial Topology.md",
-    "Topology/Filter.md",
-    "Topology/Ultrafilter.md",
     "Topology/Quotient Topology.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Topological Space.md",
-    "Topology/Compact Space.md",
-    "Topology/Product Topology.md",
+    "Topology/Initial Topology.md",
     "Topology/Hausdorff Space.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Filter.md",
+    "Topology/Compact Space.md",
+    "Topology/Continuous Function.md",
+    "Topology/Homeomorphism.md",
+    "Measure Theory/Borel Measure.md",
+    "Topology/Ultrafilter.md",
+    "Topology/Topological Space.md",
+    "Topology/Product Topology.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Differential Geometry/Partition of Unity.md",
     "Representation Theory/Semisimple Representation.md",
     "Algebra/Galois Extension.md",
     "Analysis/Functional Analysis/Space of Probability Measures.md",
-    "Measure Theory/Borel Measure.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Topology/Cantor Space.md",
     "Analysis/Product Space.md",
@@ -304,8 +306,6 @@
     "Measure Theory/Summable Function.md",
     "Measure Theory/Integrable Function.md",
     "Algebra/Splitting Field.md",
-    "Courses/Analysis IV/Exercise Sheet 8.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
