@@ -14,7 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Quotient Topology.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "54f9f384ae38a7a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Quotient Topology.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +68,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c45eeefa3389e702",
@@ -77,12 +90,36 @@
             }
           },
           {
+            "id": "cf73c8b8ca1d3d6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Topology Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55d1be9cf5529fb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Quotient Topology.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ddb52a4121806c7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Ultrafilter.md",
+                "file": "Topology/Initial Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -112,7 +149,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -158,8 +196,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Quotient Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Quotient Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact Space.md"
+                "file": "Topology/Quotient Topology.md"
               }
             }
           }
@@ -241,13 +278,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9ea04376b7c4965a",
+  "active": "55d1be9cf5529fb6",
   "lastOpenFiles": [
-    "Topology/Product Topology.md",
-    "Topology/Compact Space.md",
-    "Topology/Hausdorff Space.md",
+    "Topology/Initial Topology.md",
     "Topology/Filter.md",
     "Topology/Ultrafilter.md",
+    "Topology/Quotient Topology.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Topological Space.md",
+    "Topology/Compact Space.md",
+    "Topology/Product Topology.md",
+    "Topology/Hausdorff Space.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Differential Geometry/Partition of Unity.md",
     "Representation Theory/Semisimple Representation.md",
@@ -257,8 +298,6 @@
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Topology/Cantor Space.md",
     "Analysis/Product Space.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Topological Space.md",
     "Algebra/Field Extension.md",
     "Algebra/Normal Extension.md",
     "Courses/Analysis IV/Exercise Sheet 7.md",
@@ -267,8 +306,6 @@
     "Algebra/Splitting Field.md",
     "Courses/Analysis IV/Exercise Sheet 8.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Galois Group.md",
-    "Algebra/Algebraic Closure.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
