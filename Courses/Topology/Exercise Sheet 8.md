@@ -4,6 +4,7 @@
 > Let $X:=L^2([0,1])$ with the topology defined by the distance $$d(f,g):=\left( \int_{0}^{1} \left| f-g \right| ^{2} \, dx  \right) ^{1/2}$$
 > 1. For $f\in X$ and $\varepsilon>0$, show that the closed ball $$B_{\leq \varepsilon}(f):=\{ g\in X:d(f,g)\leq \varepsilon \}$$ is not compact. (Hint: start with f = 0 and ε = 1, which was an example in the lecture.) 
 > 2. Deduce that $X$ is not locally compact, and in fact that there is no $f\in X$ which has any compact neighborhood.
+
 ---
 > [!def] Problem 2
 > Let $(X_{i})_{i\in I}$ be a family of topological spaces and let $$X:=\prod_{i\in I}^{}X_{i}$$ with the product topology. 

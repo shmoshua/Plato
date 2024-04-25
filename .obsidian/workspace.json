@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 8.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 8.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Normal Space.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -227,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 8.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 8.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 8.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md"
               }
             }
           }
@@ -289,19 +289,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "61ffaa4fec3fc95a",
+  "active": "a8a209f3498bc407",
   "lastOpenFiles": [
-    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Connected Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 8.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Topology/Hausdorff Space.md",
+    "Topology/Compact Space.md",
     "Courses/Topology/Exercise Sheet 8.md",
+    "Topology/Normal Space.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Topology/Quotient Topology.md",
-    "Topology/Normal Space.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Courses/Topology/Exercise Sheet 5.md",
-    "Topology/Compact Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Initial Topology.md",
-    "Topology/Hausdorff Space.md",
     "Topology/Filter.md",
     "Topology/Continuous Function.md",
     "Topology/Homeomorphism.md",
@@ -314,9 +317,6 @@
     "Representation Theory/Semisimple Representation.md",
     "Algebra/Galois Extension.md",
     "Analysis/Functional Analysis/Space of Probability Measures.md",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
-    "Topology/Cantor Space.md",
-    "Analysis/Product Space.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
