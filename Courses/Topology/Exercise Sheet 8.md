@@ -17,4 +17,18 @@
 ---
 > [!def] Problem 3
 > Let $(X_{n},d_{n})_{n\geq 1}$ be a sequence of metric spaces. Denote $X:=\prod_{n\geq 1}^{}X_{n}$. 
-> 1. Show that for $x=(x_{n})_{n}$ and $y=(y_{n})_{n}$ in $X$, the series $$d(x,y):=\sum_{n\geq 1}^{} \frac{1}{2^n}\frac{d_{n}(x_{n},y_{n})}{1+d_{n}(x_{n},y_{n})}$$ d(x, y) = X n≥1 1 2 n dn(xn, yn) 1 + dn(xn, yn) is (absolutely) convergent and that the function d: X × X → [0, +∞[ it defines is a distance on X. (b) Show that the topology defined by d is the product topology on X. (c) Show that if Xn is complete for all n, then X is complete. (This fact is also true for an arbitrary product of complete spaces in the sense of uniform structures.) (d) Assume that Xn is compact for all n. Show that if xm = (xm,n)n≥1 is an element of X for all m ≥ 1, then the sequence (xm)m≥1 has a convergent subsequence. (Hint: show that for every N ≥ 1, there exists a sequence x (N) = (x (N) k )k≥1 of elements of X such that (1) x (1) = (xm); (2) x (N) is a subsequence of x (N−1); (3) for 1 ≤ n ≤ N, the sequence of n-th coordinates (x (N) k )n converges as k → +∞. To conclude, construct a convergence subsequence of (xm) by a diagonal argument.) (e) Deduce that X is compact without using Tychonov’s Theorem.
+> 1. Show that for $x=(x_{n})_{n}$ and $y=(y_{n})_{n}$ in $X$, the series $$d(x,y):=\sum_{n\geq 1}^{} \frac{1}{2^n}\frac{d_{n}(x_{n},y_{n})}{1+d_{n}(x_{n},y_{n})}$$ is (absolutely) convergent and that the function $d:X\times X\to[0,+\infty)$ defines is a distance on $X$. 
+> 2. Show that the topology defined by $d$ is the product topology on $X$. 
+> 3. Show that if $X_{n}$ is complete for all $n$, then $X$ is complete. 
+> 4. Assume that $X_{n}$ is compact for all $n$. Show that if $x_{m}:=(x_{m,n})_{n\geq 1}$ is an element of $X$ for all $m\geq 1$, then the sequence $(x_{m})_{m\geq 1}$ has a convergent subsequence. 
+> 5. Deduce that $X$ is compact without using Tychonov’s Theorem.
+---
+> [!def] Problem 4
+> Let $X_{1}$ and $X_{2}$ be topological spaces and $X=X_{1}\times X_{2}$ with the product topology. 
+> 1. Let $Y$ be a topological space and $f:X\to Y$ a continuous map. For any $(x_{1},x_{2})\in X_{1}\times X_{2}$, show that the maps $$\begin{array}{cccc} {f_{x_{2}}:}&{X_{1}}&\to&{Y}\\&{x} &\mapsto & {f(x,x_{2})} \end{array}{},\quad \begin{array}{cccc} {g_{x_{1}}:}&{X_{2}}&\to&{Y}\\&{x} &\mapsto & {f(x_{1},x)} \end{array}{}$$are continuous. 
+> 2. Let $X_{1}=X_{2}=\mathbb{R}$ and define $f:X\to \mathbb{R}$ by $$f(x_{1},x_{2}):=\begin{cases}\frac{x_{1}x_{2}}{x_{1}^2+x_{2}^2}&(x_{1},x_{2})\neq(0,0)\\0&(x_{1},x_{2})=(0,0)\end{cases}$$Show that $f_{x_{2}}$ and $g_{x_{1}}$ are all continuous but that $f$ is not continuous. 
+> 
+> Let $X_{1}=X_{2}=Y=\mathbb{R}$. Assume that the functions $f_{x_{2}}$ and $g_{x_{1}}$ are continuous for all $(x_{1},x_{2})\in \mathbb{R}^2$. Let $(x_{1},x_{2})\in \mathbb{R}^2$ and $y=f(x_{1},x_{2})$. 
+> 1. For $\varepsilon>0$, show that there exist $y_{1}<y_{2}$ in $\mathbb{R}$ with $y_{1}<x_{2}<y_{2}$ such that $y-\varepsilon<f(x_{1},x)<y+\varepsilon$ if $y_{1}<x<y_{2}$.
+> 2. Let $v_{1}<v_{2}$ be such that $y_{1}<v_{1}<x_{2}<v_{2}<y_{2}$. Show that there exists $\delta>0$ s.t. $y-\varepsilon<f(x,v_{1})<y+\varepsilon$ and $$y-\varepsilon<f(x,v_{2})<y+\varepsilon$$ for $x_{1}-\delta<x<x_{1}+\delta$.
+> 3. Assume furthermore that $g_{x_{1}}:\mathbb{R}\to \mathbb{R}$ is non-decreasing for all $x_{1}\in \mathbb{R}$. Deduce that $f$ is continuous.
