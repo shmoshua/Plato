@@ -19,6 +19,10 @@
 ---
 > [!lemma] Corollary 4
 > Let $G$ be a locally compact Hausdorff topological group and $\text{Aut}(G)$ the group of continuous group automorphisms of $G$. Then, there exists a well-defined group homomorphism: $$\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}_{>0}^\times$$s.t. for any left Haar functional $\Lambda$, $$\Lambda(f\circ \alpha ^{-1})=\text{mod}_{G}(\alpha)\Lambda(f),\quad \forall f\in C_{00}(G),\alpha\in \text{Aut}(G)$$
+> With: $$\int_{G}(f\circ \alpha_{g} ^{-1}) \, d\mu=\text{mod}_{G}(\alpha_{g})\int_{G}^{} f \, d\mu  $$and $$\int_{G}^{} f(xg) \, d\mu(x) =\int_{G}^{} f(g^{-1}xg) \, d\mu(x)= \text{mod}_{G}(\alpha_{g})\int_{G}^{} f \, d\mu $$
+> The modular function of $G$ is: $$\Delta_{G}(g):=\text{mod}(\alpha_{g^{-1}})$$Then, $$\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\Delta_{G}(g)\int_{G}^{} f \, d\mu  $$
+> where $\Delta_{G}:G\to \mathbb{R}^\times_{>0}$ is a homomorphism. $G$ is unimodular if $\Delta_{G}\equiv 1$, if and only if any left Haar measure is also invariant under right transformation. 
+> - Example: $G$ abelian or $G$ compact, $\text{SL}(2,\mathbb{R})$
 
 > [!proof]-
 > We have that $$\begin{array}{cccc} {}&{C_{00}(G)}&\to&{C_{00}(G)}\\&{f} &\mapsto & {f\circ \alpha ^{-1}} \end{array}{}$$is linear and preserves positivity. If $\Lambda$ is a left Haar functional, define: $$\Lambda_{\alpha}(f):=\Lambda(f\circ \alpha ^{-1})$$Then, $\Lambda_{\alpha}$ is a positive functional on $C_{00}(G)$ and as:
@@ -30,6 +34,12 @@
 > - $\Lambda((f\circ\alpha)\circ\beta)=c(\beta)\Lambda(f\circ\alpha)=c(\beta)c(\alpha)\Lambda(f)$
 >   
 > Hence, if $\mu$ is a left Haar measure, then: $$\mu(\alpha(E))=\text{mod}_{G}(\alpha)\mu(E)$$So define $\text{mod}_{G}(\alpha)=c(\alpha)$.
+---
+> [!lemma] Proposition 5
+> Let $G$ be a locally compact Hausdorff abelian topological group and $\mu$ a left Haar measure. Then, $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=\int_{G}^{} f(x) \, d\mu(x)  $$
+
+> [!proof]+
+> Verify that $f\mapsto \int_{G}^{} f(x ^{-1})d\mu(x)$ is a positive linear functional and: $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=c\int_{G}^{} f(x) \, d\mu(x)=c^{2} \int_{G}^{}  f(x ^{-1}) \, d\mu(x)   $$Therefore, $c=1$. 
 ---
 ##### Examples
 > [!h] Example 1

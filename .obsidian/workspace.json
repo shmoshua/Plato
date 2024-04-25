@@ -21,6 +21,30 @@
             }
           },
           {
+            "id": "ee1d018e0baef7b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra I/Algebra I Roadmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f23386bf3ce1543",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Inner Automorphism.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "61ffaa4fec3fc95a",
             "type": "leaf",
             "state": {
@@ -190,7 +214,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Rational.md",
+                "file": "Algebra/Inner Automorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -226,7 +250,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Zariski",
+                "query": "inner auto",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -243,7 +267,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -327,9 +352,11 @@
   },
   "active": "c38e208d18af653a",
   "lastOpenFiles": [
+    "Algebra/Inner Automorphism.md",
     "Algebra/p-adic Rational.md",
-    "Differential Geometry/Exterior Algebra.md",
     "Analysis/Functional Analysis/Haar Measure.md",
+    "Courses/Algebra I/Algebra I Roadmap.md",
+    "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Multilinear k-Form.md",
     "Representation Theory/Representation.md",
     "Lie Group/Topological Group.md",
@@ -351,8 +378,6 @@
     "Topology/Filter.md",
     "Topology/Continuous Function.md",
     "Topology/Homeomorphism.md",
-    "Measure Theory/Borel Measure.md",
-    "Topology/Ultrafilter.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
