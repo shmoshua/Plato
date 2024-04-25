@@ -190,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Representation.md",
+                "file": "Differential Geometry/Exterior Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -325,8 +325,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9ea04376b7c4965a",
+  "active": "c38e208d18af653a",
   "lastOpenFiles": [
+    "Differential Geometry/Exterior Algebra.md",
+    "Differential Geometry/Multilinear k-Form.md",
     "Representation Theory/Representation.md",
     "Analysis/Functional Analysis/Haar Measure.md",
     "Lie Group/Topological Group.md",
@@ -351,8 +353,6 @@
     "Measure Theory/Borel Measure.md",
     "Topology/Ultrafilter.md",
     "Topology/Topological Space.md",
-    "Topology/Product Topology.md",
-    "Courses/Topology/Exercise Sheet 3.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
