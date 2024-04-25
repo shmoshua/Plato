@@ -75,7 +75,7 @@
 
 **3.3 Functions**
 1. [[Normal Space]]
-
+---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
 2. [[Courses/Topology/Exercise Sheet 2|Exercise Sheet 2]]
@@ -84,3 +84,4 @@
 5. [[Courses/Topology/Exercise Sheet 5|Exercise Sheet 5]]
 6. [[Courses/Topology/Exercise Sheet 6|Exercise Sheet 6]]
 7. [[Courses/Topology/Exercise Sheet 7|Exercise Sheet 7]]
+8. [[Courses/Topology/Exercise Sheet 8|Exercise Sheet 8]]
