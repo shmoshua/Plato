@@ -143,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Topology/Compact Metric Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -267,8 +267,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -352,13 +351,16 @@
   },
   "active": "a8a209f3498bc407",
   "lastOpenFiles": [
-    "Topology/Connected Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 8.md",
+    "Topology/Compact Metric Space.md",
+    "Topology/Compact Space.md",
+    "Analysis/Functional Analysis/Haar Measure.md",
     "Topology/Continuous Function.md",
+    "Courses/Functional Analysis II/Exercise Sheet 8.md",
+    "Topology/Connected Space.md",
+    "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Subspace Topology.md",
     "Algebra/Inner Automorphism.md",
     "Algebra/Normal Extension.md",
-    "Analysis/Functional Analysis/Haar Measure.md",
     "Algebra/p-adic Rational.md",
     "Courses/Algebra I/Algebra I Roadmap.md",
     "Differential Geometry/Exterior Algebra.md",
@@ -370,14 +372,11 @@
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Courses/Topology/Exercise Sheet 4.md",
-    "Topology/Compact Space.md",
     "Topology/Hausdorff Space.md",
     "Courses/Topology/Exercise Sheet 8.md",
     "Topology/Normal Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Topology/Quotient Topology.md",
-    "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Initial Topology.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
