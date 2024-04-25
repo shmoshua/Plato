@@ -38,7 +38,7 @@
 > [!lemma] Proposition 5
 > Let $G$ be a locally compact Hausdorff abelian topological group and $\mu$ a left Haar measure. Then, $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=\int_{G}^{} f(x) \, d\mu(x)  $$
 
-> [!proof]+
+> [!proof]-
 > Verify that $f\mapsto \int_{G}^{} f(x ^{-1})d\mu(x)$ is a positive linear functional and: $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=c\int_{G}^{} f(x) \, d\mu(x)=c^{2} \int_{G}^{}  f(x ^{-1}) \, d\mu(x)   $$Therefore, $c=1$. 
 ---
 ##### Examples

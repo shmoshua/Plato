@@ -98,13 +98,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Extension.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       },
       {
         "id": "c45eeefa3389e702",
@@ -220,8 +221,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -288,7 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Haar Measure.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Haar Measure.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,7 +328,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Haar Measure.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md"
               }
             }
           }
@@ -350,11 +350,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c38e208d18af653a",
+  "active": "a8a209f3498bc407",
   "lastOpenFiles": [
+    "Algebra/Normal Extension.md",
+    "Analysis/Functional Analysis/Haar Measure.md",
     "Algebra/Inner Automorphism.md",
     "Algebra/p-adic Rational.md",
-    "Analysis/Functional Analysis/Haar Measure.md",
     "Courses/Algebra I/Algebra I Roadmap.md",
     "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Multilinear k-Form.md",
@@ -377,7 +378,6 @@
     "Topology/Initial Topology.md",
     "Topology/Filter.md",
     "Topology/Continuous Function.md",
-    "Topology/Homeomorphism.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
