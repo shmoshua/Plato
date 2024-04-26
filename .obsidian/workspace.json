@@ -131,7 +131,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Analysis/Functional Analysis/Banach Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Normal Space.md",
+                "file": "Algebra/Normal Subgroup.md",
                 "mode": "preview",
                 "source": false
               }
@@ -351,14 +351,19 @@
   },
   "active": "a8a209f3498bc407",
   "lastOpenFiles": [
-    "Topology/Normal Space.md",
+    "Analysis/Functional Analysis/Banach Algebra.md",
+    "Analysis/Functional Analysis/C-Algebra.md",
     "Topology/Compact Metric Space.md",
+    "Algebra/Normal Subgroup.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
-    "Topology/Initial Topology.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Lie Group/Topological Group.md",
+    "Topology/Normal Space.md",
     "Topology/Compact-Open Topology.md",
+    "Analysis/Functional Analysis/Haar Measure.md",
+    "Topology/Initial Topology.md",
     "Topology/Connected Space.md",
     "Topology/Compact Space.md",
-    "Analysis/Functional Analysis/Haar Measure.md",
     "Topology/Continuous Function.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Subspace Topology.md",
@@ -369,14 +374,9 @@
     "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Multilinear k-Form.md",
     "Representation Theory/Representation.md",
-    "Lie Group/Topological Group.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Courses/Topology/Exercise Sheet 5.md",
-    "Courses/Topology/Exercise Sheet 4.md",
-    "Topology/Hausdorff Space.md",
-    "Courses/Topology/Exercise Sheet 8.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
