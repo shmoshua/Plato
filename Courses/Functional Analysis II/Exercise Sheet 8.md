@@ -11,13 +11,10 @@
 
 We have: 
 1. We will show as follows:
-	- (1=>3): Assume that for all continuous function $\phi:S\to \{ 0,1 \}$, $\phi(s_{1})=\phi(s_{2})$. Then, $\phi|_{\{ s_{1},s_{2} \}}$ is continuous 
-	
-
-	- (1=>2): Let $s_{1}\neq s_{2}\in S$. Let $U$ be the smallest clopen set containing $s_{1}$, i.e. it is the intersection of all clopen neighborhoods of $s_{1}$. To show that $U=\{ s_{1} \}$, it suffices to show that $U$ is connected. Let $U=C_{1}\sqcup C_{2}$ for $C_{1},C_{2}$ closed in $U$. As $U$ is closed by definition, $C_{1},C_{2}$ are closed in $S$. Therefore, due to $S$ being Hausdorff, there exists $V,W\subseteq X$ disjoint open s.t. $C_{1}\subseteq V$ and $C_{2}\subseteq W$ with $U\subseteq V\cap W$. 
+	- (1=>2): Let $s_{1}\neq s_{2}\in S$. We first show the claim that: $$\{ s_{1} \}=\bigcap_{s_{1}\in C\subseteq S,C\text{ clopen}}^{}C=:Q$$As $s_{1}\in Q$, it suffices to show that $Q$ is connected. Let $Q=W_{1}\sqcup W_{2}$ for $W_{1},W_{2}$ closed in $Q$, where we wlog assume that $s_{1}\in W_{1}$. As $Q$ is closed in $S$ by definition, so are $W_{1},W_{2}$. Therefore, due to $S$ being Hausdorff, there exists disjoint open sets $U,V\subseteq X$ s.t. $W_{1}\subseteq U$ and $W_{2}\subseteq V$ with $Q\subseteq U\cap V$. 
 	  
-	  Then, there exist $Q_{1},\dots,Q_{n}$ clopen sets containing $s_{1}$ s.t. $\bigcap_{i=1}^{n}Q_{i}\subseteq V\cap W$. Otherwise, let $\mathcal{C}$ be the family of all clopen neighborhoods of $s_{1}$ and $\mathcal{C}\cup \{ X \backslash (V\cap W) \}$ meets the finite intersection property and by compactness of $S$, $U\not\subseteq V\cap W$, which is a contradiction.
+	  Then, we claim that there exist $C_{1},\dots,C_{n}$ clopen sets containing $s_{1}$ s.t. $\bigcap_{i=1}^{n}C_{i}\subseteq U\cap V$. Otherwise, let: $$\mathcal{C}:=\{ C\subseteq S: C \text{ clopen}, s_{1}\in C \}$$ and $\mathcal{C}\cup \{ S \backslash (U\cap V) \}$ meets the finite intersection property. By compactness of $S$, $Q\not\subseteq V\cap W$, which is a contradiction.
 	  
-	  Therefore, $Q:=\bigcap_{i=1}^{n}Q_{i}$ is clopen and $s_{1}\in Q$. Consider $D:=Q\cap V$. 
+	  Therefore, $Q:=\bigcap_{i=1}^{n}C_{i}$ is clopen and $s_{1}\in Q$. Consider $D:=Q\cap V$. As $s_{1}\in C_{1}\subseteq V$, $s_{1}\in D$. One easily sees that $D$ is open, however it is also closed as $D=Q\cap(X \backslash  W)$ . Therefore, $U\subseteq D$ and $U\cap W=\varnothing$
 	  
 	  Now, we claim 
