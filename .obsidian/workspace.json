@@ -131,7 +131,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Initial Topology.md",
+                "file": "Topology/Normal Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -351,12 +351,15 @@
   },
   "active": "a8a209f3498bc407",
   "lastOpenFiles": [
+    "Topology/Normal Space.md",
     "Topology/Compact Metric Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 8.md",
+    "Topology/Initial Topology.md",
+    "Topology/Compact-Open Topology.md",
+    "Topology/Connected Space.md",
     "Topology/Compact Space.md",
     "Analysis/Functional Analysis/Haar Measure.md",
     "Topology/Continuous Function.md",
-    "Courses/Functional Analysis II/Exercise Sheet 8.md",
-    "Topology/Connected Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Subspace Topology.md",
     "Algebra/Inner Automorphism.md",
@@ -374,9 +377,6 @@
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Hausdorff Space.md",
     "Courses/Topology/Exercise Sheet 8.md",
-    "Topology/Normal Space.md",
-    "Courses/Topology/Exercise Sheet 7.md",
-    "Topology/Quotient Topology.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

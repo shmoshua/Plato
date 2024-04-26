@@ -17,8 +17,7 @@ We have:
 	  
 	  Therefore, $Q=\bigcap_{i=1}^{n}C_{i}$ is clopen and $s_{1}\in Q$. Consider $A:=Q\cap U$. As $s_{1}\in W_{1}\subseteq U$, $s_{1}\in A$. One easily sees that $A$ is open, however it is also closed as $A=Q\cap(S \backslash  V)$ . Therefore, $Q\subseteq A$ and $W_{2}=V\cap Q=\varnothing$. This proves the claim and $\{ s_{1} \}=Q$. Finally, for $s_{2}$, there exists a clopen set $S_{1}\ni s_{1}$ s.t. $s_{2}\notin S_{1}$. We prove the statement by taking $S_{2}:=S \backslash S_{1}$.
 	- (2=>3): Let $s_{1},s_{2}\in S$ be distinct and let $S=S_{1}\sqcup S_{2}$ be the clopen decomposition. Then, $$\begin{array}{cccc} {\phi:}&{S}&\to&{\{ 0,1 \}}\\&{x} &\mapsto & {\begin{cases}0&x\in S_{1}\\1&x\in S_{2}\end{cases}} \end{array}{}$$is continuous.
-	- (3=>4): Let $C\subseteq S$ be a clopen set and we define the following continuous function: $$\begin{array}{cccc} {\phi_{S}:}&{S}&\to&{\{ 0,1 \}}\\&{x} &\mapsto & {\begin{cases}0\end{cases}} \end{array}{}$$
+	- (3=>4): Let $C\subseteq S$ be a clopen set. Then, $\chi_{C}:S\to \{ 0,1 \}$ is a continuous function and by 3, we have that: $$D:=\{ \chi_{C}:C\subseteq S\text{ clopen} \}$$is a separating subset of $C(S)$. Further, let $f\in C_{\text{fin}}(S)$. As $\text{im }f$ is finite, for every $y\in \text{im }f$, $f^{-1}(\{ y \})$ is clopen. Therefore, $f=\sum_{y\in \text{im }f}^{}y\cdot\chi_{f^{-1}(\{ y \})}$ and $D$ generates $C_{\text{fin}}(S)$. Therefore, by Stone-Weierstrass, $C_{\text{fin}}(S)\subseteq C(S)$ is dense.
+	- (4=>1): Let $s_{1}\neq s_{2}\in S$. As $S$ is normal, there exists a function $f:S\to[0,1]$ s.t. $f(s_{1})=0$ and $f(s_{2})=1$. 
 
-	- For $s_{1}\neq s_{2}\in S$ and the $\phi_{s_{1},s_{2}}$ from 3, we have that $\phi_{s_{1},s_{2}}\in C_{\text{fin}}(S)$. Therefore, $C_{\text{fin}}(S)$ is a separating subset of $C(S)$. 
-	  
 	  
