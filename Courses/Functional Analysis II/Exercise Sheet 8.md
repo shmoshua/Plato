@@ -26,9 +26,9 @@ Now we solve the problems.
 	- (2=>3): Let $s_{1},s_{2}\in S$ be distinct and let $S=S_{1}\sqcup S_{2}$ be the clopen decomposition. Then, $$\begin{array}{cccc} {\phi:}&{S}&\to&{\{ 0,1 \}}\\&{x} &\mapsto & {\begin{cases}0&x\in S_{1}\\1&x\in S_{2}\end{cases}} \end{array}{}$$is continuous.
 	- (3=>4): We notice that for any $s_{1}\neq s_{2}\in S$ and $\phi$ from 3, $\phi\in C_{\text{fin}}(S)$. Therefore, $C_{\text{fin}}(S)$ is a separating set and by Stone-Weierstrass, $C_{\text{fin}}(S)\subseteq C(S)$ is dense.
 	- (4=>2): Let $s_{1}\neq s_{2}\in S$. As $S$ is normal, there exists a function $f:S\to[0,1]$ s.t. $f(s_{1})=0$ and $f(s_{2})=1$. By density of $C_{\text{fin}}(S)$, there exists $g\in C_{\text{fin}}(S)$ s.t. $\|g-f\|_{\infty}< \frac{1}{2}$. Therefore, there exists $g\in C_{\text{fin}}(S)$, s.t. $g(s_{1})\neq g(s_{2})$. As $\text{im }g$ is finite, $g^{-1}(\{ y\})$ is a clopen set for all $y\in \text{im }g$. Therefore, there exists a clopen set $S_{1}:=g^{-1}(\{ g(s_{1}) \})$ s.t. $s_{2}\notin S_{1}$.
-2. Consider the inclusion $C(X)\hookrightarrow C_{b}(X^{\text{disc}})$, which is well defined as $X$ is compact.
-	1. **Showing that $C_{b}(X^\text{disc})$ is a $C^{*}$-algebra:**
-	   Let $(f_{n})_{n}\subseteq C_{b}(X^\text{disc})$ is a Cauchy sequence. Then, $(f_{n}(x))_{n}$ is also Cauchy for all $$ for $\varepsilon>0$: $$\left| f_{n}(x)-f_{m}(x) \right| \leq \left\| f_{n}-f_{m} \right\| _{b}<\varepsilon$$$f(x):=\lim_{ n \to \infty }f_{n}(x)$. 
+2. Consider the inclusion $C(X)\hookrightarrow C_{b}(X^{\text{disc}})$, which is well defined as $X$ is compact. Then,  $C_{b}(X^\text{disc})$ is a $C^{*}$-algebra and:
+	1. **Showing that $(C_{b}(X^{\text{disc}}))_{\text{fin}}\subseteq C_{b}(X^\text{disc})$ is dense**: 
+	   Let $f\in C_{b}(X^\text{disc})$ s.t. $\text{im }f\subseteq[0,+\infty)$. Then, 
 ---
 > [!def] Problem 2
 > Prove that the quotient groups $\mathbb{Q}_{p}/\mathbb{Z}_{p}$ are discrete for each prime $p\in \mathbb{N}$. Moreover, prove that they are isomorphic to $$\{ z\in \mathbb{T}\ |\  \exists n\geq 1:z^{p^n}=1 \}$$ as abstract groups.
