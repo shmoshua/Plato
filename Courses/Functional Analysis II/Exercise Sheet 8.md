@@ -9,15 +9,21 @@
 > 	4. The subalgebra $C_{\text{fin}}(S)\subseteq C(S)$  is dense.
 > 2. Let $X$ be a compact Hausdorff space. Prove that there exists a totally disconnected compact Hausdorff space $S$ and a continuous surjection $S\to X$.
 
-We have: 
-1. We will show as follows:
-	- (1=>2): Let $s_{1}\neq s_{2}\in S$. We first show the claim that: $$\{ s_{1} \}=\bigcap_{s_{1}\in C\subseteq S,C\text{ clopen}}^{}C=:Q$$As $s_{1}\in Q$, it suffices to show that $Q$ is connected. Let $Q=W_{1}\sqcup W_{2}$ for $W_{1},W_{2}$ closed in $Q$, where we wlog assume that $s_{1}\in W_{1}$. As $Q$ is closed in $S$ by definition, so are $W_{1},W_{2}$. Therefore, due to $S$ being Hausdorff, there exists disjoint open sets $U,V\subseteq X$ s.t. $W_{1}\subseteq U$ and $W_{2}\subseteq V$ with $Q\subseteq U\cap V$. 
+For a compact Hausdorff space $S$ and $s\in S$, let $S_{0}\subseteq S$ be the connected component of $s$. Then, we claim that:$$S_{0}=\bigcap_{s\in C\subseteq S, C\text{ clopen}}^{}C=:Q$$
+Let $C\subseteq S$ be a clopen set s.t. $s\in C$. Then, $S_{0}\subseteq C$ as $S_{0}$ is connected and it does not contain any non-empty strict clopen subset. To show the other inclusion, it suffices to show that $Q$ is connected. Let $Q=W_{1}\sqcup W_{2}$ for $W_{1},W_{2}$ closed in $Q$, where we wlog assume that $s\in W_{1}$. As $Q$ is closed in $S$ by definition, so are $W_{1},W_{2}$. Therefore, due to $S$ being Hausdorff, there exists disjoint open sets $U,V\subseteq X$ s.t. $W_{1}\subseteq U$ and $W_{2}\subseteq V$ with $Q\subseteq U\cap V$. 
 	  
-	  Then, we claim that there exist $C_{1},\dots,C_{n}$ clopen sets containing $s_{1}$ s.t. $\bigcap_{i=1}^{n}C_{i}\subseteq U\cap V$. Otherwise, let: $$\mathcal{C}:=\{ C\subseteq S: C \text{ clopen}, s_{1}\in C \}$$ and $\mathcal{C}\cup \{ S \backslash (U\cap V) \}$ meets the finite intersection property. By compactness of $S$, $Q\not\subseteq U\cap V$, which is a contradiction.
+Then, we claim that there exist $C_{1},\dots,C_{n}$ clopen sets containing $s$ s.t. $\bigcap_{i=1}^{n}C_{i}\subseteq U\cap V$. Otherwise, let: $$\mathcal{C}:=\{ C\subseteq S: C \text{ clopen}, s\in C \}$$ and $\mathcal{C}\cup \{ S \backslash (U\cap V) \}$ meets the finite intersection property. By compactness of $S$, $Q\not\subseteq U\cap V$, which is a contradiction.
 	  
-	  Therefore, $Q=\bigcap_{i=1}^{n}C_{i}$ is clopen and $s_{1}\in Q$. Consider $A:=Q\cap U$. As $s_{1}\in W_{1}\subseteq U$, $s_{1}\in A$. One easily sees that $A$ is open, however it is also closed as $A=Q\cap(S \backslash  V)$ . Therefore, $Q\subseteq A$ and $W_{2}=V\cap Q=\varnothing$. This proves the claim and $\{ s_{1} \}=Q$. Finally, for $s_{2}$, there exists a clopen set $S_{1}\ni s_{1}$ s.t. $s_{2}\notin S_{1}$. We prove the statement by taking $S_{2}:=S \backslash S_{1}$.
-	- (2=>3): Let $s_{1},s_{2}\in S$ be distinct and let $S=S_{1}\sqcup S_{2}$ be the clopen decomposition. Then, $$\begin{array}{cccc} {\phi:}&{S}&\to&{\{ 0,1 \}}\\&{x} &\mapsto & {\begin{cases}0&x\in S_{1}\\1&x\in S_{2}\end{cases}} \end{array}{}$$is continuous.
-	- (3=>4): Let $C\subseteq S$ be a clopen set. Then, $\chi_{C}:S\to \{ 0,1 \}$ is a continuous function and by 3, we have that: $$D:=\{ \chi_{C}:C\subseteq S\text{ clopen} \}$$is a separating subset of $C(S)$. Further, let $f\in C_{\text{fin}}(S)$. As $\text{im }f$ is finite, for every $y\in \text{im }f$, $f^{-1}(\{ y \})$ is clopen. Therefore, $f=\sum_{y\in \text{im }f}^{}y\cdot\chi_{f^{-1}(\{ y \})}$ and $D$ generates $C_{\text{fin}}(S)$. Therefore, by Stone-Weierstrass, $C_{\text{fin}}(S)\subseteq C(S)$ is dense.
-	- (4=>1): Let $s_{1}\neq s_{2}\in S$. As $S$ is normal, there exists a function $f:S\to[0,1]$ s.t. $f(s_{1})=0$ and $f(s_{2})=1$. 
+Therefore, $Q=\bigcap_{i=1}^{n}C_{i}$ is clopen and $s\in Q$. Consider $A:=Q\cap U$. As $s\in W_{1}\subseteq U$, $s\in A$. One easily sees that $A$ is open, however it is also closed as $A=Q\cap(S \backslash  V)$ . Therefore, $Q\subseteq A$ and thereby $W_{2}=V\cap Q=\varnothing$. This proves that $Q$ is connected and $Q\subseteq S_{0}$.
 
-	  
+Now we solve the problems.
+
+
+
+1. We will show as follows:
+	- (1=>2): Let $s_{1}\neq s_{2}\in S$. From the above claim, $\{ s_{1} \}=\bigcap_{s\in C\subseteq S, C\text{ clopen}}^{}C$. Then, there exists a clopen set $S_{1}\ni s_{1}$ s.t. $s_{2}\notin S_{1}$. We prove the statement by taking $S_{2}:=S \backslash S_{1}$.
+	- (2=>1): For any distinct $s_{1}\neq s_{2}\in S$, there exists a clopen set $S_{1}\ni s_{1}$ that does not contain $s_{2}$. By the above claim, $\{ s_{1} \}=\bigcap_{s\in C\subseteq S, C\text{ clopen}}^{}C$ and $S$ is totally disconnected.
+	- (2=>3): Let $s_{1},s_{2}\in S$ be distinct and let $S=S_{1}\sqcup S_{2}$ be the clopen decomposition. Then, $$\begin{array}{cccc} {\phi:}&{S}&\to&{\{ 0,1 \}}\\&{x} &\mapsto & {\begin{cases}0&x\in S_{1}\\1&x\in S_{2}\end{cases}} \end{array}{}$$is continuous.
+	- (3=>4): We notice that for any $s_{1}\neq s_{2}\in S$ and $\phi$ from 3, $\phi\in C_{\text{fin}}(S)$. Therefore, $C_{\text{fin}}(S)$ is a separating set and by Stone-Weierstrass, $C_{\text{fin}}(S)\subseteq C(S)$ is dense.
+	- (4=>2): Let $s_{1}\neq s_{2}\in S$. As $S$ is normal, there exists a function $f:S\to[0,1]$ s.t. $f(s_{1})=0$ and $f(s_{2})=1$. By density of $C_{\text{fin}}(S)$, there exists $g\in C_{\text{fin}}(S)$ s.t. $\|g-f\|_{\infty}< \frac{1}{2}$. Therefore, there exists $g\in C_{\text{fin}}(S)$, s.t. $g(s_{1})\neq g(s_{2})$. As $\text{im }g$ is finite, $g^{-1}(\{ y\})$ is a clopen set for all $y\in \text{im }g$. Therefore, there exists a clopen set $S_{1}:=g^{-1}(\{ g(s_{1}) \})$ s.t. $s_{2}\notin S_{1}$.
+2. 
