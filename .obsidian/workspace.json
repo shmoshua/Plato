@@ -155,7 +155,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Subgroup.md",
+                "file": "Analysis/Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -203,13 +203,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Haar Measure.md",
+                "file": "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -337,34 +338,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a8a209f3498bc407",
+  "active": "fd50cc16a8213552",
   "lastOpenFiles": [
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
-    "Analysis/Functional Analysis/Guelfand Topology.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
-    "Courses/Functional Analysis II/Exercise Sheet 8.md",
+    "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Analysis/Functional Analysis/Haar Measure.md",
+    "Algebra/Normal Subgroup.md",
+    "Topology/Compact Space.md",
+    "Analysis/Functional Analysis/Guelfand Topology.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/C-Algebra.md",
     "Measure Theory/Measurable Function.md",
     "Measure Theory/Integrable Function.md",
     "Analysis/Banach Space.md",
     "Topology/Continuous Function.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Algebra/Normal Subgroup.md",
     "Analysis/Functional Analysis/Open and Closed Maps.md",
     "Topology/Compact Metric Space.md",
     "Lie Group/Topological Group.md",
     "Topology/Normal Space.md",
     "Topology/Compact-Open Topology.md",
-    "Analysis/Functional Analysis/Haar Measure.md",
     "Topology/Initial Topology.md",
     "Topology/Connected Space.md",
-    "Topology/Compact Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Subspace Topology.md",
-    "Algebra/Inner Automorphism.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
