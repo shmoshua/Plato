@@ -31,6 +31,7 @@ Now we solve the problems.
 	   Let $f\in C_{b}(X^\text{disc})$ s.t. $\text{im }f\subseteq[0,+\infty)$. Then, for $n\in \mathbb{N}$, we can define $$\begin{array}{cccc} {\phi_{n}:}&{[0,+\infty)}&\to&{\mathbb{R}}\\&{t} &\mapsto & {\begin{cases} k2^{-n} &\text{if }k 2^{-n}\leq t<(k+1),\  k= 0,1,\dots,n2^{n}-1\\n&\text{if }t\geq n\end{cases}} \end{array}{}$$
 	   Then, $\{ \phi_{n}\circ f \}_{n}\subseteq (C_{b}(X^{\text{disc}}))_{\text{fin}}$ s.t. $\phi_{n}\circ f_{n}\to f$ in $C_{b}(X^{\text{disc}})$. For a general $f\in C_{b}(X^{\text{disc}})$, we can use the decomposition: $$f=(f^+ -f^-)+i(g^+ -g^-)$$where $f^+,f^-,g^+,g^-$ are positive valued functions.
 	2. **Showing that $\widehat{C_{b}(X^\text{disc})}\to X$**:
+	3. $$C_{0}(X)\to C(X)\to C_{b}(X^\text{disc})\to C_{0}(\widehat{C_{b}(X^\text{disc})})$$Then, $$\begin{array}{cccc}\widehat{C_{b}(X^\text{disc})}&\to&\\ \chi&\mapsto\end{array}$$
 ---
 > [!def] Problem 2
 > Prove that the quotient groups $\mathbb{Q}_{p}/\mathbb{Z}_{p}$ are discrete for each prime $p\in \mathbb{N}$. Moreover, prove that they are isomorphic to $$\{ z\in \mathbb{T}\ |\  \exists n\geq 1:z^{p^n}=1 \}$$ as abstract groups.
