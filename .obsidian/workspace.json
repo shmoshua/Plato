@@ -143,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Radical.md",
+                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": false
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/C*-Algebra.md",
+                "file": "Representation Theory/Character.md",
                 "mode": "preview",
                 "source": false
               }
@@ -198,6 +198,18 @@
             }
           },
           {
+            "id": "e4145b933d3fafe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis II/Exercise Sheet 3.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c38e208d18af653a",
             "type": "leaf",
             "state": {
@@ -209,8 +221,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -276,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Radical.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Radical.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Radical.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md"
               }
             }
           }
@@ -338,15 +349,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "55d1be9cf5529fb6",
+  "active": "a8a209f3498bc407",
   "lastOpenFiles": [
+    "Representation Theory/Character.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
+    "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Courses/Functional Analysis II/Exercise Sheet 4.md",
+    "Analysis/Functional Analysis/Radical.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Analysis/Functional Analysis/Haar Measure.md",
     "Algebra/Normal Subgroup.md",
     "Topology/Compact Space.md",
@@ -362,10 +377,6 @@
     "Topology/Compact Metric Space.md",
     "Lie Group/Topological Group.md",
     "Topology/Normal Space.md",
-    "Topology/Compact-Open Topology.md",
-    "Topology/Initial Topology.md",
-    "Topology/Connected Space.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
