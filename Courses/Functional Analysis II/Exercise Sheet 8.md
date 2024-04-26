@@ -13,8 +13,12 @@ We have:
 1. We will show as follows:
 	- (1=>2): Let $s_{1}\neq s_{2}\in S$. We first show the claim that: $$\{ s_{1} \}=\bigcap_{s_{1}\in C\subseteq S,C\text{ clopen}}^{}C=:Q$$As $s_{1}\in Q$, it suffices to show that $Q$ is connected. Let $Q=W_{1}\sqcup W_{2}$ for $W_{1},W_{2}$ closed in $Q$, where we wlog assume that $s_{1}\in W_{1}$. As $Q$ is closed in $S$ by definition, so are $W_{1},W_{2}$. Therefore, due to $S$ being Hausdorff, there exists disjoint open sets $U,V\subseteq X$ s.t. $W_{1}\subseteq U$ and $W_{2}\subseteq V$ with $Q\subseteq U\cap V$. 
 	  
-	  Then, we claim that there exist $C_{1},\dots,C_{n}$ clopen sets containing $s_{1}$ s.t. $\bigcap_{i=1}^{n}C_{i}\subseteq U\cap V$. Otherwise, let: $$\mathcal{C}:=\{ C\subseteq S: C \text{ clopen}, s_{1}\in C \}$$ and $\mathcal{C}\cup \{ S \backslash (U\cap V) \}$ meets the finite intersection property. By compactness of $S$, $Q\not\subseteq V\cap W$, which is a contradiction.
+	  Then, we claim that there exist $C_{1},\dots,C_{n}$ clopen sets containing $s_{1}$ s.t. $\bigcap_{i=1}^{n}C_{i}\subseteq U\cap V$. Otherwise, let: $$\mathcal{C}:=\{ C\subseteq S: C \text{ clopen}, s_{1}\in C \}$$ and $\mathcal{C}\cup \{ S \backslash (U\cap V) \}$ meets the finite intersection property. By compactness of $S$, $Q\not\subseteq U\cap V$, which is a contradiction.
 	  
-	  Therefore, $Q:=\bigcap_{i=1}^{n}C_{i}$ is clopen and $s_{1}\in Q$. Consider $D:=Q\cap V$. As $s_{1}\in C_{1}\subseteq V$, $s_{1}\in D$. One easily sees that $D$ is open, however it is also closed as $D=Q\cap(X \backslash  W)$ . Therefore, $U\subseteq D$ and $U\cap W=\varnothing$
+	  Therefore, $Q=\bigcap_{i=1}^{n}C_{i}$ is clopen and $s_{1}\in Q$. Consider $A:=Q\cap U$. As $s_{1}\in W_{1}\subseteq U$, $s_{1}\in A$. One easily sees that $A$ is open, however it is also closed as $A=Q\cap(S \backslash  V)$ . Therefore, $Q\subseteq A$ and $W_{2}=V\cap Q=\varnothing$. This proves the claim and $\{ s_{1} \}=Q$. Finally, for $s_{2}$, there exists a clopen set $S_{1}\ni s_{1}$ s.t. $s_{2}\notin S_{1}$. We prove the statement by taking $S_{2}:=S \backslash S_{1}$.
+	- (2=>3): Let $s_{1},s_{2}\in S$ be distinct and let $S=S_{1}\sqcup S_{2}$ be the clopen decomposition. Then, $$\begin{array}{cccc} {\phi:}&{S}&\to&{\{ 0,1 \}}\\&{x} &\mapsto & {\begin{cases}0&x\in S_{1}\\1&x\in S_{2}\end{cases}} \end{array}{}$$is continuous.
+	- (3=>4): Let $C\subseteq S$ be a clopen set and we define the following continuous function: $$\begin{array}{cccc} {\phi_{S}:}&{S}&\to&{\{ 0,1 \}}\\&{x} &\mapsto & {\begin{cases}0\end{cases}} \end{array}{}$$
+
+	- For $s_{1}\neq s_{2}\in S$ and the $\phi_{s_{1},s_{2}}$ from 3, we have that $\phi_{s_{1},s_{2}}\in C_{\text{fin}}(S)$. Therefore, $C_{\text{fin}}(S)$ is a separating subset of $C(S)$. 
 	  
-	  Now, we claim 
+	  
