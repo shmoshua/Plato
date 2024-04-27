@@ -32,6 +32,10 @@ Now we solve the problems.
 	   Then, $\{ \phi_{n}\circ f \}_{n}\subseteq (C_{b}(X^{\text{disc}}))_{\text{fin}}$ s.t. $\phi_{n}\circ f_{n}\to f$ in $C_{b}(X^{\text{disc}})$. For a general $f\in C_{b}(X^{\text{disc}})$, we can use the decomposition: $$f=(f^+ -f^-)+i(g^+ -g^-)$$where $f^+,f^-,g^+,g^-$ are positive valued functions.
 	2. **Showing that $\widehat{C_{b}(X^\text{disc})}\to X$**: 
 	   Consider $$\begin{array}{cccc} {T:}&{\widehat{C_{b}(X^\text{disc})}}&\to&{\widehat{C(X)}}\\&{\chi} &\mapsto & {\chi|_{C(X)}} \end{array}{}$$is a surjective map. 
+	3. **Showing that $\widehat{C_{b}(X^\text{disc})}$ is totally disconnected**:
+	   As $C_{b}(X^\text{disc})$ is unital, $\widehat{C_{b}(X^\text{disc})}$ is compact Hausdorff. Further, for $f\in C_{b}(X^\text{disc})$ and $\lambda\in \mathbb{C}$, it holds that $\lambda\in \text{Sp}_{C_{b}(X^\text{disc})}(f)$ if and only if $\lambda \in \text{im }f$. Therefore, $$\text{im }f=\text{Sp}_{C_{b}(X^\text{disc})}(f)=\widehat{f}(\widehat{C_{b}(X^\text{disc})})$$. It follows that for $f\in (C_{b}(X^\text{disc}))_{\text{fin}}$, $$\widehat{f}(\widehat{C_{b}(X^\text{disc})})=\text{Sp}_{C_{b}(X^\text{disc})}(f)=\text{im }f$$Hihi$$C(\widehat{C_{b}(X^\text{disc})})_{\text{fin}}\cong C_{b}(X^\text{disc})$$
+	   $$C(\widehat{C_{b}(X^\text{disc})})\cong C_{b}(X^\text{disc})\supseteq( C_{b}(X^\text{disc}))_{\text{fin}}\cong$$
+	   $(C_{b}(X^{\text{disc}}))_{\text{fin}}\subseteq C_{b}(X^\text{disc})$ is dense, 
 ---
 > [!def] Problem 2
 > Prove that the quotient groups $\mathbb{Q}_{p}/\mathbb{Z}_{p}$ are discrete for each prime $p\in \mathbb{N}$. Moreover, prove that they are isomorphic to $$\{ z\in \mathbb{T}\ |\  \exists n\geq 1:z^{p^n}=1 \}$$ as abstract groups.
