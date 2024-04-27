@@ -42,14 +42,3 @@ Now we solve the problems.
 For each $h\in \Gamma$, we can consider the continuous map: $$\begin{array}{cccc} {\varphi_{h}:}&{G}&\to&{\Gamma}\\&{g} &\mapsto & {ghg^{-1}} \end{array}{}$$Then, the image is connected and as $\Gamma$ is discrete, $\varphi_{h}(G)=\{ h \}$. In other words, $ghg^{-1}=h$ for all $g\in G$ and $h\in Z(G)$.
 
 ---
-
-##### Defining Alphabet
-
-Let $x,y\in\{ a,S \}^*$, the Kleene star of $\{ a,S \}$. We define the predicate: $$x\to_{1}y\  \overset{ \text{def} }{ \iff }y\text{ is a possible outcome of derivation rule (S }\to \text{SS) applied to }x$$Let $x\to_{2}y$ denote the other derivation rule. We will inductively define the sets $\Sigma_{k}$ for $k\geq 1$. First $\Sigma_{1}:=\{ S \}$. Then, we have: $$\Sigma_{k}:=\{ y\in\{ a,S \}^k| \exists x\in \Sigma_{k-1}: x\to_{1} y \lor x\to_{2}y\}$$Then, we denote the sample space as follows: $$\Omega:=\bigtimes_{k\geq 1}\Sigma_{k}$$Notice that this allows us to treat $T\in \Omega$ as a "sequence", where $T_{i}\in \Sigma_{i}$ denotes the $i$-th element/layer in the derivation. Let further $\mathcal{T}_{k}:=\bigtimes_{i=1}^k \Sigma_{i}$ for all $k\geq 1$. This allows us to use the following notation: for any $T\in \Omega$, the first $k$ elements of $T$, denoted as $T_{\leq k}$, is in $\mathcal{T}_{k}$.
-
-Now, for $H\subseteq \mathcal{T}_{k}$, we define the cylinder set of rank $k$ as follows: $$C(H):=\{ T\in \Omega:T_{\leq k}\in H\}$$Then, let $\mathcal{C}:=\bigcup_{k=1}^{\infty}\bigcup_{H\in \mathcal{P}(\mathcal{T}_{k})}^{}\{ C(H) \}$. We claim that this is an algebra. 
-1. Indeed, $\Omega=C(\mathcal{T}_{k})$ for any $k\geq 1$. Hence, $\Omega\in \mathcal{C}$. Further, for $C(H)\in \mathcal{C}$, $C(H)^c=C(\mathcal{T}_{k} \backslash H)\in \Omega$, by definition of the cylinder sets. Finally, for $C(H_{1}),C(H_{2})$ with rank $k_{1}$ and $k_{2}$ respectively, if $k_{1}=k_{2}$, then $C(H_{1})\cup C(H_{2})=C(H_{1}\cup H_{2})\in\mathcal{C}$. Wlog assume that $k_{1}>k_{2}$, then $$C(H_{1} )\cup C(H_{2})=C\left(H_{1}\cup \left(H_{2}\times \bigtimes_{i=k_{2}+1}^{k_{1}}\Sigma_{i}\right)\right)\in \mathcal{C}$$This proves that $\mathcal{C}$ is an algebra. 
-
-Now, we will define a probabilistic pre-measure on $\mathcal{C}$ as follows. Let $k\geq 1$ and $T\in \mathcal{T}_{k}$, we define, $$p(T):=\prod_{i=2}^{k}\mathbb{1}_{[T_{i-1}\to_{1}T_{i}\lor T_{i-1}\to_{2}T_{i}]}(q\cdot \mathbb{1}_{[T_{i-1}\to_{1}T_{i}]}+(1-q)\cdot \mathbb{1}_{[T_{i-1}\to_{2}T_{i}]})$$
-Then, the pre-measure is defined as: $$\mathbb{P}_{0}(C(H)):=\sum_{T\in H}^{}p(T)$$We now show that this is indeed a probabilistic pre-measure. 
-1. $\mathbb{P}_{0}(\Omega)=\mathbb{P}_{0}(C(\mathcal{T}_{k}))=\sum_{T\in \mathcal{T}_{k}}^{}p(T)$$$\mathbb{P}_{0}(\Omega)=\mathbb{P}_{0}(C(\mathcal{T}_{1}))=p(S)=1$$
