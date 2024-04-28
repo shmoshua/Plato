@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis
 
 > [!definition] 
-> Fix a prime $p$. For $n\geq 1$ and , $A_{n}:= \mathbb{Z} / p^n\mathbb{Z}$ is a [[ring]] with $1$. These rings are connected by the surjective homomorphism: $$\begin{array}{cccc} {\Phi_{n}:}&{A_{n}}&\to&{A_{n-1}}\\&{x} &\mapsto & {x\mod p^{n-1}} \end{array}{}$$Then, the ring $\mathbb{Z}_{p}$ of ***$p$-adic integers*** is defied as: $$\mathbb{Z}_{p}:=\left\{  (x_{1},x_{2},\dots)\in\prod_{n\geq 1}^{}A_{n}:\Phi_{n}(x_{n})=x_{n-1}, \forall n\geq 2  \right\}$$
+> Fix a prime $p$. For $n\geq 1$ and , $A_{n}:= \mathbb{Z} / p^n\mathbb{Z}$ is a finite [[ring]] with $1$. These rings are connected by the surjective homomorphism: $$\begin{array}{cccc} {\phi_{n}:}&{A_{n}}&\to&{A_{n-1}}\\&{x} &\mapsto & {x\mod p^{n-1}} \end{array}{}$$Then, the ring $\mathbb{Z}_{p}$ of ***$p$-adic integers*** is defied as: $$\mathbb{Z}_{p}:=\left\{  (x_{1},x_{2},\dots)\in\prod_{n\geq 1}^{}A_{n}:\phi_{n}(x_{n})=x_{n-1}, \forall n\geq 2  \right\}$$
 - **Related definition**: Let $\varepsilon_{n}:\mathbb{Z}_{p}\to A_{n},x\mapsto x_{n}$ denote the evaluation map.
 - **Related definition**: $v_{p}(x)=n$, $v_{p}(0)=+\infty$.
 - **Related definition**: $\|x\|_{p}=e^{-v_{p}(x)}$
@@ -14,7 +14,7 @@
 > 3. $\mathbb{Z}_{p}$ is compact Hausdorff.
 > 4. $(\mathbb{Z}_{p},+)$ is a compact [[topological group]].
 
-> [!proof]-
+> [!proof]+
 > This follows from the fact that $\Phi_{n}$ is a ring homomorphism for all $n\geq 2$. 
 > 
 >   2. Let $x\neq 0$ and $y\neq 0$. Then, $x=p^nu$ and $y=p^m v$. Then, $$xy=p^{n+m}uv\neq 0$$ Since $\varepsilon_{{n+m+1}}(xy)\neq 0$.

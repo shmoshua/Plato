@@ -40,6 +40,8 @@ Now we solve the problems.
 > [!def] Problem 2
 > Prove that the quotient groups $\mathbb{Q}_{p}/\mathbb{Z}_{p}$ are discrete for each prime $p\in \mathbb{N}$. Moreover, prove that they are isomorphic to $$\{ z\in \mathbb{T}\ |\  \exists n\geq 1:z^{p^n}=1 \}$$ as abstract groups.
 
+Let 
+
 ---
 > [!def] Problem 3
 > Let $G$ be a connected topological group and $\Gamma\unlhd G$ a discrete normal subgroup. Show that $\Gamma \subseteq Z(G)$.
