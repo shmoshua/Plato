@@ -9,13 +9,15 @@
 ##### Properties
 > [!lemma] Proposition 1
 > For $\mathbb{Z}_{p}$, it holds that:
-> 1. $\mathbb{Z}_{p}$ forms a ring. 
+> 1. $\mathbb{Z}_{p}$ is a subring of $\prod_{n\geq 1}^{}A_{n}$ with identity $1:=(1,1,\dots)$.
 > 2. $\mathbb{Z}_{p}$ forms an integral domain. 
 > 3. $\mathbb{Z}_{p}$ is compact Hausdorff.
 > 4. $(\mathbb{Z}_{p},+)$ is a compact [[topological group]].
 
 > [!proof]+
-> This follows from the fact that $\Phi_{n}$ is a ring homomorphism for all $n\geq 2$. 
+> We have:
+> 1. Follows from the fact that $\phi_{n}$ is a ring homomorphism for all $n\geq 2$ 
+> 2. 
 > 
 >   2. Let $x\neq 0$ and $y\neq 0$. Then, $x=p^nu$ and $y=p^m v$. Then, $$xy=p^{n+m}uv\neq 0$$ Since $\varepsilon_{{n+m+1}}(xy)\neq 0$.
 > 
