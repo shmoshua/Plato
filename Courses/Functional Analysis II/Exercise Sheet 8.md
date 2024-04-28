@@ -31,15 +31,15 @@ Now we solve the problems.
    Indeed, $1$ is a unit in $C_{b}(X^\text{disc})$ and therefore $\widehat{C_{b}(X^\text{disc})}$ is compact Hausdorff. To show the total disconnectedness, we first show that $(C_{b}(X^{\text{disc}}))_{\text{fin}}\subseteq C_{b}(X^\text{disc})$ is dense.
    
    Let $f\in C_{b}(X^\text{disc})$ s.t. $\text{im }f\subseteq[0,+\infty)$. Then, for $n\in \mathbb{N}$, we can define $$\begin{array}{cccc} {\phi_{n}:}&{[0,+\infty)}&\to&{\mathbb{R}}\\&{t} &\mapsto & {\begin{cases} k2^{-n} &\text{if }k 2^{-n}\leq t<(k+1),\  k= 0,1,\dots,n2^{n}-1\\n&\text{if }t\geq n\end{cases}} \end{array}{}$$
-	   Then, $\{ \phi_{n}\circ f \}_{n}\subseteq (C_{b}(X^{\text{disc}}))_{\text{fin}}$ s.t. $\phi_{n}\circ f_{n}\to f$ in $C_{b}(X^{\text{disc}})$. For a general $f\in C_{b}(X^{\text{disc}})$, we can use the decomposition: $$f=(f^+ -f^-)+i(g^+ -g^-)$$where $f^+,f^-,g^+,g^-$ are positive valued functions. Therefore, $(C_{b}(X^{\text{disc}}))_{\text{fin}}\subseteq C_{b}(X^\text{disc})$ is dense.
-	2. **Showing that $\widehat{C_{b}(X^\text{disc})}\to X$ is surjective**: 
-	   Consider $$\begin{array}{cccc} {T:}&{\widehat{C_{b}(X^\text{disc})}}&\to&{\widehat{C(X)}}\\&{\chi} &\mapsto & {\chi|_{C(X)}} \end{array}{}$$is a surjective map. Let $\varphi\in \widehat{C(X)}$. Let $f\in C(X)$, then, $$\widehat{f}(\widehat{C(X)})$$
-	3. **Showing that $\widehat{C_{b}(X^\text{disc})}$ is totally disconnected**:
-	   As $C_{b}(X^\text{disc})$ is unital, $\widehat{C_{b}(X^\text{disc})}$ is compact Hausdorff. Further, for $f\in C_{b}(X^\text{disc})$ and $\lambda\in \mathbb{C}$, it holds that $\lambda\in \text{Sp}_{C_{b}(X^\text{disc})}(f)$ if and only if $\lambda \in \text{im }f$. Therefore, $$\text{im }f=\text{Sp}_{C_{b}(X^\text{disc})}(f)=\widehat{f}(\widehat{C_{b}(X^\text{disc})})=\text{im }\widehat{f}$$Therefore, the Guelfand isomorphism holds for $(C_{b}(X^\text{disc}))_{\text{fin}}\cong C(\widehat{C_{b}(X^\text{disc})})_{\text{fin}}$. It follows that $(C_{b}(X^{\text{disc}}))_{\text{fin}}\subseteq C_{b}(X^\text{disc})$ being dense implies that $C(\widehat{C_{b}(X^\text{disc})})_{\text{fin}}\subseteq C(\widehat{C_{b}(X^\text{disc})})$ is dense. Consequently, $\widehat{C_{b}(X^\text{disc})}$ is totally disconnected.
+   
+   Then, $\{ \phi_{n}\circ f \}_{n}\subseteq (C_{b}(X^{\text{disc}}))_{\text{fin}}$ s.t. $\phi_{n}\circ f_{n}\to f$ in $C_{b}(X^{\text{disc}})$. For a general $f\in C_{b}(X^{\text{disc}})$, we can use the decomposition: $$f=(f^+ -f^-)+i(g^+ -g^-)$$where $f^+,f^-,g^+,g^-$ are positive valued functions. Therefore, $(C_{b}(X^{\text{disc}}))_{\text{fin}}\subseteq C_{b}(X^\text{disc})$ is dense.
+   
+   Further, for $f\in C_{b}(X^\text{disc})$ and $\lambda\in \mathbb{C}$, it holds that $\lambda\in \text{Sp}_{C_{b}(X^\text{disc})}(f)$ if and only if $\lambda \in \text{im }f$. Therefore, $$\text{im }f=\text{Sp}_{C_{b}(X^\text{disc})}(f)=\widehat{f}(\widehat{C_{b}(X^\text{disc})})=\text{im }\widehat{f}$$Therefore, the Guelfand isomorphism holds for $(C_{b}(X^\text{disc}))_{\text{fin}}\cong C(\widehat{C_{b}(X^\text{disc})})_{\text{fin}}$. It follows that $(C_{b}(X^{\text{disc}}))_{\text{fin}}\subseteq C_{b}(X^\text{disc})$ being dense implies that $C(\widehat{C_{b}(X^\text{disc})})_{\text{fin}}\subseteq C(\widehat{C_{b}(X^\text{disc})})$ is dense. From 1, this shows that $\widehat{C_{b}(X^\text{disc})}$ is totally disconnected.
 	   
 ---
 > [!def] Problem 2
 > Prove that the quotient groups $\mathbb{Q}_{p}/\mathbb{Z}_{p}$ are discrete for each prime $p\in \mathbb{N}$. Moreover, prove that they are isomorphic to $$\{ z\in \mathbb{T}\ |\  \exists n\geq 1:z^{p^n}=1 \}$$ as abstract groups.
+
 ---
 > [!def] Problem 3
 > Let $G$ be a connected topological group and $\Gamma\unlhd G$ a discrete normal subgroup. Show that $\Gamma \subseteq Z(G)$.
