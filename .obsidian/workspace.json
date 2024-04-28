@@ -113,25 +113,12 @@
         "dimension": 47.58620689655172,
         "children": [
           {
-            "id": "a8a209f3498bc407",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 8.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ddb52a4121806c7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "mode": "preview",
                 "source": false
               }
@@ -143,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Transform.md",
+                "file": "Topology/Weak Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -155,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Guelfand Spectrum.md",
+                "file": "Analysis/Functional Analysis/Guelfand Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -209,8 +196,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -276,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Bounded Linear Map.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md"
               }
             }
           }
@@ -340,20 +326,21 @@
   },
   "active": "ddb52a4121806c7a",
   "lastOpenFiles": [
-    "Analysis/Bounded Sets.md",
-    "Topology/Weak Topology.md",
-    "Courses/Topology/Exercise Sheet 8.md",
-    "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Analysis/Functional Analysis/Guelfand Topology.md",
+    "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
+    "Topology/Weak Topology.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
+    "Courses/Topology/Exercise Sheet 8.md",
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Analysis/Bounded Sets.md",
     "Analysis/Functional Analysis/Radical.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Topology/Compact Space.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Representation Theory/Character.md",
     "Analysis/Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
@@ -365,7 +352,6 @@
     "Measure Theory/Integrable Function.md",
     "Analysis/Banach Space.md",
     "Topology/Continuous Function.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
