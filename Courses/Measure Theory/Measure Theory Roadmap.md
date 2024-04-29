@@ -98,7 +98,7 @@
 3. **Application of the Transformaltion Formula: **[[Polar Coordinates in R2]]
 
 **4.3 Convolution**
-1. [[Convolution]]
+1. [[Convolution (Rn)]]
 2. [[Lp-loc Space]]
 ---
 ##### Problem Sets

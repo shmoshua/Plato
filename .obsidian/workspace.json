@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Haar Measure.md",
+                "file": "Analysis/Functional Analysis/Convolution.md",
                 "mode": "source",
                 "source": true
               }
@@ -128,8 +128,7 @@
               }
             }
           }
-        ],
-        "currentTab": 9
+        ]
       },
       {
         "id": "c45eeefa3389e702",
@@ -154,7 +153,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Rational.md",
+                "file": "Analysis/Convolution (Rn).md",
                 "mode": "preview",
                 "source": false
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Integer.md",
+                "file": "Analysis/Functional Analysis/Convolution.md",
                 "mode": "preview",
                 "source": false
               }
@@ -190,14 +189,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -263,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/p-adic Rational.md",
+                "file": "Analysis/Functional Analysis/Convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/p-adic Rational.md",
+                "file": "Analysis/Functional Analysis/Convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/p-adic Rational.md"
+                "file": "Analysis/Functional Analysis/Convolution.md"
               }
             }
           }
@@ -325,16 +324,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "55d1be9cf5529fb6",
+  "active": "288d3a6e741c2063",
   "lastOpenFiles": [
+    "Algebra/p-adic Integer.md",
+    "Analysis/Convolution (Rn).md",
+    "Courses/Functional Analysis II/Exercise Sheet 8.md",
+    "Analysis/Functional Analysis/Convolution.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
+    "Analysis/Functional Analysis/Haar Measure.md",
+    "Algebra/p-adic Rational.md",
+    "Topology/Quotient Topology.md",
+    "Topology/Hausdorff Space.md",
+    "Algebra/Inner Automorphism.md",
+    "Courses/Algebra I/Algebra I Roadmap.md",
     "Topology/Locally Compact Space.md",
     "Topology/Compact Space.md",
-    "Algebra/p-adic Rational.md",
-    "Algebra/p-adic Integer.md",
     "Algebra/Subring.md",
-    "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Analysis/Functional Analysis/Radical.md",
-    "Topology/Hausdorff Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Tychonoff's theorem.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
@@ -345,14 +352,6 @@
     "Courses/Topology/Exercise Sheet 8.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Analysis/Bounded Sets.md",
-    "Analysis/Functional Analysis/Spectrum.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Representation Theory/Character.md",
-    "Analysis/Functional Analysis/C*-Algebra.md",
-    "Courses/Functional Analysis II/Exercise Sheet 4.md",
-    "Analysis/Functional Analysis/Haar Measure.md",
-    "Algebra/Normal Subgroup.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

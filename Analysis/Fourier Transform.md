@@ -107,7 +107,7 @@
 > $$D^\alpha(\mathcal{F^{*}h})(x)=i^{\left| \alpha \right| }\mathcal{F^{*}}(\xi^\alpha h)(x)$$
 
 > [!proof]-
-> We will show this using induction on $r$. First, we show for $r=1$. Use Lemma in [[Convolution|Proposition 4]] on:
+> We will show this using induction on $r$. First, we show for $r=1$. Use Lemma in [[Convolution (Rn)|Proposition 4]] on:
 > 1. $X = \mathbb{R}^n$, $D=\mathbb{R}^n$
 > 1. $f(x,\xi)=h(\xi)e^{i\braket{ x , \xi }}$ where $f(\cdot,\xi)\in C^1(\mathbb{R}^n)$ and $f(x,\cdot)\in L^1(\mathbb{R}^n)$
 > 2. $\partial_{j}f(x,\xi)=h(\xi)i\xi_{j}e^{i\braket{ x , \xi }}=i\xi_{j}f(x,\xi)$, so $\partial_{j}f(x,\cdot)\in L^1(\mathbb{R}^n)$

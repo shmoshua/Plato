@@ -127,13 +127,13 @@
 ---
 > [!h] Example 4 (L1 and convolution)
 > We have that:
-> 1. $L^1(\mathbb{R})$ with [[convolution]] product is a commutative [[Banach algebra]].
+> 1. $L^1(\mathbb{R})$ with [[Convolution (Rn)]] product is a commutative [[Banach algebra]].
 > 2. $L^1(\mathbb{R})$ with $f^{*}(t)=f(-t)$ is involutive.
 > 3. $L^1(\mathbb{R})$ with $f^{*}(t)=f(-t)$ is not a $C^{*}$-algebra.
 
 > [!proof]-
 > We know that:
-> 1. $L^1(\mathbb{R})$ is a Banach space and $\left\| f*g \right\|_{1}\leq \left\| f \right\|_{1}\left\| g \right\|_{1}$ from [[Convolution|Theorem 2]].
+> 1. $L^1(\mathbb{R})$ is a Banach space and $\left\| f*g \right\|_{1}\leq \left\| f \right\|_{1}\left\| g \right\|_{1}$ from [[Convolution (Rn)|Theorem 2]].
 > 2. One can easily check.
 > 3. Consider the function: $$f(x)=\begin{cases}1&0<x\leq 1\\-1&-1\leq x<0\\0&\text{otherwise}\end{cases}$$Then, $f^{*}=-f$ and: 
 $$\begin{align}f*f^{*}(x)&=\int_{-1}^{0} f(x-t) \, dt -\int_{0}^{1} f(x-t) \, dt \\&=-\int_{x-1}^{x} f(t) \, dt +\int_{x}^{x+1} f(t) \, dt\\&=\begin{cases}-x-2&-2<x<-1\\3x+2&-1\leq x<0\\-3x+2&0\leq x\leq 1\\ x-2&1<x<2\\0&\text{otherwise}\end{cases} \end{align}$$It follows that: $$\left\| f *f^{*}\right\|_{1}=\int_{\mathbb{R}}^{} \left| f*f^{*}(x) \right|  \, dx= \frac{8}{3}<4=\left\| f \right\| _{1}^{2}  $$

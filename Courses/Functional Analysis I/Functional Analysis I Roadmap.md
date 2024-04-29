@@ -141,7 +141,7 @@
 3. [[Fourier Transform|Plancherel Theorem]]
 
 **7.2 Convolution**
-1. [[Convolution]]
+1. [[Convolution (Rn)]]
 2. [[Approximate Identity]]
 3. [[Smooth Function with Compact Support]]
 

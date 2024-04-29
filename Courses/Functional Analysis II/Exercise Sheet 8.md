@@ -40,7 +40,7 @@ Now we solve the problems.
 > [!def] Problem 2
 > Prove that the quotient groups $\mathbb{Q}_{p}/\mathbb{Z}_{p}$ are discrete for each prime $p\in \mathbb{N}$. Moreover, prove that they are isomorphic to $$\{ z\in \mathbb{T}\ |\  \exists n\geq 1:z^{p^n}=1 \}$$ as abstract groups.
 
-Let 
+To show that $\mathbb{Q}_{p}/\mathbb{Z}_{p}$ is discrete, it suffices to show that $x+\mathbb{Z}_{p}$ is open for all $x\in \mathbb{Q}_{p}$. Notice that: $$x+\mathbb{Z}_{p}=\{ y\in \mathbb{Q}_{p}:v_{p}(x-y)>-1 \}=\{ y\in \mathbb{Q}_{p}:\|x-y\|_{p}<e \}=B_{<e}(x)$$which is open in $\mathbb{Q}_{p}$. To show that $\mathbb{Q}_{p} / \mathbb{Z}_{p}$ is isomorphic to $S:=\{ z\in \mathbb{T}: \exists n\geq 1:z^{p^n}=1 \}$, we define: $$\begin{array}{cccc} {\varphi:}&{\mathbb{Q}_{p}}&\to&{S}\\&{x} &\mapsto & {} \end{array}{}$$We have $x\in \mathbb{Z}_{p}$, then $v_{p}(x)\geq 0$, $e^{2\pi v_{p}(x)}=1$. If $x\in \mathbb{Q}_{p}$, then $v_{p}(x)\in \mathbb{Z}$ and $e^{2\pi v_{p}(x)}$
 
 ---
 > [!def] Problem 3

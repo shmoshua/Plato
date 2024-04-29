@@ -32,7 +32,7 @@
 > $$\begin{align}x(t)&=s(t,0,x_{0},u)=e^{At}x_{0}+\int_{0}^{t} e^{ A(t-\tau) }Bu(\tau) \, d\tau\\y(t)&=\rho(t,0,x_{0},u)=Ce^{ At }x_{0} +C\int_{0}^{t} e^{ A(t-\tau) }Bu(\tau) \, d\tau +Du(t) \\K(t)&=K(t,0)=\begin{cases}e^{ At }B&t\geq 0\\0&t<0\end{cases}\\H(t)&=H(t,0)=\begin{cases}Ce^{At}B+D\delta_{0}(t)&t\geq 0\\0&t<0\end{cases}\end{align}$$
 > In other words, we have:
 > $$\begin{align}x(t)&=e^{ At }x_{0} +(K*u)(t)\\y (t)&=Ce^{ At }x_{0}+(H *u)(t)\end{align}$$
-> where $*$ denotes the [[convolution]].
+> where $*$ denotes the [[Convolution (Rn)]].
 
 > [!proof]-
 > We have: $$\begin{align}(K*u)(t)=\int_{-\infty}^{\infty} K(t-\tau)u(\tau) \, d\tau &=\int_{0}^{t}e^{ A(t-\tau) }Bu(\tau)  \, d\tau \\(H*u)(t)=\int_{-\infty}^{\infty} H(t-\tau)u(\tau) \, d\tau &=\int _{0}^t Ce^{ A(t-\tau) }Bu(\tau)+D\delta_{0}(t-\tau)u(\tau) \, d\tau\\&=C\int _{0}^t e^{ A(t-\tau) }Bu(\tau)\, d\tau +Du(t) \end{align}$$

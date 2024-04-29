@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $\lambda$ be the [[Lebesgue Measure]] on $\mathbb{R}$ restricted to $[0,1]$ and $L^1([0,1],\lambda)$. The ***Volterra algebra*** is the algebra $L^1([0,1])$ with multiplication defined as [[Convolution|convolution]]:
+> Let $\lambda$ be the [[Lebesgue Measure]] on $\mathbb{R}$ restricted to $[0,1]$ and $L^1([0,1],\lambda)$. The ***Volterra algebra*** is the algebra $L^1([0,1])$ with multiplication defined as [[Convolution (Rn)|convolution]]:
 > $$(f*g)(x)=\int_{0}^{x} f(x-t)g(t) \, dt $$
 ---
 ##### Properties

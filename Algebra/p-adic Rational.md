@@ -14,8 +14,12 @@
 > 3. $\mathbb{Q}_{p}$ is not compact as $\|p^{-n}\|=e^n$.
 > 4. $\mathbb{Q}$ is dense in $\mathbb{Q}_{p}$.
 
-> [!proof]+
-> For every $x\in \mathbb{Q}_{p}$, consider $\{ x+p^n\mathbb{Z}_{p} \}$ 
+> [!proof]-
+> We have:
+> 1. As $p^n\mathbb{Z}_{p}$ is closed for all $n$ and $\mathbb{Z}_{p}$ is compact, $\{ p^n\mathbb{Z}_{p} \}$ is a compact fundamental system of neighborhoods of $0$. As the translation by $x$ is a homeomorphism for any $x\in \mathbb{Q}_{p}$, $\mathbb{Q}_{p}$ is locally compact.
+> 2. We have that: $$\mathbb{Z}_{p}:=\{ x\in \mathbb{Q}_{p}:\|x\|_{p}<p \}$$
+> 3. Obvious.
+> 4. 
 ---
 > [!lemma] Theorem 2
 > Let $\mathbb{K}$ be a locally compact non-discrete field of $\text{char }k=0$. Then, if the image of $\mathbb{Q}\hookrightarrow \mathbb{K}$ is dense, then either $\mathbb{K}=\mathbb{R}$ or $\mathbb{K}=\mathbb{Q}_{p}$ for some prime $p$.
