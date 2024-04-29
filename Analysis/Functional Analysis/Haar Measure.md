@@ -6,9 +6,8 @@
 > If $G$ is [[Abelian Group|abelian]] on compact, this measure is also right invariant, known as the ***Haar measure***.
 
 - **Related definition**: The ***left Haar functional*** $\Lambda$ is a function $\Lambda:C_{00}(G)\to \mathbb{C}$ s.t. $\Lambda(\lambda(g)f)=\Lambda(f)$ for all $f\in C_{00}(G)$ and $g\in G$.
-- **Related definition**: The ***modular function*** of $G$ is $\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}^\times_{>0}$ s.t. for any left Haar functional 
+- **Related definition**: The ***modular function*** of $G$ is a group homomorphism $\Delta_{G}:G\to \mathbb{R}^\times_{>0}$ s.t. for any left Haar functional $\Lambda$, $$\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\Delta_{G}(g)\int_{G}^{} f \, d\mu, \quad \forall f\in C_{00}(G), g\in G$$
 - **Remark**: For $f\in C_{b}(G)$, we have $\|f\|_{b}=\|f\|_{\infty}$, as for all $\Omega \subseteq G$ non-zero open, $\mu(\Omega)>0$.
-- 
 ---
 ##### Properties
 
@@ -27,22 +26,29 @@
 > As $\Lambda$ is positive, we know that there exists $f\in C_{00}(G)$ with $f\geq 0$ and $$\Lambda (f)=\int_{G}^{} f \, d\mu >0$$Modulo rescaling, we may assume that $0\leq f\leq 1$. Then, $$\text{supp}(f)\subseteq \bigcup_{g\in G}^{}gU=G$$As the support is compact, there exists $g_{1},..,g_{n}\in G$ s.t. $\text{supp}(f)\subseteq \bigcup_{i=1}^{n}g_{i}U$ and it holds that: $$f\leq \sum_{i=1}^{n}\chi_{g_{i}U}$$Therefore, $$0<\int_{G}^{} f \, d\mu \leq \int_{G}\sum_{i=1}^{n}\chi_{g_{i}U}  \, d\mu=\sum_{i=1}^{n}\mu(g_{i}U)=n\cdot \mu(U) $$
 ---
 > [!lemma] Corollary 3
-> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff topological group]] and $\text{Aut}(G)$ the group of continuous group automorphisms of $G$. Then, there exists a well-defined group homomorphism: $$\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}_{>0}^\times$$s.t. for any left Haar functional $\Lambda$, $$\Lambda(f\circ \alpha ^{-1})=\text{mod}_{G}(\alpha)\Lambda(f),\quad \forall f\in C_{00}(G),\alpha\in \text{Aut}(G)$$
+> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff topological group]] and $\text{Aut}(G)$ the group of continuous group automorphisms of $G$. Then, 
+> 1. there exists a group homomorphism $\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}^\times_{>0}$ s.t. $$\Lambda(f\circ \alpha ^{-1})=\text{mod}_{G}(\alpha)\Lambda(f),\quad \forall f\in C_{00}(G), \alpha\in \text{Aut}(G)$$
+> 2. it holds that $\Delta_{G}:G\to \mathbb{R}^\times_{>0}, g\mapsto \text{mod}_{G}(\alpha_{g^{-1}})$ where $\alpha_{g^{-1}}\in \text{Inn}(G)\subseteq \text{Aut}(G)$ is the [[inner automorphism]] $x\mapsto g^{-1}xg$.
+> 3. $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$, if $G$ is abelian or compact.
+> 4. the modular function of $G$ exists.
 > With: $$\int_{G}(f\circ \alpha_{g} ^{-1}) \, d\mu=\text{mod}_{G}(\alpha_{g})\int_{G}^{} f \, d\mu  $$and $$\int_{G}^{} f(xg) \, d\mu(x) =\int_{G}^{} f(g^{-1}xg) \, d\mu(x)= \text{mod}_{G}(\alpha_{g})\int_{G}^{} f \, d\mu $$
 > The modular function of $G$ is: $$\Delta_{G}(g):=\text{mod}(\alpha_{g^{-1}})$$Then, $$\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\Delta_{G}(g)\int_{G}^{} f \, d\mu  $$
 > where $\Delta_{G}:G\to \mathbb{R}^\times_{>0}$ is a homomorphism. $G$ is unimodular if $\Delta_{G}\equiv 1$, if and only if any left Haar measure is also invariant under right transformation. 
 > - Example: $G$ abelian or $G$ compact, $\text{SL}(2,\mathbb{R})$
 
-> [!proof]-
-> We have that $$\begin{array}{cccc} {}&{C_{00}(G)}&\to&{C_{00}(G)}\\&{f} &\mapsto & {f\circ \alpha ^{-1}} \end{array}{}$$is linear and preserves positivity. If $\Lambda$ is a left Haar functional, define: $$\Lambda_{\alpha}(f):=\Lambda(f\circ \alpha ^{-1})$$Then, $\Lambda_{\alpha}$ is a positive functional on $C_{00}(G)$ and as:
-> $$(\rho(g)f)(\alpha(x))=f(g^{-1}\cdot \alpha ^{-1}(x))=f(\alpha ^{-1}(\alpha(g^{-1})\cdot x))=\lambda(\alpha(g))(f\circ \alpha ^{-1})(x)$$we have:  $$\Lambda_{\alpha}(\rho(g)f)=\Lambda(\rho(\alpha(g))(f\circ \alpha ^{-1}))=\Lambda(f\circ \alpha ^{-1})=\Lambda_{\alpha}(f)$$By uniqueness in Theorem 1, there exists $c_{\Lambda}(\alpha)>0$ s.t. $\Lambda_{\alpha}=c_{\Lambda}(\alpha)\Lambda$.
+> [!proof]+
+> We have:
+> 1. For any $\alpha\in \text{Aut}(G)$,  $$\begin{array}{cccc} {}&{C_{00}(G)}&\to&{C_{00}(G)}\\&{f} &\mapsto & {f\circ \alpha ^{-1}} \end{array}{}$$is linear and preserves positivity. If $\Lambda$ is a left Haar functional, define: $$\Lambda_{\alpha}(f):=\Lambda(f\circ \alpha ^{-1})$$Then, $\Lambda_{\alpha}$ is a positive functional on $C_{00}(G)$ and as:$$(\lambda(g)f)(\alpha(x))=f(g^{-1}\cdot \alpha ^{-1}(x))=f(\alpha ^{-1}(\alpha(g^{-1})\cdot x))=\lambda(\alpha(g))(f\circ \alpha ^{-1})(x)$$
+>    we have:  $$\Lambda_{\alpha}(\lambda(g)f)=\Lambda(\lambda(\alpha(g))(f\circ \alpha ^{-1}))=\Lambda(f\circ \alpha ^{-1})=\Lambda_{\alpha}(f)$$By uniqueness in Theorem 1, there exists $c_{\Lambda}(\alpha)>0$ s.t. $\Lambda_{\alpha}=c_{\Lambda}(\alpha)\Lambda$.
+>    
+>    
+>    We now show that $c_{\Lambda}(\alpha)$ is independent of the choice of the left Haar functional. Let $\Lambda_{1},\Lambda_{2}$ be two left Haar functionals. Then, by the uniqueness $\Lambda_{2}=k\Lambda_{1}$ for some $k>0$. Then, $$c_{\Lambda_{2}}(\alpha)\Lambda_{2}(f)=\Lambda_{2,\alpha}(f)=\Lambda_{2}(f\circ \alpha ^{-1})=k\Lambda_{1}(f\circ \alpha ^{-1})=k\Lambda_{1,\alpha}(f)=kc_{\Lambda_{1}}(\alpha)\Lambda_{1}(f)=c_{\Lambda_{1}}(\alpha)\Lambda_{2}(f)$$
+>    
+>    So $c_{\Lambda_{2}}(\alpha)=c_{\Lambda_{1}}(\alpha)=:c(\alpha)$. Further,
+> 	- $\Lambda(f\circ(\alpha\beta))=c(\alpha\beta)\Lambda(f)$
+> 	- $\Lambda((f\circ\alpha)\circ\beta)=c(\beta)\Lambda(f\circ\alpha)=c(\beta)c(\alpha)\Lambda(f)$
 > 
-> Let $\Lambda_{1},\Lambda_{2}$ be two left Haar functionals. Then, by the existence $\Lambda_{2}=k\Lambda_{1}$ for some $k>0$. Then, $$c_{\Lambda_{2}}(\alpha)\Lambda(f)=\Lambda_{2,\alpha}(f)=\Lambda_{2}(f\circ \alpha ^{-1})=k\Lambda_{1}(f\circ \alpha ^{-1})=k\Lambda_{1,\alpha}(f)=kc_{\Lambda_{1}}(\alpha)\Lambda(f)$$
-> So $\Lambda(f\circ\alpha)=c(\alpha)\Lambda(f)$ for all $\Lambda$, which is the left Haar measure and:
-> - $\Lambda(f\circ(\alpha\beta))=c(\alpha\beta)\Lambda(f)$
-> - $\Lambda((f\circ\alpha)\circ\beta)=c(\beta)\Lambda(f\circ\alpha)=c(\beta)c(\alpha)\Lambda(f)$
->   
-> Hence, if $\mu$ is a left Haar measure, then: $$\mu(\alpha(E))=\text{mod}_{G}(\alpha)\mu(E)$$So define $\text{mod}_{G}(\alpha)=c(\alpha)$.
+> 	Hence, if $\mu$ is a left Haar measure, then: $$\mu(\alpha(E))=\int_{G}^{} \chi_{\alpha(E)} \, d\mu=\Lambda(\chi_{\alpha(E)})=\Lambda() \text{mod}_{G}(\alpha)\mu(E)$$So define $\text{mod}_{G}(\alpha)=c(\alpha)$.
 ---
 > [!lemma] Proposition 5
 > Let $G$ be a locally compact Hausdorff abelian topological group and $\mu$ a left Haar measure. Then, $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=\int_{G}^{} f(x) \, d\mu(x)  $$
