@@ -2,9 +2,9 @@
   "accentColor": "",
   "enabledCssSnippets": [
     "mathwiki",
-    "embed",
+    "notation-colour-blocks",
     "callouts",
-    "notation-colour-blocks"
+    "embed"
   ],
   "theme": "moonstone",
   "interfaceFontFamily": "",

@@ -9,6 +9,21 @@
   
 }
 
+.inline-embed .markdown-embed-content .callout-content p {
+  margin-top: 1em !important;
+}
+
+.inline-embed .markdown-embed-content .callout[data-callout="lemma"]{
+  --callout-color: 190,41,236;
+}
+
+.callout-content {
+  padding-top: 0px;
+  margin-top: -0.5em;
+  line-height: 1.2em;
+  /* border-top: 1.5px solid lightgray; */
+}
+
 img {
         display: block !important;
         margin-left: auto !important;
@@ -33,12 +48,7 @@ padding-bottom: 0.2em;
 margin-bottom: 1.2em;
 }
 
-.callout-content {
-  padding-top: 0px;
-  margin-top: -0.5em;
-  line-height: 1.2em;
-  /* border-top: 1.5px solid lightgray; */
-}
+
 
 .callout[data-callout="definition"] {
 --callout-color: 110, 110, 110;
