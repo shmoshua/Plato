@@ -1,30 +1,33 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]]. The ***left/right Haar measure*** $\mu$ is the unique (up to scalars) non-zero left-invariant measure that is finite on compact sets.
+> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]]. The ***left/right Haar measure*** $\mu$ is the unique (up to scalars) non-zero left-invariant measure that is finite on compact sets, i.e. $$\mu(gA)=\mu(A),\quad \forall g\in G,A\subseteq G$$
 > 
 > If $G$ is [[Abelian Group|abelian]] on compact, this measure is also right invariant, known as the ***Haar measure***.
 
-> Then, we can define a left regular representation $\rho:G \to \text{GL}(C_{00}(G))$ as: $$\rho(g)f(x)=f(g^{-1}x)$$
 - **Related definition**: The ***left Haar functional*** $\Lambda$ is a function $\Lambda:C_{00}(G)\to \mathbb{C}$ s.t. $\Lambda(\lambda(g)f)=\Lambda(f)$ for all $f\in C_{00}(G)$ and $g\in G$.
+- **Related definition**: The ***modular function*** of $G$ is $\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}^\times_{>0}$ s.t. for any left Haar functional 
 - **Remark**: For $f\in C_{b}(G)$, we have $\|f\|_{b}=\|f\|_{\infty}$, as for all $\Omega \subseteq G$ non-zero open, $\mu(\Omega)>0$.
+- 
 ---
 ##### Properties
 
-> [!lemma] Theorem 1
-> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]]. Then, let $\lambda:G\to \text{GL}(C_{00}(G))$ be the [[Representation|left-regular representation]], i.e. for $f\in C_{00}(G)$, $$\lambda(g)f(x)=f(g^{-1}x)$$Then, there is a unique (up to scaling) positive linear functional $\Lambda :C_{00}(G)\to \mathbb{C}$ that is invariant under left translation, i.e.$$\Lambda(\lambda(g)f)=\Lambda(f), \quad \forall f\in C_{00}(G),g\in G$$We call $\Lambda$ the ***left Haar functional***.
----
-> [!lemma] Corollary 2
-> There exists up to a strictly positive scalar multiple, a unique, non-zero positive regular Borel measure $\mu$ on $G$ s.t. for every measurable set $E\subseteq G$ and $g\in G$: $$\mu(gE)=\mu(E)$$ s.t. $$\Lambda(f)=\int_{G}^{} f \, d\mu $$
----
-> [!lemma] Lemma 3
-> Let $G$ be a locally compact Hausdorff topological group and $\mu$ the left Haar measure. Then, for all non-empty open $U\subseteq G$, $\mu(U)>0$.
+> [!lemma] Theorem 1 (Existence and Uniqueness of Haar Measure)
+> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]]. Then, let $\lambda:G\to \text{GL}(C_{00}(G))$ be the [[Representation|left-regular representation]], i.e. for $f\in C_{00}(G)$, $$\lambda(g)f(x)=f(g^{-1}x)$$
+> 1. there exists a unique (up to scaling) positive linear functional $\Lambda :C_{00}(G)\to \mathbb{C}$ that is invariant under left translation, i.e.$$\Lambda(\lambda(g)f)=\Lambda(f), \quad \forall f\in C_{00}(G),g\in G$$We call $\Lambda$ the ***left Haar functional***.
+> 2. there exists a unique (up to scaling) non-zero positive regular Borel measure $\mu$ on $G$ s.t. for every $A\in \Sigma_{\mu}$, $\mu(gA)=\mu(A)$ for all $g\in G$, called the ***left Haar measure***. It also holds that: $$\Lambda(f)=\int_{G}^{} f \, d\mu $$
 
 > [!proof]-
-> We know that there exists $f\in C_{00}(G)$ with $f\geq 0$ and $$\Lambda f=\int_{G}^{} f \, d\mu >0$$Modulo rescaling, we may assume that $0\leq f\leq 1$. Then, $$\text{supp}(f)\subseteq \bigcup_{g\in G}^{}gU=G$$As the support is compact, there exists $g_{1},..,g_{n}\in G$ s.t. $\text{supp}(f)\subseteq \bigcup_{i=1}^{n}g_{i}U$ and it holds that: $$f\leq \sum_{i=1}^{n}\chi_{g_{i}U}$$Therefore, $$0<\int_{G}^{} f \, d\mu \leq \int_{G}\sum_{i=1}^{n}\chi_{g_{i}U}  \, d\mu=\sum_{i=1}^{n}\mu(g_{i}U)=n\cdot \mu(U) $$
+> For 2, it follows from [[Measure Theory/Complex Measure|Riesz representation]]. 
 ---
-> [!lemma] Corollary 4
-> Let $G$ be a locally compact Hausdorff topological group and $\text{Aut}(G)$ the group of continuous group automorphisms of $G$. Then, there exists a well-defined group homomorphism: $$\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}_{>0}^\times$$s.t. for any left Haar functional $\Lambda$, $$\Lambda(f\circ \alpha ^{-1})=\text{mod}_{G}(\alpha)\Lambda(f),\quad \forall f\in C_{00}(G),\alpha\in \text{Aut}(G)$$
+> [!lemma] Lemma 2
+> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff topological group]] and $\mu$ the left Haar measure. Then, for all non-empty open $U\subseteq G$, $\mu(U)>0$.
+
+> [!proof]-
+> As $\Lambda$ is positive, we know that there exists $f\in C_{00}(G)$ with $f\geq 0$ and $$\Lambda (f)=\int_{G}^{} f \, d\mu >0$$Modulo rescaling, we may assume that $0\leq f\leq 1$. Then, $$\text{supp}(f)\subseteq \bigcup_{g\in G}^{}gU=G$$As the support is compact, there exists $g_{1},..,g_{n}\in G$ s.t. $\text{supp}(f)\subseteq \bigcup_{i=1}^{n}g_{i}U$ and it holds that: $$f\leq \sum_{i=1}^{n}\chi_{g_{i}U}$$Therefore, $$0<\int_{G}^{} f \, d\mu \leq \int_{G}\sum_{i=1}^{n}\chi_{g_{i}U}  \, d\mu=\sum_{i=1}^{n}\mu(g_{i}U)=n\cdot \mu(U) $$
+---
+> [!lemma] Corollary 3
+> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff topological group]] and $\text{Aut}(G)$ the group of continuous group automorphisms of $G$. Then, there exists a well-defined group homomorphism: $$\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}_{>0}^\times$$s.t. for any left Haar functional $\Lambda$, $$\Lambda(f\circ \alpha ^{-1})=\text{mod}_{G}(\alpha)\Lambda(f),\quad \forall f\in C_{00}(G),\alpha\in \text{Aut}(G)$$
 > With: $$\int_{G}(f\circ \alpha_{g} ^{-1}) \, d\mu=\text{mod}_{G}(\alpha_{g})\int_{G}^{} f \, d\mu  $$and $$\int_{G}^{} f(xg) \, d\mu(x) =\int_{G}^{} f(g^{-1}xg) \, d\mu(x)= \text{mod}_{G}(\alpha_{g})\int_{G}^{} f \, d\mu $$
 > The modular function of $G$ is: $$\Delta_{G}(g):=\text{mod}(\alpha_{g^{-1}})$$Then, $$\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\Delta_{G}(g)\int_{G}^{} f \, d\mu  $$
 > where $\Delta_{G}:G\to \mathbb{R}^\times_{>0}$ is a homomorphism. $G$ is unimodular if $\Delta_{G}\equiv 1$, if and only if any left Haar measure is also invariant under right transformation. 
