@@ -40,9 +40,9 @@ Now we solve the problems.
 > [!def] Problem 2
 > Prove that the quotient groups $\mathbb{Q}_{p}/\mathbb{Z}_{p}$ are discrete for each prime $p\in \mathbb{N}$. Moreover, prove that they are isomorphic to $$\{ z\in \mathbb{T}\ |\  \exists n\geq 1:z^{p^n}=1 \}$$ as abstract groups.
 
-To show that $\mathbb{Q}_{p}/\mathbb{Z}_{p}$ is discrete, it suffices to show that $x+\mathbb{Z}_{p}$ is open for all $x\in \mathbb{Q}_{p}$. Notice that: $$x+\mathbb{Z}_{p}=\{ y\in \mathbb{Q}_{p}:v_{p}(x-y)>-1 \}=\{ y\in \mathbb{Q}_{p}:\|x-y\|_{p}<e \}=B_{<e}(x)$$which is open in $\mathbb{Q}_{p}$. To show that $\mathbb{Q}_{p} / \mathbb{Z}_{p}$ is isomorphic to $S:=\{ z\in \mathbb{T}: \exists n\geq 1:z^{p^n}=1 \}$, we define $\varphi:\mathbb{Q}_{p}\to S$ where for $\frac{x}{y}\in \mathbb{Q}_{p}$ with $x\in \mathbb{Z}_{p},y\in \mathbb{Z}_{p} \backslash\{  \}$
-
-$$\begin{array}{cccc} {\varphi:}&{\mathbb{Q}_{p}}&\to&{S}\\&{\frac{x}{y}} &\mapsto & {} \end{array}{}$$We have $x\in \mathbb{Z}_{p}$, then $v_{p}(x)\geq 0$, $e^{2\pi v_{p}(x)}=1$. If $x\in \mathbb{Q}_{p}$, then $v_{p}(x)\in \mathbb{Z}$ and $e^{2\pi v_{p}(x)}$
+To show that $\mathbb{Q}_{p}/\mathbb{Z}_{p}$ is discrete, it suffices to show that $x+\mathbb{Z}_{p}$ is open for all $x\in \mathbb{Q}_{p}$. Notice that: $$x+\mathbb{Z}_{p}=\{ y\in \mathbb{Q}_{p}:v_{p}(x-y)>-1 \}=\{ y\in \mathbb{Q}_{p}:\|x-y\|_{p}<e \}=B_{<e}(x)$$which is open in $\mathbb{Q}_{p}$. To show that $\mathbb{Q}_{p} / \mathbb{Z}_{p}$ is isomorphic to $S:=\{ z\in \mathbb{T}: \exists n\geq 1:z^{p^n}=1 \}$, we define $\varphi:\mathbb{Q}_{p}\to S$ where for $\frac{x}{y}\in \mathbb{Q}_{p}$ with $x\in \mathbb{Z}_{p},y\in \mathbb{Z}_{p} \backslash\{ 0 \}$ with $y=p^n u$, we have that: $$\varphi(x /y)=e^{2\pi  i p^{-(n+1)}\varepsilon_{n+1}(u)} =\exp(2\pi i\varepsilon_{1}(u) /p^n)$$
+Then, to show that $\varphi$ is a surjective homomorphism, for $x,a\in \mathbb{Z}_{p}$ and $y,b\in \mathbb{Z}_{p} \backslash\{ 0 \}$ with $y=p^nu$ and $b=p^mv$, we have: $$\varphi\left( \frac{x}{y}+\frac{a}{b} \right)=\varphi\left( \frac{xb+ay}{yb} \right)=\exp(2\pi i\varepsilon_{1}(uv) /p^{n+m})=\exp(2\pi i\varepsilon_{1}(u)\varepsilon_{1}(v) /p^{n+m})=$$
+Let $x=p^ku$. Then, $$\varphi(x)=\exp(2\pi i p^{v_{p}(x)})$$
 
 ---
 > [!def] Problem 3
