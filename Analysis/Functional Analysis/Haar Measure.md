@@ -1,7 +1,11 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff topological group]]. Then, we can define a left regular representation $\rho:G \to \text{GL}(C_{00}(G))$ as: $$\rho(g)f(x)=f(g^{-1}x)$$
+> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]]. The ***left Haar measure*** $\mu$ is the unique (up to scalars) non-zero left-invariant measure that is finite on compact sets.
+> 
+> If $G$ is abelian on compact, this measure is also right invariant, known as the ***Haar measure***.
+
+> Then, we can define a left regular representation $\rho:G \to \text{GL}(C_{00}(G))$ as: $$\rho(g)f(x)=f(g^{-1}x)$$
 - **Remark**: For $f\in C_{b}(G)$, we have $\|f\|_{b}=\|f\|_{\infty}$, as for all $\Omega \subseteq G$ non-zero open, $\mu(\Omega)>0$.
 ---
 ##### Properties

@@ -1,7 +1,8 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $(X,d)$ be a [[Metric Space|metric space]] and $G$ a [[Locally Compact Topological Group|locally compact Hausdorff group]]. A function $f:G\to X$ is ***left uniformly continuous*** if for all $\varepsilon>0$, there exists $V\ni e$ a neighborhood of $e$ s.t. $$d(f(x),f(y))<\varepsilon, \quad \forall y^{-1}x\in V$$
+> Let $(X,d_{X})$ and $(Y,d_{Y})$ be [[Metric Space|metric spaces]]. A function $f:X\to Y$ is ***uniformly continuous*** if for all $\varepsilon>0$, there exists $\delta>0$ s.t. $$d_{X}(x,y)<\delta\implies d_{Y}(f(x),f(y))<\varepsilon,\quad \forall x,y\in X$$
+> Similarly, with a [[Locally Compact Topological Group|locally compact Hausdorff group]] $G$, a function $f:G\to X$ is called ***left uniformly continuous*** if for all $\varepsilon>0$, there exists a neighborhood $V$ of $e_{G}$ s.t. $$d(f(x),f(y))<\varepsilon, \quad \forall y^{-1}x\in V$$
 - **Remark**: This implies that $d(f(gx),f(gy))<\varepsilon$ for all $y^{-1}x\in V$; this is why it is called *left* uniformly continuous.
 ---
 ##### Properties
