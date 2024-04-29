@@ -153,7 +153,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Algebra/p-adic Integer.md",
                 "mode": "preview",
                 "source": false
               }
@@ -267,8 +267,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -334,7 +333,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Normal Space.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -351,7 +350,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Normal Space.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -374,7 +373,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Normal Space.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md"
               }
             }
           }
@@ -396,10 +395,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fe67c60872a39176",
+  "active": "ddb52a4121806c7a",
   "lastOpenFiles": [
-    "Topology/Fundamental System.md",
+    "Algebra/p-adic Integer.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Topology/Normal Space.md",
+    "Topology/Fundamental System.md",
     "Analysis/Convolution (Rn).md",
     "Topology/Locally Connected Space.md",
     "Analysis/Functional Analysis/Uniformly Continuous Function.md",
@@ -407,8 +409,6 @@
     "Analysis/Functional Analysis/Haar Measure.md",
     "Analysis/Lp Space.md",
     "Lie Group/Topological Group.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Courses/Topology/Topology Roadmap.md",
@@ -418,7 +418,6 @@
     "Topology Quiz.md",
     "Topology/Quotient Topology.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Algebra/p-adic Integer.md",
     "Analysis/Functional Analysis/Locally Compact Hausdorff Group.md",
     "Topology/Locally Compact Space.md",
     "Courses/Algebra I/Algebra I Roadmap.md",
