@@ -8,7 +8,12 @@
 > Let $\{ G_{\alpha} \}_{\alpha\in A}$ be a collection of Hausdorff [[Topological Group|topological groups]]. Then, 
 > 1. $\prod_{\alpha\in A}^{}G_{\alpha}$ is compact if and only if $G_{\alpha}$ is compact for all $\alpha\in A$.
 > 2. $\prod_{\alpha\in A}^{}G_{\alpha}$ is locally compact if and only if $G_{\alpha}$ is locally compact for all $\alpha\in A$ and $G_{\alpha}$ is compact for all except finitely many $\alpha\in A$.
-
+---
+##### Locally Compact Hausdorff Groups
+> [!lemma] Lemma E1
+> Let $G$ be locally compact Hausdorff, then:
+> 1. $A,B\subseteq G$ is compact then $AB$ is compact.
+> 2. for all neighborhood $V$ or $e$, there exists an open neighborhood $ U$
 ---
 ##### Examples
 > [!h] Example 1 (Elementary Topological Groups)
