@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Convolution.md",
+                "file": "Analysis/Functional Analysis/Uniformly Continuous Function.md",
                 "mode": "source",
                 "source": true
               }
@@ -115,18 +115,6 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "364e3a24436f6829",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/p-adic Rational.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ]
       },
@@ -153,19 +141,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convolution (Rn).md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "288d3a6e741c2063",
+            "id": "fe67c60872a39176",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Convolution.md",
+                "file": "Analysis/Functional Analysis/Uniformly Continuous Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -177,7 +165,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Space.md",
+                "file": "Analysis/Functional Analysis/Haar Measure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -262,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Functional Analysis/Convolution.md",
+                "file": "Analysis/Functional Analysis/Uniformly Continuous Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Functional Analysis/Convolution.md",
+                "file": "Analysis/Functional Analysis/Uniformly Continuous Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Functional Analysis/Convolution.md"
+                "file": "Analysis/Functional Analysis/Uniformly Continuous Function.md"
               }
             }
           }
@@ -324,21 +312,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "288d3a6e741c2063",
+  "active": "fe67c60872a39176",
   "lastOpenFiles": [
-    "Algebra/p-adic Integer.md",
+    "Analysis/Functional Analysis/Haar Measure.md",
+    "Analysis/Functional Analysis/Uniformly Continuous Function.md",
+    "Topology/Locally Compact Space.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Algebra I/Algebra I Roadmap.md",
+    "Analysis/Functional Analysis/Convolution.md",
     "Analysis/Convolution (Rn).md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
-    "Analysis/Functional Analysis/Convolution.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
-    "Analysis/Functional Analysis/Haar Measure.md",
+    "Algebra/p-adic Integer.md",
     "Algebra/p-adic Rational.md",
+    "Differentiable Functions.md",
+    "Lie group.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Topology/Quotient Topology.md",
     "Topology/Hausdorff Space.md",
     "Algebra/Inner Automorphism.md",
-    "Courses/Algebra I/Algebra I Roadmap.md",
-    "Topology/Locally Compact Space.md",
     "Topology/Compact Space.md",
     "Algebra/Subring.md",
     "Analysis/Functional Analysis/Radical.md",
@@ -349,9 +340,6 @@
     "Topology/Weak Topology.md",
     "Analysis/Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Functional Analysis/Guelfand Transform.md",
-    "Courses/Topology/Exercise Sheet 8.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

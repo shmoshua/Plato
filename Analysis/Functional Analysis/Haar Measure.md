@@ -2,6 +2,7 @@
 
 > [!definition]
 > Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff topological group]]. Then, we can define a left regular representation $\rho:G \to \text{GL}(C_{00}(G))$ as: $$\rho(g)f(x)=f(g^{-1}x)$$
+- **Remark**: For $f\in C_{b}(G)$, we have $\|f\|_{b}=\|f\|_{\infty}$, as for all $\Omega \subseteq G$ non-zero open, $\mu(\Omega)>0$.
 ---
 ##### Properties
 
