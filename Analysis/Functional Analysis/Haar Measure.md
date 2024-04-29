@@ -1,19 +1,18 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]]. The ***left Haar measure*** $\mu$ is the unique (up to scalars) non-zero left-invariant measure that is finite on compact sets.
+> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]]. The ***left/right Haar measure*** $\mu$ is the unique (up to scalars) non-zero left-invariant measure that is finite on compact sets.
 > 
 > If $G$ is [[Abelian Group|abelian]] on compact, this measure is also right invariant, known as the ***Haar measure***.
 
 > Then, we can define a left regular representation $\rho:G \to \text{GL}(C_{00}(G))$ as: $$\rho(g)f(x)=f(g^{-1}x)$$
+- **Related definition**: The ***left Haar functional*** $\Lambda$ is a function $\Lambda:C_{00}(G)\to \mathbb{C}$ s.t. $\Lambda(\lambda(g)f)=\Lambda(f)$ for all $f\in C_{00}(G)$ and $g\in G$.
 - **Remark**: For $f\in C_{b}(G)$, we have $\|f\|_{b}=\|f\|_{\infty}$, as for all $\Omega \subseteq G$ non-zero open, $\mu(\Omega)>0$.
 ---
 ##### Properties
 
-![[p-adic Integer|clean, lk-hvr]]
-
 > [!lemma] Theorem 1
-> Let $G$ be a locally compact Hausdorff topological group. Then, there is up to scaling a unique positive linear functional $\Lambda :C_{00}(G)\to \mathbb{C}$ that is invariant under left translation: $$\Lambda(\rho(g)f)=\Lambda(f), \quad \forall f\in C_{00}(G),g\in G$$Then, $\Lambda$ is called the ***left Haar functional***.
+> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]]. Then, let $\lambda:G\to \text{GL}(C_{00}(G))$ be the [[Representation|left-regular representation]], i.e. for $f\in C_{00}(G)$, $$\lambda(g)f(x)=f(g^{-1}x)$$Then, there is a unique (up to scaling) positive linear functional $\Lambda :C_{00}(G)\to \mathbb{C}$ that is invariant under left translation, i.e.$$\Lambda(\lambda(g)f)=\Lambda(f), \quad \forall f\in C_{00}(G),g\in G$$We call $\Lambda$ the ***left Haar functional***.
 ---
 > [!lemma] Corollary 2
 > There exists up to a strictly positive scalar multiple, a unique, non-zero positive regular Borel measure $\mu$ on $G$ s.t. for every measurable set $E\subseteq G$ and $g\in G$: $$\mu(gE)=\mu(E)$$ s.t. $$\Lambda(f)=\int_{G}^{} f \, d\mu $$

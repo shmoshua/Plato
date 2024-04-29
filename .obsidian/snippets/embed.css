@@ -63,7 +63,7 @@
   }
   
   /*Embed Link Hide/Move*/
-  .internal-embed:is([alt~=lk-hvr], [alt~=link-hover]):not(:hover) .markdown-embed-link,
+  .internal-embed:not(:hover) .markdown-embed-link,
   .internal-embed:is([alt~=nlk], [alt~=no-link]) .markdown-embed-link {
     display: none;
   }
@@ -73,7 +73,7 @@
     right: unset;
   }
   
-  .internal-embed:is([alt*=lk-clear], [alt~=link-clear]) .markdown-embed-link {
+  .internal-embed .markdown-embed-link {
     background-color: transparent;
   }
   
@@ -154,15 +154,15 @@
   
   /*Clean Embeds*/
   .embed-clean .internal-embed > .markdown-embed, .embed-clean .internal-embed.is-loaded:not(.image-embed),
-  .internal-embed[alt*=clean] > .markdown-embed,
-  .internal-embed[alt*=clean].is-loaded:not(.image-embed) {
+  .internal-embed > .markdown-embed,
+  .internal-embed.is-loaded:not(.image-embed) {
     --embed-padding: 0;
     border: none;
     box-shadow: none;
   }
   .embed-clean .internal-embed > .markdown-embed:not(:hover), .embed-clean .internal-embed.is-loaded:not(.image-embed):not(:hover),
-  .internal-embed[alt*=clean] > .markdown-embed:not(:hover),
-  .internal-embed[alt*=clean].is-loaded:not(.image-embed):not(:hover) {
+  .internal-embed > .markdown-embed:not(:hover),
+  .internal-embed.is-loaded:not(.image-embed):not(:hover) {
     --embed-border-color: transparent;
     --embed-border-left-color: var(--embed-border-color);
     --embed-border-right-color: var(--embed-border-color);
@@ -174,7 +174,7 @@
     --embed-border-bottom: var(--embed-thickness) var(--embed-border-type) var(--embed-border-bottom-color);
   }
   .embed-clean .internal-embed.inline-embed,
-  .internal-embed[alt*=clean].inline-embed {
+  .internal-embed.inline-embed {
     --embed-title-padding: 0;
   }
   
