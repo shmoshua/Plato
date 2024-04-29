@@ -10,7 +10,7 @@
 > 1. For all $f\in C_{00}(G)$, $$\begin{array}{cccc} {}&{G}&\to&{C_{00}(G)}\\&{x} &\mapsto & {\lambda(x)f} \end{array}{}$$is left uniformly continuous w.r.t. $\|\cdot\|_{\infty}$.
 > 2. For $1\leq p<+\infty$ and $f\in L^p(G)$, $\|\lambda(x)f\|_{p}=\|f\|_{p}$ and: $$\begin{array}{cccc} {}&{G}&\to&{L^p(G)}\\&{x} &\mapsto & {\lambda(x)f} \end{array}{}$$is left uniformly continuous w.r.t. $\|\cdot\|_{p}$.
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. For $x,y\in G$, $$\|\lambda(x)f-\lambda(y)f\|_{\infty}=\|\lambda(y^{-1}x)f-f\|_{\infty}$$Therefore, we are reduced to show that for every $\varepsilon>0$, there exists $W\ni e$ open s.t. $$\left| f(zg)-f(g) \right| <\varepsilon,\quad \forall g\in G,z\in W$$Let $K:=\text{supp}(f)$ and there exists $V_{0}\ni e$ open s.t. $V_{0}=V_{0}^{-1}$ and $\overline{V_{0}}$ compact. Fix $\varepsilon>0$. Then, for all $x\in G$, we can find $V_{x}\ni e$ open, with $V_{x}\subseteq V_{0}$ s.t. $$\left| f(zx)-f(x) \right| <\varepsilon /2,\quad \forall z\in V_{x}$$Let $U_{x}\ni e$ open with $U_{x}^{2}\subseteq V_{x}$. Then, we have: $$\overline{V_{0}}\cdot K \subseteq \bigcup_{x\in G}^{}U_{x}\cdot x=G$$Since $\overline{V_{0}}\cdot K$ is compact, there exists $x_{1},\dots,x_{n}\in G$ s.t. $$\overline{V_{0}}\cdot K\subseteq \bigcup_{i=1}^{n}U_{x_{i}}\cdot x_{i}$$Let $W:=\bigcap_{i=1}^{n}U_{x_{i}}$ and $z\in W$ and $g\in G$: 
 > 	1. if $g\notin \overline{V_{0}}\cdot K$, then since $\text{supp}(f)\subseteq \overline{V_{0}}\cdot K$, $f(g)=0$. Further, if $f(zg)\neq 0$, then $zg\in \text{supp}(f)$ and $g\in z^{-1}\text{supp}(f)\subseteq W^{-1}\text{supp}(f)$. However, $W\subseteq V_{0}$ and $W^{-1}\subseteq V_{0}^{-1}=V_{0}$. This is a contradiction and $f(zg)=0$.
