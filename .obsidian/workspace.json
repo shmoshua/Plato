@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Functional Analysis/Radical.md",
+                "file": "Algebra/Subring.md",
                 "mode": "preview",
                 "source": false
               }
@@ -190,14 +190,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -263,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Algebra/p-adic Integer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Algebra/p-adic Integer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact Space.md"
+                "file": "Algebra/p-adic Integer.md"
               }
             }
           }
@@ -325,10 +325,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "06d5bbaa474fa3b9",
+  "active": "977d8fb968c0fa20",
   "lastOpenFiles": [
+    "Algebra/Subring.md",
+    "Analysis/Functional Analysis/Radical.md",
     "Algebra/p-adic Integer.md",
     "Topology/Compact Space.md",
+    "Topology/Hausdorff Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Tychonoff's theorem.md",
     "Analysis/Functional Analysis/Continuous function Vanishing at Infinity.md",
@@ -342,7 +345,6 @@
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Courses/Topology/Topology Roadmap.md",
     "Analysis/Bounded Sets.md",
-    "Analysis/Functional Analysis/Radical.md",
     "Analysis/Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Representation Theory/Character.md",
@@ -351,8 +353,6 @@
     "Analysis/Functional Analysis/Haar Measure.md",
     "Algebra/Normal Subgroup.md",
     "Analysis/Functional Analysis/Banach Algebra.md",
-    "Analysis/Functional Analysis/C-Algebra.md",
-    "Measure Theory/Measurable Function.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
