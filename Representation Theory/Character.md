@@ -17,6 +17,8 @@
 ---
 > [!lemma] Theorem 2
 > Let $\sigma_{1},\dots,\sigma_{n}$ be distinct embeddings of a field $K$ into $L$. Then, they are linearly independent over $L$ as functions on $K$. 
+> 
+> In particular, distinct automorphisms on a field are linearly independent.
 
 > [!proof]-
 > Consider any injective homomorphism $\sigma:K\to L$. Then, as $\sigma(0)=0$ and $\sigma$ is injective, $\sigma(K^\times)\subseteq L^\times$ and $\sigma$ is a character of $K^\times$ into $L^\times$. 

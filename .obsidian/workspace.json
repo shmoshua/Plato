@@ -197,18 +197,6 @@
             }
           },
           {
-            "id": "6cae923d640be081",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Galois Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "118df8ee09e57732",
             "type": "leaf",
             "state": {
@@ -485,17 +473,17 @@
   "active": "71f2ecde3689c9d8",
   "lastOpenFiles": [
     "Algebra/Fixed Field.md",
-    "Algebra/Galois Group.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Galois Extension.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Representation Theory/Character.md",
+    "Algebra/Galois Group.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Splitting Field.md",
     "Analysis/Convolution (Rn).md",
     "Measure Theory/Sigma Algebra.md",
     "Topology Quiz.md",
     "Courses/Measure Theory/Measure Theory Roadmap.md",
     "Analysis/Functional Analysis/Convolution.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Measure Theory/Complex Measure.md",
     "Analysis/Complex Measure.md",
     "Analysis/Functional Analysis/Haar Measure.md",
