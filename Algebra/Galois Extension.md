@@ -6,10 +6,18 @@
 ##### Properties
 > [!lemma] Theorem 1
 > Let $L:K$ be finite. Then, the following are equivalent:
-> 1. $L:K$ is Galois.
-> 2. $\left| \text{Gal}(L:K) \right|=[L:K]$
+> 1. $\left| \text{Gal}(L:K) \right|=[L:K]$
+> 1. $L:K$ is Galois, in which case $L$ is a splitting field of a separable polynomial $f\in K[X]$.
 
-> [!proof]-
+> [!proof]+
+> Let $n:=\left| \text{Gal}(L:K) \right|=[L:K]$ and $\text{Gal}(L:K)=\{ \sigma_{1},\dots,\sigma_{n} \}$. Let $f\in K[X]$ be a irreducible polynomial with a root $\alpha\in L$. 
+> 
+> Assume $\sigma_{1}=\text{id}$ and we have $$(\alpha_{1},\alpha_{2},\dots,\alpha_{r}):=(\alpha,\sigma_{2}(\alpha),\dots,\sigma_{r}(\alpha))$$ as the distinct images of $\sigma_{i}$ of $\alpha$. Since $\sigma\in G$ is injective on $\{ \alpha_{1},\dots,\alpha_{r} \}$, it is also surjective and $\sigma$ permutes the roots. Therefore, we define the following functions: 
+> - $s_{1}:=\sum_{i=1}^{r}\alpha_{i}$
+> - $s_{2}:=\sum_{i<j}^{}\alpha_{i}\alpha_{j}$
+> - $s_{r}:=\prod_{i=1}^{}\alpha_{i}$
+>   
+>  Then, $\sigma(s_{i})=s_{i}$ for all $\sigma\in G$ and $s_{i}\in K$, by Corollary 3. Let $$g(x):=(x-\alpha_{1})\dots(x-\alpha_{r})=x^r-s_{1}x^{r-1}+s_{2}x^{r-2}+\dots+(-1)^rs_{r}\in K[X]$$Since each $\alpha_{i}\in L$, $g$ splits over $L$. 
 > Assume that $L:K$ is Galois. Then, it is separable and $$\left| \text{Hom}_{K}(L,\overline{L}) \right| =[L:K]$$Also, as $L:K$ is normal, $$\text{Hom}_{K}(L,\overline{L})=\text{Hom}_{K}(L,L)=\text{Aut}_{K}(L)=\text{Gal}(L:K)$$
 ---
 > [!lemma] Theorem 2
@@ -34,6 +42,12 @@
 ---
 > [!lemma] Corollary 5
 > If $G_{1}\neq G_{2}$ be distinct finite subgroups of $\text{Aut}(L)$. Then, their fixed fields are also distinct. 
+---
+> [!lemma] Corollary 6
+> Let $G:=\text{Gal}(L:K)$ with $[L:K]<+\infty$ and $H\leq G$. Then, $$[L^H:K]=[L:K] / \left| H \right| $$
+
+> [!proof]-
+> Apply Theorem 2 to $H\leq \text{Aut}(L)$ and $[L:L^H]=\left| H \right|$. Therefore, $$[L:K]=[L:L^H][L^H:K]$$
 ---
 ##### Examples
 > [!h] Example 1 (Finite Fields)

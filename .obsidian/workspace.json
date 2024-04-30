@@ -202,7 +202,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Algebra/Splitting Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -473,12 +473,13 @@
   "active": "71f2ecde3689c9d8",
   "lastOpenFiles": [
     "Algebra/Fixed Field.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Algebra/Galois Extension.md",
-    "Representation Theory/Character.md",
-    "Algebra/Galois Group.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Splitting Field.md",
+    "Algebra/Galois Extension.md",
+    "Algebra/Normal Extension.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Representation Theory/Character.md",
+    "Algebra/Galois Group.md",
     "Analysis/Convolution (Rn).md",
     "Measure Theory/Sigma Algebra.md",
     "Topology Quiz.md",
@@ -497,7 +498,6 @@
     "Topology/Normal Space.md",
     "Topology/Fundamental System.md",
     "Topology/Locally Connected Space.md",
-    "Lie Group/Locally Compact Topological Group.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
