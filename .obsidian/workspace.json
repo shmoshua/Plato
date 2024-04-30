@@ -214,7 +214,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Complex Measure.md",
+                "file": "Algebra/Galois Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -341,7 +341,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -408,7 +408,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Galois Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -425,7 +425,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Galois Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -448,7 +448,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Extension.md"
+                "file": "Algebra/Galois Group.md"
               }
             }
           }
@@ -470,13 +470,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "71f2ecde3689c9d8",
+  "active": "35ebe10bd5a8252b",
   "lastOpenFiles": [
-    "Algebra/Fixed Field.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Splitting Field.md",
-    "Algebra/Galois Extension.md",
     "Algebra/Normal Extension.md",
+    "Algebra/Galois Extension.md",
+    "Algebra/Splitting Field.md",
+    "Algebra/Fixed Field.md",
+    "Measure Theory/Complex Measure.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Representation Theory/Character.md",
     "Algebra/Galois Group.md",
@@ -485,7 +486,6 @@
     "Topology Quiz.md",
     "Courses/Measure Theory/Measure Theory Roadmap.md",
     "Analysis/Functional Analysis/Convolution.md",
-    "Measure Theory/Complex Measure.md",
     "Analysis/Complex Measure.md",
     "Analysis/Functional Analysis/Haar Measure.md",
     "Analysis/Hilbert Space.md",
