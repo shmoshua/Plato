@@ -75,12 +75,12 @@
 > [!h] Example 4
 > In $K=\mathbb{Q}_{p}$, for every $y\in \mathbb{Q}_{p}^\times$, $$\left| y \right| =p^{-n}$$
 
-> [!proof]+
+> [!proof]-
 > We have that $y$ can be uniquely written as $y=p^n\cdot u$ for $n\in \mathbb{Z}$ and $u$ invertible in $\mathbb{Z}_{p}$. 
 > 
 > Assume $n<0$. Then, $\left| y \right|^{-1}=\left| y ^{-1}\right|$ and we have that $y^{-1}=p^{-n}u^{-1}\in \mathbb{Z}_{p}$. Therefore, we may assume wlog that $n\geq 0$, i.e. $y\in \mathbb{Z}_{p}$. 
 > 
 > As $\mathbb{Z}_{p}$ is compact, $\mu(\mathbb{Z}_{p})<+\infty$, where $\mu$ is the left Haar measure on $\mathbb{Q}_{p}$. We have $$\mathbb{Z}_{p}=\{ x\in \mathbb{Q}_{p}:\|x\|_{p}<e \}$$which is open. Hence, $0<\mu(\mathbb{Z}_{p})<+\infty$.
 > 
-> As we know that for $y\in \mathbb{Z}_{p}$: $$\mu(y\cdot \mathbb{Z}_{p})=\mu(m_{y}(\mathbb{Z}_{p}))=\text{mod}_{\mathbb{Q}_{p}}(m_{y})\mu(\mathbb{Z}_{p})=\left| y \right| \mu(\mathbb{Z}_{p})$$However, as $\text{ker }\varepsilon_{n}=p^n\mathbb{Z}_{p}=p^n\cdot u\mathbb{Z}_{p}=y\cdot \mathbb{Z}_{p}$, $$\mathbb{Z}_{p} / p^n \mathbb{Z}_{p}\cong \mathbb{Z} / p\mathbb{Z}$$ So let $R\subseteq \mathbb{Z}_{p}$ be a complete set of representatives of $\mathbb{Z}_{p} / p^n \mathbb{Z}_{p}$. Then, $$\mathbb{Z}_{p}=\bigsqcup_{r\in R}^{}(r+p^n \mathbb{Z}_{p})$$and $$\mu(\mathbb{Z}_{p})=\sum_{r\in R}^{}\mu(r+p^n \mathbb{Z}_{p})=\left| R \right| \mu(p^n\mathbb{Z}_{p})=p^n\cdot  \mu(p^n\mathbb{Z}_{p})$$Therefore, $$p^{-n}\mu(\mathbb{Z}_{p})=\mu(p^n \mathbb{Z}_{p})=\mu(y\mathbb{Z}_{p})=\left| y \right| \cdot \mu(\mathbb{Z}_{p})$$We can conclude that $\left| y \right|=p^{-n}$.
+> As we know that for $y\in \mathbb{Z}_{p}$: $$\mu(y\cdot \mathbb{Z}_{p})=\mu(m_{y}(\mathbb{Z}_{p}))=\text{mod}_{\mathbb{Q}_{p}}(m_{y})\mu(\mathbb{Z}_{p})=\left| y \right| \mu(\mathbb{Z}_{p})$$However, as $\text{ker }\varepsilon_{n}=p^n\mathbb{Z}_{p}=p^n\cdot u\mathbb{Z}_{p}=y\cdot \mathbb{Z}_{p}$, let $R\subseteq \mathbb{Z}_{p}$ be a complete set of representatives of $\mathbb{Z}_{p} / p^n \mathbb{Z}_{p}$. Then, $$\mathbb{Z}_{p}=\bigsqcup_{r\in R}^{}(r+p^n \mathbb{Z}_{p})$$and $$\mu(\mathbb{Z}_{p})=\sum_{r\in R}^{}\mu(r+p^n \mathbb{Z}_{p})=\left| R \right| \mu(p^n\mathbb{Z}_{p})=p^n\cdot  \mu(p^n\mathbb{Z}_{p})$$Therefore, $$p^{-n}\mu(\mathbb{Z}_{p})=\mu(p^n \mathbb{Z}_{p})=\mu(y\mathbb{Z}_{p})=\left| y \right| \cdot \mu(\mathbb{Z}_{p})$$We can conclude that $\left| y \right|=p^{-n}$.
 ---
