@@ -9,16 +9,25 @@
 > 1. $\left| \text{Gal}(L:K) \right|=[L:K]$
 > 1. $L:K$ is Galois, in which case $L$ is a splitting field of a separable polynomial $f\in K[X]$.
 
-> [!proof]+
+> [!proof]-
 > Let $n:=\left| \text{Gal}(L:K) \right|=[L:K]$ and $\text{Gal}(L:K)=\{ \sigma_{1},\dots,\sigma_{n} \}$. Let $f\in K[X]$ be a irreducible polynomial with a root $\alpha\in L$. 
+> 1. **Showing $L:K$ is normal**:
+>    Assume $\sigma_{1}=\text{id}$ and we have $$(\alpha_{1},\alpha_{2},\dots,\alpha_{r}):=(\alpha,\sigma_{2}(\alpha),\dots,\sigma_{r}(\alpha))$$ as the distinct images of $\sigma_{i}$ of $\alpha$. Since $\sigma\in G$ is injective on $\{ \alpha_{1},\dots,\alpha_{r} \}$, it is also surjective and $\sigma$ permutes the roots. Therefore, we define the following functions: 
+>      - $s_{1}:=\sum_{i=1}^{r}\alpha_{i}$
+>       - $s_{2}:=\sum_{i<j}^{}\alpha_{i}\alpha_{j}$
+>       - $s_{r}:=\prod_{i=1}^{}\alpha_{i}$
 > 
-> Assume $\sigma_{1}=\text{id}$ and we have $$(\alpha_{1},\alpha_{2},\dots,\alpha_{r}):=(\alpha,\sigma_{2}(\alpha),\dots,\sigma_{r}(\alpha))$$ as the distinct images of $\sigma_{i}$ of $\alpha$. Since $\sigma\in G$ is injective on $\{ \alpha_{1},\dots,\alpha_{r} \}$, it is also surjective and $\sigma$ permutes the roots. Therefore, we define the following functions: 
-> - $s_{1}:=\sum_{i=1}^{r}\alpha_{i}$
-> - $s_{2}:=\sum_{i<j}^{}\alpha_{i}\alpha_{j}$
-> - $s_{r}:=\prod_{i=1}^{}\alpha_{i}$
->   
->  Then, $\sigma(s_{i})=s_{i}$ for all $\sigma\in G$ and $s_{i}\in K$, by Corollary 3. Let $$g(x):=(x-\alpha_{1})\dots(x-\alpha_{r})=x^r-s_{1}x^{r-1}+s_{2}x^{r-2}+\dots+(-1)^rs_{r}\in K[X]$$Since each $\alpha_{i}\in L$, $g$ splits over $L$. 
-> Assume that $L:K$ is Galois. Then, it is separable and $$\left| \text{Hom}_{K}(L,\overline{L}) \right| =[L:K]$$Also, as $L:K$ is normal, $$\text{Hom}_{K}(L,\overline{L})=\text{Hom}_{K}(L,L)=\text{Aut}_{K}(L)=\text{Gal}(L:K)$$
+>    Then, $\sigma(s_{i})=s_{i}$ for all $\sigma\in G$ and $s_{i}\in K$, by Corollary 3. Let $$g(x):=(x-\alpha_{1})\dots(x-\alpha_{r})=x^r-s_{1}x^{r-1}+s_{2}x^{r-2}+\dots+(-1)^rs_{r}\in K[X]$$Since each $\alpha_{i}\in L$, $g$ splits over $L$. 
+>    
+>    We claim that $g=m_{\alpha,K}$. Let $h(x):=b_{0}+b_{1}x+\dots+b_{m}x^m\in K[X]$ with $\alpha$ as root. By applying $\sigma_{i}$, we know that: $$h(\sigma_{i}(\alpha))=\sigma_{i}(b_{0}+b_{1}\alpha+\dots+b_{m}\alpha^m)=\sigma_{i}(0)=0$$Therefore, $\alpha_{i}$ is a root of $h$ as well, and $g|h$, therefore, $g=m_{\alpha,K}$.
+>    
+>    However, $f$ is irreducible with $\alpha$ as root. Therefore, $f$ is a constant multiple of $g$ and $f$ splits over $L$, i.e. $L:K$ is normal.
+>  2. **Showing $L:K$ is separable**:
+>     Further $L:K$ is separable, because $\alpha_{1},\dots,\alpha_{r}$ are distinct and $\alpha$ is separable.
+>  3. **Showing $L$ is a splitting field**:
+>     Since $L:K$ is normal, separable and finite, let $L=K(\alpha_{1},\dots,\alpha_{n})$ and let $p_{i}(x)$ be the minimal polynomial of $\alpha_{i}$ over $K$. Since $L:K$ is normal, $L$ has all the roots of $p_{i}$.  As $L:K$ is separable, $p_{i}$ is separable and $L$ is the splitting field of the product of $p_{i}$ where this polynomial is also separable.
+>   4. **Other implication**:
+>      [[Galois Group|Theorem 4]]
 ---
 > [!lemma] Theorem 2
 > Let $L$ be a field and $G\leq \text{Aut}(L)$ a finite subfield of $\text{Aut}(L)$. Let $L_{0}:=\text{Fix}(G)=L^G=\phi(G)$. Then, $$[L:L_{0}]=[L:L^G]=\left| G \right| $$

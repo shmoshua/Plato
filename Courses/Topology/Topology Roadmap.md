@@ -85,3 +85,4 @@
 6. [[Courses/Topology/Exercise Sheet 6|Exercise Sheet 6]]
 7. [[Courses/Topology/Exercise Sheet 7|Exercise Sheet 7]]
 8. [[Courses/Topology/Exercise Sheet 8|Exercise Sheet 8]]
+9. [[Courses/Topology/Exercise Sheet 9|Exercise Sheet 9]]

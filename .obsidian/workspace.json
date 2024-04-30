@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Measure Theory/Measure Theory Roadmap.md",
+                "file": "Courses/Topology/Exercise Sheet 9.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convolution (Rn).md",
+                "file": "Courses/Topology/Topology Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "50022eb74a9460c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 9.md",
                 "mode": "source",
                 "source": true
               }
@@ -153,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 2
       },
       {
         "id": "c45eeefa3389e702",
@@ -166,8 +178,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8706d4b3088461ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 9.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -202,7 +226,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Separable Extension.md",
                 "mode": "preview",
                 "source": false
               }
@@ -281,18 +305,6 @@
             }
           },
           {
-            "id": "d932aceaccaaa5ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology Quiz.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8921606d38255905",
             "type": "leaf",
             "state": {
@@ -341,7 +353,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -370,7 +382,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fubini",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -387,8 +399,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -408,7 +419,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Courses/Topology/Exercise Sheet 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -425,7 +436,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Courses/Topology/Exercise Sheet 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -448,7 +459,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Group.md"
+                "file": "Courses/Topology/Exercise Sheet 9.md"
               }
             }
           }
@@ -470,22 +481,27 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "35ebe10bd5a8252b",
+  "active": "50022eb74a9460c9",
   "lastOpenFiles": [
-    "Algebra/Normal Extension.md",
-    "Algebra/Galois Extension.md",
-    "Algebra/Splitting Field.md",
-    "Algebra/Fixed Field.md",
-    "Measure Theory/Complex Measure.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Topology/Exercise Sheet 9.md",
+    "Analysis/Convolution (Rn).md",
     "Courses/Algebra II/Algebra II Roadmap.md",
+    "Courses/Topology/Exercise Sheet 8.md",
+    "Analysis/Functional Analysis/Convolution.md",
+    "Courses/Measure Theory/Measure Theory Roadmap.md",
+    "Algebra/Galois Extension.md",
+    "Algebra/Galois Group.md",
+    "Algebra/Fixed Field.md",
+    "Algebra/Separable Extension.md",
+    "Topology/Separable Space.md",
+    "Algebra/Splitting Field.md",
+    "Algebra/Normal Extension.md",
+    "Measure Theory/Complex Measure.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Representation Theory/Character.md",
-    "Algebra/Galois Group.md",
-    "Analysis/Convolution (Rn).md",
     "Measure Theory/Sigma Algebra.md",
     "Topology Quiz.md",
-    "Courses/Measure Theory/Measure Theory Roadmap.md",
-    "Analysis/Functional Analysis/Convolution.md",
     "Analysis/Complex Measure.md",
     "Analysis/Functional Analysis/Haar Measure.md",
     "Analysis/Hilbert Space.md",
@@ -493,11 +509,6 @@
     "Topology/Continuous Function.md",
     "Analysis/Functional Analysis/Uniformly Continuous Function.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
-    "Courses/Functional Analysis II/Exercise Sheet 8.md",
-    "Algebra/p-adic Rational.md",
-    "Topology/Normal Space.md",
-    "Topology/Fundamental System.md",
-    "Topology/Locally Connected Space.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
