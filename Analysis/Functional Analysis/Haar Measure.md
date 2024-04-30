@@ -29,14 +29,9 @@
 > Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff topological group]] and $\text{Aut}(G)$ the group of continuous group automorphisms of $G$. Then, 
 > 1. there exists a group homomorphism $\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}^\times_{>0}$ s.t. $$\Lambda(f\circ \alpha ^{-1})=\text{mod}_{G}(\alpha)\Lambda(f),\quad \forall f\in C_{00}(G), \alpha\in \text{Aut}(G)$$
 > 2. it holds that $\Delta_{G}:G\to \mathbb{R}^\times_{>0}, g\mapsto \text{mod}_{G}(\alpha_{g^{-1}})$ where $\alpha_{g^{-1}}\in \text{Inn}(G)\subseteq \text{Aut}(G)$ is the [[inner automorphism]] $x\mapsto g^{-1}xg$.
-> 3. $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$, if $G$ is abelian or compact.
-> 4. the modular function of $G$ exists.
-> With: $$\int_{G}(f\circ \alpha_{g} ^{-1}) \, d\mu=\text{mod}_{G}(\alpha_{g})\int_{G}^{} f \, d\mu  $$and $$\int_{G}^{} f(xg) \, d\mu(x) =\int_{G}^{} f(g^{-1}xg) \, d\mu(x)= \text{mod}_{G}(\alpha_{g})\int_{G}^{} f \, d\mu $$
-> The modular function of $G$ is: $$\Delta_{G}(g):=\text{mod}(\alpha_{g^{-1}})$$Then, $$\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\Delta_{G}(g)\int_{G}^{} f \, d\mu  $$
-> where $\Delta_{G}:G\to \mathbb{R}^\times_{>0}$ is a homomorphism. $G$ is unimodular if $\Delta_{G}\equiv 1$, if and only if any left Haar measure is also invariant under right transformation. 
-> - Example: $G$ abelian or $G$ compact, $\text{SL}(2,\mathbb{R})$
+> 3. $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$, if $G$ is abelian (or compact).
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. For any $\alpha\in \text{Aut}(G)$,  $$\begin{array}{cccc} {}&{C_{00}(G)}&\to&{C_{00}(G)}\\&{f} &\mapsto & {f\circ \alpha ^{-1}} \end{array}{}$$is linear and preserves positivity. If $\Lambda$ is a left Haar functional, define: $$\Lambda_{\alpha}(f):=\Lambda(f\circ \alpha ^{-1})$$Then, $\Lambda_{\alpha}$ is a positive functional on $C_{00}(G)$ and as:$$(\lambda(g)f)(\alpha(x))=f(g^{-1}\cdot \alpha ^{-1}(x))=f(\alpha ^{-1}(\alpha(g^{-1})\cdot x))=\lambda(\alpha(g))(f\circ \alpha ^{-1})(x)$$
 >    we have:  $$\Lambda_{\alpha}(\lambda(g)f)=\Lambda(\lambda(\alpha(g))(f\circ \alpha ^{-1}))=\Lambda(f\circ \alpha ^{-1})=\Lambda_{\alpha}(f)$$By uniqueness in Theorem 1, there exists $c_{\Lambda}(\alpha)>0$ s.t. $\Lambda_{\alpha}=c_{\Lambda}(\alpha)\Lambda$.
@@ -48,16 +43,18 @@
 > 	- $\Lambda(f\circ(\alpha\beta))=c(\alpha\beta)\Lambda(f)$
 > 	- $\Lambda((f\circ\alpha)\circ\beta)=c(\beta)\Lambda(f\circ\alpha)=c(\beta)c(\alpha)\Lambda(f)$
 > 
-> 	Hence, if $\mu$ is a left Haar measure, then: $$\mu(\alpha(E))=\int_{G}^{} \chi_{\alpha(E)} \, d\mu=\Lambda(\chi_{\alpha(E)})=\Lambda() \text{mod}_{G}(\alpha)\mu(E)$$So define $\text{mod}_{G}(\alpha)=c(\alpha)$.
+> 	Hence, if $\mu$ is a left Haar measure, then: $$\mu(\alpha(E))=\int_{G}^{} \chi_{\alpha(E)} \, d\mu=\Lambda(\chi_{\alpha(E)})=\Lambda(\chi_{E}\circ \alpha ^{-1})=c(\alpha)\Lambda(\chi_{E})=c(\alpha)\mu(E)$$So define $\text{mod}_{G}(\alpha):=c(\alpha)$.
+> 2. Let $\alpha_{g}\in \text{Inn}(G)$. Then, $$\int_{G}^{} f(xg) \, d\mu(x)=\int_{G}^{} f(g^{-1}xg) \, d\mu(x)=\text{mod}_{G}(\alpha_{g})\int_{G}f  \, d\mu  $$Therefore, $\Delta_{G}(g):=\text{mod}_{G}(\alpha_{g^{-1}})$ is the modular function of $G$.
+> 3. If $G$ is abelian, $$\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\int_{G}^{} f(g^{-1}x) \, d\mu(x)=\int_{G}^{} f \, d\mu   $$and $\Delta_{G}(g)=1$ for all $g\in G$. 
 ---
-> [!lemma] Proposition 5
-> Let $G$ be a locally compact Hausdorff abelian topological group and $\mu$ a left Haar measure. Then, $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=\int_{G}^{} f(x) \, d\mu(x)  $$
+> [!lemma] Proposition 4
+> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]] and $\mu$ a left Haar measure. If $G$ is abelian, $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=\int_{G}^{} f(x) \, d\mu(x)  $$
 
 > [!proof]-
 > Verify that $f\mapsto \int_{G}^{} f(x ^{-1})d\mu(x)$ is a positive linear functional and: $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=c\int_{G}^{} f(x) \, d\mu(x)=c^{2} \int_{G}^{}  f(x ^{-1}) \, d\mu(x)   $$Therefore, $c=1$. 
 ---
 ##### Examples
-> [!h] Example 1
+> [!h] Example 1 (Simple Haar Measures)
 > We have that:
 > 1. The [[Lebesgue Measure|Lebesgue measure]] $\mathcal{L}$ is the Haar measure of $(\mathbb{R}^n,+)$.
 > 2. On $(\mathbb{R}^\times,\cdot)$, the Haar measure is given as $d\mu=d\mathcal{L} (x) / \left| x \right|$
@@ -65,24 +62,25 @@
 > 4. For a connected Lie group $G$, a non-zero $\omega_{e}:\land^n \text{T}_{e}G\to \mathbb{R}$ gives an orientation on $\text{T}_{e}G$. This defines an orientation/[[volume form]] $$\omega_{g}:=(d_{g}(L_{g^{-1}}))^{*}(\omega_{e})$$
 
 ---
-> [!h] Example 2
+> [!h] Example 2 (Modular Function for Rn)
 > We have that: 
 > 1. For $(\mathbb{R}^n,+)$, $\text{Aut}(\mathbb{R}^n)=\text{GL}(n,\mathbb{R})$ and $\text{mod}_{G}(\alpha)=\left| \det\alpha \right|$ as $\mathcal{L}(\alpha([0,1]^n))=\left| \det\alpha \right|\mathcal{L}([0,1]^n)$.
 ---
 > [!h] Example 3
 > Let $K$ be a field with a locally compact Hausdorff topology for which the field operations are continuous, e.g. $\mathbb{R},\mathbb{C},\mathbb{Q}_{p}$ Then, 
-> 1. Every $y\in K^\times$ gives rise to: $$\begin{array}{cccc} {m_{y}:}&{K}&\to&{K}\\&{x} &\mapsto & {yx} \end{array}{}$$Then, $m_{y}\in \text{Aut}(K,+)$. 
+> 1. Every $y\in K^\times$ gives rise to: $$\begin{array}{cccc} {m_{y}:}&{K}&\to&{K}\\&{x} &\mapsto & {yx} \end{array}{}$$with $m_{y}\in \text{Aut}(K,+)$. 
 > 2. There exists a homomorphism: $$\begin{array}{cccc} {}&{K^\times}&\to&{\mathbb{R}^\times_{>0}}\\&{y} &\mapsto & {\left| y \right| } \end{array}{}$$s.t. $\left| y \right|:=\text{mod}_{K}(m_{y})$.
 > 3. If $K$ is not discrete, by extending the homomorphism with $\left| 0 \right|=0$, one obtains $K\to \mathbb{R}_{\geq 0}$ which is continuous.
 ---
 > [!h] Example 4
-> For $K=\mathbb{Q}_{p}$, we will try to determine its "norm". Then, for every $y\in \mathbb{Q}_{p}^\times$, 
-> 1. $y$ can be uniquely written as $y=p^n\cdot u$ where $n\in \mathbb{Z}$ and $u$ is invertible in $\mathbb{Z}_{p}$.
-> 2. If $n\leq-1$, in which case $\left| y \right|^{-1}=\left| y^{-1} \right|$, we just need to determine $\left| y^{-1} \right|$ and $y^{-1}\in \mathbb{Z}_{p}$. Therefore, wlog we can assume that $y\in \mathbb{Z}_{p}$. 
->    
->    As $\mathbb{Z}_{p}$ is compact, $\mu(\mathbb{Z}_{p})<+\infty$, where $\mu$ is the left-Haar measure on $\mathbb{Q}_{p}$. Then, $$\mathbb{Z}_{p}=\{ x\in \mathbb{Q}_{p}:\|x\|_{p}<e \}$$Then, $\|\cdot\|_{p}\in \{ e^n:n\in \mathbb{Z} \}\cup \{ 0 \}$
->    
->    Recall $\|y\|_{p}=e^{-n}$ where $y=p^n\cdot u$. Hence, $0<\mu(\mathbb{Z}_{p})<+\infty$.
->    
->    As we know that for $y\in \mathbb{Z}_{p}$: $$\mu(y\cdot \mathbb{Z}_{p})=\left| y \right| \mu(\mathbb{Z}_{p})$$However, as $\text{ker }\varepsilon_{n}=p^n\mathbb{Z}_{p}=p^n\cdot u\mathbb{Z}_{p}=y\cdot \mathbb{Z}_{p}$, $$\mathbb{Z}_{p} / p^n \mathbb{Z}_{p}\cong \mathbb{Z} / p\mathbb{Z}$$ So let $R\subseteq \mathbb{Z}_{p}$ be a complete set of representatives of $\mathbb{Z}_{p} / p^n \mathbb{Z}_{p}$. Then, $$\mathbb{Z}_{p}=\bigsqcup_{r\in R}^{}(r+p^n \mathbb{Z}_{p})$$and $$\mu(\mathbb{Z}_{p})=\sum_{r\in R}^{}\mu(r+p^n \mathbb{Z}_{p})=\left| R \right| \mu(p^n\mathbb{Z}_{p})=p^n\cdot  \mu(p^n\mathbb{Z}_{p})$$Therefore, $$p^{-n}\mu(\mathbb{Z}_{p})=\mu(p^n \mathbb{Z}_{p})=\mu(y\mathbb{Z}_{p})=\left| y \right| \cdot \mu(\mathbb{Z}_{p})$$We can conclude that $\left| y \right|=p^{-n}$.
+> In $K=\mathbb{Q}_{p}$, for every $y\in \mathbb{Q}_{p}^\times$, $$\left| y \right| =p^{-n}$$
+
+> [!proof]+
+> We have that $y$ can be uniquely written as $y=p^n\cdot u$ for $n\in \mathbb{Z}$ and $u$ invertible in $\mathbb{Z}_{p}$. 
+> 
+> Assume $n<0$. Then, $\left| y \right|^{-1}=\left| y ^{-1}\right|$ and we have that $y^{-1}=p^{-n}u^{-1}\in \mathbb{Z}_{p}$. Therefore, we may assume wlog that $n\geq 0$, i.e. $y\in \mathbb{Z}_{p}$. 
+> 
+> As $\mathbb{Z}_{p}$ is compact, $\mu(\mathbb{Z}_{p})<+\infty$, where $\mu$ is the left Haar measure on $\mathbb{Q}_{p}$. We have $$\mathbb{Z}_{p}=\{ x\in \mathbb{Q}_{p}:\|x\|_{p}<e \}$$which is open. Hence, $0<\mu(\mathbb{Z}_{p})<+\infty$.
+> 
+> As we know that for $y\in \mathbb{Z}_{p}$: $$\mu(y\cdot \mathbb{Z}_{p})=\mu(m_{y}(\mathbb{Z}_{p}))=\text{mod}_{\mathbb{Q}_{p}}(m_{y})\mu(\mathbb{Z}_{p})=\left| y \right| \mu(\mathbb{Z}_{p})$$However, as $\text{ker }\varepsilon_{n}=p^n\mathbb{Z}_{p}=p^n\cdot u\mathbb{Z}_{p}=y\cdot \mathbb{Z}_{p}$, $$\mathbb{Z}_{p} / p^n \mathbb{Z}_{p}\cong \mathbb{Z} / p\mathbb{Z}$$ So let $R\subseteq \mathbb{Z}_{p}$ be a complete set of representatives of $\mathbb{Z}_{p} / p^n \mathbb{Z}_{p}$. Then, $$\mathbb{Z}_{p}=\bigsqcup_{r\in R}^{}(r+p^n \mathbb{Z}_{p})$$and $$\mu(\mathbb{Z}_{p})=\sum_{r\in R}^{}\mu(r+p^n \mathbb{Z}_{p})=\left| R \right| \mu(p^n\mathbb{Z}_{p})=p^n\cdot  \mu(p^n\mathbb{Z}_{p})$$Therefore, $$p^{-n}\mu(\mathbb{Z}_{p})=\mu(p^n \mathbb{Z}_{p})=\mu(y\mathbb{Z}_{p})=\left| y \right| \cdot \mu(\mathbb{Z}_{p})$$We can conclude that $\left| y \right|=p^{-n}$.
 ---
