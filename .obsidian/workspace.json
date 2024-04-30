@@ -139,9 +139,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bca6a4143811ed2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Galois Extension.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       },
       {
         "id": "c45eeefa3389e702",
@@ -161,12 +173,36 @@
             }
           },
           {
+            "id": "e83bbedc8f5f3d93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Fixed Field.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71f2ecde3689c9d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Galois Extension.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6cae923d640be081",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convolution (Rn).md",
+                "file": "Algebra/Galois Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -316,7 +352,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -383,7 +420,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Galois Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -400,7 +437,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Galois Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -423,7 +460,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+                "file": "Algebra/Galois Extension.md"
               }
             }
           }
@@ -445,14 +482,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "68e580d131aaa65f",
+  "active": "71f2ecde3689c9d8",
   "lastOpenFiles": [
-    "Measure Theory/Sigma Algebra.md",
+    "Algebra/Fixed Field.md",
+    "Algebra/Galois Group.md",
+    "Algebra/Galois Extension.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
+    "Representation Theory/Character.md",
+    "Algebra/Splitting Field.md",
+    "Analysis/Convolution (Rn).md",
+    "Measure Theory/Sigma Algebra.md",
     "Topology Quiz.md",
     "Courses/Measure Theory/Measure Theory Roadmap.md",
     "Analysis/Functional Analysis/Convolution.md",
-    "Analysis/Convolution (Rn).md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Measure Theory/Complex Measure.md",
     "Analysis/Complex Measure.md",
@@ -468,11 +510,6 @@
     "Topology/Fundamental System.md",
     "Topology/Locally Connected Space.md",
     "Lie Group/Locally Compact Topological Group.md",
-    "Analysis/Lp Space.md",
-    "Lie Group/Topological Group.md",
-    "Topology/Connected Space.md",
-    "Courses/Topology/Exercise Sheet 4.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
