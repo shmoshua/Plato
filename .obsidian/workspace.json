@@ -202,7 +202,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Product Topology.md",
+                "file": "Analysis/Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -483,6 +483,7 @@
   },
   "active": "8706d4b3088461ec",
   "lastOpenFiles": [
+    "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Topology/Product Topology.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Analysis/Product Space.md",
@@ -508,7 +509,6 @@
     "Analysis/Complex Measure.md",
     "Analysis/Functional Analysis/Haar Measure.md",
     "Analysis/Hilbert Space.md",
-    "Algebra/p-adic Integer.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
