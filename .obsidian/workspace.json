@@ -197,18 +197,6 @@
             }
           },
           {
-            "id": "8706d4b3088461ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 9.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e83bbedc8f5f3d93",
             "type": "leaf",
             "state": {
@@ -233,12 +221,24 @@
             }
           },
           {
+            "id": "5b876a3fab471e93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Topology/Exercise Sheet 9.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "118df8ee09e57732",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Topology/Fundamental System.md",
                 "mode": "preview",
                 "source": false
               }
@@ -365,7 +365,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -493,13 +493,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8706d4b3088461ec",
+  "active": "5b876a3fab471e93",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 4.md",
-    "Courses/Topology/Exercise Sheet 9.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Quotient Topology.md",
     "Topology/Product Topology.md",
+    "Courses/Topology/Exercise Sheet 9.md",
+    "Topology/Quotient Topology.md",
+    "Courses/Topology/Exercise Sheet 4.md",
+    "Topology/Fundamental System.md",
+    "Algebra/Separable Extension.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Algebra/Galois Extension.md",
     "Analysis/Functional Analysis/Bounded Linear Map.md",
     "Analysis/Product Space.md",
@@ -510,7 +512,6 @@
     "Analysis/Functional Analysis/Convolution.md",
     "Courses/Measure Theory/Measure Theory Roadmap.md",
     "Algebra/Galois Group.md",
-    "Algebra/Separable Extension.md",
     "Topology/Separable Space.md",
     "Algebra/Splitting Field.md",
     "Algebra/Normal Extension.md",
@@ -520,7 +521,6 @@
     "Measure Theory/Sigma Algebra.md",
     "Topology Quiz.md",
     "Analysis/Complex Measure.md",
-    "Analysis/Functional Analysis/Haar Measure.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

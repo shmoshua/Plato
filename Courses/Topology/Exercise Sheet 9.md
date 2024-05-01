@@ -45,3 +45,9 @@ We have:
 > 5. Show that a fundamental system of neighborhoods of $p(0,0)$ in $Z'$ is given by the sets of the form $$p\left( \bigcup_{n\in \mathbb{Z}}^{}(-\delta_{n},\delta_{n})\times(n-\varepsilon_{n},n+\varepsilon_{n}) \right) $$where $\delta_{n}>0$ and $\varepsilon_{n}>0$, for $n\in \mathbb{Z}$, are arbitrary positive real numbers. 
 > 6. Deduce $\phi:Z'\to X'\times Y'$ is not a homeomorphism. 
 > 7. Can you get some intuitive feeling for the “shape” of $Y'$? for that of $Z'$?
+
+We have:
+1. One easily sees that $x\sim y$ if and only if $x=y$. Therefore, $p_{X}=\text{id}$ and $p_{X}$ is open.
+2. Let $A\cap \mathbb{Z}=\varnothing$. Then, $p_{Y}(A)=\bigcup_{x\in A}^{}\{ x \}$. Indeed, for $x\in p ^{-1}_{Y}(p_{Y}(A))$, there exists $y\in A$ s.t. $x\sim_{Y} y$. As $A\cap \mathbb{Z}=\varnothing$, we have that $x\in A$ and $p ^{-1}_{Y}(p_{Y}(A))=A$. Similarly, if $A\cap \mathbb{Z}\neq \varnothing$, then for $x\in p _{Y}^{-1}(p_{Y}(A))$, $x \sim_{Y} y$ for some $y\in A$ and this means either $x\in \mathbb{Z}$ or $x\in A$. Conversely, if $x\in \mathbb{Z} \cup A$, then $p_{Y}(x)\in\mathbb{Z} \cup p_{Y}(A)=p_{Y}(A)$. This proves the statement.
+3. We have that $\left( -\frac{1}{2}, \frac{1}{2} \right)\subseteq \mathbb{R}$ is open but $p_{Y}\left(  - \frac{1}{2}, \frac{1}{2} \right)$ is not open as $\mathbb{Z} \cup (-\frac{1}{2}, \frac{1}{2})$ is not open in $\mathbb{R}$. However, for any closed $C$, $p_{Y}(C)$ is closed as $\mathbb{Z}\cup C$ is closed as a finite union of closed subsets. 
+4. Let $V\subseteq X'\times Y'$ be a neighborhood of $(p_{X}(0),p_{Y}(0))$. Then, there exist open neighborhoods $U_{X},U_{Y}$ of $p_{X}(0)$ and $p_{Y}(0)$ respectively, s.t. $U_{X}\times U_{Y}\subseteq V$. 
