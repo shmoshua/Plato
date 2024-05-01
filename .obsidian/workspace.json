@@ -202,7 +202,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Product Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -483,8 +483,10 @@
   },
   "active": "8706d4b3088461ec",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
+    "Topology/Product Topology.md",
     "Courses/Topology/Exercise Sheet 9.md",
+    "Analysis/Product Space.md",
+    "Topology/Quotient Topology.md",
     "Courses/Topology/Topology Roadmap.md",
     "Algebra/Fixed Field.md",
     "Analysis/Convolution (Rn).md",
@@ -507,8 +509,6 @@
     "Analysis/Functional Analysis/Haar Measure.md",
     "Analysis/Hilbert Space.md",
     "Algebra/p-adic Integer.md",
-    "Topology/Continuous Function.md",
-    "Analysis/Functional Analysis/Uniformly Continuous Function.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
