@@ -62,4 +62,8 @@ We have:
 > 4. Construct an homeomorphism $X_{n,k}\to(S^1)^k\times \mathbb{R}^{n-k}$. 
 
 We have:
-1. Let $U\subseteq \mathbb{R}^n$ open. Then, let $x\in p ^{-1}(p(U))$. Then, there exists $y\in U$ with $x-y\in H_{k}$. Then, there exists $y\in V\subseteq U$ open neighborhood and 
+1. Let $U\subseteq \mathbb{R}^n$ open. Then, let $x\in p ^{-1}(p(U))$. Then, there exists $y\in U$ with $x-y\in H_{k}$. Then, $U+x-y$ is an open neighborhood of $x$ and $p(U+x-y)=p(U)$, i.e. $U+x-y\subseteq p ^{-1}(p(U))$. Therefore, $p ^{-1}(p(U))$ is open and thereby $p(U)$.
+   
+   For the graph $\Gamma:=\{ (x,y)\in \mathbb{R}^n:x -y\in H_{k} \}$, notice that $\text{ker } p=\{ z\in \mathbb{R}^n: z\in H_{k} \}$ which is closed. Then, $\Gamma$ is closed as a preimage of subtraction of a closed set $\text{ker }p$, which is continuous. By 2, we know that $X_{n,k}$ is Hausdorff.
+2. $C$ is closed as an intersection of the following closed sets: $$C=\bigcap_{i=1}^{n}\left\{  t\in \mathbb{R}^n:\left| t_{i}-x_{i} \right| \leq \frac{1}{4}  \right\}$$Further, by definition, $C$ is bounded. Therefore, by Heine-Borel, $C$ is compact. Let $s,t\in C$ s.t. $p(s)=p(t)$. Then, $s-t\in H_{k}$ and $s_{i}-t_{i}\in \mathbb{Z}$ for all $i\in[k]$. Especially, $$\left| s_{i}-t_{i} \right| \leq \left| s_{i}-x_{i} \right| +\left| x_{i}-t_{i} \right| \leq \frac{1}{2}$$for all $i\in[n]$ and $s=t$. This shows that $p|_{C}$ is injective.
+3. Let $x+H_{k}\in X_{n,k}$ for $x\in \mathbb{R}^n$. 

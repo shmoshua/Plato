@@ -238,7 +238,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental System.md",
+                "file": "Topology/Locally Compact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -495,9 +495,11 @@
   },
   "active": "5b876a3fab471e93",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
+    "Topology/Locally Compact Space.md",
+    "Differential Geometry/Topological Manifold.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Topology/Fundamental System.md",
+    "Topology/Quotient Topology.md",
     "Topology/Product Topology.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Algebra/Separable Extension.md",
@@ -519,8 +521,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Representation Theory/Character.md",
     "Measure Theory/Sigma Algebra.md",
-    "Topology Quiz.md",
-    "Analysis/Complex Measure.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
