@@ -23,7 +23,7 @@ We have:
    
    To show that $\phi$ is continuous, for a product space $V\times W$, let $\pi_{V}$ denote the projection onto $V$. Then, we notice that $\pi_{X'}\circ\phi \circ p=p_{X}\circ \pi_{X}$, which is continuous. By symmetry, it holds that $\phi$ is continuous.
 2. Let $(x,y)\in W$. Then, there exists an open neighborhood $U_{X}\ni x$ and $U_{Y}\ni y$ s.t. $U_{X}\times U_{Y}\subseteq W$. Then, $p_{X}(U_{X})\ni p_{X}(x)$ and $p_{Y}(U_{Y})\ni p_{Y}(y)$ are open neighborhoods s.t. $p_{X}(U_{X})\times p_{Y}(U_{Y})$ is an open neighborhood of $\phi(p(x,y))$ contained in $\phi(p(W))$. This shows that $\phi(p(W))$ is open.
-3. $\phi$ is a continuous bijection. As it is open, it has a continuous inverse. 
+3. $\phi$ is a continuous bijection. For the inverse $\phi ^{-1}:X'\times Y'\to Z'$ and an open $U\subseteq Z'$, Then, $p ^{-1}(U)\subseteq Z$ is open and $\phi(U')=\phi(p(p ^{-1}(U)))$ which is open by 2. Therefore, the inverse is continuous.
 ---
 > [!def] Problem 3
 > Let $X$ be a topological space and $\sim$ an equivalence relation on $X$. Let $X':= X / \sim$ and $p:X\to X'$ the projection. Let $\Gamma:=\{ (x,y)\in X\times X:x \sim y \}$ be the graph of the equivalence relation. Define the relation $\equiv$ on $X\times X$ by $(x,y)\equiv(x',y')$ if and only if $x\sim x'$ and $y\sim y'$. 
@@ -33,4 +33,15 @@ We have:
 
 We have:
 1. for $(x,y)\in \Gamma$, as $x\sim y$, we have that $(x,y)\equiv(x,x)$ and $q(x,y)=q(x,x)\in q(\Delta)$. Therefore, $\Gamma \subseteq q^{-1}(q(\Delta))$. Conversely, for $(x,y)\in q^{-1}(q(\Delta))$, $q(x,y)\in q(\Delta)$ and there exists $z\in X$ such that $x \sim z\sim y$. By transitivity, $x\sim y$ and $(x,y)\in \Gamma$.
-2. 
+2. From the previous exercise, as $p$ is open, we have that the map $$\begin{array}{cccc} {\phi:}&{(X\times X) / \equiv}&\to&{X'\times X'}\\&{q(x,y)} &\mapsto & {(p(x),p(y))} \end{array}{}$$is a homeomorphism. As $\Gamma=q^{-1}(q(\Delta))$ is closed, $q(\Delta)$ is closed and therefore $\phi(q(\Delta))=\Delta'$ is closed. 
+3. $X'$ is Hausdorff if and only if the diagonal $\Delta'$ is closed.
+---
+> [!def] Problem 4
+> Let $X=Y=\mathbb{R}$ with the euclidean topology, and let $\sim_{X}$ be the equality relation, $\sim_{Y}$ the relation where the equivalence class of $0$ is $\mathbb{Z}$ while the equivalence class of any $x\notin \mathbb{Z}$ is $\{ x \}$.
+> 1. Show that $p_{X}$ is open. 
+> 2. Show that if $A\subseteq Y$ is any subset, then $$p ^{-1}_{Y}(p_{Y}(A))=\begin{cases}A&A\cap \mathbb{Z}=\varnothing\\ \mathbb{Z}\cup A&\text{otherwise}\end{cases}$$ 
+> 3. Deduce that $p_{Y}$ is not an open map. Show however that $p_{Y}(C)$ is closed if $C$ is closed.
+> 4. Show that a fundamental system of neighborhoods of $(p_{X}(0),p_{Y}(0))\in X'\times Y'$ is given by the sets of the form $$p_{X}((-\delta,\delta))\times p_{Y}\left( \bigcup_{n\in \mathbb{Z}}^{}(n-\varepsilon_{n},n+\varepsilon_{n}) \right)$$where $\delta>0$ and $\varepsilon_{n}>0$, for $n\in \mathbb{Z}$, are arbitrary positive real numbers. 
+> 5. Show that a fundamental system of neighborhoods of $p(0,0)$ in $Z'$ is given by the sets of the form $$p\left( \bigcup_{n\in \mathbb{Z}}^{}(-\delta_{n},\delta_{n})\times(n-\varepsilon_{n},n+\varepsilon_{n}) \right) $$where $\delta_{n}>0$ and $\varepsilon_{n}>0$, for $n\in \mathbb{Z}$, are arbitrary positive real numbers. 
+> 6. Deduce $\phi:Z'\to X'\times Y'$ is not a homeomorphism. 
+> 7. Can you get some intuitive feeling for the “shape” of $Y'$? for that of $Z'$?
