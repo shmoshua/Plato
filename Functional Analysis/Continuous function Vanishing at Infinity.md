@@ -22,3 +22,5 @@
 > 3. for all $x,y\in X$ with $x\neq y$, there exists $f\in \mathcal{B}$ with $f(x)\neq f(y)$.
 > 
 > Then, $\mathcal{B}$ is dense in $(C_{0}(X),\|\cdot\|_{\infty})$.
+
+^2e5b88

@@ -45,6 +45,18 @@
             }
           },
           {
+            "id": "fc365c06c899c485",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6f23386bf3ce1543",
             "type": "leaf",
             "state": {
@@ -178,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
                 "mode": "preview",
                 "source": false
               }
@@ -381,7 +393,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "stone weier",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -398,7 +410,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -482,9 +495,10 @@
   },
   "active": "68e580d131aaa65f",
   "lastOpenFiles": [
+    "Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Guelfand Spectrum.md",
-    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Guelfand Transform.md",
     "Representation Theory/Character.md",
@@ -507,7 +521,6 @@
     "Algebra/Fixed Field.md",
     "Analysis/Convolution (Rn).md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Courses/Topology/Exercise Sheet 8.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
