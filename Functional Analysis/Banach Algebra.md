@@ -51,7 +51,7 @@
 > [!h] Example 1
 > Let $-\infty<a<b<+\infty$. Then, for $n<+\infty$, 
 > 1. $C^n([a,b])$ with pointwise multiplication is a Banach algebra with $\left\| f \right\|:=\sum_{k=0}^{n} \frac{1}{k!}\left\| f^{(k)} \right\|_{b}$
-> 2. $C^n([a,b])$ is not a [[C*-algebra]] with $f\mapsto \overline{f}$
+> 2. $C^n([a,b])$ is not a [[C*-Algebra]] with $f\mapsto \overline{f}$
 > 3. $C^\infty([a,b])$ with pointwise multiplication does not admit any Banach algebra norm.
 
 > [!proof]-

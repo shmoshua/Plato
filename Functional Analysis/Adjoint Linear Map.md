@@ -1,7 +1,7 @@
 #Definition #Analysis #FunctionalAnalysis 
 
 > [!definition]
-> Let $T\in \mathcal{B}(V,W)$ be a [[bounded linear map]] of [[Analysis/Normed Space|normed $\mathbb{K}$-vector spaces]]. The ***adjoint***  of $T$ is the linear map: $$\begin{array}{cccc} {T^{*}:}&{W^{*}}&\to&{V^{*}}\\&{\lambda} &\mapsto & {\lambda \circ T} \end{array}{}$$
+> Let $T\in \mathcal{B}(V,W)$ be a [[Bounded Linear Map]] of [[Analysis/Normed Space|normed $\mathbb{K}$-vector spaces]]. The ***adjoint***  of $T$ is the linear map: $$\begin{array}{cccc} {T^{*}:}&{W^{*}}&\to&{V^{*}}\\&{\lambda} &\mapsto & {\lambda \circ T} \end{array}{}$$
 > where $V^{*},W^{*}$ are the [[Dual Space|dual spaces]] of $V,W$. 
 
 - **Related definition**: For a Hilbert space $\mathcal{H}$ and $T\in \mathcal{B}(\mathcal{H})$, if $T^{*}=T$, then $T$ is called ***self-adjoint/Hermitian***.

@@ -14,7 +14,7 @@
 - **Related definition**: We define:
 	 1. $\mathcal{B}^\infty(X):=\{ f:X\to \mathbb{C} | f\text{ Borel-measurable}, \left\| f \right\| :=\sup_{x\in X}\left| f(x) \right|  \}$ and 
 	 2. the ***essential image*** of a measurable function $f:X\to \mathbb{C}$ as: $\text{ess im}(f):=\mathbb{C} \backslash \bigcup_{E(f^{-1}(D_{n}))=0}^{}D_{n}$. 
-	 3. a [[seminorm]] $\|f\|_{\infty}:=\sup\{ \left| \lambda \right|:\lambda\in \text{ess im}(f) \}$
+	 3. a [[Seminorm]] $\|f\|_{\infty}:=\sup\{ \left| \lambda \right|:\lambda\in \text{ess im}(f) \}$
 	 4. $N:=\{ f\in \mathcal{B}^\infty(X),\|f\|_{\infty}=0 \}$ as a closed ideal in $\mathcal{B}^\infty(X)$.
 	 5. The [[C*-Algebra|$C^{*}$-algebra]]: $L^\infty(E):= \mathcal{B}^\infty(X) / N$.
 - **Remark**: For every $f\in \mathcal{B}^\infty(X)$, $\int_{X}^{} f\ dE_{x,y}$ is well-defined since $E_{x,y}$ is a regular Borel on $X$.

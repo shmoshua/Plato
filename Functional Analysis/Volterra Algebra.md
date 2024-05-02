@@ -6,7 +6,7 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> The Volterra algebra is a commutative non-unital [[Banach algebra]].
+> The Volterra algebra is a commutative non-unital [[Banach Algebra]].
 
 > [!proof]-
 > We have:
@@ -18,4 +18,4 @@
 > 	$$\mathcal{L}(f*\delta)=\mathcal{L}(f)\cdot \mathcal{L}(\delta)$$for all $f\in L^1([0,1])$. 
 ---
 > [!lemma] Proposition 2
-> The [[Guelfand spectrum]] of the Volterra algebra is empty.
+> The [[Guelfand Spectrum]] of the Volterra algebra is empty.

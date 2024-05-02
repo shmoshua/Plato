@@ -19,7 +19,7 @@
 ---
 > [!lemma] Proposition 2
 > If $Y=X$, $\psi\in \text{Homeo}(X)$ and $$\begin{array}{cccc} {R:}&{M(X)}&\to&{C(X)^{*}}\\&{\mu} &\mapsto & {\Phi_{\mu}} \end{array}{}$$the [[Analysis/Complex Measure|Riesz representation]]. Let further $\lambda(\psi)$ defined as above. Then, for $\mu\in M(X)$, 
-> $$\lambda ^{*}(\psi)(\Phi_{\mu}):=\lambda(\psi ^{-1})^{*}(\Phi_{\mu})=\Phi_{\psi_{*}(\mu)}$$ and$$\lambda ^{*}(\psi )[R[M^1(X)]]=R[M^1(X)]$$where $M^1(X)$ is the [[space of probability measures]].
+> $$\lambda ^{*}(\psi)(\Phi_{\mu}):=\lambda(\psi ^{-1})^{*}(\Phi_{\mu})=\Phi_{\psi_{*}(\mu)}$$ and$$\lambda ^{*}(\psi )[R[M^1(X)]]=R[M^1(X)]$$where $M^1(X)$ is the [[Space of Probability Measures]].
 > 
 > This defines a group homomorphism: $$\begin{array}{cccc} {\lambda ^{*}:}&{\text{Homeo}(X)}&\to&{\text{Aut}(M(X))}\\&{\psi} &\mapsto & {\lambda(\psi ^{-1})^{*}} \end{array}{}$$with $\lambda ^{*}(\psi)(\mu)=\psi_{*}(\mu)$
 

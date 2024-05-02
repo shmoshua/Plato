@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,21 +38,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 9.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "mode": "source",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "ee1d018e0baef7b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebra I/Algebra I Roadmap.md",
-                "mode": "source",
-                "source": false
               }
             }
           },
@@ -178,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "mode": "preview",
                 "source": false
               }
@@ -190,8 +178,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
-                "mode": "source",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -364,8 +352,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -431,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 9.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -448,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 9.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -471,7 +458,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 9.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -493,34 +480,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5b876a3fab471e93",
+  "active": "68e580d131aaa65f",
   "lastOpenFiles": [
+    "Functional Analysis/Guelfand Spectrum.md",
+    "Functional Analysis/Guelfand Transform.md",
+    "Representation Theory/Character.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Courses/Topology/Exercise Sheet 4.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Fourier Transform (Rn).md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Algebra I/Algebra I Roadmap.md",
+    "Courses/Topology/Exercise Sheet 9.md",
     "Topology/Quotient Topology.md",
     "Topology/Hausdorff Space.md",
-    "Courses/Topology/Exercise Sheet 9.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Product Topology.md",
     "Topology/Locally Compact Space.md",
     "Topology/Fundamental System.md",
-    "Courses/Topology/Exercise Sheet 4.md",
     "Algebra/Separable Extension.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Algebra/Galois Extension.md",
-    "Analysis/Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Product Space.md",
     "Algebra/Fixed Field.md",
     "Analysis/Convolution (Rn).md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Topology/Exercise Sheet 8.md",
-    "Analysis/Functional Analysis/Convolution.md",
+    "Functional Analysis/Convolution.md",
     "Courses/Measure Theory/Measure Theory Roadmap.md",
-    "Algebra/Galois Group.md",
-    "Topology/Separable Space.md",
-    "Algebra/Splitting Field.md",
-    "Algebra/Normal Extension.md",
-    "Measure Theory/Complex Measure.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Representation Theory/Character.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

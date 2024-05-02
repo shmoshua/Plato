@@ -65,7 +65,7 @@
    
 **4.2 The Uniform Boundedness Principle/Banach-Steinhaus**
 1. [[Bounded Linear Map|Banach-Steinhaus Theorem]] and point-wise convergence of bounded linear operators
-2. **Applications of Banach-Steinhaus**: [[Dual space]] and boundedness
+2. **Applications of Banach-Steinhaus**: [[Dual Space]] and boundedness
 
 **4.3 The Open Mapping Theorem and the Closed Graph Theorem**
 1. [[Open and Closed Maps]]
@@ -136,9 +136,9 @@
 ##### 7. Fourier Analysis and the Sobolev Embedding Theorem
 
 **7.1 Fourier Analysis in $\mathbb{R}^n$**
-1. [[Fourier Transform]]
-2. [[Fourier Transform|Inverse Fourier Transform]]
-3. [[Fourier Transform|Plancherel Theorem]]
+1. [[Fourier Transform (Rn)]]
+2. [[Fourier Transform (Rn)|Inverse Fourier Transform]]
+3. [[Fourier Transform (Rn)|Plancherel Theorem]]
 
 **7.2 Convolution**
 1. [[Convolution (Rn)]]
@@ -146,12 +146,12 @@
 3. [[Smooth Function with Compact Support]]
 
 **7.3 Weak Derivatives**
-1. [[Analysis/Functional Analysis/Weak Derivative|Weak Derivative]]
+1. [[Functional Analysis/Weak Derivative|Weak Derivative]]
 2. [[Analysis/Weak Derivative|Weak Derivative]]
 3. [[Sobolev Space]]
 
 **7.4 Sobolev Embedding Theorem**
-1. Weak derivatives and [[Fourier Transform]]
+1. Weak derivatives and [[Fourier Transform (Rn)]]
 ---
 ##### Problem Set
 1. [[Courses/Functional Analysis I/Exercise Sheet 1]]

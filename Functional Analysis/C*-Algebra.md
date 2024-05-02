@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> An ***involutive Banach algebra*** is a [[Banach algebra]] $B$ with a map $x\mapsto x^{*}$ s.t. 
+> An ***involutive Banach algebra*** is a [[Banach Algebra]] $B$ with a map $x\mapsto x^{*}$ s.t. 
 > 1. $(x^{*})^{*}=x$ for all $x\in B$,
 > 2. $(\alpha x+\beta y)^{*}=\overline{\alpha} x^{*}+\overline{\beta} y^{*}$ for all $\alpha,\beta\in \mathbb{C}$, $x,y\in B$,
 > 3. $(xy)^{*}=y^{*}x^{*}$ for all $x,y\in B$,
@@ -127,7 +127,7 @@
 ---
 > [!h] Example 4 (L1 and convolution)
 > We have that:
-> 1. $L^1(\mathbb{R})$ with [[Convolution (Rn)]] product is a commutative [[Banach algebra]].
+> 1. $L^1(\mathbb{R})$ with [[Convolution (Rn)]] product is a commutative [[Banach Algebra]].
 > 2. $L^1(\mathbb{R})$ with $f^{*}(t)=f(-t)$ is involutive.
 > 3. $L^1(\mathbb{R})$ with $f^{*}(t)=f(-t)$ is not a $C^{*}$-algebra.
 
@@ -141,7 +141,7 @@ $$\begin{align}f*f^{*}(x)&=\int_{-1}^{0} f(x-t) \, dt -\int_{0}^{1} f(x-t) \, dt
 ---
 > [!h] Example 5
 > Let $\Gamma$ be a (countable) [[group]]. Then, consider $$\ell^1(\Gamma):=\left\{  f:\Gamma\to \mathbb{C} \left|\left\| f \right\| _{1}:=\sum_{\gamma\in \Gamma}^{} \left| f(\gamma) \right| <+\infty\right.\right\}$$
-> 1. $\ell^1(\Gamma)$ with convolution product $$(f*g)(\gamma)=\sum_{\eta\in \Gamma}^{}f(\gamma \eta)g(\eta ^{-1})$$is a [[Banach algebra]].
+> 1. $\ell^1(\Gamma)$ with convolution product $$(f*g)(\gamma)=\sum_{\eta\in \Gamma}^{}f(\gamma \eta)g(\eta ^{-1})$$is a [[Banach Algebra]].
 > 2. $\ell^1(\Gamma)$ with $f^{*}(\gamma)=\overline{f(\gamma ^{-1})}$ is involutive.
 
 > [!proof]-

@@ -1,11 +1,11 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $A$ be a commutative [[Banach algebra]] and $\hat{A}$ the [[Guelfand spectrum]] of $A$. The ***Guelfand topology*** is a topology on $\hat{A}\subseteq A^{*}$ induced by the [[Weak Topology|weak*-topology]] on $A^{*}$.
+> Let $A$ be a commutative [[Banach Algebra]] and $\hat{A}$ the [[Guelfand Spectrum]] of $A$. The ***Guelfand topology*** is a topology on $\hat{A}\subseteq A^{*}$ induced by the [[Weak Topology|weak*-topology]] on $A^{*}$.
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> Let $A$ be a commutative [[Banach algebra]]. Then, we have: 
+> Let $A$ be a commutative [[Banach Algebra]]. Then, we have: 
 > 1. $\hat{A}$ is locally compact Hausdorff w.r.t. Guelfand topology.
 > 2. If $A$ is unital, $\hat{A}$ is compact.
 > 3. If $A$ is non-unital, $\widehat{A_{I}}$ is the [[one-point compactification]] of $\hat{A}$.

@@ -15,9 +15,9 @@
 ---
 ##### 2. Spectrum of a Banach Algebra Element
 1. [[C-Algebra|Invertible elements]] of a $\mathbb{C}$-algebra
-1. [[Analysis/Functional Analysis/Spectrum|Spectrum]]
-2. [[Analysis/Functional Analysis/Spectrum|Spectral Radius]]
-3. [[Analysis/Functional Analysis/Spectrum|Spectral Radius Formula]]
+1. [[Functional Analysis/Spectrum|Spectrum]]
+2. [[Functional Analysis/Spectrum|Spectral Radius]]
+3. [[Functional Analysis/Spectrum|Spectral Radius Formula]]
 
 **2.1 Holomorphic Functional Calculus**
 1. [[Holomorphic Function]]
@@ -43,7 +43,7 @@
 ---
 ##### 4. The Guelfand Isomorphisms
 1. [[C*-Algebra]] and normal elements.
-2. Uniqueness of the norm in a [[C*-algebra]].
+2. Uniqueness of the norm in a [[C*-Algebra]].
 3. [[C*-Algebra|Construction of a C\*-algbra norm on $A_{I}$]]
 4. [[Guelfand Transform]]
 ---
@@ -91,7 +91,9 @@
 1. [[Convolution (Rn)]]
 2. [[Convolution]]
 3. [[Uniformly Continuous Function]]
-
+---
+##### 7. The Fourier Transform
+1. [[Fourier Transform]]
 ---
 ##### 8. Complex Measures
 1. [[Measure Theory/Complex Measure|Complex Measure]]
@@ -104,9 +106,6 @@
 4. [[Courses/Functional Analysis II/Exercise Sheet 4|Exercise Sheet 4]]
 5. [[Courses/Functional Analysis II/Exercise Sheet 5|Exercise Sheet 5]]
 6. [[Courses/Functional Analysis II/Exercise Sheet 6|Exercise Sheet 6]]
----
-If $X$ is any compact Hausdorff space, then there exists $S$ totally disconnected compact and $S\to X$ is continuous surjective.
-
-$X_{d}\to X$ is continuous. It induces $C(X)\to \ell^\infty(X_{d})$ and $\widehat{\ell^{\infty}(X_{d})}\to \widehat{C(X)}\equiv X$. Them, why is $\widehat{\ell^\infty(X)}$ totally disconnected??
-
+7. [[Courses/Functional Analysis II/Exercise Sheet 7|Exercise Sheet 7]]
+8. [[Courses/Functional Analysis II/Exercise Sheet 8|Exercise Sheet 8]]
 ---

@@ -5,12 +5,12 @@
 > $$\text{Sp}_{A}(x):=\{ \lambda\in \mathbb{C}:x-\lambda e\notin G(A) \}$$
 > If $A$ is non-unital, we define: $$\text{Sp}_{A}(x):=\text{Sp}_{A_{I}}(x)$$
 - **Related definition**: The complement of a spectrum $\rho_{A}(x):=\mathbb{C} \backslash \text{Sp}_{A}(x)$ is called the ***resolvent set***.
-- **Related definition**: In a [[Banach algebra]], for $x\in A$, define $r_{A}(x):=\inf_{n\geq 1}\left\| x^n \right\|^{1/n}$.
-- **Related definition**: In a [[Banach algebra]], for $x\in A$, the ***spectral radius*** is defined as:$$\|x\|_{\text{sp}}:=\max\{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}$$where the existence of the maximum is given by Theorem 4.
+- **Related definition**: In a [[Banach Algebra]], for $x\in A$, define $r_{A}(x):=\inf_{n\geq 1}\left\| x^n \right\|^{1/n}$.
+- **Related definition**: In a [[Banach Algebra]], for $x\in A$, the ***spectral radius*** is defined as:$$\|x\|_{\text{sp}}:=\max\{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}$$where the existence of the maximum is given by Theorem 4.
 ---
 ##### Properties
 > [!lemma] Proposition 1 
-> Let $A$ be a [[Banach algebra]]. For $x\in A$, we have that:
+> Let $A$ be a [[Banach Algebra]]. For $x\in A$, we have that:
 > 1. $r_{A}(x)$ is well-defined.
 > 2. $r_{A}(x)=\lim_{ n \to \infty }\left\| x^n \right\|^{1/n}$
 
@@ -24,7 +24,7 @@
 > 	Let $r:=\text{inf}\{ f(n)^{1/n} :n\geq 1\}\geq 0$. Further, let $\varepsilon>0$ and $k\geq 1$ s.t. $f(k)^{1/k}<r+\varepsilon$. It is sufficient to show that: $\limsup_{ n \to \infty } f(n)^{1/n}\leq r$ from which it follows that: $$r\leq\liminf_{ n \to \infty } f(n)^{1 /n}\leq \limsup_{ n \to \infty } f(n)^{1/n}\leq r$$ Now, let $n>k$ and $n:=ak+b$ where $a\geq 1$ and $0\leq b<k$. Then, $$f(n)^{1/n}=f(ak+{b})^{1/n}\leq f(ak)^{1/n}f(b)^{1/n}\leq f(k)^{a/n}f(1)^{b/n}=(f(k)^{1/k})^{1-b/n}f(1)^{b/n}\to f(k)^{1/k}$$Therefore, $$\limsup_{ n \to \infty } f(n)^{1/n}\leq f(k)^{1/k}<r+\varepsilon$$As $\varepsilon$ was arbitrary, this concludes the proof.
 ---
 > [!lemma] Lemma 2
-> Let $A$ be a unital [[Banach algebra]] and $x\in A$ with $r_{A}(x)<1$. Then, 
+> Let $A$ be a unital [[Banach Algebra]] and $x\in A$ with $r_{A}(x)<1$. Then, 
 > 1. $e-x$ is invertible and
 > 2. $(e-x)^{-1}=\sum_{n=0}^{\infty}x^n$ where $x^0=e$, as an absolutely convergent series.
 
@@ -37,7 +37,7 @@
 - **Corollary**: If $\|x\|<1$, then $r_{A}(x)\leq\|x\|<1$ and the same result holds.
 ---
 > [!lemma] Lemma 3
-> Let $A$ be a unital [[Banach algebra]]. Then, it holds that:
+> Let $A$ be a unital [[Banach Algebra]]. Then, it holds that:
 > 1. the map $G(A)\to G(A), y\mapsto y^{-1}$ is [[Lipschitz Function|Lipschitz continuous]] in some neighborhood of every $x\in G(A)$. More precisely, if $\left\| y-x \right\| \leq \frac{1}{2}\left\|x ^{-1} \right\| ^{-1}$, then: $$\left\| y^{-1}-x ^{-1} \right\| \leq 2\left\|  x ^{-1} \right\|^2 \left\| y-x \right\| $$
 > 3. For $x\in G(A)$, if $y\in A$ satisfies $\left\| y-x \right\|<\left\| x ^{-1} \right\|^{-1}$, then $y\in G(A)$. 
 
@@ -50,7 +50,7 @@
 
 
 > [!lemma] Theorem 4 (Spectral Radius Formula)
-> Let $A$ be a [[Banach algebra]] and $x\in A$. Then, 
+> Let $A$ be a [[Banach Algebra]] and $x\in A$. Then, 
 > 1. $\text{Sp}_{A}(x)\subseteq \mathbb{C}$ is a  non-empty compact set and: 
 > 2. it holds that$$r_{A}(x)=\max \{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}=\|x\|_{\text{sp}}$$
 
@@ -76,7 +76,7 @@
 > 	   But $\left| \xi \right|r_{A}(x)\leq 1$ for all $\left| \xi \right|< \frac{1}{\|x\|_{\text{sp}}}$ and $r_{A}(x)\leq \frac{1}{\left| \xi \right|}$ for all $\left| \xi \right|< \frac{1}{\|x\|_{\text{sp}}}$ which implies: $$r_{A}(x)\leq \|x\|_{\text{sp}}$$
 ---
 > [!lemma] Corollary 5 (Guelfand-Mazur)
-> If $A$ is a unital [[Banach algebra]] in which every non-zero element is invertible. Then, $A\cong \mathbb{C}$.
+> If $A$ is a unital [[Banach Algebra]] in which every non-zero element is invertible. Then, $A\cong \mathbb{C}$.
 
 > [!proof]-
 > Let $x\in A$. Then, as $\text{Sp}_{A}(x)\neq \varnothing$, pick $\lambda\in \text{Sp}_{A}(x)$ and $x-\lambda e$ is not invertible. This means $x-\lambda e=0$ and $x=\lambda e$. 

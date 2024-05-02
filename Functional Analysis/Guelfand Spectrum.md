@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $A$ be a commutative [[Banach algebra]]. A ***character*** of $A$ is a non-trivial [[C-Algebra|$\mathbb{C}$-algebra]] homomorphism $\chi:A\to \mathbb{C}$. Then, the ***Guelfand spectrum*** $\hat{A}$ of $A$ is defined as the set of characters of $A$.
+> Let $A$ be a commutative [[Banach Algebra]]. A ***character*** of $A$ is a non-trivial [[C-Algebra|$\mathbb{C}$-algebra]] homomorphism $\chi:A\to \mathbb{C}$. Then, the ***Guelfand spectrum*** $\hat{A}$ of $A$ is defined as the set of characters of $A$.
 
 - **Remark**: Given any $\mathbb{C}$-algebra homomorphism $\varphi:A\to \mathbb{C}$, we can define: $$\begin{array}{cccc} {\varphi_{I}:}&{A\times \mathbb{C}}&\to&{\mathbb{C}}\\&{(x,\lambda)} &\mapsto & {\varphi(x)+\lambda} \end{array}{}$$Then, $\hat{A}_{I}=\{ \varphi_{I}:\varphi\in \hat{A} \}\cup \{ \varphi_{\infty} \}$ where $\varphi_{\infty}(x,\lambda)=\lambda$. One also often denotes $\hat{A}_{I}=\hat{A}\cup \{ \varphi_\infty \}$.
 ---
@@ -25,7 +25,7 @@
 > Further, as $\|x\|_{\text{sp}}\leq\|x\|$, $\left\| \varphi \right\|\leq 1$. If $\|e\|=1$, then since $\varphi(e)=1=\|e\|$, $\|\varphi\|=1$.
 ---
 > [!lemma] Theorem 3
-> Let $A$ be a commutative [[Banach algebra]]. Then, $\varphi\mapsto \text{ker }\varphi$ gives a bijection between $\hat{A}$ and $$\text{Max}(A):=\{ I\subseteq A :I \text{ regular maximal ideal}\}$$
+> Let $A$ be a commutative [[Banach Algebra]]. Then, $\varphi\mapsto \text{ker }\varphi$ gives a bijection between $\hat{A}$ and $$\text{Max}(A):=\{ I\subseteq A :I \text{ regular maximal ideal}\}$$
 
 > [!proof]-
 > Let $\varphi\in\hat{A}$. Then, $\varphi:A\to \mathbb{C}$ is a non-trivial $\mathbb{C}$-algebra homomorphism. Hence, $\text{ker }\varphi$ is a proper ideal. $\varphi(A)=\mathbb{C}$ and there fore there exists $u\in A$ with $\varphi(u)=1$. Then, for all $x\in A$, $ux-x\in \text{ker }\varphi$. Since $A / \text{ker}(\varphi)\cong \mathbb{C}$, $\text{ker}(\varphi)$ is maximal.
@@ -39,7 +39,7 @@
 ---
 > [!lemma] Theorem 3 (Spectral Theorem)
 > Let $A\subseteq \mathcal{B}(\mathcal{H})$ be an commutative sub-$C^{*}$-algebra containing $\text{id}_{\mathcal{H}}$ and $\widehat{A}$ is Guelfand spectrum. Then, 
-> 1. there exists a unique [[resolution of identity]] $E$ on $\mathcal{B}_{\widehat{A}}$ s.t. for every $T\in A$,$$T=\int_{\widehat{A}}\widehat{T}  \, dE $$where $\widehat{T}\in C(\widehat{A})$ is the Guelfand transform of $T$. This is equivalent to: $$\braket{ T(x) , y } =\int_{\widehat{A}}\widehat{T}  \, dE_{x,y} $$
+> 1. there exists a unique [[Resolution of Identity]] $E$ on $\mathcal{B}_{\widehat{A}}$ s.t. for every $T\in A$,$$T=\int_{\widehat{A}}\widehat{T}  \, dE $$where $\widehat{T}\in C(\widehat{A})$ is the Guelfand transform of $T$. This is equivalent to: $$\braket{ T(x) , y } =\int_{\widehat{A}}\widehat{T}  \, dE_{x,y} $$
 > 2. the inverse of the Guelfand transform $\gamma$ extends to a $C^{*}$-algebra isomorphism $\Psi:L^\infty(E)\to B$, with the following commutative diagram: $$\begin{CD}L^\infty(E) @>\Psi>> B\\@AAA&@AAA\\C(\widehat{A}) @>\gamma>>A\end{CD}$$given by $$\Psi(f):=\int_{\widehat{A}}f \, dE$$where $\Phi$ is linear, multiplicative and satisfies $\Psi(\bar{f})=\Psi(f)^{*}$ and $\left\| \Psi(f) \right\|=\left\| f \right\|_{\infty}$.
 > 3. we have: $B=\overline{\Psi(\mathcal{S}(\hat{A}))}$
 > 4. If $\omega \subseteq \widehat{A}$ is non-empty and open, then $E(\omega)\neq 0$.

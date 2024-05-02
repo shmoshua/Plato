@@ -1,6 +1,6 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
-> A [[Hilbert space operator]] $T\in \mathcal{B}(\mathcal{H})$ is ***positive*** if $\braket{ Tx , x }\geq 0$ for all $x\in \mathcal{H}$, denoted as $T\geq 0$.
+> A [[Hilbert Space Operator]] $T\in \mathcal{B}(\mathcal{H})$ is ***positive*** if $\braket{ Tx , x }\geq 0$ for all $x\in \mathcal{H}$, denoted as $T\geq 0$.
 - **Remark**: For any $T\in \mathcal{B}(\mathcal{H})$, $T^{*}T\geq 0$ as $\braket{ T^{*}T x, x }=\left\| Tx \right\|^{2}$
 ---
 ##### Properties

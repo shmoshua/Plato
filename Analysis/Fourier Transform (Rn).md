@@ -97,7 +97,7 @@
 > Now as $\mathcal{F}_{\text{ext}}[L^2(\mathbb{R}^n)]$ is an image of a Hilbert space of an isometry which is always closed. Therefore, $L^2(\mathbb{R}^n)\subseteq \mathcal{F}_{\text{ext}}[L^2(\mathbb{R}^n)]$ as $C_{00}^\infty(\mathbb{R}^n)$ is dense in $L^2(\mathbb{R}^n)$.
 ---
 > [!lemma] Lemma 8
-> Let $f\in W^{2,k}(\mathbb{R}^n)$, the [[Sobolev space]], then for all $\left| \alpha \right|\leq k$, $$\mathcal{F}(D^\alpha_{w}f)(\xi)=i^{\left| \alpha \right|}\xi^\alpha \mathcal{F}(f)(\xi)$$In particular, $\xi^\alpha \hat{f}\in L^2(\mathbb{R}^n)$. 
+> Let $f\in W^{2,k}(\mathbb{R}^n)$, the [[Sobolev Space]], then for all $\left| \alpha \right|\leq k$, $$\mathcal{F}(D^\alpha_{w}f)(\xi)=i^{\left| \alpha \right|}\xi^\alpha \mathcal{F}(f)(\xi)$$In particular, $\xi^\alpha \hat{f}\in L^2(\mathbb{R}^n)$. 
 
 > [!proof]-
 > We will show this using induction on $k$. First, we show for $k=1$. For $\varphi\in C_{00}^\infty(\mathbb{R}^n)$, we have $\partial_{j}^wf\in L^2(\mathbb{R}^n)$ we have, by Plancherel: $$\begin{align}\braket{ \mathcal{F}(\partial^w_{j}f) , \mathcal{F}(\varphi) }&=\braket{ \partial^w_{j}f , \varphi } \\&=-\braket{ f , \partial_{j}\varphi }  \\&=-\braket{ \mathcal{F}(f) , \mathcal{F}(\partial_{j}\varphi) } \\&=-\int_{\mathbb{R}^n}^{} \hat{f}\overline{\mathcal{F}(\partial_{j}\varphi)} \, dm \\&=\int_{\mathbb{R}^n}^{} \hat{f}(\xi)i\xi_{j}\overline{\hat{\varphi}(\xi)} \, dm(\xi)\\&=\braket{ i\xi_{j}\mathcal{F}f, \mathcal{F\varphi} } \end{align}$$As $\{ \mathcal{F}\varphi:\varphi\in C^\infty_{00}(\mathbb{R}^n) \}$ is dense in $L^2(\mathbb{R}^n)$, we get: $$\mathcal{F}(\partial_{j}^wf)=i\xi_{j}\mathcal{F}f$$The rest follows from recursion.

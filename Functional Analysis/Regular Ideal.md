@@ -1,14 +1,14 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
-> Let $A$ be a commutative [[Banach algebra]]. An [[ideal]] $I\subseteq A$ is ***regular***, if there exists $u\in A$ s.t. $$ux-x\in I,\quad\forall x\in A$$where $u$ is called a ***unit modulo $I$.***
+> Let $A$ be a commutative [[Banach Algebra]]. An [[ideal]] $I\subseteq A$ is ***regular***, if there exists $u\in A$ s.t. $$ux-x\in I,\quad\forall x\in A$$where $u$ is called a ***unit modulo $I$.***
 - **Equivalent definition**: $I$ is regular if either $I=A$ or $I\subsetneq A$ and $A / I$ is [[C-Algebra|unital]] as: $$(x+I)(u+I)=xu+I=ux-ux+x+I=x+I$$
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $A$ be a commutative [[Banach algebra]] and $I\subseteq A$ a proper regular ideal. Further, let $u\in A$ be a unit modulo $I$. Then, $$\|u-x\|\geq 1,\quad \forall x\in I$$
+> Let $A$ be a commutative [[Banach Algebra]] and $I\subseteq A$ a proper regular ideal. Further, let $u\in A$ be a unit modulo $I$. Then, $$\|u-x\|\geq 1,\quad \forall x\in I$$
 
 > [!proof]-
-> Assume $x\in I$ s.t. $\|u-x\|<1$. Then, $$s:=\sum_{n=0}^{\infty}(u-x)^n$$converges absolutely by [[Analysis/Functional Analysis/Spectrum|Lemma 2]].  Now, $$u-x=s-s(u-x)=\underbrace{ us-s }_{\in I }+\underbrace{ sx }_{ \in I }\in I$$ Therefore, $u\in I$ and $A  / I= (0)$. This implies that $I=A$, which is a contradiction. 
+> Assume $x\in I$ s.t. $\|u-x\|<1$. Then, $$s:=\sum_{n=0}^{\infty}(u-x)^n$$converges absolutely by [[Functional Analysis/Spectrum|Lemma 2]].  Now, $$u-x=s-s(u-x)=\underbrace{ us-s }_{\in I }+\underbrace{ sx }_{ \in I }\in I$$ Therefore, $u\in I$ and $A  / I= (0)$. This implies that $I=A$, which is a contradiction. 
 ---
 > [!lemma] Proposition 2
 > Let $I\subseteq A$ be regular and $I\subseteq J\subseteq A$ also an ideal. Then, $J$ is regular as well. 
@@ -35,7 +35,7 @@
 > Therefore, by [[Axiom of Choice|Zorn's lemma]], $\mathcal{L}$ has a maximal element. 
 ---
 > [!lemma] Corollary 5
-> Let $A$ be a unital commutative [[Banach algebra]]. If $x\in A$ is not invertible, then $x$ is contained in a maximal ideal.
+> Let $A$ be a unital commutative [[Banach Algebra]]. If $x\in A$ is not invertible, then $x$ is contained in a maximal ideal.
 
 > [!proof]-
 > Let $e\in A$ be the identity and consider the proper ideal $Ax$. Then, $e\notin Ax$, so $Ax$ is regular. Therefore, by Lemma 4, there exists a maximal regular ideal $I$ s.t. $x\in I.$

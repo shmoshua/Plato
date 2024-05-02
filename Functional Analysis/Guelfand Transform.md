@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $A$ be a commutative [[Banach algebra]]. Then, the ***Guelfand transform*** of $x\in A$ is the function: $$\begin{array}{cccc} {\hat{x}:}&{\hat{A}}&\to&{\mathbb{C}}\\&{\chi} &\mapsto & {\chi(x)} \end{array}{}$$
+> Let $A$ be a commutative [[Banach Algebra]]. Then, the ***Guelfand transform*** of $x\in A$ is the function: $$\begin{array}{cccc} {\hat{x}:}&{\hat{A}}&\to&{\mathbb{C}}\\&{\chi} &\mapsto & {\chi(x)} \end{array}{}$$
 ---
 ##### Properties
 > [!lemma] Theorem 1
