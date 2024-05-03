@@ -178,7 +178,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/L1 Space on d-regular Trees.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -393,7 +393,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stone weier",
+                "query": "mercer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -431,7 +431,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/L1 Space on d-regular Trees.md",
+                "file": "Lie Group/Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -448,7 +448,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/L1 Space on d-regular Trees.md",
+                "file": "Lie Group/Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -471,7 +471,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/L1 Space on d-regular Trees.md"
+                "file": "Lie Group/Topological Group.md"
               }
             }
           }
@@ -496,6 +496,9 @@
   "active": "68e580d131aaa65f",
   "lastOpenFiles": [
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/L1 Space on d-regular Trees.md",
+    "Analysis/Kernel.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
@@ -518,9 +521,6 @@
     "Algebra/Galois Extension.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Product Space.md",
-    "Algebra/Fixed Field.md",
-    "Analysis/Convolution (Rn).md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
