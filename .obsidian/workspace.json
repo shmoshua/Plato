@@ -146,7 +146,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Representation Theory/Tensor Algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -398,8 +398,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -419,7 +418,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Representation Theory/Tensor Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -436,7 +435,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Representation Theory/Tensor Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -459,7 +458,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+                "file": "Representation Theory/Tensor Algebra.md"
               }
             }
           }
@@ -483,6 +482,14 @@
   },
   "active": "b780245d0c8f877b",
   "lastOpenFiles": [
+    "Representation Theory/Character.md",
+    "Representation Theory/Dual Representation.md",
+    "Representation Theory/Path Algebra.md",
+    "Representation Theory/Quiver.md",
+    "Representation Theory/Quiver Representation.md",
+    "Representation Theory/Semisimple Representation.md",
+    "Representation Theory/Bimodule.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Galois Extension.md",
     "Lie Group/Topological Group.md",
@@ -495,20 +502,12 @@
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Guelfand Transform.md",
-    "Representation Theory/Character.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Analysis/Fourier Transform (Rn).md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Algebra I/Algebra I Roadmap.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Topology/Quotient Topology.md",
-    "Topology/Hausdorff Space.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Topology/Product Topology.md",
-    "Topology/Locally Compact Space.md",
-    "Topology/Fundamental System.md",
-    "Algebra/Separable Extension.md",
-    "Functional Analysis/Bounded Linear Map.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
