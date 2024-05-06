@@ -66,3 +66,30 @@
 >    
 >    Let $\gamma\in \widehat{G}\subseteq L^1(G)$. Then, $$\widehat{\gamma}(\chi)=\int_{G}\gamma(x)\overline{(x,\chi)}  \, d\mu(x)=\int_{G}\gamma \cdot \chi ^{-1}  \, d\mu=\delta_{\widehat{e}}(\gamma \chi ^{-1})=\delta_{\gamma}(\chi)  $$Therefore, $\delta_{\gamma}$ is continuous and $\{ \gamma \}\subseteq \widehat{G}$ is open and $\widehat{G}$ is discrete.
 ---
+> [!lemma] Proposition 6
+> Let $G$ be an abelian [[Locally Compact Topological Group|locally compact Hausdorff group]]. Then, 
+> 1. the function: $$\begin{array}{cccc} {}&{G\times \widehat{G}}&\to&{\mathbb{T}}\\&{(x,\chi)} &\mapsto & {\chi(x)} \end{array}{}$$ is continuous. 
+> 2. let $K\subseteq G$ compact and $C\subseteq \widehat{G}$ compact. For $\varepsilon>0$ and $$N(K,\varepsilon):=\{ \chi\in \widehat{G}:\left| (x,\chi)-1 \right| <\varepsilon, x\in K \},\quad N(C,\varepsilon):=\{ x\in G:\left| (x,\chi)-1 \right| <\varepsilon ,\chi\in C\}$$are open subsets of $\widehat{G}$ and $G$ respectively. 
+> 3. the family of subsets $N(K,\varepsilon)\subseteq \widehat{G}$ and their translates form a basis of open sets for the Guelfand topology on $\widehat{G}$.
+> 4. $\widehat{G}$ is a (locally compact) topological group.
+
+> [!proof]+
+> We have:
+> 1. for $f\in L^1(G)$, $$(\widehat{\lambda(x ^{-1})f})(\chi)=\int_{G}^{} f(xy)\overline{\chi(y)} \, d\mu(y)=\int_{G}^{} f(y)\overline{\chi(x ^{-1}y)} \, d\mu(y)= \chi(x)\widehat{f}(\chi) $$As $\widehat{f}:\widehat{G}\to \mathbb{C}$ is continuous, if we show that $G\times \widehat{G}\to \mathbb{C},(x,\chi)\mapsto (\widehat{\lambda(x ^{-1})f})(\chi)$  is continuous, then the function $(x,\chi)\mapsto \chi(x)$ is continuous on the open set $G\times \{ \chi\in \widehat{G}:\widehat{f}(\chi)\neq 0 \}$
+> 
+---
+##### Examples
+> [!h] Example 1
+> Let $G:=\mathbb{T}$, $f\in C(\mathbb{T})$ and $$I(f):=\int_{0}^{1} f(e^{2\pi i\theta}) \, d\mathcal{L}(\theta) $$ is a Haar functional on $C(\mathbb{T})$. Let $\mu$ be the corresponding Haar measure on $\mathbb{T}$. One shows that:
+> 1. every $\chi\in \widehat{\mathbb{T}}$ is of the form $\chi_{n}(z):=z^n$ for $n\in \mathbb{Z}$.
+> 2. there exists a group isomorphism $\mathbb{Z}\to \widehat{\mathbb{T}}$.
+> 3. the Fourier transform of $f\in L^1(\mathbb{T})$ is: $$\widehat{f}(n)=\int_{\mathbb{T}} f(z)z^{-n}  \, d\mu(z)=\int_{0}^{1} f(e^{2\pi i\theta})e^{-2\pi in \theta} \, d\mathcal{L}(\theta)  $$
+---
+> [!h] Example 2
+> Let $G:=\mathbb{R}$. Then, 
+> 1. every $\chi\in \widehat{\mathbb{R}}$ is of the form $\chi_{\alpha}(t)=e^{2\pi i\alpha t}$ for $\alpha\in \mathbb{R}$.
+> 2. there exists an isomorphism of locally compact abelian groups $\mathbb{R}\to \widehat{\mathbb{R}},\alpha\mapsto \chi_{\alpha}$.
+
+> [!proof]-
+> Let $\varphi\in C^\infty_{00}(\mathbb{R})$. Then, $\varphi*\chi\in C^\infty(\mathbb{R})$. Therefore, $\chi\in C^\infty$ and as $\chi(t+h)=\chi(t)\chi(h)$, $$\chi'(t)=\lim_{ h \to 0 }  \frac{\chi(t+h)-\chi(t)}{h}=\lim_{ h \to 0 }  \frac{\chi(t)\chi(h)-\chi(t)}{h}=\chi(t)\chi'(0)$$
+---
