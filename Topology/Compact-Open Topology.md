@@ -5,14 +5,20 @@
 ---
 ##### Properties
 > [!lemma] Theorem (Arzela-Ascoli)
-> Let $X$ be a locally compact Hausdorff space and $(Y,d)$ a metric space. A subset $F\subseteq C(X,Y)$ is ***relatively compact***, i.e. $\overline{F}$ is compact, if and only if
+> Let $X$ be a [[topological space]] and $(Y,d)$ a [[metric space]]. A subset $F\subseteq C(X,Y)$ is ***relatively compact***, i.e. $\overline{F}$ is compact if
 > 1. for all $x\in X$, $\overline{\{ f(x):f\in F \}}$ is compact.
 > 2. $F$ is [[Equicontinuity|equicontinuous]], i.e. for every $x\in X$ and $\varepsilon>0$, there exists a neighborhood $U$ of $x$ s.t. $$d(f(x),f(y))<\varepsilon,\quad \forall f\in F,y\in U$$
+> 
+> where the converse holds if $X$ is [[Locally Compact Hausdorff Space|locally compact Hausdorff]].
 
 ^40ff33
 
 > [!proof]+
-> 
+> We have:
+> 1. **$K:=\overline{F}$ is compact in $Y^X$**:
+>    Let $K_{x}:=\overline{\{ f(x) :f\in F\}}$ in $Y$. Then, $K_{x}$ is compact by assumption and is closed as $Y$ is metric. Therefore, $\prod_{x\in X}^{}K_{x}$ is compact by [[Product Topology|Tychonoff]] in $Y^X$ and is closed as $Y^X$ is Hausdorff. Then, $$F\subseteq \prod_{x\in X}^{}\{ f(x):f\in F \}\subseteq \prod_{x\in X}^{}K_{x}$$and its closure $K$ is a compact subset of $\prod_{x\in X}^{}K_{x}\subseteq Y^X$.
+>2. **The compact-open topology coincides with the [[Topology of Pointwise and Uniform Convergence|topology of pointwise convergence]] on $K$**:
+>   
 
 ^e1d408
 
