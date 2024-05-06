@@ -21,6 +21,18 @@
             }
           },
           {
+            "id": "1ceea6d893c81361",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Equicontinuity.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "018cfbe1dcfd0a1b",
             "type": "leaf",
             "state": {
@@ -77,6 +89,18 @@
             }
           },
           {
+            "id": "cbff4083f61b3c18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Equicontinuity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e80e5bd033a4dd39",
             "type": "leaf",
             "state": {
@@ -125,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Analysis/Equicontinuity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Analysis/Equicontinuity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact-Open Topology.md"
+                "file": "Analysis/Equicontinuity.md"
               }
             }
           }
@@ -253,13 +277,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "018cfbe1dcfd0a1b",
+  "active": "cbff4083f61b3c18",
   "lastOpenFiles": [
+    "Courses/Topology/Topology Roadmap.md",
+    "Analysis/Equicontinuity.md",
     "Topology/Topology of Compact Convergence.md",
     "Topology/Compact-Open Topology.md",
-    "Analysis/Equicontinuity.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Functional Analysis/Sobolev Space.md",
     "Courses/Topology/Exercise Sheet 9.md",
@@ -268,7 +293,6 @@
     "Functional Analysis/Fourier Transform.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Analysis/Kernel.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Lie Group/Topological Group.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Topology/Quotient Topology.md",
