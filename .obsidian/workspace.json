@@ -177,7 +177,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -469,11 +469,13 @@
   },
   "active": "68e580d131aaa65f",
   "lastOpenFiles": [
+    "Topology/Continuous Function.md",
+    "Lie Group/Topological Group.md",
+    "Functional Analysis/Fourier Transform.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Topology/Quotient Topology.md",
     "Topology/Product Topology.md",
-    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Haar Measure.md",
     "Courses/Topology/Exercise Sheet 9.md",
@@ -493,8 +495,6 @@
     "Differential Geometry/Grassmannian.md",
     "Differential Geometry/Multilinear k-Form.md",
     "Differential Geometry/Volume Form.md",
-    "Differential Geometry/Lie Bracket.md",
-    "Differential Geometry/Locally Euclidean Space.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

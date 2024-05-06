@@ -73,16 +73,16 @@
 > 3. the family of subsets $N(K,\varepsilon)\subseteq \widehat{G}$ and their translates form a basis of open sets for the Guelfand topology on $\widehat{G}$.
 > 4. $\widehat{G}$ is a (locally compact) topological group.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. for $f\in L^1(G)$, $$(\widehat{\lambda(x ^{-1})f})(\chi)=\int_{G}^{} f(xy)\overline{\chi(y)} \, d\mu(y)=\int_{G}^{} f(y)\overline{\chi(x ^{-1}y)} \, d\mu(y)= \chi(x)\widehat{f}(\chi) $$As $\widehat{f}:\widehat{G}\to \mathbb{C}$ is continuous, if we show that $G\times \widehat{G}\to \mathbb{C},(x,\chi)\mapsto (\widehat{\lambda(x ^{-1})f})(\chi)$  is continuous, then the function $(x,\chi)\mapsto \chi(x)$ is continuous on the open set $G\times \{ \chi\in \widehat{G}:\widehat{f}(\chi)\neq 0 \}$. But since, $A(\widehat{G})=\{ \widehat{f}:f\in L^1(G) \}$ is dense in $C_{0}(\widehat{G})$, $$\bigcup_{f\in L^1(G)}^{}\{ \chi\in \widehat{G}:\widehat{f}(\chi)\neq 0 \}=\widehat{G}$$
 >    To show the continuity of $(x,\chi)\mapsto (\widehat{\lambda(x ^{-1})f})(\chi)$, let $(x_{0},\chi_{0})\in G\times \widehat{G}$. Let $$V:=\{ x\in G :\left\| \lambda(x ^{-1})f-\lambda(x_{0}^{-1})f \right\|_{1} <\varepsilon\}\subseteq G$$ is open by [[Uniformly Continuous Function|Lemma 1]]. Similarly,  $$W:=\left\{ \chi \in \widehat{G}:\left| (\widehat{\lambda(x_{0}^{-1})f)(\chi)}-(\widehat{\lambda(x_{0}^{-1})f)(\chi_{0})} \right| <\varepsilon \right\}=\mathcal{U}(\chi_{0}),\lambda(x ^{-1}_{0})f,\varepsilon)$$ is an open neighborhood of $\chi_{0}$. 
 >    
 >    Therefore, for every $(x,\chi)\in V\times W$, $$\begin{align}&\left| (\widehat{\lambda(x^{-1})f)(\chi)}-(\widehat{\lambda(x_{0}^{-1})f)(\chi_{0})} \right| \\&\leq\left| (\widehat{\lambda(x^{-1})f)(\chi)}-(\widehat{\lambda(x_{0}^{-1})f)(\chi)} \right| +\left| (\widehat{\lambda(x_{0}^{-1})f)(\chi)}-(\widehat{\lambda(x_{0}^{-1})f)(\chi_{0})} \right| \\&<\left| (\widehat{\lambda(x^{-1})f-\lambda(x_{0}^{-1})f)}(\chi) \right| +\varepsilon \\&\leq\left\|_{1} (\lambda(x^{-1})f-\lambda(x_{0}^{-1})f)\right\|+\varepsilon \\&<2\varepsilon\end{align}$$This shows the continuity of the function and proves the claim.
-> 2. Let $\chi_{0}\in N(K,\varepsilon)$ and $x\in K$ Then, $\left| \chi_{0}(x)-1 \right|<\varepsilon$. By 1, there exists $x\in U_{x}\subseteq G$ open and $\chi_{0}\in W_{x}\subseteq \widehat{G}$ open s.t. $$\left| \chi(y)-1 \right| <\varepsilon,\quad \forall \chi\in W_{x},y\in U_{x}$$As $K$ is compact, let $K\subseteq \bigcup_{i=1}^{n}U_{x_{i}}$ and define $W:=\bigcap_{i=1}^{n}W_{x_{i}}$. Then, $$\left| \chi(y)-1 \right| <\varepsilon,\quad \forall y\in K\subseteq \bigcup_{i=1}^{n}U_{x_{i}}, \chi \in W$$Therefore, $W\subseteq N(K,\varepsilon)$ and $N(K,\varepsilon)$ is open.
->    
- 
-> 
+> 2. Let $\chi_{0}\in N(K,\varepsilon)$ and $x\in K$ Then, $\left| \chi_{0}(x)-1 \right|<\varepsilon$. By 1, there exists $x\in U_{x}\subseteq G$ open and $\chi_{0}\in W_{x}\subseteq \widehat{G}$ open s.t. $$\left| \chi(y)-1 \right| <\varepsilon,\quad \forall \chi\in W_{x},y\in U_{x}$$As $K$ is compact, let $K\subseteq \bigcup_{i=1}^{n}U_{x_{i}}$ and define $W:=\bigcap_{i=1}^{n}W_{x_{i}}$. Then, $$\left| \chi(y)-1 \right| <\varepsilon,\quad \forall y\in K\subseteq \bigcup_{i=1}^{n}U_{x_{i}}, \chi \in W$$Therefore, $W\subseteq N(K,\varepsilon)$ and $N(K,\varepsilon)$ is open. The statement for $N(C,\varepsilon)$ holds by symmetry.
+> 3. First, we show that $\{ N(K,r):r>0,K\subseteq G\text{ compact} \}$ forms a fundamental system of neighborhoods of $\widehat{e}$. We have to show that given $\varepsilon>0$ and $f_{1},\dots,f_{n}\in L^1(G)$, there are $K\subseteq G$ compact and $r>0$ s.t. $$N(K,r)\subseteq \mathcal{U}(\widehat{e};f_{1},\dots,f_{n};\varepsilon)=\left\{ \chi\in \widehat{G}:\left| \widehat{f}_{i}(\chi)-\widehat{f}_{i}(\widehat{e}) \right| <\varepsilon,1\leq i\leq n \right\}$$Let $g_{1},\dots,g_{n}\in C_{00}(G)$ s.t. $\|f_{i}-g_{i}\|_{1}< \varepsilon /3$ (as $C_{00}(G)\subseteq L^1(G)$ is dense). Then,  for $\chi\in \widehat{G}$, $$\left| \widehat{f}_{i}(\chi)-\widehat{f}_{i}(\widehat{e}) \right|\leq $$Let $K=\bigcup_{i=1}^{n}\text{supp } g_{i}$ and $r:= \frac{\varepsilon}{3 \max_{1\leq i\leq n}\|g_{i}\|_{1}}$. Then, indeed assume $\left| \chi(x)-1 \right|<r$ for all $x\in K$. Then, $$\begin{align}\left| \widehat{g}_{i}(\chi)-\widehat{g}_{i}(\widehat{e}) \right|&=\left| \int_{G}^{} g_{i}(x)(\overline{\chi(x)}-1) \, d\mu(x)  \right|\\&\leq \int_{G}^{} \left| g_{i}(x) \right| \left| \chi(x)-1 \right|  \, d\mu(x)\\&\leq \text{sup}_{x\in K}\left| \chi(x)-1 \right|  \cdot \|g_{i}\|_{1}\\&< r\|g_{i}\|_{1}\\&\leq \varepsilon /3 \end{align} $$Then, for $\gamma_{0}N(K,r)\subseteq \gamma_{0}\mathcal{U}(\widehat{e};f_{1}\cdot \gamma_{0}^{-1},\dots,f_{n}\cdot\gamma_{0}^{-1},\varepsilon)$
+> 4. For $\eta_{1},\eta_{2}\in \widehat{G}$, $$\left| \eta_{1}(x)\eta_{2}(x)-1 \right| =\left| (\eta_{1}(x)-1)\eta_{2}(x)+\eta_{2}(x)-1 \right|\leq \left| \eta_{1}(x)-1 \right| +\left| \eta_{2} (x)-1\right|  $$Therefore, for all $K\subseteq G$ compact and $\varepsilon >0$, $$N(K. \varepsilon /2)N(K, \varepsilon / 2)\subseteq N(K,\varepsilon)$$This shows the continuity of multiplication at $(\widehat{e},\widehat{e})$. Furthermore, $$\gamma_{1}N(K, \varepsilon / 2)\gamma_{2} N(K, \varepsilon / 2)\subseteq\gamma_{1}\gamma_{2}N(K, \varepsilon)$$
+- **Corollary**: on $\widehat{G}=\text{Hom}_{\text{cont}}(G, \mathbb{T})$, the [[compact-open topology]] and the Guelfand topology coincide.
 ---
 ##### Examples
 > [!h] Example 1
@@ -99,3 +99,13 @@
 > [!proof]-
 > Let $\varphi\in C^\infty_{00}(\mathbb{R})$. Then, $\varphi*\chi\in C^\infty(\mathbb{R})$. Therefore, $\chi\in C^\infty$ and as $\chi(t+h)=\chi(t)\chi(h)$, $$\chi'(t)=\lim_{ h \to 0 }  \frac{\chi(t+h)-\chi(t)}{h}=\lim_{ h \to 0 }  \frac{\chi(t)\chi(h)-\chi(t)}{h}=\chi(t)\chi'(0)$$
 ---
+> [!h] Example 3
+> Let $G_{1},G_{2}$ be abelian locally compact Hausdorff groups. Then,
+> 1. $\widehat{G_{1}\times G_{2}}\cong\widehat{G_{1}}\times \widehat{G_{2}}$ as for $\chi:G_{1}\times G_{2}\to \mathbb{T}$, we have $\chi|_{G_{1}}\in \widehat{G}_{1}$ and $\chi|_{G_{2}}\in \widehat{G}_{2}$.
+> 2. Let $G=\mathbb{Z} / m\mathbb{Z}$ the cyclic group of order $m$. Then, $$\begin{array}{cccc} {}&{\mathbb{Z} / m\mathbb{Z}}&\to&{\widehat{\mathbb{Z} / m\mathbb{Z}}}\\&{a} &\mapsto & {x\mapsto e^{2\pi iax / m}} \end{array}{}$$is a group isomorphism.
+> 3. If $F$ is finite abelian, then $\widehat{F}$ is isomorphic to $F$.
+> 4. $\widehat{\mathbb{T}}\cong \mathbb{Z}$ and $\widehat{\mathbb{R}}\cong \mathbb{R}$.
+> 5. $\widehat{\mathbb{Z}}\cong \mathbb{T}$
+> 6. $\widehat{(\mathbb{R}^n\times \mathbb{T}^m\times \mathbb{Z}^\ell \times F)}\cong \mathbb{R}^n\times \mathbb{Z}^m\times \mathbb{T}^\ell \times F$
+
+> 7. $\widehat{\mathbb{Q}_{p}}\cong \mathbb{Q}_{p}$
