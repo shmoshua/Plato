@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Topology/Topology of Compact Convergence.md",
                 "mode": "source",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Equicontinuity.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "mode": "preview",
                 "source": false
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Topology/Topology of Compact Convergence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Topology/Topology of Compact Convergence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact-Open Topology.md"
+                "file": "Topology/Topology of Compact Convergence.md"
               }
             }
           }
@@ -240,12 +240,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e83bbedc8f5f3d93",
+  "active": "9ea04376b7c4965a",
   "lastOpenFiles": [
+    "Topology/Compact-Open Topology.md",
+    "Topology/Topology of Compact Convergence.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Analysis/Equicontinuity.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Compact-Open Topology.md",
-    "Analysis/Equicontinuity.md",
     "Functional Analysis/Sobolev Space.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Topology/Continuous Function.md",
@@ -266,8 +268,6 @@
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/p-adic Rational.md",
     "Algebra/p-adic Integer.md",
-    "Algebra/Unitary Representation.md",
-    "Algebra/Symmetry Group.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
