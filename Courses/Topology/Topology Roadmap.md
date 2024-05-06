@@ -75,6 +75,7 @@
 
 **3.3 Functions**
 1. [[Normal Space]]
+2. [[Compact-Open Topology]]
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]

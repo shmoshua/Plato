@@ -107,5 +107,17 @@
 > 4. $\widehat{\mathbb{T}}\cong \mathbb{Z}$ and $\widehat{\mathbb{R}}\cong \mathbb{R}$.
 > 5. $\widehat{\mathbb{Z}}\cong \mathbb{T}$
 > 6. $\widehat{(\mathbb{R}^n\times \mathbb{T}^m\times \mathbb{Z}^\ell \times F)}\cong \mathbb{R}^n\times \mathbb{Z}^m\times \mathbb{T}^\ell \times F$
-
-> 7. $\widehat{\mathbb{Q}_{p}}\cong \mathbb{Q}_{p}$
+---
+> [!h] Example 4
+> We have $\widehat{\mathbb{Q}_{p}}\cong \mathbb{Q}_{p}$. We have that: $$\mathbb{Q}_{p}\xrightarrow{p}\mathbb{Q}_{p} / \mathbb{Z}_{p}\xrightarrow{\sim}\{ z\in \mathbb{T}: \exists n\geq 1, z^{p^n}=1 \}\subseteq \mathbb{T}$$This defines a continuous character $\chi:\mathbb{Q}_{p}\to \mathbb{T}$ with $\text{ker }\chi= \mathbb{Z}_{p}$. Then, $$\begin{array}{cccc} {}&{\mathbb{Q}_{p}}&\to&{\widehat{\mathbb{Q}_{p}}}\\&{a} &\mapsto & {\chi_{a}: x\mapsto \chi(ax)} \end{array}{}$$is an isomorphism. 
+> 
+> If $\gamma:\mathbb{Q}_{p}\to \mathbb{T}$ is a continuous homomorphism, then there exists $n\geq 1$ s.t. $\gamma(p^n \mathbb{Z}_{p})=1 \in \mathbb{T}$, where it is 1 as an image of a subgroup as a subgroup.
+---
+> [!h] Example 5
+> Let $(F_{n})_{n}$ be a sequence of finite abelian group with discrete topology and $G:=\prod_{n\geq 1}^{}F_{n}$ with the product topology. Then, $G$ is compact and $\widehat{G}$ is discrete as: $$\widehat{G}\cong \bigoplus_{n\geq 1}\widehat{F_{n}} $$If $\chi_{n}\in \widehat{F_{n}}$ with $\chi_{n}=\widehat{e}_{F_{n}}$ for all but finitely many $n$, then: $$(\bigoplus \chi_{n})(x_{n}):=\prod_{n\geq 1}^{}\chi_{n}(x_{n})$$
+---
+> [!h] Example 6 (Restrictive Product)
+> Let $(G_{j})_{j\in J}$ be a family of locally compact groups where for all $j\in J$, there exists a compact open subgroup $K_{j}\leq G_{j}$, e.g. $\text{SL}(2, \mathbb{Z}_{p})<\text{SL}(2,\mathbb{Q}_{p})$. Then, the ***restrictive product*** of $G_{j}$ w.r.t. $K_{j}$ is: $$\prod_{j\in J}^{}'G_{j}:=\left\{  (g_{j})_{j\in J}\in \prod_{j\in J}^{}G_{j}:g_{j}\in K_{j}\text{ for all but finitely many }j\in J  \right\}$$Then, the basis of topology is given by $\prod_{j\in J}^{}A_{j}$ where $A_{j} \subseteq G_{j}$ open and $A_{j}=K_{j}$ for all but finitely many $j\in J$. Then, $\prod_{j\in J}^{}'G_{j}$ is a locally compact group.
+---
+> [!h] Example 7 (Ring of Adeles)
+> Apply the preceding construction to $(\mathbb{Q}_{p})_{p}$. Then, $$\mathbb{A}_{\mathbb{Q}}:=\mathbb{R}\times \prod_{p}^{}'\mathbb{Q}_{p}$$is the ring of Adeles of $\mathbb{Q}$. Then, the injection $\mathbb{Q}\hookrightarrow \mathbb{A}_{\mathbb{Q}}$ has a discrete image and $\mathbb{A}_{\mathbb{Q}} / \mathbb{Q}$ is compact, as it holds that $\widehat{\mathbb{A}_{\mathbb{Q}}}\cong \mathbb{A}_{\mathbb{Q}}$.
