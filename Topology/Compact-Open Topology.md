@@ -17,8 +17,11 @@
 > We have:
 > 1. **$K:=\overline{F}$ is compact in $Y^X$**:
 >    Let $K_{x}:=\overline{\{ f(x) :f\in F\}}$ in $Y$. Then, $K_{x}$ is compact by assumption and is closed as $Y$ is metric. Therefore, $\prod_{x\in X}^{}K_{x}$ is compact by [[Product Topology|Tychonoff]] in $Y^X$ and is closed as $Y^X$ is Hausdorff. Then, $$F\subseteq \prod_{x\in X}^{}\{ f(x):f\in F \}\subseteq \prod_{x\in X}^{}K_{x}$$and its closure $K$ is a compact subset of $\prod_{x\in X}^{}K_{x}\subseteq Y^X$.
->2. **The compact-open topology coincides with the [[Topology of Pointwise and Uniform Convergence|topology of pointwise convergence]] on $K$**:
->   
+> 2. **The compact-open topology coincides with the [[Topology of Pointwise and Uniform Convergence|topology of pointwise convergence]] on $K$**:
+>    Let $U\subseteq C(X,Y)$ be open in $\mathcal{T}_{p}$. Then, for all $f_{0}\in U$, there exists $x_{1},\dots,x_{n}\subseteq X$ and $\varepsilon_{1},\dots,\varepsilon_{n}>0$ with $$\{ f\in C(X,Y):d(f_{0}(x_{i}),f(x_{i}))<\varepsilon_{i}, \forall i\in [n] \}\subseteq U$$Let $f_{0}\in U$. Then, for $K_{i}:=\{ x_{i} \}$ and  $U_{i}:=B_{<\varepsilon}(f_{0}(x_{i}))$, $$\mathcal{U}(K_{1},\dots,K_{n};U_{1},\dots,U_{n})\subseteq U$$and $U$ is open in the compact-open topology.
+>    
+>    Now, let $g\in K$ and $\mathcal{U}()$
+>1. 
 
 ^e1d408
 
