@@ -88,6 +88,10 @@
 1. [[Homotopy]]
 2. [[Contractible Space]]
 3. [[Path]]
+
+**4.2 The Fundamental Group**
+1. [[Path|Path homotopy]]
+2. 
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
@@ -99,3 +103,4 @@
 7. [[Courses/Topology/Exercise Sheet 7|Exercise Sheet 7]]
 8. [[Courses/Topology/Exercise Sheet 8|Exercise Sheet 8]]
 9. [[Courses/Topology/Exercise Sheet 9|Exercise Sheet 9]]
+10. 

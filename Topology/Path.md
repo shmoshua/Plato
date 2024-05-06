@@ -5,6 +5,7 @@
 - **Related definition**: A path $\gamma$ is ***closed*** if $\gamma(0)=\gamma(1)$.
 - **Related definition**: For two paths $\gamma_{1},\gamma_{2}$ on $X$ s.t. $\gamma_{1}(1)=\gamma_{2}(0)$, the ***composite path*** is given as $\gamma_{1}\gamma_{2}$ where: $\gamma(t)=\gamma_{0}(2t)\mathbb{1}_{[0, 1/ 2]}(t)+\gamma_{1}(2t-1)\mathbb{1}_{[1/ 2, 1]}(t)$.
 - **Related definition**: For a path $\gamma$ on $X$, the ***reverse*** of the path is $\overline{\gamma}$ where $\overline{\gamma}(t)=\gamma(1-t)$.
+- **Related definition**: Two paths $\gamma_{0},\gamma_{1}$ on $X$ are ***path-homotopic*** if there exists a homotopy $h:[0,1]\times[0,1]\to X$ s.t. $h(x,0)=\gamma_{0}(x)$, $h(x,1)=\gamma_{1}(x)$ and for all $t\in[0,1]$, $h(0,t),h(1,t)$ are constant.
 ---
 ##### Examples
 > [!h] Example 1

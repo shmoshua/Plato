@@ -160,4 +160,4 @@
 4. [[Courses/Functional Analysis I/Exercise Sheet 6]]
 5. [[Courses/Functional Analysis I/Exercise Sheet 7]]
 6. [[Courses/Functional Analysis I/Exercise Sheet 9]]
-7. [[Exercise Sheet 10]]
+7. [[Courses/Functional Analysis I/Exercise Sheet 10]]
