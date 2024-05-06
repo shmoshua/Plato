@@ -79,6 +79,10 @@
 3. [[Topology of Compact Convergence]]
 4. [[Equicontinuity]]
 5. [[Compact-Open Topology|Arzela-Ascoli Theorem]]
+6. [[Continuous Function|Stone-Weierstrass Thereom (real)]]
+---
+##### 4. Homotopies and the Fundamental Group
+
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
