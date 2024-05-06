@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Analysis/Equicontinuity.md",
                 "mode": "source",
                 "source": true
               }
@@ -43,114 +43,6 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "fc365c06c899c485",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f23386bf3ce1543",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Inner Automorphism.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61ffaa4fec3fc95a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "54f9f384ae38a7a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Normal Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cde8752c0502a610",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Ultrafilter.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "454ceafbb7fb994e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Filter.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fd50cc16a8213552",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cb7816f0ae67e1dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Locally Compact Topological Group.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b780245d0c8f877b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       },
@@ -177,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -189,19 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71f2ecde3689c9d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -213,146 +93,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 9.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "118df8ee09e57732",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Hausdorff Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35ebe10bd5a8252b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Galois Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7de3f357d0297696",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Complex Measure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe67c60872a39176",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/p-adic Rational.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04134872aea65850",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Fundamental System.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06d5bbaa474fa3b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Locally Compact Topological Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f44d234c8c7e2d6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Topological Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8921606d38255905",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Normal Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2167d9b4747800e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Quotient Topology.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20c93d24fd2c525a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Connected Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b458e41eb13ad36d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Connected Space.md",
+                "file": "Analysis/Equicontinuity.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -418,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Analysis/Equicontinuity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -435,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Analysis/Equicontinuity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -458,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact-Open Topology.md"
+                "file": "Analysis/Equicontinuity.md"
               }
             }
           }
@@ -480,23 +228,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e80e5bd033a4dd39",
+  "active": "5b876a3fab471e93",
   "lastOpenFiles": [
-    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Topology/Exercise Sheet 9.md",
+    "Analysis/Equicontinuity.md",
     "Topology/Compact-Open Topology.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Continuous Function.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Normal Space.md",
     "Functional Analysis/Fourier Transform.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Analysis/Kernel.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Topology/Continuous Function.md",
     "Lie Group/Topological Group.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Topology/Quotient Topology.md",
     "Topology/Product Topology.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Haar Measure.md",
-    "Courses/Topology/Exercise Sheet 9.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Mean (Group Theory).md",
     "Algebra/Linear Algebra/Algebraic and Geometric Multiplicity.md",
@@ -506,8 +256,6 @@
     "Algebra/Unitary Representation.md",
     "Algebra/Symmetry Group.md",
     "Algebra/Quaternion Group.md",
-    "Differential Geometry/Atlas.md",
-    "Differential Geometry/Cotangent Space.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",

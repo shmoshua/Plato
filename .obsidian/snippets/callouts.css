@@ -13,6 +13,12 @@
   margin-top: 1em !important;
 }
 
+.inline-embed .markdown-rendered {
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+}
+
+
 .inline-embed .markdown-embed-content .callout[data-callout="lemma"]{
   --callout-color: 190,41,236;
 }

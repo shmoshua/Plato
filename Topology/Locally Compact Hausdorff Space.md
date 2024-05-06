@@ -47,3 +47,4 @@
 ---
 > [!lemma] Proposition 1
 > Let $X$ be a locally compact Hausdorff space and: $$I(E):=\{ f\in C_{0}(X):f|_{E}=0 \}\quad \forall E\subseteq X$$Then, $$\begin{array}{cccc} &{\{ E\subseteq X :E \text{ is closed}\}}&\to&{\{ \mathfrak{a}\subseteq C_{0}(X):\mathfrak{a}\text{ is a closed ideal} \}}\\&{E} &\mapsto & {I(E)} \end{array}{}$$is a bijection. Moreover, $I(E)$ is maximal if and only if $\left| E \right|=1$.
+---
