@@ -7,12 +7,15 @@
 > [!lemma] Theorem (Arzela-Ascoli)
 > Let $X$ be a locally compact Hausdorff space and $(Y,d)$ a metric space. A subset $F\subseteq C(X,Y)$ is ***relatively compact***, i.e. $\overline{F}$ is compact, if and only if
 > 1. for all $x\in X$, $\overline{\{ f(x):f\in F \}}$ is compact.
-> 2. $F$ is equicontinuous, i.e. for every $x\in X$ and $\varepsilon>0$, there exists a neighborhood $U$ of $x$ s.t. $$d(f(x),f(y))<\varepsilon,\quad \forall f\in F,y\in U$$
+> 2. $F$ is [[Equicontinuity|equicontinuous]], i.e. for every $x\in X$ and $\varepsilon>0$, there exists a neighborhood $U$ of $x$ s.t. $$d(f(x),f(y))<\varepsilon,\quad \forall f\in F,y\in U$$
 
 ^40ff33
 
 > [!proof]+
 > 
+
+^e1d408
+
 ---
 > [!lemma] Lemma 2
 > Let $X,Y,Z$ be Hausdorff spaces and $h:Z \to X$ continuous. Then, $$h^{*}:C(X,Y)\to C(Z,Y)$$is continuous w.r.t compact-open topologies.

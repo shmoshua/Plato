@@ -9,15 +9,23 @@
   
 }
 
+.inline-embed {
+  margin-top: -1em !important;
+}
+
+.inline-embed[alt=p] {
+  margin-top: -1.7em !important;
+}
+
+
 .inline-embed .markdown-embed-content .callout-content p {
   margin-top: 1em !important;
 }
 
-.inline-embed .markdown-rendered {
+.inline-embed .markdown-rendered .callout{
   margin-top: 0em !important;
   margin-bottom: 0em !important;
 }
-
 
 .inline-embed .markdown-embed-content .callout[data-callout="lemma"]{
   --callout-color: 190,41,236;
@@ -45,7 +53,7 @@ img {
 }
 
 .callout{
-  --callout-color: 40,0,256;
+--callout-color: 40,0,256;
 --callout-content-padding: 0px;
 --callout-border-width: 0px;
 line-height: 1em;
