@@ -82,7 +82,10 @@
 6. [[Continuous Function|Stone-Weierstrass Thereom (real)]]
 ---
 ##### 4. Homotopies and the Fundamental Group
+1. [[Homeomorphism]] between $\mathbb{R}^n$
 
+**4.1 Homotopy**
+1. 
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
