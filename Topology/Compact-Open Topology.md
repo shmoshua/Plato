@@ -26,7 +26,7 @@
 
 ^40ff33
 
-> [!proof]+
+> [!proof]-
 > Let $\mathcal{K}:=\overline{F}^{\text{p.c.}}$, i.e. the closure w.r.t. the topology of pointwise convergence. Then, 
 > 1. **$\mathcal{K}$ is equicontinuous**. 
 > 	   For $x\in X$ and $\varepsilon>0$, let $U$ be the open neighborhood of $x$ s.t. $$d(f(x),f(y))<\varepsilon /3, \quad \forall f\in F,y\in U$$Let $g\in \mathcal{K}$ and $y\in U$. Then, $$V:=\{ h\in Y^X:d(h(x),g(x)< \varepsilon /3), d(h(y),g(y))<\varepsilon /3 \}$$Then, $V$ is a open neighborhood of $g$ in $Y^X$. Therefore, $V\cap \mathcal{F}\neq \varnothing$ and there exists $f\in V\cap \mathcal{F}$ s.t. $$d(g(x),g(y))\leq d(g(x),f(x))+d(f(x),f(y))+d(f(y),g(y))<\varepsilon$$
@@ -41,7 +41,7 @@
 > 
 > Further, assume that $X$ is locally compact Hausdorff and $\mathcal{K}$ is compact. It suffices to show that $\mathcal{K}$ is equicontinuous and pointwise compact. Let $x\in X$ and consider the following map: $$\begin{array}{cccc} {}&{C(X,Y)}&\to &Y\\&{f} &\mapsto&f(x) \end{array}{}$$which is continuous. Then, $\mathcal{K}_{x}$ is the continuous image of a compact set and is compact. 
 > 
-> To show the equicontinuity, let $x\in X$ and $\varepsilon>0$. Let further $A\subseteq X$ be the compact neighborhood of $x$.  
+> To show the equicontinuity, let $x\in X$ and $\varepsilon>0$. Let further $A\subseteq X$ be the compact neighborhood of $x$. We define: $\mathcal{K}_{A}:=\{ f|_{A}:f\in \mathcal{K} \}$ which is compact in $C(A,Y)$ as a continuous image of a compact set.  Since $A$ is compact, the compact convergence topology coincides with the uniform convergence topology. Therefore, $\mathcal{K}_{A}$ is totally bounded on $C(A,Y)$. By [[Equicontinuity|Proposition 1]], $\mathcal{F}$ is equicontinuous. Therefore, $\mathcal{K}$ is equicontinuous. 
 
 ^e1d408
 

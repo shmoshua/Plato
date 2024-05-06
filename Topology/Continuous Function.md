@@ -41,3 +41,11 @@
 > [!proof]-
 > Let $A\subseteq C$ where $C$ is closed. Then, $f^{-1}(A)\subseteq f^{-1}(C)$ and $\overline{f^{-1}(A)}\subseteq f^{-1}(C)$. Therefore, $$\overline{f^{-1}(A)}\subseteq \bigcap_{A\subseteq C,C\text{ closed}}^{}f^{-1}(C)=f^{-1}\left( \bigcap_{A\subseteq C,C\text{ closed}}^{}C \right) =f^{-1}(\overline{A})$$
 ---
+##### Compact Hausdorff Spaces
+> [!lemma] Theorem (Stone-Weierstrass)
+> Let $X$ be a [[Compact Space|compact]] [[Hausdorff space]]. Let $\mathcal{F}\subseteq C(X,\mathbb{R})$ s.t. 
+> 1. for $f,g\in \mathcal{F}$, $f+g,fg\in \mathcal{F}$
+> 2. constants are in $\mathcal{F}$
+> 3. for $x\neq y$, there exists $f\in \mathcal{F}$ with $f(x)\neq f(y)$
+>    
+>  Then, $\mathcal{F}\subseteq C(X,\mathbb{R})$ is dense w.r.t. the [[Topology of Pointwise and Uniform Convergence|topology of uniform convergence]]. 
