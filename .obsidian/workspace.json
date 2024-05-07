@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md",
+                "file": "Topology/Path.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Path.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,8 +99,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/One-Point Compactification.md",
+                "file": "Topology/Path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/One-Point Compactification.md",
+                "file": "Topology/Path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/One-Point Compactification.md"
+                "file": "Topology/Path.md"
               }
             }
           }
@@ -228,15 +227,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b09f008755d593fd",
+  "active": "9ea04376b7c4965a",
   "lastOpenFiles": [
-    "Topology/Homeomorphism.md",
-    "Courses/Topology/Exercise Sheet 10.md",
-    "Topology/Compact Space.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Courses/Topology/Exercise Sheet 10.md",
     "Topology/Path.md",
-    "Topology/Homotopy.md",
     "Topology/Contractible Space.md",
+    "Topology/One-Point Compactification.md",
+    "Topology/Homeomorphism.md",
+    "Topology/Compact Space.md",
+    "Topology/Homotopy.md",
     "Topology/Compact-Open Topology.md",
     "Topology/Topology of Compact Convergence.md",
     "Topology/Continuous Function.md",
@@ -255,7 +255,6 @@
     "Functional Analysis/Bounded Linear Map.md",
     "Topology/Quotient Topology.md",
     "Topology/Product Topology.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
