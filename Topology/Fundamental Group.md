@@ -18,6 +18,6 @@
 > 2. We have that: $$\varepsilon_{x}\gamma(t)=\begin{cases}x&0\leq t\leq \frac{1}{2}\\\gamma(2t-1)& \frac{1}{2}\leq t\leq 1\end{cases}$$with homotopy: $$h(t,s)=\begin{cases}x&0\leq t\leq \frac{1 -s}{2}\\\gamma\left(  \frac{2}{1+s}t+1 -\frac{2}{1+s} \right)& \frac{1-s}{2}\leq t\leq 1\end{cases}$$Then, $h(0,s)=x, h(1,s)=\gamma(1)$ with $h(t,0)=\varepsilon_{x}\gamma(t)$ and $h(t,1)=\gamma(t)$.
 >    
 >    Similarly, it holds for $\gamma \varepsilon_{y}=\gamma$.
-> 3. 
+> 3. We have: $$\gamma\overline{\gamma}(t)=\begin{cases}\gamma(2t)&0\leq t \leq \frac{1}{2}\\\gamma(2-2t)& \frac{1}{2}\leq t\leq 1\end{cases}$$Then, $$h(t,s):=\begin{cases}\gamma(2st)&0\leq t\leq 1 /2\\\gamma(2s(1-t))& 1/\end{cases}$$
 
 - **Corollary**: $\Lambda_{x,x}$ is indeed a group with path composition and path inversion.
