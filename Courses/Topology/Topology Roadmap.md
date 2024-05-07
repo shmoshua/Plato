@@ -91,7 +91,7 @@
 
 **4.2 The Fundamental Group**
 1. [[Path|Path homotopy]]
-2. 
+2. [[Fundamental Group]]
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
@@ -103,4 +103,4 @@
 7. [[Courses/Topology/Exercise Sheet 7|Exercise Sheet 7]]
 8. [[Courses/Topology/Exercise Sheet 8|Exercise Sheet 8]]
 9. [[Courses/Topology/Exercise Sheet 9|Exercise Sheet 9]]
-10. 
+10. [[Courses/Topology/Exercise Sheet 10|Exercise Sheet 10]]

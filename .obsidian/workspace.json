@@ -14,31 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "268804a34364b18d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Contractible Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f4478395e2fc190b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Homeomorphism.md",
+                "file": "Algebra/K-Homomorphism.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,50 +33,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path.md",
+                "file": "Algebra/Galois Group.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "201cd410ef17d52b",
+            "id": "ffb5968166e26a90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca02dc23dd08e823",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Contractible Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b09f008755d593fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/One-Point Compactification.md",
-                "mode": "preview",
+                "file": "Algebra/K-Homomorphism.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Algebra/Galois Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Algebra/Galois Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Fundamental Group.md"
+                "file": "Algebra/Galois Group.md"
               }
             }
           }
@@ -228,15 +179,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9ea04376b7c4965a",
+  "active": "68e580d131aaa65f",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 10.md",
-    "Topology/Fundamental Group.md",
+    "Algebra/Galois Extension.md",
+    "Algebra/K-Homomorphism.md",
+    "Algebra/Galois Group.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/Path.md",
     "Topology/Contractible Space.md",
-    "Topology/One-Point Compactification.md",
     "Topology/Homeomorphism.md",
+    "Topology/Fundamental Group.md",
+    "Topology/Path.md",
+    "Courses/Topology/Exercise Sheet 10.md",
+    "Topology/One-Point Compactification.md",
     "Topology/Compact Space.md",
     "Topology/Homotopy.md",
     "Topology/Compact-Open Topology.md",
@@ -252,10 +207,6 @@
     "Courses/Topology/Exercise Sheet 9.md",
     "Topology/Normal Space.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
-    "Analysis/Kernel.md",
-    "Lie Group/Topological Group.md",
-    "Functional Analysis/Bounded Linear Map.md",
-    "Topology/Quotient Topology.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
