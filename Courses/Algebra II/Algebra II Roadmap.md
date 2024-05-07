@@ -55,6 +55,10 @@
 2. [[Fixed Field]]
 3. [[Galois Extension]]
 4. [[Character]]
+5. [[Normal Closure]]
+---
+##### 4. The Galois Correspondence
+1. [[Galois Correspondence]]
 
 ---
 ### Exercises

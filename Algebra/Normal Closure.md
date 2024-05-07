@@ -17,7 +17,10 @@
 
 > [!proof]-
 > Suppose $\alpha\in L$. Let $m:=m_{\alpha,K}$ be its minimal polynomial over $K$. Then, $$0=m(\alpha)=\phi(m(\alpha))=m(\phi(\alpha))$$Therefore, $\phi(\alpha)$ is also a root of $m$. However, as $N:K$ is normal, $\phi(\alpha)\in N$.
-- **Remark**: if $L:K$ is normal, 
+- **Corollary**: if $L:K$ is normal and finite where $K\subseteq L\subseteq M$, then $\text{Mono}_{K}(L,M)=\text{Aut}_{K}(L)$ as $\phi(L)\subseteq L$ and $L:K$ is finite. 
+---
+> [!lemma] Theorem 3
+> Suppose $L:K$ is finite and separable of degree $n$. Then, for a normal closure $N$ of $L:K$, $$\left| \text{Mono}_{K}(L:N) \right| =n$$
 ---
 ##### Examples
 > [!h] Example 1

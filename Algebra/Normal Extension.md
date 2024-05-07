@@ -29,6 +29,14 @@
 > - (2=>3): Let $\varphi\in \text{Hom}_{K}(L,\overline{L})$ and $a\in A$. Then, $$m_{a,K}(x)=\prod_{i=1}^{n}(X-a_{i})$$ for $a_{i}\in L$. Then, $m_{a,K}(\varphi(a_{i}))=\varphi(m_{a,K}(a_{i}))=\varphi(0)=0$. Therefore, $$\varphi(\{ a_{1},\dots,a_{n} \})=\{ a_{1},\dots,a_{n} \}$$and $\varphi(K(a_{1},\dots,a_{n}))=K(a_{1},\dots,a_{n})$. As $a$ is arbitrary, $\varphi(L)=L$.
 > - (3=>1): Let $a\in A$ and $m_{a,k}(x)=\prod_{i=1}^{n}(X-a_{i})$ where $a_{i}\in \overline{L}$. Wlog assume that $a_{1}=a$. For each $i$, we have: $$\begin{array}{cccc} {\varphi_{i}:}&{K(a)}&\to&{K(a_{i})}\\&{a} &\mapsto & {a_{i}} \end{array}{}$$Therefore, this can be extended to a map $\varphi:L\to \overline{L}$ but by assumption $\varphi(L)=L$. Then, it follows that $a_{i}\in L$ and $m_{a,K}$ splits over $L$.
 ---
+> [!lemma] Theorem 2 (Equivalence of Normal Extension)
+> Let $L:K$ be finite. Then, the following are equivalent:
+> 1. $L:K$ is normal.
+> 2. for every $K\subseteq L\subseteq M$, $\text{Mono}_{K}(L,M)=\text{Aut}_{K}(L)$
+> 3. there exists a normal extension $N$ of $L:K$ s.t. $\text{Mono}_{K}(L,N)=\text{Aut}_{K}(L)$
+
+
+---
 > [!lemma] Corollary 3
 > Let $L:M:K$ be a tower of fields. If $L:K$ is normal, then $L:M$ is normal.
 
