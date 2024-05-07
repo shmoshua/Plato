@@ -28,7 +28,7 @@
 >     Since $L:K$ is normal, separable and finite, let $L=K(\alpha_{1},\dots,\alpha_{n})$ and let $p_{i}(x)$ be the minimal polynomial of $\alpha_{i}$ over $K$. Since $L:K$ is normal, $L$ has all the roots of $p_{i}$.  As $L:K$ is separable, $p_{i}$ is separable and $L$ is the splitting field of the product of $p_{i}$ where this polynomial is also separable.
 >   4. **Other implication**:
 >      [[Galois Group|Theorem 4]]
-- **Corollary**: If $L:K$ is a Galois extension and $K\subseteq M\subseteq L$, then $M:L$ is also Galois (cf. [[Separable Extension|Lemma 1]] and [[Normal Extension|Corollary 3]])
+- **Corollary**: If $L:K$ is a Galois extension and $K\subseteq M\subseteq L$, then $L:M$ is also Galois (cf. [[Separable Extension|Lemma 1]] and [[Normal Extension|Corollary 3]])
 - **Remark**: In the scenario above, $M:K$ is not necessarily Galois, e.g. $\mathbb{Q}(\sqrt[4]{2  }, i):\mathbb{Q}(\sqrt[4]{2  }):\mathbb{Q}$
 ---
 > [!lemma] Theorem 2

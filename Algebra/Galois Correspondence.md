@@ -42,13 +42,31 @@ It holds that:
 ^9c8ee6
 
 ---
-> [!lemma] Theorem 3 (The Fundamental Theorem of Galois Correspondence)
+> [!lemma] Lemma 3
+> Let $L:K$ be an extension and $K\subseteq M\subseteq L$. For $\tau\in \text{Aut}_{K}(L)$, $$\gamma(\tau(M))=\tau \gamma(M)\tau ^{-1}$$
+
+> [!proof]-
+> Let $\tilde{M}:=\tau(M)$. Take $\sigma\in \gamma(M)$ and $\tilde{x}\in \tilde{M}$. Then, there exists $x\in M$ s.t. $\tau(x)=\tilde{x}$. Therefore, $$(\tau\sigma \tau ^{-1})(\tilde{x})=\tau\sigma(x)=\tau(x)=\tilde{x}$$Therefore, $\tau\sigma \tau ^{-1}\in \gamma(\tilde{M})$ and $\tau\gamma(M)\tau ^{-1}\subseteq \gamma(\tau(M))$.  
+> 
+> Conversely, take $\sigma\in \gamma(\tilde{M})$ and $x\in M$. Then, $$(\tau ^{-1}\sigma \tau)(x)=\tau ^{-1}(\tau(x))=x$$Therefore, $\tau ^{-1}\gamma(\tau(M))\tau \subseteq \gamma(M)$, which proves the statement.
+---
+> [!lemma] Theorem 4 (The Fundamental Theorem of Galois Correspondence)
 > Let $L:K$ be finite [[Galois Extension|Galois]] of degree $n$. Then, 
 > 1. $\left| \text{Gal}(L:K) \right|=[L:K]=n$.
-> 2. the maps $\phi,\gamma$ are mutual inverses and they set up an order reversing one-to-one correspondence between $\mathcal{F}$ and $\mathcal{G}$.
-> 3. if $M\in \mathcal{F}$, then $\left| \gamma(M) \right|=\left| \text{Gal}(L:M) \right|=[L:M]$ and $[M:K]=\left| \text{Gal}(L:K) \right| / \left| \gamma(M) \right|$.
+> 2. the maps $\phi,\gamma$ are mutual inverses.
+> 3. if $M\in \mathcal{F}$, then $[L:M]=\left| \gamma(M) \right|$ and $[M:K]=\left| \text{Gal}(L:K) \right| / \left| \gamma(M) \right|$.
 > 4. an intermediate field $M:K$ is normal if and only if $\gamma(M)\unlhd \text{Gal}(L:K)$
 > 5. if $M:K$ is normal, $\text{Gal}(M:K)\cong \text{Gal}(L:K) / \gamma(M)$.  
+
+> [!proof]+
+> We have:
+> 1. [[Galois Extension|Theorem 1]]
+> 2. Let $M\in \mathcal{F}$. Then, $L:M$ is Galois from [[Galois Extension|Corollary of Theorem 1]]. Therefore, by [[Galois Extension|Corollary 3]], $\phi\gamma(M)=M$.
+>    
+>    Conversely, let $H\in \mathcal{G}$, i.e. $H\leq \text{Gal}(L:K)$. Then, $H\subseteq\gamma(\phi(H))$ and $\phi(H)=\phi(\gamma(\phi(H)))$. By [[Galois Extension|Theorem 2]], $\left| L:\phi(H) \right|=\left| H \right|$. Therefore, $$\left| H \right| =[L:\phi(H)]=[L:\phi(\gamma(\phi(H)))]=\left| \gamma(\phi(H)) \right| $$ and $H=\gamma(\phi(H))$.
+>3. As $L:M$ is normal, $[L:M]=\left| \gamma(M) \right|$ and $$[M:K]=\frac{[L:K]}{[L:M]}=\frac{\left| \text{Gal}(L:K) \right| }{\left| \text{Gal}(L:M) \right| }$$
+>4. Suppose $M:K$ is normal. Let $\tau\in \text{Gal}(L:K)$. Then, by [[K-Homomorphism|Theorem 1]] $\tau|_{M}\in \text{Mono}_{K}(M,L)$. By [[Normal Extension|Theorem 2]], $\tau|_{M}\in \text{Aut}_{K}(M)$ and $\tau(M)=M$. By Lemma 3, $$\gamma(M)=\tau\gamma(M)\tau ^{-1}$$
+>   Conversely, let $\gamma(M)\unlhd \text{Gal}(L:K)$. Let $\sigma\in \text{Mono}_{K}(M:L)$. As $L:K$ is normal, by [[K-Homomorphism|Theorem 1]], there exists $\tau\in \text{Gal}(L:K)$ s.t. $\tau|_{M}=\sigma$.  From the normality, $$\tau\gamma(M)\tau ^{-1}=\gamma(M)$$Then, by Lemma 3, $\gamma(M)=\gamma(\tau(M))$ and by 2, $$
 ---
 ##### Examples
 > [!h] Example 1
