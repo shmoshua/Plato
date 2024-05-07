@@ -3,8 +3,8 @@
 > [!definition]
 > A ***kernel*** on a set $X$ is a function $K:X\times X\to \mathbb{R}$. A kernel is:
 > 1. ***symmetric*** if $K(x,y)=K(y,x)$ for all $x,y\in X$
-> 2. ***positive semidefinite*** if for all $n\geq 1$ and $(x_{1},\dots,x_{n})\in X^n$, $[K(x_{i},x_{j})]_{i,j\in[n]}\in \mathbb{R}^{n,n}$ is positive semidefinite, i.e. for all $(c_{1},\dots,c_{n})\in\mathbb{R}^n$:$$\sum_{i,j=1}^{n}c_{i}c_{j}K(x_{i},x_{j})\geq 0$$
-
+> 2. ***positive semidefinite*** if for all $n\geq 1$ and $(x_{1},\dots,x_{n})\in X^n$, the ***Gram matrix*** $[K(x_{i},x_{j})]_{i,j\in[n]}\in \mathbb{R}^{n,n}$ is positive semidefinite, i.e. for all $(c_{1},\dots,c_{n})\in\mathbb{R}^n$:$$\sum_{i,j=1}^{n}c_{i}c_{j}K(x_{i},x_{j})\geq 0$$
+- **Remark**: A kernel $K$ ***reproduces*** a [[Hilbert space]] $\mathcal{H}$, if for all $x\in X$, $K(x,\cdot)\in \mathcal{H}$ and for every $h\in \mathcal{H}$, $$\braket{ f , K(x,\cdot ) } =f(x)$$
 - **Remark**: for a positive semidefinite kernel $K$, $K(x,x)\geq 0$ for all $x\in X$ by taking $n=1$.
 - **Remark**: Let $(X,d)$ be a [[Compact Metric Space|compact metric space]], $\mu\in M^1(X)$ a [[Borel Measure|Borel-regular]] probability measure on $X$. Given a continuous kernel $K\in C(X\times X,\mathbb{R})$, the operator $T_{K}:L^2(X,\mu)\to L^2(X,\mu)$ given as: $$T_{K}f(x)=\int_{X}^{}K(x,y)f(y)  \, d\mu(y) $$is [[Hilbert-Schmidt Operator|Hilbert-Schmidt]] and [[Compact Operator|compact]], from [[Hilbert-Schmidt Operator|Proposition 6]]. In addition, if $K$ is symmetric, $T_{K}$ is [[Compact, Self-adjoint Operators|self-adjoint]] and the spectral theorem applies.
 ---
