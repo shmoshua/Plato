@@ -14,9 +14,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/K-Homomorphism.md",
+                "file": "Algebra/Normal Closure.md",
                 "mode": "source",
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "658ca9ed2c705897",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -33,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -45,13 +57,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/K-Homomorphism.md",
-                "mode": "source",
+                "file": "Algebra/Normal Closure.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32504a0b66d181c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Splitting Field.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Normal Closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Normal Closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Group.md"
+                "file": "Algebra/Normal Closure.md"
               }
             }
           }
@@ -179,12 +204,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "68e580d131aaa65f",
+  "active": "ffb5968166e26a90",
   "lastOpenFiles": [
-    "Algebra/Galois Extension.md",
     "Algebra/K-Homomorphism.md",
-    "Algebra/Galois Group.md",
+    "Algebra/Normal Closure.md",
+    "Algebra/Galois Extension.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Splitting Field.md",
+    "Algebra/Galois Group.md",
+    "Algebra/Normal Extension.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Contractible Space.md",
     "Topology/Homeomorphism.md",
@@ -204,9 +232,6 @@
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Sobolev Space.md",
-    "Courses/Topology/Exercise Sheet 9.md",
-    "Topology/Normal Space.md",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
