@@ -4,29 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "8778a634edfe3433",
+        "id": "c45eeefa3389e702",
         "type": "tabs",
-        "dimension": 52.41379310344828,
         "children": [
           {
-            "id": "9ea04376b7c4965a",
+            "id": "68e580d131aaa65f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "658ca9ed2c705897",
+            "id": "e9419b76d21b7966",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Graph Theory/Graph.md",
                 "mode": "source",
                 "source": true
               }
@@ -36,23 +35,35 @@
         "currentTab": 1
       },
       {
-        "id": "c45eeefa3389e702",
+        "id": "7e6b1dbc3952fb00",
         "type": "tabs",
-        "dimension": 47.58620689655172,
         "children": [
           {
-            "id": "68e580d131aaa65f",
+            "id": "d6587388d822f39a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f80ab763c9712916",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Graph.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Graph Theory/Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Graph Theory/Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Kernel.md"
+                "file": "Graph Theory/Graph.md"
               }
             }
           }
@@ -180,13 +191,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "658ca9ed2c705897",
+  "active": "f80ab763c9712916",
   "lastOpenFiles": [
+    "Representation Theory/Quiver.md",
+    "Graph Theory/Graph.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Courses/Graph Theory",
+    "Courses/Analysis IV/Exercise Sheet 8.md",
+    "ML Theory/NN.md",
+    "Graph Theory",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Galois Extension.md",
     "Analysis/Kernel.md",
+    "Riesz map.md",
+    "Untitled.md",
+    "ML Theory",
     "Algebra/Galois Correspondence.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Courses/Analysis IV/Exercise Sheet 8.md",
     "Algebra/Normal Closure.md",
     "Algebra/Normal Extension.md",
     "Algebra/Separable Extension.md",
@@ -202,12 +222,6 @@
     "Courses/Topology/Exercise Sheet 10.md",
     "Topology/One-Point Compactification.md",
     "Topology/Compact Space.md",
-    "Topology/Homotopy.md",
-    "Topology/Compact-Open Topology.md",
-    "Topology/Topology of Compact Convergence.md",
-    "Topology/Continuous Function.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
@@ -215,9 +229,6 @@
     "Courses/Analysis IV",
     "Lie Group",
     "Courses/Lie Groups",
-    "Courses/Algebra II/Untitled",
-    "Courses/Algebra II",
-    "Courses/Functional Analysis II",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
