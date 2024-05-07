@@ -13,5 +13,11 @@
 > 4. $\gamma\overline{\gamma}=\varepsilon_{x}$, $\overline{\gamma}\gamma=\varepsilon_{y}$
 
 > [!proof]+
-> 
+> We have: 
+> 1. Assuming $\gamma_{0},\gamma_{1},\gamma_{2}$ are actual paths, $$\gamma_{0}(\gamma_{1}\gamma_{2})(t)=\begin{cases}\gamma_{0}(2t)&0\leq t\leq \frac{1}{2}\\\gamma_{1}(4t-2)& \frac{1}{2}\leq t\leq \frac{3}{4}\\\gamma_{2}(4t-3)& \frac{3}{4}\leq t\leq 1\end{cases}$$and $$(\gamma_{0}\gamma_{1})\gamma_{2}(t)=\begin{cases}\gamma_{0}(4t)&0 \leq t\leq \frac{1}{4}\\\gamma_{1}(4t-1)& \frac{1}{4}\leq t\leq \frac{1}{2}\\\gamma_{2}(2t-1)& \frac{1}{2}\leq t\leq 1\end{cases}$$Consider the homotopy: $$h(t,s):=\begin{cases}\gamma_{0}\left( \frac{4t}{s+1} \right)&0\leq t\leq \frac{s+1}{4}\\\gamma_{1}(4t-s-1)& \frac{s+1}{4}\leq t\leq \frac{s+2}{4}\\\gamma_{2}\left( \frac{4t-s-2}{2-s} \right)& \frac{s+2}{4}\leq t\leq 1\end{cases}$$Then, $h(0,s)=\gamma_{0}(0)=x$ and $h(1,s)=\gamma_{2}(1)=w$. As $h$ is continuous, it is a path-homotopy and $$h(t,0)=(\gamma_{0}\gamma_{1})\gamma_{2}(t), \quad h(t,1)=\gamma_{0}(\gamma_{1}\gamma_{2})(t)$$
+> 2. We have that: $$\varepsilon_{x}\gamma(t)=\begin{cases}x&0\leq t\leq \frac{1}{2}\\\gamma(2t-1)& \frac{1}{2}\leq t\leq 1\end{cases}$$with homotopy: $$h(t,s)=\begin{cases}x&0\leq t\leq \frac{1 -s}{2}\\\gamma\left(  \frac{2}{1+s}t+1 -\frac{2}{1+s} \right)& \frac{1-s}{2}\leq t\leq 1\end{cases}$$Then, $h(0,s)=x, h(1,s)=\gamma(1)$ with $h(t,0)=\varepsilon_{x}\gamma(t)$ and $h(t,1)=\gamma(t)$.
+>    
+>    Similarly, it holds for $\gamma \varepsilon_{y}=\gamma$.
+> 3. 
+
 - **Corollary**: $\Lambda_{x,x}$ is indeed a group with path composition and path inversion.
