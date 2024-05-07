@@ -13,11 +13,12 @@
 > 1. $\gamma_{1}\sim\gamma_{2}\iff$$\gamma_{1}$ and $\gamma_{2}$ are path-homotopic forms an equivalence relation on $C([0,1],X)$
 > 2. the composition of paths is well-defined modulo path-homotopy, i.e. for $\gamma_{0}\sim\gamma_{0}'$ and $\gamma_{1}\sim\gamma_{1}'$, with $\gamma_{0}(1)=\gamma_{1}(0)$, we have: $\gamma_{0}*\gamma_{1}\sim \gamma_{0}'*\gamma_{1}'$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. For $\gamma\in C([0,1],X)$, $h(x,t)=\gamma(x)$ is a path-homotopy from $\gamma$ to $\gamma$. Similarly, for a path homotopy $h$ from $\gamma_{0}$ to $\gamma_{1}$, $h'(x,t)=h(x,1-t)$ is a path homotopy from $\gamma_{1}$ to $\gamma_{0}$.
 >    
->    Lastly, for 
+>    Lastly, for homotopy $h$ from $\gamma_{0}$ to $\gamma_{1}$ and $h'$ from $\gamma_{1}$ to $\gamma_{2}$, $$h''(x,t)=\begin{cases}h(x,2t)&0\leq t\leq 1 /2\\h'(x,2t-1)&1 /2\leq t\leq 1\end{cases}$$is a homotopy from $\gamma_{0}$ to $\gamma_{2}$.
+> 2. Obvious.
 ---
 ##### Examples
 > [!h] Example 1

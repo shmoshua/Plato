@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +99,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Path.md",
+                "file": "Topology/Fundamental Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Path.md",
+                "file": "Topology/Fundamental Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Path.md"
+                "file": "Topology/Fundamental Group.md"
               }
             }
           }
@@ -229,8 +230,9 @@
   },
   "active": "9ea04376b7c4965a",
   "lastOpenFiles": [
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 10.md",
+    "Topology/Fundamental Group.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Path.md",
     "Topology/Contractible Space.md",
     "Topology/One-Point Compactification.md",
@@ -254,7 +256,6 @@
     "Lie Group/Topological Group.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Topology/Quotient Topology.md",
-    "Topology/Product Topology.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
