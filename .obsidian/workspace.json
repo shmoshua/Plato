@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
                 "mode": "preview",
                 "source": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Correspondence.md"
+                "file": "Courses/Analysis IV/Exercise Sheet 8.md"
               }
             }
           }
@@ -215,14 +215,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "68e580d131aaa65f",
+  "active": "9ea04376b7c4965a",
   "lastOpenFiles": [
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Galois Correspondence.md",
+    "Courses/Analysis IV/Exercise Sheet 8.md",
     "Algebra/Normal Extension.md",
+    "Algebra/Normal Closure.md",
     "Algebra/Splitting Field.md",
     "Algebra/Galois Extension.md",
-    "Algebra/Normal Closure.md",
     "Algebra/Galois Group.md",
     "Algebra/Fixed Field.md",
     "Algebra/K-Homomorphism.md",
@@ -242,7 +243,6 @@
     "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Analysis/Equicontinuity.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
