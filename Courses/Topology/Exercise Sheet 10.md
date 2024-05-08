@@ -14,4 +14,9 @@
 > 6. Conclude that $(\mathbb{R},\mathcal{T^{*}})$ is not normal.
 
 We have that: 
-1. Firstly, one easily sees that $\mathbb{R}$ is open. 
+1. Firstly, one easily sees that $\mathbb{R}$ is open as $\bigcup_{n\geq 1}^{}(-n,n)$ and $\varnothing$ is open as an empty union. Then, it suffices to show that it is closed under finite intersection. It is clear that it is sufficient to show that every combination of intersection of two basis sets is open. We have:
+	$$(a,b)\cap(c,d)=\begin{cases}(\max\{ a,c \},\min\{ b,d \})&\max\{ a,c \}<\min\{ b,d \}\\\varnothing&\text{otherwise}\end{cases}$$and as $(a,b)\backslash B=(a,b)\cap B^c$, $\mathcal{T}^{*}$ is indeed a topology. Further, as $\mathcal{B}_{1}$ is a basis for the euclidean topology, $\mathcal{T}^{*}$ is a refinement of the euclidean topology. This shows that $\mathbb{R}$ is Hausdorff w.r.t. $\mathcal{T}^{*}$.
+2. For $U:=\bigcup_{n\geq 1}^{}(-n,0)\cup (0,n)$ is open. Therefore, $A=U^c$ is closed. Similarly, $$X \backslash B=\bigcup_{n\geq 1}^{}(-n,n) \backslash B$$which is open. 
+3. As $U$ is an open neighborhood of $0$, there exists a basis set $W\subseteq \mathcal{B}$ s.t. $W\subseteq U$ and $0\in W$. If $W\in\mathcal{B}_{2}$, we are done. Otherwise, $W\in \mathcal{B}_{1}$ and as $0\notin W$, $0\in W \backslash B\subseteq U$. This proves the statement.
+4. There exists an integer $n\geq 1$ s.t. $\frac{1}{b}<n$. As $b>0$, $\frac{1}{n}<b$ and $\frac{1}{n}\in (a,b)$.
+5. 
