@@ -29,9 +29,12 @@ We have that:
 > 1. Show that $\varphi$ is injective. 
 > 2. Show that $\varphi$ is continuous when the product space has the product topology. 
 > 3. Let $y=\varphi(x)$ be an element of $Y$. Show that a fundamental system of open neighborhoods of $y$ in $Y$ is given by the sets $$\{ \varphi(z):z\in X\text{ satisfies }\left| f_{j}(z)-f_{j}(x) \right| <\varepsilon_{j}, \forall j\in J \}$$where $f_{j}\in F$ for all $j\in J$, $J$ runs over finite sets and $\varepsilon_{j}$ runs over positive reals for all $j\in J$.
-> 4. Let $U$ be open in $X$ and let $x_{0}\in U$. Show that there exists an open neighborhood $V$ of $x_{0}$ such that $V\subseteq \overline{V}\subseteq U$, and a function $g\in \mathcal{F}$ such that $$\{ z\in X:g(z)> 1/2 \}\subseteq U$$. 
+> 4. Let $U$ be open in $X$ and let $x_{0}\in U$. Show that there exists an open neighborhood $V$ of $x_{0}$ such that $V\subseteq \overline{V}\subseteq U$, and a function $g\in \mathcal{F}$ such that $$\{ z\in X:g(z)> 1/2 \}\subseteq U$$
 > 5. Deduce that the map $\varphi:X\to Y$ is a homeomorphism. 
 > 6. Deduce that $X$ is homeomorphic to a subspace of a compact space.
 
 We have that:
-1. Let $x,y\in X$. 
+1. Let $x\neq y\in X$. Then, as $X$ is normal, there exists $f\in \mathcal{F}$ s.t. $f(x)=0$ and $f(y)=1$. Therefore, $\varphi(x)\neq\varphi(y)$ and $\varphi$ is injective.
+2. Let $f\in \mathcal{F}$. Then, $\pi_{f}\circ\varphi=f$ and is continuous. Therefore, $\varphi$ is continuous.
+3. Let $U$ be an open neighborhood of $y$. Therefore, there exists finite $J$, $(f_{j})_{j\in J}\subseteq \mathcal{F}$ and $U_{j}\subseteq [0,1]$ open neighborhood of $f_{j}(x)$ s.t. $$\{ (f(z))_{f\in \mathcal{F}}: f_{j}(z)\subseteq U_{j}, \forall j\in J\}\subseteq U$$Therefore, there exists $\varepsilon_{j}$ s.t. $B_{j}:=(f_{j}(x)-\varepsilon_{j},f_{j}(x)+\varepsilon_{j})\subseteq U_{j}$ for all $j\in J$. This proves the statement.
+4. As $\{ x_{0} \}\subseteq U\subseteq X$, we have an open set $V\ni x_{0}$ s.t. $V\subseteq \overline{V}\subseteq U$.

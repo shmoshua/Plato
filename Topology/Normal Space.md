@@ -2,7 +2,7 @@
 
 > [!definition]
 > A [[Hausdorff space]] $X$ is ***normal***, if one of the following equivalent conditions hold:
-> 1. if $A,B\subseteq X$ are disjoint closed, there exists $f:X\to[0,1]$ s.t. $f|_{A}=0$ and $f|_{B}=1$.
+> 1. if $A,B\subseteq X$ are disjoint closed, there exists a continuous function $f:X\to[0,1]$ s.t. $f|_{A}=0$ and $f|_{B}=1$.
 > 2. if $A\subseteq X$ is closed and $g:A\to[a,b]$ is continuous, there exists a continuous extension $f:X\to[a,b]$.
 > 3. if $A,B\subseteq X$ are disjoint closed, there exist disjoint open sets $U\supseteq A$ and $V\supseteq B$.
 > 4. if $A\subseteq U\subseteq X$ with $A$ closed and $U$ open, there exists $V\subseteq X$ open s.t. $A\subseteq V\subseteq \overline{V}\subseteq U$.
