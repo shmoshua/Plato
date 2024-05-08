@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -56,8 +55,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
-                "mode": "source",
+                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md"
+                "file": "Courses/Analysis IV/Exercise Sheet 8.md"
               }
             }
           }
@@ -216,13 +215,13 @@
   },
   "active": "d6587388d822f39a",
   "lastOpenFiles": [
-    "Graph Theory/Complete Graph.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Courses/Analysis IV/Exercise Sheet 8.md",
     "Graph Theory/Graph.md",
+    "Graph Theory/Complete Graph.md",
     "Untitled.md",
     "Representation Theory/Quiver.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Graph Theory",
-    "Courses/Analysis IV/Exercise Sheet 8.md",
     "ML Theory/NN.md",
     "Graph Theory",
     "Courses/Algebra II/Algebra II Roadmap.md",
