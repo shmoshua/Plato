@@ -26,7 +26,13 @@
 > 1. $d(G)=2\varepsilon(G)$.
 > 2. the number of vertices of odd degree is always even,
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Observe that: $$\left| E \right| = \frac{1}{2}\sum_{v\in V}^{}d(v)=\frac{1}{2}d(G)\left| V \right| $$
-> 2. As $\left| E \right|=$ is an 
+> 2. As $\left| E \right|= \frac{1}{2}\sum_{v\in V}^{}d(v)$ is an integer, $\sum_{v\in V}^{}d(v)$ is even.
+---
+> [!lemma] Proposition 2
+> Every graph $G$ with $\left| E \right|\geq 1$ has a subgraph $H$ s.t. $\varepsilon(G)\leq \varepsilon(H)<\delta(H)$.
+
+> [!proof]+
+> 
