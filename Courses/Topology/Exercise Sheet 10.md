@@ -17,6 +17,21 @@ We have that:
 1. Firstly, one easily sees that $\mathbb{R}$ is open as $\bigcup_{n\geq 1}^{}(-n,n)$ and $\varnothing$ is open as an empty union. Then, it suffices to show that it is closed under finite intersection. It is clear that it is sufficient to show that every combination of intersection of two basis sets is open. We have:
 	$$(a,b)\cap(c,d)=\begin{cases}(\max\{ a,c \},\min\{ b,d \})&\max\{ a,c \}<\min\{ b,d \}\\\varnothing&\text{otherwise}\end{cases}$$and as $(a,b)\backslash B=(a,b)\cap B^c$, $\mathcal{T}^{*}$ is indeed a topology. Further, as $\mathcal{B}_{1}$ is a basis for the euclidean topology, $\mathcal{T}^{*}$ is a refinement of the euclidean topology. This shows that $\mathbb{R}$ is Hausdorff w.r.t. $\mathcal{T}^{*}$.
 2. For $U:=\bigcup_{n\geq 1}^{}(-n,0)\cup (0,n)$ is open. Therefore, $A=U^c$ is closed. Similarly, $$X \backslash B=\bigcup_{n\geq 1}^{}(-n,n) \backslash B$$which is open. 
-3. As $U$ is an open neighborhood of $0$, there exists a basis set $W\subseteq \mathcal{B}$ s.t. $W\subseteq U$ and $0\in W$. If $W\in\mathcal{B}_{2}$, we are done. Otherwise, $W\in \mathcal{B}_{1}$ and as $0\notin W$, $0\in W \backslash B\subseteq U$. This proves the statement.
+3. As $U$ is an open neighborhood of $0$, there exists a basis set $W\subseteq \mathcal{B}$ s.t. $W\subseteq U$ and $0\in W$. If $W\in\mathcal{B}_{2}$we are done. Otherwise, $W\in \mathcal{B}_{1}$ and as $0\notin W$, $0\in W \backslash B\subseteq U$. This proves the statement.
 4. There exists an integer $n\geq 1$ s.t. $\frac{1}{b}<n$. As $b>0$, $\frac{1}{n}<b$ and $\frac{1}{n}\in (a,b)$.
-5. 
+5. $1/n\in B\subseteq V$. As $V$ is open and $B\subseteq V$, $V$ is also open in euclidean topology and therefore, there exists $c<1/n<d$ s.t. $(c,d)\subseteq V$.
+6. Take $\frac{1}{n}>x>\max\left\{   \frac{1}{n+1},c  \right\}$ which exists as $c <1 / n$. 
+7. $x\in (c,d)\subseteq V$ and $x\in (0,1 /n)\subseteq(a,b)$. As $x\notin B$, $x\in (a,b)\backslash B\subseteq U$.
+8. We have shown that $A$ and $B$ are disjoint closed, but for any open sets $U \supseteq A$ and $V\supseteq B$, $U\cap V\neq \varnothing$. Therefore, $(\mathbb{R},\mathcal{T}^{*})$ is not normal.
+---
+> [!def] Problem 2
+> Let $X$ be a normal topological space. Let $\mathcal{F}:=C(X,[0,1])$. For $f\in \mathcal{F}$, let $X_{f}=[0,1]$ and let $$\begin{array}{cccc} {\varphi:}&{X}&\to&{\prod_{f\in \mathcal{F}}^{}X_{f}}\\&{x} &\mapsto & {(f(x))_{f\in \mathcal{F}}} \end{array}{}$$ We denote $Y=\varphi(X)$
+> 1. Show that $\varphi$ is injective. 
+> 2. Show that $\varphi$ is continuous when the product space has the product topology. 
+> 3. Let $y=\varphi(x)$ be an element of $Y$. Show that a fundamental system of open neighborhoods of $y$ in $Y$ is given by the sets $$\{ \varphi(z):z\in X\text{ satisfies }\left| f_{j}(z)-f_{j}(x) \right| <\varepsilon_{j}, \forall j\in J \}$$where $f_{j}\in F$ for all $j\in J$, $J$ runs over finite sets and $\varepsilon_{j}$ runs over positive reals for all $j\in J$.
+> 4. Let $U$ be open in $X$ and let $x_{0}\in U$. Show that there exists an open neighborhood $V$ of $x_{0}$ such that $V\subseteq \overline{V}\subseteq U$, and a function $g\in \mathcal{F}$ such that $$\{ z\in X:g(z)> 1/2 \}\subseteq U$$. 
+> 5. Deduce that the map $\varphi:X\to Y$ is a homeomorphism. 
+> 6. Deduce that $X$ is homeomorphic to a subspace of a compact space.
+
+We have that:
+1. Let $x,y\in X$. 
