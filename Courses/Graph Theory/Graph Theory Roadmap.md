@@ -8,3 +8,9 @@
 3. [[Graph Homomorphism]]
 4. [[Graph Property]]
 5. [[Induced Graph]]
+6. [[Line Graph]]
+
+**1.2 The Degree of a Vertex**
+1. [[Graph|Neighbors]]
+2. [[Graph|Degree]]
+3. [[Regular Graph]]
