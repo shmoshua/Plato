@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "68e580d131aaa65f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "e9419b76d21b7966",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Graph Theory/Induced Graph.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,25 +38,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6587388d822f39a",
+            "id": "f80ab763c9712916",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "f80ab763c9712916",
+            "id": "e77adc1e3becdf7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
-                "mode": "preview",
+                "file": "Graph Theory/Induced Graph.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -84,8 +72,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "057488c7bc60fd5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Graph Homomorphism.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "763d8804c205bfbd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
+                "file": "Graph Theory/Induced Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 8.md",
+                "file": "Graph Theory/Induced Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 8.md"
+                "file": "Graph Theory/Induced Graph.md"
               }
             }
           }
@@ -213,11 +222,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d6587388d822f39a",
+  "active": "e9419b76d21b7966",
   "lastOpenFiles": [
     "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Courses/Analysis IV/Exercise Sheet 8.md",
+    "Graph Theory/Induced Graph.md",
+    "Graph Theory/Graph Homomorphism.md",
+    "Graph Theory/Graph Property.md",
     "Graph Theory/Graph.md",
+    "Courses/Analysis IV/Exercise Sheet 8.md",
     "Graph Theory/Complete Graph.md",
     "Untitled.md",
     "Representation Theory/Quiver.md",
@@ -241,9 +253,6 @@
     "Topology/Contractible Space.md",
     "Topology/Homeomorphism.md",
     "Topology/Fundamental Group.md",
-    "Topology/Path.md",
-    "Courses/Topology/Exercise Sheet 10.md",
-    "Topology/One-Point Compactification.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
