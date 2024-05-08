@@ -37,4 +37,13 @@ We have that:
 1. Let $x\neq y\in X$. Then, as $X$ is normal, there exists $f\in \mathcal{F}$ s.t. $f(x)=0$ and $f(y)=1$. Therefore, $\varphi(x)\neq\varphi(y)$ and $\varphi$ is injective.
 2. Let $f\in \mathcal{F}$. Then, $\pi_{f}\circ\varphi=f$ and is continuous. Therefore, $\varphi$ is continuous.
 3. Let $U$ be an open neighborhood of $y$. Therefore, there exists finite $J$, $(f_{j})_{j\in J}\subseteq \mathcal{F}$ and $U_{j}\subseteq [0,1]$ open neighborhood of $f_{j}(x)$ s.t. $$\{ (f(z))_{f\in \mathcal{F}}: f_{j}(z)\subseteq U_{j}, \forall j\in J\}\subseteq U$$Therefore, there exists $\varepsilon_{j}$ s.t. $B_{j}:=(f_{j}(x)-\varepsilon_{j},f_{j}(x)+\varepsilon_{j})\subseteq U_{j}$ for all $j\in J$. This proves the statement.
-4. As $\{ x_{0} \}\subseteq U\subseteq X$, we have an open set $V\ni x_{0}$ s.t. $V\subseteq \overline{V}\subseteq U$.
+4. As $\{ x_{0} \}\subseteq U\subseteq X$, we have an open set $V\ni x_{0}$ s.t. $V\subseteq \overline{V}\subseteq U$. Then, we have a continuous function $g\in \mathcal{F}$ s.t. $g|_{\overline{V}}=1$ and $g|_{X \backslash U}=0$. Then, $X\backslash U\subseteq g^{-1}([0,1 /2])$. This proves the statement.
+5. $\varphi:X\to\varphi(X)$ is a continuous bijection from above. Then, for non-empty $U\subseteq X$, let $x_{0}\in U$ and for $\varphi(x_{0})\in \varphi(U)$, there exists $g\in \mathcal{F}$ s.t. $V:=\{ z\in X:g(z)> 1/2 \}\subseteq U$ and $g(x_{0})=1$. Then, $$\varphi(V)=\{ \varphi(z): z\in X, \left| g(z)-g(x_{0}) \right| < 1/2 \}$$is open and contained in $\varphi(U)$. Therefore, $\varphi ^{-1}:\varphi(X)\to X$ is continuous and $\varphi$ is a homeomorphism.
+6. $X_{f}$ is compact for all $f\in \mathcal{F}$ and by Tychonoff, $\prod_{f\in \mathcal{F}}^{}X_{f}$ is compact.
+---
+> [!def] Problem 3
+> Let $X$ be a normal space. Given a finite family $(U_{i})_{i\in[k]}$ of open subsets of $X$ whose union is $X$, a partition of unity subordinate to this covering is a finite family $(f_{i})_{i\in[k]}$ of continuous functions $f_{i}:X\to[0,1]$ s.t. we have:
+> - $\text{supp}(f_{i})\subseteq U_{i}$ for all $i\in[k]$
+> - we have for all $x\in X$: $$\sum_{i=1}^{k}f_{i}(x)=1$$ 
+> 
+> Then, 
