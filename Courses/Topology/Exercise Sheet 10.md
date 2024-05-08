@@ -43,7 +43,14 @@ We have that:
 ---
 > [!def] Problem 3
 > Let $X$ be a normal space. Given a finite family $(U_{i})_{i\in[k]}$ of open subsets of $X$ whose union is $X$, a partition of unity subordinate to this covering is a finite family $(f_{i})_{i\in[k]}$ of continuous functions $f_{i}:X\to[0,1]$ s.t. we have:
-> - $\text{supp}(f_{i})\subseteq U_{i}$ for all $i\in[k]$
-> - we have for all $x\in X$: $$\sum_{i=1}^{k}f_{i}(x)=1$$ 
+> 1. $\text{supp}(f_{i})\subseteq U_{i}$ for all $i\in[k]$
+> 2. we have for all $x\in X$: $\sum_{i=1}^{k}f_{i}(x)=1$.
 > 
 > Then, 
+> 1. Show that given a finite open covering $(U_{i})_{i\in[k]}$ we can find $V_{i}\subseteq U_{i}$ open with $\overline{V_{i}}\subseteq U_{i}$ s.t. $(V_{i})_{i\in [k]}$ is a covering of $X$.
+> 2. Show that there are coverings $(W_{i})_{i\in[k]}$ and $(V_{i})_{i\in [k]}$ and continuous functions $g_{i}:X\to[0,1]$ s.t. $\overline{W_{i}}\subseteq V_{i}\subseteq \overline{V_{i}}\subseteq U_{i}$, and $g_{i}|_{W_{i}}=1$ and $g_{i}|_{X \backslash V_{i}}=0$.
+> 3. Show that $\text{supp}(g_{i})\subseteq U_{i}$ and that $\sum_{i=1}^{k}g_{i}(x)>0$ for all $x\in X$.
+> 4. Deduce the existence of a partition of unity subordinate to $(U_{i})$.
+
+We have:
+1. We show by induction on $1\leq j\leq k$. For $j=1$, let $V_{1}:=X \backslash$
