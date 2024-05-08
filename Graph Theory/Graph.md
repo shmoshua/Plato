@@ -9,3 +9,4 @@
 - **Related definition**: for $X,Y\subseteq V$, $xy\in E$ is an ***$X$-$Y$-edge*** if $x\in X$ and $y\in Y$ or vice versa. The set of all $X$-$Y$-edges are denoted as $E(X,Y)$. 
 - **Related definition**: Two vertices $x,y\in V$ are ***adjacent*** if $\{ x,y \}\in E$. Two edges $e\neq f$ are ***adjacent*** if $e\cap f\neq \varnothing$.
 - **Related definition**: $W\subseteq V$ or $F\subseteq E$ are ***independent/stable*** if no two of its elements are adjacent.
+- **Related definition**: A subgraph $H\subseteq G$ is ***spanning*** if $V(H)=V(G)$.

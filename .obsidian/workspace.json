@@ -50,13 +50,25 @@
             }
           },
           {
+            "id": "55c68e774b6c2164",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Graph.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e77adc1e3becdf7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Graph Theory/Induced Graph.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -89,12 +101,16 @@
             "id": "763d8804c205bfbd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Fourier Transform.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -123,7 +139,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "adele",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +156,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Induced Graph.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Induced Graph.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Induced Graph.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -222,13 +239,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e9419b76d21b7966",
+  "active": "763d8804c205bfbd",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Induced Graph.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Graph.md",
     "Graph Theory/Graph Homomorphism.md",
     "Graph Theory/Graph Property.md",
-    "Graph Theory/Graph.md",
     "Courses/Analysis IV/Exercise Sheet 8.md",
     "Graph Theory/Complete Graph.md",
     "Untitled.md",
