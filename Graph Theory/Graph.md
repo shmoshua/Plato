@@ -34,5 +34,10 @@
 > [!lemma] Proposition 2
 > Every graph $G$ with $\left| E \right|\geq 1$ has a subgraph $H$ s.t. $\varepsilon(G)\leq \varepsilon(H)<\delta(H)$.
 
-> [!proof]+
-> 
+> [!proof]-
+> We construct a sequence of subgraphs as follows. Let $G_{0}:=G$. 
+> 1. if $G_{i}$ has a vertex $v_{i}$ with $d(v_{i})\leq \varepsilon(G_{i})$, then $G_{i+1}:=G_{i} -v_{i}$.
+> 2. otherwise, let $H:=G_{i}$.
+>    
+>  Then, we see that $\varepsilon(G_{i+1})\geq \varepsilon(G_{i})$ and $\varepsilon(H)\geq \varepsilon(G)$. As $\varepsilon(G)>0$, we have that $\delta(H)>\varepsilon(H)$.
+---

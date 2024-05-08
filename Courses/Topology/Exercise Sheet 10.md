@@ -14,4 +14,4 @@
 > 6. Conclude that $(\mathbb{R},\mathcal{T^{*}})$ is not normal.
 
 We have that: 
-1. 
+1. Firstly, one easily sees that $\mathbb{R}$ is open. 

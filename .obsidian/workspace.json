@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Courses/Topology/Exercise Sheet 10.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,79 +34,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f80ab763c9712916",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Regular Graph.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ada1875377952330",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Line Graph.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "55c68e774b6c2164",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e77adc1e3becdf7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Induced Graph.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d786edd12862849",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Complete Graph.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "057488c7bc60fd5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Graph Homomorphism.md",
+                "file": "Courses/Topology/Exercise Sheet 10.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Courses/Topology/Exercise Sheet 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Courses/Topology/Exercise Sheet 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Graph.md"
+                "file": "Courses/Topology/Exercise Sheet 10.md"
               }
             }
           }
@@ -234,14 +173,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "166f1b58f14eab65",
+  "active": "55c68e774b6c2164",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Graph Theory/Regular Graph.md",
-    "Graph Theory/Graph.md",
     "Graph Theory/Line Graph.md",
-    "Graph Theory/Complete Graph.md",
+    "Graph Theory/Regular Graph.md",
+    "Courses/Topology/Exercise Sheet 10.md",
+    "Topology/Topological Space.md",
     "Graph Theory/Induced Graph.md",
+    "Graph Theory/Graph.md",
+    "Courses/Topology/Exercise Sheet 9.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Complete Graph.md",
     "Graph Theory/Graph Homomorphism.md",
     "Functional Analysis/Fourier Transform.md",
     "Graph Theory/Graph Property.md",
@@ -262,9 +204,6 @@
     "Algebra/Separable Extension.md",
     "Algebra/Fixed Field.md",
     "Algebra/Splitting Field.md",
-    "Algebra/Galois Group.md",
-    "Algebra/K-Homomorphism.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Representation Theory",
     "Courses/Representation Theory",
     "Algebra/Untitled",
