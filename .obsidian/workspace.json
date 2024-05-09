@@ -85,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Normal Space.md",
+                "file": "Courses/Topology/Exercise Sheet 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Normal Space.md",
+                "file": "Courses/Topology/Exercise Sheet 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Normal Space.md"
+                "file": "Courses/Topology/Exercise Sheet 10.md"
               }
             }
           }
@@ -214,10 +213,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4c295c595143559f",
+  "active": "166f1b58f14eab65",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 10.md",
     "Topology/Normal Space.md",
+    "Courses/Topology/Exercise Sheet 10.md",
     "Topology/Initial Topology.md",
     "Topology/Compact Space.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",

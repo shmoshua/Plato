@@ -53,4 +53,15 @@ We have that:
 > 4. Deduce the existence of a partition of unity subordinate to $(U_{i})$.
 
 We have:
-1. We show by induction on $1\leq j\leq k$. For $j=1$, let $V_{1}:=X \backslash$
+1. We show by induction on $1\leq j\leq k$. For $j=1$, let $A_{1}:=X \backslash\bigcup_{i=2}^{k}U_{i}$. Then, $A_{1}$ is closed and $A_{1}\subseteq U_{1}$. As $X$ is normal, there exists $V_{1}\subseteq X$ open s.t. $A_{1}\subseteq V_{1}\subseteq \overline{V_{1}}\subseteq U_{1}$ and $V_{1}\cup \bigcup_{i=2}^{k}U_{i}=X$.
+   
+   Let now $j>1$. Then, similarly, let $A_{j}:=X \backslash \bigcup_{i\neq j}^{}U_{i}$ and there exists $V_{j}\subseteq X$ open s.t. $A_{j}\subseteq V_{j}\subseteq \overline{V_{j}}\subseteq U_{j}$. Indeed,
+   $$\bigcup_{i\leq j}^{}V_{i}=V_{j}\cup\bigcup_{i\leq j-1}^{}V_{i}\supseteq A_{j}\cup X\backslash \bigcup_{i\geq j}^{}U_{i}=X\backslash \bigcup_{i>j}^{}U_{i}$$This proves the statement.
+2. Repeating the process in 1 on $(V_{i})_{i\in[k]}$, we get $(W_{i})_{i\in[k]}$ s.t. $W_{i}\subseteq\overline{W_{i}}\subseteq V_{i}\subseteq \overline{V_{i}}\subseteq U_{i}$. Then, $\overline{W_{i}}$ and $X \backslash V_{i}$ are two disjoint closed sets and by normality of $X$, there exist such continuous functions $g_{i}$.
+3. We have that $\text{supp}(g_{i})\subseteq \overline{V_{i}}\subseteq U_{i}$. Further, assume if there exists $x\in X$ where $\sum_{i=1}^{k}g_{i}(x)=0$, then $g_{i}(x)=0$ for all $i\in[k]$, which contradicts that $(W_{i})_{i\in[k]}$ is a covering.
+4. We define: $f_{i}=g_{i}/\sum_{i=1}^{k}g_{i}$, which is well-defined, continuous and $\text{Im }f_{i}\subseteq[0,1]$. Therefore, $$\sum_{i=1}^{k}f_{i}=1$$
+---
+> [!def] Problem 4
+> Let $X$ be a compact Hausdorff topological manifold of dimension $d\geq 1$. The goal of this exercise is to show that there exists some integer $m\geq 1$ and a compact subset $C\subseteq \mathbb{R}^m$ homeomorphic to $X$.
+> 1. Show that there exist a finite covering $(U_{i})_{i\in[k]}$ of $X$ by open sets s.t. for every $i$, there is an homeomorphism $\varphi_{i}:U_{i}\to W_{i}$ where $W_{i}\subseteq \mathbb{R}^d$ is open. 
+> 2. Explain why there exists a partition of unity $(f_{i})_{i\in[k]}$ subordinate to $(U_{i})$. Show that the functions $g_{i}:X\to \mathbb{R}^d$ defined by: $$g_{i}(x):=\begin{cases}f_{i}(x)\varphi_{i}(x)&x\in U_{i}\\&0\end{cases}$$ gi(x) = ( fi(x)φi(x) if x ∈ Ui , 0 if x ∈ X \ Supp(fi) are continuous (where the support of fi is defined also in the previous exercise). (c) Show that the map φ: X → Rk × Rdk defined by φ(x) = (f1(x), . . . , fk(x), g1(x), . . . , gk(x)) is injective. (Hint: if φ(x) = φ(y), show that there exists i such that x ∈ Ui and y ∈ Ui .) (d) Show that φ is continuous and that it defines a homeomorphism φ: X → φ(X) ⊂ Rk+dk .
