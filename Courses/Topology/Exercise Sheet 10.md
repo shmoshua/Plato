@@ -71,4 +71,6 @@ We have:
 We have that:
 1. for each $p\in X$, let $U_{p}\subseteq X$ be the open neighborhood of $p$ with homeomorphism $\varphi_{p}$. Then, as $X$ is compact, there exists $U_{1},\dots,U_{k}$ that covers $X$ with $\varphi_{i}:U_{i}\to W_{i}$ as corresponding homeomorphisms.
 2. $X$ is compact Hausdorff and thereby normal. Therefore, there exists a partition of unity $(f_{i})_{i}$ subordinate to $(U_{i})_{i}$. To see the continuity, $g_{i}$ is continuous in $U_{i}$ by definition. Notice that $f_{i}(x)=0$ for all $x\in X \backslash \text{supp}(f_{i})$. As $\text{supp}(f_{i})\subseteq U_{i}$ and the support is closed and $U_{i}$ open, the function can be continuously extended to the whole space $X$ with zero.
-3. Let $\varphi(x)=\varphi(y)$ for $x,y\$
+3. Let $\varphi(x)=\varphi(y)$ for $x,y\in X$. Then, by partition of unity, there exists $i\in[k]$ s.t. $f_{i}(x)=f_{i}(y)>0$. Therefore, $x,y\in U_{i}$ and $$\varphi_{i}(x)=\frac{g_{i}(x)}{f_{i}(x)}=\frac{g_{i}(y)}{f_{i}(y)}=\varphi_{i}(y)$$which shows that $x=y$. 
+4. $\varphi$ is continuous as $f_{i}$ and $g_{i}$ are continuous for all $i\in[k]$. As $X$ is compact, $\varphi(X)$ Hausdorff and $\varphi:X\to\varphi(X)$ a continuous bijection, $\varphi$ is a homeomorphism.
+---

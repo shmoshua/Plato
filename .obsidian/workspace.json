@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "mode": "source",
                 "source": true
               }
@@ -43,8 +43,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md",
-                "mode": "preview",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Initial Topology.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Path.md",
                 "mode": "preview",
                 "source": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md"
+                "file": "Courses/Topology/Exercise Sheet 11.md"
               }
             }
           }
@@ -201,14 +201,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "166f1b58f14eab65",
+  "active": "55c68e774b6c2164",
   "lastOpenFiles": [
+    "Topology/Connected Space.md",
+    "Courses/Topology/Exercise Sheet 11.md",
+    "Topology/Path.md",
+    "Topology/Compact Space.md",
+    "Topology/Initial Topology.md",
+    "Courses/Topology/Exercise Sheet 10.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Normal Space.md",
     "Differential Geometry/Atlas.md",
-    "Courses/Topology/Exercise Sheet 10.md",
-    "Topology/Initial Topology.md",
-    "Topology/Compact Space.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Graph Theory/Line Graph.md",
     "Graph Theory/Regular Graph.md",
@@ -228,9 +231,6 @@
     "ML Theory/NN.md",
     "Graph Theory",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Galois Extension.md",
-    "Analysis/Kernel.md",
-    "Riesz map.md",
     "ML Theory",
     "Representation Theory",
     "Courses/Representation Theory",
