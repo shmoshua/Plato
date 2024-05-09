@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -91,14 +91,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Topology/Path.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ad32ee9e851fdc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Homotopy.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Fundamental Group.md"
+                "file": "Courses/Topology/Exercise Sheet 11.md"
               }
             }
           }
@@ -226,14 +237,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "14cd11cd12f9d1b6",
+  "active": "55c68e774b6c2164",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 11.md",
-    "Topology/Fundamental Group.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Path.md",
     "Topology/Homotopy.md",
+    "Topology/Path.md",
+    "Topology/Fundamental Group.md",
+    "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Contractible Space.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Connected Space.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Normal Space.md",

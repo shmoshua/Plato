@@ -62,4 +62,6 @@ We have:
 > 4. Show that $C_{1}$ is not a retract of $\mathbb{R}^2$. 
 
 We have:
-1. let $\gamma$ and $\gamma'$ be two path-homotopy classes from $y_{0}$ to $y_{0}$ on $Y$. 
+1. let $\gamma$ and $\gamma'$ be two paths from $y_{0}$ to $y_{0}$ on $Y$. Assume that $\gamma$ and $\gamma'$ are path-homotopic on $X$, i.e. there exists $h:[0,1]\times[0,1]\to X$ s.t. $h(x,0)=\gamma(x), h(x,1)=\gamma'(x)$ and $h(0,t)$ and $h(1,t)$ are constant. Then, $r\circ h$ is a path homotopy from $\gamma$ to $\gamma'$ as $r(h(x,0))=r(\gamma(x))=\gamma(x)$ and $r(h(x,1))=r(\gamma'(x))=\gamma'(x)$. This shows that $\gamma \sim_{p}\gamma'$.
+2. Let us define: $$\begin{array}{cccc} {r:}&{\mathbb{R}^n\backslash\{ 0 \}}&\to&{C_{n-1}}\\&{x} &\mapsto & {x / \|x\|} \end{array}{}$$Then, for all $x\in C_{n-1}$, $\|r(x)\|=1$ and $r(x)\in C_{n-1}$. The continuity follows from that of the norm. 
+3. For simplicity, we borrow notations from complex numbers and treat $\mathbb{R}^{2}$ as $\mathbb{C}$. Let $x=1$ and $\gamma:[0,1]\to C_{n-1},t\mapsto \exp(2\pi it)$. We will show that $\gamma$ is not path-homotopic to $\varepsilon_{1}$, the constant path at $1$. Assume $h:[0,1]\times[0,1]\to C_{n-1}$ is a path-homotopy from $\gamma$ to $\varepsilon_{1}$. 
