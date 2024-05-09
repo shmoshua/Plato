@@ -57,11 +57,12 @@ We have:
 > [!def] Problem 4
 > A subspace $Y$ of a topological space $X$ is called a ***retract*** of $X$ if there exists a continuous map $r:X\to Y$ such that $r(y)=y$ for all $y\in Y$. 
 > 1. If $Y$ is a retract of $X$ and $y_{0}\in Y$, show that the group morphism $$\pi_{1}(Y,y_{0})\to \pi_{1}(X,y_{0})$$induced by the inclusion $Y\to X$ is injective. 
-> 2. For $n\geq 1$, show that $$C_{n-1}:=\{ x\in \mathbb{R}^n:\|x\|=1 \}$$is a retract of $\mathbb{R}^n \backslash\{ 0 \}$. 
+> 2. For $n\geq 1$, show that $$S_{n-1}:=\{ x\in \mathbb{R}^n:\|x\|=1 \}$$is a retract of $\mathbb{R}^n \backslash\{ 0 \}$. 
 > 3. Show that the fundamental group of $\mathbb{R}^2\backslash\{ 0 \}$ is not trivial. 
-> 4. Show that $C_{1}$ is not a retract of $\mathbb{R}^2$. 
+> 4. Show that $S_{1}$ is not a retract of $\mathbb{R}^2$. 
 
 We have:
 1. let $\gamma$ and $\gamma'$ be two paths from $y_{0}$ to $y_{0}$ on $Y$. Assume that $\gamma$ and $\gamma'$ are path-homotopic on $X$, i.e. there exists $h:[0,1]\times[0,1]\to X$ s.t. $h(x,0)=\gamma(x), h(x,1)=\gamma'(x)$ and $h(0,t)$ and $h(1,t)$ are constant. Then, $r\circ h$ is a path homotopy from $\gamma$ to $\gamma'$ as $r(h(x,0))=r(\gamma(x))=\gamma(x)$ and $r(h(x,1))=r(\gamma'(x))=\gamma'(x)$. This shows that $\gamma \sim_{p}\gamma'$.
-2. Let us define: $$\begin{array}{cccc} {r:}&{\mathbb{R}^n\backslash\{ 0 \}}&\to&{C_{n-1}}\\&{x} &\mapsto & {x / \|x\|} \end{array}{}$$Then, for all $x\in C_{n-1}$, $\|r(x)\|=1$ and $r(x)\in C_{n-1}$. The continuity follows from that of the norm. 
-3. For simplicity, we borrow notations from complex numbers and treat $\mathbb{R}^{2}$ as $\mathbb{C}$. Let $x=1$ and $\gamma:[0,1]\to C_{n-1},t\mapsto \exp(2\pi it)$. We will show that $\gamma$ is not path-homotopic to $\varepsilon_{1}$, the constant path at $1$. Assume $h:[0,1]\times[0,1]\to C_{n-1}$ is a path-homotopy from $\gamma$ to $\varepsilon_{1}$. 
+2. Let us define: $$\begin{array}{cccc} {r:}&{\mathbb{R}^n\backslash\{ 0 \}}&\to&{S_{n-1}}\\&{x} &\mapsto & {x / \|x\|} \end{array}{}$$Then, for all $x\in S_{n-1}$, $\|r(x)\|=1$ and $r(x)\in S_{n-1}$. The continuity follows from that of the norm. 
+3. For simplicity, we borrow notations from complex numbers and treat $\mathbb{R}^{2}$ as $\mathbb{C}$. Let $x\in S_{1}$. By composing with rotation, we may assume that $x=1$. Let $\gamma:[0,1]\to S_{n-1},t\mapsto \exp(2\pi it)$. We will show that $\gamma$ is not path-homotopic to $\varepsilon_{1}$, the constant path at $1$. Assume that $\gamma \sim \varepsilon_{1}$. Then, consider the following: $$\begin{array}{cccc} {\varphi:}&{X}&\to&{[0,1]}\\&{\exp(2\pi it)} &\mapsto & {t\mod 1} \end{array}{}$$From analysis, this map is continuous and therefore, $\gamma \circ\varphi \sim\gamma \circ \varepsilon_{1}$ where $\gamma \circ\varphi=\text{id}_{S_{1}}$ and $\gamma \circ \varepsilon_{1}$ is constant. Therefore, $S_{1}$ is contractable, which is a contradiction. Then, by injectivity of the group morphism in 1, the fundamental group at $1$ on $\mathbb{R}^2\backslash\{ 0 \}$ is not trivial. 
+4. Assume that it is. Then, there exists $r:\mathbb{R}^{2}\to S_{1}$ s.t. $r|_{S_{1}}=\text{id}_{S_{1}}$. Let $x:=r(0)$. 
