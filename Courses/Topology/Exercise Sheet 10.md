@@ -64,4 +64,11 @@ We have:
 > [!def] Problem 4
 > Let $X$ be a compact Hausdorff topological manifold of dimension $d\geq 1$. The goal of this exercise is to show that there exists some integer $m\geq 1$ and a compact subset $C\subseteq \mathbb{R}^m$ homeomorphic to $X$.
 > 1. Show that there exist a finite covering $(U_{i})_{i\in[k]}$ of $X$ by open sets s.t. for every $i$, there is an homeomorphism $\varphi_{i}:U_{i}\to W_{i}$ where $W_{i}\subseteq \mathbb{R}^d$ is open. 
-> 2. Explain why there exists a partition of unity $(f_{i})_{i\in[k]}$ subordinate to $(U_{i})$. Show that the functions $g_{i}:X\to \mathbb{R}^d$ defined by: $$g_{i}(x):=\begin{cases}f_{i}(x)\varphi_{i}(x)&x\in U_{i}\\&0\end{cases}$$ gi(x) = ( fi(x)φi(x) if x ∈ Ui , 0 if x ∈ X \ Supp(fi) are continuous (where the support of fi is defined also in the previous exercise). (c) Show that the map φ: X → Rk × Rdk defined by φ(x) = (f1(x), . . . , fk(x), g1(x), . . . , gk(x)) is injective. (Hint: if φ(x) = φ(y), show that there exists i such that x ∈ Ui and y ∈ Ui .) (d) Show that φ is continuous and that it defines a homeomorphism φ: X → φ(X) ⊂ Rk+dk .
+> 2. Explain why there exists a partition of unity $(f_{i})_{i\in[k]}$ subordinate to $(U_{i})$. Show that the functions $g_{i}:X\to \mathbb{R}^d$ defined by: $$g_{i}(x):=\begin{cases}f_{i}(x)\varphi_{i}(x)&x\in U_{i}\\0&x\in X\backslash \text{supp}(f_{i})\end{cases}$$ are continuous. 
+> 3. Show that the map $\varphi:X\to \mathbb{R}^k\times \mathbb{R}^{dk}$ defined by $$\varphi(x):=(f_{1}(x),\dots,f_{k}(x),g_{1}(x),\dots,g_{k}(x))$$ is injective. 
+> 4. Show that $\varphi$ is continuous and that it defines a homeomorphism $\varphi:X\to\varphi(X)\subseteq \mathbb{R}^{k+dk}$.
+
+We have that:
+1. for each $p\in X$, let $U_{p}\subseteq X$ be the open neighborhood of $p$ with homeomorphism $\varphi_{p}$. Then, as $X$ is compact, there exists $U_{1},\dots,U_{k}$ that covers $X$ with $\varphi_{i}:U_{i}\to W_{i}$ as corresponding homeomorphisms.
+2. $X$ is compact Hausdorff and thereby normal. Therefore, there exists a partition of unity $(f_{i})_{i}$ subordinate to $(U_{i})_{i}$. To see the continuity, $g_{i}$ is continuous in $U_{i}$ by definition. Notice that $f_{i}(x)=0$ for all $x\in X \backslash \text{supp}(f_{i})$. As $\text{supp}(f_{i})\subseteq U_{i}$ and the support is closed and $U_{i}$ open, the function can be continuously extended to the whole space $X$ with zero.
+3. Let $\varphi(x)=\varphi(y)$ for $x,y\$

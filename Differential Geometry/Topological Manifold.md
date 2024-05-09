@@ -4,7 +4,7 @@
 > A ***topological manifold $M$ of dimension $m$*** is a [[topological space]] that is:
 > 1. [[Hausdorff Space|Hausdorff]] $(T_{2})$ 
 > 2. **second countable**: the topology admits a countable basis $\mathcal{B}=\{ U_{n} \}_{n}$
-> 3. **locally homeomorphic to $\mathbb{R}^m$**: every point $p\in M$ admits an open neighborhood $U\subseteq M$ s.t. $\varphi :U\to \varphi(U)\subseteq\mathbb{R}^m$ is a [[homeomorphism]].
+> 3. **locally homeomorphic to $\mathbb{R}^m$**: every point $p\in M$ admits an open neighborhood $U\subseteq M$ s.t. $\varphi :U\to \varphi(U)\subseteq\mathbb{R}^m$ is a [[homeomorphism]] and $\varphi(U)\subseteq \mathbb{R}^m$ is open.
 - **Related definition**: In a topological manifold $M$, we have:
   1. a ***chart*** $(U,\varphi)$
 	2. the ***coordinate neighborhood*** $U$ of $\varphi$.
