@@ -12,6 +12,19 @@ We have:
 1. let $x\in X$. Then, for any $y\in X$, there exists a path $\gamma_{y}$ from $x$ to $y$ and as $\gamma_{y}$ is continuous and $[0,1]$ is connected, $\text{im }\gamma_{y}$ is connected. Then, $X=\bigcup_{y\in X}^{}\text{im }\gamma_{y}$ is connected as $x\in \text{im }\gamma_{y}$ for all $y\in X$.
 2. we have that $\gamma:[0,1]\to X,t\mapsto x$ is a path from $x$ to $x$ for any $x\in X$. Therefore, $x \sim x$. For $x\sim y$ with a path $\gamma$, $\overline{\gamma}$ is a path from $y$ to $x$. Lastly, for $x\sim y$ and $y\sim z$ with paths $\gamma_{1}$ and $\gamma_{2}$, $\gamma_{1}\gamma_{2}$ is a path from $x$ to $z$.
 3. The path-connected component of $X$ is by 1 connected. As the connected component of $x$ is the largest connected set containing $x$, this proves the statement.
-4. Let $x\in X$ and $P\subseteq X$ be the path-connected component of $x$. For $p\in P$, let $U$ be the open neighborhood of $p$ and $\varphi$ the homeomorphism. For the path $\gamma$ from $x$ to $p$, let $Q:=\text{im }\gamma \cap U$. 
-5. 
-6. $\gamma ^{-1}(U)$ is an open set. For $q\in \gamma ^{-1}(U)$, 
+4. Let $x\in X$ and $P\subseteq X$ be the path-connected component of $x$. For $p\in P$, let $U$ be the open neighborhood of $p$ and $\varphi:U\to\varphi(U)$ the homeomorphism. Then, for $\varphi(p)$, from normality, there exists $\varepsilon>0$ s.t. $B:=B_{<\varepsilon}(\varphi(p))\subseteq\varphi(U)$ and $B$ is path-connected. As $\varphi$ is a homeomorphism, $\varphi ^{-1}(B)\subseteq U$ is also path-connected and open. Therefore, $\varphi ^{-1}(B)\subseteq P$. This shows that $P$ is open.
+5. let $h:X\times[0,1]\to X$ be a homotopy from $\text{id}_{X}$ to a constant map $x_{0}$. Then, for any $x\in X$, $$\begin{array}{cccc} {\gamma_{x}:}&{[0,1]}&\to&{X}\\&{t} &\mapsto & {h(x,t)} \end{array}{}$$is a path from $x$ to $x_{0}$ as $\gamma_{x}(0)=h(x,0)=\text{id}_{X}(x)=x$ and $\gamma_{x}(1)=h(x,1)=x_{0}$. Therefore, $x_{0}$ is path connected with every point $x\in X$. As being path-connected is an equivalence relation, this proves the statement.
+---
+> [!def] Problem 2
+> Let $X$ be the subspace $$C=\{ (0,1) \}\cup \bigcup_{n\geq 1}^{}\left( \left\{  \frac{1}{n}  \right\}\times[0,1] \right)\cup([0,1]\times\{ 0 \})\subseteq \mathbb{R}^{2}$$
+> of the plane, with the induced topology. 
+> 1. Prove that $C$ is connected. 
+> 2. Let $\gamma:[0,1]\to C$ be a path with $\gamma(0)=(0,1)$ and let $Y=\gamma ^{-1}(\{ (0,1) \})$. Show that $Y\subseteq[0,1]$ is closed and not empty. 
+> 3. Let $t_{0}\in Y$. Let $\varepsilon>0$ be a real number with $\varepsilon<1/2$ and let $$V:=\{ (x,y)\in C:\left| x \right| +\left| y-1 \right| <\varepsilon \}$$Show that there exist real numbers $a,b$ with $0<a<t_{0}<b<1$ s.t. $\gamma((a,b))\subseteq V$.
+> 4. Show that $\gamma((a,b))\subseteq V$ is connected. 
+> 5. Deduce that $\gamma((a,b))=\{ (0,1) \}$
+> 6. Deduce that $Y$ is open in $[0,1]$. 
+> 7. Conclude that $C$ is not path-connected.
+
+We have that:
+1. Firstly, one can easily show that $C \backslash \{ (0,1) \}$ is connected. Indeed, $(\{ 1 / n \}\times[0,1])$
