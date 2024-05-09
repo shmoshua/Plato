@@ -49,4 +49,17 @@ We have:
 1. For topological space $X$, $\text{id}_{X}:X\to X$ is a homotopy equivalence. For $X$ with the same homotopy type as $Y$ with homotopy equivalence $f$, there exists $g$ by definition for which $g$ is a homotopy equivalence and $Y$ has the same homotopy type as $X$. Lastly, let $f:X\to Y$ and $f':Y\to Z$ be homotopic equivalences with $g,g'$ respectively. Then, consider $f'\circ f:X\to Z$ and $g\circ g':Z\to X$. We have that: $$\begin{array}{cccc} {h_{Z}:}&{Z\times[0,1]}&\to&{Z}\\&{(z,t)} &\mapsto & {f'(h_{f\circ g}(g'(z),t))} \end{array}{}$$is a homotopy from $f'\circ f\circ g\circ g'$ to $f'\circ g'$, where $h_{f\circ g}$ is the homotopy from $f\circ g$ to $\text{id}_{Y}$. As homotopies form an equivalence relation, $f'\circ f\circ g\circ g'$ is homotopic to $\text{id}_{Z}$. By symmetry, $X$ has the same homotopy type as $Z$.
 2. Let $g,h:Y\to X$ s.t. $f\circ g \sim \text{id}_{Y}$, $g\circ f\sim \text{id}_{X}$, $f\circ h\sim \text{id}_{Y}$ and $h\circ f\sim \text{id}_{X}$. Then, $$g=g\circ \text{id}_{Y}\sim g\circ f\circ h\sim \text{id}_{X}\circ h=h$$This proves the statement.
 3. Shown in 1. 
-4. Let $X$ have the same homotopy type as $\{ x_{0} \}$ and $f:X\to \{ x_{0} \}$ be the homotopy equivalence with homotopy inverse $g$ s.t. $f \circ g\sim \text{id}_{\{ x_{0} \}}$ and $g\circ f\sim \text{id}_{X}$. Let $h$ be a homotopy from $f\circ g$ to $\text{id}_{\{ x_{0} \}}$. Then, 
+4. Let $X$ have the same homotopy type as $\{ x_{0} \}$ and $f:X\to \{ x_{0} \}$ be the homotopy equivalence with homotopy inverse $g$ s.t. $f \circ g\sim \text{id}_{\{ x_{0} \}}$ and $g\circ f\sim \text{id}_{X}$. Then, $g\circ f:X\to X$ is a constant function homotopic to $\text{id}_{X}$ and $X$ is contractible. 
+   
+   Conversely, assume $X$ is contractible and let $f:X\to X$ be the constant function homotopic to $\text{id}_{X}$ with $\text{Im }f=\{ x \}$. Then, we can define a constant functions $f':X\to \{ x_{0} \}$ and $g':\{ x_{0} \}\to X, x_{0}\mapsto x$ s.t. $g'\circ f'=f$. Finally, $f'\circ g'(x_{0})=x_{0}$ and we have that $f'\circ g'\sim \text{id}_{\{ x_{0} \}}$ from reflexivity.
+5. Let $X$ have the same homotopy type as $\{ x_{0} \}$, then $X$ is contractible and there exists a constant map $f:X\to X$ s.t. $f\sim \text{id}_{X}$. Then, for any continuous $\varphi:Y\to X$, $\varphi=\text{id}_{X}\circ\varphi \sim f\circ\varphi$ which is a constant map. Similarly, for any continuous $\varphi:X\to Y$, $\varphi=\varphi \circ\text{id}_{X}\sim\varphi \circ f$, which is a constant map.
+---
+> [!def] Problem 4
+> A subspace $Y$ of a topological space $X$ is called a ***retract*** of $X$ if there exists a continuous map $r:X\to Y$ such that $r(y)=y$ for all $y\in Y$. 
+> 1. If $Y$ is a retract of $X$ and $y_{0}\in Y$, show that the group morphism $$\pi_{1}(Y,y_{0})\to \pi_{1}(X,y_{0})$$induced by the inclusion $Y\to X$ is injective. 
+> 2. For $n\geq 1$, show that $$C_{n-1}:=\{ x\in \mathbb{R}^n:\|x\|=1 \}$$is a retract of $\mathbb{R}^n \backslash\{ 0 \}$. 
+> 3. Show that the fundamental group of $\mathbb{R}^2\backslash\{ 0 \}$ is not trivial. 
+> 4. Show that $C_{1}$ is not a retract of $\mathbb{R}^2$. 
+
+We have:
+1. let $\gamma$ and $\gamma'$ be two path-homotopy classes from $y_{0}$ to $y_{0}$ on $Y$. 
