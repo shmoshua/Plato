@@ -85,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Homotopy.md"
+                "file": "Courses/Topology/Exercise Sheet 11.md"
               }
             }
           }
@@ -214,12 +213,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e57ecb38cda9fc13",
+  "active": "55c68e774b6c2164",
   "lastOpenFiles": [
+    "Topology/Contractible Space.md",
+    "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Homotopy.md",
-    "Topology/Connected Space.md",
-    "Topology/Contractible Space.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Path.md",
     "Courses/Topology/Topology Roadmap.md",
