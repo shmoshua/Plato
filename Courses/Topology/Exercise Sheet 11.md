@@ -27,4 +27,8 @@ We have:
 > 7. Conclude that $C$ is not path-connected.
 
 We have that:
-1. Firstly, one can easily show that $C \backslash \{ (0,1) \}$ is connected. Indeed, $(\{ 1 / n \}\times[0,1])$
+1. Firstly, one can easily show that $C \backslash \{ (0,1) \}$ is connected. Indeed, $(\{ 1 / n \}\times[0,1])\cup([0,1]\times \{ 0 \})$ is connected as they share a point $(1/n, 0)$ and $C\backslash\{ (0,1) \}$ is a union of all such connected components with $[0,1]\times \{ 0 \}$ as intersection. 
+   
+   Let $U_{1}\sqcup U_{2}=C$ be open sets in $C$ with $(0,1)\in U_{1}$ wlog. As $U_{1}$ is open, $U_{1}\cap (C \backslash \{ (0,1) \})\neq \varnothing$ and by connectedness of $C \backslash\{ (0,1) \}$, $U_{2}\cap C\backslash\{ (0,1) \}=\varnothing$. However, as $(0,1)\in U_{1}$, $U_{2}\cap C=\varnothing$. This shows the statement.
+2. $Y$ is not empty as $0\in Y$. We also know that $\{ (0,1) \}$ is closed in $C$. Therefore, $Y$ is closed by continuity.
+3. We see that $V=B_{<\varepsilon}((0,1))\cap C$ where the ball is with respect to the norm $\|(x,y)\|:=\left| x \right|+\left| y \right|$. 
