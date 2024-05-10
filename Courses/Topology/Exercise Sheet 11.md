@@ -77,4 +77,6 @@ We have:
 1. let $z\in D$. Then, $g(z)$ is the intersection of the half-line from $f(z)$ passing through $z$ and $S_{1}$. As $f(z)\in D$ and $f(z)\neq z$, such an intersection point always exists.
    
    More formally, for $z\in D$, we define $t:D\to \mathbb{R}_{>0}$ s.t. $$\left| f(z)+t(z)(z-f(z)) \right| =1$$ Then, $g(z)=f(z)+t(z)(z-f(z))$.
-2. Let $h(t,z):=\left| f(z)+t(z-f(z)) \right|$. Then, by implicit function theorem 
+2. Let $h(t,z):=\left| f(z)+t(z-f(z)) \right|$. Then, by implicit function theorem we show that there exists a continuous function $t(z)$ s.t. $h(t(z),z)=1$. Therefore, $g$ is continuous.
+3. We first notice that $g:D\to S_{1}$ and $g(z)=z$ for any $z\in S_{1}$ by construction. Therefore, this shows that $S_{1}$ is a retract of $D$. However, similarly as in the previous exercise, the fundamental group of $D$ is trivial, which shows that $S_{1}$ cannot be a retract of $D$. Therefore, this is a contradiction and there exists a point $z\in D$ s.t. $f(z)=z$ for any continuous $f:D\to D$.
+---

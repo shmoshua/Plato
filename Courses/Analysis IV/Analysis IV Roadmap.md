@@ -40,6 +40,8 @@
 ---
 ##### 2. Fourier Series
 
+**2.1 Definitions and Main Properties**
+1. [[Fourier Coefficient]]
 ---
 ### Exercises
 1. [[Courses/Analysis IV/Exercise Sheet 0|Exercise Sheet 0]]

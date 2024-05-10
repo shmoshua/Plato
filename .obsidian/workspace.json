@@ -8,120 +8,74 @@
         "type": "tabs",
         "children": [
           {
-            "id": "166f1b58f14eab65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "5b36e07360a2f685",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "727ebe75a8f1ad5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Fourier Coefficient.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
         "type": "tabs",
         "children": [
           {
-            "id": "55c68e774b6c2164",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2707a0141daa721e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "cba6ca668b4dc460",
+            "id": "3c400ae2d41ac0be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Analysis/Fourier Coefficient.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "e57ecb38cda9fc13",
+            "id": "cf78c65d75c96063",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14cd11cd12f9d1b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Path.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ad32ee9e851fdc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Homotopy.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8822f7ab4ead1b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Analysis/Lp Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Analysis/Fourier Coefficient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Analysis/Fourier Coefficient.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md"
+                "file": "Analysis/Fourier Coefficient.md"
               }
             }
           }
@@ -249,21 +203,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "55c68e774b6c2164",
+  "active": "3c400ae2d41ac0be",
   "lastOpenFiles": [
+    "Analysis/Lp Space.md",
+    "Analysis/Fourier Coefficient.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Homotopy.md",
-    "Topology/Path.md",
-    "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Contractible Space.md",
+    "Topology/Connected Space.md",
+    "Topology/Normal Space.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Courses/Topology/Exercise Sheet 9.md",
+    "Courses/Topology/Exercise Sheet 10.md",
+    "Courses/Topology/Exercise Sheet 11.md",
+    "Topology/Path.md",
     "Controls/Controllability.md",
     "Topology/Fundamental Group.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Connected Space.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Topology/Normal Space.md",
     "Topology/Compact Space.md",
     "Topology/Initial Topology.md",
-    "Courses/Topology/Exercise Sheet 10.md",
     "Differential Geometry/Atlas.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Graph Theory/Line Graph.md",
@@ -271,12 +229,8 @@
     "Topology/Topological Space.md",
     "Graph Theory/Induced Graph.md",
     "Graph Theory/Graph.md",
-    "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Complete Graph.md",
-    "Graph Theory/Graph Homomorphism.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Graph Theory/Graph Property.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
