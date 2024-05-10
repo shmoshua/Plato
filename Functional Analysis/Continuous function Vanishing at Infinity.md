@@ -25,10 +25,20 @@
 
 > [!proof]+
 > We have:
-> 1. **Claim**: for $x\neq y\in X$, there exists $f\in \mathcal{A}$ s.t. $f(x)\neq f(y)$, $f(x)\neq 0$ and $f(y)\neq 0$. 
+> 1. **Claim: for $x\neq y\in X$, there exists $f\in \mathcal{A}$ s.t. $f(x)\neq f(y)$, $f(x)\neq 0$ and $f(y)\neq 0$.**
 >    Assume otherwise. Let $f_{1}\in \mathcal{A}$ s.t. $f_{1}(x)\neq f_{1}(y)$. 
 >    
->    If $f_{1}(y)\neq 0$Then, $f_{1}(x)=0$ by assumption. 
+>    If $f_{1}(y)\neq 0$, then, $f_{1}(x)=0$ by assumption. Then, let  $f_{2}\in \mathcal{A}$ with $f_{2}(x)\neq 0$.
+>    
+>    If $f_{2}(x)\neq f_{2}(y)$, then $f_{2}(y)=0$ and let $f:=f_{1}+cf_{2}$ where $c$ is a non-zero real number s.t. $f_{1}(y)\neq cf_{2}(x)$. Then, $f(x)=cf_{2}(x)\neq f_{1}(y)=f(y)$, and $f(x),f(y)$ are non-zero, which is a contradiction.
+>    
+>    Therefore, $f_{2}(x)=f_{2}(y)$ and let $f=f_{1}\pm f_{2}$. Then, $f(x)=\pm f_{2}(x)\neq f_{1}(y)\pm f_{2}(y)=f(y)$ and $f(x)$ and $f(y)$ are both non-zero, which is a contradiction.
+>    
+>    Therefore, $f_{1}(y)=0$ and by symmetry, $f_{1}(x)=0$. Which is again a contradiction. This shows that the claim holds.
+> 2.  **Claim: for $x\neq y\in X$ and $a,b\in \mathbb{R}$, there exists $g\in \mathcal{A}$ s.t. $g(x)=a$ and $g(y)=b$.**
+>    Consider the system: $$\begin{bmatrix}f(x)&f(x)^{2}\\f(y)&f(y)^{2}\end{bmatrix}\begin{bmatrix}\alpha\\\beta\end{bmatrix}=\begin{bmatrix}a\\b\end{bmatrix}$$where $f\in \mathcal{A}$ from claim 1. Then, as $f(x)f(y)(f(y)-f(x))\neq 0$, the matrix is invertible and for $\alpha,\beta$, $g:=\alpha f+\beta f^{2}$ is the desired function.
+> 3. **Claim: for $f,g\in \mathcal{A}$, $\left| f \right|,\max\{ f,g \},\min\{ f,g \}\in \mathcal{A}$**.
+>    
 ---
 
 > [!lemma] Theorem 4 (Complex Stone-Weierstrass)
