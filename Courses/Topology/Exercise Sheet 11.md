@@ -75,4 +75,6 @@ We have:
 
 We have:
 1. let $z\in D$. Then, $g(z)$ is the intersection of the half-line from $f(z)$ passing through $z$ and $S_{1}$. As $f(z)\in D$ and $f(z)\neq z$, such an intersection point always exists.
-2. Let $z\in D$ and $\varepsilon>0$. Then, $$\left| g(z)-g(y) \right| <$$
+   
+   More formally, for $z\in D$, we define $t:D\to \mathbb{R}_{>0}$ s.t. $$\left| f(z)+t(z)(z-f(z)) \right| =1$$ Then, $g(z)=f(z)+t(z)(z-f(z))$.
+2. Let $h(t,z):=\left| f(z)+t(z-f(z)) \right|$. Then, by implicit function theorem 
