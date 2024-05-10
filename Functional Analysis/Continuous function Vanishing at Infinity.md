@@ -1,6 +1,7 @@
 #Definition  #FunctionalAnalysis 
 > [!definition]
 > For a [[topological space]] $X$, $(C_{0}(X),\|\cdot\|_{b})$ denotes [[Normed Space|normed vector space]] of continuous functions $f:X\to \mathbb{\mathbb{C}}$ that ***vanish at infinity***, i.e. for all $\varepsilon>0$, there exists $K\subseteq X$ compact s.t $$\sup_{x\in X \backslash K}\left| f(x) \right| <\varepsilon$$
+- **Remark**: if $X$ is compact, $C_{0}(X)=C(X)$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -15,12 +16,27 @@
 > [!lemma] Proposition 2
 > $C_{0}(X,\mathbb{C})^{*}$ is the space of [[Analysis/Complex Measure|complex measures]] $\mu:\mathcal{B}_{X}\to \mathbb{C}$.
 ---
-> [!lemma] Theorem 3 (Stone-Weierstrass)
+> [!lemma] Theorem 3 (Real Stone-Weierstrass)
+> Let $X$ be a [[locally compact Hausdorff space]] and let $\mathcal{A}\subseteq C_{0}(X,\mathbb{R})$ be a subalgebra s.t. 
+> 1. for all $x\in X$, there exists $f\in \mathcal{A}$ with $f(x)\neq 0$.
+> 2. for all $x,y\in X$ with $x\neq y$, there exists $f\in \mathcal{A}$ with $f(x)\neq f(y)$.
+> 
+> Then, $\mathcal{A}$ is dense in $(C_{0}(X,\mathbb{R}),\|\cdot\|_{b})$, i.e. the topology of uniform convergence.
+
+> [!proof]+
+> We have:
+> 1. **Claim**: for $x\neq y\in X$, there exists $f\in \mathcal{A}$ s.t. $f(x)\neq f(y)$, $f(x)\neq 0$ and $f(y)\neq 0$. 
+>    Assume otherwise. Let $f_{1}\in \mathcal{A}$ s.t. $f_{1}(x)\neq f_{1}(y)$. 
+>    
+>    If $f_{1}(y)\neq 0$Then, $f_{1}(x)=0$ by assumption. 
+---
+
+> [!lemma] Theorem 4 (Complex Stone-Weierstrass)
 > Let $X$ be a [[locally compact Hausdorff space]] and let $\mathcal{B}\subseteq C_{0}(X)$ be a subalgebra s.t. 
 > 1. if $f\in \mathcal{B}$, then $\overline{f}\in \mathcal{B}$.
 > 2. for all $x\in X$, there exists $f\in \mathcal{B}$ with $f(x)\neq 0$.
 > 3. for all $x,y\in X$ with $x\neq y$, there exists $f\in \mathcal{B}$ with $f(x)\neq f(y)$.
 > 
-> Then, $\mathcal{B}$ is dense in $(C_{0}(X),\|\cdot\|_{\infty})$.
+> Then, $\mathcal{B}$ is dense in $(C_{0}(X),\|\cdot\|_{b})$.
 
 ^2e5b88

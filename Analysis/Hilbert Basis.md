@@ -49,3 +49,5 @@
 > 
 > Furthermore, we have that: $c_{00}(\mathbb{N})=\text{Span}\{ \delta_{n} \}_{n}$.
 ---
+> [!h] Example 2 (Fourier Basis)
+> For every $k\in \mathbb{Z}$, define $e_{k}\in L^2((-\pi,\pi),\mathbb{C})$ as: $$e_{k}(x):= \frac{1}{\sqrt{ 2\pi }}e^{ikx}$$Then, $\mathcal{F}:=\{ e_{k}: k\in \mathbb{Z} \}$ is a Hilbert basis for $L^2((-\pi,\pi),\mathbb{C})$.

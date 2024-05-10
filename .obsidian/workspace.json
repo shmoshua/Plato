@@ -30,9 +30,45 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "ecdfc9566a189589",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Hilbert Basis.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "fbf6cba2183492cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "79c5affc8aeb90d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Continuous Function.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -68,14 +104,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Analysis/Hilbert Basis.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "815876f92abc3059",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -104,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "adele",
+                "query": "stone weier",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +169,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Fourier Coefficient.md",
+                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Fourier Coefficient.md",
+                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Fourier Coefficient.md"
+                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md"
               }
             }
           }
@@ -203,8 +252,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3c400ae2d41ac0be",
+  "active": "fbf6cba2183492cd",
   "lastOpenFiles": [
+    "Topology/Continuous Function.md",
+    "Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Analysis/Hilbert Basis.md",
     "Analysis/Lp Space.md",
     "Analysis/Fourier Coefficient.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
@@ -228,9 +280,6 @@
     "Graph Theory/Regular Graph.md",
     "Topology/Topological Space.md",
     "Graph Theory/Induced Graph.md",
-    "Graph Theory/Graph.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Graph Theory/Complete Graph.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
