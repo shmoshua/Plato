@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Analysis IV/Analysis IV Roadmap.md",
+                "file": "Topology/Path.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Fourier Coefficient.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -123,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
+                "file": "Topology/Fundamental Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
+                "file": "Topology/Fundamental Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md"
+                "file": "Topology/Fundamental Group.md"
               }
             }
           }
@@ -252,15 +252,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fbf6cba2183492cd",
+  "active": "3c400ae2d41ac0be",
   "lastOpenFiles": [
-    "Topology/Continuous Function.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Analysis/Fourier Coefficient.md",
+    "Topology/Path.md",
+    "Topology/Fundamental Group.md",
+    "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Topology/Continuous Function.md",
     "Analysis/Hilbert Basis.md",
     "Analysis/Lp Space.md",
-    "Analysis/Fourier Coefficient.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Homotopy.md",
     "Topology/Contractible Space.md",
     "Topology/Connected Space.md",
@@ -269,9 +271,7 @@
     "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 10.md",
     "Courses/Topology/Exercise Sheet 11.md",
-    "Topology/Path.md",
     "Controls/Controllability.md",
-    "Topology/Fundamental Group.md",
     "Topology/Compact Space.md",
     "Topology/Initial Topology.md",
     "Differential Geometry/Atlas.md",
