@@ -13,4 +13,7 @@ We can easily see that $\chi_{a}\in \widehat{\mathbb{R}}$ as it is continuous an
 
 Further, we have $\chi_{a+b}(t)=\exp(2\pi i(a+b)t)=\exp(2\pi iat)\exp(2\pi ibt)=\chi_{a}(t)\chi_{b}(t)$. Moreover, if $\chi_{a}=\widehat{e}$, then $\exp(2\pi iat)=1$ for all $t\in \mathbb{R}$ and $a=0$. 
 
-For surjectivity, let $\chi\in \widehat{\mathbb{R}}$. Then, clearly $\chi\in L^1_{\text{loc}}(\mathbb{R})$ and for $\varphi\in C^1_{0}(\mathbb{R})$, we have that $\varphi*\chi\in C^1(\mathbb{R})$. 
+For surjectivity, let $\chi\in \widehat{\mathbb{R}}$. Then, clearly $\chi\in L^1_{\text{loc}}(\mathbb{R})$ and for $\varphi\in C^1_{0}(\mathbb{R})$, we have that $\varphi*\chi\in C^1(\mathbb{R})$. Therefore, we can see that: $$\chi'(t)=\lim_{ h \to 0 } \frac{\chi(t+h)-\chi(t)}{h}=\lim_{ h \to 0 } \frac{\chi(t)\chi(h)-\chi(t)}{h}=\chi(t)\chi'(0)$$It shows that $\chi(t)=\exp(\chi'(0)t)$ and $\Psi$ is surjective.
+
+It is left to show that $\Psi$ is continuous. Let $\chi\in \widehat{\mathbb{R}}$, $f_{1},\dots,f_{n}\in L^1(\mathbb{R})$ and $\varepsilon>0$. Let further, $$U:=\mathcal{U}(\chi;f_{1},\dots,f_{n};\varepsilon)$$For $a\in \Psi^{-1}(U)$, 
+
