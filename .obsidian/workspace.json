@@ -69,7 +69,7 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -241,6 +241,7 @@
   },
   "active": "c8efa93017610b71",
   "lastOpenFiles": [
+    "Algebra/Finitely Generated Abelian Group.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Fourier Transform.md",
     "Representation Theory/Character.md",
@@ -266,7 +267,6 @@
     "Topology/Connected Space.md",
     "Topology/Normal Space.md",
     "Differential Geometry/Topological Manifold.md",
-    "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
