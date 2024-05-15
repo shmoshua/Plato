@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convolution (Rn).md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -242,6 +242,7 @@
   "lastOpenFiles": [
     "Functional Analysis/Fourier Transform.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Lp-loc Space.md",
     "Analysis/Convolution (Rn).md",
     "Functional Analysis/Convolution.md",
@@ -265,7 +266,6 @@
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Topology/Continuous Function.md",
     "Topology/Homotopy.md",
-    "Topology/Contractible Space.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
