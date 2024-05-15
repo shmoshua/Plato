@@ -11,4 +11,6 @@ Recall that we have $\widehat{G_{1}\times G_{2}}\cong \widehat{G_{1}}\times  \wi
 
 We can easily see that $\chi_{a}\in \widehat{\mathbb{R}}$ as it is continuous and: $$\chi_{a}(t+s)=\exp(2\pi ia(t+s))=\chi_{a}(t)\chi_{a}(s)$$
 
-Further, we have $\chi_{a+b}(t)=\exp(2\pi i(a+b)t)=\exp(2\pi iat)\exp(2\pi ibt)=\chi_{a}(t)\chi_{b}(t)$. Moreover, if $\chi_{a}=\widehat{e}$, then $\exp(2\pi iat)=1$ for all $t\in \mathbb{R}$ and $a=0$. Lastly, for $\chi\in \widehat{\mathbb{R}}$, there exists $a\in \mathbb{R}$ s.t. $\chi(1)=\exp(2\pi ia)$. It follows that: $$\chi_{a}(t)=\exp(2\pi iat)=\chi(1)^t$$
+Further, we have $\chi_{a+b}(t)=\exp(2\pi i(a+b)t)=\exp(2\pi iat)\exp(2\pi ibt)=\chi_{a}(t)\chi_{b}(t)$. Moreover, if $\chi_{a}=\widehat{e}$, then $\exp(2\pi iat)=1$ for all $t\in \mathbb{R}$ and $a=0$. 
+
+For surjectivity, let $\chi\in \widehat{\mathbb{R}}$. Then, firstly we have: $$\int_{\mathbb{R}}^{} \left| \chi(x) \right|  \, dx $$

@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Analysis/Convolution (Rn).md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,13 +104,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Character.md",
+                "file": "Analysis/Convolution (Rn).md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -176,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Analysis/Convolution (Rn).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Analysis/Convolution (Rn).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
+                "file": "Analysis/Convolution (Rn).md"
               }
             }
           }
@@ -238,12 +239,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "222e99f3f35e4d7d",
+  "active": "b8f7c71275ff04b6",
   "lastOpenFiles": [
+    "Analysis/Lp-loc Space.md",
+    "Analysis/Convolution (Rn).md",
     "Functional Analysis/Fourier Transform.md",
-    "Functional Analysis/Guelfand Spectrum.md",
-    "Representation Theory/Character.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Functional Analysis/Convolution.md",
+    "Representation Theory/Character.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
@@ -263,9 +267,6 @@
     "Topology/Continuous Function.md",
     "Topology/Homotopy.md",
     "Topology/Contractible Space.md",
-    "Topology/Connected Space.md",
-    "Topology/Normal Space.md",
-    "Differential Geometry/Topological Manifold.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
