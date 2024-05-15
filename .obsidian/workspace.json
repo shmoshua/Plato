@@ -110,8 +110,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
               }
             }
           }
@@ -239,13 +238,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c8efa93017610b71",
+  "active": "222e99f3f35e4d7d",
   "lastOpenFiles": [
-    "Algebra/Finitely Generated Abelian Group.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Fourier Transform.md",
-    "Representation Theory/Character.md",
     "Functional Analysis/Guelfand Spectrum.md",
+    "Representation Theory/Character.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Algebra/Finitely Generated Abelian Group.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
