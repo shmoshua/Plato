@@ -104,14 +104,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convolution (Rn).md",
+                "file": "Analysis/Lp-loc Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Convolution (Rn).md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Convolution (Rn).md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Convolution (Rn).md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
               }
             }
           }
@@ -239,12 +238,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b8f7c71275ff04b6",
+  "active": "222e99f3f35e4d7d",
   "lastOpenFiles": [
-    "Analysis/Lp-loc Space.md",
-    "Analysis/Convolution (Rn).md",
     "Functional Analysis/Fourier Transform.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Analysis/Lp-loc Space.md",
+    "Analysis/Convolution (Rn).md",
     "Functional Analysis/Convolution.md",
     "Representation Theory/Character.md",
     "Functional Analysis/Guelfand Spectrum.md",

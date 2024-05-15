@@ -13,4 +13,4 @@ We can easily see that $\chi_{a}\in \widehat{\mathbb{R}}$ as it is continuous an
 
 Further, we have $\chi_{a+b}(t)=\exp(2\pi i(a+b)t)=\exp(2\pi iat)\exp(2\pi ibt)=\chi_{a}(t)\chi_{b}(t)$. Moreover, if $\chi_{a}=\widehat{e}$, then $\exp(2\pi iat)=1$ for all $t\in \mathbb{R}$ and $a=0$. 
 
-For surjectivity, let $\chi\in \widehat{\mathbb{R}}$. Then, firstly we have: $$\int_{\mathbb{R}}^{} \left| \chi(x) \right|  \, dx $$
+For surjectivity, let $\chi\in \widehat{\mathbb{R}}$. Then, clearly $\chi\in L^1_{\text{loc}}(\mathbb{R})$ and for $\varphi\in C^1_{0}(\mathbb{R})$, we have that $\varphi*\chi\in C^1(\mathbb{R})$. 
