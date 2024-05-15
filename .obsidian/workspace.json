@@ -212,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Fourier Transform (Rn).md",
+                "file": "Courses/Analysis IV/Exercise Sheet 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Fourier Transform (Rn).md",
+                "file": "Courses/Analysis IV/Exercise Sheet 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Fourier Transform (Rn).md"
+                "file": "Courses/Analysis IV/Exercise Sheet 9.md"
               }
             }
           }
@@ -274,10 +274,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2707a0141daa721e",
+  "active": "fbf6cba2183492cd",
   "lastOpenFiles": [
-    "Courses/Analysis IV/Exercise Sheet 9.md",
     "Analysis/Fourier Transform (Rn).md",
+    "Courses/Analysis IV/Exercise Sheet 9.md",
     "Analysis/Hilbert Basis.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Analysis/Lp Space.md",
