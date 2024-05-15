@@ -37,19 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Basis.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fbf6cba2183492cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 9.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,80 +56,20 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
         "type": "tabs",
         "children": [
           {
-            "id": "2707a0141daa721e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Fourier Transform (Rn).md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c400ae2d41ac0be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 9.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf78c65d75c96063",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Hilbert Basis.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "815876f92abc3059",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5a4486deee5c8a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Lp Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "222e99f3f35e4d7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Continuous Function with Compact Support.md",
-                "mode": "preview",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -212,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 9.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 9.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Analysis IV/Exercise Sheet 9.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
               }
             }
           }
@@ -274,14 +202,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fbf6cba2183492cd",
+  "active": "ecdfc9566a189589",
   "lastOpenFiles": [
-    "Analysis/Fourier Transform (Rn).md",
-    "Courses/Analysis IV/Exercise Sheet 9.md",
     "Analysis/Hilbert Basis.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Analysis/Lp Space.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Courses/Analysis IV/Exercise Sheet 9.md",
+    "Courses/Topology/Exercise Sheet 11.md",
+    "Analysis/Fourier Transform (Rn).md",
     "Functional Analysis/Fourier Transform.md",
     "Topology/Path.md",
     "Topology/Fundamental Group.md",
@@ -296,12 +226,10 @@
     "Differential Geometry/Topological Manifold.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 10.md",
-    "Courses/Topology/Exercise Sheet 11.md",
     "Controls/Controllability.md",
     "Topology/Compact Space.md",
     "Topology/Initial Topology.md",
     "Differential Geometry/Atlas.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
