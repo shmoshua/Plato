@@ -73,8 +73,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c8efa93017610b71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Fourier Transform.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d385810ce39834a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8f7c71275ff04b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Character.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -202,17 +239,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ecdfc9566a189589",
+  "active": "c8efa93017610b71",
   "lastOpenFiles": [
-    "Analysis/Hilbert Basis.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Representation Theory/Character.md",
+    "Functional Analysis/Guelfand Spectrum.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Courses/Functional Analysis II/Exercise Sheet 4.md",
+    "Courses/Functional Analysis II/Exercise Sheet 3.md",
+    "Analysis/Hilbert Basis.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Analysis/Lp Space.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Courses/Analysis IV/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 11.md",
     "Analysis/Fourier Transform (Rn).md",
-    "Functional Analysis/Fourier Transform.md",
     "Topology/Path.md",
     "Topology/Fundamental Group.md",
     "Courses/Topology/Topology Roadmap.md",
@@ -225,11 +267,6 @@
     "Topology/Normal Space.md",
     "Differential Geometry/Topological Manifold.md",
     "Courses/Topology/Exercise Sheet 9.md",
-    "Courses/Topology/Exercise Sheet 10.md",
-    "Controls/Controllability.md",
-    "Topology/Compact Space.md",
-    "Topology/Initial Topology.md",
-    "Differential Geometry/Atlas.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
