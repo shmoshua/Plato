@@ -151,7 +151,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stone weier",
+                "query": "locally uniform",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,7 +168,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -250,13 +251,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "222e99f3f35e4d7d",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
     "Functional Analysis/Fourier Transform.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Lp-loc Space.md",
     "Analysis/Lp Space.md",
+    "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Convolution (Rn).md",
     "Functional Analysis/Convolution.md",
     "Analysis/Convergence of Sequences.md",
