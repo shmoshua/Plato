@@ -43,5 +43,18 @@ Let us define: $$\begin{array}{cccc} {\Psi:}&{\bigoplus_{n\geq 1}\widehat{F_{n}}
    
    We claim that $\chi(H)=\{ 1 \}$. Assume otherwise and let $g\in H$ s.t. $\chi(g)\neq 1$. Then using the homeomorphism above, as $-\pi /2<\varphi ^{-1}(\chi(g))<\pi /2$ there exists $k\in \mathbb{Z}$ s.t. $\pi /2\leq k \varphi ^{-1}(\chi(g))<\pi$. Then, $$\varphi(k\varphi ^{-1}(\chi(g)))=\exp(ik\varphi ^{-1}(\chi(g)))=\varphi(\varphi ^{-1}(\chi(g)))^k=\chi(g)^k=\chi(g^k)\notin U$$which is a contradiction as $g^k\in H$. Therefore, $\chi(H)=\{ 1 \}$.
    
-   We now define the following embedding for $n\geq 1$: $$\begin{array}{cccc} {i_{n}:}&{F_{n}}&\to&{G}\\&{g} &\mapsto & {(e_{F_{1}},e_{F_{2}},\dots ,e_{F_{n-1}},g,e_{F_{n+1}},\dots)} \end{array}{}$$Then, one easily checks that $\chi \circ i_{n}\in \widehat{F_{n}}$ and for any $n\notin J$, $\chi (i_{n}(F_{n}))=\{ 1 \}$ as $i_{n}(F_{n})\leq H$. Thus, $(\chi \circ i_{n})_{n}\in \bigoplus_{n\geq 1}\widehat{F_{n}}$ and: $$$$
+   We now define the following embedding for $n\geq 1$: $$\begin{array}{cccc} {i_{n}:}&{F_{n}}&\to&{G}\\&{g} &\mapsto & {(e_{F_{1}},e_{F_{2}},\dots ,e_{F_{n-1}},g,e_{F_{n+1}},\dots)} \end{array}{}$$Then, one easily checks that $\chi \circ i_{n}\in \widehat{F_{n}}$ and for any $n\notin J$, $\chi (i_{n}(F_{n}))=\{ 1 \}$ as $i_{n}(F_{n})\leq H$. Thus, $(\chi \circ i_{n})_{n}\in \bigoplus_{n\geq 1}\widehat{F_{n}}$ and for $(g_{n})_{n}\in G$ and $h:=(h_{n})_{n}\in H$ defined as: $$h_{n}=\begin{cases}g_{n}&n\notin J\\e_{F_{n}}&n\in J\end{cases}$$we have: $$\Psi((\chi \circ  i_{n})_{n})((g_{n})_{n})=\prod_{n\in J}^{}\chi (i_{n}(g_{n}))=\chi\left( \prod_{n\in J}^{}i_{n}(g_{n}) \right)\chi(h)=\chi((g_{n})_{n})$$This proves that $\Psi$ is an isomorphism.
+   
+Lastly, notice that $\widehat{G}$ is discrete as $G$ is compact by Tychonoff. This shows that $\Psi$ is a homeomorphism.
+
+---
+> [!def] Problem 5
+> Let $\chi:\mathbb{Q}_{p}\to \mathbb{T}$ be the continuous character constructed in the lecture (with $\text{ker}(\chi)=\mathbb{Z}_{p}$). For each $a\in \mathbb{Q}_{p}$, define $\chi_{a}(t):=\chi(at)$ for each $t\in \mathbb{Q}_{p}$. Show that the map $$\begin{array}{cccc} {\Psi:}&{\mathbb{Q}_{p}}&\to&{\widehat{\mathbb{Q}_{p}}}\\&{a} &\mapsto & {\chi_{a}} \end{array}{}$$ is an isomorphism of topological groups.
+
+We have that $\chi_{a}=\chi \circ L_{a}$ hence continuous and $\chi_{a}(s+t)=\chi(as+at)=\chi(as)\chi(at)=\chi_{a}(s)\chi_{a}(t)$. Thus, $\chi_{a}\in \widehat{\mathbb{Q}_{p}}$ for any $a\in\mathbb{Q}_{p}$. Further, $$\Psi(a+b)(t)=\chi_{a+b}(t)=\chi((a+b)t)=\chi(at)\chi(bt)=\Psi_{a}(t)\Psi_{b}(t)$$shows that $\Psi$ is a group homomorphism. 
+1. **Showing that $\Psi$ is an isomorphism**:
+   Let $\chi_{a}\equiv 1$. Then, $\chi(at)=1$ for all $t\in\mathbb{Q}_{p}$, i.e. $at\in \mathbb{Z}_{p}$ for all $t\in \mathbb{Q}_{p}$. Therefore, $a=0$ and $\Psi$ is injective. 
+   
+   For surjectivity, let $\chi\in \widehat{\mathbb{Q}_{p}}$. Let $U:=\varphi\left( \left( -\frac{\pi}{2}, \frac{\pi}{2} \right) \right)$ as in the previous exercise. Then, $\chi ^{-1}(U)$ is an open neighborhood of $0$ and as $\{ p^n \mathbb{Z}_{p} \}$
+
 

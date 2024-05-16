@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -70,12 +71,24 @@
             }
           },
           {
+            "id": "b602b34f2085420f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c8efa93017610b71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "mode": "preview",
                 "source": false
               }
@@ -111,7 +124,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Algebra/p-adic Rational.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22cfa1fbd5120a08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/p-adic Integer.md",
                 "mode": "preview",
                 "source": false
               }
@@ -247,20 +272,22 @@
   },
   "active": "222e99f3f35e4d7d",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
+    "Lie Group/Topological Group.md",
+    "Algebra/p-adic Rational.md",
+    "Algebra/p-adic Integer.md",
+    "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Topology/Topological Space.md",
     "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
     "Functional Analysis/Positive Operator.md",
     "Analysis/Fourier Coefficient.md",
     "Analysis/Lp Space.md",
     "Measure Theory/Measure.md",
     "Topology/Continuous Functions in Metric Spaces.md",
-    "Lie Group/Topological Group.md",
-    "Algebra/p-adic Rational.md",
-    "Algebra/p-adic Integer.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Functional Analysis/Fourier Transform.md",
     "Topology/Product Topology.md",
     "Topology/Continuous Function.md",
     "Measure Theory/Convergence in Measure.md",
@@ -271,8 +298,6 @@
     "Topology/Topology of Compact Convergence.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Fundamental System.md",
-    "Functional Analysis/Bounded Linear Map.md",
-    "Analysis/Equicontinuity.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
