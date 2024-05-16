@@ -116,14 +116,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp-loc Space.md",
+                "file": "Algebra/Group Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -252,11 +251,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ecdfc9566a189589",
+  "active": "222e99f3f35e4d7d",
   "lastOpenFiles": [
-    "Functional Analysis/Fourier Transform.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Algebra/Group Homomorphism.md",
     "Analysis/Lp-loc Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Functional Analysis/Fourier Transform.md",
     "Analysis/Lp Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Convolution (Rn).md",
@@ -279,7 +279,6 @@
     "Topology/Path.md",
     "Topology/Fundamental Group.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Analysis/Fourier Coefficient.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
