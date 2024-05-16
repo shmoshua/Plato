@@ -128,7 +128,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convergence of Sequences.md",
+                "file": "Measure Theory/Convergence in Measure.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ffc66b081f63a034",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Summable Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -202,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Convergence of Sequences.md",
+                "file": "Measure Theory/Convergence in Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Convergence of Sequences.md",
+                "file": "Measure Theory/Convergence in Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Convergence of Sequences.md"
+                "file": "Measure Theory/Convergence in Measure.md"
               }
             }
           }
@@ -267,21 +279,23 @@
   "active": "ef5a2e2ae15ae3fb",
   "lastOpenFiles": [
     "Measure Theory/Summable Function.md",
+    "Measure Theory/Integrable Function.md",
+    "Topology/Topology of Compact Convergence.md",
+    "Measure Theory/Convergence in Measure.md",
+    "Analysis/Convergence of Sequences.md",
     "Topology/Continuous Functions in Metric Spaces.md",
+    "Functional Analysis/Fourier Transform.md",
     "Topology/Continuous Function.md",
     "Topology/Fundamental System.md",
     "Analysis/Lp Space.md",
     "Topology/Compact Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Functional Analysis/Fourier Transform.md",
     "Analysis/Equicontinuity.md",
-    "Measure Theory/Convergence in Measure.md",
     "Algebra/Group Homomorphism.md",
     "Analysis/Lp-loc Space.md",
     "Analysis/Convolution (Rn).md",
     "Functional Analysis/Convolution.md",
-    "Analysis/Convergence of Sequences.md",
     "Representation Theory/Character.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Finitely Generated Abelian Group.md",
@@ -290,8 +304,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Analysis/Hilbert Basis.md",
     "Measure Theory/Continuous Function with Compact Support.md",
-    "Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Courses/Analysis IV/Exercise Sheet 9.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
