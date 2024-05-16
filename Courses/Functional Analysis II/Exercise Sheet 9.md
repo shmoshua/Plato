@@ -52,9 +52,13 @@ Lastly, notice that $\widehat{G}$ is discrete as $G$ is compact by Tychonoff. Th
 > Let $\chi:\mathbb{Q}_{p}\to \mathbb{T}$ be the continuous character constructed in the lecture (with $\text{ker}(\chi)=\mathbb{Z}_{p}$). For each $a\in \mathbb{Q}_{p}$, define $\chi_{a}(t):=\chi(at)$ for each $t\in \mathbb{Q}_{p}$. Show that the map $$\begin{array}{cccc} {\Psi:}&{\mathbb{Q}_{p}}&\to&{\widehat{\mathbb{Q}_{p}}}\\&{a} &\mapsto & {\chi_{a}} \end{array}{}$$ is an isomorphism of topological groups.
 
 We have that $\chi_{a}=\chi \circ L_{a}$ hence continuous and $\chi_{a}(s+t)=\chi(as+at)=\chi(as)\chi(at)=\chi_{a}(s)\chi_{a}(t)$. Thus, $\chi_{a}\in \widehat{\mathbb{Q}_{p}}$ for any $a\in\mathbb{Q}_{p}$. Further, $$\Psi(a+b)(t)=\chi_{a+b}(t)=\chi((a+b)t)=\chi(at)\chi(bt)=\Psi_{a}(t)\Psi_{b}(t)$$shows that $\Psi$ is a group homomorphism. 
-1. **Showing that $\Psi$ is an isomorphism**:
-   Let $\chi_{a}\equiv 1$. Then, $\chi(at)=1$ for all $t\in\mathbb{Q}_{p}$, i.e. $at\in \mathbb{Z}_{p}$ for all $t\in \mathbb{Q}_{p}$. Therefore, $a=0$ and $\Psi$ is injective. 
+
+Let $\chi_{a}\equiv 1$. Then, $\chi(at)=1$ for all $t\in\mathbb{Q}_{p}$, i.e. $at\in \mathbb{Z}_{p}$ for all $t\in \mathbb{Q}_{p}$. Therefore, $a=0$ and $\Psi$ is injective. 
    
-   For surjectivity, let $\chi\in \widehat{\mathbb{Q}_{p}}$. Let $U:=\varphi\left( \left( -\frac{\pi}{2}, \frac{\pi}{2} \right) \right)$ as in the previous exercise. Then, $\chi ^{-1}(U)$ is an open neighborhood of $0$ and as $\{ p^n \mathbb{Z}_{p} :n\geq 0\}$ form the fundamental system of open neighborhoods of $0$ in $\mathbb{Q}_{p}$, there exists $n\geq 0$ s.t. $\chi(p^n\mathbb{Z}_{p})\subseteq U$. As $p^n \mathbb{Z}_{p}\leq \mathbb{Q}_{p}$, similarly as above, $\chi(p^n\mathbb{Z}_{p})=\{ 1 \}$. Therefore, $\tilde{\chi}:\mathbb{Q}_{p}\to \mathbb{T},x\mapsto\chi(p^nx)$ has $\mathbb{Z}_{p}\leq\text{ker }\tilde{\chi}$ and $\tilde{\chi}=\gamma\circ\pi$ where $\pi:\mathbb{Q}_{p}\to \mathbb{Q}_{p} / \mathbb{Z}_{p}$ is the canonical projection and $\gamma\in \widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}$. 
+For surjectivity, let $\chi\in \widehat{\mathbb{Q}_{p}}$. Let $U:=\varphi\left( \left( -\frac{\pi}{2}, \frac{\pi}{2} \right) \right)$ as in the previous exercise. Then, $\chi ^{-1}(U)$ is an open neighborhood of $0$ and as $\{ p^n \mathbb{Z}_{p} :n\geq 0\}$ form the fundamental system of open neighborhoods of $0$ in $\mathbb{Q}_{p}$, there exists $n\geq 0$ s.t. $\chi(p^n\mathbb{Z}_{p})\subseteq U$. As $p^n \mathbb{Z}_{p}\leq \mathbb{Q}_{p}$, similarly as above, $\chi(p^n\mathbb{Z}_{p})=\{ 1 \}$. Therefore, $\tilde{\chi}:\mathbb{Q}_{p}\to \mathbb{T},x\mapsto\chi(p^nx)$ has $\mathbb{Z}_{p}\leq\text{ker }\tilde{\chi}$ and $\tilde{\chi}=\gamma\circ\pi$ where $\pi:\mathbb{Q}_{p}\to \mathbb{Q}_{p} / \mathbb{Z}_{p}$ is the canonical projection and $\gamma\in \widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}$. 
+
+We define for $n\geq 1$, the following $A_{-n}:=\{ x\in \mathbb{Q}_{p} /\mathbb{Z}_{p}:p^nx=0 \}\leq \mathbb{Q}_{p} / \mathbb{Z}_{p}$. Then, we claim that $A_{-n}\cong \mathbb{Z} /p^n \mathbb{Z}$. Consider the map: $$\begin{array}{cccc} {\Phi:}&{\mathbb{Z} /p^n \mathbb{Z}}&\to&{\widehat{A_{-n}}}\\&{s} &\mapsto & {x\mapsto} \end{array}{}$$ Let $\gamma\in \widehat{A_{-n}}$. Then, 
+
+
 
 
