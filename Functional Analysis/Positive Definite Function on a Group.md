@@ -14,7 +14,10 @@
 
 > [!proof]+
 > We have:
-> 1. Let $x\in G$ and $c\in \mathbb{C}$. Then, $$0\leq \Phi(e)+\Phi(x)$$
+> 1. Let $x\in G$ and $c\in \mathbb{C}$. Then, $$0\leq (1+\left| c \right| ^{2})\Phi(e)+c\Phi(x)+\overline{c}\Phi(x ^{-1})$$Consider:
+> 	- from $c=0$, $\Phi(e)\geq 0$.
+> 	- from $c=1$, $2\Phi(e)+\Phi(x)+\Phi(x ^{-1})\geq 0$ and $\Phi(x)+\Phi(x ^{-1})\in \mathbb{R}$.
+> 	- from $c=i$, $2\Phi(e)+i\Phi(x)-i\Phi(x ^{-1})\geq 0$ and $i(\Phi(x)-\Phi(x ^{-1}))\in \mathbb{R}$
 ---
 ##### Examples
 > [!h] Example 1 (Unitary Representation)
