@@ -51,8 +51,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -118,8 +117,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
               }
             }
           }
@@ -247,11 +245,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c8efa93017610b71",
+  "active": "222e99f3f35e4d7d",
   "lastOpenFiles": [
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/LCA Group.md",
     "Functional Analysis/Positive Operator.md",
     "Analysis/Fourier Coefficient.md",
