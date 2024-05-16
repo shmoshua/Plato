@@ -41,10 +41,9 @@ Let us define: $$\begin{array}{cccc} {\Psi:}&{\bigoplus_{n\geq 1}\widehat{F_{n}}
    
    For surjectivity, let $\chi\in\widehat{G}$. For $n\geq 1$, we define a embedding: $$\begin{array}{cccc} {i_{n}:}&{F_{n}}&\to&{G}\\&{g} &\mapsto & {\begin{cases}g_{m}=g&m=n\\g_{m}=e_{F_{m}}&m\neq n\end{cases}} \end{array}{}$$
    
-   Then, one can easily see that $\chi \circ i_{n}\in \widehat{F_{n}}$.  Further, we have that $(\chi \circ i_{n})_{n}\in \bigoplus_{n\geq 1}\widehat{F_{n}}$: Indeed, for $J:=\{ n\geq 1:\chi\circ i_{n}\not\equiv 1 \}$, we can choose $(g_{n})_{n}\in G$ s.t. $g_{n}\in F_{n}$ for each $n\in J$ s.t. $\chi (i_{n}(g_{n}))\neq 1$ and $g_{n}=e_{F_{n}}$ for all $n\notin J$. It follows that $$\chi((g_{n})_{n})=\prod_{n\in J}^{}\chi(i_{n}(g_{n}))\in \mathbb{T}$$and $J$ is finite. Therefore, $\Psi((\chi \circ i))$
-   
-   It follows that for any $(g_{n})_{n}\in G$: $$\Psi$$
+   Then, one can easily see that $\chi \circ i_{n}\in \widehat{F_{n}}$.  Further, we have that $(\chi \circ i_{n})_{n}\in \bigoplus_{n\geq 1}\widehat{F_{n}}$: Indeed, for $J:=\{ n\geq 1:\chi\circ i_{n}\not\equiv 1 \}$, we can choose $(g_{n})_{n}\in G$ s.t. $g_{n}\in F_{n}$ for each $n\in J$ s.t. $\chi (i_{n}(g_{n}))\neq 1$ and $g_{n}=e_{F_{n}}$ for all $n\notin J$. It follows that $$\chi((g_{n})_{n})=\prod_{n\in J}^{}\chi(i_{n}(g_{n}))\in \mathbb{T}$$and $J$ is finite. Therefore, $\Psi$ is surjective.
 1. **Showing that $\Psi$ is a homeomorphism**:
+2. 
 
 
 

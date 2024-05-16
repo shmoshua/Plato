@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -133,20 +133,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ffc66b081f63a034",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Summable Function.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Lie Group/Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Lie Group/Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
+                "file": "Lie Group/Topological Group.md"
               }
             }
           }
@@ -275,11 +264,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "222e99f3f35e4d7d",
+  "active": "d385810ce39834a6",
   "lastOpenFiles": [
+    "Topology/Compact Space.md",
     "Functional Analysis/Fourier Transform.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Measure Theory/Convergence in Measure.md",
+    "Algebra/Subgroup.md",
     "Measure Theory/Summable Function.md",
     "Measure Theory/Integrable Function.md",
     "Topology/Topology of Compact Convergence.md",
@@ -288,7 +279,6 @@
     "Topology/Continuous Function.md",
     "Topology/Fundamental System.md",
     "Analysis/Lp Space.md",
-    "Topology/Compact Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Equicontinuity.md",
     "Algebra/Group Homomorphism.md",
@@ -302,7 +292,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Analysis/Hilbert Basis.md",
-    "Measure Theory/Continuous Function with Compact Support.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
