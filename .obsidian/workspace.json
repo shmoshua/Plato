@@ -116,13 +116,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group Homomorphism.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -189,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Topology/Continuous Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Topology/Continuous Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
+                "file": "Topology/Continuous Function.md"
               }
             }
           }
@@ -251,13 +252,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "222e99f3f35e4d7d",
+  "active": "6e784f9c8429ea45",
   "lastOpenFiles": [
-    "Algebra/Group Homomorphism.md",
-    "Analysis/Lp-loc Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Functional Analysis/Fourier Transform.md",
+    "Measure Theory/Summable Function.md",
     "Analysis/Lp Space.md",
+    "Analysis/Equicontinuity.md",
+    "Measure Theory/Convergence in Measure.md",
+    "Algebra/Group Homomorphism.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Analysis/Lp-loc Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Convolution (Rn).md",
     "Functional Analysis/Convolution.md",
@@ -276,9 +280,6 @@
     "Courses/Analysis IV/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 11.md",
     "Analysis/Fourier Transform (Rn).md",
-    "Topology/Path.md",
-    "Topology/Fundamental Group.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
