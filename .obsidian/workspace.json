@@ -122,7 +122,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "locally uniform",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -251,7 +252,7 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "426a3c97ada45d5c",
+  "active": "ecdfc9566a189589",
   "lastOpenFiles": [
     "Functional Analysis/Fourier Transform.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
