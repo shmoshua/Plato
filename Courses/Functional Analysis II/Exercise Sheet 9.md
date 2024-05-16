@@ -25,7 +25,10 @@ Conversely, let $(a_{n})\subseteq \mathbb{R}$ s.t. $\chi_{a_{n}}\to \chi_{a}$ fo
 > [!def] Problem 3
 > Deduce $\widehat{\mathbb{T}}\cong \mathbb{Z}$ from Exercise 2.
 
-It suffices to show that $\widehat{\mathbb{R} / \mathbb{Z}}\cong \mathbb{Z}$. Let $\pi:\mathbb{R}\to \mathbb{R} / \mathbb{Z}$ be the canonical projection and $\widehat{\pi}:\widehat{\mathbb{R} / \mathbb{Z}}\to \widehat{\mathbb{R}},\chi\mapsto \chi \circ\pi$ the dual map. Consider the map $\Phi=\Psi ^{-1}\circ\widehat{\pi}$. 
+It suffices to show that $\widehat{\mathbb{R} / \mathbb{Z}}\cong \mathbb{Z}$. Let $\pi:\mathbb{R}\to \mathbb{R} / \mathbb{Z}$ be the canonical projection and $\widehat{\pi}:\widehat{\mathbb{R} / \mathbb{Z}}\to \widehat{\mathbb{R}},\chi\mapsto \chi \circ\pi$ the dual map. Consider the map $\Phi=\Psi ^{-1}\circ\widehat{\pi}$. Let $\chi\in \widehat{\mathbb{R} / \mathbb{Z}}$ and $a:=\Phi(\chi)$. Then, $\chi_{a}=\chi \circ\pi$ and by taking $x=1$, $\exp(2\pi i a)=\chi(1+\mathbb{Z})=0$. Therefore, $a\in \mathbb{Z}$ and $\text{Im } \Phi \subseteq \mathbb{Z}$. Therefore, $\Phi$ is a group homomorphism from $\widehat{\mathbb{R} /\mathbb{Z}}$ to $\mathbb{Z}$. 
 
-Consider the following map: $$\begin{array}{cccc} {\Phi:}&{\widehat{\mathbb{R} / \mathbb{Z}}}&\to&{\mathbb{R}}\\&{\chi} &\mapsto & {\Psi ^{-1}(\chi \circ \pi)} \end{array}{}$$
-where $\pi$ is the canonical projection from $\mathbb{R}\to \mathbb{R} / \mathbb{Z}$. 
+Further, if $\Phi(\chi)=0$, then $\chi (\pi(x))=1$ for all $x\in \mathbb{R}$ and $\chi \equiv 1$. 
+
+
+
+

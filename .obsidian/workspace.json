@@ -146,8 +146,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Measure Theory/Convergence in Measure.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Measure Theory/Convergence in Measure.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Measure Theory/Convergence in Measure.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
               }
             }
           }
@@ -276,12 +275,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ef5a2e2ae15ae3fb",
+  "active": "222e99f3f35e4d7d",
   "lastOpenFiles": [
+    "Measure Theory/Convergence in Measure.md",
     "Measure Theory/Summable Function.md",
     "Measure Theory/Integrable Function.md",
     "Topology/Topology of Compact Convergence.md",
-    "Measure Theory/Convergence in Measure.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Functional Analysis/Fourier Transform.md",
