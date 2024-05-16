@@ -57,7 +57,9 @@ Let $\chi_{a}\equiv 1$. Then, $\chi(at)=1$ for all $t\in\mathbb{Q}_{p}$, i.e. $a
    
 For surjectivity, let $\chi\in \widehat{\mathbb{Q}_{p}}$. Let $U:=\varphi\left( \left( -\frac{\pi}{2}, \frac{\pi}{2} \right) \right)$ as in the previous exercise. Then, $\chi ^{-1}(U)$ is an open neighborhood of $0$ and as $\{ p^n \mathbb{Z}_{p} :n\geq 0\}$ form the fundamental system of open neighborhoods of $0$ in $\mathbb{Q}_{p}$, there exists $n\geq 0$ s.t. $\chi(p^n\mathbb{Z}_{p})\subseteq U$. As $p^n \mathbb{Z}_{p}\leq \mathbb{Q}_{p}$, similarly as above, $\chi(p^n\mathbb{Z}_{p})=\{ 1 \}$. Therefore, $\tilde{\chi}:\mathbb{Q}_{p}\to \mathbb{T},x\mapsto\chi(p^nx)$ has $\mathbb{Z}_{p}\leq\text{ker }\tilde{\chi}$ and $\tilde{\chi}=\gamma\circ\pi$ where $\pi:\mathbb{Q}_{p}\to \mathbb{Q}_{p} / \mathbb{Z}_{p}$ is the canonical projection and $\gamma\in \widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}$. 
 
-We define for $n\geq 1$, the following $A_{-n}:=\{ x\in \mathbb{Q}_{p} /\mathbb{Z}_{p}:p^nx=0 \}\leq \mathbb{Q}_{p} / \mathbb{Z}_{p}$. Then, we claim that $A_{-n}\cong \mathbb{Z} /p^n \mathbb{Z}$. Consider the map: $$\begin{array}{cccc} {\Phi:}&{\mathbb{Z} /p^n \mathbb{Z}}&\to&{\widehat{A_{-n}}}\\&{s} &\mapsto & {x\mapsto} \end{array}{}$$ Let $\gamma\in \widehat{A_{-n}}$. Then, 
+We define for $n\geq 1$, the following $A_{-n}:=\{ x\in \mathbb{Q}_{p} /\mathbb{Z}_{p}:p^nx=0 \}\leq \mathbb{Q}_{p} / \mathbb{Z}_{p}$. Then, we claim that $A_{-n}\cong \mathbb{Z} /p^n \mathbb{Z}$. Let $J:\{ z\in \mathbb{C}:z^{p^n}=1 \}\to\mathbb{Q}_{p} / \mathbb{Z}_{p}$ be the isomorphism. Then, consider $P_{n}$ as the $p^n$-th roots of unity. Clearly, we have that for $z\in P_{n}$, $p^nJ(z)=J(z^{p^n})=J(1)=0$. 
+
+Consider the map: $$\begin{array}{cccc} {\Phi:}&{\mathbb{Z} /p^n \mathbb{Z}}&\to&{\widehat{A_{-n}}}\\&{s} &\mapsto & {x\mapsto} \end{array}{}$$ Let $\gamma\in \widehat{A_{-n}}$. Then, 
 
 
 
