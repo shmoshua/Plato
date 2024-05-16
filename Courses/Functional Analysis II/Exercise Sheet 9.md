@@ -55,6 +55,6 @@ We have that $\chi_{a}=\chi \circ L_{a}$ hence continuous and $\chi_{a}(s+t)=\ch
 1. **Showing that $\Psi$ is an isomorphism**:
    Let $\chi_{a}\equiv 1$. Then, $\chi(at)=1$ for all $t\in\mathbb{Q}_{p}$, i.e. $at\in \mathbb{Z}_{p}$ for all $t\in \mathbb{Q}_{p}$. Therefore, $a=0$ and $\Psi$ is injective. 
    
-   For surjectivity, let $\chi\in \widehat{\mathbb{Q}_{p}}$. Let $U:=\varphi\left( \left( -\frac{\pi}{2}, \frac{\pi}{2} \right) \right)$ as in the previous exercise. Then, $\chi ^{-1}(U)$ is an open neighborhood of $0$ and as $\{ p^n \mathbb{Z}_{p} \}$
+   For surjectivity, let $\chi\in \widehat{\mathbb{Q}_{p}}$. Let $U:=\varphi\left( \left( -\frac{\pi}{2}, \frac{\pi}{2} \right) \right)$ as in the previous exercise. Then, $\chi ^{-1}(U)$ is an open neighborhood of $0$ and as $\{ p^n \mathbb{Z}_{p} :n\geq 0\}$ form the fundamental system of open neighborhoods of $0$ in $\mathbb{Q}_{p}$, there exists $n\geq 0$ s.t. $\chi(p^n\mathbb{Z}_{p})\subseteq U$. As $p^n \mathbb{Z}_{p}\leq \mathbb{Q}_{p}$, similarly as above, $\chi(p^n\mathbb{Z}_{p})=\{ 1 \}$. Therefore, $\tilde{\chi}:\mathbb{Q}_{p}\to \mathbb{T},x\mapsto\chi(p^nx)$ has $\mathbb{Z}_{p}\leq\text{ker }\tilde{\chi}$ and $\tilde{\chi}=\gamma\circ\pi$ where $\pi:\mathbb{Q}_{p}\to \mathbb{Q}_{p} / \mathbb{Z}_{p}$ is the canonical projection and $\gamma\in \widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}$. 
 
 
