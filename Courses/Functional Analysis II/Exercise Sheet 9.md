@@ -39,12 +39,5 @@ Let us define: $$\begin{array}{cccc} {\Psi:}&{\bigoplus_{n\geq 1}\widehat{F_{n}}
 2. **Showing that $\Psi$ is an isomorphism**:
    Let $\Psi((\chi_{n})_{n})\equiv 1$ for all $(g_{n})_{n}\in G$. For $n\geq 1$, consider $(g_{m})_{m}$ where $g_{m}=e_{F_{m}}$ for all $m\neq n$. Then,$$\Psi((\chi_{n})_{n})((g_{m})_{m})=\chi_{n}(g_{m})=1$$and $\chi_{n}\equiv 1$. Therefore, $\Psi$ is injective. 
    
-   For surjectivity, let $\chi\in\widehat{G}$. For $n\geq 1$, we define a embedding: $$\begin{array}{cccc} {i_{n}:}&{F_{n}}&\to&{G}\\&{g} &\mapsto & {\begin{cases}g_{m}=g&m=n\\g_{m}=e_{F_{m}}&m\neq n\end{cases}} \end{array}{}$$
-   
-   Then, one can easily see that $\chi \circ i_{n}\in \widehat{F_{n}}$.  Further, we have that $(\chi \circ i_{n})_{n}\in \bigoplus_{n\geq 1}\widehat{F_{n}}$: Indeed, for $J:=\{ n\geq 1:\chi\circ i_{n}\not\equiv 1 \}$, we can choose $(g_{n})_{n}\in G$ s.t. $g_{n}\in F_{n}$ for each $n\in J$ s.t. $\chi (i_{n}(g_{n}))\neq 1$ and $g_{n}=e_{F_{n}}$ for all $n\notin J$. It follows that $$\chi((g_{n})_{n})=\prod_{n\in J}^{}\chi(i_{n}(g_{n}))\in \mathbb{T}$$and $J$ is finite. Therefore, $\Psi$ is surjective.
-1. **Showing that $\Psi$ is a homeomorphism**:
-2. 
-
-
-
+   For surjectivity, let $\chi\in\widehat{G}$. Let $U:=\varphi\left( \left( -\frac{\pi}{2}, \frac{\pi}{2} \right) \right)\subseteq \mathbb{T}$ where: $$\begin{array}{cccc} {\varphi:}&{{(-\pi,\pi)}}&\to&{\mathbb{T} \backslash\{ -1 \}}\\&{t} &\mapsto & {\exp(it)} \end{array}{}$$As $\varphi$ is a homeomorphism, $U$ is open and so is $\chi ^{-1}(U)$. Therefore, there exists a finite $J\subseteq \mathbb{N}$ and $U_{j}\subseteq F_{j}$ open for all $j\in J$  s.t. $$\{ (g_{n})_{n}\in G:g_{j}\in U_{j},j\in J  \}\subseteq \chi ^{-1}(U)$$Consider $H:=\prod_{n\geq 1}^{}H_{n}$ where $H_{n}=\{ e_{F_{n}} \}$ for $n\in J$ and $H_{n}=F_{n}$ otherwise. Then, clearly $H\leq G$ and $\chi (H)$ 
 
