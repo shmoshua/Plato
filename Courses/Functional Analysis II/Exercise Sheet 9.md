@@ -27,7 +27,17 @@ Conversely, let $(a_{n})\subseteq \mathbb{R}$ s.t. $\chi_{a_{n}}\to \chi_{a}$ fo
 
 It suffices to show that $\widehat{\mathbb{R} / \mathbb{Z}}\cong \mathbb{Z}$. Let $\pi:\mathbb{R}\to \mathbb{R} / \mathbb{Z}$ be the canonical projection and $\widehat{\pi}:\widehat{\mathbb{R} / \mathbb{Z}}\to \widehat{\mathbb{R}},\chi\mapsto \chi \circ\pi$ the dual map. Consider the map $\Phi=\Psi ^{-1}\circ\widehat{\pi}$. Let $\chi\in \widehat{\mathbb{R} / \mathbb{Z}}$ and $a:=\Phi(\chi)$. Then, $\chi_{a}=\chi \circ\pi$ and by taking $x=1$, $\exp(2\pi i a)=\chi(1+\mathbb{Z})=0$. Therefore, $a\in \mathbb{Z}$ and $\text{Im } \Phi \subseteq \mathbb{Z}$. Therefore, $\Phi$ is a group homomorphism from $\widehat{\mathbb{R} /\mathbb{Z}}$ to $\mathbb{Z}$. 
 
-Further, if $\Phi(\chi)=0$, then $\chi (\pi(x))=1$ for all $x\in \mathbb{R}$ and $\chi \equiv 1$. 
+Further, if $\Phi(\chi)=0$, then $\chi (\pi(x))=1$ for all $x\in \mathbb{R}$ and $\chi \equiv 1$. Similarly, for $n\in \mathbb{Z}$, we define $\chi\in \widehat{\mathbb{R}/\mathbb{Z}}$ as $\chi(x+\mathbb{Z})=\exp(2\pi inx)$. Then, $\chi$ is well-defined and $\chi\in \widehat{\mathbb{R} / \mathbb{Z}}$. Therefore, $\Phi$ is surjective and $\widehat{\mathbb{R} / \mathbb{Z}}\cong \mathbb{Z}$.
+
+---
+> [!def] Problem 4
+> Let $F_{n}$ be a finite abelian group for all $n\geq 1$ and put $G:=\prod_{i\geq 1}^{}F_{n}$ with the product topology. Show that $$\widehat{G}\cong\bigoplus_{n\geq 1}F_{n} $$ as topological groups where the group on the right is equipped with the discrete topology. 
+
+Let us define: $$\begin{array}{cccc} {\Psi:}&{\bigoplus_{n\geq 1}\widehat{F_{n}} }&\to&{\widehat{G}}\\&{(\chi_{n})_{n\geq 1}} &\mapsto & {(g_{n})_{n}\mapsto\prod_{n\geq 1}^{}\chi_{n}(g_{n})} \end{array}{}$$
+1. **Showing that $\Psi$ is well-defined**:
+   
+2. **Showing that $\Psi$ is an isomorphism**:
+3. **Showing that $\Psi$ is a homeomophism**:
 
 
 
