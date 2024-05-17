@@ -100,7 +100,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Topology/Continuous Functions in Metric Spaces.md",
                 "mode": "preview",
                 "source": false
               }
@@ -124,19 +124,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Rational.md",
+                "file": "Algebra/p-adic Integer.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "22cfa1fbd5120a08",
+            "id": "0946f3d5f33be304",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Integer.md",
+                "file": "Algebra/p-adic Rational.md",
                 "mode": "preview",
                 "source": false
               }
@@ -272,13 +272,17 @@
   },
   "active": "222e99f3f35e4d7d",
   "lastOpenFiles": [
-    "Algebra/p-adic Rational.md",
-    "Algebra/p-adic Integer.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Fourier Transform.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Algebra/p-adic Rational.md",
+    "Algebra/p-adic Integer.md",
     "Lie Group/Topological Group.md",
+    "Topology/Fundamental System.md",
+    "Topology/Continuous Functions in Metric Spaces.md",
+    "Heine-Borel.md",
+    "Topology/Continuous Function.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Topological Space.md",
     "Functional Analysis/LCA Group.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
@@ -286,18 +290,14 @@
     "Analysis/Fourier Coefficient.md",
     "Analysis/Lp Space.md",
     "Measure Theory/Measure.md",
-    "Topology/Continuous Functions in Metric Spaces.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Topology/Product Topology.md",
-    "Topology/Continuous Function.md",
     "Measure Theory/Convergence in Measure.md",
     "Topology/Compact Space.md",
     "Algebra/Subgroup.md",
     "Measure Theory/Summable Function.md",
     "Measure Theory/Integrable Function.md",
     "Topology/Topology of Compact Convergence.md",
-    "Analysis/Convergence of Sequences.md",
-    "Topology/Fundamental System.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
