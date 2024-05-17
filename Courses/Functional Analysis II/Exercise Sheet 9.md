@@ -86,4 +86,6 @@ Let $(g_{j})_{j\in J}\in \prod_{j\in J}'^{}G_{j}$. Then, by definition $g_{j}\in
 > 3. Prove that the quotient $\mathbb{A}_{\mathbb{Q}} / \Delta(\mathbb{Q})$ is compact.
 
 We have:
-1. let $$
+1. let $(x_{n},y_{n})_{n}\subseteq \mathbb{A}_{\mathbb{Q}}\times \mathbb{A}_{\mathbb{Q}}$ s.t. $(x_{n},y_{n})\to (x,y)$. Then, $x_{n}\to x$ and $y_{n}\to y$. We want to show that $x_{n}y_{n}\to xy$. First, notice that: $$x_{n}y_{n}=(x+x_{n}-x)(y+y_{n}-y)=xy+$$
+   
+   let $U\times \prod_{p}^{}A_{p}$ be open in $\mathbb{A}_{\mathbb{Q}}$. 
