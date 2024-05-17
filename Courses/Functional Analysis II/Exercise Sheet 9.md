@@ -70,7 +70,8 @@ We define for $n\geq 1$, the following $A_{-n}:=\{ x\in \mathbb{Q}_{p} /\mathbb{
    - if $v_{p}(x)<0$, then $v_{p}(y)=v_{p}(y-x+x)\geq \min \{v_{p}(y-x),v_{p}(x)\}=v_{p}(x)$ as $y-x\in \mathbb{Z}_{p}$. By symmetry, we have that $v_{p}(y)<0$ and $v_{p}(y)\leq v_{p}(x)$.
    
    Now, consider the map $$\begin{array}{cccc} {\Phi:}&{\underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}}&\to&{\widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}}\\&{(\gamma_{n} )_{n}} &\mapsto & {(x\mapsto\gamma_{n(x)}(x))} \end{array}{}$$To show that $\Phi$ is an isomorphism, we have the following: 
-   - For $(\gamma_{n})_{n}\in \underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}$ and $x,y\in \mathbb{Q}_{p} / \mathbb{Z}_{p}$, $\Phi(\gamma)(xy)=\gamma_{n(xy)}(xy)=\gamma_{n(xy)}(x)\gamma_{n(xy)}(y)$. If $x=0$, then $n(xy)=1$ and $n(xy)\leq\min$
+   - For $(\gamma_{n})_{n}\in \underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}$ and $n(x)=n$ and $n(y)=m$ for $x,y\in \mathbb{Q}_{p } / \mathbb{Z}_{p}$ where wlog $n\leq m$. Then, $$\Phi((\gamma_{n})_{n})(x+y)=\gamma_{m}(x+y)=\gamma_{m}(x)\gamma_{m}(y)=\gamma_{n}(x)\gamma_{m}(y)=\Phi((\gamma_{n})_{n})(x)\Phi((\gamma_{n})_{n})(y)$$and the continuity follows from $\gamma_{m}$. Therefore, $\Phi((\gamma_{n})_{n})\in \widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}$.
+   - For injectivity, let $\Phi((\gamma_{n})_{n})(x)=1$ for all $x\in \mathbb{Q}_{p} / \mathbb{Z}_{p}$. 
 
 
 
