@@ -53,7 +53,10 @@ Lastly, notice that $\widehat{G}$ is discrete as $G$ is compact by Tychonoff. Th
 
 We first show that $\widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}\cong \mathbb{Z}_{p}$ using a series of claims. For $n\geq 1$,  let $A_{-n}:=\{ x\in \mathbb{Q}_{p} /\mathbb{Z}_{p}:p^nx=0 \}$. 
 
-Consider the map: $$$$
+Consider the map: $$\begin{array}{cccc} {\Phi:}&{\mathbb{Z}_{p}}&\to&{\widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}}\\&{a} &\mapsto & {(x\mapsto J(ax))} \end{array}{}$$where $J:\mathbb{Q}_{p} / \mathbb{Z}_{p}\to \{ z\in \mathbb{T}\ |\  \exists n\geq 1: z^{p^n}=1 \}$ is the isomorphism. Then, as $\mathbb{Q}_{p} / \mathbb{Z}_{p}$ is discrete, $J$ is continuous and $\Phi(a)=J\circ L_{a}$ is a continuous group homomorphism. Further, $$\Phi(a+b)(x)=J((a+b)x)=J(ax+bx)=J(ax)J(bx)=\Phi(a)(x)\Phi(b)(x)$$Therefore, $\Phi$ is a group homomorphism. Further, $\Phi$ is injective as if $\Phi(a)(x)=1$ for all $x\in\mathbb{Q}_{p} / \mathbb{Z}_{p}$, then $ax=0$ for all $x\in \mathbb{Q}_{p} / \mathbb{Z}_{p}$ and $a=0$.
+
+For the surjectivity, let $\gamma\in \widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}$. Let further $A_{-n}:=\{ x\in \mathbb{Q}_{p} /\mathbb{Z}_{p}:p^nx=0 \}$ for $n\geq 1$. Then, one easily sees that $\gamma|_{A_{-n}}\in \widehat{A_{-n}}$. Let $m\in \mathbb{Z}$. Then, $J^{-1}(\exp(2\pi im / p^n))\in A_{-n}$: Indeed, $$p^nJ^{-1}(\exp(2\pi i m / p^n))=J^{-1}(\exp(2\pi i m))=J^{-1}(1)=0$$Therefore, for $\phi_{n}:\mathbb{Z} / p^n \mathbb{Z} \to \mathbb{T}, m+p^n\mathbb{Z} \mapsto\gamma(J^{-1}(\exp(2\pi i m /p^n)))$ is a well-defined function and $\phi_{n}\in \widehat{\mathbb{Z} / p^n \mathbb{Z}}$, i.e. there exists $a_{n}\in \mathbb{Z} / p^n \mathbb{Z}$ s.t. $\phi_{n}(t)=\exp(2\pi ia_{n}t /p^n)$ for all $t\in \mathbb{Z} / p^n \mathbb{Z}$. We claim that $(a_{n})_{n}\in \mathbb{Z}_{p}$ and $\Phi(a)=\gamma$. 
+- Let 
 
 1. **Claim 1: $A_{-n}\cong \mathbb{Z} / p^n\mathbb{Z}$**.  
    Let $J:\{ z\in \mathbb{C}:z^{p^n}=1 \}\to\mathbb{Q}_{p} / \mathbb{Z}_{p}$ be the isomorphism (from last exercise sheet). Further, let $P_{n}\subseteq \mathbb{T}$ be the set of $p^n$-th roots of unity. It is easy to see that $\mathbb{Z} / p^n \mathbb{Z}\cong P_{n}$ by $m\mapsto \exp(2\pi i m /p^n)$ (with an abuse of notation that $0\leq m<p^n$). 
