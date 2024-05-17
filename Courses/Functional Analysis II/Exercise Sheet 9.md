@@ -65,7 +65,12 @@ We define for $n\geq 1$, the following $A_{-n}:=\{ x\in \mathbb{Q}_{p} /\mathbb{
 2. **Claim 2: $\mathbb{Q}_{p}/\mathbb{Z}_{p}=\bigcup_{n\geq 1}^{}A_{-n}$**.
    The inclusion  $\mathbb{Q}_{p} / \mathbb{Z}_{p} \supseteq \bigcup_{n\geq 1}^{}A_{-n}$ holds from the definition of $A_{-n}$. For the other direction, let $x+\mathbb{Z}_{p}\in \mathbb{Q}_{p} / \mathbb{Z}_{p}$ where $x\in \mathbb{Q}_{p}$. If $x=0$, then $p^n(0)=0$ and $x+\mathbb{Z}_{p}\in A_{-n}$ for all $n$. If $x\neq 0$, we can write $x=p^ku$ for $k\in \mathbb{Z}$ and $u$ invertible in $\mathbb{Z}_{p}$. If $k\geq 0$, then $x\in \mathbb{Z}_{p}$ and $x+\mathbb{\mathbb{Z}}_{p}=0$ with $x+\mathbb{Z}_{p}\in A_{-1}$. If $k<0$, then $p^{-k}(x+\mathbb{Z}_{p})=0$. Therefore, $x+\mathbb{Z}_{p}\in A_{-(-k)}$. This proves the claim.
 3. **Claim 3: $\widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}\cong \underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}$**:
-   Consider the following map: $$\begin{array}{cccc} {\Phi:}&{\underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}}&\to&{\widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}}\\&{(\gamma_{n} )_{n}} &\mapsto & {(x\mapsto\gamma_{n})} \end{array}{}$$
+   Let $\underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}$ denote the inverse limit, i.e. $$ \underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}:=\left\{  \left.(\gamma_{n})_{n}\in \prod_{n\geq 1}^{}\widehat{A_{-n}}\ \right|\ \gamma_{n+1}|_{A_{-n}}=\gamma_{n}, \forall n\geq 1  \right\}$$ Further, let $x\in \mathbb{Q}_{p} / \mathbb{Z}_{p}$. Then, by claim 2, there exists $n\geq 1$ s.t. $x\in A_{-n}$. Let $n(x)$ denote the minimal integer $n\geq 1$ for which $x\in A_{-n}$. More formally, for $x+\mathbb{Z}_{p}\in \mathbb{Q}_{p} / \mathbb{Z}_{p}$ with $x\in \mathbb{Q}_{p}$, $n(x+\mathbb{Z}_{p}):=\max\{ -v_{p}(x),1 \}$. This is well-defined: for $x+\mathbb{Z}_{p}=y+\mathbb{Z}_{p}$, 
+   - if $v_{p}(x)\geq 0$, then $x\in \mathbb{Z}_{p}$ and so is $y\in \mathbb{Z}_{p}$ with $v_{p}(y)\geq 0$. Therefore, $n(x+\mathbb{Z}_{p})=1=n(y+\mathbb{Z}_{p})$.
+   - if $v_{p}(x)<0$, then $v_{p}(y)=v_{p}(y-x+x)\geq \min \{v_{p}(y-x),v_{p}(x)\}=v_{p}(x)$ as $y-x\in \mathbb{Z}_{p}$. By symmetry, we have that $v_{p}(y)<0$ and $v_{p}(y)\leq v_{p}(x)$.
+   
+   Now, consider the map $$\begin{array}{cccc} {\Phi:}&{\underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}}&\to&{\widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}}\\&{(\gamma_{n} )_{n}} &\mapsto & {(x\mapsto\gamma_{n(x)}(x))} \end{array}{}$$To show that $\Phi$ is an isomorphism, we have the following: 
+   - For $(\gamma_{n})_{n}\in \underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}$ and $x,y\in \mathbb{Q}_{p} / \mathbb{Z}_{p}$, $\Phi(\gamma)(xy)=\gamma_{n(xy)}(xy)=\gamma_{n(xy)}(x)\gamma_{n(xy)}(y)$. If $x=0$, then $n(xy)=1$ and $n(xy)\leq\min$
 
 
 
