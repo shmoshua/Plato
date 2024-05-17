@@ -71,7 +71,10 @@ We define for $n\geq 1$, the following $A_{-n}:=\{ x\in \mathbb{Q}_{p} /\mathbb{
    
    Now, consider the map $$\begin{array}{cccc} {\Phi:}&{\underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}}&\to&{\widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}}\\&{(\gamma_{n} )_{n}} &\mapsto & {(x\mapsto\gamma_{n(x)}(x))} \end{array}{}$$To show that $\Phi$ is an isomorphism, we have the following: 
    - For $(\gamma_{n})_{n}\in \underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}$ and $n(x)=n$ and $n(y)=m$ for $x,y\in \mathbb{Q}_{p } / \mathbb{Z}_{p}$ where wlog $n\leq m$. Then, $$\Phi((\gamma_{n})_{n})(x+y)=\gamma_{m}(x+y)=\gamma_{m}(x)\gamma_{m}(y)=\gamma_{n}(x)\gamma_{m}(y)=\Phi((\gamma_{n})_{n})(x)\Phi((\gamma_{n})_{n})(y)$$and the continuity follows from $\gamma_{m}$. Therefore, $\Phi((\gamma_{n})_{n})\in \widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}$.
-   - For injectivity, let $\Phi((\gamma_{n})_{n})(x)=1$ for all $x\in \mathbb{Q}_{p} / \mathbb{Z}_{p}$. 
+   - For injectivity, let $\Phi((\gamma_{n})_{n})(x)=1$ for all $x\in \mathbb{Q}_{p} / \mathbb{Z}_{p}$. Assume that $(\gamma_{n})_{n}\neq 1$ for all $n\geq 1$ and let $i$ be the lowest index for which $\gamma_{i}\neq 1$ where $\gamma_{i}(x)\neq 1$ for $x\in A_{-i}$. Then, one sees that $n(x)=i$ by the definition of inverse limit. Therefore, $\Phi((\gamma_{n})_{n})(x)\neq 1$, which is a contradiction. 
+   - For surjectivity, let $\gamma\in \widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}$. Then, define $\gamma_{n}:=\gamma|_{A_{-n}}$. Indeed, $(\gamma_{n})_{n}$ is in the inverse limit and we then have for $x\in \mathbb{Q}_{p} / \mathbb{Z}_{p}$,$$\Phi((\gamma_{n})_{n})(x)=\gamma_{n(x)}(x)=\gamma(x)$$ 
+4. **Claim 4: $\underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}\cong \mathbb{Z}_{p}$**.
+   Firstly, we show that $\underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}\cong \underset{ \longleftarrow }{ \lim }\widehat{\mathbb{Z} / p^n \mathbb{Z}}$ where for $(\psi_{n})_{n}\in \underset{ \longleftarrow }{ \lim }\widehat{\mathbb{Z} / p^n \mathbb{Z}}$ and $0\leq x<p^n$, $\psi_{n+1}(x+p^{n+1}\mathbb{Z})=\psi_{n}(x+p^n\mathbb{Z})$. Let $J_{n}$ be the isomorphism from $A_{-n}$ to 
 
 
 
