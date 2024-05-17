@@ -67,7 +67,23 @@ We have that $\chi_{a}=\chi \circ L_{a}$ hence continuous and $\chi_{a}(s+t)=\ch
    
    For surjectivity, let $\gamma\in \widehat{\mathbb{Q}_{p}}$. Let $U:=\varphi\left( \left( -\frac{\pi}{2}, \frac{\pi}{2} \right) \right)$ as in the previous exercise. Then, $\gamma ^{-1}(U)$ is an open neighborhood of $0$ and as $\{ p^n \mathbb{Z}_{p} :n\geq 0\}$ form the fundamental system of open neighborhoods of $0$ in $\mathbb{Q}_{p}$, there exists $n\geq 0$ s.t. $\gamma(p^n\mathbb{Z}_{p})\subseteq U$. As $p^n \mathbb{Z}_{p}\leq \mathbb{Q}_{p}$, similarly as above, $\gamma(p^n\mathbb{Z}_{p})=\{ 1 \}$. Therefore, $\tilde{\gamma}:\mathbb{Q}_{p}\to \mathbb{T},x\mapsto\gamma(p^nx)$ has $\mathbb{Z}_{p}\leq\text{ker }\tilde{\gamma}$ and can be factored into $\tilde{\gamma}=\varphi\circ\pi$ where $\pi:\mathbb{Q}_{p}\to \mathbb{Q}_{p} / \mathbb{Z}_{p}$ is the canonical projection and $\varphi\in \widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}$. Let $b\in \mathbb{Z}_{p}$ s.t. $\Phi(b)=\varphi$ and $a:=p^{-n}b\in \mathbb{Q}_{p}$. Then, $$\Psi(a)(t)=\chi(at)=J(at)=J(bp^{-n}t)=\Phi(b)(\pi(p^{-n}t))=\varphi(\pi(p^{-n}t))=\tilde{\gamma}(p^{-n}t)=\gamma(t)$$ 
 3. **$\Psi$ is a homeomorphism**:
-   For $\varepsilon>0$ and $k\in \mathbb{Z}$, let $N(k,\varepsilon):=\{ \chi\in \widehat{\mathbb{Q}_{p}}:\left| (x,\chi)-1 \right|<\varepsilon,x\in p^k\mathbb{Z}_{p} \}$. Then, the family$\{ N(k,\varepsilon): k\in \mathbb{Z},\varepsilon>0 \}$ forms a fundamental system of neighborhoods of $\widehat{e}\in \widehat{\mathbb{Q}_{p}}$: Indeed, for any compact neighborhood $K$ of $0$ in $\mathbb{Q}_{p}$, there exists $k\in \mathbb{Z}$ s.t. $p^k \mathbb{Z}_{p}\subseteq K$. 
+   As $\mathbb{Q}_{p}$ and $\widehat{\mathbb{Q}_{p}}$ are both topological groups, we only need to show continuity of $\Psi$ only at $0$ and vice versa ($\Psi ^{-1}$ at $1$).
    
-   Let $\varepsilon\leq1$. We have $\Psi(1)(p^k\mathbb{Z}_{p})=J(p^k\mathbb{Z}_{p})=\{ 1 \}$ if $k\geq 0$ and $\Psi(1)(p^k\mathbb{Z}_{p})=\{ \exp(2\pi i xp^k): x\in \mathbb{Z} \}$ if $k<0$. Therefore, $\Psi(1)(p^k\mathbb{Z}_{p})\subseteq B_{<\varepsilon}(1)$ if and only if $k\geq 0$. 
+   For $\varepsilon>0$ and $k\in \mathbb{Z}$, let $N(k,\varepsilon):=\{ \chi\in \widehat{\mathbb{Q}_{p}}:\left| (x,\chi)-1 \right|<\varepsilon,x\in p^k\mathbb{Z}_{p} \}$. Then, the family$\{ N(k,\varepsilon): k\in \mathbb{Z},\varepsilon>0 \}$ forms a basis of neighborhoods of $\widehat{e}\in \widehat{\mathbb{Q}_{p}}$: Indeed, for any compact neighborhood $K$ of $0$ in $\mathbb{Q}_{p}$, there exists $k\in \mathbb{Z}$ s.t. $p^k \mathbb{Z}_{p}\subseteq K$. 
+   
+   Let $\varepsilon\leq1$. We have $\Psi(1)(p^k\mathbb{Z}_{p})=J(p^k\mathbb{Z}_{p})=\{ 1 \}$ if $k\geq 0$ and $\Psi(1)(p^k\mathbb{Z}_{p})=\{ \exp(2\pi i xp^k): x\in \mathbb{Z} \}$ if $k<0$. Therefore, $\Psi(1)(p^k\mathbb{Z}_{p})\subseteq B_{<\varepsilon}(1)$ if and only if $k\geq 0$. It follows that $\Psi(a)\in N(k,\varepsilon)$ if and only if $v_{p}(a)+k\geq 0$. We can conclude that $\Psi ^{-1}(N(k,\varepsilon))=p^{-k}\mathbb{Z}_{p}$. As $p^{-k}\mathbb{Z}_{p}$ also form a basis of open neighborhoods of $0$, $\Psi$ is a homeomorphism.
 ---
+> [!def] Problem 6
+> Let $K_{j}\leq G_{j}$ be a compact subgroup in a LCH group $G_{j}$ indexed by $j\in J$. Show that the restricted product $\prod_{j\in J}'^{}G_{j}$ is a locally compact Hausdorff space.
+
+Let $(g_{j})_{j\in J}\in \prod_{j\in J}'^{}G_{j}$. Then, by definition $g_{j}\in K_{j}$ for all but finitely many. We define the compact neighborhood $\prod_{j\in J}^{}A_{j}$ where $A_{j}=K_{j}$ if $g_{j}\in K_{j}$ and if $g_{j}\notin K_{j}$, then $A_{j}$ is the compact neighborhood of $g_{j}$, which exists as $G_{j}$ is LCH. It follows that $\prod_{j\in J}^{}A_{j}$ is compact by Tychonoff and the restrictive product is locally compact Hausdorff.
+
+---
+> [!def] Problem 7
+> For the adeles $\mathbb{A}_{\mathbb{Q}}$, 
+> 1. Prove that the multiplication map $\mathbb{A}_{\mathbb{Q}}\times \mathbb{A}_{\mathbb{Q}}\to \mathbb{A}_{\mathbb{Q}},(x,y)\mapsto xy$ is continuous.
+> 2. Consider the diagonal map $\Delta:\mathbb{Q}\to \mathbb{A}_{\mathbb{Q}},x\mapsto(x,x)$. Prove that the image of $\Delta$ is a discrete, closed subgroup of $\mathbb{A}_{\mathbb{Q}}$.
+> 3. Prove that the quotient $\mathbb{A}_{\mathbb{Q}} / \Delta(\mathbb{Q})$ is compact.
+
+We have:
+1. let $$
