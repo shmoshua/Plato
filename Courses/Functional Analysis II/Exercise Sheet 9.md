@@ -62,7 +62,10 @@ We define for $n\geq 1$, the following $A_{-n}:=\{ x\in \mathbb{Q}_{p} /\mathbb{
    Let $J:\{ z\in \mathbb{C}:z^{p^n}=1 \}\to\mathbb{Q}_{p} / \mathbb{Z}_{p}$ be the isomorphism (from last exercise sheet). Further, let $P_{n}\subseteq \mathbb{T}$ be the set of $p^n$-th roots of unity. It is easy to see that $\mathbb{Z} / p^n \mathbb{Z}\cong P_{n}$ by $m\mapsto \exp(2\pi i m /p^n)$ (with an abuse of notation that $0\leq m<p^n$). 
    
    For any $z\in P_{n}$, we have: $p^nJ(z)=J(z^{p^n})=J(1)=0$ and $J(P_{n})\subseteq A_{-n}$. Further, for $x\in A_{-n}$, we have: $1=J^{-1}(0)=J^{-1}(p^nx)=J^{-1}(x)^{p^n}$. Therefore, $J^{-1}(x)\in P_{n}$ and $P_{n}\cong A_{-n}$. This proves the claim.
-2. **Claim 2: $\mathbb{Q}_{p}/\mathbb{Z}_{p}=\underset{ \longrightarrow }{ \lim }A_{-n}$**.
+2. **Claim 2: $\mathbb{Q}_{p}/\mathbb{Z}_{p}=\bigcup_{n\geq 1}^{}A_{-n}$**.
+   The inclusion  $\mathbb{Q}_{p} / \mathbb{Z}_{p} \supseteq \bigcup_{n\geq 1}^{}A_{-n}$ holds from the definition of $A_{-n}$. For the other direction, let $x+\mathbb{Z}_{p}\in \mathbb{Q}_{p} / \mathbb{Z}_{p}$ where $x\in \mathbb{Q}_{p}$. If $x=0$, then $p^n(0)=0$ and $x+\mathbb{Z}_{p}\in A_{-n}$ for all $n$. If $x\neq 0$, we can write $x=p^ku$ for $k\in \mathbb{Z}$ and $u$ invertible in $\mathbb{Z}_{p}$. If $k\geq 0$, then $x\in \mathbb{Z}_{p}$ and $x+\mathbb{\mathbb{Z}}_{p}=0$ with $x+\mathbb{Z}_{p}\in A_{-1}$. If $k<0$, then $p^{-k}(x+\mathbb{Z}_{p})=0$. Therefore, $x+\mathbb{Z}_{p}\in A_{-(-k)}$. This proves the claim.
+3. **Claim 3: $\widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}\cong \underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}$**:
+   Consider the following map: $$\begin{array}{cccc} {\Phi:}&{\underset{ \longleftarrow }{ \lim }\widehat{A_{-n}}}&\to&{\widehat{\mathbb{Q}_{p} / \mathbb{Z}_{p}}}\\&{(\gamma_{n} )_{n}} &\mapsto & {(x\mapsto\gamma_{n})} \end{array}{}$$
 
 
 
