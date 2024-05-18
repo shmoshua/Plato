@@ -76,7 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 8.md",
+                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "mode": "preview",
                 "source": false
               }
@@ -272,15 +272,18 @@
   },
   "active": "222e99f3f35e4d7d",
   "lastOpenFiles": [
-    "Algebra/p-adic Integer.md",
     "Topology/Product Topology.md",
+    "Analysis/Normed Space.md",
+    "Algebra/p-adic Integer.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Courses/Topology/Exercise Sheet 4.md",
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Courses/Functional Analysis II/Exercise Sheet 8.md",
+    "Courses/Topology/Exercise Sheet 2.md",
     "Analysis/Product Space.md",
     "Algebra/p-adic Rational.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Courses/Functional Analysis II/Exercise Sheet 8.md",
-    "Functional Analysis/Fourier Transform.md",
     "Topology/Continuous Functions in Metric Spaces.md",
-    "Analysis/Normed Space.md",
     "Topology/Topological Vector Space.md",
     "Lie Group/Topological Group.md",
     "Topology/Locally Compact Hausdorff Space.md",
@@ -295,9 +298,6 @@
     "Analysis/Fourier Coefficient.md",
     "Analysis/Lp Space.md",
     "Measure Theory/Measure.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Measure Theory/Convergence in Measure.md",
-    "Topology/Compact Space.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",

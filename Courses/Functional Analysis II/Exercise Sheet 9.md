@@ -88,4 +88,8 @@ Let $(g_{j})_{j\in J}\in \prod_{j\in J}'^{}G_{j}$. Then, by definition $g_{j}\in
 We have:
 1. Firstly, notice that the multiplication is well-defined as multiplication is closed under $\mathbb{Z}_{p}$. Therefore, for $x,y\in \mathbb{A}_{\mathbb{Q}}$, $xy$ only has finitely many terms in $\mathbb{Q}_{p}$ and hence contained in the restricted product. 
    
-   Now, as the topology on the restricted product coincides with the subset topology of the product, it suffices to show that multiplication is continuous on the product space $\mathbb{R}\times \prod_{p}^{}\mathbb{Q}_{p}$. 
+   Now, as the topology on the restricted product coincides with the subset topology of the product, it suffices to show that multiplication is continuous on the product space $\mathbb{R}\times \prod_{p}^{}\mathbb{Q}_{p}$. This holds trivially as multiplication in $\mathbb{R}$ or each $\mathbb{Q}_{p}$ is continuous as a normed vector space. Hence, the restriction onto $\mathbb{A}_{\mathbb{Q}}\times \mathbb{A}_{\mathbb{Q}}$ is continuous.
+2. Let $x\in \mathbb{Q}$. If $x\in \mathbb{Z}$, then $x\in \mathbb{Z}_{p}$ for all prime $p$. If $x\in \mathbb{Q} \backslash \mathbb{Z}$, let $m$ be the smallest positive integer s.t. $xm\in \mathbb{Z}$ and $J$ the set of primes that appear in the prime decomposition of $m$. Then, $J$ is finite.  
+   
+   We will show that $(x,x)$ is open in $\Delta(\mathbb{Q})$, which proves that $\Delta(\mathbb{Q})$ is discrete. 
+   
