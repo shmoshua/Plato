@@ -76,7 +76,7 @@ We have that $\chi_{a}=\chi \circ L_{a}$ hence continuous and $\chi_{a}(s+t)=\ch
 > [!def] Problem 6
 > Let $K_{j}\leq G_{j}$ be a compact subgroup in a LCH group $G_{j}$ indexed by $j\in J$. Show that the restricted product $\prod_{j\in J}'^{}G_{j}$ is a locally compact Hausdorff space.
 
-Let $(g_{j})_{j\in J}\in \prod_{j\in J}'^{}G_{j}$. Then, by definition $g_{j}\in K_{j}$ for all but finitely many. We define the compact neighborhood $\prod_{j\in J}^{}A_{j}$ where $A_{j}=K_{j}$ if $g_{j}\in K_{j}$ and if $g_{j}\notin K_{j}$, then $A_{j}$ is the compact neighborhood of $g_{j}$, which exists as $G_{j}$ is LCH. It follows that $\prod_{j\in J}^{}A_{j}$ is compact by Tychonoff and the restrictive product is locally compact Hausdorff.
+Let $(g_{j})_{j\in J}\in \prod_{j\in J}'^{}G_{j}$. Then, by definition $g_{j}\in K_{j}$ for all but finitely many. We define the compact neighborhood $\prod_{j\in J}^{}A_{j}$ where $A_{j}=K_{j}$ if $g_{j}\in K_{j}$ and if $g_{j}\notin K_{j}$, then $A_{j}$ is the compact neighborhood of $g_{j}$, which exists as $G_{j}$ is LCH. It follows that $\prod_{j\in J}^{}A_{j}$ is compact by Tychonoff and the restricted product is locally compact Hausdorff.
 
 ---
 > [!def] Problem 7
@@ -86,6 +86,6 @@ Let $(g_{j})_{j\in J}\in \prod_{j\in J}'^{}G_{j}$. Then, by definition $g_{j}\in
 > 3. Prove that the quotient $\mathbb{A}_{\mathbb{Q}} / \Delta(\mathbb{Q})$ is compact.
 
 We have:
-1. let $(x_{n},y_{n})_{n}\subseteq \mathbb{A}_{\mathbb{Q}}\times \mathbb{A}_{\mathbb{Q}}$ s.t. $(x_{n},y_{n})\to (x,y)$. Then, $x_{n}\to x$ and $y_{n}\to y$. We want to show that $x_{n}y_{n}\to xy$. First, notice that: $$x_{n}y_{n}=(x+x_{n}-x)(y+y_{n}-y)=xy+$$
+1. Firstly, notice that the multiplication is well-defined as multiplication is closed under $\mathbb{Z}_{p}$. Therefore, for $x,y\in \mathbb{A}_{\mathbb{Q}}$, $xy$ only has finitely many terms in $\mathbb{Q}_{p}$ and hence contained in the restricted product. 
    
-   let $U\times \prod_{p}^{}A_{p}$ be open in $\mathbb{A}_{\mathbb{Q}}$. 
+   Now, as the topology on the restricted product coincides with the subset topology of the product, it suffices to show that multiplication is continuous on the product space $\mathbb{R}\times \prod_{p}^{}\mathbb{Q}_{p}$. 

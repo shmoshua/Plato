@@ -142,8 +142,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Product Topology.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Product Topology.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Product Topology.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
               }
             }
           }
@@ -271,8 +270,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0946f3d5f33be304",
+  "active": "222e99f3f35e4d7d",
   "lastOpenFiles": [
+    "Algebra/p-adic Integer.md",
+    "Topology/Product Topology.md",
     "Analysis/Product Space.md",
     "Algebra/p-adic Rational.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
@@ -283,7 +284,6 @@
     "Topology/Topological Vector Space.md",
     "Lie Group/Topological Group.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Algebra/p-adic Integer.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Topology/Fundamental System.md",
@@ -296,7 +296,6 @@
     "Analysis/Lp Space.md",
     "Measure Theory/Measure.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Topology/Product Topology.md",
     "Measure Theory/Convergence in Measure.md",
     "Topology/Compact Space.md",
     "Courses/Graph Theory",
