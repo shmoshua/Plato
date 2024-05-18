@@ -89,7 +89,11 @@ We have:
 1. Firstly, notice that the multiplication is well-defined as multiplication is closed under $\mathbb{Z}_{p}$. Therefore, for $x,y\in \mathbb{A}_{\mathbb{Q}}$, $xy$ only has finitely many terms in $\mathbb{Q}_{p}$ and hence contained in the restricted product. 
    
    Now, as the topology on the restricted product coincides with the subset topology of the product, it suffices to show that multiplication is continuous on the product space $\mathbb{R}\times \prod_{p}^{}\mathbb{Q}_{p}$. This holds trivially as multiplication in $\mathbb{R}$ or each $\mathbb{Q}_{p}$ is continuous as a normed vector space. Hence, the restriction onto $\mathbb{A}_{\mathbb{Q}}\times \mathbb{A}_{\mathbb{Q}}$ is continuous.
-2. Let $x\in \mathbb{Q}$. If $x\in \mathbb{Z}$, then $x\in \mathbb{Z}_{p}$ for all prime $p$. If $x\in \mathbb{Q} \backslash \mathbb{Z}$, let $m$ be the smallest positive integer s.t. $xm\in \mathbb{Z}$ and $J$ the set of primes that appear in the prime decomposition of $m$. Then, $J$ is finite.  
+2. Let $x\in \mathbb{Q}$. If $x\in \mathbb{Z}$, then $x\in \mathbb{Z}_{p}$ for all prime $p$. If $x\in \mathbb{Q} \backslash \mathbb{Z}$, let $x= m/n$ for $m,n\in \mathbb{Z}$ relatively prime and $J$ the set of primes that appear in the prime decomposition of $n$. Then, $J$ is finite. For any prime $p$ not in $J$, as it does not divide $n$, $n$ is invertible in $\mathbb{Z}_{p}$ and $x\in \mathbb{Z}_{p}$. For $p\in J$, $v_{p}(m)=0$ and $v_{p}(n)\geq 1$. Hence, $v_{p}(x)\leq 1$ and $x\in \mathbb{Q}_{p} \backslash \mathbb{Z}_{p}$. Therefore, the diagonal embedding $\mathbb{Q}\hookrightarrow \mathbb{A}_{\mathbb{Q}}$ is well-defined.  
    
-   We will show that $(x,x)$ is open in $\Delta(\mathbb{Q})$, which proves that $\Delta(\mathbb{Q})$ is discrete. 
+   To show that $\Delta(\mathbb{Q})$ is discrete, we claim that $\{ (x,x) \}=\Delta(\mathbb{Q})\cap \left(  B_{<1/n}(x)\times\prod_{p\in J}^{}\mathbb{Q}_{p} \backslash \mathbb{Z}_{p}\times \prod_{p\notin J}^{}\mathbb{Z}_{p} \right)$which proves that $\{ (x,x) \}$ is open in $\Delta(\mathbb{Q})$. One inclusion is clear from above. Let $y\in\mathbb{Q}$ s.t. $(y,y)\in  B_{<1/n}(x)\times\prod_{p\in J}^{}\mathbb{Q}_{p} \backslash \mathbb{Z}_{p}\times \prod_{p\notin J}^{}\mathbb{Z}_{p}$. Then, from above, $y$ needs to have the same prime factorization of the denominator as $x$ and $y=m' / n$ for $m',n$ coprime. However, as $y\in B_{<1 / n}(x)$, $x=y$. 
+   
+   As a discrete subgroup of a Hausdorff space is closed, it suffices to show that $\mathbb{A}_{\mathbb{Q}}$ is Hausdorff. 
+   
+   
    
