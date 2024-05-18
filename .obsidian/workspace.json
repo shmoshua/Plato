@@ -76,7 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 6.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "mode": "preview",
                 "source": false
               }
@@ -142,7 +142,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -270,14 +271,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "222e99f3f35e4d7d",
+  "active": "c8efa93017610b71",
   "lastOpenFiles": [
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Courses/Topology/Exercise Sheet 11.md",
+    "Courses/Topology/Exercise Sheet 10.md",
+    "Courses/Topology/Exercise Sheet 9.md",
+    "Courses/Topology/Exercise Sheet 8.md",
+    "Courses/Topology/Exercise Sheet 7.md",
     "Courses/Topology/Exercise Sheet 6.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Functional Analysis/Fourier Transform.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Algebra/p-adic Integer.md",
     "Algebra/p-adic Rational.md",
     "Topology/Product Topology.md",
@@ -293,11 +299,6 @@
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Topology/Fundamental System.md",
     "Heine-Borel.md",
-    "Topology/Continuous Function.md",
-    "Topology/Topological Space.md",
-    "Functional Analysis/LCA Group.md",
-    "Functional Analysis/Positive Operator.md",
-    "Analysis/Fourier Coefficient.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
