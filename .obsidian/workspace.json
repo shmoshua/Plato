@@ -71,18 +71,6 @@
             }
           },
           {
-            "id": "3d9ae121bab2b778",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c8efa93017610b71",
             "type": "leaf",
             "state": {
@@ -136,7 +124,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Rational.md",
+                "file": "Representation Theory/Character.md",
                 "mode": "preview",
                 "source": false
               }
@@ -272,10 +260,12 @@
   },
   "active": "222e99f3f35e4d7d",
   "lastOpenFiles": [
-    "Algebra/p-adic Integer.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 11.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Fourier Transform.md",
+    "Representation Theory/Character.md",
+    "Algebra/p-adic Rational.md",
+    "Algebra/p-adic Integer.md",
     "Courses/Topology/Exercise Sheet 10.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 8.md",
@@ -284,7 +274,6 @@
     "Courses/Topology/Exercise Sheet 5.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Courses/Topology/Exercise Sheet 4.md",
-    "Algebra/p-adic Rational.md",
     "Topology/Product Topology.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Analysis/Normed Space.md",
@@ -297,7 +286,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Topology/Fundamental System.md",
-    "Heine-Borel.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",

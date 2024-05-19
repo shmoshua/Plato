@@ -104,5 +104,11 @@ We have:
 Let $x=0$. Then, $v_{p}(x)=\infty$ and the statement holds trivially. Consider $x\neq 0$, written as $x=p^{v_{p}(x)}u$ with $u\in \mathbb{Z}_{p}$. Then, we define $b_{0}:=u_{0}$ and $b_{n}:=((u_{n+1}-u_{n})/p^n) {\mod p}$ for $n\geq 1$. One sees that $b_{n}\in\mathbb{Z}$ as $u_{n+1}\equiv_{p^n}u_{n}$ and $0\leq b_{n}<p$. Let's show that $u=\sum_{n\geq 0}^{}b_{n}p^n$. For any $m\geq 1$, we have $$\left( \sum_{n\geq 0}b_{n}p^n \right)_{m}=\sum_{n=0}^{m-1}(b_{n})_{m-n}p^n=\sum_{n=0}^{m-1}b_{n}p^n=u_{0}+\sum_{n=1}^{m-1}(u_{n+1}-u_{n})=u_{m}$$By defining $a_{n}:=b_{n-v_{p}(x)}$we have: $$x=p^{v_{p}(x)}u=\sum_{n\geq 0}^{}b_{n}p^{n+v_{p}(x)}=\sum_{n\geq v_{p}(x)}^{}a_{n}p^n$$
 
 ---
+> [!def] Problem 9
+> Define the map $\chi:\mathbb{A}_{\mathbb{Q}}\to \mathbb{T}$ by: $$\chi(x_{\infty},x_{p}):=e^{2\pi i\{ x_{\infty} \}}\prod_{p}^{}e^{2\pi i\{ x_{p} \}}$$
+> 1. Prove that $\chi$ is a continuous character on $\mathbb{A}_{\mathbb{Q}}$.
+> 2. Define the character $\chi_{a}(x):=\chi(ax)$ for all $a,x\in \mathbb{A}_{\mathbb{Q}}$. Show that the map $$\mathbb{A}_{\mathbb{Q}}\to \widehat{\mathbb{A}_{\mathbb{Q}}},a\mapsto \chi_{a}$$ is an isomorphism of topological groups.
 
-   
+We have:
+1. As the projections $\pi_{\infty}$ and $\pi_{p}$ are continuous from $\mathbb{R}\times \prod_{p}^{}\mathbb{Q}_{p}$ and the restricted product topology refines the subspace topology, the projections from $\mathbb{A}_{\mathbb{Q}}$ into the respective spaces are continuous. Further, as $\{ x_{p} \}=0$ for almost every $p$, the function is well-defined. Therefore, $\chi$ is a continuous character as it is a finite product of continuous characters.
+2. 
