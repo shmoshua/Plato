@@ -98,7 +98,8 @@ We have:
    
    Let $x\in \mathbb{A}_{\mathbb{Q}}$. We need to show that $x=a+\Delta(b)$ where $a\in W$ and $b\in \mathbb{Q}$. Let $x_{p}$ denote the element of $x$ in $\mathbb{Q}_{p}$. Similarly, $x_{\mathbb{R}}\in \mathbb{R}$. Further, let $J$ denote the finite set of primes $p$ for which $x_{p}\notin \mathbb{Z}_{p}$. For $p\in J$, $x_{p}=p^{-n_{p}}u_{p}$ where $n_{p}\in \mathbb{Z}$ and $u_{p}\in \mathbb{Z}_{p}$. We then decompose $u_{p}$ as $u_{p}=q_{p}\cdot p^{n_{p}}+r_{p}$ where $q_{p}\in \mathbb{Z}_{p}$ and $r_{p}\in \mathbb{Z}$ with $0\leq r_{p}<p^{n_{p}}$. Let us define: $$\beta:=\sum_{p\in J}^{} \frac{r_{p}}{p^{n_{p}}}\in \mathbb{Q}$$Then, for $p\notin J$, $v_{p}(x_{p}-\beta)\geq\min\{ v_{p}(x_{p}),v_{p}(\beta) \}\geq 0$ and $x_{p}-\beta\in \mathbb{Z}_{p}$. For $p\in J$, $$v_{p}(x_{p}-\beta)=v_{p}\left( q_{p}+\frac{r_{p}}{p^{n_{p}}}-\sum_{p'\in J}^{}\frac{r_{p'}}{p'^{n_{p'}}} \right)=v_{p}\left( q_{p}-\sum_{p'\in J\backslash\{ p \}}^{} \frac{r_{p'}}{p'^{n_{p'}}} \right)\geq 0  $$Let $n\in \mathbb{Z}$ s.t. $\left| x_{\mathbb{R}}-\beta-n \right|<1$. By defining $b:=\beta+n$, we have a rational number $\mathbb{Q}$ s.t. $x-\Delta(b)\in W$. This proves the statement.
 ---
-
+> [!def] Problem 8
+> Show that for every $x\in \mathbb{Q}_{p}$ there exist unique $a_{n}\in \{ 0,\dots,p-1 \}$ for $n\geq v_{p}(x)$ such that $$x=\sum_{n\geq v_{p}(x)}^{}a_{n}p^n$$
    
-   
+Let $x=0$. Then, $v_{p}(x)=\infty$ and the statement holds trivially. Consider $x\neq 0$, written as $x=p^{v_{p}(x)}u$ with $u\in \mathbb{Z}_{p}$. Then, we define $b_{n}:=((u_{n+1}-u_{n})/p^n) {\mod p}$. One sees that $b_{n}\in\mathbb{Z}$ as $u_{n+1}\equiv_{p^n}u_{n}$ and $0\leq b_{n}<p$. Let's show that $u=\sum_{n\geq 0}^{}b_{n}p^n$. For any $m\geq 1$, we have $$\left( \sum_{n\geq 0}b_{n}p^n \right)_{m}=\sum_{n=0}^{m-1}(b_{n})_{m-n}p^n=$$
    
