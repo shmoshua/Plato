@@ -101,5 +101,8 @@ We have:
 > [!def] Problem 8
 > Show that for every $x\in \mathbb{Q}_{p}$ there exist unique $a_{n}\in \{ 0,\dots,p-1 \}$ for $n\geq v_{p}(x)$ such that $$x=\sum_{n\geq v_{p}(x)}^{}a_{n}p^n$$
    
-Let $x=0$. Then, $v_{p}(x)=\infty$ and the statement holds trivially. Consider $x\neq 0$, written as $x=p^{v_{p}(x)}u$ with $u\in \mathbb{Z}_{p}$. Then, we define $b_{n}:=((u_{n+1}-u_{n})/p^n) {\mod p}$. One sees that $b_{n}\in\mathbb{Z}$ as $u_{n+1}\equiv_{p^n}u_{n}$ and $0\leq b_{n}<p$. Let's show that $u=\sum_{n\geq 0}^{}b_{n}p^n$. For any $m\geq 1$, we have $$\left( \sum_{n\geq 0}b_{n}p^n \right)_{m}=\sum_{n=0}^{m-1}(b_{n})_{m-n}p^n=$$
+Let $x=0$. Then, $v_{p}(x)=\infty$ and the statement holds trivially. Consider $x\neq 0$, written as $x=p^{v_{p}(x)}u$ with $u\in \mathbb{Z}_{p}$. Then, we define $b_{0}:=u_{0}$ and $b_{n}:=((u_{n+1}-u_{n})/p^n) {\mod p}$ for $n\geq 1$. One sees that $b_{n}\in\mathbb{Z}$ as $u_{n+1}\equiv_{p^n}u_{n}$ and $0\leq b_{n}<p$. Let's show that $u=\sum_{n\geq 0}^{}b_{n}p^n$. For any $m\geq 1$, we have $$\left( \sum_{n\geq 0}b_{n}p^n \right)_{m}=\sum_{n=0}^{m-1}(b_{n})_{m-n}p^n=\sum_{n=0}^{m-1}b_{n}p^n=u_{0}+\sum_{n=1}^{m-1}(u_{n+1}-u_{n})=u_{m}$$By defining $a_{n}:=b_{n-v_{p}(x)}$we have: $$x=p^{v_{p}(x)}u=\sum_{n\geq 0}^{}b_{n}p^{n+v_{p}(x)}=\sum_{n\geq v_{p}(x)}^{}a_{n}p^n$$
+
+---
+
    
