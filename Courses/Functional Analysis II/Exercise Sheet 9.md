@@ -111,4 +111,6 @@ Let $x=0$. Then, $v_{p}(x)=\infty$ and the statement holds trivially. Consider $
 
 We have:
 1. As the projections $\pi_{\infty}$ and $\pi_{p}$ are continuous from $\mathbb{R}\times \prod_{p}^{}\mathbb{Q}_{p}$ and the restricted product topology refines the subspace topology, the projections from $\mathbb{A}_{\mathbb{Q}}$ into the respective spaces are continuous. Further, as $\{ x_{p} \}=0$ for almost every $p$, the function is well-defined. Therefore, $\chi$ is a continuous character as it is a finite product of continuous characters.
-2. 
+2. As we have seen that $\chi_{a}\in \widehat{\mathbb{R}}$ and $\chi_{a}\in \widehat{\mathbb{Q}_{p}}$ for any prime $p$, from 1, $\chi_{a}:\mathbb{A}_{\mathbb{Q}}\to \mathbb{T}$ is a continuous character. For the same reason $\Psi:\mathbb{A}_{\mathbb{Q}}\to \widehat{\mathbb{A}_{\mathbb{Q}}},a\mapsto \chi_{a}$ defines an injective homomorphism.
+   
+   For the surjectivity, let $\gamma\in \widehat{\mathbb{A}_{\mathbb{Q}}}$. Then, as $\mathbb{A}_{\mathbb{Q}}=\mathbb{R}\times \prod_{p}'^{}\mathbb{Q}_{p}$, $\gamma$ is a product of $\gamma_{\infty}$ and $\tilde{\gamma}$ where $\gamma_{\infty}\in \widehat{\mathbb{R}}$ and $\tilde{\gamma}\in \widehat{\prod_{p}'\mathbb{Q}_{p}}$. As $\mathbb{R}\cong\widehat{\mathbb{R}}$, there exists $a_{\infty}\in \mathbb{R}$ s.t. $\gamma_{\infty}(x_{\infty})=\exp(2\pi ia_{\infty}x_{\infty})$.
