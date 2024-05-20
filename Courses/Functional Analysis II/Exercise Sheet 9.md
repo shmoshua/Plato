@@ -119,5 +119,10 @@ We have:
    
    Let $(x_{\infty},x_{p})\in\mathbb{A}_{\mathbb{Q}}$ with $L$ as the set of primes $p$ for which $x_{p}\notin \mathbb{Z}_{p}$. Further, let $y\in \prod_{p}'^{}\mathbb{Q}_{p}$ where $y_{p}=0$ if $p\in J\cup L$ and $y_{p}=x_{p}$ otherwise. As $x_{p}\in \mathbb{Z}_{p}$ for all $p\notin L$, $\tilde{\gamma}(y)=1$. Then, $$\begin{align}\chi_{a}(x_{\infty},x_{p})=e^{2\pi ia_{\infty}x_{\infty}}\prod_{p\in J\cup L}^{}e^{2\pi i\{ a_{p}x_{p} \}}&=\gamma_{\infty}(x_{\infty})\tilde{\gamma}(y)\prod_{p\in J \cup L}^{}\tilde{\gamma}(i_{p}(x_{p}))\\&=\gamma_{\infty}(x_{\infty})\tilde{\gamma}\left( y+\sum_{p\in J\cup L}^{}i_{p}(x_{p}) \right)=\gamma(x_{\infty},x_{p})\end{align}$$ This shows the surjectivity.
    
-   To show that $\Psi$ is a homeomorphism, we show that $\Psi$ and $\Psi ^{-1}$ are continuous at $0$ and $1$ respectively. Let $J$ be a finite set of primes and $$K:=B_{\leq \frac{1}{k_{\infty}}}(0)\times \prod_{p\in J}^{}p^{k_{p}}\mathbb{Z}_{p}\times \prod_{p\notin J}^{}\mathbb{Z}_{p}$$where $k_{\infty},k_{p}\geq 1$. Consider $N(K,\varepsilon):=\{ \gamma\in \widehat{\mathbb{A}_{\mathbb{Q}}}:\left| (x,\gamma)-1 \right|<\varepsilon,\forall x\in K \}$. We have that $$\chi()$$
+   To show that $\Psi$ is a homeomorphism, we show that $\Psi$ and $\Psi ^{-1}$ are continuous at $0$ and $1$ respectively. Let $J$ be a finite set of primes and $$K:=B_{\leq \frac{1}{k_{\infty}}}(0)\times \prod_{p\in J}^{}p^{k_{p}}\mathbb{Z}_{p}\times \prod_{p\notin J}^{}\mathbb{Z}_{p}$$where $k_{\infty},k_{p}\geq 1$. Consider $N(K,\varepsilon):=\{ \chi_{a}\in \widehat{\mathbb{A}_{\mathbb{Q}}}:\left| (x,\chi _{a})-1 \right|<\varepsilon,\forall x\in K \}$. For $x\in K$, $$(x,\chi_{a})=\exp(2\pi i a_{\infty}x_{\infty})\prod_{p\in J}^{}\exp(2\pi i \{ a_{p}x_{p} \})$$As this is a finite product, we can instead consider $A:=\mathbb{R}\times \prod_{p\in J}^{}\mathbb{Q}_{p}$ and with the surjection $p:\mathbb{A}_{\mathbb{Q}}\to A$, 
    
+   $$Therefore, $(a_{\infty},a_{p})\in \Psi ^{-1}(N(K,\varepsilon))$ if and only if $a_{\infty}\in \Psi_{\mathbb{R}}^{-1}()$
+   
+   We have that $$\Psi ^{-1}(N(K,\varepsilon))$$
+   
+---
