@@ -130,7 +130,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -258,11 +259,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "222e99f3f35e4d7d",
+  "active": "c8efa93017610b71",
   "lastOpenFiles": [
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Fourier Transform.md",
     "Topology/Continuous Function.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Topology/Continuous Functions in Metric Spaces.md",
+    "Analysis/Normed Space.md",
     "Representation Theory/Character.md",
     "Courses/Topology/Exercise Sheet 11.md",
     "Algebra/p-adic Rational.md",
@@ -276,8 +279,6 @@
     "Courses/Topology/Exercise Sheet 3.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Product Topology.md",
-    "Topology/Continuous Functions in Metric Spaces.md",
-    "Analysis/Normed Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Analysis/Product Space.md",
