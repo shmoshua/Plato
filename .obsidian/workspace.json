@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Roots of Unity.md",
+                "file": "Algebra/Cyclotomic Polynomial.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,9 +85,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6343fc6755c861ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Cyclotomic Polynomial.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -153,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Roots of Unity.md",
+                "file": "Algebra/Cyclotomic Polynomial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Roots of Unity.md",
+                "file": "Algebra/Cyclotomic Polynomial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Roots of Unity.md"
+                "file": "Algebra/Cyclotomic Polynomial.md"
               }
             }
           }
@@ -215,10 +227,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3cb5fdd98f7c115f",
+  "active": "6343fc6755c861ea",
   "lastOpenFiles": [
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Roots of Unity.md",
+    "Algebra/Cyclotomic Polynomial.md",
+    "Algebra/Untitled",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Discriminant.md",
     "Algebra/Cyclotomic Extension.md",
     "Algebra/Reduced Polynomial.md",
@@ -242,13 +256,11 @@
     "Courses/Topology/Exercise Sheet 7.md",
     "Courses/Topology/Exercise Sheet 6.md",
     "Courses/Topology/Exercise Sheet 5.md",
-    "Courses/Topology/Exercise Sheet 3.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
     "Representation Theory",
     "Courses/Representation Theory",
-    "Algebra/Untitled",
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
