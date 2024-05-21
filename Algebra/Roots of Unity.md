@@ -1,7 +1,7 @@
 #Definition #Algebra 
 
 > [!definition]
-> For a field $K$, the ***$n$-th roots of unity*** are the roots of $x^n-1\in K[X]$. The set of the $n$-th roots of unity is denoted with $\mu_{K}(n)$.
+> For a field $K$, for $n\in \mathbb{N}$ with $\text{char }K\nmid n$, the ***$n$-th roots of unity*** are defined as: $$\mu_{n}(K):=\{ \xi\in \overline{K}: \xi^n=1 \}=\text{ker}(\overline{K}^\times\to \overline{K}^\times,y\mapsto y^n)$$
 - **Related Definition**: a ***primitive root*** is a generator of $\mu_{K}(n)$.
 ---
 ##### Properties

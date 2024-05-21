@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Cyclotomic Extension.md",
+                "file": "Algebra/Roots of Unity.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,54 +56,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Closure.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "6b44c5c00375ae3c",
+            "id": "f975dd9eebd12403",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "3033f5ec7ec36e5f",
+            "id": "af83f84f3bfc94cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Cyclotomic Polynomial.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2eb126e0b7f196c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Radical Extension.md",
+                "file": "Algebra/Roots of Unity.md",
                 "mode": "preview",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "82479b36fa5e09fc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
@@ -136,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "kronecker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Lie Group/Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Lie Group/Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+                "file": "Lie Group/Topological Group.md"
               }
             }
           }
@@ -236,19 +216,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0fd7fc5d8c3c7a32",
+  "active": "f975dd9eebd12403",
   "lastOpenFiles": [
-    "Algebra/Galois Correspondence.md",
-    "Algebra/Cyclotomic Polynomial.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Radical Extension.md",
-    "Algebra/Solvable Group.md",
-    "Algebra/Normal Closure.md",
-    "Algebra/Normal Extension.md",
-    "Functional Analysis/Radical.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Locally Compact Topological Group.md",
     "Algebra/Roots of Unity.md",
+    "Lie Group/Topological Group.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Locally Compact Space.md",
+    "Algebra/Radical Extension.md",
     "Algebra/Cyclotomic Extension.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Abelian Extension.md",
+    "Algebra/Cyclotomic Polynomial.md",
+    "Algebra/Normal Extension.md",
+    "Algebra/Normal Closure.md",
+    "Algebra/Galois Correspondence.md",
+    "Algebra/Solvable Group.md",
+    "Functional Analysis/Radical.md",
     "Algebra/Field Extension.md",
     "Functional Analysis/LCA Group.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -260,11 +245,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Fourier Transform.md",
     "Topology/Continuous Function.md",
-    "Topology/Continuous Functions in Metric Spaces.md",
-    "Analysis/Normed Space.md",
-    "Representation Theory/Character.md",
-    "Courses/Topology/Exercise Sheet 11.md",
-    "Algebra/p-adic Rational.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",

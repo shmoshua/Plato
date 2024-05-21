@@ -29,7 +29,7 @@
 > 1. If $H\leq G$, then $\overline{H}\leq G$.
 > 2. If $H\leq G$ is open, then it is closed.
 > 3. Let $G_{0}$ be the [[Connected Space|connected component]] of $e\in G$. Then, $G_{0}$ is closed and $G_{0}\unlhd G$.
-> 4. If $G$ is [[Connected Space|connected]] and $U\subseteq G$ is a neighborhood of $e$, then $G=\bigcup_{n=1}^{\infty}U^n$
+> 4. If $G$ is [[Connected Space|connected]] and $e\in U\subseteq G$ is a neighborhood, then $G=\bigcup_{n=1}^{\infty}U^n$
 > 5. If $G$ is [[Connected Space|connected]] and $N\unlhd G$ is discrete. Then, $N\subseteq Z(G)$ where $Z(G)$ denotes the [[Center of a group|center]].
 
 > [!proof]-
@@ -74,7 +74,7 @@
 > We have:
 > 1. Any group $G$ is a topological group with respect to the discrete topology. 
 > 2. $(\mathbb{R}^n,+)$ is a topological group with respect to the Euclidean topology.
-> 4. $\mathbb{R}^{*},\mathbb{C}^{*}$ are locally compact abelian topological groups.
+> 4. $\mathbb{R}^{\times},\mathbb{C}^{\times}$ are locally compact abelian topological groups.
 > 5. [[General Linear Group|$\text{GL}(n,\mathbb{R})$]] is a topological group.
 > 6. For any [[topological vector space]] $V$, $(V,+)$ is a topological group.
 ---
@@ -106,7 +106,7 @@
 > [!h] Example 5
 > Let $(X,d)$ be a [[proper metric space]]. Then, the group of isometries $\text{Iso}(X)$ is a topological group w.r.t the compact-open topology.
 ---
-> [!h] Example 6
+> [!h] Example 6 (Matrix Groups)
 > For $\text{GL}(n,\mathbb{R})$, 
 > 1. $\text{A}:=\{ \text{diag}(\lambda_{1},\dots,\lambda_{n}):\lambda_{i}\in\mathbb{R}_{>0} \}\cong \mathbb{R}_{>0}^n$ is a closed subgroup of $\text{GL}(n,\mathbb{R})$.
 > 2. $\text{UT}(n,\mathbb{R})$, the upper unitriangular group, is a closed subgroup of $\text{GL}(n,\mathbb{R})$. $\text{UT}(n,\mathbb{R})$ is homeomorphic to $\mathbb{R}^{n(n-1)/2}$ but not isomorphic, as $\text{UT}(n,\mathbb{R})$ is non-abelian.
