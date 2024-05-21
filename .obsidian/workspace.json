@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Cyclotomic Extension.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Roots of Unity.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Reduced Polynomial.md",
+                "file": "Algebra/Cyclotomic Extension.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,13 +80,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Roots of Unity.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Roots of Unity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Roots of Unity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+                "file": "Algebra/Roots of Unity.md"
               }
             }
           }
@@ -214,12 +215,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "222e99f3f35e4d7d",
+  "active": "3cb5fdd98f7c115f",
   "lastOpenFiles": [
-    "Algebra/Reduced Polynomial.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Algebra/Roots of Unity.md",
     "Algebra/Discriminant.md",
+    "Algebra/Cyclotomic Extension.md",
+    "Algebra/Reduced Polynomial.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Field Extension.md",
     "Algebra/Galois Extension.md",
     "Algebra/Galois Correspondence.md",
@@ -240,8 +243,6 @@
     "Courses/Topology/Exercise Sheet 6.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Courses/Topology/Exercise Sheet 3.md",
-    "Courses/Topology/Exercise Sheet 4.md",
-    "Topology/Product Topology.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",

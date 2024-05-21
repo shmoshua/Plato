@@ -63,7 +63,8 @@
 ##### 5. Galois Groups of Polynomials
 1. [[Discriminant]]
 2. [[Reduced Polynomial]]
-3. 
+3. [[Roots of Unity]]
+4. [[Cyclotomic Extension]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
