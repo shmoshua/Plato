@@ -68,7 +68,7 @@
 5. [[Cyclotomic Polynomial]]
 ---
 ##### 6. Solvability by Radicals and Solvable Groups
-
+1. [[Radical Extension]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]

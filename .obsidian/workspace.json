@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "0fd7fc5d8c3c7a32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "ecdfc9566a189589",
             "type": "leaf",
             "state": {
@@ -31,48 +43,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
         "type": "tabs",
         "children": [
-          {
-            "id": "222e99f3f35e4d7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Galois Correspondence.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d61621967d5c77b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Radical Extension.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8687bdf6a788b031",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Solvable Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
           {
             "id": "6343fc6755c861ea",
             "type": "leaf",
@@ -84,8 +61,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6b44c5c00375ae3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "totient",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +121,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Correspondence.md"
+                "file": "Courses/Algebra II/Algebra II Roadmap.md"
               }
             }
           }
@@ -213,10 +204,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "222e99f3f35e4d7d",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Radical Extension.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Galois Correspondence.md",
     "Algebra/Solvable Group.md",
     "Algebra/Normal Closure.md",
     "Algebra/Normal Extension.md",
@@ -232,7 +224,6 @@
     "Algebra/Discriminant.md",
     "Algebra/Reduced Polynomial.md",
     "Algebra/Galois Extension.md",
-    "Algebra/Galois Correspondence.md",
     "Algebra/Splitting Field.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Fourier Transform.md",
