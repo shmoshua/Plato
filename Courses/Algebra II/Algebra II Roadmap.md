@@ -65,6 +65,10 @@
 2. [[Reduced Polynomial]]
 3. [[Roots of Unity]]
 4. [[Cyclotomic Extension]]
+5. [[Cyclotomic Polynomial]]
+---
+##### 6. Solvability by Radicals and Solvable Groups
+
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
