@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Galois Correspondence.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Radical Extension.md",
+                "file": "Algebra/Galois Correspondence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Radical Extension.md",
+                "file": "Algebra/Galois Correspondence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Radical Extension.md"
+                "file": "Algebra/Galois Correspondence.md"
               }
             }
           }
@@ -214,13 +213,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d61621967d5c77b0",
+  "active": "222e99f3f35e4d7d",
   "lastOpenFiles": [
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Radical Extension.md",
+    "Algebra/Solvable Group.md",
     "Algebra/Normal Closure.md",
     "Algebra/Normal Extension.md",
-    "Algebra/Solvable Group.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Functional Analysis/Radical.md",
     "Algebra/Roots of Unity.md",
