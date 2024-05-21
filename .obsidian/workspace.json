@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Roots of Unity.md",
+                "file": "Algebra/Radical Extension.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,14 +80,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Roots of Unity.md",
+                "file": "Algebra/Radical Extension.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,8 +133,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Algebra/Radical Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Algebra/Radical Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Topological Group.md"
+                "file": "Algebra/Radical Extension.md"
               }
             }
           }
@@ -216,15 +215,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f975dd9eebd12403",
+  "active": "ecdfc9566a189589",
   "lastOpenFiles": [
+    "Algebra/Roots of Unity.md",
+    "Algebra/Radical Extension.md",
+    "Topology/Connected Space.md",
+    "Lie Group/Local Homomorphism.md",
+    "Lie Group/Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Locally Compact Topological Group.md",
-    "Algebra/Roots of Unity.md",
-    "Lie Group/Topological Group.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Locally Compact Space.md",
-    "Algebra/Radical Extension.md",
     "Algebra/Cyclotomic Extension.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Abelian Extension.md",
@@ -243,8 +244,6 @@
     "Algebra/Galois Extension.md",
     "Algebra/Splitting Field.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Topology/Continuous Function.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",

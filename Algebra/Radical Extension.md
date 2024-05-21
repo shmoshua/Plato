@@ -62,3 +62,15 @@
 > [!lemma] Theorem 4 (Abel-Ruffini)
 > Let $L=K(\alpha_{1},\dots,\alpha_{n})$ be a splitting field of a general polynomial $f_{n}(x)\in K(s_{1},\dots,s_{n})$. Then, $$\text{Gal}(L:K(s_{1},\dots,s_{n}))\cong S_{n}$$
 ---
+> [!lemma] Theorem 5
+> Let $L:K$ be finite, $n\in \mathbb{N}$ s.t. $n$ does not divide $\text{char}(K)$. If $\mu_{n}\subseteq K$, the following are equivalent:
+> 1. $L:K$ is simple residual, i.e. $L=K(\alpha)$ with $\alpha^n\in K$.
+> 2. $L:K$ is Galois and the Galois group is cyclic of order dividing $n$.
+
+> [!proof]-
+> Let $\beta:=\alpha^n\in K$. Then, $x^n-\beta=\prod_{\xi\in \mu_{n}}^{}(x-\xi \alpha)$. Since $\mu_{n}\subseteq K$, $\xi a\in L$ for all $\xi\in \mu_{n}$. Therefore, $L$ is the splitting field of $x^n-b$. 
+> 
+> Notice that $(x^n-b)'=nx^{n-1}\neq 0$. Therefore, $(nx^{n-1},x^n-b)=1$ and $x^n-b$ is separable. This shows that $L:K$ is Galois.
+> 
+> Consider: $$\chi:\text{Gal}(L:K)\to \mu_{n},\gamma\mapsto \frac{\gamma(a)}{a}$$Then, for $\gamma,\sigma\in \text{Gal}(L:K)$, we have: $$\chi(\theta\gamma)=\frac{\theta\gamma(a)}{a}=\frac{\theta(a)}{a} \frac{\gamma(a)}{a}=\chi(\theta)\chi(\gamma)$$Therefore $\chi$ is a homomorphism and it is injective as $\chi:\text{Gal}(L:K)\hookrightarrow \mu_{n}\cong \mathbb{Z} / n\mathbb{Z}$.
+---
