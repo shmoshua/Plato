@@ -62,6 +62,18 @@
             }
           },
           {
+            "id": "8687bdf6a788b031",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Solvable Group.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6343fc6755c861ea",
             "type": "leaf",
             "state": {
@@ -204,9 +216,10 @@
   },
   "active": "d61621967d5c77b0",
   "lastOpenFiles": [
+    "Algebra/Solvable Group.md",
+    "Algebra/Radical Extension.md",
     "Algebra/Normal Extension.md",
     "Algebra/Cyclotomic Polynomial.md",
-    "Algebra/Radical Extension.md",
     "Functional Analysis/Radical.md",
     "Algebra/Roots of Unity.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
@@ -230,7 +243,6 @@
     "Courses/Topology/Exercise Sheet 11.md",
     "Algebra/p-adic Rational.md",
     "Algebra/p-adic Integer.md",
-    "Courses/Topology/Exercise Sheet 10.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
