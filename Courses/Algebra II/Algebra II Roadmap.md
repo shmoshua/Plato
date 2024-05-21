@@ -59,6 +59,8 @@
 ---
 ##### 4. The Galois Correspondence
 1. [[Galois Correspondence]]
+---
+##### 5. Galois Groups of Polynomials
 
 ---
 ### Exercises

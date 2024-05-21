@@ -77,3 +77,10 @@ It holds that:
 > Let $f(x):=(x^2+1)(x^{2}-5)\in \mathbb{Q}[X]$. Then, 
 > 1. $L:=\mathbb{Q}(i,\sqrt{ 5 })$ is the splitting field and $f$ is separable, i.e. $L:\mathbb{Q}$ is Galois with degree 4.
 > 2. $\text{Gal}(L:\mathbb{Q})\cong \mathbb{Z}_{2}\times \mathbb{Z}_{2}$
+---
+> [!h] Example 2
+> Let $f(x):=x^3-2\in \mathbb{Q}[X]$. Then, 
+> 1. $L:=\mathbb{Q}(\sqrt[3]{2  },\rho)$ for $\rho=\exp(2\pi i /3)$ is the splitting field of $f$. Then, $L:\mathbb{Q}$ is Galois.
+> 2. $[L:\mathbb{Q}]=6$ as $[\mathbb{Q}(\sqrt[3]{2  }):\mathbb{Q}]=3$ and $[\mathbb{Q}(\rho):\mathbb{Q}]=2$.
+> 3. Therefore, $\text{Gal}(L:\mathbb{Q})\cong S_{3}$.
+---

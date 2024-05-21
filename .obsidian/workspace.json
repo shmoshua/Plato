@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,7 +44,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b46eda585e1ba9fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Galois Extension.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d61621967d5c77b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Field Extension.md",
                 "mode": "preview",
                 "source": false
               }
@@ -116,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Correspondence.md"
+                "file": "Courses/Algebra II/Algebra II Roadmap.md"
               }
             }
           }
@@ -180,8 +204,12 @@
   },
   "active": "ecdfc9566a189589",
   "lastOpenFiles": [
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Galois Correspondence.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Galois Extension.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Splitting Field.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Fourier Transform.md",
     "Topology/Continuous Function.md",
@@ -202,10 +230,6 @@
     "Topology/Product Topology.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Courses/Topology/Exercise Sheet 2.md",
-    "Analysis/Product Space.md",
-    "Topology/Topological Vector Space.md",
-    "Lie Group/Topological Group.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
