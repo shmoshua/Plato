@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Extension.md",
+                "file": "Algebra/Normal Closure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -216,13 +216,14 @@
   },
   "active": "d61621967d5c77b0",
   "lastOpenFiles": [
-    "Algebra/Solvable Group.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Radical Extension.md",
+    "Algebra/Normal Closure.md",
     "Algebra/Normal Extension.md",
+    "Algebra/Solvable Group.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Functional Analysis/Radical.md",
     "Algebra/Roots of Unity.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Cyclotomic Extension.md",
     "Algebra/Abelian Extension.md",
     "Algebra/Field Extension.md",
@@ -242,7 +243,6 @@
     "Representation Theory/Character.md",
     "Courses/Topology/Exercise Sheet 11.md",
     "Algebra/p-adic Rational.md",
-    "Algebra/p-adic Integer.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
