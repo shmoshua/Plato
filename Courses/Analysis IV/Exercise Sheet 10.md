@@ -1,3 +1,3 @@
 #Series #Analysis 
 
-We have that: $$\frac{1}{2\pi}\int_{\mathbb{R}}^{} \int_{\mathbb{R}}^{}  \, dx  \, dx $$
+The Fourier transform is: $$(\xi,\eta)\mapsto \frac{1}{2\pi}\widehat{u}\left( \frac{\xi}{2} \right) \widehat{v}(2\eta) $$
