@@ -20,7 +20,9 @@
 3. **Properties of a Topological Group**: [[Topological Group]] and connectedness.
 
 **1.4 Local Homomorphisms**
-
+1. [[Local Homomorphism]]
+2. [[Semi-Locally Simply Connected Space]]
+3. [[Connected Space]]
 ---
 
 ##### 2. Lie Groups

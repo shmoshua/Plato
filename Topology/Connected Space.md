@@ -45,3 +45,16 @@
 > 
 > Assume $c\neq b$. Then, there exists $\varepsilon>0$ s.t. $(c-\varepsilon,c+\varepsilon)\cap A\subseteq U_{1}$ and $c+\varepsilon<b$. This is a contradiction to the maximality of $c$, as $\left[ a,c+\frac{\varepsilon}{2} \right]\subseteq U_{1}$. 
 ---
+> [!h] Example 2
+> We have that: 
+> 1. $\pi_{0}(\text{Homeo}(\mathbb{T}^{n}))\cong\text{GL}(n,\mathbb{Z})$
+---
+> [!h] Example 3
+> We have that: 
+> 1. $\text{O}(4,\mathbb{R})\leq \text{Diff}(S^3)$.
+> 2. $\pi_{0}(\text{Diff}(S^3))\cong \mathbb{Z} / 2\mathbb{Z}$.
+> 3. $\pi_{0}(\text{O}(4,\mathbb{R}))\cong \mathbb{Z} / 2\mathbb{Z}$.
+
+> [!proof]-
+> As $\det:\text{O}(4,\mathbb{R})\to \{ \pm 1 \}$ is a continuous map, $\pi_{0}(\text{O}(4,\mathbb{R}))$ has at least 2 elements. We can show that $\text{O}(4,\mathbb{R})\cap \text{SL}(4,\mathbb{R})$ are path-connected and therefore, $\pi_{0}(\text{O}(4,\mathbb{R}))\cong \mathbb{Z} / 2\mathbb{Z}$.
+---
