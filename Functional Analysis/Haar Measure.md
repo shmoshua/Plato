@@ -16,8 +16,10 @@
 > 1. there exists a unique (up to scaling) positive linear functional $\Lambda :C_{00}(G)\to \mathbb{C}$ that is invariant under left translation, i.e.$$\Lambda(\lambda(g)f)=\Lambda(f), \quad \forall f\in C_{00}(G),g\in G$$We call $\Lambda$ the ***left Haar functional***.
 > 2. there exists a unique (up to scaling) non-zero positive regular Borel measure $\mu$ on $G$ s.t. for every $A\in \Sigma_{\mu}$, $\mu(gA)=\mu(A)$ for all $g\in G$, called the ***left Haar measure***. It also holds that: $$\Lambda(f)=\int_{G}^{} f \, d\mu $$
 
-> [!proof]-
-> For 2, it follows from [[Measure Theory/Complex Measure|Riesz representation]]. 
+> [!proof]+
+> We will only prove the uniqueness.
+> 
+> Let $\mu$ be a left Haar measure and $\nu$ a right Haar measure. Then for $f,g\in C_{0}(G)$ with $\int_{G}^{} f \, d\mu\neq 0$,  $$\begin{align}\left( \int_{G}^{} f \, d\mu  \right)\left( \int_{G}^{} g \, d\nu \right) &=\int_{G}^{} f(t)\left( \int_{G}^{} g(yt) \, d\nu(y)  \right)  \, d\mu(t)\\&=\int_{G}^{} \left( \int_{G}^{} f(t)g(yt) \, d\mu(t)  \right)  \, d\nu(y) \\&=\int_{G}^{} \left( \int_{G}^{} f(y^{-1}x)g(x) \, d\mu(x)  \right)  \, d\nu(y) \\&=\int_{G}^{} \left( \int_{G}^{} f(y^{-1}x)g(x) \, d\nu(y)  \right)  \, d\mu(x)  \end{align}$$ where we can apply Fubini as $f,g\in C_{00}(G)$. Define: $$w_{f}(x)=\frac{1}{\int_{G}^{} f \, d\mu }\int_{G}^{} f(y^{-1}x)\, d\nu(y) $$Then, $$\int_{G}^{} g \, d\nu=\int_{G}^{} w_{f}(x)g(x) \, d\mu(x) $$As the LHS is independent of $f$, using Lemma 2, as $w_{f_{1}}-w_{f_{2}}$ are continuous, we have that $w_{f_{1}}-w_{f_{2}}=0$ for all $f_{1},f_{2}\in C_{00}(G)$. Therefore, there exists $C\in \mathbb{R}^\times$ s.t. $$
 ---
 
 > [!lemma] Lemma 2
@@ -25,10 +27,10 @@
 > 1. $\text{supp}(\mu)=G$, i.e for all non-empty open $U\subseteq G$, $\mu(U)>0$.
 > 3. Any $h\in C(G)$ for which: $$\int_{G}^{} h\cdot \varphi \, d\mu=0,\quad \forall\varphi\in C_{00}(G) $$it holds that $h=0$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. As $\Lambda$ is positive, we know that there exists $f\in C_{00}(G)$ with $f\geq 0$ and $$\Lambda (f)=\int_{G}^{} f \, d\mu >0$$Modulo rescaling, we may assume that $0\leq f\leq 1$. Then, $$\text{supp}(f)\subseteq \bigcup_{g\in G}^{}gU=G$$As the support is compact, there exists $g_{1},..,g_{n}\in G$ s.t. $\text{supp}(f)\subseteq \bigcup_{i=1}^{n}g_{i}U$ and it holds that: $$f\leq \sum_{i=1}^{n}\chi_{g_{i}U}$$Therefore, $$0<\int_{G}^{} f \, d\mu \leq \int_{G}\sum_{i=1}^{n}\chi_{g_{i}U}  \, d\mu=\sum_{i=1}^{n}\mu(g_{i}U)=n\cdot \mu(U)$$
-> 2. We will show that $h(e)=0$ and the proof for $h(g)$ for any other $g\in G$ is analogous. Let $\varepsilon>0$. As $h$ is open, there exists an open neighborhood $V\ni e$ s.t. $V\subseteq h^{-1}(B_{<\varepsilon}(h(e)))$. Then, by [[Locally Compact Hausdorff Space|Urysohn's lemma]], there exists $\varphi\in C_{00}(G)$ s.t. $\varphi(e)=1$ and $\varphi\geq 0$ s.t. $\text{supp }\varphi \subseteq V$. Therefore, $$$$
+> 2. We will show that $h(e)=0$ and the proof for $h(g)$ for any other $g\in G$ is analogous. Let $\varepsilon>0$. As $h$ is open, there exists an open neighborhood $V\ni e$ s.t. $V\subseteq h^{-1}(B_{<\varepsilon}(h(e)))$. Then, by [[Locally Compact Hausdorff Space|Urysohn's lemma]], there exists $\varphi\in C_{00}(G)$ s.t. $\varphi(e)=1$ and $\varphi\geq 0$ s.t. $\text{supp }\varphi \subseteq V$. Therefore, $$\left| h(e) \right| \left| \int_{G}\varphi(g) \, d\mu(g)  \right|=\left| \int_{G}^{} h(e)\varphi(g) \, d\mu(g)  \right| \leq \int_{G}^{} \left| h(e)-h(g) \right| \left| \varphi(g) \right|  \, d\mu(g)<\varepsilon \int_{G}^{} \varphi(g) \, d\mu(g)   $$and $\left| h(e) \right|<\varepsilon$ for any $\varepsilon>0$. Therefore, $h(e)=0$.
 ---
 > [!lemma] Corollary 3
 > Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff topological group]] and $\text{Aut}(G)$ the group of continuous group automorphisms of $G$. Then, 
