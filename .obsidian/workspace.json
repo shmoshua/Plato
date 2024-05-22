@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Radical.md",
+                "file": "Topology/Path.md",
                 "mode": "preview",
                 "source": false
               }
@@ -242,13 +242,15 @@
   "active": "f975dd9eebd12403",
   "lastOpenFiles": [
     "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Local Homomorphism.md",
+    "Topology/Path.md",
+    "Topology/Homotopy.md",
     "Functional Analysis/Radical.md",
     "Courses/Analysis IV/Exercise Sheet 10.md",
     "Algebra/Radical Extension.md",
     "Analysis/Untitled.md",
     "Algebra/Roots of Unity.md",
     "Topology/Connected Space.md",
-    "Lie Group/Local Homomorphism.md",
     "Lie Group/Topological Group.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Topology/Locally Compact Hausdorff Space.md",
@@ -266,8 +268,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Untitled",
     "Algebra/Discriminant.md",
-    "Algebra/Reduced Polynomial.md",
-    "Algebra/Galois Extension.md",
     "Courses/Graph Theory",
     "Graph Theory",
     "ML Theory",
