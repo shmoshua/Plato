@@ -11,7 +11,7 @@
 ---
 ##### Properties
 
-> [!lemma] Theorem 1 (Existence and Uniqueness of Haar Measure)
+> [!lemma] Theorem 1 (Existence and Uniqueness of Haar Measure, Haar 1933)
 > Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]]. Then, let $\lambda:G\to \text{GL}(C_{00}(G))$ be the [[Representation|left-regular representation]], i.e. for $f\in C_{00}(G)$, $$\lambda(g)f(x)=f(g^{-1}x)$$
 > 1. there exists a unique (up to scaling) positive linear functional $\Lambda :C_{00}(G)\to \mathbb{C}$ that is invariant under left translation, i.e.$$\Lambda(\lambda(g)f)=\Lambda(f), \quad \forall f\in C_{00}(G),g\in G$$We call $\Lambda$ the ***left Haar functional***.
 > 2. there exists a unique (up to scaling) non-zero positive regular Borel measure $\mu$ on $G$ s.t. for every $A\in \Sigma_{\mu}$, $\mu(gA)=\mu(A)$ for all $g\in G$, called the ***left Haar measure***. It also holds that: $$\Lambda(f)=\int_{G}^{} f \, d\mu $$
@@ -19,11 +19,16 @@
 > [!proof]-
 > For 2, it follows from [[Measure Theory/Complex Measure|Riesz representation]]. 
 ---
-> [!lemma] Lemma 2
-> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff topological group]] and $\mu$ the left Haar measure. Then, for all non-empty open $U\subseteq G$, $\mu(U)>0$.
 
-> [!proof]-
-> As $\Lambda$ is positive, we know that there exists $f\in C_{00}(G)$ with $f\geq 0$ and $$\Lambda (f)=\int_{G}^{} f \, d\mu >0$$Modulo rescaling, we may assume that $0\leq f\leq 1$. Then, $$\text{supp}(f)\subseteq \bigcup_{g\in G}^{}gU=G$$As the support is compact, there exists $g_{1},..,g_{n}\in G$ s.t. $\text{supp}(f)\subseteq \bigcup_{i=1}^{n}g_{i}U$ and it holds that: $$f\leq \sum_{i=1}^{n}\chi_{g_{i}U}$$Therefore, $$0<\int_{G}^{} f \, d\mu \leq \int_{G}\sum_{i=1}^{n}\chi_{g_{i}U}  \, d\mu=\sum_{i=1}^{n}\mu(g_{i}U)=n\cdot \mu(U) $$
+> [!lemma] Lemma 2
+> Let $G$ be a [[Locally Compact Topological Group|LCH group]] and $\mu$ the left Haar measure. Then, 
+> 1. $\text{supp}(\mu)=G$, i.e for all non-empty open $U\subseteq G$, $\mu(U)>0$.
+> 3. Any $h\in C(G)$ for which: $$\int_{G}^{} h\cdot \varphi \, d\mu=0,\quad \forall\varphi\in C_{00}(G) $$it holds that $h=0$.
+
+> [!proof]+
+> We have:
+> 1. As $\Lambda$ is positive, we know that there exists $f\in C_{00}(G)$ with $f\geq 0$ and $$\Lambda (f)=\int_{G}^{} f \, d\mu >0$$Modulo rescaling, we may assume that $0\leq f\leq 1$. Then, $$\text{supp}(f)\subseteq \bigcup_{g\in G}^{}gU=G$$As the support is compact, there exists $g_{1},..,g_{n}\in G$ s.t. $\text{supp}(f)\subseteq \bigcup_{i=1}^{n}g_{i}U$ and it holds that: $$f\leq \sum_{i=1}^{n}\chi_{g_{i}U}$$Therefore, $$0<\int_{G}^{} f \, d\mu \leq \int_{G}\sum_{i=1}^{n}\chi_{g_{i}U}  \, d\mu=\sum_{i=1}^{n}\mu(g_{i}U)=n\cdot \mu(U)$$
+> 2. 
 ---
 > [!lemma] Corollary 3
 > Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff topological group]] and $\text{Aut}(G)$ the group of continuous group automorphisms of $G$. Then, 
@@ -52,6 +57,13 @@
 
 > [!proof]-
 > Verify that $f\mapsto \int_{G}^{} f(x ^{-1})d\mu(x)$ is a positive linear functional and: $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=c\int_{G}^{} f(x) \, d\mu(x)=c^{2} \int_{G}^{}  f(x ^{-1}) \, d\mu(x)   $$Therefore, $c=1$. 
+---
+##### Right Haar Functional
+> [!lemma] Lemma 5
+> For $f\in C(G)$, we define $f^\vee(x):=f(x ^{-1})$. Then, for a left Haar functional $\Lambda$, $$\Lambda'(f):=\Lambda(f^\vee)$$defines a right Haar functional.
+
+> [!proof]-
+> Let $\mu$ be the left Haar measure representing $\Lambda$. Then, for $f\in C_{00}(G)$, $g\in G$ and right regular represnetation $\rho$, $$\begin{align}\Lambda'(\rho (g)f)&=\Lambda((\rho(g)f)^{\vee})\\&=\int_{G}^{} (\rho(g)f)^{\vee}(x) \, d\mu(x)\\&= \int_{G}^{} \rho(g)f(x ^{-1}) \, d\mu(x)\\&=\int_{G}f(x ^{-1}g) \, d\mu(x)\\&=\int_{G}^{} f^\vee(g^{-1}x) \, d\mu(x)\\&=\int_{G}^{} f^\vee(x) \, d\mu(x)\\&=\Lambda(f^\vee)\\&=\Lambda'(f)    \end{align}$$where the linearly is easily seen.
 ---
 ##### Examples
 > [!h] Example 1 (Simple Haar Measures)
