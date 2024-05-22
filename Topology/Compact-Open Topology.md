@@ -49,11 +49,12 @@
 > [!lemma] Theorem 3
 > Let $X,Y,Z$ be topological spaces. Let $X$ further be locally compact.
 > 1. $\text{ev}:C(X,Y)\times X\to Y, (f,x)\mapsto f(x)$ is continuous.
+> 2. A map $f:X\times Z\to Y$ is continuous if and only if the map $$\widehat{f}:Z\to C(X,Y),z\mapsto (x\mapsto f(x,z))$$ is continuous.
 
 > [!proof]+
 > We have:
 > 1. Let $U$ be open in $Y$ and $(f,x)\in \text{ev}^{-1}(U)$. Then, as $X$ is locally compact, let $K$ be a compact neighborhood of $x$ in $f^{-1}(U)$. Then, there exists $V\subseteq K$ open and for any $g\in S(K,U)$ and $y\in V$ we have: $g(y)\in U$. Therefore, $S(K,U)\times V$ is an open neighborhood of $(f,x)$ contained in the preimage, proving that $\text{ev}$ is open.
-> 2. 
+> 2. If $f$ is continuous, for any $S(K,U)\subseteq C(X,Y)$, let $z\in \widehat{f}^{-1}(S(K,U))$. Then, let $V\times W$ be the open neighborhood of $$
 ---
 > [!lemma] Lemma 2
 > Let $X,Y,Z$ be Hausdorff spaces and $h:Z \to X$ continuous. Then, $$h^{*}:C(X,Y)\to C(Z,Y)$$is continuous w.r.t compact-open topologies.
