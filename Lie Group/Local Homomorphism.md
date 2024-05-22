@@ -24,3 +24,4 @@
 ##### Examples
 > [!h] Example 1
 > $\mathbb{R}$ and $\mathbb{T}$ are locally isomorphic.
+---

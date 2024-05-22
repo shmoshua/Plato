@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Lie Group/Indefinite Orthogonal Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,18 +80,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b15472bd74ff1b6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
@@ -104,7 +92,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Lie Group/Indefinite Orthogonal Group.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b15472bd74ff1b6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Lie Groups/Exercise Sheet 1.md",
                 "mode": "preview",
                 "source": false
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Lie Group/Indefinite Orthogonal Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Lie Group/Indefinite Orthogonal Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Topological Group.md"
+                "file": "Lie Group/Indefinite Orthogonal Group.md"
               }
             }
           }
@@ -239,18 +239,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b15472bd74ff1b6b",
+  "active": "9cda27ff69b7fad5",
   "lastOpenFiles": [
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Lie Group/Topological Group.md",
+    "Lie Group/Indefinite Orthogonal Group.md",
+    "Lie Group/Local Homomorphism.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Compact-Open Topology.md",
+    "Lie Group/Locally Compact Topological Group.md",
+    "Courses/Lie Groups/Exercise Sheet 1.md",
+    "Topology/Fundamental Group.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Topology/Homeomorphism.md",
     "Topology/Connected Space.md",
     "Topology/Semi-Locally Simply Connected Space.md",
-    "Lie Group/Local Homomorphism.md",
-    "Topology/Fundamental Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Radical Extension.md",
-    "Lie Group/Topological Group.md",
     "Algebra/Special Linear Groups.md",
     "Topology/Topological Space.md",
     "Courses/Analysis IV/Exercise Sheet 10.md",
@@ -259,14 +263,10 @@
     "Functional Analysis/Radical.md",
     "Analysis/Untitled.md",
     "Algebra/Roots of Unity.md",
-    "Lie Group/Locally Compact Topological Group.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Locally Compact Space.md",
     "Algebra/Cyclotomic Extension.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Abelian Extension.md",
-    "Algebra/Cyclotomic Polynomial.md",
-    "Algebra/Normal Extension.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
