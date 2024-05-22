@@ -37,13 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Semi-Locally Simply Connected Space.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -79,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Semi-Locally Simply Connected Space.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -91,7 +92,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Lie Group/Topological Group.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9cda27ff69b7fad5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -164,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Lie Group/Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Lie Group/Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Connected Space.md"
+                "file": "Lie Group/Topological Group.md"
               }
             }
           }
@@ -226,15 +239,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5b36e07360a2f685",
+  "active": "b15472bd74ff1b6b",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Algebra/Radical Extension.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Topology/Compact-Open Topology.md",
+    "Topology/Homeomorphism.md",
     "Topology/Connected Space.md",
-    "Lie Group/Topological Group.md",
-    "Algebra/Special Linear Groups.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Lie Group/Local Homomorphism.md",
+    "Topology/Fundamental Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Algebra/Radical Extension.md",
+    "Lie Group/Topological Group.md",
+    "Algebra/Special Linear Groups.md",
     "Topology/Topological Space.md",
     "Courses/Analysis IV/Exercise Sheet 10.md",
     "Topology/Path.md",
@@ -250,10 +267,6 @@
     "Algebra/Abelian Extension.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Normal Extension.md",
-    "Algebra/Normal Closure.md",
-    "Algebra/Galois Correspondence.md",
-    "Algebra/Solvable Group.md",
-    "Algebra/Field Extension.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
