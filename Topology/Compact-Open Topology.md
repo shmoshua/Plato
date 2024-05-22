@@ -51,10 +51,12 @@
 > 1. $\text{ev}:C(X,Y)\times X\to Y, (f,x)\mapsto f(x)$ is continuous.
 > 2. A map $f:X\times Z\to Y$ is continuous if and only if the map $$\widehat{f}:Z\to C(X,Y),z\mapsto (x\mapsto f(x,z))$$ is continuous.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $U$ be open in $Y$ and $(f,x)\in \text{ev}^{-1}(U)$. Then, as $X$ is locally compact, let $K$ be a compact neighborhood of $x$ in $f^{-1}(U)$. Then, there exists $V\subseteq K$ open and for any $g\in S(K,U)$ and $y\in V$ we have: $g(y)\in U$. Therefore, $S(K,U)\times V$ is an open neighborhood of $(f,x)$ contained in the preimage, proving that $\text{ev}$ is open.
-> 2. If $f$ is continuous, for any $S(K,U)\subseteq C(X,Y)$, let $z\in \widehat{f}^{-1}(S(K,U))$. Then, let $V\times W$ be the open neighborhood of $$
+> 2. If $f$ is continuous, for any $S(K,U)\subseteq C(X,Y)$, let $z\in \widehat{f}^{-1}(S(K,U))$. Then, $f(K,z)\subseteq U$ and $K\times \{ z \}\subseteq f^{-1}(U)$. Therefore, there exists $V, W$ open s.t. $K\times \{ z \}\subseteq V\times W\subseteq f^{-1}(U)$. Indeed, we have that $f^{-1}(U)=\bigcup_{\alpha}^{}V_{\alpha }\times W_{\alpha}$. As $K$ is compact, there exists finite $A$ s.t. $K\times \{ z \}\subseteq \bigcup_{\alpha\in A}^{}V_{\alpha}\times W_{\alpha}$ and we can take $V:=\bigcup_{\alpha\in A}^{}V_{\alpha}$ and $W:=\bigcap_{\alpha\in A}^{}W_{\alpha}$. Therefore, $W$ is a neighborhood of $z$ and for any $w\in W$ and $x\in K$: $f(x,w)\in U$.
+>    
+>    Conversely, $f=\text{ev}\circ(\text{id}\times \widehat{f})$, which proves the statement.
 ---
 > [!lemma] Lemma 2
 > Let $X,Y,Z$ be Hausdorff spaces and $h:Z \to X$ continuous. Then, $$h^{*}:C(X,Y)\to C(Z,Y)$$is continuous w.r.t compact-open topologies.

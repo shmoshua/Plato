@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Space.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Algebra/General Linear Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Algebra/General Linear Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact-Open Topology.md"
+                "file": "Algebra/General Linear Group.md"
               }
             }
           }
@@ -253,11 +253,12 @@
   },
   "active": "9cda27ff69b7fad5",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Compact-Open Topology.md",
-    "Lie Group/Topological Group.md",
     "Lie Group/Local Homomorphism.md",
+    "Lie Group/Topological Group.md",
+    "Algebra/General Linear Group.md",
     "Topology/Locally Compact Space.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Product Topology.md",
     "Courses/Lie Groups/Exercise Sheet 1.md",
     "Lie Group/Indefinite Orthogonal Group.md",
@@ -278,7 +279,6 @@
     "Analysis/Untitled.md",
     "Algebra/Roots of Unity.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Algebra/Cyclotomic Extension.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
