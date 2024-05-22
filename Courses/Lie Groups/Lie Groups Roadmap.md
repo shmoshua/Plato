@@ -23,6 +23,9 @@
 1. [[Local Homomorphism]]
 2. [[Semi-Locally Simply Connected Space]]
 3. [[Connected Space]]
+
+**1.5 Haar Measures and Homogeneous Spaces**
+1. [[Haar Measure]]
 ---
 
 ##### 2. Lie Groups

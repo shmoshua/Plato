@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,14 +49,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -68,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Measure Theory/Complex Measure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Lie Group/Locally Compact Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -116,14 +115,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -152,7 +151,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kronecker",
+                "query": "re",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,7 +168,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/General Linear Group.md"
+                "file": "Functional Analysis/Haar Measure.md"
               }
             }
           }
@@ -251,23 +251,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9cda27ff69b7fad5",
+  "active": "b15472bd74ff1b6b",
   "lastOpenFiles": [
     "Topology/Compact-Open Topology.md",
+    "Measure Theory/Complex Measure.md",
+    "Functional Analysis/Haar Measure.md",
     "Lie Group/Local Homomorphism.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Topology/Connected Space.md",
+    "Lie Group/Indefinite Orthogonal Group.md",
     "Lie Group/Topological Group.md",
     "Algebra/General Linear Group.md",
+    "Lie Group/Locally Compact Topological Group.md",
     "Topology/Locally Compact Space.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Product Topology.md",
     "Courses/Lie Groups/Exercise Sheet 1.md",
-    "Lie Group/Indefinite Orthogonal Group.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Lie Group/Locally Compact Topological Group.md",
     "Topology/Fundamental Group.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Topology/Homeomorphism.md",
-    "Topology/Connected Space.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Algebra/Radical Extension.md",
     "Algebra/Special Linear Groups.md",
@@ -277,8 +279,6 @@
     "Topology/Homotopy.md",
     "Functional Analysis/Radical.md",
     "Analysis/Untitled.md",
-    "Algebra/Roots of Unity.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
