@@ -121,6 +121,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "298b1f216b37371e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 4
@@ -252,10 +264,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "cd96f963b7fd8fe8",
+  "active": "b15472bd74ff1b6b",
   "lastOpenFiles": [
-    "Lie Group/Local Homomorphism.md",
+    "Topology/Normal Space.md",
+    "Topology/Locally Compact Hausdorff Space.md",
     "Functional Analysis/Haar Measure.md",
+    "Lie Group/Local Homomorphism.md",
     "Topology/Compact-Open Topology.md",
     "Measure Theory/Complex Measure.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
@@ -278,8 +292,6 @@
     "Courses/Analysis IV/Exercise Sheet 10.md",
     "Topology/Path.md",
     "Topology/Homotopy.md",
-    "Functional Analysis/Radical.md",
-    "Analysis/Untitled.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
