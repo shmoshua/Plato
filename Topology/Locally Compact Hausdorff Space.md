@@ -20,12 +20,18 @@
 > 2. $f(x)=1$ for all $x\in K$.
 > 3. $\text{supp }f\subseteq U$
 
-> [!proof]+
+> [!proof]-
 > By lemma 1, we first choose an open set $G$ with compact closure s.t. $K\subseteq G\subseteq \overline{G}\subseteq U$. We will construct a sequence of open sets $\{ V_{s} \}$ indexed by the dyadic rational numbers s in $(0,1)$ such that for each $t>s$,  $K\subseteq V_{t}\subseteq \overline{V}_{t}\subseteq V_{s}\subseteq G$. This is consequence to Lemma 1, i.e. $$K\subseteq V_{1/2}\subseteq \overline{V_{1/2}}\subseteq G$$Now, we define $f$ as: $$f(x):=\sup\{ s: x\in V_{s} \}$$Then, 
 > 1. **Showing that $f(x)=1$ for all $x\in K$**:
 >    for $x\in K$, $x\in V_{s}$ for all $s$ and hence $f(x)=1$.
 > 1. **Showing that $\text{supp }f\subseteq U$:**
->    If $x\notin G$, then $f(x)=0$. Therefore, $\text{supp }f$ x ∈ Gc , then f(x) = 0. Hence the support of f is contained in G, which is compact. Finally, we claim that f is continuous. It suffices to show that for all λ, f −1 ((λ, ∞)) is open and that and f −1 ([λ, ∞)) is closed.
+>    If $x\notin G$, then $f(x)=0$. Therefore, $\text{supp }f\subseteq \overline{G}\subseteq U$. 
+> 2. **Showing that $f$ is continuous**:
+>    It suffices to show that for all $\lambda$, $f^{-1}((\lambda,\infty))$ is open and that $f^{-1}([\lambda,\infty))$ is closed.
+>    
+>    First, we claim that $$f^{-1}((\lambda,\infty))=\bigcup_{s>\lambda}^{}V_{s}$$ which is open. To see this, note that if $f(x)>\lambda$ then for some $s>\lambda$, $x\in V_{s}$, and so $x$ belongs to the union on the right. On the other hand, if $x$ belongs to the union on the right, then $x\in V_{s}$ for some $s>\lambda$, and then $f(x)>\lambda$. 
+>    
+>    Second, we claim that $$f^{-1}([\lambda,\infty))=\bigcap_{s<\lambda}^{}\overline{V_{s}}$$To see this, note that if $f(x)\geq\lambda$, then for all $s<\lambda$, $x\in V_{s}$ and hence $s\in \overline{V_{s}}$  so $x$ belongs to the intersection on the right. On the other hand, if $x$ belongs to the intersection on the right, then for all $r<\lambda$, there is an $s>r$ so that $x\in V_{s}$. Since $\overline{V_{s}}\subseteq V_{r}$, $x\in V_{r}$ and $f(x)\geq r$. Since $r<\lambda$ is arbitrary, $f(x)\geq\lambda$.
 ---
 > [!lemma] Lemma 4
 > Let $X$ be locally compact Hausdorff. Then, $Y\subseteq X$ is locally compact if and only if $Y$ is open in $\overline{Y}$.

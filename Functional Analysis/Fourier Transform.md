@@ -61,4 +61,7 @@
 >
 > Therefore, $T$ is a Haar functional and there exists a Haar measure $\omega$ corresponding to $T$. Let $\psi\in C_{00}(\widehat{G})$ and $f\in L^1(G)\cap B(G)$. Pick $g\in C_{00}(G)\cap P(G)$ s.t. $\widehat{g}>0$ on $K=\text{supp }\psi$. Then, $$\int_{K}^{} \psi \, d\mu_{f}=\int_{K} \frac{\psi(\chi)}{\widehat{g}(\chi)}\widehat{g}(\chi)  \, d\mu_{f}(\chi)=\int_K \frac{\psi(\chi)}{\widehat{g}(\chi)}\widehat{f}(\chi) \, d\mu_{g}(\chi)=T(\psi \widehat{f})=\int_{\widehat{G}}\psi \widehat{f} \, d\omega    $$It follows that $\widehat{f}d\omega=\mu_{f}$.
 ---
+> [!lemma] Corollary 4
+> The sets: $$$$
+---
 ##### Examples

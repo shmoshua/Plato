@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Indefinite Orthogonal Group.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Convolution.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,19 +104,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "97321d3bfc389df0",
+            "id": "f5b7cd984ce8490e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Topology/Compact Metric Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "re",
+                "query": "pre-compact",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,7 +169,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -189,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Topology/Compact Metric Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Topology/Compact Metric Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md"
+                "file": "Topology/Compact Metric Space.md"
               }
             }
           }
@@ -251,23 +252,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "97321d3bfc389df0",
+  "active": "f5b7cd984ce8490e",
   "lastOpenFiles": [
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Lie Group/Indefinite Orthogonal Group.md",
+    "Functional Analysis/Convolution.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Haar Measure.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Topology/Exercise Sheet 10.md",
     "Topology/Hausdorff Space.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Measure Theory/Continuous Function with Compact Support.md",
-    "Functional Analysis/Haar Measure.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Functional Analysis/Convolution.md",
-    "Functional Analysis/LCA Group.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Measure Theory/Complex Measure.md",
     "Analysis/Smooth Function with Compact Support.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Functional Analysis/Spectrum.md",
     "Functional Analysis/Uniformly Continuous Function.md",
@@ -277,8 +280,6 @@
     "Algebra/General Linear Group.md",
     "Lie Group/Topological Group.md",
     "Topology/Normal Space.md",
-    "Topology/Compact-Open Topology.md",
-    "Topology/Connected Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

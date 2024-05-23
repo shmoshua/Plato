@@ -67,6 +67,9 @@
 > 4. For $\eta_{1},\eta_{2}\in \widehat{G}$, $$\left| \eta_{1}(x)\eta_{2}(x)-1 \right| =\left| (\eta_{1}(x)-1)\eta_{2}(x)+\eta_{2}(x)-1 \right|\leq \left| \eta_{1}(x)-1 \right| +\left| \eta_{2} (x)-1\right|  $$Therefore, for all $K\subseteq G$ compact and $\varepsilon >0$, $$N(K. \varepsilon /2)N(K, \varepsilon / 2)\subseteq N(K,\varepsilon)$$This shows the continuity of multiplication at $(\widehat{e},\widehat{e})$. Furthermore, $$\gamma_{1}N(K, \varepsilon / 2)\gamma_{2} N(K, \varepsilon / 2)\subseteq\gamma_{1}\gamma_{2}N(K, \varepsilon)$$
 - **Corollary**: on $\widehat{G}=\text{Hom}_{\text{cont}}(G, \mathbb{T})$, the [[compact-open topology]] and the Guelfand topology coincide.
 ---
+> [!lemma] Lemma 6
+> Let $X$ be an LCH space 
+---
 > [!h] Example 1
 > Let $G:=\mathbb{T}$, $f\in C(\mathbb{T})$ and $$I(f):=\int_{0}^{1} f(e^{2\pi i\theta}) \, d\mathcal{L}(\theta) $$ is a Haar functional on $C(\mathbb{T})$. Let $\mu$ be the corresponding Haar measure on $\mathbb{T}$. One shows that:
 > 1. every $\chi\in \widehat{\mathbb{T}}$ is of the form $\chi_{n}(z):=z^n$ for $n\in \mathbb{Z}$.
