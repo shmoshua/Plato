@@ -102,6 +102,8 @@
 ##### 9. Abelian Harmonic Analysis
 **9.1 Positive Definite Functions**
 1. [[Positive Definite Function on a Group]]
+2. [[LCA Group]]
+3. [[LCA Group|Bochner Theorem]]
 
 **9.2 The Inversion Theorem**
 
