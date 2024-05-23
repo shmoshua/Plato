@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Space.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -229,12 +229,14 @@
   },
   "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
-    "Algebra/Group Action.md",
-    "Topology/Compact Space.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
+    "Topology/Connected Space.md",
+    "Algebra/Group Action.md",
+    "Algebra/Orbit and Stablizer.md",
     "Topology/Locally Compact Space.md",
+    "Topology/Quotient Topology.md",
+    "Topology/Compact Space.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Hausdorff Space.md",
     "Courses/Topology/Exercise Sheet 2.md",
@@ -253,8 +255,6 @@
     "Courses/Topology/Exercise Sheet 10.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Measure Theory/Continuous Function with Compact Support.md",
-    "Measure Theory/Complex Measure.md",
-    "Analysis/Smooth Function with Compact Support.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

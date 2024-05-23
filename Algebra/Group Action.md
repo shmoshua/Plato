@@ -24,8 +24,19 @@
 ---
 > [!lemma] Proposition 2
 > For a transitive group action $G \curvearrowright X$, 
+> 1. for $x\in X$, the $G$-map: $$G/\text{Stab}_{G}(x)\to X,\quad g\text{Stab}_{G}(x)\mapsto gx$$is an isomorphism of $G$-spaces, i.e. it is a bijection that commutes with the action. 
+> 2. If $X$ is a [[topological space]] and the $G$-action is continuous, then the $G$-map is also continuous.
+> 3. If $G$ is LCH and second countable and $X$ is LCH, then the bijection is a homeomorphism.
 ---
+> [!lemma] Proposition 3
+> Let $G$ be a topological group, $X$ a topological space and $\mu:G\times X\to X$ a continuous transitive group action. Then,
+> 1. if $G$ is compact, then $X$ is compact.
+> 2. if $G$ is connected, then $X$ is connected.
 
+> [!proof]-
+> Let $x\in X$. Then, from the transitivity, $\mu(G\times \{ x \})=X$. As $G\times \{ x \}$ is compact and connected if $G$ is compact and connected, $X$ is compact and connected.
+> 
+---
 ##### Examples
 - $G \curvearrowright G$: Following are possible group action:
 	1. left-transformation $(a,x)\mapsto ax$ 
