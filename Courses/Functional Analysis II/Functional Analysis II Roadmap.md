@@ -106,7 +106,7 @@
 3. [[LCA Group|Bochner Theorem]]
 
 **9.2 The Inversion Theorem**
-
+1. [[Fourier Transform|Inversion Theorem]]
 ---
 
 ### Exercises

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "mode": "source",
                 "source": true
               }
@@ -67,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -79,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "mode": "preview",
                 "source": false
               }
@@ -91,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "preview",
                 "source": false
               }
@@ -157,8 +158,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,8 +204,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -225,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +264,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -287,19 +286,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6ab4924938ba8dc9",
+  "active": "6343fc6755c861ea",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
+    "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Haar Measure.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Measure Theory/Complex Measure.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Spectrum.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Analysis/Lp Space.md",
-    "Functional Analysis/Haar Measure.md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Algebra/General Linear Group.md",
@@ -314,7 +314,6 @@
     "Courses/Lie Groups/Exercise Sheet 1.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Fundamental Group.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
