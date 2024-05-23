@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "mode": "preview",
                 "source": false
               }
@@ -230,8 +230,9 @@
   },
   "active": "f3fc913ea6a02b45",
   "lastOpenFiles": [
-    "Functional Analysis/Uniformly Continuous Function.md",
+    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Haar Measure.md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Locally Compact Topological Group.md",
@@ -255,7 +256,6 @@
     "Topology/Semi-Locally Simply Connected Space.md",
     "Algebra/Radical Extension.md",
     "Algebra/Special Linear Groups.md",
-    "Topology/Topological Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
