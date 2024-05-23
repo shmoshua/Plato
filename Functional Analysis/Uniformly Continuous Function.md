@@ -8,7 +8,7 @@
 ##### Properties
 > [!lemma] Lemma 1
 > We have:
-> 1. For all $f\in C_{00}(G)$, $$\begin{array}{cccc} {}&{G}&\to&{C_{00}(G)}\\&{x} &\mapsto & {\lambda(x)f} \end{array}{}$$is left uniformly continuous w.r.t. $\|\cdot\|_{\infty}$.
+> 1. For all $f\in C_{00}(G)$, $$\begin{array}{cccc} {}&{G}&\to&{C_{00}(G)}\\&{x} &\mapsto & {\lambda(x)f} \end{array}{}$$is left uniformly continuous w.r.t. $\|\cdot\|_{b}$.
 > 2. For $1\leq p<+\infty$ and $f\in L^p(G)$, $\|\lambda(x)f\|_{p}=\|f\|_{p}$ and: $$\begin{array}{cccc} {}&{G}&\to&{L^p(G)}\\&{x} &\mapsto & {\lambda(x)f} \end{array}{}$$is left uniformly continuous w.r.t. $\|\cdot\|_{p}$.
 
 ^9177e0
@@ -22,3 +22,4 @@
 > 		1. if $t\notin C$, then $g(x ^{-1}yt)=0$ and $g(t)=0$. 
 > 		   
 > 		Therefore, $$\|\lambda(x)g-\lambda(y)g\|_{p}^p=\int_{C}\left| \lambda(y^{-1}x)g(t)-g(t) \right| ^p  \, d\mu(t)\leq \|\lambda(y^{-1}x)g-g\|_{\infty}\cdot \mu(C) $$Now we are done because there exists $W\ni e$ open s.t.  $$\|\lambda(y^{-1}x)g-g\|_{\infty}< \varepsilon /\mu(C),\quad \forall y^{-1}x\in W$$
+---
