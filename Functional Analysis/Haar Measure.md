@@ -44,7 +44,7 @@
 > 4. for any $f\in C_{00}(G)$, $$\int_{G}^{} f(x ^{-1} )\Delta_{G}(x ^{-1}) \, d\mu(x)=\int_{G}^{} f(x ) \, d\mu(x)  $$
 > 5. $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$, if $G$ is abelian (or compact).
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. For any $\alpha\in \text{Aut}(G)$,  $$\begin{array}{cccc} {}&{C_{00}(G)}&\to&{C_{00}(G)},&{f} &\mapsto & {f\circ \alpha ^{-1}} \end{array}{}$$is linear and preserves positivity. If $\Lambda$ is a left Haar functional, define: $\Lambda_{\alpha}(f):=\Lambda(f\circ \alpha ^{-1})$. Then, $\Lambda_{\alpha}$ is a positive functional on $C_{00}(G)$ and as:$$(\lambda(g)f)(\alpha(x))=f(g^{-1}\cdot \alpha ^{-1}(x))=f(\alpha ^{-1}(\alpha(g^{-1})\cdot x))=\lambda(\alpha(g))(f\circ \alpha ^{-1})(x)$$
 >    we have:  $$\Lambda_{\alpha}(\lambda(g)f)=\Lambda(\lambda(\alpha(g))(f\circ \alpha ^{-1}))=\Lambda(f\circ \alpha ^{-1})=\Lambda_{\alpha}(f)$$By uniqueness in Theorem 1, there exists $c_{\Lambda}(\alpha)>0$ s.t. $\Lambda_{\alpha}=c_{\Lambda}(\alpha)\Lambda$.
@@ -63,14 +63,19 @@
 >    Then, $$\left| \Delta_{G}(g)-1 \right| =\left|\text{mod}_{G}(\alpha_{g^{-1}}) \int_{G}^{} f \, d\mu-\int_{G}^{} f \, d\mu \right|=\left| \int_{G}^{} f(xg^{-1})-f(x) \, d\mu(x)  \right|  $$Assume $g\in U=U^{-1}$ open neighborhood of $e$ s.t. $\overline{U}$ is compact. Let $K:=\text{supp }f\cdot \overline{U}$.  Then, if $x\notin K$, $f(x)=f(xg^{-1})=0$. Therefore, $$\left| \Delta_{G}(g)-1 \right| =\left| \int_{K}^{}f(xg^{-1})-f(x)  \, d\mu(x)  \right| =\|\rho(g)f-f\|_{\infty}\mu(K)$$However, as $g\mapsto \rho(g)f$ is continuous by [[Uniformly Continuous Function|Lemma 1]], $\Delta_{G}$ is continuous at $1$.
 > 4. We have that $f\cdot\Delta_{G}\in C_{00}(G)$. We define: $$I(f):=\int_{G}^{} f(x ^{-1} )\Delta_{G}(x ^{-1}) \, d\mu(x) $$Then, 
 > 	- **Claim: $I$ is a left Haar functional**:
-> 	  We have: $$\begin{align}I(\lambda(g)f)&=\int_{G}^{} f(g^{-1}x ^{-1})\Delta_{G}(x ^{-1}) \, d\mu(x)\\&=\int_{G}^{} f((xg)^{-1})\Delta_{G}((xg)^{-1}) \, d\mu(x)\Delta_{G}(g)\\&= \int_{G}^{} f(x^{-1} )\Delta_{G}(x ^{-1}) \, d\mu(x)\Delta_{G}(g)\Delta_{G}(g^{-1})\\&= \int_{G}^{} f(x^{-1} )\Delta_{G}(x ^{-1}) \, d\mu(x)\\&=I(f)\end{align} $$Therefore, there exists $c\in \mathbb{R}_{>0}$ s.t. $\int_{G}^{} f(x ^{-1})\Delta_{G}(x ^{-1}) \, d\mu(x)=c\int_{G}^{} f(y) \, d\mu(y)$. 
-> 5. If $G$ is abelian, $$\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\int_{G}^{} f(g^{-1}x) \, d\mu(x)=\int_{G}^{} f \, d\mu   $$and $\Delta_{G}(g)=1$ for all $g\in G$. 
+> 	  We have: $$\begin{align}I(\lambda(g)f)&=\int_{G}^{} f(g^{-1}x ^{-1})\Delta_{G}(x ^{-1}) \, d\mu(x)\\&=\int_{G}^{} f((xg)^{-1})\Delta_{G}((xg)^{-1}) \, d\mu(x)\Delta_{G}(g)\\&= \int_{G}^{} f(x^{-1} )\Delta_{G}(x ^{-1}) \, d\mu(x)\Delta_{G}(g)\Delta_{G}(g^{-1})\\&= \int_{G}^{} f(x^{-1} )\Delta_{G}(x ^{-1}) \, d\mu(x)\\&=I(f)\end{align} $$
+> 	  
+> 	 Therefore, there exists $c\in \mathbb{R}_{>0}$ s.t. $\int_{G}^{} f(x ^{-1})\Delta_{G}(x ^{-1}) \, d\mu(x)=c\int_{G}^{} f(y) \, d\mu(y)$. We claim that $c=1$. Consider $g(x):=f(x ^{-1})\Delta_{G}(x ^{-1} )$. Then, $$\begin{align}\int_{G}^{} f(x) \, d\mu(x)&=\int_{G}^{} f(x)\Delta_{G}(x)\Delta_{G}(x ^{-1})\, d\mu(x)\\&=\int_{G}^{} g(x ^{-1})\Delta_{G}(x ^{-1})\, d\mu(x)\\&=c\int_{G}^{} f(x ^{-1})\Delta_{G}(x ^{-1}) \, dx\\&=c^{2}\int_{G}^{} f(x) \, d\mu(x)  \end{align} $$Therefore, $c^{2}=1$ and $c=1$.
 ---
 > [!lemma] Proposition 4
-> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]] and $\mu$ a left Haar measure. If $G$ is abelian, $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=\int_{G}^{} f(x) \, d\mu(x)  $$
+> For an LCH group $G$, the following are equivalent:
+> 1. $G$ is compact.
+> 2. $G$ has a finite left/right Haar measure.
 
-> [!proof]-
-> Verify that $f\mapsto \int_{G}^{} f(x ^{-1})d\mu(x)$ is a positive linear functional and: $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=c\int_{G}^{} f(x) \, d\mu(x)=c^{2} \int_{G}^{}  f(x ^{-1}) \, d\mu(x)   $$Therefore, $c=1$. 
+> [!proof]+
+> We have: 
+> 1. If $G$ is compact, then for any left Haar measure $\mu$, due to the inner regularity of $\mu$, we have: $$\mu(G)<+\infty$$
+> 2. Conversely, if $\mu(G)<+\infty$, by inner regularity, there exists $K$ compact s.t. $$\mu(K)> \frac{1}{2}\mu(G)$$
 ---
 ##### Right Haar Functional
 > [!lemma] Lemma 5

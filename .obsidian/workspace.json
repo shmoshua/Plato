@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Functional Analysis/Unimodular Group.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "54c8f18dfcc9b2a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Functional Analysis/Haar Measure.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -43,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Unimodular Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -55,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -74,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,8 +133,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,14 +215,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "282d6b7b77d25cc4",
+  "active": "54c8f18dfcc9b2a2",
   "lastOpenFiles": [
-    "Functional Analysis/Uniformly Continuous Function.md",
-    "Functional Analysis/Haar Measure.md",
-    "Topology/Locally Compact Hausdorff Space.md",
+    "Functional Analysis/Unimodular Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Haar Measure.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Fourier Transform.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Topology/Compact Metric Space.md",
     "Functional Analysis/LCA Group.md",
@@ -230,7 +243,6 @@
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Algebra/General Linear Group.md",
-    "Lie Group/Topological Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
