@@ -87,24 +87,12 @@
             }
           },
           {
-            "id": "6ab4924938ba8dc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f3fc913ea6a02b45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Convolution.md",
                 "mode": "preview",
                 "source": false
               }
@@ -288,10 +276,11 @@
   },
   "active": "6343fc6755c861ea",
   "lastOpenFiles": [
-    "Functional Analysis/Pontryagin Dual.md",
+    "Functional Analysis/Convolution.md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Haar Measure.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
@@ -313,7 +302,6 @@
     "Topology/Product Topology.md",
     "Courses/Lie Groups/Exercise Sheet 1.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/Fundamental Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
