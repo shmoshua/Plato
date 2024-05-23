@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -205,9 +205,10 @@
   },
   "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Haar Measure.md",
     "Topology/Locally Compact Hausdorff Space.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Pontryagin Dual.md",
@@ -225,7 +226,6 @@
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Spectrum.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
     "Analysis/Lp Space.md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Locally Compact Topological Group.md",

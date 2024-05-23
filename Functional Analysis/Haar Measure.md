@@ -40,24 +40,28 @@
 > Let $G$ be a [[Locally Compact Topological Group|LCH group]] and $\text{Aut}(G)$ the group of topological group automorphisms of $G$. Then, 
 > 1. there exists a group homomorphism $\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}^\times_{>0}$ s.t. $$\Lambda(f\circ \alpha ^{-1})=\text{mod}_{G}(\alpha)\Lambda(f),\quad \forall f\in C_{00}(G), \alpha\in \text{Aut}(G)$$
 > 2. it holds that the modular function $\Delta_{G}:G\to \mathbb{R}^\times_{>0}, g\mapsto \text{mod}_{G}(\alpha_{g^{-1}})$,  where $\alpha_{g^{-1}}\in \text{Inn}(G)\subseteq \text{Aut}(G)$ is the [[inner automorphism]] $x\mapsto g^{-1}xg$.
-> 3. $\Delta$
-> 4. $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$, if $G$ is abelian (or compact).
+> 3. $\Delta_{G}$ is continuous.
+> 4. for any $f\in C_{00}(G)$, $$\int_{G}^{} f(x ^{-1})\Delta_{G}(x) \, d\mu(x)=\int_{G}^{} f(x) \, d\mu(x)  $$
+> 5. $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$, if $G$ is abelian (or compact).
 
 > [!proof]+
 > We have:
-> 1. For any $\alpha\in \text{Aut}(G)$,  $$\begin{array}{cccc} {}&{C_{00}(G)}&\to&{C_{00}(G)}\\&{f} &\mapsto & {f\circ \alpha ^{-1}} \end{array}{}$$is linear and preserves positivity. If $\Lambda$ is a left Haar functional, define: $$\Lambda_{\alpha}(f):=\Lambda(f\circ \alpha ^{-1})$$Then, $\Lambda_{\alpha}$ is a positive functional on $C_{00}(G)$ and as:$$(\lambda(g)f)(\alpha(x))=f(g^{-1}\cdot \alpha ^{-1}(x))=f(\alpha ^{-1}(\alpha(g^{-1})\cdot x))=\lambda(\alpha(g))(f\circ \alpha ^{-1})(x)$$
+> 1. For any $\alpha\in \text{Aut}(G)$,  $$\begin{array}{cccc} {}&{C_{00}(G)}&\to&{C_{00}(G)},&{f} &\mapsto & {f\circ \alpha ^{-1}} \end{array}{}$$is linear and preserves positivity. If $\Lambda$ is a left Haar functional, define: $\Lambda_{\alpha}(f):=\Lambda(f\circ \alpha ^{-1})$. Then, $\Lambda_{\alpha}$ is a positive functional on $C_{00}(G)$ and as:$$(\lambda(g)f)(\alpha(x))=f(g^{-1}\cdot \alpha ^{-1}(x))=f(\alpha ^{-1}(\alpha(g^{-1})\cdot x))=\lambda(\alpha(g))(f\circ \alpha ^{-1})(x)$$
 >    we have:  $$\Lambda_{\alpha}(\lambda(g)f)=\Lambda(\lambda(\alpha(g))(f\circ \alpha ^{-1}))=\Lambda(f\circ \alpha ^{-1})=\Lambda_{\alpha}(f)$$By uniqueness in Theorem 1, there exists $c_{\Lambda}(\alpha)>0$ s.t. $\Lambda_{\alpha}=c_{\Lambda}(\alpha)\Lambda$.
 >    
 >    
 >    We now show that $c_{\Lambda}(\alpha)$ is independent of the choice of the left Haar functional. Let $\Lambda_{1},\Lambda_{2}$ be two left Haar functionals. Then, by the uniqueness $\Lambda_{2}=k\Lambda_{1}$ for some $k>0$. Then, $$c_{\Lambda_{2}}(\alpha)\Lambda_{2}(f)=\Lambda_{2,\alpha}(f)=\Lambda_{2}(f\circ \alpha ^{-1})=k\Lambda_{1}(f\circ \alpha ^{-1})=k\Lambda_{1,\alpha}(f)=kc_{\Lambda_{1}}(\alpha)\Lambda_{1}(f)=c_{\Lambda_{1}}(\alpha)\Lambda_{2}(f)$$
 >    
 >    So $c_{\Lambda_{2}}(\alpha)=c_{\Lambda_{1}}(\alpha)=:c(\alpha)$. Further,
-> 	- $\Lambda(f\circ(\alpha\beta))=c(\alpha\beta)\Lambda(f)$
-> 	- $\Lambda((f\circ\alpha)\circ\beta)=c(\beta)\Lambda(f\circ\alpha)=c(\beta)c(\alpha)\Lambda(f)$
+> 	- $\Lambda(f\circ(\beta ^{-1}\alpha ^{-1}))=c(\alpha\beta)\Lambda(f)$
+> 	- $\Lambda((f\circ\beta ^{-1})\circ\alpha ^{-1})=c(\alpha)\Lambda(f\circ\beta ^{-1})=c(\alpha)c(\beta)\Lambda(f)$
 > 
-> 	Hence, if $\mu$ is a left Haar measure, then: $$\mu(\alpha(E))=\int_{G}^{} \chi_{\alpha(E)} \, d\mu=\Lambda(\chi_{\alpha(E)})=\Lambda(\chi_{E}\circ \alpha ^{-1})=c(\alpha)\Lambda(\chi_{E})=c(\alpha)\mu(E)$$So define $\text{mod}_{G}(\alpha):=c(\alpha)$.
-> 2. Let $\alpha_{g}\in \text{Inn}(G)$. Then, $$\int_{G}^{} f(xg) \, d\mu(x)=\int_{G}^{} f(g^{-1}xg) \, d\mu(x)=\text{mod}_{G}(\alpha_{g})\int_{G}f  \, d\mu  $$Therefore, $\Delta_{G}(g):=\text{mod}_{G}(\alpha_{g^{-1}})$ is the modular function of $G$.
-> 3. If $G$ is abelian, $$\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\int_{G}^{} f(g^{-1}x) \, d\mu(x)=\int_{G}^{} f \, d\mu   $$and $\Delta_{G}(g)=1$ for all $g\in G$. 
+> 	Hence, if $\mu$ is a left Haar measure, then: $$\mu(\alpha(E))=\int_{G}^{} \chi_{\alpha(E)} \, d\mu=\Lambda(\chi_{\alpha(E)})=\Lambda(\chi_{E}\circ \alpha ^{-1})=c(\alpha)\Lambda(\chi_{E})=c(\alpha)\mu(E)$$So define $\text{mod}_{G}(\alpha):=c(\alpha)$ and $\text{mod}_{G}$ is a homomorphism. 
+> 2. Let $\alpha_{g}\in \text{Inn}(G)$. Then, $$\int_{G}^{} f(xg) \, d\mu(x)=\int_{G}^{} f(g^{-1}xg) \, d\mu(x)=\text{mod}_{G}(\alpha_{g})\int_{G}f  \, d\mu  $$Therefore, $\Delta_{G}(g):=\text{mod}_{G}(\alpha_{g^{-1}})$ is the modular function of $G$. Then, $$\Delta_{G}(g_{1}g_{2})=\text{mod}_{G}(\alpha_{g_{2}^{-1}g_{1}^{-1}})=\Delta_{G}(g_{1})\Delta_{G}(g_{2})$$
+> 3. We will prove that $\Delta_{G}$ is continuous at $e$. Let $f\in C_{00}(G)$ with $f\geq 0$. Then, $\int_{G}^{} f \, d\mu>0$ from Lemma 2 and we may assume that $\int_{G}^{} f \, d\mu=1$. 
+>    
+>    Then, $$\left| \Delta_{G}(g)-1 \right| =\left|\text{mod}_{G}(\alpha_{g^{-1}}) \int_{G}^{} f \, d\mu-\int_{G}^{} f \, d\mu \right|=\left| \int_{G}^{} f(xg^{-1})-f(x) \, d\mu(x)  \right|  $$Assume $g\in U=U^{-1}$ open neighborhood of $e$ s.t. $\overline{U}$ is compact. Let $K:=\text{supp }f\cdot \overline{U}$.  Then, if $x\notin K$, $f(x)=f(xg^{-1})=0$. Therefore, $$\left| \Delta_{G}(g)-1 \right| =\left| \int_{K}^{}f(xg^{-1})-f(x)  \, d\mu(x)  \right| =\|\rho(g)f-f\|_{\infty}\mu(K)$$However, as $g\mapsto \rho(g)f$ is continuous by [[Uniformly Continuous Function|Lemma 1]], $\Delta_{G}$ is continuous at $1$.
+> 4. If $G$ is abelian, $$\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\int_{G}^{} f(g^{-1}x) \, d\mu(x)=\int_{G}^{} f \, d\mu   $$and $\Delta_{G}(g)=1$ for all $g\in G$. 
 ---
 > [!lemma] Proposition 4
 > Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]] and $\mu$ a left Haar measure. If $G$ is abelian, $$\int_{G}^{} f(x ^{-1}) \, d\mu(x)=\int_{G}^{} f(x) \, d\mu(x)  $$
