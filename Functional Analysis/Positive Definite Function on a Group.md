@@ -24,7 +24,9 @@
 > 3. For $x_{1},x_{2},x_{3}\in G$ and $c_{1},c_{2},c_{3}\in \mathbb{C}$, we get that: $$(\left| c_{1} \right|^{2}+\left| c_{2} \right|^{2}+\left| c_{3} \right| ^{2}  )\Phi(e)+2\text{Re}(\overline{c_{1}}c_{2}\Phi(x_{1}^{-1}x_{2}))+2\text{Re}(\overline{c_{2}}c_{3}\Phi(x_{2}^{-1}x_{3}))+2\text{Re}(\overline{c_{1}}c_{3}\Phi(x_{1}^{-1}x_{3}))\geq 0$$By taking $x_{1}=e,x_{2}=x,x_{3}=y,c_{1}=1,c_{3}=-c_{2}$, we get: $$(1+2\left| c_{2} \right| ^{2})\Phi(e)+2\text{Re}(c_{2}\Phi(x))-2\text{Re}(\left| c_{2} \right| ^{2}\Phi(x  ^{-1}y))-2\text{Re}(c_{2}\Phi(y))\geq 0$$Therefore, $$2\left| c_{2} \right| ^2(\Phi(e)-\text{Re}(\Phi(x  ^{-1}y)))+2\text{Re}(c_{2}\Phi(x)-c_{2}\Phi(y))+\Phi(e)\geq 0$$For $\lambda\in \mathbb{R}$, let $c_{2}\in \mathbb{C}$ s.t. $c_{2}(\Phi(x)-\Phi(y))=\lambda \left| \Phi(x)-\Phi(y) \right|$. Then, $$2\lambda^{2}(\Phi(e)-\text{Re}(\Phi(x ^{-1} y)))+2\lambda \left| \Phi(x)-\Phi(y) \right| +\Phi(e)\geq 0,\quad \forall \lambda\in \mathbb{R}$$Then, the discriminant has to be non-positive: $$4\left| \Phi(x)-\Phi(y) \right| ^{2}-8\Phi(e)(\Phi(e)-\text{Re}(\Phi(x ^{-1}y)))\leq 0$$This proves the statement.
 - **Corollary**: A continuous, positive definite function $\Phi:G\to \mathbb{C}$ on a LCH group $G$ is left and right [[Uniformly Continuous Function|uniformly continuous]].
 ---
+![[LCA Group#^074e1a]]
 
+---
 ##### Examples
 > [!h] Example 1 (Unitary Representation)
 > Let $\pi:G\to \text{U}(\mathcal{H})$ be a [[unitary representation]]. Then, 

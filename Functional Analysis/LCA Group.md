@@ -6,5 +6,14 @@
 > 2. $G$ is [[Locally Compact Hausdorff Space|locally compact Hausdorff]].
 ---
 ##### Properties
-> [!lemma] Theorem (Bochner)
+> [!lemma] Theorem 1 (Bochner)
 > Let $G$ be a LCA group and $\Phi:G\to \mathbb{C}$ continuous positive definite. Then, there exists a unique positive bounded measure $\mu$ on $\widehat{G}$ s.t. $$\Phi(x)=\int_{\widehat{G}}^{} (x,\chi) \, d\mu(\chi),\quad \forall x\in G $$
+
+^074e1a
+
+> [!proof]
+> From [[Positive Definite Function on a Group|Lemma 1]], we know that $\Phi(e)\in \mathbb{R}$. If $\Phi(e)\leq 0$, then $\Phi \equiv 0$ by the same Lemma and we may take the zero measure. Therefore, we may assume that $\Phi(e)>0$. Modulo rescaling, we may assume that $\Phi(e)=1$. 
+> 
+> Now let: $$T_{\Phi}(f):=\int_{G}^{} f(x)\Phi(x) \, d\lambda(x),\quad f\in L^1(G) $$where $\lambda$ is a fixed Haar measure on $G$. As $\Phi\in L^\infty(G)$ with $\|\Phi\|_{\infty}=\Phi(e)=1$, this is a continuous linear functional with $\|T_{\Phi}\|\leq\|\Phi\|_{\infty}=1$. Indeed,$$\left| T_{\Phi}(f) \right| \leq \int_{G}^{} \left| f(x) \right| \left| \Phi(x) \right|  \, d\lambda(x)\leq\|f\|_{1}\|\Phi\|_{\infty} $$Let us define a Hermitian form on $L^1(G)$, $[f,g]:=T_{\Phi}(f*g^{*})$. Then, 
+> 1. **Claim 1: $[f,f]\geq 0$ for all $f\in L^1(G)$**.
+>    We have: $$\begin{align}[f,f]&=T_{\Phi}(f*f^{*})=\int_{G}^{} \int_{G}^{} f(xy)\overline{f(y)} \, d\lambda(y)  \Phi(x)\, d\lambda(x)\\&=\int_{G}^{} \left( \int_{G}^{} f(xy)\Phi(x) \, d\lambda(x) \right)\overline{f(y)}  \, d\lambda(y)  =\int_{G}^{} \left( \int_{G}^{} f(x)\Phi(y^{-1}x) \, d\lambda(x) \right)\overline{f(y)}  \, d\lambda(y)  \end{align}$$If $f\in C_{00}(G)$, then from [[Uniformly Continuous Function|uniform continuity]] of $(x,y)\mapsto f(x)\overline{f(y)}\Phi(y^{-1}x)$ on $K\times K$ for $K:=\text{supp }f$, we can partition $K=\bigsqcup_{i=1}^{n}E_{i}$ where $E_{i}$ are bounded sets s.t. $$\sum_{i,j=1}^{n}f(x_{i})\overline{f(x_{j})}\Phi(x_{j}^{-1}x_{i})\lambda(E_{i})\lambda(E_{j}),\quad x_{i}\in E_{i}$$approximates the integral. From the positive definiteness, therefore, $[f,f]\geq 0$. By density of $C_{00}(G)$ in $L^!(G)$ and the con
