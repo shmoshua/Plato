@@ -26,7 +26,7 @@
 12. [[Core]]
 ---
 ##### 3. Group Actions on Sets
-1. [[Group Action on Sets]]
+1. [[Group Action]]
 2. [[Group Homomorphism]]
 3. [[Inner Automorphism]]
 4. [[Orbit and Stablizer]]

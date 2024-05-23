@@ -19,16 +19,19 @@
 > 2. the action $G \curvearrowright G /H$ given by $g\circ xH=gxH$ is continuous.
 > 3. $G / H$ is Hausdorff if and only if $H$ is closed in $G$.
 > 4. if $G$ is locally compact, then $G / H$ is locally compact.
-> 5. if $G$ is locally compact and $H\leq G$, then for any compact $C\subseteq G/H$, there exists a compact set $K\subseteq G$ s.t. $\pi(K)=C$.
+> 5. if $G$ is locally compact and $H\leq G$ closed, then for any compact $C\subseteq G/H$, there exists a compact set $K\subseteq G$ s.t. $p(K)=C$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. let $U\subseteq G$ open. Then, we have: $$\pi ^{-1}(\pi(U))=\bigcup_{g\in H}^{}Ug$$Indeed, $x\in \pi ^{-1}(\pi(U))$ is equivalent to $xH=yH$ for some $y\in U$. This happens if and only if $y^{-1}x=h$, i.e. $x=yh$ for some $h\in H$ and $y\in U$. As $\bigcup_{g\in H}^{}Ug$ is open, $\pi(U)$ is open.
 > 2. Let $U$ be open in $G / H$. Let $g\in G$ and $xH\in G / H$ s.t. $gxH\in U$. Then, as $\pi(U)$ is open in $G$ by definition and $gx\in \pi(U)$, there exists $V\ni g,W\ni x$ s.t. $VW\subseteq \pi(U)$. As $\pi$ is open, $\pi(W)$ is open and for any $g'\in V$ and $yH\in \pi(W)$, there exists $z\in W$ s.t. $\pi(z)=yH$. Therefore, $$g'yH=g'zH\subseteq U$$
 > 3. If $G / H$ is Hausdorff, then $H$ is closed as a point. Therefore, $H\subseteq G$ is closed. 
 >    
 >    Conversely, if $H$ is closed, it suffices to show that the diagonal $\Delta:G / H\to G / H\times G / H$ is closed. Then, let: $$U:=(G / H \times G / H )\backslash\text{im}(\Delta)=\{ (p(g),p(g')):g^{-1}g'\notin H \}$$As $p$ is open, $q:(x,y)\mapsto(p(x),p(y))$ is open. Therefore, $q^{-1}(U)=\{ (g,g'):g^{-1}g'\notin H \}$ is open as $(x,y)\mapsto x ^{-1}y$ is continuous and $H^c$ is open. It follows that $U=q(q^{-1}(U))$ is open as $q$ is open. 
-> 4. Let $p(x)\in G / H$. Since $G$ is locally compact, 
+> 4. Let $p(x)\in G / H$. Since $G$ is locally compact, there exists a fundamental system $\{ K_{\alpha} \}$ of compact neighborhoods of $x$. Then, $p(K_{\alpha})$ is a compact neighborhood as a continuous image and this forms a fundamental system of compact neighborhoods of $p(x)$. 
+> 5. As $G$ is locally compact there exists $e\in U\subseteq L\subseteq G$ with $U$ open and $L$ compact. Then, $$C\subseteq \bigcup_{x\in G}^{}p(xU)$$and there exists $x_{1},\dots,x_{n}$ s.t. $C\subseteq p(x_{1}U)\cup\dots \cup p(x_{n}U)$. In particular $C\subseteq \bigcup_{i=1}^{n}p(x_{i}L)$. 
+>    
+>    Since $H$ is closed, $G / H$ is Hausdorff and $C$ is closed. Then, let: $$K:= p ^{-1}\left(C\cap \bigcup_{i=1}^{n}p(x_{i}L)\right)$$which is compact as a closed subset of a compact set. 
 
 ---
 ##### Examples

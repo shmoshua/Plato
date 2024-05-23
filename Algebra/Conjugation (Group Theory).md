@@ -1,7 +1,7 @@
 #Definition #Algebra
 
 > [!definition]
-> The ***conjugation*** is defined by the [[Group Action on Sets|group action]] $G \curvearrowright G$, s.t. 
+> The ***conjugation*** is defined by the [[Group Action|group action]] $G \curvearrowright G$, s.t. 
 > $$a \circ  x=ax  a^{-1}$$
 - $[x]=\{ axa^{-1}:a\in G \}$.
 - $\text{St}_{G}(x)=\{ a\in G:ax=xa \}=$ [[Centralizer and Normalizer|$Z_{G}(x)$]].

@@ -6,6 +6,7 @@
 > 2. for all $a,b\in G$ and $x\in M$, $(ab)\circ x=a \circ(b \circ x)$
 > 
 > Then, we write $G \curvearrowright M$. $G$ is called the ***transformation group*** and $M$ is called the **$G$-set**. Further, if $M$ is a [[Topological Space|topological space]], for all $g\in G$: $x\mapsto a\circ x$ is a [[Homeomorphism]].
+- **Related definition**: A group action is ***transitive*** if for every $x,y\in M$, there exists $g\in G$ with $gx=y$.
 ---
 ##### Properties
 > [!lemma] Theorem 1
@@ -20,7 +21,9 @@
 > 1. Firstly, let's show that for all $a\in G$, $\varphi_{a}\in S(M)$, i.e. $\varphi_{a}$ is a bijection on $M$. As we know that there exists an inverse $\varphi_{a^{-1}}$ for which it holds that for all $x\in M$: $$(\varphi_{a}\circ \varphi_{a^{-1}})(x)=\varphi_{aa^{-1}}(x)=\varphi_{e}(x)=x$$ 
 >    Now, we show that $\varphi$ is a group homomorphism. For $a,b\in G$:$$\varphi(ab)(x)=\varphi_{ab}(x)=(ab)\circ x=a\circ (b\circ x)=\varphi_{a}(\varphi_{b}(x))=(\varphi_{a}\circ \varphi_{b})(x)$$ for all $x\in M$. Therefore, $\varphi(ab)=\varphi(a)\circ\varphi(b)$.
 > 2. We will show that $G \curvearrowright M$. Firstly, $e \circ x=\varphi_{e}(x)=\text{id}(x) =x$. Secondly, we have for all $a,b\in G$ and $x\in M$: $$(ab)\circ x=\varphi_{ab}(x)=\varphi_{a}(\varphi_{b}(x))=a\circ (b\circ x)$$
-
+---
+> [!lemma] Proposition 2
+> For a transitive group action $G \curvearrowright X$, 
 ---
 
 ##### Examples

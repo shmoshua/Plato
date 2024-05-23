@@ -123,7 +123,7 @@
 2. **Example of Automorphisms**: [[Pushforward Measure]]
 3. **Example of Automorphisms**: [[Mean (Group Theory)]]
 4. [[Topological Vector Space with Seminorms|Markov-Kakutani Theorem]]
-5. [[Group Action on Sets]]
+5. [[Group Action]]
 6. **Application of Markov-Kakutani**: Existence of a fixed-point [[Space of Probability Measures|probability measure]]
 7. **Application of Markov-Kakutani**: [[Amenable Group]]
 8. [[Space of Probability Measures|Unique Ergodicity]] and an example

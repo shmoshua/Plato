@@ -1,7 +1,7 @@
 #Definition #Algebra
 
 > [!definition]
-> Let $G \curvearrowright M$ be a [[Group Action on Sets|group action]] and $x\in M$. Then: 
+> Let $G \curvearrowright M$ be a [[Group Action|group action]] and $x\in M$. Then: 
 > 1. $[x]=Gx:=\{ a\circ x:a\in G \}\subseteq M$ is called the ***orbit*** of $x$.
 > 2. $\text{St}_{G}(x):=\{ a\in G:a\circ x =x \}$ is the ***stabilizer group*** of $x$ in $G$.
 > 3. $M / G:= \{  Gx : x\in M \}$ is a set of orbits in $M$.

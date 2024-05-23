@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Algebra/Group Action.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Algebra/Group Action.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,14 +92,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Locally Compact Space.md",
+                "file": "Algebra/Group Action.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Locally Compact Space.md",
+                "file": "Algebra/Group Action.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Locally Compact Space.md"
+                "file": "Algebra/Group Action.md"
               }
             }
           }
@@ -227,17 +227,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "298b1f216b37371e",
+  "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Quotient Topology.md",
+    "Algebra/Group Action.md",
+    "Topology/Compact Space.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
+    "Topology/Locally Compact Space.md",
+    "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Hausdorff Space.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Unimodular Group.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Fourier Transform.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -252,9 +255,6 @@
     "Measure Theory/Continuous Function with Compact Support.md",
     "Measure Theory/Complex Measure.md",
     "Analysis/Smooth Function with Compact Support.md",
-    "Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Functional Analysis/Bounded Linear Map.md",
-    "Functional Analysis/Spectrum.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
