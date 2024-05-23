@@ -72,17 +72,17 @@
 > 1. $G$ is compact.
 > 2. $G$ has a finite left/right Haar measure.
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. If $G$ is compact, then for any left Haar measure $\mu$, due to the inner regularity of $\mu$, we have: $$\mu(G)<+\infty$$
-> 2. Conversely, if $\mu(G)<+\infty$, by inner regularity, there exists $K$ compact s.t. $$\mu(K)> \frac{1}{2}\mu(G)$$
+> 2. Conversely, if $\mu(G)<+\infty$, by inner regularity, there exists $K$ compact s.t. $$\mu(K)> \frac{1}{2}\mu(G)$$Then, for any $g\in G$, $gK\cap K\neq \varnothing$. Indeed, otherwise, $$\mu(gK \cup K)=\mu(gK)+\mu(K)=2\mu(K)>\mu(G)$$which is a contradiction. Therefore, $g\in KK ^{-1}$ and $G=KK ^{-1}$. Therefore, $G$ is compact.
 ---
 ##### Right Haar Functional
 > [!lemma] Lemma 5
 > For $f\in C(G)$, we define $f^\vee(x):=f(x ^{-1})$. Then, for a left Haar functional $\Lambda$, $$\Lambda'(f):=\Lambda(f^\vee)$$defines a right Haar functional.
 
 > [!proof]-
-> Let $\mu$ be the left Haar measure representing $\Lambda$. Then, for $f\in C_{00}(G)$, $g\in G$ and right regular represnetation $\rho$, $$\begin{align}\Lambda'(\rho (g)f)&=\Lambda((\rho(g)f)^{\vee})\\&=\int_{G}^{} (\rho(g)f)^{\vee}(x) \, d\mu(x)\\&= \int_{G}^{} \rho(g)f(x ^{-1}) \, d\mu(x)\\&=\int_{G}f(x ^{-1}g) \, d\mu(x)\\&=\int_{G}^{} f^\vee(g^{-1}x) \, d\mu(x)\\&=\int_{G}^{} f^\vee(x) \, d\mu(x)\\&=\Lambda(f^\vee)\\&=\Lambda'(f)    \end{align}$$where the linearly is easily seen.
+> Let $\mu$ be the left Haar measure representing $\Lambda$. Then, for $f\in C_{00}(G)$, $g\in G$ and right regular represnetation $\rho$, $$\begin{align}\Lambda'(\rho (g)f)&=\Lambda((\rho(g)f)^{\vee})\\&=\int_{G}^{} (\rho(g)f)^{\vee}(x) \, d\mu(x)\\&= \int_{G}^{} \rho(g)f(x ^{-1}) \, d\mu(x)\\&=\int_{G}f(x ^{-1}g) \, d\mu(x)\\&=\int_{G}^{} f^\vee(g^{-1}x) \, d\mu(x)\\&=\int_{G}^{} f^\vee(x) \, d\mu(x)\\&=\Lambda(f^\vee)\\&=\Lambda'(f)    \end{align}$$where the linearity is easily seen.
 ---
 > [!lemma] Proposition 6
 > If there exists a left Haar measure $\mu$ that is also right Haar measure, $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$.

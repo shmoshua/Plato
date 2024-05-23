@@ -15,9 +15,19 @@
 
 ---
 ##### Examples
-> [!h] Example 1
+> [!h] Example 1 (Simple Unimodular Groups)
 > We have that:
 > 1. $(\mathbb{R}^n,+)$, $(\mathbb{R}^\times,\cdot)$.
 > 3. Discrete groups.
 > 4. $\text{GL}(n,\mathbb{R})$.
+---
+> [!h] Example 2 
+> We have that:
+> 1. Any [[LCA group]] is unimodular.
+> 2. Any compact Hausdorff group is unimodular.
+
+> [!proof]-
+> We have:
+> 1. For left Haar measure $\mu$ and $f\in C_{00}(G)$, $$\Delta_{G}(g)\int_{G}^{} f \, d\mu =\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\int_{G}^{} f(g^{-1}x) \, d\mu(x)=\int_{G}^{}f  \, d\mu   $$Therefore, $\Delta_{G}(g)=1$. 
+> 2. As $\Delta_{G}$ is a continuous homomorphism, $\Delta_{G}(G)$ is a compact subgroup of $\mathbb{R}^\times$. Therefore, $\Delta_{G}(G)=\{ 1 \}$. 
 ---

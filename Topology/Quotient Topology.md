@@ -6,12 +6,18 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1
-> A map $f:X/_{\sim}\to Y$ is continuous if and only if $f\circ\pi:X\to Y$ is continuous.
+> We have:
+> 1. $\pi:X\to X / _\sim$ is [[Open and Closed Maps|open]].
+> 2. A map $f:X/_{\sim}\to Y$ is continuous if and only if $f\circ\pi:X\to Y$ is continuous.
 
-> [!proof]-
+> [!proof]+
+> We have:
+> 1. let $U$ be open, we will show that  $\pi ^{-1}(\pi(U))$ is open.  
 > We have that $\pi$ is continuous by definition. Therefore, if $f$ is continuous, $f\circ\pi$ is continuous.
 > 
 > Conversely, assume that $f\circ\pi$ is continuous and let $U\subseteq Y$ be open. Then, $\pi ^{-1}(f^{-1}(U))$ is open and thereby $f^{-1}(U)$ is open.
+---
+> [!lemma] Lemma 2
 ---
 ##### Examples
 > [!h] Example 1
