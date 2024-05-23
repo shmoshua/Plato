@@ -36,7 +36,7 @@ Let $G$ be a [[group]].
 > 
 > Let $H\in \text{Syl}_{p}(G)$. Then, consider $C_{q}\rtimes_{\alpha}C_{p}$ where $\alpha:C_{p}\to \text{Aut}(C_{q})\cong C_{q-1}$.
 > 1. If $p\nmid q-1$, then $p$ and $q-1$ are coprime and the only homomorphism $\alpha$ is the trivial one. Therefore, $G\cong C_{p}\times C_{q}$.
-> 2. If $p\mid q-1$, then let $(q-1)=mp$. For a homomorphism $\phi:C_{p}\to C_{q-1}$, we need that: $$e=\phi(e)=\phi(a^p)=\phi(a)^p$$Therefore, the only possible homomorphisms are: $$\begin{array}{cccc} {\phi_{i}:}&{C_{p}}&\to&{C_{q-1}}\\&{a^k} &\mapsto & {b^{ikm}} \end{array}{}$$for $0\leq i<p$. Further, notice that for $1\leq i<p$, we can define $\phi_{i}(a^k)=\phi_{1}(a^{ik})$. Thus, by [[Semi-direct Products|Lemma 6]], $C_{q}\rtimes_{\phi_{i}} C_{p}$ are isomorphic for $1\leq i<p$.
+> 2. If $p\mid q-1$, then let $(q-1)=mp$. For a homomorphism $\phi:C_{p}\to C_{q-1}$, we need that: $$e=\phi(e)=\phi(a^p)=\phi(a)^p$$Therefore, the only possible homomorphisms are: $$\begin{array}{cccc} {\phi_{i}:}&{C_{p}}&\to&{C_{q-1}}\\&{a^k} &\mapsto & {b^{ikm}} \end{array}{}$$for $0\leq i<p$. Further, notice that for $1\leq i<p$, we can define $\phi_{i}(a^k)=\phi_{1}(a^{ik})$. Thus, by [[Semi-direct Product|Lemma 6]], $C_{q}\rtimes_{\phi_{i}} C_{p}$ are isomorphic for $1\leq i<p$.
 >    
 >    In conclusion, we get either $G\cong C_{p}\times C_{q}$ (when $\phi_{0}$) and $G\cong C_{q}\rtimes_{\alpha}C_{p}$ for the rest of the cases.
 ---

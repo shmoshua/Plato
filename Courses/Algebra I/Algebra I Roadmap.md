@@ -54,7 +54,7 @@
 3. [[Alternating Group]]
 ---
 ##### 8. Semi-direct Products
-1. [[Semi-direct Products]]
+1. [[Semi-direct Product]]
 ---
 ##### 9. Definitions and Examples of Rings and Fields
 1. [[Ring]]

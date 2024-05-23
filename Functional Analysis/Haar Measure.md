@@ -121,3 +121,18 @@
 > 
 > As we know that for $y\in \mathbb{Z}_{p}$: $$\mu(y\cdot \mathbb{Z}_{p})=\mu(m_{y}(\mathbb{Z}_{p}))=\text{mod}_{\mathbb{Q}_{p}}(m_{y})\mu(\mathbb{Z}_{p})=\left| y \right| \mu(\mathbb{Z}_{p})$$However, as $\text{ker }\varepsilon_{n}=p^n\mathbb{Z}_{p}=p^n\cdot u\mathbb{Z}_{p}=y\cdot \mathbb{Z}_{p}$, let $R\subseteq \mathbb{Z}_{p}$ be a complete set of representatives of $\mathbb{Z}_{p} / p^n \mathbb{Z}_{p}$. Then, $$\mathbb{Z}_{p}=\bigsqcup_{r\in R}^{}(r+p^n \mathbb{Z}_{p})$$and $$\mu(\mathbb{Z}_{p})=\sum_{r\in R}^{}\mu(r+p^n \mathbb{Z}_{p})=\left| R \right| \mu(p^n\mathbb{Z}_{p})=p^n\cdot  \mu(p^n\mathbb{Z}_{p})$$Therefore, $$p^{-n}\mu(\mathbb{Z}_{p})=\mu(p^n \mathbb{Z}_{p})=\mu(y\mathbb{Z}_{p})=\left| y \right| \cdot \mu(\mathbb{Z}_{p})$$We can conclude that $\left| y \right|=p^{-n}$.
 ---
+> [!h] Example 5 (Heisenberg Group)
+> Consider the three-dimensional ***Heisenberg group*** $H:=\mathbb{R} \rtimes_{\eta}\mathbb{R}^{2}$ where $\eta:\mathbb{R}\to \text{Aut}(\mathbb{R}^{2})$ is given as: $$\eta(x)\begin{bmatrix}y\\z\end{bmatrix}=\begin{bmatrix}y\\z+xy\end{bmatrix}$$Then, the group operation is defined as:$$(x_{1},y_{1},z_{1})*(x_{2},y_{2},z_{2})=(x_{1}+x_{2},y_{1}+y_{2},z_{1}+z_{2}+x_{1}y_{2})$$Therefore, it can be identified with: $$H\cong\left\{ \begin{bmatrix}1&x&z\\0&1&y\\0&0&1\end{bmatrix}:x,y,z\in \mathbb{R} \right\}$$Then, we have:
+> 1. Lebesgue measure is the Haar measure of $H$.
+> 2. $H$ is unimodular.
+
+> [!proof]-
+> Let $f\in C_{00}(H)$ and $h=(x_{1},y_{1},z_{1})\in H$. Then, $$\begin{align}\int_{H}^{} \lambda(h^{-1})(f) \, d\mu&= \int_{\mathbb{R}}^{} \int_{\mathbb{R}} \int_{\mathbb{R}}  f(h(x_{2},y_{2},z_{2})) \, dx_{2} dy_{2}dz_{2}\\&=\int_{\mathbb{R}}^{} \int_{\mathbb{R}}^{} \int_{\mathbb{R}}^{} f(x_{1}+x_{2},y_{1}+y_{2},z_{1}+z_{2}+x_{1}y_{2}) \, dx_{2}  \, dy_{2}  \, dz_{2}\\&=\int_{\mathbb{R}}^{} \int_{\mathbb{R}}^{} \int_{\mathbb{R}}^{} f(x_{1}+x_{2},y_{1}+y_{2},z_{2}) \, dx_{2}  \, dy_{2}  \, dz_{2}\\&=\int_{\mathbb{R}}^{} \int_{\mathbb{R}}^{} \int_{\mathbb{R}}^{} f(x_{1}+x_{2},y_{2},z_{2}) \, dx_{2}  \, dy_{2}  \, dz_{2}\\&=\int_{\mathbb{R}}^{} \int_{\mathbb{R}}^{} \int_{\mathbb{R}}^{} f(x_{2},y_{2},z_{2}) \, dx_{2}  \, dy_{2}  \, dz_{2}\\&=\int_{H}^{} f \, d\mu  \end{align} $$Similarly, one can show the right invariance and therefore it is unimodular.
+---
+> [!h] Example 6
+> Consider: $$P:=\left\{ \begin{bmatrix}a&b\\0&a^{-1}\end{bmatrix}: a,b\in \mathbb{R} , a\neq 0\right\}$$Then, 
+> 1. $\frac{da}{a^{2}}db$ is the left Haar measure.
+> 2. $dadb$ is the right Haar measure.
+
+> [!proof]+
+> Let $h=(a_{1},b_{1})$ and $f\in C_{00}(P)$. Then, $$\begin{align}\int_{P}^{} \lambda(h ^{-1})(f) \, d\mu&=\int_{\mathbb{R}}^{} \int_{\mathbb{R} \backslash \{ 0 \}}\frac{f(a_{1}a_{2},a_{1}b_{2}+b_{1}a_{2}^{-1})}{a_{2}^{2}} \, da_{2}db_{2}\\&= \int_{\mathbb{R}}^{} \int_{\mathbb{R} \backslash \{ 0 \}}\frac{f(a_{1}a_{2},a_{1}(b_{2}+b_{1}(a_{1}a_{2})^{-1}))}{a_{2}^{2}} \, da_{2}db_{2}\end{align} $$
