@@ -68,7 +68,14 @@
 - **Corollary**: on $\widehat{G}=\text{Hom}_{\text{cont}}(G, \mathbb{T})$, the [[compact-open topology]] and the Guelfand topology coincide.
 ---
 > [!lemma] Lemma 6
-> Let $X$ be an LCH space 
+> $N(C,\varepsilon)$ defined as above forms a basis of neighborhood of $e\in G$. 
+
+> [!proof]-
+> Let $e\in V \subseteq G$ be an open neighborhood of the identity. By continuity, there exists an open neighborhood $W\subseteq G$ s.t. $WW^{-1}\subseteq V$. 
+> 
+> By [[Locally Compact Hausdorff Space|Lemma 1]], wlog we may assume that $\overline{W}$ is compact. Let $\psi:=\chi_{W}*\chi_{W}^{*}$. Then, $\psi\in L^1(G)\cap P(G)$. Through Fourier inversion, we have that $\psi ^{-1}\in L^1(\widehat{G})$. Therefore, by the regularity of the Haar measure, there exists a compact $C\subseteq \widehat{G}$ s.t. $$\int_{\widehat{G} \backslash C} \left| \widehat{\psi}(\chi) \right|   \, d\omega(\chi)<\varepsilon $$Then, for all $x\in N(C,\varepsilon)$, it holds that: $$\left| \psi(x)-\psi(e) \right| \leq \int_{\widehat{G}}^{} \left| \widehat{\psi}(\chi) \right| \left| (x,\chi)-1 \right|  \, d\omega(\chi)\leq \int_{C}^{} +\int_{\widehat{G} \backslash C}\leq \varepsilon\|\widehat{\psi}\|_{1}+2\varepsilon=:\varepsilon'  $$
+> 
+> Therefore, $$\psi(e)=\int_{G}^{} \left| \chi_{W}(x) \right| ^{2}\, d\lambda(x)=\lambda(W)>0 $$Therefore, $$N(C,r)\subseteq \text{supp }\psi \subseteq WW^{-1}\subseteq V$$
 ---
 > [!h] Example 1
 > Let $G:=\mathbb{T}$, $f\in C(\mathbb{T})$ and $$I(f):=\int_{0}^{1} f(e^{2\pi i\theta}) \, d\mathcal{L}(\theta) $$ is a Haar functional on $C(\mathbb{T})$. Let $\mu$ be the corresponding Haar measure on $\mathbb{T}$. One shows that:
