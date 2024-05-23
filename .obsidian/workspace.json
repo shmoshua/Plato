@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -140,14 +140,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -214,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md"
+                "file": "Functional Analysis/Uniformly Continuous Function.md"
               }
             }
           }
@@ -276,22 +276,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f3fc913ea6a02b45",
+  "active": "cd96f963b7fd8fe8",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Haar Measure.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
+    "Topology/Locally Compact Hausdorff Space.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
+    "Algebra/General Linear Group.md",
+    "Lie Group/Locally Compact Topological Group.md",
+    "Lie Group/Local Homomorphism.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Lie Group/Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Measure Theory/Complex Measure.md",
-    "Functional Analysis/Haar Measure.md",
     "Topology/Normal Space.md",
-    "Topology/Locally Compact Hausdorff Space.md",
-    "Lie Group/Local Homomorphism.md",
     "Topology/Compact-Open Topology.md",
     "Topology/Connected Space.md",
     "Lie Group/Indefinite Orthogonal Group.md",
-    "Algebra/General Linear Group.md",
-    "Lie Group/Locally Compact Topological Group.md",
     "Topology/Locally Compact Space.md",
     "Topology/Product Topology.md",
     "Courses/Lie Groups/Exercise Sheet 1.md",
@@ -303,7 +304,6 @@
     "Algebra/Radical Extension.md",
     "Algebra/Special Linear Groups.md",
     "Topology/Topological Space.md",
-    "Courses/Analysis IV/Exercise Sheet 10.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

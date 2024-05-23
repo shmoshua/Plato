@@ -35,7 +35,7 @@
 > [!lemma] Corollary 3
 > Let $G$ be a [[Locally Compact Topological Group|LCH group]] and $\text{Aut}(G)$ the group of topological group automorphisms of $G$. Then, 
 > 1. there exists a group homomorphism $\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}^\times_{>0}$ s.t. $$\Lambda(f\circ \alpha ^{-1})=\text{mod}_{G}(\alpha)\Lambda(f),\quad \forall f\in C_{00}(G), \alpha\in \text{Aut}(G)$$
-> 2. it holds that $\Delta_{G}:G\to \mathbb{R}^\times_{>0}, g\mapsto \text{mod}_{G}(\alpha_{g^{-1}})$ where $\alpha_{g^{-1}}\in \text{Inn}(G)\subseteq \text{Aut}(G)$ is the [[inner automorphism]] $x\mapsto g^{-1}xg$.
+> 2. it holds that the modular function $\Delta_{G}:G\to \mathbb{R}^\times_{>0}, g\mapsto \text{mod}_{G}(\alpha_{g^{-1}})$,  where $\alpha_{g^{-1}}\in \text{Inn}(G)\subseteq \text{Aut}(G)$ is the [[inner automorphism]] $x\mapsto g^{-1}xg$.
 > 3. $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$, if $G$ is abelian (or compact).
 
 > [!proof]-
@@ -66,6 +66,12 @@
 
 > [!proof]-
 > Let $\mu$ be the left Haar measure representing $\Lambda$. Then, for $f\in C_{00}(G)$, $g\in G$ and right regular represnetation $\rho$, $$\begin{align}\Lambda'(\rho (g)f)&=\Lambda((\rho(g)f)^{\vee})\\&=\int_{G}^{} (\rho(g)f)^{\vee}(x) \, d\mu(x)\\&= \int_{G}^{} \rho(g)f(x ^{-1}) \, d\mu(x)\\&=\int_{G}f(x ^{-1}g) \, d\mu(x)\\&=\int_{G}^{} f^\vee(g^{-1}x) \, d\mu(x)\\&=\int_{G}^{} f^\vee(x) \, d\mu(x)\\&=\Lambda(f^\vee)\\&=\Lambda'(f)    \end{align}$$where the linearly is easily seen.
+---
+> [!lemma] Proposition 6
+> If there exists a left Haar measure $\mu$ that is also right Haar measure, $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$.
+
+> [!proof]-
+> We have that: $$\Delta_{G}(g)\int_{G}^{} f \, d\mu=\text{mod}_{G}(\alpha_{g ^{-1}})\int_{G}^{} f \, d\mu =\int_{G}^{} f (gxg ^{-1}) \, d\mu =\int_{G}^{}\rho(g^{-1})f\, d\mu =\int_{G}^{} f \, d\mu  $$Therefore, $\Delta_{G}\equiv 1$.
 ---
 ##### Examples
 > [!h] Example 1 (Simple Haar Measures)
