@@ -128,7 +128,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "669932c670a030ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Complex Measure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -264,13 +276,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8902c663e58dc621",
+  "active": "cbc3de898017786e",
   "lastOpenFiles": [
-    "Functional Analysis/Uniformly Continuous Function.md",
+    "Measure Theory/Complex Measure.md",
     "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Spectrum.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
     "Analysis/Lp Space.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
-    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Haar Measure.md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Locally Compact Topological Group.md",
@@ -279,7 +294,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Lie Group/Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Measure Theory/Complex Measure.md",
     "Topology/Normal Space.md",
     "Topology/Compact-Open Topology.md",
     "Topology/Connected Space.md",
@@ -290,8 +304,6 @@
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Fundamental Group.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Topology/Homeomorphism.md",
-    "Topology/Semi-Locally Simply Connected Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
