@@ -6,18 +6,25 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1
-> We have:
-> 1. $\pi:X\to X / _\sim$ is [[Open and Closed Maps|open]].
-> 2. A map $f:X/_{\sim}\to Y$ is continuous if and only if $f\circ\pi:X\to Y$ is continuous.
+> A map $f:X/_{\sim}\to Y$ is continuous if and only if $f\circ\pi:X\to Y$ is continuous.
 
-> [!proof]+
-> We have:
-> 1. let $U$ be open, we will show that  $\pi ^{-1}(\pi(U))$ is open.  
+> [!proof]-
 > We have that $\pi$ is continuous by definition. Therefore, if $f$ is continuous, $f\circ\pi$ is continuous.
 > 
 > Conversely, assume that $f\circ\pi$ is continuous and let $U\subseteq Y$ be open. Then, $\pi ^{-1}(f^{-1}(U))$ is open and thereby $f^{-1}(U)$ is open.
 ---
-> [!lemma] Lemma 2
+> [!lemma] Lemma 2 (Quotient Lemma)
+> Let $G$ be a topological group and $H\leq G$. Then, 
+> 1. the canonical projection $\pi:G\to G / H$ is an open map.
+> 2. the action $G \curvearrowright G /H$ given by $g\circ xH=gxH$ is continuous.
+> 3. $G / H$ is Hausdorff if and only if $H$ is closed in $G$.
+> 4. if $G$ is locally compact, then $G / H$ is locally compact.
+> 5. if $G$ is locally compact and $H\leq G$, then for any compact $C\subseteq G/H$, there exists a compact set $K\subseteq G$ s.t. $\pi(K)=C$.
+
+> [!proof]+
+> We have:
+> 1. let $U\subseteq G$ open. Then, we have: $$\pi ^{-1}(\pi(U))=\bigcup_{g\in H}^{}Ug$$Indeed, if $x\in \pi ^{-1}(\pi(U))$, then there exists $y\in U$ s.t. $xH=yH$, i.e. $y^{-1}x\in H$. Therefore,  
+
 ---
 ##### Examples
 > [!h] Example 1
