@@ -5,28 +5,27 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1
-> Let $X$ be locally compact Hausdorff. For $K\subseteq X$ compact and $y\notin K$, there exists disjoint open sets $U,V\subseteq X$ s.t. $y\in U$, $K\subseteq V$ and $\overline{V}$ is compact.
+> Let $X$ be LCH. Then, 
+> 1. for $K\subseteq X$ compact and $y\notin K$, there exists disjoint open sets $U,V\subseteq X$ s.t. $y\in U$, $K\subseteq V$ and $\overline{V}$ compact.
+> 2. for $K\subseteq U\subseteq X$ with $K$ compact and $U$ open, there exists an open set $V\subseteq X$ with $\overline{V}$ compact s.t. $K\subseteq V\subseteq \overline{V}\subseteq U$.
 
 > [!proof]-
-> For $x\in K$, let $V_{x}$ be the open neighborhood with compact closure. Then, $U_{x}$ is the open neighborhood of $y$ s.t. $U_{x}\cap V_{x}=\varnothing$. Then, $\{ V_{x}: x\in K \}$ is an open cover of $K$ and there exists $\{ x_{1},\dots,x_{n} \}\subseteq K$ s.t. $K\subseteq \bigcup_{j=1}^{n}V_{x_{j}}=:V$. Let $U:=\bigcap_{j=1}^{n}U_{x_{u}}$. 
-> 
-> Since, $\overline{V}\subseteq \bigcup_{j=1}^{n}\overline{V_{j}}$ which is compact, $V$ has compact closure.
+> We have:
+> 1. For $x\in K$, let $V_{x}$ be the open neighborhood with compact closure. Then, there exists an open neighborhood $U_{x}\ni y$ s.t. $U_{x}\cap V_{x}=\varnothing$. Then, $\{ V_{x}: x\in K \}$ is an open cover of $K$ and there exists $\{ x_{1},\dots,x_{n} \}\subseteq K$ s.t. $K\subseteq \bigcup_{j=1}^{n}V_{x_{j}}=:V$. Let $U:=\bigcap_{j=1}^{n}U_{x_{j}}$. Since, $\overline{V}\subseteq \bigcup_{j=1}^{n}\overline{V_{j}}$ which is compact, $V$ has compact closure.
+> 2. For every $y\in U^c$, by 1, there exists open $V_{y}$, $W_{y}$ s.t. $K\subseteq V_{y}$, $y\in W_{y}$ and $\overline{V_{y}}$ is compact. Since $y\notin \overline{V_{y}}$, $$\bigcap_{y\in U^c}^{}U^c \cap \overline{V_{y}}=\varnothing$$and $U^c\cap \overline{V_{y}}$ is compact as a closed subset of a compact set. 
 ---
-> [!lemma] Lemma 2
-> For a locally compact Hausdorff space $X$, for $K\subseteq U\subseteq X$ with $K$ compact and $U$ open, there exists an open set $V\subseteq X$ with compact closure s.t. $$K\subseteq V\subseteq \overline{V}\subseteq U$$
-
-> [!proof]-
-> For every $y\in U^c$, by Lemma 1, there exists open $V_{y}$, $W_{y}$ s.t. $K\subseteq V_{y}$, $y\in W_{y}$ and $\overline{V_{y}}$ is compact. Since $y\notin \overline{V_{y}}$, $$\bigcap_{y\in U^c}^{}U^c \cap \overline{V_{y}}=\varnothing$$and $U^c\cap \overline{V_{y}}$ is compact as a closed subset of a compact set. 
----
-> [!lemma] Theorem 3 (Urysohn's Lemma)
-> Let $X$ be a locally compact Hausdorff space. Suppose $K\subseteq U\subseteq X$ with $K$ compact and $U$ open. Then, there exists a continuous function $f\in$ [[Continuous Function with Compact Support|$C_{c}(X)$]] s.t. 
+> [!lemma] Theorem 2 (Urysohn's Lemma)
+> Let $X$ be a LCH space. Suppose $K\subseteq U\subseteq X$ with $K$ compact and $U$ open. Then, there exists a continuous function $f\in$ [[Continuous Function with Compact Support|$C_{c}(X)$]] s.t. 
 > 1. $\text{Im }f\subseteq[0,1]$
 > 2. $f(x)=1$ for all $x\in K$.
 > 3. $\text{supp }f\subseteq U$
 
-> [!proof]-
-> By lemma 2, we first choose an open set $G$ with compact closure s.t. $K\subseteq G\subseteq \overline{G}\subseteq U$. 
-> https://sites.math.rutgers.edu/~carlen/502S17/hahnsaks.pdf
+> [!proof]+
+> By lemma 1, we first choose an open set $G$ with compact closure s.t. $K\subseteq G\subseteq \overline{G}\subseteq U$. We will construct a sequence of open sets $\{ V_{s} \}$ indexed by the dyadic rational numbers s in $(0,1)$ such that for each $t>s$,  $K\subseteq V_{t}\subseteq \overline{V}_{t}\subseteq V_{s}\subseteq G$. This is consequence to Lemma 1, i.e. $$K\subseteq V_{1/2}\subseteq \overline{V_{1/2}}\subseteq G$$Now, we define $f$ as: $$f(x):=\sup\{ s: x\in V_{s} \}$$Then, 
+> 1. **Showing that $f(x)=1$ for all $x\in K$**:
+>    for $x\in K$, $x\in V_{s}$ for all $s$ and hence $f(x)=1$.
+> 1. **Showing that $\text{supp }f\subseteq U$:**
+>    If $x\notin G$, then $f(x)=0$. Therefore, $\text{supp }f$ x ∈ Gc , then f(x) = 0. Hence the support of f is contained in G, which is compact. Finally, we claim that f is continuous. It suffices to show that for all λ, f −1 ((λ, ∞)) is open and that and f −1 ([λ, ∞)) is closed.
 ---
 > [!lemma] Lemma 4
 > Let $X$ be locally compact Hausdorff. Then, $Y\subseteq X$ is locally compact if and only if $Y$ is open in $\overline{Y}$.

@@ -42,7 +42,7 @@
 > 1. if $f\in L^1(G)\cap B(G)$, then $\widehat{f}\in L^1(\widehat{G})$.
 > 2. for every $f\in L^1(G)\cap B(G)$, $$f(x)=\int_{\widehat{G}}^{} \widehat{f}(\chi)(x,\chi) \, d\omega(\chi),\quad \forall x\in G $$
 
-> [!proof]+
+> [!proof]-
 > Let $f\in L^1(G)\cap B(G)$. Then, from Proposition 2, there exists a measure $\mu_{f}\in \mathcal{M}(\widehat{G})$ s.t. $$f(x)=\int_{\widehat{G}}^{} (x,\chi) \, d\mu_{f}(\chi) $$Therefore, the inversion theorem amounts to proving $\mu_{f}=\widehat{f}d\omega$, i.e. showing that $\mu_{f} / \widehat{f}$ is a Haar measure.
 > 1. **Claim 1: for $f,g\in L^1(G)\cap B(G)$, $\widehat{f}d\mu_{g}=\widehat{g}d\mu_{f}$.**
 >    Let $h\in L^1(G)$. Then, $$(h*f)(e)=\int_{G}^{} h(x)f(x ^{-1}) \, d\lambda(x)=\int_{G}^{} h(x)\int_{\widehat{G}}^{} \overline{(x,\chi)} \, d\mu_{f}(\chi)  \, d\lambda(x)=  \int_{\widehat{G}}^{} \widehat{h}(\chi) \, d\mu_{f}(\chi) $$By replacing $h$ by $h*g$, we have: $$\int_{\widehat{G}}^{} \widehat{h}(\chi)\widehat{g}(\chi) \, d\mu_{f}(\chi)=((h*g)*f)(e)=((h*f)*g)(e)=\int_{\widehat{G}}^{} \widehat{h}(\chi)\widehat{f}(\chi) \, d\mu_{g}(\chi)  $$As $h$ is arbitrary and $A(\widehat{G})\subseteq C_{0}(\widehat{G})$ is dense, we have the claim.
@@ -59,6 +59,6 @@
 >   3. **Claim 5: $T$ is $\widehat{G}$-invariant**.
 >      Let $\psi\in C_{00}(\widehat{G})$ and $\gamma_{0}\in \widehat{G}$. Choose $K\supseteq \text{supp }\psi$ compact and $g\in C_{00}(G)\cap P(G)$ with $\widehat{g}>0$ on $K\cup \gamma_{0}K$. Let $f(x):=\overline{(x,\gamma_{0})}g(x)$. Then, $$f(x)=\overline{(x,\gamma_{0})}\int_{\widehat{G}}(x,\chi) \, d\mu_{g}(\chi) =\int_{\widehat{G}}^{} (x,\gamma_{0}^{-1}\chi) \, d\mu_{g}(\chi) $$Hence for all $\varphi\in C_{0}(\widehat{G})$, $$\int_{\widehat{G}}^{} \varphi(\chi) \, d\mu_{f}(\chi)=\int_{\widehat{G}}^{} \varphi(\gamma_{0}^{-1}\chi) \, d\mu_{g}(\chi)  $$as $A(\widehat{G})\subseteq C_{0}(\widehat{G})$ is dense. Therefore, we can write: $$T(\lambda(\gamma_{0})\psi)=\int_{K\cup\gamma_{0}K} \frac{\psi(\gamma_{0}^{-1}\chi) }{\widehat{g}(\chi)} \, d\mu_{g}(\chi)=\int_{K\cup \gamma_{0}K}\frac{\psi(\chi)}{\widehat{g}(\gamma_{0}\chi)}  \, d\mu_{f}(\chi)= \int_{K\cup \gamma_{0}K} \frac{\psi(\chi)}{\widehat{f}(\chi)}  \, d\mu_{f}(\chi)=T(\psi)  $$since: $$\widehat{g}(\gamma_{0}\chi)=\int_{G}^{} g(x)\overline{(x,\gamma_{0}\chi)} \, d\lambda(x)=\int_{G}^{} f(x)\overline{(x,\chi)} \, d\lambda(\chi)=\widehat{f}(\chi)  $$
 >
-> Therefore, by Haar theorem, there exists a Haar measure $\omega$ corresponding to $$
+> Therefore, $T$ is a Haar functional and there exists a Haar measure $\omega$ corresponding to $T$. Let $\psi\in C_{00}(\widehat{G})$ and $f\in L^1(G)\cap B(G)$. Pick $g\in C_{00}(G)\cap P(G)$ s.t. $\widehat{g}>0$ on $K=\text{supp }\psi$. Then, $$\int_{K}^{} \psi \, d\mu_{f}=\int_{K} \frac{\psi(\chi)}{\widehat{g}(\chi)}\widehat{g}(\chi)  \, d\mu_{f}(\chi)=\int_K \frac{\psi(\chi)}{\widehat{g}(\chi)}\widehat{f}(\chi) \, d\mu_{g}(\chi)=T(\psi \widehat{f})=\int_{\widehat{G}}\psi \widehat{f} \, d\omega    $$It follows that $\widehat{f}d\omega=\mu_{f}$.
 ---
 ##### Examples
