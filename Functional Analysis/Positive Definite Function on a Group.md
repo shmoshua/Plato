@@ -14,10 +14,14 @@
 
 > [!proof]+
 > We have:
-> 1. Let $x\in G$ and $c\in \mathbb{C}$. Then, $$0\leq (1+\left| c \right| ^{2})\Phi(e)+c\Phi(x)+\overline{c}\Phi(x ^{-1})$$Consider:
+> 1. Let $x\in G$ and $c\in \mathbb{C}$. Then, by using $x_{1}=e$, $x_{2}=x$, $c_{1}=1$,$c_{2}=c$, $$0\leq (1+\left| c \right| ^{2})\Phi(e)+c\Phi(x)+\overline{c}\Phi(x ^{-1})$$Consider:
 > 	- from $c=0$, $\Phi(e)\geq 0$.
 > 	- from $c=1$, $2\Phi(e)+\Phi(x)+\Phi(x ^{-1})\geq 0$ and $\Phi(x)+\Phi(x ^{-1})\in \mathbb{R}$.
 > 	- from $c=i$, $2\Phi(e)+i\Phi(x)-i\Phi(x ^{-1})\geq 0$ and $i(\Phi(x)-\Phi(x ^{-1}))\in \mathbb{R}$
+> 	
+> 	Therefore, $\Phi(x)+\Phi(x ^{-1})=\overline{\Phi(x)}+\overline{\Phi(x ^{-1})}$ and $-\Phi(x)+\Phi(x ^{-1})=\overline{\Phi(x)}-\overline{\Phi(x ^{-1})}$. This implies that $\overline{\Phi(x)}=\Phi(x ^{-1})$. 
+> 2. Plugging 1 into above, $$(1+\left| c \right| ^{2})\Phi(e)+2\text{Re}(c\Phi(x))\geq0\quad \forall c\in C$$By choosing $c\in \mathbb{T}$ s.t. $c\Phi(x)=-\left| \Phi(x) \right|$, we get that $2\Phi(e)-2\left| \Phi(x) \right|\geq 0$.
+> 3. For $x_{1},x_{2},x_{3}\in G$ and $c_{1},c_{2},c_{3}\in \mathbb{C}$, we get that: $$(\left| c_{1} \right|^{2}+\left| c_{2} \right|^{2}+\left| c_{3} \right| ^{2}  )\Phi(e)+2\text{Re}(\overline{c_{1}}c_{2}\Phi(x_{1}^{-1}x_{2}))+2\text{Re}(\overline{c_{2}}c_{3}\Phi(x_{2}^{-1}x_{3}))+2\text{Re}(\overline{c_{1}}c_{3}\Phi(x_{1}^{-1}x_{3}))\geq 0$$By taking $x_{1}=e,x_{2}=x,x_{3}=y,c_{1}=1,c_{3}=-c_{2}$, we get: $$(1+2\left| c_{2} \right| ^{2})\Phi(e)+2\text{Re}(c_{2}\Phi(x))-2\text{Re}(\left| c_{2} \right| ^{2}\Phi(x  ^{-1}y))-2\text{Re}(c_{2}\Phi(y))\geq 0$$Therefore, $$2\left| c_{2} \right| ^2(\Phi(e)-\text{Re}(\Phi(x  ^{-1}y)))+2\text{Re}(c_{2}\Phi(x)-c_{2}\Phi(y))$$
 ---
 ##### Examples
 > [!h] Example 1 (Unitary Representation)
