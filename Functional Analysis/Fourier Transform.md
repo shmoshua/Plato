@@ -49,6 +49,8 @@
 > 2. **Claim 2: Given a compact set $K\subseteq \widehat{G}$, there exists $g\in C_{00}(G)\cap P(G)$ s.t. $\widehat{g}>0$ on $K$.** 
 >    We know that for any $\chi\in K$,  there exists a function $u_{\chi}\in C_{00}(G)$ with $\widehat{u_{\chi}}(\chi)\neq 0$. Then, there exists an open set $V_{\chi}\ni \chi$ with $\widehat{u_{\chi}}(\eta)\neq 0$ for all $\eta\in V_{\chi}$. Now, $K\subseteq \bigcup_{\chi\in K}^{}V_{\chi}$ and from compactness, there exists $\chi_{1},\dots,\chi_{n}\in K$ s.t. $K\subseteq \bigcup_{i=1}^{n}V_{\chi_{i}}$. 
 >    
->    Then, consider $$g:=\sum_{i=1}^{n}u_{\chi_{i}}*u_{\chi_{i}}^{*}\in C_{00}(G)\cap P(G)$$with $$\widehat{g}(\eta)=$$
+>    Then, consider $$g:=\sum_{i=1}^{n}u_{\chi_{i}}*u_{\chi_{i}}^{*}\in C_{00}(G)\cap P(G)$$with $$\begin{align}\widehat{g}(\eta)&=\sum_{i=1}^{n}\int_{G}^{} (u_{\chi_{i}}*u_{\chi_{i}}^{*})(x)\overline{(x,\eta)} \, d\mu(x)\\&=\sum_{i=1}^{n}\int_{G}^{} \int_{G}^{} u_{\chi_{i}}(xy)\overline{u_{\chi_{i}}(y)}\overline{(x,\eta)} \, d\mu(y)  \, d\mu(x)\\&=\sum_{i=1}^{n}\int_{G}^{} \left( \int_{G}^{} u_{\chi_{i}}(xy)\overline{(x,\eta)} \, d\mu(x) \right)\overline{u_{\chi_{i}}(y)} \, d\mu(y) \\&=\sum_{i=1}^{n}\int_{G}^{} \left( \int_{G}^{} u_{\chi_{i}}(x)\overline{(x,\eta)} \, d\mu(x) \right)(y,\eta)\overline{u_{\chi_{i}}(y)} \, d\mu(y)\\&=\sum_{i=1}^{n}\widehat{u_{\chi_{i}}}(\eta)\int_{G}^{}(y,\eta)\overline{u_{\chi_{i}}(y)} \, d\mu(y) \\&=\sum_{i=1}^{n}\left| \widehat{u_{\chi_{i}}}(\eta) \right| ^{2}\\&>0\end{align}$$
+> 3. **Proof of the theorem**:
+>    Let $\psi\in C_{00}(\widehat{G})$ and pick $K\supseteq\text{supp }\psi$ compact. Then, by Claim 2, choose $g\in C_{00}(G)\cap P(G)$ s.t. $\widehat{g}>0$ on $K$. Define: $$T_{K,g}(\psi):=$$
 ---
 ##### Examples
