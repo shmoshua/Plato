@@ -138,7 +138,13 @@
 > Let $h=(a,b)$ and $f\in C_{00}(P)$. Then, $$\begin{align}\int_{P}^{} \lambda(h ^{-1})(f) \, d\mu&=\int_{\mathbb{R}}^{} \int_{\mathbb{R} \backslash \{ 0 \}}\frac{f(ax,ay+bx ^{-1})}{x^2} \, dxdy\\&=\int_{\mathbb{R}}^{} \int_{\mathbb{R} \backslash \{ 0 \}}\frac{f(u,v+abu ^{-1})}{u^2}\, dudv\\&=\int_{\mathbb{R}}^{} \int_{\mathbb{R} \backslash \{ 0 \}}\frac{f(u,v)}{u^2}\, dudv\\&=\int_{P}^{} f \, d\mu \end{align} $$and $$\begin{align}\int_{P}^{} \rho(h^{-1})(f) \, d\mu&=\int \int f(ax,bx+ay^{-1})\, dx  \, dy\\&=\int \int f(u,ba^{-1}x+v)\, du  \, dv\\&=\int \int f(u,v)\, du  \, dv \end{align}$$
 ---
 > [!h] Example 7
->  For $G:=\text{GL}_{n}(\mathbb{R})$, $\left| \det x \right|^{-n}d\lambda_{n^{2}}(x)$ is the left and right Haar measure, where $\lambda_{n^{2}}$ is the Lebesgue measure on $\mathbb{R}^{n^{2}}$.
+>  Let $\lambda_{n^{2}}$ be the Lebesgue measure for $\mathbb{R}^{n^{2}}$. Then, 
+>  1. For $G:=\text{GL}(n,\mathbb{R})$, $\left| \det x \right|^{-n}d\lambda_{n^{2}}(x)$ is the left and right Haar measure.
+>  2. For $G:=\text{SL}(n,\mathbb{R})$, $\mu(B):=\lambda_{n^{2}}([0,1]\cdot B)$ is the left and right Haar measure.
 
 > [!proof]+
-> We have for $h\in \text{GL}(n,\mathbb{R})$ and $f\in C_{00}(\text{GL}(n,\mathbb{R}))$ $$\begin{align}\int_G \lambda(h^{-1})f(x) \left| \det x \right| ^{-n} \, d\lambda_{n^{2}}(x)&=\int_{G}^{}f(hx) \left| \det x \right| ^{-n} \, d\lambda_{n^2}(x) \end{align} $$
+> We have 
+> 1. for $h\in \text{GL}(n,\mathbb{R})$ and $f\in C_{00}(\text{GL}(n,\mathbb{R}))$ $$\begin{align}\int_G \lambda(h^{-1})f(x) \left| \det x \right| ^{-n} \, d\lambda_{n^{2}}(x)&=\int_{G}^{}f(hx) \left| \det x \right| ^{-n} \, d\lambda_{n^2}(x) \\&=\int_{G}^{}f(hx) \left| \det h \right| ^n\left| \det hx \right| ^{-n} \, d\lambda_{n^2}(x) \\&=\int_{G}^{} f(x)\left| \det x \right| ^{-n} d\lambda_{n^{2}}(x)\end{align} $$
+> and
+> $$\begin{align}\int_{G}^{} \rho(h^{-1})f(x)\left| \det x^{-n} \right|  \, d\lambda_{n^{2}}(x)&=\int_{G}^{} f(xh)\left| \det x \right|^{-n}  \, d\lambda_{n^{2}}(x)\\&=\int_{G}^{} f((h^\top x^\top)^\top)\left| \det h^\top \right| ^n\left| \det h^\top x^\top \right| ^{-n} \, d\lambda_{n^{2}}(x) \\&=\int_{G}^{} f(( x^\top)^\top)\left| \det  x^\top \right| ^{-n} \, d\lambda_{n^{2}}(x) \\&=\int_{G}^{} f(x)\left| \det x \right| ^{-n} \, d\lambda_{n^{2}}(x) \end{align} $$
+> 2. for $h\in \text{SL}(n,\mathbb{R})$ and $f\in C_{00}(\text{SL}(n,\mathbb{R}))$, $$\begin{align}\int_{G}\lambda(h^{-1})f \, d\mu&=\int_{G}^{} f(hx) \, d\mu(x) \end{align} $$
