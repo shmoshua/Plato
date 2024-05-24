@@ -18,6 +18,6 @@
 > 
 > We will use induction on $n$. Let $0\neq a\in \Gamma$. Then, $\Gamma \cap a\mathbb{R}$ is a discrete subgroup of $a\mathbb{R}$ and therefore, there exists $b\in \Gamma \cap a\mathbb{R}$ s.t. $\Gamma \cap a\mathbb{R}=b\mathbb{Z}$. Let $\Gamma'=p(\Gamma )$ where $p:\mathbb{R}^n\to \mathbb{R}^n /a\mathbb{R}$. 
 > 
-> We claim that $\Gamma'$ is discrete. For $x\in \Gamma$, $$p ^{-1}(x+a\mathbb{R})=\Gamma \cap$$
+> We claim that $\Gamma'$ is discrete. For $x\in \Gamma$, as $\Gamma$ is discrete there exists $U\subseteq \mathbb{R}^n$ open s.t. $U\cap\Gamma=\{ x \}$. Then, $p(U)$ is open as [[Quotient Topology|$p$ is an open map ]] and $\Gamma'\cap p(U)=\{x+a\mathbb{R}\}$. Otherwise there exists $y+a\mathbb{R}\in \Gamma' \cap p(U)$ and there exists $z\in \Gamma$ s.t. $z-y\in a\mathbb{R}$ and $w\in U$ s.t. $w-y\in a\mathbb{R}$. 
 > 
 > Let $\Gamma\in \mathcal{R}$. Then, 
