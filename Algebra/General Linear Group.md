@@ -20,21 +20,22 @@
 > [!lemma] Proposition 2
 > We have that:
 > 1. $\text{GL}(n,\mathbb{R})\cong \text{Aut}(\mathbb{R}^n)$.
+> 2. Any compact subgroup of $\text{GL}(n,\mathbb{R})$ is conjugate to a subgroup of $\text{O}(n,\mathbb{R})$.
 
-> [!proof]-
-> Consider the map: $$\Psi:\text{GL}(n,\mathbb{R})\to \text{Aut}(\mathbb{R}^n),\quad A\mapsto (x\mapsto Ax)$$
+> [!proof]+
+> We have:
+> 1. Consider the map: $$\Psi:\text{GL}(n,\mathbb{R})\to \text{Aut}(\mathbb{R}^n),\quad A\mapsto (x\mapsto Ax)$$
 > Then, 
-> 1. **Showing $\Psi(A)\in \text{Aut}(\mathbb{R}^n)$:**
->    We know that $\Psi(A)$ is continuous, bijective with a continuous inverse. Further, the linearity guarantees that it is a homomorphism.
-> 2. **Showing $\Psi$ is injective**:
+>    1. **Showing $\Psi(A)\in \text{Aut}(\mathbb{R}^n)$:**
+> 		   We know that $\Psi(A)$ is continuous, bijective with a continuous inverse. Further, the linearity guarantees that it is a homomorphism.
+> 	1. **Showing $\Psi$ is injective**:
 >    Let $\Psi(A)(x)=x$ for all $x\in \mathbb{R}^n$. Then, $Ax=x$ for all $x\in \mathbb{R}^n$ and $A=I_{n}$.
-> 3. **Showing $\Psi$ is surjective**:
+>    3. **Showing $\Psi$ is surjective**:
 >    Let $\varphi\in \text{Aut}(\mathbb{R}^n)$. Let $A:=[A_{1}|\dots|A_{n}]$ where $A_{i}:=\varphi(e_{i})$. Then, for any $x:=\sum_{i=1}^{n}\xi_{i}e_{i}\in \mathbb{R}^n$, $$\Psi(A)(x)=\sum_{i=1}^{n}\xi_{i}A_{i}=\sum_{i=1}^{n}\xi_{i}\varphi(e_{i})=\varphi\left( \sum_{i=1}^{n}\xi_{i}e_{i} \right)=\varphi(x)$$
-> 4. **Showing that $\Psi$ is continuous**:
->    We want to show that if $A_{n}\to A$, $\Psi(A_{n})\to \Psi(A)$ in $\text{Aut}(\mathbb{R}^n)$. 
->    
->    As $\mathbb{R}^n$ is metric, the compact open topology coincides with the topology of compact convergence. Let $K$ compact $\varepsilon>0$ s.t $$\mathcal{U}(\Psi(A),K,\varepsilon):=\{g:\mathbb{R}^n\to \mathbb{R}^n|\ \text{sup}_{x\in K}\|Ax-g(x)\|_{2}<\varepsilon  \}$$As we have $\|(A_{n}-A)x\|_{2}\leq\|A_{n}-A\|\|x\|_{2}\leq\|A_{n}-A\|_{F}\|x\|_{2}$, if we let $c:=\sup_{x\in K}\|x\|_{2}$, we find $N$ s.t. $\|A_{n}-A\|_{F}< \varepsilon /c$ for all $n\geq N$. Then, for any $x\in K$, $\|(A_{n}-A)x\|_{2}<\varepsilon$ and $\Psi(A_{n})\in \mathcal{U}(\Psi(A),K,\varepsilon)$. This proves the statement.
-> 5. **Showing that $\Psi ^{-1}$ is continuous**:
+>    4. **Showing that $\Psi$ is continuous**:
+>    We want to show that if $A_{n}\to A$, $\Psi(A_{n})\to \Psi(A)$ in $\text{Aut}(\mathbb{R}^n)$. As $\mathbb{R}^n$ is metric, the compact open topology coincides with the topology of compact convergence. Let $K$ compact $\varepsilon>0$ s.t $$\mathcal{U}(\Psi(A),K,\varepsilon):=\{g:\mathbb{R}^n\to \mathbb{R}^n|\ \text{sup}_{x\in K}\|Ax-g(x)\|_{2}<\varepsilon  \}$$As we have $\|(A_{n}-A)x\|_{2}\leq\|A_{n}-A\|\|x\|_{2}\leq\|A_{n}-A\|_{F}\|x\|_{2}$, if we let $c:=\sup_{x\in K}\|x\|_{2}$, we find $N$ s.t. $\|A_{n}-A\|_{F}< \varepsilon /c$ for all $n\geq N$. Then, for any $x\in K$, $\|(A_{n}-A)x\|_{2}<\varepsilon$ and $\Psi(A_{n})\in \mathcal{U}(\Psi(A),K,\varepsilon)$. This proves the statement.
+>    5. **Showing that $\Psi ^{-1}$ is continuous**:
 >    Let $B_{<\varepsilon}(I)$ be an open ball. Then, let $K:= B_{\leq 1}(0)$ and $A\in B_{<\varepsilon}(I)$. From the equivalence of norm, there exists $\varepsilon'$ s.t. if $\|A-B\|<\varepsilon'$ then $\|A-B\|_{F}<\varepsilon$. Then, $$\mathcal{U}(\Psi(A),K,\varepsilon')\subseteq \Psi(B_{<\varepsilon}(I))$$This proves the statement.
+> 2. 
 
 >    

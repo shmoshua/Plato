@@ -103,9 +103,11 @@
 > For $(\mathbb{R}^n,+)$
 > 1. $\text{Aut}(\mathbb{R}^n)\cong\text{GL}(n,\mathbb{R})$ from [[General Linear Group|Proposition 2]] and
 > 2. $\text{mod}_{G}(\alpha)=\left| \det\alpha \right|$.
+> 3. There exists a discontinuous bijective homomorphism from $(\mathbb{R},+)$ to itself.
 
-> [!proof]+
+> [!proof]-
 > As the Lebesgue measure is the Haar measure, for any $A\in \text{GL}(n,\mathbb{R})$ and $f\in C_{00}(\mathbb{R}^n)$, $$\int_{\mathbb{R}^n}^{} f(A^{-1}x) \, dx=\left| \det(A) \right| \int_{\mathbb{R}^n}^{} f(A^{-1}x)\left| \det(A^{-1}) \right|  \, dx =\left| \det(A) \right| \int_{\mathbb{R}^n}^{} f(x) \, dx  $$
+> 
 ---
 > [!h] Example 3
 > Let $K$ be a field with a locally compact Hausdorff topology for which the field operations are continuous, e.g. $\mathbb{R},\mathbb{C},\mathbb{Q}_{p}$ Then, 

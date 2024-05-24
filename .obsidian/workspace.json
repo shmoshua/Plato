@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Bounded Linear Map.md",
+                "file": "Algebra/Group Action.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,14 +92,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Lebesgue Measure.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Algebra/General Linear Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Algebra/General Linear Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md"
+                "file": "Algebra/General Linear Group.md"
               }
             }
           }
@@ -227,14 +227,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "282d6b7b77d25cc4",
+  "active": "6a7b987e5ea1b218",
   "lastOpenFiles": [
-    "Measure Theory/Lebesgue Measure.md",
-    "Functional Analysis/Hilbert-Schmidt Operator.md",
     "Functional Analysis/Haar Measure.md",
     "Algebra/General Linear Group.md",
-    "Lie Group/Topological Group.md",
+    "Algebra/Orbit and Stablizer.md",
+    "Measure Theory/Lebesgue Measure.md",
+    "Algebra/Group Action.md",
     "Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/Hilbert-Schmidt Operator.md",
+    "Lie Group/Topological Group.md",
     "Topology/Topology of Compact Convergence.md",
     "Topology/Compact-Open Topology.md",
     "Topology/Product Topology.md",
@@ -242,8 +244,6 @@
     "Algebra/Semi-direct Product.md",
     "Topology/Compact Space.md",
     "Topology/Connected Space.md",
-    "Algebra/Group Action.md",
-    "Algebra/Orbit and Stablizer.md",
     "Topology/Locally Compact Space.md",
     "Topology/Quotient Topology.md",
     "Functional Analysis/Uniformly Continuous Function.md",
