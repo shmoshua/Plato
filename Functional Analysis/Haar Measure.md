@@ -134,5 +134,11 @@
 > 1. $\frac{da}{a^{2}}db$ is the left Haar measure.
 > 2. $dadb$ is the right Haar measure.
 
+> [!proof]-
+> Let $h=(a,b)$ and $f\in C_{00}(P)$. Then, $$\begin{align}\int_{P}^{} \lambda(h ^{-1})(f) \, d\mu&=\int_{\mathbb{R}}^{} \int_{\mathbb{R} \backslash \{ 0 \}}\frac{f(ax,ay+bx ^{-1})}{x^2} \, dxdy\\&=\int_{\mathbb{R}}^{} \int_{\mathbb{R} \backslash \{ 0 \}}\frac{f(u,v+abu ^{-1})}{u^2}\, dudv\\&=\int_{\mathbb{R}}^{} \int_{\mathbb{R} \backslash \{ 0 \}}\frac{f(u,v)}{u^2}\, dudv\\&=\int_{P}^{} f \, d\mu \end{align} $$and $$\begin{align}\int_{P}^{} \rho(h^{-1})(f) \, d\mu&=\int \int f(ax,bx+ay^{-1})\, dx  \, dy\\&=\int \int f(u,ba^{-1}x+v)\, du  \, dv\\&=\int \int f(u,v)\, du  \, dv \end{align}$$
+---
+> [!h] Example 7
+>  For $G:=\text{GL}_{n}(\mathbb{R})$, $\left| \det x \right|^{-n}d\lambda_{n^{2}}(x)$ is the left and right Haar measure, where $\lambda_{n^{2}}$ is the Lebesgue measure on $\mathbb{R}^{n^{2}}$.
+
 > [!proof]+
-> Let $h=(a_{1},b_{1})$ and $f\in C_{00}(P)$. Then, $$\begin{align}\int_{P}^{} \lambda(h ^{-1})(f) \, d\mu&=\int_{\mathbb{R}}^{} \int_{\mathbb{R} \backslash \{ 0 \}}\frac{f(a_{1}a_{2},a_{1}b_{2}+b_{1}a_{2}^{-1})}{a_{2}^{2}} \, da_{2}db_{2}\\&= \int_{\mathbb{R}}^{} \int_{\mathbb{R} \backslash \{ 0 \}}\frac{f(a_{1}a_{2},a_{1}(b_{2}+b_{1}(a_{1}a_{2})^{-1}))}{a_{2}^{2}} \, da_{2}db_{2}\end{align} $$
+> We have for $h\in \text{GL}(n,\mathbb{R})$ and $f\in C_{00}(\text{GL}(n,\mathbb{R}))$ $$\begin{align}\int_G \lambda(h^{-1})f(x) \left| \det x \right| ^{-n} \, d\lambda_{n^{2}}(x)&=\int_{G}^{}f(hx) \left| \det x \right| ^{-n} \, d\lambda_{n^2}(x) \end{align} $$
