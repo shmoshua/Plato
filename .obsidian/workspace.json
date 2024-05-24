@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Lie Group/Lattice.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,8 +68,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
-                "mode": "preview",
+                "file": "Lie Group/Lattice.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group Action.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -111,7 +111,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Algebra/General Linear Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Algebra/General Linear Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md"
+                "file": "Algebra/General Linear Group.md"
               }
             }
           }
@@ -239,12 +239,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "282d6b7b77d25cc4",
+  "active": "8902c663e58dc621",
   "lastOpenFiles": [
+    "Algebra/Special Linear Group.md",
+    "Algebra/Orthogonal Group.md",
+    "Algebra/Group Action.md",
+    "Lie Group/Lattice.md",
     "Algebra/General Linear Group.md",
     "Functional Analysis/Haar Measure.md",
     "Analysis/Inner Product Space.md",
-    "Algebra/Group Action.md",
     "Algebra/Orbit and Stablizer.md",
     "Measure Theory/Lebesgue Measure.md",
     "Functional Analysis/Bounded Linear Map.md",
@@ -264,9 +267,6 @@
     "Topology/Hausdorff Space.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Courses/Topology/Exercise Sheet 3.md",
-    "Functional Analysis/Unimodular Group.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
