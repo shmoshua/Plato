@@ -22,7 +22,7 @@
 > 1. $\text{GL}(n,\mathbb{R})\cong \text{Aut}(\mathbb{R}^n)$.
 > 2. Any compact subgroup of $\text{GL}(n,\mathbb{R})$ is conjugate to a subgroup of $\text{O}(n,\mathbb{R})$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Consider the map: $$\Psi:\text{GL}(n,\mathbb{R})\to \text{Aut}(\mathbb{R}^n),\quad A\mapsto (x\mapsto Ax)$$
 > Then, 
@@ -47,8 +47,5 @@
 > 	
 > 	Therefore, there exists $A,B\in \text{Mat}_{n,n}(\mathbb{R})$ s.t. $\braket{ v , w }=v^\top Aw$, $A$ symmetric positive definite and $B$ symmetric positive definite with $B^{2}=A$.
 > 	
-> 	We claim that $B^{-1}KB\leq \text{O}(n,\mathbb{R})$. For $g\in K$, we have: $$$$
-> 	  
-> 	  
-
->    
+> 	We claim that $B^{-1}KB\leq \text{O}(n,\mathbb{R})$. For $g\in K$, we have: $$B^{-1}gB  B g^\top B^{-1}=B^{-1}\underbrace{ gAg^\top }_{ A } B^{-1}=B^{-1}AB^{-1}=I_{n}$$Therefore, $B^{-1}gB$ is orthogonal.
+---
