@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,14 +80,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Lebesgue Measure.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Topology/Compact-Open Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/General Linear Group.md"
+                "file": "Topology/Compact-Open Topology.md"
               }
             }
           }
@@ -215,12 +215,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "282d6b7b77d25cc4",
+  "active": "8902c663e58dc621",
   "lastOpenFiles": [
-    "Functional Analysis/Haar Measure.md",
+    "Topology/Product Topology.md",
     "Algebra/General Linear Group.md",
+    "Lie Group/Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Measure Theory/Lebesgue Measure.md",
+    "Functional Analysis/Haar Measure.md",
     "Algebra/Semi-direct Product.md",
     "Topology/Compact Space.md",
     "Topology/Connected Space.md",
@@ -241,8 +243,6 @@
     "Topology/Compact Metric Space.md",
     "Functional Analysis/LCA Group.md",
     "Lie Group/Indefinite Orthogonal Group.md",
-    "Functional Analysis/Convolution.md",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
