@@ -69,7 +69,7 @@
               "type": "markdown",
               "state": {
                 "file": "Lie Group/Lattice.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -111,7 +111,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Lie Group/Lattice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Lie Group/Lattice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/General Linear Group.md"
+                "file": "Lie Group/Lattice.md"
               }
             }
           }
@@ -239,13 +239,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8902c663e58dc621",
+  "active": "6a7b987e5ea1b218",
   "lastOpenFiles": [
+    "Algebra/General Linear Group.md",
     "Algebra/Special Linear Group.md",
     "Algebra/Orthogonal Group.md",
     "Algebra/Group Action.md",
     "Lie Group/Lattice.md",
-    "Algebra/General Linear Group.md",
     "Functional Analysis/Haar Measure.md",
     "Analysis/Inner Product Space.md",
     "Algebra/Orbit and Stablizer.md",
