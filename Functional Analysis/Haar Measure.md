@@ -142,9 +142,15 @@
 >  1. For $G:=\text{GL}(n,\mathbb{R})$, $\left| \det x \right|^{-n}d\lambda_{n^{2}}(x)$ is the left and right Haar measure.
 >  2. For $G:=\text{SL}(n,\mathbb{R})$, $\mu(B):=\lambda_{n^{2}}([0,1]\cdot B)$ is the left and right Haar measure.
 
-> [!proof]+
+> [!proof]-
 > We have 
 > 1. for $h\in \text{GL}(n,\mathbb{R})$ and $f\in C_{00}(\text{GL}(n,\mathbb{R}))$ $$\begin{align}\int_G \lambda(h^{-1})f(x) \left| \det x \right| ^{-n} \, d\lambda_{n^{2}}(x)&=\int_{G}^{}f(hx) \left| \det x \right| ^{-n} \, d\lambda_{n^2}(x) \\&=\int_{G}^{}f(hx) \left| \det h \right| ^n\left| \det hx \right| ^{-n} \, d\lambda_{n^2}(x) \\&=\int_{G}^{} f(x)\left| \det x \right| ^{-n} d\lambda_{n^{2}}(x)\end{align} $$
 > and
 > $$\begin{align}\int_{G}^{} \rho(h^{-1})f(x)\left| \det x^{-n} \right|  \, d\lambda_{n^{2}}(x)&=\int_{G}^{} f(xh)\left| \det x \right|^{-n}  \, d\lambda_{n^{2}}(x)\\&=\int_{G}^{} f((h^\top x^\top)^\top)\left| \det h^\top \right| ^n\left| \det h^\top x^\top \right| ^{-n} \, d\lambda_{n^{2}}(x) \\&=\int_{G}^{} f(( x^\top)^\top)\left| \det  x^\top \right| ^{-n} \, d\lambda_{n^{2}}(x) \\&=\int_{G}^{} f(x)\left| \det x \right| ^{-n} \, d\lambda_{n^{2}}(x) \end{align} $$
 > 2. for $h\in \text{SL}(n,\mathbb{R})$ and $f\in C_{00}(\text{SL}(n,\mathbb{R}))$, $$\begin{align}\int_{G}\lambda(h^{-1})f \, d\mu&=\int_{G}^{} f(hx) \, d\mu(x) \end{align} $$
+---
+> [!h] Example 8
+> Let $$G:=\left\{ \begin{bmatrix}a&b\\0&1\end{bmatrix}:a\in \mathbb{R}^\times,b\in \mathbb{R}\right \}$$Then, we can represent this group as $(\alpha,\beta):=\left( a, \frac{b}{a} \right)$ and $d\mu(\alpha,\beta)= \frac{1}{\left| \alpha \right|}d\alpha d\beta$ defines a left Haar measure.
+
+> [!proof]-
+> We have for $h=(\alpha,\beta)$ and $f\in C_{00}(G)$, $$\begin{align}\int_{G}^{} \lambda(h^{-1})f(x,y) \, d\mu(x,y)&=\int_{G}^{} \frac{f(\alpha x,y+x ^{-1}\beta)}{\left| x \right| }\, dxdy\\&=\int_G \frac{f(\alpha x,y+x ^{-1}\beta)}{\left| \alpha x \right| }\left| \alpha \right|  \, dxdy\\&=\int_G \frac{f(x,y+x ^{-1}\alpha\beta)}{\left| x\right| } \, dxdy \\&=\int_G \frac{f(x,y)}{\left| x\right| } \, dydx   \end{align}$$To find the modular function, $h^{-1}=\left( \frac{1}{\alpha},-\alpha\beta \right)$. Then, $$\begin{align}\int_{G}^{} \frac{f\left( \frac{x}{\alpha}, -\alpha\beta +\alpha y\right)}{\left| x \right| } \, dxdy&=\int_{G}^{} \frac{f(x,-\alpha\beta+y)}{\left| \alpha x \right| } \, dxdy=\frac{1}{\left| \alpha \right|}\int_{G}^{} \frac{f(x,y)}{\left| x \right| } \, dx dy \end{align} $$Therefore, $\Delta_{G}(\alpha,\beta)=\frac{1}{\left| \alpha \right|}$.
