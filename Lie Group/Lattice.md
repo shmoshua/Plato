@@ -16,6 +16,8 @@
 > 
 > If $a>0$, then $a\in \Gamma$. Otherwise, there exists $b\in \Gamma$ s.t. $b<2a$. As $b\neq a$, there exists $c\in \Gamma$ with $a<c<b$ as well. Then, $a>b-c>0$ and $b-c\in \Gamma$ which is a contradiction. Then, $\Gamma=a\mathbb{Z}$. Indeed, if $b\in \Gamma$ is not in a form of $an$, then there exists $n$ with $0<b-an<a$ and this is a contradiction to the minimality of $a$. This proves the statement.
 > 
-> We will use induction on $n$. If $n=1$, we know that the only discrete subgroups are $a\mathbb{Z}$ where $m\in \mathbb{R}$. 
+> We will use induction on $n$. Let $0\neq a\in \Gamma$. Then, $\Gamma \cap a\mathbb{R}$ is a discrete subgroup of $a\mathbb{R}$ and therefore, there exists $b\in \Gamma \cap a\mathbb{R}$ s.t. $\Gamma \cap a\mathbb{R}=b\mathbb{Z}$. Let $\Gamma'=p(\Gamma )$ where $p:\mathbb{R}^n\to \mathbb{R}^n /a\mathbb{R}$. 
+> 
+> We claim that $\Gamma'$ is discrete. For $x\in \Gamma$, $$p ^{-1}(x+a\mathbb{R})=\Gamma \cap$$
 > 
 > Let $\Gamma\in \mathcal{R}$. Then, 

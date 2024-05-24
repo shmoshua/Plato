@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -239,20 +239,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6a7b987e5ea1b218",
+  "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
+    "Lie Group/Topological Group.md",
+    "Topology/Quotient Topology.md",
+    "Lie Group/Lattice.md",
     "Algebra/General Linear Group.md",
     "Algebra/Special Linear Group.md",
     "Algebra/Orthogonal Group.md",
     "Algebra/Group Action.md",
-    "Lie Group/Lattice.md",
     "Functional Analysis/Haar Measure.md",
     "Analysis/Inner Product Space.md",
     "Algebra/Orbit and Stablizer.md",
     "Measure Theory/Lebesgue Measure.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Hilbert-Schmidt Operator.md",
-    "Lie Group/Topological Group.md",
     "Topology/Topology of Compact Convergence.md",
     "Topology/Compact-Open Topology.md",
     "Topology/Product Topology.md",
@@ -261,7 +262,6 @@
     "Topology/Compact Space.md",
     "Topology/Connected Space.md",
     "Topology/Locally Compact Space.md",
-    "Topology/Quotient Topology.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Hausdorff Space.md",
