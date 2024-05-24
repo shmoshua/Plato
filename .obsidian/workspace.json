@@ -111,7 +111,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/General Linear Group.md"
+                "file": "Functional Analysis/Haar Measure.md"
               }
             }
           }
@@ -239,10 +239,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3bc0b190a708e9b9",
+  "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
-    "Functional Analysis/Haar Measure.md",
     "Algebra/General Linear Group.md",
+    "Functional Analysis/Haar Measure.md",
     "Analysis/Inner Product Space.md",
     "Algebra/Group Action.md",
     "Algebra/Orbit and Stablizer.md",
