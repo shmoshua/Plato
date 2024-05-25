@@ -44,4 +44,5 @@
 ---
 > [!h] Example 3
 > Let $\mathcal{R}$ be the set of [[Lattice|lattices]] on $\mathbb{R}^n$. Then, 
-> 1. $\text{GL}(n,\mathbb{R})\curvearrowright \mathcal{R}$ as $\mathcal{R}:=\{ \mathbb{Z}f_{1}+\dots+\mathbb{Z}f_{n}:f_{1},\dots,f_{n}\in \mathbb{R}^n\text{ linearly independent} \}$ [[Lattice]]
+> 1. $\text{GL}(n,\mathbb{R})\curvearrowright \mathcal{R}$ as $\mathcal{R}:=\{ \mathbb{Z}f_{1}+\dots+\mathbb{Z}f_{n}:f_{1},\dots,f_{n}\in \mathbb{R}^n\text{ linearly independent} \}$ by [[Lattice|Example 1]].
+> 2. For $\Gamma_{0}:=\mathbb{Z}e_{1}+\dots+\mathbb{Z}e_{n}$, $$\begin{align}\text{GL}(n,\mathbb{R})_{\Gamma_{0}}&=\{ g\in \text{GL}(n,\mathbb{R}):\mathbb{Z}g(e_{1})+\dots+\mathbb{Z}g(e_{n})=\mathbb{Z}e_{1}+\dots+\mathbb{Z}e_{n} \}\\&=\{ g\in \text{GL}(n,\mathbb{R}):\mathbb{Z}g(e_{1})+\dots+\mathbb{Z}g(e_{n})=\mathbb{Z}e_{1}+\dots+\mathbb{Z}e_{n} \}\end{align}$$
