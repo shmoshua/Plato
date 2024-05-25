@@ -6,6 +6,7 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
+        "dimension": 42.81609195402299,
         "children": [
           {
             "id": "cd96f963b7fd8fe8",
@@ -13,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Unimodular Group.md",
-                "mode": "source",
+                "file": "Functional Analysis/Haar Measure.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -43,12 +44,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
         "type": "tabs",
+        "dimension": 57.18390804597702,
         "children": [
           {
             "id": "6343fc6755c861ea",
@@ -104,14 +105,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Functional Analysis/Holomorphic Function.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -177,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Functional Analysis/Holomorphic Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Functional Analysis/Holomorphic Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md"
+                "file": "Functional Analysis/Holomorphic Function.md"
               }
             }
           }
@@ -239,34 +240,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "282d6b7b77d25cc4",
+  "active": "36984071045ffc68",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
-    "Lie Group/Homogeneous Space.md",
-    "Algebra/Group Action.md",
-    "Functional Analysis/Haar Measure.md",
-    "Lie Group/Lattice.md",
-    "Algebra/Group Homomorphism.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Functional Analysis/Normal Operator.md",
+    "Functional Analysis/Unitary Linear Map.md",
     "Functional Analysis/Unimodular Group.md",
-    "Analysis/Inner Product Space.md",
-    "Algebra/General Linear Group.md",
-    "Lie Group/Topological Group.md",
-    "Algebra/Special Linear Group.md",
-    "Algebra/Orthogonal Group.md",
-    "Algebra/Orbit and Stablizer.md",
-    "Measure Theory/Lebesgue Measure.md",
-    "Functional Analysis/Bounded Linear Map.md",
-    "Functional Analysis/Hilbert-Schmidt Operator.md",
-    "Topology/Topology of Compact Convergence.md",
-    "Topology/Compact-Open Topology.md",
-    "Topology/Product Topology.md",
-    "Algebra/Semi-direct Product.md",
-    "Topology/Compact Space.md",
-    "Topology/Connected Space.md",
-    "Topology/Locally Compact Space.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
-    "Courses/Topology/Exercise Sheet 4.md",
+    "Axiom of Choice.md",
+    "Representation Theory/Dual Representation.md",
+    "Representation Theory/Character.md",
+    "Representation Theory/Weyl Algebra.md",
+    "Representation Theory/Universal Enveloping Algebra.md",
+    "Representation Theory/Tensor Product.md",
+    "Representation Theory/Tensor Algebra.md",
+    "Representation Theory/Special Linear Lie Algebra.md",
+    "Representation Theory/Semisimple Representation.md",
+    "Representation Theory/Representation Homomorphism.md",
+    "Representation Theory/Representation.md",
+    "Representation Theory/Quiver Representation.md",
+    "Representation Theory/Quiver.md",
+    "Representation Theory/Path Algebra.md",
+    "Representation Theory/Lie Algebra Representation.md",
+    "Representation Theory/Filtration.md",
+    "Representation Theory/Graded Algebra.md",
+    "Functional Analysis/Sobolev Space.md",
+    "Functional Analysis/Multiplication Operator on Lp Space.md",
+    "Functional Analysis/L1 Space on d-regular Trees.md",
+    "Topology/Quotient Topology.md",
+    "Functional Analysis/Haar Measure.md",
+    "Lie Group/Homogeneous Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
