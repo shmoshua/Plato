@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Lie Group/Homogeneous Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Algebra/Group Action.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Lie Group/Homogeneous Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group Homomorphism.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Lie Group/Homogeneous Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Lie Group/Homogeneous Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lattice.md"
+                "file": "Lie Group/Homogeneous Space.md"
               }
             }
           }
@@ -241,16 +241,19 @@
   },
   "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
-    "Algebra/Group Homomorphism.md",
-    "Lie Group/Lattice.md",
-    "Analysis/Inner Product Space.md",
-    "Functional Analysis/Haar Measure.md",
-    "Algebra/General Linear Group.md",
     "Topology/Quotient Topology.md",
+    "Algebra/Group Action.md",
+    "Lie Group/Homogeneous Space.md",
+    "Functional Analysis/Haar Measure.md",
+    "Lie Group/Lattice.md",
+    "Algebra/Group Homomorphism.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Functional Analysis/Unimodular Group.md",
+    "Analysis/Inner Product Space.md",
+    "Algebra/General Linear Group.md",
     "Lie Group/Topological Group.md",
     "Algebra/Special Linear Group.md",
     "Algebra/Orthogonal Group.md",
-    "Algebra/Group Action.md",
     "Algebra/Orbit and Stablizer.md",
     "Measure Theory/Lebesgue Measure.md",
     "Functional Analysis/Bounded Linear Map.md",
@@ -258,15 +261,12 @@
     "Topology/Topology of Compact Convergence.md",
     "Topology/Compact-Open Topology.md",
     "Topology/Product Topology.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Semi-direct Product.md",
     "Topology/Compact Space.md",
     "Topology/Connected Space.md",
     "Topology/Locally Compact Space.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Courses/Topology/Exercise Sheet 4.md",
-    "Topology/Hausdorff Space.md",
-    "Courses/Topology/Exercise Sheet 2.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
