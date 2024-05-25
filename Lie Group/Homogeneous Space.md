@@ -13,7 +13,7 @@
 > 2. the $G$-map is continuous.
 > 3. If $G$ is LCH and second countable and $X$ is LCH, then the bijection is a homeomorphism.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $\Psi$ denote the map. Then, it is well-defined: for $g,h\in G$ with $g^{-1}h\in G_{x}$, $$hx=g g^{-1}hx=gx$$Then, it is injective as if $gx=hx$, then $g^{-1}hx=x$ and $g^{-1}h\in G_{x}$. Therefore, $gG_{x}=hG_{x}$. It is surjective as for any $y\in X$, there exists $g\in G$ s.t. $gx=y$ by transitivity of the group action.
 >    
@@ -30,3 +30,18 @@
 > Let $x\in X$. Then, from the transitivity, $\mu(G\times \{ x \})=X$. As $G\times \{ x \}$ is compact and connected if $G$ is compact and connected, $X$ is compact and connected.
 > 
 ---
+##### Examples
+> [!h] Example 1
+> Consider the action $\text{SO}(n+1,\mathbb{R})\curvearrowright S^n$. Then, 
+> 1. this action is transitive.
+> 2. for $e_{n+1}\in S^n$ unit vector, $$\text{SO}(n+1,\mathbb{R})_{e_{n+1}}=\{ g\in \text{SO}(n+1,\mathbb{R}):ge_{n+1}=e_{n+1} \}=\left\{ \begin{bmatrix}h&0\\0&1\end{bmatrix} :h\in \text{SO}(n,\mathbb{R})\right\}$$Therefore, $\text{SO}(n+1,\mathbb{R}) / \text{SO}(n,\mathbb{R})\cong S^n$.
+---
+> [!h] Example 2
+> Let $\text{GO}_{k}:=\{ (v_{1},\dots,v_{k})\in (\mathbb{R}^n)^k:v_{1},\dots,v_{k}\text{ are orthonormal} \}$. Then, 
+> 1. $\text{O}(n,\mathbb{R})\curvearrowright\text{GO}_{k}$ by multiplication is transitive.
+> 2. If $k\leq n-1$, $\text{SO}(n,\mathbb{R})\curvearrowright \text{GO}_{k}$ is transitive.
+> 3. For $(e_{1},\dots,e_{k})\in \text{GO}_{k}$, we have: $$\text{O}(n,\mathbb{R})_{(e_{1},\dots,e_{k})}=\left\{ \begin{bmatrix}\text{Id}_{k}&0\\0&h\end{bmatrix} :h\in \text{O}(n-k,\mathbb{R})\right\}$$Therefore, $\text{O}(n,\mathbb{R}) / \text{O}(n-k,\mathbb{R})\cong \text{GO}_{k}$.
+---
+> [!h] Example 3
+> Let $\mathcal{R}$ be the set of [[Lattice|lattices]] on $\mathbb{R}^n$. Then, 
+> 1. $\text{GL}(n,\mathbb{R})\curvearrowright \mathcal{R}$ as $\mathcal{R}:=\{ \mathbb{Z}f_{1}+\dots+\mathbb{Z}f_{n}:f_{1},\dots,f_{n}\in \mathbb{R}^n\text{ linearly independent} \}$ [[Lattice]]
