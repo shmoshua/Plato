@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,8 +104,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
-                "mode": "source",
+                "file": "Algebra/Group Homomorphism.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -241,15 +241,16 @@
   },
   "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
-    "Lie Group/Topological Group.md",
-    "Topology/Quotient Topology.md",
+    "Algebra/Group Homomorphism.md",
     "Lie Group/Lattice.md",
+    "Analysis/Inner Product Space.md",
+    "Functional Analysis/Haar Measure.md",
     "Algebra/General Linear Group.md",
+    "Topology/Quotient Topology.md",
+    "Lie Group/Topological Group.md",
     "Algebra/Special Linear Group.md",
     "Algebra/Orthogonal Group.md",
     "Algebra/Group Action.md",
-    "Functional Analysis/Haar Measure.md",
-    "Analysis/Inner Product Space.md",
     "Algebra/Orbit and Stablizer.md",
     "Measure Theory/Lebesgue Measure.md",
     "Functional Analysis/Bounded Linear Map.md",
@@ -266,7 +267,6 @@
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Hausdorff Space.md",
     "Courses/Topology/Exercise Sheet 2.md",
-    "Courses/Topology/Exercise Sheet 3.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
