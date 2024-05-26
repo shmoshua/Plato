@@ -31,3 +31,4 @@
 > [!h] Example 5
 > For a Lie group $G$ and a subgroup $H\leq G$ that is also a [[regular submanifold]], 
 > 1. $H$ is a Lie group with smooth structure induced by $\{ (U\cap H,\varphi|_{U\cap H}) \}$.
+> 2. $H$ is closed in this case.

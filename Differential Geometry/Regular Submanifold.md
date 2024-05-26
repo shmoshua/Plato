@@ -8,7 +8,8 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $F\in C^\infty(N,M)$ with constant rank $k$. For $q\in F(N), F^{-1}(q)$ is a submanifold of $N$ of dimension $n-k$.
+> Let $M,M'$ be [[Smooth Manifold|smooth manifolds]] and $f\in C^\infty(M,M')$ with constant [[rank]] $k$. 
+> 1. For $q\in f(M), f^{-1}(q)$ is a regular submanifold of $M$ of dimension $m-k$.
 
 > [!proof]-
 > Let $p\in F^{-1}(q)$. Then, by [[Rank|Corollary 2]], there are charts $(U,\varphi),(W,\psi)$ at $p,F(p)$ respectively s.t. 

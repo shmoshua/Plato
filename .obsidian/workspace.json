@@ -36,11 +36,16 @@
             "id": "6a7b987e5ea1b218",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Regular Submanifold.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -65,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Differential Geometry/Regular Submanifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -77,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Locally Compact Topological Group.md",
+                "file": "Differential Geometry/Rank.md",
                 "mode": "preview",
                 "source": false
               }
@@ -95,7 +100,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Differential Geometry/Regular Submanifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Differential Geometry/Regular Submanifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Group.md"
+                "file": "Differential Geometry/Regular Submanifold.md"
               }
             }
           }
@@ -223,16 +229,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "cd96f963b7fd8fe8",
+  "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
-    "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Regular Submanifold.md",
-    "Lie Group/Lie Group.md",
+    "Differential Geometry/Rank.md",
     "Lie Group/Locally Compact Topological Group.md",
+    "Differential Geometry/Regular Submanifold.md",
+    "Lie Group/Topological Group.md",
+    "Lie Group/Lie Group.md",
+    "Differential Geometry/Topological Manifold.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Locally Compact Space.md",
     "Topology/Paracompact Space.md",
-    "Lie Group/Topological Group.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Smooth Function.md",
     "Functional Analysis/Unimodular Group.md",
@@ -250,7 +257,6 @@
     "Functional Analysis/Holomorphic Function.md",
     "Functional Analysis/Normal Operator.md",
     "Functional Analysis/Unitary Linear Map.md",
-    "Axiom of Choice.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
