@@ -14,3 +14,9 @@
 > [!proof]-
 > For an open cover $\{ U_{\alpha} \}\alpha$ and a compact space $X$, let $\{ U_{i} \}_{i=1}^n$ be the finite subcover. Then, the subcover is a locally finite refinement.
 ---
+> [!h] Example 2
+> Every [[topological manifold]] is paracompact.
+
+^8754e4
+
+---

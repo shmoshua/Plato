@@ -56,6 +56,16 @@
 	
 - **Related definition**: Two charts $(U_{\alpha},\varphi_{\alpha}),(U_{\beta},\varphi_{\beta})$ are ***$C^k$-compatible***, if $\theta_{\beta\alpha},\theta_{\alpha\beta}\in C^k$.
 ---
+##### Properties
+> [!lemma] Proposition 1
+> A topological manifold as a finitely many connected components.
+---
+![[Paracompact Space#^8754e4]]
+
+---
+
+
+---
 ##### Examples
 > [!h] Example 1
 > The following are topological manifolds:

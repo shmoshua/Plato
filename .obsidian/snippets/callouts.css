@@ -31,6 +31,10 @@
   --callout-color: 190,41,236;
 }
 
+.inline-embed .markdown-embed-content .callout[data-callout="h"]{
+  --callout-color: 190,41,236;
+}
+
 .callout-content {
   padding-top: 0px;
   margin-top: -0.5em;

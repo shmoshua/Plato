@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -36,16 +36,11 @@
             "id": "6a7b987e5ea1b218",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Unimodular Group.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -58,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -82,7 +77,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Space.md",
+                "file": "Topology/Paracompact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -100,8 +95,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Locally Compact Space.md",
+                "file": "Lie Group/Lie Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Locally Compact Space.md",
+                "file": "Lie Group/Lie Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Locally Compact Space.md"
+                "file": "Lie Group/Lie Group.md"
               }
             }
           }
@@ -229,20 +223,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f7980f49eec75b39",
+  "active": "cd96f963b7fd8fe8",
   "lastOpenFiles": [
-    "Analysis/Pushforward Measure.md",
-    "Topology/Lindelöf Space.md",
-    "Topology/Locally Compact Space.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Measure Theory/Summable Function.md",
-    "Topology/Paracompact Space.md",
+    "Differential Geometry/Smooth Function.md",
     "Lie Group/Lie Group.md",
-    "Lie Group/Lattice.md",
-    "Differential Geometry/Smooth Manifold.md",
-    "Functional Analysis/Unimodular Group.md",
-    "Lie Group/Homogeneous Space.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Topology/Paracompact Space.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Functional Analysis/Unimodular Group.md",
+    "Differential Geometry/Differential k-Form.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Topology/Locally Compact Space.md",
+    "Topology/Lindelöf Space.md",
+    "Analysis/Pushforward Measure.md",
+    "Measure Theory/Summable Function.md",
+    "Lie Group/Lattice.md",
+    "Lie Group/Homogeneous Space.md",
     "Functional Analysis/Haar Measure.md",
     "Lie Group/Topological Group.md",
     "Topology/Quotient Topology.md",
@@ -255,8 +251,6 @@
     "Axiom of Choice.md",
     "Representation Theory/Dual Representation.md",
     "Representation Theory/Character.md",
-    "Representation Theory/Weyl Algebra.md",
-    "Representation Theory/Universal Enveloping Algebra.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
