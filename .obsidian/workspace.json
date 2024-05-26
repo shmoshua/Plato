@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "file": "Lie Group/Homogeneous Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "file": "Lie Group/Homogeneous Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md"
+                "file": "Lie Group/Homogeneous Space.md"
               }
             }
           }
@@ -241,13 +241,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f7980f49eec75b39",
+  "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
-    "Lie Group/Homogeneous Space.md",
     "Measure Theory/Summable Function.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
+    "Topology/Quotient Topology.md",
+    "Lie Group/Homogeneous Space.md",
     "Measure Theory/Integrable Function.md",
     "Functional Analysis/Haar Measure.md",
-    "Topology/Quotient Topology.md",
     "Functional Analysis/Holomorphic Function.md",
     "Functional Analysis/Normal Operator.md",
     "Functional Analysis/Unitary Linear Map.md",
@@ -268,7 +269,6 @@
     "Representation Theory/Path Algebra.md",
     "Representation Theory/Lie Algebra Representation.md",
     "Representation Theory/Filtration.md",
-    "Representation Theory/Graded Algebra.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

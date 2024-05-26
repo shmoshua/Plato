@@ -36,10 +36,11 @@
 > 2. in this case, $\mu_{G / H}$ is unique up to multiplication by positive scalars. 
 > 3. there exists a unique $G$-invariant regular Borel measure $\mu_{G / H}$ s.t. $$\int_{G}f \, d\mu_{G}=\int_{G / H}^{} \int_{H}^{} f(gh) \, d\mu_{H}(h)  \, d\mu_{G / H}(gH),\quad \forall f\in C_{00}(G)  $$
 
-> [!proof]+
+> [!proof]-
 > We will show that the formula is well-defined:
 > 1. We have that given $g\in G$, $h\mapsto f(gh)$ is a continuous compactly supported function as $f\in C_{00}(G)$.
-> 2. Let $T_{H}f(g):=\int_{H}^{} f(gh) \, d\mu_{H}(h)$. By [[Uniformly Continuous Function|Lemma 1]]
+> 2. Let $T_{H}f(g):=\int_{H}^{} f(gh) \, d\mu_{H}(h)$. By [[Uniformly Continuous Function|Lemma 1]] and [[Summable Function|DCT]], $T_{H}f$ is continuous. Moreover, for any $v\in H$, we have: $$T_{H}f(gv)=\int_{H}^{} f(gvh) \, d\mu_{H}(h)=\int_{H}^{} f(gh) \, d\mu_{H}(h)=T_{H}f(g) $$Therefore, we can view $T_{H}f$ can be viewed as a continuous function from $G / H$. 
+> 3. Lastly, if $p:G\to G / H$ the standard projection, $$\text{supp }T_{H}f\subseteq p(\text{supp }f)$$and as $p(\text{supp }f)$ is compact, $\text{supp }T_{H}f$ is compact and $T_{H}f\in C_{00}(G / H)$.
 ---
 ##### Examples
 > [!h] Example 1
@@ -58,3 +59,4 @@
 > 1. $\text{GL}(n,\mathbb{R})\curvearrowright \mathcal{R}$ as $\mathcal{R}:=\{ \mathbb{Z}f_{1}+\dots+\mathbb{Z}f_{n}:f_{1},\dots,f_{n}\in \mathbb{R}^n\text{ linearly independent} \}$ by [[Lattice|Example 1]].
 > 2. For $\Gamma_{0}:=\mathbb{Z}e_{1}+\dots+\mathbb{Z}e_{n}$, $$\begin{align}\text{GL}(n,\mathbb{R})_{\Gamma_{0}}&=\{ g\in \text{GL}(n,\mathbb{R}):\mathbb{Z}g(e_{1})+\dots+\mathbb{Z}g(e_{n})=\mathbb{Z}e_{1}+\dots+\mathbb{Z}e_{n} \}\\&=\text{GL}(n,\mathbb{Z})\end{align}$$
 >    Therefore, $\mathcal{R}\cong \text{GL}(n,\mathbb{R}) / \text{GL}(n,\mathbb{Z})$
+---
