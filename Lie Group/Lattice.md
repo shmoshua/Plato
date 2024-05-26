@@ -5,6 +5,12 @@
 > 1. $\Gamma$ is discrete
 > 2. there exists a finite $G$-invariant regular Borel measure on $G / \Gamma$.
 ---
+> [!lemma] Proposition 1
+> Let $G$ be an LCH group and $\Gamma\leq G$ a lattice. Then, $G$ is [[Unimodular Group|unimodular]].
+
+> [!proof]+
+> By definition, there exists a finite $G$-invariant regular Borel measure $\mu_{G / \Gamma}$ on $G / \Gamma$. Then, by [[Homogeneous Space|Weil's formula]], $\Delta_{G}|_{\Gamma}=\Delta_{\Gamma}=1$ as $\Gamma$ is discrete. Therefore, $\Gamma\leq\text{ker }\Delta_{G}$ and we can factor $\Delta_{G}=\Delta \cdot p$ where $\Delta:G / \Gamma\to \mathbb{R}_{>0}^\times$. Further, for $g\in G$ and $x\in G / \Gamma$, we have: $$\Delta(gx)=\Delta_{G}(g)\Delta(x)$$Now, consider the pushforward $\Delta_{*}(\mu_{G / \Gamma})$ is a finite measure. Further, the measure is $\Delta_{G}(G)$-invariant as for $g\in G$: $$\mu_{G / \Gamma}(\Delta ^{-1}(\Delta_{G}(g)E))=\mu_{G / \Gamma}(g\Delta ^{-1}(E))=\mu_{G / \Gamma}(\Delta ^{-1}(E))$$ 
+---
 ##### Examples
 > [!h] Example 1 (Rn)
 > Let $\mathcal{R}$ be the set of all lattices on $\mathbb{R}^n$. For a subgroup $\Gamma\leq \mathbb{R}^n$, the following are equivalent:

@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group Action.md",
+                "file": "Lie Group/Lattice.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -82,8 +82,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
-                "mode": "source",
+                "file": "Lie Group/Lattice.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Analysis/Pushforward Measure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Lie Group/Lattice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Lie Group/Lattice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md"
+                "file": "Lie Group/Lattice.md"
               }
             }
           }
@@ -241,18 +241,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "282d6b7b77d25cc4",
+  "active": "f7980f49eec75b39",
   "lastOpenFiles": [
-    "Measure Theory/Summable Function.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
-    "Topology/Quotient Topology.md",
-    "Lie Group/Homogeneous Space.md",
-    "Measure Theory/Integrable Function.md",
+    "Analysis/Pushforward Measure.md",
+    "Lie Group/Lattice.md",
     "Functional Analysis/Haar Measure.md",
+    "Functional Analysis/Unimodular Group.md",
+    "Lie Group/Homogeneous Space.md",
+    "Topology/Quotient Topology.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
+    "Algebra/Group Action.md",
+    "Measure Theory/Summable Function.md",
+    "Measure Theory/Integrable Function.md",
     "Functional Analysis/Holomorphic Function.md",
     "Functional Analysis/Normal Operator.md",
     "Functional Analysis/Unitary Linear Map.md",
-    "Functional Analysis/Unimodular Group.md",
     "Axiom of Choice.md",
     "Representation Theory/Dual Representation.md",
     "Representation Theory/Character.md",
@@ -266,9 +269,6 @@
     "Representation Theory/Representation.md",
     "Representation Theory/Quiver Representation.md",
     "Representation Theory/Quiver.md",
-    "Representation Theory/Path Algebra.md",
-    "Representation Theory/Lie Algebra Representation.md",
-    "Representation Theory/Filtration.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

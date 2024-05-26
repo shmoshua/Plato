@@ -31,7 +31,7 @@
 > 
 ---
 > [!lemma] Theorem 3 (Weil's Formula)
-> Let $G$ be a LCH group with left Haar meausre $\mu_{G}$. Let $H\leq G$ closed with left Haar measure $\mu_{H}$. Then, 
+> Let $G$ be a LCH group with left Haar measure $\mu_{G}$. Let $H\leq G$ closed with left Haar measure $\mu_{H}$. Then, 
 > 1. there exists a $G$-invariant regular Borel measure on $G / H$ if and only if $\Delta_{G}|_{H}=\Delta_{H}$.
 > 2. in this case, $\mu_{G / H}$ is unique up to multiplication by positive scalars. 
 > 3. there exists a unique $G$-invariant regular Borel measure $\mu_{G / H}$ s.t. $$\int_{G}f \, d\mu_{G}=\int_{G / H}^{} \int_{H}^{} f(gh) \, d\mu_{H}(h)  \, d\mu_{G / H}(gH),\quad \forall f\in C_{00}(G)  $$
