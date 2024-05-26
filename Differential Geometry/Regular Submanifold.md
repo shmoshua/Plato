@@ -11,8 +11,12 @@
 > Let $M,M'$ be [[Smooth Manifold|smooth manifolds]] and $f\in C^\infty(M,M')$ with constant [[rank]] $k$. 
 > 1. For $q\in f(M), f^{-1}(q)$ is a regular submanifold of $M$ of dimension $m-k$.
 
-> [!proof]-
-> Let $p\in F^{-1}(q)$. Then, by [[Rank|Corollary 2]], there are charts $(U,\varphi),(W,\psi)$ at $p,F(p)$ respectively s.t. 
-> 1. $\varphi(p)=0$, $\psi(q)=0$ and
-> 2. $\varphi(U)=(-\varepsilon,\varepsilon)^n$ and $\psi(W)=(-\varepsilon,\varepsilon)^m$ as well as:
-> 3. $\psi \circ F\circ\varphi ^{-1}(x_{1},\dots,x_{n})=(x_{1},\dots,x_{k},0,\dots,0)$
+> [!proof]- Proof (Incomplete)
+> Let $p\in f^{-1}(q)$. 
+---
+##### Examples
+> [!h] Example 1
+> $\text{SL}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a regular $n^2-1$-submanifold of $\text{GL}(n,\mathbb{R})$.
+
+> [!proof]+
+> Consider $\det:\text{GL}(n,\mathbb{R})\to \mathbb{R}^\times$, which is smooth. We will show that $\det$ is constant rank. We have for $X\in \text{GL}(n,\mathbb{R})$: $$\begin{align}d_{A}\det(X)&=\left. \frac{d}{dt} \right| _{t=0}\det(X+tA)\\&=\end{align}$$

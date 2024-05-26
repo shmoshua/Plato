@@ -1,7 +1,7 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $f:M\to N$ [[Differentiable Function|differentiable]] at $p\in M$. For $(U,\varphi)$ at $p$ and $(W,\psi)$ at $f(p)$, the ***rank*** of $f$ at $p$ is the rank of $d_{\varphi(p)}(\psi \circ f\circ\varphi ^{-1}):\mathbb{R}^m\to \mathbb{R}^n$ at $\varphi(p)$.
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $f:M\to N$ [[Differentiable Function|differentiable]] at $p\in M$. For $(U,\varphi)$ at $p$ and $(W,\psi)$ at $f(p)$, the ***rank*** of $f$ at $p$ is the rank of $d_{\varphi(p)}(\psi  f\varphi ^{-1}):\mathbb{R}^m\to \mathbb{R}^n$.
 - **Related definition**: A value $y\in N$ is ***regular*** if $f$ has rank $n$ at every point in $f^{-1}(y)$.
 ---
 ##### Properties

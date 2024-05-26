@@ -43,6 +43,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "4a5bc6ad561aa86d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Rank.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -94,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lindelöf Space.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -232,8 +244,11 @@
   "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
     "Differential Geometry/Rank.md",
-    "Lie Group/Locally Compact Topological Group.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Regular Submanifold.md",
+    "Topology/Lindelöf Space.md",
+    "Lie Group/Locally Compact Topological Group.md",
     "Lie Group/Topological Group.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Topological Manifold.md",
@@ -244,7 +259,6 @@
     "Differential Geometry/Smooth Function.md",
     "Functional Analysis/Unimodular Group.md",
     "Differential Geometry/Differential k-Form.md",
-    "Topology/Lindelöf Space.md",
     "Analysis/Pushforward Measure.md",
     "Measure Theory/Summable Function.md",
     "Lie Group/Lattice.md",
@@ -255,8 +269,6 @@
     "Algebra/Group Action.md",
     "Measure Theory/Integrable Function.md",
     "Functional Analysis/Holomorphic Function.md",
-    "Functional Analysis/Normal Operator.md",
-    "Functional Analysis/Unitary Linear Map.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
