@@ -27,11 +27,13 @@
 **1.5 Haar Measures and Homogeneous Spaces**
 1. [[Haar Measure]]
 2. [[Unimodular Group]]
-3. 
+3. [[Homogeneous Space]]
 4. [[Lattice]]
 ---
 
 ##### 2. Lie Groups
+**2.1 Lie Groups: Basic Definitions and General Facts**
+1. [[Lie Group]]
 ---
 ##### 3. Structure Theory
 ---

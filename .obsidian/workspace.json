@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
-                "mode": "preview",
+                "file": "Lie Group/Lie Group.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Functional Analysis/Unimodular Group.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Differential Geometry/Smooth Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lattice.md"
+                "file": "Differential Geometry/Topological Manifold.md"
               }
             }
           }
@@ -243,11 +243,16 @@
   },
   "active": "f7980f49eec75b39",
   "lastOpenFiles": [
-    "Analysis/Pushforward Measure.md",
     "Lie Group/Lattice.md",
-    "Functional Analysis/Haar Measure.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Smooth Manifold.md",
     "Functional Analysis/Unimodular Group.md",
     "Lie Group/Homogeneous Space.md",
+    "Lie Group/Lie Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Functional Analysis/Haar Measure.md",
+    "Lie Group/Topological Group.md",
+    "Analysis/Pushforward Measure.md",
     "Topology/Quotient Topology.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Algebra/Group Action.md",
@@ -264,11 +269,6 @@
     "Representation Theory/Tensor Product.md",
     "Representation Theory/Tensor Algebra.md",
     "Representation Theory/Special Linear Lie Algebra.md",
-    "Representation Theory/Semisimple Representation.md",
-    "Representation Theory/Representation Homomorphism.md",
-    "Representation Theory/Representation.md",
-    "Representation Theory/Quiver Representation.md",
-    "Representation Theory/Quiver.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
