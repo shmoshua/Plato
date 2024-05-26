@@ -19,7 +19,7 @@
 1. [[Rank]]
 
 **1.4 Submanifolds, Immersions, Embeddings**
-1. [[Submanifold]]
+1. [[Regular Submanifold]]
 2. [[immersion]]
 ---
 ##### 2. Tangent spaces, Differential and Whitney’s Embedding Theorem
