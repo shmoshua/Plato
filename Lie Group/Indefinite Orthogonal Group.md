@@ -5,7 +5,19 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> $\text{O}(p,q)\leq \text{GL}(p+q,\mathbb{R})$.
+> We have that:
+> 1. $\text{O}(p,q)\leq \text{GL}(p+q,\mathbb{R})$ is a closed [[Topological Group|topological subgroup]].
+> 2. $\text{O}(p,q)$ is compact if and only if $p=0$ or $q=0$.
+> 3. $\text{O}(p,q)$ is a [[Regular Submanifold|regular $\frac{n(n-1)}{2}$-submanifold]] of $\text{GL}(n,\mathbb{R})$ for $n=p+q$.
+> 4. $\text{O}(p,q)$ is a [[Lie group]].
+
+> [!proof]-
+> We have:
+> 1. [[Topological Group|Example 6]]
+> 2. [[Locally Compact Topological Group|Example 4]]
+> 3. [[Regular Submanifold|Example 1]]
+> 4. [[Lie Group|Example 6]]
+
 ---
 ##### Examples
 > [!h] Example 1

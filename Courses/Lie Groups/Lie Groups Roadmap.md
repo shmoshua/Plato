@@ -5,7 +5,9 @@
 1. [[Topological Group]]
 2. [[Compact-Open Topology]]
 3. **Examples of Topological Groups**: [[Topological Group|Elementary Topological Groups]]
-4. **Examples of Topological Groups**: [[Topological Group|$\text{Homeo}(X)$]] for compact $X$.
+4. **Examples of Topological Groups**: [[Orthogonal Group]]
+5. **Examples of Topological Groups**: [[Indefinite Orthogonal Group]]
+6. **Examples of Topological Groups**: [[Topological Group|$\text{Homeo}(X)$]] for compact $X$.
    
 **1.2 Compactness and Local Compactness**
 1. [[Locally Compact Space]]
@@ -38,6 +40,9 @@
 3. [[Smooth Function]]
 4. [[Paracompact Space]]
 5. [[Lie Group]]
+
+**2.2 Vector Fields and Lie Algebras**
+1. [[Ring of Germs]]
 ---
 ##### 3. Structure Theory
 ---
