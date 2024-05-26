@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Topology/Paracompact Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Topology/Paracompact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -82,19 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8902c663e58dc621",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Pushforward Measure.md",
+                "file": "Topology/Locally Compact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Summable Function.md",
+                "file": "Topology/Lindelöf Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -179,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Topology/Locally Compact Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Topology/Locally Compact Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md"
+                "file": "Topology/Locally Compact Space.md"
               }
             }
           }
@@ -243,20 +231,23 @@
   },
   "active": "f7980f49eec75b39",
   "lastOpenFiles": [
-    "Lie Group/Lattice.md",
+    "Analysis/Pushforward Measure.md",
+    "Topology/Lindelöf Space.md",
+    "Topology/Locally Compact Space.md",
     "Differential Geometry/Topological Manifold.md",
+    "Measure Theory/Summable Function.md",
+    "Topology/Paracompact Space.md",
+    "Lie Group/Lie Group.md",
+    "Lie Group/Lattice.md",
     "Differential Geometry/Smooth Manifold.md",
     "Functional Analysis/Unimodular Group.md",
     "Lie Group/Homogeneous Space.md",
-    "Lie Group/Lie Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Functional Analysis/Haar Measure.md",
     "Lie Group/Topological Group.md",
-    "Analysis/Pushforward Measure.md",
     "Topology/Quotient Topology.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Algebra/Group Action.md",
-    "Measure Theory/Summable Function.md",
     "Measure Theory/Integrable Function.md",
     "Functional Analysis/Holomorphic Function.md",
     "Functional Analysis/Normal Operator.md",
@@ -266,9 +257,6 @@
     "Representation Theory/Character.md",
     "Representation Theory/Weyl Algebra.md",
     "Representation Theory/Universal Enveloping Algebra.md",
-    "Representation Theory/Tensor Product.md",
-    "Representation Theory/Tensor Algebra.md",
-    "Representation Theory/Special Linear Lie Algebra.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
