@@ -32,3 +32,8 @@
 > For a Lie group $G$ and a subgroup $H\leq G$ that is also a [[regular submanifold]], 
 > 1. $H$ is a Lie group with smooth structure induced by $\{ (U\cap H,\varphi|_{U\cap H}) \}$.
 > 2. $H$ is closed in this case.
+---
+> [!h] Example 6
+> We have that:
+> 1. $\text{SL}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a Lie group per Example 5 and [[Regular Submanifold|Example 1]].
+> 2. 

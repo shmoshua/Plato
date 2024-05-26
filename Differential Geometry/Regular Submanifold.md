@@ -16,7 +16,11 @@
 ---
 ##### Examples
 > [!h] Example 1
-> $\text{SL}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a regular $n^2-1$-submanifold of $\text{GL}(n,\mathbb{R})$.
+> We have:
+> 1. $\text{SL}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a regular $n^2-1$-submanifold of $\text{GL}(n,\mathbb{R})$.
+> 2. $\text{O}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a regular $n(n-1) /2$-submanifold of $\text{GL}(n,\mathbb{R})$.
 
 > [!proof]+
-> Consider $\det:\text{GL}(n,\mathbb{R})\to \mathbb{R}^\times$, which is smooth. We will show that $\det$ is constant rank. We have for $X\in \text{GL}(n,\mathbb{R})$: $$\begin{align}d_{A}\det(X)&=\left. \frac{d}{dt} \right| _{t=0}\det(X+tA)\\&=\end{align}$$
+> We have:
+> 1. Consider $\det:\text{GL}(n,\mathbb{R})\to \mathbb{R}^\times$, which is smooth. We will show that $\det$ is constant rank. We have for $X\in \text{GL}(n,\mathbb{R})$: $$\begin{align}d_{A}\det(X)&=\left. \frac{d}{dt} \right| _{t=0}\det(A+tX)\\&=\det(A) \left. \frac{d}{dt} \right|_{t=0}\det(I+tA^{-1}X)\\&=\det(A)\cdot d_{I}\det(A^{-1}X) \end{align}$$Since $X\mapsto A^{-1}X$ defines an isomorphism, $\det:\text{GL}(n,\mathbb{R})\to \mathbb{R}^\times$ has a constant rank. Especially, $$\begin{align}d_{I}\det(X)&=\left. \frac{d}{dt} \right|_{t=0}\det(I+tX)\\&= \left. \frac{d}{dt} \right| _{t=0}t^n \det(t^{-1}I+X)\\&= \left. \frac{d}{dt} \right| _{t=0}t^n \det(t^{-1}I-(-X))\\&= \left. \frac{d}{dt} \right| _{t=0}t^n C_{-X}(t^{-1})\\&=\left. \frac{d}{dt} \right| _{t=0}t^n((t ^{-1})^n-(t^{-1})^{n-1}\text{tr}(-X)+(t ^{-1})^{n-2}P(t))\\&=\text{tr}(X)\end{align}$$where $C_{Y}(t):=\det(tI-Y)$ is the characteristic polynomial of $Y$. Therefore, $d_{I}\det(X)$ has rank $1$ and so does $\text{det}$. Using Theorem 1, $\det ^{-1}(1)$ is a regular $n^2-1$-submanifold.
+> 2. Consider the smooth map $f:\text{GL}(n,\mathbb{R})\to \text{GL}(n,\mathbb{R}),A\mapsto A^\top A$. Then, $$\begin{align}d_{A}f(X)&=\left. \frac{d}{dt} \right| _{t=0}(A+tX)^\top(A+tX)\\&=\left. \frac{d}{dt} \right| _{t=0}A^\top A+tA^\top X+tX^\top A+t^{2} X^\top X\end{align}$$

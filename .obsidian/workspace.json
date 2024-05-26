@@ -99,18 +99,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3bc0b190a708e9b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Differential.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -241,16 +229,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "282d6b7b77d25cc4",
+  "active": "6a7b987e5ea1b218",
   "lastOpenFiles": [
+    "Lie Group/Lie Group.md",
+    "Differential Geometry/Regular Submanifold.md",
     "Differential Geometry/Rank.md",
+    "Courses/Linear System Theory/Problem Set 3.md",
+    "Courses/Linear System Theory/Problem Set 2.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Regular Submanifold.md",
     "Topology/Lindelöf Space.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Lie Group/Topological Group.md",
-    "Lie Group/Lie Group.md",
     "Differential Geometry/Topological Manifold.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Locally Compact Space.md",
@@ -267,8 +257,6 @@
     "Topology/Quotient Topology.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Algebra/Group Action.md",
-    "Measure Theory/Integrable Function.md",
-    "Functional Analysis/Holomorphic Function.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
