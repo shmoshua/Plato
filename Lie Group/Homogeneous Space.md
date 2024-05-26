@@ -30,6 +30,17 @@
 > Let $x\in X$. Then, from the transitivity, $\mu(G\times \{ x \})=X$. As $G\times \{ x \}$ is compact and connected if $G$ is compact and connected, $X$ is compact and connected.
 > 
 ---
+> [!lemma] Theorem 3 (Weil's Formula)
+> Let $G$ be a LCH group with left Haar meausre $\mu_{G}$. Let $H\leq G$ closed with left Haar measure $\mu_{H}$. Then, 
+> 1. there exists a $G$-invariant regular Borel measure on $G / H$ if and only if $\Delta_{G}|_{H}=\Delta_{H}$.
+> 2. in this case, $\mu_{G / H}$ is unique up to multiplication by positive scalars. 
+> 3. there exists a unique $G$-invariant regular Borel measure $\mu_{G / H}$ s.t. $$\int_{G}f \, d\mu_{G}=\int_{G / H}^{} \int_{H}^{} f(gh) \, d\mu_{H}(h)  \, d\mu_{G / H}(gH),\quad \forall f\in C_{00}(G)  $$
+
+> [!proof]+
+> We will show that the formula is well-defined:
+> 1. We have that given $g\in G$, $h\mapsto f(gh)$ is a continuous compactly supported function as $f\in C_{00}(G)$.
+> 2. Let $T_{H}f(g):=\int_{H}^{} f(gh) \, d\mu_{H}(h)$. By [[Uniformly Continuous Function|Lemma 1]]
+---
 ##### Examples
 > [!h] Example 1
 > Consider the action $\text{SO}(n+1,\mathbb{R})\curvearrowright S^n$. Then, 

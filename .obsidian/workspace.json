@@ -6,7 +6,7 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
-        "dimension": 42.81609195402299,
+        "dimension": 49.42528735632184,
         "children": [
           {
             "id": "cd96f963b7fd8fe8",
@@ -44,12 +44,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
         "type": "tabs",
-        "dimension": 57.18390804597702,
+        "dimension": 50.57471264367817,
         "children": [
           {
             "id": "6343fc6755c861ea",
@@ -76,6 +77,18 @@
             }
           },
           {
+            "id": "f7980f49eec75b39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8902c663e58dc621",
             "type": "leaf",
             "state": {
@@ -93,26 +106,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36984071045ffc68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Holomorphic Function.md",
+                "file": "Measure Theory/Summable Function.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Holomorphic Function.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Holomorphic Function.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Holomorphic Function.md"
+                "file": "Functional Analysis/Uniformly Continuous Function.md"
               }
             }
           }
@@ -240,8 +241,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "36984071045ffc68",
+  "active": "f7980f49eec75b39",
   "lastOpenFiles": [
+    "Lie Group/Homogeneous Space.md",
+    "Measure Theory/Summable Function.md",
+    "Measure Theory/Integrable Function.md",
+    "Functional Analysis/Haar Measure.md",
+    "Topology/Quotient Topology.md",
+    "Functional Analysis/Holomorphic Function.md",
     "Functional Analysis/Normal Operator.md",
     "Functional Analysis/Unitary Linear Map.md",
     "Functional Analysis/Unimodular Group.md",
@@ -262,12 +269,6 @@
     "Representation Theory/Lie Algebra Representation.md",
     "Representation Theory/Filtration.md",
     "Representation Theory/Graded Algebra.md",
-    "Functional Analysis/Sobolev Space.md",
-    "Functional Analysis/Multiplication Operator on Lp Space.md",
-    "Functional Analysis/L1 Space on d-regular Trees.md",
-    "Topology/Quotient Topology.md",
-    "Functional Analysis/Haar Measure.md",
-    "Lie Group/Homogeneous Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
