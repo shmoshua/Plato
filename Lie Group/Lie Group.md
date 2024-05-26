@@ -34,6 +34,8 @@
 > 2. $H$ is closed in this case.
 ---
 > [!h] Example 6
-> We have that:
-> 1. $\text{SL}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a Lie group per Example 5 and [[Regular Submanifold|Example 1]].
-> 2. 
+> From [[Regular Submanifold|Example 1]] and Example 5,
+> 1. $\text{SL}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a Lie group.
+> 2. $\text{O}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a Lie group.
+> 3. $\text{O}(p,q,\mathbb{R})\leq \text{GL}(p+q,\mathbb{R})$ is a Lie group.
+---

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Lie Group/Indefinite Orthogonal Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -94,14 +94,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Rank.md",
+                "file": "Algebra/Orthogonal Group.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4861d0491455bace",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Locally Compact Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Regular Submanifold.md",
+                "file": "Lie Group/Locally Compact Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Regular Submanifold.md",
+                "file": "Lie Group/Locally Compact Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Regular Submanifold.md"
+                "file": "Lie Group/Locally Compact Topological Group.md"
               }
             }
           }
@@ -229,20 +241,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6a7b987e5ea1b218",
+  "active": "4861d0491455bace",
   "lastOpenFiles": [
-    "Lie Group/Lie Group.md",
+    "Lie Group/Indefinite Orthogonal Group.md",
+    "Algebra/Orthogonal Group.md",
     "Differential Geometry/Regular Submanifold.md",
+    "Lie Group/Lie Group.md",
+    "Lie Group/Locally Compact Topological Group.md",
+    "Lie Group/Topological Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Algebra/Special Orthogonal Groups.md",
     "Differential Geometry/Rank.md",
     "Courses/Linear System Theory/Problem Set 3.md",
     "Courses/Linear System Theory/Problem Set 2.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Space.md",
     "Topology/Lindelöf Space.md",
-    "Lie Group/Locally Compact Topological Group.md",
-    "Lie Group/Topological Group.md",
     "Differential Geometry/Topological Manifold.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Locally Compact Space.md",
     "Topology/Paracompact Space.md",
     "Differential Geometry/Smooth Manifold.md",
@@ -254,9 +269,6 @@
     "Lie Group/Lattice.md",
     "Lie Group/Homogeneous Space.md",
     "Functional Analysis/Haar Measure.md",
-    "Topology/Quotient Topology.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
-    "Algebra/Group Action.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
