@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Lie Group/Ring of Germs.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Lie Group/Ring of Germs.md",
                 "mode": "preview",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Topology/Topological Vector Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Convolution.md",
+                "file": "Algebra/Ring.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pre-compact",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +147,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -167,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Lie Group/Ring of Germs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Lie Group/Ring of Germs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md"
+                "file": "Lie Group/Ring of Germs.md"
               }
             }
           }
@@ -229,21 +230,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "282d6b7b77d25cc4",
+  "active": "6a7b987e5ea1b218",
   "lastOpenFiles": [
-    "Functional Analysis/Fourier Transform.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Algebra/Ring.md",
+    "Lie Group/Ring of Germs.md",
+    "Topology/Topological Vector Space.md",
     "Functional Analysis/Convolution.md",
     "Functional Analysis/Pontryagin Dual.md",
-    "Lie Group/Topological Group.md",
+    "Topology/Topological Vector Space with Seminorms.md",
     "Topology/Locally Compact Hausdorff Space.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Lie Group/Topological Group.md",
     "Analysis/Inner Product Space.md",
     "Differential Geometry/Regular Submanifold.md",
     "Lie Group/Indefinite Orthogonal Group.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Lie Group/Locally Compact Topological Group.md",
-    "Lie Group/Ring of Germs.md",
     "Functional Analysis/Dual Space.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Rank.md",
@@ -254,9 +258,6 @@
     "Algebra/Special Orthogonal Groups.md",
     "Courses/Linear System Theory/Problem Set 3.md",
     "Courses/Linear System Theory/Problem Set 2.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Tangent Space.md",
-    "Topology/Lindelöf Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

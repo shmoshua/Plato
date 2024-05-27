@@ -97,7 +97,7 @@
 >    
 >    Assume $\alpha(G)\subsetneq \widehat{\widehat{G}}$. Then, by [[Fourier Transform|Proposition 6]], there exists $F\in A(\widehat{\widehat{G}})$ with $F|_{\alpha(G)}=0$ and $F\neq 0$. However, $$F(\chi)=\int_{\widehat{G}}^{} f(\gamma)\overline{(\gamma,x)} \, d\omega(\gamma),\quad \forall f\in L^1(G) $$Then, for all $x\in G$, $$0=F(\alpha(x))=\int_{\widehat{G}}^{} f(\gamma)\overline{(\gamma,\alpha(x))} \, d\omega(\gamma)=\int_{\widehat{G}}^{} f(\gamma)\overline{(x,\gamma)} \, d\omega(\gamma)  $$Then, for all $h\in L^1(G)$, $$0=\int_{G}^{} h(x)\int_{\widehat{G}}^{} f(\gamma)\overline{(x,\gamma)} \, d\omega(\gamma)  \, d\lambda(x)=\int_{\widehat{G}}^{} f(\gamma)\int_{G}^{} h(x)\overline{(x,\gamma)} \, d\lambda(x)  \, d\omega(\gamma)=\int_{\widehat{G}}^{} f(\gamma)\widehat{h}(\gamma) \, d\omega(\gamma)   $$Therefore, by taking $d\mu=f\cdot d\omega$, the complex measure vanishes on $A(\widehat{G})$ and hence on $C_{0}(\widehat{G})$. It follows that, $\mu=0$.
 >    
->    Therefore, $f=0$ and $F=0$ which is a contradiction.
+>    Therefore, $f=0$ $\omega$-a.e.  and $F=0$ which is a contradiction.
 ---
 ##### Examples
 > [!h] Example 1
@@ -114,7 +114,7 @@
 > [!proof]-
 > Let $\varphi\in C^\infty_{00}(\mathbb{R})$. Then, $\varphi*\chi\in C^\infty(\mathbb{R})$. Therefore, $\chi\in C^\infty$ and as $\chi(t+h)=\chi(t)\chi(h)$, $$\chi'(t)=\lim_{ h \to 0 }  \frac{\chi(t+h)-\chi(t)}{h}=\lim_{ h \to 0 }  \frac{\chi(t)\chi(h)-\chi(t)}{h}=\chi(t)\chi'(0)$$
 
-> [!proof]+ Proof (Using Pontryagin Duality)
+> [!proof]- Proof (Using Pontryagin Duality)
 > Let $\widehat{\mathbb{R}}$ is a LCA group. Then, for a continuous homomorphism $\chi:\mathbb{R}\to \mathbb{T}$, then $\alpha(x)(\chi)=\chi(ax)$. Therefore, $\widehat{\mathbb{R}}$ is a LCH $\mathbb{R}$-vector space, which is finite. Therefore, $\widehat{\mathbb{R}}\cong \mathbb{R}^n$. Then, $$\mathbb{R}\cong \widehat{\widehat{\mathbb{R}}}\cong \widehat{\mathbb{R}^n}\cong \widehat{\mathbb{R}}^n\cong \mathbb{R}^{n^{2}}$$Therefore, $\widehat{\mathbb{R}}\cong \mathbb{R}$.
 ---
 > [!h] Example 3

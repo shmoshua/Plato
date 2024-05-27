@@ -16,4 +16,10 @@
 > [!proof]-
 > We know that $M_{\lambda}$ is continuous with a continuous inverse $M_{\lambda ^{-1}}$, and $L_{v}$ is continuous with a continuous inverse $L_{-v}$.
 ---
+> [!lemma] Theorem 2 (Riesz)
+> A Hausdorff TVS is locally compact if and only if it is finite dimensional.
 
+> [!proof]-
+> Let $X$ be a locally compact topological vector space. 
+> https://www.math.uni-konstanz.de/~infusino/Lect8.pdf
+---
