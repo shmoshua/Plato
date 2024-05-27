@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Differential Geometry/Differential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Differential Geometry/Differential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md"
+                "file": "Differential Geometry/Differential.md"
               }
             }
           }
@@ -287,12 +287,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6343fc6755c861ea",
+  "active": "cd96f963b7fd8fe8",
   "lastOpenFiles": [
+    "Differential Geometry/Tangent Space II.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Space.md",
     "Lie Group/Indefinite Orthogonal Group.md",
     "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Tangent Space II.md",
     "Lie Group/Ring of Germs.md",
     "Topology/Paracompact Space.md",
     "Representation Theory/Lie Algebra.md",
@@ -314,7 +315,6 @@
     "Differential Geometry/Tangent Bundle.md",
     "Algebra/Ring.md",
     "Topology/Topological Vector Space.md",
-    "Functional Analysis/Convolution.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

@@ -1,7 +1,9 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $F:M\to N$ be a [[differentiable function|smooth function]]. Then, the ***differential*** is defined as follows: for a chart $(U,\varphi)$ at $p$ and $(V,\psi)$ at $F(p)$ s.t. $F(U)\subseteq V$: $$\begin{array}{cccc} {d_{p}F:}&{\text{T}_{p}M}&\to&{\text{T}_{F(p)}N}\\&{[U,\varphi,v]_{p}} &\mapsto & {[V,\psi,d_{\varphi(p)}(\psi F\varphi ^{-1})v]_{F(p)}} \end{array}{}$$
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $F\in C^\infty(M,N)$ be a [[differentiable function|smooth function]]. The ***differential of $F$*** is:$$\begin{array}{cccc} {d_{p}F:}&{\text{T}_{p}M}&\to&{\text{T}_{F(p)}N}\\&{v} &\mapsto & {(g\mapsto v(g\circ F))} \end{array}{}$$
+
+> Then, the ***differential of $F$*** is defined as follows: for a chart $(U,\varphi)$ at $p$ and $(V,\psi)$ at $F(p)$ s.t. $F(U)\subseteq V$: $$\begin{array}{cccc} {d_{p}F:}&{\text{T}_{p}M}&\to&{\text{T}_{F(p)}N}\\&{[U,\varphi,v]_{p}} &\mapsto & {[V,\psi,d_{\varphi(p)}(\psi F\varphi ^{-1})v]_{F(p)}} \end{array}{}$$
 - **Remark**: given $f\in C^\infty(M)$, the differential at $p$ is defined as $$\begin{array}{cccc} {d_{p}f:}&{T_{p}M}&\to&{\mathbb{R}}\\&{[x,e_{i}]_{p}} &\mapsto & {[x,e_{i}]_{p}f} \end{array}{}$$
 - **Related definition**: $F$ is an ***immersion***, if $d_{p}F$ is injective for all $p\in M$.
 ---
