@@ -15,7 +15,12 @@
 > For an open cover $\{ U_{\alpha} \}\alpha$ and a compact space $X$, let $\{ U_{i} \}_{i=1}^n$ be the finite subcover. Then, the subcover is a locally finite refinement.
 ---
 > [!h] Example 2
-> Every [[topological manifold]] is paracompact.
+> Any second countable [[locally compact Hausdorff space]] is paracompact.
+
+> [!proof]+
+> Let $X$ be such a space. We have that:
+> 1. **Claim 1: there exists an open cover $\{ G_{i} \}_{i\geq 1}$ of relatively compact sets s.t. $\overline{G_{i}}\subseteq G_{i+1}$**
+>    Let $\{ U_{i} \}_{i\geq 1}$ be the countable basis of $X$. Modulo taking a sub-collection, we can assume that $U_{i}$ is relatively compact. More specifically, for any $V\subseteq X$ open, there exists $U_{i}\subseteq V$ in the basis. As $X$ is locally compact Hausdorff, there exists $U_{j}$ in the basis s.t. $$
 
 ^8754e4
 
