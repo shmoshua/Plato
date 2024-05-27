@@ -21,18 +21,6 @@
             }
           },
           {
-            "id": "54c8f18dfcc9b2a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Tangent Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "6a7b987e5ea1b218",
             "type": "leaf",
             "state": {
@@ -50,13 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -70,18 +59,6 @@
               "type": "markdown",
               "state": {
                 "file": "Differential Geometry/Differential.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7980f49eec75b39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Differential 1-Form.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Ring of Germs.md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -159,7 +136,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential.md"
+                "file": "Differential Geometry/Cotangent Space.md"
               }
             }
           }
@@ -287,15 +265,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6343fc6755c861ea",
+  "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
-    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Differential.md",
-    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Tangent Space II.md",
-    "Lie Group/Ring of Germs.md",
-    "Lie Group/Indefinite Orthogonal Group.md",
     "Differential Geometry/Smooth Function.md",
+    "Lie Group/Ring of Germs.md",
+    "Differential Geometry/Rank.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Tangent Space.md",
+    "Lie Group/Indefinite Orthogonal Group.md",
     "Topology/Paracompact Space.md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Smooth Manifold.md",
@@ -313,8 +293,6 @@
     "Courses/Topology/Exercise Sheet 10.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Differential Geometry/Vector Field.md",
-    "Differential Geometry/Tangent Bundle.md",
-    "Algebra/Ring.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
