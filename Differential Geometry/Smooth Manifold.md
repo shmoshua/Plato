@@ -33,8 +33,8 @@
 > 2. $\varphi|_{A}=1$
 > 3. $\text{supp }\varphi \subseteq U$
 
-> [!proof]+
-> There is a partition of unity $\{ \varphi,\psi \}$ subordinate to the cover $\{ U, M \backslash A \}$ of $M$ per of M with supp ~ c G and supp "P c M- A. Then ~ is the desired function.
+> [!proof]-
+> There is a partition of unity $\{ \varphi,\psi \}$ subordinate to the cover $\{ U, M \backslash A \}$ of $M$ per [[Partition of Unity|Example 2]] with $\text{supp }\varphi \subseteq G$ and $\text{supp }\psi \subseteq M\backslash A$. Then, $\varphi$ is the desired function.
 
 ---
 ##### Examples

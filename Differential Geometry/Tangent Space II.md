@@ -1,24 +1,19 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M$ be a [[smooth manifold]]. For $p\in M$, a ***tangent vector*** at $p$ is a linear form $X_{p}\in C^\infty_{p}(M)^{*}$ that satisfies the Leibniz rule, i.e. $$X_{p}(fg)=f(p)X_{p}(g)+X_{p}(f)g(p),\quad \forall f,g\in C^\infty_{p}(M)$$where $C^\infty_{p}(M)$ is the [[ring of germs]] at $p$. Then, $\text{T}_{p}M$ denotes the space of tangent vectors.
-
-- **Remark**: Due to the isomorphism $\text{T}_{p}M\ni v\mapsto \delta_{v}\in \text{Der}_{p}C^\infty(M)$ (cf. [[Derivation|Theorem 3]]), one also denotes $vf:=\delta_{v}f$. Then, we use $\delta_{v}\ \tilde{\in}\ \text{T}_{p}M$.
-- **Related definition**: For a chart $(U,\varphi)$ on $M$, we have: $$\left. \frac{ \partial  }{ \partial x^i } \right|_{p}:=\left. \frac{ \partial  }{ \partial \varphi^i } \right|_{p}:=\delta _{[\varphi,e_{i}]}\ \tilde{\in}\ \text{T}_{p}M$$Then, for any $v=[\varphi,(v^1,\dots,v^m)]_{p}\in \text{T}_{p}M$:$$\delta_{v}=\sum_{i=1}^mv^i\delta_{[\varphi,e_{i}]}=\sum_{i=1}^mv^i \left. \frac{ \partial  }{ \partial x^i } \right|_{p}\ \tilde{\in}\ \text{T}_{p}M$$
-	where $v^i\in \mathbb{R}$ are called the ***coefficients*** of $v$ in chart $\varphi$.
+> Let $M$ be a [[smooth manifold]]. For $p\in M$, a ***tangent vector*** at $p$ is a linear form $v\in C^\infty_{p}(M)^{*}$ that satisfies the Leibniz rule, i.e. $$v(fg)=f(p)v(g)+v(f)g(p),\quad \forall f,g\in C^\infty_{p}(M)$$where $C^\infty_{p}(M)$ is the [[ring of germs]] at $p$. Then, the ***tangent space*** $\text{T}_{p}M$ denotes the space of tangent vectors.
+- **Remark**: $\text{T}_{p}M$ is a $\mathbb{R}$-vector space.
 ---
 ##### Properties
-> [!lemma] Lemma 1
-> The relation $\sim$ is an equivalence relation.
 
-> [!proof]-
-> We have:
-> 1. **$\sim$ is reflexive**: For $[U,\varphi,v]$, $$d_{\varphi(p)}(\varphi \circ \varphi ^{-1})v=d_{\varphi(p)}(\text{id})v=v$$
-> 2. **$\sim$ is symmetric**: Suppose $[U,\varphi,v]\sim[W,\psi,v']$. Then, $$d_{\varphi(p)}(\psi \circ \varphi ^{-1})v=v'\implies v=(d_{\varphi(p)}(\psi \circ \varphi ^{-1}))^{-1}v'$$However, by the chain rule, $I_{m}=d_{\varphi(p)}(\varphi \circ\psi ^{-1}\circ\psi \circ\varphi ^{-1})=d_{\psi(p)}(\varphi \circ\psi^{-1})d_{\varphi(p)}(\psi \circ\varphi ^{-1})$, therefore, $v=d_{\psi(p)}(\varphi \circ\psi^{-1})v'$ which shows the symmetry.
-> 3. **$\sim$ is transitive**: Suppose $[U_{1},\varphi_{1},v_{1}]\sim[U_{2},\varphi_{2},v_{2}]$ and $[U_{2},\varphi_{2},v_{2}]\sim[U_{3},\varphi_{3},v_{3}]$. Then, $$\begin{align}d_{\varphi_{1}(p)}(\varphi_{3}\circ \varphi_{1}^{-1})v_{1}&=d_{\varphi_{1}(p)}(\varphi_{3}\circ\varphi_{2}^{-1}\circ \varphi_{2} \circ  \varphi_{1}^{-1})v_{1}\\&=d_{\varphi_{2}(p)}(\varphi_{3}\circ\varphi_{2}^{-1})d_{\varphi_{1}(p)}( \varphi_{2} \circ  \varphi_{1}^{-1})v_{1}\\&=v_{3}\end{align}$$
+> [!lemma] Proposition 1
+> Let $M$ be a smooth manifold. Then, $$\text{T}_{p}M\to (C_{p}^\infty(M)_{0} / C_{p}^\infty(M)_{0}^{2})^{*}$$defines a vector space isomorphism.
+
+> [!proof]+
+> Let $v\in \text{T}_{p}M$. Then, $v\in (C_{p}^\infty(M)_{0})^{*}$. Consider $f,g\in C_{p}^\infty(M)_{0}$. Then, $$v(fg)=f(p)v(g)+v(f)g(p)=0$$Therefore, $C_{p}^\infty(M)_{0}^{2}\subseteq \text{ker }v$
 ---
-> [!lemma] Lemma 2
-> Let $M$ be a [[smooth manifold]] and $(U,\varphi)$ a chart at $p\in M$. Then, $$\begin{array}{cccc} {}&{\mathbb{R}^m}&\to&{\text{T}_{p}M}\\&{v} &\mapsto & {[U,\varphi,v]_{p}} \end{array}{}$$is a bijection. The resulting vector space structure on $\text{T}_{p}M$ is independent of the choice of the chart $(U,\varphi)$.
+> [!lemma] Proposition 1
+> Let $M$ be a [[smooth manifold]]. Then, $$\begin{array}{cccc} {}&{\mathbb{R}^m}&\to&{\text{T}_{p}M}\\&{v} &\mapsto & {[U,\varphi,v]_{p}} \end{array}{}$$is a bijection. The resulting vector space structure on $\text{T}_{p}M$ is independent of the choice of the chart $(U,\varphi)$.
 
 > [!proof]-
 > We have:
