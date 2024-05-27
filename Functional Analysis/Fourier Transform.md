@@ -62,6 +62,27 @@
 > Therefore, $T$ is a Haar functional and there exists a Haar measure $\omega$ corresponding to $T$. Let $\psi\in C_{00}(\widehat{G})$ and $f\in L^1(G)\cap B(G)$. Pick $g\in C_{00}(G)\cap P(G)$ s.t. $\widehat{g}>0$ on $K=\text{supp }\psi$. Then, $$\int_{K}^{} \psi \, d\mu_{f}=\int_{K} \frac{\psi(\chi)}{\widehat{g}(\chi)}\widehat{g}(\chi)  \, d\mu_{f}(\chi)=\int_K \frac{\psi(\chi)}{\widehat{g}(\chi)}\widehat{f}(\chi) \, d\mu_{g}(\chi)=T(\psi \widehat{f})=\int_{\widehat{G}}\psi \widehat{f} \, d\omega    $$It follows that $\widehat{f}d\omega=\mu_{f}$.
 ---
 > [!lemma] Theorem 4 (Plancherel)
-> Let $G$ be an LCA group and $\lambda$ and $\omega$ be the Haar measures of $G$ and $\widehat{G}$ respectively, s.t. the inversion theorem holds. Then, the Fourier transform $$L^1(G)\cap B(G)\to C_{0}(\widehat{G}),\quad f\mapsto \widehat{f}$$extends to an isometric isomorphism 
+> Let $G$ be an LCA group and $\lambda$ and $\omega$ be the Haar measures of $G$ and $\widehat{G}$ respectively, s.t. the inversion theorem holds. Then, 
+> 1. for $f\in L^1(G)\cap L^2(G)$, $\widehat{f}\in L^2(\widehat{G})$ with $\|f\|_{2}^{2}=\|\widehat{f}\|^2_{2}$.
+> 2. 
+> the Fourier transform $$L^1(G)\cap B(G)\to C_{0}(\widehat{G}),\quad f\mapsto \widehat{f}$$extends to an isometric isomorphism $L^2(G)\to L^2(\widehat{G})$, i.e. 
+
+> [!proof]-
+> We have:
+> 1. Let $f\in L^1(G)\cap L^2(G)$. Define $g:=f*f^{*}$. Then, 
+> 	1. **Showing that $g\in L^1(G)\cap P(G)$.** 
+> 	  $g\in L^1(G)$ as a convolution of two $L^1(G)$ functions. Further, $$g(x)=\int_{G}^{} f(xy)\overline{f(y)} \, d\lambda(y)=\braket{ \rho(x ^{-1})f , f }  $$where $\rho(x ^{-1})f(y)=f(xy)$. Therefore, by the inversinon theorem at $x=e$, $$g(e)=\int_{\widehat{G}}^{} \widehat{g}(\gamma) \, d\omega(\gamma ) $$Since $g=f*f^{*}$, we have $\widehat{g}=\widehat{f}\cdot \overline{\widehat{f}}=\left| \widehat{f} \right|^{2}$. Therefore, $$g(e)=\int_{\widehat{G}}^{} \left| \widehat{f}(\gamma) \right|^{2}  \, d\omega(\gamma)= \|\widehat{f}\|_{2}^{2}$$and $$g(e)=\int_{G}f(y)\overline{f(y)}  \, d\lambda(y)=\int_{G}^{} \left| f(y) \right| ^{2} \, d\lambda(y)=\|f\|^2_{2}  $$
+>2. As $C_{00}(G)\subseteq L^1(G)\cap L^2(G)$, we have that $L^1(G)\cap L^2(G)\subseteq L^2(G)$ is dense. Therefore, it suffices to show that $$\mathcal{L}:=\{ \widehat{f}:f\in L^1(G)\cap L^2(G) \}\subseteq L^2(\widehat{G})$$is dense. Let $\psi\in L^2(\widehat{G})$ an assume that $\psi\ {\bot}\ \mathcal{L}$. Then, $$\int_{\widehat{G}}^{} \widehat{f}(\gamma)\overline{\psi(\gamma)} \, d\omega(\gamma)=0,\quad \forall f\in L^1(G)\cap L^2(G) $$ By considering $f_{x}(y):=f(xy)$ and $\widehat{f}_{x}(\gamma)=(x,\gamma)\widehat{f}(\gamma)$, $$0=\int_{\widehat{G}}^{} \widehat{f_{x}}(\gamma)\overline{\psi(\gamma)} \, d\omega(\gamma)= \int_{\widehat{G}}^{} (x,\gamma)\widehat{f}(\gamma)\overline{\psi(\gamma)} \, d\omega(\gamma) $$
+>   
+>   Therefore, for any $h\in L^1(G)$, $$\begin{align}0&=\int_{G}^{} h(x)\int_{\widehat{G}}^{} (x,\gamma)\widehat{f}(\gamma)\overline{\psi(\gamma)} \, d\omega(\gamma)  \, d\lambda(x)\\&=\int_{\widehat{G}}^{} \left( \int_{G}^{} h(x)(x,\gamma) \, d\lambda(x) \right) \widehat{f}(\gamma)\overline{\psi(\gamma)}  \, d\omega(\gamma) \\&=\int_{\widehat{G}}^{} \widehat{h}(\gamma^{-1})\widehat{f}(\gamma)\overline{\psi(\gamma)}  \, d\omega(\gamma) \end{align} $$By considering $\mu:=\widehat{f}\overline{\psi} \omega$ as a complex measure vanishing on $A(\widehat{G})$ and by theorem 1, $C_{0}(\widehat{G})$, we have that $\mu=0$. Therefore, $\widehat{f}\cdot \psi=0$ $\omega$-almost everywhere for all $f\in L^1(G)\cap L^2(G)$. However, recall that for $V\subseteq \widehat{G}$ open with $\overline{V}$ compact, there exists $f\in C_{00}(G)$ s.t. $\widehat{f}|_{\overline{V}}>0$. Therefore, $\psi=0$ in $L^2(G)$.
+>   
+> This proves the statement. 
+- **Corollary (Parseval's Formula):** For every $f,g\in L^2(G)$, $$\int_{G}^{} f(x)\overline{g(x)} \, d\lambda(x)=\int_{\widehat{G}}^{} \widehat{f}(\gamma)\overline{\widehat{g}(\gamma)} \, d\omega(\gamma)  $$using [[Inner Product Space|polarization identities]] as the Fourier transform preserves the norm.
+---
+> [!lemma] Theorem 5
+> The following holds true: $$A(\widehat{G})=\{ F_{1}*F_{2}:F_{1},F_{2}\in L^2(\widehat{G}) \}$$
+
+> [!proof]+
+> Let $F_{1},F_{2}\in L^2(\widehat{G})$ and let $f_{1},f_{2}\in L^2(G)$ with $\widehat{f}_{i}=F_{i}$. Then, $f_{1}f_{2}\in L^1(G)$ by Hölder and: $$\widehat{f_{1}f_{2}}(\gamma)=\int_{G}^{} f_{1}(x)\underbrace{ f_{2}(x)(x,\gamma) }_{ =:\overline{u(x)} } \, d\lambda(x)=\int_{G}f_{1}(x) \overline{u(x)} \, d\lambda(x) $$where $u\in L^2(G)$. 
 ---
 ##### Examples

@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Locally Compact Topological Group.md",
+                "file": "Analysis/Inner Product Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -228,10 +228,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "cd96f963b7fd8fe8",
+  "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Analysis/Inner Product Space.md",
+    "Analysis/Hilbert Space.md",
+    "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Fourier Transform.md",
+    "Lie Group/Locally Compact Topological Group.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Differential Geometry/Regular Submanifold.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Lie Group/Ring of Germs.md",
@@ -241,7 +245,6 @@
     "Lie Group/Lie Group.md",
     "Differential Geometry/Smooth Function.md",
     "Lie Group/Indefinite Orthogonal Group.md",
-    "Lie Group/Locally Compact Topological Group.md",
     "Lie Group/Topological Group.md",
     "Topology/Topological Space.md",
     "Algebra/Orthogonal Group.md",
@@ -253,9 +256,6 @@
     "Topology/Lindelöf Space.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Locally Compact Space.md",
-    "Topology/Paracompact Space.md",
-    "Differential Geometry/Smooth Manifold.md",
-    "Functional Analysis/Unimodular Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
