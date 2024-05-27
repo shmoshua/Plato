@@ -85,9 +85,19 @@
 > [!lemma] Theorem 7 (Pontryagin Duality Theorem)
 > Let $G$ be an LCA group. Then, $$\alpha:G\to \widehat{\widehat{G}},\quad x\mapsto (\gamma\mapsto\gamma(x))$$is a topological group isomorphism.
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. **Showing $\alpha$ is a homomorphism**.$$\alpha(x_{1}x_{2})(\gamma)=\gamma(x_{1}x_{2})=\gamma$$
+> 1. **Showing $\alpha$ is a homomorphism**.$$\alpha(x_{1}x_{2})(\gamma)=\gamma(x_{1}x_{2})=\gamma(x_{1})\gamma(x_{2})=\alpha(x_{1})(\gamma)\alpha(x_{2})(\gamma)$$
+> 2. **Showing $\alpha$ is injective**:
+>    let $x\neq y\in G$ and by Lemma 6.3 there exists a character $\chi\in \widehat{G}$ with $\chi(x)\neq \chi(y)$. Therefore, $\alpha(x)\neq\alpha(y)$. 
+> 3. **Showing $\alpha:G\to\alpha(G)$ is a homeomorphism**:
+>    For every compact $C\subseteq \widehat{G}$ and $r>0$, we have that: $$N_{G}(C,r)=\{ x\in G:\left| (x,\gamma)-1 \right|,\forall \gamma\in C  \}$$$$N_{\widehat{\widehat{G}}}(C,r)=\{ \chi\in \widehat{\widehat{G}}:\left| (\gamma,\chi)-1 \right| <r,\forall \gamma\in C \}$$form the basis of neighborhoods of $e$ in $G$ and $\alpha(e)$ in $\widehat{\widehat{G}}$ respectively. Then, $$\alpha(N_{G}(C,r))=N_{\widehat{\widehat{G}}}(C,r)\cap\alpha(G)$$
+> 4. **Showing $\alpha$ is surjective:**
+>    By [[Locally Compact Hausdorff Space|Lemma 4]], $\alpha(G)$ is an open subgroup of its losure $\overline{\alpha(G)}$ in $\widehat{\widehat{G}}$. Then by [[Topological Group|Proposition 2]], $\alpha(G)=\overline{\alpha(G)}$. 
+>    
+>    Assume $\alpha(G)\subsetneq \widehat{\widehat{G}}$. Then, by [[Fourier Transform|Proposition 6]], there exists $F\in A(\widehat{\widehat{G}})$ with $F|_{\alpha(G)}=0$ and $F\neq 0$. However, $$F(\chi)=\int_{\widehat{G}}^{} f(\gamma)\overline{(\gamma,x)} \, d\omega(\gamma),\quad \forall f\in L^1(G) $$Then, for all $x\in G$, $$0=F(\alpha(x))=\int_{\widehat{G}}^{} f(\gamma)\overline{(\gamma,\alpha(x))} \, d\omega(\gamma)=\int_{\widehat{G}}^{} f(\gamma)\overline{(x,\gamma)} \, d\omega(\gamma)  $$Then, for all $h\in L^1(G)$, $$0=\int_{G}^{} h(x)\int_{\widehat{G}}^{} f(\gamma)\overline{(x,\gamma)} \, d\omega(\gamma)  \, d\lambda(x)=\int_{\widehat{G}}^{} f(\gamma)\int_{G}^{} h(x)\overline{(x,\gamma)} \, d\lambda(x)  \, d\omega(\gamma)=\int_{\widehat{G}}^{} f(\gamma)\widehat{h}(\gamma) \, d\omega(\gamma)   $$Therefore, by taking $d\mu=f\cdot d\omega$, the complex measure vanishes on $A(\widehat{G})$ and hence on $C_{0}(\widehat{G})$. It follows that, $\mu=0$.
+>    
+>    Therefore, $f=0$ and $F=0$ which is a contradiction.
 ---
 ##### Examples
 > [!h] Example 1
@@ -103,6 +113,9 @@
 
 > [!proof]-
 > Let $\varphi\in C^\infty_{00}(\mathbb{R})$. Then, $\varphi*\chi\in C^\infty(\mathbb{R})$. Therefore, $\chi\in C^\infty$ and as $\chi(t+h)=\chi(t)\chi(h)$, $$\chi'(t)=\lim_{ h \to 0 }  \frac{\chi(t+h)-\chi(t)}{h}=\lim_{ h \to 0 }  \frac{\chi(t)\chi(h)-\chi(t)}{h}=\chi(t)\chi'(0)$$
+
+> [!proof]+ Proof (Using Pontryagin Duality)
+> Let $\widehat{\mathbb{R}}$ is a LCA group. Then, for a continuous homomorphism $\chi:\mathbb{R}\to \mathbb{T}$, then $\alpha(x)(\chi)=\chi(ax)$. Therefore, $\widehat{\mathbb{R}}$ is a LCH $\mathbb{R}$-vector space, which is finite. Therefore, $\widehat{\mathbb{R}}\cong \mathbb{R}^n$. Then, $$\mathbb{R}\cong \widehat{\widehat{\mathbb{R}}}\cong \widehat{\mathbb{R}^n}\cong \widehat{\mathbb{R}}^n\cong \mathbb{R}^{n^{2}}$$Therefore, $\widehat{\mathbb{R}}\cong \mathbb{R}$.
 ---
 > [!h] Example 3
 > Let $G_{1},G_{2}$ be abelian locally compact Hausdorff groups. Then,

@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "mode": "preview",
                 "source": false
               }
@@ -229,15 +229,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6a7b987e5ea1b218",
+  "active": "282d6b7b77d25cc4",
   "lastOpenFiles": [
-    "Differential Geometry/Regular Submanifold.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Fourier Transform.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Convolution.md",
-    "Lie Group/Indefinite Orthogonal Group.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Lie Group/Topological Group.md",
+    "Topology/Locally Compact Hausdorff Space.md",
     "Analysis/Inner Product Space.md",
+    "Differential Geometry/Regular Submanifold.md",
+    "Lie Group/Indefinite Orthogonal Group.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Lie Group/Locally Compact Topological Group.md",
@@ -247,7 +249,6 @@
     "Differential Geometry/Rank.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Smooth Function.md",
-    "Lie Group/Topological Group.md",
     "Topology/Topological Space.md",
     "Algebra/Orthogonal Group.md",
     "Algebra/Special Orthogonal Groups.md",
@@ -256,7 +257,6 @@
     "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Space.md",
     "Topology/Lindelöf Space.md",
-    "Differential Geometry/Topological Manifold.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
