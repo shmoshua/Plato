@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Smooth Curve.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,8 +44,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -70,19 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "282d6b7b77d25cc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
+                "file": "Differential Geometry/Smooth Curve.md",
                 "mode": "preview",
                 "source": false
               }
@@ -137,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "smooth",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,7 +170,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
+                "file": "Differential Geometry/Smooth Curve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
+                "file": "Differential Geometry/Smooth Curve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md"
+                "file": "Differential Geometry/Smooth Curve.md"
               }
             }
           }
@@ -265,15 +253,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "282d6b7b77d25cc4",
+  "active": "6343fc6755c861ea",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
+    "smooth.md",
+    "Differential Geometry/Smooth Curve.md",
+    "Differential Geometry/Partition of Unity.md",
     "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Tangent Space II.md",
+    "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Smooth Function.md",
     "Lie Group/Ring of Germs.md",
     "Differential Geometry/Rank.md",
-    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Tangent Space.md",
     "Lie Group/Indefinite Orthogonal Group.md",
     "Topology/Paracompact Space.md",
@@ -285,14 +277,10 @@
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Lie Group/Lie Group.md",
-    "Differential Geometry/Partition of Unity.md",
     "Topology/Locally Compact Space.md",
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Derivation.md",
-    "Courses/Topology/Exercise Sheet 10.md",
-    "Courses/Topology/Exercise Sheet 9.md",
-    "Differential Geometry/Vector Field.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

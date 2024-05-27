@@ -1,7 +1,7 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> A [[Smooth Curves in Rn|smooth curve]] $\gamma:I \to \mathbb{R}^n$ is a ***regular curve*** if for all $t\in I$: $$\frac{d\gamma}{dt}\neq 0$$i.e. the velocity vector $\gamma_{t}:= \frac{d\gamma}{dt}$ never vanishes.
+> A [[Smooth Curve|smooth curve]] $\gamma:I \to \mathbb{R}^n$ is a ***regular curve*** if for all $t\in I$: $$\frac{d\gamma}{dt}\neq 0$$i.e. the velocity vector $\gamma_{t}:= \frac{d\gamma}{dt}$ never vanishes.
 
 ---
 ##### Properties

@@ -10,5 +10,5 @@
 > We have that for chart $(U,\varphi)$ with $x^1,\dots,x^m$ as coordinates,
 > 1. $\{ d_{p}x^i \}_{i}$ forms a basis of $\text{T}^{*}_{p}M$, i.e. for $f\in C^\infty(M)$, $$d_{p}f=\sum_{i=1}^{m}\left. \frac{ \partial f }{ \partial x^i } \right| _{p}d_{p}x^i $$
 
-> [!proof]+
-> We have: $$d_{p}f\left( \left.\frac{ \partial  }{ \partial x^j }   \right|_{p}  \right) = $$where: $$d_{p}x^i\left( \left. \frac{ \partial  }{ \partial x^j }  \right|_{p}  \right)= \delta_{ij} \left. \frac{d}{dt} \right| _{p_{i}}$$
+> [!proof]-
+> We have: $$d_{p}f\left( \left.\frac{ \partial  }{ \partial x^j }   \right|_{p}  \right) =\left. \frac{ \partial f }{ \partial x^j }  \right| _{p} \left. \frac{d}{dt} \right| _{f(p)}=\sum_{i=1}^{m}\left. \frac{ \partial f }{ \partial x^i }  \right| _{p}\delta_{ij} \left. \frac{d}{dt} \right| _{p_{i}}=\sum_{i=1}^{m}\left. \frac{ \partial f }{ \partial x^i }  \right| _{p}d_{p}x^i\left( \left. \frac{ \partial  }{ \partial x^j }  \right|_{p}  \right)$$
