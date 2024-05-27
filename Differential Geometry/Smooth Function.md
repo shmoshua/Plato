@@ -30,11 +30,12 @@
 > [!proof]-
 > Let $x\in U$. Then, define $h:[0,1]\to \mathbb{R}$: $$h(t):=f(a+t(x-a))$$Then, $$h'(t)=\sum_{i=1}^{n}\left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}(x_{i}-a_{i})$$Therefore, $$\begin{align}h(1)-h(0)&=\int_{0}^{1} h'(t) \, dt\\&=\int_{0}^{1} \sum_{i=1}^{n}\left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}(x_{i}-a_{i}) \, dt\\&=\sum_{i=1}^{n}(x_{i}-a_{i})\int_{0}^{1}  \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}\, dt  \end{align}$$However, $$h(1)-h(0)=f(x)-f(a)$$This proves the statement.
 ---
-> [!lemma] Theorem 2 (Hadamard's Lemma)
-> Let $U\subseteq \mathbb{R}^n$ be open and [[Convex Set|convex]]. For $f\in C^\infty(U)$ and $a\in U$, we have that for all $x\in U$, $$f(x)=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i})\int_{0}^{1}  \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}\, dt $$
+> [!lemma] Corollary 2
+> Let $U\subseteq \mathbb{R}^n$ be open and [[Convex Set|convex]]. For $f\in C^\infty(U)$ and $a\in U$, we have that for all $x\in U$, $$f(x)=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i}) \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a} +\sum_{i,j=1}^{n}(x_{i}-a_{i})(x_{j}-a_{j})\int_{0}^{1} \left. \frac{ \partial^{2} f }{ \partial x_{i} \partial x_{j}}  \right| _{a+t(x-a)} \, dt $$
 
-> [!proof]+
-> Let $x\in U$. Then, define $h:[0,1]\to \mathbb{R}$: $$h(t):=f(a+t(x-a))$$Then, $$h'(t)=\sum_{i=1}^{n}\left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}(x_{i}-a_{i})$$Therefore, $$\begin{align}h(1)-h(0)&=\int_{0}^{1} h'(t) \, dt\\&=\int_{0}^{1} \sum_{i=1}^{n}\left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}(x_{i}-a_{i}) \, dt\\&=\sum_{i=1}^{n}(x_{i}-a_{i})\int_{0}^{1}  \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}\, dt  \end{align}$$However, $$h(1)-h(0)=f(x)-f(a)$$This proves the statement.
+> [!proof]-
+> Let $$g_{i}(x):=\int_{0}^{1}\left.  \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)} \, dt $$Then, $g_{i}\in C^\infty(U)$ and by Hadamard's Lemma, $$\begin{align}g_{i}(x)&=g_{i}(a)+\sum_{j=1}^{n}(x_{j}-a_{j})\int_{0}^{1} \left. \frac{ \partial^{2} f }{ \partial x_{i} \partial x_{j}}  \right| _{a+t(x-a)} \, dt\\&= \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a} +\sum_{j=1}^{n}(x_{j}-a_{j})\int_{0}^{1} \left.\frac{ \partial^{2} f }{ \partial x_{i} \partial x_{j}}  \right| _{a+t(x-a)} \, dt\end{align} $$
+> Therefore, $$\begin{align}f(x)&=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i})\int_{0}^{1}  \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}\, dt\\&=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i})\left( \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a} +\sum_{j=1}^{n}(x_{j}-a_{j})\int_{0}^{1} \left. \frac{ \partial^{2} f }{ \partial x_{i} \partial x_{j}}  \right| _{a+t(x-a)} \, dt \right) \\&=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i}) \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a} +\sum_{i,j=1}^{n}(x_{i}-a_{i})(x_{j}-a_{j})\int_{0}^{1} \left. \frac{ \partial^{2} f }{ \partial x_{i} \partial x_{j}}  \right| _{a+t(x-a)} \, dt \end{align}$$
 ---
 ##### Examples
 > [!h] Example 1
