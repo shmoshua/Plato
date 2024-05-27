@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Partition of Unity.md",
+                "file": "Differential Geometry/Smooth Manifold.md",
                 "mode": "source",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Atlas.md",
+                "file": "Differential Geometry/Smooth Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -279,11 +279,13 @@
   },
   "active": "4861d0491455bace",
   "lastOpenFiles": [
-    "Differential Geometry/Atlas.md",
+    "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Partition of Unity.md",
-    "Topology/Paracompact Space.md",
-    "Topology/Compact Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Compact Space.md",
+    "Topology/Locally Compact Space.md",
+    "Topology/Paracompact Space.md",
+    "Differential Geometry/Atlas.md",
     "Lie Group/Ring of Germs.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Differential Geometry/Topological Manifold.md",
@@ -303,8 +305,6 @@
     "Lie Group/Topological Group.md",
     "Analysis/Inner Product Space.md",
     "Differential Geometry/Regular Submanifold.md",
-    "Lie Group/Indefinite Orthogonal Group.md",
-    "Analysis/Hilbert Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

@@ -27,6 +27,16 @@
 > [!proof]-
 > Define a topology on $M$ by declaring all $x_{\alpha}$ to be homeomorphisms. This is well-defined as $x_{\alpha}$ are bijections. Then, $M$ is 2nd-countable Hausdorff by 3 and 4, and is a topological manifold. By 2, we have a smooth manifold.
 ---
+> [!lemma] Theorem 3 (Smooth Urysohn's Lemma)
+> Let $M$ be a smooth manifold. Let $A\subseteq U\subseteq M$ where $A$ is closed and $U$ open. Then, there exists a smooth function $\varphi\in C^\infty_{00}(M)$ s.t.
+> 1. $\text{im }\varphi \subseteq[0,1]$
+> 2. $\varphi|_{A}=1$
+> 3. $\text{supp }\varphi \subseteq U$
+
+> [!proof]+
+> There is a partition of unity $\{ \varphi,\psi \}$ subordinate to the cover $\{ U, M \backslash A \}$ of $M$ per of M with supp ~ c G and supp "P c M- A. Then ~ is the desired function.
+
+---
 ##### Examples
 > [!h] Example 1
 > We have that: 
