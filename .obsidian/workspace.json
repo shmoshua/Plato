@@ -50,13 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -81,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -159,7 +160,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md"
+                "file": "Differential Geometry/Smooth Function.md"
               }
             }
           }
@@ -287,14 +289,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6343fc6755c861ea",
+  "active": "e7961b54b9552b55",
   "lastOpenFiles": [
+    "Topology/Paracompact Space.md",
+    "Differential Geometry/Smooth Function.md",
     "Representation Theory/Lie Algebra.md",
+    "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Smooth Manifold.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Topology/Compact Space.md",
-    "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Tangent Space.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -302,7 +306,6 @@
     "Lie Group/Lie Group.md",
     "Differential Geometry/Partition of Unity.md",
     "Topology/Locally Compact Space.md",
-    "Topology/Paracompact Space.md",
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Derivation.md",
@@ -314,7 +317,6 @@
     "Topology/Topological Vector Space.md",
     "Functional Analysis/Convolution.md",
     "Topology/Topological Vector Space with Seminorms.md",
-    "Functional Analysis/Fourier Transform.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

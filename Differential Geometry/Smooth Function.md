@@ -18,10 +18,23 @@
 > 1. $F^{-1}(q)$ is finite.
 > 2. There exists an open connected set $V_{q}\subseteq N$ containing $q$ and for each $p\in F^{-1}(q)$ an open connected set $U_{p}\subseteq M$ containing $p$ s.t. $$F|_{U_{p}}:U_{p}\to V_{q}$$is a [[diffeomorphism]].
 
-> [!proof]+
+> [!proof]-
 > Since $q$ is regular, for all $p\in F^{-1}(q)$, the differential $d_{p}F$ has full rank and is an isomorphism in this case. Therefore, by the inverse function theorem, there exist open neighborhoods $U'_{p}$ and $V'_{q}$ s.t. $F|_{U'_{p}}:U'_{p}\to V'_{q}$ is a diffeomorphism.
 > 
 > In particular, $U'_{p}\cap F^{-1}(q)=\{ p \}$. Therefore, $F^{-1}(q)$ is discrete in $M$ and finite by compactness of $M$. Now let $V_{q}$ to be the connected component of $\bigcap_{p\in F^{-1}(q)}^{}V'_{q}$ and $U_{p}:=(f|_{U'_{p}})^{-1}(V_{q})$.
+---
+##### Smooth Functions in Rn
+> [!lemma] Theorem 1 (Hadamard's Lemma)
+> Let $U\subseteq \mathbb{R}^n$ be open and [[Convex Set|convex]]. For $f\in C^\infty(U)$ and $a\in U$, we have that for all $x\in U$, $$f(x)=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i})\int_{0}^{1}  \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}\, dt $$
+
+> [!proof]-
+> Let $x\in U$. Then, define $h:[0,1]\to \mathbb{R}$: $$h(t):=f(a+t(x-a))$$Then, $$h'(t)=\sum_{i=1}^{n}\left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}(x_{i}-a_{i})$$Therefore, $$\begin{align}h(1)-h(0)&=\int_{0}^{1} h'(t) \, dt\\&=\int_{0}^{1} \sum_{i=1}^{n}\left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}(x_{i}-a_{i}) \, dt\\&=\sum_{i=1}^{n}(x_{i}-a_{i})\int_{0}^{1}  \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}\, dt  \end{align}$$However, $$h(1)-h(0)=f(x)-f(a)$$This proves the statement.
+---
+> [!lemma] Theorem 2 (Hadamard's Lemma)
+> Let $U\subseteq \mathbb{R}^n$ be open and [[Convex Set|convex]]. For $f\in C^\infty(U)$ and $a\in U$, we have that for all $x\in U$, $$f(x)=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i})\int_{0}^{1}  \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}\, dt $$
+
+> [!proof]+
+> Let $x\in U$. Then, define $h:[0,1]\to \mathbb{R}$: $$h(t):=f(a+t(x-a))$$Then, $$h'(t)=\sum_{i=1}^{n}\left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}(x_{i}-a_{i})$$Therefore, $$\begin{align}h(1)-h(0)&=\int_{0}^{1} h'(t) \, dt\\&=\int_{0}^{1} \sum_{i=1}^{n}\left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}(x_{i}-a_{i}) \, dt\\&=\sum_{i=1}^{n}(x_{i}-a_{i})\int_{0}^{1}  \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}\, dt  \end{align}$$However, $$h(1)-h(0)=f(x)-f(a)$$This proves the statement.
 ---
 ##### Examples
 > [!h] Example 1
