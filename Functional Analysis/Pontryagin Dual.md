@@ -82,6 +82,13 @@
 > 
 > For 3, as $x_{1}x_{2}^{-1}\neq e$, there exists $C\subseteq \widehat{G}$ compact with $x_{1}x_{2}^{-1}\notin N(C,r)$. Therefore, there exists $\chi\in C$ s.t. $$\left| \chi(x_{1})-\chi(x_{2}) \right| =\left| \chi(x_{2})\right|\left|\chi(x_{1}x_{2}^{-1})-1 \right|\geq r $$
 ---
+> [!lemma] Theorem 7 (Pontryagin Duality Theorem)
+> Let $G$ be an LCA group. Then, $$\alpha:G\to \widehat{\widehat{G}},\quad x\mapsto (\gamma\mapsto\gamma(x))$$is a topological group isomorphism.
+
+> [!proof]+
+> We have:
+> 1. **Showing $\alpha$ is a homomorphism**.$$\alpha(x_{1}x_{2})(\gamma)=\gamma(x_{1}x_{2})=\gamma$$
+---
 ##### Examples
 > [!h] Example 1
 > Let $G:=\mathbb{T}$, $f\in C(\mathbb{T})$ and $$I(f):=\int_{0}^{1} f(e^{2\pi i\theta}) \, d\mathcal{L}(\theta) $$ is a Haar functional on $C(\mathbb{T})$. Let $\mu$ be the corresponding Haar measure on $\mathbb{T}$. One shows that:

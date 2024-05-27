@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,13 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Regular Submanifold.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -69,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Indefinite Orthogonal Group.md",
+                "file": "Functional Analysis/Convolution.md",
                 "mode": "preview",
                 "source": false
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md"
+                "file": "Functional Analysis/Pontryagin Dual.md"
               }
             }
           }
@@ -228,23 +229,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "282d6b7b77d25cc4",
+  "active": "6a7b987e5ea1b218",
   "lastOpenFiles": [
+    "Differential Geometry/Regular Submanifold.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Convolution.md",
+    "Lie Group/Indefinite Orthogonal Group.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Functional Analysis/Fourier Transform.md",
     "Lie Group/Locally Compact Topological Group.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Differential Geometry/Regular Submanifold.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Lie Group/Ring of Germs.md",
     "Functional Analysis/Dual Space.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Rank.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Smooth Function.md",
-    "Lie Group/Indefinite Orthogonal Group.md",
     "Lie Group/Topological Group.md",
     "Topology/Topological Space.md",
     "Algebra/Orthogonal Group.md",
@@ -255,7 +257,6 @@
     "Differential Geometry/Tangent Space.md",
     "Topology/Lindelöf Space.md",
     "Differential Geometry/Topological Manifold.md",
-    "Topology/Locally Compact Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

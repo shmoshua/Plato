@@ -82,7 +82,19 @@
 > [!lemma] Theorem 5
 > The following holds true: $$A(\widehat{G})=\{ F_{1}*F_{2}:F_{1},F_{2}\in L^2(\widehat{G}) \}$$
 
-> [!proof]+
-> Let $F_{1},F_{2}\in L^2(\widehat{G})$ and let $f_{1},f_{2}\in L^2(G)$ with $\widehat{f}_{i}=F_{i}$. Then, $f_{1}f_{2}\in L^1(G)$ by Hölder and: $$\widehat{f_{1}f_{2}}(\gamma)=\int_{G}^{} f_{1}(x)\underbrace{ f_{2}(x)(x,\gamma) }_{ =:\overline{u(x)} } \, d\lambda(x)=\int_{G}f_{1}(x) \overline{u(x)} \, d\lambda(x) $$where $u\in L^2(G)$. 
+> [!proof]- Proof (Incomplete)
+> Let $F_{1},F_{2}\in L^2(\widehat{G})$ and let $f_{1},f_{2}\in L^2(G)$ with $\widehat{f}_{i}=F_{i}$. Then, $f_{1}f_{2}\in L^1(G)$ by Hölder and: $$\begin{align}\widehat{f_{1}f_{2}}(\gamma_{0})&=\int_{G}^{} f_{1}(x)\underbrace{ f_{2}(x)\overline{(x,\gamma_{0})} }_{ =:\overline{u(x)} } \, d\lambda(x)=\int_{G}f_{1}(x) \overline{u(x)} \, d\lambda(x) =\int_{\widehat{G}}^{} \widehat{f}_{1} (\gamma)\overline{\widehat{u}(\gamma)}\, d\omega(\gamma)\\&=\int_{\widehat{G}}\widehat{f}_{1}(\gamma){\widehat{f_{2}}(\gamma_{0}\gamma ^{-1})} \, d\omega(\gamma)=(F_{1}*F_{2})(\gamma_{0}) \end{align}  $$where $u\in L^2(G)$ and $\widehat{u}(\gamma)=\int_{\widehat{G}}\overline{f_{2}(x)(x,\gamma_{0}^{-1}\gamma)}d\lambda(x)=\overline{\widehat{f_{2}}(\gamma ^{-1}\gamma_{0})}$.
 ---
+> [!lemma] Proposition 6
+> Let $F\subsetneq \widehat{G}$ closed and $\chi\notin F$. Then, there exists $\psi\in A(\widehat{G})$ s.t. 
+> 1. $\psi|_{F}=0$ and 
+> 2. $\psi(\chi)\neq 0$.
+
+> [!proof]-
+> Let $E:=\widehat{G} \backslash F\ni \chi$ which is open. Using the continuity of multiplication on $\widehat{G}$ at $(\chi,\widehat{e})$, there are $U,V$ compact neighborhoods respectively of $\chi$ and $\widehat{e}$ s.t. $UV\subseteq E$. 
+> 
+> Set $\psi:= \mathbb{1}_{U}*\mathbb{1}_{V}\in A(\widehat{G})$. Then, $\text{supp }\psi \subseteq UV\subseteq E$ and $\psi|_{F}=0$. Further, $$\psi(\chi)=\int_{\widehat{G}}^{} \mathbb{1}_{U}(\chi\gamma)\mathbb{1}_{V}(\gamma ^{-1}) \, d\omega(\gamma)=\omega(\chi ^{-1}U \cap V^{-1})>0 $$as it is an open set of the Haar measure. 
+---
+
+
 ##### Examples
