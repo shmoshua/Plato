@@ -30,9 +30,18 @@
 
 ---
 > [!h] Example 2 (Smooth Manifolds)
+> Let $M$ be a [[smooth manifold]] and $\{ U_{\alpha} \}_{\alpha}$ an open cover of $M$. Then, there exists a smooth countable partition of unity $\{ \varphi_{i} \}_{i\geq 1}$ subordinate to $\{ U_{\alpha} \}_{\alpha}$ s.t. $\varphi_{i}\in C^\infty_{00}(M)$.
+
+> [!proof]+
+> Let $C_{\leq \varepsilon}:=[-\varepsilon,\varepsilon]^m\subseteq \mathbb{R}^m$ and $C_{<\varepsilon}:=(-\varepsilon,\varepsilon)^m\subseteq \mathbb{R}^m$ denote the closed and open cube.  We have:
+> 1. **Claim 1: There exists a non-negative $\varphi\in C^\infty(\mathbb{R}^m)$ s.t. $\varphi|_{C_{\leq 1}}=1$ and $\varphi|_{\mathbb{R}^m \backslash C_{<2}}=0$.**
+>    Consider the function: $$f(t):=\begin{cases}\exp(-1 /t)&t>0\\0&t\leq 0\end{cases}$$Then, $f\geq 0$, $f\in C^\infty$ and positive for $f>0$ for $t>0$. Then, $$g(t):= \frac{f(t)}{f(t)+f(1-t)}$$is non-negative, smooth and $g(t)=1$ for all $t\geq 1$ and $g(t)=0$ for all $t\leq0$. Therefore, $$h(t)=g(2+t)g(2-t)$$is a smooth, non-negative function with $g(t)=1$ for $t\in [-1,1]$ and $g(t)=0$ for $t\notin (-2,2)$. Then, consider $\pi_{i}:\mathbb{R}^m\to \mathbb{R}, x\mapsto x_{i}$ as the coordinate projection, by setting: $$\varphi:=(h\circ \pi_{1})\dots(h\circ \pi_{m})$$we prove the statement.
+>    
+---
+> [!h] Example 2 (Smooth Manifolds)
 > Let $M$ be a [[smooth manifold]] and $\{ V_{\alpha} \}_{\alpha}$ be an open cover of $M$. Then, there exists a countable partition of unity $\{ f_{i} \}_{i\in F}$ s.t.
 > 1. $f_{i}\in C^\infty_{00}(M)$
-> 2. $\{ \text{supp }f_{i}: i\in F\}$ is a locally finite cover of $M$ refining $\{ V_{\alpha} \}_{\alpha}$. 
+>
 
 > [!proof]-
 > From [[Atlas|Lemma 4]], there is a countable family of charts $(U_{i},\varphi_{i})_{i}$ with the described properties. Then, by the smooth version of Urysohn's lemma, there exists a smooth function $g:\mathbb{R}^m\to [0,1]$ with: 
