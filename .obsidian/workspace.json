@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Curve.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Curve.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -170,8 +170,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Smooth Curve.md",
+                "file": "Differential Geometry/Differential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Smooth Curve.md",
+                "file": "Differential Geometry/Differential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Smooth Curve.md"
+                "file": "Differential Geometry/Differential.md"
               }
             }
           }
@@ -255,11 +254,11 @@
   },
   "active": "6343fc6755c861ea",
   "lastOpenFiles": [
-    "smooth.md",
     "Differential Geometry/Smooth Curve.md",
-    "Differential Geometry/Partition of Unity.md",
-    "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Partition of Unity.md",
+    "smooth.md",
+    "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Differential k-Form.md",

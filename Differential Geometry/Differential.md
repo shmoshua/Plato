@@ -21,6 +21,13 @@
 > 2. For $v\in \text{T}_{p}M$, we have that: $$d_{p}(G\circ F)(v)(g)=v(g\circ G\circ F)=d_{p}F(v)(g\circ G)=d_{F(p)}G(d_{p}F(v))(g)$$
 > 3. This is an application of the definition of dual and chain rule.
 ---
+> [!lemma] Theorem 2
+> Let $M,N$ be smooth manifolds where $M$ is connected. Further, let $F\in C^\infty(M,N)$. 
+> 1. if $d_{p}F=0$ for all $p\in M$, then $F$ is constant.
+
+> [!proof]+
+> Let $q\in F(M)$. Then, $F^{-1}(q)$ is closed. It suffices to show that $F^{-1}(q)$ is open. Let $p\in F^{-1}(q)$ and choose charts $(U,x^i)$ and $(V,y^j)$ at $p$ and $q$ respectively s.t. $F(U)\subseteq V$. Then, on $U$, $$0=d_{p}F\left( \left. \frac{ \partial  }{ \partial x^j }  \right|_{p}  \right) =\sum_{i=1}^{n} \left. \frac{ \partial (y^i\circ F) }{ \partial x }  \right| $$
+---
 
 > [!lemma] Lemma 2
 > Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and a [[Differentiable Function|smooth map]] $F:M\to N$ of constant [[rank]] $k$. Then, for $y\in F(M)$:
