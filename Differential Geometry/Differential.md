@@ -3,7 +3,7 @@
 > [!definition]
 > Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $F\in C^\infty(M,N)$ be a [[differentiable function|smooth function]]. The ***differential of $F$*** is:$$\begin{array}{cccc} {d_{p}F:}&{\text{T}_{p}M}&\to&{\text{T}_{F(p)}N}\\&{v} &\mapsto & {(g\mapsto v(g\circ F))} \end{array}{}$$
 
-- **Remark**: given $f\in C^\infty(M)$, the differential at $p$ is defined as $$\begin{array}{cccc} {d_{p}f:}&{\text{T}_{p}M}&\to&{\mathbb{R}}\\&{v} &\mapsto & {v(f)\left. \frac{d}{dx} \right| _{f(p)}} \end{array}{}$$
+- **Remark**: given $f\in C^\infty(M)$, the differential at $p$ is defined as $$\begin{array}{cccc} {d_{p}f:}&{\text{T}_{p}M}&\to&{\mathbb{R}}\\&{v} &\mapsto & {v(f)\left. \frac{d}{dt} \right| _{f(p)}} \end{array}{}$$
 - **Related definition**: $F$ is an ***immersion***, if $d_{p}F$ is injective for all $p\in M$.
 - **Related definition**: For $(U,x^j)$ and $(V,y^i)$ charts at $p$ and $F(p)$ respectively, by [[Tangent Space II|Proposition 2.3]]$$d_{p}F\left( \left. \frac{ \partial  }{ \partial x^j }  \right|_{p}  \right) =\sum_{i=1}^{n}\left. \frac{ \partial (y^i\circ F) }{ \partial x^j } \right| _{p}\left. \frac{ \partial  }{ \partial y^i }  \right|_{F(p)}  $$Then, $\{ \partial(y_{i}\circ F) / \partial x^j \}$ is called the ***Jacobian*** of $F$.
 ---

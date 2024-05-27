@@ -53,24 +53,24 @@
         "dimension": 50.57471264367817,
         "children": [
           {
-            "id": "6343fc6755c861ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Differential.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0c2016e18be47616",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Differential Geometry/Tangent Space II.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6343fc6755c861ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
