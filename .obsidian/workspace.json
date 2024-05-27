@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Ring of Germs.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Ring of Germs.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Regular Submanifold.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "mode": "preview",
                 "source": false
               }
@@ -99,7 +99,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Ring of Germs.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Ring of Germs.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Ring of Germs.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -227,11 +228,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6343fc6755c861ea",
+  "active": "cd96f963b7fd8fe8",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Lie Group/Ring of Germs.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Fourier Transform.md",
     "Differential Geometry/Regular Submanifold.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Lie Group/Ring of Germs.md",
+    "Functional Analysis/Dual Space.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Rank.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Smooth Function.md",
@@ -251,10 +256,6 @@
     "Topology/Paracompact Space.md",
     "Differential Geometry/Smooth Manifold.md",
     "Functional Analysis/Unimodular Group.md",
-    "Differential Geometry/Differential k-Form.md",
-    "Analysis/Pushforward Measure.md",
-    "Measure Theory/Summable Function.md",
-    "Lie Group/Lattice.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

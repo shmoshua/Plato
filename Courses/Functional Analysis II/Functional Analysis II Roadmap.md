@@ -107,6 +107,10 @@
 
 **9.2 The Inversion Theorem**
 1. [[Fourier Transform|Inversion Theorem]]
+2. [[Pontryagin Dual]]
+
+**9.3 The Plancherel Theorem**
+1. 
 ---
 
 ### Exercises

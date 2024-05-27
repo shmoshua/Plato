@@ -61,7 +61,7 @@
 >
 > Therefore, $T$ is a Haar functional and there exists a Haar measure $\omega$ corresponding to $T$. Let $\psi\in C_{00}(\widehat{G})$ and $f\in L^1(G)\cap B(G)$. Pick $g\in C_{00}(G)\cap P(G)$ s.t. $\widehat{g}>0$ on $K=\text{supp }\psi$. Then, $$\int_{K}^{} \psi \, d\mu_{f}=\int_{K} \frac{\psi(\chi)}{\widehat{g}(\chi)}\widehat{g}(\chi)  \, d\mu_{f}(\chi)=\int_K \frac{\psi(\chi)}{\widehat{g}(\chi)}\widehat{f}(\chi) \, d\mu_{g}(\chi)=T(\psi \widehat{f})=\int_{\widehat{G}}\psi \widehat{f} \, d\omega    $$It follows that $\widehat{f}d\omega=\mu_{f}$.
 ---
-> [!lemma] Corollary 4
-> The sets: $$$$
+> [!lemma] Theorem 4 (Plancherel)
+> Let $G$ be an LCA group and $\lambda$ and $\omega$ be the Haar measures of $G$ and $\widehat{G}$ respectively, s.t. the inversion theorem holds. Then, the Fourier transform $$L^1(G)\cap B(G)\to C_{0}(\widehat{G}),\quad f\mapsto \widehat{f}$$extends to an isometric isomorphism 
 ---
 ##### Examples
