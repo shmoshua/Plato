@@ -153,7 +153,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "preview",
                 "source": false
               }
@@ -290,16 +290,17 @@
   "active": "6343fc6755c861ea",
   "lastOpenFiles": [
     "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Topology/Compact Space.md",
     "Differential Geometry/Tangent Space II.md",
+    "Differential Geometry/Tangent Space.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Lie Group/Ring of Germs.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Partition of Unity.md",
-    "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Compact Space.md",
     "Topology/Locally Compact Space.md",
     "Topology/Paracompact Space.md",
     "Differential Geometry/Atlas.md",
@@ -312,7 +313,6 @@
     "Algebra/Ring.md",
     "Topology/Topological Vector Space.md",
     "Functional Analysis/Convolution.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Functional Analysis/Fourier Transform.md",
     "Algebra/Untitled",

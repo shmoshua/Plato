@@ -7,10 +7,17 @@
 ##### Properties
 
 > [!lemma] Proposition 1
-> Let $M$ be a smooth manifold. Then, $$\text{T}_{p}M\to (C_{p}^\infty(M)_{0} / C_{p}^\infty(M)_{0}^{2})^{*}$$defines a vector space isomorphism.
+> Let $M$ be a smooth manifold. Then, 
+> 1. $\text{T}_{p}M\cong (C_{p}^\infty(M)_{0} / C_{p}^\infty(M)_{0}^{2})^{*}$
+> 2. $\text{dim} \ C_{p}^\infty(M)_{0} / C_{p}^\infty(M)_{0}^{2}=m$
+> 3. $\text{dim T}_{p}M=m$.
 
 > [!proof]+
-> Let $v\in \text{T}_{p}M$. Then, $v\in (C_{p}^\infty(M)_{0})^{*}$. Consider $f,g\in C_{p}^\infty(M)_{0}$. Then, $$v(fg)=f(p)v(g)+v(f)g(p)=0$$Therefore, $C_{p}^\infty(M)_{0}^{2}\subseteq \text{ker }v$
+> We have: 
+> 1. Let $v\in \text{T}_{p}M$. Then, $v\in (C_{p}^\infty(M)_{0})^{*}$. Consider $f,g\in C_{p}^\infty(M)_{0}$. Then, $$v(fg)=f(p)v(g)+v(f)g(p)=0$$Therefore, $C_{p}^\infty(M)_{0}^{2}\subseteq \text{ker }v$ and we can consider $v\in(C_{p}^\infty(M)_{0} / C_{p}^\infty(M)_{0}^{2})^{*}$.
+>    
+>    Conversely, let $\ell\in(C_{p}^\infty(M)_{0} / C_{p}^\infty(M)_{0}^{2})^{*}$. We define $v\in \text{T}_{p}M$ s.t. $$v(f):=\ell(\pi(f-f(p))),\forall f\in C^\infty_{p}(M)$$where $\pi$ is the canonical projection. Then, $v$ is clearly linear and: $$\begin{align}v(fg)&=\ell(\pi(fg-f(p)g(p)))\\&=\ell(\pi((f-f(p))(g-g(p))+f(p)(g-g(p))+g(p)(f-f(p))))\\&=\ell(\pi((f-f(p))(g-g(p))))+f(p)\ell(\pi(g-g(p)))+g(p)\ell(\pi(f-f(p)))\\&=f(p)v(g)+g(p)v(f)\end{align}$$
+>  2. 
 ---
 > [!lemma] Proposition 1
 > Let $M$ be a [[smooth manifold]]. Then, $$\begin{array}{cccc} {}&{\mathbb{R}^m}&\to&{\text{T}_{p}M}\\&{v} &\mapsto & {[U,\varphi,v]_{p}} \end{array}{}$$is a bijection. The resulting vector space structure on $\text{T}_{p}M$ is independent of the choice of the chart $(U,\varphi)$.
