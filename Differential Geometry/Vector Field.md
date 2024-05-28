@@ -34,11 +34,11 @@
 > 1. $\varphi ^{*}:C^\infty(N)\to C^\infty(M),f\mapsto f\circ\varphi$ is an algebra homomorphism.
 > 2. $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$ are $\varphi$-related if and only if the following diagram commutes: $$\begin{CD}C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\\ @V\alpha YVV&@VV\alpha XV\\C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\end{CD}$$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. $\varphi ^{*}(1)=1$ and: $$\varphi ^{*}(fg)=fg\circ \varphi=(f\circ \varphi)(g\circ \varphi)=\varphi ^{*}(f)\varphi ^{*}(g)$$
 > 2. if $X$ and $Y$ are $\varphi$-related, for $f\in C^\infty(N)$ and $p\in M$: $$\begin{align}\alpha X(\varphi ^{*}(f))(p)&=\alpha X(f\circ \varphi)(p)=X_{p}(f\circ \varphi)=d_{p}(f\circ \varphi)(X_{p})\\&=d_{\varphi(p)}f(d_{p}\varphi(X_{p}))=d_{\varphi(p)}f(Y_{\varphi(p)})=Y_{\varphi(p)}(f)=Y(f)(\varphi(p))=\varphi ^{*}(\alpha Y(f))(p)\end{align}$$
->    Conversely, if the diagram commutes, $$d_{p}\varphi(X_{p})=X_{p}(\varphi)$$
+>    Conversely, if the diagram commutes, $$d_{p}\varphi(X_{p})(f)=X_{p}(f\circ \varphi)=\alpha X(\varphi ^{*}(f))(p)=\varphi ^{*}(\alpha Y(f))(p)=\alpha Y(f)(\varphi(p))=Y_{\varphi(p)}(f)$$
 
 ---
 ##### Examples

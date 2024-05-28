@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra Homomorphism.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -303,12 +303,12 @@
   },
   "active": "b94365c84992be39",
   "lastOpenFiles": [
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Vector Field.md",
     "Algebra/Algebra Homomorphism.md",
     "Differential Geometry/Smooth Atlas.md",
     "Algebra/Associative Algebra.md",
-    "Differential Geometry/Vector Field.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Differential Geometry/Differential.md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Lie Bracket.md",
     "Algebra/Linear Algebra/Vector Space.md",
