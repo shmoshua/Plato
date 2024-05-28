@@ -1,7 +1,9 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $F\in C^\infty(M,N)$ be a [[differentiable function|smooth function]]. The ***differential of $F$*** is:$$\begin{array}{cccc} {d_{p}F:}&{\text{T}_{p}M}&\to&{\text{T}_{F(p)}N}\\&{v} &\mapsto & {(g\mapsto v(g\circ F))} \end{array}{}$$
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $F\in C^\infty(M,N)$ be a [[differentiable function|smooth function]]. 
+> 1. The ***differential of $F$ at $p$*** is:$$\begin{array}{cccc} {d_{p}F:}&{\text{T}_{p}M}&\to&{\text{T}_{F(p)}N}\\&{v} &\mapsto & {(g\mapsto v(g\circ F))} \end{array}{}$$
+> 2. The ***differential of $F$*** is then: $$dF:\text{T}M\to \text{T}N,\quad (p,v)\mapsto d_{p}F(v)$$
 
 - **Remark**: given $f\in C^\infty(M)$, the differential at $p$ is defined as $$\begin{array}{cccc} {d_{p}f:}&{\text{T}_{p}M}&\to&{\mathbb{R}}\\&{v} &\mapsto & {v(f)\left. \frac{d}{dt} \right| _{f(p)}} \end{array}{}$$
 - **Related definition**: $F$ is an ***immersion***, if $d_{p}F$ is injective for all $p\in M$.
@@ -14,6 +16,7 @@
 > 1. $d_{p}F$ is a well-defined linear map.
 > 2. $d_{p}(G\circ F)=d_{F(p)}G\circ d_{p}F$
 > 3. if $R=\mathbb{R}$, $\delta F(d_{F(p)}G)=d_{p}(G\circ F)$
+> 4. $dF$ is smooth.
 
 > [!proof]-
 > We have:
