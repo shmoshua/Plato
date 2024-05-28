@@ -38,7 +38,9 @@
 > Therefore, $$\begin{align}f(x)&=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i})\int_{0}^{1}  \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}\, dt\\&=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i})\left( \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a} +\sum_{j=1}^{n}(x_{j}-a_{j})\int_{0}^{1} \left. \frac{ \partial^{2} f }{ \partial x_{i} \partial x_{j}}  \right| _{a+t(x-a)} \, dt \right) \\&=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i}) \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a} +\sum_{i,j=1}^{n}(x_{i}-a_{i})(x_{j}-a_{j})\int_{0}^{1} \left. \frac{ \partial^{2} f }{ \partial x_{i} \partial x_{j}}  \right| _{a+t(x-a)} \, dt \end{align}$$
 ---
 > [!lemma] Theorem 3 (Inverse Function Theorem)
-> Let $U\subseteq \mathbb{R}^n$ be open and $f:U\to \mathbb{R}^m$ be smooth. If the [[Jacobian matrix]] $$D_{x}f:=\{  \}$$
+> Let $U\subseteq \mathbb{R}^n$ be open and $f:U\to \mathbb{R}^m$ be smooth. If the [[Jacobian matrix]] $$D_{x}f:=\left\{  \frac{ \partial f_{i} }{ \partial x^j }   \right\}_{i,j=1,\dots,m}$$is invertible at $x_{0}\in U$. Then, there exists an open neighborhood $x_{0}\in V\subseteq U$ s.t.
+> 1. $f|_{V}:V\to f(V)$ is bijective and
+> 2. $f|_{V}^{-1}$ is smooth.
 ---
 ##### Examples
 > [!h] Example 1

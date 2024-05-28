@@ -8,3 +8,9 @@
 - **Related definition**: the maps $x_{\alpha}$ are called ***charts***, the maps $x_{\beta}\circ x_{\alpha}^{-1}$ are called ***transition maps***.
 - **Related definition**: two smooth atlases $\mathcal{X},\mathcal{Y}$ are ***equivalent***, if their union is also a smooth atlas.
 ---
+##### Properties
+> [!lemma] Proposition 1
+> Let $M$ be a [[smooth manifold]] and $y^1,\dots,y^m\in C^\infty(M)$ s.t. $\{ d_{p}y^i \}\subseteq \text{T}^{*}_{p}M$ are linearly independent. Then, there exists a chart on a neighborhood of $p$ with $y^1,\dots,y^m$ as coordinate functions.
+
+> [!proof]+
+> Suppose $y^i$ are defined on an open neighborhood $U\ni p$. Then, define $\varphi :M\to \mathbb{R}^m$: $$\varphi(p):=(y^1(p),\dots,y^m(p))$$Then, $\varphi\in C^\infty(M,\mathbb{R}^m)$

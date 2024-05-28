@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Smooth Atlas.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Cotangent Bundle.md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Smooth Atlas.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Differential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Differential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md"
+                "file": "Differential Geometry/Differential.md"
               }
             }
           }
@@ -279,17 +279,18 @@
   },
   "active": "b7985c32df0139d5",
   "lastOpenFiles": [
-    "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Cotangent Bundle.md",
+    "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Regular Submanifold.md",
     "Differential Geometry/Tangent Space II.md",
-    "Differential Geometry/Tangent Bundle.md",
-    "Differential Geometry/Cotangent Bundle.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Untitled.md",
-    "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Partition of Unity.md",
@@ -304,7 +305,6 @@
     "Topology/Paracompact Space.md",
     "Representation Theory/Lie Algebra.md",
     "Topology/Compact Space.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
