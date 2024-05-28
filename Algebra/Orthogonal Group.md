@@ -12,13 +12,13 @@
 > We have that:
 > 1. $\text{O}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a closed [[Topological Group|topological subgroup]].
 > 2. $\text{O}(n,\mathbb{R})$ is compact.
-> 3. $\text{O}(n,\mathbb{R})$ is a [[Regular Submanifold|regular $\frac{n(n-1)}{2}$-submanifold]] of $\text{GL}(n,\mathbb{R})$.
+> 3. $\text{O}(n,\mathbb{R})$ is a [[Submanifold|regular $\frac{n(n-1)}{2}$-submanifold]] of $\text{GL}(n,\mathbb{R})$.
 > 4. $\text{O}(n,\mathbb{R})$ is a [[Lie group]].
 
 > [!proof]-
 > We have:
 > 1. [[Topological Group|Example 6]]
 > 2. [[Locally Compact Topological Group|Example 4]]
-> 3. [[Regular Submanifold|Example 1]]
+> 3. [[Submanifold|Example 1]]
 > 4. [[Lie Group|Example 6]]
 ---

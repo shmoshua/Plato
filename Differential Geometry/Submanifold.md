@@ -1,12 +1,27 @@
 #Definition #DifferentialGeometry 
+
 > [!definition]
-> Let $M$ be a $m$-dimensional [[smooth manifold]]. A subset $N\subseteq M$ is a $n$-dimensional ***regular submanifold***, if for any $p\in N$, there is a chart $(U,\varphi)$ at $p$ s.t. 
+> Let $M,N$ be a [[smooth manifold]]. 
+> 1. $N$ is an ***immersed submanifold*** of $M$, if there exists $F\in C^\infty(N,M)$ that is an injective [[Differential|immersion]].
+> 2. $N$ is a ***regular submanifold*** of $M$, if there exists $F\in C^\infty(N,M)$ that is an ***embedding***, i.e. $F$ is an injective immersion that is also a [[homeomorphism]].
+---
+
+> [!definition]
+> Let $M$ be a [[smooth manifold]]. A subset $N\subseteq M$ is a ***regular $n$-submanifold***, if for any $p\in N$, there is a chart $(U,\varphi)$ at $p$ s.t. 
 > 1. $\varphi(p)=0$, 
 > 2. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and
 > 3. $\varphi(U\cap N)=\{ x\in (-\varepsilon,\varepsilon)^m: x_{n+1}=\dots=x_{m}=0 \}$
 - **Remark**: For the atlas $\{ (U_{\alpha},\varphi_{\alpha}) \}$ on $M$, $\{ (U_{\alpha}\cap N,\varphi_{\alpha}|_{U_{\alpha}\cap N}) \}_{\alpha}$ defines an atlas on $N$.
 ---
 ##### Properties
+> [!lemma] Proposition 1
+> Let $M$ be a smooth manifold and $N\subseteq M$. Then, the following are equivalent:
+> 1. $N$ is a regular $n$-submanifold of $M$.
+> 2. for any $p\in N$, there exists a chart $(U,\varphi)$ of $M$ centered at $p$ s.t. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and: $$\varphi(U\cap N)=\{ x\in (-\varepsilon,\varepsilon)^m:x_{n+1}=\dots=x_{m}=0 \}$$
+
+> [!proof]+
+> As $N$ is a regular $n$-submanifold of $M$, there exists an embedding $F\in C^\infty(M,N)$. 
+---
 > [!lemma] Theorem 1
 > Let $M,M'$ be [[Smooth Manifold|smooth manifolds]] and $f\in C^\infty(M,M')$ with constant [[rank]] $k$. 
 > 1. For $q\in f(M), f^{-1}(q)$ is a regular submanifold of $M$ of dimension $m-k$.

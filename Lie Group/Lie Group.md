@@ -29,12 +29,12 @@
 > 3. $\text{Iso}(M)$ is a Lie group for a [[Riemannian manifold]] $M$.
 ---
 > [!h] Example 5
-> For a Lie group $G$ and a subgroup $H\leq G$ that is also a [[regular submanifold]], 
+> For a Lie group $G$ and a subgroup $H\leq G$ that is also a [[Submanifold]], 
 > 1. $H$ is a Lie group with smooth structure induced by $\{ (U\cap H,\varphi|_{U\cap H}) \}$.
 > 2. $H$ is closed in this case.
 ---
 > [!h] Example 6
-> From [[Regular Submanifold|Example 1]] and Example 5,
+> From [[Submanifold|Example 1]] and Example 5,
 > 1. $\text{SL}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a Lie group.
 > 2. $\text{O}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a Lie group.
 > 3. $\text{O}(p,q,\mathbb{R})\leq \text{GL}(p+q,\mathbb{R})$ is a Lie group.

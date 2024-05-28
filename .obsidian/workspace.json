@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Atlas.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "source",
                 "source": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -279,15 +279,15 @@
   },
   "active": "1d2a6cdf30df92d6",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Smooth Atlas.md",
     "Functional Analysis/Pontryagin Dual.md",
+    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Smooth Atlas.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Measure Theory/Diffeomorphism.md",
-    "Differential Geometry/Regular Submanifold.md",
     "Differential Geometry/Tangent Space II.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Untitled.md",
