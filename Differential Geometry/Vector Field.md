@@ -7,7 +7,8 @@
 - **Remark**: $\Gamma(\text{T}M)$ is also a $C^\infty(M)$-module, where $(fX)(p)=f(p)X_{p}$ for all $p\in M$.
 - **Related definition**: The local derivation property of a tangent vector can be extended globally: There is an isomorphism between $\Gamma(\text{T}M)\cong \text{Der }C^\infty(M)$ with $X\mapsto (f\mapsto Xf)$ where:$$\begin{array}{cccc} {X(f):}&{M}&\to&{\mathbb{R}}\\&{p} &\mapsto & {X_{p}(f)=d_{p}f(X_{p})} \end{array}{}$$
 
-- **Remark**: Let $(U,\varphi)$ be a chart of $M$ at $p\in U$. Then, by [[Tangent Space|this]], $\left\{  \frac{ \partial  }{ \partial x^j }  \right\}_{j\in[m]}$ forms a basis of $\text{T}_{p}M$ and any vector field $X$ can be represented as: $$X_{p}:=\sum_{i=1}^{m}X^i(p)\left.  \frac{ \partial  }{ \partial x^i } \right|_{p}  $$on $U$ with $X^i:U\to \mathbb{R}$
+- **Remark**: Let $(U,\varphi)$ be a chart of $M$ at $p\in U$. Then, by [[Tangent Space|this]], $\left\{  \frac{ \partial  }{ \partial x^j }  \right\}_{j\in[m]}$ forms a basis of $\text{T}_{p}M$ and any vector field $X$ can be represented as: $$X_{p}:=\sum_{i=1}^{m}X^i(p)\left.  \frac{ \partial  }{ \partial x^i } \right|_{p}  $$on $U$ with $X^i:U\to \mathbb{R}$.
+- **Related definition**: Let $\varphi\in C^\infty(M,N)$. $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$ are ***$\varphi$-related*** if $d\varphi \circ X=Y\circ\varphi$i.e. $Y_{\varphi(p)}=d_{p}\varphi(X_{p})$ for all $p\in M$.
 ---
 ##### Properties
 

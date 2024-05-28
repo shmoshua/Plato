@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Differential Geometry/Vector Field.md"
               }
             }
           }
@@ -303,11 +303,12 @@
   },
   "active": "b94365c84992be39",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Vector Field.md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Lie Bracket.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Linear Algebra/Vector Space.md",
-    "Differential Geometry/Vector Field.md",
     "Algebra/Associative Algebra.md",
     "Algebra/Submodule.md",
     "Measure Theory/Algebra.md",
@@ -318,7 +319,6 @@
     "Algebra/Module.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Quotient Ring.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Smooth Atlas.md",

@@ -5,7 +5,7 @@
 > 1. Jacobi identity: $[[a,b],c]+[[b,c],a]+[[c,a],b]=0$ for all $a,b,c\in \mathfrak{g}$ holds.
 - **Related definition**: A ***Lie subalgebra*** of $(\mathfrak{g},[,])$ is a subspace $\mathfrak{a}$ that is stable under $[,]$.
 - **Remark**: Ado’s theorem says that any finite-dimensional Lie algebra is a Lie subalgebra of $\mathfrak{gl}(V)$ for a suitable finite dimensional vector space $V$.
-- **Related definition**: A ***Lie algebra homomorphism*** is a linear map $\varphi:\mathfrak{g}_{1}\to \mathfrak{g}_{2}$ between Lie algebras s.t. $\varphi([a,b])=[\varphi(a),\varphi(b)]$.
+- **Related definition**: A ***Lie algebra homomorphism*** is a $K$-linear map $\varphi:\mathfrak{g}_{1}\to \mathfrak{g}_{2}$ between $K$-Lie algebras s.t. $\varphi([a,b])=[\varphi(a),\varphi(b)]$.
 ---
 ##### Examples 
 > [!h] Example 1
@@ -18,7 +18,7 @@
 > 3. any subspace $U$ of an associative algebra $A$ s.t. $U$ is stable under $[,]$.
 ---
 > [!h] Example 3 (Derivations)
-> The space of [[Derivation|derivations]] $\text{Der }C^\infty(M)\subseteq \text{End}(C^\infty(M))$ with $[a,b]=ab-ba$.
+> The space of [[Derivation|derivations]] $\text{Der }C^\infty(M)\subseteq \text{End}(C^\infty(M))$ with $[a,b]=ab-ba$. Further, $\Gamma(\text{T}M)$ is a Lie algebra with the [[Lie bracket]].
 ---
 > [!h] Example 4 (Cross product)
 > $\mathbb{R}^3$ with $[u,v]:=u\times v$ as the cross product is a Lie algebra.
