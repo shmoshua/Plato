@@ -9,8 +9,10 @@
 > [!h] Example 1 (Smooth Vector Fields)
 > For a [[smooth manifold]] $M$, $$\begin{array}{cccc} {\alpha:}&{\Gamma(\text{T}M)}&\to&{\text{Der }C^\infty(M)}\\&{X} &\mapsto & {f\mapsto X(f)} \end{array}{}$$is an isomorphism.
 
-> [!proof]+
+> [!proof]-
+> We have that: $$\alpha(X+Y)(f)(p)=(X+Y)_{p}(f)=d_{p}f(X_{p}+Y_{p})=d_{p}f(X)+d_{p}f(Y)=\alpha(X)(f)(p)+\alpha(Y)(f)(p)$$Therefore, $\alpha$ is linear. To show that $\alpha$ is injective, assume $\alpha X=0$. Then,$$(\alpha X)(f)=X(f)=0,\quad \forall f\in C^\infty(M)$$Hence, $X=0$.
 > 
+> Lastly, for surjectivity, let $\delta\in \text{Der }C^\infty(M)$. Then, for any $p\in M$, let $f\in C^\infty_{p}(M)$. It follows that for $\delta_{p}:f\mapsto \delta(f)(p)$, $$\delta_{p}(fg)=\delta(fg)(p)=\delta(f)(p)g(p)+f(p)\delta(g)(p)=\delta_{p}(f)g(p)+f(p)\delta_{p}(g)$$Therefore, $\delta_{p}\in \text{T}_{p}M$ and define $X:M\to \text{T}M,p\mapsto \delta_{p}$. Then, $$(\alpha X)(f)(p)=X_{p}(f)=\delta_{p}(f)=\delta(f)(p)$$It is left to show that $X\in \Gamma(\text{T}M)$. Let $(U,\varphi)$ be a chart at $p\in M$ with $x^1,\dots,x^m$ as coordinate functions. Then, $$X_{p}=\delta_{p}=\delta_{p}(x^i)\left. \frac{ \partial  }{ \partial x^i }  \right|_{p} $$Therefore, $X|_{U}=\delta(x^i)\frac{ \partial  }{ \partial x^i }$. As $\delta(x^i)$ is smooth by assumption,  by [[Vector Field|Proposition 1]], $X$ is smooth.
 ---
 > [!lemma] Lemma 1
 > Let $M$ be a [[smooth manifold]] and $p\in M$. Further, let $\delta\in \text{Der}_{p}C^\infty(M)$ and $g\in C^\infty(M)$ s.t. $g \equiv 1$ in a neighborhood of $p$. Then, $$\delta(f)=\delta(fg), \quad\forall f\in C^\infty(M)$$
