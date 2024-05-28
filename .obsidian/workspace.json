@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Algebra/Algebra Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -303,13 +303,15 @@
   },
   "active": "b94365c84992be39",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
+    "Algebra/Algebra Homomorphism.md",
+    "Differential Geometry/Smooth Atlas.md",
+    "Algebra/Associative Algebra.md",
     "Differential Geometry/Vector Field.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Differential Geometry/Differential.md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Lie Bracket.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Linear Algebra/Vector Space.md",
-    "Algebra/Associative Algebra.md",
     "Algebra/Submodule.md",
     "Measure Theory/Algebra.md",
     "Differential Geometry/Tangent Space II.md",
@@ -321,14 +323,12 @@
     "Algebra/Quotient Ring.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Submanifold.md",
-    "Differential Geometry/Smooth Atlas.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Measure Theory/Diffeomorphism.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
