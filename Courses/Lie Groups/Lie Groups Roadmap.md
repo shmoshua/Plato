@@ -46,6 +46,8 @@
 2. [[Tangent Space II]]
 3. [[Differential]]
 4. [[Vector Field]]
+5. [[Lie Bracket]]
+6. [[Lie Algebra]]
 ---
 ##### 3. Structure Theory
 ---

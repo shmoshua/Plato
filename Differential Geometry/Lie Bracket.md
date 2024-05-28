@@ -1,14 +1,24 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M$ be a $R$-[[module]] and $A,B\in \text{End}(M)$. 
-> 1. The ***bracket of $A$ and $B$*** is given by: $$[A,B]:=AB-BA\in \text{End}(M)$$
+> Let $V$ be a $K$-[[vector space]] and $A,B\in \text{End}(V)$. 
+> 1. The ***bracket of $A$ and $B$*** is given by: $$[A,B]:=AB-BA\in \text{End}(V)$$
 > 2. For a [[Smooth Manifold|smooth manifold]] $M$, the ***Lie bracket*** is a bilinear map: $[\cdot,\cdot]:\Gamma(\text{T}M)\times\Gamma(\text{T}M)\to\Gamma(\text{T}M)$ where: $$[X,Y]_{p}(f)=X_{p}(Y(f))-Y_{p}(X(f))$$
 - **Remark**: $[X,Y]$ is bilinear but not associative.
 - **Remark**: From [[Vector Field|Example 1]], consider the isomorphism $\alpha :\Gamma(\text{T}M)\to \text{Der }C^\infty(M)$. Then, $$\alpha([X,Y])=\alpha X\alpha Y-\alpha Y\alpha X=[\alpha X,\alpha Y]$$
 ---
 ##### Properties
 
+> [!lemma] Lemma 1
+> Let $X,Y,Z\in \Gamma(\text{T}M)$. Then,
+> 1. for $f,g\in C^\infty(M)$, $[fX,gY]=fg[X,Y]+f\cdot X(g)\cdot Y-g\cdot Y(f)\cdot X$.
+> 2. $[Y,X]=-[X,Y]$
+> 3. $[[X,Y],Z]+[[Y,Z],X]+[[Z,X],Y]=0$, i.e. the ***Jacobi identity*** holds.
+
+> [!proof]- Proof (Incomplete)
+> We have:
+> 1. For $p\in M$ and $h\in C^\infty(M)$, $$\begin{align}[fX,gY]_{p}(h)&=f(p)X_{p}(gY(h))-g(p)Y_{p}(fX(h))\\&=f(p)X_{p}(gY(h))-g(p)Y_{p}(fX(h))\end{align}$$
+---
 > [!lemma] Proposition 1
 > For $(U,\varphi)$ chart on $M$ at $p$, the local coordinates of $[X,Y]$ is given as $[X,Y]_{p}=\sum_{j=1}^{m}Z^j(p)\left. \frac{ \partial  }{ \partial x^j } \right|_{p}$ where: $$Z^j(p):=\sum_{i=1}^{m}X_{i}(p)\frac{ \partial Y_{j} }{ \partial x^i } (p)-Y_{i}(p)\frac{ \partial X_{j} }{ \partial x^i }(p) $$
 

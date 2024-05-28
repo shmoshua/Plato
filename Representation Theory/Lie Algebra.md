@@ -1,15 +1,15 @@
-#Definition #RepresentationTheory 
+#Definition #RepresentationTheory #LieGroups 
 
 > [!definition]
-> Let $\mathfrak{g}$ be a $K$-[[vector space]]  and $[,]:\mathfrak{g}\times \mathfrak{g}\to \mathfrak{g}$ be a skew-symmetric bilinear map, i.e. $[a,b]=-[b,a]$. A ***Lie algebra*** is a tuple $(\mathfrak{g},[,])$ s.t. 
-> 1. Jacobi identity: $[[a,b],c]+[[b,c],a]+[[c,a],b]=0$ for all $a,b,c\in \mathfrak{g}$.
+> A ***Lie algebra*** over a [[field]] $K$ is a $K$-[[vector space]] $\mathfrak{g}$ endowed with a skew-symmetric bilinear map $[\cdot,\cdot]:\mathfrak{g}\times \mathfrak{g}\to \mathfrak{g}$, i.e. $[a,b]=-[b,a]$ s.t. 
+> 1. Jacobi identity: $[[a,b],c]+[[b,c],a]+[[c,a],b]=0$ for all $a,b,c\in \mathfrak{g}$ holds.
 - **Related definition**: A ***Lie subalgebra*** of $(\mathfrak{g},[,])$ is a subspace $\mathfrak{a}$ that is stable under $[,]$.
 - **Remark**: Ado’s theorem says that any finite-dimensional Lie algebra is a Lie subalgebra of $\mathfrak{gl}(V)$ for a suitable finite dimensional vector space $V$.
 - **Related definition**: A ***Lie algebra homomorphism*** is a linear map $\varphi:\mathfrak{g}_{1}\to \mathfrak{g}_{2}$ between Lie algebras s.t. $\varphi([a,b])=[\varphi(a),\varphi(b)]$.
 ---
 ##### Examples 
 > [!h] Example 1
-> Any space $\mathfrak{g}$ with $[,]\equiv 0$ is an abelian Lie algebra. 
+> Any space $\mathfrak{g}$ with $[\cdot,\cdot]\equiv 0$ is an abelian Lie algebra. 
 ---
 > [!h] Example 2 (General Linear Lie Algebra)
 > Following are Lie algebras:

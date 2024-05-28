@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Submodule.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "source",
                 "source": true
               }
@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,9 +94,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
                 "mode": "preview",
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b94365c84992be39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Lie Algebra.md",
+                "mode": "preview",
+                "source": false
               }
             }
           },
@@ -118,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Algebra/Associative Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -227,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md"
+                "file": "Representation Theory/Lie Algebra.md"
               }
             }
           }
@@ -289,24 +301,26 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4ac600b9456dbf3b",
+  "active": "b94365c84992be39",
   "lastOpenFiles": [
-    "Differential Geometry/Vector Field.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Lie Bracket.md",
     "Algebra/Linear Algebra/Vector Space.md",
+    "Differential Geometry/Vector Field.md",
+    "Algebra/Associative Algebra.md",
+    "Algebra/Submodule.md",
+    "Measure Theory/Algebra.md",
+    "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Derivation.md",
     "Algebra/Direct Sum.md",
     "Algebra/Ideal.md",
     "Algebra/Module.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Quotient Ring.md",
-    "Algebra/Submodule.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Submanifold.md",
-    "Algebra/Associative Algebra.md",
     "Differential Geometry/Smooth Atlas.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Differential Geometry/Smooth Function.md",
@@ -315,8 +329,6 @@
     "Differential Geometry/Cotangent Bundle.md",
     "Measure Theory/Diffeomorphism.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Untitled.md",
-    "Differential Geometry/Topological Manifold.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
