@@ -55,9 +55,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "cf533573fd02a363",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Smooth Function.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -136,7 +148,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -202,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md"
+                "file": "Differential Geometry/Smooth Function.md"
               }
             }
           }
@@ -264,14 +277,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0c2016e18be47616",
+  "active": "b7985c32df0139d5",
   "lastOpenFiles": [
+    "Measure Theory/Diffeomorphism.md",
+    "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Regular Submanifold.md",
+    "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Cotangent Bundle.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Tangent Space II.md",
     "Functional Analysis/Pontryagin Dual.md",
-    "Differential Geometry/Smooth Function.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Untitled.md",
     "Differential Geometry/Cotangent Space.md",
@@ -290,8 +305,6 @@
     "Representation Theory/Lie Algebra.md",
     "Topology/Compact Space.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Lie Group/Lie Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
