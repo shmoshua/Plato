@@ -23,7 +23,7 @@
 > 3. (3=>1): It suffices to show that $X|_{U}$ is smooth for any chart $(U,\varphi)$ and $p\in U$,$$d\varphi(X_{p})=(x,X_{p}(x^i))$$Therefore, $d\varphi \circ X|_{U}=(\varphi,X(x^i))$ which is smooth and $X|_{U}$ is smooth.
 > 
 ---
-![[Derivation#^5fac5a]]
+![[Derivation#^5fac5a|hihi]]
 ![[Derivation#^c79513|p]]
 
 ---

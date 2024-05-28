@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "mode": "source",
                 "source": true
               }
@@ -96,7 +96,7 @@
               "state": {
                 "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -160,7 +160,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Vector Field.md"
+                "file": "Differential Geometry/Lie Bracket.md"
               }
             }
           }
@@ -288,11 +289,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "344e33ffe3c88cd2",
+  "active": "4ac600b9456dbf3b",
   "lastOpenFiles": [
-    "Algebra/Linear Algebra/Vector Space.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Lie Bracket.md",
+    "Algebra/Linear Algebra/Vector Space.md",
     "Differential Geometry/Derivation.md",
     "Algebra/Direct Sum.md",
     "Algebra/Ideal.md",

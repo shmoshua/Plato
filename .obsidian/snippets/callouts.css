@@ -34,7 +34,6 @@
 
 .inline-embed .markdown-embed-content .callout[data-callout="h"]{
   --callout-color: 190,41,236;
-  --callout-title-content: "hihi" !important;
 }
 
 .callout-content {

@@ -1,9 +1,11 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $V$ be a [[vector space]] and $A,B\in \text{End}(V)$. The ***bracket of $A$ and $B$*** is given by: $$[A,B]:=AB-BA\in \text{End}(V)$$
-> For a [[Smooth Manifold|smooth manifold]] $M$ and $X,Y$ two [[Vector Field|smooth vector fields]], the ***bracket of $X$ and $Y$*** $[X,Y]\in\Gamma(\text{T}M)$ given by: $$L_{[X,Y]}=[L_{X},L_{Y}]$$where $L_{X}$ is the isomorphism in [[Vector Field|Proposition 2]].
+> Let $M$ be a $R$-[[module]] and $A,B\in \text{End}(M)$. 
+> 1. The ***bracket of $A$ and $B$*** is given by: $$[A,B]:=AB-BA\in \text{End}(M)$$
+> 2. For a [[Smooth Manifold|smooth manifold]] $M$, the ***Lie bracket*** is a bilinear map: $[\cdot,\cdot]:\Gamma(\text{T}M)\times\Gamma(\text{T}M)\to\Gamma(\text{T}M)$ where: $$[X,Y]_{p}(f)=X_{p}(Y(f))-Y_{p}(X(f))$$
 - **Remark**: $[X,Y]$ is bilinear but not associative.
+- **Remark**: From [[Vector Field|Example 1]], consider the isomorphism $\alpha :\Gamma(\text{T}M)\to \text{Der }C^\infty(M)$. Then, $$\alpha([X,Y])=\alpha X\alpha Y-\alpha Y\alpha X=[\alpha X,\alpha Y]$$
 ---
 ##### Properties
 
