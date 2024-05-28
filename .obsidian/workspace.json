@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Manifold.md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -257,13 +257,15 @@
   "lastOpenFiles": [
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Cotangent Bundle.md",
-    "Differential Geometry/Cotangent Space.md",
-    "Differential Geometry/Partition of Unity.md",
+    "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Tangent Space II.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Partition of Unity.md",
     "Differential Geometry/Smooth Curve.md",
     "smooth.md",
     "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Differential k-Form.md",
     "Differential Geometry/Smooth Function.md",
     "Lie Group/Ring of Germs.md",
@@ -272,7 +274,6 @@
     "Lie Group/Indefinite Orthogonal Group.md",
     "Topology/Paracompact Space.md",
     "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Topology/Compact Space.md",
@@ -280,7 +281,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Lie Group/Lie Group.md",
     "Topology/Locally Compact Space.md",
-    "Differential Geometry/Atlas.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
