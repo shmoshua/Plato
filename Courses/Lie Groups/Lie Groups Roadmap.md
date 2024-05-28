@@ -44,6 +44,8 @@
 **2.2 Vector Fields and Lie Algebras**
 1. [[Ring of Germs]]
 2. [[Tangent Space II]]
+3. [[Differential]]
+4. [[Vector Field]]
 ---
 ##### 3. Structure Theory
 ---

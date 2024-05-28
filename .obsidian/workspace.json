@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Bundle.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,8 +68,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -82,7 +81,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "344e33ffe3c88cd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Bundle.md",
+                "file": "Differential Geometry/Tangent Space II.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -149,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Smooth Atlas.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Smooth Atlas.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Smooth Atlas.md"
+                "file": "Differential Geometry/Vector Field.md"
               }
             }
           }
@@ -277,18 +288,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1d2a6cdf30df92d6",
+  "active": "344e33ffe3c88cd2",
   "lastOpenFiles": [
-    "Functional Analysis/Pontryagin Dual.md",
-    "Differential Geometry/Submanifold.md",
-    "Differential Geometry/Smooth Atlas.md",
+    "Differential Geometry/Tangent Space II.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Differential.md",
-    "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Vector Field.md",
     "Differential Geometry/Tangent Bundle.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Smooth Atlas.md",
+    "Functional Analysis/Pontryagin Dual.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Measure Theory/Diffeomorphism.md",
-    "Differential Geometry/Tangent Space II.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Untitled.md",
     "Differential Geometry/Topological Manifold.md",
@@ -300,11 +314,8 @@
     "Differential Geometry/Differential k-Form.md",
     "Lie Group/Ring of Germs.md",
     "Differential Geometry/Rank.md",
-    "Differential Geometry/Tangent Space.md",
     "Lie Group/Indefinite Orthogonal Group.md",
     "Topology/Paracompact Space.md",
-    "Representation Theory/Lie Algebra.md",
-    "Topology/Compact Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

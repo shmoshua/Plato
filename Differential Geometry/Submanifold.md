@@ -3,7 +3,7 @@
 > [!definition]
 > Let $M,N$ be a [[smooth manifold]]. 
 > 1. $N$ is an ***immersed submanifold*** of $M$, if there exists $F\in C^\infty(N,M)$ that is an injective [[Differential|immersion]].
-> 2. $N$ is a ***regular submanifold*** of $M$, if there exists $F\in C^\infty(N,M)$ that is an ***embedding***, i.e. $F$ is an injective immersion that is also a [[homeomorphism]].
+> 2. $N$ is a ***regular submanifold*** of $M$, if there exists $F\in C^\infty(N,M)$ that is an ***embedding***, i.e. $F$ is an injective immersion that is also a [[homeomorphism]] to its image.
 ---
 
 > [!definition]
@@ -15,12 +15,12 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $M$ be a smooth manifold and $N\subseteq M$. Then, the following are equivalent:
-> 1. $N$ is a regular $n$-submanifold of $M$.
-> 2. for any $p\in N$, there exists a chart $(U,\varphi)$ of $M$ centered at $p$ s.t. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and: $$\varphi(U\cap N)=\{ x\in (-\varepsilon,\varepsilon)^m:x_{n+1}=\dots=x_{m}=0 \}$$
+> Let $M,N$ be smooth manifolds. Then, the following are equivalent:
+> 1. $N$ is a regular $n$-submanifold of $M$ with embedding $F$.
+> 2. for any $p\in N$, there exists a chart $(U,\varphi)$ of $M$ centered at $F(p)$ s.t. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and: $$\varphi(U\cap F(N))=\{ x\in (-\varepsilon,\varepsilon)^m:x_{n+1}=\dots=x_{m}=0 \}$$
 
-> [!proof]+
-> As $N$ is a regular $n$-submanifold of $M$, there exists an embedding $F\in C^\infty(M,N)$. 
+> [!proof]-
+> Assume $N$ is a regular $n$-submanifold with embedding $F$. Then, for every open subset $U\subseteq N$, there exists an open subset $V\subseteq M$ s.t. $f(U)\subseteq V\cap f(N)$. Choose charts $(U,\varphi)$ and $(V,\psi)$ at $p$ and $F(p)$ respectively s.t. $f(U)\subseteq V\cap f(N)$ and $\varphi(U)=(-\varepsilon,\varepsilon)^n, \varphi(p)=0$ as well as $\psi(V)=(-\varepsilon,\varepsilon)^m$ with $\psi(f(p))=0$ and: $$\psi F\varphi ^{-1}:(-\varepsilon,\varepsilon)^n\to(-\varepsilon,\varepsilon)^m,\quad x\mapsto(x,0)$$Then, $$\psi(V\cap F(N))=\{ y\in (-\varepsilon,\varepsilon)^m:y_{n+1}=\dots+y_{m}=0 \}$$
 ---
 > [!lemma] Theorem 1
 > Let $M,M'$ be [[Smooth Manifold|smooth manifolds]] and $f\in C^\infty(M,M')$ with constant [[rank]] $k$. 
