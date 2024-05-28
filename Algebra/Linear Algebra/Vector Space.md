@@ -1,8 +1,8 @@
 #Definition #LST 
 
 > [!definition]
-> A ***$\mathbb{K}$-vector space*** $(V,\oplus,\odot)$ is a set of vectors $V$ equipped with two binary operations, $\oplus:V\times V \to V$ (vector addition) and $\odot:\mathbb{K} \times V \to V$ (scalar multiplication) s.t.:
-> 1. **Associativity** of $\oplus$: for all $x,y,z\in V$: $x\oplus(y\oplus z)=(x\oplus y)\oplus z$
+> Let $K$ be a [[field]]. A ***$K$-vector space*** $V$ is a $K$-[[module]], i.e. it is a set $V$ endowed with an addition $+:V\times V \to V$ and multiplication $\cdot:K \times V \to V$ s.t.:
+> 1. **Associativity** of $+$: for all $x,y,z\in V$: $x\oplus(y\oplus z)=(x\oplus y)\oplus z$
 > 2. **Commutativity** of $\oplus$: for all $x,y\in V$: $x\oplus y=y\oplus x$.
 > 3. **Identity** of $\oplus$: there exists $\theta\in V$ s.t. for all $x\in V$: $x\oplus\theta = x$
 > 4. **Inverse** of $\oplus$: for every $x\in V$ there exists $\ominus x\in V$ s.t. $x\oplus(\ominus x)=\theta$.

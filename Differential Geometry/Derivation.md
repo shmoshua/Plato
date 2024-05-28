@@ -4,6 +4,8 @@
 > Let $K$ be a field and $A$ be a $K$-algebra. A ***derivation*** on $A$ is an endomorphism $\delta:A\to A$ s.t. $$\delta(ab)=\delta(a)b+a\delta(b)$$We denote $\text{Der }A$ as the space of all derivations on $A$.
 ---
 ##### Properties
+> [!lemma] Lemma 1
+> Let $A$ be a $K$-algebra. Then, for $\delta_{1},\delta_{2}\in \text{Der }A$
 ---
 ##### Examples
 > [!h] Example 1 (Smooth Vector Fields)

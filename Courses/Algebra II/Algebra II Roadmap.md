@@ -70,6 +70,11 @@
 ##### 6. Solvability by Radicals and Solvable Groups
 1. [[Radical Extension]]
 ---
+##### 7. Modules Fundamentals
+1. [[Module]]
+2. [[Submodule]]
+3. [[Direct Sum]]
+---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]
 2. [[Courses/Algebra II/Exercise Sheet 1|Exercise Sheet 1]]
