@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Smooth Atlas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Smooth Atlas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential.md"
+                "file": "Differential Geometry/Smooth Atlas.md"
               }
             }
           }
@@ -277,18 +277,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b7985c32df0139d5",
+  "active": "1d2a6cdf30df92d6",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Smooth Atlas.md",
+    "Functional Analysis/Pontryagin Dual.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Tangent Bundle.md",
-    "Differential Geometry/Smooth Atlas.md",
-    "Differential Geometry/Differential.md",
+    "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Regular Submanifold.md",
     "Differential Geometry/Tangent Space II.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Untitled.md",
     "Differential Geometry/Topological Manifold.md",
