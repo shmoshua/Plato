@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Tangent Bundle.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,13 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
+                "file": "Differential Geometry/Cotangent Bundle.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -69,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Tangent Bundle.md",
                 "mode": "preview",
                 "source": false
               }
@@ -81,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Partition of Unity.md",
+                "file": "Differential Geometry/Cotangent Bundle.md",
                 "mode": "preview",
                 "source": false
               }
@@ -190,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Cotangent Bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Cotangent Bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential.md"
+                "file": "Differential Geometry/Cotangent Bundle.md"
               }
             }
           }
@@ -252,13 +253,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6343fc6755c861ea",
+  "active": "e7961b54b9552b55",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Curve.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Partition of Unity.md",
-    "smooth.md",
+    "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Partition of Unity.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Smooth Curve.md",
+    "smooth.md",
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Differential k-Form.md",
@@ -278,8 +281,6 @@
     "Lie Group/Lie Group.md",
     "Topology/Locally Compact Space.md",
     "Differential Geometry/Atlas.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Derivation.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

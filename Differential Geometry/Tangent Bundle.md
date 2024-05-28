@@ -1,8 +1,8 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M$ be a [[smooth manifold]]. The ***tangent bundle*** $\text{T}M$ of $M$ is defined as: $$\text{T}M:=\bigcup_{p\in M}^{}\{ p \}\times \text{T}_{p}M=\{ (p,v) :p\in M,v\in \text{T}_{p}M\}$$
-- **Remark**: $\text{T}M$ has a natural projection $\pi:\text{T}M\to M, (p,v)\mapsto p$.
+> Let $M$ be a [[smooth manifold]]. The ***tangent bundle*** $\text{T}M$ of $M$ is defined as: $$\text{T}M:=\bigsqcup_{p\in M}^{}\text{T}_{p}M$$
+- **Remark**: $\text{T}M$ has a natural projection $\pi:\text{T}M\to M$ where $\pi(v)=p$ if $v\in \text{T}_{p}M$.
 - **Related definition**: For every $U\subseteq M$, $\text{T}U:=\pi ^{-1}(U)$
 - **Remark**: For any chart $(U,\varphi)$, the function: $$\begin{array}{cccc} {d\varphi:}&{\text{T}U}&\to&{\varphi(U)\times \mathbb{R}^m}\\&{(p,v)} &\mapsto & {(\varphi(p),d_{p}\varphi (v))} \end{array}{}$$is a bijection.
 ---

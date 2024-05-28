@@ -25,8 +25,8 @@
 > Let $M,N$ be smooth manifolds where $M$ is connected. Further, let $F\in C^\infty(M,N)$. 
 > 1. if $d_{p}F=0$ for all $p\in M$, then $F$ is constant.
 
-> [!proof]+
-> Let $q\in F(M)$. Then, $F^{-1}(q)$ is closed. It suffices to show that $F^{-1}(q)$ is open. Let $p\in F^{-1}(q)$ and choose charts $(U,x^i)$ and $(V,y^j)$ at $p$ and $q$ respectively s.t. $F(U)\subseteq V$. Then, on $U$, $$0=d_{p}F\left( \left. \frac{ \partial  }{ \partial x^j }  \right|_{p}  \right) =\sum_{i=1}^{n} \left. \frac{ \partial (y^i\circ F) }{ \partial x }  \right| $$
+> [!proof]-
+> Let $q\in F(M)$. Then, $F^{-1}(q)$ is closed. It suffices to show that $F^{-1}(q)$ is open. Let $p\in F^{-1}(q)$ and choose charts $(U,x^i)$ and $(V,y^j)$ at $p$ and $q$ respectively s.t. $F(U)\subseteq V$. Then, on $U$, $$0=d_{p}F\left( \left. \frac{ \partial  }{ \partial x^j }  \right|_{p}  \right) =\sum_{i=1}^{n} \left. \frac{ \partial (y^i\circ F) }{ \partial x^j }  \right| _{p} \left. \frac{ \partial  }{ \partial y^i }  \right| _{F(p)}$$which implies that $\frac{ \partial (y^i\circ F) }{ \partial x^j }=0$ for all $i\in[n]$ and $j\in [m]$. Therefore, $y^i\circ F$ are constant on $U$. It follows that $F(U)=\{ q \}$. Therefore, $F^{-1}(q)$ is open and as $M$ is connected, $F^{-1}(q)=M$.
 ---
 
 > [!lemma] Lemma 2
