@@ -1,13 +1,17 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M$ be a [[smooth manifold]] and $p\in M$. 
-> 1. A ***derivation of $C^\infty(M)$ at $p$***  is a map $\delta\in C^\infty(M)^{*}$ s.t. for all $f,g\in C^\infty(M)$, $$\delta(fg)=\delta(f)g(p)+f(p)\delta(g)$$
-> Let $\text{Der}_{p}C^\infty(M)$ be the vector space of derivations at $p$.
-> 2. A ***derivation of of $C^\infty(M)$*** is a linear map $\delta:C^\infty(M)\to C^\infty(M)$ s.t. for all $f,g\in C^\infty(M)$, $$\delta(fg)=\delta(f)g+f\delta(g)$$
-> 	Let $\text{Der }C^\infty(M)$ be the vector space of derivations.
+> Let $K$ be a field and $A$ be a $K$-algebra. A ***derivation*** on $A$ is an endomorphism $\delta:A\to A$ s.t. $$\delta(ab)=\delta(a)b+a\delta(b)$$We denote $\text{Der }A$ as the space of all derivations on $A$.
 ---
 ##### Properties
+---
+##### Examples
+> [!h] Example 1 (Smooth Vector Fields)
+> For a [[smooth manifold]] $M$, $$\begin{array}{cccc} {\alpha:}&{\Gamma(\text{T}M)}&\to&{\text{Der }C^\infty(M)}\\&{X} &\mapsto & {f\mapsto X(f)} \end{array}{}$$is an isomorphism.
+
+> [!proof]+
+> 
+---
 > [!lemma] Lemma 1
 > Let $M$ be a [[smooth manifold]] and $p\in M$. Further, let $\delta\in \text{Der}_{p}C^\infty(M)$ and $g\in C^\infty(M)$ s.t. $g \equiv 1$ in a neighborhood of $p$. Then, $$\delta(f)=\delta(fg), \quad\forall f\in C^\infty(M)$$
 
