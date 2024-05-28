@@ -18,7 +18,7 @@
 }
 
 
-.inline-embed .markdown-embed-content .callout-content p {
+.inline-embed .markdown-embed-content .callout-content {
   margin-top: 1em !important;
 }
 
@@ -31,8 +31,10 @@
   --callout-color: 190,41,236;
 }
 
+
 .inline-embed .markdown-embed-content .callout[data-callout="h"]{
   --callout-color: 190,41,236;
+  --callout-title-content: "hihi" !important;
 }
 
 .callout-content {
@@ -117,4 +119,8 @@ margin-bottom: 1.2em;
 
 hr {
   margin: -0.5rem 0;
+}
+
+.inline-embed[alt=hihi] .markdown-embed-content  .callout{
+  --callout_title: "alt" !important;
 }

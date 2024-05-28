@@ -74,13 +74,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Linear Algebra/Vector Space.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -93,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Linear Algebra/Vector Space.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "mode": "preview",
                 "source": false
               }
@@ -159,8 +160,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Derivation.md"
+                "file": "Differential Geometry/Vector Field.md"
               }
             }
           }
@@ -288,18 +288,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "cd96f963b7fd8fe8",
+  "active": "344e33ffe3c88cd2",
   "lastOpenFiles": [
-    "Algebra/Direct Sum.md",
-    "Differential Geometry/Derivation.md",
     "Algebra/Linear Algebra/Vector Space.md",
+    "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Derivation.md",
+    "Algebra/Direct Sum.md",
     "Algebra/Ideal.md",
     "Algebra/Module.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Quotient Ring.md",
     "Algebra/Submodule.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Differential Geometry/Vector Field.md",
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Bundle.md",
@@ -315,7 +316,6 @@
     "Topology/Locally Compact Hausdorff Space.md",
     "Untitled.md",
     "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
