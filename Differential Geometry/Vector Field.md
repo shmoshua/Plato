@@ -46,11 +46,6 @@
 > 5. If $\varphi$ is a diffeomorphism, $\varphi ^{-1}\in C^\infty(N,M)$ and $(\varphi ^{-1})^{*}:C^\infty(M)\to C^\infty(N)$ s.t. $$\varphi ^{*}\circ (\varphi ^{-1})^{*}=\text{id}_{C^\infty(M)}$$The rest is immediate by 2. 
 - **Corollary**: For a diffeomorphism $\varphi\in C^\infty(M,N)$, $\varphi_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}N)$ is a Lie algebra homomorphism by 3. 
 ---
-> [!lemma] Proposition 3
-> For a [[Lie group]] $G$ and a smooth group action $G\times M\to M$, let for $g\in G$: $$L_{g}:M\to M,\quad x\mapsto gx$$
-> 1. $(L_{g})_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}M)$ is a Lie algebra isomorphism.
-> 2. 
----
 ##### Examples
 > [!h] Example 1
 > 

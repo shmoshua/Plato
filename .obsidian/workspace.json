@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Pushforward Measure.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Associative Algebra.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Algebra/Orbit and Stablizer.md",
                 "mode": "preview",
                 "source": false
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Vector Field.md"
+                "file": "Representation Theory/Lie Algebra.md"
               }
             }
           }
@@ -303,18 +303,20 @@
   },
   "active": "b94365c84992be39",
   "lastOpenFiles": [
-    "Representation Theory/Lie Algebra.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Differential.md",
+    "Algebra/Associative Algebra.md",
+    "Representation Theory/Lie Algebra.md",
+    "Algebra/Orbit and Stablizer.md",
+    "Functional Analysis/Pontryagin Dual.md",
     "Analysis/Pushforward Measure.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Group Action.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Derivation.md",
     "Differential Geometry/Lie Bracket.md",
-    "Differential Geometry/Differential.md",
     "Algebra/Algebra Homomorphism.md",
     "Differential Geometry/Smooth Atlas.md",
-    "Algebra/Associative Algebra.md",
     "Algebra/Linear Algebra/Vector Space.md",
     "Algebra/Submodule.md",
     "Measure Theory/Algebra.md",
@@ -326,9 +328,7 @@
     "Algebra/Quotient Ring.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Submanifold.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Cotangent Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
