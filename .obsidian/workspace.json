@@ -161,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -227,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/General Linear Group.md"
+                "file": "Differential Geometry/Submanifold.md"
               }
             }
           }
@@ -289,11 +289,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1db5ea563cbfbfc7",
+  "active": "6343fc6755c861ea",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
-    "Algebra/General Linear Group.md",
     "Representation Theory/Lie Algebra.md",
+    "Algebra/General Linear Group.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Vector Field.md",
