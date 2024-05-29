@@ -12,14 +12,16 @@
 > For a [[Lie group]] $G$ and a smooth group action $G\times G\to G$, let for $g\in G$: $$L_{g}:G\to G,\quad x\mapsto gx$$
 > 1. $(L_{g})_{*}:\Gamma(\text{T}G)\to\Gamma(\text{T}G)$ is a Lie algebra isomorphism.
 > 2. the space of [[Topological Vector Space with Seminorms|$G$-invariant vector fields]] $\mathfrak{g}\subseteq \Gamma(\text{T}G)$ is a Lie subalgebra.
-> 3. the map: $$\mathfrak{g}\mapsto \text{T}_{e}G,\quad X\mapsto X_{e}$$ is a vector space isomorphism.
+> 3. For any $X\in \mathfrak{g}$, $X$ is $L_{g}$-related to itself for all $g\in G$.
+> 4. the map: $$\mathfrak{g}\mapsto \text{T}_{e}G,\quad X\mapsto X_{e}$$ is a vector space isomorphism.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. $L_{g}$ is a diffeomorphism for any $g\in G$ with $L_{g}^{-1}=L_{g^{-1}}$. Therefore, by [[Vector Field|Proposition 2]], $(L_{g})_*$ is a Lie algebra isomorphism.
 > 2. We have that for $X,Y\in \mathfrak{g}$, $$(L_{g})_{*}([X,Y])=[(L_{g})_{*}(X),(L_{g})_{*}(Y)]=[X,Y]$$
-> 3. Define: $$\Psi:\text{T}_{e}G\to \mathfrak{g},\quad v\mapsto v^L$$where $v^L_{g}:=d_{e}L_{g}(v)$. Then, 
-> 	1. **$\Psi$ is well-defined**:
+> 3. This is by [[Vector Field|Proposition 2]].
+> 4. Clearly, the map is linear. Now, if $X_{e}=Y_{e}$ for $X,Y\in \mathfrak{g}$. Then, from 3, $dL_{g}\circ X =X\circ L_{g}$ for all $g\in G$. Therefore, for any $g\in G$, $$X_{g}=X_{L_{g}(e)}=d_{e}L_{g}(X_{e})=d_{e}L_{g}(Y_{e})=Y_{g}$$and the map is injective. For surjectivity, let $v\in \text{T}_{e}G$. define $X_{g}:=d_{e}L_{g}(v)$. Then, $X_{e}=d_{e}L_{e}(v)=v$ and we have for any $h\in G$: $$X_{gh}=d_{e}L_{gh}(v)=d_{h}L_{g}(d_{e}L_{h}(v))=d_{h}L_{g}(X_{h})$$Therefore, $X$ is $L_{g}$-related to itself for all $g\in G$. 
+- **Remark**: From this isomorphism, for a [[Lie group]] $G$, we denote its Lie algebra $\mathfrak{g}$ as $\text{T}_{e}G$ with the bracket induced from $\Gamma(\text{T}G)$.
 ---
 ##### Examples 
 > [!h] Example 1
