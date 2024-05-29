@@ -9,6 +9,7 @@
 
 - **Remark**: Let $(U,\varphi)$ be a chart of $M$ at $p\in U$. Then, by [[Tangent Space|this]], $\left\{  \frac{ \partial  }{ \partial x^j }  \right\}_{j\in[m]}$ forms a basis of $\text{T}_{p}M$ and any vector field $X$ can be represented as: $$X_{p}:=\sum_{i=1}^{m}X^i(p)\left.  \frac{ \partial  }{ \partial x^i } \right|_{p}  $$on $U$ with $X^i:U\to \mathbb{R}$.
 - **Related definition**: Let $\varphi\in C^\infty(M,N)$. $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$ are ***$\varphi$-related*** if $d\varphi \circ X=Y\circ\varphi$i.e. $Y_{\varphi(p)}=d_{p}\varphi(X_{p})$ for all $p\in M$.
+- **Related definition**: Let $G$ be a [[Lie group]] and $M$ a smooth manifold with a smooth [[group action]] $G\times M\to M$, i.e. $L:G\to \text{Diffeo}(M)$. Then, $X\in \Gamma(\text{T}M)$ is ***$G$-invariant*** if for all $g\in G$, $(L_{g})_{*}X=X$ per Proposition 2.
 ---
 ##### Properties
 
@@ -44,6 +45,11 @@
 > 4. We have: $$\begin{align}\varphi ^{*}\circ  \alpha[X',Y']&=\varphi ^{*}\circ \alpha X'\circ \alpha Y'-\varphi ^{*}\circ \alpha Y'\circ \alpha X'\\&=\alpha X\circ \varphi ^{*}\circ \alpha Y'-\alpha Y\circ \varphi ^{*}\circ \alpha X'\\&=\alpha X\circ \alpha Y\circ \varphi ^{*}-\alpha Y\circ \alpha X\circ \varphi ^{*}\\&=\alpha[X,Y]\circ \varphi ^{*}\end{align}$$Therefore, they are $\varphi$-related by 2. 
 > 5. If $\varphi$ is a diffeomorphism, $\varphi ^{-1}\in C^\infty(N,M)$ and $(\varphi ^{-1})^{*}:C^\infty(M)\to C^\infty(N)$ s.t. $$\varphi ^{*}\circ (\varphi ^{-1})^{*}=\text{id}_{C^\infty(M)}$$The rest is immediate by 2. 
 - **Corollary**: For a diffeomorphism $\varphi\in C^\infty(M,N)$, $\varphi_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}N)$ is a Lie algebra homomorphism by 3. 
+---
+> [!lemma] Proposition 3
+> For a [[Lie group]] $G$ and a smooth group action $G\times M\to M$, let for $g\in G$: $$L_{g}:M\to M,\quad x\mapsto gx$$
+> 1. $(L_{g})_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}M)$ is a Lie algebra isomorphism.
+> 2. 
 ---
 ##### Examples
 > [!h] Example 1
