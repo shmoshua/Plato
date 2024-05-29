@@ -4,6 +4,7 @@
 > A ***Lie group*** is a [[topological group]] $G$ endowed with a [[Smooth Manifold|smooth manifold structure]] s.t. 
 > 1. the multiplication $m:G\times G\to G$ is smooth and
 > 2. the inverse $i:G\to G$ is smooth.
+- **Related defintion**: For Lie groups $G,H$, a ***Lie group homomorphism*** is a smooth group homomorphism $G\to H$. It is a ***Lie group isomorphism*** if it's bijective and the inverse is also a Lie group homomorphism. 
 ---
 
 ##### Examples

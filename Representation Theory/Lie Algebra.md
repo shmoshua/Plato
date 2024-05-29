@@ -23,6 +23,14 @@
 > 4. Clearly, the map is linear. Now, if $X_{e}=Y_{e}$ for $X,Y\in \mathfrak{g}$. Then, from 3, $dL_{g}\circ X =X\circ L_{g}$ for all $g\in G$. Therefore, for any $g\in G$, $$X_{g}=X_{L_{g}(e)}=d_{e}L_{g}(X_{e})=d_{e}L_{g}(Y_{e})=Y_{g}$$and the map is injective. For surjectivity, let $v\in \text{T}_{e}G$. define $X_{g}:=d_{e}L_{g}(v)$. Then, $X_{e}=d_{e}L_{e}(v)=v$ and we have for any $h\in G$: $$X_{gh}=d_{e}L_{gh}(v)=d_{h}L_{g}(d_{e}L_{h}(v))=d_{h}L_{g}(X_{h})$$Therefore, $X$ is $L_{g}$-related to itself for all $g\in G$. 
 - **Remark**: From this isomorphism, for a [[Lie group]] $G$, we denote its Lie algebra $\mathfrak{g}$ as $\text{T}_{e}G$ with the bracket induced from $\Gamma(\text{T}G)$.
 ---
+> [!lemma] Proposition 2 (Lie Group homomorphism induces a Lie Algebra homomorphism)
+> Let $G,H$ be [[Lie Group|Lie groups]] with $\varphi:G\to H$ a Lie group homomorphism. Then, for the corresponding Lie algebras $\mathfrak{g}$ and $\mathfrak{h}$, the [[differential]] $d_{e}\varphi:\mathfrak{g}\to \mathfrak{h}$ is a Lie algebra homomorphism.
+
+> [!proof]-
+> We need to show that for $v_{1},v_{2}\in \mathfrak{g}$, $d_{e}\varphi[v_{1},v_{2}]=[d_{e}\varphi (v_{1}),d_{e}\varphi(v_{2})]$. 
+> 
+> Let $v\in \mathfrak{g}$ and $w:=d_{e}\varphi(v)\in \mathfrak{h}$. We first claim that $v^L\in \Gamma(\text{T}G)$ and $w^L\in \Gamma(\text{T}H)$ are $\varphi$ related. We have:$$\begin{align}(w^L)_{\varphi (g)}&=d_{e}L_{\varphi(g)}(w)=d_{e}L_{\varphi(g)}(d_{e}\varphi(v))=d_{e}(L_{\varphi(g)}\circ \varphi)(v)\\&=d_{e}(\varphi \circ L_{g})(v)=d_{g}\varphi(d_{e}L_{g}(v))=d_{g}\varphi((v^L)_{g})\end{align}$$Now let $w_{i}:=d_{e}\varphi(v_{i})$ for $i=1,2$. Then, by [[Vector Field|Proposition 2.3]], $[v_{1}^L,v_{2}^L]$ and $[w_{1}^L,w_{2}^L]$ are $\varphi$-related. Therefore, $$d_{e}\varphi[v_{1},v_{2}]=d_{e}\varphi([v_{1}^L,v_{2}^L]_{e})=[w_{1}^L,w_{2}^L]_{e}=[w_{1},w_{2}]$$This proves the statement.
+---
 ##### Examples 
 > [!h] Example 1
 > Any space $\mathfrak{g}$ with $[\cdot,\cdot]\equiv 0$ is an abelian Lie algebra. 
