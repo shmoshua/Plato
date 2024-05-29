@@ -48,6 +48,10 @@
 4. [[Vector Field]]
 5. [[Lie Bracket]]
 6. [[Lie Algebra]]
+7. [[Vector Field|Pushforward Vector Field]]
+
+**2.3 Lie Algebras of Lie Groups**
+
 ---
 ##### 3. Structure Theory
 ---
