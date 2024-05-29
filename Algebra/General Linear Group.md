@@ -53,7 +53,11 @@
 > Let $\mathfrak{gl}(n,\mathbb{R})$ be the [[Lie algebra]] of $\text{GL}(n,\mathbb{R})$. Consider the map: $$\text{Mat}_{n,n}(\mathbb{R})\to \mathfrak{gl}(n,\mathbb{R}),\quad A\mapsto A_{I}$$where $A_{I}(f):= \left. \frac{d}{dt} \right|_{t=0}f(I+tA)$ for $f\in C^\infty(\text{Mat}_{n,n}(\mathbb{R}))$. Then, 
 > 1. this map is a Lie algebra isomorphism, where $\text{Mat}_{n,n}(\mathbb{R})$ is endowed with $[A,B]=AB-BA$.
 
-> [!proof]+
-> We need to show that: $[A,B]_{I}=[A_{I},B_{I}]$. Recall that we have: $[A_{I},B_{I}]=[A_{I}^L,B_{I}^L]_{I}$ where for $A_{I}\in \mathfrak{gl}(n,\mathbb{R})$, $A_{I}^L\in \Gamma(\text{TGL}(n,\mathbb{R}))$ with $(A_{I}^L)_{B}:=d_{I}L_{B}(A_{I})$. 
+> [!proof]-
+> We need to show that: $[A,B]_{I}=[A_{I},B_{I}]$. Recall that we have: $[A_{I},B_{I}]=[A_{I}^L,B_{I}^L]_{I}$ where, $$\mathfrak{gl}(n,\mathbb{R})\to\Gamma(\text{TGL}(n,\mathbb{R})),\quad X\mapsto X^L$$with $(X^L)_{g}:=d_{I}L_{g}(X)$.
 > 
-> As $\text{GL}(n,\mathbb{R})\subseteq \text{Mat}_{n,n}(\mathbb{R})$ open, we can use [[Tangent Space|Example 2]]. 
+> As $\text{GL}(n,\mathbb{R})\subseteq \text{Mat}_{n,n}(\mathbb{R})$ open, we can use [[Tangent Space|Example 2]]. Therefore, we want to show that: $$[A,B]_{I}=[A^L_{I},B^L_{I}]_{I}\in\mathfrak{gl}(n,\mathbb{R})$$Per Example 2, this can be done by checking that $d_{I}\lambda([A,B]_{I})=d_{I}\lambda([A^L_{I},B^L_{I}]_{I})$ for all $\lambda\in \text{Mat}_{n,n}(\mathbb{R})^{*}$. We have:
+> 1. $d_{I}\lambda([A,B]_{I})=[A,B]_{I}(\lambda)=\left. \frac{d}{dt} \right|_{t=0}\lambda(I+t[A,B])=\lambda([A,B])=\lambda(AB)-\lambda(BA)$.
+> 2. $d_{I}\lambda([A^L_{I},B^L_{I}]_{I})=[A_{I}^L,B_{I}^L]_{I}(\lambda)=A_{I}(B^L_{I}(\lambda))-B_{I}(A_{I}^L(\lambda))$.
+>    
+>  We will show that $A_{I}(B^L_{I}(\lambda))=\lambda(AB)$. We have: $$\begin{align}A_{I}(B_{I}^L(\lambda))&=A_{I}(g\mapsto (B_{I}^L)_{g}(\lambda))\\&=A_{I}(g\mapsto d_{I}L_{g}(B_{I})(\lambda))\\&=A_{I}(g\mapsto B_{I}(h\mapsto\lambda(gh)))\\&=A_{I}(g\mapsto \lambda(gB))\\&=\lambda(AB)\end{align}$$This concludes the proof by symmetry.
