@@ -61,3 +61,5 @@
 > 2. $d_{I}\lambda([A^L_{I},B^L_{I}]_{I})=[A_{I}^L,B_{I}^L]_{I}(\lambda)=A_{I}(B^L_{I}(\lambda))-B_{I}(A_{I}^L(\lambda))$.
 >    
 >  We will show that $A_{I}(B^L_{I}(\lambda))=\lambda(AB)$. We have: $$\begin{align}A_{I}(B_{I}^L(\lambda))&=A_{I}(g\mapsto (B_{I}^L)_{g}(\lambda))\\&=A_{I}(g\mapsto d_{I}L_{g}(B_{I})(\lambda))\\&=A_{I}(g\mapsto B_{I}(h\mapsto\lambda(gh)))\\&=A_{I}(g\mapsto \lambda(gB))\\&=\lambda(AB)\end{align}$$This concludes the proof by symmetry.
+- **Remark**: This allows us to also treat $\mathfrak{gl}(n,\mathbb{R})$ as $\text{Mat}_{n,n}(\mathbb{R})$.
+---

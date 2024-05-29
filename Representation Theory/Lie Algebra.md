@@ -30,6 +30,7 @@
 > We need to show that for $v_{1},v_{2}\in \mathfrak{g}$, $d_{e}\varphi[v_{1},v_{2}]=[d_{e}\varphi (v_{1}),d_{e}\varphi(v_{2})]$. 
 > 
 > Let $v\in \mathfrak{g}$ and $w:=d_{e}\varphi(v)\in \mathfrak{h}$. We first claim that $v^L\in \Gamma(\text{T}G)$ and $w^L\in \Gamma(\text{T}H)$ are $\varphi$ related. We have:$$\begin{align}(w^L)_{\varphi (g)}&=d_{e}L_{\varphi(g)}(w)=d_{e}L_{\varphi(g)}(d_{e}\varphi(v))=d_{e}(L_{\varphi(g)}\circ \varphi)(v)\\&=d_{e}(\varphi \circ L_{g})(v)=d_{g}\varphi(d_{e}L_{g}(v))=d_{g}\varphi((v^L)_{g})\end{align}$$Now let $w_{i}:=d_{e}\varphi(v_{i})$ for $i=1,2$. Then, by [[Vector Field|Proposition 2.3]], $[v_{1}^L,v_{2}^L]$ and $[w_{1}^L,w_{2}^L]$ are $\varphi$-related. Therefore, $$d_{e}\varphi[v_{1},v_{2}]=d_{e}\varphi([v_{1}^L,v_{2}^L]_{e})=[w_{1}^L,w_{2}^L]_{e}=[w_{1},w_{2}]$$This proves the statement.
+- **Corollary**: For a Lie group $G$ and $H\leq G$ that is a [[Submanifold|regular submanifold]], $i:H\hookrightarrow G$ is a Lie group isomorphism and therefore, $\mathfrak{h}\subseteq \mathfrak{g}$ is a Lie subalgebra.
 ---
 ##### Examples 
 > [!h] Example 1
