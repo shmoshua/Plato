@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Algebra/General Linear Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Algebra/General Linear Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Algebra/General Linear Group.md"
               }
             }
           }
@@ -303,14 +303,15 @@
   },
   "active": "b94365c84992be39",
   "lastOpenFiles": [
-    "Differential Geometry/Vector Field.md",
     "Representation Theory/Lie Algebra.md",
+    "Algebra/General Linear Group.md",
+    "Differential Geometry/Vector Field.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Differential.md",
     "Algebra/Associative Algebra.md",
     "Algebra/Orbit and Stablizer.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Analysis/Pushforward Measure.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Group Action.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Derivation.md",
@@ -328,7 +329,6 @@
     "Algebra/Quotient Ring.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Submanifold.md",
-    "Differential Geometry/Smooth Function.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

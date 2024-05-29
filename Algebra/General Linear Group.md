@@ -49,3 +49,9 @@
 > 	
 > 	We claim that $B^{-1}KB\leq \text{O}(n,\mathbb{R})$. For $g\in K$, we have: $$B^{-1}gB  B g^\top B^{-1}=B^{-1}\underbrace{ gAg^\top }_{ A } B^{-1}=B^{-1}AB^{-1}=I_{n}$$Therefore, $B^{-1}gB$ is orthogonal.
 ---
+> [!lemma] Proposition 3
+> Let $\mathfrak{gl}(n,\mathbb{R})$ be the [[Lie algebra]] of $\text{GL}(n,\mathbb{R})$. Consider the map: $$\text{Mat}_{n,n}(\mathbb{R})\to \mathfrak{gl}(n,\mathbb{R}),\quad A\mapsto A_{I}$$where $A_{I}(f):= \left. \frac{d}{dt} \right|_{t=0}f(I+tA)$ for $f\in C^\infty(\text{Mat}_{n,n}(\mathbb{R}))$. Then, 
+> 1. this map is a Lie algebra isomorphism, where $\text{Mat}_{n,n}(\mathbb{R})$ is endowed with $[A,B]=AB-BA$.
+
+> [!proof]+
+> We need to show that: $[A,B]_{I}=[A_{I},B_{I}]$. Recall that we have: $[A_{I},B_{I}]=[A_{I}^L,B_{I}^L]_{I}$ where for $A_{I}\in \mathfrak{gl}(n,\mathbb{R})$, $A_{I}^L\in \Gamma(\text{TGL}(n,\mathbb{R}))$ with $(A_{I}^L)_{B}:=d_{I}L_{B}(A_{I})$. 
