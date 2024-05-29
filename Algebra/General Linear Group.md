@@ -55,3 +55,5 @@
 
 > [!proof]+
 > We need to show that: $[A,B]_{I}=[A_{I},B_{I}]$. Recall that we have: $[A_{I},B_{I}]=[A_{I}^L,B_{I}^L]_{I}$ where for $A_{I}\in \mathfrak{gl}(n,\mathbb{R})$, $A_{I}^L\in \Gamma(\text{TGL}(n,\mathbb{R}))$ with $(A_{I}^L)_{B}:=d_{I}L_{B}(A_{I})$. 
+> 
+> As $\text{GL}(n,\mathbb{R})\subseteq \text{Mat}_{n,n}(\mathbb{R})$ open, we can use [[Tangent Space|Example 2]]. 

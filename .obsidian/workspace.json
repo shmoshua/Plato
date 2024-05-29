@@ -74,14 +74,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/General Linear Group.md"
+                "file": "Differential Geometry/Tangent Space.md"
               }
             }
           }
@@ -301,13 +301,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b94365c84992be39",
+  "active": "6343fc6755c861ea",
   "lastOpenFiles": [
-    "Representation Theory/Lie Algebra.md",
     "Algebra/General Linear Group.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Vector Field.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Differential.md",
+    "Representation Theory/Lie Algebra.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Associative Algebra.md",
     "Algebra/Orbit and Stablizer.md",
     "Functional Analysis/Pontryagin Dual.md",
@@ -328,7 +329,6 @@
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Quotient Ring.md",
     "Differential Geometry/Tangent Bundle.md",
-    "Differential Geometry/Submanifold.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
