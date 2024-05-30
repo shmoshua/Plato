@@ -60,6 +60,7 @@
 >      Let $\psi\in C_{00}(\widehat{G})$ and $\gamma_{0}\in \widehat{G}$. Choose $K\supseteq \text{supp }\psi$ compact and $g\in C_{00}(G)\cap P(G)$ with $\widehat{g}>0$ on $K\cup \gamma_{0}K$. Let $f(x):=\overline{(x,\gamma_{0})}g(x)$. Then, $$f(x)=\overline{(x,\gamma_{0})}\int_{\widehat{G}}(x,\chi) \, d\mu_{g}(\chi) =\int_{\widehat{G}}^{} (x,\gamma_{0}^{-1}\chi) \, d\mu_{g}(\chi) $$Hence for all $\varphi\in C_{0}(\widehat{G})$, $$\int_{\widehat{G}}^{} \varphi(\chi) \, d\mu_{f}(\chi)=\int_{\widehat{G}}^{} \varphi(\gamma_{0}^{-1}\chi) \, d\mu_{g}(\chi)  $$as $A(\widehat{G})\subseteq C_{0}(\widehat{G})$ is dense. Therefore, we can write: $$T(\lambda(\gamma_{0})\psi)=\int_{K\cup\gamma_{0}K} \frac{\psi(\gamma_{0}^{-1}\chi) }{\widehat{g}(\chi)} \, d\mu_{g}(\chi)=\int_{K\cup \gamma_{0}K}\frac{\psi(\chi)}{\widehat{g}(\gamma_{0}\chi)}  \, d\mu_{f}(\chi)= \int_{K\cup \gamma_{0}K} \frac{\psi(\chi)}{\widehat{f}(\chi)}  \, d\mu_{f}(\chi)=T(\psi)  $$since: $$\widehat{g}(\gamma_{0}\chi)=\int_{G}^{} g(x)\overline{(x,\gamma_{0}\chi)} \, d\lambda(x)=\int_{G}^{} f(x)\overline{(x,\chi)} \, d\lambda(\chi)=\widehat{f}(\chi)  $$
 >
 > Therefore, $T$ is a Haar functional and there exists a Haar measure $\omega$ corresponding to $T$. Let $\psi\in C_{00}(\widehat{G})$ and $f\in L^1(G)\cap B(G)$. Pick $g\in C_{00}(G)\cap P(G)$ s.t. $\widehat{g}>0$ on $K=\text{supp }\psi$. Then, $$\int_{K}^{} \psi \, d\mu_{f}=\int_{K} \frac{\psi(\chi)}{\widehat{g}(\chi)}\widehat{g}(\chi)  \, d\mu_{f}(\chi)=\int_K \frac{\psi(\chi)}{\widehat{g}(\chi)}\widehat{f}(\chi) \, d\mu_{g}(\chi)=T(\psi \widehat{f})=\int_{\widehat{G}}\psi \widehat{f} \, d\omega    $$It follows that $\widehat{f}d\omega=\mu_{f}$.
+- **Corollary (after Pontryagin Duality)**: For $f\in L^1(G)\cap C(G)$ s.t. $\widehat{f}\in L^1(\widehat{G})$. Then,$$f(x)=\int_{\widehat{G}}^{} \widehat{f}(\gamma)(x,\gamma) \, d\omega(\gamma),\quad \forall x\in G $$as $f$ and $x\mapsto \int_{\widehat{G}}^{} \widehat{f}(\gamma)(x,\gamma) \, d\omega(\gamma)$ are continuous and coincide almost everywhere.
 ---
 > [!lemma] Theorem 4 (Plancherel)
 > Let $G$ be an LCA group and $\lambda$ and $\omega$ be the Haar measures of $G$ and $\widehat{G}$ respectively, s.t. the inversion theorem holds. Then, 
@@ -96,7 +97,7 @@
 > Set $\psi:= \mathbb{1}_{U}*\mathbb{1}_{V}\in A(\widehat{G})$. Then, $\text{supp }\psi \subseteq UV\subseteq E$ and $\psi|_{F}=0$. Further, $$\psi(\chi)=\int_{\widehat{G}}^{} \mathbb{1}_{U}(\chi\gamma)\mathbb{1}_{V}(\gamma ^{-1}) \, d\omega(\gamma)=\omega(\chi ^{-1}U \cap V^{-1})>0 $$as it is an open set of the Haar measure. 
 ---
 > [!lemma] Corollary 7
-> Assume $f\in L^1(G)\cap C(G)$ and $\widehat{f}\in L^1(\widehat{G})$. Then,$$f(x)=\int_{\widehat{G}}^{} \widehat{f}(\gamma)(x,\gamma) \, d\omega(\gamma),\quad \forall x\in G $$
+> 
 ---
 
 ##### Examples

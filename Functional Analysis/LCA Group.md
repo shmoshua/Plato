@@ -26,3 +26,32 @@
 >   5. **$\mu$ is positive**: 
 >      We have that: $$0\leq T_{\Phi}(f*f^{*})=\int_{\widehat{G}}\left| \widehat{f}(\chi) \right|^{2}   \, d\mu(\chi) $$As $C_{0}(\widehat{G})\to C_{0}(\widehat{G}),\varphi\mapsto \left| \varphi \right|^{2}$ is continuous with image $\{ \varphi\in C_{0}(\widehat{G}):\varphi\geq 0 \}$ and $A(\widehat{G})$ is dense in $C_{0}(\widehat{G})$, $$\int_{\widehat{G}}^{} \varphi \, d\mu \geq 0$$for any $\varphi\in C_{0}(\widehat{G})$ with $\varphi\geq 0$.
 ---
+> [!lemma] Proposition 2
+> For $G_{1},G_{2}$ LCA groups, let $\varphi :G_{1}\to G_{2}$ be a continuous homomorphism. Then, the following are equivalent:
+> 1. $\varphi$ is a topological group isomorphism.
+> 2. $\varphi ^{*}:\widehat{G}_{2}\to \widehat{G}_{1},\chi\mapsto \chi \circ\varphi$ is a topological group isomorphism.
+
+> [!proof]-
+> from 1=>2 is elementary. 
+> 
+> For the converse, we observe that the diagram: $$\begin{CD} \widehat{\widehat{G_{1}}}@>\varphi ^{**}>> \widehat{\widehat{G_{2}}}\\@A\alpha_{1}AA&@AA\alpha_{2}A\\G_{1} @>\varphi >>G_{2}\end{CD}$$ commutes, where $\alpha_{i}$ is the [[Pontryagin Dual|Pontryagin duality isomorphism]]. Now apply 1=>2.
+---
+Let $G$ be a LCA group and $H\leq G$ a closed subgroup. Then, $G / H$ is also an LCA group by [[Quotient Topology|Quotient Lemma]] and the projection $p:G\to G / H$ is continuous. Consider: $$\begin{array}{cccc} {q:}&{\widehat{G}}&\to&{\widehat{H}}\\&{\chi} &\mapsto & {\chi|_{H}} \end{array}{}$$Then, we define the kernel as: $$H^{\bot}:=\{ \chi\in \widehat{G}:\chi|_{H}=1 \}$$which is a closed subgroup of $\widehat{G}$. Then, let $\overline{q}:\widehat{G} / H^{\bot}\to \widehat{H}$ and notice that: $$\text{Im }p^{*}\subseteq H^{\bot}$$as for $h\in H$, $\chi(p(h))=\chi(0)=1$. Then
+
+> [!lemma] Theorem 
+> We have:
+> 1. $p^{*}:\widehat{G / H}\to H^{\bot}$
+> 2. $\overline{q}:\widehat{G} / H^{\bot}\to \widehat{H}$
+> 
+> are isomorphism of LCA groups.
+
+> [!proof]-
+> We have:
+> 1. is obvious
+> 2. we have that: $$\overline{q}^{*}:H\to H^{\bot\bot}=\{ x\in G:\chi(x)=1,\quad \forall \chi\in H^{\bot} \}$$Assume $H^{\bot\bot}\supsetneq H$. Then, let $x\in H^{\bot\bot}$ but $x\notin H$. Therefore, $p(x)\neq e$ in $G / H$. However, as there exists $\chi\in \widehat{G / H}$ with $\chi(p(x))\neq 1$. But $\chi \circ p \in H^{\bot}$, which is a contradiction.
+---
+> [!lemma] Theorem 
+> Let $H\leq G$ be a closed subgroup. Then, every continuous character on $H$ extends to a continuous character on $G$. 
+
+> [!proof]-
+> Let $\phi\in \widehat{H}$. By Theorem, we may view it as an element of $\widehat{G} / H^{\bot}$. Hence, there exists $\chi\in \widehat{G}$ that projects to $\phi$. Therefore, $\chi|_{H}=\phi$.
