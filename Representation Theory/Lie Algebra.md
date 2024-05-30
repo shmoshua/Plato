@@ -49,7 +49,9 @@
 > $\mathbb{R}^3$ with $[u,v]:=u\times v$ as the cross product is a Lie algebra.
 ---
 > [!h] Example 6 (Special Linear Lie Algebra)
-> The ***special linear Lie algebra*** is $$\mathfrak{sl}_{n}(K):=\{ A\in \text{M}_{n,n}(K):\text{tr}(A)=0 \}$$with $[A,B]=AB-BA$. The basis of $\mathfrak{sl}_{2}(K)$ is given as: $$e:=\begin{bmatrix}0&1\\0&0\end{bmatrix},\quad f:=\begin{bmatrix}0&0\\1&0\end{bmatrix},\quad h:=\begin{bmatrix}1&0\\0&-1\end{bmatrix}$$where $[h,e]=2e$, $[h,f]=-2f$ and $[e,f]=h$.
+> The ***special linear Lie algebra*** is $$\mathfrak{sl}(n,\mathbb{R}):=\{ A\in \text{Mat}_{n,n}(\mathbb{R}):\text{tr}(A)=0 \}$$with $[A,B]=AB-BA$. 
+> 
+> The basis of $\mathfrak{sl}_{2}(K)$ is given as: $$e:=\begin{bmatrix}0&1\\0&0\end{bmatrix},\quad f:=\begin{bmatrix}0&0\\1&0\end{bmatrix},\quad h:=\begin{bmatrix}1&0\\0&-1\end{bmatrix}$$where $[h,e]=2e$, $[h,f]=-2f$ and $[e,f]=h$.
 ---
 > [!h] Example 7 (Heisenberg Lie Algebra)
 > Defined as: $$\mathfrak{H}:=\left\{ A\in \text{M}_{3,3}(\mathbb{C}):A=\begin{bmatrix}0&*&*\\0&0&*\\0&0&0\end{bmatrix} \right\}$$with basis: $$x:=\begin{bmatrix}0&0&0\\0&0&1\\0&0&0\end{bmatrix},\quad y:=\begin{bmatrix}0&1&0\\0&0&0\\0&0&0\end{bmatrix},\quad c:=\begin{bmatrix}0&0&1\\0&0&0\\0&0&0\end{bmatrix}$$with $[y,x]=c$, $[y,c]=[x,c]=0$.
