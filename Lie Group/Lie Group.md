@@ -19,6 +19,7 @@
 > 1. $(\mathbb{R}^n,+)$
 > 2. $(\mathbb{R}^\times,\cdot),(\mathbb{C}^\times,\cdot)$
 > 3. $\text{GL}(n,\mathbb{R})$ is a $n^2$ dimensional Lie group with the multiplication as polynomial and inversion as rational.
+> 4. $\text{GL}(n,\mathbb{C})$ is a $n^2$ dimensional Lie group with the multiplication as polynomial and inversion.
 ---
 > [!h] Example 3
 > $\text{Homeo}(X)$ is generally not a Lie group as it is not locally compact generally, but topological manifolds are.

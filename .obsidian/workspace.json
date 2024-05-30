@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -125,6 +125,18 @@
             }
           },
           {
+            "id": "1e11d2c9e4a27b3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Topological Group.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6343fc6755c861ea",
             "type": "leaf",
             "state": {
@@ -159,21 +171,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1e11d2c9e4a27b3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Topological Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Lie Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Lie Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Lie Group/Lie Group.md"
               }
             }
           }
@@ -301,13 +301,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1d2a6cdf30df92d6",
+  "active": "b7985c32df0139d5",
   "lastOpenFiles": [
-    "Differential Geometry/Submanifold.md",
     "Lie Group/Topological Group.md",
-    "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Differential.md",
     "Lie Group/Lie Group.md",
+    "Representation Theory/Lie Algebra.md",
+    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Tangent Space II.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",

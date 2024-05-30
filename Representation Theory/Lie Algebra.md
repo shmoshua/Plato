@@ -61,18 +61,26 @@
 > Let $\gamma:(-1,1)\to \text{SL}(n,\mathbb{R})$ be a [[smooth curve]] with $\gamma(0)=I$. Then, $\det(\gamma(s))=1$ for all $s\in(-1,1)$. Therefore, $$0=\left. \frac{d}{dt} \right| _{t=0}\det(\gamma(t))=\left( \left. \frac{d\det}{dt} \right| _{t=I} \right) \cdot \left( \left. \frac{d\gamma}{dt} \right|_{t=0}  \right)=\left. \frac{d}{dt} \right| _{t=0}\det(I+t\gamma'(0))=d_{I}\text{det}(\gamma'(0)_{I}) =\text{tr}(\gamma'(0))$$Further as $\text{SL}(n,\mathbb{R})$ is a smooth manifold, for any $v\in \text{T}_{I}\text{SL}(n,\mathbb{R})=\mathfrak{sl}(n,\mathbb{R})$, we can construct a smooth curve $\gamma$ s.t. $\gamma(0)=I$ and $\gamma'(0)=v$. Therefore, $$\mathfrak{sl}(n,\mathbb{R})\subseteq \{ A\in \text{Mat}_{n,n}(\mathbb{R}):\text{tr}(A)=0 \}$$As the RHS also has dimension $n^2-1$ and we know from [[Submanifold|Example 1]] that $\text{SL}(n,\mathbb{R})$ is $n^2-1$ dimensional, we have shown the equality. 
 ---
 > [!h] Example 7 (Orthogonal Lie Algebra)
-> For the [[orthogonal group]] $\text{O}(n,\mathbb{R})$, the corresponding Lie algebra is: $$\mathfrak{o}(n,\mathbb{R})=\{ A\in \text{Mat}_{n,n}(\mathbb{R}):A+A^\top=0 \}$$
+> For the [[orthogonal groups]], the corresponding Lie algebras are: 
+> 1. $\mathfrak{o}(n,\mathbb{R})=\{ A\in \text{Mat}_{n,n}(\mathbb{R}):A+A^\top=0 \}$
+> 2. $\mathfrak{o}(p,q)=\{  A\in \text{Mat}_{n,n}(\mathbb{R}):XA+A^\top X=0 \}$ where $n:=p+q$ and $X=\begin{bmatrix}-I_{p}\\&I_{q}\end{bmatrix}$.
+> 3. $\mathfrak{so}(p,q)=\mathfrak{sl}(p+q,\mathbb{R})\cap \mathfrak{o}(p,q)$.
 
 > [!proof]-
-> Let $\gamma:(-1,1)\to \text{O}(n,\mathbb{R})$ be a smooth curve with $\gamma(0)=I$. Then, $\gamma(s)\gamma(s)^\top=I$ for all $s$. Consider $\gamma\gamma^\top:s\mapsto \gamma(s)\gamma(s)^\top$ as a smooth curve. Then, $$(\gamma\gamma^\top)'(s)=\gamma'(s)\gamma(s)^\top+\gamma(s)(\gamma'(s))^\top$$from product rule. Therefore, $$0=\left. \frac{d}{dt} \right|_{t=0}\gamma\gamma^\top=(\gamma\gamma^\top)'(0)=\gamma'(0)+(\gamma'(0))^\top$$As $\text{O}(n,\mathbb{R})$ is a smooth manifold, we can find a smooth curve $\gamma:(-1,1)\to \text{O}(n,\mathbb{R})$ s.t. $\gamma(0)=I$ and $\gamma'(0)=v$ for any $v\in \text{T}_{I}\text{O}(n,\mathbb{R})=\mathfrak{o}(n,\mathbb{R})$. Therefore, $$\mathfrak{o}(n,\mathbb{R})\subseteq \{ A\in \text{Mat}_{n,n}(\mathbb{R}):A+A^\top=0 \}$$As the RHS has dimension $\frac{n(n-1)}{2}$ and so does $\text{O}(n,\mathbb{R})$ we have the desired equality.
+> We have:
+> 1. Let $\gamma:(-1,1)\to \text{O}(n,\mathbb{R})$ be a smooth curve with $\gamma(0)=I$. Then, $\gamma(s)\gamma(s)^\top=I$ for all $s$. Consider $\gamma\gamma^\top:s\mapsto \gamma(s)\gamma(s)^\top$ as a smooth curve. Then, $$(\gamma\gamma^\top)'(s)=\gamma'(s)\gamma(s)^\top+\gamma(s)(\gamma'(s))^\top$$from product rule. Therefore, $$0=\left. \frac{d}{dt} \right|_{t=0}\gamma\gamma^\top=(\gamma\gamma^\top)'(0)=\gamma'(0)+(\gamma'(0))^\top$$As $\text{O}(n,\mathbb{R})$ is a smooth manifold, we can find a smooth curve $\gamma:(-1,1)\to \text{O}(n,\mathbb{R})$ s.t. $\gamma(0)=I$ and $\gamma'(0)=v$ for any $v\in \text{T}_{I}\text{O}(n,\mathbb{R})=\mathfrak{o}(n,\mathbb{R})$. Therefore, $$\mathfrak{o}(n,\mathbb{R})\subseteq \{ A\in \text{Mat}_{n,n}(\mathbb{R}):A+A^\top=0 \}$$As the RHS has dimension $\frac{n(n-1)}{2}$ and so does $\text{O}(n,\mathbb{R})$ we have the desired equality.
+> 2. Let $\gamma:(-1,1)\to \text{O}(p,q)$ be a smooth curve with $\gamma(0)=I$. Then, let $X:=\begin{bmatrix}-I_{p}&\\&I_{q}\end{bmatrix}$ and $\chi:(-1,1)\to \text{O}(p,q), t\mapsto \gamma(t)^\top X\gamma(t)$ is a smooth curve. Hence $\chi(t)=X$ for all $t$ and, $$0=\left. \frac{d}{dt} \right| _{t=0}\gamma(t)^\top X\gamma(t)=X\gamma'(0)+\gamma'(0)^\top X$$Therefore, $\mathfrak{o}(p,q)=\{ A\in \text{Mat}_{n,n}(\mathbb{R}):XA+A^\top X=0 \}$.
 ---
 > [!h] Example 8 (Matrix Group Lie Algebra)
 > Let $\text{UT}(n,\mathbb{R})$ be the upper unitriangular group and $\text{A}:=\{\text{diag}(\lambda_{1},\dots,\lambda_{n}):\lambda_{i}\in \mathbb{R}_{>0}  \}$. Then, 
 > 1. $\mathfrak{ut}(n,\mathbb{R})=\left\{ A\in\text{Mat}_{n,n}(\mathbb{R}):A=\begin{bmatrix}0&&&*\\&0&\\&&\ddots\\&&&0\end{bmatrix}\right\}$
 > 2. $\mathfrak{a}=\{ \text{diag}(x_{1},\dots,x_{n}):x_{i}\in \mathbb{R} \}$
 
-> [!proof]+
-> Let $\gamma:(-1,1)\to \text{UT}(n,\mathbb{R})$ be a smooth curve with $\gamma(0)=I$. Then, let $p_{i,j}:\text{GL}(n,\mathbb{R})\to \mathbb{R}$ be a projection s.t. $p_{i,j}(A)\mapsto A_{i,j}$. $p_{i,j}$ is smooth and for $i\geq j$, $p_{i,j}(\gamma(t))$ is constant. Hence, $$0=\left. \frac{d}{dt} \right|_{t=0}p_{i,j}(\gamma(t))=\left. \frac{d}{dt} \right| _{t=0}p_{i,j}(I+t\gamma'(0))= $$
+> [!proof]-
+> We have: 
+> 1. Let $\gamma:(-1,1)\to \text{UT}(n,\mathbb{R})$ be a smooth curve with $\gamma(0)=I$. Then, let $p_{i,j}:\text{GL}(n,\mathbb{R})\to \mathbb{R}$ be a projection s.t. $p_{i,j}(A)\mapsto A_{i,j}$. $p_{i,j}$ is smooth and for $i\geq j$, $p_{i,j}(\gamma(t))$ is constant. Hence, $$0=\left. \frac{d}{dt} \right|_{t=0}p_{i,j}(\gamma(t))=\left. \frac{d}{dt} \right| _{t=0}p_{i,j}(I+t\gamma'(0))= d_{I}p_{ij}(\gamma'(0))=p_{ij}(\gamma'(0))$$Therefore, $\text{ut}(n,\mathbb{R})\subseteq RHS$. However, as $\text{dim}\ \text{UT}(n,\mathbb{R})=n(n-1) / 2$, the equation holds.
+> 2. Similarly as above, we know that $\mathfrak{a}$ only has diagonal matrices. From the dimensions, we have the equality.
+> 
 ---
 > [!h] Example 7 (Heisenberg Lie Algebra)
 > Defined as: $$\mathfrak{H}:=\left\{ A\in \text{M}_{3,3}(\mathbb{C}):A=\begin{bmatrix}0&*&*\\0&0&*\\0&0&0\end{bmatrix} \right\}$$with basis: $$x:=\begin{bmatrix}0&0&0\\0&0&1\\0&0&0\end{bmatrix},\quad y:=\begin{bmatrix}0&1&0\\0&0&0\\0&0&0\end{bmatrix},\quad c:=\begin{bmatrix}0&0&1\\0&0&0\\0&0&0\end{bmatrix}$$with $[y,x]=c$, $[y,c]=[x,c]=0$.
