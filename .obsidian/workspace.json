@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Lie Group/Flow.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,7 +93,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33eb575cd9e8d842",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Integral Curve.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Lie Group/Flow.md",
                 "mode": "preview",
                 "source": false
               }
@@ -172,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,8 +230,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -239,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Measure Theory/Diffeomorphism.md",
+                "file": "Lie Group/Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Measure Theory/Diffeomorphism.md",
+                "file": "Lie Group/Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Measure Theory/Diffeomorphism.md"
+                "file": "Lie Group/Flow.md"
               }
             }
           }
@@ -301,34 +312,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1e11d2c9e4a27b3c",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Lie Group/Topological Group.md",
-    "Lie Group/Exponential Map.md",
-    "Functional Analysis/LCA Group.md",
-    "Lie Group/Homogeneous Space.md",
-    "Measure Theory/Uniformly Summable Function.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Topology/Quotient Topology.md",
-    "Functional Analysis/Fourier Transform.md",
+    "Controls/State Transition Matrix.md",
+    "Lie Group/Integral Curve.md",
+    "Lie Group/Flow.md",
+    "Controls/Linear Time Varying System.md",
+    "Differential Geometry/Vector Field.md",
     "Functional Analysis/Pontryagin Dual.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Exponential Map.md",
+    "Topology/Quotient Topology.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Measure Theory/Uniformly Summable Function.md",
+    "Lie Group/Homogeneous Space.md",
+    "Measure Theory/Diffeomorphism.md",
+    "Lie Group/Topological Group.md",
+    "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Fourier Transform.md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Submanifold.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Differential Geometry/Differential.md",
     "Algebra/Quotient Field.md",
     "Functional Analysis/Fourier Transform of Measures.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Differential Geometry/Vector Field.md",
     "Differential Geometry/Tangent Space II.md",
     "Algebra/General Linear Group.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Tangent Space.md",
-    "Algebra/Orbit and Stablizer.md",
-    "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Lie Bracket.md",
-    "Differential Geometry/Smooth Atlas.md",
-    "Algebra/Associative Algebra.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
