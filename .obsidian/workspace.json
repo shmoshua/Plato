@@ -154,14 +154,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential.md"
+                "file": "Representation Theory/Lie Algebra.md"
               }
             }
           }
@@ -289,13 +289,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4861d0491455bace",
+  "active": "1d2a6cdf30df92d6",
   "lastOpenFiles": [
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Submanifold.md",
     "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Tangent Space.md",
+    "Algebra/Orbit and Stablizer.md",
     "Algebra/General Linear Group.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Vector Field.md",
@@ -304,7 +305,6 @@
     "Differential Geometry/Smooth Atlas.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Associative Algebra.md",
-    "Algebra/Orbit and Stablizer.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Analysis/Pushforward Measure.md",
     "Algebra/Group Action.md",

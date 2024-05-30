@@ -51,7 +51,8 @@
 > [!h] Example 6 (Special Linear Lie Algebra)
 > The ***special linear Lie algebra*** is $$\mathfrak{sl}(n,\mathbb{R}):=\{ A\in \text{Mat}_{n,n}(\mathbb{R}):\text{tr}(A)=0 \}$$with $[A,B]=AB-BA$. 
 > 
-> Let $A\in \text{Mat}_{n,n}(\mathbb{R})$. Then, $A_{I}\in \mathfrak{gl}(n,\mathbb{R})$ where: $$A_{I}(\det)=\left. \frac{d}{dt} \right| _{t=0}\det(I+tA)$$
+> Let $\gamma:(-1,1)\to \text{SL}(n,\mathbb{R})$ be a [[smooth curve]] with $\gamma(0)=I$. Then, $\det(\gamma(s))=1$ for all $s\in(-1,1)$. Therefore, $$0=\left. \frac{d}{dt} \right| _{t=0}\det(\gamma(t))=\left( \left. \frac{d\det}{dt} \right| _{t=I} \right) \cdot \left( \left. \frac{d\gamma}{dt} \right|_{t=0}  \right) $$
+> Let $A\in \text{Mat}_{n,n}(\mathbb{R})$. Then, $A_{I}\in \mathfrak{gl}(n,\mathbb{R})$ where: $$\text{tr}(A)=d_{I}\text{det}(A_{I})=A_{I}(\det)=\left. \frac{d}{dt} \right| _{t=0}\det(I+tA)$$
 > 
 > The basis of $\mathfrak{sl}_{2}(K)$ is given as: $$e:=\begin{bmatrix}0&1\\0&0\end{bmatrix},\quad f:=\begin{bmatrix}0&0\\1&0\end{bmatrix},\quad h:=\begin{bmatrix}1&0\\0&-1\end{bmatrix}$$where $[h,e]=2e$, $[h,f]=-2f$ and $[e,f]=h$.
 ---
