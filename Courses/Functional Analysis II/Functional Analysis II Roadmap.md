@@ -113,6 +113,9 @@
 1. [[Fourier Transform|Plancherel Theorem]]
 
 **9.4 The Pontryagin Duality Theorem**
+1. [[Pontryagin Dual]]
+
+**9.5 Some Consequences of the Duality Theorem**
 1. 
 ---
 

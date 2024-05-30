@@ -95,6 +95,8 @@
 > 
 > Set $\psi:= \mathbb{1}_{U}*\mathbb{1}_{V}\in A(\widehat{G})$. Then, $\text{supp }\psi \subseteq UV\subseteq E$ and $\psi|_{F}=0$. Further, $$\psi(\chi)=\int_{\widehat{G}}^{} \mathbb{1}_{U}(\chi\gamma)\mathbb{1}_{V}(\gamma ^{-1}) \, d\omega(\gamma)=\omega(\chi ^{-1}U \cap V^{-1})>0 $$as it is an open set of the Haar measure. 
 ---
-
+> [!lemma] Corollary 7
+> Assume $f\in L^1(G)\cap C(G)$ and $\widehat{f}\in L^1(\widehat{G})$. Then,$$f(x)=\int_{\widehat{G}}^{} \widehat{f}(\gamma)(x,\gamma) \, d\omega(\gamma),\quad \forall x\in G $$
+---
 
 ##### Examples

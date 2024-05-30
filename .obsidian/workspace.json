@@ -14,7 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Functional Analysis/Fourier Transform.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0a3edd71115ec4ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,8 +92,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -94,7 +105,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Functional Analysis/Fourier Transform.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4d15bb4f6271f4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Fourier Transform of Measures.md",
                 "mode": "preview",
                 "source": false
               }
@@ -238,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -300,34 +323,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "344e33ffe3c88cd2",
+  "active": "cd96f963b7fd8fe8",
   "lastOpenFiles": [
+    "Functional Analysis/Fourier Transform of Measures.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Differential Geometry/Differential.md",
+    "Lie Group/Exponential Map.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Topological Group.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Tangent Space II.md",
     "Algebra/General Linear Group.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Submanifold.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Tangent Space.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Orbit and Stablizer.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Smooth Atlas.md",
     "Algebra/Associative Algebra.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Analysis/Pushforward Measure.md",
     "Algebra/Group Action.md",
     "Differential Geometry/Derivation.md",
     "Algebra/Algebra Homomorphism.md",
     "Algebra/Linear Algebra/Vector Space.md",
     "Algebra/Submodule.md",
-    "Measure Theory/Algebra.md",
-    "Algebra/Direct Sum.md",
-    "Algebra/Ideal.md",
-    "Algebra/Module.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

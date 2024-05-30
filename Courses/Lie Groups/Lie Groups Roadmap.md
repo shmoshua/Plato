@@ -55,7 +55,7 @@
 2. [[General Linear Group]]
 
 **2.4 The Exponential Map**
-1. 
+1. [[Exponential Map]]
 ---
 ##### 3. Structure Theory
 ---
