@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -166,14 +166,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Group.md"
+                "file": "Representation Theory/Lie Algebra.md"
               }
             }
           }
@@ -301,18 +301,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b7985c32df0139d5",
+  "active": "cf533573fd02a363",
   "lastOpenFiles": [
-    "Lie Group/Topological Group.md",
     "Lie Group/Lie Group.md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Differential.md",
+    "Algebra/General Linear Group.md",
+    "Lie Group/Topological Group.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Tangent Space II.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Orbit and Stablizer.md",
-    "Algebra/General Linear Group.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Lie Bracket.md",
