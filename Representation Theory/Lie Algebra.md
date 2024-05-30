@@ -49,12 +49,22 @@
 > $\mathbb{R}^3$ with $[u,v]:=u\times v$ as the cross product is a Lie algebra.
 ---
 > [!h] Example 6 (Special Linear Lie Algebra)
-> The ***special linear Lie algebra*** is $$\mathfrak{sl}(n,\mathbb{R}):=\{ A\in \text{Mat}_{n,n}(\mathbb{R}):\text{tr}(A)=0 \}$$with $[A,B]=AB-BA$. 
+> The ***special linear Lie algebra*** is $$\mathfrak{sl}(n,\mathbb{R})=\{ A\in \text{Mat}_{n,n}(\mathbb{R}):\text{tr}(A)=0 \}$$with $[A,B]=AB-BA$. 
 > 
-> Let $\gamma:(-1,1)\to \text{SL}(n,\mathbb{R})$ be a [[smooth curve]] with $\gamma(0)=I$. Then, $\det(\gamma(s))=1$ for all $s\in(-1,1)$. Therefore, $$0=\left. \frac{d}{dt} \right| _{t=0}\det(\gamma(t))=\left( \left. \frac{d\det}{dt} \right| _{t=I} \right) \cdot \left( \left. \frac{d\gamma}{dt} \right|_{t=0}  \right) $$
-> Let $A\in \text{Mat}_{n,n}(\mathbb{R})$. Then, $A_{I}\in \mathfrak{gl}(n,\mathbb{R})$ where: $$\text{tr}(A)=d_{I}\text{det}(A_{I})=A_{I}(\det)=\left. \frac{d}{dt} \right| _{t=0}\det(I+tA)$$
+> 
+> 
+> 
 > 
 > The basis of $\mathfrak{sl}_{2}(K)$ is given as: $$e:=\begin{bmatrix}0&1\\0&0\end{bmatrix},\quad f:=\begin{bmatrix}0&0\\1&0\end{bmatrix},\quad h:=\begin{bmatrix}1&0\\0&-1\end{bmatrix}$$where $[h,e]=2e$, $[h,f]=-2f$ and $[e,f]=h$.
+
+> [!proof]-
+> Let $\gamma:(-1,1)\to \text{SL}(n,\mathbb{R})$ be a [[smooth curve]] with $\gamma(0)=I$. Then, $\det(\gamma(s))=1$ for all $s\in(-1,1)$. Therefore, $$0=\left. \frac{d}{dt} \right| _{t=0}\det(\gamma(t))=\left( \left. \frac{d\det}{dt} \right| _{t=I} \right) \cdot \left( \left. \frac{d\gamma}{dt} \right|_{t=0}  \right)=\left. \frac{d}{dt} \right| _{t=0}\det(I+t\gamma'(0))=d_{I}\text{det}(\gamma'(0)_{I}) =\text{tr}(\gamma'(0))$$Further as $\text{SL}(n,\mathbb{R})$ is a smooth manifold, for any $v\in \text{T}_{I}\text{SL}(n,\mathbb{R})=\mathfrak{sl}(n,\mathbb{R})$, we can construct a smooth curve $\gamma$ s.t. $\gamma(0)=I$ and $\gamma'(0)=v$. Therefore, $$\mathfrak{sl}(n,\mathbb{R})\subseteq \{ A\in \text{Mat}_{n,n}(\mathbb{R}):\text{tr}(A)=0 \}$$As the RHS also has dimension $n^2-1$ and we know from [[Submanifold|Example 1]] that $\text{SL}(n,\mathbb{R})$ is $n^2-1$ dimensional, we have shown the equality. 
+---
+> [!h] Example 7 (Orthogonal Lie Algebra)
+> For the [[orthogonal group]] $\text{O}(n,\mathbb{R})$, the corresponding Lie algebra is: $$\mathfrak{o}(n,\mathbb{R})=\{ A\in \text{Mat}_{n,n}(\mathbb{R}):A+A^\top=0 \}$$
+
+> [!proof]+
+> Let $\gamma:(-1,1)\to \text{O}(n,\mathbb{R})$ be a smooth curve. Then, $\gamma(s)\gamma(s)^\top=I$ for all $s$. Consider $\gamma\gamma^\top:s\mapsto \gamma(s)\gamma(s)^\top$ as a smooth curve. Then, $$(\gamma\gamma^\top)'(s)=\gamma'(s)\gamma(s)^\top+\gamma(s)(\gamma'(s))^\top$$from product rule. Therefore, $$0=\left. d \right| $$
 ---
 > [!h] Example 7 (Heisenberg Lie Algebra)
 > Defined as: $$\mathfrak{H}:=\left\{ A\in \text{M}_{3,3}(\mathbb{C}):A=\begin{bmatrix}0&*&*\\0&0&*\\0&0&0\end{bmatrix} \right\}$$with basis: $$x:=\begin{bmatrix}0&0&0\\0&0&1\\0&0&0\end{bmatrix},\quad y:=\begin{bmatrix}0&1&0\\0&0&0\\0&0&0\end{bmatrix},\quad c:=\begin{bmatrix}0&0&1\\0&0&0\\0&0&0\end{bmatrix}$$with $[y,x]=c$, $[y,c]=[x,c]=0$.

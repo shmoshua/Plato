@@ -289,13 +289,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1d2a6cdf30df92d6",
+  "active": "cf533573fd02a363",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Submanifold.md",
     "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Tangent Space II.md",
+    "Differential Geometry/Differential.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Tangent Space II.md",
     "Algebra/Orbit and Stablizer.md",
     "Algebra/General Linear Group.md",
     "Differential Geometry/Smooth Function.md",
@@ -303,7 +304,6 @@
     "Lie Group/Lie Group.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Smooth Atlas.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Associative Algebra.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Analysis/Pushforward Measure.md",
