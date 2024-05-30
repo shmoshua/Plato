@@ -63,8 +63,8 @@
 > [!h] Example 7 (Orthogonal Lie Algebra)
 > For the [[orthogonal group]] $\text{O}(n,\mathbb{R})$, the corresponding Lie algebra is: $$\mathfrak{o}(n,\mathbb{R})=\{ A\in \text{Mat}_{n,n}(\mathbb{R}):A+A^\top=0 \}$$
 
-> [!proof]+
-> Let $\gamma:(-1,1)\to \text{O}(n,\mathbb{R})$ be a smooth curve. Then, $\gamma(s)\gamma(s)^\top=I$ for all $s$. Consider $\gamma\gamma^\top:s\mapsto \gamma(s)\gamma(s)^\top$ as a smooth curve. Then, $$(\gamma\gamma^\top)'(s)=\gamma'(s)\gamma(s)^\top+\gamma(s)(\gamma'(s))^\top$$from product rule. Therefore, $$0=\left. d \right| $$
+> [!proof]-
+> Let $\gamma:(-1,1)\to \text{O}(n,\mathbb{R})$ be a smooth curve with $\gamma(0)=I$. Then, $\gamma(s)\gamma(s)^\top=I$ for all $s$. Consider $\gamma\gamma^\top:s\mapsto \gamma(s)\gamma(s)^\top$ as a smooth curve. Then, $$(\gamma\gamma^\top)'(s)=\gamma'(s)\gamma(s)^\top+\gamma(s)(\gamma'(s))^\top$$from product rule. Therefore, $$0=\left. \frac{d}{dt} \right|_{t=0}\gamma\gamma^\top=(\gamma\gamma^\top)'(0)=\gamma'(0)+(\gamma'(0))^\top$$As $\text{O}(n,\mathbb{R})$ is a smooth manifold, we can find a smooth curve $\gamma:(-1,1)\to \text{O}(n,\mathbb{R})$ s.t. $\gamma(0)=I$ and $\gamma'(0)=v$ for any $v\in \text{T}_{I}\text{O}(n,\mathbb{R})=\mathfrak{o}(n,\mathbb{R})$. Therefore, $$\mathfrak{o}(n,\mathbb{R})\subseteq \{ A\in \text{Mat}_{n,n}(\mathbb{R}):A+A^\top=0 \}$$As the RHS has dimension $\frac{n(n-1)}{2}$ and so does $\text{O}(n,\mathbb{R})$ we have the desired equality.
 ---
 > [!h] Example 7 (Heisenberg Lie Algebra)
 > Defined as: $$\mathfrak{H}:=\left\{ A\in \text{M}_{3,3}(\mathbb{C}):A=\begin{bmatrix}0&*&*\\0&0&*\\0&0&0\end{bmatrix} \right\}$$with basis: $$x:=\begin{bmatrix}0&0&0\\0&0&1\\0&0&0\end{bmatrix},\quad y:=\begin{bmatrix}0&1&0\\0&0&0\\0&0&0\end{bmatrix},\quad c:=\begin{bmatrix}0&0&1\\0&0&0\\0&0&0\end{bmatrix}$$with $[y,x]=c$, $[y,c]=[x,c]=0$.
