@@ -35,8 +35,8 @@
 > [!lemma] Proposition 3 (Lie Algebra of Product of Lie Groups)
 > Let $G,H$ be [[Lie Group|Lie groups]] with respective Lie algebras $\mathfrak{g}$ and $\mathfrak{h}$. Then, the Lie algebra of $G\times H$ is $\mathfrak{g\oplus h}$ where the bracket is given componentwise. 
 
-> [!proof]+
-> Let $\mathfrak{X}:=\text{T}_{e}(G\times H)$. Then, we will show an Lie algebra isomorphism between $\mathfrak{g}\oplus \mathfrak{h}$ and $\mathfrak{X}$.
+> [!proof]-
+> We will show an Lie algebra isomorphism:$$\begin{array}{cccc} {\Psi:}&{\Gamma(\text{T}G)^L\times\Gamma(\text{T}H)^L}&\to&{\Gamma(\text{T}(G\times H))^L}\\&{(X,Y)} &\mapsto & {X\oplus Y} \end{array}{}$$Then, $$\Psi([(X_{1},Y_{1}),(X_{2},Y_{2})])=\Psi([X_{1},X_{2}],[Y_{1},Y_{2}])=[X_{1},X_{2}]\oplus [Y_{1},Y_{2}]=[X_{1}\oplus Y_{1},X_{2}\oplus Y_{2}]$$Therefore, $\Psi$ is a Lie algebra homomorphism
 ---
 ##### Examples 
 > [!h] Example 1

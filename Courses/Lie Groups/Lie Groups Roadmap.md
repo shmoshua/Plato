@@ -51,7 +51,11 @@
 7. [[Vector Field|Pushforward Vector Field]]
 
 **2.3 Lie Algebras of Lie Groups**
+1. [[Lie Algebra]]
+2. [[General Linear Group]]
 
+**2.4 The Exponential Map**
+1. 
 ---
 ##### 3. Structure Theory
 ---
