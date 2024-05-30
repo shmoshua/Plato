@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Tangent Space II.md",
                 "mode": "preview",
                 "source": false
               }
@@ -291,12 +291,14 @@
   },
   "active": "4861d0491455bace",
   "lastOpenFiles": [
-    "Differential Geometry/Vector Field.md",
-    "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Submanifold.md",
-    "Algebra/General Linear Group.md",
+    "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Tangent Space.md",
+    "Algebra/General Linear Group.md",
+    "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Vector Field.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Smooth Atlas.md",
@@ -311,12 +313,10 @@
     "Algebra/Linear Algebra/Vector Space.md",
     "Algebra/Submodule.md",
     "Measure Theory/Algebra.md",
-    "Differential Geometry/Tangent Space II.md",
     "Algebra/Direct Sum.md",
     "Algebra/Ideal.md",
     "Algebra/Module.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Quotient Ring.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

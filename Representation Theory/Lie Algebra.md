@@ -51,6 +51,8 @@
 > [!h] Example 6 (Special Linear Lie Algebra)
 > The ***special linear Lie algebra*** is $$\mathfrak{sl}(n,\mathbb{R}):=\{ A\in \text{Mat}_{n,n}(\mathbb{R}):\text{tr}(A)=0 \}$$with $[A,B]=AB-BA$. 
 > 
+> Let $A\in \text{Mat}_{n,n}(\mathbb{R})$. Then, $A_{I}\in \mathfrak{gl}(n,\mathbb{R})$ where: $$A_{I}(\det)=\left. \frac{d}{dt} \right| _{t=0}\det(I+tA)$$
+> 
 > The basis of $\mathfrak{sl}_{2}(K)$ is given as: $$e:=\begin{bmatrix}0&1\\0&0\end{bmatrix},\quad f:=\begin{bmatrix}0&0\\1&0\end{bmatrix},\quad h:=\begin{bmatrix}1&0\\0&-1\end{bmatrix}$$where $[h,e]=2e$, $[h,f]=-2f$ and $[e,f]=h$.
 ---
 > [!h] Example 7 (Heisenberg Lie Algebra)
