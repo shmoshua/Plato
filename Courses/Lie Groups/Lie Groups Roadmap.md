@@ -57,6 +57,8 @@
 **2.4 The Exponential Map**
 1. [[Exponential Map]]
 2. [[Integral Curve]]
+3. [[Flow]]
+4. [[Lie Derivative]]
 ---
 ##### 3. Structure Theory
 ---

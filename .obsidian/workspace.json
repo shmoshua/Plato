@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Flow.md",
+                "file": "Analysis/Lie Derivative.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Analysis/Lie Derivative.md",
                 "mode": "preview",
                 "source": false
               }
@@ -183,8 +183,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -250,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Flow.md",
+                "file": "Analysis/Lie Derivative.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Flow.md",
+                "file": "Analysis/Lie Derivative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -290,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Flow.md"
+                "file": "Analysis/Lie Derivative.md"
               }
             }
           }
@@ -312,15 +311,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "d4d15bb4f6271f4d",
   "lastOpenFiles": [
-    "Controls/State Transition Matrix.md",
-    "Lie Group/Integral Curve.md",
     "Lie Group/Flow.md",
+    "Lie Group/Integral Curve.md",
+    "Analysis/Lie Derivative.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Controls/State Transition Matrix.md",
     "Controls/Linear Time Varying System.md",
     "Differential Geometry/Vector Field.md",
     "Functional Analysis/Pontryagin Dual.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Exponential Map.md",
     "Topology/Quotient Topology.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
@@ -339,7 +339,6 @@
     "Differential Geometry/Tangent Space II.md",
     "Algebra/General Linear Group.md",
     "Lie Group/Lie Group.md",
-    "Differential Geometry/Tangent Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
