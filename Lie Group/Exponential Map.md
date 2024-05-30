@@ -13,4 +13,4 @@
 
 > [!proof]+
 > We have:
-> 1. 
+> 1. Let $r>0$ and for all $A\in \text{Mat}_{n,n}(\mathbb{R})$ with $\|A\|\leq r$ and $N\geq 1$, we have: $$\left\| \sum_{n=0}^{N} \frac{A^n}{n!} \right\| \leq \sum_{n=0}^{N}\frac{\|A\|^n}{n!}\leq\exp(\|A\|)\leq \exp(r)$$

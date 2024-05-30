@@ -9,18 +9,6 @@
         "dimension": 49.42528735632184,
         "children": [
           {
-            "id": "cd96f963b7fd8fe8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/LCA Group.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "0a3edd71115ec4ad",
             "type": "leaf",
             "state": {
@@ -99,18 +87,6 @@
         "type": "tabs",
         "dimension": 50.57471264367817,
         "children": [
-          {
-            "id": "344e33ffe3c88cd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/LCA Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
           {
             "id": "d4d15bb4f6271f4d",
             "type": "leaf",
@@ -262,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Lie Group/Exponential Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Lie Group/Exponential Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/LCA Group.md"
+                "file": "Lie Group/Exponential Map.md"
               }
             }
           }
@@ -324,10 +300,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "344e33ffe3c88cd2",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Lie Group/Homogeneous Space.md",
     "Functional Analysis/LCA Group.md",
+    "Lie Group/Homogeneous Space.md",
     "Measure Theory/Uniformly Summable Function.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Topology/Quotient Topology.md",

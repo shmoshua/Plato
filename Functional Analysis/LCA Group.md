@@ -74,6 +74,12 @@ Then, it holds that $T_{\Gamma}f\in C(G / \Gamma)$ and:
 > Given a Haar measure $\alpha$ on $G / \Gamma$, there exists a unique Haar measure $\lambda$ on $G$ s.t. for all $f\in C(G) \cap L^1(G)$ uniformly summable over $\Gamma$, $$\int_{G}^{} f \, d\lambda=\int_{G / \Gamma}T_{\Gamma}f  \, d\alpha  $$
 ---
 > [!lemma] Theorem (Poisson Formula)
-> 	Let $\Gamma\leq G$ be discrete with $G / \Gamma$ compact. Let $\alpha$ be the Haar measure on $G/ \Gamma$ with $\alpha(G / \Gamma)=1$. Let $\lambda$ be the corresponding Haar measure on $G$. 
+> Let $\Gamma\leq G$ be discrete with $G / \Gamma$ compact. Let $\alpha$ be the Haar measure on $G/ \Gamma$ with $\alpha(G / \Gamma)=1$. Let $\lambda$ be the corresponding Haar measure on $G$. 
 > 	
-> 	Let $f\in C(G)\cap L^1(G)$ uniformly summable over $\Gamma$. Assume that $\widehat{f}|_{\Gamma ^{\bot}}\in \ell^1(\Gamma ^{\bot})$. Then, $$\sum_{x\in \Gamma}^{}f(\gamma)=\sum_{\eta\in\Gamma ^{\bot}}^{}\widehat{f}(\gamma)$$
+> Let $f\in C(G)\cap L^1(G)$ uniformly summable over $\Gamma$. Assume that $\widehat{f}|_{\Gamma ^{\bot}}\in \ell^1(\Gamma ^{\bot})$. Then, $$\sum_{x\in \Gamma}^{}f(\gamma)=\sum_{\eta\in\Gamma ^{\bot}}^{}\widehat{f}(\gamma)$$
+
+> [!proof]-
+> We use Fourier inversion for $G / \Gamma$ with $\alpha(G / \Gamma)=1$. Then, the dual measure on $\Gamma ^{\bot}$ would be the counting measure. (not any multiple).
+> 
+> Then, for $f\in C(G)\cap L^1(G)$ uniformly summable, for $\gamma\in \Gamma ^{\bot}$: $$\begin{align}\widehat{T_{\Gamma}f}(\gamma)&=\int_{G / \Gamma}^{}T_{\Gamma}f(g\Gamma) \overline{(g\Gamma,\gamma)} \, d\alpha(g\Gamma)\\&=\int_{G / \Gamma}^{}\sum_{x\in \Gamma}^{}f(gx)\overline{(g\Gamma,\gamma)} \, d\alpha(g\Gamma)\\&=\int_{G / \Gamma}^{}\sum_{x\in \Gamma}^{}f(gx)\overline{(gx\Gamma,\gamma)} \, d\alpha(g\Gamma) \\&=\int_{G}^{} f(g)\overline{(g,\gamma)} \, d\lambda(g)\\&=\widehat{f}(\gamma) \end{align}$$However, as $G / \Gamma$ is compact, $T_{\Gamma}f\in C(G / \Gamma)\subseteq L^1(G /\Gamma)$. Therefore, $\widehat{T_{\Gamma}f}=\widehat{f}|_{\Gamma ^{\bot}}\in \ell^1(\Gamma ^{\bot})$. Then, by Fourier inversion, $$\sum_{x\in \Gamma}^{}f(x)=T_{\Gamma}f(\Gamma)=\sum_{\eta\in \Gamma ^{\bot}}^{}\widehat{T_{\Gamma}f}(\eta)=\sum_{\eta\in \Gamma ^{\bot}}^{}\widehat{f}(\eta)$$
+---
