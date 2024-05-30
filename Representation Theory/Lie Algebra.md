@@ -66,6 +66,14 @@
 > [!proof]-
 > Let $\gamma:(-1,1)\to \text{O}(n,\mathbb{R})$ be a smooth curve with $\gamma(0)=I$. Then, $\gamma(s)\gamma(s)^\top=I$ for all $s$. Consider $\gamma\gamma^\top:s\mapsto \gamma(s)\gamma(s)^\top$ as a smooth curve. Then, $$(\gamma\gamma^\top)'(s)=\gamma'(s)\gamma(s)^\top+\gamma(s)(\gamma'(s))^\top$$from product rule. Therefore, $$0=\left. \frac{d}{dt} \right|_{t=0}\gamma\gamma^\top=(\gamma\gamma^\top)'(0)=\gamma'(0)+(\gamma'(0))^\top$$As $\text{O}(n,\mathbb{R})$ is a smooth manifold, we can find a smooth curve $\gamma:(-1,1)\to \text{O}(n,\mathbb{R})$ s.t. $\gamma(0)=I$ and $\gamma'(0)=v$ for any $v\in \text{T}_{I}\text{O}(n,\mathbb{R})=\mathfrak{o}(n,\mathbb{R})$. Therefore, $$\mathfrak{o}(n,\mathbb{R})\subseteq \{ A\in \text{Mat}_{n,n}(\mathbb{R}):A+A^\top=0 \}$$As the RHS has dimension $\frac{n(n-1)}{2}$ and so does $\text{O}(n,\mathbb{R})$ we have the desired equality.
 ---
+> [!h] Example 8 (Matrix Group Lie Algebra)
+> Let $\text{UT}(n,\mathbb{R})$ be the upper unitriangular group and $\text{A}:=\{\text{diag}(\lambda_{1},\dots,\lambda_{n}):\lambda_{i}\in \mathbb{R}_{>0}  \}$. Then, 
+> 1. $\mathfrak{ut}(n,\mathbb{R})=\left\{ A\in\text{Mat}_{n,n}(\mathbb{R}):A=\begin{bmatrix}0&&&*\\&0&\\&&\ddots\\&&&0\end{bmatrix}\right\}$
+> 2. $\mathfrak{a}=\{ \text{diag}(x_{1},\dots,x_{n}):x_{i}\in \mathbb{R} \}$
+
+> [!proof]+
+> Let $\gamma:(-1,1)\to \text{UT}(n,\mathbb{R})$ be a smooth curve with $\gamma(0)=I$. Then, let $p_{i,j}:\text{GL}(n,\mathbb{R})\to \mathbb{R}$ be a projection s.t. $p_{i,j}(A)\mapsto A_{i,j}$. $p_{i,j}$ is smooth and for $i\geq j$, $p_{i,j}(\gamma(t))$ is constant. Hence, $$0=\left. \frac{d}{dt} \right|_{t=0}p_{i,j}(\gamma(t))=\left. \frac{d}{dt} \right| _{t=0}p_{i,j}(I+t\gamma'(0))= $$
+---
 > [!h] Example 7 (Heisenberg Lie Algebra)
 > Defined as: $$\mathfrak{H}:=\left\{ A\in \text{M}_{3,3}(\mathbb{C}):A=\begin{bmatrix}0&*&*\\0&0&*\\0&0&0\end{bmatrix} \right\}$$with basis: $$x:=\begin{bmatrix}0&0&0\\0&0&1\\0&0&0\end{bmatrix},\quad y:=\begin{bmatrix}0&1&0\\0&0&0\\0&0&0\end{bmatrix},\quad c:=\begin{bmatrix}0&0&1\\0&0&0\\0&0&0\end{bmatrix}$$with $[y,x]=c$, $[y,c]=[x,c]=0$.
 ---
