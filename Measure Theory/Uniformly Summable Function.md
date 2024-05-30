@@ -35,4 +35,3 @@
 ##### Examples
 1. **Example of non-uniformly summable functions**: $f_{k}:=k\chi_{\left[ 0, \frac{1}{k} \right]}$ with $\mu=\mathcal{L}^1$. Then, for $\varepsilon=\frac{1}{2}$ assume $\delta>0$ works. However, for $A:=[0,\delta / 2]$, $\mathcal{L}^1(A)<\delta$ but for $k>2/\delta$, we have: $$\int_{A}^{} \left| f_{k} \right|  \, d\mu=k\cdot \frac{1}{k}=1> \frac{1}{2}  $$
 ---
- 

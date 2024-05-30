@@ -55,3 +55,25 @@ Let $G$ be a LCA group and $H\leq G$ a closed subgroup. Then, $G / H$ is also an
 
 > [!proof]-
 > Let $\phi\in \widehat{H}$. By Theorem, we may view it as an element of $\widehat{G} / H^{\bot}$. Hence, there exists $\chi\in \widehat{G}$ that projects to $\phi$. Therefore, $\chi|_{H}=\phi$.
+---
+ > [!lemma] Corollary
+ > Let $\Gamma\leq G$ be a discrete subgroup s.t. $G / \Gamma$ is compact. Then, $\Gamma ^{\bot}\leq \widehat{G}$ is a discrete subgroup with $\widehat{G} / \Gamma ^{\bot}$ compact.
+
+> [!proof]-
+> As $\Gamma ^{\bot}$ is the dual of $G / \Gamma$, since $G / \Gamma$ is compact, by [[Pontryagin Dual|Proposition 4]], $\Gamma ^{\bot}$ is discrete. Since $\widehat{\Gamma}$ is isomorphic to $\widehat{G} / \Gamma ^{\bot}$, $\Gamma$ is discrete and $\widehat{\Gamma}$ is compact and $\widehat{G} / \Gamma ^{\bot}$ is compact.
+
+- **Example**: $\mathbb{Z}^n\leq \mathbb{R}^n$. Then, $(\mathbb{Z}^n)^{\bot}\cong \mathbb{Z}^n$.
+
+- **Example**: $\mathbb{Q}^{\bot}=\mathbb{Q}$ in $\mathbb{A}_{\mathbb{Q}}$ and $\widehat{\mathbb{Q}}\cong \mathbb{A}_{\mathbb{Q}} / \mathbb{Q}$, which is compact.
+
+---
+Let $f\in C(G)$. We call $f$ uniformly summable over $\Gamma$ if $$\sum_{\gamma\in \Gamma}^{}\left| f(g\gamma) \right| $$converges uniformly for $g$ on compact sets of $G$. Then, let $$T_{\Gamma}f(\overline{g}):=\sum_{\gamma\in \Gamma}^{}f(g\gamma)$$
+Then, it holds that $T_{\Gamma}f\in C(G / \Gamma)$ and:
+
+> [!lemma] Theorem (Weil's Formula)
+> Given a Haar measure $\alpha$ on $G / \Gamma$, there exists a unique Haar measure $\lambda$ on $G$ s.t. for all $f\in C(G) \cap L^1(G)$ uniformly summable over $\Gamma$, $$\int_{G}^{} f \, d\lambda=\int_{G / \Gamma}T_{\Gamma}f  \, d\alpha  $$
+---
+> [!lemma] Theorem (Poisson Formula)
+> 	Let $\Gamma\leq G$ be discrete with $G / \Gamma$ compact. Let $\alpha$ be the Haar measure on $G/ \Gamma$ with $\alpha(G / \Gamma)=1$. Let $\lambda$ be the corresponding Haar measure on $G$. 
+> 	
+> 	Let $f\in C(G)\cap L^1(G)$ uniformly summable over $\Gamma$. Assume that $\widehat{f}|_{\Gamma ^{\bot}}\in \ell^1(\Gamma ^{\bot})$. Then, $$\sum_{x\in \Gamma}^{}f(\gamma)=\sum_{\eta\in\Gamma ^{\bot}}^{}\widehat{f}(\gamma)$$

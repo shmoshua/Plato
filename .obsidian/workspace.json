@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "source",
                 "source": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Lie Group/Homogeneous Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "preview",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "weil",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -326,22 +326,25 @@
   },
   "active": "344e33ffe3c88cd2",
   "lastOpenFiles": [
+    "Lie Group/Homogeneous Space.md",
+    "Functional Analysis/LCA Group.md",
+    "Measure Theory/Uniformly Summable Function.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Topology/Quotient Topology.md",
     "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/Exponential Map.md",
+    "Differential Geometry/Submanifold.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Differential Geometry/Differential.md",
-    "Functional Analysis/LCA Group.md",
-    "Topology/Quotient Topology.md",
     "Algebra/Quotient Field.md",
     "Functional Analysis/Fourier Transform of Measures.md",
-    "Lie Group/Exponential Map.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Representation Theory/Lie Algebra.md",
     "Lie Group/Topological Group.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Tangent Space II.md",
     "Algebra/General Linear Group.md",
-    "Differential Geometry/Submanifold.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Tangent Space.md",
     "Algebra/Orbit and Stablizer.md",
@@ -349,9 +352,6 @@
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Smooth Atlas.md",
     "Algebra/Associative Algebra.md",
-    "Analysis/Pushforward Measure.md",
-    "Algebra/Group Action.md",
-    "Differential Geometry/Derivation.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
