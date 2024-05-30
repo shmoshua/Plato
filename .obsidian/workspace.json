@@ -67,9 +67,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "48f8c3894cdb7bf0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -142,7 +150,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -154,14 +162,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -227,7 +235,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +251,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,9 +272,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Representation Theory/Lie Algebra.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -289,19 +293,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "cf533573fd02a363",
+  "active": "48f8c3894cdb7bf0",
   "lastOpenFiles": [
-    "Differential Geometry/Submanifold.md",
     "Representation Theory/Lie Algebra.md",
+    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Differential.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Lie Group.md",
+    "Lie Group/Topological Group.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Tangent Space II.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Orbit and Stablizer.md",
     "Algebra/General Linear Group.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Vector Field.md",
-    "Lie Group/Lie Group.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Smooth Atlas.md",
     "Algebra/Associative Algebra.md",
@@ -316,7 +321,6 @@
     "Algebra/Direct Sum.md",
     "Algebra/Ideal.md",
     "Algebra/Module.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
