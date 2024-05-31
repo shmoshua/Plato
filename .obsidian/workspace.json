@@ -178,7 +178,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Functional Analysis/Unimodular Group.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0adc91699d89f45a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Homogeneous Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -190,14 +202,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -226,7 +238,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "weil",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -264,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lattice.md"
+                "file": "Functional Analysis/Haar Measure.md"
               }
             }
           }
@@ -326,14 +338,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "10f46ae36bb7778d",
+  "active": "e54d3e1cb18f8831",
   "lastOpenFiles": [
-    "Lie Group/Locally Compact Topological Group.md",
+    "Lie Group/Homogeneous Space.md",
+    "Functional Analysis/Unimodular Group.md",
+    "Functional Analysis/Haar Measure.md",
+    "Lie Group/Lattice.md",
     "Lie Group/Topological Group.md",
+    "Lie Group/Locally Compact Topological Group.md",
     "Differential Geometry/Derivation.md",
     "Lie Group/Lie Group.md",
-    "Functional Analysis/Unimodular Group.md",
-    "Lie Group/Lattice.md",
     "Algebra/Free Group.md",
     "Lie Group/Flow.md",
     "Lie Group/Exponential Map.md",
@@ -352,8 +366,6 @@
     "Measure Theory/Diffeomorphism.md",
     "Algebra/General Linear Group.md",
     "Differential Geometry/Differential 1-Form.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Controls/State Transition Matrix.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

@@ -41,3 +41,11 @@
 > 2. $F_{\{ a,b \}}$ is a LCH group with the discrete topology.
 > 3. Then, $F_{\{ a,b \}}$ is a lattice of itself.
 ---
+> [!h] Example 3
+> Consider $G:=(\mathbb{R}_{>0},\cdot)$. Then, 
+> 1. $\Gamma:=\exp(\mathbb{Z})$ is a discrete subgroup of $G$.
+> 2. $\Gamma$ is a lattice.
+
+> [!proof]-
+> As $G$ and $\Gamma$ are both abelian, they are unimodular and $\Delta_{G}|_{\Gamma}=\Delta_{\Gamma}=1$. Therefore, we can use [[Homogeneous Space|Weil's formula]]. Therefore, there exists a unique $G$-invariant regular Borel measure $\mu$ on $G / \Gamma$ s.t. :$$\int_{\mathbb{R}_{>0}}\frac{f(x)}{x}  \, dx=\int_{G / \Gamma} \left( \sum_{\gamma\in \Gamma}^{}f(g\gamma) \right) \, d\mu(g\Gamma)  $$Choose $f=\chi_{[1,e)}$. Then, $$\int_{1}^{e} \frac{1}{x} \, dx=\int_{G / \Gamma}^{} \left( \sum_{n\in \mathbb{Z}}^{}\chi_{[1,e)}(g\cdot \exp(n)) \right)  \, d\mu(g\Gamma)=\int_{G / \Gamma}^{} 1  \, d\mu(g\Gamma) =\mu(G / \Gamma) $$Therefore, $\Gamma$ has a finite $G$-invariant regular Borel measure. This shows that $\Gamma$ is a lattice.
+---
