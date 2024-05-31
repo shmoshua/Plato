@@ -6,8 +6,13 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> For $X,Y\in \Gamma(\text{T}M)$
+> For $X,Y,Z\in \Gamma(\text{T}M)$
 > 1. $L_{X}Y=[X,Y]$
+> 2. $L_{X}Y=-L_{Y}X$
+> 3. $L_{X}[Y,Z]=[L_{X}Y,Z]+[Y,L_{X}Z]$
+> 4. $L_{[X,Y]}Z=L_{X}L_{Y}Z-L_{Y}L_{X}Z$
+> 5. for $f\in C^\infty(M)$, $L_{X}(Y)=(X(f))Y+fL_{X}Y$
+> 6. for a diffeomorphism $\varphi:M\to N$, 
 
 > [!proof]-
 > As $\Gamma(\text{T}M)\cong\text{Der }C^\infty(M)$, we only have to check that for all $f\in C^\infty(M)$, $(L_{X}Y)(f)=[X,Y]f$. Let $p\in M$. Then, $$\begin{align}(L_{X}Y)_{p}(f)&=\lim_{ t \to 0 } \frac{1}{t}\left( d\Phi^{-t}_{X}(Y_{\Phi_{X}^t(p)})-Y_{p} \right)(f)\\&=\lim_{ t \to 0 } \frac{Y_{\Phi^t_{X}(p)}(f\circ \Phi_{X}^{-t})-Y_{p}(f)}{t}\end{align}$$

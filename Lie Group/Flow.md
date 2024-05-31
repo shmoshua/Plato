@@ -15,3 +15,6 @@
 > Let $X,Y\in \Gamma(\text{T}M)$ be two complete smooth vector fields. Then, the following are equivalent:
 > 1. $\Phi^t_{X}$ and $\Phi^s_{Y}$ commute for all $t,s\in \mathbb{R}$.
 > 2. $[X,Y]=0$.
+
+> [!proof]+
+> Let $\Phi_{X}^t$ and $\Phi_{Y}^s$ commute. Then, $$0=[X,Y]_{p}=(L_{X}Y)_{p}=\left. \frac{d}{dt} \right| _{t=0}d\Phi^{-t}_{X}(Y_{\Phi^t_{X}(p)})$$
