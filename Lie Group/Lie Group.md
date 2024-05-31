@@ -12,12 +12,12 @@
 > 1. $H$ is a Lie group with smooth structure induced by $\{ (U\cap H,\varphi|_{U\cap H}) \}$.
 > 2. $H$ is closed in this case.
 
-> [!proof]+
+> [!proof]-
 > We have that $H\leq G$ and by [[Topological Group|Proposition 2.1]], $\overline{H}\leq G$. 
 > 1. **Claim: every $p\in H$ has a neighborhood $V\subseteq G$ s.t. $H$ is closed in $V$, i.e. $H\cap V=\overline{H}\cap V$.**
-> 	Fix $p\in H$. Let $(U,\varphi)$ be a chart at $p$. Then, $\varphi|_{H}:U\cap H\to \mathbb{R}^n$ is a chart of $p$ in $H$. Let $h:=\varphi \circ\varphi|_{H}^{-1}$. Let further $B:=B_{<1}(0)\subseteq \mathbb{R}^n$. Then, $h(B)$ is open in $\varphi(N)$ and there exists $W\subseteq \mathbb{R}^{m}$ open s.t. $W\cap \varphi(N)=h(B)$. As $\overline{B}$ is compact, $h(\overline{B})$ is compact and hence closed. Then, $$h(B)\subseteq W\cap h(\overline{B}) \subseteq W\cap\varphi(N)=h(B)$$Therefore, $W\cap h(\overline{B})=W\cap\varphi(N)$ and $V:=\varphi ^{-1}(W)\subseteq G$ is a neighborhood of $p$ s.t. $V$
-> 
-> By Lemma, every ℎ∈𝐻ℎ∈� has a neighborhood 𝑉⊂𝐺�⊂� so that 𝐻∩𝑉=𝐻⎯⎯⎯⎯⎯⎯∩𝑉�∩�=�¯∩�. By part (1), the diffeomorphism given by right multiplication by 𝑥� sends this set to 𝐻𝑥∩𝑉𝑥=𝐻⎯⎯⎯⎯⎯⎯∩𝑉𝑥��∩��=�¯∩��, which is contained in 𝐻𝑥�� and is open in 𝐻⎯⎯⎯⎯⎯⎯�¯; this shows that 𝐻𝑥�� is open.
+> 	Fix $p\in H$. Let $(U,\varphi)$ be a chart at $p$. Then, $\varphi|_{H}:U\cap H\to \mathbb{R}^n$ is a chart of $p$ in $H$. Let $h:=\varphi \circ\varphi|_{H}^{-1}$. Let further $B:=B_{<1}(0)\subseteq \mathbb{R}^n$. Then, $h(B)$ is open in $\varphi(N)$ and there exists $W\subseteq \mathbb{R}^{m}$ open s.t. $W\cap \varphi(N)=h(B)$. As $\overline{B}$ is compact, $h(\overline{B})$ is compact and hence closed. Then, $$h(B)\subseteq W\cap h(\overline{B}) \subseteq W\cap\varphi(H)=h(B)$$Therefore, $W\cap h(\overline{B})=W\cap\varphi(H)$ and $V:=\varphi ^{-1}(W)\subseteq G$ is a neighborhood of $p$ s.t. $$V\cap H=V\cap\varphi ^{-1}(h(\overline{B}))$$which is closed.
+> 2. For any $h\in H$, let $V\subseteq G$ be the neighborhood with $H\cap V=\overline{H}\cap V$. As $\overline{H}\leq G$, for any $x\in \overline{H}$, $Hx\cap Vx=\overline{H}\cap Vx$ which is contained in $Hx$ and open in $\overline{H}$. Therefore, $Hx$ is open and dense in $\overline{H}$.
+> 3. Therefore, for any $x\in \overline{H}$, $Hx\cap H$ is non-empty. Therefore, $gx\in H$ for $g\in H$ and this shows that $x\in H$. One sees that $\overline{H}=H$.
 ---
 ##### Examples
 > [!h] Example 1

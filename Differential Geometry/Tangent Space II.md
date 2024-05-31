@@ -29,7 +29,16 @@
 >     Now we show that they are linearly independent. Suppose that $\sum_{i=1}^{m}a_{i}(\varphi_{i}-\varphi_{i}(p))\in I_{p}^{2}$. Then, $$\sum_{i=1}^{m}a_{i}(\varphi_{i}-\varphi_{i}(p))\circ \varphi ^{-1}=\sum_{i=1}^{m}a_{i}(\pi_{i}-\pi_{i}(\varphi(p)))$$Therefore, $\sum_{i=1}^{m}a_{i}(\pi_{i}-\pi_{i}(\varphi(p)))\in I_{\varphi(p)}^{2}\subseteq C^\infty_{\varphi(p)}(\mathbb{R}^m)$. However, this implies that: $$\left. \frac{ \partial  }{ \partial \pi_{j} } \right|_{\varphi(p)} \left( \sum_{i=1}^{m}a_{i}(\pi_{i}-\pi_{i}(\varphi(p))) \right) =0 $$which means that $a_{j}=0$ for all $j\in [m]$. Therefore, $\text{dim }\text{T}_{p}M=\text{dim }I_{p} / I_{p}^{2}=m$.
 >  4. As $\{ \varphi_{i}-\varphi_{i}(p)+I_{p}^{2} \}_{i}$ forms a basis of $I_{p} / I_{p}^{2}$, we have: $$\left. \frac{ \partial  }{ \partial x^i }  \right| _{p}(x^j-x^j(p))=\delta_{ij}$$Therefore, $\left\{  \left. \frac{ \partial  }{ \partial x^i } \right|_{p}  \right\}_{i}$ forms a basis of $\text{T}_{p}M$. Further, $$v(x^j-x^j(p))=v(x^j)=\sum_{i=1}^{m}v(x^i)\delta_{ij}=\sum_{i=1}^{m}v(x^i)\left. \frac{ \partial  }{ \partial x^i }  \right|_{p}(x^j-x^j(p)) $$This proves the statement.
 - **Remark**: For another chart $(V,\psi)$ with $y_{1},\dots,y_{m}$ as coordinate functions, $$\left. \frac{ \partial  }{ \partial y^j }  \right|_{p}=\sum_{i=1}^{m}\left. \frac{ \partial x^i }{ \partial y^j } \right| _{p}\left. \frac{ \partial  }{ \partial x^i }  \right|_{p}   $$i.e. $(\partial / \partial x^i)|_{p}$ depends on the whole chart $\varphi$ and not just $x^i$.
+---
+> [!lemma] Proposition 3
+> Let $M$ be a smooth manifold and $p\in M$. Let further $(U,\varphi)$ be a chart centered at $p$.  Then, $$\mathbb{R}^m\to \text{T}_{p}M,\quad v\mapsto\left( f\mapsto d_{0}(f\circ \varphi ^{-1})(v)=\left. \frac{d}{dt} \right| _{t=0}(f\circ \varphi ^{-1})(tv)\right)$$is a vector space isomorphism.
 
+> [!proof]+
+> As $d_{0}(f\circ\varphi ^{-1}):\mathbb{R}^n\to \mathbb{R}$ is a linear map, we have that the map is linear. 
+> 
+> For injectivity, consider $d_{0}(f\circ\varphi ^{-1})(v)=0$ for any $f\in C^\infty_{p}(M)$. Then, by considering $f=p_{i}\circ\varphi$, $$0=d_{0}p_{i}(v)=\left. \frac{d}{dt} \right| _{t=0}p_{i}(tv)=p_{i}(v)$$Therefore, $v=0$ and the map is injective.
+> 
+> For surjectivity, let $w\in \text{T}_{p}M$. Then, we have that: $$w=w(x^i)\left. \frac{ \partial  }{ \partial x^i } \right| _{p} $$Let $v:=(w(x^1),\dots,w(x^m))$. Then, $$d_{0}(f\circ \varphi ^{-1})(v)=d_{0}(f\circ \varphi ^{-1})\left( w(x^i)e_{i}\right)=w(x^i)d_{0}(f\circ \varphi ^{-1})(e_{i})=w(x^i)$$
 ---
 ##### Examples
 > [!h] Example 1
