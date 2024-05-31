@@ -29,7 +29,7 @@
 > - (2=>1): Assume $X$ is invariant under the flow of $Y$. Then, $Y_{\Phi^t_{X}(p)}=d_{p}\Phi^t_{X}(Y_{p})$ for any $t,p$. Therefore, by applying $d_{\Phi^t_{X}(p)}\Phi^{-t}_{X}$ on both sides, $$d_{\Phi^t_{X}(p)}\Phi^{-t}_{X}(Y_{\Phi^t_{X}(p)})=Y_{p}$$Hence, $[X,Y]=L_{X}Y=\left. \frac{d}{dt} \right| _{t=0}Y_{p}=0$.
 > - (1=>2): Assume $[X,Y]=0$. Then, consider $H(t):=d\Phi^{-t}_{X}(Y_{\Phi^t_{X}(p)})$. Then, by Proposition 2, $$H'(t_{0})=0,\quad \forall t_{0}\in \mathbb{R}$$However, as $H(0)=Y_{p}$, $X(t)=Y_{p}$ for all $t\in \mathbb{R}$. By applying $d\Phi^{t}_{X}$ on both sides, we get our statement.
 > - (3=>1) and (1=>3) hold by symmetry.
-> - (1=>4): Assume that $[X,Y]=0$. From 3, $X_{\Phi^t_{Y}(p)}=d_{p}\Phi^t_{Y}(X_{p})$ for any $t,p$. Consider the curve $\gamma:\mathbb{R}\to M$ defined as $\gamma(t)=\Phi_{Y}^s(\Phi_{X}^t(p))$. Then, $\gamma(0)=\Phi_{Y}^s(p)$ and: $$\gamma'(t_{0})=\left. \frac{d}{dt} \right| _{t_{0}}\Phi_{Y}^s(\Phi_{X}^t(p))=d\Phi^s_{Y}(d\Phi^t_{X}(X_{p}))$$
-> 
-> The rest holds by symmetry. 
+> - (1=>4): Assume that $[X,Y]=0$. From 3, $X_{\Phi^t_{Y}(p)}=d_{p}\Phi^t_{Y}(X_{p})$ for any $t,p$. Consider the curve $\gamma:\mathbb{R}\to M$ defined as $\gamma(t)=\Phi_{Y}^s(\Phi_{X}^t(p))$. Then, $\gamma(0)=\Phi_{Y}^s(p)$ and: $$\gamma'(t)= \frac{d}{dt} \Phi_{Y}^s(\Phi_{X}^t(p))=d\Phi^s_{Y}(X_{\Phi_{X}^t(p)})=X_{\Phi^s_{Y}(\Phi^t_{X}(p))}=X_{\gamma(t)}$$
+>   Therefore, by the uniqueness of integral curves, $\gamma=\gamma_{\Phi^s_{Y}(p)}$. Hence,$$\Phi_{X}^t(\Phi_{Y}^s(p))=\gamma_{\Phi^s_{Y}(p)}(t)=\gamma(t)=\Phi^s_{Y}(\Phi^t_{X}(p))$$
+> - (4=>1): Conversely assume that the flows commute. 
 - **Corollary**: Any smooth vector field $X$ is invariant under its own flow. 
