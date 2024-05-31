@@ -197,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -263,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Lie Group/Integral Curve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Lie Group/Integral Curve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Vector Field.md"
+                "file": "Lie Group/Integral Curve.md"
               }
             }
           }
@@ -325,16 +325,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d4d15bb4f6271f4d",
+  "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Lie Group/Integral Curve.md",
-    "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Vector Field.md",
-    "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Smooth Function.md",
     "Lie Group/Flow.md",
-    "Representation Theory/Tensor Product.md",
+    "Lie Group/Integral Curve.md",
+    "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Representation Theory/Tensor Product.md",
     "Differential Geometry/Tangent Space II.md",
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Derivation.md",
