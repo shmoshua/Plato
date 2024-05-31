@@ -112,6 +112,18 @@
             }
           },
           {
+            "id": "6343fc6755c861ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Vector Field.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "33eb575cd9e8d842",
             "type": "leaf",
             "state": {
@@ -136,6 +148,18 @@
             }
           },
           {
+            "id": "57846582d0a0a0e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Integral Curve.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1d2a6cdf30df92d6",
             "type": "leaf",
             "state": {
@@ -153,26 +177,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Diffeomorphism.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6343fc6755c861ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -238,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Differential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Differential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md"
+                "file": "Differential Geometry/Differential.md"
               }
             }
           }
@@ -300,20 +312,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b7985c32df0139d5",
+  "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
+    "Lie Group/Integral Curve.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Tangent Space.md",
+    "Measure Theory/Diffeomorphism.md",
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Differential.md",
     "Lie Group/Flow.md",
-    "Measure Theory/Diffeomorphism.md",
-    "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Tangent Space II.md",
     "Algebra/General Linear Group.md",
     "Lie Group/Exponential Map.md",
     "Differential Geometry/Differential 1-Form.md",
-    "Lie Group/Integral Curve.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Controls/State Transition Matrix.md",
     "Controls/Linear Time Varying System.md",
@@ -327,7 +340,6 @@
     "Functional Analysis/Fourier Transform.md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Submanifold.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
