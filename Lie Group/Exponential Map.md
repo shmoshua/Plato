@@ -2,6 +2,7 @@
 
 > [!definition]
 > The ***exponential map*** is a function $\exp:\text{Mat}_{n,n}(\mathbb{R})\to \text{Mat}_{n,n}(\mathbb{R})$ given as: $$\exp(A):=\sum_{n=0}^{\infty}\frac{A^n}{n!}$$
+> The ***exponential map*** of a [[Lie group]] $G$ with its [[Lie algebra]] $\mathfrak{g}$ is a map $\exp:\mathfrak{g}\to G$ s.t. $$\exp(v)=\varphi_{v}(1)$$where $$
 ---
 ##### Properties
 > [!lemma] Proposition 1

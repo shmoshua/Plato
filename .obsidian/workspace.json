@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "source",
                 "source": true
               }
@@ -89,24 +89,12 @@
         "dimension": 50.57471264367817,
         "children": [
           {
-            "id": "b7985c32df0139d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Smooth Function.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6343fc6755c861ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Flow.md",
+                "file": "Lie Group/One-Parameter Subgroup.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -142,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Flow.md",
                 "mode": "preview",
                 "source": false
               }
@@ -197,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -263,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Lie Group/Exponential Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Lie Group/Exponential Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Integral Curve.md"
+                "file": "Lie Group/Exponential Map.md"
               }
             }
           }
@@ -325,12 +313,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "33eb575cd9e8d842",
+  "active": "48f8c3894cdb7bf0",
   "lastOpenFiles": [
-    "Differential Geometry/Vector Field.md",
-    "Differential Geometry/Smooth Function.md",
-    "Lie Group/Flow.md",
     "Lie Group/Integral Curve.md",
+    "Lie Group/Exponential Map.md",
+    "Differential Geometry/Vector Field.md",
+    "Lie Group/Flow.md",
+    "Lie Group/Lie Group.md",
+    "Lie Group/One-Parameter Subgroup.md",
+    "Differential Geometry/Smooth Function.md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Lie Bracket.md",
@@ -340,7 +331,6 @@
     "Differential Geometry/Derivation.md",
     "Controls/Impulse Transition Matrix and Impulse Response Matrix.md",
     "Differential Geometry/Tangent Space.md",
-    "Lie Group/Exponential Map.md",
     "Measure Theory/Diffeomorphism.md",
     "Algebra/General Linear Group.md",
     "Differential Geometry/Differential 1-Form.md",
@@ -351,8 +341,6 @@
     "Topology/Quotient Topology.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Measure Theory/Uniformly Summable Function.md",
-    "Lie Group/Homogeneous Space.md",
-    "Lie Group/Topological Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
