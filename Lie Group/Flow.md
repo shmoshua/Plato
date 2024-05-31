@@ -10,3 +10,8 @@
 
 > [!proof]-
 > The map $\chi:t\mapsto \gamma_{p}(t_{2}+t)$ is an integral curve on $X$. To check we have that: $$\chi'(t)=\gamma'_{p}(t_{2}+t)=X_{\gamma_{p}(t_{2}+t)}=X_{\chi(t)}$$Then, $\chi(0)=\gamma_{p}(t_{2})$ and by the [[Integral Curve|uniqueness of solution of ODE]], $$\gamma_{p}(t_{2}+t)=\gamma_{\gamma_{p}(t_{2})}(t)$$Therefore, $$\Phi_{X}(t+t_{2},p)=\Phi_{X}(t,\Phi_{X}(t_{2},p))$$
+---
+> [!lemma] Proposition 2
+> Let $X,Y\in \Gamma(\text{T}M)$ be two complete smooth vector fields. Then, the following are equivalent:
+> 1. $\Phi^t_{X}$ and $\Phi^s_{Y}$ commute for all $t,s\in \mathbb{R}$.
+> 2. $[X,Y]=0$.
