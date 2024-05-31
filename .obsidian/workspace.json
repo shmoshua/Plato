@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -183,7 +183,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Lie Derivative.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Lie Derivative.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Lie Derivative.md"
+                "file": "Differential Geometry/Vector Field.md"
               }
             }
           }
@@ -311,15 +312,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d4d15bb4f6271f4d",
+  "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Lie Group/Flow.md",
-    "Lie Group/Integral Curve.md",
     "Analysis/Lie Derivative.md",
+    "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Differential.md",
+    "Lie Group/Integral Curve.md",
+    "Lie Group/Flow.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Controls/State Transition Matrix.md",
     "Controls/Linear Time Varying System.md",
-    "Differential Geometry/Vector Field.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Lie Group/Exponential Map.md",
     "Topology/Quotient Topology.md",
@@ -333,12 +336,10 @@
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Submanifold.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Differential Geometry/Differential.md",
     "Algebra/Quotient Field.md",
     "Functional Analysis/Fourier Transform of Measures.md",
     "Differential Geometry/Tangent Space II.md",
     "Algebra/General Linear Group.md",
-    "Lie Group/Lie Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
