@@ -35,3 +35,9 @@
 > 
 > The other direction is obvious as $\mathbb{Z}f_{1}+\dots+\mathbb{Z}f_{n}$ is discrete and as $\Gamma\cong \mathbb{Z}^n$. Therefore, $\mathbb{R}^n / \Gamma\cong \mathbb{R}^n / \mathbb{Z}^n\cong (\mathbb{R} / \mathbb{Z})^n$ which is compact and therefore has a finite Haar measure.
 ---
+> [!h] Example 2 
+> Let $F_{\{ a,b \}}$ be the [[Free group]] generated on two generators $a,b$. Then, 
+> 1. $F_{\{ a,b \}}$ is countable and 
+> 2. $F_{\{ a,b \}}$ is a LCH group with the discrete topology.
+> 3. Then, $F_{\{ a,b \}}$ is a lattice of itself.
+---

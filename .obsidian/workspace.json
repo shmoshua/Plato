@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Lie Group/Lattice.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Functional Analysis/Unimodular Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Flow.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -178,14 +178,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Lie Group/Lattice.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e54d3e1cb18f8831",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -214,7 +226,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "weil",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -231,7 +243,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -251,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Lie Group/Lattice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Lie Group/Lattice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Exponential Map.md"
+                "file": "Lie Group/Lattice.md"
               }
             }
           }
@@ -313,13 +326,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "48f8c3894cdb7bf0",
+  "active": "10f46ae36bb7778d",
   "lastOpenFiles": [
-    "Lie Group/Integral Curve.md",
+    "Lie Group/Locally Compact Topological Group.md",
+    "Lie Group/Topological Group.md",
+    "Differential Geometry/Derivation.md",
+    "Lie Group/Lie Group.md",
+    "Functional Analysis/Unimodular Group.md",
+    "Lie Group/Lattice.md",
+    "Algebra/Free Group.md",
+    "Lie Group/Flow.md",
     "Lie Group/Exponential Map.md",
     "Differential Geometry/Vector Field.md",
-    "Lie Group/Flow.md",
-    "Lie Group/Lie Group.md",
+    "Lie Group/Integral Curve.md",
     "Lie Group/One-Parameter Subgroup.md",
     "Differential Geometry/Smooth Function.md",
     "Representation Theory/Lie Algebra.md",
@@ -328,7 +347,6 @@
     "Representation Theory/Tensor Product.md",
     "Differential Geometry/Tangent Space II.md",
     "Analysis/Lie Derivative.md",
-    "Differential Geometry/Derivation.md",
     "Controls/Impulse Transition Matrix and Impulse Response Matrix.md",
     "Differential Geometry/Tangent Space.md",
     "Measure Theory/Diffeomorphism.md",
@@ -336,11 +354,6 @@
     "Differential Geometry/Differential 1-Form.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Controls/State Transition Matrix.md",
-    "Controls/Linear Time Varying System.md",
-    "Functional Analysis/Pontryagin Dual.md",
-    "Topology/Quotient Topology.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Measure Theory/Uniformly Summable Function.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
