@@ -38,10 +38,16 @@
 > Therefore, $$\begin{align}f(x)&=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i})\int_{0}^{1}  \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a+t(x-a)}\, dt\\&=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i})\left( \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a} +\sum_{j=1}^{n}(x_{j}-a_{j})\int_{0}^{1} \left. \frac{ \partial^{2} f }{ \partial x_{i} \partial x_{j}}  \right| _{a+t(x-a)} \, dt \right) \\&=f(a)+\sum_{i=1}^{n}(x_{i}-a_{i}) \left. \frac{ \partial f }{ \partial x_{i} }  \right| _{a} +\sum_{i,j=1}^{n}(x_{i}-a_{i})(x_{j}-a_{j})\int_{0}^{1} \left. \frac{ \partial^{2} f }{ \partial x_{i} \partial x_{j}}  \right| _{a+t(x-a)} \, dt \end{align}$$
 ---
 > [!lemma] Theorem 3 (Inverse Function Theorem)
-> Let $U\subseteq \mathbb{R}^n$ be open and $f:U\to \mathbb{R}^n$ be $C^r$ for $r\geq 1$. If the [[Jacobian matrix]] $$D_{x}f:=\left\{  \frac{ \partial f_{i} }{ \partial x^j }   \right\}_{i,j=1,\dots,m}$$is invertible at $x_{0}\in U$. Then, there exist open neighborhood $x_{0}\in V\subseteq U$ and $f(x_{0})\in W$ s.t.
+> Let $U\subseteq \mathbb{R}^n$ be open and $f:U\to \mathbb{R}^n$ be $C^r$ for $r\geq 1$. If the [[Jacobian matrix]] $$D_{x}f:=\left\{  \frac{ \partial f_{i} }{ \partial x^j }   \right\}_{i,j=1,\dots,m}$$is invertible at $x_{0}\in U$. Then, there exist open neighborhoods $x_{0}\in V\subseteq U$ and $f(x_{0})\in W$ s.t.
 > 1. $f|_{V}:V\to W$ is a $C^r$-diffeomorphism.
 ---
 > [!lemma] Theorem 4 
+> Let $A_{0}\subseteq \mathbb{R}^m$ and $B_{0}\subseteq \mathbb{R}^n$ be open and $f:A_{0}\to B_{0}$ be a $C^r$-map. If $f$ has constant [[rank]] $k$ on $A_{0}$, for any $a_{0}\in A_{0}$,
+> 1. there exists $a_{0}\in A\subseteq A_{0}$, $f(a_{0})\in B\subseteq B_{0},U\subseteq \mathbb{R}^m,V\subseteq \mathbb{R}^n$ open and
+> 2. there exists $C^r$-diffeomorphisms $\psi:A\to U$ and $\varphi:B\to V$ s.t. $\psi(a_{0})=0$ and $\varphi(f(a_{0}))=0$ with:$$(\varphi \circ f\circ \psi ^{-1})(x_{1},\dots,x_{m})=(x_{1},\dots,x_{k},0,\dots,0)$$
+
+> [!proof]+
+> Modulo altering $\varphi,\psi$ with translations, we may assume that $a_{0}=0$ and $f(a_{0})=0$ without loss of generality. Modulo permuting coordinates in $\mathbb{R}^n$ and $\mathbb{R}^m$ we may assume that the first principal $k\times k$-minor of $d_{0}f$ has non-zero determinant, that is: $$\det \left[ \frac{ \partial f_{j} }{ \partial x^i }  \right]_{i,j\in [k]}\neq 0 $$Define $\psi(x):=(f_{1}(x),\dots,f_{k}(x),x_{k+1},\dots,x_{m})$ where $f(x)=(f_{1}(x),\dots,f_{n}(x))$. Then, for $x\in A_{0}$, $$d_{x}\psi =\begin{bmatrix}\left[ \frac{ \partial f_{j} }{ \partial x^i }  \right]_{i,j\in [k]}&*\\0&I_{m-k}\end{bmatrix}$$Therefore, $\det d_{x}\psi=\det \left[ \frac{ \partial f_{j} }{ \partial x^i }  \right]_{i,j\in [k]}\neq 0$. By applying inverse function theorem on $\psi$, we get open neighborhoods $A_{1}\subseteq A_{0}$ and $U_{1}\subseteq \mathbb{R}^m$ of $0$ respectively, s.t. $\psi|_{A_{1}}:A_{1}\to U_{1}$ is a $C^r$-diffeomorphism. Then, consider $f\circ\psi ^{-1}:U_{1}$
 ---
 ##### Examples
 > [!h] Example 1
