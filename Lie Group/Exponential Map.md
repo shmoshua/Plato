@@ -31,3 +31,12 @@
 > 1. By defining $\psi(s):=\varphi_{v}(ts)$, we have that $\psi:\mathbb{R}\to G$ is a smooth homomorphism with $\psi'(0)=t\cdot\varphi'_{v}(0)=tv$. Therefore, $$\exp(tv)=\varphi_{tv}(1)=\psi(1)=\varphi_{v}(t)$$
 > 2. Assume $[v,w]=0$. Then by [[Flow|Proposition 3]], $\Phi_{v^L}^s$ and $\Phi_{w^L}^t$ commute for all $s,t\in \mathbb{R}$. Then, by [[Integral Curve|Example 1]], $$\varphi_{w}(t)\varphi_{v}(s)=\varphi_{v}(s)\varphi_{w}(t),\quad \forall s,t\in \mathbb{R}$$We claim that $\psi(t):=\varphi_{v}(t)\varphi_{w}(t)$ is a one-parameter subgroup: it is smooth and: $$\begin{align}\psi(s+t)&=\varphi_{v}(s+t)\varphi_{w}(s+t)\\&=\varphi_{v}(s)\varphi_{v}(t)\varphi_{w}(s)\varphi_{w}(t)\\&=\varphi_{v}(s)\varphi_{w}(s)\varphi_{v}(t)\varphi_{w}(t)\\&=\psi(s)\psi(t)\end{align}$$with $$\begin{align}\psi'(0)&=d_{(e,e)}m(\varphi'_{v}(0),\varphi'_{w}(0))\\&=d_{(e,e)}m(v,w)\\&=d_{(e,e)}m(v,0)+d_{(e,e)}m(0,w)\end{align}$$where for $d_{(e,e)}m(v,0)=d_{(e,e)}m(d_{e}i(v))=d_{e}(m\circ i)(v)=d_{e}\text{id}(v)=v$. This proves that $\psi'(0)=v+w$. Hence, $$\exp(v+w)=\varphi_{v+w}(1)=\psi(1)=\varphi_{v}(1)\varphi_{w}(1)=\exp(v)\exp(w)$$
 ---
+> [!lemma] Proposition 3
+> Let $G,H$ be [[Lie Group|Lie groups]] and $\varphi:G\to H$ a Lie group homomorphism. Then, the diagram: $$\begin{CD}G@>\varphi>>H\\@A\exp AA@AA\exp A\\\mathfrak{g}@>>d_{e}\varphi>\mathfrak{h}\end{CD}$$commutes, i.e. $\varphi \circ\exp=\exp \circ\  d_{e}\varphi$.
+
+> [!proof]-
+> Let $v\in \mathfrak{g}$ and consider $\psi(t):=\varphi(\exp(tv))$. Then, $$\psi(s+t)=\varphi(\exp((s+t)v))=\varphi(\exp(sv)\exp(tv))=\psi(s)\psi(t)$$with $\psi'(0)=d_{e}\varphi(v)$. Therefore, $$\varphi(\exp(v))=\psi(1)=\varphi_{d_{e}\varphi(v)}(1)=\exp(d_{e}\varphi(v))$$
+---
+##### Examples
+> [!h] Example 1 (Matrix Groups)
+> For $\text{GL}(n,\mathbb{R})$, we have that: $$\exp(tA)=\sum_{n=0}^{\infty} \frac{A^nt^n}{n!}$$

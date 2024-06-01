@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -303,12 +303,12 @@
   },
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Lie Group/Integral Curve.md",
+    "Representation Theory/Lie Algebra.md",
     "Lie Group/Exponential Map.md",
+    "Differential Geometry/Submanifold.md",
+    "Lie Group/Integral Curve.md",
     "Lie Group/Flow.md",
     "Lie Group/Topological Group.md",
-    "Differential Geometry/Submanifold.md",
-    "Representation Theory/Lie Algebra.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Lie Group/Lie Group.md",
     "Functional Analysis/Unimodular Group.md",
