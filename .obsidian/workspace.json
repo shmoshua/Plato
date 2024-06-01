@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Ring of Germs.md",
                 "mode": "preview",
                 "source": false
               }
@@ -303,8 +303,10 @@
   },
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Lie Group/Integral Curve.md",
+    "Differential Geometry/Smooth Function.md",
     "Lie Group/Exponential Map.md",
+    "Lie Group/Integral Curve.md",
+    "Lie Group/Ring of Germs.md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Submanifold.md",
     "Lie Group/Flow.md",
@@ -313,7 +315,6 @@
     "Lie Group/Lie Group.md",
     "Functional Analysis/Unimodular Group.md",
     "Differential Geometry/Lie Bracket.md",
-    "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Tangent Space II.md",
     "Algebra/Unitary Representation.md",
     "Measure Theory/Diffeomorphism.md",
@@ -328,7 +329,6 @@
     "Algebra/Free Group.md",
     "Differential Geometry/Vector Field.md",
     "Representation Theory/Tensor Product.md",
-    "Analysis/Lie Derivative.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

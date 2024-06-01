@@ -18,10 +18,14 @@
 ---
 > [!lemma] Proposition 2
 > Let $G,H$ be [[Lie Group|Lie groups]] and $\varphi:G\to H$ a Lie group homomorphism. Then, the diagram: $$\begin{CD}G@>\varphi>>H\\@A\exp AA@AA\exp A\\\mathfrak{g}@>>d_{e}\varphi>\mathfrak{h}\end{CD}$$commutes, i.e. $\varphi \circ\exp=\exp \circ\  d_{e}\varphi$. Further, 
-> 1. $d_{0}\exp$
+> 1. $d_{0}\exp=\text{id}_{\mathfrak{g}}$
+> 2. there exists $0\in U\subseteq \mathfrak{g}$ open s.t. $\exp(U)\subseteq G$ is open and $\exp:U\to \exp(U)$ is a diffeomorphism.
 
 > [!proof]-
-> Let $v\in \mathfrak{g}$ and consider $\psi(t):=\varphi(\exp(tv))$. Then, $$\psi(s+t)=\varphi(\exp((s+t)v))=\varphi(\exp(sv)\exp(tv))=\psi(s)\psi(t)$$with $\psi'(0)=d_{e}\varphi(v)$. Therefore, $$\varphi(\exp(v))=\psi(1)=\varphi_{d_{e}\varphi(v)}(1)=\exp(d_{e}\varphi(v))$$
+> We have:
+> 1. Let $v\in \mathfrak{g}$ and consider $\psi(t):=\varphi(\exp(tv))$. Then, $$\psi(s+t)=\varphi(\exp((s+t)v))=\varphi(\exp(sv)\exp(tv))=\psi(s)\psi(t)$$with $\psi'(0)=d_{e}\varphi(v)$. Therefore, $$\varphi(\exp(v))=\psi(1)=\varphi_{d_{e}\varphi(v)}(1)=\exp(d_{e}\varphi(v))$$
+> 2. For any $v\in \mathfrak{g}$, $$d_{0}\exp(v)=\left. \frac{d}{dt} \right| _{t=0}\exp(tv)=\left. \frac{d}{dt} \right| _{t=0}\varphi_{v}(t)=\varphi'_{v}(0)=v$$
+> 3. [[Smooth Function|Inverse Function Theorem]] on $\exp$.
 ---
 ##### Examples
 > [!h] Example 1 (Matrix Groups)
