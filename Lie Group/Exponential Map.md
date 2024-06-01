@@ -26,7 +26,8 @@
 > 1. for all $v\in \mathfrak{g}$ and $t\in \mathbb{R}$, $\exp(tv)=\varphi_{v}(t)$.
 > 2. if $v,w\in \mathfrak{g}$ with $[v,w]=0$, then $\exp(v+w)=\exp(v)\exp(w)$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. By defining $\psi(s):=\varphi_{v}(ts)$, we have that $\psi:\mathbb{R}\to G$ is a smooth homomorphism with $\psi'(0)=t\cdot\varphi'_{v}(0)=tv$. Therefore, $$\exp(tv)=\varphi_{tv}(1)=\psi(1)=\varphi_{v}(t)$$
-> 2. Assume $[v,w]=0$. Then by [[Flow|Proposition 3]], $\Phi_{v^L}^s$ and $\Phi_{w^L}^t$ commute for all $s,t\in \mathbb{R}$. Then, by [[Integral Curve|Example 1]], 
+> 2. Assume $[v,w]=0$. Then by [[Flow|Proposition 3]], $\Phi_{v^L}^s$ and $\Phi_{w^L}^t$ commute for all $s,t\in \mathbb{R}$. Then, by [[Integral Curve|Example 1]], $$\varphi_{w}(t)\varphi_{v}(s)=\varphi_{v}(s)\varphi_{w}(t),\quad \forall s,t\in \mathbb{R}$$We claim that $\psi(t):=\varphi_{v}(t)\varphi_{w}(t)$ is a one-parameter subgroup: it is smooth and: $$\begin{align}\psi(s+t)&=\varphi_{v}(s+t)\varphi_{w}(s+t)\\&=\varphi_{v}(s)\varphi_{v}(t)\varphi_{w}(s)\varphi_{w}(t)\\&=\varphi_{v}(s)\varphi_{w}(s)\varphi_{v}(t)\varphi_{w}(t)\\&=\psi(s)\psi(t)\end{align}$$with $$\begin{align}\psi'(0)&=d_{(e,e)}m(\varphi'_{v}(0),\varphi'_{w}(0))\\&=d_{(e,e)}m(v,w)\\&=d_{(e,e)}m(v,0)+d_{(e,e)}m(0,w)\end{align}$$where for $d_{(e,e)}m(v,0)=d_{(e,e)}m(d_{e}i(v))=d_{e}(m\circ i)(v)=d_{e}\text{id}(v)=v$. This proves that $\psi'(0)=v+w$. Hence, $$\exp(v+w)=\varphi_{v+w}(1)=\psi(1)=\varphi_{v}(1)\varphi_{w}(1)=\exp(v)\exp(w)$$
+---

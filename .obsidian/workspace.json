@@ -172,8 +172,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Lie Group/Exponential Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Lie Group/Exponential Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Integral Curve.md"
+                "file": "Lie Group/Exponential Map.md"
               }
             }
           }
@@ -302,10 +301,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b94365c84992be39",
+  "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Lie Group/Exponential Map.md",
     "Lie Group/Integral Curve.md",
+    "Lie Group/Exponential Map.md",
     "Lie Group/Flow.md",
     "Lie Group/Topological Group.md",
     "Differential Geometry/Submanifold.md",
