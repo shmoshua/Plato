@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "source",
                 "source": true
               }
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md"
+                "file": "Differential Geometry/Submanifold.md"
               }
             }
           }
@@ -328,8 +328,8 @@
   },
   "active": "48f8c3894cdb7bf0",
   "lastOpenFiles": [
-    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Submanifold.md",
     "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Differential.md",
