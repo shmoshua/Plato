@@ -22,12 +22,12 @@
 > [!proof]-
 > Assume $N$ is a regular $n$-submanifold with embedding $F$. Then, for every open subset $U\subseteq N$, there exists an open subset $V\subseteq M$ s.t. $f(U)\subseteq V\cap f(N)$. Choose charts $(U,\varphi)$ and $(V,\psi)$ at $p$ and $F(p)$ respectively s.t. $f(U)\subseteq V\cap f(N)$ and $\varphi(U)=(-\varepsilon,\varepsilon)^n, \varphi(p)=0$ as well as $\psi(V)=(-\varepsilon,\varepsilon)^m$ with $\psi(f(p))=0$ and: $$\psi F\varphi ^{-1}:(-\varepsilon,\varepsilon)^n\to(-\varepsilon,\varepsilon)^m,\quad x\mapsto(x,0)$$Then, $$\psi(V\cap F(N))=\{ y\in (-\varepsilon,\varepsilon)^m:y_{n+1}=\dots+y_{m}=0 \}$$
 ---
-> [!lemma] Theorem 1
-> Let $M,M'$ be [[Smooth Manifold|smooth manifolds]] and $f\in C^\infty(M,M')$ with constant [[rank]] $k$. 
+> [!lemma] Theorem 2 (Constant Rank Theorem)
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $f\in C^\infty(M,N)$ with constant [[rank]] $k$. 
 > 1. For $q\in f(M), f^{-1}(q)$ is a regular submanifold of $M$ of dimension $m-k$.
 
-> [!proof]- Proof (Incomplete)
-> Let $p\in f^{-1}(q)$. 
+> [!proof]+
+> Let $p\in f^{-1}(q)=\{ x\in M:f(x)=q \}$. 
 ---
 ##### Examples
 > [!h] Example 1

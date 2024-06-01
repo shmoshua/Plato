@@ -33,12 +33,12 @@
 > [!lemma] Proposition 3
 > Let $M$ be a smooth manifold and $p\in M$. Let further $(U,\varphi)$ be a chart centered at $p$.  Then, $$\mathbb{R}^m\to \text{T}_{p}M,\quad v\mapsto\left( f\mapsto d_{0}(f\circ \varphi ^{-1})(v)=\left. \frac{d}{dt} \right| _{t=0}(f\circ \varphi ^{-1})(tv)\right)$$is a vector space isomorphism.
 
-> [!proof]+
+> [!proof]-
 > As $d_{0}(f\circ\varphi ^{-1}):\mathbb{R}^n\to \mathbb{R}$ is a linear map, we have that the map is linear. 
 > 
 > For injectivity, consider $d_{0}(f\circ\varphi ^{-1})(v)=0$ for any $f\in C^\infty_{p}(M)$. Then, by considering $f=p_{i}\circ\varphi$, $$0=d_{0}p_{i}(v)=\left. \frac{d}{dt} \right| _{t=0}p_{i}(tv)=p_{i}(v)$$Therefore, $v=0$ and the map is injective.
 > 
-> For surjectivity, let $w\in \text{T}_{p}M$. Then, we have that: $$w=w(x^i)\left. \frac{ \partial  }{ \partial x^i } \right| _{p} $$Let $v:=(w(x^1),\dots,w(x^m))$. Then, $$d_{0}(f\circ \varphi ^{-1})(v)=d_{0}(f\circ \varphi ^{-1})\left( w(x^i)e_{i}\right)=w(x^i)d_{0}(f\circ \varphi ^{-1})(e_{i})=w(x^i)$$
+> For surjectivity, let $w\in \text{T}_{p}M$. Then, we have that: $$w=w(x^i)\left. \frac{ \partial  }{ \partial x^i } \right| _{p} $$Let $v:=(w(x^1),\dots,w(x^m))$. Then, $$d_{0}(f\circ \varphi ^{-1})(v)=d_{0}(f\circ \varphi ^{-1})\left( w(x^i)e_{i}\right)=w(x^i)d_{0}(f\circ \varphi ^{-1})(e_{i})=w(x^i)\left( \left. \frac{ \partial  }{ \partial x^i } \right| _{p}  \right)(f) =w(f)$$
 ---
 ##### Examples
 > [!h] Example 1

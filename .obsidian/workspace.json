@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "mode": "source",
                 "source": true
               }
@@ -166,14 +166,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Submanifold.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b683ecf8a492c1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Smooth Function.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ca92b87326c0d48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Diffeomorphism.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -240,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential.md"
+                "file": "Differential Geometry/Smooth Function.md"
               }
             }
           }
@@ -302,17 +326,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1e1344c437031526",
+  "active": "48f8c3894cdb7bf0",
   "lastOpenFiles": [
-    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Smooth Function.md",
+    "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Tangent Space II.md",
+    "Differential Geometry/Differential.md",
+    "Lie Group/Lie Group.md",
+    "Differential Geometry/Tangent Space.md",
     "Functional Analysis/Unimodular Group.md",
     "Lie Group/One-Parameter Subgroup.md",
     "Differential Geometry/Lie Bracket.md",
-    "Differential Geometry/Differential.md",
     "Lie Group/Homogeneous Space.md",
-    "Lie Group/Lie Group.md",
-    "Differential Geometry/Submanifold.md",
     "Lie Group/Topological Group.md",
     "Lie Group/Lattice.md",
     "Functional Analysis/Haar Measure.md",
@@ -323,12 +349,10 @@
     "Lie Group/Exponential Map.md",
     "Differential Geometry/Vector Field.md",
     "Lie Group/Integral Curve.md",
-    "Differential Geometry/Smooth Function.md",
     "Representation Theory/Lie Algebra.md",
     "Representation Theory/Tensor Product.md",
     "Analysis/Lie Derivative.md",
     "Controls/Impulse Transition Matrix and Impulse Response Matrix.md",
-    "Measure Theory/Diffeomorphism.md",
     "Algebra/General Linear Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
