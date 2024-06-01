@@ -27,6 +27,9 @@
 > 2. For any $v\in \mathfrak{g}$, $$d_{0}\exp(v)=\left. \frac{d}{dt} \right| _{t=0}\exp(tv)=\left. \frac{d}{dt} \right| _{t=0}\varphi_{v}(t)=\varphi'_{v}(0)=v$$
 > 3. [[Smooth Function|Inverse Function Theorem]] on $\exp$.
 ---
+> [!lemma] Theorem (Cartan)
+> If $G$ is a compact and [[Connected Space|connected]] [[Lie group]], $\exp:\mathfrak{g}\to G$ is surjective.
+---
 ##### Examples
 > [!h] Example 1 (Matrix Groups)
 > For $\text{GL}(n,\mathbb{R})$ and $t\in \mathbb{R}$ and $A\in \text{Mat}_{n,n}(\mathbb{R})=\mathfrak{gl}(n,\mathbb{R})$, we have: $$\exp(tA)=\sum_{n=0}^{\infty} \frac{A^nt^n}{n!}$$Then, it also holds that:
@@ -45,4 +48,14 @@
 > 3. For $t,s\in \mathbb{R}$, $[tA,sA]=0$. Therefore, $$\exp(tA+sA)=\exp(tA)\exp(sA)$$and $\varphi$ is a homomorphism. Furthermore, $\varphi_{A}$ is smooth as $\exp$ is smooth. Lastly, $$\varphi'_{A}(0)=\left. \frac{d}{dt} \right| _{t=0}\exp(tA)=\left. \frac{d}{dt} \right| _{t=0}\sum_{n=0}^{\infty} \frac{A^nt^n}{n!}=\sum_{n=0}^{\infty}\frac{A^{n+1}0^{n}}{n!}=A$$
 > 4. Let $\psi:\mathbb{R}\to \text{GL}(n,\mathbb{R})$. Then, $$\psi'(t)=\left. \frac{d}{ds} \right| _{s=0}\psi(t+s)=\psi(t) \left. \frac{d}{ds} \right| _{s=0}\psi(s)=\psi(t)\psi'(0)$$By uniqueness of the solution of ODEs, $\psi(t)=C\cdot \exp(t\cdot \psi'(0))$. As $\psi(0)=I$, $C=1$. 
 > 5. As $\varphi_{A}$ is a smooth homomorphism with $\varphi'_{A}(0)=A$, we have that by uniqueness, $$\exp(tA)=\varphi_{A}(t)=\sum_{n=0}^{\infty}\frac{A^nt^n}{n!}$$
+---
+> [!h] Example 2
+> For matrix groups,
+> 1. For $n\geq 1$, $\exp:\mathfrak{u}(n)\to \text{U}(n)$ is surjective.
+> 2. For $n\geq 1$, $\exp:\mathfrak{sl}(n,\mathbb{R})\to \text{SL}(n,\mathbb{R})$ is not surjective.
+
+> [!proof]-
+> We have:
+> 1. Let $X$ be a unitary matrix. Then, $X=PDP^{*}$ where $P$ is unitary and $D$ diagonal. Let $D=\text{diag}(\lambda_{1},\dots,\lambda_{n})$. We have that $\left| \lambda_{i} \right|=1$, i.e. hence, there exists $x_{i}\in \mathbb{R}$ s.t. $\exp(ix_{i})=\lambda_{i}$. Hence, let $Y:=i\cdot\text{diag}(x_{1},..,x_{n})$ and:$$\exp(PYP^{*})=\sum_{n=0}^{\infty}\frac{(PYP^{*})^n}{n!}=\sum_{n=0}^{\infty}\frac{PY^nP^{*}}{n!}=P\exp(Y)P^{*}=P\text{diag}(\lambda_{1},\dots,\lambda_{n})P^{*}=X$$We only need to show that $PYP^{*}\in\mathfrak{u}(n)$. We have that: $$PYP^{*}+PY^{*}P^{*}=P(Y+Y^{*})P^{*}=0$$
+> 2. We show it concretely for $n=2$. Suppose that $X\in \mathfrak{sl}(2,\mathbb{R})$ with $\exp(X)=\begin{bmatrix}-1&1\\0&-1\end{bmatrix}$. As $\exp(X)$ is not diagonalizable, $X$ is not diagonalizable and has a double root. However as $X$ has trace 0, it has eigenvalue 0. This means then $1$ is an eigenvalue of $\exp(X)$, which is not true.
 ---

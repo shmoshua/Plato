@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -304,18 +304,19 @@
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
     "Differential Geometry/Smooth Function.md",
-    "Lie Group/Exponential Map.md",
-    "Lie Group/Integral Curve.md",
-    "Lie Group/Ring of Germs.md",
-    "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Submanifold.md",
     "Lie Group/Flow.md",
+    "Representation Theory/Lie Algebra.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Tangent Space II.md",
+    "Lie Group/Ring of Germs.md",
+    "Lie Group/Exponential Map.md",
+    "Differential Geometry/Vector Field.md",
+    "Lie Group/Integral Curve.md",
+    "Differential Geometry/Submanifold.md",
     "Lie Group/Topological Group.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Lie Group/Lie Group.md",
     "Functional Analysis/Unimodular Group.md",
-    "Differential Geometry/Lie Bracket.md",
-    "Differential Geometry/Tangent Space II.md",
     "Algebra/Unitary Representation.md",
     "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Differential.md",
@@ -327,7 +328,6 @@
     "Lie Group/Locally Compact Topological Group.md",
     "Differential Geometry/Derivation.md",
     "Algebra/Free Group.md",
-    "Differential Geometry/Vector Field.md",
     "Representation Theory/Tensor Product.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
