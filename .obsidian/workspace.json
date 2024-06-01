@@ -190,14 +190,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Diffeomorphism.md",
+                "file": "Algebra/Unitary Representation.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Algebra/Unitary Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Algebra/Unitary Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Submanifold.md"
+                "file": "Algebra/Unitary Representation.md"
               }
             }
           }
@@ -326,11 +326,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "48f8c3894cdb7bf0",
+  "active": "1ca92b87326c0d48",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Submanifold.md",
     "Measure Theory/Diffeomorphism.md",
+    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Differential.md",
     "Lie Group/Lie Group.md",
