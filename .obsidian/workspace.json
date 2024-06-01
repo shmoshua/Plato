@@ -183,21 +183,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1ca92b87326c0d48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Unitary Representation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -264,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +269,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Unitary Representation.md"
+                "file": "Differential Geometry/Submanifold.md"
               }
             }
           }
@@ -326,14 +314,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1ca92b87326c0d48",
+  "active": "1e1344c437031526",
   "lastOpenFiles": [
-    "Measure Theory/Diffeomorphism.md",
+    "Lie Group/Lie Group.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Smooth Function.md",
+    "Algebra/Unitary Representation.md",
+    "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Differential.md",
-    "Lie Group/Lie Group.md",
     "Differential Geometry/Tangent Space.md",
     "Functional Analysis/Unimodular Group.md",
     "Lie Group/One-Parameter Subgroup.md",
@@ -353,7 +342,6 @@
     "Representation Theory/Tensor Product.md",
     "Analysis/Lie Derivative.md",
     "Controls/Impulse Transition Matrix and Impulse Response Matrix.md",
-    "Algebra/General Linear Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
