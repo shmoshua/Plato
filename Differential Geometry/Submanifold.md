@@ -27,10 +27,10 @@
 > 1. For $q\in f(M), L:=f^{-1}(q)$ is a regular submanifold of $M$ of dimension $m-k$.
 > 2. $\text{T}_{p}L\cong\text{ker }d_{p}f$ for any $p\in f^{-1}(q)$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $p\in f^{-1}(q)=\{ x\in M:f(x)=q \}$. By [[Smooth Function|Theorem 4 Corollary]], there are charts $(U,\varphi)$ and $(V,\psi)$ centered at $p$ and $q$ respectively s.t. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and $\psi(V)=(-\varepsilon,\varepsilon)^n$ with: $$\psi f\varphi ^{-1}(x_{1},\dots,x_{m})=(x_{1},\dots,x_{k},0,\dots,0)$$In particular, $(f|_{U})^{-1}(q)=U\cap f^{-1}(q)$ and $$\varphi(U\cap f^{-1}(q))=(\psi f\varphi ^{-1})^{-1}(0)=\{ x\in (-\varepsilon,\varepsilon)^n: x_{1}=\dots=x_{k}=0 \}$$This proves the statement.
-> 2. We give the concrete vector space isomorphism: $$\text{ker }d_{p}f\to \text{T}_{p}L,\quad$$
+> 2. As $L$ is a regular submanifold of $M$, we may consider $\text{T}_{p}L$ as a subset of $\text{T}_{p}M$. Let $v\in \text{T}_{p}L$ and $\gamma:(-\varepsilon,\varepsilon)\to L$ be a smooth curve s.t. $\gamma(0)=p$ and $\gamma'(0)=v$. Then, $f(\gamma(t))=q$ and we have: $$d_{p}f(v)=d_{\gamma(0)}f(\gamma'(0))=\left. \frac{d}{dt} \right| _{t=0}f\circ \gamma(t)=0$$Therefore, $v\in \text{ker }d_{p}f$. Further, notice that $$\text{dim }\text{ker }d_{p}f=m-k=\text{dim }L=\text{dim }\text{T}_{p}L$$
 ---
 ##### Examples
 > [!h] Example 1
