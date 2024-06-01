@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,19 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Unimodular Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4d15bb4f6271f4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +106,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Lie Group/Integral Curve.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4d15bb4f6271f4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Flow.md",
                 "mode": "preview",
                 "source": false
               }
@@ -171,33 +171,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2b683ecf8a492c1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Lie Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bfd04bd52c81410",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Linear Algebra/Rank and Nullity.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -264,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Integral Curve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Integral Curve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Lie Group/Integral Curve.md"
               }
             }
           }
@@ -326,32 +302,32 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2b683ecf8a492c1b",
+  "active": "b94365c84992be39",
   "lastOpenFiles": [
-    "Differential Geometry/Lie Bracket.md",
+    "Lie Group/Exponential Map.md",
+    "Lie Group/Integral Curve.md",
+    "Lie Group/Flow.md",
+    "Lie Group/Topological Group.md",
+    "Differential Geometry/Submanifold.md",
     "Representation Theory/Lie Algebra.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
-    "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Submanifold.md",
-    "Differential Geometry/Tangent Space II.md",
     "Lie Group/Lie Group.md",
+    "Functional Analysis/Unimodular Group.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Tangent Space II.md",
     "Algebra/Unitary Representation.md",
     "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Space.md",
-    "Functional Analysis/Unimodular Group.md",
     "Lie Group/One-Parameter Subgroup.md",
     "Lie Group/Homogeneous Space.md",
-    "Lie Group/Topological Group.md",
     "Lie Group/Lattice.md",
     "Functional Analysis/Haar Measure.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Differential Geometry/Derivation.md",
     "Algebra/Free Group.md",
-    "Lie Group/Flow.md",
-    "Lie Group/Exponential Map.md",
     "Differential Geometry/Vector Field.md",
-    "Lie Group/Integral Curve.md",
     "Representation Theory/Tensor Product.md",
     "Analysis/Lie Derivative.md",
     "Algebra/Untitled",

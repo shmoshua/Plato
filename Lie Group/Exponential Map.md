@@ -1,4 +1,4 @@
-#Definition #Analysis #LieGroups 
+ #Definition #Analysis #LieGroups 
 
 > [!definition]
 > The ***exponential map*** is a function $\exp:\text{Mat}_{n,n}(\mathbb{R})\to \text{Mat}_{n,n}(\mathbb{R})$ given as: $$\exp(A):=\sum_{n=0}^{\infty}\frac{A^n}{n!}$$
@@ -20,3 +20,13 @@
 > 2. if $AB=BA$ then: $$(A+B)^n=\sum_{k=0}^{n} {n \choose k}A^k B^{n-k}$$Therefore, $$\exp(A+B)=\sum_{n=0}^{\infty}(A+B)^n / n! =\sum_{n=0}^{\infty}\sum_{k=0}^{n}\frac{A^kB^{n-k}}{k!(n-k)!}=\sum_{k=0}^{\infty}\frac{A^k}{k!}\sum_{n=k}^{\infty}\frac{B^{n-k}}{(n-k)!}=\exp(A)\exp(B)$$Further, $I=\exp(0)=\exp(A-A)=\exp(A)\exp(-A)$ and $\exp(A)\in \text{GL}(n,\mathbb{R})$.
 > 3. For $t,s\in \mathbb{R}$, $[tA,sA]=0$. Therefore, $$\exp(tA+sA)=\exp(tA)\exp(sA)$$and $\varphi$ is a homomorphism. Furthermore, $\varphi_{A}$ is smooth as $\exp$ is smooth. Lastly, $$\varphi'_{A}(0)=\left. \frac{d}{dt} \right| _{t=0}\exp(tA)=\left. \frac{d}{dt} \right| _{t=0}\sum_{n=0}^{\infty} \frac{A^nt^n}{n!}=\sum_{n=0}^{\infty}\frac{A^{n+1}0^{n}}{n!}=A$$
 > 4. Let $\psi:\mathbb{R}\to \text{GL}(n,\mathbb{R})$. Then, $$\psi'(t)=\left. \frac{d}{ds} \right| _{s=0}\psi(t+s)=\psi(t) \left. \frac{d}{ds} \right| _{s=0}\psi(s)=\psi(t)\psi'(0)$$By uniqueness of the solution of ODEs, $\psi(t)=C\cdot \exp(t\cdot \psi'(0))$. As $\psi(0)=I$, $C=1$. 
+---
+> [!lemma] Lemma 2
+> We have that:
+> 1. for all $v\in \mathfrak{g}$ and $t\in \mathbb{R}$, $\exp(tv)=\varphi_{v}(t)$.
+> 2. if $v,w\in \mathfrak{g}$ with $[v,w]=0$, then $\exp(v+w)=\exp(v)\exp(w)$.
+
+> [!proof]+
+> We have:
+> 1. By defining $\psi(s):=\varphi_{v}(ts)$, we have that $\psi:\mathbb{R}\to G$ is a smooth homomorphism with $\psi'(0)=t\cdot\varphi'_{v}(0)=tv$. Therefore, $$\exp(tv)=\varphi_{tv}(1)=\psi(1)=\varphi_{v}(t)$$
+> 2. Assume $[v,w]=0$. Then by [[Flow|Proposition 3]], $\Phi_{v^L}^s$ and $\Phi_{w^L}^t$ commute for all $s,t\in \mathbb{R}$. Then, by [[Integral Curve|Example 1]], 
