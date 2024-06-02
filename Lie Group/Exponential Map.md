@@ -39,7 +39,7 @@
 > 3. $\exp$ induces a Lie group homomorphism $\mathfrak{g} /\text{ker}\exp\cong G$.
 
 > [!proof]+
-> Assume that 
+> Assume that $G$ is abelian and connected.
 ---
 ##### Examples
 > [!h] Example 1 (Matrix Groups)
