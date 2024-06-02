@@ -17,7 +17,10 @@
 > 2. $N$ is an embedded submanifold of $M$ with the inclusion $i:N\to M$.
 
 > [!proof]+
-> Assume $N$ is a regular $n$-submanifold of $M$. Then, we want to show
+> Assume $N$ is a regular $n$-submanifold of $M$. Then, by the remark, there exists a smooth structure on $N$ and $N$ is a smooth manifold. Further, it is clear that $i$ is an injective homeomorphism to its image. Further, $d_{p}i=\text{id}$, hence injective. Therefore, $N$ is an embedded submanifold of $M$.
+> 
+> Converse, assume that $N$ is an embedded submanifold of $M$ w.r.t. inclusion with dimension $n$. Let $p\in N$. 
+> 
 ---
 > [!lemma] Theorem 2 (Constant Rank Theorem)
 > Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $f\in C^\infty(M,N)$ with constant [[rank]] $k$. 
