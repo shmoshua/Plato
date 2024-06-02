@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Flow.md",
+                "file": "Lie Group/Lattice.md",
                 "mode": "preview",
                 "source": false
               }
@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Lie Group/Lattice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Lie Group/Lattice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Exponential Map.md"
+                "file": "Lie Group/Lattice.md"
               }
             }
           }
@@ -302,11 +302,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "48f8c3894cdb7bf0",
+  "active": "d4d15bb4f6271f4d",
   "lastOpenFiles": [
-    "Representation Theory/Lie Algebra.md",
+    "Lie Group/Lie Group.md",
     "Lie Group/Exponential Map.md",
     "Lie Group/Flow.md",
+    "Representation Theory/Lie Algebra.md",
     "Lie Group/Topological Group.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Tangent Space II.md",
@@ -316,7 +317,6 @@
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Submanifold.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
-    "Lie Group/Lie Group.md",
     "Functional Analysis/Unimodular Group.md",
     "Algebra/Unitary Representation.md",
     "Measure Theory/Diffeomorphism.md",

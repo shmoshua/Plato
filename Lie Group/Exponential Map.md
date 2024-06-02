@@ -36,10 +36,13 @@
 > Let $G$ be a connected abelian Lie group. Then,
 > 1. $\exp$ is a surjective smooth homomorphism.
 > 2. $\text{ker}\exp\leq \mathfrak{g}$ is a discrete subgroup.
-> 3. $\exp$ induces a Lie group homomorphism $\mathfrak{g} /\text{ker}\exp\cong G$.
+> 3. $\exp$ induces a Lie group isomorphism $\mathfrak{g} /\text{ker}\exp\cong G$.
 
-> [!proof]+
-> By Propos
+> [!proof]- Proof (Incomplete)
+> By Proposition 2.2 there exists $0\in U\subseteq \mathfrak{g}$ s.t. $\exp(U)\subseteq G$ is open and $\exp:U\to \exp(U)$ is a diffeomorphism. 
+> 1. Then, $\exp$ is a smooth homomorphism by Lemma 1.2 and  $\exp(U)$ is an open neighborhood of $e$ and by [[Topological Group|Proposition 2.4]], $G=\bigcup_{n=1}^{\infty}\exp(U)^n$. Therefore, $\exp$ is surjective.
+> 2. Further, $\exp:U\to \exp(U)$ is injective. Therefore, $\text{ker}\exp \cap\  U=\{ 0 \}$ and $\{ 0 \}$ is open in $\Gamma$. Hence, $\Gamma$ is a discrete subgroup.
+> 3. From isomorphism theorem, we have that 
 ---
 ##### Examples
 > [!h] Example 1 (Matrix Groups)
