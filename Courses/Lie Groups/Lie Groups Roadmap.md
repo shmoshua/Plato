@@ -59,6 +59,9 @@
 2. [[Integral Curve]]
 3. [[Flow]]
 4. [[Lie Derivative]]
+
+**2.5 Correspondence between Lie Algebras and Lie Groups**
+1. 
 ---
 ##### 3. Structure Theory
 ---

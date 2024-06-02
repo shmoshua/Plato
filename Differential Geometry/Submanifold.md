@@ -1,26 +1,23 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M,N$ be a [[smooth manifold]]. 
-> 1. $N$ is an ***immersed submanifold*** of $M$, if there exists $F\in C^\infty(N,M)$ that is an injective [[Differential|immersion]].
-> 2. $N$ is a ***regular submanifold*** of $M$, if there exists $F\in C^\infty(N,M)$ that is an ***embedding***, i.e. $F$ is an injective immersion that is also a [[homeomorphism]] to its image.
----
-
-> [!definition]
-> Let $M$ be a [[smooth manifold]]. A subset $N\subseteq M$ is a ***regular $n$-submanifold***, if for any $p\in N$, there is a chart $(U,\varphi)$ at $p$ s.t. 
-> 1. $\varphi(p)=0$, 
-> 2. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and
-> 3. $\varphi(U\cap N)=\{ x\in (-\varepsilon,\varepsilon)^m: x_{n+1}=\dots=x_{m}=0 \}$
-- **Remark**: For the atlas $\{ (U_{\alpha},\varphi_{\alpha}) \}$ on $M$, $\{ (U_{\alpha}\cap N,\varphi_{\alpha}|_{U_{\alpha}\cap N}) \}_{\alpha}$ defines an atlas on $N$.
+> Let $M,N$ be a [[smooth manifold]] and $\varphi\in C^\infty(N,M)$ an [[Differential|immersion]].
+> 1. $\varphi(N)$ is an ***immersed submanifold*** of $M$, if $\varphi$ is injective.
+> 2. $\varphi(N)$ is a ***embedded submanifold*** of $M$, if $\varphi$ is an injective [[homeomorphism]] to its image.
+> 3. $N\subseteq M$ is a ***regular $n$-submanifold*** of $M$, if for any $p\in N$, there is a chart $(U,\varphi)$ at $p$ s.t. 
+> 	1. $\varphi(p)=0$, 
+> 	2. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and
+> 	3. $\varphi(U\cap N)=\{ x\in (-\varepsilon,\varepsilon)^m: x_{n+1}=\dots=x_{m}=0 \}$
+- **Remark**: For the atlas $\{ (U_{\alpha},\varphi_{\alpha}) \}$ on $M$ and a regular submanifold $N\subseteq M$, $\{ (U_{\alpha}\cap N,\varphi_{\alpha}|_{U_{\alpha}\cap N}) \}_{\alpha}$ defines an atlas on $N$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $M,N$ be smooth manifolds. Then, the following are equivalent:
-> 1. $N$ is a regular $n$-submanifold of $M$ with embedding $F$.
-> 2. for any $p\in N$, there exists a chart $(U,\varphi)$ of $M$ centered at $F(p)$ s.t. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and: $$\varphi(U\cap F(N))=\{ x\in (-\varepsilon,\varepsilon)^m:x_{n+1}=\dots=x_{m}=0 \}$$
+> Let $M$ be a smooth manifold and $N\subseteq M$. Then, the following are equivalent:
+> 1. $N$ is a regular $n$-submanifold of $M$.
+> 2. $N$ is an embedded submanifold of $M$ with the inclusion $i:N\to M$.
 
-> [!proof]-
-> Assume $N$ is a regular $n$-submanifold with embedding $F$. Then, for every open subset $U\subseteq N$, there exists an open subset $V\subseteq M$ s.t. $f(U)\subseteq V\cap f(N)$. Choose charts $(U,\varphi)$ and $(V,\psi)$ at $p$ and $F(p)$ respectively s.t. $f(U)\subseteq V\cap f(N)$ and $\varphi(U)=(-\varepsilon,\varepsilon)^n, \varphi(p)=0$ as well as $\psi(V)=(-\varepsilon,\varepsilon)^m$ with $\psi(f(p))=0$ and: $$\psi F\varphi ^{-1}:(-\varepsilon,\varepsilon)^n\to(-\varepsilon,\varepsilon)^m,\quad x\mapsto(x,0)$$Then, $$\psi(V\cap F(N))=\{ y\in (-\varepsilon,\varepsilon)^m:y_{n+1}=\dots+y_{m}=0 \}$$
+> [!proof]+
+> Assume $N$ is a regular $n$-submanifold of $M$. Then, we want to show
 ---
 > [!lemma] Theorem 2 (Constant Rank Theorem)
 > Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $f\in C^\infty(M,N)$ with constant [[rank]] $k$. 

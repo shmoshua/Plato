@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,8 +80,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -94,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -173,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lattice.md"
+                "file": "Differential Geometry/Submanifold.md"
               }
             }
           }
@@ -302,20 +301,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d4d15bb4f6271f4d",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Lie Group/Lie Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Differential Geometry/Submanifold.md",
     "Lie Group/Exponential Map.md",
-    "Lie Group/Flow.md",
+    "Differential Geometry/Vector Field.md",
     "Representation Theory/Lie Algebra.md",
+    "Lie Group/Lattice.md",
+    "Lie Group/Lie Group.md",
+    "Lie Group/Flow.md",
     "Lie Group/Topological Group.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Tangent Space II.md",
     "Lie Group/Integral Curve.md",
     "Differential Geometry/Smooth Function.md",
     "Lie Group/Ring of Germs.md",
-    "Differential Geometry/Vector Field.md",
-    "Differential Geometry/Submanifold.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Functional Analysis/Unimodular Group.md",
     "Algebra/Unitary Representation.md",
@@ -324,12 +325,10 @@
     "Differential Geometry/Tangent Space.md",
     "Lie Group/One-Parameter Subgroup.md",
     "Lie Group/Homogeneous Space.md",
-    "Lie Group/Lattice.md",
     "Functional Analysis/Haar Measure.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Differential Geometry/Derivation.md",
     "Algebra/Free Group.md",
-    "Representation Theory/Tensor Product.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

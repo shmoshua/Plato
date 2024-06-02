@@ -37,6 +37,7 @@
 > 1. $\exp$ is a surjective smooth homomorphism.
 > 2. $\text{ker}\exp\leq \mathfrak{g}$ is a discrete subgroup.
 > 3. $\exp$ induces a Lie group isomorphism $\mathfrak{g} /\text{ker}\exp\cong G$.
+> 4. there exists a Lie group isomorphism $G\cong \mathbb{T}^a \times \mathbb{R}^{m-a}$ where $\text{dim}(G)=m$.
 
 > [!proof]- Proof (Incomplete)
 > By Proposition 2.2 there exists $0\in U\subseteq \mathfrak{g}$ s.t. $\exp(U)\subseteq G$ is open and $\exp:U\to \exp(U)$ is a diffeomorphism. 
