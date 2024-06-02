@@ -37,6 +37,9 @@
 > 1. $\exp$ is a surjective smooth homomorphism.
 > 2. $\text{ker}\exp\leq \mathfrak{g}$ is a discrete subgroup.
 > 3. $\exp$ induces a Lie group homomorphism $\mathfrak{g} /\text{ker}\exp\cong G$.
+
+> [!proof]+
+> Assume that 
 ---
 ##### Examples
 > [!h] Example 1 (Matrix Groups)
