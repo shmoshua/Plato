@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -172,7 +172,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -301,19 +302,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "33eb575cd9e8d842",
+  "active": "48f8c3894cdb7bf0",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Function.md",
-    "Lie Group/Flow.md",
     "Representation Theory/Lie Algebra.md",
+    "Lie Group/Exponential Map.md",
+    "Lie Group/Flow.md",
+    "Lie Group/Topological Group.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Tangent Space II.md",
-    "Lie Group/Ring of Germs.md",
-    "Lie Group/Exponential Map.md",
-    "Differential Geometry/Vector Field.md",
     "Lie Group/Integral Curve.md",
+    "Differential Geometry/Smooth Function.md",
+    "Lie Group/Ring of Germs.md",
+    "Differential Geometry/Vector Field.md",
     "Differential Geometry/Submanifold.md",
-    "Lie Group/Topological Group.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Lie Group/Lie Group.md",
     "Functional Analysis/Unimodular Group.md",

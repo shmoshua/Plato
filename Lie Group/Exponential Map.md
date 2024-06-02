@@ -29,6 +29,14 @@
 ---
 > [!lemma] Theorem (Cartan)
 > If $G$ is a compact and [[Connected Space|connected]] [[Lie group]], $\exp:\mathfrak{g}\to G$ is surjective.
+
+> [!proof] Proof (Missing)
+---
+> [!lemma] Proposition 4
+> Let $G$ be a connected abelian Lie group. Then,
+> 1. $\exp$ is a surjective smooth homomorphism.
+> 2. $\text{ker}\exp\leq \mathfrak{g}$ is a discrete subgroup.
+> 3. $\exp$ induces a Lie group homomorphism $\mathfrak{g} /\text{ker}\exp\cong G$.
 ---
 ##### Examples
 > [!h] Example 1 (Matrix Groups)

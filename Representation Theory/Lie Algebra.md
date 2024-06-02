@@ -3,6 +3,7 @@
 > [!definition]
 > A ***Lie algebra*** over a [[field]] $K$ is a $K$-[[vector space]] $\mathfrak{g}$ endowed with a skew-symmetric bilinear map $[\cdot,\cdot]:\mathfrak{g}\times \mathfrak{g}\to \mathfrak{g}$, i.e. $[a,b]=-[b,a]$ s.t. 
 > 1. Jacobi identity: $[[a,b],c]+[[b,c],a]+[[c,a],b]=0$ for all $a,b,c\in \mathfrak{g}$ holds.
+- **Related definition**: A Lie algebra $\mathfrak{g}$ is ***abelian*** if $[\cdot,\cdot]=0$.
 - **Related definition**: A ***Lie subalgebra*** of $(\mathfrak{g},[,])$ is a subspace $\mathfrak{a}$ that is stable under $[,]$.
 - **Remark**: Ado’s theorem says that any finite-dimensional Lie algebra is a Lie subalgebra of $\mathfrak{gl}(V)$ for a suitable finite dimensional vector space $V$.
 - **Related definition**: A ***Lie algebra homomorphism*** is a $K$-linear map $\varphi:\mathfrak{g}_{1}\to \mathfrak{g}_{2}$ between $K$-Lie algebras s.t. $\varphi([a,b])=[\varphi(a),\varphi(b)]$.
@@ -37,6 +38,17 @@
 
 > [!proof]-
 > We will show an Lie algebra isomorphism:$$\begin{array}{cccc} {\Psi:}&{\Gamma(\text{T}G)^L\times\Gamma(\text{T}H)^L}&\to&{\Gamma(\text{T}(G\times H))^L}\\&{(X,Y)} &\mapsto & {X\oplus Y} \end{array}{}$$Then, $$\Psi([(X_{1},Y_{1}),(X_{2},Y_{2})])=\Psi([X_{1},X_{2}],[Y_{1},Y_{2}])=[X_{1},X_{2}]\oplus [Y_{1},Y_{2}]=[X_{1}\oplus Y_{1},X_{2}\oplus Y_{2}]$$Therefore, $\Psi$ is a Lie algebra homomorphism
+---
+> [!lemma] Proposition 4
+> Let $G$ be a connected Lie group. Then the following are equivalent:
+> 1. $G$ is abelian.
+> 2. $\mathfrak{g}$ is abelian.
+
+> [!proof]-
+> Assume that $G$ is abelian. Then, for any $v,w\in \mathfrak{g}$, $$\varphi_{v^L}(s)\varphi_{w^L}(t)=\varphi_{w^L}(t)\varphi_{v^L}(s),\quad \forall s,t\in \mathbb{R}$$Therefore, $\Phi^s_{v^L}$ and $\Phi_{w^L}^t$ commute for all $s,t\in \mathbb{R}$. By [[Flow|Proposition 3]], $[v^L,w^L]=0$ and $[v,w]=0$ in $\mathfrak{g}$.
+> 
+> Conversely, assume that $\mathfrak{g}$ is abelian. By [[Exponential Map|Lemma 1.2]], $\exp$ is a smooth homomorphism. Then, by [[Exponential Map|Proposition 2.2]], there exists $0\in U\subseteq \mathfrak{g}$ open s.t. $\exp(U)\subseteq G$ is an open neighborhood of $e$. By [[Topological Space|Proposition 2.4]], $G$ is abelian.
+
 ---
 ##### Examples 
 > [!h] Example 1
