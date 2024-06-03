@@ -73,6 +73,7 @@
 1. [[Ideal (Lie Algebra)]]
 2. [[Lie Group Representation]]
 3. [[Lie Algebra Representation]]
+4. [[Adjoint Representation]]
 ---
 ##### 3. Structure Theory
 ---

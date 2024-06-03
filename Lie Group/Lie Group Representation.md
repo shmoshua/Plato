@@ -21,3 +21,6 @@
 > 
 ---
 ![[Lie Algebra Representation#^c6ed8f]]
+
+---
+>

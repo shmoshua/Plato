@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md"
+                "file": "Lie Group/Adjoint Representation.md"
               }
             }
           }
@@ -266,8 +266,10 @@
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
     "Algebra/Inner Automorphism.md",
-    "Representation Theory/Lie Algebra Representation.md",
+    "Lie Group/Adjoint Representation.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Lie Group Representation.md",
+    "Representation Theory/Lie Algebra Representation.md",
     "Representation Theory/Representation.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/No Small Subgroup (NSS).md",
@@ -275,7 +277,6 @@
     "Differential Geometry/Lie Bracket.md",
     "Algebra/Orbit and Stablizer.md",
     "Lie Group/Ideal (Lie Algebra).md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Lie Group.md",
     "Algebra/Ideal.md",
     "Lie Group/Exponential Map.md",
@@ -290,7 +291,6 @@
     "Topology/Semi-Locally Simply Connected Space.md",
     "Lie Group/Lie Subgroup.md",
     "Topology/Topological Vector Space with Seminorms.md",
-    "Lie Group/Flow.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
