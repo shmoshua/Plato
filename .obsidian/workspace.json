@@ -112,6 +112,18 @@
             }
           },
           {
+            "id": "98f3fed9db0bcb29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Smooth Function.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d4d15bb4f6271f4d",
             "type": "leaf",
             "state": {
@@ -301,10 +313,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "b94365c84992be39",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Submanifold.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Exponential Map.md",
     "Differential Geometry/Vector Field.md",
     "Representation Theory/Lie Algebra.md",
@@ -315,7 +328,6 @@
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Tangent Space II.md",
     "Lie Group/Integral Curve.md",
-    "Differential Geometry/Smooth Function.md",
     "Lie Group/Ring of Germs.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Functional Analysis/Unimodular Group.md",
