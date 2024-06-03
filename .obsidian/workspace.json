@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Inner Automorphism.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -265,13 +265,16 @@
   },
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Algebra/Inner Automorphism.md",
+    "Lie Group/Exponential Map.md",
+    "Differential Geometry/Vector Field.md",
+    "Representation Theory/Lie Algebra.md",
     "Lie Group/Adjoint Representation.md",
+    "Differential Geometry/Differential.md",
+    "Algebra/Inner Automorphism.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Lie Group Representation.md",
     "Representation Theory/Lie Algebra Representation.md",
     "Representation Theory/Representation.md",
-    "Representation Theory/Lie Algebra.md",
     "Lie Group/No Small Subgroup (NSS).md",
     "Functional Analysis/Group Representation.md",
     "Differential Geometry/Lie Bracket.md",
@@ -279,10 +282,8 @@
     "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Lie Group.md",
     "Algebra/Ideal.md",
-    "Lie Group/Exponential Map.md",
     "Lie Group/Ring of Germs.md",
     "Topology/Compact Metric Space.md",
-    "Differential Geometry/Differential.md",
     "Algebra/General Linear Group.md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Integral Curve.md",
@@ -290,7 +291,6 @@
     "Topology/Product Topology.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Lie Group/Lie Subgroup.md",
-    "Topology/Topological Vector Space with Seminorms.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
