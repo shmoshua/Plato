@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -253,13 +253,13 @@
   },
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
+    "Lie Group/Topological Group.md",
+    "Differential Geometry/Smooth Function.md",
+    "Lie Group/Adjoint Representation.md",
     "Differential Geometry/Differential.md",
     "Representation Theory/Representation.md",
-    "Lie Group/Topological Group.md",
     "Lie Group/Exponential Map.md",
-    "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Vector Field.md",
-    "Lie Group/Adjoint Representation.md",
     "Representation Theory/Lie Algebra.md",
     "Algebra/Inner Automorphism.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
