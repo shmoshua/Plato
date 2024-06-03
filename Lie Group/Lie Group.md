@@ -21,7 +21,7 @@
 ---
 > [!lemma] Theorem 2 (Cartan)
 > Let $G$ be a Lie group and $H\leq G$ a closed subgroup. Then, 
-> 1. $H$ is a regular submanifold of $G$.
+> 1. $H$ is a [[Submanifold|regular submanifold]] of $G$.
 > 2. $H$ is a Lie group.
 
 > [!proof]+
@@ -36,8 +36,18 @@
 > 	- $\lim_{ n \to \infty }nv_{n}=\lim_{ n \to \infty }n\gamma\left( \frac{1}{n} \right)=\lim_{ n \to \infty }\frac{\gamma\left( \frac{1}{n} \right)-\gamma(0)}{\frac{1}{n}-0}=\gamma'(0)=\xi+\eta\neq 0$. Therefore, there exists some $N\in \mathbb{N}$ s.t. $v_{n}\neq 0$ for all $n\geq N$.
 > 	  
 > 	Then,$$\lim_{ n \to \infty }\pi(v_{n})=\lim_{ n \to \infty }\frac{\gamma\left( \frac{1}{n} \right)}{\|\gamma\left( \frac{1}{n} \right)\|}\overset{ \text{L'Hopital} }{ = }\frac{\gamma'(0)}{\left\| \gamma'(0) \right\| }=\pi(\xi+\eta)$$Therefore, $\xi+\eta\in W$.
->4. **Claim: There exists an open $U\ni 0$ in $\mathfrak{g}$ and a diffeomorphism $\Phi:U\to \Phi(U)$ where $\Phi(U)\subseteq G$ is open and $\Phi(0)=e$ s.t. $\Phi(U\cap W)=\Phi(U)\cap H$.**
->   Let $W'$ be the orthogonal complement of $W$ in $\mathfrak{g}$, i.e. $\mathfrak{g}=W\oplus W'$. Then, let $\text{pr}_{W},\text{pr}_{W'}$ be the projections of $\mathfrak{g}$ onto $W$ and $W'$. We claim that the map: $$\varphi:\mathfrak{g}\to G,\quad \xi\mapsto \exp \text{pr}_{W}(\xi)\exp \text{pr}_{W'}(\xi)$$has derivative $\text{id}_{\mathfrak{g}}$ at $\xi=0$. Indeed, $$d_{0}\varphi(v)=d_{0}\exp \text{pr}_{W}(v)+d_{0}\exp \text{pr}_{W'}(v)=\text{pr}_{W}(v)+\text{pr}_{W'}(v)=v$$Therefore, by [[Differential|Inverse Function Theorem]], there exists an open set $U\ni 0$ s.t. $\Phi=\varphi|_{U}$ is a diffeomorphism to its on image. Clearly $\Phi(0)=e$ and $\Phi(U\cap W)\subseteq \Phi(U)\cap H$
+> 4. **Claim: There exists an open $U\ni 0$ in $\mathfrak{g}$ and a diffeomorphism $\Phi:U\to \Phi(U)$ where $\Phi(U)\subseteq G$ is open and $\Phi(0)=e$ s.t. $\Phi(U\cap W)=\Phi(U)\cap H$.**
+>    Let $W'$ be the orthogonal complement of $W$ in $\mathfrak{g}$, i.e. $\mathfrak{g}=W\oplus W'$. Then, let $\text{pr}_{W},\text{pr}_{W'}$ be the projections of $\mathfrak{g}$ onto $W$ and $W'$. We claim that the map: $$\varphi:\mathfrak{g}\to G,\quad \xi\mapsto \exp \text{pr}_{W}(\xi)\exp \text{pr}_{W'}(\xi)$$has derivative $\text{id}_{\mathfrak{g}}$ at $\xi=0$. Indeed, $$d_{0}\varphi(v)=d_{0}\exp \text{pr}_{W}(v)+d_{0}\exp \text{pr}_{W'}(v)=\text{pr}_{W}(v)+\text{pr}_{W'}(v)=v$$Therefore, by [[Differential|Inverse Function Theorem]], there exists an open set $V\ni 0$ s.t. $\Phi=\varphi|_{V}$ is a diffeomorphism to its on image. Clearly $\Phi(0)=e$ and $\Phi(V\cap W)\subseteq \Phi(V)\cap H$.
+>    
+>    It is left to show that there exists $U$ s.t. $\Phi(U\cap W)=\Phi(U)\cap W$. Assume that there exists a sequence $(U_{n})_{n\geq 1}$ open subsets of $V$ s.t.
+> 	1. $0\in U_{n}$,
+> 	2. $U_{n}\subseteq U_{n-1}$
+> 	3. $\Phi(U_{n}\cap W)\subsetneq \Phi(U_{n})\cap H$
+> 	4. $\bigcap_{n\geq 1}^{}U_{n}=\{ 0 \}$
+> 	
+> 	From 3, we get for every $n\geq 1$ a vector $v_{n}+v_{n}'\in U_{n}$ s.t. $v_{n}\in W$, $v'_{n}\in W'$ and $v'_{n}\neq 0$. Further, $$\exp(v_{n})\exp(v_{n}')\in H$$hence $\exp(v'_{n})\in H$. As $S^1$ is compact, passing to a subsequence, we may assume that $$\xi:=\lim_{ n \to \infty } \pi(v'_{n})\in S^1$$exists. Since $v_{n}+v_{n}'\in U_{n}$ and $\bigcap_{n\geq 1}^{}U_{n}=\{ 0 \}$, we get that $\lim_{ n \to \infty }\|v'_{n}\|=0$. Therefore, $\xi\in W$. On the other hand, $$\xi=\lim_{ n \to \infty } \frac{v'_{n}}{\left\| v'_{n} \right\| }\in W'$$Therefore, $\xi\in W\cap W'=(0)$, which is a contradiction.
+>   
+>
 ---
 ##### Examples
 > [!h] Example 1

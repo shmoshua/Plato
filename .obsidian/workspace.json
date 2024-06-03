@@ -76,36 +76,12 @@
             }
           },
           {
-            "id": "b94365c84992be39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Exponential Map.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98f3fed9db0bcb29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/General Linear Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d4d15bb4f6271f4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Topology/Compact Metric Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -289,11 +265,12 @@
   },
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
+    "Topology/Compact Metric Space.md",
     "Differential Geometry/Differential.md",
     "Lie Group/Lie Group.md",
+    "Lie Group/Exponential Map.md",
     "Algebra/General Linear Group.md",
     "Lie Group/No Small Subgroup (NSS).md",
-    "Lie Group/Exponential Map.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Local Homomorphism.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
@@ -314,7 +291,6 @@
     "Differential Geometry/Tangent Space II.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Functional Analysis/Unimodular Group.md",
-    "Algebra/Unitary Representation.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
