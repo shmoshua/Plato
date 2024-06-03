@@ -48,7 +48,14 @@
 > Assume that $G$ is abelian. Then, for any $v,w\in \mathfrak{g}$, $$\varphi_{v^L}(s)\varphi_{w^L}(t)=\varphi_{w^L}(t)\varphi_{v^L}(s),\quad \forall s,t\in \mathbb{R}$$Therefore, $\Phi^s_{v^L}$ and $\Phi_{w^L}^t$ commute for all $s,t\in \mathbb{R}$. By [[Flow|Proposition 3]], $[v^L,w^L]=0$ and $[v,w]=0$ in $\mathfrak{g}$.
 > 
 > Conversely, assume that $\mathfrak{g}$ is abelian. By [[Exponential Map|Lemma 1.2]], $\exp$ is a smooth homomorphism. Then, by [[Exponential Map|Proposition 2.2]], there exists $0\in U\subseteq \mathfrak{g}$ open s.t. $\exp(U)\subseteq G$ is an open neighborhood of $e$. By [[Topological Space|Proposition 2.4]], $G$ is abelian.
+---
+> [!lemma] Theorem 5
+> Let $G,H$ be Lie groups with $\pi:\mathfrak{g}\to \mathfrak{h}$ a Lie algebra homomorphism. Then, 
+> 1. there exists a [[Local Homomorphism|local Lie group homomorphism]] $\varphi:U\to H$ s.t. $d_{e}\varphi=\pi$.
+> 2. if $\pi$ is an isomorphism, then $\varphi$ is a local isomorphism.
 
+> [!proof]+
+> Consider $\text{graph}(\pi)\subseteq \mathfrak{g}\times \mathfrak{h}$. Then, we claim that $\text{graph}(\pi)$ is a Lie subalgebra of $\mathfrak{g}\times \mathfrak{h}$. Indeed, $$[(v,\pi(v)),(w,\pi(v))]=([v,w],\pi([v,w]))\subseteq \text{graph}(\pi)$$Then, by [[Lie Subgroup|Theorem 1]], there exists a unique connected Lie subgroup $K\leq G\times H$ with Lie algebra $\mathfrak{k}$ s.t. $\mathfrak{k}=\text{graph}(\pi)$. Therefore, we have the diagram: $$\begin{CD}K@>>>G\times H@>\text{pr}_{G}>>G\\@A\exp AA@A\exp AA@A\exp AA\\\text{graph}(\pi)@>>>\mathfrak{g}\times \mathfrak{h} @>d_{e}\text{pr}_{G}=\text{pr}_{\mathfrak{g}}>> \mathfrak{g}\end{CD}$$By construction $\text{pr}_{G}|_{K}:K\to G$ is a Lie group homomorphism and for its derivative: $$d_{e}(\text{pr}_{G}|_{K})=\text{pr}_{\mathfrak{g}}|_{\text{graph}(\pi)}$$is an isomorphism. Therefore, by [[Differential|Inverse Function Theorem]], there exists an open neighborhood $0\in U\subseteq K$ s.t. $\text{pr}_{G}|_{U}:U\to \text{pr}_{G}(U)$ is a diffeomorphism.
 ---
 ##### Examples 
 > [!h] Example 1

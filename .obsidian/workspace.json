@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,19 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "57846582d0a0a0e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -226,7 +214,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "weil",
+                "query": "inverse function theorem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -243,7 +231,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -327,20 +316,20 @@
   },
   "active": "cf533573fd02a363",
   "lastOpenFiles": [
-    "Lie Group/Local Homomorphism.md",
+    "Differential Geometry/Differential.md",
     "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Smooth Distribution.md",
     "Lie Group/Lie Subgroup.md",
+    "Lie Group/Exponential Map.md",
+    "Lie Group/Local Homomorphism.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Differential Geometry/Smooth Distribution.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Lie Group/Integral Curve.md",
     "Lie Group/Flow.md",
     "Lie Group/Lattice.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Lie Bracket.md",
     "Lie Group/Topological Group.md",
     "Lie Group/Ring of Germs.md",
-    "Differential Geometry/Differential.md",
-    "Lie Group/Exponential Map.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Vector Field.md",
