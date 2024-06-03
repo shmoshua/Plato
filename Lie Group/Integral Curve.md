@@ -26,4 +26,3 @@
 > 3. We have: $$\gamma_{v}(t_{1}+t_{2})=\gamma_{v}(t_{2}+t_{1})=\Phi_{v^L}(t_{2}+t_{1},e)=\Phi_{v^L}(t_{2},\Phi_{v^L}(t_{1},e))=\Phi_{v^L}(t_{2},\gamma_{v}(t_{1}))=\gamma_{v}(t_{1})\cdot \gamma_{v}(t_{2})$$
 > 4. Let $v:=\varphi'(0)\in \text{T}_{e}G$ and $v^L$ the corresponding vector field. Then, we have: $$\varphi'(t)=\left. \frac{d}{ds} \right| _{s=0}\varphi(t+s)=\left. \frac{d}{ds} \right| _{s=0}\varphi(t)\varphi(s)=\left. \frac{d}{ds} \right| _{s=0}(L_{\varphi(t)}\circ \varphi)(s)=dL_{\varphi(t)}(v)=v^L_{\varphi(t)}$$Therefore, $\varphi(t)$ is an integral curve of $v^L$ through $e$ and by uniqueness, $\varphi=\gamma_{\varphi'(0)}$.
 ---
-\

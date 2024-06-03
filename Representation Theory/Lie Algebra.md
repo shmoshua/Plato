@@ -1,4 +1,4 @@
-#Definition #RepresentationTheory #LieGroups 
+#Definition #LieGroups
 
 > [!definition]
 > A ***Lie algebra*** over a [[field]] $K$ is a $K$-[[vector space]] $\mathfrak{g}$ endowed with a skew-symmetric bilinear map $[\cdot,\cdot]:\mathfrak{g}\times \mathfrak{g}\to \mathfrak{g}$, i.e. $[a,b]=-[b,a]$ s.t. 
