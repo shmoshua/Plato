@@ -71,6 +71,8 @@
 
 **2.7 The Adjoint Representation**
 1. [[Ideal (Lie Algebra)]]
+2. [[Lie Group Representation]]
+3. [[Lie Algebra Representation]]
 ---
 ##### 3. Structure Theory
 ---

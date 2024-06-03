@@ -10,10 +10,10 @@
 > 1. $\mathfrak{g} / \mathfrak{n}$ can be endowed a Lie algebra structure.
 > 2. $\pi:\mathfrak{g}\to \mathfrak{g} / \mathfrak{n}$ is a Lie algebra homomorphism with $\text{ker }\pi=\mathfrak{n}$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Define $[a+\mathfrak{n},b+\mathfrak{n}]:=[a,b]+\mathfrak{n}$. This is well-defined as, if we have $a_{1}+\mathfrak{n}=a_{2}+\mathfrak{n}$ and $b_{1}+\mathfrak{n}=b_{2}+\mathfrak{n}$, then: $$[a_{1},b_{1}]-[a_{2},b_{2}]=\underbrace{ [a_{1}-a_{2},b_{1}] }_{ \in \mathfrak{n} }+\underbrace{ [a_{2},b_{1}-b_{2}] }_{ \in \mathfrak{n} }\in \mathfrak{n}$$Further, $[b+\mathfrak{n},a+\mathfrak{n}]=[b,a]+\mathfrak{n}=-[a,b]+\mathfrak{n}=-[a+\mathfrak{n},b+\mathfrak{n}]$. This proves the statement.
-> 2. Shown in 1 with: $$\text{ker }\pi=\{  \}$$
+> 2. Shown in 1 with: $$\text{ker }\pi=\{ v\in \mathfrak{g}:v+\mathfrak{n}=\mathfrak{n} \}=\mathfrak{n}$$
 ---
 ##### Examples
 > [!h] Example 1 (Kernel)
