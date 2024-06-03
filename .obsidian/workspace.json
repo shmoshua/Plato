@@ -55,30 +55,6 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "cf533573fd02a363",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/General Linear Group.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "976a4dbb46a7ccdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/No Small Subgroup (NSS).md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ]
       },
@@ -129,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -311,20 +287,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Lie Group/Exponential Map.md",
+    "Differential Geometry/Differential.md",
     "Lie Group/Lie Group.md",
+    "Algebra/General Linear Group.md",
+    "Lie Group/No Small Subgroup (NSS).md",
+    "Lie Group/Exponential Map.md",
+    "Representation Theory/Lie Algebra.md",
     "Lie Group/Local Homomorphism.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Integral Curve.md",
     "Differential Geometry/Smooth Distribution.md",
-    "Lie Group/No Small Subgroup (NSS).md",
     "Topology/Product Topology.md",
     "Lie Group/Ring of Germs.md",
-    "Differential Geometry/Differential.md",
-    "Representation Theory/Lie Algebra.md",
-    "Algebra/General Linear Group.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Lie Group/Lie Subgroup.md",
     "Topology/Topological Vector Space with Seminorms.md",
