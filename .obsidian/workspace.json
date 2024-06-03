@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra Representation.md",
+                "file": "Algebra/Inner Automorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md",
+                "file": "Representation Theory/Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -129,14 +129,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/No Small Subgroup (NSS).md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra Representation.md",
+                "file": "Lie Group/Lie Group Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra Representation.md",
+                "file": "Lie Group/Lie Group Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra Representation.md"
+                "file": "Lie Group/Lie Group Representation.md"
               }
             }
           }
@@ -264,24 +263,26 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d4d15bb4f6271f4d",
+  "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Algebra/Orbit and Stablizer.md",
-    "Lie Group/Lie Group Representation.md",
+    "Algebra/Inner Automorphism.md",
     "Representation Theory/Lie Algebra Representation.md",
+    "Lie Group/Lie Group Representation.md",
+    "Representation Theory/Representation.md",
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/No Small Subgroup (NSS).md",
+    "Functional Analysis/Group Representation.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Algebra/Orbit and Stablizer.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Differential Geometry/Lie Bracket.md",
     "Lie Group/Lie Group.md",
-    "Functional Analysis/Group Representation.md",
-    "Representation Theory/Lie Algebra.md",
     "Algebra/Ideal.md",
     "Lie Group/Exponential Map.md",
     "Lie Group/Ring of Germs.md",
     "Topology/Compact Metric Space.md",
     "Differential Geometry/Differential.md",
     "Algebra/General Linear Group.md",
-    "Lie Group/No Small Subgroup (NSS).md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Integral Curve.md",
     "Differential Geometry/Smooth Distribution.md",
@@ -290,8 +291,6 @@
     "Lie Group/Lie Subgroup.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Lie Group/Flow.md",
-    "Lie Group/Lattice.md",
-    "Lie Group/Topological Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
