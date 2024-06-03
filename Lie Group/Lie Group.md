@@ -19,6 +19,14 @@
 > 2. For any $h\in H$, let $V\subseteq G$ be the neighborhood with $H\cap V=\overline{H}\cap V$. As $\overline{H}\leq G$, for any $x\in \overline{H}$, $Hx\cap Vx=\overline{H}\cap Vx$ which is contained in $Hx$ and open in $\overline{H}$. Therefore, $Hx$ is open and dense in $\overline{H}$.
 > 3. Therefore, for any $x\in \overline{H}$, $Hx\cap H$ is non-empty. Therefore, $gx\in H$ for $g\in H$ and this shows that $x\in H$. One sees that $\overline{H}=H$.
 ---
+> [!lemma] Theorem 2 (Cartan)
+> Let $G$ be a Lie group and $H\leq G$ a closed subgroup. Then, 
+> 1. $H$ is a regular submanifold of $G$.
+> 2. $H$ is a Lie group.
+
+> [!proof]+
+> 
+---
 ##### Examples
 > [!h] Example 1
 > A discrete group is a Lie group if and only if it is countable, in which case the dimension is $0$.

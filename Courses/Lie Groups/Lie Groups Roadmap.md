@@ -63,6 +63,11 @@
 **2.5 Correspondence between Lie Algebras and Lie Groups**
 1. [[Submanifold]]
 2. [[Lie Subgroup]]
+3. [[Local Homomorphism]]
+4. [[No Small Subgroup (NSS)]]
+
+**2.6 Cartan's Theorem on Closed Subgroups**
+1. [[Lie Group|Cartan's Theorem]]
 ---
 ##### 3. Structure Theory
 ---

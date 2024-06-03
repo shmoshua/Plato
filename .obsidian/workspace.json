@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Distribution.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,8 +80,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -94,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Ring of Germs.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -183,21 +182,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "87b4e2eb97cbaeee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Product Topology.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -263,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/No Small Subgroup (NSS).md",
+                "file": "Lie Group/Lie Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/No Small Subgroup (NSS).md",
+                "file": "Lie Group/Lie Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/No Small Subgroup (NSS).md"
+                "file": "Lie Group/Lie Group.md"
               }
             }
           }
@@ -325,30 +311,30 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5beab828f6abb162",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Lie Group.md",
+    "Lie Group/Integral Curve.md",
+    "Differential Geometry/Smooth Distribution.md",
     "Lie Group/Exponential Map.md",
-    "Lie Group/Local Homomorphism.md",
-    "Topology/Product Topology.md",
     "Lie Group/No Small Subgroup (NSS).md",
+    "Topology/Product Topology.md",
+    "Lie Group/Ring of Germs.md",
+    "Lie Group/Local Homomorphism.md",
     "Differential Geometry/Differential.md",
     "Representation Theory/Lie Algebra.md",
     "Algebra/General Linear Group.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Lie Group/Lie Subgroup.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Differential Geometry/Smooth Distribution.md",
     "Topology/Topological Vector Space with Seminorms.md",
-    "Lie Group/Integral Curve.md",
     "Lie Group/Flow.md",
     "Lie Group/Lattice.md",
     "Differential Geometry/Lie Bracket.md",
     "Lie Group/Topological Group.md",
-    "Lie Group/Ring of Germs.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Vector Field.md",
-    "Lie Group/Lie Group.md",
     "Differential Geometry/Tangent Space II.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Functional Analysis/Unimodular Group.md",
