@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -313,15 +313,15 @@
   },
   "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Exponential Map.md",
     "Lie Group/Lie Group.md",
+    "Lie Group/Local Homomorphism.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Integral Curve.md",
     "Differential Geometry/Smooth Distribution.md",
-    "Lie Group/Exponential Map.md",
     "Lie Group/No Small Subgroup (NSS).md",
     "Topology/Product Topology.md",
     "Lie Group/Ring of Germs.md",
-    "Lie Group/Local Homomorphism.md",
     "Differential Geometry/Differential.md",
     "Representation Theory/Lie Algebra.md",
     "Algebra/General Linear Group.md",

@@ -25,7 +25,16 @@
 > 2. $H$ is a Lie group.
 
 > [!proof]+
-> 
+> Let $H\leq G$ be a closed subgroup. As $\mathfrak{g}$ is a vector space, we can define a norm $\|\cdot\|$ on $\mathfrak{g}$. Let $S^1:=\{ v\in \mathfrak{g}:\|v\|=1 \}$ and: $$\pi:\mathfrak{g} \backslash \{ 0 \}\to S^1,\quad v\mapsto v /\|v\|$$the projection map. We also define: $$W:=\{ 0 \}\cup \{ \xi\in \mathfrak{g} \backslash\{ 0 \}: \exists(v_{n})_{n\geq 1}\subseteq \mathfrak{g}\backslash\{ 0 \},\exp(v_{n})\in H,\lim_{ n \to \infty } v_{n}=0,\lim_{ n \to \infty } \pi(v_{n})=\pi(\xi) \}$$
+> 1. **Showing $W$ is a cone**:
+>    For $0\neq \xi\in W$ and $\lambda\geq 0$, $\pi(\xi)=\pi(\lambda \xi)$.
+>  2. **Showing that $\exp(W)\subseteq H$**:
+>     Firstly, $\exp(0)=e\in H$. Let $0\neq \xi\in W$ with $(v_{n})_{n\geq 1}$. Then, $\lim_{ n \to \infty } \frac{v_{n}}{\|v_{n}\|}= \frac{\xi}{\left\| \xi \right\|}$ and $$\lim_{ n \to \infty } \frac{\|\xi\|}{\left\| v_{n} \right\| }v_{n}=\xi$$Let $a_{n}:=\left[ \frac{\|\xi\|}{\|v_{n}\|} \right]$ be the integer part of $\|\xi\| / \|v_{n}\|$. Then, we claim that $\lim_{ n \to \infty }a_{n}v_{n}=\xi$. Indeed, $$\left\| \frac{\left\| \xi \right\|}{\left\| v_{n} \right\| }v_{n}-a_{n}v_{n}  \right\|=\left| \frac{\left\| \xi \right\|}{\left\| v_{n} \right\| }-a_{n}  \right|\left\| v_{n} \right\| \leq \left\| v_{n} \right\|   $$and $\lim_{ n \to \infty }\left\| v_{n} \right\|=0$. Therefore, $$\exp(\xi)=\lim_{ n \to \infty } \exp(a_{n}v_{n})=\lim_{ n \to \infty } (\exp(v_{n}))^{a_{n}}\in H$$
+>  3. **Showing that $W$ is a vector subspace of $\mathfrak{g}$:**
+> 	Let $\xi,\eta\in W$ s.t. $\xi,\eta,\xi+\eta$ are all non-zero. Then, by 1 and 2, we have:$$\exp(t\xi)\cdot \exp(t\eta)\in H,\quad \forall t\in \mathbb{R}$$As $\exp$ gives a local chart of $e$ (cf. [[Exponential Map|Proposition 2.2]]), there exists $I_{\delta}:=(-\delta,\delta)$ for $\delta>0$ and a smooth curve $\gamma:I_{\delta}\to \mathfrak{g}$ s.t. $\gamma(0)=0$ and $$\exp(\gamma(t))=\exp(t\xi)\exp(t\eta),\quad \forall t\in I_{\delta}$$Then, we get: $$\gamma'(0)=d_{0}\exp(\gamma'(0))=\left. \frac{d}{dt} \right| _{t=0}\exp(\gamma(t))=d_{0}\exp(\xi)+d_{0}\exp(\eta)=\xi+\eta$$by [[Exponential Map|Proposition 2.1]]. Now define $v_{n}:= \gamma\left( \frac{1}{n} \right)$ for $n\geq \frac{1}{\delta}$. Then, 
+> 	- $\lim_{ n \to \infty }v_{n}=\lim_{ n \to \infty }\gamma\left( \frac{1}{n} \right)=\gamma(0)=0$.
+> 	- $\lim_{ n \to \infty }nv_{n}=\lim_{ n \to \infty }n\gamma\left( \frac{1}{n} \right)=\lim_{ n \to \infty }\frac{\gamma\left( \frac{1}{n} \right)-\gamma(0)}{\frac{1}{n}-0}=\gamma'(0)=\xi+\eta\neq 0$. Therefore, there exists some $N\in \mathbb{N}$ s.t. $v_{n}\neq 0$ for all $n\geq N$.
+> 	- $\lim_{ n \to \infty }\pi(v_{n})=\lim_{ n \to \infty }\pi\left( \gamma\left(  \frac{1}{n} \right) \right)=$
 ---
 ##### Examples
 > [!h] Example 1
