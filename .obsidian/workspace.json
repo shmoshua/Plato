@@ -88,18 +88,6 @@
             }
           },
           {
-            "id": "1d2a6cdf30df92d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Representation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a982082d3e9feea3",
             "type": "leaf",
             "state": {
@@ -129,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -265,16 +253,18 @@
   },
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Lie Group/Exponential Map.md",
-    "Differential Geometry/Vector Field.md",
-    "Representation Theory/Lie Algebra.md",
-    "Lie Group/Adjoint Representation.md",
     "Differential Geometry/Differential.md",
+    "Representation Theory/Representation.md",
+    "Lie Group/Topological Group.md",
+    "Lie Group/Exponential Map.md",
+    "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Vector Field.md",
+    "Lie Group/Adjoint Representation.md",
+    "Representation Theory/Lie Algebra.md",
     "Algebra/Inner Automorphism.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Lie Group Representation.md",
     "Representation Theory/Lie Algebra Representation.md",
-    "Representation Theory/Representation.md",
     "Lie Group/No Small Subgroup (NSS).md",
     "Functional Analysis/Group Representation.md",
     "Differential Geometry/Lie Bracket.md",
@@ -289,8 +279,6 @@
     "Lie Group/Integral Curve.md",
     "Differential Geometry/Smooth Distribution.md",
     "Topology/Product Topology.md",
-    "Topology/Semi-Locally Simply Connected Space.md",
-    "Lie Group/Lie Subgroup.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
