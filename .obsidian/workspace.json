@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Representation Theory/Lie Algebra Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -135,7 +135,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md",
+                "file": "Representation Theory/Lie Algebra Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md",
+                "file": "Representation Theory/Lie Algebra Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md"
+                "file": "Representation Theory/Lie Algebra Representation.md"
               }
             }
           }
@@ -263,11 +264,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "33eb575cd9e8d842",
+  "active": "d4d15bb4f6271f4d",
   "lastOpenFiles": [
     "Algebra/Orbit and Stablizer.md",
-    "Representation Theory/Lie Algebra Representation.md",
     "Lie Group/Lie Group Representation.md",
+    "Representation Theory/Lie Algebra Representation.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Lie Bracket.md",
