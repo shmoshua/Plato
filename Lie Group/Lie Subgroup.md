@@ -12,3 +12,6 @@
 > [!lemma] Theorem 1 (Lie group Lie algebra Correspondence)
 > Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$. For any Lie subalgebra $\tilde{\mathfrak{h}}\subseteq \mathfrak{g}$, 
 > 1. there exists a unique (up to equivalence) [[Connected Space|connected]] Lie subgroup $(H,\varphi)$ of $G$ with Lie algebra $\mathfrak{h}$ s.t. $d_{e}\varphi(\mathfrak{h})=\tilde{\mathfrak{h}}$.
+
+> [!proof]+
+> Let's define a [[smooth distribution]] on $G$ by setting: $$\mathcal{D}_{g}:=\{ v^L_{g}:v\in \tilde{\mathfrak{h}} \}\subseteq \text{T}_{g}G$$

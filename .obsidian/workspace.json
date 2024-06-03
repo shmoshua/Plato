@@ -62,13 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Flow.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -117,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Lie Group/Integral Curve.md",
                 "mode": "preview",
                 "source": false
               }
@@ -170,9 +171,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5beab828f6abb162",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differential.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -238,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Smooth Distribution.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Smooth Distribution.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Smooth Distribution.md"
+                "file": "Lie Group/Lie Subgroup.md"
               }
             }
           }
@@ -300,29 +313,29 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "cf533573fd02a363",
   "lastOpenFiles": [
     "Lie Group/Flow.md",
+    "Lie Group/Lie Subgroup.md",
+    "Differential Geometry/Smooth Distribution.md",
+    "Lie Group/Integral Curve.md",
+    "Lie Group/Lattice.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Lie Group/Topological Group.md",
+    "Lie Group/Ring of Germs.md",
+    "Differential Geometry/Differential.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Exponential Map.md",
-    "Differential Geometry/Smooth Distribution.md",
-    "Lie Group/Lattice.md",
-    "Lie Group/Integral Curve.md",
-    "Lie Group/Lie Subgroup.md",
     "Differential Geometry/Smooth Function.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Vector Field.md",
     "Lie Group/Lie Group.md",
-    "Lie Group/Topological Group.md",
-    "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Tangent Space II.md",
-    "Lie Group/Ring of Germs.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Functional Analysis/Unimodular Group.md",
     "Algebra/Unitary Representation.md",
     "Measure Theory/Diffeomorphism.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Space.md",
     "Lie Group/One-Parameter Subgroup.md",
     "Lie Group/Homogeneous Space.md",

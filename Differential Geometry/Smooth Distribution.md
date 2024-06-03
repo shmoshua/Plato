@@ -10,10 +10,14 @@
 - **Related definition**: A smooth distribution $\mathcal{D}$ is called 
 	1. ***involutive*** if for any local basis $X_{1},\dots,X_{n}$ on $U\ni p$, $[X_{i},X_{j}]_{p}\in \mathcal{D}_{p}$ for all $i,j\in [n]$.
 	2. ***completely integrable*** if it admits an integral submanifold through each point.
+- **Related definition**: A ***maximal integral manifold*** $(N,\varphi)$ of a distribution $\mathcal{D}$ on a manifold $M$ is a connected integral submanifold of $\mathcal{D}$ whose image in $M$ is not a proper subset of any other connected integral manifold of $\mathcal{D}$.
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Frobenius)
 > A smooth distribution $\mathcal{D}$ is completely integrable if and only if it is involutive.
+---
+> [!lemma] Theorem 2
+> Given an involutive distribution $\mathcal{D}$ on $M$ and $p\in M$, there exists a unique maximal integral submanifold through $p$. 
 ---
 ##### Examples
 > [!h] Example 1
@@ -29,9 +33,11 @@
  > We have that: $$[\partial_{x},\partial_{y}+x\partial_{z}]=[\partial_{x},\partial_{y}]+[\partial _{x},x\partial_{z}]=0+\partial_{x}(x\partial_z)-x\partial_{z}\partial_{x}=\partial_{z}+x\partial_{x}\partial_{z}-x\partial_{z}\partial_{x}=\partial_{z}$$which is not in the span.
  ---
  > [!h] Example 3
- > Let $X$ be a complete smooth vector field of $M$. Then, 
+ > Let $X$ be a non-vanishing complete smooth vector field of $M$. Then, 
  > 1. $\mathcal{D}:=\text{span}(X)$ is a smooth $1$-dimensional distribution. 
  > 2. Let $\gamma$ be an [[integral curve]] of $X$. Then, $\gamma(\mathbb{R})$ is an integral manifold of $\mathcal{D}$.
 
-> [!proof]+
-> We have that 
+> [!proof]-
+> We have that 1 is obvious. For 2, we have that $d_{t}\gamma(s)=\gamma'(t)\cdot s=X_{\gamma(t)}\cdot s$. Therefore, $\gamma$ is an immersion and $\gamma$ is injective. Further, $$d_{t}\gamma(\mathbb{R})=X_{\gamma(t)}\cdot \mathbb{R}=\mathcal{D}_{\gamma(t)}$$
+---
+
