@@ -68,6 +68,9 @@
 
 **2.6 Cartan's Theorem on Closed Subgroups**
 1. [[Lie Group|Cartan's Theorem]]
+
+**2.7 The Adjoint Representation**
+1. [[Ideal (Lie Algebra)]]
 ---
 ##### 3. Structure Theory
 ---

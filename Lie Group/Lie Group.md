@@ -19,12 +19,12 @@
 > 2. For any $h\in H$, let $V\subseteq G$ be the neighborhood with $H\cap V=\overline{H}\cap V$. As $\overline{H}\leq G$, for any $x\in \overline{H}$, $Hx\cap Vx=\overline{H}\cap Vx$ which is contained in $Hx$ and open in $\overline{H}$. Therefore, $Hx$ is open and dense in $\overline{H}$.
 > 3. Therefore, for any $x\in \overline{H}$, $Hx\cap H$ is non-empty. Therefore, $gx\in H$ for $g\in H$ and this shows that $x\in H$. One sees that $\overline{H}=H$.
 ---
-> [!lemma] Theorem 2 (Cartan)
+> [!lemma] Theorem 2 (Cartan, Closed Subgroup Theorem)
 > Let $G$ be a Lie group and $H\leq G$ a closed subgroup. Then, 
 > 1. $H$ is a [[Submanifold|regular submanifold]] of $G$.
 > 2. $H$ is a Lie group.
 
-> [!proof]+
+> [!proof]-
 > Let $H\leq G$ be a closed subgroup. As $\mathfrak{g}$ is a vector space, we can define a norm $\|\cdot\|$ on $\mathfrak{g}$. Let $S^1:=\{ v\in \mathfrak{g}:\|v\|=1 \}$ and: $$\pi:\mathfrak{g} \backslash \{ 0 \}\to S^1,\quad v\mapsto v /\|v\|$$the projection map. We also define: $$W:=\{ 0 \}\cup \{ \xi\in \mathfrak{g} \backslash\{ 0 \}: \exists(v_{n})_{n\geq 1}\subseteq \mathfrak{g}\backslash\{ 0 \},\exp(v_{n})\in H,\lim_{ n \to \infty } v_{n}=0,\lim_{ n \to \infty } \pi(v_{n})=\pi(\xi) \}$$
 > 1. **Showing $W$ is a cone**:
 >    For $0\neq \xi\in W$ and $\lambda\geq 0$, $\pi(\xi)=\pi(\lambda \xi)$.
@@ -47,7 +47,14 @@
 > 	
 > 	From 3, we get for every $n\geq 1$ a vector $v_{n}+v_{n}'\in U_{n}$ s.t. $v_{n}\in W$, $v'_{n}\in W'$ and $v'_{n}\neq 0$. Further, $$\exp(v_{n})\exp(v_{n}')\in H$$hence $\exp(v'_{n})\in H$. As $S^1$ is compact, passing to a subsequence, we may assume that $$\xi:=\lim_{ n \to \infty } \pi(v'_{n})\in S^1$$exists. Since $v_{n}+v_{n}'\in U_{n}$ and $\bigcap_{n\geq 1}^{}U_{n}=\{ 0 \}$, we get that $\lim_{ n \to \infty }\|v'_{n}\|=0$. Therefore, $\xi\in W$. On the other hand, $$\xi=\lim_{ n \to \infty } \frac{v'_{n}}{\left\| v'_{n} \right\| }\in W'$$Therefore, $\xi\in W\cap W'=(0)$, which is a contradiction.
 >   
->
+- **Corollary**: For a Lie group $G$ and a closed subgroup $H\leq G$, $\mathfrak{h}=\{  v\in \mathfrak{g}: \exp_{G}(tv)\in H, \forall t\in \mathbb{R}\}$
+---
+> [!lemma] Proposition 3
+> Let $\varphi:G_{1}\to G_{2}$ be a Lie group homomorphism. Then, for $H:=\text{ker }\varphi\leq G$, $$\mathfrak{h}=\text{ker }d_{e}\varphi$$
+
+> [!proof]-
+> We have by Corollary above,
+> $$\begin{align}\mathfrak{h}&=\{ v\in \mathfrak{g}: \exp_{G_{1}}(tv)\in \text{ker }\varphi,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: \varphi(\exp_{G_{1}}(tv))=e,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: \exp_{G_{2}}(t\cdot d_{e}\varphi(v))=e,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: d_{e}\varphi(v)=0,\forall t\in \mathbb{R} \}\\&=\text{ker }d_{e}\varphi\end{align}$$
 ---
 ##### Examples
 > [!h] Example 1

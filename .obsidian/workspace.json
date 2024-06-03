@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Ideal (Lie Algebra).md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Ring of Germs.md",
+                "file": "Lie Group/Ideal (Lie Algebra).md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +56,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -69,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Ideal (Lie Algebra).md",
                 "mode": "preview",
                 "source": false
               }
@@ -81,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Metric Space.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -201,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Ideal (Lie Algebra).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Ideal (Lie Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Group.md"
+                "file": "Lie Group/Ideal (Lie Algebra).md"
               }
             }
           }
@@ -265,19 +266,21 @@
   },
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/Ideal (Lie Algebra).md",
+    "Lie Group/Exponential Map.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Ring of Germs.md",
+    "Lie Group/Lie Group.md",
+    "Algebra/Ideal.md",
     "Topology/Compact Metric Space.md",
     "Differential Geometry/Differential.md",
-    "Lie Group/Lie Group.md",
-    "Lie Group/Exponential Map.md",
     "Algebra/General Linear Group.md",
     "Lie Group/No Small Subgroup (NSS).md",
-    "Representation Theory/Lie Algebra.md",
     "Lie Group/Local Homomorphism.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Integral Curve.md",
     "Differential Geometry/Smooth Distribution.md",
     "Topology/Product Topology.md",
-    "Lie Group/Ring of Germs.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Lie Group/Lie Subgroup.md",
     "Topology/Topological Vector Space with Seminorms.md",
@@ -289,8 +292,6 @@
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Tangent Space II.md",
-    "Algebra/Linear Algebra/Rank and Nullity.md",
-    "Functional Analysis/Unimodular Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
