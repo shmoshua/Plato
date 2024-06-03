@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -290,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Lie Group/Lie Subgroup.md"
               }
             }
           }
@@ -312,15 +312,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "57846582d0a0a0e0",
+  "active": "b94365c84992be39",
   "lastOpenFiles": [
+    "Representation Theory/Lie Algebra.md",
     "Lie Group/Lie Subgroup.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Smooth Function.md",
     "Lie Group/Exponential Map.md",
     "Differential Geometry/Vector Field.md",
-    "Representation Theory/Lie Algebra.md",
     "Lie Group/Lattice.md",
     "Lie Group/Lie Group.md",
     "Lie Group/Flow.md",
