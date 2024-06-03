@@ -61,7 +61,8 @@
 4. [[Lie Derivative]]
 
 **2.5 Correspondence between Lie Algebras and Lie Groups**
-1. 
+1. [[Submanifold]]
+2. [[Lie Subgroup]]
 ---
 ##### 3. Structure Theory
 ---

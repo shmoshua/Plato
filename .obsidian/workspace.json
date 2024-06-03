@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "mode": "source",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "mode": "preview",
                 "source": false
               }
@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -230,8 +230,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -251,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Submanifold.md"
+                "file": "Representation Theory/Lie Algebra.md"
               }
             }
           }
@@ -313,11 +312,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b94365c84992be39",
+  "active": "57846582d0a0a0e0",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Submanifold.md",
+    "Lie Group/Lie Subgroup.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Smooth Function.md",
     "Lie Group/Exponential Map.md",
     "Differential Geometry/Vector Field.md",
     "Representation Theory/Lie Algebra.md",
@@ -340,7 +340,6 @@
     "Functional Analysis/Haar Measure.md",
     "Lie Group/Locally Compact Topological Group.md",
     "Differential Geometry/Derivation.md",
-    "Algebra/Free Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
