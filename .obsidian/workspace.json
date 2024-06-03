@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Topology/Semi-Locally Simply Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -252,7 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Topology/Semi-Locally Simply Connected Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +269,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Topology/Semi-Locally Simply Connected Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +292,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Topology/Semi-Locally Simply Connected Space.md"
               }
             }
           }
@@ -314,13 +314,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "cf533573fd02a363",
+  "active": "98f3fed9db0bcb29",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
+    "Algebra/General Linear Group.md",
+    "Lie Group/Local Homomorphism.md",
     "Representation Theory/Lie Algebra.md",
+    "Differential Geometry/Differential.md",
     "Lie Group/Lie Subgroup.md",
     "Lie Group/Exponential Map.md",
-    "Lie Group/Local Homomorphism.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Smooth Distribution.md",
     "Topology/Topological Vector Space with Seminorms.md",
@@ -341,7 +342,6 @@
     "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Tangent Space.md",
     "Lie Group/One-Parameter Subgroup.md",
-    "Lie Group/Homogeneous Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

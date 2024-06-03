@@ -63,3 +63,7 @@
 >  We will show that $A_{I}(B^L_{I}(\lambda))=\lambda(AB)$. We have: $$\begin{align}A_{I}(B_{I}^L(\lambda))&=A_{I}(g\mapsto (B_{I}^L)_{g}(\lambda))\\&=A_{I}(g\mapsto d_{I}L_{g}(B_{I})(\lambda))\\&=A_{I}(g\mapsto B_{I}(h\mapsto\lambda(gh)))\\&=A_{I}(g\mapsto \lambda(gB))\\&=\lambda(AB)\end{align}$$This concludes the proof by symmetry.
 - **Remark**: This allows us to also treat $\mathfrak{gl}(n,\mathbb{R})$ as $\text{Mat}_{n,n}(\mathbb{R})$.
 ---
+> [!lemma] Theorem 4 (Ado)
+> Any finite dimensional [[Lie algebra]] over $\mathbb{R}$ is a Lie subalgebra of $\mathfrak{gl}(n,\mathbb{R})$ for some $n\in \mathbb{N}$.
+- **Corollary**: Any Lie group $G$ is locally isomorphic to a subgroup of $\text{GL}(n,\mathbb{R})$ for some $n\in \mathbb{N}$, as $\mathfrak{g}$ is a Lie subalgebra of $\mathfrak{gl}(n,\mathbb{R})$ by [[Lie Subgroup|Theorem 1]] there exists a Lie subgroup of $\text{GL}(n,\mathbb{R})$ corresponding with the Lie subalgebra and by [[Lie Algebra|Theorem 5]], there exists a local isomorphism.
+---
