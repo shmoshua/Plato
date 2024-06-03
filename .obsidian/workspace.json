@@ -62,7 +62,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md",
+                "file": "Representation Theory/Lie Algebra.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "976a4dbb46a7ccdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Distribution.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -185,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -251,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md"
+                "file": "Representation Theory/Lie Algebra.md"
               }
             }
           }
@@ -315,17 +327,19 @@
   },
   "active": "cf533573fd02a363",
   "lastOpenFiles": [
-    "Lie Group/Flow.md",
-    "Lie Group/Lie Subgroup.md",
+    "Lie Group/Local Homomorphism.md",
+    "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Smooth Distribution.md",
+    "Lie Group/Lie Subgroup.md",
+    "Topology/Topological Vector Space with Seminorms.md",
     "Lie Group/Integral Curve.md",
+    "Lie Group/Flow.md",
     "Lie Group/Lattice.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Lie Bracket.md",
     "Lie Group/Topological Group.md",
     "Lie Group/Ring of Germs.md",
     "Differential Geometry/Differential.md",
-    "Representation Theory/Lie Algebra.md",
     "Lie Group/Exponential Map.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Submanifold.md",
@@ -339,8 +353,6 @@
     "Differential Geometry/Tangent Space.md",
     "Lie Group/One-Parameter Subgroup.md",
     "Lie Group/Homogeneous Space.md",
-    "Functional Analysis/Haar Measure.md",
-    "Lie Group/Locally Compact Topological Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

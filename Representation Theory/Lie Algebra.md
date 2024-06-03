@@ -12,7 +12,7 @@
 > [!lemma] Proposition 1 (Lie Algebra of a Lie group)
 > For a [[Lie group]] $G$ and a smooth group action $G\times G\to G$, let for $g\in G$: $$L_{g}:G\to G,\quad x\mapsto gx$$
 > 1. $(L_{g})_{*}:\Gamma(\text{T}G)\to\Gamma(\text{T}G)$ is a Lie algebra isomorphism.
-> 2. the space of [[Topological Vector Space with Seminorms|$G$-invariant vector fields]] $\mathfrak{g}\subseteq \Gamma(\text{T}G)$ is a Lie subalgebra.
+> 2. the space of [[Vector Field|$G$-invariant vector fields]] $\mathfrak{g}\subseteq \Gamma(\text{T}G)$ is a Lie subalgebra.
 > 3. For any $X\in \mathfrak{g}$, $X$ is $L_{g}$-related to itself for all $g\in G$.
 > 4. the map: $$\mathfrak{g}\mapsto \text{T}_{e}G,\quad X\mapsto X_{e}$$ is a vector space isomorphism.
 
