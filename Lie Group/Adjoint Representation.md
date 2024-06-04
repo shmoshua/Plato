@@ -13,4 +13,8 @@
 ---
 ##### Examples
 > [!h] Example 1
-> 
+> For $G=\text{GL}(n,\mathbb{R})$, 
+> 1. $\text{Ad}(g)x=gxg^{-1}$
+
+> [!proof]+
+> Consider $\Phi_{g}:\text{Mat}_{n,n}(\mathbb{R})\to\text{Mat}_{n,n}(\mathbb{R}),x\mapsto gxg^{-1}$. Then, $\Phi_{g}$ is linear and $\varphi_{g}=\Phi_{g}|_{\text{GL}(n,\mathbb{R})}$. Therefore, $$d_{e}\varphi_{g}(x)=$$ 

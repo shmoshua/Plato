@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -253,10 +253,11 @@
   },
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
+    "Differential Geometry/Tangent Space.md",
     "Lie Group/Topological Group.md",
-    "Differential Geometry/Smooth Function.md",
     "Lie Group/Adjoint Representation.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Smooth Function.md",
     "Representation Theory/Representation.md",
     "Lie Group/Exponential Map.md",
     "Differential Geometry/Vector Field.md",
@@ -278,7 +279,6 @@
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Integral Curve.md",
     "Differential Geometry/Smooth Distribution.md",
-    "Topology/Product Topology.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
