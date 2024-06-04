@@ -21,9 +21,9 @@
 > 2. Let $G,N$ be connected with $\mathfrak{n}\leq \mathfrak{g}$ as an ideal. Then, $N\unlhd G$.
 
 > [!proof]+
-> As $N\leq G$ is closed, we have that by [[Lie Group|Cartan's Theorem Corollary]], $\mathfrak{n}:=\{ x\in \mathfrak{g}:\exp(tx)\in N,\forall t\in \mathbb{R} \}$.
+> As $N\leq G$ is closed, we have that by [[Lie Group|Cartan's Theorem Corollary]], $\mathfrak{n}:=\{ x\in \mathfrak{g}:\exp(tx)\in N,\forall t\in \mathbb{R} \}$. Then, for $x\in \mathfrak{n}$ and $y\in \mathfrak{g}$,   $$\exp(sy)\exp(tx)\exp(-sy)=\exp(\text{Ad}(\exp(sy))(tx))=\exp(\exp(\text{ad}(sy))(tx))\in N$$
 > 
-> We have that for $a\in \mathfrak{g}$ and $b\in \mathfrak{n}$, $$\exp(t[a,b])=$$
+> We have that for $a\in \mathfrak{g}$ and $b\in \mathfrak{n}$, $$\begin{align}\exp(t[a,b])=\exp(  \text{ad}(a)(tb) ) =\left. \frac{d}{ds} \right| _{s=0}\exp(\text{ad}(\exp(sa))(tb))=\left. \frac{d}{ds} \right| _{s=0}\exp(t\exp(\text{ad}(a)(sb)))\end{align}$$
 ---
 ##### Examples
 > [!h] Example 1 (Kernel)

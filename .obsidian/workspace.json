@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Algebra/Normal Subgroup.md",
                 "mode": "preview",
                 "source": false
               }
@@ -266,10 +266,12 @@
   },
   "active": "d4d15bb4f6271f4d",
   "lastOpenFiles": [
-    "Lie Group/Exponential Map.md",
-    "Lie Group/Lie Group.md",
-    "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Adjoint Representation.md",
+    "Lie Group/Exponential Map.md",
+    "Lie Group/Ideal (Lie Algebra).md",
+    "Algebra/Normal Subgroup.md",
+    "Algebra/General Linear Group.md",
+    "Lie Group/Lie Group.md",
     "Lie Group/Lie Group Representation.md",
     "Representation Theory/Lie Algebra Representation.md",
     "Representation Theory/Lie Algebra.md",
@@ -284,14 +286,12 @@
     "Lie Group/Topological Group.md",
     "Analysis/Automorphism on Vector Spaces.md",
     "Differential Geometry/Tangent Space II.md",
-    "Algebra/General Linear Group.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Smooth Function.md",
     "Representation Theory/Representation.md",
     "Algebra/Inner Automorphism.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
