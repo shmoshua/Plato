@@ -21,7 +21,11 @@
 > 2. Let $G,N$ be connected with $\mathfrak{n}\leq \mathfrak{g}$ as an ideal. Then, $N\unlhd G$.
 
 > [!proof]+
-> As $N\leq G$ is closed, we have that by [[Lie Group|Cartan's Theorem Corollary]], $\mathfrak{n}:=\{ x\in \mathfrak{g}:\exp(tx)\in N,\forall t\in \mathbb{R} \}$. Then, for $x\in \mathfrak{n}$ and $y\in \mathfrak{g}$,   $$\exp(sy)\exp(tx)\exp(-sy)=\exp(\text{Ad}(\exp(sy))(tx))=\exp(\exp(\text{ad}(sy))(tx))\in N$$
+> If $N\unlhd G$, then for any $g\in G$, $\alpha_{g}:N\to N$ and $\text{Ad}(g):\mathfrak{n}\to \mathfrak{n}$. Therefore, for any $x\in \mathfrak{g}$, Then, for $$[x,y]=\text{ad}(x)y=d_{e}\text{Ad}(x)y=$$
+> 
+> As $N\leq G$ is closed, 
+> 
+> we have that by [[Lie Group|Cartan's Theorem Corollary]], $\mathfrak{n}:=\{ x\in \mathfrak{g}:\exp(tx)\in N,\forall t\in \mathbb{R} \}$. Then, for $x\in \mathfrak{n}$ and $y\in \mathfrak{g}$,   $$\exp(sy)\exp(tx)\exp(-sy)=\exp(\text{Ad}(\exp(sy))(tx))=\exp(\exp(\text{ad}(sy))(tx))\in N$$
 > 
 > We have that for $a\in \mathfrak{g}$ and $b\in \mathfrak{n}$, $$\begin{align}\exp(t[a,b])&=\exp(  \text{ad}(a)(tb) ) \\&=\exp(d_{e}\text{Ad}(a)(tb))\\&=\left. \frac{d}{ds} \right| _{s=0}\exp(\text{Ad}(\exp(sa))(tb))\\&=\left. \frac{d}{ds} \right| _{s=0}\exp(sa)\exp(tb)\exp(-sa)\end{align}$$
 ---

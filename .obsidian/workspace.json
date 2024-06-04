@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Flow.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "preview",
                 "source": false
               }
@@ -135,7 +135,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Lie Group/Ideal (Lie Algebra).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Lie Group/Ideal (Lie Algebra).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md"
+                "file": "Lie Group/Ideal (Lie Algebra).md"
               }
             }
           }
@@ -263,12 +264,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "33eb575cd9e8d842",
+  "active": "d4d15bb4f6271f4d",
   "lastOpenFiles": [
+    "Lie Group/Exponential Map.md",
+    "Lie Group/Flow.md",
+    "Representation Theory/Lie Algebra Representation.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Adjoint Representation.md",
-    "Representation Theory/Lie Algebra Representation.md",
-    "Lie Group/Exponential Map.md",
     "Algebra/Normal Subgroup.md",
     "Algebra/General Linear Group.md",
     "Lie Group/Lie Group.md",
@@ -279,7 +281,6 @@
     "Algebra/Ideal.md",
     "Analysis/Lie Derivative.md",
     "Lie Group/Integral Curve.md",
-    "Lie Group/Flow.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Vector Field.md",
     "Lie Group/Topological Group.md",
