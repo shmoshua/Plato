@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Algebra/Solvable Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Algebra/Solvable Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Algebra/Solvable Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Algebra/Solvable Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Topological Group.md"
+                "file": "Algebra/Solvable Group.md"
               }
             }
           }
@@ -267,16 +267,17 @@
   },
   "active": "1db5ea563cbfbfc7",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
-    "Lie Group/Topological Group.md",
-    "Topology/Connected Space.md",
+    "Algebra/Commutator Subgroup.md",
+    "Algebra/Solvable Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Analysis/Lie Derivative.md",
+    "Topology/Connected Space.md",
+    "Lie Group/Topological Group.md",
+    "Topology/Quotient Topology.md",
     "Algebra/Group Homomorphism.md",
     "Lie Group/Integral Curve.md",
     "Algebra/Normal Subgroup.md",
-    "Algebra/Commutator Subgroup.md",
     "Differential Geometry/Tangent Space II.md",
-    "Algebra/Solvable Group.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Exponential Map.md",
     "Untitled.md",
@@ -291,7 +292,6 @@
     "Lie Group/Lie Subgroup.md",
     "Lie Group/One-Parameter Subgroup.md",
     "Algebra/Ideal.md",
-    "Analysis/Lie Derivative.md",
     "Differential Geometry/Differential.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",

@@ -44,6 +44,11 @@
 > Let $G$ be a solvable Hausdorff group. Then,
 > 1. there exists closed groups $\{ e \}=G_{0}\unlhd G_{1}\unlhd\dots\unlhd G_{n}=G$ with $G_{i} / G_{i-1}$ abelian.
 > 2. if $G$ is connected, then there is such a sequence with connected subgroups.
+
+> [!proof]+
+> The proof is by induction on $r:=\text{sol}(G)$. If $r=1$, then $G^{(1)}=\{ e \}$. Therefore $G$ is abelian and $\{ e \}$ is closed.
+> 
+> Let $r\geq 2$. We first claim that $G^{(r-1)}\unlhd G$.  
 ---
 ##### Examples
 - [[Abelian Group]] are solvable by definition with $G_{1}=G$.
