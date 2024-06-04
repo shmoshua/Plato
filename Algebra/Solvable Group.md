@@ -22,13 +22,28 @@
 > 
 > If $m<n$, then $Z(G)\unlhd G$ and $\left| G / Z(G) \right|=p^{n-m}$ and by induction hypothesis, we have that $G / Z(G)$ is solvable. By theorem 1, $G$ is solvable.
 ---
-> [!lemma] Lemma 3
+> [!lemma] Lemma 3 (Solvability and Derived Series)
 > For a group $G$, the following are equivalent:
 > 1. $G$ is solvable.
 > 2. there exists $r\geq 1$ s.t. the [[Commutator Subgroup|derived series]] $G^{(r)}=\{ e \}$.
 
-> [!proof]+
-> 
+> [!proof]-
+> We have:
+> - (2=>1): Then, from [[Commutator Subgroup|Lemma 1]], $G^{(i+1)}\unlhd G^{(i)}$ and $G^{(i)} / G^{(i+1)}$ is abelian. Therefore, $G^{(r)}\unlhd \dots\unlhd G^{(0)}$ is the desired sequence and $G$ is solvable.
+> - (1=>2): Assume $G$ is solvable and we have a sequence $\{ e \}=G_{r}\unlhd \dots\unlhd G_{0}=G$. We claim that $G^{(i)}\leq G_{i}$. We will show this by induction. $G\leq G$ holds automatically. For $i\geq 1$, by [[Commutator Subgroup|Lemma 1]], $$G_{i}\geq G_{i-1}^{(1)}\geq (G^{(i-1)})^{(1)}=G^{(i)}$$Therefore, $G^{(r)}\leq G_{r}=\{ e \}$.
+- **Related definition**: The ***solvability length*** of a solvable group is $\text{sol}(G):=\min\{ r\geq 1:G^{(r)}=\{ e \} \}$.
+---
+> [!lemma] Lemma 4 
+> Let $N\unlhd G$ and assume that $G^{(r)}\leq N$. Then, $\text{sol}(G / N)\leq r$.
+
+> [!proof]-
+> Let $\pi:G\to G / N$ be the canonical projection. Then, $$(G / N)^{(r)}=(\pi(G))^{(r)}=\pi(G^{(r)})=\{ N \}$$
+---
+###### Solvable Topological Groups
+> [!lemma] Theorem 1
+> Let $G$ be a solvable Hausdorff group. Then,
+> 1. there exists closed groups $\{ e \}=G_{0}\unlhd G_{1}\unlhd\dots\unlhd G_{n}=G$ with $G_{i} / G_{i-1}$ abelian.
+> 2. if $G$ is connected, then there is such a sequence with connected subgroups.
 ---
 ##### Examples
 - [[Abelian Group]] are solvable by definition with $G_{1}=G$.

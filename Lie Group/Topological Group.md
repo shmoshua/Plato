@@ -53,7 +53,10 @@
 >    Lastly, consider the conjugation: $$\begin{array}{cccc} {\varphi_{g}:}&{G}&\to&{G}\\&{x} &\mapsto & {gxg^{-1}} \end{array}{}$$which is continuous. Therefore, $\varphi_{g}(G_{0})$ is connected but as $\varphi_{g}(e)=e$, $\varphi_{g}(G_{0})\subseteq G_{0}$. This proves that $G_{0}\unlhd G$.
 >  4. From the lemma above, we have an open symmetric neighborhood $V\subseteq U$ of $e$. Then, $$H:=\bigcup_{n=1}^{\infty}V^n\subseteq \bigcup_{n=1}^{\infty}U^n$$where $H$ is an open subgroup. Therefore, it is closed by 2. This implies that $H=G$ which proves the statement.
 >  5. Let $N\unlhd G$ be a discrete subgroup. Then for all $n\in N$, there exists a continuous map: $$\begin{array}{cccc} {}&{G}&\to&{N}\\&{g} &\mapsto & {gng^{-1}} \end{array}{}$$is continuous and its image is continuous and contains $n$. As $N$ is discrete, this image has to be $\{ n \}$. Therefore, $N \subseteq Z(G)$.
->    
+---
+###### Connected Topological Groups
+> [!lemma] Lemma 1
+> Let $G$ be a topological group and $N\unlhd G$ a closed subgroup. If $N$ and $G / N$ are connected, then $G$ is connected.
 ---
 ##### Examples
 > [!h] Example 1

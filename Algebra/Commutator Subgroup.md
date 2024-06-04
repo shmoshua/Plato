@@ -11,9 +11,9 @@
 > 2. For $N\unlhd G$, $G / N$ is abelian if and only if $[G,G]\leq N$.
 > 3. $[G,G]\unlhd G$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Follows from $\pi([g,h])=[\pi(g),\pi(h)]$. Therefore, $\pi(G^{(1)})=\pi(G)^{(1)}$ and the statement follows.
 > 2. Let $N\unlhd G$ and $\pi:G\to G / N$ the canonical projection. If it is abelian, then: $$\pi([G,G])=[\pi(G),\pi(G)]=[G / N,G / N]=\{ N \}$$Therefore, $[G,G]\leq N$. Conversely, if $[G,G]\leq N$, then: $[G /N, G / N]=\{ N \}$ and $G / N$ is abelian.
-> 3. We have that for $g,h\in G$ and $x\in G$, $$x[g,h]x ^{-1}=xg^{-1}h^{-1}ghx ^{-1}=[x ^{-1},g][g,hx ^{-1}]$$
+> 3. We have that for $g,h\in G$ and $x\in G$, $$x[g,h]x ^{-1}=xg^{-1}h^{-1}ghx ^{-1}=[x ^{-1},g][g,hx ^{-1}]\in [G,G]$$
 ---

@@ -50,14 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space II.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,14 +118,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Subgroup.md",
+                "file": "Algebra/Group Homomorphism.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c7c2e7a96470e3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -191,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Topology/Quotient Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Topology/Quotient Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md"
+                "file": "Topology/Quotient Topology.md"
               }
             }
           }
@@ -253,17 +265,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a982082d3e9feea3",
+  "active": "5c7c2e7a96470e3d",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Algebra/Solvable Group.md",
+    "Algebra/Group Homomorphism.md",
     "Algebra/Normal Subgroup.md",
-    "Lie Group/Integral Curve.md",
+    "Topology/Connected Space.md",
     "Algebra/Commutator Subgroup.md",
+    "Lie Group/Topological Group.md",
+    "Differential Geometry/Tangent Space II.md",
+    "Algebra/Solvable Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Integral Curve.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Exponential Map.md",
     "Untitled.md",
-    "Lie Group/Topological Group.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Lie Group/Adjoint Representation.md",
     "Representation Theory/Lie Algebra Representation.md",
@@ -278,9 +293,6 @@
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Vector Field.md",
-    "Analysis/Automorphism on Vector Spaces.md",
-    "Differential Geometry/Tangent Space II.md",
-    "Differential Geometry/Cotangent Bundle.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
