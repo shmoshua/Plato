@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "mode": "preview",
                 "source": false
               }
@@ -123,7 +123,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md"
+                "file": "Algebra/Commutator Subgroup.md"
               }
             }
           }
@@ -251,12 +252,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "33eb575cd9e8d842",
+  "active": "ee568ad677adda89",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Algebra/Commutator Subgroup.md",
     "Lie Group/Topological Group.md",
-    "Algebra/Normal Subgroup.md",
-    "Lie Group/Adjoint Representation.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Functional Analysis/Adjoint Linear Map.md",
+    "Lie Group/Adjoint Representation.md",
+    "Algebra/Normal Subgroup.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Representation Theory/Lie Algebra Representation.md",
     "Lie Group/Exponential Map.md",
@@ -276,9 +280,6 @@
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Tangent Bundle.md",
-    "Differential Geometry/Smooth Function.md",
-    "Representation Theory/Representation.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

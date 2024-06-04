@@ -28,8 +28,8 @@
 > [!lemma] Theorem 3
 > Let $G$ be a connected Lie group. Then, $Z(G)=\text{ker }\text{Ad}$.
 
-> [!proof]+
-> Let $g\in Z(G)$ and $x\in \mathfrak{g}$, then: $$\exp(tx)=g \exp(tx)g ^{-1}=\exp(t\text{Ad}(g)x)$$
+> [!proof]-
+> Let $g\in Z(G)$ and $x\in \mathfrak{g}$, then: $$\exp(tx)=g \exp(tx)g ^{-1}=\exp(t\text{Ad}(g)x)$$Therefore, $x=\text{Ad}(g)x$ for all $x\in \mathfrak{g}$ and $g\in \text{ker Ad}$. Conversely, let $g\in \text{ker Ad}$. Then, the statement above holds again and $g$ commutes with every element in the neighborhood of $e\in G$. Since $G$ is connected, by [[Topological Group|Proposition 2.4]] $\sigma$ commutes with every element in $G$. Therefore, $g\in Z(G)$.
 ---
 ##### Examples
 > [!h] Example 1

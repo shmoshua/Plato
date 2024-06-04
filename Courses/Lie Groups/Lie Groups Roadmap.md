@@ -76,4 +76,6 @@
 4. [[Adjoint Representation]]
 ---
 ##### 3. Structure Theory
+**3.1 Solvable Lie Groups and Lie Algebras**
+1. [[Solvable Group]]
 ---
