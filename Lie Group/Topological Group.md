@@ -26,11 +26,11 @@
 ---
 > [!lemma] Proposition 2
 > Let $G$ be a topological group. Then, 
-> 1. If $H\leq G$, then $\overline{H}\leq G$.
-> 2. If $H\leq G$ is open, then it is closed.
-> 3. Let $G_{0}$ be the [[Connected Space|connected component]] of $e\in G$. Then, $G_{0}$ is closed and $G_{0}\unlhd G$.
-> 4. If $G$ is [[Connected Space|connected]] and $e\in U\subseteq G$ is a neighborhood, then $G=\bigcup_{n=1}^{\infty}U^n$
-> 5. If $G$ is [[Connected Space|connected]] and $N\unlhd G$ is discrete. Then, $N\subseteq Z(G)$ where $Z(G)$ denotes the [[Center of a group|center]].
+> 1. If $H\leq G$, then $\overline{H}\leq G$ and if $H\unlhd G$, then $\overline{H}\unlhd G$.
+> 3. If $H\leq G$ is open, then it is closed.
+> 4. Let $G_{0}$ be the [[Connected Space|connected component]] of $e\in G$. Then, $G_{0}$ is closed and $G_{0}\unlhd G$.
+> 5. If $G$ is [[Connected Space|connected]] and $e\in U\subseteq G$ is a neighborhood, then $G=\bigcup_{n=1}^{\infty}U^n$
+> 6. If $G$ is [[Connected Space|connected]] and $N\unlhd G$ is discrete. Then, $N\subseteq Z(G)$ where $Z(G)$ denotes the [[Center of a group|center]].
 
 > [!proof]-
 > > [!lemma]
@@ -45,6 +45,8 @@
 > 
 > Then, we have:
 > 1. Since $m$ is continuous, $$m(\overline{H}\times \overline{H})\subseteq m(\overline{H\times H})\subseteq \overline{m(H\times H)}\subseteq\overline{H}$$Also, as $i$ is a homeomorphism, $i(\overline{H})=\overline{H}$. Therefore, $\overline{H}$ is a subgroup.
+>    
+>    Further if $H\unlhd G$, for any $g\in G$, we have $x\mapsto gxg^{-1}$ is continuous. Therefore, $$g\overline{H}g\subseteq \overline{gHg^{-1}}\subseteq \overline{H}$$
 > 2. Let $R$ be the representatives of $G / H$ with $e\in R$. Then, $$G=H \sqcup\bigsqcup_{r\in R \backslash\{ e \}}^{}rH=H \sqcup\bigsqcup_{r\in R \backslash\{ e \}}^{}L_{r}(H)$$As $L_{r}(H)$ is open, the disjoint union is also open. Therefore, $H$ is closed.
 > 3. We have that $G_{0}\times G_{0}$ is connected and contains $(e,e)$. Therefore, $m(G_{0}\times G^0)$ is also connected by [[Connected Space|Lemma 1]]. Further, $m(G_{0}\times G_{0})\subseteq G_{0}$. Since $i$ is a homeomorphism and $i(e)=e$, $i(G_{0})=G_{0}$, i.e. $G_{0}$ is a subgroup.
 >    

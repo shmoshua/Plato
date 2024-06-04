@@ -48,7 +48,7 @@
 > [!proof]+
 > The proof is by induction on $r:=\text{sol}(G)$. If $r=1$, then $G^{(1)}=\{ e \}$. Therefore $G$ is abelian and $\{ e \}$ is closed.
 > 
-> Let $r\geq 2$. We first claim that $G^{(r-1)}\unlhd G$.  
+> Let $r\geq 2$. Then, by [[Commutator Subgroup|Lemma 1]], $G^{(r-1)}\unlhd G$ and is abelian. Hence, $\overline{G^{(r-1)}}\unlhd G$ by [[Topological Group|Lemma 2.1]] and is abelian by the continuity of multiplication. Moreover, by Lemma 4, $\text{sol}(G / \overline{G^{(r-1)}})\leq r-1$ and by [[Quotient Topology|Lemma 2.3]], $G / \overline{G^{(r-1)}}$ is Hausdorff. Therefore, there exists $\{ e \}=H_{0}\unlhd\dots\unlhd H_{m}=G / \overline{G^{(r-1)}}$. 
 ---
 ##### Examples
 - [[Abelian Group]] are solvable by definition with $G_{1}=G$.

@@ -36,7 +36,7 @@
 > - (4=>5) clear.
 ---
 > [!lemma] Lemma 3
-> Let $X,Y$ be topological spaces and $f:X\to Y$ a continuous function. Then, for $A\subseteq X$: $$\overline{f^{-1}(A)}\subseteq f^{-1}(\overline{A})$$
+> Let $X,Y$ be topological spaces and $f:X\to Y$ a continuous function. Then, for $A\subseteq Y$: $$\overline{f^{-1}(A)}\subseteq f^{-1}(\overline{A})$$
 
 > [!proof]-
 > Let $A\subseteq C$ where $C$ is closed. Then, $f^{-1}(A)\subseteq f^{-1}(C)$ and $\overline{f^{-1}(A)}\subseteq f^{-1}(C)$. Therefore, $$\overline{f^{-1}(A)}\subseteq \bigcap_{A\subseteq C,C\text{ closed}}^{}f^{-1}(C)=f^{-1}\left( \bigcap_{A\subseteq C,C\text{ closed}}^{}C \right) =f^{-1}(\overline{A})$$

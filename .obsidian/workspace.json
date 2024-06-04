@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group Homomorphism.md",
+                "file": "Topology/Continuous Functions in Metric Spaces.md",
                 "mode": "preview",
                 "source": false
               }
@@ -265,17 +265,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1db5ea563cbfbfc7",
+  "active": "3a13078c285526fb",
   "lastOpenFiles": [
-    "Algebra/Commutator Subgroup.md",
-    "Algebra/Solvable Group.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Analysis/Lie Derivative.md",
-    "Topology/Connected Space.md",
-    "Lie Group/Topological Group.md",
     "Topology/Quotient Topology.md",
+    "Algebra/Solvable Group.md",
+    "Lie Group/Topological Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Topology/Continuous Function.md",
+    "Topology/Continuous Functions in Metric Spaces.md",
     "Algebra/Group Homomorphism.md",
     "Lie Group/Integral Curve.md",
+    "Algebra/Commutator Subgroup.md",
+    "Topology/Connected Space.md",
+    "Analysis/Lie Derivative.md",
     "Algebra/Normal Subgroup.md",
     "Differential Geometry/Tangent Space II.md",
     "Lie Group/Ideal (Lie Algebra).md",
@@ -291,8 +293,6 @@
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Lie Subgroup.md",
     "Lie Group/One-Parameter Subgroup.md",
-    "Algebra/Ideal.md",
-    "Differential Geometry/Differential.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
