@@ -52,6 +52,12 @@
 >    Let $r\geq 2$. Then, by [[Commutator Subgroup|Lemma 1]], $G^{(r-1)}\unlhd G$ and is abelian. Hence, $\overline{G^{(r-1)}}\unlhd G$ by [[Topological Group|Lemma 2.1]] and is abelian by the continuity of multiplication. Moreover, by Lemma 4, $\text{sol}(G / \overline{G^{(r-1)}})\leq r-1$ and by [[Quotient Topology|Lemma 2.3]], $G / \overline{G^{(r-1)}}$ is Hausdorff. Therefore, there exists by inductive hypothesis $$\{ e \}=H_{0}\unlhd\dots\unlhd H_{m}=G / \overline{G^{(r-1)}}$$where $H_{i}$ are closed and $H_{i} / H_{i-1}$ are abelian. Then, consider: $$\{ e \}\unlhd\overline{G^{(r-1)}}=\pi ^{-1}(H_{0})\unlhd \pi ^{-1}(H_{1})\unlhd\dots\unlhd \pi ^{-1}(H_{m})=G$$where $\pi:G\to G / \overline{G^{(r-1)}}$ is the canonical projection. Then, for $h\in \pi ^{-1}(H_{i})$ and $x\in \pi ^{-1}(H_{i+1})$, $$\pi(xhx ^{-1})=\pi(x)\pi(h)\pi(x ^{-1})\in H_{i}$$Therefore, $\pi ^{-1}(H_{i})\unlhd \pi ^{-1}(H_{i+1})$ and $\pi ^{-1}(H_{i})$ is closed by the continuity. Further, for $g,h\in \pi ^{-1}(H_{i})$: $$gh\pi ^{-1}(H_{i-1})=\pi(xH_{i-1})\pi(yH_{i-1})=\pi(yH_{i-1})\pi(xH_{i-1})=hg\pi ^{-1}(H_{i-1})$$Hence, $\pi ^{-1}(H_{i}) / \pi ^{-1}(H_{i-1})$ is abelian. This proves the statement.
 > 2. Let $G$ be additionally connected. Then, by [[Commutator Subgroup|Lemma 2]], $G^{(r-1)}$ is connected and by [[Connected Space|Lemma 2]], $\overline{G^{(r-1)}}$ is connected. Then, $G / \overline{G^{(r-1)}}$ is also a connected as a continuous image of $G$ through the canonical projection and for each $H_{i}$, $\pi ^{-1}(H_{i}) / \overline{G^{(r-1)}}=H_{i}$, which is connected. Therefore, by [[Topological Group|Connected Lemma 1]], $\pi ^{-1}(H_{i})$ are connected. This proves the statement.
 ---
+> [!lemma] Corollary 2
+> Let $G$ be a connected solvable Lie group. Then, there exists a sequence: $$\{ e \}=G_{r}\unlhd\dots\unlhd G_{0}=G$$where $G_{i}$ are closed and connected and $G_{i-1} / G_{i}$ is isomorphic to either $\mathbb{R}$ or $\mathbb{T}$.
+
+> [!proof]+
+> From Theorem 1, we have:
+---
 ##### Examples
 - [[Abelian Group]] are solvable by definition with $G_{1}=G$.
 - If a group is [[Simple Group|simple]] and non-abelian, it cannot be solvable.
