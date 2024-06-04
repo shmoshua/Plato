@@ -16,18 +16,15 @@
 > 2. Shown in 1 with: $$\text{ker }\pi=\{ v\in \mathfrak{g}:v+\mathfrak{n}=\mathfrak{n} \}=\mathfrak{n}$$
 ---
 > [!lemma] Proposition 2
-> Let $G$ be a [[Lie group]].  
-> 1. Let $N\leq G$ a closed subgroup with Lie algebra $\mathfrak{n}\subseteq \mathfrak{g}$. If $N\unlhd G$, then $\mathfrak{n}$ is an ideal of $\mathfrak{g}$.
-> 2. Let $G,N$ be connected with $\mathfrak{n}\leq \mathfrak{g}$ as an ideal. Then, $N\unlhd G$.
+> Let $G$ be a [[Lie group]]. Let $N\leq G$ a closed subgroup with Lie algebra $\mathfrak{n}\subseteq \mathfrak{g}$. 
+> 1. If $N\unlhd G$, then $\mathfrak{n}$ is an ideal of $\mathfrak{g}$.
+> 2. If $G,N$ are connected with $\mathfrak{n}\leq \mathfrak{g}$ as an ideal. Then, $N\unlhd G$.
 
-> [!proof]+
-> If $N\unlhd G$, then for any $g\in G$, $\alpha_{g}:N\to N$ and $\text{Ad}(g):\mathfrak{n}\to \mathfrak{n}$. Therefore, for any $x\in \mathfrak{g}$, Then, for $$[x,y]=\text{ad}(x)y=d_{e}\text{Ad}(x)y=$$
+> [!proof]-
+> We have:
+> 1. If $N\unlhd G$, then for any $g\in G$, $\alpha_{g}:N\to N$ and $\text{Ad}(g):\mathfrak{n}\to \mathfrak{n}$. Therefore, for any $x\in \mathfrak{g}$, Then, for $x\in \mathfrak{g}$ and $y\in \mathfrak{n}$, $$[x,y]=\text{ad}(x)y=d_{e}\text{Ad}(x)y=d_{e}\text{Ad}(d_{0}\exp(x))y=d_{0}\text{Ad}(\exp(x))y\in \mathfrak{n}$$since $\text{Ad}(\exp(x)):\mathfrak{n}\to \mathfrak{n}$. 
+> 2. As $\mathfrak{n}$ is an ideal, $\text{ad}(x)$ leaves $\mathfrak{n}$ invariant for all $x\in \mathfrak{g}$. Then, $\text{Ad}(\exp(x))=\exp(\text{ad}(x))$ leaves $\mathfrak{n}$ invariant for all $x\in \mathfrak{g}$. Therefore, for any $x\in \mathfrak{g}$ and $y\in \mathfrak{n}$, $\text{Ad}(\exp(x))y\in \mathfrak{n}$ and from [[Lie Group|Cartan's Theorem corollary]], $$\exp(x)\exp(y)\exp(-x)=\alpha_{\exp(x)}\exp(y)=\exp(\text{Ad}(\exp(x))y)\in N$$As $G$ and $N$ are connected, by [[Topological Group|Proposition 2.4]], $N\unlhd G$. 
 > 
-> As $N\leq G$ is closed, 
-> 
-> we have that by [[Lie Group|Cartan's Theorem Corollary]], $\mathfrak{n}:=\{ x\in \mathfrak{g}:\exp(tx)\in N,\forall t\in \mathbb{R} \}$. Then, for $x\in \mathfrak{n}$ and $y\in \mathfrak{g}$,   $$\exp(sy)\exp(tx)\exp(-sy)=\exp(\text{Ad}(\exp(sy))(tx))=\exp(\exp(\text{ad}(sy))(tx))\in N$$
-> 
-> We have that for $a\in \mathfrak{g}$ and $b\in \mathfrak{n}$, $$\begin{align}\exp(t[a,b])&=\exp(  \text{ad}(a)(tb) ) \\&=\exp(d_{e}\text{Ad}(a)(tb))\\&=\left. \frac{d}{ds} \right| _{s=0}\exp(\text{Ad}(\exp(sa))(tb))\\&=\left. \frac{d}{ds} \right| _{s=0}\exp(sa)\exp(tb)\exp(-sa)\end{align}$$
 ---
 ##### Examples
 > [!h] Example 1 (Kernel)

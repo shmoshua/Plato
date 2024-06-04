@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Ideal (Lie Algebra).md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "mode": "source",
                 "source": true
               }
@@ -76,24 +76,12 @@
             }
           },
           {
-            "id": "d4d15bb4f6271f4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Ideal (Lie Algebra).md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3a13078c285526fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra Representation.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -135,8 +123,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Ideal (Lie Algebra).md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Ideal (Lie Algebra).md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Ideal (Lie Algebra).md"
+                "file": "Lie Group/Adjoint Representation.md"
               }
             }
           }
@@ -264,14 +251,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d4d15bb4f6271f4d",
+  "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
+    "Lie Group/Topological Group.md",
+    "Algebra/Normal Subgroup.md",
+    "Lie Group/Adjoint Representation.md",
+    "Functional Analysis/Adjoint Linear Map.md",
+    "Lie Group/Ideal (Lie Algebra).md",
+    "Representation Theory/Lie Algebra Representation.md",
     "Lie Group/Exponential Map.md",
     "Lie Group/Flow.md",
-    "Representation Theory/Lie Algebra Representation.md",
-    "Lie Group/Ideal (Lie Algebra).md",
-    "Lie Group/Adjoint Representation.md",
-    "Algebra/Normal Subgroup.md",
     "Algebra/General Linear Group.md",
     "Lie Group/Lie Group.md",
     "Lie Group/Lie Group Representation.md",
@@ -283,7 +272,6 @@
     "Lie Group/Integral Curve.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Vector Field.md",
-    "Lie Group/Topological Group.md",
     "Analysis/Automorphism on Vector Spaces.md",
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Cotangent Bundle.md",
@@ -291,7 +279,6 @@
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Smooth Function.md",
     "Representation Theory/Representation.md",
-    "Algebra/Inner Automorphism.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

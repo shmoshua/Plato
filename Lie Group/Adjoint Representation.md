@@ -24,7 +24,13 @@
 > We have that:
 > 1. $[\text{ad}(x),\text{ad}(y)]z=[x,[y,z]]-[y,[x,z]]=-[[y,z],x]-[[z,x],y]=[[x,y],z]=\text{ad}([x,y])z$
 > 2. Similarly, $$[[x,y],z]+[[y,z],x]+[[z,x],y]=0$$
+---
+> [!lemma] Theorem 3
+> Let $G$ be a connected Lie group. Then, $Z(G)=\text{ker }\text{Ad}$.
 
+> [!proof]+
+> Let $g\in Z(G)$ and $x\in \mathfrak{g}$, then: $$\exp(tx)=g \exp(tx)g ^{-1}=\exp(t\text{Ad}(g)x)$$
+---
 ##### Examples
 > [!h] Example 1
 > For $G=\text{Aut}(V)$, we have that $\mathfrak{g}=\text{End}(V)$ and: 
