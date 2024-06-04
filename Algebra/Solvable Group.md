@@ -22,6 +22,14 @@
 > 
 > If $m<n$, then $Z(G)\unlhd G$ and $\left| G / Z(G) \right|=p^{n-m}$ and by induction hypothesis, we have that $G / Z(G)$ is solvable. By theorem 1, $G$ is solvable.
 ---
+> [!lemma] Lemma 3
+> For a group $G$, the following are equivalent:
+> 1. $G$ is solvable.
+> 2. there exists $r\geq 1$ s.t. the [[Commutator Subgroup|derived series]] $G^{(r)}=\{ e \}$.
+
+> [!proof]+
+> 
+---
 ##### Examples
 - [[Abelian Group]] are solvable by definition with $G_{1}=G$.
 - If a group is [[Simple Group|simple]] and non-abelian, it cannot be solvable.

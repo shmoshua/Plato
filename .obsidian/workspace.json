@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Algebra/Solvable Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Ideal (Lie Algebra).md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +56,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -81,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Algebra/Solvable Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "mode": "preview",
                 "source": false
               }
@@ -124,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -252,18 +253,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ee568ad677adda89",
+  "active": "a982082d3e9feea3",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Algebra/Commutator Subgroup.md",
-    "Lie Group/Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Algebra/Solvable Group.md",
+    "Algebra/Normal Subgroup.md",
+    "Lie Group/Integral Curve.md",
+    "Algebra/Commutator Subgroup.md",
+    "Lie Group/Ideal (Lie Algebra).md",
+    "Lie Group/Exponential Map.md",
+    "Untitled.md",
+    "Lie Group/Topological Group.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Lie Group/Adjoint Representation.md",
-    "Algebra/Normal Subgroup.md",
-    "Lie Group/Ideal (Lie Algebra).md",
     "Representation Theory/Lie Algebra Representation.md",
-    "Lie Group/Exponential Map.md",
     "Lie Group/Flow.md",
     "Algebra/General Linear Group.md",
     "Lie Group/Lie Group.md",
@@ -273,13 +276,11 @@
     "Lie Group/One-Parameter Subgroup.md",
     "Algebra/Ideal.md",
     "Analysis/Lie Derivative.md",
-    "Lie Group/Integral Curve.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Vector Field.md",
     "Analysis/Automorphism on Vector Spaces.md",
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Cotangent Bundle.md",
-    "Differential Geometry/Tangent Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
