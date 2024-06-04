@@ -56,6 +56,14 @@
 > We have by Corollary above,
 > $$\begin{align}\mathfrak{h}&=\{ v\in \mathfrak{g}: \exp_{G_{1}}(tv)\in \text{ker }\varphi,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: \varphi(\exp_{G_{1}}(tv))=e,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: \exp_{G_{2}}(t\cdot d_{e}\varphi(v))=e,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: d_{e}\varphi(v)=0,\forall t\in \mathbb{R} \}\\&=\text{ker }d_{e}\varphi\end{align}$$
 ---
+###### Connected Lie Group
+> [!lemma] Theorem 1
+> Let $G$ be a connected abelian Lie group with $n:=\text{dim }G$. Then, $$G\cong\mathbb{T}^a\times \mathbb{R}^{n-a}$$ as Lie groups for some $a$.
+
+> [!proof]+
+> We have:
+> 1. Let $V$ be a finite dimensional $\mathbb{R}$-vector space and $\Gamma\leq V$ is a discrete subgroup. We claim that there exist $\gamma_{1},\dots,\gamma_{r}\in \Gamma$ linearly independent in $V$ s.t. $\Gamma=\mathbb{Z}\gamma_{1}+\dots+\mathbb{Z}\gamma_{r}$.
+---
 ##### Examples
 > [!h] Example 1
 > A discrete group is a Lie group if and only if it is countable, in which case the dimension is $0$.

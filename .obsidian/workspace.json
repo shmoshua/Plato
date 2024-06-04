@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -137,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Lie Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Lie Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Solvable Group.md"
+                "file": "Lie Group/Lie Group.md"
               }
             }
           }
@@ -265,9 +265,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1db5ea563cbfbfc7",
+  "active": "a982082d3e9feea3",
   "lastOpenFiles": [
     "Lie Group/Topological Group.md",
+    "Lie Group/Lie Group.md",
     "Algebra/Solvable Group.md",
     "Algebra/Commutator Subgroup.md",
     "Topology/Connected Space.md",
@@ -288,7 +289,6 @@
     "Representation Theory/Lie Algebra Representation.md",
     "Lie Group/Flow.md",
     "Algebra/General Linear Group.md",
-    "Lie Group/Lie Group.md",
     "Lie Group/Lie Group Representation.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Lie Subgroup.md",

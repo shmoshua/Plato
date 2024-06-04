@@ -64,6 +64,7 @@
 > Let $G=A\sqcup B$ be a non-empty open decomposition of $G$. Wlog we assume that $e\in A$. Since $H$ is connected, so is $gH$. Since each coset meets either $A$ or $B$, each must be contained entirely in one or the other. Consequently, each of $A$ or $B$ is a union of left cosets of $H$. 
 > 
 > Consider the canonical projection $\pi:G\to G / H$. Then, it is open by [[Quotient Topology|Lemma 2.1]] and $G / H=\pi(A)\sqcup \pi(B)$ where both are non-empty open sets and disjoint. This is a contradiction.
+
 ---
 ##### Examples
 > [!h] Example 1
