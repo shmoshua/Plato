@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Differential Geometry/Tangent Space II.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Analysis/Automorphism on Vector Spaces.md",
                 "mode": "preview",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -253,13 +253,18 @@
   },
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Differential Geometry/Tangent Space.md",
-    "Lie Group/Topological Group.md",
+    "Analysis/Automorphism on Vector Spaces.md",
+    "Differential Geometry/Tangent Space II.md",
     "Lie Group/Adjoint Representation.md",
+    "Algebra/General Linear Group.md",
+    "Lie Group/Topological Group.md",
+    "Differential Geometry/Cotangent Bundle.md",
+    "Lie Group/Exponential Map.md",
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Function.md",
     "Representation Theory/Representation.md",
-    "Lie Group/Exponential Map.md",
     "Differential Geometry/Vector Field.md",
     "Representation Theory/Lie Algebra.md",
     "Algebra/Inner Automorphism.md",
@@ -274,11 +279,6 @@
     "Lie Group/Lie Group.md",
     "Algebra/Ideal.md",
     "Lie Group/Ring of Germs.md",
-    "Topology/Compact Metric Space.md",
-    "Algebra/General Linear Group.md",
-    "Lie Group/Local Homomorphism.md",
-    "Lie Group/Integral Curve.md",
-    "Differential Geometry/Smooth Distribution.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

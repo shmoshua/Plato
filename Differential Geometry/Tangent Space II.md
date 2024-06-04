@@ -45,3 +45,9 @@
 > Let $U\subseteq \mathbb{R}^m$ be an open subset. Then, with the atlas $\{ (U,\text{id}) \}$, $\text{T}_{p}U=\mathbb{R}^m$ for any $p\in U$.
 ---
 
+> [!h] Example 2
+> Let $V$ be a finite dimensional $\mathbb{R}$-vector space and $\Omega \subseteq V$ open. Then, for $v\in \Omega$, we have the identification: $$\begin{array}{cccc} &{V}&\to&{\text{T}_{v}\Omega}\\&{w} &\mapsto & {w_{v}} \end{array}{}$$where $w_{v}(f):= \left. \frac{d}{dt} \right|_{t=0}f(v+tw)$ for $f\in C^\infty(\Omega)$. Then, for any linear $L:V\to \Omega$, 
+> 1. $d_{v}L(w_{v})=\left. \frac{d}{dt} \right|_{t=0}L(v+tw)=L(w)$.
+> 2. for any $\lambda\in V^{*}$, $d_{v}\lambda(w_{v})=w_{v}(\lambda)=\left. \frac{d}{dt} \right|_{t=0}\lambda(v+tw)=\lambda(w)$.
+- **Remark**: Therefore, $u_{v}=w_{v}$ if and only if for all $\lambda\in V^{*}$, $d_{v}\lambda(u_{v})=d_{v}\lambda(w_{v})$.
+---
