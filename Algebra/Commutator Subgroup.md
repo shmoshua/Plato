@@ -31,4 +31,10 @@
 > Let: $$G:=\{ kA\in \text{GL}(n,\mathbb{R}): k>0, A\in \text{UT}(n,\mathbb{R})\}$$Then,
 > 1. $G^{(1)}=\text{UT}(n,\mathbb{R})$.
 > 2. $G^{(2)}=\{ A\in \text{UT}(n,\mathbb{R}) :A_{i,j+1}=0\}$.
-> 3. $G^{(k)}=\{ A\in \text{UT}(n,\mathbb{R}) :A_{i,j+\ell}=0,\forall\}$.
+> 3. $G^{(k)}=\{ A\in \text{UT}(n,\mathbb{R}) :A_{i,j+\ell}=0,1\leq\ell< k\}$.
+> 4. $G^{(n)}=\{ \text{id} \}$
+> 5. $G$ is [[Solvable Group|solvable]]. 
+
+> [!proof]-
+> We have:
+> 1. We have: $[kA,sB]=k^{-1}s ^{-1}ks A^{-1}B^{-1}AB=A^{-1}B^{-1}AB\in \text{UT}(n,\mathbb{R})$. $

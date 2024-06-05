@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Lie Group/Weight.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Algebra/Solvable Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Lie Group/Weight.md",
                 "mode": "preview",
                 "source": false
               }
@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Lie Group/Weight.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Lie Group/Weight.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md"
+                "file": "Lie Group/Weight.md"
               }
             }
           }
@@ -277,13 +277,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3a13078c285526fb",
+  "active": "15a3873a3bebf603",
   "lastOpenFiles": [
-    "Algebra/Solvable Group.md",
-    "Lie Group/Lie Group.md",
     "Lie Group/Local Homomorphism.md",
-    "Lie Group/Lattice.md",
+    "Lie Group/Weight.md",
+    "Lie Group/Lie Group.md",
     "Algebra/Commutator Subgroup.md",
+    "Algebra/Solvable Group.md",
+    "Lie Group/Lattice.md",
     "Lie Group/Topological Group.md",
     "Topology/Connected Space.md",
     "Topology/Quotient Topology.md",
@@ -304,7 +305,6 @@
     "Lie Group/Flow.md",
     "Algebra/General Linear Group.md",
     "Lie Group/Lie Group Representation.md",
-    "Representation Theory/Lie Algebra.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

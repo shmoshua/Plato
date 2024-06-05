@@ -69,6 +69,10 @@
 >    Let $0\neq a\in \Gamma$. Then, $\Gamma \cap a\mathbb{R}$ is a discrete subgroup of dimension 1. Therefore, there exists $\gamma\in \Gamma \cap a\mathbb{R}$ s.t. $\Gamma \cap a\mathbb{R}=\mathbb{Z}\gamma$. Let $\Gamma'=p(\Gamma)$ where $p:\Gamma\to \Gamma / (\Gamma \cap a\mathbb{R})$. We have that, $\text{dim}(\Gamma')=n-1$. Therefore, there exists $a_{1},\dots,a_{\ell}\in \Gamma'$ with: $$\Gamma'=\mathbb{Z}a_{1}+\dots+\mathbb{Z}a_{\ell}$$Then, for $\gamma_{i}\in \Gamma$ s.t. $p(\gamma_{i})=a_{i}$, we have $\Gamma=\mathbb{Z}\gamma_{1}+\dots+\mathbb{Z}\gamma_{\ell}+\mathbb{Z}{\gamma_{\ell+1}}$ where $\gamma_{\ell+1}=\gamma$. For linear independence, if $\sum_{i=1}^{\ell+1}\xi_{i}\gamma_{i}=0$, $p\left( \sum_{i=1}^{\ell+1}\xi_{i}\gamma_{i} \right)=p\left( \sum_{i=1}^{\ell}\xi_{i}\gamma_{i} \right)=\sum_{i=1}^{\ell}\xi_{i}p(\gamma_{i})=0$. Therefore, $\xi_{i}=0$ and $\xi_{\ell+1}=0$. Further, similarly, we have the equality.
 > 2. Let $G$ be an connected abelian group with dimension $n$. Then, $\exp:\mathfrak{g}\to G$ is a homomorphism of abelian groups: indeed, as $G$ is connected, by [[Topological Group|Lemma 2.4]] and [[Exponential Map|Proposition 2.2]], $\exp$ is surjective. Now, let $\Gamma:=\text{ker}\exp\leq \mathfrak{g}$. As $\exp$ forms a diffeomorphism in a neighborhood around $0$, we have that $\Gamma$ is discrete. Hence, by 1, $\Gamma=\mathbb{Z}\gamma_{1}+\dots+\mathbb{Z}\gamma_{r}$ for $\gamma_{i}\in \text{ker}\exp$ linearly independent. We can extend this to a basis of $\mathfrak{g}$ with $\gamma_{r+1},\dots,\gamma_{n}$. Then, $$G\cong \mathbb{R}^n / (\mathbb{Z}^r )\cong \mathbb{T}^r \times \mathbb{R}^{n-r}$$
 ---
+> [!lemma] Theorem 2 (Lie, 1st)
+> Let $G$ be a connected Lie group that is [[Solvable Group|solvable]]. Further, let $\rho:G\to \text{GL}(V)$ be a [[Lie group representation]] to a finite dimensional complex vector space $V$. Then, 
+> 1. there exists a basis of $V$ s.t. $\rho(g)$ is upper triangular w.r.t. the basis for all $g\in G$.
+---
 ##### Examples
 > [!h] Example 1
 > A discrete group is a Lie group if and only if it is countable, in which case the dimension is $0$.
