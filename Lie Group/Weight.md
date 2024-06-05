@@ -15,6 +15,9 @@
 > 
 > Further, $\Gamma ^{-1}$ is a projection, hence as a smooth homomorphism has constant rank. Therefore, $\Gamma$ is a diffeomorphism. For second smooth projection $q:\text{graph}(\chi)\to \mathbb{C}^\times$, we have: $$\chi=q\circ \Gamma$$
 ---
-> [!lemma] Theorem 2 (Existence of Weights for Connected Solvable Lie Groups)
+> [!lemma] Lemma 2
+> Let $G$ be a connected Lie group and $\rho:G\to \text{GL}(V)$ a complex 
+---
+> [!lemma] Theorem 3 (Existence of Weights for Connected Solvable Lie Groups)
 > Let $G$ be a connected solvable Lie group. Then, for any complex representation $\rho:G\to \text{GL}(V)$, 
 > 1. there exists a weight $\chi$ of $G$ in $V$.
