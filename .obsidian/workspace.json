@@ -142,14 +142,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Weight.md"
+                "file": "Differential Geometry/Smooth Function.md"
               }
             }
           }
@@ -277,17 +277,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "15a3873a3bebf603",
+  "active": "5c7c2e7a96470e3d",
   "lastOpenFiles": [
-    "Lie Group/Local Homomorphism.md",
+    "Differential Geometry/Differential.md",
     "Lie Group/Weight.md",
-    "Lie Group/Lie Group.md",
     "Algebra/Commutator Subgroup.md",
+    "Topology/Connected Space.md",
+    "Differential Geometry/Rank.md",
+    "Topology/Quotient Topology.md",
+    "Lie Group/Lie Group.md",
+    "Lie Group/Local Homomorphism.md",
     "Algebra/Solvable Group.md",
     "Lie Group/Lattice.md",
     "Lie Group/Topological Group.md",
-    "Topology/Connected Space.md",
-    "Topology/Quotient Topology.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Continuous Function.md",
@@ -303,8 +305,6 @@
     "Lie Group/Adjoint Representation.md",
     "Representation Theory/Lie Algebra Representation.md",
     "Lie Group/Flow.md",
-    "Algebra/General Linear Group.md",
-    "Lie Group/Lie Group Representation.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
