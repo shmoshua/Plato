@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -279,14 +279,16 @@
   },
   "active": "15a3873a3bebf603",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Topology/Connected Space.md",
+    "Representation Theory/Representation.md",
+    "Lie Group/Weight.md",
     "Lie Group/Lie Group.md",
+    "Functional Analysis/Group Representation.md",
+    "Algebra/Commutator Subgroup.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Solvable Group.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Differential.md",
-    "Lie Group/Weight.md",
-    "Algebra/Commutator Subgroup.md",
-    "Topology/Connected Space.md",
     "Differential Geometry/Rank.md",
     "Topology/Quotient Topology.md",
     "Lie Group/Local Homomorphism.md",
@@ -303,8 +305,6 @@
     "Lie Group/Exponential Map.md",
     "Untitled.md",
     "Functional Analysis/Adjoint Linear Map.md",
-    "Lie Group/Adjoint Representation.md",
-    "Representation Theory/Lie Algebra Representation.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
