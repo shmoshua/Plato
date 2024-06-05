@@ -53,7 +53,7 @@
 > 2. Let $G$ be additionally connected. Then, by [[Commutator Subgroup|Lemma 2]], $G^{(r-1)}$ is connected and by [[Connected Space|Lemma 2]], $\overline{G^{(r-1)}}$ is connected. Then, $G / \overline{G^{(r-1)}}$ is also a connected as a continuous image of $G$ through the canonical projection and for each $H_{i}$, $\pi ^{-1}(H_{i}) / \overline{G^{(r-1)}}=H_{i}$, which is connected. Therefore, by [[Topological Group|Connected Lemma 1]], $\pi ^{-1}(H_{i})$ are connected. This proves the statement.
 ---
 > [!lemma] Corollary 2
-> Let $G$ be a connected solvable Lie group. Then, there exists a sequence: $$\{ e \}=G_{r}\unlhd\dots\unlhd G_{0}=G$$where $G_{i}$ are closed and connected and $G_{i-1} / G_{i}$ is isomorphic to either $\mathbb{R}$ or $\mathbb{T}$.
+> Let $G$ be a connected Lie group that is a solvable group. Then, there exists a sequence: $$\{ e \}=G_{r}\unlhd\dots\unlhd G_{0}=G$$where $G_{i}$ are closed and connected and $G_{i-1} / G_{i}$ is isomorphic to either $\mathbb{R}$ or $\mathbb{T}$.
 
 > [!proof]-
 > From Theorem 1, we have: $$\{ e \}=H_{\ell}\unlhd\dots\unlhd H_{0}=G$$with $H_{i}$ is closed connected and $H_{i-1} / H_{i}$ is abelian and connected. By [[Lie Group|Connected Lie group theorem 1]], $H_{i-1} / H_{i}\cong \mathbb{T}^{a_{i}}\times \mathbb{R}^{b_{i}}$. Then, we can replace $H_{i}$ with the pre-image of: $$\{ 0 \}\unlhd \mathbb{T}\unlhd\dots \unlhd \mathbb{T}^{a_{i}}\unlhd \mathbb{T}^{a_{i}}\times \mathbb{R}\unlhd \dots\unlhd \mathbb{T}^{a_{i}}\times \mathbb{R}^{b_{i}}$$
