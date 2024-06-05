@@ -63,6 +63,10 @@
 > [!proof]+
 > We have:
 > 1. Let $V$ be a finite dimensional $\mathbb{R}$-vector space and $\Gamma\leq V$ is a discrete subgroup. We claim that there exist $\gamma_{1},\dots,\gamma_{r}\in \Gamma$ linearly independent in $V$ s.t. $\Gamma=\mathbb{Z}\gamma_{1}+\dots+\mathbb{Z}\gamma_{r}$.
+>    
+>    We show this via induction over $n:=\text{dim}(V)$. Let $n=1$. Then, by [[Lattice|Example 1 proof]], a non-empty $\Gamma\leq V$ is dense or $\mathbb{Z}\gamma$ for $\gamma\in V$.
+>    
+>    Let $0\neq a\in \Gamma$. Then, $\Gamma \cap a\mathbb{R}$ is a discrete subgroup of dimension 1. Therefore, there exists $\gamma\in \Gamma \cap a\mathbb{R}$ s.t. $\Gamma \cap a\mathbb{R}=\mathbb{Z}\gamma$. Let $\Gamma'=p(\Gamma)$ where $p:\Gamma\to \Gamma / (\Gamma \cap a\mathbb{R})$. We have that, $\text{dim}(\Gamma')=n-1$. Therefore, there exists $\gamma_{1},\dots,\gamma_{\ell}$ with: $$\Gamma'=\mathbb{Z}\gamma_{1}+\dots+\mathbb{Z}$$
 ---
 ##### Examples
 > [!h] Example 1
