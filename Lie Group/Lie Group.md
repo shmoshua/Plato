@@ -56,10 +56,11 @@
 > We have by Corollary above,
 > $$\begin{align}\mathfrak{h}&=\{ v\in \mathfrak{g}: \exp_{G_{1}}(tv)\in \text{ker }\varphi,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: \varphi(\exp_{G_{1}}(tv))=e,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: \exp_{G_{2}}(t\cdot d_{e}\varphi(v))=e,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: d_{e}\varphi(v)=0,\forall t\in \mathbb{R} \}\\&=\text{ker }d_{e}\varphi\end{align}$$
 ---
-> [!lemma] Theorem 4
-> Let $G$ be a Lie group and $H\unlhd G$ be closed. Then, 
-> 1. $G / H$ admits a unique smooth structure s.t. it becomes a Lie group.
-> 2. $\pi:G\to G / H$ is a smooth submersion and it holds that: $$\text{Lie}(G / H)\cong\mathfrak{g} / \mathfrak{h}$$
+> [!lemma] Theorem 4 (Quotient Manifold Theorem)
+> Let $G$ be a Lie group acting smoothly, freely and properly on a smooth manifold $M$. Then, 
+> 1. $M / G$ is a topological manifold with a unique smooth structure.
+> 2. $\pi:M\to M / G$ is a smooth submersion.
+- **Corollary**: For a Lie group $G$ and $H\leq G$ closed, $G / H$ is a topological manifold with a unique smooth structure. If $H\unlhd G$, then $G / H$ is a Lie group with Lie algebra $\mathfrak{g} / \mathfrak{h}$.
 ---
 ###### Connected Lie Group
 > [!lemma] Theorem 1

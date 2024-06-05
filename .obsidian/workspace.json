@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Solvable Lie Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Solvable Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Solvable Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Group.md"
+                "file": "Lie Group/Solvable Lie Algebra.md"
               }
             }
           }
@@ -267,13 +267,15 @@
   },
   "active": "4d4989b06b37c3f6",
   "lastOpenFiles": [
-    "Lie Group/Solvable Lie Algebra.md",
     "Lie Group/Lie Group.md",
-    "Algebra/Solvable Group.md",
     "Lie Group/Ideal (Lie Algebra).md",
+    "Algebra/Solvable Group.md",
+    "Lie Group/Solvable Lie Algebra.md",
+    "Lie Group/Topological Group.md",
+    "Representation Theory/Lie Algebra.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Topology/Connected Space.md",
     "Lie Group/Lie Group Representation.md",
+    "Topology/Connected Space.md",
     "Differential Geometry/Derivation.md",
     "Lie Group/Weight.md",
     "Differential Geometry/Cotangent Bundle.md",
@@ -286,13 +288,11 @@
     "Topology/Quotient Topology.md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Lattice.md",
-    "Lie Group/Topological Group.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Continuous Function.md",
     "Algebra/Group Homomorphism.md",
     "Lie Group/Integral Curve.md",
     "Analysis/Lie Derivative.md",
-    "Algebra/Normal Subgroup.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

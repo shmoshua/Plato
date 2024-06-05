@@ -19,7 +19,7 @@
 > [!lemma] Proposition 2
 > Let $G$ be a [[Lie group]]. Let $N\leq G$ a closed subgroup with Lie algebra $\mathfrak{n}\subseteq \mathfrak{g}$. 
 > 1. If $N\unlhd G$, then $\mathfrak{n}$ is an ideal of $\mathfrak{g}$.
-> 2. If $G,N$ are connected with $\mathfrak{n}\leq \mathfrak{g}$ as an ideal. Then, $N\unlhd G$.
+> 2. If $G,N$ are connected with $\mathfrak{n}\unlhd \mathfrak{g}$. Then, $N\unlhd G$.
 
 > [!proof]-
 > We have:

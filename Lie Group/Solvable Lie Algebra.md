@@ -46,12 +46,23 @@
 > 1. $\mathfrak{g}$ is solvable.
 > 2. $G$ is a solvable group.
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. (2=>1): By [[Solvable Group|Theorem 1]], there exists: $$\{ e \}=G_{r}\unlhd \dots\unlhd G_{0}=G$$where $G_{i} / G_{i+1}$ is abelian and $G_{i}$ are closed connected. By [[Lie Group|closed subgroup theorem]], $G_{i}$ are Lie groups and let $\mathfrak{g}_{i}$ be their respective Lie algebras. By [[Ideal (Lie Algebra)|Proposition 2]], $\mathfrak{g}_{i}\unlhd \mathfrak{g}_{i-1}$. 
+> 1. (2=>1): By [[Solvable Group|Theorem 1]], there exists: $$\{ e \}=G_{r}\unlhd \dots\unlhd G_{0}=G$$where $G_{i} / G_{i+1}$ is abelian and $G_{i}$ are closed connected. By [[Lie Group|closed subgroup theorem]], $G_{i}$ are Lie groups and let $\mathfrak{g}_{i}$ be their respective Lie algebras. By [[Ideal (Lie Algebra)|Proposition 2]], $\mathfrak{g}_{i}\unlhd \mathfrak{g}_{i-1}$. Then, by [[Lie Group|Quotient Manifold Theorem corollary]], $\text{Lie}(G_{i-1} / G_{i})=\mathfrak{g}_{i-1} / \mathfrak{g}_{i}$ and as $G_{i-1} / G_{i}$ is connected as a continuous image, by [[Lie Algebra|Proposition 4]], $\mathfrak{g}_{i-1} / \mathfrak{g}_{i}$ is abelian and $\mathfrak{g}$ is solvable.
+> 2. (1=>2): We prove by induction on $r:=\text{sol}(\mathfrak{g})$. If $r=1$, then $\mathfrak{g}$ is abelian and as $G$ is connected by [[Lie Algebra|Proposition 4]], $G$ is abelian and $\text{sol}(G)=1$. 
+>    
+>    If $r\geq 2$, then $(0)\neq \mathfrak{g}^{(r-1)}\unlhd \mathfrak{g}$ by Lemma 1.2. Then, by [[Ideal (Lie Algebra)|Proposition 2.2]], $\exp(\mathfrak{g}^{(r-1)})\unlhd G$. Moreover, as $\mathfrak{g}^{(r-1)}$ is abelian, $\exp(\mathfrak{g}^{(r-1)})$ is abelian too by [[Lie Algebra|Proposition 4]]. Then, its closure $N:=\overline{\exp(\mathfrak{g}^{(r-1)})}$ is also normal, abelian and connected by [[Topological Group|Proposition 2.1]] and [[Connected Space|Lemma 2.1]]. Then, $\mathfrak{n}\unlhd\mathfrak{g}$ by [[Ideal (Lie Algebra)|Proposition 2.1]] and it is clear that $\mathfrak{g}^{(r-1)}\leq \mathfrak{n}$. Therefore, $\text{sol}(\mathfrak{n})\leq r-1$. As the Lie algebra of $G / N$ is $\mathfrak{g} / \mathfrak{n}$, we can prove that $G$ is solvable by the inverse image of $\pi:G\to G / N$, similarly to the proof of  [[Solvable Group|Solvable Topological Group Theorem 1]].
+---
+> [!lemma] Theorem 5 (Lie, 1st)
+> Let $\mathfrak{g}$ be a solvable Lie algebra. Further, let $\rho:\mathfrak{g}\to \mathfrak{gl}(V)$ be a [[Lie group representation]] to a finite dimensional complex vector space $V$. Then, 
+> 1. there exists a basis of $V$ s.t. $\rho(x)$ is upper triangular w.r.t. the basis for all $x\in \mathfrak{g}$.
+
+> [!proof]-
+> Analogous to [[Solvable Group|1st Theorem of Lie]].
 ---
 ##### Examples
 > [!h] Example 1
 > Let $\mathfrak{g}$ be the space of all $n\times n$ upper triangular matrices. Then, 
 > 1. $\mathfrak{g}^{(1)}$ is the space of all $n\times n$ upper triangular matrices with zero diagonal.
 > 2. $\mathfrak{g}^{(n)}=(0)$ and $\text{sol}(\mathfrak{g})=n$.
+---
