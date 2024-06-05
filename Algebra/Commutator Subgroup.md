@@ -26,3 +26,9 @@
 > [!proof]-
 > As $G\times G\to G,(g,h)\mapsto[g,h]$ is a continuous map, $V:=\{ [g,h]:g\in G,h\in G \}$ is connected. Then, $V^n$ is also connected and as $e\in V^n$ for all $n\geq 1$, $$[G,G]=\bigcup_{n\geq 1}^{}V^n$$is connected.
 ---
+##### Examples
+> [!h] Example 1
+> Let: $$G:=\{ kA\in \text{GL}(n,\mathbb{R}): k>0, A\in \text{UT}(n,\mathbb{R})\}$$Then,
+> 1. $G^{(1)}=\text{UT}(n,\mathbb{R})$.
+> 2. $G^{(2)}=\{ A\in \text{UT}(n,\mathbb{R}) :A_{i,j+1}=0\}$.
+> 3. $G^{(k)}=\{ A\in \text{UT}(n,\mathbb{R}) :A_{i,j+\ell}=0,\forall\}$.

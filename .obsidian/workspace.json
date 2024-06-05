@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Algebra/Solvable Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,8 +106,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lattice.md",
-                "mode": "source",
+                "file": "Lie Group/Local Homomorphism.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Group.md"
+                "file": "Algebra/Commutator Subgroup.md"
               }
             }
           }
@@ -277,13 +277,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a982082d3e9feea3",
+  "active": "3a13078c285526fb",
   "lastOpenFiles": [
-    "Lie Group/Lattice.md",
+    "Algebra/Solvable Group.md",
     "Lie Group/Lie Group.md",
+    "Lie Group/Local Homomorphism.md",
+    "Lie Group/Lattice.md",
     "Algebra/Commutator Subgroup.md",
     "Lie Group/Topological Group.md",
-    "Algebra/Solvable Group.md",
     "Topology/Connected Space.md",
     "Topology/Quotient Topology.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
@@ -304,7 +305,6 @@
     "Algebra/General Linear Group.md",
     "Lie Group/Lie Group Representation.md",
     "Representation Theory/Lie Algebra.md",
-    "Lie Group/Lie Subgroup.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

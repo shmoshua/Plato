@@ -55,8 +55,8 @@
 > [!lemma] Corollary 2
 > Let $G$ be a connected solvable Lie group. Then, there exists a sequence: $$\{ e \}=G_{r}\unlhd\dots\unlhd G_{0}=G$$where $G_{i}$ are closed and connected and $G_{i-1} / G_{i}$ is isomorphic to either $\mathbb{R}$ or $\mathbb{T}$.
 
-> [!proof]+
-> From Theorem 1, we have: $$\{ e \}=H_{\ell}\unlhd\dots\unlhd H_{0}=G$$with $H_{i}$ is closed connected and $H_{i-1} / H_{i}$ is abelian. 
+> [!proof]-
+> From Theorem 1, we have: $$\{ e \}=H_{\ell}\unlhd\dots\unlhd H_{0}=G$$with $H_{i}$ is closed connected and $H_{i-1} / H_{i}$ is abelian and connected. By [[Lie Group|Connected Lie group theorem 1]], $H_{i-1} / H_{i}\cong \mathbb{T}^{a_{i}}\times \mathbb{R}^{b_{i}}$. Then, we can replace $H_{i}$ with the pre-image of: $$\{ 0 \}\unlhd \mathbb{T}\unlhd\dots \unlhd \mathbb{T}^{a_{i}}\unlhd \mathbb{T}^{a_{i}}\times \mathbb{R}\unlhd \dots\unlhd \mathbb{T}^{a_{i}}\times \mathbb{R}^{b_{i}}$$
 ---
 ##### Examples
 - [[Abelian Group]] are solvable by definition with $G_{1}=G$.
