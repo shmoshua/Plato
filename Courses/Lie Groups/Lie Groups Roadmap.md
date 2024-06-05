@@ -80,5 +80,6 @@
 1. [[Solvable Group]]
 2. [[Commutator Subgroup]]
 3. [[Topological Group|Connected Topological Groups]]
-4. 
+4. [[Weight]]
+5. [[Solvable Lie Algebra]]
 ---

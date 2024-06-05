@@ -73,10 +73,12 @@
 > Let $G$ be a connected Lie group that is [[Solvable Group|solvable]]. Further, let $\rho:G\to \text{GL}(V)$ be a [[Lie group representation]] to a finite dimensional complex vector space $V$. Then, 
 > 1. there exists a basis of $V$ s.t. $\rho(g)$ is upper triangular w.r.t. the basis for all $g\in G$.
 
-> [!proof]+
+> [!proof]-
 > We continue with a proof by induction on $n:=\text{dim}(V)$. Then, by [[Weight|Theorem 3]], let $\chi:G\to \mathbb{C}^\times$ be the [[weight]] of $G$ in $V$. 
 > 
-> Consider $V / V_{\chi}$ and note that $\text{dim}(V / V_{\chi})<n$. We now define a representation $$\overline{\rho}:G\to \text{GL}(V / V_{\chi}),\quad g\mapsto(v+V_{\chi}\mapsto \rho(g)v+V_{\chi})$$This is well-defined as for $v+V_{\chi}=w+V_{\chi}$, $v-w\in V_{\chi}$ and: $$\overline{\rho}(g)(v+V_{\chi})=\rho(g)v+V_{\chi}=\rho(g)v+$$
+> Consider $V / V_{\chi}$ and note that $\text{dim}(V / V_{\chi})<n$. We now define a representation $$\overline{\rho}:G\to \text{GL}(V / V_{\chi}),\quad g\mapsto(v+V_{\chi}\mapsto \rho(g)v+V_{\chi})$$This is well-defined as for $v+V_{\chi}=w+V_{\chi}$, $v-w\in V_{\chi}$ and: $$\overline{\rho}(g)(v+V_{\chi})=\rho(g)v+V_{\chi}=\rho(g)w+\rho(g)(v-w)+V_{\chi}=\rho(g)w+\chi(g)(v-w)+V_{\chi}=\overline{\rho}(g)(w+V_{\chi})$$Now, let $m:=\text{dim}V_{\chi}$ and $e_{1},\dots,e_{m}$ the basis of $V_{\chi}$. Further, let $e_{m+1},\dots,e_{n}\in V$ s.t. $e_{i}+V_{\chi}\in V / V_{\chi}$ form a basis of $V / V_{\chi}$ s.t. $\overline{\rho}(g)$ is upper triangular w.r.t. this basis for all $g\in G$.
+> 
+> In other words, $$\overline{\rho}(g)\overline{e_{i}}=\chi_{i}(g)\overline{e_{i}}+\sum_{j=m+1}^{i-1}\overline{\rho}(g)_{ji}\overline{e_{j}},\quad \forall m+1\leq i\leq n$$where $\chi_{i}(g)$ is the diagonal elements. Therefore, $$\rho(g)e_{i}=\chi_{i}(g)e_{i}+\sum_{j=m+1}^{i-1}\overline{\rho}(g)_{ji}e_{j}\mod V_{\chi}$$It follows that $\rho(g)$ is upper triangular w.r.t. $e_{1},\dots,e_{n}$.
 > 
 ---
 ##### Examples
