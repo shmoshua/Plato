@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md",
+                "file": "Lie Group/Lie Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md",
+                "file": "Lie Group/Lie Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md"
+                "file": "Lie Group/Lie Group.md"
               }
             }
           }
@@ -267,16 +267,16 @@
   },
   "active": "4d4989b06b37c3f6",
   "lastOpenFiles": [
+    "Lie Group/Solvable Lie Algebra.md",
+    "Lie Group/Lie Group.md",
     "Algebra/Solvable Group.md",
     "Lie Group/Ideal (Lie Algebra).md",
-    "Lie Group/Lie Group Representation.md",
-    "Lie Group/Solvable Lie Algebra.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Lie Group/Lie Group.md",
+    "Topology/Connected Space.md",
+    "Lie Group/Lie Group Representation.md",
     "Differential Geometry/Derivation.md",
     "Lie Group/Weight.md",
     "Differential Geometry/Cotangent Bundle.md",
-    "Topology/Connected Space.md",
     "Representation Theory/Representation.md",
     "Functional Analysis/Group Representation.md",
     "Algebra/Commutator Subgroup.md",

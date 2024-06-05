@@ -32,11 +32,23 @@
 > [!lemma] Lemma 3
 > We have:
 > 1. if $\mathfrak{h}\leq \mathfrak{g}$, then $\mathfrak{h}$ is solvable if $\mathfrak{g}$ is.
-> 2. if $\mathfrak{h}\unlhd \mathfrak{g}$, then $\mathfrak{g}$ is solvable if and only if $\mathfrak{h}$ and $\mathfrak{g / h}$ are.
+> 2. if $\mathfrak{h}\unlhd \mathfrak{g}$, then $\mathfrak{g}$ is solvable if and only if $\mathfrak{h}$ and $\mathfrak{g / h}$ are. In which case, we have: $$\text{sol}(\mathfrak{g})\leq \text{sol}(\mathfrak{h})+\text{sol}(\mathfrak{g} / \mathfrak{h})$$
+
+> [!proof]-
+> We have:
+> 1. Notice that $\mathfrak{h}^{(1)}\leq \mathfrak{g}^{(1)}$. Therefore, $\mathfrak{h}^{(i)}\leq \mathfrak{g}^{(i)}$ for all $i\geq 1$ and from Lemma 2, we have $\mathfrak{h}^{(r)}\leq\mathfrak{g}^{(r)}=(0)$ for some $r\geq 1$. This proves that $\mathfrak{h}$ is solvable.
+> 2. Let $\pi:\mathfrak{g}\to \mathfrak{g} / \mathfrak{h}$ be the canonical projection. Then, $\pi(\mathfrak{g}^{ (i)})=(\mathfrak{g} / \mathfrak{h})^{(i)}$ by Lemma 1.3 and $\mathfrak{h}^{(i)}\leq \mathfrak{g}^{(i)}$. Therefore, if $\mathfrak{g}$ is solvable, then $\mathfrak{h}$ and $\mathfrak{g} / \mathfrak{h}$ are.
+>    
+>    Conversely, let $m\geq 1$ with $(0)=(\mathfrak{g} / \mathfrak{h})^{(m)}=\pi(\mathfrak{g}^{(m)})$. Then, $\mathfrak{g}^{(m)}\leq \mathfrak{h}$ and if $\mathfrak{h}^{(r)}=(0)$, then $\mathfrak{g}^{(m+r)}\leq \mathfrak{h}^{(r)}=(0)$.
+---
+> [!lemma] Theorem 4 (Solvable Lie groups and Lie algebras)
+> Let $G$ be a connected Lie group. Then, TFAE:
+> 1. $\mathfrak{g}$ is solvable.
+> 2. $G$ is a solvable group.
 
 > [!proof]+
 > We have:
-> 1. Notice that $\mathfrak{h}^{(1)}\leq \mathfrak{g}^{(1)}$
+> 1. (2=>1): By [[Solvable Group|Theorem 1]], there exists: $$\{ e \}=G_{r}\unlhd \dots\unlhd G_{0}=G$$where $G_{i} / G_{i+1}$ is abelian and $G_{i}$ are closed connected. By [[Lie Group|closed subgroup theorem]], $G_{i}$ are Lie groups and let $\mathfrak{g}_{i}$ be their respective Lie algebras. By [[Ideal (Lie Algebra)|Proposition 2]], $\mathfrak{g}_{i}\unlhd \mathfrak{g}_{i-1}$. 
 ---
 ##### Examples
 > [!h] Example 1
