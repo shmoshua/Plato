@@ -72,6 +72,12 @@
 > [!lemma] Theorem 2 (Lie, 1st)
 > Let $G$ be a connected Lie group that is [[Solvable Group|solvable]]. Further, let $\rho:G\to \text{GL}(V)$ be a [[Lie group representation]] to a finite dimensional complex vector space $V$. Then, 
 > 1. there exists a basis of $V$ s.t. $\rho(g)$ is upper triangular w.r.t. the basis for all $g\in G$.
+
+> [!proof]+
+> We continue with a proof by induction on $n:=\text{dim}(V)$. Then, by [[Weight|Theorem 3]], let $\chi:G\to \mathbb{C}^\times$ be the [[weight]] of $G$ in $V$. 
+> 
+> Consider $V / V_{\chi}$ and note that $\text{dim}(V / V_{\chi})<n$. We now define a representation $$\overline{\rho}:G\to \text{GL}(V / V_{\chi}),\quad g\mapsto(v+V_{\chi}\mapsto \rho(g)v+V_{\chi})$$This is well-defined as for $v+V_{\chi}=w+V_{\chi}$, $v-w\in V_{\chi}$ and: $$\overline{\rho}(g)(v+V_{\chi})=\rho(g)v+V_{\chi}=\rho(g)v+$$
+> 
 ---
 ##### Examples
 > [!h] Example 1

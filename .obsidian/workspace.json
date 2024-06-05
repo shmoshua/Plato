@@ -50,14 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Lie Group/Lie Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Lie Group/Lie Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Weight.md"
+                "file": "Lie Group/Lie Group.md"
               }
             }
           }
@@ -277,11 +277,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "15a3873a3bebf603",
+  "active": "1db5ea563cbfbfc7",
   "lastOpenFiles": [
-    "Algebra/Solvable Group.md",
     "Lie Group/Weight.md",
     "Lie Group/Lie Group.md",
+    "Algebra/Solvable Group.md",
     "Lie Group/Lie Group Representation.md",
     "Topology/Connected Space.md",
     "Representation Theory/Representation.md",
