@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Lie Group/Lie Group Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -279,14 +279,15 @@
   },
   "active": "15a3873a3bebf603",
   "lastOpenFiles": [
-    "Topology/Connected Space.md",
-    "Representation Theory/Representation.md",
+    "Algebra/Solvable Group.md",
     "Lie Group/Weight.md",
     "Lie Group/Lie Group.md",
+    "Lie Group/Lie Group Representation.md",
+    "Topology/Connected Space.md",
+    "Representation Theory/Representation.md",
     "Functional Analysis/Group Representation.md",
     "Algebra/Commutator Subgroup.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Algebra/Solvable Group.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Rank.md",
@@ -304,7 +305,6 @@
     "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Exponential Map.md",
     "Untitled.md",
-    "Functional Analysis/Adjoint Linear Map.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
