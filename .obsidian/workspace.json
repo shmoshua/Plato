@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Ideal (Lie Algebra).md",
+                "file": "Algebra/Solvable Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,21 +55,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "97b4487f25dcd624",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Solvable Group.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -83,18 +71,6 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a13078c285526fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Solvable Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -130,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md",
+                "file": "Algebra/Solvable Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -161,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -227,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Solvable Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Solvable Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Solvable Group.md"
+                "file": "Lie Group/Solvable Lie Algebra.md"
               }
             }
           }
@@ -289,17 +265,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "97b4487f25dcd624",
+  "active": "4d4989b06b37c3f6",
   "lastOpenFiles": [
     "Algebra/Solvable Group.md",
     "Lie Group/Ideal (Lie Algebra).md",
+    "Lie Group/Lie Group Representation.md",
     "Lie Group/Solvable Lie Algebra.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Lie Group.md",
     "Differential Geometry/Derivation.md",
     "Lie Group/Weight.md",
-    "Lie Group/Lie Group.md",
     "Differential Geometry/Cotangent Bundle.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Lie Group/Lie Group Representation.md",
     "Topology/Connected Space.md",
     "Representation Theory/Representation.md",
     "Functional Analysis/Group Representation.md",
