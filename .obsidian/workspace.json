@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Lie Group/Weight.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Lie Group/Weight.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md"
+                "file": "Lie Group/Weight.md"
               }
             }
           }
@@ -277,20 +277,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5c7c2e7a96470e3d",
+  "active": "15a3873a3bebf603",
   "lastOpenFiles": [
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Lie Group.md",
+    "Algebra/Solvable Group.md",
+    "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Differential.md",
     "Lie Group/Weight.md",
     "Algebra/Commutator Subgroup.md",
     "Topology/Connected Space.md",
     "Differential Geometry/Rank.md",
     "Topology/Quotient Topology.md",
-    "Lie Group/Lie Group.md",
     "Lie Group/Local Homomorphism.md",
-    "Algebra/Solvable Group.md",
     "Lie Group/Lattice.md",
     "Lie Group/Topological Group.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Continuous Function.md",
     "Algebra/Group Homomorphism.md",
@@ -304,7 +305,6 @@
     "Functional Analysis/Adjoint Linear Map.md",
     "Lie Group/Adjoint Representation.md",
     "Representation Theory/Lie Algebra Representation.md",
-    "Lie Group/Flow.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
