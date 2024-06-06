@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Representation Theory/Lie Algebra Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -124,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential.md"
+                "file": "Lie Group/Adjoint Representation.md"
               }
             }
           }
@@ -252,16 +252,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a982082d3e9feea3",
+  "active": "1e1344c437031526",
   "lastOpenFiles": [
-    "Lie Group/Adjoint Representation.md",
     "Lie Group/Killing Form.md",
+    "Differential Geometry/Differential.md",
+    "Lie Group/Adjoint Representation.md",
+    "Representation Theory/Lie Algebra Representation.md",
+    "Representation Theory/Lie Algebra.md",
     "Functional Analysis/Adjoint Linear Map.md",
+    "Lie Group/Solvable Lie Algebra.md",
     "Algebra/Solvable Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Nilpotent Lie Algebra.md",
     "Lie Group/Nilpotent Group.md",
-    "Lie Group/Solvable Lie Algebra.md",
     "Lie Group/Weight.md",
     "Lie Group/Lie Group.md",
     "Lie Group/Topological Group.md",
@@ -269,7 +272,6 @@
     "Algebra/Linear Algebra/Nilpotent Matrix.md",
     "Representation Theory/Tensor Product.md",
     "Lie Group/Ideal (Lie Algebra).md",
-    "Representation Theory/Lie Algebra.md",
     "Lie Group/Lie Group Representation.md",
     "Topology/Connected Space.md",
     "Differential Geometry/Derivation.md",
@@ -278,8 +280,6 @@
     "Functional Analysis/Group Representation.md",
     "Algebra/Commutator Subgroup.md",
     "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Rank.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

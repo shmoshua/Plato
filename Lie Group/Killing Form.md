@@ -14,6 +14,4 @@
 > For a connected [[Lie group]] $G$ with Lie algebra $\mathfrak{g}$, $$K_{\mathfrak{g}}(\text{Ad}(g)x,\text{Ad}(g)y)=K_{\mathfrak{g}}(x,y),\quad \forall g\in G, x,y\in \mathfrak{g}$$
 
 > [!proof]+
-> Let $z\in \mathfrak{g}$. Then, let: $$\phi(t):=K_{\mathfrak{g}}(\text{Ad}(\exp(tz))x,\text{Ad}(\exp(tz))y)$$Computing the derivative, we have: $$\phi'(0)=$$
-> 
-> $$\begin{align}K_{\mathfrak{g}}(\text{Ad}(\exp(tz))x,\text{Ad}(\exp(tz))y)&=\text{tr}(\text{ad}(\text{Ad}(\exp(tz))x)\text{ad}(\text{Ad}(\exp(tz))y))\end{align}$$
+> Let $z\in \mathfrak{g}$. Then, $$\text{ad}(\text{Ad}(g)x)z=[\text{Ad}(g)x,z]=\text{Ad}(g)[]$$
