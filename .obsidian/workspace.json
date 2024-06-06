@@ -56,7 +56,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -77,18 +78,6 @@
           },
           {
             "id": "a982082d3e9feea3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Ideal (Lie Algebra).md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15a3873a3bebf603",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -263,13 +252,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Lie Group/Nilpotent Lie Algebra.md",
     "Lie Group/Solvable Lie Algebra.md",
-    "Lie Group/Lie Group.md",
+    "Lie Group/Nilpotent Lie Algebra.md",
+    "Lie Group/Adjoint Representation.md",
     "Lie Group/Ideal (Lie Algebra).md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Lie Group.md",
     "Algebra/Solvable Group.md",
     "Lie Group/Topological Group.md",
     "Representation Theory/Lie Algebra.md",
@@ -290,7 +280,6 @@
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Continuous Function.md",
     "Algebra/Group Homomorphism.md",
-    "Lie Group/Integral Curve.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

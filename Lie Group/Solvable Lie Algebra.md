@@ -66,3 +66,18 @@
 > 1. $\mathfrak{g}^{(1)}$ is the space of all $n\times n$ upper triangular matrices with zero diagonal.
 > 2. $\mathfrak{g}^{(n)}=(0)$ and $\text{sol}(\mathfrak{g})=n$.
 ---
+> [!h] Example 2 (Nilpotent Lie Algebras are solvable)
+> Let $\mathfrak{g}$ be a nilpotent Lie algebra. Then, 
+> 1. $\mathfrak{g}^{(k)}\leq C^k(\mathfrak{g})$ for all $k\geq 1$. 
+> 2. $\mathfrak{g}$ is solvable.
+
+^5ae9c5
+
+> [!proof]-
+> We have that: 
+> 1. $\mathfrak{g}^{(1)}=[\mathfrak{g},\mathfrak{g}]\subseteq C^1(\mathfrak{g})$ and $$\mathfrak{g}^{(k)}=[\mathfrak{g}^{(k-1)},\mathfrak{g}^{(k-1)}]\subseteq[\mathfrak{g},\mathfrak{g}^{(k-1)}]\subseteq[\mathfrak{g},C^{k-1}(\mathfrak{g})]=C^k(\mathfrak{g})$$
+> 2. By [[Nilpotent Lie Algebra|Propsotion 2]] and Lemma 2, as $\mathfrak{g}^{(r)}\leq C^r(\mathfrak{g})=(0)$ for some $r\geq 1$. 
+
+^dc3d92
+
+---
