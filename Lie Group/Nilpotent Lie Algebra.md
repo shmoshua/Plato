@@ -59,14 +59,29 @@
 > [!lemma] Theorem 5 (Engel)
 > Let $\mathfrak{g}$ be a Lie group and $\rho:\mathfrak{g}\to \mathfrak{gl}(V)$ a [[Lie algebra representation]] into a $\mathbb{R}$-vector space s.t. $\rho(x)$ is nilpotent, i.e. $\rho(x)^n=0$ for some $n\in \mathbb{N}$, for all $x\in \mathfrak{g}$. Then,
 > 1. there exists a basis of $V$ s.t. $\varphi(x)$ is strictly upper triangular in the basis for all $x\in\mathfrak{g}$.
+
+> [!proof]+
+> Let us define a ***common null vector*** of a representation: For $\rho:\mathfrak{g}\to \mathfrak{gl}(V)$, $v\in V$ is a common null vector if: $$\rho(x)v=0,\quad \forall x\in \mathfrak{g}$$Let $V_{0}$ denote the space of all null vectors.
+> 1. **Claim 1: for nilpotent $X\in \mathfrak{gl}(V)$,  $\text{ad}(X):\mathfrak{gl}(V)\to \mathfrak{gl}(V)$ is nilpotent**:
+>    Assume $X^\ell=0$. Let us define: $\ell_{X}:\mathfrak{gl}(V)\to \mathfrak{gl}(V),Y\mapsto XY$  and $r_{X}:\mathfrak{gl}(V)\to \mathfrak{gl}(V),Y\mapsto YX$. Then, $\text{ad}(X)=[X,\cdot]=\ell_{X}-r_{X}$ and $\ell_{X}$, $r_{X}$ commute. Therefore, $$\text{ad}(X)^{2\ell}=\sum_{k=0}^{2\ell}{2\ell\choose k} \ell_{X}^kr_{X}^{2\ell-k}=0$$as $\ell_{X}^{\ell}=0$ and $r_{X}^{\ell}=0$.
+> 2. **Claim 2: for a representation $\rho:\mathfrak{g}\to \mathfrak{gl}(V)$ with $\rho(x)$ is nilpotent for all $x\in \mathfrak{g}$. Then, $V_{0}\neq(0)$**
+>    We show by induction on $n:=\text{dim }\mathfrak{g}$. 
+>    
+>    Let $n=1$ and $\mathfrak{g}=\mathbb{R}x$. As $\rho(x)$ is nilpotent, there is $v\neq 0$ s.t. $\rho(x)v=0$. Therefore, $V_{0}\neq(0)$.
+>    Let $n\geq 2$. If $\mathfrak{\rho}$ is not injective, then $\text{dim }\text{ker }\rho\geq 1$ and as $\text{dim}(\mathfrak{g} / \text{ker }\rho)<n$, we are done by induction hypothesis.
+>    
+>    Assume $\rho$ is injective. Then, we can identify $\mathfrak{g}$ with a Lie subalgebra $\mathfrak{g}\leq \mathfrak{gl}(V)$ s.t. for all $x\in \mathfrak{g}$, $x$ is a nilpotent endomorphism on $V$. Let $\mathfrak{h}\leq\mathfrak{g}$ be a maximal proper subalgebra. Then, by Claim 1, for all $x\in \mathfrak{h}$, $\text{ad}(x):\mathfrak{gl}(V)\to \mathfrak{gl}(V)$ is nilpotent. Further, $\text{ad}(x)$ preserves $\mathfrak{h}$ and $\mathfrak{g}$ s.t. we can define: $$\overline{\text{ad}(x)}:\mathfrak{g} / \mathfrak{h}\to \mathfrak{g / h}$$Therefore, we have the representation: $\mathfrak{h}\mapsto \mathfrak{gl}(\mathfrak{g / h}),x\mapsto$
+>    
 ---
 > [!lemma] Corollary 6
 > For a Lie algebra $\mathfrak{g}$, TFAE:
 > 1. $\mathfrak{g}$ is nilpotent.
 > 2. $\text{ad}(\mathfrak{g})$ is strictly upper triangular w.r.t. some basis of $\mathfrak{g}$.
 
-> [!proof]+
->  
+> [!proof]-
+> We have:
+> 1. (1=>2): If $\mathfrak{g}$ is nilpotent then by Proposition 2, $\text{ad}(x)$ is a nilpotent endomorphism for all $x\in \mathfrak{g}$. Therefore, by Engel, there exists a basis $V$ s.t. $\text{ad}(\mathfrak{g})$ is strictly upper triangular w.r.t. this basis.
+> 2. (2=>1): If there exists a basis of $\mathfrak{g}$ s.t. $\text{ad}(\mathfrak{g})$ is strictly upper triangular, then $\text{ad}(\mathfrak{g})$ is nilpotent. In addition, $\text{ker }\text{ad}=Z(\mathfrak{g})$. Therefore, by Lemma 3.2, $\mathfrak{g}$ is nilpotent. 
 ---
 ##### Examples
 > [!h] Example 1
