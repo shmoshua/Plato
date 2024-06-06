@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md",
+                "file": "Algebra/Linear Algebra/Nilpotent Matrix.md",
                 "mode": "preview",
                 "source": false
               }
@@ -253,8 +253,10 @@
   },
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Lie Group/Solvable Lie Algebra.md",
+    "Algebra/Linear Algebra/Nilpotent Matrix.md",
     "Lie Group/Nilpotent Lie Algebra.md",
+    "Lie Group/Solvable Lie Algebra.md",
+    "Representation Theory/Tensor Product.md",
     "Lie Group/Lie Group.md",
     "Algebra/Solvable Group.md",
     "Lie Group/Topological Group.md",
@@ -277,8 +279,6 @@
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Lattice.md",
     "Topology/Continuous Functions in Metric Spaces.md",
-    "Topology/Continuous Function.md",
-    "Algebra/Group Homomorphism.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
