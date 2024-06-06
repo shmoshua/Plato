@@ -85,4 +85,8 @@
 
 **3.2 Nilpotent Lie Groups and Lie Algebras**
 1. [[Nilpotent Lie Algebra]]
+2. [[Nilpotent Group]]
+
+**3.3 The Killing Form and Cartan's Criterion for Solvability**
+1. [[Killing Form]]
 ---

@@ -12,23 +12,30 @@
 > 2. $G_{i-1} / G_{i}\in Z(G / G_{i})$
 > 3. $C^{i-1}(G) / C^{i}(G)\subseteq Z(G / C^i(G))$
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. $G_{i}=[G,G^{i-1}]\subseteq \mathfrak{g}_{i+1}\subseteq \mathfrak{g}_{i}$. 
-> 2. Consider $\pi:\mathfrak{g}\to \mathfrak{g} / \mathfrak{g}_{i}$ the canonical projection. Then, $$[\mathfrak{g / \mathfrak{g}_{i}},\mathfrak{g}_{i-1}/ \mathfrak{g}_{i}]=\pi([\mathfrak{g} , \mathfrak{g}_{i-1}])\subseteq \pi(\mathfrak{g}_{i})=(0)$$Therefore, $\mathfrak{g}_{i-1} / \mathfrak{g}_{i}\subseteq Z(\mathfrak{g} / \mathfrak{g}_{i})$.
+> 1. For $x,a\in G$ and $b\in G_{i-1}$, as $x[a,b]x ^{-1}=xa^{-1}b^{-1}abx ^{-1}=[xax ^{-1},xbx ^{-1}]\in [G,G_{i-1}]\subseteq G_{i}$.
+> 2. Consider $\pi:G\to G /G_{i}$ the canonical projection. Then, $$[G / G_{i},G_{i-1} / G_{i}]=\pi([G, G_{i-1}])\subseteq \pi(G_{i})=\{ e \}$$Therefore, $G_{i-1} / G_{i}\subseteq Z(G / G_{i})$.
 > 3. Analogous to 2.
 ---
 > [!lemma] Proposition 2
 > For a group $G$, TFAE:
 > 1. $G$ is nilpotent.
-> 2. $C^r(G)=(0)$ for some $r\geq 1$.
+> 2. $C^r(G)=\{ e \}$ for some $r\geq 1$.
 
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. (1=>2): We show that $\mathfrak{g}_{i}\supseteq C^i(\mathfrak{g})$. We have that $\mathfrak{g}_{1}\supseteq[\mathfrak{g},\mathfrak{g}]=C^1(\mathfrak{g})$. Then, $$\mathfrak{g}_{i}\supseteq[\mathfrak{g},\mathfrak{g}_{i-1}]\supseteq[\mathfrak{g},C^{i-1}(\mathfrak{g})]=C^i(\mathfrak{g})$$and $C^r(\mathfrak{g})=(0)$. 
+> 1. (1=>2): We show that $G_{i}\supseteq C^i(G)$. We have that $G_{1}\supseteq[G,G]=C^1(G)$. Then, $$G_{i}\supseteq[G,G_{i-1}]\supseteq[G,C^{i-1}(G)]=C^i(G)$$and $C^r(G)=\{ e \}$. 
 > 2. (2=>1): By definition.
-> 3. (2<=>3): We claim that: $$C^k(\mathfrak{g})=\text{span}\{ \text{ad}(x_{1})\dots \text{ad}(x_{k})y: x_{1},\dots,x_{k},y\in \mathfrak{g} \}$$We have that: $$C^1(\mathfrak{g})=[\mathfrak{g},\mathfrak{g}]=\text{span}\{ [x,y]: x,y\in \mathfrak{g} \}=\text{span}\{\text{ad}(x)y: x,y\in \mathfrak{g} \}$$Further, $$\begin{align}C^k(\mathfrak{g})=[\mathfrak{g},C^{k-1}(\mathfrak{g})]&=\text{span}\{ [x,y]: x\in \mathfrak{g},y\in C^{k-1}(\mathfrak{g}) \}\\&=\text{span}\{ \text{ad}(x_{1})\dots \text{ad}(x_{k})y: x_{1},\dots,x_{k},y\in \mathfrak{g} \}\end{align}$$This proves the statement.
-- **Related definition**: The ***nilpotency length*** of a nilpotent Lie algebra is $\text{nil}(\mathfrak{g}):=\text{min}\{ r\geq 1 :C^r(\mathfrak{g})=(0)\}$
-- **Corollary**: For a nilpotent Lie algebra $\mathfrak{g}$ with $r:=\text{nil}(\mathfrak{g})\geq 1$, $(0)\subsetneq C^{r-1}(\mathfrak{g})\subseteq Z(\mathfrak{g})$ by Lemma 1.3 and the center is non-trivial.
+- **Related definition**: The ***nilpotency length*** of a nilpotent $G$ is $\text{nil}(G):=\text{min}\{ r\geq 1 :C^r(G)=\{ e \}\}$
+---
+> [!lemma] Theorem 3 (Nilpotent Lie groups and Lie algebras)
+> Let $G$ be a connected Lie group. Then, TFAE:
+> 1. $G$ is nilpotent.
+> 2. there exists a sequence of closed connected subgroups: $$G=G_{0}\geq G_{1}\geq\dots\geq G_{r}=\{ e \}$$with $[G,G_{i-1}]\subseteq G_{i}$.
+> 3. $\mathfrak{g}$ is a [[nilpotent Lie algebra]].
+
+> [!proof]-
+> Analogous to [[Solvable Group|Solvable Topological Group Theorem 1]] and [[Solvable Lie Algebra|Theorem 4]].
 ---
