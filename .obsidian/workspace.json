@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -124,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Differential Geometry/Differential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Differential Geometry/Differential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Killing Form.md"
+                "file": "Differential Geometry/Differential.md"
               }
             }
           }
@@ -252,21 +252,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fa262e1a78be4135",
+  "active": "a982082d3e9feea3",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Adjoint Representation.md",
     "Lie Group/Killing Form.md",
+    "Functional Analysis/Adjoint Linear Map.md",
+    "Algebra/Solvable Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Nilpotent Lie Algebra.md",
     "Lie Group/Nilpotent Group.md",
     "Lie Group/Solvable Lie Algebra.md",
-    "Algebra/Solvable Group.md",
     "Lie Group/Weight.md",
     "Lie Group/Lie Group.md",
     "Lie Group/Topological Group.md",
     "Untitled.md",
     "Algebra/Linear Algebra/Nilpotent Matrix.md",
     "Representation Theory/Tensor Product.md",
-    "Lie Group/Adjoint Representation.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Lie Group Representation.md",
@@ -279,7 +280,6 @@
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Rank.md",
-    "Topology/Quotient Topology.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
