@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Nilpotent Lie Algebra.md",
+                "file": "Lie Group/Nilpotent Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md",
+                "file": "Lie Group/Nilpotent Lie Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Nilpotent Lie Algebra.md",
+                "file": "Lie Group/Nilpotent Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Linear Algebra/Nilpotent Matrix.md",
+                "file": "Lie Group/Nilpotent Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Nilpotent Lie Algebra.md",
+                "file": "Lie Group/Nilpotent Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Nilpotent Lie Algebra.md",
+                "file": "Lie Group/Nilpotent Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Nilpotent Lie Algebra.md"
+                "file": "Lie Group/Nilpotent Group.md"
               }
             }
           }
@@ -251,13 +251,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "33eb575cd9e8d842",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Algebra/Linear Algebra/Nilpotent Matrix.md",
     "Lie Group/Nilpotent Lie Algebra.md",
-    "Lie Group/Solvable Lie Algebra.md",
-    "Representation Theory/Tensor Product.md",
     "Lie Group/Lie Group.md",
+    "Lie Group/Nilpotent Group.md",
+    "Lie Group/Solvable Lie Algebra.md",
+    "Untitled.md",
+    "Algebra/Linear Algebra/Nilpotent Matrix.md",
+    "Representation Theory/Tensor Product.md",
     "Algebra/Solvable Group.md",
     "Lie Group/Topological Group.md",
     "Lie Group/Adjoint Representation.md",
@@ -277,8 +279,6 @@
     "Differential Geometry/Rank.md",
     "Topology/Quotient Topology.md",
     "Lie Group/Local Homomorphism.md",
-    "Lie Group/Lattice.md",
-    "Topology/Continuous Functions in Metric Spaces.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

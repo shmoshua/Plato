@@ -58,9 +58,9 @@
 ---
 > [!lemma] Theorem 5 (Engel)
 > Let $\mathfrak{g}$ be a Lie group and $\rho:\mathfrak{g}\to \mathfrak{gl}(V)$ a [[Lie algebra representation]] into a $\mathbb{R}$-vector space s.t. $\rho(x)$ is nilpotent, i.e. $\rho(x)^n=0$ for some $n\in \mathbb{N}$, for all $x\in \mathfrak{g}$. Then,
-> 1. there exists a basis of $V$ s.t. $\varphi(x)$ is strictly upper triangular in the basis for all $x\in\mathfrak{g}$.
+> 1. there exists a basis of $V$ s.t. $\rho(x)$ is strictly upper triangular in the basis for all $x\in\mathfrak{g}$.
 
-> [!proof]+
+> [!proof]-
 > Let us define a ***common null vector*** of a representation: For $\rho:\mathfrak{g}\to \mathfrak{gl}(V)$, $v\in V$ is a common null vector if: $$\rho(x)v=0,\quad \forall x\in \mathfrak{g}$$Let $V_{0}$ denote the space of all null vectors.
 > 1. **Claim 1: for nilpotent $X\in \mathfrak{gl}(V)$,  $\text{ad}(X):\mathfrak{gl}(V)\to \mathfrak{gl}(V)$ is nilpotent**:
 >    Assume $X^\ell=0$. Let us define: $\ell_{X}:\mathfrak{gl}(V)\to \mathfrak{gl}(V),Y\mapsto XY$  and $r_{X}:\mathfrak{gl}(V)\to \mathfrak{gl}(V),Y\mapsto YX$. Then, $\text{ad}(X)=[X,\cdot]=\ell_{X}-r_{X}$ and $\ell_{X}$, $r_{X}$ commute. Therefore, $$\text{ad}(X)^{2\ell}=\sum_{k=0}^{2\ell}{2\ell\choose k} \ell_{X}^kr_{X}^{2\ell-k}=0$$as $\ell_{X}^{\ell}=0$ and $r_{X}^{\ell}=0$.
@@ -70,7 +70,15 @@
 >    Let $n=1$ and $\mathfrak{g}=\mathbb{R}x$. As $\rho(x)$ is nilpotent, there is $v\neq 0$ s.t. $\rho(x)v=0$. Therefore, $V_{0}\neq(0)$.
 >    Let $n\geq 2$. If $\mathfrak{\rho}$ is not injective, then $\text{dim }\text{ker }\rho\geq 1$ and as $\text{dim}(\mathfrak{g} / \text{ker }\rho)<n$, we are done by induction hypothesis.
 >    
->    Assume $\rho$ is injective. Then, we can identify $\mathfrak{g}$ with a Lie subalgebra $\mathfrak{g}\leq \mathfrak{gl}(V)$ s.t. for all $x\in \mathfrak{g}$, $x$ is a nilpotent endomorphism on $V$. Let $\mathfrak{h}\leq\mathfrak{g}$ be a maximal proper subalgebra. Then, by Claim 1, for all $x\in \mathfrak{h}$, $\text{ad}(x):\mathfrak{gl}(V)\to \mathfrak{gl}(V)$ is nilpotent. Further, $\text{ad}(x)$ preserves $\mathfrak{h}$ and $\mathfrak{g}$ s.t. we can define: $$\overline{\text{ad}(x)}:\mathfrak{g} / \mathfrak{h}\to \mathfrak{g / h}$$Therefore, we have the representation: $\mathfrak{h}\mapsto \mathfrak{gl}(\mathfrak{g / h}),x\mapsto$
+>    Assume $\rho$ is injective. Then, we can identify $\mathfrak{g}$ with a Lie subalgebra $\mathfrak{g}\leq \mathfrak{gl}(V)$ s.t. for all $x\in \mathfrak{g}$, $x$ is a nilpotent endomorphism on $V$. Let $\mathfrak{h}\leq\mathfrak{g}$ be a maximal proper subalgebra. Then, by Claim 1, for all $x\in \mathfrak{h}$, $\text{ad}(x):\mathfrak{gl}(V)\to \mathfrak{gl}(V)$ is nilpotent. Further, $\text{ad}(x)$ preserves $\mathfrak{h}$ and $\mathfrak{g}$ s.t. we can define: $$\overline{\text{ad}(x)}:\mathfrak{g} / \mathfrak{h}\to \mathfrak{g / h}$$Therefore, we have the representation: $\mathfrak{h}\mapsto \mathfrak{gl}(\mathfrak{g / h}),x\mapsto \overline{\text{ad}(x)}$ of nilpotent elements. By induction hypothesis, there exists $x_{0}\in \mathfrak{g} \backslash \mathfrak{h}$ s.t. $x_{0}+\mathfrak{h}$ is a common null-vector for $\mathfrak{h}$. This means, for all $x\in \mathfrak{h}$, $[x,x_{0}]\in \mathfrak{h}$.
+>    
+>     Hence, $\mathbb{R}x_{0}+\mathfrak{h}$ is a subalgebra of $\mathfrak{g}$. Indeed, for $y,z\in \mathfrak{h}$ and $\lambda,\mu\in \mathbb{R}$, we have: $$[\lambda x_{0}+y,\mu x_{0}+z]=\lambda[x_{0},z]+\mu[y,x_{0}]+[y,z]\in\mathfrak{h}$$By maximality, we have that $\mathfrak{g}=\mathbb{R}x_{0}+\mathfrak{h}$ and $\mathfrak{h}\unlhd \mathfrak{g}$. By induction hypothesis, the space of common null vectors $W_{0}$ of the representation $\rho|_{\mathfrak{h}}$ is non-zero. 
+>     
+>     However, for all $w\in W_{0}$, $x\in \mathfrak{h}$ and $y\in \mathfrak{g}$, $$xyw=(xy-yx)w+y\underbrace{ xw }_{ =0 }=\underbrace{ [x,y] }_{ \in \mathfrak{h} }w=0$$Therefore, $W_{0}$ is $\mathfrak{g}$-invariant. Since $x_{0}$ is nilpotent, so is $x_{0}|_{w_{0}}$ and there exists $v_{0}\in W_{0}$ with $v_{0}\neq 0$ with $x_{0}v_{0}=0$. Then, $v_{0}$ is a common null vector for $\mathfrak{g}$.
+> 3. **Proof for theorem:**
+> 	Induction on $n:=\text{dim }V$. For $n=1$, there exists $0\neq v\in V$ s.t. $\rho(x)v=0$ for all $x\in \mathfrak{g}$. Hence, it is strictly upper triangular. 
+> 	
+> 	For $n\geq 2$, the proof follows that of [[Lie Group|Lie's 1st Theorem]].
 >    
 ---
 > [!lemma] Corollary 6
