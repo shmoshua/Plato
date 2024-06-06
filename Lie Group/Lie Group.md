@@ -62,6 +62,12 @@
 > 2. $\pi:M\to M / G$ is a smooth submersion.
 - **Corollary**: For a Lie group $G$ and $H\leq G$ closed, $G / H$ is a topological manifold with a unique smooth structure. If $H\unlhd G$, then $G / H$ is a Lie group with Lie algebra $\mathfrak{g} / \mathfrak{h}$.
 ---
+> [!lemma] Proposition 5
+> Any continuous group homomorphism $\varphi:G\to H$ between two Lie groups is smooth.
+
+> [!proof]+
+> We will define a graph map $\Gamma:G\to \text{graph}(\varphi)$. 
+---
 ###### Connected Lie Group
 > [!lemma] Theorem 1
 > Let $G$ be a connected abelian Lie group with $n:=\text{dim }G$. Then, $$G\cong\mathbb{T}^a\times \mathbb{R}^{n-a}$$ as Lie groups for some $a$.

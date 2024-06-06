@@ -15,6 +15,11 @@
 ##### Properties
 > [!lemma] Theorem 1 (Frobenius)
 > A smooth distribution $\mathcal{D}$ is completely integrable if and only if it is involutive.
+
+> [!proof]- Proof (Incomplete)
+> Assume that $M$ is a smooth manifold and $\mathcal{D}$ a smooth distribution on $M$. Assume that $\mathcal{D}$ is completely integrable. Let $U\subseteq M$ be open and $X_{1},\dots,X_{n}$ a local basis on $U$. Further, let $q\in U$ and suppose $q$ is contained in an integral submanifold $\varphi:N\to M$ of $\mathcal{D}$ such that $d_{p}\varphi(\text{T}_{p}N)=\mathcal{D}_{\varphi(p)}$ for every $p\in N$, where $\varphi:N\to M$ is an injective immersion. 
+> 
+> Let $p\in \varphi ^{-1}(q)$ and choose open neighborhoods $V'\subseteq N$ of $p$ and $U'\subseteq U$ at $q$ s.t. $\varphi|_{V'}:V'\to U'$ is a smooth embedding. By using a local chart it is easy to see that the vector fields $Y_{1},\dots,Y_{n}$ defined via: $$d_{p'}\varphi(Y_{i})=(X_{i})_{\varphi(p')},\quad \forall p'\in V'$$ are smooth vector fields on $V'\subseteq N$. Here we have used that $\{ (X_{i})_{\varphi(p')} \}_{i}$ is a basis of $\mathcal{D}_{\varphi(p')}=d_{p'}\varphi(\text{T}_{p'}N)$ and that the differential $d_{p'}\varphi$ is injective for every $p'\in V'$. As $Y_{i}$ is $\varphi$-related to $X_{i}$, $[Y_{i},Y_{j}]$ is also $\varphi$-related to $[X_{i},X_{j}]$. Then: $$[X_{i},X_{j}]_{\varphi(p')}\in d_{p'}\varphi(\text{T}_{p'}N)=\mathcal{D}_{\varphi(p')}$$ in particular $[X_{i},X_{j}]_{q}\in \mathcal{D}_{q}$. Therefore, $\mathcal{D}$ is involutive.
 ---
 > [!lemma] Theorem 2
 > Given an involutive distribution $\mathcal{D}$ on $M$ and $p\in M$, there exists a unique maximal integral submanifold through $p$. 
