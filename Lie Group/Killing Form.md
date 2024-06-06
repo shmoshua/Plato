@@ -14,4 +14,4 @@
 > For a connected [[Lie group]] $G$ with Lie algebra $\mathfrak{g}$, $$K_{\mathfrak{g}}(\text{Ad}(g)x,\text{Ad}(g)y)=K_{\mathfrak{g}}(x,y),\quad \forall g\in G, x,y\in \mathfrak{g}$$
 
 > [!proof]+
-> Let $z\in \mathfrak{g}$. Then, $$\text{ad}(\text{Ad}(g)x)z=[\text{Ad}(g)x,z]=\text{Ad}(g)[]$$
+> Let $z\in \mathfrak{g}$. Then, $$\text{ad}(\text{Ad}(g)x)z=[\text{Ad}(g)x,z]=\text{Ad}(g)[x,\text{Ad}(g^{-1})z]=\text{Ad}(g)\text{ad}(x)\text{Ad}(g^{-1})z$$Then, $$\begin{align}K_{g}(\text{Ad}(g)x,\text{Ad}(g)y)&=\text{tr}()\end{align}$$

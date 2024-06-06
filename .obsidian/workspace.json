@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "mode": "preview",
                 "source": false
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra Representation.md",
+                "file": "Differential Geometry/Derivation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -117,14 +117,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "derivation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,7 +170,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -190,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Lie Group/Killing Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Lie Group/Killing Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md"
+                "file": "Lie Group/Killing Form.md"
               }
             }
           }
@@ -252,17 +253,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1e1344c437031526",
+  "active": "fa262e1a78be4135",
   "lastOpenFiles": [
-    "Lie Group/Killing Form.md",
-    "Differential Geometry/Differential.md",
-    "Lie Group/Adjoint Representation.md",
-    "Representation Theory/Lie Algebra Representation.md",
     "Representation Theory/Lie Algebra.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Lie Group/Killing Form.md",
+    "Lie Group/Adjoint Representation.md",
+    "Differential Geometry/Derivation.md",
+    "Differential Geometry/Differential.md",
     "Functional Analysis/Adjoint Linear Map.md",
+    "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Smooth Function.md",
+    "Representation Theory/Lie Algebra Representation.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Solvable Lie Algebra.md",
     "Algebra/Solvable Group.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Nilpotent Lie Algebra.md",
     "Lie Group/Nilpotent Group.md",
     "Lie Group/Weight.md",
@@ -274,12 +279,8 @@
     "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Lie Group Representation.md",
     "Topology/Connected Space.md",
-    "Differential Geometry/Derivation.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Representation Theory/Representation.md",
-    "Functional Analysis/Group Representation.md",
-    "Algebra/Commutator Subgroup.md",
-    "Differential Geometry/Smooth Function.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
