@@ -58,7 +58,7 @@
 > 1. there exists a basis of $V$ s.t. $\rho(x)$ is upper triangular w.r.t. the basis for all $x\in \mathfrak{g}$.
 
 > [!proof]-
-> Analogous to [[Solvable Group|1st Theorem of Lie]].
+> Analogous to [[Lie Group|1st Theorem of Lie]].
 ---
 ##### Examples
 > [!h] Example 1

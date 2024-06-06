@@ -56,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -94,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -256,12 +255,12 @@
   "lastOpenFiles": [
     "Lie Group/Solvable Lie Algebra.md",
     "Lie Group/Nilpotent Lie Algebra.md",
-    "Lie Group/Adjoint Representation.md",
-    "Lie Group/Ideal (Lie Algebra).md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Lie Group.md",
     "Algebra/Solvable Group.md",
     "Lie Group/Topological Group.md",
+    "Lie Group/Adjoint Representation.md",
+    "Lie Group/Ideal (Lie Algebra).md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Lie Group Representation.md",
     "Topology/Connected Space.md",
