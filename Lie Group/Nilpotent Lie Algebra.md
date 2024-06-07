@@ -57,7 +57,7 @@
 > 2. (1=>2): Let $\mathfrak{g}_{\mathbb{C}}:=\mathfrak{g}\otimes_{\mathbb{R}} \mathbb{C}$. Then, consider: $$\begin{array}{cccc} {}\text{ad}_{\mathbb{C}}:&\mathfrak{g}&\to&{\mathfrak{gl(g)}}&\to&\mathfrak{gl}(\mathfrak{g}_{\mathbb{C}})\\&{x} &\mapsto & {\text{ad}(x)}&\mapsto&\text{ad}(x)\otimes 1 \end{array}{}$$Then, by the [[Solvable Lie Algebra|1st Lie Theorem]], there exists a basis $e_{1},\dots,e_{m}\in \mathfrak{g}_{\mathbb{C}}$ s.t. $$\text{ad}_{\mathbb{C}}(\mathfrak{g})\subseteq \text{UpperTriangular}(m,\mathbb{C})$$Then, $\text{ad}_{\mathbb{C}}([\mathfrak{g},\mathfrak{g}])$ are complex upper triangular matrices with zero diagonal. Therefore, $\text{ad}_{\mathbb{C}}([\mathfrak{g},\mathfrak{g}])$ is nilpotent as the RHS is. But, $$\mathfrak{n}:=\text{ker }\text{ad}_{\mathbb{C}}|_{[\mathfrak{g},\mathfrak{g}]}\subseteq Z(\mathfrak{g})\cap[\mathfrak{g},\mathfrak{g}]\subseteq Z([\mathfrak{g},\mathfrak{g}])$$ By Lemma 3.2, we have that $[\mathfrak{g,g}]$ is nilpotent.
 ---
 > [!lemma] Theorem 5 (Engel)
-> Let $\mathfrak{g}$ be a Lie group and $\rho:\mathfrak{g}\to \mathfrak{gl}(V)$ a [[Lie algebra representation]] into a $\mathbb{R}$-vector space s.t. $\rho(x)$ is nilpotent, i.e. $\rho(x)^n=0$ for some $n\in \mathbb{N}$, for all $x\in \mathfrak{g}$. Then,
+> Let $\mathfrak{g}$ be a Lie group and $\rho:\mathfrak{g}\to \mathfrak{gl}(V)$ a [[Lie algebra representation]] into a $\mathbb{K}$-vector space s.t. $\rho(x)$ is nilpotent, i.e. $\rho(x)^n=0$ for some $n\in \mathbb{N}$, for all $x\in \mathfrak{g}$. Then,
 > 1. there exists a basis of $V$ s.t. $\rho(x)$ is strictly upper triangular in the basis for all $x\in\mathfrak{g}$.
 
 > [!proof]-

@@ -90,5 +90,8 @@
 
 **3.3 The Killing Form and Cartan's Criterion for Solvability**
 1. [[Killing Form]]
-2. 
+2. [[Killing Form|Cartan's Criterion]]
+
+**3.4 Semisimple Lie Groups and Lie Algberas**
+1. 
 ---
