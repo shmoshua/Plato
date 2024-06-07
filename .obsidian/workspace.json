@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Differential Geometry/Rank.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Differential Geometry/Rank.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -137,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +166,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "frobenius",
+                "query": "constant rank",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Differential Geometry/Rank.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Differential Geometry/Rank.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Group.md"
+                "file": "Differential Geometry/Rank.md"
               }
             }
           }
@@ -266,21 +266,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ab0d72b221f90a4e",
+  "active": "1db5ea563cbfbfc7",
   "lastOpenFiles": [
-    "Lie Group/Weight.md",
     "Lie Group/Lie Group.md",
+    "Differential Geometry/Rank.md",
+    "Lie Group/Weight.md",
+    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Smooth Function.md",
+    "Courses/Linear System Theory/Problem Set 1.md",
+    "Differential Geometry/Differential.md",
+    "Lie Group/Adjoint Representation.md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Smooth Distribution.md",
-    "Differential Geometry/Submanifold.md",
     "Lie Group/Killing Form.md",
     "Differential Geometry/Lie Bracket.md",
-    "Lie Group/Adjoint Representation.md",
     "Differential Geometry/Derivation.md",
-    "Differential Geometry/Differential.md",
     "Functional Analysis/Adjoint Linear Map.md",
-    "Differential Geometry/Smooth Function.md",
     "Representation Theory/Lie Algebra Representation.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Solvable Lie Algebra.md",
@@ -292,8 +294,6 @@
     "Algebra/Linear Algebra/Nilpotent Matrix.md",
     "Representation Theory/Tensor Product.md",
     "Lie Group/Ideal (Lie Algebra).md",
-    "Lie Group/Lie Group Representation.md",
-    "Topology/Connected Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

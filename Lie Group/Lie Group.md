@@ -63,10 +63,16 @@
 - **Corollary**: For a Lie group $G$ and $H\leq G$ closed, $G / H$ is a topological manifold with a unique smooth structure. If $H\unlhd G$, then $G / H$ is a Lie group with Lie algebra $\mathfrak{g} / \mathfrak{h}$.
 ---
 > [!lemma] Proposition 5
-> Any continuous group homomorphism $\varphi:G\to H$ between two Lie groups is smooth.
+> Let $G,H$ be two Lie groups.
+> 1. A Lie group homomorphism $\varphi:G\to H$ has constant rank.
+> 1. Any continuous group homomorphism $\varphi:G\to H$ between two Lie groups is smooth. 
 
 > [!proof]+
-> We will define a graph map $\Gamma:G\to \text{graph}(\varphi)$. 
+> We have:
+> 1. For any $x\in G$, we have: $\varphi \circ L_{g}=L_{\varphi(g)}\circ\varphi$. Therefore, $$d_{g}\varphi \circ d_{e}L_{g}=d_{e}L_{\varphi(g)}\circ d_{e}\varphi$$As $L_{g},L_{\varphi(g)}$ are diffeomorphisms, $d_{e}L_{g}$ and $d_{e}L_{\varphi(g)}$ are bijections and hence $\varphi$ has constant rank.
+> 2. We will define a graph map $\Gamma:G\to \text{graph}(\varphi),g\mapsto (g,\varphi(g))$.  Then, $\Gamma$ is continuous and $\Gamma ^{-1}=\text{pr}_{1}|_{\text{graph}(\varphi)}$ is also continuous. Therefore, $\Gamma$ is a homeomorphism. Hence, $\text{graph}(\varphi)$ is closed and by closed subgroup theorem, $\text{graph}(\varphi)$ is a Lie subgroup of $G\times H$. 
+>    
+>    Further, $\Gamma ^{-1}$ is a projection, hence a Lie group homomorphism. Therefore, by 1, $\Gamma ^{-1}$ has constant rank.
 ---
 ###### Connected Lie Group
 > [!lemma] Theorem 1
