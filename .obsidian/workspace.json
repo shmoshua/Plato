@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Lie Group/Nilpotent Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Nilpotent Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "simply connected",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Lie Group/Nilpotent Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Lie Group/Nilpotent Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md"
+                "file": "Lie Group/Nilpotent Group.md"
               }
             }
           }
@@ -254,15 +254,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a982082d3e9feea3",
+  "active": "ab0d72b221f90a4e",
   "lastOpenFiles": [
-    "Lie Group/Weight.md",
     "Representation Theory/Lie Algebra.md",
+    "Lie Group/Nilpotent Group.md",
     "Lie Group/Lie Group.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Rank.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Measure Theory/Diffeomorphism.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Local Homomorphism.md",
+    "Lie Group/Weight.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Rank.md",
     "Differential Geometry/Derivation.md",
     "Topology/Complete Metric Space.md",
     "Differential Geometry/Smooth Function.md",
@@ -279,9 +282,6 @@
     "Lie Group/Killing Form.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Representation Theory/Lie Algebra Representation.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Algebra/Solvable Group.md",
-    "Lie Group/Nilpotent Lie Algebra.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

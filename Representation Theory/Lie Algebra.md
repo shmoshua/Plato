@@ -6,7 +6,7 @@
 - **Related definition**: A Lie algebra $\mathfrak{g}$ is ***abelian*** if $[\cdot,\cdot]=0$.
 - **Related definition**: A ***Lie subalgebra*** of $(\mathfrak{g},[,])$ is a subspace $\mathfrak{a}$ that is stable under $[,]$.
 - **Remark**: Ado’s theorem says that any finite-dimensional Lie algebra is a Lie subalgebra of $\mathfrak{gl}(V)$ for a suitable finite dimensional vector space $V$.
-- **Related definition**: A ***Lie algebra homomorphism*** is a $K$-linear map $\varphi:\mathfrak{g}_{1}\to \mathfrak{g}_{2}$ between $K$-Lie algebras s.t. $\varphi([a,b])=[\varphi(a),\varphi(b)]$.
+- **Related definition**: A ***Lie algebra homomorphism*** is a $K$-linear map $\varphi:\mathfrak{g}_{1}\to \mathfrak{g}_{2}$ between $K$-Lie algebras s.t. $\varphi([a,b])=[\varphi(a),\varphi(b)]$. A ***Lie algebra isomorphism*** is an invertible Lie algebra homomorphism.
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Lie Algebra of a Lie group)
@@ -57,7 +57,19 @@
 > [!proof]- 
 > Consider $\text{graph}(\pi)\subseteq \mathfrak{g}\times \mathfrak{h}$. Then, we claim that $\text{graph}(\pi)$ is a Lie subalgebra of $\mathfrak{g}\times \mathfrak{h}$. Indeed, $$[(v,\pi(v)),(w,\pi(v))]=([v,w],\pi([v,w]))\subseteq \text{graph}(\pi)$$Then, by [[Lie Subgroup|Theorem 1]], there exists a unique connected Lie subgroup $K\leq G\times H$ with Lie algebra $\mathfrak{k}$ s.t. $\mathfrak{k}=\text{graph}(\pi)$. Therefore, we have the diagram: $$\begin{CD}K@>>>G\times H@>\text{pr}_{G}>>G\\@A\exp AA@A\exp AA@A\exp AA\\\text{graph}(\pi)@>>>\mathfrak{g}\times \mathfrak{h} @>d_{e}\text{pr}_{G}=\text{pr}_{\mathfrak{g}}>> \mathfrak{g}\end{CD}$$By construction $\text{pr}_{G}|_{K}:K\to G$ is a Lie group homomorphism and for its derivative: $$d_{e}(\text{pr}_{G}|_{K})=\text{pr}_{\mathfrak{g}}|_{\text{graph}(\pi)}$$is an isomorphism. Therefore, by [[Differential|Inverse Function Theorem]], there exists an open neighborhood $e\in U\subseteq K$ s.t. $\text{pr}_{G}|_{U}:U\to \text{pr}_{G}(U)$ is a diffeomorphism. Then, $(\text{pr}_{G}|_{U})^{-1}:\text{pr}_{G}(U)\to U$ has the differential: $$d_{e}(\text{pr}_{G}|_{U})^{-1}(v)=(v,\pi(v))$$Therefore, consider the Lie group homomorphism $\text{pr}_{H}:G\times H\to H$, then we have: $$\text{pr}_{H}\circ (\text{pr}_{G}|_{K})^{-1}:\text{pr}_{G}(U)\to H$$is the sought local homomorphism. Further, $$d_{e}(\text{pr}_{H}\circ (\text{pr}_{G}|_{K})^{-1})(v)=\text{pr}_{\mathfrak{h}}(v,\pi(v))=\pi(v) $$This proves the statement.
 - **Corollary**: Let $G$ be a connected Lie group with Lie algebra $\mathfrak{g}$. Then, there exists a simply connected Lie group $H$ whose Lie algebra is $\mathfrak{g}$ by [[Local Homomorphism|Theorem 1]]
-- **Corollary**: If two simply connected Lie groups have isomorphic Lie algebras, they are isomorphic.
+---
+> [!lemma] Corollary 6
+> Let $G,H$ be two simply connected, [[Lie Group|connected Lie groups]]. 
+> 1. If $\mathfrak{g}\cong\mathfrak{h}$ as Lie algebras, then $G\cong H$ as Lie groups.
+
+> [!proof]-
+> Let $\pi:\mathfrak{g}\to \mathfrak{h}$ be the Lie algebra isomorphism. Then, by Theorem 5, there exists a local isomorphism $\varphi:U\to H$ where $U$ is open in $G$. By [[Local Homomorphism|Extension of local homomorphisms]], we can lift it to a unique continuous group homomorphism $\varphi:G\to H$. Then, by [[Lie Group|Proposition 5]], $\varphi$ is smooth with $d_{e}\varphi=\pi$. Similarly, there exists a Lie group homomorphism $\psi:H\to G$ with $d_{e}\psi=\pi^{-1}$.
+> 
+> We may assume that the neighborhoods $U\subseteq G$ and $V\subseteq H$ on which the local isomorphisms $\varphi,\psi$ are defined, are given by $U=\exp(L)$ and $V=\exp(f(L))$ for an open subset $L\subseteq \mathfrak{g}$, so that $\varphi(U)=V$ and $\psi(V)=U$.
+> 
+> We now claim that $\varphi:G\to H$ is a covering, i.e. for every $h\in H$ there is a neighborhood $W\subseteq H$ of $h$ such that $\varphi ^{-1}(W)$ is a disjoint union of open sets $U_{0}\subseteq G$ which are homeomorphic to $W$. For $h\in H$ we take $hV$ as the open neighborhood. We have $$\varphi ^{-1}(h_{2}V) = \bigcup_{g\in \varphi ^{-1}(h)}gU$$ so we just have to prove that the $gU$ are disjoint: if there are $g,g'\in \varphi ^{-1}(h)$ with $g'\in gU$, then $g^{-1}g'\in U$, and so $$\varphi(g^{-1}g')=\varphi(g)^{-1}\varphi(g')=h^{-1}h=e\in\varphi(U)=V$$hence $g^{-1}g'=e$ and $g=g'$. 
+> 
+> Now a [[covering of a simply connected space is bijective]], so $\varphi:G\to H$ is a bijective smooth group homomorhpism with invertable differential, so the inverse is also a smooth group homomorphism, so $G\cong H$ are isomorphic Lie groups.
 ---
 ##### Examples 
 > [!h] Example 1
