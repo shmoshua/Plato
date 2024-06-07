@@ -47,11 +47,3 @@
 > [!lemma] Proposition 1
 > Let $M,N$ be a [[smooth manifold]] and $F:N\to M$ be a [[Smooth Function|smooth map]]. Then, for a [[Vector Field]] $V\in \Gamma(TM)$, $$\begin{array}{cccc} {F_{*}V:}&{N}&\to&{TN}\\&{p} &\mapsto & {d_{p}F(V(p))} \end{array}{}$$
 ---
-> [!lemma] Theorem (Inverse Function Theorem)
-> Let $M,N$ be smooth manifolds and $F\in C^\infty(M,N)$. Further, let $p\in M$. If $d_{p}F$ is an isomorphism, 
-> 1. there exists an open neighborhood $p\in U\subseteq M$ s.t. $F:U\to F(U)\subseteq N$ is a [[diffeomorphism]]. 
-
-> [!proof]-
-> We naturally have that $m=n$ as $d_{p}F$ is an isomorphism. Choose chart $(V,\varphi)$ and $(W,\psi)$ at $p$ and $F(p)$ with $\varphi(V)\subseteq W$. Let $x_{0}:=\varphi(p)$ and $y_{0}:=\psi(F(p))$. Then, we have that:  
-> $$d_{x_{0}}(\psi \circ F\circ \varphi ^{-1})=d_{F(p)}\psi\circ d_{p}F\circ d_{x_{0}}\varphi ^{-1}$$
-> is invertible at $x_{0}$. Therefore, by [[Smooth Function|Inverse Function Theorem]], there exists an open neighborhood $x_{0}\in \tilde{U}\subseteq\varphi(V)$ and a diffeomorphism $\alpha:\tilde{U}\to\alpha(\tilde{U})$. By setting $U:=\varphi ^{-1}(\tilde{U})$, we have that: $$F=\psi ^{-1}\circ  \alpha \circ \varphi$$is a diffeomorphism.
