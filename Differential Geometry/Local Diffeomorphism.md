@@ -26,7 +26,7 @@
 > 9. if $f$ is bijective, $f$ is a diffeomorphism.
 > 10. A map $F:M\to N$ is a local diffeomorphism if and only if for all $p\in M$, there exist charts $(U,\varphi)$ and $(V,\psi)$ at $p$ and $F(p)$ s.t. $\psi F\varphi ^{-1}$ is a local diffeomorphism.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. The composition of two invertible linear maps is invertible.
 > 2. Choose the intersection $U_{p}$ and $V_{p}$ given by $f$ and $g$. 
@@ -34,4 +34,19 @@
 >    
 >    Let $U\subseteq M$ be an open set. For every $p\in U$, there exists $U_{p}\ni p$ s.t. $F(U_{p})$ is open in $N$ and $F|_{U_{p}}:U_{p}\to F(U_{p})$ is a homeomorphism. In particular, the open subset $U\cap U_{p}\ni p$ is mapped to an open subset $F(U\cap U_{p})\ni F(p)$. As $F(U\cap U_{p})$ is open in $N$. Hence, $F(U)=\bigcup_{p\in U}^{}F(U\cap U_{p})$ is open in $N$ as well. In conclusion, $F$ is an open map.
 > 4. The differential of the restriction is still invertible.
-> 5. 
+> 5. We may take $M$ and $N$ as our open neighborhoods in the definition of a local diffeomorphism.
+> 6. Since $f$ is a local diffeomorphism, for each $p\in M$, $f^{-1}$ is smooth at $f(p)$. Therefore, $f^{-1}$ is smooth.
+> 7. If the coordinate representation $\psi F\varphi ^{-1}$ around each point is a (local) diffeomorphism, then the map is a local diffeomorphism by 1. The converse direction follows from the inverse function theorem.
+---
+> [!lemma] Proposition 3
+> Suppose $M$ and $N$ are [[Smooth Manifold|smooth manifolds]], and $F:C^\infty(M,N)$ is a map. 
+> 1. $F$ is a local diffeomorphism if and only if it is both an immersion and a submersion. 
+> 2. If $m=n$ and $F$ is either an immersion or a submersion, then it is a local diffeomorphism.
+
+> [!proof]-
+> Suppose first that $F$ is a local diffeomorphism. Given $p\in M$; there is a neighborhood $U\ni p$ such that $F|_{U}$ is a diffeomorphism. Then, by [[Diffeomorphism|remark]], $d_{p}F$ is an isomorphism. Thus, $m=n$ and $F$ is both an immersion and a submersion. 
+> 
+> Conversely, if $F$ is both an immersion and a submersion, then $d_{p}F$ is an isomorphism at each $p\in M$; and the inverse function theorem for manifolds shows that $p$ has a neighborhood on which $F$ restricts to a diffeomorphism onto its image. This proves 1. 
+> 
+> To prove 2, note that if $m=n$, then either injectivity or surjectivity of $d_{p}F$ implies bijectivity, so $F$ is a submersion if and only if it is an immersion, and thus 2 follows from 1.
+---

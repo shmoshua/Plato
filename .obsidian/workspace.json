@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Local Diffeomorphism.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Lie Group/Weight.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Rank.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -118,14 +118,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Measure Theory/Diffeomorphism.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "baire cate",
+                "query": "simply connected",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,7 +171,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Local Diffeomorphism.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Local Diffeomorphism.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Local Diffeomorphism.md"
+                "file": "Lie Group/Local Homomorphism.md"
               }
             }
           }
@@ -253,13 +254,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1db5ea563cbfbfc7",
+  "active": "a982082d3e9feea3",
   "lastOpenFiles": [
+    "Lie Group/Weight.md",
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/Lie Group.md",
     "Differential Geometry/Differential.md",
-    "Differential Geometry/Derivation.md",
-    "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Rank.md",
+    "Differential Geometry/Local Diffeomorphism.md",
     "Measure Theory/Diffeomorphism.md",
+    "Differential Geometry/Derivation.md",
     "Topology/Complete Metric Space.md",
     "Differential Geometry/Smooth Function.md",
     "Lie Group/Solvable Lie Algebra.md",
@@ -268,11 +272,8 @@
     "Differential Geometry/Lie Bracket.md",
     "Functional Analysis/Meager Set.md",
     "Differential Geometry/Submanifold.md",
-    "Lie Group/Lie Group.md",
-    "Lie Group/Weight.md",
     "Courses/Linear System Theory/Problem Set 1.md",
     "Lie Group/Adjoint Representation.md",
-    "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Smooth Distribution.md",
     "Lie Group/Killing Form.md",
