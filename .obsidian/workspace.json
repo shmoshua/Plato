@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Simple Lie Algebra.md",
+                "file": "Lie Group/Killing Form.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -266,10 +266,11 @@
   },
   "active": "fa262e1a78be4135",
   "lastOpenFiles": [
-    "Lie Group/Simple Lie Algebra.md",
-    "Lie Group/Semisimple Lie Algebra.md",
-    "Lie Group/Solvable Lie Algebra.md",
     "Lie Group/Killing Form.md",
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/Solvable Lie Algebra.md",
+    "Lie Group/Semisimple Lie Algebra.md",
+    "Lie Group/Simple Lie Algebra.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Lie Group.md",
     "Lie Group/Nilpotent Lie Algebra.md",
@@ -289,7 +290,6 @@
     "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/De Rham Cohomology.md",
     "Measure Theory/Diffeomorphism.md",
-    "Representation Theory/Lie Algebra.md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Weight.md",
     "Algebra/Untitled",
