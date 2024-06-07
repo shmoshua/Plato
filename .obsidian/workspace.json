@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Lie Group/Solvable Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -136,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Lie Group/Semisimple Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Lie Group/Semisimple Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Killing Form.md"
+                "file": "Lie Group/Semisimple Lie Algebra.md"
               }
             }
           }
@@ -264,12 +264,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a982082d3e9feea3",
+  "active": "fa262e1a78be4135",
   "lastOpenFiles": [
     "Lie Group/Simple Lie Algebra.md",
     "Lie Group/Semisimple Lie Algebra.md",
-    "Lie Group/Ideal (Lie Algebra).md",
+    "Lie Group/Solvable Lie Algebra.md",
     "Lie Group/Killing Form.md",
+    "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Lie Group.md",
     "Lie Group/Nilpotent Lie Algebra.md",
     "Functional Analysis/Radical.md",
@@ -278,7 +279,6 @@
     "Algebra/Jordan Decomposition.md",
     "Lie Group/Nilpotent Group.md",
     "Differential Geometry/Exotic R4.md",
-    "Lie Group/Solvable Lie Algebra.md",
     "Analysis/Jordan Chain.md",
     "Algebra/Commutator Subgroup.md",
     "Algebra/Solvable Group.md",
