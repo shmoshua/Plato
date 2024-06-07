@@ -93,5 +93,6 @@
 2. [[Killing Form|Cartan's Criterion]]
 
 **3.4 Semisimple Lie Groups and Lie Algberas**
-1. 
+1. [[Simple Lie Algebra]]
+2. [[Semisimple Lie Algebra]]
 ---

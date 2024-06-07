@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Lie Group/Semisimple Lie Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,8 +81,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Simple Group.md",
-                "mode": "preview",
+                "file": "Lie Group/Semisimple Lie Algebra.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Simple Group.md",
+                "file": "Lie Group/Semisimple Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Simple Group.md",
+                "file": "Lie Group/Semisimple Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Simple Group.md"
+                "file": "Lie Group/Semisimple Lie Algebra.md"
               }
             }
           }
@@ -264,10 +264,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fa262e1a78be4135",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Algebra/Jordan Decomposition.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Simple Lie Algebra.md",
+    "Lie Group/Semisimple Lie Algebra.md",
+    "Algebra/Simple Group.md",
+    "Algebra/Jordan Decomposition.md",
     "Lie Group/Killing Form.md",
     "Lie Group/Nilpotent Group.md",
     "Lie Group/Nilpotent Lie Algebra.md",
@@ -289,9 +292,6 @@
     "Lie Group/Weight.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Rank.md",
-    "Differential Geometry/Derivation.md",
-    "Topology/Complete Metric Space.md",
-    "Differential Geometry/Smooth Function.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
