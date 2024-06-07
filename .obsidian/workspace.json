@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Simple Lie Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Nilpotent Lie Algebra.md",
+                "file": "Lie Group/Ideal (Lie Algebra).md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
               "type": "markdown",
               "state": {
                 "file": "Lie Group/Semisimple Lie Algebra.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Nilpotent Lie Algebra.md",
+                "file": "Lie Group/Ideal (Lie Algebra).md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Killing Form.md",
                 "mode": "preview",
                 "source": false
               }
@@ -266,14 +266,17 @@
   },
   "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Simple Lie Algebra.md",
     "Lie Group/Semisimple Lie Algebra.md",
+    "Lie Group/Ideal (Lie Algebra).md",
+    "Lie Group/Killing Form.md",
+    "Lie Group/Lie Group.md",
+    "Lie Group/Nilpotent Lie Algebra.md",
+    "Functional Analysis/Radical.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Simple Group.md",
     "Algebra/Jordan Decomposition.md",
-    "Lie Group/Killing Form.md",
     "Lie Group/Nilpotent Group.md",
-    "Lie Group/Nilpotent Lie Algebra.md",
     "Differential Geometry/Exotic R4.md",
     "Lie Group/Solvable Lie Algebra.md",
     "Analysis/Jordan Chain.md",
@@ -283,15 +286,12 @@
     "Differential Geometry/Lie Bracket.md",
     "Algebra/Group Extension.md",
     "Algebra/p-adic Integer.md",
-    "Lie Group/Lie Group.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/De Rham Cohomology.md",
     "Measure Theory/Diffeomorphism.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Weight.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Rank.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

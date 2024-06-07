@@ -34,10 +34,13 @@
 > For all $x\in \mathfrak{g}$, $$\delta_{x}:\mathfrak{g}\to \mathfrak{g},\quad y\mapsto [x,y]$$is a derivation. Indeed, for $y,z\in \mathfrak{g}$, $$\delta_{x}([y,z])=[x,[y,z]]=[[z,x],y]+[[x,y],z]=[\delta_{x}(y),z]-[\delta_{x}(z),y]=[\delta_{x}(y),z]+[y,\delta_{x}(z)]$$Since $\mathfrak{n}$ is an ideal, $\delta_{x}(\mathfrak{n})\subseteq \mathfrak{n}$ for all $x\in \mathfrak{g}$. Therefore, $\delta_{x}\in \text{Der}(\mathfrak{n})$ and as $\mathfrak{h}$ is characteristic in $\mathfrak{n}$, $\delta_{x}(\mathfrak{h})\subseteq \mathfrak{h}$ and $\mathfrak{h}$ is an ideal in $\mathfrak{g}$.
 ---
 ##### Examples
-> [!h] Example 1 (Kernel)
-> For any Lie algebra homomorphism $\varphi:\mathfrak{g}_{1}\to \mathfrak{g}_{2}$, 
-> 1. $\text{ker }\varphi$ is an ideal of $\mathfrak{g}_{1}$.
+> [!h] Example 1 (Simple Examples of Ideals)
+> For any Lie algebra homomorphism $\varphi:\mathfrak{g}\to \mathfrak h$, 
+> 1. $\text{ker }\varphi$ is an ideal of $\mathfrak{g}$.
+> 2. for $\mathfrak{n}\unlhd \mathfrak{g}$, the orthogonal $\mathfrak{n}^{\bot}:=\{ x\in \mathfrak{g}:K_{\mathfrak{g}}(x,y)=0,\forall y\in \mathfrak{h} \}$ is an ideal of $\mathfrak{g}$, where $K_{\mathfrak{g}}$ is the [[Killing form]].
 
 > [!proof]-
-> We have for $a\in \mathfrak{g}_{1}$ and $b\in \text{ker }\varphi$:
-> $$\varphi([a,b])=[\varphi(a),\varphi(b)]=[\varphi(a),0]=0$$
+> We have:
+> 1.  for $a\in \mathfrak{g}$ and $b\in \text{ker }\varphi$:$$\varphi([a,b])=[\varphi(a),\varphi(b)]=[\varphi(a),0]=0$$
+> 2. for $x,y\in \mathfrak{g}$ and $n\in \mathfrak{n}^{\bot}$, by [[Killing Form|Proposition 1]], $$K_{\mathfrak{g}}([x,n],y)=K_{\mathfrak{g}}(\text{ad}(x)n,y)=-K_{\mathfrak{g}}(n,\text{ad}(x)y)=0$$Therefore, $[x,n]\in \mathfrak{n}^{\bot}$.
+---
