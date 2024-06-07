@@ -82,6 +82,7 @@
 3. [[Topological Group|Connected Topological Groups]]
 4. [[Weight]]
 5. [[Solvable Lie Algebra]]
+6. [[Group Extension]]
 
 **3.2 Nilpotent Lie Groups and Lie Algebras**
 1. [[Nilpotent Lie Algebra]]
@@ -89,4 +90,5 @@
 
 **3.3 The Killing Form and Cartan's Criterion for Solvability**
 1. [[Killing Form]]
+2. 
 ---

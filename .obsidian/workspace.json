@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Distribution.md",
+                "file": "Lie Group/Killing Form.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,14 +50,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Differential Geometry/Exotic R4.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "7e6b1dbc3952fb00",
@@ -70,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md",
+                "file": "Lie Group/Killing Form.md",
                 "mode": "preview",
                 "source": false
               }
@@ -82,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Distribution.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "mode": "preview",
                 "source": false
               }
@@ -136,8 +135,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,8 +181,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Killing Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Killing Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Solvable Group.md"
+                "file": "Lie Group/Killing Form.md"
               }
             }
           }
@@ -266,8 +263,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "85c1e16970092e0a",
+  "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
+    "Algebra/Commutator Subgroup.md",
+    "Lie Group/Killing Form.md",
+    "Differential Geometry/Smooth Distribution.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Exotic R4.md",
     "Algebra/Solvable Group.md",
     "Algebra/Group Extension.md",
     "Algebra/p-adic Integer.md",
@@ -277,7 +280,6 @@
     "Differential Geometry/De Rham Cohomology.md",
     "Measure Theory/Diffeomorphism.md",
     "Representation Theory/Lie Algebra.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Weight.md",
     "Differential Geometry/Differential.md",
@@ -288,12 +290,7 @@
     "Lie Group/Solvable Lie Algebra.md",
     "Topology/Dense Subset.md",
     "Topology/Lindelöf Space.md",
-    "Differential Geometry/Lie Bracket.md",
     "Functional Analysis/Meager Set.md",
-    "Differential Geometry/Submanifold.md",
-    "Courses/Linear System Theory/Problem Set 1.md",
-    "Lie Group/Adjoint Representation.md",
-    "Differential Geometry/Vector Field.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
