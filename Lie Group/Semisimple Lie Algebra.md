@@ -31,14 +31,17 @@
 > [!h] Example 1
 > Let $V$ be a $\mathbb{K}$-inner product space. If $\mathfrak{g}\subseteq \mathfrak{gl}(V)$ is a $\mathbb{K}$-Lie subalgebra s.t. $Z(\mathfrak{g})=\{ 0 \}$ and self-adjoint, i.e. for all $A\in \mathfrak{g}$, $A^{*}\in \mathfrak{g}$. Then, 
 > 1. $K_{\mathfrak{g}}$ is non-degenerate and $\mathfrak{g}$ is semisimple.
+
+> [!proof]+
+> In this proof, we assume $\mathbb{K}=\mathbb{R}$. The case $\mathbb{K}=\mathbb{C}$ is analogous. We can define an inner product on $\mathfrak{gl}(V)$ as: $$\braket{ A , B } :=\text{tr}_{V}(AB^{*}),\quad \forall A,B\in \mathfrak{gl}(V)$$We verify the positivity: Let $e_{1},\dots,e_{n}$ be the orthonormal basis of $V$. Then, $$\braket{ A , A } =\text{tr}_{V}(AA^{*})=\sum_{i,j=1}^{n}a_{ij}^{2}\geq 0$$with equality when $A=0$. Now, let's restrict this scalar product to $\mathfrak{g}$. Let $\theta:\mathfrak{gl}()$
 ---
 > [!h] Example 2 (Matrix Lie Algebras)
 > We have that:
 > 1. $\mathfrak{sl}(n,\mathbb{R}), \mathfrak{sl}(n,\mathbb{C})$ are semisimple.
 > 2. $\mathfrak{o}(p,q)$ is semisimple.
 
-> [!proof]
+> [!proof]-
 > We have that:
 > 1. 
 > $\mathfrak{sl}(n,\mathbb{R}),\mathfrak{sl}(n,\mathbb{C})$ are invariant under $X\mapsto X^{*}$ and $Z(\mathfrak{sl}(n,\mathbb{R}))=\{ 0 \}$ and $Z(\mathfrak{sl}(n,\mathbb{C}))=\{ 0 \}$. Therefore, by Example 1, they are semisimple.
-> 2. Let $X\in \mathfrak{o}(p,q)$. With $J_{p,q}:=\begin{bmatrix}-I_{p}&0\\0&I_{q}\end{bmatrix}$, we have $X^$
+> 2. Let $X\in \mathfrak{o}(p,q)$. With $J_{p,q}:=\begin{bmatrix}-I_{p}&0\\0&I_{q}\end{bmatrix}$, we have $X^\top J_{p,q}+J_{p,q}X=0$. Then, by multiplying $J_{p,q}$ on both sides, $J_{p,q}X^\top+XJ_{p,q}=0$ and $X^\top\in \mathfrak{o}(p,q)$. Moreover, $Z(\mathfrak{o}(p,q))=\{ 0 \}$ and $\mathfrak{o}(p,q)$ is semisimple.

@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Analysis/Inner Product Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -266,16 +266,17 @@
   },
   "active": "fa262e1a78be4135",
   "lastOpenFiles": [
+    "Analysis/Inner Product Space.md",
+    "Lie Group/Semisimple Lie Algebra.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Killing Form.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Solvable Lie Algebra.md",
-    "Lie Group/Semisimple Lie Algebra.md",
     "Lie Group/Simple Lie Algebra.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Lie Group.md",
     "Lie Group/Nilpotent Lie Algebra.md",
     "Functional Analysis/Radical.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Simple Group.md",
     "Algebra/Jordan Decomposition.md",
     "Lie Group/Nilpotent Group.md",
@@ -291,7 +292,6 @@
     "Differential Geometry/De Rham Cohomology.md",
     "Measure Theory/Diffeomorphism.md",
     "Lie Group/Local Homomorphism.md",
-    "Lie Group/Weight.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
