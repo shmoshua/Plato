@@ -1,10 +1,11 @@
 #Definition #Algebra 
 
 >[!definition]
->A group $G$ is ***solvable*** if there exists a sequence of subgroups $\{ e \}=G_{0} \unlhd G_{1}\unlhd \cdots \unlhd G_{n}=G$ s.t. for all $1 \leq i \leq n$, it holds that $G_{i}/G_{i-1}$ is abelian.
+>A [[group]] $G$ is ***solvable*** if there exists a sequence of subgroups $\{ e \}=G_{0} \unlhd G_{1}\unlhd \cdots \unlhd G_{n}=G$ s.t. for all $1 \leq i \leq n$, it holds that $G_{i}/G_{i-1}$ is abelian.
 
 - **Remark**: Solvable groups play an important role in Galois theory.
 - **Remark**: If a group does not have a solvable non-trivial normal divisor, it cannot be solvable.
+- **Remark**: Solvable groups are [[Group Extension|extensions]] of abelian groups.
 ---
 ##### Properties
 > [!lemma] Theorem 1
