@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Algebra/Jordan Decomposition.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Solvable Group.md",
+                "file": "Lie Group/Nilpotent Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -265,17 +265,21 @@
   },
   "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Algebra/Commutator Subgroup.md",
+    "Algebra/Jordan Decomposition.md",
+    "Lie Group/Nilpotent Lie Algebra.md",
+    "Lie Group/Solvable Lie Algebra.md",
     "Lie Group/Killing Form.md",
+    "Analysis/Jordan Chain.md",
+    "Algebra/Commutator Subgroup.md",
+    "Algebra/Solvable Group.md",
+    "Lie Group/Nilpotent Group.md",
     "Differential Geometry/Smooth Distribution.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Exotic R4.md",
-    "Algebra/Solvable Group.md",
     "Algebra/Group Extension.md",
     "Algebra/p-adic Integer.md",
     "Lie Group/Lie Group.md",
-    "Lie Group/Nilpotent Group.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/De Rham Cohomology.md",
     "Measure Theory/Diffeomorphism.md",
@@ -287,10 +291,6 @@
     "Differential Geometry/Derivation.md",
     "Topology/Complete Metric Space.md",
     "Differential Geometry/Smooth Function.md",
-    "Lie Group/Solvable Lie Algebra.md",
-    "Topology/Dense Subset.md",
-    "Topology/Lindelöf Space.md",
-    "Functional Analysis/Meager Set.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
