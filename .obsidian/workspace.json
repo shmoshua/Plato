@@ -89,6 +89,18 @@
             }
           },
           {
+            "id": "9e3d58465e527aa2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Semisimple Lie Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a982082d3e9feea3",
             "type": "leaf",
             "state": {
@@ -229,15 +241,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fa262e1a78be4135",
+  "active": "85c1e16970092e0a",
   "lastOpenFiles": [
     "Lie Group/Ideal (Lie Algebra).md",
-    "Lie Group/Radical (Lie Algebra).md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Solvable Lie Algebra.md",
+    "Lie Group/Radical (Lie Algebra).md",
+    "Lie Group/Semisimple Lie Algebra.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Representation Theory/Lie Algebra.md",
     "Algebra/Ideal.md",
-    "Lie Group/Semisimple Lie Algebra.md",
     "Functional Analysis/Jacobson Radical.md",
     "Functional Analysis/Banach Algebra.md",
     "Analysis/Inner Product Space.md",
