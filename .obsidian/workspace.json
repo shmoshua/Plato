@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Radical (Lie Algebra).md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Radical (Lie Algebra).md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Radical (Lie Algebra).md",
+                "file": "Lie Group/Lie Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Radical (Lie Algebra).md",
+                "file": "Lie Group/Lie Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Radical (Lie Algebra).md"
+                "file": "Lie Group/Lie Group.md"
               }
             }
           }
@@ -241,9 +241,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "85c1e16970092e0a",
+  "active": "9e3d58465e527aa2",
   "lastOpenFiles": [
     "Lie Group/Killing Form.md",
+    "Lie Group/Adjoint Representation.md",
     "Lie Group/Radical (Lie Algebra).md",
     "Lie Group/Semisimple Lie Algebra.md",
     "Lie Group/Ideal (Lie Algebra).md",
@@ -268,7 +269,6 @@
     "Differential Geometry/Lie Bracket.md",
     "Algebra/Group Extension.md",
     "Algebra/p-adic Integer.md",
-    "Differential Geometry/Local Diffeomorphism.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
