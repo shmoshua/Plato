@@ -14,7 +14,7 @@ Let $\chi\in \hat{A}$. Firstly, we know that $A$ is unital with unit $\delta_{e}
 However, as $\|\chi\|=1$, for all $\gamma\in \Gamma$,
 $$\left| g(\gamma) \right| =\left| \chi(\delta_{\gamma}) \right| \leq\|\delta_{\gamma}\|=1$$Especially, $\left| g(\gamma) \right|=1$ for all $\gamma\in \Gamma$. Therefore, $\widehat{\ell^1(\Gamma)}\cong \text{Hom}(\Gamma,S)$ where: $$S:=\{ \lambda\in \mathbb{C}:\left| \lambda \right| =1 \}$$the unit circle in $\mathbb{C}$.
 
-To show that $\ell^1(\Gamma)$ is [[Radical|semi-simple]], it suffices to show that for all $e\neq\gamma\in \Gamma$, there exists $g\in \text{Hom}(\Gamma,S)$ s.t. $g(\gamma)\neq 1$.
+To show that $\ell^1(\Gamma)$ is [[Jacobson Radical|semi-simple]], it suffices to show that for all $e\neq\gamma\in \Gamma$, there exists $g\in \text{Hom}(\Gamma,S)$ s.t. $g(\gamma)\neq 1$.
 
 ---
 > [!def] Problem 3

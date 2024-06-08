@@ -32,7 +32,7 @@
 1. [[Guelfand Spectrum]]
 2. **Properties of Guelfand Spectrum**: [[Guelfand Spectrum|$\widehat{A}$]] is bounded in $A^{*}$.
 3. **Example of a Guelfand Spectrum**: [[Volterra Algebra]]
-4. [[Radical]]
+4. [[Jacobson Radical]]
 5. [[Bounded Linear Map|Closed Graph Theorem]]
 6. **Examples**:
 

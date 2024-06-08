@@ -44,7 +44,7 @@
 3. [[Filtration]]
 
 **2.2 Finite Dimensional Algebras**
-1. [[Radical]]
+1. [[Jacobson Radical]]
 
 **2.3 Characters of Representations**
 1. [[*Character*]]

@@ -12,6 +12,7 @@
 > 2. $\mathfrak{g}^{(\ell)}$ is an ideal in $\mathfrak{g}$ for all $\ell\geq 1$.
 > 3. for a Lie algebra homomorphism $\pi:\mathfrak{g}\to \mathfrak{h}$, $\pi(\mathfrak{g}^{(i)})=\pi(\mathfrak{g})^{(i)}$.
 > 4. for $\mathfrak{n}\unlhd \mathfrak{g}$, $\mathfrak{g} / \mathfrak{n}$ is abelian if and only if $\mathfrak{n}\geq \mathfrak{g}^{(1)}$.
+> 5. for solvable ideals $\mathfrak{a},\mathfrak{b}\unlhd \mathfrak{g}$, $\mathfrak{a}+\mathfrak{b}\unlhd \mathfrak{g}$.
 
 > [!proof]-
 > We have:
@@ -19,6 +20,7 @@
 > 2. $\mathfrak{g}^{(1)}$ is an ideal in $\mathfrak{g}$ by construction. Then, for $\mathfrak{g}^{(\ell)}$, as $\mathfrak{g}^{(\ell-1)}$ is an ideal by induction hypothesis and $\mathfrak{g}^{(\ell)}=[\mathfrak{g}^{(\ell-1)},\mathfrak{g}^{(\ell-1)}]$ is a characteristic ideal in $\mathfrak{g}^{(\ell-1)}$ by 1, we have by [[Ideal (Lie Algebra)|Lemma 3]] $\mathfrak{g}^{(\ell)}$ is an ideal in $\mathfrak{g}$.
 > 3. We have that: $\pi(\mathfrak{g}^{(1)})=\pi(\mathfrak{g})^{(1)}$. The rest is obvious.
 > 4. We have $\mathfrak{g} / \mathfrak{n}$ is abelian if and only if $(0)=[\mathfrak{g} / \mathfrak{n},\mathfrak{g} / \mathfrak{n}]=[p(\mathfrak{g}),p(\mathfrak{g})]=p(\mathfrak{g}^{(1)})$ and $\mathfrak{g}^{(1)}\subseteq \mathfrak{n}$.
+> 5. Of coure, $\mathfrak{a}+\mathfrak{b}$ is a vector subspace of $\mathfrak{g}$. Further for any $a\in \mathfrak{a},b\in \mathfrak{b},x\in \mathfrak{g}$, $$[x,a+b]=[x,a]+[x,b]\in \mathfrak{a}+\mathfrak{b}$$
 ---
 > [!lemma] Lemma 2
 > $\mathfrak{g}$ is solvable if and only if $\mathfrak{g}^{(r)}=(0)$ for some $r\geq 1$. 
