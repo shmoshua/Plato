@@ -106,14 +106,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Ideal (Lie Algebra).md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Adjoint Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Group.md"
+                "file": "Lie Group/Adjoint Representation.md"
               }
             }
           }
@@ -241,13 +241,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9e3d58465e527aa2",
+  "active": "fa262e1a78be4135",
   "lastOpenFiles": [
-    "Lie Group/Killing Form.md",
+    "Lie Group/Lie Group.md",
+    "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Tangent Space II.md",
+    "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Adjoint Representation.md",
+    "Lie Group/Killing Form.md",
     "Lie Group/Radical (Lie Algebra).md",
     "Lie Group/Semisimple Lie Algebra.md",
-    "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Solvable Lie Algebra.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Representation Theory/Lie Algebra.md",
@@ -256,7 +259,6 @@
     "Functional Analysis/Banach Algebra.md",
     "Analysis/Inner Product Space.md",
     "Lie Group/Simple Lie Algebra.md",
-    "Lie Group/Lie Group.md",
     "Lie Group/Nilpotent Lie Algebra.md",
     "Algebra/Simple Group.md",
     "Algebra/Jordan Decomposition.md",
@@ -267,8 +269,6 @@
     "Algebra/Solvable Group.md",
     "Differential Geometry/Smooth Distribution.md",
     "Differential Geometry/Lie Bracket.md",
-    "Algebra/Group Extension.md",
-    "Algebra/p-adic Integer.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
