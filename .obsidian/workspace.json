@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Semisimple Lie Algebra.md",
+                "file": "Lie Group/Killing Form.md",
                 "mode": "preview",
                 "source": false
               }
@@ -243,10 +243,11 @@
   },
   "active": "85c1e16970092e0a",
   "lastOpenFiles": [
-    "Lie Group/Ideal (Lie Algebra).md",
-    "Lie Group/Solvable Lie Algebra.md",
+    "Lie Group/Killing Form.md",
     "Lie Group/Radical (Lie Algebra).md",
     "Lie Group/Semisimple Lie Algebra.md",
+    "Lie Group/Ideal (Lie Algebra).md",
+    "Lie Group/Solvable Lie Algebra.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Representation Theory/Lie Algebra.md",
     "Algebra/Ideal.md",
@@ -254,7 +255,6 @@
     "Functional Analysis/Banach Algebra.md",
     "Analysis/Inner Product Space.md",
     "Lie Group/Simple Lie Algebra.md",
-    "Lie Group/Killing Form.md",
     "Lie Group/Lie Group.md",
     "Lie Group/Nilpotent Lie Algebra.md",
     "Algebra/Simple Group.md",
