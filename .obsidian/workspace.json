@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,14 +106,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md"
+                "file": "Algebra/Commutator Subgroup.md"
               }
             }
           }
@@ -241,13 +240,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "85c1e16970092e0a",
+  "active": "33eb575cd9e8d842",
   "lastOpenFiles": [
-    "Lie Group/Lie Group.md",
     "Lie Group/Adjoint Representation.md",
+    "Algebra/Commutator Subgroup.md",
     "Representation Theory/Lie Algebra.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Lie Group.md",
+    "Lie Group/Topological Group.md",
     "Differential Geometry/Cotangent Space.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Tangent Space II.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Killing Form.md",
@@ -265,10 +266,8 @@
     "Lie Group/Nilpotent Group.md",
     "Differential Geometry/Exotic R4.md",
     "Analysis/Jordan Chain.md",
-    "Algebra/Commutator Subgroup.md",
     "Algebra/Solvable Group.md",
     "Differential Geometry/Smooth Distribution.md",
-    "Differential Geometry/Lie Bracket.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

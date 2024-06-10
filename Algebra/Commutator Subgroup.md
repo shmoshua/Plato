@@ -38,3 +38,22 @@
 > [!proof]-
 > We have:
 > 1. We have: $[kA,sB]=k^{-1}s ^{-1}ks A^{-1}B^{-1}AB=A^{-1}B^{-1}AB\in \text{UT}(n,\mathbb{R})$. $
+---
+> [!h] Example 2
+> Consider: $$G:=\left\{ \begin{bmatrix}a&b\\0&c\end{bmatrix} :a,c\neq 0\right\}$$
+> Then, 
+> 1. $G^{(1)}=\left\{ \begin{bmatrix}1&*\\0&1\end{bmatrix} :*\in \mathbb{R}\right\}$
+> 2. $G^{(2)}=\{ \text{id} \}$
+> 3. $G$ is solvable.
+---
+> [!h] Example 3 (Heisenberg Lie Group)
+> Consider: $$H:=\left\{ \begin{bmatrix}1&a&b\\0&1&c\\0&0&1\end{bmatrix} :a,b,c\in \mathbb{R}\right\}$$
+> Then, 
+> 1. $H^{(1)}=\left\{ \begin{bmatrix}1&0&*\\0&1&0\\0&0&1\end{bmatrix} :*\in \mathbb{R}\right\}$
+> 2. $H^{(2)}=\{ \text{id} \}$
+> 3. $H$ is solvable.
+---
+> [!h] Example 4 (Special Linear Group)
+> For $\text{SL}(2,\mathbb{R})$ we have:
+> 1. 
+> 
