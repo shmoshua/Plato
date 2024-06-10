@@ -33,3 +33,29 @@
 > 
 > Then, as $H$ is closed, it is a Lie group and for $v\in V_{\chi}$ and $h\in H$, we have: $\rho(h)v=\chi(h)v$. Then, $$d_{e}\rho(x)v=\left. \frac{d}{dt} \right| _{t=0}\rho(\exp(tx))v=\left. \frac{d}{dt} \right| _{t=0}\chi(\exp(tx))v=d_{e}\chi(x)v,\quad \forall x\in \mathfrak{h}$$Therefore, we can write $\mathfrak{g}=\mathbb{R}y\oplus \mathfrak{h}$ for some $y\in \mathfrak{g}$ as $\mathfrak{h}$ is a subspace of $\mathfrak{g}$ of codimension 1. Now, as $d_{e}\rho(y)\in \text{End}(V_{\chi})$, let $v_{0}\in V_{\chi} \backslash\{ 0 \}$ be an eigenvector of $d_{e}\rho(y)$. It follows that: $$d_{e}\rho(z)\mathbb{C}v_{0}\subseteq \mathbb{C}v_{0},\quad z\in \mathfrak{g}$$As $G$ is connected again, $\exp:\mathfrak{g}\to G$ is surjective and and by [[Lie Group Representation|Proposition 1]] we get: $$\rho(g)\mathbb{C}v_{0}\subseteq \mathbb{C}v_{0},\quad \forall g\in G$$This shows that there exists a weight $\chi$.
 ---
+##### Examples
+
+
+> [!h] Example 1
+> Consider: $$G:=\left\{ \begin{bmatrix}a&b\\0&c\end{bmatrix} :a,c\neq 0\right\}$$
+> and inclusion: $\rho:G\to \text{GL}(2,\mathbb{R})$. 
+> 1. 
+> 1. $C^1(G)=\left\{ \begin{bmatrix}1&*\\0&1\end{bmatrix} :*\in \mathbb{R}\right\}$
+> 2. $C^2(G)=C^1(G)$
+> 3. $G$ is not nilpotent.
+---
+> [!h] Example 3 (Heisenberg Lie Group)
+> Consider: $$H:=\left\{ \begin{bmatrix}1&a&b\\0&1&c\\0&0&1\end{bmatrix} :a,b,c\in \mathbb{R}\right\}$$
+> Then, 
+> 1. $C^1(H)=\left\{ \begin{bmatrix}1&0&*\\0&1&0\\0&0&1\end{bmatrix} :*\in \mathbb{R}\right\}$
+> 2. $C^2(H)=\{ \text{id} \}$
+> 3. $H$ is nilpotent.
+---
+> [!h] Example 4 (Special Linear Group)
+> For $\text{SL}(2,\mathbb{R})$ we have:
+> 1. $$\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}^{-1}\begin{bmatrix}1&-1\\0&1\end{bmatrix}^{-1}\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}\begin{bmatrix}1&-1\\0&1\end{bmatrix}=\begin{bmatrix}a&a\\0&a^{-1}\end{bmatrix}\begin{bmatrix}a^{-1}&-a^{-1}\\0&a\end{bmatrix}=\begin{bmatrix}1&a^{2}-1\\0&1\end{bmatrix}$$
+> 2. $$\begin{bmatrix}a&0\\0&a^{-1}\end{bmatrix}^{-1}\begin{bmatrix}1&0\\-1&1\end{bmatrix}^{-1}\begin{bmatrix}a&0\\0&a^{-1}\end{bmatrix}\begin{bmatrix}1&0\\-1&1\end{bmatrix}=\begin{bmatrix}a^{-1}&0\\a&a\end{bmatrix}\begin{bmatrix}a&0\\-a^{-1}&a^{-1}\end{bmatrix}=\begin{bmatrix}1&0\\a^{2}-1&1\end{bmatrix}$$
+> 3. $$\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}^{-1}\begin{bmatrix}0&1\\-1&0\end{bmatrix}^{-1}\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}\begin{bmatrix}0&1\\-1&0\end{bmatrix}=\begin{bmatrix}0&-a\\a^{-1}&0\end{bmatrix}\begin{bmatrix}0&a^{-1}\\-a&0\end{bmatrix}=\begin{bmatrix}a^{2}&0\\0&a^{-2}\end{bmatrix}$$
+> 
+> As these three elements generate a neighborhood of $\text{id}$ and $\text{SL}(2,\mathbb{R})$ is connected, we have that: $$[\text{SL}(2,\mathbb{R}),\text{SL}(2,\mathbb{R})]=\text{SL}(2,\mathbb{R})$$ and $\text{SL}(2,\mathbb{R})$ is not nilpotent.
+---

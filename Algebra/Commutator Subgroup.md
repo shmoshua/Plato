@@ -55,5 +55,10 @@
 ---
 > [!h] Example 4 (Special Linear Group)
 > For $\text{SL}(2,\mathbb{R})$ we have:
-> 1. 
+> 1. $$\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}^{-1}\begin{bmatrix}1&-1\\0&1\end{bmatrix}^{-1}\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}\begin{bmatrix}1&-1\\0&1\end{bmatrix}=\begin{bmatrix}a&a\\0&a^{-1}\end{bmatrix}\begin{bmatrix}a^{-1}&-a^{-1}\\0&a\end{bmatrix}=\begin{bmatrix}1&a^{2}-1\\0&1\end{bmatrix}$$
+> 2. $$\begin{bmatrix}a&0\\0&a^{-1}\end{bmatrix}^{-1}\begin{bmatrix}1&0\\-1&1\end{bmatrix}^{-1}\begin{bmatrix}a&0\\0&a^{-1}\end{bmatrix}\begin{bmatrix}1&0\\-1&1\end{bmatrix}=\begin{bmatrix}a^{-1}&0\\a&a\end{bmatrix}\begin{bmatrix}a&0\\-a^{-1}&a^{-1}\end{bmatrix}=\begin{bmatrix}1&0\\a^{2}-1&1\end{bmatrix}$$
+> 3. $$\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}^{-1}\begin{bmatrix}0&1\\-1&0\end{bmatrix}^{-1}\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}\begin{bmatrix}0&1\\-1&0\end{bmatrix}=\begin{bmatrix}0&-a\\a^{-1}&0\end{bmatrix}\begin{bmatrix}0&a^{-1}\\-a&0\end{bmatrix}=\begin{bmatrix}a^{2}&0\\0&a^{-2}\end{bmatrix}$$
 > 
+> As these three elements generate a neighborhood of $\text{id}$ and $\text{SL}(2,\mathbb{R})$ is connected, we have that: $$[\text{SL}(2,\mathbb{R}),\text{SL}(2,\mathbb{R})]=\text{SL}(2,\mathbb{R})$$ and $\text{SL}(2,\mathbb{R})$ is not solvable.
+---
+
