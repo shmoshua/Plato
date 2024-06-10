@@ -55,14 +55,16 @@
 > We have that:
 > 1. $K_{\mathfrak{sl}(2,\mathbb{R})}(X,Y)=4\text{tr}(XY)$.
 
-> [!proof]+
+> [!proof]-
 > We have that: $$X_{1}:=\begin{bmatrix}1&0\\0&-1\end{bmatrix},X_{2}:=\begin{bmatrix}0&1\\0&0\end{bmatrix},X_{3}:=\begin{bmatrix}0&0\\1&0\end{bmatrix}$$form a basis of $\mathfrak{sl}(2,\mathbb{R})$. Then, 
 > 1. $\text{ad}\left( \begin{bmatrix}a&b\\c&-a\end{bmatrix} \right) X_{1}=\begin{bmatrix}0&-2b\\2c&0\end{bmatrix}$
 > 2. $\text{ad}\left( \begin{bmatrix}a&b\\c&-a\end{bmatrix} \right) X_{2}=\begin{bmatrix}-c&2a\\0&c\end{bmatrix}$
-> 3. $\text{ad}\left( \begin{bmatrix}a&b\\c&-a\end{bmatrix} \right) X_{2}=\begin{bmatrix}-c&2a\\0&c\end{bmatrix}$
-
-> 4. $\text{ad}(X_{1})\begin{bmatrix}a&b\\c&-a\end{bmatrix}=\begin{bmatrix}0&2b\\-2c&0\end{bmatrix}$
-> 5. $\text{ad}(X_{2})\begin{bmatrix}a&b\\c&-a\end{bmatrix}=\begin{bmatrix}c&-2a\\0&-c\end{bmatrix}$
-> 6. $\text{ad}(X_{3})\begin{bmatrix}a&b\\c&-a\end{bmatrix}=\begin{bmatrix}-b&0\\2a&b\end{bmatrix}$
+> 3. $\text{ad}\left( \begin{bmatrix}a&b\\c&-a\end{bmatrix} \right) X_{3}=\begin{bmatrix}b&0\\-2a&-b\end{bmatrix}$
 > 
-> $$\begin{align}K_{\mathfrak{sl}(2,\mathbb{R})}\left( \sum_{i=1}^{3}a_{i}X_{i},\sum_{i=1}^{3}b_{i}X_{i}\right)&=\text{tr}\left( \left( \sum_{i=1}^{3}a_{i}\text{ad}(X_{i}) \right)\left( \sum_{i=1}^{3}b_{i}\text{ad}(X_{i}) \right)  \right) \end{align}$$
+> Therefore, $$\text{ad}\left( \begin{bmatrix}a&b\\c&-a\end{bmatrix} \right)=\begin{bmatrix}0&-2b&2c\\-c&2a&0\\b&0&-2a\end{bmatrix}\in \mathfrak{gl}(3,\mathbb{R})$$Then, 
+> 1. $K_{\mathfrak{g}}\left( \begin{bmatrix}a&b\\c&-a\end{bmatrix} ,X_{1}\right)=\text{tr}\left(\begin{bmatrix}0&-2b&2c\\-c&2a&0\\b&0&-2a\end{bmatrix}\begin{bmatrix}0&0&0\\0&2&0\\0&0&-2\end{bmatrix}  \right)=8a$
+> 2. $K_{\mathfrak{g}}\left( \begin{bmatrix}a&b\\c&-a\end{bmatrix} ,X_{2}\right)=\text{tr}\left(\begin{bmatrix}0&-2b&2c\\-c&2a&0\\b&0&-2a\end{bmatrix}\begin{bmatrix}0&-2&0\\0&0&0\\1&0&0\end{bmatrix}  \right)=4c$
+> 3. $K_{\mathfrak{g}}\left( \begin{bmatrix}a&b\\c&-a\end{bmatrix} ,X_{3}\right)=\text{tr}\left(\begin{bmatrix}0&-2b&2c\\-c&2a&0\\b&0&-2a\end{bmatrix}\begin{bmatrix}0&0&2\\-1&0&0\\0&0&0\end{bmatrix}  \right)=4b$
+>    
+> Therefore, $$K_{\mathfrak{g}}\left( \begin{bmatrix}a&b\\c&-a\end{bmatrix} ,\begin{bmatrix}x&y\\z&-x\end{bmatrix}\right)=8ax+4cy+4bz=4\text{tr}(XY)$$
+---

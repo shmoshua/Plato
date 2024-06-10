@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Algebra/Solvable Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Simple Group.md",
+                "file": "Lie Group/No Small Subgroup (NSS).md",
                 "mode": "preview",
                 "source": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Algebra/Solvable Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Algebra/Solvable Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Killing Form.md"
+                "file": "Algebra/Solvable Group.md"
               }
             }
           }
@@ -254,15 +254,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3adc204ad0dc30ef",
+  "active": "9e3d58465e527aa2",
   "lastOpenFiles": [
+    "Lie Group/No Small Subgroup (NSS).md",
+    "Algebra/Solvable Group.md",
+    "Lie Group/Killing Form.md",
+    "Algebra/Simple Group.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Simple Lie Algebra.md",
-    "Lie Group/Killing Form.md",
     "Lie Group/Weight.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Topological Group.md",
-    "Algebra/Simple Group.md",
     "Lie Group/Adjoint Representation.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Algebra/Commutator Subgroup.md",
@@ -280,8 +282,6 @@
     "Functional Analysis/Banach Algebra.md",
     "Analysis/Inner Product Space.md",
     "Lie Group/Nilpotent Lie Algebra.md",
-    "Algebra/Jordan Decomposition.md",
-    "Differential Geometry/Exotic R4.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
