@@ -112,8 +112,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,12 +242,12 @@
   },
   "active": "3adc204ad0dc30ef",
   "lastOpenFiles": [
+    "Algebra/Commutator Subgroup.md",
+    "Lie Group/Weight.md",
     "Lie Group/Nilpotent Group.md",
     "Lie Group/Lie Group.md",
     "Lie Group/Simple Lie Algebra.md",
-    "Lie Group/Weight.md",
     "Algebra/Special Linear Group.md",
-    "Algebra/Commutator Subgroup.md",
     "Lie Group/Adjoint Representation.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Topological Group.md",

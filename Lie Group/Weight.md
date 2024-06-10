@@ -39,20 +39,13 @@
 > [!h] Example 1
 > Consider: $$G:=\left\{ \begin{bmatrix}a&b\\0&c\end{bmatrix} :a,c\neq 0\right\}$$
 > and inclusion: $\rho:G\to \text{GL}(2,\mathbb{R})$. 
-> 1. The only weight is given as: $$\chi:G\to \mathbb{C}$$
+> 1. The only weight is given as: $$\chi:G\to \mathbb{C}^\times,\quad \begin{bmatrix}a&b\\0&c \end{bmatrix}\mapsto a$$with $V_{\chi}=\left\langle\begin{bmatrix}1\\0\end{bmatrix} \right\rangle$.
 ---
 > [!h] Example 3 (Heisenberg Lie Group)
 > Consider: $$H:=\left\{ \begin{bmatrix}1&a&b\\0&1&c\\0&0&1\end{bmatrix} :a,b,c\in \mathbb{R}\right\}$$
-> Then, 
-> 1. $C^1(H)=\left\{ \begin{bmatrix}1&0&*\\0&1&0\\0&0&1\end{bmatrix} :*\in \mathbb{R}\right\}$
-> 2. $C^2(H)=\{ \text{id} \}$
-> 3. $H$ is nilpotent.
+> and inclusion: $\rho:H\to \text{GL}(3,\mathbb{R})$. 
+> 1.  The only weight is $\chi \equiv 1$, with $V_{\chi}=\left\langle\begin{bmatrix}1\\0\\0\end{bmatrix}\right\rangle$
 ---
 > [!h] Example 4 (Special Linear Group)
-> For $\text{SL}(2,\mathbb{R})$ we have:
-> 1. the $$\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}^{-1}\begin{bmatrix}1&-1\\0&1\end{bmatrix}^{-1}\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}\begin{bmatrix}1&-1\\0&1\end{bmatrix}=\begin{bmatrix}a&a\\0&a^{-1}\end{bmatrix}\begin{bmatrix}a^{-1}&-a^{-1}\\0&a\end{bmatrix}=\begin{bmatrix}1&a^{2}-1\\0&1\end{bmatrix}$$
-> 2. $$\begin{bmatrix}a&0\\0&a^{-1}\end{bmatrix}^{-1}\begin{bmatrix}1&0\\-1&1\end{bmatrix}^{-1}\begin{bmatrix}a&0\\0&a^{-1}\end{bmatrix}\begin{bmatrix}1&0\\-1&1\end{bmatrix}=\begin{bmatrix}a^{-1}&0\\a&a\end{bmatrix}\begin{bmatrix}a&0\\-a^{-1}&a^{-1}\end{bmatrix}=\begin{bmatrix}1&0\\a^{2}-1&1\end{bmatrix}$$
-> 3. $$\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}^{-1}\begin{bmatrix}0&1\\-1&0\end{bmatrix}^{-1}\begin{bmatrix}a^{-1}&0\\0&a\end{bmatrix}\begin{bmatrix}0&1\\-1&0\end{bmatrix}=\begin{bmatrix}0&-a\\a^{-1}&0\end{bmatrix}\begin{bmatrix}0&a^{-1}\\-a&0\end{bmatrix}=\begin{bmatrix}a^{2}&0\\0&a^{-2}\end{bmatrix}$$
-> 
-> As these three elements generate a neighborhood of $\text{id}$ and $\text{SL}(2,\mathbb{R})$ is connected, we have that: $$[\text{SL}(2,\mathbb{R}),\text{SL}(2,\mathbb{R})]=\text{SL}(2,\mathbb{R})$$ and $\text{SL}(2,\mathbb{R})$ is not nilpotent.
+> For $\text{SL}(2,\mathbb{R})$ and inclusion $\rho:\text{SL}(2,\mathbb{R})\to \text{GL}(2,\mathbb{R})$, there exists no weights.
 ---
