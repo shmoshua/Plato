@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Killing Form.md"
+                "file": "Representation Theory/Lie Algebra.md"
               }
             }
           }
@@ -254,13 +254,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9e3d58465e527aa2",
+  "active": "fa262e1a78be4135",
   "lastOpenFiles": [
+    "Lie Group/Killing Form.md",
     "Algebra/Solvable Group.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Nilpotent Group.md",
     "Lie Group/No Small Subgroup (NSS).md",
-    "Lie Group/Killing Form.md",
     "Algebra/Simple Group.md",
     "Lie Group/Simple Lie Algebra.md",
     "Lie Group/Weight.md",

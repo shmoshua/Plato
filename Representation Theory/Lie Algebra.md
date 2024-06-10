@@ -76,9 +76,17 @@
 > Let $\mathfrak{g}$ be a $\mathbb{R}$-Lie algebra. Consider $\mathfrak{g}_{\mathbb{C}}:=\mathfrak{g}\otimes_{\mathbb{R}}\mathbb{C}$. Then, 
 > 1. the bracket $[\cdot,\cdot]:\mathfrak{g}\times \mathfrak{g}\to \mathfrak{g}$ extends uniquely to a $\mathbb{C}$-bilinear map $\mathfrak{g}_{\mathbb{C}}\times \mathfrak{g}_{\mathbb{C}}\to \mathfrak{g}_{\mathbb{C}}$.
 > 2. the canonical injection $\mathfrak{g}\to \mathfrak{g}_{\mathbb{C}},X\mapsto X\otimes 1$ is a Lie algebra homomorphism and $\mathfrak{g}_{\mathbb{C}}=\mathfrak{g}+ i \mathfrak{g}$.
-> 3. Then, the bracket is:
+> 3. Further: $$[X+iY,X'+iY']_{\mathbb{C}}=([X,X']-[Y,Y'])+i([X,Y']+[Y,X'])$$
 > 4. $\mathfrak{g}$ is solvable if and only if $\mathfrak{g}_{\mathbb{C}}$ is solvable.
 > 5. $\mathfrak{g}$ is nilpotent if and only if $\mathfrak{g}_{\mathbb{C}}$ is nilpotent.
+
+> [!proof]+
+> We have that:
+> 1. We define: $$[X\otimes \alpha,Y\otimes \beta]=[X,Y]\otimes (\alpha\beta)$$Then, it is evident that this is an extension of $[\cdot,\cdot]:\mathfrak{g}\times \mathfrak{g}\to \mathfrak{g}$. Further, $$[z(X\otimes \alpha),Y\otimes \beta]=[X\otimes z\alpha,Y\otimes \beta]=[X,Y]\otimes (z\alpha\beta)=z([X,Y]\otimes (\alpha\beta))=z[X\otimes \alpha,Y\otimes \beta]$$the rest of the linearity is analogous.
+>    
+>    The uniqueness is given by the universal property of the tensor product.
+> 2. We have: $[X,Y]=[X,Y]\otimes 1 = [X\otimes 1,Y \otimes 1]$.
+> 3. Let $\mathfrak{g}$ be solvable. For an ideal $\mathfrak{h}\unlhd \mathfrak{g}$, $\mathfrak{h}_{\mathbb{C}}\unlhd \mathfrak{g}_{\mathbb{C}}$. Therefore, if $$(0)=\mathfrak{g}_{r}\unlhd\dots\unlhd \mathfrak{g}_{0}=\mathfrak{g}$$is a sequence of ideals, $$(0)=(\mathfrak{g}_{r})_{\mathbb{C}}\unlhd\dots\unlhd (\mathfrak{g}_{0})_{\mathbb{C}}=\mathfrak{g}_{\mathbb{C}}$$is a sequence of ideals for $\mathfrak{g}_{\mathbb{C}}$. We need to show that $(\mathfrak{g}_{i})_{\mathbb{C}} / (\mathfrak{g}_{i+1})_{\mathbb{C}}$ is abelian. We have: $$\begin{align}[X+iY+(\mathfrak{g}_{i+1})_{\mathbb{C}},X'+iY'+(\mathfrak{g}_{i+1})_{\mathbb{C}}]&=\end{align}$$
 ---
 ##### Examples 
 > [!h] Example 1
