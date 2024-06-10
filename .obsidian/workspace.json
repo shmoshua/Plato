@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Simple Lie Algebra.md",
+                "file": "Lie Group/Killing Form.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Simple Lie Algebra.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Lie Group/Killing Form.md",
                 "mode": "preview",
                 "source": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Lie Group/Killing Form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Lie Group/Killing Form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Weight.md"
+                "file": "Lie Group/Killing Form.md"
               }
             }
           }
@@ -254,24 +254,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9e3d58465e527aa2",
+  "active": "3adc204ad0dc30ef",
   "lastOpenFiles": [
-    "Lie Group/Ideal (Lie Algebra).md",
+    "Representation Theory/Lie Algebra.md",
     "Lie Group/Simple Lie Algebra.md",
+    "Lie Group/Killing Form.md",
+    "Lie Group/Weight.md",
+    "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Topological Group.md",
     "Algebra/Simple Group.md",
-    "Representation Theory/Lie Algebra.md",
     "Lie Group/Adjoint Representation.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Algebra/Commutator Subgroup.md",
-    "Lie Group/Weight.md",
     "Lie Group/Nilpotent Group.md",
     "Lie Group/Lie Group.md",
     "Algebra/Special Linear Group.md",
     "Differential Geometry/Cotangent Space.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Tangent Space II.md",
-    "Lie Group/Killing Form.md",
     "Lie Group/Radical (Lie Algebra).md",
     "Lie Group/Semisimple Lie Algebra.md",
     "Lie Group/Solvable Lie Algebra.md",
