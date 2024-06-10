@@ -6,7 +6,6 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
-        "dimension": 49.42528735632184,
         "children": [
           {
             "id": "0a3edd71115ec4ad",
@@ -14,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "1db5ea563cbfbfc7",
+            "id": "a7207c8e038c57a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Topology/Topological Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -60,65 +59,28 @@
         "currentTab": 1
       },
       {
-        "id": "7e6b1dbc3952fb00",
+        "id": "931e1cf3bc9d2fba",
         "type": "tabs",
-        "dimension": 50.57471264367817,
         "children": [
           {
-            "id": "33eb575cd9e8d842",
+            "id": "87c4026e467da400",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
-                "mode": "preview",
-                "source": false
+                "file": "Courses/Topology/Topology Roadmap.md",
+                "mode": "source",
+                "source": true
               }
             }
           },
           {
-            "id": "fa262e1a78be4135",
+            "id": "af7a67daf3364725",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e3d58465e527aa2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Killing Form.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a982082d3e9feea3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/No Small Subgroup (NSS).md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44ff2267fe1ff77e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Topology/Topological Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -154,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "zermelo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -192,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Topology/Topological Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Topology/Topological Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Topology/Topological Space.md"
               }
             }
           }
@@ -254,12 +216,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fa262e1a78be4135",
+  "active": "a7207c8e038c57a3",
   "lastOpenFiles": [
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Topological Space.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/Nilpotent Lie Algebra.md",
+    "Lie Group/Nilpotent Group.md",
     "Lie Group/Killing Form.md",
     "Algebra/Solvable Group.md",
-    "Representation Theory/Lie Algebra.md",
-    "Lie Group/Nilpotent Group.md",
     "Lie Group/No Small Subgroup (NSS).md",
     "Algebra/Simple Group.md",
     "Lie Group/Simple Lie Algebra.md",
@@ -272,16 +238,12 @@
     "Lie Group/Lie Group.md",
     "Algebra/Special Linear Group.md",
     "Differential Geometry/Cotangent Space.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Tangent Space II.md",
     "Lie Group/Radical (Lie Algebra).md",
     "Lie Group/Semisimple Lie Algebra.md",
     "Lie Group/Solvable Lie Algebra.md",
     "Algebra/Ideal.md",
     "Functional Analysis/Jacobson Radical.md",
-    "Functional Analysis/Banach Algebra.md",
-    "Analysis/Inner Product Space.md",
-    "Lie Group/Nilpotent Lie Algebra.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

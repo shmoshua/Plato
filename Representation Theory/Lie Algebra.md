@@ -80,13 +80,16 @@
 > 4. $\mathfrak{g}$ is solvable if and only if $\mathfrak{g}_{\mathbb{C}}$ is solvable.
 > 5. $\mathfrak{g}$ is nilpotent if and only if $\mathfrak{g}_{\mathbb{C}}$ is nilpotent.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. We define: $$[X\otimes \alpha,Y\otimes \beta]=[X,Y]\otimes (\alpha\beta)$$Then, it is evident that this is an extension of $[\cdot,\cdot]:\mathfrak{g}\times \mathfrak{g}\to \mathfrak{g}$. Further, $$[z(X\otimes \alpha),Y\otimes \beta]=[X\otimes z\alpha,Y\otimes \beta]=[X,Y]\otimes (z\alpha\beta)=z([X,Y]\otimes (\alpha\beta))=z[X\otimes \alpha,Y\otimes \beta]$$the rest of the linearity is analogous.
 >    
 >    The uniqueness is given by the universal property of the tensor product.
 > 2. We have: $[X,Y]=[X,Y]\otimes 1 = [X\otimes 1,Y \otimes 1]$.
-> 3. Let $\mathfrak{g}$ be solvable. For an ideal $\mathfrak{h}\unlhd \mathfrak{g}$, $\mathfrak{h}_{\mathbb{C}}\unlhd \mathfrak{g}_{\mathbb{C}}$. Therefore, if $$(0)=\mathfrak{g}_{r}\unlhd\dots\unlhd \mathfrak{g}_{0}=\mathfrak{g}$$is a sequence of ideals, $$(0)=(\mathfrak{g}_{r})_{\mathbb{C}}\unlhd\dots\unlhd (\mathfrak{g}_{0})_{\mathbb{C}}=\mathfrak{g}_{\mathbb{C}}$$is a sequence of ideals for $\mathfrak{g}_{\mathbb{C}}$. We need to show that $(\mathfrak{g}_{i})_{\mathbb{C}} / (\mathfrak{g}_{i+1})_{\mathbb{C}}$ is abelian. We have: $$\begin{align}[X+iY+(\mathfrak{g}_{i+1})_{\mathbb{C}},X'+iY'+(\mathfrak{g}_{i+1})_{\mathbb{C}}]&=\end{align}$$
+> 3. Let $\mathfrak{g}$ be solvable. For an ideal $\mathfrak{h}\unlhd \mathfrak{g}$, $\mathfrak{h}_{\mathbb{C}}\unlhd \mathfrak{g}_{\mathbb{C}}$. Therefore, if $$(0)=\mathfrak{g}_{r}\unlhd\dots\unlhd \mathfrak{g}_{0}=\mathfrak{g}$$is a sequence of ideals, $$(0)=(\mathfrak{g}_{r})_{\mathbb{C}}\unlhd\dots\unlhd (\mathfrak{g}_{0})_{\mathbb{C}}=\mathfrak{g}_{\mathbb{C}}$$is a sequence of ideals for $\mathfrak{g}_{\mathbb{C}}$. We need to show that $(\mathfrak{g}_{i})_{\mathbb{C}} / (\mathfrak{g}_{i+1})_{\mathbb{C}}$ is abelian. We have: $$\begin{align}[X+iY+(\mathfrak{g}_{i+1})_{\mathbb{C}},X'+iY'+(\mathfrak{g}_{i+1})_{\mathbb{C}}]_{\mathbb{C}}&=([X,X']-[Y,Y'])+i([X,Y']+[Y,X'])+(\mathfrak{g_{i+1}})_{\mathbb{C}}\\&=(\mathfrak{g}_{i+1})_{\mathbb{C}}\end{align}$$Therefore, $(\mathfrak{g}_{i})_{\mathbb{C}} /( \mathfrak{g}_{i+1})_{\mathbb{C}}$ is abelian.
+>    
+>    Conversely, for an ideal $\mathfrak{h}_{\mathbb{C}}\subseteq \mathfrak{g}_{\mathbb{C}}$, $\mathfrak{h}:=\mathfrak{h}_{\mathbb{C}}\cap \mathfrak{g}\unlhd \mathfrak{g}$. Using a similar argument, $\mathfrak{g}$ is solvable if and only if $\mathfrak{g}_{\mathbb{C}}$ is solvable.
+> 4. If $\mathfrak{g}$ is nilpotent, $[\mathfrak{g},\mathfrak{g}_{i+1}]\subseteq \mathfrak{g}_{i}$. So for $X+iY\in \mathfrak{g}_{\mathbb{C}}$ and $X'+iY'\in (\mathfrak{g}_{i+1})_{\mathbb{C}}$, $$[X+iY,X'+iY']_{\mathbb{C}}=([X,X']-[Y,Y'])+i([X,Y']+[Y,X'])\in \mathfrak{g_{i}}+i \mathfrak{g}_{i}=(\mathfrak{g}_{i})_{\mathbb{C}}$$However, if $\mathfrak{g}_{\mathbb{C}}$ is nilpotent, $[\mathfrak{g}_{\mathbb{C}},(\mathfrak{g}_{i+1})_{\mathbb{C}}]\subseteq (\mathfrak{g}_{i})_{\mathbb{C}}$. Since $\mathfrak{g}\subseteq \mathfrak{g}_{\mathbb{C}}$ and $\mathfrak{g}_{i+1}\subseteq (\mathfrak{g}_{i+1})_{\mathbb{C}}$, $$[\mathfrak{g},\mathfrak{g}_{i+1}]\subseteq(\mathfrak{g}_{i})_{\mathbb{C}}\cap \mathfrak{g=\mathfrak{g}_{i}}$$Therefore, $\mathfrak{g}$ is nilpotent.
 ---
 ##### Examples 
 > [!h] Example 1

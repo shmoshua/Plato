@@ -96,5 +96,4 @@
 1. [[Simple Lie Algebra]]
 2. [[Semisimple Lie Algebra]]
 3. [[Radical (Lie Algebra)]]
-4. 
 ---
