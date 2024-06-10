@@ -71,6 +71,15 @@
 > 
 > Now a [[covering of a simply connected space is bijective]], so $\varphi:G\to H$ is a bijective smooth group homomorhpism with invertable differential, so the inverse is also a smooth group homomorphism, so $G\cong H$ are isomorphic Lie groups.
 ---
+###### Complex Lie Algebras
+> [!lemma] Proposition 1 (Complex Lie Algebra)
+> Let $\mathfrak{g}$ be a $\mathbb{R}$-Lie algebra. Consider $\mathfrak{g}_{\mathbb{C}}:=\mathfrak{g}\otimes_{\mathbb{R}}\mathbb{C}$. Then, 
+> 1. the bracket $[\cdot,\cdot]:\mathfrak{g}\times \mathfrak{g}\to \mathfrak{g}$ extends uniquely to a $\mathbb{C}$-bilinear map $\mathfrak{g}_{\mathbb{C}}\times \mathfrak{g}_{\mathbb{C}}\to \mathfrak{g}_{\mathbb{C}}$.
+> 2. the canonical injection $\mathfrak{g}\to \mathfrak{g}_{\mathbb{C}},X\mapsto X\otimes 1$ is a Lie algebra homomorphism and $\mathfrak{g}_{\mathbb{C}}=\mathfrak{g}+ i \mathfrak{g}$.
+> 3. Then, the bracket is:
+> 4. $\mathfrak{g}$ is solvable if and only if $\mathfrak{g}_{\mathbb{C}}$ is solvable.
+> 5. $\mathfrak{g}$ is nilpotent if and only if $\mathfrak{g}_{\mathbb{C}}$ is nilpotent.
+---
 ##### Examples 
 > [!h] Example 1
 > Any space $\mathfrak{g}$ with $[\cdot,\cdot]\equiv 0$ is an abelian Lie algebra. 
