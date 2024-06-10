@@ -26,10 +26,16 @@
 > 2. Similarly, $$[[x,y],z]+[[y,z],x]+[[z,x],y]=0$$
 ---
 > [!lemma] Theorem 3
-> Let $G$ be a connected Lie group. Then, $Z(G)=\text{ker }\text{Ad}$.
+> Let $G$ be a connected Lie group. Then, 
+> 1. $Z(G)=\text{ker }\text{Ad}$ and $Z(G)$ is closed.
+> 2. $\text{Lie}(Z(G))=\mathfrak{z}(\mathfrak{g}):=\{ X\in \mathfrak{g}:[X,Y]=0,\forall Y\in \mathfrak{g} \}$.
 
 > [!proof]-
-> Let $g\in Z(G)$ and $x\in \mathfrak{g}$, then: $$\exp(tx)=g \exp(tx)g ^{-1}=\exp(t\text{Ad}(g)x)$$Therefore, $x=\text{Ad}(g)x$ for all $x\in \mathfrak{g}$ and $g\in \text{ker Ad}$. Conversely, let $g\in \text{ker Ad}$. Then, the statement above holds again and $g$ commutes with every element in the neighborhood of $e\in G$. Since $G$ is connected, by [[Topological Group|Proposition 2.4]] $g$ commutes with every element in $G$. Therefore, $g\in Z(G)$.
+> We have:
+> 1. Let $g\in Z(G)$ and $x\in \mathfrak{g}$, then: $$\exp(tx)=g \exp(tx)g ^{-1}=\exp(t\text{Ad}(g)x)$$Therefore, $x=\text{Ad}(g)x$ for all $x\in \mathfrak{g}$ and $g\in \text{ker Ad}$. Conversely, let $g\in \text{ker Ad}$. Then, the statement above holds again and $g$ commutes with every element in the neighborhood of $e\in G$. Since $G$ is connected, by [[Topological Group|Proposition 2.4]] $g$ commutes with every element in $G$. Therefore, $g\in Z(G)$.
+>    
+>    As the kernel is closed, this shows that $Z(G)$ is closed.
+> 2. By [[Lie Group|Proposition 3]], $$\text{Lie}(Z(G))=\text{ker }d_{e}\text{Ad}=\text{ker }\text{ad}=\mathfrak{z}(\mathfrak{g})$$
 ---
 ##### Examples
 > [!h] Example 1
