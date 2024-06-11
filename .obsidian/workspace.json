@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -265,10 +265,10 @@
   },
   "active": "7978476c2add222e",
   "lastOpenFiles": [
-    "Topology/Hausdorff Space.md",
-    "Courses/Topology/Exercise Sheet 4.md",
-    "Topology/Filter.md",
     "Topology/Topological Space.md",
+    "Courses/Topology/Exercise Sheet 4.md",
+    "Topology/Hausdorff Space.md",
+    "Topology/Filter.md",
     "Topology/Zariski Topology.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
