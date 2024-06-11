@@ -6,7 +6,8 @@
 > 2. The ***closure*** $\overline{A}$ of $A$ is defined as: $$\overline{A}:=\bigcap_{A\subseteq C, C\text{ closed}}^{}C$$
 > 3. The ***boundary*** $\partial A$ is defined as $\overline{A} \cap \overline{X \backslash A}$.
 > 
-- **Remark**: In a [[Metric Space|metric space]], $A^\circ=\{ x\in A:\exists r>0. B_{<r}(x)\subseteq A \}$
+- **Remark**: In a [[Metric Space|metric space]], $A^\circ=\{ x\in A:\exists r>0. B_{<r}(x)\subseteq A \}$.
+- **Remark**: $A^\circ$ is the largest open set contained in $A$ and $\overline{A}$ is the smallest closed set that contains $A$.
 ---
 ##### Properties
 > [!lemma] Lemma 1
@@ -18,6 +19,14 @@
 > 5. $x\in \overline{A}$ if and only if for all neighborhood $U\subseteq X$ of $x$, $A\cap U\neq \varnothing$ 
 > 6. $A^{\circ}=A$ if and only if $A$ is open.
 > 7. $\overline{A}=A$ if and only if $A$ is closed.
+
+> [!proof]+
+> We have:
+> 1. $(X \backslash A)^\circ=\bigcup_{U\subseteq X \backslash A, U\text{ open}}^{}U=\bigcup_{A\subseteq F, F\text{ closed}}^{}X \backslash F=X \backslash \bigcup_{A\subseteq F, F\text{ closed}} F=X \backslash \overline{A}$.
+> 2. $\overline{X \backslash A}=\bigcap_{ X\backslash A\subseteq F, F\text{ closed}}^{}F=\bigcap_{U\subseteq A, U\text{ open}}^{}X \backslash U=X \backslash \bigcup_{U\subseteq A, U\text{ open}}^{}U=X \backslash A^\circ$
+> 3. $\partial A=\overline{A}\cap \overline{X \backslash A}=\overline{A}\cap X \backslash A^\circ = \overline{A} \backslash A^\circ$.
+> 4. $A^\circ$ is the largest open set contained in $A$. 
+> 5. if $x\in \overline{A}$ and $U\ni x$ a neighborhood. Then, 
 ---
 > [!lemma] Proposition 1
 > For any set $A\subseteq X$, $A^\circ$ is the largest open set contained in $A$.

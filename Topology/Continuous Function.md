@@ -52,3 +52,4 @@
 > 3. for $x\neq y$, there exists $f\in \mathcal{F}$ with $f(x)\neq f(y)$
 >    
 >  Then, $\mathcal{F}\subseteq C(X,\mathbb{R})$ is dense w.r.t. the [[Topology of Pointwise and Uniform Convergence|topology of uniform convergence]]. 
+---

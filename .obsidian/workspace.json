@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Closure.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Local Base of Topology.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -68,31 +68,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Closure.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "0138dbb87c7a76d9",
+            "id": "2c5c88c6341d9d9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Local Base of Topology.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5957846a0bf84c1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Base of Topology.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -166,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Local Base of Topology.md",
+                "file": "Topology/Interior and Closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Local Base of Topology.md",
+                "file": "Topology/Interior and Closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Local Base of Topology.md"
+                "file": "Topology/Interior and Closure.md"
               }
             }
           }
@@ -228,11 +216,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0138dbb87c7a76d9",
+  "active": "2c5c88c6341d9d9b",
   "lastOpenFiles": [
-    "Topology/Base of Topology.md",
+    "Topology/Closure.md",
+    "Topology/Interior and Closure.md",
     "Topology/Local Base of Topology.md",
     "Topology/Continuous Function.md",
+    "Topology/Base of Topology.md",
     "Lie Group/Killing Form.md",
     "Courses/Topology/Topology Roadmap.md",
     "Basis of a Topology.md",
@@ -254,8 +244,6 @@
     "Lie Group/Nilpotent Lie Algebra.md",
     "Lie Group/Nilpotent Group.md",
     "Algebra/Solvable Group.md",
-    "Lie Group/No Small Subgroup (NSS).md",
-    "Algebra/Simple Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
