@@ -31,11 +31,8 @@
 > The ***discrete topology*** for a set $X$ is $\mathcal{T}:=\mathcal{P}(X)$, i.e. every subset is open.
 - **Remark**: On $\mathbb{Z}$, the discrete topology and subspace topology coincide.
 ---
-> [!h] Example 4 (Finite Complement Topology)
-> For $X$, the ***finite complement topology*** is given by: $$\mathcal{T}_{f}:=\{ U\subseteq X:X\backslash U\text{ is finite or }U=X \}$$
----
 > [!h] Example 4 (Cofinite Topology)
-> For $X$, the ***cofinite topology*** is given by: $$\mathcal{T}_{\text{cof}}:=\{ U\subseteq X:X\backslash U\text{ is finite or }U=X \}$$
+> For $X$, the ***cofinite topology*** is given by: $$\mathcal{T}_{\text{cof}}:=\{ U\subseteq X:X\backslash U\text{ is finite or }U=\varnothing \}$$
 
 > [!proof]-
 > We have:

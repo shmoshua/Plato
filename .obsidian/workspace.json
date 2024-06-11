@@ -49,14 +49,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Metric Space.md",
+                "file": "Topology/Zariski Topology.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "8207ac82eff3ec12",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -92,7 +100,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 3.md",
+                "file": "Topology/Zariski Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
+                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
                 "mode": "preview",
                 "source": false
               }
@@ -157,8 +165,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -178,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 3.md",
+                "file": "Topology/Zariski Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 3.md",
+                "file": "Topology/Zariski Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 3.md"
+                "file": "Topology/Zariski Topology.md"
               }
             }
           }
@@ -242,9 +249,13 @@
   },
   "active": "2c5c88c6341d9d9b",
   "lastOpenFiles": [
+    "Topology/Topological Space.md",
+    "Topology/Zariski Topology.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Topology/Base of Topology.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Metric Space.md",
-    "Courses/Topology/Exercise Sheet 3.md",
     "Topology/Cantor Space.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Topology/Continuous Function.md",
@@ -252,7 +263,6 @@
     "Courses/Topology/Exercise Sheet 1.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Interior and Closure.md",
-    "Topology/Topological Space.md",
     "Topology/Hausdorff Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Local Base of Topology.md",
@@ -261,13 +271,10 @@
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Topology/Closure.md",
-    "Topology/Base of Topology.md",
     "Lie Group/Killing Form.md",
     "Basis of a Topology.md",
     "Lie Group/Topological Group.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Topology/Basis of a Topology.md",
-    "Measure Theory/Cantor Set.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
