@@ -34,6 +34,18 @@
 > [!h] Example 4 (Finite Complement Topology)
 > For $X$, the ***finite complement topology*** is given by: $$\mathcal{T}_{f}:=\{ U\subseteq X:X\backslash U\text{ is finite or }U=X \}$$
 ---
+> [!h] Example 4 (Cofinite Topology)
+> For $X$, the ***cofinite topology*** is given by: $$\mathcal{T}_{\text{cof}}:=\{ U\subseteq X:X\backslash U\text{ is finite or }U=X \}$$
+
+> [!proof]-
+> We have:
+> 1. Firstly, we have that $\varnothing\in \mathcal{T}_{\text{cof}}$ and $X\in \mathcal{T}_{\text{cof}}$ as $X\backslash X=\varnothing$. 
+>    
+>    For the union of $\{ U_{\lambda} \}\subseteq \mathcal{T}_{\text{cof}}$,  wlog we can assume that $X \backslash U_{\lambda}$ is finite, as $\varnothing$ does not "add" anything to the union. Therefore, $X \backslash \bigcup_{\lambda\in \Lambda}^{}U_{\lambda}=\bigcap_{\lambda\in \Lambda}^{}X \backslash U_{\lambda}$, which is finite, and $\bigcup_{\lambda\in \Lambda}^{}U_{\lambda}$ is open. 
+>    
+>    For $U_{1},U_{2}\in \mathcal{T}_{\text{cof}}$, if any of them is empty, then the intersection is empty and thereby open. Otherwise, $X\backslash (U_{1}\cap U_{2})=(X \backslash U_{1})\cup(X \backslash U_{2})$ which is finite as a union of two finite sets. This proves the statement.
+
+---
 
 ##### Related Definitions
 For a topological space $X$,

@@ -13,7 +13,7 @@
 > [!lemma] Lemma 1
 > Let $X$ be a topological space. 
 > 1. For $(x_{n})_{n}\subseteq X$, $x_{n}\to x$ if and only if the elementary filter of $(x_{n})_{n}$ converges to $x$.
-> 2. For $f:\mathbb{R}^n\to \mathbb{R}^m$, $x_{0}\in \mathbb{R}^n$ and $y_{0}\in \mathbb{R}^m$, $f(x)\xrightarrow{x\to x_{0}} y$ if and only if $f$ converges to $y_{0}$ along $\mathcal{F}_{x_{0}}$.
+> 3. For $f:\mathbb{R}^n\to \mathbb{R}^m$, $x_{0}\in \mathbb{R}^n$ and $y_{0}\in \mathbb{R}^m$, $f(x)\xrightarrow{x\to x_{0}} y_{0}$ if and only if $f$ converges to $y_{0}$ along $\mathcal{F}_{x_{0}}$.
 
 > [!proof]-
 > We have: 
@@ -29,10 +29,15 @@
 > 1. $x\in \overline{A}$
 > 2. there exists a filter $\mathcal{F}$ on $A$ s.t. $i:A\hookrightarrow X$ converges to $x$ along $\mathcal{F}$.
 
+^1b9394
+
 > [!proof]-
 > We have: 
 > 1. (2=>1): Assume $\mathcal{F}$ is such a filter. Then, for any neighborhood $U$ of $x$, there exists $V\in \mathcal{F}$ s.t. $V\subseteq U$. However, by definition $V\subseteq A$. Therefore, $V\subseteq U\cap A$ and $V\neq \varnothing$. Therefore, $x\in \overline{A}$.
-> 2. (1=>2): Let: $$\mathcal{F}:=\{ B\subseteq A: \exists U\in \mathcal{F}_{x},B=U\cap A \}$$We first show that $\mathcal{F}$ is a filter. As $U\cap A\neq \varnothing$, $\varnothing \notin \mathcal{F}$. For $B\in \mathcal{F}$, there exists $U\in \mathcal{F}_{x}$ with $U\cap A$. Then, for $B\subseteq D\subseteq A$, $D\cup U\in \mathcal{F}_{x}$ and $$(D\cup U)\cap A=D\cup B=D$$ Lastly, for $B,C\subseteq \mathcal{F}$ with $B=U\cap A$ and $C=V\cap A$, $$(U\cap V)\cap A=B\cap C$$It remains to show that $i$ converges to $x$ along $\mathcal{F}$. Let $V$ be a neighborhood of $x$. Then, $V\cap A\in \mathcal{F}$ and $f(V\cap A)=V\cap A \subseteq V$. This proves the statement.
+> 2. (1=>2): Let: $$\mathcal{F}:=\{ B\subseteq A: \exists U\in \mathcal{F}_{x},B=U\cap A \}$$We first show that $\mathcal{F}$ is a filter. As $U\cap A\neq \varnothing$, $\varnothing \notin \mathcal{F}$. For $B\in \mathcal{F}$, there exists $U\in \mathcal{F}_{x}$ s.t. $U\cap A$. Then, for $B\subseteq D\subseteq A$, $D\cup U\in \mathcal{F}_{x}$ and $$(D\cup U)\cap A=D\cup B=D$$ Lastly, for $B,C\subseteq \mathcal{F}$ with $B=U\cap A$ and $C=V\cap A$, $$(U\cap V)\cap A=B\cap C$$It remains to show that $i$ converges to $x$ along $\mathcal{F}$. Let $V$ be a neighborhood of $x$. Then, $V\cap A\in \mathcal{F}$ and $i(V\cap A)=V\cap A \subseteq V$. This proves the statement.
+
+^00e800
+
 ---
 > [!lemma] Lemma 3
 > Let $\mathcal{A}\subseteq \mathcal{P}(X)$. The following are equivalent:

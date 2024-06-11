@@ -43,3 +43,6 @@
 >   
 >   Now for any neighborhood $U$ of $x$, let $N\in \mathbb{N}$ s.t. $U_{n}\subseteq U$ for all $n\geq N$. Then, for all $n\geq N$, $x_{n}\in U$. This proves the statement.
 ---
+![[Filter#^1b9394]]
+![[Filter#^00e800|p]]
+---
