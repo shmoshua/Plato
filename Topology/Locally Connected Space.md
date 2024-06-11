@@ -1,7 +1,7 @@
 #Definition #Topology 
 
 > [!definition]
-> A [[topological space]] $X$ is ***locally connected***, if every $x\in X$ has a [[fundamental system]] of [[Connected Space|connected]] neighborhoods.
+> A [[topological space]] $X$ is ***locally connected***, if every $x\in X$ has a [[Local Base of Topology]] of [[Connected Space|connected]] neighborhoods.
 ---
 ##### Properties
 > [!lemma] Proposition 1

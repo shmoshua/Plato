@@ -1,7 +1,7 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $X$ be a [[topological space]] and $x_{0}\in X$. A ***fundamental system of (open) neighborhoods*** of $x_{0}$ is a set $\mathcal{V}$ of (open) neighborhoods of $x_{0}$ s.t. 
+> Let $X$ be a [[topological space]] and $x_{0}\in X$. A ***local basis/fundamental system of neighborhoods*** of $x_{0}$ is a set $\mathcal{V}$ of (open) neighborhoods of $x_{0}$ s.t. 
 > 1. for every neighborhood $U$ of $x_{0}$, there exists $V\in \mathcal{V}$ with $V\subseteq U$.
 ---
 ##### Properties

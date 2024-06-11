@@ -31,7 +31,7 @@
 > Let $U_{x}$ be the open neighborhood of $x$ s.t. $f|_{U_{x}}\subseteq B_{<r_{x}}(0)$ for $x\in X$. Then, $\{ U_{x} \}_{x\in X}$ is an open cover of $X$. Then, there exists finite $J\subseteq X$ s.t. $\bigcup_{x\in J}^{}U_{x}=X$. Therefore, $$f(X)\subseteq B_{<\max_{x\in J} r_{x}}(0)$$
 ---
 > [!lemma] Lemma 3
-> Let $X$ be a compact Hausdorff space. Then, every $x\in X$ has a [[fundamental system]] of closed neighborhoods in $X$.
+> Let $X$ be a compact Hausdorff space. Then, every $x\in X$ has a [[Local Base of Topology]] of closed neighborhoods in $X$.
 
 > [!proof]-
 > Let $x\in X$ and $U$ an open neighborhood of $x$. Let $C:=X-U$. As $C$ is closed and $x\notin C$, there exists an open neighborhood $V$ of $x$ s.t. $\overline{V}\cap C=\varnothing$. Therefore, $\overline{V}\subseteq U$. 

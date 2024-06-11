@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Base of Topology.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Killing Form.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Topology/Local Base of Topology.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -68,30 +68,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "7950142e4d9ca38d",
+            "id": "0138dbb87c7a76d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Topology/Local Base of Topology.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "87e7872eaf1e34b4",
+            "id": "5957846a0bf84c1d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Base of Topology.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
@@ -162,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Topology/Local Base of Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Topology/Local Base of Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md"
+                "file": "Topology/Local Base of Topology.md"
               }
             }
           }
@@ -224,18 +228,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "85c1e16970092e0a",
+  "active": "0138dbb87c7a76d9",
   "lastOpenFiles": [
-    "Topology/Cantor Space.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Topology/Base of Topology.md",
+    "Topology/Local Base of Topology.md",
+    "Topology/Continuous Function.md",
+    "Lie Group/Killing Form.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Basis of a Topology.md",
+    "Lie Group/Topological Group.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Topology/Basis of a Topology.md",
+    "Topology/Cantor Space.md",
     "Measure Theory/Cantor Set.md",
     "Topology/Metric Space.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Discrete Metric Space.md",
     "Topology/Topology of Metric Spaces.md",
-    "Topology/Continuous Function.md",
     "Analysis/Continuous Functions in Normed Spaces.md",
     "Topology/Topological Space.md",
     "Algebra/Commutator Subgroup.md",
@@ -243,15 +253,9 @@
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Nilpotent Lie Algebra.md",
     "Lie Group/Nilpotent Group.md",
-    "Lie Group/Killing Form.md",
     "Algebra/Solvable Group.md",
     "Lie Group/No Small Subgroup (NSS).md",
     "Algebra/Simple Group.md",
-    "Lie Group/Simple Lie Algebra.md",
-    "Lie Group/Weight.md",
-    "Lie Group/Ideal (Lie Algebra).md",
-    "Lie Group/Topological Group.md",
-    "Lie Group/Adjoint Representation.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

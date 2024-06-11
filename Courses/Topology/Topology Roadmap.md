@@ -29,8 +29,8 @@
 1. [[Topological Group]]
 
 **1.7 Basis and Fundamental Systems**
-1. [[Basis of a Topology]]
-2. [[Fundamental System]]
+1. [[Base of Topology]]
+2. [[Local Base of Topology]]
 
 **1.8 Closure, Interior, Boundary**
 1. [[Interior and Closure]]
