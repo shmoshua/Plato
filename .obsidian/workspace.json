@@ -44,27 +44,31 @@
             }
           },
           {
-            "id": "a144bb7237f28e0c",
+            "id": "8207ac82eff3ec12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Zariski Topology.md",
+                "file": "Topology/Hausdorff Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "8207ac82eff3ec12",
+            "id": "1f050f75a0e649b3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Filter.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -95,18 +99,6 @@
             }
           },
           {
-            "id": "2c5c88c6341d9d9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Zariski Topology.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7978476c2add222e",
             "type": "leaf",
             "state": {
@@ -117,9 +109,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "70fb1f2c37f47bd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Hausdorff Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8816422ea8b46c57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Filter.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,23 +265,23 @@
   },
   "active": "7978476c2add222e",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 3.md",
+    "Topology/Hausdorff Space.md",
     "Courses/Topology/Exercise Sheet 4.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Filter.md",
     "Topology/Topological Space.md",
     "Topology/Zariski Topology.md",
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Untitled.md",
     "Topology/Base of Topology.md",
     "Topology/Metric Space.md",
     "Topology/Cantor Space.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Topology/Continuous Function.md",
-    "Topology/Filter.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Interior and Closure.md",
-    "Topology/Hausdorff Space.md",
     "Topology/Local Base of Topology.md",
     "Closure.md",
     "Topology/Topological Vector Space with Seminorms.md",
