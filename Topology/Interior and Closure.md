@@ -32,14 +32,14 @@
 > 7. As $\overline{A}$ is closed, $A$ is closed. Conversely, if $A$ is closed, $\overline{A}\subseteq A$.
 ---
 > [!lemma] Proposition 2
-> Let $X$ be a topological space and assume every $x\in X$ has a countable [[Local Base of Topology|fundamental system]] of (open) neighborhoods. Then, for $A\subseteq X$, the following are equivalent:
+> Let $X$ be a topological space and assume every $x\in X$ has a countable [[Local Base of Topology|local base]]. Then, for $A\subseteq X$, the following are equivalent:
 > 1. $x\in \overline{A}$
-> 2. there exists $(x_{n})_{n}\subseteq A$ for all $n$ s.t. $x_{n}\to x$.
+> 2. there exists $(x_{n})_{n}\subseteq A$ s.t. $x_{n}\to x$.
 
-> [!proof]-
+> [!proof]+
 > We have:
-> - <=: Let $U$ be a neighborhood of $x$. Since $x_{n}\to x$, there exists $N\in \mathbb{N}$ s.t. $x_{n}\in U$ for $n\geq N$. Therefore, $x_{N}\in A \cap U$ and $x\in \overline{A}$.
-> - =>: If $x$ has a countable fundamental system of neighborhoods, there exists by [[Local Base of Topology|Prop 1.1]] a decreasing fundamental system of open neighborhoods $(U_{n})_{n}$ of $x$. As $x\in \overline{A}$, $A\cap U_{n}\neq \varnothing$ and we find $(x_{n})_{n}$ s.t. $x_{n}\in A\cap U_{n}$. 
+> - (<=): Let $U$ be a neighborhood of $x$. Since $x_{n}\to x$, there exists $N\in \mathbb{N}$ s.t. $x_{n}\in U$ for $n\geq N$. Therefore, $x_{N}\in A \cap U$ and $x\in \overline{A}$.
+> - (=>): If $x$ has a countable local base, there exists by [[Local Base of Topology|Prop 1.1]] a decreasing fundamental system of open neighborhoods $(U_{n})_{n}$ of $x$. As $x\in \overline{A}$, $A\cap U_{n}\neq \varnothing$ and we find $(x_{n})_{n}$ s.t. $x_{n}\in A\cap U_{n}$. 
 >   
 >   Now for any neighborhood $U$ of $x$, let $N\in \mathbb{N}$ s.t. $U_{n}\subseteq U$ for all $n\geq N$. Then, for all $n\geq N$, $x_{n}\in U$. This proves the statement.
 ---
