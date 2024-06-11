@@ -1,7 +1,7 @@
 #Definition #Topology 
 
 > [!definition]
-> The ***Cantor space*** is a [[topological space]] defined as: $$C:=\{ (x_{n})_{n}: x_{n}\in \{ 0,1 \}\}$$with the following topology. $U\subseteq C$ is open if and only if for every $x\in U$, there exists a finite index set $I\subseteq \mathbb{N}$ s.t. $$\{ y\in C: y_{n}=x_{n},\forall n\in I \}\subseteq U$$
+> The ***Cantor space*** is a [[topological space]] defined as: $$C:=\{ (x_{n})_{n}: x_{n}\in \{ 0,1 \}\}$$with the following topology: $U\subseteq C$ is open if and only if for every $x\in U$, there exists a finite index set $I\subseteq \mathbb{N}$ s.t. $$\{ y\in C: y_{n}=x_{n},\forall n\in I \}\subseteq U$$
 ---
 ##### Properties
 > [!lemma] Proposition 1

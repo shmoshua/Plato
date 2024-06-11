@@ -2,7 +2,7 @@
 
 > [!definition]
 > The ***Cantor set*** $C$ is defined as the set of values $x\in[0,1]$ s.t when written in base-3, i.e. $$x=\sum_{i=1}^{\infty}d_{i}(x)3^{-i}$$the digits $\{ d_{i}(x) \}_{i\geq 1}$ does not contain $1$. In other words,
-> $$C:=\{ x\in[0,1]:d_{i}(x)\in \{ 0,2 \} \text{ for all }i\geq 1 \}$$
+> $$C:=\{ x\in[0,1]:d_{i}(x)\in \{ 0,2 \},\forall i\geq 1 \}$$
 
 - **Remark**: Alternatively, it is defined as $C:=\bigcap_{n=1}^{\infty}C_{n}$ where: $$C_{n}:=\{ x\in[0,1]:d_{i}(x)\in \{ 0,2 \}\  \forall i\leq n\}$$Then, $C_{n}$ is a disjoint union of $2^n$ closed intervals of length $1/3^n$. 
 - **Remark**: $C$ is closed as a union of closed sets.
