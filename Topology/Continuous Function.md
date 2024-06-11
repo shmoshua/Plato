@@ -2,6 +2,7 @@
 
 > [!definition]
 > Let $X,Y$ be [[Topological Space|topological spaces]]. A map $f:X\to Y$ is ***continuous***, if for any open set $U\subseteq Y$, $f^{-1}(U)\subseteq X$ is open.
+- **Related definition**: $f$ is ***continuous at $x$*** if for all neighborhoods $V\subseteq Y$ of $f(x)$, there exists a neighborhood $W\subseteq X$  of $x$ s.t. $f(W)\subseteq V$.
 ---
 ##### Properties
 > [!lemma] Lemma 1

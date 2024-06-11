@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -68,8 +68,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
-                "mode": "source",
+                "file": "Topology/Continuous Function.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -80,14 +80,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Space.md",
+                "file": "Topology/Continuous Functions in Metric Spaces.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "87e7872eaf1e34b4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Topological Space.md",
+                "file": "Topology/Continuous Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Topological Space.md",
+                "file": "Topology/Continuous Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Topological Space.md"
+                "file": "Topology/Continuous Function.md"
               }
             }
           }
@@ -216,10 +223,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a7207c8e038c57a3",
+  "active": "87c4026e467da400",
   "lastOpenFiles": [
-    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Continuous Functions in Metric Spaces.md",
+    "Analysis/Continuous Functions in Normed Spaces.md",
     "Topology/Topological Space.md",
+    "Topology/Continuous Function.md",
+    "Algebra/Commutator Subgroup.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Nilpotent Lie Algebra.md",
@@ -234,16 +245,12 @@
     "Lie Group/Topological Group.md",
     "Lie Group/Adjoint Representation.md",
     "Functional Analysis/Adjoint Linear Map.md",
-    "Algebra/Commutator Subgroup.md",
     "Lie Group/Lie Group.md",
     "Algebra/Special Linear Group.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Tangent Space II.md",
     "Lie Group/Radical (Lie Algebra).md",
     "Lie Group/Semisimple Lie Algebra.md",
-    "Lie Group/Solvable Lie Algebra.md",
-    "Algebra/Ideal.md",
-    "Functional Analysis/Jacobson Radical.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
