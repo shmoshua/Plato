@@ -2,7 +2,7 @@
 
 > [!def] Problem 1
 > Let $X=\mathcal{F}(\mathbb{R},\mathbb{C})$ with the topology $\mathcal{T}_{p}$.
-> 1. Let $A\subseteq X$ be any subset. Show that $0\in \bar{A}$ if and only if, for any $N\geq 1$, $(x_{n})_{n}\in \mathbb{R}^N$ and $\varepsilon>0$, there exists $f\in A$ such that $\left| f(x_{n}) \right|<\varepsilon$ for all $n$.
+> 1. Let $A\subseteq X$ be any subset. Show that $0\in \overline{A}$ if and only if, for any $N\geq 1$, $(x_{n})_{n}\in \mathbb{R}^N$ and $\varepsilon>0$, there exists $f\in A$ such that $\left| f(x_{n}) \right|<\varepsilon$ for all $n$.
 > 2. Let $A\subseteq X$ be the subset of monic polynomials with real coefficients. Show that $0\notin A$ and that $0\in \overline{A}$. Show that the same holds for $A$ the subset of the indicator functions of the complements of finite sets (i.e $f_{S}:=1-\chi_{S}$, with $S$ finite).
 > 3. For the set $A$ with the indicator functions, show that there exists no sequence $(f_{n})_{n}\subseteq A$ s.t. $f_{n}\to 0$.
 

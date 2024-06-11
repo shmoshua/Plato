@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 2.md",
+                "file": "Courses/Topology/Exercise Sheet 3.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Topology/Metric Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 2.md",
+                "file": "Courses/Topology/Exercise Sheet 3.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "mode": "preview",
                 "source": false
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 2.md",
+                "file": "Courses/Topology/Exercise Sheet 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 2.md",
+                "file": "Courses/Topology/Exercise Sheet 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 2.md"
+                "file": "Courses/Topology/Exercise Sheet 3.md"
               }
             }
           }
@@ -242,13 +242,17 @@
   },
   "active": "2c5c88c6341d9d9b",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 1.md",
+    "Courses/Topology/Exercise Sheet 4.md",
+    "Topology/Metric Space.md",
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Topology/Cantor Space.md",
     "Courses/Topology/Exercise Sheet 2.md",
+    "Topology/Continuous Function.md",
+    "Topology/Filter.md",
+    "Courses/Topology/Exercise Sheet 1.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Interior and Closure.md",
-    "Topology/Continuous Function.md",
     "Topology/Topological Space.md",
-    "Topology/Filter.md",
     "Topology/Hausdorff Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Local Base of Topology.md",
@@ -257,7 +261,6 @@
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Courses/Analysis IV/Analysis IV Roadmap.md",
     "Topology/Closure.md",
-    "Topology/Cantor Space.md",
     "Topology/Base of Topology.md",
     "Lie Group/Killing Form.md",
     "Basis of a Topology.md",
@@ -265,9 +268,6 @@
     "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Topology/Basis of a Topology.md",
     "Measure Theory/Cantor Set.md",
-    "Topology/Metric Space.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Topology/Continuous Functions in Metric Spaces.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
