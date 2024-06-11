@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 3.md",
+                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "mode": "source",
                 "source": true
               }
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -112,14 +112,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -185,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Zariski Topology.md",
+                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Zariski Topology.md",
+                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Zariski Topology.md"
+                "file": "Courses/Topology/Exercise Sheet 4.md"
               }
             }
           }
@@ -247,14 +247,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2c5c88c6341d9d9b",
+  "active": "7978476c2add222e",
   "lastOpenFiles": [
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Courses/Topology/Exercise Sheet 4.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Topological Space.md",
     "Topology/Zariski Topology.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Courses/Topology/Exercise Sheet 3.md",
+    "Untitled.md",
     "Topology/Base of Topology.md",
-    "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Metric Space.md",
     "Topology/Cantor Space.md",
     "Courses/Topology/Exercise Sheet 2.md",
@@ -264,7 +266,6 @@
     "Analysis/Convergence of Sequences.md",
     "Topology/Interior and Closure.md",
     "Topology/Hausdorff Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Local Base of Topology.md",
     "Closure.md",
     "Topology/Topological Vector Space with Seminorms.md",
@@ -274,7 +275,6 @@
     "Lie Group/Killing Form.md",
     "Basis of a Topology.md",
     "Lie Group/Topological Group.md",
-    "Topology/Basis of a Topology.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
