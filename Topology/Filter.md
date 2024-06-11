@@ -1,4 +1,4 @@
-#Definition #Topology  ^a8b681
+#Definition #Topology  
 
 > [!definition]
 > Let $X$ be a set. A ***filter*** $\mathcal{F}$ on $X$ is a collection of subsets of $X$ s.t. 
@@ -67,7 +67,7 @@
 > For a [[topological space]] $X$ and $x\in X$, the set of all neighborhoods $\mathcal{F}_{x}$ of $x$ is a filter.
 ---
 > [!h] Example 2 (Frechet Filter)
-> Let $X$ be an infinite set. Then, for the Frechet filter $\mathcal{F}:=\{ A\subseteq X:A^c\text{ is finite} \}$:
+> Let $X$ be an infinite set. Then, for the Frechet filter $\mathcal{F}:=\{ A\subseteq X: X\backslash A\text{ is finite} \}$:
 > 1. $\mathcal{F}$ is a filter.
 > 2. $\mathcal{F}\subseteq \mathcal{G}$ where $\mathcal{G}$ is some ultrafilter from Lemma 5.
 > 3. The ultrafilter $\mathcal{G}$ is not a principal filter.

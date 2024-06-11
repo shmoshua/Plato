@@ -10,5 +10,5 @@
 > [!lemma] Proposition 1
 > We have the following properties:
 > 1. $A \subseteq(A^{\bot})^{\bot}$
-> 2. $(\overline{A})^{\bot}=A^{\bot}$ where $\overline{A}$ is the [[closure]] of $A$.
+> 2. $(\overline{A})^{\bot}=A^{\bot}$ where $\overline{A}$ is the [[Interior and Closure|closure]] of $A$.
 ---

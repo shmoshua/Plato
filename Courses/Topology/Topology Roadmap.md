@@ -34,7 +34,6 @@
 
 **1.8 Closure, Interior, Boundary**
 1. [[Interior and Closure]]
-2. [[Closure]]
 
 **1.9 Limits and Convergence**
 1. [[Convergence of Sequences]]

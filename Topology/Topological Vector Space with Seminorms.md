@@ -127,7 +127,7 @@
 > 	Since $F\not\equiv 0$, there exists $v_{0}\in E$ s.t. $F(v_{0})>0$.  Further, as $N(0,F,\varepsilon)$ is absorbant, there exists $\lambda>0$ s.t. $\lambda v_{0}\in N(0,F,\varepsilon)$. Then, by letting $w_{0}:=\lambda v_{0}$, we have $F(w_{0})>0$ and $$F(a)<\underbrace{ F(a)+F(w_{0}) }_{ =:\alpha }<F(v)\quad\forall a\in A$$
 ---
 > [!lemma] Lemma 10
-> Let $E$ be a TVS with seminorms $\{ \|\cdot\|_{a} \}_{a\in A}$. Then, for a [[Convex Set|convex]] set $C\subseteq E$, the [[closure]] $\overline{C}$ is convex.
+> Let $E$ be a TVS with seminorms $\{ \|\cdot\|_{a} \}_{a\in A}$. Then, for a [[Convex Set|convex]] set $C\subseteq E$, the [[Interior and Closure|closure]] $\overline{C}$ is convex.
 
 > [!proof]-
 > Let $v_{1},v_{2}\in \overline{C}$. We want to show that $tv_{1}+(1-t)v_{2}\in \overline{C}$. Let $\varepsilon>0$ and $F\subseteq A$ finite.  Then, $$\begin{align}(v_{1}+N(0,F,\varepsilon))\cap C&\neq \varnothing\\(v_{2}+N(0,F,\varepsilon))\cap C&\neq \varnothing\end{align}$$Therefore, there exists $x_{1},x_{2}\in N(0,F,\varepsilon)$ s.t. $$v_{1}+x_{1}\in C,\quad v_{2}+x_{2}\in C$$
