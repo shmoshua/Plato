@@ -11,10 +11,15 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $\mathcal{U}$ be a uniform structure on $X$. Consider the following topology, where $U\subseteq X$ is open if and only if $U$ is empty or for any $x\in U$ there exists $A\in \mathcal{U}$ s.t. $U=\{y\in X:(x,y)\in A \}$.
+> Let $\mathcal{U}$ be a uniform structure on $X$. 
+> 1.  The topology of uniform spaces has $U\subseteq X$ open if and only if $U=\varnothing$ or for all $x\in U$ there exists $A\in \mathcal{U}$ s.t. $U=\{y\in X:(x,y)\in A \}$.
 
-> [!proof]-
-> We first have that $\varnothing$ is open. Further, $\Delta \subseteq X\times X\in \mathcal{U}$. Therefore, $X$ is open. Let $U_{1},U_{2}$ be open with $A_{1},A_{2}\in \mathcal{U}$ as the corresponding sets. Then, for $x\in U_{1}\cap U_{2}$, $$U_{1}\cap U_{2}=\{ y\in X:(x,y)\in A_{1} \}\cap\{ y\in X:(x,y)\in A_{2} \}=\{ y\in X:(x,y)\in A_{1}\cap A_{2} \}$$where $A_{1}\cap A_{2}\in\mathcal{U}$. Similarly, let $(U_{i})_{i\in I}$ be a family of open sets with $(A_{i})_{i\in I}\subseteq \mathcal{U}$. Then, for $x\in U:=\bigcup_{{i\in I}}^{}U_{i}$. Then, we let $A:=U\times U$ where 
+> [!proof]+
+> We first have that $\varnothing$ is open. Further, $\Delta \subseteq X\times X\in \mathcal{U}$. Therefore, $X$ is open. 
+> 
+> Let $U_{1},U_{2}$ be non-empty open. Then, for $x\in U_{1}\cap U_{2}$ let $A_{1},A_{2}$ be the corresponding sets. Hence, $$U_{1}\cap U_{2}=\{ y\in X:(x,y)\in A_{1} \}\cap\{ y\in X:(x,y)\in A_{2} \}=\{ y\in X:(x,y)\in A_{1}\cap A_{2} \}$$where $A_{1}\cap A_{2}\in\mathcal{U}$. 
+> 
+> Similarly, let $(U_{i})_{i\in I}$ be a family of open sets with $(A_{i})_{i\in I}\subseteq \mathcal{U}$. Then, for $x\in U:=\bigcup_{{i\in I}}^{}U_{i}$. Then, we let $A:=U\times U$ where 
 ---
 > [!lemma] Theorem 2
 > For a uniform space $(X,\mathcal{U})$, 
@@ -47,11 +52,11 @@
 > [!h] Example 3 (Compact Hausdorff Space)
 > For a [[Compact Space|compact]] [[Hausdorff space]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U\subseteq X\times X\text{ open s.t. }\Delta \subseteq U\subseteq A\}$$is a uniform structure.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Obvious with the same $U$.
 > 2. Take the intersection.
 > 3. By definition.
 > 4. Take $U^{-1}$.
-> 5. For $A\in \mathcal{U}$ with $U$, let $(x,y),(y,z)\in B$, we have: $(x,z)\subseteq U$
+> 5. Let $A\in \mathcal{U}$ with $U$. Then, for any $x\in X$, there exists $B$ open s.t. $(x,x)\in B\times B\subseteq U$. By the [[Normal Space|normality]] of $X$, there exists $A\ni x$ open s.t. $\overline{A}\subseteq B$. By compactness, there exists $A_{1},\dots,A_{n}$ s.t. $\mathcal{A}:=\{ A_{i} \}_{i}$ is a finite cover of $X$. Let $\mathcal{A}_{i}:=\{ X \backslash \overline{A_{i}},B_{i} \}$ be also a finite open cover of $X$. We now define: $$\mathcal{V}:=\left\{  V\cap \bigcap_{i}^{}V_{i}:V\in\mathcal{A},V_{i}\in \mathcal{A}_{i}  \right\}$$Lastly, define $W:=\bigcup_{S\in \mathcal{V}}^{}S\times S$. Then, $W$ is open and $\Delta \subseteq W$. Therefore, $W\in \mathcal{U}$. Finally, for $(x,y),(y,z)\in W$, then $x,y\in A_{i}$ for some $i$. Then, $y,z\in B_{i}$. Therefore, $$(x,z)\in B_{i}\times B_{i}\subseteq U$$  
 ---

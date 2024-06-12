@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Topology/Normal Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -216,9 +216,10 @@
   "active": "366d9cebfe9d8db1",
   "lastOpenFiles": [
     "Topology/Compact Space.md",
+    "Topology/Normal Space.md",
+    "Topology/Hausdorff Space.md",
     "Topology/Uniform Structure.md",
     "Lie Group/Topological Group.md",
-    "Topology/Hausdorff Space.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Filter.md",
     "Topology/Connected Space.md",
@@ -240,7 +241,6 @@
     "Topology/Base of Topology.md",
     "Topology/Complete Space.md",
     "Topology/Compact Metric Space.md",
-    "Functional Analysis/Space of Probability Measures.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
