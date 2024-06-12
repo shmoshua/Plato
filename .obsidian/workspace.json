@@ -62,18 +62,6 @@
             }
           },
           {
-            "id": "7978476c2add222e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 6.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "70fb1f2c37f47bd5",
             "type": "leaf",
             "state": {
@@ -239,13 +227,13 @@
   },
   "active": "366d9cebfe9d8db1",
   "lastOpenFiles": [
-    "Topology/Ultrafilter.md",
-    "Topology/Connected Space.md",
+    "Topology/Compact Space.md",
     "Courses/Topology/Exercise Sheet 6.md",
+    "Topology/Connected Space.md",
+    "Topology/Ultrafilter.md",
     "Topology/Filter.md",
     "Algebra/Associative Algebra.md",
     "Topology/Hausdorff Space.md",
-    "Topology/Compact Space.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Functional Analysis/C-Algebra.md",
     "Differential Geometry/Topological Manifold.md",

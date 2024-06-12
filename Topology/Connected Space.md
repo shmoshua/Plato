@@ -22,11 +22,17 @@
 > 5. For all pair of disjoint closed sets $C_{1},C_{2}\subseteq X$, if $C_{1}\sqcup C_{2}=X$ then, $C_{1}=\varnothing\lor C_{2}=\varnothing$.
 > 5. The only sets that are both open and closed are $\varnothing$ and $X$.
 
-> [!proof]+
-> 
+> [!proof]-
+> We have that:
+> 1. (1=>2): obvious as $\{ 0,1 \}$ is discretre.
+> 2. (2=>3): let $\chi_{U_{1}}:X\to \{ 0,1 \}$. Then, $\chi_{U_{1}}$ is continuous and constant. If $\chi_{U_{1}}=0$, then $U_{1}=\varnothing$. If $\chi_{U_{1}}=1$, then $U_{1}=X$ and $U_{2}=\varnothing$.
+> 3. (3=>4): Take $U_{1}:=X \backslash C_{1}$ and $U_{2}:=X \backslash C_{2}$. 
+> 4. (4=>5): let $U\subseteq X$ be a proper subset that is both open and closed. Then, $X \backslash U$ is closed as well and $U,X \backslash U$ are disjoint closed partition of $X$, both non-zero. 
+> 5. (5=>1): Let $f:X\to D$ be a non-constant continuous map. Then, let $x\in f(X)$ with $U:=f^{-1}(\{ x \})$, which is open and is not $\varnothing$ or $X$. However, $X \backslash U=f^{-1}(D\backslash \{ x \})$ is also open. Therefore, $U$ is also closed.
 ---
 > [!lemma] Lemma 2
-> Let $X$ be a [[topological space]] and $(A_{i})_{i\in I}$ be any family of connected subsets of $X$. If $\bigcap_{i\in I}^{}A_{i}\neq \varnothing$, then $\bigcup_{i\in I}^{}A_{i}$ is connected.
+> Let $X$ be a [[topological space]] and $(A_{i})_{i\in I}$ be any family of connected subsets of $X$. 
+> 1. If $\bigcap_{i\in I}^{}A_{i}\neq \varnothing$, then $\bigcup_{i\in I}^{}A_{i}$ is connected.
 
 > [!proof]-
 > Let $f:\bigcup_{{i}}^{}A_{i}\to \{ 0,1 \}$ to be continuous. Then, $f|_{A_{i}}$ is continuous for each $i$ so constant. However, $\bigcap_{i\in I}^{}A_{i}\neq \varnothing$, hence $f$ is constant.
@@ -37,9 +43,9 @@
 > 1. $\overline{A}$ is connected.
 > 2. $f(A)$ is connected.
 
-> [!proof]-
+> [!proof]+
 > We have: 
-> 1. Let $\overline{A}=U_{1}\cup U_{2}$ where $U_{1},U_{2}$ are disjoint. Then, $A=(U_{1}\cap A)\cup(U_{2}\cap A)$ and by connectedness, $U_{1}\cap A=\varnothing$ or $U_{2}\cap A=\varnothing$. Wlog assume $U_{1}\cap A=\varnothing$. Then, $A\subseteq U_{2}$. Therefore, $$U_{1}=U_{1}\cap \overline{A}\subseteq U_{1}\cap \overline{U_{2}}=\varnothing$$
+> 1. Let $\overline{A}=U_{1}\sqcup U_{2}$. Then, $A=(U_{1}\cap A)\sqcup(U_{2}\cap A)$ and by connectedness, $U_{1}\cap A=\varnothing$ or $U_{2}\cap A=\varnothing$. Wlog assume $U_{1}\cap A=\varnothing$. Then, $A\subseteq U_{2}$. Therefore, $$U_{1}=U_{1}\cap \overline{A}\subseteq U_{1}\cap \overline{U_{2}}=\varnothing$$
 > 2. Let $f(A)=U_{1}\cup U_{2}$ where $U_{1},U_{2}$ are disjoint open. Then, $f^{-1}(U_{1}),f^{-1}(U_{2})$ are disjoint open and $A=f^{-1}(U_{1})\cup f^{-1}(U_{2})$. Therefore, wlog $f^{-1}(U_{1})=\varnothing$. Therefore, $U_{1}=\varnothing$.
 
 ---
