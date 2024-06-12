@@ -44,6 +44,20 @@
 > [!proof]-
 > Let $A\subseteq C$ where $C$ is closed. Then, $f^{-1}(A)\subseteq f^{-1}(C)$ and $\overline{f^{-1}(A)}\subseteq f^{-1}(C)$. Therefore, $$\overline{f^{-1}(A)}\subseteq \bigcap_{A\subseteq C,C\text{ closed}}^{}f^{-1}(C)=f^{-1}\left( \bigcap_{A\subseteq C,C\text{ closed}}^{}C \right) =f^{-1}(\overline{A})$$
 ---
+> [!lemma] Lemma 4
+> Let $X$ be a topological space and $Y$ Hausdorff. Further let $f,g:X\to Y$ be continuous. Then, 
+> 1. $\{ (x,y):f(x)=g(y) \}$ and $\{ x\in X:f(x)=g(x) \}$ are closed.
+> 2. if $f(x)=g(x)$ for all $x\in A$ where $A\subseteq X$ is dense, $f=g$.
+> 3. $\text{graph}(f)$ is closed in $X\times Y$.
+
+> [!proof]+
+> We have:
+> 1. Let $x,y\in X$ s.t. $f(x)\neq g(y)$. Then, as $Y$ is Hausdorff, there exists $V,W\subseteq Y$ neighborhoods of $f(x),g(y)$ respectively s.t. $V\cap W=\varnothing$. Then, $f^{-1}(V)$ and $g^{-1}(W)$ are neighborhoods of $x,y$ respectively, s.t. $f^{-1}(V)\times g^{-1}(W)\subseteq X\times X \backslash\{ (a,b):f(a)=g(b) \}$. This shows that $\{ (x,y):f(x)=g(y) \}$ is closed.
+   
+   One can easily see from the definition of product topology that $X$ is homeomorphic to $\Delta$ w.r.t the subspace topology of the product topology. Then, as $$\{(x,x)\in X:f(x) =g(x)\}=\Delta \cap\{ (x,y):f(x)= g(y)  \}$$ is closed in $\Delta$, our set is closed in $X$.
+4. Let $\overline{E}=X$ and for all $x\in E$, $f(x)=g(x)$. Now, let $y\in X$ and assume that $f(y)\neq g(y)$. As $Y$ is Hausdorff, then we have disjoint open neighborhoods $V,W$ of $f(y)$ and $g(y)$ respectively. Consequently, $f^{-1}(V)$ and $g^{-1}(W)$ are open neighborhoods of $y$. Therefore, $f^{-1}(V)\cap g^{-1}(W)$ is an open neighborhood of $y$. By the density of $E$, then there exists $x\in f^{-1}(V)\cap g^{-1}(W)$ s.t. $f(x)=g(x)\in V\cap W$, which is a contradiction.
+5. Let $(x,y)\in X\times Y$ s.t. $f(x)\neq y$. Then, there exist disjoint open neighborhoods $V,W$ of $f(x)$ and $y$ respectively. Therefore, $f^{-1}(V)$ is an open neighborhood of $x$ and $f^{-1}(V)\times W\subseteq X\times Y \backslash \text{graph}(f)$. Indeed if otherwise, there exists $f(a)=b\in V\cap W$ which is a contradiction. 
+---
 ##### Compact Hausdorff Spaces
 > [!lemma] Theorem (Stone-Weierstrass)
 > Let $X$ be a [[Compact Space|compact]] [[Hausdorff space]]. Let $\mathcal{F}\subseteq C(X,\mathbb{R})$ s.t. 
