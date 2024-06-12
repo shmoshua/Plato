@@ -43,6 +43,7 @@
 > 1. $\overline{A}$ is connected.
 > 2. $f(A)$ is connected.
 > 3. For $x\in X$, the connected component of $x$ is closed.
+> 4. If $B$ is a subset of $X$ such that $A\subseteq B\subseteq \overline{A}$, show that $B$ is connected.
 
 > [!proof]-
 > We have: 

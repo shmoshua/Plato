@@ -10,7 +10,7 @@
 > 2. for all $U\subseteq X$ open, all $x\in U$, the connected component of $x$ in $U$ is open.
 
 > [!proof]-
-> Let $U\subseteq X$ be open and $x\in U$. Let $V$ be a connected component of $x$ in $U$. Let $W$ be the connected neighborhood of $x$ in $U$. Then, $W\subseteq V$ by the definition of a connected component. Therefore, $V$ is open.
+> Let $U\subseteq X$ be open and $x\in U$. Let $V$ be a connected component of $x$ in $U$. Let $y\in V$ and $W$ be the connected neighborhood of $y$ in $U$. Then, $W\subseteq V$ by the definition of a connected component. Therefore, $V$ is open.
 > 
 > Conversely, let $x\in X$ and $U$ is an open neighborhood of $x$. Since the connected component of $x$ in $U$ is open, it is an open neighborhood of $x$ contained in $U$.
 - **Remark**: If $X$ is locally connected, the connected components of $X$ are open and closed.

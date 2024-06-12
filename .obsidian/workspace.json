@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Complete Metric Space.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -68,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Connected Space.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,13 +103,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Courses/Topology/Exercise Sheet 6.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Locally Connected Space.md",
+                "file": "Topology/Connected Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Locally Connected Space.md",
+                "file": "Topology/Connected Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Locally Connected Space.md"
+                "file": "Topology/Connected Space.md"
               }
             }
           }
@@ -238,14 +238,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "36e87c04d2be24f2",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Topology/Locally Compact Space.md",
-    "Topology/Locally Connected Space.md",
-    "Topology/Locally Complete Metric Space.md",
-    "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Compact Space.md",
     "Courses/Topology/Exercise Sheet 6.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Locally Complete Metric Space.md",
+    "Topology/Connected Space.md",
+    "Topology/Locally Connected Space.md",
+    "Topology/Compact Space.md",
+    "Topology/Locally Compact Space.md",
     "Topology/Filter.md",
     "Topology/Complete Space.md",
     "Courses/Topology/Topology Roadmap.md",
@@ -256,7 +257,6 @@
     "Topology/Hausdorff Space.md",
     "Lie Group/Topological Group.md",
     "Differential Geometry/Topological Manifold.md",
-    "Topology/Connected Space.md",
     "Algebra/Associative Algebra.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Functional Analysis/C-Algebra.md",
