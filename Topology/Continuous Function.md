@@ -67,10 +67,15 @@
 > 3. for $x\neq y$, there exists $f\in \mathcal{F}$ with $f(x)\neq f(y)$
 >    
 >  Then, $\mathcal{F}\subseteq C(X,\mathbb{R})$ is dense w.r.t. the [[Topology of Pointwise and Uniform Convergence|topology of uniform convergence]]. 
+
+^8efffd
+
 ---
 > [!lemma] Theorem (Closed Graph Theorem for Compact Hausdorff Spaces)
 > Let $X$ be a topological space and $Y$ [[Compact Space|compact]] [[Hausdorff Space|Hausdorff]]. Let $f:X\to Y$. 
 > 1. if $\text{graph}(f)$ is closed, $f$ is continuous. 
+
+^e5bbc4
 
 > [!proof]-
 > Let $x_{0}\in X$ and denote $y_{0}:= f(x_{0})$. Then, for any $y\neq y_{0}$ in $Y$, $(x_{0},y)\notin \text{graph}(f)$. Therefore, by the definition of product topology, there exists open neighborhoods $U_{y},V_{y}$ of $x_{0}$ and $y$ respectively, s.t. $U_{y}\times V_{y}\subseteq X\times Y\backslash\text{graph}(f)$. 
@@ -78,5 +83,8 @@
 > Let $V\ni y_{0}$ now be an open neighborhood. As $Y$ is compact, $Y \backslash V$ is compact as a closed subset. Now, consider $\{ V_{y}:y\in Y \backslash V \}$ as an open cover of $Y \backslash V$. Then, there exists a finite set $J\subseteq Y \backslash V$ s.t. $Y \backslash V\subseteq \bigcup_{y\in J}^{}V_{y}$. Now, set $U:=\bigcap_{y\in J}^{}U_{y}\ni x_{0}$. Then, for any $(x,y)\in U\times(Y \backslash V)$, there exists $z\in J$ s.t. $(x,y)\in U_{z}\times V_{z}$. Therefore, $U\times(Y \backslash V)\subseteq X\times Y \backslash\text{graph}(f)$.
 > 
 > Finally, let $V$ be an open set in $Y$. If $f^{-1}(V)=\varnothing$, we are done. Otherwise take $x_{0}\in f^{-1}(V)$. Then, $V$ is an open neighborhood of $f(x_{0})$ and there exists an open neighborhood $U$ of $x_{0}$ s.t. $(U\times Y \backslash V)\cap \text{graph}(f)=\varnothing$. Let $x\in U$. Then, $f(x)\in V$ and $U\subseteq f^{-1}(V)$. Therefore, $f$ is continuous.
+
+^aa3f39
+
 ---
 

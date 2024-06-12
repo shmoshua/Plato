@@ -25,4 +25,12 @@
 > $\alpha X$ is compact.
 
 > [!proof]+
-> 
+
+---
+> [!lemma] Lemma 3
+> We have that:
+> 1.  $\{ \infty \}$ is dense in $\alpha X$.
+
+> [!proof]-
+> Let $y\in X$ and $U$ an open neighborhood of $y$ in $\tilde{X}$. Then, by definition, $\infty\in U$. Therefore, $y\in \overline{\{ \infty \}}$. As $y$ was arbitrary, this proves the statement.
+---

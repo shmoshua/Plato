@@ -69,6 +69,14 @@
 
 - **Remark**: This is equivalent to [[Axiom of Choice]].
 ---
+###### Compact Hausdorff Space
+![[Continuous Function#^8efffd]]
+
+---
+![[Continuous Function#^e5bbc4]]
+![[Continuous Function#^aa3f39|p]]
+
+---
 ###### Compact Metric Spaces
 > [!lemma] Theorem 1 (Equivalence of Compactness)
 > For a metric space $(X,d)$, the following are equivalent:

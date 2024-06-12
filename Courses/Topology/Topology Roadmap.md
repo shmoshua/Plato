@@ -48,6 +48,7 @@
 **2.1 Compactness**
 1. [[Compact Space]]
 2. [[Ultrafilter]]
+3. [[One-Point Compactification]]
 
 **2.2 Connectedness**
 1. [[Connected Space]]

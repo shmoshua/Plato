@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -68,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,14 +91,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Topology/Complete Metric Space.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +126,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "markov kaku",
+                "query": "baire category",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 5.md",
+                "file": "Topology/Compact Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 5.md",
+                "file": "Topology/Compact Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 5.md"
+                "file": "Topology/Compact Space.md"
               }
             }
           }
@@ -228,13 +226,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "7978476c2add222e",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
+    "Topology/One-Point Compactification.md",
+    "Topology/Compact Space.md",
+    "Topology/Complete Metric Space.md",
     "Topology/Hausdorff Space.md",
     "Courses/Topology/Exercise Sheet 5.md",
-    "Topology/Compact Space.md",
-    "Topology/Continuous Function.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Topology/Continuous Function.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Ultrafilter.md",
     "Topology/Filter.md",
@@ -253,9 +253,7 @@
     "Functional Analysis/Mean (Group Theory).md",
     "Topology/Locally Compact Space.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
-    "Topology/Complete Metric Space.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
-    "Topology/Topological Vector Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
