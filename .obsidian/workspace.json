@@ -62,24 +62,12 @@
             }
           },
           {
-            "id": "70fb1f2c37f47bd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Filter.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0dad032ce17e2243",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -91,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Topology/Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -225,19 +213,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "366d9cebfe9d8db1",
   "lastOpenFiles": [
-    "Topology/Connected Space.md",
-    "Topology/Uniform Structure.md",
-    "Topology/Ultrafilter.md",
     "Topology/Compact Space.md",
-    "Courses/Topology/Exercise Sheet 6.md",
-    "Topology/Filter.md",
-    "Algebra/Associative Algebra.md",
+    "Topology/Uniform Structure.md",
+    "Lie Group/Topological Group.md",
     "Topology/Hausdorff Space.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Topology/Filter.md",
+    "Topology/Connected Space.md",
+    "Topology/Ultrafilter.md",
+    "Courses/Topology/Exercise Sheet 6.md",
+    "Algebra/Associative Algebra.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Functional Analysis/C-Algebra.md",
-    "Differential Geometry/Topological Manifold.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Complete Metric Space.md",
     "Topology/Dense Subset.md",
@@ -252,7 +241,6 @@
     "Topology/Complete Space.md",
     "Topology/Compact Metric Space.md",
     "Functional Analysis/Space of Probability Measures.md",
-    "Analysis/Kernel.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

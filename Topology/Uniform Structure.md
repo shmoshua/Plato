@@ -36,11 +36,22 @@
 > [!h] Example 2 (Topological Group)
 > For a [[topological group]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U \text{ neighborhood of }e\text{ s.t. }\{ (x,y)|xy^{-1}\in U \}\subseteq A\}$$is a uniform structure.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. For $A\in \mathcal{U}$ with neighborhood $U$ use $U$ for $B\supseteq A$.
-> 2. Use the interse
+> 2. Use the intersection.
+> 3. For $A\in \mathcal{U}$ with neighborhood $U$, $xx ^{-1}=e\in U$ and $(x,x)\in A$.
+> 4. Take $U^{-1}$.
+> 5. For $A\in \mathcal{U}$ with neighborhood $U$, if $U$ is a neighborhood of $e$, by [[Topological Group|Proposition 2]], there exists an open symmetric neighborhood $V$ of $e$ s.t. $V^{2}\subseteq U$. Let $B:=\{ (x,y): xy^{-1}\in V \}$. Then, for $(x,y),(y,z)\in B$, $$xz^{-1}=xy^{-1}yz^{-1}\in V^{2}\subseteq U$$
 ---
-> [!h] Example 2 (Compact Hausdorff Space)
-> For a [[Compact Space|compact]] [[Hausdorff space]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U\subseteq X\times X\text{ open s.t. }U\subseteq A\}$$is a uniform structure.
+> [!h] Example 3 (Compact Hausdorff Space)
+> For a [[Compact Space|compact]] [[Hausdorff space]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U\subseteq X\times X\text{ open s.t. }\Delta \subseteq U\subseteq A\}$$is a uniform structure.
+
+> [!proof]+
+> We have:
+> 1. Obvious with the same $U$.
+> 2. Take the intersection.
+> 3. By definition.
+> 4. Take $U^{-1}$.
+> 5. For $A\in \mathcal{U}$ with $U$, let $(x,y),(y,z)\in B$, we have: $(x,z)\subseteq U$
 ---
