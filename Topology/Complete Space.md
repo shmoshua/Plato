@@ -9,4 +9,4 @@
 
  > [!proof]+
  > We have the uniform structure: $$\mathcal{U}:=\{ A\in X\times X:  \exists U\text{ open s.t. }\Delta \subseteq U\subseteq A \}$$
- > 
+ > Let $\mathcal{F}$ be a Cauchy filter. Then, 
