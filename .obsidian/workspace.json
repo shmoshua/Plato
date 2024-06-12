@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Filter.md",
                 "mode": "preview",
                 "source": false
               }
@@ -215,13 +215,13 @@
   },
   "active": "366d9cebfe9d8db1",
   "lastOpenFiles": [
+    "Topology/Filter.md",
+    "Topology/Uniform Structure.md",
     "Topology/Compact Space.md",
     "Topology/Normal Space.md",
     "Topology/Hausdorff Space.md",
-    "Topology/Uniform Structure.md",
     "Lie Group/Topological Group.md",
     "Differential Geometry/Topological Manifold.md",
-    "Topology/Filter.md",
     "Topology/Connected Space.md",
     "Topology/Ultrafilter.md",
     "Courses/Topology/Exercise Sheet 6.md",

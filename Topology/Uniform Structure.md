@@ -7,19 +7,20 @@
 > 3. $\Delta:=\{ (x,x): x\in X \}\subseteq A$ for all $A\in \mathcal{U}$.
 > 4. if $A\in \mathcal{U}$, then $A^{-1}:=\{ (y,x):(x,y)\in A \}\in \mathcal{U}$.
 > 5. if $A\in \mathcal{U}$, then there exists $B\in \mathcal{U}$ s.t. $B^{2}:=\{ (x,y): \exists z,(x,z),(z,y)\in B \}\subseteq A$
-- **Related definition**: A [[filter]] $\mathcal{F}$ on $X$ is a ***Cauchy filter***, if for all $A\in \mathcal{U}$, there exists $U\subseteq X$ s.t. $U\times U\subseteq A$ and $U\in \mathcal{F}$.
+- **Related definition**: A [[filter]] $\mathcal{F}$ on $X$ is a ***Cauchy filter***, if for all $A\in \mathcal{U}$, there exists $U\in \mathcal{F}$ s.t. $U\times U\subseteq A$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
 > Let $\mathcal{U}$ be a uniform structure on $X$. 
-> 1.  The topology of uniform spaces has $U\subseteq X$ open if and only if $U=\varnothing$ or for all $x\in U$ there exists $A\in \mathcal{U}$ s.t. $U=\{y\in X:(x,y)\in A \}$.
+> 1.  The topology of uniform spaces has $U\subseteq X$ open if and only if $U=\varnothing$ or for all $x\in U$ there exists $A\in \mathcal{U}$ s.t. $U\supseteq\{y\in X:(x,y)\in A \}$.
 
-> [!proof]+
+> [!proof]-
 > We first have that $\varnothing$ is open. Further, $\Delta \subseteq X\times X\in \mathcal{U}$. Therefore, $X$ is open. 
 > 
-> Let $U_{1},U_{2}$ be non-empty open. Then, for $x\in U_{1}\cap U_{2}$ let $A_{1},A_{2}$ be the corresponding sets. Hence, $$U_{1}\cap U_{2}=\{ y\in X:(x,y)\in A_{1} \}\cap\{ y\in X:(x,y)\in A_{2} \}=\{ y\in X:(x,y)\in A_{1}\cap A_{2} \}$$where $A_{1}\cap A_{2}\in\mathcal{U}$. 
+> Let $U_{1},U_{2}$ be non-empty open. Then, for $x\in U_{1}\cap U_{2}$ let $A_{1},A_{2}$ be the corresponding sets. Hence, $$U_{1}\cap U_{2}\supseteq\{ y\in X:(x,y)\in A_{1} \}\cap\{ y\in X:(x,y)\in A_{2} \}=\{ y\in X:(x,y)\in A_{1}\cap A_{2} \}$$where $A_{1}\cap A_{2}\in\mathcal{U}$. 
 > 
-> Similarly, let $(U_{i})_{i\in I}$ be a family of open sets with $(A_{i})_{i\in I}\subseteq \mathcal{U}$. Then, for $x\in U:=\bigcup_{{i\in I}}^{}U_{i}$. Then, we let $A:=U\times U$ where 
+> Similarly, let $(U_{i})_{i\in I}$ be a family of open sets. Then, for $x\in U:=\bigcup_{{i\in I}}^{}U_{i}$. If $x\in U_{i}$, then let $A_{i}$ be the corresponding set. Therefore, $$U\supseteq U_{i}\supseteq\{ y\in X:(x,y)\in A_{i} \}$$
+> 
 ---
 > [!lemma] Theorem 2
 > For a uniform space $(X,\mathcal{U})$, 
@@ -28,15 +29,22 @@
 ---
 ##### Examples
 > [!h] Example 1 (Metric Space)
-> For a [[metric space]] $(X,d)$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists\delta>0,d(x,y)<\delta\implies (x,y) \in A\}$$is a uniform structure.
+> For a [[metric space]] $(X,d)$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists\delta>0,d(x,y)<\delta\implies (x,y) \in A\}$$is a uniform structure. Let $(x_{n})_{n}\subseteq X$ and $\mathcal{F}$ be the [[Filter|elementary filter]]. Then, TFAE:
+> 1. $(x_{n})_{n}$ is a [[Cauchy sequence]].
+> 2. $\mathcal{F}$ is a Cauchy filter.
 
-> [!proof]-
+> [!proof]+
 > We have that:
-> 1. Holds with the same $\delta$.
-> 2. Holds with $\delta:=\min\{ \delta_{1},\delta_{2} \}$.
-> 3. For any $A\in \mathcal{U}$, we have that $d(x,x)=0<\delta$. Therefore, $(x,x)\in A$.
-> 4. The uniform structure is symmetric.
-> 5. For $A\in \mathcal{U}$ with $\delta>0$, let $B:=\{ (x,y)\in X\times X:d(x,y)<\delta /2 \}$. Then, $B\in \mathcal{U}$ and, for any $(x,y),(y,z)\in B$, $d(x,z)\leq d(x,y)+d(y,z)<\delta$ and $(x,z)\in A$.
+> 1. To show that it is a uniform structure:
+> 	1. Holds with the same $\delta$.
+> 	2. Holds with $\delta:=\min\{ \delta_{1},\delta_{2} \}$.
+> 	3. For any $A\in \mathcal{U}$, we have that $d(x,x)=0<\delta$. Therefore, $(x,x)\in A$.
+> 	4. The uniform structure is symmetric.
+> 	5. For $A\in \mathcal{U}$ with $\delta>0$, let $B:=\{ (x,y)\in X\times X:d(x,y)<\delta /2 \}$. Then, $B\in \mathcal{U}$ and, for any $(x,y),(y,z)\in B$, $d(x,z)\leq d(x,y)+d(y,z)<\delta$ and $(x,z)\in A$.
+> 2. To show the equivalence:
+>    Let $(x_{n})_{n}$ be Cauchy. Let $A\in \mathcal{U}$ with $\delta>0$. Then, there exists $N$ s.t. $d(x_{N},x_{n})<\delta /2$ for all $n\geq N$. Hence, if we set $U:=B_{<\delta /2}(x_{N})$, $U\in \mathcal{F}$ and $U\times U\subseteq A$ as for $x,y\in U$: $$d(x,y)\leq d(x,x_{N})+d(x_{N},y)<\delta$$and $(x,y)\in A$.
+>    
+>    Conversely, if $\mathcal{F}$ is a Cauchy filter, for $\delta>0$, Let $A:=\{ (x,y)\in X\times X: d(x,y)<\delta / 2 \}\in \mathcal{U}$ and $U\in \mathcal{F}$ s.t. $U\times U\subseteq A$. 
 ---
 > [!h] Example 2 (Topological Group)
 > For a [[topological group]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U \text{ neighborhood of }e\text{ s.t. }\{ (x,y)|xy^{-1}\in U \}\subseteq A\}$$is a uniform structure.
