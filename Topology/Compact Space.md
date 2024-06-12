@@ -27,21 +27,30 @@
 >4. It suffices to show that $f$ is closed. For a closed set $A\subseteq X$, $A$ is compact, $f(A)$ is compact, hence closed. 
 - **Remark**: 3 does not hold without Hausdorff condition as any infinite set with cofinite topology has only compact subsets. (cf Example 4)
 ---
-> [!lemma] Lemma 2
+> [!lemma] Theorem 2 (Equivalence of Compactness)
+> For a topological space $X$, the following are equivalent:
+> 1. $X$ is compact.
+> 2. Every collection of closed sets in $X$ with the finite intersection property has a non-empty intersection.
+
+> [!proof]-
+> - (1 <=> 2): Let $(C_{i})_{i}$ be a collection of closed sets. It suffices to show that if $\bigcap_{i\in I}^{}C_{i}=\varnothing$, then it holds for some finite subset. Indeed, $(U_{i})_{i}$ is an open covering of $X$ and there exists finite $J\subseteq I$ s.t. $(U_{i})_{i\in J}$ covers $X$. Then, we have that $$\bigcap_{i\in J}^{}C_{j}=X \backslash \bigcup_{i\in J}^{}U_{j}=\varnothing$$This shows the statement.
+
+---
+> [!lemma] Lemma 3
 > Let $X$ be compact space and $Y$ a metric space. 
 > 1. If $f:X\to Y$ is locally bounded, then $f$ is bounded on $X$. 
 
 > [!proof]-
 > Let $U_{x}$ be the open neighborhood of $x$ s.t. $f|_{U_{x}}\subseteq B_{<r_{x}}(0)$ for $x\in X$. Then, $\{ U_{x} \}_{x\in X}$ is an open cover of $X$. Then, there exists finite $J\subseteq X$ s.t. $\bigcup_{x\in J}^{}U_{x}=X$. Therefore, $$f(X)\subseteq B_{<\max_{x\in J} r_{x}}(0)$$
 ---
-> [!lemma] Lemma 3
+> [!lemma] Lemma 4
 > Let $X$ be a compact Hausdorff space. Then, every $x\in X$ has a closed [[Local Base of Topology|local base]] in $X$.
 
 > [!proof]-
 > Let $x\in X$ and $U$ an open neighborhood of $x$. Let $C:=X-U$. As $C$ is closed and $x\notin C$, there exists an open neighborhood $V$ of $x$ s.t. $\overline{V}\cap C=\varnothing$. Therefore, $\overline{V}\subseteq U$. 
 
 ---
-> [!lemma] Theorem 4 (Tychonoff)
+> [!lemma] Theorem 5 (Tychonoff)
 > For any arbitrary family of compact spaces $\{ X_{i} \}_{i\in I}$, $X:=\prod_{i\in I}^{}X_{i}$ is compact with respect to the [[product topology]].
 
 > [!proof]-
@@ -56,7 +65,7 @@
 
 ---
 ###### Compact Metric Spaces
-> [!lemma] Theorem 1
+> [!lemma] Theorem 1 (Equivalence of Compactness)
 > For a metric space $(X,d)$, the following are equivalent:
 > 1. $X$ is compact.
 > 2. Every collection of closed sets in $X$ with the finite intersection property has a non-empty intersection.

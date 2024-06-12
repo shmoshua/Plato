@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Topology/Filter.md",
                 "mode": "source",
                 "source": true
               }
@@ -73,14 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Uniform Structure.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -158,8 +158,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Ultrafilter.md",
+                "file": "Topology/Compact Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Ultrafilter.md",
+                "file": "Topology/Compact Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Ultrafilter.md"
+                "file": "Topology/Compact Space.md"
               }
             }
           }
@@ -288,14 +287,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "2c9d74e08ee9ec12",
+  "active": "1f050f75a0e649b3",
   "lastOpenFiles": [
-    "Topology/Filter.md",
-    "Topology/Ultrafilter.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Uniform Structure.md",
-    "Analysis/Equicontinuity.md",
     "Topology/Compact Space.md",
+    "Topology/Interior and Closure.md",
+    "Topology/Filter.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Ultrafilter.md",
+    "Topology/Hausdorff Space.md",
+    "Analysis/Equicontinuity.md",
     "Topology/Local Base of Topology.md",
     "Topology/Base of Topology.md",
     "Topology/Complete Space.md",
@@ -310,12 +311,10 @@
     "Topology/Locally Compact Space.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Topology/Complete Metric Space.md",
-    "Topology/Hausdorff Space.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Topology/Topological Vector Space.md",
     "Topology/Weak Topology.md",
-    "Topology/Topological Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

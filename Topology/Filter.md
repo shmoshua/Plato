@@ -44,12 +44,15 @@
 > 1. there exists a filter $\mathcal{F}\supseteq\mathcal{A}$.
 > 2. $\mathcal{A}$ has the finite intersection property.
 
-> [!proof]-
+> [!proof]+
 > Assume $\mathcal{A}$ has the finite intersection property. We define the following filter: $$\mathcal{F}:=\{ A\subseteq X: \exists A_{1},\dots,A_{n}\in \mathcal{A}: A\supseteq A_{1}\cap\dots \cap A_{n} \}$$
 > 
 > One can easily see that $\mathcal{F}$ is a filter. Further, $\mathcal{A}\subseteq \mathcal{F}$.
 > 
 > Conversely, suppose there exists a filter $\mathcal{F}\supseteq \mathcal{A}$. Take $A_{1},\dots,A_{n}\in \mathcal{A}$. Then, $A_{1}\cap\dots \cap A_{n}\in \mathcal{F}$. However, as $\varnothing\notin \mathcal{F}$, we have the finite intersection property.
+---
+![[Ultrafilter#^574d44]]
+![[Ultrafilter#^e1a97b|p]]
 ---
 > [!lemma] Lemma 4
 > Let $f:X\to Y$ be a [[Continuous Function|continuous function]] and a filter $\mathcal{F}$ on $X$ converges to $x_{0}$. Then, $f_{*}(\mathcal{F})$ converges to $f(x)$.
