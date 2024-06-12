@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Ultrafilter.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Ultrafilter.md",
+                "file": "Topology/Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Associative Algebra.md",
+                "file": "Topology/Filter.md",
                 "mode": "preview",
                 "source": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Ultrafilter.md",
+                "file": "Topology/Connected Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Ultrafilter.md",
+                "file": "Topology/Connected Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Ultrafilter.md"
+                "file": "Topology/Connected Space.md"
               }
             }
           }
@@ -237,15 +237,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "366d9cebfe9d8db1",
   "lastOpenFiles": [
+    "Topology/Ultrafilter.md",
+    "Topology/Connected Space.md",
+    "Courses/Topology/Exercise Sheet 6.md",
     "Topology/Filter.md",
+    "Algebra/Associative Algebra.md",
     "Topology/Hausdorff Space.md",
     "Topology/Compact Space.md",
-    "Topology/Ultrafilter.md",
-    "Courses/Topology/Exercise Sheet 6.md",
     "Courses/Topology/Exercise Sheet 5.md",
-    "Algebra/Associative Algebra.md",
     "Functional Analysis/C-Algebra.md",
     "Differential Geometry/Topological Manifold.md",
     "Analysis/Convergence of Sequences.md",
@@ -264,7 +265,6 @@
     "Topology/Compact Metric Space.md",
     "Functional Analysis/Space of Probability Measures.md",
     "Analysis/Kernel.md",
-    "Topology/Separable Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

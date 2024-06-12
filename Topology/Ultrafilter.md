@@ -8,6 +8,7 @@
 > For $X$, we have:
 > 1. A filter $\mathcal{F}$ is an ultrafilter if and only if it is a maximal filter.
 > 2. Every filter is contained in an ultrafilter.
+> 3. For an ultrafilter $\mathcal{F}$, $A\cup B\in \mathcal{F}$ if and only if $A\in \mathcal{F}$ or $B\in \mathcal{F}$
 
 ^574d44
 
@@ -23,6 +24,7 @@
 >    3. For $A\in \mathcal{G}$ and $B\supseteq A$, there exists $i$ s.t. $A\in \mathcal{G}_{i}$ and $B\in \mathcal{G_{i}}$. Therefore, $B\in \mathcal{G}_{i}$.
 >   
 >    Therefore, by [[Poset|Zorn's lemma]], $\mathcal{Z}$ has a maximal element.
+> 3. Let $A\cup B\in \mathcal{F}$ and assume $A\notin \mathcal{F}$ and $B\notin \mathcal{F}$. Then, $F^c,G^c\in \mathcal{F}$ and: $$F^c\cap G^c=(F\cup G)^c\in \mathcal{F}$$which is a contradiction. Conversely, if $A\in \mathcal{F}$, then $A\subseteq A\cup B\in \mathcal{F}$.
 
 ^e1a97b
 
@@ -46,16 +48,13 @@
 > [!lemma] Lemma 3
 > Let $\mathcal{F}$ be an ultrafilter on $X$ non-empty. TFAE:
 > 1. $\mathcal{F}$ is [[Filter|principal]], i.e. there exists $x\in X$ s.t. $\mathcal{F}=\mathcal{F}_{x}$.
-> 2. 
----
- > [!lemma] Lemma 3
- > Let $X:=\prod_{i\in I}^{}X_{i}$. For any ultrafilter $\mathcal{F}$ on $X$, the [[Filter|direct image]] $(\pi_{i})_{*}(\mathcal{F})$ is an ultrafilter.
-
-^8bbcf9
+> 2. there exists a finite set $A\in \mathcal{F}$
 
 > [!proof]-
-> Let $A\subseteq X_{i}$ and consider $B:=\pi_{i}^{-1}(A)$. As $\mathcal{F}$ is an ultrafilter, we have that either $B\in \mathcal{F}$, in which case $A\in (\pi_{i})_{*}(\mathcal{F})$ or $X \backslash B\in \mathcal{F}$, in which case $X_{i} \backslash A\in (\pi_{i})_{*}(\mathcal{F})$.
+> Assume $\mathcal{F}$ is a principal ultrafilter of $x\in X$. Then, $\{ x \}\in \mathcal{F}$. Conversely, let $A\subseteq X$ be a finite set s.t. $A\in \mathcal{F}$. Then by Proposition 1.3, we can iteratively find a smaller set that is in $\mathcal{F}$.
+- **Corollary**: The [[filter|Frechet filter]] is contained in a non-principal filter.
 ---
+
 > [!lemma] Proposition 4
 > Consider the following set function $\omega:\mathcal{P}(X)\to \{ 0,1 \}$ s.t. 
 > 1. $\omega(\varnothing)=0$, $\omega(X)=1$,
@@ -64,7 +63,22 @@
 > Denote $\Omega(X)$ the set of such functions and $\text{Ultra}(X)$ the set of ultrafilters on $X$. Then, $$\begin{array}{cccc} {}&{\Omega(X)}&\to&{\text{Ultra}(X)}\\&{\omega} &\mapsto & {\mathcal{F}_{\omega}:=\{ A\subseteq X:\omega(A)=1 \}} \end{array}{}$$is a bijection.
 
 > [!proof]-
-> We show that $\mathcal{F}_{\omega}$ is an ultrafilter. We see that $\varnothing\notin \mathcal{F}_{\omega}$. For $A\in \mathcal{F}_{\omega}$ and $B\supseteq A$, we have first that: $$0=\omega(X \backslash A)=\omega(X \backslash B)+\omega(B \backslash A)$$Therefore, $\omega(X \backslash B)=0$ and $\omega(B)=1$. Now, for $A,B\in \mathcal{\mathcal{F}_{\omega}}$, $$\omega(A\cap B)+\omega(A \backslash B)=\omega(A)=1$$where $\omega(A \backslash B)=0$ as $\omega(X \backslash B)=0$ and $A \backslash B\subseteq X \backslash B$. Finally, for $A\subseteq X$, $\omega(A)=1$ or $\omega(X \backslash A)=1$ as $\omega(X)=1$. 
-> 
-> Conversely, assume $\mathcal{F}$ is an ultrafilter and we define the set function: $$\omega(A)=1 \iff A\in \mathcal{F}$$Then, $\omega(\varnothing)=0$ and therefore, $X\in \mathcal{F}$ and $\omega(X)=1$. Similarly, for $A_{1},A_{2}\subseteq X$ with $A_{1}\cap A_{2}=\varnothing$, it's not possible that $A_{1}\in \mathcal{F}\land A_{2}\in \mathcal{F}$ from the finite intersection property. Therefore, if $A_{1}\in \mathcal{F}$ wlog, then $A_{1}\cup A_{2}\in \mathcal{F}$ and if $A_{1},A_{2}\notin \mathcal{F}$, Then, $X \backslash A_{1} \cap X \backslash A_{2}=X \backslash (A_{1}\cup A_{2})\in \mathcal{F}$ and $\omega(A_{1}\cup A_{2})=0$.
+> We have:
+> 1. **Claim 1: $\mathcal{F}_{\omega}$ is an ultrafilter.**
+>    We have $\omega(B)=\omega(B \backslash A)+\omega(A\cap B)$ and $$\omega(A\cup B)+\omega(A\cap B)=\omega(A)+\omega(B \backslash A)+\omega(A\cap B)=\omega(A)+\omega(B)$$
+>    
+>    1. As $\omega(\varnothing)=0$, $\varnothing\notin \mathcal{F}_{\omega}$. 
+>    2. For $A\subseteq B$ with $A\in \mathcal{F}_{\omega}$, $\omega(A)=1$ and $\omega(B)=\omega(A)+\omega(B \backslash A)\geq 1$. Therefore, $\omega(B)=1$ and $B\in \mathcal{F}_{\omega}$. 
+>    3. Lastly, for $A,B\in \mathcal{F}_{\omega}$, $\omega(A \cap B)=\omega(A)+\omega(B)-\omega(A \cup B)=1$. Therefore, $A\cap B\in \mathcal{F}_\omega$. 
+>    4. for $A\subseteq X$, $1=\omega(X)=\omega(A)+\omega(X \backslash A)$. Therefore, either $A\in \mathcal{F}_{\omega}$ or $A^c\in \mathcal{F}_{\omega}$.
+> 2. **Claim 2: Inverse**:
+>    Conversely, assume $\mathcal{F}$ is an ultrafilter and we define the set function: $$\omega(A)=1 \iff A\in \mathcal{F}$$Then, $\omega(\varnothing)=0$ and therefore, $X\in \mathcal{F}$ and $\omega(X)=1$. Similarly, for $A_{1},A_{2}\subseteq X$ with $A_{1}\cap A_{2}=\varnothing$, it's not possible that $A_{1}\in \mathcal{F}\land A_{2}\in \mathcal{F}$ from the finite intersection property. Therefore, if $A_{1}\in \mathcal{F}$ wlog, then $A_{1}\cup A_{2}\in \mathcal{F}$ and if $A_{1},A_{2}\notin \mathcal{F}$, Then, $X \backslash A_{1} \cap X \backslash A_{2}=X \backslash (A_{1}\cup A_{2})\in \mathcal{F}$ and $\omega(A_{1}\cup A_{2})=0$.
+---
+ > [!lemma] Lemma 5
+ > Let $X:=\prod_{i\in I}^{}X_{i}$. For any ultrafilter $\mathcal{F}$ on $X$, the [[Filter|direct image]] $(\pi_{i})_{*}(\mathcal{F})$ is an ultrafilter.
+
+^8bbcf9
+
+> [!proof]-
+> Let $A\subseteq X_{i}$ and consider $B:=\pi_{i}^{-1}(A)$. As $\mathcal{F}$ is an ultrafilter, we have that either $B\in \mathcal{F}$, in which case $A\in (\pi_{i})_{*}(\mathcal{F})$ or $X \backslash B\in \mathcal{F}$, in which case $X_{i} \backslash A\in (\pi_{i})_{*}(\mathcal{F})$.
 ---
