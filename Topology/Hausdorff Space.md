@@ -20,7 +20,14 @@
 >    Assume for all open neighborhoods $V,W$ of $x,y$ respectively, we have $V\cap W\neq \varnothing$. Then, for all open neighborhood $U$ of $x$, then $\varnothing \neq U\cap W\subseteq U$ for any open neighborhood $W$ of $y$. It follows that $\mathcal{F}$ converges to $x$ and by symmetry to $y$. This is a contradiction to $\mathcal{F}$ having a unique limit. Therefore, $X$ is Hausdorff.
 >  5. (1=>4): Assume $X$ is Hausdorff. We show that $U:=X\times X \backslash\Delta$ is open. Let $(x,y)\in U$. By definition $x\neq y$ and there exist disjoint open neighborhoods $V,W$ of $x,y$ respectively, i.e. $V\times W\subseteq X\times X \backslash \Delta$. 
 >  6. (4=>1): assume that $\Delta$ is closed and let $x,y\in X$ with $x\neq y$. Then, $(x,y)\in X\times X \backslash \Delta$ and there exists open neighborhoods $V,W$ of $x,y$ respectively s.t. $V\times W\subseteq X \times X \backslash \Delta$, i.e. $V\cap W=\varnothing$. 
+---
+> [!lemma] Proposition 2
+> Let $X$ be Hausdorff. Then, 
+> 1. $\{ x \}$ is closed for all $x\in X$.
 
+> [!proof]+
+> We have:
+> 1. Let $y\in \overline{\{ x \}}$. Then, for all $U\ni y$, $U\cap \{ x \}\neq\varnothing$ and $x\in U$. Therefore $y=x$, as $X$ is Hausdorff. Hence, $\{ x \}=\overline{\{ x \}}$.
 ---
 ##### Examples
 > [!h] Example 1

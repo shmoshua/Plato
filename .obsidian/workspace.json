@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "2c9d74e08ee9ec12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Ultrafilter.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a7207c8e038c57a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Filter.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "85c1e16970092e0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
+                "file": "Courses/Topology/Exercise Sheet 5.md",
                 "mode": "source",
                 "source": true
               }
@@ -61,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Hausdorff Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -92,31 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8816422ea8b46c57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Filter.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4709d6127fcdfff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Ultrafilter.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -128,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
+                "file": "Courses/Topology/Exercise Sheet 5.md",
                 "mode": "preview",
                 "source": false
               }
@@ -146,7 +98,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
+                "file": "Courses/Topology/Exercise Sheet 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md",
+                "file": "Courses/Topology/Exercise Sheet 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 4.md"
+                "file": "Courses/Topology/Exercise Sheet 5.md"
               }
             }
           }
@@ -275,20 +228,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "85c1e16970092e0a",
+  "active": "7978476c2add222e",
   "lastOpenFiles": [
+    "Topology/Hausdorff Space.md",
+    "Courses/Topology/Exercise Sheet 5.md",
     "Topology/Compact Space.md",
+    "Topology/Continuous Function.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Ultrafilter.md",
     "Topology/Filter.md",
-    "Topology/Hausdorff Space.md",
     "Topology/Interior and Closure.md",
     "Topology/Uniform Structure.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Analysis/Equicontinuity.md",
     "Topology/Local Base of Topology.md",
     "Topology/Base of Topology.md",
     "Topology/Complete Space.md",
-    "Topology/Continuous Function.md",
     "Topology/Compact Metric Space.md",
     "Functional Analysis/Space of Probability Measures.md",
     "Analysis/Kernel.md",
@@ -299,10 +254,8 @@
     "Topology/Locally Compact Space.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Topology/Complete Metric Space.md",
-    "Courses/Topology/Exercise Sheet 4.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Topology/Topological Vector Space.md",
-    "Topology/Weak Topology.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

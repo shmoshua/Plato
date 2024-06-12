@@ -12,8 +12,10 @@
 > Let $X$ be an compact space and $Y$ a topological space. Then, 
 > 1. for a continuous function $f:X\to Y$. $f(X)\subseteq Y$ is compact.
 > 2. any closed set $A\subseteq X$ is compact.
-> 3. if $Y$ is [[Hausdorff Space|Hausdorff]] and $A\subseteq Y$ is compact, $A$ is closed.
-> 4. if $Y$ is [[Hausdorff Space|Hausdorff]] and $f:X\to Y$ is a continuous bijection, then $f$ is a [[homeomorphism]].
+> 3. for compact sets $A_{1},A_{2}\subseteq X$, $A_{1}\cup A_{2}$ is compact.
+> 4. if $Y$ is [[Hausdorff Space|Hausdorff]] and $A\subseteq Y$ is compact, $A$ is closed.
+> 5.  If $Y$ is [[Hausdorff Space|Hausdorff]] and $A_{1},A_{2}\subseteq Y$ compact, $A_{1}\cap A_{2}$ is compact.
+> 6. if $Y$ is [[Hausdorff Space|Hausdorff]] and $f:X\to Y$ is a continuous bijection, then $f$ is a [[homeomorphism]].
 
 ^2251ae
 
@@ -21,10 +23,12 @@
 > We have: 
 > 1. Let $(U_{\lambda})_{\lambda}$ be an open cover of $f(X)$. Then, $(f^{-1}(U_{\lambda}))_{\lambda}$ is an open cover of $X$ and there exists a finite cover $(f^{-1}(U_{n}))_{n\in [N]}$ and a finite subcover $(U_{n})_{n\in [N]}$ of $f(X)$. 
 > 2. Let $(U_{\lambda})_{\lambda}$ be a family of open sets s.t. $A\subseteq \bigcup_{\lambda\in \Lambda}^{}U_{\lambda}$. Then, $(U_{\lambda}\cup X \backslash A)_{\lambda}$ is an open cover of $X$. Therefore, there exists a finite subcover $(U_{n}\cup X \backslash A)_{n}$ and we have that $(U_{n})_{n}$ is a finite subcover of $A$.
-> 3. It suffices to show that $X \backslash A$ is open. Let $x_{0}\in X \backslash A$. For any $x\in A$, we define $U_{x},V_{x}$ as the open neighborhoods that separate $x_{0}$ and $x$ respectively. Then, $\{ V_{x} \}_{x}$ is an open cover of $A$ and by compactness, there exists a finite $B\subseteq A$ s.t. $\{ V_{x} \}_{x\in B}$ is a cover of $A$. 
+> 3. Let $(U_{i})_{i\in I}$ be an open cover of $A_{1}\cup A_{2}$. Then, it is also an open cover of $A_{1}$ and $A_{2}$ and there exist finite sets $J_{1},J_{2}\subseteq I$ s.t. $A_{1}\cup A_{2}\subseteq \bigcup_{i\in J_{1}\cup J_{2}}^{}U_{i}$. Therefore, $A_{1}\cup A_{2}$ is compact.
+> 4. It suffices to show that $X \backslash A$ is open. Let $x_{0}\in X \backslash A$. For any $x\in A$, we define $U_{x},V_{x}$ as the open neighborhoods that separate $x_{0}$ and $x$ respectively. Then, $\{ V_{x} \}_{x}$ is an open cover of $A$ and by compactness, there exists a finite $B\subseteq A$ s.t. $\{ V_{x} \}_{x\in B}$ is a cover of $A$. 
 >    
 >    Now, consider $U:=\bigcap_{x\in B}^{}U_{x}$. $U$ is an open neighborhood of $x_{0}$. We have that for $y\in U$, $y\notin V_{x}$ for all $x\in B$. Therefore, $y\notin A$ and $U\subseteq X \backslash A$. 
->4. It suffices to show that $f$ is closed. For a closed set $A\subseteq X$, $A$ is compact, $f(A)$ is compact, hence closed. 
+>  5. Let $(U_{i})_{i\in I}$ be an open cover of $A_{1}\cap A_{2}$. As $Y$ is Hausdorff, $A_{1},A_{2}$ are closed and $\{ (X \backslash A_{1})\cup U_{i} \}_{i\in I}$ is an open cover of $A_{2}$ as: $$A_{2}\subseteq (X \backslash A_{1})\cup (A_{1}\cap A_{2})\subseteq \bigcup_{i\in I}^{}(X \backslash A_{1})\cup U_{i}$$Therefore, there exists $J\subseteq I$ s.t. $A_{2}\subseteq \bigcup_{i\in J}(X \backslash A_{1})\cup U_{i}$. It follows that $A_{1}\cap A_{2}\subseteq \bigcup_{i\in J}^{}U_{i}$. 
+>6. It suffices to show that $f$ is closed. For a closed set $A\subseteq X$, $A$ is compact, $f(A)$ is compact, hence closed. 
 - **Remark**: 3 does not hold without Hausdorff condition as any infinite set with cofinite topology has only compact subsets. (cf Example 4)
 ---
 > [!lemma] Theorem 2 (Equivalence of Compactness)
@@ -32,10 +36,13 @@
 > 1. $X$ is compact.
 > 2. Every collection of closed sets in $X$ with the finite intersection property has a non-empty intersection.
 > 3. Every [[ultrafilter]] $\mathcal{F}$ on $X$ converges.
+> 4. for any family $(U_{x})_{x\in X}$ of open sets s.t. $U_{x}$ is an open neighborhood of $x$ for all $x\in X$, there exists a finite subset $S\subseteq X$ such that: $X=\bigcup_{x\in S}^{}U_{x}$.
 
 > [!proof]-
 > - (1 <=> 2): Let $(C_{i})_{i}$ be a collection of closed sets. It suffices to show that if $\bigcap_{i\in I}^{}C_{i}=\varnothing$, then it holds for some finite subset. Indeed, $(U_{i})_{i}$ is an open covering of $X$ and there exists finite $J\subseteq I$ s.t. $(U_{i})_{i\in J}$ covers $X$. Then, we have that $$\bigcap_{i\in J}^{}C_{j}=X \backslash \bigcup_{i\in J}^{}U_{j}=\varnothing$$This shows the statement.
 > - (1<=>3): By [[Ultrafilter|Proposition 2]].
+> - (1=>4): assume that $X$ is compact. Then, $(U_{x})_{x}$ is an open covering of $X$ and the property holds by assumption. 
+> - (4=>1): assume that the property holds and let $(U_{i})_{i\in I}$ be an arbitrary open cover of $X$. For each $x\in X$, let $V_{x}$ be the open set in $(U_{i})_{i}$ s.t. $x\in V_{x}$, where such open set exists as $(U_{i})_{i}$ is an open cover of $X$. Then, $(V_{x})_{x\in X}\subseteq (U_{i})_{i\in I}$ and there exists a finite subset $S\subseteq X$ s.t. $X=\bigcup_{x\in S}^{}V_{x}$. Therefore, $(V_{x})_{x\in S}$ is a finite sub-cover of $X$ of our original open cover. 
 
 ---
 > [!lemma] Lemma 3
