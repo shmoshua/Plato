@@ -44,7 +44,7 @@
 > 1. there exists a filter $\mathcal{F}\supseteq\mathcal{A}$.
 > 2. $\mathcal{A}$ has the finite intersection property.
 
-> [!proof]+
+> [!proof]-
 > Assume $\mathcal{A}$ has the finite intersection property. We define the following filter: $$\mathcal{F}:=\{ A\subseteq X: \exists A_{1},\dots,A_{n}\in \mathcal{A}: A\supseteq A_{1}\cap\dots \cap A_{n} \}$$
 > 
 > One can easily see that $\mathcal{F}$ is a filter. Further, $\mathcal{A}\subseteq \mathcal{F}$.

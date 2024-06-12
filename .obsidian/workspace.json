@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Ultrafilter.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 5.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8207ac82eff3ec12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Courses/Topology/Exercise Sheet 6.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Filter.md",
                 "mode": "source",
                 "source": true
               }
@@ -67,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Ultrafilter.md",
                 "mode": "preview",
                 "source": false
               }
@@ -79,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 5.md",
+                "file": "Courses/Topology/Exercise Sheet 6.md",
                 "mode": "preview",
                 "source": false
               }
@@ -91,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Complete Metric Space.md",
+                "file": "Algebra/Associative Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -103,7 +91,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Dense Subset.md",
+                "file": "Topology/Hausdorff Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d16018b0c3c4844",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Ultrafilter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Ultrafilter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact Space.md"
+                "file": "Topology/Ultrafilter.md"
               }
             }
           }
@@ -237,19 +237,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "366d9cebfe9d8db1",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Topology/Complete Metric Space.md",
+    "Topology/Filter.md",
+    "Topology/Hausdorff Space.md",
     "Topology/Compact Space.md",
+    "Topology/Ultrafilter.md",
+    "Courses/Topology/Exercise Sheet 6.md",
     "Courses/Topology/Exercise Sheet 5.md",
+    "Algebra/Associative Algebra.md",
+    "Functional Analysis/C-Algebra.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Analysis/Convergence of Sequences.md",
+    "Topology/Complete Metric Space.md",
     "Topology/Dense Subset.md",
     "Topology/One-Point Compactification.md",
-    "Topology/Hausdorff Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Continuous Function.md",
     "Courses/Topology/Exercise Sheet 4.md",
-    "Topology/Ultrafilter.md",
-    "Topology/Filter.md",
     "Topology/Interior and Closure.md",
     "Topology/Uniform Structure.md",
     "Analysis/Equicontinuity.md",
@@ -260,11 +265,6 @@
     "Functional Analysis/Space of Probability Measures.md",
     "Analysis/Kernel.md",
     "Topology/Separable Space.md",
-    "Topology/Topological Vector Space with Seminorms.md",
-    "Topology/Compact sets.md",
-    "Functional Analysis/Mean (Group Theory).md",
-    "Topology/Locally Compact Space.md",
-    "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

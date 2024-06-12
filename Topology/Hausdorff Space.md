@@ -7,8 +7,8 @@
 > For a topological space $X$, TFAE:
 > 1. $X$ is Hausdorff.
 > 2. for every $x\in X$, $\bigcap_{U\in \mathcal{F}_{x}}^{}\overline{U}=\{ x \}$ where $\mathcal{F}_{x}$ is the [[filter]] of all neighborhoods of $x$.
-> 3. every convergent filter $\mathcal{F}$ on $X$ has a unique limit.
-> 4. the diagonal $\Delta:=\{ (x,x): x\in X \}\subseteq X\times X$ is closed.
+> 4. every convergent filter $\mathcal{F}$ on $X$ has a unique limit.
+> 5. the diagonal $\Delta:=\{ (x,x): x\in X \}\subseteq X\times X$ is closed.
 
 > [!proof]-
 > We have:
@@ -25,7 +25,7 @@
 > Let $X$ be Hausdorff. Then, 
 > 1. $\{ x \}$ is closed for all $x\in X$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $y\in \overline{\{ x \}}$. Then, for all $U\ni y$, $U\cap \{ x \}\neq\varnothing$ and $x\in U$. Therefore $y=x$, as $X$ is Hausdorff. Hence, $\{ x \}=\overline{\{ x \}}$.
 ---
@@ -62,4 +62,20 @@
 >     
 >     Assume now that for any $y\in X$, $f(x)=y$ has finitely many solutions. Then, for $U\subseteq X$ open, if $U=\varnothing$, then $f^{-1}(\varnothing)=\varnothing$ and otherwise: $$X \backslash f^{-1}(U)=\{ x\in X:f(x)\in X \backslash U \}=\bigcup_{y\in X \backslash U}^{}\{x\in X:f(x)= y  \}$$which is finite as a finite union of finite sets. This includes bijections as there exists exactly one solution to $f(x)=y$ for any $y\in X$.
 > 3. Let for $f,g:X\to X$ with $g:x\mapsto x$ and $$f(x):=\begin{cases}x&x<0\\2x&x\geq 0\end{cases}$$Then, both are bijections and: $$(f-g)(x)=\begin{cases}0&x\leq 0\\x&x >0\end{cases}$$However, $f-g$ is not continuous as $(f-g)^{-1}(\{ 0 \})=(-\infty,0]$ is not closed. 
+---
+> [!h] Non-Example 3
+> Let $X=\mathbb{R}\times \{ -1,1 \}$. We define an equivalence relation on $X$ so that $(x,1)\sim(x,-1)$ if $x\neq 0$, and there are no further equivalences except equality. (In particular, the equivalence classes $o_{+}$ and $o_{-}$ of the points $(0,1)$ and $(0,-1)$ have only one element, and give different points in $Y$.) 
+> 
+> Let $p:X\to X / _\sim$ be the projection.
+> 1. For $\varepsilon\in\{ -1,1 \}$, define a map $i_{\varepsilon}:\mathbb{R}\to Y,x\mapsto[(x,\varepsilon)]_{\sim}$. Then, $i_{\varepsilon}$ is continuous and injective. 
+> 2. $i_{+}:\mathbb{R}\to(X / _{\sim}) \backslash \{ o_{-} \}$ and $i_{-}:\mathbb{R}\to(X / _{\sim}) \backslash \{ o_{+} \}$ are homeomorphisms.
+> 3. $X / _{\sim}$ is locally homeomorphic to $\mathbb{R}$ but not Hausdorff.
+
+> [!proof]-
+> We have:
+> 1. Let $U\subseteq Y$ open. For $\varepsilon\in\{ -1,1 \}$, we define $\varphi_{\varepsilon}:\mathbb{R}\to \mathbb{R}\times \{ -1,1 \},x\mapsto(x,\varepsilon)$. We show that $\varphi_{\varepsilon}$ is continuous: For $U\subseteq \mathbb{R} \times \{ -1,1 \}$ open and non-empty, if for all $(x,a)\in U$, $a=-\varepsilon$ then $\varphi_{\varepsilon}^{-1}(U)=\varnothing$. Otherwise, there exists $(x,1)\in U$ and an open neighborhood $V$ of $x$ in $\mathbb{R}$ with $\varphi_{\varepsilon}^{-1}(U)=V$. As $p$ is continuous by definition of the quotient topology and $i_{\varepsilon}=p(\varphi_{\varepsilon})$, $i_{\varepsilon}$ is continuous. For injectivity, if $x\neq y\in \mathbb{R}$, then $(x,\varepsilon)\not\sim(y,\varepsilon)$.
+> 2. Notice that by definition $Y=\{ [(x,+1)]_{\sim}:x\neq 0 \}\cup \{ o_{+},o_{-} \}$. For $0\neq x\in \mathbb{R}$, $i_{+}(x)=[(x,+1)]_{\sim}$ and $i_{+}(0)=o_{+}$. It suffices to show that $i_{+}$ is open. Let $U\subseteq \mathbb{R}$ be non-empty and let $(x,\varepsilon)\in$ $p ^{-1}(i_{+}(U))$. Then, $[(x,\varepsilon)]_{\sim}\in i_{+}(U)$. If $x=0$, $\varepsilon=1$ and $U\times \{ 1 \}\subseteq p ^{-1}(i_{+}(U))$ is an open neighborhood. Similarly, if $x\neq 0$, then $U\times \{ -1,1 \}\subseteq p ^{-1}(i_{+}(U))$ is an open neighborhood. This shows that $i_{+}$ is open. $i_{-}$ follows from symmetry,
+> 3. Let $y\in Y$. If $y=o_{+}$, then, $i_{+}^{-1}$ is such a homeomorphism and if $y\neq o_{-}$, then take $i_{-}^{-1}$.
+>    
+>    However, consider $\left( \left[ \left( \frac{1}{n},1 \right) \right]_{\sim} \right)_{n}$. Let $U\subseteq Y$ be an open neighborhood of $o_{+}$. Then, $$i_{+}\left(  \lim_{ n \to \infty }i_{+}^{-1}\left( \left[ \left( \frac{1}{n},1 \right) \right]_{\sim} \right) \right)=i_{+}\left( \lim_{ n \to \infty } \frac{1}{n} \right)=o_{+}$$where the sequence also converges to $o_{-}$ by symmetry. Therefore, $X / _\sim$ cannot be Hausdorff.
 ---

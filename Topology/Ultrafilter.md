@@ -43,6 +43,11 @@
 ^e2df7f
 
 ---
+> [!lemma] Lemma 3
+> Let $\mathcal{F}$ be an ultrafilter on $X$ non-empty. TFAE:
+> 1. $\mathcal{F}$ is [[Filter|principal]], i.e. there exists $x\in X$ s.t. $\mathcal{F}=\mathcal{F}_{x}$.
+> 2. 
+---
  > [!lemma] Lemma 3
  > Let $X:=\prod_{i\in I}^{}X_{i}$. For any ultrafilter $\mathcal{F}$ on $X$, the [[Filter|direct image]] $(\pi_{i})_{*}(\mathcal{F})$ is an ultrafilter.
 
