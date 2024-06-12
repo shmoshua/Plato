@@ -42,12 +42,14 @@
 > For a connected set $A\subseteq X$ and $f:X\to Y$ continuous, 
 > 1. $\overline{A}$ is connected.
 > 2. $f(A)$ is connected.
+> 3. For $x\in X$, the connected component of $x$ is closed.
 
-> [!proof]+
+> [!proof]-
 > We have: 
-> 1. Let $\overline{A}=U_{1}\sqcup U_{2}$. Then, $A=(U_{1}\cap A)\sqcup(U_{2}\cap A)$ and by connectedness, $U_{1}\cap A=\varnothing$ or $U_{2}\cap A=\varnothing$. Wlog assume $U_{1}\cap A=\varnothing$. Then, $A\subseteq U_{2}$. Therefore, $$U_{1}=U_{1}\cap \overline{A}\subseteq U_{1}\cap \overline{U_{2}}=\varnothing$$
+> 1. Let $\overline{A}=U_{1}\sqcup U_{2}$ both open. Then, $A=(U_{1}\cap A)\sqcup(U_{2}\cap A)$ and by connectedness, $U_{1}\cap A=\varnothing$ or $U_{2}\cap A=\varnothing$. Wlog assume $U_{1}\cap A=\varnothing$. Then, $A\subseteq U_{2}$. Therefore, $$U_{1}=U_{1}\cap \overline{A}\subseteq U_{1}\cap \overline{U_{2}}=\varnothing$$
 > 2. Let $f(A)=U_{1}\cup U_{2}$ where $U_{1},U_{2}$ are disjoint open. Then, $f^{-1}(U_{1}),f^{-1}(U_{2})$ are disjoint open and $A=f^{-1}(U_{1})\cup f^{-1}(U_{2})$. Therefore, wlog $f^{-1}(U_{1})=\varnothing$. Therefore, $U_{1}=\varnothing$.
-
+> 3. Let $A$ be the connected component. Then, $\overline{A}$ is connected and contains $x$. However, as $A$ is the largest connected set containing $x$, $\overline{A}\subseteq A$ and $A$ is closed. 
+- **Corollary (Intermediate Value Theorem):** if $f:\mathbb{R}\to \mathbb{R}$ is continuous and $f(a)<c<f(b)$, there exists $x$ between $a$ and $b$ s.t. $f(x)=c$.
 ---
 ##### Examples
 > [!h] Example

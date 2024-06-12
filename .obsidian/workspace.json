@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Topology/Ultrafilter.md",
                 "mode": "preview",
                 "source": false
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Topology/Ultrafilter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Topology/Ultrafilter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Connected Space.md"
+                "file": "Topology/Ultrafilter.md"
               }
             }
           }
@@ -227,9 +227,9 @@
   },
   "active": "366d9cebfe9d8db1",
   "lastOpenFiles": [
+    "Topology/Connected Space.md",
     "Topology/Compact Space.md",
     "Courses/Topology/Exercise Sheet 6.md",
-    "Topology/Connected Space.md",
     "Topology/Ultrafilter.md",
     "Topology/Filter.md",
     "Algebra/Associative Algebra.md",
