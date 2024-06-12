@@ -6,7 +6,7 @@
 > 2. $A_{1},A_{2}\in \mathcal{U}$, then $A_{1}\cap A_{2}\in \mathcal{U}$.
 > 3. $\Delta:=\{ (x,x): x\in X \}\subseteq A$ for all $A\in \mathcal{U}$.
 > 4. if $A\in \mathcal{U}$, then $A^{-1}:=\{ (y,x):(x,y)\in A \}\in \mathcal{U}$.
-> 5. if $A\in \mathcal{U}$, then there exists $B\in \mathcal{U}$ s.t. $\{ (x,y): \exists z,(x,z),(z,y)\in B \}\subseteq A$
+> 5. if $A\in \mathcal{U}$, then there exists $B\in \mathcal{U}$ s.t. $B^{2}:=\{ (x,y): \exists z,(x,z),(z,y)\in B \}\subseteq A$
 - **Related definition**: A [[filter]] $\mathcal{F}$ on $X$ is a ***Cauchy filter***, if for all $A\in \mathcal{U}$, there exists $U\subseteq X$ s.t. $U\times U\subseteq A$ and $U\in \mathcal{F}$.
 ---
 ##### Properties
@@ -24,9 +24,22 @@
 ##### Examples
 > [!h] Example 1 (Metric Space)
 > For a [[metric space]] $(X,d)$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists\delta>0,d(x,y)<\delta\implies (x,y) \in A\}$$is a uniform structure.
+
+> [!proof]-
+> We have that:
+> 1. Holds with the same $\delta$.
+> 2. Holds with $\delta:=\min\{ \delta_{1},\delta_{2} \}$.
+> 3. For any $A\in \mathcal{U}$, we have that $d(x,x)=0<\delta$. Therefore, $(x,x)\in A$.
+> 4. The uniform structure is symmetric.
+> 5. For $A\in \mathcal{U}$ with $\delta>0$, let $B:=\{ (x,y)\in X\times X:d(x,y)<\delta /2 \}$. Then, $B\in \mathcal{U}$ and, for any $(x,y),(y,z)\in B$, $d(x,z)\leq d(x,y)+d(y,z)<\delta$ and $(x,z)\in A$.
 ---
 > [!h] Example 2 (Topological Group)
-> For a [[topological group]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U \text{ neighborhood of }1\text{ s.t. }\{ (x,y)|xy^{-1}\in U \}\subseteq A\}$$is a uniform structure.
+> For a [[topological group]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U \text{ neighborhood of }e\text{ s.t. }\{ (x,y)|xy^{-1}\in U \}\subseteq A\}$$is a uniform structure.
+
+> [!proof]+
+> We have:
+> 1. For $A\in \mathcal{U}$ with neighborhood $U$ use $U$ for $B\supseteq A$.
+> 2. Use the interse
 ---
 > [!h] Example 2 (Compact Hausdorff Space)
 > For a [[Compact Space|compact]] [[Hausdorff space]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U\subseteq X\times X\text{ open s.t. }U\subseteq A\}$$is a uniform structure.
