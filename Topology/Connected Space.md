@@ -4,9 +4,9 @@
 > A [[topological space]] $X$ is ***connected*** if one of the following equivalent conditions hold:
 > 1. Any [[Continuous Function|continuous map]] $f:X\to D$ for a discrete set $D$ is constant.
 > 2. Any [[Continuous Function|continuous map]] $f:X\to \{ 0,1 \}$ is constant.
-> 3. For all topological spaces $X_{1},X_{2}$ s.t. $X$ is homeomorphic to $X_{1}\sqcup X_{2}$, then: $$X_{1}=\varnothing\lor X_{2}=\varnothing$$
-> 4. For all pair of disjoint open sets $U_{1},U_{2}\subseteq X$, if $U_{1}\cup U_{2}=X$ then,$$U_{1}=\varnothing\lor U_{2}=\varnothing$$
-> 5. The only sets that are both open and closed are $\varnothing$ and $X$.
+> 4. For all pair of disjoint open sets $U_{1},U_{2}\subseteq X$, if $U_{1}\sqcup U_{2}=X$ then, $U_{1}=\varnothing\lor U_{2}=\varnothing$.
+> 5. For all pair of disjoint closed sets $C_{1},C_{2}\subseteq X$, if $C_{1}\sqcup C_{2}=X$ then, $C_{1}=\varnothing\lor C_{2}=\varnothing$.
+> 6. The only sets that are both open and closed are $\varnothing$ and $X$.
 - **Related definition**: A set $A\subseteq X$ is ***connected*** if $A$ is connected subspace of $X$. 
 - **Related definition**: For $x,y\in X$, we define the equivalence relation $x\sim y$ if and only if there exists a connected set $A\subseteq X$ s.t. $\{ x,y \}\subseteq A$. Then, the equivalence classes define the ***connected components*** of $X$. Similarly for $x_{0}\in X$, the connected component of $x_{0}$ is the union of all connected subspaces of $X$ containing $x_{0}$, i.e. $\bigcup_{x_{0}\in A\subseteq X,A \text{ connected}}^{}A$.
 - **Remark**: the connected component of $x_{0}$ is the largest connected set containing $x_{0}$.
@@ -14,14 +14,25 @@
 ---
 ##### Properties
 
-> [!lemma] Lemma 1
+> [!lemma] Proposition 1
+> For a topological space $X$, TFAE:
+> 1. Any [[Continuous Function|continuous map]] $f:X\to D$ for a discrete set $D$ is constant.
+> 2. Any [[Continuous Function|continuous map]] $f:X\to \{ 0,1 \}$ is constant.
+> 4. For all pair of disjoint open sets $U_{1},U_{2}\subseteq X$, if $U_{1}\sqcup U_{2}=X$ then, $U_{1}=\varnothing\lor U_{2}=\varnothing$.
+> 5. For all pair of disjoint closed sets $C_{1},C_{2}\subseteq X$, if $C_{1}\sqcup C_{2}=X$ then, $C_{1}=\varnothing\lor C_{2}=\varnothing$.
+> 5. The only sets that are both open and closed are $\varnothing$ and $X$.
+
+> [!proof]+
+> 
+---
+> [!lemma] Lemma 2
 > Let $X$ be a [[topological space]] and $(A_{i})_{i\in I}$ be any family of connected subsets of $X$. If $\bigcap_{i\in I}^{}A_{i}\neq \varnothing$, then $\bigcup_{i\in I}^{}A_{i}$ is connected.
 
 > [!proof]-
 > Let $f:\bigcup_{{i}}^{}A_{i}\to \{ 0,1 \}$ to be continuous. Then, $f|_{A_{i}}$ is continuous for each $i$ so constant. However, $\bigcap_{i\in I}^{}A_{i}\neq \varnothing$, hence $f$ is constant.
 ---
 
-> [!lemma] Lemma 2
+> [!lemma] Lemma 3
 > For a connected set $A\subseteq X$ and $f:X\to Y$ continuous, 
 > 1. $\overline{A}$ is connected.
 > 2. $f(A)$ is connected.
