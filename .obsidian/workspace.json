@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "markov kaku",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,7 +180,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -262,12 +263,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1f050f75a0e649b3",
+  "active": "366d9cebfe9d8db1",
   "lastOpenFiles": [
-    "Topology/Filter.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
+    "Topology/Topological Vector Space.md",
+    "Topology/Weak Topology.md",
+    "Topology/Compact Metric Space.md",
     "Topology/Compact Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Continuous Function.md",
+    "Topology/Filter.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Hausdorff Space.md",
     "Topology/Topological Space.md",
@@ -286,10 +291,6 @@
     "Closure.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
-    "Courses/Analysis IV/Analysis IV Roadmap.md",
-    "Topology/Closure.md",
-    "Lie Group/Killing Form.md",
-    "Basis of a Topology.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
