@@ -31,13 +31,17 @@
 > [!lemma] Proposition 2
 > For a topological space $X$, the following are equivalent:
 > 1. $X$ is [[Compact Space|compact]].
-> 2. every ultrafilter $X$ converges.
+> 2. every ultrafilter $\mathcal{F}$ on $X$ converges.
 
 ^041e9b
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. (1=>2): Assume that $X$ is compact and let $\mathcal{F}$ be an ultrafilter on $X$. 
+> 1. (1=>2): Assume that $X$ is compact and let $\mathcal{F}$ be an ultrafilter on $X$. Then, for $$\mathcal{A}:=\{ \overline{A}\subseteq X:A\in \mathcal{F} \}\subseteq \mathcal{F}$$by [[Filter|Lemma 3]], $\mathcal{A}$ has finite intersection property. Therefore, by [[Compact Space|Theorem 2]], $\bigcap_{A\in \mathcal{F}}^{}\overline{A}\neq \varnothing$. Let $x\in \bigcap_{A\in \mathcal{F}}^{}\overline{A}$. We will show that $\mathcal{F}\to x$. Let $U\ni x$ be an open neighborhood. Then, $U\in \mathcal{F}$ as otherwise $X \backslash U\in \mathcal{F}$, which cannot happen as $x\notin X \backslash U$. 
+> 2. (2=>1): Assume that every ultrafilter converges. Let $(U_{i})_{i\in I}$ be an open covering of $X$. Assume that there is no finite subcovering. Then, $$\mathcal{F}:=\left\{  A\subseteq X: A\supseteq \bigcap_{j\in J}^{}(X\backslash U_{j}),J\subseteq I\text{ finite}  \right\}$$is clealry a filter. Then, by Proposition 1, there exists an ultrafilter $\tilde{\mathcal{F}} \supseteq\mathcal{F}$ and $\tilde{\mathcal{F}}\to x\in X$. However, for any $i\in I$ and any neighborhood of $U\ni x$, we have that: $U\in \tilde{\mathcal{F}}$ and $X \backslash U_{i}\in \tilde{\mathcal{F}}$. Therefore, $U\cap X \backslash U_{i}\in \tilde{ \mathcal{F}}$ with $\varnothing\neq U\cap X \backslash U_{i}$. Hence, $x\in \overline{X \backslash U_{i}}=X \backslash U_{i}$. We conclude that: $$x\in \bigcap_{i\in I}^{}X \backslash U_{i}=X \backslash \bigcup_{i\in I}^{}U_{i}=X \backslash X=\varnothing$$which is a contradiction.
+
+^e2df7f
+
 ---
  > [!lemma] Lemma 3
  > Let $X:=\prod_{i\in I}^{}X_{i}$. For any ultrafilter $\mathcal{F}$ on $X$, the [[Filter|direct image]] $(\pi_{i})_{*}(\mathcal{F})$ is an ultrafilter.

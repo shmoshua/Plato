@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -99,12 +99,12 @@
             }
           },
           {
-            "id": "fa136f8fd2815d94",
+            "id": "8816422ea8b46c57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Interior and Closure.md",
+                "file": "Topology/Filter.md",
                 "mode": "preview",
                 "source": false
               }
@@ -141,18 +141,6 @@
               "type": "markdown",
               "state": {
                 "file": "Topology/Hausdorff Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8816422ea8b46c57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Filter.md",
                 "mode": "preview",
                 "source": false
               }
@@ -225,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Courses/Topology/Exercise Sheet 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact Space.md"
+                "file": "Courses/Topology/Exercise Sheet 4.md"
               }
             }
           }
@@ -287,15 +275,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1f050f75a0e649b3",
+  "active": "85c1e16970092e0a",
   "lastOpenFiles": [
-    "Topology/Uniform Structure.md",
     "Topology/Compact Space.md",
-    "Topology/Interior and Closure.md",
-    "Topology/Filter.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Ultrafilter.md",
+    "Topology/Filter.md",
     "Topology/Hausdorff Space.md",
+    "Topology/Interior and Closure.md",
+    "Topology/Uniform Structure.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Analysis/Equicontinuity.md",
     "Topology/Local Base of Topology.md",
     "Topology/Base of Topology.md",
