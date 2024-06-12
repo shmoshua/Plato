@@ -22,5 +22,5 @@
 > Any [[compact space]] $X$ is locally compact.
 
 > [!proof]-
-> Let $x\in X$ and $U\subseteq X$ be an open neighborhood. Then, by [[Compact Space|Lemma 3]], there exists a compact set $x\in K\subseteq U$. Therefore, $X$ is locally compact.
+> Let $x\in X$ and $U\subseteq X$ be an open neighborhood. Then, by [[Compact Space|Compact Hausdorff Lemma 2]], there exists a relatively compact set $x\in V$ s.t. $\overline{V}\subseteq U$. Therefore, $X$ is locally compact.
 ---

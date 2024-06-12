@@ -52,14 +52,7 @@
 > [!proof]-
 > Let $U_{x}$ be the open neighborhood of $x$ s.t. $f|_{U_{x}}\subseteq B_{<r_{x}}(0)$ for $x\in X$. Then, $\{ U_{x} \}_{x\in X}$ is an open cover of $X$. Then, there exists finite $J\subseteq X$ s.t. $\bigcup_{x\in J}^{}U_{x}=X$. Therefore, $$f(X)\subseteq B_{<\max_{x\in J} r_{x}}(0)$$
 ---
-> [!lemma] Lemma 4
-> Let $X$ be a compact Hausdorff space. Then, every $x\in X$ has a closed [[Local Base of Topology|local base]] in $X$.
-
-> [!proof]-
-> Let $x\in X$ and $U$ an open neighborhood of $x$. Let $C:=X-U$. As $C$ is closed and $x\notin C$, there exists an open neighborhood $V$ of $x$ s.t. $\overline{V}\cap C=\varnothing$. Therefore, $\overline{V}\subseteq U$. 
-
----
-> [!lemma] Theorem 5 (Tychonoff)
+> [!lemma] Theorem 4 (Tychonoff)
 > For any arbitrary family of compact spaces $\{ X_{i} \}_{i\in I}$, $X:=\prod_{i\in I}^{}X_{i}$ is compact with respect to the [[product topology]].
 
 > [!proof]-
@@ -97,6 +90,15 @@
 > 
 > 	Then, as they are decreasing and non-empty, $(\overline{U}_{n})_{n}$ has the finite intersection property. Hence, by Theorem 2.2, $\bigcap_{n\geq 1}^{}\overline{U}_{n}\neq \varnothing$. Furthermore, $$U_{0}\cap(X \backslash C)=U_{0}\cap \bigcap_{n\geq 1}^{}(X \backslash C_{n})\supseteq\bigcap_{n\geq 1}^{}\overline{U}_{n}\neq \varnothing$$Hence, we have that for any non-empty open set $U_{0}$, $U_{0}\not\subseteq C$. Therefore, $C^\circ=\varnothing$.
 > 2. Let $C_{n}:=X \backslash U_{n}$. Then, $C_{n}$ is closed and $C_{n}^\circ=(X \backslash U_{n})^{\circ}=X\backslash X=\varnothing$. Therefore, the interior of $C:=\bigcup_{n\geq 1}C_{n}$ is empty and: $$\overline{\bigcap_{n\geq 1}U_{n}}=\overline{X\backslash C}=X \backslash C^\circ =X$$
+
+---
+> [!lemma] Lemma 2
+> Let $X$ be a compact Hausdorff space. Then, 
+> 1. every $x\in X$ has a closed [[Local Base of Topology|local base]] in $X$.
+
+> [!proof]-
+> Let $x\in X$ and $U$ an open neighborhood of $x$. Let $C:=X\backslash U$. As $C$ is closed and $x\notin C$, there exists by Lemma 1 an open neighborhood $V$ of $x$ s.t. $\overline{V}\cap C=\varnothing$. Therefore, $\overline{V}\subseteq U$. 
+
 
 ---
 ###### Compact Metric Spaces
