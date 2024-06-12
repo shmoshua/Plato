@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Space.md",
+                "file": "Topology/Hausdorff Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Filter.md",
-                "mode": "preview",
-                "source": false
+                "file": "Topology/Compact Space.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -80,8 +80,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
-                "mode": "source",
+                "file": "Topology/Compact Space.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -128,14 +128,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Topology/Base of Topology.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Compact Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Compact Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Continuous Function.md"
+                "file": "Topology/Compact Space.md"
               }
             }
           }
@@ -263,26 +262,27 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d4709d6127fcdfff",
+  "active": "1f050f75a0e649b3",
   "lastOpenFiles": [
-    "Topology/Hausdorff Space.md",
+    "Topology/Filter.md",
+    "Topology/Compact Space.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Continuous Function.md",
     "Courses/Topology/Exercise Sheet 4.md",
-    "Topology/Filter.md",
+    "Topology/Hausdorff Space.md",
     "Topology/Topological Space.md",
+    "Topology/Base of Topology.md",
+    "Topology/Local Base of Topology.md",
     "Topology/Zariski Topology.md",
     "Courses/Topology/Exercise Sheet 3.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Untitled.md",
-    "Topology/Base of Topology.md",
     "Topology/Metric Space.md",
     "Topology/Cantor Space.md",
     "Courses/Topology/Exercise Sheet 2.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Interior and Closure.md",
-    "Topology/Local Base of Topology.md",
     "Closure.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
@@ -290,7 +290,6 @@
     "Topology/Closure.md",
     "Lie Group/Killing Form.md",
     "Basis of a Topology.md",
-    "Lie Group/Topological Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

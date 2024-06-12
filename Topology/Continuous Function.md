@@ -50,13 +50,14 @@
 > 2. if $f(x)=g(x)$ for all $x\in A$ where $A\subseteq X$ is dense, $f=g$.
 > 3. $\text{graph}(f)$ is closed in $X\times Y$.
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. Let $x,y\in X$ s.t. $f(x)\neq g(y)$. Then, as $Y$ is Hausdorff, there exists $V,W\subseteq Y$ neighborhoods of $f(x),g(y)$ respectively s.t. $V\cap W=\varnothing$. Then, $f^{-1}(V)$ and $g^{-1}(W)$ are neighborhoods of $x,y$ respectively, s.t. $f^{-1}(V)\times g^{-1}(W)\subseteq X\times X \backslash\{ (a,b):f(a)=g(b) \}$. This shows that $\{ (x,y):f(x)=g(y) \}$ is closed.
-   
-   One can easily see from the definition of product topology that $X$ is homeomorphic to $\Delta$ w.r.t the subspace topology of the product topology. Then, as $$\{(x,x)\in X:f(x) =g(x)\}=\Delta \cap\{ (x,y):f(x)= g(y)  \}$$ is closed in $\Delta$, our set is closed in $X$.
-4. Let $\overline{E}=X$ and for all $x\in E$, $f(x)=g(x)$. Now, let $y\in X$ and assume that $f(y)\neq g(y)$. As $Y$ is Hausdorff, then we have disjoint open neighborhoods $V,W$ of $f(y)$ and $g(y)$ respectively. Consequently, $f^{-1}(V)$ and $g^{-1}(W)$ are open neighborhoods of $y$. Therefore, $f^{-1}(V)\cap g^{-1}(W)$ is an open neighborhood of $y$. By the density of $E$, then there exists $x\in f^{-1}(V)\cap g^{-1}(W)$ s.t. $f(x)=g(x)\in V\cap W$, which is a contradiction.
-5. Let $(x,y)\in X\times Y$ s.t. $f(x)\neq y$. Then, there exist disjoint open neighborhoods $V,W$ of $f(x)$ and $y$ respectively. Therefore, $f^{-1}(V)$ is an open neighborhood of $x$ and $f^{-1}(V)\times W\subseteq X\times Y \backslash \text{graph}(f)$. Indeed if otherwise, there exists $f(a)=b\in V\cap W$ which is a contradiction. 
+> 1. Consider $\varphi:X\times X\to Y\times Y, (x,y)\mapsto(f(x),g(y))$. Then, we have that $$\{  (x,y):f(x)=g(y)\}=\varphi ^{-1}(\Delta_{Y})$$where $\Delta$ is the diagonal. As $V\times W\subseteq Y\times Y$ form the base of the topology, we have that $\varphi$ is continuous and $\varphi ^{-1}(\Delta_{Y})$ is closed as $\Delta_{Y}$ is closed as $Y$ is Hausdorff (cf [[Hausdorff Space]]).
+>    
+>    Similarly, the second set is the preimage of $\psi:X\to Y\times Y, x\mapsto (f(x),g(x))$ which is continuous.
+>  2. As $\{ x\in X:f(x)=g(x) \}$ is closed, if $A\subseteq \{ x\in X:f(x)=g(x) \}$, $$X=\overline{A}\subseteq\{ x\in X:f(x)=g(x) \}$$
+>  3. Consider the map: $\phi:X\times Y\to Y\times Y, (x,y)\mapsto(f(x),y)$. Then, $\text{graph}(f)=\phi ^{-1}(\Delta_{Y})$.
+- **Remark**: If $Y$ is not Hausdorff, this does not work, e.g. $X=\mathbb{R}$ with [[Topological Space|cofinite topology]] (cf. [[Hausdorff Space|Non-example 2]])
 ---
 ##### Compact Hausdorff Spaces
 > [!lemma] Theorem (Stone-Weierstrass)
