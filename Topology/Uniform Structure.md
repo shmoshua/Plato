@@ -24,7 +24,7 @@
 ---
 > [!lemma] Theorem 2
 > For a uniform space $(X,\mathcal{U})$, 
-> 1. there exists a continuous map $i:X\to \widehat{X}$ with $\widehat{X}$ Hausdorff and complete s.t. $i(X)$ is dense in $\widehat{X}$ and $i:X\to i(X)$ is a homeomorphism.
+> 1. there exists a continuous map $i:X\to \widehat{X}$ with $\widehat{X}$ complete Hausdorff s.t. $i(X)$ is dense in $\widehat{X}$ and $i:X\to i(X)$ is a homeomorphism.
 > 2. for any other $j:X\to \widehat{X}'$ with the above properties, there exists a homeomorphism $f:\widehat{X}\to \widehat{X}'$ s.t. $f\circ i = j$.
 ---
 ##### Examples
@@ -33,7 +33,7 @@
 > 1. $(x_{n})_{n}$ is a [[Cauchy sequence]].
 > 2. $\mathcal{F}$ is a Cauchy filter.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. To show that it is a uniform structure:
 > 	1. Holds with the same $\delta$.
@@ -44,7 +44,7 @@
 > 2. To show the equivalence:
 >    Let $(x_{n})_{n}$ be Cauchy. Let $A\in \mathcal{U}$ with $\delta>0$. Then, there exists $N$ s.t. $d(x_{N},x_{n})<\delta /2$ for all $n\geq N$. Hence, if we set $U:=B_{<\delta /2}(x_{N})$, $U\in \mathcal{F}$ and $U\times U\subseteq A$ as for $x,y\in U$: $$d(x,y)\leq d(x,x_{N})+d(x_{N},y)<\delta$$and $(x,y)\in A$.
 >    
->    Conversely, if $\mathcal{F}$ is a Cauchy filter, for $\delta>0$, Let $A:=\{ (x,y)\in X\times X: d(x,y)<\delta / 2 \}\in \mathcal{U}$ and $U\in \mathcal{F}$ s.t. $U\times U\subseteq A$. 
+>    Conversely, if $\mathcal{F}$ is a Cauchy filter, for $\delta>0$, Let $A:=\{ (x,y)\in X\times X: d(x,y)<\delta  \}\in \mathcal{U}$ and $U\in \mathcal{F}$ s.t. $U\times U\subseteq A$. Let $N\in \mathbb{N}$ s.t. $x_{n}\in U$ for all $n\geq N$. Then $(x_{N},x_{n})\in U\times U\subseteq A$ and  $$d(x_{N},x_{n})<\delta$$
 ---
 > [!h] Example 2 (Topological Group)
 > For a [[topological group]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U \text{ neighborhood of }e\text{ s.t. }\{ (x,y)|xy^{-1}\in U \}\subseteq A\}$$is a uniform structure.
