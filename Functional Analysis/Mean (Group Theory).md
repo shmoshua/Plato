@@ -8,7 +8,7 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> $\mathcal{M}(\Gamma)$ is a [[Convex Set|convex]], [[Weak Topology|weak*-closed]] subset of $B_{\leq 1}(0)$ and hence [[Compact sets|compact]]. 
+> $\mathcal{M}(\Gamma)$ is a [[Convex Set|convex]], [[Weak Topology|weak*-closed]] subset of $B_{\leq 1}(0)$ and hence [[Compact Space|compact]]. 
 
 > [!proof]-
 > We have:

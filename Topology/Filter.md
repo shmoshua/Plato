@@ -68,7 +68,7 @@
 > Conversely, assume that $(\pi_{i})_{*}(\mathcal{F})$ converges to $x_{i}$ for all $i\in I$. Let $U$ be a neighborhood of $x$. Then, there exists a finite $J\subseteq I$ and open $U_{j}\subseteq X_{j}$ neighborhood of $x_{j}$ for $j\in J$ s.t. $$\bigcap_{j\in J}^{}\pi_{j}^{-1}(U_{j})\subseteq U$$As $(\pi_{j})_{*}(\mathcal{F})\to x_{i}$, we have that $\pi ^{-1}_{j}(U_{j})\in \mathcal{F}$ and thereby $\bigcap_{j\in J}^{}\pi_{j}^{-1}(U_{j})\in \mathcal{F}$.
 ---
 ##### Examples
-> [!h] Example 1
+> [!h] Example 1 (Principal Filter)
 > For a [[topological space]] $X$ and $x\in X$, the set of all neighborhoods $\mathcal{F}_{x}$ of $x$ is a filter.
 ---
 > [!h] Example 2 (Frechet Filter)

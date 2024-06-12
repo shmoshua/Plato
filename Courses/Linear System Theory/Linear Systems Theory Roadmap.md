@@ -34,8 +34,7 @@
 1. [[Norm]]
 2. [[Open and Closed Balls]]
 3. [[Convergence of Sequences]]
-4. [[Compact Metric Space]]
-5. [[Compact sets]]
+4. [[Compact Space]]
 6. [[Continuous Functions in Normed Spaces]]
 
 **2.2 Equivalent Norms**

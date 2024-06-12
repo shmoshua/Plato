@@ -5,7 +5,7 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $X$ be a [[topological space]] and $(Y,d)$ be a [[metric space]]. If $\mathcal{F}\subseteq C(X,Y)$ is [[Compact Metric Space|totally bounded]], then $\mathcal{F}$ is continuous.
+> Let $X$ be a [[topological space]] and $(Y,d)$ be a [[metric space]]. If $\mathcal{F}\subseteq C(X,Y)$ is [[Compact Space|totally bounded]], then $\mathcal{F}$ is continuous.
 
 > [!proof]-
 > For $x\in X$ and $\varepsilon>0$. As $\mathcal{F}$ is totally bounded, let $\{ f_{1},..,f_{n} \}\subseteq \mathcal{F}$ be the $\varepsilon /3$ net. Then, $$U:=\bigcap_{k=1}^{n}f_{k}^{-1}(B_{< \varepsilon / 3}(f_{k}(x_{0})))$$is an open neighborhood of $x_{0}$. Therefore, for any $f\in\mathcal{F}$, there exists $k$ s.t. $$d(f(x),f(y))<d(f(x),f_{k}(x))+d(f_{k}(x),f_{k}(y))+d(f_{k}(y),f(y))<\varepsilon$$for all $y\in U$.

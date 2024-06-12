@@ -8,11 +8,7 @@
 > We have:
 > 1. $\mathbb{R}^n, \mathbb{C}^n$ is separable.
 ---
-> [!h] Example 2
-> Every [[compact metric space]] is separable.
-
-> [!proof]-
-> Let $X$ be compact metric. Then, $X$ is totally bounded and let $X_{\varepsilon}$ define the $\varepsilon$-net for $\varepsilon>0$. Therefore, $Y:=\bigcup_{n=1}^{\infty}X_{1 / n}$ is a countable dense subset.
+![[Compact Space#^4ba38b]]
 ---
 > [!h] Example 3
 > For a compact set $K\subseteq \mathbb{R}$, $C(K)$ is separable.

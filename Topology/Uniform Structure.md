@@ -29,5 +29,5 @@
 > For a [[topological group]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U \text{ neighborhood of }1\text{ s.t. }\{ (x,y)|xy^{-1}\in U \}\subseteq A\}$$is a uniform structure.
 ---
 > [!h] Example 2 (Compact Hausdorff Space)
-> For a [[Compact sets|compact]] [[Hausdorff space]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U\subseteq X\times X\text{ open s.t. }U\subseteq A\}$$is a uniform structure.
+> For a [[Compact Space|compact]] [[Hausdorff space]] $X$, $$\mathcal{U}:=\{ A\subseteq X\times X: \exists U\subseteq X\times X\text{ open s.t. }U\subseteq A\}$$is a uniform structure.
 ---

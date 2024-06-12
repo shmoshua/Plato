@@ -3,6 +3,9 @@
 > [!definition]
 >  A [[topological space]] $X$ is ***compact***, if every open covering has a finite sub-covering, i.e. if $(U_{i})_{i\in I}$ is a collection of open sets  of $X$ s.t. $\bigcup_{i\in I}^{}U_{i}=X$, then there exists a finite subset $J \subseteq I$ s.t. $\bigcup_{i\in J}^{}U_{i}=X$.
 - **Related definition**: A subset $A\subseteq X$ is ***compact*** if it is with the subspace topology.
+- **Related definition**: A subset $A\subseteq X$ is ***relatively compact*** if $\overline{A}$ is compact.
+- **Related Definition**: $X$ is ***sequentially compact*** if every sequence $(x_{n})_{n}\subseteq X$ has a convergent subsequence.
+- **Related Definition**:  A [[metric space]] $(X,d)$ is ***totally bounded/pre-compact*** if for every $\varepsilon>0$, there exists finite $J$ s.t. $\bigcup_{i\in J}^{}B(x_{i},\varepsilon)=X$. In other words, for every $\varepsilon>0$, there exists finite $A\subseteq X$ s.t. $d(x,A)<\varepsilon$ for all $x\in X$. Then, $A$ is called ***$\varepsilon$-net***.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -14,7 +17,7 @@
 
 ^2251ae
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. Let $(U_{\lambda})_{\lambda}$ be an open cover of $f(X)$. Then, $(f^{-1}(U_{\lambda}))_{\lambda}$ is an open cover of $X$ and there exists a finite cover $(f^{-1}(U_{n}))_{n\in [N]}$ and a finite subcover $(U_{n})_{n\in [N]}$ of $f(X)$. 
 > 2. Let $(U_{\lambda})_{\lambda}$ be a family of open sets s.t. $A\subseteq \bigcup_{\lambda\in \Lambda}^{}U_{\lambda}$. Then, $(U_{\lambda}\cup X \backslash A)_{\lambda}$ is an open cover of $X$. Therefore, there exists a finite subcover $(U_{n}\cup X \backslash A)_{n}$ and we have that $(U_{n})_{n}$ is a finite subcover of $A$.
@@ -48,10 +51,40 @@
 
 - **Remark**: This is equivalent to [[Axiom of Choice]].
 ---
-##### Related Properties
 
 ![[Ultrafilter#^041e9b|clean lk-hvr]]
 
+---
+###### Compact Metric Spaces
+> [!lemma] Theorem 1
+> For a metric space $(X,d)$, the following are equivalent:
+> 1. $X$ is compact.
+> 2. Every collection of closed sets in $X$ with the finite intersection property has a non-empty intersection.
+> 3. If $F_{1}\supseteq F_2\supseteq\dots$ is a decreasing sequence of non-empty closed sets in $X$, $\bigcap_{n=1}^{\infty}F_{n}\neq \varnothing$.
+> 4. $X$ is sequentially compact.
+> 5. $X$ is totally bounded and complete.
+
+> [!proof]-
+> - (1 => 2): Let $(C_{i})_{i}$ be a collection of closed sets. It suffices to show that if $\bigcap_{i\in I}^{}C_{i}=\varnothing$, then it holds for some finite subset. Indeed, $(U_{i})_{i}$ is an open covering of $X$ and there exists finite $J\subseteq I$ s.t. $(U_{i})_{i\in J}$ covers $X$. Then, we have that $$\bigcap_{i\in J}^{}C_{j}=X \backslash \bigcup_{i\in J}^{}U_{j}=\varnothing$$This shows the statement.
+> - (2 => 3): A decreasing sequence  $(F_{i})_{i=1}^\infty$ has the finite intersection property.
+> - (3 => 4): Let $(x_{n})_{n=1}^\infty \subseteq X$. We then define, $$F_{n}:=\overline{\{ x_{n},x_{n+1},\dots \}}$$Then, $F_{1}\supseteq F_{2}\supseteq F_{3}\supseteq \dots$ are decreasing, non-empty and closed. Therefore, there exists $a\in X$ s.t. $a\in \bigcap_{n=1}^{\infty}F_{n}$. It follows that there exists a subsequence converging to $a$.
+> - (4 => 5): We first show that $X$ is complete. Let $(x_{n})\subseteq X$ be any Cauchy sequence. Then, $(x_{n})_{n}$ has a convergent subsequence converging to $a$. This however, means that the whole sequence converges to $a$. Therefore, $X$ is complete.
+>   
+>   Suppose $X$ is not totally bounded, i.e. there exists $r>0$ s.t. $X$ has no finite covering of open balls of radius $r$. Then, we can define a sequence $(x_{n})_{n}$ s.t. $d(x_{i},x_{j})\geq r$ for all $i\neq j$. Then, $(x_{n})_{n}$ has no convergent subsequence as if it had convergent subsequence $(x_{n_{k}})_{k}$ to $a$, it would have $k_{0}$ s.t. $d(x_{n_{k}},a)<r/2$ for all $k\geq k_{0}$ and by triangle identity, $$d(x_{n_{k}},x_{n_{k'}})<r$$ for all $k,k'\geq k_{0}$. However, this is a contradiction.
+>   
+>  - (5 => 1): Assume that $X$ is totally bounded and complete. Suppose $X$ is not compact, i.e. there exists an open covering $\{ U_{i} \}_{i}$ of $X$ s.t. there is no finite sub-covering. 
+>    
+>    Now, as $X$ is totally bounded, there is an $\varepsilon$-net $A_{\varepsilon}$ for all $\varepsilon>0$. Let $x_{1}\in A_{1 / 2}$ s.t. no finite sub-family of $(U_{i})_{i}$ is covering $B(x_{1}, 1/2)$. This has to exist as there is no finite sub-covering of $(U_{i})$. Then, let $x_{2}\in A_{1 /4}$ s.t. $B(x_{1},1 /2 )\cap B(x_{2}, 1/ 4)\neq\varnothing$ and there is no finite subcovering of $(U_{i})$. Continue analogously. Then, $$d(x_{n-1},x_{n})< \frac{1}{2^{n-1}}+\frac{1}{2^n}\leq \frac{1}{2^{n-2}}$$and for $m<n$: $$d(x_{m},x_{n})\leq \sum_{i=m}^{n-1}d(x_{i},x_{i+1})=\sum_{i=m}^{n-1} \frac{1}{2^{i-1}}\leq \frac{1}{2^{m-2}}$$which shows that $(x_{n})$ is a Cauchy sequence, i.e. it converges to a point $a$ as $X$ is complete. 
+>    
+>    Let $U_{k}$ be s.t. $a\in U_{k}$. Then, there exists $\varepsilon>0$ s.t. $B(a,\varepsilon)\subseteq U_{k}$. Then, by definition, there exists $x_{n}$ s.t. $d(x_{n},a)<\varepsilon / 2$ and also $1/2^n < \varepsilon/2$. It follows from the triangle inequality that: $$B(x_{n}, 1 / 2^n)\subseteq B(a, \varepsilon)\subseteq U_{k}$$ which is a contradiction.
+---
+> [!lemma] Proposition 2
+> Every totally bounded metric space is [[Separable Space|separable]].
+
+^4ba38b
+
+> [!proof]-
+> If $X$ is totally bounded, then there exists for each $n$ a finite subset $A_{n}\subseteq X$ s.t. for every $x\in X$: $d(x,A_{n})\leq 1/n$. If we let $A:= \bigcup_{n=1}^{\infty}A_{n}$, then $A$ is countable and for each $x\in X$, we have: $$d(x,A)\leq d(x,A_{n})\leq 1 / n$$ for all $n$. Therefore, $d(x,A)=0$ and $x\in  \overline{A}$. This shows that $A$ is dense in $X$.
 ---
 ##### Examples
 > [!h] Example 1 (Discrete Space)
@@ -74,7 +107,7 @@
 > [!proof]-
 > We have that:
 > 1. if $A$ is compact, $A$ is closed as $\mathbb{R^n}$ is Hausdorff. By Lemma 2 and the locally bounded map $$\begin{array}{cccc} {}&{A}&\to&{\mathbb{R}^n}\\&{x} &\mapsto & {x } \end{array}{}$$$A$ is bounded in $X$. 
-> 2. Let $(x_{n})\subseteq A$. As $A$ is bounded, the sequence is bounded and by Bolzano-Weierstrass there exists a convergent subsequence. However, as $A$ is closed, the subsequence must converge in $A$. Therefore, any sequence in $A$ has a convergent subsequence in $A$ and $A$ is sequentially compact. As $A$ is metric, by [[Compact Metric Space|Theorem 1]] $A$ is compact.
+> 2. Let $(x_{n})\subseteq A$. As $A$ is bounded, the sequence is bounded and by Bolzano-Weierstrass there exists a convergent subsequence. However, as $A$ is closed, the subsequence must converge in $A$. Therefore, any sequence in $A$ has a convergent subsequence in $A$ and $A$ is sequentially compact. As $A$ is metric, by Compact Metric Space Theorem 1 $A$ is compact.
 ---
 > [!h] Example 4 (Cofinite Topology)
 > Let $X$ be an infinite set equipped with the cofinite topology. Then, 

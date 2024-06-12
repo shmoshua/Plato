@@ -1,11 +1,13 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $X$ be a set. A filter $\mathcal{F}$ is an ***ultrafilter*** if for all $A\subseteq X$ either $A\in \mathcal{F}$ or $A^c\in \mathcal{F}$.
+> Let $X$ be a set. A [[filter]] $\mathcal{F}$ is an ***ultrafilter*** if for all $A\subseteq X$ either $A\in \mathcal{F}$ or $A^c\in \mathcal{F}$.
 ---
 ##### Properties
-> [!lemma] Theorem 1
-> A filter $\mathcal{F}$ is an ultrafilter if and only if it is a maximal filter.
+> [!lemma] Proposition 1
+> For $X$, we have:
+> 1. A filter $\mathcal{F}$ is an ultrafilter if and only if it is a maximal filter.
+> 2. Every filter is contained in a maximal one.
 
 > [!proof]-
 > Assume $\mathcal{F}$ is maximal and $A\notin \mathcal{F}$. Since $\mathcal{F}\cup \{ A \}$ is not a filter, $\mathcal{F}\cup \{ A \}$ doesn't have the finite intersection property. So there is $B\in \mathcal{F}$ with $B\cap A=\varnothing$. Hence, $B\subseteq A^c$ and $A^c\in \mathcal{F}$.

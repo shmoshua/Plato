@@ -1,7 +1,7 @@
 #Definition #Topology 
 
 > [!definition]
-> A [[topological space]] $X$ is ***locally compact***, if every $x\in X$ has a [[Local Base of Topology|fundamental system]] of [[Compact sets|compact]] neighborhood.
+> A [[topological space]] $X$ is ***locally compact***, if every $x\in X$ has a [[Local Base of Topology|fundamental system]] of [[Compact Space|compact]] neighborhood.
 ---
 ##### Properties
 > [!lemma] Proposition 1

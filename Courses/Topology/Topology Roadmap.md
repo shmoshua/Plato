@@ -47,7 +47,7 @@
 ##### 2. Compactness, Connectedness and Completeness
 **2.1 Compactness**
 1. [[Compact Space]]
-1. [[Compact Metric Space]]
+2. [[Ultrafilter]]
 
 **2.2 Connectedness**
 1. [[Connected Space]]
