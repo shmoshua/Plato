@@ -77,6 +77,33 @@
 ![[Continuous Function#^aa3f39|p]]
 
 ---
+> [!lemma] Lemma 1
+> Let $X$ be a compact Hausdorff space. Let $A\subseteq X$ be a closed subspace and $x\notin A$. Then, 
+> 1. there exists an open neighborhood $U\ni x$ s.t. $\overline{U}\cap A=\varnothing$.
+
+> [!proof]-
+> Let $y\in A$. Then, $x\neq y$ and as $X$ is Hausdorff, there exists disjoint open neighborhoods $U_{y},V_{y}$ of $x$ and $y$ respectively. As $A$ is a closed subspace, $A$ is compact and $\{ V_{y} \}_{y\in A}$ is an open cover of $A$. Therefore, there exists a finite set $J\subseteq A$ s.t. $\bigcup_{y\in J}^{}V_{y}\supseteq A$. Let $U:=\bigcap_{y\in J}^{}U_{y}$ which is an open neighborhood of $x$. Then, we have that $U\cap \bigcup_{y\in J}^{}V_{j}=\varnothing$ and as both sets are open, $\overline{U}\cap A \subseteq \overline{U}\cap \bigcup_{y\in J}^{}V_{j}=\varnothing$. 
+---
+> [!lemma] Theorem (Baire Category Theorem for Compact Hausdorff Spaces)
+> Let $X$ be a compact Hausdorff space. 
+> 1. For a sequence $(C_{n})_{n}$ of closed sets s.t. $C_{n}^\circ=\varnothing$, it holds that $\left( \bigcup_{n\geq 1}^{}C_{n} \right)^\circ=\varnothing$.
+> 2. For a sequence $(U_{n})_{n}$ of dense open sets, it holds that $\bigcap_{n\geq 1}^{}U_{n}$ is dense in $X$.
+
+> [!proof]+
+> We have:
+> 1. Denote $C:=\bigcup_{n\geq 1}^{}C_{n}$. Let $U_{0}$ be a non-empty open subset of $X$. By induction we will construct a sequence $(U_{n})_{n\geq 1}$ of non-empty open sets. Let $n\geq 1$. As $C_{n}$ has an empty interior, there exists $x_{n}\in U_{n-1} \backslash C_{n}$. Then, $x_{n}\notin C_{n}\cup \partial U_{n-1}$ which is a closed set, hence compact Hausdorff. Therefore, by Lemma 1, there exists a neighborhood $U_{n}$ of $x$ s.t. $\overline{U_{n}}\cap (C_{n}\cup \partial U_{n-1})=\varnothing$. As $x_{n}\in U_{n-1}$, we have that:
+> 	1. $\overline{U_{n}}\cap C_{n}=\varnothing$ and
+> 	2. $\overline{U}_{n}\subseteq U_{n-1}$.
+> 
+> 	Then, as they are decreasing and non-empty, $(\overline{U}_{n})_{n}$ has the finite intersection property. Hence, by Theorem 2.2, $\bigcap_{n\geq 1}^{}\overline{U}_{n}\neq \varnothing$. Furthermore, $$U_{0}\cap(X \backslash C)=U_{0}\cap \bigcap_{n\geq 1}^{}(X \backslash C_{n})\supseteq\bigcap_{n\geq 1}^{}\overline{U}_{n}\neq \varnothing$$Hence, we have that for any non-empty open set $U_{0}$, $U_{0}\not\subseteq C$. Therefore, $C^\circ=\varnothing$.
+> 2. Let $C_{n}:=X \backslash U_{n}$. Then, $C_{n}$ is closed and $C_{n}^\circ=(X \backslash U_{n})^{\circ}=X\backslash X=\varnothing$. Therefore, the interior of $C:=\bigcup_{n\geq 1}C_{n}$ is empty and: $$\overline{\bigcap_{n\geq 1}U_{n}}=\overline{X\backslash C}=X \backslash C^\circ =X$$
+
+> 6. Give an example of a sequence $(V_{n})_{n}$ of dense open sets in the compact space $[0,1]$ such that the intersection of the $V_{n}$’s is not open.
+> 
+> 
+5. Let $C_{n}:=X \backslash V_{n}$. Then, $C_{n}$ is closed and $C_{n}^\circ=(X \backslash V_{n})^{\circ}=X\backslash X=\varnothing$. Therefore, the interior of $C:=\bigcup_{n\geq 1}^{}C_{n}$ is empty and: $$\overline{\bigcap_{n\geq 1}^{}V_{n}}=\overline{X\backslash C}=X \backslash C^\circ =X$$
+6. Let $C_n:=\{ x\in[0,1]:nx\in \mathbb{Z} \}$ for $n\geq 1$. Then, $C_{n}$ is closed as a finite union of singleton sets ($X$ is Hausdorff) and by setting $V_{n}:= [0,1] \backslash C_{n}$, we have our desired sequence as $\bigcup_{n\geq 1}^{}C_{n}=[0,1]\cap \mathbb{Q}$, which is not closed in $\mathbb{R}$. 
+---
 ###### Compact Metric Spaces
 > [!lemma] Theorem 1 (Equivalence of Compactness)
 > For a metric space $(X,d)$, the following are equivalent:
