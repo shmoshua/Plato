@@ -43,15 +43,28 @@
 > 1. $\overline{A}$ is connected.
 > 2. $f(A)$ is connected.
 > 3. For $x\in X$, the connected component of $x$ is closed.
-> 4. For $B\subseteq X$ if $A\subseteq B\subseteq \overline{A}$, $B$ is connected.
 
 > [!proof]-
 > We have: 
 > 1. Let $\overline{A}=U_{1}\sqcup U_{2}$ both open. Then, $A=(U_{1}\cap A)\sqcup(U_{2}\cap A)$ and by connectedness, $U_{1}\cap A=\varnothing$ or $U_{2}\cap A=\varnothing$. Wlog assume $U_{1}\cap A=\varnothing$. Then, $A\subseteq U_{2}$. Therefore, $$U_{1}=U_{1}\cap \overline{A}\subseteq U_{1}\cap \overline{U_{2}}=\varnothing$$
 > 2. Let $f(A)=U_{1}\cup U_{2}$ where $U_{1},U_{2}$ are disjoint open. Then, $f^{-1}(U_{1}),f^{-1}(U_{2})$ are disjoint open and $A=f^{-1}(U_{1})\cup f^{-1}(U_{2})$. Therefore, wlog $f^{-1}(U_{1})=\varnothing$. Therefore, $U_{1}=\varnothing$.
 > 3. Let $A$ be the connected component. Then, $\overline{A}$ is connected and contains $x$. However, as $A$ is the largest connected set containing $x$, $\overline{A}\subseteq A$ and $A$ is closed. 
-> 4. Assume $A\subseteq B\subseteq \overline{A}$ but $B$ is not connected. Then, there exists disjoint open $U_{1},U_{2}$ with $B\subseteq U_{1}\cup U_{2}$ s.t. $B\cap U_{1},B\cap U_{2}\neq \varnothing$. Then, $A\subseteq U_{1}\cup U_{2}$ and $A\cap U_{1}$ and $A\cap U_{2}$ are disjoint. However, as $A$ is connected, we can assume wlog $A\subseteq U_{1}$. Therefore, $U_{2}^c$ is a closed set that contains $A$ and $\overline{A}\subseteq U_{2}^c$. This is a contradiction to $B\subseteq \overline{A}$. 
 - **Corollary (Intermediate Value Theorem):** if $f:\mathbb{R}\to \mathbb{R}$ is continuous and $f(a)<c<f(b)$, there exists $x$ between $a$ and $b$ s.t. $f(x)=c$.
+---
+> [!lemma] Lemma 4
+> Let $A\subseteq X$ be a connected set and $B\subseteq X$. 
+> 1. if $A\subseteq B\subseteq \overline{A}$, $B$ is connected.
+> 1. if $A\cap \partial B$ is empty, $A\subseteq B^\circ$ or $A\subseteq (X \backslash B)^\circ=X \backslash \overline{B}$.
+> 2. if $A\cap B$ and $A\cap(X \backslash B)$ are both non-empty, deduce that $A\cap \partial B\neq \varnothing$.
+> 3. If $X$ is connected, and $B$ is not empty nor equal to $X$, show that $\partial B$ is not empty.
+
+> [!proof]-
+> We have:
+> 1. Assume $A\subseteq B\subseteq \overline{A}$ but $B$ is not connected. Then, there exists disjoint open $U_{1},U_{2}$ with $B\subseteq U_{1}\cup U_{2}$ s.t. $B\cap U_{1},B\cap U_{2}\neq \varnothing$. Then, $A\subseteq U_{1}\cup U_{2}$ and $A\cap U_{1}$ and $A\cap U_{2}$ are disjoint. However, as $A$ is connected, we can assume wlog $A\subseteq U_{1}$. Therefore, $U_{2}^c$ is a closed set that contains $A$ and $\overline{A}\subseteq U_{2}^c$. This is a contradiction to $B\subseteq \overline{A}$. 
+> 2. If $A\cap \partial B$ is empty, by [[Interior and Closure|Lemma 1.8]], $A\cap B^\circ$ and $A\cap(X \backslash B)^\circ$ are two open subsets that cover $B$. As $A$ is connected, we have that either $A\subseteq B^\circ$ or $A\subseteq(X \backslash B)^\circ$.
+> 3. If $A\cap \partial B=\varnothing$ then either $A\subseteq B^\circ\subseteq B$ or $A\subseteq(X\backslash B)^\circ\subseteq (X \backslash B)$.
+> 4. Apply 3 to $A=X$.
+- **Remark**: If $X$ is not connected, there exists a non-empty proper subset $U\subsetneq X$ with $\partial U=\varnothing$.
 ---
 ##### Examples
 > [!h] Example

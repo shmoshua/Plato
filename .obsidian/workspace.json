@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Topology/Cantor Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -68,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Topology/Cantor Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Complete Metric Space.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "preview",
                 "source": false
               }
@@ -239,12 +238,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "85c1e16970092e0a",
+  "active": "0ccbbbdb59743725",
   "lastOpenFiles": [
-    "Topology/Connected Space.md",
+    "Topology/Cantor Space.md",
     "Courses/Topology/Exercise Sheet 6.md",
-    "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Connected Space.md",
+    "Topology/Interior and Closure.md",
     "Topology/Locally Complete Metric Space.md",
+    "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Locally Connected Space.md",
     "Topology/Compact Space.md",
     "Topology/Locally Compact Space.md",
@@ -265,8 +266,6 @@
     "Topology/Complete Metric Space.md",
     "Topology/Dense Subset.md",
     "Topology/Continuous Function.md",
-    "Courses/Topology/Exercise Sheet 4.md",
-    "Topology/Interior and Closure.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
