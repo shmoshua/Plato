@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Topology/Normal Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -250,20 +250,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "36e87c04d2be24f2",
+  "active": "366d9cebfe9d8db1",
   "lastOpenFiles": [
+    "Topology/Normal Space.md",
+    "Topology/Compact Space.md",
+    "Topology/Complete Metric Space.md",
+    "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Complete Metric Space.md",
     "Topology/Cantor Space.md",
     "Topology/Locally Connected Space.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 8.md",
-    "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 6.md",
     "Topology/Interior and Closure.md",
     "Topology/Locally Complete Metric Space.md",
-    "Topology/Compact Space.md",
     "Topology/Locally Compact Space.md",
     "Topology/Filter.md",
     "Topology/Complete Space.md",
@@ -271,7 +272,6 @@
     "Topology/Uniform Structure.md",
     "Topology/One-Point Compactification.md",
     "Topology/Ultrafilter.md",
-    "Topology/Normal Space.md",
     "Topology/Hausdorff Space.md",
     "Lie Group/Topological Group.md",
     "Differential Geometry/Topological Manifold.md",

@@ -5,6 +5,36 @@
 - **Equivalent definition**: $X$ is complete if for any $\{ F_{n} \}_{n}$ closed subsets with $F_{n+1}\subseteq F_{n}$ and $\text{diam}(F_{n})\to{0}$, $\bigcap_{n=1}^{\infty}F_{n}\neq \varnothing$.
 ---
 ##### Properties
+
+> [!def] Problem 3
+> Let $X$ be a complete metric space. Let $(C_{n})_{n\geq 1}$ be a sequence of closed subsets of $X$, each with empty interior. Let $C$ be the union of the $C_{n}$ for $n\geq 1$. Let $U$ be a non-empty open subset of $X$.
+> 1. Let $U_{0}=U$. Show that there exists a sequence $(U_{n})_{n\geq 1}$ of non empty open sets in $X$ such that the conditions 
+> 	- $\overline{U_{n}}\cap C_{n}=\varnothing$
+> 	- $\overline{U_{n}}\subseteq U_{n-1}$
+> 	- $d(x,y)< \frac{1}{ n}$ for all $(x,y)\in U_{n}\times U_{n}$
+> 
+>      hold for $n\geq 1$.
+>   2. Show that $\bigcap_{n\geq 1}^{}\overline{U_{n}}\neq \varnothing$.
+>   3. Deduce that $U\cap(X \backslash C)\neq \varnothing$, and therefore that $C$ has empty interior.
+
+We have: 
+1. Let $U_{n-1}$ be a non-empty open set that meets the condition. As $C_{n}$ has an empty interior, there exists $x_{n}\in U_{n-1}\backslash C_{n}$. Then, $x_{n}\notin C_{n}\cup \partial U_{n-1}$ which is a closed set. Therefore, there exists a neighborhood $V_{n}$ of $x$ s.t. $\overline{V_{n}}\cap (C_{n}\cup \partial U_{n-1})=\varnothing$. As $x\in U_{n-1}$, $V_{n}$ meets the first two conditions. Lastly, we just take $U_{n}:=V_{n}\cap B_{< \frac{1}{2n}}(x_{n})$ and all the conditions are satisfied.
+2. As $(\overline{U_{n}})_{n}$ is a decreasing sequence of non-empty closed sets with $\lim_{ n \to \infty } \text{diam}(\overline{U_{n}})=\lim_{ n \to \infty } \frac{1}{n}=0$Therefore, by the previous exercise, $\bigcap_{n\geq 1}^{}\overline{U_{n}}\neq \varnothing$.
+3. Let $x\in \bigcap_{n\geq 1}^{}\overline{U_{n}}$. Then, $x\notin C_{n}$ for all $n$ and $x\notin C$. However, $x\in\overline{U}_{1}\subseteq U$. Therefore, $x\in U\cap(X \backslash C)$. This shows that $X\backslash C$ is dense in $X$, i.e. $C$ has an empty interior. 
+
+---
+> [!lemma] Theorem 1 (Baire Category Theorem)
+> Let $(X,d)$ be a non-empty complete metric space. 
+> 1. For a sequence $(C_{n})_{n}$ of close sets s.t. $C_{n}^\circ=\varnothing$, it holds that $\left( \bigcup_{n\geq 1}^{}C_{n} \right)^\circ=\varnothing$.
+> 2. For a sequence $(U_{n})_{n}$ of open dense sets, $\bigcap_{n\geq 1}^{}U_{n}\subseteq X$ is dense.
+> 3. Let $Y\subseteq X$ non-empty open. For $(U_{n})_{n}$ of open dense sets $U_{n}\subseteq Y$, $\bigcap_{n\geq 1}^{}U_{n}\subseteq Y$ is dense.
+> 5. let $Y=\bigcup_{n\geq 1}^{}C_{n}$ with $C_{n}$ closed in $Y$, then there exists $n\geq 1$ s.t. $C_{n}^\circ\neq \varnothing$ in $Y$.
+
+> [!proof]+
+> We have:
+> 1. Let $U_{0}$ be a non-empty open subset of $X$. We will construct a sequence $(U_{n})_{n\geq 1}$ as follows: For $n\geq 1$, as $C_{n}$ has an empty interior, there exists $x_{n}\in U_{n-1} \backslash C_{n}$. Then, $x_{n}\notin C_{n} \cup \partial U_{n-1}$ which is a closed set. As metric spaces are [[|normal]], 
+
+---
 > [!lemma] Theorem 1 (Baire Category Theorem)
 > Let $(X,d)$ be a complete metric space with $X \neq \varnothing$. Further, let non-empty $Y\subseteq X$ be open.
 > 1. let $(U_{j})_{j}$ be a sequence of open and dense sets $U_{j}\subseteq Y$, then $\mathcal{U}:=\bigcap_{j\geq 1}^{}U_{j}$ is dense in $Y$.
@@ -49,15 +79,16 @@
 ##### Examples
 ---
 ###### Non-Examples
-> [!h] Non-Example 1
+> [!h] Non-Example 1 (Completeness is a property of the metric and not of the topology)
 > Let $X=[0,+\infty)$. Define a function $\delta:X\times X\to [0,+\infty),(x,y)\mapsto \left| e^{-x}-e^{-y} \right|$
-> 1. Show that $\delta$ is a distance on $X$.
-> 2. Show that the topology defined by $\delta$ on $X$ is the euclidean subspace topology.
-> 3. Show that $(X,\delta)$ is not complete.
-> 4. Show that $X$ is a complete space with the restriction of the euclidean distance.
+> 1. $\delta$ is a distance on $X$ with the topology defined by $\delta$ on $X$ is the euclidean subspace topology.
+> 3. $(X,\delta)$ is not complete, however $X$ is a complete space with the restriction of the euclidean distance.
 
-We have:
-1. The non-negativity, symmetry and triangle inequality is inherited from the norm $\left| \cdot  \right|$ in the definition. The non-degeneracy is given by the injectivity of $e^{-x}$. 
-2. Let $x,y\in X$. Then, by the mean value theorem, it holds that: $$e^{-\max\{ x,y \}}\left| x-y \right| \leq\left| e^{-x}-e^{-y} \right| \leq e^{-\min\{ x,y \}}\left| x-y \right| $$This shows that the topology are equivalent.
-3. Let $x_{n}=n$ for all $n\geq 1$. Then, for all $\varepsilon>0$, there exists $N$ s.t. $e^{-N}< \frac{\varepsilon}{2}$. As $e^{-x}$ is decreasing, for all $m,n\geq N$: $$\delta(x_{n},x_{m})=\left| e^{-n}-e^{-m} \right|\leq e^{-n}+e^{-m}<\varepsilon $$This shows that $(x_{n})_{n}$ is a Cauchy sequence which clearly doesn't have a limit.
-4. Let $(x_{n})_{n}\subseteq X$ be a Cauchy sequence. Then, as $\mathbb{R}$ is complete with the euclidean distance, there exists a limit $x\in \mathbb{R}$. This has to be in $X$ as otherwise, as $X$ is closed.
+> [!proof]-
+> We have:
+> 1. The non-negativity, symmetry and triangle inequality is inherited from the norm $\left| \cdot  \right|$ in the definition. The non-degeneracy is given by the injectivity of $e^{-x}$. 
+>    
+>    Let $x,y\in X$. Then, by the mean value theorem, it holds that: $$e^{-\max\{ x,y \}}\left| x-y \right| \leq\left| e^{-x}-e^{-y} \right| \leq e^{-\min\{ x,y \}}\left| x-y \right| $$This shows that the topology are equivalent.
+> 3. Let $x_{n}=n$ for all $n\geq 1$. Then, for all $\varepsilon>0$, there exists $N$ s.t. $e^{-N}< \frac{\varepsilon}{2}$. As $e^{-x}$ is decreasing, for all $m,n\geq N$: $$\delta(x_{n},x_{m})=\left| e^{-n}-e^{-m} \right|\leq e^{-n}+e^{-m}<\varepsilon $$This shows that $(x_{n})_{n}$ is a Cauchy sequence which clearly doesn't have a limit.
+>    
+>    However, let $(x_{n})_{n}\subseteq X$ be a Cauchy sequence. Then, as $\mathbb{R}$ is complete with the euclidean distance, there exists a limit $x\in \mathbb{R}$. This has to be in $X$ as otherwise, as $X$ is closed.
