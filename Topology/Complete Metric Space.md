@@ -5,24 +5,6 @@
 - **Equivalent definition**: $X$ is complete if for any $\{ F_{n} \}_{n}$ closed subsets with $F_{n+1}\subseteq F_{n}$ and $\text{diam}(F_{n})\to{0}$, $\bigcap_{n=1}^{\infty}F_{n}\neq \varnothing$.
 ---
 ##### Properties
-
-> [!def] Problem 3
-> Let $X$ be a complete metric space. Let $(C_{n})_{n\geq 1}$ be a sequence of closed subsets of $X$, each with empty interior. Let $C$ be the union of the $C_{n}$ for $n\geq 1$. Let $U$ be a non-empty open subset of $X$.
-> 1. Let $U_{0}=U$. Show that there exists a sequence $(U_{n})_{n\geq 1}$ of non empty open sets in $X$ such that the conditions 
-> 	- $\overline{U_{n}}\cap C_{n}=\varnothing$
-> 	- $\overline{U_{n}}\subseteq U_{n-1}$
-> 	- $d(x,y)< \frac{1}{ n}$ for all $(x,y)\in U_{n}\times U_{n}$
-> 
->      hold for $n\geq 1$.
->   2. Show that $\bigcap_{n\geq 1}^{}\overline{U_{n}}\neq \varnothing$.
->   3. Deduce that $U\cap(X \backslash C)\neq \varnothing$, and therefore that $C$ has empty interior.
-
-We have: 
-1. Let $U_{n-1}$ be a non-empty open set that meets the condition. As $C_{n}$ has an empty interior, there exists $x_{n}\in U_{n-1}\backslash C_{n}$. Then, $x_{n}\notin C_{n}\cup \partial U_{n-1}$ which is a closed set. Therefore, there exists a neighborhood $V_{n}$ of $x$ s.t. $\overline{V_{n}}\cap (C_{n}\cup \partial U_{n-1})=\varnothing$. As $x\in U_{n-1}$, $V_{n}$ meets the first two conditions. Lastly, we just take $U_{n}:=V_{n}\cap B_{< \frac{1}{2n}}(x_{n})$ and all the conditions are satisfied.
-2. As $(\overline{U_{n}})_{n}$ is a decreasing sequence of non-empty closed sets with $\lim_{ n \to \infty } \text{diam}(\overline{U_{n}})=\lim_{ n \to \infty } \frac{1}{n}=0$Therefore, by the previous exercise, $\bigcap_{n\geq 1}^{}\overline{U_{n}}\neq \varnothing$.
-3. Let $x\in \bigcap_{n\geq 1}^{}\overline{U_{n}}$. Then, $x\notin C_{n}$ for all $n$ and $x\notin C$. However, $x\in\overline{U}_{1}\subseteq U$. Therefore, $x\in U\cap(X \backslash C)$. This shows that $X\backslash C$ is dense in $X$, i.e. $C$ has an empty interior. 
-
----
 > [!lemma] Theorem 1 (Baire Category Theorem)
 > Let $(X,d)$ be a non-empty complete metric space. 
 > 1. For a sequence $(C_{n})_{n}$ of close sets s.t. $C_{n}^\circ=\varnothing$, it holds that $\left( \bigcup_{n\geq 1}^{}C_{n} \right)^\circ=\varnothing$.
@@ -32,7 +14,17 @@ We have:
 
 > [!proof]+
 > We have:
-> 1. Let $U_{0}$ be a non-empty open subset of $X$. We will construct a sequence $(U_{n})_{n\geq 1}$ as follows: For $n\geq 1$, as $C_{n}$ has an empty interior, there exists $x_{n}\in U_{n-1} \backslash C_{n}$. Then, $x_{n}\notin C_{n} \cup \partial U_{n-1}$ which is a closed set. As metric spaces are [[|normal]], 
+> 1. Let $U_{0}$ be a non-empty open subset of $X$. We will construct a sequence $(U_{n})_{n\geq 1}$ of non-empty open sets as follows: For $n\geq 1$, as $C_{n}$ has an empty interior, there exists $x_{n}\in U_{n-1} \backslash C_{n}$. Then, $x_{n}\notin C_{n} \cup X\backslash U_{n-1}$ which is a closed set. As metric spaces are [[Normal Space|normal]], there exists $V_{n}\ni x_{n}$ open s.t. $\overline{V_{n}}\cap(C_{n}\cup X \backslash U_{n-1})=\varnothing$. Let $U_{n}:= V_{n}\cap B_{< \frac{1}{2n}}(x_{n})$. Then,
+> 	- $\overline{U_{n}}\cap C_{n}=\varnothing$.
+> 	- $\overline{U_{n}}\subseteq U_{n-1}$
+> 	- for all $x,y\in U_{n}$, $d(x,y)\leq d(x,x_{n})+d(x_{n},y)< \frac{1}{n}$.
+> 	
+> 	Then, $(\overline{U_{n}})_{n}$ is a decreasing sequence of non-empty closed sets with $$\lim_{ n \to \infty }\text{diam}(\overline{U}_{n})=\lim_{ n \to \infty } \frac{1}{n}=0$$Therefore, $\bigcap_{n\geq 1}^{}\overline{U_{n}}\neq \varnothing$. Let  $x\in \bigcap_{n\geq 1}^{}\overline{U_{n}}$. Then, $x\notin C_{n}$ for all $n$ and $x\notin C:=\bigcup_{n\geq 1}^{}C_{n}$. However, $x\in\overline{U}_{1}\subseteq U_{0}$. Therefore, $x\in U_{0}\cap(X \backslash C)$. This shows that $X\backslash C$ is dense in $X$, i.e. $C$ has an empty interior. 
+> 2. Take $C_{n}:= X \backslash U_{n}$. Then, $C_{n}^\circ=X \backslash \overline{U_{n}}=\varnothing$ and: $$\overline{\bigcap_{n\geq 1}U_{n}}=\overline{\bigcap_{n\geq 1}X \backslash C_{n}}=\overline{X \backslash \bigcup_{n\geq 1}C_{n}}=X \backslash C^\circ =X$$
+> 3. Now, let $Y\subseteq X$ be any open set. Then, $U_{n}$ is also open in $X$ for all $n\geq 1$ and $U_{n}$ is also dense in $\overline{Y}$. We define $V:= X \backslash \overline{Y}$ and $(U_{n}\cup V)_{n}$ is a sequence of open, dense sets in $X$. Therefore, $V \cup \bigcap_{n\geq 1}^{}U_{n}$ is a dense set in $X$. 
+>    
+>    Now, for any non-empty open set $W$ in $Y$, $$W\cap \left[  V \cup \bigcap_{n\geq 1}^{}U_{n}\right]\neq \varnothing$$
+> 	As $W \cap V=\varnothing$, we get that $W\cap \bigcap_{n\geq 1}^{}U_{n}\neq \varnothing$, which proves that $\bigcap_{n\geq 1}^{}U_{n}$ is dense in $Y$.
 
 ---
 > [!lemma] Theorem 1 (Baire Category Theorem)
