@@ -122,7 +122,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Complete Metric Space.md",
+                "file": "Courses/Topology/Exercise Sheet 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Complete Metric Space.md",
+                "file": "Courses/Topology/Exercise Sheet 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Complete Metric Space.md"
+                "file": "Courses/Topology/Exercise Sheet 7.md"
               }
             }
           }
@@ -250,10 +251,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "36e87c04d2be24f2",
+  "active": "0ccbbbdb59743725",
   "lastOpenFiles": [
-    "Topology/Normal Space.md",
     "Topology/Complete Metric Space.md",
+    "Topology/Normal Space.md",
     "Topology/Compact Space.md",
     "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
