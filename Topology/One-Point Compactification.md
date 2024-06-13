@@ -1,7 +1,7 @@
 #Definition #Topology #FunctionalAnalysis 
 
 > [!definition]
-> Let $X$ be a [[topological space]]. The ***one-point compactification*** of $X$ is the topological space $\alpha X$ where:
+> Let $X$ be a [[topological space]]. The ***one-point/Alexandroff compactification*** of $X$ is the topological space $\alpha X$ where:
 > 1. $\alpha X:=X\cup \{ \infty \}$ and
 > 2. For any $U$ open in $X$, $U$ is open in $\alpha X$.
 > 3. For any $K$ closed and compact in $X$, $(X \backslash K)\cup \{ \infty \}$ is open in $\alpha X$.
@@ -33,4 +33,15 @@
 
 > [!proof]-
 > Let $y\in X$ and $U$ an open neighborhood of $y$ in $\tilde{X}$. Then, by definition, $\infty\in U$. Therefore, $y\in \overline{\{ \infty \}}$. As $y$ was arbitrary, this proves the statement.
+---
+###### Hausdorff Spaces
+> [!lemma] Proposition 1
+> Let $X$ be a Hausdorff space.
+> 1. if $X$ is locally compact, $\alpha X$ is compact Hausdorff.
+> 2. if $X$ is compact, $\alpha X$ is compact Hausdorff with an addition of a discrete point $\{ \infty \}$.
+
+> [!proof]-
+> Let $x\neq y\in \alpha X$. If $x$ is $\infty$ wlog, then $y\in X$ and there exists a compact neighborhood $K$ of $y$. Let $U\subseteq K$. Then, $V:=\{ \infty \}\cup(X \backslash K)$ is an open neighborhood of $x$ and $U\cap V=\varnothing$. 
+> 
+> If $x,y\in X$, then as $X$ is Hausdorff, there exists disjoint neighborhoods $U,V$ of $x,y$.
 ---

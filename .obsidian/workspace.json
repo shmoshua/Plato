@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 7.md",
+                "file": "Topology/One-Point Compactification.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Connected Space.md",
+                "file": "Topology/Locally Compact Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Complete Metric Space.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -51,18 +51,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "366d9cebfe9d8db1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Complete Metric Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9d16018b0c3c4844",
             "type": "leaf",
             "state": {
@@ -75,12 +63,24 @@
             }
           },
           {
+            "id": "366d9cebfe9d8db1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Locally Compact Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0ccbbbdb59743725",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 7.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Locally Connected Space.md",
+                "file": "Topology/Locally Compact Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Locally Connected Space.md",
+                "file": "Topology/Locally Compact Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Locally Connected Space.md"
+                "file": "Topology/Locally Compact Space.md"
               }
             }
           }
@@ -239,27 +239,27 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1f050f75a0e649b3",
+  "active": "366d9cebfe9d8db1",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 7.md",
     "Topology/Locally Connected Space.md",
+    "Topology/Locally Compact Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
+    "Courses/Topology/Exercise Sheet 7.md",
+    "Topology/Connected Space.md",
+    "Topology/One-Point Compactification.md",
     "Topology/Complete Metric Space.md",
     "Topology/Normal Space.md",
     "Topology/Compact Space.md",
-    "Topology/Connected Space.md",
     "Topology/Cantor Space.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 8.md",
     "Courses/Topology/Exercise Sheet 6.md",
     "Topology/Interior and Closure.md",
     "Topology/Locally Complete Metric Space.md",
-    "Topology/Locally Compact Space.md",
     "Topology/Filter.md",
     "Topology/Complete Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Uniform Structure.md",
-    "Topology/One-Point Compactification.md",
     "Topology/Ultrafilter.md",
     "Topology/Hausdorff Space.md",
     "Lie Group/Topological Group.md",

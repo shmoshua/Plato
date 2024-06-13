@@ -33,6 +33,8 @@
 > 1. $X$ is connected.
 > 2. $X$ is not locally connected.
 
+^62ae51
+
 > [!proof]-
 > We have:
 > 1. We define the following functions: $$\begin{array}{cccc} {f_{n}:}&{\left[ 0,2+\frac{1}{n} \right]}&\to&{\mathbb{R}^{2}}\\&{x} &\mapsto & {\begin{cases}\left( \frac{1}{n},x-1 \right)&x\in[0,2]\\\left( 2+\frac{1}{n}-x,1 \right)&\text{otherwise}\end{cases}} \end{array}{}$$and $f_{0}:[0,2]\to \mathbb{R}^{2},x\mapsto(0,x-1)$. Then, one can easily see that the functions are continuous and as the domains are all intervals, $\text{im }f_{n}$ for all $n\geq 0$ is connected. As $(0,1)\in \bigcap_{n\geq 0}^{}\text{im }f_{n}$, $X=\bigcup_{n\geq 0}^{}\text{im }f_{n }$ is connected.
@@ -41,4 +43,8 @@
 >    However, we also claim that the connected compotent of $x_{0}$ in $U_{\delta}$ is $\{ 0 \}\times(-\delta,\delta)$. Assume there exists a larger connected component $V$ of $x_{0}$ in $U_{\delta}$. Then, $y_{0}\in V$ s.t. $y_{0}\notin U_{\delta}\backslash(\{ 0 \}\times(-\delta,\delta))$. This means $y_{0}=\left( \frac{1}{n},y \right)\in \mathbb{R}^{2}$ where $0<\frac{1}{n}<\delta$. Let $f:V\to \{ 0,1 \}$ where $f((x,y))=0$ if $x= \frac{1}{n}$ and $f((x,y))=1$ if $x\neq \frac{1}{n}$. Then, $f^{-1}(\{ 0 \})=U_{\delta}\cap \left( \frac{1}{n+1} ,\frac{1}{n-1}\right)\times(-\delta,\delta)$ is open and $f^{-1}(\{ 1 \})=U_{\delta}\cap\left(  \mathbb{R}^{2} \backslash\left\{  \frac{1}{n}  \right\}\times[-\delta,\delta] \right)$ which is open. Therefore, $f$ is a non-constant continuous function. This is a contradiction to $V$ being connected.
 >    
 >    Finally, assume $X$ is locally connected. Then, for all $\delta>0$, $\{ 0 \}\times(-\delta,\delta)$ is open in $X$. Therefore, there exists $r>0$ s.t. $B_{<r}(0)\cap X\subseteq \{ 0 \}\times(-\delta,\delta)$. This is a contradiction as there exists $n\geq 1$ s.t. $\frac{1}{n}<r$ and $\left( \frac{1}{n},0 \right)\in B_{<r}(0)\cap X$.
-- Remark:
+
+^35d8ef
+
+- **Remark**: Conversely, any discrete space $X$ with $\left| X \right|\geq 2$ is locally connected but not connected.
+---

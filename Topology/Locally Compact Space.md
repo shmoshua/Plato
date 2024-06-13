@@ -24,3 +24,11 @@
 > [!proof]-
 > Let $x\in X$ and $U\subseteq X$ be an open neighborhood. Then, by [[Compact Space|Compact Hausdorff Lemma 2]], there exists a relatively compact set $x\in V$ s.t. $\overline{V}\subseteq U$. Therefore, $X$ is locally compact.
 ---
+##### Non-Examples
+> [!h] Non-Example 1 (L2 Space)
+> Let $X=L^2([0,1])$. Then,
+> 1. $B_{\leq\varepsilon}(f)$ is not compact for all $f\in X$.
+> 2. $X$ is not locally compact.
+
+> [!proof]+
+> Let $f_{n}\in L^2([0,1])$ where $f_{n}(x)=\exp(2\pi inx)$. Then, $$d(f_{n},f_{m})^{2}=\int_{0}^{1} \left| e^{2\pi i nx}-e^{2\pi im x} \right|^{2}  \, dx=\int_{0}^{1} \left| 1-e^{2\pi i(m-n) x} \right|^{2}  \, dx\leq $$

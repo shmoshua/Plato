@@ -103,3 +103,6 @@
 > [!proof]-
 > As $\det:\text{O}(4,\mathbb{R})\to \{ \pm 1 \}$ is a continuous map, $\pi_{0}(\text{O}(4,\mathbb{R}))$ has at least 2 elements. We can show that $\text{O}(4,\mathbb{R})\cap \text{SL}(4,\mathbb{R})$ are path-connected and therefore, $\pi_{0}(\text{O}(4,\mathbb{R}))\cong \mathbb{Z} / 2\mathbb{Z}$.
 ---
+![[Locally Connected Space#^62ae51]]
+![[Locally Connected Space#^35d8ef|p]]
+---
