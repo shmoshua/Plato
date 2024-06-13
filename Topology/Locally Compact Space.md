@@ -30,5 +30,8 @@
 > 1. $B_{\leq\varepsilon}(f)$ is not compact for all $f\in X$.
 > 2. $X$ is not locally compact.
 
-> [!proof]+
-> Assume $B_{\leq \varepsilon}(f)$ is compact. Let $f_{n}\in L^2([0,1])$ where $f_{n}(x)=\exp(2\pi i nx)$. As $f_{n}$ form the Hilbert basis, we have that $$\left\| f_{n}-f_{m} \right\| =2$$for all $n\neq m$. Therefore, $(f_{n})_{n}$ has no convergent subsequence  
+> [!proof]-
+> We have:
+> 1. Assume $B:=B_{\leq \varepsilon}(f)$ is compact. As $B$ is metric, it is then sequentially compact. Let $f_{n}\in L^2([0,1])$ where $f_{n}(x)=\exp(2\pi i nx)$. As $f_{n}$ form the Hilbert basis, we have that $$\left\| f_{n}-f_{m} \right\| =2$$for all $n\neq m$. Therefore, $(f+\varepsilon f_{n})_{n}$ has no convergent subsequence in $B$ and this is a contradiction.
+> 2. Because the closed balls form a local base.
+---

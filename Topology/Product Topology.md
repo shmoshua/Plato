@@ -3,9 +3,18 @@
 > [!definition]
 > For any family $\{ X_{i} \}_{i\in I}$ of [[Topological Space|topological spaces]], $X:=\prod_{i\in I}^{}X_{i}$ is endowed with a ***product topology***, which is the [[initial topology]] of the projections $\pi_{i}:X\to X_{i}$. 
 - **Remark**: By [[Initial Topology|Lemma 2]], for any topological space $Y$, a map $f:Y\to X$ is continuous if and only if $\pi_{i}\circ f:Y\to X_{i}$ is continuous for all $i\in I$.
+- **Remark**: The local base for $x\in X$ is given by $\{ y\in X:y_{i}\in U_{i},\forall i\in J \}$ for $J\subseteq I$ finite and $U_{i}\subseteq X_{i}$ an open neighborhood of $x_{i}$. 
 ---
 ##### Properties
-> [!lemma] Theorem 1
+> [!lemma] Lemma 1
+> For a topological space $Y$ and $f:Y\to X$, TFAE:
+> 1. $f$ is continuous.
+> 2. $p_{i}\circ f$ is continuous for all $i\in I$.
+
+> [!proof]-
+> [[Initial Topology|Lemma 2]]
+---
+> [!lemma] Theorem 2
 > Let $X:=\prod_{i\in I}^{}X_{i}$. 
 > 1. if $X_{i}$ is [[Hausdorff Space|Hausdorff]] for all $i\in I$, so is $X$.
 > 2. if $X_{i}$ is [[Connected Space|connected]] for all $i\in I$, so is $X$.
