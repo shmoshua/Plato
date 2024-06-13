@@ -2,19 +2,23 @@
 
 > [!definition]
 > A [[Hausdorff space]] $X$ is ***normal***, if one of the following equivalent conditions hold:
-> 1. if $A,B\subseteq X$ are disjoint closed, there exists a continuous function $f:X\to[0,1]$ s.t. $f|_{A}=0$ and $f|_{B}=1$.
-> 2. if $A\subseteq X$ is closed and $g:A\to[a,b]$ is continuous, there exists a continuous extension $f:X\to[a,b]$.
-> 3. if $A,B\subseteq X$ are disjoint closed, there exist disjoint open sets $U\supseteq A$ and $V\supseteq B$.
-> 4. if $A\subseteq U\subseteq X$ with $A$ closed and $U$ open, there exists $V\subseteq X$ open s.t. $A\subseteq V\subseteq \overline{V}\subseteq U$.
+> 1. If $A,B\subseteq X$ are disjoint closed, there exist disjoint open sets $U\supseteq A$ and $V\supseteq B$.
+> 2. if $A\subseteq U\subseteq X$ with $A$ closed and $U$ open, there exists $V\subseteq X$ open s.t. $A\subseteq V\subseteq \overline{V}\subseteq U$.
+> 3. if $A,B\subseteq X$ are disjoint closed, there exists a continuous function $f:X\to[0,1]$ s.t. $f|_{A}=0$ and $f|_{B}=1$.
+> 4. if $A\subseteq X$ is closed and $g:A\to[a,b]$ is continuous, there exists a continuous extension $f:X\to[a,b]$.
+> 5. 
 ---
 ##### Properties
-> [!lemma] Proposition 1
+> [!lemma] Theorem 1 (Urysohn, Tietze Extension Theorem)
 > The conditions above are indeed equivalent.
 
 > [!proof]+
 > We have: 
-> - (3<=>4): take $B:= X / U$. 
+> - (1=>2): **Urysohn's Lemma**: Let $A, B\subseteq X$ be two disjoint closed subsets. Further let: $$\Delta:=\{ k 2^{-n}:0<k<2^n, n\geq 1 \}$$We claim there exists a collection $\{ U_{r}:r\in \Delta \}$ of open sets in $X$ s.t. $A\subseteq U_{r}\subseteq U$ for all and let $\{  \}${Ur : r ∈ ∆} be the family of open sets provided by Lemma 3. We set U1 = X and define f(x) = inf n r ∈ ∆: ˜ x ∈ Ur o for x ∈ X, where ∆ = ∆ ˜ ∪ {1}. We clearly have 0 ≤ f(x) ≤ 1 for all x ∈ X. Since A ⊆ Ur ⊆ Bc for all r ∈ ∆, we moreover deduce f(x) = 0 for all x ∈ A and f(x) = 1 for all x ∈ B. It remains to show that f is continuous. To that purpose fix α ∈ R. We observe that f(x) < α if and only if there is an r ∈ ∆˜ with r < α and x ∈ Ur, which is in turn equivalent to x ∈ S r<α Ur. We conclude that f −1 ((−∞, α)) = [ r<α Ur is open. Analogously, f(x) > α if and only if there is an r ∈ ∆ with r > α and x /∈ Ur. Here we used that Uσ ⊆ Uρ for all (σ, ρ) ∈ ∆ × ∆ with σ < ρ. This fact also allows us to deduce that the last result is equivalent to the existence of a number s ∈ ∆ with s > α and x /∈ Us. We conclude that f −1 ((α, ∞)) = [ s>α U c s , implying that f −1 ((α, ∞)) is open. Since the open half-lines generate the topology on R, we infer that f is continuous.
+> - (2=>3): Let $A,B\subseteq X$ be disjoint closed. Let consider $\chi_{A}:A\cup B\to[0,1]$. Then, $\chi|_{A}$ is continuous as the inverse image
 > - (1=>3): For $A,B\subseteq X$ disjoint and closed, choose $U:=f^{-1}([0,1/3))$ and $V:=f^{-1}(( 2/3,1])$.
+> - (3=>4): take $B:= X \backslash U$. Then, there exists $V\supseteq A$ open and $\overline{V}\subseteq U$.
+> - (4=>3): take $U:= X \backslash B$.
 > - (4=>1): We first claim that there exists open sets $\{ U_{t} \}_{t\in[0,1]}$ s.t. 
 > 	1. $A\subseteq U_{0}$
 > 	2. for $s<t$, $\overline{U_{s}}\subseteq U_{t}$

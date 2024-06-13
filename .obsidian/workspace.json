@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -252,19 +252,19 @@
   },
   "active": "9d16018b0c3c4844",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Continuous Function.md",
     "Topology/Normal Space.md",
+    "Topology/Quotient Topology.md",
     "Algebra/Quotient Set.md",
     "Topology/Product Topology.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/Continuous Function.md",
     "Topology/Dense Subset.md",
     "Topology/Interior and Closure.md",
     "Topology/Compact Space.md",
     "Topology/Ultrafilter.md",
     "Topology/Base of Topology.md",
     "Topology/Filter.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Initial Topology.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 8.md",
