@@ -55,8 +55,14 @@
 > 2. Assume that there exists $y\neq z\in X$ s.t. $f(y)=y$ and $f(z)=z$. Then, $d(y,z)\neq0$ and $$d(y,z)=d(f(y),f(z))\leq\alpha d(y,z)<d(y,z)$$which is a contradiction.
 ---
 ##### Examples
+> [!h] Example 1 (Product Metric Space)
+> Let $(X_{n},d_{n})_{n\geq 1}$ be a sequence of complete metric spaces. Denote $X:=\prod_{n\geq 1}^{}X_{n}$. Then,
+> 1. $X$ is a complete metric space.
+
+> [!proof]+
+> Let $(x^{(k)})_{k}\subseteq X$ be a Cauchy sequence in $X$. Then, for any $\varepsilon>0$, there exists $k\in \mathbb{N}$ s.t. for any $i,j\geq k$, $$d(x^{(i)},x^{(j)})=\sum_{n\geq 1}^{} \frac{1}{2^n} \frac{d_{n}(x^{(i)}_{n},x^{(j)}_{n})}{1+d_{n}(x^{(i)}_{n},x^{(j)}_{n})}<\varepsilon$$Therefore, for any $n\geq 1$, $\frac{d_{n}(x^{(i)}_{n},x^{(j)}_{n})}{1+d_{n}(x^{(i)}_{n},x^{(j)}_{n})}< \varepsilon 2^n$. Hence, $(x^{(k)}_{n})_{k}$ is a Cauchy sequence for all $n\geq 1$. 
 ---
-###### Non-Examples
+##### Non-Examples
 > [!h] Non-Example 1 (Completeness is a property of the metric and not of the topology)
 > Let $X=[0,+\infty)$. Define a function $\delta:X\times X\to [0,+\infty),(x,y)\mapsto \left| e^{-x}-e^{-y} \right|$
 > 1. $\delta$ is a distance on $X$ with the topology defined by $\delta$ on $X$ is the euclidean subspace topology.

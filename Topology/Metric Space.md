@@ -70,7 +70,11 @@
 > 1. for $x=(x_{n})_{n}$ and $y=(y_{n})_{n}$ in $X$, the series $$d(x,y):=\sum_{n\geq 1}^{} \frac{1}{2^n}\frac{d_{n}(x_{n},y_{n})}{1+d_{n}(x_{n},y_{n})}$$ is absolutely convergent and the function $d:X\times X\to[0,+\infty)$ defines is a distance on $X$. 
 > 2. the topology defined by $d$ is the product topology on $X$. 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. We know from Example 2 that $$\delta_{n}(x,y):=\frac{d_{n}(x_{n},y_{n})}{1+d_{n}(x_{n},y_{n})}$$is a distance s.t. $\delta\leq 1$. Therefore, $$0\leq d(x,y)\leq \sum_{n\geq 1}^{} \frac{1}{2^n}=1$$Further, the non-degeneracy and symmetry are clear. For triangle inequality: $$d(x,z)=\sum_{n\geq 1}^{} \frac{1}{2^n}\delta_{n}(x,z)\leq\sum_{n\geq 1}^{} \frac{1}{2^n}(\delta_{n}(x,y)+\delta_{n}(y,z))=d(x,y)+d(y,z)$$Therefore, $d$ defines a distance.
-> 2. Let $J\subseteq \mathbb{N}$ and $U_{i}\subseteq X_{i}$ for $i\in J$. Then, there exists $x_{i}\in X_{i}$ and $\varepsilon_{i}>0$ s.t. $B_{<\varepsilon_{i}}(x_{i})\subseteq U_{i}$ in $X_{i}$ for all $i\in J$. Let $N:=\max J$. 
+> 2. Let $U$ be open in the product topology and $x\in U$. Then, there exists finite $J\subseteq \mathbb{N}$ s.t. for all $n\in J$, $$\bigcap_{n\in J}^{}p_{n}^{-1}(B_{<\varepsilon_{n}}(x_{n}))\subseteq U$$Set $M:=\min_{n\in S} \frac{1}{2^n} \frac{\varepsilon_{n}}{1+\varepsilon_{n}}$. Then, if $y\in B_{<M}(x)$, $y_{n}\in B_{<\varepsilon_{n}}(x_{n})$ for all $n\in J$ and $y\in U$.
+>    
+>    For the converse, consider an open set $U$ by the distance topology and $x\in U$. Then, there exists $B_{<\varepsilon}(x)\subseteq U$. Let $N:=1+\lfloor-\log_{2}\varepsilon\rfloor\geq 1$. Then, it holds by setting $\delta:=\varepsilon-2^{-N}$ and $\alpha:=\frac{\delta}{(1-\delta)N}$. Lastly, $$\prod_{n=1}^{N}B_{<\alpha}(x_{i})\times \prod_{n>N}^{}X_{n}\subseteq B_{<\varepsilon}(x)\subseteq U$$
+---
+

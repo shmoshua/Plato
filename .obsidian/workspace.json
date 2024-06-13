@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/One-Point Compactification.md",
+                "file": "Topology/Metric Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Metric Space.md",
+                "file": "Topology/Complete Metric Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Metric Space.md",
+                "file": "Topology/Complete Metric Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Metric Space.md",
+                "file": "Topology/Complete Metric Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Metric Space.md",
+                "file": "Topology/Complete Metric Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Metric Space.md"
+                "file": "Topology/Complete Metric Space.md"
               }
             }
           }
@@ -241,8 +241,10 @@
   },
   "active": "1f050f75a0e649b3",
   "lastOpenFiles": [
-    "Topology/Normal Space.md",
     "Topology/Metric Space.md",
+    "Topology/One-Point Compactification.md",
+    "Topology/Complete Metric Space.md",
+    "Topology/Normal Space.md",
     "Topology/Compact Space.md",
     "Courses/Topology/Exercise Sheet 8.md",
     "Topology/Compact-Open Topology.md",
@@ -264,8 +266,6 @@
     "Topology/Locally Connected Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Topology/Connected Space.md",
-    "Topology/One-Point Compactification.md",
-    "Topology/Complete Metric Space.md",
     "Topology/Cantor Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
