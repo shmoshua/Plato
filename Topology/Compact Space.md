@@ -55,10 +55,14 @@
 > [!lemma] Theorem 4 (Tychonoff)
 > For any arbitrary family of compact spaces $\{ X_{i} \}_{i\in I}$, $X:=\prod_{i\in I}^{}X_{i}$ is compact with respect to the [[product topology]].
 
+^be969b
+
 > [!proof]-
-> Let $\mathcal{F}$ be an ultrafilter on $X$. As $(\pi_{i})_{*}(\mathcal{F})$ is an ultrafilter on $X_{i}$ by [[Ultrafilter#^8bbcf9|Lemma 5]] and $X_{i}$ is compact, by [[Ultrafilter#^041e9b|Proposition 4]], $(\pi_{i})_{*}(\mathcal{F})$ converges for all $i\in I$. By [[Filter#^0214a6|Lemma 5]], $\mathcal{F}$ converges. 
+> Let $\mathcal{F}$ be an ultrafilter on $X$. As $(p_{i})_{*}(\mathcal{F})$ is an ultrafilter on $X_{i}$ by [[Ultrafilter|Lemma 5]] and $X_{i}$ is compact, by [[Ultrafilter|Proposition 2]], $(p_{i})_{*}(\mathcal{F})$ converges for all $i\in I$. By [[Filter|Lemma 5]], $\mathcal{F}$ converges. 
 > 
-> Therefore, using Proposition 4 again, this means that $X$ is compact.
+> Therefore, using Proposition 2 again, this means that $X$ is compact.
+
+^478057
 
 - **Remark**: This is equivalent to [[Axiom of Choice]].
 ---

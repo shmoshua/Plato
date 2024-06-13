@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Topology/Compact Space.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f0c7cac19c614bc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Ultrafilter.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Initial Topology.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Base of Topology.md",
+                "file": "Topology/Ultrafilter.md",
                 "mode": "preview",
                 "source": false
               }
@@ -238,34 +250,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1f050f75a0e649b3",
+  "active": "9d16018b0c3c4844",
   "lastOpenFiles": [
-    "Topology/Initial Topology.md",
+    "Topology/Continuous Function.md",
+    "Topology/Dense Subset.md",
+    "Topology/Interior and Closure.md",
+    "Topology/Compact Space.md",
     "Topology/Product Topology.md",
+    "Topology/Ultrafilter.md",
     "Topology/Base of Topology.md",
+    "Topology/Filter.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Initial Topology.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 8.md",
     "Topology/Locally Compact Space.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Filter.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Locally Connected Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Topology/Connected Space.md",
     "Topology/One-Point Compactification.md",
     "Topology/Complete Metric Space.md",
     "Topology/Normal Space.md",
-    "Topology/Compact Space.md",
     "Topology/Cantor Space.md",
     "Courses/Topology/Exercise Sheet 6.md",
-    "Topology/Interior and Closure.md",
     "Topology/Locally Complete Metric Space.md",
     "Topology/Complete Space.md",
     "Topology/Uniform Structure.md",
-    "Topology/Ultrafilter.md",
     "Topology/Hausdorff Space.md",
-    "Lie Group/Topological Group.md",
-    "Differential Geometry/Topological Manifold.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

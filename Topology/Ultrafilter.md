@@ -75,10 +75,10 @@
 >    Conversely, assume $\mathcal{F}$ is an ultrafilter and we define the set function: $$\omega(A)=1 \iff A\in \mathcal{F}$$Then, $\omega(\varnothing)=0$ and therefore, $X\in \mathcal{F}$ and $\omega(X)=1$. Similarly, for $A_{1},A_{2}\subseteq X$ with $A_{1}\cap A_{2}=\varnothing$, it's not possible that $A_{1}\in \mathcal{F}\land A_{2}\in \mathcal{F}$ from the finite intersection property. Therefore, if $A_{1}\in \mathcal{F}$ wlog, then $A_{1}\cup A_{2}\in \mathcal{F}$ and if $A_{1},A_{2}\notin \mathcal{F}$, Then, $X \backslash A_{1} \cap X \backslash A_{2}=X \backslash (A_{1}\cup A_{2})\in \mathcal{F}$ and $\omega(A_{1}\cup A_{2})=0$.
 ---
  > [!lemma] Lemma 5
- > Let $X:=\prod_{i\in I}^{}X_{i}$. For any ultrafilter $\mathcal{F}$ on $X$, the [[Filter|direct image]] $(\pi_{i})_{*}(\mathcal{F})$ is an ultrafilter.
+ > Let $X:=\prod_{i\in I}^{}X_{i}$. For any ultrafilter $\mathcal{F}$ on $X$, the [[Filter|direct image]] $(p_{i})_{*}(\mathcal{F})$ is an ultrafilter.
 
 ^8bbcf9
 
 > [!proof]-
-> Let $A\subseteq X_{i}$ and consider $B:=\pi_{i}^{-1}(A)$. As $\mathcal{F}$ is an ultrafilter, we have that either $B\in \mathcal{F}$, in which case $A\in (\pi_{i})_{*}(\mathcal{F})$ or $X \backslash B\in \mathcal{F}$, in which case $X_{i} \backslash A\in (\pi_{i})_{*}(\mathcal{F})$.
+> Let $A\subseteq X_{i}$ and consider $B:=p_{i}^{-1}(A)$ . As $\mathcal{F}$ is an ultrafilter, we have that either $B\in \mathcal{F}$, in which case $A\in (p_{i})_{*}(\mathcal{F})$ or $X \backslash B\in \mathcal{F}$, in which case $X_{i} \backslash A\in (p_{i})_{*}(\mathcal{F})$.
 ---

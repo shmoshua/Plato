@@ -55,20 +55,23 @@
 ![[Ultrafilter#^e1a97b|p]]
 ---
 > [!lemma] Lemma 4
-> Let $f:X\to Y$ be a [[Continuous Function|continuous function]] and a filter $\mathcal{F}$ on $X$ converges to $x_{0}$. Then, $f_{*}(\mathcal{F})$ converges to $f(x)$.
+> Let $f:X\to Y$ be a [[Continuous Function|continuous function]] and a convergent filter $\mathcal{F}\to x$. Then,
+> 1.  $f_{*}(\mathcal{F})$ converges to $f(x)$.
 
 > [!proof]-
-> Let $U$ be an open neighborhood of $f(x_{0})$. Then, $f^{-1}(U)$ is an open neighborhood of $x$ in $X$ and there exists $V\in \mathcal{F}$ s.t. $V\subseteq f^{-1}(U)$. Therefore, $U\in f_{*}(\mathcal{F})$.
+> Let $U$ be an open neighborhood of $f(x)$. Then, $f^{-1}(U)$ is an open neighborhood of $x$ in $X$ and there exists $V\in \mathcal{F}$ s.t. $V\subseteq f^{-1}(U)$. Therefore, $U\in f_{*}(\mathcal{F})$.
 ---
 > [!lemma] Lemma 5
-> Let $\mathcal{F}$ be a filter on $\prod_{i\in I}^{}X_{i}$. Then, $\mathcal{F}$ converges to $x=(x_{i})_{i}$ if and only if $(\pi_{i})_{*}(\mathcal{F})$ converges to $x_{i}$ for all $i\in I$.
+> Let $\mathcal{F}$ be a filter on $\prod_{i\in I}^{}X_{i}$. Then, TFAE:
+> 1. $\mathcal{F}$ converges to $x=(x_{i})_{i}$ 
+> 2. $(p_{i})_{*}(\mathcal{F})$ converges to $x_{i}$ for all $i\in I$.
 
 ^0214a6
 
 > [!proof]-
-> As $\pi_{i}$ is continuous, by Lemma 4, $(\pi_{i})_{*}(\mathcal{F})$ converges to $\pi_{i}(x)=x_{i}$.
+> As $p_{i}$ is continuous, by Lemma 4, $(p_{i})_{*}(\mathcal{F})$ converges to $p_{i}(x)=x_{i}$.
 > 
-> Conversely, assume that $(\pi_{i})_{*}(\mathcal{F})$ converges to $x_{i}$ for all $i\in I$. Let $U$ be a neighborhood of $x$. Then, there exists a finite $J\subseteq I$ and open $U_{j}\subseteq X_{j}$ neighborhood of $x_{j}$ for $j\in J$ s.t. $$\bigcap_{j\in J}^{}\pi_{j}^{-1}(U_{j})\subseteq U$$As $(\pi_{j})_{*}(\mathcal{F})\to x_{i}$, we have that $\pi ^{-1}_{j}(U_{j})\in \mathcal{F}$ and thereby $\bigcap_{j\in J}^{}\pi_{j}^{-1}(U_{j})\in \mathcal{F}$.
+> Conversely, assume that $(p_{i})_{*}(\mathcal{F})$ converges to $x_{i}$ for all $i\in I$. Let $U$ be a neighborhood of $x$. Then, there exists a finite $J\subseteq I$ and open $U_{j}\subseteq X_{j}$ neighborhood of $x_{j}$ for $j\in J$ s.t. $$\bigcap_{j\in J}^{}p_{j}^{-1}(U_{j})\subseteq U$$As $(p_{j})_{*}(\mathcal{F})\to x_{i}$, we have that $p ^{-1}_{j}(U_{j})\in \mathcal{F}$ and thereby $\bigcap_{j\in J}^{}p_{j}^{-1}(U_{j})\in \mathcal{F}$.
 ---
 ##### Examples
 > [!h] Example 1 (Principal Filter)
