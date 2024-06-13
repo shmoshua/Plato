@@ -1,24 +1,22 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $X,Y$ be [[Topological Space|topological spaces]]. The ***compact-open topology*** on $C(X,Y)$ is a topology whose basis is composed of $$\mathcal{U}(K_{1}\dots,K_{n};U_{1},\dots,U_{n}):=\{ f\in C(X,Y):f(K_{i})\subseteq U_{i},\quad \forall i\in [n] \}$$where $K_{i}\subseteq X$ compact and $U_{i}\subseteq Y$ open.
+> Let $X,Y$ be [[Topological Space|topological spaces]]. The ***compact-open topology*** on $C(X,Y)$ is a topology whose [[Base of Topology|base]] is composed of $$\mathcal{U}(K_{1}\dots,K_{n};U_{1},\dots,U_{n}):=\{ f\in C(X,Y):f(K_{i})\subseteq U_{i},\quad \forall i\in [n] \}$$where $K_{i}\subseteq X$ [[Compact Space|compact]] and $U_{i}\subseteq Y$ open.
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> Let $X$ be a topological space and $Y$ a metric space. On $C(X,Y)$, the compact open topology coincides with the [[topology of compact convergence]].
+> Let $X$ be a topological space and $Y$ a metric space. On $C(X,Y)$, the compact-open topology coincides with the [[topology of compact convergence]].
 
 ^02c41c
 
 > [!proof]-
-> For a subset $A\subseteq Y$ and $\varepsilon>0$, let $U(A,\varepsilon)$ be the $\varepsilon$-neighborhood of $A$. If $A$ is compact and $V$ is an open set, there exists $\varepsilon>0$ s.t. $U(A,\varepsilon)\subseteq V$. 
-> 
-> Let $f\in\mathcal{U}(K;U)$. As $f$ is continuous, $f(K)$ is compact and we have $\varepsilon>0$ s.t. $f(K)\subseteq U$. Therefore, $$\mathcal{U}(f,K,\varepsilon)=\{ g\in C(X,Y):d(f(x),g(x))<\varepsilon,\forall x\in K \}\subseteq \mathcal{U}(K;U)$$Conversely, let $f\in C(X,Y)$ and $\mathcal{U}(f,K,\varepsilon)$. For each $x\in X$, there exists a neighborhood $V_{x}\ni x$ s.t. $f(V_{x})\subseteq B_{< \varepsilon / 4}(f(x))$. Then, $f(\overline{V_{x}})\subseteq B_{< \varepsilon / 3}(f(x))$ and let $U_{x}:=B_{<\varepsilon}(f(x))$. Cover $K$ with finitely many $V_{x}$. Then, we have $K_{i}:=\overline{V_{x_{i}}}\cap K$ and: $$\mathcal{U}(K_{1},\dots,K_{n};U_{1},\dots,U_{n})\subseteq \mathcal{U}(f,K,\varepsilon)$$
+> Let $f\in\mathcal{U}(K;U)$. As $f$ is continuous, $f(K)$ is compact and contained in $U$. Therefore, we have $\varepsilon>0$ s.t. $\{ y\in Y:d(y,f(K))<\varepsilon \}\subseteq U$. Therefore, $$\mathcal{U}(f,K,\varepsilon)=\{ g\in C(X,Y):d(f(x),g(x))<\varepsilon,\forall x\in K \}\subseteq \mathcal{U}(K;U)$$Conversely, let $f\in C(X,Y)$ and $\mathcal{U}(f,K,\varepsilon)$. For each $x\in X$, there exists a neighborhood $V_{x}\ni x$ s.t. $f(V_{x})\subseteq B_{< \varepsilon / 4}(f(x))$. Then, $f(\overline{V_{x}})\subseteq B_{< \varepsilon / 3}(f(x))$ and let $U_{x}:=B_{<\varepsilon}(f(x))$. Cover $K$ with finitely many $V_{x}$. Then, we have $K_{i}:=\overline{V_{x_{i}}}\cap K$ and: $$\mathcal{U}(K_{1},\dots,K_{n};U_{1},\dots,U_{n})\subseteq \mathcal{U}(f,K,\varepsilon)$$
 
 ^4ac295
 
 ---
 > [!lemma] Theorem 2 (Arzela-Ascoli)
-> Let $X$ be a [[topological space]] and $(Y,d)$ a [[metric space]]. A subset $F\subseteq C(X,Y)$ is ***relatively compact***, i.e. $\overline{F}$ is compact, w.r.t. the compact-open topology if
+> Let $X$ be a [[topological space]] and $(Y,d)$ a [[metric space]]. A subset $F\subseteq C(X,Y)$ is [[Compact Space|relatively compact]] w.r.t. the compact-open topology if
 > 1. for all $x\in X$, $\overline{\{ f(x):f\in F \}}$ is compact.
 > 2. $F$ is [[Equicontinuity|equicontinuous]], i.e. for every $x\in X$ and $\varepsilon>0$, there exists a neighborhood $U$ of $x$ s.t. $$d(f(x),f(y))<\varepsilon,\quad \forall f\in F,y\in U$$
 > 

@@ -1,7 +1,7 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $X$ be a [[topological space]] and $Y$ a [[metric space]]. The ***topology of compact convergence*** on $Y^X$ has the following basis: $$\mathcal{U}(f,K,\varepsilon):=\{ g\in Y^X:d(f(x),g(x))<\varepsilon,\quad \forall x\in K \}$$
+> Let $X$ be a [[topological space]] and $Y$ a [[metric space]]. The ***topology of compact convergence*** on $Y^X$ has the following [[Base of Topology|base]]: $$\mathcal{U}(f,K,\varepsilon):=\{ g\in Y^X:d(f(x),g(x))<\varepsilon,\quad \forall x\in K \}$$
 > where $f\in Y^X$, $K\subseteq X$ compact and $\varepsilon>0$.
 ---
 ##### Properties
