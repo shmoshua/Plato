@@ -65,3 +65,12 @@
    If $x=0$, then, $B^\delta_{r}(x)=B^d_{r}(x)\subseteq U$. Otherwise, let $\varepsilon:=\min\{ r,d(x,0)\}>0$. Then, $$B_{<\varepsilon}^\delta(x)=[0:x]\cap B_{<\varepsilon}^d(x)\subseteq B_{<r}^d(x)\subseteq U$$
 > 4. Consider $B^\delta_{1}((2,0))$, which is equal to a line segment between $(1,0)$ and $(3,0)$. This is clearly not open in the Euclidean space.
 ---
+> [!h] Example 4 (Product Metric Space)
+> Let $(X_{n},d_{n})_{n\geq 1}$ be a sequence of metric spaces. Denote $X:=\prod_{n\geq 1}^{}X_{n}$. 
+> 1. for $x=(x_{n})_{n}$ and $y=(y_{n})_{n}$ in $X$, the series $$d(x,y):=\sum_{n\geq 1}^{} \frac{1}{2^n}\frac{d_{n}(x_{n},y_{n})}{1+d_{n}(x_{n},y_{n})}$$ is absolutely convergent and the function $d:X\times X\to[0,+\infty)$ defines is a distance on $X$. 
+> 2. the topology defined by $d$ is the product topology on $X$. 
+
+> [!proof]+
+> We have:
+> 1. We know from Example 2 that $$\delta_{n}(x,y):=\frac{d_{n}(x_{n},y_{n})}{1+d_{n}(x_{n},y_{n})}$$is a distance s.t. $\delta\leq 1$. Therefore, $$0\leq d(x,y)\leq \sum_{n\geq 1}^{} \frac{1}{2^n}=1$$Further, the non-degeneracy and symmetry are clear. For triangle inequality: $$d(x,z)=\sum_{n\geq 1}^{} \frac{1}{2^n}\delta_{n}(x,z)\leq\sum_{n\geq 1}^{} \frac{1}{2^n}(\delta_{n}(x,y)+\delta_{n}(y,z))=d(x,y)+d(y,z)$$Therefore, $d$ defines a distance.
+> 2. Let $J\subseteq \mathbb{N}$ and $U_{i}\subseteq X_{i}$ for $i\in J$. Then, there exists $x_{i}\in X_{i}$ and $\varepsilon_{i}>0$ s.t. $B_{<\varepsilon_{i}}(x_{i})\subseteq U_{i}$ in $X_{i}$ for all $i\in J$. Let $N:=\max J$. 
