@@ -5,16 +5,39 @@
 > 1. If $A,B\subseteq X$ are disjoint closed, there exist disjoint open sets $U\supseteq A$ and $V\supseteq B$.
 > 2. if $A\subseteq U\subseteq X$ with $A$ closed and $U$ open, there exists $V\subseteq X$ open s.t. $A\subseteq V\subseteq \overline{V}\subseteq U$.
 > 3. if $A,B\subseteq X$ are disjoint closed, there exists a continuous function $f:X\to[0,1]$ s.t. $f|_{A}=0$ and $f|_{B}=1$.
-> 4. if $A\subseteq X$ is closed and $g:A\to[a,b]$ is continuous, there exists a continuous extension $f:X\to[a,b]$.
-> 5. 
+> 4. if $A\subseteq X$ is closed and $f:A\to[a,b]$ is continuous, there exists a continuous extension $\tilde{f}:X\to[a,b]$.
+
 ---
 ##### Properties
-> [!lemma] Theorem 1 (Urysohn, Tietze Extension Theorem)
+> [!lemma] Theorem 1 (Urysohn's Lemma, Tietze Extension Theorem)
 > The conditions above are indeed equivalent.
 
 > [!proof]+
 > We have: 
-> - (1=>2): **Urysohn's Lemma**: Let $A, B\subseteq X$ be two disjoint closed subsets. Further let: $$\Delta:=\{ k 2^{-n}:0<k<2^n, n\geq 1 \}$$We claim there exists a collection $\{ U_{r}:r\in \Delta \}$ of open sets in $X$ s.t. $A\subseteq U_{r}\subseteq U$ for all and let $\{  \}${Ur : r ∈ ∆} be the family of open sets provided by Lemma 3. We set U1 = X and define f(x) = inf n r ∈ ∆: ˜ x ∈ Ur o for x ∈ X, where ∆ = ∆ ˜ ∪ {1}. We clearly have 0 ≤ f(x) ≤ 1 for all x ∈ X. Since A ⊆ Ur ⊆ Bc for all r ∈ ∆, we moreover deduce f(x) = 0 for all x ∈ A and f(x) = 1 for all x ∈ B. It remains to show that f is continuous. To that purpose fix α ∈ R. We observe that f(x) < α if and only if there is an r ∈ ∆˜ with r < α and x ∈ Ur, which is in turn equivalent to x ∈ S r<α Ur. We conclude that f −1 ((−∞, α)) = [ r<α Ur is open. Analogously, f(x) > α if and only if there is an r ∈ ∆ with r > α and x /∈ Ur. Here we used that Uσ ⊆ Uρ for all (σ, ρ) ∈ ∆ × ∆ with σ < ρ. This fact also allows us to deduce that the last result is equivalent to the existence of a number s ∈ ∆ with s > α and x /∈ Us. We conclude that f −1 ((α, ∞)) = [ s>α U c s , implying that f −1 ((α, ∞)) is open. Since the open half-lines generate the topology on R, we infer that f is continuous.
+> - (1=>2): take $B:= X \backslash U$. Then, there exists $V\supseteq A$ open and $\overline{V}\subseteq U$.
+> - (2=>3): **Urysohn's Lemma**: Let $A, B\subseteq X$ be two disjoint closed subsets. Let $U:=X \backslash B$.  Further let: $$\Delta:=\{ k 2^{-n}:0<k<2^n, n\geq 1 \}$$We claim there exists a collection $\{ U_{r}:r\in \Delta \}$ of open sets in $X$ s.t. 
+> 	1. $A\subseteq U_{r}\subseteq U$ for all $U_{r}\in \Delta$ and 
+> 	2. $\overline{U_{r}}\subseteq U_{s}$ for all $r<s$.
+> 	
+> 	From 1, we have $U_{\frac{1}{2}}\subseteq X$ open with $A\subseteq U_{ \frac{1}{2}}\subseteq \overline{U}_{\frac{1}{2}}\subseteq U$. We can inductively construct $U_{r}$ where $r=k 2^{-n}$ over $n$.
+> 	
+> 	Now set $U_{1}:=X$ and define $f(x):=\inf\{ r\in\Delta \cup \{ 1 \}: x\in U_{r} \}$f for $x\in X$}. We clearly have $0\leq f(x)\leq 1$ for all $x\in X$. 
+> 	
+> 	Since $A\subseteq U_{r}\subseteq U$ for all $r\in \Delta$, we moreover deduce $f(x)=0$ for all $x\in A$ and $f(x)=1$ for all $x\in B$. It remains to show that $f$ is continuous. 
+> 	
+> 	To that purpose fix $\alpha\in \mathbb{R}$. We observe that $f(x)<\alpha$ if and only if there is an $r\in \Delta \cup \{ 1 \}$ with $r<\alpha$ and $x\in U_{r}$, which is in turn equivalent to $x\in \bigcup_{r<\alpha}^{}U_{r}$. We conclude that $$f^{-1}((-\infty,\alpha))=\bigcup_{r<\alpha }^{}U_{r}$$is open. 
+> 	
+> 	Analogously, $f(x)>\alpha$ if and only if there is an $r\in \Delta$ with $r>\alpha$ and $x\notin U_{r}$. Here we used that $\overline{U_{\sigma}}\subseteq U_{\rho}$ for all $\sigma<\rho$. This fact also allows us to deduce that the last result is equivalent to the existence of a number $s\in \Delta$ with $s>\alpha$ and $x\notin U_{s}$. We conclude that $$f^{-1}((\alpha,\infty))=\bigcup_{s>\alpha}^{}\overline{U_{s}}^c$$ which is open again.  Since the open half-lines generate the topology on $\mathbb{R}$, we infer that $f$ is continuous.
+> - (3=>4): **Tietze's Extension Theorem**:
+> 	  By replacing $f$ with $\frac{f-a}{b-a}$, we may assume that $[a,b]=[0,1]$. We inductively construct a sequence $(g_{n})_{n}$ of continuous functions on $X$ such that 
+> 	  1. $0\leq g_{n}\leq \frac{2^{n-1}}{3^n}$ on $X$ and 
+> 	  2. $0\leq f-\sum_{j=1}^{n}g_{j}\leq \left( \frac{2}{3} \right)^n$ on $A$ for all $n\in \mathbb{N}$. 
+> 	  
+> 	  Set $B:=f^{-1}\left( \left[ 0, \frac{1}{3} \right] \right)$ and $C:=f^{-1}\left( \left[  \frac{2}{3},1 \right] \right)$. Since $f$ is continuous on $A$, we have $B,C$ are closed in $A$. Hence, $B,C$ are closed in $X$ as well as $A$ is closed. Therefore, by Urysohn’s Lemma, we have a continuous function $g_{1}:X\to\left[ 0, \frac{1}{3} \right]$ with $g_{1}|_{B}=0$ and $g_{1}|_{C}= \frac{1}{3}$. In particular, $0\leq f-g_{1}\leq \frac{2}{3}$ on $A$. 
+> 	  
+> 	  Now assume that we constructed continuous functions $g_{1},\dots,g_{N}$ on $X$ with the above conditions. The function $h_{N}:=f -\sum_{j=1}^{N}g_{j}$ is continuous on $A$ so that the sets $B_{N}:=h_{N}^{-1}([0,2^N / 3^{N+1}])$ and $C_{N}:=h_{N}^{-1}([(2 /3)^{N+1},1])$ are closed in $X$ by the same reasoning as above. We again apply Urysohn’s Lemma to get a continuous function $g_{N+1}:X \to \left[ 0, \frac{2^N}{3^{N+1}} \right]$ with $g_{N+1}|_{B_{N}}=0$ and $g_{N+1}|_{C_{N}}=\frac{2^N}{3^{N+1}}$. 
+> 	  
+> 	  It follows that $0\leq h_{N}-g_{N+1}\leq\left( \frac{2}{3} \right)^{N+1}$ on $A$. Since kgnk∞ ≤ 2 n−1/3 n for all n ∈ N, the series P∞ n=1 gn converges uniformly to a continuous function F on X. Moreover, we infer 0 ≤ f − F ≤  2 3 n on A for all n ∈ N, implying f = F on A
 > - (2=>3): Let $A,B\subseteq X$ be disjoint closed. Let consider $\chi_{A}:A\cup B\to[0,1]$. Then, $\chi|_{A}$ is continuous as the inverse image
 > - (1=>3): For $A,B\subseteq X$ disjoint and closed, choose $U:=f^{-1}([0,1/3))$ and $V:=f^{-1}(( 2/3,1])$.
 > - (3=>4): take $B:= X \backslash U$. Then, there exists $V\supseteq A$ open and $\overline{V}\subseteq U$.
