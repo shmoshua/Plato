@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Product Topology.md",
+                "file": "Topology/Normal Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Product Topology.md",
+                "file": "Topology/Normal Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Product Topology.md",
+                "file": "Topology/Normal Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Product Topology.md",
+                "file": "Topology/Normal Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Product Topology.md"
+                "file": "Topology/Normal Space.md"
               }
             }
           }
@@ -252,17 +252,20 @@
   },
   "active": "9d16018b0c3c4844",
   "lastOpenFiles": [
+    "Topology/Quotient Topology.md",
+    "Topology/Normal Space.md",
+    "Algebra/Quotient Set.md",
+    "Topology/Product Topology.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Continuous Function.md",
     "Topology/Dense Subset.md",
     "Topology/Interior and Closure.md",
     "Topology/Compact Space.md",
-    "Topology/Product Topology.md",
     "Topology/Ultrafilter.md",
     "Topology/Base of Topology.md",
     "Topology/Filter.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Initial Topology.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 8.md",
     "Topology/Locally Compact Space.md",
@@ -271,13 +274,10 @@
     "Topology/Connected Space.md",
     "Topology/One-Point Compactification.md",
     "Topology/Complete Metric Space.md",
-    "Topology/Normal Space.md",
     "Topology/Cantor Space.md",
     "Courses/Topology/Exercise Sheet 6.md",
     "Topology/Locally Complete Metric Space.md",
     "Topology/Complete Space.md",
-    "Topology/Uniform Structure.md",
-    "Topology/Hausdorff Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

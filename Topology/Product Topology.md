@@ -20,12 +20,12 @@
 > 2. if $X_{i}$ is [[Connected Space|connected]] for all $i\in I$, so is $X$.
 > 3. if all $X_{i}$ are [[Locally Compact Space|locally compact]] and all except finitely many are [[Compact Space|compact]], then $X$ is locally compact.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. If $x\neq y\in X$, there exists $i\in I$ s.t. $x_{i}\neq y_{i}$ and therefore there exists $U_{i},V_{i}\subseteq X_{i}$ disjoint open neighborhoods of $x_{i},y_{i}$. Then, $U_{i}\times\prod_{j\neq i}^{}X_{j}$ and $V_{i}\times\prod_{j\neq i}^{}X_{j}$ are disjoint open neighborhoods of $x,y$.
 > 2. Let $f: X\to \{ 0,1 \}$ be continuous. If $X= \varnothing$ we are done. Otherwise, let $a=(a_{i})\in X$. For any $j$ and $y\in X_{j}$, we define the injection: $$i_{j}:X_{j}\to X,\quad y\mapsto y\cdot \mathbb{1}_{j}+a\cdot \mathbb{1}_{i\neq j}$$Then, $i_{j}$ is continuous as $p_{k}\circ i_{j}=\begin{cases}\text{id}&j=k\\a_{k}&j\neq k\end{cases}$.  By Lemma 1, $f\circ i_{j}:X_{j}\to \{ 0,1 \}$ is continous and hence constant. Therefore, is equal to $f\circ i_{j}\equiv f(a)$. 
 >    
->    Inductively, we have that $f(x)=f(a)$ if $x=a$ besides in finitely many coordinates. Let: $$Y:=\{ x\in X:f(x)=f(a) \}$$ we claim that $Y\subseteq X$ is dense. Let $x=(x_{i})\in X$ and $U$ an open neighborhood of $x$. Then, for $J\subseteq I$ finite and $U_{j}\subseteq X_{j}$ open neighborhood of $x_{j}$, we have: $$W:=\{ y\in X: y_{j}\in U_{j},\forall j\in J \}\subseteq U$$Then, $(y_{i})_{i}\in Y$ with $y_{j}=x_{j}$ for $j\in J$ and $y_{j}=a_{j}$ for $j\notin J$ is in $W\subseteq U$. Therefore, $Y\cap U\neq \varnothing$ and $Y$ is dense. Hence, by [[Continuous Function|Lemma 4.2]], $f$
+>    Inductively, we have that $f(x)=f(a)$ if $x=a$ besides in finitely many coordinates. Let: $$Y:=\{ x\in X:f(x)=f(a) \}$$ we claim that $Y\subseteq X$ is dense. Let $x=(x_{i})\in X$ and $U$ an open neighborhood of $x$. Then, for $J\subseteq I$ finite and $U_{j}\subseteq X_{j}$ open neighborhood of $x_{j}$, we have: $$W:=\{ y\in X: y_{j}\in U_{j},\forall j\in J \}\subseteq U$$Then, $(y_{i})_{i}\in Y$ with $y_{j}=x_{j}$ for $j\in J$ and $y_{j}=a_{j}$ for $j\notin J$ is in $W\subseteq U$. Therefore, $Y\cap U\neq \varnothing$ and $Y$ is dense. Hence, by [[Continuous Function|Lemma 4.2]], $f=f(a)$ and $f$ is constant. 
 ---
 ![[Compact Space#^be969b]]
 ![[Compact Space#^478057|p]]

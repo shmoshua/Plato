@@ -11,9 +11,9 @@
 > [!lemma] Proposition 1
 > The conditions above are indeed equivalent.
 
-> [!proof]-
+> [!proof]+
 > We have: 
-> - 3 and 4 are equivalent by taking $B:= X / U$. 
+> - (3<=>4): take $B:= X / U$. 
 > - (1=>3): For $A,B\subseteq X$ disjoint and closed, choose $U:=f^{-1}([0,1/3))$ and $V:=f^{-1}(( 2/3,1])$.
 > - (4=>1): We first claim that there exists open sets $\{ U_{t} \}_{t\in[0,1]}$ s.t. 
 > 	1. $A\subseteq U_{0}$

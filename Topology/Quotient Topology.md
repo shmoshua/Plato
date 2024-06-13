@@ -1,17 +1,17 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $X$ be a [[topological space]] and $\sim$ an [[equivalence relation]]. Let $X /_{\sim}$ be the set of equivalence classes and $\pi:X \to X /_{\sim}$ the canonical projection. The ***quotient topology*** on $X /_{\sim}$ has $U\subseteq X / _\sim$ if and only if $\pi ^{-1}(U)\subseteq X$ is open.
+> Let $X$ be a [[topological space]] and $\sim$ an [[equivalence relation]]. Let $X /_{\sim}$ be the set of equivalence classes and $p:X \to X /_{\sim}$ the canonical projection. The ***quotient topology*** on $X /_{\sim}$ has $U\subseteq X / _\sim$ if and only if $p ^{-1}(U)\subseteq X$ is open.
 - **Remark**: As $X / _\sim$ is a continuous image of $X$, $X /_{\sim}$ inherits the compactness of connectedness of $X$.
 ---
 ##### Properties
 > [!lemma] Lemma 1
-> A map $f:X/_{\sim}\to Y$ is continuous if and only if $f\circ\pi:X\to Y$ is continuous.
+> A map $f:X/_{\sim}\to Y$ is continuous if and only if $f\circ p:X\to Y$ is continuous.
 
 > [!proof]-
-> We have that $\pi$ is continuous by definition. Therefore, if $f$ is continuous, $f\circ\pi$ is continuous.
+> We have that $p$ is continuous by definition. Therefore, if $f$ is continuous, $f\circ p$ is continuous.
 > 
-> Conversely, assume that $f\circ\pi$ is continuous and let $U\subseteq Y$ be open. Then, $\pi ^{-1}(f^{-1}(U))$ is open and thereby $f^{-1}(U)$ is open.
+> Conversely, assume that $f\circ p$ is continuous and let $U\subseteq Y$ be open. Then, $p ^{-1}(f^{-1}(U))$ is open and thereby $f^{-1}(U)$ is open.
 ---
 > [!lemma] Lemma 2 (Quotient Lemma)
 > Let $G$ be a topological group and $H\leq G$. Then, 
@@ -42,7 +42,7 @@
 > Consider the map: $$\begin{array}{cccc} {e:}&{\mathbb{R}}&\to&{S^1}\\&{t} &\mapsto & {e^{2i\pi t}} \end{array}{}$$It is continuous and surjective. Further, it's compatible with $\sim$ as for $x\sim y$, $$e(x)=e^{2i\pi x}=e^{2i\pi y}e^{2i\pi(x-y)}=e(y)$$Therefore, there exists a continuous map $\tilde{e}:\mathbb{R} / \mathbb{Z}\to S^1$ and by Analysis, it is a bijection. As $\mathbb{R} / \mathbb{Z}=\pi([0,1])$, $\mathbb{R} / \mathbb{Z}$ is compact and by [[Compact Space#^2251ae|Proposition 1]], $\tilde{e}$ is a homeomorphism.
 ---
 > [!h] Example 2 (Möbius Strip)
-> Let $X:=[0,1]^{2}\subseteq \mathbb{R}^2$. Consider the following equivalence relation: 
+> Let $X:=[0,1]^{2}\subseteq \mathbb{R}^2$. Consider the following equivalence classes: 
 > 1. $\{ (x,y) \}$ if $0<x<1$ and 
 > 2. $\{ (0,y),(1,1-y) \}$ if $0\leq y\leq 1$.
 > 
@@ -54,6 +54,9 @@
 > [!h] Example 3
 > Let $X=\mathbb{R}$ and consider the following equivalence relation: $$x\sim y\iff x-y\in \mathbb{Q}$$Then, 
 > 1. the only open sets in $\mathbb{R} / \mathbb{Q}$ are $\varnothing$ and $\mathbb{R} / \mathbb{Q}$.
+> 2. $\mathbb{R} / \mathbb{Q}$ is not Hausdorff.
 
 > [!proof]-
-> Let $U\neq \varnothing$ be open and $U':=\pi ^{-1}(U)$ which is open. Then, $U'=\mathbb{Q}+U'$ and therefore $U'=\mathbb{R}$. 
+> Let $U\neq \varnothing$ be open and $U':=p ^{-1}(U)$ which is open. Then, $U'=\mathbb{Q}+U'$ and therefore $U'=\mathbb{R}$ and $U=\mathbb{R} / \mathbb{Q}$.
+---
+
