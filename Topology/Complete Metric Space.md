@@ -44,6 +44,16 @@
 > [!proof]-
 > For every $n\geq 1$, let $$A_{n}:=\{ x\in X:\sup_{\lambda\in \Lambda}\left| f_{\lambda}(x) \right| \leq n \}=\bigcap_{\lambda\in \Lambda}^{}\{ x\in X:\left| f_{\lambda}(x) \right| \leq n \}$$which is closed. Then, by Baire Category Theorem 3, there exists $n_{0}\geq 1$ s.t. $$A_{n_{0}}^\circ \neq \varnothing$$Let $y\in A^\circ_{n_{0}}$ and $r>0$ with $B_{<r}(y)\subseteq A_{n_{0}}$.
 ---
+> [!lemma] Theorem 4 (Fixed Point Theorem)
+> Let $X$ be a non-empty complete metric space and let $f:X\to X$ be a continuous map such that $d(f(x),f(y))\leq\alpha d(x,y)$ for all $x,y\in X$ for some constant $\alpha<1$.
+> 1. for any $x_{0}\in X$, the sequence $(x_{n})_{n}$ s.t. $x_{n+1}=f(x_{n})$ converges to $y\in X$ where  $f(y)=y$.
+> 2. there exists a unique element $y\in X$ such that $f(y)=y$.
+
+> [!proof]-
+> We have that: 
+> 1. we claim that $(x_{n})_{n}$ is Cauchy. As $d(x_{n},x_{n+1})\leq\alpha d(x_{n-1},x_{n})\leq\alpha^nd(x_{0},x_{1})$, for $\varepsilon>0$, there exists $N\geq 1$ s.t. $d(x_{N},x_{N+1})<\varepsilon$.  Then, for all $n\geq N$, $$d(x_{N},x_{n})\leq\left( \sum_{i=1}^{n-N}\alpha^{i-1} \right)d(x_{N},x_{N+1})=\frac{(1-\alpha)^{n-N}}{1-\alpha}d(x_{N},x_{N+1})<d(x_{N},x_{N+1})<\varepsilon$$Therefore, $(x_{n})_{n}\to y\in X$. Then, $f(y)=f(\lim_{ n \to \infty }x_{n})=\lim_{ n \to \infty }f(x_{n})=\lim_{ n \to \infty }x_{n+1}=y$.
+> 2. Assume that there exists $y\neq z\in X$ s.t. $f(y)=y$ and $f(z)=z$. Then, $d(y,z)\neq0$ and $$d(y,z)=d(f(y),f(z))\leq\alpha d(y,z)<d(y,z)$$which is a contradiction.
+---
 ##### Examples
 ---
 ###### Non-Examples
