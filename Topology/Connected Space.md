@@ -69,15 +69,26 @@
 ##### Examples
 > [!h] Example
 > We have: 
-> 1. A discrete space is connected if it has $\leq 1$ elements.
+> 1. A discrete space is connected if and only if it has $\leq 1$ elements.
 > 2. In $\mathbb{R}$, $A\subseteq \mathbb{R}$ is connected if and only if $A$ is an interval.
+> 3. $\mathbb{R}^n$ is connected.
+> 4. $\mathbb{R}^n \backslash \{ 0 \}$ is connected for $n\geq 2$.
+> 5. $S^n$ is connected if and only if $n\geq 1$.
 
 > [!proof]-
-> Let $A\subseteq \mathbb{R}$ be a connected set. If $\left| A \right|\leq 1$, then $A$ is an interval. Now assume $\left| A \right|\geq 2$ with $a<c<b$ where $a,b\in A$. Assume $c\notin A$. Then, $$A=[(-\infty,c)\cap A]\sqcup[(c,+\infty)\cap A]$$and either $(-\infty,c)\cap A=\varnothing$ or  $(c,+\infty)\cap A=\varnothing$, which is a contradiction as $a,b\in A$.
-> 
-> Conversely, assume $A=[a,b]$ with $a\leq b$. Let $A=U_{1}\sqcup U_{2}$ with $U_{1},U_{2}$ open. Let wlog $a\in U_{1}$, we need to show that $A=U_{1}$. Let $c:=\sup_{{[a,t]\subseteq U_{1}}} t$. Then, we claim that $[a,c]\subseteq U_{1}$. Otherwise, $c\in U_{2}$ and as $U_{2}$ is open, there exists $\varepsilon>0$ s.t. $(c-\varepsilon,c+\varepsilon)\cap A\subseteq U_{2}$. Therefore, $c\leq c-\varepsilon$, which is a contradiction.
-> 
-> Assume $c\neq b$. Then, there exists $\varepsilon>0$ s.t. $(c-\varepsilon,c+\varepsilon)\cap A\subseteq U_{1}$ and $c+\varepsilon<b$. This is a contradiction to the maximality of $c$, as $\left[ a,c+\frac{\varepsilon}{2} \right]\subseteq U_{1}$. 
+> We have:
+> 1. Let $A\subseteq \mathbb{R}$ be a connected set. If $\left| A \right|\leq 1$, then $A$ is an interval. Now assume $\left| A \right|\geq 2$ with $a<c<b$ where $a,b\in A$. Assume $c\notin A$. Then, $$A=[(-\infty,c)\cap A]\sqcup[(c,+\infty)\cap A]$$and either $(-\infty,c)\cap A=\varnothing$ or  $(c,+\infty)\cap A=\varnothing$, which is a contradiction as $a,b\in A$.
+>    
+>    Conversely, assume $A=[a,b]$ with $a\leq b$. Let $A=U_{1}\sqcup U_{2}$ with $U_{1},U_{2}$ open. Let wlog $a\in U_{1}$, we need to show that $A=U_{1}$. Let $c:=\sup_{{[a,t]\subseteq U_{1}}} t$. Then, we claim that $[a,c]\subseteq U_{1}$. Otherwise, $c\in U_{2}$ and as $U_{2}$ is open, there exists $\varepsilon>0$ s.t. $(c-\varepsilon,c+\varepsilon)\cap A\subseteq U_{2}$. Therefore, $c\leq c-\varepsilon$, which is a contradiction.
+>    
+>    Assume $c\neq b$. Then, there exists $\varepsilon>0$ s.t. $(c-\varepsilon,c+\varepsilon)\cap A\subseteq U_{1}$ and $c+\varepsilon<b$. This is a contradiction to the maximality of $c$, as $\left[ a,c+\frac{\varepsilon}{2} \right]\subseteq U_{1}$. 
+>  2. We show it by induction on $n$. Consider the map: $$\rho:\mathbb{R}\times \mathbb{R}^{n-1}\to \mathbb{R}^n,\quad (x,v)\mapsto (x,v)$$which is clearly continuous. Now, define $\rho_{v}:\mathbb{R}\to \mathbb{R}^n, x\mapsto \rho(x,v)$ and $\rho_{x}:\mathbb{R}^{n-1}\to \mathbb{R}^n,v\mapsto \rho(x,v)$ which are also continuous. Given $f:\mathbb{R}^n\to \{ 0,1 \}$ continuous, $f\circ\rho_{v}$ is continuous and constant. Then,
+> 	 1. $U_{0}:=\{ v\in \mathbb{R}^{n-1}:f\circ\rho_{v}=0 \}$
+> 	 2. $U_{1}:=\{ v\in \mathbb{R}^{n-1}:f\circ\rho_{v}=1 \}$
+> 	
+> 	Then, $\mathbb{R}^{n-1}=U_{0}\sqcup U_{1}$. Further, $U_{i}=(f\circ\rho_{x})^{-1}(i)$ so they're both open and by induction hypothesis, $U_{0}=\varnothing$ or $U_{1}=\varnothing$. Therefore, $f$ is constant.
+> 3. As $\mathbb{R}^n \backslash\{ 0 \}\cong (0,+\infty)\times S^1\times[0,\pi]^{n-2}$ and $(0,+\infty)$ and $S^1$ are connected, $\mathbb{R}^2 \backslash\{ 0 \}$ is connected. For $n\geq 3$, we can use induction similar to 2. 
+> 4. $S^0=\{ -1,1 \}$ is a disconnected set from 1. For $n\geq 1$, we have that: $$\mathbb{R}^{n+1} \backslash\{ 0 \}\to S^{n},(r,\phi,\theta_{1},\dots,\theta_{n-1})\mapsto(1,\phi,\theta_{1},\dots,\theta_{n-1})$$which is clearly continuous and surjective. Therefore, $S^n$ is connected as a continuous image of a connected set.
 ---
 > [!h] Example 2
 > We have that: 

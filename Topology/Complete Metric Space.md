@@ -45,3 +45,19 @@
 
 > [!proof]-
 > For every $n\geq 1$, let $$A_{n}:=\{ x\in X:\sup_{\lambda\in \Lambda}\left| f_{\lambda}(x) \right| \leq n \}=\bigcap_{\lambda\in \Lambda}^{}\{ x\in X:\left| f_{\lambda}(x) \right| \leq n \}$$which is closed. Then, by Baire Category Theorem 3, there exists $n_{0}\geq 1$ s.t. $$A_{n_{0}}^\circ \neq \varnothing$$Let $y\in A^\circ_{n_{0}}$ and $r>0$ with $B_{<r}(y)\subseteq A_{n_{0}}$.
+---
+##### Examples
+---
+###### Non-Examples
+> [!h] Non-Example 1
+> Let $X=[0,+\infty)$. Define a function $\delta:X\times X\to [0,+\infty),(x,y)\mapsto \left| e^{-x}-e^{-y} \right|$
+> 1. Show that $\delta$ is a distance on $X$.
+> 2. Show that the topology defined by $\delta$ on $X$ is the euclidean subspace topology.
+> 3. Show that $(X,\delta)$ is not complete.
+> 4. Show that $X$ is a complete space with the restriction of the euclidean distance.
+
+We have:
+1. The non-negativity, symmetry and triangle inequality is inherited from the norm $\left| \cdot  \right|$ in the definition. The non-degeneracy is given by the injectivity of $e^{-x}$. 
+2. Let $x,y\in X$. Then, by the mean value theorem, it holds that: $$e^{-\max\{ x,y \}}\left| x-y \right| \leq\left| e^{-x}-e^{-y} \right| \leq e^{-\min\{ x,y \}}\left| x-y \right| $$This shows that the topology are equivalent.
+3. Let $x_{n}=n$ for all $n\geq 1$. Then, for all $\varepsilon>0$, there exists $N$ s.t. $e^{-N}< \frac{\varepsilon}{2}$. As $e^{-x}$ is decreasing, for all $m,n\geq N$: $$\delta(x_{n},x_{m})=\left| e^{-n}-e^{-m} \right|\leq e^{-n}+e^{-m}<\varepsilon $$This shows that $(x_{n})_{n}$ is a Cauchy sequence which clearly doesn't have a limit.
+4. Let $(x_{n})_{n}\subseteq X$ be a Cauchy sequence. Then, as $\mathbb{R}$ is complete with the euclidean distance, there exists a limit $x\in \mathbb{R}$. This has to be in $X$ as otherwise, as $X$ is closed.
