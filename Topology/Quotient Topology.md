@@ -50,14 +50,15 @@
 >    
 >    Now, for the inverse $\phi ^{-1}:X'\times Y'\to Z'$ and an open $U\subseteq Z'$, Then, $p ^{-1}(U)\subseteq Z$ is open and $\phi(U)=\phi(p(p ^{-1}(U)))$ which is open by 2. Therefore, the inverse is continuous.
 ---
+> [!lemma] Lemma 4
+> Let $X$ be a topological space and $\sim$ an equivalence relation on $X$. Let $X':= X / \sim$ and $p:X\to X'$ the projection. Let $\Gamma:=\{ (x,y)\in X\times X:x \sim y \}$ be the graph of the equivalence relation. 
+> 1. If $p$ is open and $\Gamma$ is closed in $X\times X$, $X'$ is Hausdorff.
 
+> [!proof]-
+> Define the relation $\equiv$ on $X\times X$ by $(x,y)\equiv(x',y')$ if and only if $x\sim x'$ and $y\sim y'$. Then, 
+> 1. we first claim $\Gamma=q^{-1}(q(\Delta))$ where $\Delta=\{ (x,x)\in X\times X: x\in X \}$ and  $q:X\times X\to X\times X / \equiv$ is the projection. For $(x,y)\in \Gamma$, as $x\sim y$, we have that $(x,y)\equiv(x,x)$ and $q(x,y)=q(x,x)\in q(\Delta)$. Therefore, $\Gamma \subseteq q^{-1}(q(\Delta))$. Conversely, for $(x,y)\in q^{-1}(q(\Delta))$, $q(x,y)\in q(\Delta)$ and there exists $z\in X$ such that $x \sim z\sim y$. By transitivity, $x\sim y$ and $(x,y)\in \Gamma$.
+> 2. Now, we show that the diagonal $\Delta':=\{ (x,x)\in X'\times X': x\in X' \}$ is closed. From Proposition 3.2, as $p$ is open, we have that the map: $$\begin{array}{cccc} {\phi:}&{(X\times X) / \equiv}&\to&{X'\times X'}\\&{q(x,y)} &\mapsto & {(p(x),p(y))} \end{array}{}$$is a homeomorphism. As $\Gamma=q^{-1}(q(\Delta))$ is closed, $q(\Delta)$ is closed and therefore $\phi(q(\Delta))=\Delta'$ is closed. Hence, by [[Hausdorff Space|Proposition 1.4]], $X'$ is Hausdorff.
 
-We have: 
-1. We claim that $\phi$ is well-defined. Let $(x_{1},y_{1})\sim(x_{2},y_{2})$. Then, $x_{1}\sim x_{2}$ and $p_{X}(x_{1})=p_{X}(x_{2})$. Therefore, it holds that $(x_{1},y_{1})\sim(x_{2},y_{2})$ if and only if $(p_{X}(x_{1}),p_{Y}(y_{1}))=(p_{X}(x_{2}),p_{Y}(y_{2}))$ by symmetry and this shows the well-definedness and injectivity. For $(S,T)\in X'\times Y'$, there exists $x\in X,y\in Y$ s.t. $p_{X}(x)=S$ and $p_{Y}(y)=T$ by surjectivity of projection. Therefore, $\phi(p(x,y))=(p_{X}(x),p_{Y}(y))$. This shows that $\phi$ is bijective. 
-   
-   To show that $\phi$ is continuous, for a product space $V\times W$, let $\pi_{V}$ denote the projection onto $V$. Then, we notice that $\pi_{X'}\circ\phi \circ p=p_{X}\circ \pi_{X}$, which is continuous. By symmetry, it holds that $\phi$ is continuous.
-2. Let $(x,y)\in W$. Then, there exists an open neighborhood $U_{X}\ni x$ and $U_{Y}\ni y$ s.t. $U_{X}\times U_{Y}\subseteq W$. Then, $p_{X}(U_{X})\ni p_{X}(x)$ and $p_{Y}(U_{Y})\ni p_{Y}(y)$ are open neighborhoods s.t. $p_{X}(U_{X})\times p_{Y}(U_{Y})$ is an open neighborhood of $\phi(p(x,y))$ contained in $\phi(p(W))$. This shows that $\phi(p(W))$ is open.
-3. $\phi$ is a continuous bijection. For the inverse $\phi ^{-1}:X'\times Y'\to Z'$ and an open $U\subseteq Z'$, Then, $p ^{-1}(U)\subseteq Z$ is open and $\phi(U')=\phi(p(p ^{-1}(U)))$ which is open by 2. Therefore, the inverse is continuous.
 ---
 ##### Examples
 > [!h] Example 1
