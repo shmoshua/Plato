@@ -1,7 +1,7 @@
 #Definition #Topology 
 
 > [!definition]
-> Given a [[topological space]] $X$, a ***path*** on $X$ is a continuous map $\gamma:[0,1]\to X$. It is said to be a path from $\gamma(0)$ to $\gamma(1)$. 
+> Given a [[topological space]] $X$, a ***path*** on $X$ is a continuous map $\gamma\in C([0,1],X)$. It is said to be a path from $\gamma(0)$ to $\gamma(1)$. 
 - **Related definition**: A path $\gamma$ is ***closed*** if $\gamma(0)=\gamma(1)$.
 - **Related definition**: For two paths $\gamma_{1},\gamma_{2}$ on $X$ s.t. $\gamma_{1}(1)=\gamma_{2}(0)$, the ***composite path*** $\gamma_{1}*\gamma_{2}$ is given where: $(\gamma_{1}*\gamma_{2})(t)=\gamma_{1}(2t)\mathbb{1}_{[0, 1/ 2]}(t)+\gamma_{2}(2t-1)\mathbb{1}_{[1/ 2, 1]}(t)$.
 - **Related definition**: For a path $\gamma$ on $X$, the ***reverse*** of the path is $\overline{\gamma}$ where $\overline{\gamma}(t)=\gamma(1-t)$.

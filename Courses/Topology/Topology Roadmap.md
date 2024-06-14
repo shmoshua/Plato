@@ -88,6 +88,8 @@
 1. [[Homotopy]]
 2. [[Contractible Space]]
 3. [[Path]]
+4. [[Path-Connected Space]]
+5. [[Locally Path-Connected Space]]
 
 **4.2 The Fundamental Group**
 1. [[Path|Path homotopy]]
