@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1f050f75a0e649b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/One-Point Compactification.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,32 +43,19 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
         "type": "tabs",
         "children": [
           {
-            "id": "9d16018b0c3c4844",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Quotient Topology.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6a002cbee98ff30b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,14 +67,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "8443ddb086fe642e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,7 +148,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +164,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,9 +185,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Courses/Topology/Exercise Sheet 10.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -227,20 +206,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "36e87c04d2be24f2",
+  "active": "8443ddb086fe642e",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 9.md",
-    "Courses/Topology/Exercise Sheet 10.md",
-    "Topology/Quotient Topology.md",
-    "Lie Group/Lie Group.md",
-    "Topology/Hausdorff Space.md",
-    "Courses/Topology/Exercise Sheet 8.md",
-    "Topology/Metric Space.md",
-    "Topology/Compact Space.md",
-    "Topology/Complete Metric Space.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/One-Point Compactification.md",
+    "Courses/Topology/Exercise Sheet 8.md",
+    "Topology/Hausdorff Space.md",
+    "Lie Group/Lie Group.md",
     "Topology/Normal Space.md",
+    "Topology/Compact Space.md",
+    "Courses/Topology/Exercise Sheet 11.md",
+    "Topology/One-Point Compactification.md",
+    "Topology/Metric Space.md",
+    "Topology/Quotient Topology.md",
+    "Differential Geometry/Partition of Unity.md",
+    "Courses/Topology/Exercise Sheet 10.md",
+    "Courses/Topology/Exercise Sheet 9.md",
+    "Topology/Complete Metric Space.md",
     "Topology/Compact-Open Topology.md",
     "Topology/Topology of Compact Convergence.md",
     "Topology/Ultrafilter.md",
@@ -253,8 +234,6 @@
     "Topology/Base of Topology.md",
     "Topology/Filter.md",
     "Topology/Initial Topology.md",
-    "Topology/Locally Compact Space.md",
-    "Topology/Locally Connected Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

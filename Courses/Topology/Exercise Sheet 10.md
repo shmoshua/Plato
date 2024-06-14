@@ -28,7 +28,7 @@ We have that:
 > Let $X$ be a normal topological space. Let $\mathcal{F}:=C(X,[0,1])$. For $f\in \mathcal{F}$, let $X_{f}=[0,1]$ and let $$\begin{array}{cccc} {\varphi:}&{X}&\to&{\prod_{f\in \mathcal{F}}^{}X_{f}}\\&{x} &\mapsto & {(f(x))_{f\in \mathcal{F}}} \end{array}{}$$ We denote $Y=\varphi(X)$
 > 1. Show that $\varphi$ is injective. 
 > 2. Show that $\varphi$ is continuous when the product space has the product topology. 
-> 3. Let $y=\varphi(x)$ be an element of $Y$. Show that a fundamental system of open neighborhoods of $y$ in $Y$ is given by the sets $$\{ \varphi(z):z\in X\text{ satisfies }\left| f_{j}(z)-f_{j}(x) \right| <\varepsilon_{j}, \forall j\in J \}$$where $f_{j}\in F$ for all $j\in J$, $J$ runs over finite sets and $\varepsilon_{j}$ runs over positive reals for all $j\in J$.
+> 3. Let $y=\varphi(x)$ be an element of $Y$. Show that an open local base of $y$ in $Y$ is given by the sets $$\{ \varphi(z):z\in X\text{ satisfies }\left| f_{j}(z)-f_{j}(x) \right| <\varepsilon_{j}, \forall j\in J \}$$where $f_{j}\in F$ for all $j\in J$, $J$ runs over finite sets and $\varepsilon_{j}$ runs over positive reals for all $j\in J$.
 > 4. Let $U$ be open in $X$ and let $x_{0}\in U$. Show that there exists an open neighborhood $V$ of $x_{0}$ such that $V\subseteq \overline{V}\subseteq U$, and a function $g\in \mathcal{F}$ such that $$\{ z\in X:g(z)> 1/2 \}\subseteq U$$
 > 5. Deduce that the map $\varphi:X\to Y$ is a homeomorphism. 
 > 6. Deduce that $X$ is homeomorphic to a subspace of a compact space.
