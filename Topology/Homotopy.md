@@ -21,3 +21,4 @@
 ##### Examples
 > [!h] Example 1
 > Any two functions $f_{0},f_{1}:\mathbb{R}^n\to \mathbb{R}^m$ are homotopic with: $$\begin{array}{cccc} {h:}&{\mathbb{R}^n\times \mathbb{I}}&\to&{\mathbb{R}^m}\\&{(x,t)} &\mapsto & {(1-t)f_{0}(x)+tf_{1}(x)} \end{array}{}$$
+---

@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -92,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -102,12 +101,16 @@
             "id": "8443ddb086fe642e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Homotopy.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -173,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Topology/Homotopy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Topology/Homotopy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Contractible Space.md"
+                "file": "Topology/Homotopy.md"
               }
             }
           }
@@ -235,11 +238,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "36e87c04d2be24f2",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 11.md",
-    "Topology/Homotopy.md",
     "Topology/Contractible Space.md",
+    "Topology/Homotopy.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
+    "Courses/Topology/Exercise Sheet 11.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/One-Point Compactification.md",
     "Courses/Topology/Exercise Sheet 8.md",
@@ -262,7 +266,6 @@
     "Topology/Product Topology.md",
     "Topology/Dense Subset.md",
     "Topology/Interior and Closure.md",
-    "Topology/Base of Topology.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
