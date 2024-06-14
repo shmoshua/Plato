@@ -1,8 +1,8 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $X$ be a topological group and $x\in X$. The ***fundamental group*** of $X$ at $x$ is a [[group]] $\Lambda_{x,x}$, where for $x,y\in X$, $\Lambda_{x,y}$ denotes the set of [[Path|path homotopy]] classes of paths from $x$ to $y$ on $X$.
-- **Notation**: The fundamental group of $X$ at $x$ is also denoted as $\pi_{1}(X,x)$.
+> Let $X$ be a [[topological group]] and $x\in X$. The ***fundamental group*** of $X$ at $x$ is a [[group]] $\pi_{1}(X,x)$ given by the set of [[Path|path homotopy]] classes of closed paths at $x$ on $X$.
+- **Notation**: The fundamental group of $X$ at $x$ is also denoted as $\Lambda_{x,x}$ where $\Lambda_{x,y}$ denotes all path homotopy classes of paths from $x$ to $y$.
 - **Related definition**: For $x\in X$, let $\varepsilon_{x}:[0,1]\to X, t\mapsto x$ be the constant path at $x$.
 ---
 ##### Properties

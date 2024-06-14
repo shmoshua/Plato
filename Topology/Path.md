@@ -25,4 +25,11 @@
 > If $C$ is the [[Cantor space]], all paths on $C$ are constant.
 ---
 > [!h] Example 2
-> A [[homotopy]] $h:X\times[0,1]\to Y$ from $f_{0}$ to $f_{1}$ is a path from $f_{0}$ to $f_{1}$ in $C(X,Y)$ w.r.t. compact-open topology, i.e. $$\gamma_{h}(t)(x)=h(x,t)$$
+> A [[homotopy]] $h:X\times[0,1]\to Y$ from $f_{0}$ to $f_{1}$ is a path from $f_{0}$ to $f_{1}$ in $C(X,Y)$ w.r.t. [[compact-open topology]], i.e. $$\gamma_{h}(t)(x)=h(x,t)$$
+> 1. if $X$ is locally compact, $C(X\times [0,1],Y)\to C([0,1],C(X,Y))$ is a bijection.
+
+> [!proof]-
+> We have:
+> 1. The continuity of $\gamma_{h}$ is given by [[Compact-Open Topology|Lemma 3.1]].
+> 2. [[Compact-Open Topology|Lemma 3.3]].
+---
