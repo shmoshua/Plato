@@ -20,5 +20,12 @@
 >    Similarly, it holds for $\gamma \varepsilon_{y}=\gamma$.
 > 3. We have: $$\gamma\overline{\gamma}(t)=\begin{cases}\gamma(2t)&0\leq t \leq \frac{1}{2}\\\gamma(2-2t)& \frac{1}{2}\leq t\leq 1\end{cases}$$Then, for$$h(t,s):=\begin{cases}\gamma(2st)&0\leq t\leq 1 /2\\\gamma(2s(1-t))& 1/2\leq t\leq 1\end{cases}$$$h(0,s)=\gamma(0)=x$ and $h(1,s)=\gamma(0)=x$ and $h(t,0)=x=\varepsilon_{x}(t)$ and $h(t,1)=\gamma\overline{\gamma}(t)$. 
 
-- **Corollary**: $\Lambda_{x,x}$ is indeed a group with path composition and path inversion.
+- **Corollary**: $\pi_{1}(X,x)$ is indeed a group with path composition and path inversion.
+---
+##### Examples
+> [!h] Example 1
+> We have that:
+> 1. $\pi_{1}(S^1,1)\cong \mathbb{Z}$.
+> 2. $\pi_{1}(\mathbb{R}^n,x)=\{ \varepsilon_{x} \}$ for all $x\in \mathbb{R}^n$.
+> 3. for any convex $A\subseteq \mathbb{R}^n$, $\pi_{1}(A,x)=\{ \varepsilon_{x} \}$ for all $x\in A$.
 ---

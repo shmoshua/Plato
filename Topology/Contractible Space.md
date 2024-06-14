@@ -3,6 +3,14 @@
 > [!definition]
 > A [[topological space]] $X$ is ***contractible*** if $\text{id}_{X}$ is [[Homotopy|homotopic]] to a constant map. 
 ---
+##### Properties
+> [!lemma] Proposition 1
+> Let $X$ be a contractible space. 
+> 1. if for $x_{0}\in X$ s.t. $\text{id}_{X}$ is homotopic to $x_{0}$, then $\pi_{1}(X,x_{0})=\{ \varepsilon_{x_{0}} \}$
+
+> [!proof]+
+> Let $h:X\times[0,1]\to X$ be the homotopy with $h(x,0)=x$ and $h(x,1)=x_{0}$. Let further $\gamma:[0,1]\to X$ be a path. Then, define: $$\tilde{h}:[0,1]\times[0,1]\to X,\quad (t,s)\mapsto h(\gamma(t),s)$$
+---
 ##### Examples 
 > [!h] Example 1 (Rn)
 > $\mathbb{R}^n$ is contractible for $n\geq 0$. For $y\in \mathbb{R}^n$, we have the homotopy, $$\begin{array}{cccc} {h:}&{\mathbb{R}^n\times [0,1]}&\to&{\mathbb{R}^n}\\&{(x,t)} &\mapsto & {(1-t)x+ty} \end{array}{}$$So is any non-empty star-shaped subset of $\mathbb{R}^n$. 
@@ -14,7 +22,7 @@
 > [!h] Non-Example 1
 > $S^1$ is not contractible.
 
-> [!proof]+
+> [!proof]-
 > Assume that $S^1$ is contractible let $h$ be the homotopy with $h(x,0)=x$ and $h(x,1)=x_{0}\in S^1$ for all $x\in S^1$. By composing it with a rotation, we may assume that $x_{0}=-1$. 
 > 
 > Then, the map: $$\begin{array}{cccc} {\varphi:}&{S^1 \backslash\{ -1 \}}&\to&{(-\pi,\pi)}\\&{z} &\mapsto & {\text{arg}(z)}\\&{e^{it}} &\gets & {t} \end{array}{}$$is a homeomorphism.
