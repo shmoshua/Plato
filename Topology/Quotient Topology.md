@@ -32,7 +32,32 @@
 > 5. As $G$ is locally compact there exists $e\in U\subseteq L\subseteq G$ with $U$ open and $L$ compact. Then, $$C\subseteq \bigcup_{x\in G}^{}p(xU)$$and there exists $x_{1},\dots,x_{n}$ s.t. $C\subseteq p(x_{1}U)\cup\dots \cup p(x_{n}U)$. In particular $C\subseteq \bigcup_{i=1}^{n}p(x_{i}L)$. 
 >    
 >    Since $H$ is closed, $G / H$ is Hausdorff and $C$ is closed. Then, let: $$K:= p ^{-1}\left(C\cap \bigcup_{i=1}^{n}p(x_{i}L)\right)$$which is compact as a closed subset of a compact set. 
+---
+> [!lemma] Proposition 3
+> Let $X$ and $Y$ be topological spaces with equivalence relations $\sim_{X}$ and $\sim_{Y}$ on $X$ and $Y$ respectively. Let $Z=X\times Y$ with the product topology. On $Z$, let $\sim$ be the equivalence relation defined by $$(x_{1},y_{1})\sim(x_{2},y_{2})\iff x_{1}\sim_{X}x_{2}\land y_{1}\sim_{Y}y_{2}$$
+> Let $X':=X /{\sim_{X}}$, $Y':=Y /\sim_{Y}$, $Z':= Z /\sim$  denote the respective quotients with projections $p_{X}$, $p_{Y}$ and $p$.
+> 1. $\phi:Z'\to X'\times Y',p(x,y)\mapsto (p_{X}(x),p_{Y}(y))$ is a continuous bijection.
+> 2. if $p_{X},p_{Y}$ are open, then $\phi$ is a homeomorphism.
 
+> [!proof]-
+> We have:
+> 1. We claim that $\phi$ is well-defined. Let $(x_{1},y_{1})\sim(x_{2},y_{2})$. Then, $x_{1}\sim x_{2}$ and $p_{X}(x_{1})=p_{X}(x_{2})$. Therefore, it holds that $(x_{1},y_{1})\sim(x_{2},y_{2})$ if and only if $(p_{X}(x_{1}),p_{Y}(y_{1}))=(p_{X}(x_{2}),p_{Y}(y_{2}))$ by symmetry and this shows the well-definedness and injectivity. For $(S,T)\in X'\times Y'$, there exists $x\in X,y\in Y$ s.t. $p_{X}(x)=S$ and $p_{Y}(y)=T$ by surjectivity of projection. Therefore, $\phi(p(x,y))=(p_{X}(x),p_{Y}(y))$. This shows that $\phi$ is bijective. 
+>    
+>    To show that $\phi$ is continuous, for a product space $V\times W$, let $\pi_{V}$ denote the projection onto $V$. Then, we notice that $\pi_{X'}\circ\phi \circ p=p_{X}\circ \pi_{X}$, which is continuous. By symmetry, it holds that $\phi$ is continuous.
+> 2. Let $p_{X}$ and $p_{Y}$ be open. We show that $\phi(p(W))$ is open in $X'\times Y'$ for all open $W\subseteq Z$.
+>    
+>    Let $(x,y)\in W$. Then, there exists an open neighborhood $U_{X}\ni x$ and $U_{Y}\ni y$ s.t. $U_{X}\times U_{Y}\subseteq W$. Then, $p_{X}(U_{X})\ni p_{X}(x)$ and $p_{Y}(U_{Y})\ni p_{Y}(y)$ are open neighborhoods s.t. $p_{X}(U_{X})\times p_{Y}(U_{Y})$ is an open neighborhood of $\phi(p(x,y))$ contained in $\phi(p(W))$. This shows that $\phi(p(W))$ is open.
+>    
+>    Now, for the inverse $\phi ^{-1}:X'\times Y'\to Z'$ and an open $U\subseteq Z'$, Then, $p ^{-1}(U)\subseteq Z$ is open and $\phi(U)=\phi(p(p ^{-1}(U)))$ which is open by 2. Therefore, the inverse is continuous.
+---
+
+
+We have: 
+1. We claim that $\phi$ is well-defined. Let $(x_{1},y_{1})\sim(x_{2},y_{2})$. Then, $x_{1}\sim x_{2}$ and $p_{X}(x_{1})=p_{X}(x_{2})$. Therefore, it holds that $(x_{1},y_{1})\sim(x_{2},y_{2})$ if and only if $(p_{X}(x_{1}),p_{Y}(y_{1}))=(p_{X}(x_{2}),p_{Y}(y_{2}))$ by symmetry and this shows the well-definedness and injectivity. For $(S,T)\in X'\times Y'$, there exists $x\in X,y\in Y$ s.t. $p_{X}(x)=S$ and $p_{Y}(y)=T$ by surjectivity of projection. Therefore, $\phi(p(x,y))=(p_{X}(x),p_{Y}(y))$. This shows that $\phi$ is bijective. 
+   
+   To show that $\phi$ is continuous, for a product space $V\times W$, let $\pi_{V}$ denote the projection onto $V$. Then, we notice that $\pi_{X'}\circ\phi \circ p=p_{X}\circ \pi_{X}$, which is continuous. By symmetry, it holds that $\phi$ is continuous.
+2. Let $(x,y)\in W$. Then, there exists an open neighborhood $U_{X}\ni x$ and $U_{Y}\ni y$ s.t. $U_{X}\times U_{Y}\subseteq W$. Then, $p_{X}(U_{X})\ni p_{X}(x)$ and $p_{Y}(U_{Y})\ni p_{Y}(y)$ are open neighborhoods s.t. $p_{X}(U_{X})\times p_{Y}(U_{Y})$ is an open neighborhood of $\phi(p(x,y))$ contained in $\phi(p(W))$. This shows that $\phi(p(W))$ is open.
+3. $\phi$ is a continuous bijection. For the inverse $\phi ^{-1}:X'\times Y'\to Z'$ and an open $U\subseteq Z'$, Then, $p ^{-1}(U)\subseteq Z$ is open and $\phi(U')=\phi(p(p ^{-1}(U)))$ which is open by 2. Therefore, the inverse is continuous.
 ---
 ##### Examples
 > [!h] Example 1

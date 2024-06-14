@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Metric Space.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 8.md",
+                "file": "Courses/Topology/Exercise Sheet 9.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -68,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Complete Metric Space.md",
+                "file": "Courses/Topology/Exercise Sheet 9.md",
                 "mode": "preview",
                 "source": false
               }
@@ -110,7 +109,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Quotient Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Quotient Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact Space.md"
+                "file": "Topology/Quotient Topology.md"
               }
             }
           }
@@ -238,19 +238,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1f050f75a0e649b3",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
+    "Courses/Topology/Exercise Sheet 9.md",
+    "Topology/Quotient Topology.md",
     "Topology/Metric Space.md",
     "Topology/Compact Space.md",
+    "Courses/Topology/Exercise Sheet 8.md",
     "Topology/Complete Metric Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/One-Point Compactification.md",
     "Topology/Normal Space.md",
-    "Courses/Topology/Exercise Sheet 8.md",
     "Topology/Compact-Open Topology.md",
     "Topology/Topology of Compact Convergence.md",
     "Topology/Ultrafilter.md",
-    "Topology/Quotient Topology.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Continuous Function.md",
     "Algebra/Quotient Set.md",
@@ -260,7 +261,6 @@
     "Topology/Base of Topology.md",
     "Topology/Filter.md",
     "Topology/Initial Topology.md",
-    "Courses/Topology/Exercise Sheet 9.md",
     "Topology/Locally Compact Space.md",
     "Topology/Locally Connected Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
