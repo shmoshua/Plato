@@ -59,8 +59,8 @@
 > Let $(X_{n},d_{n})_{n\geq 1}$ be a sequence of complete metric spaces. Denote $X:=\prod_{n\geq 1}^{}X_{n}$. Then,
 > 1. $X$ is a complete metric space.
 
-> [!proof]+
-> Let $(x^{(k)})_{k}\subseteq X$ be a Cauchy sequence in $X$. Then, for any $\varepsilon>0$, there exists $k\in \mathbb{N}$ s.t. for any $i,j\geq k$, $$d(x^{(i)},x^{(j)})=\sum_{n\geq 1}^{} \frac{1}{2^n} \frac{d_{n}(x^{(i)}_{n},x^{(j)}_{n})}{1+d_{n}(x^{(i)}_{n},x^{(j)}_{n})}<\varepsilon$$Therefore, for any $n\geq 1$, $\frac{d_{n}(x^{(i)}_{n},x^{(j)}_{n})}{1+d_{n}(x^{(i)}_{n},x^{(j)}_{n})}< \varepsilon 2^n$. Hence, $(x^{(k)}_{n})_{k}$ is a Cauchy sequence for all $n\geq 1$. Hence, it converges to $x_{n}\in X_{n}$. Let $x:=(x_{n})_{n}$. We only need to show that $x^{(k)}\to x$. Let $\varepsilon>0$. Then, Let $N\in \mathbb{N}$ s.t,. $\sum_{n\geq N}^{} \frac{1}{2^n}=\frac{1}{2^{N-1}}< \varepsilon /2$. Hence, we have $k_{n}$ s.t. $d$
+> [!proof]-
+> Let $(x^{(k)})_{k}\subseteq X$ be a Cauchy sequence in $X$. Then, for any $\varepsilon>0$, there exists $k\in \mathbb{N}$ s.t. for any $i,j\geq k$, $$d(x^{(i)},x^{(j)})=\sum_{n\geq 1}^{} \frac{1}{2^n} \frac{d_{n}(x^{(i)}_{n},x^{(j)}_{n})}{1+d_{n}(x^{(i)}_{n},x^{(j)}_{n})}<\varepsilon$$Therefore, for any $n\geq 1$, $\frac{d_{n}(x^{(i)}_{n},x^{(j)}_{n})}{1+d_{n}(x^{(i)}_{n},x^{(j)}_{n})}< \varepsilon 2^n$. Hence, $(x^{(k)}_{n})_{k}$ is a Cauchy sequence for all $n\geq 1$. Hence, it converges to $x_{n}\in X_{n}$. Let $x:=(x_{n})_{n}$. We only need to show that $x^{(k)}\to x$. Let $\varepsilon>0$. Then, Let $N\in \mathbb{N}$ s.t,. $\sum_{n\geq N}^{} \frac{1}{2^n}=\frac{1}{2^{N-1}}< \varepsilon /2$. Hence, we have $k_{n}$ s.t. $\frac{d_{n}(x^{(i)}_{n},x_{n})}{1+d_{n}(x^{(i)}_{n},x_{n})}< \frac{\varepsilon}{N}2^{n-1}$. By taking the maximum of $k_{n}$, we get that $d(x^{(k)},x)<\varepsilon$.
 ---
 ##### Non-Examples
 > [!h] Non-Example 1 (Completeness is a property of the metric and not of the topology)

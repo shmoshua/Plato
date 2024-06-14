@@ -164,6 +164,14 @@
 > [!proof]-
 > Let $(U_{\alpha})_{\alpha}$ be an open covering of $E$. For fixed $\alpha_{0}$, $U_{\alpha_{0}}$ contains all but finitely many points of $E$. Therefore, there exist $U_{\alpha_{1}},\dots,U_{\alpha_{n}}$ that cover the finite points. 
 ---
+> [!h] Example 5 (Product Metric Space)
+> Let $(X_{n},d_{n})_{n\geq 1}$ be a sequence of compact metric spaces. Denote $X:=\prod_{n\geq 1}^{}X_{n}$. Then,
+> 1. $X$ is compact metric.
+
+> [!proof]-
+> By [[Metric Space|Example 4]] we know that $X$ is metric. We will show that $X$ is sequentially compact. Let $(x_{m})_{m}\subseteq X$ be a sequence.  
+> 
+---
 ###### Non-Example
 > [!h] Non-Example 1
 > The unit ball in $L^2([0,1])$ is not compact.
