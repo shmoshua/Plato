@@ -1,13 +1,17 @@
 #Definition #Topology 
 
 > [!definition]
-> A [[topological space]] $X$ is ***contractible*** if $f_{0}:=\text{id}_{X}$ is [[Homotopy|homotopic]] to a constant map. 
+> A [[topological space]] $X$ is ***contractible*** if $\text{id}_{X}$ is [[Homotopy|homotopic]] to a constant map. 
 ---
 ##### Examples 
 > [!h] Example 1 (Rn)
-> $\mathbb{R}^n$ is contractible for $n\geq 0$. For $y\in \mathbb{R}^n$, we have the homotopy, $$\begin{array}{cccc} {h:}&{\mathbb{R}^n\times \mathbb{I}}&\to&{\mathbb{R}^n}\\&{(x,t)} &\mapsto & {(1-t)x+ty} \end{array}{}$$So is any non-empty star-shaped subset of $\mathbb{R}^n$. 
+> $\mathbb{R}^n$ is contractible for $n\geq 0$. For $y\in \mathbb{R}^n$, we have the homotopy, $$\begin{array}{cccc} {h:}&{\mathbb{R}^n\times [0,1]}&\to&{\mathbb{R}^n}\\&{(x,t)} &\mapsto & {(1-t)x+ty} \end{array}{}$$So is any non-empty star-shaped subset of $\mathbb{R}^n$. 
 ---
-> [!h] Example 2
+> [!h] Example 3
+> $L^2([0,1]) \backslash \{ 0 \}$ is contractible. 
+---
+##### Non-Examples
+> [!h] Non-Example 1
 > $S^1$ is not contractible.
 
 > [!proof]-
@@ -20,5 +24,3 @@
 > 
 > Then, define: $$g(z):=\frac{ \tilde{f_{0}}(z)-\tilde{f_{0}}(-z)}{\left| \tilde{f_{0}}(z)-\tilde{f_{0}}(-z) \right| }$$where $\tilde{f_{0}}(z)-\tilde{f_{0}}(-z)\neq 0$ as $\tilde{f_{0}}$ is injective. Then, $g:S^1\to \{ \pm 1 \}$ is surjective and continuous, but $S^1$ is connected, which is a contradiction.
 ---
-> [!h] Example 3
-> $L^2([0,1]) \backslash \{ 0 \}$ is contractible. 

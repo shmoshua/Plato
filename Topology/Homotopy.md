@@ -1,7 +1,7 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $X,Y$ be [[Topological Space|topological spaces]] and $f_{0},f_{1}\in Y^X$ continuous maps. A ***homotopy*** $h$ from $f_{0}$ to $f_{1}$ is a continuous map: $$\begin{array}{cccc} {h:}&{X\times \mathbb{I}}&\to&{Y}\end{array}{}$$where $\mathbb{I}:=[0,1]$ s.t. 
+> Let $X,Y$ be [[Topological Space|topological spaces]] and $f_{0},f_{1}\in Y^X$ continuous maps. A ***homotopy*** $h$ from $f_{0}$ to $f_{1}$ is a continuous map: $h:X\times[0,1]\to Y$ s.t. 
 > 1. $h(x,0)=f_{0}(x)$ for all $x\in X$.
 > 2. $h(x,1)=f_{1}(x)$ for all $x\in X$.
 > 
