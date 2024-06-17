@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/One-Point Compactification.md",
+                "file": "Topology/Retract.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Path-Connected Space.md",
+                "file": "Topology/Homotopy.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path.md",
+                "file": "Topology/Contractible Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -92,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Topology/Retract.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "mode": "preview",
                 "source": false
               }
@@ -116,7 +115,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Normal Space.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -170,8 +169,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Topology/Retract.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Topology/Retract.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +275,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md"
+                "file": "Topology/Retract.md"
               }
             }
           }
@@ -299,24 +297,26 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f04f5d9c3b0db15a",
+  "active": "6a002cbee98ff30b",
   "lastOpenFiles": [
-    "Topology/Path-Connected Space.md",
     "Courses/Topology/Exercise Sheet 11.md",
-    "Topology/Contractible Space.md",
-    "Topology/Normal Space.md",
+    "Topology/Retract.md",
     "Topology/Fundamental Group.md",
+    "Topology/Contractible Space.md",
     "Topology/Homotopy.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Connected Space.md",
+    "Courses/Topology/Exercise Sheet 7.md",
+    "Topology/One-Point Compactification.md",
+    "Topology/Normal Space.md",
+    "Topology/Path.md",
+    "Topology/Locally Path-Connected Space.md",
+    "Topology/Path-Connected Space.md",
     "Algebra/Group Homomorphism.md",
     "Functional Analysis/Uniformly Continuous Function.md",
-    "Topology/Path.md",
     "Topology/Compact-Open Topology.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Locally Path-Connected Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Connected Space.md",
     "Topology/Topology of Compact Convergence.md",
-    "Topology/One-Point Compactification.md",
     "Courses/Topology/Exercise Sheet 8.md",
     "Topology/Hausdorff Space.md",
     "Lie Group/Lie Group.md",
@@ -325,8 +325,6 @@
     "Topology/Quotient Topology.md",
     "Differential Geometry/Partition of Unity.md",
     "Courses/Topology/Exercise Sheet 10.md",
-    "Courses/Topology/Exercise Sheet 9.md",
-    "Topology/Complete Metric Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

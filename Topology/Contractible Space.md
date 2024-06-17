@@ -28,6 +28,9 @@
 > 
 > Further, any path-connected space is connected.
 ---
+![[Homotopy#^623c55]]
+![[Homotopy#^fb1fb4|p]]
+---
 ##### Examples 
 > [!h] Example 1 (Rn)
 > $\mathbb{R}^n$ is contractible for $n\geq 0$. For $y\in \mathbb{R}^n$, we have the homotopy, $$\begin{array}{cccc} {h:}&{\mathbb{R}^n\times [0,1]}&\to&{\mathbb{R}^n}\\&{(x,t)} &\mapsto & {(1-t)x+ty} \end{array}{}$$So is any non-empty star-shaped subset of $\mathbb{R}^n$. 
