@@ -124,7 +124,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Algebra/Group Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -167,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -233,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Topology/Fundamental Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,7 +250,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Topology/Fundamental Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Contractible Space.md"
+                "file": "Topology/Fundamental Group.md"
               }
             }
           }
@@ -295,11 +295,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a56812a111b5757b",
+  "active": "71c0375bb8968fe3",
   "lastOpenFiles": [
     "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Contractible Space.md",
     "Topology/Fundamental Group.md",
+    "Algebra/Group Homomorphism.md",
     "Topology/Path.md",
     "Topology/Path-Connected Space.md",
     "Topology/Homotopy.md",
@@ -322,7 +323,6 @@
     "Courses/Topology/Exercise Sheet 10.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Topology/Complete Metric Space.md",
-    "Topology/Ultrafilter.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

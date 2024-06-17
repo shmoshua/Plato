@@ -1,7 +1,7 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $X$ be a [[topological group]] and $x\in X$. The ***fundamental group*** of $X$ at $x$ is a [[group]] $\pi_{1}(X,x)$ given by the set of [[Path|path homotopy]] classes of closed paths at $x$ on $X$.
+> Let $X$ be a [[topological space]] and $x\in X$. The ***fundamental group*** of $X$ at $x$ is a [[group]] $\pi_{1}(X,x)$ given by the set of [[Path|path homotopy]] classes of closed paths at $x$ on $X$.
 - **Notation**: The fundamental group of $X$ at $x$ is also denoted as $\Lambda_{x,x}$ where $\Lambda_{x,y}$ denotes all path homotopy classes of paths from $x$ to $y$.
 - **Related definition**: For $x\in X$, let $\varepsilon_{x}:[0,1]\to X, t\mapsto x$ be the constant path at $x$.
 ---
@@ -21,6 +21,30 @@
 > 3. We have: $$\gamma\overline{\gamma}(t)=\begin{cases}\gamma(2t)&0\leq t \leq \frac{1}{2}\\\gamma(2-2t)& \frac{1}{2}\leq t\leq 1\end{cases}$$Then, for$$h(t,s):=\begin{cases}\gamma(2st)&0\leq t\leq 1 /2\\\gamma(2s(1-t))& 1/2\leq t\leq 1\end{cases}$$$h(0,s)=\gamma(0)=x$ and $h(1,s)=\gamma(0)=x$ and $h(t,0)=x=\varepsilon_{x}(t)$ and $h(t,1)=\gamma\overline{\gamma}(t)$. 
 
 - **Corollary**: $\pi_{1}(X,x)$ is indeed a group with path composition and path inversion.
+---
+> [!lemma] Proposition 2 (Functoriality of $\pi_{1}$)
+> Let $X,Y,Z$ be topological spaces and $x_{0}\in X$. For a continuous $f:X\to Y$ and $g:Y,Z$, 
+> 1.  $f_{*}:\pi_{1}(X,x_{0})\to \pi_{1}(Y,f(x_{0})), \gamma\mapsto f\circ \gamma$ is a group homomorphism.
+> 2. $(g\circ f)_{{*}}=g_{*}\circ f_{*}$
+> 3. $(\text{id}_{X})_{*}=\text{id}_{\pi_{1}(X,x_{0})}$.
+
+> [!proof]-
+> We have:
+> 1. We check that $f_{*}$ is well-defined. For $\gamma_{1},\gamma_{2}$ s.t. $\gamma_{1}\sim\gamma_{2}$, let $h$ be the path homotopy. Then, $f(h(t,0))=f(\gamma_{1}(t))$ and $f(h(t,1))=f(\gamma_{2}(t))$. Further, $f(h(0,s)),f(h(1,s))$ are constant. Therefore, $f\circ h$ is a path homotopy from $f\circ\gamma_{1}$ to $f\circ\gamma_{2}$. 
+>    
+>    Further, it is a group homomorphism as $f\circ(\gamma_{1}\gamma_{2})(t)=(f\circ\gamma_{1})(f\circ\gamma_{2})(t)$.
+> 2. Obvious.
+> 3. Obvious.
+- **Corollary**: For a homeomorphism $f:X\to Y$, $f_{*}:\pi_{1}(X,x_{0})\cong \pi_{1}(Y,f(x_{0}))$ for all $x_{0}\in X$.
+---
+> [!lemma] Proposition 3 (Fundamental Group of Product Spaces)
+> For topological spaces $X,Y$ and $p,q$ projections from $X\times Y$ to respective spaces. Then, for all $(x,y)\in X\times Y$,$$\alpha:\pi_{1}(X\times Y,(x,y))\to \pi_{1}(X,x)\times \pi_{1}(Y,y),\quad \gamma\mapsto (p_{*}(\gamma),q_{*}(\gamma))$$is a group isomorphism.
+
+> [!proof]+
+> We have:
+> 1. $\alpha$ is a group homomorphism as $p_{*}$ and $q_{*}$ are respectively by Proposition 2.1.
+> 2. $\alpha$ is injective: let $\gamma:[0,1]\to X\times Y$ be a path s.t. $p_{*}(\gamma)=\varepsilon_{x}$ and $q_{*}(\gamma)=\varepsilon_{y}$ with path homotopies $h_{1},h_{2}$ from $p\circ\gamma$ to $\varepsilon_{x}$ and from $q\circ\gamma$ to $\varepsilon_{y}$ respectively. Then, $$h(t,s):=(h_{1}(t,s),h_{2}(t,s))$$is a path homotopy from $\gamma$ to $\varepsilon_{(x,y)}$.
+> 3. $\alpha$ is surjecti
 ---
 
 ![[Contractible Space#^f327ea]]
