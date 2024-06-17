@@ -18,6 +18,16 @@
 ^87c949
 
 ---
+> [!lemma] Proposition 2
+> Let $X$ be a contractible space.
+> 1. $X$ is path-connected.
+> 2. $X$ is connected.
+
+> [!proof]-
+> Let $h:X\times[0,1]\to X$ be a homotopy from $\text{id}_{X}$ to a constant map $x_{0}$. Then, for any $x\in X$, $$\begin{array}{cccc} {\gamma_{x}:}&{[0,1]}&\to&{X}\\&{t} &\mapsto & {h(x,t)} \end{array}{}$$is a path from $x$ to $x_{0}$ as $\gamma_{x}(0)=h(x,0)=\text{id}_{X}(x)=x$ and $\gamma_{x}(1)=h(x,1)=x_{0}$. Therefore, $x_{0}$ is path connected with every point $x\in X$. As being path-connected is an equivalence relation, this proves the path-connectedness.
+> 
+> Further, any path-connected space is connected.
+---
 ##### Examples 
 > [!h] Example 1 (Rn)
 > $\mathbb{R}^n$ is contractible for $n\geq 0$. For $y\in \mathbb{R}^n$, we have the homotopy, $$\begin{array}{cccc} {h:}&{\mathbb{R}^n\times [0,1]}&\to&{\mathbb{R}^n}\\&{(x,t)} &\mapsto & {(1-t)x+ty} \end{array}{}$$So is any non-empty star-shaped subset of $\mathbb{R}^n$. 
