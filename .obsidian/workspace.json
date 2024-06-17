@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Topology/Path.md",
                 "mode": "preview",
                 "source": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -299,15 +299,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "99226da63beea286",
+  "active": "a56812a111b5757b",
   "lastOpenFiles": [
-    "Topology/Contractible Space.md",
-    "Topology/Path.md",
     "Topology/Fundamental Group.md",
+    "Topology/Path-Connected Space.md",
+    "Topology/Path.md",
+    "Topology/Contractible Space.md",
+    "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Compact-Open Topology.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Courses/Topology/Exercise Sheet 11.md",
-    "Topology/Path-Connected Space.md",
     "Topology/Locally Path-Connected Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Connected Space.md",
