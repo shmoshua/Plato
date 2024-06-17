@@ -40,11 +40,11 @@
 > [!lemma] Proposition 3 (Fundamental Group of Product Spaces)
 > For topological spaces $X,Y$ and $p,q$ projections from $X\times Y$ to respective spaces. Then, for all $(x,y)\in X\times Y$,$$\alpha:\pi_{1}(X\times Y,(x,y))\to \pi_{1}(X,x)\times \pi_{1}(Y,y),\quad \gamma\mapsto (p_{*}(\gamma),q_{*}(\gamma))$$is a group isomorphism.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. $\alpha$ is a group homomorphism as $p_{*}$ and $q_{*}$ are respectively by Proposition 2.1.
 > 2. $\alpha$ is injective: let $\gamma:[0,1]\to X\times Y$ be a path s.t. $p_{*}(\gamma)=\varepsilon_{x}$ and $q_{*}(\gamma)=\varepsilon_{y}$ with path homotopies $h_{1},h_{2}$ from $p\circ\gamma$ to $\varepsilon_{x}$ and from $q\circ\gamma$ to $\varepsilon_{y}$ respectively. Then, $$h(t,s):=(h_{1}(t,s),h_{2}(t,s))$$is a path homotopy from $\gamma$ to $\varepsilon_{(x,y)}$.
-> 3. $\alpha$ is surjecti
+> 3. $\alpha$ is surjective: For $\gamma_{1},\gamma_{2}$ closed paths in $X$ and $Y$ at $x$ and $y$ respectively, we have that: $$\gamma:[0,1]\to X\times Y,\quad t\mapsto (\gamma_{1}(t),\gamma_{2}(t))$$is a closed path at $(x,y)$ s.t. $\alpha(\gamma)=(\gamma_{1},\gamma_{2})$.
 ---
 
 ![[Contractible Space#^f327ea]]
@@ -57,4 +57,5 @@
 > 1. $\pi_{1}(S^1,1)\cong \mathbb{Z}$.
 > 2. $\pi_{1}(\mathbb{R}^n,x)=\{ \varepsilon_{x} \}$ for all $x\in \mathbb{R}^n$.
 > 3. for any convex $A\subseteq \mathbb{R}^n$, $\pi_{1}(A,x)=\{ \varepsilon_{x} \}$ for all $x\in A$.
+> 4. $\pi_{1}(\mathbb{R}^n / \mathbb{Z}^n,0)\cong \mathbb{Z}^n$ by Proposition 3.
 ---
