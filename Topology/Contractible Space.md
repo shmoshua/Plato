@@ -8,12 +8,15 @@
 > Let $X$ be a contractible space. 
 > 1. if for $x_{0}\in X$ s.t. $\text{id}_{X}$ is homotopic to $x_{0}$, then $\pi_{1}(X,x_{0})=\{ \varepsilon_{x_{0}} \}$
 
-> [!proof]+
-> Let $h:X\times[0,1]\to X$ be the homotopy with $h(x,0)=x$ and $h(x,1)=x_{0}$. Let further $\gamma:[0,1]\to X$ be a path. Then, define: $$\tilde{h}_{\gamma}:[0,1]\times[0,1]\to X,\quad (t,s)\mapsto h(\gamma(t),s)$$We verify that $\tilde{h}_{\gamma}$ is continuous and satisfies: $\tilde{h}_{\gamma}(t,0)=h(\gamma(t),0)=\gamma(t)$ and $\tilde{h}_{\gamma}(t,1)=h(\gamma(t),1)=x_{0}$. Hence, it is a homotopy from $\gamma$ to $x_{0}$. However, it may not be strict, i.e. $\gamma(0)$ or $\gamma(1)$ is not necessarily equal to $x_{0}$. 
+^f327ea
+
+> [!proof]-
+> Let $h:X\times[0,1]\to X$ be the homotopy with $h(x,0)=x$ and $h(x,1)=x_{0}$. Let further $\gamma:[0,1]\to X$ be a path. Then, define: $$\tilde{h}:[0,1]\times[0,1]\to X,\quad (t,s)\mapsto h(\gamma(t),s)$$We verify that $\tilde{h}$ is continuous and satisfies: $\tilde{h}(t,0)=h(\gamma(t),0)=\gamma(t)$ and $\tilde{h}(t,1)=h(\gamma(t),1)=x_{0}$. Hence, it is a homotopy from $\gamma$ to $x_{0}$. However, it may not be strict, i.e. $\widehat{h}(0,s)=h(\gamma(0),s)=h(x_{0},s)$is not necessarily $x_{0}$. 
 > 
-> If $\eta:[0,1]\to X$ with $\eta(s)=h(x_{0},s)$ then $\eta\in \pi_{1}(X,x_{0})$ and $\tilde{h}_{\eta}$ is a path homotopy. Therefore, for a fixed $s\in [0,1]$, $\varphi_{s}:[0,1]\to X,t\mapsto \tilde{h}_{\eta}(t,s)=h(\eta(t),s)$ is a path from $\eta(s)$ to $\eta(s)$. 
-> 
-> We now construct a homotopy from $\gamma$ to $\varepsilon_{x_{0}}$, $\widehat{h}:[0,1]\times[0,1]\to X$,  $$\widehat{h}(t,s):=\begin{cases}\eta(3ts)&0\leq t\leq \frac{1}{3}\\\tilde{h}_{\eta}(3t-1,s)& \frac{1}{3}\leq t\leq \frac{2}{3}\\ \eta(-3ts+3s)& \frac{2}{3}\leq t\leq 1\end{cases}$$This is continuous as $\eta(s)=\tilde{h}_{\eta}(0,s)$ and: $$\tilde{h}(t,0)=\begin{cases}x_{0}&0\leq t\leq \frac{1}{3}\\\gamma(3t-1)& \frac{1}{3}\leq t\leq \frac{2}{3}\\ x_{0}& \frac{2}{3}\leq t\leq 1\end{cases}$$
+> If defining $\eta(s)=h(x_{0},s)$ then $\eta\in \pi_{1}(X,x_{0})$. We now construct a homotopy from $\gamma$ to $\varepsilon_{x_{0}}$, $\widehat{h}:[0,1]\times[0,1]\to X$,  $$\widehat{h}(t,s):=\begin{cases}\eta(3ts)&0\leq t\leq \frac{1}{3}\\\tilde{h}(3t-1,s)& \frac{1}{3}\leq t\leq \frac{2}{3}\\ \eta(-3ts+3s)& \frac{2}{3}\leq t\leq 1\end{cases}$$This is continuous as $\eta(s)=\tilde{h}(0,s)$ and: $$\widehat{h}(t,0)=\begin{cases}x_{0}&0\leq t\leq \frac{1}{3}\\\gamma(3t-1)& \frac{1}{3}\leq t\leq \frac{2}{3}\\ x_{0}& \frac{2}{3}\leq t\leq 1\end{cases},\quad \widehat{h}(t,1)=\begin{cases}\eta(3t)&0\leq t\leq \frac{1}{3}\\x_{0}& \frac{1}{3}\leq t\leq \frac{2}{3}\\ \eta(-3t+3)& \frac{2}{3}\leq t\leq 1\end{cases}$$with $\widehat{h}(0,s)=x_{0}$ and $\widehat{h}(1,s)=x_{0}$. Therefore, $\widehat{h}$ is a homotopy from $\varepsilon_{x_{0}}\gamma \varepsilon_{x_{0}}=\gamma$ to $\eta \varepsilon_{x_{0}}\overline{\eta}=\varepsilon_{x_{0}}$. 
+
+^87c949
+
 ---
 ##### Examples 
 > [!h] Example 1 (Rn)

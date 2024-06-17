@@ -22,6 +22,11 @@
 
 - **Corollary**: $\pi_{1}(X,x)$ is indeed a group with path composition and path inversion.
 ---
+
+![[Contractible Space#^f327ea]]
+![[Contractible Space#^87c949|p]]
+
+---
 ##### Examples
 > [!h] Example 1
 > We have that:
