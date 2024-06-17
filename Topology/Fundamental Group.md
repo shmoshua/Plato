@@ -46,7 +46,12 @@
 > 2. $\alpha$ is injective: let $\gamma:[0,1]\to X\times Y$ be a path s.t. $p_{*}(\gamma)=\varepsilon_{x}$ and $q_{*}(\gamma)=\varepsilon_{y}$ with path homotopies $h_{1},h_{2}$ from $p\circ\gamma$ to $\varepsilon_{x}$ and from $q\circ\gamma$ to $\varepsilon_{y}$ respectively. Then, $$h(t,s):=(h_{1}(t,s),h_{2}(t,s))$$is a path homotopy from $\gamma$ to $\varepsilon_{(x,y)}$.
 > 3. $\alpha$ is surjective: For $\gamma_{1},\gamma_{2}$ closed paths in $X$ and $Y$ at $x$ and $y$ respectively, we have that: $$\gamma:[0,1]\to X\times Y,\quad t\mapsto (\gamma_{1}(t),\gamma_{2}(t))$$is a closed path at $(x,y)$ s.t. $\alpha(\gamma)=(\gamma_{1},\gamma_{2})$.
 ---
+> [!lemma] Proposition 4
+> Let $X$ be a topological space and $x,y\in X$. If there exists a path $\alpha:[0,1]\to X$ from $x$ to $y$, $$i_{\alpha}:\pi_{1}(X,y)\to \pi_{1}(X,x),\quad \gamma\mapsto \alpha\gamma\overline{\alpha}$$is a group isomorphism.
 
+> [!proof]+
+> For $\gamma_{1},\gamma_{2}$ closed paths at $y$ with $\gamma_{1}\sim\gamma_{2}$, let $h$ be the path homotopy from $\gamma_{1}$ to $\gamma_{2}$. Then, $$\widehat{h}(t,s):=\begin{cases}\alpha(3t)& 0\leq t\leq \frac{1}{3}\\h(3t-1,s)& \frac{1}{3}\leq t\leq \frac{2}{3}\\\alpha(1-3t)& \frac{2}{3}\leq t\leq 1\end{cases}$$
+---
 ![[Contractible Space#^f327ea]]
 ![[Contractible Space#^87c949|p]]
 

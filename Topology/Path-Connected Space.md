@@ -2,6 +2,7 @@
 
 > [!definition]
 > A [[topological space]] $X$ is ***path-connected*** if for all $x,y\in X$, there exists a [[path]] $\gamma:[0,1]\to X$ from $x$ to $y$.
+- **Related Definition**: For any $X$, we can define an equivalence relation: $x \sim y$ if and only if there is a path from $x$ to $y$. Then, the equivalence classes are ***path-components*** of $X$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
