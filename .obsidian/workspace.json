@@ -164,14 +164,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Topology/Homotopy.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -237,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Topology/Path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Topology/Path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Contractible Space.md"
+                "file": "Topology/Path.md"
               }
             }
           }
@@ -299,12 +299,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a56812a111b5757b",
+  "active": "8443ddb086fe642e",
   "lastOpenFiles": [
-    "Topology/Fundamental Group.md",
-    "Topology/Path-Connected Space.md",
+    "Topology/Homotopy.md",
     "Topology/Path.md",
+    "Topology/Fundamental Group.md",
     "Topology/Contractible Space.md",
+    "Topology/Path-Connected Space.md",
     "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Compact-Open Topology.md",
     "Courses/Topology/Topology Roadmap.md",
@@ -313,7 +314,6 @@
     "Topology/Connected Space.md",
     "Topology/Topology of Compact Convergence.md",
     "Topology/One-Point Compactification.md",
-    "Topology/Homotopy.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Courses/Topology/Exercise Sheet 8.md",
     "Topology/Hausdorff Space.md",
