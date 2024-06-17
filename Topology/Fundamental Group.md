@@ -49,8 +49,12 @@
 > [!lemma] Proposition 4
 > Let $X$ be a topological space and $x,y\in X$. If there exists a path $\alpha:[0,1]\to X$ from $x$ to $y$, $$i_{\alpha}:\pi_{1}(X,y)\to \pi_{1}(X,x),\quad \gamma\mapsto \alpha\gamma\overline{\alpha}$$is a group isomorphism.
 
-> [!proof]+
-> For $\gamma_{1},\gamma_{2}$ closed paths at $y$ with $\gamma_{1}\sim\gamma_{2}$, let $h$ be the path homotopy from $\gamma_{1}$ to $\gamma_{2}$. Then, $$\widehat{h}(t,s):=\begin{cases}\alpha(3t)& 0\leq t\leq \frac{1}{3}\\h(3t-1,s)& \frac{1}{3}\leq t\leq \frac{2}{3}\\\alpha(1-3t)& \frac{2}{3}\leq t\leq 1\end{cases}$$
+> [!proof]-
+> For $\gamma_{1},\gamma_{2}$ closed paths at $y$ with $\gamma_{1}\sim\gamma_{2}$, let $h$ be the path homotopy from $\gamma_{1}$ to $\gamma_{2}$. Then, $$\widehat{h}(t,s):=\begin{cases}\alpha(3t)& 0\leq t\leq \frac{1}{3}\\h(3t-1,s)& \frac{1}{3}\leq t\leq \frac{2}{3}\\\alpha(3-3t)& \frac{2}{3}\leq t\leq 1\end{cases}$$Then, $\widehat{h}(t,0)=i_{\alpha}(\gamma_{1})(t)$ and $\widehat{h}(t,1)=i_{\alpha}(\gamma_{2})(t)$. Further, $\widehat{h}(0,s)=x$ and $\widehat{h}(1,s)=x$. Hence, $\widehat{h}$ is a path homotopy from $i_{\alpha}(\gamma_{1})$ to $i_{\alpha}(\gamma_{2})$.
+> 
+> Further, $$i_{\alpha}(\gamma_{1}\gamma_{2})=\alpha\gamma_{1}\gamma_{2}\overline{\alpha}=\alpha\gamma_{1}\overline{\alpha}\alpha\gamma_{2}\overline{\alpha}=i_{\alpha}(\gamma_{1})i_{\alpha}(\gamma_{2})$$It is therefore an isomorphism as $i_{\overline{\alpha}}$ is its inverse.
+- **Corollary**: if $X$ is [[Path-Connected Space|path-connected]], all of its fundamental groups are isomorphic.
+- **Remark**: the concrete isomorphism in the proposition depends on the path $\alpha$.
 ---
 ![[Contractible Space#^f327ea]]
 ![[Contractible Space#^87c949|p]]
