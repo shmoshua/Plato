@@ -103,8 +103,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 12.md",
-                "mode": "source",
+                "file": "Algebra/Orbit and Stablizer.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -169,7 +169,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -235,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Algebra/Orbit and Stablizer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Algebra/Orbit and Stablizer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,7 +276,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Covering Space.md"
+                "file": "Algebra/Orbit and Stablizer.md"
               }
             }
           }
@@ -297,13 +298,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "a56812a111b5757b",
   "lastOpenFiles": [
-    "Courses/Topology/Topology Roadmap.md",
+    "Courses/Topology/Exercise Sheet 12.md",
     "Topology/Covering Space.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Retract.md",
     "Courses/Topology/Exercise Sheet 11.md",
-    "Courses/Topology/Exercise Sheet 12.md",
     "Topology/Continuous Function.md",
     "Topology/Fundamental Group.md",
     "Topology/Contractible Space.md",
