@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Lift.md",
                 "mode": "source",
                 "source": true
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Lift.md",
                 "mode": "preview",
                 "source": false
               }
@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Lift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Lift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,7 +275,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Covering Space.md"
+                "file": "Topology/Lift.md"
               }
             }
           }
@@ -299,10 +299,11 @@
   },
   "active": "6a002cbee98ff30b",
   "lastOpenFiles": [
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Lift.md",
+    "Topology/Covering Space.md",
     "Algebra/Orbit and Stablizer.md",
     "Courses/Topology/Exercise Sheet 12.md",
-    "Topology/Covering Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Retract.md",
     "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Continuous Function.md",
@@ -324,7 +325,6 @@
     "Courses/Topology/Exercise Sheet 8.md",
     "Topology/Hausdorff Space.md",
     "Lie Group/Lie Group.md",
-    "Topology/Compact Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
