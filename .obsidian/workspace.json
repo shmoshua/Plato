@@ -115,7 +115,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -169,7 +169,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -297,12 +298,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "a56812a111b5757b",
   "lastOpenFiles": [
-    "Topology/Retract.md",
-    "Courses/Topology/Exercise Sheet 12.md",
-    "Courses/Topology/Exercise Sheet 11.md",
+    "Topology/Continuous Function.md",
     "Topology/Fundamental Group.md",
+    "Courses/Topology/Exercise Sheet 12.md",
+    "Topology/Retract.md",
+    "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Contractible Space.md",
     "Topology/Homotopy.md",
     "Courses/Topology/Topology Roadmap.md",
@@ -324,7 +326,6 @@
     "Topology/Compact Space.md",
     "Topology/Metric Space.md",
     "Topology/Quotient Topology.md",
-    "Differential Geometry/Partition of Unity.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
