@@ -9,11 +9,20 @@
 ##### Properties
 > [!lemma] Theorem 1
 > Let $X$ be a topological space and $G$ a [[Topological Group|discrete group]] with a continuous group action $G \curvearrowright X$. 
-> 1. If for all $x\in X$ there exists an open neighborhood $U\ni x$ s.t. $gU\cap U= \varnothing$ for all $g\neq e$, the map: $$p:X\to$$
+> 1. If for all $x\in X$ there exists an open neighborhood $U\ni x$ s.t. $gU\cap U= \varnothing$ for all $g\neq e$, the projection $p:X\to X/G$ is a $G$-covering space.
+
+> [!proof]+
+> Let $\overline{x}\in X /G$ and $x\in X$ s.t. $p(x)=\overline{x}$. Let $U$ be the open neighborhood of $x$ in the assumption. Then, let $V=p(U)\subseteq X / G$. It follows that$$p ^{-1}(V)=\bigcup_{g\in G}^{}gU$$which is a disjoint union of open sets and is therefore $p ^{-1}(V)$ is open. This shows that $V$ is an open neighborhood of $\overline{x}$. Furthermore, there is a bijection: $$U\times G\to p ^{-1}(V),\quad (x,g)\mapsto gx$$which is surjective as $p ^{-1}(V)=\bigcup_{g\in G}^{}gU$, injective as it is disjoint. Moreover, it is continuous as the restriction of the group action. Therefore, it is left to show that the inverse is continuous, which is immediate as for $W\subseteq U$ open and $g\in G$, $gW$ is open. 
 ---
 
 ##### Examples
 > [!h] Example 1
 > We have:
 > 1. $S^1\to S^1,z\mapsto z^n$ is a covering space with $D=\{ 1,\dots,n \}$.
-> 2. $\mathbb{R}\to S^1,t\mapsto \exp(2\pi i t)$ is a covering space with $D=\mathbb{Z}$.
+> 2. $\mathbb{R}\to S^1,t\mapsto \exp(2\pi i t)$ is a $\mathbb{Z}$-covering space.
+
+> [!proof]-
+>  We have:
+>  1. Consider $X=S^1$ and $G:=\{ z\in S^1:z^n=1 \}$ as a discrete group. Then, we acquire the continuous action: $$G\times X\to X,\quad (z,x)\mapsto zx$$Then, for any $x\in X$, we easily have $U\ni x$ with $gU\cap U=\varnothing$ for all $g\neq e$. Therefore, the projection $p:S^1\to S^1  / G$ is a covering space with degree $n$. Further, we have a homeomorphism: $$\Phi:S^1 / G\to S^1,\quad xG\mapsto x^n$$
+>  2. As $\mathbb{Z}\times \mathbb{R}\to \mathbb{R},(n,x)\mapsto x+n$ is a continuous group action, we only need to verify a small condition. For $x\in X$, consider $U:=\left( x-\frac{1}{2},x+\frac{1}{2} \right)$. Then, $gU\cap U=\varnothing$ for all $g\neq e$. Hence, $p:\mathbb{R}\to \mathbb{R} / \mathbb{Z}$ is a $\mathbb{Z}$-covering space. This proves the statement.
+---

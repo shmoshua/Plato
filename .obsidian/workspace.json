@@ -169,8 +169,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -236,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Topology/Covering Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Topology/Covering Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +275,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md"
+                "file": "Topology/Covering Space.md"
               }
             }
           }
@@ -298,8 +297,9 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a56812a111b5757b",
+  "active": "6a002cbee98ff30b",
   "lastOpenFiles": [
+    "Algebra/Orbit and Stablizer.md",
     "Courses/Topology/Exercise Sheet 12.md",
     "Topology/Covering Space.md",
     "Courses/Topology/Topology Roadmap.md",
@@ -325,7 +325,6 @@
     "Topology/Hausdorff Space.md",
     "Lie Group/Lie Group.md",
     "Topology/Compact Space.md",
-    "Topology/Metric Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
