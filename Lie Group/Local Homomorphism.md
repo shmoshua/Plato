@@ -6,7 +6,7 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Extension of Local Homomorphisms)
-> If $G$ is a [[simply connected]] topological group, then any local homomorphism $\varphi:U\to H$ extends uniquely to a continuous homomorphism $G\to H$.
+> If $G$ is a [[Simply Connected Space|simply connected]] topological group, then any local homomorphism $\varphi:U\to H$ extends uniquely to a continuous homomorphism $G\to H$.
 
 > [!proof]- 
 > We have:

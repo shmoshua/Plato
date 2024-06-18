@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Topology/Simply Connected Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -79,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -103,19 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71c0375bb8968fe3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Simply Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -127,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -169,7 +158,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -235,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Topology/Simply Connected Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Topology/Simply Connected Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Lift.md"
+                "file": "Topology/Simply Connected Space.md"
               }
             }
           }
@@ -297,34 +287,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6a002cbee98ff30b",
+  "active": "36e87c04d2be24f2",
   "lastOpenFiles": [
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Lift.md",
+    "Topology/Fundamental Group.md",
     "Topology/Covering Space.md",
+    "Topology/Simply Connected Space.md",
+    "Topology/Contractible Space.md",
+    "Topology/Path-Connected Space.md",
+    "Topology/Continuous Function.md",
+    "simply connected.md",
+    "Lie Group/Local Homomorphism.md",
+    "Topology/Lift.md",
+    "Topology/Homotopy.md",
     "Algebra/Orbit and Stablizer.md",
+    "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 12.md",
     "Topology/Retract.md",
     "Courses/Topology/Exercise Sheet 11.md",
-    "Topology/Continuous Function.md",
-    "Topology/Fundamental Group.md",
-    "Topology/Contractible Space.md",
-    "Topology/Homotopy.md",
     "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Topology/One-Point Compactification.md",
     "Topology/Normal Space.md",
     "Topology/Path.md",
     "Topology/Locally Path-Connected Space.md",
-    "Topology/Path-Connected Space.md",
     "Algebra/Group Homomorphism.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Topology/Compact-Open Topology.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Topology/Topology of Compact Convergence.md",
-    "Courses/Topology/Exercise Sheet 8.md",
-    "Topology/Hausdorff Space.md",
-    "Lie Group/Lie Group.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

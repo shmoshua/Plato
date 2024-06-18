@@ -20,13 +20,14 @@
 ---
 > [!lemma] Proposition 2
 > Let $X$ be a contractible space.
-> 1. $X$ is path-connected.
-> 2. $X$ is connected.
+> 1. $X$ is [[Path-Connected Space|path-connected]].
+> 2. $X$ is [[Connected Space|connected]].
+> 3. $X$ is [[Simply Connected Space|simply connected]].
 
 > [!proof]-
 > Let $h:X\times[0,1]\to X$ be a homotopy from $\text{id}_{X}$ to a constant map $x_{0}$. Then, for any $x\in X$, $$\begin{array}{cccc} {\gamma_{x}:}&{[0,1]}&\to&{X}\\&{t} &\mapsto & {h(x,t)} \end{array}{}$$is a path from $x$ to $x_{0}$ as $\gamma_{x}(0)=h(x,0)=\text{id}_{X}(x)=x$ and $\gamma_{x}(1)=h(x,1)=x_{0}$. Therefore, $x_{0}$ is path connected with every point $x\in X$. As being path-connected is an equivalence relation, this proves the path-connectedness.
 > 
-> Further, any path-connected space is connected.
+> Further, any path-connected space is connected. Also, simply connectedness follows from Proposition 1. 
 ---
 ![[Homotopy#^623c55]]
 ![[Homotopy#^fb1fb4|p]]
