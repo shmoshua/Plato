@@ -12,7 +12,7 @@
 
 ^a2c505
 
-> [!proof]+
+> [!proof]-
 > Consider the map: $$\begin{array}{cccc} {p:}&{A_{I}:=A\times \mathbb{C}}&\to&{A}\\&{(x,\lambda)} &\mapsto & {x} \end{array}{}$$Then, 
 > 1. $\left\| p \right\|=1$ and 
 > 2. $p^{*}:A^{*}\to(A_{I})^{*}$ is weak*-continuous and injective, by [[Weak Topology|Proposition 3]].

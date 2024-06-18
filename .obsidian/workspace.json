@@ -73,14 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Functional Analysis/Guelfand Topology.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Functional Analysis/Guelfand Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Functional Analysis/Guelfand Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Functional Analysis/Guelfand Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Simply Connected Space.md"
+                "file": "Functional Analysis/Guelfand Topology.md"
               }
             }
           }
@@ -287,10 +287,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a56812a111b5757b",
+  "active": "f04f5d9c3b0db15a",
   "lastOpenFiles": [
-    "Topology/Lift.md",
+    "Courses/Topology/Exercise Sheet 11.md",
+    "Functional Analysis/Guelfand Topology.md",
     "Topology/Simply Connected Space.md",
+    "Topology/Lift.md",
     "Topology/Fundamental Group.md",
     "Topology/Covering Space.md",
     "Topology/Contractible Space.md",
@@ -303,7 +305,6 @@
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Topology/Exercise Sheet 12.md",
     "Topology/Retract.md",
-    "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Topology/One-Point Compactification.md",
@@ -314,7 +315,6 @@
     "Functional Analysis/Uniformly Continuous Function.md",
     "Topology/Compact-Open Topology.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Topology of Compact Convergence.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
