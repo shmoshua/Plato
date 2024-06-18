@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Retract.md",
+                "file": "Courses/Topology/Exercise Sheet 12.md",
                 "mode": "source",
                 "source": true
               }
@@ -103,8 +103,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
-                "mode": "preview",
+                "file": "Courses/Topology/Exercise Sheet 12.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -169,7 +169,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,7 +199,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path-connec",
+                "query": "implicit function theorem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -235,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Retract.md",
+                "file": "Courses/Topology/Exercise Sheet 12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Retract.md",
+                "file": "Courses/Topology/Exercise Sheet 12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,7 +276,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Retract.md"
+                "file": "Courses/Topology/Exercise Sheet 12.md"
               }
             }
           }
@@ -297,10 +298,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6a002cbee98ff30b",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Retract.md",
+    "Courses/Topology/Exercise Sheet 12.md",
+    "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Fundamental Group.md",
     "Topology/Contractible Space.md",
     "Topology/Homotopy.md",
@@ -324,7 +326,6 @@
     "Topology/Metric Space.md",
     "Topology/Quotient Topology.md",
     "Differential Geometry/Partition of Unity.md",
-    "Courses/Topology/Exercise Sheet 10.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
