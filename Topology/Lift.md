@@ -10,7 +10,7 @@
 > Let $f:Y\to X$ be a [[covering space]]. Let $h:Z\times[0,1]\to X$ be a [[homotopy]]. 
 > 1. for a lift $\tilde{h}_{0}$ of $h_{0}:Z\to X,z \mapsto h(z,0)$, there exists a unique lift $\tilde{h}$ of $h$ s.t. $\tilde{h}(z,0)=\tilde{h}_{0}(z)$ for all $z\in Z$. 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. **Claim 1: The lift is unique when $Z$ is single-point**
 >    Let $Z$ be a single point set. Then, $h$ can be considered as a continuous map $h:[0,1]\to X$. We will show the uniqueness of the lift in this case. 
@@ -58,5 +58,9 @@
 >    \end{tikzcd}
 >    \end{document}
 >    ```
->    then such $U\times J$ exists as $h$ is continuous. Then, for $t_{0}$, we can write: $$\varphi(\tilde{h}(z,t_{0}))=(h(z,t_{0}),\delta(z))$$
+>    then such $U\times J$ exists as $h$ is continuous. Then, for $t_{0}$, we can write: $$\varphi(\tilde{h}_{t_{0}}(z,t_{0}))=(h(z,t_{0}),\delta(z))$$with $\delta:U\to D$ continuous and $\tilde{h}(z,t):=\varphi ^{-1}(h(z,t),\delta(z))$. By the same argument as in Claim 1, $\tilde{h}$ is unique.
+>    
+>    Now, for a given $z_{0}\in Z$, by compactness we can find a finite subset $S\subseteq [0,1]$ and $J_{s}$ for each $s\in S$, s.t. $[0,1]=\bigcup_{s\in S}^{}J_{s}$ and $U_{s}$ a neighborhood of $z_{0}$ s.t. $h(U_{s}\times J_{s})$ is a trivializable neighborhood of $h(z_{0},s)$. Let $U:=\bigcap_{s\in S}^{}U_{s}$. Further, we arrange $S$ in increasing order $s_{0}<s_{1}<\dots<s_{m}$ s.t. $J_{s_{i}}\cap J_{s_{i+1}}\neq \varnothing$ and $0\in J_{s_{0}}$ and $1\in J_{s_{m}}$. 
+>    
+>    By taking the local lift at each $z=z_{0}$ and $t_{0}\in J_{s_{i}}$, we can define $\tilde{h}(z,t_{0})$ for any $z\in Z$ and $t_{0}\in [0,1]$ and it is well-defined as the lift is unique given by above, as all the local neighborhoods are overlapping.
 ---

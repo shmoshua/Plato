@@ -6,10 +6,14 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Any path-connected space $X$ is [[Connected Space|connected]].
+> For any path-connected space $X$,
+> 1. $X$ is [[Connected Space|connected]].
+> 2. for any $f:X\to Y$ continuous, $f(X)$ is path-connected.
 
 > [!proof]-
-> Let $f:X\to \{ 0,1 \}$ be a continuous function. Assume $f$ is not constant and let $x,y\in X$ s.t. $f(x)=0$ and $f(y)=1$. Let $\gamma:[0,1]\to X$ be a path from $x$ to $y$. Then, $f\circ\gamma$ is continuous and $\{ 0,1 \}$ is connected, which is a contradiction. Therefore, $f$ is constant. 
+> We have:
+> 1. Let $f:X\to \{ 0,1 \}$ be a continuous function. Assume $f$ is not constant and let $x,y\in X$ s.t. $f(x)=0$ and $f(y)=1$. Let $\gamma:[0,1]\to X$ be a path from $x$ to $y$. Then, $f\circ\gamma$ is continuous and $\{ 0,1 \}$ is connected, which is a contradiction. Therefore, $f$ is constant. 
+> 2. Let $x,y\in X$ and $\gamma$ the path from $x$ to $y$. Then, $f\circ\gamma$ is a path from $f(x)$ to $f(y)$. 
 ---
 > [!lemma] Lemma 2
 > For any space $X$ and $x\in X$, the path component of $x$ in $X$ is contained in the connected component of $x$. 

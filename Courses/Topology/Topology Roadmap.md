@@ -102,6 +102,10 @@
 
 **5.2 Coverings, Homotopies and Fundamental Groups**
 1. [[Lift]]
+2. [[Simply Connected Space]]
+
+**5.3 The Universal Cover**
+
 ---
 ### Exercises
 1. [[Courses/Topology/Exercise Sheet 1|Exercise Sheet 1]]
