@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Inscribed Rectangle Problem.md",
+                "file": "Topology/Local Homeomorphism.md",
                 "mode": "source",
                 "source": true
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Inscribed Rectangle Problem.md",
+                "file": "Topology/Local Homeomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Inscribed Rectangle Problem.md",
+                "file": "Topology/Local Homeomorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Inscribed Rectangle Problem.md",
+                "file": "Topology/Local Homeomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +251,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Inscribed Rectangle Problem.md"
+                "file": "Topology/Local Homeomorphism.md"
               }
             }
           }
@@ -273,15 +273,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "d6343995184d76ee",
   "lastOpenFiles": [
+    "Lie Group/Local Homomorphism.md",
+    "Topology/Local Homeomorphism.md",
+    "Topology/Path.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Inscribed Rectangle Problem.md",
     "Algebra/Complex Polynomials.md",
     "Algebra/Galois Correspondence.md",
     "Topology/Covering Space.md",
     "Topology/Universal Cover.md",
-    "Topology/Path.md",
     "Topology/Simply Connected Space.md",
     "Topology/Path-Connected Space.md",
     "Topology/Fundamental Group.md",
@@ -294,13 +296,11 @@
     "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Continuous Function.md",
     "simply connected.md",
-    "Lie Group/Local Homomorphism.md",
     "Algebra/Orbit and Stablizer.md",
     "Courses/Topology/Exercise Sheet 12.md",
     "Topology/Retract.md",
     "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
-    "Topology/One-Point Compactification.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
