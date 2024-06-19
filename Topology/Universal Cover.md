@@ -14,8 +14,15 @@
 > Let $x_{0}\in X$ and define: $$\tilde{Y}:=\{ \gamma\in C([0,1],X): \gamma(0)=x_{0}\}$$and $Y:=\tilde{Y} /\sim_{p}$. Then, we claim that the function $f:Y\to X, \gamma\mapsto \gamma(1)$ is a covering space.
 > 1. **Claim 1: $f:Y\to X$ is a covering space.**
 >    We first define a bijection $f^{-1}(\{ x \})\to \pi_{1}(X,x_{0})$. Let $\gamma\in f^{-1}(x)$ be a fixed curve which exists as $X$ is path-connected. Then, consider: $$f^{-1}(\{ x \})\to \pi_{1}(X,x_{0}),\quad \gamma'\mapsto\gamma \overline{\gamma'}$$is a bijection as it is injective by definition and for $\eta\in \pi_{1}(X,x_{0})$, $\gamma \overline{\overline{\eta}\gamma }=\gamma\overline{\gamma}\eta=\eta$.
+>    
+>    As $X$ is locally path connected and semi-locally simply connected, for any $x\in X$, there exists a neighborhood $U$ of $x$ s.t. $U$ is path-connected and for any loop at $x$ on $U$ is path-homotopic to $\varepsilon_{x}$ in $X$. Then, we define the bijection: $$f^{-1}(U)\to U\times f^{-1}(\{ x \}),\quad \gamma\mapsto(\gamma(1),\gamma \overline{\lambda_{U,\gamma(1)}})$$where $\lambda_{U,\gamma(1)}$ is the path from $x$ to $\gamma(1)$ over $U$. This is well-defined as if $\lambda,\lambda'$ are two such paths, $\lambda\overline{\lambda'}$ is path homotopic to $\varepsilon_{x}$ and $\lambda$ is path homotopic to $\lambda'$. Therefore, if we endow $Y$ with a topology s.t. the bijection is homeomorphic, it proves that $f$ is a covering space.
+>    
+>    As $Y$ is covered by $f^{-1}(U)$, we just need to show that this homeomorphism is compatible, i.e. for any $U_{1},U_{2}$ with $x_{1},x_{2}$ as base points as above, $$(U_{1}\cap U_{2})\times f(\{ x_{2} \})\to(U_{1}\cap U_{2})\times f(\{ x_{1} \}),(x,\eta)\mapsto (\eta\lambda_{U_{2},x}(1),\eta\lambda_{U_{2},x}\overline{\lambda_{U_{1},x}})=(x,\eta\lambda_{U_{2},x}\overline{\lambda_{U_{1},x}})$$is a homeomorphism. Firstly, this is a bijection from above. Then, this map is continuous  as $\eta\lambda_{U_{2},x}\overline{\lambda_{U_{1}},x}$ is locally constant. The continuity of the inverse holds by symmetry.
 > 2. **Claim 2: $Y$ is simply connected.**
-> 3. **Claim 3: $\pi_{1}(X,x_{0})$ acts on $Y$ with quotient $X$.**
+> 	   We first show that $Y$ is path-connected. For $\gamma\in \tilde{Y}$, we have that: $$\tilde{\eta}:[0,1]\to \tilde{Y},\quad s\mapsto(t\mapsto\gamma(st))$$ can be lifted to $\eta:[0,1]\to Y, s\mapsto[\tilde{\eta}(s)]$ where $\eta(0)=[\varepsilon_{x_{0}}]$ and $\eta(1)=[\gamma]$. This shows the path-connectedness.
+> 	   
+> 	   
+> 1. **Claim 3: $\pi_{1}(X,x_{0})$ acts on $Y$ with quotient $X$.**
 ---
 ##### Examples
 > [!h] Example 1
