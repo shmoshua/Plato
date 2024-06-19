@@ -108,7 +108,12 @@
 1. [[Universal Cover]]
 
 **5.4 Classification of Coverings**
-1. 
+1. [[Covering Space]]
+---
+##### 6. Perspectives
+1. [[Complex Polynomials|Fundamental Theorem of Algebra]]
+2. Picard's Little Theorem
+3. [[Inscribed Rectangle Problem]]
 
 ---
 ### Exercises

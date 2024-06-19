@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Inscribed Rectangle Problem.md",
                 "mode": "source",
                 "source": true
               }
@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -92,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Inscribed Rectangle Problem.md",
                 "mode": "preview",
                 "source": false
               }
@@ -146,8 +145,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Complex Polynomials.md",
+                "file": "Topology/Inscribed Rectangle Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Complex Polynomials.md",
+                "file": "Topology/Inscribed Rectangle Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +251,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Complex Polynomials.md"
+                "file": "Topology/Inscribed Rectangle Problem.md"
               }
             }
           }
@@ -275,14 +273,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "393a24c38c0a573f",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Algebra/Galois Correspondence.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Inscribed Rectangle Problem.md",
     "Algebra/Complex Polynomials.md",
+    "Algebra/Galois Correspondence.md",
     "Topology/Covering Space.md",
     "Topology/Universal Cover.md",
     "Topology/Path.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Simply Connected Space.md",
     "Topology/Path-Connected Space.md",
     "Topology/Fundamental Group.md",
@@ -302,7 +301,6 @@
     "Topology/Connected Space.md",
     "Courses/Topology/Exercise Sheet 7.md",
     "Topology/One-Point Compactification.md",
-    "Topology/Normal Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
