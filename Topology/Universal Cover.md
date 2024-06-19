@@ -21,7 +21,7 @@
 > 2. **Claim 2: $Y$ is simply connected.**
 > 	   We first show that $Y$ is path-connected. For $\gamma\in \tilde{Y}$, we have that: $$\tilde{\eta}:[0,1]\to \tilde{Y},\quad s\mapsto(t\mapsto\gamma(st))$$ can be lifted to $\eta:[0,1]\to Y, s\mapsto[\tilde{\eta}(s)]$ where $\eta(0)=[\varepsilon_{x_{0}}]$ and $\eta(1)=[\gamma]$. This shows the path-connectedness.
 > 	   
-> 	   
+> 	   For the simply-connectedness, let $\eta:[0,1]\to Y$ be a loop at $\varepsilon_{x_{0}}$. Now, consider the homotopy: $$h:[0,1]\times[0,1]\to X,\quad (t,s)\mapsto \eta(t)(s)$$Then, $h(0,s)=\eta(0)(s)=x_{0}$ and $h(1,s)=x_{0}$. Further, $h(t,0)=\eta(t)(0)=x_{0}$ and $$h(t,1)=\eta(t)(1)=f\circ \eta(t)$$ Therefore, $h$ is a path-homotopy from $\varepsilon_{x_{0}}$ to $f_{*}(\eta)$. This shows that $f_{*}(\eta)$ is trivial in $\pi_{1}(X,x_{0})$ and by [[Covering Space|Lemma 2]], $\eta$ is trivial in $\pi_{1}(Y,\varepsilon_{x_{0}})$. It shows that $\pi_{1}(Y,\varepsilon_{x_{0}})$ is trivial and $Y$ is simply connected.
 > 1. **Claim 3: $\pi_{1}(X,x_{0})$ acts on $Y$ with quotient $X$.**
 ---
 ##### Examples

@@ -15,8 +15,15 @@
 > Let $\overline{x}\in X /G$ and $x\in X$ s.t. $p(x)=\overline{x}$. Let $U$ be the open neighborhood of $x$ in the assumption. Then, let $V=p(U)\subseteq X / G$. It follows that$$p ^{-1}(V)=\bigcup_{g\in G}^{}gU$$which is a disjoint union of open sets and is therefore $p ^{-1}(V)$ is open. This shows that $V$ is an open neighborhood of $\overline{x}$. Furthermore, there is a bijection: $$U\times G\to p ^{-1}(V),\quad (x,g)\mapsto gx$$which is surjective as $p ^{-1}(V)=\bigcup_{g\in G}^{}gU$, injective as it is disjoint. Moreover, it is continuous as the restriction of the group action. Therefore, it is left to show that the inverse is continuous, which is immediate as for $W\subseteq U$ open and $g\in G$, $gW$ is open. 
 ---
 > [!lemma] Lemma 2
-> Let $f:Y\to X$ be a covering space. Let $y_{0}\in Y$ and $x_{0}:=f(y_{0})\in X$. Then, 
-> 1. $f_{*}:$
+> Let $f:Y\to X$ be a covering space. Then, 
+> 1. $f_{*}:\pi_{1}(Y,y_{0})\to \pi_{1}(X,f(y_{0}))$ is injective for all $y_{0}\in Y$.
+
+> [!proof]-
+> Let $\tilde{\gamma}$ be a loop at $y_{0}$ s.t. $f\circ \tilde{\gamma} \sim_{p}\varepsilon_{x_{0}}$ for $x_{0}:=f(y_{0})$. Let $h$ be its path homotopy. By [[Lift|homotopy lifting property]] there exists a lift $\tilde{h}:[0,1]\times[0,1]\to Y$ with $\tilde{h}_{0}=\tilde{\gamma}$. 
+> 
+> Since $f\circ\tilde{h}_{1}=h_{1}=\varepsilon_{x_{0}}$ is constant and $\varepsilon_{x_{0}}$ has $f\circ \varepsilon_{y_{0}}=\varepsilon_{x_{0}}$, by the uniqueness of the lift, we have $\tilde{h}_{1}=\varepsilon_{y_{0}}$. Further, since $f(\tilde{h}(t,0))=h(t,0)=x_{0}$ for all $t$, $\tilde{h}(t,0)=y_{0}$ for all $t$. Analogous for $\tilde{h}(t,1)$. 
+> 
+> Therefore, $\tilde{h}$ is a path homotopy from $\tilde{\gamma}$ to $\varepsilon_{y_{0}}$ and $\tilde{\gamma}$ is trivial in $\pi_{1}(Y,y_{0})$.
 ---
 
 ##### Examples

@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Topology/Path.md",
                 "mode": "preview",
                 "source": false
               }
@@ -123,19 +123,7 @@
             }
           },
           {
-            "id": "cc7681c678614f11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Fundamental Group.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "234f37c46ef81ae1",
+            "id": "393a24c38c0a573f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Universal Cover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Universal Cover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Covering Space.md"
+                "file": "Topology/Universal Cover.md"
               }
             }
           }
@@ -275,16 +263,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c38d90514a7e9677",
+  "active": "35a3efd9d674a8a7",
   "lastOpenFiles": [
+    "Topology/Path.md",
+    "Topology/Path-Connected Space.md",
+    "Topology/Universal Cover.md",
     "Topology/Covering Space.md",
     "Topology/Fundamental Group.md",
+    "Topology/Lift.md",
     "Topology/Contractible Space.md",
-    "Topology/Universal Cover.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Topology/Simply Connected Space.md",
-    "Topology/Path-Connected Space.md",
-    "Topology/Lift.md",
     "Courses/Topology/Topology Roadmap.md",
     "Algebra/Group Homomorphism.md",
     "Topology/Homotopy.md",
@@ -300,7 +289,6 @@
     "Courses/Topology/Exercise Sheet 7.md",
     "Topology/One-Point Compactification.md",
     "Topology/Normal Space.md",
-    "Topology/Path.md",
     "Topology/Locally Path-Connected Space.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Algebra/Untitled",
