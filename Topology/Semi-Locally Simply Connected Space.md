@@ -8,7 +8,9 @@
 ---
 ##### Examples
 > [!h] Example 1
-> Any locally simply connected space is semi-locally simply connected.
+> We have:
+> 1. Any locally simply connected space is semi-locally simply connected.
+> 2. Any [[topological manifold]] is semi-locally simply connected.
 ---
 > [!h] Example 2
 > For a [[simply connected space]] $Y$ and a [[covering space]] $p:Y\to X$, $X$ is semi-locally simply connected.

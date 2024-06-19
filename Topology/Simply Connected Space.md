@@ -27,7 +27,7 @@
 >    Given $g\in G$, there exists a path $\tilde{\gamma}:[0,1]\to Y$ from $x_{0}$ to $gx_{0}$. Then, $\gamma:=p\circ\tilde{\gamma}$ is a loop in $X$ at $\overline{x_{0}}$ and $\tilde{\gamma}$ is its lift. Therefore, $\beta(\gamma)=g$. Hence, $\beta$ is surjective and thereby $\alpha$.
 >    
 - **Remark**: It is necessary that $p$ is a covering space (cf. Non-example 1).
-- **Remark**: It is also not possible to have such a simply connected space $Y$ for every $X$, 
+- **Remark**: It is also not possible to have such a simply connected space $Y$ for every $X$, as this implies that $X$ is [[Path-Connected Space|path-connected]] (cf. [[Path-Connected Space|Proposition 1.2]]) and [[Semi-Locally Simply Connected Space|semi-locally simply connected]] (cf. [[Semi-Locally Simply Connected Space|Example 2]])
 ---
 ##### Examples
 > [!h] Example 1

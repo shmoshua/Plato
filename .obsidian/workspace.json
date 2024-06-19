@@ -61,26 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Semi-Locally Simply Connected Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f6e96476d0f7211e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Topology/Universal Cover.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -116,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Semi-Locally Simply Connected Space.md",
+                "file": "Topology/Universal Cover.md",
                 "mode": "preview",
                 "source": false
               }
@@ -134,7 +122,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Topology/Universal Cover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Topology/Universal Cover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Simply Connected Space.md"
+                "file": "Topology/Universal Cover.md"
               }
             }
           }
@@ -262,15 +251,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d6343995184d76ee",
+  "active": "35a3efd9d674a8a7",
   "lastOpenFiles": [
-    "Topology/Fundamental Group.md",
-    "Topology/Path-Connected Space.md",
     "Topology/Semi-Locally Simply Connected Space.md",
+    "Topology/Universal Cover.md",
+    "Topology/Simply Connected Space.md",
+    "Topology/Path-Connected Space.md",
+    "Topology/Fundamental Group.md",
     "Topology/Contractible Space.md",
     "Topology/Lift.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/Simply Connected Space.md",
     "Algebra/Group Homomorphism.md",
     "Topology/Homotopy.md",
     "Functional Analysis/Guelfand Topology.md",
@@ -289,7 +279,6 @@
     "Topology/Path.md",
     "Topology/Locally Path-Connected Space.md",
     "Functional Analysis/Uniformly Continuous Function.md",
-    "Topology/Compact-Open Topology.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

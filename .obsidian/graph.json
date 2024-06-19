@@ -4,14 +4,14 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:#Algebra",
+      "query": "tag:#Series",
       "color": {
         "a": 1,
-        "rgb": 14048348
+        "rgb": 16777215
       }
     },
     {
@@ -61,6 +61,13 @@
       "color": {
         "a": 1,
         "rgb": 11361494
+      }
+    },
+    {
+      "query": "tag:#Algebra",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
       }
     }
   ],
