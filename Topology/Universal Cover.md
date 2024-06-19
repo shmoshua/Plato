@@ -10,7 +10,7 @@
 > 2. if $f_{1},f_{2}$ are universal covers, for any $x\in X$ and $y_{1}\in Y_{1}$ and $y_{2}\in Y_{2}$ with $f_{1}(y_{1})=x$ and $f_{2}(y_{2})=x$, there exists a unique homeomorphism $\varphi:Y_{1}\to Y_{2}$ s.t. $\varphi(y_{1})=y_{2}$ and $f_{2}\circ\varphi=f_{1}$.
 > 3. given $x_{0}\in X$, there exists an action $\pi_{1}(X,x_{0}) \curvearrowright Y$ s.t. $Y / \pi_{1}(X,x_{0})$ is homeomorphic to $X$.
 
-> [!proof]+
+> [!proof]-
 > Let $x_{0}\in X$ and define: $$\tilde{Y}:=\{ \gamma\in C([0,1],X): \gamma(0)=x_{0}\}$$and $Y:=\tilde{Y} /\sim_{p}$. Then, we claim that the function $f:Y\to X, \gamma\mapsto \gamma(1)$ is a covering space.
 > 1. **Claim 1: $f:Y\to X$ is a covering space.**
 >    We first define a bijection $f^{-1}(\{ x \})\to \pi_{1}(X,x_{0})$. Let $\gamma\in f^{-1}(x)$ be a fixed curve which exists as $X$ is path-connected. Then, consider: $$f^{-1}(\{ x \})\to \pi_{1}(X,x_{0}),\quad \gamma'\mapsto\gamma \overline{\gamma'}$$is a bijection as it is injective by definition and for $\eta\in \pi_{1}(X,x_{0})$, $\gamma \overline{\overline{\eta}\gamma }=\gamma\overline{\gamma}\eta=\eta$.
@@ -23,6 +23,7 @@
 > 	   
 > 	   For the simply-connectedness, let $\eta:[0,1]\to Y$ be a loop at $\varepsilon_{x_{0}}$. Now, consider the homotopy: $$h:[0,1]\times[0,1]\to X,\quad (t,s)\mapsto \eta(t)(s)$$Then, $h(0,s)=\eta(0)(s)=x_{0}$ and $h(1,s)=x_{0}$. Further, $h(t,0)=\eta(t)(0)=x_{0}$ and $$h(t,1)=\eta(t)(1)=f\circ \eta(t)$$ Therefore, $h$ is a path-homotopy from $\varepsilon_{x_{0}}$ to $f_{*}(\eta)$. This shows that $f_{*}(\eta)$ is trivial in $\pi_{1}(X,x_{0})$ and by [[Covering Space|Lemma 2]], $\eta$ is trivial in $\pi_{1}(Y,\varepsilon_{x_{0}})$. It shows that $\pi_{1}(Y,\varepsilon_{x_{0}})$ is trivial and $Y$ is simply connected.
 > 1. **Claim 3: $\pi_{1}(X,x_{0})$ acts on $Y$ with quotient $X$.**
+>    The action is given by: $$\pi_{1}(X,x_{0})\times Y\to Y,\quad (\eta,\gamma)\to \eta\gamma$$By identifying $Y$ with the bijection from above $f^{-1}(U)\to U\times f^{-1}(\{ x_{U} \})$, we get that: $$\eta(x,\gamma)\mapsto(x,\eta\gamma)$$Since $\pi_{1}(X,x_{0})\to f^{-1}(\{ x_{U} \}), \eta\mapsto \eta \gamma_{0}$ is a bijection for a fixed $\gamma_{0}\in f^{-1}(\{ x_{U} \})$ with inverse $\gamma\mapsto \gamma\overline{\gamma_{0}}$, we have that $Y / \pi_{1}(X,x_{0})\cong X$.
 ---
 ##### Examples
 > [!h] Example 1

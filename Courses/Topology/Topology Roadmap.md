@@ -105,6 +105,10 @@
 2. [[Simply Connected Space]]
 
 **5.3 The Universal Cover**
+1. [[Universal Cover]]
+
+**5.4 Classification of Coverings**
+1. 
 
 ---
 ### Exercises
@@ -119,3 +123,5 @@
 9. [[Courses/Topology/Exercise Sheet 9|Exercise Sheet 9]]
 10. [[Courses/Topology/Exercise Sheet 10|Exercise Sheet 10]]
 11. [[Exercise Sheet 11]]
+12. [[Exercise Sheet 12]]
+13. 
