@@ -27,7 +27,16 @@
 > 
 > Therefore, $\tilde{h}$ is a path homotopy from $\tilde{\gamma}$ to $\varepsilon_{y_{0}}$ and $\tilde{\gamma}$ is trivial in $\pi_{1}(Y,y_{0})$.
 ---
+> [!lemma] Theorem 3
+> Let $X$ be [[Path-Connected Space|path-connected]], locally path-connected, [[Semi-Locally Simply Connected Space|semi-locally simply connected]] and $x_{0}\in X$. Further, let $f:Y\to X$ be a [[universal cover]] of $X$ by [[Universal Cover|universal cover theorem]]. Then,
+> 1. for any $G\leq \pi_{1}(X,x_{0})$, $Y / G\to X$ is a $\pi_{1}(X,x_{0}) /G$-covering.
+> 2. if $g:Z\to X$ is a path-connected covering, then there exists $G\leq \pi_{1}(X,x_{0})$ s.t. $g$ is isomorphic to $Y /G\to X$ as a covering space. In this case, $G=g_{*}(\pi_{1}(Z,z_{0}))$ where $f(z_{0})=x_{0}$.
+---
+##### Covering Spaces and Galois Correspondence
+There exists a close analogy between the two areas: 
+$$\begin{array}{c|c}\text{Galois}&\text{Covering Spaces}\\ \hline K&X\\L:K&f:Y\to X\\\overline{K}\text{ algebraic closure}&f:Y\to X\text{ universal cover}\\\text{Gal}(L:K)&\pi_{1}(X,x_{0})\\H\leq \text{Gal}(L:K)\iff L^H\subseteq L&H\leq \pi_{1}(X,x_{0}) \iff f:Y/H\to X\end{array}$$
 
+---
 ##### Examples
 > [!h] Example 1
 > We have:
