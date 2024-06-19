@@ -66,57 +66,20 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "f04f5d9c3b0db15a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
         "type": "tabs",
         "children": [
           {
-            "id": "6a002cbee98ff30b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Lift.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a56812a111b5757b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "817c3457c7a01538",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Topology/Lift.md",
                 "mode": "preview",
                 "source": false
               }
@@ -158,8 +121,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
+                "file": "Topology/Lift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
+                "file": "Topology/Lift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md"
+                "file": "Topology/Lift.md"
               }
             }
           }
@@ -287,16 +249,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f04f5d9c3b0db15a",
+  "active": "817c3457c7a01538",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 11.md",
-    "Functional Analysis/Guelfand Topology.md",
-    "Topology/Simply Connected Space.md",
-    "Topology/Lift.md",
     "Topology/Fundamental Group.md",
+    "Topology/Lift.md",
+    "Topology/Path-Connected Space.md",
+    "Functional Analysis/Guelfand Topology.md",
+    "Courses/Topology/Exercise Sheet 11.md",
+    "Topology/Simply Connected Space.md",
     "Topology/Covering Space.md",
     "Topology/Contractible Space.md",
-    "Topology/Path-Connected Space.md",
     "Topology/Continuous Function.md",
     "simply connected.md",
     "Lie Group/Local Homomorphism.md",
