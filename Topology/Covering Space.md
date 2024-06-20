@@ -67,15 +67,18 @@ $$\begin{array}{c|c}\text{Galois}&\text{Covering Spaces}\\ \hline K&X\\L:K&f:Y\t
 > 2. $\sigma U_{n}=U_{n}$ is obvious as $\sigma$ permutes the pairwisely different elements. Then, let $x\in U_{n} / S_{n}$ and $y_{1},\dots,y_{n!}$ its $n!$ distinct preimages. As $\mathbb{C}^n$ is Hausdorff, there exists disjoint open neighborhoods $V_{i}$ of $y_{i}$ in $\mathbb{C}^n$. Therefore, $$U:=\bigcap_{i=1}^{n!}q(V_{i})$$whose image is isomorphic to $U\times [n!]$ given by the action.
 ---
 > [!h] Example 3 (Critical Values)
-> Let $f\in \mathbb{C}[X]$ be a polynomial of $\deg(f)\geq 1$. Let $Z_{f}$ denote the set of zeros of $f'$, and $C_{f}:=f(Z_{f})$ the set of critical values of $f$. 
+> Let $f\in \mathbb{C}[X]$ be a polynomial of $d:=\deg(f)\geq 1$. Let $Z_{f}$ denote the set of zeros of $f'$, and $C_{f}:=f(Z_{f})$ the set of critical values of $f$. 
 > 1. if $\deg(f)\geq 2$, then $f$ is not a covering space. 
-> 2. Let $U_{f}:=\{ z\in \mathbb{C}:f'(z)\neq 0 \}$. Then, for any $z\in U_{f}$, there exists an open neighborhood $V_{z}$ of $z$ such that $f|_{V_{z}}$ defines a homeomorphism $V_{z}\to f(V_{z})$. 
-> 3. the map $f$ defines a covering space $U_{f}\to \mathbb{C} \backslash C_{f}$.
+> 3. $f:\mathbb{C} \backslash f^{-1}(C_{f})\to \mathbb{C} \backslash C_{f}$ is a covering space.
 
 > [!proof]+
 > We have:
 > 1. Assume that $f$ is a covering space. Then, we claim that $f$ is unbounded. Otherwise, by Liouville's theorem, $f$ is constant, which is a contradiction as $\deg(f)\geq 2$. Therefore, $f$ is unbounded and $f^{-1}(\{ x \})$ is finite for all $x\in \mathbb{C}$. Hence, by Lemma 2.2 there exists $d\geq 1$ s.t. $f^{-1}(\{ x \})=d$ for all $x\in \mathbb{C}$.
 >    
 >    Let $d=\deg(f)$ and consider $f'$ with roots $\alpha_{1},\dots,\alpha_{d-1}$. Then, $\alpha_{i}$ is the root of $f-f(\alpha_{i})$ and the root of $(f-f(\alpha_{i}))'=f'$. Therefore, $f-f(\alpha_{i})$ doesn't have $d$ distinct roots and  $\left| f^{-1}(\{ f(\alpha_{i}) \}) \right|< d$. As this is finite, there exists a $\beta\in \mathbb{C}$ for which this is not the case. This shows that $f$ is not a covering space.
-> 2. By the previous point, for any $z\in U_{f}$, 
+> 2. Let $U_{f}:=\mathbb{C} \backslash f^{-1}(C_{f})$. For every $z\in U_{f}$, we claim that we can find an open neighborhood $V_{z}\ni z$ in $U_{f}$ s.t. $f|_{V_{z}}:V_{z}\to f(V_{z})$ is a homeomorphism.
+>     
+>     Let $z\in U_{f}$. Then, $f-f(z)$ has $d$ distinct roots. Indeed, otherwise, there exists $\alpha\in \mathbb{C}$ s.t. $f(\alpha)=f(z)$ and $\alpha\in Z_{f}$. Therefore, $z\in f^{-1}(C_{f})$ which is a contradiction. Hence, $f^{-1}(f(z))$ has $d$ distinct p
+>    
+>    By the previous point, for any $z\in U_{f}$, 
 >    

@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -263,10 +263,11 @@
   },
   "active": "d6343995184d76ee",
   "lastOpenFiles": [
+    "Differential Geometry/Smooth Function.md",
     "Topology/Quotient Topology.md",
+    "Topology/Covering Space.md",
     "Algebra/Group Action.md",
     "Algebra/Complex Polynomials.md",
-    "Topology/Covering Space.md",
     "Lie Group/Topological Group.md",
     "Topology/Universal Cover.md",
     "Topology/Local Homeomorphism.md",
@@ -288,7 +289,6 @@
     "Topology/Continuous Function.md",
     "simply connected.md",
     "Algebra/Orbit and Stablizer.md",
-    "Courses/Topology/Exercise Sheet 12.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
