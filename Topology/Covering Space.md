@@ -39,12 +39,15 @@
 ---
 > [!lemma] Proposition 4 (Pullback)
 > Let $p:Y\to X$ be a covering space. Let $g:X'\to X$ be a continuous map. Define $$Y':=\{ (x,y)\in X'\times Y:g(x)=p(y) \}$$ Let $p_{1}:Y'\to X'$ be the projection $p_{1}(x,y)=x$ and $p_{2}:Y'\to Y$ be the projection $p_{2}(x,y)=y$.
-> 1. $p_{1}$ and $p_{2}$ are continuous and satisfy $g\circ p_{1}=p\circ p_{2}$. 
-> 2. if $p$ is a trivial covering with $Y=X\times D$ for discrete $D\neq\varnothing$, then $$\Psi:Y'\to X'\times D,\quad (x,(v,d))=(x,d)$$ is a homeomorphism
+> 1. if $p$ is a trivial covering with $Y=X\times D$ for discrete $D\neq\varnothing$, then $$\Psi:Y'\to X'\times D,\quad (x,(v,d))=(x,d)$$ is a homeomorphism.
 > 3. $p_{1}:Y'\to X'$ is a covering space called the ***pullback of $p$ along $g$***. 
 > 4. for every $x\in X'$, there is a bijection $p_{1} ^{-1}(\{ x \})\to p ^{-1}(\{ g(x) \})$.
 
-> [!pro]
+> [!proof]-
+> We have:
+> 1. for $(x,y)\in Y'$, $g(p_{1}(x,y))=g(x)=p(y)=p(p_{2}(y))$.
+> 2. We have that $$\Psi ^{-1}:X'\times D\to Y',\quad (x,d)\mapsto(x,(g(x),d))$$Then, $\Psi ^{-1}=(\text{id}_{X'},g)$ is continuous and $\Psi$ is also continuous.
+> 3. For $x\in X'$, $g(x)\in X$. Then, there exists $U\ni g(x)$ with homeomorphism $\varphi:U\times D\to p ^{-1}(U)$ s.t. $p\circ\varphi$ is a trivial covering. Therefore, by 2, there exists a homeomorphism $\Psi:(U\times D)'\to g^{-1}(U)\times D$. Then, $$p_{1}^{-1}(g^{-1}(U))=(g\circ p_{1})^{-1}(U)=p_{2}^{-1}(p ^{-1}(U))$$
 ---
 ##### Covering Spaces and Galois Correspondence
 There exists a close analogy between the two areas: 
