@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Local Homeomorphism.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -91,19 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Local Homeomorphism.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8443ddb086fe642e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -211,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Local Homeomorphism.md",
+                "file": "Topology/Covering Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Local Homeomorphism.md",
+                "file": "Topology/Covering Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Local Homeomorphism.md"
+                "file": "Topology/Covering Space.md"
               }
             }
           }
@@ -273,16 +261,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d6343995184d76ee",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Lie Group/Local Homomorphism.md",
     "Topology/Local Homeomorphism.md",
+    "Topology/Covering Space.md",
+    "Algebra/Group Action.md",
+    "Lie Group/Local Homomorphism.md",
     "Topology/Path.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Inscribed Rectangle Problem.md",
     "Algebra/Complex Polynomials.md",
     "Algebra/Galois Correspondence.md",
-    "Topology/Covering Space.md",
     "Topology/Universal Cover.md",
     "Topology/Simply Connected Space.md",
     "Topology/Path-Connected Space.md",
@@ -300,7 +289,6 @@
     "Courses/Topology/Exercise Sheet 12.md",
     "Topology/Retract.md",
     "Topology/Connected Space.md",
-    "Courses/Topology/Exercise Sheet 7.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

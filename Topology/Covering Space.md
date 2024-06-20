@@ -48,3 +48,7 @@ $$\begin{array}{c|c}\text{Galois}&\text{Covering Spaces}\\ \hline K&X\\L:K&f:Y\t
 >  1. Consider $X=S^1$ and $G:=\{ z\in S^1:z^n=1 \}$ as a discrete group. Then, we acquire the continuous action: $$G\times X\to X,\quad (z,x)\mapsto zx$$Then, for any $x\in X$, we easily have $U\ni x$ with $gU\cap U=\varnothing$ for all $g\neq e$. Therefore, the projection $p:S^1\to S^1  / G$ is a covering space with degree $n$. Further, we have a homeomorphism: $$\Phi:S^1 / G\to S^1,\quad xG\mapsto x^n$$
 >  2. As $\mathbb{Z}\times \mathbb{R}\to \mathbb{R},(n,x)\mapsto x+n$ is a continuous group action, we only need to verify a small condition. For $x\in X$, consider $U:=\left( x-\frac{1}{2},x+\frac{1}{2} \right)$. Then, $gU\cap U=\varnothing$ for all $g\neq e$. Hence, $p:\mathbb{R}\to \mathbb{R} / \mathbb{Z}$ is a $\mathbb{Z}$-covering space. This proves the statement.
 ---
+> [!h] Example 2
+> Consider $\mathbb{C}^n$ and $S_{n}$, the [[symmetry group]]. Consider the action: $$\sigma(x_{1},\dots,x_{n})=(x_{\sigma(1)},\dots,x_{\sigma(n)})$$Then,
+> 1. $p:\mathbb{C}\to \mathbb{C}/S_{1}$ is a covering space as $p=\text{id}_{\mathbb{C}}$.
+> 2. $p:\mathbb{C}^n\to \mathbb{C}^n / S_{n}$ is not a covering space for $n\geq 2$.
