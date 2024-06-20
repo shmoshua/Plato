@@ -37,6 +37,15 @@
 > 1. for any $G\leq \pi_{1}(X,x_{0})$, $Y / G\to X$ is a $\pi_{1}(X,x_{0}) /G$-covering.
 > 2. if $g:Z\to X$ is a path-connected covering, then there exists $G\leq \pi_{1}(X,x_{0})$ s.t. $g$ is isomorphic to $Y /G\to X$ as a covering space. In this case, $G=g_{*}(\pi_{1}(Z,z_{0}))$ where $f(z_{0})=x_{0}$.
 ---
+> [!lemma] Proposition 4 (Pullback)
+> Let $p:Y\to X$ be a covering space. Let $g:X'\to X$ be a continuous map. Define $$Y':=\{ (x,y)\in X'\times Y:g(x)=p(y) \}$$ Let $p_{1}:Y'\to X'$ be the projection $p_{1}(x,y)=x$ and $p_{2}:Y'\to Y$ be the projection $p_{2}(x,y)=y$.
+> 1. $p_{1}$ and $p_{2}$ are continuous and satisfy $g\circ p_{1}=p\circ p_{2}$. 
+> 2. if $p$ is a trivial covering with $Y=X\times D$ for discrete $D\neq\varnothing$, then $$\Psi:Y'\to X'\times D,\quad (x,(v,d))=(x,d)$$ is a homeomorphism
+> 3. $p_{1}:Y'\to X'$ is a covering space called the ***pullback of $p$ along $g$***. 
+> 4. for every $x\in X'$, there is a bijection $p_{1} ^{-1}(\{ x \})\to p ^{-1}(\{ g(x) \})$.
+
+> [!pro]
+---
 ##### Covering Spaces and Galois Correspondence
 There exists a close analogy between the two areas: 
 $$\begin{array}{c|c}\text{Galois}&\text{Covering Spaces}\\ \hline K&X\\L:K&f:Y\to X\\\overline{K}\text{ algebraic closure}&f:Y\to X\text{ universal cover}\\\text{Gal}(L:K)&\pi_{1}(X,x_{0})\\H\leq \text{Gal}(L:K)\iff L^H\subseteq L&H\leq \pi_{1}(X,x_{0}) \iff f:Y/H\to X\end{array}$$
@@ -71,14 +80,16 @@ $$\begin{array}{c|c}\text{Galois}&\text{Covering Spaces}\\ \hline K&X\\L:K&f:Y\t
 > 1. if $\deg(f)\geq 2$, then $f$ is not a covering space. 
 > 3. $f:\mathbb{C} \backslash f^{-1}(C_{f})\to \mathbb{C} \backslash C_{f}$ is a covering space.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Assume that $f$ is a covering space. Then, we claim that $f$ is unbounded. Otherwise, by Liouville's theorem, $f$ is constant, which is a contradiction as $\deg(f)\geq 2$. Therefore, $f$ is unbounded and $f^{-1}(\{ x \})$ is finite for all $x\in \mathbb{C}$. Hence, by Lemma 2.2 there exists $d\geq 1$ s.t. $f^{-1}(\{ x \})=d$ for all $x\in \mathbb{C}$.
 >    
 >    Let $d=\deg(f)$ and consider $f'$ with roots $\alpha_{1},\dots,\alpha_{d-1}$. Then, $\alpha_{i}$ is the root of $f-f(\alpha_{i})$ and the root of $(f-f(\alpha_{i}))'=f'$. Therefore, $f-f(\alpha_{i})$ doesn't have $d$ distinct roots and  $\left| f^{-1}(\{ f(\alpha_{i}) \}) \right|< d$. As this is finite, there exists a $\beta\in \mathbb{C}$ for which this is not the case. This shows that $f$ is not a covering space.
 > 2. Let $U_{f}:=\mathbb{C} \backslash f^{-1}(C_{f})$. For every $z\in U_{f}$, we claim that we can find an open neighborhood $V_{z}\ni z$ in $U_{f}$ s.t. $f|_{V_{z}}:V_{z}\to f(V_{z})$ is a homeomorphism.
 >     
->     Let $z\in U_{f}$. Then, $f-f(z)$ has $d$ distinct roots. Indeed, otherwise, there exists $\alpha\in \mathbb{C}$ s.t. $f(\alpha)=f(z)$ and $\alpha\in Z_{f}$. Therefore, $z\in f^{-1}(C_{f})$ which is a contradiction. Hence, $f^{-1}(f(z))$ has $d$ distinct p
+>     Let $z\in U_{f}$. Then, $f-f(z)$ has $d$ distinct roots. Indeed, otherwise, there exists $\alpha\in \mathbb{C}$ s.t. $f(\alpha)=f(z)$ and $\alpha\in Z_{f}$. Therefore, $z\in f^{-1}(C_{f})$ which is a contradiction. Hence, $f^{-1}(f(z))$ has $d$ distinct preimages $z_{1},\dots,z_{d}$. As $C_{f}$ is a finite set, it is closed and $U_{f}$ is open. Therefore, for each $z_{i}$, we can find $U_{i}\ni z_{i}$ s.t. $U_{i}\subseteq U_{f}$ and $U_{i}\cap U_{j}=\varnothing$ for all $i\neq j$ and $U_{i}$ is connected. Then, $$f^{-1}\left( \bigcap_{i=1}^{d}f(U_{i}) \right)$$has $d$ connected components $W_{i}\ni z_{i}$ s.t. $f$ is injective over $W_{i}$: if $f(x)=f(y)=t$ for $x,y\in W_{i}$, then $x=y$ as we have exactly $d$ preimages and $W_{i}$ are disjoint. 
+>     
+>     Wlog assume that $z\in W_{1}$ and to acquire the desired homeomorphism, take a compact neighborhood $K_{z}\subseteq W_{1}$. Then, $f|_{K_{z}}:K_{z}\to f(K_{z})$ is a homeomorphism as a continuous bijection with $K_{z}$ compact and $f(K_{z})\subseteq \mathbb{C}$ Hausdorff. Therefore, there exists open $V_{z}\subseteq K_{z}$ with $f|_{V_{z}}:V_{z}\to f(V_{z})$ is a homeomorphism.
 >    
->    By the previous point, for any $z\in U_{f}$, 
->    
+>    Then, for any $w\in \mathbb{C} \backslash C_{f}$, there exists exactly $z_{1},\dots,z_{d}\in \mathbb{C} \backslash f^{-1}(C_{f})$ s.t. $f(z_{i})=w$. Then, consider: $$U:=\bigcap_{i=1}^{d}f(V_{z_{i}})$$It follows that $f:f^{-1}(U)\to U\times D$ is a homeomorphism.
+---
