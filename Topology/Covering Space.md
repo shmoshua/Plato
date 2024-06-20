@@ -74,4 +74,8 @@ $$\begin{array}{c|c}\text{Galois}&\text{Covering Spaces}\\ \hline K&X\\L:K&f:Y\t
 
 > [!proof]+
 > We have:
-> 1. Assume that $f$ is a covering space. Then, 
+> 1. Assume that $f$ is a covering space. Then, we claim that $f$ is unbounded. Otherwise, by Liouville's theorem, $f$ is constant, which is a contradiction as $\deg(f)\geq 2$. Therefore, $f$ is unbounded and $f^{-1}(\{ x \})$ is finite for all $x\in \mathbb{C}$. Hence, by Lemma 2.2 there exists $d\geq 1$ s.t. $f^{-1}(\{ x \})=d$ for all $x\in \mathbb{C}$.
+>    
+>    Let $d=\deg(f)$ and consider $f'$ with roots $\alpha_{1},\dots,\alpha_{d-1}$. Then, $\alpha_{i}$ is the root of $f-f(\alpha_{i})$ and the root of $(f-f(\alpha_{i}))'=f'$. Therefore, $f-f(\alpha_{i})$ doesn't have $d$ distinct roots and  $\left| f^{-1}(\{ f(\alpha_{i}) \}) \right|< d$. As this is finite, there exists a $\beta\in \mathbb{C}$ for which this is not the case. This shows that $f$ is not a covering space.
+> 2. By the previous point, for any $z\in U_{f}$, 
+>    
