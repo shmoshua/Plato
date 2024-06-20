@@ -63,6 +63,7 @@
 >    Now, for a given $z_{0}\in Z$, by compactness we can find a finite subset $S\subseteq [0,1]$ and $J_{s}$ for each $s\in S$, s.t. $[0,1]=\bigcup_{s\in S}^{}J_{s}$ and $U_{s}$ a neighborhood of $z_{0}$ s.t. $h(U_{s}\times J_{s})$ is a trivializable neighborhood of $h(z_{0},s)$. Let $U:=\bigcap_{s\in S}^{}U_{s}$. Further, we arrange $S$ in increasing order $s_{0}<s_{1}<\dots<s_{m}$ s.t. $J_{s_{i}}\cap J_{s_{i+1}}\neq \varnothing$ and $0\in J_{s_{0}}$ and $1\in J_{s_{m}}$. 
 >    
 >    By taking the local lift at each $z=z_{0}$ and $t_{0}\in J_{s_{i}}$, we can define $\tilde{h}(z,t_{0})$ for any $z\in Z$ and $t_{0}\in [0,1]$ and it is well-defined as the lift is unique given by above, as all the local neighborhoods are overlapping.
+- **Corollary**: for any path $\gamma:[0,1]\to X$ from $x_{0}$ and any $y_{0}\in Y$ s.t. $f(y_{0})=x_{0}$, there exists a unique lift $\tilde{\gamma}:[0,1]\to Y$ s.t. $\tilde{\gamma}$
 ---
 > [!lemma] Theorem 2
 > Let $f:Y\to X$ be a [[covering space]] and $g:Z\to X$ a contiuous map. Let $z_{0}\in Z$ and $x_{0}=g(z_{0})$. Further, let $y_{0}\in Y$ s.t. $f(y_{0})=x_{0}$.
@@ -74,4 +75,8 @@
 > 1. We have that $g=f\circ \tilde{g}$. Therefore, $$g_{*}(\pi_{1}(Z,z_{0}))=f_{*}(\tilde{g}_{*}(\pi_{1}(Z,z_{0})))\subseteq f_{*}(\pi_{1}(Y,y_{0}))\subseteq \pi_{1}(X,x_{0})$$all by [[Fundamental Group|functoriality of $\pi_{1}$.]]
 > 2. We will show this in multiple steps:
 > 	1. **Claim 1: for any $z\in Z$ and any path $\gamma:[0,1]\to Z$ from $z_{0}$ to $z$, there exists a unique lift $\eta:[0,1]\to Y$ of $g\circ\gamma$ s.t. $\eta(0)=y_{0}$.**
-> 	   For $z\in Z$,  
+> 	   For $z\in Z$, we can define $$h:\{ z_{0} \}\times[0,1]\to X,\quad (z_{0},t)\mapsto g\circ \gamma(t)$$which is continuous and is a homotopy from $g(z_{0})=x_{0}$ to $g(z)$. Then, by homotopy lifting property, there exists a unique lift $\eta:[0,1]\to Y$ with $\eta(0)=y_{0}$. 
+>     2. Let $\gamma'$ be another path in $Z$ from $z_{0}$ to $z$, and $\eta'$ the corresponding lift of $g\circ\gamma'$ to $Y$ such that $\eta'(0)=y_{0}$. We claim that there exists a loop $\alpha:[0,1]\to Y$ at $y_{0}$ and a homotopy $h:[0,1]\times[0,1]\to X$ s.t. $$h(s,0)=(g\circ \gamma')(g\circ \gamma)(s),\quad h(s,1)=(f\circ \alpha)(s)$$
+>        Notice that $\gamma\overline{\gamma'}$ is a loop at $z_{0}$. Then, by $g_{*}(\pi_{1}(Z,z_{0}))\subseteq f_{*}(\pi_{1}(Y,y_{0}))$, there is a loop $\alpha:[0,1]\to Y$ at $y_{0}$ s.t. $g\circ\gamma\overline{\gamma'}$ and $f\circ\alpha$ are path-homotopic. 
+>     3. Again by the homotopy lifting property, we have a unique lift $\tilde{h}:[0,1]\times[0,1]\to Y$ s.t. $$f(\tilde{h}(s,1))=h(s,1)=(f\circ \alpha)(s)$$by uniqueness we have that $\tilde{h}(s,1)=\alpha(s)$. Further, $\tilde{h}_{0}$ is a loop at $y_{0}$ as $f\circ h_{0}$ is a loop at $x_{0}$. Therefore, by uniqueness, $$\tilde{h}_{0}(s)=\begin{cases}\eta(2s)&0\leq s\leq 1 /2\\ \eta'(2s-1)& 1/2\leq s\leq 1\end{cases}$$
+>        
