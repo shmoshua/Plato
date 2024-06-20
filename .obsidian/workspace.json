@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Lift.md",
                 "mode": "source",
                 "source": true
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Lift.md",
                 "mode": "preview",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": false
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Lift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Lift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Covering Space.md"
+                "file": "Topology/Lift.md"
               }
             }
           }
@@ -263,9 +263,11 @@
   },
   "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Topology/Covering Space.md",
+    "Topology/Fundamental Group.md",
+    "Topology/Lift.md",
     "Differential Geometry/Smooth Function.md",
+    "Topology/Covering Space.md",
+    "Untitled.md",
     "Topology/Quotient Topology.md",
     "Algebra/Group Action.md",
     "Algebra/Complex Polynomials.md",
@@ -279,8 +281,6 @@
     "Algebra/Galois Correspondence.md",
     "Topology/Simply Connected Space.md",
     "Topology/Path-Connected Space.md",
-    "Topology/Fundamental Group.md",
-    "Topology/Lift.md",
     "Topology/Contractible Space.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Algebra/Group Homomorphism.md",

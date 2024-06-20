@@ -64,3 +64,14 @@
 >    
 >    By taking the local lift at each $z=z_{0}$ and $t_{0}\in J_{s_{i}}$, we can define $\tilde{h}(z,t_{0})$ for any $z\in Z$ and $t_{0}\in [0,1]$ and it is well-defined as the lift is unique given by above, as all the local neighborhoods are overlapping.
 ---
+> [!lemma] Theorem 2
+> Let $f:Y\to X$ be a [[covering space]] and $g:Z\to X$ a contiuous map. Let $z_{0}\in Z$ and $x_{0}=g(z_{0})$. Further, let $y_{0}\in Y$ s.t. $f(y_{0})=x_{0}$.
+> 1. if $g$ admits a lift $\tilde{g}:Z\to Y$ with $\tilde{g}(z_{0})=y_{0}$, then: $$g_{*}(\pi_{1}(Z,z_{0}))\subseteq f_{*}(\pi_{1}(Y,y_{0}))\subseteq \pi_{1}(X,x_{0})$$
+> 2. if $Z$ is [[Path-Connected Space|path-connected]] and locally path-connected s.t. $$g_{*}(\pi_{1}(Z,z_{0}))\subseteq f_{*}(\pi_{1}(Y,y_{0}))\subseteq \pi_{1}(X,x_{0})$$then $g$ admits a lift $\tilde{g}$ with $\tilde{g}(z_{0})=y_{0}$.
+
+> [!proof]+
+> We have:
+> 1. We have that $g=f\circ \tilde{g}$. Therefore, $$g_{*}(\pi_{1}(Z,z_{0}))=f_{*}(\tilde{g}_{*}(\pi_{1}(Z,z_{0})))\subseteq f_{*}(\pi_{1}(Y,y_{0}))\subseteq \pi_{1}(X,x_{0})$$all by [[Fundamental Group|functoriality of $\pi_{1}$.]]
+> 2. We will show this in multiple steps:
+> 	1. **Claim 1: for any $z\in Z$ and any path $\gamma:[0,1]\to Z$ from $z_{0}$ to $z$, there exists a unique lift $\eta:[0,1]\to Y$ of $g\circ\gamma$ s.t. $\eta(0)=y_{0}$.**
+> 	   For $z\in Z$,  
