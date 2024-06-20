@@ -103,7 +103,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Universal Cover.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Complex Polynomials.md",
+                "file": "Algebra/Group Action.md",
                 "mode": "preview",
                 "source": false
               }
@@ -261,18 +261,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "d6343995184d76ee",
   "lastOpenFiles": [
-    "Topology/Local Homeomorphism.md",
-    "Topology/Covering Space.md",
+    "Topology/Quotient Topology.md",
     "Algebra/Group Action.md",
+    "Algebra/Complex Polynomials.md",
+    "Topology/Covering Space.md",
+    "Lie Group/Topological Group.md",
+    "Topology/Universal Cover.md",
+    "Topology/Local Homeomorphism.md",
     "Lie Group/Local Homomorphism.md",
     "Topology/Path.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Inscribed Rectangle Problem.md",
-    "Algebra/Complex Polynomials.md",
     "Algebra/Galois Correspondence.md",
-    "Topology/Universal Cover.md",
     "Topology/Simply Connected Space.md",
     "Topology/Path-Connected Space.md",
     "Topology/Fundamental Group.md",
@@ -287,8 +289,6 @@
     "simply connected.md",
     "Algebra/Orbit and Stablizer.md",
     "Courses/Topology/Exercise Sheet 12.md",
-    "Topology/Retract.md",
-    "Topology/Connected Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
