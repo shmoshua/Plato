@@ -73,13 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Locally Path-Connected Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -91,19 +92,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "35a3efd9d674a8a7",
+            "id": "1b533351b0d1e688",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Topology/Semi-Locally Simply Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -115,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group Action.md",
+                "file": "Topology/Locally Path-Connected Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -127,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "implicit function theorem",
+                "query": "retract",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +180,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Courses/Topology/Exercise Sheet 11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Lift.md"
+                "file": "Courses/Topology/Exercise Sheet 11.md"
               }
             }
           }
@@ -261,34 +263,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "d6343995184d76ee",
   "lastOpenFiles": [
-    "Topology/Fundamental Group.md",
+    "Topology/Retract.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Universal Cover.md",
+    "Topology/Semi-Locally Simply Connected Space.md",
+    "Topology/Locally Path-Connected Space.md",
+    "Topology/Path-Connected Space.md",
+    "Lie Group/Homogeneous Space.md",
+    "Topology/Simply Connected Space.md",
+    "Topology/Normal Space.md",
     "Topology/Lift.md",
-    "Differential Geometry/Smooth Function.md",
     "Topology/Covering Space.md",
+    "Algebra/Galois Correspondence.md",
+    "Topology/Metric Space.md",
+    "Algebra/Group Action.md",
+    "Topology/Fundamental Group.md",
+    "Differential Geometry/Smooth Function.md",
     "Untitled.md",
     "Topology/Quotient Topology.md",
-    "Algebra/Group Action.md",
     "Algebra/Complex Polynomials.md",
     "Lie Group/Topological Group.md",
-    "Topology/Universal Cover.md",
     "Topology/Local Homeomorphism.md",
     "Lie Group/Local Homomorphism.md",
     "Topology/Path.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Inscribed Rectangle Problem.md",
-    "Algebra/Galois Correspondence.md",
-    "Topology/Simply Connected Space.md",
-    "Topology/Path-Connected Space.md",
     "Topology/Contractible Space.md",
-    "Topology/Semi-Locally Simply Connected Space.md",
     "Algebra/Group Homomorphism.md",
-    "Topology/Homotopy.md",
-    "Functional Analysis/Guelfand Topology.md",
-    "Courses/Topology/Exercise Sheet 11.md",
-    "Topology/Continuous Function.md",
-    "simply connected.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

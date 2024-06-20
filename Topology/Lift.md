@@ -70,7 +70,7 @@
 > 1. if $g$ admits a lift $\tilde{g}:Z\to Y$ with $\tilde{g}(z_{0})=y_{0}$, then: $$g_{*}(\pi_{1}(Z,z_{0}))\subseteq f_{*}(\pi_{1}(Y,y_{0}))\subseteq \pi_{1}(X,x_{0})$$
 > 2. if $Z$ is [[Path-Connected Space|path-connected]] and locally path-connected s.t. $$g_{*}(\pi_{1}(Z,z_{0}))\subseteq f_{*}(\pi_{1}(Y,y_{0}))\subseteq \pi_{1}(X,x_{0})$$then $g$ admits a lift $\tilde{g}$ with $\tilde{g}(z_{0})=y_{0}$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. We have that $g=f\circ \tilde{g}$. Therefore, $$g_{*}(\pi_{1}(Z,z_{0}))=f_{*}(\tilde{g}_{*}(\pi_{1}(Z,z_{0})))\subseteq f_{*}(\pi_{1}(Y,y_{0}))\subseteq \pi_{1}(X,x_{0})$$all by [[Fundamental Group|functoriality of $\pi_{1}$.]]
 > 2. We will show this in multiple steps:
@@ -79,12 +79,9 @@
 >     2. Let $\gamma'$ be another path in $Z$ from $z_{0}$ to $z$, and $\eta'$ the corresponding lift of $g\circ\gamma'$ to $Y$ such that $\eta'(0)=y_{0}$. Then, notice that $\gamma \overline{\gamma'}$ is a loop at $z_{0}$. Hence, by $g_{*}(\pi_{1}(Z,z_{0}))\subseteq f_{*}(\pi_{1}(Y,y_{0}))$, there is a loop $\alpha:[0,1]\to Y$ at $y_{0}$ s.t. $g\circ\gamma\overline{\gamma'}$ and $f\circ\alpha$ are path-homotopic. Let $h$ be one such path-homotopy. Then, $h:[0,1]\times[0,1]\to X$ s.t. 
 >        $$h(s,0)=(g\circ \gamma)*(\overline{g\circ \gamma'})(s),\quad h(s,1)=(f\circ \alpha)(s)$$Then, notice that $f(\alpha(s))=h(s,1)$. Therefore, by homotopy lifting property, we have a unique lift $\tilde{h}:[0,1]\times[0,1]\to Y$ s.t. $$\tilde{h}(s,1)=\alpha(s)$$Now, consider $t\mapsto \tilde{h}(0,t)$. We have $\tilde{h}(0,1)=y_{0}$, however, $\varepsilon_{y_{0}}$ is also a lift of $t\mapsto h(0,t)$ as: $$f(y_{0})=x_{0}=h(0,t),\quad \forall t\in[0,1]$$Therefore, by uniqueness, $\tilde{h}(0,t)=y_{0}$ for all $t\in [0,1]$. Similarly, $\tilde{h}(1,t)=y_{0}$ for all $t\in [0,1]$. Hence, $\tilde{h}_{0}$ is a loop at $y_{0}$. 
 >      3. Notice that $\eta(0)=y_{0}$. However, $t\mapsto \tilde{h}(0,t/2)$ for $t\in [0,1]$ is also a lift of $g\circ\gamma$ with $\tilde{h}(0,0)=y_{0}$. Therefore, by uniqueness, $\tilde{h}(0, t)=\eta(2t)$ for $t\in[0,1 /2]$. Similarly, $\eta'(0)=y_{0}$ and $t\mapsto \tilde{h}(0,1-t /2)$ is a lift of $g\circ\gamma'$ with $\tilde{h}(0,1)=y_{0}$. Therefore, by uniqueness, $$\tilde{h}(0,t)=\begin{cases}\eta(2t)&0\leq t\leq \frac{1}{2\\}\\ \eta'(2-2t)& \frac{1}{2}\leq t\leq 1\end{cases}$$As $\tilde{h}_{0}$ is continuous, we also get that $\eta(1)=\eta'(1)$. Therefore, for any path $\gamma$ from $z_{0}$ to $z$, we can choose $\tilde{g}(z)=\eta(1)$, which is well-defined.
->      4. Now, let $z\in Z$ and $U\subseteq X$ a neighborhood of $g(z)$ s.t. $f$ is trivializable over $U$. Then, let $\tilde{g}(z)\in Y$ and we have $f(\tilde{g}(z))=g(z)$. Therefore, there exists $d\in D$ s.t. $\varphi(\tilde{g}(z))=(g(z),d)$ where $\varphi :f^{-1}(U)\to U\times D$ is the given homeomorphism. Setting $\tilde{U}:=\varphi ^{-1}(U\times \{ d \})$ gives $f:\tilde{U}\to U$ as a homeomorphism.
->      5. As $Z$ is path-connected, there exists a path-connected neighborhood $V$ of $z$ s.t. $g(V)\subseteq U$. Then, for $w\in V$, let $\gamma_{0}$ be a path from $z_{0}$ to $z$ and $\gamma_{w}$ a path from $z$ to $w$. We aim to find a lift of $\gamma_{0}\gamma_{w}$. We have that: $$f(f^{-1}(g))$$
+>      4. Now, let $z\in Z$ and $U\subseteq X$ a neighborhood of $g(z)$ s.t. $f$ is trivializable over $U$. Then, let $\tilde{g}(z)\in Y$ and we have $f(\tilde{g}(z))=g(z)$. Therefore, there exists $d\in D$ s.t. $\varphi(\tilde{g}(z))=(g(z),d)$ where $\varphi :f^{-1}(U)\to U\times D$ is the given homeomorphism. Setting $\tilde{U}:=\varphi ^{-1}(U\times \{ d \})$ gives $f|_{\tilde{U}}:\tilde{U}\to U$ as a homeomorphism.
+>      5. As $Z$ is path-connected, there exists a path-connected neighborhood $V$ of $z$ s.t. $g(V)\subseteq U$. Then, for $w\in V$, let $\gamma_{0}$ be a path from $z_{0}$ to $z$ and $\gamma_{w}$ a path from $z$ to $w$. We aim to find a lift of $g\circ\gamma_{0}\gamma_{w}$. Let $\eta$ be the lift of $g\circ\gamma_{0}$ with $\tilde{g}(z)=\eta(1)\in \tilde{U}$. 
+>         $$f((f|_{\tilde{U}})^{-1}(g(\gamma_{w}(t)))=g(\gamma_{w}(t))$$As $f|_{\tilde{U}}^{-1}(g(z))=\tilde{g}(z)$, $(f|_{\tilde{U}})^{-1}\circ g\circ\gamma_{w}$ is a lift of $g\circ\gamma_{w}$ and $\tilde{g}(w)=f|_{\tilde{U}}^{-1}(g(w))$. This shows that $\tilde{g}$ is continuous.
 >         
->         Show that there exists a path connected neighborhood $V$ of $z$ such that $g(V)\subseteq U$.  show then that for $w\in V$ , we have $\tilde{g}(w)=f_{g(V)}^{-1}(g(w))$, and deduce that $\tilde{g}$ is continuous. (Hint: write a path γ from z0 to w ∈ V as γ0 ∗ γw where γ0 is a fixed path from z0 to z and γw is a path from z to w, and find an explicit lift of γw using fg(V ) .)
->         
->         Show that there exists a neighborhood U˜ of ˜g(z) such that the restriction fU˜ of f to U˜ is a homeomorphism fU˜ : U˜ → U.
->        
->        
->        
+>         Finally, $f(\tilde{g}(w))=g(w)$ and $\tilde{g}(z_{0})=y_{0}$ from above. Therefore, $\tilde{g}$ is a lift of $g$ mapping $z_{0}$ to $y_{0}$.
+---
