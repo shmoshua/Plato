@@ -152,13 +152,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Interior and Closure.md",
+                "file": "Topology/Retract.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -225,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Topology/Retract.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Topology/Retract.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md"
+                "file": "Topology/Retract.md"
               }
             }
           }
@@ -287,18 +288,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d6343995184d76ee",
+  "active": "a7f228aab78a778f",
   "lastOpenFiles": [
+    "Topology/Quotient Topology.md",
     "Topology/Interior and Closure.md",
+    "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Hausdorff Space.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Topology/Locally Path-Connected Space.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Connected Space.md",
     "Topology/Fundamental Group.md",
-    "Topology/Quotient Topology.md",
     "Topology/Covering Space.md",
-    "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Retract.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Universal Cover.md",
