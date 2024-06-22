@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Covering Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Covering Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md"
+                "file": "Topology/Covering Space.md"
               }
             }
           }
@@ -277,10 +277,10 @@
   },
   "active": "d6343995184d76ee",
   "lastOpenFiles": [
+    "Courses/Topology/Topology Roadmap.md",
     "Topology/Fundamental Group.md",
     "Topology/Universal Cover.md",
     "Topology/Covering Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Retract.md",
     "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Quotient Topology.md",
