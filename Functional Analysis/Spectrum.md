@@ -5,41 +5,39 @@
 > $$\text{Sp}_{A}(x):=\{ \lambda\in \mathbb{C}:x-\lambda e\notin G(A) \}$$
 > If $A$ is non-unital, we define: $$\text{Sp}_{A}(x):=\text{Sp}_{A_{I}}(x)$$
 - **Related definition**: The complement of a spectrum $\rho_{A}(x):=\mathbb{C} \backslash \text{Sp}_{A}(x)$ is called the ***resolvent set***.
-- **Related definition**: In a [[Banach Algebra]], for $x\in A$, define $r_{A}(x):=\inf_{n\geq 1}\left\| x^n \right\|^{1/n}$.
-- **Related definition**: In a [[Banach Algebra]], for $x\in A$, the ***spectral radius*** is defined as:$$\|x\|_{\text{sp}}:=\max\{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}$$where the existence of the maximum is given by Theorem 4.
+- **Related definition**: In a [[Banach Algebra|Banach algebra]], for $x\in A$, define $r_{A}(x):=\inf_{n\geq 1}\left\| x^n \right\|^{1/n}$.
+- **Related definition**: In a [[Banach Algebra|Banach algebra]], for $x\in A$, the ***spectral radius*** is defined as:$$\|x\|_{\text{sp}}:=\max\{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}$$where the existence of the maximum is given by Theorem 4.
 ---
 ##### Properties
 > [!lemma] Proposition 1 
-> Let $A$ be a [[Banach Algebra]]. For $x\in A$, we have that:
-> 1. $r_{A}(x)$ is well-defined.
+> Let $A$ be a [[Banach Algebra|Banach algebra]]. For $x\in A$, we have that:
+> 1. $r_{A}(x)\leq \|x\|$.
 > 2. $r_{A}(x)=\lim_{ n \to \infty }\left\| x^n \right\|^{1/n}$
 
 > [!proof]-
-> We will prove this for a general function $f:\mathbb{N}^{*}\to \mathbb{R}_{>0}$ then the statement follows by taking $f(x)=\|x^n\|$. 
-> 1. **Showing the well-definedness**:
-> 	Assume $f(n+m)\leq f(n)f(m)$ for all $n,m\geq 1$. Then,  $\lim_{ n \to \infty }f(n)^{1/n}$ exists and equals $\inf\{ f(n)^{1/n}:n\geq 1 \}$.
-> 2. **Showing the inequality**:
-> 	If $f(1)=0$, then $f(n)=0$ for all $n\geq 1$ and the statement trivially holds. Therefore, assume that $f(1)>0$. 
-> 	
-> 	Let $r:=\text{inf}\{ f(n)^{1/n} :n\geq 1\}\geq 0$. Further, let $\varepsilon>0$ and $k\geq 1$ s.t. $f(k)^{1/k}<r+\varepsilon$. It is sufficient to show that: $\limsup_{ n \to \infty } f(n)^{1/n}\leq r$ from which it follows that: $$r\leq\liminf_{ n \to \infty } f(n)^{1 /n}\leq \limsup_{ n \to \infty } f(n)^{1/n}\leq r$$ Now, let $n>k$ and $n:=ak+b$ where $a\geq 1$ and $0\leq b<k$. Then, $$f(n)^{1/n}=f(ak+{b})^{1/n}\leq f(ak)^{1/n}f(b)^{1/n}\leq f(k)^{a/n}f(1)^{b/n}=(f(k)^{1/k})^{1-b/n}f(1)^{b/n}\to f(k)^{1/k}$$Therefore, $$\limsup_{ n \to \infty } f(n)^{1/n}\leq f(k)^{1/k}<r+\varepsilon$$As $\varepsilon$ was arbitrary, this concludes the proof.
+> We have:
+> 1. By Banach algebra, $\|x^n\|\leq\|x\|^n$. Therefore, $\|x^n\|^{1/n}\leq\|x\|$. 
+> 2. This holds for any general function $f:\mathbb{N}^*\to \mathbb{R}_{\geq0}$ s.t. $f(n+m)\leq f(n)f(m)$. If $f(1)=0$, then $f(n)=0$ for all $n\geq 1$ and the statement trivially holds. Therefore, assume that $f(1)>0$. 
+>    
+>    Let $$r:=\inf_{n\geq 1}f(n)^{1/n}$$Let further $\varepsilon>0$ and pick $k\geq 1$ s.t. $f(k)^{1/k}<r+\varepsilon$. Then, for $n\geq k$, by writing $n=ak+b$, we have $a\geq 1$ and $0\leq b\leq k-1$. Then, $$f(n)=f(ak+b)\leq f(k)^af(1)^b$$Therefore, $$f(n)^{1/n}\leq f(k)^{a/n}f(1)^{b/n}=(f(k)^{1/k})^{ak/n}f(1)^{b/n}=(f(k)^{1/k})^{1-b/n}f(1)^{b/n}\to f(k)^{1/k}$$Hence,$$r\leq \liminf_{ n \to \infty } f(n)^{1/n}\leq\limsup_{ n \to \infty } f(n)^{1/n}\leq f(k)^{1/k}<r+\varepsilon$$
 ---
 > [!lemma] Lemma 2
-> Let $A$ be a unital [[Banach Algebra]] and $x\in A$ with $r_{A}(x)<1$. Then, 
+> Let $A$ be a unital [[Banach Algebra|Banach algebra]] and $x\in A$ with $r_{A}(x)<1$. Then, 
 > 1. $e-x$ is invertible and
 > 2. $(e-x)^{-1}=\sum_{n=0}^{\infty}x^n$ where $x^0=e$, as an absolutely convergent series.
 
-> [!proof]-
+> [!proof]+
 > We have: 
 > 1. **Showing the series is absolutely convergent**: 
->    Pick $r_{A}(x)<q<1$. Then, as $r_{A}(x)=\lim_{ n \to \infty }\|x^n\|^{1/n}$, there exists $N\geq 1$ such that $\|x^n\|^{1/n}\leq q$ for all $n\geq N$, i.e. $\|x^n\|\leq q^n$. Therefore, $$\sum_{n=0}^{\infty}\left\| x^n \right\| \leq \sum_{n=0}^{\infty}q^n= \frac{1}{1-q}$$is absolutely convergent. (hence convergent)
+>    Pick $r_{A}(x)<q<1$. Then, as $r_{A}(x)=\lim_{ n \to \infty }\|x^n\|^{1/n}$, there exists $N\geq 1$ such that $\|x^n\|^{1/n}\leq q$ for all $n\geq N$, i.e. $\|x^n\|\leq q^n$. Therefore, $$\sum_{n=N}^{\infty}\left\| x^n \right\| \leq \sum_{n=N}^{\infty}q^n= \frac{q^N}{1-q}$$is absolutely convergent, (hence convergent)
 >2. **Showing that it is the inverse**:
 >   We have: $$(e-x)\sum_{n=0}^{\infty}x^n=\sum_{n=0}^{\infty}x^n-\sum_{n=1}^{\infty}x^n=e$$
 - **Corollary**: If $\|x\|<1$, then $r_{A}(x)\leq\|x\|<1$ and the same result holds.
 ---
 > [!lemma] Lemma 3
-> Let $A$ be a unital [[Banach Algebra]]. Then, it holds that:
-> 1. the map $G(A)\to G(A), y\mapsto y^{-1}$ is [[Lipschitz Function|Lipschitz continuous]] in some neighborhood of every $x\in G(A)$. More precisely, if $\left\| y-x \right\| \leq \frac{1}{2}\left\|x ^{-1} \right\| ^{-1}$, then: $$\left\| y^{-1}-x ^{-1} \right\| \leq 2\left\|  x ^{-1} \right\|^2 \left\| y-x \right\| $$
-> 3. For $x\in G(A)$, if $y\in A$ satisfies $\left\| y-x \right\|<\left\| x ^{-1} \right\|^{-1}$, then $y\in G(A)$. 
+> Let $A$ be a unital [[Banach Algebra|Banach algebra]]. Then, 
+> 1. the inversion map $G(A)\to G(A), x\mapsto x^{-1}$ is locally [[Lipschitz Function|Lipschitz continuous]]. More precisely, if $\left\| y-x \right\| \leq \frac{1}{2\left\|x ^{-1} \right\|}$, then: $$\left\| y^{-1}-x ^{-1} \right\| \leq 2\left\|  x ^{-1} \right\|^2 \left\| y-x \right\| $$
+> 3. For $x\in G(A)$, if $y\in A$ satisfies $\left\| y-x \right\|< \frac{1}{\left\| x ^{-1} \right\|}$, then $y\in G(A)$. 
 
 > [!proof]-
 > We have
@@ -50,7 +48,7 @@
 
 
 > [!lemma] Theorem 4 (Spectral Radius Formula)
-> Let $A$ be a [[Banach Algebra]] and $x\in A$. Then, 
+> Let $A$ be a [[Banach Algebra|Banach algebra]] and $x\in A$. Then, 
 > 1. $\text{Sp}_{A}(x)\subseteq \mathbb{C}$ is a  non-empty compact set and: 
 > 2. it holds that$$r_{A}(x)=\max \{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}=\|x\|_{\text{sp}}$$
 
