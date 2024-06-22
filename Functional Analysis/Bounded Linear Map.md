@@ -110,24 +110,18 @@
 > Let $V,W$ be Banach spaces and $T:V\to W$ linear. Then, the following are equivalent:
 > 1. $T\in \mathcal{B}(V,W)$ 
 > 2. $\text{graph}(T)\subseteq V\times W$ is closed.
-> 3. If $x_{n}\to 0$ is $V$ and $Tx_{n}\to y$ in $V$, then $y=0$.
+> 3. If $x_{n}\to 0$ is $V$ and $Tx_{n}\to y$ in $W$, then $y=0$.
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. (1=>2): Holds since $W$ is [[Hausdorff Space|Hausdorff]]. Let $(x,y)\in V\times W \backslash\text{graph}(T)$. Then, $y$ and $Tx$ are disjoint and there exists $U_{1}\ni y$ and $U_{2}\ni Tx$ disjoint. 
+> 1. (1=>2): Holds since $W$ is [[Hausdorff Space|Hausdorff]]. Consider $\phi:V\times W\to W\times W, (x,y)\mapsto (Tx,y)$. Then, $\text{graph}(T)=\phi ^{-1}(\Delta_{W})$ and $\Delta_{W}$ is closed.
 > 
-> 1. First, we define a norm in $V\times W$ as: $$\left\| (v,w) \right\| =\|v\|_{V}+\|w\|_{W}$$
-> Then, $V\times W$ is a Banach space and as $\text{graph}(T)$ is closed and also is a linear subspace, it is also a Banach space.
-> 
-> Let $P_{V}:V\times W \to V$ and $P_{W}:V\times W\to W$ be projections. Then,
-> 1. $P_{V}|_{\text{graph}(T)}:\text{graph}(T)\to V$ is bijective and hence, $(P _{V}|_{\text{graph}(T)})^{-1}$ is continuous from bounded inverse theorem.
-> 
-> Therefore, $$P_{W}\circ (P _{V}|_{\text{graph}(T)})^{-1}=T$$is continuous and bounded.
-> 
-> 2=>3: $(x_{n},T(x_{n}))\to(0,y)$. However, as the graph is closed, $y=T(0)=0$.
-> 3=>2: Let $(x_{n},T(x_{n}))\to(x,y)$. Then, $x_{n}-x\to 0$ and $T(x_{n}-x)=T(x_{n})-T(x)\to y-T(x)$. Therefore, $T(x)=y$ and the graph is closed.
+> 2. (2=>1): First, $V\times W$ is a Banach space with $\|(v,w)\|=\|v\|_{V}+\|w\|_{W}$ as norm. As $\text{graph}(T)$ is closed and also is a linear subspace, it is also a Banach space.
+>    
+>    Let $P_{V}:V\times W \to V$ and $P_{W}:V\times W\to W$ be projections. Then, $P_{V}|_{\text{graph}(T)}:\text{graph}(T)\to V$ is bijective and hence, $(P _{V}|_{\text{graph}(T)})^{-1}$ is continuous from bounded inverse theorem. Therefore, $$P_{W}\circ (P _{V}|_{\text{graph}(T)})^{-1}=T$$is continuous and bounded.
+>  3. (2=>3): $(x_{n},T(x_{n}))\to(0,y)$. However, as the graph is closed, $y=T(0)=0$.
+> 4. (3=>2): Let $(x_{n},T(x_{n}))\to(x,y)$. Then, $x_{n}-x\to 0$ and $T(x_{n}-x)=T(x_{n})-T(x)\to y-T(x)$. Therefore, $T(x)=y$ and the graph is closed.
 
-- **Remark**: The converse holds since $W$ is [[Hausdorff space|Hausdorff]].
 - **Remark**: $f(x)=\begin{cases}1/x&x\neq 0\\0&x=0\end{cases}$   has a closed graph but is not continuous.
 - **Remark**: If $V$ is not Banach, the theorem does not hold. 
   Example: The map: $$\begin{array}{cccc} {L:}&{C^1([0,1])}&\to&{C^0([0,1])}\\&{f} &\mapsto & {f'} \end{array}{}$$is not bounded (consider oscillations with small amplitude but has high frequency). However, the graph is closed.
