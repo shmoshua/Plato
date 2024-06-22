@@ -112,8 +112,11 @@
 > 2. $\text{graph}(T)\subseteq V\times W$ is closed.
 > 3. If $x_{n}\to 0$ is $V$ and $Tx_{n}\to y$ in $V$, then $y=0$.
 
-> [!proof]-
-> First, we define a norm in $V\times W$ as: $$\left\| (v,w) \right\| =\|v\|_{V}+\|w\|_{W}$$
+> [!proof]+
+> We have:
+> 1. (1=>2): Holds since $W$ is [[Hausdorff Space|Hausdorff]]. Let $(x,y)\in V\times W \backslash\text{graph}(T)$. Then, $y$ and $Tx$ are disjoint and there exists $U_{1}\ni y$ and $U_{2}\ni Tx$ disjoint. 
+> 
+> 1. First, we define a norm in $V\times W$ as: $$\left\| (v,w) \right\| =\|v\|_{V}+\|w\|_{W}$$
 > Then, $V\times W$ is a Banach space and as $\text{graph}(T)$ is closed and also is a linear subspace, it is also a Banach space.
 > 
 > Let $P_{V}:V\times W \to V$ and $P_{W}:V\times W\to W$ be projections. Then,

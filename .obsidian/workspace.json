@@ -13,86 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "36e87c04d2be24f2",
+            "id": "1877132f1fe1af80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Functional Analysis/C-Algebra.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "f0c7cac19c614bc3",
+            "id": "630f150097e92dd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Contractible Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fe83da56af8bae29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Fundamental Group.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "99226da63beea286",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Complex Polynomials.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c38d90514a7e9677",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Path-Connected Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "900d0f02762c3b72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Convergence of Sequences.md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -104,49 +56,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Functional Analysis/C-Algebra.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "187bcb7122e85035",
+            "id": "011330203ec06504",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Functional Analysis/Banach Algebra.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "a7f228aab78a778f",
+            "id": "2605ff3eae820c47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Universal Cover.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0c1ed2ee2fd7745",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -192,8 +133,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -213,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Covering Space.md"
+                "file": "Functional Analysis/Bounded Linear Map.md"
               }
             }
           }
@@ -275,12 +215,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d6343995184d76ee",
+  "active": "630f150097e92dd1",
   "lastOpenFiles": [
+    "Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/Banach Algebra.md",
+    "Functional Analysis/C-Algebra.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Algebra/Group.md",
+    "Topology/Lift.md",
+    "Topology/Covering Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Fundamental Group.md",
     "Topology/Universal Cover.md",
-    "Topology/Covering Space.md",
     "Topology/Retract.md",
     "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Quotient Topology.md",
@@ -294,15 +240,9 @@
     "Lie Group/Homogeneous Space.md",
     "Topology/Simply Connected Space.md",
     "Topology/Normal Space.md",
-    "Topology/Lift.md",
     "Algebra/Galois Correspondence.md",
     "Topology/Metric Space.md",
     "Algebra/Group Action.md",
-    "Differential Geometry/Smooth Function.md",
-    "Untitled.md",
-    "Algebra/Complex Polynomials.md",
-    "Lie Group/Topological Group.md",
-    "Topology/Local Homeomorphism.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

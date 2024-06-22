@@ -5,7 +5,7 @@
 > 1. **associativity**: $(xy)z=x(yz)$ for all $x,y,z\in A$
 
 - **Related definition**: An algebra $A$ is ***unital***, if there exists $0\neq e\in A$ s.t. $xe=ex=x$ for all $x\in A$.
-- **Related definition**: An algebra $A$ is ***abelian***, if $xy=yx$ for all $x,y\in A$. 
+- **Related definition**: An algebra $A$ is ***abelian/commutative***, if $xy=yx$ for all $x,y\in A$. 
 - **Related defintion**: An element $x$ in an unital $\mathbb{C}$-algebra $A$ is ***invertible*** if there exists $y\in A$ s.t. $xy=yx=e$. Then, $y$ is denoted $x ^{-1}$. We denote the set of invertible elements of $A$ as $G(A)$.
 ---
 ##### Properties
@@ -21,5 +21,12 @@
 > 2. Injectivity is clear. Then,$$\varphi(xy)=(xy,0)=(x,0)(y,0)=\varphi(x)\varphi(y)$$
 ---
 > [!lemma] Lemma 2
-> Let $A$ be a unital $\mathbb{C}$-algebra and $x\in A$. If $x$ is invertible, $x ^{-1}$ is unique.
-> 2. $G(A)$ forms a group with product.
+> Let $A$ be a unital $\mathbb{C}$-algebra and $x\in A$. 
+> 1. If $x$ is invertible, $x ^{-1}$ is unique.
+> 1. $G(A)$ forms a group with product.
+
+ > [!proof]-
+ > We have:
+ > 1. Let $y,z$ be inverses of $x$. Then, $y=yxz=z$.
+ > 2. Follows from 1.
+---
