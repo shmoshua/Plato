@@ -56,7 +56,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Banach Algebra.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66994e7518ab9299",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/C-Algebra.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dcf8519b05db5be9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Volterra Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,10 +104,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Banach Space.md",
+                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
                 "mode": "preview",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "bbc234aef83dbff1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -154,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Functional Analysis/C-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Functional Analysis/C-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md"
+                "file": "Functional Analysis/C-Algebra.md"
               }
             }
           }
@@ -216,13 +248,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "011330203ec06504",
+  "active": "66994e7518ab9299",
   "lastOpenFiles": [
-    "Functional Analysis/Banach Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/C-Algebra.md",
-    "Analysis/Banach Space.md",
     "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Volterra Algebra.md",
+    "Functional Analysis/Banach Algebra.md",
+    "Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Analysis/Banach Space.md",
+    "Functional Analysis/C-Algebra.md",
     "Topology/Continuous Function.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Topology/Hausdorff Space.md",
@@ -242,8 +276,6 @@
     "Topology/Connected Space.md",
     "Topology/Path-Connected Space.md",
     "Lie Group/Homogeneous Space.md",
-    "Topology/Simply Connected Space.md",
-    "Topology/Normal Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
