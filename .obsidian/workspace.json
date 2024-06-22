@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Functional Analysis/Banach Algebra.md",
                 "mode": "preview",
                 "source": false
               }
@@ -142,8 +142,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Banach Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Banach Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Spectrum.md"
+                "file": "Functional Analysis/Banach Algebra.md"
               }
             }
           }
@@ -271,11 +270,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1d45af889d3c44b9",
+  "active": "d6343995184d76ee",
   "lastOpenFiles": [
-    "Functional Analysis/Bounded Linear Map.md",
-    "Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Spectrum.md",
+    "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/C-Algebra.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
