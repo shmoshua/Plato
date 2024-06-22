@@ -104,43 +104,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "1b533351b0d1e688",
+            "id": "187bcb7122e85035",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Semi-Locally Simply Connected Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "393a24c38c0a573f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Path-Connected Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79e75a7eb0889bca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -152,14 +128,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Retract.md",
+                "file": "Topology/Universal Cover.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Retract.md",
+                "file": "Topology/Covering Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Retract.md",
+                "file": "Topology/Covering Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Retract.md"
+                "file": "Topology/Covering Space.md"
               }
             }
           }
@@ -288,11 +264,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a7f228aab78a778f",
+  "active": "187bcb7122e85035",
   "lastOpenFiles": [
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Retract.md",
+    "Courses/Topology/Exercise Sheet 11.md",
+    "Topology/Universal Cover.md",
     "Topology/Quotient Topology.md",
     "Topology/Interior and Closure.md",
-    "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Hausdorff Space.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Topology/Locally Path-Connected Space.md",
@@ -300,9 +279,6 @@
     "Topology/Connected Space.md",
     "Topology/Fundamental Group.md",
     "Topology/Covering Space.md",
-    "Topology/Retract.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Universal Cover.md",
     "Topology/Path-Connected Space.md",
     "Lie Group/Homogeneous Space.md",
     "Topology/Simply Connected Space.md",
