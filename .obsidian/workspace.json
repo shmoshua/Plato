@@ -142,7 +142,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Banach Algebra.md",
+                "file": "Functional Analysis/Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Banach Algebra.md",
+                "file": "Functional Analysis/Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Banach Algebra.md"
+                "file": "Functional Analysis/Spectrum.md"
               }
             }
           }
@@ -270,8 +271,9 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d6343995184d76ee",
+  "active": "1d45af889d3c44b9",
   "lastOpenFiles": [
+    "Functional Analysis/Banach Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Spectrum.md",
     "Functional Analysis/Bounded Linear Map.md",
@@ -281,7 +283,6 @@
     "Topology/Topological Space.md",
     "Differential Geometry/Topological Manifold.md",
     "Functional Analysis/Volterra Algebra.md",
-    "Functional Analysis/Banach Algebra.md",
     "Analysis/Banach Space.md",
     "Topology/Continuous Function.md",
     "Topology/Hausdorff Space.md",
