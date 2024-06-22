@@ -42,9 +42,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "343beedafb1be6db",
+            "type": "leaf",
+            "state": {
+              "type": "3d_graph_view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -75,24 +83,12 @@
             }
           },
           {
-            "id": "dcf8519b05db5be9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Volterra Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "011330203ec06504",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -111,7 +107,7 @@
             }
           },
           {
-            "id": "bbc234aef83dbff1",
+            "id": "d32c0cda1f0fd712",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -119,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -165,8 +161,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,7 +181,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/C-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +197,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/C-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,9 +218,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Functional Analysis/C-Algebra.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -248,15 +239,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "66994e7518ab9299",
+  "active": "d32c0cda1f0fd712",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Volterra Algebra.md",
-    "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Analysis/Banach Space.md",
+    "Topology/Topological Space.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Differential Geometry/Topological Manifold.md",
     "Functional Analysis/C-Algebra.md",
+    "Functional Analysis/Volterra Algebra.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Banach Algebra.md",
+    "Analysis/Banach Space.md",
     "Topology/Continuous Function.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Topology/Hausdorff Space.md",
@@ -274,8 +267,6 @@
     "Topology/Locally Path-Connected Space.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Connected Space.md",
-    "Topology/Path-Connected Space.md",
-    "Lie Group/Homogeneous Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
