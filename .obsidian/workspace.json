@@ -133,9 +133,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e0c1ed2ee2fd7745",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Fundamental Group.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Covering Space.md"
+                "file": "Courses/Topology/Topology Roadmap.md"
               }
             }
           }
@@ -264,12 +275,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "187bcb7122e85035",
+  "active": "d6343995184d76ee",
   "lastOpenFiles": [
+    "Topology/Fundamental Group.md",
+    "Topology/Universal Cover.md",
+    "Topology/Covering Space.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Retract.md",
     "Courses/Topology/Exercise Sheet 11.md",
-    "Topology/Universal Cover.md",
     "Topology/Quotient Topology.md",
     "Topology/Interior and Closure.md",
     "Topology/Hausdorff Space.md",
@@ -277,8 +290,6 @@
     "Topology/Locally Path-Connected Space.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Connected Space.md",
-    "Topology/Fundamental Group.md",
-    "Topology/Covering Space.md",
     "Topology/Path-Connected Space.md",
     "Lie Group/Homogeneous Space.md",
     "Topology/Simply Connected Space.md",
