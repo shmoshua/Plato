@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Curve.md",
+                "file": "Differential Geometry/Regular Curve in Rn.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Differential Geometry/Tangent and Curvature Vector in Rn.md",
                 "mode": "source",
                 "source": true
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -56,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Curve.md",
+                "file": "Differential Geometry/Regular Curve in Rn.md",
                 "mode": "preview",
                 "source": false
               }
@@ -68,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Differential Geometry/Tangent and Curvature Vector in Rn.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,10 +213,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1d45af889d3c44b9",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Curve.md",
+    "Differential Geometry/Tangent and Curvature Vector in Rn.md",
     "Differential Geometry/Regular Curve in Rn.md",
+    "Differential Geometry/Smooth Curve.md",
     "Functional Analysis/C*-Algebra.md",
     "Differential Geometry/Arc Length.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
@@ -243,7 +242,6 @@
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Fundamental Group.md",
     "Topology/Universal Cover.md",
-    "Topology/Retract.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

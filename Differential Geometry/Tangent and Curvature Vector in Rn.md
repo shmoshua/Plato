@@ -1,10 +1,7 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> For a regular curve $\gamma:I\to \mathbb{R}^n$ with a reparametrization $\beta$, a ***tangent vector*** $\tau(s)$ denotes: $$\tau(s)=\dot{\beta}(s)= \frac{\dot{\gamma}(t)}{\left| \dot{\gamma}(t) \right| }$$
-> The ***curvature vector*** $\kappa(s)$ is defined as: $$\kappa(s)=\dot{\tau}(s)=\ddot{\beta}(s)$$
-
-- **Remark**: The tangent vector and the curvature vector are ***geometric***, i.e. they only depend on $\text{Im}\gamma$ and not on the parametrization. 
+> 
 ---
 ##### Properties
 > [!lemma] Proposition 1
