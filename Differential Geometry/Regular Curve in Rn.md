@@ -10,6 +10,7 @@
   2. the ***curvature vector*** $\kappa:s(I)\to \mathbb{R}^n$ is given as $\kappa(s)=\dot{\tau}(s)=\ddot{\gamma}(s)$.
 
 - **Remark**: The tangent vector and the curvature vector are ***geometric***, i.e. they only depend on $\gamma(I)$ and not on the parametrization. 
+- **Related definition**: If $\kappa(s)\neq 0$ for all $s\in s(I)$, then $\gamma$ is ***ordinary***.
 
 ---
 ##### Properties
@@ -46,36 +47,19 @@
 > 1. For the unit tangent vector:$$\tau(s(t))=\dot{\beta}(s(t))=\dot{\gamma}(g(s(t)))\dot{g}(s(t))=\frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|  }$$
 > 2. For the curvature vector: $$\begin{align}\kappa(s(t))&=\dot{\tau}(s(t))\\&=\frac{1}{\left\| \dot{\gamma}(t) \right\|  ^{2}}\left( \left\| \dot{\gamma}(t) \right\|  \ddot{\gamma}(t)-\frac{\braket{ \ddot{\gamma}(t) , \dot{\gamma}(t) }\dot{\gamma}(t) }{\left\| \dot{\gamma}(t) \right\|  } \right) \dot{g}(s(t))\\&=\frac{1}{\left\| \dot{\gamma}(t) \right\|  ^{2}}\left( \left\| \dot{\gamma}(t) \right\|  \ddot{\gamma}(t)-\frac{\braket{ \ddot{\gamma}(t) , \dot{\gamma}(t) }\dot{\gamma}(t) }{\left\| \dot{\gamma}(t) \right\|  } \right) \frac{1}{\left\| \dot{\gamma}(t) \right\| }\\&=\frac{1}{\left\| \dot{\gamma}(t) \right\|^{2}}\left(  \ddot{\gamma}(t)-\left\langle \ddot{\gamma}(t) ,  \frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|} \right\rangle \frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|} \right) \end{align}$$
 ---
-##### Regular Curves in R2
+###### Regular Curves in R2
+
 > [!lemma] Theorem 1
-> Let a regular curve $\gamma:[a,b]\to \mathbb{R}^{2}$ be smooth and closed, i.e. $\gamma$ can be extended to a smooth periodic curve $\mathbb{R}\to \mathbb{R}^{2}$. Then, 
-> 1. for the curvature $k:[a,b]\to \mathbb{R}$, there exists $n\in \mathbb{Z}$ s.t.: $$\int_{\gamma}^{} k(s) \, ds =2\pi n$$
-> 2. if $\gamma$ is simple, i.e. injective, then: $\int_{\gamma}k(s) \, ds\in\{ 2\pi,-2\pi \}$.
-
-> [!proof]-
-> We have:
-> 1. $$\int_{\gamma}^{} k(s) \, ds=\int_{a}^{b} \dot{\theta}(s) \, ds =\theta(b)-\theta(a)=2\pi n $$for some $n\in \mathbb{Z}$.
-> 2. A non-intersective curve can turn at most once.
----
-##### Examples
-> [!h] Example 1
-> In a regular curve $\gamma:I \to \mathbb{R}^{2}$, the curvature is defined by a scalar $k$ where: $$\kappa=kN$$where $k:s(I)\to \mathbb{R}$ scalar function and $N(s)=\begin{bmatrix}0&-1\\1&0\end{bmatrix}\tau(s)$. Then for all $t\in I$, 
-> 1. $(\tau(t),N(t))$ define a moving orthonormal basis of $\mathbb{R}^{2}$ called a  ***moving frame***. 
----
-> [!h] Example 2
-> For a circle of radius $r$, 
-> 1. $k=1/r$.
-
->[!proof]-
-> Let $\gamma:[0,2\pi]\to \mathbb{R}^{2},t\mapsto(r\cos t,r\sin t)$. Then, $$\tau(s(t))=\frac{1}{r}(-r\sin t,r\cos t)=(-\sin t,\cos t)$$Therefore, $N(s(t))=-(\cos t,\sin t)$. Then, $$\kappa(s(t))=-\frac{(r\cos(t),r\sin(t))}{r^{2}}=\frac{1}{r}N(s(t))$$
-
----
-> [!h] Example 3 (Regular Curves in R2)
-> For a regular curve $\gamma:I\to \mathbb{R}^2$, by considering $\mathbb{R}^{2}\cong\mathbb{C}$, 
-> 1. there exists a smooth curve $\theta:s(I)\to \mathbb{R}$ s.t. $\tau(s)=\exp(i\theta(s))$.
-> 2. $k(s)=\dot{\theta}(s)$.
-> 3. $\left| k(s) \right|=\frac{1}{R(s)}$ where $R(s)$ is the radius of the osculating circle, i.e. the circle that agrees with the curve up to order 2 at $\gamma(s)$ (parametrized by the arc length). 
-> 4. Let $u:I\to \mathbb{R}$ be a smooth function and $\gamma:I\to \mathbb{R}^{2},t\mapsto (t,u(t))$ its graph, $$k(s(t))=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}$$
+> For a regular curve $\gamma:I\to \mathbb{R}^{2}$, we can define:
+> 1. $N:s(I)\to \mathbb{R}^{2}$ the ***normal vector*** given by $N(s):=\begin{bmatrix}0&-1\\1&0\end{bmatrix}\tau(s)$.
+> 2. $k:s(I)\to \mathbb{R}$ the ***curvature scalar*** given by $\kappa(s)=k(s)N(s)$.
+> 3. $(\tau(s),N(s))$ defines a moving ONB of $\mathbb{R}^{2}$ called a ***moving frame***.
+> 4. $\theta:s(I)\to \mathbb{R}$ the ***angular vector*** given by $\tau(s)=\exp(i\theta(s))$ where $\mathbb{R}^{2}\cong \mathbb{C}$.
+> 
+> Then, it holds that:
+> 1. $k(s)=\dot{\theta}(s)$.
+> 2. $\left| k(s) \right|=\frac{1}{R(s)}$ where $R(s)$ is the radius of the osculating circle, i.e. the circle that agrees with the curve up to order 2 at $\gamma(s)$ (parametrized by the arc length). 
+> 3. Let $u:I\to \mathbb{R}$ be a smooth function and $\gamma:I\to \mathbb{R}^{2},t\mapsto (t,u(t))$ its graph, $$k(s(t))=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}$$
 
 > [!proof]-
 > We have that:
@@ -89,14 +73,47 @@
 > 	
 > 	Therefore, as $\tau(s(t))=(1,\dot{u}(t))/(1+\dot{u}(t)^{2})^{1/2}$ and $N(s(t))=(-\dot{u}(t),1)/(1+\dot{u}(t)^{2})^{1/2}$,
 > 	$$\begin{align}\kappa(s(t))&=\frac{1}{1+\dot{u}(t)^{2}}\left( (0,\ddot{u}(t))- \frac{\ddot{u}(t)\dot{u}(t)}{1+\dot{u}(t)^{2}}(1,\dot{u}(t)) \right) \\&=\frac{1}{1+\dot{u}(t)^{2}}\left( -\frac{\ddot{u}(t)\dot{u}(t)}{1+\dot{u}(t)^{2}},\ddot{u}(t)- \frac{\ddot{u}(t)\dot{u}(t)^{2}}{1+\dot{u}(t)^{2}} \right) \\&=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}\left( -\frac{\dot{u}(t)}{(1+\dot{u}(t)^{2})^{1/2}},\frac{1}{(1+\dot{u}(t)^{2})^{1/2}} \right)\\&=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}N(s(t))\end{align}$$
+- **Remark**: The curvature scalar $k:I\to \mathbb{R}$ determines the curve up to a rigid motion. From $k$ by integration, we get $\theta(s)=\theta(s_{0})+\int_{s_{0}}^{s} k(t) \, dt$ and from $\theta$ we get $\tau$. Finally from $\tau$ we get $\gamma(s)=\gamma(s_{0})+\int_{s_{0}}^{s} \tau(x) \, dx$. Therefore, up to the choice of $\theta(s_{0})$ and $\gamma(s_{0})$, we have the same curve.
+
 ---
-> [!h] Example 4 (Curvature determines the curve up to rigid motion)
-> In $\mathbb{R}^{2}$, the curvature $k:I\to \mathbb{R}$ determines the curve up to a rigid motion.
-> 1. From Example 3.2, we get $\theta(s)=\theta(s_{0})+\int_{s_{0}}^{s} k(t) \, dt$ for some $s_{0}\in I$.
-> 2. From Example 3.1, we get $\tau(s)=\exp(i\theta (s))$.
-> 3. Hence, we get $\gamma(s)=\gamma(s_{0})+\int_{s_{0}}^{s} \tau(x) \, dx$.
+> [!lemma] Theorem 2
+> Let a regular curve $\gamma:[a,b]\to \mathbb{R}^{2}$ be smooth and closed, i.e. $\gamma$ can be extended to a smooth periodic curve $\mathbb{R}\to \mathbb{R}^{2}$. Then, 
+> 1. for the curvature $k:[a,b]\to \mathbb{R}$, there exists $n\in \mathbb{Z}$ s.t.: $$\int_{\gamma}^{} k(s) \, ds =2\pi n$$
+> 2. if $\gamma$ is simple, i.e. injective, then: $\int_{\gamma}k(s) \, ds\in\{ 2\pi,-2\pi \}$.
+
+> [!proof]-
+> We have:
+> 1. $$\int_{\gamma}^{} k(s) \, ds=\int_{a}^{b} \dot{\theta}(s) \, ds =\theta(b)-\theta(a)=2\pi n $$for some $n\in \mathbb{Z}$.
+> 2. A non-intersective curve can turn at most once.
+---
+###### Regular Curves in R3
+> [!lemma] Theorem 1
+> For a regular curve $\gamma:I\to \mathbb{R}^{3}$, we can define:
+> 1. $k:s(I)\to \mathbb{R}$ the ***curvature scalar*** given by $k(s):=\left\| \kappa(s) \right\|$.
+> 2. $N:s(I)\to \mathbb{R}^3$ the ***normal vector*** given by $N(s):=\frac{\kappa(s)}{\left\| \kappa(s) \right\|}=\frac{\kappa(s)}{k(s)}$.
+> 3. $B:s(I)\to \mathbb{R}^3$ the ***binormal vector*** given by $B(s):=\tau(s)\times N(s)$.
+> 4. $(\tau(s),N(s),B(s))$ defines a moving ONB of $\mathbb{R}^3$ called a ***moving frame***.
+> 6. if $\gamma$ ordinary, $\lambda:s(I)\to \mathbb{R}^3$ the ***torsion vector*** given by $\lambda(s):=\braket{ \dot{N}(s) , B(s) }B(s)$.
+> 7. if $\gamma$ ordinary, $\ell:s(I)\to \mathbb{R}^3$ the ***torsion scalar*** given by $\lambda(s):=\braket{ \dot{N}(s) , B(s) }$.
+> 7. 
+.
 > 
-> The only degrees of freedom are the choice of $\theta(s_{0})$, $\gamma(s_{0})$, which is constant modulo rigid motion.
+> Then, it holds that:
+> 1. $k(s)=\dot{\theta}(s)$.
+> 2. $\left| k(s) \right|=\frac{1}{R(s)}$ where $R(s)$ is the radius of the osculating circle, i.e. the circle that agrees with the curve up to order 2 at $\gamma(s)$ (parametrized by the arc length). 
+> 3. Let $u:I\to \mathbb{R}$ be a smooth function and $\gamma:I\to \mathbb{R}^{2},t\mapsto (t,u(t))$ its graph, $$k(s(t))=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}$$
+- **Remark**: The curvature scalar is non-negative in $\mathbb{R}^3$ whereas it could be negative in $\mathbb{R}^{2}$.
+---
+
+##### Examples
+
+> [!h] Example 1
+> For a circle of radius $r$, 
+> 1. $k=1/r$.
+
+>[!proof]-
+> Let $\gamma:[0,2\pi]\to \mathbb{R}^{2},t\mapsto(r\cos t,r\sin t)$. Then, $$\tau(s(t))=\frac{1}{r}(-r\sin t,r\cos t)=(-\sin t,\cos t)$$Therefore, $N(s(t))=-(\cos t,\sin t)$. Then, $$\kappa(s(t))=-\frac{(r\cos(t),r\sin(t))}{r^{2}}=\frac{1}{r}N(s(t))$$
+
 ---
 ##### Non-Examples
 - $t\mapsto (t^{2},t^{3})\in \mathbb{R}^2$ is not regular!
