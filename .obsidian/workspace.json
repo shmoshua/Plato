@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "b2ac8ae232b52046",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Complex Analysis/Holomorphic Function.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "1877132f1fe1af80",
             "type": "leaf",
             "state": {
@@ -55,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -68,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Complex Analysis/Holomorphic Function.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
                 "source": false
               }
@@ -164,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Complex Analysis/Holomorphic Function.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Complex Analysis/Holomorphic Function.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Complex Analysis/Holomorphic Function.md"
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
               }
             }
           }
@@ -226,11 +213,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b2ac8ae232b52046",
+  "active": "d6343995184d76ee",
   "lastOpenFiles": [
-    "Complex Analysis",
-    "Functional Analysis/Spectrum.md",
     "Complex Analysis/Holomorphic Function.md",
+    "Functional Analysis/Spectrum.md",
+    "Complex Analysis",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Banach Algebra.md",
@@ -263,7 +250,6 @@
     "Courses/Functional Analysis II/Untitled",
     "Courses/Analysis IV",
     "Lie Group",
-    "Courses/Lie Groups",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
