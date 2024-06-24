@@ -45,12 +45,22 @@
 > We have that:
 > 1. For the unit tangent vector:$$\tau(s(t))=\dot{\beta}(s(t))=\dot{\gamma}(g(s(t)))\dot{g}(s(t))=\frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|  }$$
 > 2. For the curvature vector: $$\begin{align}\kappa(s(t))&=\dot{\tau}(s(t))\\&=\frac{1}{\left\| \dot{\gamma}(t) \right\|  ^{2}}\left( \left\| \dot{\gamma}(t) \right\|  \ddot{\gamma}(t)-\frac{\braket{ \ddot{\gamma}(t) , \dot{\gamma}(t) }\dot{\gamma}(t) }{\left\| \dot{\gamma}(t) \right\|  } \right) \dot{g}(s(t))\\&=\frac{1}{\left\| \dot{\gamma}(t) \right\|  ^{2}}\left( \left\| \dot{\gamma}(t) \right\|  \ddot{\gamma}(t)-\frac{\braket{ \ddot{\gamma}(t) , \dot{\gamma}(t) }\dot{\gamma}(t) }{\left\| \dot{\gamma}(t) \right\|  } \right) \frac{1}{\left\| \dot{\gamma}(t) \right\| }\\&=\frac{1}{\left\| \dot{\gamma}(t) \right\|^{2}}\left(  \ddot{\gamma}(t)-\left\langle \ddot{\gamma}(t) ,  \frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|} \right\rangle \frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|} \right) \end{align}$$
+---
+##### Regular Curves in R2
+> [!lemma] Theorem 1
+> Let a regular curve $\gamma:[a,b]\to \mathbb{R}^{2}$ be smooth and closed, i.e. $\gamma$ can be extended to a smooth periodic curve $\mathbb{R}\to \mathbb{R}^{2}$. Then, 
+> 1. for the curvature $k:[a,b]\to \mathbb{R}$, there exists $n\in \mathbb{Z}$ s.t.: $$\int_{\gamma}^{} k(s) \, ds =2\pi n$$
+> 2. if $\gamma$ is simple, i.e. injective, then: $\int_{\gamma}k(s) \, ds\in\{ 2\pi,-2\pi \}$.
 
+> [!proof]-
+> We have:
+> 1. $$\int_{\gamma}^{} k(s) \, ds=\int_{a}^{b} \dot{\theta}(s) \, ds =\theta(b)-\theta(a)=2\pi n $$for some $n\in \mathbb{Z}$.
+> 2. A non-intersective curve can turn at most once.
 ---
 ##### Examples
 > [!h] Example 1
 > In a regular curve $\gamma:I \to \mathbb{R}^{2}$, the curvature is defined by a scalar $k$ where: $$\kappa=kN$$where $k:s(I)\to \mathbb{R}$ scalar function and $N(s)=\begin{bmatrix}0&-1\\1&0\end{bmatrix}\tau(s)$. Then for all $t\in I$, 
-> 1. $(\tau(t),N(t))$ define a moving orthonormal basis of $\mathbb{R}^{2}$ called a moving ***frame***. 
+> 1. $(\tau(t),N(t))$ define a moving orthonormal basis of $\mathbb{R}^{2}$ called a  ***moving frame***. 
 ---
 > [!h] Example 2
 > For a circle of radius $r$, 
@@ -81,8 +91,12 @@
 > 	$$\begin{align}\kappa(s(t))&=\frac{1}{1+\dot{u}(t)^{2}}\left( (0,\ddot{u}(t))- \frac{\ddot{u}(t)\dot{u}(t)}{1+\dot{u}(t)^{2}}(1,\dot{u}(t)) \right) \\&=\frac{1}{1+\dot{u}(t)^{2}}\left( -\frac{\ddot{u}(t)\dot{u}(t)}{1+\dot{u}(t)^{2}},\ddot{u}(t)- \frac{\ddot{u}(t)\dot{u}(t)^{2}}{1+\dot{u}(t)^{2}} \right) \\&=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}\left( -\frac{\dot{u}(t)}{(1+\dot{u}(t)^{2})^{1/2}},\frac{1}{(1+\dot{u}(t)^{2})^{1/2}} \right)\\&=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}N(s(t))\end{align}$$
 ---
 > [!h] Example 4 (Curvature determines the curve up to rigid motion)
-> In $\mathbb{R}^{2}$, the curvature $k:s(I)\to$
+> In $\mathbb{R}^{2}$, the curvature $k:I\to \mathbb{R}$ determines the curve up to a rigid motion.
+> 1. From Example 3.2, we get $\theta(s)=\theta(s_{0})+\int_{s_{0}}^{s} k(t) \, dt$ for some $s_{0}\in I$.
+> 2. From Example 3.1, we get $\tau(s)=\exp(i\theta (s))$.
+> 3. Hence, we get $\gamma(s)=\gamma(s_{0})+\int_{s_{0}}^{s} \tau(x) \, dx$.
 > 
+> The only degrees of freedom are the choice of $\theta(s_{0})$, $\gamma(s_{0})$, which is constant modulo rigid motion.
 ---
 ##### Non-Examples
 - $t\mapsto (t^{2},t^{3})\in \mathbb{R}^2$ is not regular!
