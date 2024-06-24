@@ -60,10 +60,16 @@
 > Let $\gamma:[0,2\pi]\to \mathbb{R}^{2},t\mapsto(r\cos t,r\sin t)$. Then, $$\tau(s(t))=\frac{1}{r}(-r\sin t,r\cos t)=(-\sin t,\cos t)$$Therefore, $N(s(t))=-(\cos t,\sin t)$. Then, $$\kappa(s(t))=-\frac{(r\cos(t),r\sin(t))}{r^{2}}=\frac{1}{r}N(s(t))$$
 
 ---
-> [!h] Proposition R2.2
-> For a regular curve $\gamma:I\to \mathbb{R}^2$, 
-> 1. $k= \frac{d\theta}{ds}$ where $\theta$ is the angle that $\tau$ makes with the $x$-axis. 
-> 2. $\left| k(t) \right|=\frac{1}{ R(t) }$ where $R(t)$ is the radius of the osculating circle to $\gamma$ at $\gamma(t)$, i.e. the circle that is tangent to $\gamma$ at $\gamma(t)$ to order 2.
+> [!h] Example 3 (Regular Curves in R2)
+> For a regular curve $\gamma:I\to \mathbb{R}^2$, by considering $\mathbb{R}^{2}\cong\mathbb{C}$, 
+> 1. there exists a smooth curve $\theta:s(I)\to \mathbb{R}$ s.t. $\tau(s)=\exp(i\theta(s))$.
+> 2. $k(s)=\dot{\theta}(s)$.
+> 3. $\left| k(s) \right|=\frac{1}{R(s)}$ where $R(s)$ is the radius of the osculating circle, i.e. the circle that agrees with the curve up to order 2 at $\gamma(s)$ (parametrized by the arc length). 
+
+> [!proof]+
+> We have that:
+> 1. For $\tau:=(\tau_{1},\tau_{2})$, we have $$\theta(s)=\arctan \frac{\tau_{2}(s)}{\tau_{1}(s)}$$
+> 2. Then, $$\begin{align}\dot{\theta}(s)&=\frac{1}{1+\frac{\tau_{2}(s)^{2}}{\tau_{1}(s)^{2}}}\cdot \frac{1}{\tau_{1}(s)^{2}}\cdot (\tau_{1}(s)\dot{\tau}_{2}(s)-\dot{\tau}_{1}(s)\tau_{2}(s))\\&=\frac{\tau_{1}(s)\dot{\tau}_{2}(s)-\dot{\tau}_{1}(s)\tau_{2}(s)}{\tau_{1}(s)^{2}+\tau_{2}(s)^{2}}\\&=\frac{\tau_{1}(s)\kappa_{2}(s)-\kappa_{1}(s)\tau_{2}(s)}{\tau_{1}(s)^{2}+\tau_{2}(s)^{2}}\end{align}$$
 ---
 ##### Non-Examples
 - $t\mapsto (t^{2},t^{3})\in \mathbb{R}^2$ is not regular!
