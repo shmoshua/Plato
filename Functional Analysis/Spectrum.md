@@ -12,7 +12,7 @@
 > [!lemma] Proposition 1 
 > Let $A$ be a [[Banach Algebra|Banach algebra]]. For $x\in A$, we have that:
 > 1. $r_{A}(x)\leq \|x\|$.
-> 2. $r_{A}(x)=\lim_{ n \to \infty }\left\| x^n \right\|^{1/n}$
+> 2. $r_{A}(x)=\lim_{ n \to \infty }\left\| x^n \right\|^{1/n}$ which is well-defined.
 
 > [!proof]-
 > We have:
@@ -37,12 +37,14 @@
 > [!lemma] Lemma 3
 > Let $A$ be a unital [[Banach Algebra|Banach algebra]]. Then, 
 > 1. the inversion map $G(A)\to G(A), x\mapsto x^{-1}$ is locally [[Lipschitz Function|Lipschitz continuous]]. More precisely, if $\left\| y-x \right\| \leq \frac{1}{2\left\|x ^{-1} \right\|}$, then: $$\left\| y^{-1}-x ^{-1} \right\| \leq 2\left\|  x ^{-1} \right\|^2 \left\| y-x \right\| $$
+> 2. Alternatively, we can directly show that $G(A)\to G(A),x\mapsto x ^{-1}$ is continuous. 
 > 3. For $x\in G(A)$, if $y\in A$ satisfies $\left\| y-x \right\|< \frac{1}{\left\| x ^{-1} \right\|}$, then $y\in G(A)$. 
 
-> [!proof]-
+> [!proof]+
 > We have
 > 1. $(y^{-1}-x ^{-1})=y^{-1}(x-y) x ^{-1}$ and: $$\left\| y^{-1} \right\| -\left\| x ^{-1} \right\|\leq \left\| y^{-1}-x ^{-1} \right\| \leq \left\| y^{-1} \right\|\left\| x-y \right\| \left\| x ^{-1} \right\| \leq \frac{1}{2}\left\| y^{-1} \right\|  $$Therefore, $\left\| y^{-1} \right\|\leq 2\left\| x ^{-1} \right\|$ and $\left\| y^{-1}-x ^{-1} \right\|\leq 2\left\| x ^{-1} \right\|^2\left\| x-y \right\|$
-> 2. We have: $e-x ^{-1}y=x ^{-1}(x-y)$. Therefore, $$\left\| e-x^{-1}y \right\| \leq \left\| x^{-1} \right\| \left\| x-y \right\| <1$$Therefore, from Lemma 2, $e-(e-x^{-1}y)=x^{-1}y\in G(A)$. Therefore, $y\in G(A)$. 
+> 2. Let $x_{n}\to x$ in $G(A)$. Then, we have that: $$x_{n}^{-1}=x_{n}^{-1}x x ^{-1}=(x^{-1}x_{n})^{-1}x ^{-1}$$where $(x ^{-1}x_{n})\to x$
+> 3. We have: $e-x ^{-1}y=x ^{-1}(x-y)$. Therefore, $$\left\| e-x^{-1}y \right\| \leq \left\| x^{-1} \right\| \left\| x-y \right\| <1$$Therefore, from Lemma 2, $e-(e-x^{-1}y)=x^{-1}y\in G(A)$. Therefore, $y\in G(A)$. 
 - **Remark**: $G(A)$ is an open subset of $A$ and multiplication and inversion are continuous on $G(A)$.
 ---
 
