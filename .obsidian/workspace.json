@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Complex Analysis/Holomorphic Function.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Banach Algebra.md",
+                "file": "Complex Analysis/Holomorphic Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -87,7 +87,7 @@
             }
           },
           {
-            "id": "95651fd232c3d4dc",
+            "id": "d32c0cda1f0fd712",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -97,53 +97,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "66994e7518ab9299",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/C-Algebra.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "011330203ec06504",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac7e50ebaa2f6c4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d32c0cda1f0fd712",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Complex Analysis/Holomorphic Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Complex Analysis/Holomorphic Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Spectrum.md"
+                "file": "Complex Analysis/Holomorphic Function.md"
               }
             }
           }
@@ -271,15 +226,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1d45af889d3c44b9",
+  "active": "b2ac8ae232b52046",
   "lastOpenFiles": [
-    "Functional Analysis/Banach Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Complex Analysis",
     "Functional Analysis/Spectrum.md",
+    "Complex Analysis/Holomorphic Function.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/Banach Algebra.md",
+    "Measure Theory/Summable Function.md",
+    "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Functional Analysis/C-Algebra.md",
     "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Topology/Topological Space.md",
     "Differential Geometry/Topological Manifold.md",
     "Functional Analysis/Volterra Algebra.md",
@@ -296,9 +254,6 @@
     "Courses/Topology/Exercise Sheet 11.md",
     "Topology/Quotient Topology.md",
     "Topology/Interior and Closure.md",
-    "Topology/Semi-Locally Simply Connected Space.md",
-    "Topology/Locally Path-Connected Space.md",
-    "Analysis/Convergence of Sequences.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

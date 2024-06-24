@@ -40,10 +40,10 @@
 > 2. Alternatively, we can directly show that $G(A)\to G(A),x\mapsto x ^{-1}$ is continuous. 
 > 3. For $x\in G(A)$, if $y\in A$ satisfies $\left\| y-x \right\|< \frac{1}{\left\| x ^{-1} \right\|}$, then $y\in G(A)$. 
 
-> [!proof]+
+> [!proof]-
 > We have
 > 1. $(y^{-1}-x ^{-1})=y^{-1}(x-y) x ^{-1}$ and: $$\left\| y^{-1} \right\| -\left\| x ^{-1} \right\|\leq \left\| y^{-1}-x ^{-1} \right\| \leq \left\| y^{-1} \right\|\left\| x-y \right\| \left\| x ^{-1} \right\| \leq \frac{1}{2}\left\| y^{-1} \right\|  $$Therefore, $\left\| y^{-1} \right\|\leq 2\left\| x ^{-1} \right\|$ and $\left\| y^{-1}-x ^{-1} \right\|\leq 2\left\| x ^{-1} \right\|^2\left\| x-y \right\|$
-> 2. Let $x_{n}\to x$ in $G(A)$. Then, we have that: $$x_{n}^{-1}=x_{n}^{-1}x x ^{-1}=(x^{-1}x_{n})^{-1}x ^{-1}$$where $(x ^{-1}x_{n})\to x$
+> 2. Let $x_{n}\to x$ in $G(A)$. Then, we have that: $$x_{n}^{-1}=x_{n}^{-1}x x ^{-1}=(x^{-1}x_{n})^{-1}x ^{-1}$$where $(x ^{-1}x_{n})\to e$ by continuity of multiplication. Therefore it suffices to show that $x_{n}\to e$ implies $x_{n}^{-1}\to e$. Wlog we may assume that $\left\| e-x_{n} \right\|<1$ for all $n\in \mathbb{N}$. Then, $$\lim_{ n \to \infty } x_{n}^{-1}=\lim_{ n \to \infty } \sum_{m=0}^{\infty}(e-x_{n})^m=e$$by the dominated convergence theorem. 
 > 3. We have: $e-x ^{-1}y=x ^{-1}(x-y)$. Therefore, $$\left\| e-x^{-1}y \right\| \leq \left\| x^{-1} \right\| \left\| x-y \right\| <1$$Therefore, from Lemma 2, $e-(e-x^{-1}y)=x^{-1}y\in G(A)$. Therefore, $y\in G(A)$. 
 - **Remark**: $G(A)$ is an open subset of $A$ and multiplication and inversion are continuous on $G(A)$.
 ---
@@ -54,7 +54,7 @@
 > 1. $\text{Sp}_{A}(x)\subseteq \mathbb{C}$ is a  non-empty compact set and: 
 > 2. it holds that$$r_{A}(x)=\max \{ \left| \lambda \right| :\lambda\in \text{Sp}_{A}(x) \}=\|x\|_{\text{sp}}$$
 
-> [!proof]+
+> [!proof]-
 > Wlog we may assume that $A$ is unital.
 > 1. **Show that $\text{Sp}_{A}(x)\subseteq B_{<r_{A}(x)}(0)$**:
 >    Assume $\left| \lambda \right|>r_{A}(x)$. Then, $r_{A}(x) / \left| \lambda \right|<1$. By definition, we have: $$\frac{r_{A}(x)}{\left| \lambda \right| }=r_{A}\left( \frac{x}{\lambda} \right)$$ Therefore, $e-x / \lambda$ is invertible by Lemma 2. As $\lambda e$ is invertible as well, the product $\lambda e-x$ is invertible, i.e. $\lambda\notin \text{Sp}_{A}(x)$.
@@ -66,7 +66,7 @@
 >    
 >    Say $\left| \lambda \right|>2\|x\|$. Then, $$f(\lambda)=\frac{1}{\lambda}\sum_{n=0}^{\infty}\ell\left( \left( \frac{x}{\lambda} \right)^n \right)$$and $\left| f(\lambda) \right|\leq \frac{1}{\left| \lambda \right|}\sum_{n=0}^{\infty}\left\| \ell \right\|\left\| \frac{x}{\lambda} \right\|^n< \frac{\left\| \ell \right\|}{\left| \lambda \right|}\sum_{n=0}^{\infty} \frac{1}{2^n}=2\left\| \ell \right\| / \left| \lambda \right|$. 
 >    
->    Now, if $\text{Sp}_{A}(x)= \varnothing$, then $\rho_{A}(x)=\mathbb{C}$ and $f:\mathbb{C}\to \mathbb{C}$ is a bounded holomorphic function. Therefore, $f$ is constant and $f=0$. Hence, $\ell((\lambda e-x)^{-1})=0$ for all $\ell\in A^{*}$, which means $(\lambda e-x)^{-1}=0$ but this would imply that $e=0$, which is a contradiction.
+>    Now, if $\text{Sp}_{A}(x)= \varnothing$, then $\rho_{A}(x)=\mathbb{C}$ and $f:\mathbb{C}\to \mathbb{C}$ is a bounded holomorphic function. Therefore, $f$ is constant and from $\left| f(\lambda) \right|<2\|\ell\| /\left| \lambda \right|$, we have $f=0$. Hence, $\ell((\lambda e-x)^{-1})=0$ for all $\ell\in A^{*}$, which means $(\lambda e-x)^{-1}=0$ but this would imply that $e=0$, which is a contradiction.
 >  4. **Show that $\|x\|_{\text{sp}}=r_{A}(x)$**:
 > 	    From 1, we have $\|x\|_{\text{sp}}\leq r_{A}(x)$. We proceed to show $r_{A}(x)\leq\|x\|_{\text{sp}}$. As $\text{Sp}_{A}(x)\subseteq B_{\leq \|x\|_{\text{sp}}}(0)$, we have that: 
 > 	    
@@ -76,13 +76,12 @@
 > 	   But $\left| \xi \right|r_{A}(x)\leq 1$ for all $\left| \xi \right|< \frac{1}{\|x\|_{\text{sp}}}$ and $r_{A}(x)\leq \frac{1}{\left| \xi \right|}$ for all $\left| \xi \right|< \frac{1}{\|x\|_{\text{sp}}}$ which implies: $$r_{A}(x)\leq \|x\|_{\text{sp}}$$
 ---
 > [!lemma] Corollary 5 (Guelfand-Mazur)
-> If $A$ is a unital [[Banach Algebra]] in which every non-zero element is invertible. Then, $A\cong \mathbb{C}$.
+> If $A$ is a unital [[Banach Algebra]] in which every non-zero element is invertible. Then, $A\cong \mathbb{C}$ as Banach algebras.
 
 > [!proof]-
 > Let $x\in A$. Then, as $\text{Sp}_{A}(x)\neq \varnothing$, pick $\lambda\in \text{Sp}_{A}(x)$ and $x-\lambda e$ is not invertible. This means $x-\lambda e=0$ and $x=\lambda e$. 
 > 
-> So for each $x\in A$, there exists $\lambda(x)\in \mathbb{C}$ s.t. $x=\lambda(x)e$.
-> $A$ is one-dimensional => $A\to \mathbb{C}$ is continuous.
+> So for each $x\in A$, there exists $\lambda(x)\in \mathbb{C}$ s.t. $x=\lambda(x)e$. $A$ is one-dimensional => $A\to \mathbb{C}$ is continuous by [[Bounded Linear Map|Proposition 2]]
 ---
 ##### Examples
 > [!h] Example 1
