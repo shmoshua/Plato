@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Topology/Path.md",
                 "mode": "preview",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bounded inverse",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,8 +217,10 @@
   },
   "active": "1d45af889d3c44b9",
   "lastOpenFiles": [
-    "Differential Geometry/Tangent and Curvature Vector in Rn.md",
+    "Topology/Path.md",
+    "simple curve.md",
     "Differential Geometry/Regular Curve in Rn.md",
+    "Differential Geometry/Tangent and Curvature Vector in Rn.md",
     "Differential Geometry/Smooth Curve.md",
     "Functional Analysis/C*-Algebra.md",
     "Differential Geometry/Arc Length.md",
@@ -242,8 +244,6 @@
     "Topology/Lift.md",
     "Topology/Covering Space.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/Fundamental Group.md",
-    "Topology/Universal Cover.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

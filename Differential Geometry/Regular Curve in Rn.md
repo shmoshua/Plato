@@ -65,11 +65,24 @@
 > 1. there exists a smooth curve $\theta:s(I)\to \mathbb{R}$ s.t. $\tau(s)=\exp(i\theta(s))$.
 > 2. $k(s)=\dot{\theta}(s)$.
 > 3. $\left| k(s) \right|=\frac{1}{R(s)}$ where $R(s)$ is the radius of the osculating circle, i.e. the circle that agrees with the curve up to order 2 at $\gamma(s)$ (parametrized by the arc length). 
+> 4. Let $u:I\to \mathbb{R}$ be a smooth function and $\gamma:I\to \mathbb{R}^{2},t\mapsto (t,u(t))$ its graph, $$k(s(t))=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}$$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. For $\tau:=(\tau_{1},\tau_{2})$, we have $$\theta(s)=\arctan \frac{\tau_{2}(s)}{\tau_{1}(s)}$$
-> 2. Then, $$\begin{align}\dot{\theta}(s)&=\frac{1}{1+\frac{\tau_{2}(s)^{2}}{\tau_{1}(s)^{2}}}\cdot \frac{1}{\tau_{1}(s)^{2}}\cdot (\tau_{1}(s)\dot{\tau}_{2}(s)-\dot{\tau}_{1}(s)\tau_{2}(s))\\&=\frac{\tau_{1}(s)\dot{\tau}_{2}(s)-\dot{\tau}_{1}(s)\tau_{2}(s)}{\tau_{1}(s)^{2}+\tau_{2}(s)^{2}}\\&=\frac{\tau_{1}(s)\kappa_{2}(s)-\kappa_{1}(s)\tau_{2}(s)}{\tau_{1}(s)^{2}+\tau_{2}(s)^{2}}\end{align}$$
+> 2. Then, $$\begin{align}\dot{\theta}(s)&=\frac{1}{1+\frac{\tau_{2}(s)^{2}}{\tau_{1}(s)^{2}}}\cdot \frac{1}{\tau_{1}(s)^{2}}\cdot (\tau_{1}(s)\dot{\tau}_{2}(s)-\dot{\tau}_{1}(s)\tau_{2}(s))\\&=\frac{\tau_{1}(s)\dot{\tau}_{2}(s)-\dot{\tau}_{1}(s)\tau_{2}(s)}{\tau_{1}(s)^{2}+\tau_{2}(s)^{2}}\\&=\frac{\tau_{1}(s)\kappa_{2}(s)-\kappa_{1}(s)\tau_{2}(s)}{\tau_{1}(s)^{2}+\tau_{2}(s)^{2}}\\&=\braket{ N(s) ,\kappa(s)  }\\&=k(s) \end{align}$$
+> 3. As such a circle always exists and we have that for such circle, $k(s)=\frac{1}{R(s)}$ from Example 2. 
+> 4. We have that 
+> 	1. $\gamma(t)=(t,u(t))$, 
+> 	2. $\dot{\gamma}(t)=(1,\dot{u}(t))$ and 
+> 	3. $\ddot{\gamma}(t)=(0,\ddot{u}(t))$. 
+> 	
+> 	Therefore, as $\tau(s(t))=(1,\dot{u}(t))/(1+\dot{u}(t)^{2})^{1/2}$ and $N(s(t))=(-\dot{u}(t),1)/(1+\dot{u}(t)^{2})^{1/2}$,
+> 	$$\begin{align}\kappa(s(t))&=\frac{1}{1+\dot{u}(t)^{2}}\left( (0,\ddot{u}(t))- \frac{\ddot{u}(t)\dot{u}(t)}{1+\dot{u}(t)^{2}}(1,\dot{u}(t)) \right) \\&=\frac{1}{1+\dot{u}(t)^{2}}\left( -\frac{\ddot{u}(t)\dot{u}(t)}{1+\dot{u}(t)^{2}},\ddot{u}(t)- \frac{\ddot{u}(t)\dot{u}(t)^{2}}{1+\dot{u}(t)^{2}} \right) \\&=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}\left( -\frac{\dot{u}(t)}{(1+\dot{u}(t)^{2})^{1/2}},\frac{1}{(1+\dot{u}(t)^{2})^{1/2}} \right)\\&=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}N(s(t))\end{align}$$
+---
+> [!h] Example 4 (Curvature determines the curve up to rigid motion)
+> In $\mathbb{R}^{2}$, the curvature $k:s(I)\to$
+> 
 ---
 ##### Non-Examples
 - $t\mapsto (t^{2},t^{3})\in \mathbb{R}^2$ is not regular!
