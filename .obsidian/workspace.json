@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent and Curvature Vector in Rn.md",
+                "file": "Differential Geometry/Regular Curve in Rn.md",
                 "mode": "source",
                 "source": true
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -67,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent and Curvature Vector in Rn.md",
+                "file": "Differential Geometry/Regular Curve in Rn.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +86,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,7 +215,7 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d6343995184d76ee",
+  "active": "1d45af889d3c44b9",
   "lastOpenFiles": [
     "Differential Geometry/Tangent and Curvature Vector in Rn.md",
     "Differential Geometry/Regular Curve in Rn.md",

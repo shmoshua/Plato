@@ -41,14 +41,31 @@
 > 1. $\tau(s(t))=\frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|}$
 > 2. $\kappa(s(t))=\frac{1}{\left\| \dot{\gamma}(t) \right\|^{2}}\left(  \ddot{\gamma}(t)-\left\langle \ddot{\gamma}(t) ,  \frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|} \right\rangle \frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|} \right)=\frac{1}{\left\| \dot{\gamma}(t) \right\|^{2}}\left(  \ddot{\gamma}(t)-\left\langle \ddot{\gamma}(t) ,  \tau(s(t)) \right\rangle \tau(s(t))\right)$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. For the unit tangent vector:$$\tau(s(t))=\dot{\beta}(s(t))=\dot{\gamma}(g(s(t)))\dot{g}(s(t))=\frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|  }$$
-> 2. For the curvature vector: $$\begin{align}\kappa(s(t))&=\dot{\tau}(s(t))\\&=\frac{1}{\left| \dot{\gamma}(t) \right| ^{2}}\left( \left| \dot{\gamma}(t) \right| \ddot{\gamma}(t)-\frac{\dot{\gamma}(t)^{2} \ddot{\gamma}(t)}{\left| \dot{\gamma}(t)  \right| } \right) \dot{g}(s(t))\\&=\frac{1}{\left| \dot{\gamma}(t) \right| ^{2}}\left( \left| \dot{\gamma}(t) \right| \ddot{\gamma}(t)-\frac{\dot{\gamma}(t)^{2} \ddot{\gamma}(t)}{\left| \dot{\gamma}(t)  \right| } \right) \frac{1}{\left| \dot{\gamma}(t) \right| }\\&=\frac{1}{\left| \dot{\gamma}(t) \right| ^{2}}\left(  \ddot{\gamma}(t)-\frac{\dot{\gamma}(t)^{2} \ddot{\gamma}(t)}{\left| \dot{\gamma}(t)  \right|^{2} } \right)\end{align}$$
-> $$\begin{align}\kappa =\tau_{s}=\left(  \frac{d}{dt} \frac{\gamma_{t}}{\left| \gamma_{t} \right| } \right)\frac{dg}{ds} =\left( \frac{\gamma_{tt}}{|\gamma_{t}|}-\frac{\gamma_{t}}{\left| \gamma_{t} \right| ^{2}}\frac{d}{dt} \left| \gamma _{t} \right| \right)\frac{1}{\left| \gamma_{t} \right| } =\frac{1}{\left| \gamma_{t} \right|^{2} }\left( \gamma_{tt}-\braket{ \gamma_{tt} , \frac{\gamma_{t}}{\left| \gamma_{t} \right| } } \frac{\gamma_{t}}{\left| \gamma_{t} \right| } \right)\end{align}$$
+> 2. For the curvature vector: $$\begin{align}\kappa(s(t))&=\dot{\tau}(s(t))\\&=\frac{1}{\left\| \dot{\gamma}(t) \right\|  ^{2}}\left( \left\| \dot{\gamma}(t) \right\|  \ddot{\gamma}(t)-\frac{\braket{ \ddot{\gamma}(t) , \dot{\gamma}(t) }\dot{\gamma}(t) }{\left\| \dot{\gamma}(t) \right\|  } \right) \dot{g}(s(t))\\&=\frac{1}{\left\| \dot{\gamma}(t) \right\|  ^{2}}\left( \left\| \dot{\gamma}(t) \right\|  \ddot{\gamma}(t)-\frac{\braket{ \ddot{\gamma}(t) , \dot{\gamma}(t) }\dot{\gamma}(t) }{\left\| \dot{\gamma}(t) \right\|  } \right) \frac{1}{\left\| \dot{\gamma}(t) \right\| }\\&=\frac{1}{\left\| \dot{\gamma}(t) \right\|^{2}}\left(  \ddot{\gamma}(t)-\left\langle \ddot{\gamma}(t) ,  \frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|} \right\rangle \frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|} \right) \end{align}$$
 
 ---
-##### Examples of non-regular curves
+##### Examples
+> [!h] Example 1
+> In a regular curve $\gamma:I \to \mathbb{R}^{2}$, the curvature is defined by a scalar $k$ where: $$\kappa=kN$$where $k:s(I)\to \mathbb{R}$ scalar function and $N(s)=\begin{bmatrix}0&-1\\1&0\end{bmatrix}\tau(s)$. Then for all $t\in I$, 
+> 1. $(\tau(t),N(t))$ define a moving orthonormal basis of $\mathbb{R}^{2}$ called a moving ***frame***. 
+---
+> [!h] Example 2
+> For a circle of radius $r$, 
+> 1. $k=1/r$.
+
+>[!proof]-
+> Let $\gamma:[0,2\pi]\to \mathbb{R}^{2},t\mapsto(r\cos t,r\sin t)$. Then, $$\tau(s(t))=\frac{1}{r}(-r\sin t,r\cos t)=(-\sin t,\cos t)$$Therefore, $N(s(t))=-(\cos t,\sin t)$. Then, $$\kappa(s(t))=-\frac{(r\cos(t),r\sin(t))}{r^{2}}=\frac{1}{r}N(s(t))$$
+
+---
+> [!h] Proposition R2.2
+> For a regular curve $\gamma:I\to \mathbb{R}^2$, 
+> 1. $k= \frac{d\theta}{ds}$ where $\theta$ is the angle that $\tau$ makes with the $x$-axis. 
+> 2. $\left| k(t) \right|=\frac{1}{ R(t) }$ where $R(t)$ is the radius of the osculating circle to $\gamma$ at $\gamma(t)$, i.e. the circle that is tangent to $\gamma$ at $\gamma(t)$ to order 2.
+---
+##### Non-Examples
 - $t\mapsto (t^{2},t^{3})\in \mathbb{R}^2$ is not regular!
 	```tikz
 	
