@@ -6,7 +6,7 @@
 - **Remark**: the arc length $s:I\to \mathbb{R},t\mapsto \int_{t}^{t_{0}} \left| \dot{\gamma} (\tau)\right| \, d\tau$ is a geometric property, i.e. it is unique up to the choice of the base point and does not depend on the parametrization of $\gamma$.
 - **Remark**: From Proposition 1, we abuse the notation and represent $\gamma=\beta$, i.e. $\gamma$ is sometimes treated as the reparametrized curve. 
 - **Related definition**: for a regular curve $\gamma:I\to \mathbb{R}^n$, 
-  1. the ***tangent vector*** $\tau:s(I)\to \mathbb{R}^n$ is given as $\tau(s)=\dot{\gamma}(s):=\dot{\beta}(s)$.
+  1. the ***unit tangent vector*** $\tau:s(I)\to \mathbb{R}^n$ is given as $\tau(s)=\dot{\gamma}(s):=\dot{\beta}(s)$.
   2. the ***curvature vector*** $\kappa:s(I)\to \mathbb{R}^n$ is given as $\kappa(s)=\dot{\tau}(s)=\ddot{\gamma}(s)$.
 
 - **Remark**: The tangent vector and the curvature vector are ***geometric***, i.e. they only depend on $\gamma(I)$ and not on the parametrization. 
@@ -20,28 +20,32 @@
 
 > [!proof]-
 > Fix $t_{0}$. Then, 
-> 1. We let $s(t)=\int_{t_{0}}^{t} \left|  \dot{\gamma}(\tau) \right| \, d\tau$. We first show that $s:I\to s(I)$ is bijective. If $t_{1}<t_{2}$, $$s(t_{2})=\int_{t_{0}}^{t_{2}}\left| \dot{\gamma}(\tau) \right|   \, d\tau=\int_{t_{0}}^{t_{1}}\left| \dot{\gamma}(\tau) \right|   \, d\tau+\int_{t_{1}}^{t_{2}}\underbrace{ \left| \dot{\gamma}(\tau) \right|  }_{ >0 }  \, d\tau>s(t_{1}) $$Therefore, we can define $g:s(I)\to I$ as its inverse. By defining $\beta:=\gamma \circ g$, we have a curve $\beta:s(I)\to \mathbb{R}^n$ s.t. $$\beta(s(t))=\gamma(g(s(t)))=\gamma(t)$$
+> 1. We let $s(t)=\int_{t_{0}}^{t} \left\| \dot{\gamma}(\tau) \right\|\, d\tau$. We first show that $s:I\to s(I)$ is bijective. If $t_{1}<t_{2}$, $$s(t_{2})=\int_{t_{0}}^{t_{2}}\left\| \dot{\gamma}(\tau) \right\|    \, d\tau=\int_{t_{0}}^{t_{1}}\left\| \dot{\gamma}(\tau) \right\|   \, d\tau+\int_{t_{1}}^{t_{2}}\underbrace{ \left\| \dot{\gamma}(\tau) \right\|   }_{ >0 }  \, d\tau>s(t_{1}) $$Therefore, we can define $g:s(I)\to I$ as its inverse. By defining $\beta:=\gamma \circ g$, we have a curve $\beta:s(I)\to \mathbb{R}^n$ s.t. $$\beta(s(t))=\gamma(g(s(t)))=\gamma(t)$$
 >    
 >    
 >    Now, we show that $s$ is the arc-length of $\beta$. We have: 
->    $$\left| \dot{\beta} (x)\right|=\left| \dot{\gamma}(g(x))\dot{g}(x)\right| =\left| \dot{\gamma}(g(x)) \frac{1}{\dot{s}(g(x))} \right|  =\left| \dot{\gamma}(g(x)) \frac{1}{\dot{\gamma}(g(x))} \right|=1$$
-> 	and $\beta$ is regular with $\int_{0}^{s} \left| \dot{\beta}(x) \right| \, dx=s$.
+>    $$\left\| \dot{\beta} (x)\right\|=\left\| \dot{\gamma}(g(x))\dot{g}(x)\right\| =\left\| \dot{\gamma}(g(x)) \frac{1}{\dot{s}(g(x))} \right\|  =\left\| \dot{\gamma}(g(x)) \frac{1}{\dot{\gamma}(g(x))} \right\|=1$$
+> 	and $\beta$ is regular with $\int_{0}^{s} \left\| \dot{\beta}(x) \right\| \, dx=s$.
 > 2. The uniqueness is given by the construction.
 ---
 > [!lemma] Lemma 2
 > For any $s\in s(I)$: 
 > 1. $\braket{ \kappa(s) , \tau(s) }=0$
 
+> [!proof]-
+> We have that:
+> 1. As $\tau(s)=\dot{\gamma}(s)$, we have: $\braket{ \tau(s) ,\tau(s)  }=\left\| \tau(s) \right\|=\left\| \dot{\gamma}(s) \right\|=1$. Therefore, $$0=\frac{d}{ds}\braket{ \tau(s) , \tau(s) } =2\left\langle \frac{d}{ds}\tau(s),\tau(s)\right \rangle=2\braket{ \kappa(s) , \tau(s) } $$
+---
+> [!lemma] Proposition 3 (Parametrization and Curvature)
+> Let $\gamma:I\to \mathbb{R}^n$ be a regular curve. Then, for $t\in I$, 
+> 1. $\tau(s(t))=\frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|}$
+> 2. $\kappa(s(t))=\frac{1}{\left\| \dot{\gamma}(t) \right\|^{2}}\left(  \ddot{\gamma}(t)-\left\langle \ddot{\gamma}(t) ,  \frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|} \right\rangle \frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|} \right)=\frac{1}{\left\| \dot{\gamma}(t) \right\|^{2}}\left(  \ddot{\gamma}(t)-\left\langle \ddot{\gamma}(t) ,  \tau(s(t)) \right\rangle \tau(s(t))\right)$
+
 > [!proof]+
 > We have that:
-> 1. As $\tau(s)=\dot{\gamma}(s)$, we have: $\braket{ \tau(s) ,\tau(s)  }=$$$0=\frac{d}{ds}\braket{ \tau(s) , \tau(s) } =2\left\langle \frac{d}{ds}\tau(s),\tau(s)\right \rangle=2\braket{ \kappa(s) , \tau(s) } $$
-
-> [!lemma] Proposition 1
-> The tangent vector and curvature vector are orthogonal, i.e. $\kappa(s) {\bot}\tau(s)$ for all $s$.
-
-> [!proof]-
-> Firstly, $$\braket{ \tau(s) , \tau(s) } =\frac{\braket{ \dot{\gamma}(t) , \dot{\gamma}(t) } }{\left| \dot{\gamma} (t)\right|^{2} }=1$$
-> Therefore, $$0=\frac{d}{ds}\braket{ \tau(s) , \tau(s) } =2 \braket{  \dot{\tau}(s) , \tau(s) } =2\braket{ \kappa(s) , \tau (s)} $$
+> 1. For the unit tangent vector:$$\tau(s(t))=\dot{\beta}(s(t))=\dot{\gamma}(g(s(t)))\dot{g}(s(t))=\frac{\dot{\gamma}(t)}{\left\| \dot{\gamma}(t) \right\|  }$$
+> 2. For the curvature vector: $$\begin{align}\kappa(s(t))&=\dot{\tau}(s(t))\\&=\frac{1}{\left| \dot{\gamma}(t) \right| ^{2}}\left( \left| \dot{\gamma}(t) \right| \ddot{\gamma}(t)-\frac{\dot{\gamma}(t)^{2} \ddot{\gamma}(t)}{\left| \dot{\gamma}(t)  \right| } \right) \dot{g}(s(t))\\&=\frac{1}{\left| \dot{\gamma}(t) \right| ^{2}}\left( \left| \dot{\gamma}(t) \right| \ddot{\gamma}(t)-\frac{\dot{\gamma}(t)^{2} \ddot{\gamma}(t)}{\left| \dot{\gamma}(t)  \right| } \right) \frac{1}{\left| \dot{\gamma}(t) \right| }\\&=\frac{1}{\left| \dot{\gamma}(t) \right| ^{2}}\left(  \ddot{\gamma}(t)-\frac{\dot{\gamma}(t)^{2} \ddot{\gamma}(t)}{\left| \dot{\gamma}(t)  \right|^{2} } \right)\end{align}$$
+> $$\begin{align}\kappa =\tau_{s}=\left(  \frac{d}{dt} \frac{\gamma_{t}}{\left| \gamma_{t} \right| } \right)\frac{dg}{ds} =\left( \frac{\gamma_{tt}}{|\gamma_{t}|}-\frac{\gamma_{t}}{\left| \gamma_{t} \right| ^{2}}\frac{d}{dt} \left| \gamma _{t} \right| \right)\frac{1}{\left| \gamma_{t} \right| } =\frac{1}{\left| \gamma_{t} \right|^{2} }\left( \gamma_{tt}-\braket{ \gamma_{tt} , \frac{\gamma_{t}}{\left| \gamma_{t} \right| } } \frac{\gamma_{t}}{\left| \gamma_{t} \right| } \right)\end{align}$$
 
 ---
 ##### Examples of non-regular curves
