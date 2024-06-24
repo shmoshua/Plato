@@ -94,14 +94,20 @@
 > 3. $B:s(I)\to \mathbb{R}^3$ the ***binormal vector*** given by $B(s):=\tau(s)\times N(s)$.
 > 4. $(\tau(s),N(s),B(s))$ defines a moving ONB of $\mathbb{R}^3$ called a ***moving frame***.
 > 6. if $\gamma$ ordinary, $\lambda:s(I)\to \mathbb{R}^3$ the ***torsion vector*** given by $\lambda(s):=\braket{ \dot{N}(s) , B(s) }B(s)$.
-> 7. if $\gamma$ ordinary, $\ell:s(I)\to \mathbb{R}^3$ the ***torsion scalar*** given by $\lambda(s):=\braket{ \dot{N}(s) , B(s) }$.
-> 7. 
-.
+> 7. if $\gamma$ ordinary, $\ell:s(I)\to \mathbb{R}^3$ the ***torsion scalar*** given by $\ell(s):=\braket{ \dot{N}(s) , B(s) }$.
 > 
 > Then, it holds that:
-> 1. $k(s)=\dot{\theta}(s)$.
-> 2. $\left| k(s) \right|=\frac{1}{R(s)}$ where $R(s)$ is the radius of the osculating circle, i.e. the circle that agrees with the curve up to order 2 at $\gamma(s)$ (parametrized by the arc length). 
-> 3. Let $u:I\to \mathbb{R}$ be a smooth function and $\gamma:I\to \mathbb{R}^{2},t\mapsto (t,u(t))$ its graph, $$k(s(t))=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}$$
+> 1. $\dot{B}(s)=-\ell(s)N(s)$.
+> 1. If $k\equiv 0$, then $\gamma$ is a line.
+> 2. If $\ell \equiv 0$, then $\gamma$ lies in a plane.
+
+> [!proof]+
+> We have that:
+> 1. As we have $1=\left\| N(s) \right\|^{2}=\braket{ N(s) , N(s) }$, we have that $\braket{ \dot{N}(s) , N(s) }=0$. Therefore, $$\dot{N}(s)=\alpha(s)\tau(s)+\ell(s)B(s)$$Hence, $$\dot{B}(s)=\kappa(s)\times N(s)+\tau(s)\times \tau(s)$$
+> 1. If $k\equiv 0$, then $\kappa\equiv 0$. Therefore, $\tau\equiv v$ for some $v\in \mathbb{R}^3$ s.t. $\|v\|=1$. Therefore, $$\gamma(s)=\alpha vs+w$$for $\alpha\in \mathbb{R}$, $w\in \mathbb{R}^3$. which shows that $\gamma$ is a line.
+> 2. 
+>    
+>    If $\ell \equiv 0$, then $\dot{N}(s),B(s)$ are orthogonal for all $s$. $$\dot{B}(s)=\kappa(s)\times N(s)+\tau(s)\times \dot{N}(s)$$We have that: $$\braket{ \dot{N}(s) , B(s) }=\braket{ \dot{N}(s) , \tau(s)\times N(s) } =\braket{ \tau(s) , N(s)\times \dot{N}(s) }  $$
 - **Remark**: The curvature scalar is non-negative in $\mathbb{R}^3$ whereas it could be negative in $\mathbb{R}^{2}$.
 ---
 
