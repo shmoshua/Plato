@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Surface.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Differential Geometry/Regular Curve in Rn.md",
                 "mode": "preview",
                 "source": false
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "mode": "preview",
                 "source": false
               }
@@ -97,8 +97,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Surface.md",
+                "file": "Differential Geometry/Regular Curve in Rn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Surface.md",
+                "file": "Differential Geometry/Regular Curve in Rn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Surface.md"
+                "file": "Differential Geometry/Regular Curve in Rn.md"
               }
             }
           }
@@ -226,10 +225,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "d6343995184d76ee",
   "lastOpenFiles": [
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Surface.md",
+    "Differential Geometry/Extrinsic Curvature.md",
     "Differential Geometry/Regular Curve in Rn.md",
     "Topology/Path.md",
     "Differential Geometry/Surface in Rn.md",
@@ -254,7 +254,6 @@
     "Topology/Continuous Function.md",
     "Topology/Hausdorff Space.md",
     "Algebra/Group.md",
-    "Topology/Lift.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
