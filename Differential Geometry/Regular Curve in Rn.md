@@ -61,7 +61,7 @@
 > 2. $\left| k(s) \right|=\frac{1}{R(s)}$ where $R(s)$ is the radius of the osculating circle, i.e. the circle that agrees with the curve up to order 2 at $\gamma(s)$ (parametrized by the arc length). 
 > 3. Let $u:I\to \mathbb{R}$ be a smooth function and $\gamma:I\to \mathbb{R}^{2},t\mapsto (t,u(t))$ its graph, $$k(s(t))=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}$$
 
-> [!proof]-
+> [!proof]- 
 > We have that:
 > 1. For $\tau:=(\tau_{1},\tau_{2})$, we have $$\theta(s)=\arctan \frac{\tau_{2}(s)}{\tau_{1}(s)}$$
 > 2. Then, $$\begin{align}\dot{\theta}(s)&=\frac{1}{1+\frac{\tau_{2}(s)^{2}}{\tau_{1}(s)^{2}}}\cdot \frac{1}{\tau_{1}(s)^{2}}\cdot (\tau_{1}(s)\dot{\tau}_{2}(s)-\dot{\tau}_{1}(s)\tau_{2}(s))\\&=\frac{\tau_{1}(s)\dot{\tau}_{2}(s)-\dot{\tau}_{1}(s)\tau_{2}(s)}{\tau_{1}(s)^{2}+\tau_{2}(s)^{2}}\\&=\frac{\tau_{1}(s)\kappa_{2}(s)-\kappa_{1}(s)\tau_{2}(s)}{\tau_{1}(s)^{2}+\tau_{2}(s)^{2}}\\&=\braket{ N(s) ,\kappa(s)  }\\&=k(s) \end{align}$$
@@ -79,7 +79,7 @@
 > [!lemma] Theorem 2
 > Let a regular curve $\gamma:[a,b]\to \mathbb{R}^{2}$ be smooth and closed, i.e. $\gamma$ can be extended to a smooth periodic curve $\mathbb{R}\to \mathbb{R}^{2}$. Then, 
 > 1. for the curvature $k:[a,b]\to \mathbb{R}$, there exists $n\in \mathbb{Z}$ s.t.: $$\int_{\gamma}^{} k(s) \, ds =2\pi n$$
-> 2. if $\gamma$ is simple, i.e. injective, then: $\int_{\gamma}k(s) \, ds\in\{ 2\pi,-2\pi \}$.
+> 2. if $\gamma$ is simple, i.e. injective on $I^\circ$, then: $\int_{\gamma}k(s) \, ds\in\{ 2\pi,-2\pi \}$.
 
 > [!proof]-
 > We have:
@@ -102,13 +102,21 @@
 > 2. $\dot{B}(s)=-\ell(s)N(s)$.
 > 3. $$\beta(s)=\beta(0)+\left( s-\frac{k(0)^{2}s^3}{6} \right)\tau(0)+\left( \frac{s^{2}k(0)}{2}+\frac{s^3\dot{k}(0)}{6} \right) N(0)+\frac{s^3\ell(0)}{6}B(0)+O(s^4)$$
 
-> [!proof]-
+> [!proof]- Proof (Direct)
 > We have that:
 > 1. As we have $1=\left\| N(s) \right\|^{2}=\braket{ N(s) , N(s) }$, we have that $\braket{ \dot{N}(s) , N(s) }=0$. Therefore, $$\dot{N}(s)=\alpha(s)\tau(s)+\ell(s)B(s)$$Further, as $\braket{ N(s) , \tau(s) }=0$, $$\braket{ \dot{N}(s) , \tau(s) } +\braket{ N(s) , \kappa(s) } =\alpha(s)+k(s)=0$$Hence, $\dot{N}(s)=-k(s)\tau(s)+\ell(s)B(s)$.
 > 2. From product rule, $$\dot{B}(s)=\underbrace{ \kappa(s)\times N(s) }_{ =0 }+\ell(s)(\tau(s)\times B(s))=-\ell(s)N(s)$$
 > 3. Using Taylor expansion:
 >    
 >    $$\begin{align}\beta(s)&=\beta(0)+s\tau(0)+\frac{s^{2}}{2}k(0)N(0)+\frac{s^3}{6}\left( \dot{k}(0)N(0)+k(0)\left( -k(0)\tau(0)+\ell(0)B(0) \right)  \right) +O(s^4)\\&=\beta(0)+\left( s-\frac{k(0)^{2}s^3}{6} \right)\tau(0)+\left( \frac{s^{2}k(0)}{2}+\frac{s^3\dot{k}(0)}{6} \right) N(0)+\frac{s^3\ell(0)}{6}B(0)+O(s^4)\end{align}$$
+
+> [!proof]- Proof (Using a Lemma on ONB) 
+> Let $e_{1},e_{2},e_{3}:I\to \mathbb{R}^3$ be a family of ONBs. Then, we show that for: $$\frac{d}{dt}\begin{bmatrix}e_{1}\\e_{2}\\e_{3}\end{bmatrix}=A(t)\begin{bmatrix}e_{1}\\e_{2}\\e_{3}\end{bmatrix}$$with $A(t)\in \text{Mat}_{3,3}(\mathbb{R})$, $A(t)$ is antisymmetric, i.e. $A(t)+A(t)^\top=0$. 
+> 
+> We have that$\braket{ e_{i}(t) , e_{j}(t) }=\delta_{ij}$. Therefore, $$0=\frac{d}{dt}\braket{ e_{i}(t) , e_{j}(t) } =\braket{ \dot{e_{i}}(t) , e_{j}(t) }+\braket{ e_{i}(t) , \dot{e_{j}}(t) }=A_{ij}+A_{ji}  $$Then, 
+> 1. $A_{12}(t)=\braket{ \dot{\tau}(s) ,N(s)  }=k(s)$
+> 2. $A_{13}(t)=\braket{ \dot{\tau}(s) , B(s) }=0$
+> 3. $A_{23}(t)=\braket{ \dot{N}(s) , B(s) }=\ell(s)$.
 ---
 > [!lemma] Proposition 2
 > For an ordinary regular curve $\gamma:I\to \mathbb{R}^3$,
@@ -125,6 +133,13 @@
 ---
 > [!lemma] Theorem 3 (Fundamental Theorem of Curve Theory)
 > For any given smooth functions $k,\ell:I\to \mathbb{R}$ where $k(s)>0$ for all $s\in I$, there exists a unique curve up to a unique motion $\gamma:I\to \mathbb{R}^3$ with $k$ as curvature scalar and $\ell$ as torsion scalar.
+---
+> [!lemma] Theorem 4 (Fenchel, 1929)
+> Any closed regular curve $\gamma$ in $\mathbb{R}^3$ has: $$\int_{\gamma}^{}  \left| k(s) \right| \, ds\geq 2\pi $$with an equality if and only if $\gamma$ is a planar convex curve.
+---
+> [!lemma] Theorem 5 (Milnor)
+> Any knotted curve $\gamma$ in $\mathbb{R}^3$ has: $$\int_{\gamma}^{}  \left| k(s) \right| \, ds\geq 4\pi $$
+- **Remark**: This bound is sharp, as trefoil has a curvature $4\pi$ when embedded into $\mathbb{R}^{2}$.
 ---
 ##### Examples
 
