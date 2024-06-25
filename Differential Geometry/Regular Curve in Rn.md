@@ -134,6 +134,12 @@
 ---
 > [!lemma] Theorem 3 (Fundamental Theorem of Curve Theory)
 > For any given smooth functions $k,\ell:I\to \mathbb{R}$ where $k(s)>0$ for all $s\in I$, there exists a unique curve up to a unique motion $\gamma:I\to \mathbb{R}^3$ with $k$ as curvature scalar and $\ell$ as torsion scalar.
+
+> [!proof]+
+> We first show the existence. We can define the linear system: $$\begin{bmatrix}\dot{\tau}\\\dot{N}\\\dot{B}\end{bmatrix}=\begin{bmatrix}0&k&0\\-k&0&\ell\\0&-\ell&0\end{bmatrix}\begin{bmatrix}\tau\\N\\B\end{bmatrix}$$Further, let $(e_{1},e_{2},e_{3})$ be the standard basis in $\mathbb{R}^3$ and set this as the intial condition. Then, by the existence of solutions of ODE, there exists a unique solution $(\tau,N,B)$ at $s\in I$. Given $\gamma_{0}\in \mathbb{R}^3$, we get $\gamma:I\to \mathbb{R}^3$ by integrating $\tau$. Therefore, $\gamma$ is a curve with curvature $k$ and torsion $\ell$.
+> 
+> Let $\tilde{\gamma}:I\to \mathbb{R}^3$ be another curve with curvature $k$ and torsion $\ell$. Consider the rigid motion $A$ that sends $\tilde{\gamma}(0)$ to $\gamma(0)$, $\tilde{\tau}(0)$ to $e_{1}$ and $\tilde{N}(0)$ to $e_{2}$. We will show that this sends $\tilde{\gamma}$ to $\gamma$. Then, firstly, $$A(\tilde{\tau}(0),\tilde{N}(0),\tilde{B}(0))=(e_{1},e_{2},e_{3})$$Further, $$$
+
 ---
 > [!lemma] Theorem 4 (Fenchel, 1929)
 > Any closed regular curve $\gamma$ in $\mathbb{R}^3$ has: $$\int_{\gamma}^{}  \left| k(s) \right| \, ds\geq 2\pi $$with an equality if and only if $\gamma$ is a planar convex curve.

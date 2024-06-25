@@ -63,6 +63,7 @@
 > 3. $k_{1}=\frac{1}{\cosh ^{2}(t)}=-k_{2}$
 > 4. $M$ is a minimal surface.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> $$k_{1}=k_{\gamma}(s(t))=\frac{\cosh(t)}{(1+\sinh^2(t))^{3/2}}=\frac{1}{\cosh ^{2}(t)}$$$$k_{2}=-$$
+> $$k_{1}=k_{\gamma}(s(t))=\frac{\cosh(t)}{(1+\sinh^2(t))^{3/2}}=\frac{1}{\cosh ^{2}(t)}$$$$k_{2}=-\frac{1}{\cosh}$$
+---
