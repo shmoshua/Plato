@@ -74,6 +74,7 @@
 > 	Therefore, as $\tau(s(t))=(1,\dot{u}(t))/(1+\dot{u}(t)^{2})^{1/2}$ and $N(s(t))=(-\dot{u}(t),1)/(1+\dot{u}(t)^{2})^{1/2}$,
 > 	$$\begin{align}\kappa(s(t))&=\frac{1}{1+\dot{u}(t)^{2}}\left( (0,\ddot{u}(t))- \frac{\ddot{u}(t)\dot{u}(t)}{1+\dot{u}(t)^{2}}(1,\dot{u}(t)) \right) \\&=\frac{1}{1+\dot{u}(t)^{2}}\left( -\frac{\ddot{u}(t)\dot{u}(t)}{1+\dot{u}(t)^{2}},\ddot{u}(t)- \frac{\ddot{u}(t)\dot{u}(t)^{2}}{1+\dot{u}(t)^{2}} \right) \\&=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}\left( -\frac{\dot{u}(t)}{(1+\dot{u}(t)^{2})^{1/2}},\frac{1}{(1+\dot{u}(t)^{2})^{1/2}} \right)\\&=\frac{\ddot{u}(t)}{(1+\dot{u}(t)^{2})^{3/2}}N(s(t))\end{align}$$
 - **Remark**: The curvature scalar $k:I\to \mathbb{R}$ determines the curve up to a rigid motion. From $k$ by integration, we get $\theta(s)=\theta(s_{0})+\int_{s_{0}}^{s} k(t) \, dt$ and from $\theta$ we get $\tau$. Finally from $\tau$ we get $\gamma(s)=\gamma(s_{0})+\int_{s_{0}}^{s} \tau(x) \, dx$. Therefore, up to the choice of $\theta(s_{0})$ and $\gamma(s_{0})$, we have the same curve.
+- **Remark**: In Theorem 1.3, if $u$ is tangent to the $x$-axis at $t$, then $k(s(t))=\ddot{u}(t)$.
 
 ---
 > [!lemma] Theorem 2

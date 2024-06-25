@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Differential Geometry/Surface.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Differential Geometry/Surface.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -56,7 +55,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8604fe287e184cbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Surface.md",
                 "mode": "preview",
                 "source": false
               }
@@ -153,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Differential Geometry/Surface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Differential Geometry/Surface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md"
+                "file": "Differential Geometry/Surface.md"
               }
             }
           }
@@ -215,16 +226,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1d45af889d3c44b9",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Topology/Path.md",
-    "simple curve.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Surface.md",
     "Differential Geometry/Regular Curve in Rn.md",
+    "Topology/Path.md",
+    "Differential Geometry/Surface in Rn.md",
+    "Functional Analysis/C*-Algebra.md",
+    "simple curve.md",
     "Differential Geometry/Tangent and Curvature Vector in Rn.md",
     "Differential Geometry/Smooth Curve.md",
-    "Functional Analysis/C*-Algebra.md",
     "Differential Geometry/Arc Length.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Functional Analysis/C-Algebra.md",
     "Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -242,8 +255,6 @@
     "Topology/Hausdorff Space.md",
     "Algebra/Group.md",
     "Topology/Lift.md",
-    "Topology/Covering Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
