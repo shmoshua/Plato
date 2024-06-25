@@ -4,7 +4,10 @@
 > Let $M\subseteq \mathbb{R}^3$ be a [[Surface|smooth surface]] and $N$ a [[Surface|normal vector field]]. The ***extrinsic curvature*** of $M$ at $p\in M$ and $v\in \text{T}_{p}M$ with $\|v\|=1$ is:
 > 1. $Q_{p}(v):=\braket{ \kappa_{\gamma}(0), N(p) }$ where $\kappa_{\gamma}$ is the curvature of the curve $\gamma:I\to M$ s.t. $0\in I$, $\gamma(0)=p$ and $\dot{\gamma}(0)=v$.
 > 2. $A_{p}(v,v)$ where the ***second fundamental form*** $A_{p}:\text{T}_{p}M\times \text{T}_{p}M\to \mathbb{R}$ is given by: $$A_{p}(X,Y)=\sum_{i,j=1}^{2}\left. \frac{ \partial^{2}f }{ \partial x^i\partial x^j} \right| _{(0,0)}X^iY^j$$where given the orthogonal coordinate system s.t. $p=(0,0,0)$, $\text{T}_{p}M=\mathbb{R}^{2}\times \{ 0 \}$ and $N(p)=(0,0,1)$, $f:\mathbb{R}^2\to \mathbb{R}$ is a smooth function s.t. $\text{graph}(f)$ coincides with $M$ in some open neighborhood of $0$. 
-- **Related definition**: By diagonalizoing the second fundamental form $A_{p}$, 
+- **Related definition**: By diagonalizoing the second fundamental form $A_{p}$, we get the ONB vectors $e_{1},e_{2}\in \mathbb{R}^2$ called ***principal axes of curvature*** at $p$ and $A_{p}=\text{diag}(k_{1},k_{2})$ for $k_{1},k_{2}\in \mathbb{R}$ called the ***principal curvatures*** at $p$. Then,
+	1. $H:=k_{1}+k_{2}=\text{tr}(A_{p})$ is called the ***mean curvature*** at $p$ and
+	2. $K:=k_{1}k_{2}=\text{det}(A_{p})$ is called the ***Gauss curvature*** at $p$.
+- **Remark**: If $K>0$, $M$ is a ***bulge*** at $p$. If $K<0$, $M$ is a ***saddle*** at $p$. If $H=0$, then $M$ is a ***minimal surface*** at $p$, e.g. soap film.
 ---
 ##### Properties
 > [!lemma] Theorem 1
@@ -12,8 +15,9 @@
 > 1. $Q_{p}(v)$ is well-defined and is a quadratic form in $v$.
 > 2. $Q_{p}(v)=Q_{p}(-v)$.
 > 3. $A_{p}$ is a symmetric bilinear form.
+> 4. $A_{p}(v,v)=Q_{p}(v)$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $p\in M$ and $v\in \text{T}_{p}M$ s.t. $\|v\|=1$. Then, choose a orthogonal coordinate system s.t. 
 > 	- $p=(0,0,0)$,
@@ -27,11 +31,38 @@
 > 	This proves that $Q_{p}(v)$ is well-defined and defines a quadratic form in $v$.
 > 2. For a curve $\gamma$, let $\gamma'(t):=\gamma(-t)$. Then, $$\tau'(s)=-\tau(-s),\quad \kappa'(s)=\kappa(-s)$$
 > 3. From 1, we see that $A_{p}(X,Y)$ is given by $X^\top\text{H}_{f}|_{(0,0)}Y$ where $\text{H}_{f}$ is the Hessian of $f$.
+
+- **Corollary**:Let $k_{1},k_{2}$ be the principal curvatures of $M$ at $p$ with $k_{1}<k_{2}$. Then, 
+	1. $k_{1}=\min_{v\in \text{T}_{p}M,\|v\|=1}A_{p}(v,v)$
+	2. $k_{2}=\max_{v\in \text{T}_{p}M,\|v\|=1}A_{p}(v,v)$
+
 ---
 ##### Examples
 > [!h] Example 1 (Spheres)
 > Let $M:=R\cdot S^2\subseteq \mathbb{R}^3$ be a sphere of radius $R$. Then, 
 > 1. $Q_{p}(v)=\frac{1}{R}$ for any $p\in M$ and $v\in \text{T}_{p}M$ with $\|v\|=1$. 
+> 2. $k_{1}=k_{2}=\frac{1}{R}$ from [[Regular Curve in Rn|Exercise 1]].
+> 3. $A_{p}(X,Y)=\frac{1}{R}\braket{ X , Y }$
+> 4. $H=\frac{2}{R}$,
+> 5. $K=\frac{1}{R^{2}}>0$ and $M$ is a bulge everywhere.
 
 > [!proof]-
 > For $p\in M$ and $v\in \text{T}_{p}M$ with $\|v\|=1$, consider the plane $P$ in $\mathbb{R}^3$ that contains $0$, $p$ and $v$. Then, $P\cap M$ is a circle of radius $R$ and by [[Regular Curve in Rn|Example 1]], $$Q_{p}(v)=\frac{1}{R}\braket{ N(p) ,N(p)  } =\frac{1}{R}$$
+---
+> [!h] Example 2 (Cylinders)
+> Let $M$ be a cylinder of side circle with radius $R$. Then, for $p$ on the side of $M$,
+> 1. $e_{1}$ is orthogonal to the base and $e_{2}$ is parallel to the base. 
+> 2. $k_{1}=0$, $k_{2}=\frac{1}{R}$. 
+> 3. $H=\frac{1}{R}$
+> 4. $K=0$
+---
+> [!h] Example 3 (Catenoid)
+> Let $\gamma:\mathbb{R}\to \mathbb{R},t\mapsto \cosh(t)$. Then, consider $M$ as the revolution of $\gamma$ along the $x$-axis. Then, 
+> 1. $e_{1}=\dot{\gamma}(s)$ and $e_{2}=\begin{bmatrix}0&-1\\1&0\end{bmatrix}e_{1}$ in $\text{T}_{p}M$.
+> 2. As $\gamma$ is concave, $k_{1},k_{2}$ have opposite signs.
+> 3. $k_{1}=\frac{1}{\cosh ^{2}(t)}=-k_{2}$
+> 4. $M$ is a minimal surface.
+
+> [!proof]+
+> We have that:
+> $$k_{1}=k_{\gamma}(s(t))=\frac{\cosh(t)}{(1+\sinh^2(t))^{3/2}}=\frac{1}{\cosh ^{2}(t)}$$$$k_{2}=-$$

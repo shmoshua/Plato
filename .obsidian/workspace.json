@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,30 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Surface.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
         "type": "tabs",
         "children": [
-          {
-            "id": "d6343995184d76ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
           {
             "id": "8604fe287e184cbf",
             "type": "leaf",
@@ -91,14 +80,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Bounded Linear Map.md",
+                "file": "Differential Geometry/Regular Curve in Rn.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,15 +215,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1d45af889d3c44b9",
+  "active": "630f150097e92dd1",
   "lastOpenFiles": [
     "Differential Geometry/Regular Curve in Rn.md",
-    "Differential Geometry/Surface.md",
     "Differential Geometry/Extrinsic Curvature.md",
+    "Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Differential Geometry/Surface.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Path.md",
     "Differential Geometry/Surface in Rn.md",
-    "Functional Analysis/C*-Algebra.md",
     "simple curve.md",
     "Differential Geometry/Tangent and Curvature Vector in Rn.md",
     "Differential Geometry/Smooth Curve.md",
@@ -244,7 +234,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Complex Analysis/Holomorphic Function.md",
     "Complex Analysis",
-    "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Banach Algebra.md",
     "Measure Theory/Summable Function.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
