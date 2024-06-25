@@ -97,7 +97,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md"
+                "file": "Differential Geometry/Extrinsic Curvature.md"
               }
             }
           }
@@ -225,12 +226,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d6343995184d76ee",
+  "active": "1d45af889d3c44b9",
   "lastOpenFiles": [
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Surface.md",
-    "Differential Geometry/Extrinsic Curvature.md",
     "Differential Geometry/Regular Curve in Rn.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Extrinsic Curvature.md",
     "Topology/Path.md",
     "Differential Geometry/Surface in Rn.md",
     "Functional Analysis/C*-Algebra.md",
