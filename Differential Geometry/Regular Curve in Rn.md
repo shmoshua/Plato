@@ -92,19 +92,23 @@
 > 1. $k:s(I)\to \mathbb{R}$ the ***curvature scalar*** given by $k(s):=\left\| \kappa(s) \right\|$.
 > 2. $N:s(I)\to \mathbb{R}^3$ the ***normal vector*** given by $N(s):=\frac{\kappa(s)}{\left\| \kappa(s) \right\|}=\frac{\kappa(s)}{k(s)}$.
 > 3. $B:s(I)\to \mathbb{R}^3$ the ***binormal vector*** given by $B(s):=\tau(s)\times N(s)$.
-> 4. $(\tau(s),N(s),B(s))$ defines a moving ONB of $\mathbb{R}^3$ called a ***moving frame***.
+> 4. $(\tau(s),N(s),B(s))$ defines a moving ONB of $\mathbb{R}^3$ called a ***Frechet frame***.
 > 6. if $\gamma$ ordinary, $\lambda:s(I)\to \mathbb{R}^3$ the ***torsion vector*** given by $\lambda(s):=\braket{ \dot{N}(s) , B(s) }B(s)$.
 > 7. if $\gamma$ ordinary, $\ell:s(I)\to \mathbb{R}^3$ the ***torsion scalar*** given by $\ell(s):=\braket{ \dot{N}(s) , B(s) }$.
 > 
 > Then, it holds that:
+> 1. $\dot{\tau}(s)=k(s)N(s)$.
 > 1. $\dot{N}(s)=-k(s)\tau(s)+\ell(s)B(s)$
-> 1. $\dot{B}(s)=-\ell(s)N(s)$.
-> 2. $$\beta(t)=\gamma(s())$$
+> 2. $\dot{B}(s)=-\ell(s)N(s)$.
+> 3. $$\beta(s)=\beta(0)+\left( s-\frac{k(0)^{2}s^3}{6} \right)\tau(0)+\left( \frac{s^{2}k(0)}{2}+\frac{s^3\dot{k}(0)}{6} \right) N(0)+\frac{s^3\ell(0)}{6}B(0)+O(s^4)$$
 
 > [!proof]-
 > We have that:
 > 1. As we have $1=\left\| N(s) \right\|^{2}=\braket{ N(s) , N(s) }$, we have that $\braket{ \dot{N}(s) , N(s) }=0$. Therefore, $$\dot{N}(s)=\alpha(s)\tau(s)+\ell(s)B(s)$$Further, as $\braket{ N(s) , \tau(s) }=0$, $$\braket{ \dot{N}(s) , \tau(s) } +\braket{ N(s) , \kappa(s) } =\alpha(s)+k(s)=0$$Hence, $\dot{N}(s)=-k(s)\tau(s)+\ell(s)B(s)$.
 > 2. From product rule, $$\dot{B}(s)=\underbrace{ \kappa(s)\times N(s) }_{ =0 }+\ell(s)(\tau(s)\times B(s))=-\ell(s)N(s)$$
+> 3. Using Taylor expansion:
+>    
+>    $$\begin{align}\beta(s)&=\beta(0)+s\tau(0)+\frac{s^{2}}{2}k(0)N(0)+\frac{s^3}{6}\left( \dot{k}(0)N(0)+k(0)\left( -k(0)\tau(0)+\ell(0)B(0) \right)  \right) +O(s^4)\\&=\beta(0)+\left( s-\frac{k(0)^{2}s^3}{6} \right)\tau(0)+\left( \frac{s^{2}k(0)}{2}+\frac{s^3\dot{k}(0)}{6} \right) N(0)+\frac{s^3\ell(0)}{6}B(0)+O(s^4)\end{align}$$
 ---
 > [!lemma] Proposition 2
 > For an ordinary regular curve $\gamma:I\to \mathbb{R}^3$,
@@ -119,7 +123,9 @@
 >    Choose any $s_{0}\in I$ and consider the function $f:I\to \mathbb{R},s\mapsto \braket{ B(s) , \gamma(s)-\gamma(s_{0}) }$. Then, $$\dot{f}(s)=\braket{ 0 , \gamma(s)-\gamma(s_{0}) } +\braket{ B(s) , \tau(s) } =0$$Therefore, $f$ is constant and zero from $f(s_{0})=0$. Hence, $\braket{ v , \gamma(s)-\gamma(s_{0}) }=0$, which is a plane in $\mathbb{R}^3$.
 - **Remark**: The curvature scalar is non-negative in $\mathbb{R}^3$ whereas it could be negative in $\mathbb{R}^{2}$.
 ---
-
+> [!lemma] Theorem 3 (Fundamental Theorem of Curve Theory)
+> For any given smooth functions $k,\ell:I\to \mathbb{R}$ where $k(s)>0$ for all $s\in I$, there exists a unique curve up to a unique motion $\gamma:I\to \mathbb{R}^3$ with $k$ as curvature scalar and $\ell$ as torsion scalar.
+---
 ##### Examples
 
 > [!h] Example 1
@@ -144,8 +150,19 @@
 > [!h] Example 3 (Helix)
 > If $\gamma:\mathbb{R}\to \mathbb{R}^3$ be an ordinary regular curve. If $k$ and $\ell$ are constant, then $\gamma$ is a helix, i.e. there exists $R>0$ and $m\in \mathbb{R}$ s.t. $$\gamma(t)=(R\cos t,R\sin t,mt)$$
 
-> [!proof]+
-> From the Frenet-Serret formulas, $$\dot{N}(s)=-k\tau(s)+\ell B(s)$$
+> [!proof]-
+> For a helix, we have that:
+> - $\dot{\gamma}(t)=(-R\sin t,R\cos t,m)$
+> - $\ddot{\gamma}(t)=(-R\cos t,-R\sin t,0)$
+> - $\tau(t)=\frac{1}{\sqrt{ R^{2}+m^{2} }}(-R\sin t,R\cos t,m)$
+> - $\kappa(t)=\frac{1}{\sqrt{ R^2+m^2 }}(-R\cos t,-R\sin t,0)$
+> - $k(t)=\frac{R}{\sqrt{ R^{2}+m^{2} }}$
+> - $N(t)=\frac{1}{R}(-R\cos t,-R\sin t,0)$
+> - $B(t)=\frac{1}{\sqrt{ R^{2}+m^{2} }}(-m\sin t,-m\cos t,R)$
+> - $\begin{align}\dot{N}(t)&=\frac{1}{R}(R\sin t,-R\cos t,0)\\&=-\frac{R}{R^{2}+m^{2}}(-R\sin t,R\cos t,m)+\frac{\ell(t)}{\sqrt{ R^{2}+m^{2} }}(-m\sin t,-m\cos t,R)\\&=-\frac{R}{R^{2}+m^{2}}(-R\sin t,R\cos t,m)-\frac{m}{{ R^{2}+m^{2} }}(-m\sin t,-m\cos t,R)\end{align}$
+> - $\ell(t)=\frac{m}{\sqrt{ R^{2}+m^{2} }}$
+>   
+> Hence, $k$ and $\ell$ are constant and the statement follows from the fundamental theorem of curve theory.
 ---
 ##### Non-Examples
 - $t\mapsto (t^{2},t^{3})\in \mathbb{R}^2$ is not regular!
