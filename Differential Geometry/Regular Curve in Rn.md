@@ -87,7 +87,7 @@
 > 2. A non-intersective curve can turn at most once.
 ---
 ###### Regular Curves in R3
-> [!lemma] Theorem 1
+> [!lemma] Theorem 1 (Frenet-Serret Formulas)
 > For a regular curve $\gamma:I\to \mathbb{R}^{3}$, we can define:
 > 1. $k:s(I)\to \mathbb{R}$ the ***curvature scalar*** given by $k(s):=\left\| \kappa(s) \right\|$.
 > 2. $N:s(I)\to \mathbb{R}^3$ the ***normal vector*** given by $N(s):=\frac{\kappa(s)}{\left\| \kappa(s) \right\|}=\frac{\kappa(s)}{k(s)}$.
@@ -97,17 +97,25 @@
 > 7. if $\gamma$ ordinary, $\ell:s(I)\to \mathbb{R}^3$ the ***torsion scalar*** given by $\ell(s):=\braket{ \dot{N}(s) , B(s) }$.
 > 
 > Then, it holds that:
+> 1. $\dot{N}(s)=-k(s)\tau(s)+\ell(s)B(s)$
 > 1. $\dot{B}(s)=-\ell(s)N(s)$.
+
+> [!proof]-
+> We have that:
+> 1. As we have $1=\left\| N(s) \right\|^{2}=\braket{ N(s) , N(s) }$, we have that $\braket{ \dot{N}(s) , N(s) }=0$. Therefore, $$\dot{N}(s)=\alpha(s)\tau(s)+\ell(s)B(s)$$Further, as $\braket{ N(s) , \tau(s) }=0$, $$\braket{ \dot{N}(s) , \tau(s) } +\braket{ N(s) , \kappa(s) } =\alpha(s)+k(s)=0$$Hence, $\dot{N}(s)=-k(s)\tau(s)+\ell(s)B(s)$.
+> 2. From product rule, $$\dot{B}(s)=\underbrace{ \kappa(s)\times N(s) }_{ =0 }+\ell(s)(\tau(s)\times B(s))=-\ell(s)N(s)$$
+---
+> [!lemma] Proposition 2
+> For an ordinary regular curve $\gamma:I\to \mathbb{R}^3$,
 > 1. If $k\equiv 0$, then $\gamma$ is a line.
 > 2. If $\ell \equiv 0$, then $\gamma$ lies in a plane.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. As we have $1=\left\| N(s) \right\|^{2}=\braket{ N(s) , N(s) }$, we have that $\braket{ \dot{N}(s) , N(s) }=0$. Therefore, $$\dot{N}(s)=\alpha(s)\tau(s)+\ell(s)B(s)$$Hence, $$\dot{B}(s)=\kappa(s)\times N(s)+\tau(s)\times \tau(s)$$
 > 1. If $k\equiv 0$, then $\kappa\equiv 0$. Therefore, $\tau\equiv v$ for some $v\in \mathbb{R}^3$ s.t. $\|v\|=1$. Therefore, $$\gamma(s)=\alpha vs+w$$for $\alpha\in \mathbb{R}$, $w\in \mathbb{R}^3$. which shows that $\gamma$ is a line.
-> 2. 
+> 2. If $\ell \equiv 0$, from 1, $\dot{B}\equiv0$ and $B\equiv v$ for some $v\in \mathbb{R}^3$. In particular all planes spanned by $\tau(s)$ and $N(s)$ are parallel. We want to show that they all coincide.
 >    
->    If $\ell \equiv 0$, then $\dot{N}(s),B(s)$ are orthogonal for all $s$. $$\dot{B}(s)=\kappa(s)\times N(s)+\tau(s)\times \dot{N}(s)$$We have that: $$\braket{ \dot{N}(s) , B(s) }=\braket{ \dot{N}(s) , \tau(s)\times N(s) } =\braket{ \tau(s) , N(s)\times \dot{N}(s) }  $$
+>    Choose any $s_{0}\in I$ and consider the function $f:I\to \mathbb{R},s\mapsto \braket{ B(s) , \gamma(s)-\gamma(s_{0}) }$. Then, $$\dot{f}(s)=\braket{ 0 , \gamma(s)-\gamma(s_{0}) } +\braket{ B(s) , \tau(s) } =0$$Therefore, $f$ is constant and zero from $f(s_{0})=0$. Hence, $\braket{ v , \gamma(s)-\gamma(s_{0}) }=0$, which is a plane in $\mathbb{R}^3$.
 - **Remark**: The curvature scalar is non-negative in $\mathbb{R}^3$ whereas it could be negative in $\mathbb{R}^{2}$.
 ---
 
@@ -120,6 +128,14 @@
 >[!proof]-
 > Let $\gamma:[0,2\pi]\to \mathbb{R}^{2},t\mapsto(r\cos t,r\sin t)$. Then, $$\tau(s(t))=\frac{1}{r}(-r\sin t,r\cos t)=(-\sin t,\cos t)$$Therefore, $N(s(t))=-(\cos t,\sin t)$. Then, $$\kappa(s(t))=-\frac{(r\cos(t),r\sin(t))}{r^{2}}=\frac{1}{r}N(s(t))$$
 
+---
+> [!h] Example 2
+> Consider the curve $\gamma:\mathbb{R}\to \mathbb{R}^3,t\mapsto(t,at^{2},bt^3)$ for $a,b\in\mathbb{R}$. Then,
+
+> [!proof]+
+> We have:
+> 1. Computing in order:
+> 	- $\tau(s)=$
 ---
 ##### Non-Examples
 - $t\mapsto (t^{2},t^{3})\in \mathbb{R}^2$ is not regular!
