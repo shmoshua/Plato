@@ -99,6 +99,7 @@
 > Then, it holds that:
 > 1. $\dot{N}(s)=-k(s)\tau(s)+\ell(s)B(s)$
 > 1. $\dot{B}(s)=-\ell(s)N(s)$.
+> 2. $$\beta(t)=\gamma(s())$$
 
 > [!proof]-
 > We have that:
@@ -131,11 +132,20 @@
 ---
 > [!h] Example 2
 > Consider the curve $\gamma:\mathbb{R}\to \mathbb{R}^3,t\mapsto(t,at^{2},bt^3)$ for $a,b\in\mathbb{R}$. Then,
+> 1. $k(0)=2a$.
+> 2. $\ell(0)=\frac{3b}{a}$
+
+> [!proof]-
+> As $\dot{\gamma}(t)=(1,2at,3bt^{2})$ and $\ddot{\gamma}(t)=(0,2a,6bt)$,
+> - $\tau(s(t))=\frac{1}{\sqrt{ 1+4a^{2}t^{2}+9b ^{2}t^4 }}(1,2at,3bt^{2})$
+> - $\kappa(s(t))=\frac{1}{1+4a^{2}t^{2}+9b ^{2}t^4}\left( (0,2a,6bt)-\frac{4a^{2}t+18b ^{2}t^3}{1+4a^{2}t^{2}+9b ^{2}t^4} (1,2at,3bt^{2})\right)$
+> - $$\gamma(s(t))=\gamma(0)+\tau(s(0))s+$$
+---
+> [!h] Example 3 (Helix)
+> If $\gamma:\mathbb{R}\to \mathbb{R}^3$ be an ordinary regular curve. If $k$ and $\ell$ are constant, then $\gamma$ is a helix, i.e. there exists $R>0$ and $m\in \mathbb{R}$ s.t. $$\gamma(t)=(R\cos t,R\sin t,mt)$$
 
 > [!proof]+
-> We have:
-> 1. Computing in order:
-> 	- $\tau(s)=$
+> From the Frenet-Serret formulas, $$\dot{N}(s)=-k\tau(s)+\ell B(s)$$
 ---
 ##### Non-Examples
 - $t\mapsto (t^{2},t^{3})\in \mathbb{R}^2$ is not regular!
