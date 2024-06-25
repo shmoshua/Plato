@@ -85,21 +85,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "232a4f7a1372f046",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Controls/Ordinary Differential Equation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md"
+                "file": "Differential Geometry/Extrinsic Curvature.md"
               }
             }
           }
@@ -227,14 +215,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d32c0cda1f0fd712",
+  "active": "1d45af889d3c44b9",
   "lastOpenFiles": [
-    "Controls/Ordinary Differential Equation.md",
     "Differential Geometry/Regular Curve in Rn.md",
+    "Differential Geometry/Surface.md",
     "Differential Geometry/Extrinsic Curvature.md",
+    "Controls/Ordinary Differential Equation.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/C*-Algebra.md",
-    "Differential Geometry/Surface.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Path.md",
     "Differential Geometry/Surface in Rn.md",
