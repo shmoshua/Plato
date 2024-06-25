@@ -49,14 +49,23 @@
 > [!proof]-
 > For $p\in M$ and $v\in \text{T}_{p}M$ with $\|v\|=1$, consider the plane $P$ in $\mathbb{R}^3$ that contains $0$, $p$ and $v$. Then, $P\cap M$ is a circle of radius $R$ and by [[Regular Curve in Rn|Example 1]], $$Q_{p}(v)=\frac{1}{R}\braket{ N(p) ,N(p)  } =\frac{1}{R}$$
 ---
-> [!h] Example 2 (Cylinders)
+> [!h] Example 2 (Surface of Revolution)
+> Let $f:I\to \mathbb{R}$ be smooth. Then, the surface of revolution is defined as: $$M_{f}:=\{ (x,y,z)\subseteq I\times \mathbb{R}^2:f(x)=\sqrt{ y^{2}+z^{2} } \}$$Then, with respect to the outward $N$, 
+> 1. $k_{1}=\frac{\ddot{f}(x)}{(1+\dot{f}(x)^{2})^{3/2}},k_{2}=-\frac{1}{f(x)\sqrt{ 1+\dot{f}(x)^{2} }}$.
+> 2. $H=\frac{1}{\sqrt{ 1+\dot{f}(x)^{2} }}\left( \frac{\ddot{f}(x)}{1+\dot{f}(x)^{2}}-\frac{1}{f(x)} \right)$, $K=-\frac{\ddot{f}(x)}{f(x)(1+\dot{f}(x)^{2})^{2}}$.
+
+> [!proof]-
+> By rotational symmetry, we only have to show it for $p:=(x,0,f(x))$. Then, $$e_{1}=\frac{(1,0,\dot{f}(x))}{\sqrt{ 1+\dot{f}(x)^{2} }},\quad e_{2}=(0,1,0)$$Therefore, by [[Regular Curve in Rn|R2 Theorem 1.3]], $$k_{1}=\frac{\ddot{f}(x)}{(1+\dot{f}(x)^{2})^{3/2}}$$For $k_{2}$, the projection of the vertical circle at $x$ onto the plane containing $N(p)$ and $e_{2}$ is the osculating circle at point $x$. Hence, the curvature is given by the projection of the curvature of the circle. Therefore, $$k_{2}=\left\langle \frac{(0,0,-1)}{f(x)} , \frac{(-\dot{f}(x),0,1)}{\sqrt{ 1+\dot{f}(x)^{2} }} \right\rangle=-\frac{1}{f(x)\sqrt{ 1+\dot{f}(x)^{2} }} $$
+> The rest follows from the calculations.
+---
+> [!h] Example 3 (Cylinders)
 > Let $M$ be a cylinder of side circle with radius $R$. Then, for $p$ on the side of $M$,
 > 1. $e_{1}$ is orthogonal to the base and $e_{2}$ is parallel to the base. 
-> 2. $k_{1}=0$, $k_{2}=\frac{1}{R}$. 
-> 3. $H=\frac{1}{R}$
+> 2. $k_{1}=0$, $k_{2}=-\frac{1}{R}$. 
+> 3. $H=-\frac{1}{R}$
 > 4. $K=0$
 ---
-> [!h] Example 3 (Catenoid)
+> [!h] Example 4 (Catenoid)
 > Let $\gamma:\mathbb{R}\to \mathbb{R},t\mapsto \cosh(t)$. Then, consider $M$ as the revolution of $\gamma$ along the $x$-axis. Then, 
 > 1. $e_{1}=\dot{\gamma}(s)$ and $e_{2}=\begin{bmatrix}0&-1\\1&0\end{bmatrix}e_{1}$ in $\text{T}_{p}M$.
 > 2. As $\gamma$ is concave, $k_{1},k_{2}$ have opposite signs.
@@ -65,5 +74,5 @@
 
 > [!proof]-
 > We have that:
-> $$k_{1}=k_{\gamma}(s(t))=\frac{\cosh(t)}{(1+\sinh^2(t))^{3/2}}=\frac{1}{\cosh ^{2}(t)}$$$$k_{2}=-\frac{1}{\cosh}$$
+> $$k_{1}=k_{\gamma}(s(t))=\frac{\cosh(t)}{(1+\sinh^2(t))^{3/2}}=\frac{1}{\cosh ^{2}(t)}$$$$k_{2}=-\frac{1}{\cosh(t)\sqrt{ 1+\sinh ^{2}(x) }}=-\frac{1}{\cosh ^{2}(t)}$$
 ---
