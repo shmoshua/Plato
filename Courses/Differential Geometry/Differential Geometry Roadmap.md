@@ -6,6 +6,7 @@
 1. [[Smooth Curve]]
 2. [[Regular Curve in Rn]]
 3. [[Surface]]
+4. [[Extrinsic Curvature]]
 ---
 ##### 1. Differential Manifolds and Differentiable Maps
 **1.1 Differential Manifolds: Definitions and Examples**

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Analysis/Directional Derivative.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,38 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
         "type": "tabs",
         "children": [
           {
-            "id": "8604fe287e184cbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Surface.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1d45af889d3c44b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Analysis/Directional Derivative.md",
                 "mode": "preview",
                 "source": false
               }
@@ -80,8 +68,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Regular Curve in Rn.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20cdf9a6d9e41692",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differential 1-Form.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -215,16 +215,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "630f150097e92dd1",
+  "active": "d32c0cda1f0fd712",
   "lastOpenFiles": [
-    "Differential Geometry/Extrinsic Curvature.md",
+    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Differential.md",
+    "Analysis/Directional Derivative.md",
+    "Analysis/Lie Derivative.md",
     "Differential Geometry/Regular Curve in Rn.md",
+    "Differential Geometry/Vector Field.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Surface.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Extrinsic Curvature.md",
     "Controls/Ordinary Differential Equation.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/C*-Algebra.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Path.md",
     "Differential Geometry/Surface in Rn.md",
     "simple curve.md",
@@ -239,11 +244,6 @@
     "Functional Analysis/Banach Algebra.md",
     "Measure Theory/Summable Function.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Topology/Topological Space.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Functional Analysis/Volterra Algebra.md",
-    "Analysis/Banach Space.md",
-    "Topology/Continuous Function.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",
