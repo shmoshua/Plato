@@ -35,7 +35,20 @@
 - **Corollary**:Let $k_{1},k_{2}$ be the principal curvatures of $M$ at $p$ with $k_{1}<k_{2}$. Then, 
 	1. $k_{1}=\min_{v\in \text{T}_{p}M,\|v\|=1}A_{p}(v,v)$
 	2. $k_{2}=\max_{v\in \text{T}_{p}M,\|v\|=1}A_{p}(v,v)$
+---
+> [!lemma] Theorem 2
+> Let $M\subseteq \mathbb{R}^3$ be a [[Surface|smooth surface]] and $S:\mathbb{R}^3\to \mathbb{R}^3$ be a symmetry of $M$, i.e. $S$ is an isometry s.t. $S(M)=M$. Let $p\in M$. If it holds that:
+> 1. $S(p)=p$,
+> 2. $S(\text{T}_{p}M)=\text{T}_{p}M$ and 
+> 3. there exists a line $L\subseteq \text{T}_{p}M$ s.t. $S|_{\text{T}_{p}M}$ is a reflection across $L$, 
+> 
+> then, the principal axes of curvature $e_{1},e_{2}$ at $p$ are contained in $L$ and $L^{\bot}$ in $\text{T}_{p}M$ respectively.
 
+> [!proof]+
+> From the conditions, we follow that the only possible scenarios are when $S$ is a reflection or a rotation. Then, 
+> 1. If $S$ is a reflection, by the condition, it would have to be across a plane $P$ where $L\subseteq P$. Further, we get that $N(p)\in P$. We will now show the statement. Let $e_{1},e_{2}\in \text{T}_{p}M$ s.t. $e_{1},e_{2}$ diagonalize $A_{p}$. Then, we have that: $$A_{p}=[e_{1}|e_{2}]\text{diag}(k_{1},k_{2})\begin{bmatrix}e_{1}|e_{2}\end{bmatrix}^\top$$If $k_{1}=k_{2}$, then $A=k_{1}I$ in any ONB. Therefore, $S(e_{1}),S(e_{2})$ are too. Otherwise $k_{1}\neq k_{2}$ and by the geometric symmetry,  $A_{p}(S(X),S(Y))=A_{p}(X,Y)$. Therefore, $S(e_{1}),S(e_{2})$ diagonalize $A_{p}$ as well.
+>    
+>    However, $k_{1}\neq k_{2}$
 ---
 ##### Examples
 > [!h] Example 1 (Spheres)
