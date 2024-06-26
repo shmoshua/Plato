@@ -125,6 +125,12 @@
 > 1. $H=0$ and $H_{b}$ is a minimal surface.
 
 > [!proof]+
+> Let $H_{b}$ be parametrized by $s$, where $L(s)$ is the line perpendicular to the $z$-axis given by the helicoid. Then, we define $e^\|$ as the vector field that is parallel to $L(s)$ at every point and $e^{\bot}$ the vector field orthogonal to $L(s)$ at each point, facing upwards. 
 > 
+> Then, for $p\in L(s)$, $e^\|_{p}\in L(s)$ and $p+te^\|_{p}\in L(s)$. Therefore, $e^\|_{p+te^\|_{p}}=e^\|_{p}$ for all $t$ and: $$(D_{e^\|}e^\|)_{p}=d_{p}e^\|(e^\|_{p})=\left. \frac{d}{dt} \right| _{t=0}e^\|_{p+te^\|_{p}}=\left. \frac{d}{dt} \right| _{t=0}e^\|_{p}=0$$Hence,
+> 
+> 1. $A(e^\|,e^\|)=\braket{ D_{e^\|}e^\| , N }=0$.
+> 2. $A(e^\|,e^{\bot})=\braket{ D_{e^\|}e^{\bot} , N }\neq 0$ for any $p\in M$. 
+> 3. Therefore, in the basis $(e^\|,e^{\bot})$, $$A=\begin{bmatrix}0&\neq 0\\\neq 0&*\end{bmatrix}$$
 ---
 
