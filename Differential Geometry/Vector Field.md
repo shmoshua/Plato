@@ -46,6 +46,13 @@
 > 5. If $\varphi$ is a diffeomorphism, $\varphi ^{-1}\in C^\infty(N,M)$ and $(\varphi ^{-1})^{*}:C^\infty(M)\to C^\infty(N)$ s.t. $$\varphi ^{*}\circ (\varphi ^{-1})^{*}=\text{id}_{C^\infty(M)}$$The rest is immediate by 2. 
 - **Corollary**: For a diffeomorphism $\varphi\in C^\infty(M,N)$, $\varphi_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}N)$ is a Lie algebra homomorphism by 3. 
 ---
+###### Vector Fields in Rn
+> [!lemma] Proposition 1
+> Let $M\subseteq \mathbb{R}^n$. Then, 
+> 1. $X:M\to \mathbb{R}^3$ is a vector field along $M$. 
+> 2. $X:M\to \text{T}M$ is a vector field on $M$.
+> 3. $X:M\to \text{T}M\subseteq \mathbb{R}^3$ is smooth if there exists $U\supseteq M$ open s.t. $X$ extends to a smooth function $\tilde{X}:U\to \mathbb{R}^3$. 
+---
 ##### Examples
 > [!h] Example 1
 > 

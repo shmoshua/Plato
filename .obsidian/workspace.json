@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,8 +86,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Analysis/Directional Derivative.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Analysis/Directional Derivative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential.md"
+                "file": "Analysis/Directional Derivative.md"
               }
             }
           }
@@ -215,14 +214,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d32c0cda1f0fd712",
+  "active": "1877132f1fe1af80",
   "lastOpenFiles": [
-    "Differential Geometry/Differential 1-Form.md",
-    "Differential Geometry/Differential.md",
+    "Differential Geometry/Vector Field.md",
     "Analysis/Directional Derivative.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Differential 1-Form.md",
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Regular Curve in Rn.md",
-    "Differential Geometry/Vector Field.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Surface.md",
     "Differential Geometry/Lie Bracket.md",
