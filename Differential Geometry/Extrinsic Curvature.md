@@ -9,6 +9,7 @@
 	2. $K:=k_{1}k_{2}=\text{det}(A_{p})$ is called the ***Gauss curvature*** at $p$.
 - **Remark**: If $K>0$, $M$ is a ***bulge*** at $p$. If $K<0$, $M$ is a ***saddle*** at $p$. If $H=0$, then $M$ is a ***minimal surface*** at $p$, e.g. soap film.
 - **Related definition**: For $X,Y\in \Gamma(\text{T}M)$, we have that $A(X,Y)_{p}:=A_{p}(X_{p},Y_{p})\in \mathbb{R}$. 
+- **Related definition**: The ***Weingarten map*** is $W:\Gamma(\text{T}M)\to\Gamma(\text{T}M),X\mapsto D_{X}N$.
 ---
 ##### Properties
 > [!lemma] Theorem 1
@@ -58,11 +59,24 @@
 ---
 > [!lemma] Theorem 3
 > Let $M\subseteq \mathbb{R}^3$ be a smooth surface and $N$ a normal vector field. Then, for $X,Y\in \Gamma(\text{T}M)$,
-> 1. $A(X,Y)=\braket{ D_{X}Y , N }=-\braket{ D_{X}N , Y }$
+> 1. $A(X,Y)=\braket{ D_{X}Y , N }=-\braket{ D_{X}N , Y }=-\braket{ W(X) , Y }$
 
 > [!proof]+
 
 - **Corollary**: $\braket{ D_{X}Y , N }_{p}$ depends on only $X_{p},Y_{p}$ and not on any derivatives of $Y$. 
+- **Corollary**: $\braket{ D_{X}Y , N }=\braket{ D_{Y}X , N }$ and $\braket{ D_{X}N , Y }=\braket{ D_{Y}N , X }$
+---
+> [!lemma] Proposition 4 (Properties of Weingarten Map)
+> For $M\subseteq \mathbb{R}^3$ smooth surface and $N$ a normal vector field, let $X,Y\in \Gamma(\text{T}M)$. Then, 
+> 1. $W_{p}:\text{T}_{p}M\to \text{T}_{p}M, X_{p}\mapsto D_{X}N(p)=d_{p}N(X_{p})$ is well-defined.
+> 2. $W_{p}$ is self-adjoint.
+
+> [!proof]+
+> We have:
+> 1. For any $X\in \Gamma(\text{T}M)$, $$\left. \frac{d}{dt} \right| _{t=0}\braket{ N(p) , N(p) } $$
+>    
+>    $$\braket{ W_{p}(X_{p}) , N_{p} } =\braket{ D_{X}N(p) , N(p) }= $$
+- **Corollary**: $W_{p}:\text{T}_{p}M\to \text{T}_{p}M$ is a self-adjoint operator as: $$\braket{ W_{p}(X_{p}) , Y_{p} } =-A_{p}(X_{p},Y_{p})=-A_{p}(Y_{p},X_{p})=\braket{ W_{p}(Y_{p}) , X_{p} }=\braket{ X_{p} , W_{p}(Y_{p}) }  $$
 ---
 ##### Examples
 > [!h] Example 1 (Spheres)

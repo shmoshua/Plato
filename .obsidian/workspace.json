@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -217,9 +217,9 @@
   "active": "1d45af889d3c44b9",
   "lastOpenFiles": [
     "Analysis/Directional Derivative.md",
-    "Differential Geometry/Vector Field.md",
-    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Extrinsic Curvature.md",
+    "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Vector Field.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Differential.md",
     "Analysis/Lie Derivative.md",
