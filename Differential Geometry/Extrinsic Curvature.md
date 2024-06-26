@@ -8,6 +8,7 @@
 	1. $H:=k_{1}+k_{2}=\text{tr}(A_{p})$ is called the ***mean curvature*** at $p$ and
 	2. $K:=k_{1}k_{2}=\text{det}(A_{p})$ is called the ***Gauss curvature*** at $p$.
 - **Remark**: If $K>0$, $M$ is a ***bulge*** at $p$. If $K<0$, $M$ is a ***saddle*** at $p$. If $H=0$, then $M$ is a ***minimal surface*** at $p$, e.g. soap film.
+- **Related definition**: For $X,Y\in \Gamma(\text{T}M)$, we have that $A(X,Y)_{p}:=A_{p}(X_{p},Y_{p})\in \mathbb{R}$. 
 ---
 ##### Properties
 > [!lemma] Theorem 1
@@ -42,7 +43,9 @@
 > 2. $S(\text{T}_{p}M)=\text{T}_{p}M$ and 
 > 3. there exists a line $L\subseteq \text{T}_{p}M$ s.t. $S|_{\text{T}_{p}M}$ is a reflection across $L$, 
 > 
-> then, the principal axes of curvature $e_{1},e_{2}$ at $p$ are contained in $L$ and $L^{\bot}$ in $\text{T}_{p}M$ respectively.
+> then, $S$ is either a reflection by $L$ or rotation at $L$ by $\pi$. Further, the principal axes of curvature $e_{1},e_{2}$ at $p$ are:
+> 1. contained in $L$ and $L^{\bot}$ in $\text{T}_{p}M$ respectively if $S$ is a reflection.
+> 2. $\frac{\pi}{4}$ to $L$ in $\text{T}_{p}M$ if $S$ is a rotation.
 
 > [!proof]-
 > From the conditions, we follow that the only possible scenarios are when $S$ is a reflection or a rotation. Then, 
@@ -52,6 +55,14 @@
 >    
 >    We have $A_{p}(S(e_{1}),S(e_{1}))=A_{p}(e_{1},e_{1})=k_{1}$. Therefore, $S(e_{1})=\pm e_{1}$. If $S(e_{1})=e_{1}$, then $e_{1}\in L$ otherwise, $e_{1}\in L^{\bot}$. By symmetry, it follows that $e_{1},e_{2}$ are contained in $L$ and $L^{\bot}$ respectively.
 > 2. If $S$ is a rotation, by the condition, it has to be a rotation around $L$ by $\pi$ with $p\in L$. Further, $S(N(p))=-N(p)$. Then, the argument is analogous as above, up to a sign change. Therefore, the statement still holds.
+---
+> [!lemma] Theorem 3
+> Let $M\subseteq \mathbb{R}^3$ be a smooth surface and $N$ a normal vector field. Then, for $X,Y\in \Gamma(\text{T}M)$,
+> 1. $A(X,Y)=\braket{ D_{X}Y , N }=-\braket{ D_{X}N , Y }$
+
+> [!proof]+
+
+- **Corollary**: $\braket{ D_{X}Y , N }_{p}$ depends on only $X_{p},Y_{p}$ and not on any derivatives of $Y$. 
 ---
 ##### Examples
 > [!h] Example 1 (Spheres)

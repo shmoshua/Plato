@@ -12,3 +12,4 @@
 
 > [!proof]-
 > We have that $D_{X}Y(p)=D_{\tilde{X}}\tilde{Y}(p)$ only depends on $\tilde{X}(p)=X(p)$ and $\tilde{Y}$. We have that: $$D_{\tilde{X}}\tilde{Y}(p)=d_{p}Y({\tilde{X}_{p}})=\left. \frac{d}{dt} \right| _{t=0}\tilde{Y}(\gamma(t))$$for any $\gamma:I\to M$ with $\gamma(0)=p$ and $\dot{\gamma}(0)=\tilde{X}_{p}=X_{p}$. Therefore, it only depends on $\tilde{Y}|_{\gamma(I)}=Y|_{\gamma(I)}$. 
+---

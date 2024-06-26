@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Directional Derivative.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Analysis/Directional Derivative.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Directional Derivative.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "mode": "preview",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Analysis/Directional Derivative.md",
                 "mode": "preview",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Directional Derivative.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Directional Derivative.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Directional Derivative.md"
+                "file": "Differential Geometry/Extrinsic Curvature.md"
               }
             }
           }
@@ -214,18 +214,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1877132f1fe1af80",
+  "active": "1d45af889d3c44b9",
   "lastOpenFiles": [
-    "Differential Geometry/Vector Field.md",
     "Analysis/Directional Derivative.md",
-    "Differential Geometry/Differential.md",
+    "Differential Geometry/Vector Field.md",
     "Differential Geometry/Differential 1-Form.md",
+    "Differential Geometry/Extrinsic Curvature.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Differential.md",
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Regular Curve in Rn.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Surface.md",
     "Differential Geometry/Lie Bracket.md",
-    "Differential Geometry/Extrinsic Curvature.md",
     "Controls/Ordinary Differential Equation.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/C*-Algebra.md",
