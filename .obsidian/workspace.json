@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Differential Geometry/Differential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Differential Geometry/Differential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md"
+                "file": "Differential Geometry/Differential.md"
               }
             }
           }
@@ -215,10 +215,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1d45af889d3c44b9",
+  "active": "630f150097e92dd1",
   "lastOpenFiles": [
-    "Differential Geometry/Regular Curve in Rn.md",
     "Differential Geometry/Extrinsic Curvature.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Regular Curve in Rn.md",
     "Differential Geometry/Surface.md",
     "Controls/Ordinary Differential Equation.md",
     "Functional Analysis/Bounded Linear Map.md",
@@ -243,7 +244,6 @@
     "Functional Analysis/Volterra Algebra.md",
     "Analysis/Banach Space.md",
     "Topology/Continuous Function.md",
-    "Topology/Hausdorff Space.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

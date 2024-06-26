@@ -44,11 +44,14 @@
 > 
 > then, the principal axes of curvature $e_{1},e_{2}$ at $p$ are contained in $L$ and $L^{\bot}$ in $\text{T}_{p}M$ respectively.
 
-> [!proof]+
+> [!proof]-
 > From the conditions, we follow that the only possible scenarios are when $S$ is a reflection or a rotation. Then, 
-> 1. If $S$ is a reflection, by the condition, it would have to be across a plane $P$ where $L\subseteq P$. Further, we get that $N(p)\in P$. We will now show the statement. Let $e_{1},e_{2}\in \text{T}_{p}M$ s.t. $e_{1},e_{2}$ diagonalize $A_{p}$. Then, we have that: $$A_{p}=[e_{1}|e_{2}]\text{diag}(k_{1},k_{2})\begin{bmatrix}e_{1}|e_{2}\end{bmatrix}^\top$$If $k_{1}=k_{2}$, then $A=k_{1}I$ in any ONB. Therefore, $S(e_{1}),S(e_{2})$ are too. Otherwise $k_{1}\neq k_{2}$ and by the geometric symmetry,  $A_{p}(S(X),S(Y))=A_{p}(X,Y)$. Therefore, $S(e_{1}),S(e_{2})$ diagonalize $A_{p}$ as well.
+> 1. If $S$ is a reflection, by the condition, it would have to be across a plane $P$ where $L\subseteq P$. Further, we get that $N(p)\in P$. We will now show the statement. Let $e_{1},e_{2}\in \text{T}_{p}M$ s.t. $e_{1},e_{2}$ diagonalize $A_{p}$. Then, we have that: $$A_{p}=[e_{1}|e_{2}]\text{diag}(k_{1},k_{2})\begin{bmatrix}e_{1}|e_{2}\end{bmatrix}^\top$$If $k_{1}=k_{2}$, then $A=k_{1}I$ in any ONB. Therefore, we can construct a ONB contained in $L$ and $L^{\bot}$. 
 >    
->    However, $k_{1}\neq k_{2}$
+>    Therefore, assume  $k_{1}\neq k_{2}$. We claim that $S(e_{1}),S(e_{2})$ also diagonalize $A_{p}$. By the geometric symmetry,  $A_{p}(S(X),S(Y))=A_{p}(X,Y)$. Therefore, $S(e_{1}),S(e_{2})$ diagonalize $A_{p}$ as well. However, from $k_{1}\neq k_{2}$, 
+>    
+>    We have $A_{p}(S(e_{1}),S(e_{1}))=A_{p}(e_{1},e_{1})=k_{1}$. Therefore, $S(e_{1})=\pm e_{1}$. If $S(e_{1})=e_{1}$, then $e_{1}\in L$ otherwise, $e_{1}\in L^{\bot}$. By symmetry, it follows that $e_{1},e_{2}$ are contained in $L$ and $L^{\bot}$ respectively.
+> 2. If $S$ is a rotation, by the condition, it has to be a rotation around $L$ by $\pi$ with $p\in L$. Further, $S(N(p))=-N(p)$. Then, the argument is analogous as above, up to a sign change. Therefore, the statement still holds.
 ---
 ##### Examples
 > [!h] Example 1 (Spheres)
@@ -64,6 +67,7 @@
 ---
 > [!h] Example 2 (Surface of Revolution)
 > Let $f:I\to \mathbb{R}$ be smooth. Then, the surface of revolution is defined as: $$M_{f}:=\{ (x,y,z)\subseteq I\times \mathbb{R}^2:f(x)=\sqrt{ y^{2}+z^{2} } \}$$Then, with respect to the outward $N$, 
+> 1. $e_{1}=\tau(s)$ given by $\gamma: x\mapsto (x,f(x))$ and $e_{2}$ is $e_{1}$ rotated by $\frac{\pi}{2}$.
 > 1. $k_{1}=\frac{\ddot{f}(x)}{(1+\dot{f}(x)^{2})^{3/2}},k_{2}=-\frac{1}{f(x)\sqrt{ 1+\dot{f}(x)^{2} }}$.
 > 2. $H=\frac{1}{\sqrt{ 1+\dot{f}(x)^{2} }}\left( \frac{\ddot{f}(x)}{1+\dot{f}(x)^{2}}-\frac{1}{f(x)} \right)$, $K=-\frac{\ddot{f}(x)}{f(x)(1+\dot{f}(x)^{2})^{2}}$.
 
@@ -90,4 +94,8 @@
 > $$k_{1}=k_{\gamma}(s(t))=\frac{\cosh(t)}{(1+\sinh^2(t))^{3/2}}=\frac{1}{\cosh ^{2}(t)}$$$$k_{2}=-\frac{1}{\cosh(t)\sqrt{ 1+\sinh ^{2}(x) }}=-\frac{1}{\cosh ^{2}(t)}$$
 ---
 > [!h] Example 5 (Helicoid)
-> 
+> A ***helicoid*** is a smooth surface: $$H_{b}:=\{ (x,y,z)\in \mathbb{R}^3:y=x\tan(bz) \}$$
+> Then, 
+> 1. $H=0$ and $H_{b}$ is a minimal surface.
+---
+
