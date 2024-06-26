@@ -3,7 +3,7 @@
 > [!definition]
 > Let $M\subseteq \mathbb{R}^3$ be a [[Surface|smooth surface]] and $N$ a [[Surface|normal vector field]]. The ***extrinsic curvature*** of $M$ at $p\in M$ and $v\in \text{T}_{p}M$ with $\|v\|=1$ is:
 > 1. $Q_{p}(v):=\braket{ \kappa_{\gamma}(0), N(p) }$ where $\kappa_{\gamma}$ is the curvature of the curve $\gamma:I\to M$ s.t. $0\in I$, $\gamma(0)=p$ and $\dot{\gamma}(0)=v$.
-> 2. $A_{p}(v,v)$ where the ***second fundamental form*** $A_{p}:\text{T}_{p}M\times \text{T}_{p}M\to \mathbb{R}$ is given by: $$A_{p}(X,Y)=\sum_{i,j=1}^{2}\left. \frac{ \partial^{2}f }{ \partial x^i\partial x^j} \right| _{(0,0)}X^iY^j$$where given the orthogonal coordinate system s.t. $p=(0,0,0)$, $\text{T}_{p}M=\mathbb{R}^{2}\times \{ 0 \}$ and $N(p)=(0,0,1)$, $f:\mathbb{R}^2\to \mathbb{R}$ is a smooth function s.t. $\text{graph}(f)$ coincides with $M$ in some open neighborhood of $0$. 
+> 2. $A_{p}(v,v)$ where the ***second fundamental form*** $A_{p}:\text{T}_{p}M\times \text{T}_{p}M\to \mathbb{R}$ is given by: $$A_{p}(x,y)=\sum_{i,j=1}^{2}\left. \frac{ \partial^{2}f }{ \partial x^i\partial x^j} \right| _{(0,0)}x^iy^j$$where given the orthogonal coordinate system s.t. $p=(0,0,0)$, $\text{T}_{p}M=\mathbb{R}^{2}\times \{ 0 \}$ and $N(p)=(0,0,1)$, $f:\mathbb{R}^2\to \mathbb{R}$ is a smooth function s.t. $\text{graph}(f)$ coincides with $M$ in some open neighborhood of $0$. 
 - **Related definition**: By diagonalizoing the second fundamental form $A_{p}$, we get the ONB vectors $e_{1},e_{2}\in \mathbb{R}^2$ called ***principal axes of curvature*** at $p$ and $A_{p}=\text{diag}(k_{1},k_{2})$ for $k_{1},k_{2}\in \mathbb{R}$ called the ***principal curvatures*** at $p$. Then,
 	1. $H:=k_{1}+k_{2}=\text{tr}(A_{p})$ is called the ***mean curvature*** at $p$ and
 	2. $K:=k_{1}k_{2}=\text{det}(A_{p})$ is called the ***Gauss curvature*** at $p$.
@@ -71,24 +71,25 @@
 > 1. $W_{p}:\text{T}_{p}M\to \text{T}_{p}M, X_{p}\mapsto D_{X}N(p)=d_{p}N(X_{p})$ is well-defined.
 > 2. $W_{p}$ is self-adjoint.
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. For any $X\in \Gamma(\text{T}M)$, $$\left. \frac{d}{dt} \right| _{t=0}\braket{ N(p) , N(p) } $$
->    
->    $$\braket{ W_{p}(X_{p}) , N_{p} } =\braket{ D_{X}N(p) , N(p) }= $$
-- **Corollary**: $W_{p}:\text{T}_{p}M\to \text{T}_{p}M$ is a self-adjoint operator as: $$\braket{ W_{p}(X_{p}) , Y_{p} } =-A_{p}(X_{p},Y_{p})=-A_{p}(Y_{p},X_{p})=\braket{ W_{p}(Y_{p}) , X_{p} }=\braket{ X_{p} , W_{p}(Y_{p}) }  $$
+> 1. For any $X\in \Gamma(\text{T}M)$, $$0=\left. \frac{d}{dt} \right| _{t=0}\braket{ N(p+tX_{p}) , N(p+tX_{p}) } =2\braket{ d_{p}N(X_{p}) , N(p) }=2\braket{ W_{p}(X_{p}) , N_{p} }  $$Therefore, $W_{p}(X_{p})$ is normal to $N_{p}$ and $W_{p}(X_{p})\in \text{T}_{p}M$. 
+> 2. One sees that: $$\braket{ W_{p}(X_{p}) , Y_{p} } =-A_{p}(X_{p},Y_{p})=-A_{p}(Y_{p},X_{p})=\braket{ W_{p}(Y_{p}) , X_{p} }=\braket{ X_{p} , W_{p}(Y_{p}) }  $$
+
 ---
 ##### Examples
-> [!h] Example 1 (Spheres)
-> Let $M:=R\cdot S^2\subseteq \mathbb{R}^3$ be a sphere of radius $R$. Then, 
+> [!h] Example 1 (The Sphere)
+> Let $M:=R\cdot S^2\subseteq \mathbb{R}^3$ be a sphere of radius $R$ w.r.t the inner normal field $N$, i.e. $N_{p}=-\frac{p}{R}$. Then, 
 > 1. $Q_{p}(v)=\frac{1}{R}$ for any $p\in M$ and $v\in \text{T}_{p}M$ with $\|v\|=1$. 
 > 2. $k_{1}=k_{2}=\frac{1}{R}$ from [[Regular Curve in Rn|Exercise 1]].
-> 3. $A_{p}(X,Y)=\frac{1}{R}\braket{ X , Y }$
+> 3. $A_{p}(x,y)=\frac{1}{R}\braket{ x , y }$
 > 4. $H=\frac{2}{R}$,
 > 5. $K=\frac{1}{R^{2}}>0$ and $M$ is a bulge everywhere.
+> 6. $W(X)=-\frac{1}{R}X$
 
 > [!proof]-
 > For $p\in M$ and $v\in \text{T}_{p}M$ with $\|v\|=1$, consider the plane $P$ in $\mathbb{R}^3$ that contains $0$, $p$ and $v$. Then, $P\cap M$ is a circle of radius $R$ and by [[Regular Curve in Rn|Example 1]], $$Q_{p}(v)=\frac{1}{R}\braket{ N(p) ,N(p)  } =\frac{1}{R}$$
+> We can also compute the Weingarten map: $$W_{p}(X_{p})=d_{p}N(X_{p})=-\frac{1}{R}X_{p}$$We can verify this with: $$A_{p}(X_{p},Y_{p})=\frac{1}{R}\braket{ X_{p} , Y_{p} } =-\braket{ W_{p}(X_{p}) , Y_{p} } $$
 ---
 > [!h] Example 2 (Surface of Revolution)
 > Let $f:I\to \mathbb{R}$ be smooth. Then, the surface of revolution is defined as: $$M_{f}:=\{ (x,y,z)\subseteq I\times \mathbb{R}^2:f(x)=\sqrt{ y^{2}+z^{2} } \}$$Then, with respect to the outward $N$, 
@@ -122,5 +123,8 @@
 > A ***helicoid*** is a smooth surface: $$H_{b}:=\{ (x,y,z)\in \mathbb{R}^3:y=x\tan(bz) \}$$
 > Then, 
 > 1. $H=0$ and $H_{b}$ is a minimal surface.
+
+> [!proof]+
+> 
 ---
 
