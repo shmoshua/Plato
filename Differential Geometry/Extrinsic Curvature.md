@@ -76,3 +76,5 @@
 > We have that:
 > $$k_{1}=k_{\gamma}(s(t))=\frac{\cosh(t)}{(1+\sinh^2(t))^{3/2}}=\frac{1}{\cosh ^{2}(t)}$$$$k_{2}=-\frac{1}{\cosh(t)\sqrt{ 1+\sinh ^{2}(x) }}=-\frac{1}{\cosh ^{2}(t)}$$
 ---
+> [!h] Example 5 (Helicoid)
+> 
