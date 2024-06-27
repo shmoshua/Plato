@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Differential Geometry/Isometry.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Directional Derivative.md",
+                "file": "Differential Geometry/Surface.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -56,8 +56,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
-                "mode": "preview",
+                "file": "Differential Geometry/Surface.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Isometry.md",
                 "mode": "preview",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Differential Geometry/Surface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md",
+                "file": "Differential Geometry/Surface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Riemannian Metric.md"
+                "file": "Differential Geometry/Surface.md"
               }
             }
           }
@@ -214,17 +214,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1d45af889d3c44b9",
+  "active": "630f150097e92dd1",
   "lastOpenFiles": [
-    "Differential Geometry/Extrinsic Curvature.md",
-    "Differential Geometry/Differential.md",
     "Analysis/Directional Derivative.md",
+    "Differential Geometry/Surface.md",
+    "Differential Geometry/Intrinsic Metric.md",
+    "Differential Geometry/Isometry.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Extrinsic Curvature.md",
+    "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Vector Field.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Regular Curve in Rn.md",
-    "Differential Geometry/Surface.md",
     "Differential Geometry/Lie Bracket.md",
     "Controls/Ordinary Differential Equation.md",
     "Functional Analysis/Bounded Linear Map.md",
@@ -240,9 +243,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Complex Analysis/Holomorphic Function.md",
     "Complex Analysis",
-    "Functional Analysis/Banach Algebra.md",
-    "Measure Theory/Summable Function.md",
-    "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Algebra/Untitled",
     "Courses/Graph Theory",
     "Graph Theory",

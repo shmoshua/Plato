@@ -7,4 +7,5 @@
 > or alternatively, it can be locally expressed as a smooth graph in some direction. 
 - **Related definition**: Let $N(p)\in \mathbb{R}^3$ be a unit normal vector of the [[tangent space]] $\text{T}_{p}M$. Then, there is a ***unit normal field*** is a continuous function $N:M\to \mathbb{R}^3$, where the normal vector is chosen arbitrarily to make $N$ continuous.
 - **Related definition**: A surface is ***non-orientable*** if such unit normal field cannot exist, e.g. Möbius strip.
+- **Related definition**: A surface is ***developable*** if it is [[Isometry|locally isometric]] to a plane.
 ---

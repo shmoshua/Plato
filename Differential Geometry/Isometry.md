@@ -1,11 +1,12 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $(M,g)$ and $(N,h)$  be two [[Riemannian Manifold|Riemannian manifolds]]. A smooth map $f:M\to N$ is a ***(local) isometry***, if:
-> 1. $f$ is a (local) diffeomorphism and
+> Let $(M,g)$ and $(N,h)$  be two [[Riemannian Manifold|Riemannian manifolds]]. A smooth map $f:M\to N$ is a ***isometry***, if:
+> 1. $f$ is a diffeomorphism and
 > 2. $g=f^{*}h$, where $f^{*}h$ is the [[Pullback|pullback metric]].
 - **Remark**: For a Reimannian manifold $(M,g)$, $\text{Iso}(M,g)$ denotes the set of isometries on $M$, which is a [[Lie group]].
-
+- **Related definition**: If $f$ is a [[local diffeomorphism]], then $f$ is a local isometry.
+- **Related defintion**: A property or quantity is ***intrinsic***, if it is invariant under isometries.
 ---
 ##### Examples
 > [!h] Example 1
