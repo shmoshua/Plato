@@ -9,3 +9,7 @@
 - **Related definition**: A surface is ***non-orientable*** if such unit normal field cannot exist, e.g. Möbius strip.
 - **Related definition**: A surface is ***developable*** if it is [[Isometry|locally isometric]] to a plane.
 ---
+##### Properties
+> [!lemma] Theorem 1 (Theorema egregium, Gauss)
+> the [[Extrinsic Curvature|Gauss curvature]] $K$ is [[Isometry|intrinsic]].
+- **Remark**: There is a formula of $K$ expressed by the [[Riemannian metric]]. 
