@@ -6,9 +6,10 @@
 > 2. **second countable**: the topology admits a countable basis $\mathcal{B}=\{ U_{n} \}_{n}$
 > 3. **locally homeomorphic to $\mathbb{R}^m$**: every point $p\in M$ admits an open neighborhood $U\subseteq M$ s.t. $\varphi :U\to \varphi(U)\subseteq\mathbb{R}^m$ is a [[homeomorphism]] and $\varphi(U)\subseteq \mathbb{R}^m$ is open.
 - **Related definition**: In a topological manifold $M$, we have:
-  1. a ***chart*** $(U,\varphi)$
+  1. a ***chart*** $(U,\varphi)$, i.e. a homeomorphism $\varphi:U\to\varphi(U)\subseteq \mathbb{R}^m$
 	2. the ***coordinate neighborhood*** $U$ of $\varphi$.
 	3. the ***coordinate space*** $\varphi(U)$ of $\varphi$.
+	4. the ***coordinate functions*** $x^1,\dots,x^m:U\to \mathbb{R}$ s.t. $\varphi=(x_{1},\dots,x^m)$. 
 - **Related definition**: Let $(U_{\alpha},\varphi_{\alpha}),(U_{\beta},\varphi_{\beta})$ be two charts s.t. $U_{\alpha}\cap U_{\beta}\neq \varnothing$. Then, 
 	$\\$
 	```tikz

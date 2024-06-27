@@ -7,3 +7,12 @@
 ##### Properties
 > [!lemma] Theorem 1
 > $\chi(M)=2-2\cdot\text{genus}(M)$
+---
+> [!lemma] Theorem 2 (Gauss-Bonnet)
+> Let $(M,g)$ be a compact [[Riemannian Manifold|Riemannian $2$-manifold]]. Then: $$\int_{M}^{} K_{M} \, dA=2\pi \chi(M) $$
+---
+> [!lemma] Theorem 3 (Uniformization Theorem)
+> Let $M$ be a compact surface. Then, $M$ possesses a metric $g$ of constant curvature, given by:
+> 1. $K_{M}\equiv 1$ if and only if $\chi(M)>0$,
+> 2. $K_{M}\equiv 0$ if and only if $\chi(M)=0$, and 
+> 3. $K_{M}\equiv -1$ if and only if $\chi(M)<0$.

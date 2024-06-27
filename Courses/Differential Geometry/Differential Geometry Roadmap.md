@@ -7,6 +7,8 @@
 2. [[Regular Curve in Rn]]
 3. [[Surface]]
 4. [[Extrinsic Curvature]]
+5. [[Intrinsic Metric]]
+6. [[Euler Characteristic]]
 ---
 ##### 1. Differential Manifolds and Differentiable Maps
 **1.1 Differential Manifolds: Definitions and Examples**
