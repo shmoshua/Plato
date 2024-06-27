@@ -7,6 +7,8 @@
 > [!lemma] Proposition 1
 > $G(k,n)$ is a smooth manifold.
 
+^af4191
+
 
 > [!proof]-
 > We have:
@@ -16,3 +18,7 @@
 > 
 > 2. Given $B\in \text{GL}(k,\mathbb{R})$, $L_{B}:\text{M}_{k,n}(\mathbb{R})\to \text{M}_{k,n}(\mathbb{R}),A\mapsto BA$ is a homeomorphism with inverse $L_{B^{-1}}$. Therefore, for any open subset $\Omega \subseteq F(k,n)$: $$\pi ^{-1}(\pi(\Omega))=\bigcup_{B\in \text{GL}(k,\mathbb{R})}^{}L_{B}(M(\Omega))$$Further, the graph of $\sim$ is a closed subset of $F(k,n)\times F(k,n)$. Therefore, $G(k,n)$ is equipped with a second-countable Hausdorff topology.
 > 3. We now define charts on $G(k,n)$ which gives it a smooth structure. For any multi-index $J=(j_{1},..,j_{k})$ where $1\leq j_{1}<\dots<j_{k}\leq n$, set: $$\tilde{U}_{J}:=\left\{ \begin{bmatrix}w_{1}^\top\\ \vdots\\w^\top_{k}\end{bmatrix}\in \text{M}_{k,n}(\mathbb{R})\left|\begin{bmatrix}w_{1j_{1}}&\dots&w_{1j_{k}}\\ \vdots&&\vdots\\w_{kj_{1}}&\dots&w_{kj_{k}}\end{bmatrix}=I_{k}\in \text{M}_{k,k}(\mathbb{R})\right. \right\}$$Then, $\pi|_{\tilde{U}_{j}}:\tilde{U}_{j}\to G(k,n)$ is injective and: $$\pi ^{-1}(\pi(\tilde{U}_{j}))=\tilde{U}_{J}:=\left\{ \begin{bmatrix}w_{1}^\top\\ \vdots\\w^\top_{k}\end{bmatrix}\in \text{M}_{k,n}(\mathbb{R})\left|\det\begin{bmatrix}w_{1j_{1}}&\dots&w_{1j_{k}}\\ \vdots&&\vdots\\w_{kj_{1}}&\dots&w_{kj_{k}}\end{bmatrix}\neq 0\right. \right\}$$Therefore, $\pi(\tilde{U}_{j})\subseteq G(k,n)$ is open and $\bigcup_{J}^{}\pi(\tilde{U}_{j})=G(k,n)$. By defining the projection maps $\text{pr}_{J}:\tilde{U}_{J}\to \text{M}_{k,n-k}(\mathbb{R})$, $\{ (\pi(\tilde{U}_{j}),\text{pr}_{J}\circ(\pi|_{\tilde{U}_{j}})^{-1}) \}_{J}$ is a smooth atlas on $G(k,n)$.
+
+^a87389
+
+---

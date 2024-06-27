@@ -1,13 +1,13 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $X$ be a [[topological space]]. An equivalence relation $\sim$ on $X$ is ***open*** if $\pi:X \to X \backslash \sim$ is an [[Open and Closed Maps|open map]].
+> Let $X$ be a [[topological space]]. An equivalence relation $\sim$ on $X$ is ***open*** if $\pi:X \to X / \sim$ is an [[Open and Closed Maps|open map]].
 ---
 ##### Properties
 > [!lemma] Proposition 1
 > Let $X$ be a topological space and $\sim$ an open equivalence relation on $X$.
-> 1. If $X$ is second-countable, then so is $X \backslash \sim$.
-> 2. $X \backslash \sim$ is Hausdorff if and only if $R:=\{ (x,y)|x\sim y \}\subseteq X^{2}$ is closed.
+> 1. If $X$ is second-countable, then so is $X / \sim$.
+> 2. $X / \sim$ is Hausdorff if and only if $R:=\{ (x,y)|x\sim y \}\subseteq X^{2}$ is closed.
 
 > [!proof]-
 > We have: 
@@ -20,10 +20,12 @@
 ---
 ##### Example
 > [!h] Example 1 (Real Projective Space)
-> The projective space $\mathbb{P}^n \mathbb{R}$ is defined as the quotient of $X= \mathbb{R}^{n+1} \backslash \{ 0 \}$ with the equivalence relation: $$x\sim y\iff \exists\lambda\in \mathbb{R}^{*}: x=\lambda y$$
+> The projective space $\mathbb{R}\mathbb{P}^n$ is defined as the quotient of $X= \mathbb{R}^{n+1} \backslash \{ 0 \}$ with the equivalence relation: $$x\sim y\iff \exists\lambda\in \mathbb{R}^{*}: x=\lambda y$$
 > 1. $\sim$ is open.
 > 2. $R$ is closed.
-> 3. $\mathbb{P}^n\mathbb{R}$ is a [[smooth manifold]] of dimension $n$.
+> 3. $\mathbb{R}\mathbb{P}^n$ is a [[smooth manifold]] of dimension $n$.
+
+^88f964
 
 > [!proof]-
 > We have that:
@@ -36,4 +38,7 @@
 >    2. $\varphi_{j}(U_{i}\cap U_{j})=\{ y\in \mathbb{R}^n:y_{i}\neq 0 \}$
 >    
 >    Then, $$\begin{array}{cccc} {\theta_{ji}:}&{\varphi_{i}(U_{i}\cap U_{j})}&\to&{\varphi_{j}(U_{i}\cap U_{j})}\\&{y} &\mapsto & {\frac{1}{y_{j-1}}(y_{1},\dots,y_{i-1},1,y_{i},\dots,y_{j-1},y_{j+1},\dots,y_{n})} \end{array}{}$$and hence is smooth. 
+
+^1a186e
+
 ---

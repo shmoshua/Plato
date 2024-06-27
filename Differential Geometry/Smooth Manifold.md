@@ -42,6 +42,8 @@
 > We have that: 
 > 1. $\mathbb{R}^m$ has the smooth structure $\{ \text{id}:\mathbb{R}^m\to \mathbb{R}^m \}$
 > 2. Any $m$-dimensional $\mathbb{R}$-vector space $V$ has the smooth structure $\{ \ell:V\to \mathbb{R}^m \}$ where $\ell$ is some linear isomorphism.
+> 3. For any smooth $f:U\to \mathbb{R}^n$ where $U\subseteq \mathbb{R}^m$ open, $\text{graph}(f)\subseteq \mathbb{R}^m\times \mathbb{R}^n$ is a smooth $n$-manifold with a single chart $\varphi:\text{graph}(f)\to U,(x,f(x))\mapsto x$.
+> 4. For any $M\subseteq \mathbb{R}^N$ s.t. locally $M$ can be viewed as a graph of some smooth $f:U\subseteq \mathbb{R}^n\to \mathbb{R}^{N-n}$ in an orthogonal coordinate system, then for each such open set, the chart is given by $\varphi$ in 3. E.g. [[Surface|smooth surfaces]] in $\mathbb{R}^3$.
 ---
 > [!h] Example 2
 > The unit sphere defined as: $$S^m:=\{ p\in \mathbb{R}^{m+1}|\left\| p \right\| =1 \}$$is a compact smooth manifold of dimension $m$.
@@ -56,4 +58,10 @@
 > 2. $x_{S}:U_{S}\to \mathbb{R}^m,x_{S}(u^1,\dots,u^{m+1}):= \frac{1}{1+u^{m+1}}(u^1,\dots,u^{m})$
 >    
 > which are the stereographic projection from the north/south pole respectively. Then, the transition maps are given as: $$(u^1,\dots,u^m)\mapsto \frac{1}{\sum_{i=1}^{m}(u^i)^{2}}(u^1,\dots,u^m)$$which is obviously a diffeomorphism. Therefore, this is a smooth structure on $S^m$, called the standard smooth structure. 
+---
+![[Open Equivalence Relation#^88f964]]
+![[Open Equivalence Relation#^1a186e|p]]
+---
+![[Grassmannian#^af4191]]
+![[Grassmannian#^a87389|p]]
 ---

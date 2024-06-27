@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Differential Geometry/Smooth Manifold.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Euler Characteristic.md",
+                "file": "Differential Geometry/Open Equivalence Relation.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,7 +55,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32796345992ff3f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Open Equivalence Relation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -67,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Atlas.md",
+                "file": "Differential Geometry/Grassmannian.md",
                 "mode": "preview",
                 "source": false
               }
@@ -79,13 +91,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential 1-Form.md",
-                "mode": "source",
+                "file": "Differential Geometry/Grassmannian.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Differential Geometry/Open Equivalence Relation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Differential Geometry/Open Equivalence Relation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md"
+                "file": "Differential Geometry/Open Equivalence Relation.md"
               }
             }
           }
@@ -213,21 +226,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1d45af889d3c44b9",
+  "active": "32796345992ff3f6",
   "lastOpenFiles": [
+    "Differential Geometry/Grassmannian.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Open Equivalence Relation.md",
+    "Differential Geometry/Euler Characteristic.md",
     "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Extrinsic Curvature.md",
+    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Atlas.md",
     "Topology/Hausdorff Space.md",
     "Differential Geometry/Isometry.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Extrinsic Curvature.md",
     "Differential Geometry/Surface.md",
-    "Differential Geometry/Euler Characteristic.md",
     "Differential Geometry/Intrinsic Metric.md",
     "Analysis/Directional Derivative.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Riemannian Metric.md",
-    "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Vector Field.md",
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Regular Curve in Rn.md",
@@ -238,9 +254,6 @@
     "Topology/Path.md",
     "Differential Geometry/Surface in Rn.md",
     "simple curve.md",
-    "Differential Geometry/Tangent and Curvature Vector in Rn.md",
-    "Differential Geometry/Smooth Curve.md",
-    "Differential Geometry/Arc Length.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
