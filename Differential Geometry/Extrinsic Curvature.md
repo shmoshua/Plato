@@ -61,13 +61,13 @@
 > Let $M\subseteq \mathbb{R}^3$ be a smooth surface and $N$ a normal vector field. Then, for $X,Y\in \Gamma(\text{T}M)$,
 > 1. $A(X,Y)=\braket{ D_{X}Y , N }=-\braket{ D_{X}N , Y }=-\braket{ W(X) , Y }$
 
-> [!proof]+
+> [!proof]-
 > We show that $-\braket{ D_{X}N , Y }=\braket{ D_{X}Y , N }$. We have that $Y_{p}\in \text{T}_{p}M$ and hence $\braket{ Y_{p} , N_{p} }=0$ for all $p\in M$. Therefore, $$0=\left. \frac{d}{dt} \right| _{t=0}\braket{ Y_{p+tX_{p}} ,N_{p+tX_{p}}  }=\braket{ d_{p}Y(X_{p}) , N_{p} } +\braket{ Y_{p} , d_{p}N(X_{p}) }=\braket{ D_{X}Y , N }_{p}+\braket{ D_{X}N , Y}_{p}   $$
 > To show that $A(X,Y)=\braket{ D_{X}Y , N }$, fix $p\in M$ and a coordinate system in which $p=(0,0,0)$, $\text{T}_{p}M=\mathbb{R}^{2}\times \{ 0 \}$ and $M=\text{graph}(f)$ for some smooth $f:\mathbb{R}^2\to \mathbb{R}$. Then, $f(0,0)=0$ and $f_{x^1}(0,0)=0$ and $f_{x^2}(0,0)=0$. 
 > 
 > Let $X,Y\in \text{T}_pM$ two tangent vectors. As $D_{X}Y$ only depends on $X$ and $Y$ from the Corollary (which is given by the 1st part we have already proven), we can extend $X,Y$ to any open neighborhood $U$ of $p$ to compute $D_{X}Y$. 
 > 
-> We first extend $Y$ as follows: for $(x^1,x^2,f(x^1,x^2))$, $$Y(x_{1},x_{2},f(x_{1},x_{2}))=(Y^1,Y^2,d_{(x^1,x^2)}f(Y^1,Y^2))=\left( Y^1,Y^2,\sum_{i=1}^{2}\left. \frac{ \partial f }{ \partial x^i }  \right| _{(x^1,x^2)}Y^i \right)$$Further, we define the extension in the following way: $\tilde{Y}:\mathbb{R}^3\to \mathbb{R}^3$ where $\tilde{Y}(x_{1},x_{2},x_{3})=Y(x_{1},x_{2},f(x_{1},x_{2}))$. Similarly, we extend $X$ to $Y$. Therefore, $$\begin{align}(D_{X}Y)_{p}=d_{p}Y(X_{p})=d_{p}\tilde{Y}(X_{p})=\end{align}$$
+> We first extend $Y$ as follows: for $(x^1,x^2,f(x^1,x^2))$, $$Y(x_{1},x_{2},f(x_{1},x_{2}))=(Y^1,Y^2,d_{(x^1,x^2)}f(Y^1,Y^2))=\left( Y^1,Y^2,\sum_{i=1}^{2}\left. \frac{ \partial f }{ \partial x^i }  \right| _{(x^1,x^2)}Y^i \right)$$Further, we define the extension in the following way: $\tilde{Y}:\mathbb{R}^3\to \mathbb{R}^3$ where $\tilde{Y}(x_{1},x_{2},x_{3})=Y(x_{1},x_{2},f(x_{1},x_{2}))$. Similarly, we extend $X$ to $Y$. Therefore, $$\begin{align}(D_{X}Y)_{p}&=d_{p}Y(X_{p})=d_{p}\tilde{Y}(X_{p})=\sum_{i=1}^{3}\sum_{j=1}^{3}X^j\left. \frac{ \partial \tilde{Y}^i }{ \partial x^j } \right| _{p}e_{i} \\&=\sum_{j=1}^{3}X^j\left. \frac{ \partial  }{ \partial x^j }  \right| _{p}\left( Y_{1},Y_{2},\sum_{i=1}^{2}\left. \frac{ \partial f }{ \partial x^i }  \right| _{(x^1,x^2)}Y^i\right)\\&=\left( 0,0,\sum_{i,j=1}^{2}\left. \frac{ \partial^{2} f }{ \partial x^i\partial x^j }  \right| _{(x^1,x^2)}X^jY^i\right)\\&=(0,0,A_{p}(X_{p},Y_{p}))\end{align}$$where $N_{p}=(0,0,1)$. This proves the statement.
 
 - **Corollary**: $\braket{ D_{X}Y , N }_{p}$ depends on only $X_{p},Y_{p}$ and not on any derivatives of $Y$. 
 - **Corollary**: $\braket{ D_{X}Y , N }=\braket{ D_{Y}X , N }$ and $\braket{ D_{X}N , Y }=\braket{ D_{Y}N , X }$

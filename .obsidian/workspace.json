@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "mode": "preview",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md",
+                "file": "Differential Geometry/Riemannian Metric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Extrinsic Curvature.md"
+                "file": "Differential Geometry/Riemannian Metric.md"
               }
             }
           }
@@ -216,8 +216,8 @@
   },
   "active": "1d45af889d3c44b9",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Extrinsic Curvature.md",
+    "Differential Geometry/Differential.md",
     "Analysis/Directional Derivative.md",
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Vector Field.md",
