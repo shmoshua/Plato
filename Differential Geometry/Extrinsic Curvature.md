@@ -66,6 +66,8 @@
 > To show that $A(X,Y)=\braket{ D_{X}Y , N }$, fix $p\in M$ and a coordinate system in which $p=(0,0,0)$, $\text{T}_{p}M=\mathbb{R}^{2}\times \{ 0 \}$ and $M=\text{graph}(f)$ for some smooth $f:\mathbb{R}^2\to \mathbb{R}$. Then, $f(0,0)=0$ and $f_{x^1}(0,0)=0$ and $f_{x^2}(0,0)=0$. 
 > 
 > Let $X,Y\in \text{T}_pM$ two tangent vectors. As $D_{X}Y$ only depends on $X$ and $Y$ from the Corollary (which is given by the 1st part we have already proven), we can extend $X,Y$ to any open neighborhood $U$ of $p$ to compute $D_{X}Y$. 
+> 
+> We first extend $Y$ as follows: for $(x^1,x^2,f(x^1,x^2))$, $$Y(x_{1},x_{2},f(x_{1},x_{2}))=(Y^1,Y^2,d_{(x^1,x^2)}f(Y^1,Y^2))=\left( Y^1,Y^2,\sum_{i=1}^{2}\left. \frac{ \partial f }{ \partial x^i }  \right| _{(x^1,x^2)}Y^i \right)$$Further, we define the extension in the following way: $\tilde{Y}:\mathbb{R}^3\to \mathbb{R}^3$ where $\tilde{Y}(x_{1},x_{2},x_{3})=Y(x_{1},x_{2},f(x_{1},x_{2}))$. Similarly, we extend $X$ to $Y$. Therefore, $$\begin{align}(D_{X}Y)_{p}=d_{p}Y(X_{p})=d_{p}\tilde{Y}(X_{p})=\end{align}$$
 
 - **Corollary**: $\braket{ D_{X}Y , N }_{p}$ depends on only $X_{p},Y_{p}$ and not on any derivatives of $Y$. 
 - **Corollary**: $\braket{ D_{X}Y , N }=\braket{ D_{Y}X , N }$ and $\braket{ D_{X}N , Y }=\braket{ D_{Y}N , X }$

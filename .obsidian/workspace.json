@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Directional Derivative.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -216,12 +216,12 @@
   },
   "active": "1d45af889d3c44b9",
   "lastOpenFiles": [
-    "Analysis/Directional Derivative.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Extrinsic Curvature.md",
+    "Analysis/Directional Derivative.md",
     "Differential Geometry/Differential 1-Form.md",
     "Differential Geometry/Vector Field.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Differential.md",
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Regular Curve in Rn.md",
     "Differential Geometry/Surface.md",
