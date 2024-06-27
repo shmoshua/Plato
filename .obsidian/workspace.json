@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "mode": "preview",
                 "source": false
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Differential Geometry/Extrinsic Curvature.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md"
+                "file": "Differential Geometry/Extrinsic Curvature.md"
               }
             }
           }
@@ -215,8 +215,8 @@
   },
   "active": "1d45af889d3c44b9",
   "lastOpenFiles": [
-    "Differential Geometry/Atlas.md",
     "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Atlas.md",
     "Topology/Hausdorff Space.md",
     "Differential Geometry/Isometry.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
