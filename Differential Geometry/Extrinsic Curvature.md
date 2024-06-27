@@ -63,6 +63,9 @@
 
 > [!proof]+
 > We show that $-\braket{ D_{X}N , Y }=\braket{ D_{X}Y , N }$. We have that $Y_{p}\in \text{T}_{p}M$ and hence $\braket{ Y_{p} , N_{p} }=0$ for all $p\in M$. Therefore, $$0=\left. \frac{d}{dt} \right| _{t=0}\braket{ Y_{p+tX_{p}} ,N_{p+tX_{p}}  }=\braket{ d_{p}Y(X_{p}) , N_{p} } +\braket{ Y_{p} , d_{p}N(X_{p}) }=\braket{ D_{X}Y , N }_{p}+\braket{ D_{X}N , Y}_{p}   $$
+> To show that $A(X,Y)=\braket{ D_{X}Y , N }$, fix $p\in M$ and a coordinate system in which $p=(0,0,0)$, $\text{T}_{p}M=\mathbb{R}^{2}\times \{ 0 \}$ and $M=\text{graph}(f)$ for some smooth $f:\mathbb{R}^2\to \mathbb{R}$. Then, $f(0,0)=0$ and $f_{x^1}(0,0)=0$ and $f_{x^2}(0,0)=0$. 
+> 
+> Let $X,Y\in \text{T}_pM$ two tangent vectors. As $D_{X}Y$ only depends on $X$ and $Y$ from the Corollary (which is given by the 1st part we have already proven), we can extend $X,Y$ to any open neighborhood $U$ of $p$ to compute $D_{X}Y$. 
 
 - **Corollary**: $\braket{ D_{X}Y , N }_{p}$ depends on only $X_{p},Y_{p}$ and not on any derivatives of $Y$. 
 - **Corollary**: $\braket{ D_{X}Y , N }=\braket{ D_{Y}X , N }$ and $\braket{ D_{X}N , Y }=\braket{ D_{Y}N , X }$
