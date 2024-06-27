@@ -62,6 +62,7 @@
 > 1. $A(X,Y)=\braket{ D_{X}Y , N }=-\braket{ D_{X}N , Y }=-\braket{ W(X) , Y }$
 
 > [!proof]+
+> We show that $-\braket{ D_{X}N , Y }=\braket{ D_{X}Y , N }$. We have that $Y_{p}\in \text{T}_{p}M$ and hence $\braket{ Y_{p} , N_{p} }=0$ for all $p\in M$. Therefore, $$0=\left. \frac{d}{dt} \right| _{t=0}\braket{ Y_{p+tX_{p}} ,N_{p+tX_{p}}  }=\braket{ d_{p}Y(X_{p}) , N_{p} } +\braket{ Y_{p} , d_{p}N(X_{p}) }=\braket{ D_{X}Y , N }_{p}+\braket{ D_{X}N , Y}_{p}   $$
 
 - **Corollary**: $\braket{ D_{X}Y , N }_{p}$ depends on only $X_{p},Y_{p}$ and not on any derivatives of $Y$. 
 - **Corollary**: $\braket{ D_{X}Y , N }=\braket{ D_{Y}X , N }$ and $\braket{ D_{X}N , Y }=\braket{ D_{Y}N , X }$
@@ -120,14 +121,16 @@
 > $$k_{1}=k_{\gamma}(s(t))=\frac{\cosh(t)}{(1+\sinh^2(t))^{3/2}}=\frac{1}{\cosh ^{2}(t)}$$$$k_{2}=-\frac{1}{\cosh(t)\sqrt{ 1+\sinh ^{2}(x) }}=-\frac{1}{\cosh ^{2}(t)}$$
 ---
 > [!h] Example 5 (Helicoid)
-> A ***helicoid*** is a smooth surface: $$H_{b}:=\{ (x,y,z)\in \mathbb{R}^3:y=x\tan(bz) \}$$
+> A ***helicoid*** is a smooth surface $H_{m}:=\Psi(\mathbb{R}^2)$ where: $$\Psi:\mathbb{R}^2\to \mathbb{R}^3,\quad (r,t)\mapsto(r\cos t,r\sin t,mt)$$
 > Then, 
 > 1. $H=0$ and $H_{b}$ is a minimal surface.
+> 2. $K=-\frac{m^2}{(m^2+r^2)^2}$
+> 3. $-k_{1}=k_{2}=\frac{m}{m^2+r^2}$
 
-> [!proof]+
-> The helicoid is given by the image of $\Psi:\mathbb{R}^2\to \mathbb{R}^3$ by $(r,t)\mapsto(r\cos t,r\sin t,mt)$. Then, $\Psi_{r}:=\frac{\partial}{\partial r}\Psi$ and $\Psi_{t}:=\frac{ \partial  }{ \partial t }\Psi$ are orthogonal at every point $(r,t)$ and we define the vector fields: 
+> [!proof]-
+> The helicoid is given by the image of $\Psi:\mathbb{R}^2\to \mathbb{R}^3$ by $(r,t)\mapsto(r\cos t,r\sin t,mt)$. Then, $\Psi_{r}(r,t):=\frac{\partial}{\partial r}\Psi(r,t)=(\cos t,\sin t,0)$ and $\Psi_{t}(r,t):=\frac{ \partial  }{ \partial t }\Psi(r,t)=(-r\sin t,r\cos t,m)$ are orthogonal at every point $(r,t)$ and we define the vector fields: 
 > 1. $X:H_{b}\to \mathbb{R}^3,p\mapsto \Psi_{r}(\Psi ^{-1}(p))$
-> 2. $Y:H_{b}\to \mathbb{R}^3,p\mapsto \Psi_{t}(\Psi ^{-1}(p))$
+> 5. $Y:H_{b}\to \mathbb{R}^3,p\mapsto \Psi_{t}(\Psi ^{-1}(p))$
 > 
 > Then, we can compute the normal vector field as: $$N:=\frac{X\times Y}{\left\| X\times Y\right\| }$$Now, we compute: $$\begin{align}D_{X}N(p)&=d_{p}N(\Psi_{r}(\Psi ^{-1}(p)))=\left. \frac{ \partial  }{ \partial r } (N\circ \Psi) \right| _{\Psi ^{-1}(p)}\\&=\left. \frac{ \partial  }{ \partial r } \left( \frac{\Psi_{r}\times \Psi_{t}}{\left\| \Psi_{r}\times \Psi_{t} \right\| } \right)  \right| _{\Psi ^{-1}(p)}\\&=\left.\frac{\Psi_{rr}\times \Psi_{t}+\Psi_{r}\times \Psi_{tr} }{\left\| \Psi_{r}\times \Psi_{t} \right\|}-\frac{(\Psi_{r}\times \Psi_{t})\frac{d}{dr}\left\| \Psi_{r}\times \Psi _{t} \right\|}{\left\| \Psi_{r}\times \Psi_{t} \right\| ^{2}}  \right|_{\Psi ^{-1}(p)} \end{align}$$Analogously, $$D_{Y}N(p)=\left.\frac{\Psi_{rt}\times \Psi_{t}+\Psi_{r}\times \Psi_{tt} }{\left\| \Psi_{r}\times \Psi_{t} \right\|}-\frac{(\Psi_{r}\times \Psi_{t})\frac{d}{dt}\left\| \Psi_{r}\times \Psi _{t} \right\|}{\left\| \Psi_{r}\times \Psi_{t} \right\| ^{2}}  \right|_{\Psi ^{-1}(p)} $$Then, 
 > 1. We have:$$\begin{align}A_{p}(X_{p},X_{p})=-\braket{ D_{X}N(p) , X_{p} } &=-\left\langle\frac{\Psi_{rr}\times \Psi_{t}+\Psi_{r}\times \Psi_{tr} }{\left\| \Psi_{r}\times \Psi_{t} \right\|},\Psi_{r}\right\rangle_{\Psi ^{-1}(p)}\\&=-\frac{\braket{ \Psi_{rr}\times \Psi_{t} , \Psi_{r} }}{\left\| \Psi_{r}\times \Psi_{t} \right\| }\\&= \frac{\braket{ \Psi_{rr} ,\Psi_{r}\times \Psi _{t}  } }{\left\| \Psi_{r}\times \Psi_{t} \right\| }\\&=\braket{ \Psi_{rr} , N } \end{align}$$
@@ -135,6 +138,11 @@
 > 3. Lastly,
 >    $$\begin{align}A(Y,Y)=-\braket{ D_{Y}N , Y } &=-\left\langle\frac{\Psi_{rt}\times \Psi_{t}+\Psi_{r}\times \Psi_{tt} }{\left\| \Psi_{r}\times \Psi_{t} \right\|},\Psi_{t}\right\rangle\\&=-\frac{\left\langle\Psi_{r}\times \Psi_{tt},\Psi_{t}\right\rangle}{\left\| \Psi_{r}\times \Psi_{t} \right\|}\\&=\frac{\left\langle\Psi_{tt},\Psi_{r}\times\Psi_{t}\right\rangle}{\left\| \Psi_{r}\times \Psi_{t} \right\|}\\&=\braket{ \Psi_{tt} , N } \end{align}$$
 >    
->  Therefore, we have that: $$A=\begin{bmatrix}\braket{ \Psi_{rr} , N }&\braket{ \Psi_{tr} , N } \\\braket{ \Psi_{tr} , N }&\braket{ \Psi_{tt} , N }\end{bmatrix}$$in the basis $X,Y$. 
+>  Therefore, we have that: $$A=\begin{bmatrix}\braket{ \Psi_{rr} , N }&\braket{ \Psi_{tr} , N } \\\braket{ \Psi_{tr} , N }&\braket{ \Psi_{tt} , N }\end{bmatrix}$$in the basis $X,Y$ with 
+>  1. $X:H_{b}\to \mathbb{R}^3,(r\cos t,r\sin t,mt)\mapsto(\cos t,\sin t,0)$
+> 2. $Y:H_{b}\to \mathbb{R}^3,(r\cos t,r\sin t,mt)\mapsto(-r\sin t,r\cos t,m)$
+> 
+> and $$N(r\cos t,r\sin t,mt)=\frac{(m\sin t,-m\cos t,r)}{\sqrt{ m^{2}+r^{2} }}$$
+> Therefore, $$A=\begin{bmatrix}0&-\frac{m}{{ m^2+r^2 }}\\-\frac{m}{{ m^2+r^2 }}&0\end{bmatrix}$$and $H=\text{tr}(A)=0$ and $K=\det(A)=-\frac{m^{2}}{{ (m^2+r^2 )^{2}}}$ with $-k_{1}=k_{2}=\frac{m}{r^2+m^2}$.
 ---
 
