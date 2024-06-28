@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Directional Derivative.md",
+                "file": "Differential Geometry/Derivation.md",
                 "mode": "preview",
                 "source": false
               }
@@ -277,13 +277,13 @@
   },
   "active": "cc53b09630a0dd64",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Tangent Space III.md",
-    "Analysis/Directional Derivative.md",
     "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Tangent Space III.md",
     "Differential Geometry/Tangent Space II.md",
-    "Differential Geometry/Smooth Curve.md",
     "Differential Geometry/Derivation.md",
+    "Differential Geometry/Differential.md",
+    "Analysis/Directional Derivative.md",
+    "Differential Geometry/Smooth Curve.md",
     "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Open Equivalence Relation.md",
