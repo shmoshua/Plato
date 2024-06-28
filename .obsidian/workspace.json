@@ -37,13 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Open Equivalence Relation.md",
+                "file": "Measure Theory/Diffeomorphism.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -68,18 +69,6 @@
               "type": "markdown",
               "state": {
                 "file": "Differential Geometry/Smooth Function.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ecd2c8af0c1d2c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Atlas.md",
                 "mode": "preview",
                 "source": false
               }
@@ -152,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Measure Theory/Diffeomorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Measure Theory/Diffeomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md"
+                "file": "Measure Theory/Diffeomorphism.md"
               }
             }
           }
@@ -214,16 +203,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "20cdf9a6d9e41692",
+  "active": "630f150097e92dd1",
   "lastOpenFiles": [
+    "Differential Geometry/Smooth Function.md",
+    "Measure Theory/Diffeomorphism.md",
+    "Differential Geometry/Open Equivalence Relation.md",
+    "Topology/Continuous Function.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Atlas.md",
     "Differential Geometry/Smooth Atlas.md",
-    "Differential Geometry/Smooth Function.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Smooth Manifold.md",
-    "Topology/Continuous Function.md",
     "Differential Geometry/Grassmannian.md",
-    "Differential Geometry/Open Equivalence Relation.md",
     "Differential Geometry/Euler Characteristic.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Extrinsic Curvature.md",
@@ -241,7 +231,6 @@
     "Differential Geometry/Lie Bracket.md",
     "Controls/Ordinary Differential Equation.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Functional Analysis/C*-Algebra.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
