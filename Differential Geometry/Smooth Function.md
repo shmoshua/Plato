@@ -2,7 +2,7 @@
 
 > [!definition]
 > Let $M,N$ be [[Smooth Manifold|smooth manifolds]]. A map $f:M\to N$ is 
-> 1. $C^k$ or ***$k$-times continuously differentiable***, if for any chart $(U,\varphi)$ in $M$ and $(V,\psi)$ in $N$, $$\psi f\varphi ^{-1}:\varphi(U)\to \psi(V)\in C^k(\mathbb{R}^m,\mathbb{R}^n)$$
+> 1. $C^k$ or ***$k$-times continuously differentiable***, if for any chart $(U,\varphi)$ in $M$ and $(V,\psi)$ in $N$ with $f(U)\subseteq V$, $$\psi f\varphi ^{-1}:\varphi(U)\to \psi(V)\in C^k(\mathbb{R}^m,\mathbb{R}^n)$$
 > 2. $C^\infty$ or ***smooth***, if $f\in C^k$ for all $k\geq 1$.
 - **Related definition**: Let $M,N$ be compact, connected and [[Orientable Manifold|oriented]] with dimension $m$. Then, for a smooth function $F:N\to M$, the ***degree*** of $F$, $\deg(F)\in \mathbb{R}$ is the unique real number s.t. $$\begin{CD}\text{H}_{\text{dR}}^m(M) @>F^{*}>> \text{H}_{\text{dR}}^m(N)\\@VIVV&@VIVV&\\\mathbb{R} @> x\mapsto \text{deg}F\cdot x> > \mathbb{R}\end{CD}$$commutes.
 ---
