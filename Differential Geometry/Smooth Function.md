@@ -7,19 +7,16 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1 
-> Let $M,N,L$ be smooth manifolds and $f:M\to N$ and $g:N\to L$. Then, 
+> Let $M,N,L$ be smooth manifolds and continuous maps $f:M\to N$ and $g:N\to L$. Then, 
 > 1. $f$ is smooth if and only if for any $p\in M$, there exists a chart $(U,\varphi)$ in $M$ and $(V,\psi)$ in $N$ with $f(U)\subseteq V$ s.t. $\psi f\varphi ^{-1}$ is smooth.
 > 2. if $f,g$ are smooth, $g\circ f:M\to L$ is smooth.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $(V,\psi)$ be an atlas of $N$ s.t. $f(p)\in V$. Then, by continuity, $f^{-1}(V)$ is open in $M$. Hence, by maximality, there exists a chart $(U,\varphi)$ s.t. $p\in U\subseteq f^{-1}(V)$. Therefore,$f(U)\subseteq V$ and by the assumption, $\psi f\varphi ^{-1}$ is smooth.
 >    
->    Let $(U,\varphi)$ and $(V,\psi)$ be charts at $M$ and $N$ respectively s.t. $f(U)\subseteq V$. For $p\in M$, let $(U_{p},\varphi_{p})$ and $(V_{p},\psi_{p})$ be the charts given by the assumption. Then, we will show that $\psi f\varphi ^{-1}$ is smooth. we see that $(U\cap U_{\alpha})$ forms a covering of $U$ where $U\cap U_{\alpha}$ are open in $M$. Therefore, $(\varphi(U\cap U_{\alpha}))_{\alpha}$ is an open covering of $\varphi(U)$. Therefore, $$\psi f\varphi ^{-1}|_{\varphi(U\cap U_{\alpha})}=\psi\psi_{\alpha}^{-1}\underbrace{ \psi_{\alpha}f\varphi_{\alpha}^{-1} }_{ \in C^\infty } \varphi_{\alpha} \varphi ^{-1}|_{\varphi(U\cap U_{\alpha})}$$
->    
->    If $f$ is smooth, 
-> 
-> Let $p\in M$ and $(U,x)$ a chart on $M$ containing $p$. Further, let $(V,y)$ be a chart on $N$ containing $\varphi(p)$ and $(W,z)$ a chart on $L$ containing $\psi(\varphi(p))$.  Then, $$z\circ (\psi \circ \varphi)\circ x^{-1}=(z\circ \psi \circ y^{-1})\circ (y\circ \varphi \circ x^{-1})$$which is a composition of two smooth functions in Euclidean space, which is smooth.
+>    Let $(U,\varphi)$ and $(V,\psi)$ be charts at $M$ and $N$ respectively s.t. $f(U)\subseteq V$. For $p\in M$, let $(U_{p},\varphi_{p})$ and $(V_{p},\psi_{p})$ be the charts given by the assumption. Then, we will show that $\psi f\varphi ^{-1}$ is smooth. we see that $(U\cap U_{\alpha})$ forms a covering of $U$ where $U\cap U_{\alpha}$ are open in $M$. Therefore, $(\varphi(U\cap U_{\alpha}))_{\alpha}$ is an open covering of $\varphi(U)$. Therefore, $$\psi f\varphi ^{-1}|_{\varphi(U\cap U_{\alpha})}=\underbrace{ \psi\psi_{\alpha}^{-1} }_{ \in C^\infty }\underbrace{ \psi_{\alpha}f\varphi_{\alpha}^{-1} }_{ \in C^\infty } \underbrace{ \varphi_{\alpha} \varphi ^{-1}|_{\varphi(U\cap U_{\alpha})} }_{ \in C^\infty }$$This proves the statement.
+> 2. Let $p\in M$. Pick a chart $(W,\chi)$ of $L$ containing $gf(p)$ and by maximality, we have a chart $(V,\psi)$ of $N$ with $g(V)\subseteq W$ and $(U,\varphi)$ of $M$ with $f(U)\subseteq V$. Then, $$\chi gf\varphi ^{-1}=\underbrace{ \chi g\psi ^{-1} }_{ \in C^\infty }\underbrace{ \psi f\varphi ^{-1} }_{ \in C^\infty }$$Hence, by 1, we have that $g\circ f$ is smooth.
 ---
 > [!lemma] Lemma 2
 > Let $M,N$ be compact [[Smooth Manifold|smooth manifolds]] of dimension $m$ and $F:M\to N$ a smooth map. Further, let $q\in F(M)$ be [[Rank|regular]]. Then, 
