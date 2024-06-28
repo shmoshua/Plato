@@ -1,8 +1,10 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M$ be a [[smooth manifold]]. For $p\in M$, the ***tangent space*** is defined as: $$\text{T}_{p}M=\{ [U,\varphi,v]:(U,\varphi) \text{ chart at }p, v\in \mathbb{R}^m \}_{/\sim}$$where $[U,\varphi ,v]\sim[W,\psi,v']\iff d_{\varphi(p)}(\psi \circ\varphi ^{-1})v=v'$. Denote the equivalence class with $[U,\varphi,v]_{p}$. 
-
+> Let $M$ be a [[smooth manifold]]. For $p\in M$, the ***tangent space*** $\text{T}_{p}M$ is defined as: 
+> 1. $\{ (U,\varphi,v):(U,\varphi)\text{ chart containing }p,v\in \mathbb{R}^m \}_{/\sim}$ where $(U,\varphi,v)\sim(V,\psi,w)$ if and only if $d_{\varphi(p)}(\psi\varphi ^{-1})v=w$.
+> 2. $\left\{  v:C^\infty(M)\to \mathbb{R}| \exists \gamma:(-\varepsilon,\varepsilon)\to M\text{ smooth curve s.t. }vf=\left. \frac{d}{dt} \right|_{0}f(\gamma(t))  \right\}$
+> 3. $\{ v\in C_{p}^\infty(M)^{*}:v(fg)=f(p)v(g)+v(f)g(p) \}$ where $C_{p}^\infty(M)$ is the [[Ring of Germs|ring of germs]] at $p$.
 - **Remark**: If $\gamma:(-1,1)\to M$ smooth with $\gamma(0)=p$. Then, $\gamma'(0):=\left[ \varphi, \left. \frac{d}{dt}\varphi(\gamma(t)) \right|_{t=0} \right]_{p}\in T_{p}M$.
 - **Related definition**: For $v=[\varphi,w]_{p}\in \text{T}_{p}M$, the ***directional derivative***  is defined as: $$\begin{array}{cccc} {\delta_{v}:}&{C^\infty(M)}&\to&{\mathbb{R}}\\&{f} &\mapsto & {d_{p}f(v)} \end{array}{}$$ or equivalently, $\delta_{v}(f)=\left. \frac{d}{dt}(f\circ \varphi ^{-1})(\varphi(p)+tw) \right|_{t=0}$ by $\gamma:(-1,1)\to \mathbb{R}^m,t\mapsto \varphi(p)+tw$. 
 - **Remark**: Due to the isomorphism $\text{T}_{p}M\ni v\mapsto \delta_{v}\in \text{Der}_{p}C^\infty(M)$ (cf. [[Derivation|Theorem 3]]), one also denotes $vf:=\delta_{v}f$. Then, we use $\delta_{v}\ \tilde{\in}\ \text{T}_{p}M$.
@@ -10,6 +12,14 @@
 	where $v^i\in \mathbb{R}$ are called the ***coefficients*** of $v$ in chart $\varphi$.
 ---
 ##### Properties
+> [!lemma] Theorem 1 (Tangent Space is a Vector Space)
+> 
+
+---
+> [!lemma] Theorem 2 (Equivalent Definitions of Tangent Space)
+> We have: 
+> 1. 
+
 > [!lemma] Lemma 1
 > The relation $\sim$ is an equivalence relation.
 
