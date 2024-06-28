@@ -1,16 +1,24 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M,N$ be [[Smooth Manifold|smooth manifolds]]. A map $f:M\to N$ is 
-> 1. $C^k$ or ***$k$-times continuously differentiable***, if for any chart $(U,\varphi)$ in $M$ and $(V,\psi)$ in $N$ with $f(U)\subseteq V$, $$\psi f\varphi ^{-1}:\varphi(U)\to \psi(V)\in C^k(\mathbb{R}^m,\mathbb{R}^n)$$
-> 2. $C^\infty$ or ***smooth***, if $f\in C^k$ for all $k\geq 1$.
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]]. A continuous map $f:M\to N$ is:
+> 1.  ***smooth***, i.e. $f\in C^\infty(M,N)$ if for every chart $(U,\varphi)$ of $M$ and $(V,\psi)$ of $N$ s.t. $f(U)\subseteq V$, $$\psi f\varphi ^{-1}:\varphi(U)\to \psi(V)\in C^\infty(\mathbb{R}^m,\mathbb{R}^n)$$
 - **Related definition**: Let $M,N$ be compact, connected and [[Orientable Manifold|oriented]] with dimension $m$. Then, for a smooth function $F:N\to M$, the ***degree*** of $F$, $\deg(F)\in \mathbb{R}$ is the unique real number s.t. $$\begin{CD}\text{H}_{\text{dR}}^m(M) @>F^{*}>> \text{H}_{\text{dR}}^m(N)\\@VIVV&@VIVV&\\\mathbb{R} @> x\mapsto \text{deg}F\cdot x> > \mathbb{R}\end{CD}$$commutes.
 ---
 ##### Properties
-> [!lemma] Lemma 1
-> Let $M,N,L$ be smooth manifolds and $\varphi:M\to N$ and $\psi:N\to L$ be smooth maps. Then, $$\psi \circ \varphi:M\to L$$ is smooth.
+> [!lemma] Lemma 1 
+> Let $M,N,L$ be smooth manifolds and $f:M\to N$ and $g:N\to L$. Then, 
+> 1. $f$ is smooth if and only if for any $p\in M$, there exists a chart $(U,\varphi)$ in $M$ and $(V,\psi)$ in $N$ with $f(U)\subseteq V$ s.t. $\psi f\varphi ^{-1}$ is smooth.
+> 2. if $f,g$ are smooth, $g\circ f:M\to L$ is smooth.
 
-> [!proof]-
+> [!proof]+
+> We have:
+> 1. Let $(V,\psi)$ be an atlas of $N$ s.t. $f(p)\in V$. Then, by continuity, $f^{-1}(V)$ is open in $M$. Hence, by maximality, there exists a chart $(U,\varphi)$ s.t. $p\in U\subseteq f^{-1}(V)$. Therefore,$f(U)\subseteq V$ and by the assumption, $\psi f\varphi ^{-1}$ is smooth.
+>    
+>    Let $(U,\varphi)$ and $(V,\psi)$ be charts at $M$ and $N$ respectively s.t. $f(U)\subseteq V$. For $p\in M$, let $(U_{p},\varphi_{p})$ and $(V_{p},\psi_{p})$ be the charts given by the assumption. Then, we will show that $\psi f\varphi ^{-1}$ is smooth. we see that $(U\cap U_{\alpha})$ forms a covering of $U$ where $U\cap U_{\alpha}$ are open in $M$. Therefore, $(\varphi(U\cap U_{\alpha}))_{\alpha}$ is an open covering of $\varphi(U)$. Therefore, $$\psi f\varphi ^{-1}|_{\varphi(U\cap U_{\alpha})}=\psi\psi_{\alpha}^{-1}\underbrace{ \psi_{\alpha}f\varphi_{\alpha}^{-1} }_{ \in C^\infty } \varphi_{\alpha} \varphi ^{-1}|_{\varphi(U\cap U_{\alpha})}$$
+>    
+>    If $f$ is smooth, 
+> 
 > Let $p\in M$ and $(U,x)$ a chart on $M$ containing $p$. Further, let $(V,y)$ be a chart on $N$ containing $\varphi(p)$ and $(W,z)$ a chart on $L$ containing $\psi(\varphi(p))$.  Then, $$z\circ (\psi \circ \varphi)\circ x^{-1}=(z\circ \psi \circ y^{-1})\circ (y\circ \varphi \circ x^{-1})$$which is a composition of two smooth functions in Euclidean space, which is smooth.
 ---
 > [!lemma] Lemma 2

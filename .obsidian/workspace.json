@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Atlas.md",
+                "file": "Differential Geometry/Atlas.md",
                 "mode": "preview",
                 "source": false
               }
@@ -214,14 +214,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "20cdf9a6d9e41692",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Smooth Function.md",
-    "Topology/Continuous Function.md",
     "Differential Geometry/Atlas.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Smooth Atlas.md",
+    "Differential Geometry/Smooth Function.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Topology/Continuous Function.md",
     "Differential Geometry/Grassmannian.md",
     "Differential Geometry/Open Equivalence Relation.md",
     "Differential Geometry/Euler Characteristic.md",
