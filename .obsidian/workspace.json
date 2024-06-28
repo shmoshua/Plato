@@ -121,6 +121,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8105fa7538a9717c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Directional Derivative.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "019afc06ab0d57a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Differential.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -253,9 +277,11 @@
   },
   "active": "cc53b09630a0dd64",
   "lastOpenFiles": [
-    "Differential Geometry/Tangent Space II.md",
-    "Differential Geometry/Tangent Space III.md",
     "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Tangent Space II.md",
+    "Differential Geometry/Differential.md",
+    "Analysis/Directional Derivative.md",
+    "Differential Geometry/Tangent Space III.md",
     "Differential Geometry/Smooth Curve.md",
     "Differential Geometry/Derivation.md",
     "Measure Theory/Diffeomorphism.md",
@@ -275,8 +301,6 @@
     "Differential Geometry/Isometry.md",
     "Differential Geometry/Surface.md",
     "Differential Geometry/Intrinsic Metric.md",
-    "Analysis/Directional Derivative.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Riemannian Metric.md",
     "Differential Geometry/Vector Field.md",
     "Complex Analysis",
