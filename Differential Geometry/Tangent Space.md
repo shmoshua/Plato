@@ -26,15 +26,15 @@
 > [!proof]-
 > We have that: $$v(1)=v(1\cdot 1)=v(1)+v(1)=2v(1)$$Therefore, $v(1)=0$ and hence $v(c)=c\cdot v(1)=0$.
 ---
-> [!lemma] Lemma 3
+> [!lemma] Lemma 3 (Change of Basis and Coordinates)
 > Let $(U,\varphi)$ and $(V,\psi)$ be two charts of $M$ at $p$ with coordinates $x^i$ and $y^j$ respectively. Then, 
 > 1. Basis change: $\left. \frac{ \partial  }{ \partial y^i }  \right|_{p}=\sum_{j=1}^{m}\left. \frac{ \partial x^j }{ \partial y^i }  \right|_{p}\left. \frac{ \partial  }{ \partial x^j }  \right| _{p}$.
-> 2. Coordinate change: for $v=v^i\left. \frac{ \partial  }{ \partial x^i } \right|_{p}=w^j\left. \frac{ \partial  }{ \partial y^j } \right|_{p}$, we have: $$v^j=$$
+> 2. Coordinate change: for $v=v^i\left. \frac{ \partial  }{ \partial x^i } \right|_{p}=w^j\left. \frac{ \partial  }{ \partial y^j } \right|_{p}$, we have: $$v^j=\sum_{i=1}^{m}\left. \frac{ \partial x^j }{ \partial y^i } \right| _{p}w^i$$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. $$\begin{align}\left. \frac{ \partial f }{ \partial y^i }  \right| _{p}&=\left. \frac{ \partial f\circ \psi ^{-1} }{ \partial \pi^i }  \right|_{\psi(p)}=\left. \frac{ \partial f\circ\varphi ^{-1}\circ \varphi \circ \psi ^{-1} }{ \partial \pi^i }  \right|_{\psi(p)} \\&=\sum_{j=1}^{m}\left. \frac{ \partial f\circ \varphi ^{-1} }{ \partial \pi^j } \right| _{\varphi(p)}\left. \frac{ \partial x^j\circ \psi ^{-1} }{ \partial \pi^i }  \right|_{\psi(p)}\\&=\sum_{j=1}^{m}\left. \frac{ \partial x^j }{ \partial y^i }  \right|_{p}\left. \frac{ \partial f}{ \partial x^j } \right| _{p}\end{align}  $$
-> 2. Further, $$\sum_{i=1}^{m}w^i\left. \frac{ \partial  }{ \partial y^i } \right| _{p} =\sum_{i=1}^{m}\sum_{j=1}^{m}w^i\left. \frac{ \partial x^j }{ \partial y^i } \right| _{p}\left. \frac{ \partial  }{ \partial x^j }  \right| _{p}= $$
+> 2. Further, $$\sum_{i=1}^{m}w^i\left. \frac{ \partial  }{ \partial y^i } \right| _{p} =\sum_{i=1}^{m}\sum_{j=1}^{m}w^i\left. \frac{ \partial x^j }{ \partial y^i } \right| _{p}\left. \frac{ \partial  }{ \partial x^j }  \right| _{p}=\sum_{j=1}^{m}\left( \sum_{i=1}^{m}\left. \frac{ \partial x^j }{ \partial y^i } \right| _{p}w^i \right)\left. \frac{ \partial  }{ \partial x^j }  \right| _{p} $$
 ---
 > [!lemma] Theorem 4 (Equivalent Definitions of Tangent Space)
 > We have that:
