@@ -1,9 +1,9 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $F\in C^\infty(M,N)$ be a [[differentiable function|smooth function]]. 
-> 1. The ***differential of $F$ at $p$*** is:$$\begin{array}{cccc} {d_{p}F:}&{\text{T}_{p}M}&\to&{\text{T}_{F(p)}N}\\&{v} &\mapsto & {(g\mapsto v(g\circ F))} \end{array}{}$$
-> 2. The ***differential of $F$*** is then: $$dF:\text{T}M\to \text{T}N,\quad (p,v)\mapsto d_{p}F(v)$$
+> Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $f\in C^\infty(M,N)$ be a [[differentiable function|smooth function]]. 
+> 1. The ***differential of $f$ at $p$*** is:$$\begin{array}{cccc} {d_{p}f:}&{\text{T}_{p}M}&\to&{\text{T}_{F(p)}N}\\&{v} &\mapsto & {(g\mapsto v(g\circ f))} \end{array}{}$$
+> 2. The ***differential of $f$*** is then: $$dF:\text{T}M\to \text{T}N,\quad (p,v)\mapsto d_{p}f(v)$$
 - **Remark**: given $f\in C^\infty(\mathbb{R}^n,\mathbb{R})$, the differential at $x$ is defined as: $$d_{x}f=df(x):\mathbb{R}^n\to \mathbb{R},v\mapsto  \left. \frac{ \partial f }{ \partial x^i }  \right| _{x}v^i$$
 - **Remark**: given $f\in C^\infty(M)$, the differential at $p$ is defined as $$\begin{array}{cccc} {d_{p}f:}&{\text{T}_{p}M}&\to&{\mathbb{R}}\\&{v} &\mapsto & {v(f)\left. \frac{d}{dt} \right| _{f(p)}} \end{array}{}$$
 - **Related definition**: $F$ is an ***immersion***, if $d_{p}F$ is injective for all $p\in M$.

@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,8 +92,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
-                "mode": "source",
+                "file": "Differential Geometry/Tangent Space.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Differential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Differential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md"
+                "file": "Differential Geometry/Differential.md"
               }
             }
           }
@@ -253,14 +253,14 @@
   },
   "active": "20cdf9a6d9e41692",
   "lastOpenFiles": [
-    "Differential Geometry/Tangent Bundle.md",
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Tangent Space II.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Differential Geometry/Differential.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Derivation.md",
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Differential.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Tangent Space II.md",
+    "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Tangent Space III.md",
     "Differential Geometry/Smooth Function.md",
     "Lie Group/Ring of Germs.md",
