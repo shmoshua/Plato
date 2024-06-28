@@ -26,7 +26,17 @@
 > [!proof]-
 > We have that: $$v(1)=v(1\cdot 1)=v(1)+v(1)=2v(1)$$Therefore, $v(1)=0$ and hence $v(c)=c\cdot v(1)=0$.
 ---
-> [!lemma] Theorem 3 (Equivalent Definitions of Tangent Space)
+> [!lemma] Lemma 3
+> Let $(U,\varphi)$ and $(V,\psi)$ be two charts of $M$ at $p$ with coordinates $x^i$ and $y^j$ respectively. Then, 
+> 1. Basis change: $\left. \frac{ \partial  }{ \partial y^i }  \right|_{p}=\sum_{j=1}^{m}\left. \frac{ \partial x^j }{ \partial y^i }  \right|_{p}\left. \frac{ \partial  }{ \partial x^j }  \right| _{p}$.
+> 2. Coordinate change: for $v=v^i\left. \frac{ \partial  }{ \partial x^i } \right|_{p}=w^j\left. \frac{ \partial  }{ \partial y^j } \right|_{p}$, we have: $$v^j=$$
+
+> [!proof]+
+> We have:
+> 1. $$\begin{align}\left. \frac{ \partial f }{ \partial y^i }  \right| _{p}&=\left. \frac{ \partial f\circ \psi ^{-1} }{ \partial \pi^i }  \right|_{\psi(p)}=\left. \frac{ \partial f\circ\varphi ^{-1}\circ \varphi \circ \psi ^{-1} }{ \partial \pi^i }  \right|_{\psi(p)} \\&=\sum_{j=1}^{m}\left. \frac{ \partial f\circ \varphi ^{-1} }{ \partial \pi^j } \right| _{\varphi(p)}\left. \frac{ \partial x^j\circ \psi ^{-1} }{ \partial \pi^i }  \right|_{\psi(p)}\\&=\sum_{j=1}^{m}\left. \frac{ \partial x^j }{ \partial y^i }  \right|_{p}\left. \frac{ \partial f}{ \partial x^j } \right| _{p}\end{align}  $$
+> 2. Further, $$\sum_{i=1}^{m}w^i\left. \frac{ \partial  }{ \partial y^i } \right| _{p} =\sum_{i=1}^{m}\sum_{j=1}^{m}w^i\left. \frac{ \partial x^j }{ \partial y^i } \right| _{p}\left. \frac{ \partial  }{ \partial x^j }  \right| _{p}= $$
+---
+> [!lemma] Theorem 4 (Equivalent Definitions of Tangent Space)
 > We have that:
 > 1. the map:$$\begin{array}{cccc} &{\{ (U,\varphi,v):(U,\varphi)\text{ chart containing }p,v\in \mathbb{R}^m \}_{/\sim}}&\to&{\text{T}_{p}M}\\&{(U,\varphi,v)} &\mapsto & {v^i\left. \frac{ \partial }{ \partial x^i }  \right|_{p} } \end{array}{}$$is a vector space isomorphism, where $\varphi=(x^1,\dots,x^m)$ and $(U,\varphi,v)\sim(V,\psi,w)$ if and only if $d_{\varphi(p)}(\psi\varphi ^{-1})v=w$.
 > 2. $\text{T}_{p}M= \text{Der}_{p}C^\infty(M):=\{ v\in C_{p}^\infty(M)^{*}:v(fg)=f(p)v(g)+v(f)g(p) \}$ where $C_{p}^\infty(M)$ is the [[Ring of Germs|ring of germs]] at $p$.
@@ -50,7 +60,7 @@
 > 	
 >    Finally, as $\alpha(c)=v((c\cdot\beta) \circ\varphi)=0$ from Lemma 2 for any constant $c$, $$\alpha(F)=\sum_{i=1}^{m}\alpha(x\mapsto x^i-\varphi(p)^i)G_{i}(\varphi(p))=\sum_{i=1}^{m}\underbrace{ \alpha(x\mapsto x^i-\varphi(p)^i) }_{ =:v^i }\left. \frac{ \partial F }{ \partial \pi^i }  \right|_{\varphi(p)} $$We can conclude that: $$v(f)=v(((f\circ \varphi ^{-1})\cdot \beta)\circ \varphi)=\alpha(f\circ \varphi ^{-1})=\sum_{i=1}^{m}v^i \left. \frac{ \partial f\circ \varphi ^{-1} }{ \partial \pi^i }  \right| _{\varphi(p)}=\sum_{i=1}^{m}v^i \left. \frac{ \partial  }{ \partial x^i }  \right| _{p}f$$This proves the statement.
 ---
-> [!lemma] Proposition 4 (Tangent Space as Covector Space)
+> [!lemma] Proposition 5 (Tangent Space as Covector Space)
 > Let $I_{p}:=\{ f\in C_{p}^\infty(M):f(p)=0 \}$ be the ideal. Then,
 > 1. $\text{T}_{p}M\cong (I_{p}/ I_{p}^{2})^{*}$
 
