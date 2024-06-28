@@ -7,7 +7,7 @@
 - **Remark**: given $f\in C^\infty(\mathbb{R}^n,\mathbb{R})$, the differential at $x$ is defined as: $$d_{x}f=df(x):\mathbb{R}^n\to \mathbb{R},v\mapsto  \left. \frac{ \partial f }{ \partial x^i }  \right| _{x}v^i$$
 - **Remark**: given $f\in C^\infty(M)$, the differential at $p$ is defined as $$\begin{array}{cccc} {d_{p}f:}&{\text{T}_{p}M}&\to&{\mathbb{R}}\\&{v} &\mapsto & {v(f)\left. \frac{d}{dt} \right| _{f(p)}} \end{array}{}$$
 - **Related definition**: $F$ is an ***immersion***, if $d_{p}F$ is injective for all $p\in M$.
-- **Related definition**: For $(U,x^j)$ and $(V,y^i)$ charts at $p$ and $F(p)$ respectively, by [[Tangent Space II|Proposition 2.3]]$$d_{p}F\left( \left. \frac{ \partial  }{ \partial x^j }  \right|_{p}  \right) =\sum_{i=1}^{n}\left. \frac{ \partial (y^i\circ F) }{ \partial x^j } \right| _{p}\left. \frac{ \partial  }{ \partial y^i }  \right|_{F(p)}  $$Then, $\{ \partial(y_{i}\circ F) / \partial x^j \}$ is called the ***Jacobian*** of $F$.
+- **Related definition**: For $(U,x^j)$ and $(V,y^i)$ charts at $p$ and $F(p)$ respectively,$$d_{p}F\left( \left. \frac{ \partial  }{ \partial x^j }  \right|_{p}  \right) =\sum_{i=1}^{n}\left. \frac{ \partial (y^i\circ F) }{ \partial x^j } \right| _{p}\left. \frac{ \partial  }{ \partial y^i }  \right|_{F(p)}  $$Then, $\{ \partial(y_{i}\circ F) / \partial x^j \}$ is called the ***Jacobian*** of $F$.
 - **Related definition**: For $F\in C^\infty(M,N)$, the ***dual map*** is defined as: $$\begin{array}{cccc} {\delta f:}&{\text{T}^{*}_{F(p)}N}&\to&{\text{T}^{*}_{p}M}\\&{\omega} &\mapsto & {\omega \circ d_{p}f} \end{array}{}$$
 ---
 ##### Properties
