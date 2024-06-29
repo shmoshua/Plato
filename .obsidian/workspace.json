@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -254,21 +254,21 @@
   "active": "20cdf9a6d9e41692",
   "lastOpenFiles": [
     "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Smooth Atlas.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Smooth Function.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Tangent Bundle.md",
-    "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Derivation.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Topological Space.md",
     "Topology/Product Topology.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Tangent Space III.md",
-    "Differential Geometry/Smooth Function.md",
     "Lie Group/Ring of Germs.md",
     "Differential Geometry/Partition of Unity.md",
     "Analysis/Directional Derivative.md",

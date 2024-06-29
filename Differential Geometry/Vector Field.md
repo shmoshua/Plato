@@ -17,11 +17,11 @@
 > 2. For $(U,\varphi)$ chart at $p\in M$ with $x^1,\dots,x^m$ coordinate functions, $$X|_{U}=X^i\cdot \frac{ \partial  }{ \partial x^i } $$where $X^i\in C^\infty(U)$.
 > 3. For $V\subseteq M$ open and $f\in C^\infty(V)$, $X(f)\in C^\infty(V)$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. (1=>2): If $X$ is smooth, then $X|_{U}$ is smooth. Therefore, for any $p\in U$, $$dx^i(X_{p})=X^j(p) \left. \frac{ \partial x^i }{ \partial x^j } \right| _{p}=X^j(p)\delta_{j}^i=X^i(p) $$Hence, $dx^i\circ X|_{U}=X^i$ which is smooth.
 > 2. (2=>3): Let $(U,\varphi)$ be a chart s.t. $U\subseteq V$. Then, $$X(f)|_{U}=X^i\cdot \frac{ \partial f }{ \partial x^i } $$Therefore, $X(f)|_{U}$ is a smooth function and $X(f)\in C^\infty(V)$.
-> 3. (3=>1): It suffices to show that $X|_{U}$ is smooth for any chart $(U,\varphi)$ and $p\in U$,$$d\varphi(X_{p})=(p,X_{p}(x^i))$$Therefore, $d\varphi \circ X|_{U}=(\varphi,X(x^i))$ which is smooth and $X|_{U}$ is smooth.
+> 3. (3=>1): It suffices to show that $X|_{U}$ is smooth for any chart $(U,\varphi)$ and $p\in U$,$$dx^i(X_{p})=(x^i(p),X_{p}(x^i))$$Therefore, $dx^i \circ X|_{U}=(x^i,X(x^i))$ which is smooth and $X|_{U}$ is smooth.
 > 
 ---
 ![[Derivation#^5fac5a|hihi]]
