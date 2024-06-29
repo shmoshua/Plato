@@ -60,4 +60,6 @@
 ##### Non-Examples
 > [!h] Non-Example 1
 > We have that:
-> 1. A curve that 
+> 1. A curve that meets itself in an injective way is an injective immersion, but its image is not a regular submanifold.
+> 2. $\gamma:\mathbb{R}\to \mathbb{R}^2,t\mapsto(t^{2},t^{3})$ is injective but not a immersion as $\dot{\gamma}(0)=(0,0)$, which is not injective.
+> 3. The Klein bottle is immersed in $\mathbb{R}^3$, but not embedded in $\mathbb{R}^3$. However, by taking it to the new axis, it is embedded in $\mathbb{R}^4$.

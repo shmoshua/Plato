@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Topology/Covering Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Topology/Covering Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Submanifold.md"
+                "file": "Topology/Covering Space.md"
               }
             }
           }
@@ -287,17 +287,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9033abcc26984c70",
+  "active": "4db66045bdcf0af7",
   "lastOpenFiles": [
-    "Differential Geometry/Immersion and Submersion.md",
     "Differential Geometry/Submanifold.md",
-    "Differential Geometry/Local Diffeomorphism.md",
-    "Measure Theory/Diffeomorphism.md",
     "Topology/Covering Space.md",
+    "Differential Geometry/Local Diffeomorphism.md",
+    "Differential Geometry/Immersion and Submersion.md",
+    "Measure Theory/Diffeomorphism.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Bundle.md",
     "Topology/Local Homeomorphism.md",
     "Lie Group/Local Homomorphism.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Regular Curve in Rn.md",
