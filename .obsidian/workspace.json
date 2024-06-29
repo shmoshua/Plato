@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Differential Geometry/Regular Curve in Rn.md",
                 "mode": "preview",
                 "source": false
               }
@@ -134,8 +134,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Differential Geometry/Regular Curve in Rn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Differential Geometry/Regular Curve in Rn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Submanifold.md"
+                "file": "Differential Geometry/Regular Curve in Rn.md"
               }
             }
           }
@@ -263,17 +262,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "20cdf9a6d9e41692",
+  "active": "1d45af889d3c44b9",
   "lastOpenFiles": [
-    "Differential Geometry/Immersion and Submersion.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Immersion and Submersion.md",
     "Differential Geometry/Immersion and.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Function.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Topological Manifold.md",
