@@ -57,3 +57,7 @@
 >    To compute the rank, note that $d_{I}f:\text{M}_{n,n}(\mathbb{R})\to\text{M}_{n,n}(\mathbb{R})$ has image exactly the subspace of $\text{M}_{n,n}(\mathbb{R})$ consisting of all symmetric matrices. Since a symmetric matrix is determined by its upper triangle, the dimension of this space is $1+2+\dots+n=\frac{n(n+1)}{2}$. As a result, $\text{O}(n,\mathbb{R})$ is a regular submanifold of $\text{GL}(n,\mathbb{R})$ of dimension $n^2-\frac{n(n+1)}{2}=\frac{n(n-1)}{2}$.
 > 3. Let $n:=p+q$. Similarly, consider $f:\text{GL}(n,\mathbb{R})\to \text{M}_{n,n}(\mathbb{R}), A\mapsto A^\top\begin{bmatrix}-I_{p}&0\\0&I_{q}\end{bmatrix}A$. Then, $$\begin{align}d_{A}f(X)&= \left. \frac{d}{dt} \right| _{t=0}(A+tX)^\top\begin{bmatrix}-I_{p}&0\\0&I_{q}\end{bmatrix} (A+tX)\\&=A^\top \begin{bmatrix}-I_{p}&0\\0&I_{q}\end{bmatrix} X+X^\top\begin{bmatrix}-I_{p}&0\\0&I_{q}\end{bmatrix}A \end{align}$$In particular, $d_{A}f\left(\begin{bmatrix}-I_{p}&0\\0&I_{q}\end{bmatrix}A^{-\top}\right)=d_{I}f(X)$, we have as above that $f$ has constant rank.
 ---
+##### Non-Examples
+> [!h] Non-Example 1
+> We have that:
+> 1. A curve that 

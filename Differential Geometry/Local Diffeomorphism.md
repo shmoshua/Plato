@@ -14,13 +14,13 @@
 > We naturally have that $m=n$ as $d_{p}f$ is invertible. Choose chart $(U,\varphi)$ and $(V,\psi)$ at $p$ and $f(p)$ with $f(U)\subseteq V$. Let $x_{0}:=\varphi(p)$ and $y_{0}:=\psi(F(p))$. Then, we have that:  
 > $$d_{x_{0}}(\psi \circ F\circ \varphi ^{-1})=d_{F(p)}\psi\circ d_{p}F\circ d_{x_{0}}\varphi ^{-1}$$
 > is invertible at $x_{0}$. Therefore, by [[Smooth Function|Inverse Function Theorem]], there exists an open neighborhood $x_{0}\in \tilde{U}\subseteq\varphi(U)$ and a diffeomorphism $\alpha:\tilde{U}\to\alpha(\tilde{U})$. By setting $U:=\varphi ^{-1}(\tilde{U})$, we have that: $$f=\psi ^{-1}\circ  \alpha \circ \varphi$$is a diffeomorphism.
-- **Corollary**: $f\in C^\infty(M,N)$ is a local diffeomorphism if and only if $d_{p}F$ is invertible for all $p\in M$.
+- **Corollary**: $f \in C^\infty(M,N)$ is a local diffeomorphism if and only if $d_{p}f$ is an isomorphism for all $p\in M$.
 ---
 > [!lemma] Proposition 2 (Elementary Properties of Local Diffeomorphisms)
 > Let $M,N,P$ be smooth manifolds and $f,g:M\to N$, $h:N\to P$ be local diffeomorphisms. Then, 
 > 1. $h\circ f$ is a local diffeomorphism.
 > 2. $fg$ is a local diffeomorphism.
-> 3. $f$ is a local homeomorphism and open.
+> 3. $f$ is a [[local homeomorphism]] and open.
 > 7. for any $U\subseteq M$ open, $f|_{U}$ is a local diffeomorphism.
 > 8. a diffeomorphism $F:M\to N$ is a local diffeomorphism.
 > 9. if $f$ is bijective, $f$ is a diffeomorphism.

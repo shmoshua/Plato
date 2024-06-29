@@ -6,7 +6,8 @@
 - **Remark**: if $X,Y$ are [[Connected Space|connected spaces]], $f:Y\to X$ is a covering space only if it is a homeomorphism.
 - **Related definition**: for any $x\in X$, $f^{-1}(\{ x \})$ is called the ***fiber over $x$***, if the covering map $f$ identifies with $\text{pr}_{1}:U\times D\to U$ where $U\ni x$ is given as above, i.e. $f^{-1}(\{ x \})$ is in bijection with $D$.
 - **Related definition**: For $f_{1}:Y_{1}\to X$, $f_{2}:Y_{2}\to X$ covering spaces, a ***covering space morphism*** if a continuous map $\varphi:Y_{1}\to Y_{2}$ s.t. $f_{2}\circ\varphi=f_{1}$. If $\varphi$ is a homeomorphism, $\varphi$ is an ***isomorphism***.
-- **Related defintion**: $f:Y\to X$ is ***trivializable*** if there exists discrete $D\neq\varnothing$ s.t. $f$ is isomorphic to $X\times D\to X$.
+- **Related definition**: $f:Y\to X$ is ***trivializable*** if there exists discrete $D\neq\varnothing$ s.t. $f$ is isomorphic to $X\times D\to X$.
+- **Related definition**: A covering space $f:Y\to X$ is ***smooth*** if $\Phi$ is a [[diffeomorphism]].
 ---
 ##### Properties
 > [!lemma] Theorem 1
