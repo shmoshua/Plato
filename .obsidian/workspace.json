@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Bundle.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Bundle.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Cotangent Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Differential Geometry/Smooth Atlas.md",
                 "mode": "preview",
                 "source": false
               }
@@ -123,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential.md"
+                "file": "Differential Geometry/Vector Field.md"
               }
             }
           }
@@ -251,16 +251,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "630f150097e92dd1",
+  "active": "20cdf9a6d9e41692",
   "lastOpenFiles": [
+    "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Derivation.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Topology/Topological Space.md",
+    "Topology/Product Topology.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Tangent Space II.md",
-    "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Tangent Space III.md",
     "Differential Geometry/Smooth Function.md",
     "Lie Group/Ring of Germs.md",
@@ -271,14 +277,8 @@
     "Differential Geometry/Open Equivalence Relation.md",
     "Topology/Continuous Function.md",
     "Differential Geometry/Atlas.md",
-    "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Grassmannian.md",
-    "Differential Geometry/Euler Characteristic.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Extrinsic Curvature.md",
-    "Differential Geometry/Differential 1-Form.md",
-    "Topology/Hausdorff Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

@@ -17,7 +17,7 @@
 > 4. $dF$ is smooth.
 > 5. For $(U,\varphi)$ and $(V,\psi)$ charts at $p$ and $F(p)$ respectively with coordinates $x^i$ and $y^j$: $$d_{p}F\left( \left. \frac{ \partial  }{ \partial x^i }  \right| _{p} \right) =\sum_{j=1}^{n}\left. \frac{ \partial (y^j\circ F) }{ \partial x^i }  \right| _{p}\left. \frac{ \partial  }{ \partial y^j }  \right|_{F(p)} $$and$$d_{p}F(v) = \sum_{j=1}^{n}\left(\sum_{i=1}^{m}\left. \frac{ \partial (y^j\circ F) }{ \partial x^i }  \right| _{p}v^i \right)\left. \frac{ \partial  }{ \partial y^j }  \right|_{F(p)}$$
 > 	Therefore, $\left\{  \left. \frac{ \partial y^i\circ F }{ \partial x^j } \right|_{p}  \right\}$ is the ***Jacobian*** of $F$.
-> 6. If $F$ is a
+> 6. If $F$ is a [[homeomorphism]], $d_{p}F$ is bijective.
 
 > [!proof]-
 > We have:
@@ -25,6 +25,7 @@
 > 2. For $v\in \text{T}_{p}M$, we have that: $$d_{p}(G\circ F)(v)(g)=v(g\circ G\circ F)=d_{p}F(v)(g\circ G)=d_{F(p)}G(d_{p}F(v))(g)$$
 > 3. This is an application of the definition of dual and chain rule.
 > 4. We have that: $$d_{p}F\left( \left. \frac{ \partial  }{ \partial x^i }  \right| _{p} \right) g=\left. \frac{ \partial (g\circ F) }{ \partial x^i }  \right| _{p}=\left. \frac{ \partial (g\circ \psi ^{-1}\circ \psi \circ F) }{ \partial x^i }  \right| _{p}=\sum_{j=1}^{n}\left. \frac{ \partial g\circ \psi ^{-1} }{ \partial y^j }  \right|_{\psi(f(p))}\left. \frac{ \partial y^j\circ F }{ \partial x^i }  \right| _{p} $$ and$$d_{p}F(v)=d_{p}F\left( \sum_{i=1}^{m}v^i\left. \frac{ \partial  }{ \partial x^i }  \right| _{p} \right)=\sum_{i=1}^{m}v^id_{p}F\left(\left. \frac{ \partial  }{ \partial x^i }  \right| _{p}  \right) =\sum_{j=1}^{n}\left(\sum_{i=1}^{m} \left. \frac{ \partial (y^j\circ F) }{ \partial x^i }  \right| _{p}v^i \right)\left. \frac{ \partial  }{ \partial y^j }  \right|_{F(p)}$$
+> 5. We have that $(d_{p}F)^{-1}=d_{F(p)}F^{-1}$ and: $$d_{p}Fd_{F(p)}F^{-1}=d_{F(p)}\text{id}_{N}=\text{id}_{\text{T}_{F(p)}N},\quad d_{F(p)}F^{-1}d_{p}F=d_{p}\text{id}_{M}=\text{id}_{\text{T}_{p}M}$$
 ---
 
 
