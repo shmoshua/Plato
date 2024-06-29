@@ -30,3 +30,8 @@
 >$\text{T}U_{\alpha}\cap \text{T}U_{\beta}=\text{T}(U_{\alpha}\cap U_{\beta})$ and: $$\theta_{\beta\alpha}=(\varphi_{\beta}\circ \varphi_{\alpha}^{-1},d(\varphi_{\beta}\circ \varphi_{\alpha}^{-1}))$$which are smooth.
 - **Corollary**: $\text{T}M$ is a smooth manifold of dimension $2m$.
 ---
+> [!lemma] Proposition 2
+> The map $\pi:\text{T}M\to M$ is a [[Immersion and Submersion|submersion]].
+
+> [!proof]+
+> We have that: $$d_{(p,v)}\pi$$
