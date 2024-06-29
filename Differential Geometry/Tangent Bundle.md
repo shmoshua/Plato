@@ -33,5 +33,13 @@
 > [!lemma] Proposition 2
 > The map $\pi:\text{T}M\to M$ is a [[Immersion and Submersion|submersion]].
 
-> [!proof]+
-> We have that: $$d_{(p,v)}\pi$$
+^d01715
+
+> [!proof]-
+> For any $(p,v)\in \text{T}M$ let $(\text{T}U,d\varphi)$ be a chart containing $(p,v)$. Then, let the coordinate functions be $(x^1,\dots,x^m,dx^1,\dots,dx^m)$. For $i,j\leq m$, $$\frac{ \partial x^i\circ \pi }{ \partial x^j }=\frac{ \partial x^i }{ \partial x^j }=\delta^i_{j} $$
+> 
+> Therefore, the Jacobian of $d\pi$ is given by: $$d\pi=\begin{bmatrix}I_{m}&*\end{bmatrix}\in \text{Mat}_{2m\times m}(\mathbb{R})$$which shows that $d\pi$ is a surjecrtive and $\pi$ is a submersion. 
+
+^04ed06
+
+---

@@ -15,3 +15,12 @@
 > We have that:
 > 1. $\mathbb{R}^n\backslash\{ 0 \}\to S^{n-1},x\mapsto x /\|x\|$ is a submersion.
 ---
+![[Tangent Bundle#^d01715]]
+![[Tangent Bundle#^04ed06|p]]
+---
+> [!h] Example 3 (Projective Space)
+> We have that
+> 1. $\mathbb{R}\mathbb{P}^2$ does not embed in $\mathbb{R}^3$.
+> 2. $\mathbb{R}\mathbb{P}^2$ immerses into $\mathbb{R}^3$ as the Boy's surface.
+> 3. $\mathbb{R}\mathbb{P}^{2}$ embeds into $\mathbb{R}^4$ called Veronese embedding, given by: $$S^2\to \mathbb{R}^4,\quad (x,y,z)\mapsto(x^{2}-y^{2},xy,yz,xz)$$
+---

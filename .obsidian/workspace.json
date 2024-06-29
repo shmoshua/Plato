@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Immersion and Submersion.md",
+                "file": "Differential Geometry/Local Diffeomorphism.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Immersion and Submersion.md",
+                "file": "Differential Geometry/Local Diffeomorphism.md",
                 "mode": "preview",
                 "source": false
               }
@@ -111,30 +111,6 @@
             }
           },
           {
-            "id": "cc53b09630a0dd64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Cotangent Space.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8105fa7538a9717c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Smooth Atlas.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "019afc06ab0d57a1",
             "type": "leaf",
             "state": {
@@ -146,8 +122,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Tangent Bundle.md",
+                "file": "Differential Geometry/Local Diffeomorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Tangent Bundle.md",
+                "file": "Differential Geometry/Local Diffeomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Tangent Bundle.md"
+                "file": "Differential Geometry/Local Diffeomorphism.md"
               }
             }
           }
@@ -275,18 +250,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1173ce41849d1ffb",
+  "active": "54c90ca13675646d",
   "lastOpenFiles": [
-    "Differential Geometry/Tangent Bundle.md",
-    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Immersion and Submersion.md",
+    "Differential Geometry/Local Diffeomorphism.md",
+    "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Cotangent Space.md",
+    "Differential Geometry/Smooth Atlas.md",
+    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Regular Curve in Rn.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Immersion and.md",
     "Differential Geometry/Vector Field.md",
-    "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Tangent Space.md",
@@ -302,7 +278,6 @@
     "Analysis/Directional Derivative.md",
     "Differential Geometry/Smooth Curve.md",
     "Measure Theory/Diffeomorphism.md",
-    "Differential Geometry/Open Equivalence Relation.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

@@ -7,8 +7,8 @@
 ##### Properties
 
 > [!lemma] Theorem 1 (Inverse Function Theorem for Manifolds)
-> Let $M,N$ be smooth manifolds and $F\in C^\infty(M,N)$. Further, let $p\in M$. If $d_{p}F$ is invertible, 
-> 1. there exist open neighborhoods $U_{0}\ni p$ and $V_{0}\ni F(p)$ s.t. $F|_{U_{0}}:U_{0}\to V_{0}$ is a [[diffeomorphism]]. 
+> Let $M,N$ be smooth manifolds and $f\in C^\infty(M,N)$. Further, let $p\in M$.
+> 1. if $d_{p}f$ is an isomorphism, there exist open neighborhoods $U_{0}\ni p$ and $V_{0}\ni f(p)$ s.t. $f|_{U_{0}}:U_{0}\to V_{0}$ is a [[diffeomorphism]]. 
 
 > [!proof]-
 > We naturally have that $m=n$ as $d_{p}F$ is invertible. Choose chart $(U,\varphi)$ and $(V,\psi)$ at $p$ and $F(p)$ with $F(U)\subseteq V$. Let $x_{0}:=\varphi(p)$ and $y_{0}:=\psi(F(p))$. Then, we have that:  
