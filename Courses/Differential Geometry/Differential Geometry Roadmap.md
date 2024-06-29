@@ -29,7 +29,7 @@
 
 **1.4 Submanifolds, Immersions, Embeddings**
 1. [[Submanifold]]
-2. [[immersion]]
+2. [[Immersion and Submersion]]
 ---
 ##### 2. Tangent spaces, Differential and Whitney’s Embedding Theorem
 **2.1 Tangent Spaces**

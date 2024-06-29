@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Submanifold.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "54c90ca13675646d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -80,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -189,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Vector Field.md"
+                "file": "Differential Geometry/Submanifold.md"
               }
             }
           }
@@ -253,12 +265,15 @@
   },
   "active": "20cdf9a6d9e41692",
   "lastOpenFiles": [
+    "Differential Geometry/Immersion and Submersion.md",
+    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Immersion and.md",
+    "Differential Geometry/Vector Field.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Function.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Vector Field.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Topological Manifold.md",
@@ -276,9 +291,6 @@
     "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Open Equivalence Relation.md",
     "Topology/Continuous Function.md",
-    "Differential Geometry/Atlas.md",
-    "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Grassmannian.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

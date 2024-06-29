@@ -1,4 +1,4 @@
-#Definition #DifferentialGeometry 
+ #Definition #DifferentialGeometry 
 
 > [!definition]
 > Let $M,N$ be a [[smooth manifold]] and $\varphi\in C^\infty(N,M)$ an [[Differential|immersion]].
@@ -8,6 +8,7 @@
 > 	1. $\varphi(p)=0$, 
 > 	2. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and
 > 	3. $\varphi(U\cap N)=\{ x\in (-\varepsilon,\varepsilon)^m: x_{n+1}=\dots=x_{m}=0 \}$
+- **Related definition**: $\varphi\in C^\infty(N,M)$ is an ***embedding***, if $\varphi(M)$ is a regular submanifold and 
 - **Remark**: For the atlas $\{ (U_{\alpha},\varphi_{\alpha}) \}$ on $M$ and a regular submanifold $N\subseteq M$, $\{ (U_{\alpha}\cap N,\varphi_{\alpha}|_{U_{\alpha}\cap N}) \}_{\alpha}$ defines an atlas on $N$.
 ---
 ##### Properties
@@ -22,6 +23,11 @@
 > 2. As $L$ is a regular submanifold of $M$, we may consider $\text{T}_{p}L$ as a subset of $\text{T}_{p}M$. Let $v\in \text{T}_{p}L$ and $\gamma:(-\varepsilon,\varepsilon)\to L$ be a smooth curve s.t. $\gamma(0)=p$ and $\gamma'(0)=v$. Then, $f(\gamma(t))=q$ and we have: $$d_{p}f(v)=d_{\gamma(0)}f(\gamma'(0))=\left. \frac{d}{dt} \right| _{t=0}f\circ \gamma(t)=0$$Therefore, $v\in \text{ker }d_{p}f$. Further, notice that $$\text{dim }\text{ker }d_{p}f=m-k=\text{dim }L=\text{dim }\text{T}_{p}L$$
 ---
 > [!lemma] Proposition 2 (Embedded submanifold => Regular submanifold)
+> Let $M,N$ be smooth manifolds and $f\in C^\infty(N,M)$. TFAE:
+> 1. $f(N)$ is an embedded submanifold.
+> 2. $f:N\to f(N)$ is a diffeomorphism and $f(N)$ is a regular-submanifold.
+---
+> [!lemma] Proposition 2 (Embedded submanifold => Regular submanifold)
 > Let $M,N$ be smooth manifolds and $f\in C^\infty(N,M)$ a diffeomorphism. If $f(N)$ is an embedded submanifold of $M$, then $f(N)$ is a regular $n$-submanifold.
 
 > [!proof]-
@@ -31,6 +37,13 @@
 ---
 ##### Examples
 > [!h] Example 1
+> Let $M$ be a smooth manifold:
+> 1. Any open subset $U\subseteq M$ is a regular submanifold.
+> 2. [[Surface|Smooth surfaces]] in $\mathbb{R}^3$ are regular submanifolds.
+> 3. $S^n\subseteq \mathbb{R}^{n+1}$ are regular $n$-submanifolds.
+> 4. $S^{n-1}\subseteq S^n$ are regular $(n-1)$-submanifolds.
+---
+> [!h] Example 2
 > We have:
 > 1. $\text{SL}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a regular $n^2-1$-submanifold of $\text{GL}(n,\mathbb{R})$.
 > 2. $\text{O}(n,\mathbb{R})\leq \text{GL}(n,\mathbb{R})$ is a regular $n(n-1) /2$-submanifold of $\text{GL}(n,\mathbb{R})$.
