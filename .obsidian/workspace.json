@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Tangent Bundle.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Differential.md",
+                "file": "Differential Geometry/Tangent Bundle.md",
                 "mode": "preview",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": false
               }
@@ -123,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -251,14 +251,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "20cdf9a6d9e41692",
+  "active": "630f150097e92dd1",
   "lastOpenFiles": [
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Derivation.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Tangent Space II.md",
     "Differential Geometry/Cotangent Space.md",
     "Differential Geometry/Tangent Space III.md",

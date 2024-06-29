@@ -16,9 +16,11 @@
 > 5. $\pi:\text{T}M\to M$ is continuous and open.
 > 6. For the [[atlas|smooth atlas]] $\mathcal{A}$ on $M$, $\{ (\text{T}U_{\alpha},d\varphi_{\alpha}):(U_{\alpha},\varphi_{\alpha})\in \mathcal{A} \}$ is a smooth atlas on $\text{T}M$.
 
-> [!proof]-
+> [!proof]+
 > We have that:
-> 1. We trivially have that $\varnothing$ is open. For a chart $(U,\varphi)$, $\text{T}U\subseteq \text{T}M$ is open. Therefore, $\text{T}M\cap \text{T}U=\text{T}U$ and $\text{T}M$ is open as well. Further, for $E_{1},E_{2}$ open, $$(E_{1}\cap E_{2})\cap \text{T}U=(E_{1}\cap \text{T}U)\cup(E_{2}\cap \text{T}U)$$$E_{1}\cap E_{2}$ is open. Similarly, for $(E_{\alpha})_{\alpha\in A}$ open in $\text{T}M$, $$\bigcup_{\alpha\in A}^{}E_{\alpha}\cap \text{T}U=\bigcup_{\alpha\in A}^{}(E_{\alpha}\cap \text{T}U)$$ and $\bigcup_{\alpha\in A}^{}E_{\alpha}$ is open.
+> 1. We trivially have that $\varnothing$ is open. For a chart $(U,\varphi)$, $d\varphi(\text{T}U)$
+>    
+>    $\text{T}U\subseteq \text{T}M$ is open. Therefore, $\text{T}M\cap \text{T}U=\text{T}U$ and $\text{T}M$ is open as well. Further, for $E_{1},E_{2}$ open, $$(E_{1}\cap E_{2})\cap \text{T}U=(E_{1}\cap \text{T}U)\cup(E_{2}\cap \text{T}U)$$$E_{1}\cap E_{2}$ is open. Similarly, for $(E_{\alpha})_{\alpha\in A}$ open in $\text{T}M$, $$\bigcup_{\alpha\in A}^{}E_{\alpha}\cap \text{T}U=\bigcup_{\alpha\in A}^{}(E_{\alpha}\cap \text{T}U)$$ and $\bigcup_{\alpha\in A}^{}E_{\alpha}$ is open.
 > 2. By definition.
 > 3. Let $(p_{1},v_{1})\neq(p_{2},v_{2})$. If $p_{1}\neq p_{2}$, then choose charts $(U_{1},\varphi_{1}),(U_{2},\varphi_{2})$ at $p_{1},p_{2}$ respectively s.t. $U_{1}\cap U_{2}=\varnothing$. Therefore, $\text{T}U_{1}$ and $\text{T}U_{2}$ are open sets that are disjoint. 
 >    
