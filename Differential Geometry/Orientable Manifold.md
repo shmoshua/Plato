@@ -2,6 +2,8 @@
 
 > [!definition]
 > Let $M$ be a [[smooth manifold]]. 
+> 1. An ***orientation*** of $M$ is a map $o:M\to \text{O}M$ with $o(p)\in \text{O}_{p}M$ for all $p\in M$, s.t. for all $p\in M$ there exists an open $U\ni p$ with a [[Local Frame|smooth local frame]] $V_{1},\dots,V_{m}$ with: $$o(p)=[(V_{1}(p),\dots,V_{m}(p))]_{\sim},\quad \forall p\in U$$
+>    where $\text{O}M$ is the [[orientable double cover]].
 > 1. An [[atlas]] $\mathcal{A}$ on $M$ is ***oriented*** if for any two overlapping charts $(U_{\alpha},\varphi_{\alpha}),(U_{\beta},\varphi_{\beta})$ in $\mathcal{A}$, the coordinate transformation $\theta_{\beta\alpha}:\varphi_{\alpha}(U_{\alpha}\cap U_{\beta})\to\varphi_{\beta}(U_{\alpha}\cap U_{\beta})$ has the property that: $$\det d_{x}\theta_{\beta\alpha}>0,\quad \forall x\in\varphi_{\alpha}(U_{\alpha}\cap U_{\beta})$$
 > 2. $M$ is ***orientable*** if it admits an oriented atlas.
 - **Remark**: In an orientable manifold, $d_{p}\varphi:\text{T}_{p}M\to \mathbb{R}^m$ is orientation-preserving.
