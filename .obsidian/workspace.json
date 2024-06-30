@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Diffeomorphism.md",
+                "file": "Topology/Real Projective Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,14 +85,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Differential Geometry/Atlas.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -152,6 +152,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Topology/Real Projective Space.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ffd7b76f233b2fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Algebra/Orbit and Stablizer.md",
                 "mode": "preview",
                 "source": false
@@ -159,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -287,10 +299,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4db66045bdcf0af7",
+  "active": "fa1a75ac3079dcdc",
   "lastOpenFiles": [
     "Algebra/Orbit and Stablizer.md",
+    "Algebra/Group Action.md",
     "Topology/Real Projective Space.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Measure Theory/Diffeomorphism.md",
+    "Differential Geometry/Atlas.md",
     "Algebra/Properly Discontinuous Action.md",
     "Algebra/Free Action.md",
     "Differential Geometry/Differential.md",
@@ -298,7 +314,6 @@
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Immersion and Submersion.md",
-    "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Tangent Bundle.md",
     "Topology/Local Homeomorphism.md",
     "Lie Group/Local Homomorphism.md",
@@ -311,10 +326,7 @@
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Cotangent Bundle.md",
     "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Derivation.md",
-    "Topology/Topological Space.md",
-    "Topology/Product Topology.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
