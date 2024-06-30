@@ -19,3 +19,8 @@
 >  4. We finally show that the charts are smoothly compatible. For $0\leq j< k\leq n$, we have that for $a\in\varphi_{k}(U_{j}\cap U_{k})$: $$\begin{align}\varphi_{j}\varphi_{k}^{-1}(a^0,\dots,a^{n-1})&=\varphi_{j}(\pi(a^0,\dots,a^{k-1},1,a^k,\dots,a^{n-1}))\\&=\frac{(a^0,\dots,\widehat{a^j},\dots,a^{k-1},1,a^k,. ..,a^{n-1})}{a^j}\end{align}$$which is smooth.
 
 ---
+> [!lemma] Proposition 2
+> The projection $S^n\to \mathbb{R} \mathbb{P}^n,x\mapsto \pi(x)$ is smooth.
+
+> [!proof]+
+> 

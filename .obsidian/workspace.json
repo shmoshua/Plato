@@ -164,7 +164,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Diffeomorphism.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "mode": "preview",
                 "source": false
               }
@@ -237,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Measure Theory/Diffeomorphism.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Measure Theory/Diffeomorphism.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Measure Theory/Diffeomorphism.md"
+                "file": "Differential Geometry/Smooth Function.md"
               }
             }
           }
@@ -301,12 +301,15 @@
   },
   "active": "3ffd7b76f233b2fb",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
+    "Algebra/Quaternion.md",
     "Topology/Real Projective Space.md",
+    "Differential Geometry/Tangent Bundle.md",
+    "Measure Theory/Diffeomorphism.md",
+    "Algebra/Quaternion Group.md",
+    "Topology/Quotient Topology.md",
     "Algebra/Orbit and Stablizer.md",
     "Algebra/Group Action.md",
     "Differential Geometry/Topological Manifold.md",
-    "Measure Theory/Diffeomorphism.md",
     "Differential Geometry/Atlas.md",
     "Algebra/Properly Discontinuous Action.md",
     "Algebra/Free Action.md",
@@ -315,7 +318,6 @@
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Immersion and Submersion.md",
-    "Differential Geometry/Tangent Bundle.md",
     "Topology/Local Homeomorphism.md",
     "Lie Group/Local Homomorphism.md",
     "Differential Geometry/Cotangent Space.md",
@@ -325,8 +327,6 @@
     "Differential Geometry/Immersion and.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Cotangent Bundle.md",
-    "Differential Geometry/Tangent Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
