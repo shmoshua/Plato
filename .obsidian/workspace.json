@@ -73,19 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9033abcc26984c70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Atlas.md",
+                "file": "Differential Geometry/Sphere.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +94,7 @@
               "state": {
                 "file": "Differential Geometry/Local Diffeomorphism.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -118,7 +106,7 @@
               "state": {
                 "file": "Differential Geometry/Immersion and Submersion.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -130,7 +118,7 @@
               "state": {
                 "file": "Measure Theory/Diffeomorphism.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -142,7 +130,7 @@
               "state": {
                 "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -154,7 +142,7 @@
               "state": {
                 "file": "Topology/Real Projective Space.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               }
             }
           },
@@ -164,14 +152,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Sphere.md",
                 "mode": "preview",
-                "source": false
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6d25ca001d67a321",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Atlas.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -237,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Differential Geometry/Sphere.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Differential Geometry/Sphere.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Real Projective Space.md"
+                "file": "Differential Geometry/Sphere.md"
               }
             }
           }
@@ -299,11 +299,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "fa1a75ac3079dcdc",
+  "active": "3ffd7b76f233b2fb",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Function.md",
-    "Topology/Real Projective Space.md",
+    "Differential Geometry/Immersion and Submersion.md",
+    "Differential Geometry/Local Diffeomorphism.md",
+    "Differential Geometry/Atlas.md",
+    "Differential Geometry/Sphere.md",
+    "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Smooth Atlas.md",
+    "Topology/Real Projective Space.md",
+    "Differential Geometry/Smooth Function.md",
     "Algebra/Quaternion.md",
     "Differential Geometry/Tangent Bundle.md",
     "Measure Theory/Diffeomorphism.md",
@@ -311,22 +317,16 @@
     "Topology/Quotient Topology.md",
     "Algebra/Orbit and Stablizer.md",
     "Algebra/Group Action.md",
-    "Differential Geometry/Atlas.md",
     "Algebra/Properly Discontinuous Action.md",
     "Algebra/Free Action.md",
     "Differential Geometry/Differential.md",
     "Topology/Covering Space.md",
     "Differential Geometry/Submanifold.md",
-    "Differential Geometry/Local Diffeomorphism.md",
-    "Differential Geometry/Immersion and Submersion.md",
     "Topology/Local Homeomorphism.md",
     "Lie Group/Local Homomorphism.md",
     "Differential Geometry/Cotangent Space.md",
-    "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Regular Curve in Rn.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Immersion and.md",
-    "Differential Geometry/Vector Field.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
