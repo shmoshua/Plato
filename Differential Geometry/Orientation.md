@@ -4,7 +4,7 @@
 > We have that:
 > 1. an ***orientation*** of a $n$-dimensional $\mathbb{R}$-vector space $V$ is an equivalence class on the set of ordered bases $(E_{1},\dots,E_{n})$ of $V$ given by: $$(E_{1},\dots,E_{n})\sim(E'_{1},\dots,E'_{n})\iff \det(B)>0$$where $B$ is the change of basis matrix from $(E_{1},\dots,E_{n})$ to $(E'_{1},\dots,E'_{n})$.
 > 2. an ***orientable (double) cover*** of a [[smooth manifold]] $M$ is $\text{O}M:=\bigsqcup_{p\in M}^{}\text{O}_{p}M$ where $\text{O}_{p}M$ is the set of orientations of $\text{T}_{p}M$.
-> 3. an ***orientation*** of a smooth manifold $M$ is a continuous map $o:M\to \text{O}M$ (w.r.t topology in )
+> 3. an ***orientation*** of a smooth manifold $M$ is a map $o:M\to \text{O}M$ with $o(p)\in \text{O}_{p}M$ s.t. for all $p\in M$, there exists a [[local frame]] on $U\ni p$
 - **Notation**: The orientation of an ordered basis $(E_{1},\dots,E_{n})$ is denoted as $[E_{1},\dots,E_{n}]$ and $-[E_{1},\dots,E_{n}]$ denotes the opposite orientation. 
 - **Related definition**: An ***oriented vector space*** $(V,o)$ is a vector space $V$ equipped with an orientation.
 - 
