@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Local Diffeomorphism.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": true
               }
@@ -313,10 +313,11 @@
   },
   "active": "20cdf9a6d9e41692",
   "lastOpenFiles": [
-    "Differential Geometry/Orientable Double Cover.md",
+    "Differential Geometry/Vector Field.md",
     "Differential Geometry/Local Diffeomorphism.md",
-    "Differential Geometry/Orientable Manifold.md",
     "Differential Geometry/Orientation.md",
+    "Differential Geometry/Orientable Double Cover.md",
+    "Differential Geometry/Orientable Manifold.md",
     "Differential Geometry/Local Frame.md",
     "Differential Geometry/Exterior Algebra.md",
     "Differential Geometry/Multilinear k-Form.md",
@@ -338,7 +339,6 @@
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Smooth Atlas.md",
     "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Tangent Bundle.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
