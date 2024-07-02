@@ -45,14 +45,27 @@
 > 1. Let $p\in M$ and check if $d_{p}f$ is orientation preserving or reversing. As $f$ is a local diffeomorphism $d_{p}f$ is bijective and it has to be one of the two. Wlog we may assume that it is preserving. The other case is analogous. Now, let: $$V:=\{ p\in M : d_{p}f\text{ is orientation-preserving}\}$$Then, by the existence of local frames, for any $q\in V$, there exists an open neighborhood $U$ s.t. $U\subseteq V$. Therefore, $V$ is open. However, for $q\in M\backslash V$ (if it exists), we also get an open neighborhood $U\subseteq M \backslash V$. Hence, $V$ is clopen and by the connectedness, $V=M$, as $V$ is non-empty.
 > 2. Obvious.
 ---
-> [!lemma] Proposition 4 (Properties of Orientation Cover)
+> [!lemma] Proposition 4 (Connected Manifolds and Orientation)
+> Let $o$ and $o'$ be two orientations on a connected smooth manifold $M$. Then, 
+> 1. $M$ admits exactly two orientations.
+> 3. if $o(p)=o'(p)$ at some point $p\in M$, $o=o'$.
+
+> [!proof]-
+> Let $o,o'$ be two orientations. Let $V:=\{ p\in M:o(p)=o'(p) \}$. Then, we will show that $V$ is clopen. For $p\in V$, let $E_{1},\dots,E_{m}$ be the local frame over $U$ w.r.t. $o$ and $F_{1},\dots,F_{m}$ be the local frame over $U'$ w.r.t. $o'$ s.t. they coincide at: $$[E_{1},\dots,E_{m}]=o(p)=o'(p)=[F_{1},\dots,F_{m}]$$Then, modulo taking a subset we may assume that $U\cap U'$ is connected. Then, $\text{id}_{U\cap U'}$ is a local diffeomorphism and it is orientation preserving. Therefore, $o=o'$ on $U\cap U'$ and $U\cap U'\subseteq V$. Analogously, $M\backslash V$ is open and $V$ is clopen. 
+> 
+> As $M$ is connected, $V=M$ or $V=\varnothing$. If $V=M$, then $o=o'$ on $M$. If $V=\varnothing$, then $o(p)\neq o'(p)$ everywhere. As there exists only 2 options for each $p$, this shows that there exists only two orientations. 
+---
+> [!lemma] Proposition 5 (Properties of Orientation Cover)
 > Let $M$ be a smooth manifold and $\text{O}M$ its orientation cover with the map: $$\pi:\text{O}M\to M,\quad (p,o)\mapsto p$$Then, 
 > 1. $\text{O}M$ admits a topology that endows a smooth structure on $\text{O}M$.
 > 2. $\pi:\text{O}M\to M$ is a smooth covering space of degree 2.
 
 > [!proof]+
-> Let $U\subseteq M$ be open. We define: $\text{O}U:=\bigsqcup_{p\in U}^{}\text{O}_{p}M$. 
-> $(U,o_{U})$ be a pair where $U\subseteq M$ is an open set and $o:U\to \text{O}U$ an orientation. Then, let: $$$$
+> Let $U\subseteq M$ be open. $(U,o_{U})$ be a pair where $U\subseteq M$ is an open set and $o:U\to \text{O}M$ an orientation s.t. $o(p)\in \text{O}_{p}M$ for all $p\in U$. Then, let: $$\text{O}U_{o_{U}}:=\{ (p, o_{p}):p\in U,o_{U}(p)=o_{p} \}$$We show that these form a base of a topology. Firstly, for any $(p,o_{p})\in \text{O}M$, there exists $U\ni p$ with an orientation $o_{U}$. Modulo taking the opposite orientation, $(p,o_{p})\in \text{O}U_{o_{U}}$. 
+> 
+> For $\text{O}U_{o_{U}}$ and $\text{O}V_{o_{V}}$ and $(p,o_{p})$ is in the intersection and $W$ is the connected component of $p$ in $U\cap V$, by Proposition 4, $o_{W}=o'_{W}$. Therefore, the intersection is open and this defines a basis of topology. 
+> 
+> Hence, we see that $\pi$ is a local homeomorphism. Further, for any connected $U\subseteq M$, $$\pi ^{-1}(U)=\{ \text{O}U_{o_{U}},\text{O}U_{-o_{U}} \}$$This proves the statement.
 ---
 > [!lemma] Proposition 5 (Equivalent Definition of Orientable Manifolds)
 > For a smooth manifold $M$ with $m>1$, TFAE:
