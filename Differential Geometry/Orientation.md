@@ -31,14 +31,31 @@
 > Let $(E_{i}),(F_{i})\in \mathcal{O}_{\omega}$. Then, let $B\in \mathcal{B}(V)$ be the linear map sending $E_{i}$ to $F_{i}$, i.e. $F_{i}=BE_{i}$ for all $i$. Therefore, $$\omega(F_{1},\dots,F_{n})=\omega(BE_{1},\dots,BE_{n})=\det(B)\omega(E_{1},\dots,E_{n})$$Therefore, $\det(B)>0$ and $(E_{i})\sim (F_{i})$.
 ---
 > [!lemma] Proposition 3
-> Let $f:(M,o_{M})\to(N,o_{N})$ be a [[local diffeomorphism]].
+> Let $f,g:(M,o_{M})\to(N,o_{N})$ be [[local diffeomorphism|local diffeomorphisms]].
 > 1. if $M$ is connected, $f$ is either orientation preserving or orientation reversing.
+> 2. if $f$ is OP and $g$ is OP, $g\circ f$ is OP.
+> 3. if $f$ is OP and $g$ is OR, $g\circ f$ is OR.
+> 4. if $f$ is OR and $g$ is OP, $g\circ f$ is OR.
+> 5. if $f$ is OR and $g$ is OR, $g\circ f$ is OP.
+> 6. $f$ is OP if and only if $\det(d_{p}f)>0$ for all $p\in M$.
+> 7. $f$ is OR if and only if $\det(d_{p}f)<0$ for all $p\in M$.
+
+> [!proof]-
+> We have:
+> 1. Let $p\in M$ and check if $d_{p}f$ is orientation preserving or reversing. As $f$ is a local diffeomorphism $d_{p}f$ is bijective and it has to be one of the two. Wlog we may assume that it is preserving. The other case is analogous. Now, let: $$V:=\{ p\in M : d_{p}f\text{ is orientation-preserving}\}$$Then, by the existence of local frames, for any $q\in V$, there exists an open neighborhood $U$ s.t. $U\subseteq V$. Therefore, $V$ is open. However, for $q\in M\backslash V$ (if it exists), we also get an open neighborhood $U\subseteq M \backslash V$. Hence, $V$ is clopen and by the connectedness, $V=M$, as $V$ is non-empty.
+> 2. Obvious.
+---
+> [!lemma] Proposition 4 (Equivalent Definition of Orientable Manifolds)
+> For a smooth manifold $M$, TFAE:
+> 1. $M$ is orientable.
+> 2. $M$ admits an ***oriented atlas***, i.e. an [[atlas]] $\mathcal{A}$ on $M$ where for any two overlapping charts $(U,\varphi),(V,\psi)$, $$\det d_{p}(\psi \circ \varphi ^{-1}|_{\varphi(U\cap V)})>0,\quad \forall p\in\varphi(U\cap V)$$
 
 > [!proof]+
-> Let $p\in M$ and check if $d_{p}f$ is orientation preserving or reversing. Wlog we may assume that it is preserving. 
+> First, assume that $M$ is orientable. For each $p\in M$, we can choose a chart $(U_{p},\varphi_{p})$ s.t. $U$ is connected and there exists a local frame  $E_{1},\dots,E_{m}$ over $U$ s.t. $$o(p)=[E_{1}(p),\dots,E_{m}(p)],\quad \forall p\in U$$Then, $\varphi_{p}$ is a diffeomorphism and thereby a local diffeomorphism. Hence, $\varphi_{p}$ is either orientation preserving or orientation reversing. Let $\mathcal{A}:=\{ (U_{p},\varphi_{p}):p\in M \}$ and let $(U,\varphi),$
 ---
 ##### Examples
 > [!h] Example 1
 > We have:
 > 1. $S^2$, $\mathbb{T}^2$ are orientable.
 > 2. The Klein bottle $K^2$ and the Möbius strip $S$ are not orientable.
+---
