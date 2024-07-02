@@ -59,23 +59,30 @@
 > Let $M$ be a smooth manifold and $\text{O}M$ its orientation cover with the map: $$\pi:\text{O}M\to M,\quad (p,o)\mapsto p$$Then, 
 > 1. $\text{O}M$ admits a topology that endows a smooth structure on $\text{O}M$.
 > 2. $\pi:\text{O}M\to M$ is a smooth covering space of degree 2.
+> 3. $\text{O}M$ is orientable.
 
-> [!proof]+
-> Let $U\subseteq M$ be open. $(U,o_{U})$ be a pair where $U\subseteq M$ is an open set and $o:U\to \text{O}M$ an orientation s.t. $o(p)\in \text{O}_{p}M$ for all $p\in U$. Then, let: $$\text{O}U_{o_{U}}:=\{ (p, o_{p}):p\in U,o_{U}(p)=o_{p} \}$$We show that these form a base of a topology. Firstly, for any $(p,o_{p})\in \text{O}M$, there exists $U\ni p$ with an orientation $o_{U}$. Modulo taking the opposite orientation, $(p,o_{p})\in \text{O}U_{o_{U}}$. 
-> 
-> For $\text{O}U_{o_{U}}$ and $\text{O}V_{o_{V}}$ and $(p,o_{p})$ is in the intersection and $W$ is the connected component of $p$ in $U\cap V$, by Proposition 4, $o_{W}=o'_{W}$. Therefore, the intersection is open and this defines a basis of topology. 
-> 
-> Hence, we see that $\pi$ is a local homeomorphism. Further, for any connected $U\subseteq M$, $$\pi ^{-1}(U)=\{ \text{O}U_{o_{U}},\text{O}U_{-o_{U}} \}$$This proves the statement.
+> [!proof]-
+> We have:
+> 1. Let $U\subseteq M$ be open. $(U,o_{U})$ be a pair where $U\subseteq M$ is an open set and $o:U\to \text{O}M$ an orientation s.t. $o(p)\in \text{O}_{p}M$ for all $p\in U$. Then, let: $$\text{O}U_{o_{U}}:=\{ (p, o_{p}):p\in U,o_{U}(p)=o_{p} \}$$We show that these form a base of a topology. Firstly, for any $(p,o_{p})\in \text{O}M$, there exists $U\ni p$ with an orientation $o_{U}$. Modulo taking the opposite orientation, $(p,o_{p})\in \text{O}U_{o_{U}}$. 
+>    
+>    For $\text{O}U_{o_{U}}$ and $\text{O}V_{o_{V}}$ and $(p,o_{p})$ is in the intersection and $W$ is the connected component of $p$ in $U\cap V$, by Proposition 4, $o_{W}=o'_{W}$. Therefore, the intersection is open and this defines a basis of topology. 
+>  2. We see that $\pi$ is a local homeomorphism. Further, for any connected $U\subseteq M$, $$\pi ^{-1}(U)=\{ \text{O}U_{o_{U}},\text{O}U_{-o_{U}} \}$$This proves the statement.
+>  3. We now define an orientation on $\text{O}M$. Let $(p,o_{p})$ be a point in $\text{O}M$. By definition, $o_{p}$ is an orientation of $\text{T}_{p}M$; so we can give $\text{T}_{(p,o_{p})}\text{O}M$ the unique orientation $\widehat{o}_{(p,o_{p})}$ s.t. $d_{(p,o_{p})}\pi:(\text{T}_{(p,o_{p})}\text{O}M,\widehat{o}_{(p,o_{p})})\to (\text{T}_{p}M,o_{p})$ is orientation-preserving. 
+>     
+>     For $U\ni p$ an open connected neighborhood with orientation $o_{U}$ s.t. $o_{U}(p)=o_{p}$, we have that $\pi:\text{O}U_{o_{U}}\to U$ is a homeomorphism, hence $\text{O}U_{o_{U}}$ is connected. As $\widehat{o}$ coincides with the pullback orientation of $\pi|_{\text{O}U_{o_{U}}}$ on $\text{O}U_{o_{U}}$, it is continuous.
 ---
 > [!lemma] Proposition 5 (Equivalent Definition of Orientable Manifolds)
 > For a smooth manifold $M$ with $m>1$, TFAE:
 > 1. $M$ is orientable.
 > 2. $M$ admits an ***oriented atlas***, i.e. an [[atlas]] $\mathcal{A}$ on $M$ where for any two overlapping charts $(U,\varphi),(V,\psi)$, $$\det d_{\tilde{p}}(\psi \circ \varphi ^{-1}|_{\varphi(U\cap V)})>0,\quad \forall \tilde{p}\in\varphi(U\cap V)$$
+> 3. there exists a continuous map $o:M\to \text{O}M$.
+> 4. $\text{O}M\cong M\times \{ \pm 1 \}$
 
-> [!proof]-
+> [!proof]+
 > We have:
-> 1. First, assume that $M$ is orientable with orientation $o$. For each $p\in M$, let $(U_{p},\varphi_{p})$ be a chart containing $p$. Modulo taking a subset we can assume that $U_{p}$ is connected and there exists a local frame $E_{1},\dots,E_{m}$ over $U_{p}$ s.t. $$o(p)=[E_{1}(p),\dots,E_{m}(p)],\quad \forall p\in U$$Now, let $\varphi_{p}=(x^1,\dots,x^m)$. As $U_{p}$ is connected, $\varphi_{p}$ is either orientation preserving or orientation reversing. Modulo switching the sign of $x^1$, we can now assume that: $$[d\varphi_{p}(E_{1}(p)),\dots,d\varphi_{p}(E_{m}(p))]=[e_{1},\dots,e_{m}]$$where $e_{1},..,e_{m}$ denotes the standard ordered basis in $\mathbb{R}^m$. Let $\mathcal{A}:=\{ (U_{p},\varphi_{p}):p\in M \}$ and let $(U,\varphi),(V,\psi)$ to be two such charts with an overlap $p\in U\cap V$. Then, for the respective local frame $(E_{i})$ and $(F_{i})$, we have that: $$[E_{1}(p),\dots,E_{m}(p)]=o(p)=[F_{1}(p),\dots,F_{m}(p)]$$and $$\begin{align}[d_{\varphi(p)}(\psi \circ \varphi ^{-1})(e_{1}),\dots,d_{\varphi(p)}(\psi \circ \varphi ^{-1})(e_{m})]&=[d\psi_{p}(E_{1}(p)),\dots,d\psi_{p}(E_{m}(p))]\\&=[d\psi_{p}(F_{1}(p)),\dots,d\psi_{p}(F_{m}(p))]\\&=[e_{1},\dots,e_{m}]\end{align}$$Therefore, $\psi \circ\varphi ^{-1}|_{\varphi(U\cap V)}$ is orientation preserving and $\mathcal{A}$ is an oriented atlas.
-> 2. Assume there exists an oriented atlas $\mathcal{A}$. For $p\in M$ with chart $(U,\varphi)\in \mathcal{A}$ with $p\in U$, we define the orientation as: $$o(p)=[d_{\varphi(p)}\varphi ^{-1}(e_{1}),\dots,d_{\varphi(p)}\varphi ^{-1}(e_{m})]$$We first show that this is well-defined. For $p$, let $(U,\varphi)$ and $(V,\psi)$ be two charts in $\mathcal{A}$ containing $p$. Then, as $\psi \circ\varphi ^{-1}$ is orientation preserving and $$d_{\varphi(p)}\varphi ^{-1}=d_{\varphi(p)}\psi ^{-1}\circ\psi \circ\varphi ^{-1}=d_{\psi(p)}\psi ^{-1}\circ d_{\varphi(p)}(\psi \circ \varphi ^{-1})$$we get the same pointwise orientation. Further, $p\mapsto d_{\varphi(p)}\varphi ^{-1}(e_{i})$ is a smooth vector field defined on $U$. 
+> 1. (1=>2): First, assume that $M$ is orientable with orientation $o$. For each $p\in M$, let $(U_{p},\varphi_{p})$ be a chart containing $p$. Modulo taking a subset we can assume that $U_{p}$ is connected and there exists a local frame $E_{1},\dots,E_{m}$ over $U_{p}$ s.t. $$o(p)=[E_{1}(p),\dots,E_{m}(p)],\quad \forall p\in U$$Now, let $\varphi_{p}=(x^1,\dots,x^m)$. As $U_{p}$ is connected, $\varphi_{p}$ is either orientation preserving or orientation reversing. Modulo switching the sign of $x^1$, we can now assume that: $$[d\varphi_{p}(E_{1}(p)),\dots,d\varphi_{p}(E_{m}(p))]=[e_{1},\dots,e_{m}]$$where $e_{1},..,e_{m}$ denotes the standard ordered basis in $\mathbb{R}^m$. Let $\mathcal{A}:=\{ (U_{p},\varphi_{p}):p\in M \}$ and let $(U,\varphi),(V,\psi)$ to be two such charts with an overlap $p\in U\cap V$. Then, for the respective local frame $(E_{i})$ and $(F_{i})$, we have that: $$[E_{1}(p),\dots,E_{m}(p)]=o(p)=[F_{1}(p),\dots,F_{m}(p)]$$and $$\begin{align}[d_{\varphi(p)}(\psi \circ \varphi ^{-1})(e_{1}),\dots,d_{\varphi(p)}(\psi \circ \varphi ^{-1})(e_{m})]&=[d\psi_{p}(E_{1}(p)),\dots,d\psi_{p}(E_{m}(p))]\\&=[d\psi_{p}(F_{1}(p)),\dots,d\psi_{p}(F_{m}(p))]\\&=[e_{1},\dots,e_{m}]\end{align}$$Therefore, $\psi \circ\varphi ^{-1}|_{\varphi(U\cap V)}$ is orientation preserving and $\mathcal{A}$ is an oriented atlas.
+> 2. (2=>1): Assume there exists an oriented atlas $\mathcal{A}$. For $p\in M$ with chart $(U,\varphi)\in \mathcal{A}$ with $p\in U$, we define the orientation as: $$o(p)=[d_{\varphi(p)}\varphi ^{-1}(e_{1}),\dots,d_{\varphi(p)}\varphi ^{-1}(e_{m})]$$We first show that this is well-defined. For $p$, let $(U,\varphi)$ and $(V,\psi)$ be two charts in $\mathcal{A}$ containing $p$. Then, as $\psi \circ\varphi ^{-1}$ is orientation preserving and $$d_{\varphi(p)}\varphi ^{-1}=d_{\varphi(p)}\psi ^{-1}\circ\psi \circ\varphi ^{-1}=d_{\psi(p)}\psi ^{-1}\circ d_{\varphi(p)}(\psi \circ \varphi ^{-1})$$we get the same pointwise orientation. Further, $p\mapsto d_{\varphi(p)}\varphi ^{-1}(e_{i})$ is a smooth vector field defined on $U$. 
+> 3. (1=>3): Let $M$ be orientable with orientation $o$. We will show that this is continuous. Let $p\in M$ and let $(p,o_{p})\in \text{O}M$. Further, let $\text{O}U_{o_{U}}$ be an open neighborhood of $(p,o_{p})$. Then, let $U$ be the open neighborhood of $p$ with a continuous local  
 ---
 
 

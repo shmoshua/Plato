@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Orientable Manifold.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -111,24 +111,12 @@
             }
           },
           {
-            "id": "019afc06ab0d57a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Local Homeomorphism.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "78dbef2309a405bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Multilinear k-Form.md",
+                "file": "Topology/Continuous Function.md",
                 "mode": "preview",
                 "source": true
               }
@@ -313,18 +301,20 @@
   },
   "active": "20cdf9a6d9e41692",
   "lastOpenFiles": [
-    "Topology/Local Homeomorphism.md",
+    "Topology/Continuous Function.md",
+    "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Orientation.md",
+    "Differential Geometry/Multilinear k-Form.md",
+    "Topology/Covering Space.md",
+    "Differential Geometry/Orientable Manifold.md",
+    "Topology/Local Homeomorphism.md",
     "Topology/Base of Topology.md",
     "Topology/Locally Connected Space.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Vector Field.md",
-    "Differential Geometry/Orientable Manifold.md",
     "Differential Geometry/Orientable Double Cover.md",
     "Differential Geometry/Local Frame.md",
-    "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Exterior Algebra.md",
-    "Differential Geometry/Multilinear k-Form.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Measure Theory/Diffeomorphism.md",
     "Algebra/Alternating Group.md",
@@ -337,8 +327,6 @@
     "Topology/Real Projective Space.md",
     "Topology/Quotient Topology.md",
     "Topology/Hausdorff Space.md",
-    "Algebra/Orbit and Stablizer.md",
-    "Differential Geometry/Atlas.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
