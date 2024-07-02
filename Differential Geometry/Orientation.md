@@ -51,7 +51,7 @@
 > 2. $M$ admits an ***oriented atlas***, i.e. an [[atlas]] $\mathcal{A}$ on $M$ where for any two overlapping charts $(U,\varphi),(V,\psi)$, $$\det d_{p}(\psi \circ \varphi ^{-1}|_{\varphi(U\cap V)})>0,\quad \forall p\in\varphi(U\cap V)$$
 
 > [!proof]+
-> First, assume that $M$ is orientable. For each $p\in M$, we can choose a chart $(U_{p},\varphi_{p})$ s.t. $U$ is connected and there exists a local frame  $E_{1},\dots,E_{m}$ over $U$ s.t. $$o(p)=[E_{1}(p),\dots,E_{m}(p)],\quad \forall p\in U$$Then, $\varphi_{p}$ is a diffeomorphism and thereby a local diffeomorphism. Hence, $\varphi_{p}$ is either orientation preserving or orientation reversing. Let $\mathcal{A}:=\{ (U_{p},\varphi_{p}):p\in M \}$ and let $(U,\varphi),$
+> First, assume that $M$ is orientable. For each $p\in M$, we can choose a chart $(U_{p},\varphi_{p})$ s.t. $U$ is connected and there exists a local frame  $E_{1},\dots,E_{m}$ over $U$ s.t. $$o(p)=[E_{1}(p),\dots,E_{m}(p)],\quad \forall p\in U$$Then, $\varphi_{p}$ is a diffeomorphism and thereby a local diffeomorphism. Hence, $\varphi_{p}$ is either orientation preserving or orientation reversing. Let $\mathcal{A}:=\{ (U_{p},\varphi_{p}):p\in M \}$ and let $(U,\varphi),(V,\psi)$ to be two such charts with an overlap $p\in U\cap V$. Then, for the respective local frame $(E_{i})$ and $(F_{i})$, we have that: $$[E_{1}(p),\dots,E_{m}(p)]=o(p)=[F_{1}(p),\dots,F_{m}(p)]$$We claim that $\varphi$ and $\psi$ are either both OP or both OR. Assume they are not. Then, we have: $$[d_{p}\varphi(E_{1}(p)),\dots,d_{p}\varphi(E_{m}(p))]\not\sim[d_{p}\psi(E_{1}(p)),\dots,d_{p}\psi(E_{m}(p))]$$
 ---
 ##### Examples
 > [!h] Example 1
