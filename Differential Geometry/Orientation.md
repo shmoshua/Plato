@@ -4,10 +4,13 @@
 > We have that:
 > 1. an ***orientation*** of a $n$-dimensional $\mathbb{R}$-vector space $V$ is an equivalence class on the set of ordered bases $(E_{1},\dots,E_{n})$ of $V$ given by: $$(E_{1},\dots,E_{n})\sim(E'_{1},\dots,E'_{n})\iff \det(B)>0$$where $B$ is the change of basis matrix from $(E_{1},\dots,E_{n})$ to $(E'_{1},\dots,E'_{n})$.
 > 2. an ***orientable (double) cover*** of a [[smooth manifold]] $M$ is $\text{O}M:=\bigsqcup_{p\in M}^{}\text{O}_{p}M$ where $\text{O}_{p}M$ is the set of orientations of $\text{T}_{p}M$.
-> 3. an ***orientation*** of a smooth manifold $M$ is a map $o:M\to \text{O}M$ with $o(p)\in \text{O}_{p}M$ s.t. for all $p\in M$, there exists a [[local frame]] on $U\ni p$
+> 3. an ***orientation*** of a smooth manifold $M$ is a map $o:M\to \text{O}M$ with $o(p)\in \text{O}_{p}M$ s.t. for all $p\in M$, there exists a [[local frame]] $E_{1},\dots,E_{m}$ of $M$ over an open $U\ni p$ s.t. $$o(p)=[E_{1}(p),\dots,E_{m}(p)],\quad \forall p\in U$$
 - **Notation**: The orientation of an ordered basis $(E_{1},\dots,E_{n})$ is denoted as $[E_{1},\dots,E_{n}]$ and $-[E_{1},\dots,E_{n}]$ denotes the opposite orientation. 
 - **Related definition**: An ***oriented vector space*** $(V,o)$ is a vector space $V$ equipped with an orientation.
-- 
+- **Related definition**: A smooth manifold is ***orientable***, if it admits an orientation. ***Non-orientable*** otherwise. A smooth manifold $M$ equipped with an orientation $o$ is an ***oriented manifold*** $(M,o)$.
+- **Related definition**: A [[local diffeomorphism]] $f:(M,o_{M})\to(N,o_{N})$ is called:
+	1. ***orientation-preserving*** if $d_{p}f:(\text{T}_{p}M,o_{M}(p))\to(\text{T}_{f(p)}N,o_{N}(f(p)))$ is orientation-preserving for all $p\in M$.
+	2. ***orientation-reversing*** if $d_{p}f$ is orientation-reversing for all $p\in M$.
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Orientation is Well-defined)
@@ -27,3 +30,15 @@
 > [!proof]-
 > Let $(E_{i}),(F_{i})\in \mathcal{O}_{\omega}$. Then, let $B\in \mathcal{B}(V)$ be the linear map sending $E_{i}$ to $F_{i}$, i.e. $F_{i}=BE_{i}$ for all $i$. Therefore, $$\omega(F_{1},\dots,F_{n})=\omega(BE_{1},\dots,BE_{n})=\det(B)\omega(E_{1},\dots,E_{n})$$Therefore, $\det(B)>0$ and $(E_{i})\sim (F_{i})$.
 ---
+> [!lemma] Proposition 3
+> Let $f:(M,o_{M})\to(N,o_{N})$ be a [[local diffeomorphism]].
+> 1. if $M$ is connected, $f$ is either orientation preserving or orientation reversing.
+
+> [!proof]+
+> Let $p\in M$ and check if $d_{p}f$ is orientation preserving or reversing. Wlog we may assume that it is preserving. 
+---
+##### Examples
+> [!h] Example 1
+> We have:
+> 1. $S^2$, $\mathbb{T}^2$ are orientable.
+> 2. The Klein bottle $K^2$ and the Möbius strip $S$ are not orientable.
