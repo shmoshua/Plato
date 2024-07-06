@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,24 +80,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
         "type": "tabs",
         "children": [
-          {
-            "id": "1d45af889d3c44b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Orientable Double Cover.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
           {
             "id": "20cdf9a6d9e41692",
             "type": "leaf",
@@ -116,31 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4db66045bdcf0af7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fa1a75ac3079dcdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,9 +116,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Quaternion.md",
+                "file": "Differential Geometry/Rank.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           },
@@ -164,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Connected Space.md",
+                "file": "Differential Geometry/Local Diffeomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -200,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "frame",
+                "query": "inverse function theorem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,7 +181,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -237,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Orientation.md",
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Orientation.md",
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Orientation.md"
+                "file": "Differential Geometry/Immersion and Submersion.md"
               }
             }
           }
@@ -299,34 +264,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "20cdf9a6d9e41692",
+  "active": "78dbef2309a405bd",
   "lastOpenFiles": [
-    "Topology/Continuous Function.md",
     "Differential Geometry/Local Diffeomorphism.md",
-    "Differential Geometry/Orientation.md",
-    "Differential Geometry/Multilinear k-Form.md",
+    "Differential Geometry/Rank.md",
+    "Differential Geometry/Immersion and Submersion.md",
+    "Algebra/Quaternion.md",
+    "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Sphere.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Topology/Real Projective Space.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Smooth Atlas.md",
+    "Topology/Locally Connected Space.md",
     "Topology/Covering Space.md",
+    "Topology/Continuous Function.md",
+    "Differential Geometry/Orientation.md",
+    "Differential Geometry/Orientable Double Cover.md",
+    "Differential Geometry/Multilinear k-Form.md",
     "Differential Geometry/Orientable Manifold.md",
     "Topology/Local Homeomorphism.md",
     "Topology/Base of Topology.md",
-    "Topology/Locally Connected Space.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Vector Field.md",
-    "Differential Geometry/Orientable Double Cover.md",
     "Differential Geometry/Local Frame.md",
     "Differential Geometry/Exterior Algebra.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Measure Theory/Diffeomorphism.md",
     "Algebra/Alternating Group.md",
-    "Differential Geometry/Sphere.md",
-    "Differential Geometry/Immersion and Submersion.md",
-    "local frame.md",
-    "Differential Geometry/Volume Form.md",
-    "Algebra/Properly Discontinuous Action.md",
-    "Algebra/Quaternion.md",
-    "Topology/Real Projective Space.md",
-    "Topology/Quotient Topology.md",
-    "Topology/Hausdorff Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

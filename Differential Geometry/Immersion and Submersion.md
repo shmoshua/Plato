@@ -6,6 +6,10 @@
 > 2. $f$ is an ***submersion*** if $d_{p}f$ is surjective for all $p\in M$.
 - **Remark**: If $f$ is a immersion, $m\leq n$ and if $f$ is a submersion, $m\geq n$.
 ---
+##### Properties
+> [!lemma] Theorem 1 (Local Immersion Theorem)
+> Let $f:M\to N$ be a smooth map between smooth manifolds and $p\in M$.
+> 1. if $d_{p}f$ is injective, then there exists local coordinates $\varphi:=(x^1,\dots,x^m)$ at $p$ and $\psi:=(y^1,\dots,y^n)$ at $f(p)$ s.t. $$\psi f\varphi ^{-1}(x)$$
 ##### Examples
 > [!h] Example 1 (Immersion)
 > Let $\gamma:\mathbb{R}\to \mathbb{R}^{2},t\mapsto(t^2,t^3-t)$ be a [[Regular Curve in Rn|regular curve]]. Then, 
