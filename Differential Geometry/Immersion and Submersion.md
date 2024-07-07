@@ -15,6 +15,10 @@
 > Let $(U,\varphi)$ and $(V,\psi)$ be two charts at $p$ and $f(p)$ with $f(U)\subseteq V$. Then, consider $$g:=\psi f\varphi ^{-1}:\varphi(U)\to \psi(V)$$As $d_{\varphi(p)}g:\mathbb{R}^m\to \mathbb{R}^n$ is injective, there exists a basis $\mathcal{B}$ s.t. $d_{0}g$ is a $n\times m$-matrix with: $$\begin{bmatrix}I_{m}\\0\end{bmatrix}\in \text{Mat}_{n,m}(\mathbb{R})$$We now augment $g$ to $G$ defined as: $$G:\varphi(U)\times \mathbb{R}^{n-m}\to \mathbb{R}^{n},\quad (x,z)=g(x)+(0,z)$$with $d_{0}G:\mathbb{R}^n\to \mathbb{R}^n$ represented as: $$\begin{bmatrix}I_{m}&0\\0&I_{n-m}\end{bmatrix}=I_{n}\in \text{Mat}_{n,n}(\mathbb{R})$$Therefore, by [[Smooth Function|Inverse function theorem]], there exists open neighborhoods $U_{1}\times U_{2}\subseteq \varphi(U)\times \mathbb{R}^{n-m}$ and $W\subseteq \mathbb{R}^{n}$ s.t. $G|_{U_{1}\times U_{2}}$ is a diffeomorphism at $0$ with $G(0)=0$. 
 > 
 > Let $\Psi:=(G|_{U_{1}\times U_{2}})^{-1}\circ\psi:V\cap \psi ^{-1}(W)\to \Psi(V\cap \psi ^{-1}(W))$, which is a valid chart for $N$ at $f(p)$ as $\Psi(f(p))=0$. Therefore, we have that: $$\Psi f\varphi ^{-1}(x^1,\dots,x^m)=G(x^1,\dots,x^m,0,\dots,0)=(x^1,\dots,x^m,0,\dots,0)$$which proves the statement.
+- **Corollary**: The set $\mathcal{I}:=\{ p\in M: d_{p}f\text{ is injective}\}$ is open and $f|_{\mathcal{I}}$ is an immersion.
+---
+> [!lemma] Corollary 2 (An immersion is locally an embedding)
+> Let $f:M\to N$ be an immersion and $p\in M$. There exists an open neighborhood $U\ni p$ s.t. $f|_{U}:U\to f(U)$ is an embedding. 
 ---
 ##### Examples
 > [!h] Example 1 (Immersion)
