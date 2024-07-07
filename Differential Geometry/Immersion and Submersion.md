@@ -10,6 +10,9 @@
 > [!lemma] Theorem 1 (Local Immersion Theorem)
 > Let $f:M\to N$ be a smooth map between smooth manifolds and $p\in M$.
 > 1. if $d_{p}f$ is injective, then there exists local coordinates $\varphi:=(x^1,\dots,x^m)$ at $p$ and $\psi:=(y^1,\dots,y^n)$ at $f(p)$ s.t. $$\psi f\varphi ^{-1}(x^1,\dots,x^m)=(x^1,\dots,x^m,0,\dots,0)$$
+
+> [!proof]+
+> Let $(U,\varphi)$ and $(V,\psi)$ be two charts at $p$ and $f(p)$ with $f(U)\subseteq V$. Then, consider $$g:=\psi f\varphi ^{-1}:\varphi(U)\to \psi(V)$$As $d_{\varphi(p)}g:\mathbb{R}^m\to \mathbb{R}^n$ is injective, there exists 
 ---
 ##### Examples
 > [!h] Example 1 (Immersion)
