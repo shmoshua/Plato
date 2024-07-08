@@ -18,7 +18,15 @@
 - **Corollary**: The set $\mathcal{I}:=\{ p\in M: d_{p}f\text{ is injective}\}$ is open and $f|_{\mathcal{I}}$ is an immersion.
 ---
 > [!lemma] Corollary 2 (An immersion is locally an embedding)
-> Let $f:M\to N$ be an immersion and $p\in M$. There exists an open neighborhood $U\ni p$ s.t. $f|_{U}:U\to f(U)$ is an embedding. 
+> Let $f:M\to N$ be a smooth map between smooth manifolds. TFAE:
+> 1. $f$ is an immersion.
+> 2. For any $p\in M$, there exists an open neighborhood $U\ni p$ s.t. $f|_{U}:U\to f(U)$ is an embedding of $N$.
+
+> [!proof]+
+> We have:
+> 1. (1=>2): If $f$ is an immersion, let $p\in M$. Then $d_{p}f$ is injective and by the local immersion theorem, there exists $(U,\varphi)$ at $p$ and $(V,\psi)$ at $f(p)$ with $f(U)\subseteq V$ s.t. $$\psi f\varphi ^{-1}(x^1,\dots,x^m)=(x^1,\dots,x^m,0,\dots,0)$$Then, $f:U\to f(U)$ is of course injective and surjective. Hence, $f$ is a diffeomorphism. 
+>    
+>    Let $q\in U$. Then, we have that $\psi(f(q))=(x^1(q),\dots,x^m(q),0,\dots,0)$. Modulo translating by a constant and taking a preimage $V$ of $(-\varepsilon,\varepsilon)^n$ and taking $U\cap f^{-1}(V)$, we have that $\psi$ is a chart that meets the c
 ---
 ##### Examples
 > [!h] Example 1 (Immersion)
