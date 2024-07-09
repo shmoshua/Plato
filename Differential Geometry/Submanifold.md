@@ -24,20 +24,14 @@
 > [!lemma] Proposition 2 (Embedding <=> Homeomorphism, Immersion)
 > Let $M,N$ be smooth manifolds and $f\in C^\infty(N,M)$. TFAE:
 > 1. $f$ is a homeomorphism onto $f(N)$ and $f$ is an [[Immersion and Submersion|immersion]].
-> 2. $f:N\to f(N)$ is a diffeomorphism and $f(N)$ is a regular submanifold, i.e. $f$ is an embedding.
-
-> [!proof]+
-> We have:
-> 1. (1=>2): Assume $f$ is a homeomorphism onto $f(N)$ and $f$ is an immersion. By [[Immersion and Submersion|Corollary 2]], for any $p\in M$, there exists open $U\ni p$ with $f|_{U}:U\to f(U)$ is an embedding of $N$.  Hence, $f|_{U}$ is a diffeomorphism and $f(U)$ is open as $f$ is a homeomorphism. This shows that $f$ is a bijective local diffeomorphism, which by [[Local Diffeomorphism|Proposition 2]] is a diffeomorphism.
->    
->    To show that $f(N)$ is a regular submanifold, 
----
-> [!lemma] Proposition 2 (Embedded submanifold => Regular submanifold)
-> Let $M,N$ be smooth manifolds and $f\in C^\infty(N,M)$ a diffeomorphism. If $f(N)$ is an embedded submanifold of $M$, then $f(N)$ is a regular $n$-submanifold.
+> 2. $f$ is an embedding, i.e. $f:N\to f(N)$ is a diffeomorphism and $f(N)$ is a regular submanifold.
 
 > [!proof]-
-> Since $f$ is an homeomorphism onto its image, for any open $V\subseteq N$, there exists $W\subseteq M$ with $f(V)\subseteq W\cap f(N)$. Then, as $f$ is constant rank, by [[Smooth Function|Corollary of Theorem 4]], we can choose charts $(V,\varphi)$ and $(W,\psi)$ centered at $p$ and $f(p)$ respectively s.t. $f(V)\subseteq W\cap f(N)$ and $\varphi(V)=(-\varepsilon,\varepsilon)^n$ and $\psi(W)=(-\varepsilon,\varepsilon)^m$ with: $$\psi f\varphi^{-1}:(-\varepsilon,\varepsilon)^n\to(-\varepsilon,\varepsilon)^m,\quad x\mapsto(x,0)$$Therefore, $\psi(W\cap f(N))=\{ y\in (-\varepsilon,\varepsilon)^m:y_{n+1}=\dots=y_{m}=0 \}$ and $f(N)$ is a regular $n$-submanifold.
-- **Corollary**: A subset $N\subseteq M$ is a regular $n$-submanifold if and only if $N$ is an embedded submanifold of dimension $n$ w.r.t. inclusion $i:N\to M$.
+> We have:
+> 1. (1=>2): Assume $f$ is a homeomorphism onto $f(N)$ and $f$ is an immersion. By [[Immersion and Submersion|Corollary 2]], for any $p\in M$, there exists open $U\ni p$ with $f|_{U}:U\to f(U)$ is an embedding of $N$.  Hence, $f|_{U}$ is a diffeomorphism and $f(U)$ is open in $f(N)$ as $f$ is a homeomorphism. This shows that $f$ is a bijective local diffeomorphism, which by [[Local Diffeomorphism|Proposition 2]] is a diffeomorphism.
+>    
+>    To show that $f(N)$ is a regular submanifold, let $p\in N$ and as $f$ is an immersion by [[Immersion and Submersion|local immersion theorem]] there exists charts $(U,\varphi)$ at $p$ and $(V,\psi)$ at $f(p)$ s.t. $$\psi f\varphi ^{-1}(x^1,\dots,x^n)=(x^1,\dots,x^n,0,\dots,0)$$Since $f$ is a homeomorphism onto its image, $f(U)$ is open in $f(N)$. therefore, there exists an open set $W\subseteq M$ s.t. $f(U)=W\cap f(N)$. Consider $(V\cap W,\psi|_{V\cap W})$. We have that $\psi(f(p))=0$, $$\psi(V\cap W\cap f(N))=\psi(V\cap f(U))=\psi(V)\cap \psi(f(U))\subseteq \psi(V)\cap (\mathbb{R}^n\times \{ 0 \})$$Modulo taking a smaller set, we get that $f(N)$ is a regular submanifold.
+> 2. (2=>1): As $f$ is a diffeomorphism it is a homeomorphism. Further, $f$ is an immersion as $d_{p}f$ is always injective.
 
 ---
 ##### Examples
