@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Immersion and Submersion.md",
+                "file": "Differential Geometry/Proper Map.md",
                 "mode": "source",
                 "source": true
               }
@@ -73,14 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Orientation.md",
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Orientation.md",
+                "file": "Differential Geometry/Proper Map.md",
                 "mode": "preview",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -147,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Submanifold.md"
+                "file": "Differential Geometry/Immersion and Submersion.md"
               }
             }
           }
@@ -275,14 +275,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3ffd7b76f233b2fb",
+  "active": "1173ce41849d1ffb",
   "lastOpenFiles": [
+    "Differential Geometry/Orientation.md",
     "Differential Geometry/Immersion and Submersion.md",
+    "Differential Geometry/Proper Map.md",
+    "Topology/Compact Space.md",
+    "Topology/Continuous Function.md",
+    "Topology/Homeomorphism.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Function.md",
-    "Differential Geometry/Orientation.md",
     "Differential Geometry/Rank.md",
     "Algebra/Quaternion.md",
     "Differential Geometry/Sphere.md",
@@ -292,7 +296,6 @@
     "Differential Geometry/Smooth Atlas.md",
     "Topology/Locally Connected Space.md",
     "Topology/Covering Space.md",
-    "Topology/Continuous Function.md",
     "Differential Geometry/Orientable Double Cover.md",
     "Differential Geometry/Multilinear k-Form.md",
     "Differential Geometry/Orientable Manifold.md",
@@ -300,9 +303,6 @@
     "Topology/Base of Topology.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Local Frame.md",
-    "Differential Geometry/Exterior Algebra.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Measure Theory/Diffeomorphism.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

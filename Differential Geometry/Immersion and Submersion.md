@@ -20,7 +20,7 @@
 > [!lemma] Corollary 2 (An immersion is locally an embedding)
 > Let $f:M\to N$ be a smooth map between smooth manifolds. TFAE:
 > 1. $f$ is an immersion.
-> 2. For any $p\in M$, there exists an open neighborhood $U\ni p$ s.t. $f|_{U}:U\to f(U)$ is an embedding of $N$.
+> 2. For any $p\in M$, there exists an open neighborhood $U\ni p$ s.t. $f|_{U}:U\to f(U)$ is an [[Submanifold|embedding]] of $N$.
 
 > [!proof]-
 > We have:
@@ -28,6 +28,23 @@
 >    
 >    Let $q\in U$. Then, we have that $\psi(f(q))=(x^1(q),\dots,x^m(q),0,\dots,0)$. Modulo translating by a constant and taking a preimage $V$ of $(-\varepsilon,\varepsilon)^n$ and taking $U\cap f^{-1}(V)$, we have that $\psi$ is a chart that gives $f(U)$ a submanifold structure. 
 >  2. (2=>1): If every poiint has a neighborhood where $f$ is an embedding, $f$ has full rank everywhere so it is an immersion.
+---
+![[Submanifold#^77709c]]
+![[Submanifold#^ff863e|p]]
+
+---
+> [!lemma] Proposition 3 (Compact Manifold Embedding)
+> Let $f\in C^\infty(M,N)$ where $f$ is an injective immersion Then, 
+> 1. if $M$ is [[Compact Space|compact]], then $f$ is an embedding.
+> 2. if $f$ is [[Proper Map|proper]], then $f$ is an embedding.
+
+> [!proof]+
+> We have that 
+> 1. $f:M\to f(M)$ is a continuous bijection. As $M$ is compact and $f(M)\subseteq N$ is Hausdorff, by [[Compact Space|Proposition 1]], $f:M\to f(M)$ is a homeomorphism.
+>    
+>    Hence, by [[Submanifold|Proposition 2]], $f$ is an embedding. 
+> 2. 
+
 ---
 ##### Examples
 > [!h] Example 1 (Immersion)
