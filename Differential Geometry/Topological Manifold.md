@@ -65,11 +65,13 @@
 > [!proof]-
 > As $M$ is Hausdorff, it suffices to show that every point has a compact neighborhood. Let $p\in M$. Then, let $(U,\varphi)$ be the chart containing $p$. Then, there exists $r>0$ s.t. $B:=B_{<r}(\varphi(p))\subseteq \varphi(U)$. Further, $\varphi ^{-1}(\overline{B})$ is a compact neighborhood of $p$. 
 ---
-> [!lemma] Proposition 2 (Equivalence of Second countability)
+> [!lemma] Proposition 2 (Equivalence of Second Countability)
 > Let $M$ be a Hausdorff space that is locally homeomorphic to $\mathbb{R}^m$. Then, TFAE:
 > 1. $M$ is second countable.
 > 2. $M$ has a countable atlas.
 > 3. $M$ is $\sigma$-compact.
+> 4. $M$ is a countable union of second countable connected components.
+> 5. $M$ is paracompact and separable.
 
 > [!proof]-
 > We have:
@@ -80,15 +82,14 @@
 > 4. (1=>3): By local compactness, for each $p\in M$, there exists $p\in U_{p}$ with $\overline{U_{p}}$ compact. Further, for the countable base $\{ V_{n} \}_{n}$, there exists $p\in V_{n}\subseteq U_{p}$. Therefore, $\overline{V_{n}}\subseteq \overline{U_{p}}$ and as $\overline{U_{p}}$ is compact, so is $\overline{V_{n}}$. Therefore, $\{ \overline{V_{n}} \}_{n}$ is a countable cover of $M$ of compact sets.
 > 5. (3=>1): Let $\{ K_{n} \}_{n}$ be countable compact sets s.t. $M=\bigcup_{n}^{}K_{n}$. Wlog we may assume that they are all non-empty. For each $p\in M$, let $(U,\varphi)$ be the chart containing $p$. Then, for each $k\in \mathbb{N}$, we can define $U_{p,k}:=\varphi ^{-1}(B_{< 1/k}(\varphi(p)))$ where $B_{< 1/k}(\varphi(p))\subseteq \varphi(U)$. It follows that for each $k$, $$K_{n}=\bigcup_{p\in K_{n}}^{}U_{p,k}$$and there exists a finite subcover. Hence, for each $k$ there exists a countable cover. Unioning over all $k\in \mathbb{N}$ gives us a countable basis. 
 ---
-> [!lemma] Proposition 3 (Second countability and Paracompactness)
-> Let $M$ be a Hausdorff space that is locally homeomorphic to $\mathbb{R}^m$. Then,
-> 1. if $M$ is second countable then $M$ is paracompact.
-> 2. if $M$ is paracompact and connected, then $M$ is second countable.
+> [!lemma] Proposition 3 (Equivalence of  Paracompactness)
+> Let $M$ be a Hausdorff space that is locally homeomorphic to $\mathbb{R}^m$. Then, TFAE:
+> 1. $M$ is paracompact.
+> 2. $M$ is an arbitrary union of second countable connected components.
+
 
 > [!proof]- Proof (Incomplete)
 > We have that:
-> 1. By [[Paracompact Space|Example 2]], every second countable locally compact Hausdorff space is paracompact.
-> 2. For any chart $(U,\varphi)$, $U$ is second countable as 
 
 ---
 ##### Examples

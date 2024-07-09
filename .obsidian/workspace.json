@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Second Countable Space.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Second Countable Space.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Second Countable Space.md"
+                "file": "Differential Geometry/Topological Manifold.md"
               }
             }
           }
@@ -287,7 +287,7 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3f3f319995ee805b",
+  "active": "3ffd7b76f233b2fb",
   "lastOpenFiles": [
     "Topology/Separable Space.md",
     "Topology/Second Countable Space.md",
