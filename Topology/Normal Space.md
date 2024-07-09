@@ -59,5 +59,6 @@
 > [!h] Example 3
 > Any [[Paracompact Space|paracompact]] Hausdorff space is normal.
 
-> [!proof]+
-> 
+> [!proof]-
+> [[Paracompact Space|Theorem 1]]
+---

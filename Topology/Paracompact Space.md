@@ -11,9 +11,16 @@
 > 1. $X$ is regular. 
 > 2. $X$ is normal.
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. Let $x\in X$ and $A\subseteq X$ a closed set that does not contain $x$. Then, for any $y\in A$, by Hausdorffness, we can define $U_{y},V_{y}$ disjoint open neighborhoods of $x$ and $y$ respectively. Therefore, $\{ V_{y} \}_{y\in A}\cup \{ X \backslash A \}$ is an open cover of $X$ and by paracompactness, there exists a locally finite cover $\{ W_{\beta} \}_{\beta}$. 
+> 1. Let $x\in X$ and $A\subseteq X$ a closed set that does not contain $x$. Then, for any $y\in A$, by Hausdorffness, we can define $U_{y},V_{y}$ disjoint open neighborhoods of $x$ and $y$ respectively. Therefore, $\{ V_{y} \}_{y\in A}\cup \{ X \backslash A \}$ is an open cover of $X$ and by paracompactness, there exists a locally finite refinement $\{ W_{\alpha} \}_{\alpha}$ s.t. without loss of generality $W_{y}\subseteq V_{y}$.
+>    
+>    By defining $W:=\bigcup_{y\in A}^{}W_{y}$ we have an open neighborhood of $A$. However, by local finiteness, there exists an open neighborhood $U\ni x$ and finite subset $K\subseteq A$ s.t. $U\cap V_{y}$ for all $y\in K$. Therefore, by defining $V:=U\cap \bigcap_{y\in K}^{}U_{y}$ we have that: $$V\cap W=\varnothing$$which shows the regularity.
+>  2. Let $A,B\subseteq X$ be disjoint closed subsets. For every $a\in A$, there exist disjoint open sets $U_{a}\ni a$ and $V_{a}\supseteq B$ by regularity. Similarly, we have an open cover $\{ U_{a} \}_{a\in A}\cup \{ X \backslash A \}$ and a locally finite refinement $\{ V_{a} \}_{a\in A}$ that cover $A$. Let $V:=\bigcup_{a\in A}^{}V_{a}$. 
+>     
+>     For any $b\in B$, there exists open $W_{b}\ni b$ and a finite set $K\subseteq A$ s.t. $W_{b}\cap U_{a}= \varnothing$ for $a\notin K$. Then, $D_{b}:=W_{b}\cap \bigcap_{a\in K}^{}V_{a}$ does not intersect $V$.
+>     
+>	Therefore, $W:=\bigcup_{b\in B}^{}D_{b}$ is an open neighborhood of $B$ s.t. $V\cap W=\varnothing$.  This shows the normality.  	
 ---
 ##### Examples
 > [!h] Example 1

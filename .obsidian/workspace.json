@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Topology/Normal Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -134,8 +134,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Differential Geometry/Partition of Unity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Differential Geometry/Partition of Unity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Paracompact Space.md"
+                "file": "Differential Geometry/Partition of Unity.md"
               }
             }
           }
@@ -263,13 +262,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9da1f925d695969f",
+  "active": "20cdf9a6d9e41692",
   "lastOpenFiles": [
+    "Topology/Paracompact Space.md",
     "Topology/Normal Space.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Proper Map.md",
     "Topology/Regular Space.md",
-    "Topology/Paracompact Space.md",
     "Differential Geometry/Partition of Unity.md",
     "Topology/Second Countable Space.md",
     "Differential Geometry/Topological Manifold.md",
