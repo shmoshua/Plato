@@ -34,17 +34,16 @@
 
 ---
 > [!lemma] Proposition 3 (Compact Manifold Embedding)
-> Let $f\in C^\infty(M,N)$ where $f$ is an injective immersion Then, 
+> Let $f\in C^\infty(M,N)$ where $f$ is an injective immersion. Then, 
+> 1. if $f$ is [[Proper Map|proper]], then $f$ is an embedding.
 > 1. if $M$ is [[Compact Space|compact]], then $f$ is an embedding.
-> 2. if $f$ is [[Proper Map|proper]], then $f$ is an embedding.
 
-> [!proof]+
-> We have that 
-> 1. $f:M\to f(M)$ is a continuous bijection. As $M$ is compact and $f(M)\subseteq N$ is Hausdorff, by [[Compact Space|Proposition 1]], $f:M\to f(M)$ is a homeomorphism.
+> [!proof]-
+> We have that:
+> 1. If $f$ is proper, then it is closed by [[Proper Map|Proposition 1]] because topological manifolds are locally compact. Therefore, $f:M\to f(M)$ is a closed continuous bijection, which is a homeomorphism. Hence, by [[Submanifold|Proposition 2]], $f$ is an embedding. 
+> 2. For any $K\subseteq N$ compact, $K$ is closed and $f^{-1}(K)$ is closed as well. However, as $M$ is compact, $f^{-1}(K)$ is compact and hence $f$ is proper. This proves the statement.
 >    
->    Hence, by [[Submanifold|Proposition 2]], $f$ is an embedding. 
-> 2. 
-
+>    Alternatively, as $M$ is compact and $f(M)\subseteq N$ is Hausdorff, by [[Compact Space|Proposition 1]], $f:M\to f(M)$ is a homeomorphism.
 ---
 ##### Examples
 > [!h] Example 1 (Immersion)
