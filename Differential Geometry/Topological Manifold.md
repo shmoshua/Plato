@@ -3,7 +3,7 @@
 > [!definition]
 > A ***topological manifold $M$ of dimension $m$*** is a [[topological space]] that is:
 > 1. [[Hausdorff Space|Hausdorff]] $(T_{2})$ 
-> 2. **second countable**: the topology admits a countable basis $\mathcal{B}=\{ U_{n} \}_{n}$
+> 2. **second countable**: the topology admits a countable base $\mathcal{B}=\{ U_{n} \}_{n}$
 > 3. **locally homeomorphic to $\mathbb{R}^m$**: every point $p\in M$ admits an open neighborhood $U\subseteq M$ s.t. $\varphi :U\to \varphi(U)\subseteq\mathbb{R}^m$ is a [[homeomorphism]] and $\varphi(U)\subseteq \mathbb{R}^m$ is open.
 - **Related definition**: In a topological manifold $M$, we have:
   1. a ***chart*** $(U,\varphi)$, i.e. a homeomorphism $\varphi:U\to\varphi(U)\subseteq \mathbb{R}^m$
@@ -58,9 +58,26 @@
 - **Related definition**: Two charts $(U_{\alpha},\varphi_{\alpha}),(U_{\beta},\varphi_{\beta})$ are ***$C^k$-compatible***, if $\theta_{\beta\alpha},\theta_{\alpha\beta}\in C^k$.
 ---
 ##### Properties
-> [!lemma] Proposition 1
-> A topological manifold as a finitely many connected components.
+> [!lemma] Proposition 1 (Equivalence of Second countability)
+> Let $M$ be a Hausdorff space that is locally homeomorphic to $\mathbb{R}^m$. Then, TFAE:
+> 1. $M$ is second countable.
+> 2. $M$ has a countable atlas.
+> 3. $M$ is $\sigma$-compact.
+
+> [!proof]+
+> We have:
+> 1. (1=>2): Let $\{ U_{n} \}_{n}$ be the countable base and $(V_{\alpha},\varphi_{\alpha})_{\alpha\in I}$ be an arbitrary atlas. Modulo taking a subsequence, we can assume that there exists $\alpha\in I$ for each $n$ s.t. $U_{n}\subseteq V_{\alpha}$. Define this $V_{\alpha}$ to be $V_{n}$. Then, $(V_{n},\varphi_{n})$ is a countable atlas. 
+>    
+>    For any $p\in M$, there exists $V_{\alpha}\ni p$ and there exists $p\in U_{n}\subseteq V_{\alpha}$. Then, $p\in V_{n}$.
+> 2. (2=>1): For each atlas, we have a countable base given by $\mathbb{R}^m$. Therefore, we have a countable base for $M$.
+> 3. (1=>3): 
 ---
+> [!lemma] Proposition 2 (Second countability and Paracompactness)
+> Let $M$ be a Hausdorff space that is locally homeomorphic to $\mathbb{R}^m$. Then,
+> 1. if $M$ is second countable then $M$ is paracompact.
+> 2. if $M$ is paracompact and connected, then $M$ is second countable
+---
+
 ![[Paracompact Space#^8754e4]]
 
 ---

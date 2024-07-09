@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "source",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "preview",
                 "source": false
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Paracompact Space.md"
+                "file": "Differential Geometry/Topological Manifold.md"
               }
             }
           }
@@ -277,8 +277,9 @@
   },
   "active": "3ffd7b76f233b2fb",
   "lastOpenFiles": [
-    "Topology/Second Countable Space.md",
     "Topology/Paracompact Space.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Topology/Second Countable Space.md",
     "Differential Geometry/Immersion and Submersion.md",
     "Topology/Lindelöf Space.md",
     "Topology/Base of Topology.md",
@@ -296,7 +297,6 @@
     "Differential Geometry/Rank.md",
     "Algebra/Quaternion.md",
     "Differential Geometry/Sphere.md",
-    "Differential Geometry/Topological Manifold.md",
     "Topology/Real Projective Space.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Smooth Atlas.md",
