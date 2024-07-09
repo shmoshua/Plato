@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Paracompact Space.md",
                 "mode": "preview",
                 "source": false
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Paracompact Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Paracompact Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact Space.md"
+                "file": "Topology/Paracompact Space.md"
               }
             }
           }
@@ -277,13 +277,15 @@
   },
   "active": "3ffd7b76f233b2fb",
   "lastOpenFiles": [
-    "Topology/Locally Compact Space.md",
+    "Topology/Lindelöf Space.md",
+    "Topology/Base of Topology.md",
     "Topology/Compact Space.md",
     "Differential Geometry/Immersion and Submersion.md",
+    "Differential Geometry/Proper Map.md",
+    "Topology/Locally Compact Space.md",
     "Differential Geometry/Differential.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Differential Geometry/Submanifold.md",
-    "Differential Geometry/Proper Map.md",
     "Differential Geometry/Orientation.md",
     "Topology/Continuous Function.md",
     "Topology/Homeomorphism.md",
@@ -301,8 +303,6 @@
     "Differential Geometry/Orientable Double Cover.md",
     "Differential Geometry/Multilinear k-Form.md",
     "Differential Geometry/Orientable Manifold.md",
-    "Topology/Local Homeomorphism.md",
-    "Topology/Base of Topology.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
