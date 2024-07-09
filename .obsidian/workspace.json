@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Immersion and Submersion.md",
+                "file": "Topology/Paracompact Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -277,10 +277,12 @@
   },
   "active": "3ffd7b76f233b2fb",
   "lastOpenFiles": [
+    "Topology/Second Countable Space.md",
+    "Topology/Paracompact Space.md",
+    "Differential Geometry/Immersion and Submersion.md",
     "Topology/Lindelöf Space.md",
     "Topology/Base of Topology.md",
     "Topology/Compact Space.md",
-    "Differential Geometry/Immersion and Submersion.md",
     "Differential Geometry/Proper Map.md",
     "Topology/Locally Compact Space.md",
     "Differential Geometry/Differential.md",
@@ -301,8 +303,6 @@
     "Topology/Locally Connected Space.md",
     "Topology/Covering Space.md",
     "Differential Geometry/Orientable Double Cover.md",
-    "Differential Geometry/Multilinear k-Form.md",
-    "Differential Geometry/Orientable Manifold.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
