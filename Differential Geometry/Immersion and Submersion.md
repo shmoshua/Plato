@@ -47,6 +47,9 @@
 >    Alternatively, as $M$ is compact and $f(M)\subseteq N$ is Hausdorff, by [[Compact Space|Proposition 1]], $f:M\to f(M)$ is a homeomorphism.
 > 3. If $g$ is proper, then $g$ is closed and $g(M)$ is closed in $N$. Conversely, assume that $g(M)$ is closed in $N$ and let $K\subseteq N$ compact. Then, $K\cap g(M)$ is compact and $$g^{-1}(K\cap g(M))=g^{-1}(K)$$is compact as $g^{-1}$ is continuous. 
 ---
+> [!lemma] Theorem 4
+> Any smooth manifold $M$ immerses into $\mathbb{R}^{2m-b(n)}$ where $b(n)$ denotes the number of binary digits in $n$.
+---
 ##### Examples
 > [!h] Example 1 (Immersion)
 > Let $\gamma:\mathbb{R}\to \mathbb{R}^{2},t\mapsto(t^2,t^3-t)$ be a [[Regular Curve in Rn|regular curve]]. Then, 

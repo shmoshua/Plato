@@ -38,6 +38,10 @@
 ^ff863e
 
 ---
+> [!lemma] Theorem 3 (Whitney's Embedding Theorem)
+> Let $M$ be a [[smooth manifold]]. Then, 
+> 1. $M$ embeds into $\mathbb{R}^{2m}$.
+---
 ##### Examples
 > [!h] Example 1
 > Let $M$ be a smooth manifold:

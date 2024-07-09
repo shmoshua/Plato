@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Partition of Unity.md",
+                "file": "Differential Geometry/Smooth Manifold.md",
                 "mode": "preview",
                 "source": true
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "mode": "preview",
                 "source": true
               }
@@ -134,7 +134,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inverse function theorem",
+                "query": "whitney",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,7 +181,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Partition of Unity.md",
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Partition of Unity.md",
+                "file": "Differential Geometry/Immersion and Submersion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Partition of Unity.md"
+                "file": "Differential Geometry/Immersion and Submersion.md"
               }
             }
           }
@@ -262,17 +264,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "20cdf9a6d9e41692",
+  "active": "9da1f925d695969f",
   "lastOpenFiles": [
+    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Immersion and Submersion.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Partition of Unity.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Paracompact Space.md",
     "Topology/Normal Space.md",
-    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Proper Map.md",
     "Topology/Regular Space.md",
-    "Differential Geometry/Partition of Unity.md",
     "Topology/Second Countable Space.md",
     "Differential Geometry/Topological Manifold.md",
-    "Differential Geometry/Immersion and Submersion.md",
     "Topology/The Long Line.md",
     "Topology/Separable Space.md",
     "Topology/Locally Compact Space.md",
@@ -288,8 +292,6 @@
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Rank.md",
     "Algebra/Quaternion.md",
-    "Differential Geometry/Sphere.md",
-    "Topology/Real Projective Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
