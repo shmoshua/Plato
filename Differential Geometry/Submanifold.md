@@ -41,6 +41,10 @@
 > [!lemma] Theorem 3 (Whitney's Embedding Theorem)
 > Let $M$ be a [[smooth manifold]]. Then, 
 > 1. $M$ embeds into $\mathbb{R}^{2m}$.
+> 2. if $M$ is compact then $M$ embeds into $\mathbb{R}^{2m+1}$. 
+
+> [!proof]+
+> 
 ---
 ##### Examples
 > [!h] Example 1

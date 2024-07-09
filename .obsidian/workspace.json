@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "source",
                 "source": true
               }
@@ -99,91 +99,19 @@
             }
           },
           {
-            "id": "3ffd7b76f233b2fb",
+            "id": "c55da6782dee2fb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/One-Point Compactification.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d25ca001d67a321",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Separable Space.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c174fac12e70e603",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "10ccbf5b640e241b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3f3f319995ee805b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5a8618edc411143d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/One-Point Compactification.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "066f50692e0e33c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Topological Vector Space with Seminorms.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -250,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -290,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md"
+                "file": "Differential Geometry/Submanifold.md"
               }
             }
           }
@@ -312,24 +240,27 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3f3f319995ee805b",
+  "active": "9da1f925d695969f",
   "lastOpenFiles": [
-    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Guelfand Topology.md",
+    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Immersion and Submersion.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
+    "Topology/Separable Space.md",
+    "Topology/One-Point Compactification.md",
+    "Topology/Normal Space.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Isometry.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Smooth Function.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Topology/Weak Topology.md",
     "Topology/Topological Vector Space with Seminorms.md",
-    "Topology/One-Point Compactification.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Topology/Compact Space.md",
-    "Differential Geometry/Immersion and Submersion.md",
-    "Topology/Separable Space.md",
     "Topology/Second Countable Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
-    "Topology/Normal Space.md",
-    "Differential Geometry/Submanifold.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Partition of Unity.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Topology/Paracompact Space.md",
     "Differential Geometry/Proper Map.md",
     "Topology/Regular Space.md",
@@ -337,9 +268,6 @@
     "Topology/The Long Line.md",
     "Topology/Locally Compact Space.md",
     "Differential Geometry/Local Diffeomorphism.md",
-    "Topology/Lindelöf Space.md",
-    "Topology/Base of Topology.md",
-    "Differential Geometry/Differential.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
