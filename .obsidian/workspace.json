@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/The Long Line.md",
+                "file": "Differential Geometry/Partition of Unity.md",
                 "mode": "source",
                 "source": true
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/The Long Line.md",
+                "file": "Differential Geometry/Partition of Unity.md",
                 "mode": "preview",
                 "source": true
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/The Long Line.md",
+                "file": "Differential Geometry/Partition of Unity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/The Long Line.md",
+                "file": "Differential Geometry/Partition of Unity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +264,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/The Long Line.md"
+                "file": "Differential Geometry/Partition of Unity.md"
               }
             }
           }
@@ -286,11 +286,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1173ce41849d1ffb",
+  "active": "20cdf9a6d9e41692",
   "lastOpenFiles": [
-    "Differential Geometry/Proper Map.md",
     "Topology/The Long Line.md",
+    "Differential Geometry/Partition of Unity.md",
     "Differential Geometry/Topological Manifold.md",
+    "Differential Geometry/Proper Map.md",
     "Topology/Separable Space.md",
     "Topology/Second Countable Space.md",
     "Topology/Locally Compact Space.md",
@@ -313,7 +314,6 @@
     "Differential Geometry/Sphere.md",
     "Topology/Real Projective Space.md",
     "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Smooth Atlas.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
