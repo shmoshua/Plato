@@ -3,12 +3,11 @@
 > [!definition]
 > Let $M,N$ be a [[smooth manifold]] and $\varphi\in C^\infty(N,M)$ an [[Differential|immersion]].
 > 1. $\varphi(N)$ is an ***immersed submanifold*** of $M$, if $\varphi$ is injective.
-> 2. $\varphi(N)$ is a ***embedded submanifold*** of $M$, if $\varphi$ is a [[homeomorphism]] to its image.
 > 3. $N\subseteq M$ is a ***regular $n$-submanifold*** of $M$, if for any $p\in N$, there is a chart $(U,\varphi)$ at $p$ s.t. 
 > 	1. $\varphi(p)=0$, 
 > 	2. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and
 > 	3. $\varphi(U\cap N)=\{ x\in (-\varepsilon,\varepsilon)^m: x_{n+1}=\dots=x_{m}=0 \}$
-- **Related definition**: $\varphi\in C^\infty(N,M)$ is an ***embedding***, if $\varphi(M)$ is a regular submanifold and 
+- **Related definition**: $\varphi:N\to M$ is an ***embedding*** of $M$, if $\varphi(N)$ is a regular submanifold and $\varphi$ a [[diffeomorphism]].
 - **Remark**: For the atlas $\{ (U_{\alpha},\varphi_{\alpha}) \}$ on $M$ and a regular submanifold $N\subseteq M$, $\{ (U_{\alpha}\cap N,\varphi_{\alpha}|_{U_{\alpha}\cap N}) \}_{\alpha}$ defines an atlas on $N$.
 ---
 ##### Properties
@@ -22,13 +21,16 @@
 > 1. Let $p\in f^{-1}(q)=\{ x\in M:f(x)=q \}$. By [[Smooth Function|Theorem 4 Corollary]], there are charts $(U,\varphi)$ and $(V,\psi)$ centered at $p$ and $q$ respectively s.t. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and $\psi(V)=(-\varepsilon,\varepsilon)^n$ with: $$\psi f\varphi ^{-1}(x_{1},\dots,x_{m})=(x_{1},\dots,x_{k},0,\dots,0)$$In particular, $(f|_{U})^{-1}(q)=U\cap f^{-1}(q)$ and $$\varphi(U\cap f^{-1}(q))=(\psi f\varphi ^{-1})^{-1}(0)=\{ x\in (-\varepsilon,\varepsilon)^n: x_{1}=\dots=x_{k}=0 \}$$This proves the statement.
 > 2. As $L$ is a regular submanifold of $M$, we may consider $\text{T}_{p}L$ as a subset of $\text{T}_{p}M$. Let $v\in \text{T}_{p}L$ and $\gamma:(-\varepsilon,\varepsilon)\to L$ be a smooth curve s.t. $\gamma(0)=p$ and $\gamma'(0)=v$. Then, $f(\gamma(t))=q$ and we have: $$d_{p}f(v)=d_{\gamma(0)}f(\gamma'(0))=\left. \frac{d}{dt} \right| _{t=0}f\circ \gamma(t)=0$$Therefore, $v\in \text{ker }d_{p}f$. Further, notice that $$\text{dim }\text{ker }d_{p}f=m-k=\text{dim }L=\text{dim }\text{T}_{p}L$$
 ---
-> [!lemma] Proposition 2 (Embedded submanifold <=> Regular submanifold)
+> [!lemma] Proposition 2 (Embedding <=> Homeomorphism, Immersion)
 > Let $M,N$ be smooth manifolds and $f\in C^\infty(N,M)$. TFAE:
-> 1. $f(N)$ is an embedded submanifold, i.e. $f$ is a homeomorphism onto $f(N)$ and $f$ is an [[Immersion and Submersion|immersion]].
-> 2. $f:N\to f(N)$ is a diffeomorphism and $f(N)$ is a regular submanifold.
+> 1. $f$ is a homeomorphism onto $f(N)$ and $f$ is an [[Immersion and Submersion|immersion]].
+> 2. $f:N\to f(N)$ is a diffeomorphism and $f(N)$ is a regular submanifold, i.e. $f$ is an embedding.
 
 > [!proof]+
-> 
+> We have:
+> 1. (1=>2): Assume $f$ is a homeomorphism onto $f(N)$ and $f$ is an immersion. By [[Immersion and Submersion|Corollary 2]], for any $p\in M$, there exists open $U\ni p$ with $f|_{U}:U\to f(U)$ is an embedding of $N$.  Hence, $f|_{U}$ is a diffeomorphism and $f(U)$ is open as $f$ is a homeomorphism. This shows that $f$ is a bijective local diffeomorphism, which by [[Local Diffeomorphism|Proposition 2]] is a diffeomorphism.
+>    
+>    To show that $f(N)$ is a regular submanifold, 
 ---
 > [!lemma] Proposition 2 (Embedded submanifold => Regular submanifold)
 > Let $M,N$ be smooth manifolds and $f\in C^\infty(N,M)$ a diffeomorphism. If $f(N)$ is an embedded submanifold of $M$, then $f(N)$ is a regular $n$-submanifold.

@@ -135,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,9 +265,9 @@
   },
   "active": "c73eb08083f7101b",
   "lastOpenFiles": [
-    "Differential Geometry/Immersion and Submersion.md",
-    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Local Diffeomorphism.md",
+    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Immersion and Submersion.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Orientation.md",
