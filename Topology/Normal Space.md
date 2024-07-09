@@ -56,3 +56,8 @@
 > [!proof]-
 > We prove condition 1. Let $A,B\subseteq X$ be disjoint closed. Then, for every $x\in B$, we can define $U_{x},V_{x}$ disjoint open s.t. $A\subseteq U_{x}$ and $x\in V_{x}$. Then, $B\subseteq \bigcup_{x\in B}^{}V_{x}$ and there exists finite $J\subseteq B$ s.t. $B\subseteq \bigcup_{x\in J}^{}V_{x}$. By defining $U:=\bigcap_{j\in J}^{}U_{j}$ and $V:=\bigcup_{j\in J}^{}V_{j}$ proves the statement.
 ---
+> [!h] Example 3
+> Any [[Paracompact Space|paracompact]] Hausdorff space is normal.
+
+> [!proof]+
+> 

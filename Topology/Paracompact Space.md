@@ -6,6 +6,14 @@
 > 2. for every $x\in X$, there exists a neighborhood $U\ni x$ s.t. $U\cap V_{\beta}=\varnothing$ for all but finitely many.
 ---
 ##### Properties
+> [!lemma] Theorem 1 (Dieudonné)
+> Let $X$ be a paracompact Hausdorff space. Then,
+> 1. $X$ is regular. 
+> 2. $X$ is normal.
+
+> [!proof]+
+> We have:
+> 1. Let $x\in X$ and $A\subseteq X$ a closed set that does not contain $x$. Then, for any $y\in A$, by Hausdorffness, we can define $U_{y},V_{y}$ disjoint open neighborhoods of $x$ and $y$ respectively. Therefore, $\{ V_{y} \}_{y\in A}\cup \{ X \backslash A \}$ is an open cover of $X$ and by paracompactness, there exists a locally finite cover $\{ W_{\beta} \}_{\beta}$. 
 ---
 ##### Examples
 > [!h] Example 1

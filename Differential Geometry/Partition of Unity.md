@@ -41,3 +41,12 @@
 >    
 >    For $p\in M$, define $i_{p}$ to be the largest integer s.t. $p\in M\backslash \overline{G_{i_{p}}}$. Choose $\alpha_{p}$ s.t. $p\in U_{\alpha_{p}}$ and let $(V,\psi)$ be a chart centered at $p$ s.t. $V\subseteq U_{\alpha_{p}}\cap(G_{i_{p}+2} \backslash \overline{G_{i_{p}}})$ and $C_{\leq 2}\subseteq \psi(V)$. Let $\varphi$ be the function from Claim 1 and define: $$f_{p}:=\begin{cases}\varphi \circ \psi&\text{on }V\\0&\text{otherwise}\end{cases}$$Then, $f_{p}\in C^\infty(M)$ with $f_{p}(x)=1$ for $x\in W_{p}$ where $W_{p}$ is an open neighborhood of $p$. Further, $$\text{supp }f_{p}\subseteq V\subseteq U_{\alpha_{p}}\cap(G_{i_{p+2}} \backslash \overline{G_{i_{p}}})$$Now, for each $i\geq 1$ choose finite set of point $p\in M$ s.t. $W_{p}$ cover $\overline{G_{i}} \backslash G_{i-1}$. Then, we can order the corresponding $f_{p}$ into $\{ f_{i} \}_{i\geq 1}$, whose support is locally finite. Therefore, $$\varphi:=\sum_{j=1}^{\infty}f_{j}$$is a well-defined $C^\infty$-function on $M$ and $\varphi(p)>0$ for all $p\in M$. Therefore, by defining $\varphi_{i}:= f_{i} / \varphi$, $\{ \varphi_{i} \}$ is a partition of unity subordinate to $\{ U_{\alpha} \}_{\alpha}$.  
 ---
+> [!h] Example 3 (Paracompact Hausdorff Space)
+> Let $X$ be a [[Paracompact Space|paracompact]] [[Hausdorff space]] and $\{ U_{\alpha} \}_{\alpha}$ an open cover. Then, 
+> 1. there exists a smooth partition of unity $\{ \varphi_{i} \}_{i}$ subordinate to $\{ U_{\alpha } \}_{\alpha}$.
+
+> [!proof]+
+> We have:
+> 1. By paracompactness, there exists a there exists a locally finite refinement $\{ V_{\beta} \}_{\beta}$ of $\{ U_{\alpha} \}_{\alpha}$.
+> 1. **Claim 1: There exists a locally finite refinement of relatively compact sets.**  
+>    Let $\{ V_{\beta} \}_{\beta}$ be the base of the topology of $X$. Then, 
