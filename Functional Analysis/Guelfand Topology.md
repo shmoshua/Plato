@@ -1,14 +1,14 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $A$ be a commutative [[Banach Algebra]] and $\hat{A}$ the [[Guelfand Spectrum]] of $A$. The ***Guelfand topology*** is a topology on $\hat{A}\subseteq A^{*}$ induced by the [[Weak Topology|weak*-topology]] on $A^{*}$.
+> Let $A$ be a commutative [[Banach Algebra|Banach algebra]] and $\hat{A}$ the [[Guelfand Spectrum|Guelfand spectrum]] of $A$. The ***Guelfand topology*** is a topology on $\widehat{A}\subseteq A^{*}$ induced by the [[Weak Topology|weak*-topology]] on $A^{*}$.
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> Let $A$ be a commutative [[Banach Algebra]]. Then, we have: 
-> 1. $\hat{A}$ is locally compact Hausdorff w.r.t. Guelfand topology.
-> 2. If $A$ is unital, $\hat{A}$ is compact.
-> 3. If $A$ is non-unital, $\widehat{A_{I}}$ is the [[one-point compactification]] of $\hat{A}$.
+> Let $A$ be a commutative [[Banach Algebra|Banach algebra]]. Then, we have: 
+> 1. $\widehat{A}$ is locally compact Hausdorff w.r.t. Guelfand topology.
+> 2. If $A$ is unital, $\widehat{A}$ is compact.
+> 3. If $A$ is non-unital, $\widehat{A_{I}}$ is the [[one-point compactification]] of $\widehat{A}$.
 
 ^a2c505
 
@@ -24,3 +24,7 @@
 >    
 >  Therefore, $$\gamma:B_{\leq 1}^{A^{*}}(0)\to \{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(\varphi_{\infty}):\varphi((0,1))=1 \}$$is a homeomorphism. This implies that the image is compact. However, we have: $$\begin{CD} B_{\leq 1}^{A^{*}}(0) @>\gamma>> \{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(\varphi_{\infty}):\varphi((0,1))=1 \}\\ \cup&&\cup\\\hat{A} @>\gamma>> \widehat{A_{I}} \backslash \{ \varphi_{\infty} \}\end{CD}$$
 >  Now, assume that $B$ is a commutative unital Banach algebra. Then, $$\begin{align}\hat{B}&:=\{ \varphi\in B_{\leq 1}^{B^{*}}(0):\varphi(xy)=\varphi(x)\varphi(y),\varphi(e)=1,\quad \forall x,y\in B\}\\&=\{\varphi\in B_{\leq 1}^{B^{*}}(0):\varphi(e)=1 \}\cap\bigcap_{x,y\in B}^{}\{ \varphi\in B_{\leq 1}^{B^{*}}(0):\varphi(xy)=\varphi(x)\varphi(y)\}\end{align}$$which is weak\*-closed. Therefore, $\hat{B}$ is compact. 
+
+---
+From weak*-topology, let: $$U:=N(\varphi_{I};(x_{1},\lambda_{1}),\dots,(x_{n},\lambda_{n});\varepsilon):=\{ \chi\in \widehat{A_{I}}:\left| \chi(x_{i},\lambda_{i})-\varphi_{I}(x_{i},\lambda_{i}) \right| <\varepsilon , \forall i\in [n] \}$$Then, 
+1. if $\varphi_{\infty}\in U$, then $\left| \lambda_{i}-\varphi(x_{i})-\lambda_{i} \right|=\left| \varphi(x_{i}) \right|<\varepsilon$ so 
