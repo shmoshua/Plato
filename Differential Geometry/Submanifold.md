@@ -44,7 +44,9 @@
 > 2. if $M$ is compact then $M$ embeds into $\mathbb{R}^{2m+1}$. 
 
 > [!proof]+
+> For each $p\in M$, we define $U_{p},V_{p}$ open sets s.t. $\overline{U_{p}}$ is compact and $\overline{U_{p}}\subseteq V_{p}$ and there exists a diffeomorphism $\varphi_{p}$ on $V_{p}$. Then, by compactness, we have a finite $(U_{i},V_{i},\varphi_{i})$ for $i\in [k]$. 
 > 
+> By [[Smooth Manifold|smooth Urysohn's lemma]], there exists a $\rho_{i}\in C^\infty(M,[0,1])$ s.t. $\rho_{i}|_{\overline{U_{i}}}=1$ and $\text{supp }\rho_{i}\subseteq V_{i}$. Further, we also have a function $f_{i}\in C^\infty(M,[0,1])$ s.t. $\text{supp }f_{i}\subseteq U_{i}$ and 
 ---
 ##### Examples
 > [!h] Example 1
