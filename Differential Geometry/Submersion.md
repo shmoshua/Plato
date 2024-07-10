@@ -14,6 +14,17 @@
 > Let $\Phi:= G|_{U_{1}}\circ\varphi:\varphi ^{-1}(U_{1})\to G(U_{1})$. Then, on $G(U_{1})$, $$\psi f\Phi ^{-1}(x^1,..,x^m)=(g\circ G^{-1})(x^1,\dots,x^m)=(\pi \circ G\circ G^{-1})(x^1,\dots,x^m)=(x^1,\dots,x^n)$$which proves the statement. 
 - **Corollary**: The set $\mathcal{I}:=\{ p\in M: d_{p}f\text{ is surjective}\}$ is open and $f|_{\mathcal{I}}$ is an submersion.
 ---
+> [!lemma] Corollary 2 
+> Let $f:M\to N$ be a smooth map between smooth manifolds. Then, 
+> 1. for any $p\in M$ s.t. $d_{p}f$ is surjective, there exists an open neighborhood $U\ni p$ s.t. $f^{-1}(f(p))\cap U$ is a [[Submanifold|regular $(m-n)$-submanifold]] of $M$.
+
+> [!proof]+
+> Let $p\in M$. If $d_{p}f$ is surjective, then by the local submersion theorem, there exists $(U,\varphi)$ at $p$ and $(V,\psi)$ at $f(p)$ with $f(U)\subseteq V$ s.t. $$\psi f\varphi ^{-1}(x^1,\dots,x^m)=(x^1,\dots,x^n)$$
+> 
+> Let $q\in f^{-1}(f(p))\cap U$. Then, let us define: $$\Psi:U\to \mathbb{R}^{m},\quad x\mapsto(\psi(f(x)),x^{n+1}(x),\dots,x^m(x))$$which is smooth. We further have:
+> 1. $\Psi(q)=(\psi(f(p)),0,\dots,0)=0$. 
+> 2. $\Psi(U\cap f^{-1}(f(p)))=\{  \}$and modulo translating by a constant and taking a preimage $V$ of $(-\varepsilon,\varepsilon)^n$ and taking $U\cap f^{-1}(V)$, we have that $\psi$ is a chart that gives $f(U)$ a submanifold structure. 
+---
 ##### Examples
 > [!lh] Exmaple 1 (Submersion)
 > We have that:

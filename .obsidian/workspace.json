@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Manifold.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "preview",
                 "source": true
               }
@@ -241,12 +241,12 @@
   },
   "active": "c55da6782dee2fb4",
   "lastOpenFiles": [
-    "Differential Geometry/Immersion.md",
+    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Submersion.md",
+    "Differential Geometry/Immersion.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Tangent Bundle.md",
     "Topology/Normal Space.md",
-    "Differential Geometry/Submanifold.md",
     "Functional Analysis/Guelfand Topology.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Topology/Separable Space.md",
