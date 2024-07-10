@@ -36,7 +36,6 @@
 > Let $f\in C^\infty(M,N)$ where $f$ is an injective immersion. Then, 
 > 1. if $f$ is [[Proper Map|proper]], then $f$ is an embedding.
 > 1. if $M$ is [[Compact Space|compact]], then $f$ is an embedding.
-> 2. Further, for any embedding $g\in C^\infty(M,N)$, $g$ is proper if and only if $g(M)$ is closed in $N$.
 
 > [!proof]-
 > We have that:
@@ -44,7 +43,6 @@
 > 2. For any $K\subseteq N$ compact, $K$ is closed and $f^{-1}(K)$ is closed as well. However, as $M$ is compact, $f^{-1}(K)$ is compact and hence $f$ is proper. This proves the statement.
 >    
 >    Alternatively, as $M$ is compact and $f(M)\subseteq N$ is Hausdorff, by [[Compact Space|Proposition 1]], $f:M\to f(M)$ is a homeomorphism.
-> 3. If $g$ is proper, then $g$ is closed and $g(M)$ is closed in $N$. Conversely, assume that $g(M)$ is closed in $N$ and let $K\subseteq N$ compact. Then, $K\cap g(M)$ is compact and $$g^{-1}(K\cap g(M))=g^{-1}(K)$$is compact as $g^{-1}$ is continuous. 
 ---
 > [!lemma] Theorem 4
 > Any smooth manifold $M$ immerses into $\mathbb{R}^{2m-b(n)}$ where $b(n)$ denotes the number of binary digits in $n$.

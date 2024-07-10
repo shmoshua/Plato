@@ -38,7 +38,17 @@
 ^ff863e
 
 ---
-> [!lemma] Theorem 3 (Whitney's Embedding Theorem)
+> [!lemma] Proposition 3 (Properness and Embedding)
+> Let $f\in C^\infty(M,N)$ be an embedding. Then, TFAE:
+>  1. $f$ is [[Proper Map|proper]].
+>  2. $f(M)$ is closed in $N$.
+
+> [!proof]-
+> We have: 
+> 1. (1=>2): If $g$ is proper, then $g$ is closed by [[Proper Map|Proposition 1]] and $f(M)$ is closed in $N$.
+> 2. (2=>1): assume that $f(M)$ is closed in $N$ and let $K\subseteq N$ compact. Then, $K\cap f(M)$ is compact and $$f^{-1}(K\cap f(M))=f^{-1}(K)$$is compact as $f^{-1}$ is continuous. 
+---
+> [!lemma] Theorem 4 (Whitney's Embedding Theorem)
 > Let $M$ be a [[smooth manifold]]. Then, 
 > 1. $M$ embeds into $\mathbb{R}^{2m}$.
 > 2. if $M$ is compact then $M$ embeds into $\mathbb{R}^{(m+1)k}$ for some $k>0$. 

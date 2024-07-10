@@ -17,13 +17,18 @@
 > [!lemma] Corollary 2 
 > Let $f:M\to N$ be a smooth map between smooth manifolds. Then, 
 > 1. for any $p\in M$ s.t. $d_{p}f$ is surjective, there exists an open neighborhood $U\ni p$ s.t. $f^{-1}(f(p))\cap U$ is a [[Submanifold|regular $(m-n)$-submanifold]] of $M$.
+> 2. if $f$ is a submersion, for any $q\in N$, $f^{-1}(q)$ is either empty, or is a proper regular $(m-n)$-submanifold of $M$.
 
-> [!proof]+
-> Let $p\in M$. If $d_{p}f$ is surjective, then by the local submersion theorem, there exists $(U,\varphi)$ at $p$ and $(V,\psi)$ at $f(p)$ with $f(U)\subseteq V$ s.t. $$\psi f\varphi ^{-1}(x^1,\dots,x^m)=(x^1,\dots,x^n)$$
+> [!proof]-
+> We have:
+> 1. Let $p\in M$. If $d_{p}f$ is surjective, then by the local submersion theorem, there exists $(U,\varphi)$ at $p$ and $(V,\psi)$ at $f(p)$ with $f(U)\subseteq V$ s.t. $$\psi f\varphi ^{-1}(x^1,\dots,x^m)=(x^1,\dots,x^n)$$
+>    
+>    Let $q\in f^{-1}(f(p))\cap U$. Then, let us define: $$\Psi:U\to \mathbb{R}^{m},\quad x\mapsto(x^{n+1}(x)-x^{n+1}(q),\dots,x^{m}(x)-x^{m}(q),\psi(f(x)))$$which is a smooth chart. We have:
+> 	1. $\Psi(q)=0$. 
+> 	2. $\Psi(U\cap f^{-1}(f(p)))=\{ y\in \Psi(U):y^{m-n+1}=\dots=y^m=0\}$
 > 
-> Let $q\in f^{-1}(f(p))\cap U$. Then, let us define: $$\Psi:U\to \mathbb{R}^{m},\quad x\mapsto(\psi(f(x)),x^{n+1}(x),\dots,x^m(x))$$which is smooth. We further have:
-> 1. $\Psi(q)=(\psi(f(p)),0,\dots,0)=0$. 
-> 2. $\Psi(U\cap f^{-1}(f(p)))=\{  \}$and modulo translating by a constant and taking a preimage $V$ of $(-\varepsilon,\varepsilon)^n$ and taking $U\cap f^{-1}(V)$, we have that $\psi$ is a chart that gives $f(U)$ a submanifold structure. 
+> 	Therefore, $U\cap f^{-1}(f(p))$ is a submanifold.
+> 2. If $f^{-1}(q)$ is non-empty, by 1 it is a submanifold as being a submanifold is a local condition. Further it is proper as $f^{-1}(q)$ is closed by [[Submanifold|Proposition 3]].
 ---
 ##### Examples
 > [!lh] Exmaple 1 (Submersion)

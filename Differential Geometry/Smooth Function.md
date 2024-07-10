@@ -62,6 +62,10 @@
 
 - **Corollary**: For smooth manifolds $M,N$ with $f\in C^\infty(M,N)$ with constant rank $k$. For $p\in M$, there exists $(U,\varphi)$ centered at $p$ and $(V,\psi)$ centered at $F(p)$ s.t. $\varphi(U)=(-\varepsilon,\varepsilon)^m$ and $\psi(V)=(-\varepsilon,\varepsilon)^n$ with: $\psi f\varphi ^{-1}(x_{1},\dots,x_{n})=(x_{1},\dots,x_{k},0,\dots,0)$ for some $\varepsilon>0$. ^a2f39f
 ---
+> [!lemma] Theorem 5 (Implicit Function Theorem)
+> Let $f:\mathbb{R}^m\to \mathbb{R}^n$ be a smooth function with $m\geq n$ and $p\in \mathbb{R}^m$ with $f(p)=0$. 
+> 1. if $d_{p}f|_{\mathbb{R}^n\times \{ 0 \}}$ is invertible, i.e. $$\det \begin{bmatrix}\left. \frac{ \partial f^1 }{ \partial x^1 }  \right| _{p}&\dots&\left. \frac{ \partial f^1 }{ \partial x^n }  \right| _{p}\\ \vdots&&\vdots\\\left. \frac{ \partial f^n }{ \partial x^1 }  \right| _{p}&\dots&\left. \frac{ \partial f^n }{ \partial x^n }  \right| _{p}\end{bmatrix}\neq 0$$then $f^{-1}(0)$ can be written locally near $p$ as a graph $\text{graph}(g)$ where $$g:\mathbb{R}^{m-n}\to \mathbb{R}^n,\quad (x^{n+1},\dots,x^{m})\mapsto (x^1,\dots,x^n)$$ 
+---
 ##### Examples
 > [!h] Example 1
 > Let $M$ be a smooth manifold and $W\subseteq M$ be an open set. Then, the inclusion $\iota:W\hookrightarrow M$ is smooth.
