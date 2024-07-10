@@ -52,7 +52,10 @@
 > 1. **Showing $f(C \backslash C_{1})$ has measure $0$**:
 >    For $n=1$, we have that $C=C_{1}$ and $f(C \backslash C_{1})$ is  empty. Therefore, we may assume $n\geq 2$. let $y\in C\backslash C_{1}$. Wlog we may assume that $\partial_{1}f^1(y)\neq 0$. By a change of variables $$h:U\to \mathbb{R}^m,\quad x\mapsto(f^1(x),x^2,\dots,x^m)$$ we get that $$d_{y}h=\begin{bmatrix}\left. \frac{ \partial f^1 }{ \partial x^1 } \right| _{y}&\cdots&\cdots&\left. \frac{ \partial f^1 }{ \partial x^m } \right| _{y}\\&1 \\&&\ddots\\&&&1\end{bmatrix}$$which is invertible. Therefore by the [[Smooth Function|inverse function theorem]], there is an open subset $y\in V\subseteq U$ and $V'\subseteq \mathbb{R}^m$ s.t. $h|_{V}:V\to V'$ is a diffeomorphism. 
 >    
->    Now, define $g:=f\circ (h|_{V})^{-1}:V'\to \mathbb{R}^n$ and let $C'$ be the critical points of $g$. Then, by the chain rule, $h(V\cap C)=C'$. Therefore, $g(C')=$
+>    Now, define $g:=f\circ (h|_{V})^{-1}:V'\to \mathbb{R}^n$ and let $C'$ be the critical points of $g$. Then, by the chain rule, $h(V\cap C)=C'$. Therefore, $g(C')=f(V\cap C)$. It now suffices to show that $g(C')$ has measure $0$ since we can cover $U \backslash C_{1}$ with countably many $V$s and $f(C \backslash C_{1})$ has measure zero.
+>    
+>    We will show that $g$ has a special form. Let $$(t,x^2,\dots,x^m)=(f^1(x),x^2,\dots,x^m)=h(x)\in V'$$Then, $$\begin{align}g(t,x^2,\dots,x^m)&=f(x)\\&=(f^1(x),\dots,f^n(x))\\&=(t,f^2h^{-1}(t,x^2,\dots,x^m)),\dots,f^nh^{-1}(t,x^2,\dots,x^m))\\&=:(t,g^t(x^2,\dots,x^m))\end{align}$$where $g^t:\mathbb{R}^{m-1}\to \mathbb{R}^{n-1}$. Further, we have: $$d_{(t,x^2,\dots,x^m)}g=\begin{bmatrix}1&0\\ *&d_{(x^2,\dots,x^m)}g^t\end{bmatrix}$$Therefore, $(t,x^2,\dots,x^m)$ is a critical point of $g$ if and only if $(x^2,\dots,x^m)$ is a critical point of $g^t$. Let $C^t$ denote the critical points of $g^t$. Then, $$g(C')=\{ (t,z)\subseteq \mathbb{R}^n:z \in g^t(C^t) \}$$and $g(C')\cap (\{ t \}\times \mathbb{R}^{m-1})=\{ t \}\times g^t(C^t)$. As $g^t(C^t)$ has measure zero for all $t$, by Fubini $g(C')$ has measure zero.
+>  2. **Showing $f(C_{i} \backslash C_{i+1})$ has measure zero for all $i\geq 1$**.
 ---
 ##### Examples
 > [!lh] Exmaple 1 (Submersion)

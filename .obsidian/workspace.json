@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Measure Theory/Product Measure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -254,6 +254,7 @@
   },
   "active": "169aa21562773dbd",
   "lastOpenFiles": [
+    "Measure Theory/Product Measure.md",
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Submersion.md",
     "Differential Geometry/Submanifold.md",
@@ -279,7 +280,6 @@
     "Topology/Paracompact Space.md",
     "Topology/Regular Space.md",
     "Differential Geometry/Topological Manifold.md",
-    "Topology/The Long Line.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
