@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -241,10 +241,10 @@
   },
   "active": "c55da6782dee2fb4",
   "lastOpenFiles": [
-    "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Immersion.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Submersion.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Tangent Bundle.md",
     "Topology/Normal Space.md",
     "Differential Geometry/Submanifold.md",
     "Functional Analysis/Guelfand Topology.md",
