@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Normal Space.md",
+                "file": "Differential Geometry/Immersion.md",
                 "mode": "source",
                 "source": true
               }
@@ -61,38 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Differential Geometry/Submersion.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
         "type": "tabs",
         "children": [
           {
-            "id": "20cdf9a6d9e41692",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Smooth Manifold.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "78dbef2309a405bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Immersion and Submersion.md",
+                "file": "Differential Geometry/Immersion.md",
                 "mode": "preview",
                 "source": true
               }
@@ -104,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Differential Geometry/Submersion.md",
                 "mode": "preview",
                 "source": true
               }
@@ -123,7 +111,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,8 +157,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -190,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Differential Geometry/Submersion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Differential Geometry/Submersion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Submanifold.md"
+                "file": "Differential Geometry/Submersion.md"
               }
             }
           }
@@ -254,14 +241,16 @@
   },
   "active": "c55da6782dee2fb4",
   "lastOpenFiles": [
+    "Differential Geometry/Tangent Bundle.md",
+    "Differential Geometry/Immersion.md",
     "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Submersion.md",
+    "Topology/Normal Space.md",
     "Differential Geometry/Submanifold.md",
     "Functional Analysis/Guelfand Topology.md",
-    "Differential Geometry/Immersion and Submersion.md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Topology/Separable Space.md",
     "Topology/One-Point Compactification.md",
-    "Topology/Normal Space.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Isometry.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
@@ -278,8 +267,6 @@
     "Topology/Regular Space.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/The Long Line.md",
-    "Topology/Locally Compact Space.md",
-    "Differential Geometry/Local Diffeomorphism.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

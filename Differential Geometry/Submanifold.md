@@ -23,16 +23,16 @@
 ---
 > [!lemma] Proposition 2 (Embedding <=> Homeomorphism, Immersion)
 > Let $M,N$ be smooth manifolds and $f\in C^\infty(N,M)$. TFAE:
-> 1. $f$ is a homeomorphism onto $f(N)$ and $f$ is an [[Immersion and Submersion|immersion]].
+> 1. $f$ is a homeomorphism onto $f(N)$ and $f$ is an [[Immersion|immersion]].
 > 2. $f$ is an embedding, i.e. $f:N\to f(N)$ is a diffeomorphism and $f(N)$ is a regular submanifold.
 
 ^77709c
 
 > [!proof]-
 > We have:
-> 1. (1=>2): Assume $f$ is a homeomorphism onto $f(N)$ and $f$ is an immersion. By [[Immersion and Submersion|Corollary 2]], for any $p\in M$, there exists open $U\ni p$ with $f|_{U}:U\to f(U)$ is an embedding of $N$.  Hence, $f|_{U}$ is a diffeomorphism and $f(U)$ is open in $f(N)$ as $f$ is a homeomorphism. This shows that $f$ is a bijective local diffeomorphism, which by [[Local Diffeomorphism|Proposition 2]] is a diffeomorphism.
+> 1. (1=>2): Assume $f$ is a homeomorphism onto $f(N)$ and $f$ is an immersion. By [[Immersion|Corollary 2]], for any $p\in M$, there exists open $U\ni p$ with $f|_{U}:U\to f(U)$ is an embedding of $N$.  Hence, $f|_{U}$ is a diffeomorphism and $f(U)$ is open in $f(N)$ as $f$ is a homeomorphism. This shows that $f$ is a bijective local diffeomorphism, which by [[Local Diffeomorphism|Proposition 2]] is a diffeomorphism.
 >    
->    To show that $f(N)$ is a regular submanifold, let $p\in N$ and as $f$ is an immersion by [[Immersion and Submersion|local immersion theorem]] there exists charts $(U,\varphi)$ at $p$ and $(V,\psi)$ at $f(p)$ s.t. $$\psi f\varphi ^{-1}(x^1,\dots,x^n)=(x^1,\dots,x^n,0,\dots,0)$$Since $f$ is a homeomorphism onto its image, $f(U)$ is open in $f(N)$. therefore, there exists an open set $W\subseteq M$ s.t. $f(U)=W\cap f(N)$. Consider $(V\cap W,\psi|_{V\cap W})$. We have that $\psi(f(p))=0$, $$\psi(V\cap W\cap f(N))=\psi(V\cap f(U))=\psi(V)\cap \psi(f(U))\subseteq \psi(V)\cap (\mathbb{R}^n\times \{ 0 \})$$Modulo taking a smaller set, we get that $f(N)$ is a regular submanifold.
+>    To show that $f(N)$ is a regular submanifold, let $p\in N$ and as $f$ is an immersion by [[Immersion|local immersion theorem]] there exists charts $(U,\varphi)$ at $p$ and $(V,\psi)$ at $f(p)$ s.t. $$\psi f\varphi ^{-1}(x^1,\dots,x^n)=(x^1,\dots,x^n,0,\dots,0)$$Since $f$ is a homeomorphism onto its image, $f(U)$ is open in $f(N)$. therefore, there exists an open set $W\subseteq M$ s.t. $f(U)=W\cap f(N)$. Consider $(V\cap W,\psi|_{V\cap W})$. We have that $\psi(f(p))=0$, $$\psi(V\cap W\cap f(N))=\psi(V\cap f(U))=\psi(V)\cap \psi(f(U))\subseteq \psi(V)\cap (\mathbb{R}^n\times \{ 0 \})$$Modulo taking a smaller set, we get that $f(N)$ is a regular submanifold.
 > 2. (2=>1): As $f$ is a diffeomorphism it is a homeomorphism. Further, $f$ is an immersion as $d_{p}f$ is always injective.
 
 ^ff863e
@@ -41,12 +41,20 @@
 > [!lemma] Theorem 3 (Whitney's Embedding Theorem)
 > Let $M$ be a [[smooth manifold]]. Then, 
 > 1. $M$ embeds into $\mathbb{R}^{2m}$.
-> 2. if $M$ is compact then $M$ embeds into $\mathbb{R}^{2m+1}$. 
+> 2. if $M$ is compact then $M$ embeds into $\mathbb{R}^{(m+1)k}$ for some $k>0$. 
 
-> [!proof]+
-> For each $p\in M$, we define $U_{p},V_{p}$ open sets s.t. $\overline{U_{p}}$ is compact and $\overline{U_{p}}\subseteq V_{p}$ and there exists a diffeomorphism $\varphi_{p}$ on $V_{p}$. Then, by compactness, we have a finite $(U_{i},V_{i},\varphi_{i})$ for $i\in [k]$. 
+> [!proof]-
+> For each $p\in M$, we define $U_{p},V_{p}$ open sets s.t. $\overline{U_{p}}$ is compact and $\overline{U_{p}}\subseteq V_{p}$ and there exists a diffeomorphism $\varphi_{p}$ on $V_{p}$. Then, by compactness, we have a finite $(U_{i},V_{i},\varphi_{i})$ for $i\in [k]$ s.t. $(U_{i})_{i}$ is an open cover.
 > 
-> By [[Smooth Manifold|smooth Urysohn's lemma]], there exists a $\rho_{i}\in C^\infty(M,[0,1])$ s.t. $\rho_{i}|_{\overline{U_{i}}}=1$ and $\text{supp }\rho_{i}\subseteq V_{i}$. Further, we also have a function $f_{i}\in C^\infty(M,[0,1])$ s.t. $\text{supp }f_{i}\subseteq U_{i}$ and 
+> By [[Smooth Manifold|smooth Urysohn's lemma]], there exists a $\rho_{i}\in C^\infty(M,[0,1])$ s.t. $\rho_{i}|_{\overline{U_{i}}}=1$ and $\text{supp }\rho_{i}\subseteq V_{i}$. Further, using the diffeomorphism $\varphi_{p}$, we can also acquire a bump function $h_{i}\in C^\infty(M)$ s.t. $h_{i}|_{U_{i}}>0$ and $h_{i}|_{M \backslash U_{i}}=0$. Therefore, we can define $g_{i}\in C^\infty(M,\mathbb{R}^m)$ given as: $$g_{i}(x):=\begin{cases}\rho_{i}(x)\varphi_{i}(x)&x\in V_{i}\\0&\text{otherwise}\end{cases}$$
+> 
+> Now, we construct an embedding as follows: $$f:M\to \mathbb{R}^{(m+1)k},\quad x\mapsto(g_{1}(x),h_{1}(x),\dots,g_{k}(x),h_{k}(x))$$which is a smooth function. We now only have to show per [[Immersion|Proposition 3]] that $f$ is an injective immersion as $M$ is compact.
+> 1. **Showing $f$ is injective**:
+>    Let $p,q\in M$ s.t. $f(p)=f(q)$. Fix $i$ s.t. $p\in U_{i}$. Then, $h_{i}(p)=h_{i}(q)>0$ and $q\in U_{i}$. Therefore, from $g_{i}(p)=g_{i}(q)$, we have $\varphi_{i}(p)=\varphi_{i}(q)$. Then, $p=q$ from the injectivity of $\varphi_{i}$.
+> 2. **Showing $f$ is an immersion**.
+>    Fix $p\in M$ and $i$ s.t. $p\in U_i$. Now, we have that: $$d_{p}g_{i}=d_{p}(\rho_{i}\varphi_{i})=\underbrace{ d_{p}\rho_{i} }_{ =0 }\cdot \varphi_{i}(p)+\underbrace{ \rho_{i}(p) }_{ =1 }\cdot d_{p}\varphi_{i}=d_{p}\varphi_{i}$$Where $d_{p}\varphi_{i}$ is a bijection as $\varphi_{i}$ is a diffeomorphism. Therefore, $$d_{p}f=(d_{p}g_{1},d_{p}h_{1},\dots,d_{p}g_{k},d_{p}h_{k})$$is an injection and $f$ is an immersion.
+> 
+> 
 ---
 ##### Examples
 > [!h] Example 1
