@@ -1,7 +1,13 @@
 > [!definition]
 > Let $M,N$ be [[Smooth Manifold|smooth manifolds]] and $f:M\to N$ a smooth map. Then, 
-> 2. $f$ is an ***submersion*** if $d_{p}f$ is surjective for all $p\in M$.
+> 1. $f$ is an ***submersion*** if $d_{p}f$ is surjective for all $p\in M$.
 - **Remark**: If $f$ is a submersion, $m\geq n$.
+- **Related definition**: A point $p\in M$ is: 
+	1. a ***critical point*** if $d_{p}f$ is not surjective.
+	2. a ***regular point*** if $d_{p}f$ is surjective.
+- **Related definition**: A point $q\in N$ is: 
+	1. a ***critical value*** if there exists a critical $p\in f^{-1}(q)$.
+	2. a ***regular value*** if every $p\in f^{-1}(q)$ is regular.
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Local Submersion Theorem)
@@ -12,13 +18,14 @@
 > Let $(U,\varphi)$ and $(V,\psi)$ be two charts at $p$ and $f(p)$ with $f(U)\subseteq V$. Then, consider $$g:=\psi f\varphi ^{-1}:\varphi(U)\to \psi(V)$$As $d_{0}g:\mathbb{R}^m\to \mathbb{R}^n$ is surjective, there exists a basis $\mathcal{B}$ s.t. $d_{0}g$ is a $n\times m$-matrix with: $$\begin{bmatrix}I_{n}&*\end{bmatrix}\in \text{Mat}_{n,m}(\mathbb{R})$$We now augment $g$ to $G$ defined as: $$G:\varphi(U)\to \mathbb{R}^{n}\times \mathbb{R}^{m-n},\quad x\mapsto(g(x),x^{n+1},\dots,x^m)$$with $d_{0}G:\mathbb{R}^m\to \mathbb{R}^m$ represented as: $$\begin{bmatrix}I_{n}&*\\0&I_{m-n}\end{bmatrix}\in \text{Mat}_{n,n}(\mathbb{R})$$Therefore, by [[Smooth Function|Inverse function theorem]], there exists open neighborhoods $U_{1}\subseteq \varphi(U)$ and $V_{1}\times V_{2}\subseteq \mathbb{R}^{n}\times \mathbb{R}^{m-n}$ s.t. $G|_{U_{1}}$ is a diffeomorphism at $0$ with $G(0)=0$. 
 > 
 > Let $\Phi:= G|_{U_{1}}\circ\varphi:\varphi ^{-1}(U_{1})\to G(U_{1})$. Then, on $G(U_{1})$, $$\psi f\Phi ^{-1}(x^1,..,x^m)=(g\circ G^{-1})(x^1,\dots,x^m)=(\pi \circ G\circ G^{-1})(x^1,\dots,x^m)=(x^1,\dots,x^n)$$which proves the statement. 
-- **Corollary**: The set $\mathcal{I}:=\{ p\in M: d_{p}f\text{ is surjective}\}$ is open and $f|_{\mathcal{I}}$ is an submersion.
+- **Corollary**: The set $\mathcal{I}:=\{ p\in M: p\text{ is regular}\}$ is open and $f|_{\mathcal{I}}$ is an submersion.
 ---
-> [!lemma] Corollary 2 
+> [!lemma] Theorem 2 
 > Let $f:M\to N$ be a smooth map between smooth manifolds. Then, 
 > 1. for any $p\in M$ s.t. $d_{p}f$ is surjective, there exists an open neighborhood $U\ni p$ s.t. $f^{-1}(f(p))\cap U$ is a [[Submanifold|regular $(m-n)$-submanifold]] of $M$.
-> 2. if $f$ is a submersion, for any $q\in N$, $f^{-1}(q)$ is either empty, or is a proper regular $(m-n)$-submanifold of $M$.
-> 3. if $f$ is a submersion, for a (proper) regular submanifold $L\subseteq M$, $f^{-1}(L)$ is a (proper) 
+> 2. for any regular value $q\in N$, $f^{-1}(q)$ is either empty or is a proper regular $(m-n)$-submanifold of $M$.
+> 3. if $f$ is a submersion, for any $q\in N$, $f^{-1}(q)$ is either empty, or is a proper regular $(m-n)$-submanifold of $M$.
+> 4. if $f$ is a submersion, for a (proper) regular submanifold $L\subseteq N$, $f^{-1}(L)$ is a (proper) regular submanifold of $M$.
 
 > [!proof]-
 > We have:
@@ -30,6 +37,10 @@
 > 
 > 	Therefore, $U\cap f^{-1}(f(p))$ is a submanifold.
 > 2. If $f^{-1}(q)$ is non-empty, by 1 it is a submanifold as being a submanifold is a local condition. Further it is proper as $f^{-1}(q)$ is closed by [[Submanifold|Proposition 3]].
+> 3. from 2.
+> 4. Let $p\in f^{-1}(L)$. Then, let $(U,\varphi)$ be a chart at $f(p)$ s.t. $\varphi(f(p))=0$ and $\varphi(U\cap L)=\{ x\in \varphi(U):x^{\ell+1}=\dots =x^{n}=0 \}$.
+>    
+>    For $V:=f^{-1}(U)$, we have that: $(\varphi \circ f)(V\cap f^{-1}(L))=\varphi(U\cap L)$. This proves the statement.
 ---
 ##### Examples
 > [!lh] Exmaple 1 (Submersion)

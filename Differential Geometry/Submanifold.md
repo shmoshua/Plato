@@ -9,6 +9,7 @@
 > 	3. $\varphi(U\cap N)=\{ x\in (-\varepsilon,\varepsilon)^m: x_{n+1}=\dots=x_{m}=0 \}$
 - **Related definition**: $\varphi:N\to M$ is an ***embedding*** of $M$, if $\varphi(N)$ is a regular submanifold and $\varphi$ a [[diffeomorphism]].
 - **Remark**: For the atlas $\{ (U_{\alpha},\varphi_{\alpha}) \}$ on $M$ and a regular submanifold $N\subseteq M$, $\{ (U_{\alpha}\cap N,\varphi_{\alpha}|_{U_{\alpha}\cap N}) \}_{\alpha}$ defines an atlas on $N$.
+- **Related definition**:  A regular submanifold $M\subseteq N$ is ***proper*** if $i:M\hookrightarrow N$ is [[Proper Map|proper]]:
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Constant Rank Theorem)
