@@ -48,7 +48,11 @@
 > [!proof]+
 > We prove this using an induction on $m$. If $m=0$ and $n\geq 1$, the statement is true as $f(C)$ is at most one point which has measure zero in $\mathbb{R}^n$. 
 > 
-> Now, let $m\geq 1$ and write $f=(f^1,\dots,f^n)$. We set: $$C_{i}:=\{ x\in U:\}$$
+> Now, let $m\geq 1$ and write $f=(f^1,\dots,f^n)$. We set: $$C_{i}:=\{ x\in U:\partial_{\alpha}f(x)=0,\forall \left| \alpha \right| \leq i\}$$i.e. all partial derivatives of $f$ up to order $i$ vanish at $x$. Then, $C\supseteq C_{1}\supseteq C_{2}\supseteq\dots$. We now have:
+> 1. **Showing $f(C \backslash C_{1})$ has measure $0$**:
+>    For $n=1$, we have that $C=C_{1}$ and $f(C \backslash C_{1})$ is  empty. Therefore, we may assume $n\geq 2$. let $y\in C\backslash C_{1}$. Wlog we may assume that $\partial_{1}f^1(y)\neq 0$. By a change of variables $$h:U\to \mathbb{R}^m,\quad x\mapsto(f^1(x),x^2,\dots,x^m)$$ we get that $$d_{y}h=\begin{bmatrix}\left. \frac{ \partial f^1 }{ \partial x^1 } \right| _{y}&\cdots&\cdots&\left. \frac{ \partial f^1 }{ \partial x^m } \right| _{y}\\&1 \\&&\ddots\\&&&1\end{bmatrix}$$which is invertible. Therefore by the [[Smooth Function|inverse function theorem]], there is an open subset $y\in V\subseteq U$ and $V'\subseteq \mathbb{R}^m$ s.t. $h|_{V}:V\to V'$ is a diffeomorphism. 
+>    
+>    Now, define $g:=f\circ (h|_{V})^{-1}:V'\to \mathbb{R}^n$ and let $C'$ be the critical points of $g$. Then, by the chain rule, $h(V\cap C)=C'$. Therefore, $g(C')=$
 ---
 ##### Examples
 > [!lh] Exmaple 1 (Submersion)
