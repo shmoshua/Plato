@@ -18,6 +18,7 @@
 > Let $f:M\to N$ be a smooth map between smooth manifolds. Then, 
 > 1. for any $p\in M$ s.t. $d_{p}f$ is surjective, there exists an open neighborhood $U\ni p$ s.t. $f^{-1}(f(p))\cap U$ is a [[Submanifold|regular $(m-n)$-submanifold]] of $M$.
 > 2. if $f$ is a submersion, for any $q\in N$, $f^{-1}(q)$ is either empty, or is a proper regular $(m-n)$-submanifold of $M$.
+> 3. if $f$ is a submersion, for a (proper) regular submanifold $L\subseteq M$, $f^{-1}(L)$ is a (proper) 
 
 > [!proof]-
 > We have:

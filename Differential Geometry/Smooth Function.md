@@ -64,7 +64,10 @@
 ---
 > [!lemma] Theorem 5 (Implicit Function Theorem)
 > Let $f:\mathbb{R}^m\to \mathbb{R}^n$ be a smooth function with $m\geq n$ and $p\in \mathbb{R}^m$ with $f(p)=0$. 
-> 1. if $d_{p}f|_{\mathbb{R}^n\times \{ 0 \}}$ is invertible, i.e. $$\det \begin{bmatrix}\left. \frac{ \partial f^1 }{ \partial x^1 }  \right| _{p}&\dots&\left. \frac{ \partial f^1 }{ \partial x^n }  \right| _{p}\\ \vdots&&\vdots\\\left. \frac{ \partial f^n }{ \partial x^1 }  \right| _{p}&\dots&\left. \frac{ \partial f^n }{ \partial x^n }  \right| _{p}\end{bmatrix}\neq 0$$then $f^{-1}(0)$ can be written locally near $p$ as a graph $\text{graph}(g)$ where $$g:\mathbb{R}^{m-n}\to \mathbb{R}^n,\quad (x^{n+1},\dots,x^{m})\mapsto (x^1,\dots,x^n)$$ 
+> 1. if $d_{p}f|_{\mathbb{R}^n\times \{ 0 \}}$ is invertible, i.e. $$\det \begin{bmatrix}\left. \frac{ \partial f^1 }{ \partial x^1 }  \right| _{p}&\dots&\left. \frac{ \partial f^1 }{ \partial x^n }  \right| _{p}\\ \vdots&&\vdots\\\left. \frac{ \partial f^n }{ \partial x^1 }  \right| _{p}&\dots&\left. \frac{ \partial f^n }{ \partial x^n }  \right| _{p}\end{bmatrix}\neq 0$$then $f^{-1}(0)$ can be written locally near $p$ as a graph $\text{graph}(g)$ where $$g:\mathbb{R}^{m-n}\to \mathbb{R}^n,\quad (x^{n+1},\dots,x^{m})\mapsto (x^1,\dots,x^n)$$ i.e. there exists an open $U\ni p$ s.t. $f(x,g(x))=0$ for all $x\in U$.
+
+> [!proof]-
+> From [[Submersion|local submersion theorem corollary]], there exists an open neighborhood $U\ni p$ s.t. $f^{-1}(0)\cap U$ is a regular $m-n$-submanifold of $\mathbb{R}^m$. Therefore, there exists a chart $\varphi:U\to \mathbb{R}^m$ of $M$ s.t. $$\varphi(f^{-1}(0)\cap U)=\{ x\in \varphi(U):x^{m-n+1}=\dots=x^m=0 \}$$Then, let's define: $$g:\mathbb{R}^{m-n}\to \mathbb{R}^n,\quad (x^1,\dots,x^{m-n})\mapsto\varphi ^{-1}$$
 ---
 ##### Examples
 > [!h] Example 1
