@@ -42,6 +42,14 @@
 >    
 >    For $V:=f^{-1}(U)$, we have that: $(\varphi \circ f)(V\cap f^{-1}(L))=\varphi(U\cap L)$. This proves the statement.
 ---
+> [!lemma] Theorem 3 (Sard, 1942)
+> Let $U\subseteq \mathbb{R}^m$ be open and $f:U\to \mathbb{R}^n$ be a smooth map. Then, $$\lambda(f(C))=0$$where $\lambda$ is the [[Lebesgue measure]] and $C:=\{ x\in U :x\text{ is regular}\}$
+
+> [!proof]+
+> We prove this using an induction on $m$. If $m=0$ and $n\geq 1$, the statement is true as $f(C)$ is at most one point which has measure zero in $\mathbb{R}^n$. 
+> 
+> Now, let $m\geq 1$ and write $f=(f^1,\dots,f^n)$. We set: $$C_{i}:=\{ x\in U:\}$$
+---
 ##### Examples
 > [!lh] Exmaple 1 (Submersion)
 > We have that:

@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -152,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "one point compactification",
+                "query": "sard",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,7 +169,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -251,7 +252,7 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "169aa21562773dbd",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Submersion.md",
