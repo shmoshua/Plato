@@ -43,9 +43,9 @@
 >    For $V:=f^{-1}(U)$, we have that: $(\varphi \circ f)(V\cap f^{-1}(L))=\varphi(U\cap L)$. This proves the statement.
 ---
 > [!lemma] Theorem 3 (Sard, 1942)
-> Let $U\subseteq \mathbb{R}^m$ be open and $f:U\to \mathbb{R}^n$ be a smooth map. Then, $$\lambda(f(C))=0$$where $\lambda$ is the [[Lebesgue measure]] and $C:=\{ x\in U :x\text{ is regular}\}$
+> Let $U\subseteq \mathbb{R}^m$ be open and $f:U\to \mathbb{R}^n$ be a smooth map. Then, $$\lambda(f(C))=0$$where $\lambda$ is the [[Lebesgue measure]] and $C:=\{ x\in U :x\text{ is critical}\}$.
 
-> [!proof]+
+> [!proof]-
 > We prove this using an induction on $m$. If $m=0$ and $n\geq 1$, the statement is true as $f(C)$ is at most one point which has measure zero in $\mathbb{R}^n$. 
 > 
 > Now, let $m\geq 1$ and write $f=(f^1,\dots,f^n)$. We set: $$C_{i}:=\{ x\in U:\partial_{\alpha}f(x)=0,\forall \left| \alpha \right| \leq i\}$$i.e. all partial derivatives of $f$ up to order $i$ vanish at $x$. Then, $C\supseteq C_{1}\supseteq C_{2}\supseteq\dots$. We now have:
@@ -62,7 +62,8 @@
 >3. **Showing that $f(C_{i})$ has measure zero for large enough $i$.**
 >   Let $I_{\delta}\subseteq U$ be a hypercube of side length $\delta$. We will show that $f(C_{i}\cap I_{\delta})$ has measure zero for $i>m/n-1$. By Taylor, we have for $p\in C_{i}\cap I_{\delta}$ and $h$ with $x+h\in I_{\delta}$, $$f(x+h)=f(x)+R(x,h)$$where $\left\| R(x,h) \right\|\leq \xi \left\| h \right\|^{i+1}$ s.t. $\xi$ only depends on $f$ and $I_{\delta}$, by considering the integral form. Now, choose $N$ to subdivide $I_{\delta}$ into cubes of side length $\frac{\delta}{N}$. Let $I$ be one of these cubes containing $x\in C_{i}\cap I$. 
 >   
->    Then, for all $h$ s.t. $f(x+h)\in C_{i}\cap I$, we have: $$\left\| f(x+h)-f(x) \right\| \leq \xi \left\| h \right\| ^{i+1}\leq \xi \left( \sqrt{ m } \frac{\delta}{N}\right)^{i+1} $$Therefore, $f(I)$ is contained in a hypercube with edges of the above length. There are at most $N^m$ such little cubes and hence $f(C_{i}\cap I_{\delta})$ is contained in a union of hypercubes whose sum of volumes is less than $$N^m\left( \xi \sqrt{ m } \frac{\delta}{N} \right)^{(i+1)n}=\left( \xi \sqrt{ m }\delta \right) ^{(i+1)n}N^{m-(i+1)n}$$For k > n/m − 1 we can make this sum arbitrarily small by choosing N large enough. Hence the assertion.
+>    Then, for all $h$ s.t. $f(x+h)\in C_{i}\cap I$, we have: $$\left\| f(x+h)-f(x) \right\| \leq \xi \left\| h \right\| ^{i+1}\leq \xi \left( \sqrt{ m } \frac{\delta}{N}\right)^{i+1} $$Therefore, $f(I)$ is contained in a hypercube with edges of the above length. There are at most $N^m$ such little cubes and hence $f(C_{i}\cap I_{\delta})$ is contained in a union of hypercubes whose sum of volumes is less than $$N^m\left( \xi \sqrt{ m } \frac{\delta}{N} \right)^{(i+1)n}=\left( \xi \sqrt{ m }\delta \right) ^{(i+1)n}N^{m-(i+1)n}$$For $i>m/n -1$, we can make this sum arbitrarily small by choosing $N$ large enough. Hence the assertion holds.
+ - **Corollary**: For $f:M\to N$ smooth, for almost every $q\in N$, $f^{-1}(q)$ is a regular manifold of $M$ with $\text{T}_{p}f^{-1}(q)\cong \text{ker }d_{p}f$ as for $\gamma:(-\varepsilon,\varepsilon)\to f^{-1}(q)$ with $\gamma(0)=p$, $$0=\left. \frac{d}{dt} \right| _{t=0}q=\left. \frac{d}{dt} \right| _{t=0}f(\gamma(t))=d_{p}f\left( \dot{\gamma}(t) \right) $$
 ---
 ##### Examples
 > [!lh] Exmaple 1 (Submersion)
