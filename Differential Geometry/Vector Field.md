@@ -28,7 +28,19 @@
 ![[Derivation#^c79513|p]]
 
 ---
-> [!lemma] Proposition 2 (Pushforward Vector Field)
+> [!lemma] Proposition 2 (Vector fields are local)
+> We have that:
+> 1. $\Gamma(\text{T}M)\times C^\infty(M)\to C^\infty(M), (X,f)\mapsto Xf$ is [[Local Operator|local]] in each variable.
+> 2. $\Gamma(\text{T}M)\times \Gamma(\text{T}M)\to \Gamma(\text{T}M), (X,Y)\mapsto [X,Y]$ is [[Local Operator|local]] in each variable.
+
+> [!proof]+
+> We have:
+> 1. For $U\subseteq M$ open and let $X,Y\in \Gamma(\text{T}M)$ s.t. $X|_{U}=Y|_{U}$. For $p\in U$ let $(V,\varphi)$ be a chart at $p$ s.t. $V\subseteq U$. Then, $X|_{V}=Y|_{V}$ and for any $f\in C^\infty(M)$, $X_{p}f=Y_{p}f$ for $p\in U$.
+>    
+>    Further, for $f,g\in C^\infty(M)$ with $f|_{U}=g|_{U}$, we have that for $p\in U$: $$\left. \frac{ \partial f }{ \partial x^i }  \right|_{p}=\left. \frac{ \partial f\varphi ^{-1} }{ \partial x }  \right|  $$
+> 2. 
+---
+> [!lemma] Proposition 3 (Pushforward Vector Field)
 > Let $\varphi\in C^\infty(M,N)$. Then, 
 > 1. $\varphi ^{*}:C^\infty(N)\to C^\infty(M),f\mapsto f\circ\varphi$ is an algebra homomorphism.
 > 3. $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$ are $\varphi$-related if and only if the following diagram commutes: $$\begin{CD}C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\\ @V\alpha YVV&@VV\alpha XV\\C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\end{CD}$$
