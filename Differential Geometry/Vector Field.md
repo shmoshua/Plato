@@ -32,13 +32,15 @@
 > We have that:
 > 1. $\Gamma(\text{T}M)\times C^\infty(M)\to C^\infty(M), (X,f)\mapsto Xf$ is [[Local Operator|local]] in each variable.
 > 2. $\Gamma(\text{T}M)\times \Gamma(\text{T}M)\to \Gamma(\text{T}M), (X,Y)\mapsto [X,Y]$ is [[Local Operator|local]] in each variable.
+> 3. For $X\in \Gamma(\text{T}M)$, $C^\infty(M)\to C^\infty(M),f\mapsto Xf$ is a [[differential operator]] of order $1$.
 
 > [!proof]+
 > We have:
 > 1. For $U\subseteq M$ open and let $X,Y\in \Gamma(\text{T}M)$ s.t. $X|_{U}=Y|_{U}$. For $p\in U$ let $(V,\varphi)$ be a chart at $p$ s.t. $V\subseteq U$. Then, $X|_{V}=Y|_{V}$ and for any $f\in C^\infty(M)$, $X_{p}f=Y_{p}f$ for $p\in U$.
 >    
 >    Further, for $f,g\in C^\infty(M)$ with $f|_{U}=g|_{U}$, we have that for $p\in U$ a chart $(V,\varphi)$ with $V\subseteq U$ and: $$X_{p}f=\sum_{i=1}^{m}X^i_{p}\cdot \left. \frac{ \partial f }{ \partial x^i }  \right| _{p}=\sum_{i=1}^{m}X^i_{p}\cdot \left. \frac{ \partial g }{ \partial x^i }  \right| _{p}=X_{p}g$$
-> 2. Let $X,Y\in \Gamma(\text{T}M)$ and $X|_{U}=Y|_{U}$ where $U\subseteq M$ open. Then, for $Z\in \Gamma(\text{T}M)$, $f\in C^\infty(M)$ and $p\in U$, $$[X,Z]_{p}f=X_{p}(Zf)-Z_{p}(Xf)=Y_{p}(Zf)-$$
+> 2. Let $X,Y\in \Gamma(\text{T}M)$ and $X|_{U}=Y|_{U}$ where $U\subseteq M$ open. Then, for $Z\in \Gamma(\text{T}M)$, $f\in C^\infty(M)$ and $p\in U$, $$[X,Z]_{p}f=X_{p}(Zf)-Z_{p}(Xf)=Y_{p}(Zf)-Z_{p}(Yf)=[Y,Z]_{p}f$$
+> 3. Let $(U,\varphi)$ be a chart of $M$. Then, for $p\in U$, $$X_{p}f=\sum_{i=1}^{m}X^i(p)\left. \frac{ \partial f }{ \partial x^i }  \right| _{p}$$
 ---
 > [!lemma] Proposition 3 (Pushforward Vector Field)
 > Let $\varphi\in C^\infty(M,N)$. Then, 
