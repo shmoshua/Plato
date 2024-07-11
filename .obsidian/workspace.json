@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md",
+                "file": "Differential Geometry/Local Operator.md",
                 "mode": "source",
                 "source": true
               }
@@ -104,7 +104,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Local Operator.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a0e5b94a78c37f91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": true
               }
@@ -157,8 +169,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -178,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Local Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Local Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Differential Geometry/Local Operator.md"
               }
             }
           }
@@ -242,10 +253,12 @@
   },
   "active": "6ca45de12d81f53a",
   "lastOpenFiles": [
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Lie Bracket.md",
-    "Analysis/Lie Derivative.md",
     "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Local Operator.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Representation Theory/Lie Algebra.md",
+    "Differential Geometry/Tangent Space.md",
+    "Analysis/Lie Derivative.md",
     "Differential Geometry/Submersion.md",
     "Differential Geometry/Submanifold.md",
     "Measure Theory/Product Measure.md",
@@ -266,8 +279,6 @@
     "Topology/Weak Topology.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Topology/Compact Space.md",
-    "Topology/Second Countable Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 4.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
