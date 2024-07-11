@@ -37,8 +37,8 @@
 > We have:
 > 1. For $U\subseteq M$ open and let $X,Y\in \Gamma(\text{T}M)$ s.t. $X|_{U}=Y|_{U}$. For $p\in U$ let $(V,\varphi)$ be a chart at $p$ s.t. $V\subseteq U$. Then, $X|_{V}=Y|_{V}$ and for any $f\in C^\infty(M)$, $X_{p}f=Y_{p}f$ for $p\in U$.
 >    
->    Further, for $f,g\in C^\infty(M)$ with $f|_{U}=g|_{U}$, we have that for $p\in U$: $$\left. \frac{ \partial f }{ \partial x^i }  \right|_{p}=\left. \frac{ \partial f\varphi ^{-1} }{ \partial x }  \right|  $$
-> 2. 
+>    Further, for $f,g\in C^\infty(M)$ with $f|_{U}=g|_{U}$, we have that for $p\in U$ a chart $(V,\varphi)$ with $V\subseteq U$ and: $$X_{p}f=\sum_{i=1}^{m}X^i_{p}\cdot \left. \frac{ \partial f }{ \partial x^i }  \right| _{p}=\sum_{i=1}^{m}X^i_{p}\cdot \left. \frac{ \partial g }{ \partial x^i }  \right| _{p}=X_{p}g$$
+> 2. Let $X,Y\in \Gamma(\text{T}M)$ and $X|_{U}=Y|_{U}$ where $U\subseteq M$ open. Then, for $Z\in \Gamma(\text{T}M)$, $f\in C^\infty(M)$ and $p\in U$, $$[X,Z]_{p}f=X_{p}(Zf)-Z_{p}(Xf)=Y_{p}(Zf)-$$
 ---
 > [!lemma] Proposition 3 (Pushforward Vector Field)
 > Let $\varphi\in C^\infty(M,N)$. Then, 

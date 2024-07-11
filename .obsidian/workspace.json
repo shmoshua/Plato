@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Local Operator.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -251,14 +251,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9da1f925d695969f",
+  "active": "a0e5b94a78c37f91",
   "lastOpenFiles": [
-    "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Local Operator.md",
     "Analysis/Lie Derivative.md",
+    "Differential Geometry/Lie Bracket.md",
     "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Submersion.md",
     "Differential Geometry/Submanifold.md",
     "Measure Theory/Product Measure.md",
