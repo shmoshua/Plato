@@ -20,7 +20,7 @@
 > We have:
 > 1. For $p\in M$ and $h\in C^\infty(M)$, $$\begin{align}[fX,gY]_{p}(h)&=f(p)X_{p}(gY(h))-g(p)Y_{p}(fX(h))\\&=f(p)X_{p}(gY(h))-g(p)Y_{p}(fX(h))\end{align}$$
 ---
-> [!lemma] Proposition 1
+> [!lemma] Proposition 2
 > For $(U,\varphi)$ chart on $M$ at $p$, the local coordinates of $[X,Y]$ is given as $[X,Y]_{p}=\sum_{j=1}^{m}Z^j(p)\left. \frac{ \partial  }{ \partial x^j } \right|_{p}$ where: $$Z^j(p):=\sum_{i=1}^{m}X_{i}(p)\frac{ \partial Y_{j} }{ \partial x^i } (p)-Y_{i}(p)\frac{ \partial X_{j} }{ \partial x^i }(p) $$
 
 > [!proof]-

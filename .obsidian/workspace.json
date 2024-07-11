@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submersion.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "mode": "preview",
                 "source": true
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submersion.md",
+                "file": "Analysis/Lie Derivative.md",
                 "mode": "preview",
                 "source": true
               }
@@ -104,14 +104,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Tangent Space.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +139,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sard",
+                "query": "covariant",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Submersion.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Submersion.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Submersion.md"
+                "file": "Differential Geometry/Lie Bracket.md"
               }
             }
           }
@@ -240,10 +239,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c55da6782dee2fb4",
+  "active": "78dbef2309a405bd",
   "lastOpenFiles": [
-    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Analysis/Lie Derivative.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Submersion.md",
     "Differential Geometry/Submanifold.md",
     "Measure Theory/Product Measure.md",
@@ -266,8 +267,6 @@
     "Topology/Compact Space.md",
     "Topology/Second Countable Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
-    "Differential Geometry/Partition of Unity.md",
-    "Topology/Paracompact Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
