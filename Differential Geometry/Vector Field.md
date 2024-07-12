@@ -34,7 +34,7 @@
 > 2. $\Gamma(\text{T}M)\times \Gamma(\text{T}M)\to \Gamma(\text{T}M), (X,Y)\mapsto [X,Y]$ is [[Local Operator|local]] in each variable.
 > 3. For $X\in \Gamma(\text{T}M)$, $C^\infty(M)\to C^\infty(M),f\mapsto Xf$ is a [[differential operator]] of order $1$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. For $U\subseteq M$ open and let $X,Y\in \Gamma(\text{T}M)$ s.t. $X|_{U}=Y|_{U}$. For $p\in U$ let $(V,\varphi)$ be a chart at $p$ s.t. $V\subseteq U$. Then, $X|_{V}=Y|_{V}$ and for any $f\in C^\infty(M)$, $X_{p}f=Y_{p}f$ for $p\in U$.
 >    
