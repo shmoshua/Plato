@@ -9,6 +9,9 @@
 > 1. $0\in I_{p}$ with $\gamma_{p}(0)=p$.
 > 2. $\gamma_{p}$ is an integral curve on $X$.
 > 3. if $\mu:J\to M$ satisfies 1 and 2, $J\subseteq I_{p}$ and $\mu|_{J}=\gamma_{p}|_{J}$.
+
+> [!proof]-
+> Let $p\in M$ and $(U,\varphi)$ be the largest chart containing $p$. Then, our ODE: $$\begin{align}\dot{\gamma}(t)&=X(\gamma(t))\\\gamma(0)&=p\end{align}$$translates locally to an ODE: $$\begin{align}\chi(t)&=(\chi^1(t),\dots,\chi^m(t))\\\dot{\chi^1}(t)&=X^1(\chi^1(t),\dots,\chi^m(t))\\\vdots\\\dot{\chi^m}(t)&=X^m(\chi^1(t),\dots,\chi^m(t))\end{align}$$for $a<t<b$. Then, by existence and uniqueness of ODE, there exists a solution $\gamma$
 - **Related definition**: $X$ is called ***complete*** if $I_{p}=\mathbb{R}$ for all $p\in M$.
 ---
 ##### Examples
