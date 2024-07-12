@@ -123,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Flow.md",
+                "file": "Lie Group/Integral Curve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Flow.md",
+                "file": "Lie Group/Integral Curve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Flow.md"
+                "file": "Lie Group/Integral Curve.md"
               }
             }
           }
@@ -251,10 +251,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c55da6782dee2fb4",
+  "active": "6ca45de12d81f53a",
   "lastOpenFiles": [
-    "Lie Group/Integral Curve.md",
     "Lie Group/Flow.md",
+    "Lie Group/Integral Curve.md",
     "Differential Geometry/Vector Field.md",
     "Controls/Ordinary Differential Equation.md",
     "Differential Geometry/Differential Operator.md",
