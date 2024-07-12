@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Local Operator.md",
+                "file": "Lie Group/Integral Curve.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Local Operator.md",
+                "file": "Lie Group/Integral Curve.md",
                 "mode": "preview",
                 "source": true
               }
@@ -123,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Differential Operator.md",
+                "file": "Lie Group/Integral Curve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Differential Operator.md",
+                "file": "Lie Group/Integral Curve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Differential Operator.md"
+                "file": "Lie Group/Integral Curve.md"
               }
             }
           }
@@ -251,8 +251,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a0e5b94a78c37f91",
+  "active": "6ca45de12d81f53a",
   "lastOpenFiles": [
+    "Lie Group/Flow.md",
+    "Lie Group/Integral Curve.md",
     "Differential Geometry/Local Operator.md",
     "Differential Geometry/Differential Operator.md",
     "Analysis/Lie Derivative.md",
@@ -277,8 +279,6 @@
     "Differential Geometry/Isometry.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Functional Analysis/Guelfand Spectrum.md",
-    "Topology/Weak Topology.md",
-    "Topology/Topological Vector Space with Seminorms.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

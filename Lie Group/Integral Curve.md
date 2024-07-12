@@ -1,7 +1,7 @@
 #Definition #LieGroups 
 
 > [!definition]
-> Let $M$ be a [[smooth manifold]]. For a [[vector field]] $X$ an ***integral curve*** on $X$ is a smooth map $\gamma:(a,b)\to M$ with: $$\gamma'(t)=X_{\gamma(t)},\quad \forall t\in I$$
+> Let $M$ be a [[smooth manifold]]. For a [[vector field]] $X$ an ***integral curve*** on $X$ is a smooth map $\gamma:(a,b)\to M$ with: $$\dot{\gamma}(t)=X_{\gamma(t)},\quad \forall t\in I$$
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Existence and Uniqueness of solutions of ODEs)

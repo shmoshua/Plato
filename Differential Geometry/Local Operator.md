@@ -7,7 +7,7 @@
 ##### Properties
 > [!lemma] Theorem 1
 > Let $M$ be a smooth manifold. 
-> 1. if $M$ is compact, every local operator is a differential operator.
+> 1. if $M$ is compact, every local operator is a [[differential operator]].
 ---
 ##### Examples
 > [!h] Example 1
