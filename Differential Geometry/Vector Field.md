@@ -47,7 +47,9 @@
 > 1. there exists a chart $(U,\varphi)$ around $p$ s.t. $X|_{U}=\frac{ \partial  }{ \partial x^1 }$.
 
 > [!proof]+
-> Since $X_{p}\neq 0$, there exists a chart $(U,\varphi)$ at $p$ s.t. $X_{p}=\frac{ \partial  }{ \partial x^1 }|_{p}$. Modulo reducing $U$, there exists $\delta>0$ s.t. for the flow $\Phi_{X}:(-\delta,\delta)\times U\to M$: $$\Phi_{X}(t,q)=\varphi ^{-1}(\Phi^1(t,q),\dots,\Phi^m(t,q)),\quad \forall q\in U$$Let $N:=\{ q\in U :x^1(q)=0\}\ni p$. Then $N$ is a $m-1$ dimensional submanifold of $M$. We define: $\Psi:=\Phi|_{(-\delta,\delta)\times N}$.  Then, clearly $\Psi$ is smooth and 
+> Since $X_{p}\neq 0$, there exists a chart $(U,\varphi)$ at $p$ s.t. $X_{p}=\frac{ \partial  }{ \partial x^1 }|_{p}$. Modulo reducing $U$, there exists $\delta>0$ s.t. for the flow $\Phi_{X}:(-\delta,\delta)\times U\to M$: $$\Phi_{X}(t,q)=\varphi ^{-1}(\Phi^1(t,q),\dots,\Phi^m(t,q)),\quad \forall q\in U$$Let $N:=\{ q\in U :x^1(q)=0\}\ni p$. Then $N$ is a $m-1$ dimensional submanifold of $M$. We define: $\Psi:=\Phi|_{(-\delta,\delta)\times N}$.  Then, clearly $\Psi$ is smooth. Further, at $(0,p)$, $$d_{(0,p)}\Psi \left( \left. \frac{ \partial  }{ \partial t }  \right| _{(0,p)} \right)=\left. \frac{ \partial f\circ \Psi }{ \partial t }  \right|_{(0,p)}=\left. \frac{ \partial f\circ \Phi }{ \partial t } \right| _{(0,p)}=d_{p}f(\dot{\gamma}_{p}(0))=X(\gamma_{p}(0))(f)=X_{p}(f)=\left. \frac{ \partial  }{ \partial x^1 }  \right| _{p}f $$And for $i\geq 2$, 
+> 
+> $$\begin{align}d_{(0,p)}\Psi \left( \left. \frac{ \partial  }{ \partial x^i }  \right| _{(0,p)} \right)f &=\left. \frac{d}{dt} \right| _{t=0}f(\Psi((0,p)+t(0,\varphi ^{-1}(e_{i}))))\\&=\left. \frac{d}{dt} \right| _{t=0}f(\Phi(0,p+t\varphi ^{-1}(e_{i})))\\&=\left. \frac{d}{dt} \right| _{t=0}f(p+t\varphi ^{-1}(e_{i}))\\&=d_{p}f\left( \left. \frac{ \partial  }{ \partial x^i }  \right| _{p} \right)\\&= \left. \frac{ \partial  }{ \partial x^i }  \right| _{p} f \end{align}$$Therefore, $\Psi$ is a bijection. 
 
 - **Remark**: This implies that any non-zero vector fields are locally invariant. 
 ---

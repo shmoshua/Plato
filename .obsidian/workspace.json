@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Lie Bracket.md",
+                "file": "Differential Geometry/Tangent Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Flow.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": true
               }
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Vector Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md"
+                "file": "Differential Geometry/Vector Field.md"
               }
             }
           }
@@ -287,12 +287,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0464b076a96e0ef6",
+  "active": "6ca45de12d81f53a",
   "lastOpenFiles": [
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Vector Field.md",
-    "Differential Geometry/Smooth Function.md",
-    "Topology/Compact Space.md",
     "Lie Group/Flow.md",
+    "Differential Geometry/Smooth Function.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Topology/Compact Space.md",
     "Topology/Second Countable Space.md",
     "Lie Group/Integral Curve.md",
     "Topology/Ultrafilter.md",
@@ -302,14 +305,11 @@
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Local Operator.md",
     "Differential Geometry/Immersion.md",
-    "Differential Geometry/Tangent Space.md",
-    "Differential Geometry/Lie Bracket.md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Submersion.md",
     "Differential Geometry/Submanifold.md",
     "Measure Theory/Product Measure.md",
     "Differential Geometry/Proper Map.md",
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Tangent Bundle.md",
     "Topology/Normal Space.md",
