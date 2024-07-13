@@ -55,17 +55,22 @@
 
 - **Remark**: This implies that any non-zero vector fields are locally invariant. 
 ---
-> [!lemma] Proposition 4 (Related Vector Fields)
+> [!lemma] Proposition 4 (Pushforward Vector Fields)
+> Let $\phi\in C^\infty(M,N)$. Then, for $X\in \Gamma(\text{T}M),Y\in \Gamma(\text{T}N)$,
+> 1. $\phi ^{*}(\phi_*(X)f)=X(\phi ^{*}(f))$
+> 2. $\phi ^{*}(Y)f=$
+
+> [!proof]+
+> We have: $$\begin{align}\phi ^{*}(\phi_{*}(Xf))=\phi_{*}(Xf)\circ \phi\end{align}$$
+> $$\begin{align}\phi _{*}(X)((\phi ^{-1})^{*}(f))_{q}&=d\phi(X_{\phi ^{-1}(q)})((\phi ^{-1})^{*}f)\\&=d\phi(X_{\phi ^{-1}(q)})(f\circ \phi ^{-1})\\&=X_{\phi ^{-1}(q)}(f\circ \phi ^{-1}\circ \phi)\\&=X_{\phi ^{-1}(q)}f\\&=(Xf)\circ \phi ^{-1}\end{align}$$
+---
+> [!lemma] Proposition 5 (Related Vector Fields)
 > Let $\varphi\in C^\infty(M,N)$.
 > 1. $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$ are $\varphi$-related if and only if the following diagram commutes: $$\begin{CD}C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\\ @V YVV&@VV XV\\C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\end{CD}$$
 > 2. Let $X,Y\in \Gamma(\text{T}M)$ and $X',Y'\in \Gamma(\text{T}N)$ s.t. $X$ and $X'$ and $\varphi$-related and $Y$ and $Y'$ are $\varphi$-related. Then, $[X,Y]$ is $\varphi$-related to $[X',Y']$.
+> 3. If $\varphi$ is a diffeomorphism, then $\varphi_{*}(X)\in \Gamma(\text{T}N)$ is the unique vector field $\varphi$-related to $X$. In this case, $$[]$$
 ---
-> [!lemma] Proposition 4 (Pushforward Vector Field)
-> Let $\varphi\in C^\infty(M,N)$. Then, 
-> 1. $\varphi ^{*}:C^\infty(N)\to C^\infty(M),f\mapsto f\circ\varphi$ is an algebra homomorphism.
-> 3. $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$ are $\varphi$-related if and only if the following diagram commutes: $$\begin{CD}C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\\ @V\alpha YVV&@VV\alpha XV\\C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\end{CD}$$
-> 4. Let $X,Y\in \Gamma(\text{T}M)$ and $X',Y'\in \Gamma(\text{T}N)$ s.t. $X$ and $X'$ and $\varphi$-related and $Y$ and $Y'$ are $\varphi$-related. Then, $[X,Y]$ is $\varphi$-related to $[X',Y']$.
-> 5. If $\varphi$ is a diffeomorphism, $\varphi ^{*}$ is an algebra isomorphism. In this case, for any $X\in \Gamma(\text{T}M)$, there exists a unique $Y\in \Gamma(\text{T}N)$ which is $\varphi$-related to $X$, characterized by: $$\alpha Y=(\varphi ^{*})^{-1}\circ \alpha X\circ \varphi ^{*}$$We denote $Y$ as $\varphi_{*}X$, the ***pushforward vector field*** of $X$.
+
 
 > [!proof]-
 > We have:
@@ -86,5 +91,6 @@
 ##### Examples
 > [!h] Example 1 (Pushforward and Pullback Vector Fields)
 > Let $M,N$ be smooth manifolds with $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$.
-> 1. For a diffeomorphism $\phi:M\to N$, the ***pushforward vector field*** is given as: $$\phi_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}N),\quad X\mapsto $$
-> 
+> 1. For a diffeomorphism $\phi:M\to N$, the ***pushforward vector field*** is  $\phi_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}N)$ s.t. $$\phi_{*}(X)_{q}=d\phi(X_{\phi ^{-1}(q)})$$
+> 2. For a local diffeomorphism $\phi:M\to N$, the ***pullback*** is $\phi ^{*}:\Gamma(\text{T}N)\to\Gamma(\text{T}M)$ s.t. $$\phi ^{*}(Y)_{p}=(d_{p}\phi) ^{-1}(Y_{\phi(p)})$$
+---
