@@ -55,22 +55,28 @@
 
 - **Remark**: This implies that any non-zero vector fields are locally invariant. 
 ---
-> [!lemma] Proposition 4 (Pushforward Vector Fields)
-> Let $\phi\in C^\infty(M,N)$. Then, for $X\in \Gamma(\text{T}M),Y\in \Gamma(\text{T}N)$,
+> [!lemma] Lemma 4 (Pushforward Vector Fields)
+> Let $\phi\in C^\infty(M,N)$ and $\psi^\infty(N,P)$. Then, for $X\in \Gamma(\text{T}M),Y\in \Gamma(\text{T}N)$,$Z\in \Gamma(\text{T}P)$,
 > 1. $\phi ^{*}(\phi_*(X)f)=X(\phi ^{*}(f))$
-> 2. $\phi ^{*}(Y)f=$
+> 2. $\phi ^{*}(Y)(\phi ^{*}(f))=\phi ^{*}(Yf)$
+> 3. $\phi ^{*}(\phi_{*}(X))=X$
+> 4. $\phi_{*}(\phi ^{*}(Y))=Y$
+> 5. $(\psi \circ\phi)_{*}(X)=\psi_{*}(\phi_{*}(X))$
+> 6. $(\psi \circ\phi)^{*}(Z)=\phi ^{*}(\psi ^{*}(Z))$
 
 > [!proof]+
-> We have: $$\begin{align}\phi ^{*}(\phi_{*}(Xf))=\phi_{*}(Xf)\circ \phi\end{align}$$
-> $$\begin{align}\phi _{*}(X)((\phi ^{-1})^{*}(f))_{q}&=d\phi(X_{\phi ^{-1}(q)})((\phi ^{-1})^{*}f)\\&=d\phi(X_{\phi ^{-1}(q)})(f\circ \phi ^{-1})\\&=X_{\phi ^{-1}(q)}(f\circ \phi ^{-1}\circ \phi)\\&=X_{\phi ^{-1}(q)}f\\&=(Xf)\circ \phi ^{-1}\end{align}$$
+> We have: 
+> 1. $$\begin{align}\phi ^{*}(\phi_{*}(X)f)(p)=\phi_{*}(X)f(\phi(p))=d_{p}\phi(X_{p})f=X_{p}(f\circ \phi)=X_{p}(\phi ^{*}(f))\end{align}$$
+> 2.  $$\phi ^{*}(Y)(\phi ^{*}(f))_{p}=(d_{p}\phi)^{-1}(Y_{\phi(p)})(f\circ\phi )=(d_{p}\phi)(d_{p}\phi)^{-1}(Y_{\phi(p)})f=Y_{\phi(p)}f$$
+> 3. $$\phi ^{*}(\phi_{*}(X))_{p}=(d_{p}\phi)^{-1}(\phi_{*}(X)_{\phi(p)})=(d_{p}\phi)^{-1}(d_{p}\phi(X_{p}))=X_{p}$$
+> 4. $$\phi_{*}(\phi ^{*}(Y))_{q}=d\phi(\phi ^{*}(Y)_{\phi ^{-1}(q)})=Y_{q}$$
+> 5. We have: $$(\psi \circ \phi)_{*}(X)_{p}=d_{p}(\psi \circ \phi)(X_{(\psi \circ \phi)^{-1}(p)})=d_{\phi(p)}\psi \cdot d_{p}\phi(X_{\phi ^{-1}(\psi ^{-1}(p))})=d_{\phi(p)}\psi(\phi_{*}(X)_{\psi ^{-1}(p)})=$$
 ---
 > [!lemma] Proposition 5 (Related Vector Fields)
 > Let $\varphi\in C^\infty(M,N)$.
 > 1. $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$ are $\varphi$-related if and only if the following diagram commutes: $$\begin{CD}C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\\ @V YVV&@VV XV\\C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\end{CD}$$
 > 2. Let $X,Y\in \Gamma(\text{T}M)$ and $X',Y'\in \Gamma(\text{T}N)$ s.t. $X$ and $X'$ and $\varphi$-related and $Y$ and $Y'$ are $\varphi$-related. Then, $[X,Y]$ is $\varphi$-related to $[X',Y']$.
-> 3. If $\varphi$ is a diffeomorphism, then $\varphi_{*}(X)\in \Gamma(\text{T}N)$ is the unique vector field $\varphi$-related to $X$. In this case, $$[]$$
----
-
+> 3. If $\varphi$ is a diffeomorphism, then $\varphi_{*}(X)\in \Gamma(\text{T}N)$ is the unique vector field $\varphi$-related to $X$. In this case, $\varphi ^{*}\circ\varphi_{*}(X)=X\circ\varphi ^{*}$.
 
 > [!proof]-
 > We have:
