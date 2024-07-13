@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "mode": "preview",
                 "source": true
               }
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Vector Field.md"
+                "file": "Differential Geometry/Smooth Function.md"
               }
             }
           }
@@ -287,13 +287,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9da1f925d695969f",
+  "active": "0464b076a96e0ef6",
   "lastOpenFiles": [
-    "Topology/Second Countable Space.md",
     "Differential Geometry/Vector Field.md",
-    "Lie Group/Integral Curve.md",
-    "Lie Group/Flow.md",
+    "Differential Geometry/Smooth Function.md",
     "Topology/Compact Space.md",
+    "Lie Group/Flow.md",
+    "Topology/Second Countable Space.md",
+    "Lie Group/Integral Curve.md",
     "Topology/Ultrafilter.md",
     "Topology/Filter.md",
     "Differential Geometry/Differential Operator.md",
@@ -307,7 +308,6 @@
     "Differential Geometry/Submersion.md",
     "Differential Geometry/Submanifold.md",
     "Measure Theory/Product Measure.md",
-    "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Proper Map.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Manifold.md",

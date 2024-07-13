@@ -44,7 +44,12 @@
 ---
 > [!lemma] Theorem 3 (Straightening Vector Fields)
 > Let $X\in \Gamma(\text{T}M)$ and $p\in M$. If $X_{p}\neq 0$, then 
-> 1. there exists a chart $(U,\varphi)$ around $p$ s.t. 
+> 1. there exists a chart $(U,\varphi)$ around $p$ s.t. $X|_{U}=\frac{ \partial  }{ \partial x^1 }$.
+
+> [!proof]+
+> Since $X_{p}\neq 0$, there exists a chart $(U,\varphi)$ at $p$ s.t. $X_{p}=\frac{ \partial  }{ \partial x^1 }|_{p}$. Modulo reducing $U$, there exists $\delta>0$ s.t. for the flow $\Phi_{X}:(-\delta,\delta)\times U\to M$: $$\Phi_{X}(t,q)=\varphi ^{-1}(\Phi^1(t,q),\dots,\Phi^m(t,q)),\quad \forall q\in U$$Let $N:=\{ q\in U :x^1(q)=0\}\ni p$. Then $N$ is a $m-1$ dimensional submanifold of $M$. We define: $\Psi:=\Phi|_{(-\delta,\delta)\times N}$.  Then, clearly $\Psi$ is smooth and 
+
+- **Remark**: This implies that any non-zero vector fields are locally invariant. 
 ---
 > [!lemma] Proposition 4 (Pushforward Vector Field)
 > Let $\varphi\in C^\infty(M,N)$. Then, 
