@@ -57,12 +57,18 @@
 ---
 > [!lemma] Lemma 4 (Pushforward Vector Fields)
 > Let $\phi\in C^\infty(M,N)$ and $\psi^\infty(N,P)$. Then, for $X\in \Gamma(\text{T}M),Y\in \Gamma(\text{T}N)$,$Z\in \Gamma(\text{T}P)$,
-> 1. $\phi ^{*}(\phi_*(X)f)=X(\phi ^{*}(f))$
+> 1. $\phi ^{*}(\phi_*(X)f)=X(\phi ^{*}(f))$ 
 > 2. $\phi ^{*}(Y)(\phi ^{*}(f))=\phi ^{*}(Yf)$
 > 3. $\phi ^{*}(\phi_{*}(X))=X$
 > 4. $\phi_{*}(\phi ^{*}(Y))=Y$
 > 5. $(\psi \circ\phi)_{*}(X)=\psi_{*}(\phi_{*}(X))$
 > 6. $(\psi \circ\phi)^{*}(Z)=\phi ^{*}(\psi ^{*}(Z))$
+> 7. $(\phi ^{-1})_{*}(Y)=\phi ^{*}(Y)$
+> 8. $(\phi ^{-1})^{*}(X)=\phi_{*}(X)$
+> 9. $\phi_{*}(Xf)=\phi_{*}(X)\phi_{*}(f)$
+> 10. $\phi ^{*}(Yg)=\phi ^{*}(Y)\phi ^{*}(g)$
+> 11. $\phi_{*}([X_{1},X_{2}])=[\phi_{*}(X_{1}),\phi_{*}(X_{2})]$
+> 12. $\phi ^{*}([X_{1},X_{2}])=[\phi ^{*}(X_{1}),\phi ^{*}(X_{2})]$
 
 > [!proof]+
 > We have: 
@@ -70,7 +76,13 @@
 > 2.  $$\phi ^{*}(Y)(\phi ^{*}(f))_{p}=(d_{p}\phi)^{-1}(Y_{\phi(p)})(f\circ\phi )=(d_{p}\phi)(d_{p}\phi)^{-1}(Y_{\phi(p)})f=Y_{\phi(p)}f$$
 > 3. $$\phi ^{*}(\phi_{*}(X))_{p}=(d_{p}\phi)^{-1}(\phi_{*}(X)_{\phi(p)})=(d_{p}\phi)^{-1}(d_{p}\phi(X_{p}))=X_{p}$$
 > 4. $$\phi_{*}(\phi ^{*}(Y))_{q}=d\phi(\phi ^{*}(Y)_{\phi ^{-1}(q)})=Y_{q}$$
-> 5. We have: $$(\psi \circ \phi)_{*}(X)_{p}=d_{p}(\psi \circ \phi)(X_{(\psi \circ \phi)^{-1}(p)})=d_{\phi(p)}\psi \cdot d_{p}\phi(X_{\phi ^{-1}(\psi ^{-1}(p))})=d_{\phi(p)}\psi(\phi_{*}(X)_{\psi ^{-1}(p)})=$$
+> 5. We have: $$\begin{align}(\psi \circ \phi)_{*}(X)_{p}&=d_{(\psi \circ \phi)^{-1}(p)}(\psi \circ \phi)(X_{(\psi \circ \phi)^{-1}(p)})\\&=d_{\psi ^{-1}(p)}\psi \cdot d_{\phi ^{-1}(\psi ^{-1}(p))}\phi(X_{\phi ^{-1}(\psi ^{-1}(p))})=d_{\psi ^{-1}(p)}\psi(\phi_{*}(X)_{\psi ^{-1}(p)})=\psi_{*}(\phi_{*}(X))_{p}\end{align}$$
+> 6. We have: $$\begin{align}(\psi \circ \phi)^{*}(X)_{p}&=(d_{p}(\psi \circ \phi))^{-1}(X_{\psi(\phi(p))})=(d_{p}\phi)^{-1}(d_{\phi(p)}\psi)^{-1}(X_{\psi(\phi(p))})\\&=(d_{p}\phi)^{-1}(\psi ^{*}(X)_{\phi(p)})=\phi ^{*}(\psi ^{*}(X))_{p}\end{align}$$
+> 7. We have: $$(\phi ^{-1})_{*}(Y)_{q}=d_{\phi(q)}\phi ^{-1}(Y_{\phi(q)})=(d_{q}\phi)^{-1}(Y_{\phi(q)})=\phi ^{*}(Y)_{q}$$
+> 8. $$(\phi ^{-1})^{*}(X)_{p}=(d_{p}\phi ^{-1})^{-1}(X_{\phi ^{-1}(p)})=d_{\phi ^{-1}(p)}\phi(X_{\phi ^{-1}(p)})=\phi _{*}(X)_{p}$$
+> 9. We have: $$\phi_{*}(X)_{q}\phi_{*}(f)=d_{\phi ^{-1}(q)}\phi(X_{\phi ^{-1}(q)})(f\circ \phi ^{-1})=X_{\phi ^{-1}(q)}(f)=\phi_{*}(Xf)_{q}$$
+> 10. and $$\phi ^{*}(Y)_{p}\phi ^{*}(g)=(d_{p}\phi)^{-1}(Y_{\phi(p)})(g\circ \phi)=Y_{\phi(p)}g=\phi ^{*}(Yg)$$
+> 11. We have: $$\begin{align}\phi_{*}([X_{1},X_{2}])_{q}(g)&=[X_{1},X_{2}]_{\phi ^{-1}(q)}(g\circ \phi)\\&=(X_{1})_{\phi ^{-1}(q)}(X_{2}(g\circ \phi))-(X_{2})_{\phi ^{-1}(q)}(X_{1}(g\circ \phi))\end{align}$$where $(X_{2})_{\phi ^{-1}(q)}(g\circ\phi)=d$$$\begin{align}[\phi_{*}(X_{1}),\phi_{*}(X_{2})]_{q}(g)&=\phi_{*}(X_{1})_{q}(\phi_{*}(X_{2})g)-\phi_{*}(X_{2})_{q}(\phi_{*}(X_{1})g)\\&=(X_{1})_{\phi ^{-1}(q)}(\phi_{*}(X_{2})g\circ f)\end{align}$$
 ---
 > [!lemma] Proposition 5 (Related Vector Fields)
 > Let $\varphi\in C^\infty(M,N)$.
