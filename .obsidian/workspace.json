@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Lie Group/Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Lie Group/Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Integral Curve.md"
+                "file": "Lie Group/Flow.md"
               }
             }
           }
@@ -287,10 +287,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6ca45de12d81f53a",
+  "active": "c55da6782dee2fb4",
   "lastOpenFiles": [
-    "Lie Group/Flow.md",
     "Lie Group/Integral Curve.md",
+    "Lie Group/Flow.md",
     "Topology/Compact Space.md",
     "Topology/Ultrafilter.md",
     "Topology/Filter.md",

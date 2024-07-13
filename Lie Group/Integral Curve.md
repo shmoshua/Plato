@@ -44,3 +44,13 @@
 > 3. We have: $$\gamma_{v}(t_{1}+t_{2})=\gamma_{v}(t_{2}+t_{1})=\Phi_{v^L}(t_{2}+t_{1},e)=\Phi_{v^L}(t_{2},\Phi_{v^L}(t_{1},e))=\Phi_{v^L}(t_{2},\gamma_{v}(t_{1}))=\gamma_{v}(t_{1})\cdot \gamma_{v}(t_{2})$$
 > 4. Let $v:=\varphi'(0)\in \text{T}_{e}G$ and $v^L$ the corresponding vector field. Then, we have: $$\varphi'(t)=\left. \frac{d}{ds} \right| _{s=0}\varphi(t+s)=\left. \frac{d}{ds} \right| _{s=0}\varphi(t)\varphi(s)=\left. \frac{d}{ds} \right| _{s=0}(L_{\varphi(t)}\circ \varphi)(s)=dL_{\varphi(t)}(v)=v^L_{\varphi(t)}$$Therefore, $\varphi(t)$ is an integral curve of $v^L$ through $e$ and by uniqueness, $\varphi=\gamma_{\varphi'(0)}$.
 ---
+> [!h] Example 2 (Rn)
+> Let $M:=\mathbb{R}^n$ and $X\in \Gamma(\text{T}\mathbb{R}^n)$ where
+> 1. $X$ does not vanish.
+> 2. $\left\| X(p) \right\|\leq C\left\| p \right\|+C$ for some $C>0$. 
+> 
+> Then, $X$ is complete.
+
+> [!proof]-
+> Let $p\in M$, let $\gamma$ be the maximal integral curve. Then, $$\begin{align}\left. \frac{d}{dt} \right.\left\| \gamma(t) \right\| =\frac{\gamma(t)}{\left\| \gamma(t) \right\| }\cdot \dot{\gamma}(t)\leq \left\|\dot{\gamma}(t)\right\| =\left\| X (\gamma(t))\right\| \leq C\left\| \gamma(t) \right\| +C\end{align}$$ and $\left\| \gamma(t) \right\|+1\leq \exp(Ct)(\left\|p\right\|+1)$. Therefore, on any finite interval $[0,T)$, $\left\| x(t) \right\|$ is contained in some closed ball around 0 and $x(t)$ is contained in a compact set. By Proposition 2, we get that $X$ is complete.
+---
