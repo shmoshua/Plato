@@ -46,12 +46,19 @@
 > Let $X\in \Gamma(\text{T}M)$ and $p\in M$. If $X_{p}\neq 0$, then 
 > 1. there exists a chart $(U,\varphi)$ around $p$ s.t. $X|_{U}=\frac{ \partial  }{ \partial x^1 }$.
 
-> [!proof]+
+> [!proof]-
 > Since $X_{p}\neq 0$, there exists a chart $(U,\varphi)$ at $p$ s.t. $X_{p}=\frac{ \partial  }{ \partial x^1 }|_{p}$. Modulo reducing $U$, there exists $\delta>0$ s.t. for the flow $\Phi_{X}:(-\delta,\delta)\times U\to M$: $$\Phi_{X}(t,q)=\varphi ^{-1}(\Phi^1(t,q),\dots,\Phi^m(t,q)),\quad \forall q\in U$$Let $N:=\{ q\in U :x^1(q)=0\}\ni p$. Then $N$ is a $m-1$ dimensional submanifold of $M$. We define: $\Psi:=\Phi|_{(-\delta,\delta)\times N}$.  Then, clearly $\Psi$ is smooth. Further, at $(0,p)$, $$d_{(0,p)}\Psi \left( \left. \frac{ \partial  }{ \partial t }  \right| _{(0,p)} \right)=\left. \frac{ \partial f\circ \Psi }{ \partial t }  \right|_{(0,p)}=\left. \frac{ \partial f\circ \Phi }{ \partial t } \right| _{(0,p)}=d_{p}f(\dot{\gamma}_{p}(0))=X(\gamma_{p}(0))(f)=X_{p}(f)=\left. \frac{ \partial  }{ \partial x^1 }  \right| _{p}f $$And for $i\geq 2$, 
 > 
-> $$\begin{align}d_{(0,p)}\Psi \left( \left. \frac{ \partial  }{ \partial x^i }  \right| _{(0,p)} \right)f &=\left. \frac{d}{dt} \right| _{t=0}f(\Psi((0,p)+t(0,\varphi ^{-1}(e_{i}))))\\&=\left. \frac{d}{dt} \right| _{t=0}f(\Phi(0,p+t\varphi ^{-1}(e_{i})))\\&=\left. \frac{d}{dt} \right| _{t=0}f(p+t\varphi ^{-1}(e_{i}))\\&=d_{p}f\left( \left. \frac{ \partial  }{ \partial x^i }  \right| _{p} \right)\\&= \left. \frac{ \partial  }{ \partial x^i }  \right| _{p} f \end{align}$$Therefore, $\Psi$ is a bijection. 
+> $$\begin{align}d_{(0,p)}\Psi \left( \left. \frac{ \partial  }{ \partial x^i }  \right| _{(0,p)} \right)f &=\left. \frac{d}{dt} \right| _{t=0}f(\Psi((0,p)+t(0,\varphi ^{-1}(e_{i}))))\\&=\left. \frac{d}{dt} \right| _{t=0}f(\Phi(0,p+t\varphi ^{-1}(e_{i})))\\&=\left. \frac{d}{dt} \right| _{t=0}f(p+t\varphi ^{-1}(e_{i}))\\&=d_{p}f\left( \left. \frac{ \partial  }{ \partial x^i }  \right| _{p} \right)\\&= \left. \frac{ \partial  }{ \partial x^i }  \right| _{p} f \end{align}$$Therefore, $d_{(0,p)}\Psi$ is a bijection and by [[Local Diffeomorphism|inverse function theorem]],  there exists $(-\varepsilon,\varepsilon)\times V\ni (0,p)$ open in $(-\delta,\delta)\times N$ and $W\subseteq M$ open s.t. $$\Psi:(-\varepsilon,\varepsilon)\times V\to W$$ is a diffeomorphism. Therefore, on $W\subseteq M$, we can define a chart $(\text{id},\varphi ^{-1})\circ\Psi ^{-1}$.
+> 
+> Now, let $r:=\Psi(t,q)\in W$. Then, $$\begin{align}X_{r}=X(\Psi(t,q))=X(\Phi(t,q))=\left. \frac{ \partial \Phi }{ \partial t } \right| _{(q,t)}=\left. \frac{ \partial \Psi }{ \partial t } \right| _{(q,t)} =d_{(q,t)}\Psi \left(\left.  \frac{ \partial  }{ \partial t }  \right| _{(q,t)} \right)=\left. \frac{ \partial  }{ \partial x^1 }  \right| _{r} \end{align}$$
 
 - **Remark**: This implies that any non-zero vector fields are locally invariant. 
+---
+> [!lemma] Proposition 4 (Related Vector Fields)
+> Let $\varphi\in C^\infty(M,N)$.
+> 1. $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$ are $\varphi$-related if and only if the following diagram commutes: $$\begin{CD}C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\\ @V YVV&@VV XV\\C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\end{CD}$$
+> 2. Let $X,Y\in \Gamma(\text{T}M)$ and $X',Y'\in \Gamma(\text{T}N)$ s.t. $X$ and $X'$ and $\varphi$-related and $Y$ and $Y'$ are $\varphi$-related. Then, $[X,Y]$ is $\varphi$-related to $[X',Y']$.
 ---
 > [!lemma] Proposition 4 (Pushforward Vector Field)
 > Let $\varphi\in C^\infty(M,N)$. Then, 
@@ -77,5 +84,7 @@
 > 3. $X:M\to \text{T}M\subseteq \mathbb{R}^3$ is smooth if there exists $U\supseteq M$ open s.t. $X$ extends to a smooth function $\tilde{X}:U\to \mathbb{R}^3$. 
 ---
 ##### Examples
-> [!h] Example 1
+> [!h] Example 1 (Pushforward and Pullback Vector Fields)
+> Let $M,N$ be smooth manifolds with $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$.
+> 1. For a diffeomorphism $\phi:M\to N$, the ***pushforward vector field*** is given as: $$\phi_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}N),\quad X\mapsto $$
 > 

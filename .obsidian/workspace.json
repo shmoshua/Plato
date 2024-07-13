@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Local Diffeomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "covariant",
+                "query": "inverse function theorem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,7 +205,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -289,11 +290,13 @@
   },
   "active": "6ca45de12d81f53a",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Local Diffeomorphism.md",
+    "Differential Geometry/Smooth Manifold.md",
+    "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Vector Field.md",
     "Lie Group/Flow.md",
-    "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Lie Bracket.md",
     "Topology/Compact Space.md",
     "Topology/Second Countable Space.md",
@@ -310,11 +313,9 @@
     "Differential Geometry/Submanifold.md",
     "Measure Theory/Product Measure.md",
     "Differential Geometry/Proper Map.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Tangent Bundle.md",
     "Topology/Normal Space.md",
     "Functional Analysis/Guelfand Topology.md",
-    "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
