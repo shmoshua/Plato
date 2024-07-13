@@ -13,6 +13,18 @@
 > 
 >  Let $V\subseteq X$ open. Then, there exists $U_{n}\subseteq V$ and $x_{n}\in V\cap D$. Therefore, $D$ is dense and countable.
 ---
+> [!lemma] Proposition 2 (Compactness and Sequential Compactness)
+> Let $X$ be a second countable space. Then, TFAE:
+> 1. $X$ is [[Compact Space|compact]].
+> 2. $X$ is sequentially compact.
+
+> [!proof]+
+> We have:
+> 1. (1=>2): Let $X$ be compact and $(x_{n})_{n}\subseteq X$ be any sequence. Let $$\mathcal{F}:=\{ A\subseteq X: \exists N\geq 1, \forall n\geq N: x_{n}\in A \}$$be the elementary filter of $(x_{n})_{n}$ and $\mathcal{G}\supseteq \mathcal{F}$ the ultrafilter containing $\mathcal{F}$. Then, this converges to $x\in X$ and $\mathcal{F}_{x}\subseteq \mathcal{G}$ where $\mathcal{F}_{x}$ is the principal filter of $x$. 
+>    
+> 	As $X$ is second countable, it is first countable and $\mathcal{F}_{x}$ has a countable basis, say $\{ U_{i} \}_{i}$. We have $U_{i}\subseteq \mathcal{G}$ and for any $j$, $U_{i}\cap \{ x_{n}: n\geq j \}\neq \varnothing$. Therefore, modulo taking a subsequence, we can assume that $\mathcal{F}\supseteq\{ U_{i} \}_{i}$. Then, $\mathcal{F}\supseteq\mathcal{F}_{x}$ and $\mathcal{F}$ converges to $x$. Hence, $X$ is sequentially compact.
+> 2. (2=>1): Let $\mathcal{B}$ be the countable basis of $X$ and $(U_{\alpha})_{\alpha \in A}$ an open cover of $X$. Define: $$\mathcal{B}_{0}:=\{ U_{\alpha}: U_{\alpha}\in B \}$$We claim that $\mathcal{B}_{0}\cap \mathcal{F}\neq \varnothing$ for every convergent filter $\mathcal{F}$. Indeed, since $\mathcal{C}$ is an open cover, for any $x\in X$, there exists $V\in \mathcal{B}$ s.t. $x\in V\subseteq U_{\alpha}$ for some $\alpha$. Therefore, $$
+---
 ##### Examples
 > [!h] Example 1
 > $\mathbb{R}^n$ is second countable with: $$\mathcal{B}:=\{ B_{<r}(x):x\in \mathbb{Q}^n,r\in \mathbb{Q} \}$$ as basis.
