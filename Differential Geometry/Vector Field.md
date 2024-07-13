@@ -42,7 +42,11 @@
 > 2. Let $X,Y\in \Gamma(\text{T}M)$ and $X|_{U}=Y|_{U}$ where $U\subseteq M$ open. Then, for $Z\in \Gamma(\text{T}M)$, $f\in C^\infty(M)$ and $p\in U$, $$[X,Z]_{p}f=X_{p}(Zf)-Z_{p}(Xf)=Y_{p}(Zf)-Z_{p}(Yf)=[Y,Z]_{p}f$$
 > 3. Let $(U,\varphi)$ be a chart of $M$. Then, for $p\in U$, $$X_{p}f=\sum_{i=1}^{m}X^i(p)\left. \frac{ \partial f }{ \partial x^i }  \right| _{p}$$
 ---
-> [!lemma] Proposition 3 (Pushforward Vector Field)
+> [!lemma] Theorem 3 (Straightening Vector Fields)
+> Let $X\in \Gamma(\text{T}M)$ and $p\in M$. If $X_{p}\neq 0$, then 
+> 1. there exists a chart $(U,\varphi)$ around $p$ s.t. 
+---
+> [!lemma] Proposition 4 (Pushforward Vector Field)
 > Let $\varphi\in C^\infty(M,N)$. Then, 
 > 1. $\varphi ^{*}:C^\infty(N)\to C^\infty(M),f\mapsto f\circ\varphi$ is an algebra homomorphism.
 > 3. $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$ are $\varphi$-related if and only if the following diagram commutes: $$\begin{CD}C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\\ @V\alpha YVV&@VV\alpha XV\\C^\infty(N) @>\varphi ^{*}>>C^\infty(M)\end{CD}$$
