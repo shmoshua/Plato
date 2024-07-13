@@ -18,7 +18,7 @@
 > 1. $X$ is [[Compact Space|compact]].
 > 2. $X$ is sequentially compact.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. (1=>2): Let $X$ be compact and $(x_{n})_{n}\subseteq X$ be any sequence. Let $$\mathcal{F}:=\{ A\subseteq X: \exists N\geq 1, \forall n\geq N: x_{n}\in A \}$$be the elementary filter of $(x_{n})_{n}$ and $\mathcal{G}\supseteq \mathcal{F}$ the ultrafilter containing $\mathcal{F}$. Then, this converges to $x\in X$ and $\mathcal{F}_{x}\subseteq \mathcal{G}$ where $\mathcal{F}_{x}$ is the principal filter of $x$. 
 >    
@@ -27,8 +27,8 @@
 >    
 >    Let $\mathcal{B}_{0}=(B_{n})_{n\geq 1}$. Then, we claim that there must be $n$ s.t. $\bigcup_{i=1}^{n}B_{i}=X$. Assume otherwise. Then, for each $n$, we can choose $x_{n}\in X \backslash \bigcup_{i=1}^{n}B_{i}$ and by sequential compactness, we have a convergent subsequence $(y_{n})_{n}$. 
 >    
->    Therefore, for the elementary filter $\mathcal{F}$ of $(y_{n})_{n}$, $\mathcal{B}_{0}\cap \mathcal{F}\neq \varnothing$. Therefore, there exists some $B_{n}$ s.t. there exists $N\geq 1$ with $y_{i}\in B_{n}$ for all $i\geq N$. Let $N':=\max\{ n,N \}$. Then we have: $$y_{i}=x_{n_{i}}\in X \backslash \bigcup_{m=1}^{n_{i}}B_{m}\subseteq X \backslash \bigcup_{m=1}^{i}B_{m},\quad \forall $$
----
+>    Therefore, for the elementary filter $\mathcal{F}$ of $(y_{n})_{n}$, $\mathcal{B}_{0}\cap \mathcal{F}\neq \varnothing$. Therefore, there exists some $B_{n}$ s.t. there exists $N\geq 1$ with $y_{i}\in B_{n}$ for all $i\geq N$. Let $N':=\max\{ n,N \}$. Then we have: $$y_{i}=x_{n_{i}}\in X \backslash \bigcup_{m=1}^{n_{i}}B_{m}\subseteq X \backslash \bigcup_{m=1}^{i}B_{m},\quad \forall i\geq N'$$which is a contradiction. Hence, there exists  such $n$ and as there exists $U_{m}$ s.t. $B_{m}\subseteq U_{m}$, we have a finite subcover of $X$. 
+--- 
 ##### Examples
 > [!h] Example 1
 > $\mathbb{R}^n$ is second countable with: $$\mathcal{B}:=\{ B_{<r}(x):x\in \mathbb{Q}^n,r\in \mathbb{Q} \}$$ as basis.
