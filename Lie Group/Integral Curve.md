@@ -10,17 +10,24 @@
 > 2. $\gamma_{p}$ is an integral curve on $X$.
 > 3. if $\mu:J\to M$ satisfies 1 and 2, $J\subseteq I_{p}$ and $\mu|_{J}=\gamma_{p}|_{J}$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. **Short term existence of a solution**: 
 >    Let $p\in M$ and $(U,\varphi)$ be the largest chart containing $p$. Then, our ODE: $$\begin{align}\dot{\gamma}(t)&=X(\gamma(t))\\\gamma(0)&=p\end{align}$$translates locally to an ODE: $$\begin{align}\chi(t)&=(\chi^1(t),\dots,\chi^m(t))\\\dot{\chi^1}(t)&=X^1(\chi^1(t),\dots,\chi^m(t))\\\vdots\\\dot{\chi^m}(t)&=X^m(\chi^1(t),\dots,\chi^m(t))\end{align}$$for $a<t<b$. Then, by existence and uniqueness of ODE, there exists a solution $\gamma:(-\delta,\delta)\to M$ with the above qualities.
 > 2. **$I_{p}$ is open**. Consider that we don't. Wlog, assume that we have an integral curve $\gamma:[0,T]\to M$. By having it restart at $\gamma(T)$, by short term existence, there exists $\beta:(-\delta,\delta)\to M$ s.t. $\dot{\beta}(t)=X(\beta(t))$ and $\beta(0)=\gamma(T)$. Then, consider: $$\gamma_{\text{ext}}:[0,T+\delta),\quad t\mapsto \begin{cases}\gamma(t)&0\leq t\leq T\\\beta(t-T)&T\leq t<T+\delta\end{cases}$$which is continuous and we have: $$\dot{\gamma}(T)=X(\gamma(T))=X(\beta(0))=\dot{\beta}(0)$$Therefore, $\gamma_{\text{ext}}$ is an integral curve solving the ODE system on a larger interval, which is a contradiction. The other side of the interval is analogous.
-> 3. **Claim: Let $I_{p}=(S,T)$. If $T<+\infty$, for every compact $K\subseteq M$, there exists $t_{k}>0$ s.t. for all $t\geq t_{k}$, $\gamma(t)\notin K$**.
->    Let $\gamma_{p}:[0,T)\to M$ be the solution integral curve which is not extendable beyond $T$. Let $T<+\infty$ and assume that there exists a compact $K$ s.t. there exists $(t_{i})_{i}$ with $t_{i}\to T$ s.t. $\gamma_{p}(t_{i})\in K$. As compactness implies sequential compactness in 2nd countable spaces by [[Second Countable Space|Proposition 2]], modulo taking a subsequence there exists $q\in M$ s.t. $\gamma_{p}(t_{i})\to q$. By continuity, there exists $U\ni q$ open s.t. there exists a $\delta>0$ with for all $r\in U$, $\gamma_{r}:[0,\delta)\to M$ exists. 
->    
-> 	Fix $i$ s.t. $\left| t_{i}-T \right|<\delta /2$ and $q:=\gamma(t_{i})\in U$. Then, define: $$\alpha(t)=\begin{cases}\gamma_{p}(t)&0\leq t<T\\\gamma_{q}(t-t_{i})&t_{i}\leq t<t_{i}+\delta\end{cases}$$This is well-defined as for $t\in [t_{i},T)$, both solve the ODE system $\dot{\gamma}(t)=X(\gamma(t))$ starting at $\gamma_{p}(t_{i})=q=\gamma_{q}(0)=\gamma_{q}(t_{i}-t_{i})$. Therefore, by the uniqueness $\alpha$ is well-defined. This is the contradiction to the maximality of $T$. 
 >    
 - **Related definition**: $X$ is called ***complete*** if $I_{p}=\mathbb{R}$ for all $p\in M$.
+---
+> [!lemma] Proposition 2
+> Let $X\in \Gamma(\text{T}M)$. For $p\in M$ and $I_{p}=(S,T)\subseteq \mathbb{R}$, 
+> 1. if $T<+\infty$, for every compact $K\subseteq M$, there exists $t_{k}>0$ s.t. for all $t\geq t_{k}$, $\gamma_{p}(t)\notin K$.
+> 2. if $S>+\infty$, for every compact $K\subseteq M$, there exists $t_{k}<0$ s.t. for all $t\leq t_{k}$, $\gamma_{p}(t)\notin K$. 
+
+> [!proof]-
+>    Let $\gamma_{p}:[0,T)\to M$ be the solution integral curve which is not extendable beyond $T$. Let $T<+\infty$ and assume that there exists a compact $K$ s.t. there exists $(t_{i})_{i}$ with $t_{i}\to T$ s.t. $\gamma_{p}(t_{i})\in K$. As compactness implies sequential compactness in 2nd countable spaces by [[Second Countable Space|Proposition 2]], modulo taking a subsequence there exists $q\in M$ s.t. $\gamma_{p}(t_{i})\to q$. By continuity, there exists $U\ni q$ open s.t. there exists a $\delta>0$ with for all $r\in U$, $\gamma_{r}:[0,\delta)\to M$ exists. 
+>    
+> Fix $i$ s.t. $\left| t_{i}-T \right|<\delta /2$ and $q:=\gamma(t_{i})\in U$. Then, define: $$\alpha(t)=\begin{cases}\gamma_{p}(t)&0\leq t<T\\\gamma_{q}(t-t_{i})&t_{i}\leq t<t_{i}+\delta\end{cases}$$This is well-defined as for $t\in [t_{i},T)$, both solve the ODE system $\dot{\gamma}(t)=X(\gamma(t))$ starting at $\gamma_{p}(t_{i})=q=\gamma_{q}(0)=\gamma_{q}(t_{i}-t_{i})$. Therefore, by the uniqueness $\alpha$ is well-defined. This is the contradiction to the maximality of $T$. 
+- **Corollary**: If $M$ is compact, every $X\in \Gamma(\text{T}M)$ is complete.
 ---
 ##### Examples
 > [!h] Example 1 (Left-Invariant Vector Fields)
