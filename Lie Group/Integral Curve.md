@@ -10,8 +10,12 @@
 > 2. $\gamma_{p}$ is an integral curve on $X$.
 > 3. if $\mu:J\to M$ satisfies 1 and 2, $J\subseteq I_{p}$ and $\mu|_{J}=\gamma_{p}|_{J}$.
 
-> [!proof]-
-> Let $p\in M$ and $(U,\varphi)$ be the largest chart containing $p$. Then, our ODE: $$\begin{align}\dot{\gamma}(t)&=X(\gamma(t))\\\gamma(0)&=p\end{align}$$translates locally to an ODE: $$\begin{align}\chi(t)&=(\chi^1(t),\dots,\chi^m(t))\\\dot{\chi^1}(t)&=X^1(\chi^1(t),\dots,\chi^m(t))\\\vdots\\\dot{\chi^m}(t)&=X^m(\chi^1(t),\dots,\chi^m(t))\end{align}$$for $a<t<b$. Then, by existence and uniqueness of ODE, there exists a solution $\gamma$
+> [!proof]+
+> We have:
+> 1. **Short term existence of a solution**: 
+>    Let $p\in M$ and $(U,\varphi)$ be the largest chart containing $p$. Then, our ODE: $$\begin{align}\dot{\gamma}(t)&=X(\gamma(t))\\\gamma(0)&=p\end{align}$$translates locally to an ODE: $$\begin{align}\chi(t)&=(\chi^1(t),\dots,\chi^m(t))\\\dot{\chi^1}(t)&=X^1(\chi^1(t),\dots,\chi^m(t))\\\vdots\\\dot{\chi^m}(t)&=X^m(\chi^1(t),\dots,\chi^m(t))\end{align}$$for $a<t<b$. Then, by existence and uniqueness of ODE, there exists a solution $\gamma:(-\delta,\delta)\to M$ with the above qualities.
+> 2. **$I_{p}$ is open**. Consider that we don't. Wlog, assume that we have an integral curve $\gamma:[0,T]\to M$. By having it restart at $\gamma(T)$, by short term existence, there exists $\beta:(-\delta,\delta)\to M$ s.t. $\dot{\beta}(t)=X(\beta(t))$ and $\beta(0)=\gamma(T)$. Then, consider: $$\gamma_{\text{ext}}:[0,T+\delta),\quad t\mapsto \begin{cases}\gamma(t)&0\leq t\leq T\\\beta(t-T)&T\leq t<T+\delta\end{cases}$$which is continuous and we have: $$$$
+>    
 - **Related definition**: $X$ is called ***complete*** if $I_{p}=\mathbb{R}$ for all $p\in M$.
 ---
 ##### Examples

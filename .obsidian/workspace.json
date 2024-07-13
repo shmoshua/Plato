@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -251,7 +251,7 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6ca45de12d81f53a",
+  "active": "630f150097e92dd1",
   "lastOpenFiles": [
     "Lie Group/Flow.md",
     "Lie Group/Integral Curve.md",
