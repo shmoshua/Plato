@@ -32,8 +32,10 @@
 ##### Examples
 > [!h] Example 1
 > Let $M:=\mathbb{R}^{2}$ and $X,Y\in \Gamma(\text{T}M)$ s.t. $X_{x}=x^1\frac{ \partial  }{ \partial x^1 }+x^2\frac{ \partial  }{ \partial x^2 }$ and $Y_{x}=\frac{ \partial  }{ \partial x^1 }$. Then, 
-> 1. $L_{X}Y$
+> 1. $L_{X}Y=-\frac{ \partial  }{ \partial x^1 }$.
+> 2. $L_{Y}X=\frac{ \partial  }{ \partial x^1 }$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. Firstly, $\Phi^t_{X}(x)=\gamma_{x}(t)$ where: $\dot{\gamma}_{x}(t)=X_{\gamma_{x}(t)}=\gamma_{x}(t)$ and $\gamma_{x}(0)=x$. Therefore, $$\Phi^t_{X}(x)=\gamma_{x}(t)=\exp(t)x$$
+> 1. Firstly, $\Phi^t_{X}(x)=\gamma_{x}(t)$ where: $\dot{\gamma}_{x}(t)=X_{\gamma_{x}(t)}=\gamma_{x}(t)$ and $\gamma_{x}(0)=x$. Therefore, $$\Phi^t_{X}(x)=\gamma_{x}(t)=\exp(t)x$$Then, $$(\Phi ^{t}_{X})^{*}(Y)_{x}=(d_{x}\Phi^t_{X})^{-1}(Y_{\Phi^t_{X}(x)})=(d_{x}\Phi^t_{X})^{-1}\left( \frac{ \partial  }{ \partial x^1 }  \right)=\exp(-t)\frac{ \partial  }{ \partial x^1 } $$Therefore, $$(L_{X}Y)_{x}=\left. \frac{d}{dt} \right| _{t=0}\exp(-t)\left( \frac{ \partial  }{ \partial x^1 }  \right) =-\left. \frac{ \partial  }{ \partial x^1 } \right| _{x} $$
+> 2. On the other hand, $$\Phi^t_{Y}(x)=x+t\frac{ \partial  }{ \partial x^1 } =(x^1+t,x^2)$$Then, $$(\Phi^t_{Y})^{*}(X)_{x}=(d_{x}\Phi^t_{Y})^{-1}(X_{\Phi^t_{Y}(x)})=X_{\Phi^t_{Y}(x)}=\Phi^t_{Y}(x)$$Therefore, $$(L_{Y}X)_{x}=\left. \frac{d}{dt} \right| _{t=0}\Phi^t_{Y}(x)=Y_{\Phi^0_{Y}(x)}=\left. \frac{ \partial  }{ \partial x^1 } \right| _{x} $$
