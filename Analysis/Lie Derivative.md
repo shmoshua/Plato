@@ -7,16 +7,20 @@
 - **Remark**: Recall that $\Phi_{X}^{-t}:M\to M$. Therefore, $d_{\Phi^t_{X}(p)}\Phi^{-t}_{X}:\text{T}_{\Phi^t_{X}(p)}M\to \text{T}_{p}M$.
 ---
 ##### Properties
-> [!lemma] Proposition 1
+> [!lemma] Lemma 1
 > For $X,Y,Z\in \Gamma(\text{T}M)$
 > 1. $L_{X}Y=[X,Y]$
-> 2. $L_{X}Y=-L_{Y}X$
-> 3. $L_{X}[Y,Z]=[L_{X}Y,Z]+[Y,L_{X}Z]$
-> 4. $L_{[X,Y]}Z=L_{X}L_{Y}Z-L_{Y}L_{X}Z$
-> 5. for $f\in C^\infty(M)$, $L_{X}(fY)=(X(f))Y+fL_{X}Y$
-> 6. for a diffeomorphism $\varphi:M\to N$, $\varphi_{*}(L_{X}Y)=L_{\varphi_{*}X}(\varphi_{*}Y)$
+> 2. $L_{X}Y=-L_{Y}X$ and $L_{X}Y$ is linear in $X$ and $Y$.
+> 3. $L_{X}X=0$.
+> 4. $L_{fX}(gY)=fgL_{X}Y+f\cdot Xg\cdot Y-g\cdot Yf\cdot X$.
+> 5. $L_{X}[Y,Z]=[L_{X}Y,Z]+[Y,L_{X}Z]$
+> 6. $L_{[X,Y]}Z=L_{X}L_{Y}Z-L_{Y}L_{X}Z$
+> 7. for $f\in C^\infty(M)$, $L_{X}(fY)=(X(f))Y+fL_{X}Y$
+> 8. for a diffeomorphism $\varphi:M\to N$, $\varphi_{*}(L_{X}Y)=L_{\varphi_{*}X}(\varphi_{*}Y)$
+> 9. for a local diffeomorphism $\varphi:M\to N$, $\varphi ^{*}(L_{X}Y)=L_{\varphi ^{*}(X)}(\varphi ^{*}(Y))$
+> 10. $(X,Y)\mapsto L_{X}Y$ is [[Local Operator|local]], i.e. for $X_{1},X_{2},Y_{1},Y_{2}\in \Gamma(\text{T}M)$ s.t. $X_{1}=X_{2}$ and $Y_{1}=Y_{2}$ on some open $U \subseteq M$, $L_{X_{1}}Y_{1}=L_{X_{2}}Y_{2}$ on $U$.
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. As $\Gamma(\text{T}M)\cong\text{Der }C^\infty(M)$, we only have to check that for all $f\in C^\infty(M)$, $(L_{X}Y)(f)=[X,Y]f$. Let $p\in M$. Then, $$\begin{align}(L_{X}Y)_{p}(f)&=\lim_{ t \to 0 } \frac{1}{t}\left( d\Phi^{-t}_{X}(Y_{\Phi_{X}^t(p)})-Y_{p} \right)(f)\\&=\lim_{ t \to 0 } \frac{Y_{\Phi^t_{X}(p)}(f\circ \Phi_{X}^{-t})-Y_{p}(f)}{t}\end{align}$$
 >    By considering $\Phi^t_{X}(p)=\Phi_{X}(t,p)$ and treating $h(t)=f(\Phi_{X}(t,p))$, we have per [[Smooth Function|Hadamard]]: $$f(\Phi_{X}(t,p))=f(p)+t\cdot g(t,p)$$where $g(0,p)=\left. \frac{ \partial  }{ \partial t } \right|_{t=0}f(\Phi_{X}(t,p))=\left. \frac{ \partial  }{ \partial t } \right|_{t=0}f(\Phi_{X}^t(p))=\left. \frac{ \partial  }{ \partial t } \right|_{t=0}f(\gamma_{p}(t))=d_{p}f(X_{p})=X_{p}f$. Hence, $$h(-t)=f-t\cdot g(-t,p)$$
