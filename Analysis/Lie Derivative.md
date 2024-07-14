@@ -27,3 +27,13 @@
 > 4. $L_{[X,Y]}Z=[[X,Y],Z]=-[[Y,Z],X]-[[Z,X],Y]=-[L_{Y}Z,X]+[L_{X}Z,Y]=L_{X}L_{Y}Z-L_{Y}L_{X}Z$.
 > 5. for $f\in C^\infty(M)$, $$\begin{align}L_{X}(fY)_{p}(g)&=[X,fY]_{p}(g)\\&=X_{p}(f\cdot Y(g))-f(p)Y_{p}(X(g))\\&=X_{p}(f)Y_{p}(g)+f(p)X_{p}(Y(g))-f(p)Y_{p}(X(g))\\&=X_{p}(f)Y_{p}(g)+f(p)(L_{X}Y)_{p}(g)\end{align}$$
 > 6. We have: $$\varphi_{*}(L_{X}Y)=\varphi_{*}[X,Y]=[\varphi_{*}X,\varphi_{*}Y]=L_{\varphi_{*}X}(\varphi_{*}Y)$$per [[Vector Field|Proposition 2]].
+
+---
+##### Examples
+> [!h] Example 1
+> Let $M:=\mathbb{R}^{2}$ and $X,Y\in \Gamma(\text{T}M)$ s.t. $X_{x}=x^1\frac{ \partial  }{ \partial x^1 }+x^2\frac{ \partial  }{ \partial x^2 }$ and $Y_{x}=\frac{ \partial  }{ \partial x^1 }$. Then, 
+> 1. $L_{X}Y$
+
+> [!proof]+
+> We have that:
+> 1. Firstly, $\Phi^t_{X}(x)=\gamma_{x}(t)$ where: $\dot{\gamma}_{x}(t)=X_{\gamma_{x}(t)}=\gamma_{x}(t)$ and $\gamma_{x}(0)=x$. Therefore, $$\Phi^t_{X}(x)=\gamma_{x}(t)=\exp(t)x$$
