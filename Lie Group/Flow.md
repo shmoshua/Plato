@@ -11,6 +11,7 @@
 > 1. $\Phi_{X}^{t_{1}}\circ\Phi_{X}^{t_{2}}=\Phi_{X}^{t_{1}+t_{2}}$, i.e. $\Phi_{X}(t_{1}+t_{2},p)=\Phi_{X}(t_{1},\Phi_{X}(t_{2},p))$
 > 2. $\Phi_{X}^t$ is bijective with $(\Phi_{X}^t)^{-1}=\Phi_{X}^{-t}$.
 > 3. $\Phi_{X}^t$ is a [[diffeomorphism]] for all $t\in \mathbb{R}$.
+> 4. $\left. \frac{d}{dt} \right|_{t=s}\Phi^t_{X}(p)=X_{\Phi^s_{X}(p)}$
 
 > [!proof]-
 > We have:
@@ -19,9 +20,17 @@
 > 	Then, $\chi(0)=\gamma_{p}(t_{2})$ and by the [[Integral Curve|uniqueness of solution of ODE]], $$\gamma_{p}(t_{2}+t)=\gamma_{\gamma_{p}(t_{2})}(t)$$Therefore, $$\Phi_{X}(t+t_{2},p)=\gamma_{p}(t+t_{2})=\gamma_{\gamma_{p}(t_{2})}(t)=\Phi_{X}(t,\Phi_{X}(t_{2},p))$$
 > 2. $\Phi_{X}^t\circ\Phi_{X}^{-t}=\Phi_{X}^0=\text{id}_{M}$ as $\gamma_{p}(0)=p$ for all $p\in M$. 
 > 3. Both $\Phi^t_{X}$ and $\Phi^{-t}_{X}$ are smooth by definition.
+> 4. We have:$$\left. \frac{d}{dt} \right| _{t=s}\Phi^t_{X}(p)=\left. \frac{d}{dt} \right| _{t=s}\gamma_{p}(t)=\dot{\gamma}_{p}(s)=X_{\gamma_{p}(s)}=X_{\Phi^s_{X}(p)}$$
 - **Remark**: If $X$ is incomplete, then:
 	1. 1 holds if $\Phi_{X}^{t_{1}}\Phi_{X}^{t_{2}}$ is defined.
 	2. if $\Phi^t_{X}:U\to M$ is defined for some open $U\subseteq M$, then $\Phi_{X}^t:U\to \Phi_{X}^t$ is a diffeomorphism to an open set. 
+---
+> [!lemma] Proposition 2 (Flow Pullbacks)
+> Let $X\in \Gamma(\text{T}M)$. Then, 
+> 1. $(\Phi^t_{X})^{*}(X)=X$ for all $t$.
+
+> [!proof]+
+> Assume that $X$ is complete for simplicity and fix $t\in \mathbb{R}$. Then, $$\begin{align}(\Phi^t_{X})^{*}(X)_{p}&=(d_{p}\Phi^t_{X})^{-1}(X_{\Phi^t_{X}(p)})=d_{\Phi^t_{X}(p)}\Phi^{-t}_{X}(X_{\Phi^t_{X}(p)})\\&=d\Phi^{-t}_{X}\left( \left. \frac{d}{ds} \right|_{s=t}\Phi^s_{X}(p)  \right)\\&=\left. \frac{d}{ds} \right|_{s=t}\Phi^{-t}_{X}(\Phi^s_{X}(p))\\&=\left. \frac{d}{ds} \right| _{s=t}\Phi^{-t+s}_{X}(p)\\&=\left. \frac{d}{du} \right| _{u=0}\Phi^u_{X}(p)\\&=X_{\Phi^0_{X}(p)}\\&=X_{p} \end{align}$$
 ---
 > [!lemma] Proposition 2
 > Let $M$ be a smooth manifold and $X,Y\in \Gamma(\text{T}M)$ be complete vector fields. Then, for any $t_{0}\in \mathbb{R}$ and $p\in M$: $$\left. \frac{d}{dt} \right| _{t_{0}}d\Phi^{-t}_{X}(Y_{\Phi^t_{X}(p)})=d\Phi^{-t_{0}}_{X}((L_{X}Y)_{\Phi^{t_{0}}_{X}(p)})$$where $L_{X}Y$ is the [[Lie derivative]].
