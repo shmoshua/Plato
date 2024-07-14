@@ -20,7 +20,7 @@
 > 9. for a local diffeomorphism $\varphi:M\to N$, $\varphi ^{*}(L_{X}Y)=L_{\varphi ^{*}(X)}(\varphi ^{*}(Y))$
 > 10. $(X,Y)\mapsto L_{X}Y$ is [[Local Operator|local]], i.e. for $X_{1},X_{2},Y_{1},Y_{2}\in \Gamma(\text{T}M)$ s.t. $X_{1}=X_{2}$ and $Y_{1}=Y_{2}$ on some open $U \subseteq M$, $L_{X_{1}}Y_{1}=L_{X_{2}}Y_{2}$ on $U$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. We present two proofs: 
 > 	1. **Proof using test functions:**
@@ -29,7 +29,7 @@
 >    
 > 	   Therefore, $$\begin{align}(L_{X}Y)_{p}(f)&=\lim_{ t \to 0 } \frac{Y_{\Phi^t_{X}(p)}(f\circ \Phi_{X}^{-t})-Y_{p}(f)}{t}\\&=\lim_{ t \to 0 } \frac{Y_{\Phi^t_{X}(p)}(f)-Y_{p}(f)}{t}-Y_{\Phi^t_{X}(p)}(g(-t,\cdot ))\\&=\lim_{ t \to 0 } \frac{Y_{\Phi^t_{X}(p)}(f)-Y_{p}(f)}{t}-Y_{p}(Xf)\\&=\left. \frac{ \partial  }{ \partial t }  \right| _{t=0}Y_{\Phi^t_{X}(p)}(f)-Y_{p}(Xf)\\&=X_{p}(Yf)-Y_{p}(Xf)\\&=[X,Y]_{p}(f)\end{align}$$
 > 	2. **Proof using coordinates:**
-> 	   Let $Z:=L_{X}Y$. Then, by using coordinates, $$\begin{align}Z^i(p)&=\left. \frac{d}{dt} \right| _{t=0}((d_{p}\Phi^t_{X})^{-1})^i_{j}Y^j(\Phi^t_{X}(x))\\&=\left. \frac{d}{dt} \right| _{t=0}((d_{p}\Phi^t_{X})^{-1})^i_{j}Y^j(\Phi^t_{X}(x))\end{align}$$
+> 	   Let $Z:=L_{X}Y$. Then, by using coordinates, $$\begin{align}Z^i(p)&=\left. \frac{d}{dt} \right| _{t=0}((d_{p}\Phi^t_{X})^{-1})^i_{j}Y^j(\Phi^t_{X}(p))\\&=\left. \frac{d}{dt} \right| _{t=0}((d_{p}\Phi^t_{X})^{-1})^i_{j}Y^j(p)+\left. \frac{d}{dt} \right| _{t=0}Y^i(\Phi^t_{X}(p))\end{align}$$where: $$\left. \frac{d}{dt} \right| _{t=0}Y^i(\Phi^t_{X}(p))=\left. \frac{ \partial Y^i }{ \partial x^j } \right| _{p}(X^j(p)) $$and $$\begin{align}\left. \frac{d}{dt} \right| _{t=0}((d_{p}\Phi^t_{X})^{-1})^i_{j}Y^j(p)&=-\delta^i_{k}\left( \left. \frac{d}{dt} \right| _{t=0}d_{p}\Phi^t_{X} \right) ^k_{\ell}\delta^\ell_{j}Y^j(p)\\&=-\delta^i_{k}\left( \left. \frac{d}{dt} \right| _{t=0}\left. \frac{ \partial( \Phi^t_{X})^k }{ \partial x^\ell }  \right| _{p}\right) \delta^\ell_{j}Y^j(p)\\&=-\delta^i_{k}\left(\left.  \frac{ \partial }{ \partial x^\ell } \right| _{p} \left. \frac{d}{dt} \right| _{t=0} (\Phi^t_{X})^k\right) \delta^\ell_{j}Y^j(p)\\&=-\delta^i_{k}\left(\left.  \frac{ \partial X^k }{ \partial x^\ell } \right| _{p}\right) \delta^\ell_{j}Y^j(p)\\&=-\left. \frac{ \partial X^i }{ \partial x^j } \right| _{p}Y^j(p) \end{align}$$Therefore, $$(L_{X}Y)^i(p)=\left. \frac{ \partial Y^i }{ \partial x^j } \right| _{p}(X^j(p))-\left. \frac{ \partial X^i }{ \partial x^j } \right| _{p}Y^j(p)=[X,Y]^i(p) $$from [[Lie Bracket|Proposition 2]].
 > 1. $L_{X}Y=[X,Y]=-[Y,X]=-L_{Y}X$.
 > 2. $L_{X}[Y,Z]=[X,[Y,Z]]=-[[Y,Z],X]=[[X,Y],Z]+[[Z,X],Y]=[L_{X}Y,Z]+[Y,L_{X}Z]$.
 > 3. $L_{[X,Y]}Z=[[X,Y],Z]=-[[Y,Z],X]-[[Z,X],Y]=-[L_{Y}Z,X]+[L_{X}Z,Y]=L_{X}L_{Y}Z-L_{Y}L_{X}Z$.
