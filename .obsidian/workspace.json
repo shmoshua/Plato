@@ -288,13 +288,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "9da1f925d695969f",
+  "active": "e88b7e0f5d35d439",
   "lastOpenFiles": [
     "Differential Geometry/Vector Field.md",
     "Lie Group/Flow.md",
-    "Differential Geometry/Lie Bracket.md",
-    "Analysis/Lie Derivative.md",
     "Differential Geometry/Differential.md",
+    "Analysis/Lie Derivative.md",
+    "Differential Geometry/Lie Bracket.md",
     "Topology/Filter.md",
     "Topology/Ultrafilter.md",
     "Lie Group/Integral Curve.md",

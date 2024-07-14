@@ -26,29 +26,26 @@
 	2. if $\Phi^t_{X}:U\to M$ is defined for some open $U\subseteq M$, then $\Phi_{X}^t:U\to \Phi_{X}^t$ is a diffeomorphism to an open set. 
 ---
 > [!lemma] Proposition 2 (Flow Pullbacks)
-> Let $X\in \Gamma(\text{T}M)$. Then, 
+> Let $X,Y\in \Gamma(\text{T}M)$. Then, 
 > 1. $(\Phi^t_{X})^{*}(X)=X$ for all $t$.
+> 2. $\left. \frac{d}{dt} \right|_{s}(\Phi^t_{X})^{*}(Y)_{p}=(\Phi^{s}_{X})^{*}(L_{X}Y)$ for all $s$.
 
 > [!proof]-
-> Assume that $X$ is complete for simplicity and fix $t\in \mathbb{R}$. Then, $$\begin{align}(\Phi^t_{X})^{*}(X)_{p}&=(d_{p}\Phi^t_{X})^{-1}(X_{\Phi^t_{X}(p)})=d_{\Phi^t_{X}(p)}\Phi^{-t}_{X}(X_{\Phi^t_{X}(p)})\\&=d\Phi^{-t}_{X}\left( \left. \frac{d}{ds} \right|_{s=t}\Phi^s_{X}(p)  \right)\\&=\left. \frac{d}{ds} \right|_{s=t}\Phi^{-t}_{X}(\Phi^s_{X}(p))\\&=\left. \frac{d}{ds} \right| _{s=t}\Phi^{-t+s}_{X}(p)\\&=\left. \frac{d}{du} \right| _{u=0}\Phi^u_{X}(p)\\&=X_{\Phi^0_{X}(p)}\\&=X_{p} \end{align}$$
+> We have:
+> 1. Assume that $X$ is complete for simplicity and fix $t\in \mathbb{R}$. Then, $$\begin{align}(\Phi^t_{X})^{*}(X)_{p}&=(d_{p}\Phi^t_{X})^{-1}(X_{\Phi^t_{X}(p)})=d_{\Phi^t_{X}(p)}\Phi^{-t}_{X}(X_{\Phi^t_{X}(p)})\\&=d\Phi^{-t}_{X}\left( \left. \frac{d}{ds} \right|_{s=t}\Phi^s_{X}(p)  \right)\\&=\left. \frac{d}{ds} \right|_{s=t}\Phi^{-t}_{X}(\Phi^s_{X}(p))\\&=\left. \frac{d}{ds} \right| _{s=t}\Phi^{-t+s}_{X}(p)\\&=\left. \frac{d}{du} \right| _{u=0}\Phi^u_{X}(p)\\&=X_{\Phi^0_{X}(p)}\\&=X_{p} \end{align}$$
+> 2. We have: $$\begin{align}\left. \frac{d}{dt} \right|_{t=s}(\Phi^t_{X})^{*}(Y)_{p}&=\left. \frac{d}{dt} \right|_{t=0}(\Phi^{t+s}_{X})^{*}(Y)_{p}\\&=\left. \frac{d}{dt} \right|_{t=0}(\Phi^{s}_{X})^{*}((\Phi^t_{X})^{*}(Y)_{p})\\&=(\Phi^s_{X})^{*}\left( \left. \frac{d}{dt} \right| _{t=0}(\Phi^t_{X})^{*}(Y)_{p} \right)\\&=(\Phi^s_{X})^{*}(L_{X}Y)\end{align} $$
 ---
-> [!lemma] Proposition 3
-> Let $M$ be a smooth manifold and $X,Y\in \Gamma(\text{T}M)$ be complete vector fields. Then, for any $t_{0}\in \mathbb{R}$ and $p\in M$: $$\left. \frac{d}{dt} \right| _{t_{0}}d\Phi^{-t}_{X}(Y_{\Phi^t_{X}(p)})=d\Phi^{-t_{0}}_{X}((L_{X}Y)_{\Phi^{t_{0}}_{X}(p)})$$where $L_{X}Y$ is the [[Lie derivative]].
-
-> [!proof]-
-> For $p\in M$, consider the function $H(t):=d\Phi^{-t}_{X}(Y_{\Phi^t_{X}(p)})$. Then, $H$ is a smooth curve in $\text{T}_{p}M$. Therefore, by writing $t=t_{0}+s$, $$H'(t_{0})=\left. \frac{d}{ds} \right| _{s=0}H(t_{0}+s)=\left. \frac{d}{ds} \right| _{s=0}d\Phi^{-t_{0}-s}_{X}(Y_{\Phi^{t_{0}+s}_{X}(p)})=d\Phi_{X}^{-t_{0}}\left( \left. \frac{d}{ds} \right| _{s=0}d\Phi_{X}^{-s}(Y_{\Phi^{t_{0}+s}_{X}(p)}) \right) $$This proves the statement.
----
-> [!lemma] Theorem 4 (Commutation Theorem)
+> [!lemma] Theorem 3 (Commutation Theorem)
 > Let $X,Y\in \Gamma(\text{T}M)$ be two complete smooth vector fields. Then, the following are equivalent:
 > 1. $[X,Y]=0$.
-> 3. $Y$ is invariant under the flow of $X$.
-> 4. $X$ is invariant under the flow of $Y$.
+> 3. $Y$ is invariant under the flow of $X$, i.e. $(\Phi^t_{X})^{*}(Y)=Y$ for any $t$.
+> 4. $X$ is invariant under the flow of $Y$, i.e. $(\Phi^t_{Y})^{*}(X)=X$ for any $t$.
 > 5. $\Phi_{X}^t$ and $\Phi_{Y}^s$ commute for all $t,s\in \mathbb{R}$.
 
-> [!proof]-
+> [!proof]+
 > We have: 
-> - (2=>1): Assume $X$ is invariant under the flow of $Y$. Then, $Y_{\Phi^t_{X}(p)}=d_{p}\Phi^t_{X}(Y_{p})$ for any $t,p$. Therefore, by applying $d_{\Phi^t_{X}(p)}\Phi^{-t}_{X}$ on both sides, $$d_{\Phi^t_{X}(p)}\Phi^{-t}_{X}(Y_{\Phi^t_{X}(p)})=Y_{p}$$Hence, $[X,Y]=L_{X}Y=\left. \frac{d}{dt} \right| _{t=0}Y_{p}=0$.
-> - (1=>2): Assume $[X,Y]=0$. Then, consider $H(t):=d\Phi^{-t}_{X}(Y_{\Phi^t_{X}(p)})$. Then, by Proposition 2, $$H'(t_{0})=0,\quad \forall t_{0}\in \mathbb{R}$$However, as $H(0)=Y_{p}$, $X(t)=Y_{p}$ for all $t\in \mathbb{R}$. By applying $d\Phi^{t}_{X}$ on both sides, we get our statement.
+> - (1=>2): Assume $[X,Y]=0$. Then, by Proposition 2, $\left. \frac{d}{dt} \right|_{s}(\Phi^t_{X})^{*}(Y)_{p}=(\Phi^s_{X})^{*}(0)=0$ for all $s$. Therefore, as $(\Phi^0_{X})^{*}(Y)=Y$, $(\Phi^t_{X})^{*}(Y)=Y$ for all $t$.
+> - (2=>1): Assume $Y$ is invariant under the flow of $X$. Then, $$[X,Y]=L_{X}Y=\left. \frac{d}{dt} \right| _{t=0}(\Phi^t_{X})^{*}(Y)_{p}$$
 > - (3=>1) and (1=>3) hold by symmetry.
 > - (1=>4): Assume that $[X,Y]=0$. From 3, $X_{\Phi^t_{Y}(p)}=d_{p}\Phi^t_{Y}(X_{p})$ for any $t,p$. Consider the curve $\gamma:\mathbb{R}\to M$ defined as $\gamma(t)=\Phi_{Y}^s(\Phi_{X}^t(p))$. Then, $\gamma(0)=\Phi_{Y}^s(p)$ and: $$\gamma'(t)= \frac{d}{dt} \Phi_{Y}^s(\Phi_{X}^t(p))=d\Phi^s_{Y}(X_{\Phi_{X}^t(p)})=X_{\Phi^s_{Y}(\Phi^t_{X}(p))}=X_{\gamma(t)}$$
 >   Therefore, by the uniqueness of integral curves, $\gamma=\gamma_{\Phi^s_{Y}(p)}$. Hence,$$\Phi_{X}^t(\Phi_{Y}^s(p))=\gamma_{\Phi^s_{Y}(p)}(t)=\gamma(t)=\Phi^s_{Y}(\Phi^t_{X}(p))$$
