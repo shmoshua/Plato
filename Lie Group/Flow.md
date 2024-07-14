@@ -29,16 +29,16 @@
 > Let $X\in \Gamma(\text{T}M)$. Then, 
 > 1. $(\Phi^t_{X})^{*}(X)=X$ for all $t$.
 
-> [!proof]+
+> [!proof]-
 > Assume that $X$ is complete for simplicity and fix $t\in \mathbb{R}$. Then, $$\begin{align}(\Phi^t_{X})^{*}(X)_{p}&=(d_{p}\Phi^t_{X})^{-1}(X_{\Phi^t_{X}(p)})=d_{\Phi^t_{X}(p)}\Phi^{-t}_{X}(X_{\Phi^t_{X}(p)})\\&=d\Phi^{-t}_{X}\left( \left. \frac{d}{ds} \right|_{s=t}\Phi^s_{X}(p)  \right)\\&=\left. \frac{d}{ds} \right|_{s=t}\Phi^{-t}_{X}(\Phi^s_{X}(p))\\&=\left. \frac{d}{ds} \right| _{s=t}\Phi^{-t+s}_{X}(p)\\&=\left. \frac{d}{du} \right| _{u=0}\Phi^u_{X}(p)\\&=X_{\Phi^0_{X}(p)}\\&=X_{p} \end{align}$$
 ---
-> [!lemma] Proposition 2
+> [!lemma] Proposition 3
 > Let $M$ be a smooth manifold and $X,Y\in \Gamma(\text{T}M)$ be complete vector fields. Then, for any $t_{0}\in \mathbb{R}$ and $p\in M$: $$\left. \frac{d}{dt} \right| _{t_{0}}d\Phi^{-t}_{X}(Y_{\Phi^t_{X}(p)})=d\Phi^{-t_{0}}_{X}((L_{X}Y)_{\Phi^{t_{0}}_{X}(p)})$$where $L_{X}Y$ is the [[Lie derivative]].
 
 > [!proof]-
 > For $p\in M$, consider the function $H(t):=d\Phi^{-t}_{X}(Y_{\Phi^t_{X}(p)})$. Then, $H$ is a smooth curve in $\text{T}_{p}M$. Therefore, by writing $t=t_{0}+s$, $$H'(t_{0})=\left. \frac{d}{ds} \right| _{s=0}H(t_{0}+s)=\left. \frac{d}{ds} \right| _{s=0}d\Phi^{-t_{0}-s}_{X}(Y_{\Phi^{t_{0}+s}_{X}(p)})=d\Phi_{X}^{-t_{0}}\left( \left. \frac{d}{ds} \right| _{s=0}d\Phi_{X}^{-s}(Y_{\Phi^{t_{0}+s}_{X}(p)}) \right) $$This proves the statement.
 ---
-> [!lemma] Proposition 3
+> [!lemma] Proposition 4
 > Let $X,Y\in \Gamma(\text{T}M)$ be two complete smooth vector fields. Then, the following are equivalent:
 > 1. $[X,Y]=0$.
 > 3. $Y$ is invariant under the flow of $X$.

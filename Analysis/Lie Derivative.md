@@ -1,7 +1,8 @@
 #Definition #Analysis 
 
 > [!definition]
-> Let $X,Y\in \Gamma(\text{T}M)$ be [[Integral Curve|complete]] [[Vector Field|smooth vector fields]]. The ***Lie derivative*** of $Y$ with respect to $X$ is $L_{X}Y\in \Gamma(\text{T}M)$ s.t.: $$(L_{X}Y)_{p}=\lim_{ t \to 0 }  \frac{1}{t}\left( d\Phi^{-t}_{X}(Y_{\Phi_{X}^t(p)})-Y_{p} \right)=\left. \frac{d}{dt} \right| _{t=0}d\Phi_{X}^{-t}(Y_{\Phi^t_{X}(p)}) \in \text{T}_{p}M$$where $\Phi_{X}^t$ denotes the [[flow]].
+> Let $X,Y\in \Gamma(\text{T}M)$ be [[Integral Curve|complete]] [[Vector Field|smooth vector fields]]. The ***Lie derivative*** of $Y$ with respect to $X$ is $L_{X}Y\in \Gamma(\text{T}M)$ s.t.: $$(L_{X}Y)_{p}:=\left. \frac{d}{dt} \right| _{t=0}(\Phi^t_{X})^{*}(Y)_{p}=\lim_{ t \to 0 } \frac{(\Phi^t_{X})^{*}(Y)_{p}-Y_{p}}{t}\in \text{T}_{p}M$$
+>where $\Phi_{X}^t$ denotes the [[flow]].
 - **Remark**: Recall that $\Phi_{X}^{-t}:M\to M$. Therefore, $d_{\Phi^t_{X}(p)}\Phi^{-t}_{X}:\text{T}_{\Phi^t_{X}(p)}M\to \text{T}_{p}M$.
 ---
 ##### Properties
