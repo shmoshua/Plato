@@ -68,9 +68,9 @@
 > 9. $\phi_{*}(Xf)=\phi_{*}(X)\phi_{*}(f)$
 > 10. $\phi ^{*}(Yg)=\phi ^{*}(Y)\phi ^{*}(g)$
 > 11. $\phi_{*}([X_{1},X_{2}])=[\phi_{*}(X_{1}),\phi_{*}(X_{2})]$
-> 12. $\phi ^{*}([X_{1},X_{2}])=[\phi ^{*}(X_{1}),\phi ^{*}(X_{2})]$
+> 12. $\phi ^{*}([Y_{1},Y_{2}])=[\phi ^{*}(Y_{1}),\phi ^{*}(Y_{2})]$
 
-> [!proof]+
+> [!proof]- 
 > We have: 
 > 1. $$\begin{align}\phi ^{*}(\phi_{*}(X)f)(p)=\phi_{*}(X)f(\phi(p))=d_{p}\phi(X_{p})f=X_{p}(f\circ \phi)=X_{p}(\phi ^{*}(f))\end{align}$$
 > 2.  $$\phi ^{*}(Y)(\phi ^{*}(f))_{p}=(d_{p}\phi)^{-1}(Y_{\phi(p)})(f\circ\phi )=(d_{p}\phi)(d_{p}\phi)^{-1}(Y_{\phi(p)})f=Y_{\phi(p)}f$$
@@ -82,7 +82,8 @@
 > 8. $$(\phi ^{-1})^{*}(X)_{p}=(d_{p}\phi ^{-1})^{-1}(X_{\phi ^{-1}(p)})=d_{\phi ^{-1}(p)}\phi(X_{\phi ^{-1}(p)})=\phi _{*}(X)_{p}$$
 > 9. We have: $$\phi_{*}(X)_{q}\phi_{*}(f)=d_{\phi ^{-1}(q)}\phi(X_{\phi ^{-1}(q)})(f\circ \phi ^{-1})=X_{\phi ^{-1}(q)}(f)=\phi_{*}(Xf)_{q}$$
 > 10. and $$\phi ^{*}(Y)_{p}\phi ^{*}(g)=(d_{p}\phi)^{-1}(Y_{\phi(p)})(g\circ \phi)=Y_{\phi(p)}g=\phi ^{*}(Yg)$$
-> 11. We have: $$\begin{align}\phi_{*}([X_{1},X_{2}])_{q}(g)&=[X_{1},X_{2}]_{\phi ^{-1}(q)}(g\circ \phi)\\&=(X_{1})_{\phi ^{-1}(q)}(X_{2}(g\circ \phi))-(X_{2})_{\phi ^{-1}(q)}(X_{1}(g\circ \phi))\end{align}$$where $(X_{2})_{\phi ^{-1}(q)}(g\circ\phi)=d$$$\begin{align}[\phi_{*}(X_{1}),\phi_{*}(X_{2})]_{q}(g)&=\phi_{*}(X_{1})_{q}(\phi_{*}(X_{2})g)-\phi_{*}(X_{2})_{q}(\phi_{*}(X_{1})g)\\&=(X_{1})_{\phi ^{-1}(q)}(\phi_{*}(X_{2})g\circ f)\end{align}$$
+> 11. Analogous to 12.
+> 12. Similarly, we have: $$\begin{align}\phi ^{*}([Y_{1},Y_{2}])f&=\phi ^{*}([Y_{1},Y_{2}])\phi ^{*}(g)\\&=\phi ^{*}([Y_{1},Y_{2}]g)\\&=\phi ^{*}(Y_{1}Y_{2}g-Y_{2}Y_{1}g)\\&=\phi ^{*}(Y_{1}Y_{2}g)-\phi ^{*}(Y_{2}Y_{1}g)\\&=\phi ^{*}(Y_{1})\phi ^{*}(Y_{2})f-\phi ^{*}(Y_{2})\phi ^{*}(Y_{1})f\\&=[\phi ^{*}(Y_{1}),\phi ^{*}(Y_{2})]f\end{align}$$
 ---
 > [!lemma] Proposition 5 (Related Vector Fields)
 > Let $\varphi\in C^\infty(M,N)$.
