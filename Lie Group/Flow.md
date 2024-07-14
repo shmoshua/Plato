@@ -38,7 +38,7 @@
 > [!proof]-
 > For $p\in M$, consider the function $H(t):=d\Phi^{-t}_{X}(Y_{\Phi^t_{X}(p)})$. Then, $H$ is a smooth curve in $\text{T}_{p}M$. Therefore, by writing $t=t_{0}+s$, $$H'(t_{0})=\left. \frac{d}{ds} \right| _{s=0}H(t_{0}+s)=\left. \frac{d}{ds} \right| _{s=0}d\Phi^{-t_{0}-s}_{X}(Y_{\Phi^{t_{0}+s}_{X}(p)})=d\Phi_{X}^{-t_{0}}\left( \left. \frac{d}{ds} \right| _{s=0}d\Phi_{X}^{-s}(Y_{\Phi^{t_{0}+s}_{X}(p)}) \right) $$This proves the statement.
 ---
-> [!lemma] Proposition 4
+> [!lemma] Theorem 4 (Commutation Theorem)
 > Let $X,Y\in \Gamma(\text{T}M)$ be two complete smooth vector fields. Then, the following are equivalent:
 > 1. $[X,Y]=0$.
 > 3. $Y$ is invariant under the flow of $X$.
