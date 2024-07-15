@@ -1,7 +1,8 @@
 #Definition #Algebra
 
 > [!definition]
-> For an [[integral domain]] $R$, let $\dot{R}:=R \backslash \{ 0 \}$. We define a binary relation $\sim$ on $R\times \dot{R}$ as follows: $$(a,b)\sim(a',b') \iff ab'=ba'$$Then, $\sim$ is an equivalence relation and: $$\text{Quot}(R)=\left\{   \frac{a}{b}:(a,b)\in R\times \dot{R}  \right\}$$where $\frac{a}{b}$ denotes the equivalence class of $(a,b)$. The ***field of quotients*** is a field $(\text{Quot}(R),+,\cdot)$ where: $$\frac{a}{b}+\frac{a'}{b'}=\frac{ab'+ba'}{bb'},\quad \frac{a}{b}\cdot \frac{a'}{b'}=\frac{aa'}{bb'}$$We further define: $$\begin{array}{cccc} {\iota:}&{R}&\to&{\text{Quot}(R)}\\&{a} &\mapsto & {\frac{a}{1_{R}}} \end{array}{}$$Then, $0_{Q}=\iota(0_{R})$ and $1_{R}=\iota(1_{R})$.
+> For an [[integral domain]] $R$, the ***field of quotients*** is given as $\text{Quot}(R)=R\times R\backslash\{ 0 \}_{/\sim}$ where $a$where $\frac{a}{b}:=[(a,b)]_{\sim}$ and: $$\frac{a}{b}+\frac{a'}{b'}=\frac{ab'+ba'}{bb'},\quad \frac{a}{b}\cdot \frac{a'}{b'}=\frac{aa'}{bb'}$$
+- **Remark**: $R$ injects into $\text{Quot}(R)$ as $a\mapsto \frac{a}{1}$. Then, $0_{Q},1_{Q}$ are $i(0_{R})$ and $i(1_{R})$ respectively.
 - **Remark**: $\text{Quot}(R)$ is the smallest field that includes $R$.
 - **Remark**: There is a more general construction of a ring: A commutative ring $R$ can always be made into a subring of a larger ring $Q$ in which every non-zero non-zero divisor element in $R$ is a unit in $Q$.
 ---
