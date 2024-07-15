@@ -55,6 +55,15 @@
 
 ^35997d
 
+---
+> [!lemma] Theorem 4 (Commutation Error)
+> Let $X,Y\in \Gamma(\text{T}M)$. Then, for any coordinate system, 
+> 1. $(\Phi^t_{Y}\circ\Phi^s_{X})(x)=x+sX_{x}+tY_{x}+O(\left| s \right|^{2}+\left| t \right|^{2})$
+> 2. $(\Phi^t_{Y}\circ\Phi^s_{X})(x)-(\Phi^s_{X}\circ\Phi^t_{Y})(x)=st[X,Y]_{x}+O(\left| s \right|^3+\left| t \right|^3)$
+> 3. $(\Phi^{-t}_{Y}\circ\Phi^{-s}_{X}\circ\Phi^t_{Y}\circ\Phi^s_{X})(x)=x+st[X,Y]_{x}+O(\left| s \right|^3+\left| t \right|^3)$
+
+> [!proof]+
+> For $\Psi(s,t)=\Phi^t_{Y}(\Phi^s_{Y}(x))$, we have: $d_{0}\Psi=(X_{x},Y_{x})$. Therefore, by Taylor expansion, we have: $$(\Phi^t_{Y}\circ \Phi^s_{X})(x)=x+sX_{x}+tY_{x}+O(\left| s \right| ^{2}+\left| t \right| ^{2})$$
 ----
 ###### Flows of Incomplete Vector Fields
 
