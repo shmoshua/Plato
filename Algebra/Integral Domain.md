@@ -3,9 +3,9 @@
 > [!definition]
 > An ***integral domain*** $R$ is a non-trivial commutative [[Zero Divisor|domain]]. 
 - **Related definition**: An element $r\in R$ is called:
-  1. ***irreducible*** in $R$ if $r\neq 0$, $r\notin R^{*}$ and for any $a,b\in R$, $r=ab\implies a\in R^{*} \lor b\in R^{*}$
-  2. ***prime*** in $R$ if $r\neq 0$, $r\notin R^{*}$ and for any $a,b\in R$, $r|ab\implies r|a \lor r|b$
-- **Related definition**: Two elements $a,b\in R \backslash\{ 0 \}$ are called ***associates*** if there exists $r\in R^{*}$ s.t. $a=rb$. Then, we write $a \sim b$.
+  1. ***irreducible*** in $R$ if $r\neq 0$, $r\notin R^{\times}$ and for any $a,b\in R$, $r=ab\implies a\in R^{*} \lor b\in R^{*}$
+  2. ***prime*** in $R$ if $r\neq 0$, $r\notin R^{\times}$ and for any $a,b\in R$, $r|ab\implies r|a \lor r|b$
+- **Related definition**: Two elements $a,b\in R \backslash\{ 0 \}$ are called ***associates*** if there exists $r\in R^{\times}$ s.t. $a=rb$. Then, we write $a \sim b$.
 - **Related definition**: Let $a,b\in R \backslash \{ 0 \}$. Then, $d\in R$ is the ***greatest common divisor (gcd)*** of $a,b$ if
 	1. $d|a$ and $d|b$ 
 	2. if $c|a\land c|b$ then $c|d$.
@@ -29,8 +29,13 @@
 > [!lemma] Lemma 2
 > For an integral domain $R$, 
 > 1. every prime element is irreducible.
-> 2. for every non-zero element $p\in R$, $p$ is prime if and only if $(p)\subseteq R$ is a [[prime ideal]].
-> 3. the greatest common divisor of $a,b$ (if it exists) is uniquely determined up to multiplication by units.
+> 2. for every $0\neq p\in R$, $p$ is prime if and only if $(p)\subseteq R$ is a [[prime ideal]].
+> 3. $\gcd(a,b)$ (if it exists) is uniquely determined up to multiplication by units.
+
+> [!proof]+
+> We have:
+> 1. Let $r\in R$ be prime. If $r=ab$, then $r|ab$ and $r|a$ or $r|b$. Wlog assume that $r|a$. Then, there exists $q\in R$ s.t. $qr=a$. Then, $r=qrb$
+
 
 > [!proof]-
 > We have:

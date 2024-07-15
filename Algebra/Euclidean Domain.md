@@ -1,6 +1,6 @@
 #Definition #Algebra
 > [!definition]
-> An [[integral domain]] $R$ is ***euclidean***, if there exists a map $N:R \backslash \{ 0 \}\to \mathbb{N}$ s.t. for all $a,b\in R\backslash\{ 0 \}$, there exists $q,r\in R$ with:
+> An [[integral domain]] $R$ is ***euclidean***, if there exists a map $N:R \backslash \{ 0 \}\to \mathbb{N}$ s.t. for all $a\in R,b\in R\backslash\{ 0 \}$, there exists $q,r\in R$ with:
 > 1. $a=qb+r$ and 
 > 2. $r=0$ or $N(r)<N(b)$
 > 
@@ -11,7 +11,8 @@
 > Every euclidean domain is a [[Principal Ideal Domain|principal ideal domain]].
 
 > [!proof]-
-> Let $R$ be euclidean and $\mathfrak{a}\subseteq R$ a non-trivial ideal. Then, we choose $a\in \mathfrak{a}$ s.t. $$a=\arg\min_{b\in \mathfrak{a}} N(b) $$Therefore, for any $b\in \mathfrak{a}$, we have that $b=qa+r$ for some $q,r\in R$. As $a,b\in \mathfrak{a}, r\in \mathfrak{a}$. However, by the minimality assumption, $N(r)\geq N(a)$. This means $r=0$. Therefore, $b=qa$. This shows that $\mathfrak{a}=(a)$.
+> Let $R$ be euclidean and $I\unlhd R$ a non-zero ideal. Then, we choose: $$b\in\arg\min_{c\in I} N(c) $$We will show that $I=(b)$. Let $a\in I$. Then, we have that $a=qb+r$ for some $q,r\in R$. As $a,qb\in I$, we have that $r\in I$ and by the minimality, $r=0$. Therefore, $a=qb$ and $I\subseteq(b)$.
+
 - **Remark**: $R=\left\{  a+b \left( \frac{1+\sqrt{ -19 }}{2} \right) |a,b\in \mathbb{Z} \right\}$ is a PID but not a euclidean domain.
 ---
 > [!lemma] Theorem 2

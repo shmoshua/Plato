@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -98,8 +98,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Algebra/Integral Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Algebra/Integral Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Field.md"
+                "file": "Algebra/Integral Domain.md"
               }
             }
           }
@@ -227,13 +226,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "40d1a19639e346cb",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
     "Algebra/Principal Ideal Domain.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Euclidean Domain.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Field.md",
     "Algebra/Quaternion.md",
-    "Algebra/Integral Domain.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Quotient Ring.md",
     "Algebra/Ideal (Ring).md",
@@ -254,7 +254,6 @@
     "Analysis/Lie Derivative.md",
     "Lie Group/Flow.md",
     "Differential Geometry/Vector Field.md",
-    "Lie Group/Lie Group.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
