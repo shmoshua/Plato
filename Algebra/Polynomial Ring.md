@@ -1,13 +1,11 @@
 #Definition #Algebra
 
 > [!definition]
-> For a nontrivial commutative [[Ring|ring]] $R$, the ***polynomial ring*** $R[X]$ s.t. $X\notin R$,  is defined through the commutative ring $$\mathcal{F}_{R}:=\{ f:\mathbb{N}\to R\ |\ \exists n_{f}\in \mathbb{N}.\forall k\geq n_{f}.(f(k)=0_{R}) \}$$s.t. for $f\in \mathcal{F}_{R}$, we represent: $$f = \sum_{i=0}^{\infty}f(i)\cdot X^i\in R[X]$$
-> For $p\in R[X]$, $p=a_{0}+\dots+a_{n}X^n$ with $a_{n}\neq 0$, we have: 
-> 1. $\text{deg}(p):=n$ is the ***degree*** of $p$,
-> 2. $a_{n}$ is the ***leading coefficient*** of $p$,
-> 
-> If $a_{n}=1$, then $p$ is ***normalized/monic***. If $p=0$, then $\text{deg}(p)=-\infty$.
-- **Related definition**: For an [[Unique Factorization Domain|UFD]] $R$ and a polynomial $f\in R[X]$, the ***content*** $c(f)$ of $f$ is the [[Integral Domain|greatest common divisor]] of the coefficients of the polynomial. 
+> For a nontrivial commutative [[Ring|ring]] $R$, the ***polynomial ring*** $R[X]$ s.t. $X\notin R$,  is defined through the commutative ring $$\mathcal{F}_{R}:=\{ f:\mathbb{N}\to R\ |\ \exists n_{f}\in \mathbb{N}.\forall k\geq n_{f}.(f(k)=0_{R}) \}$$s.t. we have: $$R[X]:=\left\{  \sum_{i=0}^{\infty}f(i)X^i:f\in \mathcal{F}_{R}  \right\}$$
+- **Related definition**: For $p\in R[X]$ with $p=a_{0}+\dots+a_{n}x^n$ with $a_{n}\neq 0$, 
+	 1. $\text{deg}(p):=n$ is the ***degree*** of $p$ with $\deg(0)=-\infty$,
+	2. $a_{n}$ is the ***leading coefficient*** of $p$ with ***monic*** if $a_{n}=1$.
+- **Related definition**: For a [[Unique Factorization Domain|UFD]] $R$ and a polynomial $f\in R[X]$, the ***content*** $c(f)$ of $f$ is the [[Integral Domain|greatest common divisor]] of the coefficients of the polynomial. 
 - **Related definition**: a polynomial $f$ is ***primitive*** if $c(f)=1$.
 ---
 ##### Properties

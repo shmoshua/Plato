@@ -12,9 +12,9 @@
 > 2. $R / I$ is a field.
 
 > [!proof]-
-> (=>): Let $\mathfrak{m}\subseteq R$ be a maximal ring and $\mathfrak{b}\subseteq R / \mathfrak{m}$ is an ideal. Then, $\pi ^{-1}[\mathfrak{b}]\subseteq R$ is an ideal s.t. $\mathfrak{m}\subseteq \pi ^{-1}(\mathfrak{b})$. However, as $\mathfrak{m}$ is maximal, $\pi ^{-1}(\mathfrak{b})=\mathfrak{m}$ or $\pi ^{-1}(\mathfrak{b})=R$. Therefore, $\mathfrak{b}=\pi[\pi ^{-1}[\mathfrak{b}]]=\pi[\mathfrak{m}]=(\overline{0})$ or $\mathfrak{b}=\pi[\pi ^{-1}[\mathfrak{b}]]=\pi[R]=R / \mathfrak{m}$. Hence, from [[Field|Proposition 1]], $R / \mathfrak{m}$ is a field.
-> 
-> (<=): Let $R / \mathfrak{m}$ be a field and let $\mathfrak{a}\subseteq R$ s.t. $\mathfrak{m}\subseteq \mathfrak{a}$. Then, $\pi[\mathfrak{a}]\subseteq R / \mathfrak{m}$ is an ideal and therefore, $\pi[\mathfrak{a}]=(\overline{0})$ or $\pi[\mathfrak{a}]=R / \mathfrak{m}$. Hence, $\mathfrak{a}=\mathfrak{m}$ or $\mathfrak{a}=R$, which proves that $\mathfrak{m}$ is maximal. 
+> We have:
+> 1. (1=>2): Let $I\neq R$ s.t. there exists no ideal $J$ with $I\subsetneq J\subsetneq R$. Let $\pi:R \to R / I$ be the canonical projection. Then, $\pi$ is a surjective ring homomorphism and for any ideal $J\unlhd R / I$, $\pi ^{-1}(J)$ is an ideal of $R$ that contains $I$. Therefore, either $\pi ^{-1}(J)=I$, in which case $J=I$ and $\pi ^{-1}(J)=R$ which means $J=R / I$ as $\pi$ is surjective. Therefore, by [[Field|Proposition 1]], $R / I$ is a field.
+> 2. (2=>1): Let $R / I$ be a field. Then, trivially $I\neq R$ and for any ideal $J\unlhd R$ with $I\subseteq J$, $\pi(J)\unlhd R / I$. Therefore, $\pi(J)=I$ or $\pi(J)=R/I$. This means that $J=I$ or $R=I$, which proves the statement. 
 
 - **Corollary**: $R$ is a field if and only if $(0)\subseteq R$ is maximal.
 ---

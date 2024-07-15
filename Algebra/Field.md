@@ -11,7 +11,7 @@
 > 1. $R$ is a field.
 > 2. the only ideals in $R$ are $(0)$ and $R$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. (1=>2): Let $I\unlhd R$ be a non-zero ideal and $a\in I$ be the non-zero element. Then, as $R$ is a field $a^{-1}\in R$ and $a^{-1}a=1\in I$. Therefore, $I=R$.
 > 2. (2=>1): Let $R$ and $(0)$ be the only ideals in $R$. We will show that $R$ is a division ring. Let $a\in R$. Then, $(a)\neq(0)$ and therefore, $(a)=R$. Hence, there exists $r\in R$ s.t. $ra=1$ since $$(a)=\{ ra:r\in R \}$$Therefore, $r=a^{-1}\in R$ and $R$ is a field.

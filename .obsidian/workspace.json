@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Maximal Ideal.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -68,19 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "efa5bcf96dd297e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Prime Ideal.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -92,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Quotient Ring.md",
                 "mode": "preview",
                 "source": true
               }
@@ -104,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Subring.md",
+                "file": "Algebra/Ring Homomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -188,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Field.md"
+                "file": "Courses/Algebra II/Algebra II Roadmap.md"
               }
             }
           }
@@ -250,21 +238,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "c23f3b8967bf20bb",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
-    "Algebra/Field.md",
-    "Algebra/Maximal Ideal.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Prime Ideal.md",
+    "Algebra/Polynomial Ring.md",
     "Algebra/Integral Domain.md",
-    "Algebra/Quotient Field.md",
+    "Algebra/Field.md",
     "Algebra/Prime Ring.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Prime Field.md",
+    "Algebra/Maximal Ideal.md",
+    "Algebra/Quotient Ring.md",
+    "Algebra/Ring Homomorphism.md",
+    "Algebra/Subring.md",
+    "Algebra/Prime Ideal.md",
+    "Algebra/Quotient Field.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Quaternion.md",
     "Algebra/Ring.md",
-    "Algebra/Ring Homomorphism.md",
     "Algebra/Coprime Ideal.md",
-    "Algebra/Subring.md",
     "Algebra/Unit.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Local Diffeomorphism.md",
@@ -275,9 +266,6 @@
     "Differential Geometry/Vector Field.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Differential.md",
-    "Differential Geometry/Lie Bracket.md",
-    "Measure Theory/Algebra.md",
-    "Differential Geometry/Pullback.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
