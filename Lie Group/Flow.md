@@ -36,21 +36,20 @@
 > 2. We have: $$\begin{align}\left. \frac{d}{dt} \right|_{t=s}(\Phi^t_{X})^{*}(Y)_{p}&=\left. \frac{d}{dt} \right|_{t=0}(\Phi^{t+s}_{X})^{*}(Y)_{p}\\&=\left. \frac{d}{dt} \right|_{t=0}(\Phi^{s}_{X})^{*}((\Phi^t_{X})^{*}(Y)_{p})\\&=(\Phi^s_{X})^{*}\left( \left. \frac{d}{dt} \right| _{t=0}(\Phi^t_{X})^{*}(Y)_{p} \right)\\&=(\Phi^s_{X})^{*}(L_{X}Y)\end{align} $$
 ---
 > [!lemma] Theorem 3 (Commutation Theorem)
-> Let $X,Y\in \Gamma(\text{T}M)$ be two complete smooth vector fields. Then, the following are equivalent:
+> Let $X,Y\in \Gamma(\text{T}M)$ be two smooth vector fields. Then, the following are equivalent:
 > 1. $[X,Y]=0$.
 > 3. $Y$ is invariant under the flow of $X$, i.e. $(\Phi^t_{X})^{*}(Y)=Y$ for any $t$.
 > 4. $X$ is invariant under the flow of $Y$, i.e. $(\Phi^t_{Y})^{*}(X)=X$ for any $t$.
 > 5. $\Phi_{X}^t$ and $\Phi_{Y}^s$ commute for all $t,s\in \mathbb{R}$.
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > - (1=>2): Assume $[X,Y]=0$. Then, by Proposition 2, $\left. \frac{d}{dt} \right|_{s}(\Phi^t_{X})^{*}(Y)_{p}=(\Phi^s_{X})^{*}(0)=0$ for all $s$. Therefore, as $(\Phi^0_{X})^{*}(Y)=Y$, $(\Phi^t_{X})^{*}(Y)=Y$ for all $t$.
-> - (2=>1): Assume $Y$ is invariant under the flow of $X$. Then, $$[X,Y]=L_{X}Y=\left. \frac{d}{dt} \right| _{t=0}(\Phi^t_{X})^{*}(Y)_{p}$$
+> - (2=>1): Assume $Y$ is invariant under the flow of $X$. Then, $$[X,Y]=L_{X}Y=\left. \frac{d}{dt} \right| _{t=0}(\Phi^t_{X})^{*}(Y)=\left. \frac{d}{dt} \right| _{t=0}Y=0$$
 > - (3=>1) and (1=>3) hold by symmetry.
-> - (1=>4): Assume that $[X,Y]=0$. From 3, $X_{\Phi^t_{Y}(p)}=d_{p}\Phi^t_{Y}(X_{p})$ for any $t,p$. Consider the curve $\gamma:\mathbb{R}\to M$ defined as $\gamma(t)=\Phi_{Y}^s(\Phi_{X}^t(p))$. Then, $\gamma(0)=\Phi_{Y}^s(p)$ and: $$\gamma'(t)= \frac{d}{dt} \Phi_{Y}^s(\Phi_{X}^t(p))=d\Phi^s_{Y}(X_{\Phi_{X}^t(p)})=X_{\Phi^s_{Y}(\Phi^t_{X}(p))}=X_{\gamma(t)}$$
+> - (3=>4): Assume that $[X,Y]=0$. From 3, $X_{\Phi^t_{Y}(p)}=d_{p}\Phi^t_{Y}(X_{p})$ for any $t,p$. Consider the curve $\gamma:\mathbb{R}\to M$ defined as $\gamma(t)=\Phi_{Y}^s(\Phi_{X}^t(p))$. Then, $\gamma(0)=\Phi_{Y}^s(p)$ and: $$\dot{\gamma}(t)= \frac{d}{dt} \Phi_{Y}^s(\Phi_{X}^t(p))=d\Phi^s_{Y}(X_{\Phi_{X}^t(p)})=X_{\Phi^s_{Y}(\Phi^t_{X}(p))}=X_{\gamma(t)}$$
 >   Therefore, by the uniqueness of integral curves, $\gamma=\gamma_{\Phi^s_{Y}(p)}$. Hence,$$\Phi_{X}^t(\Phi_{Y}^s(p))=\gamma_{\Phi^s_{Y}(p)}(t)=\gamma(t)=\Phi^s_{Y}(\Phi^t_{X}(p))$$
-> - (4=>1): Conversely assume that the flows commute. Therefore, $$d\Phi_{X}^t(Y_{p})=\left. \frac{d}{ds} \right| _{s=0}\Phi^t_{X}(\Phi^s_{Y}(p))=\left. \frac{d}{ds} \right| _{s=0}\Phi^s_{Y}(\Phi^t_{X}(p))=Y_{\Phi^t_{X}(p)}$$Therefore, $Y$ is invariant under the flow of $X$ and 1 holds.
-- **Corollary**: Any smooth vector field $X$ is invariant under its own flow. 
+> - (4=>2): Wlog assume that $X,Y$ are complete and assume that the flows commute. Therefore, $$d\Phi_{X}^t(Y_{p})=\left. \frac{d}{ds} \right| _{s=0}\Phi^t_{X}(\Phi^s_{Y}(p))=\left. \frac{d}{ds} \right| _{s=0}\Phi^s_{Y}(\Phi^t_{X}(p))=Y_{\Phi^t_{X}(p)}$$Hence, $(\Phi^t_{X})^{*}(Y)_{p}=(d_{p}\Phi^t_{X})^{-1}(Y_{\Phi^t_{X}(p)})=Y_{p}$. 
 ----
 ###### Flows of Incomplete Vector Fields
 
