@@ -73,13 +73,13 @@
 > 1. there exists a uniquely determined $q\in R[X]$ s.t. $f(x)=q(x)(x-a)+f(a)$.
 > 2. $(x-a)|f \iff f(a)=0$.
 
-> [!proof]+
+> [!proof]-
 > We show that:
 > 1. **Existence of $q$**: Let $g(x):=x-a$. Then, $\text{deg}(g)=1$ and the leading coefficient is $b_{1}=1$. Therefore, from the Euclidean algorithm, there exists $s,r\in R[X]$ s.t. $$f(x)=s(x) (x-a)+r(x)$$where $\text{deg}(r)<1$ ($r=0$ or $\text{deg}(r)=0$).
 > 
 > 	By plugging in, we have: $$f(a)=s(a)(a-a)+r(a)=r(a)$$
 > 	However, as $r\in R$, we have that $f(x)=q(x)(x-a)+f(a)$.
-> 2. **Uniqueness of $q$**: Let $q'\in R[X]$ s.t. $f(x)=q'(x)(X-a)+p(a)$. Then, $$(X-a)(\tilde{s}-s)=0$$Therefore, $s=\tilde{s}$.
+> 2. **Uniqueness of $q$**: Let $q'\in R[X]$ s.t. $f(x)=q'(x)(x-a)+f(a)$. Then, $$(x-a)(q'-q)=0$$Therefore, $q'=q$.
 > 3. Follows from 1 and 2.
 ---
 > [!lemma] Lemma 7
