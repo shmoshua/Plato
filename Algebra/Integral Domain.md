@@ -3,7 +3,7 @@
 > [!definition]
 > An ***integral domain*** $R$ is a non-trivial commutative [[Zero Divisor|domain]]. 
 - **Related definition**: An element $r\in R$ is called:
-  1. ***irreducible*** in $R$ if $r\neq 0$, $r\notin R^{\times}$ and for any $a,b\in R$, $r=ab\implies a\in R^{*} \lor b\in R^{*}$
+  1. ***irreducible*** in $R$ if $r\neq 0$, $r\notin R^{\times}$ and for any $a,b\in R$, $r=ab\implies a\in R^{\times} \lor b\in R^{\times}$
   2. ***prime*** in $R$ if $r\neq 0$, $r\notin R^{\times}$ and for any $a,b\in R$, $r|ab\implies r|a \lor r|b$
 - **Related definition**: Two elements $a,b\in R \backslash\{ 0 \}$ are called ***associates*** if there exists $r\in R^{\times}$ s.t. $a=rb$. Then, we write $a \sim b$.
 - **Related definition**: Let $a,b\in R \backslash \{ 0 \}$. Then, $d\in R$ is the ***greatest common divisor (gcd)*** of $a,b$ if
@@ -32,20 +32,15 @@
 > 2. for every $0\neq p\in R$, $p$ is prime if and only if $(p)\subseteq R$ is a [[prime ideal]].
 > 3. $\gcd(a,b)$ (if it exists) is uniquely determined up to multiplication by units.
 
-> [!proof]+
-> We have:
-> 1. Let $r\in R$ be prime. If $r=ab$, then $r|ab$ and $r|a$ or $r|b$. Wlog assume that $r|a$. Then, there exists $q\in R$ s.t. $qr=a$. Then, $r=qrb$
-
-
 > [!proof]-
 > We have:
-> 1. Let $p\in R$ is prime. Let $a,b\in R$ s.t. $p=ab$. Therefore, $p|ab$ and $p|a$ or $p|b$. Wlog assume that $p|a$. Then, there exists $r\in R$ s.t. $pr=a$. Then, $p=prb$ and $p(1-rb)=0$. As $p\neq 0$ and $R$ is an integral domain, $(1-rb)=0$ and $b\in R^{*}$.
-> 2. Let $p\in R$ be non-zero prime. Then, $(p)\neq R$ as $p$ is not a unit. Therefore, for any $ab\in (p)$, $p|ab$ and $p|a$ or $p|b$, which means $a\in (p)$ or $b\in (p)$.
+> 1. Let $r\in R$ be prime. If $r=ab$, then $r|ab$ and $r|a$ or $r|b$. Wlog assume that $r|a$. Then, there exists $q\in R$ s.t. $rq=a$. Then, $r=rqb$ and $r(1-qb)=0$. As $r\ne 0$, we have $1=qb$, i.e. $b\in R^\times$.
+> 2. Let $p$ be a prime. Then, $(p)\neq R$ and let $ab\in (p)$, i.e. $ab=pr$ for some $r\in R$. Then, $p|ab$ and either $p|a$ or $p|b$, which means $a\in (p)$ or $b\in (p)$.
 >    
->    Conversely, let $(p)\subseteq R$ be a prime ideal. Then, $(p)\neq R$ and therefore, $p\notin R^{*}$. Suppose $p|ab$. Then, $ab\in (p)$ and therefore, $a\in (p)$ or $b\in (p)$. Therefore, $p|a$ or $p|b$.
-> 3.  Let $a,b\in R$ and $d,d'\in R$ be the gcds of $a$ and $b$. Then, by the definition, $d|d'$ and $d'|d$. Therefore, there exists $r,r'\in R$ s.t. $$d=d'r'=drr'$$Therefore, $d(1-rr')=0$ and $r,r'\in R^{*}$, i.e. $d\sim d'$.
-- **Remark**: In $\mathbb{Z}$, $n\in \mathbb{Z}$ is prime if and only if $n$ is irreducible.
-- **Remark**: Generally irreducible elements are not prime, e.g. $2\in \mathbb{Z}[\sqrt{ 5 }]$ is irreducible but not prime as $2\cdot 3 =(1+\sqrt{ 5 })(1-\sqrt{ 5 })$.
+>    Conversely, let $(p)\unlhd R$ be a prime ideal. Then, $(p)\neq R$ and $p\notin R^\times$. Now, for $a,b\in R$, s.t. $p|ab$, we have $ab\in (p)$ and $a\in (p)$ or $b\in (p)$. Therefore, $p|a$ or $p|b$.
+> 3. Let $a,b\in R$ and $d,d'\in R$ be the gcds of $a$ and $b$. Then, by the definition, $d|d'$ and $d'|d$. Therefore, there exists $r,r'\in R$ s.t. $d=d'r=dr'r$. Therefore, $d(1-r'r)=0$ and $1=r'r$ which means that $r,r'\in R^\times$, i.e. $d\sim d'$.
+
+- **Remark**: Generally irreducible elements are not prime, e.g. $2\in \mathbb{Z}[\sqrt{- 5 }]$ is irreducible but not prime as $2\cdot 3 =(1+\sqrt{ -5 })(1-\sqrt{- 5 })$.
 - **Remark**: If $R$ is not an integral domain, then prime does not imply irreducibility in general, e.g. $R=\mathbb{Z} /6\mathbb{Z}$ and $2$ is prime but not irreducible as $2=2\cdot{4}$.
 ---
 > [!lemma] Proposition 3
