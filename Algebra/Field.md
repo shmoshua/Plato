@@ -6,14 +6,15 @@
 > 2. **Distributivity**: for all $a,b,c\in F$: $$a(b+c)=ab+ac\quad \text{and}\quad (a+b)c=ac+bc$$
 ---
 ##### Properties 
-> [!lemma] Proposition 1
-> Let $R$ be a commutative, non-trivial ring, then $R$ is a field if and only if the only ideals in $R$ are $(0)$ and $R$.
+> [!lemma] Proposition 1 (Equivalent Definitions of Fields)
+> Let $R$ be a commutative, non-trivial ring, then TFAE:
+> 1. $R$ is a field.
+> 2. the only ideals in $R$ are $(0)$ and $R$.
 
-> [!proof]-
-> - (=>): Let $\mathfrak{a}\neq(0)$ be an ideal in $R$. Then, there exists $x\in \mathfrak{a}$ with $x\neq 0$. As $x^{-1}\in R$ (as $R$ is a field), $1_{R}=x^{-1}x\in \mathfrak{a}$. Therefore, $\mathfrak{a}=R$.
-> - (<=): Let $(0)$ and $R$ be the only ideals. Now, we will show that $R^{*}=R \backslash \{ 0 \}$.  
->   Let $a\in R$ for $a\neq 0$. We have that $(a)\neq (0)$. Therefore, $(a)=R$.
->   This means, there exists $r\in R$ s.t. $ra=1$, as $$(a)=\{ ra:r\in R \}$$Therefore, $r=a^{-1}\in R$ and $R$ is a field.
+> [!proof]+
+> We have:
+> 1. (1=>2): Let $I\unlhd R$ be a non-zero ideal and $a\in I$ be the non-zero element. Then, as $R$ is a field $a^{-1}\in R$ and $a^{-1}a=1\in I$. Therefore, $I=R$.
+> 2. (2=>1): Let $R$ and $(0)$ be the only ideals in $R$. We will show that $R$ is a division ring. Let $a\in R$. Then, $(a)\neq(0)$ and therefore, $(a)=R$. Hence, there exists $r\in R$ s.t. $ra=1$ since $$(a)=\{ ra:r\in R \}$$Therefore, $r=a^{-1}\in R$ and $R$ is a field.
 ---
 > [!lemma] Proposition 2
 > A field $(F,+,\cdot)$ is **cancellative**, i.e. for $a,b,c\in F$, if $a\neq 0$, then:$$ ab=ac\quad \Longrightarrow \quad b=c$$

@@ -11,14 +11,10 @@
 > 1. $R / I$ is an integral domain.
 > 2. $I\neq R$ and if $ab\in I$ then $a\in I$ or $b\in I$ for all $a,b\in R$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. (1=>2): If $R / I$ is an integral domain, $R / I\neq(0)$ and therefore, $I \neq R$. Further, for $a,b\in R$ with $ab\in I$, we have that: $$(a)$$
->[!proof]+
-> (=>): If $\mathfrak{p}$ is a prime ideal, then $R / \mathfrak{p}$ is an integral domain. Therefore, $R / \mathfrak{p}\neq \{ 0 \}$ which means that $\mathfrak{p}\neq R$. Now let $a,b\in R$ s.t. $$a\cdot b\in \mathfrak{p}$$
-> Then, $\overline{0}=\overline{a\cdot b}=\overline{a}\cdot \overline{b}$ and as $R / \mathfrak{p}$ is an integral domain, $\overline{a}=\overline{0}$ or $\overline{b}=\overline{0}$. In any case, $$a\in \mathfrak{p}\lor b\in\mathfrak{p}$$
-> 
-> (<=): Let $\overline{a},\overline{b}\in R / \mathfrak{p}$ with $a\cdot b\in \mathfrak{p}$. Then, $\overline{a}=\overline{0}$ or $\overline{b}=\overline{0}$. Therefore, $R / \mathfrak{p}$ is a integral domain.
+> 1. (1=>2): If $R / I$ is an integral domain, $R / I\neq(0)$ and therefore, $I \neq R$. Further, for $a,b\in R$ with $ab\in I$, we have that: $$(a+I)(b+I)=(ab+I)=I$$Therefore, $(a+I)=I$ or $(b+I)=I$, which proves the statement.
+> 2. (2=>1): From $I\neq R$, $R / I\neq(0)$. Let $(a+I)(b+I)=I$. Then, $ab\in I$ and $a\in I$ or $b\in I$. Therefore, $R / I$ is an integral domain.
 ---
 > [!lemma] Proposition 2
 > Let $R,S$ be commutative rings, $\varphi:R\to S$ a [[Ring Homomorphism|ring homomorphsim]] and $\mathfrak{p}\subseteq S$ a prime ideal in $S$. Then, $\varphi ^{-1}[\mathfrak{p}]\subseteq R$ is a prime ideal in $R$.
