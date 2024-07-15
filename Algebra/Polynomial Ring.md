@@ -56,26 +56,30 @@
 > 3. Let $a$ and $b$ be the leading coefficients of $p$ and $q$ respectively. If $ab\neq 0$, then $\text{deg}(pq)= \text{deg}(p)+\text{deg}(q)$
 ---
 > [!lemma] Theorem 5 (Euclidean Algorithm)
-> Let $p,q\in R[X]$, where $q\neq 0$ with leading coefficient $b_{m}$. Then, there exists $s,r\in R[X]$ with $\text{deg}(r)<\text{deg}(q)$ and $k\in \mathbb{N}$ s.t. $$b_{m}^k\cdot p=s\cdot q+r$$
+> Let $f,g\in R[X]$, where $g\neq 0$ with leading coefficient $b_{m}$. Then, 
+> 1. there exists $q,r\in R[X]$ with $\text{deg}(r)<\text{deg}(g)$ and $k\in \mathbb{N}$ s.t. $$b_{m}^k\cdot f=q\cdot g+r$$
+> 2. if $R$ is a field, there exists $q,r\in R[X]$ with $\deg(r)<\deg(g)$ with $f=q\cdot g+r$.
 
 > [!proof]-
-> Proof with induction over $\text{deg}(p)=:n$.
-> 1. If $\text{deg}(p)<\text{deg}(q)$, then: $$b_{m}^0\cdot p=p=0\cdot q+p$$
-> 2. If $\text{deg}(p)\geq \text{deg}(q)=:m$, then:$$\begin{align}p_{1}&:=b_{m}\cdot p-a_{n}X^{n-m}q\\&=b_{m}\cdot a_{0}+b_{m}a_{1}X+\dots+\cancel{ b_{m}a_{n}X^n }-a_{n}b_{0}X^{n-m}-a_{n}b_{1}X^{n-m+1}-\dots-\cancel{ a_{n}b_{m}X^{n} }\end{align}$$Therefore, $\text{deg}(p_{1})<\text{deg}(p)$. Therefore, from induction hypothesis, there exists $s_{1},r_{1}\in R[X]$ with $\text{deg}(r_{1})<\text{deg}(q)$ and $k_{1}\in \mathbb{N}$ s.t. $$b_{m}^{k_{1}}\cdot p_{1}=s_{1}\cdot q+r_{1}$$Indeed,
-> 	$$s_{1}\cdot q+r_{1}=b_{m}^{k_{1}}\cdot p_{1}=b_{m}^{k_{1}+1}\cdot p-b_{m}^{k_{1}}a_{m}X^{n-m}q$$Therefore, by $k:=k_{1}+1$, $$b_{m}^k\cdot p=\underbrace{ \left( b^{k_{1}}_{m}a_{m}X^{n-m}+s_{1} \right) }_{ =:s } q+r_{1}=s\cdot q+r$$with $r_{1}=r$. 
+> We have:
+> 1. Proof with induction over $\text{deg}(f)=:n$.
+> 	1. If $\deg(f)<\deg(g)$, then, $b^0_{m}\cdot f=f=0\cdot q+f$.
+> 	3. If $\text{deg}(f)\geq \text{deg}(g)=:m$, then let:$$\begin{align}f_{1}&:=b_{m}\cdot f-a_{n}x^{n-m}g\\&=b_{m}\cdot a_{0}+b_{m}a_{1}X+\dots+\cancel{ b_{m}a_{n}X^n }-a_{n}b_{0}X^{n-m}-a_{n}b_{1}X^{n-m+1}-\dots-\cancel{ a_{n}b_{m}X^{n} }\end{align}$$Therefore, $\text{deg}(f_{1})<\text{deg}(f)$. Therefore, from induction hypothesis, there exists $q_{1},r_{1}\in R[X]$ with $\text{deg}(r_{1})<\text{deg}(g)$ and $k_{1}\in \mathbb{N}$ s.t. $$b_{m}^{k_{1}}\cdot f_{1}=q_{1}\cdot g+r_{1}$$Indeed,
+> 	$$q_{1}\cdot g+r_{1}=b_{m}^{k_{1}}\cdot f_{1}=b_{m}^{k_{1}+1}\cdot f-b_{m}^{k_{1}}a_{m}x^{n-m}g$$Therefore, by $k:=k_{1}+1$, $$b_{m}^k\cdot f=\underbrace{ \left( b^{k_{1}}_{m}a_{m}x^{n-m}+q_{1} \right) }_{ =:q } g+r_{1}=q\cdot g+r$$with $r_{1}=r$. 
+> 2. If $R$ is a field, as $b_{m}\neq 0$, we have $c:=b_{m}^{-1}\in R$ and: $$f=(c^k\cdot q)g+(c^k\cdot r)$$with $\deg(c^k\cdot r)=\deg(c^k)+\deg(r)=\deg(r)<\deg(g)$. It is also unique as if $q',r'$ also satisfy it, then: $$(q'-q)g+(r'-r)=0$$and as $\deg((q'-q)g)=\deg(q'-q)+\deg(g)$ and $\deg(g)>\deg(r)>\deg(r'-r)$, we have that $(q'-q)=0$. Consequently, we have that $r'=r$.
 ---
 > [!lemma] Corollary 6
-> For $p\in R[X]$ and $a\in R$,
-> 1. there exists a uniquely determined $s\in R[X]$ s.t. $$p=s(X-a)+p(a)$$
-> 2. $(X-a)|p \iff p(a)=0$
+> For $f\in R[X]$ and $a\in R$,
+> 1. there exists a uniquely determined $q\in R[X]$ s.t. $f(x)=q(x)(x-a)+f(a)$.
+> 2. $(x-a)|f \iff f(a)=0$.
 
-> [!proof]-
+> [!proof]+
 > We show that:
-> 1. Existence of $s$: Let $q=X-a$. Then, $\text{deg}(q)=1$ and the leading coefficient is $b_{1}=1$. Therefore, from the Euclidean algorithm, there exists $s,r\in R[X]$ s.t. $$p=s\cdot (X-a)+r$$where $\text{deg}(r)<1$ ($r=0$ or $\text{deg}(r)=0$).
+> 1. **Existence of $q$**: Let $g(x):=x-a$. Then, $\text{deg}(g)=1$ and the leading coefficient is $b_{1}=1$. Therefore, from the Euclidean algorithm, there exists $s,r\in R[X]$ s.t. $$f(x)=s(x) (x-a)+r(x)$$where $\text{deg}(r)<1$ ($r=0$ or $\text{deg}(r)=0$).
 > 
-> 	By plugging in, we have: $$p(a)=s(a)(a-a)+r(a)=r(a)$$
-> 	However, as $r\in R$, we have that $p=s(X-a)+p(a)$.
-> 2. Uniqueness of $s$: Let $\tilde{s}\in R[X]$ s.t. $p=\tilde{s}(X-a)+p(a)$. Then, $$(X-a)(\tilde{s}-s)=0$$Therefore, $s=\tilde{s}$.
+> 	By plugging in, we have: $$f(a)=s(a)(a-a)+r(a)=r(a)$$
+> 	However, as $r\in R$, we have that $f(x)=q(x)(x-a)+f(a)$.
+> 2. **Uniqueness of $q$**: Let $q'\in R[X]$ s.t. $f(x)=q'(x)(X-a)+p(a)$. Then, $$(X-a)(\tilde{s}-s)=0$$Therefore, $s=\tilde{s}$.
 > 3. Follows from 1 and 2.
 ---
 > [!lemma] Lemma 7
