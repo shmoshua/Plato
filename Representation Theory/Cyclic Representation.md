@@ -7,7 +7,7 @@
 > [!lemma] Proposition 1
 > Let $V\neq 0$ be a representation of $A$. 
 > 1. $V$ is irreducible if and only if all non-zero vectors of $V$ are cyclic.
-> 2. $V$ is cyclic if and only if it is isomorphic to $A / I$ where $I$ is a [[Ideal|left ideal]] in $A$.
+> 2. $V$ is cyclic if and only if it is isomorphic to $A / I$ where $I$ is a [[Ideal (Ring)|left ideal]] in $A$.
 
 > [!proof]-
 > We have:

@@ -1,7 +1,7 @@
 #Definition #Algebra  #LST 
 
 > [!definition]
-> A structure $(F,+,\cdot)$ is a ***field*** if: 
+> A structure $(F,+,\cdot)$ is a ***field*** if it is a commutative [[Unit|division ring]], i.e.: 
 > 1. $(F,0,+)$ and $(F \backslash \{ 0 \},1,\cdot)$ are [[abelian group|abelian groups]].
 > 2. **Distributivity**: for all $a,b,c\in F$: $$a(b+c)=ab+ac\quad \text{and}\quad (a+b)c=ac+bc$$
 ---
@@ -42,11 +42,17 @@
 > As a field $F$ only has $(0)$ and $F$ as ideals, $\text{ker }\varphi$ has to be one of the two. However, $\varphi(1)\neq 0$ and therefore $\text{ker }\varphi=(0)$. 
 ---
 ##### Examples
-- $\mathbb{Q},\mathbb{R},\mathbb{C}$
-- $\mathbb{Z} / p\mathbb{Z}$ for $p$ prime.
-- $(\mathbb{R},+,\cdot)$ is a field.
-- $(\mathbb{R}^{n\times n},+,\cdot)$ is not a field as [[Singular Matrices|singular matrices]] have no inverse.
-- $(\mathbb{R}[s],+,\cdot)$ is not a field, because a multiplicative inverse of a polynomial is not a polynomial.
-- $(\mathbb{R}(s),+,\cdot)$ is a field.
-
+> [!h] Example 1 (Basic Examples)
+> We have:
+> 1. $\mathbb{Q},\mathbb{R},\mathbb{C}$ are fields.
+> 2. $\mathbb{Z} / p\mathbb{Z}$ for $p$ prime is a field.
+> 4. $(\mathbb{R}(s),+,\cdot)$ is a field.
 ---
+##### Non-Examples
+> [!h] Non-Example 1 (Basic Non-Examples)
+> We have:
+> 1. $\mathbb{Z}$ is not a field.
+> 2.  $(\mathbb{R}[x],+,\cdot)$ is not a field, because a multiplicative inverse of a polynomial is not a polynomial.
+---
+> [!h] Non-Example 2 (Quaternions)
+> The [[Quaternion|quaternions]] are a non-commutative division ring.

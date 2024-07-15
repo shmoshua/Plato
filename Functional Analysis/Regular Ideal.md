@@ -1,6 +1,6 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
-> Let $A$ be a commutative [[Banach Algebra]]. An [[ideal]] $I\subseteq A$ is ***regular***, if there exists $u\in A$ s.t. $$ux-x\in I,\quad\forall x\in A$$where $u$ is called a ***unit modulo $I$.***
+> Let $A$ be a commutative [[Banach Algebra]]. An [[Ideal (Ring)]] $I\subseteq A$ is ***regular***, if there exists $u\in A$ s.t. $$ux-x\in I,\quad\forall x\in A$$where $u$ is called a ***unit modulo $I$.***
 - **Equivalent definition**: $I$ is regular if either $I=A$ or $I\subsetneq A$ and $A / I$ is [[C-Algebra|unital]] as: $$(x+I)(u+I)=xu+I=ux-ux+x+I=x+I$$
 ---
 ##### Properties

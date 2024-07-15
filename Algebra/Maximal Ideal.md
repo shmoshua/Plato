@@ -1,6 +1,6 @@
 #Definition #Algebra
 > [!definition]
-> For a commutative [[Ring|ring]] $R$, an [[ideal]] $\mathfrak{m}\subseteq R$ is ***maximal***, if $\mathfrak{m}\neq R$ and there exists no ideal $\mathfrak{a}$ s.t. $$\mathfrak{m}\subsetneq\mathfrak{a}\subsetneq R$$
+> For a commutative [[Ring|ring]] $R$, an [[Ideal (Ring)]] $\mathfrak{m}\subseteq R$ is ***maximal***, if $\mathfrak{m}\neq R$ and there exists no ideal $\mathfrak{a}$ s.t. $$\mathfrak{m}\subsetneq\mathfrak{a}\subsetneq R$$
 - **Remark**: every maximal ideal is a [[prime ideal]]. 
 ---
 ##### Properties

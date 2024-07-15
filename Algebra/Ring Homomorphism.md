@@ -9,7 +9,7 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1
-> Let $\varphi:R \to S$ be a ring homomorphism and $\mathfrak{a}\subseteq R$ an [[ideal]] s.t. $\mathfrak{a}\subseteq \text{ker}(\varphi)$.  Then, there exists a unique ring homomorphism $\overline{\varphi}: R / \mathfrak{a}\to S$ s.t.  
+> Let $\varphi:R \to S$ be a ring homomorphism and $\mathfrak{a}\subseteq R$ an [[Ideal (Ring)]] s.t. $\mathfrak{a}\subseteq \text{ker}(\varphi)$.  Then, there exists a unique ring homomorphism $\overline{\varphi}: R / \mathfrak{a}\to S$ s.t.  
 >
 > ```tikz 
 > \usepackage{tikz-cd} \usepackage{amsfonts} 
@@ -33,7 +33,7 @@
 
 ---
  > [!lemma] Theorem 2 (First isomorphism theorem)
- > Let $R$ be a ring, $S\subseteq R$ a subring and $\mathfrak{a}\subseteq R$ an [[ideal]]. Then, $$S+\mathfrak{a}:=\{ x+a:x\in S,a\in\mathfrak{a} \}$$is a subring of $R$ that contains $\mathfrak{a}$ as ideal and it holds that: $$S / S \cap \mathfrak{a}\cong (S+\mathfrak{a}) / \mathfrak{a}$$
+ > Let $R$ be a ring, $S\subseteq R$ a subring and $\mathfrak{a}\subseteq R$ an [[Ideal (Ring)]]. Then, $$S+\mathfrak{a}:=\{ x+a:x\in S,a\in\mathfrak{a} \}$$is a subring of $R$ that contains $\mathfrak{a}$ as ideal and it holds that: $$S / S \cap \mathfrak{a}\cong (S+\mathfrak{a}) / \mathfrak{a}$$
 
 > [!proof]-
 > We show that: 
@@ -52,7 +52,7 @@ $$\begin{array}{cccccc}\varphi:&S&\xhookrightarrow{}&S+\mathfrak{a}&\xrightarrow
 
 ---
 > [!lemma] Theorem 3 (Second isomorphism theorem)
-> For rings $R,S$ and a surjective homomorphism $\varphi:R\to S$, let $\mathfrak{a}\subseteq R$ be an [[ideal]] with $\text{ker}(\varphi) \subseteq \mathfrak{a}$. Then, $$R / \mathfrak{a}\cong S / \varphi[\mathfrak{a}]$$
+> For rings $R,S$ and a surjective homomorphism $\varphi:R\to S$, let $\mathfrak{a}\subseteq R$ be an [[Ideal (Ring)]] with $\text{ker}(\varphi) \subseteq \mathfrak{a}$. Then, $$R / \mathfrak{a}\cong S / \varphi[\mathfrak{a}]$$
 
 > [!proof]-
 > We show that:

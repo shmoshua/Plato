@@ -1,7 +1,7 @@
 #FunctionalAnalysis #Roadmap 
 
 ##### 1. Banach Algebras: Definitions and Examples
-1. [[C-Algebra|$\mathbb{C}$-algebra]] and [[Ideal]]
+1. [[C-Algebra|$\mathbb{C}$-algebra]] and [[Ideal (Ring)]]
 3. [[Banach Algebra]]
 4. [[C*-Algebra|Involutive Banach Algebra]] and [[C*-Algebra]]
 5. **Example of a C\*-Algebra**: [[C*-Algebra|$C_{b}(X)$]] and [[C*-Algebra|$C_{0}(X)$]] for $X$ locally compact Hausdorff.

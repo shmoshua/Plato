@@ -12,7 +12,7 @@
 4. [[Representation Homomorphism|Schur's Lemma]]
 
 **1.3 Ideals and Quotients**
-1. [[Ideal]] as subrepresentations
+1. [[Ideal (Ring)]] as subrepresentations
 2. [[Representation|Quotient Representation]]
 3. [[Cyclic Representation]]
 

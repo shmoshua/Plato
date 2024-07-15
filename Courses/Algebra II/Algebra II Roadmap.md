@@ -1,15 +1,17 @@
 #Algebra #Roadmap 
 
 ##### 0. Recap
-
-1. [[Ideal|Chinese Remainder Theorem]]
-1. [[Quotient Field]]
-2. [[Prime Ideal]]
-3. [[Maximal Ideal]]
-4. [[Characteristic]]
-5. [[Prime Ring]] and [[Prime Field]]
-6. [[Polynomial Ring]]
-7. [[Polynomial Ring]] of a [[Field]]
+1. **Recap:** [[Ring]]s, [[Unit]]s and division rings.
+2. **Recap**: [[Field]]s, [[Integral Domain]]s
+3. **Recap**: [[Ideal (Ring)]]s, [[Quotient Ring]]s
+4. [[Ideal (Ring)|Chinese Remainder Theorem]]
+5. [[Quotient Field]]
+6. [[Prime Ideal]]
+7. [[Maximal Ideal]]
+8. [[Characteristic]]
+9. [[Prime Ring]] and [[Prime Field]]
+10. [[Polynomial Ring]]
+11. [[Polynomial Ring]] of a [[Field]]
 ---
 ##### 1. Euclidean Domains, Principal Ideal Domains, Unique Factorization Domains
 1. [[Euclidean Domain]]

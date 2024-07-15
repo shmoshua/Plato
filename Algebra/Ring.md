@@ -35,9 +35,11 @@
 >	and $$a(-b)=-(ab)+ab+a(-b)=-(ab)+a(b+(-b))=-(ab)+a0=-(ab)+0=-(ab)$$
 ----
 ##### Examples
-1. $\mathbb{Z},\mathbb{Q},\mathbb{R},\mathbb{C}$
-2. $\text{Mat}(n,\mathbb{R})$ for $n\geq 2$
-3. $\mathbb{Z}/n\mathbb{Z}$ for $n\in \mathbb{Z}$.
-- $(\mathbb{R}[s],+,\cdot)$ is a commutative ring.
-- $(\mathbb{R}(s),+,\cdot)$, the set of rational functions of $s$ with real coefficients, is a commutative ring.
+> [!h] Example 1 (Basic Examples)
+> We have:
+> 1. $\mathbb{Z},\mathbb{Q},\mathbb{R},\mathbb{C}$ are rings.
+> 2. $\text{Mat}_{n,n}(\mathbb{R})$ for $n\geq 1$ are non-commutative rings. 
+> 3. $\mathbb{Z} / n\mathbb{Z}$ for $n\in \mathbb{Z}$ is a commutative ring. 
+> 4. $(\mathbb{R}[z],+,\cdot)$ is a commutative ring.
+> 5. $(\mathbb{R}(z),+,\cdot)$, the set of rational functions of $s$ with real coefficients, is a commutative ring.
 ---

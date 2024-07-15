@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+                "file": "Algebra/Ideal (Ring).md",
                 "mode": "source",
                 "source": true
               }
@@ -23,12 +23,15 @@
             "id": "056d7a88942faf6d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Quaternion.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -40,13 +43,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Local Diffeomorphism.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1a35a5dca0297dc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Ideal (Ring).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9d3bc5626aa12df1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Ideal (Ring).md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4c865b9cc5ecf1bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Integral Domain.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d34b98375b6dc78c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Subring.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "40d1a19639e346cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Quaternion.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,6 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algebra/Ideal (Ring).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algebra/Ideal (Ring).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +215,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algebra/Ideal (Ring).md"
+              }
             }
           }
         ]
@@ -170,15 +238,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "056d7a88942faf6d",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Subring.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Ring.md",
+    "Algebra/Field.md",
+    "Algebra/Quaternion.md",
+    "Algebra/Unit.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Isometry.md",
     "Lie Group/Integral Curve.md",
     "Analysis/Lie Derivative.md",
     "Lie Group/Flow.md",
     "Differential Geometry/Vector Field.md",
-    "Differential Geometry/Local Diffeomorphism.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Lie Bracket.md",
@@ -190,14 +266,6 @@
     "Analysis/Pushforward Measure.md",
     "Topology/Second Countable Space.md",
     "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Smooth Function.md",
-    "Topology/Compact Space.md",
-    "Differential Geometry/Differential Operator.md",
-    "Controls/Ordinary Differential Equation.md",
-    "Differential Geometry/Local Operator.md",
-    "Differential Geometry/Immersion.md",
-    "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Submersion.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

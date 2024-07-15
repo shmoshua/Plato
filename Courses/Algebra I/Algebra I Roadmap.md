@@ -67,11 +67,11 @@
 9. [[Direct Sum]]
 ---
 ##### 10. Ideals and Homomorphisms
-1. [[Ideal]]
+1. [[Ideal (Ring)]]
 2. [[Quotient Ring]]
 3. [[Principal Ideal Domain]]
 4. [[Ring Homomorphism|Ring Isomorphism Theorems]]
-5. [[Ideal|Chinese Remainder Theorem]]
+5. [[Ideal (Ring)|Chinese Remainder Theorem]]
 6. [[Prime Ring]]
 7. [[Prime Field]]
 ---

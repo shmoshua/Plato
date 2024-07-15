@@ -1,7 +1,7 @@
 #Definition #Algebra
 
 > [!definition]
-> For a [[Ring|ring]] $R$ and an [[Ideal|ideal]] $\mathfrak{a}\subseteq R$, $R / \mathfrak{a}$ is the ***quotient ring*** of $R$ w.r.t. $\mathfrak{a}$. 
+> For a [[Ring|ring]] $R$ and an [[Ideal (Ring)|ideal]] $\mathfrak{a}\subseteq R$, $R / \mathfrak{a}$ is the ***quotient ring*** of $R$ w.r.t. $\mathfrak{a}$. 
 > 
 > We say that for $a,b\in R$, $a$ and $b$ are ***congruent modulo $\mathfrak{a}$***, i.e. $a\equiv b\mod \mathfrak{a}$, if $a-b\in \mathfrak{a}$. Then, $$\overline{a}:=\{ b\in R:a\equiv b\mod \mathfrak{a} \}=a+\mathfrak{a}$$is called the ***rest classes***.
 ---

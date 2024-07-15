@@ -2,7 +2,7 @@
 
 > [!definition]
 > Let $R$ be a [[Ring|ring]]. A set $S\subseteq R$ is a ***subring*** of $R$, if:
-> 1. $S\leq R$, i.e. $S$ is a subgroup of $R$ and
+> 1. $(S,+)\leq (R,+)$, i.e. $S$ is an additive subgroup of $R$ and
 > 3. $S$ is closed under multiplication.
 - **Related Definition**: For a commutative ring $S$, a subring $R\subseteq S$ and $s_{0}\in S$, we define $R[s_{0}]$ as the smallest subring that contains $R$ and $s_{0}$. (However, generally this is not a [[polynomial ring]]).
 - **Remark**: The subring need not have the same multiplicative identity as the ring:  e.g

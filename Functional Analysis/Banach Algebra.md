@@ -28,7 +28,7 @@
 > Hence, $T$ is bounded and, there exists $K>0$ s.t. $$\left\| xy \right\| \leq \left\| M_{x} \right\| \left\| y \right\| \leq K\|x\|\|y\|$$Further, for the unit $e\in A$, $\left\| R_{e} \right\|=1\leq \|e\|$. Therefore, $K\geq 1$. Now, let $\|x\|_{\text{new}}=K\|x\|$. Then, $$\left\| xy \right\| _{\text{new}}=K\left\| xy \right\| \leq K^{2}\|x\|\|y\|=\|x\|_{\text{new}}\|y\|_{\text{new}}$$and $(A,\|\cdot\|_{\text{new}})$ is Banach as the norms are equivalent. 
 ---
 > [!lemma] Proposition 3
-> Let $A$ be a Banach algebra and $I\subseteq A$ a closed [[ideal]]. Then, the quotient Banach space $A / I$ together with the quotient $\mathbb{C}$-algebra structure is a Banach algebra.
+> Let $A$ be a Banach algebra and $I\subseteq A$ a closed [[Ideal (Ring)]]. Then, the quotient Banach space $A / I$ together with the quotient $\mathbb{C}$-algebra structure is a Banach algebra.
 
 > [!proof]-
 > We have that:

@@ -17,5 +17,5 @@
 >    The associativity, commutativity and distributivity all follows from that of $\mathbb{R}$.
 ---
 > [!lemma] Proposition 2
-> Consider: $$C_{p}^\infty(M)_{0}:=\{ [(U,f)]\subseteq C_{p}^\infty(M):f(p)=0 \}$$Then, $C_{p}^\infty(M)_{0}\subseteq C_{p}^\infty(M)$ is an [[ideal]].
+> Consider: $$C_{p}^\infty(M)_{0}:=\{ [(U,f)]\subseteq C_{p}^\infty(M):f(p)=0 \}$$Then, $C_{p}^\infty(M)_{0}\subseteq C_{p}^\infty(M)$ is an [[Ideal (Ring)]].
 ---
