@@ -100,6 +100,17 @@
 > 5. If $\varphi$ is a diffeomorphism, $\varphi ^{-1}\in C^\infty(N,M)$ and $(\varphi ^{-1})^{*}:C^\infty(M)\to C^\infty(N)$ s.t. $$\varphi ^{*}\circ (\varphi ^{-1})^{*}=\text{id}_{C^\infty(M)}$$The rest is immediate by 2. 
 - **Corollary**: For a diffeomorphism $\varphi\in C^\infty(M,N)$, $\varphi_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}N)$ is a Lie algebra homomorphism by 3. 
 ---
+![[Flow#^0d5b4f]]
+![[Flow#^35997d|p]]
+
+---
+> [!lemma] Theorem 6 (Straightening Vector Fields II)
+> Let $X_{1},\dots,X_{m}\in \Gamma(\text{T}M)$ pairwisely commute, i.e. $[X_{i},X_{j}]=0$ for all $i,j\in [m]$. For $p\in M$,
+> 1. if $X_{1}(p),\dots,X_{m}(p)$ are linearly independent, there exists a chart $(U,\varphi)$ s.t. $$X_{i}|_{U}=\frac{ \partial  }{ \partial x^i },\quad \forall i\in[m] $$
+
+> [!proof]+
+> Fix $p\in M$ and we define: $$\Psi:V\subseteq \mathbb{R}^m\to M,\quad(t_{1},\dots,t_{m})\mapsto(\Phi^{t_{1}}_{X_{1}}\circ \Phi^{t_{2}}_{X_{2}}\circ \dots \circ \Phi^{t_{m}}_{X_{m}})(p)$$which is smooth, where $V$ is the open set where the local flows are defined. Then, we have that: $$\left. \frac{ \partial \Psi }{ \partial t^i }  \right|_{t=0}= (d\Phi^{t_{1}}_{X_{1}}\circ \dots \circ d\Phi^{t_{i-1}}_{X_{i-1}})(X_{(\Phi^{t_{i+1}}_{X_{i+1}}\circ \dots \circ \Phi^{t_{m}}_{X_{m}})(p)})$$
+---
 ###### Vector Fields in Rn
 > [!lemma] Proposition 1
 > Let $M\subseteq \mathbb{R}^n$. Then, 
