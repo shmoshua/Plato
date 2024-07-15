@@ -109,7 +109,11 @@
 > 1. if $X_{1}(p),\dots,X_{m}(p)$ are linearly independent, there exists a chart $(U,\varphi)$ s.t. $$X_{i}|_{U}=\frac{ \partial  }{ \partial x^i },\quad \forall i\in[m] $$
 
 > [!proof]+
-> Fix $p\in M$ and we define: $$\Psi:V\subseteq \mathbb{R}^m\to M,\quad(t_{1},\dots,t_{m})\mapsto(\Phi^{t_{1}}_{X_{1}}\circ \Phi^{t_{2}}_{X_{2}}\circ \dots \circ \Phi^{t_{m}}_{X_{m}})(p)$$which is smooth, where $V$ is the open set where the local flows are defined. Then, we have that: $$\left. \frac{ \partial \Psi }{ \partial t^i }  \right|_{t=0}= (d\Phi^{t_{1}}_{X_{1}}\circ \dots \circ d\Phi^{t_{i-1}}_{X_{i-1}})(X_{(\Phi^{t_{i+1}}_{X_{i+1}}\circ \dots \circ \Phi^{t_{m}}_{X_{m}})(p)})$$
+> Fix $p\in M$ and we define: $$\Psi:V\subseteq \mathbb{R}^m\to M,\quad(t_{1},\dots,t_{m})\mapsto(\Phi^{t_{1}}_{X_{1}}\circ \Phi^{t_{2}}_{X_{2}}\circ \dots \circ \Phi^{t_{m}}_{X_{m}})(p)$$which is smooth, where $V$ is the open set where the local flows are defined. Then, we have that: 
+> 	$$\begin{align}d\Psi \left( \left. \frac{ \partial  }{ \partial t^i }  \right| _{t} \right)f &= \left. \frac{ \partial  }{ \partial t^i }  \right| _{t}f(\Psi(t^1,\dots,t^m))\\&= \left. \frac{ \partial  }{ \partial t^i }  \right| _{t}f((\Phi^{t_{1}}_{X_{1}}\circ \Phi^{t_{2}}_{X_{2}}\circ \dots \circ \Phi^{t_{m}}_{X_{m}})(p))\\&=X_{i}((\Phi^{t_{1}}_{X_{1}}\circ \Phi^{t_{2}}_{X_{2}}\circ \dots \circ \Phi^{t_{m}}_{X_{m}})(p))f\end{align}$$Therefore, we have that: $d_{0}\Psi\left(\left.  \frac{ \partial  }{ \partial t^i } \right|_{0} \right)=X_{i}(p)$ and $d_{0}\Psi$ is invertible. Hence, by the inverse function theorem, there exists $W\subseteq V$ open and $U\subseteq M$ open with $p\in U$ s.t. $\Psi|_{W}:W\to U$ is a diffeomorphism. It follows that $(U,(\Phi|_{W})^{-1})$ is a chart.
+> 	
+> 	Then, $$\Psi_{*}\left( \frac{ \partial  }{ \partial t^i }  \right)=d\Psi \left(\left.  \frac{ \partial  }{ \partial t^i } \right|   \right) $$
+> 	
 ---
 ###### Vector Fields in Rn
 > [!lemma] Proposition 1
