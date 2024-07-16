@@ -55,7 +55,7 @@
 > [!lemma] Proposition 4 (Polynomials in R[X] and Quot(R)[X])
 > Let $R$ be a UFD and $f\in R[X]$ a non-constant polynomial. 
 > 1. if $f$ is irreducible in $R[X]$, $f$ is irreducible in $\text{Quot}(R)[X]$. 
-> 2. if $f$ is primitive in $R[X]$ then $f$ is irreducidble in $\text{Quot}(R)[X]$, then $f$ is irreducible in $R[X]$.
+> 2. if $f$ is primitive in $R[X]$ then $f$ is irreducible in $\text{Quot}(R)[X]$, then $f$ is irreducible in $R[X]$.
 
 > [!proof]-
 > Let $F:=\text{Quot}(R)$. 
@@ -83,20 +83,20 @@
 >  2. (2=>1): Since $R[X]$ is a UFD, the constant polynomials have to be factored uniquely. However, due to degree concerns, the factorization in $R[X]$ is a factorization in $R$.
 
 ---
-> [!lemma] Theorem 8 (Eisenstein Criteria)
-> Let $R$ be a unique factorization domain with $F:=\text{Quot}(R)$ and let: $$f(x)=a_{n}x^n+\dots+a_{1}x+a_{0}\in R[X]$$If $p$ is [[Integral Domain|prime]] in $R$ s.t. 
+> [!lemma] Theorem 6 (Eisenstein Criteria)
+> Let $R$ be a UFD and let: $f(x)=a_{n}x^n+\dots+a_{1}x+a_{0}\in R[X]$. If $p$ is [[Integral Domain|prime]] in $R$ s.t. 
 > 1. $p|a_{i}$ for all $0\leq i<n$
 > 2. $p\nmid a_{n}$
 > 3. $p^{2}\nmid a_{0}$
 >    
->  Then, $f$ is irreducible over $F[X]$. 
+>  Then, $f$ is irreducible over $\text{Quot}(R)[X]$. 
 
 > [!proof]-
-> If we define $f$ with its content, then $f=cf'$ and the assertion is valid for $f'$ as well, as $p\nmid a_{n}$ and therefore $p \nmid c$. Therefore, wlog we may assume that $f$ is primitive.
+> Let $F:=\text{Quot}(R)$. If $f$ is not primitive. Then, $f(x)=cf'(x)=c(b_{0}+b_{1}x+\dots+b_{n}x^n)$ by the decomposition and we have that from $p\nmid a_{n}$, $p\nmid c$. Therefore, $p|b_{i}$ for all $0\leq i<n$, $p\nmid b_{n}$ and $p^2\nmid b_{0}$. Moreover, if $f'$ is irreducible in $F[X]$, then $f$ is irreducible in $F[X]$ as well. 
 > 
-> Assume $f$ is reducible, i.e. $f=gh$ with $g(x)=b_{0}+b_{1}x+\dots+b_{r}x^r$ and $h(x)=c_{0}+c_{1}x+\dots+c_{s}x^s$. If $r=0$ or $s=0$, then as $f$ is primitive, $b_{0}$ or $c_{0}$ is a unit. Therefore, we can assume that $r,s\geq 1$. 
+> Hence, wlog we may assume that $f$ is primitive. Assume $f$ is reducible in $F[X]$, i.e. $f=gh$ with $g(x)=b_{0}+b_{1}x+\dots+b_{r}x^r$ and $h(x)=c_{0}+c_{1}x+\dots +c_{s}x^s$ and $0<r,s<n$. 
 > 
-> From $p|a_{0}=b_{0}c_{0}$ and $p^{2}\nmid a_{0}=b_{0}c_{0}$, we have that $p$ divides either $b_{0}$ or $c_{0}$ but not both. Assume $p|b_{0}$ and $p\nmid c_{0}$. Further, as $p\nmid a_{n}=b_{r}c_{s}$, $p\nmid b_{r}$. 
+> From $p|a_{0}=b_{0}c_{0}$ and $p^{2}\nmid a_{0}=b_{0}c_{0}$, we have that $p$ divides $b_{0}$ or $c_{0}$ but not both. Assume $p|b_{0}$ and not $c_{0}$. Further, as $p\nmid a_{n}=b_{r}c_{s}$, $p\nmid b_{r}$. 
 > 
 > Now, let $i$ be the smallest index s.t. $p\nmid b_{i}$ where $1\leq i\leq r<n$. Then, consider: $$a_{i}=b_{0}c_{i}+b_{1}c_{i-1}+\dots+b_{i-1}c_{1}+b_{i}c_{0}$$Then, as $p|a_{i}$ and $p|b_{j}c_{i-j}$ for all $j<i$, $p|b_{i}c_{0}$ and $p|c_{0}$ which is a contradiction.
 ---
