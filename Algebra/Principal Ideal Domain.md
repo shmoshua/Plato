@@ -65,6 +65,23 @@
 > 6. (4=>3): A maximal ideal is a prime ideal as $R /(x)$ is a field and hence an integral domain.
 
 ---
+> [!lemma] Theorem 4 (Ascending Chain)
+> Let $R$ be a PID. Then,
+> 1.  any ascending chain of ideals, $I_{1}\subseteq I_{2}\subseteq\dots$ , eventually become stationary, i.e. there is a positive index $n$ such that $I_{k}=I_{n}$ for all $k\geq n$. 
+
+> [!proof]+
+> We claim that $I:=\bigcup_{i\geq 1}^{}I_{i}$ is an ideal. For $a,b\in I$ with $a\in I_{i}$ and $b\in I_{j}$ with $i\geq j$, we have $b\in I_{i}$ and $a+b\in I_{i}\subseteq I$. Similarly, for any $a\in I$, $a\in I_{i}$ for some $i$ and $ra\in I_{i}$ for any $r\in R$. Therefore, $ra\in I$. 
+> 
+> Hence, as $R$ is a PID, $I=(x)$ for some $x\in R$. Let $k\geq 1$ s.t. $x\in I_{k}$. For any $n>$
+---
+> [!lemma] Theorem 5 (PIDs are UFDs)
+> Every [[principal ideal domain]] is a unique factorization domain.
+
+> [!proof]+
+> Let $R$ be a PID. Let $r\in R \backslash\{ 0 \}$ with $r\notin R^{*}$. We will now construct the factorization of $r$. 
+
+- **Remark**: $\mathbb{Z}[X]$ is a unique factorization domain, but not a principal ideal domain.
+---
 ##### Examples
 > [!h] Example 1
 > $\mathbb{Z}$ is a principal ideal domain, where every ideal has the form $\mathfrak{a}=m\mathbb{Z}$. 
