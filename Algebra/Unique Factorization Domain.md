@@ -31,29 +31,39 @@
 	2. $(X)$ is not maximal: $(X)\subsetneq(2,X)\subsetneq \mathbb{Z}[X]$ or $\mathbb{Z}[X]  / (X)\cong \mathbb{Z}$ is not a field.
 ---
 > [!lemma] Lemma 2 (Content-Primitive Decomposition)
-> Let $R$ be a UFD. Every non-constant polynomial $f\in R[X]$ can be written as $f=cg$ where:
+> Let $R$ be a UFD. Every non-constant polynomial $f\in R[X]$ can be written as $f(x)=cg(x)$ for $c\in R$ where:
 > 1. $c$ is unique up to units in $R$.
 > 2. $g$ is [[Polynomial Ring|primitive]] and unique up to units.
 > 3. $\deg f=\deg g$
 
-> [!proof]+
-> Let $f(x)=a_{0}+a_{1}x+a_{2}x^{2}+\dots+a_{n}x^n$ and let $c:=\text{c}(f)$ the content. Then, $a_{i}=cb_{i}$ for some $b_{i}\in R$ and: $$f(x)=c\cdot (b_{0}+b_{1}x+b_{2}x^{2}+\dots+b_{n}x^n)$$
+> [!proof]-
+> Let $f(x)=a_{0}+a_{1}x+a_{2}x^{2}+\dots+a_{n}x^n$ and let $c:=\text{c}(f)$ the content. Then, $a_{i}=cb_{i}$ for some $b_{i}\in R$ and: $$f(x)=c\cdot \underbrace{ (b_{0}+b_{1}x+b_{2}x^{2}+\dots+b_{n}x^n) }_{ =:g(x) }$$
 > $g(x)$ is primitive, as if there is any irreducible $r$ that divides all $b_{i}$s, then $c|cr$, which is the contradiction to the maximality of $c$.
 > 
-> For uniqueness, suppose $f(x)=dh(x)$ where $h(x)\in R[X]$ is primitive. Any irreducible factor of $c$ must divide $h(x)$ and vice versa. Therefore, $c=du$ for some $u\in R^{*}$ and $ug(x)=h(x)$ as claimed.
+> For uniqueness, suppose $f(x)=dh(x)$ where $h(x)\in R[X]$ is primitive. Any irreducible factor of $c$ must divide $h(x)$ and vice versa. Therefore, $c=du$ for some $u\in R^{\times}$ and $ug(x)=h(x)$ as claimed.
 ---
-> [!lemma] Lemma 5 (Gauss' Lemma)
-> Let $R$ be a unique factorization domain. Then, the product of two primitive polynomials in $R[X]$ is primitive.
+> [!lemma] Lemma 3 (Gauss Lemma)
+> Let $R$ be a unique factorization domain. Then, 
+> 1. if $f,g\in R[X]$ are primitive, $fg$ is primitive.
+> 2. for $f,g\in R[X]$, $\text{c}(fg)=\text{c}(f)\cdot \text{c}(g)$.
 
 > [!proof]-
-> Let $f(X)=a_{0}+a_{1}X+\dots +a_{n}X^n$ and $g(X)=b_{0}+b_{1}X+\dots+b_{m}X^m$ for $a_{n},b_{m}\neq 0$ be two primitives. Let $$h(X):=f(X)g(X)=c_{0}+c_{1}X+\dots+c_{m+n}X^{m+n}$$Let $p\in R$ be an irreducible. Then, $p$ doesn't divide all $a_{i}$s and it doesn't divide all $b_{j}$s. Let $a_{r}$ be the first coefficient not divisible by $p$. Similarly, let $b_{s}$ be the first coefficient not divisible by $p$. Then, $$c_{r+s}=(a_{0}b_{r+s}+\dots+a_{r-1}b_{s+1})+a_{r}b_{s}+(a_{r+1}b_{s-1}+\dots+a_{r+s}b_{0})$$and $p$ does not divide $a_{r}b_{s}$. Therefore, $p$ does not divide $c_{r+s}$.
+> We have:
+> 1. Let $f(x)=a_{0}+a_{1}x+\dots+a_{n}x^n$ and $g(x)=b_{0}+b_{1}x+\dots+b_{m}x^m$ with $a_{n},b_{m}\neq 0$. Then, $$h(x):=f(x)g(x)=c_{0}+c_{1}x+\dots+c_{m+n}x^{m+n}$$For an irreducible $p\in R$, $p$ doesn't divide all $a_{i}$ and all $b_{j}$. Therefore, let $a_{r}$ and $b_{s}$ be the first coefficient not divisible by $p$ respectfully. Then, $$c_{r+s}=(a_{0}b_{r+s}+\dots+a_{r-1}b_{s+1})+a_{r}b_{s}+(a_{r+1}b_{s-1}+\dots+a_{r+s}b_{0})$$and $p$ does not divide $a_{r}b_{s}$, as $p$ is prime. Therefore, $p$ does not divide $c_{r+s}$. 
+> 2. From the decomposition, we have that $f=cf'$ and $g=dg'$ for $c,d\in R$. Then, $$fg=cf'dg'=(cd)f'g'$$where $f'g'$ is primitive by 1. Hence $\text{c}(fg)=cd=\text{c}(f)\text{c}(g)$.
 ---
-> [!lemma] Proposition 6
-> Let $R$ be a unique factorization domain and $F:=\text{Quot}(R)$ the [[quotient field]] of $R$. Let $f(x)\in R[X]$ with $\deg f>0$. If $f$ is irreducible in $R[X]$, then $f$ is irreducible in $F[X]$. 
-> 
-> Moreover, if $f$ is primitive in $R[X]$ and irreducible in $F[X]$, then $f$ is irreducible in $R[X]$.
+> [!lemma] Proposition 4 (Polynomials in R[X] and Quot(R)[X])
+> Let $R$ be a UFD and $f\in R[X]$ a non-constant polynomial. 
+> 1. if $f$ is irreducible in $R[X]$, $f$ is irreducible in $\text{Quot}(R)[X]$. 
+> 2. if $f$ is primitive in $R[X]$ then $f$ is irreducidble in $\text{Quot}(R)[X]$, then $f$ is irreducible in $R[X]$.
 
-> [!proof]-
+> [!proof]+
+> Let $F:=\text{Quot}(R)$. 
+> 1. We will show that if $f$ is reducible in $F[X]$, then it is reducible in $R[X]$. If $f$ is reducible in $F[X]$, there exists $g,h\in F[X]$ with $f=gh$ and $\deg(g),\deg(h)<\deg(f)$.
+>    
+>    Then, from quotient field, there exists $d\in R$ and $g',h'\in R[X]$ s.t. $$f(x)=\frac{g'(x)h'(x)}{d}$$with $\deg g'=\deg g$ and $\deg h'=\deg h$. By Content-Primitive decomposition, there exist $g_{2},h_{2},f_{1}$ primitive and $c,c_{1},c_{2}\in R$ s.t.$$dcf_{1}(x)=df(x)=g'(x)h'(x)=c_{1}c_{2}g_{1}(x)h_{1}(x)$$ where by Gauss lemma, $g_{1}h_{1}$ is primitive as well. Looking at the contents on both sides, we get that $c_{1}c_{2}\sim dc$, i.e. $c_{1}c_{2}=dcu$ and therefore, $$dcf_{1}(x)=df(x)=dcug_{1}(x)h_{1}(x)$$From integral domain, $f$
+
+> [!proof]+
 > We will prove the contrapositive. Suppose $f(x)\in R[X]\subseteq F[X]$ is a product of lower degree polynomials in $F[X]$, i.e. $f(x)=r(x)s(x)$ for $r(x),s(x)\in F[X]$ and $\deg r<\deg f$ and $\deg s<\deg f$. 
 > 
 > Then, from quotient field, there exists $d\in R$ and $r_{1},s_{1}\in R[X]$ s.t. $$f(x)=\frac{r_{1}(x)s_{1}(x)}{d}$$with $\deg r_{1}=\deg r$ and $\deg s_{1}=\deg s$. By Lemma 4, we have $r_{2},s_{2},g\in R[X]$ primitives and $c,c_{1},c_{2}\in R$ s.t. $$df(x)=dcg(x)=c_{1}c_{2}r_{2}(x)s_{2}(x)$$where by Gauss' lemma $r_{2}s_{2}$ is primitive as well. Looking at the contents on both sides, $c_{1}c_{2}=dcu$ for some unit $u\in R$. Therefore, $$f(x)=cg(x)=cur_{2}(x)s_{2}(x)$$ This shows that $f$ is reducible. 
