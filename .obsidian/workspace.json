@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -265,10 +265,10 @@
   "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
     "Algebra/Principal Ideal Domain.md",
+    "Algebra/Unique Factorization Domain.md",
     "Algebra/Integral Domain.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Field.md",
-    "Algebra/Unique Factorization Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Prime Ideal.md",

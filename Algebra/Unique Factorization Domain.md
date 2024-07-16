@@ -57,32 +57,31 @@
 > 1. if $f$ is irreducible in $R[X]$, $f$ is irreducible in $\text{Quot}(R)[X]$. 
 > 2. if $f$ is primitive in $R[X]$ then $f$ is irreducidble in $\text{Quot}(R)[X]$, then $f$ is irreducible in $R[X]$.
 
-> [!proof]+
+> [!proof]-
 > Let $F:=\text{Quot}(R)$. 
 > 1. We will show that if $f$ is reducible in $F[X]$, then it is reducible in $R[X]$. If $f$ is reducible in $F[X]$, there exists $g,h\in F[X]$ with $f=gh$ and $\deg(g),\deg(h)<\deg(f)$.
 >    
->    Then, from quotient field, there exists $d\in R$ and $g',h'\in R[X]$ s.t. $$f(x)=\frac{g'(x)h'(x)}{d}$$with $\deg g'=\deg g$ and $\deg h'=\deg h$. By Content-Primitive decomposition, there exist $g_{2},h_{2},f_{1}$ primitive and $c,c_{1},c_{2}\in R$ s.t.$$dcf_{1}(x)=df(x)=g'(x)h'(x)=c_{1}c_{2}g_{1}(x)h_{1}(x)$$ where by Gauss lemma, $g_{1}h_{1}$ is primitive as well. Looking at the contents on both sides, we get that $c_{1}c_{2}\sim dc$, i.e. $c_{1}c_{2}=dcu$ and therefore, $$dcf_{1}(x)=df(x)=dcug_{1}(x)h_{1}(x)$$From integral domain, $f$
+>    Then, from quotient field, there exists $d\in R$ and $g',h'\in R[X]$ s.t. $$f(x)=\frac{g'(x)h'(x)}{d}$$with $\deg g'=\deg g$ and $\deg h'=\deg h$. By Content-Primitive decomposition, there exist $g_{2},h_{2},f_{1}$ primitive and $c,c_{1},c_{2}\in R$ s.t.$$dcf_{1}(x)=df(x)=g'(x)h'(x)=c_{1}c_{2}g_{1}(x)h_{1}(x)$$ where by Gauss lemma, $g_{1}h_{1}$ is primitive as well. Looking at the contents on both sides, we get that $c_{1}c_{2}\sim dc$, i.e. $c_{1}c_{2}=dcu$ and therefore, $$dcf_{1}(x)=df(x)=dcug_{1}(x)h_{1}(x)$$From integral domain, $f(x)=cug_{1}(x)h_{1}(x)$ and $f$ is reducible.
+> 2. If $f$ is primitive in $R[X]$ and $f$ is irreducible in $\text{Quot}(R)[X]$ but $f$ is reducible in $R[X]$, Then, $f(x)=g(x)h(x)\subseteq R[X]\subseteq F[X]$ where $\deg(g),\deg(h)<\deg(f)$ as $f$ is primitive. This is a contradiction to the irreducibility in $F[X]$.
 
-> [!proof]+
-> We will prove the contrapositive. Suppose $f(x)\in R[X]\subseteq F[X]$ is a product of lower degree polynomials in $F[X]$, i.e. $f(x)=r(x)s(x)$ for $r(x),s(x)\in F[X]$ and $\deg r<\deg f$ and $\deg s<\deg f$. 
-> 
-> Then, from quotient field, there exists $d\in R$ and $r_{1},s_{1}\in R[X]$ s.t. $$f(x)=\frac{r_{1}(x)s_{1}(x)}{d}$$with $\deg r_{1}=\deg r$ and $\deg s_{1}=\deg s$. By Lemma 4, we have $r_{2},s_{2},g\in R[X]$ primitives and $c,c_{1},c_{2}\in R$ s.t. $$df(x)=dcg(x)=c_{1}c_{2}r_{2}(x)s_{2}(x)$$where by Gauss' lemma $r_{2}s_{2}$ is primitive as well. Looking at the contents on both sides, $c_{1}c_{2}=dcu$ for some unit $u\in R$. Therefore, $$f(x)=cg(x)=cur_{2}(x)s_{2}(x)$$ This shows that $f$ is reducible. 
-> 
-> If $f$ is primitive and was reducible, then $f(x)=r(x)s(x)\subseteq R[X]\subseteq F[X]$ which is a contradiction.
-- For non-primitive $f\in R[X]$, $f(x)$ can be reducible in $R[X]$ and irreducible in $F[X]$, e.g. $5x\in \mathbb{Z}[X]$ and $\mathbb{Q}[X]$.
 ---
-
-> [!lemma] Lemma 7
-> Let $R$ be an integral domain. Then, $R$ is a unique factorization domain if and only if $R[X]$ is a unique factorization domain.
+> [!lemma] Theorem 5 (R and R[X] for R UFD)
+> Let $R$ be an integral domain. Then, TFAE:
+> 1. $R$ is a UFD 
+> 2. $R[X]$ is a UFD.
 
 > [!proof]-
-> We have: 
-> 1. Since $R[X]$ is a UFD, the constant polynomials have to be factored uniquely. However, due to degree concerns, the factorization in $R[X]$ is a factorization in $R$.
-> 2. Let $R$ be a UFD and let $f\in R[X]$, $f\neq 0$ and non-unit. If $\deg f=0$, we are done. Suppose $\deg f>0$. Then, $f(x)\in F[X]$. As $F$ is a field $F[X]$ is a PID, hence UFD and there exists $p_{1},\dots,p_{r}\in F[X]$ irreducibles s.t. $$f(x)=p_{1}(x)\dots p_{r}(x)$$Therefore, there exists $d\in R$ and $q_{1},\dots,q_{r}\in R[X]$ s.t. $$df(x)=q_{1}(x)\dots q_{r}(x)$$As $d$ is a unit in $F[X]$, $q_{1},\dots,q_{r}$ are irreducible in $F[X]$.  Therefore, by Lemma 4, there exists $c,c_{i}\in R$ and primitive $g,q'_{i}\in R[X]$ s.t. $$df(x)=dcg(x)=c_{1}\dots c_{r}q'_{1}(x)\dots q'_{r}(x)$$Using Gauss' lemma, there exists a unit $u\in R$ s.t. $udc=c_{1}\dots c_{r}$. Therefore, $$f(x)=cuq'_{1}(x)\dots q'_{r}(x)$$As $cu\in R$ and $R$ is a UFD, $f(x)$ can be factorized into irreducibles. 
+> We have:
+> 1. (1=>2): Let $R$ be a UFD and let $f\in R[X]$ s.t. $f\neq 0$ and non-unit. If $\deg(f)=0$, then $f\in R$ and we are done. Suppose $\deg(f)>0$. Then $f(x)\in \text{Quot}(R)[X]$. Let $F:=\text{Quot}(R)$ and as $F$ is a field, $F[X]$ is a PID and hence UFD. Therefore, there exists $p_{1},\dots,p_{r}\in F[X]$ irreducible polynomials s.t. $$f(x)=p_{1}(x)\dots p_{r}(x)$$Hence, there exists $d\in R$ and $q_{1},\dots,q_{r}\in R[X]$ s.t. $$df(x)=q_{1}(x)\dots q_{r}(x)$$
+>    As $d\in R\backslash\{ 0 \}\subseteq F \backslash\{ 0 \}$, $d$ is a unit in $F[X]$ and $q_{1},\dots,q_{r}$ are irreducible in $F[X]$. From content-primitive factorization, we have $f',q_{1}',\dots,q_{r}'\in R[X]$ primitives and $c,c_{1},\dots,c_{r}\in R$ s.t. $$dcf'(x)=c_{1}\dots c_{r}q_{1}'(x)\dots q_{r}'(x)$$where by Gauss $q'_{1}\dots q_{r}'$ is primitive as well. Hence, $dcu=c_{1}\dots c_{r}$ for some unit $u\in R$ and $f(x)=cuq'_{1}(x)\dots q_{r}'(x)$. 
 >    
->    For uniqueness, we may assume wlog that $f$ is primitive. Otherwise $f=cg$ where $c$ has a unique factorization and $g$ is primitive. Let $f=g_{1}\dots g_{r}=h_{1}\dots h_{s}$ with each irreducible in $R[X]$. As $c(f)=1$, $c(g_{i})=c(h_{j})=1$. By Proposition 6, they are also irreducible in $F[X]$. 
+>    Then, we notice that $q'_{i}$ is irreducible in $F[X]$. Otherwise, $q'_{i}(x)=a(x)\cdot b(x)$ and $q_{i}(x)=c_{i}a(x)\cdot b(x)$ is reducible. Hence, by Proposition 4.2, $q'_{1},\dots,q_{r}'$ are irreducible in $R[X]$. Further, as $cu\in R$ and $R$ is a UFD, $f(x)$ can be written be factorized into irreducibles in $R[X]$.
 >    
->    Since $F[X]$ is a UFD, $r=s$ and the factorizations are unique modulo unit multiplication and reordering. Therefore, $g_{i}=c_{i}h_{i}$ where $c_{i}=a_{i} / b_{i}$ for $a_{i},b_{i}\in R$. As $b_{i}g_{i}=a_{i}h_{i}$ and by uniqueness in Lemma 4, $ub_{i}=a_{i}$ for some $u\in R^{*}$ and $g_{i}=uh_{i}$, i.e. $g_{i}\sim h_{i}$ in $R[X]$.
+>    For uniqueness, we may assume wlog that $f$ is primitive. Otherwise $f=cg$ where $c$ has a unique factorization and $g$ is primitive. Let $f=g_{1}\dots g_{r}=h_{1}\dots h_{s}$ with each irreducible in $R[X]$. As $c(f)=1$, $c(g_{i})=c(h_{j})=1$ by Gauss. By Proposition 4.1, they are also irreducible in $F[X]$. 
+>    
+>    Since $F[X]$ is a UFD, $r=s$ and the factorizations are unique modulo unit multiplication and reordering. Therefore, $g_{i}=c_{i}h_{i}$ where $c_{i}=a_{i} / b_{i}$ for $a_{i},b_{i}\in R$. As $b_{i}g_{i}=a_{i}h_{i}$ and by uniqueness in Lemma 4, $ub_{i}=a_{i}$ for some $u\in R^{\times}$ and $g_{i}=uh_{i}$, i.e. $g_{i}\sim h_{i}$ in $R[X]$.
+>  2. (2=>1): Since $R[X]$ is a UFD, the constant polynomials have to be factored uniquely. However, due to degree concerns, the factorization in $R[X]$ is a factorization in $R$.
+
 ---
 > [!lemma] Theorem 8 (Eisenstein Criteria)
 > Let $R$ be a unique factorization domain with $F:=\text{Quot}(R)$ and let: $$f(x)=a_{n}x^n+\dots+a_{1}x+a_{0}\in R[X]$$If $p$ is [[Integral Domain|prime]] in $R$ s.t. 
