@@ -74,13 +74,25 @@
 > 
 > Hence, as $R$ is a PID, $I=(x)$ for some $x\in R$. Let $k\geq 1$ s.t. $x\in I_{k}$. For any $n\geq k$, we have that $I_{n}\subseteq I$, but also $I=(x)\subseteq I_{n}$. Therefore, $I_{n}=I$ and the chain becomes stationary. 
 ---
-> [!lemma] Theorem 5 (PIDs are UFDs)
-> Every [[principal ideal domain]] is a unique factorization domain.
+> [!lemma] Theorem 5 (PIDs and UFDs)
+> We have:
+> 1. Every [[principal ideal domain]] is a unique factorization domain.
+> 2. A UFD $R$ is a PID if and only if every non-zero prime ideal is maximal.
 
 > [!proof]-
-> Let $r\in R\backslash\{ 0 \}$ and $r\notin R^\times$. We want to show that there exist irreducible elements $r_{1},..,r_{n}$ such that $r=r_{1},\dots,r_{n}$. 
-> 
-> If $r$ is irreducible, we are done. So assume $r$ is not irreducible. Then $r=r_{1}r_{2}$ where neither $r_{1}$ nor $r_{2}$ are units. If $r_{1}$ and $r_{2}$ are irreducible, then the proof is complete. If $r_{1}$ is not irreducible, then $r_{1}=r_{11}r_{12}$, where neither $r_{11}$ nor $r_{12}$ are units. Continuing this way, we get a proper inclusion of ideals: $$(r)\subseteq(r_{1})\subseteq(r_{11})\subseteq\dots \subseteq R$$If this process finishes in a finite number of steps, the proof is complete. But, we know by Theorem 4 that this is the case.
+> We have:
+> 1. Let $r\in R\backslash\{ 0 \}$ and $r\notin R^\times$. We want to show that there exist irreducible elements $r_{1},..,r_{n}$ such that $r=r_{1},\dots,r_{n}$. 
+>   
+> 	If $r$ is irreducible, we are done. So assume $r$ is not irreducible. Then $r=r_{1}r_{2}$ where neither $r_{1}$ nor $r_{2}$ are units. If $r_{1}$ and $r_{2}$ are irreducible, then the proof is complete. If $r_{1}$ is not irreducible, then $r_{1}=r_{11}r_{12}$, where neither $r_{11}$ nor $r_{12}$ are units. Continuing this way, we get a proper inclusion of ideals: $$(r)\subseteq(r_{1})\subseteq(r_{11})\subseteq\dots \subseteq R$$If this process finishes in a finite number of steps, the proof is complete. But, we know by Theorem 4 that this is the case.
+>2. If $R$ is a PID then every non-zero prime ideal is maximal. Conversely assume the latter. We will show first that every non-zero prime ideal is principal.
+>   
+> 	  Let $I$ be a non-zero prime ideal with $r\in I$. We can write this as $r=p_{1}\dots p_{n}$ as a product of irreducibles. Then as $I$ is prime, $p_{i}\in I$ for some $i$. Then, $(p_{i})$ is prime and therefore maximal. So from $(p_{i})\subseteq I$ and $I=(p_{i})$.
+> 	  
+> 	  Let $\mathcal{N}$ now be the set of non-principal ideals. Suppose that $\mathcal{N}$ is non-empty. Then, for any ascending chain $I_{1}\subseteq I_{2}\subseteq$ in $\mathcal{N}$ let $I:=\bigcup_{i=1}^{\infty}I_{i}$. Then, $I$ is an ideal and if $I=(x)$, then $x\in I_{k}$ for some $k$. From this it holds for all $n\geq k$ that $I=(x)\subseteq I_{k}\subseteq I$, which is a contradiction as $I_{k}\in \mathcal{N}$. Hence, $I$ is not principal and $I\in \mathcal{N}$. Hence, we can use the Zorn's lemma to get a maximal element $J$. 
+> 	  
+> 	  As $J$ is not principal, it is not a prime ideal. However, as $J\neq R$, there exist $a,b\notin J$ s.t. $ab\in J$. Consider $(a)+J$ and $(b)+J$ which are ideals strictly bigger than $J$. By maximality, these are principal ideals, i.e. $(a)+J=(u)$ and $(b)+J=(v)$ for some $u,v\in R$. 
+> 	  
+> 	  Let $N:=\{ r\in R:ra\in J \}$ which is also larger than $J$ and hence principal.
 
 - **Remark**: $\mathbb{Z}[X]$ is a unique factorization domain, but not a principal ideal domain.
 ---

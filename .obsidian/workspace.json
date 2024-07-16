@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Prime Ideal.md",
+                "file": "Algebra/Ideal (Ring).md",
                 "mode": "preview",
                 "source": true
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Integral Domain.md"
+                "file": "Algebra/Principal Ideal Domain.md"
               }
             }
           }
@@ -251,11 +251,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "40d1a19639e346cb",
+  "active": "a40ad70f07cd65ec",
   "lastOpenFiles": [
-    "Algebra/Principal Ideal Domain.md",
     "Algebra/Integral Domain.md",
+    "Algebra/Ideal (Ring).md",
     "Algebra/Prime Ideal.md",
+    "Algebra/Principal Ideal Domain.md",
     "Algebra/Unit.md",
     "Algebra/Euclidean Domain.md",
     "Analysis/Euclidean Norm.md",
@@ -267,7 +268,6 @@
     "Algebra/Quaternion.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Quotient Ring.md",
-    "Algebra/Ideal (Ring).md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Prime Ring.md",
     "Algebra/Prime Field.md",
