@@ -83,10 +83,16 @@
 > 3. Follows from 1 and 2.
 ---
 > [!lemma] Lemma 7
-> A polynomial of degree 2 or 3 over a field $F$ is reducible if and only if it has a root in $F$.
+> For a field $F$ and $f\in F[X]$, 
+> 1. $f$ is irreducible if and only if $\deg(f)\geq 1$ and $f$ cannot be factored into polynomials of lower degree.
+> 2. if $\deg(f)=2,3$ then $f$ is irreducible if and only if $f$ does not have a root in $F$.
 
 > [!proof]-
-> A polynomial of degree 2 or 3 over a field $F$ is reducible if and only if the polynomial has at least one linear factor. This is equivalent to the polynomial having a root.
+> We have:
+> 1. If $f$ is irreducible but if it can be factored into polynomials of lower degree $f=gh$, then as $g,h\notin F[X]^\times$, it is a contradiction. 
+>    
+>    Conversely, if $f$ cannot be factored into polynomials of lower degree, for $f=gh$ either $g$ or $h$ is constant, in which case we have the statement.
+> 2. $f$ cannot be factored into polynomials of lower degree iff it cannot admit a root in $F$.
 ---
 ##### Examples
 > [!h] Example 1

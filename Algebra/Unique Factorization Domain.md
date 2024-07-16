@@ -5,7 +5,8 @@
 > 1. $r$ can be written as a product of [[Integral Domain|irreducibles]]: $r=s_{1}\dots s_{n}$ where the decomposition is unique up to associates and renumbering.
 - **Remark**: In a UFD $R$, $a,b\in R$ with $a=up_{1}^{e_{1}}\dots p_{n}^{e_{n}},b=vp_{1}^{f_{1}}\dots p_{n}^{f_{n}}$ with $e_{i},f_{i}\geq 0$ and $u,v\in R^{\times}$, $$\text{gcd}(a,b)=p_{1}^{\min\{ e_{1},f_{1} \}}\dots p_{n}^{\min\{ e_{n},f_{n} \}}$$However, $\text{gcd}(a,b)$ is not necessarily a linear combination of $a,b$ (compare it with [[Principal Ideal Domain|Theorem 2]])
 - **Remark**: $\mathbb{Z}[2i]$ is an integral domain that is not a UFD.
-- Related definition:
+- **Related definition**: Let $R$ be a UFD and $f\in R[X]$ with $\deg(f)\geq 1$. Then, for $f(x)=a_{0}+\dots+a_{n}x^n$, the ***content*** of $f$ is given by $\text{c}(f):=\gcd(a_{0},\dots,a_{n})$.
+- **Related definition**: If $\text{c}(f)=1$, $f$ is ***primitive***.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -29,14 +30,14 @@
 	1. $(X)$ is prime: $\mathbb{Z}[X]  / (X)\cong \mathbb{Z}$ which is an integral domain.
 	2. $(X)$ is not maximal: $(X)\subsetneq(2,X)\subsetneq \mathbb{Z}[X]$ or $\mathbb{Z}[X]  / (X)\cong \mathbb{Z}$ is not a field.
 ---
-> [!lemma] Lemma 4
-> Let $R$ be a unique factorization domain. Every non-constant polynomial $f\in R[X]$ can be written as $f=cg$ where:
+> [!lemma] Lemma 2 (Content-Primitive Decomposition)
+> Let $R$ be a UFD. Every non-constant polynomial $f\in R[X]$ can be written as $f=cg$ where:
 > 1. $c$ is unique up to units in $R$.
 > 2. $g$ is [[Polynomial Ring|primitive]] and unique up to units.
 > 3. $\deg f=\deg g$
 
-> [!proof]-
-> Let $f(x)=a_{0}+a_{1}x+a_{2}x^{2}+\dots+a_{n}x^n$ and let $c:=c(f)$. Then, $a_{i}=cb_{i}$ for some $b_{i}\in R$ and: $$f(x)=c\cdot (b_{0}+b_{1}x+b_{2}x^{2}+\dots+b_{n}x^n)$$
+> [!proof]+
+> Let $f(x)=a_{0}+a_{1}x+a_{2}x^{2}+\dots+a_{n}x^n$ and let $c:=\text{c}(f)$ the content. Then, $a_{i}=cb_{i}$ for some $b_{i}\in R$ and: $$f(x)=c\cdot (b_{0}+b_{1}x+b_{2}x^{2}+\dots+b_{n}x^n)$$
 > $g(x)$ is primitive, as if there is any irreducible $r$ that divides all $b_{i}$s, then $c|cr$, which is the contradiction to the maximality of $c$.
 > 
 > For uniqueness, suppose $f(x)=dh(x)$ where $h(x)\in R[X]$ is primitive. Any irreducible factor of $c$ must divide $h(x)$ and vice versa. Therefore, $c=du$ for some $u\in R^{*}$ and $ug(x)=h(x)$ as claimed.
