@@ -92,9 +92,7 @@
 >  Then, $f$ is irreducible over $\text{Quot}(R)[X]$. 
 
 > [!proof]-
-> Let $F:=\text{Quot}(R)$. If $f$ is not primitive. Then, $f(x)=cf'(x)=c(b_{0}+b_{1}x+\dots+b_{n}x^n)$ by the decomposition and we have that from $p\nmid a_{n}$, $p\nmid c$. Therefore, $p|b_{i}$ for all $0\leq i<n$, $p\nmid b_{n}$ and $p^2\nmid b_{0}$. Moreover, if $f'$ is irreducible in $F[X]$, then $f$ is irreducible in $F[X]$ as well. 
-> 
-> Hence, wlog we may assume that $f$ is primitive. Assume $f$ is reducible in $F[X]$, i.e. $f=gh$ with $g(x)=b_{0}+b_{1}x+\dots+b_{r}x^r$ and $h(x)=c_{0}+c_{1}x+\dots +c_{s}x^s$ and $0<r,s<n$. 
+>  Assume $f$ is reducible in $F[X]$, i.e. $f=gh$ with $g(x)=b_{0}+b_{1}x+\dots+b_{r}x^r$ and $h(x)=c_{0}+c_{1}x+\dots +c_{s}x^s$ and $0<r,s<n$. 
 > 
 > From $p|a_{0}=b_{0}c_{0}$ and $p^{2}\nmid a_{0}=b_{0}c_{0}$, we have that $p$ divides $b_{0}$ or $c_{0}$ but not both. Assume $p|b_{0}$ and not $c_{0}$. Further, as $p\nmid a_{n}=b_{r}c_{s}$, $p\nmid b_{r}$. 
 > 
@@ -102,10 +100,13 @@
 ---
 ##### Examples
 > [!h] Example 1
-> For a primitive $f\in \mathbb{Z}[X]$ and $a\in \mathbb{Z}$, $f$ is irreducible in $\mathbb{Z}[X]$ if and only if $f(x+a)$ is irreducible in $\mathbb{Z}[X].$
+> For a primitive $f\in \mathbb{Z}[X]$ and $a\in \mathbb{Z}$, TFAE:
+> 1.  $f$ is irreducible in $\mathbb{Z}[X]$ 
+> 2. $f(x+a)$ is irreducible in $\mathbb{Z}[X].$
 ---
-> [!h] Example 2
+> [!h] Example 2 (Cyclotomic Polynomial)
 > The $p$-th cyclotomic polynomial is defined as: $$\Phi_{p}(x):=\frac{x^p-1}{x-1}=x^{p-1}+x^{p-2}+\dots+x+1$$Then, $\Phi_{p}(x)$ is irreducible in $\mathbb{Z}[X]$. 
 
 > [!proof]-
 > Using Eisenstein on $\Phi_{p}(x+1)$, we get: $$\Phi_{p}(x+1)=\frac{(x+1)^p-1}{x}=x^{p-1}+px^{p-2}+\dots{p\choose i}x^{i-1}+\dots+p$$and by using Eisenstein with $p$. 
+---

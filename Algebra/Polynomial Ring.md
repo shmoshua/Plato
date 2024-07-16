@@ -94,14 +94,15 @@
 >    Conversely, if $f$ cannot be factored into polynomials of lower degree, for $f=gh$ either $g$ or $h$ is constant, in which case we have the statement.
 > 2. $f$ cannot be factored into polynomials of lower degree iff it cannot admit a root in $F$.
 ---
-##### Examples
-> [!h] Example 1
-> Let $p$ be a prime and $f=\sum_{i=0}^{n}a_{i}x^i\in \mathbb{Z}[X]$ be a primitive polynomial. Assume $p\nmid a_{n}$. Then, define: $$\overline{f}:=\sum_{i=0}^{n}\overline{a_{i}}x^i\in (\mathbb{Z} / p\mathbb{Z})[X]$$
-> If $\overline{f}$ is irreducible in $(\mathbb{Z} / p\mathbb{Z})[X]$, it is irreducible in $\mathbb{Z}[X]$ (and thereby in $\mathbb{Q}[X]$).
+##### Z[X]
+> [!lemma] Lemma 1
+> Let $p\in \mathbb{Z}$ be a prime and $f=a_{0}+a_{1}x+\dots+a_{n}x^n\in \mathbb{Z}[X]$ be a primitive polynomial. 
+> 1. for $p\nmid a_{n}$, if $\overline{f}:=\overline{a_{0}}+\overline{a_{1}}x+\dots +\overline{a_{n}}x^n\in (\mathbb{Z} / p\mathbb{Z})[X]$ is irreducible, $f$ is irreducible in $\mathbb{Z}[X]$.
 
 > [!proof]-
-> Suppose $f\in\mathbb{Z}[X]$ is irreducible. Then, $f=gh$ where $\deg g,\deg h<n$. Then, $\overline{f}=\overline{g}\overline{h}$ with $\deg \overline{f}=n$ and $\deg \overline{g},\deg \overline{h}\geq 1$. Therefore, $\overline{f}$ is reducible in $(\mathbb{Z} / p\mathbb{Z})[X]$.
+> Suppose $f$ is reducible in $\mathbb{Z}[X]$. Since $f$ is primitive, $f=gh$ with $\deg(g),\deg(h)<n$. Then, $\overline{f}=\overline{g}\overline{h}$ with $\deg \overline{f}=n$ and as$p\nmid a_{n}$,  $\deg \overline{g},\deg \overline{h}\geq 1$. Therefore, $\overline{f}$ is reducible in $(\mathbb{Z} / p\mathbb{Z})[X]$.
 ---
+##### Examples
 > [!h] Example 2
 > Let $f(x)=\sum_{i=0}^{n}a_{i}x^i\in \mathbb{Z}[X]$. If $r /s \in \mathbb{Q}$ with $(r,s)=1$ is a root of $f(x)$  then $r|a_{0}$ and $s|a_{n}$. In particular, if $f(x)$ is monic and if for all $d|a_{0}$, $f(d)\neq 0$ then $f$ has no zeros in $\mathbb{Q}$.
 

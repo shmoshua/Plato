@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "source",
                 "source": true
               }
@@ -87,6 +87,18 @@
             }
           },
           {
+            "id": "df244631eab7fb5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Cyclotomic Polynomial.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "4c865b9cc5ecf1bd",
             "type": "leaf",
             "state": {
@@ -116,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Field.md",
                 "mode": "preview",
                 "source": true
               }
@@ -128,13 +140,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -200,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md"
+                "file": "Algebra/Polynomial Ring.md"
               }
             }
           }
@@ -262,13 +275,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4d3cf14e10079d85",
+  "active": "0705bf73876c35b8",
   "lastOpenFiles": [
-    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Field.md",
+    "Algebra/Polynomial Ring.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Integral Domain.md",
-    "Algebra/Polynomial Ring.md",
-    "Algebra/Field.md",
+    "Algebra/Cyclotomic Polynomial.md",
+    "Algebra/Principal Ideal Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Prime Ideal.md",
@@ -289,7 +303,6 @@
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Isometry.md",
-    "Lie Group/Integral Curve.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
