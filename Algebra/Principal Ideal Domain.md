@@ -51,18 +51,19 @@
 > 3. $(x)$ is a [[prime ideal]].
 > 4. $(x)$ is a [[maximal ideal]].
 
-> [!proof]+
-> We have:
-> 1. (2=>1): Let $x$ be irreducible. Then, $x\notin R^\times$ and let $a,b\in R$ s.t. $x|ab$. Then, $(ab)\subseteq(x)$. 
-
 > [!proof]-
 > We have:
-> - (1=>2): By [[Integral Domain|Lemma 2]], a prime element is irreducible.
-> - (2=>1): 
-> - (3=>4): Let $(x)\subseteq R$ be prime. From [[Integral Domain|Lemma 2]], $x$ is prime. Therefore, $x$ is irreducible. Hence, for any $m\in R$ s.t. $(x)\subseteq(m)$, $p=am$. From the irreducibility, $m\in R^{*}$ or $a\in R^{*}$. If $m\in R^{*}$, then $(m)=R$. Conversely, if $a\in R^{*}$, then $m\sim x$ are associates, i.e. $(m)=(x)$.
-> - (4=>3): [[Maximal Ideal|Remark]]
-> - (2=>4): [[Integral Domain|Proposition 3]]
-> - (4=>2): [[Integral Domain|Proposition 3]]
+> 1. (1=>2): By [[Integral Domain|Lemma 2]], a prime element is irreducible in an ID.
+> 1. (2=>1): Let $x$ be irreducible. Then, $x\notin R^\times$ and let $a,b\in R$ s.t. $x|ab$. If $x|a$, we are done. Assume $x\nmid a$. We claim that $\gcd(x,a)=1$. 
+>    
+>    Let $u\in R$ s.t. $u|x$. Then, as $x$ is irreducible, $u\in R^\times$ or $u\sim x$. However, as $x\nmid a$, if $u|a$ then $u\in R^\times$. Therefore, for any $u\in R$ if $u|x$ and $u|a$ then $u\in R^\times$. Then, clearly $u|1$. 
+>    
+>    Therefore, by Theorem 2, there exists $p,q\in R$ s.t. $1=pa+qx$. Then, $$b=bpa+bqx=xrp+bqx=x(rp+bq)$$for some $r\in R$ as $x|ab$. Hence, $x|b$ and we have the statement.
+> 3. (1=>3): [[Integral Domain|Lemma 2]]
+> 4. (3=>1): [[Integral Domain|Lemma 2]]
+> 5. (3=>4): Let $(x)$ be a prime ideal and suppose $(p)\subseteq(m)$. Then, as $p$ is irreducible, we have that $m\in R^\times$ or $m\sim p$. If $m\in R^\times$ then $(m)=R$ and if $m\sim p$, then $(p)=(m)$.
+> 6. (4=>3): A maximal ideal is a prime ideal as $R /(x)$ is a field and hence an integral domain.
+
 ---
 ##### Examples
 > [!h] Example 1

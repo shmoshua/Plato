@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md"
+                "file": "Algebra/Euclidean Domain.md"
               }
             }
           }
@@ -226,15 +226,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4d3cf14e10079d85",
+  "active": "c23f3b8967bf20bb",
   "lastOpenFiles": [
-    "Algebra/Integral Domain.md",
     "Algebra/Principal Ideal Domain.md",
+    "Algebra/Euclidean Domain.md",
+    "Algebra/Integral Domain.md",
     "Courses/Algebra II/Exercise Sheet 1.md",
     "Algebra/Field.md",
     "Algebra/Ring.md",
     "Algebra/Polynomial Ring.md",
-    "Algebra/Euclidean Domain.md",
     "Algebra/Quaternion.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Quotient Ring.md",
