@@ -54,9 +54,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "796e7a6972ebad8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Unit.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -93,6 +105,18 @@
               "type": "markdown",
               "state": {
                 "file": "Algebra/Integral Domain.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4352c130171c5abd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Unit.md",
                 "mode": "preview",
                 "source": true
               }
@@ -230,9 +254,10 @@
   "active": "40d1a19639e346cb",
   "lastOpenFiles": [
     "Algebra/Unique Factorization Domain.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Unit.md",
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Exercise Sheet 1.md",
-    "Algebra/Principal Ideal Domain.md",
     "Algebra/Euclidean Domain.md",
     "Algebra/Field.md",
     "Algebra/Ring.md",
@@ -249,7 +274,6 @@
     "Algebra/Prime Ideal.md",
     "Algebra/Quotient Field.md",
     "Algebra/Coprime Ideal.md",
-    "Algebra/Unit.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Isometry.md",
