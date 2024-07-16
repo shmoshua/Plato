@@ -7,20 +7,22 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Equivalence of Fields)
-> Let $R$ be a integral domain. Then, TFAE:
+> Let $R$ be a commutative ring. Then, TFAE:
 > 1. $R[X]$ is a principal ideal domain.
 > 2. $R$ is a [[field]].
 
 > [!proof]-
 > We have:
-> 1. (1=>2): Let $R[X]$ be a PID. Let we will show that $R$ is a division ring. Let $0\neq a\in R$. Then, $(\{ a,X \})=(p)\unlhd R[X]$ as $R[X]$ is a PID. Therefore, $a=pq$ and $X=pr$ for some $q,r\in R[X]$. However, as $R$ is an integral domain, we have that:
+> 1. (1=>2): If $R[X]$ is a PID, $R[X]$ is an ID and therefore so is $R$ as a subring. Then, by the surjective ring homomorphism $\varphi:R[X]\to R, f\mapsto f(0)$, we have that: $$R[X] / (X)\cong R$$Therefore, $(X)$ is prime in $R[X]$ and as $R[X]$ is a PID, $(X)$ is maximal and therefore, $R$ is a field. 
+>  
+>    (1=>2): **Second proof**: $R$ is an integral domain (from above), let $R[X]$ be a PID. Let we will show that $R$ is a division ring. Let $0\neq a\in R$. Then, $(\{ a,X \})=(p)\unlhd R[X]$ as $R[X]$ is a PID. Therefore, $a=pq$ and $X=pr$ for some $q,r\in R[X]$. However, as $R$ is an integral domain, we have that:
 >    - $0=\deg(a)=\deg(pq)=\deg(p)+\deg(q)$ and $\deg(p)=0$ and $\deg(q)=0$.
 >    - $1=\deg(x)=\deg(pr)=\deg(p)+\deg(r)$ and $r=bX+c$ where $b,c\in R$. 
 >      
 >    Therefore, $X=pbX+pc$ and  $pb=1$ and $p\in R[X]^\times$. Hence, $(\{ a,X \})=R[X]$.
 >    
 >    However, this means that there exists $s,t\in R[X]$ s.t. $as+Xt=1$. Again, by degree assumptions, $as=1$ and $a\in R[X]^{\times}=R^\times$.
-> 2. (2=>1): Let $R$ be a field and $I\subseteq R[X]$ an ideal s.t. $I\neq(0)$. 
+> 1. (2=>1): Let $R$ be a field and $I\subseteq R[X]$ an ideal s.t. $I\neq(0)$. 
 >    
 >    Let $q\in I$ be the element of minimal degree in $I$ s.t. $q\neq 0$. More concretely, $$q=b_{0}+b_{1}X+\dots+b_{m}X^m$$s.t. $b_{m}\neq 0$ and $\text{deg}(q)\geq 0$. We will show that $I=(q)$.
 >    

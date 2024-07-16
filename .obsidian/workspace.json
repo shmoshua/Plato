@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Field.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -116,14 +116,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ideal (Ring).md",
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md"
+                "file": "Algebra/Unique Factorization Domain.md"
               }
             }
           }
@@ -251,24 +250,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a40ad70f07cd65ec",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
     "Algebra/Integral Domain.md",
+    "Algebra/Polynomial Ring.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Field.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Principal Ideal Domain.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Prime Ideal.md",
-    "Algebra/Principal Ideal Domain.md",
     "Algebra/Unit.md",
     "Algebra/Euclidean Domain.md",
     "Analysis/Euclidean Norm.md",
-    "Algebra/Unique Factorization Domain.md",
     "Courses/Algebra II/Exercise Sheet 1.md",
-    "Algebra/Field.md",
     "Algebra/Ring.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Quaternion.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Quotient Ring.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Prime Ring.md",
     "Algebra/Prime Field.md",
     "Algebra/Maximal Ideal.md",

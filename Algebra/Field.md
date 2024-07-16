@@ -10,11 +10,17 @@
 > Let $R$ be a commutative, non-trivial ring, then TFAE:
 > 1. $R$ is a field.
 > 2. the only ideals in $R$ are $(0)$ and $R$.
+> 3. $R[X]$ is a [[Principal Ideal Domain|principal ideal domain]].
+> 4. $R[X]$ is a [[euclidean domain]].
 
 > [!proof]-
 > We have:
 > 1. (1=>2): Let $I\unlhd R$ be a non-zero ideal and $a\in I$ be the non-zero element. Then, as $R$ is a field $a^{-1}\in R$ and $a^{-1}a=1\in I$. Therefore, $I=R$.
 > 2. (2=>1): Let $R$ and $(0)$ be the only ideals in $R$. We will show that $R$ is a division ring. Let $a\in R$. Then, $(a)\neq(0)$ and therefore, $(a)=R$. Hence, there exists $r\in R$ s.t. $ra=1$ since $$(a)=\{ ra:r\in R \}$$Therefore, $r=a^{-1}\in R$ and $R$ is a field.
+> 3. (1=>3): If $R$ is a field $R[X]$ is a Euclidean domain and therefore a PID.
+> 4. (3=>1): If $R[X]$ is a PID, then it is ID and therefore, $R$ is also an ID as a subring. Then, $R[X] / (X)\cong R$ and $(X)$ is a prime ideal, and as $R[X]$ is a PID $(X)$ is maximal. Therefore, $R$ is a field.
+> 5. (1=>4): Obvious.
+> 6. (4=>3): Obvious. 
 ---
 > [!lemma] Proposition 2
 > A field $(F,+,\cdot)$ is **cancellative**, i.e. for $a,b,c\in F$, if $a\neq 0$, then:$$ ab=ac\quad \Longrightarrow \quad b=c$$
@@ -23,20 +29,10 @@
 > $$b=1b=a^{-1}ab=a^{-1}ac=1c=c$$
 ---
 > [!lemma] Theorem 3
-> Let $R$ be an [[integral domain]]. Then, $R$ is a field if and only if $R[X]$ is a [[principal ideal domain]].
-
-> [!proof]-
-> Suppose $R[X]$ is a PID. We have that $R[X] / (X)\cong R$. But $X$ is maximal as $X$ is prime. Therefore, $R$ is a field.
-> 
-> Conversely, for a field $R$, $R[X]$ is a [[Euclidean domain]] and therefore a PID.
-
-- **Remark**: $R[X]$ being UFD does not imply that $R$ is a field, e.g. $R=\mathbb{Z}$.
----
-> [!lemma] Theorem 4
 > Let $F$ be a field. If $f\in F[X]$ with $\text{deg}(f)=:n>0$, then $F$ has at most $n$ zeros.
 - **Remark**: This is not true for general rings. $x^{2}-1\in (\mathbb{Z} / 8\mathbb{Z})[x]$ has 4 zeros: $1,3,5,7$.
 ---
-> [!lemma] Lemma 5
+> [!lemma] Lemma 4
 > A field homomorphism $\varphi:F\to K$ is always injective.
 
 > [!proof]-
