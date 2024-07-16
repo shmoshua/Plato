@@ -277,10 +277,10 @@
   },
   "active": "0705bf73876c35b8",
   "lastOpenFiles": [
-    "Algebra/Field.md",
-    "Algebra/Polynomial Ring.md",
-    "Algebra/Unique Factorization Domain.md",
     "Algebra/Integral Domain.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Field.md",
+    "Algebra/Unique Factorization Domain.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Principal Ideal Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",

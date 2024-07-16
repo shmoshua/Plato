@@ -101,10 +101,16 @@
 
 > [!proof]-
 > Suppose $f$ is reducible in $\mathbb{Z}[X]$. Since $f$ is primitive, $f=gh$ with $\deg(g),\deg(h)<n$. Then, $\overline{f}=\overline{g}\overline{h}$ with $\deg \overline{f}=n$ and as$p\nmid a_{n}$,  $\deg \overline{g},\deg \overline{h}\geq 1$. Therefore, $\overline{f}$ is reducible in $(\mathbb{Z} / p\mathbb{Z})[X]$.
+- **Remark**: The converse does not hold. $x^4+1$ is irreducible in $\mathbb{Z}[X]$ but it is reducible in every $(\mathbb{Z} / p\mathbb{Z})[X]$.
+---
+> [!lemma] Lemma 2
+> Let $f(x)=a_{0}+a_{1}x+\dots+a_{n}x^n\in \mathbb{Z}[X]$. 
+> 1. if $r/s\in \mathbb{Q}$ with $(r,s)=1$ is a root of $f$, then $r|a_{0}$ and $s|a_{n}$. 
+> 2. if $f$ is monic and if for all $d|a_{0}$, $f(d)\neq 0$, then $f$ has no zeros in $\mathbb{Q}$.
+
+> [!proof]-
+> We have:
+> 1. Let $r/s\in \mathbb{Q}$ with $(r,s)$ be a root of $f$. Then, $$f\left( \frac{r}{s} \right)=a_{0}+\frac{a_{1}r}{s}+\dots+\frac{a_{n}r^n}{s^n}=0$$As $r|0$ and $r|(a_{i}r^i) / s^i$ for all $i\in [n]$, $r|a_{0}$. Similarly, we have that $$s^na_{0}+s^{n-1}a_{1}r+\dots+a_{n}r^n=0$$and $s|a_{n}r^n$. As $(r,s)=1$, $(r^n,s)=1$ and $s|a_{n}$.
+> 2. let $r / s\in \mathbb{Q}$ be a root s.t. $(r,s)=1$. If $f$ is monic, then $s=\pm1$ and $r /s\in \mathbb{Z}$ with $r|a_{0}$. However, if $f(r)\neq0$ for all such $r$, it is a contradiction.
 ---
 ##### Examples
-> [!h] Example 2
-> Let $f(x)=\sum_{i=0}^{n}a_{i}x^i\in \mathbb{Z}[X]$. If $r /s \in \mathbb{Q}$ with $(r,s)=1$ is a root of $f(x)$  then $r|a_{0}$ and $s|a_{n}$. In particular, if $f(x)$ is monic and if for all $d|a_{0}$, $f(d)\neq 0$ then $f$ has no zeros in $\mathbb{Q}$.
-
-> [!proof]+
-> 
