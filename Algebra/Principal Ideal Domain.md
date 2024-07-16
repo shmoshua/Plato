@@ -69,16 +69,18 @@
 > Let $R$ be a PID. Then,
 > 1.  any ascending chain of ideals, $I_{1}\subseteq I_{2}\subseteq\dots$ , eventually become stationary, i.e. there is a positive index $n$ such that $I_{k}=I_{n}$ for all $k\geq n$. 
 
-> [!proof]+
+> [!proof]-
 > We claim that $I:=\bigcup_{i\geq 1}^{}I_{i}$ is an ideal. For $a,b\in I$ with $a\in I_{i}$ and $b\in I_{j}$ with $i\geq j$, we have $b\in I_{i}$ and $a+b\in I_{i}\subseteq I$. Similarly, for any $a\in I$, $a\in I_{i}$ for some $i$ and $ra\in I_{i}$ for any $r\in R$. Therefore, $ra\in I$. 
 > 
-> Hence, as $R$ is a PID, $I=(x)$ for some $x\in R$. Let $k\geq 1$ s.t. $x\in I_{k}$. For any $n>$
+> Hence, as $R$ is a PID, $I=(x)$ for some $x\in R$. Let $k\geq 1$ s.t. $x\in I_{k}$. For any $n\geq k$, we have that $I_{n}\subseteq I$, but also $I=(x)\subseteq I_{n}$. Therefore, $I_{n}=I$ and the chain becomes stationary. 
 ---
 > [!lemma] Theorem 5 (PIDs are UFDs)
 > Every [[principal ideal domain]] is a unique factorization domain.
 
-> [!proof]+
-> Let $R$ be a PID. Let $r\in R \backslash\{ 0 \}$ with $r\notin R^{*}$. We will now construct the factorization of $r$. 
+> [!proof]-
+> Let $r\in R\backslash\{ 0 \}$ and $r\notin R^\times$. We want to show that there exist irreducible elements $r_{1},..,r_{n}$ such that $r=r_{1},\dots,r_{n}$. 
+> 
+> If $r$ is irreducible, we are done. So assume $r$ is not irreducible. Then $r=r_{1}r_{2}$ where neither $r_{1}$ nor $r_{2}$ are units. If $r_{1}$ and $r_{2}$ are irreducible, then the proof is complete. If $r_{1}$ is not irreducible, then $r_{1}=r_{11}r_{12}$, where neither $r_{11}$ nor $r_{12}$ are units. Continuing this way, we get a proper inclusion of ideals: $$(r)\subseteq(r_{1})\subseteq(r_{11})\subseteq\dots \subseteq R$$If this process finishes in a finite number of steps, the proof is complete. But, we know by Theorem 4 that this is the case.
 
 - **Remark**: $\mathbb{Z}[X]$ is a unique factorization domain, but not a principal ideal domain.
 ---
