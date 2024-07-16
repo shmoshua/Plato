@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Ring.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Ring.md",
                 "mode": "preview",
                 "source": true
               }
@@ -98,7 +98,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Ring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Ring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Integral Domain.md"
+                "file": "Algebra/Ring.md"
               }
             }
           }
@@ -226,12 +227,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4d3cf14e10079d85",
+  "active": "a40ad70f07cd65ec",
   "lastOpenFiles": [
-    "Algebra/Principal Ideal Domain.md",
-    "Algebra/Integral Domain.md",
-    "Algebra/Euclidean Domain.md",
     "Algebra/Polynomial Ring.md",
+    "Algebra/Ring.md",
+    "Algebra/Euclidean Domain.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Principal Ideal Domain.md",
     "Algebra/Field.md",
     "Algebra/Quaternion.md",
     "Algebra/Ring Homomorphism.md",
@@ -244,7 +246,6 @@
     "Algebra/Subring.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Quotient Field.md",
-    "Algebra/Ring.md",
     "Algebra/Coprime Ideal.md",
     "Algebra/Unit.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",

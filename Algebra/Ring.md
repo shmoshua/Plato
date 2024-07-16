@@ -34,6 +34,10 @@
 >2. $$(-a)b=0+(-a)b=-(ab)+ab+(-a)b=-(ab)+(a+(-a))b=-(ab)+0b=-(ab)$$
 >	and $$a(-b)=-(ab)+ab+a(-b)=-(ab)+a(b+(-b))=-(ab)+a0=-(ab)+0=-(ab)$$
 ----
+> [!lemma] Lemma 3
+> Let $R$ be a ring and $a,b\in R$. Then, TFAE:
+> 1. $b|a$, i.e. there exists $c\in R$
+
 ##### Examples
 > [!h] Example 1 (Basic Examples)
 > We have:

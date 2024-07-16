@@ -42,6 +42,7 @@
 
 - **Remark**: Generally irreducible elements are not prime, e.g. $2\in \mathbb{Z}[\sqrt{- 5 }]$ is irreducible but not prime as $2\cdot 3 =(1+\sqrt{ -5 })(1-\sqrt{- 5 })$.
 - **Remark**: If $R$ is not an integral domain, then prime does not imply irreducibility in general, e.g. $R=\mathbb{Z} /6\mathbb{Z}$ and $2$ is prime but not irreducible as $2=2\cdot{4}$.
+- **Remark**: In $\mathbb{Z}[\sqrt{ -5 }]$, $\gcd(6,2+2\sqrt{ -5 })$ doesn't exist: Let $c+d\sqrt{ -5 }$ be the gcd. Then, $1+\sqrt{ -5 }|d$ and $2|d$. Therefore, $N(c+d\sqrt{ -5 })=12$. However, this doesn't exist in $\mathbb{Z}[\sqrt{ -5 }]$.
 ---
 > [!lemma] Proposition 3
 > Let $R$ be an integral domain and $r\in R \backslash\{ 0 \}$ and $r\notin R^{*}$. Then, the following are equivalent:
