@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Euclidean Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Euclidean Domain.md"
+                "file": "Algebra/Unique Factorization Domain.md"
               }
             }
           }
@@ -228,8 +228,9 @@
   },
   "active": "c23f3b8967bf20bb",
   "lastOpenFiles": [
-    "Algebra/Principal Ideal Domain.md",
     "Algebra/Euclidean Domain.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Principal Ideal Domain.md",
     "Algebra/Integral Domain.md",
     "Courses/Algebra II/Exercise Sheet 1.md",
     "Algebra/Field.md",
@@ -253,7 +254,6 @@
     "Differential Geometry/Isometry.md",
     "Lie Group/Integral Curve.md",
     "Analysis/Lie Derivative.md",
-    "Lie Group/Flow.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
