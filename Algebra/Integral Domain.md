@@ -57,14 +57,14 @@
 > 3. (3=>1): $a\in (d)$ and $b\in (d)$, hence $(a,b)\subseteq(d)$. Further, for $r\in R$, we have $$dr=axr+byr\in (a,b)$$
 ---
 > [!lemma] Proposition 4
-> Let $R$ be an integral domain and $r\in R \backslash\{ 0 \}$ and $r\notin R^{\times}$. Then, the following are equivalent:
+> Let $R$ be an integral domain and $0\neq r\in R$. Then, TFAE:
 > 1. $r$ is irreducible.
 > 2. $(r)$ is maximal among all proper [[Principal Ideal Domain|principal ideals]].
 
 > [!proof]-
 > We have:
-> - =>: Suppose $r$ is irreducible and $s\in R$ s.t. $(r)\subseteq(s)\subsetneq R$. Then, firstly $s$ cannot be a unit. Then, $r=xs$ for some $x\in R$. As $r$ is irreducible, $x\in R^{*}$, i.e. $r\sim s$ and $(r)=(s)$.
-> - <=: Suppose $(r)$ is maximal among proper principal ideals. Assume $r=xs$ where $x,s$ are both non-zero non-units. Then, $(xs)\subsetneq(x)$ because if $(xs)=(s)$, then $x\in (xs)$ and there exists $t\in R$ s.t. $x=xst$, which means that $st=1$ and $s\in R^{*}$. Therefore, we have: $$(r)=(xs)\subsetneq(x)\subsetneq R$$which is a contradiction.
+> 1. (1=>2): Let $r$ be irreducible. If there exists $(s)$ s.t. $(r)\subseteq(s)\subseteq R$. If $s\in R^\times$, then $(s)=R$. If $s\notin R^\times$, Then, $r=xs$ for some $x$ and as $r$ is irreducible, $x\in R^\times$. Therefore, $r\sim s$ and $(r)=(s)$.
+> 2. (2=>1): Suppose $(r)$ is maximal among proper principal ideals. Let $r=xs$ for some $x,s\in R$. If both of them are non-units, then $(r)\subsetneq(x)$ because if $(r)=(x)$, then $x=rt$ for some $t\in R$ and $x=xst$. Therefore, $x(1-st)=0$ and $st=1$, i.e. $s\in R^\times$ which is a contradiction. 
 ---
 ##### Examples
 - $\mathbb{Q},\mathbb{R},\mathbb{C},\mathbb{Z} / p\mathbb{Z}$ where $p$ prime are [[Field|fields]], so they are integral domains.

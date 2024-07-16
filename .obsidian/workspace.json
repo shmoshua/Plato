@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unit.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "source",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unit.md",
+                "file": "Algebra/Prime Ideal.md",
                 "mode": "preview",
                 "source": true
               }
@@ -253,12 +253,14 @@
   },
   "active": "40d1a19639e346cb",
   "lastOpenFiles": [
-    "Algebra/Unique Factorization Domain.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Unit.md",
     "Algebra/Integral Domain.md",
-    "Courses/Algebra II/Exercise Sheet 1.md",
+    "Algebra/Prime Ideal.md",
+    "Algebra/Unit.md",
     "Algebra/Euclidean Domain.md",
+    "Analysis/Euclidean Norm.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Courses/Algebra II/Exercise Sheet 1.md",
     "Algebra/Field.md",
     "Algebra/Ring.md",
     "Algebra/Polynomial Ring.md",
@@ -271,14 +273,12 @@
     "Algebra/Prime Field.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Subring.md",
-    "Algebra/Prime Ideal.md",
     "Algebra/Quotient Field.md",
     "Algebra/Coprime Ideal.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Isometry.md",
     "Lie Group/Integral Curve.md",
-    "Analysis/Lie Derivative.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
