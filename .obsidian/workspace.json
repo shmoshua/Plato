@@ -87,18 +87,6 @@
             }
           },
           {
-            "id": "df244631eab7fb5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Cyclotomic Polynomial.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "4c865b9cc5ecf1bd",
             "type": "leaf",
             "state": {
@@ -274,16 +262,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "796e7a6972ebad8d",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
-    "Algebra/Polynomial Ring.md",
-    "Algebra/Field Extension.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Principal Ideal Domain.md",
     "Algebra/Integral Domain.md",
     "Algebra/Field.md",
+    "Algebra/Field Extension.md",
     "Algebra/Cyclotomic Polynomial.md",
-    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Polynomial Ring.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Unique Factorization Domain.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Prime Ideal.md",
     "Algebra/Unit.md",

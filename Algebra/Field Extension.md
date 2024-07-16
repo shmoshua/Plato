@@ -31,23 +31,29 @@
 > 	   Assume that $\sum_{i=1}^{n}\sum_{j=1}^{m}a_{ij}x_{i}y_{j}=0$. As $y_{j}$'s are linearly independent, $\sum_{i=1}^{n}a_{ij}x_{i}=0$ for all $j\in [m]$. Then, by linear independence of $x_{i}$, $a_{ij}=0$ for all $i,j$.
 ---
 > [!lemma] Theorem 3 (Kronecker)
-> Let $F$ be a field and $p(x)\in F[X]$ an [[Integral Domain|irreducible]] polynomial. Then, there exists a field $K$ containing an isomorphic copy of $F$ in which $p(x)$ has a root.
+> Let $F$ be a field and $p\in F[X]$. Then, 
+> 1. if $p$ is irreducible, there exists a field $K$ containing an isomorphic copy of $F$ in which $p(x)$ has a root.
+> 2. if $p$ is non-constant, there exists a field $K$ containing an isomorphic copy of $F$ in which $p(x)$ has a root.
 
 > [!proof]-
-> Since $p(x)$ is irreducible, $I:=(p(x))$ is maximal in the PID $F[X]$. Let $K:=F[X] / I$. Then, $K$ is a field and for the following canonical map: $$\begin{array}{cccc} {\pi:}&{F[X]}&\to&{F[X] / I}\\&{q} &\mapsto & {q+I} \end{array}{}$$the restriction $\pi|_{F}$ gives a field homomorphism, which is injective by [[Field|Lemma 5]]. Therefore, $F\cong \pi(F)\subseteq K$ and $K$ contains an isomorphic copy of $F$. 
-> 
-> Now, we show that $K$ has a root of $p(x)$. Let $\alpha:=x+I\in K$. Then, for $p(x):=a_{0}+a_{1}x+\dots+a_{n}x^n$, $$\begin{align}p(\alpha)&=a_{0}+a_{1}x+\dots+a_{n}x^n +I\\&=p(x)+(p(x))\\&=0_{K}\end{align}$$
+> We have:
+> 1. Since $p$ is irreducible, $I:=(p)$ is maximal in the ED $F[X]$. Let $K:=F[X] / I$ which is a field. Then, for the canonical projection: $$\pi:F[X]\to F[X] / I,\quad q\mapsto q+I$$ The restriction $\pi|_{F}$ gives a field homomorphism. As all field homomorphisms are injective, $F\cong \pi(F)\subseteq K:=F[X] / I$ and $K$ contains an isomorphic copy of $F$.
+>    
+>    Now, we show that $K$ has a root of $p$. Let $\alpha:=x+I\in K$. Then, for $p(x):=a_{0}+a_{1}x+\dots+a_{n}x^n$, $$\begin{align}p(\alpha)&=a_{0}+a_{1}x+\dots+a_{n}x^n+I\\&=p(x)+(p)\\&=(p)\end{align}$$
+> 2. If $p$ is not irreducible, then let $p=q_{1}\dots q_{r}$. If any of $q_{i}$ is linear, i.e. $q_{i}(x)=(ax-b)$, then $b/a\in F$ and $K=F$ already satisfies the statement.
+>    
+>    If they are all at least quadratic, choose $q_{i}$ and use 1 and take $K:=F[X] / (q_{i})$ where we have $\alpha:=x+(q_{i})$ as a root of $q_{i}$ and thereby of $p$.
 ---
 > [!lemma] Theorem 4
 > Let $p(x)\in F[X]$ be an irreducible polynomial of degree $n$ over a field $F$. Let $K:=F[X] / (p(x))$ and $\alpha:=x+(p(x))$. Then, 
 > 1. $1,\alpha,\alpha^{2},\dots,\alpha^{n-1}$ forms a basis of $K$ as a $F$-vector space.
 > 2. $[K:F]=n$
-> 3. We have: $$K=\{ a_{0}+a_{1} \alpha+\dots+a_{n-1}\alpha^{n-1}:a_{i}\in F\}=F_{n-1}[\alpha]=F(\alpha)$$
+> 3. We have: $$K=\{ a_{0}+a_{1} \alpha+\dots+a_{n-1}\alpha^{n-1}:a_{i}\in F\}=F_{n-1}[\alpha]=F(\alpha)$$where $F_{n-1}$ is the set of polynomials of degree $\leq n-1$.
 
-> [!proof]-
-> For any $f(x)\in F[X]$, using the euclidean algorithm we get that: $$f(x)=p(x)q(x)+r(x)$$where $\deg r<\deg p$. Therefore, $f(x)+(p(x))=r(x)+(p(x))$ where $\deg r<n$. 
+> [!proof]+
+> For any $f(x)\in F[X]$ as $F[X]$ is a ED, we get that: $$f(x)=p(x)q(x)+r(x)$$where $\deg r<\deg p$. Therefore, $f(x)+(p(x))=r(x)+(p(x))$ where $\deg r<n$. 
 > 
-> Now, if $1,\alpha,\dots,\alpha^{n-1}$ were linearly dependent in $K$, then there would be $b_{0},\dots,b_{n-1}$ in $F$, not all zero, s.t. $$g(\alpha)+(p(x)):=b_{0}+b_{1}\alpha+\dots+b_{n-1}\alpha^{n-1}=0_{K}$$Therefore, $g(x)\in (p(x))$ and $p(x)|g(x)$. But this is impossible as $\deg p=n>n-1=\deg q$. It follows that they form a basis in $K$.
+> Now, if $1,\alpha,\dots,\alpha^{n-1}$ were linearly dependent in $K$, then there would be $b_{0},\dots,b_{n-1}$ in $F$, not all zero, s.t. $$g(\alpha)+(p):=b_{0}+b_{1}\alpha+\dots+b_{n-1}\alpha^{n-1}=0_{K}$$Therefore, $g\in (p)$ and $p|g$. But this is impossible as $\deg p=n>n-1=\deg q$. It follows that they form a basis in $K$.
 > 
 > Note that $K=F_{n-1}[\alpha]\subseteq F(\alpha)$. However, as $F(\alpha)$ is the smallest field that contains $F$ and $\alpha$, $F_{n-1}[\alpha]\supseteq F(\alpha)$ and $K=F(\alpha)$.
 ---
