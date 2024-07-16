@@ -44,8 +44,20 @@
 - **Remark**: If $R$ is not an integral domain, then prime does not imply irreducibility in general, e.g. $R=\mathbb{Z} /6\mathbb{Z}$ and $2$ is prime but not irreducible as $2=2\cdot{4}$.
 - **Remark**: In $\mathbb{Z}[\sqrt{ -5 }]$, $\gcd(6,2+2\sqrt{ -5 })$ doesn't exist: Let $c+d\sqrt{ -5 }$ be the gcd. Then, $1+\sqrt{ -5 }|d$ and $2|d$. Therefore, $N(c+d\sqrt{ -5 })=12$. However, this doesn't exist in $\mathbb{Z}[\sqrt{ -5 }]$.
 ---
-> [!lemma] Proposition 3
-> Let $R$ be an integral domain and $r\in R \backslash\{ 0 \}$ and $r\notin R^{*}$. Then, the following are equivalent:
+> [!lemma] Proposition 3 (Equivalent Definitions)
+> Let $R$ be an integral domain and $a,b\in R$. Then, for $d\in R$, TFAE:
+> 1. $(a,b)=(d)$
+> 2. there exist $x,y\in R$ s.t. $d=ax+by$ and for all $s,t\in R$, $d|as+bt$.
+> 3. there exist $x,y\in R$ s.t. $d=ax+by$ and $d|a$ and $d|b$.
+
+> [!proof]-
+> We have:
+> 1. (1=>2): Obvious.
+> 2. (2=>3): Take $s=1$ and $t=0$ and vice versa.
+> 3. (3=>1): $a\in (d)$ and $b\in (d)$, hence $(a,b)\subseteq(d)$. Further, for $r\in R$, we have $$dr=axr+byr\in (a,b)$$
+---
+> [!lemma] Proposition 4
+> Let $R$ be an integral domain and $r\in R \backslash\{ 0 \}$ and $r\notin R^{\times}$. Then, the following are equivalent:
 > 1. $r$ is irreducible.
 > 2. $(r)$ is maximal among all proper [[Principal Ideal Domain|principal ideals]].
 

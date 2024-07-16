@@ -29,20 +29,20 @@
 >    However, as $p\in I$ and $sq\in I$, $r\in I$ with degree smaller than $q$. As $q$ has the minimal degree in $I$, $r=0$ and $p=sq$. Therefore, $I=(q)$. 
 > 
 ---
-> [!lemma] Theorem 2
-> Let $R$ be a principal ideal domain and $a,b\in R \backslash \{ 0 \}$. Then, for $d\in R$, the following are equivalent:
+> [!lemma] Theorem 2 (Equivalent Definitions of GCD)
+> Let $R$ be a principal ideal domain and $a,b\in R \backslash \{ 0 \}$. Then, for $d\in R$, TFAE
 > 1. $d=\text{gcd}(a,b)$
 > 2. $(a,b)=(d)$
 > 3. there exist $x,y\in R$ s.t. $d=ax+by$ and for all $s,t\in R$, $d|as+bt$.
 > 4. there exist $x,y\in R$ s.t. $d=ax+by$ and $d|a$ and $d|b$.
 
 > [!proof]-
-> We have: 
-> - (2=>3): SInce $d\in (a,b)$, there exists $x,y\in R$ s.t. $d=ax+by$. Further, for $s,t\in R$, $as+bt\in (a,b)=(d)$. Therefore, $d|as+bt$.
-> - (3=>4): By choosing $(s,t)=(1,0)$ and $(s,t)=(0,1)$ it follows.
-> - (4=>2): As $d=ax+by$, $d\in (a,b)$ and $(d)\subseteq(a,b)$. However, by assumption, $a,b\in (d)$. Therefore, $(a,b)\subseteq(d)$.
-> - (1=>2): As $R$ is a PID, there exists $c\in R$ s.t. $(a,b)=(c)$. Therefore, $c|a$, $c|b$ and  $c|d$. This shows that $(d)\subseteq(c)$. On the other hand, $d|a$, $d|b$ and $a,b\in (d)$. Therefore, $(c)\subseteq(d)$. So $(c)=(d)$.
-> - (4=>1): By assumption $d|a$ and $d|b$. Assume there exists $c\in R$ with $c|a,c|b$. Then, $c|ax$ and $c|by$. Therefore, $c|ax+by=d$. Therefore, $d=\text{gcd}(a,b)$.
+> 
+> We have (from [[Integral Domain|Proposition 3]]):
+> 1. (2=>3): Obvious.
+> 2. (3=>4): Take $s=1$ and $t=0$ and vice versa.
+> 3. (4=>1): We have $d|a$ and $d|b$. Further, if $c\in R$ exists with $c|a$ and $c|b$, then $c|ax$ and $c|by$. Therefore, $c|ax+by=d$. Therefore, $d=\gcd(a,b)$.
+> 4. (1=>2): As $R$ is a PID, there exists $c\in R$ s.t. $(a,b)=(c)$. Then, there exists $x,y\in R$ with $c=ax+by$ and $c|a$ and $c|b$. Therefore, $c|d$ and $(d)\subseteq(c)$. However, as $d|a$ and $d|b$, $(a,b)\subseteq(d)$. Hence, $(a,b)=(d)$.
 ---
 > [!lemma] Proposition 3
 > In a principal ideal domain $R$, let $0\neq x\in R$. Then, the following are equivalent.
@@ -51,11 +51,14 @@
 > 3. $(x)$ is a [[prime ideal]].
 > 4. $(x)$ is a [[maximal ideal]].
 
+> [!proof]+
+> We have:
+> 1. (2=>1): Let $x$ be irreducible. Then, $x\notin R^\times$ and let $a,b\in R$ s.t. $x|ab$. Then, $(ab)\subseteq(x)$. 
 
 > [!proof]-
 > We have:
 > - (1=>2): By [[Integral Domain|Lemma 2]], a prime element is irreducible.
-> - (2=>1):
+> - (2=>1): 
 > - (3=>4): Let $(x)\subseteq R$ be prime. From [[Integral Domain|Lemma 2]], $x$ is prime. Therefore, $x$ is irreducible. Hence, for any $m\in R$ s.t. $(x)\subseteq(m)$, $p=am$. From the irreducibility, $m\in R^{*}$ or $a\in R^{*}$. If $m\in R^{*}$, then $(m)=R$. Conversely, if $a\in R^{*}$, then $m\sim x$ are associates, i.e. $(m)=(x)$.
 > - (4=>3): [[Maximal Ideal|Remark]]
 > - (2=>4): [[Integral Domain|Proposition 3]]

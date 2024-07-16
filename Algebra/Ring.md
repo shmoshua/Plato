@@ -36,8 +36,16 @@
 ----
 > [!lemma] Lemma 3
 > Let $R$ be a ring and $a,b\in R$. Then, TFAE:
-> 1. $b|a$, i.e. there exists $c\in R$
+> 1. $b|a$, i.e. there exists $c\in R$ s.t. $bc=a$.
+> 2. $a\in (b)$.
+> 3. $(a)\subseteq(b)$
 
+> [!proof]-
+> We have that:
+> 1. (1=>2): $bc=a$ and $a\in (b)$.
+> 2. (2=>3): $(a)$ is the smallest ideal containing $a$. 
+> 3. (3=>1): Then $a\in (b)$ and $a=bc$.
+---
 ##### Examples
 > [!h] Example 1 (Basic Examples)
 > We have:

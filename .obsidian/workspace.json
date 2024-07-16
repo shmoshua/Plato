@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "source",
                 "source": true
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -92,14 +92,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Courses/Algebra II/Exercise Sheet 1.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Ring.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Ring.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Ring.md"
+                "file": "Algebra/Principal Ideal Domain.md"
               }
             }
           }
@@ -227,14 +226,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a40ad70f07cd65ec",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
-    "Algebra/Polynomial Ring.md",
-    "Algebra/Ring.md",
-    "Algebra/Euclidean Domain.md",
     "Algebra/Integral Domain.md",
     "Algebra/Principal Ideal Domain.md",
+    "Courses/Algebra II/Exercise Sheet 1.md",
     "Algebra/Field.md",
+    "Algebra/Ring.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Euclidean Domain.md",
     "Algebra/Quaternion.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Quotient Ring.md",
@@ -254,7 +254,6 @@
     "Lie Group/Integral Curve.md",
     "Analysis/Lie Derivative.md",
     "Lie Group/Flow.md",
-    "Differential Geometry/Vector Field.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
