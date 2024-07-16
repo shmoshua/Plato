@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -146,8 +146,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Field Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Field Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Polynomial Ring.md"
+                "file": "Algebra/Field Extension.md"
               }
             }
           }
@@ -275,15 +274,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0705bf73876c35b8",
+  "active": "796e7a6972ebad8d",
   "lastOpenFiles": [
-    "Algebra/Integral Domain.md",
     "Algebra/Polynomial Ring.md",
-    "Algebra/Field.md",
+    "Algebra/Field Extension.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Unique Factorization Domain.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Field.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Principal Ideal Domain.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Prime Ideal.md",
     "Algebra/Unit.md",
@@ -302,7 +302,6 @@
     "Algebra/Coprime Ideal.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Differential Geometry/Local Diffeomorphism.md",
-    "Differential Geometry/Isometry.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
