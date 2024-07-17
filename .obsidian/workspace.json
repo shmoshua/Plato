@@ -66,9 +66,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "8890a69a9bb8f1f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -80,7 +92,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "60d0cdb32b8edc50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "mode": "preview",
                 "source": true
               }
@@ -111,30 +135,6 @@
             }
           },
           {
-            "id": "4352c130171c5abd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Field.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0705bf73876c35b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 1.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "7ea1b77455d5adb4",
             "type": "leaf",
             "state": {
@@ -147,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 1.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 1.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 1.md"
+                "file": "Algebra/Algebraic and Transcendental Element.md"
               }
             }
           }
@@ -275,25 +275,26 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0705bf73876c35b8",
+  "active": "8890a69a9bb8f1f5",
   "lastOpenFiles": [
-    "Courses/Algebra II/Exercise Sheet 0.md",
     "Algebra/Integral Domain.md",
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Field Extension.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Field.md",
+    "Courses/Algebra II/Exercise Sheet 1.md",
+    "Courses/Algebra II/Exercise Sheet 0.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Field.md",
-    "Algebra/Unique Factorization Domain.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Cyclotomic Polynomial.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Prime Ideal.md",
     "Algebra/Unit.md",
     "Algebra/Euclidean Domain.md",
     "Analysis/Euclidean Norm.md",
-    "Courses/Algebra II/Exercise Sheet 1.md",
     "Algebra/Ring.md",
     "Algebra/Quaternion.md",
     "Algebra/Ring Homomorphism.md",
@@ -302,7 +303,6 @@
     "Algebra/Prime Field.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Subring.md",
-    "Algebra/Quotient Field.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
