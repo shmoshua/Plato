@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Minimal Polynomial.md",
                 "mode": "preview",
                 "source": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -147,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md"
+                "file": "Algebra/Algebraic and Transcendental Element.md"
               }
             }
           }
@@ -275,20 +275,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "7ea1b77455d5adb4",
+  "active": "60d0cdb32b8edc50",
   "lastOpenFiles": [
-    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Minimal Polynomial.md",
     "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Integral Domain.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Field Extension.md",
     "Algebra/Field.md",
     "Courses/Algebra II/Exercise Sheet 1.md",
     "Courses/Algebra II/Exercise Sheet 0.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
-    "Algebra/Principal Ideal Domain.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Prime Ideal.md",
@@ -302,7 +303,6 @@
     "Algebra/Prime Ring.md",
     "Algebra/Prime Field.md",
     "Algebra/Maximal Ideal.md",
-    "Algebra/Subring.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
