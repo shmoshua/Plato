@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "source",
                 "source": true
               }
@@ -128,13 +128,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Courses/Algebra II/Exercise Sheet 0.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7ea1b77455d5adb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -200,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Courses/Algebra II/Exercise Sheet 0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Courses/Algebra II/Exercise Sheet 0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Field Extension.md"
+                "file": "Courses/Algebra II/Exercise Sheet 0.md"
               }
             }
           }
@@ -262,15 +275,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4d3cf14e10079d85",
+  "active": "0705bf73876c35b8",
   "lastOpenFiles": [
-    "Algebra/Unique Factorization Domain.md",
     "Algebra/Integral Domain.md",
     "Algebra/Field Extension.md",
+    "Courses/Algebra II/Exercise Sheet 0.md",
+    "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Field.md",
-    "Algebra/Cyclotomic Polynomial.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Courses/Algebra II/Exercise Sheet 2.md",
     "Algebra/Polynomial Ring.md",
+    "Algebra/Cyclotomic Polynomial.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Prime Ideal.md",
@@ -287,9 +303,6 @@
     "Algebra/Maximal Ideal.md",
     "Algebra/Subring.md",
     "Algebra/Quotient Field.md",
-    "Algebra/Coprime Ideal.md",
-    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Differential Geometry/Local Diffeomorphism.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

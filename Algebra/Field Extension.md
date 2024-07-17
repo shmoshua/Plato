@@ -68,15 +68,19 @@
 > Let $\varphi:F\to \tilde{F}$ be a field isomorphism and $p(x)=a_{0}+a_{1}x+\dots+a_{n}x^n\in F[X]$ be irreducible. 
 > 1. For $\tilde{p}(x):=\varphi(a_{0})+\varphi(a_{1})x+\dots+\varphi(a_{n})x^n\in \tilde{F}[X]$, $\alpha$ root of $p$ in some extension of $F[X]$, $\beta$ the root of $\tilde{p}(x)$ in some extension of $\tilde{F}[X]$, there exists a field isomorphism $\sigma:F(\alpha)\to \tilde{F}(\beta)$ that extends $\varphi$ and $\sigma(\alpha)=\beta$.
 
-> [!proof]+
-> We have that $\varphi:F\to \tilde{F}$ induces an isomorphism of polynomial rings: $$\varphi:F[X]\to \tilde{F}[X],\quad b_{0}+b_{1}x+\dots+b_{n}x^n\mapsto\varphi(b_{0})+\varphi(b_{1})x+\dots+\varphi(b_{n})x^n$$Therefore, $\tilde{p}$ is irreducible and $\varphi$ induces the isomorphism of fields: $$F[X] / (p(x))\cong \tilde{F}[X] / (\tilde{p}(x))$$Then, by Theorem 5, $@s$
+> [!proof]-
+> We have that $\varphi:F\to \tilde{F}$ induces an isomorphism of polynomial rings: $$\varphi:F[X]\to \tilde{F}[X],\quad b_{0}+b_{1}x+\dots+b_{n}x^n\mapsto\varphi(b_{0})+\varphi(b_{1})x+\dots+\varphi(b_{n})x^n$$Therefore, $\tilde{p}$ is irreducible and $\varphi$ induces the isomorphism of fields: $$F[X] / (p(x))\cong \tilde{F}[X] / (\tilde{p}(x))$$Then, by Theorem 5, $F(\alpha)\cong F[X] / (p(x))\cong \tilde{F}[X] / (\tilde{p}(x))\cong \tilde{F}(\beta)$ given by: $$\sigma:F(\alpha)\to \tilde{F}(\beta),\quad \sum_{i=1}b_{i}\alpha^i\mapsto \sum_{i=1}\varphi(b_{i})\beta^i$$
 > 
-> We get an isomorphism $F(\alpha)\cong F[X] / (p(x))\cong \tilde{F}[X] / (\tilde{p} (x))\cong \tilde{F} (\beta)$. 
 ---
 > [!lemma] Lemma 7
 > Let $f,g\in F[X]$. then, 
 > 1. $f,g$ are relatively prime if and only if $f,g$ have no common root in any extension of $F$.
 > 2. if $f,g$ are distinct monic irreducible polynomials, then they have no common root in any extension of $F$.
+
+> [!proof]-
+> We have:
+> 1. Let $(f,g)=1$ in $F[X]$. Then, there exists $a,b\in F[X]$ s.t. $a(x)f(x)+b(x)g(x)=1$. Let $K:F$ be an extension where $\alpha$ is a common root of $f,g$ in $K[X]$. Then, $$0=a(\alpha)f(\alpha)+b(\alpha)g(\alpha)=1$$which is a contradiction. Conversely, $(f,g)=(h)$ for some $h\in F[X]$. Then, $h|f$ and $h|g$ and if $h\neq 1$, then $h$ is non-constant and by Kronecker, there exists a field extension $K:F$ where $h$ has a root $\alpha$. Then, $(x-\alpha)$ divides $h$ in $K$ and thereby $f$ and $g$. Therefore, $\alpha$ is a root of both $f,g$.
+> 2. We will show that $f,g$ are relatively prime. Assume that $(f,g)=(h)$ where $h|f$ and $h|g$. As $f,g$ are irreducible, $\deg(h)=0$ or $\deg(h)=\deg(f)$. If $\deg(h)=0$, then $(h)=(1)$ and $f,g$ are relatively prime. Otherwise, as $\deg(f),\deg(g)\geq 1$, $\deg(f)=\deg(h)=\deg(g)$. Therefore, $f(x)=ah(x)$ and $g(x)=bh(x)$ for some $a,b\in F$. However, as $f,g$ are both monic, $a=b$, which is a contradiction.
 ---
 > [!lemma] Theorem 8
 > An extension $K:F$ is finite, i.e. $[K:F]<+\infty$ if and only if there exists $\alpha_{1},\dots,\alpha_{n}\in K$ algebraic over $F$ s.t. $$K=F(\alpha_{1},\dots,\alpha_{n})$$
