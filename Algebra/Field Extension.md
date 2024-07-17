@@ -44,16 +44,16 @@
 >    
 >    If they are all at least quadratic, choose $q_{i}$ and use 1 and take $K:=F[X] / (q_{i})$ where we have $\alpha:=x+(q_{i})$ as a root of $q_{i}$ and thereby of $p$.
 ---
-> [!lemma] Theorem 4
+> [!lemma] Theorem 4 (Kronecker, extended)
 > Let $p(x)\in F[X]$ be an irreducible polynomial of degree $n$ over a field $F$. Let $K:=F[X] / (p(x))$ and $\alpha:=x+(p(x))$. Then, 
 > 1. $1,\alpha,\alpha^{2},\dots,\alpha^{n-1}$ forms a basis of $K$ as a $F$-vector space.
 > 2. $[K:F]=n$
 > 3. We have: $$K=\{ a_{0}+a_{1} \alpha+\dots+a_{n-1}\alpha^{n-1}:a_{i}\in F\}=F_{n-1}[\alpha]=F(\alpha)$$where $F_{n-1}$ is the set of polynomials of degree $\leq n-1$.
 
-> [!proof]+
+> [!proof]-
 > For any $f(x)\in F[X]$ as $F[X]$ is a ED, we get that: $$f(x)=p(x)q(x)+r(x)$$where $\deg r<\deg p$. Therefore, $f(x)+(p(x))=r(x)+(p(x))$ where $\deg r<n$. 
 > 
-> Now, if $1,\alpha,\dots,\alpha^{n-1}$ were linearly dependent in $K$, then there would be $b_{0},\dots,b_{n-1}$ in $F$, not all zero, s.t. $$g(\alpha)+(p):=b_{0}+b_{1}\alpha+\dots+b_{n-1}\alpha^{n-1}=0_{K}$$Therefore, $g\in (p)$ and $p|g$. But this is impossible as $\deg p=n>n-1=\deg q$. It follows that they form a basis in $K$.
+> Now, if $1,\alpha,\dots,\alpha^{n-1}$ were linearly dependent in $K$, then there would be $b_{0},\dots,b_{n-1}$ in $F$, not all zero, s.t. $$g(x)+(p):=b_{0}+b_{1}\alpha+\dots+b_{n-1}\alpha^{n-1}=0_{K}$$Therefore, $g\in (p)$ and $p|g$. But this is impossible as $\deg p=n>n-1=\deg q$. It follows that they form a basis in $K$.
 > 
 > Note that $K=F_{n-1}[\alpha]\subseteq F(\alpha)$. However, as $F(\alpha)$ is the smallest field that contains $F$ and $\alpha$, $F_{n-1}[\alpha]\supseteq F(\alpha)$ and $K=F(\alpha)$.
 ---
@@ -110,9 +110,11 @@
 > For $p(x)=x^2+1\in \mathbb{R}[X]$, there is no zeros in $\mathbb{R}$. However, in $K:=\mathbb{R}[X] / (X^{2}+1)$, $\alpha:=X+(X^{2}+1)\in K$ is a root as: $$\alpha^{2}+1=X^{2}+(X^{2}+1)+1+(X^{2}+1)=0_{K}$$
 ---
 > [!h] Example 3 (Complex Numbers)
-> Let $F:=\mathbb{R}$ and $p(x):=x^{2}+1$ with $\alpha=x+(x^{2}+1)$. Then, for $$K=\mathbb{R}[X] / (X^{2}+1)=\{ a+b\alpha:a,b\in \mathbb{R} \}$$
-> 1. $(a+b\alpha)+(c+d\alpha)=(a+c)+(b+d)\alpha$
-> 2. $(a+b\alpha)(c+d\alpha)=ac+(ad+bc)\alpha+bd\alpha^{2}=(ac-bd)+(ad+bc)\alpha$
+> Let $F:=\mathbb{R}$ and $p(x):=x^{2}+1$. 
+> 1. $x^2+1$ is irreducible in $\mathbb{R}[X]$ as it has no zeros.
+> 2. By Kronecker, it as a root in $K:=\mathbb{R} [X] / (x^2+1)$ given by $\alpha:=x+(x^{2}+1)$ and: $$K=\{ a+b\alpha:a,b\in \mathbb{R} \}$$for which it holds that:
+> 	1. $(a+b\alpha)+(c+d\alpha)=(a+c)+(b+d)\alpha$
+> 	2. $(a+b\alpha)(c+d\alpha)=ac+(ad+bc)\alpha+bd\alpha^{2}=(ac-bd)+(ad+bc)\alpha$
 > 3. Therefore, there exists an isomorphism: $$\begin{array}{cccc} {\varphi:}&{\mathbb{R} [X] / (X^{2}+1)}&\to&{\mathbb{C}}\\&{a+b\alpha} &\mapsto & {a+bi} \end{array}{}$$
 ---
 > [!h] Example 4 (Finding Inverses)
