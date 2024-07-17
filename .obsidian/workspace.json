@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -264,14 +264,14 @@
   },
   "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
-    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Unique Factorization Domain.md",
     "Algebra/Integral Domain.md",
-    "Algebra/Field.md",
     "Algebra/Field Extension.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Field.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Polynomial Ring.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Unique Factorization Domain.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Prime Ideal.md",
     "Algebra/Unit.md",

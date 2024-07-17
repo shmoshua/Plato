@@ -58,7 +58,8 @@
 > Note that $K=F_{n-1}[\alpha]\subseteq F(\alpha)$. However, as $F(\alpha)$ is the smallest field that contains $F$ and $\alpha$, $F_{n-1}[\alpha]\supseteq F(\alpha)$ and $K=F(\alpha)$.
 ---
 > [!lemma] Theorem 5
-> Let $F$ be a field and $p(x)\in F[X]$ an irreducible polynomial. For any field extension $L:F$ with a root $\alpha$ of $p(x)$, $$F[X] / (p(x))\cong F(\alpha)\subseteq L$$
+> Let $F$ be a field and $p(x)\in F[X]$ an irreducible polynomial. 
+> 1. for any field extension $L:F$ with a root $\alpha$ of $p(x)$, $$F[X] / (p(x))\cong F(\alpha)\subseteq L$$
 
 > [!proof]-
 > Consider the following homomorphism. $$\begin{array}{cccc} {\varphi:}&{F[X]}&\to&{F(\alpha)\subseteq L}\\&{f(x)} &\mapsto & {f(\alpha)} \end{array}{}$$ As $(p(x))\subseteq \text{ker }\varphi$, this induces a unique homomorphism: $\overline{\varphi}:F[X] / (p(x))\to F(\alpha)$.  As this is a field homomorphism, it is injective and $F[X] / (p(x))\cong \text{Im}(\overline{\varphi})\subseteq F(\alpha)$. However, as the image contains $F$ and $\alpha$, $F[X] / (p(x))\cong F(\alpha)$.
@@ -106,10 +107,7 @@
 > 2. $\mathbb{C}:\mathbb{R}$
 > 3. $\mathbb{C}:\mathbb{Q}$ with $\mathbb{R}$ as intermediate field.
 ---
-> [!h] Example 2 (Kronecker)
-> For $p(x)=x^2+1\in \mathbb{R}[X]$, there is no zeros in $\mathbb{R}$. However, in $K:=\mathbb{R}[X] / (X^{2}+1)$, $\alpha:=X+(X^{2}+1)\in K$ is a root as: $$\alpha^{2}+1=X^{2}+(X^{2}+1)+1+(X^{2}+1)=0_{K}$$
----
-> [!h] Example 3 (Complex Numbers)
+> [!h] Example 2 (Complex Numbers)
 > Let $F:=\mathbb{R}$ and $p(x):=x^{2}+1$. 
 > 1. $x^2+1$ is irreducible in $\mathbb{R}[X]$ as it has no zeros.
 > 2. By Kronecker, it as a root in $K:=\mathbb{R} [X] / (x^2+1)$ given by $\alpha:=x+(x^{2}+1)$ and: $$K=\{ a+b\alpha:a,b\in \mathbb{R} \}$$for which it holds that:
@@ -118,10 +116,16 @@
 > 3. Therefore, there exists an isomorphism: $$\begin{array}{cccc} {\varphi:}&{\mathbb{R} [X] / (X^{2}+1)}&\to&{\mathbb{C}}\\&{a+b\alpha} &\mapsto & {a+bi} \end{array}{}$$
 ---
 > [!h] Example 4 (Finding Inverses)
-> Let $p(x)=x^{3}-2\in \mathbb{Q}[X]$ which is irreducible by [[Unique Factorization Domain|Eisenstein]]. 
-> 1. $(1-\alpha)^{-1}=-\alpha^{2}-\alpha-1$
+> Let $p(x)=x^{3}-2\in \mathbb{Q}[X]$.
+> 1. $p$ is irreducible by [[Unique Factorization Domain|Eisenstein]]. 
+> 2. By Kronecker, $p$ has a root in $K:=\mathbb{Q}[X] / (x^3-2)$ given by $\alpha:=x+(x^3-2)$. with: $$K=\{ a+b\alpha +c\alpha^{2}:a,b,c\in \mathbb{Q}\}$$
+> 3. $p$ is irreducible hence relatively prime to any polynomial of lower degree.
+> 4. $(1-\alpha)^{-1}=-\alpha^{2}-\alpha-1$
+> 5. $(\alpha^2+1)^{-1}=\left( \frac{1}{5}+\frac{2}{5}\alpha-\frac{\alpha^{2}}{5} \right)$
 
 > [!proof]-
-> We have that:
+> For 4, we have that $(1-x,x^3+1)=1$ and there exists $a,b\in \mathbb{Q}[X]$ s.t. $$a(x)(1-x)+b(x)(x^3-2)=1$$Therefore, $a(x)(1-x)=1+(x^3+1)$ in $K$ and $a=(1-x)^{-1}$ in $K$. Especially,
 > $$\begin{align}x^{3}-2&=(-x^{2}-x-1)(1-x)-1\end{align}$$Therefore, $(1-\alpha)^{-1}=(-\alpha^{2}-\alpha-1)$.
+> 
+> For 5, we can use the euclidean algorithm to get: $$\begin{align}x^3-2&=x(x^2+1)+(-x-2)\\(x^2+1)&=(-x+2)(-x-2)+5\end{align}$$Then, $$\begin{align}5&=(x^2+1)-(-x+2)(-x-2)\\&=(x^2+1)-(-x+2)((x^3-2)-x(x^2+1))\\&=(1+2x-x^2)(x^2+1)+(x-2)(x^3-2)\end{align}$$and $1=(x^2+1)\left( \frac{1}{5}+\frac{2}{5}x-\frac{x^2}{5} \right)+\left( \frac{x}{5}-\frac{2}{5} \right)(x^3-2)$ and: $$(\alpha^{2}+1)^{-1}=\left( \frac{1}{5}+\frac{2}{5}\alpha-\frac{\alpha^{2}}{5} \right)$$
 ---
