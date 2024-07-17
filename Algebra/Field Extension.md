@@ -64,12 +64,13 @@
 > [!proof]-
 > Consider the following homomorphism. $$\begin{array}{cccc} {\varphi:}&{F[X]}&\to&{F(\alpha)\subseteq L}\\&{f(x)} &\mapsto & {f(\alpha)} \end{array}{}$$ As $(p(x))\subseteq \text{ker }\varphi$, this induces a unique homomorphism: $\overline{\varphi}:F[X] / (p(x))\to F(\alpha)$.  As this is a field homomorphism, it is injective and $F[X] / (p(x))\cong \text{Im}(\overline{\varphi})\subseteq F(\alpha)$. However, as the image contains $F$ and $\alpha$, $F[X] / (p(x))\cong F(\alpha)$.
 ---
-> [!lemma] Theorem 6
-> Let $\varphi:F\to \tilde{F}$ be a field isomorphism and $p(x)\in F[X]$ be irreducible. Let $\tilde{p}(x)\in \tilde{F}[X]$ be the irreducible polynomial obtained by applying $\varphi$ to the coefficients of $p$. If $\alpha$ is the root of $p(x)$ in some extension of $F[X]$ and $\beta$ is the root of $\tilde{p}(x)$ in some extension of $\tilde{F}[X]$. Then, there exists an isomorphism $\sigma:F(\alpha)\to \tilde{F}(\beta)$ s.t. 
-> 1. $\sigma|_{F}=\varphi$ and
-> 2. $\sigma(\alpha)=\beta$.
+> [!lemma] Theorem 6 (Isomorphism of Extensions)
+> Let $\varphi:F\to \tilde{F}$ be a field isomorphism and $p(x)=a_{0}+a_{1}x+\dots+a_{n}x^n\in F[X]$ be irreducible. 
+> 1. For $\tilde{p}(x):=\varphi(a_{0})+\varphi(a_{1})x+\dots+\varphi(a_{n})x^n\in \tilde{F}[X]$, $\alpha$ root of $p$ in some extension of $F[X]$, $\beta$ the root of $\tilde{p}(x)$ in some extension of $\tilde{F}[X]$, there exists a field isomorphism $\sigma:F(\alpha)\to \tilde{F}(\beta)$ that extends $\varphi$ and $\sigma(\alpha)=\beta$.
 
-> [!proof]-
+> [!proof]+
+> We have that $\varphi:F\to \tilde{F}$ induces an isomorphism of polynomial rings: $$\varphi:F[X]\to \tilde{F}[X],\quad b_{0}+b_{1}x+\dots+b_{n}x^n\mapsto\varphi(b_{0})+\varphi(b_{1})x+\dots+\varphi(b_{n})x^n$$Therefore, $\tilde{p}$ is irreducible and $\varphi$ induces the isomorphism of fields: $$F[X] / (p(x))\cong \tilde{F}[X] / (\tilde{p}(x))$$Then, by Theorem 5, $@s$
+> 
 > We get an isomorphism $F(\alpha)\cong F[X] / (p(x))\cong \tilde{F}[X] / (\tilde{p} (x))\cong \tilde{F} (\beta)$. 
 ---
 > [!lemma] Lemma 7
@@ -122,6 +123,7 @@
 > 3. $p$ is irreducible hence relatively prime to any polynomial of lower degree.
 > 4. $(1-\alpha)^{-1}=-\alpha^{2}-\alpha-1$
 > 5. $(\alpha^2+1)^{-1}=\left( \frac{1}{5}+\frac{2}{5}\alpha-\frac{\alpha^{2}}{5} \right)$
+> 6. For the three roots $\sqrt[3]{2  },\sqrt[3]{2  }\left( \frac{-1+i\sqrt{ 3 }}{2} \right),\sqrt[3]{2  }\left( \frac{-1-i\sqrt{ 3 }}{2} \right)$, $$\mathbb{Q}(\sqrt[3]{2  })\cong \mathbb{Q}\left( \sqrt[3]{2  }\left( \frac{-1+i\sqrt{ 3 }}{2} \right) \right)\cong\mathbb{Q}\left( \sqrt[3]{2  }\left( \frac{-1-i\sqrt{ 3 }}{2} \right) \right)\cong \mathbb{Q}[X] / (x^3-2)$$
 
 > [!proof]-
 > For 4, we have that $(1-x,x^3+1)=1$ and there exists $a,b\in \mathbb{Q}[X]$ s.t. $$a(x)(1-x)+b(x)(x^3-2)=1$$Therefore, $a(x)(1-x)=1+(x^3+1)$ in $K$ and $a=(1-x)^{-1}$ in $K$. Especially,
