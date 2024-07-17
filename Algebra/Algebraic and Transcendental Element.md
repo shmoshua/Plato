@@ -11,7 +11,9 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Algebraic and Transcendental Elements for Fields)
-> Let $K:F$ be a field extension. 
+> Let $K:F$ be a field extension and $\alpha\in K$. Then, TFAE:
+> 1. $\alpha$ is algebraic over $F$. 
+> 2. 
 ---
 > [!lemma] Proposition 1
 > Let $\alpha$ be algebraic over $F$. Then,
