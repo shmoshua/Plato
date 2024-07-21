@@ -95,11 +95,11 @@
 > [!lemma] Proposition 9
 > Let $F\subseteq K_{1},K_{2}\subseteq K$ where $K_{1},K_{2}$ are finite extensions of $F$. Then,
 > 1. $[K_{1}K_{2}:F]\leq[K_{1}:F][K_{2}:F]$ where $K_{1}K_{2}$ is the [[composite field]] of $K_{1},K_{2}$.
-> 2. if $\gcd([K_{1}:F],[K_{2}:F])=1$, then $[F(K_{1}\cup K_{2}):F]=[K_{1}:F][K_{2}:F]$
+> 2. if $\gcd([K_{1}:F],[K_{2}:F])=1$, then $[K_{1}K_{2}:F]=[K_{1}:F][K_{2}:F]$
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. As $K_{1}:F$ and $K_{2}:F$ are finite, there exists $\alpha_{1},\dots,\alpha_{n}\in K_{1}$ and $\beta_{1},\dots,\beta_{m}\in K_{2}$ s.t. $$K_{1}=F(\alpha_{1},\dots,\alpha_{n}),\quad K_{2}=F(\beta_{1},\dots,\beta_{m})$$Then, we show that $K_{1}K_{2}\subseteq F(\alpha_{1},\dots,\alpha_{n},\beta_{1},\dots,\beta_{m})$ and $[F]$
+> 1. As $K_{1}:F$ and $K_{2}:F$ are finite, there exists $\alpha_{1},\dots,\alpha_{n}\in K_{1}$ and $\beta_{1},\dots,\beta_{m}\in K_{2}$ s.t. $$K_{1}=F(\alpha_{1},\dots,\alpha_{n}),\quad K_{2}=F(\beta_{1},\dots,\beta_{m})$$Then, we show that $K_{1}K_{2}\subseteq F(\alpha_{1},\dots,\alpha_{n},\beta_{1},\dots,\beta_{m})$. More precisely, $\alpha_{i}\beta_{j}$ generates a 
 ---
 > [!lemma] Theorem 10 (Finite Extensions are Simple in char 0)
 > Let $F$ be a field s.t. $\text{char }F=0$. Then, every finite extension $K:F$ is simple, i.e. there exists $\alpha\in K$ s.t. $K=F(\alpha)$.
@@ -146,3 +146,15 @@
 > 
 > For 5, we can use the euclidean algorithm to get: $$\begin{align}x^3-2&=x(x^2+1)+(-x-2)\\(x^2+1)&=(-x+2)(-x-2)+5\end{align}$$Then, $$\begin{align}5&=(x^2+1)-(-x+2)(-x-2)\\&=(x^2+1)-(-x+2)((x^3-2)-x(x^2+1))\\&=(1+2x-x^2)(x^2+1)+(x-2)(x^3-2)\end{align}$$and $1=(x^2+1)\left( \frac{1}{5}+\frac{2}{5}x-\frac{x^2}{5} \right)+\left( \frac{x}{5}-\frac{2}{5} \right)(x^3-2)$ and: $$(\alpha^{2}+1)^{-1}=\left( \frac{1}{5}+\frac{2}{5}\alpha-\frac{\alpha^{2}}{5} \right)$$
 ---
+> [!h] Example 5
+> Consider $\mathbb{Q}(\sqrt[6]{ 2 },\sqrt{ 2 })$. 
+> 1. $\sqrt{ 2 }\in \mathbb{Q}(\sqrt[6]{2  })$ and $\mathbb{Q}(\sqrt{ 2 })\subseteq \mathbb{Q}(\sqrt[6]{2  })$.  
+> 2. $\mathbb{Q}(\sqrt[6]{2  },\sqrt{ 2 })=\mathbb{Q}(\sqrt[6]{2  })$ and $[\mathbb{Q}(\sqrt[6]{2  },\sqrt{ 2 }):\mathbb{Q}(\sqrt[6]{ 2 })]=1$.
+> 3. $m_{\sqrt[6]{2  },\mathbb{Q}}(x)=x^6-2$ by Eisenstein and $[\mathbb{Q}(\sqrt[6]{ 2 }):\mathbb{Q}]=6$.
+> 4. By Theorem 2, $[\mathbb{Q}(\sqrt[6]{ 2 }):\mathbb{Q}(\sqrt{ 2 })]=3$ where the minimal polynomial is given by $$m_{\sqrt[6]{2  },\mathbb{Q}(\sqrt{ 2 })}(x)=x^3-\sqrt{ 2 }$$
+---
+> [!h] Example 6
+> Consider $\mathbb{Q}(\sqrt{ 3 },\sqrt{ 5 })$.
+> 1. By Proposition 9, $[\mathbb{Q}(\sqrt{ 3 },\sqrt{ 5 }):\mathbb{Q}]\leq[\mathbb{Q}(\sqrt{ 3 }):\mathbb{Q}][\mathbb{Q}(\sqrt{ 5 }:\mathbb{Q})]= 4$
+> 2. Since $f(x)=x^2-5\in \mathbb{Q}[X]\subseteq \mathbb{Q}(\sqrt{ 3 })[X]$ has $5$ as root $[\mathbb{Q}(\sqrt{ 3 },\sqrt{ 5 }):\mathbb{Q}(\sqrt{ 3 })]\leq 2$.
+> 3. However, $\sqrt{ 5 }\notin \mathbb{Q}(\sqrt{ 3 })$. Otherwise, $\sqrt{ 5 }=a+b \sqrt{ 3 }$ with $a,b\in \mathbb{Q}$ and $$5=a^{2}+3b ^{2}+2ab \sqrt{ 3 }$$

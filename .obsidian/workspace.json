@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Minimal Polynomial.md",
                 "mode": "preview",
                 "source": true
               }
@@ -289,10 +289,10 @@
   },
   "active": "4c865b9cc5ecf1bd",
   "lastOpenFiles": [
-    "Algebra/Algebraic and Transcendental Element.md",
-    "Algebra/Field Extension.md",
-    "Algebra/Composite Field.md",
     "Algebra/Minimal Polynomial.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Composite Field.md",
     "Algebra/Finite Field.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Unique Factorization Domain.md",
