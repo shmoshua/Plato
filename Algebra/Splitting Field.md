@@ -22,18 +22,18 @@
 > 2. $[K:F]=[\tilde{K}:\tilde{F}]$
 > 3. the number of such extensions is at most $[K:F]$, with equality if $f$ is [[Separable Extension|separable]] over $F$.
 
-> [!proof]+
+> [!proof]-
 > We will use induction over $[K:F]$. 
 > 1. If $[K:F]=1$, then $K=F,\sigma=\varphi$ and there exists at most 1 such extension. 
 > 2. Assume $[K:F]>1$. Then, there exists a root $\alpha\in K : F$ of $f$. Fix this root. Then, $m_{\alpha,F}(x)|f(x)$ since $f(\alpha)=0$. If there exists an isomorphism $\sigma:K\to \tilde{K}$ extending $\varphi$, then $\sigma(\alpha)$ is a root of $(\varphi m_{\alpha,F})(x)$. Hence, the values $\sigma(\alpha)$ must come from roots of $\varphi m_{\alpha,F}$. 
 >    
 >    Further, note that $\tilde{m}:=\varphi m_{\alpha,F}$ has a root in $\tilde{K}$, since the isomorphism $\varphi:F\to \tilde{F}$ extends to a ring isomorphism $\varphi:F[X]\to \tilde{F}[X]$ and $m_{\alpha,F}|f$ in $F[X]$, $\tilde{m}|\tilde{f}$ in $\tilde{F}[X]$. As $m_{\alpha,F}$ is irreducible in $F[X]$, $\tilde{m}$ is irreducible in $\tilde{F}[X]$, and since $\tilde{f}$ splits in $\tilde{K}$, so does $\tilde{m}$ in $\tilde{K}$. This shows that $\tilde{m}$ has a root in $\tilde{K}$. Pick $\tilde{\alpha}\in \tilde{K}$ s.t. $\tilde{m}(\tilde{\alpha})=0$. Then, $d:=\deg \tilde{m}=\deg m>1$ since $[F(\alpha):F]>1$, i.e. there are at most $d$ different choices for $\tilde{\alpha}$. 
 > 
-> This gives us an extension of $\varphi$ by [[Field Extension|Theorem 6]] $\varphi':F(\alpha)\to \tilde{F}(\tilde{\alpha})$ s.t. $\varphi'|_{F}=\varphi$ and $[F(\alpha):F]=[\tilde{F}(\tilde{\alpha}):\tilde{F}]$.
+> 	This gives us an extension of $\varphi$ by [[Field Extension|Theorem 6]] $\varphi':F(\alpha)\to \tilde{F}(\tilde{\alpha})$ s.t. $\varphi'|_{F}=\varphi$ and $[F(\alpha):F]=[\tilde{F}(\tilde{\alpha}):\tilde{F}]$.
 > 
-> Now we can apply the induction: Take $F(\alpha),\tilde{F}(\tilde{\alpha})$ as new base fields with isomorphism $\varphi'$. Since $K$ is a splitting field of $f$ over $F$, so is it a splitting field of $f$ over $F(\alpha)$ and same goes for $\tilde{K}$ and $\tilde{f}$ over $\tilde{F}(\tilde{\alpha})$. As $[F(\alpha):F]>1$, we have that $[K:F(\alpha)]=[K:F] /[F(\alpha):F]<[K:F]$. By induction, $\varphi:F(\alpha)\to \tilde{F}(\tilde{\alpha})$ extends to an isomorphism $\sigma:K\to \tilde{K}$ s.t. $\sigma|_{F(\alpha)}=\varphi'$.
+> 	Now we can apply the induction: Take $F(\alpha),\tilde{F}(\tilde{\alpha})$ as new base fields with isomorphism $\varphi'$. Since $K$ is a splitting field of $f$ over $F$, so is it a splitting field of $f$ over $F(\alpha)$ and same goes for $\tilde{K}$ and $\tilde{f}$ over $\tilde{F}(\tilde{\alpha})$. As $[F(\alpha):F]>1$, we have that $[K:F(\alpha)]=[K:F] /[F(\alpha):F]<[K:F]$. By induction, $\varphi:F(\alpha)\to \tilde{F}(\tilde{\alpha})$ extends to an isomorphism $\sigma:K\to \tilde{K}$ s.t. $\sigma|_{F(\alpha)}=\varphi'$.
 > 
-> However, as $\varphi'|_{F}=\varphi$, we have that $\sigma|_{F}=\varphi$. Further, there are at most $[K:F(\alpha)]$ such extensions. Since $\varphi'$ is determined by $\varphi(\alpha)\in \tilde{K}$, which is a root of $\tilde{m}$. Therefore, there exists at most $[F(\alpha):F]$ choices of such $\varphi'$. This proves the statement.
+> 	However, as $\varphi'|_{F}=\varphi$, we have that $\sigma|_{F}=\varphi$. Further, there are at most $[K:F(\alpha)]$ such extensions. Since $\varphi'$ is determined by $\varphi(\alpha)\in \tilde{K}$, which is a root of $\tilde{m}$. Therefore, there exists at most $[F(\alpha):F]$ choices of such $\varphi'$. This proves the statement.
 > 
 - **Corollary**: Let $f\in F[X]$ be a non-constant polynomial and $K,\tilde{K}$ two splitting fields of $f$ over $F$. Then, $[K:F]=[\tilde{K}:F]$ and there exists an isomorphism $\sigma:K\to \tilde{K}$ s.t. $\sigma|_{F}=\text{id}_{F}$, i.e. $\sigma$ is an ***$F$-isomorphism***. Moreover, there are at most $[K:F]$ such extensions $\sigma$.
 ---
