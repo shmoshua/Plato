@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Field Extension.md"
+                "file": "Algebra/Algebraic and Transcendental Element.md"
               }
             }
           }
@@ -287,11 +287,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4c865b9cc5ecf1bd",
+  "active": "60d0cdb32b8edc50",
   "lastOpenFiles": [
-    "Algebra/Minimal Polynomial.md",
     "Algebra/Field Extension.md",
     "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Minimal Polynomial.md",
     "Algebra/Composite Field.md",
     "Algebra/Finite Field.md",
     "Algebra/Principal Ideal Domain.md",
