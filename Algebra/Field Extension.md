@@ -158,3 +158,8 @@
 > 1. By Proposition 9, $[\mathbb{Q}(\sqrt{ 3 },\sqrt{ 5 }):\mathbb{Q}]\leq[\mathbb{Q}(\sqrt{ 3 }):\mathbb{Q}][\mathbb{Q}(\sqrt{ 5 }:\mathbb{Q})]= 4$
 > 2. Since $f(x)=x^2-5\in \mathbb{Q}[X]\subseteq \mathbb{Q}(\sqrt{ 3 })[X]$ has $5$ as root $[\mathbb{Q}(\sqrt{ 3 },\sqrt{ 5 }):\mathbb{Q}(\sqrt{ 3 })]\leq 2$.
 > 3. However, $\sqrt{ 5 }\notin \mathbb{Q}(\sqrt{ 3 })$. Otherwise, $\sqrt{ 5 }=a+b \sqrt{ 3 }$ with $a,b\in \mathbb{Q}$ and $$5=a^{2}+3b ^{2}+2ab \sqrt{ 3 }$$
+> 	- if $a=0$, then $5=3b ^{2}$ which is a contradiction.
+> 	- if $b=0$, then $5=a^{2}$ which is a contradiction.
+> 	- therefore, $\sqrt{ 3 }=(5-a^{2}-3b ^{2}) /2ab$ which is a rational, which is a contradiction.
+> 4. $[\mathbb{Q}(\sqrt{ 3 },\sqrt{ 5 }):\mathbb{Q}]=4$.
+---
