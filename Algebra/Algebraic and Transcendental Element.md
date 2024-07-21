@@ -53,15 +53,15 @@
 > 1. (1=>2):  holds from [[Minimal Polynomial|Theorem 2]]. 
 > 2. (2=>1): For the converse, suppose that $[F(\alpha):F]=n$. Then, $$1,\alpha,\dots,\alpha^n$$are linearly dependent and there exists $b_{0},\dots,b_{n}\in F$ not all zero, s.t. $$b_{0}+b_{1}\alpha+\dots+b_{n}\alpha^n=0$$By defining $g(x):=b_{0}+b_{1}x+\dots+b_{n}x^n\in F[X]$, we have that $\alpha$ is algebraic over $F$. 
 - **Corollary**: If $[K:F]$ is finite, $K:F$ is an [[Algebraic and Transcendental Element|algebraic extension]]. (cf. [[Field Extension|Theorem 2]])
-- **Remark**: The converse is false. 
+- **Remark**: The converse is false. $[\overline{\mathbb{Q}}:\mathbb{Q}]=\infty$.
 ---
-> [!lemma] Theorem 3
+> [!lemma] Theorem 4
 > Let $L:K:F$. If $L$ is algebraic over $K$ and $K$ is algebraic over $F$, then $L$ is algebraic over $F$. 
 
 > [!proof]-
 > Let $\alpha\in L$. Then, $\alpha$ is algebraic over $K$ and therefore, there exists a polynomial $$p(x)=a_{0}+a_{1}\alpha+\dots+a_{n}\alpha^n\in K[X]$$As $a_{i}$ is algebraic over $F$ for all $i$, we have: $[F(a_{0},a_{1},\dots,a_{n}):F]<+\infty$. Therefore, $$[F(a_{0},a_{1},\dots,a_{n},\alpha):F]=[F(a_{0},a_{1},\dots,a_{n},\alpha):F(a_{0},\dots,a_{n})][F(a_{0},\dots ,a_{n}):F]<+\infty$$Therefore, $\alpha$ is algebraic over $F$.
 ---
-> [!lemma] Theorem 4 (Transcendental Element Isomorphism Extension)
+> [!lemma] Theorem 5 (Transcendental Element Isomorphism Extension)
 > For a [[Field Extension|field extension]] $L:K$ and $\alpha\in L$ transcendental over $K$. Then, $\text{ev}_{\alpha}:K[x]\to K[\alpha]$ extends to an isomorphism: $$\Phi_{\alpha}:K(x)\to K(\alpha)$$
 
 > [!proof]-

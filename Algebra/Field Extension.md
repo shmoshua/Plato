@@ -83,14 +83,25 @@
 > 2. We will show that $f,g$ are relatively prime. Assume that $(f,g)=(h)$ where $h|f$ and $h|g$. As $f,g$ are irreducible, $\deg(h)=0$ or $\deg(h)=\deg(f)$. If $\deg(h)=0$, then $(h)=(1)$ and $f,g$ are relatively prime. Otherwise, as $\deg(f),\deg(g)\geq 1$, $\deg(f)=\deg(h)=\deg(g)$. Therefore, $f(x)=ah(x)$ and $g(x)=bh(x)$ for some $a,b\in F$. However, as $f,g$ are both monic, $a=b$, which is a contradiction.
 ---
 > [!lemma] Theorem 8
-> An extension $K:F$ is finite, i.e. $[K:F]<+\infty$ if and only if there exists $\alpha_{1},\dots,\alpha_{n}\in K$ algebraic over $F$ s.t. $$K=F(\alpha_{1},\dots,\alpha_{n})$$
+> For an extension $K:F$, TFAE:
+> 1. $[K:F]<+\infty$ 
+> 2. there exists $\alpha_{1},\dots,\alpha_{n}\in K$ algebraic over $F$ s.t. $K=F(\alpha_{1},\dots,\alpha_{n})$.
 
 > [!proof]-
-> Assume that $[K:F]=n$. Then, there exists a basis $\alpha_{1},\dots,\alpha_{n}\in K$ that generates $K$. Furthermore, $\alpha_{i}$ is algebraic as $K:F(\alpha_{i}):F$ and $[F(\alpha_{i}):F]$ is finite by [[Algebraic and Transcendental Element|Prop 2]].
-> 
-> Conversely, if there exists $\alpha_{1},\dots,\alpha_{n}\in K$ algebraic over $F$ s.t. $K=F(\alpha_{1},\dots,\alpha_{n})$, we have that: $$[K:F]=[F(\alpha_{1}):F]\prod_{i=2}^{n}[F(\alpha_{1},\dots,\alpha_{i}):F(\alpha_{1},\dots,\alpha_{i-1})]$$which is finite as a finite product.
+> We have that:
+> 1. (1=>2): Assume that $[K:F]=n$. Then, there exists a basis $\alpha_{1},\dots,\alpha_{n}\in K$ that generates $K$. Furthermore, $\alpha_{i}$ is algebraic as $K:F(\alpha_{i}):F$ and $[F(\alpha_{i}):F]$ is finite by [[Algebraic and Transcendental Element|Prop 2]].
+> 2. (2=>1): if there exists $\alpha_{1},\dots,\alpha_{n}\in K$ algebraic over $F$ s.t. $K=F(\alpha_{1},\dots,\alpha_{n})$, we have that: $$[K:F]=[F(\alpha_{1}):F]\prod_{i=2}^{n}[F(\alpha_{1},\dots,\alpha_{i}):F(\alpha_{1},\dots,\alpha_{i-1})]$$which is finite as a finite product.
 ---
-> [!lemma] Theorem 9 (Finite Extensions are Simple in char 0)
+> [!lemma] Proposition 9
+> Let $F\subseteq K_{1},K_{2}\subseteq K$ where $K_{1},K_{2}$ are finite extensions of $F$. Then,
+> 1. $[K_{1}K_{2}:F]\leq[K_{1}:F][K_{2}:F]$ where $K_{1}K_{2}$ is the [[composite field]] of $K_{1},K_{2}$.
+> 2. if $\gcd([K_{1}:F],[K_{2}:F])=1$, then $[F(K_{1}\cup K_{2}):F]=[K_{1}:F][K_{2}:F]$
+
+> [!proof]+
+> We have that:
+> 1. As $K_{1}:F$ and $K_{2}:F$ are finite, there exists $\alpha_{1},\dots,\alpha_{n}\in K_{1}$ and $\beta_{1},\dots,\beta_{m}\in K_{2}$ s.t. $$K_{1}=F(\alpha_{1},\dots,\alpha_{n}),\quad K_{2}=F(\beta_{1},\dots,\beta_{m})$$Then, we show that $K_{1}K_{2}\subseteq F(\alpha_{1},\dots,\alpha_{n},\beta_{1},\dots,\beta_{m})$ and $[F]$
+---
+> [!lemma] Theorem 10 (Finite Extensions are Simple in char 0)
 > Let $F$ be a field s.t. $\text{char }F=0$. Then, every finite extension $K:F$ is simple, i.e. there exists $\alpha\in K$ s.t. $K=F(\alpha)$.
 
 > [!proof]-
