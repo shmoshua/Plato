@@ -26,6 +26,8 @@
 > 1. there exists a unique monic irreducible polynomial $m_{\alpha,F}(x)\in F[X]$ that has $\alpha$ as root. 
 > 2. if $f(x)\in F[X]$ also has $\alpha$ as root then, $m_{\alpha,F}(x)|f(x)$ in $F[X]$.
 
+^15dd97
+
 > [!proof]-
 > We have:
 > 1. any polynomial $f\in F[X]$ is also in $L[X]$ for any extension $L:F$.
@@ -37,15 +39,21 @@
 > 	Let $f(x)\in F[X]$ s.t. $f(\alpha)=0$. Then, using the Euclidean algorithm we can find $q(x),r(x)\in F[X]$ s.t. $$f(x)=q(x)m(x)+r(x)$$with $\deg r<\deg m$. Then, we have: $$0=f(\alpha)=q(\alpha)m(\alpha)+r(\alpha)=r(\alpha)$$However, this contradicts the minimality assumption if $r$ is non-zero. Therefore, $m(x)|f(x)$. 
 > 	
 > 	  This especially shows the uniqueness of such polynomial.
+
+^dd6eee
+
 ---
-> [!lemma] Proposition 2
-> Let $K:F$ and $\alpha\in K$. The following are equivalent:
+> [!lemma] Proposition 3
+> Let $K:F$ and $\alpha\in K$. TFAE:
 > 1.  $\alpha$ is algebraic over $F$. 
 > 2. $[F(\alpha):F]<+\infty$
 
 > [!proof]-
-> (1=>2) holds from Theorem 2. For the converse, suppose that $[F(\alpha):F]=n$. Then, $$1,\alpha,\dots,\alpha^n$$are linearly dependent and there exists $b_{0},\dots,b_{n}\in F$ not all zero, s.t. $$b_{0}+b_{1}\alpha+\dots+b_{n}\alpha^n=0$$By defining $g(x):=b_{0}+b_{1}x+\dots+b_{n}x^n\in F[X]$, we have that $\alpha$ is algebraic over $F$. 
+> We have:
+> 1. (1=>2):  holds from [[Minimal Polynomial|Theorem 2]]. 
+> 2. (2=>1): For the converse, suppose that $[F(\alpha):F]=n$. Then, $$1,\alpha,\dots,\alpha^n$$are linearly dependent and there exists $b_{0},\dots,b_{n}\in F$ not all zero, s.t. $$b_{0}+b_{1}\alpha+\dots+b_{n}\alpha^n=0$$By defining $g(x):=b_{0}+b_{1}x+\dots+b_{n}x^n\in F[X]$, we have that $\alpha$ is algebraic over $F$. 
 - **Corollary**: If $[K:F]$ is finite, $K:F$ is an [[Algebraic and Transcendental Element|algebraic extension]]. (cf. [[Field Extension|Theorem 2]])
+- **Remark**: The converse is false. 
 ---
 > [!lemma] Theorem 3
 > Let $L:K:F$. If $L$ is algebraic over $K$ and $K$ is algebraic over $F$, then $L$ is algebraic over $F$. 
