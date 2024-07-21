@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Splitting Field.md",
                 "mode": "source",
                 "source": true
               }
@@ -105,6 +105,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "33fe722f667f260b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Splitting Field.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,7 +164,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 2.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -225,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Splitting Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Splitting Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md"
+                "file": "Algebra/Splitting Field.md"
               }
             }
           }
@@ -287,17 +299,18 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "60d0cdb32b8edc50",
+  "active": "33fe722f667f260b",
   "lastOpenFiles": [
+    "Algebra/Unique Factorization Domain.md",
+    "Courses/Algebra II/Exercise Sheet 2.md",
     "Algebra/Field Extension.md",
+    "Algebra/Splitting Field.md",
     "Algebra/Algebraic and Transcendental Element.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Minimal Polynomial.md",
     "Algebra/Composite Field.md",
     "Algebra/Finite Field.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Unique Factorization Domain.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Courses/Algebra II/Exercise Sheet 2.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Integral Domain.md",
     "Algebra/Field.md",
@@ -314,7 +327,6 @@
     "Algebra/Quaternion.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Quotient Ring.md",
-    "Algebra/Prime Ring.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

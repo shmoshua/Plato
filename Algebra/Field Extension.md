@@ -9,6 +9,7 @@
 - **Related definition**: If $L:K$ and $K:F$, then $K$ is the ***intermediate field*** of $L:F$.
 - **Related definition**: The ***degree*** of extension $K:F$ is denoted as $[K:F]:=\text{dim}_{F} K$ as a $F$-vector space. (cf. Lemma 1)
 - **Related definition**: An extension $K:F$ is ***finitely generated*** if there exists $\alpha_{1},\dots,\alpha_{n}\in K$ s.t. $K=F(\alpha_{1},\dots,\alpha_{n})$.
+- **Related definition**: A ***field extension isomorphism*** is a pair of field isomorphisms $\varphi:K\to \tilde{K}$ and $\sigma:L\to \tilde{L}$ s.t. $i:K\hookrightarrow L$ and $j:\tilde{K}\hookrightarrow \tilde{L}$ are respective embeddings with: $$\sigma \circ i =j\circ \varphi$$
 ---
 ##### Properties
 > [!lemma] Lemma 1
