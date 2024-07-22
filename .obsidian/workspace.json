@@ -85,14 +85,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Normal Extension.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -111,19 +111,19 @@
             }
           },
           {
-            "id": "8014efcb1d9c9a1d",
+            "id": "f0c5a0d062c4987e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic Closure.md",
+                "file": "Algebra/Normal Extension.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "33fe722f667f260b",
+            "id": "8014efcb1d9c9a1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -135,7 +135,7 @@
             }
           },
           {
-            "id": "60d0cdb32b8edc50",
+            "id": "33fe722f667f260b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -176,7 +176,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -212,7 +212,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inverse function theorem",
+                "query": "fundamental theorem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -229,7 +229,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -249,7 +250,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebraic Closure.md",
+                "file": "Algebra/Normal Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +267,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Algebraic Closure.md",
+                "file": "Algebra/Normal Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebraic Closure.md"
+                "file": "Algebra/Normal Extension.md"
               }
             }
           }
@@ -311,21 +312,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8014efcb1d9c9a1d",
+  "active": "f0c5a0d062c4987e",
   "lastOpenFiles": [
-    "Algebra/Algebraic and Transcendental Element.md",
-    "Algebra/Algebraic Closure.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Splitting Field.md",
+    "Algebra/Normal Extension.md",
     "Algebra/Field Extension.md",
+    "Algebra/Algebraic Closure.md",
+    "Topology/Normal Space.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Minimal Polynomial.md",
+    "Algebra/Integral Domain.md",
     "Algebra/Unique Factorization Domain.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
-    "Algebra/Minimal Polynomial.md",
     "Algebra/Composite Field.md",
     "Algebra/Finite Field.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Polynomial Ring.md",
-    "Algebra/Integral Domain.md",
     "Algebra/Field.md",
     "Courses/Algebra II/Exercise Sheet 1.md",
     "Courses/Algebra II/Exercise Sheet 0.md",
@@ -337,8 +340,6 @@
     "Algebra/Euclidean Domain.md",
     "Analysis/Euclidean Norm.md",
     "Algebra/Ring.md",
-    "Algebra/Quaternion.md",
-    "Algebra/Ring Homomorphism.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
