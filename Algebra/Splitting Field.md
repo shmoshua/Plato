@@ -44,7 +44,10 @@
 > 2. a splitting field of $f$ over $\mathbb{R}[X]$ is $\mathbb{R}(i)=\mathbb{C}$ with degree 2.
 ---
 > [!h] Example 2
-> Let $f(x):=x^3-2\in \mathbb{Q}[X]$. Then, the splitting field of $f$ over $\mathbb{Q}$ is $K:=\mathbb{Q}(\sqrt[3]{2  },\sqrt[3]{2  }\xi,\sqrt[3]{2  }\xi^{2})=\mathbb{Q}(\sqrt[3]{2  },\xi)$ where $\xi$ is the complex root of unity. Then, $$[K:\mathbb{Q}]=[\mathbb{Q}(\sqrt[3]{2  }):\mathbb{Q}]\cdot [\mathbb{Q}(\xi):\mathbb{Q}]=6$$
+> Let $f(x):=x^3-2\in \mathbb{Q}[X]$. Then, 
+> 1. the splitting field of $f$ over $\mathbb{Q}$ is $K:=\mathbb{Q}(\sqrt[3]{2  },\sqrt[3]{2  }\xi,\sqrt[3]{2  }\xi^{2})=\mathbb{Q}(\sqrt[3]{2  },\xi)$ where $\xi$ is the complex root of unity. 
+> 2. $m_{\xi,\mathbb{Q}}(x)=x^2+x+1$ and $[\mathbb{Q}(\xi):\mathbb{Q}]=2$.
+> 3. $[K:\mathbb{Q}]=[\mathbb{Q}(\sqrt[3]{2  }):\mathbb{Q}]\cdot [\mathbb{Q}(\xi):\mathbb{Q}]=6$ as $\gcd(2,3)=1$ by [[Field Extension|Proposition 9]].
 ---
 > [!h] Example 3
 > We have:

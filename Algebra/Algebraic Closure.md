@@ -4,6 +4,7 @@
 > A [[field]] $K$ is called ***algebraically closed*** if every polynomial $f\in K[X]$ has a root in $K$. Then, an extension $K:F$ is the ***algebraic closure*** of $F$, denoted as $\overline{F}$, if:
 > 1. $K$ is [[Algebraic and Transcendental Element|algebraic]] over $F$ and 
 > 2. $K$ is algebraically closed.
+- **Remark**: Let $F$ be algebraically closed. Then, as $F$ is algebraic over $F$, $\overline{F}=F$.
 ---
 ##### Properties
 > [!lemma] Theorem 1
