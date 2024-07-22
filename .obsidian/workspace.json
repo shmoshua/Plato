@@ -90,9 +90,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "eaae675bd7206691",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -250,7 +258,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Normal Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,7 +274,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Normal Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,9 +295,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algebra/Normal Extension.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -312,10 +316,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f0c5a0d062c4987e",
+  "active": "eaae675bd7206691",
   "lastOpenFiles": [
-    "Algebra/Splitting Field.md",
     "Algebra/Normal Extension.md",
+    "Algebra/Splitting Field.md",
     "Algebra/Field Extension.md",
     "Algebra/Algebraic Closure.md",
     "Topology/Normal Space.md",
