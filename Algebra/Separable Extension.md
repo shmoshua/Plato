@@ -19,7 +19,9 @@
 > 
 ---
 > [!lemma] Proposition 2
-> A non-constant polynomial $f\in F[X]$ has a root $\alpha$ with multiplicity $\geq 2$ in a splitting field if and only if $\alpha$ is a root of both $f$ and $f'$.
+> For a non-constant polynomial $f\in F[X]$, TFAE:
+> 1. $f$ is not separable.
+> 2. $f$ and $f'$ have a common root.
 
 > [!proof]-
 > Let $\alpha$ is a root of multiplicity $n\geq 2$ in a splitting field $K$. Then, $f(x)=(x-\alpha)^ng(x)\in K[X]$ and: $$f'(x)=n(x-\alpha)^{n-1}g(x)+(x-\alpha)^ng'(x)=(x-\alpha)(n(x-\alpha)^{n-2}g(x)+(x-\alpha)^{n-1}g'(x))$$Therefore, $\alpha$ is also a root of $f'$.
@@ -51,15 +53,16 @@
 ---
 ##### Examples
 > [!h] Example 1
-> Let $\Phi_{p}(x):=x^{p-1}+\dots+1$. Then, the roots are all distinct as $\exp\left( \frac{2\pi ik}{p} \right)$ and it is separable.
+> Let $\Phi_{p}(x):=x^{p-1}+\dots+1$. Then, 
+> 1. the roots are all distinct as $\exp\left( \frac{2\pi ik}{p} \right)$ and it is separable.
 ---
 > [!h] Example 2
-> Consider $f(x):=x^p-t\in \mathbb{Z}_{p}(t)[X]$ for $p$ prime. Then, 
+> Consider $f(x):=x^p-t\in \mathbb{Z}/p\mathbb{Z}(t)[X]$ for $p$ prime. Then, 
+> 1. $f$ is not inseparable over $\mathbb{Z} / p\mathbb{Z}(t)$.
 > 1. $f$ is irreducible.
-> 2. $f$ is not separable over $\mathbb{Z}_{p}(t)$.
 
 > [!proof]-
-> Let $\alpha$ be a root of $f$. Then, $\alpha^p=t$ and: $$(x-\alpha)^p=x^p-\alpha^p=x^p-t$$If $\beta$ is another root, then $0=(\beta-\alpha)^p$ and $\alpha=\beta$.
-> 
-> Assume that $f$ is not irreducible and $f=gh$ where $\deg g,\deg h<\deg f$. Then, as $f(x)=(x-\alpha)^p$, $g(x)=(x-\alpha)^s$ for $0<s<p$ as the factorization is unique with $\alpha^s\in \mathbb{Z}_{p}(t)$. As $s$ and $p$ are relatively prime, there exists $a,b$ s.t. $$as+bp=1$$Then, $\alpha=\alpha^{as}\alpha^{bp}\in \mathbb{Z}_{p}(t)$ and there exists $u(t),v(t)\in \mathbb{Z}_{p}[t]$ s.t. $\alpha=\frac{u(t)}{v(t)}$. But as $\alpha^p=t$, $$u^p(t)-tv^p(t)=0$$which cannot happen as the terms are of different degree.
+> We have:
+> 1. Let $\alpha$ be a root of $f$. Then, $\alpha^p=t$ and: $$(x-\alpha)^p=x^p-\alpha^p=x^p-t$$If $\beta$ is another root, then $0=(\beta-\alpha)^p$ and $\alpha=\beta$.
+> 2. Assume that $f$ is not irreducible and $f=gh$ where $\deg g,\deg h<\deg f$. Then, for a root $\alpha$ of $f$ as $f(x)=(x-\alpha)^p$, $g(x)=(x-\alpha)^s$ for $0<s<p$ as the factorization is unique. Hence, we have that $\alpha^s\in \mathbb{Z} /p\mathbb{Z}(t)$. As $s$ and $p$ are relatively prime, there exists $a,b$ s.t. $$as+bp=1$$Then, $\alpha=\alpha^{as}\alpha^{bp}\in \mathbb{Z} /p\mathbb{Z}(t)$ and there exists $u(t),v(t)\in \mathbb{Z} / p\mathbb{Z}[t]$ s.t. $\alpha=\frac{u(t)}{v(t)}$. But as $\alpha^p=t$, $$u^p(t)-tv^p(t)=0$$which cannot happen as the terms are of different degree.
 ---
