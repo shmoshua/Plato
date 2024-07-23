@@ -90,17 +90,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "eaae675bd7206691",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -220,7 +212,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fundamental theorem",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,8 +229,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -258,6 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algebra/Normal Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,6 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algebra/Normal Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,7 +288,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algebra/Normal Extension.md"
+              }
             }
           }
         ]
@@ -316,15 +311,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "eaae675bd7206691",
+  "active": "f0c5a0d062c4987e",
   "lastOpenFiles": [
-    "Algebra/Normal Extension.md",
     "Algebra/Splitting Field.md",
+    "Algebra/Normal Extension.md",
     "Algebra/Field Extension.md",
+    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Algebraic Closure.md",
     "Topology/Normal Space.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Minimal Polynomial.md",
     "Algebra/Integral Domain.md",
     "Algebra/Unique Factorization Domain.md",
