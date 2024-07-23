@@ -54,3 +54,4 @@
 > We have:
 > 1. $\mathbb{Q}(e^{2\pi i / p})$ is the splitting field of $x^p-1\in \mathbb{Q}[X]$ and therefore, 
 > 2. $\mathbb{Q}(e^{2\pi i / p}):\mathbb{Q}$ is normal. 
+---

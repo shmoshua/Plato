@@ -2,19 +2,21 @@
 
 > [!definition]
 > For a [[field]] $F$, 
-> 1. a polynomial $g\in F[X]$ is called ***separable*** over $F$ if each of its irreducible factors has distinct roots in a splitting field.
-> 2. an algebraic element $\alpha$ over $F$ is called ***separable*** over $F$ if $m_{\alpha,F}$ is separable over $F$.
-> 3. an algebraic extension $K:F$ is called ***separable*** if every $\alpha\in K$ is separable.
+> 1. a polynomial $g\in F[X]$ is called ***separable*** over $F$ if factors into distinct linear factors in its splitting field.
+> 2. an [[Algebraic and Geometric Multiplicity|algebraic element]] $\alpha$ over $F$ is called ***separable*** over $F$ if $m_{\alpha,F}$ is separable over $F$.
+> 3. an [[Algebraic and Transcendental Element|algebraic extension]] $K:F$ is called ***separable*** if every $\alpha\in K$ is separable.
 - **Related definition**: For a field $F$ and $f(x):=\sum_{i=0}^{n}a_{i}x^i\in F[X]$, the ***derivative*** of $f$ is given as: $$f'(x):=\sum_{i=1}^{n}ia_{i}x^{i-1}$$
 ---
 ##### Properties
 > [!lemma] Lemma 1
-> Let $L:K$ be a separable algebraic extension and $M$ an intermediate field. Then, both $L:M$ and $M:K$ are separable.
+> Let $L:M:K$ and $L:K$ is separable. Then, 
+> 1. both $L:M$ and $M:K$ are separable.
 
 > [!proof]-
-> Clearly, $M:K$ is separable by definition. Now, let $\alpha\in L$ and $m_{\alpha,K}$ and $m_{\alpha,L}$ be the minimal polynomials of $\alpha$ over $K,L$ respectively. Then, $m_{\alpha,M}|m_{\alpha,K}$ in $M[X]$.
+> Clearly, $M:K$ is separable by definition. 
 > 
-> As $\alpha$ is separable over $K$, $m_{\alpha,K}$ has distinct roots. Therefore, $m_{\alpha,M}$ also has distinct roots hence $L:M$ is separable.
+> Now, let $\alpha\in L$. As $\alpha\in L$ is algebraic over $K$, it is also algebraic over $M$ and we have that: $m_{\alpha,M}|m_{\alpha,K}$ in $M[X]$. As $\alpha$ is separable over $K$, $m_{\alpha,K}$ has distinct roots in its splitting field and so does $m_{\alpha,M}$. 
+> 
 ---
 > [!lemma] Proposition 2
 > A non-constant polynomial $f\in F[X]$ has a root $\alpha$ with multiplicity $\geq 2$ in a splitting field if and only if $\alpha$ is a root of both $f$ and $f'$.
