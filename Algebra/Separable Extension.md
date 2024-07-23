@@ -24,13 +24,15 @@
 > 2. $f$ and $f'$ have a common root.
 
 > [!proof]-
-> Let $\alpha$ is a root of multiplicity $n\geq 2$ in a splitting field $K$. Then, $f(x)=(x-\alpha)^ng(x)\in K[X]$ and: $$f'(x)=n(x-\alpha)^{n-1}g(x)+(x-\alpha)^ng'(x)=(x-\alpha)(n(x-\alpha)^{n-2}g(x)+(x-\alpha)^{n-1}g'(x))$$Therefore, $\alpha$ is also a root of $f'$.
-> 
-> Conversely, if $\alpha$ is a root of both $f,f'$, then, $f(x)=(x-\alpha)h(x)\in K[X]$ and: $$f'(x)=h(x)+(x-\alpha)h'(x)$$As $(x-\alpha)|f'(x)$, $(x-\alpha)|h(x)$ and this proves the statement.
+> We have:
+> 1. (1=>2): if $f$ is not separable, for its splitting field $L$, there exists $\alpha\in L$ s.t. the multiplicity of $\alpha$ is $\geq 2$, i.e. $(x-\alpha)^2|f(x)$ in $L(x)$, i.e. $f(x)=(x-\alpha)^{2}g(x)$ for some $g(x)\in L[X]$. Hence, $$f'(x)=2(x-\alpha)g(x)+(x-\alpha)^{2}g'(x)=(x-\alpha)(2g(x)+(x-\alpha)g'(x))$$and $\alpha$ is a root of $f'$ as well.
+> 2. (2=>1): if $\alpha$ is a root of $f,f'$ in some splitting field $L$, then $f(x)=(x-\alpha)g(x)$ in $L[X]$ and $f'(x)=(x-\alpha)g'(x)+g(x)$. However, as $(x-\alpha)|f'(x)$, $(x-\alpha)|g(x)$ and this proves the statement.
+
 - **Corollary**: A polynomial $0\neq f$ is separable if and only if $\text{gcd}(f,f')=1$. 
 ---
 > [!lemma] Theorem 3
-> For any field $F$, an irreducible polynomial $f\in F[X]$ is separable if and only if $f'\not\equiv 0$ in $F[X]$. In particular, 
+> For any field $F$, 
+> 1. an irreducible polynomial $f\in F[X]$ is separable if and only if $f'\not\equiv 0$ in $F[X]$.
 > 1. if $\text{char }F=0$, then every irreducible polynomial is separable and 
 > 2. if $\text{char }F=p$, then $f$ is separable if and only if it is not a polynomial in $x^p$.
 
