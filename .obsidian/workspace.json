@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "c23f3b8967bf20bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Polynomial Ring.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "796e7a6972ebad8d",
             "type": "leaf",
             "state": {
@@ -85,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Separable Extension.md",
                 "mode": "source",
                 "source": true
               }
@@ -104,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Separable Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -164,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Frobenius Homomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -176,7 +164,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Minimal Polynomial.md",
+                "file": "Algebra/Finite Field.md",
                 "mode": "preview",
                 "source": true
               }
@@ -194,8 +182,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -261,7 +248,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Separable Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Separable Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Field Extension.md"
+                "file": "Algebra/Separable Extension.md"
               }
             }
           }
@@ -323,25 +310,26 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4c865b9cc5ecf1bd",
+  "active": "ffce03189eec926b",
   "lastOpenFiles": [
-    "Algebra/Splitting Field.md",
-    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Frobenius Homomorphism.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Integral Domain.md",
     "Algebra/Separable Extension.md",
-    "Algebra/Field Extension.md",
-    "Algebra/Algebraic Closure.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Finite Field.md",
+    "Algebra/Minimal Polynomial.md",
+    "Algebra/Splitting Field.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Algebraic Closure.md",
     "Algebra/Linear Algebra/Algebraic and Geometric Multiplicity.md",
     "Algebra/Normal Extension.md",
     "Topology/Normal Space.md",
-    "Algebra/Minimal Polynomial.md",
-    "Algebra/Integral Domain.md",
     "Algebra/Unique Factorization Domain.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
     "Algebra/Composite Field.md",
-    "Algebra/Finite Field.md",
-    "Algebra/Principal Ideal Domain.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Field.md",
     "Courses/Algebra II/Exercise Sheet 1.md",
     "Courses/Algebra II/Exercise Sheet 0.md",
@@ -350,7 +338,6 @@
     "Algebra/Ideal (Ring).md",
     "Algebra/Prime Ideal.md",
     "Algebra/Unit.md",
-    "Algebra/Euclidean Domain.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

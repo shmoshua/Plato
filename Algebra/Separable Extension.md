@@ -45,11 +45,12 @@
 > 3. let $\text{char }F=p$. If $f$ is not separable, then $f'(x)=\sum_{i=1}^{n}ia_{i}x^{i-1}=0$, i.e. $ia_{i}=0$ for all $i\in [n]$. Hence, if $p\nmid i$, then $a_{i}=0$. Therefore, $$f(x)=a_{mp}x^{mp}+\dots+a_{p}x^p+a_{0}=g(x^p)$$where $g(x)=a_{mp}x^m+\dots+a_{0}$. 
 > 
 > 	Conversely, if $f(x)=g(x^p)$, then, $f'(x)=px^{p-1}g'(x^p)=0$ in $F$.
+- **Corollary**: any field $F$ with $\text{char }F=0$ is separable.
 ---
 > [!lemma] Proposition 4
-> Every irreducible polynomial over a finite field $F$ is separable.
+> Every irreducible polynomial over a [[finite field]] $F$ is separable.
 
-> [!proof]-
+> [!proof]+
 > Let $f\in F[X]$ be irreducible. Assume that $f$ is inseparable. Then,  $f(x)=g(x^p)$ where: $$g(x)=b_{n}x^n+\dots+b_{0}\in F[X]$$However, by [[Frobenius Homomorphism|Corollary]], $$g(x)=c_{n}^px^n+\dots+c_{0}^p\in F[X]$$Therefore, $$f(x)=g(x^p)=c_{n}^px^{np}+\dots+c_{0}^p=(c_{n}x^n+\dots+c_{0})^p$$and $f$ is reducible, which is a contradiction.
 ---
 ##### Examples

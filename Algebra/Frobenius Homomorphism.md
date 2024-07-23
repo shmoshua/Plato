@@ -7,7 +7,7 @@
 > [!lemma] Lemma 1
 > $\varphi$ is a field homomorphism and therefore, 
 > 1. $\varphi$ is injective.
-> 2. if $F$ is finite, $\varphi$ is surjective.
+> 2. if $F$ is finite, $\varphi$ is a field automorphism.
 
 > [!proof]-
 > It is a homomorphism as: $$\varphi(a+b)=(a+b)^p=a^p+b^p$$
