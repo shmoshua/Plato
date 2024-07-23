@@ -21,31 +21,30 @@
 > [!lemma] Proposition 2
 > For a non-constant polynomial $f\in F[X]$, TFAE:
 > 1. $f$ is not separable.
-> 2. $f$ and $f'$ have a common root.
+> 2. $f$ and $f'$ have a common root in its splitting field.
 
 > [!proof]-
 > We have:
 > 1. (1=>2): if $f$ is not separable, for its splitting field $L$, there exists $\alpha\in L$ s.t. the multiplicity of $\alpha$ is $\geq 2$, i.e. $(x-\alpha)^2|f(x)$ in $L(x)$, i.e. $f(x)=(x-\alpha)^{2}g(x)$ for some $g(x)\in L[X]$. Hence, $$f'(x)=2(x-\alpha)g(x)+(x-\alpha)^{2}g'(x)=(x-\alpha)(2g(x)+(x-\alpha)g'(x))$$and $\alpha$ is a root of $f'$ as well.
 > 2. (2=>1): if $\alpha$ is a root of $f,f'$ in some splitting field $L$, then $f(x)=(x-\alpha)g(x)$ in $L[X]$ and $f'(x)=(x-\alpha)g'(x)+g(x)$. However, as $(x-\alpha)|f'(x)$, $(x-\alpha)|g(x)$ and this proves the statement.
 
-- **Corollary**: A polynomial $0\neq f$ is separable if and only if $\text{gcd}(f,f')=1$. 
+- **Corollary**: An irreducible polynomial $0\neq f$ is separable if and only if $\text{gcd}(f,f')=1$. 
 ---
 > [!lemma] Theorem 3
 > For any field $F$, 
-> 1. an irreducible polynomial $f\in F[X]$ is separable if and only if $f'\not\equiv 0$ in $F[X]$.
-> 1. if $\text{char }F=0$, then every irreducible polynomial is separable and 
-> 2. if $\text{char }F=p$, then $f$ is separable if and only if it is not a polynomial in $x^p$.
+> 1. an [[Integral Domain|irreducible polynomia]]l $f\in F[X]$ is separable if and only if $f'\not\equiv 0$ in $F[X]$.
+> 1. if $\text{char }F=0$, then every irreducible polynomial is separable. 
+> 2. if $\text{char }F=p$, then an irreducible $f$ is separable if and only if it is not a polynomial in $x^p$.
 
 > [!proof]-
-> Let $0\neq f\in F[X]$ be irreducible. Then, $f$ is separable if and only if $\text{gcd}(f,f')=1$. If $f,f'$ are not relatively prime, then since $f$ is irreducible, $f|f'$. However, as $\deg(f')<\deg f$, $f|f'$ can happen only if $f'=0$. 
+> We have:
+> 1. Let $0\neq f\in F[X]$ be irreducible. Then, $f$ is separable if and only if $\gcd(f,f')=1$. If $f,f'$ are not relatively prime, then $\gcd(f,f')=g$ with $\deg(g)>1$ and as $f$ is irreducible, $g=cf$ for some $c\in F^\times$ and $f|f'$. However, as $\deg(f')<\deg f$, this can happen only if $f'=0$.
+> 	
+> 	Conversely, if $f'=0$, then $\gcd(f,f')=f$ is non-constant. Hence, $f$ is not separable by the corollary.
+> 2. if $\text{char }F=0$, then for any irreducible polynomial $f\in F[X]$, $f$ is non-constant and $f'\neq 0$. Therefore, every irreducible polynomial is separable.
+> 3. let $\text{char }F=p$. If $f$ is not separable, then $f'(x)=\sum_{i=1}^{n}ia_{i}x^{i-1}=0$, i.e. $ia_{i}=0$ for all $i\in [n]$. Hence, if $p\nmid i$, then $a_{i}=0$. Therefore, $$f(x)=a_{mp}x^{mp}+\dots+a_{p}x^p+a_{0}=g(x^p)$$where $g(x)=a_{mp}x^m+\dots+a_{0}$. 
 > 
-> Conversely, if $f'=0$, then $\gcd(f,f')=f$ is non-constant. Hence, $f$ is inseparable by the Corollary above. 
-> 
-> If $\text{char }F=0$, $f$ is not the constant polynomial and $f'\neq 0$. Therefore, every irreducible polynomial is separable.
-> 
-> If $\text{char }F\neq 0$ and assume $f'(x)=\sum_{i=1}^{n}ia_{i}x^{i-1}=0$. Then, $ia_{i}=0$ for all $i\in[n]$. Then, if $p\nmid i$, $a_{i}=0$. Therefore, $$f(x)=a_{mp}x^{mp}+\dots+a_{p}x^p+a_{0}=g(x^p)$$where $g(x)=a_{mp}x^m+\dots+a_{0}$. 
-> 
-> Conversely, if $f(x)=g(x^p)$, then, $f'(x)=px^{p-1}g'(x^p)=0$ in $F$.
+> 	Conversely, if $f(x)=g(x^p)$, then, $f'(x)=px^{p-1}g'(x^p)=0$ in $F$.
 ---
 > [!lemma] Proposition 4
 > Every irreducible polynomial over a finite field $F$ is separable.
