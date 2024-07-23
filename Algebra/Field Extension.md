@@ -103,14 +103,15 @@
 > 1. As $K_{1}:F$ and $K_{2}:F$ are finite, there exists $\alpha_{1},\dots,\alpha_{n}\in K_{1}$ and $\beta_{1},\dots,\beta_{m}\in K_{2}$ s.t. $$K_{1}=F(\alpha_{1},\dots,\alpha_{n}),\quad K_{2}=F(\beta_{1},\dots,\beta_{m})$$Then, we show that $K_{1}K_{2}\subseteq F(\alpha_{1},\dots,\alpha_{n},\beta_{1},\dots,\beta_{m})$. More precisely, $\alpha_{i}\beta_{j}$ generates a 
 ---
 > [!lemma] Theorem 10 (Finite Extensions are Simple in char 0)
-> Let $F$ be a field s.t. $\text{char }F=0$. Then, every finite extension $K:F$ is simple, i.e. there exists $\alpha\in K$ s.t. $K=F(\alpha)$.
+> Let $F$ be a field with $\text{char }F=0$. Then, 
+> 1. every finite extension $K:F$ is simple, i.e. there exists $\alpha\in K$ s.t. $K=F(\alpha)$.
 
-> [!proof]-
-> Since $[K:F]$ is finite, we have that $K=F(\alpha_{1},..,\alpha_{n})$ for some $\alpha_{i}\in K$. We will use induction on $n$. 
+> [!proof]+
+> Since $[K:F]$ is finite, we have that $K=F(\alpha_{1},..,\alpha_{n})$ for some $\alpha_{i}\in K$ algebraic over $F$. We will use induction on $n$. 
 > 
 > If $n=1$, the statement holds automatically. it suffices to prove the claim for $n=2$. So assume $K=F(a,b)$ and let $f,g$ be the minimal polynomial of $a,b$ respectively over $F$. Let $M:F$ be the field extension of $F$ where $f,g$ both split. 
 > 
-> Let $a=:x_{1},\dots,x_{r}$ be the roots of $f$ and $b=:y_{1},\dots,y_{s}$ be the roots of $g$. As $\text{char } F=0$, $g$ has distinct roots per [[Separable Extension|Theorem 3]] and $b\neq y_{j}$ for all $j\neq 1$. If we define: $$z_{ij}:=\frac{x_{i}-a}{b-y_{j}}\in M$$then $z_{ij}$ is the only element of $M$ which solves: $a+tb=x_{i}+ty_{j}$. Since $F$ is infinite, we can choose $z\in F$ different from all $z_{ij}$ s.t. $$a+zb\neq x_{i}+zy_{j}$$unless $i,j=1$. Then, for $c:=a+zb$, $F(c)\subseteq F(a,b)$. 
+> Let $a=:x_{1},\dots,x_{r}$ be the roots of $f$ and $b=:y_{1},\dots,y_{s}$ be the roots of $g$ in $M$. As $\text{char } F=0$, $f,g$ are separable per [[Separable Extension|Theorem 3]] and $f,g$ have distinct roots. Hence, $b\neq y_{j}$ for all $j\neq 1$. If we define: $$z_{ij}:=\frac{x_{i}-a}{b-y_{j}}\in M$$then $z_{ij}$ is the only element of $M$ which solves: $a+tb=x_{i}+ty_{j}$. Since $F$ is infinite, we can choose $z\in F$ different from all $z_{ij}$ s.t. $$a+zb\neq x_{i}+zy_{j}$$unless $i,j=1$. Then, for $c:=a+zb$, $F(c)\subseteq F(a,b)$. 
 > 
 > Now, define $h(x):=f(c-zx)\in F(c)[X]$. Then, $h(b)=f(c-zb)=f(a)=0$. Since $b$ is also a root of $g$, $(x-b)|g$ and $(x-b)|h$.
 > 

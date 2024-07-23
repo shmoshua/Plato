@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic Closure.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "source",
                 "source": true
               }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -195,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Field Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Field Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Splitting Field.md"
+                "file": "Algebra/Field Extension.md"
               }
             }
           }
@@ -323,16 +323,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ffce03189eec926b",
+  "active": "4c865b9cc5ecf1bd",
   "lastOpenFiles": [
-    "Algebra/Separable Extension.md",
     "Algebra/Splitting Field.md",
     "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Separable Extension.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Algebraic Closure.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Linear Algebra/Algebraic and Geometric Multiplicity.md",
     "Algebra/Normal Extension.md",
-    "Algebra/Field Extension.md",
-    "Algebra/Algebraic Closure.md",
     "Topology/Normal Space.md",
     "Algebra/Minimal Polynomial.md",
     "Algebra/Integral Domain.md",
