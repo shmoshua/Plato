@@ -106,7 +106,7 @@
 > Let $F$ be a field with $\text{char }F=0$. Then, 
 > 1. every finite extension $K:F$ is simple, i.e. there exists $\alpha\in K$ s.t. $K=F(\alpha)$.
 
-> [!proof]+
+> [!proof]-
 > Since $[K:F]$ is finite, we have that $K=F(\alpha_{1},..,\alpha_{n})$ for some $\alpha_{i}\in K$ algebraic over $F$. We will use induction on $n$. 
 > 
 > If $n=1$, the statement holds automatically. it suffices to prove the claim for $n=2$. So assume $K=F(a,b)$ and let $f,g$ be the minimal polynomial of $a,b$ respectively over $F$. Let $M:F$ be the field extension of $F$ where $f,g$ both split. 
