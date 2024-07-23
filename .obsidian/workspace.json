@@ -85,14 +85,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Characteristic.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -188,14 +188,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Characteristic.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/Separable Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/Separable Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Finite Field.md"
+                "file": "Algebra/Separable Extension.md"
               }
             }
           }
@@ -323,20 +323,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ffce03189eec926b",
+  "active": "06cc199e2558b2d6",
   "lastOpenFiles": [
-    "Algebra/Characteristic.md",
-    "Algebra/Integral Domain.md",
-    "Algebra/Finite Field.md",
-    "Algebra/Separable Extension.md",
+    "Algebra/Splitting Field.md",
+    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Frobenius Homomorphism.md",
+    "Algebra/Finite Field.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Characteristic.md",
+    "Algebra/Separable Extension.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Polynomial Ring.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Minimal Polynomial.md",
-    "Algebra/Splitting Field.md",
     "Algebra/Field Extension.md",
-    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Linear Algebra/Algebraic and Geometric Multiplicity.md",
     "Algebra/Normal Extension.md",

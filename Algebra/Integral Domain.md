@@ -19,7 +19,7 @@
 > 2. $R[X]^{\times}=R^{\times}$
 > 3. if $R$ is finite, then $R$ is a field.
 
-> [!proof]+
+> [!proof]-
 > We have that: 
 > 1. Let $p,q\in R[X]$ s.t. $p\neq 0\neq q$ and let $a_{n},b_{m}$ the leading coefficients of $p$ and $q$ respectively. As $R$ is an integral domain, $a_{n}b_{m}\neq 0$ and therefore, $$\text{deg}(pq)=n+m>-\infty$$
 > 	Therefore, $pq\neq 0$.

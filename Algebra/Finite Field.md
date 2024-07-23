@@ -32,8 +32,15 @@
 > 	Let $\{ x_{1},\dots,x_{n} \}$ be a basis of $\mathbb{F}$ over $\mathbb{F}_{p}$. Then, every element of $F$ has a unique representation w.r.t the basis. One easily sees that $\left| F \right|=p^n$.
 - **Remark**: There exists $n\geq 1$ s.t. there exists no field of order $n$.
 ---
-> [!lemma] Theorem 2
-> Let $p$ be a prime and $q=p^n$ for some $n\geq 1$. A field $F$ has $q$ elements if and only if it is a [[splitting field]] of $x^q-x\in \mathbb{F}_{p}[X]$. 
+> [!lemma] Theorem 4
+> Let $p$ be a prime and $q=p^n$ for some $n\geq 1$. For a field $\mathbb{F}$, TFAE:
+> 1. $\mathbb{F}$ has $q$ elements 
+> 2. $\mathbb{F}$ is a [[splitting field]] of $x^q-x\in \mathbb{F}_{p}[X]$. 
+
+> [!proof]+
+> We have:
+> 1. (1=>2): Suppose $\mathbb{F}$ is finite with $q$ elements. Then, $\mathbb{F}^\times$ is a multiplicative group of order $q-1$. So for any $c\in \mathbb{F}^\times$, $c^{q-1}=1$ and $c^q=c$. Therefore, $c$ is a root of $x^q-x$. Hence, for any $c\in \mathbb{F}$,  $\mathbb{F}$ is the smallest field that contains all roots of $x^q-x$.
+> 2. (2=>1): Assume $\mathbb{F}$ is a splitting field of $f(x):=x^q-x\in \mathbb{F}_{p}[X]$. Then in $\mathbb{F}_{p}[X]$,  $$f'(x)=qx^{q-1}-1=-1$$Hence, $\gcd(f',f)=1$ and 
 
 > [!proof]-
 > Suppose $F$ is a finite field with $q$ elements. Then, $F^{*}$ is a multiplicative group of order $q-1$. So for any $c\in F^{*}$, $c^{q-1}=1$ and $c^q=c$. Therefore, $c$ is a root of $x^q-x$. Therefore, for any $c\in F$, $c^q-c=0$. This shows that $F$ is a splitting field of $x^q-x$. 
@@ -41,7 +48,7 @@
 > Conversely, assume $K$ is a splitting field of $f(x):=x^q-x\in \mathbb{F}_{p}[X]$. Then, $f'(x)=qx^{q-1}-1=-1$ and $f$ is separable by [[Separable Extension|Corollary]]. Then, $f$ has distinct roots and has exactly $q$ roots in $K$. 
 >  
 > Let $\alpha,\beta$ be two roots of $f$. Then, $\alpha^q=\alpha$ and $\beta^q=\beta$ and therefore, $$(\alpha \beta)^q=\alpha^q\beta^q=\alpha\beta$$$$\left( \frac{1}{\alpha} \right)^q=\frac{1}{\alpha^q}=\frac{1}{\alpha}$$$$(\alpha\pm\beta)^p=\alpha^p\pm\beta^p=\alpha\pm\beta$$Therefore, the roots of $f$ in $K$ form a field. Hence, it must be the whole field $K$, as $K$ is the splitting field. This shows that $K$ has $q$ elements.
----
+
 
 ---
 > [!lemma] Theorem 3
