@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/K-Homomorphism.md",
                 "mode": "source",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/K-Homomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/K-Homomorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/K-Homomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Finite Field.md"
+                "file": "Algebra/K-Homomorphism.md"
               }
             }
           }
@@ -323,10 +323,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "06cc199e2558b2d6",
+  "active": "1849099c1a59c959",
   "lastOpenFiles": [
-    "Algebra/Field Extension.md",
     "Algebra/Finite Field.md",
+    "Algebra/K-Homomorphism.md",
+    "Algebra/Field Extension.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Exponent of a Group.md",
     "Algebra/Field.md",
@@ -350,7 +351,6 @@
     "Courses/Algebra II/Exercise Sheet 0.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Cyclotomic Polynomial.md",
-    "Algebra/Ideal (Ring).md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

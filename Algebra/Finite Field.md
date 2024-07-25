@@ -57,6 +57,8 @@
 > [!lemma] Theorem 4
 > For $\mathbb{F}$ finite field with $\left| \mathbb{F} \right|=p^n$, there exists a bijection: $$\{ d:d|n \}\to\{ K:K\text{ subfield of }\mathbb{F} \},\quad d\mapsto \mathbb{F}_{p^d}$$ 
 
-> [!proof]+
-> Let $K$ be a subfield of $\mathbb{F}$. Then, as an intermediate field, we have that: $$[K:\mathbb{F}_{p}]=\frac{[\mathbb{F}:\mathbb{F}_{p}]}{[\mathbb{F}:K]}$$As $[\mathbb{F}:\mathbb{F}_{p}]=n$, we have that 
+> [!proof]-
+> Let $K$ be a subfield of $\mathbb{F}$. Then, $\left| K \right|=p^d$ for some $d\leq n$.  Then, as an intermediate field, we have that: $[K:\mathbb{F}_{p}]=\frac{[\mathbb{F}:\mathbb{F}_{p}]}{[\mathbb{F}:K]}$ and as $[\mathbb{F}:\mathbb{F}_{p}]=n$, we have that $c\cdot d=n$ for some $c\in \mathbb{N}$. It proves that $d|n$.
+> 
+> Conversely, for $d|n$, let $F$ be the splitting field of $x^{p^d}-x\in \mathbb{F}_{p}[X]$. Then, $\left| \mathbb{F} \right|=p^d$ and $F=\mathbb{F}_{p^d}$.
 ---

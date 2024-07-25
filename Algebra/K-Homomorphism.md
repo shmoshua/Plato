@@ -1,7 +1,8 @@
 #Definition #Algebra 
 
 > [!definition]
-> Let $K$ be a subfield of $M,L$. A ***$K$-homomorphism*** from $M$ to $L$ is a homomorphism $\phi\in \text{Hom}(M,L)$ that fixes $K$, i.e.:$$\phi|_{K}=\text{id}_{K}$$The set of $K$-homomorphisms are denoted as $\text{Hom}_{K}(M,L)$.
+> Let $K$ be a subfield of $M,L$. 
+> 1. A ***$K$-homomorphism*** from $M$ to $L$ is a homomorphism $\phi\in \text{Hom}(M,L)$ that fixes $K$, i.e.:$$\phi|_{K}=\text{id}_{K}$$The set of $K$-homomorphisms are denoted as $\text{Hom}_{K}(M,L)$.
 - **Related definition**: Following the definitions, we can also define $\text{Mono}_{K}(M,L), \text{Aut}_{K}(M)$ etc. 
 ---
 ##### Properties
@@ -17,4 +18,11 @@
 >    
 >    As $L$ is a splitting field of $f$ over $K[X]\subseteq \phi(M)[X]$, using the [[Splitting Field|splitting field isomorphism theorem]], $\phi:M\to \phi(M)$ extends to an isomorphism $\sigma:L\to L$. One can easily see that $\sigma\in \text{Aut}_{K}(L)$
 - **Corollary**: Let $L:K$ be finite and normal. Let $\alpha,\beta\in L$ be roots of some irreducible polynomial $f\in K[X]$. Then, there exists $\sigma\in \text{Aut}_{K}(L)$ s.t. $\sigma(\alpha)=\beta$. 
+---
+> [!lemma] Theorem 2 (K-automorphisms build a group)
+> Let $L:K$ be a [[field extension]]. Then, 
+> 1. $\text{Aut}_{K}(L)$ is a group with composition.
+
+> [!proof]+
+> 
 ---
