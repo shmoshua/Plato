@@ -21,8 +21,8 @@
 ---
 > [!lemma] Theorem 2 (K-automorphisms build a group)
 > Let $L:K$ be a [[field extension]]. Then, 
-> 1. $\text{Aut}_{K}(L)$ is a group with composition.
+> 1. $\text{Aut}_{K}(L)\leq \text{Aut}(L)$ 
 
-> [!proof]+
-> 
+> [!proof]-
+> We have that for $\sigma,\gamma\in \text{Aut}_{K}(L)$, $$\sigma (\gamma ^{-1}(t))=\sigma(t)=t,\quad \forall t\in K$$Therefore, $\sigma \circ\gamma ^{-1}\in \text{Aut}_{K}(L)$. 
 ---
