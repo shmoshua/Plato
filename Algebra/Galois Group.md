@@ -24,6 +24,7 @@
 
 > [!proof]-
 > Applying [[Splitting Field|Theorem 2]] on $\tilde{K}=K$ and $\tilde{L}=L$ with $\varphi=\text{id}$, then, the extensions of $\varphi$ are precisely the elements of $\text{Gal}(L:K)$.
+- **Corollary**: if $f$ is irreducible, separable with degree $n$, then $n|\left| \text{Gal}(L:K) \right|$ as $L$ contains $K(\alpha)$ as a subfield where $\alpha\in L$ is a root of $f$. Therefore, $[L:K]=[L:K(\alpha)]n$ and  $n|\left| \text{Gal}(L:K) \right|$.
 ---
 ##### Examples
 > [!h] Example 1
@@ -50,4 +51,11 @@
 > [!h] Example 5
 > Consider $\mathbb{Q}(i,\sqrt{ 1+2i }):\mathbb{Q}(i)$. 
 > 1. As $N(1+2i)=5$, $\sqrt{ 1+2i }\notin \mathbb{Q}(i)$ and $[\mathbb{Q}(i,\sqrt{ 1+2i }):\mathbb{Q}(i)]=2$.
-> 2. For $\varphi:\mathbb{Q}(i)\to \mathbb{Q}(i),a+bi\mapsto a-bi$ and $f(x)=x^{2}-(1+2i)\in \mathbb{Q}(i)[X]$, we have that by [[Splitting Field|Theorem 2]] $\varphi$ extends to: $\sigma:L\mapsto \tilde{L}:=\mathbb{Q}(i,\sqrt{ 1-2i }),\quad$
+> 2. For $\varphi:\mathbb{Q}(i)\to \mathbb{Q}(i),a+bi\mapsto a-bi$ and $f(x)=x^{2}-(1+2i)\in \mathbb{Q}(i)[X]$, we have that by [[Splitting Field|Theorem 2]] $\varphi$ extends to: $\sigma:L\mapsto \tilde{L}:=\mathbb{Q}(i,\sqrt{ 1-2i })$ in two different ways: 
+> 	1. $\sigma_{1}(\sqrt{ 1+2i })=\sqrt{ 1-2i }$ and 
+> 	2. $\sigma_{1}(\sqrt{ 1+2i })=-\sqrt{ 1-2i }$
+> 3. However, $\varphi$ has no extension $\sigma:\mathbb{Q}(i,\sqrt{ 1+2i })\to\mathbb{Q}(i,\sqrt{ 1+2i })$.
+
+> [!proof]-
+> Assume that $\Phi:L\to L$ extends $\varphi$. Let $\alpha:=\sqrt{ 1+2i }$. Then, $$\Phi(\alpha)^{2}=\Phi(\alpha^{2})=\Phi(1+2i)=1-2i$$Therefore, $1-2i$ is a square in $L$. Hence $\sqrt{ 1-2i }\in L$ and $\mathbb{Q}(i,\sqrt{ 1-2i })\subseteq L$. This implies that: $$\frac{1+2i}{1-2i}=-\frac{3}{5}+\frac{4}{5}i$$is a square in $\mathbb{Q}(i)$. Therefore, $a^{2}-b ^{2}=-3/5$ and $b=2 /5a$. Therefore, $$a^{2}-\frac{4}{25a^{2}}=-\frac{3}{5}$$However, $0=25a^4+15a^{2}-4=(5a^{2}-1)(5a^{2}+4)$ has no rational solutions.
+---

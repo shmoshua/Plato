@@ -62,3 +62,13 @@
 > 
 > Conversely, for $d|n$, let $F$ be the splitting field of $x^{p^d}-x\in \mathbb{F}_{p}[X]$. Then, $\left| \mathbb{F} \right|=p^d$ and $F=\mathbb{F}_{p^d}$.
 ---
+> [!lemma] Proposition 5
+> Let $p$ be a prime. Then, 
+> 1. $\text{Gal}(\mathbb{F}_{p^n}:\mathbb{F}_{p})\cong \mathbb{Z} /n\mathbb{Z}$.
+> 2. the generator of $\text{Gal}(\mathbb{F}_{p^n}:\mathbb{F}_{p})$ is given by [[Frobenius homomorphism]]: $$\varphi:\mathbb{F}_{p^n}\to \mathbb{F}_{p^n},\quad x\mapsto x^p$$
+
+> [!proof]+
+> We have that:
+> 1. First, $\mathbb{F}_{p^n}$ is a splitting field of the separable polynomial $x^{p^n}-x\in \mathbb{F}_{p}[X]$. Therefore, $$\left| \text{Gal}(\mathbb{F}_{p^n}:\mathbb{F}_{p}) \right| =[\mathbb{F}_{p^n}:\mathbb{F}_{p}]=n$$We show that the Frobenius homomorphism $\varphi$ is indeed the generator. Firstly, for any $x\in \mathbb{F}_{p}^\times$, $\varphi(x)=x^p=x$.
+>    
+>    Let $\sigma\in \text{Gal}(\mathbb{F}_{p^n}:\mathbb{F}_{p})$. Then, 
