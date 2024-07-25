@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Galois Extension.md",
                 "mode": "source",
                 "source": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Representation Theory/Character.md",
                 "mode": "source",
                 "source": true
               }
@@ -123,12 +123,24 @@
             }
           },
           {
+            "id": "e28b2353b3f783b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Character.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "f0c5a0d062c4987e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Galois Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,14 +164,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/Splitting Field.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/Galois Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/Galois Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Finite Field.md"
+                "file": "Algebra/Galois Extension.md"
               }
             }
           }
@@ -287,12 +299,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "40d1a19639e346cb",
+  "active": "f0c5a0d062c4987e",
   "lastOpenFiles": [
+    "Representation Theory/Character.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Finite Field.md",
+    "Algebra/Galois Extension.md",
+    "Algebra/Splitting Field.md",
     "Algebra/Galois Group.md",
     "Algebra/Galois Correspondence.md",
-    "Algebra/Splitting Field.md",
-    "Algebra/Finite Field.md",
     "Algebra/Fixed Field.md",
     "Algebra/Field Extension.md",
     "Algebra/Normal Extension.md",
@@ -303,7 +318,6 @@
     "Algebra/K-Homomorphism.md",
     "Algebra/Field.md",
     "Algebra/Exponent of a Group.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Characteristic.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Polynomial Ring.md",
@@ -313,8 +327,6 @@
     "Topology/Normal Space.md",
     "Algebra/Unique Factorization Domain.md",
     "Courses/Algebra II/Exercise Sheet 2.md",
-    "Algebra/Composite Field.md",
-    "Courses/Algebra II/Exercise Sheet 1.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
