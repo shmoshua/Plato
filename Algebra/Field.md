@@ -38,6 +38,14 @@
 > [!proof]-
 > As a field $F$ only has $(0)$ and $F$ as ideals, $\text{ker }\varphi$ has to be one of the two. However, $\varphi(1)\neq 0$ and therefore $\text{ker }\varphi=(0)$. 
 ---
+> [!lemma] Theorem 5
+> For a field $F$, 
+> 1. a finite subgroup $G\unlhd F^\times$ is cyclic.
+
+> [!proof]-
+> Let $n:=e(G)$. Then $\alpha^n=1$ for all $\alpha\in G$. However, since $f(x):=x^n-1\in F[X]$ has at most $n$ roots, $\left| G \right|\leq n$. But as $n=e(G)\leq \left| G \right|$, we have that $\left| G \right|=n$ and by [[Exponent of a Group|Proposition 1]], there exists $\alpha\in G$ s.t. $\text{ord}(\alpha)=\left| G \right|$. This proves that $G$ is cyclic.
+---
+
 ##### Examples
 > [!h] Example 1 (Basic Examples)
 > We have:
