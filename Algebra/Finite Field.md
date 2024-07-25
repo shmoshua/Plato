@@ -43,16 +43,20 @@
 > 4. every irreducible $f\in \mathbb{F}_{p}[X]$ with $\deg(f)=n$ is separable.
 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Follows directly from [[Field|Theorem 5]].
 > 2. Let $\text{char } \mathbb{F}=p$ and $\left| \mathbb{F} \right|=p^n$. Let $\alpha$ be the generator of $\mathbb{F}^\times$. We will consider: $$E_{\alpha}:\mathbb{F}_{p}[X]\to \mathbb{F},\quad g\mapsto g(\alpha)$$
 > 	Then, $E_{\alpha}$ is of course a ring homomorphism. Since every element of $\mathbb{F}$ is either zero or a power of $\alpha^r$, we have that $E_{\alpha}(x^r)=\alpha^r$. Therefore, $E_{\alpha}$ is surjective and we have $\mathbb{F}_{p}[X] / \text{ker }E_{\alpha}\cong \mathbb{F}$.
 > 	
 > 	As $\mathbb{F}$ is a field, $\text{ker }E_{\alpha}$ is a maximal ideal. As $\mathbb{F}_{p}[X]$ is a PID, $\text{ker }E_{\alpha}=(f(x))$ where $f$ is irreducible. Modulo multiplying by a unit, $f$ is monic. 
-> 3. Let $f$ be irreducible 
+> 3. Let $f$ be irreducible with degree $n$. Then, $\mathbb{F}_{p}[X] / (f(x))$ has order $p^n$ by Kronecker. Therefore, for any $t\in \mathbb{F}_{p}[X] / (f(x))$, $t^{p^n}=t$. In particular, $x^{p^n}\equiv_{f(x)}x$ and $$f(x)|(x^{p^n}-x)\text{ in }\mathbb{F}_{p}[X]$$
+> 4. Since $x^{p^n}-x$ is separable and $f(x)|(x^{p^n}-x)$, so is $f$. 
 - **Corollary**: If $L:K$ is an extension of finite fields, then $L:K$ is [[Field Extension|simple]], since if $\braket{ \alpha  }=L^{\times}$, then $L=K(\alpha)$.
 ---
 > [!lemma] Theorem 4
-> A subfield of $\mathbb{F}_{p^n}$has order $p^d$ where $d|n$ and there exists one such field for every divisor $d|n$.
+> For $\mathbb{F}$ finite field with $\left| \mathbb{F} \right|=p^n$, there exists a bijection: $$\{ d:d|n \}\to\{ K:K\text{ subfield of }\mathbb{F} \},\quad d\mapsto \mathbb{F}_{p^d}$$ 
+
+> [!proof]+
+> Let $K$ be a subfield of $\mathbb{F}$. Then, as an intermediate field, we have that: $$[K:\mathbb{F}_{p}]=\frac{[\mathbb{F}:\mathbb{F}_{p}]}{[\mathbb{F}:K]}$$As $[\mathbb{F}:\mathbb{F}_{p}]=n$, we have that 
 ---
