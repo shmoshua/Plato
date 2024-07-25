@@ -28,7 +28,7 @@
 > 1. (1=>2): if $f$ is not separable, for its splitting field $L$, there exists $\alpha\in L$ s.t. the multiplicity of $\alpha$ is $\geq 2$, i.e. $(x-\alpha)^2|f(x)$ in $L(x)$, i.e. $f(x)=(x-\alpha)^{2}g(x)$ for some $g(x)\in L[X]$. Hence, $$f'(x)=2(x-\alpha)g(x)+(x-\alpha)^{2}g'(x)=(x-\alpha)(2g(x)+(x-\alpha)g'(x))$$and $\alpha$ is a root of $f'$ as well.
 > 2. (2=>1): if $\alpha$ is a root of $f,f'$ in some splitting field $L$, then $f(x)=(x-\alpha)g(x)$ in $L[X]$ and $f'(x)=(x-\alpha)g'(x)+g(x)$. However, as $(x-\alpha)|f'(x)$, $(x-\alpha)|g(x)$ and this proves the statement.
 
-- **Corollary**: An irreducible polynomial $0\neq f$ is separable if and only if $\text{gcd}(f,f')=1$. 
+- **Corollary**: A polynomial $0\neq f$ is separable if and only if $\text{gcd}(f,f')=1$. 
 ---
 > [!lemma] Theorem 3
 > For any field $F$, 

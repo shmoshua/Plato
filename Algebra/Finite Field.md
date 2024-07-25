@@ -37,17 +37,17 @@
 > 1. $\mathbb{F}$ has $q$ elements 
 > 2. $\mathbb{F}$ is a [[splitting field]] of $x^q-x\in \mathbb{F}_{p}[X]$. 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. (1=>2): Suppose $\mathbb{F}$ is finite with $q$ elements. Then, $\mathbb{F}^\times$ is a multiplicative group of order $q-1$. So for any $c\in \mathbb{F}^\times$, $c^{q-1}=1$ and $c^q=c$. Therefore, $c$ is a root of $x^q-x$. Hence, for any $c\in \mathbb{F}$,  $\mathbb{F}$ is the smallest field that contains all roots of $x^q-x$.
-> 2. (2=>1): Assume $\mathbb{F}$ is a splitting field of $f(x):=x^q-x\in \mathbb{F}_{p}[X]$. Then in $\mathbb{F}_{p}[X]$,  $$f'(x)=qx^{q-1}-1=-1$$Hence, $\gcd(f',f)=1$ and 
-
-> [!proof]-
-> Suppose $F$ is a finite field with $q$ elements. Then, $F^{*}$ is a multiplicative group of order $q-1$. So for any $c\in F^{*}$, $c^{q-1}=1$ and $c^q=c$. Therefore, $c$ is a root of $x^q-x$. Therefore, for any $c\in F$, $c^q-c=0$. This shows that $F$ is a splitting field of $x^q-x$. 
-> 
-> Conversely, assume $K$ is a splitting field of $f(x):=x^q-x\in \mathbb{F}_{p}[X]$. Then, $f'(x)=qx^{q-1}-1=-1$ and $f$ is separable by [[Separable Extension|Corollary]]. Then, $f$ has distinct roots and has exactly $q$ roots in $K$. 
+> 2. (2=>1): Assume $\mathbb{F}$ is a splitting field of $f(x):=x^q-x\in \mathbb{F}_{p}[X]$. Then in $\mathbb{F}_{p}[X]$,  $$f'(x)=qx^{q-1}-1=-1$$Hence, $\gcd(f',f)=1$ and by [[Separable Extension|Theorem 3 Corollary]], $f$ is separable, i.e. $f$ has distinct roots and has exactly $q$ roots in $\mathbb{F}$. 
+>    
+>    Let $\alpha,\beta$ be two roots of $f$. Then, $\alpha^q=\alpha$ and $\beta^q=\beta$ and therefore: 
+>    1. $(\alpha\beta)^q=\alpha^q\beta^q=\alpha\beta$ and $\alpha\beta$ is a root of $f$. 
+>    2. $(1 / \alpha)^q=1 / \alpha^q=1 / \alpha$ and $1 / \alpha$ is a root of $f$.
+>    3. $(\alpha\pm\beta)^q=\alpha^q\pm\beta^q=\alpha\pm\beta$
 >  
-> Let $\alpha,\beta$ be two roots of $f$. Then, $\alpha^q=\alpha$ and $\beta^q=\beta$ and therefore, $$(\alpha \beta)^q=\alpha^q\beta^q=\alpha\beta$$$$\left( \frac{1}{\alpha} \right)^q=\frac{1}{\alpha^q}=\frac{1}{\alpha}$$$$(\alpha\pm\beta)^p=\alpha^p\pm\beta^p=\alpha\pm\beta$$Therefore, the roots of $f$ in $K$ form a field. Hence, it must be the whole field $K$, as $K$ is the splitting field. This shows that $K$ has $q$ elements.
+>    Hence, the roots of $f$ in $\mathbb{F}$ form a field. However, as $\mathbb{F}$ is the splitting field of $f$, it must be the whole field. This shows that $\left| \mathbb{F} \right|=q$.
 
 
 ---
