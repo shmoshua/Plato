@@ -1,21 +1,21 @@
 #Definition #Algebra 
 
 > [!definition]
-> Let $L$ be a [[field]] and $H\leq \text{Aut}(L)$. The ***fixed field***, denoted as $\text{Fix}(H)$ or $L^H$, is defined as: $$L^H:=\{ \ell\in L:\sigma(\ell)=\ell, \forall\sigma\in H \}$$
-- **Remark**: One can check that $L^H$ is a subfield of $L$. 
-- **Related definition**: Given a field extension $L:K$, let:
-   1. $\mathcal{F}$ be the set of subfields $M\subseteq L$ with $K\subseteq M$.
-   2. $\mathcal{G}$ be the set of subgroups of the [[Galois group]] $\text{Gal}(L:K)$
-      
-  Then, the ***Galois correspondence*** are the following two maps: $$\begin{array}{cccc} {\gamma:}&{\mathcal{F}}&\to&{\mathcal{G}}\\&{M} &\mapsto & {\text{Gal}(L:M)} \end{array}{}\quad \quad \begin{array}{cccc} {\phi:}&{\mathcal{G}}&\to&{\mathcal{F}}\\&{H} &\mapsto & {L^H} \end{array}{}$$
----
-##### Properties
-![[Galois Correspondence#^f02def]]
-![[Galois Correspondence#^26a836|p]]
+> Let $L$ be a [[field]] and $H\leq \text{Aut}(L)$. 
+> 1. The ***fixed field***, denoted as $\text{Fix}(H)$ or $L^H$, is defined as: $$L^H:=\{ \ell\in L:\sigma(\ell)=\ell, \forall\sigma\in H \}$$
 
 ---
-![[Galois Correspondence#^ffd98d]]
-![[Galois Correspondence#^9c8ee6|p]]
+##### Properties
+> [!lemma] Lemma 1 (Fixed Field Properties)
+> For $L$ and $H\leq \text{Aut}(L)$, 
+> 1. $L^H$ is a subfield of $L$. 
+
+> [!proof]-
+> We have that:
+> 1. for $a,b\in L^H$ and $\sigma\in H$, 
+> 	1. $\sigma(a+ b)=\sigma(a)+\sigma(b)=a+b$ and $a+b\in L^H$. 
+> 	2. $\sigma(ab)=\sigma(a)\sigma(b)=ab$ and $ab\in L^H$.
+> 	3. $\sigma(a^{-1})=\sigma(a)^{-1}=a^{-1}$ and $a^{-1}\in L^H$.
 
 ---
 ##### Examples

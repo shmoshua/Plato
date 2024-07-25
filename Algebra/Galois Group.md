@@ -37,7 +37,14 @@
 ---
 > [!h] Example 3
 > Consider $\mathbb{Q}(\sqrt{ 2 },\sqrt{ 3 }):\mathbb{Q}$. 
-> 1. $[\mathbb{Q}(\sqrt{ 2 },\sqrt{ 3 }):\mathbb{Q}]\leq[\mathbb{Q}(\sqrt{ 2 }):\mathbb{Q}][\mathbb{Q}(\sqrt{ 3 }):\mathbb{Q}]=4$.
-> 1. If $\sigma\in \text{Gal}(\mathbb{Q}(\sqrt{ 2 },\sqrt{ 3 }):\mathbb{Q})$ then $\sigma(1)=1$, $\sigma(\sqrt{ 2 })=\pm \sqrt{ 2 }$ and $\sigma(\sqrt{ 3 })=\pm \sqrt{ 3 }$.
-> 
-> It follows that $\text{Gal}(L:Q)\cong \mathbb{Z} / 2\mathbb{Z} \times \mathbb{Z} / 2\mathbb{Z}$.
+> 1. $[\mathbb{Q}(\sqrt{ 2 },\sqrt{ 3 }):\mathbb{Q}]=4$.
+> 4. If $\sigma\in \text{Gal}(\mathbb{Q}(\sqrt{ 2 },\sqrt{ 3 }):\mathbb{Q})$ then $\sigma(1)=1$, $\sigma(\sqrt{ 2 })=\pm \sqrt{ 2 }$ and $\sigma(\sqrt{ 3 })=\pm \sqrt{ 3 }$.
+> 5. $\{ 1,\sqrt{ 2 },\sqrt{ 3 },\sqrt{ 6 } \}$ forms a basis of $\mathbb{Q}(\sqrt{ 2 },\sqrt{ 3 })$ over $\mathbb{Q}$. 
+> 6. $\text{Gal}(\mathbb{Q}(\sqrt{ 2 },\sqrt{ 3 }):\mathbb{Q})\cong \mathbb{Z} / 2\mathbb{Z} \times \mathbb{Z} / 2\mathbb{Z}$.
+> 7. $\left| \text{Gal}(\mathbb{Q}(\sqrt{ 2 },\sqrt{ 3 }):\mathbb{Q}) \right|=[\mathbb{Q}(\sqrt{ 2 },\sqrt{ 3 }):\mathbb{Q}]$.
+---
+> [!h] Example 4
+> Consider $\mathbb{Q}(\sqrt[4]{ 2 }):\mathbb{Q}$. Then, for $\sigma\in \text{Gal}(\mathbb{Q}(\sqrt[4]{ 2 }):\mathbb{Q})$,
+> 1. $2=\sigma(2)=\sigma(\sqrt[4]{2  })^4$ and $\sigma(\sqrt[4]{ 2 })=\pm \sqrt[4]{ 2 }$.
+> 2. $\sigma(\sqrt{ 2 })=\sqrt{ 2 }$ and no $\mathbb{Q}$-automorphism sends $\sqrt{ 2 }$ to $-\sqrt{ 2 }$.
+---
