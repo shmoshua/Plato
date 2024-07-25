@@ -7,11 +7,15 @@
 > [!lemma] Theorem 1
 > Let $L:K$ be finite. Then, TFAE:
 > 1. $\left| \text{Gal}(L:K) \right|=[L:K]$
-> 1. $L:K$ is Galois, in which case $L$ is a splitting field of a separable polynomial $f\in K[X]$.
+> 2. $K=L^{\text{Gal}(L:K)}$
+> 3. $L:K$ is Galois.
+> 4. $L$ is a splitting field of a separable polynomial $f\in K[X]$.
 
 > [!proof]+
 > We have:
-> 1. Let $\text{Gal}(L:K)=\{ \sigma_{1},\dots,\sigma_{n} \}$. 
+> 1. (1=>2): [[Galois Group|Theorem 3]]
+> 2. (2=>1): [[Galois Group|Theorem 3]]
+> 3. (2=>3): Let $\text{Gal}(L:K)=\{ \sigma_{1},\dots,\sigma_{n} \}$. 
 > 	1. **Showing $L:K$ is normal**:
 > 	   Let $f\in K[X]$ be a irreducible polynomial with a root $\alpha\in L$. Assume $\sigma_{1}=\text{id}$ wlog and let there be $r\leq n$ distinct images of $\alpha$ under $\sigma_{i}$. Define them as $\alpha_{1},\dots,\alpha_{r}$ where $\alpha_{1}=\sigma_{1}(\alpha)=\alpha$. $\alpha_{1},\dots,\alpha_{r}$ are $r$ distinct roots of $f$ in $L$. 
 > 	   
@@ -24,7 +28,14 @@
 > 	   
 > 	   We claim that $g=m_{\alpha,K}$. Let $h(x):=b_{0}+b_{1}x+\dots+b_{m}x^m\in K[X]$ with $\alpha$ as root. By applying $\sigma_{i}$, we know that: $$h(\sigma_{i}(\alpha))=\sigma_{i}(b_{0}+b_{1}\alpha+\dots+b_{m}\alpha^m)=\sigma_{i}(0)=0$$Therefore, $\alpha_{i}$ is a root of $h$ as well, and $g|h$, therefore, $g=m_{\alpha,K}$.
 > 	   
-> 	   However, $f$ is irreducible with $\alpha$ as root. Therefore, $f$ is a constant multiple of $g$ and $f$ splits over $L$, i.e. $L:K$ is normal.
+> 	   As $f$ has $\alpha$ as root, $g|f$. And as $f$ is irreducible, $f$ is a constant multiple of $g$ and $f$ splits over $L$, i.e. $L:K$ is normal.
+> 	2. **Showing $L:K$ is separable**:
+> 	    For any $\alpha\in L$, $m_{\alpha,K}$ is a irreducible polynomial with $\alpha$ as root. Then, by above, we know that $m_{\alpha,K}$ is separable and $L:K$ is separable.
+> 4. (3=>**Showing $L$ is a splitting field of a polynomial**:
+> 		 Since $L:K$ is finite, we can write $L=K(\alpha_{1},..,\alpha_{n})$ for $\alpha_{1},..,\alpha_{n}\in L$ algebraic. As $L:K$ is normal and separable, for $i\in [n]$, as $m_{\alpha_{i},K}$ is a separable polynomial where $L$ contains all the roots of $m_{\alpha_{i},K}$. 
+> 		 
+> 		 Therefore, $L$ is the splitting field of $\prod_{i=1}^{n}m_{\alpha_{i},K}$ where the product is separable.
+> 	    
 
 > [!proof]+
 > Let $n:=\left| \text{Gal}(L:K) \right|=[L:K]$ and $\text{Gal}(L:K)=\{ \sigma_{1},\dots,\sigma_{n} \}$. Let $f\in K[X]$ be a irreducible polynomial with a root $\alpha\in L$. 

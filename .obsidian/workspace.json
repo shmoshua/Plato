@@ -135,7 +135,7 @@
             }
           },
           {
-            "id": "33fe722f667f260b",
+            "id": "40d1a19639e346cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,12 +147,12 @@
             }
           },
           {
-            "id": "40d1a19639e346cb",
+            "id": "2101ef6020a9f1d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Fixed Field.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -291,16 +291,17 @@
   "lastOpenFiles": [
     "Algebra/Galois Group.md",
     "Algebra/Galois Extension.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Representation Theory/Character.md",
-    "Algebra/Normal Extension.md",
-    "Algebra/Fixed Field.md",
-    "Algebra/Galois Correspondence.md",
+    "Algebra/Separable Extension.md",
+    "Algebra/Field Extension.md",
     "Algebra/Splitting Field.md",
     "Algebra/Finite Field.md",
-    "Algebra/Field Extension.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Fixed Field.md",
+    "Topology/Separable Space.md",
+    "Representation Theory/Character.md",
+    "Algebra/Normal Extension.md",
+    "Algebra/Galois Correspondence.md",
     "Algebra/Integral Domain.md",
-    "Algebra/Separable Extension.md",
     "Algebra/Frobenius Homomorphism.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/K-Homomorphism.md",
@@ -314,7 +315,6 @@
     "Algebra/Linear Algebra/Algebraic and Geometric Multiplicity.md",
     "Topology/Normal Space.md",
     "Algebra/Unique Factorization Domain.md",
-    "Courses/Algebra II/Exercise Sheet 2.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
