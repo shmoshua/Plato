@@ -25,8 +25,8 @@ For a field extension $L:K$, we have:
 
 ---
 > [!lemma] Theorem 2
-> For a field extension $L:M:K$ with $G:=\text{Gal}(L:K)$, $H\subseteq G$ and $K\subseteq M\subseteq L$. Then, 
-> 1. $(\gamma \circ\phi)(H) \supseteq H$
+> For a field extension $L:M:K$ and $H\leq\text{Gal}(L:K)$,
+> 1. $(\gamma \circ\phi)(H) \geq H$
 > 2. $(\phi \circ\gamma)(M)\supseteq M$
 > 3. $(\phi \circ\gamma \circ\phi)(H)=\phi(H)$
 > 4. $(\gamma \circ\phi \circ\gamma)(M)=\gamma(M)$
@@ -34,8 +34,8 @@ For a field extension $L:K$, we have:
 
 > [!proof]-
 > We have: 
-> 1. let $\sigma\in H\subseteq \text{Gal}(L:K)$. Let $\ell\in \phi(H)$. Then, by definition, $\sigma(\ell)=\ell$. Therefore, $$\sigma\in \text{Gal}(L:\phi(H))=\gamma(\phi(H))$$
-> 2. let $m\in M$. Then, $\sigma(m)=m$ for all $\sigma\in \text{Gal}(L:M)=\gamma(M)$. Therefore, $m\in \phi(\gamma(M))$.
+> 1. let $\sigma\in H\leq \text{Gal}(L:K)$. For $\ell\in \phi(H)$, we have that $\sigma(\ell)=\ell$. Therefore, $$\sigma\in \text{Gal}(L:\phi(H))=\gamma(\phi(H))$$
+> 2. let $m\in M$ and $\sigma\in \gamma(M)$. Then, $\sigma(m)=m$ and $m\in \phi(\gamma(M))$.
 > 3. As $\gamma(\phi(H))\supseteq H$ from 1, we have from Lemma 1, $\phi(\gamma(\phi(H)))\subseteq \phi(H)$. However, by 2, we have the equality.
 > 4. Similarly, $\gamma(\phi(\gamma(M)))\supseteq\gamma(M)$ and from Lemma 1, $\gamma(\phi(\gamma(M)))\subseteq\gamma(M)$.
 

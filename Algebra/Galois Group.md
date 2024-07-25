@@ -19,9 +19,8 @@
 > 2. For $\sigma,\eta\in \text{Gal}(L:K)$, $(\sigma \circ \eta)|_{R(f)}=\sigma|_{R(f)}\circ \eta|_{R(f)}$ and the restriction is a group homomorphism. To check the injectivity, let $R(f)=:\{ \alpha_{1},\dots,\alpha_{n} \}$. Then, $L=K(\alpha_{1},\dots,\alpha_{n})$ and: $$L:=\left\{  \frac{p(\alpha_{1},\dots,\alpha_{n})}{q(\alpha_{1},\dots,\alpha_{n})}:p,q\in K[X_{1},\dots,X_{n}], q(\alpha_{1},\dots,\alpha_{n})\neq 0  \right\}$$ If $\sigma|_{R(f)}=\text{id}_{R(f)}$, then $\sigma(\alpha_{i})=\alpha)_i$ for all $i$ and as $\sigma(k)=k$ as well for all $k\in K$, $\sigma(\ell)=\ell$ for all $\ell\in L$. Therefore, $\sigma=\text{id}_{L}$.
 - **Remark**: For $K\subseteq L$ if $c\in L$ is a root of $f\in K[X]$, then so is $\sigma(c)$ for any $\sigma\in \text{Gal}(L:K)$ and they share the minimal polynomial.
 ---
-> [!lemma] Theorem 4
-> If $L$ is a splitting field of $f\in K[X]$ over $K$, then: $$\left| \text{Gal}(L:K) \right| \leq [L:K]$$with equality when $f$ is [[Separable Extension|separable]]. 
-
+> [!lemma] Theorem 2 (Galois Group and Degree of Extension)
+> If $L$ is a [[splitting field]] of $f\in K[X]$ over $K$, then: $$\left| \text{Gal}(L:K) \right| \leq [L:K]$$with equality when $f$ is [[Separable Extension|separable]]. 
 
 > [!proof]-
 > Applying [[Splitting Field|Theorem 2]] on $\tilde{K}=K$ and $\tilde{L}=L$ with $\varphi=\text{id}$, then, the extensions of $\varphi$ are precisely the elements of $\text{Gal}(L:K)$.
@@ -48,3 +47,7 @@
 > 1. $2=\sigma(2)=\sigma(\sqrt[4]{2  })^4$ and $\sigma(\sqrt[4]{ 2 })=\pm \sqrt[4]{ 2 }$.
 > 2. $\sigma(\sqrt{ 2 })=\sqrt{ 2 }$ and no $\mathbb{Q}$-automorphism sends $\sqrt{ 2 }$ to $-\sqrt{ 2 }$.
 ---
+> [!h] Example 5
+> Consider $\mathbb{Q}(i,\sqrt{ 1+2i }):\mathbb{Q}(i)$. 
+> 1. As $N(1+2i)=5$, $\sqrt{ 1+2i }\notin \mathbb{Q}(i)$ and $[\mathbb{Q}(i,\sqrt{ 1+2i }):\mathbb{Q}(i)]=2$.
+> 2. For $\varphi:\mathbb{Q}(i)\to \mathbb{Q}(i),a+bi\mapsto a-bi$ and $f(x)=x^{2}-(1+2i)\in \mathbb{Q}(i)[X]$, we have that by [[Splitting Field|Theorem 2]] $\varphi$ extends to: $\sigma:L\mapsto \tilde{L}:=\mathbb{Q}(i,\sqrt{ 1-2i }),\quad$
