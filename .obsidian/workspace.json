@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Character.md",
+                "file": "Algebra/Galois Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Algebra/Galois Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -164,14 +164,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Fixed Field.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -237,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Galois Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Galois Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Extension.md"
+                "file": "Algebra/Galois Group.md"
               }
             }
           }
@@ -299,16 +299,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "f0c5a0d062c4987e",
+  "active": "00bcede086d6528d",
   "lastOpenFiles": [
-    "Representation Theory/Character.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Finite Field.md",
     "Algebra/Galois Extension.md",
-    "Algebra/Splitting Field.md",
     "Algebra/Galois Group.md",
-    "Algebra/Galois Correspondence.md",
+    "Representation Theory/Character.md",
     "Algebra/Fixed Field.md",
+    "Algebra/Galois Correspondence.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Splitting Field.md",
+    "Algebra/Finite Field.md",
     "Algebra/Field Extension.md",
     "Algebra/Normal Extension.md",
     "Algebra/Integral Domain.md",

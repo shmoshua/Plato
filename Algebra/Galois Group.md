@@ -26,6 +26,30 @@
 > Applying [[Splitting Field|Theorem 2]] on $\tilde{K}=K$ and $\tilde{L}=L$ with $\varphi=\text{id}$, then, the extensions of $\varphi$ are precisely the elements of $\text{Gal}(L:K)$.
 - **Corollary**: if $f$ is irreducible, separable with degree $n$, then $n|\left| \text{Gal}(L:K) \right|$ as $L$ contains $K(\alpha)$ as a subfield where $\alpha\in L$ is a root of $f$. Therefore, $[L:K]=[L:K(\alpha)]n$ and  $n|\left| \text{Gal}(L:K) \right|$.
 ---
+> [!lemma] Theorem 3 
+> Let $L:K$ be a finite extension. Then, $$\left| \text{Gal}(L:K) \right|\leq[L:K] $$with equality if and only if $K=\phi(\text{Gal}(L:K))=L^{\text{Gal}(L:K)}$, i.e. $K=(\phi \circ\gamma)(K)$.
+
+> [!proof]-
+> Let $G:=\text{Gal}(L:K)$. Then, $K\subseteq L^G\subseteq L$. By [[Fixed Field|Theorem 2]], we have $[L:L^G]=\left| \text{Gal}(L:K) \right|$. Hence, $$[L:K]=[L:L^G][L^G:K]=\left| \text{Gal}(L:K) \right| [L^G:K]$$We have $\left| \text{Gal}(L:K) \right|=[L:K]$ if and only if $[L^G:K]=1$ if and only if $L^G=K$.
+- **Corollary**: A finite extension $L:K$ is Galois if and only if $K=(\phi \circ\gamma)(K)$. 
+---
+
+> [!lemma] Corollary 4
+> Let $G,G_{1},G_{2}\leq\text{Aut}(L)$ be finite. Then, 
+> 1. $\text{Gal}(L:L^G)=G$.
+> 2. if $G_{1}\neq G_{2}$, then $L^{G_{1}}\neq L^{G_{2}}$.
+
+> [!proof]-
+> We have:
+> 1. By definition $L^G$ is fixed by all elements of $G$. So $G\subseteq \text{Gal}(L:L^G)$. By [[Fixed Field|Theorem 2]], we have: $$\left| G \right| =[L:L^G]$$By Theorem 3, $[L:L^G]= \left| G \right|\leq \left| \text{Gal}(L:L^G) \right|\leq[L:L^G]$ and $[L:L^G]=\left| G \right|$. This proves the statement.
+> 2. If $L^{G_{1}}=L^{G_{2}}$ then $G_{1}=\text{Gal}(L:L^{G_{1}})=\text{Gal}(L:L^{G_{2}})=G_{2}$.
+---
+> [!lemma] Corollary 5
+> For a finite extension $L:K$ and $H\leq \text{Gal}(L:K)$, $$[L^H:K]=[L:K] / \left| H \right| $$
+
+> [!proof]-
+> Apply [[Fixed Field|Theorem 2]] to $H\leq \text{Aut}(L)$ and $[L:L^H]=\left| H \right|$. Therefore, $$[L^H:K]=\frac{[L:K]}{[L:L^H]}=\frac{[L:K]}{\left| H \right| }$$
+---
 ##### Examples
 > [!h] Example 1
 > Let $\sigma\in \text{Gal}(\mathbb{C} :\mathbb{R})$ and $j:=\sigma(i)$. Then, 
