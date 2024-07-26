@@ -158,7 +158,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -224,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Galois Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Galois Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+                "file": "Algebra/Galois Group.md"
               }
             }
           }
@@ -286,14 +287,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4d3cf14e10079d85",
+  "active": "95078f85df37accf",
   "lastOpenFiles": [
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Galois Correspondence.md",
     "Algebra/Normal Extension.md",
     "Algebra/Galois Group.md",
     "Algebra/Separable Extension.md",
     "Algebra/Normal Closure.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Topology/Separable Space.md",
     "Algebra/Galois Extension.md",
     "Algebra/Algebraic and Transcendental Element.md",
