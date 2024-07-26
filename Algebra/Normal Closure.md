@@ -7,7 +7,7 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Existence and Unique of Normal Closures)
-> Let $L:K$ be a finite algebraic extension. Then, 
+> Let $L:K$ be a finite extension. Then, 
 > 1. there exists a normal closure $N$ of $L:K$ s.t. $N:K$ is finite.
 > 2. if $M$ is another normal closure of $L$, then $M:K$ and $N:K$ are isomorphic.
 
@@ -19,7 +19,7 @@
 > 2. Let $M$ now be another normal closure. Then, trivially $M$ is a splitting field of $f:=m_{1}\dots m_{n}$ over $K$. Then, we of course have an isomorphism $\sigma:N\to M$ that extends $\text{id}_{K}$. 
 ---
 > [!lemma] Lemma 2
-> Suppose $K\subseteq L\subseteq N\subseteq M$ where $L:K$ is finite, algebraic and $N$ is a normal closure of $L:K$.
+> Suppose $K\subseteq L\subseteq N\subseteq M$ where $L:K$ is finite and $N$ is a normal closure of $L:K$.
 > 1. for $\phi\in \text{Mono}_{K}(L,M)$, we have $\phi(L)\subseteq N$.
 
 > [!proof]-
@@ -28,7 +28,12 @@
 - **Corollary**: if $L:K$ is normal and finite where $K\subseteq L\subseteq M$, then $\text{Mono}_{K}(L,M)=\text{Aut}_{K}(L)$ as $\phi(L)\subseteq L$ and $L:K$ is finite. 
 ---
 > [!lemma] Theorem 3
-> Suppose $L:K$ is finite and separable of degree $n$. Then, for a normal closure $N$ of $L:K$, $$\left| \text{Mono}_{K}(L:N) \right| =n$$
+> Suppose $L:K$ is finite and separable. Then, for a normal closure $N$ of $L:K$, $$\left| \text{Mono}_{K}(L,N) \right| =[L:K]$$
+
+> [!proof]+
+> We will use an induction on $[L:K]=:n$. 
+> 1. if $[L:K]=1$, then the result is clear.
+> 2. if $[L:K]>1$, let $\alpha\in L$ and $m$ be the minimal polynomial of $\alpha$ over $K$. If $\alpha\notin K$, then  $$\deg m=[K(\alpha):K]=r>1$$As $N:K$ is normal, $m$ splits in $N$ and its zeros $\alpha_{1},\dots,\alpha_{r}$ are distinct by separability. Then, by induction, we have that: $$\left| \text{Mono}_{K(\alpha)}(L,N) \right| =[L:K(\alpha)]$$given by $\text{Mono}_{K(\alpha)}(L,N)=\{ \rho_{1},\dots,\rho_{s} \}$ where $s= n / r$.
 ---
 ##### Examples
 > [!h] Example 1

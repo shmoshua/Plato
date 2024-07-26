@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -152,7 +152,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Galois Group.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ea87ce10996f3637",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Separable Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -289,19 +301,19 @@
   },
   "active": "40d1a19639e346cb",
   "lastOpenFiles": [
-    "Algebra/Algebraic and Transcendental Element.md",
-    "Algebra/Normal Closure.md",
-    "Algebra/Splitting Field.md",
     "Algebra/Normal Extension.md",
-    "Algebra/Field Extension.md",
-    "Algebra/Algebraic Closure.md",
-    "Algebra/Galois Extension.md",
+    "Algebra/Normal Closure.md",
     "Algebra/Galois Group.md",
     "Algebra/Separable Extension.md",
-    "Algebra/Finite Field.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Fixed Field.md",
     "Topology/Separable Space.md",
+    "Algebra/Galois Extension.md",
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Splitting Field.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Algebraic Closure.md",
+    "Algebra/Finite Field.md",
+    "Algebra/Fixed Field.md",
     "Representation Theory/Character.md",
     "Algebra/Galois Correspondence.md",
     "Algebra/Integral Domain.md",
