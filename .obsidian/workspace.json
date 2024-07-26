@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "mode": "preview",
                 "source": true
               }
@@ -287,12 +287,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "059af7a2feac2860",
+  "active": "40d1a19639e346cb",
   "lastOpenFiles": [
-    "Algebra/Field Extension.md",
+    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Normal Closure.md",
     "Algebra/Splitting Field.md",
     "Algebra/Normal Extension.md",
+    "Algebra/Field Extension.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Galois Extension.md",
     "Algebra/Galois Group.md",
@@ -305,7 +306,6 @@
     "Algebra/Galois Correspondence.md",
     "Algebra/Integral Domain.md",
     "Algebra/Frobenius Homomorphism.md",
-    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/K-Homomorphism.md",
     "Algebra/Field.md",
     "Algebra/Exponent of a Group.md",

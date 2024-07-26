@@ -44,15 +44,15 @@
 > 	 By applying [[Splitting Field|Theorem 2]], $\phi$ extends to a isomorphism $\sigma\in \text{Aut}_{K}(L)$.
 > 2. By [[Field Extension|Theorem 6]], there exists a field isomorphism $\phi:K(\alpha)\to K(\beta)$ that extends $\text{id}_{K}$ with $\phi(\alpha)=\beta$.By considering $\phi$ as a monomorphism from $K(\alpha)$ to $L$, we get the statement by 1.
 ---
-> [!lemma] Theorem 2 (Equivalence of Normal Extension)
+> [!lemma] Theorem 2 (Equivalence of Finite Normal Extension)
 > Let $L:K$ be finite. Then, TFAE:
 > 1. $L:K$ is normal.
-> 2. for every $K\subseteq M\subseteq L$, $\text{Mono}_{K}(L,M)=\text{Aut}_{K}(L)$
+> 2. for every $K\subseteq L\subseteq M$, $\text{Mono}_{K}(L,M)=\text{Aut}_{K}(L)$
 > 3. there exists a normal extension $N$ of $L:K$ s.t. $\text{Mono}_{K}(L,N)=\text{Aut}_{K}(L)$
 
 > [!proof]+
 > We have:
-> 
+> 1. (1=>2): If $L:K$ is finite normal, then $L$ is the normal closure of $L:K$ and by [[Normal Closure|Lemma 2]]
 
 ---
 > [!lemma] Corollary 3

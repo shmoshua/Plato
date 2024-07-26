@@ -19,11 +19,12 @@
 > 2. Let $M$ now be another normal closure. Then, trivially $M$ is a splitting field of $f:=m_{1}\dots m_{n}$ over $K$. Then, we of course have an isomorphism $\sigma:N\to M$ that extends $\text{id}_{K}$. 
 ---
 > [!lemma] Lemma 2
-> Suppose $K\subseteq L\subseteq N\subseteq M$ where $L:K$ is finite and $N$ is a normal closure of $L:K$.
+> Suppose $K\subseteq L\subseteq N\subseteq M$ where $L:K$ is finite, algebraic and $N$ is a normal closure of $L:K$.
 > 1. for $\phi\in \text{Mono}_{K}(L,M)$, we have $\phi(L)\subseteq N$.
 
 > [!proof]-
-> Suppose $\alpha\in L$. Let $m:=m_{\alpha,K}$ be its minimal polynomial over $K$. Then, $$0=m(\alpha)=\phi(m(\alpha))=m(\phi(\alpha))$$Therefore, $\phi(\alpha)$ is also a root of $m$. However, as $N:K$ is normal, $\phi(\alpha)\in N$.
+> Suppose $\alpha\in L$. Let $m:=m_{\alpha,K}$ be its minimal polynomial. Then, 
+> $$m(\phi(\alpha))=\phi(m(\alpha))=\phi(0)=0$$Therefore, $\phi(\alpha)$ is also a root of $m$. However, as $N:K$ is normal, $\phi(\alpha)\in N$.
 - **Corollary**: if $L:K$ is normal and finite where $K\subseteq L\subseteq M$, then $\text{Mono}_{K}(L,M)=\text{Aut}_{K}(L)$ as $\phi(L)\subseteq L$ and $L:K$ is finite. 
 ---
 > [!lemma] Theorem 3
