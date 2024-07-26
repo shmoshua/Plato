@@ -49,16 +49,16 @@ For a field extension $L:K$, we have:
 > Conversely, take $\sigma\in \gamma(\tilde{M})$ and $x\in M$. Then, $$(\tau ^{-1}\sigma \tau)(x)=\tau ^{-1}(\tau(x))=x$$Therefore, $\tau ^{-1}\gamma(\tau(M))\tau \subseteq \gamma(M)$, which proves the statement.
 ---
 > [!lemma] Theorem 4 (The Fundamental Theorem of Galois Correspondence)
-> Let $L:K$ be finite [[Galois Extension|Galois]] of degree $n$. Then, 
-> 1. $\left| \text{Gal}(L:K) \right|=[L:K]=n$.
+> Let $L:K$ be finite [[Galois Extension|Galois]]. Then, 
+> 1. $\left| \text{Gal}(L:K) \right|=[L:K]$.
 > 2. the maps $\phi,\gamma$ are mutual inverses.
 > 3. if $M\in \mathcal{F}$, then $[L:M]=\left| \gamma(M) \right|$ and $[M:K]=\left| \text{Gal}(L:K) \right| / \left| \gamma(M) \right|$.
 > 4. an intermediate field $M:K$ is normal if and only if $\gamma(M)\unlhd \text{Gal}(L:K)$
 > 5. if $M:K$ is normal, $\text{Gal}(M:K)\cong \text{Gal}(L:K) / \gamma(M)$.  
 
-> [!proof]-
+> [!proof]+
 > We have:
-> 1. [[Galois Extension|Theorem 1]]
+> 1. [[Galois Extension|Theorem 1]].
 > 2. Let $M\in \mathcal{F}$. Then, $L:M$ is Galois from [[Galois Extension|Corollary of Theorem 1]]. Therefore, by [[Galois Extension|Corollary 3]], $\phi\gamma(M)=M$.
 >    
 >    Conversely, let $H\in \mathcal{G}$, i.e. $H\leq \text{Gal}(L:K)$. Then, $H\subseteq\gamma(\phi(H))$ and $\phi(H)=\phi(\gamma(\phi(H)))$. By [[Galois Extension|Theorem 2]], $\left| L:\phi(H) \right|=\left| H \right|$. Therefore, $$\left| H \right| =[L:\phi(H)]=[L:\phi(\gamma(\phi(H)))]=\left| \gamma(\phi(H)) \right| $$ and $H=\gamma(\phi(H))$.

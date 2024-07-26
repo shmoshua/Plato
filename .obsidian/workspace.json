@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Closure.md",
+                "file": "Algebra/Galois Correspondence.md",
                 "mode": "source",
                 "source": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Extension.md",
+                "file": "Algebra/Galois Correspondence.md",
                 "mode": "preview",
                 "source": true
               }
@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -237,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Normal Closure.md",
+                "file": "Algebra/Galois Correspondence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Normal Closure.md",
+                "file": "Algebra/Galois Correspondence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Normal Closure.md"
+                "file": "Algebra/Galois Correspondence.md"
               }
             }
           }
@@ -299,23 +299,23 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "40d1a19639e346cb",
+  "active": "f0c5a0d062c4987e",
   "lastOpenFiles": [
-    "Algebra/Normal Extension.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Galois Correspondence.md",
     "Algebra/Normal Closure.md",
+    "Algebra/Normal Extension.md",
     "Algebra/Galois Group.md",
     "Algebra/Separable Extension.md",
     "Topology/Separable Space.md",
     "Algebra/Galois Extension.md",
     "Algebra/Algebraic and Transcendental Element.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Splitting Field.md",
     "Algebra/Field Extension.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Finite Field.md",
     "Algebra/Fixed Field.md",
     "Representation Theory/Character.md",
-    "Algebra/Galois Correspondence.md",
     "Algebra/Integral Domain.md",
     "Algebra/Frobenius Homomorphism.md",
     "Algebra/K-Homomorphism.md",
