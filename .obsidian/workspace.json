@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Normal Closure.md",
                 "mode": "source",
                 "source": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Normal Extension.md",
                 "mode": "source",
                 "source": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Normal Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Normal Closure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Normal Closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Normal Closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Extension.md"
+                "file": "Algebra/Normal Closure.md"
               }
             }
           }
@@ -287,19 +287,21 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "059af7a2feac2860",
+  "active": "40d1a19639e346cb",
   "lastOpenFiles": [
-    "Algebra/Galois Group.md",
+    "Algebra/Normal Extension.md",
+    "Algebra/Normal Closure.md",
     "Algebra/Galois Extension.md",
-    "Algebra/Separable Extension.md",
-    "Algebra/Field Extension.md",
+    "Algebra/Algebraic Closure.md",
     "Algebra/Splitting Field.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Galois Group.md",
+    "Algebra/Separable Extension.md",
     "Algebra/Finite Field.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Fixed Field.md",
     "Topology/Separable Space.md",
     "Representation Theory/Character.md",
-    "Algebra/Normal Extension.md",
     "Algebra/Galois Correspondence.md",
     "Algebra/Integral Domain.md",
     "Algebra/Frobenius Homomorphism.md",
@@ -311,10 +313,8 @@
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Minimal Polynomial.md",
-    "Algebra/Algebraic Closure.md",
     "Algebra/Linear Algebra/Algebraic and Geometric Multiplicity.md",
     "Topology/Normal Space.md",
-    "Algebra/Unique Factorization Domain.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
