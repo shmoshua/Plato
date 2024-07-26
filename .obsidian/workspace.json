@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -287,11 +287,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "40d1a19639e346cb",
+  "active": "059af7a2feac2860",
   "lastOpenFiles": [
-    "Algebra/Splitting Field.md",
     "Algebra/Field Extension.md",
     "Algebra/Normal Closure.md",
+    "Algebra/Splitting Field.md",
     "Algebra/Normal Extension.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Galois Extension.md",
