@@ -34,7 +34,7 @@
 ---
 > [!lemma] Theorem 2
 > Let $L:K$ be a finite normal extension with $K\subseteq M\subseteq L$. Then,
-> 1. any $\phi\in \text{Mono}_{K}(M,L)$ can be extended to $\sigma\in \text{Aut}_{L}(K)=\text{Gal}(L:K)$.
+> 1. any $\phi\in \text{Mono}_{K}(M,L)$ can be extended to $\sigma\in \text{Aut}_{K}(L)=\text{Gal}(L:K)$.
 > 2. for an irreducible polynomial $f\in K[X]$ and its two roots $\alpha,\beta\in L$, there exists $\sigma\in \text{Aut}_{K}(L)$ s.t. $\sigma(\alpha)=\beta$.
 
 > [!proof]-
