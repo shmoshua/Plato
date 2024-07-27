@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Algebra/Discriminant.md",
                 "mode": "source",
                 "source": true
               }
@@ -97,14 +97,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Reduced Polynomial.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Discriminant.md",
                 "mode": "preview",
                 "source": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Reduced Polynomial.md",
                 "mode": "preview",
                 "source": true
               }
@@ -140,14 +140,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Galois Correspondence.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4e4a7824df7ed978",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Galois Extension.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -275,21 +286,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "421f6377a0bba66b",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
+    "Algebra/Reduced Polynomial.md",
+    "Algebra/Galois Correspondence.md",
+    "Algebra/Galois Extension.md",
     "Algebra/Galois Group.md",
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Discriminant.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Alternating Group.md",
     "Algebra/Transpostion.md",
-    "Algebra/Discriminant.md",
     "Algebra/Symmetry Group.md",
-    "Algebra/Galois Correspondence.md",
     "Algebra/Normal Extension.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Separable Extension.md",
     "Algebra/Normal Closure.md",
     "Topology/Separable Space.md",
-    "Algebra/Galois Extension.md",
-    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Splitting Field.md",
     "Algebra/Field Extension.md",
     "Algebra/Algebraic Closure.md",
@@ -302,7 +314,6 @@
     "Algebra/Field.md",
     "Algebra/Exponent of a Group.md",
     "Algebra/Characteristic.md",
-    "Algebra/Principal Ideal Domain.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
