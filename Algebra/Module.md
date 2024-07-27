@@ -3,10 +3,10 @@
 > [!definition]
 > Let $R$ be a [[ring]]. A ***left $R$-module*** is a set $M$ with the addition $+:M\times M\to M,(m,n)\mapsto m+n$ and scalar multiplication $\cdot:R\times M\to M,(r,m)\mapsto rm$ s.t. 
 > 1. $(M,+,0)$ is an abelian group.
-> 2. $r(m+n)=rm+rn$
-> 3. $(r+s)m=rm+sm$
-> 4. $r(sm)=(rs)m$
-> 5. $1m=m$.
+> 2. $r(m+n)=rm+rn$ for all $r\in R$, $m,n\in M$.
+> 3. $(r+s)m=rm+sm$ for all $r ,s\in R$, $m\in M$.
+> 4. $r(sm)=(rs)m$ for all $r, s\in R$, $m\in M$.
+> 5. $1m=m$ for all $m\in M$.
 - **Remark**: Similarly, one can define a ***right $R$-module***. If $R$ is commutative, a left $R$-module is also a right module by defining $rm=mr$.
 - **Remark**: For a field $K$, a $K$-module is equivalent to a $K$-[[vector space]].
 ---

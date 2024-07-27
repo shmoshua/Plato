@@ -1,9 +1,9 @@
 #Definition #Algebra
 
 > [!definition]
-> Let $M_{1},\dots,M_{n}$ be [[submodules]] of $M$. The ***direct sum*** $M_{1}\oplus\dots \oplus M_{n}$ is the set $M_{1}\times\dots \times M_{n}$ with component-wise addition and multiplication. Then, 
-> 1. $0=(0_1,\dots,0_{n})$ and 
-> 2. $1=(1_{1},\dots,1_{n})$
+> Let $M$ be an $R$-[[module]]. 
+> 1. The ***internal direct sum***  $M_{1}\oplus\dots \oplus M_{n}$ of [[Submodule|submodules]] $M_{1},\dots,M_{n}$ of $M$ is the set $M_{1}\times\dots \times M_{n}$ with component-wise addition and multiplication given by the bijective map: $$\pi:M_{1}\oplus \dots \oplus M_{n}\to M_{1}+\dots+M_{n},\quad (m_{1},\dots,m_{n})\mapsto m_{1}\dots m_{n}$$
+> 2. The ***external direct sum*** of a collection $M_{1},\dots,M_{n}$ of $R$-modules, $M_{1}\times\dots \times M_{n}$ with component-wise addition and multiplication is the
 
 - **Remark**: The direct sum $R_{1}\oplus\dots \oplus R_{n}$ is also a ring.
 ---
