@@ -26,6 +26,11 @@
 > 
 > Hence, for any $f\in M(A)$, we have $a_{1},..,a_{n}$ where $f$ does not vanish with $r_{1},\dots,r_{n}$ and: $$f=\sum_{i=1}^{k}r_{i}\chi_{a_{i}}$$Now, for any $\varphi:A\to N$, we define $\Phi:M(A)\to N,\ \sum_{i=1}^{n}r_{i}a_{i}\mapsto \sum_{i=1}^{n}r_{i}\varphi(a_{i})$. $\Phi$ is well-defined as the expression is unique and clearly, $\Phi|_{A}=\varphi$. Further, it is clearly a homomorphism. Lastly, it is unique as the values uniquely depend on $\varphi(a)$ for $a\in A$. 
 ---
+> [!lemma] Theorem 3
+> Let $R$ be a [[Principal Ideal Domain|PID]] and $M$ a free $R$-module of rank $n$. Then, for a [[submodule]] $N$, 
+> 1. $N$ is free of rank $m$ for $m\leq n$.
+> 2. there exists a basis $y_{1},\dots,y_{n}$ of $M$ s.t. $a_{1}y_{1},\dots,a_{m}y_{m}$ is a basis of $N$ with $a_{1},\dots,a_{m}\in R \backslash\{ 0 \}$ and $a_{i}|a_{i+1}.$
+---
 ##### Examples
 > [!h] Example 1
 > For any set $A$, 

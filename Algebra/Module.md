@@ -13,6 +13,7 @@
 	1. $\varphi(m+m')=\varphi(m)+\varphi(m')$ and
 	2. $\varphi(rm)=r\varphi(m)$
 - **Related definition**: $\text{Hom}_{R}(M,N)$ is the space of all homomorphisms from $M$ to $N$.
+- **Related definition**: A module $M$ is ***cyclic*** if there exists $x\in M$ s.t. $M=Rx$.
 ---
 ##### Properties
 > [!lemma] Proposition 1

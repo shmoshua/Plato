@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Radical Extension.md",
+                "file": "Algebra/Free Module.md",
                 "mode": "source",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Algebra/Torsion Module.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Torsion Module.md",
+                "file": "Algebra/Module.md",
                 "mode": "preview",
                 "source": true
               }
@@ -207,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -337,14 +337,14 @@
   },
   "active": "8d3fcf4d4b5fa59f",
   "lastOpenFiles": [
-    "Algebra/Free Module.md",
-    "Algebra/Torsion Module.md",
-    "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Module.md",
+    "Algebra/Torsion Module.md",
+    "Algebra/Free Module.md",
+    "Algebra/Radical Extension.md",
+    "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Direct Sum.md",
     "Algebra/Submodule.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Radical Extension.md",
     "Algebra/Normal Extension.md",
     "Algebra/Solvable Group.md",
     "Algebra/Galois Correspondence.md",

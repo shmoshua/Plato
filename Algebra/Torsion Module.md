@@ -7,6 +7,7 @@
 > 3. $M$ is a ***torsion module*** if $\text{Tor}(M)=M$.
 - **Related definition**: A module is a ***torsion free module*** if $\text{Tor}(M)=(0)$.
 - **Remark**: if $R$ is not an integral domain, $\text{Tor}(M)$ is not a submodule.
+- **Related definition**: The ***annihilator*** of $M$ is $\text{Ann}(M):=\{ r\in R:rM=(0) \}$.
 ---
 ##### Examples
 > [!h] Example 1
