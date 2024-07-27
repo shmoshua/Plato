@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Extension.md",
+                "file": "Algebra/Discriminant.md",
                 "mode": "preview",
                 "source": true
               }
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Discriminant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Discriminant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Group.md"
+                "file": "Algebra/Discriminant.md"
               }
             }
           }
@@ -287,12 +287,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "95078f85df37accf",
+  "active": "421f6377a0bba66b",
   "lastOpenFiles": [
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Galois Correspondence.md",
     "Algebra/Normal Extension.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Galois Group.md",
+    "Algebra/Galois Correspondence.md",
     "Algebra/Separable Extension.md",
     "Algebra/Normal Closure.md",
     "Topology/Separable Space.md",
