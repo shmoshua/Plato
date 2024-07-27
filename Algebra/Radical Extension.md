@@ -10,6 +10,17 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1
+> Let $K$ be a field with $\text{char }K=0$. For $f\in K[X]$, TFAE:
+> 1. $f$ is solvable by radicals.
+> 2. $\text{Gal}(L_{f}:K)$ is solvable.
+
+> [!proof]+
+> We have that:
+> 1. (1=>2): Assume $f$ is solvable by radicals. 
+> 	- **Claim 1: For a radical extension $L:K$, $L=K(\alpha_{1},..,\alpha_{n})$ with $\alpha_{i}^{p_{i}}\in K_{i-1}$ where $p_{i}$ are primes.**
+> 		We simply show that for any simple radical extension $K(\alpha):K$, we can 
+---
+> [!lemma] Theorem 1
 > Let $K$ be a field with $\text{char }K=0$ and $L$ a finite [[normal extension]] of $K$. Then, TFAE:
 > 1. there exists $M:L$ s.t. $M:K$ is radical.
 > 2. $\text{Gal}(L:K)$ is [[Solvable Group|solvable]].

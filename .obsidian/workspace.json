@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Algebra/Radical Extension.md",
                 "mode": "source",
                 "source": true
               }
@@ -311,11 +311,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "71d5be9ce9a12483",
+  "active": "8d3fcf4d4b5fa59f",
   "lastOpenFiles": [
-    "Algebra/Normal Extension.md",
     "Algebra/Separable Extension.md",
     "Algebra/Radical Extension.md",
+    "Algebra/Normal Extension.md",
     "Algebra/Reduced Polynomial.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Field Extension.md",
