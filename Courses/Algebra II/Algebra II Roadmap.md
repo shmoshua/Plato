@@ -68,6 +68,7 @@
 3. [[Roots of Unity]]
 4. [[Cyclotomic Extension]]
 5. [[Cyclotomic Polynomial]]
+6. [[Abelian Extension]]
 ---
 ##### 6. Solvability by Radicals and Solvable Groups
 1. [[Radical Extension]]

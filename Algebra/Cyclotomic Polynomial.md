@@ -14,7 +14,7 @@
 > For $n\geq 1$, 
 > 1. $\Phi_{n}(x)$ is a monic irreducible polynomial in $\mathbb{Z}[X]$ of degree $\varphi(n)$. 
 > 2. $[\mathbb{Q}(\xi_{n}):\mathbb{Q}]=\varphi(n)$
-> 3. The map: $$(\mathbb{Z} / n\mathbb{Z})$$
+> 3. The map: $$(\mathbb{Z} / n\mathbb{Z})^\times\to \text{Gal}(\mathbb{Q}(\xi_{n}):\mathbb{Q}), \quad a\text{ mod }n\mapsto (\xi_{n}\mapsto \xi_{n}^a)$$is a group isomorphism.
 
 > [!proof]-
 > We prove this using induction. 

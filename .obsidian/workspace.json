@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Algebra/Radical Extension.md",
                 "mode": "source",
                 "source": true
               }
@@ -97,14 +97,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Reduced Polynomial.md",
+                "file": "Algebra/Radical Extension.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8d3fcf4d4b5fa59f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Separable Extension.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -116,31 +128,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Cyclotomic Polynomial.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "421f6377a0bba66b",
+            "id": "71d5be9ce9a12483",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Reduced Polynomial.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "95078f85df37accf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Algebra/Radical Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,13 +152,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Normal Extension.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "62250db3b23aeb05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Separable Extension.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8d7627fd67d96f03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Separable Extension.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Cyclotomic Polynomial.md",
+                "file": "Algebra/Radical Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Cyclotomic Polynomial.md",
+                "file": "Algebra/Radical Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Cyclotomic Polynomial.md"
+                "file": "Algebra/Radical Extension.md"
               }
             }
           }
@@ -286,34 +311,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "059af7a2feac2860",
+  "active": "71d5be9ce9a12483",
   "lastOpenFiles": [
-    "Algebra/Cyclotomic Extension.md",
-    "Algebra/Cyclotomic Polynomial.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Discriminant.md",
-    "Algebra/Galois Correspondence.md",
+    "Algebra/Normal Extension.md",
+    "Algebra/Separable Extension.md",
+    "Algebra/Radical Extension.md",
     "Algebra/Reduced Polynomial.md",
-    "Algebra/Galois Group.md",
-    "Algebra/Galois Extension.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Solvable Group.md",
     "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Galois Group.md",
+    "Lie Group/Radical (Lie Algebra).md",
+    "Algebra/Galois Correspondence.md",
+    "Algebra/Abelian Extension.md",
+    "radical exx.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Field.md",
+    "Algebra/Untitled 1.md",
+    "Algebra/Cyclotomic Polynomial.md",
+    "Algebra/Cyclotomic Extension.md",
+    "Algebra/Discriminant.md",
+    "Algebra/Galois Extension.md",
     "Algebra/Alternating Group.md",
     "Algebra/Transpostion.md",
     "Algebra/Symmetry Group.md",
-    "Algebra/Normal Extension.md",
-    "Algebra/Separable Extension.md",
     "Algebra/Normal Closure.md",
     "Topology/Separable Space.md",
     "Algebra/Splitting Field.md",
-    "Algebra/Field Extension.md",
-    "Algebra/Algebraic Closure.md",
-    "Algebra/Finite Field.md",
-    "Algebra/Fixed Field.md",
-    "Representation Theory/Character.md",
-    "Algebra/Integral Domain.md",
-    "Algebra/Frobenius Homomorphism.md",
-    "Algebra/K-Homomorphism.md",
-    "Algebra/Field.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
