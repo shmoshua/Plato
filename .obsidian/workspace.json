@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Algebra/Torsion Module.md",
                 "mode": "source",
                 "source": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Torsion Module.md",
                 "mode": "preview",
                 "source": true
               }
@@ -207,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Algebra/Torsion Module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Algebra/Torsion Module.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Free Module.md"
+                "file": "Algebra/Torsion Module.md"
               }
             }
           }
@@ -335,10 +335,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3279e027cbd779c5",
+  "active": "8d3fcf4d4b5fa59f",
   "lastOpenFiles": [
-    "Algebra/Module.md",
     "Algebra/Free Module.md",
+    "Algebra/Torsion Module.md",
+    "Algebra/Finitely Generated Abelian Group.md",
+    "Algebra/Module.md",
     "Algebra/Direct Sum.md",
     "Algebra/Submodule.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
@@ -361,8 +363,6 @@
     "Algebra/Field.md",
     "Algebra/Untitled 1.md",
     "Algebra/Discriminant.md",
-    "Algebra/Galois Extension.md",
-    "Algebra/Alternating Group.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
