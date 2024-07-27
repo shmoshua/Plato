@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Free Module.md",
                 "mode": "source",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Direct Sum.md",
+                "file": "Algebra/Free Module.md",
                 "mode": "preview",
                 "source": true
               }
@@ -207,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Free Module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Free Module.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Module.md"
+                "file": "Algebra/Free Module.md"
               }
             }
           }
@@ -337,9 +337,10 @@
   },
   "active": "8d3fcf4d4b5fa59f",
   "lastOpenFiles": [
-    "Algebra/Submodule.md",
     "Algebra/Module.md",
+    "Algebra/Free Module.md",
     "Algebra/Direct Sum.md",
+    "Algebra/Submodule.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Radical Extension.md",
     "Algebra/Normal Extension.md",
@@ -362,7 +363,6 @@
     "Algebra/Discriminant.md",
     "Algebra/Galois Extension.md",
     "Algebra/Alternating Group.md",
-    "Algebra/Transpostion.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
