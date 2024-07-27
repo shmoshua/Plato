@@ -97,14 +97,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Extension.md",
+                "file": "Algebra/Discriminant.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -129,18 +129,6 @@
               "type": "markdown",
               "state": {
                 "file": "Algebra/Discriminant.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f0c5a0d062c4987e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Galois Correspondence.md",
                 "mode": "preview",
                 "source": true
               }
@@ -289,10 +277,14 @@
   },
   "active": "421f6377a0bba66b",
   "lastOpenFiles": [
+    "Algebra/Galois Group.md",
+    "Algebra/Alternating Group.md",
+    "Algebra/Transpostion.md",
+    "Algebra/Discriminant.md",
+    "Algebra/Symmetry Group.md",
+    "Algebra/Galois Correspondence.md",
     "Algebra/Normal Extension.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Galois Group.md",
-    "Algebra/Galois Correspondence.md",
     "Algebra/Separable Extension.md",
     "Algebra/Normal Closure.md",
     "Topology/Separable Space.md",
@@ -311,10 +303,6 @@
     "Algebra/Exponent of a Group.md",
     "Algebra/Characteristic.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Polynomial Ring.md",
-    "Algebra/Minimal Polynomial.md",
-    "Algebra/Linear Algebra/Algebraic and Geometric Multiplicity.md",
-    "Topology/Normal Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

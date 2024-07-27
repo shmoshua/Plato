@@ -50,7 +50,7 @@
 > 2. for every $K\subseteq L\subseteq M$, $\text{Mono}_{K}(L,M)=\text{Aut}_{K}(L)$
 > 3. there exists a normal extension $N$ of $K$ containing $L$ s.t. $\text{Mono}_{K}(L,N)=\text{Aut}_{K}(L)$
 
-> [!proof]-
+> [!proof]-**
 > We have:
 > 1. (1=>2): If $L:K$ is finite normal, then $L$ is the normal closure of $L:K$ and by [[Normal Closure|Lemma 2]] for any $\phi\in \text{Mono}_{K}(L,M)$, $\phi(L)\subseteq L$. However, as $L$ is a finite-dimensional $K$-vector space and $\phi$ is injective, $\phi(L)=L$ and $\phi\in \text{Aut}_{K}(L)$. The other direction holds trivially. 
 > 2. (2=>3): As $L:K$ is finite, there exists a normal closure $N$. Then, $N:K$ is normal and by 2, $\text{Mono}_{K}(L:N)=\text{Aut}_{K}(L)$.
