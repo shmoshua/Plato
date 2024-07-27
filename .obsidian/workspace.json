@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Cyclotomic Polynomial.md",
                 "mode": "source",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Cyclotomic Polynomial.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Galois Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Cyclotomic Polynomial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Cyclotomic Polynomial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,7 +264,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Discriminant.md"
+                "file": "Algebra/Cyclotomic Polynomial.md"
               }
             }
           }
@@ -286,15 +286,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4d3cf14e10079d85",
+  "active": "059af7a2feac2860",
   "lastOpenFiles": [
-    "Algebra/Reduced Polynomial.md",
-    "Algebra/Galois Correspondence.md",
-    "Algebra/Galois Extension.md",
-    "Algebra/Galois Group.md",
-    "Algebra/Algebraic and Transcendental Element.md",
-    "Algebra/Discriminant.md",
+    "Algebra/Cyclotomic Extension.md",
+    "Algebra/Cyclotomic Polynomial.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Discriminant.md",
+    "Algebra/Galois Correspondence.md",
+    "Algebra/Reduced Polynomial.md",
+    "Algebra/Galois Group.md",
+    "Algebra/Galois Extension.md",
+    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Alternating Group.md",
     "Algebra/Transpostion.md",
     "Algebra/Symmetry Group.md",
@@ -312,8 +314,6 @@
     "Algebra/Frobenius Homomorphism.md",
     "Algebra/K-Homomorphism.md",
     "Algebra/Field.md",
-    "Algebra/Exponent of a Group.md",
-    "Algebra/Characteristic.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

@@ -34,18 +34,17 @@
 ---
 ##### Galois Group of Order 3 and 4
 > [!lemma] Theorem 1 (Galois Group for Order 3 Polynomials)
-> Let $f(x)\in K[X]$ be irreducible cubic. Then, $$\text{Gal}(L_{f}:K)=\begin{cases}A_{3}&D_{f}\text{ is square}. \\
+> Let $f(x)\in K[X]$ be irreducible cubic with $D_{f}\neq 0$. Then, $$\text{Gal}(L_{f}:K)=\begin{cases}A_{3}&D_{f}\text{ is square in }K \\
 S_{3}&\text{otherwise}\end{cases}$$
 
 
-> [!proof]+
-> Assume that $D_{f}\neq 0$. Let $\alpha$ be a root of $f$. As $f$ is irreducible, $[K(\alpha):K]=3$. But as $K(\alpha)\subseteq L_{f}$, we have that $3|[L:K]$ and as $f$ is separable and $L:K$ is Galois, 
+> [!proof]-
+> Assume that $D_{f}\neq 0$. Let $\alpha$ be a root of $f$. As $f$ is irreducible, $[K(\alpha):K]=3$. But as $K(\alpha)\subseteq L_{f}$, we have that $3|[L:K]$ and as $f$ is separable and $L_{f}:K$ is Galois, $$3|\left| \text{Gal}(L_{f}:K) \right| $$However, as $\text{Gal}(L_{f}:K)\leq S_{3}$, we have that either $\text{Gal}(L_{f}:K)=A_{3}$ or $S_{3}$. By Theorem 2, $\text{Gal}(L_{f}:K)=A_{3}$ if and only if $D_{f}$ is a square. 
+- **Corollary:** In $\mathbb{Q}[X]$, if $D_{f}<0$, then $\delta_{f}\in \mathbb{C}$ and $f$ has exactly one real root and $\text{Gal}(L_{f}:K)\cong S_{3}$. 
 ---
 ##### Examples
 > [!lh] Example 1
 > For a reduced cubic polynomial $f(x)=x^3+qx+r$, $D_{f}=-4q^3-27r^{2}$.
----
 > 1. for $f(x)=x^3-3x-1$, $D_{f}=81$ and by Theorem 1, $\text{Gal}(L_{f}:K)=A_{3}$.
-> Let $f\in \mathbb{Q}[X]$ be an irreducible cubic. Then,
-> 1. $f$ has exactly one real root if and only if $D_{f}<0$. In this case $\text{Gal}(L_{f}:K)\cong S_{3}$.
-> 2. $f$ has three real roots if and only if $D_{f}>0$. In this case either $\delta_{f}\in \mathbb{Q}$ and $\text{Gal}(L_{f}:K)\cong A_{3}$ or $\delta_{f}\notin \mathbb{Q}$ and $\text{Gal}(L_f:K)\cong S_{3}$.
+
+---
