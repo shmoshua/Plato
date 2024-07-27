@@ -27,7 +27,7 @@
 > Let $K$ be a field with $\text{char }K=0$. 
 > 1. For any normal radical extension $L:K$, $\text{Gal}(L:K)$ is solvable.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. **Claim: for $g(x)=x^p-1\in K[X]$ with $p$ prime, $\text{Gal}(L_{g}:K)$ is abelian**.
 >    We have that $g'=px^{p-1}$. As $g$ and $g'$ have no common roots, by [[Separable Extension|Proposition 2]] $g$ is separable. Further, $\text{R}(g)$ form a multiplicative subgroup of $L_{g}^\times$ and $L_{g}=K(\xi_{p})$ and for $\sigma_{i}(\xi_{p})=\xi^i_{p}$, we have: $$(\sigma_{i}\sigma_{j})(\xi)=\xi^{ij}=(\sigma_{j}\sigma_{i})(\xi)$$Therefore, $\text{Gal}(L_{g}:K)$ is abelian.
@@ -42,41 +42,31 @@
 >     
 >     However, as $f(\beta)=0$, $\beta^p=\alpha_{1}^p$. Therefore, by defining $\varepsilon:= \alpha_{1} / \beta$, we have that $\varepsilon\neq 1$ and $\varepsilon^p=1$. Then, $1,\varepsilon,. ..,\varepsilon^{p-1}$ are distinct roots of $x^p-1$. Let $M$ be the splitting field of $x^p-1$, then $M=K(\varepsilon)$. 
 >     
->     Now, consider the extension $L:M(\alpha_{1}):M:K$. Then, $M(\alpha_{1})$ is the splitting field of $x^p-\alpha_{1}^p$ over $M$. Therefore, by Claim 2, $\text{Gal}(M(\alpha_{1}):M)$ is abelian. As $L:K$ is normal, $L:M$ is normal and Galois. As $M(\alpha_{1}):M$ is normal, using the [[Galois Correspondence|fundamental theorem]], $$\text{Gal}(L:M(\alpha_{1}))\unlhd \text{Gal}(L:M)$$Moreover, $\text{Gal}(M(\alpha):M)\cong \text{Gal}(L:M) / \text{Gal}(L:M(\alpha_{1}))$. Therefore, by induction, $\text{Gal}(L:M(\alpha_{1}))$ is solvable and $\text{Gal}(M(\alpha_{1}):M)$ is solvable as it is abelian. It follows that $\text{Gal}(L:M)$ is solvable.
+>     Now, consider the extension $L:M(\alpha_{1}):M:K$. Then, $M(\alpha_{1})$ is the splitting field of $x^p-\alpha_{1}^p$ over $K$, therefore $M(\alpha_{1}):K$ is normal and $M(\alpha_{1}):M$ is. Moreover, by Claim 2, $\text{Gal}(M(\alpha_{1}):M)$ is abelian. Using the [[Galois Correspondence|fundamental theorem]], $$\text{Gal}(L:M(\alpha_{1}))\unlhd \text{Gal}(L:M)$$
+>     Moreover, $\text{Gal}(M(\alpha):M)\cong \text{Gal}(L:M) / \text{Gal}(L:M(\alpha_{1}))$. Therefore, by induction, $\text{Gal}(L:M(\alpha_{1}))$ is solvable and $\text{Gal}(M(\alpha_{1}):M)$ is solvable as it is abelian. It follows that $\text{Gal}(L:M)$ is solvable.
 >     
->     Finally, $\text{Gal}(M:K)\cong \text{Gal}(L:K) / \text{Gal}(L:M)$ where $\text{Gal}(M:K)$ is solvable from being abelian. Therefore, $\text{Gal}(L:K)$ is solvable.
+>     Finally, $\text{Gal}(M:K)\cong \text{Gal}(L:K) / \text{Gal}(L:M)$ where $\text{Gal}(M:K)$ is solvable from being abelian by Claim 1. Therefore, $\text{Gal}(L:K)$ is solvable.
 ---
 
-> [!lemma] Theorem 1
+> [!lemma] Theorem 3 (Solvable Galois Group and Solvability by Radicals)
 > Let $K$ be a field with $\text{char }K=0$. For $f\in K[X]$, TFAE:
 > 1. $f$ is solvable by radicals.
 > 2. $\text{Gal}(L_{f}:K)$ is solvable.
 
-> [!proof]+
-> We have that:
-> 1. (1=>2): Assume $f$ is solvable by radicals. 
-> 	- **Claim 1: 
-> 	
----
-> [!lemma] Theorem 1
-> Let $K$ be a field with $\text{char }K=0$ and $L$ a finite [[normal extension]] of $K$. Then, TFAE:
-> 1. there exists $M:L$ s.t. $M:K$ is radical.
-> 2. $\text{Gal}(L:K)$ is [[Solvable Group|solvable]].
----
-
-
-> [!lemma] Theorem 5
-> Let $f\in K[X]$ where $K$ is a field with $\text{char }K=0$. If $f$ is solvable by radicals, then $\text{Gal}(L_{f}:K)$ is solvable.
-
 > [!proof]-
-> By definition, $K\subseteq L_{f}\subseteq M$ where $M:K$ is radical. Let $N$ be the normal closure of $M:K$. Then $K\subseteq L_{f}\subseteq M\subseteq N$. By Lemma 3, $N:K$ is a normal radical extension and $\text{Gal}(N:K)$ is solvable.
+> We have that:
+> 1. (1=>2): By definition, $K\subseteq L_{f}\subseteq M$ where $M:K$ is radical. Let $N$ be the normal closure of $M:K$. Then $K\subseteq L_{f}\subseteq M\subseteq N$. By Lemma 1.2, $N:K$ is a normal radical extension and $\text{Gal}(N:K)$ is solvable.
 > 
-> Since $L_{f}:K$ is normal, $\text{Gal}(N:L_{f})\unlhd \text{Gal}(N:K)$. Therefore, $$\text{Gal}(L_{f}:K)\cong \text{Gal}(N:K) / \text{Gal}(N:L_{f})$$and as $\text{Gal}(N:K)$ is solvable, $\text{Gal}(L_{f}:K)$ is solvable as a quotient of a normal subgroup.
+> 	Since $L_{f}:K$ is normal and finite, we can use the Galois correspondence and  $$\text{Gal}(L_{f}:K)\cong \text{Gal}(N:K) / \text{Gal}(N:L_{f})$$and as $\text{Gal}(N:K)$ is solvable, $\text{Gal}(L_{f}:K)$ is solvable as a quotient of a normal subgroup.
+- **Corollary**: For a finite normal extension $L:K$, there exists $M:L$ with $M:K$ radical if and only if $\text{Gal}(L:K)$ is solvable, as $L$ being finite normal is equivalent to begin a splitting field of some polynomial $f\in K[X]$.  
 ---
+
+
 > [!lemma] Theorem 4 (Abel-Ruffini)
 > Let $L=K(\alpha_{1},\dots,\alpha_{n})$ be a splitting field of a general polynomial $f_{n}(x)\in K(s_{1},\dots,s_{n})$. Then, $$\text{Gal}(L:K(s_{1},\dots,s_{n}))\cong S_{n}$$
+- **Corollary**: For $n\geq 5$, as $S_{n}$ is not solvable, $f_{n}$ is not solvable by radicals and there is no general formula to solve the polynomial.  
 ---
-> [!lemma] Theorem 5
+> [!lemma] Theorem 6
 > Let $L:K$ be finite, $n\in \mathbb{N}$ s.t. $n$ does not divide $\text{char}(K)$. If $\mu_{n}\subseteq K$, the following are equivalent:
 > 1. $L:K$ is simple residual, i.e. $L=K(\alpha)$ with $\alpha^n\in K$.
 > 2. $L:K$ is Galois and the Galois group is cyclic of order dividing $n$.

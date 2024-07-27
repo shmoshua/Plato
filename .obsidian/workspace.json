@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Closure.md",
+                "file": "Algebra/Galois Correspondence.md",
                 "mode": "preview",
                 "source": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Cyclotomic Polynomial.md",
+                "file": "Algebra/Normal Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -313,20 +313,20 @@
   },
   "active": "71d5be9ce9a12483",
   "lastOpenFiles": [
+    "Algebra/Normal Extension.md",
+    "Algebra/Solvable Group.md",
+    "Algebra/Radical Extension.md",
+    "Algebra/Galois Correspondence.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Cyclotomic Polynomial.md",
-    "Algebra/Radical Extension.md",
+    "Algebra/Normal Closure.md",
     "Algebra/Cyclotomic Extension.md",
     "Algebra/Separable Extension.md",
-    "Algebra/Normal Closure.md",
-    "Algebra/Normal Extension.md",
     "Algebra/Reduced Polynomial.md",
     "Algebra/Field Extension.md",
-    "Algebra/Solvable Group.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Galois Group.md",
     "Lie Group/Radical (Lie Algebra).md",
-    "Algebra/Galois Correspondence.md",
     "Algebra/Abelian Extension.md",
     "radical exx.md",
     "Algebra/Ideal (Ring).md",
