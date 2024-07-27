@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Direct Sum.md",
+                "file": "Algebra/Module.md",
                 "mode": "source",
                 "source": true
               }
@@ -207,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Direct Sum.md",
+                "file": "Algebra/Module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Direct Sum.md",
+                "file": "Algebra/Module.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Direct Sum.md"
+                "file": "Algebra/Module.md"
               }
             }
           }
@@ -335,12 +335,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8d3fcf4d4b5fa59f",
+  "active": "b59212eab200cc95",
   "lastOpenFiles": [
+    "Algebra/Submodule.md",
     "Algebra/Module.md",
     "Algebra/Direct Sum.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Submodule.md",
     "Algebra/Radical Extension.md",
     "Algebra/Normal Extension.md",
     "Algebra/Solvable Group.md",

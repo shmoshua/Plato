@@ -9,6 +9,22 @@
 > 5. $1m=m$ for all $m\in M$.
 - **Remark**: Similarly, one can define a ***right $R$-module***. If $R$ is commutative, a left $R$-module is also a right module by defining $rm=mr$.
 - **Remark**: For a field $K$, a $K$-module is equivalent to a $K$-[[vector space]].
+- **Related definition**: For $R$-modules $M,N$, a ***homomorphism*** is a $R$-linear map, i.e. $\varphi:M\to N$ s.t. 
+	1. $\varphi(m+m')=\varphi(m)+\varphi(m')$ and
+	2. $\varphi(rm)=r\varphi(m)$
+- **Related definition**: $\text{Hom}_{R}(M,N)$ is the space of all homomorphisms from $M$ to $N$.
+---
+##### Properties
+> [!lemma] Proposition 1
+> For $\varphi\in \text{Hom}_{R}(M,N)$, we have:
+> 1. $\text{ker }\varphi$ is a submodule of $M$.
+> 2. $\text{im }\varphi$ is a submodule of $N$.
+> 3. $\varphi$ is injective if and only if $\text{ker }\varphi=(0)$.
+> 4. $\varphi$ is surjective if and only if $\text{im }\varphi=N$.
+
+> [!proof]+
+> We have:
+> 1. let $m,n\in \text{ker }\varphi$. Then, $\varphi(m-n)=\varphi(m)+\varphi(-n)=0$
 ---
 ##### Examples
 > [!h] Example 1
