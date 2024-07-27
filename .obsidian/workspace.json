@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Extension.md",
+                "file": "Algebra/Normal Closure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Algebra/Cyclotomic Polynomial.md",
                 "mode": "preview",
                 "source": true
               }
@@ -311,13 +311,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8d3fcf4d4b5fa59f",
+  "active": "71d5be9ce9a12483",
   "lastOpenFiles": [
-    "Algebra/Separable Extension.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Radical Extension.md",
+    "Algebra/Cyclotomic Extension.md",
+    "Algebra/Separable Extension.md",
+    "Algebra/Normal Closure.md",
     "Algebra/Normal Extension.md",
     "Algebra/Reduced Polynomial.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Field Extension.md",
     "Algebra/Solvable Group.md",
     "Algebra/Algebraic and Transcendental Element.md",
@@ -329,14 +332,11 @@
     "Algebra/Ideal (Ring).md",
     "Algebra/Field.md",
     "Algebra/Untitled 1.md",
-    "Algebra/Cyclotomic Polynomial.md",
-    "Algebra/Cyclotomic Extension.md",
     "Algebra/Discriminant.md",
     "Algebra/Galois Extension.md",
     "Algebra/Alternating Group.md",
     "Algebra/Transpostion.md",
     "Algebra/Symmetry Group.md",
-    "Algebra/Normal Closure.md",
     "Topology/Separable Space.md",
     "Algebra/Splitting Field.md",
     "Complex Analysis",
