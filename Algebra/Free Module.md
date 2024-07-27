@@ -21,5 +21,16 @@
 > 1. if $N$ is any $R$-module, any map $\varphi:A\to N$ extends to $\Phi\in \text{Hom}_{R}(M(A),N)$ uniquely.
 > 2. if $A=\{ a_{1},\dots,a_{n} \}$, then $M(A)=Ra_{1}\oplus\dots \oplus Ra_{n}$ 
 
-> [!proof]+
-> If $A=\varnothing$, then $M(A)=\{ 0 \}$. If $A\neq \varnothing$, we define: $$M(A):=\{ f:A\to R| \}$$
+> [!proof]-
+> If $A=\varnothing$, then $M(A)=\{ 0 \}$. If $A\neq \varnothing$, we define: $$M(A):=\{ f:A\to R| f(a)=0\text{ almost everywhere} \}$$Then, this is a $R$-module with pointwise addition and multiplication. Further, $A\subseteq M(A)$ as $a\mapsto \chi_{a}$. 
+> 
+> Hence, for any $f\in M(A)$, we have $a_{1},..,a_{n}$ where $f$ does not vanish with $r_{1},\dots,r_{n}$ and: $$f=\sum_{i=1}^{k}r_{i}\chi_{a_{i}}$$Now, for any $\varphi:A\to N$, we define $\Phi:M(A)\to N,\ \sum_{i=1}^{n}r_{i}a_{i}\mapsto \sum_{i=1}^{n}r_{i}\varphi(a_{i})$. $\Phi$ is well-defined as the expression is unique and clearly, $\Phi|_{A}=\varphi$. Further, it is clearly a homomorphism. Lastly, it is unique as the values uniquely depend on $\varphi(a)$ for $a\in A$. 
+---
+##### Examples
+> [!h] Example 1
+> For any set $A$, 
+> 1. The free $\mathbb{Z}$-module $M(A)$ is the free abelian group, isomorphic to $\mathbb{Z}^n$.
+---
+##### Non-Examples
+> [!h] Non-Example 1
+> 
