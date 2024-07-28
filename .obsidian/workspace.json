@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Radical Extension.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -107,12 +107,8 @@
             "id": "8d3fcf4d4b5fa59f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Free Module.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -141,18 +137,6 @@
               "type": "markdown",
               "state": {
                 "file": "Algebra/Free Module.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b59212eab200cc95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Torsion Module.md",
                 "mode": "preview",
                 "source": true
               }
@@ -206,8 +190,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,7 +256,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Free Module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +272,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Free Module.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -312,9 +293,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algebra/Free Module.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -335,16 +314,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3279e027cbd779c5",
+  "active": "8d3fcf4d4b5fa59f",
   "lastOpenFiles": [
-    "Algebra/Torsion Module.md",
     "Algebra/Free Module.md",
-    "Algebra/Module.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Abelian Extension.md",
     "Algebra/Radical Extension.md",
     "Algebra/Finitely Generated Abelian Group.md",
+    "Algebra/Torsion Module.md",
+    "Algebra/Module.md",
     "Algebra/Direct Sum.md",
     "Algebra/Submodule.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Normal Extension.md",
     "Algebra/Solvable Group.md",
     "Algebra/Galois Correspondence.md",
@@ -357,7 +337,6 @@
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Galois Group.md",
     "Lie Group/Radical (Lie Algebra).md",
-    "Algebra/Abelian Extension.md",
     "radical exx.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Field.md",

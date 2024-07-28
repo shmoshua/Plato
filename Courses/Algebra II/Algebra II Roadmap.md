@@ -77,6 +77,8 @@
 1. [[Module]]
 2. [[Submodule]]
 3. [[Direct Sum]]
+4. [[Free Module]]
+5. [[Torsion Module]]
 ---
 ### Exercises
 1. [[Courses/Algebra II/Exercise Sheet 0|Exercise Sheet 0]]

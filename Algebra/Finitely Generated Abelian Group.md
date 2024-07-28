@@ -15,7 +15,7 @@
 > [!lemma] Lemma 3
 > Let $H$ be a finitely generated abelian group with generators $x_{1},\dots,x_{s}$. Further, let $m_{1},\dots,m_{s}\in \mathbb{N}$ s.t. not all are zero with $\gcd(m_{1},\dots,m_{s})=1$, then there exists generators $y_{1},\dots,y_{s}\in H$ s.t. $$y_{1}:= x_{1}^{m_{1}}\dots x_{s}^{m_{s}}$$
 
-> [!proof]+
+> [!proof]-
 > Let $m:= \sum_{i=1}^{s}m_{i}>0$. With induction over $m$,
 > 1. If $m=1$, then let $1\leq \ell\leq s$ s.t. $m_{\ell}=1$ and $m_{i}=0$ for $i \neq \ell$. Then, we can swap $x_{i}$ and $x_{\ell}$ and have $$y_{i}=x_{i}$$ for all $i\in[s]$.
 > 2. Now for $m> 1$, assume the statement is true for all $1 \leq m' < m$. As $\text{gcd}(m_{1},\dots,m_{s})=1$, $m_{i} \neq 0$ for at least two $i$s. (Otherwise, $(m_{1},\dots,m_{s})>1$) Through re-indexing, we can assume that $m_{1} \geq m_{2} > 0$.
