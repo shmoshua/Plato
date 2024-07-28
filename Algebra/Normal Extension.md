@@ -72,3 +72,19 @@
 > 1. $\mathbb{Q}(e^{2\pi i / p})$ is the splitting field of $x^p-1\in \mathbb{Q}[X]$ and therefore, 
 > 2. $\mathbb{Q}(e^{2\pi i / p}):\mathbb{Q}$ is normal. 
 ---
+> [!h] Example 3 (Degree-2 extensions are normal)
+> Let $[K:F]=2$. Then, $K:F$ is normal.
+
+> [!proof]-
+> Let $\alpha\in K \backslash F$. Then, $F(\alpha)$ is a proper intermediate field and we have that $[K:F(\alpha)]=1$ and $[F(\alpha):F]=2$.
+> 
+> Let $f:=m_{\alpha,F}$. Then, $f(x)=x^2+sx+t\in F[X]$. Hence, $$f(-s-\alpha)=s^{2}+2s\alpha+\alpha^{2}-s^{2}-s\alpha+t=\alpha^{2}+s\alpha+t=f(\alpha)=0$$where $-s-\alpha\in F(\alpha)$. Hence, $K$ is the splitting field of some polynomial and $K:F$ is normal.
+---
+> [!h] Example 4
+> We have that:
+> 1. $\mathbb{Q}(\sqrt[4]{2  },i):\mathbb{Q}$ is normal.
+
+> [!proof]+
+> We show that:
+> 1. We claim that $\mathbb{Q}(\sqrt[4]{2  },i)$ is the splitting field of $x^4-2$, whose roots are $\pm \sqrt[4]{2  },\pm i\sqrt[4]{ 2 }$. Firstly, the splitting field would contain $i$ and therefore, $\mathbb{Q}(\sqrt[4]{2  },i)$ is in the splitting field. However, as all the roots are contained in $\mathbb{Q}(\sqrt[4]{ 2 },i)$, it is the splitting field.
+> 2. 

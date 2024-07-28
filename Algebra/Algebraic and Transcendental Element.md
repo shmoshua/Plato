@@ -74,6 +74,12 @@
 > 1. $L:K$ is simple.
 > 2. $L:K$ has finitely many intermediate fields.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. (1=>2): if $L:K$ is simple, then $L=K(\alpha)$ for some $\alpha\in L$. Let $M$ be an intermediate field. Then, $L=M(\alpha)$ and consider $f:=m_{\alpha,K}$ and $g:=m_{\alpha,M}$. Then, $g|f$ and if: $$g(x)=a_{0}+a_{1}x+\dots+a_{r}x^r$$then let $M_{0}:=K$
+> 1. (1=>2): if $L:K$ is simple, then $L=K(\alpha)$ for some $\alpha\in L$. Let $M$ be an intermediate field. Then, $L=M(\alpha)$ and consider $f:=m_{\alpha,K}$ and $g:=m_{\alpha,M}$. Then, $g|f$ and if: $$g(x)=a_{0}+a_{1}x+\dots+x^r$$then let $M_{0}:=K(a_{0},\dots,a_{r-1})$. As $g(x)\in M_{0}[X]$, we have that $m_{\alpha,M_{0}}|g$. Hence, $$[L:M]=\deg m_{\alpha,M}\geq\deg m_{\alpha,M_{0}}=[L:M_{0}]=[L:M][M:M_{0}]$$and $[M:M_{0}]=1$. Hence $M=M_{0}$ and $M$ is determined by $g$ with $g|f$. As $f$ has only finitely many divisors, there exists only finitely many intermediate fields.
+> 2. (2=>1): Since $L:K$ is finite, we have $L=K(\alpha_{1},..,\alpha_{n})$ for some algebraic $\alpha_{i}\in L$. We will show the statement via an induction over $n$.
+> 	
+> 	Let $n=1$. Then, $L=K(\alpha_{1})$ and $L:K$ is simple. Let $n>1$. Then, $M:=K(\alpha_{1},\dots,\alpha_{n-1})$ is an intermediate field $M$ has finitely many intermediate fields. Hence, by induction hypothesis, $M=K(\beta)$. Therefore, $L=M(\alpha_{n})=K(\alpha_{n},\beta)$. 
+> 	
+> 	For each $a\in K$, we define $M_{a}:=K(\alpha_{n}+a\beta)$. Then, $K\subseteq M_{a}\subseteq L$ is an intermediate field and since $K$ is infinite, there exists $a,b\in K$ with $a\neq b$ s.t. $M_{a}=M_{b}$. In other words, $$\beta=\frac{(\alpha+a\beta)-(\alpha+b\beta)}{a-b}\in M_{b}$$Especially, $\alpha_{n}=(\alpha_{n}+b\beta)-b\beta\in M_{b}$. Hence, $L=K(\alpha_{n},\beta)=M_{b}=K(\alpha_{n}+b\beta)$. This shows that $L$ is simple.
+---

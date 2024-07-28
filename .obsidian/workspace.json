@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Normal Extension.md",
                 "mode": "source",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Submodule.md",
+                "file": "Algebra/Normal Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -176,14 +176,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 5.md",
+                "file": "Courses/Algebra II/Exercise Sheet 6.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Normal Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Normal Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md"
+                "file": "Algebra/Normal Extension.md"
               }
             }
           }
@@ -311,18 +311,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "62250db3b23aeb05",
+  "active": "00bcede086d6528d",
   "lastOpenFiles": [
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Normal Extension.md",
+    "Algebra/Submodule.md",
+    "Courses/Algebra II/Exercise Sheet 6.md",
+    "Courses/Algebra II/Exercise Sheet 4.md",
+    "Courses/Algebra II/Exercise Sheet 5.md",
     "Algebra/Field Extension.md",
     "Algebra/Galois Correspondence.md",
-    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Separable Extension.md",
-    "Courses/Algebra II/Exercise Sheet 5.md",
-    "Courses/Algebra II/Exercise Sheet 4.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Free Module.md",
     "Algebra/Field.md",
-    "Algebra/Submodule.md",
     "Algebra/Polynomial Ring.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Euclidean Domain.md",
@@ -330,7 +332,6 @@
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Coprime Ideal.md",
     "Courses/Topology/Exercise Sheet 3.md",
-    "Algebra/Normal Extension.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Abelian Extension.md",
     "Algebra/Radical Extension.md",
@@ -338,7 +339,6 @@
     "Algebra/Torsion Module.md",
     "Algebra/Module.md",
     "Algebra/Direct Sum.md",
-    "Algebra/Solvable Group.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
