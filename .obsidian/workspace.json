@@ -102,17 +102,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "8d3fcf4d4b5fa59f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -124,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -136,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Field.md",
                 "mode": "preview",
                 "source": true
               }
@@ -184,7 +176,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Extension.md",
+                "file": "Courses/Algebra II/Exercise Sheet 3.md",
                 "mode": "preview",
                 "source": true
               }
@@ -219,7 +211,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "relatively prime",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -236,7 +228,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -256,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Field Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Field Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+                "file": "Algebra/Field Extension.md"
               }
             }
           }
@@ -321,9 +314,18 @@
   "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
     "Algebra/Field.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Integral Domain.md",
+    "Algebra/Submodule.md",
+    "Courses/Algebra II/Exercise Sheet 3.md",
+    "Algebra/Field Extension.md",
     "Algebra/Polynomial Ring.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Euclidean Domain.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Coprime Ideal.md",
+    "Courses/Topology/Exercise Sheet 3.md",
+    "Algebra/Normal Extension.md",
+    "Algebra/Unique Factorization Domain.md",
     "Algebra/Free Module.md",
     "Algebra/Abelian Extension.md",
     "Algebra/Radical Extension.md",
@@ -331,21 +333,12 @@
     "Algebra/Torsion Module.md",
     "Algebra/Module.md",
     "Algebra/Direct Sum.md",
-    "Algebra/Submodule.md",
-    "Algebra/Normal Extension.md",
     "Algebra/Solvable Group.md",
     "Algebra/Galois Correspondence.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Normal Closure.md",
     "Algebra/Cyclotomic Extension.md",
     "Algebra/Separable Extension.md",
-    "Algebra/Reduced Polynomial.md",
-    "Algebra/Field Extension.md",
-    "Algebra/Algebraic and Transcendental Element.md",
-    "Algebra/Galois Group.md",
-    "Lie Group/Radical (Lie Algebra).md",
-    "radical exx.md",
-    "Algebra/Ideal (Ring).md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
