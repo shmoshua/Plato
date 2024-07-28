@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "mode": "preview",
                 "source": true
               }
@@ -176,14 +176,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 4.md",
+                "file": "Courses/Algebra II/Exercise Sheet 5.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 4.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 4.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 4.md"
+                "file": "Algebra/Algebraic and Transcendental Element.md"
               }
             }
           }
@@ -311,13 +311,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8d7627fd67d96f03",
+  "active": "62250db3b23aeb05",
   "lastOpenFiles": [
-    "Courses/Algebra II/Exercise Sheet 3.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Galois Correspondence.md",
     "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Separable Extension.md",
+    "Courses/Algebra II/Exercise Sheet 5.md",
+    "Courses/Algebra II/Exercise Sheet 4.md",
+    "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Free Module.md",
     "Algebra/Field.md",
-    "Algebra/Field Extension.md",
     "Algebra/Submodule.md",
     "Algebra/Polynomial Ring.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
@@ -335,10 +339,6 @@
     "Algebra/Module.md",
     "Algebra/Direct Sum.md",
     "Algebra/Solvable Group.md",
-    "Algebra/Galois Correspondence.md",
-    "Algebra/Cyclotomic Polynomial.md",
-    "Algebra/Normal Closure.md",
-    "Algebra/Cyclotomic Extension.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

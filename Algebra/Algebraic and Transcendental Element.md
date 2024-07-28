@@ -69,3 +69,11 @@
 > Since $\alpha\in L$ is transcendental over $K$, $g(\alpha)\neq 0$ for any $g\in K[X] \backslash \{ 0 \}$ and we can define the map: $$\begin{array}{cccc} {\Phi_{\alpha}:}&{K(x)=K[X]\times(K[X]\backslash\{ 0 \})}&\to&{K(\alpha)}\\&{(f,g)} &\mapsto & {f(\alpha)g(\alpha)^{-1}} \end{array}{}$$
 > If $(f,g)\sim(f',g')$, then: $f(\alpha)g'(\alpha)=f'(\alpha)g(\alpha)$ and: $$f(\alpha)g(\alpha)^{-1}=f(\alpha)g'(\alpha)g'(\alpha)^{-1}g(\alpha)^{-1}=f'(\alpha)g(\alpha)g'(\alpha)^{-1}g(\alpha)^{-1}=f'(\alpha)g'(\alpha)^{-1}$$Thus, $\Phi_{\alpha}$ is well-defined. It is then straightforward to see that $\Phi_{\alpha}$ is an isomorphism. 
 ---
+> [!lemma] Theorem 6 (Simple Extensions and Finite Intermediate Fields)
+> Let $K$ be a [[field]] with $\text{char }K=0$ and $L:K$ a finite algebraic extension. Then, TFAE:
+> 1. $L:K$ is simple.
+> 2. $L:K$ has finitely many intermediate fields.
+
+> [!proof]+
+> We have that:
+> 1. (1=>2): if $L:K$ is simple, then $L=K(\alpha)$ for some $\alpha\in L$. Let $M$ be an intermediate field. Then, $L=M(\alpha)$ and consider $f:=m_{\alpha,K}$ and $g:=m_{\alpha,M}$. Then, $g|f$ and if: $$g(x)=a_{0}+a_{1}x+\dots+a_{r}x^r$$then let $M_{0}:=K$
