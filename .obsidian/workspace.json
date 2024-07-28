@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "mode": "source",
                 "source": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "mode": "preview",
                 "source": true
               }
@@ -176,13 +176,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 3.md",
+                "file": "Courses/Algebra II/Exercise Sheet 4.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -228,8 +229,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Courses/Algebra II/Exercise Sheet 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Courses/Algebra II/Exercise Sheet 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Field Extension.md"
+                "file": "Courses/Algebra II/Exercise Sheet 4.md"
               }
             }
           }
@@ -311,12 +311,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4d3cf14e10079d85",
+  "active": "8d7627fd67d96f03",
   "lastOpenFiles": [
-    "Algebra/Field.md",
-    "Algebra/Submodule.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Free Module.md",
+    "Algebra/Field.md",
     "Algebra/Field Extension.md",
+    "Algebra/Submodule.md",
     "Algebra/Polynomial Ring.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Euclidean Domain.md",
@@ -326,7 +328,6 @@
     "Courses/Topology/Exercise Sheet 3.md",
     "Algebra/Normal Extension.md",
     "Algebra/Unique Factorization Domain.md",
-    "Algebra/Free Module.md",
     "Algebra/Abelian Extension.md",
     "Algebra/Radical Extension.md",
     "Algebra/Finitely Generated Abelian Group.md",
@@ -338,7 +339,6 @@
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Normal Closure.md",
     "Algebra/Cyclotomic Extension.md",
-    "Algebra/Separable Extension.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

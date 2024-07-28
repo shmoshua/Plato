@@ -65,7 +65,7 @@
 > For a [[Field Extension|field extension]] $L:K$ and $\alpha\in L$ transcendental over $K$. Then, 
 > 1. $\text{ev}_{\alpha}:K[x]\to K[\alpha]$ extends to a field isomorphism: $\Phi_{\alpha}:K(x)\to K(\alpha)$.
 
-> [!proof]+
+> [!proof]-
 > Since $\alpha\in L$ is transcendental over $K$, $g(\alpha)\neq 0$ for any $g\in K[X] \backslash \{ 0 \}$ and we can define the map: $$\begin{array}{cccc} {\Phi_{\alpha}:}&{K(x)=K[X]\times(K[X]\backslash\{ 0 \})}&\to&{K(\alpha)}\\&{(f,g)} &\mapsto & {f(\alpha)g(\alpha)^{-1}} \end{array}{}$$
 > If $(f,g)\sim(f',g')$, then: $f(\alpha)g'(\alpha)=f'(\alpha)g(\alpha)$ and: $$f(\alpha)g(\alpha)^{-1}=f(\alpha)g'(\alpha)g'(\alpha)^{-1}g(\alpha)^{-1}=f'(\alpha)g(\alpha)g'(\alpha)^{-1}g(\alpha)^{-1}=f'(\alpha)g'(\alpha)^{-1}$$Thus, $\Phi_{\alpha}$ is well-defined. It is then straightforward to see that $\Phi_{\alpha}$ is an isomorphism. 
 ---
