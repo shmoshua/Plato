@@ -136,7 +136,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -256,6 +256,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,6 +273,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +295,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+              }
             }
           }
         ]
@@ -314,10 +318,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8d3fcf4d4b5fa59f",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
-    "Algebra/Free Module.md",
+    "Algebra/Field.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Free Module.md",
     "Algebra/Abelian Extension.md",
     "Algebra/Radical Extension.md",
     "Algebra/Finitely Generated Abelian Group.md",
@@ -339,9 +346,6 @@
     "Lie Group/Radical (Lie Algebra).md",
     "radical exx.md",
     "Algebra/Ideal (Ring).md",
-    "Algebra/Field.md",
-    "Algebra/Untitled 1.md",
-    "Algebra/Discriminant.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
