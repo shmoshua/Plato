@@ -55,7 +55,7 @@
 > [!proof]-
 > We have that:
 > 1. Let $\psi:M / \text{ker }\varphi\to \text{im }\varphi, x+\text{ker }\varphi\mapsto \varphi(x)$. Then, it is well defined: if $x+\text{ker }\varphi=y+\text{ker }\varphi$, then $x-y\in \text{ker }\varphi$ and: $$\varphi(x)=\varphi(y+x-y)=\varphi(y)+\varphi(x-y)=\varphi(y)$$Further, it is a homomorphism as $\psi(x+y+\text{ker }\varphi)=\varphi(x+y)=\varphi(x)+\varphi(y)$ and $\psi(rx+\text{ker }\varphi)=\varphi(rx)=r\varphi(x)=r\psi(x+\text{ker }\varphi)$. More importantly, $$x+\text{ker }\varphi\in\text{ker }\psi \iff\varphi(x)=0\iff x\in \text{ker }\varphi$$Hence $\psi$ is injective and it is surjective by definition.
-> 2. 
+> 
 ---
 ##### Examples
 > [!h] Example 1

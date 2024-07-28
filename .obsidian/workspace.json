@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Torsion Module.md",
+                "file": "Algebra/Free Module.md",
                 "mode": "source",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Torsion Module.md",
+                "file": "Algebra/Free Module.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Torsion Module.md",
                 "mode": "preview",
                 "source": true
               }
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Torsion Module.md",
+                "file": "Algebra/Free Module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Torsion Module.md",
+                "file": "Algebra/Free Module.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Torsion Module.md"
+                "file": "Algebra/Free Module.md"
               }
             }
           }
@@ -335,11 +335,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "8d3fcf4d4b5fa59f",
+  "active": "3279e027cbd779c5",
   "lastOpenFiles": [
-    "Algebra/Module.md",
     "Algebra/Torsion Module.md",
     "Algebra/Free Module.md",
+    "Algebra/Module.md",
     "Algebra/Radical Extension.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Direct Sum.md",
