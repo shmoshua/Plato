@@ -26,3 +26,21 @@
 > [!proof]-
 > We have that for $\sigma,\gamma\in \text{Aut}_{K}(L)$, $$\sigma (\gamma ^{-1}(t))=\sigma(t)=t,\quad \forall t\in K$$Therefore, $\sigma \circ\gamma ^{-1}\in \text{Aut}_{K}(L)$. 
 ---
+##### Q-Automorphisms and R-Automorphisms
+> [!lemma] Proposition 1
+> Let $K:\mathbb{Q}$. Then, 
+> 1. $\text{Aut}(K)=\text{Aut}_{\mathbb{Q}}(K)$.
+
+> [!proof]-
+> Let $\sigma\in \text{Aut}(K)$. Then, as $\sigma(1)=1$, we have that for any $n\in \mathbb{Z}$, $$\sigma(n)=\sigma(n\cdot 1)=n\sigma(1)=n$$Further, for any $\frac{p}{q}\in \mathbb{Q}$, $$q\sigma\left( \frac{p}{q} \right)=\sigma(p)=p$$therefore, $\sigma|_{\mathbb{Q}}=\text{id}_{\mathbb{Q}}$.
+---
+> [!lemma] Proposition 2
+> For $\sigma\in \text{Aut}(\mathbb{R})$, we have:
+> 1. $x\leq y\implies\sigma(x)\leq\sigma(y)$
+> 2. $\sigma$ is continuous.
+> 3. $\text{Aut}(\mathbb{R})=\{ \text{id}_{\mathbb{R}} \}$
+
+> [!proof]+
+> We have:
+> 1. For $x\leq y$, $y-x\geq 0$ and there exists $z\in \mathbb{R}$ s.t. $y-x=z^{2}$. Therefore, $$\sigma(y)-\sigma(x)=\sigma(y-x)=\sigma(z^{2})=\sigma(z)^{2}\geq 0$$
+> 2. Let $(a,b)\subseteq \mathbb{R}$. We want to show that its preimage is open. let $a\leq\sigma(x)< b$. 

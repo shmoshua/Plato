@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Extension.md",
+                "file": "Algebra/K-Homomorphism.md",
                 "mode": "source",
                 "source": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/K-Homomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -183,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/K-Homomorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/K-Homomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md"
+                "file": "Algebra/K-Homomorphism.md"
               }
             }
           }
@@ -311,13 +311,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4e4a7824df7ed978",
+  "active": "00bcede086d6528d",
   "lastOpenFiles": [
-    "Algebra/Polynomial Ring.md",
-    "Algebra/Algebraic and Transcendental Element.md",
-    "Algebra/Unique Factorization Domain.md",
-    "Algebra/Field Extension.md",
     "Algebra/Normal Extension.md",
+    "Algebra/K-Homomorphism.md",
+    "Algebra/Ring Homomorphism.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Field Extension.md",
     "Algebra/Submodule.md",
     "Courses/Algebra II/Exercise Sheet 6.md",
     "Courses/Algebra II/Exercise Sheet 4.md",
@@ -337,8 +339,6 @@
     "Algebra/Radical Extension.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Torsion Module.md",
-    "Algebra/Module.md",
-    "Algebra/Direct Sum.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
