@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Frobenius Homomorphism.md",
+                "file": "Algebra/Normal Closure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -195,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Frobenius Homomorphism.md",
+                "file": "Algebra/Normal Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Frobenius Homomorphism.md",
+                "file": "Algebra/Normal Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Frobenius Homomorphism.md"
+                "file": "Algebra/Normal Extension.md"
               }
             }
           }
@@ -323,10 +323,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "3279e027cbd779c5",
+  "active": "71d5be9ce9a12483",
   "lastOpenFiles": [
-    "Algebra/Galois Extension.md",
+    "Algebra/Normal Closure.md",
+    "Algebra/Normal Extension.md",
+    "Algebra/Frobenius Homomorphism.md",
     "Algebra/Finite Field.md",
+    "Algebra/Galois Extension.md",
     "Algebra/Exponent of a Group.md",
     "Algebra/Galois Group.md",
     "Algebra/Field Extension.md",
@@ -336,7 +339,6 @@
     "Algebra/Ring Homomorphism.md",
     "Algebra/Unique Factorization Domain.md",
     "Courses/Algebra II/Exercise Sheet 6.md",
-    "Algebra/Normal Extension.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Submodule.md",
     "Courses/Algebra II/Exercise Sheet 4.md",
@@ -349,8 +351,6 @@
     "Algebra/Euclidean Domain.md",
     "Algebra/Integral Domain.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Coprime Ideal.md",
-    "Courses/Topology/Exercise Sheet 3.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
