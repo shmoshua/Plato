@@ -53,6 +53,14 @@
 > [!proof]-
 > Let $f\in F[X]$ be irreducible. Assume that $f$ is inseparable. Then,  $f(x)=g(x^p)$ where: $$g(x)=b_{n}x^n+\dots+b_{0}\in F[X]$$However, by [[Frobenius Homomorphism|Corollary]], $$g(x)=c_{n}^px^n+\dots+c_{0}^p\in F[X]$$Therefore, $$f(x)=g(x^p)=c_{n}^px^{np}+\dots+c_{0}^p=(c_{n}x^n+\dots+c_{0})^p$$and $f$ is reducible, which is a contradiction.
 ---
+> [!lemma] Theorem 5
+> Let $L:K$ be a finite separable extension. Then, 
+> 1. there are finitely many intermediate fields.
+
+> [!proof]+
+> We have that 
+> 1. $L=K(\alpha_{1},..,\alpha_{n})$. Let $m_{i}:=m_{\alpha_{i},K}$ and $g:=m_{1}\dots m_{n}\in K[X]$ is a separable polynomial. Let $N$ be the splitting field of $g$. Then, $N:K$ is finite Galois and we have that: $$\left| \text{Gal}(N:K) \right| =[N:K]$$Therefore, there are finite number of subgroups of $\text{Gal}(N:K)$ and by Galois correspondence, there are finite number of subfields of $N:K$ and consequently $L:K$.
+---
 ##### Examples
 > [!h] Example 1
 > Let $\Phi_{p}(x):=x^{p-1}+\dots+1$. Then, 

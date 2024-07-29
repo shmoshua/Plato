@@ -70,7 +70,7 @@
 > If $(f,g)\sim(f',g')$, then: $f(\alpha)g'(\alpha)=f'(\alpha)g(\alpha)$ and: $$f(\alpha)g(\alpha)^{-1}=f(\alpha)g'(\alpha)g'(\alpha)^{-1}g(\alpha)^{-1}=f'(\alpha)g(\alpha)g'(\alpha)^{-1}g(\alpha)^{-1}=f'(\alpha)g'(\alpha)^{-1}$$Thus, $\Phi_{\alpha}$ is well-defined. It is then straightforward to see that $\Phi_{\alpha}$ is an isomorphism. 
 ---
 > [!lemma] Theorem 6 (Simple Extensions and Finite Intermediate Fields)
-> Let $K$ be a [[field]] with $\text{char }K=0$ and $L:K$ a finite algebraic extension. Then, TFAE:
+> Let $K$ be a [[field]] and $L:K$ a finite extension. Then, TFAE:
 > 1. $L:K$ is simple.
 > 2. $L:K$ has finitely many intermediate fields.
 
