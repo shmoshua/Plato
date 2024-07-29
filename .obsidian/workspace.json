@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "mode": "preview",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Separable Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -224,7 +224,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "relatively prime",
+                "query": "intermediate field",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -241,7 +241,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -261,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Discriminant.md"
+                "file": "Algebra/Algebraic and Transcendental Element.md"
               }
             }
           }
@@ -325,22 +326,22 @@
   },
   "active": "ecb7d5e60c270a3e",
   "lastOpenFiles": [
+    "Algebra/Field Extension.md",
+    "Algebra/Field.md",
+    "Algebra/Discriminant.md",
+    "Algebra/Separable Extension.md",
     "Algebra/Galois Group.md",
     "Algebra/Polynomial Ring.md",
-    "Algebra/Discriminant.md",
     "Algebra/Galois Extension.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Cyclotomic Extension.md",
     "Algebra/Finite Field.md",
     "Algebra/Normal Closure.md",
     "Algebra/Normal Extension.md",
-    "Algebra/Separable Extension.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Frobenius Homomorphism.md",
     "Algebra/Exponent of a Group.md",
-    "Algebra/Field Extension.md",
     "Algebra/K-Homomorphism.md",
-    "Algebra/Field.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Unique Factorization Domain.md",
     "Courses/Algebra II/Exercise Sheet 6.md",
