@@ -116,6 +116,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Algebra/Finite Field.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ecb7d5e60c270a3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Algebra/Field Extension.md",
                 "mode": "preview",
                 "source": true
@@ -128,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Exponent of a Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,7 +164,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Ring Homomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -182,8 +194,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/K-Homomorphism.md",
+                "file": "Algebra/Finite Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/K-Homomorphism.md",
+                "file": "Algebra/Finite Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/K-Homomorphism.md"
+                "file": "Algebra/Finite Field.md"
               }
             }
           }
@@ -311,24 +322,26 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "00bcede086d6528d",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
-    "Algebra/Normal Extension.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Finite Field.md",
+    "Algebra/Exponent of a Group.md",
+    "Algebra/Field.md",
+    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/K-Homomorphism.md",
     "Algebra/Ring Homomorphism.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Unique Factorization Domain.md",
-    "Algebra/Algebraic and Transcendental Element.md",
-    "Algebra/Field Extension.md",
-    "Algebra/Submodule.md",
     "Courses/Algebra II/Exercise Sheet 6.md",
+    "Algebra/Normal Extension.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Submodule.md",
     "Courses/Algebra II/Exercise Sheet 4.md",
     "Courses/Algebra II/Exercise Sheet 5.md",
     "Algebra/Galois Correspondence.md",
     "Algebra/Separable Extension.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Free Module.md",
-    "Algebra/Field.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Euclidean Domain.md",
     "Algebra/Integral Domain.md",
@@ -337,8 +350,6 @@
     "Courses/Topology/Exercise Sheet 3.md",
     "Algebra/Abelian Extension.md",
     "Algebra/Radical Extension.md",
-    "Algebra/Finitely Generated Abelian Group.md",
-    "Algebra/Torsion Module.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

@@ -40,7 +40,11 @@
 > 2. $\sigma$ is continuous.
 > 3. $\text{Aut}(\mathbb{R})=\{ \text{id}_{\mathbb{R}} \}$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. For $x\leq y$, $y-x\geq 0$ and there exists $z\in \mathbb{R}$ s.t. $y-x=z^{2}$. Therefore, $$\sigma(y)-\sigma(x)=\sigma(y-x)=\sigma(z^{2})=\sigma(z)^{2}\geq 0$$
-> 2. Let $(a,b)\subseteq \mathbb{R}$. We want to show that its preimage is open. let $a\leq\sigma(x)< b$. 
+> 2. Let $(a,b)\subseteq \mathbb{R}$. We want to show that its preimage is open. let $a<\sigma(x)< b$. As $\sigma$ is surjective, there exists $\alpha,\beta\in \mathbb{R}$ s.t. $a=\sigma(\alpha)$ and $b=\sigma(\beta)$. Hence, $\sigma(\alpha)<\sigma(x)<\sigma(\beta)$. 
+>    
+>    As $\sigma ^{-1}\in \text{Aut}(\mathbb{R})$ as well, it is increasing and $(\alpha,\beta)=\sigma ^{-1}(a,b)$. Hence, $\sigma$ is continuous.
+>  3. For $\sigma\in \text{Aut}(\mathbb{R})$, as $\sigma$ and $\text{id}_{\mathbb{R}}$ are both continuous and they coincide on $\mathbb{Q}$ from Proposition 1, they must coincide on the whole $\mathbb{R}$. 
+---
