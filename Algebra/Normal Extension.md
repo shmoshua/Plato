@@ -20,18 +20,6 @@
 >    Now, as $\alpha\in L$, we have that for any root $\theta$ of $f$, $[L(\theta):L]=[L(\alpha):L]=1$. Hence, $\theta\in L$ and $f$ splits in $L$. 
 
 ---
-> [!lemma] Theorem 2 (Equivalence of Normal Extension)
-> Let $L:=K(A):K$ be an [[Algebraic and Transcendental Element|algebraic extension]]. Then, the following are equivalent:
-> 1. $L:K$ is normal.
-> 2. for every $a\in A$, $L$ contains a splitting field of $m_{a,K}$.
-> 3. for every $\varphi\in \text{Hom}_{K}(L,\overline{L})$, we have $\varphi(L)=L$.
-
-> [!proof]-
-> We have: 
-> - (1=>2): is clear as $m_{a,K}$ is irreducible.
-> - (2=>3): Let $\varphi\in \text{Hom}_{K}(L,\overline{L})$ and $a\in A$. Then, $$m_{a,K}(x)=\prod_{i=1}^{n}(X-a_{i})$$ for $a_{i}\in L$. Then, $m_{a,K}(\varphi(a_{i}))=\varphi(m_{a,K}(a_{i}))=\varphi(0)=0$. Therefore, $$\varphi(\{ a_{1},\dots,a_{n} \})=\{ a_{1},\dots,a_{n} \}$$and $\varphi(K(a_{1},\dots,a_{n}))=K(a_{1},\dots,a_{n})$. As $a$ is arbitrary, $\varphi(L)=L$.
-> - (3=>1): Let $a\in A$ and $m_{a,k}(x)=\prod_{i=1}^{n}(X-a_{i})$ where $a_{i}\in \overline{L}$. Wlog assume that $a_{1}=a$. For each $i$, we have: $$\begin{array}{cccc} {\varphi_{i}:}&{K(a)}&\to&{K(a_{i})}\\&{a} &\mapsto & {a_{i}} \end{array}{}$$Therefore, this can be extended to a map $\varphi:L\to \overline{L}$ but by assumption $\varphi(L)=L$. Then, it follows that $a_{i}\in L$ and $m_{a,K}$ splits over $L$. 
----
 > [!lemma] Theorem 2
 > Let $L:K$ be a finite normal extension with $K\subseteq M\subseteq L$. Then,
 > 1. any $\phi\in \text{Mono}_{K}(M,L)$ can be extended to $\sigma\in \text{Aut}_{K}(L)=\text{Gal}(L:K)$.
@@ -39,12 +27,12 @@
 
 > [!proof]-
 > We have:
-> 1. As $L:K$ is finite and normal, from Theorem 1, it is a splitting field of some polynomial $f\in K[X]$. Therefore, it is a splitting field of $f$ over $M$. Further, by injectivity, $L$ is a splitting field of $\phi(f)$ over $\phi(L)$.
+> 1. As $L:K$ is finite and normal, from Theorem 1, it is a splitting field of some polynomial $f\in K[X]$. Therefore, it is a splitting field of $f$ over $M$. Further, by injectivity, $L$ is a splitting field of $\phi(f)$ over $\phi(M)$.
 > 
 > 	 By applying [[Splitting Field|Theorem 2]], $\phi$ extends to a isomorphism $\sigma\in \text{Aut}_{K}(L)$.
 > 2. By [[Field Extension|Theorem 6]], there exists a field isomorphism $\phi:K(\alpha)\to K(\beta)$ that extends $\text{id}_{K}$ with $\phi(\alpha)=\beta$.By considering $\phi$ as a monomorphism from $K(\alpha)$ to $L$, we get the statement by 1.
 ---
-> [!lemma] Theorem 2 (Equivalence of Finite Normal Extension)
+> [!lemma] Theorem 3 (Equivalence of Finite Normal Extension)
 > Let $L:K$ be finite. Then, TFAE:
 > 1. $L:K$ is normal.
 > 2. for every $K\subseteq L\subseteq M$, $\text{Mono}_{K}(L,M)=\text{Aut}_{K}(L)$
@@ -54,10 +42,10 @@
 > We have:
 > 1. (1=>2): If $L:K$ is finite normal, then $L$ is the normal closure of $L:K$ and by [[Normal Closure|Lemma 2]] for any $\phi\in \text{Mono}_{K}(L,M)$, $\phi(L)\subseteq L$. However, as $L$ is a finite-dimensional $K$-vector space and $\phi$ is injective, $\phi(L)=L$ and $\phi\in \text{Aut}_{K}(L)$. The other direction holds trivially. 
 > 2. (2=>3): As $L:K$ is finite, there exists a normal closure $N$. Then, $N:K$ is normal and by 2, $\text{Mono}_{K}(L:N)=\text{Aut}_{K}(L)$.
-> 3. (3=>1): Let $f\in K[X]$ be a irreducible polynomial with  a root $\alpha$ in $L$. Let $\beta$ be any of its other zeros. Then, there exists $\sigma\in \text{Aut}_{K}(N)$ s.t. $\sigma(\alpha)=\beta$. However, as $\sigma|_{L}\in \text{Mono}_{K}(L,N)=\text{Aut}_{K}(L)$, $\beta=\sigma(\alpha)\in L$.
+> 3. (3=>1): Let $f\in K[X]$ be a irreducible polynomial with  a root $\alpha$ in $L$. Let $\beta$ be any of its other zeros. Then, by Theorem 2 there exists $\sigma\in \text{Aut}_{K}(N)$ s.t. $\sigma(\alpha)=\beta$. However, as $\sigma|_{L}\in \text{Mono}_{K}(L,N)=\text{Aut}_{K}(L)$, $\beta=\sigma(\alpha)\in L$.
 
 ---
-> [!lemma] Corollary 3
+> [!lemma] Corollary 4
 > Let $L:M:K$ be a tower of fields. If $L:K$ is normal, then $L:M$ is normal.
 
 > [!proof]-
