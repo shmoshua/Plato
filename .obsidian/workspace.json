@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Frobenius Homomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -195,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/Frobenius Homomorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/Frobenius Homomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Finite Field.md"
+                "file": "Algebra/Frobenius Homomorphism.md"
               }
             }
           }
@@ -323,12 +323,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ecb7d5e60c270a3e",
+  "active": "3279e027cbd779c5",
   "lastOpenFiles": [
     "Algebra/Galois Extension.md",
+    "Algebra/Finite Field.md",
     "Algebra/Exponent of a Group.md",
     "Algebra/Galois Group.md",
-    "Algebra/Finite Field.md",
     "Algebra/Field Extension.md",
     "Algebra/K-Homomorphism.md",
     "Algebra/Field.md",
