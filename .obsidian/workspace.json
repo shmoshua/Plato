@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/K-Homomorphism.md",
+                "file": "Algebra/Finite Field.md",
                 "mode": "source",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/Galois Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Finite Field.md",
                 "mode": "preview",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exponent of a Group.md",
+                "file": "Algebra/Galois Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -194,7 +194,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -322,14 +323,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4d3cf14e10079d85",
+  "active": "ecb7d5e60c270a3e",
   "lastOpenFiles": [
-    "Algebra/Field Extension.md",
-    "Algebra/Finite Field.md",
+    "Algebra/Galois Extension.md",
     "Algebra/Exponent of a Group.md",
+    "Algebra/Galois Group.md",
+    "Algebra/Finite Field.md",
+    "Algebra/Field Extension.md",
+    "Algebra/K-Homomorphism.md",
     "Algebra/Field.md",
     "Algebra/Algebraic and Transcendental Element.md",
-    "Algebra/K-Homomorphism.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Unique Factorization Domain.md",
     "Courses/Algebra II/Exercise Sheet 6.md",
@@ -348,8 +351,6 @@
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Coprime Ideal.md",
     "Courses/Topology/Exercise Sheet 3.md",
-    "Algebra/Abelian Extension.md",
-    "Algebra/Radical Extension.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

@@ -60,7 +60,7 @@
 > [!proof]-
 > Let $K$ be a subfield of $\mathbb{F}$. Then, $\left| K \right|=p^d$ for some $d\leq n$.  Then, as an intermediate field, we have that: $[K:\mathbb{F}_{p}]=\frac{[\mathbb{F}:\mathbb{F}_{p}]}{[\mathbb{F}:K]}$ and as $[\mathbb{F}:\mathbb{F}_{p}]=n$, we have that $c\cdot d=n$ for some $c\in \mathbb{N}$. It proves that $d|n$.
 > 
-> Conversely, for $d|n$, let $F$ be the splitting field of $x^{p^d}-x\in \mathbb{F}_{p}[X]$. Then, $\left| \mathbb{F} \right|=p^d$ and $F=\mathbb{F}_{p^d}$.
+> Conversely, for $d|n$, let $\mathbb{F}$ be the splitting field of $x^{p^d}-x\in \mathbb{F}_{p}[X]$. Then, $\left| \mathbb{F} \right|=p^d$ and $F=\mathbb{F}_{p^d}$.
 ---
 > [!lemma] Proposition 5
 > Let $p$ be a prime. Then, 
@@ -69,7 +69,7 @@
 
 > [!proof]-
 > We have that:
-> 1. First, $\mathbb{F}_{p^n}$ is a splitting field of the separable polynomial $x^{p^n}-x\in \mathbb{F}_{p}[X]$. Therefore, $$\left| \text{Gal}(\mathbb{F}_{p^n}:\mathbb{F}_{p}) \right| =[\mathbb{F}_{p^n}:\mathbb{F}_{p}]=n$$We show that the Frobenius homomorphism $\varphi$ is indeed the generator. Firstly, for any $x\in \mathbb{F}_{p}^\times$, $\varphi(x)=x^p=x$.
+> 1. First, $\mathbb{F}_{p^n}$ is a splitting field of the separable polynomial $x^{p^n}-x\in \mathbb{F}_{p}[X]$. Therefore, $$\left| \text{Gal}(\mathbb{F}_{p^n}:\mathbb{F}_{p}) \right| =[\mathbb{F}_{p^n}:\mathbb{F}_{p}]=n$$We show that the Frobenius homomorphism $\varphi$ is indeed the generator. Firstly, for any $x\in \mathbb{F}_{p}^\times$, $\varphi(x)=x^p=x$ and $\varphi\in \text{Gal}(\mathbb{F}_{p^n}:\mathbb{F}_{p})$.
 >    
->    Let $\sigma\in \text{Gal}(\mathbb{F}_{p^n}:\mathbb{F}_{p})$. Then, 
+>    Now we show that $\varphi$ has order $n$. Let $k:=\text{ord}(\varphi)$. Then, $\varphi^k=\text{id}_{\mathbb{F}_{p^n}}$ and $x^{p^k}=x$. Therefore, for all $x\in \mathbb{F}_{p^n}$, $x^{p^k}-x=0$. Hence $p^n\leq p^k$ which implies that $n=k$.
 ---
