@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Field.md",
+                "file": "Algebra/Euclidean Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Field.md"
+                "file": "Algebra/Euclidean Domain.md"
               }
             }
           }
@@ -179,9 +179,9 @@
   },
   "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
+    "Algebra/Field.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Integral Domain.md",
-    "Algebra/Field.md",
     "Algebra/Maximal Ideal.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Prime Ideal.md",
