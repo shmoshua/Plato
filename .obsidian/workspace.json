@@ -31,7 +31,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Field.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "10f008f2ef85452a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "preview",
                 "source": true
               }
@@ -103,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+                "file": "Algebra/Field.md"
               }
             }
           }
@@ -165,10 +177,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
-    "Algebra/Prime Ideal.md",
+    "Algebra/Polynomial Ring.md",
     "Algebra/Integral Domain.md",
+    "Algebra/Field.md",
+    "Algebra/Maximal Ideal.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Prime Ideal.md",
     "Algebra/Euclidean Domain.md",
     "Algebra/Galois Correspondence.md",
     "Algebra/Ideal (Ring).md",
@@ -178,7 +194,6 @@
     "Algebra/Galois Extension.md",
     "Algebra/Noetherian Module.md",
     "Algebra/Field Extension.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/K-Homomorphism.md",
     "Courses/Algebra II/Exercise Sheet 6.md",
@@ -190,9 +205,6 @@
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Galois Group.md",
     "Algebra/Cyclotomic Polynomial.md",
-    "Algebra/Normal Extension.md",
-    "Algebra/Normal Closure.md",
-    "Algebra/Field.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
