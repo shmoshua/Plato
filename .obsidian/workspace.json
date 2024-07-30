@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Algebra/Free Module.md",
                 "mode": "preview",
                 "source": true
               }
@@ -188,7 +188,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebra II/Exercise Sheet 6.md",
+                "file": "Discrete Mathematics/Poset.md",
                 "mode": "preview",
                 "source": true
               }
@@ -323,19 +323,22 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "059af7a2feac2860",
+  "active": "ecb7d5e60c270a3e",
   "lastOpenFiles": [
-    "Algebra/Module.md",
+    "Discrete Mathematics/Poset.md",
     "Algebra/Noetherian Module.md",
+    "Algebra/Galois Correspondence.md",
+    "Courses/Algebra II/Exercise Sheet 6.md",
+    "Algebra/Free Module.md",
+    "Algebra/Separable Extension.md",
+    "Algebra/Module.md",
     "Algebra/Sylvester Matrix.md",
     "Algebra/Discriminant.md",
-    "Algebra/Galois Correspondence.md",
     "Algebra/Finite Field.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Galois Group.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Field Extension.md",
-    "Algebra/Separable Extension.md",
     "Algebra/Galois Extension.md",
     "Algebra/Normal Extension.md",
     "Algebra/Normal Closure.md",
@@ -347,10 +350,7 @@
     "Algebra/Exponent of a Group.md",
     "Algebra/K-Homomorphism.md",
     "Algebra/Unique Factorization Domain.md",
-    "Courses/Algebra II/Exercise Sheet 6.md",
     "Algebra/Submodule.md",
-    "Courses/Algebra II/Exercise Sheet 4.md",
-    "Courses/Algebra II/Exercise Sheet 5.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
