@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Algebra/Sylvester Matrix.md",
                 "mode": "source",
                 "source": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/Sylvester Matrix.md",
                 "mode": "preview",
                 "source": true
               }
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/Sylvester Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Finite Field.md",
+                "file": "Algebra/Sylvester Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Finite Field.md"
+                "file": "Algebra/Sylvester Matrix.md"
               }
             }
           }
@@ -325,8 +325,11 @@
   },
   "active": "ecb7d5e60c270a3e",
   "lastOpenFiles": [
-    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Discriminant.md",
+    "Algebra/Sylvester Matrix.md",
     "Algebra/Galois Correspondence.md",
+    "Algebra/Finite Field.md",
+    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Galois Group.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Field Extension.md",
@@ -335,10 +338,8 @@
     "Algebra/Normal Extension.md",
     "Algebra/Normal Closure.md",
     "Algebra/Field.md",
-    "Algebra/Discriminant.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Cyclotomic Extension.md",
-    "Algebra/Finite Field.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Frobenius Homomorphism.md",
     "Algebra/Exponent of a Group.md",
@@ -350,7 +351,6 @@
     "Courses/Algebra II/Exercise Sheet 5.md",
     "Courses/Algebra II/Exercise Sheet 3.md",
     "Algebra/Free Module.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

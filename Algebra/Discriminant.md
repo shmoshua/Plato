@@ -17,7 +17,7 @@
 ---
 > [!lemma] Theorem 2
 > Let $K$ be a field with $\text{char }K\neq 2$. For $f\in K[X]$ of degree $n$ and its [[Splitting Field|splitting field]] $L_{f}:K$ of $f$,
-> 1. if $D_{f}=0$, then $f$ has a repeated roots in $L_{f}$.
+> 1. $D_{f}=0$ if and only if $f$ has a repeated roots in $L_{f}$.
 > 2. if $D_{f}\neq 0$ then $K(\delta_{f})=\text{Fix}(\text{Gal}(L_{f}:K)\cap A_{n})$. Further, TFAE:
 > 	1. $\text{Gal}(L_{f}:K)\subseteq A_{n}$.
 > 	2. $\delta_{f}\in K$.
@@ -25,8 +25,8 @@
 
 > [!proof]-
 > We have:
-> 1. if $f$ has no repeated roots, $\alpha_{j}-\alpha_{i}\neq 0$ for all $i,j$. Therefore, $D_{f}\neq 0$.
-> 2. if $f$ has repeated roots then $D_{f} =0$. Hence, the $f$ is separable and $L_{f}:K$ is Galois. Notice that for $\sigma\in \text{Gal}(L_{f}:K)\cap A_{n}$ from Lemma 1, $\sigma(\delta_{f})=\delta_{f}$. Hence, $\delta_{f}\in \text{Fix}(\text{Gal}(L_{f}:K)\cap A_{n})$ and $K(\delta_{f})\subseteq \text{Fix}(\text{Gal}(L_{f}:K)\cap A_{n})$.
+> 1. if $f$ has no repeated roots, $\alpha_{j}-\alpha_{i}\neq 0$ for all $i,j$. Therefore, $D_{f}\neq 0$. Conversely, if $f$ has repeated roots then $D_{f} =0$.
+> 2. As $D_{f}\neq 0$, $f$ is separable and $L_{f}:K$ is Galois. Notice that for $\sigma\in \text{Gal}(L_{f}:K)\cap A_{n}$ from Lemma 1, $\sigma(\delta_{f})=\delta_{f}$. Hence, $\delta_{f}\in \text{Fix}(\text{Gal}(L_{f}:K)\cap A_{n})$ and $K(\delta_{f})\subseteq \text{Fix}(\text{Gal}(L_{f}:K)\cap A_{n})$.
 >    
 >    Conversely, we have that for $\sigma\in \gamma(K(\delta_{f}))$ as $\sigma|_{K}=\text{id}_{K}$, $\sigma\in \text{Gal}(L_{f}:K)$ and as $\sigma(\delta_{f})=\delta_{f}$, $\sigma\in A_{n}$. Hence, $\gamma(K(\delta_{f}))\subseteq \text{Gal}(L_{f}:K)\cap A_{n}$ and we have the statement.
 > 
