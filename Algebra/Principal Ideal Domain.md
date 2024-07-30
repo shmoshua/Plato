@@ -83,7 +83,7 @@
 
 > [!proof]-
 > We have:
-> 1. Let $r\in R\backslash\{ 0 \}$ and $r\notin R^\times$. We want to show that there exist irreducible elements $r_{1},..,r_{n}$ such that $r=r_{1},\dots,r_{n}$. 
+> 1. Let $r\in R\backslash\{ 0 \}$ and $r\notin R^\times$. We want to show that there exist irreducible elements $r_{1},..,r_{n}$ such that $r=r_{1}\dots r_{n}$. 
 >   
 > 	If $r$ is irreducible, we are done. So assume $r$ is not irreducible. Then $r=r_{1}r_{2}$ where neither $r_{1}$ nor $r_{2}$ are units. If $r_{1}$ and $r_{2}$ are irreducible, then the proof is complete. If $r_{1}$ is not irreducible, then $r_{1}=r_{11}r_{12}$, where neither $r_{11}$ nor $r_{12}$ are units. Continuing this way, we get a proper inclusion of ideals: $$(r)\subseteq(r_{1})\subseteq(r_{11})\subseteq\dots \subseteq R$$If this process finishes in a finite number of steps, the proof is complete. But, we know by Theorem 4 that this is the case.
 >2. If $R$ is a PID then every non-zero prime ideal is maximal. Conversely assume the latter. We will show first that every non-zero prime ideal is principal.
