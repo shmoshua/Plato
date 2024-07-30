@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Finite Field.md",
                 "mode": "preview",
                 "source": true
               }
@@ -194,7 +194,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -260,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Algebra/Finite Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Algebra/Finite Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Correspondence.md"
+                "file": "Algebra/Finite Field.md"
               }
             }
           }
@@ -322,14 +323,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4d3cf14e10079d85",
+  "active": "ecb7d5e60c270a3e",
   "lastOpenFiles": [
-    "Algebra/Galois Group.md",
+    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Galois Correspondence.md",
+    "Algebra/Galois Group.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Field Extension.md",
     "Algebra/Separable Extension.md",
-    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Galois Extension.md",
     "Algebra/Normal Extension.md",
     "Algebra/Normal Closure.md",
