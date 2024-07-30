@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Ideal (Ring).md",
                 "mode": "preview",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Algebra/Separable Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Ideal (Ring).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Ideal (Ring).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Extension.md"
+                "file": "Algebra/Ideal (Ring).md"
               }
             }
           }
@@ -325,12 +325,14 @@
   },
   "active": "ecb7d5e60c270a3e",
   "lastOpenFiles": [
-    "Algebra/Noetherian Module.md",
+    "Algebra/Commutator Subgroup.md",
     "Algebra/Galois Correspondence.md",
-    "Algebra/Field Extension.md",
-    "Algebra/Free Module.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Separable Extension.md",
+    "Algebra/Free Module.md",
+    "Algebra/Galois Extension.md",
+    "Algebra/Noetherian Module.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Polynomial Ring.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/K-Homomorphism.md",
     "Courses/Algebra II/Exercise Sheet 6.md",
@@ -342,7 +344,6 @@
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Galois Group.md",
     "Algebra/Cyclotomic Polynomial.md",
-    "Algebra/Galois Extension.md",
     "Algebra/Normal Extension.md",
     "Algebra/Normal Closure.md",
     "Algebra/Field.md",
@@ -350,7 +351,6 @@
     "Algebra/Ring Homomorphism.md",
     "Algebra/Frobenius Homomorphism.md",
     "Algebra/Exponent of a Group.md",
-    "Algebra/Submodule.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
