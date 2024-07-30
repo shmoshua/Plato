@@ -176,7 +176,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/K-Homomorphism.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -188,14 +188,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete Mathematics/Poset.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Noetherian Module.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Noetherian Module.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Noetherian Module.md"
+                "file": "Algebra/Polynomial Ring.md"
               }
             }
           }
@@ -323,14 +323,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "ecb7d5e60c270a3e",
+  "active": "8d7627fd67d96f03",
   "lastOpenFiles": [
+    "Algebra/Separable Extension.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/K-Homomorphism.md",
+    "Algebra/Polynomial Ring.md",
+    "Courses/Algebra II/Exercise Sheet 6.md",
     "Discrete Mathematics/Poset.md",
     "Algebra/Noetherian Module.md",
     "Algebra/Galois Correspondence.md",
-    "Courses/Algebra II/Exercise Sheet 6.md",
     "Algebra/Free Module.md",
-    "Algebra/Separable Extension.md",
     "Algebra/Module.md",
     "Algebra/Sylvester Matrix.md",
     "Algebra/Discriminant.md",
@@ -343,13 +346,10 @@
     "Algebra/Normal Extension.md",
     "Algebra/Normal Closure.md",
     "Algebra/Field.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Cyclotomic Extension.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Frobenius Homomorphism.md",
     "Algebra/Exponent of a Group.md",
-    "Algebra/K-Homomorphism.md",
-    "Algebra/Unique Factorization Domain.md",
     "Algebra/Submodule.md",
     "Complex Analysis",
     "Algebra/Untitled",
