@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md"
+                "file": "Algebra/Unique Factorization Domain.md"
               }
             }
           }
@@ -214,7 +214,7 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "6306af84bcc72351",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Unique Factorization Domain.md",
