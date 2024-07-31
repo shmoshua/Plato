@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "preview",
                 "source": true
               }
@@ -216,11 +216,11 @@
   },
   "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
-    "Algebra/Principal Ideal Domain.md",
-    "Algebra/Unique Factorization Domain.md",
     "Algebra/Integral Domain.md",
-    "Algebra/Euclidean Domain.md",
     "Algebra/Polynomial Ring.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Euclidean Domain.md",
     "Algebra/Field.md",
     "Algebra/Maximal Ideal.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
