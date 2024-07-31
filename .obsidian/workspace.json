@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Field Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Field Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md"
+                "file": "Algebra/Field Extension.md"
               }
             }
           }
@@ -214,16 +214,17 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4d3cf14e10079d85",
+  "active": "6306af84bcc72351",
   "lastOpenFiles": [
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Unique Factorization Domain.md",
     "Algebra/Integral Domain.md",
     "Algebra/Polynomial Ring.md",
-    "Algebra/Unique Factorization Domain.md",
-    "Algebra/Principal Ideal Domain.md",
     "Algebra/Euclidean Domain.md",
     "Algebra/Field.md",
     "Algebra/Maximal Ideal.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Galois Correspondence.md",
     "Algebra/Ideal (Ring).md",
@@ -232,7 +233,6 @@
     "Algebra/Free Module.md",
     "Algebra/Galois Extension.md",
     "Algebra/Noetherian Module.md",
-    "Algebra/Field Extension.md",
     "Algebra/K-Homomorphism.md",
     "Courses/Algebra II/Exercise Sheet 6.md",
     "Discrete Mathematics/Poset.md",
