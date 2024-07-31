@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Algebraic Closure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Algebraic Closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Algebraic Closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md"
+                "file": "Algebra/Algebraic Closure.md"
               }
             }
           }
@@ -216,8 +216,9 @@
   },
   "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
-    "Algebra/Field Extension.md",
+    "Algebra/Splitting Field.md",
     "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Field Extension.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Euclidean Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
@@ -241,7 +242,6 @@
     "Algebra/Sylvester Matrix.md",
     "Algebra/Discriminant.md",
     "Algebra/Finite Field.md",
-    "Algebra/Galois Group.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
