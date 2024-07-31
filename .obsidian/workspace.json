@@ -73,6 +73,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "419cf24453981eda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Integral Domain.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -206,10 +218,10 @@
   "lastOpenFiles": [
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Unique Factorization Domain.md",
+    "Algebra/Integral Domain.md",
     "Algebra/Euclidean Domain.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Field.md",
-    "Algebra/Integral Domain.md",
     "Algebra/Maximal Ideal.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Prime Ideal.md",
