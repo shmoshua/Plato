@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "mode": "preview",
                 "source": true
               }
@@ -86,7 +86,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebraic Closure.md",
+                "file": "Algebra/Field Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Algebraic Closure.md",
+                "file": "Algebra/Field Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebraic Closure.md"
+                "file": "Algebra/Field Extension.md"
               }
             }
           }
@@ -214,12 +215,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4d3cf14e10079d85",
+  "active": "10f008f2ef85452a",
   "lastOpenFiles": [
-    "Algebra/Splitting Field.md",
     "Algebra/Algebraic and Transcendental Element.md",
-    "Algebra/Field Extension.md",
     "Algebra/Polynomial Ring.md",
+    "Algebra/Algebraic Closure.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Splitting Field.md",
     "Algebra/Euclidean Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Principal Ideal Domain.md",
@@ -241,7 +243,6 @@
     "Algebra/Module.md",
     "Algebra/Sylvester Matrix.md",
     "Algebra/Discriminant.md",
-    "Algebra/Finite Field.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
