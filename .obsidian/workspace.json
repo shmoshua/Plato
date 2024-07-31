@@ -86,8 +86,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Field Extension.md"
+                "file": "Algebra/Algebraic and Transcendental Element.md"
               }
             }
           }
@@ -215,11 +214,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "10f008f2ef85452a",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
+    "Algebra/Field Extension.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Polynomial Ring.md",
-    "Algebra/Field Extension.md",
     "Algebra/Euclidean Domain.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Principal Ideal Domain.md",
