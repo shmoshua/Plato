@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Finite Field.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,14 +80,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Algebra/Finite Field.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Finite Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Field Extension.md",
+                "file": "Algebra/Finite Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Field Extension.md"
+                "file": "Algebra/Finite Field.md"
               }
             }
           }
@@ -215,14 +215,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "10f008f2ef85452a",
+  "active": "6306af84bcc72351",
   "lastOpenFiles": [
+    "Algebra/Field Extension.md",
+    "Algebra/Finite Field.md",
+    "Algebra/Separable Extension.md",
+    "Algebra/Algebraic Closure.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Normal Extension.md",
-    "Algebra/Field Extension.md",
-    "Algebra/Separable Extension.md",
     "Algebra/Integral Domain.md",
-    "Algebra/Algebraic Closure.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Splitting Field.md",
     "Algebra/Euclidean Domain.md",
@@ -242,7 +243,6 @@
     "Courses/Algebra II/Exercise Sheet 6.md",
     "Discrete Mathematics/Poset.md",
     "Algebra/Module.md",
-    "Algebra/Sylvester Matrix.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
