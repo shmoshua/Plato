@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Exponent of a Group.md",
+                "file": "Algebra/Finite Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Exponent of a Group.md",
+                "file": "Algebra/Finite Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Exponent of a Group.md"
+                "file": "Algebra/Finite Field.md"
               }
             }
           }
@@ -227,8 +227,9 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "dd9163d18c834045",
+  "active": "419cf24453981eda",
   "lastOpenFiles": [
+    "Algebra/Exponent of a Group.md",
     "Algebra/Finite Field.md",
     "Algebra/Field Extension.md",
     "Algebra/Separable Extension.md",
@@ -254,7 +255,6 @@
     "Algebra/K-Homomorphism.md",
     "Courses/Algebra II/Exercise Sheet 6.md",
     "Discrete Mathematics/Poset.md",
-    "Algebra/Module.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
