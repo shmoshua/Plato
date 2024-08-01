@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Normal Extension.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "mode": "preview",
                 "source": true
               }
@@ -87,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Algebra/Field Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Algebra/Field Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Separable Extension.md"
+                "file": "Algebra/Field Extension.md"
               }
             }
           }
@@ -215,12 +215,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "419cf24453981eda",
+  "active": "10f008f2ef85452a",
   "lastOpenFiles": [
     "Algebra/Algebraic and Transcendental Element.md",
-    "Algebra/Integral Domain.md",
     "Algebra/Normal Extension.md",
     "Algebra/Field Extension.md",
+    "Algebra/Separable Extension.md",
+    "Algebra/Integral Domain.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Splitting Field.md",
@@ -234,7 +235,6 @@
     "Algebra/Galois Correspondence.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Commutator Subgroup.md",
-    "Algebra/Separable Extension.md",
     "Algebra/Free Module.md",
     "Algebra/Galois Extension.md",
     "Algebra/Noetherian Module.md",
