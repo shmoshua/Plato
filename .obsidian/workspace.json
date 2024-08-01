@@ -80,14 +80,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Separable Extension.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Normal Extension.md",
+                "file": "Algebra/Separable Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Normal Extension.md",
+                "file": "Algebra/Separable Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Normal Extension.md"
+                "file": "Algebra/Separable Extension.md"
               }
             }
           }
@@ -215,9 +215,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "834969c6afe1409b",
+  "active": "419cf24453981eda",
   "lastOpenFiles": [
     "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Normal Extension.md",
     "Algebra/Field Extension.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Polynomial Ring.md",
@@ -226,7 +228,6 @@
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Unique Factorization Domain.md",
-    "Algebra/Integral Domain.md",
     "Algebra/Field.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Prime Ideal.md",
@@ -242,7 +243,6 @@
     "Discrete Mathematics/Poset.md",
     "Algebra/Module.md",
     "Algebra/Sylvester Matrix.md",
-    "Algebra/Discriminant.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
