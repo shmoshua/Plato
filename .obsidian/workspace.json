@@ -111,7 +111,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Interior and Closure.md",
+                "file": "Topology/Continuous Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Interior and Closure.md",
+                "file": "Topology/Continuous Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Interior and Closure.md"
+                "file": "Topology/Continuous Function.md"
               }
             }
           }
@@ -239,10 +239,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "5e5a21da8b46ee9a",
+  "active": "4d3cf14e10079d85",
   "lastOpenFiles": [
-    "Topology/Local Base of Topology.md",
     "Topology/Interior and Closure.md",
+    "Topology/Local Base of Topology.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Continuous Function.md",
     "Topology/Base of Topology.md",
