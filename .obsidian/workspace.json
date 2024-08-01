@@ -44,7 +44,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Interior and Closure.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5e5a21da8b46ee9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Interior and Closure.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f8e37bdd21db4516",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Base of Topology.md",
                 "mode": "preview",
                 "source": true
               }
@@ -153,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Topology/Interior and Closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md",
+                "file": "Topology/Interior and Closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Topology of Pointwise and Uniform Convergence.md"
+                "file": "Topology/Interior and Closure.md"
               }
             }
           }
@@ -215,11 +239,15 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "b59c6221aa10ab7e",
+  "active": "5e5a21da8b46ee9a",
   "lastOpenFiles": [
+    "Topology/Local Base of Topology.md",
+    "Topology/Interior and Closure.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Differential Geometry/Topological Manifold.md",
     "Topology/Continuous Function.md",
+    "Topology/Base of Topology.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Differential Geometry/Topological Manifold.md",
     "Topology/Topological Space.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Finite Field.md",
@@ -239,10 +267,6 @@
     "Algebra/Maximal Ideal.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Galois Correspondence.md",
-    "Algebra/Ideal (Ring).md",
-    "Algebra/Commutator Subgroup.md",
-    "Algebra/Free Module.md",
-    "Algebra/Galois Extension.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
