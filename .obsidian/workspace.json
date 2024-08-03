@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Topology/Contractible Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Product Topology.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Topology/Contractible Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Topology/Contractible Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Path-Connected Space.md"
+                "file": "Topology/Contractible Space.md"
               }
             }
           }
@@ -277,6 +277,9 @@
   },
   "active": "4e791ac932b496c3",
   "lastOpenFiles": [
+    "Topology/Path-Connected Space.md",
+    "Topology/Fundamental Group.md",
+    "Topology/Product Topology.md",
     "Topology/Simply Connected Space.md",
     "Topology/Homotopy.md",
     "Topology/Cantor Space.md",
@@ -286,7 +289,6 @@
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Topology of Compact Convergence.md",
     "Topology/Normal Space.md",
-    "Topology/Product Topology.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Topology/Locally Compact Space.md",
     "Topology/Connected Space.md",
@@ -301,8 +303,6 @@
     "Lie Group/Topological Group.md",
     "Topology/Filter.md",
     "Topology/Base of Topology.md",
-    "Topology/Local Base of Topology.md",
-    "Topology/Continuous Function.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
