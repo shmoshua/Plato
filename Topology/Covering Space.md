@@ -1,11 +1,22 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $X$ be a [[topological space]]. For a topological space $Y$, a continuous map $f:Y\to X$ is a ***covering space of $X$*** if for all $x\in X$, there exists an open neighborhood $U\ni x$, a non-empty discrete space $D$ and a homeomorphism $\Phi:f^{-1}(U)\to U\times D$ s.t. $$\begin{CD}f^{-1}(U)@>\Phi>> U\times D\\@VfVV@VV\text{pr}_{1}V\\U&=&U\end{CD}$$commutes, i.e. $f=\text{pr}_{1}\circ\Phi$ on $f^{-1}(U)$. 
+> Let $X$ be a [[topological space]]. For a topological space $Y$, a continuous map $f:Y\to X$ is a ***covering space of $X$*** if 
+> 1. for all $x\in X$, there exists an open neighborhood $U\ni x$, a non-empty discrete space $D$ and a homeomorphism $\Phi:f^{-1}(U)\to U\times D$ s.t. 
+> ```tikz
+> \usepackage{tikz-cd}
+> 
+> \begin{document}
+> \begin{tikzcd} {f^{-1}(U)} & {U\times D} \\ U \arrow["\Phi", from=1-1, to=1-2] \arrow["f"', from=1-1, to=2-1]  \arrow["{\mathrm{pr}_1}", from=1-2, to=2-1] 
+> \end{tikzcd}
+> \end{document}
+> ```
+> 
+> commutes, i.e. $f=\text{pr}_{1}\circ\Phi$ on $f^{-1}(U)$. 
 - **Related definition**: If $D$ is the same for all $x\in X$, $f$ is called a ***$D$-covering***. If additionally $D$ is finite, then the ***degree*** of $f$ is given as $\text{deg}(f)=\left| D \right|$.
 - **Remark**: if $X,Y$ are [[Connected Space|connected spaces]], $f:Y\to X$ is a covering space only if it is a homeomorphism.
 - **Related definition**: for any $x\in X$, $f^{-1}(\{ x \})$ is called the ***fiber over $x$***, if the covering map $f$ identifies with $\text{pr}_{1}:U\times D\to U$ where $U\ni x$ is given as above, i.e. $f^{-1}(\{ x \})$ is in bijection with $D$.
-- **Related definition**: For $f_{1}:Y_{1}\to X$, $f_{2}:Y_{2}\to X$ covering spaces, a ***covering space morphism*** if a continuous map $\varphi:Y_{1}\to Y_{2}$ s.t. $f_{2}\circ\varphi=f_{1}$. If $\varphi$ is a homeomorphism, $\varphi$ is an ***isomorphism***.
+- **Related definition**: For $f_{1}:Y_{1}\to X$, $f_{2}:Y_{2}\to X$ covering spaces, a ***covering space morphism*** is a continuous map $\varphi:Y_{1}\to Y_{2}$ s.t. $f_{2}\circ\varphi=f_{1}$. If $\varphi$ is a homeomorphism, $\varphi$ is an ***isomorphism***.
 - **Related definition**: $f:Y\to X$ is ***trivializable*** if there exists discrete $D\neq\varnothing$ s.t. $f$ is isomorphic to $X\times D\to X$.
 - **Related definition**: A covering space $f:Y\to X$ is ***smooth*** if $f$ is smooth and $\Phi$ is a [[diffeomorphism]].
 ---
