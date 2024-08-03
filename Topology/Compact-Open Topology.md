@@ -5,7 +5,8 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> Let $X$ be a topological space and $Y$ a metric space. On $C(X,Y)$, the compact-open topology coincides with the [[topology of compact convergence]].
+> Let $X,Y$ be topological spaces.
+> 1. If $Y$ is metric, the compact-open topology coincides with the [[topology of compact convergence]].
 
 ^02c41c
 
