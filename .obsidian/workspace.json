@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Local Base of Topology.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Local Base of Topology.md",
+                "file": "Topology/Compact Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Local Base of Topology.md",
+                "file": "Topology/Compact Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Local Base of Topology.md"
+                "file": "Topology/Compact Space.md"
               }
             }
           }
@@ -241,10 +241,11 @@
   },
   "active": "5e5a21da8b46ee9a",
   "lastOpenFiles": [
+    "Topology/Filter.md",
+    "Topology/Local Base of Topology.md",
     "Topology/Interior and Closure.md",
     "Topology/Hausdorff Space.md",
     "Topology/Continuous Function.md",
-    "Topology/Local Base of Topology.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Base of Topology.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
@@ -266,7 +267,6 @@
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Field.md",
     "Algebra/Maximal Ideal.md",
-    "Algebra/Prime Ideal.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
