@@ -9,7 +9,7 @@
 > Let $Y$ be a simply connected space and $G$ a [[Topological Group|discrete group]] s.t. the projection $p:Y\to X$ is a $G$-[[covering space]] where $X:= Y / G$. Then,
 > 1. for all $\overline{x_{0}}\in X$, $\pi_{1}(X ,\overline{x_{0}})\cong G$.
 
-> [!proof]+
+> [!proof]-
 > Let $\overline{x_{0}}\in X$. Fix $x_{0}\in Y$ s.t. $p(x_{0})=\overline{x_{0}}$. We aim to define an isomorphism: $$\alpha:\pi_{1}(X,\overline{x_{0}})\to G,$$
 > 1. **Defining $\beta:\{ \gamma\in C([0,1],X ):\gamma(0)=\gamma(1)=\overline{x_{0}} \}\to G$:**
 >    Let $\gamma:[0,1]\to X$ be a loop at $\overline{x_{0}}$. Let $\{ z_{0} \}$ be any point set and define the homotopy: $$h:\{ z_{0} \}\times[0,1]\to X,\quad (z_{0},t)=\gamma(t)$$Then, $h_{0}=\gamma(0)=\overline{x_{0}}$ and $\tilde{h}_{0}=x_{0}$ is a lift of $h_{0}$. Therefore, by [[Lift|homotopy lifting property]], there exists a unique lift $\tilde{h}:\{ z_{0} \}\times[0,1]\to Y$ of $h$ s.t. $\tilde{h}(z_{0},0)=x_{0}$. It follows that $\tilde{h}$ is a path $$\tilde{\gamma}:[0,1]\to Y,\quad t\mapsto \tilde{h}(z_{0},t)$$with $p\circ\tilde{\gamma}=\gamma$. In particular, $p(\tilde{\gamma}(1))=\gamma(1)=\overline{x_{0}}$. 

@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Topology Roadmap.md",
+                "file": "Topology/Simply Connected Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Topology/Universal Cover.md",
                 "mode": "preview",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path.md",
+                "file": "Topology/Path-Connected Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -183,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -249,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Topology/Universal Cover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Topology/Universal Cover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Simply Connected Space.md"
+                "file": "Topology/Universal Cover.md"
               }
             }
           }
@@ -311,18 +311,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1c2db62226f74fb9",
+  "active": "4e791ac932b496c3",
   "lastOpenFiles": [
-    "Topology/Lift.md",
     "Topology/Simply Connected Space.md",
-    "Topology/Covering Space.md",
-    "Topology/Path.md",
-    "Topology/Fundamental Group.md",
+    "Topology/Universal Cover.md",
     "Courses/Topology/Topology Roadmap.md",
+    "Topology/Covering Space.md",
+    "Topology/Lift.md",
+    "Topology/Path-Connected Space.md",
+    "Topology/Path.md",
+    "Topology/Contractible Space.md",
+    "Topology/Fundamental Group.md",
     "Topology/Homotopy.md",
     "Topology/Connected Space.md",
-    "Topology/Contractible Space.md",
-    "Topology/Path-Connected Space.md",
     "Topology/Product Topology.md",
     "Topology/Cantor Space.md",
     "Topology/Compact Space.md",
@@ -338,7 +339,6 @@
     "Analysis/Product Space.md",
     "Topology/Locally Connected Space.md",
     "Topology/Complete Space.md",
-    "Topology/Uniform Structure.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
