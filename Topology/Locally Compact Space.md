@@ -19,7 +19,7 @@
 > 3. Any [[topological manifold]] is locally compact.
 ---
 > [!h] Example 2
-> Any [[compact space]] $X$ is locally compact.
+> Any [[Compact Space|compact Hausdorff space]] $X$ is locally compact.
 
 > [!proof]-
 > Let $x\in X$ and $U\subseteq X$ be an open neighborhood. Then, by [[Compact Space|Compact Hausdorff Lemma 2]], there exists a relatively compact set $x\in V$ s.t. $\overline{V}\subseteq U$. Therefore, $X$ is locally compact.
