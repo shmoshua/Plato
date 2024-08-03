@@ -27,7 +27,7 @@
 > 1. (1=>2): obvious as $\{ 0,1 \}$ is discretre.
 > 2. (2=>3): let $\chi_{U_{1}}:X\to \{ 0,1 \}$. Then, $\chi_{U_{1}}$ is continuous and constant. If $\chi_{U_{1}}=0$, then $U_{1}=\varnothing$. If $\chi_{U_{1}}=1$, then $U_{1}=X$ and $U_{2}=\varnothing$.
 > 3. (3=>4): Take $U_{1}:=X \backslash C_{1}$ and $U_{2}:=X \backslash C_{2}$. 
-> 4. (4=>5): let $U\subseteq X$ be a proper subset that is both open and closed. Then, $X \backslash U$ is closed as well and $U,X \backslash U$ are disjoint closed partition of $X$, both non-zero. 
+> 4. (4=>5): let $U\subseteq X$ be a proper subset that is both open and closed. Then, $X \backslash U$ is closed as well and $U,X \backslash U$ are disjoint closed partition of $X$, hence $U=\varnothing$.
 > 5. (5=>1): Let $f:X\to D$ be a non-constant continuous map. Then, let $x\in f(X)$ with $U:=f^{-1}(\{ x \})$, which is open and is not $\varnothing$ or $X$. However, $X \backslash U=f^{-1}(D\backslash \{ x \})$ is also open. Therefore, $U$ is also closed.
 ---
 > [!lemma] Lemma 2
