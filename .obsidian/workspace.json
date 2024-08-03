@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -76,18 +76,6 @@
           },
           {
             "id": "5e5a21da8b46ee9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Compact Space.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f8e37bdd21db4516",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -105,18 +93,6 @@
               "type": "markdown",
               "state": {
                 "file": "Topology/Product Topology.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b59c6221aa10ab7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -158,8 +134,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Product Topology.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Product Topology.md",
+                "file": "Courses/Topology/Topology Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Product Topology.md"
+                "file": "Courses/Topology/Topology Roadmap.md"
               }
             }
           }
@@ -287,24 +262,25 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "e9fdcd8fc528231f",
+  "active": "5f499814045f65cd",
   "lastOpenFiles": [
+    "Topology/Interior and Closure.md",
+    "Topology/Hausdorff Space.md",
+    "Topology/Product Topology.md",
+    "Topology/Connected Space.md",
+    "Topology/Compact Space.md",
+    "Topology/Ultrafilter.md",
+    "Topology/Topology of Pointwise and Uniform Convergence.md",
+    "Topology/Locally Compact Hausdorff Space.md",
     "Analysis/Product Space.md",
     "Topology/Locally Connected Space.md",
     "Topology/Locally Compact Space.md",
     "Topology/Complete Space.md",
-    "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Compact Space.md",
     "Topology/Uniform Structure.md",
-    "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Lie Group/Topological Group.md",
     "Topology/Filter.md",
-    "Topology/Connected Space.md",
-    "Topology/Ultrafilter.md",
     "Topology/Base of Topology.md",
     "Topology/Local Base of Topology.md",
-    "Topology/Interior and Closure.md",
-    "Topology/Hausdorff Space.md",
     "Topology/Continuous Function.md",
     "Courses/Topology/Topology Roadmap.md",
     "Differential Geometry/Topological Manifold.md",
@@ -314,7 +290,6 @@
     "Algebra/Separable Extension.md",
     "Algebra/Exponent of a Group.md",
     "Algebra/Field Extension.md",
-    "Algebra/Algebraic and Transcendental Element.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
