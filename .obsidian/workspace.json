@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Topology/Contractible Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -75,6 +75,18 @@
             }
           },
           {
+            "id": "1b5c8a338023b691",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Contractible Space.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "d6459014f362e986",
             "type": "leaf",
             "state": {
@@ -92,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topology of Compact Convergence.md",
+                "file": "Topology/Simply Connected Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -213,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Contractible Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Contractible Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact Space.md"
+                "file": "Topology/Contractible Space.md"
               }
             }
           }
@@ -275,17 +287,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d6459014f362e986",
+  "active": "d4413ae7344c274a",
   "lastOpenFiles": [
-    "Topology/Normal Space.md",
     "Topology/Compact-Open Topology.md",
+    "Topology/Contractible Space.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Simply Connected Space.md",
     "Topology/Topology of Compact Convergence.md",
+    "Topology/Compact Space.md",
+    "Topology/Normal Space.md",
     "Topology/Product Topology.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
-    "Topology/Compact Space.md",
     "Topology/Locally Compact Space.md",
     "Topology/Connected Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Interior and Closure.md",
     "Topology/Hausdorff Space.md",
     "Topology/Ultrafilter.md",
@@ -301,8 +315,6 @@
     "Topology/Continuous Function.md",
     "Differential Geometry/Topological Manifold.md",
     "Topology/Topological Space.md",
-    "Algebra/Algebraic Closure.md",
-    "Algebra/Finite Field.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

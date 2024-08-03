@@ -46,7 +46,7 @@
 > [!proof]-
 > Assume that $S^1$ is contractible let $h$ be the homotopy with $h(x,0)=x$ and $h(x,1)=x_{0}\in S^1$ for all $x\in S^1$. By composing it with a rotation, we may assume that $x_{0}=-1$. 
 > 
-> Then, the map: $$\begin{array}{cccc} {\varphi:}&{S^1 \backslash\{ -1 \}}&\to&{(-\pi,\pi)}\\&{z} &\mapsto & {\text{arg}(z)}\\&{e^{it}} &\gets & {t} \end{array}{}$$is a homeomorphism.
+> Notice that the map: $$\begin{array}{cccc} {\varphi:}&{S^1 \backslash\{ -1 \}}&\to&{(-\pi,\pi)}\\&{z} &\mapsto & {\text{arg}(z)}\\&{e^{it}} &\gets & {t} \end{array}{}$$is a homeomorphism.
 > 
 > We claim that there exists a continuous function $\tilde{f_{0}}:S^1\to \mathbb{R}$ s.t. $\text{id}_{S^1}=\exp(i\tilde{f_{0}})$. Let $$\begin{array}{cccc} {f_{t}:}&{S^1}&\to&{S^1}\\&{x} &\mapsto & {h(x,t)} \end{array}{}$$As $S^1\times [0,1]$ is compact, $h$ is uniformly continuous and we can find $k\geq 1$ s.t. for any $s,t\in [0,1]$, if  $\left| s-t \right|\leq \frac{1}{ k}$ then: $$\left| h(x,t)-h(x,s) \right| =\left| f_{t}(x)-f_{s}(x) \right| <2, \quad \forall x\in S^1$$Therefore, $f_{t} / f_{s}:S^1\to S^1 \backslash \{ -1 \}$. Now we show the claim via induction on $j$ for $0\leq j\leq k$. Firstly, $f_{1}$ is a constant function and hence there exists $\tilde{f}_{1}$ s.t. $f_{1}=\exp(i\tilde{f}_{1})$.
 > 
