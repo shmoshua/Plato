@@ -80,19 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Contractible Space.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d6459014f362e986",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Homotopy.md",
                 "mode": "preview",
                 "source": true
               }
@@ -104,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Topology/Path-Connected Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -159,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Topology/Path-Connected Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Topology/Path-Connected Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Contractible Space.md"
+                "file": "Topology/Path-Connected Space.md"
               }
             }
           }
@@ -287,14 +275,16 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d4413ae7344c274a",
+  "active": "4e791ac932b496c3",
   "lastOpenFiles": [
-    "Topology/Compact-Open Topology.md",
-    "Topology/Contractible Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Topology/Simply Connected Space.md",
-    "Topology/Topology of Compact Convergence.md",
+    "Topology/Homotopy.md",
+    "Topology/Cantor Space.md",
     "Topology/Compact Space.md",
+    "Topology/Contractible Space.md",
+    "Topology/Compact-Open Topology.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Topology of Compact Convergence.md",
     "Topology/Normal Space.md",
     "Topology/Product Topology.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
@@ -313,8 +303,6 @@
     "Topology/Base of Topology.md",
     "Topology/Local Base of Topology.md",
     "Topology/Continuous Function.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Topology/Topological Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
