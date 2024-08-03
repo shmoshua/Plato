@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Filter.md",
+                "file": "Topology/Uniform Structure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -135,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Topology/Uniform Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Topology/Uniform Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Connected Space.md"
+                "file": "Topology/Uniform Structure.md"
               }
             }
           }
@@ -263,11 +263,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "a94ec009e8d5cb7c",
+  "active": "e9fdcd8fc528231f",
   "lastOpenFiles": [
+    "Topology/Filter.md",
     "Topology/Connected Space.md",
     "Topology/Ultrafilter.md",
-    "Topology/Filter.md",
     "Topology/Base of Topology.md",
     "Topology/Compact Space.md",
     "Topology/Local Base of Topology.md",
