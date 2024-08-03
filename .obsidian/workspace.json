@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Lift.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e779961241a6cf67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Simply Connected Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -75,12 +87,24 @@
             }
           },
           {
+            "id": "fe6d309dafc984af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Lift.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "1c2db62226f74fb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Simply Connected Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -92,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -116,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Topology/Path.md",
                 "mode": "preview",
                 "source": true
               }
@@ -225,7 +249,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Lift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +266,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Lift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Covering Space.md"
+                "file": "Topology/Lift.md"
               }
             }
           }
@@ -287,17 +311,19 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "d4413ae7344c274a",
+  "active": "fe6d309dafc984af",
   "lastOpenFiles": [
+    "Topology/Simply Connected Space.md",
+    "Topology/Lift.md",
+    "Topology/Path.md",
     "Topology/Fundamental Group.md",
-    "Topology/Connected Space.md",
-    "Topology/Covering Space.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/Contractible Space.md",
+    "Topology/Covering Space.md",
     "Topology/Homotopy.md",
+    "Topology/Connected Space.md",
+    "Topology/Contractible Space.md",
     "Topology/Path-Connected Space.md",
     "Topology/Product Topology.md",
-    "Topology/Simply Connected Space.md",
     "Topology/Cantor Space.md",
     "Topology/Compact Space.md",
     "Topology/Compact-Open Topology.md",
@@ -313,8 +339,6 @@
     "Topology/Locally Connected Space.md",
     "Topology/Complete Space.md",
     "Topology/Uniform Structure.md",
-    "Lie Group/Topological Group.md",
-    "Topology/Filter.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
