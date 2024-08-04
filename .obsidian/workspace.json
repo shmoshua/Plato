@@ -200,7 +200,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Courses/Topology/Exercise Sheet 7.md",
                 "mode": "preview",
                 "source": true
               }
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Courses/Topology/Exercise Sheet 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Hausdorff Space.md",
+                "file": "Courses/Topology/Exercise Sheet 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Hausdorff Space.md"
+                "file": "Courses/Topology/Exercise Sheet 7.md"
               }
             }
           }
@@ -337,6 +337,10 @@
   },
   "active": "585265aff02c238a",
   "lastOpenFiles": [
+    "Courses/Topology/Exercise Sheet 6.md",
+    "Topology/Filter.md",
+    "Topology/Ultrafilter.md",
+    "Topology/Hausdorff Space.md",
     "Topology/Interior and Closure.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Topological Space.md",
@@ -359,10 +363,6 @@
     "Topology/Path.md",
     "Topology/Compact Space.md",
     "Topology/Product Topology.md",
-    "Topology/Dense Subset.md",
-    "Topology/Semi-Locally Simply Connected Space.md",
-    "Topology/Path-Connected Space.md",
-    "Algebra/Properly Discontinuous Action.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
