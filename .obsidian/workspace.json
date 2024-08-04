@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Topology/Compact Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Topology/Compact Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Simply Connected Space.md"
+                "file": "Topology/Compact Space.md"
               }
             }
           }
@@ -325,13 +325,15 @@
   },
   "active": "4e791ac932b496c3",
   "lastOpenFiles": [
+    "Topology/Interior and Closure.md",
+    "Topology/Dense Subset.md",
+    "Topology/Simply Connected Space.md",
     "Topology/Connected Space.md",
     "Topology/Lift.md",
     "Topology/Covering Space.md",
     "Topology/Compact Space.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Topology/Path-Connected Space.md",
-    "Topology/Simply Connected Space.md",
     "Algebra/Properly Discontinuous Action.md",
     "Topology/Base of Topology.md",
     "Topology/Universal Cover.md",
@@ -349,8 +351,6 @@
     "Topology/Normal Space.md",
     "Topology/Topology of Pointwise and Uniform Convergence.md",
     "Topology/Locally Compact Space.md",
-    "Topology/Interior and Closure.md",
-    "Topology/Hausdorff Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
