@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Topology/Path.md",
                 "mode": "preview",
                 "source": true
               }
@@ -207,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Complex Polynomials.md",
+                "file": "Topology/Path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Complex Polynomials.md",
+                "file": "Topology/Path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Complex Polynomials.md"
+                "file": "Topology/Path.md"
               }
             }
           }
@@ -335,19 +335,20 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "465f55a9b6c05e4f",
+  "active": "fe6d309dafc984af",
   "lastOpenFiles": [
+    "Topology/Fundamental Group.md",
+    "Topology/Path.md",
+    "Topology/Lift.md",
+    "Algebra/Complex Polynomials.md",
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Simply Connected Space.md",
     "Topology/Covering Space.md",
     "Topology/Locally Path-Connected Space.md",
     "Topology/Semi-Locally Simply Connected Space.md",
-    "Topology/Lift.md",
     "Topology/Universal Cover.md",
     "Topology/Path-Connected Space.md",
-    "Topology/Path.md",
     "Topology/Contractible Space.md",
-    "Topology/Fundamental Group.md",
     "Topology/Homotopy.md",
     "Topology/Connected Space.md",
     "Topology/Product Topology.md",
@@ -362,7 +363,6 @@
     "Topology/Hausdorff Space.md",
     "Topology/Ultrafilter.md",
     "Topology/Locally Compact Hausdorff Space.md",
-    "Analysis/Product Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
