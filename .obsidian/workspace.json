@@ -188,7 +188,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Local Base of Topology.md",
                 "mode": "preview",
                 "source": true
               }
@@ -200,14 +200,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Space.md",
+                "file": "Topology/Hausdorff Space.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 5.md",
+                "file": "Topology/Hausdorff Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 5.md",
+                "file": "Topology/Hausdorff Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 5.md"
+                "file": "Topology/Hausdorff Space.md"
               }
             }
           }
@@ -335,34 +335,34 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "33249a25563c91b4",
+  "active": "585265aff02c238a",
   "lastOpenFiles": [
-    "Courses/Topology/Exercise Sheet 4.md",
+    "Topology/Interior and Closure.md",
+    "Analysis/Convergence of Sequences.md",
+    "Topology/Topological Space.md",
+    "Topology/Local Base of Topology.md",
+    "Topology/Continuous Function.md",
+    "Topology/Connected Space.md",
+    "Topology/Covering Space.md",
     "Topology/Metric Space.md",
+    "Courses/Topology/Exercise Sheet 5.md",
+    "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Cantor Space.md",
     "Topology/Universal Cover.md",
-    "Topology/Covering Space.md",
     "Topology/Lift.md",
     "covering of a simply connected space is bijective.md",
     "Topology/Simply Connected Space.md",
     "Topology/Homotopy.md",
     "Topology/Compact-Open Topology.md",
     "Topology/Contractible Space.md",
-    "Topology/Connected Space.md",
     "Topology/Base of Topology.md",
     "Topology/Path.md",
     "Topology/Compact Space.md",
     "Topology/Product Topology.md",
-    "Topology/Interior and Closure.md",
     "Topology/Dense Subset.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Topology/Path-Connected Space.md",
     "Algebra/Properly Discontinuous Action.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Algebra/Complex Polynomials.md",
-    "Topology/Locally Path-Connected Space.md",
-    "Topology/Fundamental Group.md",
-    "Topology/Topology of Compact Convergence.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
