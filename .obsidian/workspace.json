@@ -200,7 +200,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Topology/Covering Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md",
+                "file": "Topology/Covering Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Topology/Exercise Sheet 11.md"
+                "file": "Topology/Covering Space.md"
               }
             }
           }
@@ -337,6 +337,9 @@
   },
   "active": "585265aff02c238a",
   "lastOpenFiles": [
+    "Topology/Local Homeomorphism.md",
+    "Courses/Topology/Exercise Sheet 12.md",
+    "Courses/Topology/Exercise Sheet 11.md",
     "Courses/Topology/Exercise Sheet 10.md",
     "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 8.md",
@@ -360,9 +363,6 @@
     "Topology/Lift.md",
     "covering of a simply connected space is bijective.md",
     "Topology/Simply Connected Space.md",
-    "Topology/Homotopy.md",
-    "Topology/Compact-Open Topology.md",
-    "Topology/Contractible Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
