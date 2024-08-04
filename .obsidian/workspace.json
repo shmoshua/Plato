@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path.md",
+                "file": "Topology/Simply Connected Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -195,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -262,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Topology/Simply Connected Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Contractible Space.md",
+                "file": "Topology/Simply Connected Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Contractible Space.md"
+                "file": "Topology/Simply Connected Space.md"
               }
             }
           }
@@ -324,26 +324,26 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "4e791ac932b496c3",
+  "active": "fe6d309dafc984af",
   "lastOpenFiles": [
-    "Topology/Compact-Open Topology.md",
+    "Topology/Path.md",
+    "Topology/Connected Space.md",
+    "Topology/Base of Topology.md",
     "Topology/Contractible Space.md",
+    "Topology/Compact-Open Topology.md",
     "Topology/Compact Space.md",
     "Topology/Product Topology.md",
     "Topology/Covering Space.md",
     "Topology/Interior and Closure.md",
     "Topology/Dense Subset.md",
     "Topology/Simply Connected Space.md",
-    "Topology/Connected Space.md",
     "Topology/Lift.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Topology/Path-Connected Space.md",
     "Algebra/Properly Discontinuous Action.md",
-    "Topology/Base of Topology.md",
     "Topology/Universal Cover.md",
     "Courses/Topology/Topology Roadmap.md",
     "Algebra/Complex Polynomials.md",
-    "Topology/Path.md",
     "Topology/Locally Path-Connected Space.md",
     "Topology/Fundamental Group.md",
     "Topology/Homotopy.md",
