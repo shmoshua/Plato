@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Contractible Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -195,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -262,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Topology/Contractible Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Compact-Open Topology.md",
+                "file": "Topology/Contractible Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Compact-Open Topology.md"
+                "file": "Topology/Contractible Space.md"
               }
             }
           }
@@ -324,10 +324,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1b5c8a338023b691",
+  "active": "4e791ac932b496c3",
   "lastOpenFiles": [
-    "Topology/Compact Space.md",
     "Topology/Compact-Open Topology.md",
+    "Topology/Contractible Space.md",
+    "Topology/Compact Space.md",
     "Topology/Product Topology.md",
     "Topology/Covering Space.md",
     "Topology/Interior and Closure.md",
@@ -345,7 +346,6 @@
     "Topology/Path.md",
     "Topology/Locally Path-Connected Space.md",
     "Topology/Fundamental Group.md",
-    "Topology/Contractible Space.md",
     "Topology/Homotopy.md",
     "Topology/Cantor Space.md",
     "Topology/Topology of Compact Convergence.md",
