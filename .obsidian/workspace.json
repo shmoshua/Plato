@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Universal Cover.md",
                 "mode": "source",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Connected Space.md",
+                "file": "Topology/Universal Cover.md",
                 "mode": "preview",
                 "source": true
               }
@@ -207,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Universal Cover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Universal Cover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Covering Space.md"
+                "file": "Topology/Universal Cover.md"
               }
             }
           }
@@ -335,11 +335,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1b5c8a338023b691",
+  "active": "111f42c0d457d79b",
   "lastOpenFiles": [
+    "Topology/Covering Space.md",
+    "Topology/Universal Cover.md",
+    "Topology/Connected Space.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Topology/Simply Connected Space.md",
-    "Topology/Covering Space.md",
     "Topology/Local Homeomorphism.md",
     "Courses/Topology/Exercise Sheet 12.md",
     "Courses/Topology/Exercise Sheet 11.md",
@@ -356,12 +358,10 @@
     "Topology/Topological Space.md",
     "Topology/Local Base of Topology.md",
     "Topology/Continuous Function.md",
-    "Topology/Connected Space.md",
     "Topology/Metric Space.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Cantor Space.md",
-    "Topology/Universal Cover.md",
     "Topology/Lift.md",
     "Complex Analysis",
     "Algebra/Untitled",
