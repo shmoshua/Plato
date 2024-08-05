@@ -135,24 +135,12 @@
             }
           },
           {
-            "id": "33249a25563c91b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Normal Space.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "e9fdcd8fc528231f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Semi-Locally Simply Connected Space.md",
+                "file": "Topology/Normal Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -323,22 +311,26 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "33249a25563c91b4",
+  "active": "e9fdcd8fc528231f",
   "lastOpenFiles": [
+    "Topology/Semi-Locally Simply Connected Space.md",
+    "Topology/Ultrafilter.md",
+    "Topology/Product Topology.md",
+    "Topology/Lift.md",
+    "Topology/Uniform Structure.md",
+    "Topology/Fundamental Group.md",
+    "Topology/Normal Space.md",
+    "Topology/Filter.md",
+    "Topology/Interior and Closure.md",
     "Topology/Cantor Space.md",
     "Topology/Locally Connected Space.md",
-    "Topology/Uniform Structure.md",
     "Topology/Connected Space.md",
     "Topology/Universal Cover.md",
-    "Topology/Ultrafilter.md",
     "Topology/Compact Space.md",
     "Topology/Covering Space.md",
-    "Topology/Filter.md",
     "Courses/Topology/Exercise Sheet 5.md",
-    "Topology/Interior and Closure.md",
     "Topology/Metric Space.md",
     "Topology/Base of Topology.md",
-    "Topology/Semi-Locally Simply Connected Space.md",
     "Topology/Simply Connected Space.md",
     "Topology/Local Homeomorphism.md",
     "Courses/Topology/Exercise Sheet 12.md",
@@ -347,10 +339,6 @@
     "Courses/Topology/Exercise Sheet 9.md",
     "Courses/Topology/Exercise Sheet 8.md",
     "Courses/Topology/Exercise Sheet 7.md",
-    "Courses/Topology/Exercise Sheet 6.md",
-    "Topology/Hausdorff Space.md",
-    "Analysis/Convergence of Sequences.md",
-    "Topology/Topological Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
