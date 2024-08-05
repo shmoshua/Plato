@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Simply Connected Space.md",
+                "file": "Topology/Semi-Locally Simply Connected Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -207,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -335,8 +335,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "585265aff02c238a",
+  "active": "1b5c8a338023b691",
   "lastOpenFiles": [
+    "Topology/Semi-Locally Simply Connected Space.md",
+    "Topology/Simply Connected Space.md",
+    "Topology/Covering Space.md",
     "Topology/Local Homeomorphism.md",
     "Courses/Topology/Exercise Sheet 12.md",
     "Courses/Topology/Exercise Sheet 11.md",
@@ -354,15 +357,12 @@
     "Topology/Local Base of Topology.md",
     "Topology/Continuous Function.md",
     "Topology/Connected Space.md",
-    "Topology/Covering Space.md",
     "Topology/Metric Space.md",
     "Courses/Topology/Exercise Sheet 5.md",
     "Courses/Topology/Exercise Sheet 4.md",
     "Topology/Cantor Space.md",
     "Topology/Universal Cover.md",
     "Topology/Lift.md",
-    "covering of a simply connected space is bijective.md",
-    "Topology/Simply Connected Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
