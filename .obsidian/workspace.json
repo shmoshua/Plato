@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Universal Cover.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -273,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Universal Cover.md",
+                "file": "Topology/Covering Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Universal Cover.md",
+                "file": "Topology/Covering Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +313,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Universal Cover.md"
+                "file": "Topology/Covering Space.md"
               }
             }
           }
@@ -335,10 +335,10 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "111f42c0d457d79b",
+  "active": "beb5f87fe864826d",
   "lastOpenFiles": [
-    "Topology/Covering Space.md",
     "Topology/Universal Cover.md",
+    "Topology/Covering Space.md",
     "Topology/Connected Space.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Topology/Simply Connected Space.md",
