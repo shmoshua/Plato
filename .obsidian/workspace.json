@@ -140,7 +140,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Connected Space.md",
+                "file": "Topology/Normal Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Locally Connected Space.md",
+                "file": "Topology/Normal Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Locally Connected Space.md",
+                "file": "Topology/Normal Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Locally Connected Space.md"
+                "file": "Topology/Normal Space.md"
               }
             }
           }
@@ -325,6 +325,8 @@
   },
   "active": "33249a25563c91b4",
   "lastOpenFiles": [
+    "Topology/Cantor Space.md",
+    "Topology/Locally Connected Space.md",
     "Topology/Uniform Structure.md",
     "Topology/Connected Space.md",
     "Topology/Universal Cover.md",
@@ -349,8 +351,6 @@
     "Topology/Hausdorff Space.md",
     "Analysis/Convergence of Sequences.md",
     "Topology/Topological Space.md",
-    "Topology/Local Base of Topology.md",
-    "Topology/Continuous Function.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
