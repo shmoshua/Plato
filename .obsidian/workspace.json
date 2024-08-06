@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Radical Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Radical Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Discriminant.md",
+                "file": "Algebra/Radical Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Discriminant.md"
+                "file": "Algebra/Radical Extension.md"
               }
             }
           }
@@ -204,6 +204,9 @@
   },
   "active": "1e510f93e2d54022",
   "lastOpenFiles": [
+    "Algebra/Cyclotomic Polynomial.md",
+    "Algebra/Cyclotomic Extension.md",
+    "Algebra/Discriminant.md",
     "Algebra/Splitting Field.md",
     "Algebra/Normal Extension.md",
     "Algebra/Galois Correspondence.md",
@@ -227,9 +230,6 @@
     "Topology/Product Topology.md",
     "Topology/Lift.md",
     "Topology/Uniform Structure.md",
-    "Topology/Fundamental Group.md",
-    "Topology/Cantor Space.md",
-    "Topology/Locally Connected Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
