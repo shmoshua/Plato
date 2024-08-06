@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Algebra/Galois Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -61,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Galois Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Galois Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Group.md"
+                "file": "Algebra/Galois Extension.md"
               }
             }
           }
@@ -189,12 +190,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "585265aff02c238a",
+  "active": "1e510f93e2d54022",
   "lastOpenFiles": [
-    "Algebra/Fixed Field.md",
-    "Algebra/Galois Group.md",
-    "Representation Theory/Character.md",
     "Algebra/Separable Extension.md",
+    "Algebra/Galois Group.md",
+    "Algebra/Fixed Field.md",
+    "Representation Theory/Character.md",
     "Algebra/Finite Field.md",
     "Algebra/Galois Correspondence.md",
     "Topology/Separable Space.md",
