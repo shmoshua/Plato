@@ -55,14 +55,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Fixed Field.md",
+                "file": "Algebra/Splitting Field.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Splitting Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Galois Extension.md",
+                "file": "Algebra/Splitting Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Galois Extension.md"
+                "file": "Algebra/Splitting Field.md"
               }
             }
           }
@@ -190,11 +190,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1e510f93e2d54022",
+  "active": "a2ff2a9c6d995ba2",
   "lastOpenFiles": [
+    "Algebra/Fixed Field.md",
+    "Algebra/Galois Extension.md",
     "Algebra/Separable Extension.md",
     "Algebra/Galois Group.md",
-    "Algebra/Fixed Field.md",
     "Representation Theory/Character.md",
     "Algebra/Finite Field.md",
     "Algebra/Galois Correspondence.md",
@@ -217,7 +218,6 @@
     "Topology/Connected Space.md",
     "Topology/Universal Cover.md",
     "Topology/Compact Space.md",
-    "Courses/Topology/Exercise Sheet 5.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
