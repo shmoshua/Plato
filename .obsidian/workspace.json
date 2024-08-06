@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Torsion Module.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Algebra/Unique Factorization Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Free Module.md"
+                "file": "Algebra/Unique Factorization Domain.md"
               }
             }
           }
@@ -213,12 +214,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "585265aff02c238a",
+  "active": "947b257bd7732cd8",
   "lastOpenFiles": [
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Torsion Module.md",
-    "Algebra/Cyclotomic Polynomial.md",
+    "Algebra/Principal Ideal Domain.md",
     "Algebra/Free Module.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Module.md",
     "Algebra/Radical Extension.md",
     "Algebra/Galois Correspondence.md",
@@ -240,7 +242,6 @@
     "Topology/Ultrafilter.md",
     "Topology/Filter.md",
     "Topology/Interior and Closure.md",
-    "Topology/Semi-Locally Simply Connected Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
