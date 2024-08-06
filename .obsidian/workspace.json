@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Courses/Algebra II/Algebra II Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md"
+                "file": "Courses/Algebra II/Algebra II Roadmap.md"
               }
             }
           }
@@ -214,10 +214,12 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "947b257bd7732cd8",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Algebra/Torsion Module.md",
+    "Algebra/Field Extension.md",
+    "Algebra/Unique Factorization Domain.md",
     "Algebra/Principal Ideal Domain.md",
+    "Algebra/Torsion Module.md",
     "Algebra/Free Module.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Cyclotomic Polynomial.md",
@@ -240,8 +242,6 @@
     "Topology/Local Base of Topology.md",
     "Topology/Normal Space.md",
     "Topology/Ultrafilter.md",
-    "Topology/Filter.md",
-    "Topology/Interior and Closure.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
