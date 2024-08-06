@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Field Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Field Extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md",
+                "file": "Algebra/Field Extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebra II/Algebra II Roadmap.md"
+                "file": "Algebra/Field Extension.md"
               }
             }
           }
@@ -214,14 +213,14 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "585265aff02c238a",
   "lastOpenFiles": [
-    "Algebra/Field Extension.md",
-    "Algebra/Unique Factorization Domain.md",
     "Algebra/Principal Ideal Domain.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Field Extension.md",
     "Algebra/Torsion Module.md",
     "Algebra/Free Module.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Module.md",
     "Algebra/Radical Extension.md",
