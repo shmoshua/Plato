@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Discriminant.md",
                 "mode": "preview",
                 "source": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Discriminant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Discriminant.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Splitting Field.md"
+                "file": "Algebra/Discriminant.md"
               }
             }
           }
@@ -204,12 +204,12 @@
   },
   "active": "1e510f93e2d54022",
   "lastOpenFiles": [
+    "Algebra/Splitting Field.md",
     "Algebra/Normal Extension.md",
     "Algebra/Galois Correspondence.md",
     "Algebra/Normal Closure.md",
     "Algebra/Galois Group.md",
     "Algebra/Galois Extension.md",
-    "Algebra/Splitting Field.md",
     "Algebra/Fixed Field.md",
     "Algebra/Separable Extension.md",
     "Representation Theory/Character.md",
