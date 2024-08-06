@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Correspondence.md",
+                "file": "Representation Theory/Character.md",
                 "mode": "preview",
                 "source": true
               }
@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Representation Theory/Character.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Separable Extension.md",
+                "file": "Representation Theory/Character.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Separable Extension.md"
+                "file": "Representation Theory/Character.md"
               }
             }
           }
@@ -190,11 +190,13 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1e510f93e2d54022",
+  "active": "29dce25b39018e3f",
   "lastOpenFiles": [
-    "Topology/Separable Space.md",
-    "Algebra/Galois Correspondence.md",
+    "Algebra/Finite Field.md",
     "Algebra/Galois Group.md",
+    "Algebra/Galois Correspondence.md",
+    "Algebra/Separable Extension.md",
+    "Topology/Separable Space.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Topology/Covering Space.md",
     "Topology/Local Base of Topology.md",
@@ -216,8 +218,6 @@
     "Courses/Topology/Exercise Sheet 5.md",
     "Topology/Metric Space.md",
     "Topology/Base of Topology.md",
-    "Topology/Simply Connected Space.md",
-    "Topology/Local Homeomorphism.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
