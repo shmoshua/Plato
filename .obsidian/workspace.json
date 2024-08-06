@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Galois Group.md",
+                "file": "Algebra/Radical Extension.md",
                 "mode": "preview",
                 "source": true
               }
@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Radical Extension.md",
+                "file": "Algebra/Cyclotomic Polynomial.md",
                 "mode": "preview",
                 "source": true
               }
@@ -73,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,23 +201,24 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "1e510f93e2d54022",
+  "active": "585265aff02c238a",
   "lastOpenFiles": [
     "Algebra/Cyclotomic Polynomial.md",
+    "Algebra/Radical Extension.md",
+    "Algebra/Galois Correspondence.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Galois Group.md",
     "Algebra/Cyclotomic Extension.md",
     "Algebra/Discriminant.md",
     "Algebra/Splitting Field.md",
     "Algebra/Normal Extension.md",
-    "Algebra/Galois Correspondence.md",
     "Algebra/Normal Closure.md",
-    "Algebra/Galois Group.md",
     "Algebra/Galois Extension.md",
     "Algebra/Fixed Field.md",
     "Algebra/Separable Extension.md",
     "Representation Theory/Character.md",
     "Algebra/Finite Field.md",
     "Topology/Separable Space.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Topology/Covering Space.md",
     "Topology/Local Base of Topology.md",
     "Topology/Normal Space.md",
@@ -229,7 +229,6 @@
     "Courses/Topology/Topology Roadmap.md",
     "Topology/Product Topology.md",
     "Topology/Lift.md",
-    "Topology/Uniform Structure.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
