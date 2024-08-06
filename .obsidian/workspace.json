@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Normal Closure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Normal Closure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Splitting Field.md",
+                "file": "Algebra/Normal Closure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Splitting Field.md"
+                "file": "Algebra/Normal Closure.md"
               }
             }
           }
@@ -192,6 +192,8 @@
   },
   "active": "a2ff2a9c6d995ba2",
   "lastOpenFiles": [
+    "Algebra/Normal Extension.md",
+    "Algebra/Splitting Field.md",
     "Algebra/Fixed Field.md",
     "Algebra/Galois Extension.md",
     "Algebra/Separable Extension.md",
@@ -216,8 +218,6 @@
     "Topology/Cantor Space.md",
     "Topology/Locally Connected Space.md",
     "Topology/Connected Space.md",
-    "Topology/Universal Cover.md",
-    "Topology/Compact Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
