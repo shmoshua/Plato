@@ -31,7 +31,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Radical Extension.md",
+                "file": "Algebra/Free Module.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "947b257bd7732cd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Torsion Module.md",
                 "mode": "preview",
                 "source": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Radical Extension.md",
+                "file": "Algebra/Free Module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Radical Extension.md",
+                "file": "Algebra/Free Module.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Radical Extension.md"
+                "file": "Algebra/Free Module.md"
               }
             }
           }
@@ -203,10 +215,13 @@
   },
   "active": "585265aff02c238a",
   "lastOpenFiles": [
+    "Courses/Algebra II/Algebra II Roadmap.md",
+    "Algebra/Torsion Module.md",
     "Algebra/Cyclotomic Polynomial.md",
+    "Algebra/Free Module.md",
+    "Algebra/Module.md",
     "Algebra/Radical Extension.md",
     "Algebra/Galois Correspondence.md",
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Galois Group.md",
     "Algebra/Cyclotomic Extension.md",
     "Algebra/Discriminant.md",
@@ -226,9 +241,6 @@
     "Topology/Filter.md",
     "Topology/Interior and Closure.md",
     "Topology/Semi-Locally Simply Connected Space.md",
-    "Courses/Topology/Topology Roadmap.md",
-    "Topology/Product Topology.md",
-    "Topology/Lift.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
