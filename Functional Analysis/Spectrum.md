@@ -26,7 +26,7 @@
 > 1. $e-x$ is invertible and
 > 2. $(e-x)^{-1}=\sum_{n=0}^{\infty}x^n$ where $x^0=e$, as an absolutely convergent series.
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. **Showing the series is absolutely convergent**: 
 >    Pick $r_{A}(x)<q<1$. Then, as $r_{A}(x)=\lim_{ n \to \infty }\|x^n\|^{1/n}$, there exists $N\geq 1$ such that $\|x^n\|^{1/n}\leq q$ for all $n\geq N$, i.e. $\|x^n\|\leq q^n$. Therefore, $$\sum_{n=N}^{\infty}\left\| x^n \right\| \leq \sum_{n=N}^{\infty}q^n= \frac{q^N}{1-q}$$is absolutely convergent, (hence convergent)
