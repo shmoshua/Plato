@@ -30,9 +30,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "b02bec91b3ab25fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/C*-Algebra.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -51,12 +63,72 @@
             }
           },
           {
+            "id": "0568002c17eb12ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Banach Algebra.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9f7edd37101cd0a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Banach Algebra.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3efb309fee52dd23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/C*-Algebra.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "54578893551d7504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "11f46caf04620d55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C-Algebra.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 1.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a255311cbeaa0703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Ideal (Lie Algebra).md",
                 "mode": "preview",
                 "source": true
               }
@@ -129,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/C-Algebra.md",
+                "file": "Functional Analysis/Banach Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/C-Algebra.md",
+                "file": "Functional Analysis/Banach Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/C-Algebra.md"
+                "file": "Functional Analysis/Banach Algebra.md"
               }
             }
           }
@@ -188,13 +260,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "3d-graph:3D Graph": false
+      "3d-graph:3D Graph": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1a1033581320dc19",
+  "active": "0568002c17eb12ca",
   "lastOpenFiles": [
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Banach Algebra.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Functional Analysis/C-Algebra.md",
+    "Lie Group/Ideal (Lie Algebra).md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Galois Correspondence.md",
     "Algebra/Galois Extension.md",
@@ -214,11 +293,6 @@
     "Algebra/Normal Closure.md",
     "Algebra/Fixed Field.md",
     "Algebra/Separable Extension.md",
-    "Representation Theory/Character.md",
-    "Algebra/Finite Field.md",
-    "Topology/Separable Space.md",
-    "Topology/Covering Space.md",
-    "Topology/Local Base of Topology.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

@@ -87,7 +87,7 @@
 ---
 ##### Examples
 > [!h] Example 0
-> Let $A$ be an involutive Banach algebra. We have that $A_{I}$ is an involutive Banach algebra with$$(x,\lambda)^{*}:=(x^{*},\overline{\lambda})$$
+> Let $A$ be an involutive Banach algebra. We have that $A_{I}$ is an involutive Banach algebra with $$(x,\lambda)^{*}:=(x^{*},\overline{\lambda})$$
 ---
 > [!h] Example 1
 > For a [[locally compact Hausdorff space]] $X$, Then, 
