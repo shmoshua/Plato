@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "1a1033581320dc19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/C-Algebra.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -36,8 +49,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "11f46caf04620d55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/C-Algebra.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Functional Analysis/C-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Functional Analysis/C-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md"
+                "file": "Functional Analysis/C-Algebra.md"
               }
             }
           }
@@ -165,10 +191,11 @@
       "3d-graph:3D Graph": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "1a1033581320dc19",
   "lastOpenFiles": [
-    "Courses/Algebra II/Algebra II Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/C-Algebra.md",
+    "Courses/Algebra II/Algebra II Roadmap.md",
     "Algebra/Galois Correspondence.md",
     "Algebra/Galois Extension.md",
     "Algebra/Cyclotomic Polynomial.md",
@@ -192,7 +219,6 @@
     "Topology/Separable Space.md",
     "Topology/Covering Space.md",
     "Topology/Local Base of Topology.md",
-    "Topology/Normal Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
