@@ -8,5 +8,7 @@
   "3d-graph",
   "obsidian-list-callouts",
   "obsidian-git",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "obsidian-to-anki-plugin",
+  "flashcards-obsidian"
 ]
