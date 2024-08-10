@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Banach Algebra.md",
+                "file": "Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 2.md",
+                "file": "Algebra/Linear Algebra/Linear Map.md",
                 "mode": "preview",
                 "source": true
               }
@@ -291,14 +291,16 @@
   },
   "active": "9339142019c86b99",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/Spectrum.md",
-    "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Banach Algebra.md",
+    "Functional Analysis/Spectrum.md",
     "Functional Analysis/Volterra Algebra.md",
-    "Courses/Functional Analysis II/Exercise Sheet 2.md",
-    "Lie Group/Ideal (Lie Algebra).md",
     "Topology/Locally Compact Hausdorff Space.md",
+    "Algebra/Linear Algebra/Linear Map.md",
+    "Functional Analysis/Dual Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Lie Group/Ideal (Lie Algebra).md",
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Functional Analysis/C-Algebra.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
@@ -315,8 +317,6 @@
     "Algebra/Galois Group.md",
     "Algebra/Cyclotomic Extension.md",
     "Algebra/Discriminant.md",
-    "Algebra/Splitting Field.md",
-    "Algebra/Normal Extension.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
