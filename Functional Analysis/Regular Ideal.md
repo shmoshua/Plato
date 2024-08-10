@@ -6,10 +6,10 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $A$ be a commutative [[Banach Algebra]] and $I\subseteq A$ a proper regular ideal. Further, let $u\in A$ be a unit modulo $I$. Then, $$\|u-x\|\geq 1,\quad \forall x\in I$$
+> Let $I\subseteq A$ be a proper regular ideal with $u\in A$ as a unit modulo $I$. Then, $$\|u-x\|\geq 1,\quad \forall x\in I$$
 
 > [!proof]-
-> Assume $x\in I$ s.t. $\|u-x\|<1$. Then, $$s:=\sum_{n=0}^{\infty}(u-x)^n$$converges absolutely by [[Functional Analysis/Spectrum|Lemma 2]].  Now, $$u-x=s-s(u-x)=\underbrace{ us-s }_{\in I }+\underbrace{ sx }_{ \in I }\in I$$ Therefore, $u\in I$ and $A  / I= (0)$. This implies that $I=A$, which is a contradiction. 
+> Assume $x\in I$ s.t. $\|u-x\|<1$. Then, $$s:=\sum_{n=1}^{\infty}(u-x)^n$$converges absolutely by [[Functional Analysis/Spectrum|Lemma 2]].  Now, $$u-x=s-s(u-x)=-\underbrace{ (us-s) }_{\in I }+\underbrace{ sx }_{ \in I }\in I$$ Therefore, $u\in I$ and $A  / I= (0)$. This implies that $I=A$, which is a contradiction. 
 ---
 > [!lemma] Proposition 2
 > Let $I\subseteq A$ be regular and $I\subseteq J\subseteq A$ also an ideal. Then, $J$ is regular as well. 
@@ -33,7 +33,7 @@
 > [!proof]-
 > Let $u\in A$ be a unit modulo $I$. We define: $$\mathcal{L}:=\{ J\subseteq A:I\subseteq J\subseteq A,J\text{ is an ideal}, u\notin J \}$$Let $\mathcal{K}\subseteq \mathcal{L}$ be a totally ordered subset in $\mathcal{L}$. Then, define $L:=\bigcup_{J\subseteq \mathcal{K}}^{}J\supseteq I$. Since $\mathcal{K}$ is totally ordered, $L$ is an ideal of $A$. Also, it is proper as otherwise, $u\in L$ which means $u\in J$ for some $J\in \mathcal{L}$, a contradiction. 
 > 
-> Therefore, by [[Axiom of Choice|Zorn's lemma]], $\mathcal{L}$ has a maximal element. 
+> Therefore, by [[Axiom of Choice|Zorn's lemma]], $\mathcal{L}$ has a maximal element where the regularity follows from Proposition 2.
 ---
 > [!lemma] Corollary 5
 > Let $A$ be a unital commutative [[Banach Algebra]]. If $x\in A$ is not invertible, then $x$ is contained in a maximal ideal.
