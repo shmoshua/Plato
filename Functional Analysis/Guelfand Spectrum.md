@@ -6,6 +6,7 @@
 > 2. the ***Guelfand spectrum*** $\widehat{A}$ of $A$ is defined as the set of characters of $A$.
 
 - **Remark**: Given any $\mathbb{C}$-algebra homomorphism $\varphi:A\to \mathbb{C}$, we can define: $$\begin{array}{cccc} {\varphi_{I}:}&{A\times \mathbb{C}}&\to&{\mathbb{C}}\\&{(x,\lambda)} &\mapsto & {\varphi(x)+\lambda} \end{array}{}$$Then, $\widehat{A_{I}}=\{ \varphi_{I}:\varphi\in \widehat{A} \}\cup \{ \varphi_{\infty} \}$ where $\varphi_{\infty}(x,\lambda)=\lambda$. One also often denotes $\widehat{A_{I}}=\widehat{A}\cup \{ \varphi_\infty \}$.
+- **Related definition**: From Proposition 2, $\widehat{A}\subseteq A^*$ and $\widehat{A}$ can be equipped with the  [[Weak Topology|weak*-topology]] on $A^{*}$, called the ***Guelfand topology***. (cf. Theorem 4)
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -44,6 +45,28 @@
 > 	Now, since $I$ is maximal every $x+I\neq I$ in $A / I$ is invertible. Indeed otherwise, if $x+I \neq I$, where not invertible, $J:=(x+I)A / I\subsetneq A / I$. Then, $$I\subsetneq \pi ^{-1}(J)\subsetneq A$$ corresponding the maximality of $I$.
 > 
 > 	Therefore, by Guelfand-Mazur, $A / I\xrightarrow{\sim}\mathbb{C}$. Now, composing $A\xrightarrow{\pi}A / I\xrightarrow{\sim}\mathbb{C}$, we get a $\mathbb{C}$-algebra homomorphism $\varphi:A\to C$ with $\text{ker }\varphi=I$.
+---
+> [!lemma] Theorem 4 (Guelfand Topology)
+> Let $A$ be a commutative [[Banach Algebra|Banach algebra]]. Then, we have: 
+> 1. $\widehat{A}$ is locally compact Hausdorff w.r.t. Guelfand topology.
+> 2. If $A$ is unital, $\widehat{A}$ is compact.
+> 3. If $A$ is non-unital, $\widehat{A_{I}}$ is the [[one-point compactification]] of $\widehat{A}$.
+
+^a2c505
+
+> [!proof]+
+> Consider the map: $$\begin{array}{cccc} {p:}&{A_{I}:=A\times \mathbb{C}}&\to&{A}\\&{(x,\lambda)} &\mapsto & {x} \end{array}{}$$Then, 
+> 1. $\left\| p \right\|=1$ and 
+> 2. $p^{*}:A^{*}\to(A_{I})^{*}$ is weak*-continuous and injective, by [[Weak Topology|Proposition 3]].
+> 
+> Therefore, $$p^{*}(B_{\leq 1}^{A^{*}}(0))=\{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(0):\varphi((0,1))=0 \}$$By [[Weak Topology|Banach Alagolu]], $B_{\leq 1}^{A^{*}}(0)$ and $B_{\leq 1}^{(A_{I})^{*}}(0)$ are weak\*-compact. Observe that: 
+> $$\{ \varphi\in (A_{I})^{*}:\varphi((0,1))=0 \}$$ is weak\*-closed. As a result: $$p^{*}:B_{\leq 1}^{A^{*}}(0)\to \{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(0):\varphi((0,1))=0 \}$$is a homeomorphism. Therefore, the extension can be characterized as: $$\tilde{\varphi}:=p^{*}(\varphi)+\varphi_{\infty}$$Then, with $\gamma:A^{*}\to(A_{I})^{*},\varphi\mapsto p^{*}(\varphi)+\varphi_{\infty}$, 
+> 1. $\gamma$ is injective and linear.
+> 2. $\gamma$ is continuous in weak\*-topology.
+>    
+>  Therefore, $$\gamma:B_{\leq 1}^{A^{*}}(0)\to \{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(\varphi_{\infty}):\varphi((0,1))=1 \}$$is a homeomorphism. This implies that the image is compact. However, we have: $$\begin{CD} B_{\leq 1}^{A^{*}}(0) @>\gamma>> \{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(\varphi_{\infty}):\varphi((0,1))=1 \}\\ \cup&&\cup\\\hat{A} @>\gamma>> \widehat{A_{I}} \backslash \{ \varphi_{\infty} \}\end{CD}$$
+>  Now, assume that $B$ is a commutative unital Banach algebra. Then, $$\begin{align}\hat{B}&:=\{ \varphi\in B_{\leq 1}^{B^{*}}(0):\varphi(xy)=\varphi(x)\varphi(y),\varphi(e)=1,\quad \forall x,y\in B\}\\&=\{\varphi\in B_{\leq 1}^{B^{*}}(0):\varphi(e)=1 \}\cap\bigcap_{x,y\in B}^{}\{ \varphi\in B_{\leq 1}^{B^{*}}(0):\varphi(xy)=\varphi(x)\varphi(y)\}\end{align}$$which is weak\*-closed. Therefore, $\hat{B}$ is compact. 
+
 ---
 > [!lemma] Theorem 3 (Spectral Theorem)
 > Let $A\subseteq \mathcal{B}(\mathcal{H})$ be an commutative sub-$C^{*}$-algebra containing $\text{id}_{\mathcal{H}}$ and $\widehat{A}$ is Guelfand spectrum. Then, 

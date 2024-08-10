@@ -15,10 +15,11 @@
 > Follows from [[Guelfand Spectrum|Theorem 3]].
 ---
 > [!lemma] Corollary 2
-> Let $A,B$ be commutative [[Banach Algebra|Banach algebras]] with $B$ semi-simple. Then, every $\mathbb{C}$-algebra homomorphism $\varphi:A\to B$ is continuous.
+> Let $A,B$ be commutative [[Banach Algebra|Banach algebras]] with $B$ semi-simple. Then, 
+> 1. every $\mathbb{C}$-algebra homomorphism $\varphi:A\to B$ is continuous.
 
 > [!proof]-
-> Let $x_{n}\to {0}$ in $A$ and assume $\varphi(x_{n})\to b\in B$. Let $\chi\in \hat{B}$, then $\chi \circ\varphi:A\to \mathbb{C}$ is a $\mathbb{C}$-algebra homomorphism so either $\chi \circ\varphi=0$ or $\chi \circ\varphi\in \hat{A}$. From [[Guelfand Spectrum|Proposition 1]], we know that $\chi \circ\varphi$ is continuous.
+> Let $x_{n}\to {0}$ in $A$ and assume $\varphi(x_{n})\to b\in B$. Let $\chi\in \hat{B}$, then $\chi \circ\varphi:A\to \mathbb{C}$ is a $\mathbb{C}$-algebra homomorphism so either $\chi \circ\varphi=0$ or $\chi \circ\varphi\in \hat{A}$. From [[Guelfand Spectrum|Proposition 2]], we know that $\chi \circ\varphi$ is continuous.
 > 
 > Then, $$\chi(b)=\lim_{ n \to \infty } \chi(\varphi(x_{n}))=\lim_{ n \to \infty } (\chi \circ \varphi)(x_{n})=(\chi \circ \varphi)(0)=0$$Therefore, $\chi(b)=0$ for all $\chi\in \hat{B}$ and $B$ is semi-simple, i.e. $\bigcap_{\chi\in \hat{B}}^{}\text{ker }\chi=(0)$ and $b=0$. Now, from the [[Bounded Linear Map|Closed graph theorem]], $\varphi$ is continuous.
 ---
