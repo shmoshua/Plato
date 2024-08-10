@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Regular Ideal.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "mode": "source",
                 "source": true
               }
@@ -75,6 +75,18 @@
             }
           },
           {
+            "id": "2b3a2eaccf710636",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "9339142019c86b99",
             "type": "leaf",
             "state": {
@@ -92,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Functional Analysis/Banach Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -225,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Regular Ideal.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Regular Ideal.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Regular Ideal.md"
+                "file": "Functional Analysis/Guelfand Spectrum.md"
               }
             }
           }
@@ -289,13 +301,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9339142019c86b99",
+  "active": "0f271565bc87f055",
   "lastOpenFiles": [
-    "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Banach Algebra.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Regular Ideal.md",
+    "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Spectrum.md",
-    "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/Volterra Algebra.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Algebra/Linear Algebra/Linear Map.md",
@@ -316,7 +329,6 @@
     "Algebra/Module.md",
     "Algebra/Radical Extension.md",
     "Algebra/Galois Group.md",
-    "Algebra/Cyclotomic Extension.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
