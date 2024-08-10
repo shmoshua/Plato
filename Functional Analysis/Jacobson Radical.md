@@ -2,11 +2,19 @@
 > [!definition]
 > Let $A$ be a commutative [[ring]]. The ***Jacobson radical*** of $A$ is the intersection of all maximal ideals, i.e.
 > $$\text{Rad }A:= \bigcap_{M\in \text{Max } A}^{}M=\bigcap_{\varphi\in \hat{A}}^{}\text{ker }\varphi$$
-> where $\text{Max}(A)$ denotes the set of all maximal ideals. If $\text{Max}(A)= \varnothing$, then $\text{Rad }A=A$.
-- **Related definition**: $A$ is **semisimple** if $\text{Rad}(A)=(0)$. Equivalently, for all $0\neq a\in A$, there exists $\varphi\in \hat{A}$ s.t. $\varphi(a)\neq 0$.
+> where $\text{Max}(A)$ denotes the set of all maximal regular ideals. If $\text{Max}(A)= \varnothing$, then $\text{Rad }A=A$.
+- **Related definition**: $A$ is **semisimple** if $\text{Rad}(A)=(0)$. 
 ---
 ##### Properties
-> [!lemma] Corollary 1
+> [!lemma] Proposition 1
+> Let $A$ be a commutative Banach algebra. Then, 
+> 1. $\text{Rad}(A)=\bigcap_{\varphi\in \widehat{A}}^{}\text{ker }\varphi$
+> 2. $A$ is semisimple if and only if for all $0\neq a\in A$, there exists $\varphi\in \widehat{A}$ s.t. $\varphi(a)\neq 0$.
+
+> [!proof]-
+> Follows from [[Guelfand Spectrum|Theorem 3]].
+---
+> [!lemma] Corollary 2
 > Let $A,B$ be commutative [[Banach Algebra|Banach algebras]] with $B$ semi-simple. Then, every $\mathbb{C}$-algebra homomorphism $\varphi:A\to B$ is continuous.
 
 > [!proof]-

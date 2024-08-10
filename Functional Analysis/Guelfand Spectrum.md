@@ -32,17 +32,18 @@
 > Let $A$ be a commutative [[Banach Algebra]]. Then, 
 > $$\widehat{A}\to \text{Max}(A):=\{ I\subseteq A :I \text{ regular maximal ideal}\},\quad \varphi\mapsto \text{ker }\varphi$$is a bijection.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. **Showing that $\text{ker }\varphi$ is a regular maximal ideal**: 
 >    Let $\varphi\in \widehat{A}$. Then, $\varphi:A\to \mathbb{C}$ is a non-trivial $\mathbb{C}$-algebra homomorphism. Hence, $\text{ker }\varphi$ is a proper ideal. Further, $\varphi(A)=\mathbb{C}$ and therefore there exists $u\in A$ with $\varphi(u)=1$. Then, for all $x\in A$, $ux-x\in \text{ker }\varphi$ which shows that $\text{ker }\varphi$ is regular. Lastly, since $A / \text{ker}(\varphi)\cong \mathbb{C}$, $\text{ker}(\varphi)$ is maximal.
 >  2. **Showing injectivity**: 
->     Assume $I:=\text{ker }\varphi_{1}=\text{ker }\varphi_{2}$ and let $u\in A$ be a unit modulo $I$. Clearly, $u\notin I$ by [[Regular Ideal|Proposition 1]] and since $I$ has codimension 1 in $A$, $A=\mathbb{C}u+I$. Therefore, $\varphi_{1}(u)=\varphi_{2}(u)=1$. It follows that: $$\varphi_{1}(\lambda u+v)=\lambda\varphi_{1}(u)=\lambda=\lambda(\varphi_{2}(u))=\varphi_{2}(\lambda u+v)$$
-> Let $I\subsetneq A$ be maximal regular. By [[Regular Ideal|Corollary 3.2]], $I=\overline{I}$ is closed. Then, by [[Banach Algebra|Proposition 3]], $A / I$ is a Banach algebra and $\pi:A \to A / I$ is a Banach algebra homomorphism. And $A / I$ is a unital banach algebra. Since $I$ is maximal every $x+I!+I$ in $A / I$ is invertible.
+>     Assume $I:=\text{ker }\varphi_{1}=\text{ker }\varphi_{2}$ and let $u\in A$ be a unit modulo $I$. Clearly, $u\notin I$ by [[Regular Ideal|Proposition 1]] and since $I$ has codimension 1 in $A$, $A=\mathbb{C}u+I$. As, $\varphi_{1}(u)=\varphi_{2}(u)=1$, it follows that: $$\varphi_{1}(\lambda u+v)=\lambda\varphi_{1}(u)=\lambda=\lambda(\varphi_{2}(u))=\varphi_{2}(\lambda u+v)$$
+>  3. **Showing surjectivity**:
+> 	Let $I\subsetneq A$ be maximal regular. By [[Regular Ideal|Corollary 3.2]], $I$ is closed. Then, by [[Banach Algebra|Proposition 3]], $A / I$ is a Banach algebra and $\pi:A \to A / I$ is a Banach algebra homomorphism. And $A / I$ is a unital banach algebra from the definition of regular ideals. 
+> 	
+> 	Now, since $I$ is maximal every $x+I\neq I$ in $A / I$ is invertible. Indeed otherwise, if $x+I \neq I$, where not invertible, $J:=(x+I)A / I\subsetneq A / I$. Then, $$I\subsetneq \pi ^{-1}(J)\subsetneq A$$ corresponding the maximality of $I$.
 > 
-> Indeed otherwise, if $x+I \neq I$, where not invertible, $J:=(x+I)A / I\subsetneq A / I$. Then, $$I\subseteq \pi ^{-1}(J)\subseteq A$$ correspodingin the maximality of $I$.
-> 
-> Therefore, by Guelfand-Mazur, $A / I\xrightarrow{\sim}\mathbb{C}$. Now, compsoing $A\xrightarrow{\pi}A / I\xrightarrow{\sim}\mathbb{C}$, we get a $\mathbb{C}$-algebra homomorphism $\varphi:A\to C$ with $\text{ker }\varphi=I$.
+> 	Therefore, by Guelfand-Mazur, $A / I\xrightarrow{\sim}\mathbb{C}$. Now, composing $A\xrightarrow{\pi}A / I\xrightarrow{\sim}\mathbb{C}$, we get a $\mathbb{C}$-algebra homomorphism $\varphi:A\to C$ with $\text{ker }\varphi=I$.
 ---
 > [!lemma] Theorem 3 (Spectral Theorem)
 > Let $A\subseteq \mathcal{B}(\mathcal{H})$ be an commutative sub-$C^{*}$-algebra containing $\text{id}_{\mathcal{H}}$ and $\widehat{A}$ is Guelfand spectrum. Then, 
