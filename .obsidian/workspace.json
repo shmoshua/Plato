@@ -75,19 +75,7 @@
             }
           },
           {
-            "id": "2b3a2eaccf710636",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9339142019c86b99",
+            "id": "b13ae60196d7f770",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -99,79 +87,19 @@
             }
           },
           {
-            "id": "e326f4dab8c711ee",
+            "id": "2b3a2eaccf710636",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Banach Algebra.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b58291d7b0124d62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Volterra Algebra.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0568002c17eb12ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Banach Algebra.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3efb309fee52dd23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "54578893551d7504",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a255311cbeaa0703",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Linear Algebra/Linear Map.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -301,12 +229,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0f271565bc87f055",
+  "active": "2b3a2eaccf710636",
   "lastOpenFiles": [
-    "Functional Analysis/Banach Algebra.md",
+    "Functional Analysis/Regular Ideal.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/Regular Ideal.md",
+    "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Spectrum.md",
     "Functional Analysis/Volterra Algebra.md",

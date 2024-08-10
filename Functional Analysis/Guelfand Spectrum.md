@@ -14,25 +14,30 @@
 > 2. If $A$ is unital, $\chi(e)=1$.
 
 > [!proof]-
-> As $\chi$ is a $\mathbb{C}$-algebra homomorphism, $\chi(A)$ is a $\mathbb{C}$-vector subspace of $\mathbb{C}$ which is $(0)$ or $\mathbb{C}$. But $\chi$ is non-trivial by definition. 
-> 
-> If $A$ is unital, for all $\lambda\in \mathbb{C}$, there exists $x\in A$ s.t. $\chi(x)=\lambda$. Therefore, $$\chi(e)\lambda=\chi(e)\chi(x)=\chi(ex)=\chi(x)=\lambda$$
+> We have:
+> 1. As $\chi$ is a $\mathbb{C}$-algebra homomorphism, $\chi(A)$ is a $\mathbb{C}$-vector subspace of $\mathbb{C}$ which is $(0)$ or $\mathbb{C}$. But $\chi$ is non-trivial by definition. 
+> 2. Let $A$ be unital. For all $\lambda\in \mathbb{C}$, there exists $x\in A$ s.t. $\chi(x)=\lambda$. Therefore, $$\chi(e)\lambda=\chi(e)\chi(x)=\chi(ex)=\chi(x)=\lambda$$
 ---
 > [!lemma] Proposition 2
-> For every $\varphi\in \hat{A}$ we have: $$\left| \varphi(x) \right| \leq\|x\|_{\text{sp}}\quad \forall x\in A$$ In particular, $\varphi\in A^{*}$ with $\left\| \varphi \right\|\leq 1$ with equality if $A$ is unital with $\|e\|=1$ for the unit.
+> For every $\varphi\in \widehat{A}$ we have
+> 1. $\left| \varphi(x) \right| \leq\|x\|_{\text{sp}}$ for all $x\in A$.
+> 2. $\varphi\in A^{*}$ with $\left\| \varphi \right\|\leq 1$ with equality if $A$ is unital with $\|e\|=1$ for the unit.
 
 > [!proof]-
-> First, assume that $A$ is unital. If $\left| \lambda \right|>\|x\|_{\text{sp}}$, then there exists $y\in A$ s.t. $(x-\lambda e)y=e$. Therefore, $$\varphi(y)\varphi(x-\lambda e)=\varphi(e)=1$$Indeed $\varphi(x-\lambda e)\neq 0$ and $\varphi(x)\neq\lambda$. Therefore, $\left| \varphi(x) \right|\leq\|x\|_{\text{sp}}$. 
+> First, by the remark, we may assume that $A$ is unital. If $\left| \lambda \right|>\|x\|_{\text{sp}}$, then there exists $y\in A$ s.t. $(x-\lambda e)y=e$. Therefore, $$\varphi(y)\varphi(x-\lambda e)=\varphi(e)=1$$Indeed $\varphi(x-\lambda e)\neq 0$ and $\varphi(x)\neq\lambda$. Therefore, $\left| \varphi(x) \right|\leq\|x\|_{\text{sp}}$. 
 > 
 > Further, as $\|x\|_{\text{sp}}\leq\|x\|$, $\left\| \varphi \right\|\leq 1$. If $\|e\|=1$, then since $\varphi(e)=1=\|e\|$, $\|\varphi\|=1$.
 ---
 > [!lemma] Theorem 3
-> Let $A$ be a commutative [[Banach Algebra]]. Then, $\varphi\mapsto \text{ker }\varphi$ gives a bijection between $\hat{A}$ and $$\text{Max}(A):=\{ I\subseteq A :I \text{ regular maximal ideal}\}$$
+> Let $A$ be a commutative [[Banach Algebra]]. Then, 
+> $$\widehat{A}\to \text{Max}(A):=\{ I\subseteq A :I \text{ regular maximal ideal}\},\quad \varphi\mapsto \text{ker }\varphi$$is a bijection.
 
-> [!proof]-
-> Let $\varphi\in\hat{A}$. Then, $\varphi:A\to \mathbb{C}$ is a non-trivial $\mathbb{C}$-algebra homomorphism. Hence, $\text{ker }\varphi$ is a proper ideal. $\varphi(A)=\mathbb{C}$ and there fore there exists $u\in A$ with $\varphi(u)=1$. Then, for all $x\in A$, $ux-x\in \text{ker }\varphi$. Since $A / \text{ker}(\varphi)\cong \mathbb{C}$, $\text{ker}(\varphi)$ is maximal.
-> 
-> Now, assume $I=\text{ker }\varphi_{1}=\text{ker }\varphi_{2}$ and let $u\in A$ be an identity modulo $I$. Clearly, $u\notin I$ and since $I$ has codimension 1 in $A$, $A=\mathbb{C}u+I$. Therefore, $\varphi_{1}(u)=\varphi_{2}(u)=1$. It follows that: $$\varphi_{1}(\lambda u+v)=\lambda\varphi_{1}(u)=\lambda=\lambda(\varphi_{2}(u))=\varphi_{2}(\lambda u+v)$$
+> [!proof]+
+> We have:
+> 1. **Showing that $\text{ker }\varphi$ is a regular maximal ideal**: 
+>    Let $\varphi\in \widehat{A}$. Then, $\varphi:A\to \mathbb{C}$ is a non-trivial $\mathbb{C}$-algebra homomorphism. Hence, $\text{ker }\varphi$ is a proper ideal. Further, $\varphi(A)=\mathbb{C}$ and therefore there exists $u\in A$ with $\varphi(u)=1$. Then, for all $x\in A$, $ux-x\in \text{ker }\varphi$ which shows that $\text{ker }\varphi$ is regular. Lastly, since $A / \text{ker}(\varphi)\cong \mathbb{C}$, $\text{ker}(\varphi)$ is maximal.
+>  2. **Showing injectivity**: 
+>     Assume $I:=\text{ker }\varphi_{1}=\text{ker }\varphi_{2}$ and let $u\in A$ be a unit modulo $I$. Clearly, $u\notin I$ by [[Regular Ideal|Proposition 1]] and since $I$ has codimension 1 in $A$, $A=\mathbb{C}u+I$. Therefore, $\varphi_{1}(u)=\varphi_{2}(u)=1$. It follows that: $$\varphi_{1}(\lambda u+v)=\lambda\varphi_{1}(u)=\lambda=\lambda(\varphi_{2}(u))=\varphi_{2}(\lambda u+v)$$
 > Let $I\subsetneq A$ be maximal regular. By [[Regular Ideal|Corollary 3.2]], $I=\overline{I}$ is closed. Then, by [[Banach Algebra|Proposition 3]], $A / I$ is a Banach algebra and $\pi:A \to A / I$ is a Banach algebra homomorphism. And $A / I$ is a unital banach algebra. Since $I$ is maximal every $x+I!+I$ in $A / I$ is invertible.
 > 
 > Indeed otherwise, if $x+I \neq I$, where not invertible, $J:=(x+I)A / I\subsetneq A / I$. Then, $$I\subseteq \pi ^{-1}(J)\subseteq A$$ correspodingin the maximality of $I$.
