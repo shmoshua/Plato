@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Regular Ideal.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Regular Ideal.md",
                 "mode": "preview",
                 "source": true
               }
@@ -225,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Regular Ideal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Regular Ideal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +265,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Spectrum.md"
+                "file": "Functional Analysis/Regular Ideal.md"
               }
             }
           }
@@ -292,8 +292,9 @@
   "active": "9339142019c86b99",
   "lastOpenFiles": [
     "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Banach Algebra.md",
+    "Functional Analysis/Regular Ideal.md",
     "Functional Analysis/Spectrum.md",
+    "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/Volterra Algebra.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Algebra/Linear Algebra/Linear Map.md",
@@ -316,7 +317,6 @@
     "Algebra/Radical Extension.md",
     "Algebra/Galois Group.md",
     "Algebra/Cyclotomic Extension.md",
-    "Algebra/Discriminant.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
