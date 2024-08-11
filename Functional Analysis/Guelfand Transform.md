@@ -1,19 +1,23 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $A$ be a commutative [[Banach Algebra]]. Then, the ***Guelfand transform*** of $x\in A$ is the function: $$\begin{array}{cccc} {\hat{x}:}&{\hat{A}}&\to&{\mathbb{C}}\\&{\chi} &\mapsto & {\chi(x)} \end{array}{}$$
+> Let $A$ be a commutative [[Banach Algebra]]. Then, 
+> 1. the ***Guelfand transform*** of $x\in A$ is the function $$\widehat{x}:\widehat{A}\to \mathbb{C},\quad \varphi\mapsto \varphi(x)$$
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> For any $x\in A$, 
-> 1. $\hat{x}\in$ [[Continuous function Vanishing at Infinity|$C_{0}(\hat{A})$]].
-> 2. $A\to C_{0}(\hat{A}),x\mapsto \hat{x}$ is an algebra homomorphism.
-> 3. if $A$ is unital, $\text{Sp}_{A}(x)=\hat{x}(\hat{A})$.
-> 4. if $A$ is non-unital, $\text{Sp}_{A}(x)=\hat{x}(\hat{A})\cup \{ 0 \}$.
-> 5. $\|\hat{x}\|_{\infty}=\|x\|_{\text{sp}}$
+> For a commutative Banach algebra $A$ and $x\in A$, 
+> 1. $\widehat{x}\in C_{0}(\widehat{A})$ where $C_{0}$ is the [[Continuous function Vanishing at Infinity|space of continuous functions vanishing at infinity]].
+> 2. $A\to C_{0}(\widehat{A}),x\mapsto \widehat{x}$ is a $C^{*}$-algebra homomorphism.
+> 3. if $A$ is unital, $\text{Sp}_{A}(x)=\widehat{x}(\widehat{A})$.
+> 4. if $A$ is non-unital, $\text{Sp}_{A}(x)=\widehat{x}(\widehat{A})\cup \{ 0 \}$.
+> 5. $\|\widehat{x}\|_{\infty}=\|x\|_{\text{sp}}$.
 
-> [!proof]-
+> [!proof]+
 > We have: 
+> 1. If $A$ is unital, $\widehat{A}$ is compact and $C_{0}(\widehat{A})=C(\widehat{A})\ni \widehat{x}$. If $A$ is non-unital, then for all $\varphi\in \widehat{A}$, $$\widehat{x}(\varphi)=\varphi(x)=\varphi_{I}(x,0)=\widehat{(x,0)}(\varphi_{I})$$where $\widehat{(x,0)}:\widehat{A_{I}}\to \mathbb{C}$ with $\widehat{(x,0)}(\varphi_{\infty})=\varphi_{\infty}(x,0)=0$.
+>    
+>    Let $\varepsilon>0$ and $\varphi_{\infty}$
 > 1. Let $A$ be non-unital. Observe that for all $\varphi\in \hat{A}$, $\hat{x}(\varphi)=\varphi(x)=\tilde{\varphi}((x,0))=\widehat{(x,0)}(\tilde{\varphi})$. Of course, $\widehat{(x,0)}:\widehat{A_{I}}\to \mathbb{C}$ with $\widehat{(x,0)}(\varphi_{\infty})=\varphi_{\infty}(x,0)=0$. 
 >    
 >    Let $\varepsilon>0$ and $\varphi_{\infty}\in U\subseteq\widehat{A_{I}}$ open with $\left| \widehat{(x,0)}(\psi) \right|<\varepsilon$ for all $\psi\in U$. Then, $$\widehat{A_{I}}\backslash U \subseteq \widehat{A_{I}}\backslash \{ \varphi_{\infty} \} =\gamma(\hat{A})$$But then, $$K:=\{ \varphi\in \hat{A}:\gamma(\varphi)\in \widehat{A_{I}}\backslash U \}$$is compact as well for all $\varphi\notin K$, $$\left| \hat{x}(\varphi) \right| =\left| \widehat{(x,0)}(\tilde{\varphi}) \right|$$

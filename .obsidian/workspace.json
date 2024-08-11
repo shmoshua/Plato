@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
+                "file": "Functional Analysis/Guelfand Transform.md",
                 "mode": "source",
                 "source": true
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
+                "file": "Functional Analysis/Guelfand Transform.md",
                 "mode": "preview",
                 "source": true
               }
@@ -135,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
+                "file": "Functional Analysis/Guelfand Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
+                "file": "Functional Analysis/Guelfand Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md"
+                "file": "Functional Analysis/Guelfand Transform.md"
               }
             }
           }
@@ -267,10 +267,11 @@
   },
   "active": "0f271565bc87f055",
   "lastOpenFiles": [
-    "Topology/Compact Space.md",
-    "Functional Analysis/Guelfand Topology.md",
-    "Topology/Weak Topology.md",
     "Functional Analysis/Guelfand Spectrum.md",
+    "Functional Analysis/Guelfand Transform.md",
+    "Topology/Compact Space.md",
+    "Topology/Weak Topology.md",
+    "Functional Analysis/Guelfand Topology.md",
     "Topology/Filter.md",
     "Topology/One-Point Compactification.md",
     "Topology/Interior and Closure.md",
@@ -292,7 +293,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 1.md",
     "Functional Analysis/C-Algebra.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
-    "Algebra/Galois Correspondence.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
