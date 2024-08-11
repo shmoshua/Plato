@@ -56,7 +56,7 @@
 
 > [!proof]-
 > Wlog we may assume that $A$ is unital.
-> 1. **Show that $\text{Sp}_{A}(x)\subseteq B_{<r_{A}(x)}(0)$**:
+> 1. **Show that $\text{Sp}_{A}(x)\subseteq B_{\leq r_{A}(x)}(0)$**:
 >    Assume $\left| \lambda \right|>r_{A}(x)$. Then, $r_{A}(x) / \left| \lambda \right|<1$. By definition, we have: $$\frac{r_{A}(x)}{\left| \lambda \right| }=r_{A}\left( \frac{x}{\lambda} \right)$$ Therefore, $e-x / \lambda$ is invertible by Lemma 2. As $\lambda e$ is invertible as well, the product $\lambda e-x$ is invertible, i.e. $\lambda\notin \text{Sp}_{A}(x)$.
 > 2. **Show that $\text{Sp}_{A}(x)$ is compact**:$$\text{Sp}_{A}(x)=\{ \lambda\in \mathbb{C}: x-\lambda e\in A \backslash G(A) \}$$Therefore, $\text{Sp}_{A}(x)$ is the inverse image of the closed subset $A \backslash G(A)$ under the continuous map $\lambda\mapsto x-\lambda e$. This proves that $\text{Sp}_{A}(x)$ is closed and bounded, i.e. compact.
 > 3. **Show that $\text{Sp}_{A}(x)$ is non-empty**:

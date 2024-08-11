@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Functional Analysis/Spectrum.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Functional Analysis/Spectrum.md",
                 "mode": "preview",
                 "source": true
               }
@@ -123,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Functional Analysis/Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Functional Analysis/Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md"
+                "file": "Functional Analysis/Spectrum.md"
               }
             }
           }
@@ -253,12 +253,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4d2494d85bfbf767",
+  "active": "0f271565bc87f055",
   "lastOpenFiles": [
+    "Functional Analysis/Guelfand Transform.md",
+    "Functional Analysis/Spectrum.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Topology/Weak Topology.md",
     "Algebra/Associative Algebra.md",
-    "Functional Analysis/Guelfand Transform.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Algebra Homomorphism.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
@@ -273,7 +274,6 @@
     "Functional Analysis/Jacobson Radical.md",
     "Functional Analysis/Regular Ideal.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/Spectrum.md",
     "Lie Group/Radical (Lie Algebra).md",
     "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/Volterra Algebra.md",
