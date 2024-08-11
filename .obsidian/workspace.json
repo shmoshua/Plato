@@ -99,18 +99,6 @@
             }
           },
           {
-            "id": "3fb0d84eca22f269",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Associative Algebra.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "c0446c2b53475b94",
             "type": "leaf",
             "state": {
@@ -267,15 +255,15 @@
   },
   "active": "4d2494d85bfbf767",
   "lastOpenFiles": [
-    "Functional Analysis/Guelfand Spectrum.md",
-    "Functional Analysis/Guelfand Transform.md",
+    "Topology/Weak Topology.md",
     "Algebra/Associative Algebra.md",
+    "Functional Analysis/Guelfand Transform.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Algebra Homomorphism.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Topology/One-Point Compactification.md",
     "Topology/Compact Space.md",
-    "Topology/Weak Topology.md",
     "Functional Analysis/Guelfand Topology.md",
     "Topology/Filter.md",
     "Topology/Interior and Closure.md",
