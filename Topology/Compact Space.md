@@ -96,13 +96,15 @@
 > 2. Let $C_{n}:=X \backslash U_{n}$. Then, $C_{n}$ is closed and $C_{n}^\circ=(X \backslash U_{n})^{\circ}=X\backslash X=\varnothing$. Therefore, the interior of $C:=\bigcup_{n\geq 1}C_{n}$ is empty and: $$\overline{\bigcap_{n\geq 1}U_{n}}=\overline{X\backslash C}=X \backslash C^\circ =X$$
 
 ---
-> [!lemma] Lemma 2
+> [!lemma] Proposition 2
 > Let $X$ be a compact Hausdorff space. Then, 
 > 1. every $x\in X$ has a closed [[Local Base of Topology|local base]] in $X$.
+> 2. for $Y\subseteq X$ open, $Y$ is [[Locally Compact Hausdorff Space|locally compact Hausdorff]].
 
-> [!proof]-
-> Let $x\in X$ and $U$ an open neighborhood of $x$. Let $C:=X\backslash U$. As $C$ is closed and $x\notin C$, there exists by Lemma 1 an open neighborhood $V$ of $x$ s.t. $\overline{V}\cap C=\varnothing$. Therefore, $\overline{V}\subseteq U$. 
-
+> [!proof]+
+> We have:
+> 1. Let $x\in X$ and $U$ an open neighborhood of $x$. Let $C:=X\backslash U$. As $C$ is closed and $x\notin C$, there exists by Lemma 1 an open neighborhood $V$ of $x$ s.t. $\overline{V}\cap C=\varnothing$. Therefore, $\overline{V}\subseteq U$. 
+> 2. for any $x\in Y$, as $Y$ is open, there exists a closed neighborhood $V$ of $x$ in $Y$. Then, $V$ is a compact neighborhood in $X$ and therefore compact in $Y$. Hence, any $x\in Y$ has a compact neighborhood and $Y$ is locally compact Hausdorff.
 
 ---
 ###### Compact Metric Spaces

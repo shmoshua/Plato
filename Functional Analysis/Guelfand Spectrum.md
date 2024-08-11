@@ -55,6 +55,12 @@
 ^a2c505
 
 > [!proof]+
+> We have:
+> 1. As an open subspace of a compact Hausdorff space is locally compact Hausdorff by [[Compact Space|Compact Hausdorff Space Proposition 2]], we aim to show that $\widehat{A}$ is open in some compact Hausdorff space.
+>    
+>    We check that $\Omega:=\widehat{A}\cup \{ 0 \}\subseteq B_{\leq 1}^{A^{*}}(0)$ is weak\*-closed. Let $\varphi\in \overline{\Omega}$. Then, there exists a filter $\mathcal{F}$ on $\Omega$ s.t. 
+> 
+> 
 > Consider the map: $$p:A_{I}\to A,\quad (x,\lambda)\mapsto x$$for which $\|p\|=1$ and as $p$ is continuous, $p^{*}:A^{*}\to(A_{I})^{*}$ is also weak\*-continuous. Lastly, $p^{*}$ is injective as $p$ is surjective. 
 > 
 > Consider $B_{\leq 1}^{A^{*}}(0)$ which is weak\*-compact by [[Weak Topology|Banach Alagolu]]. Therefore, $$p^{*}:B_{\leq 1}^{A^{*}}(0)\to p^{*}(B_{\leq 1}^{A^{*}}(0))$$is a continuous bijection from a compact set into Hausdorff. Hence, by [[Compact Space|Proposition 1.6]], $p^{*}$ is a homeomorphism.
