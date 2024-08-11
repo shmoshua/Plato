@@ -55,10 +55,9 @@
 ^a2c505
 
 > [!proof]+
-> Consider the map: $$\begin{array}{cccc} {p:}&{A_{I}:=A\times \mathbb{C}}&\to&{A}\\&{(x,\lambda)} &\mapsto & {x} \end{array}{}$$Then, 
-> 1. $\left\| p \right\|=1$ and 
-> 2. $p^{*}:A^{*}\to(A_{I})^{*}$ is weak*-continuous and injective, by [[Weak Topology|Proposition 3]].
+> Consider the map: $$p:A_{I}\to A,\quad (x,\lambda)\mapsto x$$for which $\|p\|=1$ and as $p$ is continuous, $p^{*}:A^{*}\to(A_{I})^{*}$ is also weak\*-continuous. Lastly, $p^{*}$ is injective as $p$ is surjective.
 > 
+> Then, $p^{*}(B_{\leq 1}^{A^{*}}(0))=\{ \varphi\in B_{\leq 1}^{A^{*}}(0):\varphi \circ p \}$
 > Therefore, $$p^{*}(B_{\leq 1}^{A^{*}}(0))=\{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(0):\varphi((0,1))=0 \}$$By [[Weak Topology|Banach Alagolu]], $B_{\leq 1}^{A^{*}}(0)$ and $B_{\leq 1}^{(A_{I})^{*}}(0)$ are weak\*-compact. Observe that: 
 > $$\{ \varphi\in (A_{I})^{*}:\varphi((0,1))=0 \}$$ is weak\*-closed. As a result: $$p^{*}:B_{\leq 1}^{A^{*}}(0)\to \{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(0):\varphi((0,1))=0 \}$$is a homeomorphism. Therefore, the extension can be characterized as: $$\tilde{\varphi}:=p^{*}(\varphi)+\varphi_{\infty}$$Then, with $\gamma:A^{*}\to(A_{I})^{*},\varphi\mapsto p^{*}(\varphi)+\varphi_{\infty}$, 
 > 1. $\gamma$ is injective and linear.

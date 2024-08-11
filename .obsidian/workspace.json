@@ -80,18 +80,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Topology.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b13ae60196d7f770",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": true
@@ -123,7 +111,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,9 +241,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b02bec91b3ab25fa",
+  "active": "f0fee87565e3e07b",
   "lastOpenFiles": [
     "Functional Analysis/Guelfand Topology.md",
+    "Topology/Weak Topology.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Jacobson Radical.md",
@@ -280,7 +269,6 @@
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Field Extension.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Torsion Module.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
