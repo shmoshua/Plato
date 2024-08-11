@@ -58,23 +58,10 @@
 > We have:
 > 1. As an open subspace of a compact Hausdorff space is locally compact Hausdorff by [[Compact Space|Compact Hausdorff Space Proposition 2]], we aim to show that $\widehat{A}$ is open in some compact Hausdorff space.
 >    
->    We check that $\Omega:=\widehat{A}\cup \{ 0 \}\subseteq B_{\leq 1}^{A^{*}}(0)$ is weak\*-closed. Let $\varphi\in \overline{\Omega}$. Then, there exists a filter $\mathcal{F}$ on $\Omega$ s.t. 
-> 
-> 
-> Consider the map: $$p:A_{I}\to A,\quad (x,\lambda)\mapsto x$$for which $\|p\|=1$ and as $p$ is continuous, $p^{*}:A^{*}\to(A_{I})^{*}$ is also weak\*-continuous. Lastly, $p^{*}$ is injective as $p$ is surjective. 
-> 
-> Consider $B_{\leq 1}^{A^{*}}(0)$ which is weak\*-compact by [[Weak Topology|Banach Alagolu]]. Therefore, $$p^{*}:B_{\leq 1}^{A^{*}}(0)\to p^{*}(B_{\leq 1}^{A^{*}}(0))$$is a continuous bijection from a compact set into Hausdorff. Hence, by [[Compact Space|Proposition 1.6]], $p^{*}$ is a homeomorphism.
-> 
-> 
-> 
-> Then, $p^{*}(B_{\leq 1}^{A^{*}}(0))=\{ \varphi \circ p\in (A_{I})^{*}:\varphi\in B_{\leq 1}^{A^{*}}(0)\}=$
-> Therefore, $$p^{*}(B_{\leq 1}^{A^{*}}(0))=\{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(0):\varphi((0,1))=0 \}$$By [[Weak Topology|Banach Alagolu]], $B_{\leq 1}^{A^{*}}(0)$ and $B_{\leq 1}^{(A_{I})^{*}}(0)$ are weak\*-compact. Observe that: 
-> $$\{ \varphi\in (A_{I})^{*}:\varphi((0,1))=0 \}$$ is weak\*-closed. As a result: $$p^{*}:B_{\leq 1}^{A^{*}}(0)\to \{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(0):\varphi((0,1))=0 \}$$is a homeomorphism. Therefore, the extension can be characterized as: $$\tilde{\varphi}:=p^{*}(\varphi)+\varphi_{\infty}$$Then, with $\gamma:A^{*}\to(A_{I})^{*},\varphi\mapsto p^{*}(\varphi)+\varphi_{\infty}$, 
-> 1. $\gamma$ is injective and linear.
-> 2. $\gamma$ is continuous in weak\*-topology.
->    
->  Therefore, $$\gamma:B_{\leq 1}^{A^{*}}(0)\to \{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(\varphi_{\infty}):\varphi((0,1))=1 \}$$is a homeomorphism. This implies that the image is compact. However, we have: $$\begin{CD} B_{\leq 1}^{A^{*}}(0) @>\gamma>> \{ \varphi\in B_{\leq 1}^{(A_{I})^{*}}(\varphi_{\infty}):\varphi((0,1))=1 \}\\ \cup&&\cup\\\hat{A} @>\gamma>> \widehat{A_{I}} \backslash \{ \varphi_{\infty} \}\end{CD}$$
->  Now, assume that $B$ is a commutative unital Banach algebra. Then, $$\begin{align}\hat{B}&:=\{ \varphi\in B_{\leq 1}^{B^{*}}(0):\varphi(xy)=\varphi(x)\varphi(y),\varphi(e)=1,\quad \forall x,y\in B\}\\&=\{\varphi\in B_{\leq 1}^{B^{*}}(0):\varphi(e)=1 \}\cap\bigcap_{x,y\in B}^{}\{ \varphi\in B_{\leq 1}^{B^{*}}(0):\varphi(xy)=\varphi(x)\varphi(y)\}\end{align}$$which is weak\*-closed. Therefore, $\hat{B}$ is compact. 
+>    We check that $\Omega:=\widehat{A}\cup \{ 0 \}\subseteq B_{\leq 1}^{A^{*}}(0)$ is weak\*-closed. Let $\varphi\in \overline{\Omega}$. Then, for a convergent net $\{ \varphi_{i} \}_{i\in I}$ converging to $\varphi$, we have that: $$\varphi(xy)=\lim \varphi_{i}(xy)=\lim \varphi_{i}(x)\varphi_{i}(y)=\varphi(x)\varphi(y) $$Hence $\varphi\in \Omega$ and $\Omega$ is closed in $B_{\leq 1}^{A^{*}}(0)$, which is a weak\*-compact set by [[Weak Topology|Banach Alagolu]].  As $\Omega$ is Hausdorff, $\{ 0 \}$ is closed and $\widehat{A}$ is an open subspace of a weak\*-compact set, which shows that $\widehat{A}$ is locally compact Hausdorff.
+> 2. If $A$ is unital, then: $$\begin{align}\widehat{A}&:=\{ \varphi\in B_{\leq 1}^{A^{*}}(0):\varphi(xy)=\varphi(x)\varphi(y),\varphi(e)=1,\quad \forall x,y\in A\}\\&=\{\varphi\in B_{\leq 1}^{A^{*}}(0):\varphi(e)=1 \}\cap\bigcap_{x,y\in A}^{}\{ \varphi\in B_{\leq 1}^{A^{*}}(0):\varphi(xy)=\varphi(x)\varphi(y)\}\end{align}$$which is weak\*-closed in $B_{\leq 1}^{A^{*}}(0)$. Hence, it is weak\*-compact.
+> 3. By the identification $\widehat{A_{I}}=\widehat{A}\cup \{ \varphi_{\infty} \}$ and the fact that $\widehat{A_{I}}$ is compact Hausdorff and $\widehat{A}$ is locally compact Hausdorff, we get that $\widehat{A_{I}}$ is the one-point compactification of $\widehat{A}$.
+>  
 
 ---
 > [!lemma] Theorem 3 (Spectral Theorem)
