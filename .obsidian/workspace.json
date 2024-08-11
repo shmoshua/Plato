@@ -104,14 +104,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Bounded Linear Map.md",
+                "file": "Topology/Compact Space.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c0446c2b53475b94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "63be47ac4aacad4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Locally Compact Space.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -177,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Topology/Locally Compact Hausdorff Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md"
+                "file": "Topology/Locally Compact Hausdorff Space.md"
               }
             }
           }
@@ -241,12 +265,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f0fee87565e3e07b",
+  "active": "c0446c2b53475b94",
   "lastOpenFiles": [
+    "Topology/Locally Compact Space.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Compact Space.md",
+    "Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Guelfand Topology.md",
     "Topology/Weak Topology.md",
-    "Functional Analysis/Guelfand Spectrum.md",
-    "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Jacobson Radical.md",
     "Functional Analysis/Regular Ideal.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -255,7 +282,6 @@
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/Volterra Algebra.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Algebra/Linear Algebra/Linear Map.md",
     "Functional Analysis/Dual Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
@@ -267,8 +293,6 @@
     "Algebra/Galois Extension.md",
     "Algebra/Cyclotomic Polynomial.md",
     "Algebra/Unique Factorization Domain.md",
-    "Algebra/Field Extension.md",
-    "Algebra/Principal Ideal Domain.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
