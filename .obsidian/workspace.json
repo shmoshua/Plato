@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Functional Analysis/Banach Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -123,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Banach Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Banach Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Spectrum.md"
+                "file": "Functional Analysis/Banach Algebra.md"
               }
             }
           }
@@ -253,7 +253,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0f271565bc87f055",
+  "active": "4d2494d85bfbf767",
   "lastOpenFiles": [
     "Functional Analysis/Guelfand Transform.md",
     "Functional Analysis/Spectrum.md",
