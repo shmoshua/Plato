@@ -22,11 +22,9 @@
 > 2. We have that for $\varphi\in \widehat{A}$: $$\widehat{xy}(\varphi)=\varphi(xy)=\varphi(x)\varphi(y)=\widehat{x}(\varphi)\widehat{y}(\varphi)$$
 > 3. Let $A$ be unital. If $\lambda\in \text{Sp}_{A}(x)$, then by [[Regular Ideal|Corollary 5]] $x-\lambda e$ is not invertible and $x-\lambda e$ is contained in some maximal ideal $I$. By [[Guelfand Spectrum|Theorem 3]], there exists $\varphi\in \widehat{A}$ s.t. $\text{ker }\varphi=I$. In particular, $\varphi(x-\lambda e)=0$ and $\lambda=\varphi(x)=\widehat{x}(\varphi)$. Therefore, $\text{Sp}_{A}(x)\subseteq \widehat{x}(\widehat{A})$.
 >    
->    Conversely, 
->  2. Let $A$ be unital. If $\lambda\in \text{Sp}_{A}(x)$, then $x-\lambda e$ is not invertible. Therefore, by [[Regular Ideal|Corollary 5]], $x-\lambda e\in I\subsetneq A$ where $I$ is maximal. By there exists $\varphi\in \widehat{A}$ with $\text{ker }\varphi=I$. In particular, $\varphi(x-\lambda e)=0$. Therefore, $\lambda=\varphi(x)=\widehat{x}(\varphi)$. Therefore, $\text{Sp}_{A}(x)\subseteq\widehat{x}(\widehat{A})$
->     
->     Conversely, assume that $\lambda\in \widehat{x}(\widehat{A})$, i.e. $\lambda=\varphi(x)$ for some $\varphi\in \widehat{A}$. Then, $\varphi(x-\lambda e)=0$. Then, $x-\lambda e$ cannot be invertible, since otherwise there exists $y\in A$ s.t. $(x-\lambda e)y=e$. This implies that: $$\varphi(x-\lambda e)\varphi(y)=1$$which is a contradiction.
->     
+>    Similarly, let $\lambda\in \widehat{x}(\widehat{A})$, i.e. $\lambda=\varphi(x)$ for some $\varphi\in \widehat{A}$. Then, $\varphi(x-\lambda e)=0$ and $x-\lambda e$ cannot be invertible.
+> 4. Let $A$ be non-unital. Then, $\text{Sp}_{A}(x)=\text{Sp}_{A_{I}}(x,0)=\widehat{(x,0)}(\widehat{A_{I}})$. As $\widehat{A_{I}}=\widehat{A}\cup \{ \varphi_{\infty} \}$, we have that: $$\widehat{(x,0)}(\widehat{A_{I}})=\widehat{(x,0)}(\widehat{A})\cup \{ \varphi_{\infty}(x,0) \}=\widehat{x}(\widehat{A})\cup \{ 0 \}$$
+> 5. We have that: $$\|x\|_{\text{sp}}=\sup_{\lambda\in \text{Sp}_{A}(x)}\left| \lambda \right| =\sup_{\lambda\in \widehat{x}(\widehat{A})}\left| \lambda \right| = \sup_{\varphi\in \widehat{A}}\left| \widehat{x}(\varphi) \right| =\left\| \widehat{x} \right\| _{\infty}$$
 >     
 - **Corollary**: For $x,y\in A$, $\|xy\|_{\text{sp}}=\left\| \widehat{xy} \right\|_{\infty}\leq\|\hat{x}\|_{\infty}\|\hat{y}\|_{\infty}=\|x\|_{\text{sp}}\|y\|_{\text{sp}}$.
 - **Remark**: For every non-commutative Banach algebra $A$ and $x,y\in A$, s.t. $xy=yx$, $\|xy\|_{\text{sp}}\leq\|x\|_{\text{sp}}\|y\|_{\text{sp}}$.
