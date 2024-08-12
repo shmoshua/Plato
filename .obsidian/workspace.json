@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Functional Analysis/C*-Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -110,8 +110,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Functional Analysis/C*-Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Functional Analysis/C*-Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md"
+                "file": "Functional Analysis/C*-Algebra.md"
               }
             }
           }
@@ -241,18 +240,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "71a1f69982a8895e",
+  "active": "8f9204f14a604c46",
   "lastOpenFiles": [
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Guelfand Transform.md",
     "Functional Analysis/Spectrum.md",
     "Topology/One-Point Compactification.md",
-    "Functional Analysis/Guelfand Transform.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Topology/Weak Topology.md",
     "Algebra/Associative Algebra.md",
     "Algebra/Algebra Homomorphism.md",
-    "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Topology/Compact Space.md",
     "Functional Analysis/Guelfand Topology.md",

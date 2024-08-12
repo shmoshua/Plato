@@ -24,7 +24,7 @@
 > Let $A$ be a $C^{*}$-algebra and $x\in A$ normal. Then, $$\|x\|=\|x\|_{\text{sp}}$$
 
 > [!proof]-
-> Let $x\in A$ be normal. Then, $$\left\| x^{2n} \right\| ^2=\left\| (x^{2n})^{*}(x^{2n}) \right\|=\left\| (x^{*}x)^{2n} \right\| =\left\| (x^{*}x)^n (x^{*}x)^n \right\| =\left\| (x^{*}x)^n \right\| ^{2} $$Therefore, $\left\| x^{2n} \right\|=\left\| (x^{*} x)^n \right\|$. It follows that $$\left\| x^{2^m} \right\| =\left\| (x^{*}x)^{2^{m-1}} \right\| =\left\| (x^{*}x)^{2^{m-2}} (x^{*}x)^{2^{m-2}} \right\| =\left\| (x^{2} x)^{2^{m-2}} \right\| ^{2}=\left\| x^{2^{m-1}} \right\|^{2} $$Indeed, it follows that $\left\| x^{2^m} \right\|=\|x\|^{2^m}$ and: $$\|x\|=\|x^{2^m}\|^{1 / 2^m}\to\|x\|_{\text{sp}}$$
+> Let $x\in A$ be normal. Then, $$\left\| x^{2n} \right\| ^2=\left\| (x^{2n})^{*}(x^{2n}) \right\|=\left\| (x^{*}x)^{2n} \right\| =\left\| (x^{*}x)^n (x^{*}x)^n \right\| =\left\| (x^{*}x)^n \right\| ^{2} $$Therefore, $\left\| x^{2n} \right\|=\left\| (x^{*} x)^n \right\|$. It follows that $$\left\| x^{2^m} \right\| =\left\| (x^{*}x)^{2^{m-1}} \right\| =\left\| (x^{*}x)^{2^{m-2}} (x^{*}x)^{2^{m-2}} \right\| =\left\| (x^{*} x)^{2^{m-2}} \right\| ^{2}=\left\| x^{2^{m-1}} \right\|^{2} $$Indeed, it follows that $\left\| x^{2^m} \right\|=\|x\|^{2^m}$ and: $$\|x\|=\|x^{2^m}\|^{1 / 2^m}\to\|x\|_{\text{sp}}$$
 ---
 > [!lemma] Corollary 3
 > If a $C^{*}$-algebra admits any other $C^{*}$-algebra norm $\|\cdot\|'$, then $\|\cdot\|=\|\cdot\|'$.

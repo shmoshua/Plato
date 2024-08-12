@@ -13,14 +13,14 @@
 > 4. if $A$ is non-unital, $\text{Sp}_{A}(x)=\widehat{x}(\widehat{A})\cup \{ 0 \}$.
 > 5. $\|\widehat{x}\|_{\infty}=\|x\|_{\text{sp}}$.
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. If $A$ is unital, $\widehat{A}$ is compact and $C_{0}(\widehat{A})=C(\widehat{A})\ni \widehat{x}$. 
 >    If $A$ is non-unital, let $\varepsilon>0$. As we have that $\varphi_{\infty}(x,0)=0$, we get that: $$K:=\{ \varphi\in \widehat{A}:\left| \widehat{x}(\varphi) \right| \geq \varepsilon \}\cong\{ \psi\in \widehat{A_{I}}:\left| \psi(x,0)\right| \geq \varepsilon \}$$where the RHS is a weak\*-closed set. Therefore, the RHS is weak\*-compact.
 >    
 >    Hence, $K$ is also weak\*-compact and $\widehat{x}$ vanishes at infinity.
 > 2. We have that for $\varphi\in \widehat{A}$: $$\widehat{xy}(\varphi)=\varphi(xy)=\varphi(x)\varphi(y)=\widehat{x}(\varphi)\widehat{y}(\varphi)$$
-> 3. Let $A$ be unital. If $\lambda\in \text{Sp}_{A}(x)$, then by [[Regular Ideal|Corollary 5]] $x-\lambda e$ is not invertible and $x-\lambda e$ is contained in some maximal ideal $I$. By [[Guelfand Spectrum|Theorem 3]], there exists $\varphi\in \widehat{A}$ s.t. $\text{ker }\varphi=I$. In particular, $\varphi(x-\lambda e)=0$ and $\lambda=\varphi(x)=\widehat{x}(\varphi)$. Therefore, $\text{Sp}_{A}(x)\subseteq \widehat{x}(\widehat{A})$.
+> 3. Let $A$ be unital. If $\lambda\in \text{Sp}_{A}(x)$, then $x-\lambda e$ is not invertible and by [[Regular Ideal|Corollary 5]] $x-\lambda e$ is contained in some maximal ideal $I$. By [[Guelfand Spectrum|Theorem 3]], there exists $\varphi\in \widehat{A}$ s.t. $\text{ker }\varphi=I$. In particular, $\varphi(x-\lambda e)=0$ and $\lambda=\varphi(x)=\widehat{x}(\varphi)$. Therefore, $\text{Sp}_{A}(x)\subseteq \widehat{x}(\widehat{A})$.
 >    
 >    Similarly, let $\lambda\in \widehat{x}(\widehat{A})$, i.e. $\lambda=\varphi(x)$ for some $\varphi\in \widehat{A}$. Then, $\varphi(x-\lambda e)=0$ and $x-\lambda e$ cannot be invertible.
 > 4. Let $A$ be non-unital. Then, $\text{Sp}_{A}(x)=\text{Sp}_{A_{I}}(x,0)=\widehat{(x,0)}(\widehat{A_{I}})$. As $\widehat{A_{I}}=\widehat{A}\cup \{ \varphi_{\infty} \}$, we have that: $$\widehat{(x,0)}(\widehat{A_{I}})=\widehat{(x,0)}(\widehat{A})\cup \{ \varphi_{\infty}(x,0) \}=\widehat{x}(\widehat{A})\cup \{ 0 \}$$
