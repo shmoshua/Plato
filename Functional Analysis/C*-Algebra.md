@@ -105,9 +105,19 @@
 
 > [!lemma] Theorem 8 (Pre-spectral Theorem)
 > Let $A$ be a unital $C^{*}$-algebra and $x\in A$ normal. We define: $$B:=\overline{\{ P(x,x^{*}):P\in \mathbb{C}[X,Y] \}}\subseteq A$$with $x^0=e$. Then, 
-> 1. $\widehat{x}:\widehat{B}\to \text{Sp}_{A}(x)$ is a homomorphism.
+> 1. $\widehat{x}:\widehat{B}\to \text{Sp}_{A}(x)$ is a homeomorphism.
 > 2. for every $f\in C(\text{Sp}_{A}(x))$ there exists a unique element denoted $f(x)\in B$ s.t. $$\widehat{f(x)}(\varphi)=f(\varphi(x)),\quad \forall \varphi\in \widehat{B}$$
 > 3. The resulting map $C(\text{Sp}_{A}(x))\to B,\widehat{f}\mapsto f(x)$ is a $C^{*}$-algebra isomorphism with $1\mapsto e$ and $\text{id}\mapsto x$.
+
+> [!proof]-
+> We have that:
+> 1. $\widehat{x}(\widehat{B})=\text{Sp}_{B}(x)=\text{Sp}_{A}(x)$ from [[Guelfand Transform|Theorem 1]] and Proposition 7. Hence, $\widehat{x}:\widehat{B}\to \text{Sp}_{A}(x)$ is surjective. Moreover, $\widehat{x}\in C_{0}(\widehat{A})$ is continuous. We now check its injectivity. 
+>    
+>    Let $\varphi_{1},\varphi_{2}\in \widehat{B}$ with $\varphi_{1}(x)=\varphi_{2}(x)$. Then, $$\varphi_{1}(x^{*})=\widehat{x^{*}}(\varphi_{1})=\overline{\widehat{x}(\varphi_{1})}=\overline{\varphi_{1}(x)}=\overline{\varphi_{2}(x)}=\varphi_{2}(x^{*})$$Therefore, $\varphi_{1}(P(x,x^{*}))=\varphi_{2}(P(x,x^{*}))$ for any $P\in \mathbb{C}[X,Y]$. By definition of $B$, we have that $\varphi_{1}=\varphi_{2}$ on $B$ since $\varphi_{1},\varphi_{2}$ are continuous. 
+>    
+>    So $\widehat{x}$ is a continuous bijection and as $\widehat{B}$ is compact and $\text{Sp}_{A}(x)$ Hausdorff, $\widehat{x}$ is a homeomorphism.
+> 2. Let $f\in C(\text{Sp}_{A}(x))$, we have the map $\widehat{B}\to \mathbb{C},\varphi\mapsto f(\widehat{x}(\varphi))=f(\varphi(x))$ is in $C_{0}(\widehat{B})$. Therefore, by the Guelfand isomorphism, there exists a unique $f(x)\in B$ s.t. $$\widehat{f(x)}(\varphi)=f(\varphi(x)),\quad \forall \varphi\in \widehat{B}$$
+> 3. if $f=1$, then for any $\varphi\in \widehat{B}$, $\widehat{e}(\varphi)=\varphi(e)=1=f(\varphi(x))$. Further, if $f=\text{id}$, $\widehat{x}(\varphi)=\varphi(x)$.
 ---
 ##### Examples
 > [!h] Example 0

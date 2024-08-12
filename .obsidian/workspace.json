@@ -73,14 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Measure Theory/Complex Measure.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Measure Theory/Complex Measure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Analysis/Complex Measure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "arzela",
+                "query": "outer reg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,7 +193,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -213,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Measure Theory/Complex Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Measure Theory/Complex Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md"
+                "file": "Measure Theory/Complex Measure.md"
               }
             }
           }
@@ -279,10 +280,15 @@
   },
   "active": "71a1f69982a8895e",
   "lastOpenFiles": [
+    "Analysis/Complex Measure.md",
+    "Measure Theory/Complex Measure.md",
     "Functional Analysis/Guelfand Transform.md",
-    "Functional Analysis/Jacobson Radical.md",
-    "Functional Analysis/C*-Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Measure Theory/Borel Regular Measure.md",
+    "Measure Theory/Radon Measure.md",
+    "Functional Analysis/Positive Operator.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Jacobson Radical.md",
     "Functional Analysis/C-Algebra.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Functional Analysis/Guelfand Spectrum.md",
@@ -300,11 +306,6 @@
     "Topology/Locally Compact Hausdorff Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Regular Ideal.md",
-    "Lie Group/Radical (Lie Algebra).md",
-    "Functional Analysis/Volterra Algebra.md",
-    "Algebra/Linear Algebra/Linear Map.md",
-    "Functional Analysis/Dual Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
