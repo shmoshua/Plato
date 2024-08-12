@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Functional Analysis/C-Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Functional Analysis/Guelfand Transform.md",
                 "mode": "preview",
                 "source": true
               }
@@ -242,10 +242,11 @@
   },
   "active": "8f9204f14a604c46",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/C-Algebra.md",
     "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Guelfand Transform.md",
     "Functional Analysis/Spectrum.md",
+    "Functional Analysis/Guelfand Transform.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/One-Point Compactification.md",
     "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/Guelfand Spectrum.md",
@@ -267,7 +268,6 @@
     "Algebra/Linear Algebra/Linear Map.md",
     "Functional Analysis/Dual Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
-    "Lie Group/Ideal (Lie Algebra).md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

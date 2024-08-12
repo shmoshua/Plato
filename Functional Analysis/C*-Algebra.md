@@ -33,22 +33,24 @@
 > We have that: $$(\|x\|')^{2}=\|x x^{*}\|'=\|x x^{*}\|_{\text{sp}}=\|x x^{*}\|=(\|x\|)^{2}$$
 ---
 > [!lemma] Proposition 4
-> Let $A$ be a non-unital $C^{*}$-algebra. Then, there is a $C^{*}$-algebra norm on $A_{I}$ extending the one on $A$.
+> Let $A$ be a non-unital $C^{*}$-algebra. Then, 
+> 1. there is a $C^{*}$-algebra norm on $A_{I}$ extending the one on $A$.
 
 > [!proof]-
-> We will identify $A\to A_{I},x \mapsto (x,0)$ and with $e=(0,1)$, we will write $z\in A_{I}$ as $z=x+\lambda e$. Observe that $A$ is an ideal in $A_{I}$. Therefore, for:$$\begin{array}{cccc} {L_{z}:}&{A}&\to&{A}\\&{x} &\mapsto & {zx} \end{array}{}$$it holds that $L_{z}\in\mathcal{B}(A)$ and $A_{I}\to \mathcal{B}(A),z\mapsto L_{z}$ is a $\mathbb{C}$-algebra homomorphism. Now, let $N(z):=\|L_{z}\|$. Then, 
+> We will identify $A\to A_{I},x \mapsto (x,0)$ and with $e=(0,1)$, we will write $z\in A_{I}$ as $z=x+\lambda e$. Observe that $A$ is an ideal in $A_{I}$. Therefore, for $z\in A_{I}$: $$L_{z}:A\to A,\quad x\mapsto zx$$it holds that $L_{z}\in \mathcal{B}(A)$ and $A_{I}\to \mathcal{B}(A),z\mapsto L_{z}$ is an algebra homomorphism. Now, let $N(z):=\|L_{z}\|$. Then, 
 > 1. $N(z_{1}+z_{2})=\left\| L_{z_{1}+z_{2}} \right\|=\left\| L_{z_{1}}+L_{z_{2}} \right\|\leq \left\| L_{z_{1}} \right\|+\left\| L_{z_{2}} \right\|=N(z_{1})+N(z_{2})$
 > 2. $N(z_{1}z_{2})=\left\| L_{z_{1}z_{2}} \right\|=\left\| L_{z_{1}}\circ L_{z_{2}} \right\|\leq \left\| L_{z_{1}} \right\|\left\| L_{z_{2}} \right\|$
-> 3. $N(z)=\|L_{z}\|=\sup_{x\in A:\|x\|\leq 1}\left\| zx \right\|$
+> 3. $N(z)=\|L_{z}\|=\sup_{x\in A:\|x\|\leq 1}\|zx \|$
 > 
 > Then, we have: 
 > 1. **Showing $N:A_{I}\to[0,+\infty)$ extends $\|\cdot\|$ on $A$**: 
->    For $z\in A$, $$N(z)=\sup_{\|x\|\leq 1}\|zx\|\leq\|z\|$$However, for $z\neq0$, $$\left\| L_{z}\left(  \frac{z^{*}}{\|z\|} \right) \right\| =\frac{\left\| zz^{*} \right\|}{\|z\|}=\frac{\|z\|^{2} }{\|z\|}=\|z\|$$Therefore, $N(z)=\|z\|$.
+>    For $z\in A$, $N(z)=\sup_{\|x\|\leq 1}\|zx\|\leq\|z\|$. However, for $z\neq 0$, $$\left\| L_{z}\left( \frac{z^{*} }{\|z\|}\right)  \right\| =\frac{\left\| zz^{*} \right\| }{\|z\|}=\|z\|$$Therefore, $N(z)=\|z\|$.
 > 2. **Showing positive definiteness of $N$**:
 > 	We assume that $z=x+\lambda e$ with $x\in A$ and $\lambda\neq 0$. Assume that $N(z)=0$. Then, $L_{z}(y)=zy=0$ for any $y\in A$ and $(x+\lambda e)y=0$, i.e. $y=(-x / \lambda)y$.
 > 	
-> 	Then, there exists $u\in A$ s.t. $y=u y$ for all $y\in A$ and $A$ has an identity $u$, which is a contradiction. Therefore, $z\in A$ and from $0=N(z)=\|z\|$, $z=0$.
->3. **Showing that the involution $x+\lambda e\mapsto x^{*}+\overline{\lambda}e$ satisfies the properties of an involutive Banach algebra**: For all $a\in A$
+> 	Then, there exists $u\in A$ s.t. $y=u y$ for all $y\in A$ and $A$ has a unit $u$, which is a contradiction. Therefore, $z\in A$ and from $0=N(z)=\|z\|$, $z=0$.
+>3. **Showing that the involution $x+\lambda e\mapsto x^{*}+\overline{\lambda}e$ satisfies the properties of an involutive Banach algebra**: 
+>   For all $a\in A$,
 >	$$\left\| L_{z}(a) \right\| ^{2}=\|za\|^{2}=\|(za)^{*}za\|=\|a^{*}z^{*} z a\|\leq \|a\|\|L_{z^{*}z}(a)\|$$Then, $$\left(\frac{ \|L_{z}(a)\|}{\|a\|} \right)^{2} \leq\frac{\|L_{z^{*}z}(a)\|}{\|a\|}$$By taking all sup, $N(z)^{2}\leq N(z^{*}z)$. Therefore,
 >	1. $N(z)^{2}\leq N(zz^{*})\leq N(z)N(z^{*})$ and $N(z)\leq N(z^{*})$ for all $z\in A_{I}$. Therefore, $N(z)=N(z^{*})$.
 >	3. $N(zz^{*})\leq N(z)N(z^{*})=N(z)^{2}\leq N(zz^{*})$
@@ -56,10 +58,9 @@
 >Therefore, $N$ is a $C^{*}$-algebra norm on $A_{I}$ extending $A$.
 ---
 > [!lemma] Proposition 5
-> Let $A$ be a unital $C^{*}$-algebra with identity $e$. 
-> 1. If $u\in A$ is unitary, then $\text{Sp}_{A}(u)\subseteq \mathbb{T}:=\{ \xi\in \mathbb{C}:\left| \xi \right|=1 \}$.
+> Let $A$ be a $C^{*}$-algebra. 
+> 1. If $A$ is unital and $u\in A$ is unitary, then $\text{Sp}_{A}(u)\subseteq \mathbb{T}:=\{ \xi\in \mathbb{C}:\left| \xi \right|=1 \}$.
 > 2. If $h=h^{*}$, then $\text{Sp}_{A}(h)\subseteq \mathbb{R}$.
-> 3. If $A$ is non-unital and $h=h^{*}$, $\text{Sp}_{A}(h)\subseteq \mathbb{R}$.
 
 > [!proof]-
 > Firstly, we have that: $$\|e\|=\|e e^{*}\|=\|e\|^{2}$$Therefore, $\|e\|=1$. Further, for any unitary $u\in A$, $$\|u\|^{2}=\|u u^{*}\|=\|e\|=1$$and $\|u\|=1$. 
