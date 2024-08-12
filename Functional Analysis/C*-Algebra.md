@@ -91,22 +91,23 @@
 > Let $e\in B\subseteq A$ be unital $C^{*}$-algebras. Then, 
 > 1. $\text{Sp}_{B}(x)=\text{Sp}_{A}(x)$ for $x\in B$.
 
-> [!proof]+
+> [!proof]-
 > Let $\lambda\in \text{Sp}_{A}(x)$. Then, $x-\lambda e$ is not invertible in $A$ and thereby not in $B$. Therefore, $\text{Sp}_{A}(x)\subseteq \text{Sp}_{B}(x)$.
 > 
 > Conversely, let $\lambda\notin \text{Sp}_{A}(x)$. 
 > 1. if $x=x^{*}$, then $\text{Sp}_{B}(x)\subseteq \mathbb{R}$. Hence, if $\lambda\notin \mathbb{R}$, then $\lambda\notin \text{Sp}_{B}(x)$ and we are done. Assume that $\lambda\in \mathbb{R}$. Then, for all $\varepsilon>0$, $\lambda_{\varepsilon}:=\lambda+i\varepsilon\notin \text{Sp}_{B}(x)$. In other words, $(x-\lambda_{\varepsilon}e)^{-1}\in B$. 
 >    
->    Since we have that $(x-\lambda e)^{-1}\in A$, $$[0,1]\to G(A),\quad \varepsilon \mapsto (x-\lambda_{\varepsilon}e)^{-1}$$is a continuous map. Therefore, $(x-\lambda e)^{-1}=\lim_{ \varepsilon \to 0^+ }(x-\lambda_{\varepsilon}e)^{-1}\in B$ as $B$ is closed from completeness. Therefore, $@$
-> 
-> Let however $\lambda \notin \text{Sp}_{A}(x)$. 
-> 1. If $x=x^{*}$, then $\text{Sp}_{B}(x)\subseteq \mathbb{R}$ and for all $\varepsilon>0$, $\lambda_{\varepsilon}:=\lambda+i\varepsilon\notin \text{Sp}_{B}(x)$. Hence, $$(x-\lambda_{\varepsilon}e)^{-1}\in B$$Since we have that $(x-\lambda e)^{-1}\in A$ and $$\begin{array}{cccc} {}&{[0,1]}&\to&{G(A)}\\&{\varepsilon} &\mapsto & {(x-\lambda_{\varepsilon}e)^{-1}} \end{array}{}$$is continuous, we have: $$(x-\lambda e)^{-1}=\lim_{ \varepsilon \to 0^+ } (x-\lambda _{\varepsilon}e)^{-1}\in B$$as $B$ is closed. Therefore, $\text{Sp}_{B}(x)\subseteq \text{Sp}_{A}(x)$.
-> 2. Let $y\in B$ and assume $y$ is invertible in $A$. Then, $y^{*}y\in B$ and $y^{*}y$ is invertible in $A$ so it is invertible in $B$. Similarly, $yy^{*}$ is invertible in $B$.
+>    Since we have that $(x-\lambda e)^{-1}\in A$, $$[0,1]\to G(A),\quad \varepsilon \mapsto (x-\lambda_{\varepsilon}e)^{-1}$$is a continuous map. Therefore, $(x-\lambda e)^{-1}=\lim_{ \varepsilon \to 0^+ }(x-\lambda_{\varepsilon}e)^{-1}\in B$ as $B$ is closed from completeness. Therefore, $\lambda\notin \text{Sp}_{B}(x)$.
+> 2. for a general $x\in B$, let $y:=x-\lambda e\in B$ which is invertible in $A$. Then, $y^{*}y\in B$ and $y^{*}y$ is invertible in $A$. Therefore, $0\notin \text{Sp}_{A}(y^{*}y)=\text{Sp}_{B}(y^{*}y)$ and it is invertible in $B$. Hence, there exists $z\in B$ with $z(y^{*}y)=e$. Similarly, there exists $w\in B$ s.t. $(yy^{*})w=e$. 
 >    
->    Therefore, there exists $z,t\in B$ s.t. $zy^{*}y=e$ and $yy^{*}t=e$. It follows that $y$ is invertible in $B$.
->    
->    Now, $x-\lambda e$ is invertible in $A$ and hence in $B$. Therefore, $\lambda\notin \text{Sp}_{B}(x)$.
->    
+>    By setting $a:=zy^{*}$ and $b:=y^{*}w$, we find that $ay=yb=e$. Therefore, $y^{-1}=a=b$ meaning that $y$ is invertible in $B$. Hence, $\lambda\notin \text{Sp}_{B}(x)$.     
+---
+
+> [!lemma] Theorem 8 (Pre-spectral Theorem)
+> Let $A$ be a unital $C^{*}$-algebra and $x\in A$ normal. We define: $$B:=\overline{\{ P(x,x^{*}):P\in \mathbb{C}[X,Y] \}}\subseteq A$$with $x^0=e$. Then, 
+> 1. $\widehat{x}:\widehat{B}\to \text{Sp}_{A}(x)$ is a homomorphism.
+> 2. for every $f\in C(\text{Sp}_{A}(x))$ there exists a unique element denoted $f(x)\in B$ s.t. $$\widehat{f(x)}(\varphi)=f(\varphi(x)),\quad \forall \varphi\in \widehat{B}$$
+> 3. The resulting map $C(\text{Sp}_{A}(x))\to B,\widehat{f}\mapsto f(x)$ is a $C^{*}$-algebra isomorphism with $1\mapsto e$ and $\text{id}\mapsto x$.
 ---
 ##### Examples
 > [!h] Example 0
