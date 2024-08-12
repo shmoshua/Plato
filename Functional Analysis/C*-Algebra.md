@@ -62,7 +62,7 @@
 > 1. If $A$ is unital and $u\in A$ is unitary, then $\text{Sp}_{A}(u)\subseteq \mathbb{T}:=\{ \xi\in \mathbb{C}:\left| \xi \right|=1 \}$.
 > 2. If $h=h^{*}$, then $\text{Sp}_{A}(h)\subseteq \mathbb{R}$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $A$ be unital. Firstly, $\|e\|=\|ee^{*}\|=\|e\|^{2}$ and $\|e\|=1$.  Further, for any unitary $u\in A$, $$\|u\|^{2}=\|uu^{*}\|=\|e\|=1$$and $\|u\|=1$.
 >    

@@ -54,9 +54,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "a7f6f05a5fc13018",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Guelfand Transform.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -99,18 +111,31 @@
             }
           },
           {
+            "id": "9b38264f3841eba9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Continuous function Vanishing at Infinity.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "63be47ac4aacad4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Interior and Closure.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -176,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Functional Analysis/Guelfand Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Functional Analysis/Guelfand Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md"
+                "file": "Functional Analysis/Guelfand Transform.md"
               }
             }
           }
@@ -240,24 +265,24 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0f271565bc87f055",
+  "active": "c0446c2b53475b94",
   "lastOpenFiles": [
+    "Functional Analysis/Continuous function Vanishing at Infinity.md",
+    "Functional Analysis/Guelfand Transform.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Spectrum.md",
+    "Topology/Interior and Closure.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/C-Algebra.md",
-    "Functional Analysis/Guelfand Transform.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/One-Point Compactification.md",
     "Functional Analysis/Banach Algebra.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Topology/Weak Topology.md",
     "Algebra/Associative Algebra.md",
     "Algebra/Algebra Homomorphism.md",
-    "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Topology/Compact Space.md",
     "Functional Analysis/Guelfand Topology.md",
     "Topology/Filter.md",
-    "Topology/Interior and Closure.md",
     "Topology/Locally Compact Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Functional Analysis/Bounded Linear Map.md",

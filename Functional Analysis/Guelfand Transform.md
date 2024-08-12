@@ -5,7 +5,7 @@
 > 1. the ***Guelfand transform*** of $x\in A$ is the function $$\widehat{x}:\widehat{A}\to \mathbb{C},\quad \varphi\mapsto \varphi(x)$$
 ---
 ##### Properties
-> [!lemma] Theorem 1
+> [!lemma] Theorem 1 (Guelfand Transform as Homomorphism)
 > For a commutative Banach algebra $A$ and $x\in A$, 
 > 1. $\widehat{x}\in C_{0}(\widehat{A})$ where $C_{0}$ is the [[Continuous function Vanishing at Infinity|space of continuous functions vanishing at infinity]].
 > 2. $A\to C_{0}(\widehat{A}),x\mapsto \widehat{x}$ is an algebra homomorphism.
@@ -29,20 +29,23 @@
 - **Corollary**: For $x,y\in A$, $\|xy\|_{\text{sp}}=\left\| \widehat{xy} \right\|_{\infty}\leq\|\hat{x}\|_{\infty}\|\hat{y}\|_{\infty}=\|x\|_{\text{sp}}\|y\|_{\text{sp}}$.
 - **Remark**: For every non-commutative Banach algebra $A$ and $x,y\in A$, s.t. $xy=yx$, $\|xy\|_{\text{sp}}\leq\|x\|_{\text{sp}}\|y\|_{\text{sp}}$.
 ---
-> [!lemma] Theorem 2
-> Let $A$ be an abelian [[C*-Algebra|$C^{*}$-algebra]]. Then, the Guelfand transformation: $$A\to C_{0}(\hat{A})$$is an $C^{*}$-algebra isomorphism. More precisely, 
-> 1. $\|\hat{x}\|_{\infty}=\|x\|$ for all $x\in A$.
+> [!lemma] Theorem 2 (Guelfand Transform as Isomorphism)
+> For a commutative [[C*-Algebra|$C^{*}$-algebra]], 
+> 1. $\|\widehat{x}\|_{\infty}=\|x\|_{\text{sp}}=\|x\|$ for  all $x\in A$.
 > 2. $\widehat{x^{*}}=\overline{\widehat{x}}$ for all $x\in A$.
+> 3. $A\to C_{0}(\widehat{A}),x\mapsto \widehat{x}$ is a $C^{*}$-algebra isomorphism.
 
-> [!proof]-
-> Since $A$ is abelian, every $x\in A$ is normal and by [[C*-Algebra|Proposition 2]] and Theorem 1, $\left\| \hat{x} \right\|_{\infty}=\|x\|_{\text{sp}}=\|x\|$ for all $x\in A$. 
+
+> [!proof]+
+> We have:
+> 1. Since $A$ is commutative, every $x\in A$ is normal and by [[C*-Algebra|Proposition 2]] and Theorem 1, $\left\| \hat{x} \right\|_{\infty}=\|x\|_{\text{sp}}=\|x\|$ for all $x\in A$. 
+> 2. Let $x\in A$. Then, $$x=\underbrace{ \left( \frac{x+x^{*}}{2} \right) }_{ =:x_{1} } +i\underbrace{ \left( \frac{x-x^{*}}{2i} \right) }_{ =:x_{2} }$$where $x_{1},x_{2}$ are self-adjoint. Then, by [[C*-Algebra|Proposition 5]] and Theorem 1, $$\widehat{x}_{i}(\widehat{A})\subseteq \text{Sp}_{A}(x_{i})\subseteq \mathbb{R}$$Therefore, $$\widehat{x^{*}}(\varphi)=\varphi((x_{1}+ix_{2})^{*})=\varphi(x_{1}-ix_{2})=\varphi(x_{1})-i\varphi(x_{2})=\overline{\varphi(x_{1})+i\varphi(x_{2})}=\overline{\varphi(x)}=\overline{\widehat{x}(\varphi)}$$
+> 3. From 1, $A\to C_{0}(\widehat{A})$ is a norm-preserving algebra homomorphism. Let $\mathcal{B}:=\{ \widehat{x}: x\in A \}$. Then, $\mathcal{B}$ is a subalgebra and since $A$ is complete and $A\to C_{0}(\widehat{A})$ is norm-preserving, $\mathcal{B}$ is complete in $C_{0}(\widehat{A})$ and hence closed. 
+>    
+>    Now, we will use [[Continuous function Vanishing at Infinity|Stone-Weierstrass]]: 
+>    1. if $\widehat{x}\in \mathcal{B}$, then 
 > 
-> Hence, $A\ \hat{\to}\ C_{0}(\hat{A})$ is a norm-preserving $\mathbb{C}$-algebra homomorphism. In particular, it is injective and its image is closed, because an isometric image of $A$ is complete and thereby closed.
-> 
-> Let $\mathcal{B}:=\{ \hat{x}: x\in A \}\subseteq C_{0}(\hat{A})$. 
-> 1. **Showing that $\widehat{x^{*}}=\overline{\widehat{x}}$**:
->    Let $$x=\underbrace{ \left( \frac{x+x^{*}}{2} \right) }_{ =: x_{1} }+i\underbrace{ \left( \frac{x-x^{*} }{2i}\right) }_{ =: x_{2} } $$ where $x_{1},x_{2}$ are self-adjoint. Then, by Theorem 2, $\widehat{x_{i}}(\hat{A})\subseteq \text{Sp}_{A}(x_{i})\subseteq \mathbb{R}$. Therefore, $$\widehat{x^{*}}(\chi)=\widehat{x_{1}}(\chi)-i\widehat{x_{2}}(\chi)=\widehat{x_{1}}(\chi)+i\widehat{x_{2}}(\chi)=\overline{\widehat{x}}(\chi)$$
-> 2. **Showing $\mathcal{B}$ satisfies the hypothesis of [[Continuous function Vanishing at Infinity|Stone-Weierstrass]]**:
+> 2. **Showing $\mathcal{B}$ satisfies the hypothesis of **:
 > 	- If $\hat{x}\in \mathcal{B}$, then $\widehat{x^{*}}=\overline{\widehat{x}}$ and $\overline{\widehat{x}}\in \mathcal{B}$.
 > 	- For all $\chi\in \hat{A}$, there exists $x\in A$ with $\chi(x)\neq 0$. Then, $\hat{x}(\chi)\neq 0$. 
 > 	- For any $\chi_{1}\neq \chi_{2}$ in $\hat{A}$, there exists $x\in A$ with $\chi_{1}(x)\neq \chi_{2}(x)$ then $\hat{x}(\chi_{1})\neq \hat{x}(\chi_{2})$. 
