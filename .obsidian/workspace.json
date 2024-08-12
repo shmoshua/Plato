@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Complex Measure.md",
+                "file": "Functional Analysis/Hilbert Space Operator.md",
                 "mode": "source",
                 "source": true
               }
@@ -104,19 +104,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Complex Measure.md",
+                "file": "Functional Analysis/Hilbert Space Operator.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "1ad1fa3838e38799",
+            "id": "adac603dce80fd9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Positive Measure.md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": true
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Measure Theory/Complex Measure.md",
+                "file": "Functional Analysis/Hilbert Space Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Measure Theory/Complex Measure.md",
+                "file": "Functional Analysis/Hilbert Space Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Measure Theory/Complex Measure.md"
+                "file": "Functional Analysis/Hilbert Space Operator.md"
               }
             }
           }
@@ -292,11 +292,15 @@
   },
   "active": "71a1f69982a8895e",
   "lastOpenFiles": [
+    "Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/Hilbert Space Operator.md",
+    "Analysis/Hilbert Space.md",
+    "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Measure Theory/Positive Measure.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Measure Theory/Complex Measure.md",
     "Analysis/Complex Measure.md",
     "Functional Analysis/Guelfand Transform.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Measure Theory/Borel Regular Measure.md",
     "Measure Theory/Radon Measure.md",
     "Functional Analysis/Positive Operator.md",
@@ -314,10 +318,6 @@
     "Algebra/Algebra Homomorphism.md",
     "Topology/Compact Space.md",
     "Functional Analysis/Guelfand Topology.md",
-    "Topology/Filter.md",
-    "Topology/Locally Compact Space.md",
-    "Topology/Locally Compact Hausdorff Space.md",
-    "Functional Analysis/Bounded Linear Map.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
