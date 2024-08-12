@@ -79,15 +79,25 @@
 > 2. $\widehat{A}\cong \widehat{B}$ are homeomorphic.
 > 3. $A\cong B$ as $C^{*}$-algebras. 
 
-> [!proof]+
-> We have:
-> 1. (1=>2): Let $T:A\to B$ be a $\mathbb{C}$-algebra isomorphism. Th
----
-> [!lemma] Proposition 6
-> Let $A,B$ be unital $C^{*}$-algebras where $e\in B\subseteq A$. Then, for $x\in B$, $\text{Sp}_{B}(x)=\text{Sp}_{A}(x)$.
-
 > [!proof]-
-> Let $\lambda\in \text{Sp}_{A}(x)$. Then, $x-\lambda e$ is not invertible in $A$ and thereby not in $B$. Therefore, $\text{Sp}_{A}(x)\subseteq \text{Sp}_{B}(x)$
+> We have:
+> 1. (1=>2): Let $T:A\to B$ be a $\mathbb{C}$-algebra isomorphism. Then, as $C^{*}$-algebras are semisimple, by [[Jacobson Radical|Corollary 2]] both $T$ and $T^{-1}$ are continuous. Therefore, $$t:\widehat{B}\to \widehat{A},\quad \varphi\mapsto\varphi \circ T$$is a bijection. It remains to show that $t$ is continuous. 
+>    
+>    Let $\varphi_{0}\in \widehat{A}$, $a_{1},\dots,a_{n}\in A$ and $\varepsilon>0$. Then, for $\varphi\in \widehat{A}$: $$\left| \varphi_{0}(a_{i})-\varphi(a_{i}) \right| <\varepsilon \iff \left| (\varphi_{0}\circ T^{-1})(T(a_{i}))-(\varphi \circ T^{-1})(T(a_{i})) \right| <\varepsilon$$Therefore, $$t^{-1}(\mathcal{U}(\varphi_{0};a_{1},\dots,a_{n};\varepsilon))=\mathcal{U}(\varphi_{0}\circ T^{-1};T(a_{1}),\dots,T(a_{n});\varepsilon)$$which shows that $t$ is continuous. By symmetry, $t$ is a homeomorphism.
+> 2. (2=>3): Let $t:\widehat{B}\to \widehat{A}$ be a homeomorphism. Then, we can define: $$\delta:C_{0}(\widehat{A})\to C_{0}(\widehat{B}),\quad f\mapsto f\circ t$$is an isometric $\mathbb{C}$-algebra isomorphism. Further, we have that: $$f^{*}(t(\varphi))=\overline{f(t(\varphi))}=(f\circ t)^{*}(\varphi)$$Hence, $\delta$ is a $C^{*}$-algebra isomorphism. We then define: $$T:A\to B,\quad x\mapsto \Delta_{B} ^{-1}(\delta(\widehat{x}))$$where $\Delta_{B}:B\to C_{0}(\widehat{B})$ is the Guelfand transform. Then, $T$ is a $C^{*}$-algebra isomorphism.
+> 3. (3=>1): By definition.
+---
+> [!lemma] Proposition 7
+> Let $e\in B\subseteq A$ be unital $C^{*}$-algebras. Then, 
+> 1. $\text{Sp}_{B}(x)=\text{Sp}_{A}(x)$ for $x\in B$.
+
+> [!proof]+
+> Let $\lambda\in \text{Sp}_{A}(x)$. Then, $x-\lambda e$ is not invertible in $A$ and thereby not in $B$. Therefore, $\text{Sp}_{A}(x)\subseteq \text{Sp}_{B}(x)$.
+> 
+> Conversely, let $\lambda\notin \text{Sp}_{A}(x)$. 
+> 1. if $x=x^{*}$, then $\text{Sp}_{B}(x)\subseteq \mathbb{R}$. Hence, if $\lambda\notin \mathbb{R}$, then $\lambda\notin \text{Sp}_{B}(x)$ and we are done. Assume that $\lambda\in \mathbb{R}$. Then, for all $\varepsilon>0$, $\lambda_{\varepsilon}:=\lambda+i\varepsilon\notin \text{Sp}_{B}(x)$. In other words, $(x-\lambda_{\varepsilon}e)^{-1}\in B$. 
+>    
+>    Since we have that $(x-\lambda e)^{-1}\in A$, $$[0,1]\to G(A),\quad \varepsilon \mapsto (x-\lambda_{\varepsilon}e)^{-1}$$is a continuous map. Therefore, $(x-\lambda e)^{-1}=\lim_{ \varepsilon \to 0^+ }(x-\lambda_{\varepsilon}e)^{-1}\in B$ as $B$ is closed from completeness. Therefore, $@$
 > 
 > Let however $\lambda \notin \text{Sp}_{A}(x)$. 
 > 1. If $x=x^{*}$, then $\text{Sp}_{B}(x)\subseteq \mathbb{R}$ and for all $\varepsilon>0$, $\lambda_{\varepsilon}:=\lambda+i\varepsilon\notin \text{Sp}_{B}(x)$. Hence, $$(x-\lambda_{\varepsilon}e)^{-1}\in B$$Since we have that $(x-\lambda e)^{-1}\in A$ and $$\begin{array}{cccc} {}&{[0,1]}&\to&{G(A)}\\&{\varepsilon} &\mapsto & {(x-\lambda_{\varepsilon}e)^{-1}} \end{array}{}$$is continuous, we have: $$(x-\lambda e)^{-1}=\lim_{ \varepsilon \to 0^+ } (x-\lambda _{\varepsilon}e)^{-1}\in B$$as $B$ is closed. Therefore, $\text{Sp}_{B}(x)\subseteq \text{Sp}_{A}(x)$.

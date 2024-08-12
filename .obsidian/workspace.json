@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -277,13 +277,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a7f6f05a5fc13018",
+  "active": "71a1f69982a8895e",
   "lastOpenFiles": [
-    "Functional Analysis/Guelfand Transform.md",
-    "Functional Analysis/Jacobson Radical.md",
-    "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/C-Algebra.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Guelfand Transform.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Jacobson Radical.md",
+    "Functional Analysis/C-Algebra.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Spectrum.md",
