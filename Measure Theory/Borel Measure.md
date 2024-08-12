@@ -1,13 +1,13 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> Let $X$ be a [[Locally Compact Hausdorff Space|locally compact Hausdorff space]]. A [[Measure| measure]] $\mu$ on $X$ is ***Borel*** if every [[Borel Sigma-Algebra|Borel set]] $V\in \mathcal{B}(X)$ is $\mu$-measurable.
+> Let $X$ be a [[Locally Compact Hausdorff Space|locally compact Hausdorff space]]. A [[Positive Measure| measure]] $\mu$ on $X$ is ***Borel*** if every [[Borel Sigma-Algebra|Borel set]] $V\in \mathcal{B}(X)$ is $\mu$-measurable.
 > 
 > Further, a Borel measure $\mu$ on $X$ is called ***Borel regular*** if for all $A \subseteq X$ there exists $B\in \mathcal{B}(X)$ with $A \subseteq B$ s.t. $$\mu(B)=\mu(A)$$
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Carathéodory's criterion)
-> A [[Measure|metric measure]] $\mu$ on $\mathbb{R}^n$ is Borel.
+> A [[Positive Measure|metric measure]] $\mu$ on $\mathbb{R}^n$ is Borel.
 
 > [!proof]-
 > It is enough to show that all closed sets $F\subseteq \mathbb{R}^n$ is $\mu$-measurable, i.e. for every $B \subseteq \mathbb{R}^n$: $$\mu(B)\geq \mu(B \cap F)+ \mu(B \backslash F)$$

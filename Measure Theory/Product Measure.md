@@ -1,7 +1,7 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> Let $\mu$ be a [[measure]] on $X$ and $\nu$ on $Y$. Then, we define the ***product measure*** $\mu \times \nu:\mathcal{P}(X\times Y)\to[0,+\infty]$ as
+> Let $\mu$ be a [[Positive Measure]] on $X$ and $\nu$ on $Y$. Then, we define the ***product measure*** $\mu \times \nu:\mathcal{P}(X\times Y)\to[0,+\infty]$ as
 > $$(\mu \times \nu)(S)=\inf\left\{  \left. \sum_{i=1}^{\infty}\mu(A_{i})\nu(B_{i}) \right| S\subseteq \bigcup_{i=1}^{\infty}A_{i}\times B_{i},A_{i}\subseteq X \ \mu \text{-measurable} ,B_{i}\subseteq Y \ \nu \text{-measurable} \right\}$$for any $S\subseteq X\times Y$.
 ---
 ##### Properties

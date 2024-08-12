@@ -15,8 +15,8 @@
 
 **1.2 Measures**
 1. [[Additive Functions|Additive and $\sigma$-additive functions]]
-2. [[Measure]]
-3. **Example of measures**: [[Measure|Dirac measure]]
+2. [[Positive Measure]]
+3. **Example of measures**: [[Positive Measure|Dirac measure]]
 4. [[Measurable Set]]
 5. [[Measure Space]]
 6. **Construction of measures**: [[Set Covering]]

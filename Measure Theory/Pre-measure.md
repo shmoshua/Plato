@@ -6,7 +6,7 @@
 ##### Properties
 > [!lemma] Theorem 1
 > Let $\mathcal A\subseteq \mathcal P(X)$ be an algebra and $\lambda:\mathcal{A}\to[0,+\infty]$ a pre-measure. Then, for a function $\mu:\mathcal{P}(X)\to[0,+\infty]$ defined as: $$\mu(A)=\text{inf}\left\{  \left.\sum_{i=1}^{\infty}\lambda(A_{i})  \right| A_{i}\in \mathcal A,A\subseteq \bigcup_{i=1}^{\infty}A_{ i}\right\}$$the followings hold:
-> 1. $\mu$ is a [[measure]].
+> 1. $\mu$ is a [[Positive Measure]].
 > 2. $\left. \mu \right|_{\mathcal{A}}=\lambda$.
 > 4. For all $A\in\mathcal A$, $A$ is [[Measurable Set|$\mu$-measurable]], i.e. $\mathcal{A}\subseteq\Sigma_{\mu}$
 >    

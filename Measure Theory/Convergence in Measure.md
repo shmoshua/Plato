@@ -1,7 +1,7 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> Let $\mu$ be a [[Measure|measure]] on $\mathbb{R}^n$, $\Omega \subseteq \mathbb{R}^n$ [[Measurable Set|$\mu$-measurable]]. Further, let $f,f_{k}:\Omega \to \overline{\mathbb{R}}$ be [[Measurable Function|$\mu$-measurable]] and $\left| f \right|<+\infty$ $\mu$-a.e.
+> Let $\mu$ be a [[Positive Measure|measure]] on $\mathbb{R}^n$, $\Omega \subseteq \mathbb{R}^n$ [[Measurable Set|$\mu$-measurable]]. Further, let $f,f_{k}:\Omega \to \overline{\mathbb{R}}$ be [[Measurable Function|$\mu$-measurable]] and $\left| f \right|<+\infty$ $\mu$-a.e.
 > 
 > Then, ***$(f_{k})_{k}$ converges in measure $\mu$ to $f$***, i.e. $f_{k} \overset{ \mu }{ \to }f$ as $k\to \infty$, if for all $\varepsilon>0$, $$\lim_{ k \to \infty } \mu(\{ x\in \Omega:\left| f(x)-f_{k}(x) \right| >\varepsilon \})=0$$
 

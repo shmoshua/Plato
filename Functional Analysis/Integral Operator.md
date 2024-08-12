@@ -1,7 +1,7 @@
 #Definition #Example #FunctionalAnalysis 
 
 > [!definition]
-> Let $(X,\Sigma,\mu)$ be a [[Measure|$\sigma$-finite]] measure space. Then, an ***integral operator***  is defined as 
+> Let $(X,\Sigma,\mu)$ be a [[Positive Measure|$\sigma$-finite]] measure space. Then, an ***integral operator***  is defined as 
 > $$\begin{array}{cccc} {T}&{:L^2(X\times X,\mathbb{K},\mu \times \mu)}&\to&{\mathcal{B}(L^2(X,\mu))}\\&{K} &\mapsto & {T_{K}} \end{array}{}$$such that:
 > 
 > $$(T_{K}f)(x)=\int_{X}^{} f(y)K(x,y) \, d\mu(y)=\braket{ K_{x} , \overline{f} } $$with $K_{x}=K(x,\cdot)$.

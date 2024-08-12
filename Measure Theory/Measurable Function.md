@@ -1,7 +1,7 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> Let $\mu$ be a [[Measure|measure]] on $\mathbb{R}^n$ and $\Omega \subseteq \mathbb{R}^n$ a [[Measurable Set|$\mu$-measurable set]]. Then, a function $f:\Omega \to[-\infty,\infty]$ is ***$\mu$-measurable*** if and only if: 
+> Let $\mu$ be a [[Positive Measure|measure]] on $\mathbb{R}^n$ and $\Omega \subseteq \mathbb{R}^n$ a [[Measurable Set|$\mu$-measurable set]]. Then, a function $f:\Omega \to[-\infty,\infty]$ is ***$\mu$-measurable*** if and only if: 
 > 1. $f^{-1}[\{ -\infty \}]$ and $f^{-1}[\{ \infty \}]$ are $\mu$-measurable and
 > 2. $f^{-1}[A]$ is $\mu$-measurable for all [[Borel Sigma-Algebra|Borel sets]] $A\in\mathcal{B}(\mathbb{R})$.
 

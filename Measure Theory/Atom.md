@@ -1,7 +1,7 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> Let $X$ be a set and $\mu$ a [[measure]] on $X$. Then, $x\in X$ is an ***atom*** of $\mu$ if 
+> Let $X$ be a set and $\mu$ a [[Positive Measure]] on $X$. Then, $x\in X$ is an ***atom*** of $\mu$ if 
 > 1. $\{ x \}$ is [[Measurable Set|$\mu$-measurable]] and
 > 2. $\mu(\{ x \})>0$
 > 

@@ -12,7 +12,7 @@
 > [!lemma] Theorem 1
 > For a covering $\mathcal{K}$ of $X$, and a function $\lambda:\mathcal{K} \to[0,+\infty]$ with $\lambda(\varnothing)=0$, we define $\mu:\mathcal{P}(X)\to[0,+\infty]$ as follows:
 > $$\mu(A)=\text{inf}\left\{  \left.\sum_{n=1}^{\infty}\lambda(A_{n})  \right|A_{n}\in \mathcal{K},A\subseteq \bigcup_{n=1}^{\infty}A_{n}\right\}$$
-> Then, $\mu$ is a [[Measure|measure]].
+> Then, $\mu$ is a [[Positive Measure|measure]].
 
 > [!proof]-
 > Firstly, trivially we have $\mu(\varnothing)=0$. 

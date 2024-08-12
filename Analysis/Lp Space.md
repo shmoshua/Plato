@@ -10,7 +10,7 @@
 > $$L^p(X,\mu,\mathbb{K}):=\left\{  f:X \to \mathbb{K} \text{ measurable s.t.} \left\| f \right\| _{p}<+\infty \right\}_{/\sim}$$
 > where $f_{1}\sim f_{2}$ if $f_{1}=f_{2}$ [[Almost Everywhere|$\mu$-a.e]].
 > 
-- **Related Definition**: If $\mu$ is the [[Measure|counting measure]], we denote $\ell^p(X,\mathbb{K}):=L^p(X,\mu,\mathbb{K})$.
+- **Related Definition**: If $\mu$ is the [[Positive Measure|counting measure]], we denote $\ell^p(X,\mathbb{K}):=L^p(X,\mu,\mathbb{K})$.
 - **Remark**: For $f\in L^\infty(X,\mu)$, $\left| f \right|\leq \left\| f \right\|_{\infty}$ $\mu$-a.e.
 - **Remark**: If $p=2$, the $L^p$ norm comes from the inner product: $$\braket{ f , g } =\int_{X}^{} f\overline{g} \, d\mu  $$ 
 ---

@@ -1,7 +1,7 @@
 #Definition #MeasureTheory 
 
 > [!definition] 
-> For a [[Measure|measure]] $\mu:\mathcal{ P}(X)\to [0,+\infty]$ and a [[Sigma Algebra|$\sigma$-algebra]] $\Sigma$ of all [[Measurable Set|$\mu$-measurable sets]], the tuple $(X,\Sigma,\mu)$ is called a ***measure space***.
+> For a [[Positive Measure|measure]] $\mu:\mathcal{ P}(X)\to [0,+\infty]$ and a [[Sigma Algebra|$\sigma$-algebra]] $\Sigma$ of all [[Measurable Set|$\mu$-measurable sets]], the tuple $(X,\Sigma,\mu)$ is called a ***measure space***.
 ---
 ##### Properties
 > [!lemma] Theorem 1

@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> For a set $X$, a ***complex [[Measure|measure]]*** is a function $\mu: \mathcal{B}(X)\to \mathbb{C}$ defined on the [[Borel Sigma-Algebra|Borel $\sigma$-algebra]] $\mathcal{B}(X)$ s.t. for all $E\in \mathcal{B}(X)$ and $E=\bigcup_{i=1}^{\infty}E_{i}$ a disjoint union, then: $$\mu(E)=\sum_{i=1}^{\infty}\mu(E_{i})$$
+> For a set $X$, a ***complex [[Positive Measure|measure]]*** is a function $\mu: \mathcal{B}(X)\to \mathbb{C}$ defined on the [[Borel Sigma-Algebra|Borel $\sigma$-algebra]] $\mathcal{B}(X)$ s.t. for all $E\in \mathcal{B}(X)$ and $E=\bigcup_{i=1}^{\infty}E_{i}$ a disjoint union, then: $$\mu(E)=\sum_{i=1}^{\infty}\mu(E_{i})$$
 
 - **Remark**: Riemann states that this is absolutely convergent.
 - **Related Definition**: for a complex measure $\mu:\mathcal{B}(X)\to \mathbb{C}$,  the ***total variation*** of $\mu$ is defined as:$$\left| \mu \right| (E):=\sup\left\{   \sum_{i=1}^{\infty}\left| \mu(E_{i}) \right| : E=\bigcup_{i=1}^{\infty}E_{i}\text{ a partition}  \right\}$$Then, 

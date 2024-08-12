@@ -1,7 +1,7 @@
 #Definition #MeasureTheory 
 
 > [!definition] Definition (Carathéodory criterion)
-> For a [[Measure|measure]] $\mu:\mathcal{P}(X)\to[0,+\infty]$, a set $A \subseteq X$ is called ***$\mu$-measurable*** if for all $B\subseteq X$, we have: $$\mu(B)=\mu(B\cap A)+\mu(B \backslash A)$$
+> For a [[Positive Measure|measure]] $\mu:\mathcal{P}(X)\to[0,+\infty]$, a set $A \subseteq X$ is called ***$\mu$-measurable*** if for all $B\subseteq X$, we have: $$\mu(B)=\mu(B\cap A)+\mu(B \backslash A)$$
 > As a measure $\mu$ is $\sigma$-subadditive, this condition is equivalent to: $$\mu(B)\geq\mu(B\cap A)+\mu(B \backslash A)$$
 ---
 ##### Properties

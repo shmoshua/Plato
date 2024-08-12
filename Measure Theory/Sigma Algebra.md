@@ -72,7 +72,7 @@
 1. The power set $\mathcal{P}(X)$ and $\{ \varnothing,X \}$ are trivial $\sigma$-algebras.
 2. The union of half-closed intervals in $X=[0,1)$ is not a $\sigma$-algebra: $\lim_{ n \to \infty }\left[  \frac{1}{n},1 \right)=(0,1)\notin \mathcal{A}$.
 3. [[Borel Sigma-Algebra]]
-4. The set of all $\mu$-measurable sets, where $\mu: \mathcal{ P}(X)\to[0,+\infty]$ is a [[Measure|measure]], is a $\sigma$-algebra.
+4. The set of all $\mu$-measurable sets, where $\mu: \mathcal{ P}(X)\to[0,+\infty]$ is a [[Positive Measure|measure]], is a $\sigma$-algebra.
 5. For an uncountable set $X$, $\{ E\subseteq X:E \text{ or }E^c \text{ is at most countable} \}$ is a $\sigma$-algebra
 ---
 
