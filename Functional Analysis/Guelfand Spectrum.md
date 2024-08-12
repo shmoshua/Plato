@@ -54,7 +54,7 @@
 
 ^a2c505
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. As an open subspace of a compact Hausdorff space is locally compact Hausdorff by [[Compact Space|Compact Hausdorff Space Proposition 2]], we aim to show that $\widehat{A}$ is open in some compact Hausdorff space.
 >    

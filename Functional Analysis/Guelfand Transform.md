@@ -36,21 +36,21 @@
 > 3. $A\to C_{0}(\widehat{A}),x\mapsto \widehat{x}$ is a $C^{*}$-algebra isomorphism.
 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Since $A$ is commutative, every $x\in A$ is normal and by [[C*-Algebra|Proposition 2]] and Theorem 1, $\left\| \hat{x} \right\|_{\infty}=\|x\|_{\text{sp}}=\|x\|$ for all $x\in A$. 
 > 2. Let $x\in A$. Then, $$x=\underbrace{ \left( \frac{x+x^{*}}{2} \right) }_{ =:x_{1} } +i\underbrace{ \left( \frac{x-x^{*}}{2i} \right) }_{ =:x_{2} }$$where $x_{1},x_{2}$ are self-adjoint. Then, by [[C*-Algebra|Proposition 5]] and Theorem 1, $$\widehat{x}_{i}(\widehat{A})\subseteq \text{Sp}_{A}(x_{i})\subseteq \mathbb{R}$$Therefore, $$\widehat{x^{*}}(\varphi)=\varphi((x_{1}+ix_{2})^{*})=\varphi(x_{1}-ix_{2})=\varphi(x_{1})-i\varphi(x_{2})=\overline{\varphi(x_{1})+i\varphi(x_{2})}=\overline{\varphi(x)}=\overline{\widehat{x}(\varphi)}$$
 > 3. From 1, $A\to C_{0}(\widehat{A})$ is a norm-preserving algebra homomorphism. Let $\mathcal{B}:=\{ \widehat{x}: x\in A \}$. Then, $\mathcal{B}$ is a subalgebra and since $A$ is complete and $A\to C_{0}(\widehat{A})$ is norm-preserving, $\mathcal{B}$ is complete in $C_{0}(\widehat{A})$ and hence closed. 
 >    
+>    Further as $A\to C_{0}(\widehat{A})$ is norm-preserving, it is injective. If $\left\| \widehat{x} \right\|_{\infty}=0$, then $\|x\|=0$ and $x=0$. Therefore, it is only left to show that it is surjective. 
+>    
 >    Now, we will use [[Continuous function Vanishing at Infinity|Stone-Weierstrass]]: 
->    1. if $\widehat{x}\in \mathcal{B}$, then 
+>    1. if $\widehat{x}\in \mathcal{B}$, then $\widehat{x^{*}}=\overline{\widehat{x}}\in \mathcal{B}$. 
+>    2. for all $\varphi\in \widehat{A}$, there exists $x\in A$ with $\varphi(x)\neq 0$. Then, $\widehat{x}(\varphi)\neq 0$.
+>    3. for any $\varphi_{1}\neq\varphi_{2}$ in $\widehat{A}$, there exists $x\in A$ with $\varphi_{1}(x)\neq\varphi_{2}(x)$ and $\widehat{x}(\varphi_{1})\neq \widehat{x}(\varphi_{2})$.
+>       
+>    Therefore, $\mathcal{B}$ is dense in $C_{0}(\widehat{A})$ and as $\mathcal{B}$ is closed, $\mathcal{B}=C_{0}(\widehat{A})$.
 > 
-> 2. **Showing $\mathcal{B}$ satisfies the hypothesis of **:
-> 	- If $\hat{x}\in \mathcal{B}$, then $\widehat{x^{*}}=\overline{\widehat{x}}$ and $\overline{\widehat{x}}\in \mathcal{B}$.
-> 	- For all $\chi\in \hat{A}$, there exists $x\in A$ with $\chi(x)\neq 0$. Then, $\hat{x}(\chi)\neq 0$. 
-> 	- For any $\chi_{1}\neq \chi_{2}$ in $\hat{A}$, there exists $x\in A$ with $\chi_{1}(x)\neq \chi_{2}(x)$ then $\hat{x}(\chi_{1})\neq \hat{x}(\chi_{2})$. 
-> 	
-> 	Therefore, $\mathcal{B}$ is dense in $C_{0}(\hat{A})$ and as the image is closed, $\mathcal{B}=C_{0}(\hat{A})$.
 ---
 > [!lemma] Corollary 3
 > For abelian $C^{*}$-algebras $A,B$, the following are equivalent:

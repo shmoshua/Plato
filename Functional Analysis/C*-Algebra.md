@@ -74,6 +74,16 @@
 > 	
 ---
 > [!lemma] Proposition 6
+> Let $A,B$ be two commutative $C^{*}$-algebras. Then, TFAE:
+> 1. $A\cong B$ as $\mathbb{C}$-algebras.
+> 2. $\widehat{A}\cong \widehat{B}$ are homeomorphic.
+> 3. $A\cong B$ as $C^{*}$-algebras. 
+
+> [!proof]+
+> We have:
+> 1. (1=>2): Let $T:A\to B$ be a $\mathbb{C}$-algebra isomorphism. Th
+---
+> [!lemma] Proposition 6
 > Let $A,B$ be unital $C^{*}$-algebras where $e\in B\subseteq A$. Then, for $x\in B$, $\text{Sp}_{B}(x)=\text{Sp}_{A}(x)$.
 
 > [!proof]-
