@@ -128,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Measure Theory/Measurable Function.md",
                 "mode": "preview",
                 "source": true
               }
@@ -304,9 +304,12 @@
   },
   "active": "71a1f69982a8895e",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Measure Theory/Measurable Function.md",
+    "Analysis/Banach Space.md",
     "Functional Analysis/Resolution of Identity.md",
+    "Functional Analysis/C-Algebra.md",
     "Analysis/Hilbert Space.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
@@ -319,7 +322,6 @@
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Jacobson Radical.md",
-    "Functional Analysis/C-Algebra.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Spectrum.md",
@@ -328,8 +330,6 @@
     "Functional Analysis/Banach Algebra.md",
     "Topology/Weak Topology.md",
     "Algebra/Associative Algebra.md",
-    "Algebra/Algebra Homomorphism.md",
-    "Topology/Compact Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

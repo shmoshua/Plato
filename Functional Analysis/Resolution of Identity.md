@@ -12,7 +12,7 @@
 - **Remark**: If $\omega_{1}\cap\omega_{2}=\varnothing$, then $\text{Im }E(\omega_{1}) {\ \bot\ }\text{Im } E(\omega_{2})$ (cf. [[Hilbert Space Operator|Proposition 4]])
 - **Remark**: For any $x\in \mathcal{H}$, $E_{x,x}(\omega)=\braket{ E(\omega)x , x }=\left\| E(\omega)x \right\|^{2}$. Therefore, $0\leq E_{x,x}(\omega)\leq \|x\|^{2}$ and $E_{x,x}$ is a bounded positive measure.
 - **Related definition**: We define:
-	 1. $\mathcal{B}^\infty(X):=\{ f:X\to \mathbb{C} | f\text{ Borel-measurable}, \left\| f \right\| :=\sup_{x\in X}\left| f(x) \right|  \}$ and 
+	 1. $\mathcal{B}^\infty(X):=\{ f:X\to \mathbb{C} | f\text{ Borel-measurable}, \left\| f \right\| :=\sup_{x\in X}\left| f(x) \right| <+\infty \}$ and 
 	 2. the ***essential image*** of a measurable map $f:X\to \mathbb{C}$: $\text{ess im}(f):=\mathbb{C} \backslash \bigcup_{E(f^{-1}(D_{n}))=0}^{}D_{n}$. 
 	 3. a [[seminorm]] $\|f\|_{\infty}:=\sup\{ \left| \lambda \right|:\lambda\in \text{ess im}(f) \}$
 	 4. $N:=\{ f\in \mathcal{B}^\infty(X),\|f\|_{\infty}=0 \}$ as a closed ideal in $\mathcal{B}^\infty(X)$.
@@ -47,14 +47,27 @@
 > 2. Consider $(\tilde{\omega}_{n})_{n}$ where $\tilde{\omega}_{n}:=\omega_{n}\backslash \omega_{n-1}$. Then, $(\tilde{ \omega}_{n})_{n}$ is disjoint and $$E\left( \bigcup_{n}^{} \omega_{n}\right)x=E\left( \bigcup_{n}^{}\tilde{\omega}_{n} \right)x=\sum_{n=1}^{\infty}E(\tilde{\omega}_{n})x=\lim_{ m\to \infty } \sum_{n=1}^{m}E(\tilde{\omega}_{n})x=\lim_{ m \to \infty } E(\omega_{m})x$$
 > 3. Consider $(\tilde{\omega}_{n})_{n}$ where $\tilde{\omega}_{n}:=\omega_{1}\backslash \omega_{n}$. Then, $(\tilde{ \omega}_{n})_{n}$ is increasing and $$\begin{align}E\left( \bigcap_{n=1}^{\infty}\omega_{n} \right)x=E(\omega_{1})x- \end{align}$$
 ---
-> [!lemma] Proposition 3
-> We have that: 
-> 1. $\mathcal{B}^\infty(X)$ is a commutative $C^{*}$-algebra with complex conjugate.
-> 2. $\text{ess im}(f)$ is closed.
-> 3. $\|f\|_{\infty}=\inf\{ t\geq 0:E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0))) =0\}$
+> [!lemma] Lemma 3
+> For a measurable function $f:X\to C$
+> 1. $\text{ess im}(f)$ is closed.
+> 2. $\|f\|_{\infty}=\inf\{ t\geq 0:E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0))) =0\}$
 
 > [!proof]+
 > 
+
+---
+> [!lemma] Proposition 4 (Bounded Borel Functions form a C*-algebra)
+> We have that: 
+> 1. $\mathcal{B}^\infty(X)$ is a commutative $C^{*}$-algebra with complex conjugate.
+
+> [!proof]+
+> We have that:
+> 1. $\mathcal{B}^\infty(X)$ is a unital $\mathbb{C}$-algebra with unit $1$.
+> 2. **$\mathcal{B}^\infty(X)$ is a Banach space**: Let $(f_{n})\in \mathcal{B}^\infty(X)$ be a Cauchy sequence. Then, $f:=\lim_{ n \to \infty }f_{n}$ exists and is bounded. Further, it is measurable by [[Measurable Function|Theorem 1.4]]. Hence, $f\in \mathcal{B}^\infty(X)$.
+> 3. $\left\| fg \right\|=\sup_{x\in X}\left| f(x)g(x) \right|\leq\sup_{x\in X}\left| f(x) \right|\sup_{x\in X}\left| g(x) \right|=\left\| f \right\|\left\| g \right\|$.
+> 4. $\mathcal{B}^\infty(X)$ is an involutive Banach algebra. 
+> 5. Lastly, $$\left\| ff^{*} \right\| =\sup_{x\in X}\left| f(x) \right| ^{2}=(\sup_{x\in X}\left| f(x) \right| )^{2}=\left\| f \right\| ^{2}$$
+---
 
 ---
 > [!lemma] Theorem 4
