@@ -48,12 +48,16 @@
 > 3. Consider $(\tilde{\omega}_{n})_{n}$ where $\tilde{\omega}_{n}:=\omega_{1}\backslash \omega_{n}$. Then, $(\tilde{ \omega}_{n})_{n}$ is increasing and $$\begin{align}E\left( \bigcap_{n=1}^{\infty}\omega_{n} \right)x=E(\omega_{1})x- \end{align}$$
 ---
 > [!lemma] Lemma 3
-> For a measurable function $f:X\to C$
+> For a compact Hausdorff $X$ and a measurable function $f:X\to \mathbb{C}$, 
 > 1. $\text{ess im}(f)$ is closed.
-> 2. $\|f\|_{\infty}=\inf\{ t\geq 0:E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0))) =0\}$
+> 2. for any $z\in \text{ess im}(f)$ and open $U\ni z$, $E(f^{-1}(U))\neq 0$.
+> 3. $\|f\|_{\infty}=\inf\{ t\geq 0:E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0))) =0\}$
 
 > [!proof]+
-> 
+> We have that:
+> 1. By definition.
+> 2. If $z\in \text{ess im}(f)$. Then, for any $D_{n}$ with $E(f^{-1}(D_{n}))=0$, $z\notin D_{n}$. Now, assume that $E(f^{-1}(U))=0$. By basis, there exists $z\in D_{n}\subseteq U$ and as $$f^{-1}(U)=f^{-1}(D_{n})\sqcup f^{-1}(U\backslash D_{n})$$we have that $$0=E(f^{-1}(U))=E(f^{-1}(D_{n}))+E(f^{-1}(U \backslash D_{n}))$$Now, for any $x\in \mathcal{H}$, $$\braket{ E(f^{-1}(D_{n}))x , x } =\braket{ E(f^{-1}(D_{n}))x , E(f^{-1}(D_{n}))x }=\braket{ E(f^{-1}(D_{n}))x , -E(f^{-1}(U \backslash D_{n}))x }=0  $$and $E(f^{-1}(D_{n}))=0$, which is a contradiction.
+> 3. Let $z\in \text{ess im}(f)$. Then, by 2 $E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0$ means that $\left| z \right|\leq t$. Otherwise $z\in \mathbb{C} \backslash B_{\leq t}(0)$ which is open and $E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))\neq 0$. Hence, we have that: $$\left\| f \right\| _{\infty}=\inf \{ t\geq 0 : E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0\}$$Now consider $t>\left\| f \right\|_{\infty}$. Then, $\mathbb{C} \backslash B_{\leq t}(0)\subseteq \mathbb{C} \backslash \text{ess im}(f)$. Therefore, there exists a countable open cover $\mathbb{C} \backslash B_{\leq t}(0)\subseteq \bigcup_{n}^{}D_{n}$ where $E(D_{n})$
 
 ---
 > [!lemma] Proposition 4 (Bounded Borel Functions form a C*-algebra)
