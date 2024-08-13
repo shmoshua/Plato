@@ -30,7 +30,7 @@ For $T\in \mathcal{B}(\mathcal{H})$, we have that: $$\begin{align}\braket{ T(x+y
 > 2. $\text{ker }T=0$ if and only if $(\text{im }T)^{\bot}=0$. This is equivalent to $\overline{\text{im }T}=\mathcal{H}$.
 > 3. If $T$ is invertible, then it is surjective and by [[Bounded Linear Map|Open mapping theorem]], there exists $c>0$ s.t. $B_{<c}(0)\subseteq T(B_{<1}(0))$. Let $x\in \mathcal{H}$. Then, $x/\|x\|\notin B_{<1}(0)$ and $$\frac{\left\| Tx \right\|}{\|x\|}\geq c$$
 >    
->    Conversely, we have that $\text{ker }T=0$ and $\overline{\text{Im }T}=\mathcal{H}$, but $\text{Im }T$ is closed. Therefore, $\text{Im }T=\mathcal{H}$.
+>    Conversely, we have that $\text{ker }T=(0)$ and $\overline{\text{im }T}=\mathcal{H}$, but $\text{im }T$ is closed. Therefore, $\text{Im }T=\mathcal{H}$.
 > 4. $\text{ker}(T-\alpha \text{id})=\text{ker}(T^{*}-\overline{\alpha}\text{id})$.
 > 5. Let $Tx=\alpha x$ and $Ty=\beta y$. Then, $$\alpha \braket{ x , y } =\braket{ Tx , y } =\braket{ x , T^{*}y } =\braket{ x , \overline{\beta}y } =\beta \braket{ x , y } $$However, as $\alpha\neq\beta$, $\braket{ x , y }=0$.
 ---
