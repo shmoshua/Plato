@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Hilbert Space Operator.md",
+                "file": "Functional Analysis/Resolution of Identity.md",
                 "mode": "source",
                 "source": true
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Hilbert Space Operator.md",
+                "file": "Functional Analysis/Resolution of Identity.md",
                 "mode": "preview",
                 "source": true
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Hilbert Space Operator.md",
+                "file": "Functional Analysis/Resolution of Identity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Hilbert Space Operator.md",
+                "file": "Functional Analysis/Resolution of Identity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Hilbert Space Operator.md"
+                "file": "Functional Analysis/Resolution of Identity.md"
               }
             }
           }
@@ -292,8 +292,9 @@
   },
   "active": "71a1f69982a8895e",
   "lastOpenFiles": [
-    "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Hilbert Space Operator.md",
+    "Functional Analysis/Resolution of Identity.md",
+    "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Hilbert Space.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Measure Theory/Positive Measure.md",
@@ -317,7 +318,6 @@
     "Algebra/Associative Algebra.md",
     "Algebra/Algebra Homomorphism.md",
     "Topology/Compact Space.md",
-    "Functional Analysis/Guelfand Topology.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
