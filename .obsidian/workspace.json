@@ -78,6 +78,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "6b93073e3dc35276",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Hilbert Space Operator.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 5
@@ -116,7 +128,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Bounded Linear Map.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -292,13 +304,13 @@
   },
   "active": "71a1f69982a8895e",
   "lastOpenFiles": [
-    "Functional Analysis/Hilbert Space Operator.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Resolution of Identity.md",
-    "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Hilbert Space.md",
+    "Functional Analysis/Hilbert Space Operator.md",
+    "Functional Analysis/Bounded Linear Map.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Measure Theory/Positive Measure.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Measure Theory/Complex Measure.md",
     "Analysis/Complex Measure.md",
     "Functional Analysis/Guelfand Transform.md",

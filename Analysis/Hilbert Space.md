@@ -74,6 +74,18 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > Recall that every $f\in \mathcal{H}^{*}$ is given by $f(v)=\braket{ v , x }$ for some $x\in \mathcal{H}$ from Riesz Representation theorem. Let $x=\sum_{n=1}^{\infty}\braket{ x , e_{n} }e_{n}$, with $\|x\|^{2}=\sum_{n=1}^{\infty}\left| \braket{ x , e_{n} } \right|^{2}$. Then, $$f(e_{n})=\braket{ e_{n} , x } $$Since $\|x\|^{2}=\sum_{n=1}^{\infty}|\braket{ e_{n} , x } |^{2}$, we have that $\lim_{ n \to \infty }\braket{ e_{n} , x } =0$. This shows that $f(e_{n})\to 0$. From [[Weak Topology|Lemma 2]], $e_{n}\to{0}$ in weak-topology.
 - **Corollary**: $B_{\leq 1}^\mathcal{H}(0)$ is weakly closed, $S_{1}^\mathcal{H}(0)=\{ v\in \mathcal{H}:\|v\|=1 \}$ is not weakly closed.
 ---
+> [!lemma] Lemma 2
+> Let $\mathcal{H}$ be a Hilbert space and assume $\{ x_{n}: n\geq 1 \}$ is pairwise orthogonal. Then, the following are equivalent:
+> 1. $\sum_{n=1}^{\infty}x_{n}$ converges.
+> 2. $\sum_{n=1}^{\infty}\left\| x_{n} \right\|^{2}$ converges.
+> 3. $\sum_{n=1}^{\infty}\braket{ x_{n} , y }$ converges for all $y\in \mathcal{H}$.
+
+> [!proof]+
+> 1 is equivalent to 2 by [[Hilbert Space|Pythagoras]]. (the partial sum is Cauchy in one iff it is in another).
+> 1. (1=>3): We have; $$\left| \sum_{n=k}^{\ell}\braket{ x_{n} , y }  \right| =\left| \left\langle \sum_{n=k}^{\ell} x_{n},y  \right\rangle \right|\leq \left\| \sum_{n=k}^{\ell}x_{n} \right\| \left\| y \right\|  $$Therefore, 3 is Cauchy if 1 is Cauchy.
+> 2. (3=>1): Define $\Lambda_{n}(y):=\sum_{k=1}^{n}\braket{ y ,x_{k}  }$ . Then, $\Lambda_{n}\in \mathcal{H}^{*}$. Then, for all $y\in \mathcal{H}$, $\lim_{ n \to \infty }\Lambda_{n}(y)$ exists and $$\sup_{n\geq 1}\left| \Lambda_{n}(y) \right| <+\infty,\quad \forall y\in \mathcal{H}$$Then, by [[Bounded Linear Map|Banach-Steinhaus]], $\sup_{n\geq 1}\left\| \Lambda_{n} \right\|<+\infty$. Then, $$\left\| \Lambda_{n} \right\| ^{2}=\sup_{\left\| y \right\| \leq 1}\left| \left\langle\sum_{k=1}^{n}x_{k},y\right\rangle \right| ^{2}\leq \left\| \sum_{k=1}^{n}x_{k} \right\| ^{2}=\sum_{k=1}^{n}\left\| x_{k} \right\| ^{2}$$Therefore, we get 1. 
+
+---
 > [!lemma] Lemma
 > Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space and $A\subseteq \mathcal{B}(\mathcal{H})$ is a [[C*-Algebra|commutative sub-$C^{*}$-algebra]] containing $\text{id}_{\mathcal{H}}$. Then, there exists $J\subseteq \mathbb{N}$ and $\{ v_{n}:n\in J \}\subseteq \mathcal{H} \backslash\{ 0 \}$ s.t. 
 > 1. $\overline{Av_{n}}\ \bot\  \overline{Av_{m}}$ for $n\neq m$.

@@ -49,10 +49,10 @@ For $T\in \mathcal{B}(\mathcal{H})$, we have that: $$\begin{align}\braket{ T(x+y
 > 4. (4=>1): As $\braket{ Px , x }=\left\| Px \right\|^{2}\in \mathbb{R}$, $$\braket{ Px , x } =\braket{ x , Px } =\braket{ P^{*}x , x } $$for all $x\in \mathcal{H}$.
 ---
 > [!lemma] Proposition 4
-> Let $P,Q\in \mathcal{B}(\mathcal{H})$ be self-adjoint projections. Then, $$\text{Im }P\ \bot\ \text{Im }Q\iff PQ=0$$
+> Let $P,Q\in \mathcal{B}(\mathcal{H})$ be self-adjoint projections. Then, $$\text{im }P\ \bot\ \text{im }Q\iff PQ=0$$
 
 > [!proof]-
-> We have: $$\begin{align}PQ=0 &\iff \braket{ PQx , y } =0,\forall x,y\in \mathcal{H}\\&\iff\braket{Qx  ,Py  }=0,\forall x,y\in \mathcal{H}\\&\iff \text{Im }P\ \bot\ \text{Im }Q\end{align}$$
+> We have: $$\begin{align}PQ=0 &\iff \braket{ PQx , y } =0,\forall x,y\in \mathcal{H}\\&\iff\braket{Qx  ,Py  }=0,\forall x,y\in \mathcal{H}\\&\iff \text{im }P\ \bot\ \text{im }Q\end{align}$$
 ---
 ##### Examples
 > [!h] Example 1(Projection)
