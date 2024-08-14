@@ -61,16 +61,16 @@
 >    We check that $\Omega:=\widehat{A}\cup \{ 0 \}\subseteq B_{\leq 1}^{A^{*}}(0)$ is weak\*-closed. Let $\varphi\in \overline{\Omega}$. Then, for a convergent net $\{ \varphi_{i} \}_{i\in I}$ converging to $\varphi$, we have that: $$\varphi(xy)=\lim \varphi_{i}(xy)=\lim \varphi_{i}(x)\varphi_{i}(y)=\varphi(x)\varphi(y) $$Hence $\varphi\in \Omega$ and $\Omega$ is closed in $B_{\leq 1}^{A^{*}}(0)$, which is a weak\*-compact set by [[Weak Topology|Banach Alagolu]].  As $\Omega$ is Hausdorff, $\{ 0 \}$ is closed and $\widehat{A}$ is an open subspace of a weak\*-compact set, which shows that $\widehat{A}$ is locally compact Hausdorff.
 > 2. If $A$ is unital, then: $$\begin{align}\widehat{A}&:=\{ \varphi\in B_{\leq 1}^{A^{*}}(0):\varphi(xy)=\varphi(x)\varphi(y),\varphi(e)=1,\quad \forall x,y\in A\}\\&=\{\varphi\in B_{\leq 1}^{A^{*}}(0):\varphi(e)=1 \}\cap\bigcap_{x,y\in A}^{}\{ \varphi\in B_{\leq 1}^{A^{*}}(0):\varphi(xy)=\varphi(x)\varphi(y)\}\end{align}$$which is weak\*-closed in $B_{\leq 1}^{A^{*}}(0)$. Hence, it is weak\*-compact.
 > 3. By the identification $\widehat{A_{I}}=\widehat{A}\cup \{ \varphi_{\infty} \}$ and the fact that $\widehat{A_{I}}$ is compact Hausdorff and $\widehat{A}$ is locally compact Hausdorff, we get that $\widehat{A_{I}}$ is the one-point compactification of $\widehat{A}$.
->  
+
+
 
 ---
 > [!lemma] Theorem 5 (Spectral Theorem)
 > Let $A\subseteq \mathcal{B}(\mathcal{H})$ be an commutative sub-$C^{*}$-algebra containing $\text{id}_{\mathcal{H}}$. Then, 
-> 1. there exists a unique [[resolution of Identity]] $E$ on $\mathcal{B}_{\widehat{A}}$ s.t. for every $T\in A$,$$T=\int_{\widehat{A}}\widehat{T}  \, dE $$where $\widehat{T}\in C(\widehat{A})$ is the Guelfand transform of $T$. This is equivalent to: $$\braket{ T(x) , y } =\int_{\widehat{A}}\widehat{T}  \, dE_{x,y} $$
-> 2. the inverse of the Guelfand transform $\gamma$ extends to a $C^{*}$-algebra isomorphism $\Psi:L^\infty(E)\to B$, with the following commutative diagram: $$\begin{CD}L^\infty(E) @>\Psi>> B\\@AAA&@AAA\\C(\widehat{A}) @>\gamma>>A\end{CD}$$given by $$\Psi(f):=\int_{\widehat{A}}f \, dE$$where $\Phi$ is linear, multiplicative and satisfies $\Psi(\bar{f})=\Psi(f)^{*}$ and $\left\| \Psi(f) \right\|=\left\| f \right\|_{\infty}$.
-> 3. we have: $B=\overline{\Psi(\mathcal{S}(\hat{A}))}$
-> 4. If $\omega \subseteq \widehat{A}$ is non-empty and open, then $E(\omega)\neq 0$.
-> 5. an operator $S\in \mathcal{B}(\mathcal{H})$ commutes with $A$ if and only if $S$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}_{\widehat{A}}$.
+> 1. there exists a unique [[resolution of Identity]] $E$ on $\mathcal{B}_{\widehat{A}}$ s.t. for every $T\in A$,$$T=\int_{\widehat{A}}\widehat{T}  \, dE $$where $\widehat{T}\in C(\widehat{A})$ is the [[Guelfand transform]] of $T$. This is equivalent to: $$\braket{ T(x) , y } =\int_{\widehat{A}}\widehat{T}  \, dE_{x,y},\quad \forall x,y\in \mathcal{H} $$
+> 2. the inverse $C(\widehat{A})\to A$ of the Guelfand transform extends to an isometric $C^{*}$-algebra isomorphism $\Psi:L^\infty(E)\to B$ where $B\supseteq A$ is a sub-$C^{*}$-algebra of $\mathcal{B}(\mathcal{H})$ and given by $$\Psi(f):=\int_{\widehat{A}}f \, dE,\quad \forall f\in L^\infty(E)$$Specifically, $B:= \overline{\Psi(\mathcal{S}(\widehat{A}))}$.
+> 3. if $\omega \subseteq \widehat{A}$ is non-empty and open, then $E(\omega)\neq 0$.
+> 4. an operator $S\in \mathcal{B}(\mathcal{H})$ commutes with $A$ if and only if $S$ commutes with $E(\mathcal{B}_{\widehat{A}})$.
 
 > [!proof]-
 > From lemma 5.21 we have a unique $\Phi(f)\in \mathcal{B}(\mathcal{H})$ s.t. $\int_{\widehat{A}}^{} f \, dE_{x,y}=\braket{ \Phi(f)x , y }$ for all $x,y\in \mathcal{H}$ with the characteristics:

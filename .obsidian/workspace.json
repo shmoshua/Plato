@@ -6,6 +6,7 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
+        "dimension": 47.81609195402299,
         "children": [
           {
             "id": "0a3edd71115ec4ad",
@@ -66,50 +67,15 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "991fd71aabd8e49d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Resolution of Identity.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6b93073e3dc35276",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
         "type": "tabs",
+        "dimension": 52.18390804597701,
         "children": [
-          {
-            "id": "8f9204f14a604c46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
           {
             "id": "d83c49dceb02495b",
             "type": "leaf",
@@ -123,24 +89,12 @@
             }
           },
           {
-            "id": "71a1f69982a8895e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Resolution of Identity.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "9b38264f3841eba9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Functional Analysis/Resolution of Identity.md",
                 "mode": "preview",
                 "source": true
               }
@@ -158,8 +112,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -293,9 +246,12 @@
   "lastOpenFiles": [
     "Functional Analysis/Resolution of Identity.md",
     "Functional Analysis/Guelfand Spectrum.md",
-    "Functional Analysis/Hilbert Space Operator.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/C*-Algebra.md",
+    "Courses/Algebra I/Serie 9.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Courses/Differential Geometry/Differential Geometry Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Hilbert Space Operator.md",
     "Functional Analysis/Banach Algebra.md",
     "Analysis/Banach Space.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
@@ -314,9 +270,6 @@
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Jacobson Radical.md",
     "Functional Analysis/Spectrum.md",
-    "Topology/Interior and Closure.md",
-    "Topology/One-Point Compactification.md",
-    "Topology/Weak Topology.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
