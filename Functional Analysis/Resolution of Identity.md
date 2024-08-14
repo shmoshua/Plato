@@ -47,30 +47,49 @@
 > 2. Consider $(\tilde{\omega}_{n})_{n}$ where $\tilde{\omega}_{n}:=\omega_{n}\backslash \omega_{n-1}$. Then, $(\tilde{ \omega}_{n})_{n}$ is disjoint and $$E\left( \bigcup_{n}^{} \omega_{n}\right)x=E\left( \bigcup_{n}^{}\tilde{\omega}_{n} \right)x=\sum_{n=1}^{\infty}E(\tilde{\omega}_{n})x=\lim_{ m\to \infty } \sum_{n=1}^{m}E(\tilde{\omega}_{n})x=\lim_{ m \to \infty } E(\omega_{m})x$$
 > 3. Consider $(\tilde{\omega}_{n})_{n}$ where $\tilde{\omega}_{n}:=\omega_{1}\backslash \omega_{n}$. Then, $(\tilde{ \omega}_{n})_{n}$ is increasing and $$\begin{align}E\left( \bigcap_{n=1}^{\infty}\omega_{n} \right)x=E(\omega_{1})x- \end{align}$$
 ---
-> [!lemma] Lemma 3
+> [!lemma] Lemma 3 (Essential Image Lemma)
 > For a compact Hausdorff $X$ and a measurable function $f:X\to \mathbb{C}$, 
 > 1. $\text{ess im}(f)$ is closed.
 > 2. for any $z\in \text{ess im}(f)$ and open $U\ni z$, $E(f^{-1}(U))\neq 0$.
 > 3. $\|f\|_{\infty}=\inf\{ t\geq 0:E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0))) =0\}$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. By definition.
 > 2. If $z\in \text{ess im}(f)$. Then, for any $D_{n}$ with $E(f^{-1}(D_{n}))=0$, $z\notin D_{n}$. Now, assume that $E(f^{-1}(U))=0$. By basis, there exists $z\in D_{n}\subseteq U$ and as $$f^{-1}(U)=f^{-1}(D_{n})\sqcup f^{-1}(U\backslash D_{n})$$we have that $$0=E(f^{-1}(U))=E(f^{-1}(D_{n}))+E(f^{-1}(U \backslash D_{n}))$$Now, for any $x\in \mathcal{H}$, $$\braket{ E(f^{-1}(D_{n}))x , x } =\braket{ E(f^{-1}(D_{n}))x , E(f^{-1}(D_{n}))x }=\braket{ E(f^{-1}(D_{n}))x , -E(f^{-1}(U \backslash D_{n}))x }=0  $$and $E(f^{-1}(D_{n}))=0$, which is a contradiction.
-> 3. Let $z\in \text{ess im}(f)$. Then, by 2 $E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0$ means that $\left| z \right|\leq t$. Otherwise $z\in \mathbb{C} \backslash B_{\leq t}(0)$ which is open and $E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))\neq 0$. Hence, we have that: $$\left\| f \right\| _{\infty}=\inf \{ t\geq 0 : E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0\}$$Now consider $t>\left\| f \right\|_{\infty}$. Then, $\text{ess im}(f)\subseteq B_{\leq t}(0)$ and there exists a countable open cover $\mathbb{C} \backslash B_{\leq t}(0)\subseteq \bigcup_{n}^{}D_{n}$ where $E(f^{-1}(D_{n}))=0$. 
+> 3. Let $z\in \text{ess im}(f)$. Then, by 2 $E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0$ means that $\left| z \right|\leq t$. Otherwise $z\in \mathbb{C} \backslash B_{\leq t}(0)$ which is open and $E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))\neq 0$. Hence, we have that: $$\left\| f \right\| _{\infty}=\inf \{ t\geq 0 : E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0\}$$Now consider $t>\left\| f \right\|_{\infty}$. Then, $\text{ess im}(f)\subseteq B_{\leq t}(0)$ and there exists a countable open cover $\mathbb{C} \backslash B_{\leq t}(0)\subseteq \bigcup_{n}^{}D_{n}$ where $E(f^{-1}(D_{n}))=0$. Therefore, by Lemma 2.1, we get that: $$E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0$$ and this proves that $\|f\|_{\infty}\geq\inf\{ t\geq 0:E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0))) =0\}$.
 
 ---
-> [!lemma] Proposition 4 (Bounded Borel Functions form a C*-algebra)
+> [!lemma] Lemma 4 (Essential Norm Lemmas)
+> We have for $f,g\in \mathcal{B}^\infty(X)$,
+> 1. $\left\| f \right\|_{\infty}\leq \left\| f \right\|_{b}$.
+> 2. $\left\| f+g \right\|_{\infty}\leq \left\| f \right\|_{\infty}+\left\| g \right\|_{\infty}$.
+> 3. $\left\| fg \right\|_{\infty}\leq \left\| f \right\|_{\infty}\left\| g \right\|_{\infty}$
+> 4. for $g\in N:=\{ f\in \mathcal{B}^\infty(X):\left\| f \right\|_{\infty}=0 \}$, $\left\| f+g \right\|_{\infty}=\left\| f \right\|_{\infty}$ 
+
+> [!proof]-
+> We have:
+> 1. Let $t:=\left\| f \right\|_{b}$. Then, $f^{-1}(\mathbb{C} \backslash B_{\leq t}(0))=\varnothing$ and $E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0$. Hence, $\left\| f \right\|_{b}\geq \left\| f \right\|_{\infty}$ by Lemma 3.3
+> 2. Let $s>\left\| f \right\|_{\infty}$ and $t>\left\| g \right\|_{\infty}$. Then, $$(f+g)^{-1}(\mathbb{C} \backslash B_{\leq s+t}(0))\subseteq f^{-1}(\mathbb{C} \backslash B_{\leq s}(0))\cup g^{-1}(\mathbb{C} \backslash B_{\leq t}(0))$$Therefore, $E((f+g)^{-1}(\mathbb{C} \backslash B_{\leq s+t}(0)))=0$ and $\|f+g\|_{\infty}\leq\|f\|_{\infty}+\|g\|_{\infty}$.
+> 3. Analogous to 2. 
+> 4. $\left\| f+g \right\|_{\infty}\leq \left\| f \right\|_{\infty}+\left\| g \right\|_{\infty}=\left\| f \right\|_{\infty}$. But $$\left\| f \right\| _{\infty}=\left\| f+g-g \right\| _{\infty}\leq \left\| f+g \right\| _{\infty}+\left\| g \right\| _{\infty}=\left\| f+g \right\| _{\infty}$$
+---
+> [!lemma] Proposition 5 (Bounded Borel Functions form a C*-algebra)
 > We have that: 
 > 1. $\mathcal{B}^\infty(X)$ is a commutative $C^{*}$-algebra with complex conjugate.
+> 2. $L^\infty(X):=\mathcal{B}^\infty(X) / N$ quotient norm is given by $\left\| f+N \right\|=\left\| f \right\|_{\infty}$.
+> 3. $L^\infty(X):=\mathcal{B}^\infty(X) / N$ is a $C^{*}$-algebra. 
 
 > [!proof]+
 > We have that:
-> 1. $\mathcal{B}^\infty(X)$ is a unital $\mathbb{C}$-algebra with unit $1$.
-> 2. **$\mathcal{B}^\infty(X)$ is a Banach space**: Let $(f_{n})\in \mathcal{B}^\infty(X)$ be a Cauchy sequence. Then, $f:=\lim_{ n \to \infty }f_{n}$ exists and is bounded. Further, it is measurable by [[Measurable Function|Theorem 1.4]]. Hence, $f\in \mathcal{B}^\infty(X)$.
-> 3. $\left\| fg \right\|=\sup_{x\in X}\left| f(x)g(x) \right|\leq\sup_{x\in X}\left| f(x) \right|\sup_{x\in X}\left| g(x) \right|=\left\| f \right\|\left\| g \right\|$.
-> 4. $\mathcal{B}^\infty(X)$ is an involutive Banach algebra. 
-> 5. Lastly, $$\left\| ff^{*} \right\| =\sup_{x\in X}\left| f(x) \right| ^{2}=(\sup_{x\in X}\left| f(x) \right| )^{2}=\left\| f \right\| ^{2}$$
+> 1. For $\mathcal{B}^\infty(X)$:
+> 	1. $\mathcal{B}^\infty(X)$ is a unital $\mathbb{C}$-algebra with unit $1$.
+> 	2. **$\mathcal{B}^\infty(X)$ is a Banach space**: Let $(f_{n})\in \mathcal{B}^\infty(X)$ be a Cauchy sequence. Then, $f:=\lim_{ n \to \infty }f_{n}$ exists and is bounded. Further, it is measurable by [[Measurable Function|Theorem 1.4]]. Hence, $f\in \mathcal{B}^\infty(X)$.
+> 	3. $\left\| fg \right\|=\sup_{x\in X}\left| f(x)g(x) \right|\leq\sup_{x\in X}\left| f(x) \right|\sup_{x\in X}\left| g(x) \right|=\left\| f \right\|\left\| g \right\|$.
+> 	4. $\mathcal{B}^\infty(X)$ is an involutive Banach algebra. 
+> 	5. Lastly, $$\left\| ff^{*} \right\| =\sup_{x\in X}\left| f(x) \right| ^{2}=(\sup_{x\in X}\left| f(x) \right| )^{2}=\left\| f \right\| ^{2}$$
+> 2. We have that: $$\left\| f+N \right\| =\inf_{g\in N}\left\| f+g \right\|_{b} \geq\inf_{g\in N}\left\| f+g \right\| _{\infty}=\left\| f \right\| _{\infty}$$We then define $g\in \mathcal{B}^\infty(X)$: $$g(x)=\begin{cases}-f(x)&f(x)\notin \text{ess im}(f)\\0&\text{otherwise}\end{cases}$$Then, $\left\| f+N \right\|\leq \left\| f+g \right\|_{b}=\left\| f \right\|_{\infty}$.
+> 3. 
 ---
 
 ---
