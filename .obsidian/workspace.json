@@ -112,8 +112,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,7 +242,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0f271565bc87f055",
+  "active": "d83c49dceb02495b",
   "lastOpenFiles": [
     "Functional Analysis/Resolution of Identity.md",
     "Functional Analysis/Guelfand Spectrum.md",
