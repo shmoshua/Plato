@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "mode": "source",
                 "source": true
               }
@@ -89,12 +89,12 @@
             }
           },
           {
-            "id": "8b58723fbdbf3c9a",
+            "id": "7b0af12894ac5b54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "mode": "preview",
                 "source": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Unitary Representation.md"
+                "file": "Functional Analysis/Positive Operator.md"
               }
             }
           }
@@ -257,11 +257,12 @@
   },
   "active": "a7f6f05a5fc13018",
   "lastOpenFiles": [
-    "Functional Analysis/Group Representation.md",
     "Algebra/Unitary Representation.md",
+    "Functional Analysis/Positive Operator.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Group Representation.md",
     "Representation Theory/Representation.md",
     "Functional Analysis/C*-Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Resolution of Identity.md",
     "Analysis/Inner Product Space.md",
@@ -282,7 +283,6 @@
     "Functional Analysis/Bounded Linear Map.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Measure Theory/Positive Measure.md",
-    "Measure Theory/Borel Regular Measure.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

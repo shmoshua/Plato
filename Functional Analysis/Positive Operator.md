@@ -1,11 +1,12 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
-> A [[Hilbert Space Operator]] $T\in \mathcal{B}(\mathcal{H})$ is ***positive*** if $\braket{ Tx , x }\geq 0$ for all $x\in \mathcal{H}$, denoted as $T\geq 0$.
+> A [[Hilbert Space Operator]] $T\in \mathcal{B}(\mathcal{H})$ is 
+> 1. ***positive*** if $\braket{ Tx , x }\geq 0$ for all $x\in \mathcal{H}$, denoted as $T\geq 0$.
 - **Remark**: For any $T\in \mathcal{B}(\mathcal{H})$, $T^{*}T\geq 0$ as $\braket{ T^{*}T x, x }=\left\| Tx \right\|^{2}$
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> Let $T\in \mathcal{B}(\mathcal{H})$. Then, the following are equivalent:
+> Let $T\in \mathcal{B}(\mathcal{H})$. Then, TFAE:
 > 1. $T$ is positive.
 > 2. $T$ is [[Adjoint Linear Map|self-adjoint]] and $\text{Sp}(T)\subseteq[0,+\infty)$
 
