@@ -109,6 +109,10 @@
 >4. Follows from the fact that $B:= \overline{\text{Span}\{ E(\omega):\omega\in \mathcal{B}_{\widehat{A}} \}}$.
 
 - **Remark**: $C(\widehat{A})$ injects into $L^\infty(E)$ as follows: If $f\in C(\widehat{A})$ with $\left\| f \right\|_{\infty}=0$, then $$E(f^{-1}(\mathbb{C} \backslash\{ 0 \}))=0$$Therefore, by 3, $f^{-1}(\mathbb{C} \backslash \{ 0 \})=\varnothing$ and $f=0$.
+---
+> [!lemma] Corollary 6 (Spectral Theorem with a Normal Operator)
+> Let $T\in \mathcal{B}(\mathcal{H})$ be normal and $A:=\overline{\{ p(T,T^{*}):p\in \mathbb{C}[X,Y] \}}$. Then, 
+> 1. there exists a unique [[resolution of identity]] $E$ on $\text{Sp}(T)$ s.t. $$T=\int_{\text{Sp}(T)}^{} \lambda \, dE(\lambda) $$
 - **Corollary**: Let $T\in \mathcal{B}(\mathcal{H})$ normal and $A:=\overline{\{ p(T,T^{*}):p\in \mathbb{C}[X,Y] \}}$. Then,
 	1. there exists a unique resolution of identity $E$ on $\text{Sp}(T)$ s.t. $$T=\int_{\text{Sp}(T)}\lambda  \, dE(\lambda) $$
 	2. we have a commutative diagram: $$\begin{CD}C(\text{Sp}(T))@>>>A\\@VVV&@VVV\\L^\infty(E)&@>\Psi>>B\end{CD}$$

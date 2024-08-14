@@ -69,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -112,8 +112,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Hilbert Space.md"
+                "file": "Functional Analysis/Guelfand Spectrum.md"
               }
             }
           }
@@ -243,12 +242,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a7f6f05a5fc13018",
+  "active": "d83c49dceb02495b",
   "lastOpenFiles": [
     "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/Resolution of Identity.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Inner Product Space.md",
     "Measure Theory/Complex Measure.md",
     "Courses/Algebra I/Serie 9.md",
