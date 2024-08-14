@@ -21,11 +21,12 @@
 > 1. there exists a unique $P\geq 0$ s.t. $P^{2}=T$. 
 > 3. if $T$ is invertible, so is $P$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. As $T$ is self-adjoint and hence normal, we can use the [[Guelfand Spectrum|spectral theorem on normal operators]] and let $E$ be the resolution of identity of $\text{Sp}(T)$ with: $$T=\int_{\text{Sp}(T)}^{} \lambda \, dE(\lambda) $$As $\text{Sp}(T)\subseteq[0,+\infty)$ from 1, $f:\text{Sp}(T)\to \mathbb{C},\lambda\mapsto \sqrt{ \lambda }$ is a function in $C(\text{Sp}(T))$ and we can define:$$P:=f(T)=\int_{\text{Sp}(T)}\sqrt{ \lambda }  \, dE(\lambda)$$which is self-adjoint as $f$ is real and $\text{Sp}(P)\subseteq \text{Sp}(T)$. We also have that: $$P^{2}=f(T)^{2}=\int_{\text{Sp}(T)}^{} \lambda \, dE(\lambda)=T $$
 >    
->    To show that $P$ is unique, let $P'$ be another square root and $E'$ be the resolution of identity on $\text{Sp}(P')$ s.t. $$S'=\int_{\text{Sp}(S')}^{} \lambda \, dE'(\lambda) $$
+>    To show that $P$ is unique, let $P'$ be another square root and $E'$ be the resolution of identity on $\text{Sp}(P')$ s.t. $$P'=\int_{\text{Sp}(P')}^{} \lambda \, dE'(\lambda) $$Then, for any $f\in C([0,+\infty))$ $$\int_{\text{Sp}(T)}^{} f(\lambda) \, dE(\lambda) =f(T)=f(P'^{2})=\int_{\text{Sp}(P')}^{} f(\lambda^{2}) \, dE'(\lambda) $$Therefore, $$P=\int_{\text{Sp}(T)}^{} \sqrt{ \lambda } \, dE(\lambda)=\int_{\text{Sp}(P')}^{} \lambda \, dE'(\lambda)=P'  $$
+> 2. if $T$ is invertible, then: $$(T^{-1}S)S=T^{-1}S^{2}=T^{-1}T=\text{id}_{\mathcal{H}},\quad S(T^{-1}S)=T^{-1}S^{2}=T^{-1}T=\text{id}_{\mathcal{H}}$$
 > 
 ---
 > [!lemma] Theorem 3 (Polar Decomposition)
