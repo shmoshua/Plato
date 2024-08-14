@@ -77,8 +77,18 @@
 > > Let $f:\mathcal{H}\times \mathcal{H}\to \mathbb{C}$ be a sesquilinear, bounded form in the sense that: $$M:=\sup_{\|x\|=\left\| y \right\| =1}\left| f(x,y) \right| <+\infty$$Then, 
 > > 1. there exists a unique $T\in \mathcal{B}(\mathcal{H})$ s.t. $f(x,y)=\braket{ Tx , y }$ for all $x,y\in \mathcal{H}$.
 > > 2. $\left\| T \right\|=M$.
+>     
+> > [!proof]-
+> > Let $x,y\in \mathcal{H}$. Then, we have: $$\left| f\left( \frac{x}{\|x\|}, \frac{y}{\left\| y \right\| } \right) \right|\leq M $$and $\left| f(x,y) \right|\leq M\|x\|\|y\|$. Further, for any $y\in \mathcal{H}$, $x\mapsto f(x,y)$ is a bounded continuous linear map, i.e. it is a map in $\mathcal{H}^{*}$. Hence, by [[Hilbert Space|Riesz representation]], there exists $S(y)\in \mathcal{H}$ s.t. $f(x,y)=\braket{ x , S(y) }$.
+> > 
+> > Further, $S$ is continuous and bounded as $f$ is sesquilinear. We get $T:=S^{*}$ and lastly: $$\left\| S \right\| =\sup_{\left\| y \right\| =1}\left\| Sy \right\| =\sup_{\|x\|=\|y\|=1 }\left| \braket{ x , Sy }  \right| =\sup_{\|x\|=\|y\|=1 }\left| f(x,y) \right|=M $$
 > 
-> From [[Resolution of Identity|Theorem 6]] we have a unique $\Phi(f)\in \mathcal{B}(\mathcal{H})$ s.t. $\int_{\widehat{A}}^{} f \, dE_{x,y}=\braket{ \Phi(f)x , y }$ for all $x,y\in \mathcal{H}$ with the characteristics:
+> We have:
+> 1. This is done in the following steps:
+> 	1. **Constructing the resolution of identity**:
+> 	   Let $\gamma:C(\widehat{A})\to A$ be the $C^{*}$-algebra isomorphism. Then, pick $x\in \mathcal{H}$ and consider $$C(\widehat{A})\to \mathbb{C},\quad f\mapsto \braket{ \gamma(f)x , x } $$which is a linear functional on $C(\widehat{A})$. Moreover, if $f\geq 0$ and $h:=\sqrt{ f }$, then $f=\overline{h}h$ and $\gamma(f)=\gamma(h)^{*}\gamma(h)$ from which it follows that: $$\braket{ \gamma(f)x , x } =\braket{ \gamma(h)^{*}\gamma(h)x , x } =\left\| \gamma(h)x \right\| ^{2}\geq 0$$Then, by [[Measure Theory/Complex Measure|Riesz]] there exists a positive Borel regular measure $E_{x,x}$ on $\widehat{A}$ s.t. $$\braket{ Tx , x } =\int_{\widehat{A}}\widehat{T}  \, dE_{x,x},\quad \forall T\in A,x\in \mathcal{H} $$Now define by polarization: $$E_{x,y}:=\frac{1}{2}\left( E_{x+y,x+y}+iE_{x+iy,x+iy}-(1+i)E_{x,x}-(1+i)E_{y,y} \right) $$Then, we get that: $$\begin{align}\braket{ Tx , y }&=\frac{1}{4}\left( \left\| Tx+y \right\| ^{2}+i \left\| Tx+iy \right\| ^{2} -\left\| Tx-y \right\| ^{2}-i \left\| Tx-iy \right\| ^{2}\right) \\&=\frac{1}{4}\left( \left\| Tx+y \right\| ^{2}+i \left\| Tx+iy \right\| ^{2} -\left\| Tx-y \right\| ^{2}-i \left\| Tx-iy \right\| ^{2}\right) \end{align} $$
+> 
+> From the Lemma, we have a unique $\Phi(f)\in \mathcal{B}(\mathcal{H})$ s.t. $\int_{\widehat{A}}^{} f \, dE_{x,y}=\braket{ \Phi(f)x , y }$ for all $x,y\in \mathcal{H}$ with the characteristics:
 > 1. $\Phi:\mathcal{B}^\infty(\widehat{A})\to \mathcal{B}(\mathcal{H})$ is linear.
 > 2. the diagram in 2 commutes
 > 3. $\Phi(f)^{*}=\Phi(\overline{f})$ for all $f\in \mathcal{B}^\infty(\widehat{A})$.
