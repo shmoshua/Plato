@@ -113,11 +113,11 @@
 > [!lemma] Corollary 6 (Spectral Theorem with a Normal Operator)
 > Let $T\in \mathcal{B}(\mathcal{H})$ be normal and $A:=\overline{\{ p(T,T^{*}):p\in \mathbb{C}[X,Y] \}}$. Then, 
 > 1. there exists a unique [[resolution of identity]] $E$ on $\text{Sp}(T)$ s.t. $$T=\int_{\text{Sp}(T)}^{} \lambda \, dE(\lambda) $$
-> 2. the map $C(\text{Sp}(A))\to A$ extends to an isometric $C^{*}$-algebra isomorphism $\Psi:L^\infty(E)\to B$ where $B\supseteq A$ is a sub-$C^{*}$-algebra of $\mathcal{B}(\mathcal{H})$ given by: $$\Psi(f):=\int_{\text{Sp}(T)}f \, dE,\quad \forall f\in L^\infty(E) $$with $B:=\overline{\text{Span}\{ E(\omega):\omega\in \mathcal{B}_{\text{Sp}(T)} \}}$
+> 2. the $C^{*}$-algebra isomorphism  $C(\text{Sp}(A))\to A,f\mapsto f(T)$ extends to an isometric $C^{*}$-algebra isomorphism $\Psi:L^\infty(E)\to B$ where $B\supseteq A$ is a sub-$C^{*}$-algebra of $\mathcal{B}(\mathcal{H})$ given by: $$\Psi(f):=\int_{\text{Sp}(T)}f \, dE,\quad \forall f\in L^\infty(E) $$with $B:=\overline{\text{Span}\{ E(\omega):\omega\in \mathcal{B}_{\text{Sp}(T)} \}}$
 > 3. an operator $S\in \mathcal{B}(\mathcal{H})$ commutes with $T$ and $T^{*}$ if and only if $S$ commutes with $E(\mathcal{B}_{\text{Sp}(T)})$.
 
 > [!proof]+
-> From the [[C*-Algebra|Pre-spectral theorem]], we have that $\widehat{T}:A\to \text{Sp}(T)$ is a homeomorphism and for any $f\in C(\text{Sp}(A))$ there exists a unique $f(T)\in A$ s.t. $$\widehat{f(T)}(\varphi)=f(\varphi(T)),\quad \forall \varphi\in\widehat{A}$$
+> From the [[C*-Algebra|Pre-spectral theorem]], we have that $\widehat{T}:\widehat{A}\to \text{Sp}(T)$ is a homeomorphism and a $C^{*}$-algebra isomorphism $C(\text{Sp}(A))\to A,f\mapsto f(T)$ s.t. $$\widehat{f(T)}(\varphi)=f(\varphi(T)),\quad \forall \varphi\in\widehat{A}$$Therefore, for any $\lambda\in \text{Sp}(T)$, $$\widehat{f(T)}(\widehat{T}^{-1}(\lambda))=f(\widehat{T}^{-1}(\lambda)(T))=f(\widehat{T}(\widehat{T}^{-1}(\lambda)))=f(\lambda)$$From the spectral theorem, let $F$ be the unique resolution of identity on $\widehat{A}$ s.t. for all $S\in A$, $$S=\int_{\widehat{A}}^{} \widehat{S} \, dF $$Then, we define a pushforward resolution of identity $E:\mathcal{B}_{\text{Sp}(T)}\to \mathcal{B}(\mathcal{H})$ given as: $$E(\omega)=F(\widehat{T}^{-1}(\omega))$$One can easily verify that $E$ is a resolution of identity. 
 ---
 > [!lemma] Corollary
 > Let $T\in \mathcal{B}(\mathcal{H})$ be normal, $\lambda_{0}\in \text{Sp}(T)$ and $\mathcal{H}_{\lambda_{0}}:=\text{ker}(T-\lambda_{0}\text{id}_{\mathcal{H}})$. Then, $E(\lambda_{0})=\Pi_{\mathcal{H}_{\lambda_{0}}}$.
