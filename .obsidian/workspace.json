@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": true
               }
@@ -255,15 +255,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a7f6f05a5fc13018",
+  "active": "7b0af12894ac5b54",
   "lastOpenFiles": [
-    "Algebra/Unitary Representation.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Positive Operator.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Algebra/Unitary Representation.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Group Representation.md",
     "Representation Theory/Representation.md",
-    "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Resolution of Identity.md",
     "Analysis/Inner Product Space.md",
     "Functional Analysis/Guelfand Transform.md",
