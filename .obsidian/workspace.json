@@ -62,14 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Functional Analysis/C*-Algebra.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -245,8 +245,8 @@
   "active": "d83c49dceb02495b",
   "lastOpenFiles": [
     "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Hilbert Space.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Resolution of Identity.md",
     "Analysis/Inner Product Space.md",
     "Measure Theory/Complex Measure.md",

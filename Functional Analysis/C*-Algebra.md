@@ -107,7 +107,7 @@
 > Let $A$ be a unital $C^{*}$-algebra and $x\in A$ normal. We define: $$B:=\overline{\{ P(x,x^{*}):P\in \mathbb{C}[X,Y] \}}\subseteq A$$with $x^0=e$. Then, 
 > 1. $\widehat{x}:\widehat{B}\to \text{Sp}_{A}(x)$ is a homeomorphism.
 > 2. for every $f\in C(\text{Sp}_{A}(x))$ there exists a unique element denoted $f(x)\in B$ s.t. $$\widehat{f(x)}(\varphi)=f(\varphi(x)),\quad \forall \varphi\in \widehat{B}$$
-> 3. The resulting map $C(\text{Sp}_{A}(x))\to B,\widehat{f}\mapsto f(x)$ is a $C^{*}$-algebra isomorphism with $1\mapsto e$ and $\text{id}\mapsto x$.
+> 3. The resulting map $C(\text{Sp}_{A}(x))\to B,f\mapsto f(x)$ is a $C^{*}$-algebra isomorphism with $1\mapsto e$ and $\text{id}\mapsto x$.
 
 > [!proof]-
 > We have that:
