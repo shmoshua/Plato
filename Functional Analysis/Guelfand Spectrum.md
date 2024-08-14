@@ -72,8 +72,13 @@
 > 3. if $\omega \subseteq \widehat{A}$ is non-empty and open, then $E(\omega)\neq 0$.
 > 4. an operator $S\in \mathcal{B}(\mathcal{H})$ commutes with $A$ if and only if $S$ commutes with $E(\mathcal{B}_{\widehat{A}})$.
 
-> [!proof]-
-> From lemma 5.21 we have a unique $\Phi(f)\in \mathcal{B}(\mathcal{H})$ s.t. $\int_{\widehat{A}}^{} f \, dE_{x,y}=\braket{ \Phi(f)x , y }$ for all $x,y\in \mathcal{H}$ with the characteristics:
+> [!proof]+
+> > [!lemma] 
+> > Let $f:\mathcal{H}\times \mathcal{H}\to \mathbb{C}$ be a sesquilinear, bounded form in the sense that: $$M:=\sup_{\|x\|=\left\| y \right\| =1}\left| f(x,y) \right| <+\infty$$Then, 
+> > 1. there exists a unique $T\in \mathcal{B}(\mathcal{H})$ s.t. $f(x,y)=\braket{ Tx , y }$ for all $x,y\in \mathcal{H}$.
+> > 2. $\left\| T \right\|=M$.
+> 
+> From [[Resolution of Identity|Theorem 6]] we have a unique $\Phi(f)\in \mathcal{B}(\mathcal{H})$ s.t. $\int_{\widehat{A}}^{} f \, dE_{x,y}=\braket{ \Phi(f)x , y }$ for all $x,y\in \mathcal{H}$ with the characteristics:
 > 1. $\Phi:\mathcal{B}^\infty(\widehat{A})\to \mathcal{B}(\mathcal{H})$ is linear.
 > 2. the diagram in 2 commutes
 > 3. $\Phi(f)^{*}=\Phi(\overline{f})$ for all $f\in \mathcal{B}^\infty(\widehat{A})$.
@@ -100,6 +105,7 @@
 > Lastly, if $S$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}_{\widehat{A}}$, then it does with the simple functions $\mathcal{S}(\widehat{A})$ and the closure $B\supseteq A$.
 > 
 > Conversely, assume that $ST=TS$ for all $T\in A$. Then, $$\int_{\widehat{A}}^{} \widehat{T} \, dE_{S(x),y}= \braket{ TS(x) , y } =\braket{ ST(x) , y } =\braket{ T(x) , S^{*}(y) }=\int_{\widehat{A}}^{} \widehat{T} \, dE_{x,S^{*}(y)}  $$Therefore, $E_{S(x),y}$ and $E_{x,S^{*}(y)}$ represent the same linear form on $C(\widehat{A})$. Therefore, they coincide. Then, $$\braket{ E(\omega)S(x) , y } =E_{S(x),y}(\omega)=E_{x,S^{*}(y)}(\omega)=\braket{ E(\omega)x , S^{*}(y) } =\braket{ SE(\omega)x , y } $$and $E(\omega)S=SE(\omega)$.
+- **Remark**: $C(\widehat{A})$ injects into $L^\infty(E)$ as follows: If $f\in C(\widehat{A})$ with $\left\| f \right\|_{\infty}=0$, then $$E(f^{-1}(\mathbb{C} \backslash\{ 0 \}))=0$$Therefore, by 3, $f^{-1}(\mathbb{C} \backslash \{ 0 \})=\varnothing$ and $f=0$.
 - **Corollary**: Let $T\in \mathcal{B}(\mathcal{H})$ normal and $A:=\overline{\{ p(T,T^{*}):p\in \mathbb{C}[X,Y] \}}$. Then,
 	1. there exists a unique resolution of identity $E$ on $\text{Sp}(T)$ s.t. $$T=\int_{\text{Sp}(T)}\lambda  \, dE(\lambda) $$
 	2. we have a commutative diagram: $$\begin{CD}C(\text{Sp}(T))@>>>A\\@VVV&@VVV\\L^\infty(E)&@>\Psi>>B\end{CD}$$
