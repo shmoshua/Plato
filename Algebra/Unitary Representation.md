@@ -1,7 +1,7 @@
 #Definition #Example #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be a group which we consider as a measure space w.r.t the counting measure. Then, for a [[Hilbert Space|Hilbert space]] $\mathcal{H}$, a ***unitary representation*** of $G$ is a group homomorphism $$\pi:G \to \text{U}(\mathcal{H})$$ 
+> Let $G$ be a [[group]] Then, for a [[Hilbert Space|Hilbert space]] $\mathcal{H}$, a ***unitary representation*** of $G$ is a group homomorphism $$\pi:G \to \text{U}(\mathcal{H})$$ 
 
 - **Related definition**: A subspace $V\subseteq \mathcal{H}$ is ***invariant*** if $\pi(g)V\subseteq V$ for all $g\in G$.
 - **Related definition**: A representation $(\pi,\mathcal{H})$ is ***irreducible*** if whenever $V\subseteq \mathcal{H}$ is closed invariant, either $V=(0)$ or $V=\mathcal{H}$.

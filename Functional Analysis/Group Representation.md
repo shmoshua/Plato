@@ -1,7 +1,8 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> For a [[Group|group]] $G$ and a $\mathbb{K}$-vector space $V$, a ***linear representation*** of $G$ on $V$ is a [[group homomorphism]] $\rho:G\to \text{GL}(V)$, i.e.$$\rho(g_{1}g_{2})=\rho(g_{1})\rho(g_{2}),\quad \forall g_{1},g_{2}\in G$$
+> For a [[Group|group]] $G$ and a $K$-vector space $V$, 
+> 1. a ***representation*** of $G$ on $V$ is a [[group homomorphism]] $\rho:G\to \text{GL}(V)$, i.e.$$\rho(g_{1}g_{2})=\rho(g_{1})\rho(g_{2}),\quad \forall g_{1},g_{2}\in G$$
 - **Related Definition**: The ***dimension/degree/rank*** of $\rho$ is $\text{dim}(\rho):=\text{dim }V$.
 - **Remark**: A representation $\rho:G\to \text{GL}(V)$ can also be viewed as a [[group action]] $G \curvearrowright V$ given as: $$(g,v)\mapsto \rho(g)v$$
 - **Related Definition**: A representation $\rho$ is: 

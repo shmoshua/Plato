@@ -62,14 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Algebra/Unitary Representation.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -82,7 +82,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8b58723fbdbf3c9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Unitary Representation.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,13 +118,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Functional Analysis/Resolution of Identity.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Algebra/Unitary Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Algebra/Unitary Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md"
+                "file": "Algebra/Unitary Representation.md"
               }
             }
           }
@@ -242,19 +255,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d83c49dceb02495b",
+  "active": "a7f6f05a5fc13018",
   "lastOpenFiles": [
+    "Functional Analysis/Group Representation.md",
+    "Algebra/Unitary Representation.md",
+    "Representation Theory/Representation.md",
     "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Guelfand Transform.md",
-    "Analysis/Inner Product Space.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Guelfand Spectrum.md",
-    "Analysis/Hilbert Space.md",
     "Functional Analysis/Resolution of Identity.md",
+    "Analysis/Inner Product Space.md",
+    "Functional Analysis/Guelfand Transform.md",
+    "Analysis/Hilbert Space.md",
     "Measure Theory/Complex Measure.md",
     "Courses/Algebra I/Serie 9.md",
     "Differential Geometry/Topological Manifold.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Functional Analysis/Banach Algebra.md",
     "Analysis/Banach Space.md",
@@ -267,9 +283,6 @@
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Measure Theory/Positive Measure.md",
     "Measure Theory/Borel Regular Measure.md",
-    "Measure Theory/Radon Measure.md",
-    "Functional Analysis/Positive Operator.md",
-    "Functional Analysis/Jacobson Radical.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
