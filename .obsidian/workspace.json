@@ -89,18 +89,6 @@
             }
           },
           {
-            "id": "7b89eafdd3434455",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Inner Product Space.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "9b38264f3841eba9",
             "type": "leaf",
             "state": {
@@ -111,8 +99,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "7b89eafdd3434455",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Inner Product Space.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,11 +243,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d83c49dceb02495b",
+  "active": "0f271565bc87f055",
   "lastOpenFiles": [
-    "Analysis/Inner Product Space.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Resolution of Identity.md",
+    "Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Inner Product Space.md",
     "Analysis/Hilbert Space.md",
     "Measure Theory/Complex Measure.md",
     "Functional Analysis/C*-Algebra.md",
