@@ -51,13 +51,15 @@
 > For a compact Hausdorff $X$ and a measurable function $f:X\to \mathbb{C}$, 
 > 1. $\text{ess im}(f)$ is closed.
 > 2. for any $z\in \text{ess im}(f)$ and open $U\ni z$, $E(f^{-1}(U))\neq 0$.
-> 3. $\|f\|_{\infty}=\inf\{ t\geq 0:E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0))) =0\}$
+> 3. for any $U\subseteq \mathbb{C}$ open, if $E(f^{-1}(U))=0$, then $U\subseteq \mathbb{C} \backslash \text{ess im}(f)$.
+> 4. $\|f\|_{\infty}=\inf\{ t\geq 0:E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0))) =0\}$
 
 > [!proof]-
 > We have that:
 > 1. By definition.
 > 2. If $z\in \text{ess im}(f)$. Then, for any $D_{n}$ with $E(f^{-1}(D_{n}))=0$, $z\notin D_{n}$. Now, assume that $E(f^{-1}(U))=0$. By basis, there exists $z\in D_{n}\subseteq U$ and as $$f^{-1}(U)=f^{-1}(D_{n})\sqcup f^{-1}(U\backslash D_{n})$$we have that $$0=E(f^{-1}(U))=E(f^{-1}(D_{n}))+E(f^{-1}(U \backslash D_{n}))$$Now, for any $x\in \mathcal{H}$, $$\braket{ E(f^{-1}(D_{n}))x , x } =\braket{ E(f^{-1}(D_{n}))x , E(f^{-1}(D_{n}))x }=\braket{ E(f^{-1}(D_{n}))x , -E(f^{-1}(U \backslash D_{n}))x }=0  $$and $E(f^{-1}(D_{n}))=0$, which is a contradiction.
-> 3. Let $z\in \text{ess im}(f)$. Then, by 2 $E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0$ means that $\left| z \right|\leq t$. Otherwise $z\in \mathbb{C} \backslash B_{\leq t}(0)$ which is open and $E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))\neq 0$. Hence, we have that: $$\left\| f \right\| _{\infty}=\inf \{ t\geq 0 : E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0\}$$Now consider $t>\left\| f \right\|_{\infty}$. Then, $\text{ess im}(f)\subseteq B_{\leq t}(0)$ and there exists a countable open cover $\mathbb{C} \backslash B_{\leq t}(0)\subseteq \bigcup_{n}^{}D_{n}$ where $E(f^{-1}(D_{n}))=0$. Therefore, by Lemma 2.1, we get that: $$E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0$$ and this proves that $\|f\|_{\infty}\geq\inf\{ t\geq 0:E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0))) =0\}$.
+> 3. From 2.
+> 4. Let $z\in \text{ess im}(f)$. Then, by 2 $E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0$ means that $\left| z \right|\leq t$. Otherwise $z\in \mathbb{C} \backslash B_{\leq t}(0)$ which is open and $E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))\neq 0$. Hence, we have that: $$\left\| f \right\| _{\infty}=\inf \{ t\geq 0 : E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0\}$$Now consider $t>\left\| f \right\|_{\infty}$. Then, $\text{ess im}(f)\subseteq B_{\leq t}(0)$ and there exists a countable open cover $\mathbb{C} \backslash B_{\leq t}(0)\subseteq \bigcup_{n}^{}D_{n}$ where $E(f^{-1}(D_{n}))=0$. Therefore, by Lemma 2.1, we get that: $$E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0)))=0$$ and this proves that $\|f\|_{\infty}\geq\inf\{ t\geq 0:E(f^{-1}(\mathbb{C} \backslash B_{\leq t}(0))) =0\}$.
 
 ---
 > [!lemma] Lemma 4 (Essential Norm Lemmas)
@@ -79,6 +81,7 @@
 > 1. $\mathcal{B}^\infty(X)$ is a commutative $C^{*}$-algebra with complex conjugate.
 > 2. $L^\infty(X):=\mathcal{B}^\infty(X) / N$ quotient norm is given by $\left\| f+N \right\|=\left\| f \right\|_{\infty}$.
 > 3. $L^\infty(X):=\mathcal{B}^\infty(X) / N$ is a $C^{*}$-algebra. 
+> 4. $\text{Sp}_{L^\infty(N)}(f+N)=\text{ess im}(f)$ for $f\in \mathcal{B}^\infty(X)$.
 
 > [!proof]+
 > We have that:
@@ -89,7 +92,10 @@
 > 	4. $\mathcal{B}^\infty(X)$ is an involutive Banach algebra. 
 > 	5. Lastly, $$\left\| ff^{*} \right\| =\sup_{x\in X}\left| f(x) \right| ^{2}=(\sup_{x\in X}\left| f(x) \right| )^{2}=\left\| f \right\| ^{2}$$
 > 2. We have that: $$\left\| f+N \right\| =\inf_{g\in N}\left\| f+g \right\|_{b} \geq\inf_{g\in N}\left\| f+g \right\| _{\infty}=\left\| f \right\| _{\infty}$$We then define $g\in \mathcal{B}^\infty(X)$: $$g(x)=\begin{cases}-f(x)&f(x)\notin \text{ess im}(f)\\0&\text{otherwise}\end{cases}$$Then, $\left\| f+N \right\|\leq \left\| f+g \right\|_{b}=\left\| f \right\|_{\infty}$.
-> 3. 
+> 3. By [[Banach Algebra|Proposition 3]], $L^\infty(N)$ is a Banach algebra. Then, we have that: $\left\| f^{*}\right\| _{\infty}=\left\| f \right\|_{\infty}$. 
+>    
+>    Let $a:\mathbb{C}\to \mathbb{R},z\mapsto \left| z \right|^{2}$. Then, $ff^{*}=a\circ f$. We want to argue that: $$\text{ess im}(ff^{*})=a(\text{ess im}(f))$$For $D_{n}\subseteq \mathbb{C}$ open, as $a$ is continuous, $a^{-1}(D_{n})$ is open and:$$\begin{align}D_{n}\subseteq \mathbb{C} \backslash \text{ess im}(ff^{*})&\iff E((ff^{*})^{-1}(D_{n}))=0\\&\iff E((a\circ f)^{-1}(D_{n}))=0\\&\iff E(f^{-1}(a^{-1}(D_{n})))=0\\&\iff a^{-1}(D_{n})\subseteq \mathbb{C} \backslash \text{ess im}(f)\end{align}$$This proves the statement and: $$\left\| ff^{*} \right\| _{\infty}=\sup_{\lambda\in \text{ess im}(ff^{*})}\left| \lambda \right| =\sup_{\lambda\in \text{ess im}(f)}\left| \lambda \right|^{2} =(\sup_{\lambda\in \text{ess im}(f)}\left| \lambda \right|)^{2} =\left\| f \right\| _{\infty}^{2}$$
+> 4. We have that $\lambda\in \text{Sp}_{L^\infty(N)}(f+N)$ if and only if $0\in \text{Sp}_{L^\infty(N)}(f-\lambda+N)$. Further, $0\in \text{ess im}(f-\lambda)$ if and only if $\lambda\in \text{ess im}(f)$. Therefore, it suffices to show that $0\in \text{Sp}_{L^\infty(N)}(f+N)$ if and only if $0\in \text{ess im}(f)$. 
 ---
 
 ---
