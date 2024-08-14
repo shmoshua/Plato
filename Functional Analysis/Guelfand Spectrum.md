@@ -72,7 +72,7 @@
 > 3. if $\omega \subseteq \widehat{A}$ is non-empty and open, then $E(\omega)\neq 0$.
 > 4. an operator $S\in \mathcal{B}(\mathcal{H})$ commutes with $A$ if and only if $S$ commutes with $E(\mathcal{B}_{\widehat{A}})$.
 
-> [!proof]+
+> [!proof]-
 > > [!lemma] 
 > > Let $f:\mathcal{H}\times \mathcal{H}\to \mathbb{C}$ be a sesquilinear, bounded form in the sense that: $$M:=\sup_{\|x\|=\left\| y \right\| =1}\left| f(x,y) \right| <+\infty$$Then, 
 > > 1. there exists a unique $T\in \mathcal{B}(\mathcal{H})$ s.t. $f(x,y)=\braket{ Tx , y }$ for all $x,y\in \mathcal{H}$.
@@ -104,21 +104,10 @@
 >	   5. For $x,y\in \mathcal{H}$, $$\braket{ E(\omega)x , y } =\braket{ \Phi(\chi_{\omega})x , y } =\int_{\widehat{A}}^{} \chi_{\omega} \, dE_{x,y}=\int_{\omega}^{}  \, dE_{x,y}=E_{x,y}(\omega)  $$which is regular complex by construction.
 >	2. **Verifying the Statement**:
 >	   Now, by [[Resolution of Identity|Theorem 6]] there exists a $C^{*}$-isomorphism $\Psi:L^\infty(E)\to B\subseteq\mathcal{B}(\mathcal{H})$ s.t. $$\braket{ \Psi(f)x , y } =\int_{\widehat{A}}^{} f \, dE_{x,y}, \quad\forall x,y\in \mathcal{H},f\in L^\infty(E)$$Then, for any $T\in A$, $\braket{ Tx , y } =\int_{\widehat{A}}^{} \widehat{T} \, dE_{x,y}=\braket{ \Psi(\widehat{T})x , y }$ and $$T=\Psi(\widehat{T})=\int_{\widehat{A}}^{} \widehat{T} \, dE $$
->2. Let $\Psi:L^\infty(E)\to \mathcal{B}(\mathcal{H})$ be the isometric $C^{*}$-isomorphism from above. Then, it's left to show that $\Psi$ extends the inverse Guelfand transform. For $\widehat{T}\in C(\widehat{A})$, $$\Psi(\widehat{T})=T$$Further, as for every $f\in L^\infty(E)$ and $\varepsilon>0$ we have a simple function $s=\sum_{i=1}^{n}\alpha_{i}\chi_{\omega_{i}}$ with $\left\| f-s \right\|<\varepsilon$ we have that for any $S\in B$, we have that: $$\left\| \Psi(f-s) \right\| =\left\|  \right\| $$ 
->3. 
-> 
-> 
-> Recall that $\Psi$ was defined first on simple functions $s=\sum_{i}^{}\alpha_{i}\chi_{\omega_{i}}$ by $\Psi(s)=\sum_{i}\alpha_{i}E(\omega_{i})$. This gives a $C^{*}$-algebra map $\mathcal{S}(\widehat{A})\to \mathcal{B}(\mathcal{H})$ with $\left\| \Psi(s) \right\|=\|s\|_{\infty}$ This extends to $\mathcal{B}^\infty(\widehat{A})\to \mathcal{B}(\mathcal{H})$ and by factoring $L^\infty(E)\to \mathcal{B}(\mathcal{H})$.
-> 
-> But we also have $\Phi(s)=\sum_{i}^{}\alpha_{i}\Phi(\chi_{\omega_{i}})=\sum_{i}^{}\alpha_{i}E(\omega_{i})$. As $\mathcal{S}(\widehat{A})$ is dense in $\mathcal{B}^\infty(\widehat{A})$, $\Phi=\Psi$
-> 
-> We further show that $C(\widehat{A})\to L^\infty(E)$ is a norm-preserving injection. Let $\omega \subseteq \widehat{A}$ be non-empty open and $T\in A$ s.t. $\text{supp}(\widehat{T})\subseteq\omega$. Then, $$\left\| T (x)\right\|^{2}=\braket{ T(x) , T(x) } =\braket{ T^{*}T(x),x } =\int_{\widehat{A}}^{} \widehat{T^{*}T} \, dE_{x,x}=\int_{\widehat{A}}^{} \left| \widehat{T} \right| ^{2} \, dE_{x,x}=\int_{\omega}\left| \widehat{T} \right| ^{2} \, dE_{x,x}    $$ If $E(\omega)=0$, then for all $x\in \mathcal{H}$, $E_{x,x}(\omega)=\braket{ E(\omega)x , x }=0$ Hence, $$\left\| Tx \right\| ^{2}=\int_{\omega}^{} \left| \widehat{T} \right| ^{2} \, dE_{x,x}=0 $$Therefore, $T=0$ and $\widehat{T}=0$. So $C_{00}(\omega)=(0)$ but $\omega\neq \varnothing$ and this is a contradiction./
-> 
-> Let $f\in C(\widehat{A})$ and we claim $\text{im }f=\text{ess im}(f)$. Let $(D_{n})_{n}$ be a countable open cover of $\mathbb{C}$ and assume $D_{n}\cap \text{im }f=\varnothing$. Then, $f^{-1}(D_{n})=\varnothing$ and $E(f^{-1}(D_{n}))=0$. Therefore,$$D_{n}\subseteq \text{ess im}(f)=\varnothing$$Now, let $D_{n}\subseteq \mathbb{C}$ s.t. $D_{n}\cap \text{ess im}(f)=\varnothing$. Then, $E(f^{-1}(D_{n}))=0$. But as $D_n$ is open and $f$ is continuous, $f^{-1}(D_{n})$ is open and $f^{-1}(D_{n})=\varnothing$. Therefore, $D_{n}\cap \text{im}(f)=\varnothing$. In other words, for $f\in C(\widehat{A})$, $$\left\| f \right\| _{\infty}=\left\| f \right\| $$
-> 
-> Lastly, if $S$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}_{\widehat{A}}$, then it does with the simple functions $\mathcal{S}(\widehat{A})$ and the closure $B\supseteq A$.
-> 
-> Conversely, assume that $ST=TS$ for all $T\in A$. Then, $$\int_{\widehat{A}}^{} \widehat{T} \, dE_{S(x),y}= \braket{ TS(x) , y } =\braket{ ST(x) , y } =\braket{ T(x) , S^{*}(y) }=\int_{\widehat{A}}^{} \widehat{T} \, dE_{x,S^{*}(y)}  $$Therefore, $E_{S(x),y}$ and $E_{x,S^{*}(y)}$ represent the same linear form on $C(\widehat{A})$. Therefore, they coincide. Then, $$\braket{ E(\omega)S(x) , y } =E_{S(x),y}(\omega)=E_{x,S^{*}(y)}(\omega)=\braket{ E(\omega)x , S^{*}(y) } =\braket{ SE(\omega)x , y } $$and $E(\omega)S=SE(\omega)$.
+>2. Let $\Psi:L^\infty(E)\to \mathcal{B}(\mathcal{H})$ be the isometric $C^{*}$-isomorphism from above. Then, it's left to show that $\Psi$ extends the inverse Guelfand transform. For $\widehat{T}\in C(\widehat{A})$, $$\Psi(\widehat{T})=T$$Further, as for every $f\in L^\infty(E)$ and $\varepsilon>0$ we have a simple function $s=\sum_{i=1}^{n}\alpha_{i}\chi_{\omega_{i}}$ with $\left\| f-s \right\|_{\infty}<\varepsilon$ we have that for any $S=\Psi(f)\in B$, we have that: $$\left\| \Psi(f) -\Psi(s)\right\| =\left\| \Psi(f-s) \right\| =\left\| f-s \right\|_{\infty}<\varepsilon $$ where $\Psi(s)=\sum_{i=1}^{n}\alpha_{i}E(\omega_{i})$. 
+>3. Let $\omega \subseteq \widehat{A}$ be open and $E(\omega)=0$. Then, for all $x\in \mathcal{H}$, $E_{x,x}(\omega)=\braket{ E(\omega)x , x }=0$. Hence, for any $T\in A$ s.t. $\text{supp}(\widehat{T})\subseteq \omega$. Then, $$\left\| Tx \right\| ^{2}=\braket{ T^{*}Tx , x } =\int_{\widehat{A}}^{} \widehat{T^{*}T} \, dE_{x,x}=\int_{\widehat{A}}^{} \left| \widehat{T} \right| ^{2} \, dE_{x,x}=0  $$which implies that $T=0$, which implies that $\omega=\varnothing$. 
+>4. Follows from the fact that $B:= \overline{\text{Span}\{ E(\omega):\omega\in \mathcal{B}_{\widehat{A}} \}}$.
+
 - **Remark**: $C(\widehat{A})$ injects into $L^\infty(E)$ as follows: If $f\in C(\widehat{A})$ with $\left\| f \right\|_{\infty}=0$, then $$E(f^{-1}(\mathbb{C} \backslash\{ 0 \}))=0$$Therefore, by 3, $f^{-1}(\mathbb{C} \backslash \{ 0 \})=\varnothing$ and $f=0$.
 - **Corollary**: Let $T\in \mathcal{B}(\mathcal{H})$ normal and $A:=\overline{\{ p(T,T^{*}):p\in \mathbb{C}[X,Y] \}}$. Then,
 	1. there exists a unique resolution of identity $E$ on $\text{Sp}(T)$ s.t. $$T=\int_{\text{Sp}(T)}\lambda  \, dE(\lambda) $$

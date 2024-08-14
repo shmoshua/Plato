@@ -80,16 +80,18 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > 2. $\sum_{n=1}^{\infty}\left\| x_{n} \right\|^{2}$ converges.
 > 3. $\sum_{n=1}^{\infty}\braket{ x_{n} , y }$ converges for all $y\in \mathcal{H}$.
 
-> [!proof]+
+> [!proof]-
 > 1 is equivalent to 2 by [[Hilbert Space|Pythagoras]]. (the partial sum is Cauchy in one iff it is in another).
 > 1. (1=>3): We have; $$\left| \sum_{n=k}^{\ell}\braket{ x_{n} , y }  \right| =\left| \left\langle \sum_{n=k}^{\ell} x_{n},y  \right\rangle \right|\leq \left\| \sum_{n=k}^{\ell}x_{n} \right\| \left\| y \right\|  $$Therefore, 3 is Cauchy if 1 is Cauchy.
 > 2. (3=>1): Define $\Lambda_{n}(y):=\sum_{k=1}^{n}\braket{ y ,x_{k}  }$ . Then, $\Lambda_{n}\in \mathcal{H}^{*}$. Then, for all $y\in \mathcal{H}$, $\lim_{ n \to \infty }\Lambda_{n}(y)$ exists and $$\sup_{n\geq 1}\left| \Lambda_{n}(y) \right| <+\infty,\quad \forall y\in \mathcal{H}$$Then, by [[Bounded Linear Map|Banach-Steinhaus]], $\sup_{n\geq 1}\left\| \Lambda_{n} \right\|<+\infty$. Then, $$\left\| \Lambda_{n} \right\| ^{2}=\sup_{\left\| y \right\| \leq 1}\left| \left\langle\sum_{k=1}^{n}x_{k},y\right\rangle \right| ^{2}\leq \left\| \sum_{k=1}^{n}x_{k} \right\| ^{2}=\sum_{k=1}^{n}\left\| x_{k} \right\| ^{2}$$Therefore, we get 1. 
 
 ---
-> [!lemma] Lemma
-> Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space and $A\subseteq \mathcal{B}(\mathcal{H})$ is a [[C*-Algebra|commutative sub-$C^{*}$-algebra]] containing $\text{id}_{\mathcal{H}}$. Then, there exists $J\subseteq \mathbb{N}$ and $\{ v_{n}:n\in J \}\subseteq \mathcal{H} \backslash\{ 0 \}$ s.t. 
-> 1. $\overline{Av_{n}}\ \bot\  \overline{Av_{m}}$ for $n\neq m$.
-> 2. $\mathcal{H}=\widehat{\bigoplus}_{n\in J} \overline{Av_{n}}$ where $\widehat{\bigoplus}$ denotes the direct orthogonal sum.
+##### Hilbert Space and Spectral Theorem
+> [!lemma] Lemma 1
+> Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space and $A\subseteq \mathcal{B}(\mathcal{H})$ is a commutative [[C*-Algebra|sub-$C^{*}$-algebra]] containing $\text{id}_{\mathcal{H}}$. Then, 
+> 1. there exists $J\subseteq \mathbb{N}$ and $\{ v_{n}:n\in J \}\subseteq \mathcal{H} \backslash\{ 0 \}$ s.t. 
+> 	1. $\overline{Av_{n}}\ \bot\  \overline{Av_{m}}$ for $n\neq m$.
+> 	2. $\mathcal{H}=\widehat{\bigoplus}_{n\in J} \overline{Av_{n}}$ where $\widehat{\bigoplus}$ denotes the direct orthogonal sum.
 
 > [!proof]-
 > Consider $\mathcal{C}:=\{ F\subseteq \mathcal{H} \backslash \{ 0 \}:\forall v,w\in F,Av\ \bot\ Aw \}$. Then $\mathcal{C}\neq \varnothing$ and we will use the Zorn's lemma to find a maximal set. If $\mathcal{U}\subseteq \mathcal{C}$ is totally ordered, then $\bigcup_{F\in \mathcal{U}}^{}F\in \mathcal{C}$. Therefore, there exists a maximal element $J$. As $\mathcal{H}$ is separable, $J$ is countable. Then, one can see that the first condition holds for $J$.
@@ -99,13 +101,13 @@ $$\sum_{k=0}^{\infty}\left| \braket{ x , e_{k} }  \right| ^{2}\leq\|x\|^2$$
 > Let $w\in \mathcal{L}^{\bot}\backslash\{ 0 \}$. Then, clearly $Aw\ {\bot}\ Av$ for all $v\in J$. This is a contradiction to the maximality of $J$.
 > 
 ---
-> [!lemma] Theorem
-> Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space and $A\subseteq \mathcal{B}(\mathcal{H})$ is a [[C*-Algebra|commutative sub-$C^{*}$-algebra]] containing $\text{id}_{\mathcal{H}}$. Then, 
-> 1. there exists a finite positive Borel regular measure $\mu$ on $\widehat{A}\times \mathbb{N}$
+> [!lemma] Theorem 2
+> Let $\mathcal{H}$ be a [[Separable Space|separable]] Hilbert space and $A\subseteq \mathcal{B}(\mathcal{H})$ is a commutative [[C*-Algebra|sub-$C^{*}$-algebra]] containing $\text{id}_{\mathcal{H}}$. Then, 
+> 1. there exists a finite positive Borel regular measure $\mu$ on $\widehat{A}\times \mathbb{N}$ and
 > 2. there exists a Hilbert space isomorphism $\Lambda:\mathcal{H}\to L^{2}(\widehat{A}\times \mathbb{N},\mu)$ s.t. for all $T\in A$ and $v\in \mathcal{H}$, $$\Lambda(Tv)(\chi,n)=\widehat{T}(\chi)\Lambda(v)(\chi,n)$$In other words, the following diagram commutes: $$\begin{CD}\mathcal{H} @>\Lambda>>L^2(\widehat{A}\times \mathbb{N},\mu)\\@VTVV&@VVM_{\widehat{T}}V\\\mathcal{H}@>\Lambda>>L^2(\widehat{A}\times \mathbb{N},\mu)\end{CD}$$where $M_{\widehat{T}}$ is a [[Multiplication Operator on Lp Space|multiplication operator]] s.t. $(M_{\widehat{T}}f)(\chi,n)=\widehat{T}(\chi)f(\chi,n)$.
 
-> [!proof]-
-> Let $E$ be the resolution of identity given by the [[Guelfand Spectrum|spectral theorem]], i.e. for all $T\in A$: $$T=\int_{\widehat{A}}^{} \widehat{T} \, dE $$Let $v\neq 0$. Then, $$\braket{ Tv , v } =\int_{\widehat{A}}^{} \widehat{T} \, dE_{v,v} $$but as $E_{v,v}$ is a positive Borel regular measure on $\widehat{A}$ with $E_{v,v}(\widehat{A})=\braket{ v,v}=\|v\|^{2}$, $$\left\| Tv \right\| ^{2}=\braket{ Tv , Tv } =\braket{ T^{*}Tv , v } =\int_{\widehat{A}}^{} \overline{\widehat{T}}\widehat{T} \, dE_{v,v}=\int_{\widehat{A}}^{} \left| \widehat{T} \right| ^{2} \, dE_{v,v}  $$
+> [!proof]+
+> Let $E$ be the resolution of identity given by the [[Guelfand Spectrum|spectral theorem]], i.e. for all $T\in A$: $$T=\int_{\widehat{A}}^{} \widehat{T} \, dE $$Let $v\neq 0$. Then, $\braket{ Tv , v } =\int_{\widehat{A}}^{} \widehat{T} \, dE_{v,v}$ but as $E_{v,v}$ is a positive Borel regular measure on $\widehat{A}$ with $E_{v,v}(\widehat{A})=\braket{ v,v}=\|v\|^{2}$, $$\left\| Tv \right\| ^{2} =\braket{ T^{*}Tv , v } =\int_{\widehat{A}}^{} \overline{\widehat{T}}\widehat{T} \, dE_{v,v}=\int_{\widehat{A}}^{} \left| \widehat{T} \right| ^{2} \, dE_{v,v}  $$
 > For all $T\in A$, so $T(v)=0$ if and only if $\widehat{T}=0$ $E_{v,v}$-almost everywhere. Hence, $$\begin{array}{cccc} {}&{Av}&\to&{L^2(\widehat{A},E_{v,v})}\\&{Tv} &\mapsto & {\widehat{T}} \end{array}{}$$is a well-defined linear isometry. This extends to $L_{v}:\overline{Av}\to L^2(\widehat{A},E_{v,v})$ which is.a linear isometry and injective since $L_{v}(Av)=C(\widehat{A})$ and $C(\widehat{A})$ is dense in $L^2(\widehat{A},E_{v,v})$.
 > 
 > Let $T\in A$ and $w:=Sv$ where $S\in A$. Then, $$L_{v}(Tw)=L_{v}(TSv)=\widehat{T}\widehat{S}=\widehat{T}L_{v}(Sv)=\widehat{T}L_{v}(w)$$By continuity, this extends to all $w\in \overline{Av}$. 

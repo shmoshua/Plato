@@ -62,14 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Resolution of Identity.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -112,7 +112,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Analysis/Hilbert Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Analysis/Hilbert Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md"
+                "file": "Analysis/Hilbert Space.md"
               }
             }
           }
@@ -242,14 +243,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d83c49dceb02495b",
+  "active": "a7f6f05a5fc13018",
   "lastOpenFiles": [
+    "Functional Analysis/C*-Algebra.md",
+    "Analysis/Hilbert Space.md",
     "Functional Analysis/Resolution of Identity.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Inner Product Space.md",
-    "Analysis/Hilbert Space.md",
     "Measure Theory/Complex Measure.md",
-    "Functional Analysis/C*-Algebra.md",
     "Courses/Algebra I/Serie 9.md",
     "Differential Geometry/Topological Manifold.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
