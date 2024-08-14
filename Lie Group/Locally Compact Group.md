@@ -21,7 +21,7 @@
 > 1. Any group $G$ w.r.t the discrete topology is locally compact Hausdorff.
 > 2. $(\mathbb{R}^n,+)$ w.r.t the Euclidean topology is locally compact Hausdorff.
 > 3. $\mathbb{R}^{*},\mathbb{C}^{*}$ is locally compact Hausdorff.
-> 4. [[General Linear Group|$\text{GL}(n,\mathbb{R})$]] is locally compact Hausdorff by [[Locally Compact Hausdorff Space|Lemma 4]] as it is open in $\text{M}_{n,n}(\mathbb{R})$.
+> 4. [[General Linear Group|$\text{GL}(n,\mathbb{R}), \text{GL}(n,\mathbb{C})$]] are locally compact Hausdorff by [[Locally Compact Hausdorff Space|Lemma 4]] as it is open in $\text{M}_{n,n}(\mathbb{R})$ and $\text{M}_{n,n}(\mathbb{C})$.
 ---
 > [!h] Example 2
 > Let $M$ be a [[topological manifold]] of dimension $m\geq 1$. Then, $\text{Homeo}(M)$ is a topological group but not locally compact.

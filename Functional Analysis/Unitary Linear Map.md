@@ -10,7 +10,7 @@
 > [!lemma] Lemma 1
 > Let $\mathcal{H}$ be a separable $\mathbb{C}$-Hilbert space. W.r.t. the strong operator topology, whose basis is given by:$$U(T;u_{1},\dots,u_{n};\varepsilon):=\{ S\in \mathcal{U}(\mathcal{H}):\left\| Su_{i}-Tu_{i} \right\| <\varepsilon,\forall i\in[n] \}$$
 > 1. $\mathcal{U}(\mathcal{H})$ is a [[topological group]].
-> 2. $\mathcal{U}(\mathcal{H})$ is [[Locally Compact Topological Group|locally compact]] if and only if $\text{dim }\mathcal{H}<+\infty$, in which case $\mathcal{U}(\mathcal{H})$ is also compact. 
+> 2. $\mathcal{U}(\mathcal{H})$ is [[Locally Compact Group|locally compact]] if and only if $\text{dim }\mathcal{H}<+\infty$, in which case $\mathcal{U}(\mathcal{H})$ is also compact. 
 
 > [!proof]-
 > We have that:

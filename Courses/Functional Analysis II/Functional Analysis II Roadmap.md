@@ -77,7 +77,7 @@
 
 **6.1 Topological Groups**
 1. [[Topological Group]]
-2. [[Locally Compact Topological Group]]
+2. [[Locally Compact Group]]
 3. **Example of Topological Groups**: [[p-adic Integer]]
 4. **Example of Topological Groups**: [[p-adic Rational]]
 

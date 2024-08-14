@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]]. The ***left/right Haar measure*** $\mu$ is the unique (up to scalars) non-zero left-invariant measure that is finite on compact sets, i.e. $$\mu(gA)=\mu(A),\quad \forall g\in G,A\subseteq G$$
+> Let $G$ be a [[Locally Compact Group|locally compact Hausdorff group]]. The ***left/right Haar measure*** $\mu$ is the unique (up to scalars) non-zero left-invariant measure that is finite on compact sets, i.e. $$\mu(gA)=\mu(A),\quad \forall g\in G,A\subseteq G$$
 > 
 > If $G$ is [[Abelian Group|abelian]] on compact, this measure is also right invariant, known as the ***Haar measure***.
 
@@ -12,7 +12,7 @@
 ##### Properties
 
 > [!lemma] Theorem 1 (Existence and Uniqueness of Haar Measure, Haar 1933)
-> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff group]]. Then, let $\lambda:G\to \text{GL}(C_{00}(G))$ be the [[Representation|left-regular representation]], i.e. for $f\in C_{00}(G)$, $$\lambda(g)f(x)=f(g^{-1}x)$$
+> Let $G$ be a [[Locally Compact Group|locally compact Hausdorff group]]. Then, let $\lambda:G\to \text{GL}(C_{00}(G))$ be the [[Representation|left-regular representation]], i.e. for $f\in C_{00}(G)$, $$\lambda(g)f(x)=f(g^{-1}x)$$
 > 1. there exists a unique (up to scaling) positive linear functional $\Lambda :C_{00}(G)\to \mathbb{C}$ that is invariant under left translation, i.e.$$\Lambda(\lambda(g)f)=\Lambda(f), \quad \forall f\in C_{00}(G),g\in G$$We call $\Lambda$ the ***left Haar functional***.
 > 2. there exists a unique (up to scaling) non-zero positive regular Borel measure $\mu$ on $G$ s.t. for every $A\in \Sigma_{\mu}$, $\mu(gA)=\mu(A)$ for all $g\in G$, called the ***left Haar measure***. It also holds that: $$\Lambda(f)=\int_{G}^{} f \, d\mu $$
 
@@ -23,7 +23,7 @@
 ---
 
 > [!lemma] Lemma 2
-> Let $G$ be a [[Locally Compact Topological Group|LCH group]] and $\mu$ the left Haar measure. Then, 
+> Let $G$ be a [[Locally Compact Group|LCH group]] and $\mu$ the left Haar measure. Then, 
 > 1. $\text{supp}(\mu)=G$, i.e for all non-empty open $U\subseteq G$, $\mu(U)>0$.
 > 3. Any $h\in C(G)$ for which: $$\int_{G}^{} h\cdot \varphi \, d\mu=0,\quad \forall\varphi\in C_{00}(G) $$it holds that $h=0$.
 > 4. For $X$ Hausdorff, if $f_{1},f_{2}:G\to X$ are continuous, if $f_{1}(g)=f_{2}(g)$ for $\mu$-a.e. $g\in G$ then $f_{1}\equiv f_{2}$.
@@ -37,7 +37,7 @@
 > 4. there exists open set $U\subseteq G$ s.t. $f(x)>\varepsilon>0$ on $x\in U$. Then, $$\int_{G}^{} f \, d\mu\geq \int_{U}f\, d\mu>\varepsilon \mu(U)>0  $$ 
 ---
 > [!lemma] Corollary 3
-> Let $G$ be a [[Locally Compact Topological Group|LCH group]] and $\text{Aut}(G)$ the group of topological group automorphisms of $G$. Then, 
+> Let $G$ be a [[Locally Compact Group|LCH group]] and $\text{Aut}(G)$ the group of topological group automorphisms of $G$. Then, 
 > 1. there exists a group homomorphism $\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}^\times_{>0}$ s.t. $$\Lambda(f\circ \alpha ^{-1})=\text{mod}_{G}(\alpha)\Lambda(f),\quad \forall f\in C_{00}(G), \alpha\in \text{Aut}(G)$$
 > 2. it holds that the modular function $\Delta_{G}:G\to \mathbb{R}^\times_{>0}, g\mapsto \text{mod}_{G}(\alpha_{g^{-1}})$,  where $\alpha_{g^{-1}}\in \text{Inn}(G)\subseteq \text{Aut}(G)$ is the [[inner automorphism]] $x\mapsto g^{-1}xg$.
 > 3. $\Delta_{G}$ is continuous.

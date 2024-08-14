@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> A [[Locally Compact Topological Group|LCH group]] $G$ is ***unimodular*** if the [[Haar Measure|modular function]] $\Delta_{G}\equiv 1$. 
+> A [[Locally Compact Group|LCH group]] $G$ is ***unimodular*** if the [[Haar Measure|modular function]] $\Delta_{G}\equiv 1$. 
 - **Equivalent definition**: $G$ is unimodular if every left Haar measure is also a right Haar measure.
 ---
 ##### Properties

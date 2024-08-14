@@ -18,7 +18,7 @@
 > [!proof]-
 > We have:
 > 1. [[Topological Group|Example 6]]
-> 2. [[Locally Compact Topological Group|Example 4]]
+> 2. [[Locally Compact Group|Example 4]]
 > 3. [[Submanifold|Example 1]]
 > 4. [[Lie Group|Example 6]]
 ---

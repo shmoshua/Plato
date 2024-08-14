@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be a [[Locally Compact Topological Group|locally compact Hausdorff topological group]] and $\mu$ a [[Haar Measure|left Haar measure]]. If $G$ is abelian and $\sigma$-compact, i.e. it is a countable union of [[Compact Space|compact]] subsets, for $f,g\in L^1(G,\mu)$, the ***convolution*** of $f,g$ is defined as: $$\begin{array}{cccc} {f*g:}&{G}&\to&{\mathbb{C}}\\&{x} &\mapsto & {\int_{G}^{} f(xy)g(y^{-1}) \, d\mu(y) } \end{array}{}$$
+> Let $G$ be a [[Locally Compact Group|locally compact Hausdorff topological group]] and $\mu$ a [[Haar Measure|left Haar measure]]. If $G$ is abelian and $\sigma$-compact, i.e. it is a countable union of [[Compact Space|compact]] subsets, for $f,g\in L^1(G,\mu)$, the ***convolution*** of $f,g$ is defined as: $$\begin{array}{cccc} {f*g:}&{G}&\to&{\mathbb{C}}\\&{x} &\mapsto & {\int_{G}^{} f(xy)g(y^{-1}) \, d\mu(y) } \end{array}{}$$
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Convolution is Well-defined)

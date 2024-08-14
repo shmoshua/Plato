@@ -50,7 +50,7 @@
 ---
 
 > [!lemma] Proposition 5
-> Let $G$ be an abelian [[Locally Compact Topological Group|locally compact Hausdorff group]]. Then, 
+> Let $G$ be an abelian [[Locally Compact Group|locally compact Hausdorff group]]. Then, 
 > 1. the function: $$\begin{array}{cccc} {}&{G\times \widehat{G}}&\to&{\mathbb{T}}\\&{(x,\chi)} &\mapsto & {\chi(x)} \end{array}{}$$ is continuous. 
 > 2. let $K\subseteq G$ compact and $C\subseteq \widehat{G}$ compact. For $\varepsilon>0$ and $$N(K,\varepsilon):=\{ \chi\in \widehat{G}:\left| (x,\chi)-1 \right| <\varepsilon, x\in K \},\quad N(C,\varepsilon):=\{ x\in G:\left| (x,\chi)-1 \right| <\varepsilon ,\chi\in C\}$$are open subsets of $\widehat{G}$ and $G$ respectively. 
 > 3. the family of subsets $N(K,\varepsilon)\subseteq \widehat{G}$ and their translates form a basis of open sets for the Guelfand topology on $\widehat{G}$.
