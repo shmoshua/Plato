@@ -1,7 +1,8 @@
 #Definition #Example #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be a [[group]] Then, for a [[Hilbert Space|Hilbert space]] $\mathcal{H}$, a ***unitary representation*** of $G$ is a group homomorphism $$\pi:G \to \text{U}(\mathcal{H})$$ 
+> Let $G$ be a [[group]] and $\mathcal{H}$ a [[Hilbert Space|Hilbert space]]. Then, 
+> 1.  a ***unitary representation*** of $G$ is a group homomorphism $$\pi:G \to \text{U}(\mathcal{H})$$ 
 
 - **Related definition**: A subspace $V\subseteq \mathcal{H}$ is ***invariant*** if $\pi(g)V\subseteq V$ for all $g\in G$.
 - **Related definition**: A representation $(\pi,\mathcal{H})$ is ***irreducible*** if whenever $V\subseteq \mathcal{H}$ is closed invariant, either $V=(0)$ or $V=\mathcal{H}$.
@@ -10,10 +11,14 @@
 
 ##### Properties
 > [!lemma] Proposition 1
-> For an invariant subspace $V$, $V^{\bot}$ is also an invariant subspace.
+> For an invariant subspace $V$ and $T\in \text{Int}(\pi)$,
+> 1. $V^{\bot}$ is also an invariant subspace.
+> 2. $T^{*}\in \text{Int}(\pi)$.
 
 > [!proof]-
-> For all $v\in V,w\in V^{\bot}$ and $g\in G$, $$\braket{ v , \pi(g)w } =\braket{ \pi(g)^{*}v , w } =\braket{ \pi(g)^{-1}v , w } =\braket{ \pi(g^{-1})v , w } =0$$
+> We have:
+> 1. For all $v\in V,w\in V^{\bot}$ and $g\in G$, $$\braket{ v , \pi(g)w } =\braket{ \pi(g)^{*}v , w } =\braket{ \pi(g)^{-1}v , w } =\braket{ \pi(g^{-1})v , w } =0$$
+> 2. $\pi(g)T^{*}=\pi(g^{-1})^{*}T^{*}=(T\pi(g^{-1}))^{*}=(\pi(g^{-1})T)^{*}=T^{*}\pi(g^{-1})^{*}=T^{*}\pi(g)$.
 
 ---
 > [!lemma] Corollary 2
@@ -26,25 +31,25 @@ Let $G=\text{SL}(2,\mathbb{Z})$ and $H=(\text{id}_{\mathcal{H}})$ with $\mathcal
 We have: $x=x_{1}+x_{2}$ where $x_{1}\in V$ and $x_{2}\in V^{\bot}$. Then, $x_{1}=\Pi_{V}(x)$ and $\pi(g)x_{1}=\Pi_{V}(\pi(g)x)$. Therefore, $\Pi_{V}\in \text{Int}(\pi).$
 
 ---
-If $T\in \text{Int}(\pi)$, then $T^{*}\in \text{Int}(\pi)$. $T\pi(g)=\pi(g)T$, $\pi(g^{-1})T^{*}=\pi(g)^{*}T^{*}=T^{*}\pi(g)^{*}=T^{*}\pi(g^{-1})$ for all $g\in G$.
+> [!lemma] Theorem 3 (Schur's Lemma)
+> For a unitary representation $(\pi,\mathcal{H})$, TFAE:
+> 1. $\pi$ is irreducible. 
+> 2. $\text{Int}(\pi)=\mathbb{C}\cdot \text{id}_{\mathcal{H}}$.
 
----
-> [!lemma] Theorem (Schur's Lemma)
-> The unitary representation $(\pi,\mathcal{H})$ is irreducible if and only if $\text{Int}(\pi)=\mathbb{C}\cdot \text{id}_{\mathcal{H}}$.
-
-> [!proof]-
-> If $(\pi,\mathcal{H})$ is not irreducible and $V\subseteq \mathcal{H}$ is a closed invariant subspace s.t. $0\subsetneq V\subsetneq\mathcal{H}$. Then, $\Pi_{V}\in \text{Int}(\pi)$. This cannot be $\lambda \cdot \text{id}_{\mathcal{H}}$.
-> 
-> Conversely, assume there exists $T\in \text{Int}(\pi)$ s.t. $T\notin \mathbb{C}\cdot \text{ id}_{\mathcal{H}}$. Then, either $T_{1}:=\frac{1}{2}(T+T^{*})$ or $T_{2}:=\frac{1}{2i}(T-T^{*})$ is not in $\mathbb{C}\cdot \text{id}_{\mathcal{H}}$ as $T=T_{1}+iT_{2}$. Therefore, there exists $S=S^{*}\in \text{Int}(\pi)$ and $S\notin \mathbb{C}\cdot \text{id}_{\mathcal{H}}$. 
-> 
-> However, we claim that $\left| \text{Sp}(S) \right|\geq 2$. Let $E$ be the resolution of identity defined on the Borel sets of $\text{Sp}(S)$ with $$S=\int_{\text{Sp}(S)}\lambda  \, dE(\lambda) $$ Assume that $\text{Sp}(S)=\{ \lambda_{0} \}$. Then, $$\text{id}_{\mathcal{H}}=E(\text{Sp}(S))=E(\{ \lambda_{0} \})=\Pi_{\mathcal{H}_{\lambda_{0}}}$$Therefore, $\mathcal{H}=\mathcal{H}_{\lambda_{0}}$ and $S=\lambda_{0}\text{id}_{\mathcal{H}}$ which is a contradiction.
-> 
-> Let $\lambda_{1}\neq\lambda_{2}\in \text{Sp}(S)$ and $V_{i}\ni \lambda_{i}$ be open subsets of $\text{Sp}(S)$ with $V_{1}\cap V_{2}=\varnothing$. (Real numbers are Hausdorff). Then, 
-> 1. $E(V_{1})\neq 0$ and $E(V_{2})\neq 0$
-> 2. $0=E(\varnothing)=E(V_{1}\cap V_{2})=E(V_{1})E(V_{2})$ (projections orthogonal to each other)
-> 3. Since $\pi(g)$ commutes with $S$, it commutes with $E(V_{1})$ and $E(V_{2})$.
+> [!proof]+
+> We have that:
+> 1. (1=>2): Assume there exists $T\in \text{Int}(\pi)$ s.t. $T\notin \mathbb{C}\cdot \text{ id}_{\mathcal{H}}$. Then, either $T_{1}:=\frac{1}{2}(T+T^{*})$ or $T_{2}:=\frac{1}{2i}(T-T^{*})$ is not in $\mathbb{C}\cdot \text{id}_{\mathcal{H}}$ as $T=T_{1}+iT_{2}$. Therefore, there exists $S=S^{*}\in \text{Int}(\pi)$ and $S\notin \mathbb{C}\cdot \text{id}_{\mathcal{H}}$. 
 >    
-> Consider $V:=\text{Im }E(V_{1})$. Then, $V$ is $\pi(g)$-invariant and $0\subsetneq V\subsetneq \mathcal{H}$, as: $$\pi(g)V=\pi(g)E(V_{1})\mathcal{H}=E(V_{1})\pi(g)\mathcal{H}=E(V_{1})\mathcal{H}$$
+>    As $S$ is normal, we can use the [[Guelfand Spectrum|spectral theorem]]. We claim that $\left| \text{Sp}(S) \right|\geq 2$. Let $E$ be the given resolution of identity in the spectral theorem. Then,$$S=\int_{\text{Sp}(S)}^{} \lambda \, dE(\lambda) $$ If $\text{Sp}(S)=\{ \lambda_{0} \}$, then: $$\text{id}_{\mathcal{H}}=E(\text{Sp}(S))=E(\{ \lambda_{0} \})$$As $\lambda_{0}$ is an isolated point, $E(\{ \lambda_{0} \})=\prod_{\mathcal{H}_{\lambda_{0}}}$. Therefore, $\mathcal{H}=\mathcal{H}_{\lambda_{0}}$ and $S=\lambda_{0}\text{id}_{\mathcal{H}}$, which is a contradiction.
+> 
+> 	Let $\lambda_{1}\neq\lambda_{2}\in \text{Sp}(S)$ and $V_{i}\ni \lambda_{i}$ be open subsets of $\text{Sp}(S)$ with $V_{1}\cap V_{2}=\varnothing$, which exists as $\mathbb{C}$ is Hausdorff. Then, 
+> 	1. $E(V_{1})\neq 0$ and $E(V_{2})\neq 0$
+> 	2. $0=E(\varnothing)=E(V_{1}\cap V_{2})=E(V_{1})E(V_{2})$ (projections orthogonal to each other)
+> 	3. Since $\pi(g)$ commutes with $S$, it commutes with $E(V_{1})$ and $E(V_{2})$.
+>    
+>    Consider $V:=\text{Im }E(V_{1})$. Then, $V$ is $\pi(g)$-invariant and $0\subsetneq V\subsetneq \mathcal{H}$, as: $$\pi(g)V=\pi(g)E(V_{1})\mathcal{H}=E(V_{1})\pi(g)\mathcal{H}=E(V_{1})\mathcal{H}$$
+>    
+> If $(\pi,\mathcal{H})$ is not irreducible and $V\subseteq \mathcal{H}$ is a closed invariant subspace s.t. $0\subsetneq V\subsetneq\mathcal{H}$. Then, $\Pi_{V}\in \text{Int}(\pi)$. This cannot be $\lambda \cdot \text{id}_{\mathcal{H}}$.
 ---
 ##### Examples
 > [!h] Example 1
