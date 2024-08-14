@@ -15,7 +15,7 @@
 	 1. $\mathcal{B}^\infty(X):=\{ f:X\to \mathbb{C} | f\text{ Borel-measurable}, \left\| f \right\| :=\sup_{x\in X}\left| f(x) \right| <+\infty \}$ and 
 	 2. the ***essential image*** of a measurable map $f:X\to \mathbb{C}$: $\text{ess im}(f):=\mathbb{C} \backslash \bigcup_{E(f^{-1}(D_{n}))=0}^{}D_{n}$. 
 	 3. a [[seminorm]] $\|f\|_{\infty}:=\sup\{ \left| \lambda \right|:\lambda\in \text{ess im}(f) \}$
-	 4. $N:=\{ f\in \mathcal{B}^\infty(X),\|f\|_{\infty}=0 \}$ as a closed ideal in $\mathcal{B}^\infty(X)$.
+	 4. $N:=\{ f\in \mathcal{B}^\infty(X):\|f\|_{\infty}=0 \}$ as a closed ideal in $\mathcal{B}^\infty(X)$.
 	 5. The [[C*-Algebra|$C^{*}$-algebra]]: $L^\infty(E):= \mathcal{B}^\infty(X) / N$.
 - **Remark**: For every $f\in \mathcal{B}^\infty(X)$, $\int_{X}^{} f\ dE_{x,y}$ is well-defined since $E_{x,y}$ is a regular Borel on $X$.
 - **Remark**: If $\left\| f \right\|_{\infty}=0$, then, since $E(f^{-1}(\mathbb{C} \backslash \{ 0 \}))=0,$
@@ -79,11 +79,11 @@
 > [!lemma] Proposition 5 (Bounded Borel Functions form a C*-algebra)
 > We have that: 
 > 1. $\mathcal{B}^\infty(X)$ is a commutative $C^{*}$-algebra with complex conjugate.
-> 2. $L^\infty(X):=\mathcal{B}^\infty(X) / N$ quotient norm is given by $\left\| f+N \right\|=\left\| f \right\|_{\infty}$.
-> 3. $L^\infty(X):=\mathcal{B}^\infty(X) / N$ is a $C^{*}$-algebra. 
+> 2. $L^\infty(E):=\mathcal{B}^\infty(X) / N$ quotient norm is given by $\left\| f+N \right\|=\left\| f \right\|_{\infty}$.
+> 3. $L^\infty(E):=\mathcal{B}^\infty(X) / N$ is a $C^{*}$-algebra. 
 > 4. $\text{Sp}_{L^\infty(N)}(f+N)=\text{ess im}(f)$ for $f\in \mathcal{B}^\infty(X)$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. For $\mathcal{B}^\infty(X)$:
 > 	1. $\mathcal{B}^\infty(X)$ is a unital $\mathbb{C}$-algebra with unit $1$.
@@ -96,24 +96,29 @@
 >    
 >    Let $a:\mathbb{C}\to \mathbb{R},z\mapsto \left| z \right|^{2}$. Then, $ff^{*}=a\circ f$. We want to argue that: $$\text{ess im}(ff^{*})=a(\text{ess im}(f))$$For $D_{n}\subseteq \mathbb{C}$ open, as $a$ is continuous, $a^{-1}(D_{n})$ is open and:$$\begin{align}D_{n}\subseteq \mathbb{C} \backslash \text{ess im}(ff^{*})&\iff E((ff^{*})^{-1}(D_{n}))=0\\&\iff E((a\circ f)^{-1}(D_{n}))=0\\&\iff E(f^{-1}(a^{-1}(D_{n})))=0\\&\iff a^{-1}(D_{n})\subseteq \mathbb{C} \backslash \text{ess im}(f)\end{align}$$This proves the statement and: $$\left\| ff^{*} \right\| _{\infty}=\sup_{\lambda\in \text{ess im}(ff^{*})}\left| \lambda \right| =\sup_{\lambda\in \text{ess im}(f)}\left| \lambda \right|^{2} =(\sup_{\lambda\in \text{ess im}(f)}\left| \lambda \right|)^{2} =\left\| f \right\| _{\infty}^{2}$$
 > 4. We have that $\lambda\in \text{Sp}_{L^\infty(N)}(f+N)$ if and only if $0\in \text{Sp}_{L^\infty(N)}(f-\lambda+N)$. Further, $0\in \text{ess im}(f-\lambda)$ if and only if $\lambda\in \text{ess im}(f)$. Therefore, it suffices to show that $0\in \text{Sp}_{L^\infty(N)}(f+N)$ if and only if $0\in \text{ess im}(f)$. 
----
 
 ---
-> [!lemma] Theorem 4
-> Given a resolution of identity $E:\mathcal{B}_{X}\to \mathcal{B}(\mathcal{H})$, 
-> 1. there exists a $C^{*}$-algebra isomorphism: $$\begin{array}{cccc} {\psi:}&{L^\infty(E)}&\to&{B\subseteq \mathcal{B}(\mathcal{H})}\end{array}{}$$s.t. $\braket{ \psi(f)x , y }=\int_{X}^{} f \, dE_{x,y}$ for all $f\in L^\infty(E)$.
-> 2. $\|\psi(f)x\|^{2}=\int_{X}^{}  \left| f \right|^{2}\, dE_{x,x}$
-> 3. $Q\in \mathcal{B}(\mathcal{H})$ commutes with $E(\omega)$ for all $\omega\in \mathcal{B}$ if and only if $Q$ commutes with $\psi(L^\infty(E)):=B$
+> [!lemma] Theorem 6
+> For a compact Hausdorff $X$ and a resolution of identity $E:\mathcal{B}_{X}\to \mathcal{B}(\mathcal{H})$, 
+> 1. there exists a $C^{*}$-algebra isomorphism: $\psi:L^\infty(E)\to B\subseteq \mathcal{B}(\mathcal{H})$ onto a sub-$C^{*}$-algebra $B$s.t. $$\braket{ \psi(f)x , y } =\int_{X}^{} f \, dE_{x,y},\quad \forall x,y\in \mathcal{H},f\in L^\infty(E) $$
+> 2. $\|\psi(f)x\|^{2}=\int_{X}^{}  \left| f \right|^{2}\, dE_{x,x}$ for all $x\in \mathcal{H}$, $f\in L^\infty(E)$.
+> 3. an operator $Q\in \mathcal{B}(\mathcal{H})$ commutes with every $E(\omega)$  if and only if $Q$ commutes with $B$.
 
-> [!proof]- Proof (Exercise)
-> We introduce the following notation: $\int_{X}^{} f \, dE:=\psi(f)$. We show: 
-> 1. **Showing that $\mathcal{S}(X)$ is dense in $\mathcal{B}^\infty(X)$**: 
->    Let $\varepsilon>0$ and $f\in \mathcal{B}^\infty(X)$. Then, $f(X)\subseteq \mathbb{C}$ is bounded and we get a finite family of partition $$f(X)\subseteq \bigsqcup_{i,j}^{}D_{i,j}$$ s.t. $D_{i,j}$ is a square of side-length $\varepsilon$. Then, by selecting $z_{i,j}\in D_{i,j}$ for all $i,j$ and $$s_{\varepsilon}:=\sum_{i,j}^{}z_{i,j}\chi_{D_{i,j}}$$Then, $\|f-s_{\varepsilon}\|\leq \varepsilon$. 
-> 2. **Showing that $\psi$ exists for $\mathcal{S}(X)$**:
+> [!proof]+ 
+> We introduce the following notation: $\int_{X}^{} f \, dE:=\psi(f)$. We show:
+> 1. We will construct $\psi$ on a dense subset of $\mathcal{B}^\infty(X)$ and extend  
+> 	1. **Showing that $\mathcal{S}(X)$ is dense in $\mathcal{B}^\infty(X)$**: 
+>    Let $\mathcal{S}(X)\subseteq \mathcal{B}^\infty(X)$ be the set of simple functions, i.e. functions that take finitely many values. Let $\varepsilon>0$ and $f\in \mathcal{B}^\infty(X)$. Then, $f(X)\subseteq \mathbb{C}$ is bounded and we get a finite family of partition $$f(X)\subseteq \bigsqcup_{i,j}^{}D_{i,j}$$ s.t. $D_{i,j}$ is a square of side-length $\varepsilon$. Then, by selecting $z_{i,j}\in D_{i,j}$ for all $i,j$ and $$s_{\varepsilon}:=\sum_{i,j}^{}z_{i,j}\chi_{f^{-1}(D_{i,j})}$$Then, $\|f-s_{\varepsilon}\|_{b}\leq \varepsilon$. 
+> 	1. **Showing that $\psi$ exists for $\mathcal{S}(X)$**:
 >    Let $s\in \mathcal{S}(X)$ be simple. Then, there is a partition $\bigsqcup_{i=1}^{n}\omega_{i}=X$ with $s=\sum_{i=1}^{n}\alpha_{i}\chi_{\omega_{i}}$. Then, we define:$$\psi(s):=\sum_{i=1}^{n}\alpha_{i}E(\omega_{i})$$which has the property: 
->    - $\psi$ is linear: (Exercise)
+> 	   1. $\psi$ is linear: For $s_{1}:=\sum_{i=1}^{n}\alpha_{i}\chi_{\omega_{i}}$ and $s_{2}:=\sum_{j=1}^{m}\beta_{j}\chi_{\xi_{j}}$, let $\eta_{i,j}:=\omega_{i}\cap \xi_{j}$. Then, 
+> 	      $$\braket{ \psi(s_{1}+s_{2})x , x } =\sum_{i,j}^{}(\alpha_{i}+\beta_{j})E_{x,x}(\omega_{i}\cap \xi_{j})=\sum_{i}^{}\alpha_{i}E_{x,x}(\omega_{i})+\sum_{j}^{}\beta_{j}E_{x,x}(\xi_{j})$$ which shows the linearity.
+> 	   2. $\psi$ respects the $C^{*}$-algebra structure as: $$\psi(s)^{*}=\left( \sum_{i=1}^{n}\alpha_{i}E(\omega_{i}) \right) ^{*}=\sum_{i=1}^{n}\overline{\alpha_{i}}E(\omega_{i})=\psi(\overline{s})$$
+> 	     
+> 	      
+> 	   2. 
 >    $$\psi(s)^{*}=\left( \sum_{i=1}^{n}\alpha_{i} E(\omega_{i})\right)^{*}=\sum_{i=1}^{n}\overline{\alpha_{i}}E(\omega_{i})=\psi(\overline{s})$$
->    - Let $s=\sum_{i=1}^{n}\alpha_{i}\chi_{\omega_{i}}$ and $t=\sum_{j=1}^{m}\beta_{j}\chi_{\omega'_{j}}$. Then, $st=\sum_{i=1}^{m}\sum_{j=1}^{m}\alpha_{i}\beta_{j}\chi_{\omega_{i}\cap\omega_{j}'}$ and: $$\psi(st)=\sum_{i=1}^{n}\sum_{j=1}^{m}\alpha_{i}\beta_{j}E(\omega_{i}\cap\omega'_{j})=\sum_{i=1}^{n}\sum_{j=1}^{m}\alpha_{i}\beta_{j}E(\omega_{i})E(\omega'_{j})=\psi(s)\psi(t)$$
+> 	   2.  Let $s=\sum_{i=1}^{n}\alpha_{i}\chi_{\omega_{i}}$ and $t=\sum_{j=1}^{m}\beta_{j}\chi_{\omega'_{j}}$. Then, $st=\sum_{i=1}^{m}\sum_{j=1}^{m}\alpha_{i}\beta_{j}\chi_{\omega_{i}\cap\omega_{j}'}$ and: $$\psi(st)=\sum_{i=1}^{n}\sum_{j=1}^{m}\alpha_{i}\beta_{j}E(\omega_{i}\cap\omega'_{j})=\sum_{i=1}^{n}\sum_{j=1}^{m}\alpha_{i}\beta_{j}E(\omega_{i})E(\omega'_{j})=\psi(s)\psi(t)$$
 >      
 >    Then, $$\braket{ \psi(s)x , y } =\left\langle\sum_{i=1}^{n}\alpha_{i}E(\omega_{i})x,y\right\rangle =\sum_{i=1}^{n}\alpha_{i}E_{x,y}(\omega_{i})=\int_{X}^{} \sum_{i=1}^{n}\alpha_{i}\chi_{\omega_{i}} \, dE_{x,y}=\int_{X}^{} s \, dE_{x,y}  $$
 >    and $$\left\| \psi(s)x \right\| ^{2}=\braket{ \psi(s)x , \psi(s)x } =\braket{ \psi(s)^{*}\psi(s)x , x } =\braket{ \psi(\overline{s}s)x , x } =\braket{ \psi (\left| s \right|^{2} )x , x } =\int_{X}^{} \left| s \right| ^{2} \, dE_{x,x} $$therefore, $\left\| \psi(s)x \right\|^{2}\leq \|s\|_{\infty}^{2} E_{x,x}(X)\leq\|s\|^{2}_{\infty}\|x\|^{2}$ and $\|\psi(s)\|\leq\|s\|_{\infty}$. Furthermore, we have that $\|s\|_{\infty}=\max\{ \left| \alpha_{i} \right|:E(\omega_{i})\neq 0 \}=\left| \alpha_{j_{0}} \right|$ for some $j_{0}$. 
@@ -122,5 +127,6 @@
 >    Then, for $x\in \text{Im }E(\omega_{j_{0}})$ and $\|x\|=1$, we get: $$\psi(s)x=\sum_{i=1}^{n}\alpha_{i}E(\omega_{i})x=\alpha_{j_{0}} E(\omega_{j_{0}})x=\alpha_{j_{0}} x$$where for all $i\neq j_{0}$, $E(\omega_{i})x=E(\omega_{i})E(\omega_{j_{0}})x=E(\omega_{i}\cap\omega_{j_{0}})x=0$. Therefore, $$\left\| \psi(s)x \right\| =\left| \alpha_{j_{0}} \right| \|x\|=\left| \alpha_{j_{0}} \right| =\|s\|_{\infty}$$This shows that $\|\psi(s)\|=\|s\|_{\infty}$. Therefore, by the [[Bounded Linear Map|BLT Theorem]], $\psi$ extends to $\psi:L^\infty(E)\to \mathcal{B}(\mathcal{H})$ s.t. $\|\psi(f)\|=\|f\|_{\infty}$. 
 >  3. We have: $$\braket{ \psi(f)x , y } =\lim_{ k \to \infty }\braket{ \psi(s_{k})x , y } =\lim_{ k \to \infty } \int_{X}^{} s_{k} \, dE_{x,y}  $$where the limit converges for all diagonal coefficients $$\left| \int_{X}^{} f \, dE_{x,x} -\int_{X}^{} s_{k} \, dE_{x,x}  \right|=\left| \int_{X}^{} (f-s_{k}) \, dE_{x,x}  \right|\leq \left\| f-s_{k} \right\| E_{x,x}(X)=\left\| f-s_{k} \right\| \|x\|^{2}\to 0  $$and thereby for every $x,y\in \mathcal{H}$.
 
- ---
+- **Notation**: $\int_{X}^{} f \, dE:=\psi(f)\in \mathcal{B}(\mathcal{H})$. 
+---
  
