@@ -79,9 +79,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "3ab85941795e0a81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/p-adic Integer.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -95,6 +107,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "47b89ec382b740be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/p-adic Integer.md",
                 "mode": "preview",
                 "source": true
               }
@@ -125,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Locally Compact Group.md",
+                "file": "Algebra/p-adic Integer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Locally Compact Group.md",
+                "file": "Algebra/p-adic Integer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Locally Compact Group.md"
+                "file": "Algebra/p-adic Integer.md"
               }
             }
           }
@@ -255,13 +279,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7a4cc6eb3b2c165f",
+  "active": "3ab85941795e0a81",
   "lastOpenFiles": [
+    "Algebra/p-adic Integer.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Lie Group/Locally Compact Group.md",
     "Topology/Product Topology.md",
     "Lie Group/Topological Group.md",
     "Functional Analysis/Positive Operator.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/C*-Algebra.md",
     "Algebra/Unitary Representation.md",
@@ -282,7 +307,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Analysis/Complex Measure.md",
     "Measure Theory/Measurable Function.md",
-    "Functional Analysis/C-Algebra.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

@@ -1,7 +1,9 @@
 #Definition #FunctionalAnalysis
 
 > [!definition] 
-> Fix a prime $p$. For $n\geq 1$ and , $A_{n}:= \mathbb{Z} / p^n\mathbb{Z}$ is a finite [[ring]] with $1$. These rings are connected by the surjective homomorphism: $$\begin{array}{cccc} {\phi_{n}:}&{A_{n}}&\to&{A_{n-1}}\\&{x} &\mapsto & {x\mod p^{n-1}} \end{array}{}$$Then, the ring $\mathbb{Z}_{p}$ of ***$p$-adic integers*** is defied as: $$\mathbb{Z}_{p}:=\left\{  (x_{1},x_{2},\dots)\in\prod_{n\geq 1}^{}A_{n}:\phi_{n}(x_{n})=x_{n-1}, \forall n\geq 2  \right\}$$
+> For a prime $p$, let:
+> 1. $((\mathbb{Z} /p^n \mathbb{Z})_{n\geq 1},(\phi_{ij})_{i\leq j})$ defines an inverse system where: $$\phi_{ij}:\mathbb{Z} / p^j\mathbb{Z}\to \mathbb{Z} / p^i \mathbb{Z},\quad x\mapsto x\text{ mod }p^i$$
+> 2. the ring $\mathbb{Z}_{p}$ of ***$p$-adic integers*** is the [[inverse limit]], i.e. $$\mathbb{Z}_{p}:=\lim_{ \longleftarrow } \mathbb{Z} / p^n \mathbb{Z}=\left\{  (x_{n})_{n}\in\prod_{n\geq 1}^{}\mathbb{Z} / p^n \mathbb{Z}: \phi_{n,n-1}(x_{n})=x_{n-1} , \forall n\geq 2 \right\}$$
 - **Related definition**: Let $\varepsilon_{n}:\mathbb{Z}_{p}\to A_{n},x\mapsto x_{n}$ denote the ***evaluation map***.
 - **Related definition**: For $0\neq x\in \mathbb{Z}_{p}$, the ***valuation*** is defined as $v_{p}(x)=n$ where $x=p^n\cdot u$ is the unique decomposition (cf. Proposition 2). For, $x=0$, $v_{p}(0)=+\infty$.
 - **Related definition**: The ***$p$-adic norm*** is defined as: $\|x\|_{p}=e^{-v_{p}(x)}$
