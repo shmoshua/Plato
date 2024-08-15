@@ -86,24 +86,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Integer.md",
+                "file": "Algebra/p-adic Rational.md",
                 "mode": "source",
                 "source": true
               }
             }
-          },
-          {
-            "id": "67745f682e09a4f0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -117,6 +107,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "95ef1cdd20f0230f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/p-adic Rational.md",
                 "mode": "preview",
                 "source": true
               }
@@ -225,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/p-adic Integer.md",
+                "file": "Algebra/p-adic Rational.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/p-adic Integer.md",
+                "file": "Algebra/p-adic Rational.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/p-adic Integer.md"
+                "file": "Algebra/p-adic Rational.md"
               }
             }
           }
@@ -289,9 +291,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "67745f682e09a4f0",
+  "active": "3ab85941795e0a81",
   "lastOpenFiles": [
     "Algebra/p-adic Integer.md",
+    "Algebra/p-adic Rational.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Lie Group/Locally Compact Group.md",
     "Topology/Product Topology.md",
@@ -316,7 +319,6 @@
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Analysis/Complex Measure.md",
-    "Measure Theory/Measurable Function.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

@@ -1,6 +1,6 @@
 #Definition #Algebra #FunctionalAnalysis 
 > [!definition]
-> For a prime $p$, the $p$-adic rational $\mathbb{Q}_{p}$ is the [[Quotient Field|quotient field]] of $\mathbb{Z}_{p}$, i.e. $$\mathbb{Q}_{p}:=\left\{  \frac{x}{y}:x\in \mathbb{Z}_{p},  \right\}$$
+> For a prime $p$, the $p$-adic rational $\mathbb{Q}_{p}$ is the [[Quotient Field|quotient field]] of $\mathbb{Z}_{p}$, i.e. $$\mathbb{Q}_{p}:=\text{Quot}(\mathbb{Z}_{p})=\left\{  \frac{x}{y}:x\in \mathbb{Z}_{p},  \right\}$$
 - **Remark**: The quotient field is well-defined as $\mathbb{Z}_{p}$ is an [[Integral Domain|integral domain]].
 - **Remark**: Every $0\neq x\in \mathbb{Q}_{p}$ can be uniquely written as $x=p^ku$ for $k\in \mathbb{Z}$ and $u\in U$, the set of invertible elements in $\mathbb{Z}_{p}$. 
 - **Related definition**: The ***valuation*** is a function $v_{p}:\mathbb{Q}_{p}\to \mathbb{Z}\cup \{ +\infty \}$ with $v_{p}(x)=k$, $v_{p}(0)=+\infty$, which inherits the valuation lemma of $\mathbb{Z}_{p}$.
