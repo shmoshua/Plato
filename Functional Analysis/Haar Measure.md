@@ -40,26 +40,24 @@
 > 4. if $f_{1}\not\equiv f_{2}$, then $U:=\{ x\in G :f_{1}(x)\neq f_{2}(x)\}$ is a non-empty open subset, therefore, $\mu(U)>0$.
 ---
 > [!lemma] Proposition 3 (Existence of a Modular Function)
-> Let $G$ be a [[Locally Compact Group|LCH group]] and $\text{Aut}(G)$ the group of topological group automorphisms of $G$. Then, 
+> Let $G$ be a [[Locally Compact Group|LCH group]] and $\text{Aut}(G)$ the group of topological group automorphisms of $G$. Then, for any left Haar functional $\Lambda$, 
 > 1. there exists a group homomorphism $\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}^\times_{>0}$ s.t. $$\Lambda(f\circ \alpha ^{-1})=\text{mod}_{G}(\alpha)\Lambda(f),\quad \forall f\in C_{00}(G), \alpha\in \text{Aut}(G)$$
-> 2. it holds that the modular function $\Delta_{G}:G\to \mathbb{R}^\times_{>0}, g\mapsto \text{mod}_{G}(\alpha_{g^{-1}})$,  where $\alpha_{g^{-1}}\in \text{Inn}(G)\subseteq \text{Aut}(G)$ is the [[inner automorphism]] $x\mapsto g^{-1}xg$.
+> 2. the modular function is given by $$\Delta_{G}:G\to \mathbb{R}^\times_{>0}, \quad g\mapsto \text{mod}_{G}(\alpha_{g^{-1}})$$where $\alpha_{g^{-1}}\in \text{Inn}(G)\subseteq \text{Aut}(G)$ is the [[inner automorphism]] $x\mapsto g^{-1}xg$.
 > 3. $\Delta_{G}$ is continuous.
 > 4. for any $f\in C_{00}(G)$, $$\int_{G}^{} f(x ^{-1} )\Delta_{G}(x ^{-1}) \, d\mu(x)=\int_{G}^{} f(x ) \, d\mu(x)  $$
 > 5. $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$, if $G$ is abelian (or compact).
 
-> [!proof]-
+> [!proof]+
 > We have:
-> 1. For any $\alpha\in \text{Aut}(G)$,  $$\begin{array}{cccc} {}&{C_{00}(G)}&\to&{C_{00}(G)},&{f} &\mapsto & {f\circ \alpha ^{-1}} \end{array}{}$$is linear and preserves positivity. If $\Lambda$ is a left Haar functional, define: $\Lambda_{\alpha}(f):=\Lambda(f\circ \alpha ^{-1})$. Then, $\Lambda_{\alpha}$ is a positive functional on $C_{00}(G)$ and as:$$(\lambda(g)f)(\alpha(x))=f(g^{-1}\cdot \alpha ^{-1}(x))=f(\alpha ^{-1}(\alpha(g^{-1})\cdot x))=\lambda(\alpha(g))(f\circ \alpha ^{-1})(x)$$
->    we have:  $$\Lambda_{\alpha}(\lambda(g)f)=\Lambda(\lambda(\alpha(g))(f\circ \alpha ^{-1}))=\Lambda(f\circ \alpha ^{-1})=\Lambda_{\alpha}(f)$$By uniqueness in Theorem 1, there exists $c_{\Lambda}(\alpha)>0$ s.t. $\Lambda_{\alpha}=c_{\Lambda}(\alpha)\Lambda$.
->    
->    
->    We now show that $c_{\Lambda}(\alpha)$ is independent of the choice of the left Haar functional. Let $\Lambda_{1},\Lambda_{2}$ be two left Haar functionals. Then, by the uniqueness $\Lambda_{2}=k\Lambda_{1}$ for some $k>0$. Then, $$c_{\Lambda_{2}}(\alpha)\Lambda_{2}(f)=\Lambda_{2,\alpha}(f)=\Lambda_{2}(f\circ \alpha ^{-1})=k\Lambda_{1}(f\circ \alpha ^{-1})=k\Lambda_{1,\alpha}(f)=kc_{\Lambda_{1}}(\alpha)\Lambda_{1}(f)=c_{\Lambda_{1}}(\alpha)\Lambda_{2}(f)$$
+> 1. For any $\alpha\in \text{Aut}(G)$, the map, $C_{00}(G)\to C_{00}(G),f\mapsto f\circ\alpha ^{-1}$ is linear and preserves positivity. If $\Lambda$ is a left Haar functional, define: $\Lambda_{\alpha}(f):=\Lambda(f\circ \alpha ^{-1})$. Then, $\Lambda_{\alpha}$ is a positive functional on $C_{00}(G)$ and as: $$(\lambda(g)f)(\alpha ^{-1}(x))=f(g^{-1}\alpha ^{-1}(x))=f(\alpha ^{-1}(\alpha(g^{-1})x))=\lambda(\alpha(g))(f\circ \alpha ^{-1})(x)$$ and$$\Lambda_{\alpha}(\lambda(g)f)=\Lambda(\lambda(\alpha(g))(f\circ \alpha ^{-1}))=\Lambda(f\circ \alpha ^{-1})=\Lambda_{\alpha}(f)$$By uniqueness of left Haar functionals, there exists $c_{\Lambda}(\alpha)>0$ s.t. $\Lambda_{\alpha}=c_{\Lambda}(\alpha)\Lambda$.
+>        
+>    We now show that $c_{\Lambda}(\alpha)$ is independent of the choice of the left Haar functional. Let $\Lambda_{1},\Lambda_{2}$ be two left Haar functionals. Then, by the uniqueness $\Lambda_{2}=k\Lambda_{1}$ for some $k>0$. Then, for $\alpha\in \text{Aut}(G)$, $$\begin{align}c_{\Lambda_{2}}(\alpha)\Lambda_{2}(f)&=\Lambda_{2,\alpha}(f)=\Lambda_{2}(f\circ \alpha ^{-1})\\&=k\Lambda_{1}(f\circ \alpha ^{-1})=k\Lambda_{1,\alpha}(f)=kc_{\Lambda_{1}}(\alpha)\Lambda_{1}(f)=c_{\Lambda_{1}}(\alpha)\Lambda_{2}(f)\end{align}$$
 >    
 >    So $c_{\Lambda_{2}}(\alpha)=c_{\Lambda_{1}}(\alpha)=:c(\alpha)$. Further,
-> 	- $\Lambda(f\circ(\beta ^{-1}\alpha ^{-1}))=c(\alpha\beta)\Lambda(f)$
-> 	- $\Lambda((f\circ\beta ^{-1})\circ\alpha ^{-1})=c(\alpha)\Lambda(f\circ\beta ^{-1})=c(\alpha)c(\beta)\Lambda(f)$
-> 
-> 	Hence, if $\mu$ is a left Haar measure, then: $$\mu(\alpha(E))=\int_{G}^{} \chi_{\alpha(E)} \, d\mu=\Lambda(\chi_{\alpha(E)})=\Lambda(\chi_{E}\circ \alpha ^{-1})=c(\alpha)\Lambda(\chi_{E})=c(\alpha)\mu(E)$$So define $\text{mod}_{G}(\alpha):=c(\alpha)$ and $\text{mod}_{G}$ is a homomorphism. 
+> 	1. $\Lambda(f\circ(\beta ^{-1}\circ\alpha ^{-1}))=c(\alpha\beta)\Lambda(f)$
+> 	2. $\Lambda((f\circ\beta ^{-1})\circ\alpha ^{-1})=c(\alpha)\Lambda(f\circ\beta ^{-1})=c(\alpha)c(\beta)\Lambda(f)$
+>   
+>     So define $\text{mod}_{G}(\alpha):=c(\alpha)$ and $\text{mod}_{G}$ is a homomorphism. 
 > 2. Let $\alpha_{g}\in \text{Inn}(G)$. Then, $$\int_{G}^{} f(xg) \, d\mu(x)=\int_{G}^{} f(g^{-1}xg) \, d\mu(x)=\text{mod}_{G}(\alpha_{g})\int_{G}f  \, d\mu  $$Therefore, $\Delta_{G}(g):=\text{mod}_{G}(\alpha_{g^{-1}})$ is the modular function of $G$. Then, $$\Delta_{G}(g_{1}g_{2})=\text{mod}_{G}(\alpha_{g_{2}^{-1}g_{1}^{-1}})=\Delta_{G}(g_{1})\Delta_{G}(g_{2})$$
 > 3. We will prove that $\Delta_{G}$ is continuous at $e$. Let $f\in C_{00}(G)$ with $f\geq 0$. Then, $\int_{G}^{} f \, d\mu>0$ from Lemma 2 and we may assume that $\int_{G}^{} f \, d\mu=1$. 
 >    
