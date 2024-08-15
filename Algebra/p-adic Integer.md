@@ -10,7 +10,7 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> The following sequence is [[exact]]: $$(0)\hookrightarrow \mathbb{Z}_{p}\xrightarrow{p^n}\mathbb{Z}_{p}\xrightarrow{\varepsilon_{n}}A_{n}\xrightarrow{0} (0)$$In other words, 
+> The following sequence is [[exact]]: $$(0)\hookrightarrow \mathbb{Z}_{p}\xrightarrow{p^n}\mathbb{Z}_{p}\xrightarrow{\varepsilon_{n}}\mathbb{Z} / p^n \mathbb{Z}\xrightarrow{0} (0)$$In other words, 
 > 1. $\text{ker }p^n=(0)$
 > 2. $\varepsilon_{n}$ is surjective, $\varepsilon_{n}(\mathbb{Z}_{p})=A_{n}$
 > 3. $\text{ker }\varepsilon_{n}=p^n\mathbb{Z}_{p}$
@@ -44,6 +44,7 @@
 > 3. $\mathbb{Z}_{p}$ is compact Hausdorff.
 > 4. $(\mathbb{Z}_{p},+)$ is a compact [[topological group]].
 > 5. $\mathbb{Z}\hookrightarrow \mathbb{Z}_{p}$ injects as a subring.
+> 6. $\mathbb{Z}$ is dense in $\mathbb{Z}_{p}$.
 
 > [!proof]-
 > We have:
