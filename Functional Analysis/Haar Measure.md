@@ -27,18 +27,19 @@
 > [!lemma] Lemma 2
 > Let $G$ be a [[Locally Compact Group|LCH group]] and $\mu$ the left Haar measure. Then, 
 > 1. $\text{supp}(\mu)=G$, i.e for all non-empty open $U\subseteq G$, $\mu(U)>0$.
+> 2. if $0\neq f\in C_{00}(G)$ with $f\geq 0$, then $\int_{G}^{} f \, d\mu>0$.
 > 3. Any $h\in C(G)$ for which: $$\int_{G}^{} h\cdot \varphi \, d\mu=0,\quad \forall\varphi\in C_{00}(G) $$it holds that $h=0$.
 > 4. For $X$ Hausdorff, if $f_{1},f_{2}:G\to X$ are continuous, if $f_{1}(g)=f_{2}(g)$ for $\mu$-a.e. $g\in G$ then $f_{1}\equiv f_{2}$.
-> 5. if $0\neq f\in C_{00}(G)$ with $f\geq 0$, then $\int_{G}^{} f \, d\mu>0$.
+
 
 > [!proof]-
 > We have:
 > 1. As $\Lambda$ is positive, we know that there exists $f\in C_{00}(G)$ with $f\geq 0$ and $$\Lambda (f)=\int_{G}^{} f \, d\mu >0$$Modulo rescaling, we may assume that $0\leq f\leq 1$. Then, $$\text{supp}(f)\subseteq \bigcup_{g\in G}^{}gU=G$$As the support is compact, there exists $g_{1},..,g_{n}\in G$ s.t. $\text{supp}(f)\subseteq \bigcup_{i=1}^{n}g_{i}U$ and it holds that: $$f\leq \sum_{i=1}^{n}\chi_{g_{i}U}$$Therefore, $$0<\int_{G}^{} f \, d\mu \leq \int_{G}\sum_{i=1}^{n}\chi_{g_{i}U}  \, d\mu=\sum_{i=1}^{n}\mu(g_{i}U)=n\cdot \mu(U)$$
-> 2. We will show that $h(e)=0$ and the proof for $h(g)$ for any other $g\in G$ is analogous. Let $\varepsilon>0$. As $h$ is open, there exists an open neighborhood $V\ni e$ s.t. $V\subseteq h^{-1}(B_{<\varepsilon}(h(e)))$. Then, by [[Locally Compact Hausdorff Space|Urysohn's lemma]], there exists $\varphi\in C_{00}(G)$ s.t. $\varphi(e)=1$ and $\varphi\geq 0$ s.t. $\text{supp }\varphi \subseteq V$. Therefore, $$\left| h(e) \right| \left| \int_{G}\varphi(g) \, d\mu(g)  \right|=\left| \int_{G}^{} h(e)\varphi(g) \, d\mu(g)  \right| \leq \int_{G}^{} \left| h(e)-h(g) \right| \left| \varphi(g) \right|  \, d\mu(g)<\varepsilon \int_{G}^{} \varphi(g) \, d\mu(g)   $$and $\left| h(e) \right|<\varepsilon$ for any $\varepsilon>0$. Therefore, $h(e)=0$.
-> 3. if $f_{1}\not\equiv f_{2}$, then $U:=\{ x\in G :f_{1}(x)\neq f_{2}(x)\}$ is a non-empty open subset, therefore, $\mu(U)>0$.
-> 4. there exists open set $U\subseteq G$ s.t. $f(x)>\varepsilon>0$ on $x\in U$. Then, $$\int_{G}^{} f \, d\mu\geq \int_{U}f\, d\mu>\varepsilon \mu(U)>0  $$ 
+> 2. there exists open set $U\subseteq G$ s.t. $f(x)>\varepsilon>0$ on $x\in U$. Then, $$\int_{G}^{} f \, d\mu\geq \int_{U}f\, d\mu>\varepsilon \mu(U)>0  $$ 
+> 3. We will show that $h(e)=0$ and the proof for $h(g)$ for any other $g\in G$ is analogous. Let $\varepsilon>0$. As $h$ is continuous, there exists an open neighborhood $V\ni e$ s.t. $V\subseteq h^{-1}(B_{<\varepsilon}(h(e)))$. Then, by [[Locally Compact Hausdorff Space|Urysohn's lemma]], there exists $\varphi\in C_{00}(G)$ s.t. $\varphi(e)=1$ and $\varphi\geq 0$ s.t. $\text{supp }\varphi \subseteq V$. Therefore, $$\left| h(e) \right| \left| \int_{G}\varphi(g) \, d\mu(g)  \right|=\left| \int_{G}^{} h(e)\varphi(g) \, d\mu(g)  \right| \leq \int_{G}^{} \left| h(e)-h(g) \right| \left| \varphi(g) \right|  \, d\mu(g)<\varepsilon \int_{G}^{} \varphi(g) \, d\mu(g)   $$and $\left| h(e) \right|<\varepsilon$ for any $\varepsilon>0$. Therefore, $h(e)=0$.
+> 4. if $f_{1}\not\equiv f_{2}$, then $U:=\{ x\in G :f_{1}(x)\neq f_{2}(x)\}$ is a non-empty open subset, therefore, $\mu(U)>0$.
 ---
-> [!lemma] Corollary 3
+> [!lemma] Proposition 3 (Existence of a Modular Function)
 > Let $G$ be a [[Locally Compact Group|LCH group]] and $\text{Aut}(G)$ the group of topological group automorphisms of $G$. Then, 
 > 1. there exists a group homomorphism $\text{mod}_{G}:\text{Aut}(G)\to \mathbb{R}^\times_{>0}$ s.t. $$\Lambda(f\circ \alpha ^{-1})=\text{mod}_{G}(\alpha)\Lambda(f),\quad \forall f\in C_{00}(G), \alpha\in \text{Aut}(G)$$
 > 2. it holds that the modular function $\Delta_{G}:G\to \mathbb{R}^\times_{>0}, g\mapsto \text{mod}_{G}(\alpha_{g^{-1}})$,  where $\alpha_{g^{-1}}\in \text{Inn}(G)\subseteq \text{Aut}(G)$ is the [[inner automorphism]] $x\mapsto g^{-1}xg$.
