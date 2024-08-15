@@ -1,11 +1,12 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be a [[Locally Compact Group|locally compact Hausdorff group]]. The ***left/right Haar measure*** $\mu$ is the unique (up to scalars) non-zero left-invariant measure that is finite on compact sets, i.e. $$\mu(gA)=\mu(A),\quad \forall g\in G,A\subseteq G$$
-> 
-> If $G$ is [[Abelian Group|abelian]] on compact, this measure is also right invariant, known as the ***Haar measure***.
+> Let $G$ be a [[Locally Compact Group|LCH group]]. 
+> 1. The ***left Haar measure*** $\mu$ is the (up to scalars) unique non-zero left-invariant measure that is finite on compact sets, i.e. $$\mu(gA)=\mu(A),\quad \forall g\in G,A\subseteq G$$
+> 2. if a left Haar measure $\mu$ is also right-invariant, it is known as the ***Haar measure***, e.g. when $G$ is abelian or compact.
 
-- **Related definition**: The ***left Haar functional*** $\Lambda$ is a function $\Lambda:C_{00}(G)\to \mathbb{C}$ s.t. $\Lambda(\lambda(g)f)=\Lambda(f)$ for all $f\in C_{00}(G)$ and $g\in G$.
+- **Related definition**: $\lambda:G\to \text{GL}(C_{00}(G))$ is a ***left-regular representation*** given by: $$\lambda(g)f(x)=f(g^{-1}x),\quad \forall f\in C_{00}(G),g,x\in G$$
+- **Related definition**: The ***left Haar functional*** $\Lambda$ is a function $\Lambda:C_{00}(G)\to \mathbb{C}$ s.t. $\Lambda(\lambda(g)f)=\Lambda(f)$ for all $f\in C_{00}(G)$ and $g\in G$ where $\lambda$ is the left-regular representation.
 - **Related definition**: The ***modular function*** of $G$ is a group homomorphism $\Delta_{G}:G\to \mathbb{R}^\times_{>0}$ s.t. for any left Haar functional $\Lambda$, $$\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\Delta_{G}(g)\int_{G}^{} f \, d\mu, \quad \forall f\in C_{00}(G), g\in G$$
 - **Remark**: For $f\in C_{b}(G)$, we have $\|f\|_{b}=\|f\|_{\infty}$, as for all $\Omega \subseteq G$ non-zero open, $\mu(\Omega)>0$.
 ---

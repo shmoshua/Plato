@@ -148,4 +148,4 @@
 > [!h] Example 8
 > For $\text{SO}(p,q):=\text{O}(p,q)\cap \text{SL}(n,\mathbb{R})$ and $\text{SU}(n)=\text{U}(n)\cap \text{SL}(n,\mathbb{C})$:
 ---
-Hehe, I appreciate your concern, 
+
