@@ -30,42 +30,44 @@
 > 3. If $H\leq G$ is open, then it is closed.
 > 4. Let $G_{0}$ be the [[Connected Space|connected component]] of $e\in G$. Then, $G_{0}$ is closed and $G_{0}\unlhd G$.
 
-> [!proof]+
-> > [!lemma]
-> > We have:
-> > 1. If $U$ is a neighborhood of $e$, there exists an open symmetric neighborhood $V\subseteq U$ of $e$, i.e. $V=V^{-1}$.
-> > 2. If $U$ is a neighborhood of $e$, there exists an open symmetric neighborhood $V$ of $e$ s.t. $$V^{2}=V^{-1}V\subseteq U$$
-> 
-> > [!proof]-
-> > We have:
-> > 1. Let $e\in W\subseteq U$ with $W$ open. Then, $W^{-1}=i(W)$ is open and $e\in W^{-1}$. Therefore, $$V:=W\cap W^{-1}$$is an open symmetric neighborhood of $e$.
-> > 2. As $m:G\times G\to G$ is continuous at $(e,e)$, there is a neighborhood $W$ of $e$ s.t. $$W^{2}=m(W\times W)\subseteq U$$Then, by 1, there exists open symmetric neighborhood $V$ of $e$ s.t. $V^{2}\subseteq W^{2}\subseteq U$.
-> 
+> [!proof]-
 > Then, we have:
 > 1. Since $m$ is continuous, $$m(\overline{H}\times \overline{H})= m(\overline{H\times H})\subseteq \overline{m(H\times H)}\subseteq\overline{H}$$Also, as $i$ is a homeomorphism, $i(\overline{H})=\overline{H}$. Therefore, $\overline{H}$ is a subgroup.
 >    
 >    Further if $H\unlhd G$, for any $g\in G$, we have $x\mapsto gxg^{-1}$ is continuous. Therefore, $$g\overline{H}g\subseteq \overline{gHg^{-1}}\subseteq \overline{H}$$
 > 2. Let $R$ be the representatives of $G / H$ with $e\in R$. Then, $$G=H \sqcup\bigsqcup_{r\in R \backslash\{ e \}}^{}rH=H \sqcup\bigsqcup_{r\in R \backslash\{ e \}}^{}L_{r}(H)$$As $L_{r}(H)$ is open, the disjoint union is also open. Therefore, $H$ is closed.
-> 3. We have that $G_{0}\times G_{0}$ is connected and contains $(e,e)$. Therefore, $m(G_{0}\times G^0)$ is also connected by [[Connected Space|Prop]]. Further, $m(G_{0}\times G_{0})\subseteq G_{0}$. Since $i$ is a homeomorphism and $i(e)=e$, $i(G_{0})=G_{0}$, i.e. $G_{0}$ is a subgroup.
+> 3. We have that $G_{0}\times G_{0}$ is connected and contains $(e,e)$. Therefore, $m(G_{0}\times G_{0})$ is also connected by [[Connected Space|Lemma 3]]. As $m(e,e)=e\in G_{0}$, $m(G_{0}\times G_{0})\subseteq G_{0}$. Since $i$ is a homeomorphism and $i(e)=e$, $i(G_{0})=G_{0}$, i.e. $G_{0}$ is a subgroup.
 >    
 >    Since $\overline{G_{0}}$ is connected, by the maximality, $\overline{G_{0}}=G_{0}$ and $G_{0}$ is closed.
 >    
 >    Lastly, consider the conjugation: $$\begin{array}{cccc} {\varphi_{g}:}&{G}&\to&{G}\\&{x} &\mapsto & {gxg^{-1}} \end{array}{}$$which is continuous. Therefore, $\varphi_{g}(G_{0})$ is connected but as $\varphi_{g}(e)=e$, $\varphi_{g}(G_{0})\subseteq G_{0}$. This proves that $G_{0}\unlhd G$.
 ---
+> [!lemma] Lemma 3 (Local Base of e)
+> Let $G$ be a topological group with identity $e$.
+> 1. $e$ has a [[Local Base of Topology|local base]] of open symmetric sets, i.e. $V=V^{-1}$.
+> 2. $e$ has a local base of open symmetric square root sets, i.e. for any neighborhood $U\ni e$, there exists an open symmetric neighborhood $V\ni e$ s.t. $V^{2}\subseteq U$.
+
+> [!proof]-
+> We have:
+> 1. Let $e\in W\subseteq U$ with $W$ open. Then, $W^{-1}=i(W)$ is open and $e\in W^{-1}$. Therefore, $$V:=W\cap W^{-1}$$is an open symmetric neighborhood of $e$.
+> 2. For $U\ni e$, as $m:G\times G\to G$ is continuous at $(e,e)$, there is a neighborhood $W$ of $e$ s.t. $$W^{2}=m(W\times W)\subseteq U$$Then, by 1, there exists open symmetric neighborhood $V$ of $e$ s.t. $V^{2}\subseteq W^{2}\subseteq U$.
+---
 ###### Connected Topological Groups
+
 > [!lemma] Proposition 1
 > Let $G$ be a connected topological group. Then, 
-> 1. If $G$ is [[Connected Space|connected]] and $e\in U\subseteq G$ is a neighborhood, then $G=\bigcup_{n=1}^{\infty}U^n$
-> 2. If $G$ is [[Connected Space|connected]] and $N\unlhd G$ is discrete. Then, $N\subseteq Z(G)$ where $Z(G)$ denotes the [[Center of a group|center]].
+> 1. For any neighborhood $U\ni e$, $G=\bigcup_{n=1}^{\infty}U^n$.
+> 2. Any discrete normal subgroup $N\unlhd G$ is contained in the [[Center of a group|center]] $Z(G)$.
 
 
 > [!proof]-
 > We have:
-> 1. From the lemma above, we have an open symmetric neighborhood $V\subseteq U$ of $e$. Then, $$H:=\bigcup_{n=1}^{\infty}V^n\subseteq \bigcup_{n=1}^{\infty}U^n$$where $H$ is an open subgroup. Therefore, it is closed by 2. This implies that $H=G$ which proves the statement.
+> 1. From Lemma 3, we have an open symmetric neighborhood $V\subseteq U$ of $e$. Then, $$H:=\bigcup_{n=1}^{\infty}V^n\subseteq \bigcup_{n=1}^{\infty}U^n$$where $H$ is an open subgroup. Therefore, it is closed by 2. This implies that $H=G$ which proves the statement.
 >  5. Let $N\unlhd G$ be a discrete subgroup. Then for all $n\in N$, there exists a continuous map: $$\begin{array}{cccc} {}&{G}&\to&{N}\\&{g} &\mapsto & {gng^{-1}} \end{array}{}$$is continuous and its image is continuous and contains $n$. As $N$ is discrete, this image has to be $\{ n \}$. Therefore, $N \subseteq Z(G)$.
 ---
 > [!lemma] Lemma 2
-> Let $G$ be a topological group and $H\leq G$ a closed subgroup. If $H$ and $G / H$ are connected, then $G$ is connected.
+> Let $G$ be a topological group and $H\leq G$ a closed subgroup. 
+> 1. If $H$ and $G / H$ are connected, then $G$ is connected.
 
 > [!proof]-
 > Let $G=A\sqcup B$ be a non-empty open decomposition of $G$. Wlog we assume that $e\in A$. Since $H$ is connected, so is $gH$. Since each coset meets either $A$ or $B$, each must be contained entirely in one or the other. Consequently, each of $A$ or $B$ is a union of left cosets of $H$. 
@@ -146,3 +148,4 @@
 > [!h] Example 8
 > For $\text{SO}(p,q):=\text{O}(p,q)\cap \text{SL}(n,\mathbb{R})$ and $\text{SU}(n)=\text{U}(n)\cap \text{SL}(n,\mathbb{C})$:
 ---
+Hehe, I appreciate your concern, 
