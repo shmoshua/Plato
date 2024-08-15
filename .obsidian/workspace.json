@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Rational.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -107,30 +107,6 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "95ef1cdd20f0230f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/p-adic Rational.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "47b89ec382b740be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/p-adic Integer.md",
                 "mode": "preview",
                 "source": true
               }
@@ -227,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/p-adic Rational.md",
+                "file": "Lie Group/Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/p-adic Rational.md",
+                "file": "Lie Group/Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/p-adic Rational.md"
+                "file": "Lie Group/Topological Group.md"
               }
             }
           }
@@ -293,12 +269,12 @@
   },
   "active": "3ab85941795e0a81",
   "lastOpenFiles": [
-    "Algebra/p-adic Integer.md",
     "Algebra/p-adic Rational.md",
+    "Lie Group/Topological Group.md",
+    "Algebra/p-adic Integer.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Lie Group/Locally Compact Group.md",
     "Topology/Product Topology.md",
-    "Lie Group/Topological Group.md",
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/C*-Algebra.md",
