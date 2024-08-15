@@ -44,7 +44,7 @@
 > 3. $\mathbb{Z}_{p}$ is compact Hausdorff.
 > 4. $(\mathbb{Z}_{p},+)$ is a compact [[topological group]].
 > 5. $\mathbb{Z}\hookrightarrow \mathbb{Z}_{p}$ injects as a subring.
-> 6. $\mathbb{Z}$ is dense in $\mathbb{Z}_{p}$.
+
 
 > [!proof]-
 > We have:
@@ -65,14 +65,13 @@
 > 4. $\|xy\|_{p}=\|x\|_{p}\|y\|_{p}$
 > 5. $\|x+y\|_{p}\leq \max(\|x\|_{p},\|y\|_{p})$
 > 6. The topology on $\mathbb{Z}_{p}$ can be defined by the distance: $$d_{p}(x,y):=\|x-y\|_{p}=e^{-v_{p}(x-y)}$$The metric space is complete and $\mathbb{Z}$ is dense in $\mathbb{Z}_{p}$.
-> 7. $\{ p^n\mathbb{Z}_{p}:n\geq 0 \}$ is a basis of neighborhoods of $0$ in $\mathbb{Z}_{p}$.
+> 7. $\{ p^n\mathbb{Z}_{p}:n\geq 0 \}$ is a local base of $0$ in $\mathbb{Z}_{p}$.
 > 8. $d(0,x)\leq e^{-n}\iff v_{p}(x)\geq n\iff x\in p^n \mathbb{Z}_{p}$ and $p^n\mathbb{Z}_{p}=B_{\leq e^{-n}}(0)$.
 
 
 > [!proof]-
 > We have: 
-> 1. 
-> Let $x=p^n u$ and $y=p^m w$, wlog $n\geq m$. Then, $$x+y=p^n u+p^mw=p^m[w+up^{n-m}]$$and $$v_{p}(x+y)=m+v_p(w+up^{n-m})\geq m$$
+> 1. Let $x=p^n u$ and $y=p^m w$, wlog $n\geq m$. Then, $$x+y=p^n u+p^mw=p^m[w+up^{n-m}]$$and $$v_{p}(x+y)=m+v_p(w+up^{n-m})\geq m$$
 > 2. We have $\|x\|_{p}=0 \iff v_{p}(x)=+\infty \iff x=0$.
 > 3. $\|xy\|_{p}=e^{-v_{p}(xy)}=e^{-v_{p}(x)}e^{-v_{p}(y)}=\|x\|_{p}\|y\|_{p}$.
 > 4. $\|x+y\|_{p}=e^{-v_{p}(x+y)}\leq e^{-\min(v_{p}(x),v_{p}(y))}=\max(\|x\|_{p},\|y\|_{p})$.
