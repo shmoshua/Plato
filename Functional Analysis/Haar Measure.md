@@ -17,10 +17,11 @@
 > 1. there exists a unique (up to scaling) positive linear functional $\Lambda :C_{00}(G)\to \mathbb{C}$ that is invariant under left translation, i.e.$$\Lambda(\lambda(g)f)=\Lambda(f), \quad \forall f\in C_{00}(G),g\in G$$We call $\Lambda$ the ***left Haar functional***.
 > 2. there exists a unique (up to scaling) non-zero positive regular Borel measure $\mu$ on $G$ s.t. for every $A\in \Sigma_{\mu}$, $\mu(gA)=\mu(A)$ for all $g\in G$, called the ***left Haar measure***. It also holds that: $$\Lambda(f)=\int_{G}^{} f \, d\mu $$
 
-> [!proof]-
-> We will only prove the uniqueness.
-> 
-> Let $\mu$ be a left Haar measure and $\nu$ a right Haar measure. Then for $f,g\in C_{0}(G)$ with $\int_{G}^{} f \, d\mu\neq 0$,  $$\begin{align}\left( \int_{G}^{} f \, d\mu  \right)\left( \int_{G}^{} g \, d\nu \right) &=\int_{G}^{} f(t)\left( \int_{G}^{} g(yt) \, d\nu(y)  \right)  \, d\mu(t)\\&=\int_{G}^{} \left( \int_{G}^{} f(t)g(yt) \, d\mu(t)  \right)  \, d\nu(y) \\&=\int_{G}^{} \left( \int_{G}^{} f(y^{-1}x)g(x) \, d\mu(x)  \right)  \, d\nu(y) \\&=\int_{G}^{} \left( \int_{G}^{} f(y^{-1}x)g(x) \, d\nu(y)  \right)  \, d\mu(x)  \end{align}$$ where we can apply Fubini as $f,g\in C_{00}(G)$. Define: $$w_{f}(x)=\frac{1}{\int_{G}^{} f \, d\mu }\int_{G}^{} f(y^{-1}x)\, d\nu(y) $$Then, $$\int_{G}^{} g \, d\nu=\int_{G}^{} w_{f}(x)g(x) \, d\mu(x) $$As the LHS is independent of $f$, using Lemma 2, as $w_{f_{1}}-w_{f_{2}}$ are continuous, we have that $w_{f_{1}}-w_{f_{2}}=0$ for all $f_{1},f_{2}\in C_{00}(G)$. Therefore, there exists $C\in \mathbb{R}^\times$ s.t. $$C\int_{G}^{} f \, d\mu=\int_{G}^{} f(y^{-1}) \, d\nu(y) =\int_{G}^{} f^\vee \, d\nu  $$Now, for $\nu$, there exists a left Haar measure $\mu'$ s.t. $$\int_{G}^{} f^\vee \, d\nu=\int_{G}^{} f \, d\mu'  $$Therefore, $C\mu=\mu'$.
+> [!proof]+
+> We have:
+> 1. We will only prove the uniqueness.
+>    
+>    Let $\mu$ be a left Haar measure and $\nu$ a right Haar measure. Then for $f,g\in C_{0}(G)$ with $\int_{G}^{} f \, d\mu\neq 0$,  $$\begin{align}\left( \int_{G}^{} f \, d\mu  \right)\left( \int_{G}^{} g \, d\nu \right) &=\int_{G}^{} f(t)\left( \int_{G}^{} g(yt) \, d\nu(y)  \right)  \, d\mu(t)\\&=\int_{G}^{} \left( \int_{G}^{} f(t)g(yt) \, d\mu(t)  \right)  \, d\nu(y) \\&=\int_{G}^{} \left( \int_{G}^{} f(y^{-1}x)g(x) \, d\mu(x)  \right)  \, d\nu(y) \\&=\int_{G}^{} \left( \int_{G}^{} f(y^{-1}x)g(x) \, d\nu(y)  \right)  \, d\mu(x)  \end{align}$$ where we can apply Fubini as $f,g\in C_{00}(G)$. Define: $$w_{f}(x)=\frac{1}{\int_{G}^{} f \, d\mu }\int_{G}^{} f(y^{-1}x)\, d\nu(y) $$Then, $$\int_{G}^{} g \, d\nu=\int_{G}^{} w_{f}(x)g(x) \, d\mu(x) $$As the LHS is independent of $f$, using Lemma 2, as $w_{f_{1}}-w_{f_{2}}$ are continuous, we have that $w_{f_{1}}-w_{f_{2}}=0$ for all $f_{1},f_{2}\in C_{00}(G)$. Therefore, there exists $C\in \mathbb{R}^\times$ s.t. $$C\int_{G}^{} f \, d\mu=\int_{G}^{} f(y^{-1}) \, d\nu(y) =\int_{G}^{} f^\vee \, d\nu  $$Now, for $\nu$, there exists a left Haar measure $\mu'$ s.t. $$\int_{G}^{} f^\vee \, d\nu=\int_{G}^{} f \, d\mu'  $$Therefore, $C\mu=\mu'$.
 ---
 
 > [!lemma] Lemma 2
