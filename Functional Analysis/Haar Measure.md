@@ -67,6 +67,7 @@
 > 	  We have: $$\begin{align}I(\lambda(g)f)&=\int_{G}^{} f(g^{-1}x ^{-1})\Delta_{G}(x ^{-1}) \, d\mu(x)\\&=\int_{G}^{} f((xg)^{-1})\Delta_{G}((xg)^{-1}) \, d\mu(x)\Delta_{G}(g)\\&= \int_{G}^{} f(x^{-1} )\Delta_{G}(x ^{-1}) \, d\mu(x)\Delta_{G}(g)\Delta_{G}(g^{-1})\\&= \int_{G}^{} f(x^{-1} )\Delta_{G}(x ^{-1}) \, d\mu(x)\\&=I(f)\end{align} $$
 > 	  
 > 	 Therefore, there exists $c\in \mathbb{R}_{>0}$ s.t. $\int_{G}^{} f(x ^{-1})\Delta_{G}(x ^{-1}) \, d\mu(x)=c\int_{G}^{} f(y) \, d\mu(y)$. We claim that $c=1$. Consider $g(x):=f(x ^{-1})\Delta_{G}(x ^{-1} )$. Then, $$\begin{align}\int_{G}^{} f(x) \, d\mu(x)&=\int_{G}^{} f(x)\Delta_{G}(x)\Delta_{G}(x ^{-1})\, d\mu(x)\\&=\int_{G}^{} g(x ^{-1})\Delta_{G}(x ^{-1})\, d\mu(x)\\&=c\int_{G}^{} f(x ^{-1})\Delta_{G}(x ^{-1}) \, dx\\&=c^{2}\int_{G}^{} f(x) \, d\mu(x)  \end{align} $$Therefore, $c^{2}=1$ and $c=1$.
+> 5. We have that for any $g\in G$, $$\Delta_{G}(g)\int_{G}^{} f \, d\mu=\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\int_{G}^{} f(g^{-1}x) \, d\mu(x)=\int_{G}^{} f \, d\mu    $$and $\Delta_{G}(g)=1$.
 ---
 > [!lemma] Proposition 4
 > For an LCH group $G$, the following are equivalent:
