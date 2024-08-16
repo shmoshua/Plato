@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be an [[LCA group]]. Then, $L^1(G)$ is a commutative [[C*-Algebra|involutive Banach algebra]]. For $f\in L^1(G)$ and $\chi\in \widehat{G}$, the ***Fourier transform*** $\widehat{f}$ is defined as: $$\widehat{f}(\chi):=\int_{G}^{} f(x)\overline{(x,\chi)} \, d\mu(x) $$where $\mu$ is some fixed [[Haar measure]] on $G$ and $\widehat{G}$ is the [[Pontryagin dual]] of $G$.
+> Let $G$ be an [[LCA group]]. Then, $L^1(G)$ is a commutative [[C*-Algebra|involutive Banach algebra]]. For $f\in L^1(G)$ and $\chi\in \widehat{G}$, the ***Fourier transform*** $\widehat{f}:\widehat{G}\to \mathbb{C}$ is defined as: $$\widehat{f}(\chi):=\int_{G}^{} f(x)\overline{(x,\chi)} \, d\mu(x) $$where $\mu$ is some fixed [[Haar measure]] on $G$ and $\widehat{G}$ is the [[Pontryagin dual]] of $G$.
 ---
 ##### Properties
 
