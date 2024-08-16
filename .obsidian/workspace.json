@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Convolution.md",
                 "mode": "source",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Convolution.md",
                 "mode": "preview",
                 "source": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Convolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Convolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md"
+                "file": "Functional Analysis/Convolution.md"
               }
             }
           }
@@ -270,6 +270,7 @@
   "active": "18ec000a737577c8",
   "lastOpenFiles": [
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Convolution.md",
     "Functional Analysis/Haar Measure.md",
     "Lie Group/Topological Group.md",
     "Algebra/p-adic Rational.md",
@@ -294,7 +295,6 @@
     "Functional Analysis/Banach Algebra.md",
     "Analysis/Banach Space.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
