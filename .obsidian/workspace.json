@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Analysis/Lp Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -305,9 +305,10 @@
   },
   "active": "4d6976cb98cbb0ef",
   "lastOpenFiles": [
+    "Analysis/Lp Space.md",
+    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Measure Theory/Product Measure.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Haar Measure.md",
@@ -317,7 +318,6 @@
     "Functional Analysis/LCA Group.md",
     "Functional Analysis/Convolution.md",
     "Lie Group/Locally Compact Group.md",
-    "Analysis/Lp Space.md",
     "Lie Group/Topological Group.md",
     "Algebra/p-adic Rational.md",
     "Algebra/p-adic Integer.md",
