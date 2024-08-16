@@ -23,7 +23,7 @@
 > We have that:
 > 1. We will show that $*$ is associative: 
 > 	1.  **Associativity of $*$**:
-> 		$$\begin{align}((f*g)*h)(x)&=\int_{G}^{} (f*g)(xy)h(y^{-1}) \, d\mu(y) \\&=\int_{G}^{} \left( \int_{G}^{} f(xyz)h(y^{-1}) \, d\mu(y) \right)g(z^{-1}) \, d\mu(z)\\&=\int_{G}^{} \left( \int_{G}^{} f(xy)h(y^{-1}z^{-1}) \, d\mu(y) \right)g(z^{-1}) \, d\mu(z)\end{align}$$
+> 		$$\begin{align}((f*g)*h)(x)&=\int_{G}^{} (f*g)(xy)h(y^{-1}) \, d\mu(y) \\&=\int_{G}^{} \int_{G}^{} f(xyz) g(z^{-1})h(y^{-1}) \, d\mu(y)\, d\mu(z)\\&=\int_{G}^{} \int_{G}^{} f(xy^{2}z) g(z^{-1})h(e) \, d\mu(y)\, d\mu(z)\\&=\int_{G}^{} \int_{G}^{} f(xyz^{2}) g(y^{-1})h(e) \, d\mu(y)\, d\mu(z)\\&=\int_{G}^{} \int_{G}^{} f(xyz^{2}) g(y^{-1})h(e) \, d\mu(y)\, d\mu(z)\end{align}$$
 > 	$$\begin{align}((f*g)*h)(x)&=\int_{G}^{} (f*g)(xy)h(y^{-1}) \, d\mu(y)\\&=\int_{G}^{}\int_{G}^{} f(xyz)g(z^{-1}) h(y^{-1}) \, d\mu(z)\, d\mu(y)\end{align} $$
 > 2. For $f\in L^1(G)$, $d\nu(x)=f(x)d\mu(x)$ is a complex measure on $G$ with $\left| v_{f} \right|=\left| f \right|_{\mu}$.. Then, $\mu,\nu$ are complex measures on $G$ and $\mu * \nu$ is a complex measure on $G\times G$ and $\mu * \nu=m_{*}(\mu \times \nu)$
 ---

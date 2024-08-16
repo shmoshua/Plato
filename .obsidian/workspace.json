@@ -86,14 +86,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Convolution.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f61372b7b5ed191d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Haar Measure.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -118,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Convolution.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "mode": "preview",
                 "source": true
               }
@@ -149,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -215,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Convolution.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Convolution.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Convolution.md"
+                "file": "Functional Analysis/Haar Measure.md"
               }
             }
           }
@@ -279,11 +291,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "18ec000a737577c8",
+  "active": "7dfbede0d9b9261d",
   "lastOpenFiles": [
+    "Functional Analysis/Uniformly Continuous Function.md",
     "Measure Theory/Product Measure.md",
-    "Functional Analysis/Convolution.md",
     "Functional Analysis/Haar Measure.md",
+    "Functional Analysis/Convolution.md",
     "Lie Group/Locally Compact Group.md",
     "Analysis/Lp Space.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -306,7 +319,6 @@
     "Differential Geometry/Topological Manifold.md",
     "Courses/Differential Geometry/Differential Geometry Roadmap.md",
     "Functional Analysis/Hilbert Space Operator.md",
-    "Functional Analysis/Banach Algebra.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
