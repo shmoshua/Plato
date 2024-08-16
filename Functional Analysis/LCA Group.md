@@ -6,6 +6,20 @@
 > 2. $G$ is [[Locally Compact Hausdorff Space|locally compact Hausdorff]].
 ---
 ##### Properties
+> [!lemma] Theorem 1 (Properties of LCA groups)
+> Let $G$ be LCA. Then, 
+> 1. for $f\in L^1(G)$ and $g\in L^\infty(G)$, $f*g$ is bounded and uniformly continuous.
+> 2. for $f,g\in C_{00}(G)$, $f*g\in C_{00}(G)$ and $\text{supp}(f*g)\subseteq \text{supp}(f)\cdot \text{supp}(g)$.
+> 3. for $1<p<\infty$ and $f\in L^p(G)$ and $g\in L^q(G)$, $f*g\in C_{0}(G)$.
+
+> [!proof]-
+> We have that:
+> 1. Firstly, $$\left| f*g(x) \right|\leq \int_{G}^{} \left| f(xy)g(y^{-1}) \right|  \, d\mu(y)= \left\| f \right\|_{1}\left\| g \right\| _{\infty}  $$Secondly, $$\begin{align}\left| (f*g)(x) -(f*g)(z)\right|&\leq \int_{G}^{} \left| f(xy)-f(zy) \right| \left| g(y^{-1}) \right|  \, d\mu(y)\\&\leq \left\| \lambda(x ^{-1}) f-\lambda(z ^{-1})y \right\| \left\| g \right\| _{\infty} \end{align} $$where $\lambda$ is the [[Haar Measure|left-regular representation]]. Therefore, by [[Haar Measure|Lemma 5]], there exists $U\ni e$ s.t. if $z^{-1}x$ then $\left\| \lambda(x)f-\lambda(z)f \right\|<\varepsilon / \left\| g \right\|_{\infty}$. By taking $U^{-1}$ we have our statement.
+> 2. $f*g$ is continuous by 1. Now, if $(f*g)(x)\neq 0$, then there exists $y\in G$ s.t. $f(xy)\neq 0$ and $g(y^{-1})\neq 0$ where $x=xyy^{-1}$. Hence, $x\in \text{supp}(f)\text{supp}(g)$.
+> 3. If $f\in L^p(G)$ and $g\in L^q(G)$, since $G$ is abelian, $y\mapsto g(y^{-1})$ is in $L^q(G)$ too. Therefore, by Hölder, $y\mapsto f(xy)g(y^{-1})$ is in $L^1(G)$ and $f*g$ is well-defined. 
+>    
+>    Now let $(f_{n})_{n}\subseteq C_{00}(G)$ and $(g_{n})_{n}\subseteq C_{00}(G)$ s.t. $f_{n}\to f$ in $L^p$ and $g_{n}\to g$ in $L^q$. Then, $$\begin{align}\left| f*g(x)-f_{n}*g_{n}(x) \right|&\leq \left| (f-f_{n})*g(x) \right|+\left| f_{n}*(g_{n}-g)(x) \right|\\&\leq \left\| f-f_{n} \right\| _{p}\left\| g \right\| _{q}+\left\| f_{n} \right\| _{p}\left\| g_{n}-g \right\| _{q}  \end{align} $$Therefore, $\left\| f*g-f_{n}*g_{n} \right\|_{b}$ converges to $0$. As $f_{n}*g_{n}\in C_{00}(G)$, $f*g\in C_{0}(G)$. 
+---
 > [!lemma] Theorem 1 (Bochner)
 > Let $G$ be a LCA group and $\Phi:G\to \mathbb{C}$ continuous positive definite. Then, there exists a unique positive bounded measure $\mu$ on $\widehat{G}$ s.t. $$\Phi(x)=\int_{\widehat{G}}^{} (x,\chi) \, d\mu(\chi),\quad \forall x\in G $$
 

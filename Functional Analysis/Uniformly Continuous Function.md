@@ -8,3 +8,7 @@
 ---
 ##### Properties
 
+![[Haar Measure#^9177e0]]
+![[Haar Measure#^9eb745|p]]
+
+---

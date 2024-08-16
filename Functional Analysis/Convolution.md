@@ -19,7 +19,7 @@
 > Let $G$ be an [[LCA group]]. Then, 
 > 1. $L^1(G)$ is a commutative [[C*-Algebra|involutive Banach algebra]] with the convolution product $*$ and the involution $f^{*}(x)=\overline{f(x ^{-1})}$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. We will show that $*$ is associative: 
 > 	1.  **Associativity of $*$**:
