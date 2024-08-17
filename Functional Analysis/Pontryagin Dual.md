@@ -147,3 +147,4 @@
 ---
 > [!h] Example 7 (Ring of Adeles)
 > Apply the preceding construction to $(\mathbb{Q}_{p})_{p}$. Then, $$\mathbb{A}_{\mathbb{Q}}:=\mathbb{R}\times \prod_{p}^{}'\mathbb{Q}_{p}$$is the ring of Adeles of $\mathbb{Q}$. Then, the injection $\mathbb{Q}\hookrightarrow \mathbb{A}_{\mathbb{Q}}$ has a discrete image and $\mathbb{A}_{\mathbb{Q}} / \mathbb{Q}$ is compact, as it holds that $\widehat{\mathbb{A}_{\mathbb{Q}}}\cong \mathbb{A}_{\mathbb{Q}}$.
+
