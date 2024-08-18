@@ -59,8 +59,9 @@
 > 2. for $q:\widehat{G}\to \widehat{H},\chi\mapsto \chi|_{H}$, let $H^{{\bot}}:=\text{ker }q=\{ \chi\in \widehat{G}:\chi|_{H}=1 \}$. Then, $H^{\bot}\leq \widehat{G}$ and closed.
 > 3. $p^{*}:\widehat{G / H}\to H^{\bot}$ is a LCA group isomorphism.
 > 4. $\overline{q}:\widehat{G} / H^{\bot}\to \widehat{H}$ is a LCA group isomorphism.
+> 5. every continuous character on $H$ extends to a continuous character on $G$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. from [[Quotient Topology|Quotient Lemma]].
 > 2. from the fact that $H^{\bot}$ is a kernel.
@@ -68,17 +69,12 @@
 > 4. We show that: $$\overline{q}^{*}:H\to (H^{\bot})^{\bot}=\{ x\in G:\chi(x)=1,\forall \chi\in H^{\bot} \}$$We claim that $(H^{\bot})^{\bot}=H$. Assume $x\in (H^{\bot})^{\bot}$ but not in $H$. Then, $p(x)\neq e$ in $G / H$. However, there exists $\chi\in \widehat{G / H}$ with $\chi(p(x))\neq 1$ by [[Pontryagin Dual|Lemma 6]]. But $\chi \circ p\in H^{\bot}$, which is a contradiction.
 >    
 >    Conversely, assume $x\in H$. Then, $\chi(x)=1$ for all $\chi\in H^{\bot}$ and $x\in (H^{\bot})^{\bot}$. Therefore, by Proposition 2, $\overline{q}$ is an isomorphism.
-
-
+>  5. Let $\phi\in \widehat{H}$. By 4, we may view it as an element of $\widehat{G} / H^{\bot}$. Hence, there exists $\chi\in \widehat{G}$ s.t. $q(\chi)=\phi$. Therefore, $\chi|_{H}=\phi$.
 ---
-> [!lemma] Theorem 
-> Let $H\leq G$ be a closed subgroup. Then, every continuous character on $H$ extends to a continuous character on $G$. 
 
-> [!proof]-
-> Let $\phi\in \widehat{H}$. By Theorem, we may view it as an element of $\widehat{G} / H^{\bot}$. Hence, there exists $\chi\in \widehat{G}$ that projects to $\phi$. Therefore, $\chi|_{H}=\phi$.
----
- > [!lemma] Corollary
- > Let $\Gamma\leq G$ be a discrete subgroup s.t. $G / \Gamma$ is compact. Then, $\Gamma ^{\bot}\leq \widehat{G}$ is a discrete subgroup with $\widehat{G} / \Gamma ^{\bot}$ compact.
+ > [!lemma] Corollary 2
+ > Let $G$ be a LCA group and $\Gamma\leq G$ be a discrete subgroup s.t. $G / \Gamma$ is compact. Then, 
+ > 1. $\Gamma ^{\bot}\leq \widehat{G}$ is a discrete subgroup with $\widehat{G} / \Gamma ^{\bot}$ compact.
 
 > [!proof]-
 > As $\Gamma ^{\bot}$ is the dual of $G / \Gamma$, since $G / \Gamma$ is compact, by [[Pontryagin Dual|Proposition 4]], $\Gamma ^{\bot}$ is discrete. Since $\widehat{\Gamma}$ is isomorphic to $\widehat{G} / \Gamma ^{\bot}$, $\Gamma$ is discrete and $\widehat{\Gamma}$ is compact and $\widehat{G} / \Gamma ^{\bot}$ is compact.
