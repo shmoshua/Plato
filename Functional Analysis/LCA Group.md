@@ -84,7 +84,7 @@
 - **Example**: $\mathbb{Q}^{\bot}=\mathbb{Q}$ in $\mathbb{A}_{\mathbb{Q}}$ and $\widehat{\mathbb{Q}}\cong \mathbb{A}_{\mathbb{Q}} / \mathbb{Q}$, which is compact.
 
 ---
-Let $f\in C(G)$. We call $f$ uniformly summable over $\Gamma$ if $$\sum_{\gamma\in \Gamma}^{}\left| f(g\gamma) \right| $$converges uniformly for $g$ on compact sets of $G$. Then, let $$T_{\Gamma}f(\overline{g}):=\sum_{\gamma\in \Gamma}^{}f(g\gamma)$$
+Let $f\in C(G)$. We call $f$ uniformly summable over $\Gamma$ if $$\sum_{\gamma\in \Gamma}^{}\left| f(g\gamma) \right| $$converges uniformly for $g$ on compact sets of $G$. Then, let $$T_{\Gamma}f(g\Gamma):=\sum_{\gamma\in \Gamma}^{}f(g\gamma)$$
 Then, it holds that $T_{\Gamma}f\in C(G / \Gamma)$ and:
 
 > [!lemma] Theorem (Weil's Formula)
@@ -93,9 +93,9 @@ Then, it holds that $T_{\Gamma}f\in C(G / \Gamma)$ and:
 > [!lemma] Theorem (Poisson Formula)
 > Let $\Gamma\leq G$ be discrete with $G / \Gamma$ compact. Let $\alpha$ be the Haar measure on $G/ \Gamma$ with $\alpha(G / \Gamma)=1$. Let $\lambda$ be the corresponding Haar measure on $G$. 
 > 	
-> Let $f\in C(G)\cap L^1(G)$ uniformly summable over $\Gamma$. Assume that $\widehat{f}|_{\Gamma ^{\bot}}\in \ell^1(\Gamma ^{\bot})$. Then, $$\sum_{x\in \Gamma}^{}f(\gamma)=\sum_{\eta\in\Gamma ^{\bot}}^{}\widehat{f}(\gamma)$$
+> Let $f\in C(G)\cap L^1(G)$ uniformly summable over $\Gamma$. Assume that $\widehat{f}|_{\Gamma ^{\bot}}\in \ell^1(\Gamma ^{\bot})$. Then, $$\sum_{\gamma\in \Gamma}^{}f(\gamma)=\sum_{\eta\in\Gamma ^{\bot}}^{}\widehat{f}(\eta)$$
 
-> [!proof]-
+> [!proof]+
 > We use Fourier inversion for $G / \Gamma$ with $\alpha(G / \Gamma)=1$. Then, the dual measure on $\Gamma ^{\bot}$ would be the counting measure. (not any multiple).
 > 
 > Then, for $f\in C(G)\cap L^1(G)$ uniformly summable, for $\gamma\in \Gamma ^{\bot}$: $$\begin{align}\widehat{T_{\Gamma}f}(\gamma)&=\int_{G / \Gamma}^{}T_{\Gamma}f(g\Gamma) \overline{(g\Gamma,\gamma)} \, d\alpha(g\Gamma)\\&=\int_{G / \Gamma}^{}\sum_{x\in \Gamma}^{}f(gx)\overline{(g\Gamma,\gamma)} \, d\alpha(g\Gamma)\\&=\int_{G / \Gamma}^{}\sum_{x\in \Gamma}^{}f(gx)\overline{(gx\Gamma,\gamma)} \, d\alpha(g\Gamma) \\&=\int_{G}^{} f(g)\overline{(g,\gamma)} \, d\lambda(g)\\&=\widehat{f}(\gamma) \end{align}$$However, as $G / \Gamma$ is compact, $T_{\Gamma}f\in C(G / \Gamma)\subseteq L^1(G /\Gamma)$. Therefore, $\widehat{T_{\Gamma}f}=\widehat{f}|_{\Gamma ^{\bot}}\in \ell^1(\Gamma ^{\bot})$. Then, by Fourier inversion, $$\sum_{x\in \Gamma}^{}f(x)=T_{\Gamma}f(\Gamma)=\sum_{\eta\in \Gamma ^{\bot}}^{}\widehat{T_{\Gamma}f}(\eta)=\sum_{\eta\in \Gamma ^{\bot}}^{}\widehat{f}(\eta)$$

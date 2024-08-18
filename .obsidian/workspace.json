@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/LCA Group.md"
+                "file": "Functional Analysis/Pontryagin Dual.md"
               }
             }
           }
@@ -303,10 +303,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4316c752ce23eff7",
+  "active": "7dfbede0d9b9261d",
   "lastOpenFiles": [
-    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Measure Theory/Uniformly Summable Function.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Fourier Transform.md",
     "Topology/Quotient Topology.md",
@@ -330,7 +331,6 @@
     "Functional Analysis/Group Representation.md",
     "Representation Theory/Representation.md",
     "Functional Analysis/Resolution of Identity.md",
-    "Analysis/Inner Product Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
