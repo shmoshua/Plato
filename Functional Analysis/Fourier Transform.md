@@ -90,10 +90,10 @@
 > [!lemma] Theorem 5
 > The following holds true: $$A(\widehat{G})=\{ F_{1}*F_{2}:F_{1},F_{2}\in L^2(\widehat{G}) \}$$
 
-> [!proof]+
+> [!proof]-
 > Let $F_{1},F_{2}\in L^2(\widehat{G})$. Then, by [[LCA Group|Theorem 1]], $F_{1}*F_{2}\in C_{0}(\widehat{G})$. Now, let $f_{1},f_{2}\in L^2(G)$ with $\widehat{f}_{i}=F_{i}$ which exist by Plancherel. Then, $f_{1}f_{2}\in L^1(G)$ by Hölder and: $$\begin{align}\widehat{f_{1}f_{2}}(\chi_{0})&=\int_{G}^{} f_{1}(x)\underbrace{ f_{2}(x)\overline{(x,\chi_{0})} }_{ =:\overline{u(x)} } \, d\lambda(x)=\int_{G}f_{1}(x) \overline{u(x)} \, d\lambda(x) =\int_{\widehat{G}}^{} \widehat{f}_{1} (\chi)\overline{\widehat{u}(\chi)}\, d\omega(\chi)\\&=\int_{\widehat{G}}\widehat{f}_{1}(\chi){\widehat{f_{2}}(\chi_{0}\chi ^{-1})} \, d\omega(\chi)=(F_{1}*F_{2})(\chi_{0}) \end{align}  $$where $u\in L^2(G)$ and $$\widehat{u}(\chi)=\int_{G} u(x)\overline{(x,\chi)} \, d\lambda(x)=\int_{G}^{}\overline{f_{2}(x)(x,\chi_{0}^{-1}\chi)}  \, d\lambda(x)=\overline{\widehat{f_{2}}(\chi ^{-1}\chi_{0})}  $$Therefore, $F_{1}*F_{2}\in A(\widehat{G})$. 
 > 
-> Conversely, for $h\in L^1(G)$, we can write $h=\left| h \right|\cdot$
+> Conversely, for $h\in L^1(G)$, we can write $h=\left| h \right|\cdot \psi$ where $\psi(x):=\begin{cases}h(x) / \left| h(x) \right|&h(x)\neq 0\\1&\text{otherwise}\end{cases}$Define $f:=\sqrt{ \left| h \right| }$ and $g:=f\psi$. Then, we have that $f,g\in L^2(\widehat{G})$ and that $h=fg$ and $\widehat{h}=\widehat{f}*\widehat{g}$. Therefore, $A(\widehat{G})\subseteq \{ F_{1}*F_{2}:F_{1},F_{2}\in L^2(\widehat{G}) \}$.
 ---
 > [!lemma] Proposition 6
 > Let $F\subsetneq \widehat{G}$ closed and $\chi\notin F$. Then, there exists $\psi\in A(\widehat{G})$ s.t. 
@@ -103,7 +103,7 @@
 > [!proof]-
 > Let $E:=\widehat{G} \backslash F\ni \chi$ which is open. Using the continuity of multiplication on $\widehat{G}$ at $(\chi,\widehat{e})$, there are $U,V$ compact neighborhoods respectively of $\chi$ and $\widehat{e}$ s.t. $UV\subseteq E$. 
 > 
-> Set $\psi:= \mathbb{1}_{U}*\mathbb{1}_{V}\in A(\widehat{G})$. Then, $\text{supp }\psi \subseteq UV\subseteq E$ and $\psi|_{F}=0$. Further, $$\psi(\chi)=\int_{\widehat{G}}^{} \mathbb{1}_{U}(\chi\gamma)\mathbb{1}_{V}(\gamma ^{-1}) \, d\omega(\gamma)=\omega(\chi ^{-1}U \cap V^{-1})>0 $$as it is an open set of the Haar measure. 
+> Set $\psi:= \mathbb{1}_{U}*\mathbb{1}_{V}\in A(\widehat{G})$. Then, $\text{supp }\psi \subseteq UV\subseteq E$ and $\psi|_{F}=0$. Further, $$\psi(\chi)=\int_{\widehat{G}}^{} \mathbb{1}_{U}(\chi\gamma)\mathbb{1}_{V}(\gamma ^{-1}) \, d\omega(\gamma)=\omega(\chi ^{-1}U \cap V^{-1})>0 $$as it is a non-empty open set of the Haar measure. 
 ---
 > [!lemma] Corollary 7
 > 
