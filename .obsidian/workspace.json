@@ -117,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "preview",
                 "source": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": true
               }
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md"
+                "file": "Functional Analysis/LCA Group.md"
               }
             }
           }
@@ -315,15 +315,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4d6976cb98cbb0ef",
+  "active": "e50656243051fb85",
   "lastOpenFiles": [
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Pontryagin Dual.md",
-    "Functional Analysis/Convolution.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/LCA Group.md",
+    "Topology/Quotient Topology.md",
+    "Functional Analysis/Convolution.md",
     "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/C*-Algebra.md",
     "Analysis/Lp Space.md",
@@ -342,7 +343,6 @@
     "Representation Theory/Representation.md",
     "Functional Analysis/Resolution of Identity.md",
     "Analysis/Inner Product Space.md",
-    "Functional Analysis/Guelfand Transform.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

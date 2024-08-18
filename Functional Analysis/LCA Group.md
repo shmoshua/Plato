@@ -50,7 +50,14 @@
 > 
 > For the converse, we observe that the diagram: $$\begin{CD} \widehat{\widehat{G_{1}}}@>\varphi ^{**}>> \widehat{\widehat{G_{2}}}\\@A\alpha_{1}AA&@AA\alpha_{2}A\\G_{1} @>\varphi >>G_{2}\end{CD}$$ commutes, where $\alpha_{i}$ is the [[Pontryagin Dual|Pontryagin duality isomorphism]]. Now apply 1=>2.
 ---
+##### Duals of Subgroups and Lattices
+
 Let $G$ be a LCA group and $H\leq G$ a closed subgroup. Then, $G / H$ is also an LCA group by [[Quotient Topology|Quotient Lemma]] and the projection $p:G\to G / H$ is continuous. Consider: $$\begin{array}{cccc} {q:}&{\widehat{G}}&\to&{\widehat{H}}\\&{\chi} &\mapsto & {\chi|_{H}} \end{array}{}$$Then, we define the kernel as: $$H^{\bot}:=\{ \chi\in \widehat{G}:\chi|_{H}=1 \}$$which is a closed subgroup of $\widehat{G}$. Then, let $\overline{q}:\widehat{G} / H^{\bot}\to \widehat{H}$ and notice that: $$\text{Im }p^{*}\subseteq H^{\bot}$$as for $h\in H$, $\chi(p(h))=\chi(0)=1$. Then
+
+> [!lemma] Theorem 1
+> Let $G$ be an LCA group and $H\leq G$ a closed subgroup. Then, 
+> 1. $G / H$ is also an LCA group with canonical projection $p:G\to G / H$. 
+> 2. for $q:\widehat{G}\to \widehat{H},\chi\mapsto \chi|_{H}$, let $H^{{\bot}}:=\text{ker }q=\{ \chi\in \widehat{G}:\chi|_{H}=1 \}$. Then, $H^{\bot}\leq \widehat{G}$.
 
 > [!lemma] Theorem 
 > We have:
