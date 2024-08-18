@@ -74,26 +74,26 @@
 > [!lemma] Theorem 4 (Plancherel)
 > Let $G$ be an LCA group and $\lambda$ and $\omega$ be the Haar measures of $G$ and $\widehat{G}$ respectively s.t. the inversion theorem holds. Then, 
 > 1. for $f\in L^1(G)\cap L^2(G)$, $\widehat{f}\in L^2(\widehat{G})$ with $\|f\|_{2}^{2}=\|\widehat{f}\|^2_{2}$.
-> 2. 
-> the Fourier transform $$L^1(G)\cap B(G)\to C_{0}(\widehat{G}),\quad f\mapsto \widehat{f}$$extends to an isometric isomorphism $L^2(G)\to L^2(\widehat{G})$.
+> 2. the Fourier transform $L^1(G)\cap L^2(G)\to C_{0}(\widehat{G}),f\mapsto \widehat{f}$ extends to an isometric isomorphism $L^2(G)\to L^2(\widehat{G})$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $f\in L^1(G)\cap L^2(G)$. Define $g:=f*f^{*}$. Then, we claim that $g\in L^1(G)\cap P(G)$. $g\in L^1(G)$ as a convolution of two $L^1(G)$ functions. Further, $$g(x)=\int_{G}^{} f(xy)\overline{f(y)} \, d\lambda(y)=\braket{ \rho(x ^{-1})f , f }  $$where $\rho(x ^{-1})f(y)=f(xy)$ and therefore, $g\in P(G)$. 
 >    
 >    Hence, we can use the inversion theorem at $x=e$ and have, $$g(e)=\int_{\widehat{G}}^{} \widehat{g} \, d\omega=\int_{\widehat{G}} \left| \widehat{f} \right| ^{2} \, d\omega =\left\| \widehat{f} \right\| ^2_{2} $$and $$g(e)=\int_{G}f(y)\overline{f(y)}  \, d\lambda(y)=\int_{G}^{} \left| f(y) \right| ^{2} \, d\lambda(y)=\|f\|^2_{2}  $$
->1. As $C_{00}(G)\subseteq L^1(G)\cap L^2(G)$, we have that $L^1(G)\cap L^2(G)\subseteq L^2(G)$ is dense. Therefore, it suffices to show that $$\mathcal{L}:=\{ \widehat{f}:f\in L^1(G)\cap L^2(G) \}\subseteq L^2(\widehat{G})$$is dense. Let $\psi\in L^2(\widehat{G})$ an assume that $\psi\ {\bot}\ \mathcal{L}$. Then, $$\int_{\widehat{G}}^{} \widehat{f}(\gamma)\overline{\psi(\gamma)} \, d\omega(\gamma)=0,\quad \forall f\in L^1(G)\cap L^2(G) $$ By considering $f_{x}(y):=f(xy)$ and $\widehat{f}_{x}(\gamma)=(x,\gamma)\widehat{f}(\gamma)$, $$0=\int_{\widehat{G}}^{} \widehat{f_{x}}(\gamma)\overline{\psi(\gamma)} \, d\omega(\gamma)= \int_{\widehat{G}}^{} (x,\gamma)\widehat{f}(\gamma)\overline{\psi(\gamma)} \, d\omega(\gamma) $$
+>1. As $C_{00}(G)\subseteq L^1(G)\cap L^2(G)$, we have that $L^1(G)\cap L^2(G)\subseteq L^2(G)$ is dense. Therefore, it suffices to show that $$\mathcal{L}:=\{ \widehat{f}:f\in L^1(G)\cap L^2(G) \}\subseteq L^2(\widehat{G})$$is dense. Let $\psi\in L^2(\widehat{G})$ and assume that $$\int_{\widehat{G}}^{} \widehat{f}\overline{\psi} \, d\omega=0,\quad \forall f\in L^1(G)\cap L^2(G) $$ Then, as $\lambda(x ^{-1})f\in L^1(G)\cap L^2(G)$, $$0=\int_{\widehat{G}}^{} \widehat{(\lambda(x ^{-1})f)}\overline{\psi} \, d\omega =\int_{\widehat{G}}^{} (x,\chi)\widehat{f}(\chi)\overline{\psi(\chi)} \, d\omega(\chi) $$ 
+>   Therefore, for any $h\in L^1(G)$, $$\begin{align}0&=\int_{G}^{} h(x)\int_{\widehat{G}}^{} (x,\chi)\widehat{f}(\chi)\overline{\psi(\chi)} \, d\omega(\chi)  \, d\lambda(x)\\&=\int_{\widehat{G}}^{} \left( \int_{G}^{} h(x)(x,\chi) \, d\lambda(x) \right) \widehat{f}(\chi)\overline{\psi(\chi)}  \, d\omega(\chi) \\&=\int_{\widehat{G}}^{} \widehat{h}(\chi^{-1})\widehat{f}(\chi)\overline{\psi(\chi)}  \, d\omega(\chi) \end{align} $$By considering $\mu:=\widehat{f}\overline{\psi} \omega$ as a complex measure vanishing on $A(\widehat{G})$ and by theorem 1, also on $C_{0}(\widehat{G})$, we have that $\mu=0$. Therefore, $\widehat{f}\cdot \overline{\psi}=0$ $\omega$-almost everywhere for all $f\in L^1(G)\cap L^2(G)$. However, recall that for $V\subseteq \widehat{G}$ open with $\overline{V}$ compact, there exists $f\in C_{00}(G)$ s.t. $\widehat{f}|_{\overline{V}}>0$ (in the proof of inversion formula). Therefore, $\psi=0$ in $L^2(G)$.
 >   
->   Therefore, for any $h\in L^1(G)$, $$\begin{align}0&=\int_{G}^{} h(x)\int_{\widehat{G}}^{} (x,\gamma)\widehat{f}(\gamma)\overline{\psi(\gamma)} \, d\omega(\gamma)  \, d\lambda(x)\\&=\int_{\widehat{G}}^{} \left( \int_{G}^{} h(x)(x,\gamma) \, d\lambda(x) \right) \widehat{f}(\gamma)\overline{\psi(\gamma)}  \, d\omega(\gamma) \\&=\int_{\widehat{G}}^{} \widehat{h}(\gamma^{-1})\widehat{f}(\gamma)\overline{\psi(\gamma)}  \, d\omega(\gamma) \end{align} $$By considering $\mu:=\widehat{f}\overline{\psi} \omega$ as a complex measure vanishing on $A(\widehat{G})$ and by theorem 1, $C_{0}(\widehat{G})$, we have that $\mu=0$. Therefore, $\widehat{f}\cdot \psi=0$ $\omega$-almost everywhere for all $f\in L^1(G)\cap L^2(G)$. However, recall that for $V\subseteq \widehat{G}$ open with $\overline{V}$ compact, there exists $f\in C_{00}(G)$ s.t. $\widehat{f}|_{\overline{V}}>0$. Therefore, $\psi=0$ in $L^2(G)$.
->   
-> This proves the statement. 
-- **Corollary (Parseval's Formula):** For every $f,g\in L^2(G)$, $$\int_{G}^{} f(x)\overline{g(x)} \, d\lambda(x)=\int_{\widehat{G}}^{} \widehat{f}(\gamma)\overline{\widehat{g}(\gamma)} \, d\omega(\gamma)  $$using [[Inner Product Space|polarization identities]] as the Fourier transform preserves the norm.
+> 	This proves that $\mathcal{L}$ is dense in $L^2(\widehat{G})$ and the rest follows from [[Bounded Linear Map|BLT Theorem]].
+- **Corollary (Parseval's Formula):** For every $f,g\in L^2(G)$, $$\int_{G}^{} f\overline{g} \, d\lambda=\int_{\widehat{G}}^{} \widehat{f}\overline{\widehat{g}} \, d\omega $$using [[Inner Product Space|polarization identities]] as the Fourier transform preserves the norm.
 ---
 > [!lemma] Theorem 5
 > The following holds true: $$A(\widehat{G})=\{ F_{1}*F_{2}:F_{1},F_{2}\in L^2(\widehat{G}) \}$$
 
-> [!proof]- Proof (Incomplete)
-> Let $F_{1},F_{2}\in L^2(\widehat{G})$ and let $f_{1},f_{2}\in L^2(G)$ with $\widehat{f}_{i}=F_{i}$. Then, $f_{1}f_{2}\in L^1(G)$ by Hölder and: $$\begin{align}\widehat{f_{1}f_{2}}(\gamma_{0})&=\int_{G}^{} f_{1}(x)\underbrace{ f_{2}(x)\overline{(x,\gamma_{0})} }_{ =:\overline{u(x)} } \, d\lambda(x)=\int_{G}f_{1}(x) \overline{u(x)} \, d\lambda(x) =\int_{\widehat{G}}^{} \widehat{f}_{1} (\gamma)\overline{\widehat{u}(\gamma)}\, d\omega(\gamma)\\&=\int_{\widehat{G}}\widehat{f}_{1}(\gamma){\widehat{f_{2}}(\gamma_{0}\gamma ^{-1})} \, d\omega(\gamma)=(F_{1}*F_{2})(\gamma_{0}) \end{align}  $$where $u\in L^2(G)$ and $\widehat{u}(\gamma)=\int_{\widehat{G}}\overline{f_{2}(x)(x,\gamma_{0}^{-1}\gamma)}d\lambda(x)=\overline{\widehat{f_{2}}(\gamma ^{-1}\gamma_{0})}$.
+> [!proof]+
+> Let $F_{1},F_{2}\in L^2(\widehat{G})$. Then, by [[LCA Group|Theorem 1]], $F_{1}*F_{2}\in C_{0}(\widehat{G})$. Now, let $f_{1},f_{2}\in L^2(G)$ with $\widehat{f}_{i}=F_{i}$ which exist by Plancherel. Then, $f_{1}f_{2}\in L^1(G)$ by Hölder and: $$\begin{align}\widehat{f_{1}f_{2}}(\chi_{0})&=\int_{G}^{} f_{1}(x)\underbrace{ f_{2}(x)\overline{(x,\chi_{0})} }_{ =:\overline{u(x)} } \, d\lambda(x)=\int_{G}f_{1}(x) \overline{u(x)} \, d\lambda(x) =\int_{\widehat{G}}^{} \widehat{f}_{1} (\chi)\overline{\widehat{u}(\chi)}\, d\omega(\chi)\\&=\int_{\widehat{G}}\widehat{f}_{1}(\chi){\widehat{f_{2}}(\chi_{0}\chi ^{-1})} \, d\omega(\chi)=(F_{1}*F_{2})(\chi_{0}) \end{align}  $$where $u\in L^2(G)$ and $$\widehat{u}(\chi)=\int_{G} u(x)\overline{(x,\chi)} \, d\lambda(x)=\int_{G}^{}\overline{f_{2}(x)(x,\chi_{0}^{-1}\chi)}  \, d\lambda(x)=\overline{\widehat{f_{2}}(\chi ^{-1}\chi_{0})}  $$Therefore, $F_{1}*F_{2}\in A(\widehat{G})$. 
+> 
+> Conversely, for $h\in L^1(G)$, we can write $h=\left| h \right|\cdot$
 ---
 > [!lemma] Proposition 6
 > Let $F\subsetneq \widehat{G}$ closed and $\chi\notin F$. Then, there exists $\psi\in A(\widehat{G})$ s.t. 
