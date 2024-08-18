@@ -149,18 +149,6 @@
             }
           },
           {
-            "id": "4d6976cb98cbb0ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Quotient Topology.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "4316c752ce23eff7",
             "type": "leaf",
             "state": {
@@ -178,14 +166,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -315,17 +303,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e50656243051fb85",
+  "active": "4316c752ce23eff7",
   "lastOpenFiles": [
-    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Pontryagin Dual.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
+    "Functional Analysis/Fourier Transform.md",
     "Topology/Quotient Topology.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Convolution.md",
     "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/C*-Algebra.md",
     "Analysis/Lp Space.md",
     "Functional Analysis/Guelfand Spectrum.md",

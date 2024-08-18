@@ -52,24 +52,24 @@
 ---
 ##### Duals of Subgroups and Lattices
 
-Let $G$ be a LCA group and $H\leq G$ a closed subgroup. Then, $G / H$ is also an LCA group by [[Quotient Topology|Quotient Lemma]] and the projection $p:G\to G / H$ is continuous. Consider: $$\begin{array}{cccc} {q:}&{\widehat{G}}&\to&{\widehat{H}}\\&{\chi} &\mapsto & {\chi|_{H}} \end{array}{}$$Then, we define the kernel as: $$H^{\bot}:=\{ \chi\in \widehat{G}:\chi|_{H}=1 \}$$which is a closed subgroup of $\widehat{G}$. Then, let $\overline{q}:\widehat{G} / H^{\bot}\to \widehat{H}$ and notice that: $$\text{Im }p^{*}\subseteq H^{\bot}$$as for $h\in H$, $\chi(p(h))=\chi(0)=1$. Then
 
 > [!lemma] Theorem 1
 > Let $G$ be an LCA group and $H\leq G$ a closed subgroup. Then, 
 > 1. $G / H$ is also an LCA group with canonical projection $p:G\to G / H$. 
-> 2. for $q:\widehat{G}\to \widehat{H},\chi\mapsto \chi|_{H}$, let $H^{{\bot}}:=\text{ker }q=\{ \chi\in \widehat{G}:\chi|_{H}=1 \}$. Then, $H^{\bot}\leq \widehat{G}$.
+> 2. for $q:\widehat{G}\to \widehat{H},\chi\mapsto \chi|_{H}$, let $H^{{\bot}}:=\text{ker }q=\{ \chi\in \widehat{G}:\chi|_{H}=1 \}$. Then, $H^{\bot}\leq \widehat{G}$ and closed.
+> 3. $p^{*}:\widehat{G / H}\to H^{\bot}$ is a LCA group isomorphism.
+> 4. $\overline{q}:\widehat{G} / H^{\bot}\to \widehat{H}$ is a LCA group isomorphism.
 
-> [!lemma] Theorem 
-> We have:
-> 1. $p^{*}:\widehat{G / H}\to H^{\bot}$
-> 2. $\overline{q}:\widehat{G} / H^{\bot}\to \widehat{H}$
-> 
-> are isomorphism of LCA groups.
+> [!proof]+
+> We have that:
+> 1. from [[Quotient Topology|Quotient Lemma]].
+> 2. from the fact that $H^{\bot}$ is a kernel.
+> 3. Let $\chi\in \widehat{G / H}$. Then, for $h\in H$, $\chi(p(h))=\chi(H)=1$ and $\chi\in H^{\bot}$. Further, $p^{*}$ is continuous. Lastly, $$p^{*}(\chi_{1}\chi_{2})=\chi_{1}\chi_{2}\circ \varphi=p^{*}(\chi_{1})p^{*}(\chi_{2})$$
+> 4. We show that: $$\overline{q}^{*}:H\to (H^{\bot})^{\bot}=\{ x\in G:\chi(x)=1,\forall \chi\in H^{\bot} \}$$We claim that $(H^{\bot})^{\bot}=H$. Assume $x\in (H^{\bot})^{\bot}$ but not in $H$. Then, $p(x)\neq e$ in $G / H$. However, there exists $\chi\in \widehat{G / H}$ with $\chi(p(x))\neq 1$ by [[Pontryagin Dual|Lemma 6]]. But $\chi \circ p\in H^{\bot}$, which is a contradiction.
+>    
+>    Conversely, assume $x\in H$. Then, $\chi(x)=1$ for all $\chi\in H^{\bot}$ and $x\in (H^{\bot})^{\bot}$. Therefore, by Proposition 2, $\overline{q}$ is an isomorphism.
 
-> [!proof]-
-> We have:
-> 1. is obvious
-> 2. we have that: $$\overline{q}^{*}:H\to H^{\bot\bot}=\{ x\in G:\chi(x)=1,\quad \forall \chi\in H^{\bot} \}$$Assume $H^{\bot\bot}\supsetneq H$. Then, let $x\in H^{\bot\bot}$ but $x\notin H$. Therefore, $p(x)\neq e$ in $G / H$. However, as there exists $\chi\in \widehat{G / H}$ with $\chi(p(x))\neq 1$. But $\chi \circ p \in H^{\bot}$, which is a contradiction.
+
 ---
 > [!lemma] Theorem 
 > Let $H\leq G$ be a closed subgroup. Then, every continuous character on $H$ extends to a continuous character on $G$. 
