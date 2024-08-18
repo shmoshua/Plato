@@ -49,7 +49,7 @@
 > 1. if $G$ is discrete, then $\widehat{G}$ is compact.
 > 2. if $G$ is compact, then $\widehat{G}$ is discrete.
 
-> [!proof]-
+> [!proof]+
 > We have: 
 > 1. if $G$ is discrete, the Haar measure $\mu$ is the counting measure and $\delta_{e}$ is an identity for $\ell^1(G)$. Therefore, $\widehat{\ell^1(G)}$ is compact and so is $\widehat{G}$.
 > 2. Assume $G$ is compact and let $\mu$ be the Haar measure on $G$. Modulo rescaling, $\mu(G)=1$. Let $\widehat{e}\in \widehat{G}$. We claim that: $$\int_{G}^{} \gamma(x) \, d\mu(x)=\delta_{\widehat{e}}(\gamma),\quad \forall \gamma\in \widehat{G} $$Clearly, $$\int_{G}\widehat{e}(x)d\mu(x)=\int_{G}1 \, d\mu=\mu(G)=1 $$and $$\int_{G}^{} \gamma \, d\mu=\int_{G}^{} \gamma(yx) \, d\mu(x)=\gamma(y)\int_{G}^{} \gamma \, d\mu   $$Therefore, if $\gamma\neq \widehat{e}$, choose $y\in G$ s.t. $\gamma(y)\neq 1$. Then, $\int_{G}^{} \gamma \, d\mu= 0$.

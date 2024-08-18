@@ -13,13 +13,20 @@
 
 > [!proof]-
 > We have:
-> 1. Under the identification of $\widehat{G}$ with $\widehat{L^1(G)}$, the Fourier transform coincides with the Guelfand transform: $$\widehat{f^*}(\chi)=\int_{G}\overline{f(x ^{-1})}\overline{(x,\chi)}  \, d\mu(x)=\overline{\int_{G}^{} f(x ^{-1})(x,\chi) \, d\mu(x) }=\overline{\int_{G}^{} f(x)\underbrace{ (x ^{-1},\chi) }_{ =\chi(x ^{-1})=\chi(x) ^{-1}=\overline{\chi(x)} } \, d\mu(x) }=\overline{\widehat{f}(\chi)} $$Now, $A(\widehat{G})$ is a subalgebra of $C_{0}(\widehat{G})$ for which:
->    1. invariant under complex conjugate
+> 1. Under the identification of $\widehat{G}$ with $\widehat{L^1(G)}$, the Fourier transform coincides with the [[Guelfand transform]]. Therefore, $\widehat{f}\in C_{0}(\widehat{G})$. 
+>    
+>    To see that it is norm decreasing, $\left| \widehat{f}(\chi) \right| =\left| \int_{G}^{} f(x)\overline{(x,\chi)} \, d\mu(x)  \right| \leq \left\| f \right\| _{1}$ and $\left\| \widehat{f} \right\|_{\infty}\leq \left\| f \right\|_{1}$. 
+>    
+>    Further: $$\begin{align}\widehat{f^{*}}(\chi)&=\int_{G}^{} \overline{f(x ^{-1})(x,\chi)} \, d\mu(x)= \overline{\int_{G}^{} f(x ^{-1} )(x,\chi) \, d\mu(x) }\\&=\overline{\int_{G}^{} f(x)(x ^{-1},\chi) \, d\mu(x) }=\overline{\int_{G}^{} f(x)\overline{(x,\chi)} \, dx }=\overline{\widehat{f}(\chi)}\end{align}$$Hence, the Fourier transform is a $*$-homomorphism.
+>    
+>    To show the density, we have that $A(\widehat{G})$ is a subalgebra of $C_{0}(\widehat{G})$ for which:
+>    1. for $\widehat{f}\in A(\widehat{G})$, $f\in L^1(G)$ and $\widehat{f^{*}}=\overline{\widehat{f}}\in A(\widehat{G})$. Hence, invariant under complements. 
 >    2. for any $\chi\in \widehat{G}$, since $\left| \chi(x)\right|=1$ for all $x\in G$, there exists $f\in L^1(G)$ s.t. $\int_{G}f(x)\overline{\chi(x)}  \, d\mu(x)\neq 0$. Therefore, $\widehat{f}(\chi)\neq 0$.
 >    3. As $\widehat{G}\hookrightarrow L^\infty(G)$ is injective, for any $\chi_{1}\neq \chi_{2}\in \widehat{G}$, there exists $f\in L^1(G)$ s.t. $\widehat{f}(\chi_{1})\neq \widehat{f}(\chi_{2})$
 >    
 >    Therefore, the density follows from [[Continuous function Vanishing at Infinity#^2e5b88|Stone-Weierstrass]].
->   3. We have: $$\widehat{f}(\chi \chi_{0})=\int_{G}^{} f(x)\overline{\chi_{0}(x)}\overline{(x,\chi)} \, d\mu(x)=\widehat{(f\cdot \overline{\chi_{0}})}(\chi)  $$and$$\begin{align}\widehat{f}(\chi)(x,\chi)&=\int_{G}^{} f(y)\overline{(y,\chi)} \, d\mu(y) (x,\chi)\\&=\int_{G}^{} f(y)\overline{(yx ^{-1},\chi)} \, d\mu(y) \\&=\int_{G}^{} f(xy)\overline{(y,\chi)} \, d\mu(y) \\&=\widehat{(\lambda(x ^{-1}f))}(\chi)\end{align}$$
+>   3. We have: $$\widehat{f}(\chi \chi_{0})=\int_{G}^{} f(x)\overline{\chi_{0}(x)}\overline{(x,\chi)} \, d\mu(x)=\widehat{(f\cdot \overline{\chi_{0}})}(\chi)  $$and$$\begin{align}\widehat{f}(\chi)(x,\chi)&=\int_{G}^{} f(y)\overline{(y,\chi)} \, d\mu(y) (x,\chi)\\&=\int_{G}^{} f(y)\overline{(yx ^{-1},\chi)} \, d\mu(y) \\&=\int_{G}^{} f(xy)\overline{(y,\chi)} \, d\mu(y) \\&=\widehat{(\lambda(x ^{-1})f)}(\chi)\end{align}$$
+>   4. From 2, $$\begin{align}\widehat{f}(\chi)(x,\chi)&=\int_{G}^{} f(xy)\overline{(y,\chi)} \, d\mu(y)\\&=\int_{G}^{} f(xy)(y^{-1},\chi) \, d\mu(y)=\int_{G}^{} f(xy)\chi(y^{-1}) \, d\mu(y)=(f*\chi)(x) \end{align}  $$
 ---
 > [!lemma] Proposition 2
 > For an LCA group $G$, let: $$P(G):=\{ f\in C(G):f\text{ is positive definite} \}$$Then, 

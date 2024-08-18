@@ -105,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Functional Analysis/Convolution.md",
                 "mode": "preview",
                 "source": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -303,27 +303,27 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4d6976cb98cbb0ef",
+  "active": "9844d448636a0f99",
   "lastOpenFiles": [
     "Functional Analysis/Fourier Transform.md",
-    "Analysis/Lp Space.md",
     "Functional Analysis/Pontryagin Dual.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Convolution.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Haar Measure.md",
+    "Functional Analysis/LCA Group.md",
+    "Analysis/Lp Space.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Measure Theory/Product Measure.md",
     "Functional Analysis/Uniformly Continuous Function.md",
-    "Functional Analysis/Haar Measure.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/LCA Group.md",
-    "Functional Analysis/Convolution.md",
     "Lie Group/Locally Compact Group.md",
     "Lie Group/Topological Group.md",
     "Algebra/p-adic Rational.md",
     "Algebra/p-adic Integer.md",
     "Topology/Product Topology.md",
     "Functional Analysis/Positive Operator.md",
-    "Functional Analysis/C*-Algebra.md",
     "Algebra/Unitary Representation.md",
     "Functional Analysis/Group Representation.md",
     "Representation Theory/Representation.md",
