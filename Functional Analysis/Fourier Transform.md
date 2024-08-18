@@ -7,7 +7,7 @@
 
 > [!lemma] Theorem 1
 > It holds that:
-> 1. The Fourier transform: $$\begin{array}{cccc} {}&{L^1(G)}&\to&{C_{0}(\widehat{G})}\\&{f} &\mapsto & {\widehat{f}} \end{array}{}$$is a norm decreasing $*$-homomorphism where the image $A(\widehat{G})\subseteq C_{0}(\widehat{G})$ is dense.
+> 1. The Fourier transform: $$L^1(G)\to C_{0}(\widehat{G}),\quad f\mapsto \widehat{f}$$is a norm decreasing $*$-homomorphism where the image $A(\widehat{G})\subseteq C_{0}(\widehat{G})$ is dense.
 > 2. $A(\widehat{G})$ is invariant under translations by $\widehat{G}$ and multiplication by $\chi\mapsto(x,\chi)$ for all $x\in G$.
 > 3. For $f\in L^1(G)$ and $\chi\in \widehat{G}$, $$(f*\chi)(x)=(x,\chi)\widehat{f}(\chi),\quad \forall x\in G$$
 
