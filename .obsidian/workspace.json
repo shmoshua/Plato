@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Convolution.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md"
+                "file": "Functional Analysis/Haar Measure.md"
               }
             }
           }
@@ -315,14 +315,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6520d92749af936f",
+  "active": "4d6976cb98cbb0ef",
   "lastOpenFiles": [
+    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Convolution.md",
     "Functional Analysis/LCA Group.md",
-    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/C*-Algebra.md",
