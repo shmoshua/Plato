@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/LCA Group.md"
+                "file": "Functional Analysis/Haar Measure.md"
               }
             }
           }
@@ -305,20 +305,20 @@
   },
   "active": "4316c752ce23eff7",
   "lastOpenFiles": [
-    "Functional Analysis/Guelfand Transform.md",
-    "Functional Analysis/Guelfand Spectrum.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/LCA Group.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Guelfand Transform.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Guelfand Spectrum.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Pontryagin Dual.md",
     "Measure Theory/Uniformly Summable Function.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Topology/Quotient Topology.md",
     "Functional Analysis/Convolution.md",
     "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
-    "Functional Analysis/C*-Algebra.md",
     "Analysis/Lp Space.md",
     "Measure Theory/Product Measure.md",
     "Measure Theory/Continuous Function with Compact Support.md",
