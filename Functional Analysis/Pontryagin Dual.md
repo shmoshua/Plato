@@ -49,7 +49,7 @@
 > 1. if $G$ is discrete, then $\widehat{G}$ is compact.
 > 2. if $G$ is compact, then $\widehat{G}$ is discrete.
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. if $G$ is discrete, the Haar measure $\mu$ is the counting measure and $\delta_{e}$ is an identity for $\ell^1(G)$. Therefore, $\widehat{\ell^1(G)}$ is compact and so is $\widehat{G}$.
 > 2. Assume $G$ is compact and let $\mu$ be the Haar measure on $G$. Modulo rescaling, $\mu(G)=1$. Let $\widehat{e}\in \widehat{G}$. We claim that: $$\int_{G}^{} \gamma(x) \, d\mu(x)=\delta_{\widehat{e}}(\gamma),\quad \forall \gamma\in \widehat{G} $$Clearly, $$\int_{G}\widehat{e}(x)d\mu(x)=\int_{G}1 \, d\mu=\mu(G)=1 $$and $$\int_{G}^{} \gamma \, d\mu=\int_{G}^{} \gamma(yx) \, d\mu(x)=\gamma(y)\int_{G}^{} \gamma \, d\mu   $$Therefore, if $\gamma\neq \widehat{e}$, choose $y\in G$ s.t. $\gamma(y)\neq 1$. Then, $\int_{G}^{} \gamma \, d\mu= 0$.
@@ -57,16 +57,18 @@
 >    Let $\gamma\in \widehat{G}\subseteq L^1(G)$. Then, $$\widehat{\gamma}(\chi)=\int_{G}\gamma(x)\overline{(x,\chi)}  \, d\mu(x)=\int_{G}\gamma \cdot \chi ^{-1}  \, d\mu=\delta_{\widehat{e}}(\gamma \chi ^{-1})=\delta_{\gamma}(\chi)  $$Therefore, $\delta_{\gamma}$ is continuous and $\{ \gamma \}\subseteq \widehat{G}$ is open and $\widehat{G}$ is discrete.
 ---
 
-> [!lemma] Proposition 5
-> Let $G$ be an abelian [[Locally Compact Group|locally compact Hausdorff group]]. Then, 
-> 1. the function: $$\begin{array}{cccc} {}&{G\times \widehat{G}}&\to&{\mathbb{T}}\\&{(x,\chi)} &\mapsto & {\chi(x)} \end{array}{}$$ is continuous. 
+> [!lemma] Proposition 5 (Dual of LCA is LCA)
+> Let $G$ be an [[LCA group]]. Then, 
+> 1. $G\times \widehat{G}\to \mathbb{T}, (x,\chi)\mapsto \chi(x)$ is continuous.
 > 2. let $K\subseteq G$ compact and $C\subseteq \widehat{G}$ compact. For $\varepsilon>0$ and $$N(K,\varepsilon):=\{ \chi\in \widehat{G}:\left| (x,\chi)-1 \right| <\varepsilon, x\in K \},\quad N(C,\varepsilon):=\{ x\in G:\left| (x,\chi)-1 \right| <\varepsilon ,\chi\in C\}$$are open subsets of $\widehat{G}$ and $G$ respectively. 
-> 3. the family of subsets $N(K,\varepsilon)\subseteq \widehat{G}$ and their translates form a basis of open sets for the Guelfand topology on $\widehat{G}$.
-> 4. $\widehat{G}$ is a (locally compact) topological group.
+> 3. the family of subsets $N(K,\varepsilon)\subseteq \widehat{G}$ and their translates form a base for the Guelfand topology on $\widehat{G}$.
+> 4. $\widehat{G}$ is an LCA group.
 
-> [!proof]-
+> [!proof]+
 > We have:
-> 1. for $f\in L^1(G)$, $$(\widehat{\lambda(x ^{-1})f})(\chi)=\int_{G}^{} f(xy)\overline{\chi(y)} \, d\mu(y)=\int_{G}^{} f(y)\overline{\chi(x ^{-1}y)} \, d\mu(y)= \chi(x)\widehat{f}(\chi) $$As $\widehat{f}:\widehat{G}\to \mathbb{C}$ is continuous, if we show that $G\times \widehat{G}\to \mathbb{C},(x,\chi)\mapsto (\widehat{\lambda(x ^{-1})f})(\chi)$  is continuous, then the function $(x,\chi)\mapsto \chi(x)$ is continuous on the open set $G\times \{ \chi\in \widehat{G}:\widehat{f}(\chi)\neq 0 \}$. But since, $A(\widehat{G})=\{ \widehat{f}:f\in L^1(G) \}$ is dense in $C_{0}(\widehat{G})$, $$\bigcup_{f\in L^1(G)}^{}\{ \chi\in \widehat{G}:\widehat{f}(\chi)\neq 0 \}=\widehat{G}$$
+> 1. 
+>    
+>    for $f\in L^1(G)$, $$(\widehat{\lambda(x ^{-1})f})(\chi)=\int_{G}^{} f(xy)\overline{\chi(y)} \, d\mu(y)=\int_{G}^{} f(y)\overline{\chi(x ^{-1}y)} \, d\mu(y)= \chi(x)\widehat{f}(\chi) $$As $\widehat{f}:\widehat{G}\to \mathbb{C}$ is continuous, if we show that $G\times \widehat{G}\to \mathbb{C},(x,\chi)\mapsto (\widehat{\lambda(x ^{-1})f})(\chi)$  is continuous, then the function $(x,\chi)\mapsto \chi(x)$ is continuous on the open set $G\times \{ \chi\in \widehat{G}:\widehat{f}(\chi)\neq 0 \}$. But since, $A(\widehat{G})=\{ \widehat{f}:f\in L^1(G) \}$ is dense in $C_{0}(\widehat{G})$, $$\bigcup_{f\in L^1(G)}^{}\{ \chi\in \widehat{G}:\widehat{f}(\chi)\neq 0 \}=\widehat{G}$$
 >    To show the continuity of $(x,\chi)\mapsto (\widehat{\lambda(x ^{-1})f})(\chi)$, let $(x_{0},\chi_{0})\in G\times \widehat{G}$. Let $$V:=\{ x\in G :\left\| \lambda(x ^{-1})f-\lambda(x_{0}^{-1})f \right\|_{1} <\varepsilon\}\subseteq G$$ is open by [[Uniformly Continuous Function|Lemma 1]]. Similarly,  $$W:=\left\{ \chi \in \widehat{G}:\left| (\widehat{\lambda(x_{0}^{-1})f)(\chi)}-(\widehat{\lambda(x_{0}^{-1})f)(\chi_{0})} \right| <\varepsilon \right\}=\mathcal{U}(\chi_{0}),\lambda(x ^{-1}_{0})f,\varepsilon)$$ is an open neighborhood of $\chi_{0}$. 
 >    
 >    Therefore, for every $(x,\chi)\in V\times W$, $$\begin{align}&\left| (\widehat{\lambda(x^{-1})f)(\chi)}-(\widehat{\lambda(x_{0}^{-1})f)(\chi_{0})} \right| \\&\leq\left| (\widehat{\lambda(x^{-1})f)(\chi)}-(\widehat{\lambda(x_{0}^{-1})f)(\chi)} \right| +\left| (\widehat{\lambda(x_{0}^{-1})f)(\chi)}-(\widehat{\lambda(x_{0}^{-1})f)(\chi_{0})} \right| \\&<\left| (\widehat{\lambda(x^{-1})f-\lambda(x_{0}^{-1})f)}(\chi) \right| +\varepsilon \\&\leq\left\|_{1} (\lambda(x^{-1})f-\lambda(x_{0}^{-1})f)\right\|+\varepsilon \\&<2\varepsilon\end{align}$$This shows the continuity of the function and proves the claim.
