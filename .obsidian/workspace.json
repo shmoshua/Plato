@@ -172,8 +172,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -303,13 +302,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7dfbede0d9b9261d",
+  "active": "d83c49dceb02495b",
   "lastOpenFiles": [
+    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/LCA Group.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Measure Theory/Uniformly Summable Function.md",
     "Functional Analysis/Uniformly Continuous Function.md",
-    "Functional Analysis/Fourier Transform.md",
     "Topology/Quotient Topology.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Convolution.md",
