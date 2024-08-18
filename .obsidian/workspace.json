@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Functional Analysis/Positive Definite Function on a Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Functional Analysis/Positive Definite Function on a Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Functional Analysis/Positive Definite Function on a Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Functional Analysis/Positive Definite Function on a Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md"
+                "file": "Functional Analysis/Positive Definite Function on a Group.md"
               }
             }
           }
@@ -303,10 +303,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4d6976cb98cbb0ef",
+  "active": "9844d448636a0f99",
   "lastOpenFiles": [
-    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Pontryagin Dual.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
+    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Haar Measure.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Convolution.md",
@@ -330,7 +331,6 @@
     "Functional Analysis/Resolution of Identity.md",
     "Analysis/Inner Product Space.md",
     "Functional Analysis/Guelfand Transform.md",
-    "Analysis/Hilbert Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

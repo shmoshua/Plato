@@ -133,9 +133,8 @@
 > 4. If $F$ is finite abelian, then $\widehat{F}\cong F$.
 > 5. $\widehat{\mathbb{R}}\cong \mathbb{R}$ given by $\mathbb{R} \to \widehat{\mathbb{R}},a\mapsto (x\mapsto e^{2\pi iax})$.
 > 6. $\widehat{\mathbb{T}}\cong \mathbb{Z}$ given by $\mathbb{Z}\to \widehat{\mathbb{T}},n\mapsto (\xi\mapsto \xi^n)$.
-> 7. $\widehat{\mathbb{Z}}\cong \mathbb{T}$ given by $\mathbb{T}\to \widehat{\mathbb{Z}}$
-> 8. $\widehat{\mathbb{T}}\cong \mathbb{Z}$ and $\widehat{\mathbb{R}}\cong \mathbb{R}$.
-> 9. $\widehat{\mathbb{Z}}\cong \mathbb{T}$
+> 7. $\widehat{\mathbb{Z}}\cong \mathbb{T}$ given by $\mathbb{T}\to \widehat{\mathbb{Z}},\xi\mapsto (n\mapsto \xi^n)$
+> 
 > 10. $\widehat{(\mathbb{R}^n\times \mathbb{T}^m\times \mathbb{Z}^\ell \times F)}\cong \mathbb{R}^n\times \mathbb{Z}^m\times \mathbb{T}^\ell \times F$
 ---
 > [!h] Example 4
@@ -152,3 +151,4 @@
 > [!h] Example 7 (Ring of Adeles)
 > Apply the preceding construction to $(\mathbb{Q}_{p})_{p}$. Then, $$\mathbb{A}_{\mathbb{Q}}:=\mathbb{R}\times \prod_{p}^{}'\mathbb{Q}_{p}$$is the ring of Adeles of $\mathbb{Q}$. Then, the injection $\mathbb{Q}\hookrightarrow \mathbb{A}_{\mathbb{Q}}$ has a discrete image and $\mathbb{A}_{\mathbb{Q}} / \mathbb{Q}$ is compact, as it holds that $\widehat{\mathbb{A}_{\mathbb{Q}}}\cong \mathbb{A}_{\mathbb{Q}}$.
 
+---

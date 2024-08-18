@@ -1,8 +1,9 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be a group and $\mathcal{H}$ a [[Hilbert Space|$\mathbb{C}$-Hilbert space]]. A ***positive-definite function*** on $G$ is a function $\Phi:G\to \mathcal{B}(\mathcal{H})$ s.t. for every $g_{1},\dots,g_{n}\in G$ and $x_{1},\dots,x_{n}\in \mathcal{H}$, $$\sum_{i,j=1}^{n}\braket{ \Phi(g_{j}^{-1}g_{i})x_{i} , x_{j} } \geq 0$$
-- **Remark**: If $\mathcal{H}=\mathbb{C}$, using that $\mathcal{B}(\mathbb{C})\cong \mathbb{C}$, a function $\Phi:G\to \mathbb{C}$ is ***positive definite*** if for every $g_{1},\dots,g_{n}\in G$ and $c_{1},..,c_{n}\in \mathbb{C}$ s.t. $$\sum_{i,j=1}^{n}\Phi(g_{j}^{-1}g_{i})c_{i}\overline{c_{j}}\geq 0$$
+> Let $G$ be a group and $\mathcal{H}$ a [[Hilbert Space|$\mathbb{C}$-Hilbert space]]. 
+> 1. A ***positive-definite function*** on $G$ is a function $\Phi:G\to \mathcal{B}(\mathcal{H})$ s.t. for every $g_{1},\dots,g_{n}\in G$ and $x_{1},\dots,x_{n}\in \mathcal{H}$, $$\sum_{i,j=1}^{n}\braket{ \Phi(g_{j}^{-1}g_{i})x_{i} , x_{j} } \geq 0$$
+- **Remark**: If $\mathcal{H}=\mathbb{C}$, using that $\mathcal{B}(\mathbb{C})\cong \mathbb{C}$, a function $\Phi:G\to \mathbb{C}$ is ***positive definite*** if for every $g_{1},\dots,g_{n}\in G$ and $c_{1},..,c_{n}\in \mathbb{C}$ s.t. $$\sum_{i,j=1}^{n}c_{i}\overline{c_{j}}\Phi(g_{j}^{-1}g_{i})\geq 0$$
 ---
 ##### Properties
 
@@ -12,7 +13,7 @@
 > 2. $\left| \Phi(x) \right|\leq \Phi(e)$ for all $x\in G$.
 > 3. $\left| \Phi(x)-\Phi(y) \right|^{2}\leq 2\Phi(e)\text{Re}(\Phi(e)-\Phi(x  ^{-1}y))$ for every $x,y\in G$.
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. Let $x\in G$ and $c\in \mathbb{C}$. Then, by using $x_{1}=e$, $x_{2}=x$, $c_{1}=1$,$c_{2}=c$, $$0\leq (1+\left| c \right| ^{2})\Phi(e)+c\Phi(x)+\overline{c}\Phi(x ^{-1})$$Consider:
 > 	- from $c=0$, $\Phi(e)\geq 0$.
