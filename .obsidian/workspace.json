@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Functional Analysis/Positive Definite Function on a Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -315,12 +315,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3ab85941795e0a81",
+  "active": "6520d92749af936f",
   "lastOpenFiles": [
-    "Functional Analysis/Pontryagin Dual.md",
-    "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Haar Measure.md",
+    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Convolution.md",
     "Functional Analysis/LCA Group.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
