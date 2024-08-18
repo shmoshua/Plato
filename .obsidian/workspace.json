@@ -103,9 +103,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "e50656243051fb85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/LCA Group.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -142,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Positive Definite Function on a Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -239,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md"
+                "file": "Functional Analysis/LCA Group.md"
               }
             }
           }
@@ -303,20 +315,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9844d448636a0f99",
+  "active": "4d6976cb98cbb0ef",
   "lastOpenFiles": [
-    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Functional Analysis/Haar Measure.md",
-    "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Convolution.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Haar Measure.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Convolution.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Lp Space.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Measure Theory/Product Measure.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
     "Measure Theory/Continuous Function with Compact Support.md",
     "Functional Analysis/Continuous function Vanishing at Infinity.md",
     "Lie Group/Locally Compact Group.md",

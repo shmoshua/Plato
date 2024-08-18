@@ -13,12 +13,12 @@
 > 2. $\left| \Phi(x) \right|\leq \Phi(e)$ for all $x\in G$.
 > 3. $\left| \Phi(x)-\Phi(y) \right|^{2}\leq 2\Phi(e)\text{Re}(\Phi(e)-\Phi(x  ^{-1}y))$ for every $x,y\in G$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $x\in G$ and $c\in \mathbb{C}$. Then, by using $x_{1}=e$, $x_{2}=x$, $c_{1}=1$,$c_{2}=c$, $$0\leq (1+\left| c \right| ^{2})\Phi(e)+c\Phi(x)+\overline{c}\Phi(x ^{-1})$$Consider:
-> 	- from $c=0$, $\Phi(e)\geq 0$.
-> 	- from $c=1$, $2\Phi(e)+\Phi(x)+\Phi(x ^{-1})\geq 0$ and $\Phi(x)+\Phi(x ^{-1})\in \mathbb{R}$.
-> 	- from $c=i$, $2\Phi(e)+i\Phi(x)-i\Phi(x ^{-1})\geq 0$ and $i(\Phi(x)-\Phi(x ^{-1}))\in \mathbb{R}$
+> 	1. from $c=0$, $\Phi(e)\geq 0$.
+> 	2. from $c=1$, $2\Phi(e)+\Phi(x)+\Phi(x ^{-1})\geq 0$ and $\Phi(x)+\Phi(x ^{-1})\in \mathbb{R}$.
+> 	3. from $c=i$, $2\Phi(e)+i\Phi(x)-i\Phi(x ^{-1})\geq 0$ and $i(\Phi(x)-\Phi(x ^{-1}))\in \mathbb{R}$
 > 	
 > 	Therefore, $\Phi(x)+\Phi(x ^{-1})=\overline{\Phi(x)}+\overline{\Phi(x ^{-1})}$ and $-\Phi(x)+\Phi(x ^{-1})=\overline{\Phi(x)}-\overline{\Phi(x ^{-1})}$. This implies that $\overline{\Phi(x)}=\Phi(x ^{-1})$. 
 > 2. Plugging 1 into above, $$(1+\left| c \right| ^{2})\Phi(e)+2\text{Re}(c\Phi(x))\geq0\quad \forall c\in C$$By choosing $c\in \mathbb{T}$ s.t. $c\Phi(x)=-\left| \Phi(x) \right|$, we get that $2\Phi(e)-2\left| \Phi(x) \right|\geq 0$.
