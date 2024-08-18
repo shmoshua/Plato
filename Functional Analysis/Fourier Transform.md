@@ -49,7 +49,7 @@
 > 1. if $f\in L^1(G)\cap B(G)$, then $\widehat{f}\in L^1(\widehat{G})$.
 > 2. for every $f\in L^1(G)\cap B(G)$, $$f(x)=\int_{\widehat{G}}^{} \widehat{f}(\chi)(x,\chi) \, d\omega(\chi),\quad \forall x\in G $$
 
-> [!proof]-
+> [!proof]+
 > Let $f\in L^1(G)\cap B(G)$. Then, from Proposition 2, there exists a measure $\mu_{f}\in \mathcal{M}(\widehat{G})$ s.t. $$f(x)=\int_{\widehat{G}}^{} (x,\chi) \, d\mu_{f}(\chi) $$Therefore, the inversion theorem amounts to proving $\mu_{f}=\widehat{f}d\omega$, i.e. showing that $\mu_{f} / \widehat{f}$ is a Haar measure.
 > 1. **Claim 1: for $f,g\in L^1(G)\cap B(G)$, $\widehat{f}d\mu_{g}=\widehat{g}d\mu_{f}$.**
 >    Let $h\in L^1(G)$. Then, $$(h*f)(e)=\int_{G}^{} h(x)f(x ^{-1}) \, d\lambda(x)=\int_{G}^{} h(x)\int_{\widehat{G}}^{} \overline{(x,\chi)} \, d\mu_{f}(\chi)  \, d\lambda(x)=  \int_{\widehat{G}}^{} \widehat{h}(\chi) \, d\mu_{f}(\chi) $$By replacing $h$ by $h*g$, we have: $$\int_{\widehat{G}}^{} \widehat{h}(\chi)\widehat{g}(\chi) \, d\mu_{f}(\chi)=((h*g)*f)(e)=((h*f)*g)(e)=\int_{\widehat{G}}^{} \widehat{h}(\chi)\widehat{f}(\chi) \, d\mu_{g}(\chi)  $$As $h$ is arbitrary and $A(\widehat{G})\subseteq C_{0}(\widehat{G})$ is dense, we have the claim.

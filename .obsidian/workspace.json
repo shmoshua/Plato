@@ -117,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Convolution.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/LCA Group.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -315,17 +315,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4d6976cb98cbb0ef",
+  "active": "3ab85941795e0a81",
   "lastOpenFiles": [
     "Functional Analysis/Positive Definite Function on a Group.md",
+    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/LCA Group.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/Convolution.md",
     "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Uniformly Continuous Function.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Functional Analysis/Convolution.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/C*-Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Analysis/Lp Space.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Measure Theory/Product Measure.md",

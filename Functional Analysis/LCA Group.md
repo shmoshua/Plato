@@ -25,7 +25,7 @@
 
 ^074e1a
 
-> [!proof]+
+> [!proof]-
 > As $\Phi$ is positive definite, from [[Positive Definite Function on a Group|Lemma 1]], we know that $\Phi(e)\in \mathbb{R}$. If $\Phi(e)\leq 0$, then $\Phi \equiv 0$ by the same Lemma and we may take the zero measure. Therefore, we may assume that $\Phi(e)>0$. Modulo rescaling, we may assume that $\Phi(e)=1$. 
 > 
 > Now let: $$T_{\Phi}(f):=\int_{G}^{} f(x)\Phi(x) \, d\lambda(x),\quad \forall f\in L^1(G) $$where $\lambda$ is a fixed Haar measure on $G$. As $\Phi\in L^\infty(G)$ with $\|\Phi\|_{\infty}=\Phi(e)=1$, this is a continuous linear functional with $\|T_{\Phi}\|\leq\|\Phi\|_{\infty}=1$. Indeed,$$\left| T_{\Phi}(f) \right| \leq \int_{G}^{} \left| f(x) \right| \left| \Phi(x) \right|  \, d\lambda(x)\leq\|f\|_{1}\|\Phi\|_{\infty} $$Let us define a Hermitian form on $L^1(G)$, $[f,g]:=T_{\Phi}(f*g^{*})$. Then, 
