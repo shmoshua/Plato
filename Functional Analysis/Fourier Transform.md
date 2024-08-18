@@ -72,10 +72,10 @@
 - **Corollary (after Pontryagin Duality)**: For $f\in L^1(G)\cap C(G)$ s.t. $\widehat{f}\in L^1(\widehat{G})$. Then,$$f(x)=\int_{\widehat{G}}^{} \widehat{f}(\gamma)(x,\gamma) \, d\omega(\gamma),\quad \forall x\in G $$as $f$ and $x\mapsto \int_{\widehat{G}}^{} \widehat{f}(\gamma)(x,\gamma) \, d\omega(\gamma)$ are continuous and coincide almost everywhere.
 ---
 > [!lemma] Theorem 4 (Plancherel)
-> Let $G$ be an LCA group and $\lambda$ and $\omega$ be the Haar measures of $G$ and $\widehat{G}$ respectively, s.t. the inversion theorem holds. Then, 
+> Let $G$ be an LCA group and $\lambda$ and $\omega$ be the Haar measures of $G$ and $\widehat{G}$ respectively s.t. the inversion theorem holds. Then, 
 > 1. for $f\in L^1(G)\cap L^2(G)$, $\widehat{f}\in L^2(\widehat{G})$ with $\|f\|_{2}^{2}=\|\widehat{f}\|^2_{2}$.
 > 2. 
-> the Fourier transform $$L^1(G)\cap B(G)\to C_{0}(\widehat{G}),\quad f\mapsto \widehat{f}$$extends to an isometric isomorphism $L^2(G)\to L^2(\widehat{G})$, i.e. 
+> the Fourier transform $$L^1(G)\cap B(G)\to C_{0}(\widehat{G}),\quad f\mapsto \widehat{f}$$extends to an isometric isomorphism $L^2(G)\to L^2(\widehat{G})$.
 
 > [!proof]-
 > We have:

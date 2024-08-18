@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "source",
                 "source": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "preview",
                 "source": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -315,16 +315,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4d6976cb98cbb0ef",
+  "active": "3ab85941795e0a81",
   "lastOpenFiles": [
-    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Haar Measure.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
+    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Convolution.md",
     "Functional Analysis/LCA Group.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Uniformly Continuous Function.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/C*-Algebra.md",
     "Analysis/Lp Space.md",
     "Functional Analysis/Guelfand Spectrum.md",

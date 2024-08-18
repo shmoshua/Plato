@@ -78,18 +78,19 @@
 ---
 > [!lemma] Lemma 6
 > We have:
-> 1. $N(C,\varepsilon)$ defined as above forms a basis of neighborhood of $e\in G$. 
-> 2. $\{ gN(C,r):g\in G ,C\subseteq \widehat{G}\text{ compact},r>0\}$ defines a basis of the topology of $G$.
+> 1. $N(C,\varepsilon)$ defined as above forms a local base of $e\in G$. 
+> 2. $\{ gN(C,r):g\in G ,C\subseteq \widehat{G}\text{ compact},r>0\}$ defines a base of $G$.
 > 3. For $0<r<1$ and $x_{1}\neq x_{2}\in G$, there exists $\chi\in \widehat{G}$ with $\left| \chi(x_{1})-\chi(x_{2}) \right|\geq r$
 
 > [!proof]-
-> Let $e\in V \subseteq G$ be an open neighborhood of the identity. By continuity, there exists an open neighborhood $W\subseteq G$ s.t. $WW^{-1}\subseteq V$. 
+> We have:
+> 1. Let $e\in V \subseteq G$ be an open neighborhood of the identity. By continuity, there exists an open neighborhood $W\subseteq G$ s.t. $WW^{-1}\subseteq V$. 
 > 
-> By [[Locally Compact Hausdorff Space|Lemma 1]], wlog we may assume that $\overline{W}$ is compact. Let $\psi:=\chi_{W}*\chi_{W}^{*}$. Then, $\psi\in L^1(G)\cap P(G)$. Through Fourier inversion, we have that $\psi ^{-1}\in L^1(\widehat{G})$. Therefore, by the regularity of the Haar measure, there exists a compact $C\subseteq \widehat{G}$ s.t. $$\int_{\widehat{G} \backslash C} \left| \widehat{\psi}(\chi) \right|   \, d\omega(\chi)<\varepsilon $$Then, for all $x\in N(C,\varepsilon)$, it holds that: $$\left| \psi(x)-\psi(e) \right| \leq \int_{\widehat{G}}^{} \left| \widehat{\psi}(\chi) \right| \left| (x,\chi)-1 \right|  \, d\omega(\chi)\leq \int_{C}^{} +\int_{\widehat{G} \backslash C}\leq \varepsilon\|\widehat{\psi}\|_{1}+2\varepsilon=:\varepsilon'  $$
+> 	By [[Locally Compact Hausdorff Space|Lemma 1]], wlog we may assume that $\overline{W}$ is compact. Let $\psi:=\chi_{W}*\chi_{W}^{*}$. Then, $\psi\in L^1(G)\cap P(G)$. Through [[Fourier Transform|Fourier inversion]], we have that $\widehat{\psi}\in L^1(\widehat{G})$. Therefore, by the regularity of the Haar measure $\omega$ on $\widehat{G}$, there exists a compact $C\subseteq \widehat{G}$ s.t. $$\int_{\widehat{G} \backslash C} \left| \widehat{\psi}(\chi) \right|   \, d\omega(\chi)<\varepsilon $$Then, for all $x\in N(C,\varepsilon)$, it holds that: $$\left| \psi(x)-\psi(e) \right| \leq \int_{\widehat{G}}^{} \left| \widehat{\psi}(\chi) \right| \left| (x,\chi)-1 \right|  \, d\omega(\chi)\leq \int_{C}^{} +\int_{\widehat{G} \backslash C}\leq \varepsilon\|\widehat{\psi}\|_{1}+2\varepsilon=:\varepsilon'  $$
 > 
-> Therefore, $$\psi(e)=\int_{G}^{} \left| \chi_{W}(x) \right| ^{2}\, d\lambda(x)=\lambda(W)>0 $$Therefore, $$N(C,r)\subseteq \text{supp }\psi \subseteq WW^{-1}\subseteq V$$
-> 
-> For 3, as $x_{1}x_{2}^{-1}\neq e$, there exists $C\subseteq \widehat{G}$ compact with $x_{1}x_{2}^{-1}\notin N(C,r)$. Therefore, there exists $\chi\in C$ s.t. $$\left| \chi(x_{1})-\chi(x_{2}) \right| =\left| \chi(x_{2})\right|\left|\chi(x_{1}x_{2}^{-1})-1 \right|\geq r $$
+> 	Further, $\psi(e)=\int_{G}^{} \left| \chi_{W}(x) \right| ^{2}\, d\lambda(x)=\lambda(W)>0$ by [[Haar Measure|Lemma 2.1]]. Therefore, by choosing a small $0<\varepsilon<\lambda(W)$,$$N(C,\varepsilon)\subseteq \text{supp }\psi \subseteq WW^{-1}\subseteq V$$
+> 2. Holds by translating by $g$.
+> 3. As $x_{1}x_{2}^{-1}\neq e$, there exists $C\subseteq \widehat{G}$ compact with $x_{1}x_{2}^{-1}\notin N(C,r)$. Therefore, there exists $\chi\in C$ s.t. $$\left| \chi(x_{1})-\chi(x_{2}) \right| =\left| \chi(x_{2})\right|\left|\chi(x_{1}x_{2}^{-1})-1 \right|\geq r $$
 ---
 > [!lemma] Theorem 7 (Pontryagin Duality Theorem)
 > Let $G$ be an LCA group. Then, $$\alpha:G\to \widehat{\widehat{G}},\quad x\mapsto (\gamma\mapsto\gamma(x))$$is a topological group isomorphism.
