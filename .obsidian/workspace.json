@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Regular Ideal.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "mode": "preview",
                 "source": true
               }
@@ -209,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Jacobson Radical.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Jacobson Radical.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Jacobson Radical.md"
+                "file": "Functional Analysis/Positive Operator.md"
               }
             }
           }
@@ -340,10 +340,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6520d92749af936f",
+  "active": "b519d8570318cc7e",
   "lastOpenFiles": [
-    "Functional Analysis/Spectrum.md",
     "Functional Analysis/Regular Ideal.md",
+    "Functional Analysis/Jacobson Radical.md",
+    "Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Dual Space.md",
@@ -367,7 +368,6 @@
     "Measure Theory/Uniformly Summable Function.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Topology/Quotient Topology.md",
-    "Functional Analysis/Convolution.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
