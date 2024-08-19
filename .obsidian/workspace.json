@@ -197,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -328,14 +328,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4316c752ce23eff7",
+  "active": "6520d92749af936f",
   "lastOpenFiles": [
+    "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Haar Measure.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Functional Analysis/LCA Group.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Functional Analysis/Convolution.md",
     "Functional Analysis/Guelfand Spectrum.md",
