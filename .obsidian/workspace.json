@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Dual Space.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": true
               }
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Dual Space.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Dual Space.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Dual Space.md"
+                "file": "Functional Analysis/Guelfand Spectrum.md"
               }
             }
           }
@@ -342,8 +342,10 @@
   },
   "active": "b519d8570318cc7e",
   "lastOpenFiles": [
-    "Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/Regular Ideal.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Dual Space.md",
+    "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Spectrum.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/LCA Group.md",
@@ -351,14 +353,12 @@
     "Functional Analysis/Pontryagin Dual.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Algebra/Linear Algebra/Vector Space.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Guelfand Topology.md",
     "Functional Analysis/Guelfand Transform.md",
-    "Functional Analysis/Regular Ideal.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
