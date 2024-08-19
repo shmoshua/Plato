@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Jacobson Radical.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "mode": "preview",
                 "source": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Positive Operator.md",
+                "file": "Algebra/Unitary Representation.md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -209,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Positive Operator.md",
+                "file": "Analysis/Hilbert Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Positive Operator.md",
+                "file": "Analysis/Hilbert Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Positive Operator.md"
+                "file": "Analysis/Hilbert Space.md"
               }
             }
           }
@@ -340,18 +340,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b519d8570318cc7e",
+  "active": "4316c752ce23eff7",
   "lastOpenFiles": [
-    "Functional Analysis/Regular Ideal.md",
+    "Functional Analysis/Hilbert Space Operator.md",
+    "Algebra/Unitary Representation.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Jacobson Radical.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Positive Operator.md",
+    "Functional Analysis/Regular Ideal.md",
     "Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Dual Space.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/LCA Group.md",
-    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Algebra/Linear Algebra/Vector Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
@@ -365,9 +368,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Functional Analysis/Haar Measure.md",
-    "Measure Theory/Uniformly Summable Function.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
-    "Topology/Quotient Topology.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
