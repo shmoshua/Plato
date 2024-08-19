@@ -122,14 +122,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/C*-Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,14 +178,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 7.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -251,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Spectrum.md"
+                "file": "Functional Analysis/Pontryagin Dual.md"
               }
             }
           }
@@ -315,24 +315,27 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6520d92749af936f",
+  "active": "9844d448636a0f99",
   "lastOpenFiles": [
-    "Functional Analysis/Guelfand Transform.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Guelfand Spectrum.md",
-    "Functional Analysis/Regular Ideal.md",
-    "Functional Analysis/Spectrum.md",
+    "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Guelfand Topology.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Spectrum.md",
+    "Functional Analysis/Guelfand Transform.md",
+    "Functional Analysis/Regular Ideal.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
     "Courses/Functional Analysis II/Exercise Sheet 4.md",
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Haar Measure.md",
     "Functional Analysis/LCA Group.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Functional Analysis/C*-Algebra.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Measure Theory/Uniformly Summable Function.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Topology/Quotient Topology.md",
@@ -340,9 +343,6 @@
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Analysis/Lp Space.md",
     "Measure Theory/Product Measure.md",
-    "Measure Theory/Continuous Function with Compact Support.md",
-    "Functional Analysis/Continuous function Vanishing at Infinity.md",
-    "Lie Group/Locally Compact Group.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

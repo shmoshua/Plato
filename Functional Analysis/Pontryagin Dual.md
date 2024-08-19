@@ -125,7 +125,7 @@
 > Let $\varphi\in C^\infty_{00}(\mathbb{R})$. Then, $\varphi*\chi\in C^\infty(\mathbb{R})$. Therefore, $\chi\in C^\infty$ and as $\chi(t+h)=\chi(t)\chi(h)$, $$\chi'(t)=\lim_{ h \to 0 }  \frac{\chi(t+h)-\chi(t)}{h}=\lim_{ h \to 0 }  \frac{\chi(t)\chi(h)-\chi(t)}{h}=\chi(t)\chi'(0)$$
 
 > [!proof]- Proof (Using Pontryagin Duality)
-> Let $\widehat{\mathbb{R}}$ is a LCA group. Then, for a continuous homomorphism $\chi:\mathbb{R}\to \mathbb{T}$, then $\alpha(x)(\chi)=\chi(ax)$. Therefore, $\widehat{\mathbb{R}}$ is a LCH $\mathbb{R}$-vector space, which is finite. Therefore, $\widehat{\mathbb{R}}\cong \mathbb{R}^n$. Then, $$\mathbb{R}\cong \widehat{\widehat{\mathbb{R}}}\cong \widehat{\mathbb{R}^n}\cong \widehat{\mathbb{R}}^n\cong \mathbb{R}^{n^{2}}$$Therefore, $\widehat{\mathbb{R}}\cong \mathbb{R}$.
+> Let $\widehat{\mathbb{R}}$ is a LCA group. Then, for a continuous homomorphism $\chi:\mathbb{R}\to \mathbb{T}$, then $\alpha(x)(\chi)=\chi(ax)$. Therefore, $\widehat{\mathbb{R}}$ is a LCH $\mathbb{R}$-vector space, which is finite dimensional. Therefore, $\widehat{\mathbb{R}}\cong \mathbb{R}^n$. Then, $$\mathbb{R}\cong \widehat{\widehat{\mathbb{R}}}\cong \widehat{\mathbb{R}^n}\cong \widehat{\mathbb{R}}^n\cong \mathbb{R}^{n^{2}}$$Therefore, $\widehat{\mathbb{R}}\cong \mathbb{R}$.
 ---
 > [!h] Example 3
 > Let $G_{1},G_{2}$ be LCA groups. Then,
