@@ -161,6 +161,18 @@
             }
           },
           {
+            "id": "b519d8570318cc7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Dual Space.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "4316c752ce23eff7",
             "type": "leaf",
             "state": {
@@ -197,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -226,7 +238,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "outer reg",
+                "query": "hahn banach",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -243,7 +255,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -263,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Dual Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Dual Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Spectrum.md"
+                "file": "Functional Analysis/Dual Space.md"
               }
             }
           }
@@ -327,14 +340,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6520d92749af936f",
+  "active": "b519d8570318cc7e",
   "lastOpenFiles": [
+    "Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/Dual Space.md",
+    "Functional Analysis/Spectrum.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/LCA Group.md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Functional Analysis/Spectrum.md",
     "Algebra/Linear Algebra/Vector Space.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
@@ -353,8 +368,6 @@
     "Functional Analysis/Uniformly Continuous Function.md",
     "Topology/Quotient Topology.md",
     "Functional Analysis/Convolution.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
-    "Analysis/Lp Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
