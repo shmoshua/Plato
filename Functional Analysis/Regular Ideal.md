@@ -36,7 +36,7 @@
 > Therefore, by [[Axiom of Choice|Zorn's lemma]], $\mathcal{L}$ has a maximal element where the regularity follows from Proposition 2.
 ---
 > [!lemma] Corollary 5
-> Let $A$ be a unital commutative [[Banach Algebra]]. If $x\in A$ is not invertible, then $x$ is contained in a maximal ideal.
+> Let $A$ be a unital commutative [[Banach Algebra]]. If $x\in A$ is not invertible, then $x$ is contained in a regular maximal ideal.
 
 > [!proof]-
 > Let $e\in A$ be the identity and consider the proper ideal $Ax$. Then, $e\notin Ax$, so $Ax$ is regular. Therefore, by Lemma 4, there exists a maximal regular ideal $I$ s.t. $x\in I.$

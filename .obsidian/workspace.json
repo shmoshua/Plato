@@ -122,14 +122,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
+                "file": "Functional Analysis/Regular Ideal.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Functional Analysis/Jacobson Radical.md",
                 "mode": "preview",
                 "source": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Functional Analysis/Regular Ideal.md",
                 "mode": "preview",
                 "source": true
               }
@@ -209,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Functional Analysis/Jacobson Radical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Functional Analysis/Jacobson Radical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md"
+                "file": "Functional Analysis/Jacobson Radical.md"
               }
             }
           }
@@ -340,18 +340,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b519d8570318cc7e",
+  "active": "6520d92749af936f",
   "lastOpenFiles": [
+    "Functional Analysis/Spectrum.md",
     "Functional Analysis/Regular Ideal.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Dual Space.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Functional Analysis/Spectrum.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/LCA Group.md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Pontryagin Dual.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Algebra/Linear Algebra/Vector Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
