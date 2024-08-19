@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Functional Analysis/Positive Definite Function on a Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Functional Analysis/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md"
+                "file": "Functional Analysis/Fourier Transform.md"
               }
             }
           }
@@ -330,32 +330,32 @@
   },
   "active": "6520d92749af936f",
   "lastOpenFiles": [
-    "Functional Analysis/Haar Measure.md",
-    "Analysis/Lp Space.md",
     "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
+    "Functional Analysis/Haar Measure.md",
+    "Functional Analysis/Convolution.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Functional Analysis/Guelfand Spectrum.md",
+    "Analysis/Lp Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Fourier Transform (Rn).md",
-    "Functional Analysis/Convolution.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Algebra/Unitary Representation.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Jacobson Radical.md",
     "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Regular Ideal.md",
     "Functional Analysis/Spectrum.md",
     "Functional Analysis/Dual Space.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Algebra/Linear Algebra/Vector Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Guelfand Topology.md",
-    "Functional Analysis/Guelfand Transform.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
