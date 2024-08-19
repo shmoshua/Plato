@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -209,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -238,7 +238,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hahn banach",
+                "query": "uniformly continuous",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Hilbert Space.md"
+                "file": "Functional Analysis/LCA Group.md"
               }
             }
           }
@@ -340,10 +340,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4316c752ce23eff7",
+  "active": "b519d8570318cc7e",
   "lastOpenFiles": [
+    "Functional Analysis/Haar Measure.md",
+    "Analysis/Fourier Transform (Rn).md",
+    "Functional Analysis/Convolution.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Algebra/Unitary Representation.md",
+    "Analysis/Hilbert Space.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Jacobson Radical.md",
     "Functional Analysis/C*-Algebra.md",
@@ -364,10 +368,6 @@
     "Guelfand Topology.md",
     "Functional Analysis/Guelfand Transform.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
-    "Courses/Functional Analysis II/Exercise Sheet 4.md",
-    "Courses/Functional Analysis II/Exercise Sheet 3.md",
-    "Courses/Functional Analysis II/Exercise Sheet 2.md",
-    "Functional Analysis/Haar Measure.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
