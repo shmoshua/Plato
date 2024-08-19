@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -178,7 +178,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "mode": "preview",
                 "source": true
               }
@@ -197,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -264,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +304,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md"
+                "file": "Functional Analysis/Pontryagin Dual.md"
               }
             }
           }
@@ -328,23 +328,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6520d92749af936f",
+  "active": "4316c752ce23eff7",
   "lastOpenFiles": [
-    "Functional Analysis/LCA Group.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
     "Functional Analysis/Haar Measure.md",
-    "Functional Analysis/Convolution.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
+    "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/LCA Group.md",
     "Functional Analysis/Pontryagin Dual.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
+    "Functional Analysis/Convolution.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Lp Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Fourier Transform (Rn).md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Algebra/Unitary Representation.md",
     "Functional Analysis/Jacobson Radical.md",
-    "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Regular Ideal.md",
     "Functional Analysis/Spectrum.md",
