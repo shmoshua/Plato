@@ -173,6 +173,18 @@
             }
           },
           {
+            "id": "80013a35d355be4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/LCA Group.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "7dfbede0d9b9261d",
             "type": "leaf",
             "state": {
@@ -183,9 +195,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "d784c66258dea4fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Linear Algebra/Vector Space.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -251,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md",
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Pontryagin Dual.md"
+                "file": "Courses/Functional Analysis II/Exercise Sheet 9.md"
               }
             }
           }
@@ -315,10 +339,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9844d448636a0f99",
+  "active": "7dfbede0d9b9261d",
   "lastOpenFiles": [
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Pontryagin Dual.md",
+    "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Spectrum.md",
+    "Algebra/Linear Algebra/Vector Space.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
@@ -327,7 +354,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Guelfand Topology.md",
     "Functional Analysis/Fourier Transform.md",
-    "Functional Analysis/Spectrum.md",
     "Functional Analysis/Guelfand Transform.md",
     "Functional Analysis/Regular Ideal.md",
     "Courses/Functional Analysis II/Exercise Sheet 5.md",
@@ -335,14 +361,12 @@
     "Courses/Functional Analysis II/Exercise Sheet 3.md",
     "Courses/Functional Analysis II/Exercise Sheet 2.md",
     "Functional Analysis/Haar Measure.md",
-    "Functional Analysis/LCA Group.md",
     "Measure Theory/Uniformly Summable Function.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Topology/Quotient Topology.md",
     "Functional Analysis/Convolution.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Analysis/Lp Space.md",
-    "Measure Theory/Product Measure.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
