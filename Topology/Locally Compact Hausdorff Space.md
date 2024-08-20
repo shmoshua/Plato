@@ -40,11 +40,12 @@
 > 1. $Y\subseteq X$ is locally compact.
 > 2. $Y$ is open in $\overline{Y}$.
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. (1=>2): let $x\in Y$. as $Y$ is LCH, there exists an open neighborhood $U\subseteq Y$ of $x$ that is relatively compact. Since $U$ is open in $Y$, there exists $V\subseteq X$ open in $X$ s.t. $V\cap A=U$. 
+> 1. (1=>2): let $x\in Y$. as $Y$ is LCH, there exists an open neighborhood $U\subseteq Y$ of $x$ that is relatively compact. Since $U$ is open in $Y$, there exists $V\subseteq X$ open in $X$ s.t. $V\cap Y=U$. 
 >    
->    We claim that $\overline{Y}$
+>    We claim that $\overline{Y}\cap V\subseteq Y$, which proves that $Y$ is open in $\overline{Y}$. https://uregina.ca/~franklam/Math535/Math535_1010.pdf
+>
 
 ---
 > [!lemma] Proposition 1

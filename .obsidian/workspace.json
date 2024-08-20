@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Lie Group/Locally Compact Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Lie Group/Locally Compact Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -89,7 +89,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Lie Group/Locally Compact Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Lie Group/Locally Compact Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md"
+                "file": "Lie Group/Locally Compact Group.md"
               }
             }
           }
@@ -222,10 +222,13 @@
   "active": "d5016a279eb6e729",
   "lastOpenFiles": [
     "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Locally Compact Space.md",
-    "Topology/Compact-Open Topology.md",
+    "Lie Group/Locally Compact Group.md",
     "Lie Group/Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Functional Analysis/Unitary Linear Map.md",
+    "Topology/Homeomorphism.md",
+    "Topology/Locally Compact Space.md",
+    "Topology/Compact-Open Topology.md",
     "Algebra/General Linear Group.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/C-Algebra.md",
@@ -244,9 +247,6 @@
     "Algebra/p-adic Integer.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Spectrum.md",
-    "Functional Analysis/Hilbert Space Operator.md",
-    "Functional Analysis/Guelfand Transform.md",
-    "Guelfand Topology.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
