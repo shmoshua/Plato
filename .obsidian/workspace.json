@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Universal Cover.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Covering Space.md"
+                "file": "Lie Group/Local Homomorphism.md"
               }
             }
           }
@@ -243,13 +243,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "431d426f6b4b0649",
+  "active": "634fbe54f662ee50",
   "lastOpenFiles": [
-    "Topology/Universal Cover.md",
-    "Topology/Locally Compact Hausdorff Space.md",
-    "Topology/Covering Space.md",
-    "Lie Group/Locally Compact Group.md",
     "Topology/Fundamental Group.md",
+    "Lie Group/Local Homomorphism.md",
+    "Topology/Universal Cover.md",
+    "Topology/Covering Space.md",
+    "Topology/Locally Compact Hausdorff Space.md",
+    "Lie Group/Locally Compact Group.md",
     "Lie Group/Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Connected Space.md",
@@ -270,7 +271,6 @@
     "Analysis/Hilbert Space.md",
     "Functional Analysis/LCA Group.md",
     "Functional Analysis/Pontryagin Dual.md",
-    "Functional Analysis/Haar Measure.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

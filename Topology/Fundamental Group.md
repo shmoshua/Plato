@@ -60,6 +60,17 @@
 ![[Contractible Space#^87c949|p]]
 
 ---
+> [!lemma] Theorem (Topological Group)
+> Let $G$ be a [[topological group]] that is path-connected, locally path-connected and semi-locally simply connected. Then,
+> 1. $\pi_{1}(G,e)$ is abelian.
+
+> [!proof]+
+> We have by the [[Universal Cover|universal covering theorem]] that there exists a universal cover $p:H\to G$. Now we use the well-known fact that if $H$ and $G$ are path-connected and locally path-connected then for any $e^{*}\in p ^{-1}(e)$, we can endow $H$ with a topological group structure s.t. $e^{*}$ becomes the identity and $p$ becomes a group homomorphism.
+> 
+> Then, $\text{ker }p$ becomes a discrete normal subgroup of $H$. As $H$ is connected, by [[Topological Group|Connected group Proposition 1]], $\text{ker }p\subseteq Z(G)$. 
+> 
+> The statement then follows by the fact that $\text{ker }p\cong \pi_{1}(G,e)$.
+---
 ##### Examples
 > [!h] Example 1
 > We have that:
