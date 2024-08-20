@@ -142,7 +142,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "dc4688c0afd36d86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "35d33de2dc5e875b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/LCA Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -197,7 +221,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -264,7 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -304,7 +328,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md"
+                "file": "Functional Analysis/LCA Group.md"
               }
             }
           }
@@ -328,15 +352,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6520d92749af936f",
+  "active": "35d33de2dc5e875b",
   "lastOpenFiles": [
+    "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
     "Functional Analysis/Fourier Transform.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Haar Measure.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
     "Functional Analysis/Convolution.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Lp Space.md",
@@ -354,8 +380,6 @@
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Courses/Functional Analysis II/Exercise Sheet 6.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Guelfand Topology.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
