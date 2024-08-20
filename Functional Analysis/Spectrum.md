@@ -70,7 +70,7 @@
 >    
 >    Now, if $\text{Sp}_{A}(x)= \varnothing$, then $\rho_{A}(x)=\mathbb{C}$ and $f:\mathbb{C}\to \mathbb{C}$ is a bounded holomorphic function. Therefore, $f$ is constant from Liouville and from $\left| f(\lambda) \right|<2\|\ell\| /\left| \lambda \right|$, we have $f=0$. Hence, $\ell((\lambda e-x)^{-1})=0$ for all $\ell\in A^{*}$, which means $(\lambda e-x)^{-1}=0$ which is a contradiction.
 >  4. **Show that $\|x\|_{\text{sp}}=r_{A}(x)$**:
-> 	   From 1, we have $\|x\|_{\text{sp}}< r_{A}(x)$. We proceed to show $r_{A}(x)\leq\|x\|_{\text{sp}}$. As $\text{Sp}_{A}(x)\subseteq B_{\leq \|x\|_{\text{sp}}}(0)$, we have that: 
+> 	   From 1, we have $\|x\|_{\text{sp}}\leq r_{A}(x)$. We proceed to show $r_{A}(x)\leq\|x\|_{\text{sp}}$. As $\text{Sp}_{A}(x)\subseteq B_{\leq \|x\|_{\text{sp}}}(0)$, we have that: 
 > 	    
 > 	   For $0<\left| \xi \right|< \frac{1}{\|x\|_{\text{sp}}}$, define $g(\xi):=f( 1/ \xi)$. Therefore, $g$ on $\left\{  \xi\in \mathbb{C}:0<\left| \xi \right|< \frac{1}{\|x\|_{\text{sp}}}  \right\}$ is holomorphic. Therefore, for $0<\left| \xi \right|< \frac{1}{r_{A}(x)}$, we get an absolutely convergent power series: $$g(\xi)=f\left(  \xi ^{-1} \right)=\sum_{n=0}^{\infty}\xi^{n+1}\ell(x^n)$$Therefore, $\lim_{ \xi \to 0 }g(\xi)=0$ and by the removable singularity theorem, $g$ is holomorphic and $\sum_{n=0}^{\infty}\xi^{n+1}\ell(x^n)$ is the Taylor expansion at $0$. 
 > 	   

@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Spectrum.md",
                 "mode": "source",
                 "source": true
               }
@@ -142,7 +142,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "26d231c3d41b80d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3a331c8232874679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Spectrum.md",
                 "mode": "preview",
                 "source": true
               }
@@ -154,7 +178,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "file": "Functional Analysis/Jacobson Radical.md",
                 "mode": "preview",
                 "source": true
               }
@@ -221,7 +245,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -288,7 +312,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +329,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/LCA Group.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,7 +352,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/LCA Group.md"
+                "file": "Functional Analysis/Guelfand Spectrum.md"
               }
             }
           }
@@ -352,15 +376,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "35d33de2dc5e875b",
+  "active": "26d231c3d41b80d4",
   "lastOpenFiles": [
-    "Functional Analysis/Fourier Transform.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Guelfand Topology.md",
+    "Functional Analysis/Jacobson Radical.md",
     "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Regular Ideal.md",
+    "Functional Analysis/Spectrum.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Convolution.md",
@@ -370,16 +398,12 @@
     "Analysis/Fourier Transform (Rn).md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Algebra/Unitary Representation.md",
-    "Functional Analysis/Jacobson Radical.md",
     "Functional Analysis/Positive Operator.md",
-    "Functional Analysis/Regular Ideal.md",
-    "Functional Analysis/Spectrum.md",
     "Functional Analysis/Dual Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Algebra/Linear Algebra/Vector Space.md",
     "Courses/Functional Analysis II/Exercise Sheet 8.md",
     "Courses/Functional Analysis II/Exercise Sheet 7.md",
-    "Courses/Functional Analysis II/Exercise Sheet 6.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
