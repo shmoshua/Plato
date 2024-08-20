@@ -74,7 +74,7 @@
 > [!lemma] Theorem 4 (Plancherel)
 > Let $G$ be an LCA group and $\lambda$ and $\omega$ be the Haar measures of $G$ and $\widehat{G}$ respectively s.t. the inversion theorem holds. Then, 
 > 1. for $f\in L^1(G)\cap L^2(G)$, $\widehat{f}\in L^2(\widehat{G})$ with $\|f\|_{2}^{2}=\|\widehat{f}\|^2_{2}$.
-> 2. the Fourier transform $L^1(G)\cap L^2(G)\to C_{0}(\widehat{G}),f\mapsto \widehat{f}$ extends to an isometric isomorphism $L^2(G)\to L^2(\widehat{G})$.
+> 2. the Fourier transform $L^1(G)\cap L^2(G)\to L^2(\widehat{G}),f\mapsto \widehat{f}$ extends to an isometric isomorphism $L^2(G)\to L^2(\widehat{G})$.
 
 > [!proof]-
 > We have:

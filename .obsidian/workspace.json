@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -221,7 +221,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -288,7 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,7 +328,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md"
+                "file": "Functional Analysis/LCA Group.md"
               }
             }
           }
@@ -352,17 +352,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6520d92749af936f",
+  "active": "35d33de2dc5e875b",
   "lastOpenFiles": [
+    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
-    "Functional Analysis/Fourier Transform.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Haar Measure.md",
-    "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Functional Analysis/Convolution.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Lp Space.md",
