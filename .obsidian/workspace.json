@@ -31,9 +31,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "634fbe54f662ee50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Universal Cover.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -46,7 +58,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Lie Group/Topological Group.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2db17509632dfe4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -58,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Locally Compact Group.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -70,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Hausdorff Space.md",
+                "file": "Topology/Universal Cover.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,14 +106,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Compact Space.md",
+                "file": "Lie Group/Indefinite Orthogonal Group.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Locally Compact Group.md",
+                "file": "Topology/Covering Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Locally Compact Group.md",
+                "file": "Topology/Covering Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Locally Compact Group.md"
+                "file": "Topology/Covering Space.md"
               }
             }
           }
@@ -219,15 +243,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d5016a279eb6e729",
+  "active": "431d426f6b4b0649",
   "lastOpenFiles": [
+    "Topology/Universal Cover.md",
     "Topology/Locally Compact Hausdorff Space.md",
+    "Topology/Covering Space.md",
     "Lie Group/Locally Compact Group.md",
+    "Topology/Fundamental Group.md",
     "Lie Group/Topological Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Topology/Connected Space.md",
     "Functional Analysis/Unitary Linear Map.md",
-    "Topology/Homeomorphism.md",
+    "Lie Group/Indefinite Orthogonal Group.md",
+    "Algebra/Special Orthogonal Groups.md",
+    "Algebra/Orthogonal Group.md",
     "Topology/Locally Compact Space.md",
+    "Topology/Homeomorphism.md",
     "Topology/Compact-Open Topology.md",
     "Algebra/General Linear Group.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -240,13 +271,6 @@
     "Functional Analysis/LCA Group.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Haar Measure.md",
-    "Functional Analysis/Jacobson Radical.md",
-    "Functional Analysis/Convolution.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Functional Analysis/Regular Ideal.md",
-    "Algebra/p-adic Integer.md",
-    "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Spectrum.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

@@ -5,7 +5,7 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Universal Cover Theorem)
-> Let $X$ be a [[Path-Connected Space|path-connected]], locally path-connected, [[semi-locally simply connected space]]. Then, 
+>  Let $X$ be a [[Path-Connected Space|path-connected]], locally path-connected, [[semi-locally simply connected space]]. Then,  
 > 1. $X$ has a universal cover $f:Y\to X$.
 > 2. if $f_{1},f_{2}$ are universal covers, for any $x\in X$ and $y_{1}\in Y_{1}$ and $y_{2}\in Y_{2}$ with $f_{1}(y_{1})=x$ and $f_{2}(y_{2})=x$, there exists a unique homeomorphism $\varphi:Y_{1}\to Y_{2}$ s.t. $\varphi(y_{1})=y_{2}$ and $f_{2}\circ\varphi=f_{1}$.
 > 3. given $x_{0}\in X$, there exists an action $\pi_{1}(X,x_{0}) \curvearrowright Y$ s.t. $Y / \pi_{1}(X,x_{0})$ is homeomorphic to $X$.

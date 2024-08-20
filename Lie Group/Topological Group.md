@@ -41,6 +41,7 @@
 >    Since $\overline{G_{0}}$ is connected, by the maximality, $\overline{G_{0}}=G_{0}$ and $G_{0}$ is closed.
 >    
 >    Lastly, consider the conjugation: $$\begin{array}{cccc} {\varphi_{g}:}&{G}&\to&{G}\\&{x} &\mapsto & {gxg^{-1}} \end{array}{}$$which is continuous. Therefore, $\varphi_{g}(G_{0})$ is connected but as $\varphi_{g}(e)=e$, $\varphi_{g}(G_{0})\subseteq G_{0}$. This proves that $G_{0}\unlhd G$.
+- **Remark**: $G / G_{0}=:\pi_{0}(G)$ is a group.
 ---
 > [!lemma] Lemma 3 (Local Base of e)
 > Let $G$ be a topological group with identity $e$.
