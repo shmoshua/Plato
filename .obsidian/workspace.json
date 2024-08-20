@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -173,12 +173,12 @@
             }
           },
           {
-            "id": "3a331c8232874679",
+            "id": "16329737381e065f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Algebra/Unitary Representation.md",
                 "mode": "preview",
                 "source": true
               }
@@ -220,7 +220,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -286,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Functional Analysis/Guelfand Spectrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -326,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md"
+                "file": "Functional Analysis/Guelfand Spectrum.md"
               }
             }
           }
@@ -350,31 +351,31 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d83c49dceb02495b",
+  "active": "26d231c3d41b80d4",
   "lastOpenFiles": [
-    "Functional Analysis/Haar Measure.md",
-    "Functional Analysis/Pontryagin Dual.md",
+    "Algebra/Unitary Representation.md",
+    "Functional Analysis/Resolution of Identity.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Hilbert Space.md",
+    "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
+    "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Jacobson Radical.md",
     "Functional Analysis/Convolution.md",
-    "Functional Analysis/LCA Group.md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Regular Ideal.md",
     "Algebra/p-adic Integer.md",
     "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Spectrum.md",
     "Functional Analysis/Hilbert Space Operator.md",
-    "Functional Analysis/Resolution of Identity.md",
     "Functional Analysis/Guelfand Transform.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Guelfand Topology.md",
     "Functional Analysis/Uniformly Continuous Function.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
     "Analysis/Lp Space.md",
     "Analysis/Fourier Transform (Rn).md",
-    "Algebra/Unitary Representation.md",
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Dual Space.md",
     "Functional Analysis/Bounded Linear Map.md",

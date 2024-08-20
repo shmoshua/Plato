@@ -65,7 +65,7 @@
 > We have that:
 > 1. from [[Quotient Topology|Quotient Lemma]].
 > 2. from the fact that $H^{\bot}$ is a kernel.
-> 3. Let $\chi\in \widehat{G / H}$. Then, for $h\in H$, $\chi(p(h))=\chi(H)=1$ and $\chi\in H^{\bot}$. Further, $p^{*}$ is continuous. Lastly, $$p^{*}(\chi_{1}\chi_{2})=\chi_{1}\chi_{2}\circ \varphi=p^{*}(\chi_{1})p^{*}(\chi_{2})$$
+> 3. Let $\chi\in \widehat{G / H}$. Then, for $h\in H$, $\chi(p(h))=\chi(H)=1$ and $\chi \circ p\in H^{\bot}$. Further, $p^{*}$ is continuous. Lastly, $$p^{*}(\chi_{1}\chi_{2})=\chi_{1}\chi_{2}\circ \varphi=p^{*}(\chi_{1})p^{*}(\chi_{2})$$
 > 4. We show that: $$\overline{q}^{*}:H\to (H^{\bot})^{\bot}=\{ x\in G:\chi(x)=1,\forall \chi\in H^{\bot} \}$$We claim that $(H^{\bot})^{\bot}=H$. Assume $x\in (H^{\bot})^{\bot}$ but not in $H$. Then, $p(x)\neq e$ in $G / H$. However, there exists $\chi\in \widehat{G / H}$ with $\chi(p(x))\neq 1$ by [[Pontryagin Dual|Lemma 6]]. But $\chi \circ p\in H^{\bot}$, which is a contradiction.
 >    
 >    Conversely, assume $x\in H$. Then, $\chi(x)=1$ for all $\chi\in H^{\bot}$ and $x\in (H^{\bot})^{\bot}$. Therefore, by Proposition 2, $\overline{q}$ is an isomorphism.
