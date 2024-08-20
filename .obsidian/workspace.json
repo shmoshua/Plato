@@ -142,7 +142,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+                "file": "Functional Analysis/C*-Algebra.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c46891519fdb9033",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Resolution of Identity.md",
                 "mode": "preview",
                 "source": true
               }
@@ -245,7 +257,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -378,21 +390,23 @@
   },
   "active": "26d231c3d41b80d4",
   "lastOpenFiles": [
+    "Functional Analysis/Spectrum.md",
+    "Functional Analysis/Resolution of Identity.md",
+    "Functional Analysis/Guelfand Transform.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Jacobson Radical.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Guelfand Topology.md",
-    "Functional Analysis/Jacobson Radical.md",
     "Functional Analysis/LCA Group.md",
     "Functional Analysis/Regular Ideal.md",
-    "Functional Analysis/Spectrum.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Haar Measure.md",
     "Functional Analysis/Convolution.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Analysis/Lp Space.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Fourier Transform (Rn).md",
@@ -402,8 +416,6 @@
     "Functional Analysis/Dual Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Algebra/Linear Algebra/Vector Space.md",
-    "Courses/Functional Analysis II/Exercise Sheet 8.md",
-    "Courses/Functional Analysis II/Exercise Sheet 7.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
