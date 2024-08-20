@@ -122,14 +122,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Regular Ideal.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Functional Analysis/Positive Definite Function on a Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,43 +178,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "dc4688c0afd36d86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Jacobson Radical.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "35d33de2dc5e875b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/LCA Group.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6520d92749af936f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -256,8 +220,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -303,8 +266,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -324,7 +286,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Functional Analysis/Positive Definite Function on a Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -341,7 +303,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md",
+                "file": "Functional Analysis/Positive Definite Function on a Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -364,7 +326,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum.md"
+                "file": "Functional Analysis/Positive Definite Function on a Group.md"
               }
             }
           }
@@ -388,34 +350,34 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "26d231c3d41b80d4",
+  "active": "d83c49dceb02495b",
   "lastOpenFiles": [
+    "Functional Analysis/Haar Measure.md",
+    "Functional Analysis/Pontryagin Dual.md",
+    "Analysis/Hilbert Space.md",
+    "Functional Analysis/Jacobson Radical.md",
+    "Functional Analysis/Convolution.md",
+    "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Functional Analysis/Regular Ideal.md",
+    "Algebra/p-adic Integer.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Spectrum.md",
+    "Functional Analysis/Hilbert Space Operator.md",
     "Functional Analysis/Resolution of Identity.md",
     "Functional Analysis/Guelfand Transform.md",
-    "Functional Analysis/C*-Algebra.md",
-    "Functional Analysis/Jacobson Radical.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Guelfand Topology.md",
-    "Functional Analysis/LCA Group.md",
-    "Functional Analysis/Regular Ideal.md",
     "Functional Analysis/Uniformly Continuous Function.md",
-    "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Courses/Functional Analysis II/Exercise Sheet 9.md",
-    "Functional Analysis/Haar Measure.md",
-    "Functional Analysis/Convolution.md",
     "Analysis/Lp Space.md",
-    "Analysis/Hilbert Space.md",
     "Analysis/Fourier Transform (Rn).md",
-    "Functional Analysis/Hilbert Space Operator.md",
     "Algebra/Unitary Representation.md",
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Dual Space.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Algebra/Linear Algebra/Vector Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
