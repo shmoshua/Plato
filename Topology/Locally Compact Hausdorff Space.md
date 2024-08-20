@@ -35,8 +35,17 @@
 >    
 >    Second, we claim that $$f^{-1}([\lambda,\infty))=\bigcap_{s<\lambda}^{}\overline{V_{s}}$$To see this, note that if $f(x)\geq\lambda$, then for all $s<\lambda$, $x\in V_{s}$ and hence $s\in \overline{V_{s}}$  so $x$ belongs to the intersection on the right. On the other hand, if $x$ belongs to the intersection on the right, then for all $r<\lambda$, there is an $s>r$ so that $x\in V_{s}$. Since $\overline{V_{s}}\subseteq V_{r}$, $x\in V_{r}$ and $f(x)\geq r$. Since $r<\lambda$ is arbitrary, $f(x)\geq\lambda$.
 ---
-> [!lemma] Lemma 4
-> Let $X$ be locally compact Hausdorff. Then, $Y\subseteq X$ is locally compact if and only if $Y$ is open in $\overline{Y}$.
+> [!lemma] Lemma 3
+> Let $X$ be locally compact Hausdorff. Then, TFAE:
+> 1. $Y\subseteq X$ is locally compact.
+> 2. $Y$ is open in $\overline{Y}$.
+
+> [!proof]+
+> We have:
+> 1. (1=>2): let $x\in Y$. as $Y$ is LCH, there exists an open neighborhood $U\subseteq Y$ of $x$ that is relatively compact. Since $U$ is open in $Y$, there exists $V\subseteq X$ open in $X$ s.t. $V\cap A=U$. 
+>    
+>    We claim that $\overline{Y}$
+
 ---
 > [!lemma] Proposition 1
 > For a compact set $K\subseteq X$, let: $$\|f\|_{K}=\sup_{x\in K}\left| f(x) \right| $$define a [[Seminorm|semi-norm]] on $C(X)$. Then, 

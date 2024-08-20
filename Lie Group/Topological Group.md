@@ -124,9 +124,9 @@
 > 2. Assume $X$ is locally connected. 
 ---
 > [!h] Example 4
-> If $M$ is a [[smooth manifold]], for any $r\in \mathbb{N}$, and $$\text{Diff}^r:=\{ f\in \text{Homeo}(M):f,f^{-1}\in C^r(M) \}$$
-> 1. $\text{Diff}^r$ is a topological group.
-> 2. $\text{Diff}^r$ is not a closed subgroup of $\text{Homeo}(M)$.
+> If $M$ is a [[smooth manifold]], for any $r\in \mathbb{N}$, and $$\text{Diff}^r(M):=\{ f\in \text{Homeo}(M):f,f^{-1}\in C^r(M) \}$$
+> 1. $\text{Diff}^r(M)$ is a topological group.
+> 2. $\text{Diff}^r(M)$ is not a closed subgroup of $\text{Homeo}(M)$.
 ---
 > [!h] Example 5
 > Let $(X,d)$ be a [[proper metric space]]. Then, the group of isometries $\text{Iso}(X)$ is a topological group w.r.t the compact-open topology.
