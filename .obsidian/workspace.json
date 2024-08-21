@@ -87,18 +87,6 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "8f973b79d93044d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Indefinite Orthogonal Group.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ]
       }
@@ -234,8 +222,11 @@
   "active": "d83c49dceb02495b",
   "lastOpenFiles": [
     "Lie Group/Topological Group.md",
-    "Measure Theory/Complex Measure.md",
     "Functional Analysis/Haar Measure.md",
+    "Topology/Universal Cover.md",
+    "Topology/One-Point Compactification.md",
+    "Lie Group/Indefinite Orthogonal Group.md",
+    "Measure Theory/Complex Measure.md",
     "Lie Group/Local Homomorphism.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Lie Group.md",
@@ -245,12 +236,10 @@
     "Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Functional Analysis/Seminorm.md",
-    "Topology/Universal Cover.md",
     "Topology/Covering Space.md",
     "Topology/Fundamental Group.md",
     "Topology/Connected Space.md",
     "Functional Analysis/Unitary Linear Map.md",
-    "Lie Group/Indefinite Orthogonal Group.md",
     "Algebra/Special Orthogonal Groups.md",
     "Algebra/Orthogonal Group.md",
     "Topology/Locally Compact Space.md",
@@ -258,7 +247,6 @@
     "Topology/Compact-Open Topology.md",
     "Algebra/General Linear Group.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/C-Algebra.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
