@@ -6,9 +6,10 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Extension of Local Homomorphisms)
-> If $G$ is a [[Simply Connected Space|simply connected]] topological group, then any local homomorphism $\varphi:U\to H$ extends uniquely to a continuous homomorphism $G\to H$.
+> If $G$ is a [[Simply Connected Space|simply connected]] topological group, 
+> 1. any local homomorphism $\varphi:U\to H$ extends uniquely to a continuous group homomorphism $G\to H$.
 
-> [!proof]- 
+> [!proof]+
 > We have:
 > 1. **Defining the extension**:
 >    As $G$ is simply connected, it is path-connected. For all $g\in G$, let $\gamma:[0,1]\to G$ be a path from $e$ to $g$. Choose a partition of $[0,1]$ into subintervals $I_{k}:=[t_{k-1},t_{k}]$, for $k=1,\dots,n$, with the property that if $s,t\in I_{k}$, $\gamma(s)^{-1}\gamma(t)\in U$.

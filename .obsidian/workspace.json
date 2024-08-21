@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": true
               }
@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "uniformly continuous",
+                "query": "hahn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +159,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md"
+                "file": "Functional Analysis/Bounded Linear Map.md"
               }
             }
           }
@@ -243,12 +244,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "634fbe54f662ee50",
+  "active": "431d426f6b4b0649",
   "lastOpenFiles": [
-    "Topology/Fundamental Group.md",
-    "Lie Group/Local Homomorphism.md",
     "Topology/Universal Cover.md",
+    "Functional Analysis/Bounded Linear Map.md",
     "Topology/Covering Space.md",
+    "Lie Group/Local Homomorphism.md",
+    "Topology/Fundamental Group.md",
     "Topology/Locally Compact Hausdorff Space.md",
     "Lie Group/Locally Compact Group.md",
     "Lie Group/Topological Group.md",
@@ -270,7 +272,6 @@
     "Functional Analysis/Resolution of Identity.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/LCA Group.md",
-    "Functional Analysis/Pontryagin Dual.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
