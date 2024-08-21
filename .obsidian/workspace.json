@@ -100,8 +100,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Topological Group.md"
+                "file": "Functional Analysis/Haar Measure.md"
               }
             }
           }
@@ -232,13 +231,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2db17509632dfe4a",
+  "active": "d83c49dceb02495b",
   "lastOpenFiles": [
+    "Lie Group/Topological Group.md",
     "Measure Theory/Complex Measure.md",
     "Functional Analysis/Haar Measure.md",
     "Lie Group/Local Homomorphism.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Lie Group/Topological Group.md",
     "Lie Group/Lie Group.md",
     "Topology/Simply Connected Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
