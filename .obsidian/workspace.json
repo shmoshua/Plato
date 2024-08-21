@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Complex Measure.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Lie Group/Topological Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Lie Group/Topological Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md"
+                "file": "Lie Group/Topological Group.md"
               }
             }
           }
@@ -231,11 +232,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d5016a279eb6e729",
+  "active": "2db17509632dfe4a",
   "lastOpenFiles": [
     "Measure Theory/Complex Measure.md",
-    "Lie Group/Local Homomorphism.md",
     "Functional Analysis/Haar Measure.md",
+    "Lie Group/Local Homomorphism.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Topological Group.md",
     "Lie Group/Lie Group.md",
