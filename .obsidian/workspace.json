@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "source",
                 "source": true
               }
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Lie Group/Homogeneous Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Algebra/Group Action.md",
                 "mode": "preview",
                 "source": true
               }
@@ -88,7 +88,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Algebra/Group Action.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Algebra/Group Action.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md"
+                "file": "Algebra/Group Action.md"
               }
             }
           }
@@ -219,16 +220,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d83c49dceb02495b",
+  "active": "2db17509632dfe4a",
   "lastOpenFiles": [
-    "Lie Group/Topological Group.md",
+    "Topology/Quotient Topology.md",
     "Functional Analysis/Haar Measure.md",
+    "Lie Group/Topological Group.md",
+    "Lie Group/Homogeneous Space.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Universal Cover.md",
     "Topology/One-Point Compactification.md",
     "Lie Group/Indefinite Orthogonal Group.md",
     "Measure Theory/Complex Measure.md",
     "Lie Group/Local Homomorphism.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Lie Group.md",
     "Topology/Simply Connected Space.md",
     "Topology/Locally Compact Hausdorff Space.md",
@@ -245,8 +248,6 @@
     "Topology/Locally Compact Space.md",
     "Topology/Homeomorphism.md",
     "Topology/Compact-Open Topology.md",
-    "Algebra/General Linear Group.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

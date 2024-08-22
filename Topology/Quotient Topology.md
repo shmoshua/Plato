@@ -23,8 +23,8 @@
 
 > [!proof]-
 > We have:
-> 1. let $U\subseteq G$ open. Then, we have: $$\pi ^{-1}(\pi(U))=\bigcup_{g\in H}^{}Ug$$Indeed, $x\in \pi ^{-1}(\pi(U))$ is equivalent to $xH=yH$ for some $y\in U$. This happens if and only if $y^{-1}x=h$, i.e. $x=yh$ for some $h\in H$ and $y\in U$. As $\bigcup_{g\in H}^{}Ug$ is open, $\pi(U)$ is open.
-> 2. Let $U$ be open in $G / H$. Let $g\in G$ and $xH\in G / H$ s.t. $gxH\in U$. Then, as $\pi(U)$ is open in $G$ by definition and $gx\in \pi(U)$, there exists $V\ni g,W\ni x$ s.t. $VW\subseteq \pi(U)$. As $\pi$ is open, $\pi(W)$ is open and for any $g'\in V$ and $yH\in \pi(W)$, there exists $z\in W$ s.t. $\pi(z)=yH$. Therefore, $$g'yH=g'zH\subseteq U$$
+> 1. let $U\subseteq G$ open. Then, we have: $p ^{-1}(p(U))=\bigcup_{g\in H}^{}Ug$. Indeed, $x\in p ^{-1}(p(U))$ is equivalent to $xH=yH$ for some $y\in U$. This happens if and only if $y^{-1}x=h$, i.e. $x=yh$ for some $h\in H$ and $y\in U$. As $\bigcup_{g\in H}^{}Ug$ is open, $p(U)$ is open.
+> 2. Let $U$ be open in $G / H$. Let $g\in G$ and $xH\in G / H$ s.t. $gxH\in U$. Then, as $p ^{-1}(U)$ is open in $G$ by definition and $gx\in p(U)$, there exists $V\ni g,W\ni x$ s.t. $VW\subseteq p(U)$. As $p$ is open, $p(W)$ is open and for any $g'\in V$ and $yH\in p(W)$, there exists $z\in W$ s.t. $p(z)=yH$. Therefore, $$g'yH=g'zH\subseteq U$$
 > 3. If $G / H$ is Hausdorff, then $H$ is closed as a point. Therefore, $H\subseteq G$ is closed. 
 >    
 >    Conversely, if $H$ is closed, it suffices to show that the diagonal $\Delta:G / H\to G / H\times G / H$ is closed. Then, let: $$U:=(G / H \times G / H )\backslash\text{im}(\Delta)=\{ (p(g),p(g')):g^{-1}g'\notin H \}$$As $p$ is open, $q:(x,y)\mapsto(p(x),p(y))$ is open. Therefore, $q^{-1}(U)=\{ (g,g'):g^{-1}g'\notin H \}$ is open as $(x,y)\mapsto x ^{-1}y$ is continuous and $H^c$ is open. It follows that $U=q(q^{-1}(U))$ is open as $q$ is open. 

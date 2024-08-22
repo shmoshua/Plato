@@ -45,7 +45,8 @@
 > 2. the modular function is given by $$\Delta_{G}:G\to \mathbb{R}^\times_{>0}, \quad g\mapsto \text{mod}_{G}(\alpha_{g^{-1}})$$where $\alpha_{g}\in \text{Inn}(G)\subseteq \text{Aut}(G)$ is the [[inner automorphism]] $x\mapsto gxg^{-1}$.
 > 3. $\Delta_{G}$ is continuous.
 > 4. for any $f\in C_{00}(G)$, $$\int_{G}^{} f(x ^{-1} )\Delta_{G}(x ^{-1}) \, d\mu(x)=\int_{G}^{} f(x ) \, d\mu(x)  $$
-> 5. $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$, if $G$ is abelian (or compact).
+> 5. if $G$ is abelian, $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$.
+> 6. if $G$ is compact, $G$ is unimodular, i.e. $\Delta_{G}\equiv 1$.
 
 > [!proof]-
 > We have:
@@ -68,6 +69,7 @@
 > 	  
 > 	 Therefore, there exists $c\in \mathbb{R}_{>0}$ s.t. $\int_{G}^{} f(x ^{-1})\Delta_{G}(x ^{-1}) \, d\mu(x)=c\int_{G}^{} f(y) \, d\mu(y)$. We claim that $c=1$. Consider $g(x):=f(x ^{-1})\Delta_{G}(x ^{-1} )$. Then, $$\begin{align}\int_{G}^{} f(x) \, d\mu(x)&=\int_{G}^{} f(x)\Delta_{G}(x)\Delta_{G}(x ^{-1})\, d\mu(x)\\&=\int_{G}^{} g(x ^{-1})\Delta_{G}(x ^{-1})\, d\mu(x)\\&=c\int_{G}^{} f(x ^{-1})\Delta_{G}(x ^{-1}) \, dx\\&=c^{2}\int_{G}^{} f(x) \, d\mu(x)  \end{align} $$Therefore, $c^{2}=1$ and $c=1$.
 > 5. We have that for any $g\in G$, $$\Delta_{G}(g)\int_{G}^{} f \, d\mu=\int_{G}^{} f(xg^{-1}) \, d\mu(x)=\int_{G}^{} f(g^{-1}x) \, d\mu(x)=\int_{G}^{} f \, d\mu    $$and $\Delta_{G}(g)=1$.
+> 6. If $G$ is compact, as $\Delta_{G}$ is continuous, $\Delta_{G}(G)$ is a compact subgroup of $\mathbb{R}_{>0}$. The only compact subgroup is $\{ 1 \}$.
 ---
 > [!lemma] Proposition 4
 > For an LCH group $G$, the following are equivalent:
