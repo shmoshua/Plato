@@ -25,7 +25,8 @@
 - **Remark**: From this isomorphism, for a [[Lie group]] $G$, we denote its Lie algebra $\mathfrak{g}$ as $\text{T}_{e}G$ with the bracket induced from $\Gamma(\text{T}G)$.
 ---
 > [!lemma] Proposition 2 (Lie Group homomorphism induces a Lie Algebra homomorphism)
-> Let $G,H$ be [[Lie Group|Lie groups]] with $\varphi:G\to H$ a Lie group homomorphism. Then, for the corresponding Lie algebras $\mathfrak{g}$ and $\mathfrak{h}$, the [[differential]] $d_{e}\varphi:\mathfrak{g}\to \mathfrak{h}$ is a Lie algebra homomorphism.
+> Let $G,H$ be [[Lie Group|Lie groups]] with $\varphi:G\to H$ a Lie group homomorphism. Then, for the corresponding Lie algebras $\mathfrak{g}$ and $\mathfrak{h}$, 
+> 1. the [[differential]] $d_{e}\varphi:\mathfrak{g}\to \mathfrak{h}$ is a Lie algebra homomorphism.
 
 > [!proof]-
 > We need to show that for $v_{1},v_{2}\in \mathfrak{g}$, $d_{e}\varphi[v_{1},v_{2}]=[d_{e}\varphi (v_{1}),d_{e}\varphi(v_{2})]$. 

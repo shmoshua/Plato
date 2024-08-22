@@ -67,6 +67,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "6814f8e371a522d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/General Linear Group.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 4
@@ -124,8 +136,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/General Linear Group.md"
+                "file": "Representation Theory/Lie Algebra.md"
               }
             }
           }
@@ -255,14 +266,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "433dc0055429bd9a",
+  "active": "d876d77cb7124331",
   "lastOpenFiles": [
-    "Differential Geometry/Vector Field.md",
-    "Representation Theory/Lie Algebra.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Differential Geometry/Differential.md",
-    "Differential Geometry/Tangent Space.md",
+    "Algebra/General Linear Group.md",
     "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Differential.md",
+    "Representation Theory/Lie Algebra.md",
+    "Differential Geometry/Vector Field.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Derivation.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Differential Geometry/Tangent Bundle.md",
@@ -274,7 +286,6 @@
     "Lie Group/Locally Compact Group.md",
     "Lie Group/Homogeneous Space.md",
     "Topology/Paracompact Space.md",
-    "Algebra/General Linear Group.md",
     "Lie Group/Lattice.md",
     "Lie Group/Topological Group.md",
     "Functional Analysis/Haar Measure.md",
