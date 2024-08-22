@@ -1,7 +1,8 @@
 #Definition #LieGroups 
 
 > [!definition]
-> Let $G$ be a [[topological group]] and $X$ a [[topological space]]. $X$ is a ***homogeneous space*** of $G$ if there exists a continuous [[Group Action|transitive group action]] $G\times X\to X$.
+> Let $G$ be a [[topological group]].
+> 1. A [[topological space]] $X$ is a ***homogeneous space*** of $G$ if there exists a continuous [[Group Action|transitive group action]] $G\times X\to X$.
 - **Related definition**: A subset $Y\subseteq X$ is ***$G$-invariant***  if for any $y\in Y$ and $g\in G$, $gy\in Y$.
 - **Notation**: The [[Orbit and Stablizer|stabilizer]] $\text{Stab}_{G}(x)$ is also denoted as $G_{x}$.
 ---
@@ -9,11 +10,11 @@
 
 > [!lemma] Proposition 1
 > For a topological group $G$ and its homogeneous space $X$, 
-> 1. for $x\in X$, the $G$-map: $$G/G_{x}\to X,\quad g\cdot G_{x}\mapsto gx$$is an isomorphism of $G$-spaces, i.e. it is a bijection that commutes with the action. ($G_{x}$ denotes the stabilizer $\text{Stab}_{G}(x):=\{ g\in G:gx=x \}$)
+> 1. for $x\in X$, the $G$-map: $$G/G_{x}\to X,\quad g\cdot G_{x}\mapsto gx$$is an isomorphism of $G$-spaces, i.e. it is a bijection that commutes with the action.
 > 2. the $G$-map is continuous.
 > 3. If $G$ is LCH and second countable and $X$ is LCH, then the bijection is a homeomorphism.
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. Let $\Psi$ denote the map. Then, it is well-defined: for $g,h\in G$ with $g^{-1}h\in G_{x}$, $$hx=g g^{-1}hx=gx$$Then, it is injective as if $gx=hx$, then $g^{-1}hx=x$ and $g^{-1}h\in G_{x}$. Therefore, $gG_{x}=hG_{x}$. It is surjective as for any $y\in X$, there exists $g\in G$ s.t. $gx=y$ by transitivity of the group action.
 >    
