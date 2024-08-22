@@ -89,7 +89,7 @@
 
 ^9177e0
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1.  There exists $U\ni e$ open symmetric s.t. $\overline{U}$ is compact. Let $K:=\text{supp}(f)\cdot \overline{U}$ which is compact. Let $x,y\in G$ s.t. $x ^{-1}y\in U$ but $x\notin K$. Then, $y\in xU$ and from $x\notin K$,  $xU\cap \text{supp}(f)=\varnothing$. Therefore, $f(x)=f(y)=0$. Similarly if $y\notin K$, we also have by symmetry $f(x)=f(y)=0$ and the statement holds. 
 >    

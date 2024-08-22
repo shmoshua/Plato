@@ -15,7 +15,7 @@
 > 3. If $G$ is LCH and second countable and $X$ is LCH, then the bijection is a homeomorphism.
 > 4. for $x,y\in X$, $G_{x}\cong G_{y}$ as groups. In particular, they are conjugated subgroups.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $\Psi$ denote the map. Then, it is well-defined: for $g,h\in G$ with $g^{-1}h\in G_{x}$, $$hx=g g^{-1}hx=gx$$Then, it is injective as if $gx=hx$, then $g^{-1}hx=x$ and $g^{-1}h\in G_{x}$. Therefore, $gG_{x}=hG_{x}$. It is surjective as for any $y\in X$, there exists $g\in G$ s.t. $gx=y$ by transitivity of the group action.
 >    
