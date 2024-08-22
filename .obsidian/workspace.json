@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Functional Analysis/LCA Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -161,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Lie Group/Lattice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Lie Group/Lattice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md"
+                "file": "Lie Group/Lattice.md"
               }
             }
           }
@@ -292,12 +292,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "249fa2def2e760fe",
+  "active": "438e597f0a772d61",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
-    "Functional Analysis/Haar Measure.md",
     "Lie Group/Homogeneous Space.md",
     "Lie Group/Lattice.md",
+    "Functional Analysis/Unimodular Group.md",
+    "Functional Analysis/Haar Measure.md",
+    "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
+    "Topology/Quotient Topology.md",
     "Topology/Homeomorphism.md",
     "Algebra/Group Action.md",
     "Algebra/General Linear Group.md",
@@ -317,9 +320,6 @@
     "Topology/Simply Connected Space.md",
     "Lie Group/Locally Compact Group.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
-    "Functional Analysis/Seminorm.md",
-    "Topology/Covering Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
