@@ -8,7 +8,7 @@
 - **Remark**: $\Gamma(\text{T}M)$ is also a $C^\infty(M)$-module, where $(fX)(p)=f(p)X_{p}$ for all $p\in M$.
 - **Remark**: Let $(U,\varphi)$ be a chart of $M$ at $p\in U$. Then, any vector field $X$ can be represented as: $$X_{p}:=\sum_{i=1}^{m}X^i(p)\left.  \frac{ \partial  }{ \partial x^i } \right|_{p}  $$on $U$ with $X^i:U\to \mathbb{R}$. We also write: $X=\sum_{i=1}^{m}X^i\cdot \frac{ \partial  }{ \partial x^i }$.
 - **Related definition**: Let $\varphi\in C^\infty(M,N)$. $X\in \Gamma(\text{T}M)$ and $Y\in \Gamma(\text{T}N)$ are ***$\varphi$-related*** if $d\varphi \circ X=Y\circ\varphi$ i.e. $Y_{\varphi(p)}=d_{p}\varphi(X_{p})$ for all $p\in M$.
-- **Related definition**: Let $G$ be a [[Lie group]] and $M$ a smooth manifold with a smooth [[group action]] $G\times M\to M$, i.e. $L:G\to \text{Diffeo}(M)$. Then, $X\in \Gamma(\text{T}M)$ is ***$G$-invariant*** if for all $g\in G$, $(L_{g})_{*}X=X$ per Proposition 2.
+- **Related definition**: Let $G$ be a [[Lie group]] and $M$ a smooth manifold with a smooth [[group action]] $G\times M\to M$, i.e. $L:G\to \text{Diffeo}(M)$. Then, $X\in \Gamma(\text{T}M)$ is ***$G$-invariant*** if for all $g\in G$, $(L_{g})_{*}X=X$.
 ---
 ##### Properties
 

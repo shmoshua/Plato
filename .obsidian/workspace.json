@@ -69,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Algebra/General Linear Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Vector Field.md",
+                "file": "Algebra/General Linear Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Vector Field.md"
+                "file": "Algebra/General Linear Group.md"
               }
             }
           }
@@ -257,17 +257,17 @@
   },
   "active": "433dc0055429bd9a",
   "lastOpenFiles": [
-    "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Vector Field.md",
     "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Derivation.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Tangent Space.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Differential Geometry/Derivation.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Submersion.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Ring of Germs.md",
-    "Differential Geometry/Tangent Space.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Rank.md",
