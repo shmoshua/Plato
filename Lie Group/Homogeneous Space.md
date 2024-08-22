@@ -13,6 +13,7 @@
 > 1. for $x\in X$, the $G$-map: $$G/G_{x}\to X,\quad g\cdot G_{x}\mapsto gx$$is an isomorphism of $G$-spaces, i.e. it is a bijection that commutes with the action.
 > 2. the $G$-map is continuous.
 > 3. If $G$ is LCH and second countable and $X$ is LCH, then the bijection is a homeomorphism.
+> 4. for $x,y\in X$, $G_{x}\cong G_{y}$ as groups. In particular, they are conjugated subgroups.
 
 > [!proof]+
 > We have:
@@ -20,7 +21,8 @@
 >    
 >    Lastly, it commutes with the $G$-action as: $$h\Psi(gG_{x})=hgx=\Psi(hgG_{x})$$
 > 2. Consider $\Phi:G\to X,g\mapsto gx$, which is continuous as the group action is continuous. As $\Phi=\Psi \circ p$, $\Psi$ is continuous.
-> 3. 
+> 3. Idk
+> 4. By transitivity let $h\in G$ s.t. $hx=y$. We then have that: $$G_{x}\to G_{y},\quad g\mapsto hgh^{-1}$$We have that: $hghy=hgx=hx=y$.
 ---
 > [!lemma] Lemma 2
 > Let $G$ be a topological group, $X$ a topological space and $\mu:G\times X\to X$ a continuous transitive group action. Then,

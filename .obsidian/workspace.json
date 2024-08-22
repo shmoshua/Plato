@@ -55,9 +55,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "438e597f0a772d61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/General Linear Group.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -77,7 +89,7 @@
             }
           },
           {
-            "id": "2db17509632dfe4a",
+            "id": "249fa2def2e760fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -89,12 +101,24 @@
             }
           },
           {
+            "id": "2db17509632dfe4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Homeomorphism.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "2b785080d95a4b75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,13 +130,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/C*-Algebra.md",
+                "file": "Algebra/Normal Subgroup.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -179,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Algebra/General Linear Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Algebra/General Linear Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md"
+                "file": "Algebra/General Linear Group.md"
               }
             }
           }
@@ -243,34 +268,34 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9345f4d0f5b14efa",
+  "active": "438e597f0a772d61",
   "lastOpenFiles": [
-    "Lie Group/Homogeneous Space.md",
+    "Algebra/General Linear Group.md",
+    "Algebra/Orbit and Stablizer.md",
+    "Algebra/Normal Subgroup.md",
     "Functional Analysis/C*-Algebra.md",
+    "Algebra/Group Action.md",
+    "Lie Group/Homogeneous Space.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Topology/Homeomorphism.md",
+    "Topology/Locally Compact Hausdorff Space.md",
     "Measure Theory/Complex Measure.md",
     "Functional Analysis/Spectrum.md",
-    "Algebra/Orbit and Stablizer.md",
-    "Algebra/Group Action.md",
     "Topology/Universal Cover.md",
     "Topology/Quotient Topology.md",
     "Functional Analysis/Haar Measure.md",
     "Lie Group/Topological Group.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/One-Point Compactification.md",
     "Lie Group/Indefinite Orthogonal Group.md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Lie Group.md",
     "Topology/Simply Connected Space.md",
-    "Topology/Locally Compact Hausdorff Space.md",
     "Lie Group/Locally Compact Group.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Functional Analysis/Seminorm.md",
     "Topology/Covering Space.md",
     "Topology/Fundamental Group.md",
-    "Topology/Connected Space.md",
-    "Functional Analysis/Unitary Linear Map.md",
-    "Algebra/Special Orthogonal Groups.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
