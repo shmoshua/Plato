@@ -135,8 +135,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "5c451d2f4d482c7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Pontryagin Dual.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -202,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Functional Analysis/Pontryagin Dual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Functional Analysis/Pontryagin Dual.md"
               }
             }
           }
@@ -266,12 +279,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d876d77cb7124331",
+  "active": "5c451d2f4d482c7c",
   "lastOpenFiles": [
+    "Functional Analysis/Fourier Transform.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Representation Theory/Lie Algebra.md",
     "Algebra/General Linear Group.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Differential.md",
-    "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Vector Field.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Tangent Space.md",
@@ -292,8 +307,6 @@
     "Measure Theory/Borel Regular Measure.md",
     "Functional Analysis/Unimodular Group.md",
     "Functional Analysis/LCA Group.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
-    "Topology/Quotient Topology.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
