@@ -94,12 +94,11 @@
 
 > [!proof]-
 > We have:
-> 1. $\varphi ^{*}(1)=1$ and: $$\varphi ^{*}(fg)=fg\circ \varphi=(f\circ \varphi)(g\circ \varphi)=\varphi ^{*}(f)\varphi ^{*}(g)$$
-> 3. if $X$ and $Y$ are $\varphi$-related, for $f\in C^\infty(N)$ and $p\in M$: $$\begin{align}\alpha X(\varphi ^{*}(f))(p)&=\alpha X(f\circ \varphi)(p)=X_{p}(f\circ \varphi)=d_{p}(f\circ \varphi)(X_{p})\\&=d_{\varphi(p)}f(d_{p}\varphi(X_{p}))=d_{\varphi(p)}f(Y_{\varphi(p)})=Y_{\varphi(p)}(f)=Y(f)(\varphi(p))=\varphi ^{*}(\alpha Y(f))(p)\end{align}$$
+> 1. if $X$ and $Y$ are $\varphi$-related, for $f\in C^\infty(N)$ and $p\in M$: $$\begin{align}\alpha X(\varphi ^{*}(f))(p)&=\alpha X(f\circ \varphi)(p)=X_{p}(f\circ \varphi)=d_{p}(f\circ \varphi)(X_{p})\\&=d_{\varphi(p)}f(d_{p}\varphi(X_{p}))=d_{\varphi(p)}f(Y_{\varphi(p)})=Y_{\varphi(p)}(f)=Y(f)(\varphi(p))=\varphi ^{*}(\alpha Y(f))(p)\end{align}$$
 >    Conversely, if the diagram commutes, $$d_{p}\varphi(X_{p})(f)=X_{p}(f\circ \varphi)=\alpha X(\varphi ^{*}(f))(p)=\varphi ^{*}(\alpha Y(f))(p)=\alpha Y(f)(\varphi(p))=Y_{\varphi(p)}(f)$$
 > 4. We have: $$\begin{align}\varphi ^{*}\circ  \alpha[X',Y']&=\varphi ^{*}\circ \alpha X'\circ \alpha Y'-\varphi ^{*}\circ \alpha Y'\circ \alpha X'\\&=\alpha X\circ \varphi ^{*}\circ \alpha Y'-\alpha Y\circ \varphi ^{*}\circ \alpha X'\\&=\alpha X\circ \alpha Y\circ \varphi ^{*}-\alpha Y\circ \alpha X\circ \varphi ^{*}\\&=\alpha[X,Y]\circ \varphi ^{*}\end{align}$$Therefore, they are $\varphi$-related by 2. 
 > 5. If $\varphi$ is a diffeomorphism, $\varphi ^{-1}\in C^\infty(N,M)$ and $(\varphi ^{-1})^{*}:C^\infty(M)\to C^\infty(N)$ s.t. $$\varphi ^{*}\circ (\varphi ^{-1})^{*}=\text{id}_{C^\infty(M)}$$The rest is immediate by 2. 
-- **Corollary**: For a diffeomorphism $\varphi\in C^\infty(M,N)$, $\varphi_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}N)$ is a Lie algebra homomorphism by 3. 
+- **Corollary**: For a diffeomorphism $\varphi\in C^\infty(M,N)$, $\varphi_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}N)$ is a Lie algebra isomorphism by 3. 
 ---
 ![[Flow#^0d5b4f]]
 ![[Flow#^35997d|p]]
