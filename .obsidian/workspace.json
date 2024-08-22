@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Homogeneous Space.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -62,13 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -88,19 +89,43 @@
             }
           },
           {
+            "id": "d6685eab847c34db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Lie Group.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "465e2709262e4f9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Submanifold.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "3c12f8bb61503bba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Lie Group/Locally Compact Group.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -167,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Paracompact Space.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Paracompact Space.md"
+                "file": "Differential Geometry/Submanifold.md"
               }
             }
           }
@@ -231,12 +256,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3c12f8bb61503bba",
+  "active": "438e597f0a772d61",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Lie Group.md",
+    "Differential Geometry/Submanifold.md",
     "Lie Group/Homogeneous Space.md",
-    "Lie Group/Topological Group.md",
+    "Lie Group/Locally Compact Group.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Topology/Paracompact Space.md",
+    "Algebra/General Linear Group.md",
     "Lie Group/Lattice.md",
+    "Lie Group/Topological Group.md",
     "Functional Analysis/Haar Measure.md",
     "Measure Theory/Borel Regular Measure.md",
     "Functional Analysis/Unimodular Group.md",
@@ -245,7 +275,6 @@
     "Topology/Quotient Topology.md",
     "Topology/Homeomorphism.md",
     "Algebra/Group Action.md",
-    "Algebra/General Linear Group.md",
     "Algebra/Orbit and Stablizer.md",
     "Algebra/Normal Subgroup.md",
     "Functional Analysis/C*-Algebra.md",
@@ -255,10 +284,6 @@
     "Topology/Universal Cover.md",
     "Topology/One-Point Compactification.md",
     "Lie Group/Indefinite Orthogonal Group.md",
-    "Lie Group/Local Homomorphism.md",
-    "Lie Group/Lie Group.md",
-    "Topology/Simply Connected Space.md",
-    "Lie Group/Locally Compact Group.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
