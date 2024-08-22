@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "mode": "preview",
                 "source": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Differential Geometry/Lie Bracket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Derivation.md"
+                "file": "Differential Geometry/Lie Bracket.md"
               }
             }
           }
@@ -243,11 +243,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "77ada456ab92f385",
+  "active": "d83c49dceb02495b",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
     "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Derivation.md",
+    "Differential Geometry/Differential.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Submersion.md",
@@ -270,7 +271,6 @@
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Topology/Quotient Topology.md",
     "Topology/Homeomorphism.md",
-    "Algebra/Group Action.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
