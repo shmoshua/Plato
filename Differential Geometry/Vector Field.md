@@ -1,6 +1,7 @@
 #Definition #DifferentialGeometry 
 > [!definition]
-> A (smooth) ***vector field*** $X$ on a [[smooth manifold]] $M$ is a (smooth) [[Vector Bundle|section]] $X:M\to \text{T}M$ of the [[tangent bundle]], i.e. for all $p\in M$, $X_{p}\in \text{T}_{p}M$.
+> A (smooth) ***vector field*** $X$ on a [[smooth manifold]] $M$ is 
+> 1. a (smooth) [[Vector Bundle|section]] $X:M\to \text{T}M$ of the [[tangent bundle]], i.e. $X_{p}:=X(p)\in \text{T}_{p}M$ for all $p\in M$.
 
 - **Remark**: A vector field is a section of the tangent bundle and therefore, 
 	1. $\Gamma(\text{T}M)$ denotes the space of all smooth vector fields.

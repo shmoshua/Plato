@@ -31,7 +31,7 @@
 - **Corollary**: $\text{T}M$ is a smooth manifold of dimension $2m$.
 ---
 > [!lemma] Proposition 2
-> The map $\pi:\text{T}M\to M$ is a [[Immersion|submersion]].
+> The map $\pi:\text{T}M\to M$ is a [[submersion]].
 
 ^d01715
 
