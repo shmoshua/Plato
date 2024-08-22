@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -67,21 +67,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "999ff91deb696054",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Haar Measure.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -101,60 +88,12 @@
             }
           },
           {
-            "id": "8312a1481f34c3a7",
+            "id": "3c12f8bb61503bba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lattice.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "249fa2def2e760fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lie Group/Homogeneous Space.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2db17509632dfe4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/LCA Group.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2b785080d95a4b75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/General Linear Group.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2c08e55ab3750578",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Normal Subgroup.md",
+                "file": "Topology/Paracompact Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -228,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Topology/Paracompact Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lattice.md",
+                "file": "Topology/Paracompact Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -268,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lattice.md"
+                "file": "Topology/Paracompact Space.md"
               }
             }
           }
@@ -292,19 +231,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "438e597f0a772d61",
+  "active": "3c12f8bb61503bba",
   "lastOpenFiles": [
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Homogeneous Space.md",
+    "Lie Group/Topological Group.md",
     "Lie Group/Lattice.md",
-    "Functional Analysis/Unimodular Group.md",
     "Functional Analysis/Haar Measure.md",
+    "Measure Theory/Borel Regular Measure.md",
+    "Functional Analysis/Unimodular Group.md",
     "Functional Analysis/LCA Group.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Topology/Quotient Topology.md",
     "Topology/Homeomorphism.md",
     "Algebra/Group Action.md",
     "Algebra/General Linear Group.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/Orbit and Stablizer.md",
     "Algebra/Normal Subgroup.md",
     "Functional Analysis/C*-Algebra.md",
@@ -312,14 +253,12 @@
     "Measure Theory/Complex Measure.md",
     "Functional Analysis/Spectrum.md",
     "Topology/Universal Cover.md",
-    "Lie Group/Topological Group.md",
     "Topology/One-Point Compactification.md",
     "Lie Group/Indefinite Orthogonal Group.md",
     "Lie Group/Local Homomorphism.md",
     "Lie Group/Lie Group.md",
     "Topology/Simply Connected Space.md",
     "Lie Group/Locally Compact Group.md",
-    "Functional Analysis/Bounded Linear Map.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
