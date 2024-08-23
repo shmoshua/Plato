@@ -21,7 +21,7 @@
 > 1. $d_{0}\exp=\text{id}_{\mathfrak{g}}$
 > 2. there exists $0\in U\subseteq \mathfrak{g}$ open s.t. $\exp(U)\subseteq G$ is open and $\exp:U\to \exp(U)$ is a diffeomorphism.
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. Let $v\in \mathfrak{g}$ and consider $\psi(t):=\varphi(\exp(tv))$. Then, $$\psi(s+t)=\varphi(\exp((s+t)v))=\varphi(\exp(sv)\exp(tv))=\psi(s)\psi(t)$$with $\psi'(0)=d_{e}\varphi(v)$. Therefore, $$\varphi(\exp(v))=\psi(1)=\varphi_{d_{e}\varphi(v)}(1)=\exp(d_{e}\varphi(v))$$
 > 2. For any $v\in \mathfrak{g}$, $$d_{0}\exp(v)=\left. \frac{d}{dt} \right| _{t=0}\exp(tv)=\left. \frac{d}{dt} \right| _{t=0}\varphi_{v}(t)=\varphi'_{v}(0)=v$$
@@ -67,7 +67,8 @@
 > [!h] Example 2
 > For matrix groups,
 > 1. For $n\geq 1$, $\exp:\mathfrak{u}(n)\to \text{U}(n)$ is surjective.
-> 2. For $n\geq 1$, $\exp:\mathfrak{sl}(n,\mathbb{R})\to \text{SL}(n,\mathbb{R})$ is not surjective.
+> 2. For $n\geq 1$, $\exp:\mathfrak{gl}(n,\mathbb{C})\to \text{GL}(n,\mathbb{C})$ is surjective by Jordan normal form.
+> 3. For $n\geq 1$, $\exp:\mathfrak{sl}(n,\mathbb{R})\to \text{SL}(n,\mathbb{R})$ is not surjective.
 
 > [!proof]-
 > We have:
