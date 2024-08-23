@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lie Derivative.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -239,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Exponential Map.md"
+                "file": "Representation Theory/Lie Algebra.md"
               }
             }
           }
@@ -303,14 +303,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "12fc36ecf03de257",
+  "active": "d876d77cb7124331",
   "lastOpenFiles": [
-    "Lie Group/Integral Curve.md",
-    "Lie Group/Exponential Map.md",
-    "Lie Group/One-Parameter Subgroup.md",
-    "Representation Theory/Lie Algebra.md",
-    "Lie Group/Flow.md",
     "Analysis/Lie Derivative.md",
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/Exponential Map.md",
+    "Lie Group/Integral Curve.md",
+    "Lie Group/One-Parameter Subgroup.md",
+    "Lie Group/Flow.md",
     "Lie Group/Lie Group.md",
     "Differential Geometry/Lie Bracket.md",
     "Differential Geometry/Vector Field.md",
