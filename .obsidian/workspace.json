@@ -74,14 +74,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Lie Group/Integral Curve.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -142,14 +142,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Indefinite Orthogonal Group.md",
+                "file": "Lie Group/Integral Curve.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Integral Curve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Integral Curve.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Lie Group/Integral Curve.md"
               }
             }
           }
@@ -279,13 +279,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "31bfbc465d5b5154",
+  "active": "6814f8e371a522d1",
   "lastOpenFiles": [
+    "Lie Group/Exponential Map.md",
+    "Lie Group/Integral Curve.md",
+    "Algebra/General Linear Group.md",
+    "Lie Group/Indefinite Orthogonal Group.md",
+    "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Lie Bracket.md",
     "Lie Group/Lie Group.md",
-    "Algebra/General Linear Group.md",
-    "Representation Theory/Lie Algebra.md",
-    "Lie Group/Indefinite Orthogonal Group.md",
     "Functional Analysis/Positive Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Pontryagin Dual.md",
@@ -305,8 +307,6 @@
     "Differential Geometry/Rank.md",
     "Lie Group/Locally Compact Group.md",
     "Lie Group/Homogeneous Space.md",
-    "Topology/Paracompact Space.md",
-    "Lie Group/Lattice.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
