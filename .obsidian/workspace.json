@@ -74,14 +74,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Differential Geometry/Immersion.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bb9f0fd65dbbd8af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -142,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Differential Geometry/Immersion.md",
                 "mode": "preview",
                 "source": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "preview",
                 "source": true
               }
@@ -173,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -239,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Differential Geometry/Submanifold.md"
               }
             }
           }
@@ -303,12 +315,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d876d77cb7124331",
+  "active": "bb9f0fd65dbbd8af",
   "lastOpenFiles": [
-    "Analysis/Lie Derivative.md",
-    "Representation Theory/Lie Algebra.md",
-    "Lie Group/Exponential Map.md",
+    "Differential Geometry/Submanifold.md",
     "Lie Group/Integral Curve.md",
+    "Differential Geometry/Immersion.md",
+    "Lie Group/Exponential Map.md",
+    "Representation Theory/Lie Algebra.md",
+    "Analysis/Lie Derivative.md",
     "Lie Group/One-Parameter Subgroup.md",
     "Lie Group/Flow.md",
     "Lie Group/Lie Group.md",
@@ -329,8 +343,6 @@
     "Functional Analysis/Guelfand Spectrum.md",
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Submersion.md",
-    "Lie Group/Ring of Germs.md",
-    "Differential Geometry/Submanifold.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
