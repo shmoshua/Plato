@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/General Linear Group.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -281,14 +281,15 @@
   },
   "active": "31bfbc465d5b5154",
   "lastOpenFiles": [
-    "Lie Group/Indefinite Orthogonal Group.md",
+    "Differential Geometry/Lie Bracket.md",
+    "Lie Group/Lie Group.md",
+    "Algebra/General Linear Group.md",
     "Representation Theory/Lie Algebra.md",
+    "Lie Group/Indefinite Orthogonal Group.md",
     "Functional Analysis/Positive Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Fourier Transform.md",
-    "Algebra/General Linear Group.md",
-    "Differential Geometry/Lie Bracket.md",
     "Lie Group/Topological Group.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Differential Geometry/Differential.md",
@@ -300,7 +301,6 @@
     "Differential Geometry/Tangent Bundle.md",
     "Differential Geometry/Submersion.md",
     "Lie Group/Ring of Germs.md",
-    "Lie Group/Lie Group.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Rank.md",
     "Lie Group/Locally Compact Group.md",
