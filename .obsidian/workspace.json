@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "mode": "preview",
                 "source": true
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md"
+                "file": "Functional Analysis/Positive Operator.md"
               }
             }
           }
@@ -282,13 +282,13 @@
   "active": "5c451d2f4d482c7c",
   "lastOpenFiles": [
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Lie Group/Topological Group.md",
     "Functional Analysis/Pontryagin Dual.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
     "Representation Theory/Lie Algebra.md",
+    "Functional Analysis/Fourier Transform.md",
     "Algebra/General Linear Group.md",
     "Differential Geometry/Lie Bracket.md",
+    "Lie Group/Topological Group.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Vector Field.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
