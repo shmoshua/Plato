@@ -135,6 +135,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "6ee68519cd9803ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Indefinite Orthogonal Group.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -269,10 +281,11 @@
   },
   "active": "31bfbc465d5b5154",
   "lastOpenFiles": [
+    "Lie Group/Indefinite Orthogonal Group.md",
+    "Representation Theory/Lie Algebra.md",
     "Functional Analysis/Positive Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Pontryagin Dual.md",
-    "Representation Theory/Lie Algebra.md",
     "Functional Analysis/Fourier Transform.md",
     "Algebra/General Linear Group.md",
     "Differential Geometry/Lie Bracket.md",
@@ -294,7 +307,6 @@
     "Lie Group/Homogeneous Space.md",
     "Topology/Paracompact Space.md",
     "Lie Group/Lattice.md",
-    "Functional Analysis/Haar Measure.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
