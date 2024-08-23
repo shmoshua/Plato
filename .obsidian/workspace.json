@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Analysis/Lie Derivative.md",
                 "mode": "source",
                 "source": true
               }
@@ -74,14 +74,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Lie Group/Flow.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -142,14 +142,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Analysis/Lie Derivative.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "12fc36ecf03de257",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Flow.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -215,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Lie Group/Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Lie Group/Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Integral Curve.md"
+                "file": "Lie Group/Flow.md"
               }
             }
           }
@@ -279,14 +291,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6814f8e371a522d1",
+  "active": "12fc36ecf03de257",
   "lastOpenFiles": [
-    "Lie Group/Exponential Map.md",
+    "Differential Geometry/Vector Field.md",
+    "Analysis/Lie Derivative.md",
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/Flow.md",
+    "Differential Geometry/Lie Bracket.md",
     "Lie Group/Integral Curve.md",
+    "Lie Group/Exponential Map.md",
     "Algebra/General Linear Group.md",
     "Lie Group/Indefinite Orthogonal Group.md",
-    "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Lie Bracket.md",
     "Lie Group/Lie Group.md",
     "Functional Analysis/Positive Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -295,7 +310,6 @@
     "Lie Group/Topological Group.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Differential Geometry/Differential.md",
-    "Differential Geometry/Vector Field.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Derivation.md",
@@ -305,8 +319,6 @@
     "Lie Group/Ring of Germs.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Rank.md",
-    "Lie Group/Locally Compact Group.md",
-    "Lie Group/Homogeneous Space.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
