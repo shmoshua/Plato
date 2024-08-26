@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Ideal (Lie Algebra).md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "mode": "source",
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Adjoint Representation.md",
+                "file": "Algebra/Solvable Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -221,7 +221,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -288,7 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Algebra/Solvable Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md",
+                "file": "Algebra/Solvable Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,7 +328,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Commutator Subgroup.md"
+                "file": "Algebra/Solvable Group.md"
               }
             }
           }
@@ -352,11 +352,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4228c46757a46d6a",
+  "active": "4c781da3a488b923",
   "lastOpenFiles": [
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Lie Group/Adjoint Representation.md",
+    "Algebra/Commutator Subgroup.md",
     "Lie Group/Ideal (Lie Algebra).md",
+    "Algebra/Solvable Group.md",
+    "Lie Group/Adjoint Representation.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Lie Group/Lie Group.md",
     "Lie Group/Exponential Map.md",
     "Representation Theory/Lie Algebra.md",
@@ -378,8 +380,6 @@
     "Topology/Local Homeomorphism.md",
     "Differential Geometry/Submersion.md",
     "Differential Geometry/Differential.md",
-    "Differential Geometry/Rank.md",
-    "Differential Geometry/Derivation.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
