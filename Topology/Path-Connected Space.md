@@ -18,6 +18,13 @@
 > [!lemma] Lemma 2
 > For any space $X$ and $x\in X$, the path component of $x$ in $X$ is contained in the connected component of $x$. 
 ---
+> [!lemma] Theorem 3
+> Let $X$ be a topological space. 
+> 1. if $X$ is [[Connected Space|connected]] and [[Locally Path-Connected Space|locally path-connected]], then $X$ is path-connected.
+
+> [!proof]+
+> Let $X$ be non-empty and choose $x\in X$. We define $V$ to be the path-component of $x$, i.e. $$V:=\{ y\in X: \exists \gamma \text{ path}:\gamma(0)=x,\gamma(1)=y \}$$
+---
 ##### Examples
 > [!h] Example 1
 > $\mathbb{R}^n$ is path-connected.
