@@ -1,8 +1,8 @@
 #Definition #LieGroups #RepresentationTheory 
 
 > [!definition]
-> Let $G$ be a [[Lie group]]. The ***adjoint representatio***n of $G$ is a [[Lie group representation]]:$$\text{Ad}:G\to \text{GL}(\mathfrak{g}),\quad g\mapsto d_{e}\alpha_{g}$$where $\alpha_{g}\in \text{Inn}(G)$ is the [[inner automorphism]] $\alpha_{g}(x)=gxg^{-1}$. The ***adjoint representation*** of $\mathfrak{g}$ is a [[Lie algebra representation]]: $$\text{ad}: \mathfrak{g}\to \mathfrak{gl}(\mathfrak{g}),\quad x\mapsto[x,\cdot ]$$
-- **Remark**: As $\varphi_{g}:G\to G$ is a smooth homomorphism, by [[Exponential Map|Prop 2]], $g\exp(tx)g^{-1}=\exp(t\text{Ad}(g)x)$ for $x\in \mathfrak{g}$.
+> Let $G$ be a [[Lie group]]. The ***adjoint representation*** of $G$ is a [[Lie group representation]]:$$\text{Ad}:G\to \text{GL}(\mathfrak{g}),\quad g\mapsto d_{e}\alpha_{g}$$where $\alpha_{g}\in \text{Inn}(G)$ is the [[inner automorphism]] $\alpha_{g}(x)=gxg^{-1}$. The ***adjoint representation*** of $\mathfrak{g}$ is a [[Lie algebra representation]]: $$\text{ad}: \mathfrak{g}\to \mathfrak{gl}(\mathfrak{g}),\quad x\mapsto[x,\cdot ]$$
+- **Remark**: As $\alpha_{g}:G\to G$ is a smooth homomorphism, by [[Exponential Map|Prop 2]], $g\exp(tx)g^{-1}=\exp(t\text{Ad}(g)x)$ for $x\in \mathfrak{g}$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
