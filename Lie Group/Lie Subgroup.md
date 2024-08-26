@@ -18,9 +18,13 @@
 > 
 > Then, by [[Smooth Distribution|Theorem 2]], let $(H,\varphi)$ be the unique maximal integral submanifold of $\mathcal{D}$ through $e$. Hence, by construction, for any $g\in \varphi(H)$, $(H,L_{g^{-1}}\circ\varphi)$ is an integral submanifold of $\mathcal{D}$ through $e$. By uniqueness, we have that $L_{g^{-1}}(\varphi(H))\subseteq\varphi(H)$. In other words, for $g,g'\in \varphi(H)$, $g^{-1}g'\in \varphi(H)$ and $\varphi(H)\leq G$.
 > 
-> Therefore, we can endow $H$ with a group structure s.t. $\varphi:H\to G$ is a smooth homomorphism.
+> Therefore, we can endow $H$ with a group structure s.t. $\varphi:H\to G$ is a smooth homomorphism. This shows that $(H,\varphi)$ is a connected Lie subgroup.
+> 
+> Lastly, for $v\in \mathfrak{h}$, $$d_{e}\varphi (\mathfrak{h})=\mathcal{D}_{\varphi(e)}=\{ v^L_{\varphi(e)}:v \in \tilde{\mathfrak{h}} \}=\tilde{\mathfrak{h}}$$
 ---
 > [!lemma] Theorem 2
-> For a Lie subgroup $(H,\varphi)$ of $G$, the following are equivalent:
+> For a Lie subgroup $(H,\varphi)$ of $G$, TFAE:
 > 1. $\varphi$ is an [[Submanifold|embedding]], i.e. an injective immersion that is also a homeomorphism to its image.
 > 2. $\varphi(H)$ is closed in $G$.
+- **Remark**: This is not true for general submanifolds. There exist closed submanifolds that are not embedded.
+---

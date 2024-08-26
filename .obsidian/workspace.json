@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Integral Curve.md",
+                "file": "Differential Geometry/Submersion.md",
                 "mode": "preview",
                 "source": true
               }
@@ -209,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -275,7 +275,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -292,7 +292,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -315,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md"
+                "file": "Representation Theory/Lie Algebra.md"
               }
             }
           }
@@ -339,23 +339,26 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6f702fe16dcde38f",
+  "active": "31bfbc465d5b5154",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Distribution.md",
-    "Lie Group/Lie Subgroup.md",
-    "Differential Geometry/Submanifold.md",
+    "Differential Geometry/Submersion.md",
     "Differential Geometry/Differential.md",
+    "Differential Geometry/Rank.md",
+    "Lie Group/Integral Curve.md",
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/Local Homomorphism.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Lie Subgroup.md",
+    "Differential Geometry/Smooth Distribution.md",
+    "Lie Group/Lie Group.md",
+    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Derivation.md",
     "Differential Geometry/Vector Field.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Immersion.md",
     "Topology/Locally Path-Connected Space.md",
     "Topology/Path-Connected Space.md",
-    "Representation Theory/Lie Algebra.md",
     "Lie Group/One-Parameter Subgroup.md",
-    "Lie Group/Lie Group.md",
-    "Lie Group/Integral Curve.md",
     "Lie Group/Exponential Map.md",
     "Analysis/Lie Derivative.md",
     "Lie Group/Flow.md",
@@ -364,9 +367,6 @@
     "Lie Group/Indefinite Orthogonal Group.md",
     "Functional Analysis/Positive Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/Pontryagin Dual.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Lie Group/Topological Group.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
