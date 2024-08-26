@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "mode": "preview",
                 "source": true
               }
@@ -161,12 +161,24 @@
             }
           },
           {
+            "id": "18e2a0c80f404534",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Local Diffeomorphism.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "6ee68519cd9803ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submersion.md",
+                "file": "Differential Geometry/Local Diffeomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -238,7 +250,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hahn",
+                "query": "inverse functio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -255,7 +267,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -341,16 +354,18 @@
   },
   "active": "31bfbc465d5b5154",
   "lastOpenFiles": [
+    "Lie Group/Lie Subgroup.md",
+    "Lie Group/Local Homomorphism.md",
+    "Representation Theory/Lie Algebra.md",
+    "Differential Geometry/Local Diffeomorphism.md",
+    "Topology/Local Homeomorphism.md",
     "Differential Geometry/Submersion.md",
+    "Lie Group/Lie Group.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Rank.md",
     "Lie Group/Integral Curve.md",
-    "Representation Theory/Lie Algebra.md",
-    "Lie Group/Local Homomorphism.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Lie Group/Lie Subgroup.md",
     "Differential Geometry/Smooth Distribution.md",
-    "Lie Group/Lie Group.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Derivation.md",
     "Differential Geometry/Vector Field.md",
@@ -365,8 +380,6 @@
     "Differential Geometry/Lie Bracket.md",
     "Algebra/General Linear Group.md",
     "Lie Group/Indefinite Orthogonal Group.md",
-    "Functional Analysis/Positive Operator.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
