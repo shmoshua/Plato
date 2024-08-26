@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Ideal (Lie Algebra).md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": true
               }
@@ -354,19 +354,20 @@
   },
   "active": "4c781da3a488b923",
   "lastOpenFiles": [
-    "Algebra/Commutator Subgroup.md",
-    "Lie Group/Ideal (Lie Algebra).md",
+    "Topology/Quotient Topology.md",
     "Algebra/Solvable Group.md",
+    "Lie Group/Topological Group.md",
+    "Lie Group/Ideal (Lie Algebra).md",
+    "Algebra/Commutator Subgroup.md",
+    "Lie Group/Lie Group.md",
     "Lie Group/Adjoint Representation.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Lie Group/Lie Group.md",
     "Lie Group/Exponential Map.md",
     "Representation Theory/Lie Algebra.md",
     "Lie Group/Lie Group Representation.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Lie Group/Integral Curve.md",
     "Lie Group/Flow.md",
-    "Lie Group/Topological Group.md",
     "Lie Group/Lie Subgroup.md",
     "Differential Geometry/Smooth Distribution.md",
     "Differential Geometry/Submanifold.md",
@@ -379,7 +380,6 @@
     "Differential Geometry/Local Diffeomorphism.md",
     "Topology/Local Homeomorphism.md",
     "Differential Geometry/Submersion.md",
-    "Differential Geometry/Differential.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
