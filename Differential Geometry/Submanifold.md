@@ -1,7 +1,7 @@
  #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M,N$ be a [[smooth manifold]] and $\varphi\in C^\infty(N,M)$ an [[Differential|immersion]].
+> Let $M,N$ be a [[smooth manifold]] and $\varphi\in C^\infty(N,M)$ an [[immersion]].
 > 1. $\varphi(N)$ is an ***immersed submanifold*** of $M$, if $\varphi$ is injective.
 > 3. $N\subseteq M$ is a ***regular $n$-submanifold*** of $M$, if for any $p\in N$, there is a chart $(U,\varphi)$ at $p$ s.t. 
 > 	1. $\varphi(p)=0$, 
