@@ -3,7 +3,7 @@
 > [!definition]
 > Let $G$ be a [[Lie group]]. A pair $(H,\varphi)$ is a ***Lie subgroup*** of $G$ if:
 > 1. $H$ is a Lie group and
-> 2. $\varphi:H\to G$ is an injective Lie group homomorphism that is also an [[Differential|immersion]].
+> 2. $\varphi:H\to G$ is an injective Lie group homomorphism that is also an [[Immersion|immersion]].
 - **Remark**: As $\varphi$ is an injective immersion, $\varphi(H)$ is an [[Submanifold|immersed submanifold]] of $G$. 
 - **Remark**: Often we identify $(H,\varphi)$ with $\varphi(H)\leq G$.
 - **Related definition**: Two Lie subgroups $(H_{1},\varphi_{1})$ and $(H_{2},\varphi_{2})$ are ***equivalent***, if there exists a Lie group isomorphism $\alpha:H_{1}\to H_{2}$ s.t. $\varphi_{2}\circ\alpha=\varphi_{1}$. 

@@ -22,8 +22,15 @@
 > Let $X$ be a topological space. 
 > 1. if $X$ is [[Connected Space|connected]] and [[Locally Path-Connected Space|locally path-connected]], then $X$ is path-connected.
 
-> [!proof]+
-> Let $X$ be non-empty and choose $x\in X$. We define $V$ to be the path-component of $x$, i.e. $$V:=\{ y\in X: \exists \gamma \text{ path}:\gamma(0)=x,\gamma(1)=y \}$$
+> [!proof]-
+> Let $X$ be non-empty and choose $x\in X$. We define $V$ to be the path-component of $x$, i.e. $$V:=\{ y\in X: \exists \gamma \text{ path}:\gamma(0)=x,\gamma(1)=y \}$$Then, 
+> 1. **$V$ is open**:
+>    Let $y\in V$. Then, there exists a path-connected neighborhood $U\ni y$. Wlog we may assume that $U$ is open. Then, for any $z\in U$, there exists a path from $y$ to $z$ and hence, there exists a path from $x$ to $z$. In other words, $U\subseteq V$ and $V$ is open.
+>2. **$V$ is closed**:
+>   Let $y\notin V$. Then, there exists a path-connected neighborhood $U\ni y$ and we claim that $V\cap U=\varnothing$. Otherwise, if $z\in V\cap U$, there exists a path from $x$ to $z$ and again from $z$ to $y$. Therefore, $y\in V$, which is a contradiction.
+> 
+> Therefore, as $V$ is non-empty, we have by connectedness that $V=X$. Hence, $X$ is path-connected.
+- **Corollary**: Every connected topological manifold is path-connected.
 ---
 ##### Examples
 > [!h] Example 1

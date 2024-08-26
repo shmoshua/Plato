@@ -86,14 +86,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -106,7 +106,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Lie Subgroup.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6f702fe16dcde38f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Lie Subgroup.md",
                 "mode": "preview",
                 "source": true
               }
@@ -161,43 +173,31 @@
             }
           },
           {
-            "id": "972a8bf14ea1eeb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Submanifold.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fa6c2ada6d987de9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Locally Path-Connected Space.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "e801c4c8c90c9505",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Differential Geometry/Differential.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "118615f4afe05b0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Vector Field.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -263,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Path-Connected Space.md"
+                "file": "Lie Group/Lie Subgroup.md"
               }
             }
           }
@@ -327,22 +327,25 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bb9f0fd65dbbd8af",
+  "active": "433dc0055429bd9a",
   "lastOpenFiles": [
-    "Differential Geometry/Submanifold.md",
-    "Topology/Path-Connected Space.md",
-    "Topology/Locally Path-Connected Space.md",
-    "Lie Group/One-Parameter Subgroup.md",
-    "Lie Group/Lie Subgroup.md",
+    "Differential Geometry/Vector Field.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Immersion.md",
+    "Differential Geometry/Submanifold.md",
+    "Topology/Locally Path-Connected Space.md",
+    "Differential Geometry/Tangent Space.md",
+    "Lie Group/Lie Subgroup.md",
+    "Topology/Path-Connected Space.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/One-Parameter Subgroup.md",
     "Lie Group/Lie Group.md",
     "Lie Group/Integral Curve.md",
     "Lie Group/Exponential Map.md",
-    "Representation Theory/Lie Algebra.md",
     "Analysis/Lie Derivative.md",
     "Lie Group/Flow.md",
     "Differential Geometry/Lie Bracket.md",
-    "Differential Geometry/Vector Field.md",
     "Algebra/General Linear Group.md",
     "Lie Group/Indefinite Orthogonal Group.md",
     "Functional Analysis/Positive Operator.md",
@@ -351,9 +354,6 @@
     "Functional Analysis/Fourier Transform.md",
     "Lie Group/Topological Group.md",
     "Functional Analysis/Uniformly Continuous Function.md",
-    "Differential Geometry/Differential.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Derivation.md",
     "Complex Analysis",
     "Algebra/Untitled",
