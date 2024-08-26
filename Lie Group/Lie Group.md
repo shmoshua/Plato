@@ -23,23 +23,24 @@
 > Let $G$ be a Lie group and $H\leq G$ a closed subgroup. Then, 
 > 1. $H$ can be equipped with a unique smooth structure s.t. $H$ is a Lie subgroup of $G$.
 
-> [!proof]+
+> [!proof]-
 > Let $H\leq G$ be a closed subgroup. Then, we can define: $$\mathfrak{h}:=\{ v\in \mathfrak{g}: \text{exp}(tv)\in H, \forall t\in \mathbb{R} \}$$We have that:
 > 1. **$\mathfrak{h}$ is a linear subspace of $\mathfrak{g}$**:
 >    Of course $\mathfrak{h}$ is closed under scalar multiplication. Under vector addition, $$H\ni \lim_{ n \to \infty }\left( \exp \left( \frac{tv}{n} \right) \exp \left( \frac{tw}{n} \right)  \right)^n= \lim_{ n \to \infty }\left( \exp \left( \frac{t(v+w)}{n} +O(1 / n^{2})\right)  \right)^n =\exp(t(v+w)) $$
 > 2. **Lemma**: Let $(v_{n})_{n}\subseteq \mathfrak{g}$ be non-zero s.t. $v_{n}\to 0$. Further, let $\exp(v_{n})\in H$ and $$\lim_{ n \to \infty } \frac{v_{i}}{\left\| v_{i} \right\| }=:v\in \mathfrak{g}$$ Then, $v\in \mathfrak{h}$. 
 >    
->    For any fixed $t\neq 0$, let $n_{i}:=t$
+>    For any fixed $t\neq 0$, let $n_{i}:=\lfloor t / \|v_{i}\|\rfloor$. Then, $$\exp(tv)=\lim_{ i \to \infty } \exp(n_{i}v_{i})=\lim_{ i \to \infty } \exp(v_{i})^{n_{i}}\in H$$
 > 
 >   
 - **Corollary**: For a Lie group $G$ and a closed subgroup $H\leq G$, $\mathfrak{h}=\{  v\in \mathfrak{g}: \exp_{G}(tv)\in H, \forall t\in \mathbb{R}\}$
 ---
 > [!lemma] Proposition 3
-> Let $\varphi:G_{1}\to G_{2}$ be a Lie group homomorphism. Then, for $H:=\text{ker }\varphi\leq G$, $$\mathfrak{h}=\text{ker }d_{e}\varphi$$
+> Let $\varphi:G\to H$ be a Lie group homomorphism. Then,
+>1. $\text{Lie}(\text{ker }\varphi)=\text{ker }d_{e}\varphi$ 
 
-> [!proof]-
+> [!proof]+
 > We have by Corollary above,
-> $$\begin{align}\mathfrak{h}&=\{ v\in \mathfrak{g}: \exp_{G_{1}}(tv)\in \text{ker }\varphi,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: \varphi(\exp_{G_{1}}(tv))=e,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: \exp_{G_{2}}(t\cdot d_{e}\varphi(v))=e,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: d_{e}\varphi(v)=0,\forall t\in \mathbb{R} \}\\&=\text{ker }d_{e}\varphi\end{align}$$
+> $$\begin{align}\text{Lie}(\text{ker }\varphi)&=\{ v\in \mathfrak{g}: \exp_{G}(tv)\in \text{ker }\varphi,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: \varphi(\exp_{G}(tv))=e,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: \exp_{G}(t\cdot d_{e}\varphi(v))=e,\forall t\in \mathbb{R} \}\\&=\{ v\in \mathfrak{g}: d_{e}\varphi(v)=0,\forall t\in \mathbb{R} \}\\&=\text{ker }d_{e}\varphi\end{align}$$
 ---
 > [!lemma] Theorem 4 (Quotient Manifold Theorem)
 > Let $G$ be a Lie group acting smoothly, freely and properly on a smooth manifold $M$. Then, 
