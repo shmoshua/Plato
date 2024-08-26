@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -161,67 +161,19 @@
             }
           },
           {
-            "id": "18e2a0c80f404534",
+            "id": "9fc61356f7f40776",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Local Diffeomorphism.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6ee68519cd9803ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Local Diffeomorphism.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "12fc36ecf03de257",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Immersion.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e801c4c8c90c9505",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Differential.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "118615f4afe05b0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Derivation.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -250,7 +202,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inverse functio",
+                "query": "ado",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -288,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Lie Group/Local Homomorphism.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md"
+                "file": "Lie Group/Local Homomorphism.md"
               }
             }
           }
@@ -352,20 +304,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "31bfbc465d5b5154",
+  "active": "6f702fe16dcde38f",
   "lastOpenFiles": [
-    "Lie Group/Lie Subgroup.md",
-    "Lie Group/Local Homomorphism.md",
+    "Topology/Covering Space.md",
+    "Lie Group/Lie Group.md",
     "Representation Theory/Lie Algebra.md",
+    "Lie Group/Local Homomorphism.md",
+    "Lie Group/Lie Subgroup.md",
+    "Topology/Semi-Locally Simply Connected Space.md",
+    "Differential Geometry/Smooth Distribution.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Algebra/General Linear Group.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Topology/Local Homeomorphism.md",
     "Differential Geometry/Submersion.md",
-    "Lie Group/Lie Group.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Rank.md",
     "Lie Group/Integral Curve.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Differential Geometry/Smooth Distribution.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Derivation.md",
     "Differential Geometry/Vector Field.md",
@@ -377,9 +332,6 @@
     "Lie Group/Exponential Map.md",
     "Analysis/Lie Derivative.md",
     "Lie Group/Flow.md",
-    "Differential Geometry/Lie Bracket.md",
-    "Algebra/General Linear Group.md",
-    "Lie Group/Indefinite Orthogonal Group.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
