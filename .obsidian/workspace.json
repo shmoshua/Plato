@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -240,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Functional Analysis/Haar Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md"
+                "file": "Functional Analysis/Haar Measure.md"
               }
             }
           }
@@ -304,12 +304,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6f702fe16dcde38f",
+  "active": "433dc0055429bd9a",
   "lastOpenFiles": [
+    "Topology/Universal Cover.md",
+    "Lie Group/Topological Group.md",
+    "Lie Group/Local Homomorphism.md",
     "Topology/Covering Space.md",
     "Lie Group/Lie Group.md",
     "Representation Theory/Lie Algebra.md",
-    "Lie Group/Local Homomorphism.md",
     "Lie Group/Lie Subgroup.md",
     "Topology/Semi-Locally Simply Connected Space.md",
     "Differential Geometry/Smooth Distribution.md",
@@ -330,8 +332,6 @@
     "Topology/Path-Connected Space.md",
     "Lie Group/One-Parameter Subgroup.md",
     "Lie Group/Exponential Map.md",
-    "Analysis/Lie Derivative.md",
-    "Lie Group/Flow.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
