@@ -86,14 +86,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Local Homomorphism.md",
+                "file": "Lie Group/Lie Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Distribution.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "preview",
                 "source": true
               }
@@ -172,8 +172,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,7 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Lie Group/Lie Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md",
+                "file": "Lie Group/Lie Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Haar Measure.md"
+                "file": "Lie Group/Lie Group.md"
               }
             }
           }
@@ -304,18 +303,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "433dc0055429bd9a",
+  "active": "bb9f0fd65dbbd8af",
   "lastOpenFiles": [
+    "Lie Group/Exponential Map.md",
+    "Lie Group/Lie Subgroup.md",
+    "Lie Group/Lie Group.md",
+    "Differential Geometry/Smooth Distribution.md",
+    "Differential Geometry/Submanifold.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Lie Group/Local Homomorphism.md",
+    "Functional Analysis/Haar Measure.md",
     "Topology/Universal Cover.md",
     "Lie Group/Topological Group.md",
-    "Lie Group/Local Homomorphism.md",
     "Topology/Covering Space.md",
-    "Lie Group/Lie Group.md",
     "Representation Theory/Lie Algebra.md",
-    "Lie Group/Lie Subgroup.md",
     "Topology/Semi-Locally Simply Connected Space.md",
-    "Differential Geometry/Smooth Distribution.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Algebra/General Linear Group.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Topology/Local Homeomorphism.md",
@@ -323,15 +325,12 @@
     "Differential Geometry/Differential.md",
     "Differential Geometry/Rank.md",
     "Lie Group/Integral Curve.md",
-    "Differential Geometry/Submanifold.md",
     "Differential Geometry/Derivation.md",
     "Differential Geometry/Vector Field.md",
     "Differential Geometry/Tangent Space.md",
     "Differential Geometry/Immersion.md",
     "Topology/Locally Path-Connected Space.md",
     "Topology/Path-Connected Space.md",
-    "Lie Group/One-Parameter Subgroup.md",
-    "Lie Group/Exponential Map.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

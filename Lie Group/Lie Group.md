@@ -21,31 +21,16 @@
 ---
 > [!lemma] Theorem 2 (Cartan, Closed Subgroup Theorem)
 > Let $G$ be a Lie group and $H\leq G$ a closed subgroup. Then, 
-> 1. $H$ is a [[Submanifold|regular submanifold]] of $G$.
-> 2. $H$ is a Lie group.
+> 1. $H$ can be equipped with a unique smooth structure s.t. $H$ is a Lie subgroup of $G$.
 
-> [!proof]-
-> Let $H\leq G$ be a closed subgroup. As $\mathfrak{g}$ is a vector space, we can define a norm $\|\cdot\|$ on $\mathfrak{g}$. Let $S^1:=\{ v\in \mathfrak{g}:\|v\|=1 \}$ and: $$\pi:\mathfrak{g} \backslash \{ 0 \}\to S^1,\quad v\mapsto v /\|v\|$$the projection map. We also define: $$W:=\{ 0 \}\cup \{ \xi\in \mathfrak{g} \backslash\{ 0 \}: \exists(v_{n})_{n\geq 1}\subseteq \mathfrak{g}\backslash\{ 0 \},\exp(v_{n})\in H,\lim_{ n \to \infty } v_{n}=0,\lim_{ n \to \infty } \pi(v_{n})=\pi(\xi) \}$$
-> 1. **Showing $W$ is a cone**:
->    For $0\neq \xi\in W$ and $\lambda\geq 0$, $\pi(\xi)=\pi(\lambda \xi)$.
->  2. **Showing that $\exp(W)\subseteq H$**:
->     Firstly, $\exp(0)=e\in H$. Let $0\neq \xi\in W$ with $(v_{n})_{n\geq 1}$. Then, $\lim_{ n \to \infty } \frac{v_{n}}{\|v_{n}\|}= \frac{\xi}{\left\| \xi \right\|}$ and $$\lim_{ n \to \infty } \frac{\|\xi\|}{\left\| v_{n} \right\| }v_{n}=\xi$$Let $a_{n}:=\left[ \frac{\|\xi\|}{\|v_{n}\|} \right]$ be the integer part of $\|\xi\| / \|v_{n}\|$. Then, we claim that $\lim_{ n \to \infty }a_{n}v_{n}=\xi$. Indeed, $$\left\| \frac{\left\| \xi \right\|}{\left\| v_{n} \right\| }v_{n}-a_{n}v_{n}  \right\|=\left| \frac{\left\| \xi \right\|}{\left\| v_{n} \right\| }-a_{n}  \right|\left\| v_{n} \right\| \leq \left\| v_{n} \right\|   $$and $\lim_{ n \to \infty }\left\| v_{n} \right\|=0$. Therefore, $$\exp(\xi)=\lim_{ n \to \infty } \exp(a_{n}v_{n})=\lim_{ n \to \infty } (\exp(v_{n}))^{a_{n}}\in H$$
->  3. **Showing that $W$ is a vector subspace of $\mathfrak{g}$:**
-> 	Let $\xi,\eta\in W$ s.t. $\xi,\eta,\xi+\eta$ are all non-zero. Then, by 1 and 2, we have:$$\exp(t\xi)\cdot \exp(t\eta)\in H,\quad \forall t\in \mathbb{R}$$As $\exp$ gives a local chart of $e$ (cf. [[Exponential Map|Proposition 2.2]]), there exists $I_{\delta}:=(-\delta,\delta)$ for $\delta>0$ and a smooth curve $\gamma:I_{\delta}\to \mathfrak{g}$ s.t. $\gamma(0)=0$ and $$\exp(\gamma(t))=\exp(t\xi)\exp(t\eta),\quad \forall t\in I_{\delta}$$Then, we get: $$\gamma'(0)=d_{0}\exp(\gamma'(0))=\left. \frac{d}{dt} \right| _{t=0}\exp(\gamma(t))=d_{0}\exp(\xi)+d_{0}\exp(\eta)=\xi+\eta$$by [[Exponential Map|Proposition 2.1]]. Now define $v_{n}:= \gamma\left( \frac{1}{n} \right)$ for $n\geq \frac{1}{\delta}$. Then, 
-> 	- $\lim_{ n \to \infty }v_{n}=\lim_{ n \to \infty }\gamma\left( \frac{1}{n} \right)=\gamma(0)=0$.
-> 	- $\lim_{ n \to \infty }nv_{n}=\lim_{ n \to \infty }n\gamma\left( \frac{1}{n} \right)=\lim_{ n \to \infty }\frac{\gamma\left( \frac{1}{n} \right)-\gamma(0)}{\frac{1}{n}-0}=\gamma'(0)=\xi+\eta\neq 0$. Therefore, there exists some $N\in \mathbb{N}$ s.t. $v_{n}\neq 0$ for all $n\geq N$.
-> 	  
-> 	Then,$$\lim_{ n \to \infty }\pi(v_{n})=\lim_{ n \to \infty }\frac{\gamma\left( \frac{1}{n} \right)}{\|\gamma\left( \frac{1}{n} \right)\|}\overset{ \text{L'Hopital} }{ = }\frac{\gamma'(0)}{\left\| \gamma'(0) \right\| }=\pi(\xi+\eta)$$Therefore, $\xi+\eta\in W$.
-> 4. **Claim: There exists an open $U\ni 0$ in $\mathfrak{g}$ and a diffeomorphism $\Phi:U\to \Phi(U)$ where $\Phi(U)\subseteq G$ is open and $\Phi(0)=e$ s.t. $\Phi(U\cap W)=\Phi(U)\cap H$.**
->    Let $W'$ be the orthogonal complement of $W$ in $\mathfrak{g}$, i.e. $\mathfrak{g}=W\oplus W'$. Then, let $\text{pr}_{W},\text{pr}_{W'}$ be the projections of $\mathfrak{g}$ onto $W$ and $W'$. We claim that the map: $$\varphi:\mathfrak{g}\to G,\quad \xi\mapsto \exp \text{pr}_{W}(\xi)\exp \text{pr}_{W'}(\xi)$$has derivative $\text{id}_{\mathfrak{g}}$ at $\xi=0$. Indeed, $$d_{0}\varphi(v)=d_{0}\exp \text{pr}_{W}(v)+d_{0}\exp \text{pr}_{W'}(v)=\text{pr}_{W}(v)+\text{pr}_{W'}(v)=v$$Therefore, by [[Differential|Inverse Function Theorem]], there exists an open set $V\ni 0$ s.t. $\Phi=\varphi|_{V}$ is a diffeomorphism to its on image. Clearly $\Phi(0)=e$ and $\Phi(V\cap W)\subseteq \Phi(V)\cap H$.
+> [!proof]+
+> Let $H\leq G$ be a closed subgroup. Then, we can define: $$\mathfrak{h}:=\{ v\in \mathfrak{g}: \text{exp}(tv)\in H, \forall t\in \mathbb{R} \}$$We have that:
+> 1. **$\mathfrak{h}$ is a linear subspace of $\mathfrak{g}$**:
+>    Of course $\mathfrak{h}$ is closed under scalar multiplication. Under vector addition, $$H\ni \lim_{ n \to \infty }\left( \exp \left( \frac{tv}{n} \right) \exp \left( \frac{tw}{n} \right)  \right)^n= \lim_{ n \to \infty }\left( \exp \left( \frac{t(v+w)}{n} +O(1 / n^{2})\right)  \right)^n =\exp(t(v+w)) $$
+> 2. **Lemma**: Let $(v_{n})_{n}\subseteq \mathfrak{g}$ be non-zero s.t. $v_{n}\to 0$. Further, let $\exp(v_{n})\in H$ and $$\lim_{ n \to \infty } \frac{v_{i}}{\left\| v_{i} \right\| }=:v\in \mathfrak{g}$$ Then, $v\in \mathfrak{h}$. 
 >    
->    It is left to show that there exists $U$ s.t. $\Phi(U\cap W)=\Phi(U)\cap W$. Assume that there exists a sequence $(U_{n})_{n\geq 1}$ open subsets of $V$ s.t.
-> 	1. $0\in U_{n}$,
-> 	2. $U_{n}\subseteq U_{n-1}$
-> 	3. $\Phi(U_{n}\cap W)\subsetneq \Phi(U_{n})\cap H$
-> 	4. $\bigcap_{n\geq 1}^{}U_{n}=\{ 0 \}$
-> 	
-> 	From 3, we get for every $n\geq 1$ a vector $v_{n}+v_{n}'\in U_{n}$ s.t. $v_{n}\in W$, $v'_{n}\in W'$ and $v'_{n}\neq 0$. Further, $$\exp(v_{n})\exp(v_{n}')\in H$$hence $\exp(v'_{n})\in H$. As $S^1$ is compact, passing to a subsequence, we may assume that $$\xi:=\lim_{ n \to \infty } \pi(v'_{n})\in S^1$$exists. Since $v_{n}+v_{n}'\in U_{n}$ and $\bigcap_{n\geq 1}^{}U_{n}=\{ 0 \}$, we get that $\lim_{ n \to \infty }\|v'_{n}\|=0$. Therefore, $\xi\in W$. On the other hand, $$\xi=\lim_{ n \to \infty } \frac{v'_{n}}{\left\| v'_{n} \right\| }\in W'$$Therefore, $\xi\in W\cap W'=(0)$, which is a contradiction.
+>    For any fixed $t\neq 0$, let $n_{i}:=t$
+> 
 >   
 - **Corollary**: For a Lie group $G$ and a closed subgroup $H\leq G$, $\mathfrak{h}=\{  v\in \mathfrak{g}: \exp_{G}(tv)\in H, \forall t\in \mathbb{R}\}$
 ---
