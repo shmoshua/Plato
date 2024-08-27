@@ -28,7 +28,8 @@
 > 
 ---
 > [!lemma] Lemma 3
-> For $\mathfrak{g}$ a Lie algebra, let $\mathfrak{n}\subseteq \mathfrak{g}$ an ideal and $\mathfrak{h}\subseteq \mathfrak{n}$ a characteristic ideal. Then, $\mathfrak{h}$ is an ideal in $\mathfrak{g}$.
+> For $\mathfrak{g}$ a Lie algebra, let $\mathfrak{n}\subseteq \mathfrak{g}$ an ideal and $\mathfrak{h}\subseteq \mathfrak{n}$ a characteristic ideal. Then, 
+> 1. $\mathfrak{h}$ is an ideal in $\mathfrak{g}$.
 
 > [!proof]-
 > For all $x\in \mathfrak{g}$, $$\delta_{x}:\mathfrak{g}\to \mathfrak{g},\quad y\mapsto [x,y]$$is a derivation. Indeed, for $y,z\in \mathfrak{g}$, $$\delta_{x}([y,z])=[x,[y,z]]=[[z,x],y]+[[x,y],z]=[\delta_{x}(y),z]-[\delta_{x}(z),y]=[\delta_{x}(y),z]+[y,\delta_{x}(z)]$$Since $\mathfrak{n}$ is an ideal, $\delta_{x}(\mathfrak{n})\subseteq \mathfrak{n}$ for all $x\in \mathfrak{g}$. Therefore, $\delta_{x}\in \text{Der}(\mathfrak{n})$ and as $\mathfrak{h}$ is characteristic in $\mathfrak{n}$, $\delta_{x}(\mathfrak{h})\subseteq \mathfrak{h}$ and $\mathfrak{h}$ is an ideal in $\mathfrak{g}$.

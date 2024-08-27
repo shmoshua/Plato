@@ -1,7 +1,8 @@
 #Definition #LieGroups 
 
 > [!definition]
-> A [[Lie algebra]] $\mathfrak{g}$ is ***solvable*** if there exists a sequence: $$\mathfrak{g}=\mathfrak{g}_{0}\supseteq \mathfrak{g}_{1}\supseteq\dots \supseteq\mathfrak{g}_{r}=(0)$$s.t. $\mathfrak{g}_{i}$ is an ideal in $\mathfrak{g}_{i-1}$ and $\mathfrak{g}_{i-1} /\mathfrak{g}_{i}$ is an abelian Lie algebra.
+> A [[Lie algebra]] $\mathfrak{g}$ is ***solvable*** if there exists a sequence: 
+> $$(0)\unlhd \mathfrak{g}_{r}\unlhd \dots\unlhd \mathfrak{g}_{0}=\mathfrak{g}$$s.t. $\mathfrak{g}_{i-1} /\mathfrak{g}_{i}$ is an abelian Lie algebra.
 - **Related definition**: The ***commutator subalgebra*** of $\mathfrak{g}$ is defined as: $[\mathfrak{g},\mathfrak{g}]:=\text{span}\{ [x,y]:x,y\in \mathfrak{g} \}$.
 - **Related definition**: $(\mathfrak{g}^{(\ell)})_{\ell}$ is called the ***derived series*** where $\mathfrak{g}^{(\ell)}:=[\mathfrak{g}^{(\ell-1)},\mathfrak{g}^{(\ell-1)}]$ and $\mathfrak{g}^{(0)}:=\mathfrak{g}$. 
 ---
@@ -9,17 +10,17 @@
 > [!lemma] Lemma 1
 > We have that:
 > 1. $[\mathfrak{g},\mathfrak{g}]$ is a [[Ideal (Lie Algebra)|characteristic ideal]] in $\mathfrak{g}$. 
-> 2. $\mathfrak{g}^{(\ell)}$ is an ideal in $\mathfrak{g}$ for all $\ell\geq 1$.
+> 2. $\mathfrak{g}^{(\ell)}\unlhd \mathfrak{g}$ for all $\ell\geq 1$.
 > 3. for a Lie algebra homomorphism $\pi:\mathfrak{g}\to \mathfrak{h}$, $\pi(\mathfrak{g}^{(i)})=\pi(\mathfrak{g})^{(i)}$.
-> 4. for $\mathfrak{n}\unlhd \mathfrak{g}$, $\mathfrak{g} / \mathfrak{n}$ is abelian if and only if $\mathfrak{n}\geq \mathfrak{g}^{(1)}$.
+> 4. for $\mathfrak{n}\unlhd \mathfrak{g}$, $\mathfrak{g} / \mathfrak{n}$ is abelian if and only if $\mathfrak{n}\supseteq \mathfrak{g}^{(1)}$.
 > 5. for solvable ideals $\mathfrak{a},\mathfrak{b}\unlhd \mathfrak{g}$, $\mathfrak{a}+\mathfrak{b}\unlhd \mathfrak{g}$.
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. for $\delta\in \text{Der}(\mathfrak{g})$, $\delta([x,y])=[\delta(x),y]+[x,\delta(y)]\in [\mathfrak{g},\mathfrak{g}]$.
 > 2. $\mathfrak{g}^{(1)}$ is an ideal in $\mathfrak{g}$ by construction. Then, for $\mathfrak{g}^{(\ell)}$, as $\mathfrak{g}^{(\ell-1)}$ is an ideal by induction hypothesis and $\mathfrak{g}^{(\ell)}=[\mathfrak{g}^{(\ell-1)},\mathfrak{g}^{(\ell-1)}]$ is a characteristic ideal in $\mathfrak{g}^{(\ell-1)}$ by 1, we have by [[Ideal (Lie Algebra)|Lemma 3]] $\mathfrak{g}^{(\ell)}$ is an ideal in $\mathfrak{g}$.
 > 3. We have that: $\pi(\mathfrak{g}^{(1)})=\pi(\mathfrak{g})^{(1)}$. The rest is obvious.
-> 4. We have $\mathfrak{g} / \mathfrak{n}$ is abelian if and only if $(0)=[\mathfrak{g} / \mathfrak{n},\mathfrak{g} / \mathfrak{n}]=[p(\mathfrak{g}),p(\mathfrak{g})]=p(\mathfrak{g}^{(1)})$ and $\mathfrak{g}^{(1)}\subseteq \mathfrak{n}$.
+> 4. We have $\mathfrak{g} / \mathfrak{n}$ is abelian if and only if $(0)=[\mathfrak{g} / \mathfrak{n},\mathfrak{g} / \mathfrak{n}]=[\pi(\mathfrak{g}),\pi(\mathfrak{g})]=\pi(\mathfrak{g}^{(1)})$ and $\mathfrak{g}^{(1)}\subseteq \mathfrak{n}$ for $\pi:\mathfrak{g}\to \mathfrak{g} / \mathfrak{n}$.
 > 5. Of coure, $\mathfrak{a}+\mathfrak{b}$ is a vector subspace of $\mathfrak{g}$. Further for any $a\in \mathfrak{a},b\in \mathfrak{b},x\in \mathfrak{g}$, $$[x,a+b]=[x,a]+[x,b]\in \mathfrak{a}+\mathfrak{b}$$
 ---
 > [!lemma] Lemma 2
@@ -50,10 +51,10 @@
 
 > [!proof]-
 > We have:
-> 1. (2=>1): By [[Solvable Group|Theorem 1]], there exists: $$\{ e \}=G_{r}\unlhd \dots\unlhd G_{0}=G$$where $G_{i} / G_{i+1}$ is abelian and $G_{i}$ are closed connected. By [[Lie Group|closed subgroup theorem]], $G_{i}$ are Lie groups and let $\mathfrak{g}_{i}$ be their respective Lie algebras. By [[Ideal (Lie Algebra)|Proposition 2]], $\mathfrak{g}_{i}\unlhd \mathfrak{g}_{i-1}$. Then, by [[Lie Group|Quotient Manifold Theorem corollary]], $\text{Lie}(G_{i-1} / G_{i})=\mathfrak{g}_{i-1} / \mathfrak{g}_{i}$ and as $G_{i-1} / G_{i}$ is connected as a continuous image, by [[Lie Algebra|Proposition 4]], $\mathfrak{g}_{i-1} / \mathfrak{g}_{i}$ is abelian and $\mathfrak{g}$ is solvable.
-> 2. (1=>2): We prove by induction on $r:=\text{sol}(\mathfrak{g})$. If $r=1$, then $\mathfrak{g}$ is abelian and as $G$ is connected by [[Lie Algebra|Proposition 4]], $G$ is abelian and $\text{sol}(G)=1$. 
+> 1. (1=>2): We prove by induction on $r:=\text{sol}(\mathfrak{g})$. If $r=1$, then $\mathfrak{g}$ is abelian and as $G$ is connected by [[Lie Algebra|Proposition 4]], $G$ is abelian and $\text{sol}(G)=1$. 
 >    
 >    If $r\geq 2$, then $(0)\neq \mathfrak{g}^{(r-1)}\unlhd \mathfrak{g}$ by Lemma 1.2. Then, by [[Ideal (Lie Algebra)|Proposition 2.2]], $\exp(\mathfrak{g}^{(r-1)})\unlhd G$. Moreover, as $\mathfrak{g}^{(r-1)}$ is abelian, $\exp(\mathfrak{g}^{(r-1)})$ is abelian too by [[Lie Algebra|Proposition 4]]. Then, its closure $N:=\overline{\exp(\mathfrak{g}^{(r-1)})}$ is also normal, abelian and connected by [[Topological Group|Proposition 2.1]] and [[Connected Space|Lemma 2.1]]. Then, $\mathfrak{n}\unlhd\mathfrak{g}$ by [[Ideal (Lie Algebra)|Proposition 2.1]] and it is clear that $\mathfrak{g}^{(r-1)}\leq \mathfrak{n}$. Therefore, $\text{sol}(\mathfrak{n})\leq r-1$. As the Lie algebra of $G / N$ is $\mathfrak{g} / \mathfrak{n}$, we can prove that $G$ is solvable by the inverse image of $\pi:G\to G / N$, similarly to the proof of  [[Solvable Group|Solvable Topological Group Theorem 1]].
+>2.  (2=>1): By [[Solvable Group|Corollary 2]], there exists: $$\{ e \}=G_{r}\unlhd \dots\unlhd G_{0}=G$$where $G_{i} / G_{i+1}$ is abelian and $G_{i}$ are closed connected. By [[Lie Group|closed subgroup theorem]], $G_{i}$ are Lie groups and let $\mathfrak{g}_{i}$ be their respective Lie algebras. By [[Ideal (Lie Algebra)|Proposition 2]], $\mathfrak{g}_{i}\unlhd \mathfrak{g}_{i-1}$. Then, by [[Lie Group|Quotient Manifold Theorem corollary]], $\text{Lie}(G_{i-1} / G_{i})=\mathfrak{g}_{i-1} / \mathfrak{g}_{i}$ and as $G_{i-1} / G_{i}$ is connected as a continuous image, by [[Lie Algebra|Proposition 4]], $\mathfrak{g}_{i-1} / \mathfrak{g}_{i}$ is abelian and $\mathfrak{g}$ is solvable.
 ---
 > [!lemma] Theorem 5 (Lie, 1st)
 > Let $\mathfrak{g}$ be a solvable Lie algebra. Further, let $\rho:\mathfrak{g}\to \mathfrak{gl}(V)$ be a [[Lie group representation]] to a finite dimensional complex vector space $V$. Then, 

@@ -122,14 +122,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Ideal (Lie Algebra).md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "44c066d5f0932ebf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lie Group/Solvable Lie Algebra.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -142,19 +154,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Lie Groups/Lie Groups Roadmap.md",
+                "file": "Lie Group/Solvable Lie Algebra.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "052499bbcef51b0c",
+            "id": "c8d407e8b6e495f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Algebra/Solvable Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -166,7 +178,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Topological Group.md",
+                "file": "Lie Group/Ideal (Lie Algebra).md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Subgroup.md",
+                "file": "Differential Geometry/Derivation.md",
                 "mode": "preview",
                 "source": true
               }
@@ -190,7 +202,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -268,8 +280,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -298,7 +309,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ado",
+                "query": "solvable",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -336,7 +347,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Lie Group/Solvable Lie Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -353,7 +364,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Weight.md",
+                "file": "Lie Group/Solvable Lie Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -376,7 +387,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Weight.md"
+                "file": "Lie Group/Solvable Lie Algebra.md"
               }
             }
           }
@@ -400,20 +411,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "052499bbcef51b0c",
+  "active": "e7abf45b75361867",
   "lastOpenFiles": [
+    "Algebra/Solvable Group.md",
+    "Lie Group/Lie Group.md",
+    "Lie Group/Solvable Lie Algebra.md",
+    "Lie Group/Ideal (Lie Algebra).md",
+    "Differential Geometry/Derivation.md",
+    "Representation Theory/Lie Algebra.md",
+    "Lie Group/Exponential Map.md",
+    "Lie Group/Lie Subgroup.md",
+    "Algebra/Ideal (Ring).md",
     "Lie Group/Topological Group.md",
     "Lie Group/Weight.md",
-    "Lie Group/Lie Subgroup.md",
-    "Lie Group/Exponential Map.md",
-    "Lie Group/Lie Group Representation.md",
-    "Lie Group/Lie Group.md",
     "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Representation Theory/Lie Algebra.md",
-    "Algebra/Solvable Group.md",
+    "Lie Group/Lie Group Representation.md",
     "Algebra/Commutator Subgroup.md",
     "Topology/Quotient Topology.md",
-    "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Adjoint Representation.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Lie Group/Integral Curve.md",
@@ -425,9 +439,6 @@
     "Topology/Universal Cover.md",
     "Topology/Covering Space.md",
     "Topology/Semi-Locally Simply Connected Space.md",
-    "Algebra/General Linear Group.md",
-    "Differential Geometry/Local Diffeomorphism.md",
-    "Topology/Local Homeomorphism.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
