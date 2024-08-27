@@ -161,24 +161,24 @@
             }
           },
           {
-            "id": "b8268145df287716",
+            "id": "c6d9e582809b583a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md",
+                "file": "Lie Group/Topological Group.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "c6d9e582809b583a",
+            "id": "b8268145df287716",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Lie Group.md",
+                "file": "Lie Group/Lie Subgroup.md",
                 "mode": "preview",
                 "source": true
               }
@@ -281,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -348,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md",
+                "file": "Lie Group/Weight.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -365,7 +365,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md",
+                "file": "Lie Group/Weight.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -388,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Lie Group Representation.md"
+                "file": "Lie Group/Weight.md"
               }
             }
           }
@@ -412,19 +412,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b8268145df287716",
+  "active": "052499bbcef51b0c",
   "lastOpenFiles": [
+    "Lie Group/Lie Subgroup.md",
+    "Lie Group/Topological Group.md",
+    "Lie Group/Exponential Map.md",
     "Lie Group/Weight.md",
     "Lie Group/Lie Group Representation.md",
-    "Lie Group/Exponential Map.md",
-    "Representation Theory/Lie Algebra.md",
     "Lie Group/Lie Group.md",
-    "Lie Group/Lie Subgroup.md",
+    "Courses/Lie Groups/Lie Groups Roadmap.md",
+    "Representation Theory/Lie Algebra.md",
     "Algebra/Solvable Group.md",
     "Algebra/Commutator Subgroup.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
     "Topology/Quotient Topology.md",
-    "Lie Group/Topological Group.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Lie Group/Adjoint Representation.md",
     "Functional Analysis/Adjoint Linear Map.md",
