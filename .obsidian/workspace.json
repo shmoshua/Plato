@@ -154,7 +154,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md",
+                "file": "Measure Theory/Hausdorff Measure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -323,7 +323,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md",
+                "file": "Measure Theory/Hausdorff Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -340,7 +340,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md",
+                "file": "Measure Theory/Hausdorff Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -363,7 +363,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lie Group/Solvable Lie Algebra.md"
+                "file": "Measure Theory/Hausdorff Measure.md"
               }
             }
           }
@@ -389,11 +389,11 @@
   },
   "active": "e7abf45b75361867",
   "lastOpenFiles": [
+    "Lie Group/Solvable Lie Algebra.md",
     "Algebra/Solvable Group.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Derivation.md",
-    "Lie Group/Solvable Lie Algebra.md",
     "Lie Group/Lie Group.md",
     "Lie Group/Exponential Map.md",
     "Lie Group/Lie Subgroup.md",
