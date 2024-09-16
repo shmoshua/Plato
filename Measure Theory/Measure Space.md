@@ -13,15 +13,15 @@
 > 3. **continuity from above**: If $(A_{n})_{n}$ is increasing, then $\mu \left( \bigcup_{n=1}^{\infty}A_{n} \right) =\lim_{ n \to \infty } \mu(A_{n})$
 > 4. **continuity from below**: If $(A_{n})_{n}$ is decreasing and $\mu(A_{1})<+\infty$, then $\mu \left( \bigcap_{n=1}^{\infty}A_{n} \right) =\lim_{ n \to \infty } \mu(A_{n})$.
 
-> [!proof]+
+> [!proof]-
 > We see that:
 > 1. $F=E\sqcup (F \backslash E)$ and therefore, $$\mu(F)=\mu(E)+\mu(F \backslash E)\geq \mu(E)$$ 
 > 2.  Let's define inductively, $B_{1}:=A_{1}$ and $B_{n}:=A_{n} \backslash B_{n-1}$. Then, $B_{n}$ are measurable and:$$\sum_{n=1}^{\infty}\mu(A_{n})\geq \sum_{n=1}^{\infty}\mu(B_{n})=\mu\left( \bigsqcup_{n=1}^{\infty}B_{n} \right)=\mu\left( \bigcup_{n=1}^{\infty}A_{n} \right)$$
-> 3. Consider $(B_{n})_{n}$ where $B_{1}:=A_{1}$ and $B_{n}:=A_{n} \backslash A_{n-1}$. Then, $(\tilde{ A}_{n})_{n}$ is disjoint and $$\mu \left( \bigcup_{n=1}^{\infty}A_{n} \right) =\mu \left( \bigcup_{n=1}^{\infty}\tilde{ A}_{n} \right) =\sum_{n=1}^{\infty}\mu(\tilde{A}_{n})=\lim_{ m \to \infty } \sum_{n=1}^{m}\mu(\tilde{ A}_{n})=\lim_{ m \to \infty } \mu(A_{m})$$
-> 5. Consider $(\tilde{ A}_{n})_{n}$ where $\tilde{ A}_{n}:=A_{1} \backslash A_{n}$. Then, $(\tilde{ A}_{n})_{n}$ is increasing and $$\begin{align}\mu(A_{1})-\lim_{ n \to \infty } \mu(A_{n})&=\lim_{ n \to \infty } \mu(\tilde{ A}_{n})=\mu \left( \bigcup_{n=1}^{\infty}\tilde{A}_{n} \right) \\&=\mu \left( \bigcup_{n=1}^{\infty}(A_{1}\backslash A_{n}) \right)=\mu \left( A_{1} \backslash \bigcap_{n=1}^{\infty}A_{n} \right) =\mu(A_{1})-\mu \left( \bigcap_{n=1}^{\infty}A_{n} \right)  \end{align}$$
+> 3. Consider $(B_{n})_{n}$ where $B_{1}:=A_{1}$ and $B_{n}:=A_{n} \backslash A_{n-1}$. Then, $(B_{n})_{n}$ is disjoint and measurable. Hence, $$\mu \left( \bigcup_{n=1}^{\infty}A_{n} \right) =\mu \left( \bigsqcup_{n=1}^{\infty}B_{n} \right) =\sum_{n=1}^{\infty}\mu(B_{n})=\lim_{ m \to \infty } \sum_{n=1}^{m}\mu(B_{n})=\lim_{ m \to \infty } \mu(A_{m})$$
+> 5. Consider $(B_{n})_{n}$ where $B_{n}:=A_{1} \backslash A_{n}$. Then, $(B_{n})_{n}$ is increasing and measurable. Hence, $$\begin{align}\mu(A_{1})-\lim_{ n \to \infty } \mu(A_{n})&=\lim_{ n \to \infty } \mu(B_{n})=\mu \left( \bigcup_{n=1}^{\infty}B_{n} \right) \\&=\mu \left( \bigcup_{n=1}^{\infty}(A_{1}\backslash A_{n}) \right)=\mu \left( A_{1} \backslash \bigcap_{n=1}^{\infty}A_{n} \right) =\mu(A_{1})-\mu \left( \bigcap_{n=1}^{\infty}A_{n} \right)  \end{align}$$
 > which proves our statement, only if $\mu(A_{1})<\infty$.
 
-- **Remark**: If $\mu(A_{1})=+\infty$, for counting measure $\mu$, $(\mathbb{N},\mathcal{ P}(\mathbb{N}), \mu)$ is a measure space. If we let $A_{n}:=\{ m\in \mathbb{N}:m \geq n \}$, then $(A_{n})_{n}$ is decreasing. But, $$\mu \left( \bigcap_{n=1}^{\infty}A_{n} \right) =\mu(\varnothing)=0 \neq +\infty=\lim_{ n \to \infty } \mu(A_{n})$$
+- **Remark**: If $\mu(A_{1})=+\infty$ countinuity from below does not hold: consider $(\mathbb{N},\mathcal{P}(\mathbb{N}),\#)$. If we let $A_{n}:=\{ m\in \mathbb{N}:m \geq n \}$, then $(A_{n})_{n}$ is decreasing. But, $$\mu \left( \bigcap_{n=1}^{\infty}A_{n} \right) =\mu(\varnothing)=0 \neq +\infty=\lim_{ n \to \infty } \mu(A_{n})$$
 ---
 > [!lemma] Theorem 2 (Upper and lower semicontinuity of measures)
 > For a $\sigma$-algebra $\Sigma$ on $X$, an $\sigma$-additive function $\mu:\Sigma\to[0,+\infty]$ and $\{ A_{n} \}_{n}\subseteq \mathcal{P}(X)$, 
