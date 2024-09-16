@@ -1,11 +1,10 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> For a set $X$, a mapping $\mu:\mathcal P(X)\to [0,+\infty]$ is a **measure** on $X$ if 
+> For a measurable space $(X,\mathcal{A})$, a ***(positive) measure*** is a map $\mu: \mathcal{A}\to [0,+\infty]$ s.t. 
 > 1. $\mu(\varnothing)=0$ and
-> 2. $\mu(A)\le\sum_{k=1}^\infty\mu(A_k)$ whenever $A\subseteq \bigcup_{k=1}^\infty A_k$.
-> 
-> This is also called an **outer measure** by many books, reserving measure for $\mu$ restricted to $\mu$-measurable subsets of $X$.
+> 2. **$\sigma$-additive**: $\mu\left( \bigsqcup_{n=1}^{\infty}E_{n} \right)=\sum_{n=1}^{\infty}\mu(E_{n})$ for all disjoint $E_{1},E_{2},\dots\in \mathcal{A}$.
+
 
 - **Remark**: The definition implies monotonicity and [[Additive Functions| $\sigma$-subadditivity]] of $\mu$.
 - **Related definition**: A measure $\mu$ is said to be 
