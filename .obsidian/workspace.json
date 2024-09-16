@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Boolean Algebra.md",
+                "file": "Measure Theory/Sigma Algebra.md",
                 "mode": "source",
                 "source": true
               }
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Boolean Algebra.md",
+                "file": "Measure Theory/Sigma Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Measure Theory/Boolean Algebra.md",
+                "file": "Measure Theory/Sigma Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Measure Theory/Boolean Algebra.md",
+                "file": "Measure Theory/Sigma Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Measure Theory/Boolean Algebra.md"
+                "file": "Measure Theory/Sigma Algebra.md"
               }
             }
           }
@@ -183,8 +183,9 @@
   },
   "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Probability Theory/Discrete Probability Space.md",
     "Measure Theory/Boolean Algebra.md",
+    "Measure Theory/Sigma Algebra.md",
+    "Probability Theory/Discrete Probability Space.md",
     "Complex Analysis/Holomorphic Function.md",
     "Courses/Complex Analysis/Complex Analysis Roadmap.md",
     "Probability Theory",
@@ -211,7 +212,6 @@
     "Functional Analysis/Adjoint Linear Map.md",
     "Lie Group/Integral Curve.md",
     "Lie Group/Flow.md",
-    "Differential Geometry/Smooth Distribution.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

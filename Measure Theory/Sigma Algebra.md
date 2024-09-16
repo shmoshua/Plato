@@ -3,8 +3,8 @@
 > [!definition]
 > For a set $X$, a collection $\mathcal{A}\subseteq \mathcal{P}(X)$ is called a ***$\sigma$-algebra*** if: 
 > 1. $X\in \mathcal{A}$
-> 2. if $A\in \mathcal{A}$ then $A^c\in \mathcal{A}$
-> 3. for any sequence $(A_{n})_{n}\subseteq \mathcal{A}$, $\bigcup_{n=1}^{\infty}A_{n}\in \mathcal{A}$
+> 2. $X \backslash A\in \mathcal{A}$ for any $A\in \mathcal{A}$.
+> 3. $\bigcup_{n=1}^{\infty}A_{n}\in \mathcal{A}$ for any $(A_{n})_{n}\subseteq \mathcal{A}$.
 - **Related definition**: A ***measurable space*** is the tuple $(X,\mathcal{A})$
 
 - **Remark**: If $\mathcal{ E}$ is a $\sigma$-algebra in $X$ and $(A_{n})_{n}\subseteq \mathcal{ E}$, then $\bigcap_{n=1}^{\infty}A_{n}\in \mathcal{E}$. Further, we know that [[Convergence of Sets| $\limsup$ and $\liminf$]] of $A_{n}$ are also in $\mathcal{ E}$.
@@ -32,10 +32,22 @@
 > [!proof]-
 > Uniqueness follows from the definition. For existence, $\mathcal{A}$ could be the intersection of all $\sigma$-algebras on $X$ that contain $\mathcal{E}$.
 ---
-> [!lemma] Proposition 2
+> [!lemma] Lemma 3
+> Let $\mathcal{A}\subseteq \mathcal{P}(X)$ and $P:\mathcal{P}(X)\to \{ \text{true,false} \}$ a property s.t. 
+> 1. $P(\varnothing)$ is true. 
+> 2. $P(E)$ is true for all $E\in \mathcal{A}$.
+> 3. $P(\Omega \backslash E)$ is true for all $E\subseteq X$ s.t. $P(E)$ is true.
+> 4. $P\left( \bigcup_{n}^{}E_{n} \right)$ is true for all $E_{1},E_{2},\dots \subseteq X$ with $P(E_{n})$ true.
+> 
+> Then, $P(E)$ is true for all $E\in \sigma(\mathcal{A})$.
+
+> [!proof]-
+> Notice that $\{ E\subseteq X: P(E)\text{ true}\}$ forms a $\sigma$-algebra that contains $\mathcal{A}$. Therefore, $$\sigma(\mathcal{A})\subseteq \{ E\subseteq X:P(E)\text{ true} \}$$
+---
+> [!lemma] Proposition 4 (Pullback and Pushforward Sigma Algebras)
 > Let $X,Y$ be two sets and $f:X\to Y$ a map. 
-> 1. If $\mathcal{B}$ is a $\sigma$-algebra in $Y$, $\{ f^{-1}[E]: E\in \mathcal{B} \}$ is a $\sigma$-algebra in $X$.
-> 2. If $\mathcal{A}$ is a $\sigma$-algebra in $X$, $\{ E\subseteq Y:f^{-1}[E]\in\mathcal{A} \}$ is a $\sigma$-algebra in $Y$.
+> 1. If $\mathcal{B}$ is a $\sigma$-algebra in $Y$, $f^{*}(\mathcal{B}):=\{ f^{-1}(E): E\in \mathcal{B} \}$ is a $\sigma$-algebra in $X$.
+> 2. If $\mathcal{A}$ is a $\sigma$-algebra in $X$, $f_{*}(\mathcal{A}):=\{ E\subseteq Y:f^{-1}(E)\in\mathcal{A} \}$ is a $\sigma$-algebra in $Y$.
 
 > [!proof]-
 > We will show that:
@@ -51,7 +63,7 @@
     > 	- For $A,B\in\mathcal B$, we havt $f^{-1}(A),f^{-1}(B)\in\mathcal A$. Then, $f^{-1}(A\backslash B)=f^{-1}(A)\backslash f^{-1}(B)\in\mathcal A$. Therefore, $A\backslash B\in\mathcal B$.
     > 	
     > 	Further, for any sequence $(A_n)_n$ from $\mathcal B$, we have that $f^{-1}(A_n)$ is from $\mathcal A$ for all $n$. Therefore, $f^{-1}(\bigcup_{n=1}^\infty A_n)= \bigcup_{n=1}^\infty f^{-1}(A_n)\in\mathcal A$. It follows that $\bigcup_{n=1}^\infty A_n\in\mathcal B$.
-
+- **Remark**: An atomic measurable space can be seen as a pullback of a discrete measurable space w.r.t. the coloring map.
 ---
 ##### Examples
 
