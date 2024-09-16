@@ -5,11 +5,9 @@
 > 1. $\mu(\varnothing)=0$ and
 > 2. **$\sigma$-additive**: $\mu\left( \bigsqcup_{n=1}^{\infty}E_{n} \right)=\sum_{n=1}^{\infty}\mu(E_{n})$ for all disjoint $E_{1},E_{2},\dots\in \mathcal{A}$.
 
-
-- **Remark**: The definition implies monotonicity and [[Additive Functions| $\sigma$-subadditivity]] of $\mu$.
 - **Related definition**: A measure $\mu$ is said to be 
 	1. ***finite***, if $\mu(X)<+\infty$
-	2. ***$\sigma$-finite***, if there exists $(A_{n})_{n}\subseteq \mathcal{ P}(X)$ s.t. $\bigcup_{n=1}^{\infty}A_{n}=X$ and $$\mu(A_{n})<+\infty$$ for all $n$.
+	2. ***$\sigma$-finite***, if there exists $(A_{n})_{n}\subseteq \mathcal{A}$ s.t. $\bigcup_{n=1}^{\infty}A_{n}=X$ and $\mu(A_{n})<+\infty$ for all $n$.
 	3. a ***probability measure***, if $\mu(X)=1$.
 	4. ***metric***, if $X=\mathbb{R}^n$  and for all $A,B \subseteq \mathbb{R}^n$, the distance: $$d(A,B):=\inf\{ |a-b|:a\in A,b\in B \}>0$$we have: $$\mu(A \cup B)=\mu(A)+\mu(B)$$
 --- 

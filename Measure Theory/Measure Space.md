@@ -1,20 +1,24 @@
 #Definition #MeasureTheory 
 
 > [!definition] 
-> For a [[Positive Measure|measure]] $\mu:\mathcal{ P}(X)\to [0,+\infty]$ and a [[Sigma Algebra|$\sigma$-algebra]] $\Sigma$ of all [[Measurable Set|$\mu$-measurable sets]], the tuple $(X,\Sigma,\mu)$ is called a ***measure space***.
+> A ***measure space*** is a tuple $(X,\Sigma,\mu)$ where:
+> 1. $(X,\Sigma)$ is a [[Sigma Algebra|measurable space]] and 
+> 2. $\mu:\Sigma\to[0,+\infty]$ is a [[positive measure]].
 ---
 ##### Properties
 > [!lemma] Theorem 1
 > Let $(X,\Sigma,\mu)$ be a measure space and $(A_{n})_{n}\subseteq \Sigma$, then:
-> 1. **$\sigma$-additivity** of $\mu$: If $(A_{n})_{n}$ is disjoint, $$\mu \left( \bigcup_{n=1}^{\infty}A_{n} \right) =\sum_{n=1}^{\infty}\mu(A_{n})$$
-> 2. **Continuity from above**: If $(A_{n})_{n}$ is increasing, then $$\mu \left( \bigcup_{n=1}^{\infty}A_{n} \right) =\lim_{ n \to \infty } \mu(A_{n})$$
-> 3. **Continuity from below**: If $(A_{n})_{n}$ is decreasing and $\mu(A_{1})<+\infty$, then $$\mu \left( \bigcap_{n=1}^{\infty}A_{n} \right) =\lim_{ n \to \infty } \mu(A_{n})$$
+> 1. **monotonicity**: for $E,F\in \Sigma$ with $E\subseteq F$, $\mu(E)\leq \mu(F)$.
+> 2. **subadditivity**: $\mu\left( \bigcup_{n=1}^{\infty}A_{n} \right)\leq \sum_{n=1}^{\infty}\mu(A_{n})$.
+> 3. **continuity from above**: If $(A_{n})_{n}$ is increasing, then $\mu \left( \bigcup_{n=1}^{\infty}A_{n} \right) =\lim_{ n \to \infty } \mu(A_{n})$
+> 4. **continuity from below**: If $(A_{n})_{n}$ is decreasing and $\mu(A_{1})<+\infty$, then $\mu \left( \bigcap_{n=1}^{\infty}A_{n} \right) =\lim_{ n \to \infty } \mu(A_{n})$.
 
-> [!proof]-
+> [!proof]+
 > We see that:
-> 1. We have $\mu \left( B\cap \bigcup_{n=1}^{m}A_{n} \right)=\sum_{n=1}^{m}\mu(B\cap A_{n})$. By taking $B=X$, we have $\mu \left( \bigcup_{n=1}^{m}A_{n} \right)=\sum_{n=1}^{m}\mu(A_{n})$. Then, $$\mu \left( \bigcup_{n=1}^{\infty}A_{n} \right) \geq \lim_{ m \to \infty } \mu \left( \bigcup_{n=1}^{m}A_{n} \right) =\lim_{ m \to \infty } \sum_{n=1}^{m}\mu(A_{n})=\sum_{n=1}^{\infty}\mu(A_{n}) \geq \mu \left( \bigcup_{n=1}^{\infty}A_{n} \right) $$
-> 2. Consider $(\tilde{ A}_{n})_{n}$ where $\tilde{ A}_{n}:=A_{n} \backslash A_{n-1}$. Then, $(\tilde{ A}_{n})_{n}$ is disjoint and $$\mu \left( \bigcup_{n=1}^{\infty}A_{n} \right) =\mu \left( \bigcup_{n=1}^{\infty}\tilde{ A}_{n} \right) =\sum_{n=1}^{\infty}\mu(\tilde{A}_{n})=\lim_{ m \to \infty } \sum_{n=1}^{m}\mu(\tilde{ A}_{n})=\lim_{ m \to \infty } \mu(A_{m})$$
-> 3. Consider $(\tilde{ A}_{n})_{n}$ where $\tilde{ A}_{n}:=A_{1} \backslash A_{n}$. Then, $(\tilde{ A}_{n})_{n}$ is increasing and $$\begin{align}\mu(A_{1})-\lim_{ n \to \infty } \mu(A_{n})&=\lim_{ n \to \infty } \mu(\tilde{ A}_{n})=\mu \left( \bigcup_{n=1}^{\infty}\tilde{A}_{n} \right) \\&=\mu \left( \bigcup_{n=1}^{\infty}(A_{1}\backslash A_{n}) \right)=\mu \left( A_{1} \backslash \bigcap_{n=1}^{\infty}A_{n} \right) =\mu(A_{1})-\mu \left( \bigcap_{n=1}^{\infty}A_{n} \right)  \end{align}$$
+> 1. $F=E\sqcup (F \backslash E)$ and therefore, $$\mu(F)=\mu(E)+\mu(F \backslash E)\geq \mu(E)$$ 
+> 2.  Let's define inductively, $B_{1}:=A_{1}$ and $B_{n}:=A_{n} \backslash B_{n-1}$. Then, $B_{n}$ are measurable and:$$\sum_{n=1}^{\infty}\mu(A_{n})\geq \sum_{n=1}^{\infty}\mu(B_{n})=\mu\left( \bigsqcup_{n=1}^{\infty}B_{n} \right)=\mu\left( \bigcup_{n=1}^{\infty}A_{n} \right)$$
+> 3. Consider $(B_{n})_{n}$ where $B_{1}:=A_{1}$ and $B_{n}:=A_{n} \backslash A_{n-1}$. Then, $(\tilde{ A}_{n})_{n}$ is disjoint and $$\mu \left( \bigcup_{n=1}^{\infty}A_{n} \right) =\mu \left( \bigcup_{n=1}^{\infty}\tilde{ A}_{n} \right) =\sum_{n=1}^{\infty}\mu(\tilde{A}_{n})=\lim_{ m \to \infty } \sum_{n=1}^{m}\mu(\tilde{ A}_{n})=\lim_{ m \to \infty } \mu(A_{m})$$
+> 5. Consider $(\tilde{ A}_{n})_{n}$ where $\tilde{ A}_{n}:=A_{1} \backslash A_{n}$. Then, $(\tilde{ A}_{n})_{n}$ is increasing and $$\begin{align}\mu(A_{1})-\lim_{ n \to \infty } \mu(A_{n})&=\lim_{ n \to \infty } \mu(\tilde{ A}_{n})=\mu \left( \bigcup_{n=1}^{\infty}\tilde{A}_{n} \right) \\&=\mu \left( \bigcup_{n=1}^{\infty}(A_{1}\backslash A_{n}) \right)=\mu \left( A_{1} \backslash \bigcap_{n=1}^{\infty}A_{n} \right) =\mu(A_{1})-\mu \left( \bigcap_{n=1}^{\infty}A_{n} \right)  \end{align}$$
 > which proves our statement, only if $\mu(A_{1})<\infty$.
 
 - **Remark**: If $\mu(A_{1})=+\infty$, for counting measure $\mu$, $(\mathbb{N},\mathcal{ P}(\mathbb{N}), \mu)$ is a measure space. If we let $A_{n}:=\{ m\in \mathbb{N}:m \geq n \}$, then $(A_{n})_{n}$ is decreasing. But, $$\mu \left( \bigcap_{n=1}^{\infty}A_{n} \right) =\mu(\varnothing)=0 \neq +\infty=\lim_{ n \to \infty } \mu(A_{n})$$
