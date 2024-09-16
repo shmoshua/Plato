@@ -1,7 +1,7 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> Let $\mathcal{A}\subseteq \mathcal{P}(X)$ be an [[Measure Theory/Algebra|algebra]] and $\mu:\mathcal{A} \to [0,+\infty]$ with $\mu(\varnothing)=0$.
+> Let $\mathcal{A}\subseteq \mathcal{P}(X)$ be an [[Boolean Algebra|algebra]] and $\mu:\mathcal{A} \to [0,+\infty]$ with $\mu(\varnothing)=0$.
 > 1. $\mu$ is **additive**, if for any disjoint $A_{1},\dots,A_{n}\in \mathcal{A}$, i.e. $A_{i}\cap A_{j}=\varnothing$ for $i \neq j$, we have: $$\mu \left( \bigcup_{i=1}^{n}A_{i} \right) =\sum_{i=1}^{n}\mu(A_{i})$$
 > 2. $\mu$ is **$\sigma$-additive**, if for any disjoint $(A_{n})_{n}\subseteq \mathcal{A}$, i.e. $A_{i}\cap A_{j}=\varnothing$ for $i \neq j$ s.t. $\bigcup_{n=1}^{\infty}A_{n}\in \mathcal{A}$, we have: $$\mu \left( \bigcup_{n=1}^{\infty}A_{n} \right) =\sum_{n=1}^{\infty}\mu(A_{n})$$
 > 	Notice that the condition $\bigcup_{n=1}^{\infty}A_{n}\in \mathcal{A}$ always holds if $\mathcal{A}$ is a $\sigma$-algebra.

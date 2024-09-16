@@ -14,26 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Complex Analysis/Complex Analysis Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8eeac08fd8fe5c77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Complex Analysis/Holomorphic Function.md",
+                "file": "Measure Theory/Boolean Algebra.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -46,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Complex Analysis/Holomorphic Function.md",
+                "file": "Measure Theory/Boolean Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -130,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Complex Analysis/Holomorphic Function.md",
+                "file": "Measure Theory/Boolean Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Complex Analysis/Holomorphic Function.md",
+                "file": "Measure Theory/Boolean Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Complex Analysis/Holomorphic Function.md"
+                "file": "Measure Theory/Boolean Algebra.md"
               }
             }
           }
@@ -194,12 +181,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e7abf45b75361867",
+  "active": "0a3edd71115ec4ad",
   "lastOpenFiles": [
-    "Courses/Complex Analysis/Complex Analysis Roadmap.md",
+    "Probability Theory/Discrete Probability Space.md",
+    "Measure Theory/Boolean Algebra.md",
     "Complex Analysis/Holomorphic Function.md",
-    "Courses/Complex Analysis",
+    "Courses/Complex Analysis/Complex Analysis Roadmap.md",
+    "Probability Theory",
+    "Courses/Probability Theory",
     "Courses/Untitled.md",
+    "Courses/Complex Analysis",
     "Lie Group/Ideal (Lie Algebra).md",
     "Measure Theory/Hausdorff Measure.md",
     "Lie Group/Solvable Lie Algebra.md",
@@ -221,8 +212,6 @@
     "Lie Group/Integral Curve.md",
     "Lie Group/Flow.md",
     "Differential Geometry/Smooth Distribution.md",
-    "Differential Geometry/Submanifold.md",
-    "Lie Group/Local Homomorphism.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
@@ -230,8 +219,6 @@
     "ML Theory",
     "Representation Theory",
     "Courses/Representation Theory",
-    "Courses/Functional Analysis II/Untitled",
-    "Courses/Analysis IV",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }

@@ -4,7 +4,7 @@
 > A set $\mathcal{K}\subseteq \mathcal{P}(X)$ is a (set) ***covering*** of $X$, if:
 > 1. $\varnothing\in \mathcal{K}$,
 > 2. there exists $(K_{i})_{i}\subseteq \mathcal{K}$ s.t. $X=\bigcup_{i=1}^{\infty}K_{i}$.
-- **Remark**: every [[Measure Theory/Algebra|algebra]] $\mathcal{A}\subseteq \mathcal{P}(X)$ is a covering of $X$.
+- **Remark**: every [[Boolean Algebra|algebra]] $\mathcal{A}\subseteq \mathcal{P}(X)$ is a covering of $X$.
 - **Related Definition**: A covering $\mathcal{K}$ is ***open*** if all sets in $\mathcal{K}$ are open.
 ---
 ##### Properties

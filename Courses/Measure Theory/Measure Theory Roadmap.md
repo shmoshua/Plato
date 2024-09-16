@@ -9,7 +9,7 @@
 ##### 1. Measure Spaces
 **1.1 Rings, Algebras and $\sigma$-Algebras**
 1. [[Convergence of Sets]], $\limsup, \liminf$
-2. [[Algebra]]
+2. [[Boolean Algebra]]
 3. [[Sigma Algebra]]
 4. [[Borel Sigma-Algebra]]
 

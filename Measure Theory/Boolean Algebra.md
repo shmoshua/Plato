@@ -1,10 +1,13 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> Let $\varnothing \neq \mathcal{A} \subseteq \mathcal{P}(X)$. $\mathcal{A}$ is called a ***ring*** in $X$, if:
-> 1. $\varnothing \in \mathcal{A}$
-> 2. $A,B\in \mathcal{A}$ implies $A \cup B \in \mathcal{A}$.
-> 3. $A,B\in\mathcal{A}$ implies $A \backslash B\in \mathcal{A}$.
+> Let $\varnothing \neq \mathcal{A} \subseteq \mathcal{P}(X)$. $\mathcal{A}$ is called a:
+> 1.  ***Boolean ring*** in $X$, if:
+> 	1. $\varnothing \in \mathcal{A}$
+> 	2. $A\cup B\in \mathcal{A}$ for all $A,B\in \mathcal{A}$.
+> 	3. $A \backslash $
+> 	4. $A,B\in \mathcal{A}$ implies $A \cup B \in \mathcal{A}$.
+> 	5. $A,B\in\mathcal{A}$ implies $A \backslash B\in \mathcal{A}$.
 > 
 > Notice that this is a specification of the [[Ring| ring]] we know, but on sets.  A ring is an ***algebra*** if $X\in\mathcal{A}$.
 
