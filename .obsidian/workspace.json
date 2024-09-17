@@ -99,8 +99,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Measure Theory/Summable Function.md",
+                "file": "Measure Theory/Lebesgue Integral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Measure Theory/Summable Function.md",
+                "file": "Measure Theory/Lebesgue Integral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Measure Theory/Summable Function.md"
+                "file": "Measure Theory/Lebesgue Integral.md"
               }
             }
           }
@@ -230,8 +229,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "76843012e31e4d67",
+  "active": "e7abf45b75361867",
   "lastOpenFiles": [
+    "Measure Theory/Summable Function.md",
     "Measure Theory/Lebesgue Integral.md",
     "Measure Theory/Simple Function.md",
     "Measure Theory/Measure Space.md",
@@ -260,7 +260,6 @@
     "Lie Group/Lie Subgroup.md",
     "Algebra/Ideal (Ring).md",
     "Lie Group/Topological Group.md",
-    "Lie Group/Weight.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
