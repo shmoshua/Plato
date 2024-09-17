@@ -72,7 +72,7 @@
 
 ---
 > [!lemma] Proposition 8
-> Let $f:[a,b]\to \mathbb{R}$ be a bounded Riemann-integrable function. Then, it is [[Integrable Function|$\mathcal{L}^1$-integrable]] and: $$\mathcal{R}\int_{a}^{b} f(x) \, dx =\int_{[a,b]}f  \, d\mathcal{L}^1 $$
+> Let $f:[a,b]\to \mathbb{R}$ be a bounded Riemann-integrable function. Then, it is [[Lebesgue Integral|$\mathcal{L}^1$-integrable]] and: $$\mathcal{R}\int_{a}^{b} f(x) \, dx =\int_{[a,b]}f  \, d\mathcal{L}^1 $$
 
 > [!proof]-
 > We have: $$\mathcal{R}\underline{\int_{a}^b}f(x) \, dx=\underline{\int_{[a,b]}}f \, d\mathcal{L}^1=\overline{\int_{[a,b]}}f \, d\mathcal{L}^1=\mathcal{R}\overline{\int_{a}^{b}}f(x)  \, dx    $$
@@ -83,7 +83,7 @@
 > [!proof]-
 > Let $g_{b}:=\left| f \right|\cdot \chi_{[a,b]}$. Then, $g_{b}$ is $\mathcal{L}^1$-summable as they are Riemann-integrable, by Proposition 8. Moreover, $g_{b}$ is an increasing sequence which converges to $\left| f \right|$ pointwise. 
 > 
-> Therefore, by the [[Integrable Function|Monotone Convergence Theorem]], $f$ is $\mathcal{L}^1$-summable if and only if $$\infty>\lim_{ b \to \infty }\int_{[a,+\infty)}g_{b}  \, d\mathcal{L}^1=\lim_{ b \to \infty } \int_{a}^{b}\left| f(x) \right|   \, dx   $$
+> Therefore, by the [[Lebesgue Integral|Monotone Convergence Theorem]], $f$ is $\mathcal{L}^1$-summable if and only if $$\infty>\lim_{ b \to \infty }\int_{[a,+\infty)}g_{b}  \, d\mathcal{L}^1=\lim_{ b \to \infty } \int_{a}^{b}\left| f(x) \right|   \, dx   $$
 ---
 > [!lemma] Theorem 10 (Change of Variable)
 > Let $\Omega,O\subseteq \mathbb{R}^n$ be two open sets, $\Phi:\Omega\to O$ be a [[Diffeomorphism|$C^1$-diffeomorphism]]. Then, for $f:O\to \overline{\mathbb{R}}$:

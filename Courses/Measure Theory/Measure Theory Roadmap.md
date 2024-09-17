@@ -71,15 +71,15 @@
 
 **3.1 Integration and Properties**
 1. Integral of [[Simple Function]]s
-2. [[Integrable Function]]
+2. [[Lebesgue Integral]]
 3. [[Summable Function]]
 
 **3.2 Comparison between Lebesgue and Riemann Integrals**
 1. [[Lebesgue Measure]]
 
 **3.3 Convergence Results**
-1. [[Integrable Function|Fatou's Lemma]]
-2. [[Integrable Function|Monotone Convergence Theorem]]
+1. [[Lebesgue Integral|Fatou's Lemma]]
+2. [[Lebesgue Integral|Monotone Convergence Theorem]]
 3. [[Summable Function|Dominated Convergence Theorem]]
 
 **3.4 Vitali's Theorem**

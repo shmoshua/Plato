@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Probability Space.md",
+                "file": "Measure Theory/Lebesgue Integral.md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Probability Space.md",
+                "file": "Measure Theory/Lebesgue Integral.md",
                 "mode": "preview",
                 "source": true
               }
@@ -74,8 +74,33 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "aca35c7dfe4d632d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Simple Function.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "76843012e31e4d67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Summable Function.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -141,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Probability Space.md",
+                "file": "Measure Theory/Summable Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Probability Space.md",
+                "file": "Measure Theory/Summable Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Probability Space.md"
+                "file": "Measure Theory/Summable Function.md"
               }
             }
           }
@@ -205,11 +230,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0a3edd71115ec4ad",
+  "active": "76843012e31e4d67",
   "lastOpenFiles": [
-    "Measure Theory/Lebesgue-Stieltjes Measure.md",
-    "Probability Theory/Probability Space.md",
+    "Measure Theory/Lebesgue Integral.md",
+    "Measure Theory/Simple Function.md",
     "Measure Theory/Measure Space.md",
+    "Probability Theory/Probability Space.md",
+    "Measure Theory/Lebesgue-Stieltjes Measure.md",
     "Measure Theory/Sigma Algebra.md",
     "Measure Theory/Positive Measure.md",
     "Untitled.md",
@@ -234,8 +261,6 @@
     "Algebra/Ideal (Ring).md",
     "Lie Group/Topological Group.md",
     "Lie Group/Weight.md",
-    "Courses/Lie Groups/Lie Groups Roadmap.md",
-    "Lie Group/Lie Group Representation.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",

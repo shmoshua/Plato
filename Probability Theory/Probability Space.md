@@ -6,6 +6,7 @@
 > 2. A ***probability space*** is a tuple $(\Omega,\mathcal{F},\mu)$.
 - **Related definition**: A ***random variable*** is a map $X:(\Omega,\mathcal{F},\mu)\to R$ is a [[measurable function]] from a probability space to a measurable space.
 - **Related definition**: A ***cumulative distribution function*** $F$ of a real random variable $X$ is a function $F:\mathbb{R}\to[0,1],t\mapsto \text{P}(X\leq t)$.
+- **Related definition**: An ***extension*** of a probability space $(\Omega,\mathcal{F},\mu)$ is another probability space $(\Omega',\mathcal{F',\mu'})$ with a surjective [[Measurable Function|measurable map]] $\pi:\Omega'\to\Omega$ s.t. $\mu'(\pi ^{-1}(E))=\mu(E)$ for all $E\in \mathcal{F}$.
 ---
 ##### Properties
 

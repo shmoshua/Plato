@@ -1,6 +1,9 @@
 #Definition #MeasureTheory 
 
 > [!definition]
+> Let $(\Omega,\mathcal{F},\mu)$ be a [[measure space]]. Then,
+> 1. For a unsigned measurable [[simple function]] $f:\Omega\to[0,+\infty]$ given by $f=\sum_{i=1}^{n}a_{i}\chi_{E_{i}}$ with $a_{n}\in [0,+\infty]$, $$\int_{\Omega}f \, d\mu:=\sum_{i=1}^{n}a_{i}\mu(E_{i}) $$
+> 2. 
 > Let $\mu$ be a [[Radon Measure|Radon measure]] on $\mathbb{R}^n$ and $\Omega \subseteq \mathbb{R}^n$ a $\mu$-measurable set. Then, for a [[Measurable Function|$\mu$-measurable]] function $f:\Omega\to \overline{\mathbb{R}}$, we define:
 > 1. the ***upper integral***: $$\overline{\int_{\Omega}}f \, d\mu :=\inf \left\{ \int_{\Omega}^{} g \, d\mu:g\text{ is simple, }\mu \text{-integrable},  g\geq f \text{ }\mu \text{-a.e.}  \right\}\in \overline{\mathbb{R}} $$
 > 2. the ***lower integral***: $$\underline{\int_{\Omega}}f \, d\mu :=\sup \left\{ \int_{\Omega}^{} g \, d\mu:g\text{ is simple, }\mu \text{-integrable},  g\leq f \text{ }\mu \text{-a.e.}  \right\} \in \overline{\mathbb{R}}$$
@@ -8,6 +11,12 @@
 > Then, $f$ is ***$\mu$-integrable*** if $\overline{\int_{\Omega}}f \, d\mu=\underline{\int_{\Omega}}f \, d\mu$. Then, we write: $$\int_{\Omega}^{} f \, d\mu =\overline{\int_{\Omega}}f \, d\mu=\underline{\int_{\Omega}}f \, d\mu  $$
 ---
 ##### Properties
+> [!lemma] Lemma 1 (Properties of the Lebesgue Integral for Simple Functions)
+> Let $f,g:\Omega\to[0,+\infty]$ be unsigned measurable simple functions and $c\in [0,+\infty]$. Then, 
+> 1. $\int_{\Omega}^{} f \, d\mu$ is well-defined.
+> 2. **linearity**: $\int_{\Omega}^{} f+g \, d\mu=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu$ and $\int_{\Omega}^{} cf \, d\mu=c\int_{\Omega}^{} f \, d\mu$
+> 3. 
+
 > [!lemma] Proposition 1
 > It holds that: $$\underline{\int_{\Omega}}f \, d\mu \leq \overline{\int_{\Omega}}f \, d\mu $$
 
