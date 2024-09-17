@@ -25,10 +25,12 @@
 > 2. $\lim_{ t \to -\infty }F(t)=0$ and $\lim_{ t \to +\infty }F(t)=1$.
 > 3. $F$ is right-continuous, i.e. $F(t)=\lim_{ s \to t^+ }F(s)$ for all $t\in \mathbb{R}$. 
 > 4. $\lim_{ s \to t^- }F(s)=\text{P}(X<t)$ for all $t\in \mathbb{R}$.
-> 5. $\text{P}(X=t)=$
 
 > [!proof]-
 > We have that:
 > 1. Let $s\leq t$. Then, $F(s)=\text{P}(X\leq s)\leq \text{P}(X\leq t)=F(t)$ by $\{ X\leq s \}\subseteq \{ X \leq t \}$ and monotonicity.
 > 2. We have that: $$\lim_{ t \to -\infty } F(t)=\lim_{ n \to \infty } F(-n)=\lim_{ n \to \infty } \text{P}(X \leq-n)=\text{P}\left( \bigcap_{n=1}^{\infty}\{ X\leq-n \} \right) =\text{P}(\varnothing)=0$$and $$\lim_{ t \to +\infty } F(t)=\lim_{ n \to \infty } F(n)=\lim_{ n \to \infty } \text{P}(X\leq n)=\text{P}\left( \bigcup_{n=1}^{\infty}\{ X\leq n \} \right)=\text{P}(\Omega)=1 $$
 > 3. We have that: $$\lim_{ s \to t^+ } F(s)=\lim_{ n\to \infty }F\left( t+\frac{1}{n} \right)=\lim_{ n \to \infty } \text{P}\left( X\leq t+\frac{1}{n} \right)=\text{P}\left( \bigcap_{n=1}^{\infty}\left\{  X\leq t+\frac{1}{n}  \right\} \right) =F(t) $$
+> 4. We have that: $$\lim_{ s \to t^- } F(s)=\lim_{ n \to \infty } F\left( t-\frac{1}{n} \right)=\text{P}\left( \bigcup_{n=1}^{\infty}\left\{  X\leq t-\frac{1}{n}  \right\} \right)=\text{P}(X<t)$$
+
+- **Corollary**: $\text{P}(X=t)=F(t)-\lim_{ s \to t^- }F(s)$ and $F$ is continuous if and only if $\text{P}(X=t)=0$ for all $t\in \mathbb{R}$. 
