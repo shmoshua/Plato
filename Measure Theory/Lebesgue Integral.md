@@ -15,9 +15,18 @@
 > Let $f,g:\Omega\to[0,+\infty]$ be unsigned measurable simple functions and $c\in [0,+\infty]$. Then, 
 > 1. $\int_{\Omega}^{} f \, d\mu$ is well-defined.
 > 2. **linearity**: $\int_{\Omega}^{} f+g \, d\mu=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu$ and $\int_{\Omega}^{} cf \, d\mu=c\int_{\Omega}^{} f \, d\mu$
-> 3. 
+> 3. $\int_{\Omega}^{} f \, d\mu\geq 0$ with equality if and only if $f=0$ almost everywhere.
 > 4. if $f=g$ almost everywhere, $\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{} g \, d\mu$.
+> 5. if $f\leq g$ almost everywhere, $\int_{\Omega}f  \, d\mu\leq \int_{\Omega}^{} g \, d\mu$.
+> 6. **Markov inequality**: for any $0<t<+\infty$, $$\mu(\{ \omega\in \Omega: f(\omega)\geq t \})\leq \frac{1}{t}\int_{\Omega}^{} f \, d\mu $$
 
+> [!proof]+
+> We have:
+> 1. Let $f=\sum_{i=1}^{n}a_{i}\chi_{E_{i}}=\sum_{j=1}^{m}b_{j}\chi_{F_{j}}$. First, let's assume that $F_{j}$ are disjoint and non-empty. Then, we know that $E_{i}$ is expressible as the union of the subcollection of $F_{j}$s. By grouping them appropriately we have that: $$\sum_{i=1}^{n}a_{i} \mu(E_{i})=\sum_{j=1}^{m}b_{j}\mu(F_{j})$$
+>    Now, if $F_{j}$ are not disjoint, we can refactor them into finite number of disjoint sets. therefore, we get that the integral is well-defined.
+> 2. Holds trivially from simple functions and the integral definition. 
+> 3. It is trivially non-negative. If 
+---
 > [!lemma] Proposition 1
 > It holds that: $$\underline{\int_{\Omega}}f \, d\mu \leq \overline{\int_{\Omega}}f \, d\mu $$
 
