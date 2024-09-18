@@ -2,8 +2,8 @@
 
 > [!definition]
 > Let $(\Omega,\mathcal{F},\mu)$ be a [[measure space]]. Then,
-> 1. For a unsigned measurable [[simple function]] $f:\Omega\to[0,+\infty]$ given by $f=\sum_{i=1}^{n}a_{i}\chi_{E_{i}}$ with $a_{n}\in [0,+\infty]$, $$\int_{\Omega}f \, d\mu:=\sum_{i=1}^{n}a_{i}\mu(E_{i}) $$
-> 2. 
+> 1. For an unsigned measurable [[simple function]] $f:\Omega\to[0,+\infty]$ given by $f=\sum_{i=1}^{n}a_{i}\chi_{E_{i}}$ with $a_{n}\in [0,+\infty]$, $$\int_{\Omega}f \, d\mu:=\sum_{i=1}^{n}a_{i}\mu(E_{i}) $$
+> 2. For an unsigned measurable function $f:\Omega\to[0,+\infty]$, $$\int_{\Omega}^{} f \, d\mu:=\sup_{0\leq g\leq f, g\in \mathcal{S}(\Omega)}\int_{\Omega}^{} g \, d\mu  $$
 > Let $\mu$ be a [[Radon Measure|Radon measure]] on $\mathbb{R}^n$ and $\Omega \subseteq \mathbb{R}^n$ a $\mu$-measurable set. Then, for a [[Measurable Function|$\mu$-measurable]] function $f:\Omega\to \overline{\mathbb{R}}$, we define:
 > 1. the ***upper integral***: $$\overline{\int_{\Omega}}f \, d\mu :=\inf \left\{ \int_{\Omega}^{} g \, d\mu:g\text{ is simple, }\mu \text{-integrable},  g\geq f \text{ }\mu \text{-a.e.}  \right\}\in \overline{\mathbb{R}} $$
 > 2. the ***lower integral***: $$\underline{\int_{\Omega}}f \, d\mu :=\sup \left\{ \int_{\Omega}^{} g \, d\mu:g\text{ is simple, }\mu \text{-integrable},  g\leq f \text{ }\mu \text{-a.e.}  \right\} \in \overline{\mathbb{R}}$$
@@ -20,13 +20,27 @@
 > 5. if $f\leq g$ almost everywhere, $\int_{\Omega}f  \, d\mu\leq \int_{\Omega}^{} g \, d\mu$.
 > 6. **Markov inequality**: for any $0<t<+\infty$, $$\mu(\{ \omega\in \Omega: f(\omega)\geq t \})\leq \frac{1}{t}\int_{\Omega}^{} f \, d\mu $$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $f=\sum_{i=1}^{n}a_{i}\chi_{E_{i}}=\sum_{j=1}^{m}b_{j}\chi_{F_{j}}$. First, let's assume that $F_{j}$ are disjoint and non-empty. Then, we know that $E_{i}$ is expressible as the union of the subcollection of $F_{j}$s. By grouping them appropriately we have that: $$\sum_{i=1}^{n}a_{i} \mu(E_{i})=\sum_{j=1}^{m}b_{j}\mu(F_{j})$$
 >    Now, if $F_{j}$ are not disjoint, we can refactor them into finite number of disjoint sets. therefore, we get that the integral is well-defined.
 > 2. Holds trivially from simple functions and the integral definition. 
-> 3. It is trivially non-negative. If 
+> 3. It is trivially non-negative. If $\int_{\Omega}^{} f \, d\mu=\sum_{i=1}^{n}a_{i}\mu(E_{i})=0$, then for all $i$ either $\mu(E_{i})=0$ or $a_{i}=0$. Hence, $f=0$ almost everywhere. Conversely, if $f$ is $0$ almost everywhere, we have that $\int_{\Omega}^{} f \, d\mu=0$. 
+> 4. if $f=g$ almost everywhere $f-g=0$ almost everywhere and by 3 $\int_\Omega f-g  \, d\mu=0$. By linearity, $\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{} g \, d\mu$.
+> 5. if $f\leq g$ almost everywhere, let: $h:=\max(0,g-f)$ which is a unsigned measurable simple function where $f+h=g$ almost everywhere. Therefore, $$\int_{\Omega}^{} f \, d\mu \leq \int_{\Omega}^{} f+h \, d\mu =\int_{\Omega}^{} g \, d\mu $$
+> 6. For any $0<t<+\infty$, let $E:=\{ \omega\in \Omega:f(\omega)\geq t \}$ which is measurable. Then, $t\chi_{E}\leq f$ almost everywhere and: $$t\mu(E)\leq \int_{\Omega} f \, d\mu $$
 ---
+> [!lemma] Lemma 2 (Properties of the Lebesgue Integral for Unsigned Functions)
+> Let $f,g:\Omega\to[0,+\infty]$ be unsigned measurable simple functions and $c\in [0,+\infty]$. Then, 
+> 1. $\int_{\Omega}^{} f \, d\mu$ is well-defined.
+> 2. **linearity**: $\int_{\Omega}^{} f+g \, d\mu=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu$ and $\int_{\Omega}^{} cf \, d\mu=c\int_{\Omega}^{} f \, d\mu$
+> 3. $\int_{\Omega}^{} f \, d\mu\geq 0$ with equality if and only if $f=0$ almost everywhere.
+> 4. if $f=g$ almost everywhere, $\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{} g \, d\mu$.
+> 5. if $f\leq g$ almost everywhere, $\int_{\Omega}f  \, d\mu\leq \int_{\Omega}^{} g \, d\mu$.
+> 6. **Markov inequality**: for any $0<t<+\infty$, $$\mu(\{ \omega\in \Omega: f(\omega)\geq t \})\leq \frac{1}{t}\int_{\Omega}^{} f \, d\mu $$
+
+---
+
 > [!lemma] Proposition 1
 > It holds that: $$\underline{\int_{\Omega}}f \, d\mu \leq \overline{\int_{\Omega}}f \, d\mu $$
 
