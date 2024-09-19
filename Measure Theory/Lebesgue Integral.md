@@ -30,14 +30,22 @@
 > 5. if $f\leq g$ almost everywhere, let: $h:=\max(0,g-f)$ which is a unsigned measurable simple function where $f+h=g$ almost everywhere. Therefore, $$\int_{\Omega}^{} f \, d\mu \leq \int_{\Omega}^{} f+h \, d\mu =\int_{\Omega}^{} g \, d\mu $$
 > 6. For any $0<t<+\infty$, let $E:=\{ \omega\in \Omega:f(\omega)\geq t \}$ which is measurable. Then, $t\chi_{E}\leq f$ almost everywhere and: $$t\mu(E)\leq \int_{\Omega} f \, d\mu $$
 ---
-> [!lemma] Lemma 2 (Properties of the Lebesgue Integral for Unsigned Functions)
-> Let $f,g:\Omega\to[0,+\infty]$ be unsigned measurable simple functions and $c\in [0,+\infty]$. Then, 
-> 1. $\int_{\Omega}^{} f \, d\mu$ is well-defined.
-> 2. **linearity**: $\int_{\Omega}^{} f+g \, d\mu=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu$ and $\int_{\Omega}^{} cf \, d\mu=c\int_{\Omega}^{} f \, d\mu$
+> [!lemma] Lemma 2 (Properties of the Lebesgue Integral for  Functions)
+> Let $f,g:\Omega\to[0,+\infty]$ be unsigned measurable functions and $c\in [0,+\infty]$. Then, 
+> 1. **superadditivity**: $\int_{\Omega}^{} f+g \, d\mu\geq\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu$ and $\int_{\Omega}^{} cf \, d\mu=c\int_{\Omega}^{} f \, d\mu$
 > 3. $\int_{\Omega}^{} f \, d\mu\geq 0$ with equality if and only if $f=0$ almost everywhere.
 > 4. if $f=g$ almost everywhere, $\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{} g \, d\mu$.
 > 5. if $f\leq g$ almost everywhere, $\int_{\Omega}f  \, d\mu\leq \int_{\Omega}^{} g \, d\mu$.
-> 6. **Markov inequality**: for any $0<t<+\infty$, $$\mu(\{ \omega\in \Omega: f(\omega)\geq t \})\leq \frac{1}{t}\int_{\Omega}^{} f \, d\mu $$
+> 6. **Markov inequality**: for any $0<t<+\infty$, $$\mu(\{ \omega\in \Omega: f(\omega)\geq t \})\leq \frac{1}{t}\int_{\Omega}^{} f \, d\mu $$In particular, if $\int_{\Omega}^{} f \, d\mu<+\infty$, then $f$ is finite almost everywhere.
+> 7. if $f$ is simple, $\int_{\Omega}^{} f \, d\mu$ is well-defined.
+
+> [!proof]+
+> We have:
+> 1. Let $\tilde{f},\tilde{g}$ be simple functions s.t. $0\leq \tilde{f}\leq f$ and $0\leq \tilde{g}\leq g$. Then, $0\leq\tilde{f}+\tilde{g}\leq f+g$ and: $$\int_{0}^{\infty}  \, dx $$
+> 3. It is trivially non-negative. If $\int_{\Omega}^{} f \, d\mu=\sum_{i=1}^{n}a_{i}\mu(E_{i})=0$, then for all $i$ either $\mu(E_{i})=0$ or $a_{i}=0$. Hence, $f=0$ almost everywhere. Conversely, if $f$ is $0$ almost everywhere, we have that $\int_{\Omega}^{} f \, d\mu=0$. 
+> 4. if $f=g$ almost everywhere $f-g=0$ almost everywhere and by 3 $\int_\Omega f-g  \, d\mu=0$. By linearity, $\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{} g \, d\mu$.
+> 5. if $f\leq g$ almost everywhere, let: $h:=\max(0,g-f)$ which is a unsigned measurable simple function where $f+h=g$ almost everywhere. Therefore, $$\int_{\Omega}^{} f \, d\mu \leq \int_{\Omega}^{} f+h \, d\mu =\int_{\Omega}^{} g \, d\mu $$
+> 6. For any $0<t<+\infty$, let $E:=\{ \omega\in \Omega:f(\omega)\geq t \}$ which is measurable. Then, $t\chi_{E}\leq f$ almost everywhere and: $$t\mu(E)\leq \int_{\Omega} f \, d\mu $$
 
 ---
 
