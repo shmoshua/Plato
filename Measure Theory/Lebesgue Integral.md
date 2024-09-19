@@ -38,14 +38,23 @@
 > 5. if $f\leq g$ almost everywhere, $\int_{\Omega}f  \, d\mu\leq \int_{\Omega}^{} g \, d\mu$.
 > 6. **Markov inequality**: for any $0<t<+\infty$, $$\mu(\{ \omega\in \Omega: f(\omega)\geq t \})\leq \frac{1}{t}\int_{\Omega}^{} f \, d\mu $$In particular, if $\int_{\Omega}^{} f \, d\mu<+\infty$, then $f$ is finite almost everywhere.
 > 7. if $f$ is simple, $\int_{\Omega}^{} f \, d\mu$ is well-defined.
+> 9. **Linearity**: $\int_{\Omega}^{} f+g \, d\mu=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu$. 
 
 > [!proof]+
 > We have:
-> 1. Let $\tilde{f},\tilde{g}$ be simple functions s.t. $0\leq \tilde{f}\leq f$ and $0\leq \tilde{g}\leq g$. Then, $0\leq\tilde{f}+\tilde{g}\leq f+g$ and: $$\int_{0}^{\infty}  \, dx $$
-> 3. It is trivially non-negative. If $\int_{\Omega}^{} f \, d\mu=\sum_{i=1}^{n}a_{i}\mu(E_{i})=0$, then for all $i$ either $\mu(E_{i})=0$ or $a_{i}=0$. Hence, $f=0$ almost everywhere. Conversely, if $f$ is $0$ almost everywhere, we have that $\int_{\Omega}^{} f \, d\mu=0$. 
+> 1. Let $\tilde{f},\tilde{g}$ be simple functions s.t. $0\leq \tilde{f}\leq f$ and $0\leq \tilde{g}\leq g$. Then, $0\leq\tilde{f}+\tilde{g}\leq f+g$ and: $$\int_{\Omega}^{} f+g \, d\mu\geq \int_{\Omega}^{} \tilde{f}+\tilde{g} \, d\mu=\int_{\Omega}^{} \tilde{f} \, d\mu+\int_{\Omega}^{} \tilde{g} \, d\mu    $$Further it holds trivially that $\int_{\Omega}^{} cf \, d\mu=c\int_{\Omega}^{} f \, d\mu$.
+> 2. It is non-negative as $f\geq 0$. If $f>0$ on $E\subseteq\Omega$ that is not a null set, then we can find $\varepsilon>0$ and $E'\subseteq\Omega$ s.t. $f\geq \varepsilon \chi_{E'}$ where $E'$ is measurable. Hence, $\int_{\Omega}^{} f \, d\mu\geq \varepsilon \mu(E')>0$. Conversely, if $\int_{\Omega}^{} f \, d\mu>0$, then there exists a simple function $\tilde{f}\leq f$ with $\int_{\Omega}^{} \tilde{f} \, d\mu >0$ and by Lemma 1.3, $\tilde{f}$ is not $0$ almost everywhere, which implies that neither is $f$.
 > 4. if $f=g$ almost everywhere $f-g=0$ almost everywhere and by 3 $\int_\Omega f-g  \, d\mu=0$. By linearity, $\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{} g \, d\mu$.
-> 5. if $f\leq g$ almost everywhere, let: $h:=\max(0,g-f)$ which is a unsigned measurable simple function where $f+h=g$ almost everywhere. Therefore, $$\int_{\Omega}^{} f \, d\mu \leq \int_{\Omega}^{} f+h \, d\mu =\int_{\Omega}^{} g \, d\mu $$
+> 5. if $f\leq g$ almost everywhere, let: $h:=\max(0,g-f)$ which is an unsigned measurable function where $f+h=g$ almost everywhere. Therefore, $$\int_{\Omega}^{} f \, d\mu \leq \int_{\Omega}^{} f+h \, d\mu =\int_{\Omega}^{} g \, d\mu $$
 > 6. For any $0<t<+\infty$, let $E:=\{ \omega\in \Omega:f(\omega)\geq t \}$ which is measurable. Then, $t\chi_{E}\leq f$ almost everywhere and: $$t\mu(E)\leq \int_{\Omega} f \, d\mu $$
+> 7. Trivially we have that $\text{Simp}\int_{\Omega}f  \, d\mu\leq \int_{\Omega}^{} f \, d\mu$. Now, for any simple $\tilde{f}\leq f$, we have by monotonicity: $$\text{Simp}\int_{\Omega}^{} f \, d\mu \geq\text{Simp}\int_{\Omega}^{} \tilde{f} \, d\mu $$Therefore, $\text{Simp}\int_{\Omega}^{} f \, d\mu \geq \int_{\Omega}^{} f \, d\mu$ and we have the equality.
+> 9. Assume that a function $f$ is bounded and has finite measure support $E$. Then, for $\varepsilon>0$, we can define: $$A_{k}:=\{ \omega\in E: k\varepsilon\leq f(\omega)\leq(k+1)\varepsilon \}$$which are measurable. Then, as $f$ is bounded $E=\bigcup_{k\geq 0}^{}A_{k}$ and by considering the simple functions:
+> 	1. $\ell(\omega):=\varepsilon \sum_{k=0}^{\infty}k\chi_{A_{k}}$ and 
+> 	2. $u(\omega):=\varepsilon \sum_{k=0}^{\infty}(k+1)\chi_{A_{k}}$
+> 	   
+>     we have $\ell\leq f\leq u$ and by monotonicity:$$\int_{\Omega}^{} \ell \, d\mu \leq \int_{\Omega}^{} f \, d\mu \leq \inf_{f\leq g,g\in \mathcal{S}(\Omega)}\int_{\Omega}g \, d\mu\leq \int_{\Omega}^{} u \, d\mu=\int_{\Omega}^{} \ell \, d\mu+\varepsilon \mu(E) $$Therefore, $\int_{\Omega}^{} f \, d\mu = \inf_{f\leq g,g\in \mathcal{S}(\Omega)}\int_{\Omega}g \, d\mu$ by letting $\varepsilon\to 0$. 
+>     
+>     Hence, whenever $f,g$ are both bounded and finite measure supported, we have: 
 
 ---
 
