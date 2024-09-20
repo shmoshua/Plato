@@ -54,7 +54,9 @@
 > 	   
 >     we have $\ell\leq f\leq u$ and by monotonicity:$$\int_{\Omega}^{} \ell \, d\mu \leq \int_{\Omega}^{} f \, d\mu \leq \inf_{f\leq g,g\in \mathcal{S}(\Omega)}\int_{\Omega}g \, d\mu\leq \int_{\Omega}^{} u \, d\mu=\int_{\Omega}^{} \ell \, d\mu+\varepsilon \mu(E) $$Therefore, $\int_{\Omega}^{} f \, d\mu = \inf_{f\leq g,g\in \mathcal{S}(\Omega)}\int_{\Omega}g \, d\mu$ by letting $\varepsilon\to 0$. 
 >     
->     Hence, whenever $f,g$ are both bounded and finite measure supported, we have: 
+>     Hence, whenever $f,g$ are both bounded and finite measure supported, we have: $$\int_{\Omega}^{} f+g \, d\mu= \int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu   $$
+>     
+>     Now, let $f$ be an unsigned measurable function. We first show that $\int_{\Omega}^{} \min(f,n) \, d\mu \to \int_{\Omega}^{} f \, d\mu$ when $n\to \infty$. Indeed, let $E:=\{ \omega\in \Omega:f(\omega)>n \}$. Then, $$\int_{\Omega}^{} \min(f,n)\, d\mu\geq \int_{\Omega \backslash E}^{}f  \, d\mu +n\mu(E) $$
 
 ---
 
