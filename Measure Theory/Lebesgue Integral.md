@@ -4,7 +4,9 @@
 > Let $(\Omega,\mathcal{F},\mu)$ be a [[measure space]]. Then,
 > 1. For an unsigned measurable [[simple function]] $f:\Omega\to[0,+\infty]$ given by $f=\sum_{i=1}^{n}a_{i}\chi_{E_{i}}$ with $a_{n}\in [0,+\infty]$, $$\int_{\Omega}f \, d\mu:=\sum_{i=1}^{n}a_{i}\mu(E_{i}) $$
 > 2. For an unsigned measurable function $f:\Omega\to[0,+\infty]$, $$\int_{\Omega}^{} f \, d\mu:=\sup_{0\leq g\leq f, g\in \mathcal{S}(\Omega)}\int_{\Omega}^{} g \, d\mu  $$
-> 3. For a real-valued measurable function $f:\Omega\to \mathbb{R}$, if it is absolutely integrable, i.e. $\int_{\Omega}^{} \left| f \right| \, d\mu<+\infty$, then $f$: $$\int_{\Omega}f \, d\mu:=\int_{\Omega}^{} f_{1} \, d\mu-\int_{\Omega}^{} f_{2} \, d\mu   $$
+> 3. For a real-valued measurable function $f:\Omega\to \mathbb{R}$, if it is absolutely integrable, i.e. $\int_{\Omega}^{} \left| f \right| \, d\mu<+\infty$, then $f=f_{1}-f_{2}$ for $f_{1},f_{2}$ unsigned absolutely integrable and: $$\int_{\Omega}f \, d\mu:=\int_{\Omega}^{} f_{1} \, d\mu-\int_{\Omega}^{} f_{2} \, d\mu$$
+> 
+> 
 > Let $\mu$ be a [[Radon Measure|Radon measure]] on $\mathbb{R}^n$ and $\Omega \subseteq \mathbb{R}^n$ a $\mu$-measurable set. Then, for a [[Measurable Function|$\mu$-measurable]] function $f:\Omega\to \overline{\mathbb{R}}$, we define:
 > 1. the ***upper integral***: $$\overline{\int_{\Omega}}f \, d\mu :=\inf \left\{ \int_{\Omega}^{} g \, d\mu:g\text{ is simple, }\mu \text{-integrable},  g\geq f \text{ }\mu \text{-a.e.}  \right\}\in \overline{\mathbb{R}} $$
 > 2. the ***lower integral***: $$\underline{\int_{\Omega}}f \, d\mu :=\sup \left\{ \int_{\Omega}^{} g \, d\mu:g\text{ is simple, }\mu \text{-integrable},  g\leq f \text{ }\mu \text{-a.e.}  \right\} \in \overline{\mathbb{R}}$$
@@ -67,6 +69,17 @@
 >     Similarly, we now have that for any unsigned measurable function $f$, $\int_{\Omega}^{} f 1_{f\geq 1 / n} \, d\mu\to \int_{\Omega}^{} f \, d\mu$ as $n\to + \infty$. Therefore, for any unsigned measurable functions $f,g$, $$\begin{align}\int_{\Omega}^{} f+g \, d\mu&=\lim_{ n \to \infty } \int_{\Omega}^{} (f+g)1_{f+g\geq  1 / n} \, d\mu =\lim_{ n \to \infty } \int_{\Omega}^{} f1_{f\geq  1 / n} \, d\mu+\lim_{ n \to \infty } \int_{\Omega}^{} g1_{g\geq  1 / n} \, d\mu\\&=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu  \end{align} $$
 ---
 > [!lemma] Lemma 3 (Properties of the Lebesgue Integral for Real-Valued Functions)
+> Let $f,g:\Omega\to \mathbb{R}$ be real-valued absolutely integrable functions and $c\in \mathbb{R}$. Then, 
+> 1. $\int_{\Omega}^{} f \, d\mu$ is independent of the choice of $f_{1},f_{2}$. 
+> 2. there always exists $f_{1},f_{2}$ unsigned and absolutely integrable. 
+> 3. **Linearity**: $\int_{\Omega}^{} f+g \, d\mu=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu$ and $\int_{\Omega}^{} cf \, d\mu=c\int_{\Omega}^{} f \, d\mu$. 
+
+> [!proof]+
+> We have:
+> 1. Let $f=f_{1}-f_{2}=g_{1}-g_{2}$ where $f_{1},f_{2},g_{1},g_{2}$ are all unsigned and absolutely integrable. Then, $f_{1}+g_{2}=g_{1}+f_{2}$ and by linearity $\int_{\Omega}^{} f_{1} \, d\mu+\int_{\Omega}^{} g_{2} \, d\mu=\int_{\Omega}^{} g_{1} \, d\mu+\int_{\Omega}^{} f_{2} \, d\mu$. We have the independence by the absolute integrability of the four functions. 
+> 2. Set $f_{1}:=\max (f,0)$ and $f_{2}:=\max(-f,0)$. Then, $\left| f_{1} \right|,\left| f_{2} \right|\leq \left| f \right|$ and by monotonicity they are unsigned and absolutely integrable.
+> 3. We have that $f+g=(f_{1}+g_{1})-(f_{2}+g_{2})$ where $f_{1}+g_{1}$ and $f_{2}+g_{2}$ are unsigned and absolutely integrable by triangle inequality. Therefore, the statement holds by linearity of unsigned integrals. 
+---
 
 > [!lemma] Theorem 3 (Monotone Convergence Theorem, Beppo-Levi)
 > Let $(f_{n})_{n}$ be measurable functions from $\Omega$ to $[0,+\infty]$ s.t. $f_{1}\leq f_{2}\leq\dots$ almost everywhere. Then, $$\int_{\Omega}^{} \lim_{ n \to \infty } f_{n} \, d\mu=\lim_{ n \to \infty } \int_{\Omega}^{} f_{n} \, d\mu  $$
