@@ -4,6 +4,7 @@
 > Let $(\Omega,\mathcal{F},\mu)$ be a [[measure space]]. Then,
 > 1. For an unsigned measurable [[simple function]] $f:\Omega\to[0,+\infty]$ given by $f=\sum_{i=1}^{n}a_{i}\chi_{E_{i}}$ with $a_{n}\in [0,+\infty]$, $$\int_{\Omega}f \, d\mu:=\sum_{i=1}^{n}a_{i}\mu(E_{i}) $$
 > 2. For an unsigned measurable function $f:\Omega\to[0,+\infty]$, $$\int_{\Omega}^{} f \, d\mu:=\sup_{0\leq g\leq f, g\in \mathcal{S}(\Omega)}\int_{\Omega}^{} g \, d\mu  $$
+> 3. For a real-valued measurable function $f:\Omega\to \mathbb{R}$, if it is absolutely integrable, i.e. $\int_{\Omega}^{} \left| f \right| \, d\mu<+\infty$, then $f$: $$\int_{\Omega}f \, d\mu:=\int_{\Omega}^{} f_{1} \, d\mu-\int_{\Omega}^{} f_{2} \, d\mu   $$
 > Let $\mu$ be a [[Radon Measure|Radon measure]] on $\mathbb{R}^n$ and $\Omega \subseteq \mathbb{R}^n$ a $\mu$-measurable set. Then, for a [[Measurable Function|$\mu$-measurable]] function $f:\Omega\to \overline{\mathbb{R}}$, we define:
 > 1. the ***upper integral***: $$\overline{\int_{\Omega}}f \, d\mu :=\inf \left\{ \int_{\Omega}^{} g \, d\mu:g\text{ is simple, }\mu \text{-integrable},  g\geq f \text{ }\mu \text{-a.e.}  \right\}\in \overline{\mathbb{R}} $$
 > 2. the ***lower integral***: $$\underline{\int_{\Omega}}f \, d\mu :=\sup \left\{ \int_{\Omega}^{} g \, d\mu:g\text{ is simple, }\mu \text{-integrable},  g\leq f \text{ }\mu \text{-a.e.}  \right\} \in \overline{\mathbb{R}}$$
@@ -30,7 +31,7 @@
 > 5. if $f\leq g$ almost everywhere, let: $h:=\max(0,g-f)$ which is a unsigned measurable simple function where $f+h=g$ almost everywhere. Therefore, $$\int_{\Omega}^{} f \, d\mu \leq \int_{\Omega}^{} f+h \, d\mu =\int_{\Omega}^{} g \, d\mu $$
 > 6. For any $0<t<+\infty$, let $E:=\{ \omega\in \Omega:f(\omega)\geq t \}$ which is measurable. Then, $t\chi_{E}\leq f$ almost everywhere and: $$t\mu(E)\leq \int_{\Omega} f \, d\mu $$
 ---
-> [!lemma] Lemma 2 (Properties of the Lebesgue Integral for  Functions)
+> [!lemma] Lemma 2 (Properties of the Lebesgue Integral for Unsigned Functions)
 > Let $f,g:\Omega\to[0,+\infty]$ be unsigned measurable functions and $c\in [0,+\infty]$. Then, 
 > 1. **superadditivity**: $\int_{\Omega}^{} f+g \, d\mu\geq\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu$ and $\int_{\Omega}^{} cf \, d\mu=c\int_{\Omega}^{} f \, d\mu$
 > 3. $\int_{\Omega}^{} f \, d\mu\geq 0$ with equality if and only if $f=0$ almost everywhere.
@@ -40,7 +41,7 @@
 > 7. if $f$ is simple, $\int_{\Omega}^{} f \, d\mu$ is well-defined.
 > 9. **Linearity**: $\int_{\Omega}^{} f+g \, d\mu=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu$. 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $\tilde{f},\tilde{g}$ be simple functions s.t. $0\leq \tilde{f}\leq f$ and $0\leq \tilde{g}\leq g$. Then, $0\leq\tilde{f}+\tilde{g}\leq f+g$ and: $$\int_{\Omega}^{} f+g \, d\mu\geq \int_{\Omega}^{} \tilde{f}+\tilde{g} \, d\mu=\int_{\Omega}^{} \tilde{f} \, d\mu+\int_{\Omega}^{} \tilde{g} \, d\mu    $$Further it holds trivially that $\int_{\Omega}^{} cf \, d\mu=c\int_{\Omega}^{} f \, d\mu$.
 > 2. It is non-negative as $f\geq 0$. If $f>0$ on $E\subseteq\Omega$ that is not a null set, then we can find $\varepsilon>0$ and $E'\subseteq\Omega$ s.t. $f\geq \varepsilon \chi_{E'}$ where $E'$ is measurable. Hence, $\int_{\Omega}^{} f \, d\mu\geq \varepsilon \mu(E')>0$. Conversely, if $\int_{\Omega}^{} f \, d\mu>0$, then there exists a simple function $\tilde{f}\leq f$ with $\int_{\Omega}^{} \tilde{f} \, d\mu >0$ and by Lemma 1.3, $\tilde{f}$ is not $0$ almost everywhere, which implies that neither is $f$.
@@ -58,12 +59,15 @@
 >     
 >     Now, let $f$ be an unsigned measurable function. We first show that $\int_{\Omega}^{} \min(f,n) \, d\mu \to \int_{\Omega}^{} f \, d\mu$ when $n\to \infty$. 
 >     
->     If $\int_{\Omega}^{} f \, d\mu=\infty$, then for any $M>0$, we can find an unsigned simple function $g$ s.t. $g\leq f$ with $\int_{\Omega}^{} g \, d\mu\leq+\infty$.  
+>     1. if $\int_{\Omega}^{} f \, d\mu<+\infty$, by definition for any $\varepsilon>0$, we can find an unsigned simple function $0\leq g\leq f$ s.t. $\int_{\Omega}^{} f \, d\mu-\varepsilon\leq\int_\Omega g\, d\mu\leq \int_{\Omega}^{} f \, d\mu<+\infty$. Now, let $n$ be the greatest value $a_{i}$ $g$ takes for which $\mu(E_{i})>0$. Then, $g=\min(g,n)\leq\min(f,n)\leq f$ and by monotonicity, $\int_{\Omega}^{} \min(f,n) \, d\mu\to \int_{\Omega}^{} f \, d\mu$.
+>     2. if $\int_{\Omega}^{} f \, d\mu=+\infty$, then for any $M>0$, there exists an unsigned simple function $0\leq g\leq f$ s.t. $M\leq\int_{\Omega}^{} g \, d\mu\leq \int_{\Omega}^{} f \, d\mu$. Similarly as above, if the greatest value $g$ takes with non-zero measure is $+\infty$, then the statement holds trivially. Otherwise it is analogous to the previous case.
+>        
+>     Therefore, if $f,g$ are unsigned measurable functions with finite measure support, then so is $f+g$ and as $\min(f,n)$ are finite measure supported and bounded: $$\begin{align}\int_{\Omega}^{} f+g \, d\mu&=\lim_{ n \to \infty } \int_{\Omega}^{} \min(f+g,n) \, d\mu=\lim_{ n \to \infty } \int_{\Omega}^{} \min(f,n) \, d\mu+\lim_{ n \to \infty } \int_{\Omega}^{} \min(g,n) \, d\mu\\&=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu  \end{align}    $$
 >     
->     
->     Indeed, let $E:=\{ \omega\in \Omega:f(\omega)>n \}$. Then, $$\int_{\Omega}^{} \min(f,n)\, d\mu\geq \int_{\Omega \backslash E}^{}f  \, d\mu +n\mu(E) $$
-
+>     Similarly, we now have that for any unsigned measurable function $f$, $\int_{\Omega}^{} f 1_{f\geq 1 / n} \, d\mu\to \int_{\Omega}^{} f \, d\mu$ as $n\to + \infty$. Therefore, for any unsigned measurable functions $f,g$, $$\begin{align}\int_{\Omega}^{} f+g \, d\mu&=\lim_{ n \to \infty } \int_{\Omega}^{} (f+g)1_{f+g\geq  1 / n} \, d\mu =\lim_{ n \to \infty } \int_{\Omega}^{} f1_{f\geq  1 / n} \, d\mu+\lim_{ n \to \infty } \int_{\Omega}^{} g1_{g\geq  1 / n} \, d\mu\\&=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu  \end{align} $$
 ---
+> [!lemma] Lemma 3 (Properties of the Lebesgue Integral for Real-Valued Functions)
+
 > [!lemma] Theorem 3 (Monotone Convergence Theorem, Beppo-Levi)
 > Let $(f_{n})_{n}$ be measurable functions from $\Omega$ to $[0,+\infty]$ s.t. $f_{1}\leq f_{2}\leq\dots$ almost everywhere. Then, $$\int_{\Omega}^{} \lim_{ n \to \infty } f_{n} \, d\mu=\lim_{ n \to \infty } \int_{\Omega}^{} f_{n} \, d\mu  $$
 
