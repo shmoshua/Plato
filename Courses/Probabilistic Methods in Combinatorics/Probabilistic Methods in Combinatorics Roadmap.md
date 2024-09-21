@@ -9,3 +9,6 @@
 ![[Ramsey Number#^ba602f]]
 ![[Ramsey Number#^13672b|p]]
 ---
+![[Ramsey Number#^5ce7f6]]
+![[Ramsey Number#^3cf037|p]]
+---
