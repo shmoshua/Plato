@@ -56,9 +56,19 @@
 >     
 >     Hence, whenever $f,g$ are both bounded and finite measure supported, we have: $$\int_{\Omega}^{} f+g \, d\mu= \int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu   $$
 >     
->     Now, let $f$ be an unsigned measurable function. We first show that $\int_{\Omega}^{} \min(f,n) \, d\mu \to \int_{\Omega}^{} f \, d\mu$ when $n\to \infty$. Indeed, let $E:=\{ \omega\in \Omega:f(\omega)>n \}$. Then, $$\int_{\Omega}^{} \min(f,n)\, d\mu\geq \int_{\Omega \backslash E}^{}f  \, d\mu +n\mu(E) $$
+>     Now, let $f$ be an unsigned measurable function. We first show that $\int_{\Omega}^{} \min(f,n) \, d\mu \to \int_{\Omega}^{} f \, d\mu$ when $n\to \infty$. 
+>     
+>     If $\int_{\Omega}^{} f \, d\mu=\infty$, then for any $M>0$, we can find an unsigned simple function $g$ s.t. $g\leq f$ with $\int_{\Omega}^{} g \, d\mu\leq+\infty$.  
+>     
+>     
+>     Indeed, let $E:=\{ \omega\in \Omega:f(\omega)>n \}$. Then, $$\int_{\Omega}^{} \min(f,n)\, d\mu\geq \int_{\Omega \backslash E}^{}f  \, d\mu +n\mu(E) $$
 
 ---
+> [!lemma] Theorem 3 (Monotone Convergence Theorem, Beppo-Levi)
+> Let $(f_{n})_{n}$ be measurable functions from $\Omega$ to $[0,+\infty]$ s.t. $f_{1}\leq f_{2}\leq\dots$ almost everywhere. Then, $$\int_{\Omega}^{} \lim_{ n \to \infty } f_{n} \, d\mu=\lim_{ n \to \infty } \int_{\Omega}^{} f_{n} \, d\mu  $$
+
+> [!proof]+
+> As we have $f_{k}\leq \lim_{ n \to \infty }f_{n}$ almost everywhere, by monotonicity, $$\int_{\Omega} f_{k}  \, d\mu\leq \int_{\Omega}^{} \lim_{ n \to \infty } f_{n} \, d\mu  $$By taking the limit, we have that $\lim_{ n \to \infty }\int_{\Omega}^{} f_{n} \, d\mu\leq \int_{\Omega}^{} \lim_{ n \to \infty }f_{n} \, d\mu$. 
 
 > [!lemma] Proposition 1
 > It holds that: $$\underline{\int_{\Omega}}f \, d\mu \leq \overline{\int_{\Omega}}f \, d\mu $$
