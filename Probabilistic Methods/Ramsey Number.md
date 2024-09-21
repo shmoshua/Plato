@@ -36,13 +36,15 @@
 > We have:
 > 1. $(k-1)^{2}< R(k,k)\leq 2^{2k}$
 > 2. If ${n\choose k}2^{1-{k\choose 2}}<1$, then $R(k,k)>n$.
+> 3. for $k\geq 3$, $R(k,k)> 2^{k / 2}$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Partition $K_{(k-1)^{2}}$ into $(k-1)$ sets of vertices of equal size and color the edges inside the sets as red and all the other edges blue. Then, there is no red or blue clique of size $k$. 
 >    
 >    The upper bound follows from the Corollary above.
-> 2. Consider an edge coloring of $K_{n}$ where the colors are assigned randomly uniformly. As there are ${n\choose k}$ copies of $K_{k}$ in $K_{n}$, we define $A_{i}$ to denote the event that $i$-th $K_{k}$ is monochromatic. Then, $$\mathbb{P}(A_{i})=2\left( \frac{1}{2} \right) ^{k \choose 2}=2^{1-{k \choose 2}}$$
+> 2. Consider an edge coloring of $K_{n}$ where the colors are assigned randomly uniformly. As there are ${n\choose k}$ copies of $K_{k}$ in $K_{n}$, we define $A_{i}$ to denote the event that $i$-th $K_{k}$ is monochromatic. Then, $$\mathbb{P}(A_{i})=2\left( \frac{1}{2} \right) ^{k \choose 2}=2^{1-{k \choose 2}}$$Then, $$\mathbb{P}(\exists \text{ monochromatic }K_{k})=\mathbb{P}\left( \bigcup_{i=1}^{n\choose k} A_{i}\right)={n \choose k}2^{1- {k \choose 2}}<1$$Therefore, there exists a coloring with no monochromatic $K_{k}$. 
+> 3. Given $k\geq 3$, define $n:= \left\lfloor 2^{ k /2}\right\rfloor$. Then, $${n \choose k}2^{1- {k \choose 2}}\leq \frac{n^k}{k!}2^{1-k(k-1)/2}\leq\frac{(2^{k / 2})^k}{k!}2^{1-k^2 / 2+k / 2}=\frac{2^{1+k /2}}{k!}$$As $2^{1+k / 2} / k!<1$ for $k\geq 3$, we have the statement.
 ---
 ##### Examples
 > [!h] Example 1 (Trivial Results)
