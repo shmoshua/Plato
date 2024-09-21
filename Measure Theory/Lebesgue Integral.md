@@ -90,7 +90,7 @@
 > 4. $\int_{\Omega}^{} \left| f \right| \, d\mu\geq 0$ with equality if and only if $f=0$ almost everywhere. 
 > 5. if $f=g$ almost everywhere, $\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{} g \, d\mu$.
 > 7. **Markov inequality**: for any $0<t<+\infty$, $$\mu(\{ \omega\in \Omega:\left| f(\omega) \right| \geq t \})\leq \frac{1}{t}\int_{\Omega}^{} \left| f \right|  \, d\mu $$
-> 8. **Triangle inequality**: $\left| \int_{\Omega}^{} f \, d\mu \right|\leq \int_{\Omega}^{} \left| f \right| \, d\mu$
+> 8. **Triangle inequality**: $\left| \int_{\Omega}^{} f \, d\mu \right|\leq \int_{\Omega}^{} \left| f \right| \, d\mu$.
 
 > [!proof]-
 > We have:
@@ -100,19 +100,7 @@
 > 4. This holds from the fact that $\left| f \right|$ is unsigned measurable.
 > 5. Holds from $f-g=0$ almost everywhere and linearity. 
 > 7. Holds from $\left| f \right|$ being unsigned measurable.
----
-
-> [!lemma] Theorem 3 (Monotone Convergence Theorem, Beppo-Levi)
-> Let $(f_{n})_{n}$ be measurable functions from $\Omega$ to $[0,+\infty]$ s.t. $f_{1}\leq f_{2}\leq\dots$ almost everywhere. Then, $$\int_{\Omega}^{} \lim_{ n \to \infty } f_{n} \, d\mu=\lim_{ n \to \infty } \int_{\Omega}^{} f_{n} \, d\mu  $$
-
-> [!proof]+
-> As we have $f_{k}\leq \lim_{ n \to \infty }f_{n}$ almost everywhere, by monotonicity, $$\int_{\Omega} f_{k}  \, d\mu\leq \int_{\Omega}^{} \lim_{ n \to \infty } f_{n} \, d\mu  $$By taking the limit, we have that $\lim_{ n \to \infty }\int_{\Omega}^{} f_{n} \, d\mu\leq \int_{\Omega}^{} \lim_{ n \to \infty }f_{n} \, d\mu$. 
-
-> [!lemma] Proposition 1
-> It holds that: $$\underline{\int_{\Omega}}f \, d\mu \leq \overline{\int_{\Omega}}f \, d\mu $$
-
-> [!proof]-
-> Firstly, this holds for a simple function $f$ as $f$ is $\mu$-integrable. Then, assume $f$ is not simple. Let $g$ be a simple, $\mu$-measurable function s.t. $g\leq f$ $\mu$-a.e. Similarly, $h$ is a simple $\mu$-measurable function s.t. $f\leq h$ $\mu$-a.e. 
+> 8. Let $\alpha\in \mathbb{T}$ s.t. $\alpha \int_{\Omega}f \, d\mu=\left| \int_{\Omega}^{} f \, d\mu \right|$. Then, $$\left| \int_{\Omega}^{} f \, d\mu  \right| =\text{Re}\int_{\Omega}^{} \alpha f \, d\mu=\int_{\Omega}^{} \text{Re}(\alpha f) \, d\mu\leq \int_{\Omega}^{} \left| \alpha f \right|  \, d\mu=\int_{\Omega}^{} \left| f \right|  \, d\mu    $$
 ---
 > [!lemma] Proposition 2
 > Let $f:\Omega\to[0,+\infty]$ be $\mu$-measurable. Then, $f$ is $\mu$-integrable.
