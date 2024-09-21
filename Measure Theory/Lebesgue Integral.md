@@ -4,14 +4,8 @@
 > Let $(\Omega,\mathcal{F},\mu)$ be a [[measure space]]. Then,
 > 1. For an unsigned measurable [[simple function]] $f:\Omega\to[0,+\infty]$ given by $f=\sum_{i=1}^{n}a_{i}\chi_{E_{i}}$ with $a_{n}\in [0,+\infty]$, $$\int_{\Omega}f \, d\mu:=\sum_{i=1}^{n}a_{i}\mu(E_{i}) $$
 > 2. For an unsigned measurable function $f:\Omega\to[0,+\infty]$, $$\int_{\Omega}^{} f \, d\mu:=\sup_{0\leq g\leq f, g\in \mathcal{S}(\Omega)}\int_{\Omega}^{} g \, d\mu  $$
-> 3. For a real-valued measurable function $f:\Omega\to \mathbb{R}$, if it is absolutely integrable, i.e. $\int_{\Omega}^{} \left| f \right| \, d\mu<+\infty$, then $f=f_{1}-f_{2}$ for $f_{1},f_{2}$ unsigned absolutely integrable and: $$\int_{\Omega}f \, d\mu:=\int_{\Omega}^{} f_{1} \, d\mu-\int_{\Omega}^{} f_{2} \, d\mu$$
-> 
-> 
-> Let $\mu$ be a [[Radon Measure|Radon measure]] on $\mathbb{R}^n$ and $\Omega \subseteq \mathbb{R}^n$ a $\mu$-measurable set. Then, for a [[Measurable Function|$\mu$-measurable]] function $f:\Omega\to \overline{\mathbb{R}}$, we define:
-> 1. the ***upper integral***: $$\overline{\int_{\Omega}}f \, d\mu :=\inf \left\{ \int_{\Omega}^{} g \, d\mu:g\text{ is simple, }\mu \text{-integrable},  g\geq f \text{ }\mu \text{-a.e.}  \right\}\in \overline{\mathbb{R}} $$
-> 2. the ***lower integral***: $$\underline{\int_{\Omega}}f \, d\mu :=\sup \left\{ \int_{\Omega}^{} g \, d\mu:g\text{ is simple, }\mu \text{-integrable},  g\leq f \text{ }\mu \text{-a.e.}  \right\} \in \overline{\mathbb{R}}$$
->    
-> Then, $f$ is ***$\mu$-integrable*** if $\overline{\int_{\Omega}}f \, d\mu=\underline{\int_{\Omega}}f \, d\mu$. Then, we write: $$\int_{\Omega}^{} f \, d\mu =\overline{\int_{\Omega}}f \, d\mu=\underline{\int_{\Omega}}f \, d\mu  $$
+> 3. For a real-valued absolutely integrable function $f:\Omega\to \mathbb{R}$, i.e. $\int_{\Omega}^{} \left| f \right| \, d\mu<+\infty$, then $f=f_{1}-f_{2}$ for $f_{1},f_{2}$ unsigned absolutely integrable and: $$\int_{\Omega}f \, d\mu:=\int_{\Omega}^{} f_{1} \, d\mu-\int_{\Omega}^{} f_{2} \, d\mu$$
+> 4. For a complex-valued absolutely integrable function $f:\Omega\to \mathbb{C}$, i.e. $\int_{\Omega}^{} \left| f \right| \, d\mu<+\infty$, $$\int_{\Omega}f \, d\mu:=\int_{\Omega}^{} \text{Re}(f) \, d\mu+i\int_{\Omega}^{} \text{Im}(f) \, d\mu$$
 ---
 ##### Properties
 > [!lemma] Lemma 1 (Properties of the Lebesgue Integral for Simple Functions)
@@ -88,6 +82,23 @@
 > 4. This holds from the fact that $\left| f \right|$ is unsigned measurable.
 > 5. Holds from $f-g=0$ almost everywhere and linearity. 
 > 6. $g-f\geq0$ almost everywhere and $h:=\max(g-f,0)$ is an unsigned measurable function. Therefore, $$\int_{\Omega}g  \, d\mu-\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{}h  \, d\mu\geq 0   $$
+> 7. Holds from $\left| f \right|$ being unsigned measurable.
+---
+> [!lemma] Lemma 4 (Properties of the Lebesgue Integral for Complex-Valued Functions)
+> Let $f,g:\Omega\to \mathbb{C}$ be complex-valued absolutely integrable functions and $c\in \mathbb{C}$. Then, 
+> 1. **Linearity**: $\int_{\Omega}^{} f+g \, d\mu=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu$ and $\int_{\Omega}^{} cf \, d\mu=c\int_{\Omega}^{} f \, d\mu$. 
+> 4. $\int_{\Omega}^{} \left| f \right| \, d\mu\geq 0$ with equality if and only if $f=0$ almost everywhere. 
+> 5. if $f=g$ almost everywhere, $\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{} g \, d\mu$.
+> 7. **Markov inequality**: for any $0<t<+\infty$, $$\mu(\{ \omega\in \Omega:\left| f(\omega) \right| \geq t \})\leq \frac{1}{t}\int_{\Omega}^{} \left| f \right|  \, d\mu $$
+> 8. **Triangle inequality**: $\left| \int_{\Omega}^{} f \, d\mu \right|\leq \int_{\Omega}^{} \left| f \right| \, d\mu$
+
+> [!proof]-
+> We have:
+> 1. The addition is trivial by checking the decomposition.
+>    
+>    If $c\in \mathbb{R}$, then: $$\int_{\Omega}^{} cf \, d\mu=\int_{\Omega}^{} c\text{Re}(f) \, d\mu+i\int_{\Omega}^{} c\text{Im}(f) \, d\mu=c\int_{\Omega}^{} f \, d\mu    $$Further, $$\int_{\Omega}^{} if \, d\mu=\int_{\Omega}^{} \text{Re}(if) \, d\mu+i\int_{\Omega}^{} \text{Im}(if) \, d\mu=-\int_{\Omega}\text{Im}(f) \, d\mu+i\int_{\Omega}^{} \text{Re}(f) \, d\mu=i\int_{\Omega}^{} f \, d\mu      $$Therefore, $$(a+ib)\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{} (a+ib) f\, d\mu  $$
+> 4. This holds from the fact that $\left| f \right|$ is unsigned measurable.
+> 5. Holds from $f-g=0$ almost everywhere and linearity. 
 > 7. Holds from $\left| f \right|$ being unsigned measurable.
 ---
 
