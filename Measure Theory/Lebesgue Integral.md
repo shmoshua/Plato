@@ -73,12 +73,22 @@
 > 1. $\int_{\Omega}^{} f \, d\mu$ is independent of the choice of $f_{1},f_{2}$. 
 > 2. there always exists $f_{1},f_{2}$ unsigned and absolutely integrable. 
 > 3. **Linearity**: $\int_{\Omega}^{} f+g \, d\mu=\int_{\Omega}^{} f \, d\mu+\int_{\Omega}^{} g \, d\mu$ and $\int_{\Omega}^{} cf \, d\mu=c\int_{\Omega}^{} f \, d\mu$. 
+> 4. $\int_{\Omega}^{} \left| f \right| \, d\mu\geq 0$ with equality if and only if $f=0$ almost everywhere. 
+> 5. if $f=g$ almost everywhere, $\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{} g \, d\mu$.
+> 6. if $f\leq g$ almost everywhere, $\int_{\Omega}^{} f \, d\mu\leq \int_{\Omega}^{} g \, d\mu$.
+> 7. **Markov inequality**: for any $0<t<+\infty$, $$\mu(\{ \omega\in \Omega:\left| f(\omega) \right| \geq t \})\leq \frac{1}{t}\int_{\Omega}^{} \left| f \right|  \, d\mu $$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $f=f_{1}-f_{2}=g_{1}-g_{2}$ where $f_{1},f_{2},g_{1},g_{2}$ are all unsigned and absolutely integrable. Then, $f_{1}+g_{2}=g_{1}+f_{2}$ and by linearity $\int_{\Omega}^{} f_{1} \, d\mu+\int_{\Omega}^{} g_{2} \, d\mu=\int_{\Omega}^{} g_{1} \, d\mu+\int_{\Omega}^{} f_{2} \, d\mu$. We have the independence by the absolute integrability of the four functions. 
 > 2. Set $f_{1}:=\max (f,0)$ and $f_{2}:=\max(-f,0)$. Then, $\left| f_{1} \right|,\left| f_{2} \right|\leq \left| f \right|$ and by monotonicity they are unsigned and absolutely integrable.
 > 3. We have that $f+g=(f_{1}+g_{1})-(f_{2}+g_{2})$ where $f_{1}+g_{1}$ and $f_{2}+g_{2}$ are unsigned and absolutely integrable by triangle inequality. Therefore, the statement holds by linearity of unsigned integrals. 
+>    
+>    Similarly, if $c\geq 0$, then $cf=cf_{1}-cf_{2}$ where $cf_{1},cf_{2}$ are absolutely integrable and unsigned. Now, if $c=-1$, then: $$-\int_{\Omega}^{} f \, d\mu=-\int_{\Omega}^{}f_{1}  \, d\mu+\int_{\Omega}^{} f_{2} \, d\mu=\int_{\Omega}^{} (-f) \, d\mu    $$as $-f=f_{2}-f_{1}$. Finally, we have that for $c=-d$ for $d>0$: $$c\int_{\Omega}^{} f \, d\mu=-d\int_{\Omega}^{}  f\, d\mu=d \int_{\Omega}^{} (-f) \, d\mu=\int_{\Omega}^{} cf \, d\mu    $$
+> 4. This holds from the fact that $\left| f \right|$ is unsigned measurable.
+> 5. Holds from $f-g=0$ almost everywhere and linearity. 
+> 6. $g-f\geq0$ almost everywhere and $h:=\max(g-f,0)$ is an unsigned measurable function. Therefore, $$\int_{\Omega}g  \, d\mu-\int_{\Omega}^{} f \, d\mu=\int_{\Omega}^{}h  \, d\mu\geq 0   $$
+> 7. Holds from $\left| f \right|$ being unsigned measurable.
 ---
 
 > [!lemma] Theorem 3 (Monotone Convergence Theorem, Beppo-Levi)
