@@ -70,14 +70,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
+                "file": "Analysis/Inner Product Space.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "74c50f9e7c2cd1ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Adjoint Linear Map.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -143,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
+                "file": "Functional Analysis/Adjoint Linear Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
+                "file": "Functional Analysis/Adjoint Linear Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md"
+                "file": "Functional Analysis/Adjoint Linear Map.md"
               }
             }
           }
@@ -207,10 +219,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ecde11cbbee494f3",
+  "active": "74c50f9e7c2cd1ec",
   "lastOpenFiles": [
-    "Probabilistic Methods/Ramsey Number.md",
+    "Analysis/Inner Product Space.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
+    "Probabilistic Methods/Ramsey Number.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Probabilistic Methods",
     "Measure Theory/Measure Space.md",
@@ -239,7 +252,6 @@
     "Representation Theory/Lie Algebra.md",
     "Differential Geometry/Derivation.md",
     "Lie Group/Lie Group.md",
-    "Lie Group/Exponential Map.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
