@@ -16,3 +16,9 @@ We have:
 > [!def] Problem 2
 > Let $\mathcal{A}$ be a family of subsets of $[n]$ such that there are no distinct $A,B\in \mathcal{A}$ with $A\subseteq B$. Prove that $$\left| \mathcal{A} \right|\leq{n \choose \left\lfloor n /2\right\rfloor}$$
 
+Consider the random variable $X(\sigma):=\left| \{ i\in[n]:\{ \sigma(1),\dots,\sigma(i) \}\in \mathcal{A} \} \right|$. Then, we can rewrite this into: $X(\sigma)=\sum_{i\in [n]}^{}\sum_{A\in \mathcal{A}}^{}1_{\{ \sigma(1),\dots,\sigma(i) \}=A}$. Therefore, 
+$$\mathbb{E}(X)=\sum_{A\in \mathcal{A}}^{}\sum_{i\in [n]}^{}P(\{ \sigma(1),\dots,\sigma(i) \}=A)=\sum_{A\in \mathcal{A}}^{}P(\{ \sigma(1),\dots,\sigma(\left| A \right| ) \}=A)$$ Notice that $P(\{ \sigma(1),\dots,\sigma(\left| A \right|) \}=A)=\frac{\left| A \right|!(n-\left| A \right|)!}{n!}=1 / {n \choose\left| A \right|}\geq 1 / {n \choose \left\lfloor n / 2\right\rfloor}$ as there are $\left| A \right|!$ ways to choose the order of the first $\left| A \right|$ and then $(n-\left| A \right|)!$ for the rest. Therefore, $\mathbb{E}(X)\geq \left| \mathcal{A} \right|\frac{1}{n\choose \left\lfloor n / 2\right\rfloor}$. 
+
+Conversely,  for any permutation $\sigma\in \Pi$, we have that $X(\sigma)\leq 1$. Assume that $X(\sigma)\geq 2$, i.e. $i<j$ s.t. $\{ \sigma(1),\dots,\sigma(i) \},\{ \sigma(1),\dots,\sigma(j) \}\in \mathcal{A}$.  Then, $\{ \sigma(1),\dots,\sigma(i) \}\subseteq \{ \sigma(1),\dots,\sigma(j) \}$ which is a contradiction. Therefore, if we choose the permutation uniformly randomly, $$\mathbb{E}(X)=\frac{1}{n!}\sum_{\sigma\in \Pi}^{}X(\sigma)\leq 1 $$Therefore, $\left| \mathcal{A} \right| \frac{1}{n \choose \left\lfloor n / 2\right\rfloor}\leq \mathbb{E}(X)\leq 1$ and this proves the statement.
+
+---
