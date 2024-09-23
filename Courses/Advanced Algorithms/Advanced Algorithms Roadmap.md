@@ -6,6 +6,7 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 ---
 
 ##### 1.1 Greedy Algorithms
+![[Minimum Vertex Cover#^2ed1e3]]
 
 
 ##### 1.2 Approximation Schemes
