@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Minimum Vertex Cover.md",
+                "file": "Advanced Algorithms/Knapsack.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Approximation Algorithm.md",
+                "file": "Advanced Algorithms/Knapsack.md",
                 "mode": "preview",
                 "source": true
               }
@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Algorithms/Minimum Vertex Cover.md",
+                "file": "Advanced Algorithms/Knapsack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Algorithms/Minimum Vertex Cover.md",
+                "file": "Advanced Algorithms/Knapsack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Algorithms/Minimum Vertex Cover.md"
+                "file": "Advanced Algorithms/Knapsack.md"
               }
             }
           }
@@ -220,9 +220,10 @@
   },
   "active": "1838704e8c1c11c0",
   "lastOpenFiles": [
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Advanced Algorithms/Knapsack.md",
     "Advanced Algorithms/Approximation Algorithm.md",
     "Advanced Algorithms/Minimum Vertex Cover.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Probabilistic Methods/Ramsey Number.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Advanced Algorithms",
@@ -252,7 +253,6 @@
     "Courses/Complex Analysis",
     "Lie Group/Ideal (Lie Algebra).md",
     "Measure Theory/Hausdorff Measure.md",
-    "Lie Group/Solvable Lie Algebra.md",
     "Complex Analysis",
     "Algebra/Untitled",
     "Courses/Graph Theory",
