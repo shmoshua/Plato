@@ -15,3 +15,25 @@ We will show the statement by induction over $k$. For $k\geq 2$, as $I_{1}\dots 
 > Let $I\subseteq J$ be ideals in a ring $R$. $J / I$ is an ideal in $R / I$. Show that $$(R / I) / (J / I)\cong R / J$$
 
 We define the homomorphism: $$\varphi:R / I \to R / J,\quad x+I\mapsto x+J$$
+This is well-defined as if $x+I=y+I$ then $x-y\in I\subseteq J$ and $x+J=y+J$. Also one easily sees that $\varphi$ is a surjective ring homomorphism. Lastly, $$\text{ker }\varphi=\{ x+I\in R / I: x\in J \}=J / I$$By the isomorphism theorem, this proves the statement.
+
+---
+> [!def] Problem 4
+> Consider the two ideals 
+> 1. $I=(5,x^3+2x+3)$
+> 2. $J=(4,x^2+x+1,x^2+x-1)$
+> 
+> in $\mathbb{Z}[x]$. Are they prime? and maximal?
+
+We have that: $$\mathbb{Z}[x] / (5,x^3+2x+3)\cong \mathbb{Z} / 5\mathbb{Z}[x] / (x^3+2x+3)$$As $x^3+2x+3 = (x+1)(x^2+4x+3)$ and $\mathbb{Z} / 5\mathbb{Z}[x]$ is a PID, $(x^3+2x+3)$ is not a prime ideal and $\mathbb{Z}[x] / (5,x^3+2x+3)$ is not an integral domain. This shows that $I$ is neither prime nor maximal.
+
+
+---
+> [!def] Problem 5
+> Show that on a ring $R$ the following are equivalent: 
+> 1. $R$ has one prime ideal. 
+> 2. Every element is a unit or nilpotent. 
+> 3. $\sqrt{ (0) }$ is a maximal ideal.
+
+We have: 
+1. (1=>2): Assume there exists an element $x\in R$ that is not a unit nor nilpotent. Then, $(x)\subsetneq R$ and for all $n$, $x^n\neq 0$.  
