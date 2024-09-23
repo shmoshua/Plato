@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Bin-Packing.md",
+                "file": "Courses/Commutative Algebra/Sheet 0.md",
                 "mode": "source",
                 "source": true
               }
@@ -58,8 +58,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-                "mode": "preview",
+                "file": "Courses/Commutative Algebra/Sheet 0.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -112,8 +112,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Algorithms/Bin-Packing.md",
+                "file": "Courses/Commutative Algebra/Sheet 0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Algorithms/Bin-Packing.md",
+                "file": "Courses/Commutative Algebra/Sheet 0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Algorithms/Bin-Packing.md"
+                "file": "Courses/Commutative Algebra/Sheet 0.md"
               }
             }
           }
@@ -245,16 +244,18 @@
   },
   "active": "59cf2d28f15176c6",
   "lastOpenFiles": [
-    "Untitled.md",
     "Advanced Algorithms/Bin-Packing.md",
+    "Courses/Commutative Algebra/Sheet 0.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Courses/Commutative Algebra",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Untitled.md",
     "Advanced Algorithms/Knapsack.md",
     "Advanced Algorithms/Approximation Algorithm.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Advanced Algorithms/Minimum Vertex Cover.md",
     "Probabilistic Methods/Ramsey Number.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Advanced Algorithms",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Advanced Algorithms",
     "Analysis/Inner Product Space.md",
     "Functional Analysis/Adjoint Linear Map.md",
@@ -277,10 +278,8 @@
     "Probability Theory",
     "Courses/Probability Theory",
     "Courses/Complex Analysis",
-    "Lie Group/Ideal (Lie Algebra).md",
     "Complex Analysis",
     "Algebra/Untitled",
-    "Courses/Graph Theory",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
