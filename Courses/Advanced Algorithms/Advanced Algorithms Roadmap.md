@@ -21,6 +21,10 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 ![[Knapsack#^13ab4a]]
 
 ---
+![[Knapsack#^532344]]
+![[Knapsack#^c811f3|p]]
+
+---
 
 ##### 1.3 Randomized Approximation Schemes
 ##### 1.4 Rounding Linear Programming Solutions
