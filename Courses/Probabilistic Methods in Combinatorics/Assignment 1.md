@@ -1,6 +1,6 @@
 #ProbabilisticMethods #Series 
 
-##### Problem 1
+
 > [!def] Problem 1
 > Prove that: 
 > 1. if there exists a real $0\leq p\leq 1$ s.t. $${n\choose s}p^{s\choose 2}+{n\choose t}(1-p)^{t\choose 2}<1$$then $R(s,t)>n$.
@@ -12,7 +12,7 @@ We have:
    Then, $$\mathbb{P}(\exists \text{red }K_{s}\text{ or blue }K_{t})\leq \mathbb{P}\left( \bigcup_{i}^{}A_{i}\cup \bigcup_{j}^{}B_{j} \right)\leq{n \choose s}p^{s \choose 2}+{n \choose t}(1-p)^{t \choose 2}<1$$Therefore, there is a coloring on $K_{n}$ that doesn't contain a red $K_{s}$ or a blue $K_{t}$. This shows that $R(s,t)>n$.
 2. Let $n:=$
 ---
-##### Problem 2
-> [!def] Proeblem 2
+
+> [!def] Problem 2
 > Let $\mathcal{A}$ be a family of subsets of $[n]$ such that there are no distinct $A,B\in \mathcal{A}$ with $A\subseteq B$. Prove that $$\left| \mathcal{A} \right|\leq{n \choose \left\lfloor n /2\right\rfloor}$$
 
