@@ -8,12 +8,36 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1 (First-Fit, Greedy)
-> The First-Fit algorithm works as follows:$$\begin{align}\\ 
-&\textbf{Algorithm } \text{FirstFit}(\mathcal{S})\\ 
-&B\to \varnothing\\
-&\textbf{for } i\in [n] \textbf{ do:} \\
-& \textbf{If } \text{} \textbf{ then:}
+> The First-Fit algorithm works as follows:
+>    ```pseudo
+>    \begin{algorithm} \caption{FirstFit($n,s$)} 
+>    \begin{algorithmic}
+>    \State $\mathcal{B}\to \empty$
+>    \For{$i\in [n]$}
+>    \If{$s_i\le 1-s(B)$ for some $B\in \mathcal{B}$}
+>    \State Pick the first such $B$
+>    \State $B\gets B\cup\{i\}$
+>    \Else
+>    \State $B'\gets \{i\}$
+>    \State $\mathcal{B}\gets\mathcal{B}\cup\{B'\}$
+>    \EndIf
+>    \EndFor
+>    \Return $\mathcal {B}$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+
 \end{align}$$is a $2$-approximation algorithm.
+
+
+```pseudo
+\begin{algorithm} \caption{HIHI}
+\begin{algorithmic}
+\State $B\to \empty$
+
+\end{algorithmic}
+\end{algorithm}
+```
 
  > [!proof]+
  > We have that:
@@ -31,7 +55,10 @@
 > 1. **Case 1: $n_{1}\geq \frac{2}{ 3} k$** 
 >    Then, $k_{\text{OPT}}\geq n_{1}\geq \frac{2}{3}k$ and $k\leq \frac{3}{2}k_{\text{OPT}}$.
 >  2. **Case 2: $n_{1}< \frac{2}{3}k$**
->     Let's denote the first $k_{1}:=\left\lceil  \frac{2k}{3} \right\rceil-1$ bins early and the other $k_{2}:=k-k_{1}$ bins late. Then, $s_{1},\dots,s_{r}$ fit into early bins so all items in the late bins have at 
+>     Let's denote the first $k_{1}:=\left\lceil  \frac{2k}{3} \right\rceil-1$ bins early and the other $k_{2}:=k-k_{1}$ bins late. Then, $s_{1},\dots,s_{r}$ fit into early bins so all items in the late bins have size at most $\leq \frac{1}{2}$. In particular, every late bin should contain at least two items, except maybe the last bin. 
+>     
+>     Therefore, there exists at least $2(k_{2}-1)+1=2k-$
+>     
 >    Then, in the output of SFF, we have $n_{1}$ bins that are more full than 1/2 and 
 
 - **Remark**: It is $\mathcal{NP}$-hard to get a better factor than $3 / 2$.
