@@ -7,10 +7,10 @@
 - **Remark**: $k_{\text{OPT}}\geq s(\mathcal{S})=:S$.
 ---
 ##### Properties
-> [!lemma] Theorem 1 (First-Fit, Greedy)
-> The First-Fit algorithm works as follows:
+> [!lemma] Theorem 1 (First-Fit)
+> 
 >    ```pseudo
->    \begin{algorithm} \caption{FirstFit($n,s$)} 
+>    \begin{algorithm} \caption{FirstFit($\mathcal{S},s$)} 
 >    \begin{algorithmic}
 >    \State $\mathcal{B}\to \empty$
 >    \For{$i\in [n]$}
@@ -26,27 +26,28 @@
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
+> We have that 
+> 1. $\text{FirstFit}$ is a $2$-[[approximation algorithm]].
 
-\end{align}$$is a $2$-approximation algorithm.
-
-
-```pseudo
-\begin{algorithm} \caption{HIHI}
-\begin{algorithmic}
-\State $B\to \empty$
-
-\end{algorithmic}
-\end{algorithm}
-```
-
- > [!proof]+
+ > [!proof]-
  > We have that:
- > 1. **Claim 1**: for $\text{FirstFit}(I)$, there exists at most one bin $B$ with $s(B)\leq 1/ 2$.  
- >    Assume otherwise. 
+ > 1. **Claim 1**: for $\mathcal{B}:=\text{FirstFit}(I)$, there exists at most one bin $B\in \mathcal{B}$ with $s(B)\leq 1/ 2$.  
+ >    Assume otherwise, i.e. there exists $B_{i},B_{j}\in \mathcal{B}$ with $i<j$ s.t. $s(B_{i}),s(B_{j})\leq \frac{1}{2}$. Then, the algorithm could have put all the items in $B_{i}$ and not create $B_{j}$ which is a contradiction.
+ > 
+ > Assume that $\mathcal{B}:=\text{FirstFit}(I)$ where $\left| \mathcal{B} \right|=k$. Then, by Claim 1, $$k_{\text{OPT}}\ge s(\mathcal{S})>\frac{k-1}{2}$$ Therefore, $k\leq 2\cdot k_{\text{OPT}}$.
 
 ---
 > [!lemma] Theorem 2 (Sorted-First-Fit, SFF)
-> We sort the items by size and apply First-Fit.
+>    ```pseudo
+>    \begin{algorithm} \caption{SortedFirstFit($\mathcal{S},s$)} 
+>    \begin{algorithmic}
+>    \State Sort items in $\mathcal S$ by $s$ in decreasing order
+>    \State \Call{FirstFit}{$\mathcal S,s$}
+>    
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+> We have that:
 > 1. SFF is a $3 /2$-approximation algorithm.
 
 > [!proof]+
@@ -57,7 +58,7 @@
 >  2. **Case 2: $n_{1}< \frac{2}{3}k$**
 >     Let's denote the first $k_{1}:=\left\lceil  \frac{2k}{3} \right\rceil-1$ bins early and the other $k_{2}:=k-k_{1}$ bins late. Then, $s_{1},\dots,s_{r}$ fit into early bins so all items in the late bins have size at most $\leq \frac{1}{2}$. In particular, every late bin should contain at least two items, except maybe the last bin. 
 >     
->     Therefore, there exists at least $2(k_{2}-1)+1=2k-$
+>     Therefore, there exists at least $2(k_{2}-1)+1=2k-2\left\lceil  \frac{2k}{3} \right\rceil+1>k_{1}-1$ items in the late bins. 
 >     
 >    Then, in the output of SFF, we have $n_{1}$ bins that are more full than 1/2 and 
 
