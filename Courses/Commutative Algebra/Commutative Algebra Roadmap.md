@@ -27,6 +27,14 @@
 ![[Ring of Polynomial Functions#^39a3bf|p]]
 
 ---
+![[Variety#^dfb872]]
+![[Variety#^c712ee|p]]
+![[Variety#^df9fc7|q]]
+![[Variety#^4f0f2a]]
+![[Variety#^88859e|p]]
+![[Variety#^121639|p]]
+
+---
 #### 1. Ideals
 ##### 1.1 Ideals
 ![[Ideal (Ring)#^bbcb4f]]

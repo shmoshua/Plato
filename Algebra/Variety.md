@@ -31,20 +31,38 @@
 > 3. $Y\subseteq V(I(Y))$ and $S\subseteq I(V(S))$.
 > 4. if $Y\subseteq X$ is a subvariety, $Y=V(I(Y))$.
 
+^dfb872
+
 > [!proof]-
 > We have: 
 > 1. if $f\in I_{X}(Y')$, then $f(x)=0$ for all $x\in Y'$ and thereby $Y$.
 > 2. if $x\in V_{X}(S')$, then $f(x)=0$ for all $f\in S'$ and thereby $S$.  
 > 3. for $x\in Y$ and $f\in I(Y)$, $f(x)= 0$. Therefore, $x\in V(I(Y))$. Similarly, for $f\in S$ and $x\in V(S)$, $f(x)=0$. Therefore, $S\subseteq I(V(S))$. 
 > 4. One direction is clear from 3. If $Y$ is a subvariety, $Y=V(S)$ and as $S\subseteq I(V(S))$, we have by 2, $V(S)\supseteq V(I(V(S)))$.
-- **Corollary**: there are maps between subvarieties of $X$ and ideals in $A(X)$ given by $I$ and $V$. ($I$ is injective but $V$ is not. e.g. $V(x)=V(x^2))\subseteq \mathbb{A}_{K}^1$)  
+
+^c712ee
+
+- **Corollary**: there are maps between subvarieties of $X$ and ideals in $A(X)$ given by $I$ and $V$. ($I$ is injective but $V$ is not. e.g. $V(x)=V(x^2))\subseteq \mathbb{A}_{K}^1$)   ^df9fc7
 ---
 > [!lemma] Proposition 3
 > For a variety $X\subseteq \mathbb{A}_{K}^n$ and $Y\subseteq X$ a subvariety. Then, 
 > 1. $I_{X}(Y)\unlhd A(X)$ is [[Radical (Ring)|radical]].
 
+^4f0f2a
+
 > [!proof]-
 > Let $f\in \sqrt{ I_{X}(Y) }$, i.e. $f\in A(X)$ with $f^n\in I(Y)$. Then, $f^n(x)=0$ for all $x\in Y$. Therefore, $f(x)=0$ for all $x\in Y$. Hence, $f\in I(Y)$.
+
+^88859e
+
+---
+> [!lemma] Theorem 4 (Hilbert's Nullstellensatz)
+> For a variety $X\subseteq \mathbb{A}_{K}^n$ and a subvariety $Y\subseteq X$, 
+> 1. for any ideal $I\unlhd A(X)$, $I(V(I))=\sqrt{ I }$ where $\sqrt{ I }$ is the [[Radical (Ring)|radical]].
+
+^121639
+
+- **Corollary**: There is a bijection between subvarieties of $X$ and radical ideals in $A(X)$ given by $I$ and $V$. 
 ---
 ##### Examples 
 > [!h] Example 1
@@ -56,6 +74,10 @@
 ^d6893c
 
 ---
+> [!h] Example 2
+> We have:
+> 1. $S$
+---
 ##### Non-Examples
 > [!h] Non-Example 1
 > We have:
@@ -63,9 +85,10 @@
 
 ^cde87b
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. $I(\mathbb{Z})=(0)$ by Liouville's theorem. However, $V(0)=\mathbb{A}_{\mathbb{C}}^1$.
 
 ^cc24f3
 
+---
