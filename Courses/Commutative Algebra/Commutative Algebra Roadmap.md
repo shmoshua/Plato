@@ -5,6 +5,22 @@
 ![[Affine Space#^95322a]]
 ![[Affine Space#^ff2604|q]]
 ![[Affine Space#^b8445a|q]]
+---
+###### Varieties
+![[Variety#^1a7b97]]
+![[Variety#^d6893c|p]]
+
+---
+###### Ideals of Varieties
+![[Variety#^d9dae1|q]]
+![[Variety#^35d70d]]
+![[Variety#^c6655d|p]]
+---
+![[Variety#^cde87b]]
+![[Variety#^cc24f3|p]]
+
+---
+###### Ring of Polynomial Functions
 
 ---
 #### 1. Ideals
