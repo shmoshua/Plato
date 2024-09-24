@@ -10,7 +10,10 @@ We have:
 1. we will consider a coloring on $K_{n}$ where the colors are assigned randomly as follows: each edge is given the color red with the probability $p$ independently and otherwise blue. Now, notice that there are $n \choose s$ copies of $K_{s}$ and $n \choose t$ copies of $K_{t}$ in $K_{n}$. Let $A_{i}$ denote the event that the $i$-th $K_{s}$ is red and let $B_{j}$ denote the event that the $j$-th $K_{t}$ is blue. Then, $\mathbb{P}(A_{i})=p^{s\choose_{2}}$ and $\mathbb{P}(B_{j})=(1-p)^{t \choose 2}$ for all $i,j$. 
    
    Then, $$\mathbb{P}(\exists \text{red }K_{s}\text{ or blue }K_{t})\leq \mathbb{P}\left( \bigcup_{i}^{}A_{i}\cup \bigcup_{j}^{}B_{j} \right)\leq{n \choose s}p^{s \choose 2}+{n \choose t}(1-p)^{t \choose 2}<1$$Therefore, there is a coloring on $K_{n}$ that doesn't contain a red $K_{s}$ or a blue $K_{t}$. This shows that $R(s,t)>n$.
-2. Consider $p = \log t / t$ and $n\leq t^{3 /2} / \log^{3 /2 } t$. Then, $${n \choose 4}p^6+{n \choose t}(1-p)^{t \choose_{2}}\leq n^4p^6+n^t(1-p)^{t(t-1) / 2}\leq 1+\frac{t^{3 t/2}}{\log^{3t / 2}t}\frac{1-\log t}{t^{t(t-1 / 2)}}$$
+2. Consider $p = \log t / t$ and $n\leq t^{3/2} / \log^{3 /2}t$. 
+   
+   
+   Then, $$\begin{align}{n \choose 4}p^6+{n \choose t}(1-p)^{t \choose_{2}}&\leq \frac{n^4\cdot p^6}{24}+\left( \frac{et^{1/2}}{\log^{3/2}t} \right)^t\left( \frac{1-\log t}{t} \right)^{t(t-1) / 2}\\&\leq \frac{1}{24}+\frac{t^{2t-t^2 / 2}}{\log^{3t / 2}t}\frac{(1-\log t)^{t(t-1) / 2}}{}\end{align}$$
 ---
 
 > [!def] Problem 2
