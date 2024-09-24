@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Approximation Algorithm.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -112,8 +112,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Tournament.md"
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md"
               }
             }
           }
@@ -243,11 +242,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "59cf2d28f15176c6",
+  "active": "76843012e31e4d67",
   "lastOpenFiles": [
-    "Algebra/Ideal (Ring).md",
     "Graph Theory/Tournament.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Advanced Algorithms/Approximation Algorithm.md",
+    "Algebra/Ideal (Ring).md",
     "Courses/Commutative Algebra/Sheet 0.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Prime Ideal.md",
@@ -263,9 +264,7 @@
     "Advanced Algorithms/Bin-Packing.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Commutative Algebra",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Untitled.md",
-    "Advanced Algorithms/Approximation Algorithm.md",
     "Probabilistic Methods/Ramsey Number.md",
     "Advanced Algorithms",
     "Courses/Advanced Algorithms",

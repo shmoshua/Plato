@@ -22,3 +22,13 @@ $$\mathbb{E}(X)=\sum_{A\in \mathcal{A}}^{}\sum_{i\in [n]}^{}P(\{ \sigma(1),\dots
 Conversely,  for any permutation $\sigma\in \Pi$, we have that $X(\sigma)\leq 1$. Assume that $X(\sigma)\geq 2$, i.e. $i<j$ s.t. $\{ \sigma(1),\dots,\sigma(i) \},\{ \sigma(1),\dots,\sigma(j) \}\in \mathcal{A}$.  Then, $\{ \sigma(1),\dots,\sigma(i) \}\subseteq \{ \sigma(1),\dots,\sigma(j) \}$ which is a contradiction. Therefore, if we choose the permutation uniformly randomly, $$\mathbb{E}(X)=\frac{1}{n!}\sum_{\sigma\in \Pi}^{}X(\sigma)\leq 1 $$Therefore, $\left| \mathcal{A} \right| \frac{1}{n \choose \left\lfloor n / 2\right\rfloor}\leq \mathbb{E}(X)\leq 1$ and this proves the statement.
 
 ---
+> [!def] Problem 3
+> We have that:
+> 1. $f(k)\geq 2^{k+1}-1$ for any $k\in \mathbb{N}$.
+
+We have that:
+1. Firstly, let $T_{n}$ be a tournament with $S_{k}$-property. Then, add a new vertex to $T_{n}$ where 
+   
+   let $n\in \mathbb{N}$ such that there is no tournament of size $n$ with $S_{k}$-property for a fixed $k$. Then, we will show that it is also the case for every $m\leq n$. 
+   
+   Let $n= 2^{k+1}-2$. We will show that $T_{n}$ always has a dominating set of size $k$. Fix a $T_{n}$. By the handshaking lemma and the pigeonhole principle, there exists a vertex $v$ with out-degree at least $\left\lfloor \frac{(n-1)}{2}\right\rfloor=\left\lfloor \frac{2^{k+1}-3}{2}\right\rfloor=2^k-1$. Now, add $v$ in $S$ and the vertices $w$ for which $v \to w$. Then, we end up with a  
