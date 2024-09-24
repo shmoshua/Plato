@@ -1,5 +1,12 @@
 #CommutativeAlgebra #Roadmap 
 
+#### 0. Introduction
+##### 0.0 Affine Space and Varieties
+![[Affine Space#^95322a]]
+![[Affine Space#^ff2604|q]]
+![[Affine Space#^b8445a|q]]
+
+---
 #### 1. Ideals
 ##### 1.1 Ideals
 ![[Ideal (Ring)#^bbcb4f]]

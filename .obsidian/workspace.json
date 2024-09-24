@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Algebra/Variety.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Algebra/Variety.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Algebra/Variety.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Nilradical.md"
+                "file": "Algebra/Variety.md"
               }
             }
           }
@@ -206,11 +206,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0e40caa7f7b8df90",
+  "active": "1838704e8c1c11c0",
   "lastOpenFiles": [
-    "Algebra/Radical (Ring).md",
-    "Algebra/Nilradical.md",
+    "Algebra/Affine Space.md",
+    "Algebra/Variety.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Nilradical.md",
+    "Algebra/Radical (Ring).md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Probabilistic Methods/Ramsey Number.md",
     "Algebra/Module.md",
@@ -237,8 +239,6 @@
     "Markov Processes",
     "Advanced Algorithms/Approximation Algorithm.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Courses/Commutative Algebra/Sheet 0.md",
-    "Algebra/Unique Factorization Domain.md",
     "Courses/Commutative Algebra",
     "Advanced Algorithms",
     "Courses/Advanced Algorithms",
