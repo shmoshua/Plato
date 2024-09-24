@@ -34,3 +34,4 @@ Let $V_{m,n}:=\text{SO}(n) / \text{SO}(n-m)$ which is also the set of $m$-frames
 
 ---
 > [!def] Definition
+ø
