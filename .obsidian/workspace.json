@@ -63,54 +63,6 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "7e5f241744666f5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Tournament.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3ede63cc1855b61f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5285ac4bcbebef28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Field.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "76723421a064328a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced Algorithms/Approximation Algorithm.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ]
       }
@@ -242,12 +194,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "76843012e31e4d67",
+  "active": "c647681787a2558f",
   "lastOpenFiles": [
-    "Graph Theory/Tournament.md",
+    "Advanced Algorithms/Knapsack.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Advanced Algorithms/Approximation Algorithm.md",
+    "Graph Theory/Tournament.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Courses/Commutative Algebra/Sheet 0.md",
     "Algebra/Unique Factorization Domain.md",
@@ -260,7 +213,6 @@
     "Advanced Algorithms/Minimum Vertex Cover.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Coprime Ideal.md",
-    "Advanced Algorithms/Knapsack.md",
     "Advanced Algorithms/Bin-Packing.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Commutative Algebra",

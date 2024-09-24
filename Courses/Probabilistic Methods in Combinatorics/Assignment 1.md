@@ -10,7 +10,7 @@ We have:
 1. we will consider a coloring on $K_{n}$ where the colors are assigned randomly as follows: each edge is given the color red with the probability $p$ independently and otherwise blue. Now, notice that there are $n \choose s$ copies of $K_{s}$ and $n \choose t$ copies of $K_{t}$ in $K_{n}$. Let $A_{i}$ denote the event that the $i$-th $K_{s}$ is red and let $B_{j}$ denote the event that the $j$-th $K_{t}$ is blue. Then, $\mathbb{P}(A_{i})=p^{s\choose_{2}}$ and $\mathbb{P}(B_{j})=(1-p)^{t \choose 2}$ for all $i,j$. 
    
    Then, $$\mathbb{P}(\exists \text{red }K_{s}\text{ or blue }K_{t})\leq \mathbb{P}\left( \bigcup_{i}^{}A_{i}\cup \bigcup_{j}^{}B_{j} \right)\leq{n \choose s}p^{s \choose 2}+{n \choose t}(1-p)^{t \choose 2}<1$$Therefore, there is a coloring on $K_{n}$ that doesn't contain a red $K_{s}$ or a blue $K_{t}$. This shows that $R(s,t)>n$.
-2. Let $n:=$
+2. Consider $p = \log t / t$ and $n\leq t^{3 /2} / \log^{3 /2 } t$. Then, $${n \choose 4}p^6+{n \choose t}(1-p)^{t \choose_{2}}\leq n^4p^6+n^t(1-p)^{t(t-1) / 2}\leq 1+\frac{t^{3 t/2}}{\log^{3t / 2}t}\frac{1-\log t}{t^{t(t-1 / 2)}}$$
 ---
 
 > [!def] Problem 2
@@ -27,8 +27,6 @@ Conversely,  for any permutation $\sigma\in \Pi$, we have that $X(\sigma)\leq 1$
 > 1. $f(k)\geq 2^{k+1}-1$ for any $k\in \mathbb{N}$.
 
 We have that:
-1. Firstly, let $T_{n}$ be a tournament with $S_{k}$-property. Then, add a new vertex to $T_{n}$ where 
+1. Firstly, let $T_{n}$ be a tournament with $S_{k}$-property. Then, add a new vertex $v$ to $T_{n}$ where $u\to v$ for all $u\in V(T_{n})$. This is a new tournament with $S_{k}$-property. Therefore, this tells us it suffices to show that there is no tournament with $S_{k}$-property when $n=2^{k+1}-2$ to show the statement.
    
-   let $n\in \mathbb{N}$ such that there is no tournament of size $n$ with $S_{k}$-property for a fixed $k$. Then, we will show that it is also the case for every $m\leq n$. 
-   
-   Let $n= 2^{k+1}-2$. We will show that $T_{n}$ always has a dominating set of size $k$. Fix a $T_{n}$. By the handshaking lemma and the pigeonhole principle, there exists a vertex $v$ with out-degree at least $\left\lfloor \frac{(n-1)}{2}\right\rfloor=\left\lfloor \frac{2^{k+1}-3}{2}\right\rfloor=2^k-1$. Now, add $v$ in $S$ and the vertices $w$ for which $v \to w$. Then, we end up with a  
+   We will proceed with induction over $k$. If $k=1$, Then, for any tournament $T_{2}$, there exists one edge between the two nodes and it trivially cannot have $S_{k}$-property. Now, let $k>1$ and $n=2^{k+1}-2$. Fix a $T_{n}$. By the handshaking lemma and the pigeonhole principle, there exists a vertex $v$ with out-degree at least $\left\lfloor \frac{(n-1)}{2}\right\rfloor=\left\lfloor \frac{2^{k+1}-3}{2}\right\rfloor=2^k-1$. Now, remove $v$ and $2^k-1$ arbitrarily chosen vertices $w$ for which $v \to w$. Then, we end up with a tournament of size $(2^{k+1}-2)-1-(2^k-1)=2^k-2$. This tournament cannot have $S_{k-1}$-property by induction hypothesis. Let $S$ be a set of $k-1$ nodes in this tournament that is not dominated. Then, $S\cup \{ v \}$ is a set in the original tournament that is not dominated. Indeed, by assumption it is not dominated by any in the smaller tournament and it cannot be dominated by any of the removed vertices as they are all dominated by $v$. This proves the statement.
