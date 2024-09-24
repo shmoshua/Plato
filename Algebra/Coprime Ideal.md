@@ -1,7 +1,10 @@
 #Definition #Algebra
 
 > [!definition]
-> Let $R$ be a non-trivial [[ring]]. Two [[Ideal (Ring)|ideals]] $\mathfrak{a}, \mathfrak{b}\subseteq R$ are ***coprime*** if $\mathfrak{a}+\mathfrak{b}=R$.
+> Let $R$ be a non-trivial [[ring]]. Two [[Ideal (Ring)|ideals]] $I,J\unlhd R$ are ***coprime*** if $I+J=R$.
+
+^d314f8
+
 ---
 ##### Properties
 > [!lemma] Lemma 1

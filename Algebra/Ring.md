@@ -8,6 +8,8 @@
 > 4. **Multiplicative identity**: for all $a\in R$: $$1a=a 1=a$$
 > 5. **Distributivity**: for all $a,b,c\in R$: $$a(b+c)=ab+ac\quad \text{and}\quad (a+b)c=ac+bc$$
 
+^786158
+
 - **Related Definition**: A ring $(R,+,\cdot)$ is ***commutative***, if the multiplication $\cdot$ is commutative.
 - **Related Definition**: A ring $(R,+,\cdot)$ is **trivial**, if $R=\{ 0 \}$, i.e. $0=1$.
 - **Related Definition**: If a commutative ring $R$ also has a multiplicative inverse for all all $a\in R\backslash\{ 0 \}$, $R$ is a [[Field|field]].

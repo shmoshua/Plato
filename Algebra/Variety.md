@@ -76,7 +76,8 @@
 ---
 > [!h] Example 2
 > We have:
-> 1. $S$
+> 1. $\text{SL}_{n}\subseteq \text{Mat}_{n,n}(\mathbb{R})\cong \mathbb{A}_{\mathbb{R}}^{n^{2}}$ is a variety as $V(\det - 1)$.
+> 2. $V(D_{n})\subseteq \mathcal{P}_{n}$ where $D_{n}$ the discriminant denotes the subset of polynomials with multiple roots. 
 ---
 ##### Non-Examples
 > [!h] Non-Example 1

@@ -5,6 +5,9 @@
 > 1. $\varphi(a+b)=\varphi(a)+\varphi(b)$
 > 2. $\varphi(ab)=\varphi(a)\varphi(b)$
 > 3. $\varphi(1_{R})=1_{S}$ for $S\neq \{ 0 \}$
+
+^4740fd
+
 - **Remark**: $\varphi[R]$ is a subring of $S$.
 ---
 ##### Properties
@@ -23,6 +26,8 @@
 > 
 > commutes and especially, $$\varphi[R]=\overline{\varphi}[R / \mathfrak{a}]$$and $\text{ker}(\overline{\varphi})= \text{ker}(\varphi) / \mathfrak{a}$.
 
+^ae05b2
+
 > [!proof]-
 > We define $\overline{\varphi}(x+\mathfrak{a}):=\varphi(x)$.  Then, we show:
 > - $\overline{\varphi}$ is well-defined. We have that: $$\begin{align}\overline{x}&=\overline{y}\iff x-y\in\mathfrak{a}\subseteq \text{ker}(\varphi)\iff\varphi(x-y)=0_{S}\iff\varphi(x)=\varphi(y)\end{align}$$
@@ -32,8 +37,31 @@
 - **Corollary**: By letting $\mathfrak{a}=\text{ker}(\varphi)$, we have the first isomorphism theorem: $$R / \text{ker}(\varphi)\cong \text{Im }\varphi$$
 
 ---
- > [!lemma] Theorem 2 (First isomorphism theorem)
+> [!lemma] Theorem 2 (First isomorphism theorem)
+> For rings $R,S$ and a surjective homomorphism $\varphi:R\to S$, let $I\unlhd R$ with $\text{ker}(\varphi) \subseteq I$. Then, $$R / I\cong S / \varphi(I)$$
+
+^d4ff10
+
+> [!proof]-
+> We show that:
+> 1. $\varphi[\mathfrak{a}]\subseteq S$ is an ideal. For $a,b\in \varphi[\mathfrak{a}]$, there exists $c,d\in \mathfrak{a}$ s.t. $$\varphi(c+d)=\varphi(c)+\varphi(d)=a+b\in \varphi[\mathfrak{a}]$$Further, for any $s\in S$, $s\varphi(a)=\varphi(b)\varphi(a)=\varphi(ba)\in \varphi[\mathfrak{a}]$.
+>    
+> We now define the following homomorphism: $$\begin{array}{cccc} {\phi:}&{R}&\to&{S / \varphi[\mathfrak{a}]}\\&{x} &\mapsto & {\varphi(x)+\varphi[\mathfrak{a}]} \end{array}{}$$
+> 1. $\phi$ is a homomorphism:
+>     $$\phi(x+y)=\varphi(x+y)+\varphi[\mathfrak{a}]=\varphi(x)+\varphi[\mathfrak{a}]+\varphi(x)+\varphi[\mathfrak{a}]=\phi(x)+\phi(y)$$
+>     $$\phi(xy)=\varphi(xy)+\varphi[a]=(\varphi(x)+\varphi[\mathfrak{a}])(\varphi(y)+\varphi[\mathfrak{a}])=\phi(x)\phi(y)$$
+>     $$\phi(1_{R})=\varphi(1_{R})+\varphi[\mathfrak{a}]=1_{S}+\varphi[\mathfrak{a}]$$
+> 2. $\phi$ is surjective as $\phi=\pi \circ\varphi$ where both functions are surjective. 
+> 3. We have: $$\text{ker }\phi=\{ x\in R:\varphi(x)\in \varphi[\mathfrak{a}] \}$$
+> 	Therefore, $\mathfrak{a}\subseteq\text{ker }\phi$. Similarly, for $y\in \text{ker }\phi$, there exists $x\in \mathfrak{a}$ s.t. $\varphi(y)=\varphi(x)$. Then, $\varphi(y-x)=0$ and $y-x\in \text{ker }\varphi \subseteq \mathfrak{a}$. Therefore, $y=(y-x)+x\in \mathfrak{a}$. This shows that $\text{ker }\phi=\mathfrak{a}$. $$R / \mathfrak{a}\cong S / \varphi[\mathfrak{a}]$$ 
+
+^76eff0
+
+---
+> [!lemma] Theorem 3 (Second isomorphism theorem)
  > Let $R$ be a ring, $S\subseteq R$ a subring and $\mathfrak{a}\subseteq R$ an [[Ideal (Ring)]]. Then, $$S+\mathfrak{a}:=\{ x+a:x\in S,a\in\mathfrak{a} \}$$is a subring of $R$ that contains $\mathfrak{a}$ as ideal and it holds that: $$S / S \cap \mathfrak{a}\cong (S+\mathfrak{a}) / \mathfrak{a}$$
+
+^035149
 
 > [!proof]-
 > We show that: 
@@ -51,22 +79,7 @@ $$\begin{array}{cccccc}\varphi:&S&\xhookrightarrow{}&S+\mathfrak{a}&\xrightarrow
 > Therefore, $$S / (S \cap \mathfrak{a})\cong (S+\mathfrak{a}) / \mathfrak{a}$$
 
 ---
-> [!lemma] Theorem 3 (Second isomorphism theorem)
-> For rings $R,S$ and a surjective homomorphism $\varphi:R\to S$, let $\mathfrak{a}\subseteq R$ be an [[Ideal (Ring)]] with $\text{ker}(\varphi) \subseteq \mathfrak{a}$. Then, $$R / \mathfrak{a}\cong S / \varphi[\mathfrak{a}]$$
 
-> [!proof]-
-> We show that:
-> 1. $\varphi[\mathfrak{a}]\subseteq S$ is an ideal. For $a,b\in \varphi[\mathfrak{a}]$, there exists $c,d\in \mathfrak{a}$ s.t. $$\varphi(c+d)=\varphi(c)+\varphi(d)=a+b\in \varphi[\mathfrak{a}]$$Further, for any $s\in S$, $s\varphi(a)=\varphi(b)\varphi(a)=\varphi(ba)\in \varphi[\mathfrak{a}]$.
->    
-> We now define the following homomorphism: $$\begin{array}{cccc} {\phi:}&{R}&\to&{S / \varphi[\mathfrak{a}]}\\&{x} &\mapsto & {\varphi(x)+\varphi[\mathfrak{a}]} \end{array}{}$$
-> 1. $\phi$ is a homomorphism:
->     $$\phi(x+y)=\varphi(x+y)+\varphi[\mathfrak{a}]=\varphi(x)+\varphi[\mathfrak{a}]+\varphi(x)+\varphi[\mathfrak{a}]=\phi(x)+\phi(y)$$
->     $$\phi(xy)=\varphi(xy)+\varphi[a]=(\varphi(x)+\varphi[\mathfrak{a}])(\varphi(y)+\varphi[\mathfrak{a}])=\phi(x)\phi(y)$$
->     $$\phi(1_{R})=\varphi(1_{R})+\varphi[\mathfrak{a}]=1_{S}+\varphi[\mathfrak{a}]$$
-> 2. $\phi$ is surjective as $\phi=\pi \circ\varphi$ where both functions are surjective. 
-> 3. We have: $$\text{ker }\phi=\{ x\in R:\varphi(x)\in \varphi[\mathfrak{a}] \}$$
-> 	Therefore, $\mathfrak{a}\subseteq\text{ker }\phi$. Similarly, for $y\in \text{ker }\phi$, there exists $x\in \mathfrak{a}$ s.t. $\varphi(y)=\varphi(x)$. Then, $\varphi(y-x)=0$ and $y-x\in \text{ker }\varphi \subseteq \mathfrak{a}$. Therefore, $y=(y-x)+x\in \mathfrak{a}$. This shows that $\text{ker }\phi=\mathfrak{a}$. $$R / \mathfrak{a}\cong S / \varphi[\mathfrak{a}]$$ 
----
 > [!lemma] Theorem 4 (Third isomorphism theorem)
 > Let $R$ be a ring and $\mathfrak{a,b}\subseteq R$ ideals s.t. $\mathfrak{b}\subseteq \mathfrak{a}$. Then, $$(R / \mathfrak{b}) / (\mathfrak{a}/\mathfrak{b})\cong R / \mathfrak{a}$$where $\mathfrak{a}/\mathfrak{b}:=\{ a+\mathfrak{b}:a\in \mathfrak{a} \}$
 

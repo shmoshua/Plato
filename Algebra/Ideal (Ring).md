@@ -66,6 +66,8 @@
 > [!lemma] Theorem 5 (Chinese Remainder Theorem)
 > Let $R$ be a ring and $\mathfrak{a}_{1},\dots,\mathfrak{a}_{n}\subseteq R$ pairwisely [[Coprime Ideal|coprime]] ideals. Further, let $b_{1},\dots,b_{n}\in R$. Then, there exists $b\in R$ s.t. for all $i\in[n]$: $$b\equiv b_{i}\mod \mathfrak{a}_{i}$$Further, $b\mod \mathfrak{a}_{1}\cap\dots \cap \mathfrak{a}_{n}$ is unique.
 
+^893375
+
 > [!proof]-
 > We first show the claim:
 > > [!claim] Claim
@@ -78,6 +80,9 @@
 > Let $b_{1},\dots,b_{n}\in R$. Then, there exists for every $k\in [n]$, $a_{k}\subseteq \mathfrak{a}_{k}$ and $r_{k}\in \bigcap_{j\neq k}^{}\mathfrak{a}_{j}$ s.t. $$b_{k}=a_{k}+r_{k}$$Then, we define $b:= r_{1}+\dots+r_{n}$. Now, we show that $b$ meets all the properties. For $i\in[n]$: $$b-b_{i}=b-a_{i}-r_{i}=\sum_{k\neq i}^{}r_{k}-a_{i}$$As $r_{k}\in \bigcap_{j\neq k}^{}\mathfrak{a}_{j}$, for $k\neq i$, $r_{k}\in \mathfrak{a}_{i}$. Therefore, $b-b_{i}\in \mathfrak{a}_{i}$ and $b\equiv b_{i}\mod \mathfrak{a}_{i}$.
 > 
 > Let $b,c\in R$ s.t. $b\equiv b_{i}\mod \mathfrak{a}_{i}$ and $c \equiv b_{i}\mod \mathfrak{a_{i}}$. Then, for $i\in[n]$, $b-b_{i},c-b_{i}\in \mathfrak{a}_{i}$. Therefore, $$(b-b_{i})-(c-b_{i})=b-c\in \mathfrak{a}_{i}$$Therefore, $b\equiv_{\mathfrak{a}_{i}}c$ and $b=c\mod\mathfrak{a}_{1}\cap\dots \cap \mathfrak{a}_{n}$.
+
+^3258a2
+
 ---
 > [!lemma] Corollary 6
 > For $R$ and $\mathfrak{a}_{1},\dots,\mathfrak{a}_{n}$ pairwise coprime, $$R / (\mathfrak{a}_{1}\cap\dots \cap \mathfrak{a}_{n})\cong R / \mathfrak{a}_{1}\oplus \dots \oplus  R / \mathfrak{a}_{n}$$
@@ -94,6 +99,8 @@
 > [!h] Example 2
 > For any ring homomorphism $\varphi:R\to S$, $\text{ker }\varphi$ is an ideal in $R$.
 
+^6da822
+
 > [!proof]-
 > if $a,b\in \text{ker}(\varphi)$, $r\in R$, then: 
 > 1. $0_{R}\in \text{ker}(\varphi)$
@@ -101,6 +108,9 @@
 > 3. $\varphi(ra)=\varphi(r)\varphi(a)=\varphi(r)\cdot 0_{S}=0_{S}$, therefore, $ra\in \text{ker}(\varphi)$.
 > 
 > Therefore, from Fact 1, $\text{ker}(\varphi)$ is an ideal.
+
+^25795b
+
 ---
 - $m\mathbb{Z}$ is an ideal of $\mathbb{Z}$ for $m\in \mathbb{Z}$.
 - Consider $\text{C}(\mathbb{R})$, i.e. the set of all functions $f:\mathbb{R}\to \mathbb{R}$. For $M \subseteq \mathbb{R}$, the following: $$\mathfrak{a}_{M}:=\{ f:f(M)=\{ 0 \} \}$$is an ideal in $\text{C}(\mathbb{R})$. 

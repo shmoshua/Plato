@@ -1,5 +1,61 @@
 #CommutativeAlgebra #Roadmap 
 
+### 1. Rings and Ideals
+#### 1.1 Rings
+![[Ring#^786158]]
+
+---
+
+![[Unit#^4f9ab4]]
+![[Unit#^66fef9|q]]
+
+---
+![[Ring Homomorphism#^4740fd]]
+
+---
+![[Subring#^e90b88]]
+
+---
+
+#### 1.2 Ideals
+![[Ideal (Ring)#^bbcb4f]]
+
+---
+![[Ideal (Ring)#^6da822]]
+![[Ideal (Ring)#^25795b|p]]
+---
+![[Ring Homomorphism#^d4ff10]]
+![[Ring Homomorphism#^76eff0|p]]
+
+---
+![[Principal Ideal Domain#^12734a]]
+
+---
+##### 1.2.1 Ideal Constructions
+![[Ideal (Ring)#^8b2b1e|q]]
+
+---
+![[Coprime Ideal#^d314f8]]
+
+---
+![[Ideal (Ring)#^893375]]
+![[Ideal (Ring)#^3258a2|p]]
+
+---
+
+
+##### 1.2 Radical Ideals
+![[Radical (Ring)#^134f35]]
+![[Radical (Ring)#^3cd183|q]]
+---
+![[Radical (Ring)#^ef8725]]
+![[Radical (Ring)#^ac2252|p]]
+
+---
+##### 1.3 Nilradical, Nilpotent elements, and Reduced Rings
+---
+
+
 #### 0. Introduction
 ##### 0.0 Affine Space and Varieties
 ![[Affine Space#^95322a]]
@@ -35,18 +91,3 @@
 ![[Variety#^121639|p]]
 
 ---
-#### 1. Ideals
-##### 1.1 Ideals
-![[Ideal (Ring)#^bbcb4f]]
-![[Ideal (Ring)#^8b2b1e|q]]
-
----
-##### 1.2 Radical Ideals
-![[Radical (Ring)#^134f35]]
-![[Radical (Ring)#^3cd183|q]]
----
-![[Radical (Ring)#^ef8725]]
-![[Radical (Ring)#^ac2252|p]]
-
----
-##### 1.3 Nilradical, Nilpotent elements, and Reduced Rings

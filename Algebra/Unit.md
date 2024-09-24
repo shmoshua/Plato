@@ -2,7 +2,10 @@
 
 > [!definition]
 > Let $R$ be a [[Ring|ring]]. An element $a\in R$ is called a ***unit***, if there exists $b,c\in R$ s.t. $$ab=1_{R}=ca$$i.e. $a$ is invertible.
-- **Related definition**: A ring $R$ is a division ring if every $a\neq 0\in R$ is invertible, i.e. $R^\times=R \backslash \{ 0 \}$
+
+^4f9ab4
+
+- **Related definition**: A ring $R$ is a division ring if every $a\neq 0\in R$ is invertible, i.e. $R^\times=R \backslash \{ 0 \}$ ^66fef9
 ---
 ##### Properties
 > [!lemma] Proposition 1
