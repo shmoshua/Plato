@@ -21,6 +21,10 @@
 
 ---
 ###### Ring of Polynomial Functions
+![[Ring of Polynomial Functions#^56793e]]
+![[Ring of Polynomial Functions#^ca999a|q]]
+![[Ring of Polynomial Functions#^4b2402]]
+![[Ring of Polynomial Functions#^39a3bf|p]]
 
 ---
 #### 1. Ideals

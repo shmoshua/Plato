@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring of Polynomial Functions.md",
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Radical (Ring).md",
+                "file": "Algebra/Ring of Polynomial Functions.md",
                 "mode": "source",
                 "source": true
               }
@@ -52,7 +52,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -77,19 +78,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring of Polynomial Functions.md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "e8aa5efefbdd7884",
+            "id": "48a5e9ee9da2c0a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Algebra/Ring of Polynomial Functions.md",
                 "mode": "preview",
                 "source": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Ring of Polynomial Functions.md",
+                "file": "Algebra/Variety.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Ring of Polynomial Functions.md",
+                "file": "Algebra/Variety.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Ring of Polynomial Functions.md"
+                "file": "Algebra/Variety.md"
               }
             }
           }
@@ -226,12 +227,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1838704e8c1c11c0",
+  "active": "1ffcb49f5636e3a4",
   "lastOpenFiles": [
-    "Algebra/Variety.md",
-    "Algebra/Radical (Ring).md",
     "Algebra/Ring of Polynomial Functions.md",
+    "Algebra/Radical (Ring).md",
+    "Algebra/Variety.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Subvariety.md",
     "Algebra/Affine Space.md",
     "Algebra/Nilradical.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
@@ -258,7 +260,6 @@
     "Courses/Markov Processes",
     "Advanced Algorithms/Knapsack.md",
     "Markov Processes",
-    "Advanced Algorithms/Approximation Algorithm.md",
     "Courses/Commutative Algebra",
     "Advanced Algorithms",
     "Courses/Advanced Algorithms",
