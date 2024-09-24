@@ -64,6 +64,7 @@
 > 2. $R^n$ is a $R$-module with component-wise addition and multiplication.
 > 3. $\text{Mat}_{m,n}(R)$ is a $R$-module with matrix addition and scalar multiplication.
 > 4. An ideal $I\unlhd R$ is an $R$-module.
+> 5. Every $R$-algebra is a $R$-module.
 ---
 > [!h] Example 2
 > Let $A$ be an [[abelian group]]. Then, $A$ is a $\mathbb{Z}$-module with usual addition and $$na:=\begin{cases}a+\dots+a&n>0\\0&n=0\\-a-\dots-a&n<0\end{cases}$$as multiplication.
