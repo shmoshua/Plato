@@ -13,7 +13,9 @@ We have:
 2. Consider $p = \log t / t$ and $n\leq t^{3/2} / \log^{3 /2}t$. 
    
    
-   Then, $$\begin{align}{n \choose 4}p^6+{n \choose t}(1-p)^{t \choose_{2}}&\leq \frac{n^4\cdot p^6}{24}+\left( \frac{et^{1/2}}{\log^{3/2}t} \right)^t\left( \frac{1-\log t}{t} \right)^{t(t-1) / 2}\\&\leq \frac{1}{24}+\frac{t^{2t-t^2 / 2}}{\log^{3t / 2}t}\frac{(1-\log t)^{t(t-1) / 2}}{}\end{align}$$
+   Then, 
+   
+   $$\begin{align}{n \choose 4}p^6+{n \choose t}(1-p)^{t \choose_{2}}&\leq \frac{n^4\cdot p^6}{24}+\left( \frac{en}{t} \right)^te^{-\frac{(t-1)\log t}{2}}\\&\leq \frac{1}{24}+  \frac{e^tt^{t/2}}{\log^{3t/2}t} t^{-(t-1)/2} \\&\leq \frac{1}{24}+  \frac{e^tt^{1/2}}{\log^{3t/2}t} <1 \end{align}$$Therefore, $R(4,t)=\Omega(t^{3/2} / \log^{3 /2} t)$
 ---
 
 > [!def] Problem 2
