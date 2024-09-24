@@ -17,9 +17,14 @@
   margin-top: -1.7em !important;
 }
 
+.inline-embed[alt=q] {
+  margin-top: -2.5em !important;
+  margin-bottom: -1.5em !important;
+}
+
 
 .inline-embed .markdown-embed-content .callout-content {
-  margin-top: 1em !important;
+  margin-top: 0.5em !important;
 }
 
 .inline-embed .markdown-rendered .callout{

@@ -6,7 +6,7 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
-        "dimension": 47.81609195402299,
+        "dimension": 49.35822637106184,
         "children": [
           {
             "id": "1838704e8c1c11c0",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
+                "file": "Characteristic Classes/Fiber Bundle.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,19 +38,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Courses/Markov Processes/Markov Processes Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
         "type": "tabs",
-        "dimension": 52.18390804597701,
+        "dimension": 50.64177362893816,
         "children": [
           {
             "id": "76843012e31e4d67",
@@ -58,20 +57,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1351d94345cc70bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
-                "mode": "preview",
+                "file": "Characteristic Classes/Fiber Bundle.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -142,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Characteristic Classes/Fiber Bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Characteristic Classes/Fiber Bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markov Processes/Markov Chain.md"
+                "file": "Characteristic Classes/Fiber Bundle.md"
               }
             }
           }
@@ -206,14 +193,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c647681787a2558f",
+  "active": "76843012e31e4d67",
   "lastOpenFiles": [
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
+    "Characteristic Classes/Fiber Bundle.md",
     "Markov Processes/Markov Chain.md",
+    "Courses/Markov Processes/Markov Processes Roadmap.md",
+    "Untitled 1.md",
+    "Characteristic Classes",
+    "Measure Theory/Signed Measure.md",
+    "Graph Theory/Tournament.md",
+    "Courses/Markov Processes",
     "Advanced Algorithms/Knapsack.md",
     "Markov Processes",
     "Advanced Algorithms/Approximation Algorithm.md",
-    "Graph Theory/Tournament.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Courses/Commutative Algebra/Sheet 0.md",
@@ -234,16 +227,10 @@
     "Probabilistic Methods/Ramsey Number.md",
     "Advanced Algorithms",
     "Courses/Advanced Algorithms",
-    "Analysis/Inner Product Space.md",
-    "Functional Analysis/Adjoint Linear Map.md",
     "Probabilistic Methods",
-    "Measure Theory/Measure Space.md",
-    "Measure Theory/Summable Function.md",
     "Courses/Probabilistic Methods in Combinatorics",
     "Probability Theory",
     "Courses/Probability Theory",
-    "Courses/Complex Analysis",
-    "Complex Analysis",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
