@@ -12,7 +12,7 @@
 > $\text{T}M$ is equipped with the following topology: $E\subseteq \text{T}M$ is open if and only if for every chart $(U,\varphi)$, $d\varphi(E\cap \text{T}U)\subseteq \mathbb{R}^{2m}$ is open. Then, 
 > 1. The above topology is well-defined.
 > 2. For a chart $(U,\varphi)$, $d\varphi$ is a [[diffeomorphism]].
-> 3. $\text{T}M$ is a second countable [[Hausdorff space]].
+> 3. $\text{T}M$ is a second countable [[Hausdorff Space]].
 > 5. $\pi:\text{T}M\to M$ is continuous and open.
 > 6. For the [[atlas|smooth atlas]] $\mathcal{A}$ on $M$, $\{ (\text{T}U_{\alpha},d\varphi_{\alpha}):(U_{\alpha},\varphi_{\alpha})\in \mathcal{A} \}$ is a smooth atlas on $\text{T}M$.
 

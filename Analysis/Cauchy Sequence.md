@@ -1,7 +1,7 @@
 #Definition #Analysis 
 
 > [!definition]
-> For a [[metric space]] $(X,d)$, a sequence $\{ x_{n} \}_n\subseteq X$ is called a ***Cauchy sequence*** if for all $\varepsilon>0$ there exists $N\in \mathbb{N}$ s.t. $$d(x_{n},x_{N})<\varepsilon$$ for all $n \geq N$.
+> For a [[Metric Space]] $(X,d)$, a sequence $\{ x_{n} \}_n\subseteq X$ is called a ***Cauchy sequence*** if for all $\varepsilon>0$ there exists $N\in \mathbb{N}$ s.t. $$d(x_{n},x_{N})<\varepsilon$$ for all $n \geq N$.
 - **Equivalent definition**: for all $\varepsilon>0$, there exists $N\in \mathbb{N}$ s.t. $$d(x_{m},x_{n})<\varepsilon$$ for all $m,n\geq N$. (cf Theorem 1 for proof)
 
 ---

@@ -10,7 +10,7 @@
 ##### Properties
 > [!lemma] Proposition 1
 > Consider the injection: $$\begin{array}{cccc} {\Psi:}&{\text{GL}(n,\mathbb{R})}&\to&{\text{Homeo}(\mathbb{R}^n)}\\&{A} &\mapsto & {(x\mapsto Ax)} \end{array}{}$$Then, 
-> 1. $\Psi(\text{GL}(n,\mathbb{R}))\subseteq \text{Homeo}(\mathbb{R}^n)$ is closed w.r.t. [[compact-open topology]].
+> 1. $\Psi(\text{GL}(n,\mathbb{R}))\subseteq \text{Homeo}(\mathbb{R}^n)$ is closed w.r.t. [[Compact-Open Topology]].
 > 2. the induced subspace topology coincides with the euclidean topology on $\text{GL}(n,\mathbb{R})$.
 
 > [!proof]-

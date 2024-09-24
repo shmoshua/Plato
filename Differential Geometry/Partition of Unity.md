@@ -1,7 +1,7 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $X$ be a [[topological space]]. A ***partition of unity*** on $X$ is a collection $\{ f_{j} \}_{j}$ of continuous functions $f_{j}:X\to[0,1]$ s.t.
+> Let $X$ be a [[Topological Space]]. A ***partition of unity*** on $X$ is a collection $\{ f_{j} \}_{j}$ of continuous functions $f_{j}:X\to[0,1]$ s.t.
 > 1. $\{ \text{supp }f_{j} \}_{j}$ is locally finite, i.e. for $x\in X$, there exists a neighborhood $U\ni x$ s.t. $U\cap \text{supp }f_{j}=\varnothing$ except finitely many.
 > 2. $\sum_{j\in J}^{}f_{j}(x)=1$ for all $x\in X$.
 > 
@@ -11,7 +11,7 @@
 ##### Examples
 > [!h] Example 1 (Normal Spaces)
 > 
-> Let $X$ be a [[normal space]] and $\{ U_{i} \}_{i\in[k]}$ a finite open covering. Then, there exists a partition of unity subordinate to $\{ U_{i} \}_{i\in [k]}$.
+> Let $X$ be a [[Normal Space]] and $\{ U_{i} \}_{i\in[k]}$ a finite open covering. Then, there exists a partition of unity subordinate to $\{ U_{i} \}_{i\in [k]}$.
 
 > [!proof]-
 > We have:

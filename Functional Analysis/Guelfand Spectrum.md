@@ -50,7 +50,7 @@
 > Let $A$ be a commutative [[Banach Algebra|Banach algebra]]. Then, we have: 
 > 1. $\widehat{A}$ is locally compact Hausdorff w.r.t. Guelfand topology.
 > 2. If $A$ is unital, $\widehat{A}$ is compact.
-> 3. If $A$ is non-unital, $\widehat{A_{I}}$ is the [[one-point compactification]] of $\widehat{A}$.
+> 3. If $A$ is non-unital, $\widehat{A_{I}}$ is the [[One-Point Compactification]] of $\widehat{A}$.
 
 ^a2c505
 
@@ -131,7 +131,7 @@
 ---
 ##### Examples
 > [!h] Example 1
-> Let $X$ be a [[locally compact Hausdorff space]]. Then, $$\begin{array}{cccc} {}&{X}&\to&{\widehat{C_{0}(X)}}\\&{x} &\mapsto & {\text{ev}(x)} \end{array}{}$$is a bijection.
+> Let $X$ be a [[Locally Compact Hausdorff Space]]. Then, $$\begin{array}{cccc} {}&{X}&\to&{\widehat{C_{0}(X)}}\\&{x} &\mapsto & {\text{ev}(x)} \end{array}{}$$is a bijection.
 ---
 > [!h] Example 2
 > We have $\widehat{\ell^\infty(\mathbb{N})}\cong\{ \text{Ultra}(\mathbb{N}) \}$, i.e. the ultrafilters on $\mathbb{N}$.

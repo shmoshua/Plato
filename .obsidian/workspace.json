@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Courses/Characteristic Classes/Characteristic Classes Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,7 +44,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -57,8 +58,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Characteristic Classes/Fiber Bundle.md",
-                "mode": "source",
+                "file": "Courses/Characteristic Classes/Characteristic Classes Roadmap.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Characteristic Classes/Fiber Bundle.md",
+                "file": "Courses/Characteristic Classes/Characteristic Classes Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Characteristic Classes/Fiber Bundle.md",
+                "file": "Courses/Characteristic Classes/Characteristic Classes Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Characteristic Classes/Fiber Bundle.md"
+                "file": "Courses/Characteristic Classes/Characteristic Classes Roadmap.md"
               }
             }
           }
@@ -193,12 +194,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "76843012e31e4d67",
+  "active": "c647681787a2558f",
   "lastOpenFiles": [
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
-    "Characteristic Classes/Fiber Bundle.md",
-    "Markov Processes/Markov Chain.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
+    "Markov Processes/Markov Chain.md",
+    "Characteristic Classes/Fiber Bundle.md",
+    "Courses/Characteristic Classes/Characteristic Classes Roadmap.md",
+    "Courses/Characteristic Classes",
+    "Char",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Untitled 1.md",
     "Characteristic Classes",
     "Measure Theory/Signed Measure.md",
@@ -224,13 +228,10 @@
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Commutative Algebra",
     "Untitled.md",
-    "Probabilistic Methods/Ramsey Number.md",
     "Advanced Algorithms",
     "Courses/Advanced Algorithms",
     "Probabilistic Methods",
     "Courses/Probabilistic Methods in Combinatorics",
-    "Probability Theory",
-    "Courses/Probability Theory",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }

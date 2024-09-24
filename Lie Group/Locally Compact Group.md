@@ -1,7 +1,7 @@
 #Definition #LieGroups 
 
 > [!definition]
-> A [[topological group]] $G$ is ***locally compact***, if the underlying [[topological space]] is [[Locally Compact Space|locally compact]].
+> A [[topological group]] $G$ is ***locally compact***, if the underlying [[Topological Space]] is [[Locally Compact Space|locally compact]].
 ---
 ##### Properties
 > [!lemma] Lemma 1
@@ -24,14 +24,14 @@
 > 4. [[General Linear Group|$\text{GL}(n,\mathbb{R}), \text{GL}(n,\mathbb{C})$]] are locally compact Hausdorff by [[Locally Compact Hausdorff Space|Lemma 4]] as it is open in $\text{M}_{n,n}(\mathbb{R})$ and $\text{M}_{n,n}(\mathbb{C})$.
 ---
 > [!h] Example 2
-> Let $(X,d)$ be a [[proper metric space]]. Then, 
+> Let $(X,d)$ be a [[Proper Metric Space]]. Then, 
 > 1. $\text{Iso}(X)$ is locally compact w.r.t. compact-open topology.
 > 2. $\text{Iso}(X)$ is compact, if $X$ is compact.
 
 > [!proof]-
 > We have: 
 > 1. 
-> 1. Assume $X$ is compact. The [[compact-open topology]] on $\text{Homeo}(X)$ coincides with the topology induced by the metric of uniform convergence: $$d_{\infty}(f,g)=\sup\{ d(f(x),g(x)): x\in X \}$$ By Arzelà-Ascoli Theorem, $\text{Iso}(X)$ is compact if and only if $\text{Iso}(X)$ is equicontinuous and closed.
+> 1. Assume $X$ is compact. The [[Compact-Open Topology]] on $\text{Homeo}(X)$ coincides with the topology induced by the metric of uniform convergence: $$d_{\infty}(f,g)=\sup\{ d(f(x),g(x)): x\in X \}$$ By Arzelà-Ascoli Theorem, $\text{Iso}(X)$ is compact if and only if $\text{Iso}(X)$ is equicontinuous and closed.
 > 	
 > 	The equicontinuity is clear as we have isometries. For closedness, let $f\in C(X,X)$ and $(f_{n})\subseteq \text{Iso}(X)$ s.t. $f_{n}\to f$. For $x,y\in X$, we have: $$\begin{align}0&\leq \left| d(f(x),f(y))-d(x,y) \right| \\&=\left| d(f(x),f(y))-d(f_{n}(x),f_{n}(y)) \right|\\&\leq \left| d(f(x),f(y))-d(f_{n}(x),f(y)) \right| +\left| d(f_{n}(x),f(y))-d(f_{n}(x),f_{n}(y)) \right| \\&\leq d(f(x),f_{n}(x))+d(f(y),f_{n}(y)) \end{align}$$which converges to $0$. Therefore, $f\in \text{Iso}(X)$ and $\text{Iso}(X)$ is compact.
 ---

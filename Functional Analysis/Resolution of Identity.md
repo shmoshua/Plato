@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $X$ be a [[locally compact Hausdorff space]], $\mathcal{B}_{X}$ the [[Borel Sigma-Algebra|Borel $\sigma$-algebra]]  and $\mathcal{H}$ a [[Hilbert space]]. A map $E:\mathcal{B}_{X}\to \mathcal{B}(\mathcal{H})$ is a ***resolution of identity*** if: 
+> Let $X$ be a [[Locally Compact Hausdorff Space]], $\mathcal{B}_{X}$ the [[Borel Sigma-Algebra|Borel $\sigma$-algebra]]  and $\mathcal{H}$ a [[Hilbert space]]. A map $E:\mathcal{B}_{X}\to \mathcal{B}(\mathcal{H})$ is a ***resolution of identity*** if: 
 > 1. $E(\varnothing)=0$, $E(X)=\text{id}_{\mathcal{H}}$.
 > 2. $E(\omega)$ is a self-adjoint [[Hilbert Space Operator|projection]] for all $\omega\in \mathcal{B}_{X}$
 > 3. $E(\omega_{1}\cap\omega_{2})=E(\omega_{1})E(\omega_{2})$ for all $\omega_{1},\omega_{2}\in \mathcal{B}_{X}$

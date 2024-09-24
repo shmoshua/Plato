@@ -1,7 +1,7 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $X$ be a [[topological space]]. An equivalence relation $\sim$ on $X$ is ***open*** if $\pi:X \to X / \sim$ is an [[Open and Closed Maps|open map]].
+> Let $X$ be a [[Topological Space]]. An equivalence relation $\sim$ on $X$ is ***open*** if $\pi:X \to X / \sim$ is an [[Open and Closed Maps|open map]].
 ---
 ##### Properties
 > [!lemma] Proposition 1

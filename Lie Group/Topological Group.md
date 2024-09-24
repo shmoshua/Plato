@@ -1,9 +1,9 @@
 #Definition #Topology  #LieGroups 
 > [!definition]
-> A [[group]] $G$ is ***topological*** if the underlying set is a [[topological space]] and the group operations are continuous, i.e.
+> A [[group]] $G$ is ***topological*** if the underlying set is a [[Topological Space]] and the group operations are continuous, i.e.
 > 1. $m:G\times G\to G,(g,h)\mapsto gh$ is continuous and
 > 2. $i:G\to G,g\mapsto g^{-1}$ is continuous.
-- **Remark**: $g\mapsto g^{-1}$ is a [[homeomorphism]].
+- **Remark**: $g\mapsto g^{-1}$ is a [[Homeomorphism]].
 - **Related definition**: For any $g\in G$, the ***left/right translation*** are: $$\begin{array}{cccc} {L_{g}:}&{G}&\to&{G}\\&{x} &\mapsto & {gx} \end{array}{}\quad\quad\quad\quad\quad \begin{array}{cccc} {R_{g}:}&{G}&\to&{G}\\&{x} &\mapsto & {xg} \end{array}{}$$continuous and homeomorphisms (with inverses as $L_{g^{-1}},R_{g^{-1}}$).
 ---
 > [!lemma] Proposition 1
@@ -102,10 +102,10 @@
 > 2. $(\mathbb{R}^n,+)$ is a topological group with respect to the Euclidean topology.
 > 4. $\mathbb{R}^{\times},\mathbb{C}^{\times}$ are locally compact abelian topological groups.
 > 5. [[General Linear Group|$\text{GL}(n,\mathbb{R})$]] is a topological group.
-> 6. For any [[topological vector space]] $V$, $(V,+)$ is a topological group.
+> 6. For any [[Topological Vector Space]] $V$, $(V,+)$ is a topological group.
 ---
 > [!h] Example 3
-> Let $X$ be a [[locally compact Hausdorff space]]. Then, with respect to the [[compact-open topology]],
+> Let $X$ be a [[Locally Compact Hausdorff Space]]. Then, with respect to the [[Compact-Open Topology]],
 > 1. $\text{Homeo}(X)$ is not necessarily a topological group.
 > 1. $\text{Homeo}(X)$ is a topological group if $X$ is compact.
 > 2. $\text{Homeo}(X)$ is a topological group if $X$ is locally connected.
@@ -130,7 +130,7 @@
 > 2. $\text{Diff}^r(M)$ is not a closed subgroup of $\text{Homeo}(M)$.
 ---
 > [!h] Example 5
-> Let $(X,d)$ be a [[proper metric space]]. Then, the group of isometries $\text{Iso}(X)$ is a topological group w.r.t the compact-open topology.
+> Let $(X,d)$ be a [[Proper Metric Space]]. Then, the group of isometries $\text{Iso}(X)$ is a topological group w.r.t the compact-open topology.
 ---
 > [!h] Example 6 (Matrix Groups)
 > For $\text{GL}(n,\mathbb{R})$, 

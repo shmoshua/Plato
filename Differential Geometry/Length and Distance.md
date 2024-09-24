@@ -10,7 +10,7 @@
 ##### Properties
 > [!lemma] Theorem 1
 > Let $(M,g)$ be a connected [[Riemannian manifold]]. Then, 
-> 1. $(M,d)$ is a [[metric space]] where $d$ is the distance.
+> 1. $(M,d)$ is a [[Metric Space]] where $d$ is the distance.
 > 2. the topology $\mathcal{T}_{d}$ equals the topology of the [[topological manifold]] $M$.
 
 > [!proof]- Proof (Incomplete)

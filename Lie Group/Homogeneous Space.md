@@ -2,7 +2,7 @@
 
 > [!definition]
 > Let $G$ be a [[topological group]].
-> 1. A [[topological space]] $X$ is a ***homogeneous space*** of $G$ if there exists a continuous [[Group Action|transitive group action]] $G\times X\to X$.
+> 1. A [[Topological Space]] $X$ is a ***homogeneous space*** of $G$ if there exists a continuous [[Group Action|transitive group action]] $G\times X\to X$.
 - **Related definition**: A subset $Y\subseteq X$ is ***$G$-invariant***  if for any $y\in Y$ and $g\in G$, $gy\in Y$.
 - **Notation**: The [[Orbit and Stablizer|stabilizer]] $\text{Stab}_{G}(x)$ is also denoted as $G_{x}$.
 ---

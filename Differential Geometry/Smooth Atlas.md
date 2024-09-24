@@ -1,7 +1,7 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> Let $M$ be a [[topological manifold]] of dimension $m$. A ***smooth atlas*** on $M$ is a collection: $$\mathcal{X}:=\{ x_{\alpha}:U_{\alpha}\to x_{\alpha}(U_{\alpha})\subseteq \mathbb{R}^m \}_{\alpha}$$where $U_{\alpha}$ is open, $x_{\alpha}$ is a [[homeomorphism]] s.t.
+> Let $M$ be a [[topological manifold]] of dimension $m$. A ***smooth atlas*** on $M$ is a collection: $$\mathcal{X}:=\{ x_{\alpha}:U_{\alpha}\to x_{\alpha}(U_{\alpha})\subseteq \mathbb{R}^m \}_{\alpha}$$where $U_{\alpha}$ is open, $x_{\alpha}$ is a [[Homeomorphism]] s.t.
 > 1. $M=\bigcup_{\alpha\in A}^{}U_{\alpha}$ and
 > 2. $x_{\beta}\circ x_{\alpha}^{-1}: x_{\alpha}(U_{\alpha}\cap U_{\beta})\to x_{\beta}(U_{\alpha}\cap U_{\beta})$ is a [[diffeomorphism]] for all $\alpha,\beta\in A$
 

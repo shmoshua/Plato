@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $G$ be a countable [[group]] and $X$ a compact [[Hausdorff space]] s.t. there exists a [[Group Action|group action]] $G\to \text{Homeo}(X)$ by homeomorphisms. Then, firstly, let $$M^1(X)^G:=\{ \mu\in M^1(X):\mu \text{ is }G\text{-invariant} \}$$Then, $\mu\in M^1(X)^G$ is called ***ergodic*** if for any $G$-invariant measurable subset $S\subseteq X$, $$\mu(S)=0\lor \mu(X\backslash S)=0$$
+> Let $G$ be a countable [[group]] and $X$ a compact [[Hausdorff Space]] s.t. there exists a [[Group Action|group action]] $G\to \text{Homeo}(X)$ by homeomorphisms. Then, firstly, let $$M^1(X)^G:=\{ \mu\in M^1(X):\mu \text{ is }G\text{-invariant} \}$$Then, $\mu\in M^1(X)^G$ is called ***ergodic*** if for any $G$-invariant measurable subset $S\subseteq X$, $$\mu(S)=0\lor \mu(X\backslash S)=0$$
 - **Remark**: Notice that $M^1(X)^G$ is convex and weak\*-closed, therefore, compact.
 ---
 ##### Properties

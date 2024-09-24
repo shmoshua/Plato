@@ -17,7 +17,7 @@
 > 4. $dF$ is smooth.
 > 5. For $(U,\varphi)$ and $(V,\psi)$ charts at $p$ and $F(p)$ respectively with coordinates $x^i$ and $y^j$: $$d_{p}F\left( \left. \frac{ \partial  }{ \partial x^i }  \right| _{p} \right) =\sum_{j=1}^{n}\left. \frac{ \partial (y^j\circ F) }{ \partial x^i }  \right| _{p}\left. \frac{ \partial  }{ \partial y^j }  \right|_{F(p)} $$and$$d_{p}F(v) = \sum_{j=1}^{n}\left(\sum_{i=1}^{m}\left. \frac{ \partial (y^j\circ F) }{ \partial x^i }  \right| _{p}v^i \right)\left. \frac{ \partial  }{ \partial y^j }  \right|_{F(p)}$$
 > 	Therefore, $\left\{  \left. \frac{ \partial y^i\circ F }{ \partial x^j } \right|_{p}  \right\}$ is the ***Jacobian*** of $F$.
-> 6. If $F$ is a [[homeomorphism]], $d_{p}F$ is bijective.
+> 6. If $F$ is a [[Homeomorphism]], $d_{p}F$ is bijective.
 
 > [!proof]-
 > We have:

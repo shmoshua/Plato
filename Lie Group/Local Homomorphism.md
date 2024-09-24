@@ -2,7 +2,7 @@
 
 > [!definition]
 > Let $G,H$ be [[Topological Group|topological groups]]. A ***local homomorphism*** is a pair $(\varphi,U)$ where $e\in U\subseteq G$ and $\varphi:U\to H$ s.t. whenever $\{ x,y,xy \}\subseteq U$, $$\varphi(xy)=\varphi(x)\varphi(y)$$
-> Additionally, if $\varphi:U\to\varphi(U)$ is a [[homeomorphism]], $(\varphi,U)$ is a ***local isomorphism***.
+> Additionally, if $\varphi:U\to\varphi(U)$ is a [[Homeomorphism]], $(\varphi,U)$ is a ***local isomorphism***.
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Extension of Local Homomorphisms)

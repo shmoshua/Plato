@@ -20,7 +20,7 @@
 > For $A,B \in \mathbb{R}^n$, we will show that if $$d(A,B):=\inf \{ |a-b|: a\in A,b\in B\}>0$$then $\mu(A \cup B)=\mu(A)+\mu(B)$. Let $U$ be an open set s.t. $A \subseteq U$ and $B \cap U = \varnothing$. Then, $$\mu(A \cup B)=\mu((A\cup B)\cap U)+\mu((A\cup B)\backslash U)=\mu(A)+\mu(B)$$
 ---
 > [!lemma] Lemma 3
-> Let $X$ be a compact [[Hausdorff space]] and $C(X,\mathbb{R})=C_{0}(X,\mathbb{R})$. Further, let $M(X,\mathbb{R})$ be the set of all [[Signed Measure|signed]] [[Borel Regular Measure|Borel-regular measures]] on $X$. Then, 
+> Let $X$ be a compact [[Hausdorff Space]] and $C(X,\mathbb{R})=C_{0}(X,\mathbb{R})$. Further, let $M(X,\mathbb{R})$ be the set of all [[Signed Measure|signed]] [[Borel Regular Measure|Borel-regular measures]] on $X$. Then, 
 > 1. The set: $$\left\{  \mu\in  M(X,\mathbb{R}): \left| \int_{X}^{} f \, d\mu  \right| \leq 1,\forall f\in C(X,\mathbb{R}), \left\| f \right\| _{b}\leq 1 \right\}$$
 >  is weak\*-closed.
 > 2. The space of probability measures, $$M^1(X):=\{ \mu\in M(X,\mathbb{R}):\mu \text{ is non-negative, }\mu(X)=1 \}$$is weak\*-closed.
@@ -30,7 +30,7 @@
 > 1. From the [[Analysis/Complex Measure|Riesz representation theorem]], there exists a bijection: $$\begin{array}{cccc}R:&{(M(X,\mathbb{R}),\|\cdot \|)}&\to&{(C(X,\mathbb{R})^{*},\|\cdot \|_{b})}\\&{\mu} &\mapsto & {\Phi_{\mu}} \end{array}{}$$
 > where $\Phi_{\mu}(f)=\int_{X}^{} f \, d\mu$ and $\|\mu\|=\left| \mu \right|(X)$.
 > 
->    On $C(X,\mathbb{R})^{*}$, the weak\*-topology is the [[initial topology]] with $\mathcal{F}:=\{ (J(f),\mathbb{R}) \}_{f\in C(X,\mathbb{R})}$ with $$\begin{array}{cccc} {J(f):}&{C(X,\mathbb{R})^*}&\to&{\mathbb{R}}\\&{\Phi} &\mapsto & {\Phi(f)} \end{array}{}$$
+>    On $C(X,\mathbb{R})^{*}$, the weak\*-topology is the [[Initial Topology]] with $\mathcal{F}:=\{ (J(f),\mathbb{R}) \}_{f\in C(X,\mathbb{R})}$ with $$\begin{array}{cccc} {J(f):}&{C(X,\mathbb{R})^*}&\to&{\mathbb{R}}\\&{\Phi} &\mapsto & {\Phi(f)} \end{array}{}$$
 > 
 >    Therefore, we can extend the weak\*-topology onto $M(X,\mathbb{R})$ as the initial topology with $\mathcal{F}:=\{ (J(f),\mathbb{R}) \}_{f\in C(X,\mathbb{R})}$ where: $$\begin{array}{cccc} {J(f):}&{M(X,\mathbb{R})}&\to&{\mathbb{R}}\\&{\mu} &\mapsto & {\int_{X}f  \, d\mu } \end{array}{}$$Then, we have that the unit closed ball: $$M_{\leq 1}:=\left\{  \mu\in  M(X,\mathbb{R}): \left| \int_{X}^{} f \, d\mu  \right| \leq 1,\forall f\in C(X,\mathbb{R}), \left\| f \right\| _{b}\leq 1 \right\}$$is closed with respect to the extended topology. 
 > 

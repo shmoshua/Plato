@@ -28,7 +28,7 @@
 > Since $\mathcal{A}$ is an atlas there is a chart $(V,\psi)\in A$ with $x\in V$. Since further both $(U_{\alpha},\varphi_{\alpha}),(U_{\beta},\varphi_{\beta})$ are compatible with $(V,\psi)$ the coordinate transformations $\theta_{\beta \psi}$ and $\theta _{\psi\alpha}$ are $C^k$ and hence so is $\theta_{\beta\alpha}=\theta_{\beta \psi}\circ\theta_{\psi\alpha}$ on $U_{\alpha}\cap U_{\beta}\cap V$ which contains $x$.
 ---
 > [!lemma] Lemma 3
-> Let $M$ be a [[smooth manifold]] with maximal atlas $\mathcal{A}$. If $F:M\to M$ is a [[homeomorphism]], then $$\mathcal{A}':=\{ (F(U),\varphi \circ F^{-1})|(U,\varphi)\in \mathcal{A} \}$$is a maximal smooth atlas as well.
+> Let $M$ be a [[smooth manifold]] with maximal atlas $\mathcal{A}$. If $F:M\to M$ is a [[Homeomorphism]], then $$\mathcal{A}':=\{ (F(U),\varphi \circ F^{-1})|(U,\varphi)\in \mathcal{A} \}$$is a maximal smooth atlas as well.
 
 > [!proof]-
 > Let $(F(U_{\alpha}),\varphi_{\alpha}\circ F^{-1}),(F(U_{\beta}),\varphi_{\beta}\circ F^{-1})\in \mathcal{A'}$. Then, $$\theta_{\beta\alpha}'=\varphi_{\beta}\circ F^{-1}\circ F\circ \varphi_{\alpha}^{-1}=\varphi_{\beta}\circ\varphi_{\alpha}^{-1} $$on $\varphi_{\alpha}(F^{-1}(F(U_{\alpha})\cap F(U_{\beta})))$ which is an open subset of $\varphi_{\alpha}(U_{\alpha}\cap U_{\beta})$. Therefore,  $\theta_{\beta\alpha}$ is smooth.

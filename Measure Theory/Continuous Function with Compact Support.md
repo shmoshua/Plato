@@ -1,12 +1,12 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> For a [[topological space]] $X$, $(C_{c}(X),\|\cdot\|_{b})$ denotes the space of ***continuous functions $f:X\to \mathbb{C}$ with compact support*** where: $$\text{supp }f:=\overline{f^{-1}[\mathbb{C}\backslash\{ 0 \}]}$$
+> For a [[Topological Space]] $X$, $(C_{c}(X),\|\cdot\|_{b})$ denotes the space of ***continuous functions $f:X\to \mathbb{C}$ with compact support*** where: $$\text{supp }f:=\overline{f^{-1}[\mathbb{C}\backslash\{ 0 \}]}$$
 - **Remark**: If $X$ is not compact, $C_{c}(X)$ is not complete.
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> Let $X$ be a [[locally compact Hausdorff space]]. Then, $C_{c}(X)$ is dense in [[Continuous function Vanishing at Infinity|$C_{0}(X)$]]. 
+> Let $X$ be a [[Locally Compact Hausdorff Space]]. Then, $C_{c}(X)$ is dense in [[Continuous function Vanishing at Infinity|$C_{0}(X)$]]. 
 
 > [!proof]-
 > Let $f\in C_{0}(X)$ and $\varepsilon>0$. Then, there exists a compact set $K_{\varepsilon}$ s.t. $\left| f(x) \right|\leq \varepsilon$ for all $x\notin K_{\varepsilon}$. As $X$ is locally compact, we can find $U$ open with compact closure s.t. $K_{\varepsilon}\subseteq U$. Then, by [[Locally Compact Hausdorff Space|Urysohn's Lemma]], there exists $g:X\to[0,1]$ s.t.:
@@ -20,7 +20,7 @@
 > Therefore, $\left\| fg-f \right\|_{b}\leq \varepsilon$.  Further, $fg\in C_{c}(X)$. 
 ---
 > [!lemma] Theorem 2
-> Let $X$ be a [[locally compact Hausdorff space]] and $\mu$ a [[Radon measure]] on $X$. Then, $C_{c}(X)$ is dense in $L^p(X,\mathcal{B}_{X},\mu)$ for $1\leq p<+\infty$.
+> Let $X$ be a [[Locally Compact Hausdorff Space]] and $\mu$ a [[Radon measure]] on $X$. Then, $C_{c}(X)$ is dense in $L^p(X,\mathcal{B}_{X},\mu)$ for $1\leq p<+\infty$.
 ---
 > [!lemma] Lemma 3
 > Let $\varphi_{1},\varphi_{2}\in C_{c}(\mathbb{R}^n)$. Then, $\text{supp}(\varphi_{1}*\varphi_{2})\subseteq \text{supp}(\varphi_{1})+\text{supp}(\varphi_{2})$

@@ -124,7 +124,7 @@
 > Let $A$ be an involutive Banach algebra. We have that $A_{I}$ is an involutive Banach algebra with $$(x,\lambda)^{*}:=(x^{*},\overline{\lambda})$$
 ---
 > [!h] Example 1
-> For a [[locally compact Hausdorff space]] $X$, Then, 
+> For a [[Locally Compact Hausdorff Space]] $X$, Then, 
 > 1. $C_{b}(X)$ is a Banach algebra
 > 2. $C_{b}(X)$ is involutive with $f^{*}=\overline{f}$.
 > 3. $C_{b}(X)$ is a $C^{*}$-algebra.
@@ -138,7 +138,7 @@
 > 3. **Showing $C_{b}$ is C\*-algebra**:$$\left\| ff^{*} \right\|_{b}=\sup_{x\in X}\left| \overline{f(x)}f(x) \right| =\sup_{x\in X}\left| f(x) \right| ^{2}=\left\| f \right\| ^2_{b}=\left\| f^{*} \right\|_{b}\left\| f \right\|_{b} $$
 ---
 > [!h] Example 2
-> For a [[locally compact Hausdorff space]] $X$, Then, 
+> For a [[Locally Compact Hausdorff Space]] $X$, Then, 
 > 1. $C_{0}(X)$ is a C*-algebra.
 > 2. $C_{0}(X)$ is [[C-Algebra|unital]], if and only if $X$ is compact.
 

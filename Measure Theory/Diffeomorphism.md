@@ -11,7 +11,7 @@
 > [!lemma] Lemma 1
 > We have that:
 > 1. if $M$ and $N$ are diffeomorphic, they have the same dimension.
-> 2. a diffeomorphism $f:M\to N$ is a [[homeomorphism]].
+> 2. a diffeomorphism $f:M\to N$ is a [[Homeomorphism]].
 > 3. $\text{Diff}(M):=\{ f:M\to M|f \text{ is a diffeomorphism} \}$ is a group.
 
 > [!proof]-

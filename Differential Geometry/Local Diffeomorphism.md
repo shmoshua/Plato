@@ -20,7 +20,7 @@
 > Let $M,N,P$ be smooth manifolds and $f,g:M\to N$, $h:N\to P$ be local diffeomorphisms. Then, 
 > 1. $h\circ f$ is a local diffeomorphism.
 > 2. $fg$ is a local diffeomorphism.
-> 3. $f$ is a [[local homeomorphism]] and open.
+> 3. $f$ is a [[Local Homeomorphism]] and open.
 > 7. for any $U\subseteq M$ open, $f|_{U}$ is a local diffeomorphism.
 > 8. a diffeomorphism $F:M\to N$ is a local diffeomorphism.
 > 9. if $f$ is bijective, $f$ is a diffeomorphism.

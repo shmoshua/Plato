@@ -23,7 +23,7 @@
 > We can use $G=\mathbb{Z}$ and $$\begin{array}{cccc} {}&{\mathbb{Z}\times X }&\to&{X}\\&{(m,x)} &\mapsto & {\psi^m(x)} \end{array}{}$$Then, we can use Corollary 2. 
 ---
 > [!lemma] Theorem 4 (Unique Ergodicity)
-> Let $X$ be a compact [[Hausdorff space]] and $\psi\in \text{Homeo}(X)$. If there exists a unique $\psi$-invariant probability measure $\mu\in M^1(X)$, then for all $f\in C(X)$ s.t. $$ \frac{1}{n}\sum_{k=0}^{n-1}f(\psi^k(x))\xrightarrow{n\to \infty}\int_{X}^{} f \, d\mu $$converges uniformly, i.e. to a constant. In other words, the time average converges to the space average.
+> Let $X$ be a compact [[Hausdorff Space]] and $\psi\in \text{Homeo}(X)$. If there exists a unique $\psi$-invariant probability measure $\mu\in M^1(X)$, then for all $f\in C(X)$ s.t. $$ \frac{1}{n}\sum_{k=0}^{n-1}f(\psi^k(x))\xrightarrow{n\to \infty}\int_{X}^{} f \, d\mu $$converges uniformly, i.e. to a constant. In other words, the time average converges to the space average.
 
 > [!proof]- Proof
 > Assume it is not, i.e. there exists $g\in C(X)$, $\varepsilon>0$ s.t. for all $N\in \mathbb{N}$, there exists $n\geq N$ and $x_{n}\in X$ s.t.: $$\left| \frac{1}{n}\sum_{k=0}^{n-1}g(\psi^k(x_{n}))-\int_{X}^{} g \, d\mu  \right| \geq \varepsilon$$

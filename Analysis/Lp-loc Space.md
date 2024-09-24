@@ -1,6 +1,6 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
-> Let $(X,\mathcal{F},\mu)$ where $X$ is a [[locally compact Hausdorff space]], $\mu$ a positive [[Borel Measure|Borel regular measure]], $$L^p_{\text{loc}}(X)=\{ f:X\to \mathbb{C}|f\text{ measurable, }\forall K\subseteq X\text{ compact, }f\cdot \chi_{K}\in L^p(X) \}$$
+> Let $(X,\mathcal{F},\mu)$ where $X$ is a [[Locally Compact Hausdorff Space]], $\mu$ a positive [[Borel Measure|Borel regular measure]], $$L^p_{\text{loc}}(X)=\{ f:X\to \mathbb{C}|f\text{ measurable, }\forall K\subseteq X\text{ compact, }f\cdot \chi_{K}\in L^p(X) \}$$
 ---
 ##### Properties
 > [!lemma] Proposition 1

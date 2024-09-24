@@ -53,7 +53,7 @@
 > 3. If $\text{ker } \chi\neq A$, then $\chi(A)=\mathbb{C}$ and we can pick $u\in A$ with $\chi(u)=1$. Then, $ux-x\in \text{ker }\chi$ for all $x\in A$.
 ---
 > [!h] Example 2
-> For a [[locally compact Hausdorff space]] $X$ and a closed subset $E\subseteq X$, we define: $$I(E):=\{ f\in C_{0}(X):f|_{E}=0 \}$$Then, 
+> For a [[Locally Compact Hausdorff Space]] $X$ and a closed subset $E\subseteq X$, we define: $$I(E):=\{ f\in C_{0}(X):f|_{E}=0 \}$$Then, 
 > 1. $I(E)$ is an ideal in $C_{0}(X)$.
 > 2. $I(E)$ is regular if and only if $E$ is compact. 
 

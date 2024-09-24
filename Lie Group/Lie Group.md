@@ -105,7 +105,7 @@
 > $\text{Homeo}(X)$ is generally not a Lie group as it is not locally compact generally, but topological manifolds are.
 ---
 > [!h] Example 4
-> For a [[proper metric space]] $X$, 
+> For a [[Proper Metric Space]] $X$, 
 > 1. $\text{Iso}(X)$ can be a Lie group but not always.
 > 2. $\text{Iso}(\mathbb{R}^n)$ is a Lie group w.r.t. the euclidean distance.
 > 3. $\text{Iso}(M)$ is a Lie group for a [[Riemannian manifold]] $M$.

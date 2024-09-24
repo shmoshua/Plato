@@ -38,7 +38,7 @@ We have:
 	Now, notice that $\{ x \}=B_{<1}(x)$ for every $x\in X$. Therefore, $\{ x \}$ is open and by 1, $\mathcal{T}_{d}$ is the discrete topology.
 ---
 > [!definition] Problem 4
-> Let $C$ be the [[Cantor space]] of sequences $(x_{n})_{n\geq 1}$ with $x_{n}\in \{ 0,1 \}$, with the topology defined in the lecture.
+> Let $C$ be the [[Cantor Space]] of sequences $(x_{n})_{n\geq 1}$ with $x_{n}\in \{ 0,1 \}$, with the topology defined in the lecture.
 > 1. Show that the map: $$\begin{array}{cccc} {t:}&{C}&\to&{[0,1]}\\&{x} &\mapsto & {\sum_{n=1}^{\infty}\frac{2x_{n}}{3^n}} \end{array}{}$$is well-defined and that it is continuous and injective.
 > 2. Show that the image of $t$ in closed in $[0,1]$. 
 > 3. Show that the reciprocal map $t^{-1}:t(C)\to C$ is continuous.

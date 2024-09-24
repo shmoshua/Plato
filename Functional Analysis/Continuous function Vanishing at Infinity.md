@@ -1,6 +1,6 @@
 #Definition  #FunctionalAnalysis 
 > [!definition]
-> For a [[topological space]] $X$, $(C_{0}(X),\|\cdot\|_{b})$ denotes [[Normed Space|normed vector space]] of continuous functions $f:X\to \mathbb{\mathbb{C}}$ that ***vanish at infinity***, i.e. for all $\varepsilon>0$, there exists $K\subseteq X$ compact s.t $$\sup_{x\in X \backslash K}\left| f(x) \right| <\varepsilon$$
+> For a [[Topological Space]] $X$, $(C_{0}(X),\|\cdot\|_{b})$ denotes [[Normed Space|normed vector space]] of continuous functions $f:X\to \mathbb{\mathbb{C}}$ that ***vanish at infinity***, i.e. for all $\varepsilon>0$, there exists $K\subseteq X$ compact s.t $$\sup_{x\in X \backslash K}\left| f(x) \right| <\varepsilon$$
 - **Remark**: if $X$ is compact, $C_{0}(X)=C(X)$.
 ---
 ##### Properties
@@ -17,7 +17,7 @@
 > $C_{0}(X,\mathbb{C})^{*}$ is the space of [[Analysis/Complex Measure|complex measures]] $\mu:\mathcal{B}_{X}\to \mathbb{C}$.
 ---
 > [!lemma] Theorem 3 (Real Stone-Weierstrass)
-> Let $X$ be a [[locally compact Hausdorff space]] and let $\mathcal{A}\subseteq C_{0}(X,\mathbb{R})$ be a subalgebra s.t. 
+> Let $X$ be a [[Locally Compact Hausdorff Space]] and let $\mathcal{A}\subseteq C_{0}(X,\mathbb{R})$ be a subalgebra s.t. 
 > 1. for all $x\in X$, there exists $f\in \mathcal{A}$ with $f(x)\neq 0$.
 > 2. for all $x,y\in X$ with $x\neq y$, there exists $f\in \mathcal{A}$ with $f(x)\neq f(y)$.
 > 
@@ -42,7 +42,7 @@
 ---
 
 > [!lemma] Theorem 4 (Complex Stone-Weierstrass)
-> Let $X$ be a [[locally compact Hausdorff space]] and let $\mathcal{B}\subseteq C_{0}(X)$ be a subalgebra s.t. 
+> Let $X$ be a [[Locally Compact Hausdorff Space]] and let $\mathcal{B}\subseteq C_{0}(X)$ be a subalgebra s.t. 
 > 1. if $f\in \mathcal{B}$, then $\overline{f}\in \mathcal{B}$.
 > 2. for all $x\in X$, there exists $f\in \mathcal{B}$ with $f(x)\neq 0$.
 > 3. for all $x,y\in X$ with $x\neq y$, there exists $f\in \mathcal{B}$ with $f(x)\neq f(y)$.

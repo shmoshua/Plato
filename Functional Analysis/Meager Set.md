@@ -1,6 +1,6 @@
 #Definition #FunctionalAnalysis 
 > [!definition]
-> In a [[topological space]] $X$, a set $A\subseteq X$ is: 
+> In a [[Topological Space]] $X$, a set $A\subseteq X$ is: 
 > 1. ***meager*** or of ***first category***, if it is a countable union of [[Dense Subset|nowhere dense subsets]] of $X$. 
 > 2. ***non-meager*** or of ***second category***, if it is not meager.
 > 3. ***residual*** or ***generic***, if $X / A$ is meager.
