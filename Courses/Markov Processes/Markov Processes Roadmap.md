@@ -25,4 +25,10 @@
 ---
 ![[Random Walk#^6363a1]]
 ![[Random Walk#^82c078|p]]
+
+---
+##### 2.1 Recurrence and Transience of Random Walks
+![[Random Walk#^3b4697|q]]
+![[Random Walk#^15327c|q]]
+
 ---

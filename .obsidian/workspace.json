@@ -44,8 +44,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -88,8 +87,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Markov Processes/Markov Processes Roadmap.md",
+                "file": "Markov Processes/Random Walk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Markov Processes/Markov Processes Roadmap.md",
+                "file": "Markov Processes/Random Walk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Markov Processes/Markov Processes Roadmap.md"
+                "file": "Markov Processes/Random Walk.md"
               }
             }
           }
@@ -219,10 +217,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "cfe30eddc680856f",
+  "active": "1838704e8c1c11c0",
   "lastOpenFiles": [
-    "Markov Processes/Random Walk.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
+    "Markov Processes/Random Walk.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Algebra.md",
