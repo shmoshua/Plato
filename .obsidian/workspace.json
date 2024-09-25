@@ -6,7 +6,7 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
-        "dimension": 49.35822637106184,
+        "dimension": 47.957992998833134,
         "children": [
           {
             "id": "59ab400c0a0cfb6c",
@@ -37,7 +37,7 @@
       {
         "id": "931e1cf3bc9d2fba",
         "type": "tabs",
-        "dimension": 50.64177362893816,
+        "dimension": 52.04200700116686,
         "children": [
           {
             "id": "76843012e31e4d67",
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md"
               }
             }
           }
@@ -206,10 +206,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "dba0189db808f524",
+  "active": "59ab400c0a0cfb6c",
   "lastOpenFiles": [
-    "Advanced Algorithms/Monotone Submodular Maximization.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Advanced Algorithms/Monotone Submodular Maximization.md",
     "Advanced Algorithms/Bin-Packing.md",
     "Probabilistic Methods/Sum-Free Set.md",
     "Advanced Algorithms/Knapsack.md",
