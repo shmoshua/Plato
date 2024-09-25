@@ -22,3 +22,11 @@
 > 2. Let $a\in \sqrt{  (\sqrt{ I })}$. Then, $a^n\in \sqrt{ I }$ and $a^{mn}\in I$. Therefore, it holds that $a\in \sqrt{ I }$.
 
 ^ac2252
+
+---
+##### Examples
+> [!h] Example 1
+> We have:
+> 1. $\sqrt{ (x^2) }=(x)$.
+
+^1e2e72

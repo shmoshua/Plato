@@ -44,7 +44,7 @@
 ---
 
 
-##### 1.2 Radical Ideals
+#### 1.3 Radical Ideals
 ![[Radical (Ring)#^134f35]]
 ![[Radical (Ring)#^3cd183|q]]
 ---
@@ -52,9 +52,20 @@
 ![[Radical (Ring)#^ac2252|p]]
 
 ---
-##### 1.3 Nilradical, Nilpotent elements, and Reduced Rings
+![[Radical (Ring)#^1e2e72]]
+
+---
+#### 1.4 Nilradical, Nilpotent elements, and Reduced Rings
+![[Nilradical#^2063c5]]
+![[Nilradical#^107274|q]]
+![[Nilradical#^417ef2|q]]
 ---
 
+![[Nilradical#^ec2c2e]]
+![[Nilradical#^f5705d|p]]
+
+---
+#### 1.5 Contraction and Extension
 
 #### 0. Introduction
 ##### 0.0 Affine Space and Varieties

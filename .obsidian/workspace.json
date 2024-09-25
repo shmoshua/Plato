@@ -26,21 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring Homomorphism.md",
+                "file": "Algebra/Nilradical.md",
                 "mode": "source",
                 "source": true
               }
             }
-          },
-          {
-            "id": "50f38046f4120a05",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -65,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ideal (Ring).md",
+                "file": "Algebra/Ring Homomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -83,7 +76,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -149,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Algebra/Nilradical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Algebra/Nilradical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md"
+                "file": "Algebra/Nilradical.md"
               }
             }
           }
@@ -213,11 +207,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "76843012e31e4d67",
+  "active": "59cf2d28f15176c6",
   "lastOpenFiles": [
     "Algebra/Ring Homomorphism.md",
     "Algebra/Ideal (Ring).md",
+    "Algebra/Nilradical.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Radical (Ring).md",
     "Algebra/Coprime Ideal.md",
     "Algebra/Ring of Polynomial Functions.md",
     "Algebra/Variety.md",
@@ -225,10 +221,8 @@
     "Algebra/Unit.md",
     "Algebra/Field.md",
     "Algebra/Discriminant.md",
-    "Algebra/Radical (Ring).md",
     "Algebra/Subvariety.md",
     "Algebra/Affine Space.md",
-    "Algebra/Nilradical.md",
     "Probabilistic Methods/Ramsey Number.md",
     "Algebra/Module.md",
     "Lie Group/Radical (Lie Algebra).md",

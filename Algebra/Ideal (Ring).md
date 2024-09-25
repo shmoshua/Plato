@@ -64,12 +64,24 @@
 >  The rest follow from definition.
 ---
 > [!lemma] Theorem 5 (Chinese Remainder Theorem)
-> Let $R$ be a ring and $\mathfrak{a}_{1},\dots,\mathfrak{a}_{n}\subseteq R$ pairwisely [[Coprime Ideal|coprime]] ideals. Further, let $b_{1},\dots,b_{n}\in R$. Then, there exists $b\in R$ s.t. for all $i\in[n]$: $$b\equiv b_{i}\mod \mathfrak{a}_{i}$$Further, $b\mod \mathfrak{a}_{1}\cap\dots \cap \mathfrak{a}_{n}$ is unique.
+> Let $R$ be a ring and $I_{1},\dots,I_{n}\unlhd R$. Let further: $$\varphi:R\to R/I_{1}\times \dots  \times R / I_{n},\quad x\mapsto(x+I_{1},\dots,x+I_{n})$$Then, 
+> 1. $\varphi$ is injective if and only if $I_{1}\cap\dots \cap I_{n}=(0)$.
+> 2. $\varphi$ is surjective if and only if $I_{1},\dots,I_{n}$ are pairwisely [[Coprime Ideal|coprime]].
 
 ^893375
 
 > [!proof]-
-> We first show the claim:
+> We have:
+> 1. $\text{ker }\varphi=I_{1}\cap\dots \cap I_{n}$.
+> 2. Assume that $\varphi$ is surjective. Then, as $(1+I_{1},I_{2},\dots,I_{n})\in\text{Im }\varphi$ and there exists $a\in R$ s.t. $a\equiv 1 \mod I_{1}$. Then, $1=(1-a)+a\in I_{1}+I_{2}$ and therefore, $I_{1}+I_{2}=R$. Similarly, we have $I_{i}+I_{j}=R$ for any $i,j$.
+> 	
+> 	Conversely, there exists $a_{i}\in I_{1}$ and $b_{i}\in I_{i}$ for all $i=2,\dots,n$ s.t. $a_{i}+b_{i}=1$. Then, $b_{i}=1-a_{i}=1 \mod I_{1}$ and $b_{i}=0\mod I_{i}$. Now define $b:=b_{2}\dots b_{n}$. Then, $b=1\mod I_{1}$ and $b=0\mod I_{i}$. Therefore, $$\varphi(b)=(1,0,\dots,0)$$Similarly, we can show that $(0,\dots,1,\dots,0)\in \varphi(R)$ and $\varphi$ is surjective.
+
+
+^3258a2
+
+> [!proof]- Old proof
+>  We first show the claim:
 > > [!claim] Claim
 > > For all $k\in[n]$:
 > > $$R=\mathfrak{a}_{k}+\bigcap_{j\neq k}^{}\mathfrak{a}_{j}$$
@@ -80,9 +92,7 @@
 > Let $b_{1},\dots,b_{n}\in R$. Then, there exists for every $k\in [n]$, $a_{k}\subseteq \mathfrak{a}_{k}$ and $r_{k}\in \bigcap_{j\neq k}^{}\mathfrak{a}_{j}$ s.t. $$b_{k}=a_{k}+r_{k}$$Then, we define $b:= r_{1}+\dots+r_{n}$. Now, we show that $b$ meets all the properties. For $i\in[n]$: $$b-b_{i}=b-a_{i}-r_{i}=\sum_{k\neq i}^{}r_{k}-a_{i}$$As $r_{k}\in \bigcap_{j\neq k}^{}\mathfrak{a}_{j}$, for $k\neq i$, $r_{k}\in \mathfrak{a}_{i}$. Therefore, $b-b_{i}\in \mathfrak{a}_{i}$ and $b\equiv b_{i}\mod \mathfrak{a}_{i}$.
 > 
 > Let $b,c\in R$ s.t. $b\equiv b_{i}\mod \mathfrak{a}_{i}$ and $c \equiv b_{i}\mod \mathfrak{a_{i}}$. Then, for $i\in[n]$, $b-b_{i},c-b_{i}\in \mathfrak{a}_{i}$. Therefore, $$(b-b_{i})-(c-b_{i})=b-c\in \mathfrak{a}_{i}$$Therefore, $b\equiv_{\mathfrak{a}_{i}}c$ and $b=c\mod\mathfrak{a}_{1}\cap\dots \cap \mathfrak{a}_{n}$.
-
-^3258a2
-
+ 
 ---
 > [!lemma] Corollary 6
 > For $R$ and $\mathfrak{a}_{1},\dots,\mathfrak{a}_{n}$ pairwise coprime, $$R / (\mathfrak{a}_{1}\cap\dots \cap \mathfrak{a}_{n})\cong R / \mathfrak{a}_{1}\oplus \dots \oplus  R / \mathfrak{a}_{n}$$
