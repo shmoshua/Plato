@@ -26,8 +26,13 @@
 > 1. **Claim 1: $f(A\cup B)\leq f(A)+\sum_{i\in B \backslash A}^{}\varphi_{i}(A)$**
 >    We show this over induction over $\left| B  \backslash A\right|$. If $\left| B  \backslash A\right|=1$, then $$f(A)+f(A\cup \{ i \})-f(A)=f(A\cup \{ i \})=f(A\cup B)$$
 >    For $\left| B  \backslash A \right|>1$ let $i\in B \backslash A$. Then, we have that: $$\begin{align}f(A\cup B)=f(A\cup B\backslash\{ i \}\cup \{ i \})&\leq f(A\cup B \backslash\{ i \})+\underbrace{ \varphi_{i}(A \cup B \backslash\{ i \}) }_{ \leq\varphi_{i}(A) }\\&\leq f(A)+\sum_{j\in B \backslash A, j\neq i}^{}\varphi_{j}(A)+\varphi_{i}(A)\end{align}$$which proves the claim.
+>  2. **Claim 2: $\varphi_{u_{i+1}}(S^i)\geq\varphi_{u_{j}+1}(S^j)$ for $i\leq j$**. 
+>     We have that from maximality of the choice of $u_{i}$ and submodularity: $$\varphi_{u_{i+1}}(S^i)\geq\varphi_{u_{j+1}}(S^i)\geq\varphi_{u_{j+1}}(S^j)$$ 
 >    
->  Therefore, $$f(T^k)\leq f(T^k\cup S^k)\leq f(S^k)+\sum_{j\in T^k \backslash S^k}^{}\varphi_{j}(S^k)\leq f(S^k)+k\varphi_{u_{k+1}}(S^k)$$as $\varphi_{u_{k+1}}(S^k)=f(S^{k+1})-f(S^k)$, we get that $f(T^k)-f(S^k)\leq kf(S^{k+1})-kf(S^k)$.$$f(T^k)-f(S^k)\leq kf(T^{k+1})-kf(S^k)$$
+>  Therefore, $$f(T)\leq f(T\cup S^\ell)\leq f(S^\ell)+\sum_{j\in T \backslash S^\ell}^{}\varphi_{j}(S^\ell)\leq kf(S^{\ell+1})-(k-1)f(S^\ell),\quad \forall \ell=0,\dots,k-1$$Then, $f(T)-f(S^{\ell+1})\leq (k-1)(f(S^{\ell+1})-f(S^\ell))\leq(k-1)(f(T)-f(S^\ell))$. Therefore, $$\frac{f(S^k)}{f(T)}=1-\frac{f(T)-f(S^k)}{f(T)-f(S^0)}$$
+>  
+>  from $\ell=0$, we get $f(T)\leq k\varphi_{u_{1}}(S^0)\leq k(f(S^1)-f(S^0))$. Hence, $$\begin{align}kf(T)&\leq \sum_{\ell=0}^{k-1}f(S^\ell)+k(f(S^{\ell+1})-f(S^\ell))\\&= \sum_{\ell=0}^{k-1}kf(S^{\ell+1})-(k-1)f(S^\ell)\\&=\sum_{\ell=1}^{k}f(S^\ell)+(k-1)f(S^k)\\&\leq(2k-1)f(S^k)\end{align}$$
+>  
 > 
 
 1. $f(T^{k+1})\geq f(S^{k+1})\geq f(S^k)$, $f(T^{k+1})\geq f(T^k)\geq f(S^k)$
