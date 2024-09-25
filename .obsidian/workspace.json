@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Courses/Information Theory/Information Theory Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,13 +26,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "file": "Information Theory/Mutual Information.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4c4890507402134d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -45,6 +58,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Information Theory/Mutual Information.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3444088746680b5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7118a92d197c7ac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
@@ -52,18 +89,19 @@
             }
           },
           {
-            "id": "b4990e78acace2fe",
+            "id": "38de4371d22a6692",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Joint Entropy.md",
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Theory/Entropy.md"
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md"
               }
             }
           }
@@ -193,14 +231,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0e40caa7f7b8df90",
+  "active": "4c4890507402134d",
   "lastOpenFiles": [
     "Courses/Information Theory/Information Theory Roadmap.md",
-    "Information Theory/Joint Entropy.md",
     "Information Theory/Entropy.md",
+    "Information Theory/Mutual Information.md",
+    "Advanced Algorithms/Monotone Submodular Maximization.md",
+    "Information Theory/Joint Entropy.md",
     "Information Theory/Conditional Entropy.md",
     "Graph Theory/Girth.md",
-    "Advanced Algorithms/Monotone Submodular Maximization.md",
     "Advanced Algorithms/Bin-Packing.md",
     "Courses/Information Theory",
     "Information Theory",
@@ -222,7 +261,6 @@
     "Algebra/Ring Homomorphism.md",
     "Algebra/Associative Algebra.md",
     "Functional Analysis/C-Algebra.md",
-    "Algebra/Nilradical.md",
     "Courses/Characteristic Classes",
     "Char",
     "Characteristic Classes",
