@@ -11,18 +11,13 @@
 >    ```pseudo
 >    \begin{algorithm} \caption{Greedy($\mathcal{U},f,k$)} 
 >    \begin{algorithmic}
->    \State $\mathcal{B}\to \empty$
+>    \State $S\gets \empty$
 >    \For{$i\in [k]$}
->    \State
->    \If{$s_i\le 1-s(B)$ for some $B\in \mathcal{B}$}
->    \State Pick the first such $B$
->    \State $B\gets B\cup\{i\}$
->    \Else
->    \State $B'\gets \{i\}$
->    \State $\mathcal{B}\gets\mathcal{B}\cup\{B'\}$
->    \EndIf
+>    \State Pick $j\in \arg\max_{u\in \mathcal{U} \backslash S}f(S\cup \{ u \})$
+>    \State $S\gets S\cup \{ j \}$
 >    \EndFor
 >    \Return $\mathcal {B}$
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
+

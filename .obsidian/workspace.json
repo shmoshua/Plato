@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Algorithms/Monotone Submodular Maximization.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -206,12 +206,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0e40caa7f7b8df90",
+  "active": "dba0189db808f524",
   "lastOpenFiles": [
-    "Probabilistic Methods/Sum-Free Set.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Advanced Algorithms/Monotone Submodular Maximization.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Advanced Algorithms/Bin-Packing.md",
+    "Probabilistic Methods/Sum-Free Set.md",
     "Advanced Algorithms/Knapsack.md",
     "Graph Theory/Girth.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
