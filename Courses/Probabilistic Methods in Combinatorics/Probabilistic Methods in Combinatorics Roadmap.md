@@ -50,3 +50,12 @@ $(A_{i},B_{i})$ where $1\leq i\leq m$ where $\left| A_{i} \right|=a$ and $\left|
 ![[Hamiltonian Path#^a7fcdb]]
 
 ---
+![[Tournament#^d5682b]]
+![[Tournament#^64e966|p]]
+
+---
+![[Tournament#^2cfb3a]]
+![[Tournament#^8f29dd|p]]
+
+---
+#### 2.3 Combinatorial Number Theory

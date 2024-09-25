@@ -21,6 +21,31 @@
 ^67a465
 
 ---
-> [!lemma] Theorem 2 (Hamiltonian Paths)
+> [!lemma] Proposition 2 (Hamiltonian Paths)
 > Let $T_{n}$ be a tournament. 
-> 1. 
+> 1. $T_{n}$ has a Hamiltonian path.
+
+^d5682b
+
+> [!proof]-
+> We prove this by induction. For $n=1$ it is clear. For $n>1$, choose $v\in V(T_{n})$ and we acquire from induction that there exists a Hamiltonian path $v_{1},\dots,v_{n-1}$in $T_{n} \backslash\{ v \}$.  Now, 
+> 1. if $v\to v_{1}$, then $v,v_{1},\dots,v_{n-1}$ is a Hamiltonian path.
+> 2. if $v_{n-1}\to v$, then $v_{1},\dots,v_{n-1},v$ is a Hamiltonian path.
+> 3. 
+
+^64e966
+
+---
+> [!lemma] Theorem 3 (Szelle, 1943)
+> There exists a tournament $T_{n}$ on $n$ vertices with at least $\frac{n!}{2^{n-1}}$ Hamiltonian paths.
+
+^2cfb3a
+
+> [!proof]-
+> Take a tournament $T_{n}$ uniformly randomly. Then, for any $x,y\in V$, $\mathbb{P}(x\to y)=\mathbb{P}(y\to x)= \frac{1}{2}$ independently. 
+> 
+> Let $\sigma\in S_{n}$. Then, let $P_{\sigma}$ be the path induced by the permutation. Therefore, $$\mathbb{P}(T_{n}\text{ has }P_{\sigma})=\frac{1}{2^{n-1}}$$Therefore, $\mathbb{E}[\#\text{Hamiltonian Paths}]=\sum_{\sigma\in S_{n}}^{}\mathbb{P}(T_{n}\text{ has }P_{\sigma})=\frac{n!}{2^{n-1}}$.
+
+^8f29dd
+
+---
