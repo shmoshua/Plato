@@ -19,3 +19,8 @@
 > Since there are $n \choose k$ such sets $S$, $$P(\exists S\text{ not dominated}) \leq {n \choose k}(1-2^{-k})^{n-k}\leq n^ke^{-(n-k)/2^k}=e^{k\ln n-(n-k) / 2^k}<1$$
 
 ^67a465
+
+---
+> [!lemma] Theorem 2 (Hamiltonian Paths)
+> Let $T_{n}$ be a tournament. 
+> 1. 
