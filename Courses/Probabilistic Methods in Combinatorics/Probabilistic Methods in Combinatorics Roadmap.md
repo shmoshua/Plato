@@ -1,7 +1,7 @@
 #ProbabilisticMethods #Roadmap 
 
-#### 1. The Basics
-##### 1.1 Ramsey Numbers
+### 1. The Basics
+#### 1.1 Ramsey Numbers
 
 ![[Ramsey Number#^bf6551]]
 
@@ -19,7 +19,7 @@
 ![[Ramsey Number#^9fbe8f|p]]
 
 ---
-##### 1.2 Tournaments
+#### 1.2 Tournaments
 
 ![[Tournament#^d0027e]]
 ![[Tournament#^00613b|q]]
@@ -27,3 +27,14 @@
 ![[Tournament#^7efafb]]
 ![[Tournament#^67a465|p]]
 ---
+
+> [!lemma] Theorem 2 (Bollobás)
+$(A_{i},B_{i})$ where $1\leq i\leq m$ where $\left| A_{i} \right|=a$ and $\left| B_{i} \right|=b$ s.t. $A_{i}\cap B_{i}=\varnothing$ and $A_{i}\cap B_{j}\neq \varnothing$ for $i\neq j$. 
+
+> [!proof]+
+> Let $X:=\bigcup_{i}^{}A_{i}\cup B_{i}$ and put an order on $X$ randomly. Then, we define the event $E_{i}$ as the event where all elements of $A_{i}$ happens before $B_{j}$.  Then, 
+> 1. **Claim 1: $E_{i}$ are disjoint.**
+>    Suppose $E_{i}$ is true. Then, $A_{i}$ happens before $B_{i}$. However, $A_{j}$ intersects $B_{i}$ and $B_{j}$ intersects $A_{i}$. Therefore, it cannot happen that $A_{j}$ all happens before $B_{j}$.  
+> 
+> Then, we have that: $$\mathbb{P}(E_{i})=\frac{\left| a \right| !\left| b \right| !}{|a+b|!}={a+b \choose a}^{-1}$$
+- **Remark**: By considering $[a+b]$ as the ground set and choosing $A_{i}$ as the subsets ${a+b \choose a}$ and $B_i$ as the complement of $A_{i}$. Then, $\max m\geq {a+b \choose a}$.
