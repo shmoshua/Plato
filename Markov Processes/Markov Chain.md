@@ -8,6 +8,7 @@
 
 - **Related definition**: $\mathcal{S}$ is called a ***transition probability matrix***. ^46a7c5
 - **Related definition**: Similarly, it could be defined as: $\mathbb{P}(X_{n+1}=j|X_{0},\dots,X_{n})=P_{X_{n},j}$ ^fd0c4e
+- **Related definition**: A function $F:\mathcal{S}^{n+1}\to \mathbb{R}$ bounded.or non-negative has the ***Markov property*** if: $$\mathbb{E}(F(X_{m},\dots,X_{m+n}):X_{0}=i_{0},\dots,X_{m}=i_{m})=\mathbb{E}(F(X_{0},\dots,X_{n})|X_{0}=i_{m}),\quad \forall m,n\geq 1$$ ^4aee27
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Existence of Markov Chains)
