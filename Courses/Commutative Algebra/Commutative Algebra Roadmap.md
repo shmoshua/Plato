@@ -66,6 +66,26 @@
 
 ---
 #### 1.5 Contraction and Extension
+![[Ring Homomorphism#^dcea70|q]]
+![[Ring Homomorphism#^c7184a|q]]
+
+
+![[Field#^509d9f]]
+![[Field#^40c6b7|p]]
+
+---
+![[Ring Homomorphism#^5f80ff]]
+![[Ring Homomorphism#^747f92|p]]
+
+---
+#### 1.6 Algebras
+![[Algebra#^c5ec81]]
+![[Algebra#^ab903c|q]]
+![[Algebra#^17e5f1|q]]
+![[Algebra#^a1d159]]
+![[Algebra#^5fad9a|q]]
+
+---
 
 #### 0. Introduction
 ##### 0.0 Affine Space and Varieties

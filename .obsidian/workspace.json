@@ -26,14 +26,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -58,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring Homomorphism.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -76,8 +75,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Nilradical.md"
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md"
               }
             }
           }
@@ -207,19 +205,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "59cf2d28f15176c6",
+  "active": "76843012e31e4d67",
   "lastOpenFiles": [
-    "Algebra/Ring Homomorphism.md",
-    "Algebra/Ideal (Ring).md",
-    "Algebra/Nilradical.md",
+    "Algebra/Algebra.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Ring Homomorphism.md",
+    "Algebra/Associative Algebra.md",
+    "Functional Analysis/C-Algebra.md",
+    "Algebra/Field.md",
+    "Algebra/Nilradical.md",
+    "Algebra/Ideal (Ring).md",
     "Algebra/Radical (Ring).md",
     "Algebra/Coprime Ideal.md",
     "Algebra/Ring of Polynomial Functions.md",
     "Algebra/Variety.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Algebra/Unit.md",
-    "Algebra/Field.md",
     "Algebra/Discriminant.md",
     "Algebra/Subvariety.md",
     "Algebra/Affine Space.md",
@@ -232,9 +233,6 @@
     "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Courses/Characteristic Classes/Characteristic Classes Roadmap.md",
     "Characteristic Classes/Fiber Bundle.md",
-    "Lie Group/Topological Group.md",
-    "Courses/Topology 1/Topological Space.md",
-    "covering of a simply connected space is bijective.md",
     "Courses/Characteristic Classes",
     "Char",
     "Characteristic Classes",

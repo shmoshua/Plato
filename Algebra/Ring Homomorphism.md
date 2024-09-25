@@ -9,6 +9,8 @@
 ^4740fd
 
 - **Remark**: $\varphi[R]$ is a subring of $S$.
+- **Related definition**: For $I\unlhd S$, $\varphi ^{-1}(I)$ is called the ***contraction*** of $I$ by $\varphi$, denoted with $I^c$.  ^dcea70
+- **Related definition**: For $I\unlhd R$, $(\varphi(I))$ is called the ***extension*** of $I$ by $\varphi$, denoted with $\varphi(I)S$ or $I^e$. If $\varphi$ is surjective, $I^e=\varphi(I)$. ^c7184a
 ---
 ##### Properties
 > [!lemma] Lemma 1
@@ -94,6 +96,19 @@ $$\begin{array}{cccccc}\varphi:&S&\xhookrightarrow{}&S+\mathfrak{a}&\xrightarrow
 > 3. $\text{ker }\varphi=\{ x+\mathfrak{b}\in R/\mathfrak{b}: x\in \mathfrak{a}\}=\mathfrak{a / \mathfrak{b}}$.
 > 
 > Therefore, by the isomorphism theorem: $$(R / \mathfrak{b}) / (\mathfrak{a / b})\cong R / \mathfrak{a}$$
+---
+> [!lemma] Lemma 5 (Contraction and Extension gives a bijection for Quotient)
+> Let $I\unlhd R$. 
+> 1. the ideals in $R / I$ and the ideals in $R$ containing $I$ form a bijection given by $J\to J^c$ and $J\to J^e$ given by the canonical projection $\varphi:R \to R / I$.
+
+^5f80ff
+
+> [!proof]-
+> We have that:
+> 1. We can check that the bijection is well-defined. Further, as $\varphi$ is surjective, $J^e=\varphi(J)$. Therefore, for $J\unlhd R / I$, $$(J^c)^e=\varphi(\varphi ^{-1}(J))=J$$Further, for $J\unlhd R$ with $I\subseteq J$:$$(J^e)^c=\varphi ^{-1}(\varphi(J))=\{ a\in R:\varphi(a)\in \varphi(J) \}=J+I=J$$
+
+^747f92
+
 ---
 ##### Examples
 - Let $R=\mathbb{Z}\times \mathbb{Z}$, $S= \mathbb{Z}\times \{ 0 \}$, $\mathfrak{a}=\{ 0 \}\times 3\mathbb{Z}$ and $\varphi(x,y)=(x,0)$. Then, 

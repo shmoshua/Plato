@@ -33,10 +33,15 @@
 - **Remark**: This is not true for general rings. $x^{2}-1\in (\mathbb{Z} / 8\mathbb{Z})[x]$ has 4 zeros: $1,3,5,7$.
 ---
 > [!lemma] Lemma 4
-> A field homomorphism $\varphi:F\to K$ is always injective.
+> A field homomorphism $\varphi:F\to K$ where $K\neq \{ 0 \}$ is always injective.
+
+^509d9f
 
 > [!proof]-
 > As a field $F$ only has $(0)$ and $F$ as ideals, $\text{ker }\varphi$ has to be one of the two. However, $\varphi(1)\neq 0$ and therefore $\text{ker }\varphi=(0)$. 
+
+^40c6b7
+
 ---
 > [!lemma] Theorem 5
 > For a field $F$, 
