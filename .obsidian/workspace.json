@@ -9,36 +9,24 @@
         "dimension": 49.35822637106184,
         "children": [
           {
-            "id": "59cf2d28f15176c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilistic Methods/Sum-Free Set.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d17440cde0833b7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "59ab400c0a0cfb6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f82552f085141d52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "mode": "preview",
                 "source": true
               }
@@ -69,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -81,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilistic Methods/Sum-Free Set.md",
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
                 "mode": "preview",
                 "source": true
               }
@@ -154,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilistic Methods/Sum-Free Set.md",
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilistic Methods/Sum-Free Set.md",
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilistic Methods/Sum-Free Set.md"
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md"
               }
             }
           }
@@ -220,12 +208,17 @@
   },
   "active": "0e40caa7f7b8df90",
   "lastOpenFiles": [
-    "Graph Theory/Hamiltonian Path.md",
     "Probabilistic Methods/Sum-Free Set.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Advanced Algorithms/Monotone Submodular Maximization.md",
+    "Advanced Algorithms/Bin-Packing.md",
+    "Advanced Algorithms/Knapsack.md",
+    "Graph Theory/Girth.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Markov Processes/Markov Chain.md",
     "Graph Theory/Tournament.md",
     "Graph Theory/Cut (Graph).md",
+    "Graph Theory/Hamiltonian Path.md",
+    "Markov Processes/Markov Chain.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Advanced Algorithms/Untitled.md",
     "Markov Processes/Random Walk.md",
@@ -241,11 +234,6 @@
     "Algebra/Radical (Ring).md",
     "Algebra/Coprime Ideal.md",
     "Algebra/Ring of Polynomial Functions.md",
-    "Algebra/Variety.md",
-    "Algebra/Unit.md",
-    "Algebra/Discriminant.md",
-    "Algebra/Subvariety.md",
-    "Algebra/Affine Space.md",
     "Courses/Characteristic Classes",
     "Char",
     "Characteristic Classes",
