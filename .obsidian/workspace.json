@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Measure Theory/Complex Measure.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Measure Theory/Complex Measure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Measure Theory/Complex Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Measure Theory/Complex Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Variety.md"
+                "file": "Measure Theory/Complex Measure.md"
               }
             }
           }
@@ -239,12 +239,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d697f46f9f39cd29",
+  "active": "9ad36345f085f7a1",
   "lastOpenFiles": [
+    "Measure Theory/Radon Measure.md",
+    "Measure Theory/Complex Measure.md",
+    "Algebra/Variety.md",
+    "Measure Theory/Lebesgue Integral.md",
+    "Measure Theory/Positive Measure.md",
     "Algebra/Algebra.md",
     "Algebra/Ring of Polynomial Functions.md",
     "Algebra/Nilradical.md",
-    "Algebra/Variety.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Prime Ideal.md",
@@ -265,10 +269,6 @@
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Probabilistic Methods/Sum-Free Set.md",
     "Advanced Algorithms/Knapsack.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Graph Theory/Tournament.md",
-    "Graph Theory/Cut (Graph).md",
-    "Graph Theory/Hamiltonian Path.md",
     "Courses/Characteristic Classes",
     "Char",
     "Characteristic Classes",
