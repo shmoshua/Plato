@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Complex Measure.md",
+                "file": "Measure Theory/Product Measure.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Complex Measure.md",
+                "file": "Measure Theory/Product Measure.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Measure Theory/Sigma Algebra.md",
                 "mode": "preview",
                 "source": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "solvable",
+                "query": "radon",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,7 +155,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -175,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Measure Theory/Complex Measure.md",
+                "file": "Measure Theory/Product Measure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Measure Theory/Complex Measure.md",
+                "file": "Measure Theory/Product Measure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Measure Theory/Complex Measure.md"
+                "file": "Measure Theory/Product Measure.md"
               }
             }
           }
@@ -241,14 +242,16 @@
   },
   "active": "9ad36345f085f7a1",
   "lastOpenFiles": [
-    "Measure Theory/Radon Measure.md",
+    "Measure Theory/Sigma Algebra.md",
+    "Measure Theory/Product Measure.md",
+    "Algebra/Nilradical.md",
     "Measure Theory/Complex Measure.md",
+    "Measure Theory/Radon Measure.md",
     "Algebra/Variety.md",
     "Measure Theory/Lebesgue Integral.md",
     "Measure Theory/Positive Measure.md",
     "Algebra/Algebra.md",
     "Algebra/Ring of Polynomial Functions.md",
-    "Algebra/Nilradical.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Prime Ideal.md",
@@ -267,8 +270,6 @@
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Probabilistic Methods/Sum-Free Set.md",
-    "Advanced Algorithms/Knapsack.md",
     "Courses/Characteristic Classes",
     "Char",
     "Characteristic Classes",

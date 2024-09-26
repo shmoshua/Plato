@@ -1,15 +1,42 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> Let $\mu$ be a [[Positive Measure]] on $X$ and $\nu$ on $Y$. Then, we define the ***product measure*** $\mu \times \nu:\mathcal{P}(X\times Y)\to[0,+\infty]$ as
+> Let $(X,\mathcal{A})$ and $(Y,\mathcal{B})$ be two measurable spaces. Let $\mu$ be a [[positive measure]] on $X$ and $\nu$ on $Y$. Then, 
+> 1. the ***product measurable space***  is given as $(X\times Y,\mathcal{A}\otimes \mathcal{B})$ where: $$\mathcal{A}\otimes \mathcal{B}:=\sigma(A\times B:A\in \mathcal{A},B\in \mathcal{B})$$
+> 1. The ***product measure*** $\mu \times \nu:\mathcal{P}(X\times Y)\to[0,+\infty]$ is defined as:
 > $$(\mu \times \nu)(S)=\inf\left\{  \left. \sum_{i=1}^{\infty}\mu(A_{i})\nu(B_{i}) \right| S\subseteq \bigcup_{i=1}^{\infty}A_{i}\times B_{i},A_{i}\subseteq X \ \mu \text{-measurable} ,B_{i}\subseteq Y \ \nu \text{-measurable} \right\}$$for any $S\subseteq X\times Y$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
+> We have:
+> 1. Let $C\in \mathcal{A}\otimes \mathcal{B}$. For every $x\in X$, $$C_{x}:=\{ y\in Y:(x,y)\in C \}\in \mathcal{B},\quad C^y:=\{ x\in X:(x,y)\in C \}\in \mathcal{A}$$
+> 2. For a measurable space $(Z,\mathcal{C})$ and a measurable function $f:X\times Y\to Z$, 
+> 	- $f_{x}:Y\to Z,y\mapsto f(x,y)$ is measurable w.r.t. $\mathcal{B}$.
+> 	- $f^y:X\to Z,x\mapsto f(x,y)$ is measurable w.r.t. $\mathcal{A}$.
+
+> [!proof]-
+> We have:
+> 1. Fix $x\in X$ and set $\mathcal{C}:=\{ C\in \mathcal{A}\otimes \mathcal{B}:C_{x}\in \mathcal{B} \}$. Then, $A\times B\in \mathcal{C}$ for $A,B$ measurable as $(A\times B)_{x}$ is either $\varnothing$ or $B$. However, we can also verify that $\mathcal{C}$ is a $\sigma$-algebra. Therefore, $\mathcal{C}=\mathcal{A}\otimes \mathcal{B}$ by definition and this proves the statement. The other case holds symmetrically.
+> 2. for every measurable set $D\in \mathcal{C}$, $$f_{x}^{-1}(D):=\{ y\in Y: f(x,y)\in D \}=\{ y\in Y:(x,y)\in f^{-1}(D) \}=(f^{-1}(D))_{x}$$which is measurable by 1. 
+---
+> [!lemma] Proposition 2
 > $\mu \times \nu$ is the [[Pre-measure|Carathéodory-Hahn extension]] of the [[pre-measure]]: $\lambda:\mathcal{A}\to[0,+\infty]$ with: $$\lambda(A\times B)=\mu(A)\nu(B)$$for every $\mu$-measurable $A\subseteq X$ and $\nu$-measurable $B\subseteq Y$, where: $$\mathcal{A}=\sigma \left( \left\{ \bigcup_{i=1}^{n}A_{i}\times B_{i}:A_{i},B_{i}\text{ measurable} \right\} \right) $$Especially, $\mu \times \nu$ is a measure.
 
 > [!proof]-
 > $\lambda$ is $\sigma$-additive by definition and therefore a pre-measure. 
+
+---
+> [!lemma] Theorem 3 (Fubini-Tonelli)
+> Let $\mu$ and $\nu$ be two $\sigma$-finite measures on $(E,\mathcal{A})$ and $(F,\mathcal{B})$ respectively. For a measurable function $f:E\times F\to[0,+\infty]$
+> 1. $E\to[0,+\infty],x\mapsto \int_{F}^{} f(x,y) \, d\nu(y)$ is measurable in $\mathcal{A}$. 
+> 2. $F\to[0,+\infty],y\mapsto \int_{E}^{} f(x,y) \, d\mu(x)$ is measurable in $\mathcal{B}$. 
+> 3. It holds that: $$\int_{E\times F}^{} f \, d\mu \times \nu=\int_{E}^{} \left( \int_{F}^{} f(x,y) \, d\nu(y)  \right)  \, d\nu(x)=\int_{F}^{} \left( \int_{E}^{} f(x,y) \, d\mu(x)  \right)  \, d\nu(y)   $$
+
+> [!proof]+
+> Firstly,
+> 
+> We have:
+> 1. 
 ---
 > [!lemma] Theorem 2 (Fubini)
 > Let $\mu,\nu$ be [[Radon Measure|Radon measures]] on $X:=\mathbb{R}^k,Y:=\mathbb{R}^\ell$ respectively with $k+\ell=n$. Then, 

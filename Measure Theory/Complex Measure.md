@@ -38,13 +38,9 @@
 ---
 > [!lemma] Theorem 3 (Riesz-Markov-Kakutani Representaton)
 > Let $X$ be a separable locally compact metric space and let $\Lambda: C_{00}(X)\to \mathbb{C}$ be a positive linear functional, i.e. if $f\geq 0$ then $\Lambda(f)\geq 0$. Then, 
-> 1. there exists a unique Radon measure $\lambda$ on $(X,\mathcal{B}_{X})$ s.t. $$$$
->    
->    on $\sigma$-algebra $\mathfrak{M}\supseteq \mathcal{B}_{X}$ and a positive measure $\lambda:\mathfrak{M}\to[0,+\infty]$ s.t. $$\Lambda(f)=\int_{X}f  \, d\lambda,\quad \forall f\in C_{00}(X) $$with the following properties:
-> 1. $\lambda(K)<+\infty$ for all $K\subseteq X$ compact, i.e. $\lambda$ is [[Radon Measure|Radon]].
-> 2. for all $E\in \mathfrak{M}$, $$\lambda(E)=\text{inf}\{ \lambda(V):E \subseteq V, V\text{ open} \}$$
-> 3. if $E$ is open or $\lambda(E)<+\infty$, then: $$\lambda(E)=\sup\{ \lambda(K):K\subseteq E, K\text{ compact} \}$$
-> 4. if $E\in \mathfrak{M}$ and $\lambda(E)=0$, then for all $A\subseteq E$, $A\in \mathfrak{M}.$
+> 1. there exists a unique [[Radon measure]] $\lambda$ on $(X,\mathcal{B}_{X})$ s.t. $$\Lambda(f)=\int_{X}^{} f \, d\lambda,\quad \forall f\in C_{00}(X) $$with the following properties:
+> 	- for every $E\in \mathcal{B}_{X}$, $$\lambda(E)=\inf\{ \lambda (V): E \subseteq V, V\text{ open} \}=\sup\{ \lambda(K): K\subseteq E, K\text{ compact} \}$$
+> 	- for every open $E\subseteq X$, $$\lambda(E)=\sup\{ \Lambda(f):f\in C_{00}(X), 0\leq f\leq \chi_{E} \}$$
 
 ---
 
