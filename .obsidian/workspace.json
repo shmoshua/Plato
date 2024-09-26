@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Algebra/Ring of Polynomial Functions.md",
                 "mode": "source",
                 "source": true
               }
@@ -77,24 +77,12 @@
             }
           },
           {
-            "id": "38de4371d22a6692",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Variety.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "9ad36345f085f7a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               }
@@ -111,9 +99,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "d7b625245901b5cb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Algebra/Variety.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Algebra/Variety.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Nilradical.md"
+                "file": "Algebra/Variety.md"
               }
             }
           }
@@ -243,14 +239,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a0f6c4a35bbc0b56",
+  "active": "d697f46f9f39cd29",
   "lastOpenFiles": [
-    "Algebra/Radical (Ring).md",
-    "Algebra/Ring of Polynomial Functions.md",
-    "Algebra/Variety.md",
     "Algebra/Algebra.md",
+    "Algebra/Ring of Polynomial Functions.md",
     "Algebra/Nilradical.md",
+    "Algebra/Variety.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Radical (Ring).md",
     "Algebra/Prime Ideal.md",
     "Advanced Algorithms/Monotone Submodular Maximization.md",
     "Algebra/Maximal Ideal.md",

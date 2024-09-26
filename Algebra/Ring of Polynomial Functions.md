@@ -8,8 +8,10 @@
 - **Remark**: $f,g\in K[x_{1},\dots,x_{n}]$ are equal if and only if they equal on $X$. So $\overline{f}\in A(X)$ is equivalent to a function $X\to K,x\mapsto f(x)$.  ^ca999a
 ---
 ##### Properties
-> [!lemma] Proposition 1
-> 
+![[Variety#^4ec3ba]]
+![[Variety#^89aa91|p]]
+
+
 ---
 ##### Examples
 > [!h] Example 1

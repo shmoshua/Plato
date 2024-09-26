@@ -148,3 +148,7 @@
 ![[Variety#^1e3e77]]
 
 ---
+![[Variety#^4ec3ba]]
+![[Variety#^89aa91|p]]
+
+---

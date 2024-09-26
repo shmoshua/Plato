@@ -8,6 +8,7 @@
 - **Related definition**: For any $X\subseteq \mathbb{A}_{K}^n$, the ***ideal*** of $X$ is defined as:$$I(X):=\{  f\in K[x_{1},\dots,x_{n}]:f(x)=0,\forall x\in X \}$$ ^d9dae1
 
 - **Related definition**: For a variety $X\subseteq \mathbb{A}_{K}^n$ and $S\subseteq A(X)$ the [[ring of polynomial functions]], a ***subvariety*** of $X$ is given by: $$V_{X}(S):=\{  x\in X: f(x)=0, \forall f\in S \}\subseteq X$$with ideal $I_{X}(Y)=\{ f\in A(X): f(y)=0, \forall y\in Y \}$. Subvarieties of $X$ are exactly the varieties in $\mathbb{A}_{K}^n$ contained in $X$.
+- **Related definition**: A variety $X$ is ***irreducible*** if there is no proper decomposition into subvarieties $X=X_{1}\cup X_{2}$ s.t. $X_{1},X_{2}\subsetneq X$. Otherwise, $X$ is ***reducible***.
 
 ---
 ##### Properties
@@ -65,12 +66,17 @@
 - **Corollary**: There is a bijection between subvarieties of $X$ and radical ideals in $A(X)$ given by $I$ and $V$.  ^039994
 ---
 > [!lemma] Proposition 5
-> We have that:
-> 1. $X\mapsto A(X)$ is a bijection between the set of varieties and the set of all finitely generated reduced $K$-algebras.
+> We have that:$$\begin{array}{ccccc}
+\{ \text{Var}\subseteq \mathbb{A}_{K}^n \}&\to &\{ \text{Rad. ideals in }K[x_{1},\dots,x_{n}] \}&\to &\{ \text{fin. gen. reduced }K\text{-algebra} \}\\X&\mapsto &I(X)&\mapsto &A(X):=K[x_{1},..,x_{n}] / I(X)
+\\V(I)&\gets&I\end{array}$$
 
-> [!proof]+
-> We have that:
-> 1. for any variety $X\subseteq \mathbb{A}_{K}^n$, $A(X)=K[x_{1},\dots,x_{n}] / I(X)$ and $A(X)$ is finitely generated. Further 
+^4ec3ba
+
+> [!proof]-
+> The first half is given by the Corollary above. The second half is given by [[Algebra|Lemma 1]] and [[Nilradical|Lemma 1]].
+
+^89aa91
+
 ---
 ##### Examples 
 > [!h] Example 1
