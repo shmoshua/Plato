@@ -36,7 +36,7 @@
 >    \State $S\gets \empty$
 >    \State Discard all elements larger than $B$ in $\mathcal S$. 
 >    \State Sort $\mathcal{S}$ by $\frac{p}{s}$ in decreasing order, define them as $a_{1},\dots,a_{n}$.
->    \State $k\gets \min\left\{ i\in[n]:s(\{ a_{1},\dots,a_{i} \})>B \right\}$
+>    \State $k\gets \min\left\{ i\in[n]:s(\{ a_{1},\dots,a_{i} \})>B \right\}$ or if doesn't exist, return $\mathcal{S}$.
 >    \If{$p(\{ a_{1},\dots,a_{k-1} \})>p_{a_{k}}$}
 >    \Return $\{ a_{1},\dots,a_{k-1} \}$
 >    \Else \Return $\{ a_{k} \}$
@@ -47,4 +47,10 @@
 >    gives a $2$-approximation for the Knapsack problem.
 
 > [!proof]+
+> Let $S$ be the output of the algorithm and $S_{\text{OPT}}$ the optimal set. if $S=\mathcal{S}$, then $p(S)=p(S_{\text{OPT}})$ and we are done. Assume otherwise. 
+> 1. **Claim 1: $p(a_{1},\dots,a_{k-1})\leq p(S_{\text{OPT}})\leq p(a_{1},\dots,a_{k})$**
+>    The first inequality holds trivially by the definition of maximum. For the second inequality,  assume otherwise, i.e. $p(S_{\text{OPT}})>p(a_{1},\dots,a_{k})$. Notice that we can replace $S_{\text{OPT}}$ with items of size 1, i.e. assume that instead of an item $u\in S_{\text{OPT}}$ we have $s(u)$ times of an item with price $p(u) / s(u)$. 
+>    
+>    Then, there has to exist $\ell > k$ s.t. $a_{\ell}\in S_{\text{OPT}}$. 
 > 
+> Therefore, we have that: $$p(S)$$
