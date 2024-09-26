@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Knapsack.md",
+                "file": "Advanced Algorithms/FPTAS.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,13 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -45,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Knapsack.md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "mode": "preview",
                 "source": true
               }
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Algorithms/Knapsack.md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Algorithms/Knapsack.md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Algorithms/Knapsack.md"
+                "file": "Advanced Algorithms/Bin-Packing.md"
               }
             }
           }
@@ -193,11 +194,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d7b625245901b5cb",
+  "active": "9da8a5f9e82b9325",
   "lastOpenFiles": [
-    "Advanced Algorithms/Approximation Algorithm.md",
     "Advanced Algorithms/Monotone Submodular Maximization.md",
+    "Advanced Algorithms/Bin-Packing.md",
+    "Advanced Algorithms/FPTAS.md",
+    "Advanced Algorithms/PTAS.md",
     "Advanced Algorithms/Knapsack.md",
+    "Advanced Algorithms/Approximation Algorithm.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Mutual Information.md",
     "Algebra/Prime Ideal.md",
@@ -218,9 +222,6 @@
     "Algebra/Ring of Polynomial Functions.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Maximal Ideal.md",
-    "Functional Analysis/Spectrum.md",
-    "Algebra/Spectrum (Ring).md",
-    "Information Theory/Entropy.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",

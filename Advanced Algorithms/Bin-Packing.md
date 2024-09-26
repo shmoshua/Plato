@@ -50,7 +50,7 @@
 > We have that:
 > 1. SFF is a $3 /2$-approximation algorithm.
 
-> [!proof]+
+> [!proof]-
 > Modulo reindexing, we may assume that $s_{1}\geq s_{2}\geq\dots\geq s_{n}$ is decreasing. Assume that $\text{SortedFirstFit}$ needs $k$ bins $B_{1},\dots,B_{k}$. Further, let $r$ be the number of items that are larger than $s_{i}>\frac{1}{2}$. Then, observe that all such items need to be in separate bins. 
 > 
 > 1. **Case 1: $n_{1}\geq \frac{2}{ 3} k$** 
@@ -63,3 +63,20 @@
 >    Then, in the output of SFF, we have $n_{1}$ bins that are more full than 1/2 and 
 
 - **Remark**: It is $\mathcal{NP}$-hard to get a better factor than $3 / 2$.
+---
+> [!lemma] Proposition 3
+> With the assumptions that:
+> 1. All items have size at least $\varepsilon$ for some $\varepsilon>0$.
+> 2. There are only $k$ possible sizes.
+> ```pseudo
+>    \begin{algorithm} \caption{ExactBinPacking($I,\varepsilon,k$)} 
+>    \begin{algorithmic}
+>    \State Enumerate all possible bin configuration.
+>    \Return the best bin configuration.
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    solves bin packing in $O(n^R)$ time where $R$ is a constant.
+
+> [!proof]+
+> Let $M:=\left\lceil \frac{1}{\varepsilon}\right\rceil$. Then, each bin has at most $M$ items.

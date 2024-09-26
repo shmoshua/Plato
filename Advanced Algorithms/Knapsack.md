@@ -46,11 +46,12 @@
 >    ```
 >    gives a $2$-approximation for the Knapsack problem.
 
-> [!proof]+
+> [!proof]-
 > Let $S$ be the output of the algorithm and $S_{\text{OPT}}$ the optimal set. if $S=\mathcal{S}$, then $p(S)=p(S_{\text{OPT}})$ and we are done. Assume otherwise. 
-> 1. **Claim 1: $p(a_{1},\dots,a_{k-1})\leq p(S_{\text{OPT}})\leq p(a_{1},\dots,a_{k})$**
->    The first inequality holds trivially by the definition of maximum. For the second inequality,  assume otherwise, i.e. $p(S_{\text{OPT}})>p(a_{1},\dots,a_{k})$. Notice that we can replace $S_{\text{OPT}}$ with items of size 1, i.e. assume that instead of an item $u\in S_{\text{OPT}}$ we have $s(u)$ times of an item with price $p(u) / s(u)$. 
->    
->    Then, there has to exist $\ell > k$ s.t. $a_{\ell}\in S_{\text{OPT}}$. 
+> 1. **Claim 1: for $B':=s(a_{1},\dots,a_{k})$ the optimal solution $p(S'_{\text{OPT}})=p(a_{1},\dots,a_{k})$**.
+>    The inequality $p(S'_{\text{OPT}})\geq p(a_{1},\dots,a_{k})$ holds trivially. For the other inequality, assume we have replaced each item in $S'_{\text{OPT}}$ and $a_{1},\dots,a_{k}$ into items of size 1. More precisely, for every item $u$, we consider $s(u)$ items of price $p(u) / s(u)$ and size 1 instead. Then, as $a_{1},\dots,a_{k}$ denotes the items with the highest price to size ratio, it holds that $p(a_{1},\dots,a_{k})\geq p(S'_{\text{OPT}})$. 
+> 1. **Claim 2: $p(S_{\text{OPT}})\leq p(a_{1},\dots,a_{k})$**
+>    This holds from the fact that $p(S_{\text{OPT}})\leq p(S_{\text{OPT}}')$ trivially, as otherwise $S'_{\text{OPT}}$ would not be an optimum. 
 > 
-> Therefore, we have that: $$p(S)$$
+> Therefore, we have that: $$p(S_{\text{OPT}})\leq p(a_{1},\dots,a_{k-1})+p(a_{k})\leq 2p(S)$$
+---
