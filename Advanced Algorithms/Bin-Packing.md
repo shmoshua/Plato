@@ -79,4 +79,4 @@
 >    solves bin packing in $O(n^R)$ time where $R$ is a constant.
 
 > [!proof]+
-> Let $M:=\left\lceil \frac{1}{\varepsilon}\right\rceil$. Then, each bin has at most $M$ items.
+> Let $M:=\left\lceil \frac{1}{\varepsilon}\right\rceil$. Then, each bin has at most $M$ items. By the second assumption, we have at most $R:={M+k \choose M}$ configurations in a bin. Since we need at most $n$ bins, 

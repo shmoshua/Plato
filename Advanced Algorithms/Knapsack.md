@@ -46,10 +46,11 @@
 >    ```
 >    gives a $2$-approximation for the Knapsack problem.
 
-> [!proof]-
+> [!proof]+
 > Let $S$ be the output of the algorithm and $S_{\text{OPT}}$ the optimal set. if $S=\mathcal{S}$, then $p(S)=p(S_{\text{OPT}})$ and we are done. Assume otherwise. 
 > 1. **Claim 1: for $B':=s(a_{1},\dots,a_{k})$ the optimal solution $p(S'_{\text{OPT}})=p(a_{1},\dots,a_{k})$**.
->    The inequality $p(S'_{\text{OPT}})\geq p(a_{1},\dots,a_{k})$ holds trivially. For the other inequality, assume we have replaced each item in $S'_{\text{OPT}}$ and $a_{1},\dots,a_{k}$ into items of size 1. More precisely, for every item $u$, we consider $s(u)$ items of price $p(u) / s(u)$ and size 1 instead. Then, as $a_{1},\dots,a_{k}$ denotes the items with the highest price to size ratio, it holds that $p(a_{1},\dots,a_{k})\geq p(S'_{\text{OPT}})$. 
+>    The inequality $p(S'_{\text{OPT}})\geq p(a_{1},\dots,a_{k})$ holds trivially. For the other inequality, assume it is not true, i.e. $p(S'_{\text{OPT}})>p(a_{1},\dots,a_{k})$. Now, for every item $u\in S'_{\text{OPT}}$, we can replace it with $s(u)$ items of size 1 and price $p(u) / s(u)$. Let $x_{1},\dots,x_{\ell}$ for $\ell\leq B'$ be the replaced items in decreasing order of price. Similarly, we apply this on $a_{1},\dots,a_{k}$ and get $y_{1},\dots,y_{B'}$. As $p(S'_{\text{OPT}})>p(a_{1},\dots,a_{k})$, there exists $i$ s.t. $p(x_{i})>p(y_{i})$. Modulo reindexing this implying there exists $a_{\ell}\in S'_{\text{OPT}}$ with $k\leq \ell$ s.t. $p(a_{\ell}) / s(a_{\ell})> p(a_{k}) / s(a_{k})$. This is a contradiction.
+>    
 > 1. **Claim 2: $p(S_{\text{OPT}})\leq p(a_{1},\dots,a_{k})$**
 >    This holds from the fact that $p(S_{\text{OPT}})\leq p(S_{\text{OPT}}')$ trivially, as otherwise $S'_{\text{OPT}}$ would not be an optimum. 
 > 
