@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "file": "Advanced Algorithms/Knapsack.md",
                 "mode": "source",
                 "source": true
               }
@@ -27,13 +27,12 @@
               "type": "markdown",
               "state": {
                 "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -44,8 +43,24 @@
             "id": "d7b625245901b5cb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Algorithms/Knapsack.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c8f22965f934fdf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -114,6 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Advanced Algorithms/Knapsack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Advanced Algorithms/Knapsack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +168,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Advanced Algorithms/Knapsack.md"
+              }
             }
           }
         ]
@@ -176,8 +195,9 @@
   },
   "active": "d7b625245901b5cb",
   "lastOpenFiles": [
-    "Advanced Algorithms/Monotone Submodular Maximization.md",
     "Advanced Algorithms/Approximation Algorithm.md",
+    "Advanced Algorithms/Monotone Submodular Maximization.md",
+    "Advanced Algorithms/Knapsack.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Mutual Information.md",
     "Algebra/Prime Ideal.md",
@@ -201,7 +221,6 @@
     "Functional Analysis/Spectrum.md",
     "Algebra/Spectrum (Ring).md",
     "Information Theory/Entropy.md",
-    "Algebra/Ideal (Ring).md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",

@@ -29,3 +29,22 @@
 ^c811f3
 
 ---
+> [!lemma] Theorem 3
+>    ```pseudo
+>    \begin{algorithm} \caption{Algo($\mathcal{S},s,p,B$)} 
+>    \begin{algorithmic}
+>    \State $S\gets \empty$
+>    \State Discard all elements larger than $B$ in $\mathcal S$. 
+>    \State Sort $\mathcal{S}$ by $\frac{p}{s}$ in decreasing order, define them as $a_{1},\dots,a_{n}$.
+>    \State $k\gets \min\left\{ i\in[n]:s(\{ a_{1},\dots,a_{i} \})>B \right\}$
+>    \If{$p(\{ a_{1},\dots,a_{k-1} \})>p_{a_{k}}$}
+>    \Return $\{ a_{1},\dots,a_{k-1} \}$
+>    \Else \Return $\{ a_{k} \}$
+>    \EndIf
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    gives a $2$-approximation for the Knapsack problem.
+
+> [!proof]+
+> 
