@@ -59,6 +59,7 @@
 ![[Nilradical#^2063c5]]
 ![[Nilradical#^107274|q]]
 ![[Nilradical#^417ef2|q]]
+
 ---
 
 ![[Nilradical#^ec2c2e]]
@@ -84,6 +85,19 @@
 ![[Algebra#^17e5f1|q]]
 ![[Algebra#^a1d159]]
 ![[Algebra#^5fad9a|q]]
+
+![[Algebra#^5dc1c3]]
+![[Algebra#^8c7b8e|p]]
+
+---
+#### 1.7 Prime and Maximal Ideals
+
+![[Prime Ideal#^c90dca]]
+![[Prime Ideal#^347456|q]]
+
+---
+![[Maximal Ideal#^dce3dc]]
+![[Maximal Ideal#^1891d6|q]]
 
 ---
 

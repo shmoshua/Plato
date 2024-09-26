@@ -9,24 +9,12 @@
         "dimension": 48.925081433224754,
         "children": [
           {
-            "id": "59ab400c0a0cfb6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "76c1d0f2a0f6ea15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Mutual Information.md",
+                "file": "Algebra/Prime Ideal.md",
                 "mode": "source",
                 "source": true
               }
@@ -43,6 +31,30 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "d697f46f9f39cd29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Maximal Ideal.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4619418bfcd428c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -53,36 +65,12 @@
         "dimension": 51.07491856677524,
         "children": [
           {
-            "id": "0e40caa7f7b8df90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Mutual Information.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3444088746680b5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7118a92d197c7ac2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,14 +82,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
+                "file": "Algebra/Maximal Ideal.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
+                "file": "Algebra/Maximal Ideal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
+                "file": "Algebra/Maximal Ideal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Algorithms/Monotone Submodular Maximization.md"
+                "file": "Algebra/Maximal Ideal.md"
               }
             }
           }
@@ -231,12 +219,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4c4890507402134d",
+  "active": "d697f46f9f39cd29",
   "lastOpenFiles": [
-    "Courses/Information Theory/Information Theory Roadmap.md",
-    "Information Theory/Entropy.md",
-    "Information Theory/Mutual Information.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Advanced Algorithms/Monotone Submodular Maximization.md",
+    "Algebra/Prime Ideal.md",
+    "Algebra/Algebra.md",
+    "Algebra/Maximal Ideal.md",
+    "Functional Analysis/Spectrum.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Mutual Information.md",
+    "Algebra/Spectrum (Ring).md",
+    "Information Theory/Entropy.md",
+    "Algebra/Ideal (Ring).md",
     "Information Theory/Joint Entropy.md",
     "Information Theory/Conditional Entropy.md",
     "Graph Theory/Girth.md",
@@ -254,13 +249,6 @@
     "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Advanced Algorithms/Untitled.md",
     "Markov Processes/Random Walk.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Algebra.md",
-    "Analysis/Banach Space.md",
-    "Algebra/Field.md",
-    "Algebra/Ring Homomorphism.md",
-    "Algebra/Associative Algebra.md",
-    "Functional Analysis/C-Algebra.md",
     "Courses/Characteristic Classes",
     "Char",
     "Characteristic Classes",
