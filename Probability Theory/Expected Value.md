@@ -19,3 +19,4 @@
 > [!lemma] Proposition 2 
 > Let $X:\Omega\to (E,\mathcal{E})$ be a random variable. For every measurable function $f:E\to[0,+\infty]$, $$\mathbb{E}[f(X)]=\int_{E}^{} f\, d\mathbb{P}_{X} $$
 - **Remark**: This is equivalent to the expectation of $f$ as a random variable of a pushforward probability space $(E,\mathcal{E},\mathbb{P}_{X})$. 
+- **Remark**: This can be extended to real- or complex-valued $f$ if $\mathbb{E}[\left| f(X) \right|]<+\infty$. 

@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Probability Theory/Density.md",
                 "mode": "source",
                 "source": true
               }
@@ -66,7 +66,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Probability Theory/Density.md",
                 "mode": "preview",
                 "source": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Probability Theory/Density.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Probability Theory/Density.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Expected Value.md"
+                "file": "Probability Theory/Density.md"
               }
             }
           }
@@ -237,11 +237,12 @@
   },
   "active": "9ad36345f085f7a1",
   "lastOpenFiles": [
-    "Measure Theory/Product Measure.md",
     "Probability Theory/Expected Value.md",
-    "Measure Theory/Sigma Algebra.md",
+    "Probability Theory/Density.md",
     "Probability Theory/Random Variable.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Measure Theory/Product Measure.md",
+    "Measure Theory/Sigma Algebra.md",
     "Algebra/Nilradical.md",
     "Measure Theory/Complex Measure.md",
     "Measure Theory/Radon Measure.md",
@@ -262,7 +263,6 @@
     "Algebra/Ideal (Ring).md",
     "Information Theory/Joint Entropy.md",
     "Information Theory/Conditional Entropy.md",
-    "Graph Theory/Girth.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
