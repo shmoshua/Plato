@@ -20,27 +20,16 @@
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
+>    Then, $\text{Greedy}$ outputs a $\left( 1-\frac{1}{e} \right)$-approximation to monotone submodular maximization in $O(nk)$.
 
-> [!proof]+
-> Without loss of generality, we may assume that $f(\varnothing)=0$. Now, we define the gain function as: $$\varphi:\mathcal{U}\times \mathcal{P}(\mathcal{U})\to \mathbb{R}_{\geq 0},\quad (u,S)\mapsto f(S\cup \{ u \})-f(S)$$Now, let $u_{i}$ denote the element chosen at step $i$ by Greedy algorithm. Furthermore, let $T^k$ denote the optimum set with size $k$ and let $S^k:=\{ u_{1},\dots,u_{k} \}$. Then, 
+> [!proof]-
+> Without loss of generality, we may assume that $f(\varnothing)=0$. Now, we define the gain function as: $$\varphi:\mathcal{U}\times \mathcal{P}(\mathcal{U})\to \mathbb{R}_{\geq 0},\quad (u,S)\mapsto f(S\cup \{ u \})-f(S)$$Now, let $u_{i}$ denote the element chosen at step $i$ by Greedy algorithm. Furthermore, let $T$ denote the optimum set with size $k$ and let $S^\ell:=\{ u_{1},\dots,u_{\ell} \}$ for $\ell=0,\dots,k$. Then, 
 > 1. **Claim 1: $f(A\cup B)\leq f(A)+\sum_{i\in B \backslash A}^{}\varphi_{i}(A)$**
 >    We show this over induction over $\left| B  \backslash A\right|$. If $\left| B  \backslash A\right|=1$, then $$f(A)+f(A\cup \{ i \})-f(A)=f(A\cup \{ i \})=f(A\cup B)$$
 >    For $\left| B  \backslash A \right|>1$ let $i\in B \backslash A$. Then, we have that: $$\begin{align}f(A\cup B)=f(A\cup B\backslash\{ i \}\cup \{ i \})&\leq f(A\cup B \backslash\{ i \})+\underbrace{ \varphi_{i}(A \cup B \backslash\{ i \}) }_{ \leq\varphi_{i}(A) }\\&\leq f(A)+\sum_{j\in B \backslash A, j\neq i}^{}\varphi_{j}(A)+\varphi_{i}(A)\end{align}$$which proves the claim.
->  2. **Claim 2: $\varphi_{u_{i+1}}(S^i)\geq\varphi_{u_{j}+1}(S^j)$ for $i\leq j$**. 
->     We have that from maximality of the choice of $u_{i}$ and submodularity: $$\varphi_{u_{i+1}}(S^i)\geq\varphi_{u_{j+1}}(S^i)\geq\varphi_{u_{j+1}}(S^j)$$ 
 >    
->  Therefore, $$f(T)\leq f(T\cup S^\ell)\leq f(S^\ell)+\sum_{j\in T \backslash S^\ell}^{}\varphi_{j}(S^\ell)\leq kf(S^{\ell+1})-(k-1)f(S^\ell),\quad \forall \ell=0,\dots,k-1$$Then, $f(T)-f(S^{\ell+1})\leq (k-1)(f(S^{\ell+1})-f(S^\ell))\leq(k-1)(f(T)-f(S^\ell))$. Therefore, $$\frac{f(S^k)}{f(T)}=1-\frac{f(T)-f(S^k)}{f(T)-f(S^0)}$$
+>  Therefore, $$f(T)\leq f(T\cup S^\ell)\leq f(S^\ell)+\sum_{j\in T \backslash S^\ell}^{}\underbrace{ \varphi_{j}(S^\ell) }_{ \leq\varphi_{u_{\ell+1}}(S^\ell) }\leq kf(S^{\ell+1})-(k-1)f(S^\ell),\quad \forall \ell=0,\dots,k-1$$ 
 >  
->  from $\ell=0$, we get $f(T)\leq k\varphi_{u_{1}}(S^0)\leq k(f(S^1)-f(S^0))$. Hence, $$\begin{align}kf(T)&\leq \sum_{\ell=0}^{k-1}f(S^\ell)+k(f(S^{\ell+1})-f(S^\ell))\\&= \sum_{\ell=0}^{k-1}kf(S^{\ell+1})-(k-1)f(S^\ell)\\&=\sum_{\ell=1}^{k}f(S^\ell)+(k-1)f(S^k)\\&\leq(2k-1)f(S^k)\end{align}$$
->  
+>  Then, $k(f(T)-f(S^{\ell+1}))\leq (k-1)(f(T)-f(S^\ell))$. Therefore, $$\frac{f(S^k)}{f(T)}=1-\frac{f(T)-f(S^k)}{f(T)-f(S^0)}\geq1-\left( \frac{k-1}{k} \right)^k \geq 1-\frac{1}{e}$$
 > 
-
-1. $f(T^{k+1})\geq f(S^{k+1})\geq f(S^k)$, $f(T^{k+1})\geq f(T^k)\geq f(S^k)$
- 
-1. For $k$, there is always an optimum with $k$ elements. 
-2. Let $\varphi:\mathcal{U}\times \mathcal{P}(\mathcal{U})\to \mathbb{R}_{\geq 0},(u,S)\mapsto f(S\cup \{ u \})-f(S)$.
-3. Let also $u_{i}$ denote the element chosen at step $i$ by Greedy.
-4. $f(S_{\text{OPT}}^{k+1})\geq f(S^{k+1})\geq f(S^k)$ and $f(S^{k+1}_{\text{OPT}})\geq f(S^k_{\text{OPT}})\geq f(S^k)$
-5. Let $S^k_{\text{OPT}}$ be the optimum set with size $k$, $S^k$ be the set after $k$-th for loop. Let also $\varphi$
-	$$f(S^k_{\text{OPT}})\leq f(S_{\text{OPT}}^k \cup S^k)\leq f(S^k) +\sum_{j\in S_{\text{OPT}}^k \backslash S^k}^{}\underbrace{ \varphi_{j}(S^k) }_{  \varphi_{u_{k+1}}(S^k)}\leq f(S^k)+k\cdot \varphi_{u_{k+1}}(S^k)$$Therefore, $$\begin{align}{f(S^k_{\text{OPT}})-f(S^k)}&\leq k\cdot \varphi_{u_{k+1}}(S^k)\\&=k(f(S^{k+1})-f(S^k))\\&=k(f(S^{k+1})-f(S^k_{\text{OPT}}))+k(f(S^k_{\text{OPT}})-f(S^k))\\&\leq\end{align}$$and $\frac{k-1}{k}(f(S^k_{\text{OPT}})-f(S^k))\geq f(S^k_{\text{OPT}})-f(S^{k+1})$. Therefore, 
-	
+---
