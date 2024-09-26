@@ -112,5 +112,19 @@
 >  
 >  Then, $$\left| \text{PTAS-BinPacking}(I) \right| =\left| \text{OPT}(J) \right|\leq (1+\varepsilon)\left| \text{OPT}(I) \right| $$
 ---
-> [!lemma] Theorem 5
+> [!lemma] Theorem 5 (FPTAS)
+>  ```pseudo
+>    \begin{algorithm} \caption{FPTAS-BinPacking($I,\varepsilon$)} 
+>    \begin{algorithmic}
+>    \State $\varepsilon\gets \min\left\{  \frac{1}{2}, \frac{\varepsilon}{2}  \right\}$
+>    \State $X\gets \{ u\in \mathcal{S}:s_{u}< \varepsilon' \}$
+>    \State $P\gets$ \Call{PTAS-BinPacking}{$\mathcal{S  }\backslash X,\varepsilon'$}
+>    \State $P'\gets$Call \Call{FirstFit}{$X$} on $P$ and add items in $X$ to $P$.
+>    \Return $P'$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    uses $\leq(1+\varepsilon)\left| \text{OPT}(I) \right|+1$ bins.
+
+> [!proof]+
 > 
