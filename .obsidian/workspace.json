@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Density.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Knapsack.md",
+                "file": "Probability Theory/Density.md",
                 "mode": "preview",
                 "source": true
               }
@@ -208,6 +208,7 @@
   "active": "d7b625245901b5cb",
   "lastOpenFiles": [
     "Probability Theory/Density.md",
+    "Probability Theory/Expected Value.md",
     "Probability Theory/Gaussian Distribution.md",
     "Advanced Algorithms/Knapsack.md",
     "Advanced Algorithms/Bin-Packing.md",
@@ -221,7 +222,6 @@
     "Information Theory/Mutual Information.md",
     "Algebra/Prime Ideal.md",
     "Measure Theory/Product Measure.md",
-    "Probability Theory/Expected Value.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Measure Theory/Sigma Algebra.md",
     "Algebra/Nilradical.md",
