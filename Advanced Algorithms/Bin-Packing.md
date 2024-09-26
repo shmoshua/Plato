@@ -64,6 +64,7 @@
 
 - **Remark**: It is $\mathcal{NP}$-hard to get a better factor than $3 / 2$.
 ---
+##### FPTAS
 > [!lemma] Proposition 3
 > With the assumptions that:
 > 1. All items have size at least $\varepsilon$ for some $\varepsilon>0$.
@@ -78,5 +79,10 @@
 >    ```
 >    solves bin packing in $O(n^R)$ time where $R$ is a constant.
 
-> [!proof]+
-> Let $M:=\left\lceil \frac{1}{\varepsilon}\right\rceil$. Then, each bin has at most $M$ items. By the second assumption, we have at most $R:={M+k \choose M}$ configurations in a bin. Since we need at most $n$ bins, 
+> [!proof]-
+> Going through all possible bin configuration with the given $n$ items is upper bounded by going through all possible configurations of $n$ bins, choosing from arbitrarily many items of $k$ fixed sizes.  Let $M:=\left\lceil \frac{1}{\varepsilon}\right\rceil$. Then, each bin has at most $M$ items. By the second assumption, we have at most $R:={M+k \choose M}$ configurations in a bin. By choosing $n$ bins from these $R$ bins, we have at most $${n+R \choose n}={n+R\choose R}\leq(n+R)^R=O(n^R) $$
+---
+> [!lemma] Proposition 4
+> With the assumption that:
+> 1. All items have size at least $\varepsilon$ for some $\varepsilon>0$,
+> 2. 
