@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
+                "file": "Algebra/Nilradical.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Maximal Ideal.md",
+                "file": "Algebra/Variety.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "4619418bfcd428c6",
+            "id": "f3a411c9726228ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -82,14 +82,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Maximal Ideal.md",
+                "file": "Algebra/Variety.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9ad36345f085f7a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Algebra.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a0f6c4a35bbc0b56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Nilradical.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -155,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Maximal Ideal.md",
+                "file": "Algebra/Nilradical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Maximal Ideal.md",
+                "file": "Algebra/Nilradical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Maximal Ideal.md"
+                "file": "Algebra/Nilradical.md"
               }
             }
           }
@@ -219,12 +243,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d697f46f9f39cd29",
+  "active": "a0f6c4a35bbc0b56",
   "lastOpenFiles": [
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Advanced Algorithms/Monotone Submodular Maximization.md",
-    "Algebra/Prime Ideal.md",
+    "Algebra/Radical (Ring).md",
+    "Algebra/Ring of Polynomial Functions.md",
+    "Algebra/Variety.md",
     "Algebra/Algebra.md",
+    "Algebra/Nilradical.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Prime Ideal.md",
+    "Advanced Algorithms/Monotone Submodular Maximization.md",
     "Algebra/Maximal Ideal.md",
     "Functional Analysis/Spectrum.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
@@ -245,10 +273,6 @@
     "Graph Theory/Tournament.md",
     "Graph Theory/Cut (Graph).md",
     "Graph Theory/Hamiltonian Path.md",
-    "Markov Processes/Markov Chain.md",
-    "Courses/Markov Processes/Markov Processes Roadmap.md",
-    "Advanced Algorithms/Untitled.md",
-    "Markov Processes/Random Walk.md",
     "Courses/Characteristic Classes",
     "Char",
     "Characteristic Classes",

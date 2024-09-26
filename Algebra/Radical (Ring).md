@@ -24,6 +24,24 @@
 ^ac2252
 
 ---
+> [!lemma] Lemma 2
+> For a commutative ring $R$ and $I\unlhd R$, 
+> 1. $\sqrt{ I }=\bigcap_{I\subseteq P\unlhd R,P\text{ prime}}^{}P$
+
+^5a7a7e
+
+> [!proof]-
+> We have:
+> 1. $\subseteq$: let $a\in \sqrt{ I }$, i.e. $a^n\in I$. Then, for any prime $P\supseteq I$, $a\in P$ and also in the intersection.
+>    
+>    $\supseteq:$ let $a\in R \backslash\sqrt{ I }$, i.e. $a^n\notin I$ for all $n$. Let $\mathcal{M}:=\{ J\unlhd R:I\subseteq J, a^n\notin J\text{ for all }n\geq 0 \}$. By Zorn's lemma, there exists a maximal element $P$ and we will show that $P$ is prime. 
+>    
+>    Assume $P$ is not prime, i.e. there exists $b,c\in R$ s.t. $bc\in P$ but $b,c\notin P$. Then, $P+(b)$ and $P+(c)$ are strictly bigger than $P$. However, as they are not in $\mathcal{M}$, there exists $n,m$ s.t. $a^n\in P+(b)$ and $a^m\in P+(c)$. Then, $$a^{nm}\in(P+(b))(P+(c))\subseteq P+(bc)$$which is a contradiction. Hence, $P$ is prime.
+
+^aed7dc
+
+- **Corollary**: the [[nilradical]] is given by $\sqrt{ (0) }=\bigcap_{P\unlhd R, P\text{ prime}}^{} P$. ^a3929b
+---
 ##### Examples
 > [!h] Example 1
 > We have:

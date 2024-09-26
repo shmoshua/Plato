@@ -62,7 +62,15 @@
 
 ^121639
 
-- **Corollary**: There is a bijection between subvarieties of $X$ and radical ideals in $A(X)$ given by $I$ and $V$. 
+- **Corollary**: There is a bijection between subvarieties of $X$ and radical ideals in $A(X)$ given by $I$ and $V$.  ^039994
+---
+> [!lemma] Proposition 5
+> We have that:
+> 1. $X\mapsto A(X)$ is a bijection between the set of varieties and the set of all finitely generated reduced $K$-algebras.
+
+> [!proof]+
+> We have that:
+> 1. for any variety $X\subseteq \mathbb{A}_{K}^n$, $A(X)=K[x_{1},\dots,x_{n}] / I(X)$ and $A(X)$ is finitely generated. Further 
 ---
 ##### Examples 
 > [!h] Example 1
@@ -78,6 +86,9 @@
 > We have:
 > 1. $\text{SL}_{n}\subseteq \text{Mat}_{n,n}(\mathbb{R})\cong \mathbb{A}_{\mathbb{R}}^{n^{2}}$ is a variety as $V(\det - 1)$.
 > 2. $V(D_{n})\subseteq \mathcal{P}_{n}$ where $D_{n}$ the discriminant denotes the subset of polynomials with multiple roots. 
+
+^1e3e77
+
 ---
 ##### Non-Examples
 > [!h] Non-Example 1

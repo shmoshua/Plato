@@ -25,8 +25,17 @@
 > [!lemma] Theorem 2 (Every Ideal is contained in a Maximal Ideal)
 > For a commutative ring $R$ and $I\unlhd R$ with $I\neq R$, 
 > 1. $I$ is contained in some maximal ideal $J$.
-> 2. every ring $R\neq 0$ has a maximal ideal.
+> 2. every commutative ring $R\neq 0$ has a maximal ideal.
 
-> [!proof]+
+^05e5ce
+
+> [!proof]-
 > We have:
-> 1. Let: $$\mathcal{M}:=\{  \}$$
+> 1. Let $\mathcal{M}:=\{ J\unlhd R :I\subseteq J,J\neq R\}$. The maximal elements in $\mathcal{M}$ are exactly the maximal ideals. Let $\mathcal{A}\subseteq \mathcal{M}$ be a totally ordered subfamily. If $\mathcal{A}=\varnothing$, then $I\in \mathcal{M}$ is an upper bound. Otherwise, $J':=\bigcup_{J\in \mathcal{A}}^{}J$ is an upper bound. 
+>    
+>    Hence, by [[Poset|Zorn's lemma]], we have the statement.
+> 2. Every commutative ring has a proper ideal.
+
+^8f1aa6
+
+---

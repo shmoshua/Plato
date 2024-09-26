@@ -100,19 +100,29 @@
 ![[Maximal Ideal#^1891d6|q]]
 
 ---
+![[Maximal Ideal#^05e5ce]]
+![[Maximal Ideal#^8f1aa6|p]]
 
-#### 0. Introduction
-##### 0.0 Affine Space and Varieties
+
+---
+![[Radical (Ring)#^5a7a7e]]
+![[Radical (Ring)#^aed7dc|p]]
+![[Radical (Ring)#^a3929b|q]]
+
+---
+
+### 2. Varieties
+#### 2.1 Affine Spaces
 ![[Affine Space#^95322a]]
 ![[Affine Space#^ff2604|q]]
 ![[Affine Space#^b8445a|q]]
 ---
-###### Varieties
+#### 2.2 Varieties
 ![[Variety#^1a7b97]]
 ![[Variety#^d6893c|p]]
 
 ---
-###### Ideals of Varieties
+#### 2.3 Ideals of Varieties
 ![[Variety#^d9dae1|q]]
 ![[Variety#^35d70d]]
 ![[Variety#^c6655d|p]]
@@ -121,7 +131,7 @@
 ![[Variety#^cc24f3|p]]
 
 ---
-###### Ring of Polynomial Functions
+#### 2.4 Ring of Polynomial Functions
 ![[Ring of Polynomial Functions#^56793e]]
 ![[Ring of Polynomial Functions#^ca999a|q]]
 ![[Ring of Polynomial Functions#^4b2402]]
@@ -134,5 +144,7 @@
 ![[Variety#^4f0f2a]]
 ![[Variety#^88859e|p]]
 ![[Variety#^121639|p]]
+![[Variety#^039994|q]]
+![[Variety#^1e3e77]]
 
 ---
