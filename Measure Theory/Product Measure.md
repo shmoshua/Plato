@@ -33,7 +33,7 @@
 > 3. It holds that: $$\int_{E\times F}^{} f \, d\mu \times \nu=\int_{E}^{} \left( \int_{F}^{} f(x,y) \, d\nu(y)  \right)  \, d\nu(x)=\int_{F}^{} \left( \int_{E}^{} f(x,y) \, d\mu(x)  \right)  \, d\nu(y)   $$
 
 > [!proof]+
-> Firstly,
+> Firstly, the existence of these integrals is justified by Proposition 1.
 > 
 > We have:
 > 1. 
