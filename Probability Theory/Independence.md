@@ -53,10 +53,19 @@
 > 4. if $\mathbb{E}[\left| X \right|^{2}],\mathbb{E}[\left| Y \right|^{2}]<+\infty,$, the [[Covariance|covariance matrix]] $\Sigma_{X+Y}=\Sigma_{X}+\Sigma_{Y}$.
 > 5. if $d=1$ and $X,Y\in L^2$, then $\text{Var}(X+Y)=\text{Var}(X)+\text{Var}(Y)$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. As $\mathbb{P}_{(X,Y)}=\mathbb{P}_{X}\otimes \mathbb{P}_{Y}$, for any non-negative measurable function $\varphi$ on $\mathbb{R}^d$, $$\int_{\mathbb{R}^d}^{} \varphi \, d\mathbb{P}_{X+Y} =\mathbb{E}[\varphi(X+Y)]=\int_{\mathbb{R}^d}^{} \int_{\mathbb{R}^d}^{} \varphi(x+y) \, d\mathbb{P}_{X}(x)  \, d\mathbb{P}_{Y}(y)=\int_{\mathbb{R}^d}^{} \varphi \, d\mathbb{P}_{X}*\mathbb{P}_{Y} $$
-> 2. We have that: $$\int_{\mathbb{R}^d}^{} \int_{\mathbb{R}^d}^{} \varphi(x+y)p_{X}(x)p_{Y}(y) \, dx  \, dy= $$
+> 2. We have that: $$\int_{\mathbb{R}^d}^{} \int_{\mathbb{R}^d}^{} \varphi(x+y)p_{X}(x)p_{Y}(y) \, dx  \, dy=\int_{\mathbb{R}^d}^{} \varphi(z)\left( \underbrace{ \int_{\mathbb{R}^d}^{} p_{X}(x)p_{Y}(z-x) \, dx  }_{ =p_{X}*p_{Y}(z) } \right) \, dz $$
+> 3. .
+> 4. $\text{Cov}(X_{i}+Y_{i},X_{j}+Y_{j})=\text{Cov}(X_{i},X_{j})+\text{Cov}(Y_{i},Y_{j})$
+> 5. From 4.
+---
+> [!lemma] Theorem 5 (Weak Law of Large Numbers)
+> Let $(X_{n})_{n}$ be a sequence of i.i.d real random variables in $L^2$. Then, $$\frac{1}{n}(X_{1}+\dots+X_{n})\overset{ L^2 }{ \underset{ n\to \infty }{ \longrightarrow } }\mathbb{E}[X_{1}]$$
+
+> [!proof]+
+> By linearity, we have that: $$\mathbb{E}\left[ \frac{1}{n}(X_{1}+\dots+X_{n}) \right]=\mathbb{E}[X_{1}]$$Furthermore, by proposition 4, $\text{Var}(X_{1}+\dots+X_{n})=n\text{Var}(X_{1})$. Therefore, $$\mathbb{E}\left[ \left( \frac{X_{1}+\dots X_{n}}{n}-\mathbb{E}[X_{1}] \right) ^{2} \right]=\frac{1}{n^{2}}\text{Var}(X_{1}+\dots +X_{n})=\frac{\text{Var}(X_{1})}{n}\to 0 $$
 ---
 ##### Examples
 ##### Non-Examples

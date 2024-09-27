@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Probability Theory/Conditional Probability.md",
                 "mode": "source",
                 "source": true
               }
@@ -54,7 +54,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Probability Theory/Conditional Probability.md",
                 "mode": "preview",
                 "source": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Probability Theory/Conditional Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Probability Theory/Conditional Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Independence.md"
+                "file": "Probability Theory/Conditional Probability.md"
               }
             }
           }
@@ -193,6 +193,7 @@
   "active": "9da8a5f9e82b9325",
   "lastOpenFiles": [
     "Probability Theory/Independence.md",
+    "Probability Theory/Conditional Probability.md",
     "Probability Theory/Convolution (Measure).md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Convolution.md",
@@ -217,7 +218,6 @@
     "Advanced Algorithms/Monotone Submodular Maximization.md",
     "Advanced Algorithms/PTAS.md",
     "Advanced Algorithms/Approximation Algorithm.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
