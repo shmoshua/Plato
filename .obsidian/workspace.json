@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "source",
                 "source": true
               }
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Probability Theory/Moment.md",
                 "mode": "preview",
                 "source": true
               }
@@ -88,7 +88,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Probability Theory/Expected Value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Probability Theory/Expected Value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Random Variable.md"
+                "file": "Probability Theory/Expected Value.md"
               }
             }
           }
@@ -218,13 +219,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9da8a5f9e82b9325",
+  "active": "1ff8ed13bbe75029",
   "lastOpenFiles": [
     "Probability Theory/Distribution Function.md",
     "Probability Theory/Random Variable.md",
+    "Probability Theory/Moment.md",
+    "Probabilistic Methods/Bayes Decision.md",
     "Probability Theory/Distribution.md",
     "Advanced Algorithms/Bin-Packing.md",
-    "Probabilistic Methods/Bayes Decision.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Density.md",
@@ -245,7 +247,6 @@
     "Algebra/Variety.md",
     "Measure Theory/Lebesgue Integral.md",
     "Measure Theory/Positive Measure.md",
-    "Algebra/Algebra.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",

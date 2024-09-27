@@ -20,3 +20,17 @@
 > Let $X:\Omega\to (E,\mathcal{E})$ be a random variable. For every measurable function $f:E\to[0,+\infty]$, $$\mathbb{E}[f(X)]=\int_{E}^{} f\, d\mathbb{P}_{X} $$
 - **Remark**: This is equivalent to the expectation of $f$ as a random variable of a pushforward probability space $(E,\mathcal{E},\mathbb{P}_{X})$. 
 - **Remark**: This can be extended to real- or complex-valued $f$ if $\mathbb{E}[\left| f(X) \right|]<+\infty$. 
+---
+> [!lemma] Proposition 3 (Extension of Measure Theory Theorems)
+> We have:
+> 1. for $X:\Omega\to[0,+\infty]$, 
+> 	1. if $\mathbb{E}[X]<+\infty$ then $X<+\infty$ almost surely.
+> 	2. if $\mathbb{E}[X]=0$ then $X=0$ almost surely.
+> 2. [[Lebesgue Integral|MCT]]: for $(X_{n})_{n}$ where $X_{n}:\Omega\to[0,+\infty]$ and $X_{1}\leq X_{2}\leq\dots$ almost surely,
+> 	1. if for $X:\Omega\to[0,+\infty]$, $X=\lim_{ n \to \infty }X_{n}$ almost surely, then $\lim_{ n \to \infty }\mathbb{E}[X_{n}]=\mathbb{E}[X]$.
+> 3. [[Lebesgue Integral|Fatou's Lemma]]: for $(X_{n})_{n}$ where $X_{n}:\Omega\to[0,+\infty]$, $$\mathbb{E}[\liminf_{ n \to \infty } X_{n}]\leq \liminf_{ n \to \infty } \mathbb{E}[X_{n}]$$
+> 4. [[Summable Function|DCT]]: for $(X_{n})_{n}$ where $X_{n}:\Omega\to \mathbb{R}$ and $X,Z:\Omega\to \mathbb{R}$ s.t. $\mathbb{E}[Z]<+\infty$ and $\left| X_{n} \right|\leq Z$, 
+> 	1. if $X_{n}\to X$ almost surely, then$$\lim_{ n \to \infty } \mathbb{E}[\left| X_{n}-X \right| ]=0,\quad \lim_{ n \to \infty } \mathbb{E}[X_{n}]=\mathbb{E}[X]$$
+> 5. [[Lp Space|Hölder's inequality]]: for $X,Y:\Omega\to \mathbb{R}$, and $p,q\in (1,+\infty)$ conjugates, $$\mathbb{E}[\left| XY \right| ]\leq \mathbb{E}[\left| X \right| ^p]^{1/p}\mathbb{E}[\left| Y \right| ^q]^{1/q}$$
+> 6. [[Lp Space|Cauchy Schwarz]]: for $X,Y:\Omega\to \mathbb{R}$, $\mathbb{E}[\left| XY \right|]\leq \mathbb{E}[X^2]^{1/2}\mathbb{E}[Y^2]^{1/2}$ and 
+> 	1. $\mathbb{E}[\left| X \right|]^{2}\leq \mathbb{E}[X^{2}]$
