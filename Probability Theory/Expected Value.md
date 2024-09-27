@@ -21,7 +21,7 @@
 - **Remark**: This is equivalent to the expectation of $f$ as a random variable of a pushforward probability space $(E,\mathcal{E},\mathbb{P}_{X})$. 
 - **Remark**: This can be extended to real- or complex-valued $f$ if $\mathbb{E}[\left| f(X) \right|]<+\infty$. 
 ---
-> [!lemma] Proposition 3 (Extension of Measure Theory Theorems)
+> [!lemma] Theorem 3 (Extension of Measure Theory Theorems)
 > We have:
 > 1. for $X:\Omega\to[0,+\infty]$, 
 > 	1. if $\mathbb{E}[X]<+\infty$ then $X<+\infty$ almost surely.
@@ -34,3 +34,5 @@
 > 5. [[Lp Space|Hölder's inequality]]: for $X,Y:\Omega\to \mathbb{R}$, and $p,q\in (1,+\infty)$ conjugates, $$\mathbb{E}[\left| XY \right| ]\leq \mathbb{E}[\left| X \right| ^p]^{1/p}\mathbb{E}[\left| Y \right| ^q]^{1/q}$$
 > 6. [[Lp Space|Cauchy Schwarz]]: for $X,Y:\Omega\to \mathbb{R}$, $\mathbb{E}[\left| XY \right|]\leq \mathbb{E}[X^2]^{1/2}\mathbb{E}[Y^2]^{1/2}$ and 
 > 	1. $\mathbb{E}[\left| X \right|]^{2}\leq \mathbb{E}[X^{2}]$
+> 7. **Jensen's inequality**: for $X\in L^1(\Omega,\mathcal{A},\mathbb{P})$ and $f:\mathbb{R}\to \mathbb{R}_{\geq 0}$ convex, $$\mathbb{E}[f(X)]\geq f(\mathbb{E}[X])$$
+---
