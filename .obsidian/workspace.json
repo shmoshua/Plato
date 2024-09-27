@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Bin-Packing.md",
+                "file": "Probability Theory/Random Variable.md",
                 "mode": "source",
                 "source": true
               }
@@ -36,12 +36,16 @@
             "id": "c6b7e4850b8f2997",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Probabilistic Methods/Bayes Decision.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -54,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Probability Theory/Random Variable.md",
                 "mode": "preview",
                 "source": true
               }
@@ -150,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Probability Theory/Random Variable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Probability Theory/Random Variable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +193,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Probability Theory/Random Variable.md"
+              }
             }
           }
         ]
@@ -210,15 +218,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c6b7e4850b8f2997",
+  "active": "9da8a5f9e82b9325",
   "lastOpenFiles": [
-    "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Distribution Function.md",
+    "Probability Theory/Random Variable.md",
+    "Probability Theory/Distribution.md",
+    "Advanced Algorithms/Bin-Packing.md",
+    "Probabilistic Methods/Bayes Decision.md",
     "Probability Theory/Expected Value.md",
+    "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Density.md",
     "Advanced Algorithms/Knapsack.md",
-    "Advanced Algorithms/Bin-Packing.md",
-    "Probability Theory/Distribution.md",
-    "Probability Theory/Random Variable.md",
     "Advanced Algorithms/FPTAS.md",
     "Advanced Algorithms/Monotone Submodular Maximization.md",
     "Advanced Algorithms/PTAS.md",
@@ -236,8 +246,6 @@
     "Measure Theory/Lebesgue Integral.md",
     "Measure Theory/Positive Measure.md",
     "Algebra/Algebra.md",
-    "Algebra/Ring of Polynomial Functions.md",
-    "Algebra/Radical (Ring).md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
