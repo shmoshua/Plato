@@ -35,4 +35,11 @@
 > 6. [[Lp Space|Cauchy Schwarz]]: for $X,Y:\Omega\to \mathbb{R}$, $\mathbb{E}[\left| XY \right|]\leq \mathbb{E}[X^2]^{1/2}\mathbb{E}[Y^2]^{1/2}$ and 
 > 	1. $\mathbb{E}[\left| X \right|]^{2}\leq \mathbb{E}[X^{2}]$
 > 7. **Jensen's inequality**: for $X\in L^1(\Omega,\mathcal{A},\mathbb{P})$ and $f:\mathbb{R}\to \mathbb{R}_{\geq 0}$ convex, $$\mathbb{E}[f(X)]\geq f(\mathbb{E}[X])$$
+> 8. **Markov's inequality**: for $X:\Omega\to[0,+\infty]$ and $a>0$: $$\mathbb{P}(X\geq a)\leq \frac{\mathbb{E}[X]}{a}$$
+> 9. **Bienaymé-Chebyshev Inequality**: if $X\in L^2(\Omega,\mathcal{A},\mathbb{P})$ and $a>0$, $$\mathbb{P}(\left| X-\mathbb{E}[X] \right| \geq a)\leq \frac{1}{a^{2}}\text{Var}(X)$$
+
+> [!proof]-
+> We have:
+> 1.
+> 9. For 9, we have: $$\mathbb{P}(\left| X-\mathbb{E}[X] \right| \geq a )=\mathbb{P}((X-\mathbb{E}[X])^{2}\geq a^{2} )\leq \frac{\text{Var}(X)}{a^{2}}$$
 ---
