@@ -23,12 +23,40 @@
 > Let $X_{1},\dots,X_{n}$ be random variables taking values in $(E_{1},\mathcal{E}_{1}),\dots,(E_{n},\mathcal{E}_{n})$. 
 > 1. $X_{1},\dots,X_{n}$ are independent if and only if $\mathbb{P}_{(X_{1},\dots,X_{n})}=\mathbb{P}_{X_{1}}\otimes\dots \otimes \mathbb{P}_{X_{n}}$.
 > 2. If $X_{1},\dots,X_{n}$ are independent, $\mathbb{E}\left[ \prod_{i=1}^{n}f_{i}(X_{i}) \right]=\prod_{i=1}^{n}\mathbb{E}[f_{i}(X_{i})]$ where $f_{i}$ is a non-negative measurable function on $(E_{i},\mathcal{E}_{i})$
+> 3. if $X_{1},\dots,X_{n}$ are independent and real with [[density]] $p_{i}$, then $(X_{1},\dots,X_{n})$ has density: $$p(x_{1},\dots,x_{n}):=\prod_{i=1}^{n}p_{i}(x_{i})$$
+> 4. if $(X_{1},\dots,X_{n})$ has density $p$ which can be written as: $$p(x_{1},\dots,x_{n})=\prod_{i=1}^{n}q_{i}(x_{i})$$for non-negative measurable functions $q_{1},\dots,q_{n}$,  then $X_{1},\dots,X_{n}$ are independent with density $p_{i}=C_{i}q_{i}$ for some constant $C_{i}>0$.
+
 
 > [!proof]-
 > We have:
 > 1. Let $F_{i}\in \mathcal{E}_{i}$. Then, $$\mathbb{P}_{(X_{1},\dots,X_{n})}(F_{1}\times\dots \times F_{n})=\mathbb{P}(X_{1}\in F_{1},\dots,X_{n}\in F_{n})$$On ther other hand, $$\mathbb{P}_{X_{1}}\otimes \dots \otimes \mathbb{P}_{X_{n}}(F_{1}\times\dots \times F_{n})=\prod_{i=1}^{n}\mathbb{P}_{X_{i}}(F_{i})=\prod_{i=1}^{n}\mathbb{P}(X_{i}\in F_{i})$$This proves the statement as the product measure is characterized by its values on the "box-sets".
 > 2. Using Fubini, we have: $$\begin{align}\mathbb{E}\left[ \prod_{i=1}^{n}f_{i}(X_{i}) \right] &=\int_{E_{1}\times\dots \times E_{n}}f_{1}(x_{1})\dots f_{n}(x_{n}) \, d\mathbb{P}_{X_{1}}(x_{1})\dots d\mathbb{P}_{X_{n}}(x_{n}) \\&=\prod_{i=1}^{n}\int_{E_{i}}f_{i}(x_{i}) \, d\mathbb{P}_{X_{i}}(x_{i})\\&=\prod_{i=1}^{n}\mathbb{E}[f_{i}(X_{i})] \end{align}$$
-- **Remark**: We can extend $f_{i}$ to real- and complex functions, if $\mathbb{E}[\left| f_{i}(X_{i}) \right|]<+\infty$ for all $i$.
+> 3. From 3.
+> 4. By Fubini: $$\prod_{i=1}^{n}\int_{}^{} q_{i} \, dx=\int_{\mathbb{R}^n}^{} p \, dx_{1}\dots dx_{n}=1  $$Therefore, $K_{i}:=\int q_{i}  \, dx$ is positive and finite. Then, we have by [[Density|Proposition 1]]: $$\begin{align}p_{i}(x_{i})&=\int_{\mathbb{R}^{n-1}}^{} p(x_{1},\dots,x_{n}) \, dx_{1}\dots dx_{i-1}dx_{i+1}\dots dx_{n}\\&=\left( \prod_{j\neq i}^{}K_{j} \right)q_{i}(x_{i})\\&=\frac{1}{K_{i}}q_{i}(x_{i}) \end{align}$$Hence, $p(x_{1},\dots,x_{n})=\prod_{i=1}^{n}p_{i}(x_{i})$ and $\mathbb{P}_{(X_{1},\dots,X_{n})}=\mathbb{P}_{X_{1}}\otimes\dots \otimes \mathbb{P}_{X_{n}}$. 
+- **Remark**: We can extend $f_{i}$ to real- and complex measurable functions, if $\mathbb{E}[\left| f_{i}(X_{i}) \right|]<+\infty$ for all $i$.
+- **Corollary**: if $X_{1},\dots,X_{n}\in L^1$ are independent, then $X_{1}\dots X_{n}\in L^1$. 
+---
+> [!lemma] Lemma 3
+> Let $X_{1},X_{2}\in L^2$ be two independent random variables. Then,
+> 1. $\text{Cov}(X_{1},X_{2})=0$.
+
+> [!proof]-
+> We have:
+> 1. $\text{Cov}(X_{1},X_{2})=\mathbb{E}[X_{1}X_{2}]-\mathbb{E}[X_{1}]\mathbb{E}[X_{2}]=\mathbb{E}[X_{1}]\mathbb{E}[X_{2}]-\mathbb{E}[X_{1}]\mathbb{E}[X_{2}]=0$.
+- **Remark**: The converse is not true: $\text{Cov}(X,Y)=0$ doesn't imply $X,Y$ are independent.
+---
+> [!lemma] Proposition 4
+> Let $X,Y:\Omega\to \mathbb{R}^d$ be two independent random variables. Then, 
+> 1. $\mathbb{P}_{X+Y}=\mathbb{P}_{X}*\mathbb{P}_{Y}$ where $*$ denotes the [[Convolution (Measure)|convolution]].
+> 2. if $X$ has [[density]] $p_{X}$ and $Y$ has density $p_{Y}$, $X+Y$ has density $p_{X}*p_{Y}$.
+> 3. for the [[characteristic function]], $\Phi_{X+Y}(\xi)=\Phi_{X}(\xi)*\Phi_{Y}(\xi)$
+> 4. if $\mathbb{E}[\left| X \right|^{2}],\mathbb{E}[\left| Y \right|^{2}]<+\infty,$, the [[Covariance|covariance matrix]] $\Sigma_{X+Y}=\Sigma_{X}+\Sigma_{Y}$.
+> 5. if $d=1$ and $X,Y\in L^2$, then $\text{Var}(X+Y)=\text{Var}(X)+\text{Var}(Y)$
+
+> [!proof]+
+> We have:
+> 1. As $\mathbb{P}_{(X,Y)}=\mathbb{P}_{X}\otimes \mathbb{P}_{Y}$, for any non-negative measurable function $\varphi$ on $\mathbb{R}^d$, $$\int_{\mathbb{R}^d}^{} \varphi \, d\mathbb{P}_{X+Y} =\mathbb{E}[\varphi(X+Y)]=\int_{\mathbb{R}^d}^{} \int_{\mathbb{R}^d}^{} \varphi(x+y) \, d\mathbb{P}_{X}(x)  \, d\mathbb{P}_{Y}(y)=\int_{\mathbb{R}^d}^{} \varphi \, d\mathbb{P}_{X}*\mathbb{P}_{Y} $$
+> 2. We have that: $$\int_{\mathbb{R}^d}^{} \int_{\mathbb{R}^d}^{} \varphi(x+y)p_{X}(x)p_{Y}(y) \, dx  \, dy= $$
 ---
 ##### Examples
 ##### Non-Examples
