@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Fourier Transform (Rn).md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
@@ -194,16 +194,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9da8a5f9e82b9325",
+  "active": "d7b625245901b5cb",
   "lastOpenFiles": [
-    "Probability Theory/Moment.md",
-    "Probability Theory/Independence.md",
-    "Probability Theory/Covariance.md",
-    "Probability Theory/Characteristic Function.md",
-    "Analysis/Fourier Transform (Rn).md",
-    "Functional Analysis/Fourier Transform.md",
     "Probability Theory/Expected Value.md",
+    "Probability Theory/Independence.md",
+    "Measure Theory/Product Measure.md",
     "Probability Theory/Variance.md",
+    "Algebra/Variety.md",
+    "Probability Theory/Covariance.md",
+    "Analysis/Fourier Transform (Rn).md",
+    "Probability Theory/Moment.md",
+    "Probability Theory/Characteristic Function.md",
+    "Functional Analysis/Fourier Transform.md",
     "Analysis/Symmetric Positive Definite Matrices.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Density.md",
@@ -220,8 +222,6 @@
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Mutual Information.md",
     "Algebra/Prime Ideal.md",
-    "Measure Theory/Product Measure.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
