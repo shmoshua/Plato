@@ -59,6 +59,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "277ab68fe3e76309",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Random Variable.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -192,14 +204,15 @@
   },
   "active": "9da8a5f9e82b9325",
   "lastOpenFiles": [
-    "Probability Theory/Independence.md",
     "Probability Theory/Conditional Probability.md",
+    "Probability Theory/Random Variable.md",
+    "Probability Theory/Expected Value.md",
+    "Probability Theory/Independence.md",
     "Probability Theory/Convolution (Measure).md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Convolution.md",
     "Probability Theory/Density.md",
     "Probability Theory/Covariance.md",
-    "Probability Theory/Expected Value.md",
     "Measure Theory/Product Measure.md",
     "Probability Theory/Variance.md",
     "Algebra/Variety.md",
@@ -210,7 +223,6 @@
     "Probability Theory/Gaussian Distribution.md",
     "Probabilistic Methods/Bayes Decision.md",
     "Probability Theory/Distribution Function.md",
-    "Probability Theory/Random Variable.md",
     "Probability Theory/Distribution.md",
     "Advanced Algorithms/Bin-Packing.md",
     "Advanced Algorithms/Knapsack.md",
