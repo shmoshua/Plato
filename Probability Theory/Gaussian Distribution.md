@@ -2,8 +2,11 @@
 
 > [!definition]
 > A [[random variable]] $X:\Omega\to \mathbb{R}^d$ has a ***Gaussian distribution*** with mean $\mu\in \mathbb{R}^d$ and a [[Symmetric Positive Definite Matrices|SPD]] matrix $\Sigma\in \mathbb{R}^{d,d}$ called the covariance matrix, if the [[Density|density]] is given as: $$p(x)=\frac{1}{\sqrt{ (2\pi)^d \det \Sigma }}\exp \left( -\frac{1}{2}(x-\mu)^\top\Sigma ^{-1}(x-\mu) \right) $$and denoted by $X\sim \mathcal{N}(\mu,\Sigma)$. 
+
+^a29bbb
+
 - **Remark**: If $d=1$, then we have $p(x)=\frac{1}{\sigma\sqrt{ 2\pi }}\exp\left( -\frac{(x-\mu)^{2}}{2\sigma^{2}} \right)$.
-- **Remark**: This can be extended to $\Sigma$ that is positive semidefinite by reducing the dimensionality to $\text{rank}(\Sigma)$. 
+- **Remark**: This can be extended to $\Sigma$ that is positive semidefinite by reducing the dimensionality to $\text{rank}(\Sigma)$.  ^38c683
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Basic Properties)

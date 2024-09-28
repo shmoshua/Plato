@@ -15,6 +15,8 @@
 > 	4. **Cauchy distribution** with $a>0$ has density: $$p(x)=\frac{1}{\pi} \frac{a}{a^{2}+x^{2}}$$
 > 	5. **Gaussian distribution** $\mathcal{N}(m,\sigma^{2})$ for $m\in \mathbb{R},\sigma>0$ has density: $$p(x)=\frac{1}{\sigma \sqrt{ 2\pi }}\exp \left( -\frac{(x-m)^{2}}{2\sigma^{2}} \right) $$
 
+^fcd59b
+
 --- 
 ##### Properties
 > [!lemma] Proposition 

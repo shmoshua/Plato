@@ -38,7 +38,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d03eddd02fbb312a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Probability Space.md",
                 "mode": "source",
                 "source": true
               }
@@ -58,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -70,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Probability Theory/Covariance.md",
                 "mode": "preview",
                 "source": true
               }
@@ -123,8 +135,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -144,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Probability Theory/Covariance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Probability Theory/Covariance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Independence.md"
+                "file": "Probability Theory/Covariance.md"
               }
             }
           }
@@ -208,14 +219,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "541cbc9265fdb50e",
+  "active": "277ab68fe3e76309",
   "lastOpenFiles": [
+    "Probability Theory/Random Variable.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Conditional Probability.md",
     "Probability Theory/Independence.md",
+    "Probability Theory/Probability Space.md",
+    "Courses/Probabilistic AI",
     "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Integral.md",
     "Measure Theory/Positive Measure.md",
-    "Probability Theory/Random Variable.md",
     "Probability Theory/Convolution (Measure).md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Convolution.md",
@@ -234,8 +248,6 @@
     "Probability Theory/Distribution.md",
     "Advanced Algorithms/Bin-Packing.md",
     "Advanced Algorithms/Knapsack.md",
-    "Advanced Algorithms/FPTAS.md",
-    "Advanced Algorithms/Monotone Submodular Maximization.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
@@ -245,7 +257,6 @@
     "Markov Processes",
     "Courses/Commutative Algebra",
     "Advanced Algorithms",
-    "Courses/Advanced Algorithms",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }

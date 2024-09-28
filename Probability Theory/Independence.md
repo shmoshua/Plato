@@ -5,6 +5,9 @@
 > 1. Events $A_{1},\dots,A_{n}\in \mathcal{A}$ are ***independent*** if $$\mathbb{P}\left( \bigcap_{i\in J}^{}A_{i} \right)=\prod_{i\in J}^{}\mathbb{P}(A_{i}),\quad \forall J\subseteq[n]$$
 > 2. Sub-[[Sigma Algebra|$\sigma$-algebras]] $\mathcal{B_{1},\dots,B}_{n}\subseteq \mathcal{A}$ are ***independent*** if: $$\mathbb{P}(A_{1}\cap A_{2}\cap\dots \cap A_{n})=\prod_{i\in[n]}^{}\mathbb{P}(A_{i}),\quad \forall A_{i}\in \mathcal{B}_{i}$$
 > 3. [[Random Variable|Random variables]] $X_{1},..,X_{n}$ taking values in $(E_{i},\mathcal{E}_{i})$ are ***independent*** if $\sigma(X_1),\dots,\sigma(X_{n})$ are independent, i.e. $$\mathbb{P}(X_{1}\in F_{1},\dots,X_{n}\in F_{n})=\mathbb{P}(X_{1}\in F_{1})\dots \mathbb{P}(X_{n}\in F_{n}),\quad \forall F_{i}\in \mathcal{E}_{i}$$
+
+^48b93f
+
 - **Remark**: Pairwise independence is not enough to guarantee independence.
 - **Remark**: if $\mathcal{B}_{1},\dots,\mathcal{B}_{n}\subseteq \mathcal{A}$ are independent, $X_{1},\dots,X_{n}$ are independent if $X_{i}$ is $\mathcal{B}_{i}$-measurable.
 ---
