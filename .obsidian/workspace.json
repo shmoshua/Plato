@@ -66,7 +66,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Lebesgue Integral.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
@@ -205,11 +205,11 @@
   },
   "active": "d7b625245901b5cb",
   "lastOpenFiles": [
-    "Measure Theory/Lebesgue Integral.md",
+    "Probability Theory/Expected Value.md",
     "Probability Theory/Conditional Probability.md",
+    "Measure Theory/Lebesgue Integral.md",
     "Measure Theory/Positive Measure.md",
     "Probability Theory/Random Variable.md",
-    "Probability Theory/Expected Value.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Convolution (Measure).md",
     "Functional Analysis/Fourier Transform.md",
