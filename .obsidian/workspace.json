@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Density.md",
+                "file": "Probability Theory/Regular Conditional Probability.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Probability Theory/Regular Conditional Probability.md",
                 "mode": "preview",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Density.md",
+                "file": "Probability Theory/Conditional Probability.md",
                 "mode": "preview",
                 "source": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Probability Theory/Regular Conditional Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Probability Theory/Regular Conditional Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md"
+                "file": "Probability Theory/Regular Conditional Probability.md"
               }
             }
           }
@@ -269,17 +269,18 @@
   },
   "active": "dbafe6c5d0ef920e",
   "lastOpenFiles": [
-    "Probability Theory/Density.md",
     "Probability Theory/Conditional Probability.md",
+    "Probability Theory/Regular Conditional Probability.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Expected Value.md",
     "Probability Theory/Random Variable.md",
+    "Probability Theory/Density.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Distribution.md",
     "Probability Theory/Probability Space.md",
     "Probability Theory/Covariance.md",
     "Probability Theory/Independence.md",
     "Courses/Probabilistic AI",
-    "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Integral.md",
     "Measure Theory/Positive Measure.md",
     "Probability Theory/Convolution (Measure).md",
@@ -295,7 +296,6 @@
     "Probabilistic Methods/Bayes Decision.md",
     "Probability Theory/Distribution Function.md",
     "Advanced Algorithms/Bin-Packing.md",
-    "Advanced Algorithms/Knapsack.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
