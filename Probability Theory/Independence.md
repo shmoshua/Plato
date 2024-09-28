@@ -72,9 +72,12 @@
 > 1. $\mathcal{B}_{1}$ and $\mathcal{B}_{2}$ are independent if and only if $$\mathbb{E}[\mathbb{1}_{B}|\mathcal{B}_{1}]=\mathbb{P}(B),\quad \forall B\in \mathcal{B}_{2}$$
 > 2. if $\mathcal{B}_{1}$ and $\mathcal{B}_{2}$ are independent, for every non-negative $\mathcal{B}_{2}$-measurable random variable $X$ and for every $X\in L^1(\Omega,\mathcal{B}_{2},\mathbb{P})$, $$\mathbb{E}[X|\mathcal{B}_{1}]=\mathbb{E}[X]$$
 
-> [!proof]+
-> 
-
+> [!proof]-
+> We have:
+> 1. The forward direction is shown in 2. Conversely, if $\mathbb{E}[\mathbb{1}_{B}|\mathcal{B}_{1}]=\mathbb{P}(\mathcal{B})$ for all $B\in \mathcal{B}_{2}$, then for all $A\in \mathcal{B}_{1}$ and $B\in \mathcal{B}_{2}$, $$\mathbb{P}(A\cap B)=\mathbb{E}[\mathbb{1}_{A}\mathbb{1}_{B}]=\mathbb{E}[\mathbb{1}_{A}\mathbb{E}[\mathbb{1}_{B}|\mathcal{B}_{1}]]=\mathbb{E}[\mathbb{1}_{A}\cdot \mathbb{P}(B)]=\mathbb{P}(A)\cdot \mathbb{P}(B)$$which shows the independence.
+> 2. Let $\mathcal{B}_{1}$ and $\mathcal{B}_{2}$ be independent. Let $X$ be a non-negative $\mathcal{B}_{2}$-measurable random variable. Then, for every non-negative $\mathcal{B}_{1}$-measurable random variable $Z$, $Z$ and $X$ are independent and thus: $$\mathbb{E}[ZX]=\mathbb{E}[Z]\mathbb{E}[X]=\mathbb{E}[Z\mathbb{E}[X]]$$Therefore, $\mathbb{E}[X]=\mathbb{E}[X|\mathcal{B}_{1}]$. If $X$ is integrable, by setting $X=X^+-X^-$, we get the same result.
+- **Corollary**:  Two real random variables $X,Y$ are independent if and only if for every Borel $h:\mathbb{R}\to \mathbb{R}$ s.t. $\mathbb{E}[\left| h(X) \right|]<\infty$, $$\mathbb{E}[h(X)|Y]=\mathbb{E}[h(X)]$$
+- **Corollary**: if $X,Y$ are independent $\mathbb{E}[X|Y]=\mathbb{E}[X]$. But the converse is not always true. 
 ---
 ##### Examples
 ##### Non-Examples
