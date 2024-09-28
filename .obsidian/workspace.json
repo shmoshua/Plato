@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Probability Theory/Density.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -267,16 +267,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d03eddd02fbb312a",
+  "active": "9da8a5f9e82b9325",
   "lastOpenFiles": [
+    "Probability Theory/Conditional Probability.md",
+    "Probability Theory/Regular Conditional Probability.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Density.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Probability Theory/Characteristic Function.md",
-    "Probability Theory/Regular Conditional Probability.md",
-    "Probability Theory/Conditional Probability.md",
     "Probability Theory/Expected Value.md",
+    "Probability Theory/Variance.md",
+    "Algebra/Variety.md",
+    "Probability Theory/Characteristic Function.md",
     "Probability Theory/Random Variable.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Distribution.md",
     "Probability Theory/Probability Space.md",
     "Probability Theory/Covariance.md",
@@ -288,8 +290,6 @@
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Convolution.md",
     "Measure Theory/Product Measure.md",
-    "Probability Theory/Variance.md",
-    "Algebra/Variety.md",
     "Analysis/Fourier Transform (Rn).md",
     "Probability Theory/Moment.md",
     "Analysis/Symmetric Positive Definite Matrices.md",

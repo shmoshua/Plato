@@ -31,7 +31,24 @@
 > [!lemma] Proposition 2 (Marginals and Conditionals are Gaussian)
 > Let $X:\Omega\to \mathbb{R}^m,Y:\Omega\to \mathbb{R}^n$ s.t. $$(X,Y)\sim \mathcal{N}\left((\mu_{X},\mu_{Y}),\begin{bmatrix}\Sigma_{XX}&\Sigma_{XY}\\\Sigma_{XY}^\top&\Sigma_{YY}\end{bmatrix}\right)$$ where $\mu_{A}:=\mathbb{E}[A]$ and $\Sigma_{AB}:=\text{Cov}(A,B)$ for all $A,B\in \{ X,Y \}$. Then,
 > 1. $X \sim \mathcal{N}(\mu_{X},\Sigma_{XX}), Y\sim \mathcal{N}(\mu_{Y},\Sigma_{YY})$
+> 2. $X|Y=y\sim \mathcal{N}(\mu_{X}+\Sigma_{XY}\Sigma_{YY}^{-1}(y-\mu_{Y}),\Sigma_{XX}-\Sigma_{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top)$
+> 3. 
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. From [[Density|Proposition 1]] we have: $$\begin{align}p_{X}(x)&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma}}\int_{\mathbb{R}^n}\exp\left( -\frac{1}{2}\begin{bmatrix}x-\mu_{X}&y-\mu_{Y}\end{bmatrix}\Sigma ^{-1}\begin{bmatrix}x-\mu_{X}\\y-\mu_{Y}\end{bmatrix}\right)  \, dy \\&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma_{XX}\det(\Sigma_{YY}-\Sigma_{XY}^\top\Sigma_{XX}^{-1}\Sigma_{XY}) }}\int_{\mathbb{R}^n}^{}  \, dx \end{align}$$
+---
+> [!lemma] Proposition 3 (Basic Operations of Gaussian is Gaussian)
+> Let $X \sim \mathcal{N}(\mu,\Sigma)$. Then, for a matrix $M$:
+> 1. $MX\sim \mathcal{N}(M\mu,M\Sigma M^\top)$
+> 2. for $X' \sim \mathcal{N}(\mu',\Sigma')$ s.t. $X,X'$ are independent, $X+X' \sim \mathcal{N}(\mu+\mu',\Sigma+\Sigma')$
+
+> [!proof]-
+> We have: 
+> 1. Let $Y:=MX$. Then, we have that:
+> 	1. $\mathbb{E}[MX]=M\mathbb{E}[X]=M\mu$ and
+> 	2. $\text{Var}(MX)=\mathbb{E}[(MX-M\mu)(MX-M\mu)^\top]=M\text{Var}(X)M^\top=M\Sigma M^\top$
+>     
+>     We show that it is normally distributed when $M$ is invertible.
+> 	  
+> 	  $$\begin{align}\mathbb{E}[f(MX)]&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma }}\int_{\mathbb{R}^d}f(Mx)  \exp\left( -\frac{1}{2}(x-\mu)^\top\Sigma ^{-1}(x-\mu) \right)\, dx\\&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma }}\cdot  \frac{1}{\left| \det M \right| }\int_{\mathbb{R}^d}f(x)  \exp\left( -\frac{1}{2}(M ^{-1}x-\mu)^\top\Sigma ^{-1}(M ^{-1}x-\mu) \right)\, dx\\&=\frac{1}{\sqrt{ (2\pi)^d \det(M\Sigma M^\top) }}\cdot \int_{\mathbb{R}^d}f(x)  \exp\left( -\frac{1}{2}(x-M\mu)^\top (M\Sigma M^\top)^{-1}(x-M\mu) \right)\, dx\\&\end{align} $$This proves the statement.
+---
