@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "Machine Learning/Maximal Likelihood Estimation.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "Machine Learning/Maximal Likelihood Estimation.md",
                 "mode": "preview",
                 "source": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "Machine Learning/Maximal Likelihood Estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "Machine Learning/Maximal Likelihood Estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Linear Regression.md"
+                "file": "Machine Learning/Maximal Likelihood Estimation.md"
               }
             }
           }
@@ -267,10 +267,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "dbafe6c5d0ef920e",
+  "active": "4ee8b5e6327a49bb",
   "lastOpenFiles": [
-    "Probability Theory/Independence.md",
     "Machine Learning/Linear Regression.md",
+    "Machine Learning/Maximal Likelihood Estimation.md",
+    "Probability Theory/Independence.md",
     "Untitled",
     "Probability Theory/Regular Conditional Probability.md",
     "Probability Theory/Density.md",
@@ -296,7 +297,6 @@
     "Probability Theory/Moment.md",
     "Analysis/Symmetric Positive Definite Matrices.md",
     "Probabilistic Methods/Bayes Decision.md",
-    "Probability Theory/Distribution Function.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
