@@ -48,8 +48,22 @@
 > 3. $\mathbb{E}[\mathbb{E}[X | \mathcal{B}]]=\mathbb{E}[X]$
 > 4. $\left| \mathbb{E}[X|\mathcal{B}] \right|\leq \mathbb{E}[\left| X \right| |\mathcal{B}]$ and $\mathbb{E}[\left| \mathbb{E}[X|\mathcal{B}] \right|]\leq \mathbb{E}[\left| X \right|]$
 > 5. for $X'\in L^1(\Omega,\mathcal{A},\mathbb{P})$ if $X'\geq X$, then $\mathbb{E}[X'|\mathcal{B}]\geq \mathbb{E}[X|\mathcal{B}]$ almost surely.
+> 6. if $Y$ is a $\mathcal{B}$-measurable real random variable, $\mathbb{E}[YX|\mathcal{B}]=Y\mathbb{E}[X|\mathcal{B}]$
+> 	1. if $X,Y$ are both non-negative or
+> 	2. if $X,YX$ are both integrable.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. As $X$ is $\mathcal{B}$-measurable, $X\in L^1(\Omega,\mathcal{B},\mathbb{P})$ and it holds by uniqueness of $\mathbb{E}[X|\mathcal{B}]$.
-> 2. Let $X,X'\in L^1(\Omega,\mathcal{A},\mathbb{P})$ and $\alpha\in \mathbb{R}$. Then, $$\begin{align}\mathbb{E}[(\alpha X+X')\cdot \mathbb{1}_{B}]&=\alpha \mathbb{E}[X\cdot \mathbb{1}_{B}]+\mathbb{E}[X'\cdot \mathbb{1}_{B}]\\&=\alpha \mathbb{E}[\mathbb{E}[X|\mathcal{B}]\cdot \mathbb{1}_{B}]+[\mathbb{E}[X'|\mathcal{B}]\cdot \mathbb{1}_{B}]\\&=\mathbb{E}[(\alpha)]\end{align}$$
+> 2. Let $X,X'\in L^1(\Omega,\mathcal{A},\mathbb{P})$ and $\alpha\in \mathbb{R}$. Then, $$\begin{align}\mathbb{E}[(\alpha X+X')\cdot \mathbb{1}_{B}]&=\alpha \mathbb{E}[X\cdot \mathbb{1}_{B}]+\mathbb{E}[X'\cdot \mathbb{1}_{B}]\\&=\alpha \mathbb{E}[\mathbb{E}[X|\mathcal{B}]\cdot \mathbb{1}_{B}]+[\mathbb{E}[X'|\mathcal{B}]\cdot \mathbb{1}_{B}]\\&=\mathbb{E}[(\alpha \mathbb{E}[X|\mathcal{B}]+\mathbb{E}[X'|\mathcal{B}])\cdot \mathbb{1}_{B}]\end{align}$$
+> 3. Use $B=\Omega$ on the property.
+> 4. From Proposition 2.3, $$\left| \mathbb{E}[X|\mathcal{B}] \right| \leq \mathbb{E}[X^+|\mathcal{B}]+\mathbb{E}[X^-|\mathcal{B}]=\mathbb{E}[\left| X \right| | \mathcal{B} ]$$
+> 5. By linearity.
+> 6. If $X,Y\geq 0$, then for every non-negative $\mathcal{B}$-measurable random variable, $$\mathbb{E}[Z(Y\mathbb{E}[X|\mathcal{B}])]=\mathbb{E}[(ZY)\mathbb{E}[X|\mathcal{B}]]=\mathbb{E}[ZYX]$$If $X,YX$ are both integrable, we can use the decomposition $X=X^+ -X^-$.
+---
+> [!lemma] Proposition 4 (Nested $\sigma$-algebras)
+> Let $\mathcal{B}_{1},\mathcal{B}_{2}$ be two sub-$\sigma$-algebras of $\mathcal{A}$ s.t. $\mathcal{B}_{1}\subseteq \mathcal{B}_{2}$. Then, for every non-negative or integrable random variable $X$,  $$\mathbb{E}[\mathbb{E}[X|\mathcal{B}_{2}]|\mathcal{B}_1]=\mathbb{E}[X|\mathcal{B}_{1}]=\mathbb{E}[\mathbb{E}[X|\mathcal{B}_{1}]|\mathcal{B}_2]$$
+
+> [!proof]-
+> Consider the case when $X\geq 0$. Let $Z$ be a non-negative $\mathcal{B}_{1}$ measurable random variable. Then, since $Z$ is also $\mathcal{B}_{2}$-measurable, $$\mathbb{E}[Z\cdot \mathbb{E}[\mathbb{E}[X|\mathcal{B}_{2}]|\mathcal{B}_{1}]]=\mathbb{E}[Z \cdot \mathbb{E}[X|\mathcal{B}_{2}]]=\mathbb{E}[ZX]$$Hence, by uniqueness we have that $\mathbb{E}[\mathbb{E}[X|\mathcal{B}_{2}]|\mathcal{B}_{1}]=\mathbb{E}[X|\mathcal{B}_{1}]$.
+---

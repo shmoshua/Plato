@@ -33,15 +33,19 @@
             }
           },
           {
-            "id": "48ca01d7448f97c8",
+            "id": "541cbc9265fdb50e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Independence.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -66,13 +70,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Probability Theory/Independence.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Probability Theory/Independence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Probability Theory/Independence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md"
+                "file": "Probability Theory/Independence.md"
               }
             }
           }
@@ -203,14 +208,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d7b625245901b5cb",
+  "active": "541cbc9265fdb50e",
   "lastOpenFiles": [
-    "Probability Theory/Expected Value.md",
     "Probability Theory/Conditional Probability.md",
+    "Probability Theory/Independence.md",
+    "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Integral.md",
     "Measure Theory/Positive Measure.md",
     "Probability Theory/Random Variable.md",
-    "Probability Theory/Independence.md",
     "Probability Theory/Convolution (Measure).md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Convolution.md",

@@ -64,8 +64,17 @@
 > [!lemma] Theorem 5 (Weak Law of Large Numbers)
 > Let $(X_{n})_{n}$ be a sequence of i.i.d real random variables in $L^2$. Then, $$\frac{1}{n}(X_{1}+\dots+X_{n})\overset{ L^2 }{ \underset{ n\to \infty }{ \longrightarrow } }\mathbb{E}[X_{1}]$$
 
-> [!proof]+
+> [!proof]-
 > By linearity, we have that: $$\mathbb{E}\left[ \frac{1}{n}(X_{1}+\dots+X_{n}) \right]=\mathbb{E}[X_{1}]$$Furthermore, by proposition 4, $\text{Var}(X_{1}+\dots+X_{n})=n\text{Var}(X_{1})$. Therefore, $$\mathbb{E}\left[ \left( \frac{X_{1}+\dots X_{n}}{n}-\mathbb{E}[X_{1}] \right) ^{2} \right]=\frac{1}{n^{2}}\text{Var}(X_{1}+\dots +X_{n})=\frac{\text{Var}(X_{1})}{n}\to 0 $$
+---
+> [!lemma] Theorem 6 (Conditional Expectation and Independence)
+> Let $\mathcal{B}_{1},\mathcal{B}_{2}\subseteq \mathcal{A}$ be two $\sigma$-subalgebras. Then,
+> 1. $\mathcal{B}_{1}$ and $\mathcal{B}_{2}$ are independent if and only if $$\mathbb{E}[\mathbb{1}_{B}|\mathcal{B}_{1}]=\mathbb{P}(B),\quad \forall B\in \mathcal{B}_{2}$$
+> 2. if $\mathcal{B}_{1}$ and $\mathcal{B}_{2}$ are independent, for every non-negative $\mathcal{B}_{2}$-measurable random variable $X$ and for every $X\in L^1(\Omega,\mathcal{B}_{2},\mathbb{P})$, $$\mathbb{E}[X|\mathcal{B}_{1}]=\mathbb{E}[X]$$
+
+> [!proof]+
+> 
+
 ---
 ##### Examples
 ##### Non-Examples
