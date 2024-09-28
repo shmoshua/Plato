@@ -66,7 +66,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Measure Theory/Lebesgue Integral.md",
                 "mode": "preview",
                 "source": true
               }
@@ -118,7 +118,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -202,9 +203,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9da8a5f9e82b9325",
+  "active": "d7b625245901b5cb",
   "lastOpenFiles": [
+    "Measure Theory/Lebesgue Integral.md",
     "Probability Theory/Conditional Probability.md",
+    "Measure Theory/Positive Measure.md",
     "Probability Theory/Random Variable.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Independence.md",
@@ -228,8 +231,6 @@
     "Advanced Algorithms/Knapsack.md",
     "Advanced Algorithms/FPTAS.md",
     "Advanced Algorithms/Monotone Submodular Maximization.md",
-    "Advanced Algorithms/PTAS.md",
-    "Advanced Algorithms/Approximation Algorithm.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
