@@ -27,4 +27,5 @@
 
 ---
 > [!lemma] Proposition 2
-> 
+> Let $X:\Omega\to \mathbb{R}^m,Y:\Omega\to \mathbb{R}^n$ s.t. $$(X,Y)\sim \mathcal{N}\left((\mu_{X},\mu_{Y}),\begin{bmatrix}\Sigma_{XX}&\Sigma_{XY}\\\Sigma_{XY}&\Sigma_{YY}\end{bmatrix}\right)$$ where $\mu_{A}:=\mathbb{E}[A]$ and $\Sigma_{AB}:=\text{Cov}(A,B)$ for all $A,B\in \{ X,Y \}$. Then,
+> 1. $p(x)$

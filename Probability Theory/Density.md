@@ -15,3 +15,6 @@
 > Let $\pi_{j}:\mathbb{R}^d\to \mathbb{R}$ be the $j$-th projection. Then, by Fubini, for every Borel function $f:\mathbb{R}\to \mathbb{R}_{\geq 0}$, $$\begin{align}\mathbb{E}[f(X_{j})]&=\mathbb{E}[f(\pi_{j}(X))]\\&=\int_{\mathbb{R}^d}f(x_{j}) p(x_{1},..,x_{d}) \, dx_{1}\dots dx_{d}\\&=\int_{\mathbb{R}}f(x_{j}) \left( \int_{\mathbb{R}^{d-1}}^{\infty} p(x_{1},\dots,x_{d}) \, dx_{1}\dots \widehat{dx_{j}}\dots dx_{d} \right)dx_{j}\\&=\int_{\mathbb{R}}^{} f(x_{j})p_{j}(x_{j}) \, dx_{j}  \end{align}$$
 > 
 - **Remark**: the density is well-defined by Fubini, i.e. $\{ x\in \mathbb{R}:p_{j}(x)=+\infty \}$ is zero measure and we can readily change the probability density there. 
+---
+> [!lemma] Proposition 2
+> We have: $$\mathbb{P}_{}$$
