@@ -18,3 +18,6 @@
 ---
 > [!lemma] Proposition 2
 > We have: $$\mathbb{P}_{}$$
+
+> [!proof]+
+> For every Borel function $f:\mathbb{R}^d\to \mathbb{R}_{>0}$ and $B\in \sigma(Y)$: $$\begin{align}\mathbb{E}[\mathbb{E}[f(X)|Y]\cdot \mathbb{1}_{B}]&=\mathbb{E}[f(X)\cdot \mathbb{1}_{B}]\\&=\int_{B}f(x)p(x) \, dx \end{align}$$
