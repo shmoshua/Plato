@@ -1,5 +1,7 @@
 #Definition #ML 
 
 > [!definition]
-> Let $\Theta$ be a set and $\theta:\Omega\to \Theta$ be a [[random variable]] called ***parameter***. For another real random variable $X:\Omega\to \mathbb{R}^d$ called ***observation***,
-> 1. the ***maximal likelihood estimation*** is to find: $$\phi_{\text{MLE}}\in \underset{ \phi\in \Theta }{ \arg\min }\ \log p_{X|\theta}(x|\phi) $$
+> Let $\{ P_{\theta} \}_{\theta\in \Theta}$ be a set of [[Distribution|distributions]] on a probability space $(\Omega,\mathcal{A},\mathbb{P})$ with [[Density|densities]] $f_{\theta}$. Let $X\sim P_{\theta_{0}}$ where $\theta_{0}\in \Theta$ denotes the true distribution. 
+> 1. the ***maximal likelihood estimation*** is to find: $$\widehat{\theta}\in \underset{ \theta\in \Theta }{ \arg\max }\ f(X|\theta) $$
+- **Remark**: We have that $\underset{ \theta\in \Theta }{ \arg\max }\ f(X|\theta)=\underset{ \theta\in \Theta }{ \arg\max } \log f(X|\theta)$.
+---
