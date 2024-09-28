@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Characteristic Function.md",
+                "file": "Probability Theory/Density.md",
                 "mode": "preview",
                 "source": true
               }
@@ -267,15 +267,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "277ab68fe3e76309",
+  "active": "d03eddd02fbb312a",
   "lastOpenFiles": [
-    "Probability Theory/Characteristic Function.md",
+    "Probability Theory/Density.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Characteristic Function.md",
     "Probability Theory/Regular Conditional Probability.md",
     "Probability Theory/Conditional Probability.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Random Variable.md",
-    "Probability Theory/Density.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Distribution.md",
     "Probability Theory/Probability Space.md",

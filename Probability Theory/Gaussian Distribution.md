@@ -28,7 +28,10 @@
 > 4. First, we show it for $X \sim \mathcal{N}(0,I)$. Then, we have: $$\begin{align}\Phi_{X}(\xi)&=\mathbb{E}[\exp(i\xi^\top X)]\\&=\frac{1}{\sqrt{ (2\pi)^d}}\int_{\mathbb{R}^d}\exp\left( i\xi^\top x-\frac{1}{2}x^\top x \right)  \, dx \\&=\frac{1}{\sqrt{ (2\pi)^d}}\int_{\mathbb{R}^d}\exp\left( i\sum_{i=1}^{d}\xi_{i}x_{i}-\frac{1}{2}\sum_{i=1}^{d}x_{i}^{2}\right)  \, dx\\&=\prod_{i=1}^{d}\int_{\mathbb{R}} \frac{1}{\sqrt{ 2\pi }}\exp\left( i\xi_{i}x_{i}-\frac{1}{2}x_{i}^{2}\right)  \, dx_{i}\\&=\prod_{i=1}^{d}\exp\left( -\frac{\xi_{i}^{2}}{2} \right) \\&=\exp \left( -\frac{1}{2}\xi^\top \xi \right) \end{align}$$ Now, for a general $X \sim \mathcal{N}(\mu,\Sigma)$, we have that $X=\mu+\sqrt{ \Sigma } Z$ where $Z \sim \mathcal{N}(0,I)$. Therefore, $$\begin{align}\Phi_{X}(\xi)&=\mathbb{E}[\exp(i\xi^\top (\mu+\sqrt{ \Sigma }Z))]\\&=\exp(i\xi^\top\mu)\mathbb{E}[\exp(i\xi^\top\sqrt{ \Sigma }Z)]\\&=\exp(i\xi^\top\mu)\Phi_{Z}(\sqrt{ \Sigma }^\top\xi)\\&=\exp\left( i\xi^\top\mu-\frac{1}{2}\xi^\top\Sigma \xi \right)\end{align}$$
 
 ---
-> [!lemma] Proposition 2
-> Let $X:\Omega\to \mathbb{R}^m,Y:\Omega\to \mathbb{R}^n$ s.t. $$(X,Y)\sim \mathcal{N}\left((\mu_{X},\mu_{Y}),\begin{bmatrix}\Sigma_{XX}&\Sigma_{XY}\\\Sigma_{XY}&\Sigma_{YY}\end{bmatrix}\right)$$ where $\mu_{A}:=\mathbb{E}[A]$ and $\Sigma_{AB}:=\text{Cov}(A,B)$ for all $A,B\in \{ X,Y \}$. Then,
-> 1. $X \sim$
+> [!lemma] Proposition 2 (Marginals and Conditionals are Gaussian)
+> Let $X:\Omega\to \mathbb{R}^m,Y:\Omega\to \mathbb{R}^n$ s.t. $$(X,Y)\sim \mathcal{N}\left((\mu_{X},\mu_{Y}),\begin{bmatrix}\Sigma_{XX}&\Sigma_{XY}\\\Sigma_{XY}^\top&\Sigma_{YY}\end{bmatrix}\right)$$ where $\mu_{A}:=\mathbb{E}[A]$ and $\Sigma_{AB}:=\text{Cov}(A,B)$ for all $A,B\in \{ X,Y \}$. Then,
+> 1. $X \sim \mathcal{N}(\mu_{X},\Sigma_{XX}), Y\sim \mathcal{N}(\mu_{Y},\Sigma_{YY})$
 
+> [!proof]+
+> We have:
+> 1. From [[Density|Proposition 1]] we have: $$\begin{align}p_{X}(x)&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma}}\int_{\mathbb{R}^n}\exp\left( -\frac{1}{2}\begin{bmatrix}x-\mu_{X}&y-\mu_{Y}\end{bmatrix}\Sigma ^{-1}\begin{bmatrix}x-\mu_{X}\\y-\mu_{Y}\end{bmatrix}\right)  \, dy \\&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma_{XX}\det(\Sigma_{YY}-\Sigma_{XY}^\top\Sigma_{XX}^{-1}\Sigma_{XY}) }}\int_{\mathbb{R}^n}^{}  \, dx \end{align}$$
