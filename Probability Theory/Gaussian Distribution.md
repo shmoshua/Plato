@@ -32,7 +32,6 @@
 > Let $X:\Omega\to \mathbb{R}^m,Y:\Omega\to \mathbb{R}^n$ s.t. $$(X,Y)\sim \mathcal{N}\left((\mu_{X},\mu_{Y}),\begin{bmatrix}\Sigma_{XX}&\Sigma_{XY}\\\Sigma_{XY}^\top&\Sigma_{YY}\end{bmatrix}\right)$$ where $\mu_{A}:=\mathbb{E}[A]$ and $\Sigma_{AB}:=\text{Cov}(A,B)$ for all $A,B\in \{ X,Y \}$. Then,
 > 1. $X \sim \mathcal{N}(\mu_{X},\Sigma_{XX}), Y\sim \mathcal{N}(\mu_{Y},\Sigma_{YY})$
 > 2. $X|Y=y\sim \mathcal{N}(\mu_{X}+\Sigma_{XY}\Sigma_{YY}^{-1}(y-\mu_{Y}),\Sigma_{XX}-\Sigma_{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top)$
-> 3. 
 
 > [!proof]-
 > We have:

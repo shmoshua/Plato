@@ -62,14 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Regular Conditional Probability.md",
+                "file": "Machine Learning/Linear Regression.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Density.md",
+                "file": "Machine Learning/Linear Regression.md",
                 "mode": "preview",
                 "source": true
               }
@@ -137,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Machine Learning/Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Machine Learning/Linear Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md"
+                "file": "Machine Learning/Linear Regression.md"
               }
             }
           }
@@ -267,13 +267,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9da8a5f9e82b9325",
+  "active": "dbafe6c5d0ef920e",
   "lastOpenFiles": [
-    "Probability Theory/Conditional Probability.md",
+    "Probability Theory/Independence.md",
+    "Machine Learning/Linear Regression.md",
+    "Untitled",
     "Probability Theory/Regular Conditional Probability.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Density.md",
+    "Probability Theory/Conditional Probability.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Variance.md",
     "Algebra/Variety.md",
@@ -282,7 +285,6 @@
     "Probability Theory/Distribution.md",
     "Probability Theory/Probability Space.md",
     "Probability Theory/Covariance.md",
-    "Probability Theory/Independence.md",
     "Courses/Probabilistic AI",
     "Measure Theory/Lebesgue Integral.md",
     "Measure Theory/Positive Measure.md",
@@ -295,7 +297,6 @@
     "Analysis/Symmetric Positive Definite Matrices.md",
     "Probabilistic Methods/Bayes Decision.md",
     "Probability Theory/Distribution Function.md",
-    "Advanced Algorithms/Bin-Packing.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
@@ -304,7 +305,6 @@
     "Courses/Markov Processes",
     "Markov Processes",
     "Courses/Commutative Algebra",
-    "Advanced Algorithms",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
