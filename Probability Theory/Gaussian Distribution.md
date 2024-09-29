@@ -16,6 +16,8 @@
 > 3. $\text{Var}[X]=\Sigma$
 > 4. the [[characteristic function]] is given by: $$\Phi_{X}(\xi):=\exp \left( i \xi^\top\mu-\frac{1}{2}\xi^\top\Sigma \xi \right) $$
 
+^6f6281
+
 > [!proof]-
 > We have that:
 > 1. As $\Sigma$ is SPD, we have an eigendecomposition $\Sigma=USU^\top$ where $U$ is orthogonal and $S=\text{diag}(s_{1},\dots,s_{d})$. Then, as $\Sigma$ is SPD, $s_{1},\dots,s_{d}>0$ and $\Sigma ^{-1}=US^{-1}U^\top$ is well defined. Set $y:=x-\mu$ we have that $$(x-\mu)^\top\Sigma ^{-1}(x-\mu)=y^\top US^{-1}\underbrace{ U^\top y }_{ =:z }=z^\top S^{-1}z=\frac{z_{1}^{2}}{s_{1}}+\dots+\frac{z_{d}^{2}}{s_{d}}$$Therefore, 
@@ -27,11 +29,15 @@
 >    Therefore, $\mathbb{E}[ZZ^\top]=S$ and $\mathbb{V}[X]=USU^\top=\Sigma$.
 > 4. First, we show it for $X \sim \mathcal{N}(0,I)$. Then, we have: $$\begin{align}\Phi_{X}(\xi)&=\mathbb{E}[\exp(i\xi^\top X)]\\&=\frac{1}{\sqrt{ (2\pi)^d}}\int_{\mathbb{R}^d}\exp\left( i\xi^\top x-\frac{1}{2}x^\top x \right)  \, dx \\&=\frac{1}{\sqrt{ (2\pi)^d}}\int_{\mathbb{R}^d}\exp\left( i\sum_{i=1}^{d}\xi_{i}x_{i}-\frac{1}{2}\sum_{i=1}^{d}x_{i}^{2}\right)  \, dx\\&=\prod_{i=1}^{d}\int_{\mathbb{R}} \frac{1}{\sqrt{ 2\pi }}\exp\left( i\xi_{i}x_{i}-\frac{1}{2}x_{i}^{2}\right)  \, dx_{i}\\&=\prod_{i=1}^{d}\exp\left( -\frac{\xi_{i}^{2}}{2} \right) \\&=\exp \left( -\frac{1}{2}\xi^\top \xi \right) \end{align}$$ Now, for a general $X \sim \mathcal{N}(\mu,\Sigma)$, we have that $X=\mu+\sqrt{ \Sigma } Z$ where $Z \sim \mathcal{N}(0,I)$. Therefore, $$\begin{align}\Phi_{X}(\xi)&=\mathbb{E}[\exp(i\xi^\top (\mu+\sqrt{ \Sigma }Z))]\\&=\exp(i\xi^\top\mu)\mathbb{E}[\exp(i\xi^\top\sqrt{ \Sigma }Z)]\\&=\exp(i\xi^\top\mu)\Phi_{Z}(\sqrt{ \Sigma }^\top\xi)\\&=\exp\left( i\xi^\top\mu-\frac{1}{2}\xi^\top\Sigma \xi \right)\end{align}$$
 
+^6af1ff
+
 ---
 > [!lemma] Proposition 2 (Marginals and Conditionals are Gaussian)
 > Let $X:\Omega\to \mathbb{R}^m,Y:\Omega\to \mathbb{R}^n$ s.t. $$(X,Y)\sim \mathcal{N}\left((\mu_{X},\mu_{Y}),\begin{bmatrix}\Sigma_{XX}&\Sigma_{XY}\\\Sigma_{XY}^\top&\Sigma_{YY}\end{bmatrix}\right)$$ where $\mu_{A}:=\mathbb{E}[A]$ and $\Sigma_{AB}:=\text{Cov}(A,B)$ for all $A,B\in \{ X,Y \}$. Then,
 > 1. $X \sim \mathcal{N}(\mu_{X},\Sigma_{XX}), Y\sim \mathcal{N}(\mu_{Y},\Sigma_{YY})$
 > 2. $X|Y=y\sim \mathcal{N}(\mu_{X}+\Sigma_{XY}\Sigma_{YY}^{-1}(y-\mu_{Y}),\Sigma_{XX}-\Sigma_{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top)$
+
+^e649b0
 
 > [!proof]-
 > We have:
@@ -40,6 +46,8 @@
 > Let $X \sim \mathcal{N}(\mu,\Sigma)$. Then, for a matrix $M$:
 > 1. $MX\sim \mathcal{N}(M\mu,M\Sigma M^\top)$
 > 2. for $X' \sim \mathcal{N}(\mu',\Sigma')$ s.t. $X,X'$ are independent, $X+X' \sim \mathcal{N}(\mu+\mu',\Sigma+\Sigma')$
+
+^061ea5
 
 > [!proof]-
 > We have: 
@@ -50,4 +58,7 @@
 >     We show that it is normally distributed when $M$ is invertible.
 > 	  
 > 	  $$\begin{align}\mathbb{E}[f(MX)]&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma }}\int_{\mathbb{R}^d}f(Mx)  \exp\left( -\frac{1}{2}(x-\mu)^\top\Sigma ^{-1}(x-\mu) \right)\, dx\\&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma }}\cdot  \frac{1}{\left| \det M \right| }\int_{\mathbb{R}^d}f(x)  \exp\left( -\frac{1}{2}(M ^{-1}x-\mu)^\top\Sigma ^{-1}(M ^{-1}x-\mu) \right)\, dx\\&=\frac{1}{\sqrt{ (2\pi)^d \det(M\Sigma M^\top) }}\cdot \int_{\mathbb{R}^d}f(x)  \exp\left( -\frac{1}{2}(x-M\mu)^\top (M\Sigma M^\top)^{-1}(x-M\mu) \right)\, dx\\&\end{align} $$This proves the statement.
+
+^89a1c5
+
 ---

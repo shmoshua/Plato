@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,8 +80,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -94,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Maximum Likelihood Estimation.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "Machine Learning/Aleatoric and Epistemic Uncertainty.md",
                 "mode": "preview",
                 "source": true
               }
@@ -148,8 +147,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Aleatoric and Epistemic Uncertainty.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Aleatoric and Epistemic Uncertainty.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Aleatoric and Epistemic Uncertainty.md"
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
               }
             }
           }
@@ -279,21 +277,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9a5586fb46510eef",
+  "active": "76c1d0f2a0f6ea15",
   "lastOpenFiles": [
-    "Machine Learning/Linear Regression.md",
+    "Probability Theory/Expected Value.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Machine Learning/Maximum Likelihood Estimation.md",
     "Machine Learning/Aleatoric and Epistemic Uncertainty.md",
+    "Machine Learning/Linear Regression.md",
     "Probability Theory/Gaussian Distribution.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
     "Probability Theory/Variance.md",
-    "Machine Learning/Maximum Likelihood Estimation.md",
     "Probability Theory/Conditional Probability.md",
     "Probability Theory/Density.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Independence.md",
     "Untitled",
     "Probability Theory/Regular Conditional Probability.md",
-    "Probability Theory/Expected Value.md",
     "Algebra/Variety.md",
     "Probability Theory/Characteristic Function.md",
     "Probability Theory/Random Variable.md",

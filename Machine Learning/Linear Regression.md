@@ -5,6 +5,9 @@
 >1. ***Linear regression*** is formulated as the optimization problem: $$w^{*}\in \underset{ w\in \mathbb{R}^d }{ \arg\min }\sum_{i=1}^{n} (y_{i}-w^\top x_{i} )^{2}$$
 >2. ***Ridge regression*** is formulated as the regularized optimization problem: $$w^{*}\in \underset{ w\in \mathbb{R}^d }{ \arg\min }\sum_{i=1}^{n}(y_{i}-w^\top x_{i} )^{2}+\lambda \|w\|^{2}_{2}$$where $\lambda>0$. 
 >3. ***Bayesian linear regression (BLR)*** aims to find the whole posterior distribution of $w$, i.e. $$p(w|x_{1},\dots,x_{n},y_{1},\dots,y_{n})$$
+
+^e4d197
+
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Linear Regression)
