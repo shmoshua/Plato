@@ -45,3 +45,28 @@
 ### 2. Linear Regression
 
 ![[Linear Regression#^e4d197]]
+
+---
+#### 2.1 MLE and MAP
+
+![[Maximum Likelihood Estimation#^fe8cee]]
+![[Maximum Likelihood Estimation#^6a1148|q]]
+![[Maximum A Posteriori Estimation#^010b53]]
+![[Maximum A Posteriori Estimation#^935410|q]]
+
+---
+![[Linear Regression#^985e1b]]
+![[Linear Regression#^42a860|p]]
+---
+![[Linear Regression#^ff972b]]
+![[Linear Regression#^c76ffe|p]]
+---
+#### 2.2 Bayesian Decision Theory
+
+![[Linear Regression#^647c71]]
+![[Linear Regression#^8a650d|p]]
+![[Linear Regression#^c649df|q]]
+---
+![[Aleatoric and Epistemic Uncertainty#^265ad5]]
+
+---
