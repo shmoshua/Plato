@@ -39,4 +39,8 @@
 
 > [!proof]+
 > We have: 
-> 1. for some constant $z>0$, the posterior is: $$\begin{align}p(w|x_{1},\dots,x_{n},y_{1},\dots,y_{n})&\propto p(y_{1},\dots,y_{n}|x_{1},\dots,x_{n},w)p(w)\\&=p(w)\prod_{i=1}^{n}p(y_{i}|x_{i},w)\\&=\frac{1}{b\sqrt{ (2\pi)^d }}\exp\left( -\frac{1}{2b ^{2}}\|w\|^2_{2}\right)\prod_{i=1}^{n} \frac{1}{\sqrt{  }}\end{align}$$
+> 1. for some constant $z>0$, the posterior is: $$\begin{align}p(w|x_{1},\dots,x_{n},y_{1},\dots,y_{n})&\propto p(y_{1},\dots,y_{n}|x_{1},\dots,x_{n},w)p(w)\\&=p(w)\prod_{i=1}^{n}p(y_{i}|x_{i},w)\\&=\frac{1}{b\sqrt{ (2\pi)^d }}\exp\left( -\frac{1}{2b ^{2}}\|w\|^2_{2}\right)\prod_{i=1}^{n} \frac{1}{\sigma\sqrt{ 2\pi }} \exp \left( -\frac{1}{2\sigma^{2}}(y_{i}-w^\top x_{i})^{2} \right)\\&\propto \exp \left( -\frac{1}{2b ^{2}}\|w\|^2_{2}-\frac{1}{2\sigma^{2} } \left\| y-Xw \right\| ^{2}_{2}\right)  \end{align}$$Then, $p(w|x_{1},\dots,x_{n},y_{1},\dots,y_{n})\propto \exp \left( -\frac{1}{2}(w-\mu)^\top\Sigma  ^{-1}(w-\mu) \right)$ where: 
+> 	1. $\Sigma:=\left( \frac{1}{\sigma^{2}}X^\top X+\frac{1}{b ^{2}}I \right)^{-1}=\sigma^{2}\left( X^\top X+ \frac{\sigma^{2}}{b ^{2}}I \right)^{-1}$ which is symmetric. 
+> 	2. $\mu:=\frac{1}{\sigma^{2}}\Sigma X^\top y=\left( X^\top X+ \frac{\sigma^{2}}{b ^{2}}I \right)^{-1}X^\top y$.
+> 	   
+>      As: $$\begin{align}(w-\mu)^\top\Sigma ^{-1}(w-\mu)&=\end{align}$$
