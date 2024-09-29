@@ -72,8 +72,12 @@
             "id": "9a5586fb46510eef",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Linear Regression.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ],
@@ -102,6 +106,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Machine Learning/Linear Regression.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "26c505f045b15ef1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
@@ -121,18 +137,6 @@
             }
           },
           {
-            "id": "26c505f045b15ef1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Maximum Likelihood Estimation.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "dc97252912affa1f",
             "type": "leaf",
             "state": {
@@ -145,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,6 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Machine Learning/Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,6 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Machine Learning/Linear Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +254,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Machine Learning/Linear Regression.md"
+              }
             }
           }
         ]
@@ -271,15 +279,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9a5586fb46510eef",
+  "active": "277ab68fe3e76309",
   "lastOpenFiles": [
+    "Probability Theory/Gaussian Distribution.md",
+    "Machine Learning/Linear Regression.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
     "Probability Theory/Conditional Probability.md",
     "Probability Theory/Density.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Machine Learning/Linear Regression.md",
     "Probability Theory/Independence.md",
     "Untitled",
     "Probability Theory/Regular Conditional Probability.md",

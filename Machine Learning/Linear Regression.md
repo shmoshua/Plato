@@ -10,10 +10,12 @@
 > For linear regression, we have:
 > 1. $w_{\text{MLE}}=(X^\top X)^{-1}X^\top y$ where $X=[x_{1}|\dots|x_{n}]^\top\in\mathbb{R}^{n,d}$. 
 > 2. $\sigma^{2}_{\text{MLE}}=\frac{1}{n}\sum_{i=1}^{n}(y_{n}-w^\top x_{n})^{2}$ with unknown $\sigma_{0}$. 
+> 3. $w_{\text{MAP}}= \left( X^\top X+\frac{\sigma^{2}}{b ^{2}}I \right)^{-1}X^\top y$ with Gaussian prior $w_{0} \sim \mathcal{N}(0,b ^{2} I)$.
 
-> [!proof]-
+> [!proof]+
 > We have that:
 > 1. Using [[Maximum Likelihood Estimation|MLE]] we have that $y_{n} \sim \mathcal{N}(w_{0}^\top x_{n},\sigma^{2})$
 >    
 >    $$\begin{align}w_{\text{MLE}}&\in \underset{ w\in \mathbb{R}^d }{ \arg\max }\left(  \log \prod_{i=1}^{n} \frac{1}{\sigma\sqrt{ 2\pi }}\exp\left( -\frac{(y_{n}-w^\top x_{n})^{2}}{2\sigma^{2}} \right)\right)\\&=\underset{ w\in \mathbb{R}^d }{ \arg\min } \sum_{i=1}^{n}  (y_{n}-w^\top x_{n})^{2}\\&=\underset{ w\in \mathbb{R}^d }{ \arg\min } \left\| y-X w \right\|^2_{2} \end{align}$$As we have that: $$ \frac{d\left\| y-X w \right\| ^{2}}{dw} (w_{\text{MLE}}) = -2(w_{\text{MLE}}^\top X^\top -y^\top)X =0$$It follows that $$w_{\text{MLE}}=(X^\top X )^{-1}X^\top y$$
 > 2. Using MLE, we have that: $$\begin{align}\sigma^{2}_{\text{MLE}}&\in \underset{ \sigma^{2}\geq 0 }{ \arg\max }\left(  \log \prod_{i=1}^{n} \frac{1}{\sigma\sqrt{ 2\pi }}\exp\left( -\frac{(y_{n}-w^\top x_{n})^{2}}{2\sigma^{2}} \right)\right)\\&=\underset{ \sigma^{2}\geq 0 }{ \arg\min }\sum_{i=1}^{n} \frac{1}{2}\log  (2\pi\sigma^{2}) +\frac{1}{2\sigma^{2}}(y_{n}-w^\top x_{n})^{2}\\&= \underset{ \sigma^{2}\geq 0}{ \arg\min }\underbrace{ \frac{n}{2}\log  (2\pi\sigma^{2}) +\frac{1}{2\sigma^{2}}\sum_{i=1}^{n} (y_{n}-w^\top x_{n})^{2} }_{ =:\mathcal{L}(w,\sigma^{2}) }\end{align}$$Therefore, $$\frac{\partial \mathcal{L}}{\partial\sigma^{2}}(w,\sigma^{2}_{\text{MLE}})=\frac{n}{2\sigma^{2}_{\text{MLE}}}-\frac{1}{2\sigma^4_{\text{MLE}}}\sum_{i=1}^{n}(y_{n}-w^\top x_{n})^{2}=0$$and $$\sigma^{2}_{\text{MLE}}=\frac{1}{n}\sum_{i=1}^{n}(y_{n}-w^\top x_{n})^{2}$$
+> 3. Using [[Maximum A Posteriori Estimation|MAP]] we have: $$\begin{align}w_{\text{MAP}}&\in\underset{ w }{ \arg\max }\ \log p(x_{1},\dots,x_{n}|w )+\log p(w)\\&=\underset{ w }{ \arg\max }\left( -\frac{1}{2\sigma^{2}}\left\| y-Xw \right\| ^{2}_{2}-\frac{1}{2b ^{2}}\|w\|^{2}_{2} \right)\\&=\underset{ w }{ \arg\min }\underbrace{ \left( \frac{1}{2\sigma^{2}}\left\| y-Xw \right\| ^{2}_{2}+\frac{1}{2b ^{2}}\|w\|^{2}_{2} \right) }_{ \mathcal{L}(w) } \end{align}$$As we have: $$\frac{ \partial \mathcal{L} }{ \partial w } (w_{\text{MAP}})=-\frac{1}{\sigma^{2}}(w_{\text{MAP}}X^\top - y^\top)X-$$
