@@ -34,13 +34,18 @@
 > 2. From Proposition 1.4
 ---
 > [!lemma] Proposition 3 (BLR)
-> For Bayesian linear regression
-> 1. for Gaussian prior $p(w)=\mathcal{N}(0,b ^{2} I)$, the posterior has a closed form
+> For Bayesian linear regression, 
+> 1. for Gaussian prior $p(w)=\mathcal{N}(0,b ^{2} I)$, the posterior has a closed form: $$p(w|x_{1},\dots,x_{n},y_{1},\dots,y_{n})\in \mathcal{N}\left(\left( X^\top X+ \frac{\sigma^{2}}{b ^{2}}I \right)^{-1}X^\top y,\sigma^{2}\left( X^\top X+ \frac{\sigma^{2}}{b ^{2}}I \right)^{-1}\right)$$
+> 2. let $p(w|x_{1:n},y_{1:n})\in \mathcal{N}(\mu,\Sigma)$. Then, for a new point $x^{*}\in \mathbb{R}^d$, we have that:
+> 	1. $p(w^\top x^{*}|x_{1:n},y_{1:n},x^{*})=\mathcal{N}(\mu^\top x^{*},x^{*\top}\Sigma x^{*})$
+> 	2. $p(y^{*}|x_{1:n},y_{1:n},x^{*})=\mathcal{N}(\mu^\top x^{*},x^{*\top}\Sigma x^{*}+\sigma^{2})$
 
-> [!proof]+
+> [!proof]-
 > We have: 
-> 1. for some constant $z>0$, the posterior is: $$\begin{align}p(w|x_{1},\dots,x_{n},y_{1},\dots,y_{n})&\propto p(y_{1},\dots,y_{n}|x_{1},\dots,x_{n},w)p(w)\\&=p(w)\prod_{i=1}^{n}p(y_{i}|x_{i},w)\\&=\frac{1}{b\sqrt{ (2\pi)^d }}\exp\left( -\frac{1}{2b ^{2}}\|w\|^2_{2}\right)\prod_{i=1}^{n} \frac{1}{\sigma\sqrt{ 2\pi }} \exp \left( -\frac{1}{2\sigma^{2}}(y_{i}-w^\top x_{i})^{2} \right)\\&\propto \exp \left( -\frac{1}{2b ^{2}}\|w\|^2_{2}-\frac{1}{2\sigma^{2} } \left\| y-Xw \right\| ^{2}_{2}\right)  \end{align}$$Then, $p(w|x_{1},\dots,x_{n},y_{1},\dots,y_{n})\propto \exp \left( -\frac{1}{2}(w-\mu)^\top\Sigma  ^{-1}(w-\mu) \right)$ where: 
+> 1. for some constant $z>0$, the posterior is: $$\begin{align}p(w|x_{1},\dots,x_{n},y_{1},\dots,y_{n})&\propto p(y_{1},\dots,y_{n}|x_{1},\dots,x_{n},w)p(w)\\&=p(w)\prod_{i=1}^{n}p(y_{i}|x_{i},w)\\&=\frac{1}{b\sqrt{ (2\pi)^d }}\exp\left( -\frac{1}{2b ^{2}}\|w\|^2_{2}\right)\prod_{i=1}^{n} \frac{1}{\sigma\sqrt{ 2\pi }} \exp \left( -\frac{1}{2\sigma^{2}}(y_{i}-w^\top x_{i})^{2} \right)\\&\propto \exp \left( -\frac{1}{2b ^{2}}\|w\|^2_{2}-\frac{1}{2\sigma^{2} } \left\| y-Xw \right\| ^{2}_{2}\right) \\&= \exp \left( - \frac{1}{2}\left( \frac{1}{b ^{2}}w^\top w+\frac{1}{\sigma^{2}}w^\top X^\top Xw-\frac{2}{\sigma^{2}}y^\top Xw+\frac{1}{\sigma^{2}}y^\top y \right)  \right) \\&\propto \exp \left( -\frac{1}{2}\left( w^\top\left( \frac{1}{\sigma^{2}}X^\top X+\frac{1}{b ^{2}}I \right)w-\frac{2}{\sigma^{2}}y^\top X w \right)  \right) \end{align}$$Then, $p(w|x_{1},\dots,x_{n},y_{1},\dots,y_{n})\propto \exp \left( -\frac{1}{2}(w-\mu)^\top\Sigma  ^{-1}(w-\mu) \right)$ where: 
 > 	1. $\Sigma:=\left( \frac{1}{\sigma^{2}}X^\top X+\frac{1}{b ^{2}}I \right)^{-1}=\sigma^{2}\left( X^\top X+ \frac{\sigma^{2}}{b ^{2}}I \right)^{-1}$ which is symmetric. 
 > 	2. $\mu:=\frac{1}{\sigma^{2}}\Sigma X^\top y=\left( X^\top X+ \frac{\sigma^{2}}{b ^{2}}I \right)^{-1}X^\top y$.
-> 	   
->      For $M:=\left( X^\top X+ \frac{\sigma^{2}}{b ^{2}}I \right)$, we have: $$\begin{align}(w-\mu)^\top\Sigma ^{-1}(w-\mu)&=\frac{1}{\sigma^{2}}(w-M^{-1}X^\top y)^\top M(w-M^{-1}X^\top y)\\&=\frac{1}{\sigma^{2}}(w^\top M w-w^\top X^\top y-y^\top X w+y^\top X M^{-1}X^\top y)\\&=\frac{1}{b ^{2}}\|w\|^2_{2}+\frac{1}{\sigma^{2}}(w^\top X^\top Xw-w^\top X^\top y-y^\top Xw+y^\top X M^{-1}X ^\top y)\end{align}$$where $$M^{-1}=\frac{b ^{2}}{\sigma^{2}}\left( I+\frac{b ^{2}}{\sigma^{2}}X^\top X \right)^{-1}=\frac{b^2}{\sigma^{2}}\left( I-\frac{b ^{2}}{\sigma^{2}}X^\top\left( I+\frac{b ^{2}}{\sigma^{2}}XX^\top \right)^{-1} X \right)  $$Therefore, $$\begin{align}y^\top XM  ^{-1}X^\top y&=\frac{b^2}{\sigma^{2}}y^\top X\left( I-\frac{b ^{2}}{\sigma^{2}}X^\top\left( I+\frac{b ^{2}}{\sigma^{2}}XX^\top \right)^{-1} X \right) X^\top y\\&=\frac{b^2}{\sigma^{2}}y^\top X X^\top y-\frac{b ^{4}}{\sigma^{4}}y ^\top XX^\top \left( I+\frac{b ^{2}}{\sigma^{2}}XX^\top \right)^{-1} X  X^\top y\\&=\frac{2b^2}{\sigma^{2}}y^\top X X^\top y-\frac{b^2}{\sigma^{2}}y^\top X X^\top y-\frac{b ^{4}}{\sigma^{4}}y ^\top XX^\top \left( I+\frac{b ^{2}}{\sigma^{2}}XX^\top \right)^{-1} X  X^\top y\end{align}$$
+>     
+>     and $p(w|x_{1},\dots,x_{n},y_{1},\dots,y_{n})\in \mathcal{N}(\mu,\Sigma)$. 
+>  2. Given by [[Gaussian Distribution|Proposition 3]].
+- **Remark**: Notice that MAP estimator estimates the full posterior distribution as a dirac distribution on its maximum. 

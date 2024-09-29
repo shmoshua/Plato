@@ -279,11 +279,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9a5586fb46510eef",
+  "active": "277ab68fe3e76309",
   "lastOpenFiles": [
     "Probability Theory/Gaussian Distribution.md",
-    "Machine Learning/Linear Regression.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
+    "Machine Learning/Linear Regression.md",
+    "Probability Theory/Variance.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
     "Probability Theory/Conditional Probability.md",
     "Probability Theory/Density.md",
@@ -292,7 +293,6 @@
     "Untitled",
     "Probability Theory/Regular Conditional Probability.md",
     "Probability Theory/Expected Value.md",
-    "Probability Theory/Variance.md",
     "Algebra/Variety.md",
     "Probability Theory/Characteristic Function.md",
     "Probability Theory/Random Variable.md",
