@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Density.md",
+                "file": "Machine Learning/Maximum Likelihood Estimation.md",
                 "mode": "source",
                 "source": true
               }
@@ -62,14 +62,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "ML Theory/Maximum A Posteriori Estimation.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "9a5586fb46510eef",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -82,7 +90,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Machine Learning/Maximum Likelihood Estimation.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +114,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "ML Theory/Maximum A Posteriori Estimation.md",
                 "mode": "preview",
                 "source": true
               }
@@ -118,7 +126,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Machine Learning/Maximum Likelihood Estimation.md",
                 "mode": "preview",
                 "source": true
               }
@@ -203,7 +211,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +227,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,9 +248,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Machine Learning/Linear Regression.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -267,17 +271,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "dbafe6c5d0ef920e",
+  "active": "9a5586fb46510eef",
   "lastOpenFiles": [
+    "ML Theory/Maximum A Posteriori Estimation.md",
+    "Machine Learning/Maximum Likelihood Estimation.md",
+    "Probability Theory/Conditional Probability.md",
+    "Probability Theory/Density.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Linear Regression.md",
-    "Probability Theory/Conditional Probability.md",
-    "Machine Learning/Maximal Likelihood Estimation.md",
     "Probability Theory/Independence.md",
     "Untitled",
     "Probability Theory/Regular Conditional Probability.md",
-    "Probability Theory/Density.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Variance.md",
     "Algebra/Variety.md",
@@ -296,7 +301,6 @@
     "Analysis/Fourier Transform (Rn).md",
     "Probability Theory/Moment.md",
     "Analysis/Symmetric Positive Definite Matrices.md",
-    "Probabilistic Methods/Bayes Decision.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
