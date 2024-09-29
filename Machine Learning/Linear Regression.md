@@ -43,4 +43,4 @@
 > 	1. $\Sigma:=\left( \frac{1}{\sigma^{2}}X^\top X+\frac{1}{b ^{2}}I \right)^{-1}=\sigma^{2}\left( X^\top X+ \frac{\sigma^{2}}{b ^{2}}I \right)^{-1}$ which is symmetric. 
 > 	2. $\mu:=\frac{1}{\sigma^{2}}\Sigma X^\top y=\left( X^\top X+ \frac{\sigma^{2}}{b ^{2}}I \right)^{-1}X^\top y$.
 > 	   
->      As: $$\begin{align}(w-\mu)^\top\Sigma ^{-1}(w-\mu)&=\end{align}$$
+>      For $M:=\left( X^\top X+ \frac{\sigma^{2}}{b ^{2}}I \right)$, we have: $$\begin{align}(w-\mu)^\top\Sigma ^{-1}(w-\mu)&=\frac{1}{\sigma^{2}}(w-M^{-1}X^\top y)^\top M(w-M^{-1}X^\top y)\\&=\frac{1}{\sigma^{2}}(w^\top M w-w^\top M^{-1}X^\top y-y^\top X Mw+y^\top X M^{-1}X^\top y)\end{align}$$
