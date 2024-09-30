@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/PRAS.md",
+                "file": "Graph Theory/Cut (Graph).md",
                 "mode": "source",
                 "source": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Distribution.md",
+                "file": "Graph Theory/Cut (Graph).md",
                 "mode": "preview",
                 "source": true
               }
@@ -268,19 +268,20 @@
   },
   "active": "9da8a5f9e82b9325",
   "lastOpenFiles": [
+    "Graph Theory/Cut (Graph).md",
+    "Advanced Algorithms/PRAS.md",
+    "Advanced Algorithms/DNF Counting.md",
+    "Probability Theory/Distribution.md",
     "Advanced Algorithms/Bin-Packing.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
-    "Advanced Algorithms/DNF Counting.md",
     "Logic/Disjunctive Normal Form.md",
     "Untitled.md",
-    "Advanced Algorithms/PRAS.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Logic",
     "Probability Theory/Gaussian Distribution.md",
     "Advanced Algorithms/FPTAS.md",
     "Advanced Algorithms/FPRAS.md",
-    "Probability Theory/Distribution.md",
     "Probability Theory/Expected Value.md",
     "Advanced Algorithms/PTAS.md",
     "Machine Learning/Aleatoric and Epistemic Uncertainty.md",
@@ -295,7 +296,6 @@
     "Algebra/Variety.md",
     "Probability Theory/Characteristic Function.md",
     "Probability Theory/Random Variable.md",
-    "Probability Theory/Probability Space.md",
     "Courses/Probabilistic AI",
     "Courses/Information Theory",
     "Information Theory",

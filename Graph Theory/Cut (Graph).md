@@ -25,3 +25,8 @@
 
 - **Remark**: Maxcut $\geq m / 2+c\sqrt{ m }$. 
 ---
+
+> [!lemma] Theorem (Karger)
+> Let $s$ be the size of the minimal cut set. Then, for all $\alpha\geq 1$, 
+> 1. the number of cut set of size $\leq\alpha s$ is $\leq n^{2\alpha}$
+---
