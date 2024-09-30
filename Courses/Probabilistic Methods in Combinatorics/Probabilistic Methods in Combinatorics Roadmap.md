@@ -28,6 +28,21 @@
 ![[Tournament#^67a465|p]]
 ---
 
+![[Hypergraph#^9201b6]]
+![[Hypergraph#^76aa99|q]]
+![[Hypergraph#^edbb24|q]]
+![[Hypergraph#^fd7276|q]]
+![[Hypergraph#^68e4e2|q]]
+
+---
+![[Hypergraph#^3327ed]]
+
+---
+![[Hypergraph#^ce5313]]
+![[Hypergraph#^f29f34|p]]
+![[Hypergraph#^16c0c2|q]]
+---
+
 > [!lemma] Theorem 2 (Bollobás)
 $(A_{i},B_{i})$ where $1\leq i\leq m$ where $\left| A_{i} \right|=a$ and $\left| B_{i} \right|=b$ s.t. $A_{i}\cap B_{i}=\varnothing$ and $A_{i}\cap B_{j}\neq \varnothing$ for $i\neq j$.  Then, $m\leq{a+b \choose a}$
 

@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilistic Methods/Bayesian Decision.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,8 +80,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -94,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
                 "mode": "preview",
                 "source": true
               }
@@ -136,8 +135,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Hypergraph.md"
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md"
               }
             }
           }
@@ -267,20 +265,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "dc97252912affa1f",
+  "active": "d7b625245901b5cb",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Homework 1.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
+    "Probabilistic Methods/Bayesian Decision.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Graph Theory/Hypergraph.md",
+    "Courses/Probabilistic AI/Homework 1.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
     "Probability Theory/Covariance.md",
     "Machine Learning/Linear Regression.md",
     "Probability Theory/Conditional Probability.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Graph Theory/Cut (Graph).md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
-    "Probabilistic Methods/Bayesian Decision.md",
     "Advanced Algorithms/DNF Counting.md",
     "Advanced Algorithms/PRAS.md",
     "Probability Theory/Distribution.md",
@@ -294,8 +294,6 @@
     "Advanced Algorithms/FPRAS.md",
     "Advanced Algorithms/PTAS.md",
     "Machine Learning/Aleatoric and Epistemic Uncertainty.md",
-    "Probability Theory/Density.md",
-    "Probability Theory/Independence.md",
     "Untitled",
     "Courses/Probabilistic AI",
     "Courses/Information Theory",
