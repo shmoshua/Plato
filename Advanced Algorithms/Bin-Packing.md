@@ -141,10 +141,10 @@
 >  ```pseudo
 >    \begin{algorithm} \caption{FPTAS-BinPacking($I,\varepsilon$)} 
 >    \begin{algorithmic}
->    \State $\varepsilon\gets \min\left\{  \frac{1}{2}, \frac{\varepsilon}{2}  \right\}$
+>    \State $\varepsilon'\gets \min\left\{  \frac{1}{2}, \frac{\varepsilon}{2}  \right\}$
 >    \State $X\gets \{ u\in \mathcal{S}:s_{u}< \varepsilon' \}$
 >    \State $P\gets$ \Call{PTAS-BinPacking}{$\mathcal{S  }\backslash X,\varepsilon'$}
->    \State $P'\gets$Call \Call{FirstFit}{$X$} on $P$ and add items in $X$ to $P$.
+>    \State $P'\gets$ Call \Call{FirstFit}{$X$} on $P$ and add items in $X$ to $P$.
 >    \Return $P'$
 >    \end{algorithmic}
 >    \end{algorithm}
@@ -153,7 +153,14 @@
 
 ^58af47
 
-> [!proof]+
-> 
+> [!proof]-
+> We have:
+> 1. Claim:
+> 	1. Case 1: $\text{FirstFit}$ doesn't open a new bin. Then, $$\left| \text{FPTAS}(I) \right|=\left| \text{PTAS}(I) \right| \leq(1+\varepsilon')\left| \text{OPT}(I) \right| \leq(1+\varepsilon)\left| \text{OPT}(I) \right| $$
+> 	2. Case 2: $\text{FirstFit}$ opens a new bin. Then, let $k:=\left| \text{FPTAS}(I) \right|$. Therefore, we have that $k-1$ bins are at least $(1-\varepsilon')$ full. Therefore, $$\left| \text{OPT}(I) \right| \geq s(\mathcal{S})>(k-1)(1-\varepsilon')$$Hence, $k\leq \frac{\left| \text{OPT}(I) \right|}{1-\varepsilon'}+1\leq(1+2\varepsilon')\left| \text{OPT}(I) \right|+1\leq(1+\varepsilon)\left| \text{OPT}(I) \right|+1$.
+>  
+>  
 
 ^4776b1
+
+---
