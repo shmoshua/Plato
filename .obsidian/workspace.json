@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Advanced Algorithms/DNF Counting.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Maximum A Posteriori Estimation.md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "mode": "source",
                 "source": true
               }
@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Advanced Algorithms/FPRAS.md",
                 "mode": "source",
                 "source": true
               }
@@ -80,8 +80,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -94,8 +93,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/PRAS.md",
-                "mode": "source",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -106,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/PRAS.md",
+                "file": "Advanced Algorithms/DNF Counting.md",
                 "mode": "preview",
                 "source": true
               }
@@ -203,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Advanced Algorithms/DNF Counting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Advanced Algorithms/DNF Counting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Advanced Algorithms/DNF Counting.md"
               }
             }
           }
@@ -267,20 +266,26 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9a5586fb46510eef",
+  "active": "9da8a5f9e82b9325",
   "lastOpenFiles": [
+    "Advanced Algorithms/Bin-Packing.md",
+    "ML Theory/Maximum A Posteriori Estimation.md",
+    "Advanced Algorithms/DNF Counting.md",
+    "Logic/Disjunctive Normal Form.md",
+    "Untitled.md",
     "Advanced Algorithms/PRAS.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Logic",
+    "Probability Theory/Gaussian Distribution.md",
+    "Advanced Algorithms/FPTAS.md",
+    "Advanced Algorithms/FPRAS.md",
     "Probability Theory/Distribution.md",
     "Probability Theory/Expected Value.md",
     "Advanced Algorithms/PTAS.md",
-    "Advanced Algorithms/Bin-Packing.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Machine Learning/Aleatoric and Epistemic Uncertainty.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
     "Machine Learning/Linear Regression.md",
-    "ML Theory/Maximum A Posteriori Estimation.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Conditional Probability.md",
     "Probability Theory/Density.md",
@@ -291,12 +296,7 @@
     "Probability Theory/Characteristic Function.md",
     "Probability Theory/Random Variable.md",
     "Probability Theory/Probability Space.md",
-    "Probability Theory/Covariance.md",
     "Courses/Probabilistic AI",
-    "Measure Theory/Lebesgue Integral.md",
-    "Measure Theory/Positive Measure.md",
-    "Probability Theory/Convolution (Measure).md",
-    "Functional Analysis/Fourier Transform.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
@@ -304,7 +304,6 @@
     "Characteristic Classes",
     "Courses/Markov Processes",
     "Markov Processes",
-    "Courses/Commutative Algebra",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }

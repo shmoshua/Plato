@@ -26,8 +26,8 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 
 ---
 
-#### 1.3 Randomized Approximation Schemes
-##### 1.3.1 PTAS and FPTAS
+
+##### 1.2.1 PTAS and FPTAS
 ![[PTAS#^968d36]]
 
 ---
@@ -35,7 +35,7 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 
 ---
 
-##### 1.3.2 Knapsack
+##### 1.2.2 Knapsack
 
 ![[Knapsack#^675511]]
 ![[Knapsack#^13ab4a]]
@@ -45,7 +45,7 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 ![[Knapsack#^c811f3|p]]
 
 ---
-##### 1.3.3 Bin-Packing
+##### 1.2.3 Bin-Packing
 ![[Bin-Packing#^06f901]]
 ![[Bin-Packing#^d65196|q]]
 ![[Bin-Packing#^a84502|q]]
@@ -56,7 +56,7 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 ![[Bin-Packing#^c04d44]]
 ![[Bin-Packing#^3e5c2c|p]]
 ---
-##### 1.3.3.1 Bin-Packing FPTAS
+##### 1.2.3.1 Bin-Packing FPTAS
 ![[Bin-Packing#^62d5f8]]
 ![[Bin-Packing#^5e1d26|p]]
 
@@ -68,7 +68,24 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 ![[Bin-Packing#^58af47]]
 ![[Bin-Packing#^4776b1|p]]
 
+---
+#### 1.3 Randomized Approximation Schemes
 
+##### 1.3.1 PRAS and FPRAS
 
+![[PRAS#^fecdc3]]
+![[FPRAS#^a1e36b|p]]
+
+---
+![[PRAS#^7bca5c]]
+![[PRAS#^9346bc|p]]
+
+---
+![[PRAS#^858f88]]
+
+---
+##### 1.3.2 DNF Counting
+
+---
 #### 1.4 Rounding Linear Programming Solutions
 ---
