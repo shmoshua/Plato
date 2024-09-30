@@ -67,9 +67,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "305b98f5ab61a4db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Algorithms/Bin-Packing.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -82,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "mode": "preview",
                 "source": true
               }
@@ -202,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Advanced Algorithms/Bin-Packing.md"
               }
             }
           }
@@ -266,10 +278,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d7b625245901b5cb",
+  "active": "305b98f5ab61a4db",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Advanced Algorithms/Bin-Packing.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Machine Learning/Aleatoric and Epistemic Uncertainty.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Expected Value.md",
@@ -295,7 +308,6 @@
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Convolution.md",
     "Measure Theory/Product Measure.md",
-    "Analysis/Fourier Transform (Rn).md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",

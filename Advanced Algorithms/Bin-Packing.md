@@ -77,8 +77,6 @@
 ---
 ##### FPTAS
 
-^a03360
-
 > [!lemma] Proposition 3
 > With the assumptions that:
 > 1. All items have size at least $\varepsilon$ for some $\varepsilon>0$.
@@ -109,7 +107,8 @@
 >    \begin{algorithmic}
 >    \State $k\gets \left\lceil 1/\varepsilon^{2}\right\rceil$
 >    \State $Q\gets \left\lfloor n\varepsilon^{2}\right\rfloor$
->    \State Partition $n$ items into $k$ non-overlapping groups $G_{1},\dots,G_{k}$, each with $\leq Q$ items. 
+>    \State Sort the items by size in ascending order.
+>    \State Partition $n$ items into $k$ non-overlapping groups $G_{1},\dots,G_{k}$, each with $Q$ items in order.
 >    \For{$i\in [k]$}
 >    \State $i_{\text{max}}\gets \max_{u\in G_{i}}s(u)$
 >    \For{$u\in G_{i}$}
@@ -126,10 +125,12 @@
 
 > [!proof]-
 > By the assumption, we have that $\left| \text{OPT}(I) \right|\geq s(I)\geq n\varepsilon$. Then, $Q=\left\lfloor n\varepsilon^{2}\right\rfloor\leq \varepsilon \cdot \left| \text{OPT}(I) \right|$.
-> 1. **Claim 1: $\left| \text{OPT}(I) \right|\leq \left| \text{OPT}(J) \right|\leq \left| \text{OPT}(I) \right|+Q-1$**
->    The first inequality is trivial, as rounding up only increases the number of bins. For the second inequality, denote the items in $I$ in decreasing order by $s_{1}\geq\dots\geq s_{n}$. 
+> 1. **Claim 1: $\left| \text{OPT}(I) \right|\leq \left| \text{OPT}(J) \right|\leq \left| \text{OPT}(I) \right|+Q$**
+>    The first inequality is trivial, as rounding up only increases the number of bins. 
 >    
->    We will pack $J$ by taking the $Q-1$ largest items in $J$ and pack each of them in its own bin. Denote the instance of the remaining $n-Q+1$ items by $J'$. Then, $J'$ can be as most as hard as $I$. Assume that all items in $J$ and $J'$ are also sorted in descending order and consider the $j$-th item in $J'$ for $j\in [n-Q+1]$, which is the $j+Q-1$-th item in $J$. This is obtained by the $j+Q-1$-th item rounding up. The rounding procedure replaced the size $s_{j+Q-1}$ by another size in the same group, so it could increase the item by at most $Q-1$ ‘positions’ to size $s_{j}$. Hence, we have shown that the $j$-th item in $J'$ is at most as large as the $j$-th item in $I$. Therefore, $\left| \text{OPT}(J') \right|\leq \left| \text{OPT}(I) \right|$. Therefore, $$\left| \text{OPT}(J) \right| \leq \left| \text{OPT}(J') \right| +Q-1\leq \left| \text{OPT}(I) \right| +Q-1$$
+>    For the second inequality, let $G_{1},\dots,G_{k}$ be the groups in $I$ before the rounding and $H_{1},\dots,H_{k}$ be the groups in $J$ after the rounding. We will pack $J$ by taking $H_{k}$ and packing each of the items in $H_{k}$ in its own bin. Denote the instance of the remaining $n-Q$ items by $J'$, i.e. $J'$ has $H_{1},\dots,H_{k-1}$. 
+>    
+>    Then, $J'$ can be as most as hard as $I$. Indeed, for all $i\in[k-1]$, we have that for any $v\in H_{i}$, $s(v):=\max_{u\in G_{i}}s(u)\leq s(w)$ for all $w\in G_{i+1}$. Therefore, $$\left| \text{OPT}(J) \right| \leq \left| \text{OPT}(J) \right| +Q\leq \left| \text{OPT}(I) \right| +Q$$
 >  
 >  Then, $$\left| \text{PTAS-BinPacking}(I) \right| =\left| \text{OPT}(J) \right|\leq (1+\varepsilon)\left| \text{OPT}(I) \right| $$
 
