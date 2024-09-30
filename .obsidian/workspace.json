@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/DNF Counting.md",
+                "file": "Probabilistic Methods/Bayesian Decision.md",
                 "mode": "source",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/DNF Counting.md",
+                "file": "Probabilistic Methods/Bayesian Decision.md",
                 "mode": "preview",
                 "source": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Algorithms/DNF Counting.md",
+                "file": "Probabilistic Methods/Bayesian Decision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Algorithms/DNF Counting.md",
+                "file": "Probabilistic Methods/Bayesian Decision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Algorithms/DNF Counting.md"
+                "file": "Probabilistic Methods/Bayesian Decision.md"
               }
             }
           }
@@ -268,9 +268,10 @@
   },
   "active": "9da8a5f9e82b9325",
   "lastOpenFiles": [
+    "Advanced Algorithms/DNF Counting.md",
+    "Probabilistic Methods/Bayesian Decision.md",
     "Graph Theory/Cut (Graph).md",
     "Advanced Algorithms/PRAS.md",
-    "Advanced Algorithms/DNF Counting.md",
     "Probability Theory/Distribution.md",
     "Advanced Algorithms/Bin-Packing.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
@@ -295,7 +296,6 @@
     "Probability Theory/Regular Conditional Probability.md",
     "Algebra/Variety.md",
     "Probability Theory/Characteristic Function.md",
-    "Probability Theory/Random Variable.md",
     "Courses/Probabilistic AI",
     "Courses/Information Theory",
     "Information Theory",
