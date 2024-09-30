@@ -1,0 +1,7 @@
+#Series #PAI 
+
+We have that: $$p(y_{1:n}|\sigma^{2},x_{1:n})=\prod_{i=1}^{n} \frac{1}{\sqrt{ 2\pi\sigma^{2} }}\exp \left( -\frac{(y_{i}-x_{i})^{2}}{2\sigma^{2}} \right) $$and $$\begin{align}p(\sigma^{2}|x_{1:n},y_{1:n})&\propto p(y_{1:n}|\sigma^{2},x_{1:n})p(\sigma^{2})\\&\propto\frac{\beta^\alpha}{\Gamma(\alpha)}\cdot \frac{1}{(\sigma^{2})^{\alpha+n/2+1}}\exp \left( -\frac{\sum_{i=1}^{n}(y_{i}-x_{i})^{2} / 2+\beta}{\sigma^{2}}\right)\\&\propto \text{IG}\left( \alpha+\frac{n}{2},\beta+\frac{1}{2}\sum_{i=1}^{n}(y_{i}-x_{i})^{2} \right)\end{align}$$
+Then, $$\begin{align}\sigma^2_{\text{MAP}}&\in \underset{ \sigma^{2} }{ \arg\max } \frac{1}{(\sigma^2)^{\alpha'}}\exp\left( -\frac{\beta'}{\sigma^{2}} \right)\\&=\underset{ \sigma^{2} }{ \arg\min }\left(  \alpha'\log{(\sigma^2)} +\frac{\beta'}{\sigma^{2}}\right)  \end{align}$$Hence, $\frac{\alpha'}{\sigma^{2}}-\frac{\beta'}{(\sigma^2)^2}=0$ and $\sigma^{2}=\beta' / \alpha'$. 
+
+---
+$$\begin{align}\sigma^{2}_{\text{MLE}}&\in \underset{ \sigma^{2} }{ \arg\max } \frac{1}{\sigma^n}\exp \left( -\frac{\sum_{i=1}^{n}(y_{i}-x_{i})^{2}}{2\sigma^{2}} \right) \\&= \underset{ \sigma^{2} }{ \arg\min } \left( \frac{n}{2}\log\sigma^2 +\frac{\sum_{i=1}^{n}(y_{i}-x_{i})^{2}}{2\sigma^{2}}  \right)\end{align}$$Hence, $\sigma^{2}_{\text{MLE}}=\frac{\sum_{i=1}^{n}(y_{i}-x_{i})^{2}}{n}$
