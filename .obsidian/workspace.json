@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Homework 1.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Homework 1.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "mode": "preview",
                 "source": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic AI/Homework 1.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic AI/Homework 1.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic AI/Homework 1.md"
+                "file": "Graph Theory/Hypergraph.md"
               }
             }
           }
@@ -269,12 +269,13 @@
   },
   "active": "dc97252912affa1f",
   "lastOpenFiles": [
+    "Courses/Probabilistic AI/Homework 1.md",
+    "Graph Theory/Hypergraph.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
     "Probability Theory/Covariance.md",
     "Machine Learning/Linear Regression.md",
     "Probability Theory/Conditional Probability.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Courses/Probabilistic AI/Homework 1.md",
     "Graph Theory/Cut (Graph).md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Variance.md",
@@ -296,7 +297,6 @@
     "Probability Theory/Density.md",
     "Probability Theory/Independence.md",
     "Untitled",
-    "Probability Theory/Regular Conditional Probability.md",
     "Courses/Probabilistic AI",
     "Courses/Information Theory",
     "Information Theory",
