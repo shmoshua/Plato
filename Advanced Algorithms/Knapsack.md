@@ -3,6 +3,8 @@
 > [!definition]
 > Let $\mathcal{S}:=[n]$ with a size function $s:\mathcal{S}\to \mathbb{Z}_{\geq0}$ and a profit function $p:\mathcal{S}\to \mathbb{Z}_{\geq 0}$. Given a budget $B\in \mathbb{Z}$, the **Knapsack problem** $I:=(\mathcal{S},s,p,B)$ aims to find: $$\text{OPT}(I)\in \underset{ J\subseteq \mathcal{S}, \sum_{i\in J}^{}s_{i}\leq B }{ \arg\max }\sum_{i\in J}^{}p_{i}$$
 
+^675511
+
 ^fca662
 - **Related notation**: We extend $s:\mathcal{P}(\mathcal{S})\to \mathbb{Z}_{\geq 0},\mathcal{U}\mapsto \sum_{i\in \mathcal{U}}^{}s_{i}$. Analogously with $p$. 
 - **Remark**: As any $i\in \mathcal{S}$ with $s_{i}>B$ cannot be chosen, wlog we assume that $s_{i}\leq B$.  

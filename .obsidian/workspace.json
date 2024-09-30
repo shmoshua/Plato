@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -266,11 +266,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9a5586fb46510eef",
+  "active": "d7b625245901b5cb",
   "lastOpenFiles": [
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Machine Learning/Aleatoric and Epistemic Uncertainty.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Expected Value.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
     "Machine Learning/Linear Regression.md",
@@ -295,7 +296,6 @@
     "Functional Analysis/Convolution.md",
     "Measure Theory/Product Measure.md",
     "Analysis/Fourier Transform (Rn).md",
-    "Probability Theory/Moment.md",
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
