@@ -14,4 +14,7 @@ We use Bollobás' theorem. Let $\{ e_{1},\dots,e_{k} \}$ be the edges on $V$ not
 Therefore, from Bollobás, we have: $$E(G)={n\choose 2}-k\geq {n\choose 2}-{n-8 \choose 2}=\frac{n(n-1)-(n-8)(n-9)}{2}=8n-36$$
 
 ---
+#### Problem 4
+Let $A_{i}:=\{ (k,a_{ik}):k\in[n], a_{ik}\neq b_{ik} \}$ and $B_{i}:=\{ (k,b_{ik}):k\in[n], a_{ik}\neq b_{ik} \}$. Then, as $w(a_{i}-b_{i})=t+1$, we have that there are exactly $t+1$ indices $k\in[n]$ s.t. $a_{ik}\neq b_{ik}$. Therefore, $\left| A_{i} \right|=t+1$ and $\left| B_{i} \right|=t+1$. Further, for $i\neq j$ assume that $A_{i}\cap B_{j}=\varnothing$. Then, 
 
+$w(a_{i}-b_{j})\leq t$ and therefore, there exists at least 
