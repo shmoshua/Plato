@@ -74,13 +74,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Cut (Graph).md",
+                "file": "Machine Learning/Linear Regression.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -105,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Machine Learning/Linear Regression.md",
                 "mode": "preview",
                 "source": true
               }
@@ -136,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Machine Learning/Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Machine Learning/Linear Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md"
+                "file": "Machine Learning/Linear Regression.md"
               }
             }
           }
@@ -266,12 +267,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "db3c092cab1360f2",
+  "active": "305b98f5ab61a4db",
   "lastOpenFiles": [
     "Graph Theory/Cut (Graph).md",
+    "Machine Learning/Linear Regression.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Variance.md",
+    "Probability Theory/Conditional Probability.md",
     "Probability Theory/Covariance.md",
     "Probability Theory/Expected Value.md",
-    "Probability Theory/Variance.md",
     "Probabilistic Methods/Bayesian Decision.md",
     "Advanced Algorithms/DNF Counting.md",
     "Advanced Algorithms/PRAS.md",
@@ -283,14 +287,11 @@
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Logic",
-    "Probability Theory/Gaussian Distribution.md",
     "Advanced Algorithms/FPTAS.md",
     "Advanced Algorithms/FPRAS.md",
     "Advanced Algorithms/PTAS.md",
     "Machine Learning/Aleatoric and Epistemic Uncertainty.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
-    "Machine Learning/Linear Regression.md",
-    "Probability Theory/Conditional Probability.md",
     "Probability Theory/Density.md",
     "Probability Theory/Independence.md",
     "Untitled",

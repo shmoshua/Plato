@@ -67,3 +67,10 @@
 ^8a650d
 
 - **Remark**: Notice that MAP estimator estimates the full posterior distribution as a dirac distribution on its maximum.  ^c649df
+
+---
+> [!lemma] Proposition 4 (Gaussian Prior)
+> For linear regression, we have:
+
+> [!proof]+
+> We have that: $$y=Xw+\varepsilon\in \mathcal{N}(X\mu,\lambda ^{-1}(XX^\top+I))$$By setting $XX^\top+I=:\Sigma_{y}$, we have: $$\begin{align}\mu_{\text{MLE}}&\in \underset{ \mu }{ \arg\max }\exp \left( -\frac{1}{2}(y-X\mu)^\top\Sigma_{y}^{-1}(y-X\mu) \right) \\&= \underset{ \mu }{ \arg\max }\exp \left(  -\frac{1}{2}(y^\top\Sigma ^{-1}_{y}y-2y^\top\Sigma_{y}^{-1}X\mu+\mu^\top X^\top \Sigma_{y}^{-1}X\mu) \right)\\&= \underset{ \mu }{ \arg\max }\exp \left(  -\frac{1}{2}(\mu^\top X^\top \Sigma_{y}^{-1}X\mu-2y^\top\Sigma_{y}^{-1}X\mu) \right)\\&= \underset{ \mu }{ \arg\min } \mu^\top X^\top \Sigma_{y}^{-1}X\mu-2y^\top\Sigma_{y}^{-1}X\mu \end{align}$$
