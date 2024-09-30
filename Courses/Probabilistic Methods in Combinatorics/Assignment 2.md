@@ -15,6 +15,19 @@ Therefore, from Bollobás, we have: $$E(G)={n\choose 2}-k\geq {n\choose 2}-{n-8 
 
 ---
 #### Problem 4
+
+Let $A_{i}:=\{ a_{i} \}$ and let $S_{i}:=\{ k\in[n]:a_{ik}\neq b_{ik}\}$. Then, $\left| S_{i} \right|=t+1$ and let $B_{i}$ be the set of all vectors that are equal to $a_{i}$ on indices $[n] \backslash S_{i}$ and different on $S_{i}$. Then, $\left| B_{i} \right|=2^{t+1}-1$.
+
+Now, by definition, $A_{i}\cap B_{i}=\varnothing$. We aim to show that $A_{i}\cap B_{j}\neq \varnothing$ for all $i\neq j$. Assume $A_{i}\cap B_{j}=\varnothing$. Then, $a_{i}$ is not in $B_{j}$. However, we know that $w(a_{i}-b_{j})\leq t$. Therefore, 
+
+Then, we have the two following cases:
+1. Case 1: $a_{i}=a_{j}$. But, then $t+1=w(a_{i}-b_{j})=w(a_{j}-b_{j})\leq t$ which is a contradiction.
+2. Case 2: there exists $k\notin S_{j}$ s.t. $a_{ik}\neq a_{jk}$. As $k\notin S_{j}$, $a_{ik}\neq b_{jk}$. 
+
+
+ $2^{t+1}-1$ different bit-vectors 
+
+ be the $$
 Let $A_{i}:=\{ (k,a_{ik}):k\in[n], a_{ik}\neq b_{ik} \}$ and $B_{i}:=\{ (k,b_{ik}):k\in[n], a_{ik}\neq b_{ik} \}$. Then, as $w(a_{i}-b_{i})=t+1$, we have that there are exactly $t+1$ indices $k\in[n]$ s.t. $a_{ik}\neq b_{ik}$. Therefore, $\left| A_{i} \right|=t+1$ and $\left| B_{i} \right|=t+1$. Further, for $i\neq j$ assume that $A_{i}\cap B_{j}=\varnothing$. Then, 
 
 $w(a_{i}-b_{j})\leq t$ and therefore, there exists at least 
