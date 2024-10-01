@@ -86,14 +86,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Random Walk.md",
+                "file": "Machine Learning/Bayesian Network.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Machine Learning/Linear Regression.md",
                 "mode": "preview",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilistic Methods/Bayesian Decision.md",
+                "file": "Machine Learning/Bayesian Network.md",
                 "mode": "preview",
                 "source": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilistic Methods/Bayesian Decision.md",
+                "file": "Machine Learning/Bayesian Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilistic Methods/Bayesian Decision.md",
+                "file": "Machine Learning/Bayesian Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilistic Methods/Bayesian Decision.md"
+                "file": "Machine Learning/Bayesian Network.md"
               }
             }
           }
@@ -267,21 +267,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "305b98f5ab61a4db",
+  "active": "5034bff08718b3a0",
   "lastOpenFiles": [
+    "Machine Learning/Linear Regression.md",
+    "Machine Learning/Bayesian Network.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Probabilistic Methods/Bayesian Decision.md",
+    "Markov Processes/Random Walk.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Advanced Algorithms/FPRAS.md",
-    "Probabilistic Methods/Bayesian Decision.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
     "Probability Theory/Variance.md",
-    "Markov Processes/Random Walk.md",
     "Probability Theory/Expected Value.md",
-    "Machine Learning/Linear Regression.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Hypergraph.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Courses/Probabilistic AI/Homework 1.md",
     "Probability Theory/Covariance.md",
     "Probability Theory/Conditional Probability.md",
@@ -295,7 +296,6 @@
     "Untitled.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Logic",
-    "Advanced Algorithms/FPTAS.md",
     "Untitled",
     "Courses/Probabilistic AI",
     "Courses/Information Theory",

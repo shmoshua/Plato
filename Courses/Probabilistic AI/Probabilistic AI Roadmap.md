@@ -70,3 +70,11 @@
 ![[Aleatoric and Epistemic Uncertainty#^265ad5]]
 
 ---
+![[Bayesian Decision#^64da66]]
+
+---
+![[Bayesian Decision#^2d18fd]]
+![[Bayesian Decision#^23b6bb|p]]
+
+---
+##### 2.2.1 Bayesian Networks and Graphical Models
