@@ -18,12 +18,19 @@ Therefore, from Bollobás, we have: $$E(G)={n\choose 2}-k\geq {n\choose 2}-{n-8 
 
 From $a_{i}$ we can create $\overline{a}_{i}\in  \{ 0,1 \}^{t+1}$ by taking only the elements where $a_{i}\neq b_{i}$. Then, consider $A_{i}:=\{ \overline{a}_{i} \}$ and $B_{i}:= \{ 0,1 \}^{t+1} \backslash  A_{i}$. Trivially it holds that $A_{i}\cap B_{i}=\varnothing$.
 
-Now, assume that $A_{i}\cap B_{j}=\varnothing$ for $i\neq j$. Then, $\overline{a}_{i}\notin B_{j}$ and this means that $\overline{a}_{i}=\overline{a}_{j}$. Let $S_{i}\subseteq[n]$ define the $t+1$ indices where $a_{i}=b_{i}$. Then, we consider the following two cases:
+Now, assume that $A_{i}\cap B_{j}=\varnothing$ for $i\neq j$. Then, $\overline{a}_{i}\notin B_{j}$ and this means that $\overline{a}_{i}=\overline{a}_{j}$. Let $S_{i}\subseteq[n]$ define the $t+1$ indices where $a_{i}\neq b_{i}$. Then, we consider the following two cases:
 1. Case 1: $S_{i}=S_{j}$. But, then $a_{i}=a_{j}$ and  $t+1=w(a_{i}-b_{j})=w(a_{j}-b_{j})\leq t$ which is a contradiction.
-2. Case 2: $S_{i}\neq S_{j}$. Then, $t+3\leq\left| S_{i}\cup S_{j} \right|\leq 2t+2$. For all $k\in S_{i}\cap S_{j}$, 
+2. Case 2: $S_{i}\neq S_{j}$. Let $T$ be the indices where $a_{i}\neq b_{j}$. Then, $\left| T \right|\leq t$ and for $k\in T\cap S_{i}$, $$a_{k}$$
+   
+   Then, $t+3\leq\left| S_{i}\cup S_{j} \right|\leq 2t+2$. For all $k\in S_{i}\cap S_{j}$, 
+   
+   For all $k\notin S_{i}\cup S_{j}$, $a_{i}$
+3. $w(a_{i}-b_{j})\leq t$. 
    
    Also, there exists $k\in S_{i}$ s.t. $a_{ik}\neq a_{jk}$. As $k\notin S_{j}$, $a_{ik}\neq b_{jk}$. 
 
+
+---
 
 
 

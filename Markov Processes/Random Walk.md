@@ -33,4 +33,9 @@ Let $T_{0}:=\sum_{i=0}^{\infty}\mathbb{1}_{\{ 0 \}}(X_{n})$. Then, $T_{0}\geq 1$
 > The random walk on $\mathbb{Z}^d$ is recurrent if $d\leq 2$.
 
 > [!proof]+
-> We have that: $\mathbb{E}(T_{0})=\sum_{n=0}^{\infty}\mathbb{P}(X_{n}=0)$. Thus, $X_{n}$ is recurrent if and only if $\sum_{n=0}^{\infty}\mathbb{P}(X_{n}=0)=+\infty$. We have: $$\begin{align}\mathbb{P}(X_{2n}=k)&=\sum_{\ell\in \mathbb{Z}^d}^{}\mathbb{P}(X_{n}=\ell \land X_{2n}-X_{n}=k-\ell)\\&=\sum_{\ell\in \mathbb{Z}^d}^{}\mathbb{P}(X_{n}=\ell)\mathbb{P}( X_{2n}-X_{n}=k-\ell)\\&=\sum_{\ell\in \mathbb{Z}^d}^{}\mathbb{P}(X_{n}=\ell)\mathbb{P}( X_{n}=k-\ell)\\&\leq \left(\sum_{\ell\in \mathbb{Z}^d}^{} (\mathbb{P}(X_{n}=\ell))^2 \right)^{1/2}\left(\sum_{\ell\in \mathbb{Z}^d}^{} (\mathbb{P}(X_{n}=k-\ell))^2 \right)^{1/2} \end{align}$$
+> We have that: $\mathbb{E}(T_{0})=\sum_{n=0}^{\infty}\mathbb{P}(X_{n}=0)$. Thus, $X_{n}$ is recurrent if and only if $\sum_{n=0}^{\infty}\mathbb{P}(X_{n}=0)=+\infty$. We have: $$\begin{align}\mathbb{P}(X_{2n}=k)&=\sum_{\ell\in \mathbb{Z}^d}^{}\mathbb{P}(X_{n}=\ell \land X_{2n}-X_{n}=k-\ell)\\&=\sum_{\ell\in \mathbb{Z}^d}^{}\mathbb{P}(X_{n}=\ell)\mathbb{P}( X_{2n}-X_{n}=k-\ell)\\&=\sum_{\ell\in \mathbb{Z}^d}^{}\mathbb{P}(X_{n}=\ell)\mathbb{P}( X_{n}=k-\ell)\\&\leq \left(\sum_{\ell\in \mathbb{Z}^d}^{} (\mathbb{P}(X_{n}=\ell))^2 \right)^{1/2}\left(\sum_{\ell\in \mathbb{Z}^d}^{} (\mathbb{P}(X_{n}=k-\ell))^2 \right)^{1/2} \end{align}$$Hence, $$\mathbb{P}(X_{2n}=0)=\max_{k\in \mathbb{Z}^d}\mathbb{P}(X_{2n}=k)$$
+> Now, 
+> 1. for $d=1$, $$1=\sum_{\ell=-2n}^{\ell=2n}\mathbb{P}(X_{2n}=\ell)\leq \mathbb{P}(X_{2n}=0)\cdot \sum_{\ell=-2n}^{2n}1=\mathbb{P}(X_{2n}=0)\cdot (4n+1)$$
+
+---
+$T_{ij}:=\{ k\in[n]: a_{ik}\neq b_{jk} \}$. Then, 

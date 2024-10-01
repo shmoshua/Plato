@@ -74,13 +74,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Courses/Markov Processes/Markov Processes Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5034bff08718b3a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Processes/Random Walk.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -88,24 +101,24 @@
         "dimension": 51.07491856677524,
         "children": [
           {
-            "id": "d7b625245901b5cb",
+            "id": "dc97252912affa1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
+                "file": "Courses/Markov Processes/Markov Processes Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "dc97252912affa1f",
+            "id": "d7b625245901b5cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "file": "Markov Processes/Random Walk.md",
                 "mode": "preview",
                 "source": true
               }
@@ -135,7 +148,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
+                "file": "Markov Processes/Random Walk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
+                "file": "Markov Processes/Random Walk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md"
+                "file": "Markov Processes/Random Walk.md"
               }
             }
           }
@@ -265,8 +279,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d7b625245901b5cb",
+  "active": "5034bff08718b3a0",
   "lastOpenFiles": [
+    "Courses/Markov Processes/Markov Processes Roadmap.md",
+    "Markov Processes/Random Walk.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Graph Theory/Hypergraph.md",
@@ -292,8 +308,6 @@
     "Logic",
     "Advanced Algorithms/FPTAS.md",
     "Advanced Algorithms/FPRAS.md",
-    "Advanced Algorithms/PTAS.md",
-    "Machine Learning/Aleatoric and Epistemic Uncertainty.md",
     "Untitled",
     "Courses/Probabilistic AI",
     "Courses/Information Theory",
