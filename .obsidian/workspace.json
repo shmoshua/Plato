@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring of Polynomial Functions.md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Algebra/Ring of Polynomial Functions.md",
                 "mode": "preview",
                 "source": true
               }
@@ -231,13 +231,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9a5586fb46510eef",
+  "active": "db3c092cab1360f2",
   "lastOpenFiles": [
-    "Algebra/Algebra.md",
+    "Algebra/Variety.md",
     "Algebra/Ring of Polynomial Functions.md",
+    "Algebra/Algebra.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Algebra/Ideal (Ring).md",
-    "Algebra/Variety.md",
     "Commutative Algebra",
     "Topology/Zariski Topology.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
