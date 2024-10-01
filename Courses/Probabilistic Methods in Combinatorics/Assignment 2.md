@@ -17,11 +17,15 @@ Therefore, from Bollobás, we have: $$E(G)={n\choose 2}-k\geq {n\choose 2}-{n-8 
 #### Problem 4
 We define the following two sets. $$A_{i}:=\{ k\in[n]:a_{ik}\neq b_{ik},a_{ik}=1 \},\quad B_{i}:=\{ k\in[n]:a_{ik}\neq b_{ik},b_{ik}=1 \}$$Then, one easily sees that by assumption $A_i\cap B_{i}=\varnothing$ for all $i\in[m]$. Further, $\left| A_{i}\cup B_{i} \right|=t+1$. 
 1. **Claim 1: for all $i\neq j$, $(A_{i}\cap B_{j})\cup(A_{j}\cap B_{i})\neq \varnothing$.** 
+   Firstly, there exists $k\in[n]$ s.t. $a_{ik}\neq b_{ik}$ and $a_{jk}\neq b_{jk}$. Assume otherwise. Then, let $k\in [n]$ s.t. $a_{ik}\neq b_{ik}$ but $a_{ik}=b_{jk}$, which exists as $w(a_{i},b_{j})\leq t$. We have then: $$a_{jk} = b_{jk}=a_{ik}\neq b_{ik}$$
+   
+   
    Then, $A_{i}\cap B_{j}=\varnothing$ and $A_{j}\cap B_{i}=\varnothing$. From $A_{i}$ and $B_{i}$ wlog we may assume that $\left| A_{i} \right|\geq \frac{t+1}{2}$. 
    
-   for all $k\in A_{i}$, we have that either $a$
+   for all $k\in A_{i}$, we have that either $a_{jk}=b_{jk}$ or $a_{jk}=1$ and $b_{jk}=0$ further, for 
    
    As $A_{i}\cap B_{j}=\varnothing$, either 
+   
    
    Notice that from the $t+1$ indices where $a_{i}\neq b_{i}$, there needs to exist $k\in[n]$ s.t. $a_{ik}=b_{jk}$. If $a_{ik}=1$, then $k\in A_{i}\cap B_{j}$. If $a_{ik}=0$, then $b_{ik}=0$ and 
    Let $k\in [n]$ s.t. $a_{ik}\neq b_{ik}$. 
@@ -30,45 +34,7 @@ We define the following two sets. $$A_{i}:=\{ k\in[n]:a_{ik}\neq b_{ik},a_{ik}=1
    $$\left| (A_{i}\cap B_{j})\cup(A_{j}\cap B_{i}) \right|=\left| A_{i}\cap B_{j} \right| +\left| A_{j}\cap B_{i} \right|  $$
 	
 	
-
-
-From $a_{i}$ we can create $\overline{a}_{i}\in  \{ 0,1 \}^{t+1}$ by taking only the elements where $a_{i}\neq b_{i}$. Then, consider $A_{i}:=\{ \overline{a}_{i} \}$ and $B_{i}:= \{ 0,1 \}^{t+1} \backslash  A_{i}$. Trivially it holds that $A_{i}\cap B_{i}=\varnothing$.
-
-Now, assume that $A_{i}\cap B_{j}=\varnothing$ for $i\neq j$. Then, $\overline{a}_{i}\notin B_{j}$ and this means that $\overline{a}_{i}=\overline{a}_{j}$. Let $S_{i}\subseteq[n]$ define the $t+1$ indices where $a_{i}\neq b_{i}$. Then, we consider the following two cases:
-1. Case 1: $S_{i}=S_{j}$. But, then $a_{i}=a_{j}$ and  $t+1=w(a_{i}-b_{j})=w(a_{j}-b_{j})\leq t$ which is a contradiction.
-2. Case 2: $S_{i}\neq S_{j}$. Let $T$ be the indices where $a_{i}\neq b_{j}$. Then, $\left| T \right|\leq t$ and for $k\in T\cap S_{i}$, $$a_{k}$$
-   
-   Then, $t+3\leq\left| S_{i}\cup S_{j} \right|\leq 2t+2$. For all $k\in S_{i}\cap S_{j}$, 
-   
-   For all $k\notin S_{i}\cup S_{j}$, $a_{i}$
-3. $w(a_{i}-b_{j})\leq t$. 
-   
-   Also, there exists $k\in S_{i}$ s.t. $a_{ik}\neq a_{jk}$. As $k\notin S_{j}$, $a_{ik}\neq b_{jk}$. 
+Now, define $S\subseteq[n]$ where $k\in[n]$ is taken with probability $1 / 2$. Then, let $E_{i}$ denote the event that $A_{i}\subseteq E_{i}$ and $B_{i} \subseteq [n] \backslash  E_{i}$. Then, from the claim above, $E_{i}$ and $E_{j}$ are disjoint for $i\neq j$. Therefore, $$1\geq\mathbb{P}\left( \bigsqcup_{i\in[m]}^{}E_{i} \right)=m\cdot \mathbb{P}(E_{1})=\frac{m}{2^{t+1}}$$This proves the statement.
 
 
 ---
-
-
-
-Let $A_{i}:=\{ a_{i} \}$ and let $S_{i}:=\{ k\in[n]:a_{ik}\neq b_{ik}\}$. Then, $\left| S_{i} \right|=t+1$ and let $B_{i}$ be the set of all vectors that are equal to $a_{i}$ on indices $[n] \backslash S_{i}$ and different on $S_{i}$. Then, $\left| B_{i} \right|=2^{t+1}-1$.
-
-Now, by definition, $A_{i}\cap B_{i}=\varnothing$. We aim to show that $A_{i}\cap B_{j}\neq \varnothing$ for all $i\neq j$. Assume $A_{i}\cap B_{j}=\varnothing$. Then, $a_{i}$ is not in $B_{j}$. However, we know that $w(a_{i}-b_{j})\leq t$. Therefore, 
-
-Then, we have the two following cases:
-1. Case 1: $a_{i}=a_{j}$. But, then $t+1=w(a_{i}-b_{j})=w(a_{j}-b_{j})\leq t$ which is a contradiction.
-2. Case 2: there exists $k\notin S_{j}$ s.t. $a_{ik}\neq a_{jk}$. As $k\notin S_{j}$, $a_{ik}\neq b_{jk}$. 
-
-
- $2^{t+1}-1$ different bit-vectors 
-
- be the $$
-Let $A_{i}:=\{ (k,a_{ik}):k\in[n], a_{ik}\neq b_{ik} \}$ and $B_{i}:=\{ (k,b_{ik}):k\in[n], a_{ik}\neq b_{ik} \}$. Then, as $w(a_{i}-b_{i})=t+1$, we have that there are exactly $t+1$ indices $k\in[n]$ s.t. $a_{ik}\neq b_{ik}$. Therefore, $\left| A_{i} \right|=t+1$ and $\left| B_{i} \right|=t+1$. Further, for $i\neq j$ assume that $A_{i}\cap B_{j}=\varnothing$. Then, 
-
-$w(a_{i}-b_{j})\leq t$ and therefore, there exists at least 
-
-
-Let $a_{ik}=b_{ik}$ but $a_{jk}\neq b_{jk}$. 
-1. If $a_{ik}=b_{jk}$ then $b_{ik}=a_{ik}=b_{jk}\neq a_{jk}$.
-2. if $a_{ik}\neq b_{jk}$ then $a_{ik}=a_{jk}$.
-
-Therefore, we have $a_{ik}=a_{jk}$ or $b_{ik}=b_{jk}$. 
