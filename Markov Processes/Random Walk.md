@@ -47,7 +47,11 @@ Assume that $T_{ii}\cap T_{jj}$ then: $$\left| T_{ii}\cap T_{jj} \right| =2t+2-\
 - if $k\in T_{ii}\cap T_{ij}$ Then, $b_{jk}\neq a_{ik}\neq b_{ik}$ and $b_{ik}=b_{jk}$.
 - if $k\in T_{jj}\cap T_{ij}$ Then, $a_{ik}=a_{jk}$.
 - if $k\in T_{ji}\cap T_{jj}\cap T_{ij}\cap T_{ii}$. Then, $a_{ik}= a_{jk}\neq b_{jk}$
-- 
+
+We have that: 
+- $T_{ii}\cup T_{jj}\subseteq T_{ij}\cup T_{ji}$
+
+Let $k\in T_{ii}\cup T_{jj}$. Then, $a_{ik}\neq b_{ik}$ and $a_{jk}\neq b_{jk}$. Assume that $a_{ik}=b_{jk}$ and $a_{jk}=b_{ik}$. Then, $$a_{ik}\neq b_{ik}=a_{jk}\neq b_{jk}$$
 
 $k\in T_{ii} \Longleftrightarrow a_{ik}\neq b_{ik}$
 1. if $k\in T_{ij}$ then 
