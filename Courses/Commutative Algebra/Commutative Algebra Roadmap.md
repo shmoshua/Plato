@@ -152,3 +152,47 @@
 ![[Variety#^89aa91|p]]
 
 ---
+#### 2.5 Zariski Topology
+![[Variety#^bc5221]]
+![[Variety#^37ac6e|p]]
+
+---
+![[Zariski Topology#^7f255b]]
+![[Zariski Topology#^23c06e|q]]
+
+
+---
+![[Variety#^2e6fcc]]
+![[Variety#^abc38b|p]]
+![[Variety#^da8bb5|q]]
+
+---
+#### 2.6 Morphisms of Varieties
+
+![[Morphism (Variety)#^f860e3]]
+![[Morphism (Variety)#^999568|q]]
+![[Morphism (Variety)#^cc40e0|q]]
+---
+![[Morphism (Variety)#^fb7c53]]
+![[Morphism (Variety)#^1b25df|p]]
+---
+![[Morphism (Variety)#^71ae98]]
+![[Morphism (Variety)#^1db0b2|p]]
+
+---
+### 3. Modules
+#### 3.1 Modules
+![[Module#^65c206]]
+![[Module#^161b49|q]]
+![[Module#^3ed1fe|q]]
+![[Module#^dd19d0|q]]
+![[Module#^cdd82e|q]]
+![[Module#^3fd312|q]]
+---
+
+![[Module#^b92c18]]
+
+---
+![[Module#^698084]]
+
+---

@@ -51,11 +51,16 @@
 > 2. for $\{ I_{\lambda} \}_{\lambda\in \Lambda}$ where $I_{\lambda}\unlhd A(X)$, $\bigcap_{\lambda\in \Lambda}^{}V(I_{\lambda})=V\left( \sum_{\lambda\in \Lambda}^{}I_{\lambda} \right)$ and $\sum_{\lambda\in \Lambda}I_{\lambda}:=\left( \bigcup_{\lambda\in \Lambda}^{}I_{k} \right)$
 > 3. $V(0)=X$, $V(1)=\varnothing$.
 
+^bc5221
+
 > [!proof]-
 > We have that:
 > 1. $IJ\subseteq I\cap J\subseteq I,J$. Therefore, by Lemma 2, $V(I),V(J)\subseteq V(I\cap J)\subseteq V(IJ)$. Therefore, $$V(I)\cup V(J)\subseteq V(IJ)$$Now, assume $x\notin V(I)\cup V(J)$. Then, there exists $f\in I$ and $g\in J$ s.t. $f(x)\neq 0$ and $g(x)\neq 0$ and $fg(x)\neq 0$. Therefore, $x\notin V(IJ)$. This proves the statement.
 > 2. We have that $$\begin{align}x\in \bigcap_{\lambda\in \Lambda}^{}V(I_{\lambda})&\iff x\in V(I_{\lambda}),\quad \forall\lambda\in \Lambda\\&\iff f(x)=0,\quad \forall f\in \bigcup_{\lambda\in \Lambda}^{}I_{\lambda}\\&\iff f(x)=0,\quad \forall f\in \sum_{\lambda\in \Lambda}^{}I_{\lambda}\\&\iff x\in V\left( \sum_{\lambda\in \Lambda}^{}I_{\lambda} \right)\end{align}$$
 > 3. Obvious.
+
+^37ac6e
+
 - **Remark**: This endows the closed sets of a topology, called [[Zariski Topology]].
 ---
 
@@ -99,6 +104,8 @@
 > 3. for all open $\varnothing\neq U_{1},U_{2}\subseteq X$ w.r.t. [[Zariski topology]], $U_{1}\cap U_{2}\neq \varnothing$.
 > 4. every open subset $\varnothing\neq U\subseteq X$ is dense.
 
+^2e6fcc
+
 > [!proof]- 
 > We have that:
 > 1. (1=>2): If $I(X)$ is not prime, there exists $f,g\in K[x_{1},\dots,x_{n}]$ s.t. $fg\in I(X)$ but $f,g\notin I(X)$. Let us define $J_{1}:=(I(X),f)$ and $J_{2}:=(I(X),g)$. Then, for $X_{i}:=V(J_{i})$, we have that $X_{1},X_{2}\subseteq X_{i}$ are subvarieties. However, $X\subseteq X_{1}\cup X_{2}$ as for any $x\in X$, $fg(x)=0$ and either $f(x)=0$ or $g(x)=0$. This proves that $X$ is reducible.
@@ -107,7 +114,9 @@
 > 4. (3=>1): if $X=X_{1}\cup X_{2}$, $X \backslash X_{1},X \backslash X_{2}$ are two sets.
 > 5. (3<=>4): definition of dense.
 
-- **Remark**: Similarly $X$ is a point if and only if $I(X)$ is maximal. 
+^abc38b
+
+- **Remark**: Similarly $X$ is a point if and only if $I(X)$ is maximal.  ^da8bb5
 
 ---
 

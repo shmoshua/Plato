@@ -7,13 +7,16 @@
 > 3. $(r+s)m=rm+sm$ for all $r ,s\in R$, $m\in M$.
 > 4. $r(sm)=(rs)m$ for all $r, s\in R$, $m\in M$.
 > 5. $1m=m$ for all $m\in M$.
-- **Remark**: Similarly, one can define a ***right $R$-module***. If $R$ is commutative, a left $R$-module is also a right module by defining $rm=mr$.
-- **Remark**: For a field $K$, a $K$-module is equivalent to a $K$-[[vector space]].
-- **Related definition**: For $R$-modules $M,N$, a ***homomorphism*** is a $R$-linear map, i.e. $\varphi:M\to N$ s.t. 
-	1. $\varphi(m+m')=\varphi(m)+\varphi(m')$ and
+
+^65c206
+
+- **Remark**: Similarly, one can define a ***right $R$-module***. If $R$ is commutative, a left $R$-module is also a right module by defining $rm=mr$. ^161b49
+- **Remark**: For a field $K$, a $K$-module is equivalent to a $K$-[[vector space]]. ^3ed1fe
+- **Related definition**: For $R$-modules $M,N$, a ***homomorphism*** is a $R$-linear map, i.e. $\varphi:M\to N$ s.t.  ^dd19d0
+	1. $\varphi(m+m')=\varphi(m)+\varphi(m')$ and ^b7a3d5
 	2. $\varphi(rm)=r\varphi(m)$
-- **Related definition**: $\text{Hom}_{R}(M,N)$ is the space of all homomorphisms from $M$ to $N$.
-- **Related definition**: A module $M$ is ***cyclic*** if there exists $x\in M$ s.t. $M=Rx$.
+- **Related definition**: $\text{Hom}_{R}(M,N)$ is the space of all homomorphisms from $M$ to $N$. ^cdd82e
+- **Related definition**: A module $M$ is ***cyclic*** if there exists $x\in M$ s.t. $M=Rx$. ^3fd312
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -65,7 +68,15 @@
 > 3. $\text{Mat}_{m,n}(R)$ is a $R$-module with matrix addition and scalar multiplication.
 > 4. An ideal $I\unlhd R$ is an $R$-module.
 > 5. Every $R$-algebra is a $R$-module.
+
+^b92c18
+
 ---
-> [!h] Example 2
-> Let $A$ be an [[abelian group]]. Then, $A$ is a $\mathbb{Z}$-module with usual addition and $$na:=\begin{cases}a+\dots+a&n>0\\0&n=0\\-a-\dots-a&n<0\end{cases}$$as multiplication.
+> [!h] Example 2 (Z modules are abelian groups)
+> We have:
+> 1. every [[abelian group]] $(A,+)$ is a $\mathbb{Z}$-module with usual addition and $$na:=\begin{cases}a+\dots+a&n>0\\0&n=0\\-a-\dots-a&n<0\end{cases}$$as multiplication.
+> 2. every $\mathbb{Z}$-module is an abelian group.
+
+^698084
+
 ---
