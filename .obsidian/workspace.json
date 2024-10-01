@@ -101,7 +101,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Commutative Algebra/Morphism (Variety).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Commutative Algebra/Morphism (Variety).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Algebra.md"
+                "file": "Commutative Algebra/Morphism (Variety).md"
               }
             }
           }
@@ -231,10 +231,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3c2835e31a45e64a",
+  "active": "9a5586fb46510eef",
   "lastOpenFiles": [
-    "Algebra/Ring of Polynomial Functions.md",
     "Algebra/Algebra.md",
+    "Algebra/Ring of Polynomial Functions.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Variety.md",
