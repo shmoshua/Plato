@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Commutative Algebra/Morphism (Variety).md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Commutative Algebra/Morphism (Variety).md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,13 +82,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ideal (Ring).md",
+                "file": "Algebra/Ring of Polynomial Functions.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3c2835e31a45e64a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Algebra.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -154,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Zariski Topology.md",
+                "file": "Algebra/Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Zariski Topology.md",
+                "file": "Algebra/Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Zariski Topology.md"
+                "file": "Algebra/Algebra.md"
               }
             }
           }
@@ -218,13 +231,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "dc97252912affa1f",
+  "active": "3c2835e31a45e64a",
   "lastOpenFiles": [
+    "Algebra/Ring of Polynomial Functions.md",
+    "Algebra/Algebra.md",
+    "Commutative Algebra/Morphism (Variety).md",
+    "Algebra/Ideal (Ring).md",
     "Algebra/Variety.md",
+    "Commutative Algebra",
     "Topology/Zariski Topology.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Machine Learning/Linear Regression.md",
-    "Algebra/Ideal (Ring).md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Gaussian Distribution.md",
     "Advanced Algorithms/Bin-Packing.md",
@@ -243,9 +260,6 @@
     "Graph Theory/Hypergraph.md",
     "Courses/Probabilistic AI/Homework 1.md",
     "Probability Theory/Covariance.md",
-    "Probability Theory/Conditional Probability.md",
-    "Graph Theory/Cut (Graph).md",
-    "Advanced Algorithms/DNF Counting.md",
     "Logic",
     "Untitled",
     "Courses/Probabilistic AI",
@@ -255,7 +269,6 @@
     "Char",
     "Characteristic Classes",
     "Courses/Markov Processes",
-    "Markov Processes",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }

@@ -2,8 +2,8 @@
 
 > [!definition]
 > Let $X\subseteq \mathbb{A}_{K}^n$ be a [[variety]]. Then, 
-> 1. ***Zariski topology*** on $X$ is given by $C\subseteq X$ is closed if and only if $C=V(I)$ for some ideal $I\unlhd A(X)$ where $A(X)$ is the [[ring|ring of ]]
- 
+> 1. ***Zariski topology*** on $X$ is given by $C\subseteq X$ is closed if and only if $C=V(I)$ for some ideal $I\unlhd A(X)$ where $A(X)$ is the [[Ring of Polynomial Functions|ring of polynomial functions]].
+ - **Remark**: Zariski topology is not Hausdorff: on $\mathbb{A}_{K}^1$, Zariski topology coincides with the [[Topological Space|cofinite topology]].
 ---
 ##### Properties
 > [!lemma] Proposition 1

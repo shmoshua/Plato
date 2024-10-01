@@ -45,53 +45,7 @@
 
 - **Corollary**: there are maps between subvarieties of $X$ and ideals in $A(X)$ given by $I$ and $V$. ($I$ is injective but $V$ is not. e.g. $V(x)=V(x^2))\subseteq \mathbb{A}_{K}^1$)   ^df9fc7
 ---
-> [!lemma] Proposition 3
-> For a variety $X\subseteq \mathbb{A}_{K}^n$ and $Y\subseteq X$ a subvariety. Then, 
-> 1. $I_{X}(Y)\unlhd A(X)$ is [[Radical (Ring)|radical]].
-
-^4f0f2a
-
-> [!proof]-
-> Let $f\in \sqrt{ I_{X}(Y) }$, i.e. $f\in A(X)$ with $f^n\in I(Y)$. Then, $f^n(x)=0$ for all $x\in Y$. Therefore, $f(x)=0$ for all $x\in Y$. Hence, $f\in I(Y)$.
-
-^88859e
-
----
-> [!lemma] Theorem 4 (Hilbert's Nullstellensatz)
-> For a variety $X\subseteq \mathbb{A}_{K}^n$ and a subvariety $Y\subseteq X$, 
-> 1. for any ideal $I\unlhd A(X)$, $I(V(I))=\sqrt{ I }$ where $\sqrt{ I }$ is the [[Radical (Ring)|radical]].
-
-^121639
-
-- **Corollary**: There is a bijection between subvarieties of $X$ and radical ideals in $A(X)$ given by $I$ and $V$.  ^039994
----
-> [!lemma] Proposition 5
-> We have that:$$\begin{array}{ccccc}
-\{ \text{Var}\subseteq \mathbb{A}_{K}^n \}&\to &\{ \text{Rad. ideals in }K[x_{1},\dots,x_{n}] \}&\to &\{ \text{fin. gen. reduced }K\text{-algebra} \}\\X&\mapsto &I(X)&\mapsto &A(X):=K[x_{1},..,x_{n}] / I(X)
-\\V(I)&\gets&I\end{array}$$
-
-^4ec3ba
-
-> [!proof]-
-> The first half is given by the Corollary above. The second half is given by [[Algebra|Lemma 1]] and [[Nilradical|Lemma 1]].
-
-^89aa91
-
----
-> [!lemma] Proposition 6 (Irreducible Varieties and Prime Ideals)
-> For a variety $\varnothing\neq X \subseteq \mathbb{A}_{K}^n$, TFAE:
-> 1. $X$ is irreducible.
-> 2. $I(X)$ is [[Prime Ideal|prime]].
-
-> [!proof]-
-> We have that:
-> 1. (1=>2): If $I(X)$ is not prime, there exists $f,g\in K[x_{1},\dots,x_{n}]$ s.t. $fg\in I(X)$ but $f,g\notin I(X)$. Let us define $J_{1}:=(I(X),f)$ and $J_{2}:=(I(X),g)$. Then, for $X_{i}:=V(J_{i})$, we have that $X_{1},X_{2}\subseteq X_{i}$ are subvarieties. However, $X\subseteq X_{1}\cup X_{2}$ as for any $x\in X$, $fg(x)=0$ and either $f(x)=0$ or $g(x)=0$. This proves that $X$ is reducible.
-> 2. (2=>1): If $X$ is reducible, i.e. $X=X_{1}\cup X_{2}$ where $X_{1},X_{2}\subseteq X$ are subvarieties, then there exists $f\in I(X_{1}) \backslash I(X)$ and $g\in I(X_{2}) \backslash I(X)$. However, as we have that $fg\in I(X)$, $I(X)$ is not prime.
-
-- **Remark**: Similarly $X$ is a point if and only if $I(X)$ is maximal. 
-
----
-> [!lemma] Lemma 7 
+> [!lemma] Lemma 3
 > Let $X\subseteq \mathbb{A}_{K}^n$ be a variety. Then, 
 > 1. for $I,J\unlhd A(X)$, $V(I)\cup V(J)=V(I\cap J)=V(IJ)$
 > 2. for $\{ I_{\lambda} \}_{\lambda\in \Lambda}$ where $I_{\lambda}\unlhd A(X)$, $\bigcap_{\lambda\in \Lambda}^{}V(I_{\lambda})=V\left( \sum_{\lambda\in \Lambda}^{}I_{\lambda} \right)$ and $\sum_{\lambda\in \Lambda}I_{\lambda}:=\left( \bigcup_{\lambda\in \Lambda}^{}I_{k} \right)$
@@ -104,6 +58,59 @@
 > 3. Obvious.
 - **Remark**: This endows the closed sets of a topology, called [[Zariski Topology]].
 ---
+
+> [!lemma] Proposition 4
+> For a variety $X\subseteq \mathbb{A}_{K}^n$ and $Y\subseteq X$ a subvariety. Then, 
+> 1. $I_{X}(Y)\unlhd A(X)$ is [[Radical (Ring)|radical]].
+
+^4f0f2a
+
+> [!proof]-
+> Let $f\in \sqrt{ I_{X}(Y) }$, i.e. $f\in A(X)$ with $f^n\in I(Y)$. Then, $f^n(x)=0$ for all $x\in Y$. Therefore, $f(x)=0$ for all $x\in Y$. Hence, $f\in I(Y)$.
+
+^88859e
+
+---
+> [!lemma] Theorem 5 (Hilbert's Nullstellensatz)
+> For a variety $X\subseteq \mathbb{A}_{K}^n$ and a subvariety $Y\subseteq X$, 
+> 1. for any ideal $I\unlhd A(X)$, $I(V(I))=\sqrt{ I }$ where $\sqrt{ I }$ is the [[Radical (Ring)|radical]].
+
+^121639
+
+- **Corollary**: There is a bijection between subvarieties of $X$ and radical ideals in $A(X)$ given by $I$ and $V$.  ^039994
+---
+> [!lemma] Proposition 6
+> We have that:$$\begin{array}{ccccc}
+\{ \text{Var}\subseteq \mathbb{A}_{K}^n \}&\to &\{ \text{Rad. ideals in }K[x_{1},\dots,x_{n}] \}&\to &\{ \text{fin. gen. reduced }K\text{-algebra} \}\\X&\mapsto &I(X)&\mapsto &A(X):=K[x_{1},..,x_{n}] / I(X)
+\\V(I)&\gets&I\end{array}$$
+
+^4ec3ba
+
+> [!proof]-
+> The first half is given by the Corollary above. The second half is given by [[Algebra|Lemma 1]] and [[Nilradical|Lemma 1]].
+
+^89aa91
+
+---
+> [!lemma] Proposition 7 (Irreducible Varieties and Prime Ideals)
+> For a variety $\varnothing\neq X \subseteq \mathbb{A}_{K}^n$, TFAE:
+> 1. $X$ is irreducible.
+> 2. $I(X)$ is [[Prime Ideal|prime]].
+> 3. for all open $\varnothing\neq U_{1},U_{2}\subseteq X$ w.r.t. [[Zariski topology]], $U_{1}\cap U_{2}\neq \varnothing$.
+> 4. every open subset $\varnothing\neq U\subseteq X$ is dense.
+
+> [!proof]- 
+> We have that:
+> 1. (1=>2): If $I(X)$ is not prime, there exists $f,g\in K[x_{1},\dots,x_{n}]$ s.t. $fg\in I(X)$ but $f,g\notin I(X)$. Let us define $J_{1}:=(I(X),f)$ and $J_{2}:=(I(X),g)$. Then, for $X_{i}:=V(J_{i})$, we have that $X_{1},X_{2}\subseteq X_{i}$ are subvarieties. However, $X\subseteq X_{1}\cup X_{2}$ as for any $x\in X$, $fg(x)=0$ and either $f(x)=0$ or $g(x)=0$. This proves that $X$ is reducible.
+> 2. (2=>1): If $X$ is reducible, i.e. $X=X_{1}\cup X_{2}$ where $X_{1},X_{2}\subseteq X$ are subvarieties, then there exists $f\in I(X_{1}) \backslash I(X)$ and $g\in I(X_{2}) \backslash I(X)$. However, as we have that $fg\in I(X)$, $I(X)$ is not prime.
+> 3. (1=>3): if $U_{1}\cap U_{2}=\varnothing$, then $X\backslash U_{1}\cup X \backslash U_{2}=X$. Therefore, $X$ is reducible.
+> 4. (3=>1): if $X=X_{1}\cup X_{2}$, $X \backslash X_{1},X \backslash X_{2}$ are two sets.
+> 5. (3<=>4): definition of dense.
+
+- **Remark**: Similarly $X$ is a point if and only if $I(X)$ is maximal. 
+
+---
+
 ##### Examples 
 > [!h] Example 1
 > We have:
@@ -118,6 +125,7 @@
 > We have:
 > 1. $\text{SL}_{n}\subseteq \text{Mat}_{n,n}(\mathbb{R})\cong \mathbb{A}_{\mathbb{R}}^{n^{2}}$ is a variety as $V(\det - 1)$.
 > 2. $V(D_{n})\subseteq \mathcal{P}_{n}$ where $D_{n}$ the discriminant denotes the subset of polynomials with multiple roots. 
+> 3. $\text{GL}_{n}(\mathbb{R})= \text{Mat}_{n,n}(\mathbb{R})\backslash V(\det)$  is non-empty open, hence dense by Proposition 7.
 
 ^1e3e77
 
