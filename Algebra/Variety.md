@@ -78,6 +78,16 @@
 ^89aa91
 
 ---
+> [!lemma] Proposition 6 (Irreducible Varieties and Prime Ideals)
+> For a variety $\varnothing\neq X \subseteq \mathbb{A}_{K}^n$, TFAE:
+> 1. $X$ is irreducible.
+> 2. $I(X)$ is prime.
+
+> [!proof]+
+> We have that:
+> 1. (1=>2): If $I(X)$ is not prime, there exists $f,g\in K[x_{1},\dots,x_{n}]$ s.t. $fg\in I(X)$ but 
+
+---
 ##### Examples 
 > [!h] Example 1
 > We have:
@@ -95,6 +105,10 @@
 
 ^1e3e77
 
+---
+> [!h] Example 3 (Irreducible and Reducible Varieties)
+> We have:
+> 1. $V(x_{1},x_{2})\subseteq \mathbb{A}_{\mathbb{R}}^2$ is a reducible variety.
 ---
 ##### Non-Examples
 > [!h] Non-Example 1

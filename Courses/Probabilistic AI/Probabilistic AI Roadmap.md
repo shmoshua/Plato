@@ -78,3 +78,15 @@
 
 ---
 ##### 2.2.1 Bayesian Networks and Graphical Models
+![[Bayesian Network#^78dc2b]]
+![[Bayesian Network#^62a6d8|q]]
+![[Bayesian Network#^c0cc53|q]]
+
+---
+![[Bayesian Network#^acd87b]]
+
+---
+##### 2.2.2 Recursive Bayesian Updates
+![[Linear Regression#^cc841a|p]]
+
+---

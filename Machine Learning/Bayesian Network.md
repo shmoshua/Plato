@@ -3,8 +3,11 @@
 > [!definition]
 > Let $p(x_{1:n})$ be a [[Distribution|joint distribution]]. A ***Bayesian network*** for $p$ is a [[directed acyclic graph]] $G$ on $[n]$ s.t. 
 > 1. $v\to w\iff x_{v}\in S_{w}$ where $p(x_{1:n})=\prod_{i=1}^{n}p(x_{i}|S_{i})$ for $S_{i}\subseteq \{ x_{k}:k\in [i-1] \}$.
-- **Remark**: One can also add dotted nodes to represent deterministic values. (cf Example 1).
-- **Related definition**: In ***plate notation***, we use plates to represent parts of the graph that appear more than once.
+
+^78dc2b
+
+- **Remark**: One can also add dotted nodes to represent deterministic values. (cf Example 1). ^62a6d8
+- **Related definition**: In ***plate notation***, we use plates to represent parts of the graph that appear more than once. ^c0cc53
 ---
 ##### Properties
 ---
@@ -18,6 +21,7 @@
 > ```tikz
 >\usepackage{tikz}
 >\usetikzlibrary{arrows}
+>\usetikzlibrary{fit}
 >
 >\begin{document}
 >
@@ -40,6 +44,14 @@
 >\node[dot] (x3) at (3,-1.5) {$x_3$};
 >\node[dot] (x) at (8,-1.5) {$x_n$};
 >
+>\node[vertex] (aa) at  (13,2) {$w$};
+>\node[vertex] (ba) at  (13,0) {$y_i$};
+>
+>\node[dot] (da) at (11,2) {$\sigma_p^2$};
+>\node[dot] (d1a) at (11,0) {$\sigma_n^2$};
+>\node[dot] (x1a) at (13,-1.5) {$x_i$};
+>\node[dot] (ta) at (14.05,-1.6) {$\footnotesize{i\in[n]}$};
+>
 >
 >%edges
 >\draw[edge] (a) to (b);
@@ -55,6 +67,11 @@
 >\draw[edge] (x2) to (b1);
 >\draw[edge] (x3) to (b2);
 >\draw[edge] (x) to (c);
+>\draw[edge] (aa) to (ba);
+>\draw[edge] (da) to (aa);
+>\draw[edge] (d1a) to (ba);
+>\draw[edge] (x1a) to (ba);
+> \node[draw,dotted,fit=(ba)(x1a)] {};
 >
 >
 >\path (b2) to node {\dots} (c);
@@ -64,5 +81,8 @@
 >\end{document} 
 >```
 > 
-> With plate notation, this becomes, 
-> 
+> Where on the right we have the plate notation.
+
+^acd87b
+
+---

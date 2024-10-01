@@ -67,6 +67,7 @@
 ^8a650d
 
 - **Remark**: Notice that MAP estimator estimates the full posterior distribution as a dirac distribution on its maximum.  ^c649df
+- **Remark**: Let $p^{(0)}(w)=p(w)$ and $p^{(j)}(w):=p(w|y_{1: j},x_{1: j})$. Then, the ***recursive Bayesian updates*** refers to: $$p^{(j)}(w)=p(w| y_{1: j}, x_{1:j})\propto p(w)p(y_{1:j}|w,x_{1: j})\propto p^{(j-1)}(w)p(y_{j}|w,x_{j})$$ ^cc841a
 
 ---
 > [!lemma] Proposition 4 (Gaussian Prior)
