@@ -25,4 +25,10 @@
 > We have:
 > 1. Firstly, $f^{*}(g)=g\circ f:X\to K$ is in $A(X)$. Now, for $g_{1},g_{2}\in A(Y)$, $$f^{*}(g_{1}+g_{2})=(g_{1}+g_{2})\circ f=g_{1}\circ f+g_{2}\circ f=f^{*}(g_{1})+f^{*}(g_{2})$$ $$f^{*}(g_{1}g_{2})=(g_{1}g_{2})\circ f=(g_{1}\circ f)(g_{2}\circ f)=f^{*}(g_{1})f^{*}(g_{2})$$ and for any $c\in K$, we have that $f^{*}(c)=c\circ f= c$. Therefore, $f^{*}$ is an $K$-algebra homomorphism.
 > 2. We have: $$(f_{2}\circ f_{1})^{*}(g)=g\circ f_{2}\circ f_{1}=f_{1}^{*}(g\circ f_{2})=f^{*}_{1}(f_{2}^{*}(g))$$
-> 3. Let $A(Y)=K[y_{1},\dots,y_{m}] / I(Y)=K[\overline{y}_{1},\dots,\overline{y}_{m}]$ for some $\overline{y}_{i}\in A(Y)$. Now, let $f_{i}:=\varphi(\overline{y}_{i})\in A(X)$. Then, we claim that $$f:=(f_{1},\dots,f_{m}):X\to \mathbb{A}_{K}^n$$ is a morphism and $f(X)\subseteq Y$. Let $g\in I(Y)$. Then, $$$$$$g(f(x))=g(f_{1}(x),\dots,f_{m}(x))=g(\varphi(\overline{y}_{1})(x),\dots,\varphi(\overline{y}_{n})(x)=\varphi(g\circ (\overline{y}_{1},\dots,\overline{y}_{m}))=0$$
+> 3. Let $A(Y)=K[y_{1},\dots,y_{m}] / I(Y)=K[\overline{y}_{1},\dots,\overline{y}_{m}]$ for some $\overline{y}_{i}\in A(Y)$. Now, let $f_{i}:=\varphi(\overline{y}_{i})\in A(X)$. Then, we claim that $$f:=(f_{1},\dots,f_{m}):X\to \mathbb{A}_{K}^n$$ is a morphism and $f(X)\subseteq Y$. Let $g\in I(Y)$. Then, $$g(f(x))=g(f_{1}(x),\dots,f_{m}(x))=g(\varphi(\overline{y}_{1})(x),\dots,\varphi(\overline{y}_{m})(x))=$$
+>    
+>    $$g(f(x))=g(f_{1}(x),\dots,f_{m}(x))=g(\varphi(\overline{y}_{1})(x),\dots,\varphi(\overline{y}_{n})(x)=\varphi(g\circ (\overline{y}_{1},\dots,\overline{y}_{m}))=0$$
+
+For any $f+I(X)\in A(X)=K[x_{1},\dots,x_{n}] / I(X)$, we have that: $$f$$
+
+$\varphi(g(\overline{y}_{1}(x),\dots,\overline{y}_{m}(x))=\varphi(g(\overline{y}))$
