@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "Topology/Zariski Topology.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Topology/Zariski Topology.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,14 +82,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Algebra/Ideal (Ring).md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Topology/Zariski Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Topology/Zariski Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Variety.md"
+                "file": "Topology/Zariski Topology.md"
               }
             }
           }
@@ -219,13 +218,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "db3c092cab1360f2",
+  "active": "dc97252912affa1f",
   "lastOpenFiles": [
-    "Machine Learning/Linear Regression.md",
     "Algebra/Variety.md",
-    "Probability Theory/Gaussian Distribution.md",
+    "Topology/Zariski Topology.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Machine Learning/Linear Regression.md",
+    "Algebra/Ideal (Ring).md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Probability Theory/Gaussian Distribution.md",
     "Advanced Algorithms/Bin-Packing.md",
     "Machine Learning/Bayesian Network.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
@@ -245,8 +246,6 @@
     "Probability Theory/Conditional Probability.md",
     "Graph Theory/Cut (Graph).md",
     "Advanced Algorithms/DNF Counting.md",
-    "Advanced Algorithms/PRAS.md",
-    "Probability Theory/Distribution.md",
     "Logic",
     "Untitled",
     "Courses/Probabilistic AI",

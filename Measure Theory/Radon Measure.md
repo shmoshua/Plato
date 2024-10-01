@@ -1,7 +1,7 @@
 #Definition #MeasureTheory 
 
 > [!definition]
-> For a [[topological Space]] $X$, a ***Radon measure*** is a positive [[Borel measure]] $\mu:\mathcal{P}(X)\to[0,+\infty]$ s.t.
+> For a [[Topological Space]] $X$, a ***Radon measure*** is a positive [[Borel measure]] $\mu:\mathcal{P}(X)\to[0,+\infty]$ s.t.
 > 1. it is [[Borel Regular Measure|outer regular]] and [[Borel Regular Measure|inner regular for open sets]].
 > 4. for every compact set $K \subseteq X$, $\mu(K)<\infty$.
 ---

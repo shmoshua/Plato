@@ -1,6 +1,6 @@
 #Definition #Topology  #LieGroups 
 > [!definition]
-> A [[group]] $G$ is ***topological*** if the underlying set is a [[topological space]] and the group operations are continuous, i.e.
+> A [[group]] $G$ is ***topological*** if the underlying set is a [[Topological Space]] and the group operations are continuous, i.e.
 > 1. $m:G\times G\to G,(g,h)\mapsto gh$ is continuous and
 > 2. $i:G\to G,g\mapsto g^{-1}$ is continuous.
 
