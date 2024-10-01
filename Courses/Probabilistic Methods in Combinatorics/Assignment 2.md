@@ -15,6 +15,22 @@ Therefore, from Bollobás, we have: $$E(G)={n\choose 2}-k\geq {n\choose 2}-{n-8 
 
 ---
 #### Problem 4
+We define the following two sets. $$A_{i}:=\{ k\in[n]:a_{ik}\neq b_{ik},a_{ik}=1 \},\quad B_{i}:=\{ k\in[n]:a_{ik}\neq b_{ik},b_{ik}=1 \}$$Then, one easily sees that by assumption $A_i\cap B_{i}=\varnothing$ for all $i\in[m]$. Further, $\left| A_{i}\cup B_{i} \right|=t+1$. 
+1. **Claim 1: for all $i\neq j$, $(A_{i}\cap B_{j})\cup(A_{j}\cap B_{i})\neq \varnothing$.** 
+   Then, $A_{i}\cap B_{j}=\varnothing$ and $A_{j}\cap B_{i}=\varnothing$. From $A_{i}$ and $B_{i}$ wlog we may assume that $\left| A_{i} \right|\geq \frac{t+1}{2}$. 
+   
+   for all $k\in A_{i}$, we have that either $a$
+   
+   As $A_{i}\cap B_{j}=\varnothing$, either 
+   
+   Notice that from the $t+1$ indices where $a_{i}\neq b_{i}$, there needs to exist $k\in[n]$ s.t. $a_{ik}=b_{jk}$. If $a_{ik}=1$, then $k\in A_{i}\cap B_{j}$. If $a_{ik}=0$, then $b_{ik}=0$ and 
+   Let $k\in [n]$ s.t. $a_{ik}\neq b_{ik}$. 
+   
+   Let $k\in[n]$ s.t. $a_{ik}\neq b_{jk}$. Assume that $k\notin A_{i}\cup B_{i}\cup A_{j}\cup B_{j}$. This means, 
+   $$\left| (A_{i}\cap B_{j})\cup(A_{j}\cap B_{i}) \right|=\left| A_{i}\cap B_{j} \right| +\left| A_{j}\cap B_{i} \right|  $$
+	
+	
+
 
 From $a_{i}$ we can create $\overline{a}_{i}\in  \{ 0,1 \}^{t+1}$ by taking only the elements where $a_{i}\neq b_{i}$. Then, consider $A_{i}:=\{ \overline{a}_{i} \}$ and $B_{i}:= \{ 0,1 \}^{t+1} \backslash  A_{i}$. Trivially it holds that $A_{i}\cap B_{i}=\varnothing$.
 
