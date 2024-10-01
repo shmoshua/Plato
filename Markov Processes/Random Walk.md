@@ -30,12 +30,25 @@ Let $T_{0}:=\sum_{i=0}^{\infty}\mathbb{1}_{\{ 0 \}}(X_{n})$. Then, $T_{0}\geq 1$
 2. $\mathbb{E}(T_{0})=\infty$ then $\mathbb{P}(T_{0}=\infty)=1$. 
 ---
 > [!lemma] Theorem 
-> The random walk on $\mathbb{Z}^d$ is recurrent if $d\leq 2$.
+> The random walk on $\mathbb{Z}^d$ is recurrent if and only if $d\leq 2$.
 
-> [!proof]+
+> [!proof]-
 > We have that: $\mathbb{E}(T_{0})=\sum_{n=0}^{\infty}\mathbb{P}(X_{n}=0)$. Thus, $X_{n}$ is recurrent if and only if $\sum_{n=0}^{\infty}\mathbb{P}(X_{n}=0)=+\infty$. We have: $$\begin{align}\mathbb{P}(X_{2n}=k)&=\sum_{\ell\in \mathbb{Z}^d}^{}\mathbb{P}(X_{n}=\ell \land X_{2n}-X_{n}=k-\ell)\\&=\sum_{\ell\in \mathbb{Z}^d}^{}\mathbb{P}(X_{n}=\ell)\mathbb{P}( X_{2n}-X_{n}=k-\ell)\\&=\sum_{\ell\in \mathbb{Z}^d}^{}\mathbb{P}(X_{n}=\ell)\mathbb{P}( X_{n}=k-\ell)\\&\leq \left(\sum_{\ell\in \mathbb{Z}^d}^{} (\mathbb{P}(X_{n}=\ell))^2 \right)^{1/2}\left(\sum_{\ell\in \mathbb{Z}^d}^{} (\mathbb{P}(X_{n}=k-\ell))^2 \right)^{1/2} \end{align}$$Hence, $$\mathbb{P}(X_{2n}=0)=\max_{k\in \mathbb{Z}^d}\mathbb{P}(X_{2n}=k)$$
 > Now, 
-> 1. for $d=1$, $$1=\sum_{\ell=-2n}^{\ell=2n}\mathbb{P}(X_{2n}=\ell)\leq \mathbb{P}(X_{2n}=0)\cdot \sum_{\ell=-2n}^{2n}1=\mathbb{P}(X_{2n}=0)\cdot (4n+1)$$
+> 1. for $d=1$, $$1=\sum_{\ell=-2n}^{\ell=2n}\mathbb{P}(X_{2n}=\ell)\leq \mathbb{P}(X_{2n}=0)\cdot \sum_{\ell=-2n}^{2n}1=\mathbb{P}(X_{2n}=0)\cdot (4n+1)$$Hence, $$\sum_{n=0}^{\infty}\mathbb{P}(X_{n}=0)\geq \sum_{n=0}^{\infty} \frac{1}{4n+1}=+\infty$$
+> 2. for $d\geq 2$, $$1=\sum_{\ell\in [-2n,2n]^d}^{}\mathbb{P}(X_{2n}=\ell)\leq(4n+1)^d \cdot \mathbb{P}(X_{2n}=0)$$Note that: $$\begin{align}\mathbb{E}(\left\| X_{n} \right\| ^{2} )&=\mathbb{E}\left( \left\| \sum_{i=1}^{n}B_{i} \right\|  ^{2} \right) \\&=\mathbb{E}\left( \sum_{i,j=1}^{n}B_{i}^\top B_{j} \right)\\&=\mathbb{E}\left( \sum_{i=1}^{n}\left\| B_{i} \right\| ^2\right)\\&=n \end{align}$$Therefore, by Chebyshev's inequality: $$\mathbb{P}(\left| X_{2n} \right| \geq 2\sqrt{ n })\leq \frac{\mathbb{E}(\left\| X_{2n} \right\| ^{2})}{4n}=\frac{1}{2}$$Hence, $$\frac{1}{2}\leq \mathbb{P}(\left| X_{2n} \right|< 2\sqrt{ n })=\sum_{\ell<2\sqrt{ n }}^{}\mathbb{P}(\left\| X_{2n} \right\|=\ell )\leq \mathbb{P}(X_{2n}=0)\sum_{\left\| \ell \right\| <2\sqrt{ n }}^{}1=\mathbb{P}(X_{2n}=0)(1+n)^{d/2}$$Therefore, $$\sum_{n=0}^{\infty}\mathbb{P}(X_{2n}=0)\geq \sum_{n=0}^{\infty} \frac{1}{(1+n)^{d /2}}$$this is equal to infinity if $d=2$.
 
 ---
-$T_{ij}:=\{ k\in[n]: a_{ik}\neq b_{jk} \}$. Then, 
+$T_{ij}:=\{ k\in[n]: a_{ik}\neq b_{jk} \}$. Then, $\left| T_{ij} \right|,\left| T_{ji} \right|\leq t$ and $\left| T_{ii} \right|=\left| T_{jj} \right|=t+1$. 
+Then, 
+Assume that $T_{ii}\cap T_{jj}$ then: $$\left| T_{ii}\cap T_{jj} \right| =2t+2-\left| T_{ii}\cup T_{jj} \right| $$
+- $k\in T_{ii}\cap T_{jj}$, then $a_{ik}\neq b_{ik}$ and $a_{jk}\neq b_{jk}$. if 
+- there exists $k\in T_{ii}\cap T_{jj}\cap T_{ij}$ s.t. $k\notin T_{ij}$. 
+- if $k\in T_{ii}\cap T_{ij}$ Then, $b_{jk}\neq a_{ik}\neq b_{ik}$ and $b_{ik}=b_{jk}$.
+- if $k\in T_{jj}\cap T_{ij}$ Then, $a_{ik}=a_{jk}$.
+- if $k\in T_{ji}\cap T_{jj}\cap T_{ij}\cap T_{ii}$. Then, $a_{ik}= a_{jk}\neq b_{jk}$
+- 
+
+$k\in T_{ii} \Longleftrightarrow a_{ik}\neq b_{ik}$
+1. if $k\in T_{ij}$ then 
+$$T_{jj}=$$

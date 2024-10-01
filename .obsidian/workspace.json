@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
@@ -279,10 +279,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5034bff08718b3a0",
+  "active": "d7b625245901b5cb",
   "lastOpenFiles": [
-    "Courses/Markov Processes/Markov Processes Roadmap.md",
+    "Probability Theory/Expected Value.md",
     "Markov Processes/Random Walk.md",
+    "Courses/Markov Processes/Markov Processes Roadmap.md",
+    "Machine Learning/Linear Regression.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Graph Theory/Hypergraph.md",
@@ -291,12 +293,10 @@
     "Courses/Probabilistic AI/Homework 1.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
     "Probability Theory/Covariance.md",
-    "Machine Learning/Linear Regression.md",
     "Probability Theory/Conditional Probability.md",
     "Graph Theory/Cut (Graph).md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Variance.md",
-    "Probability Theory/Expected Value.md",
     "Advanced Algorithms/DNF Counting.md",
     "Advanced Algorithms/PRAS.md",
     "Probability Theory/Distribution.md",
