@@ -7,8 +7,9 @@
 ##### Properties
 > [!lemma] Proposition 1
 > Given a Gaussian conditional distribution, i.e. $p(y|x)=\mathcal{N}(\mu,\sigma^{2})$ where $\mathcal{A}=\mathbb{R}$,
-> 1. with the cost function $c(y,a):=(y-a)^{2}$, $$$$
+> 1. with the squared loss cost function $c(y,a):=(y-a)^{2}$, $$a^{*}=\mathbb{E}[y|x]$$
+> 2. with the asymmetric cost $c$
 
 > [!proof]+
 > We have:
-> 1. $\mathbb{E}[(y-a)^{2}|x]=\int_{\mathcal{Y}}(y-a)^{2}\cdot p(y|x) \, dy=\mu$.
+> 1. Observe that: $$\begin{align}\mathbb{E}[(y-a)^2|x]=\mathbb{E}[y^2-2ay+a^{2}|x]=\mathbb{E}[y^2|x]-2a\mathbb{E}[y|x]+a^{2}\end{align} $$Hence, $2a^{*}-2\mathbb{E}[y|x]=0$ and $a^{*}=\mathbb{E}[y|x]$.
