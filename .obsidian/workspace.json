@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/FPRAS.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Markov Processes/Markov Processes Roadmap.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               }
@@ -267,14 +267,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "db3c092cab1360f2",
+  "active": "305b98f5ab61a4db",
   "lastOpenFiles": [
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Courses/Markov Processes/Markov Processes Roadmap.md",
+    "Advanced Algorithms/FPRAS.md",
     "Probabilistic Methods/Bayesian Decision.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
     "Probability Theory/Variance.md",
     "Markov Processes/Random Walk.md",
-    "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Probability Theory/Expected Value.md",
     "Machine Learning/Linear Regression.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
@@ -284,7 +286,6 @@
     "Probability Theory/Covariance.md",
     "Probability Theory/Conditional Probability.md",
     "Graph Theory/Cut (Graph).md",
-    "Probability Theory/Gaussian Distribution.md",
     "Advanced Algorithms/DNF Counting.md",
     "Advanced Algorithms/PRAS.md",
     "Probability Theory/Distribution.md",
@@ -295,7 +296,6 @@
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Logic",
     "Advanced Algorithms/FPTAS.md",
-    "Advanced Algorithms/FPRAS.md",
     "Untitled",
     "Courses/Probabilistic AI",
     "Courses/Information Theory",

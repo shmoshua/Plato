@@ -62,3 +62,10 @@
 ^89a1c5
 
 ---
+> [!lemma] Proposition 4 (Absolute Value of Gaussian)
+> Let $Z \sim \mathcal{N}(m,\sigma^{2})$. Then, 
+> 1. $\mathbb{E}[\left| Z \right|]=\sigma\sqrt{ \frac{2}{\pi} }+\frac{m\sqrt{ \pi }}{\sigma}$
+
+> [!proof]-
+> We have:$$\begin{align}\mathbb{E}[\left| Z \right| ]&=\frac{2}{\sqrt{ 2\pi \sigma^{2} }}\int_{0}^{\infty} z e^{-(z-m)^{2}/2\sigma^{2}} \, dz\\&=\frac{2}{\sqrt{ 2\pi \sigma^{2} }}\int_{0}^{\infty} (z+m) e^{-z^{2}/2\sigma^{2}} \, dz\\&=\frac{2}{\sqrt{ 2\pi \sigma^{2} }}\left( \int_{0}^{\infty} z e^{-z^{2}/2\sigma^{2}} \, dz +m\int_{0}^{\infty} e^{-z^{2}/2\sigma^{2}} \, dz  \right)\\&=\frac{2}{\sqrt{ 2\pi \sigma^{2} }}\left( \sigma^{2}+\frac{m\pi }{\sqrt{ 2 }} \right)\\&=\sigma\sqrt{ \frac{2}{\pi} }+\frac{m\sqrt{ \pi }}{\sigma}\end{align}$$
+---
