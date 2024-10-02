@@ -38,7 +38,9 @@
 > [!lemma] Theorem 3
 > $2^{k-2}\sqrt{ \frac{k}{\log k} }\leq m(k)$ 
 
-> [!proof]+
+^cbd750
+
+> [!proof]-
 > Let $H:=(V,E)$ be a $k$-uniform hypergraph. Then, for every $v\in V$, we draw $x_{v} \sim \mathcal{U}([0,1])$ and sort the vertices into $v_{1},\dots,v_{n}$. We follow the algorithm: 
 > 1. Color $v$ red whenever possible.
 > 2. Color $v$ blue if coloring $v$ red would make some edge incident to $v$ monochromatic red.
@@ -49,5 +51,10 @@
 > 1. **Claim 1**: $\mathbb{P}(\exists e\in E:x_{v}\in R, \text{for all }v\in e)=\left( \frac{1-p}{2} \right)^k=2^{-k}(1-p)^k\leq 2^{-k}e^{-pk}$
 > 2. **Claim 2**: $\mathbb{P}(\exists e\in E:x_{v}\in B, \text{for all }v\in e)\leq 2^{-k}e^{-pk}$ by symmetry.
 >    
->  Now, let $(e,f)$ be a conflicting pair on node $v$. Then, $$\begin{align}\mathbb{P}((e,f))\end{align}$$
->    
+>  Now, let $(e,f)$ be a pair of vertices where $e\cap f=\{ v \}$. Then, $$\begin{align}\mathbb{P}((e,f)\text{ is a conflicting pair}|x_{v}=x)=x^{k-1}(1-x)^{k-1}\end{align}$$Therefore, as $x(1-x)\leq \frac{1}{4},$$$\mathbb{P}((e,f)\text{ is a conflicting pair}\land x_{v}\in P)=\int_{\frac{1-p}{2}}^{\frac{1+p}{2}}x^{k-1}(1-x)^{k-1}  \, dx\leq \frac{p}{4^{k-1}} $$
+>  
+>  In conclusion, set $m:=q 2^{k-1}$ and: $$\mathbb{P}(H\text{ has a conflicting pair})\leq m\cdot 2\cdot 2^{-k}e^{-pk}+m^{2} \frac{p}{4^{k-1}}=qe^{-pk}+q^2p$$To make this strictly less than 1, we can choose $p=\log k / k$ and $q=\frac{1}{2}\sqrt{ \frac{k}{\log k} }$. This concludes the statement.
+
+^a8679e
+
+---
