@@ -6,11 +6,12 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Doeblin)
-> Let $P$ be the transition matrix of a [[Markov chain]]. If there exists some state $j_{0}\in \mathcal{S}$ and $\varepsilon>0$ s.t. $P_{ij_{0}}\geq \varepsilon$ for all $i\in \mathcal{S}$, then: 
-> 1. $P$ has a unique stationary probability distribution $\pi$ with $\pi_{j_{0}}\geq \varepsilon$ and
-> 2. for all initial distributions $\mu$, $$\left\| \mu P^n-\pi \right\|_{1}\leq (1-\varepsilon)^n\left\| \mu-\pi \right\| _{1}\leq(1-\varepsilon)^n$$
+> Let $P$ be the transition matrix of a [[Markov chain]]. If $P$ has the ***Doeblin property***, i.e.  there exists some state $j_{0}\in \mathcal{S}$ and $\varepsilon>0$ s.t. $P_{ij_{0}}\geq \varepsilon$ for all $i\in \mathcal{S}$, then: 
+> 1. $P$ has a unique stationary probability distribution $\pi$.
+> 2. $\pi_{j_{0}}\geq \varepsilon$ and
+> 3. for all initial distributions $\mu$, $$\left\| \mu P^n-\pi \right\|_{1}\leq (1-\varepsilon)^n\left\| \mu-\pi \right\| _{1}\leq 2(1-\varepsilon)^n$$
 
-> [!proof]+
+> [!proof]-
 > Let $\rho$ be a row vector with $\left\| \rho \right\|_{1}<+\infty$. Then, 
 > 1. Claim 1: $\sum_{j\in \mathcal{S}}^{}(\rho P)_{j}=\sum_{j\in \mathcal{S}}^{}\sum_{i\in \mathcal{S}}^{}\rho_{i}P_{ij}=\sum_{i\in \mathcal{S}}^{}\rho_{i}\sum_{j\in \mathcal{S}}^{}P_{ij}=\sum_{i\in \mathcal{S}}^{}\rho_{i}$
 > 2. **Claim 2: if $\sum_{i}^{}\rho_{i}=0$ then $\left\| \rho P^n \right\|_{1}\leq(1-\varepsilon)^n\left\| \rho \right\|_{1}$ for all $n\geq 0$.**
@@ -20,4 +21,24 @@
 >  1. $\mu_{n}=\mu_{n-m}P^m$
 >  2. $\sum_{i}^{}(\mu_{n-m})_{i}-\mu_{i}=0$
 >     
->    Therefore, $$\begin{align}\left\| \mu_{n}-\mu_{m} \right\| _{1}=\left\| \mu_{n-m}P^m-\mu P^m \right\| _{1}\leq \left\| (\mu_{n-m}-\mu)P^m \right\|_{1}\leq(1-\varepsilon)^m \left\| \mu_{n-m}-\mu \right\| _{1} \end{align}$$
+>    Therefore, $$\begin{align}\left\| \mu_{n}-\mu_{m} \right\| _{1}=\left\| \mu_{n-m}P^m-\mu P^m \right\| _{1}\leq \left\| (\mu_{n-m}-\mu)P^m \right\|_{1}\leq(1-\varepsilon)^m \left\| \mu_{n-m}-\mu \right\| _{1} \end{align}$$This shows that $(\mu_{n})_{n}$ is a Cauchy sequence and there exists $\pi:=\lim_{ n \to \infty }\mu_{n}$ in $\ell^1(\mathcal{S})$ and: $$\pi=\lim_{ n \to \infty } \mu P^n=(\lim_{ n \to \infty } \mu P^n)P=\pi P$$and $\pi$ is stationary. Further, $\pi$ is a probability measure. 
+>    
+>    Lastly, $(\pi)_{j_{0}}=\sum_{i}^{}\pi_{i}P_{ij_{0}}\geq \varepsilon$. 
+> 
+> ---
+>  To show uniqueness, let $\nu$ be an arbitrary probability measure s.t. $$\left\| \nu P^m-\pi \right\| _{1}=\left\| (\nu-\pi)P^m \right\|_{1}\leq(1-\varepsilon)^m\|\nu-\pi\|\leq 2(1-\varepsilon)^m $$
+- **Remark**: $\pi$ is a left eigenvector of $P$ and $1$ is a right eigenvector of $P$.
+---
+> [!lemma] Theorem 2 (Doeblin, extended)
+> Let $P$ be the transition matrix of a [[Markov chain]]. If there exists some $M\geq 1$ and $\varepsilon>0$ s.t. $\sup_{j}\inf_{i} (P^M)_{ij}\geq \varepsilon$ for all $i\in \mathcal{S}$, then: 
+> 1. $P$ has a unique stationary probability distribution $\pi$.
+> 2. $\pi_{j_{0}}\geq \varepsilon$ and
+> 3. for all initial distributions $\mu$, $$\left\| \mu P^n-\pi \right\|_{1}\leq (1-\varepsilon)^{\left\lfloor n/M\right\rfloor }\left\| \mu-\pi \right\| _{1}\leq 2(1-\varepsilon)^{\left\lfloor n/M\right\rfloor }$$
+- **Corollary**: for any bounded function $f$, we have that: $$$$
+---
+> [!lemma] Theorem 3
+> Let $P$ be the transition matrix of a [[Markov chain]] and we define: $A_{n}=\frac{1}{n}\sum_{m=0}^{n-1}P^m$. If for $M\in \mathbb{Z}^+$, $j_{0}\in\mathcal{S}$ and $\varepsilon>0$, it holds that $(A_{M})_{ij_{0}}\geq \varepsilon$ for all $i$, then: 
+> 1. $P$ has a unique stationary probability distribution $\pi$.
+> 2. $\pi_{j_{0}}\geq \varepsilon$ and
+> 3. for all initial distributions $\mu$, $$\left\| \mu A_{n}-\pi \right\|_{1}\leq \frac{M-1}{n \varepsilon}$$
+---
