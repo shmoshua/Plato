@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Markov Processes/Markov Chain.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,7 +44,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -57,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Zariski Topology.md",
+                "file": "Markov Processes/Markov Chain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -81,14 +82,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Algebra/Submodule.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Markov Processes/Markov Chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Markov Processes/Markov Chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md"
+                "file": "Markov Processes/Markov Chain.md"
               }
             }
           }
@@ -218,12 +218,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3c2835e31a45e64a",
+  "active": "9a5586fb46510eef",
   "lastOpenFiles": [
-    "Algebra/Algebra.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Module.md",
+    "Algebra/Submodule.md",
+    "Markov Processes/Markov Chain.md",
     "Topology/Zariski Topology.md",
+    "Algebra/Module.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Algebra.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Algebra/Variety.md",
     "Algebra/Ring of Polynomial Functions.md",
@@ -245,8 +247,6 @@
     "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Graph Theory/Hypergraph.md",
-    "Courses/Probabilistic AI/Homework 1.md",
     "Logic",
     "Untitled",
     "Courses/Probabilistic AI",
