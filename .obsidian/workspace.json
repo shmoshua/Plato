@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Markov Processes/Markov Processes Roadmap.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Zariski Topology.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -58,7 +58,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Girth.md",
+                "file": "Graph Theory/Hypergraph.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4593e84b40e1beaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Girth.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Girth.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Girth.md"
+                "file": "Graph Theory/Hypergraph.md"
               }
             }
           }
@@ -206,18 +218,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "dc97252912affa1f",
+  "active": "305b98f5ab61a4db",
   "lastOpenFiles": [
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Topology/Zariski Topology.md",
+    "Graph Theory/Hypergraph.md",
     "Graph Theory/Girth.md",
-    "Markov Processes/Stationary Distribution.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
-    "Functional Analysis/Ergodic Measure.md",
     "Algebra/Submodule.md",
+    "Markov Processes/Stationary Distribution.md",
+    "Functional Analysis/Ergodic Measure.md",
     "Functional Analysis/Space of Probability Measures.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Topology/Zariski Topology.md",
     "Algebra/Module.md",
     "Algebra/Algebra.md",
     "Commutative Algebra/Morphism (Variety).md",
@@ -234,7 +247,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Machine Learning/Bayesian.md",
     "TIKZ.md",
-    "Probabilistic Methods/Bayesian Decision.md",
     "Logic",
     "Untitled",
     "Courses/Probabilistic AI",

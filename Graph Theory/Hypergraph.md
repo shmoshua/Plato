@@ -35,3 +35,4 @@
 
 - **Remark**: The best known lower bound is $c\sqrt{ k / \log k } \cdot 2^k\leq m(k)$. ^16c0c2
 ---
+> [!lemma] Theorem 3 

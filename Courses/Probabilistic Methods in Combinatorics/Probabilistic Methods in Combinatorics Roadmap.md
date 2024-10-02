@@ -87,3 +87,9 @@ $(A_{i},B_{i})$ where $1\leq i\leq m$ where $\left| A_{i} \right|=a$ and $\left|
 
 #### 3.1 High Girth and High Chromatic Number
 ![[Girth#^803604]]
+
+---
+![[Girth#^4ba9e0]]
+![[Girth#^819748|p]]
+
+---
