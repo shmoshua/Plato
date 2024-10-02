@@ -31,4 +31,8 @@
 ![[Random Walk#^3b4697|q]]
 ![[Random Walk#^15327c|q]]
 
+[!TODO] Things to add
+
 ---
+
+### 3. Long Time Behaviors

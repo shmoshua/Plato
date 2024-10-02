@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Courses/Markov Processes/Markov Processes Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Markov Processes/Stationary Distribution.md",
                 "mode": "source",
                 "source": true
               }
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Courses/Markov Processes/Markov Processes Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Markov Processes/Stationary Distribution.md",
                 "mode": "preview",
                 "source": true
               }
@@ -88,7 +88,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Markov Processes/Stationary Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Markov Processes/Stationary Distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markov Processes/Markov Chain.md"
+                "file": "Markov Processes/Stationary Distribution.md"
               }
             }
           }
@@ -220,11 +221,13 @@
   },
   "active": "9a5586fb46510eef",
   "lastOpenFiles": [
-    "Algebra/Submodule.md",
+    "Courses/Markov Processes/Markov Processes Roadmap.md",
+    "Markov Processes/Stationary Distribution.md",
     "Markov Processes/Markov Chain.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Submodule.md",
     "Topology/Zariski Topology.md",
     "Algebra/Module.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Algebra.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Algebra/Variety.md",
@@ -242,11 +245,9 @@
     "TIKZ.md",
     "Probabilistic Methods/Bayesian Decision.md",
     "Markov Processes/Random Walk.md",
-    "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Advanced Algorithms/FPRAS.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Logic",
     "Untitled",
     "Courses/Probabilistic AI",
