@@ -34,7 +34,7 @@
 > 1. $P$ has a unique stationary probability distribution $\pi$.
 > 2. $\pi_{j_{0}}\geq \varepsilon$ and
 > 3. for all initial distributions $\mu$, $$\left\| \mu P^n-\pi \right\|_{1}\leq (1-\varepsilon)^{\left\lfloor n/M\right\rfloor }\left\| \mu-\pi \right\| _{1}\leq 2(1-\varepsilon)^{\left\lfloor n/M\right\rfloor }$$
-- **Corollary**: for any bounded function $f$, we have that: $$$$
+- **Corollary**: for any bounded function $f$, we have that: $$\left| \mu P^nf-\pi f \right| =\left| \mu P^nf-\mu \cdot \overline{\pi f} \right| \leq 2(1-\varepsilon)^{\left\lfloor n / M\right\rfloor }\left\| f \right\| _{b}$$and hence $\left\| P^nf-\pi f \right\|_{b}\leq 2(1-\varepsilon)^{\left\lfloor n / M\right\rfloor }\left\| f \right\| _{b}$.
 ---
 > [!lemma] Theorem 3
 > Let $P$ be the transition matrix of a [[Markov chain]] and we define: $A_{n}=\frac{1}{n}\sum_{m=0}^{n-1}P^m$. If for $M\in \mathbb{Z}^+$, $j_{0}\in\mathcal{S}$ and $\varepsilon>0$, it holds that $(A_{M})_{ij_{0}}\geq \varepsilon$ for all $i$, then: 
@@ -42,3 +42,7 @@
 > 2. $\pi_{j_{0}}\geq \varepsilon$ and
 > 3. for all initial distributions $\mu$, $$\left\| \mu A_{n}-\pi \right\|_{1}\leq \frac{M-1}{n \varepsilon}$$
 ---
+> [!lemma] Theorem 4 (Mean Ergodic Theorem)
+> Let $\{ X_{n} \}_{n\geq 0}$ be a Markov chain with transition probability $P$. Further, let: $$\overline{T}_{j}^{(n)}:=\frac{1}{n}\sum_{m=0}^{n-1}\mathbb{1}_{\{ j \}}(X_{m})$$If for $M\in \mathbb{Z}^+$, $j_{0}\in\mathcal{S}$ and $\varepsilon>0$, it holds that $(A_{M})_{ij_{0}}\geq \varepsilon$ for all $i$, then: 
+> 1. it holds that:$$\sup_{j\in \mathcal{S}}\mathbb{E}\left[ \left(\overline{T}^{(n)}_{j}-\pi_{j}\right)^2 \right] \leq \frac{2(M-1)}{n\varepsilon},\quad \forall n\geq 1$$
+> 2. for any $f\in \ell^\infty(\mathcal{S})$, $$\mathbb{E}\left[ \left( \frac{1}{n}\sum_{m=0}^{n-1}f(X_{m})-\pi f \right) ^{2} \right] \leq \frac{4(M-1)}{n\varepsilon}\left\| f \right\| ^{2}_{\infty}$$
