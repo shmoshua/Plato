@@ -20,7 +20,7 @@
 
 ^f62e41
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. $0\leq H(X|Y=y)\leq \log \left| \mathcal{X} \right|$ for all $y$.
 > 2. We have: $$H(X,Y)=-\mathbb{E}(\log p_{XY}(X,Y))=-\mathbb{E}(\log p_{X}(X))-\mathbb{E}(\log p(X|Y))=H(X)+H(Y|X)$$
@@ -30,3 +30,10 @@
 ^8e99d6
 
 ---
+
+> [!lemma] Theorem (Fano's Inequality)
+> Let $X,Y$ be random variables over $\mathcal{X}$ and $\mathcal{Y}$. Let $\Phi:\mathcal{Y}\to \mathcal{X}$ be a [[Maximum A Posteriori Estimation|maximum a posteriori]] guessing function. Then, $$H(X|Y)\leq H_{b}(P_{e})+P_{e}\log(\left| \mathcal{X} \right| -1)$$where $P_{e}:=\mathbb{P}(\Phi(Y)\neq X)$.
+
+> [!proof]+
+> Given $\Phi:\mathcal{Y}\to \mathcal{X}$, we have that:
+> $$H(X,\mathbb{1}_{\{ \Phi(Y)\neq X \}}|Y)=H(X|Y)+\underbrace{ H(\mathbb{1}_{\{ \Phi(Y)\neq X \}}|X,Y) }_{ =0 }$$ Therefore, $$\begin{align}H(X|Y)&=H(\mathbb{1}_{\{ \Phi(Y)\neq X \}}|Y)+H(X|Y,\mathbb{1}_{\{ \Phi(Y)\neq X \}})\\&\leq H(\mathbb{1}_{\{ \Phi(Y)\neq X \}})+H(X|Y,\mathbb{1}_{\{ \Phi(Y)\neq X \}})\\&\end{align}$$

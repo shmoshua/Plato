@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "file": "Information Theory/Mutual Information.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -70,13 +70,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "file": "Information Theory/Mutual Information.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b16914257432228c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "file": "Information Theory/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "file": "Information Theory/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md"
+                "file": "Information Theory/Entropy.md"
               }
             }
           }
@@ -206,10 +219,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2f091b04535788d4",
+  "active": "305b98f5ab61a4db",
   "lastOpenFiles": [
-    "Advanced Algorithms/DNF Counting.md",
+    "Graph Theory/Hypergraph.md",
+    "Information Theory/Entropy.md",
+    "Information Theory/Mutual Information.md",
+    "Probability Theory/Conditional Probability.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
+    "Advanced Algorithms/DNF Counting.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Advanced Algorithms/FPRAS.md",
     "Advanced Algorithms/PRAS.md",
@@ -218,7 +235,6 @@
     "Graph Theory/Graph.md",
     "Graph Theory/Hypercube (Graph).md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Graph Theory/Hypergraph.md",
     "Probabilistic Methods/Ramsey Number.md",
     "Graph Theory/Girth.md",
     "Algebra/Submodule.md",
@@ -231,9 +247,6 @@
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Module.md",
     "Algebra/Algebra.md",
-    "Commutative Algebra/Morphism (Variety).md",
-    "Algebra/Variety.md",
-    "Algebra/Ring of Polynomial Functions.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
