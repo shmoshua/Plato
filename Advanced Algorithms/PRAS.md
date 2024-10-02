@@ -23,7 +23,26 @@
 ---
 ##### Examples
 > [!h] Example 1 (Sampling)
-> Let $S$ be a set and $U\subseteq S$. We aim to find $f_{\text{OPT}}:=\left| U \right| / \left| S \right|$. 
-> 1. We need $\Theta\left( \frac{1}{f_{\text{OPT}}}\cdot \frac{\log(1/\delta)}{\varepsilon^{2}} \right)$ samples to ensure that $P(\left| \mathcal{A}_{\varepsilon}-f_{\text{OPT}} \right|>\varepsilon f_{\text{OPT}})\leq\delta$.
+> Let $S$ be a set and $T\subseteq S$. We aim to find $\left| T \right|/\left| S \right|$. Then, 
+>    ```pseudo
+>    \begin{algorithm} \caption{$\mathcal{A}_{\varepsilon}(S)$} 
+>    \begin{algorithmic}
+>    \State $c\gets 0$
+>    \For{$i\in[m]$}
+>    \State Sample $x_{i}$ from $S$ uniformly randomly
+>    \If{$x_{i}\in T$}
+>    \State $c\gets c+1$
+>    \EndIf
+>    \EndFor
+>    \Return $c /m$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+> Then,
+> 1. for $m:=\Theta\left( \frac{\left| S \right|}{\left| T \right|}\varepsilon^{-2} \log(1/\delta)\right)$ samples, $\mathbb{P}\left( \left| \mathcal{A}_{\varepsilon}(S)-\frac{\left| T \right|}{\left| S \right|} \right|>\varepsilon \frac{\left| T \right|}{\left| S \right|}\right)\leq\delta$.
 
 ^858f88
+
+> [!proof]+
+> We have that: 
+> 1. Let $X$ denote the number of elements in $T$ from the $m$ samples. Then, $$\mathbb{E}[X]=m\cdot \mathbb{P}(x_{i}\in T)=m\cdot \frac{\left| T \right|}{\left| S \right| } $$Therefore, by Chernoff bounds, $$\begin{align}\mathbb{P}\left(   \left|  \frac{X}{m} -\frac{\left| T \right| }{\left| S \right|\right} \right|\geq(1+\varepsilon)m\frac{\left| T \right| }{\left| S \right| } \right)&=\mathbb{P}\left(  X \geq(1+\varepsilon)m\frac{\left| T \right| }{\left| S \right| } \right)\\&\leq \exp\end{align}$$

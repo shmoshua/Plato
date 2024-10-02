@@ -38,14 +38,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hypercube (Graph).md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "260489b4945a3785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Algorithms/PRAS.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -58,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hypercube (Graph).md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "mode": "preview",
                 "source": true
               }
@@ -70,13 +82,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Advanced Algorithms/PRAS.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Hypercube (Graph).md",
+                "file": "Advanced Algorithms/PRAS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Hypercube (Graph).md",
+                "file": "Advanced Algorithms/PRAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Hypercube (Graph).md"
+                "file": "Advanced Algorithms/PRAS.md"
               }
             }
           }
@@ -206,11 +219,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2f091b04535788d4",
+  "active": "260489b4945a3785",
   "lastOpenFiles": [
+    "Advanced Algorithms/Bin-Packing.md",
+    "Advanced Algorithms/PRAS.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Graph.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Hypercube (Graph).md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Hypergraph.md",
     "Probabilistic Methods/Ramsey Number.md",
     "Graph Theory/Girth.md",
@@ -232,9 +248,6 @@
     "Machine Learning/Linear Regression.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Advanced Algorithms/Bin-Packing.md",
-    "Machine Learning/Bayesian Network.md",
-    "Machine Learning/Maximum Likelihood Estimation.md",
     "Logic",
     "Untitled",
     "Courses/Probabilistic AI",
