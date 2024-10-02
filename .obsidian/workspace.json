@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Mutual Information.md",
+                "file": "Courses/Information Theory/Exercise Sheet 3.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Mutual Information.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,14 +82,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Courses/Information Theory/Exercise Sheet 3.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b5abb2c372b6e343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Algorithms/Monotone Submodular Maximization.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Theory/Mutual Information.md",
+                "file": "Courses/Information Theory/Exercise Sheet 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Theory/Mutual Information.md",
+                "file": "Courses/Information Theory/Exercise Sheet 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Theory/Mutual Information.md"
+                "file": "Courses/Information Theory/Exercise Sheet 3.md"
               }
             }
           }
@@ -219,10 +231,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "82c3937039e2a342",
+  "active": "984e1701d73fa222",
   "lastOpenFiles": [
     "Information Theory/Entropy.md",
+    "Courses/Information Theory/Exercise Sheet 3.md",
     "Information Theory/Mutual Information.md",
+    "Advanced Algorithms/Monotone Submodular Maximization.md",
     "Graph Theory/Girth.md",
     "Information Theory/Code.md",
     "Graph Theory/Graph.md",
@@ -245,8 +259,6 @@
     "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Markov Processes/Stationary Distribution.md",
     "Functional Analysis/Ergodic Measure.md",
-    "Functional Analysis/Space of Probability Measures.md",
-    "Markov Processes/Markov Chain.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
