@@ -11,7 +11,7 @@
 - **Remark**: The joint entropy is symmetric.
 ---
 ##### Properties
-> [!lemma] Lemma 1 (Properties of Entropy)
+> [!lemma] Lemma 1 (Properties of Conditional Entropy)
 > We have:
 > 1. $0\leq H(X|Y)\leq \log \left| \mathcal{X} \right|$
 > 2. $H(X,Y)=H(X)+H(Y|X)$
@@ -34,6 +34,6 @@
 > [!lemma] Theorem (Fano's Inequality)
 > Let $X,Y$ be random variables over $\mathcal{X}$ and $\mathcal{Y}$. Let $\Phi:\mathcal{Y}\to \mathcal{X}$ be a [[Maximum A Posteriori Estimation|maximum a posteriori]] guessing function. Then, $$H(X|Y)\leq H_{b}(P_{e})+P_{e}\log(\left| \mathcal{X} \right| -1)$$where $P_{e}:=\mathbb{P}(\Phi(Y)\neq X)$.
 
-> [!proof]+
+> [!proof]-
 > Given $\Phi:\mathcal{Y}\to \mathcal{X}$, we have that:
-> $$H(X,\mathbb{1}_{\{ \Phi(Y)\neq X \}}|Y)=H(X|Y)+\underbrace{ H(\mathbb{1}_{\{ \Phi(Y)\neq X \}}|X,Y) }_{ =0 }$$ Therefore, $$\begin{align}H(X|Y)&=H(\mathbb{1}_{\{ \Phi(Y)\neq X \}}|Y)+H(X|Y,\mathbb{1}_{\{ \Phi(Y)\neq X \}})\\&\leq H(\mathbb{1}_{\{ \Phi(Y)\neq X \}})+H(X|Y,\mathbb{1}_{\{ \Phi(Y)\neq X \}})\\&\end{align}$$
+> $$H(X,\mathbb{1}_{\{ \Phi(Y)\neq X \}}|Y)=H(X|Y)+\underbrace{ H(\mathbb{1}_{\{ \Phi(Y)\neq X \}}|X,Y) }_{ =0 }$$ Therefore, $$\begin{align}H(X|Y)&=H(\mathbb{1}_{\{ \Phi(Y)\neq X \}}|Y)+H(X|Y,\mathbb{1}_{\{ \Phi(Y)\neq X \}})\\&\leq H(\mathbb{1}_{\{ \Phi(Y)\neq X \}})+\mathbb{P}(\Phi(Y)= X)\underbrace{ H(X|Y,\Phi(Y)=X) }_{ =0 }+\mathbb{P}(\Phi(Y)\neq X)H(X|Y,\Phi(Y)\neq X)\\&\le H_{b}(P_{e})+P_{e}\log(\left| \mathcal{X} \right| -1)\end{align}$$

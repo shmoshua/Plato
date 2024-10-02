@@ -21,3 +21,8 @@
 > 4. We have: $$\begin{align}H(X,Y)-H(X,Y|Z)&=H(X)+H(Y|X)-H(X|Z)-H(Y|X,Z)\\&=I(X;Z)+I(Y;Z|X)\end{align}$$The other one holds by symmetry.
 - **Corollary**: $H(X|Y)\leq H(X)$ for all $X,Y$. 
 ---
+> [!lemma] Proposition 2 (Csiszár's Identity)
+> For any pair of random vectors $(A_{1},\dots,A_{n}),(B_{1},...,B_{n})$, $$\sum_{i=1}^{n}(I(A_{i+1:n};B_{i}|B_{1:i-1})-I(B_{1:i-1};A_{i}|A_{i+1:n}))=0$$
+
+> [!proof]+
+> We have that 

@@ -52,7 +52,6 @@
 >\node[dot] (x1a) at (13,-1.5) {$x_i$};
 >\node[dot] (ta) at (14.05,-1.6) {$\footnotesize{i\in[n]}$};
 >
->
 >%edges
 >\draw[edge] (a) to (b);
 >\draw[edge] (a) to (b1);
