@@ -20,6 +20,8 @@
 
 ^9346bc
 
+
+
 ---
 ##### Examples
 > [!h] Example 1 (Sampling)
@@ -39,10 +41,15 @@
 >    \end{algorithm}
 >    ```
 > Then,
-> 1. for $m:=\Theta\left( \frac{\left| S \right|}{\left| T \right|}\varepsilon^{-2} \log(1/\delta)\right)$ samples, $\mathbb{P}\left( \left| \mathcal{A}_{\varepsilon}(S)-\frac{\left| T \right|}{\left| S \right|} \right|>\varepsilon \frac{\left| T \right|}{\left| S \right|}\right)\leq\delta$.
+> 1. for $m:=\Theta\left( \frac{\left| S \right|}{\left| T \right|}\varepsilon^{-2} \log(1/\delta)\right)$ samples, $\mathbb{P}\left( \left| \mathcal{A}_{\varepsilon}(S)-\frac{\left| T \right|}{\left| S \right|} \right|\geq\varepsilon \frac{\left| T \right|}{\left| S \right|}\right)\leq\delta$.
+> 
 
 ^858f88
 
-> [!proof]+
+> [!proof]-
 > We have that: 
-> 1. Let $X$ denote the number of elements in $T$ from the $m$ samples. Then, $$\mathbb{E}[X]=m\cdot \mathbb{P}(x_{i}\in T)=m\cdot \frac{\left| T \right|}{\left| S \right| } $$Therefore, by Chernoff bounds, $$\begin{align}\mathbb{P}\left(   \left|  \frac{X}{m} -\frac{\left| T \right| }{\left| S \right|\right} \right|\geq(1+\varepsilon)m\frac{\left| T \right| }{\left| S \right| } \right)&=\mathbb{P}\left(  X \geq(1+\varepsilon)m\frac{\left| T \right| }{\left| S \right| } \right)\\&\leq \exp\end{align}$$
+> 1. Let $X$ denote the number of elements in $T$ from the $m$ samples. Then, $$\mathbb{E}[X]=m\cdot \mathbb{P}(x_{i}\in T)=m\cdot \frac{\left| T \right|}{\left| S \right| } $$Therefore, by Chernoff bounds, $$\begin{align}\mathbb{P}\left(   \left|  \frac{X}{m} -\frac{\left| T \right| }{\left| S \right|} \right|\geq \varepsilon \frac{\left| T \right| }{\left| S \right| } \right)&=\mathbb{P}\left( \left| X-\mathbb{E}[X] \right| \geq \varepsilon \mathbb{E}[X]\right)\\&\leq 2\exp \left( -\frac{\varepsilon^{2}m}{3} \cdot \frac{\left| T \right|}{\left| S \right| }\right) \end{align}$$We then get that: for $m=\Theta\left( \frac{\left| S \right|}{\left| T \right|}\varepsilon^{-2} \log(1/\delta)\right)$, the probability is bounded by $\delta$.
+> 2. The probability that we sample an element from $T$ is $\left| T \right| / \left| S \right|$. Therefore, by geometric distribution, the expected number of trials we need is: $\frac{\left| S \right| }{\left| T \right| }$. Hence, if we sample only $O\left( \frac{\left| S \right|}{\left| T \right|} \right)$ we may never sample an element from $T$. 
+
+^bf590a
+

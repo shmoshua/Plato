@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Bin-Packing.md",
+                "file": "Advanced Algorithms/PRAS.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/PRAS.md",
+                "file": "Courses/Advanced Algorithms/Exercise 02.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Bin-Packing.md",
+                "file": "Courses/Advanced Algorithms/Exercise 02.md",
                 "mode": "preview",
                 "source": true
               }
@@ -88,8 +88,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Algorithms/PRAS.md",
+                "file": "Courses/Advanced Algorithms/Exercise 02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Algorithms/PRAS.md",
+                "file": "Courses/Advanced Algorithms/Exercise 02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Algorithms/PRAS.md"
+                "file": "Courses/Advanced Algorithms/Exercise 02.md"
               }
             }
           }
@@ -219,10 +218,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "260489b4945a3785",
+  "active": "dc97252912affa1f",
   "lastOpenFiles": [
-    "Advanced Algorithms/Bin-Packing.md",
     "Advanced Algorithms/PRAS.md",
+    "Courses/Advanced Algorithms/Exercise 02.md",
+    "Advanced Algorithms/Bin-Packing.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Hypercube (Graph).md",
@@ -247,7 +247,6 @@
     "Commutative Algebra",
     "Machine Learning/Linear Regression.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Logic",
     "Untitled",
     "Courses/Probabilistic AI",
