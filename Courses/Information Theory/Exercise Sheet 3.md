@@ -17,5 +17,9 @@ $$\begin{align}H(\mathcal{S}\cup \mathcal{T})+H(\mathcal{S}\cap \mathcal{T})&= H
 6. Let $g:\mathcal{X}^2\to \{ 0,1 \}^{*}$ be $g(00)=g(11)=\Lambda$, $g(01)=0$ and $g(10)=1$. Then, $$f:\mathcal{X}^4\to \{ 0,1 \}^{*},\quad (X_{1},X_{2},X_{3},X_{4})=g(X_{1},X_{2})g(X_{3},X_{4})$$
 ---
 ##### Problem 4
+Consider two independent fair coin flips and let $X,Y$ be the indicator variable of first and second flip showing heads respectively. Now, let $Z$ be the indicator variable that $X=Y$. Then, 
+$$I(X;Y|Z)=H(X|Z)-\underbrace{ H(X|Y,Z)}_{ =0 }=H(X|Z)=1>0=I(X;Y) $$as $X{\bot} Y$.
+However, $$I(X;Z|Y)=H(Z|Y)-H(Z|X,Y)=H(Z|Y)$$
 
-Consider two coin flips and let $X,Y$ be the indicator variable 
+---
+##### Problem 5
