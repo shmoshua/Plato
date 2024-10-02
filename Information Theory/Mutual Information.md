@@ -25,4 +25,4 @@
 > For any pair of random vectors $(A_{1},\dots,A_{n}),(B_{1},...,B_{n})$, $$\sum_{i=1}^{n}(I(A_{i+1:n};B_{i}|B_{1:i-1})-I(B_{1:i-1};A_{i}|A_{i+1:n}))=0$$
 
 > [!proof]+
-> We have that 
+> We have that: $$\begin{align}I(A_{i+1:n};B_{i}|B_{1:i-1})&=I(B_{1:i-1},A_{i+1:n};B_{i})-I(B_{1: i-1};B_{i})\\&=H(B_{i})-H(B_{i}|B_{1:i-1},A_{i+1:n})-H(B_{i})+H(B_{i}|B_{1:i-1})\\&=H(B_{i}|B_{1:i-1})-H(B_{i}|B_{1:i-1},A_{i+1:n})\end{align}$$and $$\begin{align}I(B_{1:i-1};A_{i}|A_{i+1:n})&=I(A_{i+1;n},B_{1: i-1};A_{i})-I(A_{i+1:n};A_{i})\\&=H(A_{i}|A_{i+1:n})-H(A_{i}|A_{i+1:n},B_{1:i-1})\end{align}$$Therefore, $$\begin{align}&\sum_{i=1}^{n}(I(A_{i+1:n};B_{i}|B_{1:i-1})-I(B_{1:i-1};A_{i}|A_{i+1:n}))\\=&\sum_{i=1}^{n}H(B_{i}|B_{1:i-1})-H(B_{i}|B_{1:i-1},A_{i+1:n})-H(A_{i}|A_{i+1:n})+H(A_{i}|A_{i+1:n},B_{1:i-1})\\=&\sum_{i=1}^{n}H(B_{1:i})-H(B_{i}|B_{1:i-1},A_{i+1:n})-H(A_{i}|A_{i+1:n})+H(A_{i}|A_{i+1:n},B_{1:i-1})\end{align}$$
