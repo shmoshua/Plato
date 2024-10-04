@@ -99,6 +99,8 @@ However, this has the drawback that the dimension explodes, i.e. $\left| \phi(x)
 In Bayesian Linear Regression with $w \sim \mathcal{N}(0,I)$ and $y_{i}=w^\top\phi(x_{i})+\varepsilon_{i}$, we have that: $$y=\Phi^\top w+\varepsilon \sim \mathcal{N}(0,\Phi \Phi^\top+\sigma^{2}I)$$by setting $\Phi:=[\phi(x_{1})|\dots|\phi(x_{n})]^\top\in \mathbb{R}^{n,p}$ and the distribution only depends on $\{ \braket{ \phi(x_{i}) ,\phi( x_{j} )} \}_{i,j\in [n]}$. 
 
 ---
-
+### 2.3 Gaussian Processes
+![[Gaussian Process#^fc4049]]
+![[Gaussian Process#^cc13be|q]]
 
 

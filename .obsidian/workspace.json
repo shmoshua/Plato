@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,7 +44,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -69,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "mode": "preview",
                 "source": true
               }
@@ -81,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Analysis/Kernel.md",
                 "mode": "preview",
                 "source": true
               }
@@ -99,7 +100,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
+                "file": "Machine Learning/Gaussian Process.md"
               }
             }
           }
@@ -229,23 +231,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "dc97252912affa1f",
+  "active": "ac5845496ca9d679",
   "lastOpenFiles": [
+    "Analysis/Kernel.md",
+    "Machine Learning/Gaussian Process.md",
     "Machine Learning/Linear Regression.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Covariance.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Variance.md",
     "Probability Theory/Characteristic Function.md",
     "Probability Theory/Density.md",
     "Probability Theory/Conditional Probability.md",
-    "Machine Learning/Gaussian Process.md",
     "Analysis/Fourier Transform (Rn).md",
     "Functional Analysis/Fourier Transform.md",
     "Algebra/Characteristic.md",
     "Courses/Information Theory/Exercise Sheet 3.md",
-    "Analysis/Kernel.md",
     "Graph Theory/Girth.md",
     "Information Theory/Code.md",
     "Probability Theory/Independence.md",
