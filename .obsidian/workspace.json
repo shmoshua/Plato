@@ -26,7 +26,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "39fb2359777ea501",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Characteristic Function.md",
                 "mode": "source",
                 "source": true
               }
@@ -46,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               }
@@ -58,14 +70,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Probability Theory/Density.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cc5a1bcffe3d54de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Characteristic Function.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md"
+                "file": "Probability Theory/Gaussian Distribution.md"
               }
             }
           }
@@ -195,11 +218,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "664942de829171a1",
+  "active": "ac5845496ca9d679",
   "lastOpenFiles": [
-    "Courses/Information Theory/Exercise Sheet 3.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Probability Theory/Density.md",
+    "Probability Theory/Characteristic Function.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Conditional Probability.md",
     "Machine Learning/Gaussian Process.md",
+    "Analysis/Fourier Transform (Rn).md",
+    "Functional Analysis/Fourier Transform.md",
+    "Algebra/Characteristic.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Courses/Information Theory/Exercise Sheet 3.md",
     "Analysis/Kernel.md",
     "Graph Theory/Girth.md",
     "Information Theory/Code.md",
@@ -212,17 +242,10 @@
     "Machine Learning/Bayesian Network.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Graph Theory/Hypergraph.md",
-    "Probability Theory/Conditional Probability.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Advanced Algorithms/DNF Counting.md",
     "Advanced Algorithms/FPRAS.md",
     "Advanced Algorithms/PRAS.md",
-    "Advanced Algorithms/Bin-Packing.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Graph Theory/Hypercube (Graph).md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Probabilistic Methods/Ramsey Number.md",
-    "Algebra/Submodule.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

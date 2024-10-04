@@ -39,8 +39,10 @@
 
 ^e649b0
 
-> [!proof]-
+> [!proof]+
 > We have:
+> 1. Using the [[characteristic function]]: $$\begin{align}\Phi_{X}(\xi)&=\Phi_{X,Y}(\xi,0)\\&=\exp \left( i\xi^\top\mu_{X}-\frac{1}{2}\xi^\top \Sigma_{XX}\xi\right)\end{align}$$Therefore, $X \sim \mathcal{N}(\mu_{X},\Sigma_{XX})$. 
+> 2. We have that: $$\begin{align}\Phi_{X|Y=y}(\xi)&=\mathbb{E}[\exp(i \xi^\top X)|Y=y]\\&=\int_{\mathbb{R}^m}^{} \exp(i\xi^\top x)p(x|y) \, dx\\&= \end{align}$$
 ---
 > [!lemma] Proposition 3 (Basic Operations of Gaussian is Gaussian)
 > Let $X \sim \mathcal{N}(\mu,\Sigma)$. Then, for a matrix $M$:
