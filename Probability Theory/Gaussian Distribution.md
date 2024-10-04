@@ -42,7 +42,12 @@
 > [!proof]+
 > We have:
 > 1. Using the [[characteristic function]]: $$\begin{align}\Phi_{X}(\xi)&=\Phi_{X,Y}(\xi,0)\\&=\exp \left( i\xi^\top\mu_{X}-\frac{1}{2}\xi^\top \Sigma_{XX}\xi\right)\end{align}$$Therefore, $X \sim \mathcal{N}(\mu_{X},\Sigma_{XX})$. 
-> 2. Let's define $X':=X - \mu_{X}$ and $Y':=Y-\mu_{Y}$. Let $A\in \text{Mat}_{m,n}(\mathbb{R})$ and we define $Z:=X'-AY'$. Then, $$\begin{align}\mathbb{E}[ZY'^\top]&=\mathbb{E}[(X'-AY')Y'^\top]\\&=\mathbb{E}[X'Y'^\top-AY'Y'^\top]\\&=\Sigma_{XY}-A\Sigma_{YY}\end{align}$$Therefore, for $A:=\Sigma_{XY}\Sigma_{YY}^{-1}$, $\text{Cov}(Z,Y')=0$. Hence, for $X'=AY'+Z$, we have: $$\mathbb{E}[X'|Y'=y']=Ay'=\Sigma_{XY}\Sigma_{YY}^{-1}y'$$and $$\text{Cov}(X',Y')=$$
+> 2. Let's define $X':=X - \mu_{X}$ and $Y':=Y-\mu_{Y}$. Let $A\in \text{Mat}_{m,n}(\mathbb{R})$ and we define $Z:=X'-AY'$. Then, $$\begin{align}\mathbb{E}[ZY'^\top]&=\mathbb{E}[(X'-AY')Y'^\top]\\&=\mathbb{E}[X'Y'^\top-AY'Y'^\top]\\&=\Sigma_{XY}-A\Sigma_{YY}\end{align}$$Therefore, for $A:=\Sigma_{XY}\Sigma_{YY}^{-1}$, $\text{Cov}(Z,Y')=0$. Hence, for $X'=AY'+Z$, we have: $$\begin{align}\Phi_{X'|Y'}(\xi|y')&=\mathbb{E}[\exp(i\xi^\top X')|Y'=y']\\&=\mathbb{E}[\exp(i\xi^\top AY')\exp(i\xi^\top Z)|Y'=y']\\&=\mathbb{E}[\exp(i\xi^\top Ay')\exp(i\xi^\top Z)]\\&=\mathbb{E}[\exp(i\xi^\top Ay')]\mathbb{E}[\exp(i\xi^\top Z)]\\&=\exp(i\xi^\top Ay')\exp \left( -\frac{1}{2}\xi^\top\Sigma_{Z}\xi \right)  \end{align}$$where$$\Sigma_{Z}=\Sigma_{XX}+A\Sigma_{YY}A^\top-2\Sigma_{XY}A^\top=\Sigma_{XX}-\Sigma_{XY}A^\top=\Sigma_{XX}-\Sigma _{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top$$Hence, $X'|Y'=y' \sim \mathcal{N}(\Sigma_{XY}\Sigma_{YY}^{-1}y',\Sigma_{XX}-\Sigma _{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top)$. Then, $$\Phi_{X|Y}(\xi|y)=$$
+>    
+>    
+>    
+>    
+>    Hence, for $X'=AY'+Z$, we have: $$\mathbb{E}[X'|Y'=y']=Ay'=\Sigma_{XY}\Sigma_{YY}^{-1}y'$$and $$\begin{align}\Sigma_{X'|Y'=y'}&=\mathbb{E}[(X'-\mathbb{E}[X'|Y'=y])^{2}|Y'=y']\\&=\mathbb{E}[(X'-Ay')^{2}|Y'=y']\\&=\mathbb{E}[(Z+AY'-Ay')^{2}|Y'=y']\\&=\Sigma_{Z}\\&=\Sigma_{XX}+A\Sigma_{YY}A^\top-2\Sigma_{XY}A^\top\\&=\Sigma_{XX}-\Sigma_{XY}A^\top\\&=\Sigma_{XX}-\Sigma _{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top\end{align}$$and $\mathbb{E}[X|Y=y]=\mu_{X}+\Sigma_{XY}\Sigma_{YY}^{-1}(y-\mu_{Y})$ and $\Sigma_{X|Y=y}=\Sigma_{XX}-\Sigma _{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top$.
 ---
 > [!lemma] Proposition 3 (Basic Operations of Gaussian is Gaussian)
 > Let $X \sim \mathcal{N}(\mu,\Sigma)$. Then, for a matrix $M$:

@@ -82,6 +82,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Probability Theory/Expected Value.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a08b0213c43acfe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Probability Theory/Covariance.md",
                 "mode": "preview",
                 "source": true
@@ -221,8 +233,9 @@
   "active": "dc97252912affa1f",
   "lastOpenFiles": [
     "Probability Theory/Variance.md",
-    "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Expected Value.md",
     "Probability Theory/Covariance.md",
+    "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Characteristic Function.md",
     "Probability Theory/Density.md",
     "Probability Theory/Conditional Probability.md",
@@ -245,7 +258,6 @@
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Graph Theory/Hypergraph.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
-    "Advanced Algorithms/DNF Counting.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
