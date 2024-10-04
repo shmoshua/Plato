@@ -30,7 +30,12 @@ However, $$I(X;Z|Y)=H(Z|Y)-H(Z|X,Y)=H(Z|Y)$$
 We have that for each $i\leq r$ $$\begin{align}\frac{ \partial }{ \partial v_{i} } \left( \sum_{i=1}^{r}v_{i}^\top Av_{i} +\sum_{i,j}^{}\mu_{ij}(v_{i}^\top v_{j}-\delta_{ij})\right)&=2v_{i}^\top A+\sum_{j\neq i}^{}\mu_{ij}v_{j}^\top+\mu_{ii}2v_{i}^\top=0\end{align} $$Therefore, $2(A+\mu_{ii}I)v_{i}=-\sum_{j\neq i}^{}\mu_{ij}v_{j}$ and as $A+\mu_{ii}I=Q\Lambda Q^\top+\mu_{ii}QQ^\top=Q(\Lambda+\mu_{ii}I)Q^\top$. Hence, $$2(\Lambda+\mu_{ii}I)Q^\top v_{i}=-\sum_{j\neq i}^{}\mu_{ij}Q^\top v_{j}$$
 
 ---
-Let $v_{1},\dots,v_{r}$ be orthonormal set of vectors. Then, $$\begin{align}\sum_{i=1}^{r}v_{i}^\top Av_{i}=\sum_{i=1}^{r}v_{i}^\top Q\Lambda \underbrace{ Q^\top v_{i} }_{ =:w_{i} }=\sum_{i=1}^{r}w_{i}^\top \Lambda w_{i}=\sum_{i=1}^{r}\sum_{j=1}^{n}\lambda_{j}(w_{i})_{j}^2=\sum_{j=1}^{n}\lambda_{j}\sum_{i=1}^{r}(w_{i})_{j}^{2}\end{align}$$
+Let $v_{1},\dots,v_{r}$ be orthonormal set of vectors. Then, $$\begin{align}\sum_{i=1}^{r}v_{i}^\top Av_{i}=\sum_{i=1}^{r}v_{i}^\top Q\Lambda \underbrace{ Q^\top v_{i} }_{ =:w_{i} }=\sum_{i=1}^{r}w_{i}^\top \Lambda w_{i}=\sum_{i=1}^{r}\sum_{j=1}^{n}\lambda_{j}(w_{i})_{j}^2=\sum_{j=1}^{n}\lambda_{j}\underbrace{ \sum_{i=1}^{r}(w_{i})_{j}^{2} }_{ x_{j} }=\sum_{j=1}^{n}\lambda_{j}\left\| W_{:, j} \right\|^2_{2} \end{align}$$where $W:=[w_{1}|\dots |w_{r}]^\top\in \mathbb{R}^{r,n}$ and hence $WW ^\top=I_{r}$.  Then, $$\max \sum_{i=1}^{r}v_{i}^\top Av_{i}=\max \sum_{j=1}^{r}\lambda_{j}\left\| W_{:, j} \right\| ^2_{2}$$$\max \sum_{i=1}^{r}v_{i}^\top Av_{i}=\max \sum_{j=1}^{r}\lambda_{j}x_{j}$ where 
+$$x_{j}=\sum_{i=1}^{r}(W_{ij})^2$$
 
 ---
-$$\sum_{i=1}^{r}v_{i}^\top Av_{i}\leq \text{Tr}(A)-$$
+Let $V:=[v_{1}|\dots|v_{r}]\in \mathbb{R}^{n,r}$ and: $$\text{Tr}(V^\top A V)=\sum_{i=1}^{r}(V^\top AV)_{ii}=\sum_{i=1}^{r}v_{i}^\top A v_{i}$$
+Then, we have that $\text{Tr}(V^\top AV) = \text{Tr}(V^\top V V^\top AV)=\text{Tr}(V V^\top A VV^\top)=\text{Tr}(WAW)$ where $W:=V V^\top\in \mathbb{R}^{n,n}$. Notice that $WAW$ is symmetric as $W$ and $A$ are. Hence, $\text{Tr}(WAW)$. Let $$
+
+Therefore, $$\sum_{i=1}^{r}v_{i}^\top A v_{i}=\sum_{n=1}^{}$$
+

@@ -14,26 +14,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Girth.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "305b98f5ab61a4db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Code.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2f091b04535788d4",
+            "id": "ac5845496ca9d679",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,7 +33,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -58,26 +46,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Code.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "82c3937039e2a342",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory/Independence.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "984e1701d73fa222",
+            "id": "7b2b66eba79ad41c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -87,21 +63,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "fabcc0f17b5f726a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Entropy.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,15 +195,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "984e1701d73fa222",
+  "active": "ac5845496ca9d679",
   "lastOpenFiles": [
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Courses/Information Theory/Exercise Sheet 3.md",
+    "Graph Theory/Girth.md",
+    "Information Theory/Code.md",
     "Probability Theory/Independence.md",
     "Information Theory/Entropy.md",
-    "Courses/Information Theory/Exercise Sheet 3.md",
     "Information Theory/Mutual Information.md",
-    "Information Theory/Code.md",
     "Advanced Algorithms/Monotone Submodular Maximization.md",
-    "Graph Theory/Girth.md",
     "Graph Theory/Graph.md",
     "Courses/Algebra II/Algebra II Roadmap.md",
     "Machine Learning/Bayesian Network.md",
@@ -258,7 +223,6 @@
     "Algebra/Submodule.md",
     "Topology/Zariski Topology.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
-    "Markov Processes/Stationary Distribution.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
