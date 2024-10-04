@@ -35,7 +35,7 @@ $$x_{j}=\sum_{i=1}^{r}(W_{ij})^2$$
 
 ---
 Let $V:=[v_{1}|\dots|v_{r}]\in \mathbb{R}^{n,r}$ and: $$\text{Tr}(V^\top A V)=\sum_{i=1}^{r}(V^\top AV)_{ii}=\sum_{i=1}^{r}v_{i}^\top A v_{i}$$
-Then, we have that $\text{Tr}(V^\top AV) = \text{Tr}(V^\top V V^\top AV)=\text{Tr}(V V^\top A VV^\top)=\text{Tr}(WAW)$ where $W:=V V^\top\in \mathbb{R}^{n,n}$. Notice that $WAW$ is symmetric as $W$ and $A$ are. Hence, $\text{Tr}(WAW)$. Let $$
+Then, we have that $\text{Tr}(V^\top AV) = \text{Tr}(V^\top V V^\top AV)=\text{Tr}(V V^\top A VV^\top)=\text{Tr}(WAW)$ where $W:=V V^\top\in \mathbb{R}^{n,n}$. Notice that $WAW$ is symmetric as $W$ and $A$ are. Hence, $\text{Tr}(WAW)$. Let $WAW=:B$. 
 
-Therefore, $$\sum_{i=1}^{r}v_{i}^\top A v_{i}=\sum_{n=1}^{}$$
+Therefore, $$\sum_{i=1}^{r}v_{i}^\top A v_{i}\leq\sum_{i=1}^{n}\xi_{i}$$
 
