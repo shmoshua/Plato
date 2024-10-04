@@ -23,3 +23,8 @@ However, $$I(X;Z|Y)=H(Z|Y)-H(Z|X,Y)=H(Z|Y)$$
 
 ---
 ##### Problem 5
+
+
+---
+##### Approach 1
+We have that for each $i\leq r$ $$\begin{align}\frac{ \partial }{ \partial v_{i} } \left( \sum_{i=1}^{r}v_{i}^\top Av_{i} +\sum_{i,j}^{}\mu_{ij}(v_{i}^\top v_{j}-\delta_{ij})\right)&=2v_{i}^\top A+\sum_{j\neq i}^{}\mu_{ij}v_{j}^\top+\mu_{ii}2v_{i}^\top=0\end{align} $$Therefore, $2(A+\mu_{ii}I)v_{i}=-\sum_{j\neq i}^{}\mu_{ij}v_{j}$ and as $(A+\mu_{ii}I)=Q$
