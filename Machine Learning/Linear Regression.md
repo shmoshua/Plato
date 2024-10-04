@@ -77,3 +77,5 @@
 > [!proof]-
 > We have that: $$y=Xw+\varepsilon\in \mathcal{N}(X\mu,\lambda ^{-1}(XX^\top+I))$$By setting $XX^\top+I=:\Sigma_{y}$, we have: $$\begin{align}\mu_{\text{MLE}}&\in \underset{ \mu }{ \arg\max }\exp \left( -\frac{1}{2}(y-X\mu)^\top\Sigma_{y}^{-1}(y-X\mu) \right) \\&= \underset{ \mu }{ \arg\max }\exp \left(  -\frac{1}{2}(y^\top\Sigma ^{-1}_{y}y-2y^\top\Sigma_{y}^{-1}X\mu+\mu^\top X^\top \Sigma_{y}^{-1}X\mu) \right)\\&= \underset{ \mu }{ \arg\max }\exp \left(  -\frac{1}{2}(\mu^\top X^\top \Sigma_{y}^{-1}X\mu-2y^\top\Sigma_{y}^{-1}X\mu) \right)\\&= \underset{ \mu }{ \arg\min } (\mu^\top X^\top \Sigma_{y}^{-1}X\mu-2y^\top\Sigma_{y}^{-1}X\mu) \end{align}$$Then, $$2\mu^\top X^\top\Sigma_{y}^{-1}X-2y^\top\Sigma_{y}^{-1}X=0$$and $\mu_{\text{MLE}}=(X^\top\Sigma_{y}^{-1}X)X^\top\Sigma_{y}^{-1} y$.
 ---
+> [!lemma] Proposition 5 (Kernelized BLR)
+> Assume $w \sim \mathcal{N}(0,I)$. As $y=Xw+\varepsilon$, notice that $y\sim \mathcal{N}(0,XX^\top+\sigma^2 I)$

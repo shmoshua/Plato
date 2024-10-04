@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Machine Learning/Linear Regression.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,8 +44,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -58,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -70,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Machine Learning/Linear Regression.md",
                 "mode": "preview",
                 "source": true
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md"
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
               }
             }
           }
@@ -232,10 +231,12 @@
   },
   "active": "dc97252912affa1f",
   "lastOpenFiles": [
+    "Machine Learning/Linear Regression.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Covariance.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Characteristic Function.md",
     "Probability Theory/Density.md",
     "Probability Theory/Conditional Probability.md",
@@ -243,7 +244,6 @@
     "Analysis/Fourier Transform (Rn).md",
     "Functional Analysis/Fourier Transform.md",
     "Algebra/Characteristic.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Courses/Information Theory/Exercise Sheet 3.md",
     "Analysis/Kernel.md",
     "Graph Theory/Girth.md",
@@ -257,7 +257,6 @@
     "Machine Learning/Bayesian Network.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Graph Theory/Hypergraph.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

@@ -39,15 +39,13 @@
 
 ^e649b0
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Using the [[characteristic function]]: $$\begin{align}\Phi_{X}(\xi)&=\Phi_{X,Y}(\xi,0)\\&=\exp \left( i\xi^\top\mu_{X}-\frac{1}{2}\xi^\top \Sigma_{XX}\xi\right)\end{align}$$Therefore, $X \sim \mathcal{N}(\mu_{X},\Sigma_{XX})$. 
-> 2. Let's define $X':=X - \mu_{X}$ and $Y':=Y-\mu_{Y}$. Let $A\in \text{Mat}_{m,n}(\mathbb{R})$ and we define $Z:=X'-AY'$. Then, $$\begin{align}\mathbb{E}[ZY'^\top]&=\mathbb{E}[(X'-AY')Y'^\top]\\&=\mathbb{E}[X'Y'^\top-AY'Y'^\top]\\&=\Sigma_{XY}-A\Sigma_{YY}\end{align}$$Therefore, for $A:=\Sigma_{XY}\Sigma_{YY}^{-1}$, $\text{Cov}(Z,Y')=0$. Hence, for $X'=AY'+Z$, we have: $$\begin{align}\Phi_{X'|Y'}(\xi|y')&=\mathbb{E}[\exp(i\xi^\top X')|Y'=y']\\&=\mathbb{E}[\exp(i\xi^\top AY')\exp(i\xi^\top Z)|Y'=y']\\&=\mathbb{E}[\exp(i\xi^\top Ay')\exp(i\xi^\top Z)]\\&=\mathbb{E}[\exp(i\xi^\top Ay')]\mathbb{E}[\exp(i\xi^\top Z)]\\&=\exp(i\xi^\top Ay')\exp \left( -\frac{1}{2}\xi^\top\Sigma_{Z}\xi \right)  \end{align}$$where$$\Sigma_{Z}=\Sigma_{XX}+A\Sigma_{YY}A^\top-2\Sigma_{XY}A^\top=\Sigma_{XX}-\Sigma_{XY}A^\top=\Sigma_{XX}-\Sigma _{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top$$Hence, $X'|Y'=y' \sim \mathcal{N}(\Sigma_{XY}\Sigma_{YY}^{-1}y',\Sigma_{XX}-\Sigma _{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top)$. Then, $$\Phi_{X|Y}(\xi|y)=$$
+> 2. Let's define $X':=X - \mu_{X}$ and $Y':=Y-\mu_{Y}$. Let $A\in \text{Mat}_{m,n}(\mathbb{R})$ and we define $Z:=X'-AY'$. Then, $$\begin{align}\mathbb{E}[ZY'^\top]&=\mathbb{E}[(X'-AY')Y'^\top]\\&=\mathbb{E}[X'Y'^\top-AY'Y'^\top]\\&=\Sigma_{XY}-A\Sigma_{YY}\end{align}$$Therefore, for $A:=\Sigma_{XY}\Sigma_{YY}^{-1}$, $\text{Cov}(Z,Y')=0$. Hence, for $X'=AY'+Z$, we have: $$\begin{align}\Phi_{X'|Y'}(\xi|y')&=\mathbb{E}[\exp(i\xi^\top X')|Y'=y']\\&=\mathbb{E}[\exp(i\xi^\top AY')\exp(i\xi^\top Z)|Y'=y']\\&=\mathbb{E}[\exp(i\xi^\top Ay')\exp(i\xi^\top Z)]\\&=\mathbb{E}[\exp(i\xi^\top Ay')]\mathbb{E}[\exp(i\xi^\top Z)]\\&=\exp(i\xi^\top Ay')\exp \left( -\frac{1}{2}\xi^\top\Sigma_{Z}\xi \right)  \end{align}$$where$$\Sigma_{Z}=\Sigma_{XX}+A\Sigma_{YY}A^\top-2\Sigma_{XY}A^\top=\Sigma_{XX}-\Sigma_{XY}A^\top=\Sigma_{XX}-\Sigma _{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top$$Hence, $X'|Y'=y' \sim \mathcal{N}(\Sigma_{XY}\Sigma_{YY}^{-1}y',\Sigma_{XX}-\Sigma _{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top)$. Then, $$\begin{align}\Phi_{X|Y}(\xi|y)&=\mathbb{E}[\exp \left( i \xi^\top X \right)|Y=y ]\\&=\mathbb{E}[\exp \left( i \xi^\top (X'+\mu_{X}) \right)|Y'=y-\mu_{Y} ]\\&=\exp(i\xi^\top(\mu_{X}+A(y-\mu_{Y})))\exp \left( -\frac{1}{2}\xi^\top\Sigma_{Z}\xi \right)   \end{align}$$which gives us $X|Y=y \sim \mathcal{N}(\mu_{X}+\Sigma_{XY}\Sigma_{YY}^{-1}(y-\mu_{Y}),\Sigma_{XX}-\Sigma _{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top)$. 
 >    
 >    
 >    
->    
->    Hence, for $X'=AY'+Z$, we have: $$\mathbb{E}[X'|Y'=y']=Ay'=\Sigma_{XY}\Sigma_{YY}^{-1}y'$$and $$\begin{align}\Sigma_{X'|Y'=y'}&=\mathbb{E}[(X'-\mathbb{E}[X'|Y'=y])^{2}|Y'=y']\\&=\mathbb{E}[(X'-Ay')^{2}|Y'=y']\\&=\mathbb{E}[(Z+AY'-Ay')^{2}|Y'=y']\\&=\Sigma_{Z}\\&=\Sigma_{XX}+A\Sigma_{YY}A^\top-2\Sigma_{XY}A^\top\\&=\Sigma_{XX}-\Sigma_{XY}A^\top\\&=\Sigma_{XX}-\Sigma _{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top\end{align}$$and $\mathbb{E}[X|Y=y]=\mu_{X}+\Sigma_{XY}\Sigma_{YY}^{-1}(y-\mu_{Y})$ and $\Sigma_{X|Y=y}=\Sigma_{XX}-\Sigma _{XY}\Sigma_{YY}^{-1}\Sigma_{XY}^\top$.
 ---
 > [!lemma] Proposition 3 (Basic Operations of Gaussian is Gaussian)
 > Let $X \sim \mathcal{N}(\mu,\Sigma)$. Then, for a matrix $M$:
@@ -56,16 +54,10 @@
 
 ^061ea5
 
-> [!proof]+
+> [!proof]-
 > We have: 
-> 1. Let $Y:=MX$. Then, we have that:
-> 	1. $\mathbb{E}[MX]=M\mathbb{E}[X]=M\mu$ and
-> 	2. $\text{Var}(MX)=\mathbb{E}[(MX-M\mu)(MX-M\mu)^\top]=M\text{Var}(X)M^\top=M\Sigma M^\top$
->     
->     We show that it is normally distributed when $M$ is invertible.
-> 	  
-> 	  $$\begin{align}\mathbb{E}[f(MX)]&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma }}\int_{\mathbb{R}^d}f(Mx)  \exp\left( -\frac{1}{2}(x-\mu)^\top\Sigma ^{-1}(x-\mu) \right)\, dx\\&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma }}\cdot  \frac{1}{\left| \det M \right| }\int_{\mathbb{R}^d}f(x)  \exp\left( -\frac{1}{2}(M ^{-1}x-\mu)^\top\Sigma ^{-1}(M ^{-1}x-\mu) \right)\, dx\\&=\frac{1}{\sqrt{ (2\pi)^d \det(M\Sigma M^\top) }}\cdot \int_{\mathbb{R}^d}f(x)  \exp\left( -\frac{1}{2}(x-M\mu)^\top (M\Sigma M^\top)^{-1}(x-M\mu) \right)\, dx\\&\end{align} $$This proves the statement.
-> 2. 
+> 1. Let $Y:=MX$, then we have: $$\begin{align}\Phi_{Y}(\xi)&=\mathbb{E}[\exp(i\xi^\top MX)]\\&=\Phi_{X}(M^\top \xi)\\&=\exp \left( i\xi^\top M\mu-\frac{1}{2}\xi^\top M\Sigma M^\top \xi \right) \end{align}$$Hence, $MX \sim \mathcal{N}(M\mu,M\Sigma M^\top)$.
+> 2. We have that: $$\begin{align}\Phi_{X+X'}(\xi)&=\mathbb{E}[\exp(i\xi^\top(X+X'))]\\&=\mathbb{E}[\exp(i\xi^\top X)]\mathbb{E}[\exp(i\xi^\top X')]\\&=\exp \left( i\xi^\top(\mu+\mu')-\frac{1}{2}\xi^\top(\Sigma+\Sigma')\xi \right) \end{align}$$and $X+X' \sim \mathcal{N}(\mu+\mu',\Sigma+\Sigma')$.
 
 ^89a1c5
 
