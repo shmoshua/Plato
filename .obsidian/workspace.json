@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Characteristic Function.md",
+                "file": "Probability Theory/Variance.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Density.md",
+                "file": "Probability Theory/Variance.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Characteristic Function.md",
+                "file": "Probability Theory/Covariance.md",
                 "mode": "preview",
                 "source": true
               }
@@ -218,11 +218,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ac5845496ca9d679",
+  "active": "dc97252912affa1f",
   "lastOpenFiles": [
-    "Probability Theory/Density.md",
-    "Probability Theory/Characteristic Function.md",
+    "Probability Theory/Variance.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Covariance.md",
+    "Probability Theory/Characteristic Function.md",
+    "Probability Theory/Density.md",
     "Probability Theory/Conditional Probability.md",
     "Machine Learning/Gaussian Process.md",
     "Analysis/Fourier Transform (Rn).md",
@@ -244,8 +246,6 @@
     "Graph Theory/Hypergraph.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Advanced Algorithms/DNF Counting.md",
-    "Advanced Algorithms/FPRAS.md",
-    "Advanced Algorithms/PRAS.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

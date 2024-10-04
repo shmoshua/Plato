@@ -42,7 +42,7 @@
 > [!proof]+
 > We have:
 > 1. Using the [[characteristic function]]: $$\begin{align}\Phi_{X}(\xi)&=\Phi_{X,Y}(\xi,0)\\&=\exp \left( i\xi^\top\mu_{X}-\frac{1}{2}\xi^\top \Sigma_{XX}\xi\right)\end{align}$$Therefore, $X \sim \mathcal{N}(\mu_{X},\Sigma_{XX})$. 
-> 2. We have that: $$\begin{align}\Phi_{X|Y=y}(\xi)&=\mathbb{E}[\exp(i \xi^\top X)|Y=y]\\&=\int_{\mathbb{R}^m}^{} \exp(i\xi^\top x)p(x|y) \, dx\\&= \end{align}$$
+> 2. Let's define $X':=X - \mu_{X}$ and $Y':=Y-\mu_{Y}$. Let $A\in \text{Mat}_{m,n}(\mathbb{R})$ and we define $Z:=X'-AY'$. Then, $$\begin{align}\mathbb{E}[ZY'^\top]&=\mathbb{E}[(X'-AY')Y'^\top]\\&=\mathbb{E}[X'Y'^\top-AY'Y'^\top]\\&=\Sigma_{XY}-A\Sigma_{YY}\end{align}$$Therefore, for $A:=\Sigma_{XY}\Sigma_{YY}^{-1}$, $\text{Cov}(Z,Y')=0$. Hence, for $X'=AY'+Z$, we have: $$\mathbb{E}[X'|Y'=y']=Ay'=\Sigma_{XY}\Sigma_{YY}^{-1}y'$$and $$\text{Cov}(X',Y')=$$
 ---
 > [!lemma] Proposition 3 (Basic Operations of Gaussian is Gaussian)
 > Let $X \sim \mathcal{N}(\mu,\Sigma)$. Then, for a matrix $M$:
@@ -51,7 +51,7 @@
 
 ^061ea5
 
-> [!proof]-
+> [!proof]+
 > We have: 
 > 1. Let $Y:=MX$. Then, we have that:
 > 	1. $\mathbb{E}[MX]=M\mathbb{E}[X]=M\mu$ and
@@ -60,6 +60,7 @@
 >     We show that it is normally distributed when $M$ is invertible.
 > 	  
 > 	  $$\begin{align}\mathbb{E}[f(MX)]&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma }}\int_{\mathbb{R}^d}f(Mx)  \exp\left( -\frac{1}{2}(x-\mu)^\top\Sigma ^{-1}(x-\mu) \right)\, dx\\&=\frac{1}{\sqrt{ (2\pi)^d \det\Sigma }}\cdot  \frac{1}{\left| \det M \right| }\int_{\mathbb{R}^d}f(x)  \exp\left( -\frac{1}{2}(M ^{-1}x-\mu)^\top\Sigma ^{-1}(M ^{-1}x-\mu) \right)\, dx\\&=\frac{1}{\sqrt{ (2\pi)^d \det(M\Sigma M^\top) }}\cdot \int_{\mathbb{R}^d}f(x)  \exp\left( -\frac{1}{2}(x-M\mu)^\top (M\Sigma M^\top)^{-1}(x-M\mu) \right)\, dx\\&\end{align} $$This proves the statement.
+> 2. 
 
 ^89a1c5
 

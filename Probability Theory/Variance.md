@@ -20,5 +20,13 @@
 > 3. Holds from 2. 
 > 4. Holds from 3.
 ---
-> [!lemma] Proposition 2
-> 
+> [!lemma] Proposition 2 
+> For $X,Y$ two random variables,
+> 1. $\text{Var}(X+Y)=\text{Var}(X)+\text{Var}(Y)+2\text{Cov}(X,Y)$
+> 2. $\text{Var}(\alpha X)=\alpha^{2} \text{Var}(X)$
+
+> [!proof]-
+> We have: 
+> 1. $$\begin{align}\text{Var}(X+Y)&=\mathbb{E}[X^{2}+2XY+Y^{2}]-\mathbb{E}[X]^{2}-2\mathbb{E}[X]\mathbb{E}[Y]-\mathbb{E}[Y]^{2}\\&=\text{Var}(X)+\text{Var}(Y)+2(\mathbb{E}[XY]-\mathbb{E}[X]\mathbb{E}[Y])\\&=\text{Var}(X)+\text{Var}(Y)+2\text{Cov}(X,Y)\end{align}$$
+> 2. $$\text{Var}(\alpha X)=\alpha^{2}\mathbb{E}[ X^{2}]-\alpha^{2}\mathbb{E}[X]^{2}=\alpha^{2} \text{Var}(X)$$
+---
