@@ -34,19 +34,6 @@ Let $v_{1},\dots,v_{r}$ be orthonormal set of vectors. Then, $$\begin{align}\sum
 $$x_{j}=\sum_{i=1}^{r}(W_{ij})^2$$
 
 ---
-Let $v_{1},\dots,v_{r}$ be its normalized eigenvectors for $\lambda_{1},\dots,\lambda_{r}$ respectively. Then, they are orthonormal (as the eigenvectors forms an ONB) and we have: $$\sum_{i=1}^{r}v_{i}^\top Av_{i}=\sum_{i=1}^{r}\lambda_{i}v_{i}^\top v_{i}=\sum_{i=1}^{r}\lambda_{i}$$This shows that the maximum is lower bounded by $\sum_{i=1}^{r}\lambda_{i}$. 
 
-Now, let $v_{1},\dots,v_{r}\in \mathbb{R}^n$ be arbitrary s.t. $\braket{ v_{i} , v_{j} }=\delta_{ij}$. Then, for $V:=[v_{1}|\dots|v_{r}]\in \mathbb{R}^{n,r}$, $V^\top V=I$. Further, we have: $$\text{Tr}(V^\top A V)=\sum_{i=1}^{r}(V^\top AV)_{ii}=\sum_{i=1}^{r}v_{i}^\top A v_{i}$$
-Then, we have from the cyclic property and Von Neumann's inequality that $\text{Tr}(V^\top AV)=\text{Tr}(AVV^\top)\leq \sum_{i=1}^{n}\lambda_{i}\xi_{i}$ where $\xi_{1},\dots,\xi_{n}$ are the eigenvalues of $W:=VV^\top$ in decreasing order. 
-
-Notice that $W$ is a projection operator as $W^{2}=V\underbrace{ V^\top V }_{ =:I }V^\top =VV^\top = W$. However, we also note that for an eigenvalue $\lambda$ of a projection operator with eigenvector $v$, we have: $$\lambda^{2} v=\lambda W v=W\lambda v=W^{2}v=W v=\lambda v$$Therefore, $\lambda=1$ or $\lambda=0$. However, as $\text{rank}(VV^\top)=\text{rank}(V)=r$ (cf. below), $\xi_{i}=\chi_{[k]}(i)$ where $\chi$ is the characteristic / indicator function. 
- 
-This allows us to conclude that $\text{Tr}(V^\top AV)\leq \sum_{i=1}^{r}\lambda_{i}$. This proves the statement.
-
-
-- We can specifically show that $\text{rank}(VV^\top)=\text{rank}(V)$. Let $x\in \text{ker}(VV^\top)$. Then, $$\left\| V^\top x \right\| ^2_{2}=x^\top VV^\top x=0$$and $V^\top x=0$, i.e. $x\in \text{ker}(V^\top)$. Conversely, $\text{ker}(V^\top)\subseteq \text{ker}(VV^\top)$ is immediate. Hence, by rank-nullity theorem, $$\text{rank}(V)=\text{rank}(V^\top)=n-\text{dim }\text{ker}(V^\top)=n-\text{dim }\text{ker}(VV^\top)$$ 
-	
-
----
 
 
