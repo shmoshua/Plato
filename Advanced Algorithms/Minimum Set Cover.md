@@ -41,7 +41,9 @@
 > 	2. $\mathbb{P}(J\text{ is not feasible})\leq \frac{1}{n}$.
 > 	3. $\mathbb{P}(J \text{ is feasible }\land c(J)\leq 4\ln n \cdot c(\text{OPT}_{LP}))\geq \frac{1}{3}$
 
-> [!proof]+
+^e18582
+
+> [!proof]-
 > We have that:
 > 1. First, observe that $$\mathbb{E}[c(J)]=\mathbb{E}\left[ \sum_{i=1}^{m}y_{i}c(S_{i}) \right]=\sum_{i=1}^{m}c(S_{i})\cdot x_{i}=c(\text{OPT}_{\text{LP}})$$Then, 
 > 	1. **Claim 1**: $\mathbb{P}\left( \sum_{S_{i} \ni e_{j}}^{}y_{i}=0 \right)\leq e^{-1}$.
@@ -55,4 +57,8 @@
 > 	  2. **Claim 2**: $\mathbb{P}\left( \exists j\in [n]:\sum_{S_{i} \ni e_{j}}^{}y_{i}=0  \right)\leq \frac{1}{n}$ by union bound.
 > 	  3. **Claim 3**: $\mathbb{P}(c(J)\geq 4\ln n \cdot c(\text{OPT}_{\text{LP}}))\leq \frac{1}{2}$.
 > 	
-> 	Therefore, $\mathbb{P}(J \text{ is not feasible }\land c(J)\geq 4\ln n \cdot c(\text{OPT}_{LP}))\geq \frac{1}{3}$
+> 	Therefore, $\mathbb{P}(J \text{ is not feasible }\land c(J)\geq 4\ln n \cdot c(\text{OPT}_{LP}))\leq \frac{1}{n}+\frac{1}{2}\leq \frac{2}{3}$. 
+
+^20f82b
+
+---

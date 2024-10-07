@@ -110,3 +110,11 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 ![[Minimum Vertex Cover#^af947a|p]]
 ---
 ##### 1.4.2 Minimum Set Cover
+![[Minimum Set Cover#^2ed1e3]]
+
+---
+![[Minimum Set Cover#^e18582]]
+![[Minimum Set Cover#^20f82b|p]]
+
+---
+##### 1.4.3 Minimum Congestion Multi-Commodity Routing Problem

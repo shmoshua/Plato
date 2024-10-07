@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Minimum Set Cover.md",
+                "file": "Advanced Algorithms/Multi-Commodity Routing.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Minimum Set Cover.md",
+                "file": "Advanced Algorithms/Multi-Commodity Routing.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Advanced Algorithms/Minimum Set Cover.md",
                 "mode": "preview",
                 "source": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Algorithms/Minimum Set Cover.md",
+                "file": "Advanced Algorithms/Multi-Commodity Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Algorithms/Minimum Set Cover.md",
+                "file": "Advanced Algorithms/Multi-Commodity Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Algorithms/Minimum Set Cover.md"
+                "file": "Advanced Algorithms/Multi-Commodity Routing.md"
               }
             }
           }
@@ -231,13 +231,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "664942de829171a1",
+  "active": "39fb2359777ea501",
   "lastOpenFiles": [
-    "Probability Theory/Expected Value.md",
     "Advanced Algorithms/Minimum Set Cover.md",
-    "Analysis/Kernel.md",
+    "Advanced Algorithms/Multi-Commodity Routing.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Advanced Algorithms/Minimum Vertex Cover.md",
+    "Probability Theory/Expected Value.md",
+    "Analysis/Kernel.md",
     "Advanced Algorithms/Linear Programming.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Advanced Algorithms/DNF Counting.md",
@@ -258,7 +259,6 @@
     "Algebra/Characteristic.md",
     "Courses/Information Theory/Exercise Sheet 3.md",
     "Graph Theory/Girth.md",
-    "Information Theory/Code.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
