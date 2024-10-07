@@ -6,12 +6,13 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 ---
 
 #### 1.1 Greedy Algorithms
-![[Minimum Vertex Cover#^2ed1e3]]
-![[Minimum Vertex Cover#^0eb03c|p]]
+![[Minimum Set Cover#^2ed1e3]]
+![[Minimum Set Cover#^0eb03c|q]]
 ---
-![[Minimum Vertex Cover#^eb92be]]
-![[Minimum Vertex Cover#^d320dd|p]]
-![[Minimum Vertex Cover#^4d9187|p]]
+![[Minimum Set Cover#^eb92be]]
+![[Minimum Set Cover#^d320dd|p]]
+![[Minimum Set Cover#^4d9187|q]]
+
 ---
 #### 1.2 Approximation Schemes
 ![[Knapsack#^fca662]]
@@ -98,7 +99,14 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 
 ---
 #### 1.4 Rounding Linear Programming Solutions
-##### 1.4.1 Minimum Vertex Cover
-![[Minimum Vertex Cover#^2ed1e3]]
+![[Linear Programming#^4d8220|q]]
 
 ---
+##### 1.4.1 Minimum Vertex Cover
+![[Minimum Vertex Cover#^37c645]]
+
+---
+![[Minimum Vertex Cover#^bfb726]]
+![[Minimum Vertex Cover#^af947a|p]]
+---
+##### 1.4.2 Minimum Set Cover
