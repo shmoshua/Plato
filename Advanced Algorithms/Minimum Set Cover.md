@@ -31,4 +31,28 @@
 - **Remark** (Steurer): It is $\mathcal{NP}$-hard to find a $(1-\varepsilon)\cdot H_{n}$-approximation for any constant $\varepsilon>0$.  ^4d9187
 
 ---
+> [!lemma] Theorem 2 (Linear Programming)
+> Let $\{ x_{i} \}_{i\in [m]}$ be the optimal solution of the problem: $$\begin{align}\text{min}\quad &\sum_{i\in [m]}^{}x_{i}\cdot c(S_{i})\\\text{subject to}\quad &\sum_{S_{i}\ni e_{j}}^{}x_{i}\geq 1&&\forall j\in [n]\\&0\leq x_{i}\leq 1&&\forall i\in[m]\end{align}$$Let 
+> 1. $y_{i} \sim \text{Ber}(x_{i})$ and $J:=\{ i\in[m]: y_{i}=1 \}$. It holds that: 
+> 	1. $\mathbb{E}[c(J)]=c(\text{OPT}_{\text{LP}})$ and 
+> 	2. $\mathbb{P}(J\text{ is not feasible})\leq n / e$
+> 2. $y_{i} \sim \text{Bin}(2 \ln n , x_{i})$ and $J:=\{ i\in [m]: y_{i}\geq 1 \}$. It holds that: 
+> 	1. $\mathbb{E}[c(J)]\leq 2\ln n \cdot c(\text{OPT}_{\text{LP}})$ and 
+> 	2. $\mathbb{P}(J\text{ is not feasible})\leq \frac{1}{n}$.
+> 	3. $\mathbb{P}(J \text{ is feasible }\land c(J)\leq 4\ln n \cdot c(\text{OPT}_{LP}))\geq \frac{1}{3}$
 
+> [!proof]+
+> We have that:
+> 1. First, observe that $$\mathbb{E}[c(J)]=\mathbb{E}\left[ \sum_{i=1}^{m}y_{i}c(S_{i}) \right]=\sum_{i=1}^{m}c(S_{i})\cdot x_{i}=c(\text{OPT}_{\text{LP}})$$Then, 
+> 	1. **Claim 1**: $\mathbb{P}\left( \sum_{S_{i} \ni e_{j}}^{}y_{i}=0 \right)\leq e^{-1}$.
+> 	   Observe that:
+>     $$\begin{align}\mathbb{P}\left( \sum_{S_{i} \ni e_{j}}^{}y_{i}=0 \right)&=\mathbb{P}\left( y_{i}=0,\forall S_{i}\ni e_{j}\right)=\prod_{S_{i}\ni e_{j}}^{}(1-x_{i})\\&\leq \prod_{S_{i}\ni e_{j}}^{}\exp \left( -x_{i} \right)=\exp \left( -\sum_{S_{i}\ni e_{j}}^{}x_{i} \right)\leq e^{-1}\end{align}$$
+>     
+>     Therefore, $\mathbb{P}(J\text{ is not feasible})\leq n / e$ by union bound.
+>  1. We have that:
+> 	 1. For the expectation, it holds that:$$\mathbb{E}[c(J)]\leq 2 \ln n\cdot \mathbb{E}\left[ \sum_{i=1}^{m}y_{i}c(S_{i}) \right] =2\ln n\cdot c(\text{OPT}_{\text{LP}})$$
+> 	 2. **Claim 1**: $\mathbb{P}\left( \sum_{S_{i} \ni e_{j}}^{}y_{i}=0 \right)\leq (e^{-1})^{2 \ln n}=\frac{1}{n^{2}}$.
+> 	  2. **Claim 2**: $\mathbb{P}\left( \exists j\in [n]:\sum_{S_{i} \ni e_{j}}^{}y_{i}=0  \right)\leq \frac{1}{n}$ by union bound.
+> 	  3. **Claim 3**: $\mathbb{P}(c(J)\geq 4\ln n \cdot c(\text{OPT}_{\text{LP}}))\leq \frac{1}{2}$.
+> 	
+> 	Therefore, $\mathbb{P}(J \text{ is not feasible }\land c(J)\geq 4\ln n \cdot c(\text{OPT}_{LP}))\geq \frac{1}{3}$
