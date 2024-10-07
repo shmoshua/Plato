@@ -3,6 +3,7 @@
 > [!definition]
 > Let $\mathcal{U}:=\{ e_{1},\dots,e_{n} \}$ and $\mathcal{S}=\{ S_{1},\dots,S_{m} \}\subseteq \mathcal{P}(\mathcal{U})$ with a cost function $c:\mathcal{S}\to \mathbb{R}_{>0}$. costs $c_{i}:=\text{cost}(S_{i})>0$. 
 > 1. The ***minimum vertex cover problem*** aims to find a collection of subsets $\mathcal{}$ with union $\mathcal{U}$that has minimum total cost, i.e. $\arg\min_{J\subseteq[m],\bigcup_{j\in J}^{}S_{j}=\mathcal{U}}\sum_{j\in J}^{}c(S_{j})$
+> 2. Let $G=(V,E)$ be a [[graph]] with vertex weights $c:V\to \mathbb{R}_{>0}$. the ***minimum vertex cover*** aims to find: $$S_{\text{OPT}}\in\underset{ S\subseteq V,\forall e\in E: e\cap S\neq \varnothing }{ \arg\min }c(S)$$
 
 ^2ed1e3
 
@@ -29,3 +30,14 @@
 ^d320dd
 
 - **Remark** (Steurer): It is $\mathcal{NP}$-hard to find a $(1-\varepsilon)\cdot H_{n}$-approximation for any constant $\varepsilon>0$.  ^4d9187
+
+---
+> [!lemma] Theorem 2 (Linear Programming)
+> Let $\{ x_{v} \}_{v\in V}\subseteq \mathbb{R}$ be the solution of the optimization problem $$\begin{align}\text{min}\quad&\sum_{v\in V}^{}x_{v}\cdot c(v)\\\text{subject to}\quad &x_{u}+x_{v}\geq 1 &&\forall \{ u,v \}\in E\\&0\leq x_{v}\leq 1&&\forall v\in V \end{align}$$Then, let $y_{v}\in \{ 0,1 \}$ where $y_{v}=\mathbb{1}_{\left\{  x_{v}\geq \frac{1}{2}  \right\}}$. We have:
+> 1. $\{ y_{v} \}_{v\in V}$ is also feasible in the LP.
+
+> [!proof]+
+> We have that:
+> 1. **Claim 1**: $y_{v}\leq 2x_{v}$ for all $v\in V$. 
+> 
+> Therefore, $$\sum_{v\in V}^{}y_{v}\cdot c(v)\leq 2\cdot \sum_{v\in V}^{}x_{v}\cdot c(v)\leq 2\cdot c(S_{\text{OPT}})$$

@@ -86,6 +86,19 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 ---
 ##### 1.3.2 DNF Counting
 
+![[DNF Counting#^d2f429]]
+![[DNF Counting#^684725|q]]
+
+---
+![[DNF Counting#^44eec7]]
+![[DNF Counting#^600789|p]]
+
+---
+![[DNF Counting#^8222ce]]
+
 ---
 #### 1.4 Rounding Linear Programming Solutions
+##### 1.4.1 Minimum Vertex Cover
+![[Minimum Vertex Cover#^2ed1e3]]
+
 ---

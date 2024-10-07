@@ -70,9 +70,15 @@
 > [!h] Example 2 (RBF/Gaussian Kernel)
 > Let $X$ be an [[inner product space]]. Then, 
 > 1. $K(x,y):=\exp \left( -\left\| x-y \right\|^2/h^{2} \right)$ is a SPsD kernel called ***RBF/Gaussian kernel*** with $h$.
+> 2. The RBF kernel is analytic. 
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. Symmetry follows from that of the distance. For positive semi-definiteness, we have:  $$\left\| x-y \right\| ^{2}=\braket{ x-y , x-y } =\|x\|^{2}+\|y\|^{2}-2\braket{ x , y } $$Hence, $\exp\left( -\frac{\left\| x-y \right\| ^2}{h^{2}} \right)=\exp \left( -\frac{\|x\|^{2}}{h^{2}} \right) $$
->    
->    let $x_{1},\dots,x_{n}\in X$ and $c_{1},\dots,c_{n}\in \mathbb{R}$, we have: $$\sum_{i,j=1}^{n}c_{i}c_{j}\exp \left( -\frac{\left\| x_{i}-x_{j} \right\| ^2}{h^{2}} \right) $$
+> 1. Symmetry follows from that of the distance. For positive semi-definiteness, we have:  $$\left\| x-y \right\| ^{2}=\braket{ x-y , x-y } =\|x\|^{2}+\|y\|^{2}-2\braket{ x , y } $$Hence, $\exp\left( -\frac{\left\| x-y \right\| ^2}{h^{2}} \right)=\exp \left( -\frac{\|x\|^{2}}{h^{2}} \right)\exp \left( \frac{2\braket{ x , y }}{h^{2}} \right)\exp \left( -\frac{\|y\|^{2}}{h^{2}} \right)$. Then, the positive semidefiniteness follows from the fact that $(x,y)\mapsto \braket{ x , y }^k$ is positive semidefinite for all $k$.
+---
+> [!h] Example 3 (Exponential Kernel)
+> Let $X$ be an [[inner product space]]. Then, 
+> 1. $K(x,y):=\exp \left( -\left\| x-y \right\|/h \right)$ is a SPsD kernel called ***exponential kernel*** with $h$.
+> 2. The exponential kernel is not differentiable. 
+---
+> [!h] Example 4 (Matérn Kernel)

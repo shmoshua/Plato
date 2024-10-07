@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Advanced Algorithms/DNF Counting.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Advanced Algorithms/Minimum Vertex Cover.md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Advanced Algorithms/Minimum Vertex Cover.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,8 +100,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Advanced Algorithms/Minimum Vertex Cover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Advanced Algorithms/Minimum Vertex Cover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Kernel.md"
+                "file": "Advanced Algorithms/Minimum Vertex Cover.md"
               }
             }
           }
@@ -231,17 +230,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "cc5a1bcffe3d54de",
+  "active": "dc97252912affa1f",
   "lastOpenFiles": [
-    "Analysis/Inner Product Space.md",
-    "Analysis/Kernel.md",
-    "Analysis/Norm.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Advanced Algorithms/Minimum Vertex Cover.md",
     "Machine Learning/Gaussian Process.md",
+    "Advanced Algorithms/DNF Counting.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Analysis/Kernel.md",
+    "Analysis/Inner Product Space.md",
+    "Analysis/Norm.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Normed Space.md",
     "Probability Theory/Covariance.md",
     "Probability Theory/Variance.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Machine Learning/Linear Regression.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -256,9 +258,6 @@
     "Information Theory/Code.md",
     "Probability Theory/Independence.md",
     "Information Theory/Entropy.md",
-    "Information Theory/Mutual Information.md",
-    "Advanced Algorithms/Monotone Submodular Maximization.md",
-    "Graph Theory/Graph.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

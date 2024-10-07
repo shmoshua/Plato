@@ -3,7 +3,10 @@
 > [!definition]
 > Let $X=\bigvee_{i=1}^m\bigwedge_{j} F_{j}$ be a formula in [[Disjunctive Normal Form|disjunctive normal form (DNF)]]. 
 > 1. The ***DNF counting problem*** aims to find the number $N_{\text{OPT}}$ of satisfying assignments.
-- **Remark**: Sampling with random assignments depend heavily on the number of satisfying assignment (e.g. if $N_{\text{OPT}} / 2^n$ is very small) 
+
+^d2f429
+
+- **Remark**: Sampling with random assignments depend heavily on the number of satisfying assignment (e.g. if $N_{\text{OPT}} / 2^n$ is very small)  ^684725
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Sampling)
@@ -33,6 +36,8 @@
 > We have that 
 > 1. for $k=\frac{9m}{\varepsilon^{2}}$, $\text{DNF-Count}$ runs in $O\left( \frac{m^{2}n(m+n)}{\varepsilon^{2}} \right)$ and therefore is a [[FPRAS]].
 
+^44eec7
+
 > [!proof]-
 > We have that: 
 > 1. **Claim 1: $\text{DNF-Count}$ samples a '1' in $s$ uniformly randomly**.
@@ -42,6 +47,9 @@
 > 
 > Hence, there are $k\in O\left( \frac{m}{\varepsilon^{2}} \right)$ iterations in total. In each iteration, we spend $O(m+n)$ time sampling and $O(nm)$ for checking if that sample is topmost. Therefore, the runtime of the algorithm is: $$O\left( \frac{m^2n(m+n)}{\varepsilon^{2}} \right)$$
 >   
+
+^600789
+
 ---
 ##### Examples
 > [!h] Example 1
@@ -52,6 +60,8 @@
 > 3. If $p^s\geq \frac{1}{n^4}$, then we can use $O(n^4 \log(1 / \delta) / \varepsilon^{2})$ samples to approximate it. 
 > 4. if $p^s\leq \frac{1}{n^4}$, we ignore the cuts of size $4s$. 
 > 	$$\mathbb{P}(\exists \text{cut of size }\geq 4s\text{ is in }E')\leq \sum_{i=4s}^{\infty}\#\text{cuts of size }i\cdot  p^i=\sum_{i=4s}^{\infty}(n^{2 / s}\cdot  p)^i\leq \sum_{i=4s}^{\infty}p^{i/2}=(p^{1/2})^{4s}\cdot \Theta(1)\leq p ^{2s}\leq p\cdot \frac{1}{n^2}$$
+
+^8222ce
 
 > [!proof]+
 > 
