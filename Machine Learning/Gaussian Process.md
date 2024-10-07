@@ -14,5 +14,11 @@
 ##### Properties
 > [!lemma] Proposition 1
 > For a Gaussian process $\text{GP}(\mu,k)$ on $X$,
-> 1. $k$ is a [[kernel]].
-> 
+> 1. $k$ is a symmetric positive semidefinite [[kernel]]. Conversely, any symmetric positive semidefinite kernel $k:X\times X\to \mathbb{R}$ can be a covariance function on a Gaussian process of $X$. 
+
+> [!proof]-
+> We have that:
+> 1. for all $x,y\in X$, $f(\{ x,y \}):=(f(x),f(y)) \sim \mathcal{N}(\mu_{\{ x,y \}},K_{\{ x,y \}})$ where: $$K_{\{ x,y \}}:=\begin{bmatrix}k(x,x)&k(x,y)\\k(y,x)&k(y,y)\end{bmatrix}$$As covariance matrices are symmetric, we have that $k(x,y)=k(y,x)$. 
+>    
+>    Further, the Gram matrix is positive semidefinite by definition. 
+---

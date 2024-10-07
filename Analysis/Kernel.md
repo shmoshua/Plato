@@ -55,8 +55,11 @@
 > 4. Finally, we show that the sum is absolutely and uniformly convergent. We start by showing $$\sum_{k=1}^{n}\lambda_{k}\varphi_{k}(x)^{2}$$ converges uniformly to $K(x,x)$. For $\varepsilon>0$ and $n\geq 1$, let's define: $$V^\varepsilon_{n}=\left\{  x\in X:\sum_{k=1}^{n}\lambda_{k}\varphi_{k}(x)^{2}>K(x,x)-\varepsilon  \right\}$$which is an open set. Further, $V^{\varepsilon}_{n}\subseteq V^{\varepsilon}_{n+1}$ for all $n$. Indeed, as for all $x\in X$, $\sum_{k=1}^{n}\lambda_{k}\varphi_{k}(x)^{2}\to K(x,x)$, $$\bigcup_{n\geq 1}^{}V^\varepsilon_{n}=X$$However, as $X$ is compact, there exists $n_{1},\dots,n_{\ell}$ s.t. $$\bigcup_{i=1}^{\ell}V^{\varepsilon}_{n_{i}}=X$$Then, now let $m:=\max(n_{1},\dots,n_{\ell})$ and we have $V_{m}^{\varepsilon}=X$. In other words, for any $\varepsilon>0$, there exists $m\geq 1$ s.t. for all $x\in X$: $$K(x,x)-\sum_{k=1}^{m}\lambda_{k}\varphi_{k}(x)^{2}<\varepsilon$$which shows the uniform convergence. Lastly, from the inequality above, $$\sum_{k=N}^{M}\lambda_{k}\left| \varphi_{k}(x) \right| \left| \varphi_{k}(y) \right|\leq \left( \sum_{k=N}^{M}\lambda_{k}\varphi_{k}(x)^{2} \right) ^{1/2}\left( \sum_{k=N}^{M}\lambda_{k}\varphi_{k}(y)^{2} \right) ^{1/2}$$Since $\sum_{k=1}^{\infty}\lambda_{k}\varphi_{k}(x)^{2}$ is uniformly convergent, we have that $\sum_{n=1}^{\infty}\lambda_{n}\varphi_{n}(x)\varphi_{n}(y)$ is also absolutely and uniformly convergent. 
 ---
 ##### Examples
-> [!lemma] Proposition E1
-> Let $\mathcal{H}$ be a $\mathbb{R}$-[[Hilbert Space|Hilbert space]] and $\varphi:X\to \mathcal{H}$ any map. Then, $$K(x,y):=\braket{ \varphi(x) , \varphi(y) } $$is a symmetric positive semidefinite kernel.
+> [!h] Example 1 (Hilbert Space Kernels)
+> Let $\mathcal{H}$ be a $\mathbb{R}$-[[Hilbert Space|Hilbert space]] and $\varphi:X\to \mathcal{H}$ any map. Then, 
+> 1. $K(x,y):=\braket{ \varphi(x) , \varphi(y) }$ is a symmetric positive semidefinite kernel.
+> 2. $K(x,y):=x^\top y$ is called the linear kernel.
+> 3. $K(x,y):=x^2y^2+xy+1$ is also a kernel with $\varphi:\mathbb{R}\to \mathbb{R}^3,x\mapsto (1,x,x^{2})$.
 
 > [!proof]-
 > We have: 
@@ -64,3 +67,12 @@
 > 2. for positive semidefiniteness:
 > 	$$\sum_{i,j=1}^{n}c_{i}c_{j}\braket{ \varphi(x_{i}) , \varphi(x_{j}) }=\sum_{i,j=1}^{n}\braket{ c_{i}\varphi(x_{i}) , c_{j}\varphi(x_{j}) } =\left\| \sum_{i=1}^{n}c_{i}\varphi(x_{i}) \right\| ^2\geq 0$$
 ---
+> [!h] Example 2 (RBF/Gaussian Kernel)
+> Let $X$ be an [[inner product space]]. Then, 
+> 1. $K(x,y):=\exp \left( -\left\| x-y \right\|^2/h^{2} \right)$ is a SPsD kernel called ***RBF/Gaussian kernel*** with $h$.
+
+> [!proof]+
+> We have:
+> 1. Symmetry follows from that of the distance. For positive semi-definiteness, we have:  $$\left\| x-y \right\| ^{2}=\braket{ x-y , x-y } =\|x\|^{2}+\|y\|^{2}-2\braket{ x , y } $$Hence, $\exp\left( -\frac{\left\| x-y \right\| ^2}{h^{2}} \right)=\exp \left( -\frac{\|x\|^{2}}{h^{2}} \right) $$
+>    
+>    let $x_{1},\dots,x_{n}\in X$ and $c_{1},\dots,c_{n}\in \mathbb{R}$, we have: $$\sum_{i,j=1}^{n}c_{i}c_{j}\exp \left( -\frac{\left\| x_{i}-x_{j} \right\| ^2}{h^{2}} \right) $$
