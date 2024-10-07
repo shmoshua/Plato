@@ -21,18 +21,6 @@
             }
           },
           {
-            "id": "39fb2359777ea501",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced Algorithms/Multi-Commodity Routing.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "dfc1dfbc6a60f7d3",
             "type": "leaf",
             "state": {
@@ -43,9 +31,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "3a7fa2d871c1ae6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Advanced Algorithms/Multi-Commodity Routing.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -231,12 +231,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "39fb2359777ea501",
+  "active": "3a7fa2d871c1ae6a",
   "lastOpenFiles": [
-    "Advanced Algorithms/Minimum Set Cover.md",
-    "Advanced Algorithms/Multi-Commodity Routing.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Advanced Algorithms/Minimum Vertex Cover.md",
+    "Advanced Algorithms/Multi-Commodity Routing.md",
+    "Advanced Algorithms/Minimum Set Cover.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Probability Theory/Expected Value.md",
     "Analysis/Kernel.md",
     "Advanced Algorithms/Linear Programming.md",
