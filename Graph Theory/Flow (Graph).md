@@ -28,8 +28,10 @@
 
 > [!lemma] Proposition 2
 > Let $f$ be a flow. 
-> 1. If there is no $(s,t)$-path in $\text{supp}(f)$, then for $S:=\{ v\in V: \exists (s,v)\text{-path in supp}(f) \}$, $(S,V \backslash S)$ is a [[Cut (Graph)|cut]] with $c_{G,f}(S, V \backslash S)=0.$
+> 1. If there is no $(s,t)$-path in $\text{supp}(f)$, then for $S:=\{ v\in V: \exists (s,v)\text{-path in supp}(f) \}$, $(S,V \backslash S)$ is a [[Cut (Graph)|cut]] with $c_{f}(S)=0.$
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1.  
+> 1. Assume that $c_{f}(S)>0$. Then, there exists $e\in E\cap (S\times V \backslash S)$ with $f(e)>0$. Let $e=(u,v)$. As $u$ is reachable in $\text{supp}(f)$ and $e\in \text{supp}(f)$, $v$ is reachable in $\text{supp}(f)$ which is a contradiction.
+
+---
