@@ -1,14 +1,17 @@
 #Definition #GraphTheory 
 
 > [!definition]
-> Let $G:=(V,E)$ be a [[graph]]. Then, 
-> 1. A ***cut*** is $(A,B)$ s.t. $A\sqcup B=V$. Then, the set of edges that have endpoints both in $A$ and $B$ is called the ***cut set***.
+> Let $G:=(V,E)$ be a [[graph]]. A ***cut*** is $(A,B)$ s.t. $A\sqcup B=V$. 
 
 ^27b1e1
 
+- **Related definition**: For a cut $(A,B)$, a ***cut set*** is defined as $E\cap (A\times B)$. 
+- **Related definition**: For a weight function $w:E \to \mathbb{R}$, the ***(weighted) value*** of $(A,B)$  is defined as $c_{G,w}(A,B):=\sum_{e\in E\cap (A\times B)}^{}w(e)$. 
+- **Related definition**: For $s,t\in V$, a cut is an ***$(s,t)$-cut*** if $s\in A$ but $t\notin A$.
 ---
 ##### Properties
-> [!lemma] Theorem 1 (Max-cut)
+
+> [!lemma] Theorem 2 (Max-cut)
 > Let $G:=(V,E)$ be a graph with $m$ edges. Then
 > 1. $\max_{(A,B),A\sqcup B = V}e(A,B)\geq m / 2$.
 

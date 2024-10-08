@@ -2,7 +2,7 @@
 
 > [!definition]
 > Let $G=(V,E)$ be a [[Graph|directed graph]]. For a ***capacity function*** $c:E\to \mathbb{R}_{\geq 0}$ and a ***source*** $s\in V$ and a ***sink*** $t\in V$, 
-> 1. the ***maximum flow problem*** aims to find: $$f^{*}\in \underset{ f\text{ flow} }{ \arg\max }\text{ val}(f) $$where $\text{val}(f):=\sum_{w\in \text{out}(s)}^{}f(s,w) - \sum_{w\in \text{in}(t)}^{}f(w,t)$ defines the [[Flow (Graph)|flow value]].
+> 1. the ***maximum flow problem*** aims to find: $$f^{*}\in \underset{ f\text{ feasible flow} }{ \arg\max }\text{ val}(f) $$where $\text{val}(f):=\sum_{w\in \text{out}(s)}^{}f(s,w) - \sum_{w\in \text{in}(t)}^{}f(w,t)$ defines the [[Flow (Graph)|flow value]].
 - **Remark**: The max-flow problem is a convex optimization problem but not a strongly convex optimization, as solutions are not unique.
 ---
 ##### Properties
@@ -15,3 +15,4 @@
 >    We have that: $$\begin{align}\text{val} (f ) &=\sum_{i=1}^{k}\left( \sum_{w\in \text{out}(s)}^{}f_{i}(s,w) - \sum_{w\in \text{in}(t)}^{}f_{i}(w,t) \right) \\&=\sum_{i=1}^{\ell}\left( \sum_{w\in \text{out}(s)}^{}f_{i}(s,w) - \sum_{w\in \text{in}(t)}^{}f_{i}(w,t) \right)=\text{val}( f^{*} )\end{align}$$
 > 2. **Claim 2: $f^{*}$ is feasible**
 >    We have that $f^{*}\leq f\leq c$.
+---
