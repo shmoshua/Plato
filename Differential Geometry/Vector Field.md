@@ -100,8 +100,8 @@
 > 5. If $\varphi$ is a diffeomorphism, $\varphi ^{-1}\in C^\infty(N,M)$ and $(\varphi ^{-1})^{*}:C^\infty(M)\to C^\infty(N)$ s.t. $$\varphi ^{*}\circ (\varphi ^{-1})^{*}=\text{id}_{C^\infty(M)}$$The rest is immediate by 2. 
 - **Corollary**: For a diffeomorphism $\varphi\in C^\infty(M,N)$, $\varphi_{*}:\Gamma(\text{T}M)\to\Gamma(\text{T}N)$ is a Lie algebra isomorphism by 3. 
 ---
-![[Flow#^0d5b4f]]
-![[Flow#^35997d|p]]
+![[Lie Group/Flow#^0d5b4f]]
+![[Lie Group/Flow#^35997d|p]]
 
 ---
 > [!lemma] Theorem 6 (Straightening Vector Fields II)

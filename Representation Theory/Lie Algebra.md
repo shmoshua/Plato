@@ -46,7 +46,7 @@
 > 2. $\mathfrak{g}$ is abelian.
 
 > [!proof]-
-> Assume that $G$ is abelian. Then, for any $v,w\in \mathfrak{g}$, $$\varphi_{v^L}(s)\varphi_{w^L}(t)=\varphi_{w^L}(t)\varphi_{v^L}(s),\quad \forall s,t\in \mathbb{R}$$Therefore, $\Phi^s_{v^L}$ and $\Phi_{w^L}^t$ commute for all $s,t\in \mathbb{R}$. By [[Flow|Proposition 3]], $[v^L,w^L]=0$ and $[v,w]=0$ in $\mathfrak{g}$.
+> Assume that $G$ is abelian. Then, for any $v,w\in \mathfrak{g}$, $$\varphi_{v^L}(s)\varphi_{w^L}(t)=\varphi_{w^L}(t)\varphi_{v^L}(s),\quad \forall s,t\in \mathbb{R}$$Therefore, $\Phi^s_{v^L}$ and $\Phi_{w^L}^t$ commute for all $s,t\in \mathbb{R}$. By [[Lie Group/Flow|Proposition 3]], $[v^L,w^L]=0$ and $[v,w]=0$ in $\mathfrak{g}$.
 > 
 > Conversely, assume that $\mathfrak{g}$ is abelian. By [[Exponential Map|Lemma 1.2]], $\exp$ is a smooth homomorphism. Then, by [[Exponential Map|Proposition 2.2]], there exists $0\in U\subseteq \mathfrak{g}$ open s.t. $\exp(U)\subseteq G$ is an open neighborhood of $e$. By [[Topological Group|Proposition 2.4]], $G$ is abelian.
 ---

@@ -33,7 +33,7 @@
 > [!h] Example 1 (Lie Groups)
 > Let $G$ be a [[Lie group]]. Then, 
 > 1. if $X\in \Gamma(\text{T}M)$ is [[Vector Field|$G$-invariant]], $X$ is complete.
-> 2. For every $v\in \mathfrak{g}=\text{T}_{e}G$, let $v^L\in \Gamma(\text{T}G)$ be the corresponding $G$-invariant vector field given as: $$v^L_{g}=d_{e}L_{g}(v)$$ (cf. [[Lie Algebra|Proposition 1]]) Let $\gamma_{v}:\mathbb{R}\to G$ be the integral curve with $\gamma_{v}(0)=e$. Then, the [[flow]] of $v^L$ on $G$ is given by: $$\Phi_{v^L}:\mathbb{R}\times G\to G;\quad (t,g)\mapsto g\cdot \gamma_{v}(t)$$
+> 2. For every $v\in \mathfrak{g}=\text{T}_{e}G$, let $v^L\in \Gamma(\text{T}G)$ be the corresponding $G$-invariant vector field given as: $$v^L_{g}=d_{e}L_{g}(v)$$ (cf. [[Lie Algebra|Proposition 1]]) Let $\gamma_{v}:\mathbb{R}\to G$ be the integral curve with $\gamma_{v}(0)=e$. Then, the [[Lie Group/Flow]] of $v^L$ on $G$ is given by: $$\Phi_{v^L}:\mathbb{R}\times G\to G;\quad (t,g)\mapsto g\cdot \gamma_{v}(t)$$
 > 3.  $\gamma_{v}$ is a smooth group homomorphism, i.e. $\gamma_{v}$ is a [[one-parameter subgroup]] of $G$.
 > 4. For any [[one-parameter subgroup]] $\varphi:\mathbb{R}\to G$, we have that $\varphi=\gamma_{\varphi'(0)}$.
 

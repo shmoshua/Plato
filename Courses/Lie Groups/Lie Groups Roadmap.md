@@ -57,7 +57,7 @@
 **2.4 The Exponential Map**
 1. [[Exponential Map]]
 2. [[Integral Curve]]
-3. [[Flow]]
+3. [[Lie Group/Flow]]
 4. [[Lie Derivative]]
 
 **2.5 Correspondence between Lie Algebras and Lie Groups**
