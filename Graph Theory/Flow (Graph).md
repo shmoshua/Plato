@@ -11,3 +11,17 @@
 	2. ***cycle flow*** if $f=\alpha \cdot \chi_{c}$ for some $\alpha\geq 0$ where $c$ is a cycle.
 ---
 ##### Properties
+
+> [!lemma] Proposition 1 (Path-Cycle Decomposition)
+> Let $f$ be a $(s,t)$-flow. Then,
+> 1. there exists $k\leq \left| \text{supp}(f) \right|$ and $f_{1},\dots,f_{k}$ where $f_{i}$ is either $(s,t)$-path flow or cycle flow s.t. $f=\sum_{i=1}^{k}f_{i}$.
+
+> [!proof]-
+> We prove it by induction on $m:=\left| \text{supp}(f) \right|$. 
+> 
+> 1. If $m=0$, then $f=0$ and there is nothing to do. 
+> 1. If $m\geq 1$, then we have the three cases:
+> 	1. there exists an $(s,t)$-path $p$ s.t. $p\subseteq \text{supp}(f)$. Then, let $\alpha:=\min_{e\in p}f(e)>0$. Then, $g:= f-\alpha \cdot \chi_{p}$ is a non-negative flow and $\left| \text{supp}(g) \right|<\left| \text{supp}(f) \right|$. Hence, by induction hypothesis, we have our statement.
+> 	2. there exists a cycle $c$ s.t. $c\subseteq \text{supp}(f)$. Then, analogously to case 1, it holds.
+> 	3. there exists no path or cycle contained in $\text{supp}(f)$. This implies there exists a node $v\neq s,t$ s.t. it has an incoming edge in $\text{supp}(f)$ but no outgoing edge. This is however a contradiction.
+---

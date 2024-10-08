@@ -55,9 +55,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "bc9a0cb38673771d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Maximum Flow.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -82,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Recurrence.md",
+                "file": "Graph Theory/Maximum Flow.md",
                 "mode": "preview",
                 "source": true
               }
@@ -112,7 +124,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Flow (Graph).md",
+                "file": "Graph Theory/Maximum Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Flow (Graph).md",
+                "file": "Graph Theory/Maximum Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Flow (Graph).md"
+                "file": "Graph Theory/Maximum Flow.md"
               }
             }
           }
@@ -242,11 +255,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "66fc81c8cfddd0b2",
+  "active": "bc9a0cb38673771d",
   "lastOpenFiles": [
-    "Markov Processes/Markov Chain.md",
     "Graph Theory/Flow (Graph).md",
+    "Graph Theory/Maximum Flow.md",
     "Markov Processes/Recurrence.md",
+    "Markov Processes/Markov Chain.md",
     "Probability Theory/Conditional Probability.md",
     "Markov Processes/Stationary Distribution.md",
     "Probability Theory/Expected Value.md",
@@ -269,7 +283,6 @@
     "Probability Theory/Variance.md",
     "Machine Learning/Linear Regression.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Probability Theory/Characteristic Function.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
