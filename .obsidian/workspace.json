@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Flow (Graph).md",
+                "file": "Markov Processes/Recurrence.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,14 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Graph Theory/Flow (Graph).md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Stationary Distribution.md",
+                "file": "Markov Processes/Recurrence.md",
                 "mode": "preview",
                 "source": true
               }
@@ -99,9 +99,20 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "667a0ba4d697957e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Processes/Markov Chain.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,19 +242,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3a7fa2d871c1ae6a",
+  "active": "66fc81c8cfddd0b2",
   "lastOpenFiles": [
-    "Analysis/Inner Product Space.md",
     "Markov Processes/Markov Chain.md",
     "Graph Theory/Flow (Graph).md",
-    "Advanced Algorithms/Minimum Set Cover.md",
+    "Markov Processes/Recurrence.md",
+    "Probability Theory/Conditional Probability.md",
     "Markov Processes/Stationary Distribution.md",
+    "Probability Theory/Expected Value.md",
+    "Analysis/Inner Product Space.md",
+    "Advanced Algorithms/Minimum Set Cover.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Graph Theory/Graph.md",
     "Advanced Algorithms/Multi-Commodity Routing.md",
     "Advanced Algorithms/Minimum Vertex Cover.md",
-    "Probability Theory/Expected Value.md",
     "Analysis/Kernel.md",
     "Advanced Algorithms/Linear Programming.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
@@ -257,8 +270,6 @@
     "Machine Learning/Linear Regression.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Characteristic Function.md",
-    "Probability Theory/Density.md",
-    "Probability Theory/Conditional Probability.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
