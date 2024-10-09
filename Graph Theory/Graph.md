@@ -44,5 +44,9 @@
 > [!lemma] Lemma 
 > Let $G:=(V,E)$ be a graph with $\left| V \right|=n$ vertices. For $m,r,a>0$, if there exists $t\in \mathbb{Z}_{> 0}$ s.t. $$\frac{d(G)^t}{n^{t-1}}-{n \choose r}\frac{m^t}{n^t}\geq a$$then there exists $U\subseteq V$ with $\left| U \right|\geq a$ such that every $r$ vertices in $U$ have at least $m$ common neighbors.
 
-> [!proof]+
-> For a vertex set $T$, let $N(T):=\bigcap_{x\in T}^{}N(x)$. Pick a set of $t$ vertices $T$ uniformly at random with repetition. Set $A:=N(T)$. Let $X$ be the random variable for the cardinality of $A$. Then, $$\mathbb{E}[X]=\sum_{v\in V}^{}\left( \frac{d(v)}{n} \right)^t $$
+^07cd66
+
+> [!proof]-
+> For a vertex set $T$, let $N(T):=\bigcap_{x\in T}^{}N(x)$. Pick a set of $t$ vertices $T$ uniformly at random with repetition. Set $A:=N(T)$. Let $X$ be the random variable for the cardinality of $A$. Then, $$\mathbb{E}[X]=\sum_{v\in V}^{}\left( \frac{d(v)}{n} \right)^t=\frac{1}{n^t}\sum_{v\in V}^{}d(v)^t\geq \frac{1}{n^t}\cdot n d(G)^t=\frac{d(G)^t}{n^{t-1}} $$Let $Y$ denote the random variable counting the number of subsets $S\subseteq A$ of size $r$ with fewer than $m$ common neighbors. For a given such $S\subseteq V$, the probability that it is a subset of $A$ equals $\left( \frac{\left| N(S) \right|}{n} \right)^t$. Since there are at most $n \choose r$ subsets $S \subseteq V$ of size $r$ for which $\left| N(S) \right|<m$, it follows that: $$\mathbb{E}[Y]< {n \choose r}\frac{m^t}{n^t}$$By linearity of expectation, $$\mathbb{E}[X-Y]\geq \frac{d(G)^t}{n^{t-1}}-{n \choose r} \frac{m^t}{n^t}\geq a$$ Hence there exists a choice of $T$ for which the corresponding set $A=N(T)$ satisfies $X-Y\geq a$. Delete one vertex from each subset $S$ of $A$ of size $r$ with fewer than $m$ common neighbors. We let $U$ be the remaining subset of $A$. The set $U$ has at least $X-Y\geq a$ vertices and all subsets of size $r$ have at least $m$ common neighbors.
+
+^9e183d
