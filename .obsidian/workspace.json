@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Advanced Algorithms/PRAS.md",
                 "mode": "preview",
                 "source": true
               }
@@ -232,9 +232,10 @@
   },
   "active": "a08b0213c43acfe6",
   "lastOpenFiles": [
-    "Probability Theory/Expected Value.md",
-    "Advanced Algorithms/MAX-SAT.md",
+    "Advanced Algorithms/PRAS.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Advanced Algorithms/MAX-SAT.md",
+    "Probability Theory/Expected Value.md",
     "Advanced Algorithms/Bin-Packing.md",
     "Graph Theory/Tournament.md",
     "Markov Processes/Recurrence.md",
@@ -257,7 +258,6 @@
     "Graph Theory/Cut (Graph).md",
     "Graph Theory/Maximum Flow.md",
     "Probability Theory/Conditional Probability.md",
-    "Markov Processes/Stationary Distribution.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

@@ -19,33 +19,20 @@
 > Then, 
 > 1. $\mathbb{P}(\alpha \text{ satisfies }c_{j})=1-2^{-\left| c_{j} \right|}$ for all $j\in[m]$.
 > 2. $\text{Random}$ is a 2-[[Approximation Algorithm|approximation algorithm]]. 
+> 3. By repeating $\text{Random}$ $n$ times and taking the maximum, 
 
 > [!proof]-
 > We have that:
 > 1. $\alpha$ does not satisfy $c_{j}$ if and only if $\alpha$ gives false to all literals in $c_{j}$. This happens with probability $\frac{1}{2^\left| c_{j} \right|}$. This proves the statement.
 > 2. For an assignment $\alpha$, let $S(\alpha):=\{ j\in[m]:\alpha \text{ satisfies }c_{j} \}$. Then, $$\mathbb{E}[w(S(\alpha))]=\sum_{j=1}^{m}w_{j}\cdot \mathbb{P}(\alpha \text{ satisfies }c_{j})=\sum_{j=1}^{m}w_{j}\left( 1-\frac{1}{2^{\left| c_{j} \right| }} \right)\geq \frac{1}{2}\sum_{j=1}^{m}w_{j}\geq \frac{1}{2}w(S(\alpha_{\text{OPT}})) $$
+> 3. We have that: $$\begin{align}\mathbb{P}\left( w(S(\alpha))< \frac{49}{100}w_{\text{OPT}} \right)&=\prod_{k=1}^{n}\mathbb{P}\left( w(S(\alpha_{i}))< \frac{49}{100}w_{\text{OPT}} \right)\\&=\mathbb{P}\left( w(S(\alpha_{i}))< \frac{49}{100}w_{\text{OPT}} \right)^n \\&=\mathbb{P}\left( w(S(\alpha_{i}))< \frac{49}{100}W\right)^n \\&=\mathbb{P}\left(W- w(S(\alpha_{i}))> \frac{51}{100}W \right)^n\\&\leq  \left( \frac{50}{51} \right)^n\end{align}$$Therefore, if $n=233$, then we get that it is a $0.49$-approximation with $99\%$ probability.
 
 ---
-> [!lemma] Proposition 2
-> Consider the following algorithm:
->    ```pseudo
->    \begin{algorithm} \caption{RandomMonteCarlo($I$)} 
->    \begin{algorithmic}
->    \State Sample $n$ times from $\{ 0,1 \}$ uniformly at random, independently. 
->    \State
->    \State Pick $\alpha(x_{i})$ from $\{ 0,1 \}$ uniformly at random.
->    \Return $\alpha$
->    \end{algorithmic}
->    \end{algorithm}
->    ```
-> 
-> Then, 
-> 1. $\mathbb{P}(\alpha \text{ satisfies }c_{j})=1-2^{-\left| c_{j} \right|}$ for all $j\in[m]$.
-> 2. $\text{Random}$ is a 2-[[Approximation Algorithm|approximation algorithm]]. 
+> [!lemma] Theorem 2 (Linear Programming)
+> Let $(y^{*},z^{*})$ be the optimal solution of the LP:$$\begin{align}\text{max}\quad&\sum_{j=1}^{m}w_{j}z_{j}\\\text{subject to}\quad &\sum_{i\in S_{j}^+}^{}y_{i}+\sum_{i\in S_{j}^-}^{}(1-y_{i})\geq z_{j}&&\forall j\in [m]\\&0\leq z_{j}\leq 1&&\forall j\in [m]\\&0\leq y_{i}\leq 1&&\forall i\in[n]\end{align}$$
+> Then, let $\alpha(x_{i})=1$ with probability $y^{*}_{i}$. We have that:
+> 1. $\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right)z^{*}_{j}$
 
 > [!proof]+
-> Assume that $n$ is odd and let $x_{i1},\dots,x_{in}$ be the $n$ random variables from $\{ 0,1 \}$ chosen uniformly at random independently. Then, let: $$\alpha(x_{i})=1 \iff \sum_{k=1}^{n}x_{i k}\geq \left\lceil\frac{n}{2}\right\rceil $$Then, 
-> 1. **Claim 1:**
-> 	$$\begin{align}\mathbb{P}(\alpha \text{ doesn't satisfy }c_{j})&=\prod_{\ell=1}^{\left| c_{j} \right| }\mathbb{P}(\alpha \text{ doesn't satisfy }\ell \text{-th literal in }c_{j})\\&=\prod_{\ell=1}^{\left| c_{j} \right| }\mathbb{P}\left( X_{i}\geq \left( 1+\frac{1}{n} \right) \frac{n}{2}\right)\\&\leq \prod_{\ell=1}^{\left| c_{j} \right| } \frac{1}{\left( 1+\frac{1}{n} \right)}\\&\leq\exp \left( -\frac{\left| c_{j} \right| }{6n} \right) \\&\leq \exp \left( -\frac{1}{6n} \right) \end{align}$$
-> 2. Claim 2: $$\mathbb{E}[w(S(\alpha))]\geq\sum_{j=1}^{m}w_{j}\left( 1- \exp \left( -n \right) \right) $$
----
+> We have that:
+> 1. Notice that: $$\begin{align}\mathbb{P}(\alpha \text{ doesn't satisfy }c_{j})&=\prod_{i\in S^+_{j}}^{}(1-y_{i}^{*})\prod_{i\in S_{j}^-}^{}y^{*}_{i}\\&\leq \left(  \frac{\sum_{i\in S^+_{j}}^{}(1-y_{i}^{*})+\prod_{i\in S_{j}^-}^{}y^{*}_{i}}{k}\right)^k\\&\leq \left(  \frac{k-z^{*}_{j}}{k}\right)^k \end{align}$$Then, $$\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq 1-\left( 1-\frac{z^{*}_{j}}{k} \right) ^k\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right) z^{*}_{j}$$
