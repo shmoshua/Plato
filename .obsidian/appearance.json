@@ -1,10 +1,10 @@
 {
   "accentColor": "",
   "enabledCssSnippets": [
-    "mathwiki",
-    "notation-colour-blocks",
     "callouts",
-    "embed"
+    "embed",
+    "mathwiki",
+    "notation-colour-blocks"
   ],
   "theme": "moonstone",
   "interfaceFontFamily": "",

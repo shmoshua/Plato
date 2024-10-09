@@ -6,7 +6,7 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
-        "dimension": 49.329446064139944,
+        "dimension": 45.77259475218659,
         "children": [
           {
             "id": "ac5845496ca9d679",
@@ -62,7 +62,7 @@
       {
         "id": "931e1cf3bc9d2fba",
         "type": "tabs",
-        "dimension": 50.67055393586006,
+        "dimension": 54.22740524781341,
         "children": [
           {
             "id": "a08b0213c43acfe6",
@@ -71,18 +71,6 @@
               "type": "markdown",
               "state": {
                 "file": "Information Theory/Code.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "91848084c95dadd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced Algorithms/PRAS.md",
                 "mode": "preview",
                 "source": true
               }
@@ -230,7 +218,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3a7fa2d871c1ae6a",
+  "active": "a08b0213c43acfe6",
   "lastOpenFiles": [
     "Advanced Algorithms/Bin-Packing.md",
     "Information Theory/Code.md",

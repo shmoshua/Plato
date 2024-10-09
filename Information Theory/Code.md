@@ -23,21 +23,24 @@
 > 1. For a uniquely decodable code $C$, $\sum_{x\in \mathcal{X}}^{}2^{-L(x)}\leq 1$.
 > 2. For positive integers $\ell_{1},\dots,\ell_{n}$ s.t. $\sum_{i=1}^{m}2^{-\ell_{i}}\leq 1$, there exists a prefix-free code with $\ell_{1},\dots,\ell_{n}$ as lengths. 
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. (1=>2):
+> 1. For any $k\geq 1$, we have that: $$\begin{align}\left( \sum_{x\in \mathcal{X}}^{}2^{-L(x)} \right)^k&=\sum_{x_{1},\dots,x_{k}}^{}2^{-\sum_{i=1}^{k}L(x_{i})}=\sum_{x\in \mathcal{X}^k}^{}2^{-L(x)}=\sum_{m=1}^{k\cdot \ell_{\max}}a(m)\cdot 2^{-m}\leq k\cdot \ell_{\max}\end{align}$$where $a(m)$ denotes the number of elements in $\mathcal{X}^k$ with code length $m$. Therefore, $$ \sum_{x\in \mathcal{X}}^{}2^{-L(x)} \leq(k\cdot \ell_{\max})^{1/k}\to 1$$
 > 2. Modulo reordering assume that $\ell_{1}\leq\dots\leq \ell_{n}$. Let $S_{k}:=\{ 0,1 \}^k$ with lexicographical ordering. Then, we have the following algorithm.
 > 	```pseudo
 >    \begin{algorithm} \caption{Kraft($\ell_{1},\dots,\ell_{n}$)} 
 >    \begin{algorithmic}
 >    \For{$i\in [n]$}
->    \State $c_i\gets $ first element in $S_{\ell_{i}}$ stha
+>    \State $c_i\gets $ first element in $S_{\ell_{i}}$ that does not have $c_{1},\dots,c_{i-1}$ as prefix.
 >    \EndFor
+>    \Return $c_{1},\dots,c_{n}$
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
 >    
->    We will show this by induction. 
+>    By definition this is always prefix free. We will show that there exists such a $c_{i}$ at every step. Let $i<j$. Then, the number of elements in $S_{\ell_{j}}$ that does not have $c_{i}$ as prefix is given by $2^{\ell_{j}-\ell_{i}}$. Therefore, there are at least $2^{\ell_{i}}-\sum_{k=1}^{i-1}2^{\ell_{i}-\ell_{k}}$ codewords to choose from. However, we have $\sum_{k=1}^{i-1}2^{-\ell_{k}}\leq 1-2^{-\ell_{i}}$
+>    
+>    $$2^{\ell_{i}}\left( 1-\sum_{k=1}^{i-1}2^{-\ell_{k}} \right)\geq 2^{\ell_{i}}\cdot 2^{-\ell_{i}}=1 $$This proves the statement.
 ---
 > [!lemma] Theorem 3 (Optimal Length)
 > Consider $L^{*}$ to be the optimal solution of the following optimization problem.
