@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Flow (Graph).md",
+                "file": "Graph Theory/Walk.md",
                 "mode": "source",
                 "source": true
               }
@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
+                "file": "Graph Theory/Tree.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Flow (Graph).md",
+                "file": "Graph Theory/Graph.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
+                "file": "Graph Theory/Tree.md",
                 "mode": "preview",
                 "source": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
+                "file": "Graph Theory/Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
+                "file": "Graph Theory/Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Path (Graph).md"
+                "file": "Graph Theory/Tree.md"
               }
             }
           }
@@ -257,11 +257,12 @@
   },
   "active": "a08b0213c43acfe6",
   "lastOpenFiles": [
-    "Topology/Path.md",
-    "Graph Theory/Path (Graph).md",
+    "Graph Theory/Graph.md",
+    "Graph Theory/Tree.md",
     "Graph Theory/Flow (Graph).md",
     "Graph Theory/Walk.md",
-    "Graph Theory/Graph.md",
+    "Graph Theory/Path (Graph).md",
+    "Topology/Path.md",
     "Graph Theory/Cut (Graph).md",
     "Graph Theory/Maximum Flow.md",
     "Markov Processes/Recurrence.md",
@@ -282,7 +283,6 @@
     "Machine Learning/Gaussian Process.md",
     "Analysis/Norm.md",
     "Analysis/Hilbert Space.md",
-    "Analysis/Normed Space.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
