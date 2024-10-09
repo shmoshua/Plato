@@ -85,7 +85,7 @@ $(A_{i},B_{i})$ where $1\leq i\leq m$ where $\left| A_{i} \right|=a$ and $\left|
 ---
 ### 3. Methods of Alteration
 
-#### 3.1 High Girth and High Chromatic Number
+##### 3.1 High Girth and High Chromatic Number
 ![[Girth#^803604]]
 
 ---
@@ -93,9 +93,9 @@ $(A_{i},B_{i})$ where $1\leq i\leq m$ where $\left| A_{i} \right|=a$ and $\left|
 ![[Girth#^819748|p]]
 
 ---
-#### 3.2 Non-2-colorable $k$-uniform Hypergraphs
+##### 3.2 Non-2-colorable $k$-uniform Hypergraphs
 ![[Hypergraph#^cbd750]]
 ![[Hypergraph#^a8679e|p]]
 ---
-#### 3.3 Dependent Random Choice
+##### 3.3 Dependent Random Choice
 ![[Ramsey Number#^bf6551]]

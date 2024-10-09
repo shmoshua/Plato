@@ -62,14 +62,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tree.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "908826a285439274",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Graph.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -82,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Walk.md",
+                "file": "Probabilistic Methods/Ramsey Number.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tree.md",
+                "file": "Graph Theory/Graph.md",
                 "mode": "preview",
                 "source": true
               }
@@ -191,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Tree.md",
+                "file": "Graph Theory/Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Tree.md",
+                "file": "Graph Theory/Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Tree.md"
+                "file": "Graph Theory/Graph.md"
               }
             }
           }
@@ -255,12 +267,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a08b0213c43acfe6",
+  "active": "908826a285439274",
   "lastOpenFiles": [
     "Graph Theory/Graph.md",
     "Graph Theory/Tree.md",
-    "Graph Theory/Flow (Graph).md",
+    "Probabilistic Methods/Ramsey Number.md",
+    "Probabilistic Methods/Bayesian Decision.md",
+    "Probabilistic Methods/Sum-Free Set.md",
     "Graph Theory/Walk.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Graph Theory/Flow (Graph).md",
     "Graph Theory/Path (Graph).md",
     "Topology/Path.md",
     "Graph Theory/Cut (Graph).md",
@@ -279,10 +295,6 @@
     "Analysis/Kernel.md",
     "Advanced Algorithms/Linear Programming.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Advanced Algorithms/DNF Counting.md",
-    "Machine Learning/Gaussian Process.md",
-    "Analysis/Norm.md",
-    "Analysis/Hilbert Space.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

@@ -41,3 +41,8 @@
 >    
 >  Then, we see that $\varepsilon(G_{i+1})\geq \varepsilon(G_{i})$ and $\varepsilon(H)\geq \varepsilon(G)$. As $\varepsilon(G)>0$, we have that $\delta(H)>\varepsilon(H)$.
 ---
+> [!lemma] Lemma 
+> Let $G:=(V,E)$ be a graph with $\left| V \right|=n$ vertices. For $m,r,a>0$, if there exists $t\in \mathbb{Z}_{> 0}$ s.t. $$\frac{d(G)^t}{n^{t-1}}-{n \choose r}\frac{m^t}{n^t}\geq a$$then there exists $U\subseteq V$ with $\left| U \right|\geq a$ such that every $r$ vertices in $U$ have at least $m$ common neighbors.
+
+> [!proof]+
+> For a vertex set $T$, let $N(T):=\bigcap_{x\in T}^{}N(x)$. Pick a set of $t$ vertices $T$ uniformly at random with repetition. Set $A:=N(T)$. Let $X$ be the random variable for the cardinality of $A$. Then, $$\mathbb{E}[X]=\sum_{v\in V}^{}\left( \frac{d(v)}{n} \right)^t $$
