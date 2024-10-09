@@ -18,8 +18,7 @@ We have:
 
 ---
 ##### Problem 3
-
-Let $\frac{1}{n}, \frac{1}{n}, \frac{1}{n}, \frac{1}{2n}$. Then, $$\sum_{i=1}^{n} \frac{1}{n}\ell_{i}+\frac{1}{2n}$$
-	
+Let $\mathcal{X}=\{ 0,1 \}$ with $p_{0}=\delta$ and $p_{1}=1-\delta$. Then, we have that the average length of the optimal code is 1. Therefore, $$H(X)-\varepsilon=-(1-\delta)\log(1-\delta)-\delta \log \delta-\varepsilon<0$$
 	
 
+---
