@@ -62,14 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Cut (Graph).md",
+                "file": "Graph Theory/Path (Graph).md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Cut (Graph).md",
+                "file": "Graph Theory/Walk.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Flow (Graph).md",
+                "file": "Graph Theory/Path (Graph).md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Flow (Graph).md",
+                "file": "Graph Theory/Path (Graph).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Flow (Graph).md",
+                "file": "Graph Theory/Path (Graph).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Flow (Graph).md"
+                "file": "Graph Theory/Path (Graph).md"
               }
             }
           }
@@ -254,10 +255,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "66fc81c8cfddd0b2",
+  "active": "a08b0213c43acfe6",
   "lastOpenFiles": [
-    "Graph Theory/Cut (Graph).md",
+    "Topology/Path.md",
+    "Graph Theory/Path (Graph).md",
     "Graph Theory/Flow (Graph).md",
+    "Graph Theory/Walk.md",
+    "Graph Theory/Graph.md",
+    "Graph Theory/Cut (Graph).md",
     "Graph Theory/Maximum Flow.md",
     "Markov Processes/Recurrence.md",
     "Markov Processes/Markov Chain.md",
@@ -268,7 +273,6 @@
     "Advanced Algorithms/Minimum Set Cover.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
-    "Graph Theory/Graph.md",
     "Advanced Algorithms/Multi-Commodity Routing.md",
     "Advanced Algorithms/Minimum Vertex Cover.md",
     "Analysis/Kernel.md",
@@ -279,9 +283,6 @@
     "Analysis/Norm.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Normed Space.md",
-    "Probability Theory/Covariance.md",
-    "Probability Theory/Variance.md",
-    "Machine Learning/Linear Regression.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

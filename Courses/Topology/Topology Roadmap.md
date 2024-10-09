@@ -87,12 +87,12 @@
 **4.1 Homotopy**
 1. [[Homotopy]]
 2. [[Contractible Space]]
-3. [[Path]]
+3. [[Topology/Path]]
 4. [[Path-Connected Space]]
 5. [[Locally Path-Connected Space]]
 
 **4.2 The Fundamental Group**
-1. [[Path|Path homotopy]]
+1. [[Topology/Path|Path homotopy]]
 2. [[Fundamental Group]]
 3. [[Retract]]
 ---

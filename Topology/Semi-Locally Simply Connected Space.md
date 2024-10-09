@@ -2,7 +2,7 @@
 #Definition #Topology 
 
 > [!definition]
-> A [[Topological Space]] $X$ is ***semi-locally simply connected*** if every $x\in X$ admits a neighborhood $U$ s.t. any loop in $U$ is [[Path|path-homotopic]] to $\varepsilon_{x}$ in $X$.
+> A [[Topological Space]] $X$ is ***semi-locally simply connected*** if every $x\in X$ admits a neighborhood $U$ s.t. any loop in $U$ is [[Topology/Path|path-homotopic]] to $\varepsilon_{x}$ in $X$.
 - **Remark**: This is equivalent as saying $i_{*}:\pi_{1}(U,x)\to \pi_{1}(X,x)$ is trivial.
 - **Remark**: This is weaker than requiring $U$ to be simply connected! The contraction does not have to happen in $U$!
 ---
