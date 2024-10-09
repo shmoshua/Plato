@@ -49,5 +49,7 @@
 ^8f29dd
 
 ---
-> [!lemma] Proposition 4 (Permanent)
+> [!lemma] Theorem 4 (Alon)
+> Let $P(n)$ be the maximal number of Hamiltonian paths $T_{n}$ can have. Then, 
+> 1. $P(n)\leq cn^{3/2}\frac{n!}{2^{n-1}}$
 > 

@@ -55,9 +55,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "193acf5e146d81a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Tournament.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -65,7 +77,19 @@
         "dimension": 50.67055393586006,
         "children": [
           {
-            "id": "dc97252912affa1f",
+            "id": "a08b0213c43acfe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Tournament.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c2fc61ad1851ae72",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -75,32 +99,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "a08b0213c43acfe6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Regular Graph.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "667a0ba4d697957e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markov Processes/Markov Chain.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,12 +231,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "dc97252912affa1f",
+  "active": "c2fc61ad1851ae72",
   "lastOpenFiles": [
     "Graph Theory/Tournament.md",
+    "Markov Processes/Markov Chain.md",
+    "Graph Theory/Regular Graph.md",
+    "Technical Lemmas.md",
     "Algebra/Permanent.md",
     "Graph Theory/Graph.md",
-    "Graph Theory/Regular Graph.md",
     "Markov Processes/Recurrence.md",
     "Graph Theory/k-Factor.md",
     "Graph Theory/Hypercube (Graph).md",
@@ -250,14 +253,12 @@
     "Topology/Path.md",
     "Graph Theory/Cut (Graph).md",
     "Graph Theory/Maximum Flow.md",
-    "Markov Processes/Markov Chain.md",
     "Probability Theory/Conditional Probability.md",
     "Markov Processes/Stationary Distribution.md",
     "Probability Theory/Expected Value.md",
     "Analysis/Inner Product Space.md",
     "Advanced Algorithms/Minimum Set Cover.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
