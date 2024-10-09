@@ -23,6 +23,7 @@
 > 1. For a uniquely decodable code $C$, $\sum_{x\in \mathcal{X}}^{}2^{-L(x)}\leq 1$.
 > 2. For positive integers $\ell_{1},\dots,\ell_{n}$ s.t. $\sum_{i=1}^{m}2^{-\ell_{i}}\leq 1$, there exists a prefix-free code with $\ell_{1},\dots,\ell_{n}$ as lengths. 
 ---
+> [!lemma] Theorem 3 ()
 $$\begin{align}\min\quad &\sum_{i=1}^{n}p_{i}\ell_{i}\\\text{subject to}\quad&\sum_{i=1}^{n}2^{-\ell_{i}}\leq 1\end{align}$$
 
 Then, $$\begin{align}0&=\frac{ \partial  }{ \partial \ell_{i} } \sum_{i=1}^{n}p_i\ell_{i}+\lambda \left( \sum_{i=1}^{n}2^{-\ell_{i}} -1\right)\\&=p_{i}-\lambda \ln 2 \cdot 2^{-\ell_{i}} \end{align}$$Hence, $\ell_{i}=-\log_{2}(p_{i} / \lambda \ln 2)$ and by setting $\ell ^{*}_{i}=\log_{2}(1/ p_{i})$

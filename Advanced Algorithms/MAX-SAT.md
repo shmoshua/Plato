@@ -18,7 +18,7 @@
 > 
 > Then, 
 > 1. $\mathbb{P}(\alpha \text{ satisfies }c_{j})=1-2^{-\left| c_{j} \right|}$ for all $j\in[m]$.
-> 2. $\text{Random}$ is a 2-[[Approximation Algorithm|approximation algorithm]]. 
+> 2. $\text{Random}$ is a 1/2-[[Approximation Algorithm|approximation algorithm]]. 
 > 3. By repeating $\text{Random}$ $n$ times and taking the maximum, 
 
 > [!proof]-
@@ -32,7 +32,15 @@
 > Let $(y^{*},z^{*})$ be the optimal solution of the LP:$$\begin{align}\text{max}\quad&\sum_{j=1}^{m}w_{j}z_{j}\\\text{subject to}\quad &\sum_{i\in S_{j}^+}^{}y_{i}+\sum_{i\in S_{j}^-}^{}(1-y_{i})\geq z_{j}&&\forall j\in [m]\\&0\leq z_{j}\leq 1&&\forall j\in [m]\\&0\leq y_{i}\leq 1&&\forall i\in[n]\end{align}$$
 > Then, let $\alpha(x_{i})=1$ with probability $y^{*}_{i}$. We have that:
 > 1. $\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right)z^{*}_{j}$
+> 2. This is a $\left( 1-\frac{1}{e} \right)$-approximation algorithm.
+
+> [!proof]-
+> We have that:
+> 1. Notice that: $$\begin{align}\mathbb{P}(\alpha \text{ doesn't satisfy }c_{j})&=\prod_{i\in S^+_{j}}^{}(1-y_{i}^{*})\prod_{i\in S_{j}^-}^{}y^{*}_{i}\\&\leq \left(  \frac{\sum_{i\in S^+_{j}}^{}(1-y_{i}^{*})+\prod_{i\in S_{j}^-}^{}y^{*}_{i}}{k}\right)^k\\&\leq \left(  \frac{k-z^{*}_{j}}{k}\right)^k \end{align}$$Then, $$\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq 1-\left( 1-\frac{z^{*}_{j}}{k} \right) ^k\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right) z^{*}_{j}$$where $f(x)=1-\left( 1-\frac{x}{k} \right)^k$ is a concave function as: $$f''(x)=\frac{k-1}{k}\left( 1-\frac{x}{k} \right)^{k-2} $$which is non-negative for $x\leq k$. 
+> 2. We have: $$\mathbb{E}[w(S(\alpha))]\geq \sum_{j=1}^{m}w_{j}\left( 1-\frac{1}{k} \right) ^kz^{*}_{j}\geq \left( 1-\frac{1}{k} \right) ^kw_{\text{ILP}}\geq\left( 1-\frac{1}{e} \right) w_{\text{OPT}}$$
+---
+> [!lemma] Theorem 3
+>  
 
 > [!proof]+
-> We have that:
-> 1. Notice that: $$\begin{align}\mathbb{P}(\alpha \text{ doesn't satisfy }c_{j})&=\prod_{i\in S^+_{j}}^{}(1-y_{i}^{*})\prod_{i\in S_{j}^-}^{}y^{*}_{i}\\&\leq \left(  \frac{\sum_{i\in S^+_{j}}^{}(1-y_{i}^{*})+\prod_{i\in S_{j}^-}^{}y^{*}_{i}}{k}\right)^k\\&\leq \left(  \frac{k-z^{*}_{j}}{k}\right)^k \end{align}$$Then, $$\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq 1-\left( 1-\frac{z^{*}_{j}}{k} \right) ^k\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right) z^{*}_{j}$$
+> Let $w_{\text{Random}},w_{\text{LP}}$. Then, $$\begin{align}2\mathbb{E}[\max\{ w_{\text{Random}},w_{\text{LP}} \}]&\geq \mathbb{E}[w_{\text{Random}}+w_{\text{LP}}]\geq \left( \frac{3}{2}-\frac{1}{e} \right)w_{\text{OPT}}\end{align}$$

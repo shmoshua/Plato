@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/MAX-SAT.md",
+                "file": "Information Theory/Code.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/MAX-SAT.md",
+                "file": "Information Theory/Code.md",
                 "mode": "preview",
                 "source": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Algorithms/MAX-SAT.md",
+                "file": "Information Theory/Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Algorithms/MAX-SAT.md",
+                "file": "Information Theory/Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Algorithms/MAX-SAT.md"
+                "file": "Information Theory/Code.md"
               }
             }
           }
@@ -230,11 +230,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a08b0213c43acfe6",
+  "active": "3a7fa2d871c1ae6a",
   "lastOpenFiles": [
+    "Advanced Algorithms/MAX-SAT.md",
+    "Information Theory/Code.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
     "Advanced Algorithms/PRAS.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Advanced Algorithms/MAX-SAT.md",
     "Probability Theory/Expected Value.md",
     "Advanced Algorithms/Bin-Packing.md",
     "Graph Theory/Tournament.md",
@@ -256,8 +258,6 @@
     "Graph Theory/Path (Graph).md",
     "Topology/Path.md",
     "Graph Theory/Cut (Graph).md",
-    "Graph Theory/Maximum Flow.md",
-    "Probability Theory/Conditional Probability.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
