@@ -49,3 +49,5 @@
 ^8f29dd
 
 ---
+> [!lemma] Proposition 4 (Permanent)
+> 
