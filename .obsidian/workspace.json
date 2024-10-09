@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Code.md",
+                "file": "Courses/Information Theory/Exercise Sheet 4.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,13 +82,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Courses/Information Theory/Exercise Sheet 4.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Theory/Code.md",
+                "file": "Courses/Information Theory/Exercise Sheet 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Theory/Code.md",
+                "file": "Courses/Information Theory/Exercise Sheet 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Theory/Code.md"
+                "file": "Courses/Information Theory/Exercise Sheet 4.md"
               }
             }
           }
@@ -218,15 +219,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a08b0213c43acfe6",
+  "active": "3a7fa2d871c1ae6a",
   "lastOpenFiles": [
-    "Advanced Algorithms/Bin-Packing.md",
     "Information Theory/Code.md",
+    "Courses/Information Theory/Exercise Sheet 4.md",
+    "Probability Theory/Expected Value.md",
+    "Advanced Algorithms/Bin-Packing.md",
     "Advanced Algorithms/MAX-SAT.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Advanced Algorithms/PRAS.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Probability Theory/Expected Value.md",
     "Graph Theory/Tournament.md",
     "Markov Processes/Recurrence.md",
     "Algebra/Permanent.md",
@@ -245,7 +247,6 @@
     "Graph Theory/Flow (Graph).md",
     "Graph Theory/Path (Graph).md",
     "Topology/Path.md",
-    "Graph Theory/Cut (Graph).md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

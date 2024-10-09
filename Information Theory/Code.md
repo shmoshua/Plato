@@ -57,6 +57,7 @@
 ---
 
 > [!lemma] Theorem 4 (Huffman Codes)
+> Consider the algorithm:
 >  ```pseudo
 >    \begin{algorithm} \caption{HuffmanRecursion($\mathcal{X},p:\mathcal{X}\to[0,1]$)} 
 >    \begin{algorithmic}
@@ -76,16 +77,18 @@
 >    1. $G$ is a rooted binary tree with $\mathcal{X}$ exactly as leaves.
 >    2. the corresponding prefix free code is optimal. 
 
-> [!proof]+
+> [!proof]-
 > Notice that:
 > 1. hihi
 > 2. For a code $C$, let $L(C)$ denote the average length of $C$. 
 >    
 >    We show by induction over $n:=\left| \mathcal{X} \right|$. Let $n=2$. Then, $G$ is a binary tree with two leaves and $\ell_{\max}=1$. This has to be optimal.
 >    
->    Let $\mathcal{X}=\{ x_{1},\dots,x_{n} \}$ with $p_{1},\dots,p_{n}$ and without loss of generality, assume that $p_{n-2}\geq p_{n-1}\geq p_{n}$. Now, let $C$ denote the code given.  Then, consider $G'$ in the algorithm. We have that by assumption, the code given by $G'$ is optimal with average length $L'$. 
+>    Let $\mathcal{X}=\{ x_{1},\dots,x_{n} \}$ with $p_{1},\dots,p_{n}$ and without loss of generality, assume that $p_{n-2}\geq p_{n-1}\geq p_{n}$. Then, consider $G'$ in the algorithm. Now, let $C,C'$ denote the code given from $G,G'$ respectively. We have that by assumption $C'$ is optimal.
 >    
->    Suppose we have another code $C$ with average length $K<L$. 
+>    Suppose we have another code $D$ on $\mathcal{X}$ s.t. $L(D)<L(C)$. Then, wlog we may assume that $L(x_{n-1})=L(x_{n})=\ell_{\max}(D)$. (otherwise we can always swap them and achieve lower average length). Then, by switching between leaves at level $\ell_{\max}(D)$, we have that there exists $y\in \{ 0,1 \}^+$ s.t. $\{ D(x_{n-1}),D(x_{n}) \}=\{ y0,y 1 \}$.
+>    
+>    Then, we now construct $D'$ on $\mathcal{X'}$ given as: $$D'(z):=\begin{cases}D(z)&\text{if }z\in \mathcal{X}\\y&\text{otherwise}\end{cases}$$We have that this is prefix free and $$L(D')=L(D)-p_{n}-p_{n-1}<L(C)-p_{n}-p_{n-1}=L(C')$$which is a contradiction to the optimality of $C'$. 
 >    
 ---
 
