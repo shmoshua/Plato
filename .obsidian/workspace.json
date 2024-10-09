@@ -38,38 +38,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Recurrence.md",
+                "file": "Advanced Algorithms/MAX-SAT.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "908826a285439274",
+            "id": "4ff2d6a798aec8b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Permanent.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "193acf5e146d81a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Advanced Algorithms/Bin-Packing.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "931e1cf3bc9d2fba",
@@ -82,26 +70,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Advanced Algorithms/MAX-SAT.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "c2fc61ad1851ae72",
+            "id": "91848084c95dadd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Permanent.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "96e3f640fa8c87e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Permanent.md",
+                "file": "Advanced Algorithms/MAX-SAT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Permanent.md",
+                "file": "Advanced Algorithms/MAX-SAT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Permanent.md"
+                "file": "Advanced Algorithms/MAX-SAT.md"
               }
             }
           }
@@ -231,15 +230,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c2fc61ad1851ae72",
+  "active": "a08b0213c43acfe6",
   "lastOpenFiles": [
+    "Probability Theory/Expected Value.md",
+    "Advanced Algorithms/MAX-SAT.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Advanced Algorithms/Bin-Packing.md",
     "Graph Theory/Tournament.md",
+    "Markov Processes/Recurrence.md",
+    "Algebra/Permanent.md",
     "Markov Processes/Markov Chain.md",
     "Graph Theory/Regular Graph.md",
     "Technical Lemmas.md",
-    "Algebra/Permanent.md",
     "Graph Theory/Graph.md",
-    "Markov Processes/Recurrence.md",
     "Graph Theory/k-Factor.md",
     "Graph Theory/Hypercube (Graph).md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
@@ -255,10 +258,6 @@
     "Graph Theory/Maximum Flow.md",
     "Probability Theory/Conditional Probability.md",
     "Markov Processes/Stationary Distribution.md",
-    "Probability Theory/Expected Value.md",
-    "Analysis/Inner Product Space.md",
-    "Advanced Algorithms/Minimum Set Cover.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
