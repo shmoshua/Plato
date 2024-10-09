@@ -13,7 +13,7 @@
 > [!lemma] Proposition 1
 > For any prefix-free code $C:\mathcal{X}\to \{ 0,1 \}^+$,
 > 1. $C$ is uniquely decodable.
-> 2. $C$ is equivalent to a binary tree where $\mathcal{X}$ are nodes.
+> 2. $C$ is equivalent to a binary tree where $\mathcal{X}$ are leaves.
 
 > [!proof]-
 > Assume $C$ is not uniquely decodable. Then, there exists $x_{1}\dots x_{n}$, $y_{1},\dots,y_{m}\in \mathcal{X}$ s.t. $$C(x_{1})\dots C(x_{m})=C(y_{1})\dots C(y_{m})$$Wlog we may assume that $x_{1}\neq y_{1}$ and $L(x_{1})\leq L(y_{1})$. Then, $C(x_{1})$ is clearly a prefix of $C(y_{1})$ and $C$ is not prefix-free.
@@ -54,6 +54,39 @@
 > Conversely, assume $\ell_{i}:= \left\lceil \log_{2} \frac{1}{p_{i}}\right\rceil$. Then, $$L^{*}\leq\sum_{i=1}^{n}p_{i}\ell_{i}<\sum_{i=1}^{n}p_{i}\left( \log_{2} \frac{1}{p_{i}}+1 \right)=H(X)+1$$
 > 
 
+---
+
+> [!lemma] Theorem 4 (Huffman Codes)
+>  ```pseudo
+>    \begin{algorithm} \caption{HuffmanRecursion($\mathcal{X},p:\mathcal{X}\to[0,1]$)} 
+>    \begin{algorithmic}
+>    \If{$\left| \mathcal{X} \right|=1$} 
+>    \Return $G:=(\mathcal{X},\varnothing)$ as a graph.
+>    \EndIf
+>    \State Choose $x,y\in \mathcal{X}$ with the smallest $p$ values.
+>    \State $\mathcal{X}'\gets \{ x' \}\cup \mathcal{X} \backslash \{ x,y \}$
+>    \State $p'(z)\gets \begin{cases}p(z)&z\in \mathcal{X}\\p(x)+p(y)&z=x'\end{cases}$
+>    \State $G'\gets $\Call{HuffmanRecursion}{ $\mathcal{X}',p'$}
+>    \State $G\gets (V(G')\cup \{ x,y \},E(G')\cup \{ (x',x),(x',y) \})$
+>    \Return $G$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    Then, let $G$ be the output of $\text{HuffmanRecursion}(\mathcal{X},p)$. 
+>    1. $G$ is a rooted binary tree with $\mathcal{X}$ exactly as leaves.
+>    2. the corresponding prefix free code is optimal. 
+
+> [!proof]+
+> Notice that:
+> 1. hihi
+> 2. For a code $C$, let $L(C)$ denote the average length of $C$. 
+>    
+>    We show by induction over $n:=\left| \mathcal{X} \right|$. Let $n=2$. Then, $G$ is a binary tree with two leaves and $\ell_{\max}=1$. This has to be optimal.
+>    
+>    Let $\mathcal{X}=\{ x_{1},\dots,x_{n} \}$ with $p_{1},\dots,p_{n}$ and without loss of generality, assume that $p_{n-2}\geq p_{n-1}\geq p_{n}$. Now, let $C$ denote the code given.  Then, consider $G'$ in the algorithm. We have that by assumption, the code given by $G'$ is optimal with average length $L'$. 
+>    
+>    Suppose we have another code $C$ with average length $K<L$. 
+>    
 ---
 
 ##### Examples
