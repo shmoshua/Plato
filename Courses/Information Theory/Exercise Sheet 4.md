@@ -10,10 +10,16 @@
 ##### Problem 2
 We have:
 1. the $\text{F}_{i}$ are given by $(0,0.5,0.75,0.875)$ and then in binary, we have that $(0,0.1,0.11,0.111)$. Therefore, the codewords are $(0,10,110,111)$.
-2. Assume that it is not prefix-free, i.e. $x_{i}$ is the prefix of $x_{j}$ then, by the length construction, we have that $\ell_{i}<\ell_{j}$ and $p_{j}<p_{i}$. Let $b_{1},\dots ,b_{\ell_{j}}\in \{ 0,1 \}$ s.t. $x_{j}=b_{1}\dots b_{\ell_{j}}$. 
+2. Assume that it is not prefix-free, i.e. $x_{i}$ is the prefix of $x_{j}$. By the length construction, we have that $\ell_{i}\leq\ell_{j}$.  If $\ell_{i}=\ell_{j}$, then $x_{i}=x_{j}$ and wlog let $i<j$. If $\ell_{i}<\ell_{j}$, then $p_{i}>p_{j}$ and $i<j$. 
+
+	Now, let $b_{1},\dots ,b_{\ell_{j}}\in \{ 0,1 \}$ s.t. $x_{j}=b_{1}\dots b_{\ell_{j}}$. Then, $$p_{i}\leq \text{F}_{j}-\text{F}_{i}< \sum_{k=1}^{\ell_{j}}2^{-k}\cdot b_{k}+2^{-\ell_{j}}-\sum_{k=1}^{\ell_{i}}2^{-k}\cdot b_{k}=\sum_{k=\ell_{i}+1}^{\ell_{j}}2^{-k}+2^{-\ell_{j}}=2^{-\ell_{i}}\leq p_{i}$$which is a contradiction. Hence, Shannon code is prefix free. 
 	
-   
-   Then, $$$$
-	$$$$
-1. $$\sum_{i=1}^{\ell_{i}}2^{-i}\cdot b_{i}+\varepsilon_{i}+\sum_{k=i}^{j-1}p_{k}=\text{F}_{i}+\sum_{k=i}^{j-1}p_{k}=\sum_{k=1}^{i-1}p_{k}+\sum_{k=i}^{j-1}p_{k}=\sum_{k=1}^{j-1}p_{k}=\text{F}_{j}=\sum_{i=1}^{\ell_{j}}2^{-i}\cdot b_{i}+\varepsilon_{j}$$where $\varepsilon_{k}<2^{-\ell_{k}}$. Hence, $$2^{-\ell_{i}}=\sum_{k=\ell_{i}+1}^{\ell_{j}}2^{-k}+2^{-\ell_{j}}>\sum_{k=\ell_{i}+1}^{\ell_{j}}2^{-k}\cdot b_{k}+\varepsilon_{j}=\sum_{k=i}^{\ell_{i}}p_{k }+\varepsilon_{i}$$
+	For the average length, we have that: $$H(X)=\sum_{i=1}^{m}p_{i}\text{log} \frac{1}{p_{i}}\leq\sum_{i=1}^{m}p_{i}\left\lceil\text{log} \frac{1}{p_{i}}\right\rceil <\sum_{i=1}^{m}p_{i}\left( \text{log} \frac{1}{p_{i}} +1\right)=H(X)+1$$
+
+---
+##### Problem 3
+
+Let $\frac{1}{n}, \frac{1}{n}, \frac{1}{n}, \frac{1}{2n}$. Then, $$\sum_{i=1}^{n} \frac{1}{n}\ell_{i}+\frac{1}{2n}$$
+	
+	
 
