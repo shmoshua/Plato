@@ -22,14 +22,34 @@
 > We have that:
 > 1. For a uniquely decodable code $C$, $\sum_{x\in \mathcal{X}}^{}2^{-L(x)}\leq 1$.
 > 2. For positive integers $\ell_{1},\dots,\ell_{n}$ s.t. $\sum_{i=1}^{m}2^{-\ell_{i}}\leq 1$, there exists a prefix-free code with $\ell_{1},\dots,\ell_{n}$ as lengths. 
----
-> [!lemma] Theorem 3 ()
-$$\begin{align}\min\quad &\sum_{i=1}^{n}p_{i}\ell_{i}\\\text{subject to}\quad&\sum_{i=1}^{n}2^{-\ell_{i}}\leq 1\end{align}$$
 
-Then, $$\begin{align}0&=\frac{ \partial  }{ \partial \ell_{i} } \sum_{i=1}^{n}p_i\ell_{i}+\lambda \left( \sum_{i=1}^{n}2^{-\ell_{i}} -1\right)\\&=p_{i}-\lambda \ln 2 \cdot 2^{-\ell_{i}} \end{align}$$Hence, $\ell_{i}=-\log_{2}(p_{i} / \lambda \ln 2)$ and by setting $\ell ^{*}_{i}=\log_{2}(1/ p_{i})$
-
+> [!proof]+
+> We have:
+> 1. (1=>2):
+> 2. Modulo reordering assume that $\ell_{1}\leq\dots\leq \ell_{n}$. Let $S_{k}:=\{ 0,1 \}^k$ with lexicographical ordering. Then, we have the following algorithm.
+> 	```pseudo
+>    \begin{algorithm} \caption{Kraft($\ell_{1},\dots,\ell_{n}$)} 
+>    \begin{algorithmic}
+>    \For{$i\in [n]$}
+>    \State $c_i\gets $ first element in $S_{\ell_{i}}$ stha
+>    \EndFor
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    
+>    We will show this by induction. 
 ---
-$$\begin{align}L-H(X)=-\sum_{i}^{}p_{i}\log_{2}2^{-\ell_{i}}+\sum_{i}^{}p_{i}\log_{2}p_{i}=\sum_{i}^{}p_{i}\log \frac{p_{i}}{2^{-\ell_{i}}}\geq 0\end{align}$$
+> [!lemma] Theorem 3 (Optimal Length)
+> Consider $L^{*}$ to be the optimal solution of the following optimization problem.
+> $$\begin{align}\underset{ \ell_{1},\dots,\ell_{n}\in \mathbb{Z}_{> 0} }{ \min }\quad &\sum_{i=1}^{n}p_{i}\ell_{i}\\\text{subject to}\quad&\sum_{i=1}^{n}2^{-\ell_{i}}\leq 1\end{align}$$
+> Then, 
+> 1. $H(X)\leq L^{*}< H(X)+1$.
+
+> [!proof]-
+> Firstly, we will consider the relaxation of the problem where $\ell_{1},\dots,\ell_{n}$ are not necessarily integers. Then, by Lagrange, we have: $$\begin{align}0&=\frac{ \partial  }{ \partial \ell_{i} } \sum_{i=1}^{n}p_i\ell_{i}+\lambda \left( \sum_{i=1}^{n}2^{-\ell_{i}} -1\right)\\&=p_{i}-\lambda \ln 2 \cdot 2^{-\ell_{i}} \end{align}$$Hence, $\ell_{i}=-\log_{2}(p_{i} / \lambda \ln 2)$ for some $\lambda>0$. Then, $$\sum_{i=1}^{n}p_{i} \ell_{i}=\sum_{i=1}^{n}p_{i} \log_{2}\left( \frac{\lambda \ln 2}{p_{i}} \right) =\log_{2}(\lambda \ln 2)-\sum_{i=1}^{}p_{i}\log_{2} p_{i} \geq -\sum_{i=1}^{}p_{i}\log_{2} p_{i} $$where the equality is given when $\lambda=1 / \ln 2$. Hence, $L^{*}\geq-\sum_{i=1}^{n}p_{i}\log_{2}(p_{i})=H(X)$.
+> 
+> Conversely, assume $\ell_{i}:= \left\lceil \log_{2} \frac{1}{p_{i}}\right\rceil$. Then, $$L^{*}\leq\sum_{i=1}^{n}p_{i}\ell_{i}<\sum_{i=1}^{n}p_{i}\left( \log_{2} \frac{1}{p_{i}}+1 \right)=H(X)+1$$
+> 
 
 ---
 
