@@ -10,7 +10,9 @@
 >    ```pseudo
 >    \begin{algorithm} \caption{Random($I$)} 
 >    \begin{algorithmic}
->    \State Pick $\alpha(x_{i})$ from $\{ 0,1 \}$ uniformly at random.
+>    \For{$i\in[n]$}
+>    \State $\alpha(x_{i})\gets \{ 0,1 \}$  uniformly at random.
+\EndFor
 >    \Return $\alpha$
 >    \end{algorithmic}
 >    \end{algorithm}
@@ -18,7 +20,7 @@
 > 
 > Then, 
 > 1. $\mathbb{P}(\alpha \text{ satisfies }c_{j})=1-2^{-\left| c_{j} \right|}$ for all $j\in[m]$.
-> 2. $\text{Random}$ is a 1/2-[[Approximation Algorithm|approximation algorithm]]. 
+> 2. $\text{Random}$ is a 1/2-[[Approximation Algorithm|approximation algorithm]] in expectation. 
 > 3. By repeating $\text{Random}$ $n$ times and taking the maximum, 
 
 > [!proof]-
@@ -30,19 +32,41 @@
 ---
 > [!lemma] Theorem 2 (Linear Programming)
 > Let $(y^{*},z^{*})$ be the optimal solution of the LP:$$\begin{align}\text{max}\quad&\sum_{j=1}^{m}w_{j}z_{j}\\\text{subject to}\quad &\sum_{i\in S_{j}^+}^{}y_{i}+\sum_{i\in S_{j}^-}^{}(1-y_{i})\geq z_{j}&&\forall j\in [m]\\&0\leq z_{j}\leq 1&&\forall j\in [m]\\&0\leq y_{i}\leq 1&&\forall i\in[n]\end{align}$$
-> Then, let $\alpha(x_{i})=1$ with probability $y^{*}_{i}$. We have that:
+>   ```pseudo
+>    \begin{algorithm} \caption{LP\_Rounding($I,f:[0,1]\to[0,1]$)} 
+>    \begin{algorithmic}
+>    \State $(y^{*},z^{*})\gets$\Call{LP}{$I$}
+>    \For{$i\in[n]$}
+>    \State Choose $\alpha(x_{i})$ from $\{ 0,1 \}$ where $\mathbb{P}(\alpha(x_{i})=1)=f(y^{*}_{i})$.\EndFor
+>    \Return $\alpha$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    
+>    
+> We have that:
 > 1. $\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right)z^{*}_{j}$
-> 2. This is a $\left( 1-\frac{1}{e} \right)$-approximation algorithm.
-> 3. 
+> 2. $\text{LP\_Rounding}$ is a $\left( 1-\frac{1}{e} \right)$-approximation algorithm in expectation.
+> 3. $\max(\text{Random}(I),\text{LP\_Rounding}(I))$ is a $3/4$-approximation algorithm in expectation.
 
 > [!proof]-
 > We have that:
 > 1. Notice that: $$\begin{align}\mathbb{P}(\alpha \text{ doesn't satisfy }c_{j})&=\prod_{i\in S^+_{j}}^{}(1-y_{i}^{*})\prod_{i\in S_{j}^-}^{}y^{*}_{i}\\&\leq \left(  \frac{\sum_{i\in S^+_{j}}^{}(1-y_{i}^{*})+\prod_{i\in S_{j}^-}^{}y^{*}_{i}}{k}\right)^k\\&\leq \left(  \frac{k-z^{*}_{j}}{k}\right)^k \end{align}$$Then, $$\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq 1-\left( 1-\frac{z^{*}_{j}}{k} \right) ^k\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right) z^{*}_{j}$$where $f(x)=1-\left( 1-\frac{x}{k} \right)^k$ is a concave function as: $$f''(x)=\frac{k-1}{k}\left( 1-\frac{x}{k} \right)^{k-2} $$which is non-negative for $x\leq k$. 
 > 2. We have: $$\mathbb{E}[w(S(\alpha))]\geq \sum_{j=1}^{m}w_{j}\left( 1-\frac{1}{k} \right) ^kz^{*}_{j}\geq \left( 1-\frac{1}{k} \right) ^kw_{\text{ILP}}\geq\left( 1-\frac{1}{e} \right) w_{\text{OPT}}$$
+> 3. Let $X_{r}$ be the weight given from $\text{Random}$ and let $X_{\ell}$ be the weight given by $\text{LP\_Rounding}$. Then, $X:=\max\{ X_{r},X_{\ell} \}$. Notice that we have: $2 X\geq X_{r}+X_{\ell}$. Therefore, it suffices to show that $\mathbb{E}[X_{r}+X_{\ell}]\geq \frac{3}{2}w_{\text{OPT}}$. 
+>    
+>    Let $\mathcal{C}_{k}$ be the clauses with length $k$. Then, $$\mathbb{E}[X_{r}]=\sum_{k}^{}\sum_{C_{j}\in \mathcal{C_{k}}}^{}w_{j}\left( 1-\frac{1}{2^k} \right)\geq\sum_{k}^{}\sum_{C_{j}\in \mathcal{C_{k}}}^{}w_{j}\left( 1-\frac{1}{2^k} \right)z^{*}_{j} $$Similarly, $$\mathbb{E}[X_{\ell}]\geq\sum_{k}^{}\sum_{C_{j}\in \mathcal{C}_{k}}^{}w_{j}\left( 1- \left( 1-\frac{1}{k} \right) ^k\right) z^{*}_{j} $$Hence, $$\begin{align}\mathbb{E}[X_{r}+X_{\ell}]\geq \sum_{k}^{}\sum_{C_{j}\in \mathcal{C}_{k}}^{}w_{j}\underbrace{ \left( 2-\frac{1}{2^k}-\left( 1-\frac{1}{k} \right) ^k \right)  }_{ =: \xi_{k} } z^{*}_{j}\end{align}$$we claim that $\xi_{k}\geq \frac{3}{2}$ for all $k\geq 1$. 
+>    1. for $k=1$, $\xi_{k}=3 /2$.
+>    2. for $k=2$, $\xi_{k}=3 /2$.
+>    3. for $k\geq 3$, $\xi_{k}\geq 1-\frac{1}{2^k}+\left( 1-\frac{1}{e} \right)=\frac{15}{8} - \frac{1}{e}\geq \frac{3}{2}$ as $\frac{1}{e}\leq\frac{3}{8}$.
+>    
+>    It follows that $$\mathbb{E}[X]=\frac{\mathbb{E}[X_{r}+X_{\ell}]}{2}\geq \frac{3}{4}\sum_{j\in[m]}^{}w_{j}z^{*}_{j}=\frac{3}{4}w_{\text{LP}}\geq \frac{3}{4}w_{\text{OPT}}$$
+>    
 ---
-> [!lemma] Theorem 3
->  
+> [!lemma] Theorem 3 (Integrality Gap)
+> We have:
+> 1. $\text{IG}=3/4$. 
 
-> [!proof]+
-> Let $w_{\text{Random}},w_{\text{LP}}$. Then, $$\begin{align}2\mathbb{E}[\max\{ w_{\text{Random}},w_{\text{LP}} \}]&\geq \mathbb{E}[w_{\text{Random}}+w_{\text{LP}}]\geq \left( \frac{3}{2}-\frac{1}{e} \right)w_{\text{OPT}}\end{align}$$
-> Let $S_{k}$ be the clauses with 
+> [!proof]-
+> Let out CNF be: $$(x_{1}\lor x_{2})\land (x_{1}\lor \neg x_{2})\land (\neg x_{1}\lor  x_{2})\land (\neg x_{1}\lor \neg x_{2})$$with weight $w=1$. Then, any assignment satisfies exactly 3 clauses and therefore, $w_{\text{OPT}}=\text{OPT}_{\text{ILP}}=3$. However, for LP, we have by setting $y_{i}= \frac{1}{2 }$ and $z_{j} = 1$, $w_{\text{LP}}\geq 4$. 
+---
