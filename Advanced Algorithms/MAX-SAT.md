@@ -33,6 +33,7 @@
 > Then, let $\alpha(x_{i})=1$ with probability $y^{*}_{i}$. We have that:
 > 1. $\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right)z^{*}_{j}$
 > 2. This is a $\left( 1-\frac{1}{e} \right)$-approximation algorithm.
+> 3. 
 
 > [!proof]-
 > We have that:
@@ -44,3 +45,4 @@
 
 > [!proof]+
 > Let $w_{\text{Random}},w_{\text{LP}}$. Then, $$\begin{align}2\mathbb{E}[\max\{ w_{\text{Random}},w_{\text{LP}} \}]&\geq \mathbb{E}[w_{\text{Random}}+w_{\text{LP}}]\geq \left( \frac{3}{2}-\frac{1}{e} \right)w_{\text{OPT}}\end{align}$$
+> Let $S_{k}$ be the clauses with 
