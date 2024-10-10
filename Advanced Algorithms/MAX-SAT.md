@@ -45,13 +45,14 @@
 >    
 >    
 > We have that:
-> 1. $\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right)z^{*}_{j}$
-> 2. $\text{LP\_Rounding}$ is a $\left( 1-\frac{1}{e} \right)$-approximation algorithm in expectation.
-> 3. $\max(\text{Random}(I),\text{LP\_Rounding}(I))$ is a $3/4$-approximation algorithm in expectation.
+> 1. With $f=\text{id}$, $\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right)z^{*}_{j}$
+> 2. $\text{LP\_Rounding}(I,\text{id})$ is a $\left( 1-\frac{1}{e} \right)$-approximation algorithm in expectation.
+> 3. $\max(\text{Random}(I),\text{LP\_Rounding}(I, \text{id}))$ is a $3/4$-approximation algorithm in expectation.
+> 4. for $f:[0,1]\to[0,1]$ with $f(y)\in [1-4^{-y},4^{y-1}]$, $\text{LP\_Rounding}(I,f)$ is a $3/4$-approximation.
 
 > [!proof]-
 > We have that:
-> 1. Notice that: $$\begin{align}\mathbb{P}(\alpha \text{ doesn't satisfy }c_{j})&=\prod_{i\in S^+_{j}}^{}(1-y_{i}^{*})\prod_{i\in S_{j}^-}^{}y^{*}_{i}\\&\leq \left(  \frac{\sum_{i\in S^+_{j}}^{}(1-y_{i}^{*})+\prod_{i\in S_{j}^-}^{}y^{*}_{i}}{k}\right)^k\\&\leq \left(  \frac{k-z^{*}_{j}}{k}\right)^k \end{align}$$Then, $$\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq 1-\left( 1-\frac{z^{*}_{j}}{k} \right) ^k\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right) z^{*}_{j}$$where $f(x)=1-\left( 1-\frac{x}{k} \right)^k$ is a concave function as: $$f''(x)=\frac{k-1}{k}\left( 1-\frac{x}{k} \right)^{k-2} $$which is non-negative for $x\leq k$. 
+> 1. Notice that: $$\begin{align}\mathbb{P}(\alpha \text{ doesn't satisfy }c_{j})&=\prod_{i\in S^+_{j}}^{}(1-y_{i}^{*})\prod_{i\in S_{j}^-}^{}y^{*}_{i}\\&\leq \left(  \frac{\sum_{i\in S^+_{j}}^{}(1-y_{i}^{*})+\prod_{i\in S_{j}^-}^{}y^{*}_{i}}{k}\right)^k\\&\leq \left(  \frac{k-z^{*}_{j}}{k}\right)^k \end{align}$$Then, $$\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq 1-\left( 1-\frac{z^{*}_{j}}{k} \right) ^k\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right) z^{*}_{j}$$where $f(t)=1-\left( 1-\frac{t}{k} \right)^k$ is a concave function as: $$f''(t)= \frac{d}{dt}\left( 1-\frac{t}{k} \right)^{k-1}=-\frac{k-1}{k}\left( 1-\frac{t}{k} \right)^{k-2} $$which is non-positive for $t\leq k$. 
 > 2. We have: $$\mathbb{E}[w(S(\alpha))]\geq \sum_{j=1}^{m}w_{j}\left( 1-\frac{1}{k} \right) ^kz^{*}_{j}\geq \left( 1-\frac{1}{k} \right) ^kw_{\text{ILP}}\geq\left( 1-\frac{1}{e} \right) w_{\text{OPT}}$$
 > 3. Let $X_{r}$ be the weight given from $\text{Random}$ and let $X_{\ell}$ be the weight given by $\text{LP\_Rounding}$. Then, $X:=\max\{ X_{r},X_{\ell} \}$. Notice that we have: $2 X\geq X_{r}+X_{\ell}$. Therefore, it suffices to show that $\mathbb{E}[X_{r}+X_{\ell}]\geq \frac{3}{2}w_{\text{OPT}}$. 
 >    
@@ -61,6 +62,11 @@
 >    3. for $k\geq 3$, $\xi_{k}\geq 1-\frac{1}{2^k}+\left( 1-\frac{1}{e} \right)=\frac{15}{8} - \frac{1}{e}\geq \frac{3}{2}$ as $\frac{1}{e}\leq\frac{3}{8}$.
 >    
 >    It follows that $$\mathbb{E}[X]=\frac{\mathbb{E}[X_{r}+X_{\ell}]}{2}\geq \frac{3}{4}\sum_{j\in[m]}^{}w_{j}z^{*}_{j}=\frac{3}{4}w_{\text{LP}}\geq \frac{3}{4}w_{\text{OPT}}$$
+>  4. Let $X$ be the random variable about the weight of the output. We have: 
+> 	1. **Claim 1:** $\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq 1-4^{-z^{*}_{j}}$
+> 	   $$\begin{align}\mathbb{P}(\alpha \text{ doesn't satisfy }c_{j})&=\prod_{i\in S_{j}^+}^{}(1-f(y^{*}_{i}))\prod_{i\in S_{j}^-}^{}f(y^{*}_{i})\\&\leq \prod_{i\in S_{j}^+}^{}4^{-y^{*}_{i}}\prod_{i\in S^-_{j}}^{}4^{y^{*}_{i}-1}\\&=4^{-\left( \sum_{i\in S_{j}^+}^{}y^{*}_{i}+\sum_{i\in S^-_{j}}(1-y^{*}_{i}) \right)}\\&\leq 4^{-z^{*}_{j}}\end{align}$$
+> 	
+> 	Therefore, $$\mathbb{E}[X]\geq \sum_{j=1}^{m}w_{j}(1-4^{-z^{*}_{j}})$$where $f(t)=(1-4^{-t})$ is a concave function as: $$f''(t)=\frac{d}{dt}(\ln 4\cdot e^{-t\ln 4})=-(\ln 4)^{2}4^{-t}\leq 0$$Hence, $\mathbb{E}[X]\geq \sum_{j=1}^{m}w_{j}(1-4^{-z^{*}_{j}})\geq \frac{3}{4}\sum_{j=1}^{m}w_{j}z^{*}_{j}\geq \frac{3}{4}w_{\text{OPT}}$.
 >    
 ---
 > [!lemma] Theorem 3 (Integrality Gap)
