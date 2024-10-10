@@ -25,13 +25,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Graph Theory/Radius (Graph).md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "18ebbe31eeacaad2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -43,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
+                "file": "Graph Theory/Radius (Graph).md",
                 "mode": "preview",
                 "source": true
               }
@@ -55,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Graph Theory/Path (Graph).md",
                 "mode": "preview",
                 "source": true
               }
@@ -139,7 +148,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +164,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,9 +185,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Graph Theory/Path (Graph).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -203,13 +208,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5cdb8c01f915a8d3",
+  "active": "18ebbe31eeacaad2",
   "lastOpenFiles": [
-    "Graph Theory/Graph.md",
+    "Graph Theory/Radius (Graph).md",
     "Graph Theory/Path (Graph).md",
+    "Graph Theory/Graph.md",
+    "Topology/Path.md",
     "Graph Theory/Girth and Circumference.md",
     "Advanced Algorithms/Linear Programming.md",
-    "Topology/Path.md",
     "Advanced Algorithms/MAX-SAT.md",
     "Advanced Algorithms/Minimum Vertex Cover.md",
     "Markov Processes/Stationary Distribution.md",
@@ -230,7 +236,6 @@
     "Graph Theory/Hypercube (Graph).md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Probabilistic Methods/Ramsey Number.md",
-    "Graph Theory/Walk.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

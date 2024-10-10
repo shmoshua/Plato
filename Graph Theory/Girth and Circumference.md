@@ -11,6 +11,13 @@
 
 ---
 ##### Properties
+> [!lemma] Proposition 1
+> Let $G$ be a finite graph with a cycle. Then, 
+> 1. $g(G)\leq 2\cdot \text{diam}(G)+1$
+
+> [!proof]+
+> Let $C$ be the shortest cycle in $G$. If $g(G)\geq 2\cdot \text{diam}(G)+2$, then $C$ has two vertices $u,v$ whose distance is at least $\text{diam}(G)+1$. However, we have that there exists a $(u,v)$-path $P$ that is shorter. By replacing a path in the cycle with $P$, we get a shorter cycle, which is a contradiction.
+---
 > [!lemma] Theorem 1 (Erdös)
 > For any $k,\ell$, there exists a graph $G$ s.t. $\chi(G)>k$ and $g(G)>\ell$.
 
@@ -35,3 +42,5 @@
 >
 
 ^819748
+
+---

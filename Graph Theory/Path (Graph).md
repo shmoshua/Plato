@@ -8,7 +8,7 @@
 - **Related Definition**: A graph $G$ is ***connected*** if for every $v,w\in G$, there exists a $(v,w)$-path.
 - **Related Definition**: Two paths are ***independent*** if they do not share an inner node.
 - **Related Definition**: For $s,t\in V$, the ***distance*** $d_{G}(s,t)$ is the length of the shortest $(s,t)$-path in $G$. If such path doesn't exist, $d_{G}(s,t)=\infty$.
-- **Related Definition**: The dia
+- **Related Definition**: The ***diameter*** of a graph is $\text{diam}(G):= \max_{s,t\in V}d_{G}(s,t)$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -16,6 +16,7 @@
 > 1. $G$ has a path of length $\delta(G)$. 
 > 2. $G$ has a cyclic of length at least $\delta(G)+1$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $x_{0}\dots x_{k}$ be the longest path in $G$. Then, all the neighbors of $x_{k}$ are on the path. Hence, $k\geq d(x_{k})\geq\delta(G)$.
+---
