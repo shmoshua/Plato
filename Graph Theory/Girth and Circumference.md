@@ -1,9 +1,13 @@
 #Definition #GraphTheory 
 
 > [!definition]
-> For a [[graph]] $G$, the ***girth*** of $G$, denoted by $g(G)$, is defined as the shortest length of a cycle in $G$
+> For a [[graph]] $G$,
+> 1.  the ***girth*** of $G$, denoted by $g(G)$, is defined as the shortest length of a cycle in $G$.
+> 2. the ***circumference*** of $G$ is defined as the maximum length of a cycle. 
 
 ^803604
+
+- **Related definition**: If $G$ is acyclic, $g(G)=\infty$ and the circumference is 0. 
 
 ---
 ##### Properties

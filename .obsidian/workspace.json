@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/MAX-SAT.md",
+                "file": "Graph Theory/Path (Graph).md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c1723c7c5410be07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Girth and Circumference.md",
                 "mode": "source",
                 "source": true
               }
@@ -31,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/MAX-SAT.md",
+                "file": "Graph Theory/Path (Graph).md",
                 "mode": "preview",
                 "source": true
               }
@@ -43,7 +55,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advanced Algorithms/Linear Programming.md",
+                "file": "Graph Theory/Girth and Circumference.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e5398cc18a035f6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Graph.md",
                 "mode": "preview",
                 "source": true
               }
@@ -115,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Advanced Algorithms/MAX-SAT.md",
+                "file": "Graph Theory/Path (Graph).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced Algorithms/MAX-SAT.md",
+                "file": "Graph Theory/Path (Graph).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced Algorithms/MAX-SAT.md"
+                "file": "Graph Theory/Path (Graph).md"
               }
             }
           }
@@ -179,9 +203,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ac5845496ca9d679",
+  "active": "5cdb8c01f915a8d3",
   "lastOpenFiles": [
+    "Graph Theory/Graph.md",
+    "Graph Theory/Path (Graph).md",
+    "Graph Theory/Girth and Circumference.md",
     "Advanced Algorithms/Linear Programming.md",
+    "Topology/Path.md",
     "Advanced Algorithms/MAX-SAT.md",
     "Advanced Algorithms/Minimum Vertex Cover.md",
     "Markov Processes/Stationary Distribution.md",
@@ -198,15 +226,11 @@
     "Markov Processes/Markov Chain.md",
     "Graph Theory/Regular Graph.md",
     "Technical Lemmas.md",
-    "Graph Theory/Graph.md",
     "Graph Theory/k-Factor.md",
     "Graph Theory/Hypercube (Graph).md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Probabilistic Methods/Ramsey Number.md",
     "Graph Theory/Walk.md",
-    "Graph Theory/Tree.md",
-    "Probabilistic Methods/Bayesian Decision.md",
-    "Probabilistic Methods/Sum-Free Set.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

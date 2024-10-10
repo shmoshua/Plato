@@ -86,11 +86,11 @@ $(A_{i},B_{i})$ where $1\leq i\leq m$ where $\left| A_{i} \right|=a$ and $\left|
 ### 3. Methods of Alteration
 
 ##### 3.1 High Girth and High Chromatic Number
-![[Girth#^803604]]
+![[Girth and Circumference#^803604]]
 
 ---
-![[Girth#^4ba9e0]]
-![[Girth#^819748|p]]
+![[Girth and Circumference#^4ba9e0]]
+![[Girth and Circumference#^819748|p]]
 
 ---
 ##### 3.2 Non-2-colorable $k$-uniform Hypergraphs
