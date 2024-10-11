@@ -136,6 +136,12 @@ In Bayesian Linear Regression with $w \sim \mathcal{N}(0,I)$ and $y_{i}=w^\top\p
 ![[Kernel#^e66b39]]
 
 ---
+#### 2.3.2 Making Predictions with Gaussian Processes
+
+![[Gaussian Process#^6676d7]]
+![[Gaussian Process#^9b4fed|p]]
+
+---
 
 
 

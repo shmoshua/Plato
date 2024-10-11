@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -80,14 +80,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md"
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
               }
             }
           }
@@ -217,16 +216,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d4213f95b17e214c",
+  "active": "7a327f953f5cb6e6",
   "lastOpenFiles": [
     "Analysis/Kernel.md",
     "Machine Learning/Gaussian Process.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Functional Analysis/Spectrum.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Hilbert Basis.md",
     "Graph Theory/Path (Graph).md",
     "Functional Analysis/Hilbert-Schmidt Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/Spectrum.md",
     "Topology/Separable Space.md",
     "Measure Theory/Summable Function.md",
     "Measure Theory/Lebesgue Integral.md",
@@ -244,7 +244,6 @@
     "Advanced Algorithms/Minimum Vertex Cover.md",
     "Markov Processes/Stationary Distribution.md",
     "Courses/Information Theory/Exercise Sheet 4.md",
-    "Information Theory/Code.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

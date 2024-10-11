@@ -24,5 +24,24 @@
 ^d1890f
 
 ---
-> [!lemma] Proposition 2
-> Let $f\sim \text{GP}(\mu,k)$ on $X$ and set $A:=\{ x_{1},\dots,x_{} \}$
+> [!lemma] Proposition 2 (Conditional Gaussian Process)
+> Let $f\sim \text{GP}(\mu,k)$ on $X$ and set $A:=\{ x_{1},\dots,x_{n} \}\subseteq X$. For $y_{i}:=f(x_{i})+\varepsilon_{i}$ for $\varepsilon_{i} \sim \mathcal{N}(0,\sigma^{2})$:
+> $$p(f|x_{1:n},y_{1:n})=\text{GP}(f;\mu',k')$$ where:
+> 1. $\mu'(x)=\mu(x)+[k(x,x_{i})]_{i}^\top (K_{A A}+\sigma^{2}I)^{-1}[y_{i}-\mu(x_{i})]_{i}$.
+> 2. $k'(x,x')=k(x,x')-[k(x,x_{i})]_{i}^\top(K_{AA}+\sigma^{2}I)^{-1}[k(x',x_{i})]_{i}$.
+
+^6676d7
+
+> [!proof]-
+> We have that:
+> 1. for any $B:=\{ z_{1},\dots,z_{m} \}\subseteq X$, we have: $$(f(B),f(A))\sim \mathcal{N}\left((\mu_{B},\mu_{A}  ),\begin{bmatrix}K_{BB}&K_{BA}\\K_{A B}&K_{A A}\end{bmatrix}\right) $$where $K_{CD}=[k(a,b)]_{a\in C,b\in D}$. Then, $$(f(B),y_{1:n})\sim \mathcal{N}\left((\mu_{B},\mu_{A}  ),\begin{bmatrix}K_{ B B}&K_{BA}\\K_{AB}&K_{A A}+\sigma^{2}I\end{bmatrix}\right)$$Therefore, by [[Gaussian Distribution| Gaussian distribution marginals]], $$p(f(B)|y_{1:n})=\mathcal{N}(\mu'_{B},K'_{BB})$$ where :
+> 	1. $\mu'_{B}:=\mu_{B}+K_{BA}(K_{ A A}+\sigma^{2}I)^{-1}(y_{1:n}-\mu_{A})$
+> 	1. $K'_{B B}:=K_{B B }-K_{BA}(K_{AA}+\sigma^{2}I)^{-1}K_{AB}$.
+> 	
+> 	and $f|y_{1:n},x_{1:n}$ is a Gaussian process. We then simply check that when $B=\{ x \}$ and $B=\{ x,x' \}$
+> 	1. $\mu'(x)=\mu(x)+[k(x,x_{i})]_{i}^\top (K_{A A}+\sigma^{2}I)^{-1}(y_{1:n}-\mu_{A})$.
+> 	2. $k'(x,x')=k(x,x')-[k(x,x_{i})]_{i}^\top(K_{AA}+\sigma^{2}I)^{-1}[k(x',x_{i})]_{i}$
+
+^9b4fed
+
+---
