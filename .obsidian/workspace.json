@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Linear Algebra/Cholesky Decomposition.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Linear Algebra/Cholesky Decomposition.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Linear Algebra/Cholesky Decomposition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Linear Algebra/Cholesky Decomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
+                "file": "Linear Algebra/Cholesky Decomposition.md"
               }
             }
           }
@@ -219,9 +219,11 @@
   "active": "d2fa563ff5b78e1c",
   "lastOpenFiles": [
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Analysis/Kernel.md",
+    "Linear Algebra/Cholesky Decomposition.md",
+    "Linear Algebra",
     "Machine Learning/Gaussian Process.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Analysis/Kernel.md",
     "Functional Analysis/Spectrum.md",
     "Analysis/Hilbert Basis.md",
     "Graph Theory/Path (Graph).md",
@@ -243,7 +245,6 @@
     "Advanced Algorithms/MAX-SAT.md",
     "Advanced Algorithms/Minimum Vertex Cover.md",
     "Markov Processes/Stationary Distribution.md",
-    "Courses/Information Theory/Exercise Sheet 4.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
@@ -253,7 +254,6 @@
     "Courses/Characteristic Classes",
     "Char",
     "Characteristic Classes",
-    "Courses/Markov Processes",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }

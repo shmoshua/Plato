@@ -143,6 +143,12 @@ In Bayesian Linear Regression with $w \sim \mathcal{N}(0,I)$ and $y_{i}=w^\top\p
 ![[Gaussian Process#^9b4fed|p]]
 
 - **Remark**: Then, we can use $p(f|y_{1:n},x_{1:n})$ as the posterior distribution! We can use this for spatial prediction or protein engineering.
+
+---
+![[Gaussian Process#^ec2539]]
+![[Gaussian Process#^f3ea71|p]]
+![[Gaussian Process#^5ba3f5|q]]
+
 ---
 
 > [!outlook] Outlook (Gaussian Processes on Graphs)
@@ -156,8 +162,8 @@ In Bayesian Linear Regression with $w \sim \mathcal{N}(0,I)$ and $y_{i}=w^\top\p
 
 - **Remark**: For other $X$ like a [[topological manifold]], we have geometric kernels.
 ---
+#### 2.3.3 Sampling From a Gaussian Process
 
-
-
+> [!outlook] 
 
 

@@ -1,6 +1,6 @@
 #Definition #ML 
 > [!definition]
->  For a set $X$, a ***Gaussian process*** is the set  $f:=\{ f(x) \}_{x\in X}$ with the ***mean function*** $\mu:X\to \mathbb{R}$ and the ***covariance function*** $k:X \times X\to \mathbb{R}$ s.t. 
+>  For a set $X$, a ***Gaussian process*** is the set  $f:=\{ f(x) \}_{x\in X}\subseteq \mathbb{R}$ with the ***mean function*** $\mu:X\to \mathbb{R}$ and the ***covariance function*** $k:X \times X\to \mathbb{R}$ s.t. 
 >  1. for every finite $A=\{ x_{1},\dots,x_{n} \}\subseteq X$, $$f(A):=(f(x_{1}),\dots,f(x_{n})) \sim \mathcal{N}\left( \mu_{A},K_{AA}\right)$$where $\mu_{A}:=(\mu(x_{1}),\dots,\mu(x_{n}))$ and $K_{AA}:=\begin{bmatrix}k(x_{i},x_{j})\end{bmatrix}_{i,j\in [n]}$.
 > 
 > A Gaussian process is denoted as $f \sim \text{GP}(\mu,k)$.
@@ -24,7 +24,20 @@
 ^d1890f
 
 ---
-> [!lemma] Proposition 2 (Conditional Gaussian Process)
+> [!lemma] Proposition 2 (Sum of Gaussian Processes)
+> For independent $f\sim \text{GP}(\mu,k)$ and $f' \sim \text{GP}(\mu',k')$, we have that:
+> 1. $f+f' \sim \text{GP}(\mu+\mu',k+k')$
+
+^ec2539
+
+> [!proof]-
+> We have that for $A\subseteq\{ x_{1},\dots,x_{n} \}\subseteq X$, $$f(A)+f'(A)\sim \mathcal{N}(\mu_{A}+\mu'_{A},K_{AA}+K'_{A A})$$This proves the statement.
+
+^f3ea71
+
+- **Remark**: Hence, wlog we may assume that the prior has mean 0, i.e. $f \sim \text{GP}(0,k)$, as if otherwise we can express $g=f-\mu \sim \text{GP}(0,k)$ from $\mu \sim \text{GP}(\mu,0)$.  ^5ba3f5
+---
+> [!lemma] Proposition 3 (Conditional Gaussian Process)
 > Let $f\sim \text{GP}(\mu,k)$ on $X$ and set $A:=\{ x_{1},\dots,x_{n} \}\subseteq X$. For $y_{i}:=f(x_{i})+\varepsilon_{i}$ for $\varepsilon_{i} \sim \mathcal{N}(0,\sigma^{2})$:
 > $$p(f|x_{1:n},y_{1:n})=\text{GP}(f;\mu',k')$$ where:
 > 1. $\mu'(x)=\mu(x)+[k(x,x_{i})]_{i}^\top (K_{A A}+\sigma^{2}I)^{-1}[y_{i}-\mu(x_{i})]_{i}$.
@@ -44,4 +57,12 @@
 
 ^9b4fed
 
+---
+##### Examples
+> [!h] Example 1 (Constant GP)
+> We have that:
+> 1. for any function $f:X \to \mathbb{R}$, $f \sim \text{GP}(f,0)$.
+
+> [!proof]-
+> Let $A:=\{ x_{1},\dots,x_{n} \}$. Then, we have that: $$(f(x_{1}),\dots,f(x_{n})) \sim \mathcal{N}((f(x_{1}),\dots,f(x_{n})),0)$$
 ---
