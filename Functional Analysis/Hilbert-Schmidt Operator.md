@@ -1,26 +1,35 @@
 #Definition #Example #FunctionalAnalysis 
 
 > [!definition]
-> Let $\mathcal{H}$ be a [[Separable Space|separable]] [[Hilbert Space| Hilbert space]] with an [[orthonormal basis]] $\{ e_{i}\}_{i\geq 1}$. Then, $T\in \mathcal{B}(\mathcal{H})$ is called ***Hilbert-Schmidt*** if: $$\sum_{i,j=1}^{\infty}\left| \braket{ Te_{j} , e_{i} }  \right| ^{2}<+\infty$$
-> Then, the ***Hilbert-Schmidt norm*** is defined as:$$\left\| T \right\| _{2}:=\left[ \sum_{i,j=1}^{\infty}\left| \braket{ Te_{j} , e_{i} }  \right| ^{2} \right] ^{1/2}=\left[ \sum_{i=1}^{\infty}\left\| Te_{i} \right\|  ^{2} \right] ^{1/2}$$
+> Let $\mathcal{H}$ be a [[Separable Space|separable]] [[Hilbert Space| Hilbert space]] with an [[Hilbert Basis|Hilbert basis]] $\{ e_{i}\}_{i\geq 1}$. 
+> 1. An operator $T\in \mathcal{B}(\mathcal{H})$ is called ***Hilbert-Schmidt*** if: $$\left\| T \right\| _{2}^{2}:=\sum_{i,j=1}^{\infty}\left| \braket{ Te_{j} , e_{i} }  \right| ^{2}=\sum_{i=1}^{\infty}\left\| Te_{i} \right\| ^2<+\infty$$
+
+ - **Related definition**: $\left\| T \right\|_{2}$ is the ***Hilbert-Schmidt norm*** of $T$.
 
 ---
 ##### Properties
-> [!lemma] Proposition 1
-> For a Hilbert-Schmidt operator $T\in \mathcal{B}(\mathcal{H})$, we have:
-> 1. $\left\| T \right\|_{2}$ is independent of the choice of the orthonormal basis.
+> [!lemma] Proposition 1 (Basic Properties of HS Operator)
+> Let $\text{HS}(\mathcal{H})$ denote the space of Hilbert-Schmidt operators. For $T\in \text{HS}(\mathcal{H})$ and $B\in \mathcal{B}(\mathcal{H})$, 
+> 1. $\left\| T \right\|_{2}$ is independent of the choice of the Hilbert basis.
 > 2. $T^{*}$ is also Hilbert-Schmidt with $\left\| T^{*} \right\|_{2}=\left\| T \right\|_{2}$.
-> 3. $\left\| T \right\|\leq \left\| T \right\|_{2}$
-> 4. $T\in \mathcal{K}(\mathcal{H})$
+> 3. $\text{HS}(\mathcal{H})$ is a vector space.
+> 4. $\text{HS}(\mathcal{H})\unlhd \mathcal{B}(\mathcal{H})$, i.e. $\left\| BT \right\|_{2}\leq \left\| B \right\|\left\| T \right\|_{2}$ and $\left\| TB \right\|_{2}\leq \left\| B \right\|\left\| T \right\|_{2}$
+> 5. $\left\| T \right\|\leq \left\| T \right\|_{2}$
+> 6. $T\in \mathcal{K}(\mathcal{H})$
 > 
 
-> [!proof]-
+> [!proof]+
 > We have that:
-> 1. $$\begin{align}\sum_{i=1}^{\infty } \sum_{j=1}^{\infty}\left| \braket{ Te_{i} , e_{j} }  \right| ^{2}=\sum_{i=1}^{\infty}\left\| Te_{i} \right\| ^{2}=\sum_{i=1}^{\infty}\sum_{j=1}^{\infty} \left| \braket{ Te_{i},f_{j} }  \right| ^{2}=\sum_{i=1}^{\infty}\sum_{j=1}^{\infty} \left| \braket{ e_{i},T^{*}f_{j} }  \right| ^{2}=\sum_{j=1}^{\infty}\left\| T^{*} f_{j} \right\| ^{2}\end{align}$$which is independent of ONB $\{ e_{i} \}_{i\geq 1}$.
+> 1. Oberseve that:$$\begin{align}\sum_{i=1}^{\infty } \sum_{j=1}^{\infty}\left| \braket{ Te_{i} , e_{j} }  \right| ^{2}=\sum_{i=1}^{\infty}\left\| Te_{i} \right\| ^{2}=\sum_{i=1}^{\infty}\sum_{j=1}^{\infty} \left| \braket{ Te_{i},f_{j} }  \right| ^{2}=\sum_{i=1}^{\infty}\sum_{j=1}^{\infty} \left| \braket{ e_{i},T^{*}f_{j} }  \right| ^{2}=\sum_{j=1}^{\infty}\left\| T^{*} f_{j} \right\| ^{2}\end{align}$$which is independent of the basis $\{ e_{i} \}_{i\geq 1}$.
 > 2. Follows from 1.
-> 3. Using Cauchy-Schwarz: $$\begin{align}\left\| Tx \right\| ^{2}&=\sum_{i=1}^{\infty}\left| \braket{ Tx , e_{i} }  \right| ^{2}\\&=\sum_{i=1}^{\infty}\left| \sum_{j=1}^{\infty}x_{j}\braket{ Te_{j} , e_{i} }  \right| ^{2}\\&\leq \sum_{i=1}^{\infty}\left( \sum_{j=1}^{\infty}\left| x_{j} \right| ^{2} \right) \left( \sum_{j=1}^{\infty}\left| \braket{ Te_{j} , e_{i} }  \right| ^{2} \right) \\&=\|x\|^{2}\|T\|^2_{2}\end{align}$$
-> 4. Let $\{ e_{i} \}_{i\geq 1}$ be an orthonormal basis of $\mathcal{H}$. We define $T_{n}\in \mathcal{B}(\mathcal{H} ,\mathcal{H})$ by: 
+> 3. for any $x \in \mathcal{H}$, $$\left\| (T+S)x \right\|^2\leq(\left\| Tx \right\| +\left\| Sx \right\| )^{2}\leq 2(\left\| Tx \right\| ^{2}+\left\| Sx \right\| ^{2}) $$Therefore, $T+S\in \text{HS}(\mathcal{H})$. Similarly, $\left\| \alpha Tx \right\|^{2}=\left| \alpha \right|^{2}\left\| Tx \right\|^{2}$. Hence, $\alpha T\in \text{HS}(\mathcal{H})$.
+> 4. We have that: $$\left\| BT\right\| ^{2}_{2}=\sum_{i=1}^{\infty}\left\| BTe_{i} \right\| ^{2}\leq \left\| B \right\| ^{2}\sum_{i=1}^{\infty}\left\| Te_{i} \right\| ^{2}=\left\| B \right\| ^{2}\left\| T \right\| ^{2}_{2}$$Similarly, $\left\| TB \right\|_{2}=\left\| B^{*}T^{*} \right\|_{2}\leq \left\| B^{*} \right\|\left\| T^{*} \right\|_{2}= \left\| B\right\|\left\| T \right\|_{2}$.
+> 5. Using Cauchy-Schwarz: $$\begin{align}\left\| Tx \right\| ^{2}&=\sum_{i=1}^{\infty}\left| \braket{ Tx , e_{i} }  \right| ^{2}\\&=\sum_{i=1}^{\infty}\left| \sum_{j=1}^{\infty}x_{j}\braket{ Te_{j} , e_{i} }  \right| ^{2}\\&\leq \sum_{i=1}^{\infty}\left( \sum_{j=1}^{\infty}\left| x_{j} \right| ^{2} \right) \left( \sum_{j=1}^{\infty}\left| \braket{ Te_{j} , e_{i} }  \right| ^{2} \right) \\&=\|x\|^{2}\|T\|^2_{2}\end{align}$$
+> 6. Let $\{ e_{i} \}_{i\geq 1}$ be an orthonormal basis of $\mathcal{H}$. We define $T_{n}\in \mathcal{B}(\mathcal{H} ,\mathcal{H})$ by: 
 > $$T_{n}e_{i}=\begin{cases}Te_{i}&1\leq i\leq n\\0&n<i\end{cases}$$ Then, $T_{n}$ has finite rank. In addition, $T-T_{n}$ is Hilbert-Schmidt with, $$\left\| T-T_{n} \right\| ^{2}\leq\left\| T-T_{n} \right\| ^{2}_{2}=\sum_{i=1}^{\infty}\left\| (T-T_{n})e_{i} \right\|^{2} =\sum_{i=n+1}^{\infty}\left\| Te_{i} \right\| ^{2}\xrightarrow {n\to \infty}0$$since $\sum_{i=1}^{\infty}\left\| Te_{i} \right\|^{2}<+\infty$. It follows that, $\left\| T-T_{n} \right\| \xrightarrow{n \to \infty}0$ and by [[Compact Operator|Proposition 1.3]], $T$ is compact.
+---
+> [!lemma] Proposition 2
+> 
 ---
 > [!lemma] Lemma 2
 > If $T\in \mathcal{B}(\mathcal{H})$ is Hilbert-Schmidt and self-adjoint, then the [[Compact, Self-adjoint Operators|spectral theorem]] applies and: $$\left\| T \right\|_{2}=\sum_{n=1}^{\infty}\lambda_{n}^{2} $$

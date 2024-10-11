@@ -24,7 +24,7 @@
 >  - (3 => 1): Fix $c_{1},\dots,c_{n}\in \mathbb{R}$ and $x_{1},\dots,x_{n}\in X$. Let $\varepsilon>0$ and $U_{i}$ open set s.t. $$\left| K(x,y)-K(x_{i},x_{j}) \right| <\varepsilon,\quad \forall(x,y)\in U_{i}\times U_{j}$$Then, $\mu(U_{i})>0$ by hypothesis. Now, let: $$f=\sum_{i=1}^{n}c_{i} \frac{\chi_{U_{i}}}{\mu(U_{i})}$$Then, $$0\leq \braket{ T_{K}f , f } =\sum_{i,j=1}^{n}\frac{c_{i}c_{j}}{\mu(U_{i})\mu(U_{j})}\int_{U_{i}\times U_{j}}K(x,y)  \, d\mu \times \mu(x,y) $$From $\left| K(x,y)-K(x_{i},x_{j}) \right|<\varepsilon$ we get: $$\begin{align}\left| \braket{ T_{K}f , f } -\sum_{i,j=1}^{n}c_{i}c_{j}K(x_{i},x_{j}) \right| &=\left| \sum_{i,j=1}^{n}c_{i}c_{j}\left( K(x_{i},x_{j})-\frac{1}{\mu(U_{i})\mu(U_{j})}\int_{U_{i}\times U_{j}}K \, d\mu \times \mu  \right)  \right|\\ &\leq\sum_{i,j=1}^{n}\left| c_{i}c_{j} \right| \left| K(x_{i},x_{j})-\frac{1}{\mu(U_{i})\mu(U_{j})}\int_{U_{i}\times U_{j}}K \, d\mu \times \mu   \right| \\&<\varepsilon \left( \sum_{i=1}^{n}\left| c_{i} \right|  \right)^{2}\end{align}$$Therefore, it is positive.
 ---
 > [!lemma] Theorem 3 (Mercer)
-> Let $(X,d)$ be a [[Compact Space|compact metric space]], $\mu\in M^1(X)$ a [[Borel Measure|Borel-regular]] probability measure on $X$ s.t. $\text{supp }\mu=X$, i.e. for all non-empty open $U\subseteq X$, $\mu(U)>0$. Let $K\in C(X\times X,\mathbb{R})$ be a continuous symmetric positive semidefinite kernel on $X$. Then, 
+> Let $X$ be a [[Compact Space|compact metric space]], $\mu\in M^1(X)$ a [[Borel Measure|Borel-regular]] probability measure on $X$ s.t. $\text{supp }\mu=X$, i.e. for all non-empty open $U\subseteq X$, $\mu(U)>0$. Let $K\in C(X\times X,\mathbb{R})$ be a continuous symmetric positive semidefinite kernel on $X$. Then, 
 > 1. there exists an orthonormal basis $\{ \varphi_{1},\varphi_{2},\dots \}\subseteq(\text{ker }T_{K})^{\bot}$ consisting of continuous eigenfunctions of $T_{K}$
 > 2. for each eigenvalue $\lambda_{i}$ of $\varphi_{i}$, $\lambda_{i}> 0$ and
 > 3. for any $x,y\in X$: $$K(x,y)=\sum_{n=1}^{\infty}\lambda_{n}\varphi_{n}(x)\varphi_{n}(y)$$as an absolutely and uniformly convergent sum.
@@ -63,7 +63,11 @@
 > 5. $k(x,x'):=p(k_{1}(x,x'))$ where $p\in \mathbb{R}[x]$ with non-negative coefficients.
 > 6. $k(x,x'):=\exp (k_{1}(x,x'))$. 
 > 7. $k(x,x'):=k_{3}(\phi(x),\phi(x'))$ where $\phi:X\to \mathbb{R}^d$ and $k_{3}:\mathbb{R}^d\times \mathbb{R}^d\to \mathbb{R}$ SPsD kernel.
-> 8. 
+
+> [!proof]+
+> We have that:
+> 1. Obvious.
+> 2. Symmetry is clear. For positive semidefiniteness, for $x_{1},\dots,x_{n}$ and $c_{1},\dots,c_{n}$: $$\sum_{i,j=1}^{n}c_{i}c_{j}k_{1}(x_{i},x_{j})k_{2}(x_{i},x_{j})=\left( \sum_{i,j=}^{} \right) $$
 ---
 ##### Examples
 > [!h] Example 1 (Hilbert Space Kernels)
