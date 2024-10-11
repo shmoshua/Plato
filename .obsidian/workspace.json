@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Radius (Graph).md",
+                "file": "Analysis/Kernel.md",
                 "mode": "source",
                 "source": true
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "mode": "preview",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
+                "file": "Analysis/Kernel.md",
                 "mode": "preview",
                 "source": true
               }
@@ -86,7 +86,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,11 +217,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0c2a8c9e2c61428e",
+  "active": "c1723c7c5410be07",
   "lastOpenFiles": [
-    "Analysis/Kernel.md",
     "Graph Theory/Radius (Graph).md",
+    "Analysis/Kernel.md",
     "Graph Theory/Path (Graph).md",
+    "Machine Learning/Gaussian Process.md",
     "Graph Theory/Graph.md",
     "Topology/Path.md",
     "Graph Theory/Girth and Circumference.md",
@@ -243,7 +245,6 @@
     "Technical Lemmas.md",
     "Graph Theory/k-Factor.md",
     "Graph Theory/Hypercube (Graph).md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

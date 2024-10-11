@@ -54,6 +54,17 @@
 > 	 Further let $K_{x}(y):=K(x,y)$ and let $\psi_{1},\psi_{2},\dots$ be an orthonormal basis or $\text{ker }T_{K}$. Then, $$\begin{align}K_{x}&=\sum_{k=1}^{\infty}\braket{ K_{x} , \varphi_{k} } \varphi_{k}+\sum_{k=1}^{\infty}\braket{ K_{x} , \psi_{k} } \psi_{k}\\&=\sum_{k=1}^{\infty}T_{K}\varphi_{k}(x)\varphi_{k}+\sum_{k=1}^{\infty}T_{K}\psi_{k} (x)\psi_{k}\\&=\sum_{k=1}^{\infty}\lambda_{k}\varphi_{k}(x)\varphi_{k}\end{align}$$Hence, $K_{x}=\lim_{ n \to \infty }\sum_{k=1}^{n}\lambda_{k}\varphi_{k}(x)\varphi_{k}$ in $L^2(X,\mu)$. In particular there exists $(n_{\ell})_{\ell}$ s.t. $$\lim_{ \ell \to \infty } \sum_{k=1}^{n_{\ell}}\lambda_{k}\varphi_{k}(x)\varphi_{k}(y)=K_{x}(y)=K(x,y)$$ for almost every $y\in X$. Hence, for all $x\in X$, $G(x,y)=K(x,y)$ for $y\in X$ $\mu$-a.e. Now for fixed $x$, $G_{x}:=\sum_{k=1}^{\infty}\lambda_{k}\varphi_{k}(x)\varphi_{k}$ is continuous. Further, $K_{x}$ is continuous. Therefore, $$\{ y\in X:G(x,y)\neq K(x,y) \}$$is an open set of measure zero, i.e. is empty. This shows that $G(x,y)=K(x,y)$ for all $x,y\in X$. 
 > 4. Finally, we show that the sum is absolutely and uniformly convergent. We start by showing $$\sum_{k=1}^{n}\lambda_{k}\varphi_{k}(x)^{2}$$ converges uniformly to $K(x,x)$. For $\varepsilon>0$ and $n\geq 1$, let's define: $$V^\varepsilon_{n}=\left\{  x\in X:\sum_{k=1}^{n}\lambda_{k}\varphi_{k}(x)^{2}>K(x,x)-\varepsilon  \right\}$$which is an open set. Further, $V^{\varepsilon}_{n}\subseteq V^{\varepsilon}_{n+1}$ for all $n$. Indeed, as for all $x\in X$, $\sum_{k=1}^{n}\lambda_{k}\varphi_{k}(x)^{2}\to K(x,x)$, $$\bigcup_{n\geq 1}^{}V^\varepsilon_{n}=X$$However, as $X$ is compact, there exists $n_{1},\dots,n_{\ell}$ s.t. $$\bigcup_{i=1}^{\ell}V^{\varepsilon}_{n_{i}}=X$$Then, now let $m:=\max(n_{1},\dots,n_{\ell})$ and we have $V_{m}^{\varepsilon}=X$. In other words, for any $\varepsilon>0$, there exists $m\geq 1$ s.t. for all $x\in X$: $$K(x,x)-\sum_{k=1}^{m}\lambda_{k}\varphi_{k}(x)^{2}<\varepsilon$$which shows the uniform convergence. Lastly, from the inequality above, $$\sum_{k=N}^{M}\lambda_{k}\left| \varphi_{k}(x) \right| \left| \varphi_{k}(y) \right|\leq \left( \sum_{k=N}^{M}\lambda_{k}\varphi_{k}(x)^{2} \right) ^{1/2}\left( \sum_{k=N}^{M}\lambda_{k}\varphi_{k}(y)^{2} \right) ^{1/2}$$Since $\sum_{k=1}^{\infty}\lambda_{k}\varphi_{k}(x)^{2}$ is uniformly convergent, we have that $\sum_{n=1}^{\infty}\lambda_{n}\varphi_{n}(x)\varphi_{n}(y)$ is also absolutely and uniformly convergent. 
 ---
+> [!lemma] Lemma 4 (Kernel Composition)
+> Let $k_{1},k_{2}:X\times X\to \mathbb{R}$ be SPsD kernels. Then, the following are SPsD kernels.
+> 1. $k(x,x'):=k_{1}(x,x')+k_{2}(x,x')$
+> 2. $k(x,x'):=k_{1}(x,x')\cdot k_{2}(x,x')$
+> 3. $k(x,x'):=c\cdot k_{1}(x,x')$
+> 4. $k(x,x'):=f(x)k_{1}(x,x')f(x')$ for any function $f:X\to \mathbb{R}$. 
+> 5. $k(x,x'):=p(k_{1}(x,x'))$ where $p\in \mathbb{R}[x]$ with non-negative coefficients.
+> 6. $k(x,x'):=\exp (k_{1}(x,x'))$. 
+> 7. $k(x,x'):=k_{3}(\phi(x),\phi(x'))$ where $\phi:X\to \mathbb{R}^d$ and $k_{3}:\mathbb{R}^d\times \mathbb{R}^d\to \mathbb{R}$ SPsD kernel.
+> 8. 
+---
 ##### Examples
 > [!h] Example 1 (Hilbert Space Kernels)
 > Let $\mathcal{H}$ be a $\mathbb{R}$-[[Hilbert Space|Hilbert space]] and $\varphi:X\to \mathcal{H}$ any map. Then, 
@@ -69,7 +80,7 @@
 ---
 > [!h] Example 2 (RBF/Gaussian Kernel)
 > Let $X$ be an [[inner product space]]. Then, 
-> 1. $K(x,y):=\exp \left( -\left\| x-y \right\|^2/h^{2} \right)$ is a SPsD kernel called ***RBF/Gaussian kernel*** with $h$.
+> 1. $K_{\text{Gaus},h}(x,y):=\exp \left( -\left\| x-y \right\|^2/h^{2} \right)$ is a SPsD kernel called ***RBF/Gaussian kernel*** with $h$.
 > 2. The RBF kernel is analytic. 
 
 > [!proof]-
@@ -78,9 +89,10 @@
 ---
 > [!h] Example 3 (Exponential Kernel)
 > Let $X$ be an [[inner product space]]. Then, 
-> 1. $K(x,y):=\exp \left( -\left\| x-y \right\|/h \right)$ is a SPsD kernel called ***exponential/Laplace kernel*** with $h$.
+> 1. $K_{\text{Laplace},h}(x,y):=\exp \left( -\left\| x-y \right\|/h \right)$ is a SPsD kernel called ***exponential/Laplace kernel*** with $h$.
 > 2. The exponential kernel is not differentiable. 
 ---
 > [!h] Example 4 (Matérn Kernel)
-> Let $X$ be an inner product space and $v,\ell>0$. Then, 
-> 1. $K_{v,\ell}(x,y)$
+> Let $X$ be an inner product space and $v,h>0$. Then, 
+> $$K_{v,h}(x,y)=\frac{2^{1-v}}{\Gamma(v)}\left( \frac{\sqrt{ 2 }}{h}\left\| x-y \right\| _{2} \right)^v \text{K}_{v}\left(\frac{\sqrt{ 2 }}{h}\left\| x-y \right\| _{2}  \right)  $$where $\Gamma$ is the [[gamma function]] and $\text{K}_{v}$ is the [[modified Bessel function of the second kind]], is a SPsD kernel called ***Matérn kernel***.
+> 1. $K_{1 / 2,h}=K_{\text{Laplace}, h}$, i.e. the exponential kernel is Matérn kernel with $v = 1/2$.
