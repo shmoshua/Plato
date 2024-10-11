@@ -37,6 +37,17 @@
 > 
 > We are left to show that $\overline{J}$ is an isomorphism. As it preserves the distance, it is injective. To show that it is surjective, for $y\in \ell^2(\mathbb{N})$, $x:=\sum_{k\in \mathbb{N}}^{}y(k)e_{k}\in \mathcal{H}$ as: $$\|x\|^{2}_{\mathcal{H}}=\left\| \sum_{k\in \mathbb{N}}^{}y(k)e_{k} \right\|^{2}_{\mathcal{H}}=\sum_{k\in \mathbb{N}}^{}\left| y_{k} \right|^{2}=\|y\|^2_{\ell^2(\mathbb{N})}<+\infty  $$Therefore, $\overline{J}x=y$.
 ---
+> [!lemma] Theorem 4 (Basis of Product Hilbert Spaces)
+> Let $\{ e_{i} \}_{i}$ be a Hilbert basis of $L^2(X,\mu)$. Then, for $$E_{ij}:X\times X\to \mathbb{K}, \quad (x,y)\mapsto \overline{e_{i}(x)}{e_{j}(y)}$$
+> 1. $E_{ij}\in L^2(X\times X,\mu \otimes \mu)$ and
+> 2. $\{ E_{ij} \}_{i,j}$ forms a Hilbert basis of $L^2(X\times X,\mu \otimes \mu)$.
+
+> [!proof]-
+> We have that:
+> 1. Notice that: $$\left\| E_{ij} \right\| _{L^2(X\times X)}^2=\int_{X}^{} \int_{X}^{} (\overline{e_{i}(y)}e_{j}(x) )^{2}\, d\mu(x)  \, d\mu(y)= \left\| e_{i} \right\| ^2\left\| e_{j} \right\| ^2$$
+> 2. Firstly, we show that they are orthonormal: $$\begin{align}\braket{ E_{ij} , E_{pq} }&=\int_{X\times X}^{} \overline{e_{i}(y)}e_{j}(x)\overline{e_{q}(x)}e_{p}(y) \, d\mu \times \mu  \\&=\left( \int_{X}^{} e_{j}(x)\overline{e_{q}(x)} \, d\mu(x) \right)\left( \int_{X}^{} e_{p}(y)\overline{e_{i}(y)} \, d\mu(x) \right)\\&=\braket{ e_{j} , e_{q} } \braket{ e_{p} , e_{i} }\\&=\delta_{jq}\delta_{ip}  \end{align}$$Therefore, we only need to check that they form a basis. Assume $h\in L^2(X\times X)$ s.t. $\braket{ h , E_{ij} }=0$ for all $i,j$. Then, $$\begin{align}0=\int_{X\times X}h(x,y)e_{i}(y)\overline{e_{j}(x)} \, d\mu \times \mu &=\int_{X}^{} \left( \int_{X}^{} h_{x}(y)e_{i}(y) \, d\mu(y)  \right) \overline{e_{j}(x)} \, d\mu(x) \\&=\left\langle{ x\mapsto\int_{X}h_{x}e_{i}  \, d\mu(y)  , e_{j} }\right\rangle \end{align}$$Therefore, $\int_{X}h_{x}e_{i}  \, d\mu(y)=0$ for a.e. $x$. Let $$E_{i}:=\left\{  x\in X:\int_{X}^{} h_{x}e_{i}d\mu(y) \neq 0 \right\}$$Then $\mu(E_{i})=0$ and for $E:=\bigcup_{i=1}^{\infty}E_{i}$, $\mu(E)\leq \sum_{i=1}^{\infty}\mu(E_{i})=0$. Therefore, for each $x\in X \backslash E$, $h(x,y)=0$ $\mu \times \mu$.a.e. This means that: $$\begin{align}\int_{X\times X}^{} \left| h(x,y) \right| ^{2} \, d\mu \times \mu&=\int_{X}^{} \left( \int_{X}^{} \left| h(x,y) \right| ^{2} \, d\mu(y)  \right)  \, d\mu(x) \\&=\int_{X \backslash E}^{} \left( \int_{X}^{} \left| h(x,y) \right| ^{2} \, d\mu(y)  \right)  \, d\mu(x) \\&=0\end{align}$$This proves that $h=0$ in $L^2(X\times X)$.
+
+---
 ##### Examples
 > [!h] Example 1
 > Consider $\ell^2(\mathbb{N},\mathbb{C})$. Then, 
