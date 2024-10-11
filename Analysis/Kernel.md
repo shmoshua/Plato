@@ -67,7 +67,9 @@
 > [!proof]+
 > We have that:
 > 1. Obvious.
-> 2. Symmetry is clear. For positive semidefiniteness, for $x_{1},\dots,x_{n}$ and $c_{1},\dots,c_{n}$: $$\sum_{i,j=1}^{n}c_{i}c_{j}k_{1}(x_{i},x_{j})k_{2}(x_{i},x_{j})=\left( \sum_{i,j=}^{} \right) $$
+> 2. Let $x_{1},\dots,x_{n}\in X$ and consider $K_{1},K_{2}\in \text{Mat}_{n,n}(\mathbb{R})$ as the gram matrix given by $x_{1},\dots,x_{n}$ with $k_{1},k_{2}$ respectively. Then, for the Kronecker product we have that: $$K:=K_{1}$$
+>    
+>    Symmetry is clear. For positive semidefiniteness, for $x_{1},\dots,x_{n}$ and $c_{1},\dots,c_{n}$: $$\sum_{i,j=1}^{n}c_{i}c_{j}k_{1}(x_{i},x_{j})k_{2}(x_{i},x_{j})=\left( \sum_{i,j=}^{} \right) $$
 ---
 ##### Examples
 > [!h] Example 1 (Hilbert Space Kernels)

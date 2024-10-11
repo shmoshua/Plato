@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -92,14 +92,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Summable Function.md",
+                "file": "Analysis/Kernel.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e56b0904d5497092",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Spectrum.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Hilbert-Schmidt Operator.md",
+                "file": "Analysis/Kernel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Hilbert-Schmidt Operator.md",
+                "file": "Analysis/Kernel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Hilbert-Schmidt Operator.md"
+                "file": "Analysis/Kernel.md"
               }
             }
           }
@@ -229,16 +241,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e781185ec4496784",
+  "active": "d4213f95b17e214c",
   "lastOpenFiles": [
-    "Measure Theory/Summable Function.md",
     "Functional Analysis/Hilbert-Schmidt Operator.md",
+    "Analysis/Kernel.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Machine Learning/Gaussian Process.md",
+    "Functional Analysis/Spectrum.md",
+    "Topology/Separable Space.md",
+    "Measure Theory/Summable Function.md",
     "Measure Theory/Lebesgue Integral.md",
     "Measure Theory/Lebesgue Measure.md",
     "Analysis/Hilbert Basis.md",
-    "Machine Learning/Gaussian Process.md",
     "Functional Analysis/Compact Operator.md",
-    "Analysis/Kernel.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/Dual Space.md",
@@ -254,9 +269,6 @@
     "Courses/Information Theory/Exercise Sheet 4.md",
     "Information Theory/Code.md",
     "Probability Theory/Expected Value.md",
-    "Advanced Algorithms/Bin-Packing.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
-    "Advanced Algorithms/PRAS.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
