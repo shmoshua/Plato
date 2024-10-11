@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "7a327f953f5cb6e6",
+            "id": "d2fa563ff5b78e1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -216,13 +216,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7a327f953f5cb6e6",
+  "active": "d2fa563ff5b78e1c",
   "lastOpenFiles": [
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Kernel.md",
     "Machine Learning/Gaussian Process.md",
     "Probability Theory/Gaussian Distribution.md",
     "Functional Analysis/Spectrum.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Hilbert Basis.md",
     "Graph Theory/Path (Graph).md",
     "Functional Analysis/Hilbert-Schmidt Operator.md",

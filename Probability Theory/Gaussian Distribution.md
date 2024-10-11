@@ -46,6 +46,9 @@
 >    
 >    
 >    
+
+^bf26eb
+
 ---
 > [!lemma] Proposition 3 (Basic Operations of Gaussian is Gaussian)
 > Let $X \sim \mathcal{N}(\mu,\Sigma)$. Then, for a matrix $M$:

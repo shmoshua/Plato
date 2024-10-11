@@ -36,6 +36,7 @@
 
 ---
 ![[Gaussian Distribution#^e649b0]]
+![[Gaussian Distribution#^bf26eb|p]]
 
 ---
 ![[Gaussian Distribution#^061ea5]]
@@ -141,6 +142,19 @@ In Bayesian Linear Regression with $w \sim \mathcal{N}(0,I)$ and $y_{i}=w^\top\p
 ![[Gaussian Process#^6676d7]]
 ![[Gaussian Process#^9b4fed|p]]
 
+- **Remark**: Then, we can use $p(f|y_{1:n},x_{1:n})$ as the posterior distribution! We can use this for spatial prediction or protein engineering.
+---
+
+> [!outlook] Outlook (Gaussian Processes on Graphs)
+> For arbitrary base space $X$ e.g. $X$ is a [[graph]] $G$, we have the following solutions.
+> 1. **Option 1**: Embed $X\hookrightarrow \mathbb{R}^n$ for some $n$.
+> 	$\to$ might lose other structural properties of the graph for example.
+> 2. **Option 2**: Define $k(x,x'):=k'(d_{G}(x,x'))$ for some $k':\mathbb{Z}_{\geq 0}\to \mathbb{R}$. 
+>    $\to$ might not result in a positive semidefinite kernel.
+> 3. **Option 3**: Laplacian-based generalizations of Gaussian/Matérn kernels.
+>    $\to$ always SPsD and respects the intrinsic geometry of $X$. 
+
+- **Remark**: For other $X$ like a [[topological manifold]], we have geometric kernels.
 ---
 
 

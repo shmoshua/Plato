@@ -36,6 +36,10 @@
   --callout-color: 190,41,236;
 }
 
+.inline-embed .markdown-embed-content .callout[data-callout="outlook"]{
+  --callout-color: 150,41,236;
+}
+
 
 .inline-embed .markdown-embed-content .callout[data-callout="h"]{
   --callout-color: 100,41,256;
@@ -90,6 +94,10 @@ margin-bottom: 1.2em;
 .callout[data-callout="lemma"] {
 --callout-color: 126,29,251;
 }
+
+.callout[data-callout="outlook"] {
+  --callout-color: 126,100,101;
+  }
 
 .callout[data-callout="a"] {
   margin-top: -1em;
