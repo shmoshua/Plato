@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -85,8 +86,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md"
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
               }
             }
           }
@@ -216,13 +216,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c1723c7c5410be07",
+  "active": "0c2a8c9e2c61428e",
   "lastOpenFiles": [
-    "Analysis/Kernel.md",
     "Machine Learning/Gaussian Process.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Linear Algebra/Cholesky Decomposition.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Analysis/Kernel.md",
+    "Linear Algebra/Cholesky Decomposition.md",
     "Linear Algebra",
     "Functional Analysis/Spectrum.md",
     "Analysis/Hilbert Basis.md",

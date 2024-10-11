@@ -172,3 +172,10 @@ In Bayesian Linear Regression with $w \sim \mathcal{N}(0,I)$ and $y_{i}=w^\top\p
 > Let $\{ x_{i} \}_{i}\subseteq X$ be a sequence of points. Then, we utilize that: $$p(f(x_{1}),\dots,f(x_{n}))=p(f(x_{1}))\prod_{i=1}^{n-1}p(f(x_{i+1})|f(x_{1}),\dots,f(x_{i}))$$Therefore, we can sample $f(x_{i})$ in increasing order, where we use the previous samples in the conditional sampling. 
 ---
 #### 2.3.4 Choosing Kernel Hyperparameters
+Notice that given the kernel, there are different hyperparameters:
+1. $k(x,x')=\sigma^{2}_{f}\exp \left( -\frac{1}{2h^{2}}(x-x')^{2} \right) +\sigma_{n}^{2} \delta_{xx'}$ has that $\theta:=(h,\sigma_{f},\sigma_{n})$.
+2. $k(x,x')=\sigma^{2}_{f}\exp \left( -\frac{1}{2}(x-x')^\top M(x-x') \right) +\sigma_{n}^{2} \delta_{xx'}$ has that $\theta:=(M,\sigma_{f},\sigma_{n})$.
+---
+##### 2.3.4.1 Bayesian Model Selection
+There are multiple level of random variables to infer. The hierarchy is given by: 
+$$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ \theta }\gets \underset{ \text{model selection} }{ \mathcal{H}_{i} }$$where $\mathcal{H}_{i}$ is a discrete set of models, i.e. choosing between a linear kernel and RBF. At each level we can perform Bayesian inference. For example, at level 2: $$p(\theta|y_{1:n}, x_{1:n},\mathcal{H}_{i})=\frac{p(y_{1:n}|x_{1:n},\theta,\mathcal{H}_{i})p(\theta|\mathcal{H}_{i})}{p(y_{1:n}|x_{1:n},\mathcal{H}_{i})}$$
