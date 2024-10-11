@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Functional Analysis/RKHS.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Machine Learning/Cross Validation.md",
                 "mode": "source",
                 "source": true
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4d5ec56e57395c88",
@@ -56,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Functional Analysis/RKHS.md",
                 "mode": "preview",
                 "source": true
               }
@@ -68,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Functional Analysis/RKHS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Functional Analysis/RKHS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
+                "file": "Functional Analysis/RKHS.md"
               }
             }
           }
@@ -216,12 +215,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0c2a8c9e2c61428e",
+  "active": "f2dcdc41d5490520",
   "lastOpenFiles": [
-    "Machine Learning/Gaussian Process.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Analysis/Hilbert Space.md",
+    "Analysis/Inner Product Space.md",
+    "Functional Analysis/RKHS.md",
     "Probability Theory/Gaussian Distribution.md",
     "Analysis/Kernel.md",
+    "Machine Learning/Gaussian Process.md",
+    "Machine Learning/Cross Validation.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Linear Algebra",
     "Functional Analysis/Spectrum.md",
@@ -235,16 +238,12 @@
     "Measure Theory/Lebesgue Measure.md",
     "Functional Analysis/Compact Operator.md",
     "Functional Analysis/Adjoint Linear Map.md",
-    "Analysis/Hilbert Space.md",
     "Functional Analysis/Dual Space.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Radius (Graph).md",
     "Topology/Path.md",
     "Graph Theory/Girth and Circumference.md",
     "Advanced Algorithms/Linear Programming.md",
-    "Advanced Algorithms/MAX-SAT.md",
-    "Advanced Algorithms/Minimum Vertex Cover.md",
-    "Markov Processes/Stationary Distribution.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

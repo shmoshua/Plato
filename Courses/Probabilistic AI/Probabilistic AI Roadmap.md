@@ -179,3 +179,5 @@ Notice that given the kernel, there are different hyperparameters:
 ##### 2.3.4.1 Bayesian Model Selection
 There are multiple level of random variables to infer. The hierarchy is given by: 
 $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ \theta }\gets \underset{ \text{model selection} }{ \mathcal{H}_{i} }$$where $\mathcal{H}_{i}$ is a discrete set of models, i.e. choosing between a linear kernel and RBF. At each level we can perform Bayesian inference. For example, at level 2: $$p(\theta|y_{1:n}, x_{1:n},\mathcal{H}_{i})=\frac{p(y_{1:n}|x_{1:n},\theta,\mathcal{H}_{i})p(\theta|\mathcal{H}_{i})}{p(y_{1:n}|x_{1:n},\mathcal{H}_{i})}$$
+---
+##### 2.3.4.2 Cross Validation
