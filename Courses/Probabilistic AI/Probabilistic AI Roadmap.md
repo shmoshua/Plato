@@ -100,7 +100,44 @@ In Bayesian Linear Regression with $w \sim \mathcal{N}(0,I)$ and $y_{i}=w^\top\p
 
 ---
 ### 2.3 Gaussian Processes
+
 ![[Gaussian Process#^fc4049]]
-![[Gaussian Process#^cc13be|q]]
+
+---
+#### 2.3.1 Kernels and Covariance Function
+![[Kernel#^258b99]]
+![[Kernel#^cc13be|q]]
+
+---
+
+![[Gaussian Process#^acc53b]]
+![[Gaussian Process#^d1890f|p]]
+
+---
+![[Kernel#^e4d3ef]]
+![[Kernel#^55975d|p]]
+
+---
+##### Examples of Kernels
+![[Kernel#^12715f]]
+![[Kernel#^bf3cb3|p]]
+
+---
+![[Kernel#^01b33c]]
+![[Kernel#^6bfe78|p]]
+
+---
+![[Kernel#^0f0590]]
+
+---
+![[Kernel#^a6cc5d]]
+
+---
+![[Kernel#^e66b39]]
+
+---
+
+
+
 
 

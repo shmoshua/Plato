@@ -4,9 +4,16 @@
 > A ***kernel*** on a set $X$ is a function $K:X\times X\to \mathbb{R}$. A kernel is:
 > 1. ***symmetric*** if $K(x,y)=K(y,x)$ for all $x,y\in X$
 > 2. ***positive semidefinite*** if for all $n\geq 1$ and $(x_{1},\dots,x_{n})\in X^n$, the ***Gram matrix*** $[K(x_{i},x_{j})]_{i,j\in[n]}\in \mathbb{R}^{n,n}$ is positive semidefinite, i.e. for all $(c_{1},\dots,c_{n})\in\mathbb{R}^n$:$$\sum_{i,j=1}^{n}c_{i}c_{j}K(x_{i},x_{j})\geq 0$$
+
+^258b99
+
 - **Remark**: A kernel $K$ ***reproduces*** a [[Hilbert space]] $\mathcal{H}$, if for all $x\in X$, $K(x,\cdot)\in \mathcal{H}$ and for every $h\in \mathcal{H}$, $$\braket{ f , K(x,\cdot ) } =f(x)$$
 - **Remark**: for a positive semidefinite kernel $K$, $K(x,x)\geq 0$ for all $x\in X$ by taking $n=1$.
 - **Remark**: Let $(X,d)$ be a [[Compact Space|compact metric space]], $\mu\in M^1(X)$ a [[Borel Measure|Borel-regular]] probability measure on $X$. Given a continuous kernel $K\in C(X\times X,\mathbb{R})$, the operator $T_{K}:L^2(X,\mu)\to L^2(X,\mu)$ given as: $$T_{K}f(x)=\int_{X}^{}K(x,y)f(y)  \, d\mu(y) $$is [[Hilbert-Schmidt Operator|Hilbert-Schmidt]] and [[Compact Operator|compact]], from [[Hilbert-Schmidt Operator|Proposition 6]]. In addition, if $K$ is symmetric, $T_{K}$ is [[Compact, Self-adjoint Operators|self-adjoint]] and the spectral theorem applies.
+
+- **Related definition**: For a normed vector space $X$, a kernel $k$ is: ^cc13be
+	1. ***stationary***  if $k(x,y)=\tilde{k}(x-y)$ for all $x,y\in X$ for some $\tilde{k}:X\to \mathbb{R}$.
+	2. ***isotropic***  if $k(x,y)=\tilde{k}(\left\| x-y \right\|)$ for all $x,y\in X$ for some $\tilde{k}:\mathbb{R}_{\geq 0}\to \mathbb{R}$. ^17120d
 ---
 > [!lemma] Lemma 1
 > Let $(X,d)$ be a [[Compact Space|compact metric space]], $\mu\in M^1(X)$ a [[Borel Measure|Borel-regular]] probability measure on $X$ s.t. $\text{supp }\mu=X$, i.e. for all non-empty open $U\subseteq X$, $\mu(U)>0$. Let $K\in C(X\times X,\mathbb{R})$ be a continuous symmetric kernel on $X$. Then, the following are equivalent:
@@ -58,47 +65,82 @@
 > Let $k_{1},k_{2}:X\times X\to \mathbb{R}$ be SPsD kernels. Then, the following are SPsD kernels.
 > 1. $k(x,x'):=k_{1}(x,x')+k_{2}(x,x')$
 > 2. $k(x,x'):=k_{1}(x,x')\cdot k_{2}(x,x')$
-> 3. $k(x,x'):=c\cdot k_{1}(x,x')$
+> 3. $k(x,x'):=c\cdot k_{1}(x,x')$ for $c>0$
 > 4. $k(x,x'):=f(x)k_{1}(x,x')f(x')$ for any function $f:X\to \mathbb{R}$. 
 > 5. $k(x,x'):=p(k_{1}(x,x'))$ where $p\in \mathbb{R}[x]$ with non-negative coefficients.
 > 6. $k(x,x'):=\exp (k_{1}(x,x'))$. 
 > 7. $k(x,x'):=k_{3}(\phi(x),\phi(x'))$ where $\phi:X\to \mathbb{R}^d$ and $k_{3}:\mathbb{R}^d\times \mathbb{R}^d\to \mathbb{R}$ SPsD kernel.
 
-> [!proof]+
+^e4d3ef
+
+> [!proof]-
 > We have that:
 > 1. Obvious.
-> 2. Let $x_{1},\dots,x_{n}\in X$ and consider $K_{1},K_{2}\in \text{Mat}_{n,n}(\mathbb{R})$ as the gram matrix given by $x_{1},\dots,x_{n}$ with $k_{1},k_{2}$ respectively. Then, for the Kronecker product we have that: $$K:=K_{1}$$
->    
->    Symmetry is clear. For positive semidefiniteness, for $x_{1},\dots,x_{n}$ and $c_{1},\dots,c_{n}$: $$\sum_{i,j=1}^{n}c_{i}c_{j}k_{1}(x_{i},x_{j})k_{2}(x_{i},x_{j})=\left( \sum_{i,j=}^{} \right) $$
+> 2. Let $x_{1},\dots,x_{n}\in X$ and consider $K_{1},K_{2}\in \text{Mat}_{n,n}(\mathbb{R})$ as the gram matrix given by $x_{1},\dots,x_{n}$ with $k_{1},k_{2}$ respectively. Then, for the Kronecker product we have that: $$K_{3}:=K_{1}\otimes K_{2}$$which is also SPsD. Then, for any $c_{1},\dots,c_{n}$, define $$c:=(c_{1},0,\dots,0,c_{2},0,\dots,0,\dots,c_{n},0,\dots,0)\in \mathbb{R}^{n^{2}}$$Then, for $K$, the gram matrix of $k=k_{1}\cdot k_{2}$, $$\sum_{i,j=1}^{}c_{i}c_{j}k_{1}(x_{i},x_{j})k_{2}(x_{i},x_{j})=c^\top K_{3}c \geq 0$$
+> 3. From 2 and the fact that $k=c$ is a kernel for $c>0$. 
+> 4. We have: $$\sum_{i,j=1}^{n}c_{i}c_{j}f(x_{i})f(x_{j})k_{1}(x_{i},x_{j})=\sum_{i,j=1}^{n}\underbrace{ c_{i}f(x_{i}) }_{ =:d_{i} }\underbrace{ c_{j}f(x_{j}) }_{ =:d_{j} }k_{1}(x_{i},x_{j})\geq 0$$
+> 5. By 1,2,3.
+> 6. $$\sum_{i,j=1}^{n}c_{i}c_{j}\sum_{\ell=0}^{\infty}\frac{k_{1}(x_{i},x_{j})^\ell}{\ell!}=\sum_{\ell=0}^{\infty}\underbrace{ \sum_{i,j=1}^{n}c_{i}c_{j}\frac{k_{1}(x_{i},x_{j})^\ell}{\ell!} }_{ \geq 0 }\geq 0$$
+> 7. obvious.
+
+^55975d
+
 ---
 ##### Examples
 > [!h] Example 1 (Hilbert Space Kernels)
 > Let $\mathcal{H}$ be a $\mathbb{R}$-[[Hilbert Space|Hilbert space]] and $\varphi:X\to \mathcal{H}$ any map. Then, 
 > 1. $K(x,y):=\braket{ \varphi(x) , \varphi(y) }$ is a symmetric positive semidefinite kernel.
 > 2. $K(x,y):=x^\top y$ is called the linear kernel.
-> 3. $K(x,y):=x^2y^2+xy+1$ is also a kernel with $\varphi:\mathbb{R}\to \mathbb{R}^3,x\mapsto (1,x,x^{2})$.
+> 4. $K(x,y):=x^2y^2+xy+1$ is also a kernel with $\varphi:\mathbb{R}\to \mathbb{R}^3,x\mapsto (1,x,x^{2})$.
+
+^12715f
 
 > [!proof]-
 > We have: 
 > 1. for symmetry: $$K(x,y)=\braket{ \varphi(x) , \varphi(y) } =\braket{ \varphi(y) , \varphi(x) } =K(y,x)$$
 > 2. for positive semidefiniteness:
 > 	$$\sum_{i,j=1}^{n}c_{i}c_{j}\braket{ \varphi(x_{i}) , \varphi(x_{j}) }=\sum_{i,j=1}^{n}\braket{ c_{i}\varphi(x_{i}) , c_{j}\varphi(x_{j}) } =\left\| \sum_{i=1}^{n}c_{i}\varphi(x_{i}) \right\| ^2\geq 0$$
+
+^bf3cb3
+
 ---
 > [!h] Example 2 (RBF/Gaussian Kernel)
 > Let $X$ be an [[inner product space]]. Then, 
 > 1. $K_{\text{Gaus},h}(x,y):=\exp \left( -\left\| x-y \right\|^2/h^{2} \right)$ is a SPsD kernel called ***RBF/Gaussian kernel*** with $h$.
 > 2. The RBF kernel is analytic. 
 
+^01b33c
+
 > [!proof]-
 > We have:
 > 1. Symmetry follows from that of the distance. For positive semi-definiteness, we have:  $$\left\| x-y \right\| ^{2}=\braket{ x-y , x-y } =\|x\|^{2}+\|y\|^{2}-2\braket{ x , y } $$Hence, $\exp\left( -\frac{\left\| x-y \right\| ^2}{h^{2}} \right)=\exp \left( -\frac{\|x\|^{2}}{h^{2}} \right)\exp \left( \frac{2\braket{ x , y }}{h^{2}} \right)\exp \left( -\frac{\|y\|^{2}}{h^{2}} \right)$. Then, the positive semidefiniteness follows from the fact that $(x,y)\mapsto \braket{ x , y }^k$ is positive semidefinite for all $k$.
+
+^6bfe78
+
 ---
 > [!h] Example 3 (Exponential Kernel)
 > Let $X$ be an [[inner product space]]. Then, 
 > 1. $K_{\text{Laplace},h}(x,y):=\exp \left( -\left\| x-y \right\|/h \right)$ is a SPsD kernel called ***exponential/Laplace kernel*** with $h$.
 > 2. The exponential kernel is not differentiable. 
+
+^0f0590
+
 ---
 > [!h] Example 4 (Matérn Kernel)
 > Let $X$ be an inner product space and $v,h>0$. Then, 
 > $$K_{v,h}(x,y)=\frac{2^{1-v}}{\Gamma(v)}\left( \frac{\sqrt{ 2 }}{h}\left\| x-y \right\| _{2} \right)^v \text{K}_{v}\left(\frac{\sqrt{ 2 }}{h}\left\| x-y \right\| _{2}  \right)  $$where $\Gamma$ is the [[gamma function]] and $\text{K}_{v}$ is the [[modified Bessel function of the second kind]], is a SPsD kernel called ***Matérn kernel***.
 > 1. $K_{1 / 2,h}=K_{\text{Laplace}, h}$, i.e. the exponential kernel is Matérn kernel with $v = 1/2$.
+> 2. $K_{\nu,h}\to K_{\text{Gaussian},h}$ as $v\to \infty$.
+
+^a6cc5d
+
+---
+> [!h] Example 5 (Stationary and Isotropic Kernels)
+> We have that:
+> 1. the linear kernel is neither stationary nor isotropic.
+> 2. $k(x,x')=\exp(-(x-x')^\top M (x-x'))$ for SPsD $M$ is stationary but not isotropic.
+> 3. the Gaussian kernel is stationary and isotropic.
+
+^e66b39
+
+---
