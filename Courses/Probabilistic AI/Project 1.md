@@ -1,0 +1,3 @@
+#Project #PAI 
+
+We have that: $$\begin{align}0&=\frac{d}{da}\mathbb{E}[\ell(y,a)|x]\\&=c_{1}\frac{d}{da}\int_{a}^{\infty} (y-a)^{2} p(y|x)\, dy+c_{2} \frac{d}{da}\int_{-\infty}^{a} (a-y)^{2} p(y|x)\, dy \\&=2\left(- c_{1}\int_{a}^{\infty} (y-a) p(y|x)\, dy+c_{2}\int_{-\infty}^{a} (a-y)p(y|x) \, dy   \right)\\&=2\left(ac_{1}(1-F(a))+c_{2}aF(a)- c_{1}\int_{a}^{\infty} y p(y|x)\, dy-c_{2}\int_{-\infty}^{a} yp(y|x) \, dy   \right)\end{align}$$
