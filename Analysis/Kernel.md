@@ -78,7 +78,9 @@
 ---
 > [!h] Example 3 (Exponential Kernel)
 > Let $X$ be an [[inner product space]]. Then, 
-> 1. $K(x,y):=\exp \left( -\left\| x-y \right\|/h \right)$ is a SPsD kernel called ***exponential kernel*** with $h$.
+> 1. $K(x,y):=\exp \left( -\left\| x-y \right\|/h \right)$ is a SPsD kernel called ***exponential/Laplace kernel*** with $h$.
 > 2. The exponential kernel is not differentiable. 
 ---
 > [!h] Example 4 (Matérn Kernel)
+> Let $X$ be an inner product space and $v,\ell>0$. Then, 
+> 1. $K_{v,\ell}(x,y)$
