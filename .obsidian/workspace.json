@@ -6,6 +6,7 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
+        "dimension": 46.55775962660444,
         "children": [
           {
             "id": "c1723c7c5410be07",
@@ -48,6 +49,7 @@
       {
         "id": "4d5ec56e57395c88",
         "type": "tabs",
+        "dimension": 53.44224037339556,
         "children": [
           {
             "id": "f2dcdc41d5490520",
@@ -231,9 +233,9 @@
   "lastOpenFiles": [
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Courses/Probabilistic AI/Project 1.md",
+    "Probability Theory/Gaussian Distribution.md",
     "Courses/Untitled.md",
     "Analysis/Banach Space.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Functional Analysis/RKHS.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Inner Product Space.md",
