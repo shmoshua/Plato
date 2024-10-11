@@ -14,4 +14,6 @@
 
 > [!proof]+
 > We have that:
-> 1. Linearity and symmetry is clear. For positive definiteness, we have that: $$\braket{ f , f }_{k}=\sum_{i,j=1}^{n}\alpha_{i}\alpha_{j}k(x_{i},x_{j})\geq 0 $$by the definition of a kernel function. Hence, $\mathcal{H}_{k}(X)$ is an inner product space. 
+> 1. Linearity and symmetry is clear. For positive definiteness, we have that: $$\braket{ f , f }_{k}=\sum_{i,j=1}^{n}\alpha_{i}\alpha_{j}k(x_{i},x_{j})\geq 0 $$by the definition of a kernel function. Hence, $\mathcal{H}_{k}(X)$ is an inner product space.
+> 	
+> 	To show that it is Banach, let $\{ f_{i} \}_{i}$ be a Cauchy sequence. Then, for any $\varepsilon>0$, there exists $N\in \mathbb{N}$ s.t. $$\left\|  f_{n}-f_{m}\right\|_{k}^2 =$$ 

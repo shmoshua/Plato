@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Analysis/Banach Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -215,11 +215,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f2dcdc41d5490520",
+  "active": "c1723c7c5410be07",
   "lastOpenFiles": [
+    "Analysis/Banach Space.md",
     "Analysis/Hilbert Space.md",
-    "Analysis/Inner Product Space.md",
     "Functional Analysis/RKHS.md",
+    "Analysis/Inner Product Space.md",
     "Probability Theory/Gaussian Distribution.md",
     "Analysis/Kernel.md",
     "Machine Learning/Gaussian Process.md",
@@ -243,7 +244,6 @@
     "Graph Theory/Radius (Graph).md",
     "Topology/Path.md",
     "Graph Theory/Girth and Circumference.md",
-    "Advanced Algorithms/Linear Programming.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
