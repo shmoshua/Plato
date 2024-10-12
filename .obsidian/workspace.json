@@ -129,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "radon",
+                "query": "bochner",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -232,14 +233,16 @@
   },
   "active": "8d842f20846861d4",
   "lastOpenFiles": [
-    "Machine Learning/Gaussian Process.md",
+    "Machine Learning/Cross Validation.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/LCA Group.md",
+    "Machine Learning/Gaussian Process.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Characteristic Function.md",
     "Algebra/Characteristic.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
-    "Machine Learning/Cross Validation.md",
     "Analysis/Kernel.md",
     "Functional Analysis/RKHS.md",
     "Topology/Continuous Functions in Metric Spaces.md",
@@ -257,8 +260,6 @@
     "Functional Analysis/Spectrum.md",
     "Analysis/Hilbert Basis.md",
     "Graph Theory/Path (Graph).md",
-    "Functional Analysis/Hilbert-Schmidt Operator.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

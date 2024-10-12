@@ -178,7 +178,7 @@ Notice that given the kernel, there are different hyperparameters:
 ---
 ##### 2.3.4.1 Bayesian Model Selection
 There are multiple level of random variables to infer. The hierarchy is given by: 
-$$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ \theta }\gets \underset{ \text{model selection} }{ \mathcal{H}_{i} }$$where $\mathcal{H}_{i}$ is a discrete set of models, i.e. choosing between a linear kernel and RBF. At each level we can perform Bayesian inference. For example, at level 2: $$p(\theta|y_{1:n}, x_{1:n},\mathcal{H}_{i})=\frac{p(y_{1:n}|x_{1:n},\theta,\mathcal{H}_{i})p(\theta|\mathcal{H}_{i})}{p(y_{1:n}|x_{1:n},\mathcal{H}_{i})}$$
+$$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ \theta }\gets \underset{ \text{model selection} }{ \mathcal{H}_{i} }$$where $\mathcal{H}_{i}$ is a discrete set of models, i.e. choosing between a linear kernel and RBF. 
 
 > [!outlook] Method (Bayesian Model Selection)
 > At each level, we can maximize the marginal likelihood of the levels below.
@@ -198,6 +198,17 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 2. if $\sigma_{p}^{2}$ is too larger, then our model will be complex. 
 
 ---
+
+> [!lemma] Proposition (Bayesian Model Selection)
+> Let $\Theta$ be a set of hyperparameters and $k_{\theta}$ be a covariance function for all $\theta\in \Theta$. Then, with prior $f \sim \text{GP}(0,k_{\theta})$ with $y=f(x)+\varepsilon$ with $\varepsilon \sim \mathcal{N}(0,\sigma^2_{n})$ w.r.t. observed datapoints $y_{1:n}$ at $x_{1:n}\subseteq X$, we have that the ***Bayesian model selection*** $\widehat{\theta}=\underset{ \theta\in \Theta }{ \arg\max } \ p(y_{1:n}|x_{1:n},\theta)$ is given as:
+> $$\text{tr}\left( (K_{y,\widehat{\theta}}^{-1}-\alpha \alpha^\top)\frac{ \partial K_{y,\widehat{\theta}} }{ \partial \widehat{\theta}_{j} }  \right)=0$$where $K_{y,\theta}:=K_{AA}^{\theta}+\sigma_{n}^{2}I$ and $\alpha:=K_{y,\widehat{\theta}}^{-1}y_{1:n}$.
+
+> [!proof]-
+> We have that for $A:=\{ x_{1},\dots,x_{n} \}$, $y_{1:n}|x_{1:n},\theta \sim \mathcal{N}(0,K_{y,\theta})$ where $K_{y,\theta}:=K_{AA}^{\theta}+\sigma_{n}^{2}I$.  Therefore,   $$\begin{align}\widehat{\theta}&=\underset{ \theta\in \Theta }{ \arg\max } \ p(y_{1:n}|x_{1:n},\theta)\\&=\underset{ \theta\in \Theta }{ \arg\max } \ \frac{1}{\sqrt{ (2\pi)^n \left| K_{y}^\theta \right| }}\exp \left( -\frac{1}{2}y_{1:n}^\top K_{y,\theta}^{-1}y_{1:n}\right) \\&=\underset{ \theta\in \Theta }{ \arg\min } \underbrace{ \left(\log \left| K_{y,\theta} \right| +y_{1:n}^\top K_{y,\theta}^{-1}y_{1:n}\right) }_{ =:\mathcal{L}(\theta) }\end{align}$$where $$\begin{align}\frac{\partial}{\partial\theta_{j}}\mathcal{L}&=\text{tr}\left( K_{y,\theta}^{-1}\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} }  \right)+y^\top_{1:n}\frac{ \partial  }{ \partial \theta_{j} }K_{y,\theta}^{-1}y_{1:n} \\&=\text{tr}\left( K_{y,\theta}^{-1}\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} }  \right)-y^\top_{1:n}K_{y,\theta}^{-1}\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} }\underbrace{ K_{y,\theta}^{-1}y_{1:n} }_{=:\alpha  }\\&=\text{tr}\left( K_{y,\theta}^{-1}\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} }  \right)-\text{tr}\left( \alpha \alpha^\top\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} } \right)\\&=\text{tr}\left( (K_{y,\theta}^{-1}-\alpha \alpha^\top)\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} }  \right)\end{align} $$
+
+- **Remark**: Bayesian model selection has the drawback that it might overfit on the parameters. A solution is to set ***hyperpriors*** -- priors on hyperparameters. Essentially, at each level we can perform Bayesian inference. For example, at level 2: $$p(\theta|y_{1:n}, x_{1:n},\mathcal{H}_{i})=\frac{p(y_{1:n}|x_{1:n},\theta,\mathcal{H}_{i})p(\theta|\mathcal{H}_{i})}{p(y_{1:n}|x_{1:n},\mathcal{H}_{i})}$$Then, we can compute $\widehat{\theta}_{\text{MAP}}$.
+
+---
 ##### 2.3.4.2 Cross Validation
 ![[Cross Validation#^dcaf90]]
 
@@ -206,10 +217,3 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 1. $\widehat{f}_{i}:=\underset{ f }{ \arg\max } \ p(y_{\text{train}}|x_{\text{train}},f,\theta_{i})p(f|\theta_{i})$ in other words [[Maximum A Posteriori Estimation|MAP estimate]] of $f$ given $\theta_{i}$. 
 > 2. $\widehat{\theta}:=\underset{ \theta_{i}\in \Theta }{ \arg\max }\ p(y_{\text{test}}|x_{\text{test}}, \widehat{f}_{i},\theta_{i})$ in other words the [[Maximum Likelihood Estimation|MLE estimate]] of $\theta$.
 ---
-
-> [!lemma] Proposition
-> Let $\Theta$ be a set of hyperparameters and $k_{\theta}$ be a covariance function for all $\theta\in \Theta$. Then, with prior $f \sim \text{GP}(0,k_{\theta})$ with $y=f(x)+\varepsilon$ with $\varepsilon \sim \mathcal{N}(0,\sigma^2_{n})$ w.r.t. observed datapoints $y_{1:n}$ at $x_{1:n}\subseteq X$, we have that the ***Bayesian model selection*** $\widehat{\theta}=\underset{ \theta\in \Theta }{ \arg\max } \ p(y_{1:n}|x_{1:n},\theta)$ is given as:
-> $$\text{tr}\left( (K_{y,\widehat{\theta}}^{-1}-\alpha \alpha^\top)\frac{ \partial K_{y,\widehat{\theta}} }{ \partial \widehat{\theta}_{j} }  \right)=0$$where 
-
-> [!proof]+
-> We have that for $A:=\{ x_{1},\dots,x_{n} \}$, $y_{1:n}|x_{1:n},\theta \sim \mathcal{N}(0,K_{y,\theta})$ where $K_{y,\theta}:=K_{AA}^{\theta}+\sigma_{n}^{2}I$.  Therefore,   $$\begin{align}\widehat{\theta}&=\underset{ \theta\in \Theta }{ \arg\max } \ p(y_{1:n}|x_{1:n},\theta)\\&=\underset{ \theta\in \Theta }{ \arg\max } \ \frac{1}{\sqrt{ (2\pi)^n \left| K_{y}^\theta \right| }}\exp \left( -\frac{1}{2}y_{1:n}^\top K_{y,\theta}^{-1}y_{1:n}\right) \\&=\underset{ \theta\in \Theta }{ \arg\min } \underbrace{ \left(\log \left| K_{y,\theta} \right| +y_{1:n}^\top K_{y,\theta}^{-1}y_{1:n}\right) }_{ =:\mathcal{L}(\theta) }\end{align}$$where $$\begin{align}\frac{\partial}{\partial\theta_{j}}\mathcal{L}&=\text{tr}\left( K_{y,\theta}^{-1}\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} }  \right)+y^\top_{1:n}\frac{ \partial  }{ \partial \theta_{j} }K_{y,\theta}^{-1}y_{1:n} \\&=\text{tr}\left( K_{y,\theta}^{-1}\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} }  \right)-y^\top_{1:n}K_{y,\theta}^{-1}\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} }\underbrace{ K_{y,\theta}^{-1}y_{1:n} }_{=:\alpha  }\\&=\text{tr}\left( K_{y,\theta}^{-1}\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} }  \right)-\text{tr}\left( \alpha \alpha^\top\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} } \right)\\&=\text{tr}\left( (K_{y,\theta}^{-1}-\alpha \alpha^\top)\frac{ \partial K_{y,\theta} }{ \partial \theta_{j} }  \right)\end{align} $$
