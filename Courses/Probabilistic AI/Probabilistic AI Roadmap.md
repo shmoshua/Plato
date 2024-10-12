@@ -184,11 +184,20 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > At each level, we can maximize the marginal likelihood of the levels below.
 > 1. $\widehat{\theta}:=\underset{ \theta }{ \arg\max }\ p(y_{\text{train}}|x_{\text{train}},\theta)$ where:$$p(y_{\text{train}}|x_{\text{train}},\theta)=\int p(y_{\text{train}}|f,x_{\text{train}},\theta) p(f|\theta)\, d\mathbb{P}_{f}$$
 
+- **Remark**: Let $\mathcal{H}_{\text{simple}},\mathcal{H}_{\text{moderate}},\mathcal{H}_{\text{complex}}$ be the three model candidates (including hyperparameter selections). Then, in the marginal likelihood $\int_{}^{} p(y|f,x,\mathcal{H}_{i}) p(f|\mathcal{H}_{i})\, df$, 
+	1. $\mathcal{H}_{\text{simple}}$ has small $p(y|f,x,\mathcal{H}_{\text{simple}})$ for most $f$ and small $p(f|\mathcal{H}_{\text{simple}})$ for most $f$. 
+	2. $\mathcal{H}_{\text{complex}}$ has large $p(y|f,x,\mathcal{H}_{\text{complex}})$ for some $f$ and small for most, and small $p(f|\mathcal{H}_{\text{simple}})$ for most $f$. 
 
+	Therefore, we can maximize the marginal likelihood where the most moderate model will be selected.
 
 
 ---
+> [!h] Example of Simple and Complex Models
+> Consider a 1-dimensional example $y=f+\varepsilon$ where $\varepsilon \sim \mathcal{N}(0,\sigma_{n}^{2})$ and we have Gaussian prior $f \sim \mathcal{N}(0,\sigma_{p}^{2})$. With fixed $\sigma_{n}^{2}$, we have that:
+> 1. if $\sigma_{p}^{2}$ is too small, then our model will be simple. (only some data will have high likelihood.)
+> 2. if $\sigma_{p}^{2}$ is too larger, then our model will be complex. 
 
+---
 ##### 2.3.4.2 Cross Validation
 ![[Cross Validation#^dcaf90]]
 
@@ -198,4 +207,6 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 2. $\widehat{\theta}:=\underset{ \theta_{i}\in \Theta }{ \arg\max }\ p(y_{\text{test}}|x_{\text{test}}, \widehat{f}_{i},\theta_{i})$ in other words the [[Maximum Likelihood Estimation|MLE estimate]] of $\theta$.
 ---
 
-- **Remark**: Let $\mathcal{H}_{\text{simple}},\mathcal{H}_{\text{moderate}},\mathcal{H}_{\text{complex}}$ be the three model 
+> [!lemma] Proposition
+> Let $\Theta$ be a set of hyperparameters and $k_{\theta}$ be a covariance function for all $\theta\in \Theta$. Then, with prior $f \sim \text{GP}(0,k_{\theta})$, we have that the ***Bayesian model selection*** is given as:
+> 1. $\widehat{\theta}=$
