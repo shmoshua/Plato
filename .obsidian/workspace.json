@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Dual Space.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "mode": "preview",
                 "source": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -254,12 +254,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c1723c7c5410be07",
+  "active": "e56b0904d5497092",
   "lastOpenFiles": [
-    "Analysis/Kernel.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/RKHS.md",
+    "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Dual Space.md",
+    "Analysis/Kernel.md",
+    "Analysis/Symmetric Positive Definite Matrices.md",
     "Analysis/Inner Product Space.md",
     "Analysis/Banach Space.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
@@ -281,8 +283,6 @@
     "Measure Theory/Lebesgue Measure.md",
     "Functional Analysis/Compact Operator.md",
     "Functional Analysis/Adjoint Linear Map.md",
-    "Graph Theory/Graph.md",
-    "Graph Theory/Radius (Graph).md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
