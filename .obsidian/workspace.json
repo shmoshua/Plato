@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Cross Validation.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Linear Algebra/Matrix Calculus.md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -65,24 +65,24 @@
             }
           },
           {
-            "id": "d7c04c66eb340d4a",
+            "id": "40b3c3a4f7d42462",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Linear Algebra/Matrix Calculus.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "40b3c3a4f7d42462",
+            "id": "d7c04c66eb340d4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,8 +147,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
+                "file": "Machine Learning/Gaussian Process.md"
               }
             }
           }
@@ -231,14 +231,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8d842f20846861d4",
+  "active": "c4c343740bea5f47",
   "lastOpenFiles": [
-    "Machine Learning/Cross Validation.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/LCA Group.md",
+    "Linear Algebra/Matrix Calculus.md",
     "Machine Learning/Gaussian Process.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Machine Learning/Cross Validation.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Functional Analysis/LCA Group.md",
     "Probability Theory/Characteristic Function.md",
     "Algebra/Characteristic.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
@@ -259,7 +260,6 @@
     "Linear Algebra",
     "Functional Analysis/Spectrum.md",
     "Analysis/Hilbert Basis.md",
-    "Graph Theory/Path (Graph).md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

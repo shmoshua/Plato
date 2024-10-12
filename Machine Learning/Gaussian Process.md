@@ -57,10 +57,10 @@
 
 ^9b4fed
 
-
 ---
-> [!lemma] Proposition 4
-> Let $f\sim \text{GP}(\mu,k)$ and $y=f(x)+\varepsilon$ where $\varepsilon \sim \mathcal{N}(0,\sigma_{n}^{2})$. Then, we have that: $$y_{1:n}|x_{1:n} \sim \mathcal{N}(\mu)$$
+> [!lemma] Theorem 4 (Random Fourier Features)
+> Let $k$ be a [[Kernel|stationary SPsD kernel]]. Then, let $k(x,x')=:k$
+
 ---
 ##### Examples
 > [!h] Example 1 (Constant GP)

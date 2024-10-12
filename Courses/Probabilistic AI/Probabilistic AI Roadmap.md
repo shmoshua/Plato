@@ -217,3 +217,16 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 1. $\widehat{f}_{i}:=\underset{ f }{ \arg\max } \ p(y_{\text{train}}|x_{\text{train}},f,\theta_{i})p(f|\theta_{i})$ in other words [[Maximum A Posteriori Estimation|MAP estimate]] of $f$ given $\theta_{i}$. 
 > 2. $\widehat{\theta}:=\underset{ \theta_{i}\in \Theta }{ \arg\max }\ p(y_{\text{test}}|x_{\text{test}}, \widehat{f}_{i},\theta_{i})$ in other words the [[Maximum Likelihood Estimation|MLE estimate]] of $\theta$.
 ---
+#### 2.3.5 Fast Gaussian Processes
+- **Remark**: To compute $p(f|x_{1:n},y_{1:n})$, from [[Gaussian Process|Conditional Gaussian Process]], we need to compute $(K_{AA}+\sigma^{2}I)^{-1}$. This requires $\Theta(n^{3})$. 
+	- Compare this to BLR, where we need to compute $(kI+X^\top X)^{-1}$ where $X\in \mathbb{R}^{n,d}$, hence in $\Theta(nd^{2})$.
+- **Remark**: Using GPU we can also compute GP inference in parallel. However, this does not reduce the runtime of each inference!
+---
+##### 2.3.5.1 Local Methods
+> [!outlook] Method 1
+> As many covariance functions have the property that $k(x,x')\to 0$ as $x-x'\to \infty$. Therefore, 
+> 1. create a cutoff $\tau>0$ s.t. at a prediction point $x$, the prediction is only made based on $$A':=\{ x'\in A: \left| k(x,x') \right| \geq \tau \}$$where we assume that $p(f(x)|x_{A},y_{A}) \approx p(f(x)|x_{A'},y_{A'})$.
+
+- **Remark**: This method is however still expensive if $\left| A '\right|$ is still large.
+---
+##### 2.3.5.2 Kernel Approximation
