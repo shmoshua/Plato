@@ -31,6 +31,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "c4c343740bea5f47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Gaussian Process.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -58,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Characteristic Function.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "mode": "preview",
                 "source": true
               }
@@ -75,9 +87,20 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "e7454d91be48555a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Characteristic Function.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md"
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
               }
             }
           }
@@ -207,12 +230,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "40b3c3a4f7d42462",
+  "active": "8d842f20846861d4",
   "lastOpenFiles": [
-    "Machine Learning/Maximum Likelihood Estimation.md",
+    "Machine Learning/Gaussian Process.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Characteristic Function.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Algebra/Characteristic.md",
+    "Machine Learning/Maximum Likelihood Estimation.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
     "Machine Learning/Cross Validation.md",
     "Analysis/Kernel.md",
@@ -228,14 +253,12 @@
     "Linear Algebra/Cholesky Decomposition.md",
     "Courses/Probabilistic AI/Project 1.md",
     "Courses/Untitled.md",
-    "Machine Learning/Gaussian Process.md",
     "Linear Algebra",
     "Functional Analysis/Spectrum.md",
     "Analysis/Hilbert Basis.md",
     "Graph Theory/Path (Graph).md",
     "Functional Analysis/Hilbert-Schmidt Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Topology/Separable Space.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

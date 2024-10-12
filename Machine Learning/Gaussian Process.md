@@ -57,6 +57,10 @@
 
 ^9b4fed
 
+
+---
+> [!lemma] Proposition 4
+> Let $f\sim \text{GP}(\mu,k)$ and $y=f(x)+\varepsilon$ where $\varepsilon \sim \mathcal{N}(0,\sigma_{n}^{2})$. Then, we have that: $$y_{1:n}|x_{1:n} \sim \mathcal{N}(\mu)$$
 ---
 ##### Examples
 > [!h] Example 1 (Constant GP)
