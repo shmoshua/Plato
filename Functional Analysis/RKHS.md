@@ -1,19 +1,18 @@
-#Definition #ML 
+#Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $X$ be a set and $k:X\times X\to \mathbb{R}$ a SPsD [[kernel]]. Then,
-> 1. the ***reproducing kernel Hilbert space (RKHS)*** of $k$ is given as: $$\mathcal{H}_{k}(X):=\left\{  \left. f:X\to \mathbb{R},x\mapsto \sum_{i=1}^{n}\alpha_{i}k(x,x_{i})    \right| n\in \mathbb{N}, x_{i}\in X,\alpha_{i}\in \mathbb{R} \right\}$$
+> Let $X$ be a set. 
+> 1. the ***reproducing kernel Hilbert space (RKHS)*** is a Hilbert space $\mathcal{H}$ of functions $f:X\to \mathbb{K}$ s.t. $\text{ev}_{x}:\mathcal{H}\to \mathbb{K},f\mapsto f(x)$ is continuous for all $x\in X$. 
+
 
 - **Related definition**: For $f(x)=\sum_{i=1}^{n}\alpha_{i}k(x,x_{i})$ and $g(x)=\sum_{j=1}^{m}\beta_{j}k(x,x'_{i})$, the RKHS inner product is given by: $$\braket{ f ,g  }_{k}:=\sum_{i=1}^{n}\sum_{j=1}^{m}\alpha_{i}\beta_{j}k(x_{i},x'_{j}) $$
 
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> We have that: 
-> 1. $\mathcal{H}_{k}(X)$ is a [[Hilbert space]].
+> Let $\mathcal{H}$ be a RKHS. 
+> 1. For $\{ f_{n} \}_{n}\subseteq \mathcal{H}$ and $f\in \mathcal{H}$, convergence in $\mathcal{H}$ implies pointwise convergence, i.e.: $$\lim_{ n \to \infty } \left\| f_{n}-f \right\| =0\quad \implies\quad \lim_{ n \to \infty } \left| f_{n}(x)-f(x) \right|=0,\quad \forall x\in X $$
 
 > [!proof]+
 > We have that:
-> 1. Linearity and symmetry is clear. For positive definiteness, we have that: $$\braket{ f , f }_{k}=\sum_{i,j=1}^{n}\alpha_{i}\alpha_{j}k(x_{i},x_{j})\geq 0 $$by the definition of a kernel function. Hence, $\mathcal{H}_{k}(X)$ is an inner product space.
-> 	
-> 	To show that it is Banach, let $\{ f_{i} \}_{i}$ be a Cauchy sequence. Then, for any $\varepsilon>0$, there exists $N\in \mathbb{N}$ s.t. $$\left\|  f_{n}-f_{m}\right\|_{k}^2 =$$ 
+> 1. For any $x\in X$, $$\left| f_{n}(x)-f(x) \right| =\left| \text{ev}_{x}(f_{n}-f) \right|\leq \left\| \text{ev}_{x} \right\| \left\| f_{n}-f \right\| _{\mathcal{H}} $$where $\left\| \text{ev}_{x} \right\|$ is bounded by the definition of RKHS.
