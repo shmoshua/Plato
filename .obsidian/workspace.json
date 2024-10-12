@@ -99,8 +99,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Courses/Probabilistic AI/Project 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Courses/Probabilistic AI/Project 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
+                "file": "Courses/Probabilistic AI/Project 1.md"
               }
             }
           }
@@ -230,10 +229,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8ea9dbaed76c3b77",
+  "active": "f2dcdc41d5490520",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Project 1.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Courses/Probabilistic AI/Project 1.md",
     "Probability Theory/Gaussian Distribution.md",
     "Courses/Untitled.md",
     "Analysis/Banach Space.md",
