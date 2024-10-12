@@ -59,7 +59,7 @@
 
 ---
 > [!lemma] Theorem 4 (Random Fourier Features)
-> Let $k$ be a [[Kernel|stationary SPsD kernel]]. Then, let $k(x,x')=:k$
+> Let $k$ be a [[Kernel|stationary SPsD kernel]] on $\mathbb{R}^n$. Then, let $k:\mathbb{R}^n\to \mathbb{R}$ given as $k(x-x')=k(x,x')$. One sees that: $$\int_{\mathbb{R}^n}^{} \left| k(x)  \right| \, dx= $$
 
 ---
 ##### Examples
