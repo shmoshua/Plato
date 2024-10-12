@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Maximum A Posteriori Estimation.md",
+                "file": "Probability Theory/Characteristic Function.md",
                 "mode": "preview",
                 "source": true
               }
@@ -70,13 +70,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Maximum Likelihood Estimation.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
+                "file": "Probability Theory/Gaussian Distribution.md"
               }
             }
           }
@@ -206,13 +207,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8d842f20846861d4",
+  "active": "40b3c3a4f7d42462",
   "lastOpenFiles": [
-    "Machine Learning/Cross Validation.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Analysis/Kernel.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Characteristic Function.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
+    "Machine Learning/Cross Validation.md",
+    "Analysis/Kernel.md",
     "Functional Analysis/RKHS.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Continuous Function.md",
@@ -224,7 +227,6 @@
     "Analysis/Banach Space.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Courses/Probabilistic AI/Project 1.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Courses/Untitled.md",
     "Machine Learning/Gaussian Process.md",
     "Linear Algebra",
@@ -234,7 +236,6 @@
     "Functional Analysis/Hilbert-Schmidt Operator.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Separable Space.md",
-    "Measure Theory/Summable Function.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

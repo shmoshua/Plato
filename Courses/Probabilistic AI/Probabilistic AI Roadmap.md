@@ -208,5 +208,8 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 ---
 
 > [!lemma] Proposition
-> Let $\Theta$ be a set of hyperparameters and $k_{\theta}$ be a covariance function for all $\theta\in \Theta$. Then, with prior $f \sim \text{GP}(0,k_{\theta})$, we have that the ***Bayesian model selection*** is given as:
-> 1. $\widehat{\theta}=$
+> Let $\Theta$ be a set of hyperparameters and $k_{\theta}$ be a covariance function for all $\theta\in \Theta$. Then, with prior $f \sim \text{GP}(0,k_{\theta})$ with $y=f(x)+\varepsilon$ with $\varepsilon \sim \mathcal{N}(0,\sigma^2_{n})$ w.r.t. observed datapoints $y_{1:n}$ at $x_{1:n}\subseteq X$, we have that the ***Bayesian model selection*** is given as:
+> 1. $\widehat{\theta}=\underset{ \theta\in \Theta }{ \arg\max } \ p(y_{1:n}|x_{1:n},\theta)=$
+
+> [!proof]+
+> We have that for $f_{i}:=f(x_{i})$,  $$\begin{align}\widehat{\theta}&=\underset{ \theta\in \Theta }{ \arg\max } \ p(y_{1:n}|x_{1:n},\theta)\\&=\underset{ \theta\in \Theta }{ \arg\max } \int_{\mathbb{R}^n} \underbrace{ p(y_{1:n}|f_{1:n},x_{1:n},\theta) }_{ =\mathcal{N}(y_{1:n};f_{1:n},\sigma^{2}_{n}I) }\underbrace{ p(f_{1:n}|\theta) }_{ =\mathcal{N}(f_{1:n};0,K_{\theta}) } \, d\mathbb{P}_{f}\\&=\underset{ \theta\in \Theta }{ \arg\max } \frac{1}{\sqrt{ (2\pi\sigma^2_{n})^n }} \int_{\mathbb{R}^n} \exp \left( -\frac{1}{2\sigma^{2}_{n}}\left\| y_{1:n}-f_{1:n} \right\|^{2}_{2}  \right) p(f_{1:n}|\theta)\, df_{1:n}\\&=\underset{ \theta\in \Theta }{ \arg\max } \frac{1}{\sqrt{ (2\pi\sigma^2_{n})^n }} \int_{\mathbb{R}^n} \exp \left( -\frac{1}{2\sigma^{2}_{n}}(\left\| y_{1:n}\right\|^2_{2}-2y_{1:n}^\top f_{1:n}+\left\|f_{1:n} \right\|^{2}_{2})  \right) p(f_{1:n}|\theta)\, df_{1:n}\end{align}$$where $K_{\theta}:=[k_{\theta}(x_{i},x_{j})]_{i,j\in[n]}$. Then, 
