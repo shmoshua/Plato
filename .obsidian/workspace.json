@@ -43,6 +43,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "5c95df8df979fbdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/LCA Group.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -125,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/Positive Definite Function on a Group.md"
+                "file": "Machine Learning/Gaussian Process.md"
               }
             }
           }
@@ -255,13 +267,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c9a1b95e564f2e0c",
+  "active": "c4c343740bea5f47",
   "lastOpenFiles": [
+    "Analysis/Kernel.md",
+    "Machine Learning/Gaussian Process.md",
+    "Functional Analysis/LCA Group.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
     "Functional Analysis/Fourier Transform.md",
     "Analysis/Fourier Transform (Rn).md",
-    "Machine Learning/Gaussian Process.md",
-    "Analysis/Kernel.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
     "Analysis/Fourier Coefficient.md",
     "Linear Algebra/Matrix Calculus.md",
     "Analysis/Lp Space.md",
@@ -270,7 +283,6 @@
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Cross Validation.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/LCA Group.md",
     "Algebra/Characteristic.md",
     "Machine Learning/Maximum Likelihood Estimation.md",
     "ML Theory/Maximum A Posteriori Estimation.md",

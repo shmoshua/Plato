@@ -1,6 +1,6 @@
 #Definition #ML 
 > [!definition]
->  For a set $X$, a ***Gaussian process*** is the set  $f:=\{ f(x) \}_{x\in X}\subseteq \mathbb{R}$ with the ***mean function*** $\mu:X\to \mathbb{R}$ and the ***covariance function*** $k:X \times X\to \mathbb{R}$ s.t. 
+>  For a set $X$, a ***Gaussian process*** is the set  $f:=\{ f(x) \}_{x\in X}\subseteq \mathbb{\mathbb{K}}$ with the ***mean function*** $\mu:X\to \mathbb{R}$ and the ***covariance function*** $k:X \times X\to \mathbb{K}$ s.t. 
 >  1. for every finite $A=\{ x_{1},\dots,x_{n} \}\subseteq X$, $$f(A):=(f(x_{1}),\dots,f(x_{n})) \sim \mathcal{N}\left( \mu_{A},K_{AA}\right)$$where $\mu_{A}:=(\mu(x_{1}),\dots,\mu(x_{n}))$ and $K_{AA}:=\begin{bmatrix}k(x_{i},x_{j})\end{bmatrix}_{i,j\in [n]}$.
 > 
 > A Gaussian process is denoted as $f \sim \text{GP}(\mu,k)$.
@@ -58,7 +58,9 @@
 ^9b4fed
 
 ---
-> [!lemma] Theorem 4 (Random Fourier Features)
+> [!lemma] Theorem 4 (Bochner)
+> For a function $k:\mathbb{R}^d\to \mathbb{C}$, TFAE:
+> 1. there exists a Gaussian process $f \sim \text{GP}(\mu,K)$ where $K(x,x')=k(x-x')$. 
 > Let $k$ be a [[Kernel|stationary SPsD kernel]] on $\mathbb{R}^n$. Then, let $k:\mathbb{R}^n\to \mathbb{R}$ given as $k(x-x')=k(x,x')$. One sees that: $$\int_{\mathbb{R}^n}^{} \left| k(x)  \right| \, dx= $$
 
 ---
