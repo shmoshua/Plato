@@ -93,7 +93,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Topology/Continuous Functions in Metric Spaces.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f316c90c8087f73c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Inner Product Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -256,13 +268,15 @@
   },
   "active": "e56b0904d5497092",
   "lastOpenFiles": [
+    "Topology/Continuous Functions in Metric Spaces.md",
+    "Topology/Continuous Function.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/RKHS.md",
+    "Analysis/Inner Product Space.md",
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Dual Space.md",
     "Analysis/Kernel.md",
     "Analysis/Symmetric Positive Definite Matrices.md",
-    "Analysis/Inner Product Space.md",
     "Analysis/Banach Space.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Machine Learning/Cross Validation.md",
@@ -281,8 +295,6 @@
     "Measure Theory/Summable Function.md",
     "Measure Theory/Lebesgue Integral.md",
     "Measure Theory/Lebesgue Measure.md",
-    "Functional Analysis/Compact Operator.md",
-    "Functional Analysis/Adjoint Linear Map.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",
