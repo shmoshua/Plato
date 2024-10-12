@@ -6,20 +6,8 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
-        "dimension": 46.55775962660444,
+        "dimension": 48.249708284714124,
         "children": [
-          {
-            "id": "c1723c7c5410be07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/RKHS.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
           {
             "id": "0c2a8c9e2c61428e",
             "type": "leaf",
@@ -33,23 +21,24 @@
             }
           },
           {
-            "id": "d2fa563ff5b78e1c",
+            "id": "8d842f20846861d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
         "type": "tabs",
-        "dimension": 53.44224037339556,
+        "dimension": 51.750291715285876,
         "children": [
           {
             "id": "8ea9dbaed76c3b77",
@@ -64,79 +53,30 @@
             }
           },
           {
-            "id": "d4213f95b17e214c",
+            "id": "d7c04c66eb340d4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Banach Space.md",
+                "file": "ML Theory/Maximum A Posteriori Estimation.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "e56b0904d5497092",
+            "id": "40b3c3a4f7d42462",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/RKHS.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9692d3cccf7ba6e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Continuous Functions in Metric Spaces.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f316c90c8087f73c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Inner Product Space.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e4978919a5b26c8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Positive Operator.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f2408aeedbce89a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Machine Learning/Maximum Likelihood Estimation.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functional Analysis/RKHS.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functional Analysis/RKHS.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functional Analysis/RKHS.md"
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
               }
             }
           }
@@ -266,20 +206,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e56b0904d5497092",
+  "active": "8d842f20846861d4",
   "lastOpenFiles": [
+    "Machine Learning/Cross Validation.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Analysis/Kernel.md",
+    "Machine Learning/Maximum Likelihood Estimation.md",
+    "ML Theory/Maximum A Posteriori Estimation.md",
+    "Functional Analysis/RKHS.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Continuous Function.md",
     "Analysis/Hilbert Space.md",
-    "Functional Analysis/RKHS.md",
     "Analysis/Inner Product Space.md",
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Dual Space.md",
-    "Analysis/Kernel.md",
     "Analysis/Symmetric Positive Definite Matrices.md",
     "Analysis/Banach Space.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Machine Learning/Cross Validation.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Courses/Probabilistic AI/Project 1.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -293,8 +235,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Separable Space.md",
     "Measure Theory/Summable Function.md",
-    "Measure Theory/Lebesgue Integral.md",
-    "Measure Theory/Lebesgue Measure.md",
     "Commutative Algebra",
     "Logic",
     "Untitled",

@@ -179,5 +179,23 @@ Notice that given the kernel, there are different hyperparameters:
 ##### 2.3.4.1 Bayesian Model Selection
 There are multiple level of random variables to infer. The hierarchy is given by: 
 $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ \theta }\gets \underset{ \text{model selection} }{ \mathcal{H}_{i} }$$where $\mathcal{H}_{i}$ is a discrete set of models, i.e. choosing between a linear kernel and RBF. At each level we can perform Bayesian inference. For example, at level 2: $$p(\theta|y_{1:n}, x_{1:n},\mathcal{H}_{i})=\frac{p(y_{1:n}|x_{1:n},\theta,\mathcal{H}_{i})p(\theta|\mathcal{H}_{i})}{p(y_{1:n}|x_{1:n},\mathcal{H}_{i})}$$
+
+> [!outlook] Method (Bayesian Model Selection)
+> At each level, we can maximize the marginal likelihood of the levels below.
+> 1. $\widehat{\theta}:=\underset{ \theta }{ \arg\max }\ p(y_{\text{train}}|x_{\text{train}},\theta)$ where:$$p(y_{\text{train}}|x_{\text{train}},\theta)=\int p(y_{\text{train}}|f,x_{\text{train}},\theta) p(f|\theta)\, d\mathbb{P}_{f}$$
+
+
+
+
 ---
+
 ##### 2.3.4.2 Cross Validation
+![[Cross Validation#^dcaf90]]
+
+> [!outlook] Method (Cross Validation for Hyperparameters)
+> Let $\Theta:=\{ \theta_{i} \}_{i}$ be the set of candidate hyperparameters. Then, we do a two step optimization: 
+> 1. $\widehat{f}_{i}:=\underset{ f }{ \arg\max } \ p(y_{\text{train}}|x_{\text{train}},f,\theta_{i})p(f|\theta_{i})$ in other words [[Maximum A Posteriori Estimation|MAP estimate]] of $f$ given $\theta_{i}$. 
+> 2. $\widehat{\theta}:=\underset{ \theta_{i}\in \Theta }{ \arg\max }\ p(y_{\text{test}}|x_{\text{test}}, \widehat{f}_{i},\theta_{i})$ in other words the [[Maximum Likelihood Estimation|MLE estimate]] of $\theta$.
+---
+
+- **Remark**: Let $\mathcal{H}_{\text{simple}},\mathcal{H}_{\text{moderate}},\mathcal{H}_{\text{complex}}$ be the three model 
