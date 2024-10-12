@@ -7,7 +7,10 @@
 
 ^258b99
 
-- **Remark**: A kernel $K$ ***reproduces*** a [[Hilbert space]] $\mathcal{H}$, if for all $x\in X$, $K(x,\cdot)\in \mathcal{H}$ and for every $h\in \mathcal{H}$, $$\braket{ f , K(x,\cdot ) } =f(x)$$
+- **Remark**: A SPsD kernel $k$ ***reproduces*** a [[Hilbert space]] $\mathcal{H}$, if 
+	1. $k(\cdot,x)\in \mathcal{H}$ for every $x\in X$
+	2. $\braket{ f , k(\cdot ,x) }=f(x)$ for all $x\in X, f\in \mathcal{H}$.
+
 - **Remark**: for a positive semidefinite kernel $K$, $K(x,x)\geq 0$ for all $x\in X$ by taking $n=1$.
 - **Remark**: Let $(X,d)$ be a [[Compact Space|compact metric space]], $\mu\in M^1(X)$ a [[Borel Measure|Borel-regular]] probability measure on $X$. Given a continuous kernel $K\in C(X\times X,\mathbb{R})$, the operator $T_{K}:L^2(X,\mu)\to L^2(X,\mu)$ given as: $$T_{K}f(x)=\int_{X}^{}K(x,y)f(y)  \, d\mu(y) $$is [[Hilbert-Schmidt Operator|Hilbert-Schmidt]] and [[Compact Operator|compact]], from [[Hilbert-Schmidt Operator|Proposition 6]]. In addition, if $K$ is symmetric, $T_{K}$ is [[Compact, Self-adjoint Operators|self-adjoint]] and the spectral theorem applies.
 
@@ -85,6 +88,13 @@
 
 ^55975d
 
+---
+> [!lemma] Proposition 5 (Reproducing Kernel)
+> Let $k:X\times X\to \mathbb{K}$ be a reproducing kernel of $\mathcal{H}$. Then,
+> 1. $\braket{ k(x,\cdot) , k(y,\cdot) }_{\mathcal{H}}=k(x,y)$
+
+> [!proof]-
+> Obvious.
 ---
 ##### Examples
 > [!h] Example 1 (Hilbert Space Kernels)
