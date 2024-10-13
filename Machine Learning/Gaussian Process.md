@@ -11,15 +11,15 @@
 ##### Properties
 > [!lemma] Proposition 1
 > For a Gaussian process $\text{GP}(\mu,k)$ on $X$,
-> 1. $k$ is a SPsD [[kernel]]. Conversely, any SPsD kernel $k:X\times X\to \mathbb{R}$ can be a covariance function on a Gaussian process of $X$. 
+> 1. $k$ is a SPsD [[kernel]]. 
+> 2. any SPsD kernel $k:X\times X\to \mathbb{K}$ can be a covariance function on a Gaussian process of $X$. 
 
 ^acc53b
 
 > [!proof]-
 > We have that:
 > 1. for all $x,y\in X$, $f(\{ x,y \}):=(f(x),f(y)) \sim \mathcal{N}(\mu_{\{ x,y \}},K_{\{ x,y \}})$ where: $$K_{\{ x,y \}}:=\begin{bmatrix}k(x,x)&k(x,y)\\k(y,x)&k(y,y)\end{bmatrix}$$As covariance matrices are symmetric, we have that $k(x,y)=k(y,x)$. 
->    
->    Further, the Gram matrix is positive semidefinite by definition. 
+> 2. For a SPsD kernel $k$, we define the real matrix function: $$K(x,y):=\begin{bmatrix}\frac{\text{Re }k(x,y)}{2}&-\frac{\text{Im }k(x,y)}{2}\\ \frac{\text{Im }k(x,y)}{2}&\frac{\text{Re }k(x,y)}{2}\end{bmatrix}$$Then, we can construct a two-dimensional Gaussian process $(\xi,\eta)$ with correlation matrix $K(x,y)$ and by setting $f:=\xi+i\eta$, we have that: $$\mathbb{E}[f(x)\overline{f(y)}]=k(x,y)$$
 
 ^d1890f
 
@@ -59,14 +59,14 @@
 
 ---
 > [!lemma] Theorem 4 (Bochner)
-> For a function $k:\mathbb{R}^d\to \mathbb{C}$, TFAE:
+> For a function $k:\mathbb{R}^n\to \mathbb{C}$, TFAE:
 > 1. $k$ is continuous at $0$ and there exists a Gaussian process $f \sim \text{GP}(0,K)$ where $K(x,x')=k(x-x')$. 
-> 2. there exists a positive finite Borel measure $\mu$ on $\mathbb{R}^d$ s.t. $$k(x)=\int_{\mathbb{R}^d}e^{i\omega^\top x}  \, d\mu(\omega) $$i.e. $k$ is the Fourier transform of some positive finite measure. 
+> 2. there exists a positive finite Borel measure $\mu$ on $\mathbb{R}^n$ s.t. $$k(x)=\int_{\mathbb{R}^d}e^{i\omega^\top x}  \, d\mu(\omega) $$i.e. $k$ is the Fourier transform of some positive finite measure. 
 
 > [!proof]+
 > We have:
-> 1. (1=>2) Let $K$ be a covariance function s.t. $k(x-x')=K(x,x')$ and let $k$ be continuous at $0$. 
-> 2. (2=>1): Let $x_{1},\dots,x_{n}\in X$ and $c_{1},\dots,c_{n}\in \mathbb{C}$ . Then, $$\begin{align}\sum_{i,j=1}^{n}c_{i}\overline{c_{j}}k(x_{i}-x_{j})&=\int_{\mathbb{R}^d}^{} \sum_{i,j=1}^{n}c_{i}\overline{c_{j}}e^{i\omega^\top (x_{i}-x_{j})} \, d\mu(\omega)\\&=\int_{\mathbb{R}^d}^{} \left| \sum_{i,j=1}^{n}c_{i}e^{i\omega^\top x_{i}} \right|^{2}\, d\mu(\omega)\geq 0\end{align} $$
+> 1. (1=>2) Let $K$ be a covariance function s.t. $k(x-x')=K(x,x')$. Then, for any function $g\in L^1(\mathbb{R}^n)$, we have that: $$\int_{\mathbb{R}^m}^{} \int_{\mathbb{R}^m}^{} k(x-y)g(x)\overline{g(y)} \, dx  \, dy \geq 0 $$Then, by taking $g(x)=\exp \left( -\|x\|^{2} / 2N+i\braket{ x , \omega }\right)$ for $N>0$ and $\omega\in \mathbb{R}^n$, $$\int_{\mathbb{R}^n}\int_{\mathbb{R}^n}k(x-y)\exp \left( -\frac{\|x\|^{2}+\|y\|^{2}}{2N} +i\braket{ x-y ,\omega  } \right)   \, dx   \, dy $$By setting $x-y=:u$ and $x+y=:v$, $$0\leq \int_{\mathbb{R}^n}\int_{\mathbb{R}^n}k(u)\exp \left( -\frac{\|u\|^{2}+\|v\|^{2}}{N}  +i\braket{ u , \omega } \right)  \, du   \, dv =\sqrt{ (\pi N )^n}$$
+> 2. (2=>1): Let $x_{1},\dots,x_{n}\in X$ and $c_{1},\dots,c_{n}\in \mathbb{C}$ . Then, $$\begin{align}\sum_{i,j=1}^{n}c_{i}\overline{c_{j}}k(x_{i}-x_{j})&=\int_{\mathbb{R}^d}^{} \sum_{i,j=1}^{n}c_{i}\overline{c_{j}}e^{i\omega^\top (x_{i}-x_{j})} \, d\mu(\omega)\\&=\int_{\mathbb{R}^d}^{} \left| \sum_{i,j=1}^{n}c_{i}e^{i\omega^\top x_{i}} \right|^{2}\, d\mu(\omega)\geq 0\end{align} $$Therefore, $K(x,x'):=k(x-x')$ is a SPsD kernel and by Proposition 1 it is a covariance function to a Gaussian process.
 
 ---
 ##### Examples
