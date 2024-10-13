@@ -234,7 +234,7 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 ![[Gaussian Process#^6edada|p]]
 ![[Gaussian Process#^d6078a|q]]
 
-- **Remark**: By rescaling all the data with $\mu(\mathbb{R}^n)$, we may assume that wlog $\mu$ is a probability measure, i.e. $\widehat{k}$ is a probability density function.
+- **Remark**: Modulo rescaling all the data with $\mu(\mathbb{R}^n)$, **we may assume that wlog $\mu$ is a probability measure**, i.e. $\widehat{k}$ is a probability density function.
 
 ---
 > [!h] Example (Gaussian Kernel)
@@ -247,8 +247,12 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 2. Further, $$\widehat{k}(\omega)=\int_{\mathbb{R}^n}\exp \left( -\frac{\|x\|^2}{h^{2}} -i \omega^\top x\right)  \, dx= \Phi_{X}(-\omega)$$where $X\sim \mathcal{N}(0,(h^{2} / 2)I)$. Therefore, $$\widehat{k}(\omega)=\exp \left(-\frac{h^{2}}{4} \|\omega\|^{2}\right) $$
 
 ---
-> [!lemma] Proposition 1
-> We have: $$$$
+> [!lemma] Theorem (Random Fourier Features)
+> Let $k$ be a real scaled continuous, integrable covariance function. Then, $$k(x,x')=\mathbb{E}_{\omega \sim \widehat{k}, b \sim \mathcal{U}([0,2\pi])}[z_{\omega,b}(x)z_{\omega,b}(x')] $$where $z_{\omega,b}:X\to \mathbb{R}, x\mapsto  \sqrt{ 2 }\cos(\omega^\top x+b)$.
 
-> [!proof]+
-> Let $p$ be the normalized version of $\widehat{k}$. Then, 
+> [!proof]-
+> Let $\widehat{k}$ be a pdf (cf. Remark from Bochner). Then, $$\begin{align}k(x-x')&=\int_{\mathbb{R}^n}\widehat{k}(\omega)\exp \left( i\omega^\top(x-x') \right)  \, d\omega\\&= \mathbb{E}[\exp \left( i\omega^\top(x-x') \right) ]\\&= \mathbb{E}[\cos \left( \omega^\top(x-x') \right) ]\end{align}$$as $k$ is a real function. Hence, $$\begin{align}k(x-x')&=\mathbb{E}[\cos(\omega^\top x-w^\top x')]\\&=\mathbb{E}[\mathbb{E}_{b \sim \mathcal{U}([0,2\pi])}[\cos((\omega^\top x+b)-(w^\top x'+b))]]\\&=\mathbb{E}[\mathbb{E}_{b \sim \mathcal{U}([0,2\pi])}[\cos(\omega^\top x+b)\cos(\omega^\top x'+b)+\sin(\omega^\top x+b)\sin(\omega^\top x'+b)]]\end{align}$$Now, $$\begin{align}\mathbb{E}_{b \sim \mathcal{U}([0,2\pi])}[\sin(\omega^\top x+b)\sin(\omega^\top x'+b)]&=\frac{1}{2\pi}\int_{0}^{2\pi} \sin(\omega^\top x+b)\sin(\omega^\top x'+b) \, db \\&=\frac{1}{2\pi}\int_{0}^{2\pi} \cos\left( \frac{\pi}{2}-\omega^\top x-b \right)\cos\left(  \frac{\pi}{2}-\omega^\top x'-b \right) \, db\\&=\frac{1}{2\pi}\int_{-\pi /2}^{3\pi / 2} \cos\left( -\omega^\top x-b \right)\cos\left(  -\omega^\top x'-b \right) \, db \\&=\frac{1}{2\pi}\int_{0}^{2\pi} \cos\left( \omega^\top x+b \right)\cos\left(  \omega^\top x'+b \right) \, db \end{align}$$Hence, $k(x-x')=\mathbb{E}[\mathbb{E}_{b \sim \mathcal{U}([0,2\pi])}[2\cdot\cos(\omega^\top x+b)\cos(\omega^\top x'+b)]]$
+---
+> [!outlook] Methods (Random Fourier Features)
+> We can approximate $k(x,x')$ by sampling $\omega_{1},\dots,\omega_{d}\sim \widehat{k}$ iid and $b_{1},\dots,b_{d}\sim \mathcal{U}$
+> 
