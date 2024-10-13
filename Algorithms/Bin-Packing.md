@@ -30,7 +30,7 @@
 >    \end{algorithm}
 >    ```
 > We have that 
-> 1. $\text{FirstFit}$ is a $2$-[[approximation algorithm]].
+> 1. $\text{FirstFit}$ is a $2$-[[Approximation Algorithm]].
 
 ^769d08
 

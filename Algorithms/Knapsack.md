@@ -21,7 +21,7 @@
 > [!lemma] Theorem 2 (Rounding)
 > The rounding algorithm works as follows:
 > 1. Let $k:=\max(\varepsilon \cdot p_{\max} / n,1)$ and round down all profits to multiples of $k$, i.e. $\tilde{p}_{i}:=k \left\lfloor p_{i} / k\right\rfloor$.
-> is a $(1+\varepsilon)$-[[approximation algorithm]] in runtime $O(n^3 / \varepsilon)$.
+> is a $(1+\varepsilon)$-[[Approximation Algorithm]] in runtime $O(n^3 / \varepsilon)$.
 
 ^532344
 

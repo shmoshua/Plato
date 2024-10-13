@@ -273,6 +273,8 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 - **Remark**: In ***subset of regressors*** we approximate the conditional prior as:
 	1. $q_{\text{SoR}}(f(x)|f_{y_{1:k}}) =\mathcal{N}([k(x,y_{i})]_{i}^\top K_{UU}^{-1}f_{y_{1:k}},0)$
 	2. $q_{\text{SoR}}(f_{x_{1: n}}|f_{y_{1:k}}) =\mathcal{N}(K_{A U} K_{UU}^{-1}f_{y_{1: k}},0)$. 
-- **Remark**: In **fully independent training conditional** we approximate the conditional prior as:
+- **Remark**: In **fully independent training conditional** we approximate the conditional prior by assuming they are fully independent, i.e.
 	1. $q_{\text{FITC}}(f(x)|f_{y_{1:k}}) =\mathcal{N}([k(x,y_{i})]_{i}^\top K_{UU}^{-1}f_{y_{1:k}},\text{diag}(k(x,x)-[k(x,y_{i})]_{i}^\top K_{UU}^{-1}[k(x,y_{i})]_{i}))$
-	2. $q_{\text{FITC}}(f_{x_{1: n}}|f_{y_{1:k}}) =\mathcal{N}(K_{A U} K_{UU}^{-1}f_{y_{1: k}},0)$. 
+	2. $q_{\text{FITC}}(f_{x_{1: n}}|f_{y_{1:k}}) =\mathcal{N}(K_{A U} K_{UU}^{-1}f_{y_{1: k}},\text{diag}(K_{A A}-K_{A U} K_{UU}^{-1}K_{U A}))$. 
+- **Remark**: In inducing point methods, now the inversion has runtime $\Theta(k^3)$ where $k$ is the number of inducing points. $U$ can be chosen uniformly or completely randomly. $U$ can even be treated as hyperparameters for Bayesian learning.
+---
