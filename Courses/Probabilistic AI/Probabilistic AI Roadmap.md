@@ -234,11 +234,21 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 ![[Gaussian Process#^6edada|p]]
 ![[Gaussian Process#^d6078a|q]]
 
+- **Remark**: By rescaling all the data with $\mu(\mathbb{R}^n)$, we may assume that wlog $\mu$ is a probability measure, i.e. $\widehat{k}$ is a probability density function.
+
 ---
 > [!h] Example (Gaussian Kernel)
 > For Gaussian/RBF kernel, $$k(x)=\exp \left( -\|x\|^{2} / h^{2} \right) $$Then, 
+> 1. $\widehat{k}(\omega)=\exp \left( -\frac{h^2}{4}\|\omega\|^{2} \right)$ which can be normalized further s.t. $\widehat{k}(\omega)$ is a probability density. 
+
+> [!proof]-
+> We have:
+> 1. $$\int_{\mathbb{R}^n}^{} \left| \exp \left( -\frac{\|x\|^{2}}{h^{2}} \right)  \right|  \, dx=\left( \int_{\mathbb{R}}^{} \exp \left( -\frac{x_{i}^{2}}{h^{2}} \right)   \, dx  \right)^n=(\pi h^{2})^{n / 2}  $$Hence, $k\in L^1(\mathbb{R}^n)$. 
+> 2. Further, $$\widehat{k}(\omega)=\int_{\mathbb{R}^n}\exp \left( -\frac{\|x\|^2}{h^{2}} -i \omega^\top x\right)  \, dx= \Phi_{X}(-\omega)$$where $X\sim \mathcal{N}(0,(h^{2} / 2)I)$. Therefore, $$\widehat{k}(\omega)=\exp \left(-\frac{h^{2}}{4} \|\omega\|^{2}\right) $$
+
+---
+> [!lemma] Proposition 1
+> We have: $$$$
 
 > [!proof]+
-> We have:
-> 1. $$\int_{\mathbb{R}^n}^{} \left| \exp \left( -\frac{\|x\|^{2}}{h^{2}} \right)  \right|  \, dx $$
-
+> Let $p$ be the normalized version of $\widehat{k}$. Then, 

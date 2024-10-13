@@ -76,19 +76,7 @@
             }
           },
           {
-            "id": "d7c04c66eb340d4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Gaussian Process.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c9a1b95e564f2e0c",
+            "id": "e08f97d1f635154f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -100,12 +88,12 @@
             }
           },
           {
-            "id": "e7454d91be48555a",
+            "id": "d7c04c66eb340d4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Analysis/Fourier Transform (Rn).md",
                 "mode": "preview",
                 "source": true
               }
@@ -117,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform of Measures.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               }
@@ -255,19 +243,19 @@
   },
   "active": "8ea9dbaed76c3b77",
   "lastOpenFiles": [
+    "Analysis/Kernel.md",
+    "Analysis/Fourier Transform (Rn).md",
     "Machine Learning/Gaussian Process.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Analysis/Kernel.md",
-    "Functional Analysis/LCA Group.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Characteristic Function.md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Fourier Transform of Measures.md",
-    "Analysis/Fourier Transform (Rn).md",
+    "Functional Analysis/LCA Group.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Analysis/Fourier Coefficient.md",
     "Linear Algebra/Matrix Calculus.md",
     "Analysis/Lp Space.md",
-    "Probability Theory/Characteristic Function.md",
     "Machine Learning/Cross Validation.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Characteristic.md",
