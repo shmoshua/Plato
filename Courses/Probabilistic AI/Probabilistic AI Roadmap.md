@@ -230,3 +230,15 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 - **Remark**: This method is however still expensive if $\left| A '\right|$ is still large.
 ---
 ##### 2.3.5.2 Kernel Approximation
+![[Gaussian Process#^75577d]]
+![[Gaussian Process#^6edada|p]]
+![[Gaussian Process#^d6078a|q]]
+
+---
+> [!h] Example (Gaussian Kernel)
+> For Gaussian/RBF kernel, $$k(x)=\exp \left( -\|x\|^{2} / h^{2} \right) $$Then, 
+
+> [!proof]+
+> We have:
+> 1. $$\int_{\mathbb{R}^n}^{} \left| \exp \left( -\frac{\|x\|^{2}}{h^{2}} \right)  \right|  \, dx $$
+
