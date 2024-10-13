@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "mode": "preview",
                 "source": true
               }
@@ -255,12 +255,12 @@
   },
   "active": "8ea9dbaed76c3b77",
   "lastOpenFiles": [
-    "Probability Theory/Characteristic Function.md",
+    "Machine Learning/Gaussian Process.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Kernel.md",
+    "Probability Theory/Characteristic Function.md",
     "Probability Theory/Gaussian Distribution.md",
     "Analysis/Fourier Transform (Rn).md",
-    "Machine Learning/Gaussian Process.md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Fourier Transform of Measures.md",
     "Functional Analysis/LCA Group.md",

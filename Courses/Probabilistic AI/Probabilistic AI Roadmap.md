@@ -229,7 +229,7 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 
 - **Remark**: This method is however still expensive if $\left| A '\right|$ is still large.
 ---
-##### 2.3.5.2 Kernel Approximation
+##### 2.3.5.2 Random Fourier Features
 ![[Gaussian Process#^75577d]]
 ![[Gaussian Process#^6edada|p]]
 ![[Gaussian Process#^d6078a|q]]
@@ -259,7 +259,20 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 2. Construct $z:\mathbb{R}^n\to \mathbb{R}^d,x\mapsto \frac{1}{\sqrt{ d }}(z_{\omega_{1},b_{1}}(x),\dots,z_{\omega_{d},b_{d}}(x))$.
 > 3. Approximate $k(x,x') \approx z(x)^\top z(x')$
 - **Remark**: From Rahimi et al, for a real scaled continuous integrable covariance kernel $k$ on $\mathbb{R}^n$ and its random fourier features $z:\mathbb{R}^n\to \mathbb{R}^d$ and $\varepsilon>0$, $$\mathbb{P}\left( \text{sup}_{x,x'\in B_{\leq r}(0)} \left| k(x,x')-z(x)^\top z(x') \right|\geq \varepsilon \right)\leq 2^8 \left( \frac{\sigma_{p}\cdot r}{\varepsilon} \right) ^{2} \exp \left( -\frac{d \varepsilon^{2}}{8(n+2)} \right)  $$where $\sigma_{p}:=\mathbb{E}_{\omega}[\omega^\top\omega]$ is the second moment. 
-- **Remark**: RFF has the drawback that 
+- **Remark**: RFF gives uniform convergence between $z(x)^\top z(x)$ and $k(x,x')$.
 ---
+##### 2.3.5.3 Inducing Points - Data Sampling
 
+> [!outlook] Method (Inducing Points)
+> Let $f\sim \text{GP}(0,k)$ and let $U:=\{ y_{1},\dots,y_{k} \}\subseteq X$ be the set of ***inducing points***. Then, for a set $A:=\{ x_{1},\dots,x_{n} \}$,  
+> 1. with the assumption that $f(x)$ and $f_{A}$ are conditionally independent on $f_{U}$,
 > 
+> $$\begin{align}p(f(x),f(x_{1}),\dots,f(x_{n}))&=\int_{\mathbb{R}^k} p(f(x)|f_{y_{1:k}}) p(f_{x_{1: n}}|f_{y_{1: k}})p(f_{y_{1: k}})\, df_{y_{1: k}}\end{align} $$where:
+> 1. $p(f(x)|f_{y_{1:k}}) =\mathcal{N}([k(x,y_{i})]_{i}^\top K_{UU}^{-1}f_{y_{1:k}}, k(x,x)-[k(x,y_{i})]_{i}^\top K_{UU}^{-1}[k(x,y_{i})]_{i})$
+> 2. $p(f_{x_{1: n}}|f_{y_{1:k}}) =\mathcal{N}(K_{A U} K_{UU}^{-1}f_{y_{1: k}},K_{A A}-K_{A U} K_{UU}^{-1}K_{U A})$. 
+- **Remark**: In ***subset of regressors*** we approximate the conditional prior as:
+	1. $q_{\text{SoR}}(f(x)|f_{y_{1:k}}) =\mathcal{N}([k(x,y_{i})]_{i}^\top K_{UU}^{-1}f_{y_{1:k}},0)$
+	2. $q_{\text{SoR}}(f_{x_{1: n}}|f_{y_{1:k}}) =\mathcal{N}(K_{A U} K_{UU}^{-1}f_{y_{1: k}},0)$. 
+- **Remark**: In **fully independent training conditional** we approximate the conditional prior as:
+	1. $q_{\text{FITC}}(f(x)|f_{y_{1:k}}) =\mathcal{N}([k(x,y_{i})]_{i}^\top K_{UU}^{-1}f_{y_{1:k}},\text{diag}(k(x,x)-[k(x,y_{i})]_{i}^\top K_{UU}^{-1}[k(x,y_{i})]_{i}))$
+	2. $q_{\text{FITC}}(f_{x_{1: n}}|f_{y_{1:k}}) =\mathcal{N}(K_{A U} K_{UU}^{-1}f_{y_{1: k}},0)$. 
