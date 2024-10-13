@@ -267,12 +267,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c4c343740bea5f47",
+  "active": "d7c04c66eb340d4a",
   "lastOpenFiles": [
     "Analysis/Kernel.md",
     "Machine Learning/Gaussian Process.md",
-    "Functional Analysis/LCA Group.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
+    "Functional Analysis/LCA Group.md",
     "Functional Analysis/Fourier Transform.md",
     "Analysis/Fourier Transform (Rn).md",
     "Analysis/Fourier Coefficient.md",

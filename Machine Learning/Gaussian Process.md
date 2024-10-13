@@ -60,9 +60,13 @@
 ---
 > [!lemma] Theorem 4 (Bochner)
 > For a function $k:\mathbb{R}^d\to \mathbb{C}$, TFAE:
-> 1. there exists a Gaussian process $f \sim \text{GP}(0,K)$ where $K(x,x')=k(x-x')$. 
-> 2. there exists a positive finite measure $\mu$ on $\mathbb{R}^d$ s.t. $$k(x)=\int_{\mathbb{R}^d}e^{i\omega^\top x}  \, d\mu(\omega) $$i.e. $k$ is the Fourier transform of some positive finite measure. 
+> 1. $k$ is continuous at $0$ and there exists a Gaussian process $f \sim \text{GP}(0,K)$ where $K(x,x')=k(x-x')$. 
+> 2. there exists a positive finite Borel measure $\mu$ on $\mathbb{R}^d$ s.t. $$k(x)=\int_{\mathbb{R}^d}e^{i\omega^\top x}  \, d\mu(\omega) $$i.e. $k$ is the Fourier transform of some positive finite measure. 
 
+> [!proof]+
+> We have:
+> 1. (1=>2) Let $K$ be a covariance function s.t. $k(x-x')=K(x,x')$ and let $k$ be continuous at $0$. 
+> 2. (2=>1): Let $x_{1},\dots,x_{n}\in X$ and $c_{1},\dots,c_{n}\in \mathbb{C}$ . Then, $$\begin{align}\sum_{i,j=1}^{n}c_{i}\overline{c_{j}}k(x_{i}-x_{j})&=\int_{\mathbb{R}^d}^{} \sum_{i,j=1}^{n}c_{i}\overline{c_{j}}e^{i\omega^\top (x_{i}-x_{j})} \, d\mu(\omega)\\&=\int_{\mathbb{R}^d}^{} \left| \sum_{i,j=1}^{n}c_{i}e^{i\omega^\top x_{i}} \right|^{2}\, d\mu(\omega)\geq 0\end{align} $$
 
 ---
 ##### Examples
