@@ -9,18 +9,6 @@
         "dimension": 48.249708284714124,
         "children": [
           {
-            "id": "8d842f20846861d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Maximum Subarray Sum.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "c4c343740bea5f47",
             "type": "leaf",
             "state": {
@@ -51,18 +39,6 @@
         "type": "tabs",
         "dimension": 51.750291715285876,
         "children": [
-          {
-            "id": "8ea9dbaed76c3b77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Maximum Subarray Sum.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
           {
             "id": "e08f97d1f635154f",
             "type": "leaf",
@@ -177,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Maximum Subarray Sum.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Maximum Subarray Sum.md",
+                "file": "Machine Learning/Gaussian Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Maximum Subarray Sum.md"
+                "file": "Machine Learning/Gaussian Process.md"
               }
             }
           }
@@ -241,10 +217,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8ea9dbaed76c3b77",
+  "active": "c4c343740bea5f47",
   "lastOpenFiles": [
-    "Algorithms/Star Search.md",
     "Algorithms/Maximum Subarray Sum.md",
+    "Algorithms/Star Search.md",
     "Linear Algebra/Matrix Calculus.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Machine Learning/Gaussian Process.md",
