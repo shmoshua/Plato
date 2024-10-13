@@ -254,5 +254,12 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > Let $\widehat{k}$ be a pdf (cf. Remark from Bochner). Then, $$\begin{align}k(x-x')&=\int_{\mathbb{R}^n}\widehat{k}(\omega)\exp \left( i\omega^\top(x-x') \right)  \, d\omega\\&= \mathbb{E}[\exp \left( i\omega^\top(x-x') \right) ]\\&= \mathbb{E}[\cos \left( \omega^\top(x-x') \right) ]\end{align}$$as $k$ is a real function. Hence, $$\begin{align}k(x-x')&=\mathbb{E}[\cos(\omega^\top x-w^\top x')]\\&=\mathbb{E}[\mathbb{E}_{b \sim \mathcal{U}([0,2\pi])}[\cos((\omega^\top x+b)-(w^\top x'+b))]]\\&=\mathbb{E}[\mathbb{E}_{b \sim \mathcal{U}([0,2\pi])}[\cos(\omega^\top x+b)\cos(\omega^\top x'+b)+\sin(\omega^\top x+b)\sin(\omega^\top x'+b)]]\end{align}$$Now, $$\begin{align}\mathbb{E}_{b \sim \mathcal{U}([0,2\pi])}[\sin(\omega^\top x+b)\sin(\omega^\top x'+b)]&=\frac{1}{2\pi}\int_{0}^{2\pi} \sin(\omega^\top x+b)\sin(\omega^\top x'+b) \, db \\&=\frac{1}{2\pi}\int_{0}^{2\pi} \cos\left( \frac{\pi}{2}-\omega^\top x-b \right)\cos\left(  \frac{\pi}{2}-\omega^\top x'-b \right) \, db\\&=\frac{1}{2\pi}\int_{-\pi /2}^{3\pi / 2} \cos\left( -\omega^\top x-b \right)\cos\left(  -\omega^\top x'-b \right) \, db \\&=\frac{1}{2\pi}\int_{0}^{2\pi} \cos\left( \omega^\top x+b \right)\cos\left(  \omega^\top x'+b \right) \, db \end{align}$$Hence, $k(x-x')=\mathbb{E}[\mathbb{E}_{b \sim \mathcal{U}([0,2\pi])}[2\cdot\cos(\omega^\top x+b)\cos(\omega^\top x'+b)]]$
 ---
 > [!outlook] Methods (Random Fourier Features)
-> We can approximate $k(x,x')$ by sampling $\omega_{1},\dots,\omega_{d}\sim \widehat{k}$ iid and $b_{1},\dots,b_{d}\sim \mathcal{U}$
+> We can approximate $k(x,x')$ as follows:
+> 1. Sample $\omega_{1},\dots,\omega_{d}\sim \widehat{k}$ iid and $b_{1},\dots,b_{d}\sim \mathcal{U}([0,2\pi])$ iid.
+> 2. Construct $z:\mathbb{R}^n\to \mathbb{R}^d,x\mapsto \frac{1}{\sqrt{ d }}(z_{\omega_{1},b_{1}}(x),\dots,z_{\omega_{d},b_{d}}(x))$.
+> 3. Approximate $k(x,x') \approx z(x)^\top z(x')$
+- **Remark**: From Rahimi et al, for a real scaled continuous integrable covariance kernel $k$ on $\mathbb{R}^n$ and its random fourier features $z:\mathbb{R}^n\to \mathbb{R}^d$ and $\varepsilon>0$, $$\mathbb{P}\left( \text{sup}_{x,x'\in B_{\leq r}(0)} \left| k(x,x')-z(x)^\top z(x') \right|\geq \varepsilon \right)\leq 2^8 \left( \frac{\sigma_{p}\cdot r}{\varepsilon} \right) ^{2} \exp \left( -\frac{d \varepsilon^{2}}{8(n+2)} \right)  $$where $\sigma_{p}:=\mathbb{E}_{\omega}[\omega^\top\omega]$ is the second moment. 
+- **Remark**: RFF has the drawback that 
+---
+
 > 
