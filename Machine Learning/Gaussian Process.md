@@ -60,8 +60,9 @@
 ---
 > [!lemma] Theorem 4 (Bochner)
 > For a function $k:\mathbb{R}^d\to \mathbb{C}$, TFAE:
-> 1. there exists a Gaussian process $f \sim \text{GP}(\mu,K)$ where $K(x,x')=k(x-x')$. 
-> Let $k$ be a [[Kernel|stationary SPsD kernel]] on $\mathbb{R}^n$. Then, let $k:\mathbb{R}^n\to \mathbb{R}$ given as $k(x-x')=k(x,x')$. One sees that: $$\int_{\mathbb{R}^n}^{} \left| k(x)  \right| \, dx= $$
+> 1. there exists a Gaussian process $f \sim \text{GP}(0,K)$ where $K(x,x')=k(x-x')$. 
+> 2. there exists a positive finite measure $\mu$ on $\mathbb{R}^d$ s.t. $$k(x)=\int_{\mathbb{R}^d}e^{i\omega^\top x}  \, d\mu(\omega) $$i.e. $k$ is the Fourier transform of some positive finite measure. 
+
 
 ---
 ##### Examples
