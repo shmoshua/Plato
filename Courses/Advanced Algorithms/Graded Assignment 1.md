@@ -12,12 +12,18 @@ Then, $$\begin{align}\text{min}\quad &p\\\text{subject to}\quad&\sum_{e\in E}^{}
 Consider the relaxed LP version of the problem, i.e. $q_{e,i},z_{e}\in[0,1]$ for all $e\in E$, $i\in [\ell]$ and $k\in \mathbb{R}$. 
 
 ##### Approach 1. 
-Take $e\in F$ with probability $z_{e}$. Then, let $X_{i}:=\left| {V_{i}\choose 2}\cap F \right|$. We also define $n_{i}:= \left| {V_{i}\choose 2}\cap E \right|$. Then, We have that $$\mathbb{E}[X_{i}]=\sum_{e\in {V_{i} \choose 2}\cap E}^{}\mathbb{P}(e\in F)=\sum_{e\in {V_{i} \choose 2}\cap E}^{}z_{e}=\sum_{e\in {V_{i} \choose 2}\cap E}^{}q_{e,i}$$
+Take $e\in F$ with probability $z_{e}$. Then, let $X_{i}:=\left| {V_{i}\choose 2}\cap F \right|$. We also define $n_{i}:= \left| {V_{i}\choose 2}\cap E \right|$. Then, We have that 
+1. $\sum_{e\in E}^{}z_{e}=p$.
+2. 
 
- $$\mathbb{P}(X_{i}\leq s-1)=\mathbb{P}(n_{i}-X_{i}\geq n_{i}-s-1 )\leq\frac{n_{i}-\mathbb{E}[X_{i}]}{n_{i}-s-1}$$
+
+$$\mathbb{E}[X_{i}]=\sum_{e\in {V_{i} \choose 2}\cap E}^{}\mathbb{P}(e\in F)=\sum_{e\in {V_{i} \choose 2}\cap E}^{}z_{e}=\sum_{e\in {V_{i} \choose 2}\cap E}^{}q_{e,i}=\sum_{e\in  E}^{}q_{e,i}\geq s$$
+
+ $$\mathbb{P}(X_{i}\leq s-1)=\mathbb{P}(n_{i}-X_{i}\geq n_{i}-s-1 )\leq\frac{n_{i}-\mathbb{E}[X_{i}]}{n_{i}-s-1}\leq \frac{n_{i}-s}{n_{i}-s-1}$$
  
  Therefore, $$\mathbb{P}(\exists i\in [\ell]:X_{i}<s)\leq \sum_{i=1}^{\ell}\frac{n_{i}-\mathbb{E}[X_{i}]}{n_{i}-s-1}$$
 
 Therefore, $$\mathbb{P}(\exists i\in [\ell]:X_{i}<s)\leq \sum_{i=1}^{\ell}\frac{m-\mathbb{E}[X_{i}]}{m-s-1}=\frac{m-\sum_{i=1}^{\ell}\sum_{e\in{V_{i} \choose 2}\cap E }^{}q_{e,i}}{m-s-1}$$
 
 $$\mathbb{E}[\left| F \right|]=k^{*}\cdot \mathbb{P}(\forall i\in [\ell]:X_{i}\geq s)+$$
+$$\left| G \right| =\left| F \right|+\sum_{i=1}^{\ell}\max \{ s-X_{i},0 \} $$Hence, $$\begin{align}\mathbb{E}[\left| G \right| ]&\leq \mathbb{E}[\left| F \right| ]+\sum_{i=1}^{\ell}\mathbb{E}[\text{max}\{ s-X_{i},0 \}]\\&=\mathbb{E}[\left| F \right| ]+\sum_{i=1}^{\ell}\sum_{d=1}^{s}d \cdot \mathbb{P}(X_{i}=s-d)\\&\leq p^{*}+s\sum_{i=1}^{\ell}\mathbb{P}(X_{i}< s)\\&\leq p^{*}+s\sum_{i=1}^{\ell}\frac{m-\mathbb{E}[X_{i}]}{m-s-1}\\&\leq p^{*}+s\frac{\ell m-\sum_{i=1}^{\ell}\mathbb{E}[X_{i}]}{m-s-1}\end{align}$$
