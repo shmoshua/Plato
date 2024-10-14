@@ -36,8 +36,12 @@
             "id": "e6b2bf6efe3987bc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Bin-Packing.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ],
@@ -226,8 +230,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d7c04c66eb340d4a",
+  "active": "94cf23805d50d125",
   "lastOpenFiles": [
+    "Algorithms/Bin-Packing.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Probability Theory/Expected Value.md",
@@ -237,7 +242,6 @@
     "Linear Algebra/Matrix Calculus.md",
     "Algorithms/Paging.md",
     "Functional Analysis/LCA Group.md",
-    "Algorithms/Bin-Packing.md",
     "Algorithms/Competitive Online Algorithm.md",
     "Algorithms/Approximation Algorithm.md",
     "Machine Learning/Gaussian Process.md",

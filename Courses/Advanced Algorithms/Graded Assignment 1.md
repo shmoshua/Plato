@@ -15,9 +15,20 @@ Consider the relaxed LP version of the problem, i.e. $q_{e,i},z_{e}\in[0,1]$ for
 
 ---
 ##### Approach 2 
-Let $F:=\left\{  e\in E: z_{e}\geq b  \right\}$. Let $w:={k \choose 2}$. Then, 
-1. For each $i\in [\ell]$, $\sum_{e\in {V_{i} \choose_{2}}\cap E}^{}z_{e}\geq s$. Assume that there are only $p<s$ elements with  Then, $$\sum_{e\in {V_{i} \choose 2}\cap E}^{}z_{e}\leq s-1+(k-s)$$
+Let $w:={k \choose 2}$ and $F:=\left\{  e\in E: z_{e}\geq \frac{1}{w-s+1}  \right\}$. Then, 
+1. **Claim 1: $F$ is feasible.**
+   Let $i\in[\ell]$  and assume that $\left| {V_{i} \choose 2}\cap F \right|=:p\leq s-1$.   Then, $$\sum_{e\in {V_{i} \choose 2}\cap E}^{}z_{e}<(s-1)\cdot 1+1=s$$which is a contradiction.
+
+We have that: $$\mathbb{E}[\left| F \right| ]=\sum_{e\in F}^{}1\leq(w-s+1)\sum_{e\in F}^{}z_{e}=(w+1)p^{*}\leq$$
    
+
+```pseudo
+\begin{algorithm} \caption{FirstFit($\mathcal{S},s$)} 
+\begin{algorithmic}
+\State $\mathcal{B}\to \empty$
+\end{algorithmic}
+\end{algorithm}
+```
 
 
 ---
