@@ -128,6 +128,9 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 
 ---
 #### 2.1 Online Algorithms
+![[Competitive Online Algorithm#^9352d2]]
+
+---
 ##### 2.1.1 Ski Rental Problem
 > [!outlook] Ski Rental Problem
 > For $k\in \mathbb{Z}_{> 1}$, let $1$ be the cost for renting a ski one day and $k$ for buying.a ski. When we don't know how many days we are going to ski, what is our strategy?
@@ -137,3 +140,18 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 > 	2. if $D> k$, then the cost is $2k$ whereas the optimal cost in hindsight is $k$.
 > 
 > Therefore, we have a $2$-competitive online algorithm.
+---
+##### 2.1.2 Paging Problem
+![[Paging#^8651de]]
+![[Paging#^8c42a1|q]]
+---
+![[Paging#^7371ed]]
+![[Paging#^0e131a|p]]
+---
+![[Paging#^4e0de5]]
+![[Paging#^547661|p]]
+---
+![[Paging#^0ffb3f]]
+![[Paging#^7391c2|p]]
+
+---
