@@ -118,3 +118,22 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 
 ---
 ##### 1.4.3 Minimum Congestion Multi-Commodity Routing Problem
+![[Multi-Commodity Routing#^986c64]]
+
+---
+![[Multi-Commodity Routing#^f82556]]
+![[Multi-Commodity Routing#^d49992|p]]
+---
+![[Multi-Commodity Routing#^1afa3b]]
+
+---
+#### 2.1 Online Algorithms
+##### 2.1.1 Ski Rental Problem
+> [!outlook] Ski Rental Problem
+> For $k\in \mathbb{Z}_{> 1}$, let $1$ be the cost for renting a ski one day and $k$ for buying.a ski. When we don't know how many days we are going to ski, what is our strategy?
+> 1. Consider renting for $k$ days and buying the ski after. 
+> 2. Let $D$ be the number of days (which is unknown). We have that: 
+> 	1. if $D\leq k$, then the cost is $D$ whereas the optimal cost in hindsight is $D$.
+> 	2. if $D> k$, then the cost is $2k$ whereas the optimal cost in hindsight is $k$.
+> 
+> Therefore, we have a $2$-competitive online algorithm.
