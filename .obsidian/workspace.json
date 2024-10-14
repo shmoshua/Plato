@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Paging.md",
+                "file": "Algorithms/Randomized Online Algorithm.md",
                 "mode": "source",
                 "source": true
               }
@@ -54,7 +54,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Paging.md",
+                "file": "Algorithms/Randomized Online Algorithm.md",
                 "mode": "preview",
                 "source": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Paging.md",
+                "file": "Algorithms/Randomized Online Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Paging.md",
+                "file": "Algorithms/Randomized Online Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Paging.md"
+                "file": "Algorithms/Randomized Online Algorithm.md"
               }
             }
           }
@@ -204,9 +204,10 @@
   },
   "active": "d7c04c66eb340d4a",
   "lastOpenFiles": [
+    "Algorithms/Paging.md",
+    "Algorithms/Randomized Online Algorithm.md",
     "Measure Theory/Product Measure.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Algorithms/Paging.md",
     "Functional Analysis/LCA Group.md",
     "Algorithms/Bin-Packing.md",
     "Algorithms/Competitive Online Algorithm.md",
@@ -229,7 +230,6 @@
     "Machine Learning/Cross Validation.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Algebra/Characteristic.md",
-    "Machine Learning/Maximum Likelihood Estimation.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",

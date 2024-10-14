@@ -79,4 +79,9 @@
 ---
 > [!lemma] Theorem 4
 > Every randomized algorithm $\mathcal{A}$ for paging is $\Omega(\log k)$-competitive against an oblivious adversary.
+
+> [!proof]+
+> Let $m\in \mathbb{N}$ and $q \sim \text{U}(\{ 0,1\dots,k+1 \}^m)$ be a uniform distribution. Then, the probability of having a cache miss is $\frac{1}{k+1}$ for any algorithm $a$. Hence, $\mathbb{E}_{q}[c_{a}(\sigma)]=\frac{m}{k+1}$. 
+> 
+> On the other hand, consider the greedy offline algorithm that choose to evict the page that is requested furthest in the future. As before, we denote a phase as a maximal run where there are $k$ distinct page requests. This means that: $$c_{\text{OPT}}(\sigma)\leq \text{\#phases}=\frac{m}{\text{averange phase length}}$$Hence, the competitive ratio $\alpha_{a}(\sigma)\geq \frac{c_{a}(\sigma)}{m}\cdot\text{averange phase length}$. 
 ---
