@@ -71,6 +71,30 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "6dc2021d4a3955ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c26e07a8d9e1b504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Expected Value.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -204,8 +228,10 @@
   },
   "active": "d7c04c66eb340d4a",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Probability Theory/Expected Value.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Measure Theory/Product Measure.md",
     "Algorithms/Randomized Online Algorithm.md",
     "Linear Algebra/Matrix Calculus.md",
@@ -228,8 +254,6 @@
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Analysis/Fourier Coefficient.md",
     "Analysis/Lp Space.md",
-    "Machine Learning/Cross Validation.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
