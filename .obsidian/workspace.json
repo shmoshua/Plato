@@ -55,7 +55,7 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -202,7 +202,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "94cf23805d50d125",
+  "active": "d7c04c66eb340d4a",
   "lastOpenFiles": [
     "Algorithms/Randomized Online Algorithm.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
