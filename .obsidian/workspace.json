@@ -66,7 +66,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Product Measure.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -204,12 +204,12 @@
   },
   "active": "d7c04c66eb340d4a",
   "lastOpenFiles": [
-    "Algorithms/Randomized Online Algorithm.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
+    "Measure Theory/Product Measure.md",
+    "Algorithms/Randomized Online Algorithm.md",
     "Linear Algebra/Matrix Calculus.md",
     "Algorithms/Paging.md",
-    "Measure Theory/Product Measure.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Functional Analysis/LCA Group.md",
     "Algorithms/Bin-Packing.md",
     "Algorithms/Competitive Online Algorithm.md",
