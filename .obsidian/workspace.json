@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Randomized Online Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
                 "mode": "source",
                 "source": true
               }
@@ -54,8 +54,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/Matrix Calculus.md",
-                "mode": "preview",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra/Matrix Calculus.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra/Matrix Calculus.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra/Matrix Calculus.md"
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md"
               }
             }
           }
@@ -202,9 +202,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d7c04c66eb340d4a",
+  "active": "94cf23805d50d125",
   "lastOpenFiles": [
     "Algorithms/Randomized Online Algorithm.md",
+    "Courses/Advanced Algorithms/Graded Assignment 1.md",
+    "Linear Algebra/Matrix Calculus.md",
     "Algorithms/Paging.md",
     "Measure Theory/Product Measure.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
@@ -217,7 +219,6 @@
     "Analysis/Fourier Transform (Rn).md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Characteristic Function.md",
-    "Linear Algebra/Matrix Calculus.md",
     "Algorithms/Maximum Subarray Sum.md",
     "Algorithms/Star Search.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
@@ -229,7 +230,6 @@
     "Analysis/Lp Space.md",
     "Machine Learning/Cross Validation.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Algebra/Characteristic.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
