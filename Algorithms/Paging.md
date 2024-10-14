@@ -34,13 +34,28 @@
 >    \begin{algorithm} \caption{RMA($u_{1},\dots,u_{m}$)} 
 >    \begin{algorithmic}
 >    \State $S_{0}\gets \varnothing$
+>    \State $v\gets 0$
 >    \For{$i\in[m]$}
 >    \If{$u_{i}\notin  S_{i-1}$}
->    \If{}
+>    \If{$v(u_{j})=1$ for all $u_{j}\in S_{i-1}$}
+>    \State $v(u_{j})\gets 0$ for all $u_{j}\in S_{i-1}$
 \EndIf
+>    \State $u\gets$ choose an unmarked item from $S_{i-1}$ uniformly at random.
+>    \State $S_{i}\gets S_{i-1} \backslash \{ u \}\cup \{  u_{i}\}$
 \EndIf
+> 	\State $v(u_{i})\gets 1$
 >    \EndFor
+>    \Return $S_{1},\dots,S_{m}$
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
-> 
+>    
+>    The $\text{RMA}$ algorithm is $\text{O}(\log k)$-competitive in expectation. 
+
+> [!proof]+
+> Assume that $i\in [m]$ s.t. $v=0$ before iteration $i$. Let: $$j:=\min\{  j>i: \|v_{j}\| =k \}$$where $v_{j}$ denotes $v$ at iteration $j$. Then, let $P:=\{ u_{i},\dots,u_{j} \}$. We define:
+> 1. $m:=\left| \{ u_\ell\in P:u_{\ell}\notin S_{i} \} \right|$ the number of unique new requests
+> 2. $o:=\left| \{ u_\ell\in P:u_{\ell}\in S_{i} \} \right|$ the number of unique old requests
+>  
+>  Then, by construction $m+o=k$. We order the old requests as $x_{1},\dots,x_{o}$ by their first occurrence in $P$. Further, let $\ell_{j}$ be the number of distinct new requests before $x_{j}$. At the first time $x_{j}$ is requested, there are $\ell_{j}+j-1$ marked pages in the cache. The other $k-\ell_{j}-(j-1)$ pages in the cache are a subset of the $k-(j-1)$ pages in $P$ that have not been queried yet in this phase. Since the adversary is oblivious, all these pages have the same probability still to be in the cache. Since $x_{j}$ is one of them, the probability that $x_{j}$ is still in the cache is $\frac{k-\ell_{j}-(j-1)}{k-(j-1)}$. Then, $$\begin{align}\mathbb{E}[\text{cost}_{\text{RMA}}(o)]&=\sum_{\ell=1}^{o}\mathbb{P}(x_{j}\text{ is not in cache when requested})\\&=\sum_{\ell=1}^{o}\frac{\ell_{j}}{k-(j-1)}\\&\leq \sum_{\ell=1}^{o} \frac{m}{k-(j-1)}\\&\leq\sum_{\ell=1}^{k} \frac{m}{k-(j-1)}\\&=m\sum_{\ell=1}^{k} \frac{1}{\ell}\\&=m\cdot H_{k}\end{align}$$
+>  Hence, $\mathbb{E}[\text{cost}_{\text{RMA}}(u_{i},\dots,u_{j})]=m+m\cdot H_{k}$. However, for the optimal algorithm, 
