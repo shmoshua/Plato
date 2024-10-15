@@ -71,7 +71,7 @@ Now, color the vertex red with probability $r_{v}$. Then, for $e=\{ v,w \}\in E_
 $$\mathbb{E}[X_{e}]=r_{v}\cdot r_{w}$$
 $$\begin{align}\mathbb{E}[X]&=\sum_{e\in E_{R}}^{}r_{v}r_{w}+\sum_{e\in E_{B}}^{}(1-r_{v})(1-r_{w})+\sum_{e\in E_{V}}r_{v}(1-r_{w})+r_{w}(1-r_{v})\\&\geq\end{align}$$
 
-For $$\begin{align}\mathbb{E}[X_{v}]&=r_{v}\sum_{w\in N_{R}(v)}^{}r_{w}+(1-r_{v})\sum_{w\in N_{B}(v)}^{}b_{w}+r_{v}\sum_{w\in N_{V}(v)}^{}b_{w}+(1-r_{v})\sum_{w\in N_{V}(v)}^{}r_{w}\\&\geq r_{v}\sum_{e\in E_{R,V}\cap N(v)}^{}x_{e}+(1-r_{v})\sum_{e\in E_{B,V}\cap N(v)}^{}x_{e}\\&=r_{v}\sum_{e\in E_{R}\cap N(v)}^{}x_{e}-r_{v}\sum_{e\in E_{B}\cap N(v)}^{}x_{e}+\sum_{e\in E_{B}\cap N(v)}^{}x_{e}+\sum_{e\in E_{V}\cap N(v)}^{}x_{e}\\&=r_{v}\sum_{e\in E_{R}\cap N(v)}^{}x_{e}+(1-r_{v})\sum_{e\in E_{B}\cap N(v)}^{}x_e+\sum_{e\in E_{V}\cap N(v)}^{}x_{e}\end{align}$$
+For $$\begin{align}\mathbb{E}[X_{v}]&=r_{v}\sum_{w\in N_{R}(v)}^{}r_{w}+(1-r_{v})\sum_{w\in N_{B}(v)}^{}b_{w}+r_{v}\sum_{w\in N_{V}(v)}^{}b_{w}+(1-r_{v})\sum_{w\in N_{V}(v)}^{}r_{w}\\&\geq r_{v}\sum_{e\in E_{R,V}\cap N(v)}^{}x_{e}+(1-r_{v})\sum_{e\in E_{B,V}\cap N(v)}^{}x_{e}\\&=r_{v}\sum_{e\in E_{R}\cap N(v)}^{}x_{e}-r_{v}\sum_{e\in E_{B}\cap N(v)}^{}x_{e}+\sum_{e\in E_{B}\cap N(v)}^{}x_{e}+\sum_{e\in E_{V}\cap N(v)}^{}x_{e}\\&=r_{v}\sum_{e\in E_{R}\cap N(v)}^{}x_{e}+(1-r_{v})\sum_{e\in E_{B}\cap N(v)}^{}x_e+\sum_{e\in E_{V}\cap N(v)}^{}x_{e}\end{align}$$Then, $$$$
 
 
 ---
