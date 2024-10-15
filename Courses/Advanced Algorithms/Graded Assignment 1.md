@@ -52,3 +52,5 @@ We have:
 1. If $$\begin{align}\mathbb{E}[X_{v,R}]&= \frac{r_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{R}}^{}\frac{r_{w}}{r_{w}+b_{w}}\geq \frac{r_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{R}}^{} \frac{1}{\max\{ b_{w},1 \}}\\&\geq \frac{r_{v}^{2}}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}\end{align}$$ $$\begin{align}\mathbb{E}[X]&\geq\frac{r_{v}^{2}}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}+\frac{b_{v}^{2}}{r_{v}+b_{v}} \frac{1}{r_{N(v)}}+\frac{r_{v}(d(v)-r_{v}-b_{v})}{r_{v}+b_{v}} \frac{1}{r_{N(v)}}+\frac{b_{v}(d(v)-r_{v}-b_{v})}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}\\&=\frac{1}{r_{v}+b_{v}}\left( \frac{1}{b_{N(v)}}(r^2_{v}+b_{v}d(v)-r_{v}b_{v}-b_{v}^{2})+\frac{1}{r_{N(v)}}(b^2_{v}+r_{v}d(v)-r_{v}b_{v}-r_{v}^{2}) \right) \end{align}$$
 
 ---
+#### 4. Rental Problem
+Let $\mathcal{A}$ be a deterministic algorithm. Let the adversary pick a sequence s.t. 
