@@ -65,7 +65,14 @@ We have:
 1. If $$\begin{align}\mathbb{E}[X_{v,R}]&= \frac{r_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{R}}^{}\frac{r_{w}}{r_{w}+b_{w}}\geq \frac{r_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{R}}^{} \frac{1}{\max\{ b_{w},1 \}}\\&\geq \frac{r_{v}^{2}}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}\end{align}$$ $$\begin{align}\mathbb{E}[X]&\geq\frac{r_{v}^{2}}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}+\frac{b_{v}^{2}}{r_{v}+b_{v}} \frac{1}{r_{N(v)}}+\frac{r_{v}(d(v)-r_{v}-b_{v})}{r_{v}+b_{v}} \frac{1}{r_{N(v)}}+\frac{b_{v}(d(v)-r_{v}-b_{v})}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}\\&=\frac{1}{r_{v}+b_{v}}\left( \frac{1}{b_{N(v)}}(r^2_{v}+b_{v}d(v)-r_{v}b_{v}-b_{v}^{2})+\frac{1}{r_{N(v)}}(b^2_{v}+r_{v}d(v)-r_{v}b_{v}-r_{v}^{2}) \right) \end{align}$$
 ---
 ##### Approch 2 (LP)
-Consider the following ILP: $$\begin{align}\text{max}\quad&\sum_{e\in E}^{}x_{e}\\\text{subject to}\quad&r_{v}+b_{v}=1&&\forall v\in V\\&x_{e}\leq r_{v}&& \forall \{ v,w \}\in E_{R}\\&x_{e}\leq r_{w}&& \forall \{ v,w \}\in E_{R}\\&x_{e}\leq b_{v}&& \forall \{ v,w \}\in E_{B}\\&x_{e}\leq b_{w}&& \forall \{ v,w \}\in E_{B}\\&x_{e}\leq b_{v}&& \forall \{ v,w \}\in E_{B}\\&x_{e}\leq b_{w}&& \forall \{ v,w \}\in E_{B}\end{align}$$
+Consider the following ILP: $$\begin{align}\text{max}\quad&\sum_{e\in E}^{}x_{e}\\\text{subject to}\quad&r_{v}+b_{v}=1&&\forall v\in V\\&x_{e}\leq r_{v},x_{e}\leq r_{w}&& \forall \{ v,w \}\in E_{R}\\&x_{e}\leq b_{v},x_{e}\leq b_{w}&& \forall \{ v,w \}\in E_{B}\\&y_{e}\leq r_{v},y_{e}\leq b_{w}&& \forall \{ v,w \}\in E_{V}\\&z_{e}\leq b_{v},z_{e}\leq r_{w}&& \forall \{ v,w \}\in E_{V}\\&x_{e}\leq y_{e}+z_{e}&&\forall \{ v,w \}\in E_{V}\end{align}$$
+
+Now, color the vertex red with probability $r_{v}$. Then, for $e=\{ v,w \}\in E_{R}$
+$$\mathbb{E}[X_{e}]=r_{v}\cdot r_{w}$$
+$$\begin{align}\mathbb{E}[X]&=\sum_{e\in E_{R}}^{}r_{v}r_{w}+\sum_{e\in E_{B}}^{}(1-r_{v})(1-r_{w})+\sum_{e\in E_{V}}r_{v}(1-r_{w})+r_{w}(1-r_{v})\\&\geq\end{align}$$
+
+For $$\begin{align}\mathbb{E}[X_{v}]&=r_{v}\sum_{w\in N_{R}(v)}^{}r_{w}+(1-r_{v})\sum_{w\in N_{B}(v)}^{}b_{w}+r_{v}\sum_{w\in N_{V}(v)}^{}b_{w}+(1-r_{v})\sum_{w\in N_{V}(v)}^{}r_{w}\\&\geq r_{v}\sum_{e\in E_{R,V}\cap N(v)}^{}x_{e}+(1-r_{v})\sum_{e\in E_{B,V}\cap N(v)}^{}x_{e}\\&=r_{v}\sum_{e\in E_{R}\cap N(v)}^{}x_{e}-r_{v}\sum_{e\in E_{B}\cap N(v)}^{}x_{e}+\sum_{e\in E_{B}\cap N(v)}^{}x_{e}+\sum_{e\in E_{V}\cap N(v)}^{}x_{e}\\&=r_{v}\sum_{e\in E_{R}\cap N(v)}^{}x_{e}+(1-r_{v})\sum_{e\in E_{B}\cap N(v)}^{}x_e+\sum_{e\in E_{V}\cap N(v)}^{}x_{e}\end{align}$$
+
 
 ---
 #### 4. Rental Problem
