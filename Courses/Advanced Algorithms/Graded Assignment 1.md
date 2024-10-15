@@ -65,16 +65,27 @@ We have:
 1. If $$\begin{align}\mathbb{E}[X_{v,R}]&= \frac{r_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{R}}^{}\frac{r_{w}}{r_{w}+b_{w}}\geq \frac{r_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{R}}^{} \frac{1}{\max\{ b_{w},1 \}}\\&\geq \frac{r_{v}^{2}}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}\end{align}$$ $$\begin{align}\mathbb{E}[X]&\geq\frac{r_{v}^{2}}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}+\frac{b_{v}^{2}}{r_{v}+b_{v}} \frac{1}{r_{N(v)}}+\frac{r_{v}(d(v)-r_{v}-b_{v})}{r_{v}+b_{v}} \frac{1}{r_{N(v)}}+\frac{b_{v}(d(v)-r_{v}-b_{v})}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}\\&=\frac{1}{r_{v}+b_{v}}\left( \frac{1}{b_{N(v)}}(r^2_{v}+b_{v}d(v)-r_{v}b_{v}-b_{v}^{2})+\frac{1}{r_{N(v)}}(b^2_{v}+r_{v}d(v)-r_{v}b_{v}-r_{v}^{2}) \right) \end{align}$$
 ---
 ##### Approch 2 (LP)
-Consider the following ILP: $$\begin{align}\text{max}\quad&\sum_{e\in E}^{}x_{e}\\\text{subject to}\quad&r_{v}+b_{v}=1&&\forall v\in V\\&x_{e}\leq r_{v},x_{e}\leq r_{w}&& \forall \{ v,w \}\in E_{R}\\&x_{e}\leq b_{v},x_{e}\leq b_{w}&& \forall \{ v,w \}\in E_{B}\\&x_{e}\leq r_{v}+r_{w},x_{e}\leq 2- r_{v}-r_{w}&& \forall \{ v,w \}\in E_{V}\end{align}$$$$r_{v}-2r_{v}r_{w}+r_{w}$$
+Consider the following ILP: $$\begin{align}\text{max}\quad&\sum_{e\in E}^{}x_{e}\\\text{subject to}\quad&x_{e}\leq r_{v},x_{e}\leq r_{w}&& \forall \{ v,w \}\in E_{R}\\&x_{e}\leq 1-r_{v},x_{e}\leq 1-r_{w}&& \forall \{ v,w \}\in E_{B}\\&x_{e}\leq r_{v}+r_{w},x_{e}\leq 2- r_{v}-r_{w}&& \forall \{ v,w \}\in E_{V}\end{align}$$
 
-Now, color the vertex red with probability $r_{v}$. Then, for $e=\{ v,w \}\in E_{R}$
+Now, color the vertex red with probability $r_{v}$. Then,
 1. For $e=\{ v,w \}\in E_{R}$, $\mathbb{P}(e\text{ no point})=\mathbb{P}(v\in B \lor w\in B)\leq(1-r_{v})+(1-r_{w})$
 2. For $e=\{ v,w \}\in E_{B}$, $\mathbb{P}(e\text{ no point})=\mathbb{P}(v\in R \lor w\in R)\leq r_{v}+r_{w}$
 3. For $e=\{ v,w \}\in E_{V}$, $\mathbb{P}(e\text{ no point})=r_{v}\cdot(1-r_{w})+r_{w}(1-r_{v})$
 
-Then, let $X$ be the number of edges that did not get a point. We have: $$\mathbb{E}[X]\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-r_{v})+(1-r_{w})+\sum_{\{ v,w \}\in E_{B}}^{}r_{v}+r_{w}+$$
+Then, let $X$ be the number of edges that did not get a point. We have: $$\begin{align}\mathbb{E}[X]&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-r_{v})+(1-r_{w})+\sum_{\{ v,w \}\in E_{B}}^{}r_{v}+r_{w}+\sum_{\{ v,w \}\in E_{V}}^{}r_{v}(1-r_{w})+r_{w}(1-r_{v})\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}r_{v}+r_{w}-2r_{v}r_{w}\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}2-x_{e}-2r_{v}r_{w}\\&=\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}2(1-x_{e})+x_{e}-2r_{v}r_{w}\\&=2\sum_{e\in E}^{}1-x_{e}+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-2r_{v}r_{w}\\&=2\left| E \right|-2p+\sum_{\{ v,w \}\in E_{V}}^{}1-r_{v}r_{w} \\&=2\left| E \right|-2p+\left| E_{V} \right| -\sum_{\{ v,w \}\in E_{V}}^{}r_{v}r_{w} \end{align}$$Hence, $\mathbb{E}[\text{\#points}]=\left| E \right|-\mathbb{E}[X]\geq 2\text{OPT}-\left| E \right|+\sum_{\{ v,w \}\in E_{V}}^{}r_{v}r_{w}-\left| E_{V} \right|$
 
-$$\mathbb{E}[X_{e}]=r_{v}\cdot r_{w}$$
+
+$$-2r_{v}r_{w}\leq-x_{e} \iff 2r_{v}r_{w}\geq x_{e}$$ $$x_{e}^{2}\leq r^{2}_{v}+2r_{v}r_{w}+r^{2}_{w}$$ and $r_{v}-r_{w}\leq 2-x_{e}$. Hence, $r_{v}^{2}-2r_{v}r_{w}+r_{w}^{2}\leq 4-4x_{e}+x_{e}^{2}$. Hence, $$x_{e}^{2}\leq r^{2}_{v}+2r_{v}r_{w}+r^{2}_{w}\leq4-4x_{e}+x_{e}^{2}+4r_{v}r_{w}$$It follows that $x_{e}\leq 1+r_{v}r_{w}$
+
+---
+We know that: 
+1. $\frac{\left| E \right|-\left| E_{V} \right|}{2}\leq\frac{\left| E_{R} \right|+\left| E_{B} \right|}{2}\leq\max \{ \left| E_{R} \right|,\left| E_{B} \right| \}\leq \text{OPT}\leq \left| E \right|-\frac{\left| S \right|}{2}$.
+2. 
+
+$$ \text{OPT}\leq \frac{1}{2}\sum_{v\in V}^{}d_{v}-\min\{ r_{v},b_{v} \}=\left| E \right| -\frac{1}{2}\sum_{v\in V}^{}\min\{ r_{v},b_{v} \}$$
+
+
+---
 $$\begin{align}\mathbb{E}[X]&=\sum_{e\in E_{R}}^{}r_{v}r_{w}+\sum_{e\in E_{B}}^{}(1-r_{v})(1-r_{w})+\sum_{e\in E_{V}}r_{v}(1-r_{w})+r_{w}(1-r_{v})\\&= \sum_{e\in E_{R}}^{}r_{v}r_{w}+\sum_{e\in E_{B}}^{}(1-r_{v}-r_{w}+r_{v}r_{w})+\sum_{e\in E_{V}}^{}(r_{v}+r_{w}-2r_{v}r_{w})\end{align}$$
 
 For $$\begin{align}\mathbb{E}[X_{v}]&=r_{v}\sum_{w\in E_{R}}^{}r_{w}+(1-r_{v})\sum_{w\in E_{B}}^{}(1-r_{w})+r_{v}\sum_{w\in E_{V}}^{}(1-r_{w})+(1-r_{v})\sum_{w\in E_{V}}^{}r_{w}\\&\geq r_{v}\sum_{w\in E_{R}}^{}r_{w}+(1-r_{v})\sum_{w\in E_{B}}^{}(1-r_{w})+r_{v}\sum_{e\in E_{V}}^{}(x_{e}-1+r_{v})+(1-r_{v})\sum_{e\in E_{V}}^{}(x_{e}-r_{v})\\&\geq r_{v}\sum_{e\in E_{R}}^{}x_{e}+(1-r_{v})\sum_{e\in E_{B}}^{}x_{e}+\sum_{e\in E_{V}}^{}x_{e}+(2r_{v}^{2}-2r_{v})\left| N_{V}(v) \right| \end{align}$$Then, 
