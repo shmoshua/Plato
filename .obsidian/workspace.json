@@ -100,8 +100,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md"
               }
             }
           }
@@ -231,10 +230,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6dc2021d4a3955ca",
+  "active": "d7c04c66eb340d4a",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Graph Theory/Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Algorithms/Bin-Packing.md",

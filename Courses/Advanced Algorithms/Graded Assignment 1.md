@@ -28,14 +28,27 @@ We have $E_{R},E_{B},E_{V}$ as the edge sets. Let $R\sqcup B$ denote the vertex 
 
 $$ \text{OPT}\leq \frac{1}{2}\sum_{v\in V}^{}d_{v}-\min\{ r_{v},b_{v} \}=\left| E \right| -\frac{1}{2}\sum_{v\in V}^{}\min\{ r_{v},b_{v} \}$$
 
-For vertex $x$, let $r_{x},b_{x},\ell_{x}$ denote the number of red, blue and violet edges respectively. Then, for each color red with probability $\frac{r_{e}}{r_{x}+b_{x}}$. 
+For vertex $x$, let $r_{x},b_{x},\ell_{x}$ denote the number of red, blue and violet edges respectively. Then, for each color red with probability $\frac{r_{e}}{r_{x}+b_{x}}$. If $r_{x}=b_{x}=0$, then color it red with probability $1 /2$. 
 
 
 1. For $\{ v,w \}\in E$ red, $\mathbb{P}(v\in R\land w\in R)=\frac{r_{v}}{r_{v}+b_{v}}\cdot\frac{r_{w}}{r_{w}+b_{w}}$
 2. For $\{ v,w \}\in E$ blue, $\mathbb{P}(v\in B\land w\in B)=\frac{b_{v}}{r_{v}+b_{v}}\cdot\frac{b_{w}}{r_{w}+b_{w}}$
 3. For $\{ v,w \}\in E$ violet, $\mathbb{P}(\text{point})=\frac{r_{v}}{r_{v}+b_{v}}\cdot\frac{b_{w}}{r_{w}+b_{w}}+\frac{b_{v}}{r_{v}+b_{v}}\cdot\frac{r_{w}}{r_{w}+b_{w}}$
 
+We have:
+1. $T:=\{ v\in V: r_{v}=b_{v}=0 \}$
+2. $S_{B}:=\{ v\in V: r_{v}=0 \land b_{v}\geq1\}$
+3. $S_{R}:=\{ v\in V: r_{v}\geq 1 \land b_{v}=0\}$
+4. $U:=\{ v\in V:r_{v},b_{v}\geq 1 \}$
+
+$$2\cdot \mathbb{E}[X]=\sum_{v\in V}^{}\mathbb{E}[X_{v}]=\sum_{v\in T}^{}\mathbb{E}[X_{v}]+\sum_{v\in S}^{}\mathbb{E}[X_{v}]+\sum_{v\in U}^{}\mathbb{E}[X_{v}]$$
+
+For $v\in T$, $$\mathbb{E}[X_{v}]=\frac{1}{2}\sum_{w:\{ v,w \}\in E_{V}}^{}1=\frac{\left| E_{V,N(v)} \right|}{2} $$
+For $v\in S_{R},S_{B}$, $$\mathbb{E}[X_{v}]=\sum_{w\in E_{R,N(v)} \backslash T}^{}\frac{r_{w}}{r_{w}+b_{w}}+\sum_{w\in E_{V, N(v)} \backslash T}^{} \frac{b_{w}}{r_{w}+b_{w}}+\frac{\left| E_{R,N(v)}\cap T \right| }{2}+\frac{\left| E_{V,N(v)}\cap T \right| }{2}$$$$\mathbb{E}[X_{v}]=\sum_{w\in E_{B,N(v)} \backslash T}^{}\frac{b_{w}}{r_{w}+b_{w}}+\sum_{w\in E_{V, N(v)} \backslash T}^{} \frac{r_{w}}{r_{w}+b_{w}}+\frac{\left| E_{B,N(v)}\cap T \right| }{2}+\frac{\left| E_{V,N(v)}\cap T \right| }{2}$$
+For $v\in U$, $$\mathbb{E}[X_{v}]=$$
+
 Then, let $X$ be the number of points. We have that:
+$$\begin{align}\mathbb{E}[X]&=\sum_{\{ v,w \}\in E_{R}}^{}\frac{r_{v}}{r_{v}+b_{v}}\cdot \frac{r_{w}}{r_{w}+b_{w}}+\sum_{\{ v,w \}\in E_{B}}^{}\frac{b_{v}}{r_{v}+b_{v}}\cdot \frac{b_{w}}{r_{w}+b_{w}}+\sum_{\{ v,w \}\in E_{V}}^{}\frac{r_{v}}{r_{v}+b_{v}}\cdot \frac{b_{w}}{r_{w}+b_{w}}+\sum_{\{ v,w \}\in E_{V}}^{}\frac{b_{v}}{r_{v}+b_{v}}\cdot \frac{r_{w}}{r_{w}+b_{w}}\\&\leq\end{align}$$
 
 For each edge $v$, $$\begin{align}\mathbb{E}[X_{v}]&=\frac{r_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{R}}^{}\frac{r_{w}}{r_{w}+b_{w}}+\frac{b_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{B}}^{}\frac{b_{w}}{r_{w}+b_{w}}+\frac{r_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{V}}^{}\frac{b_{w}}{r_{w}+b_{w}}+\frac{b_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{V}}^{}\frac{r_{w}}{r_{w}+b_{w}}\\&\leq\frac{r_{v}^{2}}{r_{v}+b_{v}}+\frac{b ^{2}_{v}}{r_{v}+b_{v}}+\frac{r_{v}(d(v)-r_{v}-b_{v})}{r_{v}+b_{v}}+\frac{b_{v}(d(v)-r_{v}-b_{v})}{r_{v}+b_{v}}\\&=\frac{r_{v}d(v)-r_{v}b_{v}+b_{v}d(v)-r_{v}b_{v}}{r_{v}+b_{v}}\\&=d(v)-\frac{2r_{v}b_{v}}{r_{v}+b_{v}}\end{align}$$
  Then, $$\mathbb{E}[X]=\frac{1}{2}\sum_{v\in V}^{}\mathbb{E}[X_{v}]=\left| E \right| -\sum_{v\in S}^{}\frac{r_{v}b_{v}}{r_{v}+b_{v}}\geq \text{OPT}+\frac{\left| S \right|}{2}-\sum_{v\in S}^{}\frac{r_{v}b_{v}}{r_{v}+b_{v}}$$
@@ -54,3 +67,4 @@ We have:
 ---
 #### 4. Rental Problem
 Let $\mathcal{A}$ be a deterministic algorithm. Let the adversary pick a sequence s.t. 
+1. if $A$ 
