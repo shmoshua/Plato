@@ -71,7 +71,9 @@ Now, color the vertex red with probability $r_{v}$. Then, for $e=\{ v,w \}\in E_
 $$\mathbb{E}[X_{e}]=r_{v}\cdot r_{w}$$
 $$\begin{align}\mathbb{E}[X]&=\sum_{e\in E_{R}}^{}r_{v}r_{w}+\sum_{e\in E_{B}}^{}(1-r_{v})(1-r_{w})+\sum_{e\in E_{V}}r_{v}(1-r_{w})+r_{w}(1-r_{v})\\&= \sum_{e\in E_{R}}^{}r_{v}r_{w}+\sum_{e\in E_{B}}^{}(1-r_{v}-r_{w}+r_{v}r_{w})+\sum_{e\in E_{V}}^{}(r_{v}+r_{w}-2r_{v}r_{w})\end{align}$$
 
-For $$\begin{align}\mathbb{E}[X_{v}]&=r_{v}\sum_{w\in E_{R}}^{}r_{w}+(1-r_{v})\sum_{w\in E_{B}}^{}(1-r_{w})+r_{v}\sum_{w\in E_{V}}^{}(1-r_{w})+(1-r_{v})\sum_{w\in E_{V}}^{}r_{w}\\&\geq r_{v}\sum_{w\in E_{R}}^{}r_{w}+(1-r_{v})\sum_{w\in E_{B}}^{}(1-r_{w})+r_{v}\sum_{e\in E_{V}}^{}(x_{e}-1+r_{v})+(1-r_{v})\sum_{e\in E_{V}}^{}(x_{e}-r_{v})\\&\geq r_{v}\sum_{e\in E_{R}}^{}x_{e}+(1-r_{v})\sum_{e\in E_{B}}^{}x_{e}+\sum_{e\in E_{V}}^{}x_{e}+(2r_{v}^{2}-2r_{v})\left| N_{V}(v) \right| \end{align}$$Then, $$$$
+For $$\begin{align}\mathbb{E}[X_{v}]&=r_{v}\sum_{w\in E_{R}}^{}r_{w}+(1-r_{v})\sum_{w\in E_{B}}^{}(1-r_{w})+r_{v}\sum_{w\in E_{V}}^{}(1-r_{w})+(1-r_{v})\sum_{w\in E_{V}}^{}r_{w}\\&\geq r_{v}\sum_{w\in E_{R}}^{}r_{w}+(1-r_{v})\sum_{w\in E_{B}}^{}(1-r_{w})+r_{v}\sum_{e\in E_{V}}^{}(x_{e}-1+r_{v})+(1-r_{v})\sum_{e\in E_{V}}^{}(x_{e}-r_{v})\\&\geq r_{v}\sum_{e\in E_{R}}^{}x_{e}+(1-r_{v})\sum_{e\in E_{B}}^{}x_{e}+\sum_{e\in E_{V}}^{}x_{e}+(2r_{v}^{2}-2r_{v})\left| N_{V}(v) \right| \end{align}$$Then, 
+
+$$\begin{align}\mathbb{E}[X_{v}]&=\sum_{w\in E_{R}}^{}(1-\max(r_{v},r_{w}))+\sum_{w\in E_{B}}^{}\min(r_{v},r_{w})+\sum_{w\in E_{V}}^{}\max(r_{v},r_{w})-\min(r_{v},r_{w})\\&= \end{align}$$
 
 
 ---
