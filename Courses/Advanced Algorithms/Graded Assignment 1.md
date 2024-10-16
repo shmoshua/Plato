@@ -102,6 +102,9 @@ $$\begin{align}\mathbb{E}[X_{v}]&=\sum_{w\in E_{R}}^{}(1-\max(r_{v},r_{w}))+\sum
 ##### Approach 3
 $$\mathbb{E}[X]=\frac{3}{4}\left| E_{R} \right| +\frac{3}{4}\left| E_{B} \right| +\frac{1}{2}\left| E_{V} \right| =\frac{3}{4}(\left| E_{R} \right| +\left| E_{B} \right| )+\frac{1}{2}\left| E_{V} \right| \leq \frac{3}{2}\text{OPT}$$
 
+- $y_{v,w,i,j}$
+$$\begin{align}\text{max}\quad&\sum_{n=1}^{}x_{e}\\\text{subject to}\quad & y_{v,w,i,j}=\\&\end{align}$$
+
 ---
 #### 4. Rental Problem
 Let $\mathcal{A}$ be a deterministic algorithm. Let the adversary pick a sequence s.t. 
