@@ -70,15 +70,15 @@ Consider the following ILP: $$\begin{align}\text{max}\quad&\sum_{e\in E}^{}x_{e}
 Now, color the vertex red with probability $r_{v}$. Then,
 1. For $e=\{ v,w \}\in E_{R}$, $\mathbb{P}(e\text{ no point})=\mathbb{P}(v\in B \lor w\in B)\leq(1-r_{v})+(1-r_{w})$
 2. For $e=\{ v,w \}\in E_{B}$, $\mathbb{P}(e\text{ no point})=\mathbb{P}(v\in R \lor w\in R)\leq r_{v}+r_{w}$
-3. For $e=\{ v,w \}\in E_{V}$, $\mathbb{P}(e\text{ no point})=r_{v}\cdot(1-r_{w})+r_{w}(1-r_{v})$
+3. For $e=\{ v,w \}\in E_{V}$, $\mathbb{P}(e\text{ no point})=r_{v}r_{w}+(1-r_{v})(1-r_{w})$
 
-Then, let $X$ be the number of edges that did not get a point. We have: $$\begin{align}\mathbb{E}[X]&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-r_{v})+(1-r_{w})+\sum_{\{ v,w \}\in E_{B}}^{}r_{v}+r_{w}+\sum_{\{ v,w \}\in E_{V}}^{}r_{v}(1-r_{w})+r_{w}(1-r_{v})\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}r_{v}+r_{w}-2r_{v}r_{w}\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}2-x_{e}-2r_{v}r_{w}\\&=\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}2(1-x_{e})+x_{e}-2r_{v}r_{w}\\&=2\sum_{e\in E}^{}1-x_{e}+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-2r_{v}r_{w}\\&=2\left| E \right| -2p+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-(r_{v}+r_{w})^{2}+r_{v}^{2}+r_{w}^{2}\\&=2\left| E \right| -2p+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-(r_{v}+r_{w})^{2}+r_{v}+r_{w}\\&\leq 2\left| E \right| -2p+\sum_{\{ v,w \}\in E_{V}}^{}2-x_{e}^{2}\\&=2\left| E \right| -2p+\left| E_{V} \right| \end{align}$$Then, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)=\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}\text{OPT} \right)\leq\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}p \right) \leq \frac{2\left| E \right| -2p+\left| E_{V} \right| }{\left| E \right| -\frac{1}{3}p} $$
+Then, let $X$ be the number of edges that did not get a point. We have: $$\begin{align}\mathbb{E}[X]&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-r_{v})+(1-r_{w})+\sum_{\{ v,w \}\in E_{B}}^{}r_{v}+r_{w}+\sum_{\{ v,w \}\in E_{V}}^{}r_{v}r_{w}+(1-r_{v})(1-r_{w})\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}1-r_{v}-r_{w}+2r_{v}r_{w}\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}1-x_{e}+2r_{v}r_{w}\\&=2\sum_{e\in E}^{}1-x_{e}+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-1+2r_{v}r_{w}\\&=2\left| E \right| -2p+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-(r_{v}+r_{w})^{2}+r_{v}^{2}+r_{w}^{2}\\&=2\left| E \right| -2p+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-(r_{v}+r_{w})^{2}+r_{v}+r_{w}\\&\leq 2\left| E \right| -2p+\sum_{\{ v,w \}\in E_{V}}^{}2-x_{e}^{2}\\&=2\left| E \right| -2p+\left| E_{V} \right| \end{align}$$Then, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)=\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}\text{OPT} \right)\leq\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}p \right) \leq \frac{2\left| E \right| -2p+\left| E_{V} \right| }{\left| E \right| -\frac{1}{3}p} $$
 
 
 Hence, $\mathbb{E}[\text{\#points}]=\left| E \right|-\mathbb{E}[X]\geq 2\text{OPT}-\left| E \right|-2\left| E_{V} \right|$ 
 
-
-
+---
+We have that: $$r_{v}+r_{w}\leq 2-x_{e}\implies r_{v}^{2}+2r_{v}r_{w}+r_{w}^{2}\leq 4-4x_{e}+x_{e}^{2}$$ $$\sum_{\{ v,w \}\in E_{V}}^{}1-x_{e}+4-4x_{e}+x_{e}^{2}-r_{v}^{2}-r_{w}^{2}\leq\sum_{\{ v,w \}\in E_{V}}^{}5-4x_{e}$$
 
 ---
 We know that: 

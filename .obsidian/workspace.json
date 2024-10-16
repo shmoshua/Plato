@@ -6,7 +6,7 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
-        "dimension": 48.249708284714124,
+        "dimension": 43.42447916666667,
         "children": [
           {
             "id": "5c95df8df979fbdf",
@@ -50,7 +50,7 @@
       {
         "id": "4d5ec56e57395c88",
         "type": "tabs",
-        "dimension": 51.750291715285876,
+        "dimension": 56.575520833333336,
         "children": [
           {
             "id": "d7c04c66eb340d4a",
@@ -230,7 +230,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d7c04c66eb340d4a",
+  "active": "94cf23805d50d125",
   "lastOpenFiles": [
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
