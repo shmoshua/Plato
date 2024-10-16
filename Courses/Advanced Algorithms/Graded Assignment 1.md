@@ -98,6 +98,9 @@ For $$\begin{align}\mathbb{E}[X_{v}]&=r_{v}\sum_{w\in E_{R}}^{}r_{w}+(1-r_{v})\s
 
 $$\begin{align}\mathbb{E}[X_{v}]&=\sum_{w\in E_{R}}^{}(1-\max(r_{v},r_{w}))+\sum_{w\in E_{B}}^{}\min(r_{v},r_{w})+\sum_{w\in E_{V}}^{}\max(r_{v},r_{w})-\min(r_{v},r_{w})\\&= \end{align}$$
 
+---
+##### Approach 3
+$$\mathbb{E}[X]=\frac{3}{4}\left| E_{R} \right| +\frac{3}{4}\left| E_{B} \right| +\frac{1}{2}\left| E_{V} \right| =\frac{3}{4}(\left| E_{R} \right| +\left| E_{B} \right| )+\frac{1}{2}\left| E_{V} \right| \leq \frac{3}{2}\text{OPT}$$
 
 ---
 #### 4. Rental Problem
