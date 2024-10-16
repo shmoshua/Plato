@@ -65,14 +65,16 @@ We have:
 1. If $$\begin{align}\mathbb{E}[X_{v,R}]&= \frac{r_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{R}}^{}\frac{r_{w}}{r_{w}+b_{w}}\geq \frac{r_{v}}{r_{v}+b_{v}}\sum_{w:\{ v,w \}\in E_{R}}^{} \frac{1}{\max\{ b_{w},1 \}}\\&\geq \frac{r_{v}^{2}}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}\end{align}$$ $$\begin{align}\mathbb{E}[X]&\geq\frac{r_{v}^{2}}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}+\frac{b_{v}^{2}}{r_{v}+b_{v}} \frac{1}{r_{N(v)}}+\frac{r_{v}(d(v)-r_{v}-b_{v})}{r_{v}+b_{v}} \frac{1}{r_{N(v)}}+\frac{b_{v}(d(v)-r_{v}-b_{v})}{r_{v}+b_{v}} \frac{1}{b_{N(v)}}\\&=\frac{1}{r_{v}+b_{v}}\left( \frac{1}{b_{N(v)}}(r^2_{v}+b_{v}d(v)-r_{v}b_{v}-b_{v}^{2})+\frac{1}{r_{N(v)}}(b^2_{v}+r_{v}d(v)-r_{v}b_{v}-r_{v}^{2}) \right) \end{align}$$
 ---
 ##### Approch 2 (LP)
-Consider the following ILP: $$\begin{align}\text{max}\quad&\sum_{e\in E}^{}x_{e}\\\text{subject to}\quad&x_{e}\leq r_{v},x_{e}\leq r_{w}&& \forall \{ v,w \}\in E_{R}\\&x_{e}\leq 1-r_{v},x_{e}\leq 1-r_{w}&& \forall \{ v,w \}\in E_{B}\\&x_{e}\leq r_{v}+r_{w},x_{e}\leq 2- r_{v}-r_{w}&& \forall \{ v,w \}\in E_{V}\\&\sum_{e\in N(v)}^{}x_{e}\leq\max \{ \left| N_{R}(v),N_{B}(v) \right|  \}+\left| N_{V}(v) \right| &&\forall v\in V\end{align}$$
+Consider the following ILP: $$\begin{align}\text{max}\quad&\sum_{e\in E}^{}x_{e}\\\text{subject to}\quad&x_{e}\leq r_{v},x_{e}\leq r_{w}&& \forall \{ v,w \}\in E_{R}\\&x_{e}\leq 1-r_{v},x_{e}\leq 1-r_{w}&& \forall \{ v,w \}\in E_{B}\\&x_{e}\leq r_{v}+r_{w},x_{e}\leq 2- r_{v}-r_{w}&& \forall \{ v,w \}\in E_{V}\\&\sum_{e\in N(v)}^{}x_{e}\leq\max \{ \left| N_{R}(v),N_{B}(v) \right|  \}+\left| N_{V}(v) \right| &&\forall v\in V\\&\sum_{e\in N(v)}^{}x_{e}\leq \left| N(v) \right| -\min\{ \left| N_{R}(v) \right| ,\left| N_{B}(v) \right|  \} &&\forall v\in V\end{align}$$
 
 Now, color the vertex red with probability $r_{v}$. Then,
 1. For $e=\{ v,w \}\in E_{R}$, $\mathbb{P}(e\text{ no point})=\mathbb{P}(v\in B \lor w\in B)\leq(1-r_{v})+(1-r_{w})$
 2. For $e=\{ v,w \}\in E_{B}$, $\mathbb{P}(e\text{ no point})=\mathbb{P}(v\in R \lor w\in R)\leq r_{v}+r_{w}$
 3. For $e=\{ v,w \}\in E_{V}$, $\mathbb{P}(e\text{ no point})=r_{v}r_{w}+(1-r_{v})(1-r_{w})$
 
-Then, let $X$ be the number of edges that did not get a point. We have: $$\begin{align}\mathbb{E}[X]&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-r_{v})+(1-r_{w})+\sum_{\{ v,w \}\in E_{B}}^{}r_{v}+r_{w}+\sum_{\{ v,w \}\in E_{V}}^{}r_{v}r_{w}+(1-r_{v})(1-r_{w})\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}1-r_{v}-r_{w}+2r_{v}r_{w}\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}1-x_{e}+2r_{v}r_{w}\\&=2\sum_{e\in E}^{}1-x_{e}+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-1+2r_{v}r_{w}\\&=2\left| E \right| -2p+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-1+2r_{v}r_{w}\end{align}$$Then, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)=\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}\text{OPT} \right)\leq\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}p \right) \leq \frac{2\left| E \right| -2p+\left| E_{V} \right| }{\left| E \right| -\frac{1}{3}p} $$
+Then, let $X$ be the number of edges that did not get a point. We have: $$\begin{align}\mathbb{E}[X]&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-r_{v})+(1-r_{w})+\sum_{\{ v,w \}\in E_{B}}^{}r_{v}+r_{w}+\sum_{\{ v,w \}\in E_{V}}^{}r_{v}r_{w}+(1-r_{v})(1-r_{w})\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}1-r_{v}-r_{w}+2r_{v}r_{w}\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}1-x_{e}+2r_{v}r_{w}\\&=2\sum_{e\in E}^{}1-x_{e}+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-1+2r_{v}r_{w}\\&=2\left| E \right| -2p+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-1+2r_{v}r_{w}\\&\end{align}$$
+
+Then, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)=\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}\text{OPT} \right)\leq\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}p \right) \leq \frac{2\left| E \right| -2p+\left| E_{V} \right| }{\left| E \right| -\frac{1}{3}p} $$
 
 
 Hence, $\mathbb{E}[\text{\#points}]=\left| E \right|-\mathbb{E}[X]\geq 2\text{OPT}-\left| E \right|-2\left| E_{V} \right|$ 
@@ -103,7 +105,7 @@ $$\begin{align}\mathbb{E}[X_{v}]&=\sum_{w\in E_{R}}^{}(1-\max(r_{v},r_{w}))+\sum
 $$\mathbb{E}[X]=\frac{3}{4}\left| E_{R} \right| +\frac{3}{4}\left| E_{B} \right| +\frac{1}{2}\left| E_{V} \right| =\frac{3}{4}(\left| E_{R} \right| +\left| E_{B} \right| )+\frac{1}{2}\left| E_{V} \right| \leq \frac{3}{2}\text{OPT}$$
 
 - $y_{v,w,i,j}$
-$$\begin{align}\text{max}\quad&\sum_{n=1}^{}x_{e}\\\text{subject to}\quad & y_{v,w,i,j}=\\&\end{align}$$
+ $$\begin{align}\text{min}\quad&\sum_{e\in E}^{}x_{e}\\\text{subject to}\quad&x_{e}\geq r_{v}+r_{w}-1&& \forall \{ v,w \}\in E_{R}\\&x_{e}\geq 1-r_{v}+1-r_{w}&& \forall \{ v,w \}\in E_{B}\\&x_{e}\leq r_{v}+r_{w},x_{e}\leq 2- r_{v}-r_{w}&& \forall \{ v,w \}\in E_{V}\end{align}$$
 
 ---
 #### 4. Rental Problem
