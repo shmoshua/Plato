@@ -115,6 +115,22 @@ Therefore, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)
 
 
 ---
+#### 3. Item Distribution
+
+Firstly, if $n=1$, then the algorithm is trivial. Hence, we may assume that $n\geq 2$. However, this now introduces the neighbor size bound $h$. Therefore, wlog, we may assume that all items $i\in I$ have $\text{size}(i)\leq h$. 
+1. Consider: 
+
+```pseudo
+\begin{algorithm} \caption{ExactItemDist($T,I$)} 
+\begin{algorithmic}
+\For{}
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+```
+   
+   Let $\mathcal{S}:=\left\{  S\subseteq I:\sum_{i\in S}^{}\text{size}(i)  \leq h\right\}$. Further, let $s:=\min_{i\in I}\text{size}(i)$. Then, there can be at most $M:= \left\lceil h / s\right\rceil$ items in each $S\in \mathcal{S}$. Therefore, $$\left| \mathcal{S} \right|\leq{C+M \choose M}=:R $$Now, let 
+---
 #### 4. Rental Problem
 Let $\mathcal{A}$ be a deterministic algorithm. Let the adversary pick a sequence s.t. 
 1. if $A$ 
