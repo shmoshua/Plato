@@ -118,18 +118,45 @@ Therefore, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)
 #### 3. Item Distribution
 
 Firstly, if $n=1$, then the algorithm is trivial. Hence, we may assume that $n\geq 2$. However, this now introduces the neighbor size bound $h$. Therefore, wlog, we may assume that all items $i\in I$ have $\text{size}(i)\leq h$. 
-1. Consider: 
+1. We construct a brute-forcing algorithm as follows. 
 
 ```pseudo
-\begin{algorithm} \caption{ExactItemDist($T,I$)} 
+\begin{algorithm} \caption{ExactItemDist($T,I,\text{size},h$)} 
 \begin{algorithmic}
-\For{}
+\State $\mathcal{S}\gets\left\{  S\subseteq I:\sum_{i\in S}^{}\text{size}(i)  \leq h\right\}$
+\State $v_k\gets$
+\For{$n$}
 \EndFor
 \end{algorithmic}
 \end{algorithm}
 ```
-   
+
+
    Let $\mathcal{S}:=\left\{  S\subseteq I:\sum_{i\in S}^{}\text{size}(i)  \leq h\right\}$. Further, let $s:=\min_{i\in I}\text{size}(i)$. Then, there can be at most $M:= \left\lceil h / s\right\rceil$ items in each $S\in \mathcal{S}$. Therefore, $$\left| \mathcal{S} \right|\leq{C+M \choose M}=:R $$Now, let 
+2. 
+
+```pseudo
+\begin{algorithm} \caption{PTASItemDist($T,I,\text{size},h$)} 
+\begin{algorithmic}
+\State Sort the items in ascending order $i_1,...,i_\ell$
+\For{$p\in[k]$}
+\State $G_p\gets \{i_{(p-1)q+1},...,i_{\min\{pq,\ell\}}\}$
+\State $s_\text{max} \gets \text{size}(i_{\min\{pq,\ell\}})$
+\For{$i\in G_p$}
+\State $\text{size}'(i)\gets s_\text{max}$
+\EndFor
+\EndFor
+\Return \Call{ExactItemDist}{$T,I,\text{size}',h'$}
+\end{algorithmic}
+\end{algorithm}
+```
+
+Let $N$ be the output of $\text{PTASItemDist}$. Then, let $\mathcal{I}$ and $\mathcal{J}$.  
+1. Claim 1: $\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-Q$
+
+
+$$N=\text{OPT}(\mathcal{J})\geq (1-\varepsilon)\text{OPT}(\mathcal{I})$$
+   
 ---
 #### 4. Rental Problem
 Let $\mathcal{A}$ be a deterministic algorithm. Let the adversary pick a sequence s.t. 
