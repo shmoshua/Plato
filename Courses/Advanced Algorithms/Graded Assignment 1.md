@@ -109,21 +109,10 @@ Now, color the vertex red with probability $r_{v}$. Then,
 2. For $e=\{ v,w \}\in E_{B}$, $\mathbb{P}(e\text{ no point})=r_{v}+r_{w}(1-r_{v})$
 3. For $e=\{ v,w \}\in E_{V}$, $\mathbb{P}(e\text{ no point})=r_{v}r_{w}+(1-r_{v})(1-r_{w})$
 
-Then, let $X$ be the number of edges that did not get a point. We have: $$\begin{align}\mathbb{E}[X]&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-r_{v})+(1-r_{w})+\sum_{\{ v,w \}\in E_{B}}^{}r_{v}+r_{w}+\sum_{\{ v,w \}\in E_{V}}^{}r_{v}r_{w}+(1-r_{v})(1-r_{w})\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}2(1-x_{e})\\&=\left| E \right| -p+\sum_{\{ v,w \}\in E_{V}}^{}(1-x_{e})\\&=\left| E \right| -p+\left| E_{V} \right| -\sum_{\{ v,w \}\in V}^{}x_{e}\end{align}$$
+Then, let $X$ be the number of edges that did not get a point. We have: $$\begin{align}\mathbb{E}[X]&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-r_{v})+(1-r_{w})+\sum_{\{ v,w \}\in E_{B}}^{}r_{v}+r_{w}+\sum_{\{ v,w \}\in E_{V}}^{}r_{v}r_{w}+(1-r_{v})(1-r_{w})\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}1-y_{e}-z_{e}\\&=\left| E \right| -p\end{align}$$
+Therefore, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)=\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}\text{OPT} \right)\leq\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}p \right) \leq \frac{\left| E \right| -p}{\left| E \right| -\frac{1}{3}p}=1-\frac{2p}{3\left| E \right| -p} $$ 
 
-$$\begin{align}\mathbb{E}[X]=r_{v}r_{w}\end{align}$$
-$$1-r_{v}-r_{w}+2r_{v}r_{w}\leq 1-r_{v}-r_{w}+2r_{v}+2r_{w}-2=-1+r_{v}+r_{w}\leq$$ 
 
-$$r_{v}r_{w}\leq r_{v}+r_{w}-1$$
-
-$$p(q-1)\leq q-1$$
-
----
-##### Approach 4
-
-Consider the following ILP: $$\begin{align}\text{max}\quad&\sum_{e\in E \backslash E_{V}}^{}x_{e}+\sum_{e\in E_{V}}^{}y_{e}+z_{e}\\\text{subject to}\quad&x_{e}\leq r_{v},x_{e}\leq r_{w}&& \forall \{ v,w \}\in E_{R}\\&x_{e}\leq 1-r_{v},x_{e}\leq 1-r_{w}&& \forall \{ v,w \}\in E_{B}\\&y_{e}\leq r_{v},y_{e}\leq 1-r_{w},z_{e}\leq r_{w},z_{e}\leq 1-r_{v}&& \forall \{ v,w \}\in E_{V}\\&r_{v}\in \{ 0,1 \}&&\forall v\in V\\&x_{e}\in \{ 0,1 \}&&\forall e\in E\\&y_{e},z_{e}\in \{ 0,1 \}&&\forall e\in E_{V}\end{align}$$
-
-Then, $$\begin{align}\mathbb{E}[X]&\leq \sum_{\{ v,w \}\in E_{R}}^{}(1-x_{e})+(1-r_{v})r_{w}+\sum_{\{ v,w \}\in E_{B}}^{}(1-x_{e})+r_{w}(1-r_{v})+\sum_{\{ v,w \}\in E_{V}}^{}(1-y_{e})+(1-z_{e})\\&=2\left| E \right| -p\end{align}$$
 
 ---
 #### 4. Rental Problem
