@@ -111,7 +111,7 @@ Now, color the vertex red with probability $r_{v}$. Then,
 
 Then, let $X$ be the number of edges that did not get a point. We have: $$\begin{align}\mathbb{E}[X]&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-r_{v})+(1-r_{w})+\sum_{\{ v,w \}\in E_{B}}^{}r_{v}+r_{w}+\sum_{\{ v,w \}\in E_{V}}^{}r_{v}r_{w}+(1-r_{v})(1-r_{w})\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}2(1-x_{e})\\&=\left| E \right| -p+\sum_{\{ v,w \}\in E_{V}}^{}(1-x_{e})\\&=\left| E \right| -p+\left| E_{V} \right| -\sum_{\{ v,w \}\in V}^{}x_{e}\end{align}$$
 
----
+---=
 #### 4. Rental Problem
 Let $\mathcal{A}$ be a deterministic algorithm. Let the adversary pick a sequence s.t. 
 1. if $A$ 
