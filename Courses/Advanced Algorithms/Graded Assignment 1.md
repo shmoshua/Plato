@@ -168,6 +168,8 @@ Then,
    
    
 ---
+
+---
 #### 4. Rental Problem
 Let $\mathcal{A}$ be a deterministic algorithm. Let the adversary pick a sequence s.t. 
 1. if $A$ 
