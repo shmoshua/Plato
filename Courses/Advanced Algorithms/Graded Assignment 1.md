@@ -156,6 +156,8 @@ Let $N$ be the output of $\text{PTASItemDist}$. Then, let $\mathcal{I}$ and $\ma
 
 
 $$N=\text{OPT}(\mathcal{J})\geq (1-\varepsilon)\text{OPT}(\mathcal{I})$$
+
+1. $\text{OPT}(\mathcal{I})\geq\max(,n)$ $$-Q\geq -\text{OPT}$$
    
 ---
 #### 4. Rental Problem
