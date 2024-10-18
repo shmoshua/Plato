@@ -152,12 +152,15 @@ Firstly, if $n=1$, then the algorithm is trivial. Hence, we may assume that $n\g
 ```
 
 Let $N$ be the output of $\text{PTASItemDist}$. Then, let $\mathcal{I}$ and $\mathcal{J}$.  
-1. Claim 1: $\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-Q$
+
+We will denote the item distribution as a function $\varphi:V\to I\cup \{ \bot \}$ where $\varphi(v)=\bot$ means no item has been assigned. We further define $J:=\{ i\in I: \text{size}(i)\leq \varepsilon \}$. The idea is that we run the exact algorithm on the rest of the items $I \backslash J$, while ensuring there is space for $J$. 
 
 
-$$N=\text{OPT}(\mathcal{J})\geq (1-\varepsilon)\text{OPT}(\mathcal{I})$$
 
-1. $\text{OPT}(\mathcal{I})\geq\max(,n)$ $$-Q\geq -\text{OPT}$$
+1. Claim 1: $\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-q$
+   Let $\varphi:V\to I\cup \{ \bot \}$ be the optimal distribution on $\mathcal{I}$ where $\varphi(v)=\bot$ means no item has been assigned. Then, consider following item  distribution: $$\varphi'(v)=\begin{cases} {\bot}&\text{if }\varphi(v)\in G_{1}\text{ or }\varphi(v)={\bot}\\i_{pq}&\text{if }\varphi(v)=i_{pq+r}\text{ for }p\in[k-1],r\in\{ 0,\dots,k-1 \}\end{cases}$$This is clearly an item distribution on $\mathcal{J}$ and also feasible as we are only decreasing the size on the nodes. Hence, $$\text{OPT}(\mathcal{J})\geq \left| \{ v\in V:\varphi'(v)\neq {\bot} \} \right|\geq \left| \{ v\in V:\varphi(v)\neq {\bot} \} \right|-\left| G_{1} \right| =\text{OPT}(\mathcal{I})-q$$
+2. Claim 2: After assignment $\varphi(j)\neq {\bot}$ for all $j\in J$. 
+   
    
 ---
 #### 4. Rental Problem
