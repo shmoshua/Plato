@@ -117,6 +117,8 @@ Therefore, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)
 ---
 #### 3. Item Distribution
 
+We denote an item distribution with a vector $\varphi:V\to I\cup \{ {\bot} \}$. 
+
 Firstly, if $n=1$, then the algorithm is trivial. Hence, we may assume that $n\geq 2$. However, this now introduces the neighbor size bound $h$. Therefore, wlog, we may assume that all items $i\in I$ have $\text{size}(i)\leq h$. 
 1. We construct a brute-forcing algorithm as follows. 
 

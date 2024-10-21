@@ -100,8 +100,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra/Cholesky Decomposition.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra/Cholesky Decomposition.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra/Cholesky Decomposition.md"
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md"
               }
             }
           }
@@ -231,8 +230,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6dc2021d4a3955ca",
+  "active": "d7c04c66eb340d4a",
   "lastOpenFiles": [
+    "Linear Algebra/Cholesky Decomposition.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Graph Theory/Graph.md",
@@ -258,7 +258,6 @@
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Fourier Transform of Measures.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
-    "Analysis/Fourier Coefficient.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
