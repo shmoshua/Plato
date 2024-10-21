@@ -173,10 +173,28 @@ Then,
 ---
 
 
- **Claim 1**: $\max_{v:\varphi_{v}={\bot}}\min_{w\in N(v)}1-\sum_{u\in N(w)}^{}\varphi_{u}< \min_{i\notin \varphi(V)} \text{size}(i)$. 
+ **Claim 1**: Let $\varphi$ be the optimum. Then, $\max_{v:\varphi_{v}={\bot}}\min_{w\in N(v)}1-\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})< \min_{i\notin \varphi(V)} \text{size}(i)$. 
 
-  Assume otherwise. Then, there exists $v$
-   
+  Assume otherwise. Then, there exists $v\in V$ with $\varphi_{v}={\bot}$ and an item $i\notin \varphi(V)$ s.t. $$1-\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})\geq \text{size}(i),\quad \forall w\in N(v)$$Let us define $\psi:V\to I\cup \{{\bot} \}$ with $\psi=\varphi$ on $V \backslash \{ v \}$ and $\psi(v)=i$. Then, clearly $\|\psi\|=\|\varphi\|+1$, which is a contradiction to the optimality of $\varphi$.
+
+$$\min_{v:\varphi_{v}={\bot}}\max_{w\in N(v)}\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})>1-\min_{i\notin \varphi(V)} \text{size}(i)$$
+
+**Claim 2:** Let $\varphi$ be optimum. Then, $\max_{v:\varphi_{v}={\bot}}\min_{w\in N(v)}1-\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})< \min_{i\in I} \text{size}(i)$. 
+
+Assume $v\in V$ and item $i\in I$ with $$1-\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})\geq \text{size}(i),\quad \forall w\in N(v)$$
+Let us define 
+
+0 - 1/3 - 1/2 where 2/3 is left. 
+
+---
+We have
+$$\text{OPT}=\left\| \varphi_{\text{OPT}} \right\| =\sum_{v\in V}^{}(1-\delta_{{\bot},\varphi(v)})=$$
+and
+Let $\varphi(v)={\bot}$. Then, $\min_{w\in N(v)}1-\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})<s_{\text{min}}$. 
+
+$$\delta_{{\bot},\varphi(v)}=\begin{cases}1\\0\end{cases}$$
+
+
 ---
 
 ---
