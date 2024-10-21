@@ -117,24 +117,26 @@ Therefore, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)
 ---
 #### 3. Item Distribution
 
-We denote an item distribution with a vector $\varphi:V\to I\cup \{ {\bot} \}$. 
+We denote an item distribution with a vector $\varphi:V\to I\cup \{ {\bot} \}$ where $\varphi_{v}$ denotes the item assigned to $v\in V$ and ${\bot}$ if no item has been assigned to $v$. Then, we can use $\|\varphi\|_{0}$ to denote the number of vertices with an item. 
+1. We have:
+	1. For any tree, there exists at least a leaf $v\in V$ and $T \backslash\{ v \}$ is also a tree. Hence, we can define an ordering on the vertices $v_{1},\dots,v_{n}$ s.t. the induced subgraph $T_{i}:=T[v_{1},\dots,v_{i}]$ is a tree and $v_{i}$ is a leaf in $T_{i}$. 
+	   
+	   Let $w_{1},\dots,w_{k}$ be the $k$ different weights. Then, $I$ can be represented using a $k$-tuple $(\ell_{1},\dots,\ell_{k})\in \mathbb{N}^k$ where $\ell_{j}:=\left| \{ i\in I: \text{size}(i)=w_{j} \}\right|$. 
+	   
+	   ```pseudo
+		\begin{algorithm} \caption{ExactItemDist($T,I,\text{size},h$)} 
+		\begin{algorithmic}
+		\State Compute $(\ell_1,...,\ell_k)$ from $I$. 
+		\State $v\gets$ a leaf in $T$
+		\For{$i\in I$}
+		\State $\varphi\gets $ \Call{ExactItemDist}{$T\backslash \{v\},I\backslash \{i\}, \text{size},h$}
+        \EndFor
+		\end{algorithmic}
+		\end{algorithm}
+		```
+	   
+	   Then, we define a dynamic programming algorithm. Firstly, let $$D[(\ell_{1},\dots,\ell_{k}),i]=\max_{}$$
 
-Firstly, if $n=1$, then the algorithm is trivial. Hence, we may assume that $n\geq 2$. However, this now introduces the neighbor size bound $h$. Therefore, wlog, we may assume that all items $i\in I$ have $\text{size}(i)\leq h$. 
-1. We construct a brute-forcing algorithm as follows. 
-
-```pseudo
-\begin{algorithm} \caption{ExactItemDist($T,I,\text{size},h$)} 
-\begin{algorithmic}
-\State $\mathcal{S}\gets\left\{  S\subseteq I:\sum_{i\in S}^{}\text{size}(i)  \leq h\right\}$
-\State $v_k\gets$
-\For{$n$}
-\EndFor
-\end{algorithmic}
-\end{algorithm}
-```
-
-
-   Let $\mathcal{S}:=\left\{  S\subseteq I:\sum_{i\in S}^{}\text{size}(i)  \leq h\right\}$. Further, let $s:=\min_{i\in I}\text{size}(i)$. Then, there can be at most $M:= \left\lceil h / s\right\rceil$ items in each $S\in \mathcal{S}$. Therefore, $$\left| \mathcal{S} \right|\leq{C+M \choose M}=:R $$Now, let 
 2. 
 
 ```pseudo
@@ -167,7 +169,13 @@ Then,
 4. Claim 1: $\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-q$
    Let $\varphi:V\to I\cup \{ \bot \}$ be the optimal distribution on $\mathcal{I}$ where $\varphi(v)=\bot$ means no item has been assigned. Then, consider following item  distribution: $$\varphi'(v)=\begin{cases} {\bot}&\text{if }\varphi(v)\in G_{1}\text{ or }\varphi(v)={\bot}\\i_{pq}&\text{if }\varphi(v)=i_{pq+r}\text{ for }p\in[k-1],r\in\{ 0,\dots,k-1 \}\end{cases}$$This is clearly an item distribution on $\mathcal{J}$ and also feasible as we are only decreasing the size on the nodes. Hence, $$\text{OPT}(\mathcal{J})\geq \left| \{ v\in V:\varphi'(v)\neq {\bot} \} \right|\geq \left| \{ v\in V:\varphi(v)\neq {\bot} \} \right|-\left| G_{1} \right| =\text{OPT}(\mathcal{I})-q$$
 2. Claim 2: After assignment $\varphi(j)\neq {\bot}$ for all $j\in J$. We have $$s(\varphi) \geq s(\psi)-\varepsilon n $$$$s(\varphi)\leq n(1-\varepsilon)-$$
-   
+
+---
+
+
+ **Claim 1**: $\max_{v:\varphi_{v}={\bot}}\min_{w\in N(v)}1-\sum_{u\in N(w)}^{}\varphi_{u}< \min_{i\notin \varphi(V)} \text{size}(i)$. 
+
+  Assume otherwise. Then, there exists $v$
    
 ---
 

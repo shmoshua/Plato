@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Graph Theory/Tree.md",
                 "mode": "preview",
                 "source": true
               }
@@ -232,10 +232,11 @@
   },
   "active": "d7c04c66eb340d4a",
   "lastOpenFiles": [
+    "Graph Theory/Tree.md",
+    "Graph Theory/Graph.md",
+    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
-    "Graph Theory/Graph.md",
     "Algorithms/Bin-Packing.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Probability Theory/Expected Value.md",
@@ -257,7 +258,6 @@
     "Analysis/Kernel.md",
     "Functional Analysis/Fourier Transform.md",
     "Functional Analysis/Fourier Transform of Measures.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
