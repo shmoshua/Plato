@@ -168,15 +168,34 @@ Case 1:
 \State $q\gets\lfloor m / L^2\rfloor$
 \State $r\gets m-qL^2$
 \For{$j\in [L^2]$}
-\State $G_j\gets $ first $$
-\State $\text{size}'(i)\gets \lceil \text{size}(i)\cdot L/h\rceil$
+\If{$j\le r$}
+\State $G_j\gets $ first $q+1$ items from $I \backslash \bigcup_{\ell=1}^{j-1} G_\ell$
+\Else 
+\State $G_j\gets $ first $q$ items from $I \backslash \bigcup_{\ell=1}^{j-1} G_\ell$
+\EndIf
+
+
+\State $s\gets \max_{i\in G_j}\text{size}(i)$
+\For{$i\in G_j$}
+\State $\text{size}'(i)\gets s$
+\EndFor
 \EndFor
 \Return \Call{ExactItemDist}{$T,I,\text{size}',L$}
 \end{algorithmic}
 \end{algorithm}
 ```
 We have:
-$$\begin{align}\text{OPT}(\mathcal{J})&\geq\end{align}$$
+1. Claim 1: $\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-q-1$
+   Let $\varphi:V\to I\cup \{ \bot \}$ be the optimal distribution on $\mathcal{I}$ where $\varphi(v)=\bot$ means no item has been assigned. Then, consider following item  distribution: $$\varphi'(v)=\begin{cases} {\bot}&\text{if }\varphi(v)\in G_{1}\text{ or }\varphi(v)={\bot}\\ G_{j-1}&\text{if }\varphi(v)\in G_{j}\text{ for }j\in\{ 2,\dots,L^2 \}\end{cases}$$This is clearly an item distribution on $\mathcal{J}$ and also feasible as we are only decreasing the size on the nodes. Hence, $$\text{OPT}(\mathcal{J})\geq \left| \{ v\in V:\varphi'(v)\neq {\bot} \} \right|\geq \left| \{ v\in V:\varphi(v)\neq {\bot} \} \right|-\left| G_{1} \right| =\text{OPT}(\mathcal{I})-q-1$$ 
+
+Then, $q\leq m / L^2< q+1$ and $-q\geq-m / L^2$ and as $L-1< \frac{1}{\varepsilon}\leq L$, we have $\frac{1}{L}\leq \varepsilon$ and $-\frac{1}{L^{2}}\geq-\varepsilon^{2}$
+$$\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-m\varepsilon^{2}-1$$
+
+if $m\leq\frac{\text{OPT}(\mathcal{I})}{\varepsilon}-\frac{1}{\varepsilon^{2}}$.
+
+---
+Case 2: if there are $m\geq\frac{\text{OPT}(\mathcal{I})}{\varepsilon}-\frac{1}{\varepsilon^{2}}$, then: 
+
 ---
 
 
