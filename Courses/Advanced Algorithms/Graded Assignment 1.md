@@ -204,7 +204,11 @@ Case 4:
 
 $$(\text{OPT}(\mathcal{I})+1)>s(I)$$
 Let $\varphi$ be optimal. Then, $$\sum_{w\in N(v)}^{}\text{size}(\varphi_{w})\leq h$$
-$$\begin{align}\text{OPT}(\mathcal{I})=\sum_{v:\varphi_{v}\neq 0}^{}1\end{align}$$
+$$\begin{align}\text{OPT}(\mathcal{I})=\sum_{v:\varphi_{v}\neq 0}^{}1\geq\end{align}$$
+
+Let $s$ be the smallest item. Then, $$s\cdot  \text{OPT}(\mathcal{I})=\sum_{v:\varphi_{v}\neq 0}^{}s\geq \sum_{v\in V}^{}\text{size}(\varphi_{v})\geq \text{OPT}(\mathcal{I})$$
+
+1. Claim 1: $$i_{k}\cdot k\geq \sum_{j=1}^{k}i_{j}$$
 
 
 
