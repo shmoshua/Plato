@@ -142,22 +142,20 @@ We denote an item distribution with a vector $\varphi:V\to I\cup \{ {\bot} \}$ w
 ```pseudo
 \begin{algorithm} \caption{PTASItemDist($T,I,\text{size},h$)} 
 \begin{algorithmic}
-\State Sort the items in ascending order $i_1,...,i_\ell$
-\For{$p\in[k]$}
-\State $G_p\gets \{i_{(p-1)q+1},...,i_{\min\{pq,\ell\}}\}$
-\State $s_\text{max} \gets \text{size}(i_{\min\{pq,\ell\}})$
-\For{$i\in G_p$}
-\State $\text{size}'(i)\gets s_\text{max}$
+\State $L\gets $
+\For{$i\in I$}
+\State $\text{size}'(i)\gets \lceil \text{size}(i)\cdot L/h\rceil$
 \EndFor
-\EndFor
-\Return \Call{ExactItemDist}{$T,I,\text{size}',h'$}
+\Return \Call{ExactItemDist}{$T,I,\text{size}',L$}
 \end{algorithmic}
 \end{algorithm}
 ```
 
-Let $N$ be the output of $\text{PTASItemDist}$. Then, let $\mathcal{I}$ and $\mathcal{J}$.  
+Then, let $\varphi$ be the item distribution given by the algorithm. We have:
+1. **Claim 1: $\varphi$ is feasible.**
+   Note that for any item $i\in I$, $\text{size}(i)\leq \text{size}'(i)\cdot h / L$. Therefore,  $$\sum_{w\in N(v)}^{}\text{size}(\varphi_{w})\leq \frac{h}{L}\sum_{w\in N(v)}^{}\text{size}'(\varphi_{w})=h,\quad \forall v\in V$$
 
-Modulo rescaling the size by $\frac{1}{h}$, we may assume that $h=1$. 
+---
 
 We will denote the item distribution as a function $\varphi:V\to I\cup \{ \bot \}$ where $\varphi(v)=\bot$ means no item has been assigned. We further define $J:=\{ i\in I: \text{size}(i)\leq \varepsilon \}$. The idea is that we run the exact algorithm on the rest of the items $I \backslash J$, while ensuring there is space for $J$. 
 1. $\left\| \varphi \right\|:=\{ v\in V:\varphi(v)\neq {\bot} \}$
@@ -166,7 +164,11 @@ We will denote the item distribution as a function $\varphi:V\to I\cup \{ \bot \
 Then,
 
 ---
-We
+We define a DP table as follows:  
+1. $\text{DP}[i,v,\ell,s]:=$ maximum number of assigned items from $\ell$ on the subtree rooted at $v$ s.t. $i$ is assigned at $v$ and $\sum_{w\in \text{child}(v)}^{}\text{size}(w)\leq s$. 
+
+We have that:
+ $$\text{DP}[{\bot},v,\ell,s]=\max_{\ell'\leq \ell}\max_{i: s}$$
 
 ---
 hihi
