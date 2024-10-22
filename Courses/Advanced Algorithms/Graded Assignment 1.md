@@ -261,7 +261,7 @@ $$\delta_{{\bot},\varphi(v)}=\begin{cases}1\leq s+\max_{w\in N(v)}\sum_{u\in N(w
 
 ---
 As LP we can write:
-$$\begin{align}\max\quad &\sum_{v\in V}^{}\sum_{i\in I}^{}x_{v,i}\\\text{subject to}\quad&\sum_{v\in V}^{}x_{v,i}\leq 1&&\forall i\in I\\&\sum_{i\in I}^{}x_{v,i}\leq 1\quad &&\forall v\in V\\\end{align}$$
+
 ---
 #### 4. Rental Problem
 Let $\mathcal{A}$ be a deterministic algorithm. Let the adversary pick a sequence s.t. 
