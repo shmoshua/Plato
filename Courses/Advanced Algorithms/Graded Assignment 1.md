@@ -153,9 +153,32 @@ We denote an item distribution with a vector $\varphi:V\to I\cup \{ {\bot} \}$ w
 
 Then, let $\varphi$ be the item distribution given by the algorithm. We have:
 1. **Claim 1: $\varphi$ is feasible.**
-   Note that for any item $i\in I$, $\text{size}(i)\leq \text{size}'(i)\cdot h / L$. Therefore,  $$\sum_{w\in N(v)}^{}\text{size}(\varphi_{w})\leq \frac{h}{L}\sum_{w\in N(v)}^{}\text{size}'(\varphi_{w})=h,\quad \forall v\in V$$
+   Note that for any item $i\in I$, $\text{size}(i)\leq \text{size}'(i)\cdot h / L$. Therefore,  $$\sum_{w\in N(v)}^{}\text{size}(\varphi_{w})\leq \frac{h}{L}\sum_{w\in N(v)}^{}\text{size}'(\varphi_{w})\leq \frac{h}{L}\cdot L=h,\quad \forall v\in V$$
+2. **Claim 2:** 
+   Let $\psi$ be the optimal distribution of $\mathcal{I}$. Then, $$\left\| \varphi \right\| \geq$$
 
 ---
+Case 1:
+
+```pseudo
+\begin{algorithm} \caption{PTASItemDist($T,I,\text{size},h$)} 
+\begin{algorithmic}
+\State $L\gets \lceil 1/  \varepsilon\rceil$
+\State Sort the items into increasing order: $i_1,...,i_m$
+\State $q\gets\lfloor m / L^2\rfloor$
+\State $r\gets m-qL^2$
+\For{$j\in [L^2]$}
+\State $G_j\gets $ first $$
+\State $\text{size}'(i)\gets \lceil \text{size}(i)\cdot L/h\rceil$
+\EndFor
+\Return \Call{ExactItemDist}{$T,I,\text{size}',L$}
+\end{algorithmic}
+\end{algorithm}
+```
+We have:
+$$\begin{align}\text{OPT}(\mathcal{J})&\geq\end{align}$$
+---
+
 
 We will denote the item distribution as a function $\varphi:V\to I\cup \{ \bot \}$ where $\varphi(v)=\bot$ means no item has been assigned. We further define $J:=\{ i\in I: \text{size}(i)\leq \varepsilon \}$. The idea is that we run the exact algorithm on the rest of the items $I \backslash J$, while ensuring there is space for $J$. 
 1. $\left\| \varphi \right\|:=\{ v\in V:\varphi(v)\neq {\bot} \}$
