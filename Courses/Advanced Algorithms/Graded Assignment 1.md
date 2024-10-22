@@ -197,10 +197,13 @@ if $m\leq\frac{\text{OPT}(\mathcal{I})}{\varepsilon}-\frac{1}{\varepsilon^{2}}$.
 Case 2: if there are $m\geq\frac{\text{OPT}(\mathcal{I})}{\varepsilon}-\frac{1}{\varepsilon^{2}}$, then: 
 
 ---
-Case 3: if $m\leq L$ then, $$\text{OPT}(\mathcal{J})=$$
+Case 3: if $m\leq L^{2}$ then, $$\text{OPT}(\mathcal{J})=$$
+
+Case 4: if $L^3\leq m\leq L^2 /$, then 
 
 ---
-Case 4: 
+Let $\text{size} \subseteq(0,1]$. Then, $$\text{OPT}(\mathcal{I})\geq$$
+Case 4: if $m>L^{2}$. Tgen 
 
 $$(\text{OPT}(\mathcal{I})+1)>s(I)$$
 Let $\varphi$ be optimal. Then, $$\sum_{w\in N(v)}^{}\text{size}(\varphi_{w})\leq h$$
@@ -257,7 +260,8 @@ $$\delta_{{\bot},\varphi(v)}=\begin{cases}1\leq s+\max_{w\in N(v)}\sum_{u\in N(w
 
 
 ---
-
+As LP we can write:
+$$\begin{align}\max\quad &\sum_{v\in V}^{}\sum_{i\in I}^{}x_{v,i}\\\text{subject to}\quad&\sum_{v\in V}^{}x_{v,i}\leq 1&&\forall i\in I\\&\sum_{i\in I}^{}x_{v,i}\leq 1\quad &&\forall v\in V\\\end{align}$$
 ---
 #### 4. Rental Problem
 Let $\mathcal{A}$ be a deterministic algorithm. Let the adversary pick a sequence s.t. 
