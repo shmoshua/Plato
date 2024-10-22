@@ -197,6 +197,15 @@ if $m\leq\frac{\text{OPT}(\mathcal{I})}{\varepsilon}-\frac{1}{\varepsilon^{2}}$.
 Case 2: if there are $m\geq\frac{\text{OPT}(\mathcal{I})}{\varepsilon}-\frac{1}{\varepsilon^{2}}$, then: 
 
 ---
+Case 3: if $m\leq L$ then, $$\text{OPT}(\mathcal{J})=$$
+
+---
+Case 4: 
+
+$$(\text{OPT}(\mathcal{I})+1)>s(I)$$
+Let $\varphi$ be optimal. Then, $$\sum_{w\in N(v)}^{}\text{size}(\varphi_{w})\leq h$$
+$$\begin{align}\text{OPT}(\mathcal{I})=\sum_{v:\varphi_{v}\neq 0}^{}1\end{align}$$
+
 
 
 We will denote the item distribution as a function $\varphi:V\to I\cup \{ \bot \}$ where $\varphi(v)=\bot$ means no item has been assigned. We further define $J:=\{ i\in I: \text{size}(i)\leq \varepsilon \}$. The idea is that we run the exact algorithm on the rest of the items $I \backslash J$, while ensuring there is space for $J$. 
