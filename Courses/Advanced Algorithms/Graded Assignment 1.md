@@ -142,11 +142,12 @@ We denote an item distribution with a vector $\varphi:V\to I\cup \{ {\bot} \}$ w
 ---
 Let $v_{1},\dots,v_{n}$ be the order.
 We define a DP table as follows:
-1. $\text{DP}[j,\ell,v,s]:=$ maximum number of assigned items from $\ell$ on $T[v_{1},\dots,v_{j}]$ s.t. $\sum_{w\in N(v)}^{}\text{size}(w)=s$.
+1. $\text{DP}[j,\ell,v,s,q]:=$ maximum number of assigned items from $\ell$ on $T[v_{1},\dots,v_{j}]$ s.t. $\sum_{w\in N(v)}^{}\text{size}(w)\leq s$ with $v$ has item $q$.
 
 We have that:
 Let $v_{j}$ and $u\in \{ v_{1},\dots,v_{j-1} \}$ be the only neighbor of $v_{j}$ in $T_{j}$. Then, 
-$$\text{DP}[j,\ell,v_{j},s]=$$
+
+$$\text{DP}[j,\ell,v_{j},s,q]=\begin{cases}\text{DP}[j-1,\ell,u,h-q,]\end{cases}$$
  $$\text{DP}[j,\ell,u,s]=\max_{k: \ell_{p}\geq 1}\text{DP}[j-1,\ell-1,u,s-s_{p}]+1,\text{DP}[j-1,\ell,u,s]$$
 
 
