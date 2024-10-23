@@ -260,9 +260,8 @@ $$\delta_{{\bot},\varphi(v)}=\begin{cases}1\leq s+\max_{w\in N(v)}\sum_{u\in N(w
 
 
 ---
-As LP we can write:
+Assume we have that $m> x / \varepsilon$. Then, let $S:=\{ i_{1},\dots,i_{x / \varepsilon} \}$. Let us similarly split $S$ into $L^{2}$ groups and round up. For $i\notin S$, $\text{size}'(i)=\text{size}(i)$. 
 
----
-#### 4. Rental Problem
-Let $\mathcal{A}$ be a deterministic algorithm. Let the adversary pick a sequence s.t. 
-1. if $A$ 
+Since $\text{OPT}(I)\leq x$ and $\left| S \right|= x / \varepsilon$, $$\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-\varepsilon x$$
+
+
