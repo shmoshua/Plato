@@ -139,136 +139,19 @@ We denote an item distribution with a vector $\varphi:V\to I\cup \{ {\bot} \}$ w
 
 2. 
 
-```pseudo
-\begin{algorithm} \caption{PTASItemDist($T,I,\text{size},h$)} 
-\begin{algorithmic}
-\State $L\gets $
-\For{$i\in I$}
-\State $\text{size}'(i)\gets \lceil \text{size}(i)\cdot L/h\rceil$
-\EndFor
-\Return \Call{ExactItemDist}{$T,I,\text{size}',L$}
-\end{algorithmic}
-\end{algorithm}
-```
-
-Then, let $\varphi$ be the item distribution given by the algorithm. We have:
-1. **Claim 1: $\varphi$ is feasible.**
-   Note that for any item $i\in I$, $\text{size}(i)\leq \text{size}'(i)\cdot h / L$. Therefore,  $$\sum_{w\in N(v)}^{}\text{size}(\varphi_{w})\leq \frac{h}{L}\sum_{w\in N(v)}^{}\text{size}'(\varphi_{w})\leq \frac{h}{L}\cdot L=h,\quad \forall v\in V$$
-2. **Claim 2:** 
-   Let $\psi$ be the optimal distribution of $\mathcal{I}$. Then, $$\left\| \varphi \right\| \geq$$
-
 ---
-Case 1:
-
-```pseudo
-\begin{algorithm} \caption{PTASItemDist($T,I,\text{size},h$)} 
-\begin{algorithmic}
-\State $L\gets \lceil 1/  \varepsilon\rceil$
-\State Sort the items into increasing order: $i_1,...,i_m$
-\State $q\gets\lfloor m / L^2\rfloor$
-\State $r\gets m-qL^2$
-\For{$j\in [L^2]$}
-\If{$j\le r$}
-\State $G_j\gets $ first $q+1$ items from $I \backslash \bigcup_{\ell=1}^{j-1} G_\ell$
-\Else 
-\State $G_j\gets $ first $q$ items from $I \backslash \bigcup_{\ell=1}^{j-1} G_\ell$
-\EndIf
-
-
-\State $s\gets \max_{i\in G_j}\text{size}(i)$
-\For{$i\in G_j$}
-\State $\text{size}'(i)\gets s$
-\EndFor
-\EndFor
-\Return \Call{ExactItemDist}{$T,I,\text{size}',L$}
-\end{algorithmic}
-\end{algorithm}
-```
-We have:
-1. Claim 1: $\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-q-1$
-   Let $\varphi:V\to I\cup \{ \bot \}$ be the optimal distribution on $\mathcal{I}$ where $\varphi(v)=\bot$ means no item has been assigned. Then, consider following item  distribution: $$\varphi'(v)=\begin{cases} {\bot}&\text{if }\varphi(v)\in G_{1}\text{ or }\varphi(v)={\bot}\\ G_{j-1}&\text{if }\varphi(v)\in G_{j}\text{ for }j\in\{ 2,\dots,L^2 \}\end{cases}$$This is clearly an item distribution on $\mathcal{J}$ and also feasible as we are only decreasing the size on the nodes. Hence, $$\text{OPT}(\mathcal{J})\geq \left| \{ v\in V:\varphi'(v)\neq {\bot} \} \right|\geq \left| \{ v\in V:\varphi(v)\neq {\bot} \} \right|-\left| G_{1} \right| =\text{OPT}(\mathcal{I})-q-1$$ 
-
-Then, $q\leq m / L^2< q+1$ and $-q\geq-m / L^2$ and as $L-1< \frac{1}{\varepsilon}\leq L$, we have $\frac{1}{L}\leq \varepsilon$ and $-\frac{1}{L^{2}}\geq-\varepsilon^{2}$
-$$\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-m\varepsilon^{2}-1$$
-
-if $m\leq\frac{\text{OPT}(\mathcal{I})}{\varepsilon}-\frac{1}{\varepsilon^{2}}$.
-
----
-Case 2: if there are $m\geq\frac{\text{OPT}(\mathcal{I})}{\varepsilon}-\frac{1}{\varepsilon^{2}}$, then: 
-
----
-Case 3: if $m\leq L^{2}$ then, $$\text{OPT}(\mathcal{J})=$$
-
-Case 4: if $L^3\leq m\leq L^2 /$, then 
-
----
-Let $\text{size} \subseteq(0,1]$. Then, $$\text{OPT}(\mathcal{I})\geq$$
-Case 4: if $m>L^{2}$. Tgen 
-
-$$(\text{OPT}(\mathcal{I})+1)>s(I)$$
-Let $\varphi$ be optimal. Then, $$\sum_{w\in N(v)}^{}\text{size}(\varphi_{w})\leq h$$
-$$\begin{align}\text{OPT}(\mathcal{I})=\sum_{v:\varphi_{v}\neq 0}^{}1\geq\end{align}$$
-
-Let $s$ be the smallest item. Then, $$s\cdot  \text{OPT}(\mathcal{I})=\sum_{v:\varphi_{v}\neq 0}^{}s\geq \sum_{v\in V}^{}\text{size}(\varphi_{v})\geq \text{OPT}(\mathcal{I})$$
-
-1. Claim 1: $$i_{k}\cdot k\geq \sum_{j=1}^{k}i_{j}$$
-
-
-
-We will denote the item distribution as a function $\varphi:V\to I\cup \{ \bot \}$ where $\varphi(v)=\bot$ means no item has been assigned. We further define $J:=\{ i\in I: \text{size}(i)\leq \varepsilon \}$. The idea is that we run the exact algorithm on the rest of the items $I \backslash J$, while ensuring there is space for $J$. 
-1. $\left\| \varphi \right\|:=\{ v\in V:\varphi(v)\neq {\bot} \}$
-2. $s(\varphi):=\sum_{v\in V}^{}\sum_{w\in N(v)}^{} \text{size}(\varphi(w))$. 
-
-Then,
-
----
-We define a DP table as follows:  
-1. $\text{DP}[i,v,\ell,s]:=$ maximum number of assigned items from $\ell$ on the subtree rooted at $v$ s.t. $i$ is assigned at $v$ and $\sum_{w\in \text{child}(v)}^{}\text{size}(w)\leq s$. 
+Let $v_{1},\dots,v_{n}$ be the order.
+We define a DP table as follows:
+1. $\text{DP}[j,\ell,v,s]:=$ maximum number of assigned items from $\ell$ on $T[v_{1},\dots,v_{j}]$ s.t. $\sum_{w\in N(v)}^{}\text{size}(w)=s$.
 
 We have that:
- $$\text{DP}[{\bot},v,\ell,s]=\max_{\ell'\leq \ell}\max_{i: s}$$
-
----
-hihi
-
-4. Claim 1: $\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-q$
-   Let $\varphi:V\to I\cup \{ \bot \}$ be the optimal distribution on $\mathcal{I}$ where $\varphi(v)=\bot$ means no item has been assigned. Then, consider following item  distribution: $$\varphi'(v)=\begin{cases} {\bot}&\text{if }\varphi(v)\in G_{1}\text{ or }\varphi(v)={\bot}\\i_{pq}&\text{if }\varphi(v)=i_{pq+r}\text{ for }p\in[k-1],r\in\{ 0,\dots,k-1 \}\end{cases}$$This is clearly an item distribution on $\mathcal{J}$ and also feasible as we are only decreasing the size on the nodes. Hence, $$\text{OPT}(\mathcal{J})\geq \left| \{ v\in V:\varphi'(v)\neq {\bot} \} \right|\geq \left| \{ v\in V:\varphi(v)\neq {\bot} \} \right|-\left| G_{1} \right| =\text{OPT}(\mathcal{I})-q$$
-2. Claim 2: After assignment $\varphi(j)\neq {\bot}$ for all $j\in J$. We have $$s(\varphi) \geq s(\psi)-\varepsilon n $$$$s(\varphi)\leq n(1-\varepsilon)-$$
-
----
-
-
- **Claim 1**: Let $\varphi$ be the optimum. Then, $\max_{v:\varphi_{v}={\bot}}\min_{w\in N(v)}1-\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})< \min_{i\notin \varphi(V)} \text{size}(i)$. 
-
-  Assume otherwise. Then, there exists $v\in V$ with $\varphi_{v}={\bot}$ and an item $i\notin \varphi(V)$ s.t. $$1-\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})\geq \text{size}(i),\quad \forall w\in N(v)$$Let us define $\psi:V\to I\cup \{{\bot} \}$ with $\psi=\varphi$ on $V \backslash \{ v \}$ and $\psi(v)=i$. Then, clearly $\|\psi\|=\|\varphi\|+1$, which is a contradiction to the optimality of $\varphi$.
-
-$$\min_{v:\varphi_{v}={\bot}}\max_{w\in N(v)}\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})>1-\min_{i\notin \varphi(V)} \text{size}(i)$$
-
-**Claim 2:** Let $\varphi$ be optimum. Then, $\max_{v:\varphi_{v}={\bot}}\min_{w\in N(v)}1-\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})< \min_{i\in I} \text{size}(i)$. 
-
-Assume $v\in V$ and item $i\in I$ with $$1-\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})\geq \text{size}(i),\quad \forall w\in N(v)$$
-Let us define 
+Let $v_{j}$ and $u\in \{ v_{1},\dots,v_{j-1} \}$ be the only neighbor of $v_{j}$ in $T_{j}$. Then, 
+$$\text{DP}[j,\ell,v_{j},s]=$$
+ $$\text{DP}[j,\ell,u,s]=\max_{k: \ell_{p}\geq 1}\text{DP}[j-1,\ell-1,u,s-s_{p}]+1,\text{DP}[j-1,\ell,u,s]$$
 
 
 ---
-We have
-$$\text{OPT}=\left\| \varphi_{\text{OPT}} \right\| =\sum_{v\in V}^{}(1-\delta_{{\bot},\varphi(v)})\geq n-\sum_{v\in V}^{}\left( s+\max_{w\in N(v)} \sum_{u\in N(w)}^{}\text{size}(\varphi_{u})-h\right) $$
-and
-Let $\varphi(v)={\bot}$. Then, $\min_{w\in N(v)}h-\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})\leq s_{\text{min}} -1$ and: $$h-\max_{w\in N(v)}\sum_{u\in N(w)}^{}\text{size}(\varphi_{u})\leq\min_{i\notin \varphi(V)}\text{size}(i)-1 $$
 
-$$\delta_{{\bot},\varphi(v)}=\begin{cases}1\leq s+\max_{w\in N(v)}\sum_{u\in N(w)}\text{size}(\varphi_{u})-h\\0\leq\end{cases}$$
-
-
----
-Assume we have that $m> x\left( \frac{1}{\varepsilon}+1 \right)$. Then
-
-Then, let $S:=\{ i_{1},\dots,i_{x / \varepsilon} \}$ and $M:=\{ i_{x / \varepsilon+1},\dots,i_{x(1 / \varepsilon + 1)} \}$ Let us similarly split $S$ into $L^{2}$ groups and round up. For $i\notin S$, $\text{size}'(i)=\text{size}(i)$. 
-
-Since $\text{OPT}(I)\leq x$ and $\left| S \right|= x / \varepsilon$, $$\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-\varepsilon x$$
-
----
-
-Assume that $\varepsilon^{2}\cdot m\leq \text{OPT}< \varepsilon \cdot m$. Then, let $S:=\{ i_{1},\dots,i_{\varepsilon m} \}$. Then, $$\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-\varepsilon m$$
 
 Easy to check if $\text{OPT}(\mathcal{I})=0$. 
 
@@ -281,7 +164,7 @@ Easy to check if $\text{OPT}(\mathcal{I})=0$.
 \State $m\gets |I|$
 \State Sort the items into increasing order: $i_1,...,i_m$
 \State $T\gets \lceil \log m / \log (1 / \varepsilon)\rceil-2$
-\State $p_0\gets$ \Call{ExactItemDist}{$T,\{i_1,...,i_L\},\text{size}|_{\{i_1,...,i_L\}},h$}
+\State $p_0\gets$ \Call{ExactItemDist}{$T,\{i_1,...,i_{\min\{m,L\}}\},\text{size}|_{\{i_1,...,i_{\min\{m,L\}}\}},h$}
 \If{$p_0<L$}
 \Return $p_0$
 \EndIf
@@ -308,8 +191,10 @@ Let $\mathcal{\mathcal{I}}$ denote the original problem instance and $\mathcal{I
    
    Let $\psi$ be an optimal item distribution. We can always swap an item with an item of a smaller size and get a feasible optimum. Therefore, there exists an optimum using only the smallest items possible.
 
+Firstly, note that this algorithm runs in polynomial time. It calls 
+
 Let's consider the following two cases:
 1. If $\text{OPT}(\mathcal{I})< L$. Then, by claim 1, there exists an optimal distribution only using $i_{1},\dots,i_{L}$. Therefore, $p_{0}=\text{OPT}(\mathcal{I})<L$ and $\mathcal{A}(\mathcal{I})=p_{0}=\text{OPT}(\mathcal{I})$.
 2. if $\text{OPT}(\mathcal{I})\geq L$, then as $m\varepsilon^T\leq m\varepsilon^{\log m / \log(1 / \varepsilon)}/\varepsilon^{2}\leq \varepsilon^{-2}\leq L$, there exists $t\in [T]$ s.t. $m\varepsilon^t<\text{OPT}(\mathcal{I})\leq m\varepsilon^{t-1}$. Then, by Claim 1, we have that $\text{OPT}(\mathcal{I})=\text{OPT}(\mathcal{I}^t)$. 
    
-   Let $G_{1},\dots,G_{L+1}$ be the partition of $I_{t}$ where $\left| I_{t} \right|< m\varepsilon^{t-1}+1$. Further, let $\varphi:V\to I_{t}\cup \{ \bot \}$ be the optimal distribution on $\mathcal{I}_{t}$. Then, consider following item distribution: $$\psi(v)=\begin{cases} {\bot}&\text{if }\varphi(v)\in G_{1}\text{ or }\varphi(v)={\bot}\\i_{pq}&\text{if }\varphi(v)=i_{pq+r}\text{ for }p\in[k-1],r\in\{ 0,\dots,k-1 \}\end{cases}$$This is clearly an item distribution on $\mathcal{J}$ and also feasible as we are only decreasing the size on the nodes. Hence, $$\text{OPT}(\mathcal{J})\geq \left| \{ v\in V:\varphi'(v)\neq {\bot} \} \right|\geq \left| \{ v\in V:\varphi(v)\neq {\bot} \} \right|-\left| G_{1} \right| =\text{OPT}(\mathcal{I})-q$$
+   Let $G_{1},\dots,G_{L+1}$ be the partition of $I_{t}$ where $\left| I_{t} \right|< m\varepsilon^{t-1}+1$. Further, assume we have an optimal distribution on $\mathcal{I}_{t}$. Then, we can create a new item distribution on $\mathcal{J}$ by replacing each item in $G_{j}$ by one from $G_{j-1}$. This is still feasible as we are only reducing the sizes of the items, i.e. the item size of any element in $G_{j}$ is lower bounded by the rounded size of any element in $G_{j-1}$. As $\left| G_{j} \right|\leq \left| G_{j-1} \right|$ for all $j$, we only lose at most $\left| G_{1} \right|$ items as there aren't other items to replace items in $G_{1}$ with. Therefore, $$p_{t}=\text{OPT}(\mathcal{J}_{t})=\text{OPT}(\mathcal{I}_{t})- m\varepsilon^{t+1}=\text{OPT}(\mathcal{I})- m\varepsilon^{t+1}>(1-\varepsilon)\text{OPT}(\mathcal{I})$$as $m\varepsilon^t<\text{OPT}(\mathcal{I})$. It follows that we have $\mathcal{A}(\mathcal{I})\geq p_{t}\geq (1-\varepsilon)\text{OPT}(\mathcal{I})$.
