@@ -260,8 +260,13 @@ $$\delta_{{\bot},\varphi(v)}=\begin{cases}1\leq s+\max_{w\in N(v)}\sum_{u\in N(w
 
 
 ---
-Assume we have that $m> x / \varepsilon$. Then, let $S:=\{ i_{1},\dots,i_{x / \varepsilon} \}$. Let us similarly split $S$ into $L^{2}$ groups and round up. For $i\notin S$, $\text{size}'(i)=\text{size}(i)$. 
+Assume we have that $m> x\left( \frac{1}{\varepsilon}+1 \right)$. Then
+
+Then, let $S:=\{ i_{1},\dots,i_{x / \varepsilon} \}$ and $M:=\{ i_{x / \varepsilon+1},\dots,i_{x(1 / \varepsilon + 1)} \}$ Let us similarly split $S$ into $L^{2}$ groups and round up. For $i\notin S$, $\text{size}'(i)=\text{size}(i)$. 
 
 Since $\text{OPT}(I)\leq x$ and $\left| S \right|= x / \varepsilon$, $$\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-\varepsilon x$$
 
+---
+
+Assume that $\varepsilon^{2}\cdot m\leq \text{OPT}< \varepsilon \cdot m$. Then, let $S:=\{ i_{1},\dots,i_{\varepsilon m} \}$. Then, $$\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-\varepsilon m$$
 
