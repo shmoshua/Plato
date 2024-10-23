@@ -270,6 +270,8 @@ Since $\text{OPT}(I)\leq x$ and $\left| S \right|= x / \varepsilon$, $$\text{OPT
 
 Assume that $\varepsilon^{2}\cdot m\leq \text{OPT}< \varepsilon \cdot m$. Then, let $S:=\{ i_{1},\dots,i_{\varepsilon m} \}$. Then, $$\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-\varepsilon m$$
 
+Easy to check if $\text{OPT}(\mathcal{I})=0$. 
+
 
 ```pseudo
 \begin{algorithm} \caption{PTASItemDist($T,I,\text{size},h,\varepsilon$)} 
@@ -278,12 +280,16 @@ Assume that $\varepsilon^{2}\cdot m\leq \text{OPT}< \varepsilon \cdot m$. Then, 
 \State $L\gets \lceil 1/  \varepsilon^2\rceil$
 \State $m\gets |I|$
 \State Sort the items into increasing order: $i_1,...,i_m$
-\State $T\gets \lceil \log m / \log (1 / \varepsilon)\rceil$
+\State $T\gets \lceil \log m / \log (1 / \varepsilon)\rceil-2$
+\State $p_0\gets$ \Call{ExactItemDist}{$T,\{i_1,...,i_L\},\text{size}|_{\{i_1,...,i_L\}},h$}
+\If{$p_0<L$}
+\Return $p_0$
+\EndIf
 \For{$t\in[T]$}
-\State $I^t\gets\{i_1,...,i_{\lceil m \varepsilon^{t-1}\rceil}\}$, i.e. the $\lceil m \varepsilon^{t-1}\rceil$ smallest items in $I$.
-\State Partition $I$ into $L$ groups $G_1,...,G_L$ in increasing order with $\lfloor|I| / L\rfloor$ elements  each except the last group.
+\State $I_t\gets\{i_1,...,i_{\lceil m \varepsilon^{t-1}\rceil}\}$, i.e. the $\lceil m \varepsilon^{t-1}\rceil$ smallest items in $I$.
+\State Partition $I_t$ into $L+1$ groups $G_1,...,G_{L+1}$ in increasing order with $\lfloor m\varepsilon^{t+1}\rfloor$ elements  each except the last group.
 
-\For{$j\in[L]$}
+\For{$j\in[L+1]$}
 \State $s\gets \max_{i\in G_j}\text{size}(i)$
 \For{$i\in G_j$}
 \State $\text{size}^t(i)\gets s$
@@ -292,7 +298,7 @@ Assume that $\varepsilon^{2}\cdot m\leq \text{OPT}< \varepsilon \cdot m$. Then, 
 \State $p_t\gets$ \Call{ExactItemDist}{$T,I^t,\text{size}^t,h$}
 \EndFor
 
-\Return $\max_{t\in[T]}p_t$
+\Return $\max_{0\le t\le T}p_t$
 \end{algorithmic}
 \end{algorithm}
 ```
@@ -302,6 +308,8 @@ Let $\mathcal{\mathcal{I}}$ denote the original problem instance and $\mathcal{I
    
    Let $\psi$ be an optimal item distribution. We can always swap an item with an item of a smaller size and get a feasible optimum. Therefore, there exists an optimum using only the smallest items possible.
 
-Now, we have that $1\leq \text{OPT}(\mathcal{I})\leq m$. Hence, there exists 
-
-2. **Claim 2: Let $t\in[T]$ s.t. $m\varepsilon^t< \text{OPT}(\mathcal{I})\leq m\varepsilon^{t-1}$. Then, ** 
+Let's consider the following two cases:
+1. If $\text{OPT}(\mathcal{I})< L$. Then, by claim 1, there exists an optimal distribution only using $i_{1},\dots,i_{L}$. Therefore, $p_{0}=\text{OPT}(\mathcal{I})<L$ and $\mathcal{A}(\mathcal{I})=p_{0}=\text{OPT}(\mathcal{I})$.
+2. if $\text{OPT}(\mathcal{I})\geq L$, then as $m\varepsilon^T\leq m\varepsilon^{\log m / \log(1 / \varepsilon)}/\varepsilon^{2}\leq \varepsilon^{-2}\leq L$, there exists $t\in [T]$ s.t. $m\varepsilon^t<\text{OPT}(\mathcal{I})\leq m\varepsilon^{t-1}$. Then, by Claim 1, we have that $\text{OPT}(\mathcal{I})=\text{OPT}(\mathcal{I}^t)$. 
+   
+   Let $G_{1},\dots,G_{L+1}$ be the partition of $I_{t}$ where $\left| I_{t} \right|< m\varepsilon^{t-1}+1$. Further, let $\varphi:V\to I_{t}\cup \{ \bot \}$ be the optimal distribution on $\mathcal{I}_{t}$. Then, consider following item distribution: $$\psi(v)=\begin{cases} {\bot}&\text{if }\varphi(v)\in G_{1}\text{ or }\varphi(v)={\bot}\\i_{pq}&\text{if }\varphi(v)=i_{pq+r}\text{ for }p\in[k-1],r\in\{ 0,\dots,k-1 \}\end{cases}$$This is clearly an item distribution on $\mathcal{J}$ and also feasible as we are only decreasing the size on the nodes. Hence, $$\text{OPT}(\mathcal{J})\geq \left| \{ v\in V:\varphi'(v)\neq {\bot} \} \right|\geq \left| \{ v\in V:\varphi(v)\neq {\bot} \} \right|-\left| G_{1} \right| =\text{OPT}(\mathcal{I})-q$$
