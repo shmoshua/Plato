@@ -270,3 +270,38 @@ Since $\text{OPT}(I)\leq x$ and $\left| S \right|= x / \varepsilon$, $$\text{OPT
 
 Assume that $\varepsilon^{2}\cdot m\leq \text{OPT}< \varepsilon \cdot m$. Then, let $S:=\{ i_{1},\dots,i_{\varepsilon m} \}$. Then, $$\text{OPT}(\mathcal{J})\geq \text{OPT}(\mathcal{I})-\varepsilon m$$
 
+
+```pseudo
+\begin{algorithm} \caption{PTASItemDist($T,I,\text{size},h,\varepsilon$)} 
+\begin{algorithmic}
+\State $\varepsilon \gets \min\{\varepsilon,1/2\}$
+\State $L\gets \lceil 1/  \varepsilon^2\rceil$
+\State $m\gets |I|$
+\State Sort the items into increasing order: $i_1,...,i_m$
+\State $T\gets \lceil \log m / \log (1 / \varepsilon)\rceil$
+\For{$t\in[T]$}
+\State $I^t\gets\{i_1,...,i_{\lceil m \varepsilon^{t-1}\rceil}\}$, i.e. the $\lceil m \varepsilon^{t-1}\rceil$ smallest items in $I$.
+\State Partition $I$ into $L$ groups $G_1,...,G_L$ in increasing order with $\lfloor|I| / L\rfloor$ elements  each except the last group.
+
+\For{$j\in[L]$}
+\State $s\gets \max_{i\in G_j}\text{size}(i)$
+\For{$i\in G_j$}
+\State $\text{size}^t(i)\gets s$
+\EndFor
+\EndFor
+\State $p_t\gets$ \Call{ExactItemDist}{$T,I^t,\text{size}^t,h$}
+\EndFor
+
+\Return $\max_{t\in[T]}p_t$
+\end{algorithmic}
+\end{algorithm}
+```
+
+Let $\mathcal{\mathcal{I}}$ denote the original problem instance and $\mathcal{I}^t$ denote the problem with only $I^t$ as items. Lastly, let $\mathcal{J}^t$ be the problem instance with rounded item sizes, i.e. with $I^t$ and $\text{size}^t$. For the rest of the analysis we assume that $\varepsilon\leq \frac{1}{2}$. 
+1. **Claim 1: For $x\in \mathbb{N}$ with $\text{OPT}(\mathcal{I})\leq x$, there exists an optimal item distribution only on $i_{1},\dots,i_{x}$, i.e. there exists an item distribution $\varphi:V\to I'$ with $\text{im}(\varphi)\subseteq \{ {\bot},i_{1},\dots,i_{x} \}$ and $\left\| \varphi \right\|=\text{OPT}(\mathcal{I})$**
+   
+   Let $\psi$ be an optimal item distribution. We can always swap an item with an item of a smaller size and get a feasible optimum. Therefore, there exists an optimum using only the smallest items possible.
+
+Now, we have that $1\leq \text{OPT}(\mathcal{I})\leq m$. Hence, there exists 
+
+2. **Claim 2: Let $t\in[T]$ s.t. $m\varepsilon^t< \text{OPT}(\mathcal{I})\leq m\varepsilon^{t-1}$. Then, ** 
