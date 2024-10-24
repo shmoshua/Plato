@@ -140,6 +140,8 @@ We denote an item distribution with a vector $\varphi:V\to I\cup \{ {\bot} \}$ w
 2. 
 
 ---
+First remember that a tree is bipartite. Hence, 
+
 Let $v_{1},\dots,v_{n}$ be the order.
 We define a DP table as follows:
 1. $\text{DP}[j,\ell,v,s,q]:=$ maximum number of assigned items from $\ell$ on $T[v_{1},\dots,v_{j}]$ s.t. $\sum_{w\in N(v)}^{}\text{size}(w)\leq s$ with $v$ has item $q$.
