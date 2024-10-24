@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Flow (Graph).md",
                 "mode": "source",
                 "source": true
               }
@@ -44,8 +44,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4d5ec56e57395c88",
@@ -70,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Maximum Flow.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Graph Theory/Flow (Graph).md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +99,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
+                "file": "Graph Theory/Flow (Graph).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
+                "file": "Graph Theory/Flow (Graph).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md"
+                "file": "Graph Theory/Flow (Graph).md"
               }
             }
           }
@@ -230,11 +230,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d7c04c66eb340d4a",
+  "active": "5c95df8df979fbdf",
   "lastOpenFiles": [
+    "Graph Theory/Maximum Flow.md",
+    "Graph Theory/Flow (Graph).md",
+    "Probability Theory/Expected Value.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
-    "Probability Theory/Expected Value.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Graph Theory/Tree.md",
     "Graph Theory/Graph.md",
@@ -256,8 +258,6 @@
     "Algorithms/Star Search.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Kernel.md",
-    "Functional Analysis/Fourier Transform.md",
-    "Functional Analysis/Fourier Transform of Measures.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",

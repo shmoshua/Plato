@@ -35,3 +35,15 @@
 > 1. Assume that $c_{f}(S)>0$. Then, there exists $e\in E\cap (S\times V \backslash S)$ with $f(e)>0$. Let $e=(u,v)$. As $u$ is reachable in $\text{supp}(f)$ and $e\in \text{supp}(f)$, $v$ is reachable in $\text{supp}(f)$ which is a contradiction.
 
 ---
+> [!lemma] Theorem (Lower Bounds)
+> Let $G=(V,E)$ be a directed graph and $\ell,u:E\to \mathbb{R}_{\geq 0}$ be the lower bound and upper bound functions. Then, we define a flow network $G'$ where:
+> 1. $V(G'):=V \cup \{ s',t' \}$
+> 2. $E(G'):=E \cup \{ s' \to v \}_{v\in V}\cup \{ v\to t' \}_{v\in V}\cup \{ t\to s \}$
+> 
+> Then, TFAE:
+> 1. $G$ has a feasible $(s,t)$-flow.
+> 2. $G'$ has a saturating $(s',t')$-flow.
+
+> [!proof]+
+> We have:
+> 1. (1=>2): Let $f: E\to \mathbb{R}$ be a feasible $(s,t)$-flow in $G$. Then, we can extend this into the following $f':E'\to \mathbb{R}$ where: $$\begin{align}f'()\end{align}$$
