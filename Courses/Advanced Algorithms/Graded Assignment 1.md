@@ -150,6 +150,8 @@ Let $v_{j}$ and $u\in \{ v_{1},\dots,v_{j-1} \}$ be the only neighbor of $v_{j}$
 $$\text{DP}[j,\ell,v_{j},s,q]=\begin{cases}\text{DP}[j-1,\ell,u,h-q,]\end{cases}$$
  $$\text{DP}[j,\ell,u,s]=\max_{k: \ell_{p}\geq 1}\text{DP}[j-1,\ell-1,u,s-s_{p}]+1,\text{DP}[j-1,\ell,u,s]$$
 
+---
+Let 
 
 ---
 

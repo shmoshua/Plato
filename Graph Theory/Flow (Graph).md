@@ -46,4 +46,4 @@
 
 > [!proof]+
 > We have:
-> 1. (1=>2): Let $f: E\to \mathbb{R}$ be a feasible $(s,t)$-flow in $G$. Then, we can extend this into the following $f':E'\to \mathbb{R}$ where: $$\begin{align}f'()\end{align}$$
+> 1. (1=>2): Let $f: E\to \mathbb{R}$ be a feasible $(s,t)$-flow in $G$. Then, we can extend this into the following $f':E'\to \mathbb{R}$ where: $$\begin{align}f'(e)&=f(e)-\ell(e)&& \forall e\in E\\f'(s'\to v)&=\sum_{u\in V}^{}\ell(u\to v)&&\forall v\in V\\f'(v\to t')&=\sum_{u\in V}^{}\ell(v\to u)&&\forall v\in V\\f'(t\to s)&=\left\| f \right\| \end{align}$$As $\ell(e)\leq f(e)\leq u(e)$, we have that $0\leq f'(e)\leq c'(e)$. One also sees that: $$\sum_{v\in V'}^{}f'(u\to v)=\sum_{u\in V}^{}\ell(u\to v)+\sum_{v\in V}^{}f(u\to v)-\ell(u\to v)=\sum_{v\in V}^{}f(u\to v)$$
