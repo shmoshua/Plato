@@ -151,7 +151,7 @@ $$\text{DP}[j,\ell,v_{j},s,q]=\begin{cases}\text{DP}[j-1,\ell,u,h-q,]\end{cases}
  $$\text{DP}[j,\ell,u,s]=\max_{k: \ell_{p}\geq 1}\text{DP}[j-1,\ell-1,u,s-s_{p}]+1,\text{DP}[j-1,\ell,u,s]$$
 
 ---
-Let 
+Let C1,...,C_n be different configurations. 
 
 ---
 
