@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Bin-Packing.md",
+                "file": "Machine Learning/Bayesian Network.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Maximum Flow.md",
+                "file": "Machine Learning/Bayesian Network.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,7 +100,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
+                "file": "Machine Learning/Bayesian Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
+                "file": "Machine Learning/Bayesian Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md"
+                "file": "Machine Learning/Bayesian Network.md"
               }
             }
           }
@@ -230,17 +231,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "94cf23805d50d125",
+  "active": "e6b2bf6efe3987bc",
   "lastOpenFiles": [
-    "Graph Theory/Flow (Graph).md",
+    "Algorithms/Bin-Packing.md",
+    "Machine Learning/Bayesian Network.md",
     "Graph Theory/Maximum Flow.md",
+    "Courses/Advanced Algorithms/Graded Assignment 1.md",
+    "Graph Theory/Flow (Graph).md",
     "Probability Theory/Expected Value.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Graph Theory/Tree.md",
     "Graph Theory/Graph.md",
-    "Algorithms/Bin-Packing.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Measure Theory/Product Measure.md",
     "Algorithms/Randomized Online Algorithm.md",
@@ -257,7 +259,6 @@
     "Algorithms/Maximum Subarray Sum.md",
     "Algorithms/Star Search.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Analysis/Kernel.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
