@@ -220,5 +220,7 @@ Analysis!
 	3. if $a\geq X, b< X$, then $c_{\mathcal{A}}=a+b+2X-2\leq (3X-2+a)\leq b+X$
 	4. if $a\geq X,b\geq X$, then $c_{\mathcal{A}}=a+b+2X-2\leq () 4$
 
+Let $a$ days for ski then $b$ for snowboard. Then, we have:
+1. 
 
 $\min (1+a,1+\frac{2}{a})$. 
