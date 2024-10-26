@@ -212,15 +212,32 @@ Let $\mathcal{A}$ be a deterministic algorithm. The adversary works as follows:
 3. Stops the input when the algorithm buys both the skis and the snowboard at once.
 
 Analysis!
-1. Case 1: $\mathcal{A}$ didn't buy in bundle.
-	Let $a$ days for ski then $b$ for snowboard. Then, the cost of the algorithm is: $$c_{\mathcal{A}}=a+b+2X-2$$whereas $c_{\text{OPT}}=\min\{a,X\}+\min\{b,X\}$
+1. Case 1: $\mathcal{A}$ didn't buy in bundle, doesn't buy the skis.
+	$c_{\mathcal{A}}\geq 2X$ and $c_{\text{OPT}}=X$. Therefore,
+2. Case 2: $\mathcal{A}$ didn't buy in bundle, bought the ski after $a$ days but doesn't buy the board.
+	$c_{\mathcal{A}}\geq$ $c_{\text{OPT}}=Y$
+1. Case 3: $\mathcal{A}$ didn't buy in bundle, bought the ski after $a$ days and board after $b$ days. 
+   Then, the cost of the algorithm is: $$c_{\mathcal{A}}=a+b+2X-2$$whereas $c_{\text{OPT}}=\min\{a,X\}+\min\{b,X\}$
 		Hence,
 	1.  if $a< X,b<X$, then $c_{\mathcal{A}}=a+b+2X-2\leq (4X-2)\leq (1+\lambda)(a+b)$
 	2. if $a<X, b\geq X$, then $c_{\mathcal{A}}=a+b+2X-2\leq (3X-2+b)\leq a+X$
 	3. if $a\geq X, b< X$, then $c_{\mathcal{A}}=a+b+2X-2\leq (3X-2+a)\leq b+X$
 	4. if $a\geq X,b\geq X$, then $c_{\mathcal{A}}=a+b+2X-2\leq () 4$
+2. Case 2: $\mathcal{A}$ buys $$
 
 Let $a$ days for ski then $b$ for snowboard. Then, we have:
-1. 
+1. $a<X,b<X$ then $c_{\text{OPT}}=\min\{a+b,Y\}$
+3. $a\geq X,b<X$ then $c_{\text{OPT}}=\min\{b+X,Y\}$
+4. $a<X,b\geq X$ then $c_{\text{OPT}}=\min\{a+X,Y\}$
+5. $a\geq X,b\geq X$ then $c_{\text{OPT}}=Y$
 
-$\min (1+a,1+\frac{2}{a})$. 
+Then, if $\mathcal{A}$:
+1. $\mathcal{A}$ didn't buy in bundle, 
+
+Let $Y=(1+\sqrt{ 2 })X$. Then, $\min(1+\sqrt{ 2 },)$
+$\min \left( \frac{Y}{X}, \frac{2X}{Y} \right)$. 
+
+$$\frac{2X}{1+\sqrt{ 2 }}=-2(1-\sqrt{ 2 })=2\sqrt{ 2 }-2$$
+
+Let $X=1$ and $Y=1+\sqrt{ 2 }$. 
+1. $a<X,b<X$ then 
