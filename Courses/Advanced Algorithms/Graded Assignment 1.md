@@ -203,3 +203,22 @@ Let's consider the following two cases:
 2. if $\text{OPT}(\mathcal{I})\geq L$, then as $m\varepsilon^T\leq m\varepsilon^{\log m / \log(1 / \varepsilon)}/\varepsilon^{2}\leq \varepsilon^{-2}\leq L$, there exists $t\in [T]$ s.t. $m\varepsilon^t<\text{OPT}(\mathcal{I})\leq m\varepsilon^{t-1}$. Then, by Claim 1, we have that $\text{OPT}(\mathcal{I})=\text{OPT}(\mathcal{I}^t)$. 
    
    Let $G_{1},\dots,G_{L+1}$ be the partition of $I_{t}$ where $\left| I_{t} \right|< m\varepsilon^{t-1}+1$. Further, assume we have an optimal distribution on $\mathcal{I}_{t}$. Then, we can create a new item distribution on $\mathcal{J}$ by replacing each item in $G_{j}$ by one from $G_{j-1}$. This is still feasible as we are only reducing the sizes of the items, i.e. the item size of any element in $G_{j}$ is lower bounded by the rounded size of any element in $G_{j-1}$. As $\left| G_{j} \right|\leq \left| G_{j-1} \right|$ for all $j$, we only lose at most $\left| G_{1} \right|$ items as there aren't other items to replace items in $G_{1}$ with. Therefore, $$p_{t}=\text{OPT}(\mathcal{J}_{t})=\text{OPT}(\mathcal{I}_{t})- m\varepsilon^{t+1}=\text{OPT}(\mathcal{I})- m\varepsilon^{t+1}>(1-\varepsilon)\text{OPT}(\mathcal{I})$$as $m\varepsilon^t<\text{OPT}(\mathcal{I})$. It follows that we have $\mathcal{A}(\mathcal{I})\geq p_{t}\geq (1-\varepsilon)\text{OPT}(\mathcal{I})$.
+---
+### 4. Ski Rental
+
+Let $\mathcal{A}$ be a deterministic algorithm. The adversary works as follows:
+1. Give ski until the algorithm buys the skis.
+2. Then, give snowboard until the algorithm buys the snowboard.
+3. Stops the input when the algorithm buys both the skis and the snowboard at once.
+
+Analysis!
+1. Case 1: $\mathcal{A}$ didn't buy in bundle.
+	Let $a$ days for ski then $b$ for snowboard. Then, the cost of the algorithm is: $$c_{\mathcal{A}}=a+b+2X-2$$whereas $c_{\text{OPT}}=\min\{a,X\}+\min\{b,X\}$
+		Hence,
+	1.  if $a< X,b<X$, then $c_{\mathcal{A}}=a+b+2X-2\leq (4X-2)\leq (1+\lambda)(a+b)$
+	2. if $a<X, b\geq X$, then $c_{\mathcal{A}}=a+b+2X-2\leq (3X-2+b)\leq a+X$
+	3. if $a\geq X, b< X$, then $c_{\mathcal{A}}=a+b+2X-2\leq (3X-2+a)\leq b+X$
+	4. if $a\geq X,b\geq X$, then $c_{\mathcal{A}}=a+b+2X-2\leq () 4$
+
+
+$\min (1+a,1+\frac{2}{a})$. 
