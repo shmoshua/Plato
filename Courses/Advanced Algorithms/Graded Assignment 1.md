@@ -216,7 +216,7 @@ Analysis!
 1. Case 1: $\mathcal{A}$ didn't buy in bundle, doesn't buy the skis.
 	$c_{\mathcal{A}}\geq 2X$ and $c_{\text{OPT}}=X$. Therefore,
 2. Case 2: $\mathcal{A}$ didn't buy in bundle, bought the ski after $a$ days but doesn't buy the board.
-	$c_{\mathcal{A}}=a-1+X+n$ and $c_{\text{OPT}}=Y$
+	$c_{\mathcal{A}}=a-1+X+2X-a$ and $c_{\text{OPT}}=Y$
 1. Case 3: $\mathcal{A}$ didn't buy in bundle, bought the ski after $a$ days and board after $b$ days. 
    Then, the cost of the algorithm is: $$c_{\mathcal{A}}=a+b+2X-2$$whereas $c_{\text{OPT}}=\min\{a,X\}+\min\{b,X\}$
 		Hence,
