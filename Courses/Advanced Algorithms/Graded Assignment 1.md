@@ -278,12 +278,13 @@ Then, we have:
 
 1. $\mathcal{A}$ buys the bundle in phase 1. 
 	1. $\text{cost}_{\mathcal{A}}(\sigma)=a-1+Y$ and optimal cost $\min\{a,X\}$.
-		$$\begin{align}\text{cost}_{\mathcal{A}}(\sigma)&=a-1+Y\geq2\cdot \min\{a,Y\}-1\geq 2\cdot \min\{a,X\}-1\\&=\left( 2-\frac{1}{\min \{a,X\}} \right)\min\{a,X\}\\&\geq \left( 2-\frac{1}{2X} \right) \end{align}$$
+		$$\begin{align}\text{cost}_{\mathcal{A}}(\sigma)&=a-1+Y\geq2\cdot \min\{a,Y\}-1\geq 2\cdot \min\{a,X\}-1\\&=\left( 2-\frac{1}{\min \{a,X\}} \right)\min\{a,X\}\\&\geq \left( 2-\frac{1}{Y} \right) \end{align}$$
 2. $\mathcal{A}$ doesn't buy the bundle. Then, $\text{cost}_{\mathcal{A}}(\sigma)=a+b+2X-2$ and:
 	1. if $a<X,b<X$, the optimal cost is $\min\{a+b,Y\}$
 	2. if $a<X,b\geq X$, the optimal cost is $\min\{a+X,Y\}$
 	3. if $a\geq X,b<X$, the optimal cost is $\min\{b+X,Y\}$
 	4. if $a\geq X,b\geq X$, the optimal cost is $Y$.
-3. 
+
+$\left( 1-\frac{1}{Y} \right)=\sqrt{ 2 }$
 
 where $\min\left( 1+a,1+\frac{2}{a} \right)$
