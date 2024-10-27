@@ -291,13 +291,13 @@ $\left( 1-\frac{1}{Y} \right)=\sqrt{ 2 }$
 where $\min\left( 1+a,1+\frac{2}{a} \right)$
 
 ---
-Let $\varepsilon>0$. We show that $\mathcal{A}$ is not $(1+\sqrt{ 2 }-\varepsilon)$-competitive. Assume otherwise. 
-1. If $\mathcal{A}$ bought in bundle in phase 1. $$\text{cost}=\min\{ a-1+Y,X \}\leq(1+\sqrt{ 2 }-\varepsilon)\cdot a$$
-2. If $k\leq Y$, $$\text{cost}=k-1+\sqrt{ 2 }X\leq (1+\sqrt{ 2 }-\varepsilon)\cdot k=k+\sqrt{ 2 }X-\varepsilon \cdot k$$No contradiction?
+Let $\varepsilon>0$ and choose $X\in \mathbb{N}$ s.t. $\frac{1}{X}<\varepsilon$. Let $Y:= \sqrt{ 2 }\cdot X$. We show that $\mathcal{A}$ is not $(1+\sqrt{ 2 }-\varepsilon)$-competitive. 
 
-Let $a$ be the number of days $\mathcal{A}$ rents skis. Then,
+Let $a$ be the number of days $\mathcal{A}$ rents skis and $b$ Then,
 1. if $a<2X$,
-	1. if $\mathcal{A}$ buys only skis: $$$$
-	2. if $\mathcal{A}$ buys in bundle: $$\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}=\frac{a+Y}{\min\{a+1,Y\}}$$
-3. $a=T$. 
-4. 
+	1. if $\mathcal{A}$ buys only skis, then let $b$ be the number of days $\mathcal{A}$ rents board. Then, 
+		1. if $b=2X$ then  $$\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}=\frac{a+3X}{\min\{a+1,Y\}}\geq 2-\frac{1}{Y}$$
+	2. if $\mathcal{A}$ buys in bundle: $$\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}=\frac{a+Y}{\min\{a+1,X\}}\geq 2-\frac{1}{Y}$$
+	3. if $\mathcal{A}$ buys 
+2. $a=T$. 
+3. 
