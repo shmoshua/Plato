@@ -298,11 +298,12 @@ Let $\varepsilon>0$ and choose $X\in \mathbb{N}$ s.t. $\frac{1}{X}<\varepsilon/\
 Let $a,b$ be the number of days $\mathcal{A}$ rents skis and snowboard respectively.  Then, we have the following case distinctions.
 1. Assume that $a<2X$ and $\mathcal{A}$ bought both skis and snowboard in a bundle on day $a+1$. Then, as phase 2 doesn't happen, $$\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}=\frac{a+Y}{\min\{a+1,X\}}\geq 1+\frac{\sqrt{ 2 }X-1}{X}>1+\sqrt{ 2 }-\varepsilon$$
 2. Assume that $a<2X$ and $\mathcal{A}$ buys only skis on day $a+1$. Then, we have the following two cases:
-	1. Assume that $b<2X$. Then, if 
-		1. if $a+1\leq X,b+1\leq X$, then:
-	     $$\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}=\frac{a+b+2X}{\min\{ a+b+2,Y \}}\geq 1+\frac{2X-2}{Y}= 1+\frac{2X-2}{\sqrt{ 2 }X}>1+\sqrt{ 2 }-\varepsilon$$
-	     2. if $a+1 > X,b+1\leq X$, then: $$\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}=\frac{a+b+2X}{\min\{ b+1+X,Y \}}\geq 1+\frac{a+X-1}{Y}> 1+\frac{2X-2}{\sqrt{ 2 }X}>1+\sqrt{ 2 }-\varepsilon$$
-	     3. if $a+1 \le X,b+1 \geq X$, then: $$\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}=\frac{a+b+2X}{\min\{ a+1+X,Y \}}\geq 1+\frac{b+X-1}{Y}> 1+\frac{2X-2}{\sqrt{ 2 }X}>1+\sqrt{ 2 }-\varepsilon$$
-	     4. if $a+1 \geq X,b+1 \geq X$, then: $$\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}=\frac{a+b+2X}{\min\{ 2X,Y \}}\geq 1+\frac{a+b-1}{Y}> 1+\frac{2X-2}{\sqrt{ 2 }X}>1+\sqrt{ 2 }-\varepsilon$$
+	1. Assume that $b<2X$. Then, $\text{cost}_\mathcal{A}(\sigma)=a+b+2X$ and $\text{cost}_{\text{OPT}}(\sigma)=\min \{ a+1,X \}+\min \{ b+1,X \}$. Notice that $a+b+2\geq \min \{ a+1,X \}+\min \{ b+1,X \}$ and therefore, $$a+b+2X-\min \{ a+1,X \}-\min \{ b+1,X \}\geq 2X-2$$Hence, by Lemma 1,  $$\begin{align}\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}&=\frac{a+b+2X}{\min\{ \min \{ a+1,X \}+\min \{ b+1,X \},Y \}}\\&\geq 1+\frac{2X-2}{Y}= 1+\frac{2X-2}{\sqrt{ 2 }X}>1+\sqrt{ 2 }-\varepsilon\end{align}$$
+	2. Assume that $b=2X$. Then, if $a+1\leq X$, 
+	   $$\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}=\frac{a+3X}{\min\{a+1+X,Y\}}\geq 1+\frac{2X-1}{Y}>1+\sqrt{ 2 }-\varepsilon$$
+3. Assume that $a=2X$. Then, assume that $b<2X$. Then, $\text{cost}_\mathcal{A}(\sigma)=b+3X$ and $\text{cost}_{\text{OPT}}(\sigma)=X+\min \{ b+1,X \}$. Notice that $a+b+2\geq \min \{ a+1,X \}+\min \{ b+1,X \}$ and therefore, $$a+b+2X-\min \{ a+1,X \}-\min \{ b+1,X \}\geq 2X-2$$Hence, by Lemma 1,  $$\begin{align}\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}&=\frac{a+b+2X}{\min\{ \min \{ a+1,X \}+\min \{ b+1,X \},Y \}}\\&\geq 1+\frac{2X-2}{Y}= 1+\frac{2X-2}{\sqrt{ 2 }X}>1+\sqrt{ 2 }-\varepsilon\end{align}$$
+	2. Assume that $b=2X$. Then, if $a+1\leq X$, 
+	   $$\frac{\text{cost}_{\mathcal{A}}(\sigma)}{\text{cost}_{\text{OPT}}(\sigma)}=\frac{a+3X}{\min\{a+1+X,Y\}}\geq 1+\frac{2X-1}{Y}>1+\sqrt{ 2 }-\varepsilon$$
+	
 
 ---
