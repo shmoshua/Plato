@@ -241,3 +241,29 @@ $$\frac{2X}{1+\sqrt{ 2 }}=-2(1-\sqrt{ 2 })=2\sqrt{ 2 }-2$$
 
 Let $X=1$ and $Y=1+\sqrt{ 2 }$. 
 1. $a<X,b<X$ then 
+
+---
+Let $\mathcal{A}$ be a deterministic algorithm. We construct the following pseudocode for the adversary:
+
+
+```pseudo
+\begin{algorithm} \caption{RentalAdversary($\mathcal{A}$)} 
+\begin{algorithmic}
+\State Send $X,Y$ as input.
+\State $k\gets 1$
+\While {$\mathcal{A}$ haven't bought skis and $k\le 2X$}
+\State $\sigma_k\gets $ skis
+\State Send $\sigma_k$ as input for $\mathcal{A}$.
+\State $k\gets k+1$
+\EndWhile
+\State $k\gets 1$
+\While {$\mathcal{A}$ haven't bought a snowboard and $k\le 2X$}
+\State $\sigma_k\gets $ snowboard
+\State Send $\sigma_k$ as input for $\mathcal{A}$.
+\State $k\gets k+1$
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
+```
+
+Let $\sigma:=(\sigma_{1},\dots,\sigma_{n})$ where $n\leq 4X$. We claim that $\text{cost}_{\mathcal{A}}(\sigma)\geq (1+\sqrt{ 2 })\text{cost}_{\text{OPT}}(\sigma)$. 
