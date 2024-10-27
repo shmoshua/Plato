@@ -266,4 +266,24 @@ Let $\mathcal{A}$ be a deterministic algorithm. We construct the following pseud
 \end{algorithm}
 ```
 
-Let $\sigma:=(\sigma_{1},\dots,\sigma_{n})$ where $n\leq 4X$. We claim that $\text{cost}_{\mathcal{A}}(\sigma)\geq (1+\sqrt{ 2 })\text{cost}_{\text{OPT}}(\sigma)$. 
+Let $\sigma:=(\sigma_{1},\dots,\sigma_{n})$ where $n\leq 4X$. We claim that $\text{cost}_{\mathcal{A}}(\sigma)\geq (1+\sqrt{ 2 })\text{cost}_{\text{OPT}}(\sigma)$. We can denote the two different while loops above as two phases. Let $a,b\leq 2X$ denote the number of iterations of each phase. 
+
+1. If $\mathcal{A}$ bought in bundle in phase 1:
+   Then, $b=0$ and $\text{cost}_{\mathcal{A}}(\sigma)=a-1+Y$. It is impossible for the algorithm to buy $X$ and $Y$. $$\text{cost}_{\mathcal{A}}(\sigma)=$$
+2. If $\mathcal{A}$ bought in bundle in phase 2:
+	Then, $\text{cost}_{\mathcal{A}}(\sigma)\geq \min\{2X, a-1+X\}+b-1+Y\geq \min\{2X, a-1+X\}+b-1+X$
+3. If $\mathcal{\mathcal{A}}$ doesn't buy in bundle: $$\text{cost}_{\mathcal{A}}(\sigma)\geq\min\{2X,a-1+X\}+\min\{2X,b-1+X\}$$
+Notice if $\mathcal{A}$ bought the skis and the snowboard in bundle in phase 2, the cost will always be lower bounded by buying the 
+Then, we have:
+
+1. $\mathcal{A}$ buys the bundle in phase 1. 
+	1. $\text{cost}_{\mathcal{A}}(\sigma)=a-1+Y$ and optimal cost $\min\{a,X\}$.
+		$$\begin{align}\text{cost}_{\mathcal{A}}(\sigma)&=a-1+Y\geq2\cdot \min\{a,Y\}-1\geq 2\cdot \min\{a,X\}-1\\&=\left( 2-\frac{1}{\min \{a,X\}} \right)\min\{a,X\}\\&\geq \left( 2-\frac{1}{2X} \right) \end{align}$$
+2. $\mathcal{A}$ doesn't buy the bundle. Then, $\text{cost}_{\mathcal{A}}(\sigma)=a+b+2X-2$ and:
+	1. if $a<X,b<X$, the optimal cost is $\min\{a+b,Y\}$
+	2. if $a<X,b\geq X$, the optimal cost is $\min\{a+X,Y\}$
+	3. if $a\geq X,b<X$, the optimal cost is $\min\{b+X,Y\}$
+	4. if $a\geq X,b\geq X$, the optimal cost is $Y$.
+3. 
+
+where $\min\left( 1+a,1+\frac{2}{a} \right)$
