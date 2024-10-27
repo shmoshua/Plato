@@ -251,13 +251,13 @@ Let $\mathcal{A}$ be a deterministic algorithm. We construct the following pseud
 \begin{algorithmic}
 \State Send $X,Y$ as input.
 \State $k\gets 1$
-\While {$\mathcal{A}$ haven't bought skis and $k\le 2X$}
+\While {$\mathcal{A}$ hasn't bought skis and $k\le 2X$}
 \State $\sigma_k\gets $ skis
 \State Send $\sigma_k$ as input for $\mathcal{A}$.
 \State $k\gets k+1$
 \EndWhile
 \State $k\gets 1$
-\While {$\mathcal{A}$ haven't bought a snowboard and $k\le 2X$}
+\While {$\mathcal{A}$ hasn't bought a snowboard and $k\le 2X$}
 \State $\sigma_k\gets $ snowboard
 \State Send $\sigma_k$ as input for $\mathcal{A}$.
 \State $k\gets k+1$
