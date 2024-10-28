@@ -331,3 +331,8 @@ $$2y_{e}-\frac{1}{2}\le r_{v}(1-r_{w})$$
 As we have that: $$2y_{e}-\frac{1}{2}\le \begin{cases}2r_{v}-\frac{1}{2}\\ \frac{3}{2}-2r_{w}\end{cases}$$
 
 if $r_{v}(1-r)$
+
+---
+If $\left| E_{R} \right|,\left| E_{B} \right|\leq\left\lceil \frac{1}{3}\left| E \right|\right\rceil-1$ Then, $$|E_{R}|+|E_{B}|\leq 2\left\lceil \frac{1}{3}|E|\right\rceil-2< \frac{2}{3}|E| $$and $|E_{R}|+|E_{B}|\le \left\lceil \frac{2}{3}|E|\right\rceil-1$. Therefore, $|E_{V}|\ge |E|-\left\lceil \frac{2}{3}|E|\right\rceil+1=\frac{1}{3}|E|+1$. Hence,
+
+$$\begin{aligned}\mathbb{E}[X]&=\sum_{e\in E_R}\mathbb{P}(v\text{ or }w\text{ is blue})+\sum_{e\in E_B}\mathbb{P}(v\text{ or }w\text{ is red})+\sum_{e\in E_V}\mathbb{P}(v,w\text{ has the same color})\\&\leq \frac{3}{4}(|E_R|+|E_B|)+\frac{1}{2}|E_V|\\&\le \frac{3}{4}(|E|-|E_V|)+\frac{1}{2}|E_V|\\&=\frac{3}{4}|E|-\frac{1}{4}|E_V|\\&\le\frac{3}{4}|E|-\frac{1}{12}|E|-\frac{1}{4}\\&=\frac{2}{3}|E|-\frac{1}{4}\end{aligned}$$Therefore, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3} \right)$$
