@@ -116,6 +116,9 @@ Now, color the vertex red with probability $r_{v}$. Then,
 3. For $e=\{ v,w \}\in E_{V}$, $\mathbb{P}(e\text{ no point})=r_{v}r_{w}+(1-r_{v})(1-r_{w})$
 
 Then, let $X$ be the number of edges that did not get a point. We have: $$\begin{align}\mathbb{E}[X]&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-r_{v})+(1-r_{w})+\sum_{\{ v,w \}\in E_{B}}^{}r_{v}+r_{w}+\sum_{\{ v,w \}\in E_{V}}^{}r_{v}r_{w}+(1-r_{v})(1-r_{w})\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}1-y_{e}-z_{e}\\&=\left| E \right| -p\end{align}$$
+
+Now, run the algorithm $T$ times and output the maximum. Then, $$\mathbb{P}\left( \mathcal{A}< \frac{1}{3}\text{OPT} \right)=\left( 1-\frac{2p}{3\left| E \right| -p} \right) ^T$$
+
 Therefore, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)=\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}\text{OPT} \right)\leq\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}p \right) \leq \frac{\left| E \right| -p}{\left| E \right| -\frac{1}{3}p}=1-\frac{2p}{3\left| E \right| -p} $$ 
 
 

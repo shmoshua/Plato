@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Moment.md",
+                "file": "Algorithms/MAX-SAT.md",
                 "mode": "preview",
                 "source": true
               }
@@ -221,8 +221,13 @@
   "active": "d7c04c66eb340d4a",
   "lastOpenFiles": [
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Probability Theory/Moment.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
+    "Algorithms/MAX-SAT.md",
+    "Algorithms/Multi-Commodity Routing.md",
+    "Algorithms/Monotone Submodular Maximization.md",
+    "Algorithms/DNF Counting.md",
+    "Courses/Advanced Algorithms/Exercise 02.md",
+    "Probability Theory/Moment.md",
     "Graph Theory/Flow (Graph).md",
     "Graph Theory/Tree.md",
     "Machine Learning/Bayesian Network.md",
@@ -241,11 +246,6 @@
     "Algorithms/Approximation Algorithm.md",
     "Machine Learning/Gaussian Process.md",
     "Algorithms/Ski Rental.md",
-    "Analysis/Fourier Transform (Rn).md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Probability Theory/Characteristic Function.md",
-    "Algorithms/Maximum Subarray Sum.md",
-    "Algorithms/Star Search.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
