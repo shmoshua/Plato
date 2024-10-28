@@ -76,6 +76,12 @@ Then, let $X$ be the number of edges that did not get a point. We have: $$\begin
 
 Then, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)=\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}\text{OPT} \right)\leq\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}p \right) \leq \frac{2\left| E \right| -2p+\left| E_{V} \right| }{\left| E \right| -\frac{1}{3}p} $$
 
+as $r_{v}r_{w}\le \frac{(r_{v}+r_{w})^2}{4}\le \frac{(2-x_{e})^2}{4}=1-x_{e}+\frac{x_{e}^{2}}{4}$
+
+Then, let $X$ be the number of edges that did not get a point. We have: $$\begin{align}\mathbb{E}[X]&\leq\sum_{\{ v,w \}\in E_{R}}^{}(1-r_{v})+(1-r_{w})+\sum_{\{ v,w \}\in E_{B}}^{}r_{v}+r_{w}+\sum_{\{ v,w \}\in E_{V}}^{}r_{v}+r_{w}\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}1-r_{v}-r_{w}+2-2x_{e}+\frac{x_{e}^{2}}{2}\\&\leq\sum_{\{ v,w \}\in E_{R}}^{}2(1-x_{e}) +\sum_{\{ v,w \}\in E_{B}}^{}2(1-x_{e})+\sum_{\{ v,w \}\in E_{V}}1-x_{e}+2r_{v}r_{w}\\&=2\sum_{e\in E}^{}1-x_{e}+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-1+2r_{v}r_{w}\\&=2\left| E \right| -2p+\sum_{\{ v,w \}\in E_{V}}^{}x_{e}-1+2r_{v}r_{w}\\&\end{align}$$
+
+Then, $$\mathbb{P}\left( \left| E \right| -X< \frac{1}{3}\text{OPT} \right)=\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}\text{OPT} \right)\leq\mathbb{P}\left( X>\left| E \right| -\frac{1}{3}p \right) \leq \frac{2\left| E \right| -2p+\left| E_{V} \right| }{\left| E \right| -\frac{1}{3}p} $$
+
 
 Hence, $\mathbb{E}[\text{\#points}]=\left| E \right|-\mathbb{E}[X]\geq 2\text{OPT}-\left| E \right|-2\left| E_{V} \right|$ 
 
