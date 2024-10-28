@@ -326,3 +326,8 @@ Let $a,b$ be the number of days $\mathcal{A}$ rents skis and snowboard respectiv
 	
 
 ---
+We will show that 
+$$2y_{e}-\frac{1}{2}\le r_{v}(1-r_{w})$$
+As we have that: $$2y_{e}-\frac{1}{2}\le \begin{cases}2r_{v}-\frac{1}{2}\\ \frac{3}{2}-2r_{w}\end{cases}$$
+
+if $r_{v}(1-r)$
