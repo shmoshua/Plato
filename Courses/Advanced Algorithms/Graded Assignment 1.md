@@ -127,7 +127,7 @@ $$\begin{align}\max\quad& \sum_{e\in E_{R}}x_{e}+\sum_{e\in E_{B}}^{}y_{e}+\sum_
 
 1. For $e=\{ v,w \}\in E_{R}$, $\mathbb{P}(e\text{ no point})\le (1-r_{w})+(1-r_{v})\le 1-x_{e}+1-x_{e}$
 2. For $e=\{ v,w \}\in E_{B}$, $\mathbb{P}(e\text{ no point})\le r_{v}+r_{w}\le 1-y_{e}+1-y_{e}$
-3. For $e=\{ v,w \}\in E_{V}$, $\mathbb{P}(e\text{ no point})=r_{v}r_{w}+(1-r_{v})(1-r_{w})=1-r_{v}-r_{w}+2r_{v}r_{w}$
+3. For $e=\{ v,w \}\in E_{V}$, $\mathbb{P}(e\text{ no point})=r_{v}r_{w}+(1-r_{v})(1-r_{w})=1-r_{v}-r_{w}+2r_{v}r_{w}\leq 1-z_{e}$
 
 
 ---
