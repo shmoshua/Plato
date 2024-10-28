@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Bayesian Network.md",
+                "file": "Graph Theory/Cut (Graph).md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -221,6 +221,9 @@
   },
   "active": "ceb5c4df66353e90",
   "lastOpenFiles": [
+    "Graph Theory/Cut (Graph).md",
+    "Machine Learning/Bayesian Network.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/MAX-SAT.md",
@@ -231,13 +234,11 @@
     "Probability Theory/Moment.md",
     "Graph Theory/Flow (Graph).md",
     "Graph Theory/Tree.md",
-    "Machine Learning/Bayesian Network.md",
     "Algorithms/Bin-Packing.md",
     "Graph Theory/Maximum Flow.md",
     "Probability Theory/Expected Value.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Graph Theory/Graph.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Measure Theory/Product Measure.md",
     "Algorithms/Randomized Online Algorithm.md",
     "Linear Algebra/Matrix Calculus.md",
@@ -246,7 +247,6 @@
     "Algorithms/Competitive Online Algorithm.md",
     "Algorithms/Approximation Algorithm.md",
     "Machine Learning/Gaussian Process.md",
-    "Algorithms/Ski Rental.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",

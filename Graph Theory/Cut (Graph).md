@@ -20,7 +20,7 @@
 > [!proof]-
 > We will assign the vertices into $A$ and $B$ uniformly randomly independently. Then, 
 > 1. **Claim 1: $\mathbb{E}[X] = m / 2$**
->    Let $X=\sum_{e\in E}^{}\mathbb{1}_{\{ \left| e\cap A \right|=1\lor \left| e\cap B \right|=1 \}}$. Then, $\mathbb{P}(\left| e\cap A \right|=1\lor \left| e\cap B \right|=1)=\frac{1}{2}$. Therefore, $\mathbb{E}[X]=\sum_{e\in E}^{} \frac{1}{2}=\frac{m}{2}$. 
+>    Let $X=\sum_{e\in E}^{}\mathbb{1}_{\{ \left| e\cap A \right|=1\}}$. Then, $\mathbb{P}(\left| e\cap A \right|=1\lor \left| e\cap B \right|=1)=\frac{1}{2}$. Therefore, $\mathbb{E}[X]=\sum_{e\in E}^{} \frac{1}{2}=\frac{m}{2}$. 
 >    
 >  Or one can simply make sure that we move the vertices until they have more than half of its neighbors on the other side.
 
