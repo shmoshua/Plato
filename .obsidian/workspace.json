@@ -45,7 +45,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -88,8 +88,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md"
+                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md"
               }
             }
           }
@@ -219,11 +218,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ceb5c4df66353e90",
+  "active": "94cf23805d50d125",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Cut (Graph).md",
     "Machine Learning/Bayesian Network.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/MAX-SAT.md",
