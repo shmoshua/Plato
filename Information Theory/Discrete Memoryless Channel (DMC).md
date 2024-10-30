@@ -37,6 +37,15 @@
 > 1. Assume that $R$ is achievable on $W$. Let $f'_{n}:=f_{2n}$ and $\phi'_{n}:=\phi_{2n}$. Then, for any $m\in \mathcal{M}_{2n}:=\{ 0,1,\dots,2^{2nR} \}$, $$\lambda_{m}:=\sum_{\begin{subarray}{c}y_{1:2n}\in \mathcal{Y}^{2n}\\ \phi_{2n}(y_{1:2n})\neq m\end{subarray}}\prod_{i=1}^{n}W_{f_{2n}(m)_{2i-1,2i},y_{2i-1,2i}}=\sum_{\begin{subarray}{c}y_{1:2n}\in \mathcal{Y}^{2n}\\ \phi_{2n}(y_{1:2n})\neq m\end{subarray}}\prod_{i=1}^{2n}W_{f_{2n}(m)_{i},y_{i}}$$ Therefore, $\lim_{ n \to \infty }\max_{m\in \mathcal{M}_{2n}}\lambda_{m}=0$ and $2R$ is achievable on $W'$.
 > 2. Analogous.
 ---
+> [!lemma] Proposition 5
+> Consider two independent DMC $(\mathcal{X}_{1},W_{1},\mathcal{Y}_{1})$ and $(\mathcal{X}_{2},W_{2},\mathcal{Y}_{2})$ with capacities $C_{1}$ and $C_{2}$. 
+> 1. The DMC $(\mathcal{X}_{1}\times \mathcal{X}_{2},W_{1}\otimes W_{2},\mathcal{Y}_{1}\times \mathcal{Y}_{2})$ has the capacity $C:=C_{1}+C_{2}$:
+
+> [!proof]+
+> Let $C$ be the capacity of the joint channel.
+> 1. We first show that $C\geq C_{1}+C_{2}$. Let $q_{1}$ and $q_{2}$ be the pmf on $\mathcal{X}_{1}$ and $\mathcal{X}_{2}$ respectively, s.t. $C_{i}=I(q_{i},W_{i})$. Notice that: $$\begin{align}C\geq I(q_{1}\otimes q_{2},W_{1}\otimes W_{2})&=I((X_{1},X_{2});(Y_{1},Y_{2}))\\&=H(X_{1},X_{2})-H(X_{1},X_{2}|Y_{1},Y_{2})\\&=H(X_{1})+H(X_{2})-H(X_{1}|Y_{1},Y_{2})-H(X_{2}|X_{1},Y_{1},Y_{2})\\&=H(X_{1})+H(X_{2})-H(X_{1}|Y_{2})-H(X_{2}|,Y_{2})\\&=I(q_{1},W_{1})+I(q_{2},W_{2})\\&=C_{1}+C_{2}\end{align}$$
+>    Conversely, we will show that $C_{1}+C_{2}\geq C$. Let $q$ be the pmf on $\mathcal{X}$
+---
 ##### Examples
 > [!h] Example 1 (Binary Symmetric Channel)
 > The ***binary symmetric channel*** for $\varepsilon$, $\text{BSC}(\varepsilon)$ is given as: $$W:=\begin{bmatrix}1-\varepsilon&\varepsilon\\\varepsilon&1-\varepsilon\end{bmatrix}$$
@@ -44,7 +53,7 @@
 > [!h] Example 2 (Z-channel)
 > For $\mathcal{X}=\mathcal{Y}=\{ 0,1 \}$, the ***$Z$-channel*** is given as: $$W:=\begin{bmatrix}1&0\\ \frac{1}{2}& \frac{1}{2}\end{bmatrix}$$
 
-> [!proof]+
-> Let $p=(\varepsilon,1-\varepsilon)$. We have that: $$H(Y|X=0)=$$
+> [!proof]-
+> Let $p=(1-\varepsilon,\varepsilon)$. We have that: $H(Y|X=0)=0$ and $H(Y|X=1)=1$. Hence,  $$H(Y|X)=\varepsilon$$
 > 
-> We have that: $$\begin{align}I(p,Q)&=I(X;Y)=H(X)-H(Y|X)\\&=-\varepsilon \log \varepsilon-(1-\varepsilon)\log(1-\varepsilon)\end{align}$$
+> We have that: $$\begin{align}I(p,Q)&=I(X;Y)=H(X)-H(Y|X)\\&=-\varepsilon \log \varepsilon-(1-\varepsilon)\log(1-\varepsilon)-\varepsilon\end{align}$$Then, $\frac{d}{d\varepsilon}I(p,Q)=-\log \varepsilon -1+\log(1-\varepsilon)+1-1=0$ and $$\log \frac{\varepsilon}{1-\varepsilon}=-1$$Therefore, $\frac{\varepsilon}{1-\varepsilon}=\frac{1}{2}$ and $\varepsilon=\frac{1}{3}$. Hence, $$\begin{align}C&:=-\frac{1}{3}\log \frac{1}{3}-\frac{2}{3}\left( 1+\log \frac{1}{3} \right)-\frac{1}{3}\\&=\log 3-1\end{align}$$

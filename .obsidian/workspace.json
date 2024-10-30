@@ -76,24 +76,24 @@
             }
           },
           {
-            "id": "77ce7016c3e80e9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Mutual Information.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "b3ba25ca16f7bc88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Information Theory/Entropy.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "77ce7016c3e80e9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Theory/Mutual Information.md",
                 "mode": "preview",
                 "source": true
               }
