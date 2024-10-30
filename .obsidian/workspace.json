@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Bin-Packing.md",
+                "file": "Information Theory/Mutual Information.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               }
@@ -230,19 +230,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ceb5c4df66353e90",
+  "active": "c2e7f920a592fc99",
   "lastOpenFiles": [
     "Information Theory/Mutual Information.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Entropy.md",
     "Markov Processes/Markov Chain.md",
+    "Algorithms/Bin-Packing.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Probability Theory/Distribution.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Courses/Advanced Algorithms/Exercise 06.md",
     "Algorithms/Streaming Algorithm.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Random Variable.md",
-    "Algorithms/Bin-Packing.md",
     "Graph Theory/Random Graph.md",
     "Untitled.md",
     "Graph Theory/Tournament.md",

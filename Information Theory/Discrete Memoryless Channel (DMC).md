@@ -1,7 +1,8 @@
 #Definition #InformationTheory 
 
 > [!definition]
-> Let $\mathcal{X}$ and $\mathcal{Y}$ be finite sets. A ***discrete memoryless channel (DMC)*** from $\mathcal{X}$ to $\mathcal{Y}$ is a [[Markov Chain|Markov chain transition matrix]] $W$.
+> Let $\mathcal{X}$ and $\mathcal{Y}$ be finite sets. A ***discrete memoryless channel (DMC)*** from $\mathcal{X}$ to $\mathcal{Y}$ is a $\mathcal{X}\times \mathcal{Y}$[[Markov Chain|transition matrix]] $W$ where 
+> 1. for every $x\in \mathcal{X}$, $\sum_{y\in \mathcal{Y}}^{}W_{xy}=1$
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Data Processing Inequality for Relative Entropy)
@@ -22,4 +23,4 @@
 ---
 ##### Examples
 > [!h] Example 1 (Binary Symmetric Channel)
-> The ***binary symmetric channel*** for $\varepsilon$ is given as: $$W:=\begin{bmatrix}1-\varepsilon&\varepsilon\\\varepsilon&1-\varepsilon\end{bmatrix}$$
+> The ***binary symmetric channel*** for $\varepsilon$, $\text{BSC}(\varepsilon)$ is given as: $$W:=\begin{bmatrix}1-\varepsilon&\varepsilon\\\varepsilon&1-\varepsilon\end{bmatrix}$$
