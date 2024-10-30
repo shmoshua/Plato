@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Channel.md",
+                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
                 "mode": "source",
                 "source": true
               }
@@ -70,19 +70,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Channel.md",
+                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "5f715a42de2dc07e",
+            "id": "3e384bef7e5a3d30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Distribution.md",
+                "file": "Information Theory/Mutual Information.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "77ce7016c3e80e9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Processes/Markov Chain.md",
                 "mode": "preview",
                 "source": true
               }
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Theory/Channel.md",
+                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Theory/Channel.md",
+                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Theory/Channel.md"
+                "file": "Information Theory/Discrete Memoryless Channel (DMC).md"
               }
             }
           }
@@ -218,11 +230,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c2e7f920a592fc99",
+  "active": "ceb5c4df66353e90",
   "lastOpenFiles": [
-    "Algorithms/k-wise Independent Hash Function.md",
-    "Information Theory/Channel.md",
+    "Information Theory/Mutual Information.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Information Theory/Entropy.md",
+    "Markov Processes/Markov Chain.md",
     "Probability Theory/Distribution.md",
+    "Algorithms/k-wise Independent Hash Function.md",
     "Courses/Advanced Algorithms/Exercise 06.md",
     "Algorithms/Streaming Algorithm.md",
     "Probability Theory/Expected Value.md",
@@ -243,9 +258,6 @@
     "Algorithms/Multi-Commodity Routing.md",
     "Algorithms/Monotone Submodular Maximization.md",
     "Algorithms/DNF Counting.md",
-    "Courses/Advanced Algorithms/Exercise 02.md",
-    "Probability Theory/Moment.md",
-    "Graph Theory/Tree.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
