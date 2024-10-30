@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Flow (Graph).md",
+                "file": "Probability Theory/Random Variable.md",
                 "mode": "source",
                 "source": true
               }
@@ -44,8 +44,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4d5ec56e57395c88",
@@ -58,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Random Graph.md",
+                "file": "Probability Theory/Random Variable.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cheb",
+                "query": "cheby",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Random Graph.md",
+                "file": "Probability Theory/Random Variable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Random Graph.md",
+                "file": "Probability Theory/Random Variable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Random Graph.md"
+                "file": "Probability Theory/Random Variable.md"
               }
             }
           }
@@ -209,10 +208,12 @@
   },
   "active": "ceb5c4df66353e90",
   "lastOpenFiles": [
-    "Probability Theory/Covariance.md",
-    "Graph Theory/Random Graph.md",
-    "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
+    "Probability Theory/Random Variable.md",
+    "Graph Theory/Flow (Graph).md",
+    "Graph Theory/Random Graph.md",
+    "Probability Theory/Covariance.md",
+    "Probability Theory/Variance.md",
     "Algorithms/MAX-SAT.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
@@ -224,7 +225,6 @@
     "Algorithms/DNF Counting.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Probability Theory/Moment.md",
-    "Graph Theory/Flow (Graph).md",
     "Graph Theory/Tree.md",
     "Algorithms/Bin-Packing.md",
     "Graph Theory/Maximum Flow.md",
@@ -234,7 +234,6 @@
     "Algorithms/Randomized Online Algorithm.md",
     "Linear Algebra/Matrix Calculus.md",
     "Algorithms/Paging.md",
-    "Functional Analysis/LCA Group.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
