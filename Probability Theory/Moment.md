@@ -18,4 +18,4 @@
 > Therefore, $$\mathbb{E}[(X-\mu)^{4}]\leq np+6 {n \choose 2} p^{2}<np+3p^2n^2\leq 4n^2p^2$$ Hence, $$\mathbb{P}(\left| X-\mu \right| >d\sqrt{ \mu })< \frac{4}{d^4}$$
 ---
 > [!lemma] Theorem 2
-> 
+> Let $X_{1},\dots,X_{n}\sim \text{Ber}(p)$ be $k$-wise independent where $k$ is even. Let $X:=\sum_{i=1}^{n}X_{i}$ and $\mu:=\mathbb{E}[X]=np$. Then, for any $d>0$, $$\mathbb{P}(\left| X-\mu \right| >d\sqrt{ \mu })\leq O(k^k / (2d)^k)$$
