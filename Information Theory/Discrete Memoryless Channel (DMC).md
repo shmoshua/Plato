@@ -54,6 +54,7 @@
 > For $\mathcal{X}=\mathcal{Y}=\{ 0,1 \}$, the ***$Z$-channel*** is given as: $$W:=\begin{bmatrix}1&0\\ \frac{1}{2}& \frac{1}{2}\end{bmatrix}$$
 
 > [!proof]-
-> Let $p=(1-\varepsilon,\varepsilon)$. We have that: $H(Y|X=0)=0$ and $H(Y|X=1)=1$. Hence,  $$H(Y|X)=\varepsilon$$
+> Let $p=(1-\varepsilon,\varepsilon)$. We have that: $H(Y|X=0)=0$ and $H(Y|X=1)=1$. Hence,  $$H(Y|X)=\varepsilon$$Further, $qW=\left( \frac{2-\varepsilon}{2}, \frac{\varepsilon}{2} \right)$
 > 
-> We have that: $$\begin{align}I(p,Q)&=I(X;Y)=H(X)-H(Y|X)\\&=-\varepsilon \log \varepsilon-(1-\varepsilon)\log(1-\varepsilon)-\varepsilon\end{align}$$Then, $\frac{d}{d\varepsilon}I(p,Q)=-\log \varepsilon -1+\log(1-\varepsilon)+1-1=0$ and $$\log \frac{\varepsilon}{1-\varepsilon}=-1$$Therefore, $\frac{\varepsilon}{1-\varepsilon}=\frac{1}{2}$ and $\varepsilon=\frac{1}{3}$. Hence, $$\begin{align}C&:=-\frac{1}{3}\log \frac{1}{3}-\frac{2}{3}\left( 1+\log \frac{1}{3} \right)-\frac{1}{3}\\&=\log 3-1\end{align}$$
+> We have that: $$\begin{align}I(p,Q)&=I(X;Y)=H(Y)-H(Y|X)\\&=-\left(  1-\frac{\varepsilon}{2} \right)\log\left(  1-\frac{\varepsilon}{2} \right)-\frac{\varepsilon}{2}\log\frac{\varepsilon}{2}-\varepsilon\end{align}$$Then, $\frac{d}{d\varepsilon}I(p,Q)=-\frac{1}{2}\log \frac{\varepsilon}{2} -\frac{1}{2}+\frac{1}{2}\log\left( 1-\frac{\varepsilon}{2} \right)+\frac{1}{2}-1=0$ and $$\log\left( \frac{2-\varepsilon}{\varepsilon} \right)=2$$Therefore, $\frac{2-\varepsilon}{\varepsilon}=4$ and $\varepsilon=\frac{2}{5}$. Hence, 
+---
