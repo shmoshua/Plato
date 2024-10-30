@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "mode": "preview",
                 "source": true
               }
@@ -121,8 +121,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -142,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Tournament.md"
+                "file": "Algorithms/Streaming Algorithm.md"
               }
             }
           }
@@ -206,11 +205,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ceb5c4df66353e90",
+  "active": "5c95df8df979fbdf",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Algorithms/Streaming Algorithm.md",
+    "Graph Theory/Tournament.md",
     "Probability Theory/Random Variable.md",
     "Probability Theory/Covariance.md",
-    "Graph Theory/Tournament.md",
     "Probability Theory/Expected Value.md",
     "Graph Theory/Flow (Graph).md",
     "Graph Theory/Random Graph.md",
@@ -232,8 +233,6 @@
     "Linear Algebra/Cholesky Decomposition.md",
     "Graph Theory/Graph.md",
     "Measure Theory/Product Measure.md",
-    "Algorithms/Randomized Online Algorithm.md",
-    "Linear Algebra/Matrix Calculus.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
