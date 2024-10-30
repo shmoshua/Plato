@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Random Graph.md",
+                "file": "Algorithms/Bin-Packing.md",
                 "mode": "source",
                 "source": true
               }
@@ -207,14 +207,15 @@
   },
   "active": "5c95df8df979fbdf",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Algorithms/Bin-Packing.md",
+    "Graph Theory/Random Graph.md",
     "Algorithms/Streaming Algorithm.md",
+    "Untitled.md",
     "Graph Theory/Tournament.md",
     "Probability Theory/Random Variable.md",
     "Probability Theory/Covariance.md",
     "Probability Theory/Expected Value.md",
     "Graph Theory/Flow (Graph).md",
-    "Graph Theory/Random Graph.md",
     "Probability Theory/Variance.md",
     "Algorithms/MAX-SAT.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
@@ -228,7 +229,6 @@
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Probability Theory/Moment.md",
     "Graph Theory/Tree.md",
-    "Algorithms/Bin-Packing.md",
     "Graph Theory/Maximum Flow.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Graph Theory/Graph.md",
