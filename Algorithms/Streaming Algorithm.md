@@ -9,6 +9,8 @@
 
 ---
 ##### Properties
+
+###### Estimating the 1st Moment
 > [!lemma] Theorem 1 (Morris Counter)
 > Consider the algorithm: 
 >    ```pseudo
@@ -58,3 +60,8 @@
 
 > [!proof]-
 > We have that: $$\begin{align} \mathbb{P}\left(\left| \overline{Y} -1-m\right| >\ell m\right)&\leq \frac{\text{Var}(\overline{Y})}{\ell^{2}m^{2}}\\&\le \frac{1}{2k\ell^{2}}\end{align}$$Therefore, by choosing $\ell=1 / \sqrt{ k }\leq \varepsilon$, we have: $$\mathbb{P}(\left| \overline{Y}-(m+1) \right|> \varepsilon m)\leq 1/2$$
+---
+###### Estimating the 0-th moment
+
+> [!lemma] Theorem 3 (FM)
+> 
