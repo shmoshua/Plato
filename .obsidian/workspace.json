@@ -6,7 +6,7 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
-        "dimension": 45.13119533527697,
+        "dimension": 48.80466472303207,
         "children": [
           {
             "id": "5c95df8df979fbdf",
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
+                "file": "Graph Theory/Random Graph.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,27 +50,15 @@
       {
         "id": "4d5ec56e57395c88",
         "type": "tabs",
-        "dimension": 54.86880466472304,
+        "dimension": 51.19533527696794,
         "children": [
-          {
-            "id": "d7c04c66eb340d4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
           {
             "id": "ceb5c4df66353e90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "file": "Graph Theory/Random Graph.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/MAX-SAT.md",
+                "file": "Probability Theory/Covariance.md",
                 "mode": "preview",
                 "source": true
               }
@@ -117,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bochner",
+                "query": "cheb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
+                "file": "Graph Theory/Random Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
+                "file": "Graph Theory/Random Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md"
+                "file": "Graph Theory/Random Graph.md"
               }
             }
           }
@@ -218,14 +207,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "94cf23805d50d125",
+  "active": "ceb5c4df66353e90",
   "lastOpenFiles": [
+    "Probability Theory/Covariance.md",
+    "Graph Theory/Random Graph.md",
+    "Probability Theory/Variance.md",
+    "Probability Theory/Expected Value.md",
+    "Algorithms/MAX-SAT.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Graph Theory/Cut (Graph).md",
     "Machine Learning/Bayesian Network.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
-    "Algorithms/MAX-SAT.md",
     "Algorithms/Multi-Commodity Routing.md",
     "Algorithms/Monotone Submodular Maximization.md",
     "Algorithms/DNF Counting.md",
@@ -235,7 +228,6 @@
     "Graph Theory/Tree.md",
     "Algorithms/Bin-Packing.md",
     "Graph Theory/Maximum Flow.md",
-    "Probability Theory/Expected Value.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Graph Theory/Graph.md",
     "Measure Theory/Product Measure.md",
@@ -243,9 +235,6 @@
     "Linear Algebra/Matrix Calculus.md",
     "Algorithms/Paging.md",
     "Functional Analysis/LCA Group.md",
-    "Algorithms/Competitive Online Algorithm.md",
-    "Algorithms/Approximation Algorithm.md",
-    "Machine Learning/Gaussian Process.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
