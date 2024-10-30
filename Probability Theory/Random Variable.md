@@ -25,8 +25,12 @@
 > 2. the composition of measurable functions is measurable.
 ---
 > [!lemma] Theorem 2
-> Let $X_{1},\dots,X_{n}$ be independent random variables taking values $\{ -1,1 \}$ with probability $1/2$. Let $X:=\sum_{i=1}^{n}X_{i}$. Then, for every $t>0$, $$\mathbb{P}(X\leq -t)=\mathbb{P}(X\geq t)\leq e^{-t^{2} / 2n}$$
+> Let $X_{1},\dots,X_{n}$ be iid random variables and $X:=\sum_{i=1}^{n}X_{i}$.
+> 1. if $X_{1}$ takes values in $\{ -1,1 \}$ with probability $1/2$. Then, for every $t>0$, $$\mathbb{P}(X\leq -t)=\mathbb{P}(X\geq t)\leq e^{-t^{2} / 2n}$$
+> 2. if $X_{1}$ takes values in $\{ 0,1 \}$ with probability $1/2$. Then, for every $t>0$, $$\mathbb{P}\left( X\leq \frac{n}{2}-t \right)=\mathbb{P}\left( X\geq \frac{n}{2}+t \right)\leq e^{-2t^{2} / n}$$
 
 > [!proof]-
-> By symmetry, it suffices to show the statement for $\mathbb{P}(X\geq t)$. As $e^{-cX}$ is positive, we can use Markov and we have that for any $c>0$: $$\mathbb{P}(X\geq t)=\mathbb{P}(e^{cX}\geq e^{ct})\leq e^{-ct}\mathbb{E}(e^{cX})=e^{-ct}\mathbb{E}(e^{cX_{1}})^n=e^{-ct}\left( \frac{e^{-c}+e^c}{2} \right)^n $$Then, $$\frac{e^{-c}+e^c}{2}=\frac{1}{2}\sum_{k=0}^{\infty}\frac{c^k+(-c)^k}{k!}=\sum_{k=0}^{\infty}\frac{c^{2k}}{(2k)!}\leq \sum_{k=0}^{\infty}\left( \frac{c^2}{2} \right)^k \frac{1}{k!}=\exp \left( \frac{c^2}{2} \right) $$Therefore, $\mathbb{P}(X\geq t)\leq e^{c^2n / 2-ct}$. This is at its minimum when $c=t / n$. Hence, $$\mathbb{P}(X\geq t)\leq \exp \left(- \frac{t^2}{2n} \right) $$
+> We have:
+> 1. By symmetry, it suffices to show the statement for $\mathbb{P}(X\geq t)$. As $e^{-cX}$ is positive, we can use Markov and we have that for any $c>0$: $$\mathbb{P}(X\geq t)=\mathbb{P}(e^{cX}\geq e^{ct})\leq e^{-ct}\mathbb{E}(e^{cX})=e^{-ct}\mathbb{E}(e^{cX_{1}})^n=e^{-ct}\left( \frac{e^{-c}+e^c}{2} \right)^n $$Then, $$\frac{e^{-c}+e^c}{2}=\frac{1}{2}\sum_{k=0}^{\infty}\frac{c^k+(-c)^k}{k!}=\sum_{k=0}^{\infty}\frac{c^{2k}}{(2k)!}\leq \sum_{k=0}^{\infty}\left( \frac{c^2}{2} \right)^k \frac{1}{k!}=\exp \left( \frac{c^2}{2} \right) $$Therefore, $\mathbb{P}(X\geq t)\leq e^{c^2n / 2-ct}$. This is at its minimum when $c=t / n$. Hence, $$\mathbb{P}(X\geq t)\leq \exp \left(- \frac{t^2}{2n} \right) $$
+> 2. Let $Y_{i}:=2X_{i} - 1$ and $Y:=\sum_{i=1}^{n}Y_{i}=2X-n$. Then, we have: $$\mathbb{P}\left( X\geq \frac{n}{2}+t \right)=\mathbb{P}\left( 2X-n\geq 2t \right)=\mathbb{P}(Y\geq 2t)\leq e^{-2t^{2}/n} $$
 ---

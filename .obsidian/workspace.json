@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Graph Theory/Tournament.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Graph Theory/Tournament.md",
                 "mode": "preview",
                 "source": true
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Covariance.md",
+                "file": "Probability Theory/Random Variable.md",
                 "mode": "preview",
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Graph Theory/Tournament.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Graph Theory/Tournament.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Random Variable.md"
+                "file": "Graph Theory/Tournament.md"
               }
             }
           }
@@ -208,11 +208,12 @@
   },
   "active": "ceb5c4df66353e90",
   "lastOpenFiles": [
-    "Probability Theory/Expected Value.md",
     "Probability Theory/Random Variable.md",
+    "Probability Theory/Covariance.md",
+    "Graph Theory/Tournament.md",
+    "Probability Theory/Expected Value.md",
     "Graph Theory/Flow (Graph).md",
     "Graph Theory/Random Graph.md",
-    "Probability Theory/Covariance.md",
     "Probability Theory/Variance.md",
     "Algorithms/MAX-SAT.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
@@ -233,7 +234,6 @@
     "Measure Theory/Product Measure.md",
     "Algorithms/Randomized Online Algorithm.md",
     "Linear Algebra/Matrix Calculus.md",
-    "Algorithms/Paging.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",

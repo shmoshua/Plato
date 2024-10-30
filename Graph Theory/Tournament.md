@@ -6,6 +6,7 @@
 ^d0027e
 
 - **Related definition**: A tournament $T_{n}$ has a ***$S_{k}$-property*** if for all $S\subseteq V(T_{n})$ with $\left| S \right|= k$, there is a vertex in $T_{n}$ that dominates all vertices in $S$.  ^00613b
+- **Related definition**: Let $T_{n}$ be a tournament on $[n]$ and $\pi:[n]\to[n]$ a permutation. An edge $i\to j$ is ***consistent*** if $\pi ^{-1}(i)<\pi ^{-1}(j)$. 
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Erdös)
@@ -52,4 +53,18 @@
 > [!lemma] Theorem 4 (Alon)
 > Let $P(n)$ be the maximal number of Hamiltonian paths $T_{n}$ can have. Then, 
 > 1. $P(n)\leq cn^{3/2}\frac{n!}{2^{n-1}}$
-> 
+
+---
+###### Consistent Edges
+
+> [!lemma] Theorem 1
+> Let $T$ be a tournament on $[n]$ and let $T_{n}$ be a random tournament. Then, $$f(T):=\max_{\pi\in S_{n}}\left( \#\text{consistent edges}-\#\text{inconsistent edges} \right) $$
+> 1. $f(T)\geq 0$
+> 2. $f(T_{n})\leq \text{O}(n^{3/2}\sqrt{ \log n })$ almost surely. 
+> 3. (de la Vega) $f(T_{n})\leq O(n^{3/2})$
+
+> [!proof]-
+> We have that:
+> 1. If $f(T)<0$ with maximum $\pi$, we have that the reverse ordering $\pi'$ turns all consistent edges to inconsistent and vice versa. Therefore, $f(T)>0$, which is a contradiction.
+> 2. Let $X_{ij}$ be a random variable taking a value in $\{ -1,+1 \}$ where: $$X_{ij}=\begin{cases}+1&i\text{ is left to  }j \text{ in ordering }\pi\\-1&\text{otherwise}\end{cases}$$Therefore, we have that $$\mathbb{P}\left( \sum_{i,j}^{}X_{ij}\geq n^{3/2} \sqrt{ \log n } \right)\leq e^{-n^3\log n/n^2}=e^{-n\log n}$$Hence, $$\mathbb{P}\left( f(T_{n})\geq n^{3/2}\sqrt{ \log n } \right)\leq n! e^{-n\log n}\lesssim \left( \frac{n}{e} \right) ^n e^{-n\log n}=e^{-n}\to 0$$
+---
