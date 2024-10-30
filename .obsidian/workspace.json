@@ -14,6 +14,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Courses/Advanced Algorithms/Exercise 06.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c2e7f920a592fc99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Algorithms/Streaming Algorithm.md",
                 "mode": "source",
                 "source": true
@@ -69,13 +81,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Courses/Advanced Algorithms/Exercise 06.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Exercise 06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Exercise 06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md"
+                "file": "Courses/Advanced Algorithms/Exercise 06.md"
               }
             }
           }
@@ -207,14 +220,15 @@
   },
   "active": "5c95df8df979fbdf",
   "lastOpenFiles": [
+    "Algorithms/Streaming Algorithm.md",
+    "Courses/Advanced Algorithms/Exercise 06.md",
+    "Probability Theory/Expected Value.md",
+    "Probability Theory/Random Variable.md",
     "Algorithms/Bin-Packing.md",
     "Graph Theory/Random Graph.md",
-    "Algorithms/Streaming Algorithm.md",
     "Untitled.md",
     "Graph Theory/Tournament.md",
-    "Probability Theory/Random Variable.md",
     "Probability Theory/Covariance.md",
-    "Probability Theory/Expected Value.md",
     "Graph Theory/Flow (Graph).md",
     "Probability Theory/Variance.md",
     "Algorithms/MAX-SAT.md",
@@ -232,7 +246,6 @@
     "Graph Theory/Maximum Flow.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Graph Theory/Graph.md",
-    "Measure Theory/Product Measure.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
