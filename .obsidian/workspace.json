@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 06.md",
+                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
+                "file": "Information Theory/n-R code.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4d5ec56e57395c88",
@@ -82,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Mutual Information.md",
+                "file": "Information Theory/n-R code.md",
                 "mode": "preview",
                 "source": true
               }
@@ -230,16 +229,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c2e7f920a592fc99",
+  "active": "5c95df8df979fbdf",
   "lastOpenFiles": [
+    "Courses/Advanced Algorithms/Exercise 06.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Information Theory/n-R code.md",
+    "Information Theory/Channel.md",
     "Information Theory/Mutual Information.md",
     "Information Theory/Entropy.md",
     "Markov Processes/Markov Chain.md",
     "Algorithms/Bin-Packing.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Probability Theory/Distribution.md",
     "Algorithms/k-wise Independent Hash Function.md",
-    "Courses/Advanced Algorithms/Exercise 06.md",
     "Algorithms/Streaming Algorithm.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Random Variable.md",
@@ -256,8 +257,6 @@
     "Machine Learning/Bayesian Network.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Multi-Commodity Routing.md",
-    "Algorithms/Monotone Submodular Maximization.md",
-    "Algorithms/DNF Counting.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
