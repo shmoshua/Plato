@@ -28,8 +28,23 @@
 > 1. $C=\max_{q \text{ pmf on }\mathcal{X}}I(q,W)$.
 ---
 > [!lemma] Proposition 4
-> For a 
+> For $\mathcal{X},\mathcal{Y}$ and a DMC $W$ from $\mathcal{X}$ to $\mathcal{Y}$, let $W'$ be another DMC from $\mathcal X\times \mathcal{X}$ to $\mathcal{Y}\times \mathcal{Y}$ s.t. $$W'_{(x_{1},x_{2}),(y_{1},y_{2})}=W_{x_{1},y_{1}}W_{x_{2},y_{2}}$$
+> Then, 
+> 1. a rate $R$ is achievable on $W$ if and only if $2R$ is achievable on $W'$.
+
+> [!proof]-
+> We have:
+> 1. Assume that $R$ is achievable on $W$. Let $f'_{n}:=f_{2n}$ and $\phi'_{n}:=\phi_{2n}$. Then, for any $m\in \mathcal{M}_{2n}:=\{ 0,1,\dots,2^{2nR} \}$, $$\lambda_{m}:=\sum_{\begin{subarray}{c}y_{1:2n}\in \mathcal{Y}^{2n}\\ \phi_{2n}(y_{1:2n})\neq m\end{subarray}}\prod_{i=1}^{n}W_{f_{2n}(m)_{2i-1,2i},y_{2i-1,2i}}=\sum_{\begin{subarray}{c}y_{1:2n}\in \mathcal{Y}^{2n}\\ \phi_{2n}(y_{1:2n})\neq m\end{subarray}}\prod_{i=1}^{2n}W_{f_{2n}(m)_{i},y_{i}}$$ Therefore, $\lim_{ n \to \infty }\max_{m\in \mathcal{M}_{2n}}\lambda_{m}=0$ and $2R$ is achievable on $W'$.
+> 2. Analogous.
 ---
 ##### Examples
 > [!h] Example 1 (Binary Symmetric Channel)
 > The ***binary symmetric channel*** for $\varepsilon$, $\text{BSC}(\varepsilon)$ is given as: $$W:=\begin{bmatrix}1-\varepsilon&\varepsilon\\\varepsilon&1-\varepsilon\end{bmatrix}$$
+---
+> [!h] Example 2 (Z-channel)
+> For $\mathcal{X}=\mathcal{Y}=\{ 0,1 \}$, the ***$Z$-channel*** is given as: $$W:=\begin{bmatrix}1&0\\ \frac{1}{2}& \frac{1}{2}\end{bmatrix}$$
+
+> [!proof]+
+> Let $p=(\varepsilon,1-\varepsilon)$. We have that: $$H(Y|X=0)=$$
+> 
+> We have that: $$\begin{align}I(p,Q)&=I(X;Y)=H(X)-H(Y|X)\\&=-\varepsilon \log \varepsilon-(1-\varepsilon)\log(1-\varepsilon)\end{align}$$
