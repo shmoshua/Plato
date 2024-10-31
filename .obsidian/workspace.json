@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Mutual Information.md",
+                "file": "Algorithms/k-wise Independent Hash Function.md",
                 "mode": "preview",
                 "source": true
               }
@@ -183,13 +183,13 @@
   },
   "active": "b3ba25ca16f7bc88",
   "lastOpenFiles": [
-    "Probability Theory/Moment.md",
-    "Algorithms/Linear Probing.md",
     "Algorithms/k-wise Independent Hash Function.md",
+    "Information Theory/Mutual Information.md",
+    "Algorithms/Linear Probing.md",
+    "Probability Theory/Moment.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Entropy.md",
     "Information Theory/n-R code.md",
-    "Information Theory/Mutual Information.md",
     "Courses/Advanced Algorithms/Exercise 06.md",
     "Information Theory/Channel.md",
     "Markov Processes/Markov Chain.md",
