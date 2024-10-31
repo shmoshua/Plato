@@ -48,10 +48,29 @@
 >    ```pseudo
 >    \begin{algorithm} \caption{Morris+($S=(a_{1},\dots,a_{m}),\varepsilon$)} 
 >    \begin{algorithmic}
->    \State $k\gets \left\lceil \varepsilon ^{-2}\right\rceil$
+>    \State $k\gets \left\lceil 2/\varepsilon ^{2}\right\rceil$
 >    \For{$i\in[k]$}
 >    \State $Y_{i}\gets $\Call{Morris}{$S$}\EndFor
 >    \Return $\overline{Y}:=\frac{1}{k}\sum_{i=1}^{k}Y_{i}$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    For any stream $S$ and $\varepsilon>0$, 
+>    1. $\text{Morris+}$ uses space $\text{O}(\varepsilon^{-2}\log \log m)$ and $$\mathbb{P}(\left| \text{Morris+}(S) -m \right|>\varepsilon m )\leq \frac{1}{4}$$
+
+> [!proof]-
+> We have that: $$\begin{align} \mathbb{P}\left(\left| \overline{Y} -1-m\right| >\ell m\right)&\leq \frac{\text{Var}(\overline{Y})}{\ell^{2}m^{2}}\\&\le \frac{1}{2k\ell^{2}}\end{align}$$Therefore, by choosing $\ell=\sqrt{ 2 / k }\geq \varepsilon$, we have: $$\mathbb{P}(\left| \overline{Y}-(m+1) \right|> \varepsilon m)\leq 1/4$$
+---
+> [!lemma] Theorem 3 (Morris Counter++)
+> Consider the algorithm: 
+>    ```pseudo
+>    \begin{algorithm} \caption{Morris++($S=(a_{1},\dots,a_{m}),\varepsilon,\delta$)} 
+>    \begin{algorithmic}
+>    \State $t\gets \left\lceil10\log \delta\right\rceil$
+>    \For{$i\in[t]$}
+>    \State $Z_{i}\gets $\Call{Morris+}{$S,\varepsilon$}
+>    \EndFor
+>    \Return median among all $Z_{i}$
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
