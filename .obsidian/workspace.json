@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/k-wise Independent Hash Function.md",
+                "file": "Probability Theory/Random Variable.md",
                 "mode": "preview",
                 "source": true
               }
@@ -183,9 +183,10 @@
   },
   "active": "b3ba25ca16f7bc88",
   "lastOpenFiles": [
-    "Algorithms/Linear Probing.md",
+    "Probability Theory/Random Variable.md",
     "Algorithms/Streaming Algorithm.md",
     "Algorithms/k-wise Independent Hash Function.md",
+    "Algorithms/Linear Probing.md",
     "Information Theory/Mutual Information.md",
     "Probability Theory/Moment.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
@@ -197,7 +198,6 @@
     "Algorithms/Bin-Packing.md",
     "Probability Theory/Distribution.md",
     "Probability Theory/Expected Value.md",
-    "Probability Theory/Random Variable.md",
     "Graph Theory/Random Graph.md",
     "Untitled.md",
     "Graph Theory/Tournament.md",

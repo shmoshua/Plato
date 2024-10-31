@@ -74,11 +74,11 @@
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
->    For any stream $S$ and $\varepsilon>0$, 
->    1. $\text{Morris+}$ uses space $\text{O}(\varepsilon^{-2}\log \log m)$ and $$\mathbb{P}(\left| \text{Morris+}(S) -m \right|>\varepsilon m )\leq \frac{1}{2}$$
+>    For any stream $S$ and $\varepsilon,\delta>0$, 
+>    1. $\text{Morris+}$ uses space $\text{O}(\varepsilon^{-2}\log \log m\log(1 / \delta))$ and $$\mathbb{P}(\left| \text{Morris++}(S) -m \right|>\varepsilon m )\leq \delta$$
 
-> [!proof]-
-> We have that: $$\begin{align} \mathbb{P}\left(\left| \overline{Y} -1-m\right| >\ell m\right)&\leq \frac{\text{Var}(\overline{Y})}{\ell^{2}m^{2}}\\&\le \frac{1}{2k\ell^{2}}\end{align}$$Therefore, by choosing $\ell=1 / \sqrt{ k }\leq \varepsilon$, we have: $$\mathbb{P}(\left| \overline{Y}-(m+1) \right|> \varepsilon m)\leq 1/2$$
+> [!proof]+
+> Let $I_{i}$ denote the indicator variable that the $i$-th run of $\text{Morris+}(S,\varepsilon)$ fails. Let $p:=\mathbb{P}(\left| \text{Morris+}(S) -m \right|>\varepsilon m )\leq \frac{1}{4}$. Then, $\mathbb{E}\left[ \sum_{i=1}^{t}I_{i} \right]\leq t /4$. $$\begin{align}\mathbb{P}(\left| \text{Morris++}(S) -m \right|>\varepsilon m )&=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}\geq \frac{t}{2} \right)\\&\leq\mathbb{P}\left( \sum_{i=1}^{t}I_{i}\geq 2 tp \right) \\&\leq \exp \left( -\frac{tp}{3} \right) \end{align}$$Then, $$e^{-2p\log \delta}=\delta^{-2p} $$
 ---
 ###### Estimating the 0-th moment
 
