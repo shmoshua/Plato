@@ -96,24 +96,7 @@
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
->    ```pseudo
->    \begin{algorithm} \caption{FM+($S=(a_{1},\dots,a_{m}),\varepsilon$)} 
->    \begin{algorithmic}
->    \State $k\gets \left\lceil 2/\varepsilon ^{2}\right\rceil$
->    \For{$i\in[k]$}
->    \State $Y_{i}\gets $\Call{FM}{$S$}\EndFor
->    \Return $\overline{Y}:=\frac{1}{k}\sum_{i=1}^{k}Y_{i}$
->    \end{algorithmic}
->    \end{algorithm}
->    ```
->   ```pseudo
->    \begin{algorithm} \caption{FM++($S=(a_{1},\dots,a_{m}),\varepsilon,\delta$)} 
->    \begin{algorithmic}
->    \State $t\gets \left\lceil 24\log (1 / \delta)\right\rceil$
->    \For{$i\in[t]$}
->    \State $Z_{i}\gets $\Call{FM+}{$S,\varepsilon$}
->    \EndFor
->    \Return median among all $Z_{i}$
->    \end{algorithmic}
->    \end{algorithm}
->    ```
+>    Using mean and the median trick, 
+
+> [!proof]+
+> 
