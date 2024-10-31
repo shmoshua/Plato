@@ -66,7 +66,7 @@
 >    ```pseudo
 >    \begin{algorithm} \caption{Morris++($S=(a_{1},\dots,a_{m}),\varepsilon,\delta$)} 
 >    \begin{algorithmic}
->    \State $t\gets \left\lceil10\log \delta\right\rceil$
+>    \State $t\gets \left\lceil 24\log (1 / \delta)\right\rceil$
 >    \For{$i\in[t]$}
 >    \State $Z_{i}\gets $\Call{Morris+}{$S,\varepsilon$}
 >    \EndFor
@@ -77,10 +77,43 @@
 >    For any stream $S$ and $\varepsilon,\delta>0$, 
 >    1. $\text{Morris+}$ uses space $\text{O}(\varepsilon^{-2}\log \log m\log(1 / \delta))$ and $$\mathbb{P}(\left| \text{Morris++}(S) -m \right|>\varepsilon m )\leq \delta$$
 
-> [!proof]+
-> Let $I_{i}$ denote the indicator variable that the $i$-th run of $\text{Morris+}(S,\varepsilon)$ fails. Let $p:=\mathbb{P}(\left| \text{Morris+}(S) -m \right|>\varepsilon m )\leq \frac{1}{4}$. Then, $\mathbb{E}\left[ \sum_{i=1}^{t}I_{i} \right]\leq t /4$. $$\begin{align}\mathbb{P}(\left| \text{Morris++}(S) -m \right|>\varepsilon m )&=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}\geq \frac{t}{2} \right)\\&\leq\mathbb{P}\left( \sum_{i=1}^{t}I_{i}\geq 2 tp \right) \\&\leq \exp \left( -\frac{tp}{3} \right) \end{align}$$Then, $$e^{-2p\log \delta}=\delta^{-2p} $$
+> [!proof]-
+> Let $I_{i}$ denote the indicator variable that the $i$-th run of $\text{Morris+}(S,\varepsilon)$ succeeds. Let $p:=\mathbb{P}(\left| \text{Morris+}(S) -m \right|\leq\varepsilon m )\geq \frac{3}{4}$. Then, $\mathbb{E}\left[ \sum_{i=1}^{t}I_{i} \right]\leq t /4$. $$\begin{align}\mathbb{P}(\left| \text{Morris++}(S) -m \right|>\varepsilon m )&=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}< \frac{t}{2} \right)\\&=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}<\left( \frac{1}{2p} \right)tp\right) \\&\leq \exp \left( -\frac{\left( 1-\frac{1}{2p} \right)^{2}tp}{2} \right) \\&\leq \exp \left( -\frac{t}{24} \right)\\&\leq \delta  \end{align}$$
 ---
 ###### Estimating the 0-th moment
 
 > [!lemma] Theorem 3 (FM)
-> 
+> Consider the algorithm:
+>    ```pseudo
+>    \begin{algorithm} \caption{FM($S=(a_{1},\dots,a_{m})$)} 
+>    \begin{algorithmic}
+>    \State $h:[n]\to[n]\gets$ uniform, 2-wise independent random hash function sampled from $\mathcal{G}_{2,n,n}$.
+>    \State $X\gets 0$
+>    \For{$a_{i}\in S$}
+>    \State $X\gets \max\{ X,\text{Zeros}(h(a_{i})) \}$
+>    \EndFor
+>    \Return $2^{X+1 /2}$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    ```pseudo
+>    \begin{algorithm} \caption{FM+($S=(a_{1},\dots,a_{m}),\varepsilon$)} 
+>    \begin{algorithmic}
+>    \State $k\gets \left\lceil 2/\varepsilon ^{2}\right\rceil$
+>    \For{$i\in[k]$}
+>    \State $Y_{i}\gets $\Call{FM}{$S$}\EndFor
+>    \Return $\overline{Y}:=\frac{1}{k}\sum_{i=1}^{k}Y_{i}$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>   ```pseudo
+>    \begin{algorithm} \caption{FM++($S=(a_{1},\dots,a_{m}),\varepsilon,\delta$)} 
+>    \begin{algorithmic}
+>    \State $t\gets \left\lceil 24\log (1 / \delta)\right\rceil$
+>    \For{$i\in[t]$}
+>    \State $Z_{i}\gets $\Call{FM+}{$S,\varepsilon$}
+>    \EndFor
+>    \Return median among all $Z_{i}$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
