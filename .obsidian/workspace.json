@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "mode": "source",
                 "source": true
               }
@@ -33,8 +33,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
-                "mode": "preview",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md"
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md"
               }
             }
           }
@@ -181,10 +181,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b3ba25ca16f7bc88",
+  "active": "5c95df8df979fbdf",
   "lastOpenFiles": [
-    "Probability Theory/Random Variable.md",
     "Algorithms/Streaming Algorithm.md",
+    "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Functional Analysis/Adjoint Linear Map.md",
+    "Analysis/Hilbert Space.md",
+    "Probability Theory/Random Variable.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Algorithms/Linear Probing.md",
     "Information Theory/Mutual Information.md",
@@ -206,9 +209,6 @@
     "Probability Theory/Variance.md",
     "Algorithms/MAX-SAT.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
-    "Graph Theory/Cut (Graph).md",
-    "Machine Learning/Bayesian Network.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
