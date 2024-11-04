@@ -8,7 +8,12 @@
 
 	Hence, $$\mathbb{P}(g_{j}(X)\equiv_{2}g_{j}(Y))=\text{Sim}(X,Y)+\frac{1}{2}\left( 1-\text{Sim}(X,Y) \right)=\frac{1+\text{Sim}(X,Y)}{2} $$
 
-2. Let $i\in[\sqrt{ n }]$. Then, $$\mathbb{P}(f_{i}(X)=f_{i}(Y))=\prod_{j=1}^{\ell}$$
+2. Let $i\in[\sqrt{ n }]$. Then, $$\mathbb{P}(f_{i}(X)=f_{i}(Y))=\prod_{j=1}^{\ell}\mathbb{P}(g_{i,j}(X)=g_{i,j}(Y))=\frac{\left( 1+\text{Sim}(X,Y) \right) ^\ell}{2^\ell}$$Hence, $$\begin{align}\mathbb{P}(\forall i:f_{i}(X)\neq f_{i}(Y))&=\prod_{i=1}^{\sqrt{ n }}\mathbb{P}(f_{i}(X)\neq f_{i}(Y))\\&=\left( 1-\left( \frac{1+\text{Sim}(X,Y)}{2} \right)^\ell  \right)^{\sqrt{ n }}\\&\leq \left( 1-0.95^{\frac{1}{2}\log_{1 / 0,95}(n)} \right)^{\sqrt{ n }} \\&= \left( 1-(1/0.95)^{-\frac{1}{2}\log_{1 / 0,95}(n)} \right)^{\sqrt{ n }} \\&=\left( 1-\frac{1}{\sqrt{ n }} \right)^{\sqrt{ n }}\\&\leq e^{-1}\end{align} $$Therefore, with at least $1-e^{-1}$ probability, there exists $i$ with $f_{i}(X)=f_{i}(Y)$. In this case we have that $\text{Sim}(X,Z)\geq \text{Sim}(X,Y)$ as the algorithm takes the song with the maximum similarity to $X$.
+3. Fix a recorded song $X$ and $i\in[\sqrt{ n }]$. For a song $Z\in 2^{[U]}$, let $T_{Z}$ be the indicator variable denoting if $f_{i}(X)=f_{i}(Z)$. Define $T:=\sum_{Z\in S}^{}T_{Z}$. Let $Y\in S$ be the recorded song of $X$. Then,  $$\begin{align}\mathbb{E}[T]&=\left( \frac{1+\text{Sim}(X,Y) }{2} \right)^\ell +\sum_{Z\in S \backslash\{ Y \}}^{}\left( \frac{1+\text{Sim}(X,Z) }{2}\right)^{\ell} \\& \leq \left( \frac{1+\text{Sim}(X,Y) }{2} \right)^\ell +(\left| S \right| -1)\left( 0.9\right)^{\ell} \\& \leq  \left( \frac{1+\text{Sim}(X,Y) }{2} \right)^\ell +(\left| S \right| -1)\text{Sim}(X,Y)^{\ell} \\&\leq \text{Sim}(X,Y)\left| S \right| \end{align}$$
+	Let $f:t\mapsto 1+$
+	We show that this is a convex function. Hence, we have that: $$f(\text{Sim}(X,Y))\leq \text{Sim}(X,Y)f(1)$$
+
+$f(x)\geq x f(1)$
 
 
 	
