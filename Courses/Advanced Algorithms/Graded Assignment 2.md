@@ -27,5 +27,55 @@ $$\mathbb{P}(\{ u,v \}\in E)=\mathbb{P}(\exists i: e_{i}=\{ u,v \})\leq \frac{2m
 We have that:
 1. hihi
 2. $$\mathbb{P}(\exists (u,v)\text{-path of length }d)\leq{n-2 \choose d-1} \left( \frac{1}{ne^2} \right)^d=\frac{n^{d-1}}{n^d e^{2d}}=\frac{1}{ne^{2d}} $$
+3. We define the algorithm as follows:
+
+
+```pseudo
+\begin{algorithm} \caption{ComputeOrientation()} 
+\begin{algorithmic}
+\State $D\gets \varnothing$
+\State $d_v\gets 0$ for all $v\in V$
+\For {$i\in [m]$}
+\State $u\gets$ sampled from $V$ uniformly.
+\State $v\gets$ sampled from $V$ uniformly.
+\If{$d_u=0$}
+\State $D\gets D\cup\{u\to v\}$
+\State $d_u\gets d_u+1$
+\ElIf{$d_v=0$}
+\State $D\gets D\cup\{v\to u\}$
+\State $d_v\gets d_v+1$
+\Else
+\EndIf
+
+
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+```
+
+
+```pseudo
+\begin{algorithm} \caption{UpdateOrientation()} 
+\begin{algorithmic}
+\State $D\gets \varnothing$
+\State $d_v\gets 0$ for all $v\in V$
+\For {$i\in [m]$}
+\State $u\gets$ sampled from $V$ uniformly.
+\State $v\gets$ sampled from $V$ uniformly.
+\If{$d_u=0$}
+\State $D\gets D\cup\{u\to v\}$
+\State $d_u\gets d_u+1$
+\ElIf{$d_v=0$}
+\State $D\gets D\cup\{v\to u\}$
+\State $d_v\gets d_v+1$
+\Else
+\EndIf
+
+
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+```
+
 
 Let $G$ have out-degree at most $1$. 

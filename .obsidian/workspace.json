@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Algorithms/MAX-SAT.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
@@ -63,8 +63,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Graph.md"
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md"
               }
             }
           }
@@ -194,14 +193,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "77ce7016c3e80e9d",
+  "active": "5c95df8df979fbdf",
   "lastOpenFiles": [
+    "Algorithms/MAX-SAT.md",
+    "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Graph Theory/Graph.md",
     "Graph Theory/Random Graph.md",
     "Probability Theory/Expected Value.md",
     "Analysis/Hilbert Space.md",
-    "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Algorithms/Streaming Algorithm.md",
-    "Algorithms/MAX-SAT.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Approximation Algorithm.md",
     "Algorithms/Bin-Packing.md",
@@ -221,7 +221,6 @@
     "Courses/Advanced Algorithms/Exercise 06.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Functional Analysis/Adjoint Linear Map.md",
-    "Probability Theory/Random Variable.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
