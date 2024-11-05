@@ -57,13 +57,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Probability Theory/Expected Value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Probability Theory/Expected Value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md"
+                "file": "Probability Theory/Expected Value.md"
               }
             }
           }
@@ -193,10 +194,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b3ba25ca16f7bc88",
+  "active": "77ce7016c3e80e9d",
   "lastOpenFiles": [
-    "Algorithms/Streaming Algorithm.md",
+    "Analysis/Hilbert Space.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Algorithms/Streaming Algorithm.md",
     "Algorithms/MAX-SAT.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Approximation Algorithm.md",
@@ -217,7 +219,6 @@
     "Courses/Advanced Algorithms/Exercise 06.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Functional Analysis/Adjoint Linear Map.md",
-    "Analysis/Hilbert Space.md",
     "Probability Theory/Random Variable.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Algorithms/Linear Probing.md",
