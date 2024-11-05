@@ -19,3 +19,5 @@ Therefore, $$\mathbb{P}(\exists i:f_{i}(X)=f_{i}(Z))\leq \sqrt{ n }\cdot \frac{1
 
 ---
 #### Problem 2
+---
+#### Problem 3

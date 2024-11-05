@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "mode": "preview",
                 "source": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md"
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md"
               }
             }
           }
@@ -195,8 +195,8 @@
   },
   "active": "b3ba25ca16f7bc88",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Algorithms/Streaming Algorithm.md",
+    "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Algorithms/MAX-SAT.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Approximation Algorithm.md",
