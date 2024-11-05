@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Graph Theory/Graph.md",
                 "mode": "preview",
                 "source": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Graph Theory/Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Graph Theory/Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Expected Value.md"
+                "file": "Graph Theory/Graph.md"
               }
             }
           }
@@ -196,6 +196,8 @@
   },
   "active": "77ce7016c3e80e9d",
   "lastOpenFiles": [
+    "Graph Theory/Random Graph.md",
+    "Probability Theory/Expected Value.md",
     "Analysis/Hilbert Space.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Algorithms/Streaming Algorithm.md",
@@ -220,8 +222,6 @@
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Probability Theory/Random Variable.md",
-    "Algorithms/k-wise Independent Hash Function.md",
-    "Algorithms/Linear Probing.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
