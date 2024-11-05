@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "mode": "preview",
                 "source": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md"
+                "file": "Algorithms/Streaming Algorithm.md"
               }
             }
           }
@@ -193,10 +193,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5c95df8df979fbdf",
+  "active": "b3ba25ca16f7bc88",
   "lastOpenFiles": [
-    "Algorithms/MAX-SAT.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Algorithms/Streaming Algorithm.md",
+    "Algorithms/MAX-SAT.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Approximation Algorithm.md",
     "Algorithms/Bin-Packing.md",
@@ -204,7 +205,6 @@
     "Algorithms/DNF Counting.md",
     "Algorithms/FPTAS.md",
     "Algorithms/FPRAS.md",
-    "Algorithms/Streaming Algorithm.md",
     "Algorithms/Star Search.md",
     "Algorithms/Randomized Online Algorithm.md",
     "Algorithms/PTAS.md",

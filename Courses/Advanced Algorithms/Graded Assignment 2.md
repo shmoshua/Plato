@@ -10,14 +10,12 @@
 
 2. Let $i\in[\sqrt{ n }]$. Then, $$\mathbb{P}(f_{i}(X)=f_{i}(Y))=\prod_{j=1}^{\ell}\mathbb{P}(g_{i,j}(X)=g_{i,j}(Y))=\frac{\left( 1+\text{Sim}(X,Y) \right) ^\ell}{2^\ell}$$Hence, $$\begin{align}\mathbb{P}(\forall i:f_{i}(X)\neq f_{i}(Y))&=\prod_{i=1}^{\sqrt{ n }}\mathbb{P}(f_{i}(X)\neq f_{i}(Y))\\&=\left( 1-\left( \frac{1+\text{Sim}(X,Y)}{2} \right)^\ell  \right)^{\sqrt{ n }}\\&\leq \left( 1-0.95^{\frac{1}{2}\log_{1 / 0,95}(n)} \right)^{\sqrt{ n }} \\&= \left( 1-(1/0.95)^{-\frac{1}{2}\log_{1 / 0,95}(n)} \right)^{\sqrt{ n }} \\&=\left( 1-\frac{1}{\sqrt{ n }} \right)^{\sqrt{ n }}\\&\leq e^{-1}\end{align} $$Therefore, with at least $1-e^{-1}$ probability, there exists $i$ with $f_{i}(X)=f_{i}(Y)$. In this case we have that $\text{Sim}(X,Z)\geq \text{Sim}(X,Y)$ as the algorithm takes the song with the maximum similarity to $X$.
 3. Fix a recorded song $X$. For a song $Z\in 2^{[U]}$, let $T_{Z}$ be the indicator variable denoting if there exists $i$ s.t. $f_{i}(X)=f_{i}(Z)$. Define $T:=\sum_{Z\in S}^{}T_{Z}$. Let $Y\in S$ be the recorded song of $X$. Then,  
-	1. For $Y$, $$\begin{align}\mathbb{P}(\exists i:f_{i}(X)= f_{i}(Y))&\leq \sqrt{ n }\left( \frac{1+\text{Sim}(X,Y)}{2} \right)^{\ell}< \end{align}$$ 
-	2. For $Z\neq Y$, $$\begin{align}\mathbb{P}(\exists i:f_{i}(X)= f_{i}(Z))&=1-\left( 1-\left( \frac{1+\text{Sim}(X,Z)}{2} \right) ^\ell \right) ^{\sqrt{ n }}\\&\leq 1- \left( 1-0.9^\ell \right) ^{\sqrt{ n }}\\&\leq 1-\left( 1-\frac{1}{\sqrt{ n }} \right)^{\sqrt{ n }} \end{align}$$ 
-$$\begin{align}n-\mathbb{E}[T]&=\sum_{Z\in S}^{}\mathbb{P}(\exists i: f_{i}(X)=f_{i}(Z))\\&\geq\left( 1-\left( \frac{1+\text{Sim}(X,Y)}{2} \right)^\ell   \right)^{\sqrt{ n }}+(n-1)(1-0.9^{\ell})^{\sqrt{ n }}\\&\geq\end{align}$$$$\left( \frac{1+\text{Sim}(X,Y)}{2} \right)^\ell\geq \frac{1}{\sqrt{ n }}$$Hence, 
-$$\begin{align}\sum_{Z\in S}^{}\mathbb{P}(\exists i: f_{i}(X)=f_{i}(Z))&\geq\left( 1-\left( \frac{1+\text{Sim}(X,Y)}{2} \right)^\ell   \right)^{\sqrt{ n }}+(n-1)(1-0.9^{\ell})^{\sqrt{ n }}\\&\geq\end{align}$$ 
-$$0.9^\ell\leq \frac{1}{\sqrt{ n }}$$
+	
 ---
-We have that: $$\mathbb{P}(f_{i}(X)=f_{i}(Z))=\left( \frac{1+\text{Sim}(X,Z)}{2} \right)^{\ell}\leq 0.9^{\ell} $$
-As $\log_{1 / 0.9}{1 / 0.95}\geq \frac{1}{3}$, we have that $\ell=\frac{\log_{1 / 0.9}n}{2\log_{1 / 0.9} 1 / 0.95}\leq \frac{3}{2} \log_{1 / 0.9} n$. Hence, $0.9^{\ell}\leq \frac{1}{n^{3 / 2}}$ and 
-$$\mathbb{P}(\forall i:f)\left( 1+\left( \frac{1+\text{Sim}(X,Z)}{2} \right) ^\ell \right)^{\sqrt{ n }}\geq\left( 1-0.9^{\ell} \right)^\sqrt{ n }\geq\left( 1-\frac{1}{n^{3 / 2}} \right)^{\sqrt{ n }}\geq 1-\frac{1}{n} $$By Bernoulli. Hence, $$\mathbb{P}(\exists i:f_{i}(X)=f_{i}(Z))\leq \frac{1}{n}$$Hence, $\mathbb{E}[T]\leq 1+\frac{n-1}{n}\leq 2$. 
+We have that: $$\mathbb{P}(f_{i}(X)=f_{i}(Z))=\left( \frac{1+\text{Sim}(X,Z)}{2} \right)^{\ell}\leq 0.9^{\ell} \leq 0.9^{\log_{1 / 0.9} n}\leq \frac{1}{n}$$
+where the last inequality follows from $\log_{1 / 0.9}{1 / 0.95}\leq \frac{1}{2}$, we have that $\ell=\frac{\log_{1 / 0.9}n}{2\log_{1 / 0.9} 1 / 0.95}\geq \log_{1 / 0.9} n$.
+
+Therefore, $$\mathbb{P}(\exists i:f_{i}(X)=f_{i}(Z))\leq \sqrt{ n }\cdot \frac{1}{n}=\frac{1}{\sqrt{ n }}$$and we have that: $$\mathbb{E}[T]\leq 1+\frac{n-1}{\sqrt{ n }}\leq \sqrt{ n }+1$$This proves the statement.
 
 ---
+#### Problem 2

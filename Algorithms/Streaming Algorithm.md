@@ -99,4 +99,33 @@
 >    Using mean and the median trick, 
 
 > [!proof]+
-> 
+
+---
+###### Finding the Majority Element
+> [!lemma] Theorem 4
+> Consider the algorithm:
+>  ```pseudo
+>    \begin{algorithm} \caption{A($S=(a_{1},\dots,a_{m})$)} 
+>    \begin{algorithmic}
+>    
+>    \State $x\gets a_{0}$
+>    \State $\text{count}\gets 0$
+>    \For{$a_{i}\in S$}
+>    \If{$x=a_{i}$}
+>    \State $\text{count}\gets \text{count}+1$
+>    \Else
+>    \State $\text{count}\gets \text{count}-1$
+>    \EndIf
+>    \If{$\text{count}=0$}
+>    \State $x\gets a_{i}$
+>    \EndIf
+>    \EndFor
+>    \Return $x$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    If there exists an element $j$ s.t. $\left| \{ i\in[m]:a_{i}=j \} \right|> \frac{m}{ 2}$, then:
+>    1. the algorithm returns $j$ in space $\text{O}(\log n+\log m)$.
+
+> [!proof]+
+> Let $x$ be the output of the algorithm. 
