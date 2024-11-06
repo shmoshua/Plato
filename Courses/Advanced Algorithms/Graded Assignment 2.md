@@ -23,6 +23,8 @@ Therefore, $$\mathbb{P}(\exists i:f_{i}(X)=f_{i}(Z))\leq \sqrt{ n }\cdot \frac{1
 #### Problem 3
 Let $G$ denote the multigraph. Let $C$ denote the size of the largest connected component of $G$. 
 
+Let $C$ be the smallest size $S$ s.t. $e(G[S])\geq k$ 
+
 1. **Claim: $C\leq \log_{2}n$ with probability at least $1-\frac{1}{n}$.**
    For $k\in [n]$, let $S\subseteq V$ with $\left| S \right|=k$ where $k< m /2$. Then, $$\mathbb{P}(S\text{ is connected})\leq\mathbb{P}(e(G[S])\geq k-1)\leq \sum_{I\subseteq[m]:\left| I \right| =k-1}^{}\left( \frac{k}{n} \right)^{2(k-1)}\leq {m \choose k-1}\left( \frac{k}{n} \right)^{2(k-1)} $$
    
@@ -35,7 +37,7 @@ $$\mathbb{P}(S\text{ is connected})=\sum_{T\text{ MST on }S}^{}\mathbb{P}(T\subs
 
 $$\mathbb{P}(C \geq k)\leq{n \choose k}{m \choose k} \frac{k^{k}}{n^{2k}}\leq \left( \frac{ne}{k} \right) ^k \left( \frac{n}{2ek} \right) ^k\left( \frac{k}{n^2} \right) ^{k}=\frac{1}{(2k)^k}$$
 $e^{k\log 2k}=(2k)^k=n$ then $k\log 2k=\log n$
-This time $C$ be the smallest connected with an edge. 
+This time $C$ be the smallest connected with an edge. Then, $$\mathbb{P}(C \leq k)=$$ $$\sum_{k=\log n}^{\infty} \frac{1}{2^{k+1}}\leq \frac{1}{2^{\log n +1}}$$
 
  
 1. **Claim 2:**
