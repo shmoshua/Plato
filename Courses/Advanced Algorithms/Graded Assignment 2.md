@@ -113,3 +113,5 @@ We have that:
 
 
 Let $G$ have out-degree at most $1$. 
+
+$$\mathbb{P}(\exists S\subseteq V:\left| S \right| =k,e(G[S])\geq k+1)\leq{n \choose k}{m \choose k+1}\left( \frac{k}{n} \right)^{2(k+1)}\\& $$
