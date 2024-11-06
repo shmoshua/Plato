@@ -89,24 +89,23 @@ We have that:
 
 
 ```pseudo
-\begin{algorithm} \caption{UpdateOrientation()} 
+\begin{algorithm} \caption{UpdateOrientation($G,u,v,\sigma$)} 
 \begin{algorithmic}
-\State $D\gets \varnothing$
-\State $d_v\gets 0$ for all $v\in V$
-\For {$i\in [m]$}
-\State $u\gets$ sampled from $V$ uniformly.
-\State $v\gets$ sampled from $V$ uniformly.
-\If{$d_u=0$}
-\State $D\gets D\cup\{u\to v\}$
-\State $d_u\gets d_u+1$
-\ElIf{$d_v=0$}
-\State $D\gets D\cup\{v\to u\}$
-\State $d_v\gets d_v+1$
+\If {$d_\sigma^+(u)=0$}
+\State $\sigma\gets \sigma\cup\{u\to v\}$
+\ElIf{$d_\sigma^+(v)=0$}
+\State $\sigma\gets \sigma\cup\{v\to u\}$
 \Else
+\State Find a reachable node $w$ from $u$ or $v$ w.r.t. $\sigma$ where $d^+_\sigma(w)=0$.
+\If{$w$ is reachable from $u$}
+\State Reverse the edges on the $u$-$w$-path in $\sigma$.
+\State $\sigma\gets \sigma\cup\{u\to v\}$
+\Else 
+\State Reverse the edges on the $v$-$w$-path in $\sigma$.
+\State $\sigma\gets \sigma\cup\{v\to u\}$
 \EndIf
-
-
-\EndFor
+\EndIf
+\Return $\sigma$
 \end{algorithmic}
 \end{algorithm}
 ```
