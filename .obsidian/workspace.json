@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -75,7 +75,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md"
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
               }
             }
           }
@@ -205,11 +206,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b3ba25ca16f7bc88",
+  "active": "77ce7016c3e80e9d",
   "lastOpenFiles": [
     "Graph Theory/Graph.md",
-    "Information Theory/Mutual Information.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Information Theory/Mutual Information.md",
     "Algorithms/MAX-SAT.md",
     "Graph Theory/Random Graph.md",
     "Probability Theory/Expected Value.md",
