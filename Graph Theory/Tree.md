@@ -14,7 +14,7 @@
 > 3. $G$ is acyclic and $\left| E \right|=\left| V \right|-1$
 > 4. for all $x,y\in V$ there exists exactly one $(x,y)$-path.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. (1=>2): $G$ is connected by definition. 
 ---
@@ -23,6 +23,35 @@
 > 1. $T$ has at least 2 leaves.
 > 2. for any leaf $v\in V$, $T \backslash \{ v \}$ is also a tree.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. 
+
+---
+> [!lemma] Theorem 3 (Boruvka)
+>  ```pseudo
+>    \begin{algorithm} \caption{ComputeSpanningForest($G$)} 
+>    \begin{algorithmic}
+>    
+>    \State $F\gets (V,\varnothing)$
+>    \For{$t = 1,...,\left\lceil \log n\right\rceil$}
+>    \State Let $A_1,\dots,A_{k}$ be the connected components of $F$.
+>    \For{$j\in[k]$}
+>    \State Find an edge $e\in E(A_{i}, V \backslash  A_{i})$ and add it to $F$.
+>    \EndFor 
+>    \While{ there exists a cycle $C$ in $F$}
+>    \State Delete an arbitrary edge $e\in C$ from $F$.
+>    \EndWhile
+>    \EndFor
+>    \Return $F$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    The algorithm $\text{ComputeSpanningForest}$ returns a maximal spanning forest.
+
+> [!proof]-
+> Fix any iteration of the outer for loop. Let $A_{1},\dots,A_{k}$ be the connected components of the forest $F$ at the beginning of the loop iteration.
+> 
+> Since we add a cut edge from $(V_{i},A \backslash V_{i})$ for each $i$ to $F$, we have that each formerly connected component $A_{i}$ is now connected to at least one other component $A_{j}$. Thus, the number of connected components is at most $k / 2$.
+> 
+> It remains to observe that removing an edge from a cycle $e\in C$ does not affect the connected components. Thus, after each for-loop iteration, the number of connected components is at least halved.
+---

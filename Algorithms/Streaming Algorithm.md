@@ -133,3 +133,21 @@
 ---
 ##### Graph Streaming Algorithms
 ###### Graph Connectivity
+
+> [!lemma] Lemma 1
+> Let $\text{id}(v)$ denote the bit-representation of $v\in V:=[n]$. Then,
+>  ```pseudo
+>    \begin{algorithm} \caption{SingleCut($S=(a_{1},\dots,a_{m}),A$)} 
+>    \begin{algorithmic}
+>    \State $X_{v}\gets 0$ for all $v\in V$
+>    \For {$\left\langle e_{i},\pm\right\rangle\in S$}
+>    \State $\text{id}(e_{i})\gets \langle{ \text{id}(u) , \text{id}(v) \rangle}$ for $e_{i}=\{ u,v \}$ and $u< v$
+>    \State $X_u\gets X_{u}\oplus \text{id}(e_{i})$
+>    \State $X_v\gets X_{v}\oplus \text{id}(e_{i})$
+>    \EndFor
+>    \State $X\gets \bigoplus_{v\in A} X_{v}$
+>    \Return edge $e$ with $\text{id}(e)=X$. 
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+> For any stream $S:=(a_{1},\dots,a_{m})$ with $a_i:= \braket{ e_{i} , \pm }\in {n \choose 2}\times\{+,-\}$ for all $i\in[m]$ and a set $A\subseteq V$, 

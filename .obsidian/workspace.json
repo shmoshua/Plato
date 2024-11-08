@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Graph Theory/Tree.md",
                 "mode": "source",
                 "source": true
               }
@@ -46,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Graph Theory/Tree.md",
                 "mode": "preview",
                 "source": true
               }
@@ -207,12 +207,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "79cc111f9ba61df2",
+  "active": "77ce7016c3e80e9d",
   "lastOpenFiles": [
-    "Algorithms/MAX-SAT.md",
+    "Graph Theory/Tree.md",
     "Algorithms/Streaming Algorithm.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Algorithms/MAX-SAT.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Graph Theory/Graph.md",
     "Information Theory/Mutual Information.md",
     "Graph Theory/Random Graph.md",
@@ -234,7 +235,6 @@
     "Algorithms/Monotone Submodular Maximization.md",
     "Algorithms/Minimum Vertex Cover.md",
     "Algorithms/Minimum Set Cover.md",
-    "Courses/Advanced Algorithms/Exercise 06.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
