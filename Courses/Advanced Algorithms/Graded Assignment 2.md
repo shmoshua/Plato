@@ -116,4 +116,9 @@ Let $G$ have out-degree at most $1$.
 $$\begin{align}\mathbb{P}(\exists S\subseteq V:\left| S \right| =k,e(G[S])\geq 2k)&\leq{n \choose k}{m \choose 2k}\left( \frac{k}{n} \right)^{4k}\\&\leq \left( \frac{ne}{k} \right) ^k\left( {\frac{n}{4ek}} \right) ^{2k}{\frac{k^{4k}}{n^{4k}}}\\&\leq\left( \frac{k}{n} \right)^k\end{align} $$Then, $$\mathbb{P}(\exists S\subseteq V: e(G[S])\geq 2|S|)\leq \sum_{k=1}^{n / 4e^2}\left( \frac{k}{n} \right) ^k$$
 We have: $$\begin{align}\mathbb{P}(\exists S\subseteq V:\left| S \right| =k,e(G[S])\geq k+1)&\leq{n \choose k}{m \choose k+1}\left( \frac{k}{n} \right)^{2(k+1)}\\&\leq \left( \frac{ne}{k} \right) ^k\left( \frac{k}{n} \right)^{2(k+1)} {m \choose k+1}\\&\leq \frac{e^kk^{k+2}}{n^{k+2}}\frac{m^{k+1}}{(k+1)!}\\&\leq \frac{e^kk^{k+2}}{n^{k+2}}\frac{n^{k+1}}{2^{k+1}e^{2(k+1)}(k+1)!}\\&\leq \frac{e^kk^{k+2}}{n^{k+2}}\frac{n^{k+1}e^k}{2^{k+1}e^{2(k+1)}(k+1)k^k}\\&\leq \frac{k}{2^{k+1}n}\end{align} $$We have that: $$\sum_{k=1}^{n} \frac{k}{2^{k+1}n}\leq \frac{1}{2n}\sum_{k=1}^{\infty} \frac{k}{2^k}=\frac{1}{n}$$where: $$\sum_{k=1}^{\infty} \frac{k}{2^k}=\sum_{k=1}^{\infty}\sum_{j=1}^{k} \frac{1}{2^k}=\sum_{j=1}^{\infty}\sum_{k=j}^{\infty} \frac{1}{2^k}=\sum_{j=1}^{\infty} \frac{1}{2^{j-1}}=2$$
 
-$${m \choose k+1}\left( \frac{k}{n} \right) ^{2(k+1)}\leq \frac{m^{k+1}}{(k+1)!}\left( \frac{k}{n} \right)^{2(k+1)} \leq \frac{m}{k}\cdot \left( \frac{em}{k} \right)^k \left( \frac{k}{n} \right) ^{2(k+1)}\leq \frac{n}{2k}\cdot \left( \frac{n}{2ek} \right)^k \left( \frac{k}{n} \right) ^{2(k+1)}$$Then, $$$$
+$${m \choose k+1}\left( \frac{k}{n} \right) ^{2(k+1)}\leq \frac{m^{k+1}}{(k+1)!}\left( \frac{k}{n} \right)^{2(k+1)} \leq \frac{m}{k}\cdot \left( \frac{em}{k} \right)^k \left( \frac{k}{n} \right) ^{2(k+1)}\leq \frac{n}{2k}\cdot \left( \frac{n}{2ek} \right)^k \left( \frac{k}{n} \right) ^{2(k+1)}$$Then, 
+
+---
+### Problem 4
+
+Assume that there exists a randomized streaming algorithm with space complexity $o(m)$ that solves the 3-colouring validation problem w.h.p. 
