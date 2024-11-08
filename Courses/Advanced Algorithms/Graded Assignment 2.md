@@ -133,11 +133,11 @@ We reduce INDEX to 3-Coloring validation problem as follows.
 Let $n$ be an even number. We will use Yao's minimax principle to show the statement.
 We define $\mathcal{X}$ to be the space of all complete bipartite graphs $G:=(U\sqcup V,U\times V)$ on $[n]$, i.e. $\mathcal{X}:={ [n] \choose n / 2}$. We denote $x\in \{ 0,1 \}^n$ s.t. $x_{i}=1$ if and only if vertex $i\in U$. Further, we define $\mathcal{Y}$ as the space of all possible 2-color permutations of the vertices, i.e. $\mathcal{Y}:=\{ 0,1 \}^{n}$ where  $y_{i}=1$ if and only if $i$ is colored red, for all $i\in[n]$. We equip both $\mathcal{X,Y}$ with uniform distribution and define $\mathcal{Z}:=\mathcal{X}\times \mathcal{Y}$ as our input distribution.
 
- Notice that for all $(x,y)\in \mathcal{Z}$, there are $m:=n^{2} / 4$ edges. Let $0<c< \frac{4}{n}$. We will use Yao's minimax principle to show the statement. Let $\mathcal{A}$ be a space of all deterministic one-pass streaming algorithm that uses at most $\left\lfloor cm\right\rfloor$ bits. 
+ Notice that for all $(x,y)\in \mathcal{Z}$, there are $m:=n^{2} / 4$ edges. Let $0<c< \frac{4}{n}$. Let $\mathcal{A}$ be a space of all deterministic one-pass streaming algorithm that uses at most $\left\lfloor cm\right\rfloor$ bits. 
 
 Let $A\in \mathcal{A}$ and fix $x\in \mathcal{X}$. Consider the state of the algorithm after the stream has sent all edges but not the colors of each vertex. As $A$ is deterministic, the state of $A$ at this point is the same for fixed $x$. Therefore, we can represent this state as a map $z:\mathcal{X}\to \{ 0,1 \}^{\left\lfloor cm\right\rfloor}$. Further, as $A$ is deterministic, the output of $A$ can be represented as a function $a:\{ 0,1 \}^{\left\lfloor cm\right\rfloor}\to \{ 0,1 \}^{\mathcal{Y}}$ where $a(z(x))_{y}=1$ if and only if $A$ outputs VALID for input $(x,y)$. Further let $b:\mathcal{X}\to \{ 0,1 \}^{\mathcal{Y}}$ be the answer vector where $b(x)_{y}=1$ if and only if $x\in\{ y,1-y \}$. Then, $$\mathbb{P}_{y}[A\text{ is incorrect}|x]=\frac{\|a(z(x))-b(x)\|_{1}}{2^n}$$
 
-Let $P:=\text{im}(a\circ z)$ then recall that $\left| P \right|\leq 2^{\left\lfloor cm\right\rfloor}$. Further, denote that $\mathcal{X}_{\text{good}}:=\left\{  x\in \mathcal{X}: b(x)\in \bigcup_{w\in P}^{} B_{< m / 4}(w) \right\}$. Then, for a fixed $w\in P$, $$\left| b^{-1}(B_{<m / 4}(w))\right|= $$
+Let $P:=\text{im}(a\circ z)$ then recall that $\left| P \right|\leq 2^{\left\lfloor cm\right\rfloor}$. Further, denote that $\mathcal{X}_{\text{good}}:=\left\{  x\in \mathcal{X}: b(x)\in \bigcup_{w\in P}^{} B_{< m / 4}(w) \right\}$. Then, for a fixed $w\in P$, $$\left| b^{-1}(B_{<m / 4}(w))\right| =\left| \text{im}(b) \cap B_{< m / 4}(w)\right| $$
 
 
 
