@@ -176,7 +176,7 @@
 >    \end{algorithm}
 >    ```
 > For any stream $S:=(a_{1},\dots,a_{m})$ with $a_i:= \braket{ e_{i} , \pm }\in {n \choose 2}\times\{+,-\}$ for all $i\in[m]$ and a set $A\subseteq V$, 
-> 1. if $|(A,V \backslash A)|=k$ where $\frac{11}{12}\widehat{k}\leq k\leq \widehat{k}$, then $\text{SingleCut}(S,A)$ returns $e\in(A , V \backslash A)$ with constant probability using $\text{O}(n\log n)$ bits of memory.
+> 1. if $|(A,V \backslash A)|=k$ where $\frac{1}{12}\widehat{k}\leq k\leq \widehat{k}$, then $\text{SingleCut}(S,A)$ returns $e\in(A , V \backslash A)$ with constant probability using $\text{O}(n\log n)$ bits of memory.
 
 > [!proof]+
 > We have that: $$X=\bigoplus_{e\in (A,V \backslash A)} \text{id}(e)\cdot  \mathbb{1}_{\{ h(e)=0 \}}$$Now, let $Y_{e}=\mathbb{1}_{\{ h(e)=0 \}}$ and $Y:=\sum_{e\in (A, V\backslash A)}^{}Y_{e}$. Then, $$\mathbb{E}[Y]=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(h(e)=0)=\frac{k}{\widehat{k}}\in\left[ \frac{11}{12},1 \right]$$Further, $$\begin{align}\text{Var}(Y)=\mathbb{E}[Y^{2}]-\mathbb{E}[Y]^{2}&\leq  \sum_{e,e'\in (A, V \backslash A)}^{}\mathbb{E}\left[Y_{e}Y_{e'} \right] -\mathbb{E}[Y^{2}]\\&\leq \sum_{e\neq e'}^{} \frac{1}{\widehat{k}^{2}}+\sum_{e}^{} \mathbb{E}[Y_{e}^{2}]-\mathbb{E}[Y^{2}]\\&= { k \choose 2} \frac{1}{\widehat{k}^{2}}\\&\leq \frac{1}{2}\left(  \right) \end{align}$$
