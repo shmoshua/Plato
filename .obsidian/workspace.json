@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Mutual Information.md",
+                "file": "Algorithms/k-wise Independent Hash Function.md",
                 "mode": "preview",
                 "source": true
               }
@@ -211,11 +211,12 @@
   "lastOpenFiles": [
     "Graph Theory/Tree.md",
     "Algorithms/Streaming Algorithm.md",
+    "Algorithms/k-wise Independent Hash Function.md",
+    "Information Theory/Mutual Information.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Algorithms/MAX-SAT.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Graph Theory/Graph.md",
-    "Information Theory/Mutual Information.md",
     "Graph Theory/Random Graph.md",
     "Probability Theory/Expected Value.md",
     "Analysis/Hilbert Space.md",
@@ -234,7 +235,6 @@
     "Algorithms/Multi-Commodity Routing.md",
     "Algorithms/Monotone Submodular Maximization.md",
     "Algorithms/Minimum Vertex Cover.md",
-    "Algorithms/Minimum Set Cover.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
