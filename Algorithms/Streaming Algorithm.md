@@ -150,4 +150,4 @@
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
-> For any stream $S:=(a_{1},\dots,a_{m})$ with $a_i:= \braket{ e_{i} , \pm }\in {n \choose 2}\times\{+,-\}$ for all $i\in[m]$ and a set $A\subseteq V$, 
+> For any stream $S:=(a_{1},\dots,a_{m})$ with $a_i:= \braket{ e_{i} , \pm }\in {n \choose 2}\times\{+,-\}$ for all $i\in[m]$ and a set $A\subseteq V$, if $(A,V \backslash A)=\{ e \}$ then $\text{SingleCut}(S,A)$ returns $e$ using $\text{O}(n\log n)$ bits of memory.
