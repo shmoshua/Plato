@@ -26,13 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/MAX-SAT.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -57,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "mode": "preview",
                 "source": true
               }
@@ -142,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md"
+                "file": "Algorithms/Streaming Algorithm.md"
               }
             }
           }
@@ -206,16 +207,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "77ce7016c3e80e9d",
+  "active": "79cc111f9ba61df2",
   "lastOpenFiles": [
-    "Graph Theory/Graph.md",
-    "Courses/Advanced Algorithms/Graded Assignment 2.md",
-    "Information Theory/Mutual Information.md",
     "Algorithms/MAX-SAT.md",
+    "Algorithms/Streaming Algorithm.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Graph Theory/Graph.md",
+    "Information Theory/Mutual Information.md",
     "Graph Theory/Random Graph.md",
     "Probability Theory/Expected Value.md",
     "Analysis/Hilbert Space.md",
-    "Algorithms/Streaming Algorithm.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Approximation Algorithm.md",
     "Algorithms/Bin-Packing.md",
@@ -233,7 +235,6 @@
     "Algorithms/Minimum Vertex Cover.md",
     "Algorithms/Minimum Set Cover.md",
     "Courses/Advanced Algorithms/Exercise 06.md",
-    "Courses/Advanced Algorithms/Exercise 02.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",

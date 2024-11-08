@@ -129,3 +129,7 @@
 
 > [!proof]+
 > Let $x$ be the output of the algorithm. 
+
+---
+##### Graph Streaming Algorithms
+###### Graph Connectivity
