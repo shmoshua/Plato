@@ -135,11 +135,13 @@ We define $\mathcal{X}$ to be the space of all complete bipartite graphs $G:=(U\
 
  Notice that for all $(x,y)\in \mathcal{Z}$, there are $m:=n^{2} / 4$ edges. Let $0<c< \frac{4}{n}$. We will use Yao's minimax principle to show the statement. Let $\mathcal{A}$ be a space of all deterministic one-pass streaming algorithm that uses at most $\left\lfloor cm\right\rfloor$ bits. 
 
-Let $A\in \mathcal{A}$ and fix $x\in \mathcal{X}$. Consider the state of the algorithm after the stream has sent all edges but not the colors of each vertex. As $A$ is deterministic, the state of $A$ at this point is the same for fixed $x$. Therefore, we can represent this state as a map $z:\mathcal{X}\to \{ 0,1 \}^{\left\lfloor cm\right\rfloor}$. Further, as $A$ is deterministic, the output of $A$ can be represented as a function $a:\{ 0,1 \}^{\left\lfloor cm\right\rfloor}\to \{ 0,1 \}^{\mathcal{Y}}$ where $a(z(x))_{y}=1$ if and only if $A$ outputs VALID for input $(x,y)$. 
+Let $A\in \mathcal{A}$ and fix $x\in \mathcal{X}$. Consider the state of the algorithm after the stream has sent all edges but not the colors of each vertex. As $A$ is deterministic, the state of $A$ at this point is the same for fixed $x$. Therefore, we can represent this state as a map $z:\mathcal{X}\to \{ 0,1 \}^{\left\lfloor cm\right\rfloor}$. Further, as $A$ is deterministic, the output of $A$ can be represented as a function $a:\{ 0,1 \}^{\left\lfloor cm\right\rfloor}\to \{ 0,1 \}^{\mathcal{Y}}$ where $a(z(x))_{y}=1$ if and only if $A$ outputs VALID for input $(x,y)$. Further let $b:\mathcal{X}\to \{ 0,1 \}^{\mathcal{Y}}$ be the answer vector where $b(x)_{y}=1$ if and only if $x\in\{ y,1-y \}$. Then, $$\mathbb{P}_{y}[A\text{ is incorrect}|x]=\frac{\|a(z(x))-b(x)\|_{1}}{2^n}$$
 
-Let $P:=\text{im}(a\circ z)$
+Let $P:=\text{im}(a\circ z)$ then recall that $\left| P \right|\leq 2^{\left\lfloor cm\right\rfloor}$. Further, denote that $\mathcal{X}_{\text{good}}:=\left\{  x\in \mathcal{X}: b(x)\in \bigcup_{w\in P}^{} B_{< m / 4}(w) \right\}$. Then, for a fixed $w\in P$, $$\left| b^{-1}(B_{<m / 4}(w))\right|= $$
 
-Therefore, $$\mathbb{P}_{y}[A\text{ is incorrect}|x,z]=\sum_{y}^{}\mathbb{P}[A\text{ is incorrect}|x,y,z]=\frac{1}{2^n}$$
+
+
+Therefore, 
 
 
 the state can be represented as a vector $z\in \{ 0,1 \}^{\left\lfloor cm\right\rfloor}$. 
