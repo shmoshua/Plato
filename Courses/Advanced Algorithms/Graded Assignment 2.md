@@ -128,3 +128,16 @@ We reduce INDEX to 3-Coloring validation problem as follows.
 2. Alice constructs a graph $G:=(V,E)$ where:
 	- $V:=[n]\cup \{ \text{zero},\text{one} \}$
 	- $E:=\{ \{ \text{zero},i \}:x_{i}=0 \}\cup\{ \{ \text{one},i \}:x_{i}=1 \}$
+
+---
+Let $n$ be an even number. We will use Yao's minimax principle to show the statement.
+We define $\mathcal{X}$ to be the space of all possible instances of complete bipartite graphs $G:=(U\bigcup_^{})$ with 2 colors, i.e. $\mathcal{X}:={ [n] \choose n / 2}\times 2^n$ with uniform distribution. We denote $\braket{ x , y }\in \mathcal{X}$ where $x,y\in \{ 0,1 \}^n$ s.t. $x_{i}=1$ denotes whether vertex $i$ is in color
+
+ Notice that for all here are $m:=n^{2} / 4$ edges. Let $0<c< \frac{4}{n}$. We will use Yao's minimax principle to show the statement. Define $\mathcal{X}$ to be the space of all possible $2$-color (red, blue) permutations of $n$ vertices with an underlying uniform distribution, i.e. $|\mathcal{X}|=2^n$. Let $\mathcal{A}$ be a space of all deterministic one-pass streaming algorithm that uses at most $\left\lfloor cm\right\rfloor$ bits. 
+
+Let $A\in \mathcal{A}$. Consider the state of the algorithm after the stream has sent all edges but not the colors of each vertex. As $A$ is deterministic over all inputs $x\in \mathcal{X}$, the state of $A$ is the same. Therefore, $$\mathbb{P}_{x\in \mathcal{X}}[A\text{ is incorrect}]=$$
+
+
+the state can be represented as a vector $z\in \{ 0,1 \}^{\left\lfloor cm\right\rfloor}$. 
+
+
