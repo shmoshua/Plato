@@ -121,4 +121,10 @@ $${m \choose k+1}\left( \frac{k}{n} \right) ^{2(k+1)}\leq \frac{m^{k+1}}{(k+1)!}
 ---
 ### Problem 4
 
-Assume that there exists a randomized streaming algorithm with space complexity $o(m)$ that solves the 3-colouring validation problem w.h.p. 
+Assume that there exists a randomized streaming algorithm with space complexity $o(m)$ that solves the 3-coloring validation problem w.h.p. 
+
+We reduce INDEX to 3-Coloring validation problem as follows. 
+1. Alice has $x\in\{ 0,1 \}^n$ and Bob has $i\in[n]$. 
+2. Alice constructs a graph $G:=(V,E)$ where:
+	- $V:=[n]\cup \{ \text{zero},\text{one} \}$
+	- $E:=\{ \{ \text{zero},i \}:x_{i}=0 \}\cup\{ \{ \text{one},i \}:x_{i}=1 \}$
