@@ -151,3 +151,21 @@ $$\mathbb{P}(A\text{ is wrong})=\mathbb{P}(A\text{ didn't choose from }\mathcal{
 
 ---
 For each triangle,
+```pseudo
+\begin{algorithm} \caption{UpdateOrientation($G,u,v,\sigma$)} 
+\begin{algorithmic}
+\State $S_1,S_2,S_3$
+\State $\sigma\gets \sigma\cup\{u\to v\}$
+\State $\sigma\gets \sigma\cup\{v\to u\}$
+\State Find a reachable node $w$ from $u$ or $v$ w.r.t. $\sigma$ where $d^+_\sigma(w)=0$.
+\If{$w$ is reachable from $u$}
+\State Reverse the edges on the $u$-$w$-path in $\sigma$.
+\State $\sigma\gets \sigma\cup\{u\to v\}$
+\Else 
+\State Reverse the edges on the $v$-$w$-path in $\sigma$.
+\State $\sigma\gets \sigma\cup\{v\to u\}$
+\EndIf
+\Return $\sigma$
+\end{algorithmic}
+\end{algorithm}
+```
