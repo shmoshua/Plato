@@ -131,3 +131,14 @@ We reduce INDEX to 3-Coloring validation problem as follows.
 
 ---
 
+Have to sample all edges w.h.p
+<=> For each $e\in E$, there exists a triangle that contains $e$ given in distance $n$.
+Sample one of them uniformly. 
+
+Let $T(e)$ denote the number of triangles $e$ is in with distance $\leq n$. We have that $t(e)\geq 1$ for all $e\in E$. Let $F$ be the set of wrong edges w.r.t. $c$. Let $T$ be the set of triangles $A$ sampled. 
+
+1. if $F\geq 1$, $$\mathbb{P}(\mathcal{A}\text{ is wrong})=\mathbb{P}( \forall e\inT\cap T(e)=\varnothing)$$
+
+If $c$ is not valid, let $\mathcal{T}$ be the set of wrong triangles with size $t$. 
+$$\mathbb{P}(A\text{ is wrong})=\mathbb{P}(A\text{ didn't choose from }\mathcal{T})=\left( \frac{m-k}{m} \right) ^\ell$$
+
