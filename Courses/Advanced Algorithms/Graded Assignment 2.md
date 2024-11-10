@@ -139,6 +139,8 @@ Let $\mathcal{T}$ be the set of triangles with distance $\leq n$. $\mathcal T(e)
 Let $F$ be the set of wrong edges and $\mathcal{S}$ be the set of triangles $A$ samples. THen, 
 
 1. if $|F|\geq 1$, $$\mathbb{P}(\mathcal{A}\text{ is wrong})=\mathbb{P}\left( \forall T\in \mathcal{S}:  T\notin \bigcup_{e\in F}^{} \mathcal{T}(e) \right)=\left(\frac{ p-\left| \bigcup_{e\in F}^{}\mathcal{T}(e) \right| }{p} \right)^\ell \leq  $$
+   
+   $$\mathbb{P}(\mathcal{A}\text{ is wrong})=\mathbb{P}\left(\text{\#right triangles}\geq  k\right)= $$
 
 2. if 
 we have that $$\left| \bigcup_{e\in F}^{}\mathcal{T}(e) \right|=\sum_{e\in F}^{}\left|  \mathcal{T}(e)\right|  $$
