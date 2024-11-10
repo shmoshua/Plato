@@ -148,3 +148,6 @@ we have that $$\left| \bigcup_{e\in F}^{}\mathcal{T}(e) \right|=\sum_{e\in F}^{}
 If $c$ is not valid, let $\mathcal{T}$ be the set of wrong triangles with size $t$. 
 $$\mathbb{P}(A\text{ is wrong})=\mathbb{P}(A\text{ didn't choose from }\mathcal{T})=\left( \frac{m-k}{m} \right) ^\ell$$
 
+
+---
+For each triangle,

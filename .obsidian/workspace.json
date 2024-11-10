@@ -75,8 +75,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Expected Value.md"
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md"
               }
             }
           }
@@ -206,8 +205,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "77ce7016c3e80e9d",
+  "active": "b3ba25ca16f7bc88",
   "lastOpenFiles": [
+    "Probability Theory/Expected Value.md",
     "Algorithms/Streaming Algorithm.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Graph Theory/Tree.md",
@@ -217,7 +217,6 @@
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Random Graph.md",
-    "Probability Theory/Expected Value.md",
     "Analysis/Hilbert Space.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Approximation Algorithm.md",
