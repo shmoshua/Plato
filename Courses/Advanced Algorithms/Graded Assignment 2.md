@@ -155,10 +155,7 @@ For each triangle,
 \begin{algorithm} \caption{3ColorVerfication($S$)} 
 \begin{algorithmic}
 \For{$e_i\in S$}
-\State Reverse the edges on the $u$-$w$-path in $\sigma$.
-\State $\sigma\gets \sigma\cup\{u\to v\}$
-\State Reverse the edges on the $v$-$w$-path in $\sigma$.
-\State $\sigma\gets \sigma\cup\{v\to u\}$
+\State Find a
 \EndFor
 \Return $\sigma$
 \end{algorithmic}
