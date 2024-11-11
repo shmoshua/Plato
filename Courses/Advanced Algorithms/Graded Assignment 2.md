@@ -152,20 +152,30 @@ $$\mathbb{P}(A\text{ is wrong})=\mathbb{P}(A\text{ didn't choose from }\mathcal{
 ---
 For each triangle,
 ```pseudo
-\begin{algorithm} \caption{UpdateOrientation($G,u,v,\sigma$)} 
+\begin{algorithm} \caption{3ColorVerfication($S$)} 
 \begin{algorithmic}
-\State $S_1,S_2,S_3$
-\State $\sigma\gets \sigma\cup\{u\to v\}$
-\State $\sigma\gets \sigma\cup\{v\to u\}$
-\State Find a reachable node $w$ from $u$ or $v$ w.r.t. $\sigma$ where $d^+_\sigma(w)=0$.
-\If{$w$ is reachable from $u$}
+\For{$e_i\in S$}
 \State Reverse the edges on the $u$-$w$-path in $\sigma$.
 \State $\sigma\gets \sigma\cup\{u\to v\}$
-\Else 
 \State Reverse the edges on the $v$-$w$-path in $\sigma$.
 \State $\sigma\gets \sigma\cup\{v\to u\}$
-\EndIf
+\EndFor
 \Return $\sigma$
 \end{algorithmic}
 \end{algorithm}
 ```
+
+---
+
+$\text{XOR}_{v}:=\sum_{T\ni v}^{}\text{XOR}_{T}$
+
+
+
+For each color $c$, $$\text{XOR}_{c}=\bigoplus_{x:c(x)=c} \text{XOR}_{x}=\bigoplus_{x:c(x)=c} \bigoplus_{T\ni x}  \text{XOR}_{T}$$
+
+Red = 001 000
+
+If $c$ is valid, then for every $T\in \mathcal{T}$, there exists exactly $x\in T$ with $c(x)=c$. Therefore, $$\text{XOR}_{c}=\bigoplus_{T\in \mathcal{T}}\bigoplus_{c\in T} \text{XOR}_{T}=  \bigoplus_{T\in \mathcal{T}}\text{XOR}_{T}$$ 
+If $c$ is not valid, then there exists $T\in \mathcal{T}$ with no $c$ in it. Then, $$\text{XOR}_{c}=\bigoplus_{x:c(x)=c} $$ 
+
+$n^{2}$. 
