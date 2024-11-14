@@ -192,9 +192,11 @@ For any item $i\in[n]$, $f_{i}\in$
 ---
 Let $n$ and $\varepsilon$ be fixed and consider an arbitrary deterministic frequency estimation algorithm $A$ that uses at most $m:=\left\lfloor c \log(n) / \varepsilon\right\rfloor$ bits. Let $N:=\text{poly}(n)$. We claim that the additive error is larger than $\varepsilon N$.
 
+For $k\in \mathbb{N}$, let $N_{k}:=\left\lceil \frac{k(n-1)}{(1-\varepsilon)}\right\rceil$. Then, consider: $$S_{i,k}:=\underbrace{ T,\dots,T }_{ k\text{ times} }, \underbrace{ i,\dots, i }_{ N_{k}-k(n-1)\text{ times} }$$
+Then, there are 
 Let $k:=\left\lfloor (1-\varepsilon)N /(n-1)\right\rfloor$ and consider a stream $T$ of length $(n-1)k$ where $\{ 0,\dots,n-2 \}$ appear $k$ times each. We now define a set of streams $S_{0},\dots,S_{n-1}$ where: $$S_{i}:=T,\underbrace{ i,...,i }_{ N-(n-1)k \text{ times}},\quad \forall i\in[n]$$
 
-If $c\leq \varepsilon \log(n)$ then $2^m< n^n$ there are two states with the same state. Then, in one its $0$ in the other i
+If $c\leq \varepsilon \log^{2}(n)$ then $2^m< n^{\log^2(n)}$ there are two states with the same state. Then, in one its $0$ in the other i
 
 There are $n$ different states. 
 
