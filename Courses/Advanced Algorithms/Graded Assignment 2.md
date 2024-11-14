@@ -186,3 +186,15 @@ Assume that there exists a deterministic streaming algorithm $A$ in the setting 
 
 Then, for $\varepsilon=1 / 2$, $A$ has a space complexity of $\text{o}(\log (n))$. This is a contradiction to the result from exercise 4 of problem set 6. 
 
+
+For any item $i\in[n]$, $f_{i}\in$
+
+---
+Let $n$ and $\varepsilon$ be fixed and consider an arbitrary deterministic frequency estimation algorithm $A$ that uses at most $m:=\left\lfloor c \log(n) / \varepsilon\right\rfloor$ bits. We claim that the additive error is larger than $\varepsilon N$.
+
+
+We define
+1. $\varepsilon \cdot N$ of the first $n-1$ items appearing equally so each class occurs  $$\frac{\varepsilon N}{n-1}$$ times.
+2. 
+
+$c_{a}=c_{z}$ however $f_{a}=\frac{(1-\varepsilon )N}{n-1}+\varepsilon N$ times and in 2 $f_{z}=\varepsilon N$. If $A$ has additive error at most $\varepsilon N$, then $c_{a}\in[0,2\varepsilon N]$ however,  $$\frac{(1-\varepsilon)N}{n-1}+\varepsilon N-c_{a}\geq  \frac{(1-\varepsilon)N}{n-1}-\varepsilon N=N\left( \frac{1-\varepsilon-\varepsilon(n-1)}{n-1}\right) $$
