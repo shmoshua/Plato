@@ -87,8 +87,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md"
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md"
               }
             }
           }
@@ -218,8 +217,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5b9c1a41b51f24ce",
+  "active": "b3ba25ca16f7bc88",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Probability Theory/Expected Value.md",
@@ -245,7 +245,6 @@
     "Algorithms/PRAS.md",
     "Algorithms/Paging.md",
     "Algorithms/Multi-Commodity Routing.md",
-    "Algorithms/Monotone Submodular Maximization.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
