@@ -209,11 +209,9 @@ $c_{a}=c_{z}$ however $f_{a}=\frac{(1-\varepsilon )N}{n-1}+\varepsilon N$ times 
 Then, $a:\{ 0,1 \}^{m}\to \mathbb{N}^{n}$.
 
 ---
+Consider the set of all permutations $S_{n}$. We have then, $$N:=n^3$$
+
+Then, 
 
 
-There exists a set $\mathcal{F}$ of size $k:=2^{n/8}$ s.t. it holds. 
-
-1. Let $S_{1},\dots,S_{k}$ be randomly generated. Then, $$\mathbb{E}[\left| S_{i}\cap S_{j} \right| ]=\sum_{i=1}^{n} \frac{1}{16}=\frac{n}{16}$$Hence, $$\mathbb{P}(\left| S_{i}\cap S_{j} \right| \geq n /8)\leq 1 /2$$
-2. $\mathbb{P}( \exists i,j:\left| S_{i}\cap S_{j} \right|\geq n / 8)\leq$
-3. $$\mathbb{P}(\exists i,j: x\in S_{i}\cap S_{j})= {2^{n / 8} \choose 2 } $$
-4. For $T:=\{ x_{1},\dots,x_{n / 8} \}$. We have that: $$\mathbb{P}(T\subseteq S_{i})={k \choose n / 8}$$
+Consider the set of inputs $\mathcal{S}$ where
