@@ -190,11 +190,18 @@ Then, for $\varepsilon=1 / 2$, $A$ has a space complexity of $\text{o}(\log (n))
 For any item $i\in[n]$, $f_{i}\in$
 
 ---
-Let $n$ and $\varepsilon$ be fixed and consider an arbitrary deterministic frequency estimation algorithm $A$ that uses at most $m:=\left\lfloor c \log(n) / \varepsilon\right\rfloor$ bits. We claim that the additive error is larger than $\varepsilon N$.
+Let $n$ and $\varepsilon$ be fixed and consider an arbitrary deterministic frequency estimation algorithm $A$ that uses at most $m:=\left\lfloor c \log(n) / \varepsilon\right\rfloor$ bits. Let $N:=\text{poly}(n)$. We claim that the additive error is larger than $\varepsilon N$.
+
+Let $k:=\left\lfloor (1-\varepsilon)N /(n-1)\right\rfloor$ and consider a stream $T$ of length $(n-1)k$ where $\{ 0,\dots,n-2 \}$ appear $k$ times each. We now define a set of streams $S_{0},\dots,S_{n-1}$ where: $$S_{i}:=T,\underbrace{ i,...,i }_{ N-(n-1)k \text{ times}},\quad \forall i\in[n]$$
+
+If $c\leq \varepsilon \log_{2}(n!)$ then $2^m< n!$ there are two states with the same state. Then, in one its $0$ in the other i
+
+There are $n$
+
+Hence, for any $n$ we have that:  $$\frac{f_{n}}{\log (n) / \varepsilon}\geq \frac{1}{2\log (n)}$$
 
 
-We define
-1. $\varepsilon \cdot N$ of the first $n-1$ items appearing equally so each class occurs  $$\frac{\varepsilon N}{n-1}$$ times.
-2. 
 
 $c_{a}=c_{z}$ however $f_{a}=\frac{(1-\varepsilon )N}{n-1}+\varepsilon N$ times and in 2 $f_{z}=\varepsilon N$. If $A$ has additive error at most $\varepsilon N$, then $c_{a}\in[0,2\varepsilon N]$ however,  $$\frac{(1-\varepsilon)N}{n-1}+\varepsilon N-c_{a}\geq  \frac{(1-\varepsilon)N}{n-1}-\varepsilon N=N\left( \frac{1-\varepsilon-\varepsilon(n-1)}{n-1}\right) $$
+
+Then, $a:\{ 0,1 \}^{m}\to \mathbb{N}^{n}$.
