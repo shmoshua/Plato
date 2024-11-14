@@ -154,6 +154,8 @@ For each triangle,
 ```pseudo
 \begin{algorithm} \caption{3ColorVerfication($S$)} 
 \begin{algorithmic}
+\State $U\gets {n \choose 3}$ //upper bound of the number of triangles
+\State $h:[U]\to [U]\gets$ uniform, 2-wise independent random hash function 
 \For{$e_i\in S$}
 \State Find a
 \EndFor
@@ -176,3 +178,11 @@ If $c$ is valid, then for every $T\in \mathcal{T}$, there exists exactly $x\in T
 If $c$ is not valid, then there exists $T\in \mathcal{T}$ with no $c$ in it. Then, $$\text{XOR}_{c}=\bigoplus_{x:c(x)=c} $$ 
 
 $n^{2}$. 
+
+---
+##### Problem 2
+
+Assume that there exists a deterministic streaming algorithm $A$ in the setting that estimates the frequency of integers in an $N$-length stream of integers from $[n]$ up to an additive error of $\varepsilon N$ with space complexity $\text{o}(\log (n) / \varepsilon)$, where $N=\text{poly}(n)$.
+
+Then, for $\varepsilon=1 / 2$, $A$ has a space complexity of $\text{o}(\log (n))$. This is a contradiction to the result from exercise 4 of problem set 6. 
+
