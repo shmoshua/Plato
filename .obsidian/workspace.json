@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Algebra/Field.md",
                 "mode": "preview",
                 "source": true
               }
@@ -81,14 +81,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
+                "file": "Algebra/Integral Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
+                "file": "Algebra/Integral Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md"
+                "file": "Algebra/Integral Domain.md"
               }
             }
           }
@@ -218,8 +218,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "77ce7016c3e80e9d",
+  "active": "5b9c1a41b51f24ce",
   "lastOpenFiles": [
+    "Algebra/Zero Divisor.md",
+    "Algebra/Integral Domain.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Algebra/Field.md",
+    "Algebra/Polynomial Ring.md",
     "Probability Theory/Expected Value.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Graph Theory/Path (Graph).md",
@@ -231,7 +236,6 @@
     "Algorithms/Untitled 1.md",
     "Algorithms/Untitled.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/Streaming Algorithm.md",
     "Graph Theory/Tree.md",
@@ -243,10 +247,6 @@
     "Algorithms/Approximation Algorithm.md",
     "Algorithms/Bin-Packing.md",
     "Algorithms/Competitive Online Algorithm.md",
-    "Algorithms/DNF Counting.md",
-    "Algorithms/FPTAS.md",
-    "Algorithms/FPRAS.md",
-    "Algorithms/Star Search.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
