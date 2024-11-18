@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Probability Theory/Independence.md",
                 "mode": "preview",
                 "source": true
               }
@@ -221,10 +221,11 @@
   "lastOpenFiles": [
     "Algorithms/k-wise Independent Hash Function.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Probability Theory/Independence.md",
+    "Algebra/Integral Domain.md",
     "Probability Theory/Expected Value.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Algebra/Integral Domain.md",
     "Algebra/Zero Divisor.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Algebra/Field.md",
@@ -245,7 +246,6 @@
     "Analysis/Hilbert Space.md",
     "Algorithms/Approximation Algorithm.md",
     "Algorithms/Bin-Packing.md",
-    "Algorithms/Competitive Online Algorithm.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
