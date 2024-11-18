@@ -52,5 +52,5 @@
 > 	
 > 	If $T$ splits $u,v$ at level $i$, then we have that: $$\frac{2D}{2^i}\leq d_{T}(u,v)\leq 2\cdot \sum_{j=i}^{\infty} \frac{D}{2^j}= \frac{4D}{2^i} $$
 > 
-> Now, if we take $u,v\in V$, let $i\in \mathbb{N}$ s.t. $\frac{D}{2^i}\leq d_{G}(u,v)\leq \frac{D}{2^{i-1}}$. Then, 
-> 2. For $u,v\in V$ and $r\geq 0$, $$\begin{align}\mathbb{E}[d_{T}(u,v)]&=\sum_{i=1}^{\infty}\mathbb{E}[\mathbb{1}_{d_{T}(u,v)>2^ir}]=\sum_{i=1}^{\infty}2\cdot 2^ir\end{align}$$
+> Now, if we take $u,v\in V$, let $i\in \mathbb{N}$ s.t. $\frac{D}{2^i}\leq d_{G}(u,v)\leq \frac{D}{2^{i-1}}$. Then, from Theorem 1.1, $u,v$ will be separated before the $i$-th level. Therefore, $$d_{T}(u,v)\geq \frac{2D}{2^i}=\frac{D}{2^{i-1}}\geq d_{G}(u,v)$$
+> 
