@@ -4,7 +4,9 @@
 
 1. Let $z\in \text{argmin}_{x\in X\cup Y}h_{j}(x)$. As there are no collisions in the hash function $h_{j}$, we have that $z$ is unique. Then, 
    1. if $z\in X\cap Y$. Then, $g_{j}(X)=h_{j}(z)=g_{j}(Y)$ and consequently $g_{j}(X)\equiv_{2}g_{j}(Y)$. Further,
-	   $$\mathbb{P}(z\in X\cap Y)=\sum_{\ell\in X\cap Y}^{}\mathbb{P}(z)$$
+	   $$\mathbb{P}(z\in X\cap Y)=\sum_{\ell\in X\cap Y}^{}\mathbb{P}(z=\ell)$$Let $A:=\{ a_{1},\dots,a_{\left| X\cup Y \right|} \}\subseteq [2(nU)^{100}]$ be ordered in an increasing order. Further, the consider the enumeration $X\cup Y=\{ x_{1},\dots,x_{\left| X\cup Y \right|} \}$.Then, for any permutation  $\sigma\in S_{\left| X\cup Y \right|}$, from the full independence of $h_{j}$, $$\mathbb{P}(h_{j}(x_{1})=a_{\sigma(1)},\dots,h_{j}(x_{\left| X\cup Y \right| })=a_{\sigma(\left| X\cup Y \right| )})=\left( \frac{1}{2(nU)^{100}} \right)^{\left| X\cup Y \right| }$$Therefore, the probability is constant over all permutations and we have via counting argument that: 
+	   
+	   $$\begin{align}\mathbb{P}(z=\ell\cap h_{j}(X\cup Y)=A)&=\mathbb{P}(z=\ell |h_{j}(X\cup Y)=A)\mathbb{P}(h_{j}(X\cup Y)=A)\\&=\frac{1}{\left| X \cup Y \right| }\mathbb{P}(h_{j}(X\cup Y)=A)\end{align}$$Therefore, 
    2. 
    3. $\mathbb{P}(z\in X\cap Y)=\text{Sim}(X,Y)$. Hence, we have: $$\mathbb{P}(z\in X\cap Y\land g_{j}(X)\equiv_{2}g_{j}(Y))=\mathbb{P}(z\in X\cap Y)=\text{Sim}(X,Y)$$
    4. if $z\notin X\cap Y$, then the probability that $g_{j}(X)\equiv_{2}g_{j}(Y)$ is the probability that the two minima of hash values having the same parity. Then,  $$\begin{align}\mathbb{P}(g_j(X)\equiv_{2}g_{j}(Y)\land z\notin X \cap Y)&=\frac{1}{2}(1-\text{Sim}(X,Y))\end{align}$$

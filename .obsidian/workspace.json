@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/k-wise Independent Hash Function.md",
+                "file": "Algebra/Symmetry Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Algorithms/k-wise Independent Hash Function.md",
                 "mode": "preview",
                 "source": true
               }
@@ -222,6 +222,7 @@
     "Algorithms/k-wise Independent Hash Function.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Probability Theory/Independence.md",
+    "Algebra/Symmetry Group.md",
     "Algebra/Integral Domain.md",
     "Probability Theory/Expected Value.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
@@ -245,7 +246,6 @@
     "Graph Theory/Random Graph.md",
     "Analysis/Hilbert Space.md",
     "Algorithms/Approximation Algorithm.md",
-    "Algorithms/Bin-Packing.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
