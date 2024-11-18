@@ -215,3 +215,7 @@ Then,
 
 
 Consider the set of inputs $\mathcal{S}$ where
+
+---
+##### Problem 2
+2a) we have that: $$\mathbb{E}[\sigma(j)Z]=\mathbb{E}\left[ \sum_{i\in[j]}^{}\sigma(j)\sigma(i)f_{i} \right]=\sum_{i\in[j]}^{}\mathbb{E}[\sigma(j)\sigma(i)]f_{i}=$$

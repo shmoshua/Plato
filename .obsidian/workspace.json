@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "mode": "preview",
                 "source": true
               }
@@ -87,8 +87,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Integral Domain.md"
+                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md"
               }
             }
           }
@@ -218,24 +217,24 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5b9c1a41b51f24ce",
+  "active": "5c95df8df979fbdf",
   "lastOpenFiles": [
-    "Algebra/Zero Divisor.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Graph Algorithms/Tree Embedding.md",
+    "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Algebra/Integral Domain.md",
+    "Algebra/Zero Divisor.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Algebra/Field.md",
     "Algebra/Polynomial Ring.md",
     "Probability Theory/Expected Value.md",
-    "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Graph Theory/Path (Graph).md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Topology/Path.md",
     "Graph Theory/Graph.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Algorithms/Graph Algorithms",
     "Algorithms/Untitled 1.md",
     "Algorithms/Untitled.md",
-    "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/Streaming Algorithm.md",
     "Graph Theory/Tree.md",
