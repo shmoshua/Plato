@@ -211,7 +211,7 @@ Then, $a:\{ 0,1 \}^{m}\to \mathbb{N}^{n}$.
 ---
 Consider the set of all permutations $S_{n}$. We have then, $$N:=n^3$$
 
-Then, 
+Then,   
 
 
 Consider the set of inputs $\mathcal{S}$ where

@@ -123,6 +123,7 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 ---
 ![[Multi-Commodity Routing#^f82556]]
 ![[Multi-Commodity Routing#^d49992|p]]
+
 ---
 ![[Multi-Commodity Routing#^1afa3b]]
 
@@ -144,14 +145,18 @@ In trying to approximate an algorithm there are two approaches: Greedy and Round
 ##### 2.1.2 Paging Problem
 ![[Paging#^8651de]]
 ![[Paging#^8c42a1|q]]
+
 ---
 ![[Paging#^7371ed]]
 ![[Paging#^0e131a|p]]
+
 ---
 ![[Paging#^4e0de5]]
 ![[Paging#^547661|p]]
+
 ---
 ![[Paging#^0ffb3f]]
 ![[Paging#^7391c2|p]]
 
 ---
+#### 5 Tree Embedding

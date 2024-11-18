@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
                 "mode": "preview",
                 "source": true
               }
@@ -87,7 +87,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md"
+                "file": "Algorithms/Graph Algorithms/Tree Embedding.md"
               }
             }
           }
@@ -217,12 +218,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b3ba25ca16f7bc88",
+  "active": "77ce7016c3e80e9d",
   "lastOpenFiles": [
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Courses/Advanced Algorithms/Graded Assignment 2.md",
-    "Algorithms/k-wise Independent Hash Function.md",
     "Probability Theory/Expected Value.md",
+    "Algorithms/Graph Algorithms/Tree Embedding.md",
+    "Algorithms/Graph Algorithms",
+    "Algorithms/Untitled 1.md",
+    "Algorithms/Untitled.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Algorithms/k-wise Independent Hash Function.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/Streaming Algorithm.md",
     "Graph Theory/Tree.md",
@@ -232,7 +238,6 @@
     "Graph Theory/Graph.md",
     "Graph Theory/Random Graph.md",
     "Analysis/Hilbert Space.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Approximation Algorithm.md",
     "Algorithms/Bin-Packing.md",
     "Algorithms/Competitive Online Algorithm.md",
@@ -241,10 +246,6 @@
     "Algorithms/FPRAS.md",
     "Algorithms/Star Search.md",
     "Algorithms/Randomized Online Algorithm.md",
-    "Algorithms/PTAS.md",
-    "Algorithms/PRAS.md",
-    "Algorithms/Paging.md",
-    "Algorithms/Multi-Commodity Routing.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
@@ -254,7 +255,6 @@
     "Information Theory",
     "Courses/Characteristic Classes",
     "Char",
-    "Characteristic Classes",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
