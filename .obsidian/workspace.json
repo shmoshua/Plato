@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Symmetry Group.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
@@ -217,14 +217,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b3ba25ca16f7bc88",
+  "active": "5c95df8df979fbdf",
   "lastOpenFiles": [
-    "Probability Theory/Independence.md",
-    "Algorithms/k-wise Independent Hash Function.md",
+    "Probability Theory/Expected Value.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Algebra/Symmetry Group.md",
+    "Probability Theory/Independence.md",
+    "Algorithms/k-wise Independent Hash Function.md",
     "Algebra/Integral Domain.md",
-    "Probability Theory/Expected Value.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algebra/Zero Divisor.md",

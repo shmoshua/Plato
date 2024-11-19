@@ -238,16 +238,18 @@ We have that: $$\begin{align}\text{Var}(\sigma(j)Z_{h(j)})\le \mathbb{E}[\sigma(
 ---
 
 ```pseudo
-\begin{algorithm} \caption{Estimate($S$)} 
+\begin{algorithm} \caption{Estimate($S=\{a_1,...,a_m\}$)} 
 \begin{algorithmic}
 \State $k\gets $ a prime between $\lceil\varepsilon^{-2}\rceil\le k\le 2\lceil\varepsilon^{-2}\rceil$
-\State $h:[n]\to [k]$ be a 
-\State $U\gets {n \choose 3}$ //upper bound of the number of triangles
-\State $h:[U]\to [U]\gets$ uniform, 2-wise independent random hash function 
-\For{$e_i\in S$}
-\State Find a
+\State $h:[n]\to [k]$ be a uniform pairwise independent hash function
+\State $\sigma:[n]\to \{+1,-1\}\gets$ a uniform 4-wise independent hash function
+\State $Z_0,....,Z_{k-1}\gets 0$
+\For{$a_i\in S$}
+\State $Z_{h(a_i)}\gets Z_{h(a_i)}+\sigma(a_i)$
 \EndFor
-\Return $\sigma$
+\Return $\sigma(j)Z_{h(j)}$ for each $j\in[n]$.
 \end{algorithmic}
 \end{algorithm}
 ```
+
+For any $j\in[n]$ we have: $$\mathbb{P}(\left| \sigma(j)Z_{h(j)}-f_{j} \right|> \varepsilon f_{j} )\leq \frac{\left\| f \right\| ^2_{2}}{k \varepsilon^{2}f_{j}^{2}}\leq \frac{\left\| f \right\| ^2_{2}}{f_{j}^{2}}$$Therefore, $$\mathbb{P}(\exists j\in[n]:\left| \sigma(j)Z_{h(j)}-f_{j} \right|> \varepsilon f_{j})\leq \left\| f \right\| ^2_{2}\sum_{j\in [n]}^{} \frac{1}{f^{2}_{j}}=\left( \sum_{j\in[n]}^{}f^2_{j} \right) \left( \sum_{j\in[n]}^{} \frac{1}{f^2_{j}} \right) $$$$\sum_{j\in[n]}^{} \frac{1}{1-(1-f^2_{j})}\leq \sum_{j\in[n]}^{}1+2(1-f^2_{j})=\sum_{j\in[n]}^{}(3-2f^2_{j})=3n-2\|f\|^2_{2}$$
