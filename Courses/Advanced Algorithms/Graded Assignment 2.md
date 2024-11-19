@@ -233,3 +233,21 @@ where for $i\neq j$: $$\begin{align}\mathbb{E}[\sigma(i)\sigma(j)|h(i)=h(j)]&=\m
 $$X\bot Y \implies \mathbb{E}[X \mathbb{1}_{Y=k}]=\mathbb{E}[X]\cdot \mathbb{P}(Y=k)$$
 
 $$\mathbb{E}[X\cdot  \mathbb{1}_{Y=k}]=\mathbb{E}[X|Y=k]\cdot \mathbb{P}(Y=k)=$$
+We have that: $$\begin{align}\text{Var}(\sigma(j)Z_{h(j)})\le \mathbb{E}[\sigma(j)^{2} Z_{h(j)}^{2}]-f_{j}^{2}&=\mathbb{E}[Z^{2}_{h(j)}]-f_{j}^{2}\\&=\mathbb{E}\left[ \sum_{i,i'\in[n]}^{}\sigma(i)\sigma(i')f_{i}f_{i'}\mathbb{1}_{h(i)=h(j)=h(i')} \right]-f_{j}^{2}\\&=\sum_{i,i'\in[n]}^{}\mathbb{E}\left[ \sigma(i)\sigma(i') \right] \mathbb{P}(h(i)=h(j)\land h(i')=h(j))f_{i}f_{i'}\\&=f_{j}^{2}+\frac{1}{k}\sum_{i\neq j}f_{i}^{2}-f_{j}^{2}\\&\le \frac{\|f\|^{2}_{2}}{k}\end{align}$$where for any $i,i'\in[n]$, $$\mathbb{P}(h(i)=h(j)\land h(i')=h(j))\le $$
+
+---
+
+```pseudo
+\begin{algorithm} \caption{Estimate($S$)} 
+\begin{algorithmic}
+\State $k\gets $ a prime between $\lceil\varepsilon^{-2}\rceil\le k\le 2\lceil\varepsilon^{-2}\rceil$
+\State $h:[n]\to [k]$ be a 
+\State $U\gets {n \choose 3}$ //upper bound of the number of triangles
+\State $h:[U]\to [U]\gets$ uniform, 2-wise independent random hash function 
+\For{$e_i\in S$}
+\State Find a
+\EndFor
+\Return $\sigma$
+\end{algorithmic}
+\end{algorithm}
+```

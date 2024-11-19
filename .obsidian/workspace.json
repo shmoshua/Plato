@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/k-wise Independent Hash Function.md",
+                "file": "Probability Theory/Independence.md",
                 "mode": "preview",
                 "source": true
               }
@@ -219,9 +219,9 @@
   },
   "active": "b3ba25ca16f7bc88",
   "lastOpenFiles": [
+    "Probability Theory/Independence.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
-    "Probability Theory/Independence.md",
     "Algebra/Symmetry Group.md",
     "Algebra/Integral Domain.md",
     "Probability Theory/Expected Value.md",
