@@ -252,8 +252,9 @@ We have that: $$\begin{align}\text{Var}(\sigma(j)Z_{h(j)})\le \mathbb{E}[\sigma(
 \end{algorithm}
 ```
 
+If $t\geq 24\log n$ then:
 
-For any $j\in[n]$ we have: $$\mathbb{P}(\left| \sigma(j)Z_{h(j)}-f_{j} \right|> \varepsilon \|f\|_{2} )\leq \frac{\left\| f \right\| ^2_{2}}{k \varepsilon^{2}\|f\|^2_{2}}\leq \frac{1}{k\varepsilon^2}$$Therefore, $$\mathbb{P}(\exists j\in[n]:\left| \sigma(j)Z_{h(j)}-f_{j} \right|> \varepsilon f_{j})\leq \left\| f \right\| ^2_{2}\sum_{j\in [n]}^{} \frac{1}{f^{2}_{j}}=\left( \sum_{j\in[n]}^{}f^2_{j} \right) \left( \sum_{j\in[n]}^{} \frac{1}{f^2_{j}} \right) $$$$\sum_{j\in[n]}^{} \frac{1}{1-(1-f^2_{j})}\leq \sum_{j\in[n]}^{}1+2(1-f^2_{j})=\sum_{j\in[n]}^{}(3-2f^2_{j})=3n-2\|f\|^2_{2}$$
+For any $j\in[n]$ we have: $$\mathbb{P}(\left| \sigma(j)Z_{h(j)}-f_{j} \right|> \varepsilon \|f\|_{2} )\leq \frac{\left\| f \right\| ^2_{2}}{k \varepsilon^{2}\|f\|^2_{2}}\leq \frac{1}{4}$$Then, by the median trick, we have: $$\mathbb{P}(\text{Fail predicting }f_{j})=\mathbb{P}\left( X\geq \frac{t}{2} \right)=\mathbb{P}\left( X\geq 2 \mathbb{E}[X]\right) \leq \exp \left( -\frac{t}{12} \right)\leq \frac{1}{n^{2}} $$, $$\mathbb{P}(\exists j\in[n]:\left| \sigma(j)Z_{h(j)}-f_{j} \right|> \varepsilon f_{j})\leq \left\| f \right\| ^2_{2}\sum_{j\in [n]}^{} \frac{1}{f^{2}_{j}}=\left( \sum_{j\in[n]}^{}f^2_{j} \right) \left( \sum_{j\in[n]}^{} \frac{1}{f^2_{j}} \right) $$$$\sum_{j\in[n]}^{} \frac{1}{1-(1-f^2_{j})}\leq \sum_{j\in[n]}^{}1+2(1-f^2_{j})=\sum_{j\in[n]}^{}(3-2f^2_{j})=3n-2\|f\|^2_{2}$$
 $$\mathbb{P}(\forall j\in[n]:\left| \sigma(j)Z_{h(j)}-f_{j} \right|\leq \varepsilon \|f\|_{2} )\geq \left( 1- \right) $$
 
 $$\text{O}(\log n+\log \varepsilon^{-2})$$
