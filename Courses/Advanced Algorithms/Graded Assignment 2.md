@@ -257,3 +257,5 @@ For any $j\in[n]$ we have: $$\mathbb{P}(\left| \sigma(j)Z_{h(j)}-f_{j} \right|> 
 $$\mathbb{P}(\forall j\in[n]:\left| \sigma(j)Z_{h(j)}-f_{j} \right|\leq \varepsilon \|f\|_{2} )\geq \left( 1- \right) $$
 
 $$\text{O}(\log n+\log \varepsilon^{-2})$$
+
+if $n\leq \frac{1}{\varepsilon^{2}}$ then 
