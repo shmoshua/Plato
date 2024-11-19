@@ -252,4 +252,8 @@ We have that: $$\begin{align}\text{Var}(\sigma(j)Z_{h(j)})\le \mathbb{E}[\sigma(
 \end{algorithm}
 ```
 
-For any $j\in[n]$ we have: $$\mathbb{P}(\left| \sigma(j)Z_{h(j)}-f_{j} \right|> \varepsilon f_{j} )\leq \frac{\left\| f \right\| ^2_{2}}{k \varepsilon^{2}f_{j}^{2}}\leq \frac{\left\| f \right\| ^2_{2}}{f_{j}^{2}}$$Therefore, $$\mathbb{P}(\exists j\in[n]:\left| \sigma(j)Z_{h(j)}-f_{j} \right|> \varepsilon f_{j})\leq \left\| f \right\| ^2_{2}\sum_{j\in [n]}^{} \frac{1}{f^{2}_{j}}=\left( \sum_{j\in[n]}^{}f^2_{j} \right) \left( \sum_{j\in[n]}^{} \frac{1}{f^2_{j}} \right) $$$$\sum_{j\in[n]}^{} \frac{1}{1-(1-f^2_{j})}\leq \sum_{j\in[n]}^{}1+2(1-f^2_{j})=\sum_{j\in[n]}^{}(3-2f^2_{j})=3n-2\|f\|^2_{2}$$
+
+For any $j\in[n]$ we have: $$\mathbb{P}(\left| \sigma(j)Z_{h(j)}-f_{j} \right|> \varepsilon \|f\|_{2} )\leq \frac{\left\| f \right\| ^2_{2}}{k \varepsilon^{2}\|f\|^2_{2}}\leq \frac{1}{k\varepsilon^2}$$Therefore, $$\mathbb{P}(\exists j\in[n]:\left| \sigma(j)Z_{h(j)}-f_{j} \right|> \varepsilon f_{j})\leq \left\| f \right\| ^2_{2}\sum_{j\in [n]}^{} \frac{1}{f^{2}_{j}}=\left( \sum_{j\in[n]}^{}f^2_{j} \right) \left( \sum_{j\in[n]}^{} \frac{1}{f^2_{j}} \right) $$$$\sum_{j\in[n]}^{} \frac{1}{1-(1-f^2_{j})}\leq \sum_{j\in[n]}^{}1+2(1-f^2_{j})=\sum_{j\in[n]}^{}(3-2f^2_{j})=3n-2\|f\|^2_{2}$$
+$$\mathbb{P}(\forall j\in[n]:\left| \sigma(j)Z_{h(j)}-f_{j} \right|\leq \varepsilon \|f\|_{2} )\geq \left( 1- \right) $$
+
+$$\text{O}(\log n+\log \varepsilon^{-2})$$
