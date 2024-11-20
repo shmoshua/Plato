@@ -265,12 +265,23 @@ if $n\leq \frac{1}{\varepsilon^{2}}$ then
 ##### 2.1
 Let $\varepsilon(n)\in(n^{-0.99},1)$ be any function. Fix $n$ and consider an arbitrary frequency estimation algorithm that uses at most $m:=\left\lfloor c\log (n) / \varepsilon(n)\right\rfloor$ bits where $c< \varepsilon(n)(n-1)$. We claim that the additive error is larger than $\varepsilon N$. 
 
+As $1-\varepsilon(n)> 0$, there exists $t\in \mathbb{N}$ s.t. $1-\varepsilon(n)>n^{-t}$. Let $N:=n^{t+1} /2$. Then, we get two size $\frac{n}{2}$ sets $A,B$ and consider $A,x,\dots,x$ and $B,x,\dots,x$. 
+
+
 Let $S\subseteq[n]$ be a fixed subset with size $n/3$.  
 
 Let $\mathcal{A}:=\{ A\dots A:A\in \mathcal{S} \}$ for $\frac{2}{n-1}$ times. Then, we need that: $$$$$$\varepsilon(n)\frac{kn}{3}\leq \frac{k}{2}$$and $k\left( \frac{n}{3}-\frac{1}{2} \right)\leq 0$
 
-We have 
+We have ${n \choose n / 2}\geq \frac{2^n}{n+1}\geq 2^{n-\log(n)-1}$. Or we have ${n \choose n / 2}\geq 2^{n / 2}$ and set
+
+Let $c=\frac{n\varepsilon(n)}{2\log n}$ or $c$
+
+Let $k=\left\lfloor(1-\varepsilon)n\right\rfloor$. Then, ${n \choose k}\geq \left( \frac{1}{1-\varepsilon} \right)^{(1-\varepsilon)n}\geq \left( \frac{1}{1-n^{-0.99}} \right)^{n}$
+
+Let $k=\left\lfloor \varepsilon n\right\rfloor$. Then, ${n \choose k}\geq \left( \frac{1}{\varepsilon} \right)^{\varepsilon n}\geq$
 
 $N=(1-\varepsilon)N+\varepsilon N$. 
 
-$(1-\varepsilon)N=\frac{n}{2}$
+$(1-\varepsilon)N=\frac{n}{2},N=\frac{n}{2(1-\varepsilon)}$$$1-\varepsilon\leq 1-n^{-0.99}\leq 1-\frac{1}{n}$$
+$$\frac{n}{n-1}$$$\left( 1-\frac{1}{n-1} \right)^n\geq e^{-(n-1)/n}\geq 2^{-2(n-1) / n}$
+
