@@ -310,8 +310,10 @@ $t:\mathbb{N}\to \mathbb{N}$ s.t. $1-\varepsilon(n)\geq n^{-t(n)}$ for all $n$ T
 
 Let $\varepsilon(n)\in (n^{-0.99},1)$ be arbitrary and let $A$ be any deterministic streaming algorithm. For any $n$ we will show that if $A$ uses at most $m=\left\lfloor c \log(n) / \varepsilon(n)\right\rfloor$ bits for $c<\min\left\{ \frac{n\cdot \varepsilon(n)}{2\log(n)}, \frac{1}{2} \right\}$ then there exists an input for which it fails.
 
-If $\varepsilon(n)> \frac{1}{2}$, then  $A$ uses less than $\log(n) / 2\varepsilon(n)< \log(n)$ bits. Then, consider the $n$ streams of length 1 
+If $\varepsilon(n)\geq 1- \frac{1}{n}$, then  $A$ uses less than $\log(n) / 2\varepsilon(n)< \log(n)$ bits. Then, consider the $n$ streams of length 1.  Then, $$\left|  \right| $$
 
 as $A$ is deterministic $n$
 
 If $\varepsilon(n)\geq \frac{1}{2}$, then $A$ uses at most 
+
+If $\varepsilon(n)\geq \frac{1}{2}$ then $A$ uses less than $\log(n)$ bits. 
