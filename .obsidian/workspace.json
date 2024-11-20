@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tree.md",
+                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
                 "mode": "preview",
                 "source": true
               }
@@ -206,10 +206,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02c5c1c00827dd4a",
+  "active": "b3ba25ca16f7bc88",
   "lastOpenFiles": [
-    "Graph Theory/Tree.md",
+    "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
+    "Graph Theory/Tree.md",
     "Probability Theory/Independence.md",
     "Graph Theory/Chromatic Number.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
@@ -218,7 +219,6 @@
     "Algebra/Symmetry Group.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Algebra/Integral Domain.md",
-    "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algebra/Zero Divisor.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
