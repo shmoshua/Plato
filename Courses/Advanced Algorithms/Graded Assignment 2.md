@@ -326,3 +326,15 @@ $$\left\lfloor(1-\varepsilon)n\right\rfloor = 0 $$
 
 $n$ $1$
 $\frac{\log \log n}{n\log n}$ $n-1$
+
+We have $<n$ outputs it can give. Let $a_{1},\dots,a_{n}$ be the outputs. 
+
+i
+j
+
+Let $x,y\in \{ 0,1 \}^n$. Then, Alice creates a stream
+
+We need that $$N\geq 1+\left\lfloor 2\varepsilon N\right\rfloor > 2\varepsilon N$$
+$0> (2\varepsilon(n)-1)N$
+
+$N\geq\varepsilon(n)(N+M)$ then $(1-\varepsilon(n))N>$
