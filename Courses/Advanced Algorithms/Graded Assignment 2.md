@@ -260,3 +260,9 @@ $$\mathbb{P}(\forall j\in[n]:\left| \sigma(j)Z_{h(j)}-f_{j} \right|\leq \varepsi
 $$\text{O}(\log n+\log \varepsilon^{-2})$$
 
 if $n\leq \frac{1}{\varepsilon^{2}}$ then 
+
+---
+##### 2.1
+Let $\varepsilon(n)\in(n^{-0.99},1)$ be any function. Fix $n$ and consider an arbitrary frequency estimation algorithm that uses at most $m:=\left\lfloor c\log (n) / \varepsilon(n)\right\rfloor$ bits. We claim that the additive error is larger than $\varepsilon N$. 
+
+Let $S\subseteq[n]$ be a fixed subset with size $n/2$. 
