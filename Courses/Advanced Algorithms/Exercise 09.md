@@ -25,4 +25,5 @@ We have that: $$\sum_{e\in T}^{}l(e)\geq $$
 ##### Problem 3: Ball Carving
 Hehe
 1. We have that: $$\mathbb{P}\left( r_{v}\geq \frac{1}{\beta}\log n \right)\leq \frac{1}{n}$$
-2. Let $w$ be on the shortest path from $u$ to $v$. But $w\in B_{z}$ for $z\neq v$. Then, $$r_{z}-d(w,z)\geq r_{v}-d(v,z)$$and as $d(u,v)=d(u,w)+d(w,v)$, we have that: $$r_{z}-d(u,z)\geq r_{z}-d(u,w)-d(w,z)\geq r_{v}-d(v,z)-d(w,v)+d(w,v)$$
+2. Let $w$ be on the shortest path from $u$ to $v$. But $w\in B_{z}$ for $z\neq v$. Then, $$r_{z}-d(w,z)\geq r_{v}-d(w,v)$$and as $d(u,v)=d(u,w)+d(w,v)$, we have that: $$r_{z}-d(u,z)\geq r_{z}-d(u,w)-d(w,z)\geq r_{v}-d(u,w)-d(w,v)=r_{v}-d(u,v)$$which is a contradiction.
+

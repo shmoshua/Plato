@@ -265,4 +265,8 @@ if $n\leq \frac{1}{\varepsilon^{2}}$ then
 ##### 2.1
 Let $\varepsilon(n)\in(n^{-0.99},1)$ be any function. Fix $n$ and consider an arbitrary frequency estimation algorithm that uses at most $m:=\left\lfloor c\log (n) / \varepsilon(n)\right\rfloor$ bits. We claim that the additive error is larger than $\varepsilon N$. 
 
-Let $S\subseteq[n]$ be a fixed subset with size $n/2$. 
+Let $S\subseteq[n]$ be a fixed subset with size $n/3$.  
+
+Let $\mathcal{A}:=\{ A\dots A:A\in \mathcal{S} \}$ for $\frac{2}{n-1}$ times. Then, we need that: $$$$$$\varepsilon(n)\frac{kn}{3}\leq \frac{k}{2}$$and $k\left( \frac{n}{3}-\frac{1}{2} \right)\leq 0$
+
+We have $(n-1)^N$. 
