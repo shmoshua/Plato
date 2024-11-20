@@ -345,3 +345,5 @@ Then, if $$\text{SPACE}(A(n))\cdot \frac{2^n-1}{2^n\log n}$$
 
 
 Let $\varepsilon(n)=(1-2^{-n})$. Let $A$ be a streaming algorithm that outputs 1. Then, for any $n\geq$
+
+If $\varepsilon(n)\geq 1-n^{-2}$, then: $$m\leq c\log n\cdot \frac{n^2}{n^2-1}$$Assume that $m\leq \frac{\log n}{n}$. Then, $n^{1/n}\leq 2$ different configrations. 
