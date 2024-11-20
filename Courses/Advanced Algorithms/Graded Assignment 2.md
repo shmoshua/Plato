@@ -290,7 +290,19 @@ $N=(1-\varepsilon)N+\varepsilon N$.
 $(1-\varepsilon)N=\frac{n}{2},N=\frac{n}{2(1-\varepsilon)}$$$1-\varepsilon\leq 1-n^{-0.99}\leq 1-\frac{1}{n}$$
 $$\frac{n}{n-1}$$$\left( 1+\frac{2}{n-1} \right)^n\geq e^{n/n-1}\geq 2^{n/ n-1}$. Hence, let $c=\frac{n\cdot \varepsilon(n)}{(n-1)\log n}$
 
-Let $k=\left\lfloor(1-\varepsilon)n\right\rfloor$. Then, $${n \choose k}\geq {\left( \frac{n}{k} \right)^{k}}\geq\left( \frac{1}{1-\varepsilon}\right)^{(1-\varepsilon)n-1} $$if $$1\geq 2-2\varepsilon$$$$2\varepsilon\geq 1$$
+Let $k=\left\lfloor(1-\varepsilon)n\right\rfloor$. Then, $${n \choose k}\geq {\left( \frac{n}{k} \right)^{k}}\geq\left( \frac{1}{1-\varepsilon}\right)^{(1-\varepsilon)n-1} \geq \left( \frac{n}{n-1} \right) ^{(1-\varepsilon)n-1}$$if $$1\geq 2-2\varepsilon$$$$2\varepsilon\geq 1$$
 
 If $\varepsilon\geq \frac{1}{2}$, then: $${n \choose k}\geq 2^{(1-\varepsilon)n-1}$$
+
+$$\left( \frac{n}{k} \right)^k=2^{k(\log n-\log k)}=2^{}$$
+
+Let $\left\lfloor(1-\varepsilon)N\right\rfloor=\frac{n}{2}$. Then, $(1-\varepsilon)N$ $$N=\frac{n}{2(1-\varepsilon)}$$Then, we have that: $$2^{n / 2}\geq 2^{}$$where $c<\frac{n\varepsilon(n)}{2\log n}$
+
+$$\forall \varepsilon \forall A\in \text{Stream}:\left( \text{A good} \to \text{A }\text{o}\left(\frac{\log n}{\varepsilon_{n}} \right)   \right)$$
+
+$$\forall \varepsilon \forall A\in \text{Stream}:\left( \left( \forall n\forall N\in \text{poly}(n): \left| A(j)-f_{j}\right| \leq \varepsilon_{n}N\right) \to \lim_{ n \to \infty } \frac{\varepsilon_{n}\cdot \text{SPACE}(A(n))}{\log n}=0 \right)$$
+
+$$\forall \varepsilon \forall A\in \text{Stream}:\left( \left( \forall n\forall N\in \text{poly}(n): \left| A(j)-f_{j}\right| \leq \varepsilon_{n}N\right) \to \forall \delta\exists n_{0}\forall n\geq n_{0}:\frac{\varepsilon_{n}\cdot \text{SPACE}(A(n))}{\log n}<\delta \right)$$
+
+$$\forall \varepsilon \forall A\in \text{Stream}:\left( \exists \delta \forall n_{0}\exists n\geq n_{0}:\text{SPACE}(A(n))\geq\frac{\delta \log n}{\varepsilon _{n}}\to \exists n \exists N\in \text{poly}(n)\exists j:\left| A(j)-f_{j} \right|> \varepsilon_{n}N  \right)$$
 
