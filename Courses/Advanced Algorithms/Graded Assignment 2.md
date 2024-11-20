@@ -337,4 +337,11 @@ Let $x,y\in \{ 0,1 \}^n$. Then, Alice creates a stream
 We need that $$N\geq 1+\left\lfloor 2\varepsilon N\right\rfloor > 2\varepsilon N$$
 $0> (2\varepsilon(n)-1)N$
 
-$N\geq\varepsilon(n)(N+M)$ then $(1-\varepsilon(n))N>$
+$N\geq\varepsilon(n)(N+M)$ then $N>\frac{\varepsilon(n)}{(1-\varepsilon(n))}M$
+
+let $\varepsilon(n)=\left( 1-2^{-n} \right)$. Then, if $N(n)$, we have that $(1-2^{-n})N(n)\geq$
+
+Then, if $$\text{SPACE}(A(n))\cdot \frac{2^n-1}{2^n\log n}$$
+
+
+Let $\varepsilon(n)=(1-2^{-n})$. Let $A$ be a streaming algorithm that outputs 1. Then, for any $n\geq$
