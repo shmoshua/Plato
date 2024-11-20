@@ -320,4 +320,8 @@ If $\varepsilon(n)\geq \frac{1}{2}$ then $A$ uses less than $\log(n)$ bits.
 
 Let $N$ and $M$ be the different lengths where $N>M$. Then, we need that $$N-M>\varepsilon(n)\cdot (N+M)$$$$N>\frac{\varepsilon}{1-\varepsilon} M$$
 
-If $\varepsilon(n)\geq (1-\frac{1}{n})$
+If $\varepsilon(n)\geq (1-\frac{1}{n})$ then $1-\varepsilon\leq \frac{1}{n}$ and 
+
+$$\left\lfloor(1-\varepsilon)n\right\rfloor = 0 $$
+
+$n$ $1$
