@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Chromatic Number.md",
+                "file": "Courses/Advanced Algorithms/Exercise 09.md",
                 "mode": "source",
                 "source": true
               }
@@ -58,31 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "77ce7016c3e80e9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Chromatic Number.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cadb86ae2c613273",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Field.md",
+                "file": "Courses/Advanced Algorithms/Exercise 09.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,14 +70,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Graph Theory/Tree.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Chromatic Number.md",
+                "file": "Courses/Advanced Algorithms/Exercise 09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Chromatic Number.md",
+                "file": "Courses/Advanced Algorithms/Exercise 09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Chromatic Number.md"
+                "file": "Courses/Advanced Algorithms/Exercise 09.md"
               }
             }
           }
@@ -233,18 +208,20 @@
   },
   "active": "02c5c1c00827dd4a",
   "lastOpenFiles": [
-    "Graph Theory/Chromatic Number.md",
-    "Probability Theory/Expected Value.md",
-    "Courses/Advanced Algorithms/Graded Assignment 2.md",
-    "Algebra/Symmetry Group.md",
+    "Graph Theory/Tree.md",
+    "Courses/Advanced Algorithms/Exercise 09.md",
     "Probability Theory/Independence.md",
+    "Graph Theory/Chromatic Number.md",
+    "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Algebra/Field.md",
+    "Probability Theory/Expected Value.md",
+    "Algebra/Symmetry Group.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Algebra/Integral Domain.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algebra/Zero Divisor.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Algebra/Field.md",
     "Algebra/Polynomial Ring.md",
     "Graph Theory/Path (Graph).md",
     "Topology/Path.md",
@@ -254,12 +231,10 @@
     "Algorithms/Untitled.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/Streaming Algorithm.md",
-    "Graph Theory/Tree.md",
     "Information Theory/Mutual Information.md",
     "Algorithms/MAX-SAT.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Graph Theory/Random Graph.md",
-    "Analysis/Hilbert Space.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
