@@ -298,11 +298,20 @@ $$\left( \frac{n}{k} \right)^k=2^{k(\log n-\log k)}=2^{}$$
 
 Let $\left\lfloor(1-\varepsilon)N\right\rfloor=\frac{n}{2}$. Then, $(1-\varepsilon)N$ $$N=\frac{n}{2(1-\varepsilon)}$$Then, we have that: $$2^{n / 2}\geq 2^{}$$where $c<\frac{n\varepsilon(n)}{2\log n}$
 
-$$\forall \varepsilon \forall A\in \text{Stream}:\left( \text{A good} \to \text{A }\text{o}\left(\frac{\log n}{\varepsilon_{n}} \right)   \right)$$
+$$\forall \varepsilon \forall A\in \text{Stream}:\left( \text{A good} \to A\notin o\left(\frac{\log n}{\varepsilon_{n}} \right)   \right)$$
 
-$$\forall \varepsilon \forall A\in \text{Stream}:\left( \left( \forall n\forall N\in \text{poly}(n): \left| A(j)-f_{j}\right| \leq \varepsilon_{n}N\right) \to \lim_{ n \to \infty } \frac{\varepsilon_{n}\cdot \text{SPACE}(A(n))}{\log n}=0 \right)$$
 
-$$\forall \varepsilon \forall A\in \text{Stream}:\left( \left( \forall n\forall N\in \text{poly}(n): \left| A(j)-f_{j}\right| \leq \varepsilon_{n}N\right) \to \forall \delta\exists n_{0}\forall n\geq n_{0}:\frac{\varepsilon_{n}\cdot \text{SPACE}(A(n))}{\log n}<\delta \right)$$
+$$\forall \varepsilon \forall A\in \text{Stream}:\left( \forall \delta \exists n_{0}\forall n\geq n_{0}:\text{SPACE}(A(n))<\frac{\delta \log n}{\varepsilon _{n}}\to \exists n \exists N\in \text{poly}(n)\exists j:\left| A(j)-f_{j} \right|> \varepsilon_{n}N  \right)$$
 
-$$\forall \varepsilon \forall A\in \text{Stream}:\left( \exists \delta \forall n_{0}\exists n\geq n_{0}:\text{SPACE}(A(n))\geq\frac{\delta \log n}{\varepsilon _{n}}\to \exists n \exists N\in \text{poly}(n)\exists j:\left| A(j)-f_{j} \right|> \varepsilon_{n}N  \right)$$
 
+$N\in n^{O(1)}$
+$t:\mathbb{N}\to \mathbb{N}$ s.t. $1-\varepsilon(n)\geq n^{-t(n)}$ for all $n$ Then, $N$
+
+
+Let $\varepsilon(n)\in (n^{-0.99},1)$ be arbitrary and let $A$ be any deterministic streaming algorithm. For any $n$ we will show that if $A$ uses at most $m=\left\lfloor c \log(n) / \varepsilon(n)\right\rfloor$ bits for $c<\min\left\{ \frac{n\cdot \varepsilon(n)}{2\log(n)}, \frac{1}{2} \right\}$ then there exists an input for which it fails.
+
+If $\varepsilon(n)> \frac{1}{2}$, then  $A$ uses less than $\log(n) / 2\varepsilon(n)< \log(n)$ bits. Then, consider the $n$ streams of length 1 
+
+as $A$ is deterministic $n$
+
+If $\varepsilon(n)\geq \frac{1}{2}$, then $A$ uses at most 
