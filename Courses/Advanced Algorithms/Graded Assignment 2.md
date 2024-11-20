@@ -325,3 +325,4 @@ If $\varepsilon(n)\geq (1-\frac{1}{n})$ then $1-\varepsilon\leq \frac{1}{n}$ and
 $$\left\lfloor(1-\varepsilon)n\right\rfloor = 0 $$
 
 $n$ $1$
+$\frac{\log \log n}{n\log n}$ $n-1$
