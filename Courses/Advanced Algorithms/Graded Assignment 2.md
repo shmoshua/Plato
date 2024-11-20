@@ -317,3 +317,7 @@ as $A$ is deterministic $n$
 If $\varepsilon(n)\geq \frac{1}{2}$, then $A$ uses at most 
 
 If $\varepsilon(n)\geq \frac{1}{2}$ then $A$ uses less than $\log(n)$ bits. 
+
+Let $N$ and $M$ be the different lengths where $N>M$. Then, we need that $$N-M>\varepsilon(n)\cdot (N+M)$$$$N>\frac{\varepsilon}{1-\varepsilon} M$$
+
+If $\varepsilon(n)\geq (1-\frac{1}{n})$
