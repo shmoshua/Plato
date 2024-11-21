@@ -346,4 +346,14 @@ Then, if $$\text{SPACE}(A(n))\cdot \frac{2^n-1}{2^n\log n}$$
 
 Let $\varepsilon(n)=(1-2^{-n})$. Let $A$ be a streaming algorithm that outputs 1. Then, for any $n\geq$
 
-If $\varepsilon(n)\geq 1-n^{-2}$, then: $$m\leq c\log n\cdot \frac{n^2}{n^2-1}$$Assume that $m\leq \frac{\log n}{n}$. Then, $n^{1/n}\leq 2$ different configrations. 
+If $\varepsilon(n)\geq 1-n^{-2}$, then: $$m\leq c\log n\cdot \frac{n^2}{n^2-1}$$Assume that $m\leq \frac{\log n}{n}$. Then, $n^{1/n}< 2$ different configurations. Then, let: $$1$$ and $$\frac{\varepsilon(n)}{1-\varepsilon(n)}\leq \frac{\varepsilon(n)}{}$$
+
+$1-\varepsilon(n)\leq n^{-2}$ and $1-\varepsilon(n)\geq n^{-t(n)}$ then: $$n^{-t(n)}$$
+
+$$\frac{cn^2\log n}{n^2-1}<$$
+
+$$\frac{\frac{\log n}{n}}{\frac{n^{2}\log n}{n^{2}-1}}=\frac{n^{2}-1}{n^{3}}=\frac{1}{n}-\frac{1}{n^{2}}$$$$\left(\log n \right) $$
+
+when is $n^{x}<2$ then $x=\log_{n}2 = \frac{1}{\log n}$. 
+
+We have that: $$$$
