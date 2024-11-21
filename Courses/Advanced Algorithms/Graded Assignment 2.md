@@ -364,7 +364,7 @@ $$\frac{\frac{\log n}{n}}{\frac{n^{2}\log n}{n^{2}-1}}=\frac{n^{2}-1}{n^{3}}=\fr
 when is $n^{x}<2$ then $x=\log_{n}2 = \frac{1}{\log n}$. 
 
 
-We will show that if an algorithm $A$ uses at most $m:=\min\left\{  \frac{n}{2},\frac{\log n}{2 \varepsilon}  \right\}-1$ bits then there exists an input $N$ for which the algorithm fails. We have the following case distinction:
+We will show that if an algorithm $A$ uses at most $m:=\min\left\{  \log n,\frac{\log n}{2 \varepsilon}  \right\}-1$ bits then there exists an input $N$ for which the algorithm fails. We have the following case distinction:
 1. **Case 1: $\varepsilon(n)< \frac{1}{2}$.** 
    
    We will now construct the following streams. Let $\mathcal{B}$ denote the family of all subsets of $[n]$ of size $n/2$. For each $B\in \mathcal{B}$, we can order them s.t. $B=\{ a_{1},\dots,a_{n/2} \}$ where $a_{1}<a_{2}<\dots<a_{n / 2}$. Then, the stream associated to $B$ is given by: $$S_{B}:=(a_{1},a_{2},\dots,a_{n / 2})$$
@@ -372,6 +372,19 @@ As $\{ S_{B} \}_{B\in \mathcal{B}}$ has at least ${n \choose n / 2}\geq 2^{n /2}
 
 For any stream $S$, let $A(S)_{i}$ denote the algorithm's output for $f_{i}$ of the stream. Then, as $A$ is deterministic, $A(S_{1})_{x}=A(S_{2})_{x}$. However, 
 
-
+1 versus $\varepsilon(n)k$ Hence, 
 
 Let $N:=\left\lceil \frac{n}{2(1-\varepsilon)}\right\rceil\in \text{poly}(n)$ as $1-\varepsilon\geq n^{-c}$ for all $n$. Consider the following streams. 
+
+$f_{x}-g_{x}\geq2\varepsilon N+1>N+1$
+
+We need that  $2\varepsilon N+1 \leq N$ $(1-2\varepsilon)N\geq 1$ and $N\geq \frac{1}{1-2\varepsilon}$
+
+Then, for any algorithm $f(A)\geq \log n$ and: $$\varepsilon(n)=$$ Then, $\varepsilon N=\frac{\varepsilon}{1-\varepsilon}\cdot \frac{n}{2}\leq \frac{n}{2}$. 
+
+We need that $\varepsilon N=\frac{n}{2}$then $N=\frac{n}{\varepsilon 2}\leq n^{1.99}$ Then, $$$$
+
+Let $N:=\left\lceil n / 2\varepsilon\right\rceil$. Then, 
+
+We have $\varepsilon N$ times element 
+$\frac{2\varepsilon N}{n}$ times each element 
