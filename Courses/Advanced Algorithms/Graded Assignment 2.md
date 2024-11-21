@@ -364,13 +364,27 @@ $$\frac{\frac{\log n}{n}}{\frac{n^{2}\log n}{n^{2}-1}}=\frac{n^{2}-1}{n^{3}}=\fr
 when is $n^{x}<2$ then $x=\log_{n}2 = \frac{1}{\log n}$. 
 
 
-We will show that if an algorithm $A$ uses at most $m:=\frac{\log n}{200 \varepsilon}$ bits then there exists an input $N$ for which the algorithm fails.
+We will show that if an algorithm $A$ uses at most $m:=\frac{1}{\varepsilon}\left( \frac{\log n}{100 }-1 \right)$ bits then there exists an input $N$ for which the algorithm fails.
 
-We will now construct the following streams. Let $\mathcal{B}$ denote the family of all subsets of $[n]$ of size $k:=\left\lceil1/\varepsilon\right\rceil$. For each $B\in \mathcal{B}$, we can order them s.t. $B=\{ a_{1},\dots,a_{k} \}$ where $a_{1}<a_{2}<\dots<a_{k}$. Then, the stream associated to $B$ is given by: $$S_{B}:=(a_{1},a_{2},\dots,a_{k})$$ We have that $\{ S_{B} \}_{B\in \mathcal{B}}$ has at least ${n \choose k}\geq \left( \frac{n}{k} \right)^k\geq \left( \frac{n}{k} \right)^{1 / \varepsilon}$ elements and the algorithm has at most $2^m< n^{\frac{1}{100 \varepsilon}}$ configurations, we have by pigeonhole principle there exist $B_{1},B_{2}\in \mathcal{B}$ with $B_{1}\neq B_{2}$ s.t. the algorithm $A$ has the same configuration after $S_{B_{1}}$ and $S_{B_{2}}$. Let $x\in[n]$ be the element in $B_{1}$ but not in $B_{2}$. We further define $N=\left\lceil \frac{n}{2(1-\varepsilon)}\right\rceil$ and define the two streams $S_{1},S_{2}$ of length $N$ given by: $$S_{i}:=S_{B_{i}},\underbrace{ x,\dots,x }_{ N-\frac{n}{2}\text{ times} }$$
+We will now construct the following streams. Let $\mathcal{B}$ denote the family of all subsets of $[n]$ of size $k:=\left\lceil 1 / 2 \varepsilon\right\rceil -1\geq 1$. For each $B\in \mathcal{B}$, we can order them s.t. $B=( a_{1},\dots,a_{k} )$ where $a_{1}<a_{2}<\dots<a_{k}$. Then, the stream associated to $B$ is given by: $$S_{B}:=B,\dots,B$$ 
+As $\frac{n}{k}> \frac{n\varepsilon}{\varepsilon+1}\geq \frac{2}{3} n^{0.01}\geq 2^{\frac{\log n}{100}-1}$, we have that $\left| \mathcal{\mathcal{B}} \right|={n \choose k}\geq \left( \frac{n}{k} \right)^{1/\varepsilon}>2^m$. Therefore, by pigeonhole principle there exist $B_{1},B_{2}\in \mathcal{B}$ with $B_{1}\neq B_{2}$ s.t. the algorithm $A$ has the same configuration after $S_{B_{1}}$ and $S_{B_{2}}$. 
+
+Let $p$ times. Then, $N=kp$ and $p>2\varepsilon kp$.  Hence, $$1>2\varepsilon k\geq $$
+
+$${n \choose k}\geq \left( 2\varepsilon n\right) ^{\frac{1}{2\varepsilon}-1}\geq (2n^{0.01})^{\frac{1}{2\varepsilon}-1}\geq2^{ \frac{\log n}{100} \left( \frac{1}{2\varepsilon}-1 \right) }$$
+
+Let $k$ elements $p$ times. Then, $N=kp$. We need that $p>2\varepsilon kp$, i.e. $$\frac{1}{2\varepsilon}> k$$
+
+We have that $\frac{1}{2\varepsilon}-1\leq k< \frac{1}{2\varepsilon}$
+
+
+Let $x\in[n]$ be the element in $B_{1}$ but not in $B_{2}$. We further define $N=\left\lceil \frac{n}{2(1-\varepsilon)}\right\rceil$ and define the two streams $S_{1},S_{2}$ of length $N$ given by: $$S_{i}:=S_{B_{i}},\underbrace{ x,\dots,x }_{ N-\frac{n}{2}\text{ times} }$$
 
 $$2^{k\log n-k\log k}\geq 2^{\log n/\varepsilon-(1/\varepsilon+1)\log (1/\varepsilon+1)}$$
 We have that: $${n \choose k}= \frac{n}{k}\cdot \frac{n-1}{k-1}\dots \frac{n-(k-1)}{1}$$where $\frac{n-1}{k-1}\geq \varepsilon(n-1)$
-$$\frac{1}{k}> \frac{\varepsilon}{\varepsilon+1}>  \frac{n^{-0.99}}{n^{-0.99}+1}=n^{-0.99}$$$\varepsilon+1<$
+$$\frac{1}{k}> \frac{\varepsilon}{\varepsilon+1}>  \frac{3}{2}{n^{-0.99}}=n^{-0.99}$$$\varepsilon+1<$
+
+
 
 We have that: $$\left( \frac{n}{k} \right) ^k>n^{k/200}$$
 $$\frac{1}{1+\varepsilon}\geq x$$ then 
