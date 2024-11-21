@@ -303,7 +303,12 @@ $$\forall \varepsilon \forall A\in \text{Stream}:\left( \text{A good} \to A\noti
 
 $$\forall \varepsilon \forall A\in \text{Stream}:\left( \forall \delta \exists n_{0}\forall n\geq n_{0}:\text{SPACE}(A(n))<\frac{\delta \log n}{\varepsilon _{n}}\to \exists n \exists N\in \text{poly}(n)\exists j:\left| A(j)-f_{j} \right|> \varepsilon_{n}N  \right)$$
 
+---
 
+Let $\varepsilon(n)=1-2^{-n}$. We want to show that there exists a valid streaming algorithm in $\text{o}(\log n / \varepsilon_{n})$. Uses $m<\log \log n$ bits. Then there are at most $\log_{2}x$ different inputs. 
+
+
+---
 $N\in n^{O(1)}$
 $t:\mathbb{N}\to \mathbb{N}$ s.t. $1-\varepsilon(n)\geq n^{-t(n)}$ for all $n$ Then, $N$
 
@@ -356,4 +361,3 @@ $$\frac{\frac{\log n}{n}}{\frac{n^{2}\log n}{n^{2}-1}}=\frac{n^{2}-1}{n^{3}}=\fr
 
 when is $n^{x}<2$ then $x=\log_{n}2 = \frac{1}{\log n}$. 
 
-We have that: $$$$
