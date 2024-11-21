@@ -205,10 +205,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b3ba25ca16f7bc88",
+  "active": "5c95df8df979fbdf",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Exercise 09.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Algorithms/Streaming Algorithm.md",
+    "Courses/Advanced Algorithms/Exercise 09.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Graph Theory/Tree.md",
     "Probability Theory/Independence.md",
@@ -218,7 +220,6 @@
     "Algebra/Symmetry Group.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Algebra/Integral Domain.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algebra/Zero Divisor.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Algebra/Polynomial Ring.md",
@@ -229,7 +230,6 @@
     "Algorithms/Untitled 1.md",
     "Algorithms/Untitled.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
-    "Algorithms/Streaming Algorithm.md",
     "Information Theory/Mutual Information.md",
     "Algorithms/MAX-SAT.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
