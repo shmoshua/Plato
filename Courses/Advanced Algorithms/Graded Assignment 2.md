@@ -424,3 +424,36 @@ $\frac{2\varepsilon N}{n}$ times each element
 Let's take $n^{0.99}$ element subsets. Then, $${n \choose 1/\varepsilon}\geq \left( \varepsilon n \right)^{1 / \varepsilon}=2^{\frac{\log \varepsilon+\log n}{\varepsilon}} $$
 
 Then, we need that $$k\varepsilon N=N$$ and $k\varepsilon =1$ we want $k=\frac{1}{\varepsilon}\leq n^{0.99}$
+
+---
+```pseudo
+\begin{algorithm}\caption{Triangles$(S)$}
+\begin{algorithmic}
+\State $n,m\gets$ values from the stream $S$.
+\State $\text{XOR}_v\gets 0$ for all $v\in V$.
+\For{$e_i\in S$}
+\State Load the next $n-1$ edges and keep a sliding window of $n$ edges.
+\State Find a triangle $T$ containing $e_i$ in $e_i,...,e_{\min\{i+n-1,m\}}$
+\If{ such a triangle doesn't exist}
+\Continue
+\EndIf
+\State $r\gets $ random integer drawn from $[n^2]$
+\State $\text{XOR}_v\gets \text{XOR}_v\oplus r$ for all $v\in T$
+\State Discard $e_i$ from memory and load $e_{i+n}$ instead.
+\EndFor
+\State $\text{XOR}_\text{red},\text{XOR}_\text{green},\text{XOR}_\text{blue}\gets 0$
+\For{color $c(v)$ from the stream $S$}
+\State $\text{XOR}_{c(v)}\gets \text{XOR}_{c(v)}\oplus \text{XOR}_{v}$
+\EndFor
+\If{$\text{XOR}_\text{red}=\text{XOR}_\text{green}=\text{XOR}_\text{blue}$}
+\Return `VALID'
+\Else
+\Return `INVALID'
+\EndIf
+\end{algorithmic}
+\end{algorithm}
+```
+
+Theorem: Triangles(S) correctly answers the 3-coloring validation problem w.h.p with space complexity $\text{O}(n \log n)$. 
+
+We first analyze the space complexity. Storing $n,m$ is done in $\text{O}(\log n)$. Keeping a window of $n$ edges can be done in $\text{O}(n\log n)$. Drawing a random integer from $[n^{2}]$ can be done
