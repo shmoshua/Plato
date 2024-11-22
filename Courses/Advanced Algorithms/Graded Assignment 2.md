@@ -455,4 +455,8 @@ Theorem: Triangles(S) correctly answers the 3-coloring validation problem w.h.p 
 
 We first analyze the space complexity. Storing $n,m$ is done in $\text{O}(\log n)$. Keeping a window of $n$ edges can be done in $\text{O}(n\log n)$. Drawing a random integer from $[n^{2}]$ can be done in $\text{O}(\log n)$. As the length of each $\text{XOR}_{v}$ is $\text{O}(\log n)$, it also requires $\text{O}(n\log n)$ to keep track of all the xor variables. The rest of the process can be done in $\text{O}(\log n)$. This shows that $\text{Triangles}$ has space complexity $\text{O}(n\log n)$.
 
-Now we will show the correctness. Let $T_{1},\dots,T_{m}$ be the triangles chosen in order. Then, $e_{i}\in T_{i}$ by construction. Assume that  
+Now we will show the correctness. Let $T_{1},\dots,T_{m}$ be the triangles chosen in order. Further, let $r_{1},\dots,r_{n}$ be the random integer drawn for each triangle. Then, $e_{i}\in T_{i}$ by construction. Hence, we write that for any $x\in C:=\{ \text{red, blue, green} \}$:
+$$\text{XOR}_{x}=\bigoplus _{v\in V}\text{XOR}_{v}\cdot \mathbf{1}_{c(v)=x}=\bigoplus _{v\in V}\bigoplus _{i\in[m]}r_{i}\cdot \mathbf{1}_{c(v)=x}\cdot \mathbf{1}_{v\in T_{i}}$$
+
+1. Let $c$ be a valid coloring. Then, for each triangle $T_{i}$, there exists exactly one vertex of each color, i.e. for any $x\in C$, $\bigoplus _{v\in V}r_{i}\cdot \mathbf{1}_{c(v)=x}\cdot \mathbf{1}_{v\in T_{i}}=r_{i}$. Therefore, $$\text{XOR}_{x}=\bigoplus_{i\in[m]}  r_{i},\quad \forall x\in C$$and the algorithm outputs `VALID'.
+2. Let $c$ be an invalid coloring, i.e. there exists an edge $e_{i}=\{ u_{i},v_{i} \}$ s.t. $c(u_{i})=c(v_{i})$. 
