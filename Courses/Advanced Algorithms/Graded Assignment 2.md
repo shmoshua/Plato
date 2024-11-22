@@ -456,7 +456,19 @@ Theorem: Triangles(S) correctly answers the 3-coloring validation problem w.h.p 
 We first analyze the space complexity. Storing $n,m$ is done in $\text{O}(\log n)$. Keeping a window of $n$ edges can be done in $\text{O}(n\log n)$. Drawing a random integer from $[2^{\left\lceil \log n\right\rceil}]$ can be done in $\text{O}(\log n)$. As the length of each $\text{XOR}_{v}$ is $\text{O}(\log n)$, it also requires $\text{O}(n\log n)$ to keep track of all the xor variables. The rest of the process can be done in $\text{O}(\log n)$. This shows that $\text{Triangles}$ has space complexity $\text{O}(n\log n)$.
 
 Now we will show the correctness. Let $T_{1},\dots,T_{m}$ be the triangles chosen in order. Further, let $r_{1},\dots,r_{n}$ be the random integer drawn for each triangle. Then, $e_{i}\in T_{i}$ by construction. Hence, we write that for any $x\in C:=\{ \text{red, blue, green} \}$:
-$$\text{XOR}_{x}=\bigoplus _{v\in V}\text{XOR}_{v}\cdot \mathbf{1}_{c(v)=x}=\bigoplus _{v\in V}\bigoplus _{i\in[m]}r_{i}\cdot \mathbf{1}_{c(v)=x}\cdot \mathbf{1}_{v\in T_{i}}$$
+$$\text{XOR}_{x}=\bigoplus _{v\in V}\text{XOR}_{v}\cdot \mathbf{1}_{c(v)=x}=\bigoplus _{v\in V}\bigoplus _{i\in[m]}r_{i}\cdot \mathbf{1}_{c(v)=x}\cdot \mathbf{1}_{v\in T_{i}}=\bigoplus _{i\in[m]}\underbrace{ \bigoplus _{v\in V}r_{i}\cdot \mathbf{1}_{c(v)=x}\cdot \mathbf{1}_{v\in T_{i}} }_{ =:X_{x,i} }$$
 
-1. Let $c$ be a valid coloring. Then, for each triangle $T_{i}$, there exists exactly one vertex of each color, i.e. for any $x\in C$, $\bigoplus _{v\in V}r_{i}\cdot \mathbf{1}_{c(v)=x}\cdot \mathbf{1}_{v\in T_{i}}=r_{i}$. Therefore, $$\text{XOR}_{x}=\bigoplus_{i\in[m]}  r_{i},\quad \forall x\in C$$and the algorithm outputs `VALID'.
-2. Let $c$ be an invalid coloring, i.e. there exists an edge $e_{i}=\{ u_{i},v_{i} \}$ s.t. $c(u_{i})=c(v_{i})$. 
+1. Let $c$ be a valid coloring. Then, for each triangle $T_{i}$, there exists exactly one vertex of each color, i.e. for any $x\in C$, $X_{x,i}=\bigoplus _{v\in V}r_{i}\cdot \mathbf{1}_{c(v)=x}\cdot \mathbf{1}_{v\in T_{i}}=r_{i}$. Therefore, $$\text{XOR}_{x}=\bigoplus_{i\in[m]}  r_{i},\quad \forall x\in C$$and the algorithm outputs `VALID'.
+2. Let $c$ be an invalid coloring, i.e. there exists an edge $e_{i}=\{ u_{i},v_{i} \}$ s.t. $c(u_{i})=c(v_{i})$. Let's call a triangle $T$ wrong if it contains such an edge. 
+   
+   Notice that a wrong triangle $T_{i}$ influences exactly one color, i.e. $X_{x,i}=r_{i}$ for exactly one $x\in C$ and $X_{y,i}=0$ for $y\neq x$. 
+   1. For colors $x,y,z\in C$, if $T_{i}$ has 2 nodes of color $y$ and one node of color $x$, then: $$X_{x,i}=r_{i},\quad X_{y,i}=r_{i}\oplus r_{i}=0, \quad X_{z,i}=0$$
+   2. If $T_{i}$ is monochromatic with color $x$, then: $$X_{x,i}=r_{i}\oplus r_{i}\oplus r_{i}=r_{i},\quad X_{y,i}=0,\quad X_{z,i}=0$$
+	
+	Now, let $T_{k}$ be the last wrong triangle (which exists as $c$ is invalid). Then, we know that $T_{k+1},\dots,T_{m}$ are all correct and by part 1, we have that: $$\bigoplus_{k+1\leq i\leq m}X_{x,i}= \bigoplus_{k+1\leq i\leq m}r_{i},\quad \forall x\in C$$Therefore, $\text{XOR}_{\text{red}}=\text{XOR}_{\text{blue}}=\text{XOR}_{\text{green}}$ if and only if: $Y_{\text{red}}=Y_{\text{blue}}=Y_{\text{green}}$ where: $$Y_{x}:=\bigoplus_{1\leq i\leq k} X_{x,i}$$
+	1. Let $x,y,z$ be the three colors and let $x$ be the only color $T_{k}$ can influence. Then, $$\mathbb{P}(A\text{ outputs `VALID'}|Y_{y}\neq Y_{z},c\text{ is invalid})=0$$However, if $Y_{y}=Y_{z}=:r$, then the chance that $A$ outputs `Valid` if and only if $r_{i}=\bigoplus_{1\leq i<k}X_{x,i}\oplus r$. As we choose $r_{i}$ uniformly random,
+	   $$\mathbb{P}(A\text{ outputs `VALID'}|Y_{y}=Y_{z},c\text{ is invalid})=\frac{1}{2^{\left\lceil \log n\right\rceil }}$$
+
+	Bringing everything together, we have that: $$\begin{aligned}\mathbb{P}(A\text{ outputs `VALID'}|c\text{ is invalid})&=\mathbb{P}(A\text{ outputs `VALID'}|Y_{y}=Y_{z},c\text{ is invalid})\mathbb{P}(Y_{y}=Y_{z})\\&\quad \quad +\mathbb{P}(A\text{ outputs `VALID'}|Y_{y}\neq Y_{z},c\text{ is invalid})\mathbb{P}(Y_{y}\neq Y_{z})\\ &\leq \frac{1}{2^{\left\lceil \log n\right\rceil }}\leq \frac{1}{n}\end{aligned}$$
+
+This shows that $A$ solves the problem w.h.p. 
