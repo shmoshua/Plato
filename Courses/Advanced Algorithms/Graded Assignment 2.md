@@ -434,7 +434,7 @@ Then, we need that $$k\varepsilon N=N$$ and $k\varepsilon =1$ we want $k=\frac{1
 \For{$e_i\in S$}
 \State Keep a sliding window of at most $2n-1$ edges from $e_{\max\{1,i-n+1\}},...,e_i,...,e_{\min\{m,i+n-1\}}$
 \State Find a triangle $T$ containing $e_i$ in this window (exists by assumption)
-\State $r\gets $ random integer drawn uniformly from $[n^2]$
+\State $r\gets $ random integer drawn uniformly from $[2^{\lceil \log n\rceil}]$
 \State $\text{XOR}_v\gets \text{XOR}_v\oplus r$ for all $v\in T$
 \State Discard $e_i$ from memory and load $e_{i+n}$ instead.
 \EndFor
@@ -453,7 +453,7 @@ Then, we need that $$k\varepsilon N=N$$ and $k\varepsilon =1$ we want $k=\frac{1
 
 Theorem: Triangles(S) correctly answers the 3-coloring validation problem w.h.p with space complexity $\text{O}(n \log n)$. 
 
-We first analyze the space complexity. Storing $n,m$ is done in $\text{O}(\log n)$. Keeping a window of $n$ edges can be done in $\text{O}(n\log n)$. Drawing a random integer from $[n^{2}]$ can be done in $\text{O}(\log n)$. As the length of each $\text{XOR}_{v}$ is $\text{O}(\log n)$, it also requires $\text{O}(n\log n)$ to keep track of all the xor variables. The rest of the process can be done in $\text{O}(\log n)$. This shows that $\text{Triangles}$ has space complexity $\text{O}(n\log n)$.
+We first analyze the space complexity. Storing $n,m$ is done in $\text{O}(\log n)$. Keeping a window of $n$ edges can be done in $\text{O}(n\log n)$. Drawing a random integer from $[2^{\left\lceil \log n\right\rceil}]$ can be done in $\text{O}(\log n)$. As the length of each $\text{XOR}_{v}$ is $\text{O}(\log n)$, it also requires $\text{O}(n\log n)$ to keep track of all the xor variables. The rest of the process can be done in $\text{O}(\log n)$. This shows that $\text{Triangles}$ has space complexity $\text{O}(n\log n)$.
 
 Now we will show the correctness. Let $T_{1},\dots,T_{m}$ be the triangles chosen in order. Further, let $r_{1},\dots,r_{n}$ be the random integer drawn for each triangle. Then, $e_{i}\in T_{i}$ by construction. Hence, we write that for any $x\in C:=\{ \text{red, blue, green} \}$:
 $$\text{XOR}_{x}=\bigoplus _{v\in V}\text{XOR}_{v}\cdot \mathbf{1}_{c(v)=x}=\bigoplus _{v\in V}\bigoplus _{i\in[m]}r_{i}\cdot \mathbf{1}_{c(v)=x}\cdot \mathbf{1}_{v\in T_{i}}$$
