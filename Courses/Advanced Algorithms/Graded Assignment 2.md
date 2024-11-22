@@ -364,7 +364,7 @@ $$\frac{\frac{\log n}{n}}{\frac{n^{2}\log n}{n^{2}-1}}=\frac{n^{2}-1}{n^{3}}=\fr
 when is $n^{x}<2$ then $x=\log_{n}2 = \frac{1}{\log n}$. 
 
 
-We will show that if an algorithm $A$ uses at most $m:=\frac{\log n}{100 }\left( \frac{1}{2\varepsilon}-1 \right)$ bits then there exists an input $N$ for which the algorithm fails.
+We will show that if an algorithm $A$ uses at most $m:=\min\{ \frac{\log n}{400 \varepsilon },\log n-1 \}$ bits then there exists an input $N$ for which the algorithm fails.
 
 We will now construct the following streams. Let $\mathcal{B}$ denote the family of all subsets of $[n]$ of size $k:=\left\lfloor \frac{1}{2 \varepsilon}\right\rfloor\geq 1$. For each $B\in \mathcal{B}$, we can order them s.t. $B=\{ a_{1},\dots,a_{k} \}$ where $a_{1}<a_{2}<\dots<a_{k}$. Then, the stream associated to $B$ is given by: $$S_{B}:=(a_{1},\dots,a_{k})$$ 
 As $|\mathcal{B}|={n \choose k}\geq \left( \frac{n}{k} \right)^k\geq \left( 2\varepsilon n\right) ^{\frac{1}{2\varepsilon}-1}\geq (2n^{0.01})^{\frac{1}{2\varepsilon}-1}>2^{ \frac{\log n}{100} \left( \frac{1}{2\varepsilon}-1 \right) }=2^m$, we have that by pigeonhole principle there exist $B_{1},B_{2}\in \mathcal{B}$ with $B_{1}\neq B_{2}$ s.t. the algorithm $A$ has the same configuration after $S_{B_{1}}$ and $S_{B_{2}}$. Let $x\in[n]$ be an element in $B_{1}$ but not in $B_{2}$. Further, for any stream $S$ and $j\in [n]$, let $A(S)_{j}$ denote the output of $A$ estimating $f_{j}(S)$ given the input $S$. Then, we have that: $$1=\left| f_{j}(S_{1})-f_{j}(S_{2}) \right| \leq\left| A(S)_{x}-f_{j}(S_{1}) \right| +\left| A(S)_{x}-f_{j}(S_{2}) \right| \leq 2\varepsilon k$$
