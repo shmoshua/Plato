@@ -432,12 +432,9 @@ Then, we need that $$k\varepsilon N=N$$ and $k\varepsilon =1$ we want $k=\frac{1
 \State $n,m\gets$ values from the stream $S$.
 \State $\text{XOR}_v\gets 0$ for all $v\in V$.
 \For{$e_i\in S$}
-\State Load the next $n-1$ edges and keep a sliding window of $n$ edges.
-\State Find a triangle $T$ containing $e_i$ in $e_i,...,e_{\min\{i+n-1,m\}}$
-\If{ such a triangle doesn't exist}
-\Continue
-\EndIf
-\State $r\gets $ random integer drawn from $[n^2]$
+\State Keep a sliding window of at most $2n-1$ edges from $e_{\max\{1,i-n+1\}},...,e_i,...,e_{\min\{m,i+n-1\}}$
+\State Find a triangle $T$ containing $e_i$ in this window (exists by assumption)
+\State $r\gets $ random integer drawn uniformly from $[n^2]$
 \State $\text{XOR}_v\gets \text{XOR}_v\oplus r$ for all $v\in T$
 \State Discard $e_i$ from memory and load $e_{i+n}$ instead.
 \EndFor
@@ -456,4 +453,6 @@ Then, we need that $$k\varepsilon N=N$$ and $k\varepsilon =1$ we want $k=\frac{1
 
 Theorem: Triangles(S) correctly answers the 3-coloring validation problem w.h.p with space complexity $\text{O}(n \log n)$. 
 
-We first analyze the space complexity. Storing $n,m$ is done in $\text{O}(\log n)$. Keeping a window of $n$ edges can be done in $\text{O}(n\log n)$. Drawing a random integer from $[n^{2}]$ can be done
+We first analyze the space complexity. Storing $n,m$ is done in $\text{O}(\log n)$. Keeping a window of $n$ edges can be done in $\text{O}(n\log n)$. Drawing a random integer from $[n^{2}]$ can be done in $\text{O}(\log n)$. As the length of each $\text{XOR}_{v}$ is $\text{O}(\log n)$, it also requires $\text{O}(n\log n)$ to keep track of all the xor variables. The rest of the process can be done in $\text{O}(\log n)$. This shows that $\text{Triangles}$ has space complexity $\text{O}(n\log n)$.
+
+Now we will show the correctness. Let $T_{1},\dots,T_{m}$ be the triangles chosen in order. Then, $e_{i}\in T_{i}$ by construction. Assume that  
