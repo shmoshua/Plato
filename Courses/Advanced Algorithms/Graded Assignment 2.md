@@ -472,3 +472,7 @@ $$\text{XOR}_{x}=\bigoplus _{v\in V}\text{XOR}_{v}\cdot \mathbf{1}_{c(v)=x}=\big
 	Bringing everything together, we have that: $$\begin{aligned}\mathbb{P}(A\text{ outputs `VALID'}|c\text{ is invalid})&=\mathbb{P}(A\text{ outputs `VALID'}|Y_{y}=Y_{z},c\text{ is invalid})\mathbb{P}(Y_{y}=Y_{z})\\&\quad \quad +\mathbb{P}(A\text{ outputs `VALID'}|Y_{y}\neq Y_{z},c\text{ is invalid})\mathbb{P}(Y_{y}\neq Y_{z})\\ &\leq \frac{1}{2^{\left\lceil \log n\right\rceil }}\leq \frac{1}{n}\end{aligned}$$
 
 This shows that $A$ solves the problem w.h.p. 
+
+---
+We have that: $$g(x):=f(x)-\lambda \max(v(x)-\kappa,0)$$Then, $\text{EI}(x):=\mathbb{E}[\max(g(x)-g^{*},0)]$. We have that:
+1. For the max term: $$\begin{align}\mathbb{E}[\max(v(x)-\kappa,0)]&=\end{align}$$
