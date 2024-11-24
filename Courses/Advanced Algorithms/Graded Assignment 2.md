@@ -475,4 +475,9 @@ This shows that $A$ solves the problem w.h.p.
 
 ---
 We have that: $$g(x):=f(x)-\lambda \max(v(x)-\kappa,0)$$Then, $\text{EI}(x):=\mathbb{E}[\max(g(x)-g^{*},0)]$. We have that:
-1. For the max term: $$\begin{align}\mathbb{E}[\max(v(x)-\kappa,0)]&=\end{align}$$
+1. For the max term: $$\begin{align}\mathbb{E}[\max(g(x)-g^{*},0)]&=\int_{z_{0}}^{\infty}  \, dx \end{align}$$
+If $g(x)-g^{*}$
+
+$$\mathbb{E}[\max(\min(\kappa-v(x),0)-g^{*},0)]$$
+
+$$\arg\max\mathbb{P}(v(x)\le \kappa)=\text{argmax}_{x}$$
