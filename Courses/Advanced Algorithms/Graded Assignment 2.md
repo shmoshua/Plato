@@ -480,4 +480,6 @@ If $g(x)-g^{*}$
 
 $$\mathbb{E}[\max(\min(\kappa-v(x),0)-g^{*},0)]$$
 
-$$\arg\max\mathbb{P}(v(x)\le \kappa)=\text{argmax}_{x}$$
+$$\arg\max\mathbb{P}(v(x)\le \kappa)=\text{argmax}_{x}\Phi(\kappa)$$
+
+We have that $v(x)=\mu_{v}(x)+\sigma_{v}(x)z$. Hence, 
