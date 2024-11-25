@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Cut (Graph).md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "mode": "preview",
                 "source": true
               }
@@ -195,9 +195,9 @@
   },
   "active": "5b9c1a41b51f24ce",
   "lastOpenFiles": [
+    "Graph Theory/Metric Embedding.md",
     "Graph Theory/Cut (Graph).md",
     "Graph Theory/Sparsest Cut.md",
-    "Graph Theory/Metric Embedding.md",
     "Probability Theory/Independence.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
