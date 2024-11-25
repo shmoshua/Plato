@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -118,14 +118,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Measurable Function.md",
+                "file": "Probability Theory/Martingale.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Probability Theory/Martingale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Probability Theory/Martingale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Expected Value.md"
+                "file": "Probability Theory/Martingale.md"
               }
             }
           }
@@ -255,16 +255,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e8386836e3deda40",
+  "active": "1cd8558287d918c7",
   "lastOpenFiles": [
-    "Technical Lemmas.md",
     "Probability Theory/Expected Value.md",
-    "Probability Theory/Conditional Probability.md",
+    "Probability Theory/Martingale.md",
     "Probability Theory/Conditional Expectation.md",
+    "Measure Theory/Measurable Function.md",
+    "Technical Lemmas.md",
+    "Probability Theory/Conditional Probability.md",
     "Analysis/Gronwall Lemma.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
-    "Probability Theory/Martingale.md",
-    "Measure Theory/Measurable Function.md",
     "Graph Theory/Sparsest Cut.md",
     "Probability Theory/Independence.md",
     "Measure Theory/Sigma Algebra.md",

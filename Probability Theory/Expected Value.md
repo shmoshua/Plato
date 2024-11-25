@@ -39,12 +39,17 @@
 > 9. **Bienaymé-Chebyshev Inequality**: if $X\in L^2(\Omega,\mathcal{A},\mathbb{P})$ and $a>0$, $$\mathbb{P}(\left| X-\mathbb{E}[X] \right| \geq a)\leq \frac{1}{a^{2}}\text{Var}(X)$$
 > 10. **Hoeffding's Lemma**: if $X:\Omega\to \mathbb{R}$ with $a\leq X\leq b$ almost surely, then for all $\lambda\in \mathbb{R}$: $$\mathbb{E}[e^{\lambda X}]\leq \exp \left( \lambda \mathbb{E}[X]+\frac{\lambda^{2}(b-a)^{2}}{8} \right) $$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1.
 > 9. For 9, we have: $$\mathbb{P}(\left| X-\mathbb{E}[X] \right| \geq a )=\mathbb{P}((X-\mathbb{E}[X])^{2}\geq a^{2} )\leq \frac{\text{Var}(X)}{a^{2}}$$
 > 10. First assume that $\mathbb{E}[X] = 0$. Since $e^{\lambda x}$ is a convex function in $x$, we have that for all $x\in[a,b]$: $$e^{\lambda x}= e^{\lambda(\frac{b-x}{b-a}a+\frac{x-a}{b-a}b)}\leq\frac{b-x}{b-a}e^{\lambda a}+\frac{x-a}{b-a}e^{\lambda b}$$Therefore, $$\begin{align}\mathbb{E}[e^{\lambda X} ]&\leq \frac{b-\mathbb{E}[X]}{b-a}e^{\lambda a}+\frac{\mathbb{E}[X]-a}{b-a}e^{\lambda b}\\&= \frac{b}{b-a}e^{\lambda a}-\frac{a}{b-a}e^{\lambda b}\\&=e^{\lambda a}\left( 1+\frac{a-e^{\lambda(b-a)}a}{b-a} \right) \\&=e^{L(\lambda(b-a))}\end{align}$$where $L(h)=\frac{ha}{b-a}+\ln\left( 1+ \frac{a-e^ha}{b-a} \right)$. Then, 
 > 	1. $L(0)=0$
-> 	2. $L'(h)=\frac{a}{b-a}+\frac{1}{1+\frac{a-e^h a}{b-a}}$
+> 	2. $L'(h)=\frac{a}{b-a}-\frac{1}{1+\frac{a-e^h a}{b-a}}\left( \frac{e^ha}{b-a} \right)=\frac{a}{b-a}-\frac{e^h a}{b-e^h a}=\frac{a}{b-a}+1-\frac{b}{b-e^ha}$ and $L'(0)=0$.
+> 	3. $L''(h)=-\frac{abe^h}{(b-e^ha)^{2}}$
+> 	
+> 	From AM-GM, we have that for all $h$, $$L''(h)=\left( \frac{b}{b-e^ha} \right) \left( -\frac{e^ha}{b-e^ha} \right) \leq \frac{1}{4}$$Then, there exists some $\theta\in[0,1]$ s.t. $$L(h)=L(0)+hL'(0)+\frac{1}{2}h^{2}L''(h\theta)\leq \frac{h^{2}}{8}$$Therefore, $\mathbb{E}[e^{\lambda X}]\leq \exp \left( \frac{\lambda^{2}(b-a)^{2}}{8} \right)$. 
+> 	
+> 	Now if $\mathbb{E}[X]$ is arbitrary, then by applying the lemma on $Z:=X-\mathbb{E}[X]$, we have that: $$\mathbb{E}[e^{\lambda (X-\mathbb{E}[X])}]\leq \exp \left(  \frac{\lambda^{2}(b-a)^{2}}{8}\right) $$ and we have that: $$\mathbb{E}[e^{\lambda X}]=\mathbb{E}[e^{\lambda (X-\mathbb{E}[X])}]e^{\lambda \mathbb{E}[X]}\leq e^{\lambda \mathbb{E}[X]}\cdot \exp \left(  \frac{\lambda^{2}(b-a)^{2}}{8}\right) $$
 > 	
 ---
