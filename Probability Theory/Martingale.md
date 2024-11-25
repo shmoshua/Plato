@@ -28,3 +28,14 @@
 
 > [!proof]-
 > We have that by [[Conditional Expectation|Proposition 4]]: $$\mathbb{E}[X_{n}]=\mathbb{E}[\mathbb{E}[X_{n}|\mathcal{A}_{1}]]=\mathbb{E}[X_{1}]$$
+
+---
+> [!lemma] Theorem 3 (Azuma-Hoeffding)
+> Let $(X_{n})_{n}$ be a martingale w.r.t $(\mathcal{A}_{n})_{n}$. Let $(A_{n})_{n},(B_{n})_{n}$ are predictable w.r.t. $(\mathcal{A}_{n})_{n}$. Further, let $c_{n}>0$ s.t. 
+> 1. $A_{n}\leq X_{n}-X_{n-1}\leq B_{n}$ almost surely for all $n\geq 1$
+> 2. $B_{n}-A_{n}\leq c_{n}$ almost surely for all $n\geq 1$
+> 
+> Then, for all $\lambda\geq 0$, $$\mathbb{P}(X_{n}\geq X_{0}+\lambda)\leq \exp \left( -\frac{2\lambda^{2}}{\sum_{i\leq n}c_{i}^{2}} \right) $$
+
+> [!proof]+
+> By [[Expected Value|Markov]], we have that for any $s>0$: $$\mathbb{P}(X_{n}-X_{0}\geq \lambda)=\mathbb{P}(e^{s(X_{n}-X_{0})}\geq e^{s\lambda})\leq \frac{\mathbb{E}[e^{s(X_{n}-X_{0})}]}{e^{s\lambda}}=\frac{\mathbb{E}\left[ e^{s\sum_{i=1}^{n}(X_{i}-X_{i-1})} \right]}{e^{s\lambda}}$$
