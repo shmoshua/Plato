@@ -10,7 +10,7 @@
 
 ^22a6cd
 
-- **Remark**: If $\mathcal{B}=\{ \varnothing, B, B^c, \Omega \}$, then $\mathbb{E}[]$$
+- **Remark**: If $\mathcal{B}=\{ \varnothing, B, B^c, \Omega \}$, then $\mathbb{E}[X |B]:=\mathbb{E}[X|\mathcal{B}]=\mathbb{E}[X\cdot \mathbb{1}_{\mathbf{B}}]$
 - **Remark**: the $\varphi(y)$ value when $\mathbb{P}(Y=y)=0$ is irrelevant as $$\mathbb{P}(Y\in \{ y\in E:\mathbb{P}(Y=y)=0 \})=\sum_{y\in \{ y\in E:\mathbb{P}(Y=y)=0 \}}^{}\mathbb{P}(Y=y)=0$$
 ---
 ##### Properties

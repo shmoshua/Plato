@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Probability Theory/Conditional Expectation.md",
                 "mode": "source",
                 "source": true
               }
@@ -36,8 +36,12 @@
             "id": "3c6598032f67b3c3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Conditional Probability.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ],
@@ -71,9 +75,45 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "0aaf37bc110c9d63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Conditional Expectation.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "215049b117e502c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Independence.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "98d6a3a4a1d4cef8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Sigma Algebra.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Probability Theory/Conditional Expectation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Probability Theory/Conditional Expectation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md"
+                "file": "Probability Theory/Conditional Expectation.md"
               }
             }
           }
@@ -203,15 +243,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02c5c1c00827dd4a",
+  "active": "0aaf37bc110c9d63",
   "lastOpenFiles": [
-    "Analysis/Landau Notations.md",
+    "Probability Theory/Independence.md",
+    "Measure Theory/Sigma Algebra.md",
+    "Probability Theory/Expected Value.md",
+    "Measure Theory/Lebesgue Integral.md",
+    "Probability Theory/Conditional Expectation.md",
     "Probability Theory/Conditional Probability.md",
+    "Analysis/Landau Notations.md",
     "Graph Theory/Metric Embedding.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
     "Graph Theory/Sparsest Cut.md",
     "Graph Theory/Cut (Graph).md",
-    "Probability Theory/Independence.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Algorithms/Streaming Algorithm.md",
@@ -219,7 +263,6 @@
     "Graph Theory/Tree.md",
     "Graph Theory/Chromatic Number.md",
     "Algebra/Field.md",
-    "Probability Theory/Expected Value.md",
     "Algebra/Symmetry Group.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Algebra/Integral Domain.md",
@@ -228,10 +271,7 @@
     "Algebra/Polynomial Ring.md",
     "Graph Theory/Path (Graph).md",
     "Topology/Path.md",
-    "Graph Theory/Graph.md",
     "Algorithms/Graph Algorithms",
-    "Algorithms/Untitled 1.md",
-    "Algorithms/Untitled.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
