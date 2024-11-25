@@ -38,14 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Probability.md",
+                "file": "Probability Theory/Martingale.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,14 +106,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Sigma Algebra.md",
+                "file": "Probability Theory/Martingale.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Conditional Expectation.md",
+                "file": "Probability Theory/Martingale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Conditional Expectation.md",
+                "file": "Probability Theory/Martingale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Conditional Expectation.md"
+                "file": "Probability Theory/Martingale.md"
               }
             }
           }
@@ -243,18 +243,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0aaf37bc110c9d63",
+  "active": "98d6a3a4a1d4cef8",
   "lastOpenFiles": [
+    "Probability Theory/Conditional Expectation.md",
+    "Probability Theory/Martingale.md",
+    "Probability Theory/Expected Value.md",
+    "Probability Theory/Conditional Probability.md",
+    "Graph Theory/Sparsest Cut.md",
     "Probability Theory/Independence.md",
     "Measure Theory/Sigma Algebra.md",
-    "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Integral.md",
-    "Probability Theory/Conditional Expectation.md",
-    "Probability Theory/Conditional Probability.md",
     "Analysis/Landau Notations.md",
     "Graph Theory/Metric Embedding.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
-    "Graph Theory/Sparsest Cut.md",
     "Graph Theory/Cut (Graph).md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
@@ -270,7 +271,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Algebra/Polynomial Ring.md",
     "Graph Theory/Path (Graph).md",
-    "Topology/Path.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",

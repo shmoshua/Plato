@@ -35,7 +35,7 @@
 > 6. if $X\geq 0$ almost surely, then $\mathbb{E}[X | \mathcal{B}]\geq 0$ almost surely.
 > 7. if $X\leq Y$ almost surely, then $\mathbb{E}[X|\mathcal{B}]\leq \mathbb{E}[Y|\mathcal{B}]$ almost surely.
 > 8. $\left| \mathbb{E}[X| \mathcal{B}] \right|\leq \mathbb{E}[\left| X \right| | \mathcal{B}]$
-> 9. if $X$ is independent of $\mathcal{B}$, then $\mathbb{E}[X|\mathcal{B}]=\mathbb{E}[X]$ almost surely.
+
 
 > [!proof]+
 > We have that:
@@ -44,7 +44,10 @@
 > 3. If $X$ is $\mathcal{B}$-measurable, then $X\in L^1(\Omega,\mathcal{B},\mathbb{P})$ and it holds by uniqueness.
 > 4. $c$ is $\mathcal{B}$-measurable and from 3. 
 > 5. We have that: $$\mathbb{E}[X]=\mathbb{E}[\mathbb{E}[X]],\quad \mathbb{E}[0]=0$$The rest holds by uniqueness.
-> 6. 
+> 6. From definition
+> 7. From 6 and 2. 
+> 8. From Proposition 2.3, $$\left| \mathbb{E}[X|\mathcal{B}] \right| \leq \mathbb{E}[X^+|\mathcal{B}]+\mathbb{E}[X^-|\mathcal{B}]=\mathbb{E}[\left| X \right| | \mathcal{B} ]$$
+
 
 
 ---
