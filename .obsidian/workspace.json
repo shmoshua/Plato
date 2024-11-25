@@ -26,10 +26,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Analysis/Landau Notations.md",
                 "mode": "source",
                 "source": true
               }
+            }
+          },
+          {
+            "id": "3c6598032f67b3c3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -58,7 +66,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Analysis/Landau Notations.md",
                 "mode": "preview",
                 "source": true
               }
@@ -131,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Analysis/Landau Notations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Analysis/Landau Notations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md"
+                "file": "Analysis/Landau Notations.md"
               }
             }
           }
@@ -197,8 +205,9 @@
   },
   "active": "02c5c1c00827dd4a",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Exercise 09.md",
+    "Analysis/Landau Notations.md",
     "Graph Theory/Metric Embedding.md",
+    "Courses/Advanced Algorithms/Exercise 09.md",
     "Graph Theory/Sparsest Cut.md",
     "Graph Theory/Cut (Graph).md",
     "Probability Theory/Independence.md",
@@ -223,7 +232,6 @@
     "Algorithms/Untitled 1.md",
     "Algorithms/Untitled.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
-    "Information Theory/Mutual Information.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
