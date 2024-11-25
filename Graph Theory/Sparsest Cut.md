@@ -8,7 +8,7 @@
 > Consider the following LP: $$\begin{array}{rll} \min& \sum_{\{ u,v \}\in E}^{}d_{uv}\\\text{subject to}& d_{u,v}\geq 0,\quad d_{uv}=d_{vu}&\forall u,v\in V\\&d_{u,v}\leq d_{v,w}+d_{w,v}&\forall u,v,w\in V\\&\sum_{u,v}^{}d_{uv}=1\end{array}$$
 > Let $d^{*}$ be the LP minimum. 
 
-> [!proof]+
+> [!proof]-
 > Firstly, notice that $d^{*}$ is a pseudo-metric. Hence, there exists a metric embedding $\phi:V\to \mathbb{R}^k$ for $k\in \text{O}(\log n)$ s.t. $\frac{d(u,v)}{\log n}\leq \|\phi(u)-\phi(v)\|_{1}\leq d(u,v)$ for all $u,v\in V$.
 > 
 > Let $\phi:=(\phi_{1},\dots,\phi_{k})$ and $j:=\arg\min_{i\in[k]} \frac{\sum_{\{ u,v \}\in E}\left| \phi_{i}(u)-\phi_{i}(v) \right|}{\sum_{u,v\in V}^{}\left| \phi_{i}(u)-\phi_{i}(v) \right|}$. Let $a=\min_{v}\phi_{j}(v)$ and $b=\max_{v}\phi_{j}(v)$. Then, let $\tau \sim \text{Uniform}([a,b])$ and we define: $$S_{\tau}:=\{ v\in V:\phi_{j}(v)\leq \tau \}$$Then, for any $u,v\in V$: $$\left| \chi_{S_{\tau}}(u)- \chi_{S_{\tau}}(v) \right|=\begin{cases}1& \min\{ \phi_{j}(u),\phi_{j}(v) \}\leq \tau< \max\{ \phi_{j}(u),\phi_{j}(v) \}\\0&\text{otherwise}\end{cases}$$Therefore, $\mathbb{E}[\left| \chi_{S_{\tau}}(u)- \chi_{S_{\tau}}(v) \right|]=\left| \phi_{j}(u)-\phi_{j}(v) \right|/(b-a)$. Hence, by Lemma 1: $$\begin{align}\frac{\sum_{\{ u,v \}\in E }\|\phi(u)-\phi(v)\|_{1}}{\sum_{u,v\in V }\|\phi(u)-\phi(v)\|_{1}}\geq\frac{\sum_{\{ u,v \}\in E }|\phi_{j}(u)-\phi_{j}(v)|}{\sum_{u,v\in V }|\phi_{j}(u)-\phi_{j}(v)|}=\frac{\sum_{\{ u,v \}\in E }\mathbb{E}[\left| \chi_{S_{\tau}}(u)-\chi_{S_{\tau}}(v) \right| ]}{\sum_{u,v\in V }\mathbb{E}[\left| \chi_{S_{\tau}}(u)-\chi_{S_{\tau}}(v) \right| ]}\end{align}$$ Let $v_{1},\dots,v_{n}$ be the vertices ordered in $\phi_{j}$. Then, 

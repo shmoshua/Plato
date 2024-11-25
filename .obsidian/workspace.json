@@ -26,13 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 09.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -63,7 +64,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Sparsest Cut.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Sparsest Cut.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Sparsest Cut.md"
+                "file": "Graph Theory/Metric Embedding.md"
               }
             }
           }
@@ -193,17 +195,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5b9c1a41b51f24ce",
+  "active": "02c5c1c00827dd4a",
   "lastOpenFiles": [
+    "Courses/Advanced Algorithms/Exercise 09.md",
     "Graph Theory/Metric Embedding.md",
-    "Graph Theory/Cut (Graph).md",
     "Graph Theory/Sparsest Cut.md",
+    "Graph Theory/Cut (Graph).md",
     "Probability Theory/Independence.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Algorithms/Streaming Algorithm.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
-    "Courses/Advanced Algorithms/Exercise 09.md",
     "Graph Theory/Tree.md",
     "Graph Theory/Chromatic Number.md",
     "Algebra/Field.md",
