@@ -8,6 +8,7 @@
 - **Related definition**: For a cut $(A,B)$, a ***cut set*** is defined as $E\cap (A\times B)$. 
 - **Related definition**: For a weight function $w:E \to \mathbb{R}$, the ***(weighted) value*** of $(A,B)$  is defined as $c_{w}(A,B):=\sum_{e\in E\cap (A\times B)}^{}w(e)$. 
 - **Related definition**: For $s,t\in V$, a cut is an ***$(s,t)$-cut*** if $s\in A$ but $t\notin A$.
+- **Related definition**: A minimum $(s,t)-cu$
 ---
 ##### Properties
 

@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Graph Theory/Cut (Graph).md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Graph Theory/Cut (Graph).md",
                 "mode": "preview",
                 "source": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Graph Theory/Cut (Graph).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Graph Theory/Cut (Graph).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md"
+                "file": "Graph Theory/Cut (Graph).md"
               }
             }
           }
@@ -183,9 +183,11 @@
   },
   "active": "79cc111f9ba61df2",
   "lastOpenFiles": [
+    "Graph Theory/Sparsest Cut.md",
+    "Graph Theory/Cut (Graph).md",
+    "Graph Theory/Metric Embedding.md",
     "Probability Theory/Independence.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Graph Theory/Metric Embedding.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Algorithms/Streaming Algorithm.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
@@ -208,8 +210,6 @@
     "Algorithms/Untitled.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Information Theory/Mutual Information.md",
-    "Algorithms/MAX-SAT.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",

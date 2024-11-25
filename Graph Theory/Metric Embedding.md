@@ -7,5 +7,6 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Existence of l1-metric Embedding)
-> For any metric $d$ on $V$, there exists $\phi:V\to \mathbb{R}^k$ for $k\in \text{O}(\log^2n)$ s.t. 
-> 1. $\frac{d(u,v)}{\log n}\leq \|\phi(u)-\phi(v)\|_{1}\leq d(u,v)$
+> For any metric $d$ on $V$, there exists $\phi:V\to \mathbb{R}^k$ for $k\in \text{O}(\log^2|V|)$ s.t. 
+> 1. $\frac{d(u,v)}{\log |V|}\leq \|\phi(u)-\phi(v)\|_{1}\leq d(u,v)$
+---
