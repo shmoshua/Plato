@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Cut (Graph).md",
+                "file": "Graph Theory/Sparsest Cut.md",
                 "mode": "source",
                 "source": true
               }
@@ -41,6 +41,18 @@
         "children": [
           {
             "id": "5b9c1a41b51f24ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Sparsest Cut.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "06c8ee39ab0cded0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -117,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Cut (Graph).md",
+                "file": "Graph Theory/Sparsest Cut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Cut (Graph).md",
+                "file": "Graph Theory/Sparsest Cut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Cut (Graph).md"
+                "file": "Graph Theory/Sparsest Cut.md"
               }
             }
           }
@@ -181,10 +193,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "79cc111f9ba61df2",
+  "active": "5b9c1a41b51f24ce",
   "lastOpenFiles": [
-    "Graph Theory/Sparsest Cut.md",
     "Graph Theory/Cut (Graph).md",
+    "Graph Theory/Sparsest Cut.md",
     "Graph Theory/Metric Embedding.md",
     "Probability Theory/Independence.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
