@@ -37,9 +37,14 @@
 > 7. **Jensen's inequality**: for $X\in L^1(\Omega,\mathcal{A},\mathbb{P})$ and $f:\mathbb{R}\to \mathbb{R}_{\geq 0}$ convex, $$\mathbb{E}[f(X)]\geq f(\mathbb{E}[X])$$
 > 8. **Markov's inequality**: for $X:\Omega\to[0,+\infty]$ and $a>0$: $$\mathbb{P}(X\geq a)\leq \frac{\mathbb{E}[X]}{a}$$
 > 9. **Bienaymé-Chebyshev Inequality**: if $X\in L^2(\Omega,\mathcal{A},\mathbb{P})$ and $a>0$, $$\mathbb{P}(\left| X-\mathbb{E}[X] \right| \geq a)\leq \frac{1}{a^{2}}\text{Var}(X)$$
+> 10. **Hoeffding's Lemma**: if $X:\Omega\to \mathbb{R}$ with $a\leq X\leq b$ almost surely, then for all $\lambda\in \mathbb{R}$: $$\mathbb{E}[e^{\lambda X}]\leq \exp \left( \lambda \mathbb{E}[X]+\frac{\lambda^{2}(b-a)^{2}}{8} \right) $$
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1.
 > 9. For 9, we have: $$\mathbb{P}(\left| X-\mathbb{E}[X] \right| \geq a )=\mathbb{P}((X-\mathbb{E}[X])^{2}\geq a^{2} )\leq \frac{\text{Var}(X)}{a^{2}}$$
+> 10. First assume that $\mathbb{E}[X] = 0$. Since $e^{\lambda x}$ is a convex function in $x$, we have that for all $x\in[a,b]$: $$e^{\lambda x}= e^{\lambda(\frac{b-x}{b-a}a+\frac{x-a}{b-a}b)}\leq\frac{b-x}{b-a}e^{\lambda a}+\frac{x-a}{b-a}e^{\lambda b}$$Therefore, $$\begin{align}\mathbb{E}[e^{\lambda X} ]&\leq \frac{b-\mathbb{E}[X]}{b-a}e^{\lambda a}+\frac{\mathbb{E}[X]-a}{b-a}e^{\lambda b}\\&= \frac{b}{b-a}e^{\lambda a}-\frac{a}{b-a}e^{\lambda b}\\&=e^{\lambda a}\left( 1+\frac{a-e^{\lambda(b-a)}a}{b-a} \right) \\&=e^{L(\lambda(b-a))}\end{align}$$where $L(h)=\frac{ha}{b-a}+\ln\left( 1+ \frac{a-e^ha}{b-a} \right)$. Then, 
+> 	1. $L(0)=0$
+> 	2. $L'(h)=\frac{a}{b-a}+\frac{1}{1+\frac{a-e^h a}{b-a}}$
+> 	
 ---
