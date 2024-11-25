@@ -26,5 +26,5 @@
 > Let $\{ X_{n} \}_{n}$ be a martingale. Then, 
 > 1. $\mathbb{E}[X_{n}]=\mathbb{E}[X_{1}]$ for all $n$.
 
-> [!proof]+ 
-> We have that by [[Conditional Expectation|Proposition 4]]: $$\mathbb{E}[X_{n}]=\mathbb{E}[\mathbb{E}[X_{n}|\mathcal{A}_{1}]|\mathcal{A}_{n}]=\mathbb{E}[X_{1}]$$
+> [!proof]-
+> We have that by [[Conditional Expectation|Proposition 4]]: $$\mathbb{E}[X_{n}]=\mathbb{E}[\mathbb{E}[X_{n}|\mathcal{A}_{1}]]=\mathbb{E}[X_{1}]$$
