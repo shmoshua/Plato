@@ -9,24 +9,12 @@
         "dimension": 48.80466472303206,
         "children": [
           {
-            "id": "5c95df8df979fbdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "79cc111f9ba61df2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "mode": "source",
                 "source": true
               }
@@ -52,24 +40,12 @@
         "dimension": 51.19533527696794,
         "children": [
           {
-            "id": "b3ba25ca16f7bc88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "5b9c1a41b51f24ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "mode": "preview",
                 "source": true
               }
@@ -141,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 2.md"
+                "file": "Graph Theory/Metric Embedding.md"
               }
             }
           }
@@ -205,15 +181,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5c95df8df979fbdf",
+  "active": "79cc111f9ba61df2",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Courses/Advanced Algorithms/Graded Assignment 2.md",
-    "Algorithms/Streaming Algorithm.md",
-    "Courses/Advanced Algorithms/Exercise 09.md",
-    "Algorithms/Graph Algorithms/Tree Embedding.md",
-    "Graph Theory/Tree.md",
     "Probability Theory/Independence.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Metric Embedding.md",
+    "Algorithms/Graph Algorithms/Tree Embedding.md",
+    "Algorithms/Streaming Algorithm.md",
+    "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Courses/Advanced Algorithms/Exercise 09.md",
+    "Graph Theory/Tree.md",
     "Graph Theory/Chromatic Number.md",
     "Algebra/Field.md",
     "Probability Theory/Expected Value.md",
@@ -233,7 +210,6 @@
     "Information Theory/Mutual Information.md",
     "Algorithms/MAX-SAT.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Graph Theory/Random Graph.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
