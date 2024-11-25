@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Landau Notations.md",
+                "file": "Probability Theory/Conditional Probability.md",
                 "mode": "source",
                 "source": true
               }
@@ -66,7 +66,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Landau Notations.md",
+                "file": "Probability Theory/Conditional Probability.md",
                 "mode": "preview",
                 "source": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Landau Notations.md",
+                "file": "Probability Theory/Conditional Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Landau Notations.md",
+                "file": "Probability Theory/Conditional Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Landau Notations.md"
+                "file": "Probability Theory/Conditional Probability.md"
               }
             }
           }
@@ -206,6 +206,7 @@
   "active": "02c5c1c00827dd4a",
   "lastOpenFiles": [
     "Analysis/Landau Notations.md",
+    "Probability Theory/Conditional Probability.md",
     "Graph Theory/Metric Embedding.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
     "Graph Theory/Sparsest Cut.md",
@@ -231,7 +232,6 @@
     "Algorithms/Graph Algorithms",
     "Algorithms/Untitled 1.md",
     "Algorithms/Untitled.md",
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
