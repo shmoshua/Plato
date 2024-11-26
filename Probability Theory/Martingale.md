@@ -47,18 +47,12 @@
 >
 >Then, for all $\lambda\geq 0$: $$\mathbb{P}(f(X)\geq \mathbb{E}[f(X)]+\lambda)\leq \exp \left( -\frac{2\lambda^{2}}{\sum_{i=1}^{n}\left\| D_{i}f \right\| ^2_{\infty}} \right) $$
 
-> [!proof]+
-> Let $Z_{i}:=\mathbb{E}[f(X)|\mathcal{A}_{i}]$ and let $\mathcal{B}_{i}:=\sigma(X_{1},\dots,X_{i-1},X_{i+1},\dots,X_{n})$. Further, let: $$W_{i}:=\mathbb{E}\left[  \sup_{y\in \mathcal{X}_{i}}f(X_{1},\dots,X_{i-1},y,X_{i+1},\dots,X_{n}) \right] $$
-
-> [!proof]+
-> Let $Z:=f(X)-\mathbb{E}[f(X)]$. Define $Z_{i}:=\mathbb{E}[Z|\mathcal{A}_{i}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]$. Then, we have that: $$\mathbb{E}[Z_{i}|\mathcal{A}_{i-1}]=\mathbb{E}[\mathbb{E}[Z|\mathcal{A}_{i}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]|\mathcal{A}_{i-1}]=\mathbb{E}[Z|\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=0$$Hence, $(Z_{i})_{i}$ is a martingale difference sequence w.r.t. $(\mathcal{A}_{i})_{i}$. Now, we can bound: $$Z_{i}\leq \sup_{x\in \mathcal{X_{i}}}\mathbb{E}[]$$
+> [!proof]-
+> Let $Z_{i}:=\mathbb{E}[f(X)|\mathcal{A}_{i}]$ and let $\mathcal{B}_{i}:=\sigma(X_{1},\dots,X_{i-1},X_{i+1},\dots,X_{n})$. Then, since $\sigma(X_{i})$ is independent of $\mathcal{A}_{i-1}$ and $\mathcal{B}_{i}$, we have by [[Independence|Theorem 6.3]]: $$\begin{align} Z_{i}&=\mathbb{E}[f(X)|\mathcal{A}_{i}]\\&\leq \mathbb{E}\left[  \left. \sup_{y\in \mathcal{X}_{i}}f(X_{1},\dots,X_{i-1},y,X_{i+1},\dots,X_{n}) \right| \mathcal{A}_{i}\right] \\&= \mathbb{E}\left[  \left. \sup_{y\in \mathcal{X}_{i}}f(X_{1},\dots,X_{i-1},y,X_{i+1},\dots,X_{n}) \right| \mathcal{A}_{i-1}\right] \end{align}$$Therefore, $$Z_{i}-Z_{i-1}\leq \mathbb{E}\left[  \left. \sup_{y\in \mathcal{X}_{i}}f(X_{1},\dots,X_{i-1},y,X_{i+1},\dots,X_{n})-f(X)  \right| \mathcal{A}_{i-1}\right] =:W_{i}$$$$Z_{i}-Z_{i-1}\geq \mathbb{E}\left[  \left. \inf_{y\in \mathcal{X}_{i}}f(X_{1},\dots,X_{i-1},y,X_{i+1},\dots,X_{n})-f(X)  \right| \mathcal{A}_{i-1}\right] =:U_{i}$$Further,$$\begin{align}W_{i}-U_{i}&=\mathbb{E}\left[  \left. \sup_{y,y'\in \mathcal{X}_{i}}f(X_{1},\dots,X_{i-1},y,X_{i+1},\dots,X_{n})-f(X_{1},\dots,X_{i-1},y',X_{i+1},\dots,X_{n}) \right| \mathcal{A}_{i-1}\right] \\&\leq \left\| D_{i}f \right\| _{\infty}\end{align}$$Moreover, 
+> 1. $Z_{n}=\mathbb{E}[f(X)|\mathcal{A_{n}}]=f(X)$
+> 2. $Z_{0}=\mathbb{E}[f(X)|\{ \varnothing,\Omega \}]=\mathbb{E}[f(X)]$
 > 
-> $$Z_{i}\leq\sup_{x\in \mathcal{X_{i}}}\mathbb{E}[Z|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=:W_{i}$$$$Z_{i}\geq\inf_{x\in \mathcal{X_{i}}}\mathbb{E}[Z|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=:U_{i}$$
-> Then, $$\begin{align}W_{i}-U_{i}&=\sup_{x,x'}\mathbb{E}[Z|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[Z|X_{i}=x',\mathcal{A}_{i-1}]\\&=\sup_{x,x'}\mathbb{E}[f(X)|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[f(X)|X_{i}=x',\mathcal{A}_{i-1}]\\&\leq \|D_{i}f\|_{\infty}\end{align}$$Now, let $Y_{i}:=\mathbb{E}[Z|\mathcal{A}_{i}]$. Then, 
-> 1. $Y_{n}:=\mathbb{E}[Z|\mathcal{A}_{n}]=Z$
-> 2. $Y_{0}:=\mathbb{E}[Z|\{ \varnothing,\Omega \}]=\mathbb{E}[Z]=0$. 
-> 
-> Therefore, by Azuma-Hoeffding on $Y_{i}:=\mathbb{E}[Z|\mathcal{A}_{i}]$$$\mathbb{P}(f(X)\geq \mathbb{E}[f(X)]+\lambda)=\mathbb{P}(Z\geq \lambda)\leq \exp \left( -\frac{2\lambda^{2}}{\sum_{i\leq n}\|D_{i}f\|_{\infty}^{2}} \right) $$
+> Hence, by Azuma-Hoeffding: $$\mathbb{P}(f(X)\geq \mathbb{E}[f(X)]+\lambda)\leq \exp \left( -\frac{2\lambda^{2}}{\sum_{i=1}^{n}\left\| D_{i}f \right\| ^2_{\infty}} \right) $$
 
 - **Corollary**: If $f:\mathcal{X}_{1}\times\dots \times \mathcal{X}_{n}\to \mathbb{R}$ is $c$-***Lipschitz*** for $0<c<+\infty$ w.r.t. Hamming distance, i.e. $$\left| f(x)-f(x') \right| \leq c \cdot  d_{H}(x,x')$$Then, $\left\| D_{i}f \right\|_{\infty}\leq c$ for all $i$ and $\mathbb{P}(f(X)\geq \mathbb{E}[X]+\lambda)\leq \exp \left( -\frac{2\lambda^{2}}{c^{2}n} \right)$
 - **Remark**: By taking $f:= -f$, we have that $\mathbb{P}(f(X)\leq \mathbb{E}[f(X)]-\lambda)\leq \exp \left( -\frac{2\lambda^{2}}{\sum_{i=1}^{n}\left\| D_{i}f \right\| ^2_{\infty}} \right)$
