@@ -22,9 +22,14 @@
 > 2. Let $k:=\left\lceil2 \log_{2}n\right\rceil$. Then, $2^{k / 2}\geq n$ and: $$\mu_{k}\leq \frac{n^k}{k!}2^{-k(k-1)/2}\leq \frac{2^{k^{2}/2}}{k!}2^{-k(k-1)/2}=\frac{2^{k/2}}{k!}$$Then, $\mu_{k}<1$ for all $k\geq 3$. This happens for all $n\geq 3$.
 > 3. Let $k(n) \sim 2 \log_{2}n$, i.e. $k=(1+\text{o}(1))2\log_{2} n$. Then, $$\frac{\mu_{k}}{\mu_{k+1}}=2^k \frac{k+1}{n-k}=2^{k+\log_{2}(k+1) - \log_{2}(n-k)}$$We claim that $k+\log_{2}(k+1) - \log_{2}(n-k)=(1+\text{o}(1))\log_{2}n$
 > 	$$\lim_{ n \to \infty } \frac{k+\log_{2}(k+1) - \log_{2}(n-k)}{\log_{2} n}=1-\lim_{ n \to \infty }\frac{ \log_{2}\left(  1-\frac{k}{n}  \right)}{\log_{2}(n)}=1$$Therefore, $\frac{\mu_{k}}{\mu_{k+1}}=n^{1+\text{o}(1)}$.
-> 4. Assume that $k_{0}:=\min\{ \mu_{k}\leq n^{1/2} \}$. We show that $k_{0} \sim 2 \log_{2}n$. Let $\varepsilon>0$ fixed. If $k\leq (1-\varepsilon)2 \log_{2} n$, then: $$\mu_{k}\geq  \left( \frac{n}{k} \right)$$
+> 4. Assume that $k_{0}:=\min\{ \mu_{k}\leq n^{1/2} \}$. We show that $k_{0} \sim 2 \log_{2}n$. Assume that $\lim_{ n \to \infty }k/\log n>1/2$. Then, $$\mu_{k}^{1/k}=\Theta \left(  \right) $$
+   
+>    First, we have that $\mu_{k}^{1/k}=\Theta\left( \frac{n}{k}\left( \frac{1}{2} \right)^{k/2} \right)$. Let $\varepsilon>0$ fixed. If $k\leq (1-\varepsilon)2 \log_{2} n$, then $$\left( \frac{1}{2} \right)^{k/2}\geq \left( \frac{1}{2} \right) ^{(1-\varepsilon)\log_{2}n}=n^{-1+\varepsilon}$$Hence, $$\mu_{k}^{1/k}\geq \frac{Cn^{\varepsilon}}{\log n}\geq Cn^{\varepsilon -1}>n^{1/2}$$
+> 	  1. 
+>    $$\mu_{k}=  2^{(1+\text{o}(1))(k \log n-k^{2})}$$
+> Let $$k\log n-k^{2} \sim \log n / 2$$$$\lim_{ n \to \infty }k \left(1 -\frac{k}{\log n} \right)=\frac{1}{2}$$
 >    
- Then, $k\log n-k \log k-k(k-1) / 2\geq \log n$. Then, $$\lim_{ n \to \infty } \frac{k}{\log n}$$
+ Then, $k\log n-k \log k-k(k-1) / 2\sim k \log n-k^{2}$. Then, $$\lim_{ n \to \infty } \frac{k}{\log n}$$
 >    
 >    Let $k_{0}(n)$ be the first value s.t. $\mu_{k_{0}}\leq n^{1/2}$. Then, $$\mu_{k}=2^{k\log {n}-k\log k-k(k-1) / 2}\leq 2^{\log_{2}n/2}$$Then, $2k\log n-2\log k!-k(k-1)\geq  \log n$ and 
 >    

@@ -38,13 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md",
+                "file": "Probability Theory/Variance.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -69,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Landau Notations.md",
+                "file": "Probability Theory/Variance.md",
                 "mode": "preview",
                 "source": true
               }
@@ -81,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
@@ -111,7 +112,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Clique.md",
+                "file": "Probability Theory/Variance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Clique.md",
+                "file": "Probability Theory/Variance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Clique.md"
+                "file": "Probability Theory/Variance.md"
               }
             }
           }
@@ -241,18 +243,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5b9c1a41b51f24ce",
+  "active": "0aaf37bc110c9d63",
   "lastOpenFiles": [
+    "Probability Theory/Expected Value.md",
+    "Probability Theory/Variance.md",
+    "Probability Theory/Martingale.md",
+    "Graph Theory/Erdös-Rényi Graph.md",
     "Analysis/Landau Notations.md",
     "Graph Theory/Clique.md",
-    "Graph Theory/Erdös-Rényi Graph.md",
     "Graph Theory/Graph Coloring.md",
-    "Probability Theory/Martingale.md",
     "Measure Theory/Sigma Algebra.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Sparsest Cut.md",
     "Probability Theory/Conditional Probability.md",
-    "Probability Theory/Expected Value.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Conditional Expectation.md",
     "Untitled 1.md",
@@ -268,7 +271,6 @@
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Algorithms/Streaming Algorithm.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
-    "Graph Theory/Tree.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",
