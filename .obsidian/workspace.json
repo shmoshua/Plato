@@ -123,6 +123,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "15d99045c91c7b7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Expected Value.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 3

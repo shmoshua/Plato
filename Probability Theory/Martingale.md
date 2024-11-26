@@ -48,6 +48,8 @@
 >Then, for all $\lambda\geq 0$: $$\mathbb{P}(f(X)\geq \mathbb{E}[f(X)]+\lambda)\leq \exp \left( -\frac{\lambda^{2}}{2\sum_{i=1}^{n}\left\| D_{i}f \right\| ^2_{\infty}} \right) $$
 
 > [!proof]+
-> Let $Z_{n}:=\mathbb{E}[f(X)| \mathcal{A}_{n}]$ where $\mathcal{A}_{n}:= \sigma(X_{1},\dots,X_{i})$. We show that $(Z_{n})_{n}$ is a martingale. We have that $(Z_{n})_{n}$ is $(\mathcal{A}_{n})_{n}$-adapted by definition. Then, by [[Conditional Expectation|Proposition 4]], $$\mathbb{E}[Z_{n+1}|\mathcal{A}_{n}]=\mathbb{E}[\mathbb{E}[f(X)|\mathcal{A}_{n+1}]|\mathcal{A}_{n}]=\mathbb{E}[f(X)|\mathcal{A}_{n}]=Z_{n}$$Let $X'_{i}$ be independent of $X_{i}$. Consider $X^{(i)}:=(X_{1},\dots,X_{i-1},X_{i}',\dots,X_{n})$. Then, $$\mathbb{E}[f(X^{(i)})|\mathcal{A}_{i-1}]=$$
+> Let $Z_{n}:=\mathbb{E}[f(X)| \mathcal{A}_{n}]$ where $\mathcal{A}_{n}:= \sigma(X_{1},\dots,X_{i})$. We show that $(Z_{n})_{n}$ is a martingale. We have that $(Z_{n})_{n}$ is $(\mathcal{A}_{n})_{n}$-adapted by definition. Then, by [[Conditional Expectation|Proposition 4]], $$\mathbb{E}[Z_{n+1}|\mathcal{A}_{n}]=\mathbb{E}[\mathbb{E}[f(X)|\mathcal{A}_{n+1}]|\mathcal{A}_{n}]=\mathbb{E}[f(X)|\mathcal{A}_{n}]=Z_{n}$$Let $X'_{i}$ be independent of $X_{i}$. Consider $X^{(i)}:=(X_{1},\dots,X_{i-1},X_{i}',\dots,X_{n})$. Then, for any $A\in \mathcal{A}_{i-1}$, $$\mathbb{E}[f(X^{(i)})\mathbb{1}_{A}]=\int_{A}^{} f(X^{(i)}) \, d\mathbb{P} $$
+> 
+> $$\mathbb{E}[f(X^{(i)})|\mathcal{A}_{i-1}]=\mathbb{E}[f(X)|\mathcal{A}_{i-1}]$$
 > 
 $$\begin{align}Z_{i}-Z_{i-1}&=\mathbb{E}[f(X)|\mathcal{A}_{i}]-\mathbb{E}[f(X)|\mathcal{A}_{i-1}]\end{align}$$
