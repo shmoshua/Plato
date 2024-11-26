@@ -1,5 +1,8 @@
 #Definition #GraphTheory 
 
+> [!definition]
+> 
+
 ##### Properties
 
 > [!lemma] Theorem 1 

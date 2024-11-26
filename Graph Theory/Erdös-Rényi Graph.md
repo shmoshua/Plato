@@ -1,5 +1,12 @@
 #definition #GraphTheory 
 
+> [!definition]
+> Let $n\in \mathbb{N}$ and $p\in[0,1]$. The ***Erdös-Rényi graph*** $G:=(V:=[n],E)$ is an [[graph|undirected graph]] given by a distribution $G\sim G(n,p)$ where for each $e\in {V \choose 2}$, 
+> 1. $\mathbb{P}(e\in E)=p$ for all $e\in {V \choose 2}$
+> 2. $\{ \mathbb{1}_{e\in E} \}_{e\in {V \choose 2}}$ are [[Independence|independent]].
+---
+##### Properties
+
 > [!lemma] Theorem 1
 > Let $G(n,1 / 2)$ be a random graph. 
 > 1. there exists $k_0$ s.t. with high probability $\omega(G(n, 1/2))\in \{k_{0}-1,k_{0}\}$.
