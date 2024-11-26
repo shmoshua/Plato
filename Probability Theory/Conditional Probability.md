@@ -64,7 +64,7 @@
 > 3. Use $B=\Omega$ on the property.
 > 4. From Proposition 2.3, $$\left| \mathbb{E}[X|\mathcal{B}] \right| \leq \mathbb{E}[X^+|\mathcal{B}]+\mathbb{E}[X^-|\mathcal{B}]=\mathbb{E}[\left| X \right| | \mathcal{B} ]$$
 > 5. By linearity.
-> 6. If $X,Y\geq 0$, then for every non-negative $\mathcal{B}$-measurable random variable, $$\mathbb{E}[Z(Y\mathbb{E}[X|\mathcal{B}])]=\mathbb{E}[(ZY)\mathbb{E}[X|\mathcal{B}]]=\mathbb{E}[ZYX]$$If $X,YX$ are both integrable, we can use the decomposition $X=X^+ -X^-$.
+> 6.
 ---
 > [!lemma] Proposition 4 (Nested $\sigma$-algebras)
 > Let $\mathcal{B}_{1},\mathcal{B}_{2}$ be two sub-$\sigma$-algebras of $\mathcal{A}$ s.t. $\mathcal{B}_{1}\subseteq \mathcal{B}_{2}$. Then, for every non-negative or integrable random variable $X$,  $$\mathbb{E}[\mathbb{E}[X|\mathcal{B}_{2}]|\mathcal{B}_1]=\mathbb{E}[X|\mathcal{B}_{1}]=\mathbb{E}[\mathbb{E}[X|\mathcal{B}_{1}]|\mathcal{B}_2]$$

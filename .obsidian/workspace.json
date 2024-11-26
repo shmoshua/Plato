@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Sparsest Cut.md",
+                "file": "Probability Theory/Conditional Probability.md",
                 "mode": "source",
                 "source": true
               }
@@ -27,18 +27,6 @@
               "type": "markdown",
               "state": {
                 "file": "Probability Theory/Conditional Expectation.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3c6598032f67b3c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory/Martingale.md",
                 "mode": "source",
                 "source": true
               }
@@ -119,18 +107,6 @@
               "type": "markdown",
               "state": {
                 "file": "Probability Theory/Independence.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "15d99045c91c7b7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               }
@@ -269,16 +245,16 @@
   },
   "active": "02c5c1c00827dd4a",
   "lastOpenFiles": [
-    "Probability Theory/Independence.md",
-    "Probability Theory/Conditional Expectation.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Martingale.md",
+    "Probability Theory/Conditional Expectation.md",
     "Probability Theory/Conditional Probability.md",
+    "Graph Theory/Sparsest Cut.md",
+    "Probability Theory/Independence.md",
     "Measure Theory/Measurable Function.md",
     "Technical Lemmas.md",
     "Analysis/Gronwall Lemma.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
-    "Graph Theory/Sparsest Cut.md",
     "Measure Theory/Sigma Algebra.md",
     "Measure Theory/Lebesgue Integral.md",
     "Analysis/Landau Notations.md",
