@@ -19,7 +19,7 @@
 > [!proof]+
 > Let $X_{k}$ be the number of cliques of size $k$ of $G$. Then, $X_{k}=\sum_{S}^{}X_{S}$ where $S\in {V \choose k}$ and $X_{S}$ is the indicator variable if $S$ spans a clique or not. Then,$$\mu_{k}:=\mathbb{E}[X_{k}]={n \choose k}2^{-{k \choose 2}}$$
 > Then, 
-> 1. 
+> 1. Notice that $\mu_{k}^{1/k}=\Theta\left( \frac{n}{k}2^{-k/2} \right)$. Let $\varepsilon>0$. If $k\leq (1-\varepsilon)2\log n$, then $2^{-k/2}\geq n^{-(1-\varepsilon)}$ and: $\mu_{k}^{1/k}\geq \frac{C}{\log n}n^{\varepsilon}>1$ for large $n$. Hence, $k<k_{1}$. Similarly, if $k\geq (1+\varepsilon)2\log n$ then $\mu_{k}< 1$ and $k\geq k_{1}$. Therefore, $$1-\varepsilon<\lim_{ n \to \infty } \frac{k_{1}}{2\log_{2}n}\leq 1+\varepsilon$$and $k_{1}\sim 2\log_{2}n$.
 > 1. If $\mu_{k}\to 0$, then by Markov: $$\mathbb{P}(\omega(G)\geq k)=\mathbb{P}(X_{k}\geq 1)\leq \mathbb{E}[X_{k}]=\mu_{k}=\text{o}(1)$$
 > 2. We consider the setting from [[Variance|Theorem 4]]. For a fixed $S\in {V \choose k}$, we have that for any $T\in {S \choose 2}$ with $S\neq T$, $S \sim T$ if and only if $\left| S\cap T \right|\geq 2$. Then, $$\sum_{T: T \sim S}^{}\mathbb{P}(T\text{ is clique}|S\text{ is clique})=\sum_{i=2}^{k-1}{k \choose i}{n -k \choose k - i}2^{{i \choose 2}-{k \choose 2}}=\Delta ^{*}$$Therefore, $\frac{\Delta ^{*}}{\mathbb{E}[X_{k}]}=\sum_{i=2}^{k-1}$ $g(i)$ where $g(i):=\frac{{k \choose i}{n-k \choose k-i}}{n \choose k}2^{i \choose 2}$. 
 >    
@@ -29,7 +29,13 @@
 >    2. If $\frac{k}{2}<i\leq k-1$, we have that: $$\begin{align}\mu_{k}g(i)&={k \choose i}{n-k \choose k-i}2^{{i \choose 2}-{k \choose 2}}\\&\leq {k \choose k-i}{n \choose k-i}2^{{i \choose 2}-{k \choose 2}}\\&\leq (kn)^{k-i}2^{-(k-i)(k+i-1)/2}\\&=(kn 2^{-(k+i-1) / 2})^{k-i}\\&=(kn 2^{-(3k-1)/ 4})^{k-i}\end{align}$$Then, again: $$\lim_{ n \to \infty } kn 2^{-(3k-1) / 4}=\lim_{ n \to \infty } 2n\log n\cdot  n^{-\frac{3}{2}} 2^{1/4}=0$$ Therefore, $\mu_{k}\sum_{i=k /2 }^{k-1}g(i)=\text{o}(1)$. As $\mu_{k}\to \infty$, $\sum_{i=k /2 }^{k-1}g(i)=\text{o}(1)$.
 >   
 > 	 Hence, we have that  $\frac{\Delta ^{*}}{\mu_{k}}=\text{o(1)}$ and $\Delta ^{*}=\text{o}(\mathbb{E}[X_{k}])$. Therefore by [[Variance|Theorem 4]], $X_{k}>0$ almost surely, i.e. $\omega(G)\geq k$ almost surely.
-> 3. Let $k_{0}\sim 2\log_{2}n$ with $1>\mu_{k_{0}}\geq n^{-1/2}$. We have that for $k\sim 2\log_{2} n$, $$\mu_{k}\leq \frac{n^k}{k!}2^{-k^2/2+k/2}<1$$
+> 3. Let $k_{0}$ be the minimal $k\sim 2\log_{2} n$ s.t. $\mu_{k}\leq n^{1/2}$. As we have that for $k\sim 2\log n$: $$\frac{\mu_{k+1}}{\mu_{k}}=2^{-k}\frac{n-k}{k+1}=n^{-1+\text{o}(1)}$$
+>    it follows that $\mu_{k_{0}+1}=n^{-1+\text{o}(1)}\cdot \mu_{k_{0}}\leq n^{-1/2+\text{o}(1)}$. Therefore, $\mu_{k_{0}+1}\to 0$ and by 2, $\omega(G)\leq k_{0}$ w.h.p. 
+>    
+>    Further, we have that $\mu_{k_{0}-1}>n^{1/2}$. Then, $\mu_{k_{0}-1}\to \infty$ and as $k_{0}-1 \sim 2 \log_{2} n$, $\omega(G)\geq k_{0}+1$ w.h.p
+>    
+>    $$\frac{\mu_{k}}{\mu_{k+1}}=2^k \frac{k+1}{n-k}\leq 2^k  \frac{2k+1}{n}= n^{1+\text{o}(1)}$$Therefore, $\mu_{k_{1}+1}\leq$
+ with $1>\mu_{k_{0}}\geq n^{-1/2}$. We have that for $k\sim 2\log_{2} n$, $$\mu_{k}\leq \frac{n^k}{k!}2^{-k^2/2+k/2}<1$$
 >    
 >    For $k\sim 2\log_{2} n$, we have that: $$\frac{\mu_{k}}{\mu_{k+1}}=2^k \frac{k+1}{n-k}\leq 2^k  \frac{2k+1}{n}= n^{1+\text{o}(1)}$$where for the last equality, it suffices to show that  ${k+\log (2k+1)-2\log n}= {\text{o}(\log n)}$. We have: $$\lim_{  n \to \infty } \frac{k+\log(2k+1)-2\log n}{\log n}=2-2=0$$Let $k_{0}\sim 2\log_{2}n$ with $\mu_{k_{0}}\geq n^{-1/2}> \mu_{k_{0}+1}$. Then, $\mathbb{E}[\mu_{k_{0}+1}]\to 0$ and $\omega(G)\leq k_{0}$ w.h.p. by 1. 
 
