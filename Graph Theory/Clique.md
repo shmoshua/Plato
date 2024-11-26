@@ -11,10 +11,13 @@
 
 > [!lemma] Theorem 1 (Bollobás, Erdös, Matula, 1976)
 > Let $G \sim G(n,1 / 2)$ be a [[Erdös-Rényi Graph|random graph]]. 
-> 1. $\mathbb{E}[\#\text{cliques of size }k]={n \choose k}2^{-{k \choose 2}}$
-> 2. for $k:=\left\lceil2 \log_{2}n\right\rceil$,  $\mathbb{E}[\#\text{cliques of size }k]<1$ for all $n\geq 3$.
-> 3. if $k\sim 2 \log_{2}n$ then $\mathbb{E}[\#\text{cliques of size }k] =n^{1+\text{o}(1)} \mathbb{E}[\#\text{cliques of size }k+1]$
-> 4. there exists $k_0\in \mathbb{N}$ s.t. $\omega(G)\in \{k_{0}-1,k_{0}\}$ w.h.p.
+> 1. Let $k\sim 2\log_{2}n$ and $\mathbb{E}[\#\text{cliques of size }k]\to \infty$. Then, $\omega(G)\geq k$ almost surely.
+> 6. there exists $k_0\in \mathbb{N}$ s.t. $\omega(G)\in \{k_{0}-1,k_{0}\}$ w.h.p.
+
+> [!proof]+
+> We have that:
+> 1. Let $X_{k}$ be the number of cliques of size $k$ of $G$. Then, $X_{k}=\sum_{S}^{}X_{S}$ where $S\in {V \choose k}$ and $X_{S}$ is the indicator variable if $S$ spans a clique or not. Then,$$\mu_{k}:=\mathbb{E}[X_{k}]={n \choose k}2^{-{k \choose 2}}\xrightarrow{n\to \infty} \infty$$Then, we consider the setting from [[Variance|Theorem 4]]. For a fixed $S\in {V \choose k}$, we have that for any $T\in {S \choose 2}$ with $S\neq T$, $S \sim T$ if and only if $\left| S\cap T \right|\geq 2$. Then, $$\sum_{T: T \sim S}^{}\mathbb{P}(T\text{ is clique}|S\text{ is clique})=\sum_{i=2}^{k-1}{k \choose i}{n -k \choose k - i}2^{{i \choose 2}-{k \choose 2}}=\Delta ^{*}$$Therefore, $\frac{\Delta ^{*}}{\mathbb{E}[X_{k}]}=\sum_{i=2}^{k-1}$ $g(i)$ where $g(i):=\frac{{k \choose i}{n-k \choose k-i}}{n \choose k}2^{i \choose 2}$. 
+> 	1. If $i=2$, then: $$g(2)=2\frac{{k \choose 2}{n-k \choose k-2}}{{n \choose k}} \sim  \frac{k^4}{n^2}=\text{o}(1/n)$$as $$\lim_{ n \to \infty } \frac{2n^2}{k^2}\frac{{n-k \choose k-2}}{{n \choose k}}=\lim_{ n \to \infty } \frac{2n^2}{k^2}\frac{{n-k \choose k}}{{n \choose k}} \frac{k(k-1)}{n}$$
 
 > [!proof]+
 > We have that:
@@ -23,7 +26,6 @@
 > 3. Let $k(n) \sim 2 \log_{2}n$, i.e. $k=(1+\text{o}(1))2\log_{2} n$. Then, $$\frac{\mu_{k}}{\mu_{k+1}}=2^k \frac{k+1}{n-k}=2^{k+\log_{2}(k+1) - \log_{2}(n-k)}$$We claim that $k+\log_{2}(k+1) - \log_{2}(n-k)=(1+\text{o}(1))\log_{2}n$
 > 	$$\lim_{ n \to \infty } \frac{k+\log_{2}(k+1) - \log_{2}(n-k)}{\log_{2} n}=1-\lim_{ n \to \infty }\frac{ \log_{2}\left(  1-\frac{k}{n}  \right)}{\log_{2}(n)}=1$$Therefore, $\frac{\mu_{k}}{\mu_{k+1}}=n^{1+\text{o}(1)}$.
 > 4. Assume that $k_{0}:=\min\{ \mu_{k}\leq n^{1/2} \}$. We show that $k_{0} \sim 2 \log_{2}n$. Assume that $\lim_{ n \to \infty }k/\log n>1/2$. Then, $$\mu_{k}^{1/k}=\Theta \left(  \right) $$
-   
 >    First, we have that $\mu_{k}^{1/k}=\Theta\left( \frac{n}{k}\left( \frac{1}{2} \right)^{k/2} \right)$. Let $\varepsilon>0$ fixed. If $k\leq (1-\varepsilon)2 \log_{2} n$, then $$\left( \frac{1}{2} \right)^{k/2}\geq \left( \frac{1}{2} \right) ^{(1-\varepsilon)\log_{2}n}=n^{-1+\varepsilon}$$Hence, $$\mu_{k}^{1/k}\geq \frac{Cn^{\varepsilon}}{\log n}\geq Cn^{\varepsilon -1}>n^{1/2}$$
 > 	  1. 
 >    $$\mu_{k}=  2^{(1+\text{o}(1))(k \log n-k^{2})}$$

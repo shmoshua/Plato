@@ -45,11 +45,14 @@
 > 3. By [[Expected Value|Chebyshev]] for any $\varepsilon>0$: $$\mathbb{P}(X=0)\leq \mathbb{P}(X\leq \varepsilon \mathbb{E}[X])\leq\mathbb{P}(\left| X-\mathbb{E}[X] \right| \geq  \varepsilon \mathbb{E}[X])\leq \frac{\text{Var}(X)}{\varepsilon^{2} \mathbb{E}[X]^{2}} = \text{o}(1)$$
 ---
 > [!lemma] Theorem 4
-> Let $A_{1},\dots,A_{m}\in \mathcal{A}$. Then, we define $i\sim j$ if and only if $A_{i},A_{j}$ are not independent. Further, let $X:=\mathbb{1}_{A_{1}}+\dots+\mathbb{1}_{A_{m}}$ and define: $$\Delta:=\sum_{i\sim j}^{}\mathbb{P}(A_{i}\land A_{j})$$
+> Let $A_{1},\dots,A_{m}\in \mathcal{A}$. Then, we define $i\sim j$ if and only if $A_{i},A_{j}$ are not independent. Further, let $X:=\mathbb{1}_{A_{1}}+\dots+\mathbb{1}_{A_{m}}$ and define: $$\Delta:=\sum_{i\sim j}^{}\mathbb{P}(A_{i}\land A_{j}),\quad \Delta ^{*}:=\max_{i} \sum_{j: j \sim i}^{}\mathbb{P}(A_{j}|A_{i})$$
 > 1. $\text{Var}(X)\leq \mathbb{E}[X]+\Delta$
+> 2. if $\mathbb{E}[X]\to \infty$ and $\Delta=\text{o}(\mathbb{E}[X]^{2})$, then $X>0$ and $X\sim \mathbb{E}[X]$ a.s.
+> 3. if $\mathbb{E}[X]\to \infty$ and $\Delta ^{*}=\text{o}(\mathbb{E}[X])$, then $X>0$ and $X\sim \mathbb{E}[X]$ a.s.
 
-> [!proof]+
+> [!proof]-
 > Let $X_{i}:=\mathbb{1}_{A_{i}}$. Then:
-> 1. If $i\sim j$, then: $$\text{Cov}(X_{i},X_{j})=\mathbb{E}[X_{i}X_{j}]-\mathbb{E}[X_{i}]\mathbb{E}[X_{j}]\leq \mathbb{E}[X_{i}X_{j}]=\mathbb{P}(A_{i}\land A_{j})$$Therefore,$$\text{Var}(X)\leq\sum_{i=1}^{m}\text{Var}(\mathbb{1}_{A_{i}})+2\sum_{i \sim j}^{}\mathbb{P}(A_{i}\land A_{j})$$
-> 2. 
-> 3. $\text{Var(X)}=\sum_{i,j}^{} \mathbb{P}(A_{i}\land A_{j})-\sum_{i,j}^{}\mathbb{P}(A_{i})\mathbb{P}(A_{j})$
+> 1. If $i\sim j$, then: $$\text{Cov}(X_{i},X_{j})=\mathbb{E}[X_{i}X_{j}]-\mathbb{E}[X_{i}]\mathbb{E}[X_{j}]\leq \mathbb{E}[X_{i}X_{j}]=\mathbb{P}(A_{i}\land A_{j})$$Therefore,$$\text{Var}(X)\leq\sum_{i=1}^{m}\mathbb{E}[\mathbb{1}_{A_{i}}]+\sum_{i \sim j}^{}\mathbb{P}(A_{i}\land A_{j})=\mathbb{E}[X]+\Delta$$
+> 2. We have that: $$0\leq \lim_{ n \to \infty } \frac{\text{Var}(X)}{\mathbb{E}[X]^{2}}\leq \lim_{ n \to \infty } \frac{1}{\mathbb{E}[X]}+\frac{\Delta}{\mathbb{E}[X]^{2}}=0$$The rest follows from Proposition 3.2 and 3.3
+> 3. We have that: $$\Delta=\sum_{i}^{}\sum_{j:j \sim i}^{}\mathbb{P}(A_{i}\land A_{j})=\sum_{i}^{}\mathbb{P}(A_{i})\sum_{j:j \sim i}^{}\mathbb{P}(A_{j}|A_{i})\leq \Delta ^{*}\sum_{i}^{}\mathbb{P}(A_{i})=\mathbb{E}[X]\cdot \Delta ^{*}$$The rest follows from 2.
+---

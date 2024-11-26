@@ -44,8 +44,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "4d5ec56e57395c88",
@@ -112,8 +111,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Graph Theory/Clique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Graph Theory/Clique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Variance.md"
+                "file": "Graph Theory/Clique.md"
               }
             }
           }
@@ -243,14 +241,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0aaf37bc110c9d63",
+  "active": "5b9c1a41b51f24ce",
   "lastOpenFiles": [
-    "Probability Theory/Expected Value.md",
     "Probability Theory/Variance.md",
+    "Graph Theory/Clique.md",
+    "Probability Theory/Expected Value.md",
     "Probability Theory/Martingale.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Analysis/Landau Notations.md",
-    "Graph Theory/Clique.md",
     "Graph Theory/Graph Coloring.md",
     "Measure Theory/Sigma Algebra.md",
     "Graph Theory/Graph.md",
