@@ -47,8 +47,13 @@
 >
 >Then, for all $\lambda\geq 0$: $$\mathbb{P}(f(X)\geq \mathbb{E}[f(X)]+\lambda)\leq \exp \left( -\frac{2\lambda^{2}}{\sum_{i=1}^{n}\left\| D_{i}f \right\| ^2_{\infty}} \right) $$
 
-> [!proof]-
-> Let $Z:=f(X)-\mathbb{E}[f(X)]$. Define $Z_{i}:=\mathbb{E}[Z|\mathcal{A}_{i}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]$. Then, we have that: $$\mathbb{E}[Z_{i}|\mathcal{A}_{i-1}]=\mathbb{E}[\mathbb{E}[Z|\mathcal{A}_{i}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]|\mathcal{A}_{i-1}]=\mathbb{E}[Z|\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=0$$Hence, $(Z_{i})_{i}$ is a martingale difference sequence w.r.t. $(\mathcal{A}_{i})_{i}$. Now, we can bound: $$Z_{i}\leq\sup_{x\in \mathcal{X_{i}}}\mathbb{E}[Z|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=:W_{i}$$$$Z_{i}\geq\inf_{x\in \mathcal{X_{i}}}\mathbb{E}[Z|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=:U_{i}$$
+> [!proof]+
+> Let $Z_{i}:=\mathbb{E}[f(X)|\mathcal{A}_{i}]$ and let $\mathcal{B}_{i}:=\sigma(X_{1},\dots,X_{i-1},X_{i+1},\dots,X_{n})$. Further, let: $$W_{i}:=\mathbb{E}\left[  \sup_{y\in \mathcal{X}_{i}}f(X_{1},\dots,X_{i-1},y,X_{i+1},\dots,X_{n}) \right] $$
+
+> [!proof]+
+> Let $Z:=f(X)-\mathbb{E}[f(X)]$. Define $Z_{i}:=\mathbb{E}[Z|\mathcal{A}_{i}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]$. Then, we have that: $$\mathbb{E}[Z_{i}|\mathcal{A}_{i-1}]=\mathbb{E}[\mathbb{E}[Z|\mathcal{A}_{i}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]|\mathcal{A}_{i-1}]=\mathbb{E}[Z|\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=0$$Hence, $(Z_{i})_{i}$ is a martingale difference sequence w.r.t. $(\mathcal{A}_{i})_{i}$. Now, we can bound: $$Z_{i}\leq \sup_{x\in \mathcal{X_{i}}}\mathbb{E}[]$$
+> 
+> $$Z_{i}\leq\sup_{x\in \mathcal{X_{i}}}\mathbb{E}[Z|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=:W_{i}$$$$Z_{i}\geq\inf_{x\in \mathcal{X_{i}}}\mathbb{E}[Z|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=:U_{i}$$
 > Then, $$\begin{align}W_{i}-U_{i}&=\sup_{x,x'}\mathbb{E}[Z|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[Z|X_{i}=x',\mathcal{A}_{i-1}]\\&=\sup_{x,x'}\mathbb{E}[f(X)|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[f(X)|X_{i}=x',\mathcal{A}_{i-1}]\\&\leq \|D_{i}f\|_{\infty}\end{align}$$Now, let $Y_{i}:=\mathbb{E}[Z|\mathcal{A}_{i}]$. Then, 
 > 1. $Y_{n}:=\mathbb{E}[Z|\mathcal{A}_{n}]=Z$
 > 2. $Y_{0}:=\mathbb{E}[Z|\{ \varnothing,\Omega \}]=\mathbb{E}[Z]=0$. 

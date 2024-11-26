@@ -14,7 +14,6 @@
 > We have for $X\in L^1$ and $\mathcal{B}\subseteq \mathcal{A}$ a $\sigma$-algebra, 
 > 1. $\mathbb{E}[X|\mathcal{B}]\in L^1(\Omega,\mathcal{B},\mathbb{P})$ exists and is unique.
 > 2. for every bounded $\mathcal{B}$-measurable real random variable $Z$, $$\mathbb{E}[XZ]=\mathbb{E}[\mathbb{E}[X|\mathcal{B}]Z]$$
-> 3. if $X\geq 0$ then $\mathbb{E}[X|\mathcal{B}]\geq 0$ almost surely.
 
 > [!proof]-
 > We have:
@@ -59,15 +58,23 @@
 > Let $X\in L^1(\Omega,\mathcal{A},\mathbb{P})$ and $\mathcal{B}\subseteq \mathcal{A}$ a sub-$\sigma$-algebra. Then, 
 > 1. **MCT**: If $(X_{n})_{n}\subseteq L^1(\Omega,\mathcal{A},\mathbb{P})$ where $0\leq X_{1}\leq X_{2},\dots$ a.s. and $X_{n}\to X$ a.s., then $$\lim_{ n \to \infty } \mathbb{E}[X_{n}|\mathcal{B}]=\mathbb{E}[X|\mathcal{B}],\quad \text{ a.s.}$$
 > 2. **Fatou**: If $X_{n}\geq 0$ for all $n$, then: $\mathbb{E}[\liminf_{ n \to \infty }X_{n}|\mathcal{B}]\leq \liminf_{ n \to \infty }\mathbb{E}[X_{n}|\mathcal{B}]$ a.s.
+> 3. **DCT**: If $(X_{n})_{n}\to X$ a.s. and $X_{n}\leq Y\in L^1(\Omega,\mathcal{A},\mathbb{P})$, then: $$\lim_{ n \to \infty } \mathbb{E}[X_{n}|\mathcal{B}]=\mathbb{E}[X|\mathcal{B}],\quad \text{ a.s.}$$
+> 4. **Jensen**: If $f$ is convex and $\mathbb{E}[\left| f(X) \right|]<+\infty$ then $f(\mathbb{E}[X|\mathcal{B}])\leq \mathbb{E}[f(X)|\mathcal{B}]$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $Z:=\lim_{ n \to \infty }\mathbb{E}[X_{n}|\mathcal{B}]$. Then, of course $Z$ is $\mathcal{B}$-measurable and for $B\in \mathcal{B}$ using Proposition 2.9: $$\mathbb{E}[Z\mathbb{1}_{B}]=\mathbb{E}[\lim_{ n \to \infty } \mathbb{E}[X_{n}|\mathcal{B}]\mathbb{1}_{B}]=\mathbb{E}[\lim_{ n \to \infty } \mathbb{E}[X_{n}\mathbb{1}_{B}|\mathcal{B}]]$$Now, for $Y_{n}:=\mathbb{E}[X_{n}\mathbb{1}_{B}|\mathcal{B}]$, by Proposition 2.6 and 2.7, we have that $0\leq Y_{1}\leq Y_{2}\leq\dots$. Therefore by [[Expected Value|MCT]], $$\mathbb{E}[Z\mathbb{1}_{B}]=\mathbb{E}[\lim_{ n \to \infty } \mathbb{E}[X_{n}\mathbb{1}_{B}|\mathcal{B}]]=\lim_{ n \to \infty } \mathbb{E}[\mathbb{E}[X_{n}\mathbb{1}_{B}|\mathcal{B}]]=\lim_{ n \to \infty } \mathbb{E}[X_{n}\mathbb{1}_{B}]=\mathbb{E}[X\mathbb{1}_{B}]$$By uniqueness, we have the statement.
-> 2. For $n\geq m$, we have that $X_{n}\geq Z_{m}:=\text{inf}_{k\geq m}X_{m}$. Therefore, $\mathbb{E}[X_{n}|\mathcal{B}]\geq \mathbb{E}[Z_{m}|\mathcal{B}]$ and $\text{inf}_{n\geq m}\mathbb{E}[X_{n}|\mathcal{B}]\geq \mathbb{E}[Z_{m}|\mathcal{B}]$ almost surely. Therefore, by MCT, $$\mathbb{E}[\liminf_{ n \to \infty } X_{n}|\mathcal{B}]=\mathbb{E}[\lim_{ m \to \infty } Z_{m}|\mathcal{B}]=\lim_{ m \to \infty } \mathbb{E}[Z_{m}|\mathcal{B}]\leq \liminf_{ m \to \infty } \mathbb{E}[X_{n}|\mathcal{B}]$$
+> 2. For $n\geq m$, we have that $X_{n}\geq Z_{m}:=\text{inf}_{k\geq m}X_{m}$. Therefore, $\mathbb{E}[X_{n}|\mathcal{B}]\geq \mathbb{E}[Z_{m}|\mathcal{B}]$ and $\text{inf}_{n\geq m}\mathbb{E}[X_{n}|\mathcal{B}]\geq \mathbb{E}[Z_{m}|\mathcal{B}]$ almost surely. Therefore, by MCT, $$\mathbb{E}[\liminf_{ n \to \infty } X_{n}|\mathcal{B}]=\mathbb{E}[\lim_{ m \to \infty } Z_{m}|\mathcal{B}]=\lim_{ m \to \infty } \mathbb{E}[Z_{m}|\mathcal{B}]\leq \liminf_{ m \to \infty } \mathbb{E}[X_{n}|\mathcal{B}]$$a.s.
+> 3. Let $Z_{n}:=2Y-\left| X_{n}-X \right|\geq 0$. Then, $$\mathbb{E}[2Y|\mathcal{B}]=\mathbb{E}[\liminf_{ n \to \infty } Z_{n}|\mathcal{B}]\leq \liminf_{ n \to \infty } \mathbb{E}[Z_{n}|\mathcal{B}]=\mathbb{E}[2Y|\mathcal{B}]-\limsup_{ n \to \infty } \mathbb{E}[\left| X_{n}-X \right||\mathcal{B} ]$$Then, $0\leq \limsup_{ n \to \infty } \mathbb{E}[\left| X_{n}-X \right| |\mathcal{B}]\le 0$ and hence is equal to 0. 
+> 4. https://proofwiki.org/wiki/Conditional_Jensen%27s_Inequality
+> 5. 
 ---
 > [!lemma] Proposition 4 (Nested $\sigma$-algebras)
 > Let $\mathcal{B}_{1},\mathcal{B}_{2}$ be two sub-$\sigma$-algebras of $\mathcal{A}$ s.t. $\mathcal{B}_{1}\subseteq \mathcal{B}_{2}$. Then, for every non-negative or integrable random variable $X$,  $$\mathbb{E}[\mathbb{E}[X|\mathcal{B}_{2}]|\mathcal{B}_1]=\mathbb{E}[X|\mathcal{B}_{1}]=\mathbb{E}[\mathbb{E}[X|\mathcal{B}_{1}]|\mathcal{B}_2]$$
 
 > [!proof]-
 > Consider the case when $X\geq 0$. Let $Z$ be a non-negative $\mathcal{B}_{1}$ measurable random variable. Then, since $Z$ is also $\mathcal{B}_{2}$-measurable, $$\mathbb{E}[Z\cdot \mathbb{E}[\mathbb{E}[X|\mathcal{B}_{2}]|\mathcal{B}_{1}]]=\mathbb{E}[Z \cdot \mathbb{E}[X|\mathcal{B}_{2}]]=\mathbb{E}[ZX]$$Hence, by uniqueness we have that $\mathbb{E}[\mathbb{E}[X|\mathcal{B}_{2}]|\mathcal{B}_{1}]=\mathbb{E}[X|\mathcal{B}_{1}]$.
+---
+![[Independence#^985f0c]]
+![[Independence#^bfb56f|p]]
 ---
