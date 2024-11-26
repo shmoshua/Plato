@@ -17,7 +17,12 @@
 > [!proof]+
 > We have that:
 > 1. Let $X_{k}$ be the number of cliques of size $k$ of $G$. Then, $X_{k}=\sum_{S}^{}X_{S}$ where $S\in {V \choose k}$ and $X_{S}$ is the indicator variable if $S$ spans a clique or not. Then,$$\mu_{k}:=\mathbb{E}[X_{k}]={n \choose k}2^{-{k \choose 2}}\xrightarrow{n\to \infty} \infty$$Then, we consider the setting from [[Variance|Theorem 4]]. For a fixed $S\in {V \choose k}$, we have that for any $T\in {S \choose 2}$ with $S\neq T$, $S \sim T$ if and only if $\left| S\cap T \right|\geq 2$. Then, $$\sum_{T: T \sim S}^{}\mathbb{P}(T\text{ is clique}|S\text{ is clique})=\sum_{i=2}^{k-1}{k \choose i}{n -k \choose k - i}2^{{i \choose 2}-{k \choose 2}}=\Delta ^{*}$$Therefore, $\frac{\Delta ^{*}}{\mathbb{E}[X_{k}]}=\sum_{i=2}^{k-1}$ $g(i)$ where $g(i):=\frac{{k \choose i}{n-k \choose k-i}}{n \choose k}2^{i \choose 2}$. 
-> 	1. If $i=2$, then: $$g(2)=2\frac{{k \choose 2}{n-k \choose k-2}}{{n \choose k}} \sim  \frac{k^4}{n^2}=\text{o}(1/n)$$as $$\lim_{ n \to \infty } \frac{2n^2}{k^2}\frac{{n-k \choose k-2}}{{n \choose k}}=\lim_{ n \to \infty } \frac{2n^2}{k^2}\frac{{n-k \choose k}}{{n \choose k}} \frac{k(k-1)}{n}$$
+> 	1. If $i=2$, then: $$g(2)=2\frac{{k \choose 2}{n-k \choose k-2}}{{n \choose k}} \sim  \frac{k^4}{n^2}=\text{o}(1/n)$$as 
+> 		1. Upper bound:
+> 		   $$\lim_{ n \to \infty } \frac{n^2g(2)}{k^4}\leq \lim_{ n \to \infty } \frac{n^2}{k^2}\frac{{n-k \choose k-2}}{{n \choose k}}\leq\lim_{ n \to \infty }\left( \frac{n-k}{n} \right)^k\left( \frac{n}{n-2k} \right)^2=1$$
+> 		2. Lower bound:
+> 		   $$\begin{align}\lim_{ n \to \infty } \frac{n^2g(2)}{k^4}&\geq \lim_{ n \to \infty } \frac{(k-1)n^2}{k^3}\cdot \frac{{n-k \choose k-2}}{{n \choose k}} \\&\geq \lim_{ n \to \infty } \frac{(k-1)n^{2}}{k^3}\left(  \frac{n-2k+1}{n-k+1} \right)^k\frac{k(k-1)}{(n-2k+1)(n-2k)}\\&\geq \lim_{ n \to \infty } \frac{(k-1)^2}{k^2}\left(  \frac{n-2k+1}{n-k+1} \right)^{k-2}\frac{n^{2}}{(n-k+1)^2}\end{align} $$
+> 	1. If $i=2$, then: $$g(2)=2\frac{{k \choose 2}{n-k \choose k-2}}{{n \choose k}}=\Theta \left( \frac{k^4}{n^{2}} \right)=n^{-2+\text{o}(1)} $$Let $f\in \Theta(k^4 / n^2)$. Then, $c\cdot k^4 / n^2\leq f(n)\leq C\cdot k^4 / n^2$. Then, $$\log_{2}c+4\log_{2}k $$
 
 > [!proof]+
 > We have that:
