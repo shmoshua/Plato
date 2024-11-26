@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Chromatic Number.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Graph Theory/Erdös-Rényi Graph.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Expectation.md",
+                "file": "Graph Theory/Erdös-Rényi Graph.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Chromatic Number.md",
+                "file": "Probability Theory/Martingale.md",
                 "mode": "preview",
                 "source": true
               }
@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Chromatic Number.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Chromatic Number.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Chromatic Number.md"
+                "file": "Graph Theory/Graph Coloring.md"
               }
             }
           }
@@ -255,14 +255,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02c5c1c00827dd4a",
+  "active": "06c8ee39ab0cded0",
   "lastOpenFiles": [
-    "Graph Theory/Erdös-Rényi Graph.md",
-    "Graph Theory/Chromatic Number.md",
     "Probability Theory/Martingale.md",
+    "Graph Theory/Erdös-Rényi Graph.md",
+    "Graph Theory/Graph Coloring.md",
+    "Probability Theory/Expected Value.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Conditional Expectation.md",
-    "Probability Theory/Expected Value.md",
+    "Untitled 1.md",
     "Measure Theory/Sigma Algebra.md",
     "Probability Theory/Conditional Probability.md",
     "Graph Theory/Sparsest Cut.md",
@@ -282,7 +283,6 @@
     "Graph Theory/Tree.md",
     "Algebra/Field.md",
     "Algebra/Symmetry Group.md",
-    "Algorithms/k-wise Independent Hash Function.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",

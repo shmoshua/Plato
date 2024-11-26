@@ -4,6 +4,7 @@
 > Let $n\in \mathbb{N}$ and $p\in[0,1]$. The ***Erdös-Rényi graph*** $G:=(V:=[n],E)$ is an [[graph|undirected graph]] given by a distribution $G\sim G(n,p)$ where for each $e\in {V \choose 2}$, 
 > 1. $\mathbb{P}(e\in E)=p$ for all $e\in {V \choose 2}$
 > 2. $\{ \mathbb{1}_{e\in E} \}_{e\in {V \choose 2}}$ are [[Independence|independent]].
+- **Remark**: Notice that $\sigma(G)=\sigma(X_{1},\dots,X_{n})$ where $X_{i}\in \{ 0,1 \}^{i-1}$ where $X_{i,j}=1$ if and only if $\{ i,j \}\in E$. Further, $X_{1},\dots,X_{n}$ are independent. 
 ---
 ##### Properties
 
@@ -19,4 +20,11 @@
 > Let $r:=\left| S\cap T \right|$. Then, $\mathbb{E}[X_{S}X_{T}]=2^{{r \choose_{2}}-2{k \choose 2}}$ and the number of such pairs is ${n \choose k}{k \choose r}{n-k \choose k-r}$. Therefore, $$\text{Var}(X_{k})<\sum_{r=2}^{k}2^{{r \choose_{2}}-2{k \choose 2}}{n \choose k}{k \choose r}{n-k \choose k-r}=:g(k)$$Then, $$\frac{g(k)}{\mu_{k}^{2}}=\sum_{r=2}^{k}2^{{r \choose_{2}}}\frac{{k \choose r}{n-k \choose k-r}}{{n \choose k}}=\frac{1}{\mu_{k}}+\sum_{r=2}^{k-1}2^{{r \choose_{2}}}\frac{{k \choose r}{n-k \choose k-r}}{{n \choose k}}$$Now let $a_{r}:=2^{{r \choose_{2}}}\frac{{k \choose r}{n-k \choose k-r}}{{n \choose k}}$
 > 1. if $r=2$, $$a_{2}=2\frac{{k \choose 2}{n-k \choose k-2}}{n \choose k}=\Theta\left( \frac{k^4}{n^2} \right)=n^{-2+o(1)}$$
 > 2. if $r=k-1$, then : $$a_{k-1}=2^{k-1 \choose_{2}}\frac{k(n-k)}{{n \choose k}}=2^{-k+1}\frac{k(n-k)}{\mu_{k}}<n^{-1+o(1)}$$
+---
+> [!lemma] Theorem 2 (Vertex Exposure Martingales)
+> Let $f$ be a function on graphs s.t. $\mathbb{E}[\left| f(G) \right|]<+\infty$ for all $n,p$ where $G\sim G(n,p)$. Further, for $V_{i}:=[i]$ and $H_{i}:=G[V_{i}]$, we let $\mathcal{B}_{i}:=\sigma(H_{1},\dots,H_{i})$. Then,
+> 1. $X_{i}:=\mathbb{E}[f(G)|\mathcal{B}_{i}]$ defines a [[Martingale|martingale]] called ***vertex exposure***.
+
+> [!proof]-
+> We have that: $$\mathbb{E}[X_{i}|\mathcal{B}_{i-1}]=\mathbb{E}[\mathbb{E}[f(G)|\mathcal{B}_{i}]|\mathcal{B}_{i-1}]=\mathbb{E}[f(G)|\mathcal{B}_{i-1}]=X_{i-1}$$
 ---

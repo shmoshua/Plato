@@ -1,9 +1,20 @@
 #Definition #GraphTheory 
 
 > [!definition]
-> 
-
+> Let $G=(V,E)$ be an [[Graph|undirected graph]]. 
+> 1. A ***proper vertex $k$-coloring*** is a map $c:V\to[k]$ s.t. for every $\{ u,v \}\in E$: $c_{u}\neq c_{v}$.
+- **Remark**: For a finite graph on $n$ nodes, there exists a proper vertex $n$-coloring.
+- **Related definition**: The ***chromatic number*** $\chi(G)$ is given by: $$\chi(G):=\min\{  k\geq 1: \exists \text{proper vertex }k\text{-coloring on }G \}$$
+---
 ##### Properties
+
+> [!lemma] Proposition 1 (Shamir-Spencer, 1987)
+> Let $G\sim G(n,p)$, i.e. the [[Erdös-Rényi Graph]]. For any $\lambda>0$, $$\mathbb{P}(\left| \chi(G)-\mathbb{E}[\chi(G)] \right| \geq \lambda)\leq 2 \exp \left( -2\lambda^{2} / n \right) $$
+
+> [!proof]+
+> We have that from [[Erdös-Rényi Graph|Remark]] that $\sigma(G)=\sigma(X_{1},\dots,X_{n})$. Let $$\chi(G)=f_{\chi}(X_{1},\dots,X_{n})$$Then, we see that $f_{\chi}$ is $1$-Lipschitz, i.e. $nn$
+> let for $(x_{1},\dots,x_{n})$ we have that $$\left| f_{\chi}(x_{1},\dots,x_{n})-f_{\chi}(x_{1},\dots,x'_{i},\dots,x_{n}) \right| \leq 1$$
+---
 
 > [!lemma] Theorem 1 
 > Let $G\sim G(n , 1/2)$ and $\mu_{\ell}:={n \choose \ell}2^{-{\ell \choose 2}}$. For $k$ s.t. $\mu_{k+3}> 1 > \mu_{k+4}$, we have that:
