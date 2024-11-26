@@ -2,7 +2,7 @@
 
 > [!definition]
 > For $s,t\in \mathbb{Z}_{>0}$, the ***Ramsey number*** $R(s,t)$ is the smallest integer $n$ s.t. 
-> 1. every red-blue edge-coloring of the [[complete graph]] $K_{n}$ has a red clique of size $s$ or a blue clique of size $t$.
+> 1. every red-blue edge-coloring of the [[Clique]] $K_{n}$ has a red clique of size $s$ or a blue clique of size $t$.
 > 2. for a graph $G$, the ***Ramsey number $R(G)$*** is the smallest integer $n$ s.t. any 2-edge-coloring of $K_{n}$ contains a monochromatic $G$. 
 
 ^bf6551

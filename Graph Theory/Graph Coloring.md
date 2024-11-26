@@ -11,14 +11,13 @@
 > [!lemma] Proposition 1 (Shamir-Spencer, 1987)
 > Let $G\sim G(n,p)$, i.e. the [[Erdös-Rényi Graph]]. For any $\lambda>0$, $$\mathbb{P}(\left| \chi(G)-\mathbb{E}[\chi(G)] \right| \geq \lambda)\leq 2 \exp \left( -2\lambda^{2} / n \right) $$
 
-> [!proof]+
-> We have that from [[Erdös-Rényi Graph|Remark]] that $\sigma(G)=\sigma(X_{1},\dots,X_{n})$. Let $$\chi(G)=f_{\chi}(X_{1},\dots,X_{n})$$Then, we see that $f_{\chi}$ is $1$-Lipschitz, i.e. $nn$
-> let for $(x_{1},\dots,x_{n})$ we have that $$\left| f_{\chi}(x_{1},\dots,x_{n})-f_{\chi}(x_{1},\dots,x'_{i},\dots,x_{n}) \right| \leq 1$$
+> [!proof]-
+> We have that from [[Erdös-Rényi Graph|Remark]] that $\sigma(G)=\sigma(X_{1},\dots,X_{n})$. Let $$\chi(G)=f_{\chi}(X_{1},\dots,X_{n})$$Then, we see that $f_{\chi}$ is $1$-Lipschitz. Therefore, by [[Martingale|McDiarmid]], $$\mathbb{P}(\left| \chi(G)-\mathbb{E}[\chi(G)] \right| \geq \lambda)\leq 2\exp \left( -\frac{2\lambda^{2}}{n} \right) $$
 ---
 
 > [!lemma] Theorem 1 
 > Let $G\sim G(n , 1/2)$ and $\mu_{\ell}:={n \choose \ell}2^{-{\ell \choose 2}}$. For $k$ s.t. $\mu_{k+3}> 1 > \mu_{k+4}$, we have that:
-> 1. $k=(1+\text{o}(1))2\log_{2}n$.
+> 1. $k\sim2\log_{2}n$.
 > 2. $\mathbb{P}(\alpha(G)<k)\leq \exp(-n^{2-\text{o}(1)})$
 
 > [!proof]+

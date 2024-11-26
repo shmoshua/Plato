@@ -1,7 +1,7 @@
 #GraphTheory #Definition 
 
 > [!definition]
-> A ***tournament*** $T_{n}$ is a directed graph obtained by orienting the edges of the [[complete graph]] $K_{n}$. 
+> A ***tournament*** $T_{n}$ is a directed graph obtained by orienting the edges of the [[Clique]] $K_{n}$. 
 
 ^d0027e
 
