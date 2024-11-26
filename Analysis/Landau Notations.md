@@ -48,6 +48,7 @@
 > 4. $\text{O}(f)\text{O}(g)=\text{O}(fg)$
 > 5. $\text{o}(f)\text{O}(g)=\text{o}(fg)$
 > 6. if $f=\text{o}(1)$, then $\frac{1}{1+\text{o}(f)}=1+\text{o}(f)$ and $\frac{1}{1+\text{O}(f)}=1+\text{O}(f)$
+> 7. if $f=\text{o}(1)$, then $\sum_{i=0}^{\infty} f^i=\text{o}(1)$
 
 > [!proof]-
 > We have that:
@@ -57,6 +58,7 @@
 > 4. $\lim_{ x \to a }\frac{h(x)r(x)}{f(x)g(x)}<+\infty$
 > 5. $\lim_{ x \to a }\frac{h(x)r(x)}{f(x)g(x)}=0$.
 > 6. For $g=\text{o}(f)$, we have: $$\lim_{ x \to a } \frac{\frac{1}{1+g(x)}-1}{f(x)}=\lim_{ x \to a } \frac{\frac{-g(x)}{1+g(x)}}{f(x)}=-\lim_{ x \to a } \frac{g(x)}{f(x)} \frac{1}{1+\frac{g(x)}{f(x)}f(x)}=0$$
+> 7. We have that: $$\lim_{ n \to \infty } \sum_{i=1}^{\infty}f(x)^i=\lim_{ n \to \infty } \frac{f(x)}{1-f(x)}=\lim_{ n \to \infty } \left( -1+\frac{1}{1-f(x)} \right)=0 $$
 
 ##### Examples
 > [!h] Example 1 (Taylor Expansion)
