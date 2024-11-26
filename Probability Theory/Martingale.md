@@ -45,7 +45,7 @@
 > Let $X_{1},\dots,X_{n}$ be [[Independence|independent random variables]] where $X_{i}$ is $\mathcal{X}_{i}$ valued for all $i\in[n]$. For $X:=(X_{1},\dots,X_{n})$ and a measurable function $f:\mathcal{X}_{1}\times\dots \times \mathcal{X}_{n}\to \mathbb{R}$ s.t. 
 > 1. $\|D_{i}f\|_{\infty}<+\infty$ for all $i\in[n]$ where $D_{i}f:\mathcal{X}_{1}\times\dots \times \mathcal{X}_{n}\to \mathbb{R}$ $$D_{i}f(x):=\sup_{y\in \mathcal{X}_{i}}f(x_{1},\dots,x_{i-1},y,x_{i+1},\dots,x_{n})-\inf_{z\in \mathcal{X}_{i}}f(x_{1},\dots,x_{i-1},z,x_{i+1},\dots,x_{n})$$
 >
->Then, for all $\lambda\geq 0$: $$\mathbb{P}(f(X)\geq \mathbb{E}[f(X)]+\lambda)\leq \exp \left( -\frac{\lambda^{2}}{2\sum_{i=1}^{n}\left\| D_{i}f \right\| ^2_{\infty}} \right) $$
+>Then, for all $\lambda\geq 0$: $$\mathbb{P}(f(X)\geq \mathbb{E}[f(X)]+\lambda)\leq \exp \left( -\frac{2\lambda^{2}}{\sum_{i=1}^{n}\left\| D_{i}f \right\| ^2_{\infty}} \right) $$
 
 > [!proof]-
 > Let $Z:=f(X)-\mathbb{E}[f(X)]$. Define $Z_{i}:=\mathbb{E}[Z|\mathcal{A}_{i}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]$. Then, we have that: $$\mathbb{E}[Z_{i}|\mathcal{A}_{i-1}]=\mathbb{E}[\mathbb{E}[Z|\mathcal{A}_{i}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]|\mathcal{A}_{i-1}]=\mathbb{E}[Z|\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=0$$Hence, $(Z_{i})_{i}$ is a martingale difference sequence w.r.t. $(\mathcal{A}_{i})_{i}$. Now, we can bound: $$Z_{i}\leq\sup_{x\in \mathcal{X_{i}}}\mathbb{E}[Z|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=:W_{i}$$$$Z_{i}\geq\inf_{x\in \mathcal{X_{i}}}\mathbb{E}[Z|X_{i}=x,\mathcal{A}_{i-1}]-\mathbb{E}[Z|\mathcal{A}_{i-1}]=:U_{i}$$
@@ -55,4 +55,7 @@
 > 
 > Therefore, by Azuma-Hoeffding on $Y_{i}:=\mathbb{E}[Z|\mathcal{A}_{i}]$$$\mathbb{P}(f(X)\geq \mathbb{E}[f(X)]+\lambda)=\mathbb{P}(Z\geq \lambda)\leq \exp \left( -\frac{2\lambda^{2}}{\sum_{i\leq n}\|D_{i}f\|_{\infty}^{2}} \right) $$
 
-- **Corollary**: If $f:\mathcal{X}_{1}\times\dots \times \mathcal{X}_{n}\to \mathbb{R}$ is $c$-***Lipschitz*** for $0<c<+\infty$ w.r.t. Hamming distance, i.e. $$\left| f(x)-f(x') \right| \leq c \cdot  d_{H}(x,x')$$Then, $\left\| D_{i}f \right\|_{\infty}\leq c$ for all $i$ and $\mathbb{P}(f(X))$
+- **Corollary**: If $f:\mathcal{X}_{1}\times\dots \times \mathcal{X}_{n}\to \mathbb{R}$ is $c$-***Lipschitz*** for $0<c<+\infty$ w.r.t. Hamming distance, i.e. $$\left| f(x)-f(x') \right| \leq c \cdot  d_{H}(x,x')$$Then, $\left\| D_{i}f \right\|_{\infty}\leq c$ for all $i$ and $\mathbb{P}(f(X)\geq \mathbb{E}[X]+\lambda)\leq \exp \left( -\frac{2\lambda^{2}}{c^{2}n} \right)$
+- **Remark**: By taking $f:= -f$, we have that $\mathbb{P}(f(X)\leq \mathbb{E}[f(X)]-\lambda)\leq \exp \left( -\frac{2\lambda^{2}}{\sum_{i=1}^{n}\left\| D_{i}f \right\| ^2_{\infty}} \right)$
+
+---

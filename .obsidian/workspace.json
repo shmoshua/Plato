@@ -50,14 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Probability Theory/Independence.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -137,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Probability Theory/Conditional Expectation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Probability Theory/Conditional Expectation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Martingale.md"
+                "file": "Probability Theory/Conditional Expectation.md"
               }
             }
           }
@@ -267,12 +267,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1cd8558287d918c7",
+  "active": "02c5c1c00827dd4a",
   "lastOpenFiles": [
-    "Probability Theory/Conditional Expectation.md",
-    "Probability Theory/Martingale.md",
     "Probability Theory/Independence.md",
+    "Probability Theory/Conditional Expectation.md",
     "Probability Theory/Expected Value.md",
+    "Probability Theory/Martingale.md",
     "Probability Theory/Conditional Probability.md",
     "Measure Theory/Measurable Function.md",
     "Technical Lemmas.md",
