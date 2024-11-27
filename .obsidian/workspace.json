@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md",
+                "file": "Technical Lemmas.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Clique.md",
+                "file": "Technical Lemmas.md",
                 "mode": "preview",
                 "source": true
               }
@@ -112,8 +112,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md",
+                "file": "Technical Lemmas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md",
+                "file": "Technical Lemmas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md"
+                "file": "Technical Lemmas.md"
               }
             }
           }
@@ -246,11 +245,11 @@
   "active": "02c5c1c00827dd4a",
   "lastOpenFiles": [
     "Graph Theory/Clique.md",
+    "Technical Lemmas.md",
     "Graph Theory/Graph Coloring.md",
     "Probability Theory/Martingale.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Expected Value.md",
-    "Technical Lemmas.md",
     "Probability Theory/Variance.md",
     "Analysis/Landau Notations.md",
     "Graph Theory/Erdös-Rényi Graph.md",

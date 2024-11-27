@@ -24,11 +24,15 @@
 > 1. Let $Y(G)$ be the maximum size of the collection of pair-disjoint independent sets of size $k_{1}$ in $G$, i.e. $I_{1},\dots,I_{t}$ s.t. $\left| I_{i}\cap I_{j} \right|\leq 1$. Then, for $\{ X_{e} \}_{e\in {V \choose 2}}$ and $m:={n \choose 2}$ we have that $Y(G)=f_{Y}(X_{1},\dots,X_{m})$ where $f_{Y}$ is $1$-Lipschitz. Therefore, by [[Martingale|McDiarmid]], $$\mathbb{P}(\alpha(G)<k_{1})=\mathbb{P}(Y(G)=0)\leq \mathbb{P}(f_{Y}(X)\leq \mathbb{E}[f_{Y}(X)]-\mathbb{E}[f_{Y}(X)])\leq \exp \left( -\frac{4\mathbb{E}[Y]^{2}}{n^2} \right) $$
 >    Hence, it suffices to show that $\mathbb{E}[Y]=n^{2-\text{o}(1)}$.
 >    
->    Let $W$ be the number of unordered pairs of independent sets of size $k_{1}$ which intersect in more than $2$ elements. Then, $$\mathbb{E}[W]=\frac{1}{2} {n \choose k_{1}}\sum_{j=2}^{k_{1}-1}{k_{1} \choose j}{n-k_{1} \choose k_{1}-j}2^{-(2 {k_{1} \choose 2}-{j \choose 2})}=\frac{\mu^{2}_{k_{1}}}{2}\sum_{j=2}^{k_{1}-1}\underbrace{ \frac{{k_{1} \choose j}{n-k_{1} \choose k_{1} - j}}{n \choose k_{1}}2^{j \choose 2} }_{ =:g(j) }$$From [[Clique|Proof of Theorem 1.3]], we have that $\sum_{j=2}^{k_{1}-1}g(j)=\text{o}(1)$. Hence, $$\mathbb{E}[W]=\frac{\mu_{k_{1}}^{2}}{2}\text{o}(1)$$
+>    Let $W$ be the number of unordered pairs of independent sets of size $k_{1}$ which intersect in more than $2$ elements. Then, $$\mathbb{E}[W]=\frac{1}{2} {n \choose k_{1}}\sum_{j=2}^{k_{1}-1}{k_{1} \choose j}{n-k_{1} \choose k_{1}-j}2^{-(2 {k_{1} \choose 2}-{j \choose 2})}=\frac{\mu^{2}_{k_{1}}}{2}\sum_{j=2}^{k_{1}-1}\underbrace{ \frac{{k_{1} \choose j}{n-k_{1} \choose k_{1} - j}}{n \choose k_{1}}2^{j \choose 2} }_{ =:g(j) }$$
+> 	   1. For $2\leq j\leq \frac{k}{2}$, we have that: $$\begin{align}g(j)&={k \choose j}\end{align}$$
+>    
+>    
+>    From [[Clique|Proof of Theorem 1.3]], we have that $\sum_{j=2}^{k_{1}-1}g(j)=\text{o}(1)$. Hence, $$\mathbb{E}[W]=\frac{\mu_{k_{1}}^{2}}{2}\text{o}(1)\leq (1+\text{o}(1))\frac{\mu^2_{k_{1}}}{2}$$
 >    Let $q\in[0,1]$. Then, we claim that $Y\geq qX_{k_{1}}-q^{2}W$. Let $S_{1},\dots,S_{X_{k_{1}}}$ be the independent sets in $G$ and let $A\subseteq [X_{k_{1}}]$ where $\mathbb{P}(i\in A) = q$ independently. Let $W'$ be the number of unordered pairs $\{ i,j \}\subseteq A$ s.t. $\left| S_{i}\cap S_{j} \right|\geq 2$. Then, $\mathbb{E}[W']=q^{2}W$. 
 >    
 >    By removing one independent set from each pair, we have that: $Y\geq |A|-W'$ and $$Y\geq \mathbb{E}[\left| A \right| ]-\mathbb{E}[W']=qX_{k}-q^{2}W$$
->    Hence, by taking expectation over $G$, we have that: $$\mathbb{E}[Y]\geq q\cdot \mu_{k_{1}}-q^{2}\mathbb{E}[W]$$By choosing $q=\frac{\mu_{k_{1}}}{2\mathbb{E}[W]}\sim$, we have that: $\mathbb{E}[Y]\geq \frac{\mu_{k_{1}}^{2}}{4\mathbb{E}[W]}\geq (1-\text{o}(1))$
+>    Hence, by taking expectation over $G$, we have that: $$\mathbb{E}[Y]\geq q\cdot \mu_{k_{1}}-q^{2}\mathbb{E}[W]$$By choosing $q=\frac{\mu_{k_{1}}}{2\mathbb{E}[W]}$, we have that: $\mathbb{E}[Y]\geq \frac{\mu_{k_{1}}^{2}}{4\mathbb{E}[W]}\geq (1-\text{o}(1))$
 >    
 > 	   
 > 	Hence, $$\mathbb{E}[Y]\geq q \mu-(1+\text{o}(1))\frac{q^{2}}{2}\frac{k^4}{n^{2}}\mu^{2}\geq (1+\text{o}(1))\frac{n^2}{2k^4}$$for $q=\frac{n^2}{k^4\mu}$.
