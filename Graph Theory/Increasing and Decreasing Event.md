@@ -13,7 +13,7 @@
 > 2. If $A$ is increasing but $B$ decreasing or vice versa, then: $\mathbb{P}(A\cap B)\leq \mathbb{P}(A)\mathbb{P}(B)$
 
 
-> [!proof]+
+> [!proof]-
 > We prove it by induction on $N$. 
 > 1. If $N=1$, then there are three increasing events $\varnothing,\{ 0,1 \},\{ 1 \}$. Then, assume $A,B$ are both increasing. 
 > 	1. If either $A,B$ is $\varnothing$, then $0=\mathbb{P}(A\cap B)\geq \mathbb{P}(A)\mathbb{P}(B)=0$.
@@ -23,4 +23,4 @@
 > 	
 > 	Let $a:=\mathbb{P}(A),a_{0}:=\mathbb{P}(A_{0}),a_{1}:=\mathbb{P}(A_{1}),b:=\mathbb{P}(B),b_{0}:=\mathbb{P}(B_{0}),b_{1}:=\mathbb{P}(B_{1})$. Then, $$a=\mathbb{P}(A)=\mathbb{P}(A_{0})(1-p_{N})+\mathbb{P}(A_{1})p_{N}=a_{0}(1-p_{N})+a_{1}p_{N}$$Therefore, $$\begin{align}\mathbb{P}(A\cap B)&=\mathbb{P}(A_{0}\cap B_{0})(1-p_{N})+\mathbb{P}(A_{1}\cap B_{1})p_{N}\geq a_{0}b_{0}(1-p_{N})+a_{1}b_{1}p_{N}\\\mathbb{P}(A)\mathbb{P}(B)&=(a_{0}(1-p_{N})+a_{1}p_{N})(b_{0}(1-p_{N})+b_{1}p_{N})\end{align}$$Hence, $$\begin{align}\mathbb{P}(A\cap B)-\mathbb{P}(A)\mathbb{P}(B)&=a_{0}b_{0}-a_{0}b_{0}p_{N}+a_{1}b_{1}p_{N}-a_{0}b_{0}(1-p_{N})^{2}\\&\quad \quad \quad \quad \quad -(a_{0}b_{1}+a_{1}b_{0})(1-p_{N})p_{N}-a_{1}b_{1}p_{N}^{2}\\&=a_{0}b_{0}(p_{N}-p_{N}^{2})+a_{1}b_{1}(p_{N}-p_{N}^{2})-(a_{0}b_{1}+a_{1}b_{0})(1-p_{N})p_{N}\\&=(a_{1}-a_{0})(b_{1}-b_{0})p_{N}(1-p_{N})\\&\geq 0\end{align}$$
 > 
-> If $A,B$ are both decreasing, then $\Omega \backslash A,\Omega \backslash B$ are both increasing and: $$\mathbb{P}(A\cap B)=\mathbb{P}(A)+\mathbb{P}(B)-\mathbb{P}()$$
+> If $A,B$ are both decreasing, then $\Omega \backslash A,\Omega \backslash B$ are both increasing and: $$\begin{align}\mathbb{P}(A\cap B)&=\mathbb{P}(A)+\mathbb{P}(B)-\mathbb{P}(A\cup B)\\&=\mathbb{P}(A)+\mathbb{P}(B)-1+\mathbb{P}(\Omega \backslash A\cap\Omega \backslash B)\\&\geq\mathbb{P}(A)+\mathbb{P}(B)-1+\mathbb{P}(\Omega \backslash A)\mathbb{P}(\Omega \backslash B)\\&=\mathbb{P}(A)\mathbb{P}(B)\end{align}$$

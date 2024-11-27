@@ -8,11 +8,17 @@
 ---
 ##### Properties
 
----
-> [!lemma] Theorem 2 (Vertex Exposure Martingales)
+> [!lemma] Theorem 1 (Vertex Exposure Martingales)
 > Let $f$ be a function on graphs s.t. $\mathbb{E}[\left| f(G) \right|]<+\infty$ for all $n,p$ where $G\sim G(n,p)$. Further, for $V_{i}:=[i]$ and $H_{i}:=G[V_{i}]$, we let $\mathcal{B}_{i}:=\sigma(H_{1},\dots,H_{i})$. Then,
 > 1. $X_{i}:=\mathbb{E}[f(G)|\mathcal{B}_{i}]$ defines a [[Martingale|martingale]] called ***vertex exposure***.
 
 > [!proof]-
 > We have that: $$\mathbb{E}[X_{i}|\mathcal{B}_{i-1}]=\mathbb{E}[\mathbb{E}[f(G)|\mathcal{B}_{i}]|\mathcal{B}_{i-1}]=\mathbb{E}[f(G)|\mathcal{B}_{i-1}]=X_{i-1}$$
 ---
+> [!lemma] Theorem 2 (Triangle Free Random Graphs)
+> Let $G \sim G(n,p)$. 
+> 1. if $p=\text{o}(n^{-1/2})$ then $\mathbb{P}(G\text{ is triangle-free})=e^{-(1+\text{o}(1))n^3 p^3 /6}$
+
+> [!proof]+
+> https://ocw.mit.edu/courses/18-226-probabilistic-methods-in-combinatorics-fall-2022/mit18_226_f22_lec16-17.pdf
+> 
