@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
+                "file": "Graph Theory/Girth and Circumference.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Landau Notations.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "preview",
                 "source": true
               }
@@ -242,19 +242,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5b9c1a41b51f24ce",
+  "active": "02c5c1c00827dd4a",
   "lastOpenFiles": [
+    "Graph Theory/Graph Coloring.md",
+    "Analysis/Landau Notations.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
+    "Probability Theory/Variance.md",
+    "Graph Theory/Girth and Circumference.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Algebra/Permanent.md",
     "Technical Lemmas.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
-    "Graph Theory/Graph Coloring.md",
     "Graph Theory/Clique.md",
     "Probability Theory/Martingale.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Expected Value.md",
-    "Probability Theory/Variance.md",
-    "Analysis/Landau Notations.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Measure Theory/Sigma Algebra.md",
     "Graph Theory/Graph.md",
@@ -269,7 +270,6 @@
     "Graph Theory/Metric Embedding.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
     "Graph Theory/Cut (Graph).md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",

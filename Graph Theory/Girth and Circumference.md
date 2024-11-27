@@ -17,18 +17,21 @@
 
 > [!proof]+
 > Let $C$ be the shortest cycle in $G$. If $g(G)\geq 2\cdot \text{diam}(G)+2$, then $C$ has two vertices $u,v$ whose distance is at least $\text{diam}(G)+1$. However, we have that there exists a $(u,v)$-path $P$ that is shorter. By replacing a path in the cycle with $P$, we get a shorter cycle, which is a contradiction.
+
+^125447
+
 ---
-> [!lemma] Theorem 1 (Erdös)
+> [!lemma] Theorem 1 (Erdös, 1959)
 > For any $k,\ell$, there exists a graph $G$ s.t. $\chi(G)>k$ and $g(G)>\ell$.
 
 ^4ba9e0
 
-> [!proof]-
-> Let $G \sim G(n,p)$ be a random graph on $n$ vertices where between two vertices $x,y$ there exists an edge with a probability $p=n^{-1+1/(\ell+1)}$ independently.
+> [!proof]+
+> Let $G \sim G(n,p)$ be a [[Erdös-Rényi Graph|random graph]] on $n$ vertices with $p=n^{-1+1/(\ell+1)}$.
 > 
 > Let $X$ be the number of cycles of length $\leq \ell$.
 > 1. **Claim 1: $\mathbb{P}\left( X< \frac{n}{2} \right)\geq \frac{4}{5}$.**
->     $$\mathbb{E}[X]=\sum_{i=3}^{\ell} {n \choose i}p^i\leq\sum_{i=3}^{\ell} (np)^i=\sum_{i=3}^{\ell}n^{i/(\ell+1)}\leq 2n^{\ell/(\ell+1)}< \frac{n}{10}$$Therefore, by [[Expected Value|Markov]], $$\mathbb{P}\left( X< \frac{n}{2} \right)=1-\mathbb{P}\left( X\geq \frac{n}{2} \right)\geq 1-\frac{2\mathbb{E}[X]}{n}> \frac{4}{5}$$
+>     $$\mathbb{E}[X]=\sum_{i=3}^{\ell} \frac{n\dots(n-i+1)}{2i}p^i\leq\sum_{i=3}^{\ell} \frac{(np)^i}{2i}=\sum_{i=3}^{\ell}\frac{n^{i/(\ell+1)}}{2i}\leq 2n^{\ell/(\ell+1)}< \frac{n}{10}$$Therefore, by [[Expected Value|Markov]], $$\mathbb{P}\left( X< \frac{n}{2} \right)=1-\mathbb{P}\left( X\geq \frac{n}{2} \right)\geq 1-\frac{2\mathbb{E}[X]}{n}> \frac{4}{5}$$
 >  2. **Claim 2: $\mathbb{P}\left( \alpha(G)< \frac{n}{2k} \right)\geq \frac{9}{10}$**
 > 	Let $Y$ be the number of independent sets of size $\frac{n}{2k}$. Then, $$\mathbb{E}[Y]={n \choose \frac{n}{2k}}(1-p)^{n/2k \choose_{2}}\leq 2^ne^{-p n^{2}/10k^2}=2^ne^{-n^{1+1/(\ell+1)}/10k^2}< \frac{1}{10}$$ Hence, $\mathbb{P}\left( \alpha(G)\geq \frac{n}{2k} \right)\leq \frac{1}{10}$. 
 >
