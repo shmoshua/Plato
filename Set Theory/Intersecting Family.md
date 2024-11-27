@@ -19,7 +19,7 @@
 > 1. $\mathcal{F}_{1}:=\{ X\subseteq [n]: \exists F\in \mathcal{F}.X \supseteq F \}\supseteq \mathcal{F}$
 > 2. $\mathcal{F}_{2}:=\{ X\subseteq [n]: \exists F\in \mathcal{F}.X \subseteq F \}\supseteq \mathcal{F}$
 >    
->  Then, we identify that $\mathcal{F}_{1}$ is [[Increasing and Decreasing Property|increasing]], i.e. for any $X\subseteq Y$, if $X\in \mathcal{F}_{1}$, then there exists $F\in \mathcal{F}$ with $F\subseteq X\subseteq Y$ and hence $Y\in \mathcal{F}_{1}$. Similarly, $\mathcal{F}_{2}$ is decreasing. 
+>  Then, we identify that $\mathcal{F}_{1}$ is [[Increasing and Decreasing Event|increasing]], i.e. for any $X\subseteq Y$, if $X\in \mathcal{F}_{1}$, then there exists $F\in \mathcal{F}$ with $F\subseteq X\subseteq Y$ and hence $Y\in \mathcal{F}_{1}$. Similarly, $\mathcal{F}_{2}$ is decreasing. 
 >  
 >  Hence, $$\mathbb{P}(\mathcal{F})\leq \mathbb{P}(\mathcal{F}_{1}\cap \mathcal{F}_{2})\leq \mathbb{P}(\mathcal{F}_{1})\mathbb{P}(\mathcal{F}_{2})\leq \frac{1}{2}\cdot \frac{1}{2}=\frac{1}{4}$$
 ---

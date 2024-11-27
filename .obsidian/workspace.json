@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Increasing and Decreasing Property.md",
+                "file": "Graph Theory/Increasing and Decreasing Event.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Increasing and Decreasing Property.md",
+                "file": "Graph Theory/Increasing and Decreasing Event.md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Increasing and Decreasing Property.md",
+                "file": "Graph Theory/Increasing and Decreasing Event.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Increasing and Decreasing Property.md",
+                "file": "Graph Theory/Increasing and Decreasing Event.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Increasing and Decreasing Property.md"
+                "file": "Graph Theory/Increasing and Decreasing Event.md"
               }
             }
           }
@@ -245,7 +245,7 @@
   "active": "79cc111f9ba61df2",
   "lastOpenFiles": [
     "Graph Theory/Clique.md",
-    "Graph Theory/Increasing and Decreasing Property.md",
+    "Graph Theory/Increasing and Decreasing Event.md",
     "Set Theory/Intersecting Family.md",
     "Probability Theory/Independence.md",
     "Set Theory",
