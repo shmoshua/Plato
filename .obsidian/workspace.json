@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md",
+                "file": "Probability Theory/Independence.md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md"
+                "file": "Graph Theory/Hypergraph.md"
               }
             }
           }
@@ -242,19 +242,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02c5c1c00827dd4a",
+  "active": "5b9c1a41b51f24ce",
   "lastOpenFiles": [
+    "Probability Theory/Independence.md",
+    "Graph Theory/Hypergraph.md",
     "Graph Theory/Graph Coloring.md",
+    "Graph Theory/Girth and Circumference.md",
     "Analysis/Landau Notations.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
     "Probability Theory/Variance.md",
-    "Graph Theory/Girth and Circumference.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Algebra/Permanent.md",
     "Technical Lemmas.md",
     "Graph Theory/Clique.md",
     "Probability Theory/Martingale.md",
-    "Probability Theory/Independence.md",
     "Probability Theory/Expected Value.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Measure Theory/Sigma Algebra.md",
@@ -269,7 +270,6 @@
     "Measure Theory/Lebesgue Integral.md",
     "Graph Theory/Metric Embedding.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
-    "Graph Theory/Cut (Graph).md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",

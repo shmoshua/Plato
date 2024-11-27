@@ -15,7 +15,7 @@
 > Let $G$ be a finite graph with a cycle. Then, 
 > 1. $g(G)\leq 2\cdot \text{diam}(G)+1$
 
-> [!proof]+
+> [!proof]-
 > Let $C$ be the shortest cycle in $G$. If $g(G)\geq 2\cdot \text{diam}(G)+2$, then $C$ has two vertices $u,v$ whose distance is at least $\text{diam}(G)+1$. However, we have that there exists a $(u,v)$-path $P$ that is shorter. By replacing a path in the cycle with $P$, we get a shorter cycle, which is a contradiction.
 
 ^125447
@@ -26,16 +26,16 @@
 
 ^4ba9e0
 
-> [!proof]+
+> [!proof]-
 > Let $G \sim G(n,p)$ be a [[Erdös-Rényi Graph|random graph]] on $n$ vertices with $p=n^{-1+1/(\ell+1)}$.
 > 
 > Let $X$ be the number of cycles of length $\leq \ell$.
-> 1. **Claim 1: $\mathbb{P}\left( X< \frac{n}{2} \right)\geq \frac{4}{5}$.**
->     $$\mathbb{E}[X]=\sum_{i=3}^{\ell} \frac{n\dots(n-i+1)}{2i}p^i\leq\sum_{i=3}^{\ell} \frac{(np)^i}{2i}=\sum_{i=3}^{\ell}\frac{n^{i/(\ell+1)}}{2i}\leq 2n^{\ell/(\ell+1)}< \frac{n}{10}$$Therefore, by [[Expected Value|Markov]], $$\mathbb{P}\left( X< \frac{n}{2} \right)=1-\mathbb{P}\left( X\geq \frac{n}{2} \right)\geq 1-\frac{2\mathbb{E}[X]}{n}> \frac{4}{5}$$
+> 1. **Claim 1: $X< \frac{n}{2}$ w.h.p.**
+>     $$\mathbb{E}[X]=\sum_{i=3}^{\ell} \frac{n\dots(n-i+1)}{2i}p^i\leq\sum_{i=3}^{\ell} \frac{(np)^i}{2i}=\sum_{i=3}^{\ell}\frac{n^{i/(\ell+1)}}{2i}=\text{o}(n)$$Therefore, by [[Expected Value|Markov]], $\mathbb{P}\left( X\geq \frac{n}{2} \right)\leq \text{o}(1)$. 
 >  2. **Claim 2: $\mathbb{P}\left( \alpha(G)< \frac{n}{2k} \right)\geq \frac{9}{10}$**
 > 	Let $Y$ be the number of independent sets of size $\frac{n}{2k}$. Then, $$\mathbb{E}[Y]={n \choose \frac{n}{2k}}(1-p)^{n/2k \choose_{2}}\leq 2^ne^{-p n^{2}/10k^2}=2^ne^{-n^{1+1/(\ell+1)}/10k^2}< \frac{1}{10}$$ Hence, $\mathbb{P}\left( \alpha(G)\geq \frac{n}{2k} \right)\leq \frac{1}{10}$. 
->
-> Therefore, $P\left( X< \frac{n}{2},\alpha(G)< \frac{n}{2k} \right)\geq \frac{4}{5}+\frac{9}{10}-1=\frac{7}{10}$. Hence, there exists a graph with at most $\frac{n}{2}$ short cycles and $\alpha(G)< \frac{n}{2k}$. 
+> 	
+> Let $n$ be large enough s.t. $\mathbb{P}\left( X< \frac{n}{2} \right)\geq \frac{4}{5}$. Then $\mathbb{P}\left( X< \frac{n}{2},\alpha(G)< \frac{n}{2k} \right)\geq \frac{4}{5}+\frac{9}{10}-1=\frac{7}{10}$. Hence, there exists a graph with at most $\frac{n}{2}$ short cycles and $\alpha(G)< \frac{n}{2k}$. 
 > 
 > Now, we can obtain another graph $G'$ from $G$ where we delete one vertex from every cycle. Then, 
 > 1. $\left| V(G') \right|\geq \left| V(G) \right|-\frac{n}{2}\geq \frac{n}{2}$ and

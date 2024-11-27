@@ -89,6 +89,14 @@
 - **Corollary**:  Two real random variables $X,Y$ are independent if and only if for every Borel $h:\mathbb{R}\to \mathbb{R}$ s.t. $\mathbb{E}[\left| h(X) \right|]<\infty$, $$\mathbb{E}[h(X)|Y]=\mathbb{E}[h(X)]$$
 - **Corollary**: if $X,Y$ are independent $\mathbb{E}[X|Y]=\mathbb{E}[X]$. But the converse is not always true. 
 ---
+> [!lemma] Theorem 7 (Lovász Local Lemma)
+> Let $(\Omega,\mathcal{A},\mathbb{P})$ be a probability space and let $B_{1},\dots,B_{m}\in \mathcal{A}$. If we have that:
+> 1. $\mathbb{P}(B_{i})\leq p<1$ for all $i\in[m]$
+> 2. $B_{i}$ is mutually independent from all but at most $d$ other events for all $i\in[m]$.
+> 3. $ep(d+1)\leq 1$.
+> 
+> Then, $\mathbb{P}\left( \bigcap_{i=1}^{m}B_{i}^c \right)>0$.
+---
 ##### Examples
 ##### Non-Examples
 > [!h] Non-Example

@@ -58,3 +58,15 @@
 ^a8679e
 
 ---
+> [!lemma] Theorem 4 
+> For $k\geq 2$, let $H$ be a $k$-uniform hypergraph.
+> 1. if every edge $e\in E(H)$ intersects at most $d\leq \frac{2^{k-1}}{e}-1$ other edges, then $H$ is $2$-colorable.
+
+> [!proof]-
+> Let $c$ denote a random uniform 2-coloring on $H$, i.e. for any $v\in V$, $\mathbb{P}(c(v)=1)=1 / 2$. For any $e\in E$, let $B_{e}$ denote the event that $e$ is monochromatic. Then, we will use [[Independence|Lovász Local Lemma]].
+> 1. $\mathbb{P}(B_{e})=2^{-(k-1)}=:p$ for all $e\in E$.
+> 2. $B_{e}$ is mutually independent with all events whose edges are disjoint from $e$. Hence, $B_{e}$ is mutually independent with all but at most $d$ other events. 
+> 3. $ep(d+1)\leq 1$.
+>    
+> Therefore, $\mathbb{P}\left( \bigcap_{e\in E}^{} B_{e}^c \right)>0$.
+---
