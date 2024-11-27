@@ -15,11 +15,11 @@
 > We have that from [[Erdös-Rényi Graph|Remark]] that $\sigma(G)=\sigma(X_{1},\dots,X_{n})$. Let $$\chi(G)=f_{\chi}(X_{1},\dots,X_{n})$$Then, we see that $f_{\chi}$ is $1$-Lipschitz. Therefore, by [[Martingale|McDiarmid]], $$\mathbb{P}(\left| \chi(G)-\mathbb{E}[\chi(G)] \right| \geq \lambda)\leq 2\exp \left( -\frac{2\lambda^{2}}{n} \right) $$
 ---
 
-> [!lemma] Theorem 2 (Bollobás)
+> [!lemma] Theorem 2 (Bollobás, 1988)
 > Let $G\sim G(n , 1/2)$ and $\mu_{k}:={n \choose k}2^{-{k \choose 2}}$. Further, let $k_{0}:=\min\{ k:\mu_{k}<1 \}$.
 > 1. $\mathbb{P}(\alpha(G)<k_{0}-4)\leq \exp(-4n^{2-\text{o}(1)})$
 
-> [!proof]+
+> [!proof]-
 > Let $k_{1}:=k_{0}-4$. 
 > 1. Let $Y(G)$ be the maximum size of the collection of pair-disjoint independent sets of size $k_{1}$ in $G$, i.e. $I_{1},\dots,I_{t}$ s.t. $\left| I_{i}\cap I_{j} \right|\leq 1$. Then, for $\{ X_{e} \}_{e\in {V \choose 2}}$ and $m:={n \choose 2}$ we have that $Y(G)=f_{Y}(X_{1},\dots,X_{m})$ where $f_{Y}$ is $1$-Lipschitz. Therefore, by [[Martingale|McDiarmid]], $$\mathbb{P}(\alpha(G)<k_{1})=\mathbb{P}(Y(G)=0)\leq \mathbb{P}(f_{Y}(X)\leq \mathbb{E}[f_{Y}(X)]-\mathbb{E}[f_{Y}(X)])\leq \exp \left( -\frac{4\mathbb{E}[Y]^{2}}{n^2} \right) $$
 >    Hence, it suffices to show that $\mathbb{E}[Y]=n^{2-\text{o}(1)}$.
