@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Graph Theory/Increasing and Decreasing Property.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Graph Theory/Increasing and Decreasing Property.md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Graph Theory/Increasing and Decreasing Property.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Graph Theory/Increasing and Decreasing Property.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Hypergraph.md"
+                "file": "Graph Theory/Increasing and Decreasing Property.md"
               }
             }
           }
@@ -244,7 +244,10 @@
   },
   "active": "5b9c1a41b51f24ce",
   "lastOpenFiles": [
+    "Graph Theory/Path (Graph).md",
+    "Graph Theory/Increasing and Decreasing Property.md",
     "Probability Theory/Independence.md",
+    "Graph Theory/Graph.md",
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Graph Coloring.md",
     "Graph Theory/Girth and Circumference.md",
@@ -259,7 +262,6 @@
     "Probability Theory/Expected Value.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Measure Theory/Sigma Algebra.md",
-    "Graph Theory/Graph.md",
     "Graph Theory/Sparsest Cut.md",
     "Probability Theory/Conditional Probability.md",
     "Probability Theory/Conditional Expectation.md",
@@ -268,8 +270,6 @@
     "Analysis/Gronwall Lemma.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Measure Theory/Lebesgue Integral.md",
-    "Graph Theory/Metric Embedding.md",
-    "Courses/Advanced Algorithms/Exercise 09.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",
