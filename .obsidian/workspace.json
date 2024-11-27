@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Clique.md",
+                "file": "Graph Theory/Increasing and Decreasing Property.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Increasing and Decreasing Property.md",
+                "file": "Set Theory/Intersecting Family.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4d5ec56e57395c88",
@@ -70,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Increasing and Decreasing Property.md",
+                "file": "Set Theory/Intersecting Family.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Graph Theory/Increasing and Decreasing Property.md",
                 "mode": "preview",
                 "source": true
               }
@@ -112,7 +111,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,11 +242,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5b9c1a41b51f24ce",
+  "active": "79cc111f9ba61df2",
   "lastOpenFiles": [
-    "Graph Theory/Path (Graph).md",
+    "Graph Theory/Clique.md",
     "Graph Theory/Increasing and Decreasing Property.md",
+    "Set Theory/Intersecting Family.md",
     "Probability Theory/Independence.md",
+    "Set Theory",
+    "Graph Theory/Path (Graph).md",
     "Graph Theory/Graph.md",
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Graph Coloring.md",
@@ -257,7 +260,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Algebra/Permanent.md",
     "Technical Lemmas.md",
-    "Graph Theory/Clique.md",
     "Probability Theory/Martingale.md",
     "Probability Theory/Expected Value.md",
     "Graph Theory/Erdös-Rényi Graph.md",
@@ -269,7 +271,6 @@
     "Measure Theory/Measurable Function.md",
     "Analysis/Gronwall Lemma.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
-    "Measure Theory/Lebesgue Integral.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",
@@ -279,7 +280,6 @@
     "Courses/Information Theory",
     "Information Theory",
     "Courses/Characteristic Classes",
-    "Char",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
