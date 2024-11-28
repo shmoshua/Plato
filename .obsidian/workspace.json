@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Probability Theory/Expected Value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Probability Theory/Expected Value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Variance.md"
+                "file": "Probability Theory/Expected Value.md"
               }
             }
           }
@@ -255,10 +255,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ec10bd6af99fc4de",
+  "active": "1cd8558287d918c7",
   "lastOpenFiles": [
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Probability Theory/Variance.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Measure Theory/Lebesgue Integral.md",
     "Probability Theory/Martingale.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
