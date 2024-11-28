@@ -10,11 +10,13 @@
 > Let $X:\Omega\to[0,+\infty]$ be a random variable. Then, 
 > 1. $\mathbb{E}[X]=\int_{0}^{\infty} \mathbb{P}(X\geq x) \, dx$
 > 2. if $X(\Omega)\subseteq \mathbb{Z}_{\geq 0}$, then $\mathbb{E}[X]=\sum_{k=1}^{\infty}\mathbb{P}(X\geq k)$
+> 3. if $X(\Omega)\subseteq \mathbb{Z}_{\geq 0}$, then $\mathbb{P}(X=0)\leq \frac{\text{Var}(X)}{\mathbb{E}[X^{2}]}$
 
-> [!proof]-
+> [!proof]+
 > We have that:
 > 1. Using Fubini, $$\mathbb{E}[X]=\mathbb{E}\left[ \int_{0}^{\infty} \mathbb{1}_{\{ X\geq x \}} \, dx  \right] =\int_{0}^{\infty}\mathbb{E}[\mathbb{1}_{\{ X\geq x \}}]  \, dx=\int_{0}^{\infty} \mathbb{P}(X\geq x) \, dx  $$
 > 2. We have: $$\mathbb{E}[X]=\mathbb{E}\left[ \sum_{k=1}^{\infty}\mathbb{1}_{{\{ X\geq k \}}} \right] =\sum_{k=1}^{\infty}\mathbb{P}(X\geq k)$$
+> 3. For any 
 ---
 > [!lemma] Proposition 2 
 > Let $X:\Omega\to (E,\mathcal{E})$ be a random variable. For every measurable function $f:E\to[0,+\infty]$, $$\mathbb{E}[f(X)]=\int_{E}^{} f\, d\mathbb{P}_{X} $$
