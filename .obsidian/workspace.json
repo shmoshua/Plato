@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
+                "file": "Probability Theory/Variance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
+                "file": "Probability Theory/Variance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md"
+                "file": "Probability Theory/Variance.md"
               }
             }
           }
@@ -255,11 +255,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "215049b117e502c5",
+  "active": "ec10bd6af99fc4de",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Probability Theory/Variance.md",
     "Measure Theory/Lebesgue Integral.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Probability Theory/Martingale.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Probability Theory/Expected Value.md",

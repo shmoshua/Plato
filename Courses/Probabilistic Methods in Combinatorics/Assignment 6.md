@@ -14,4 +14,5 @@
 	2. We have that: $$\begin{align}\mathbb{E}[X^{2}]&=\mathbb{E}\left[ \sum_{e\in E}^{} X_{e}+\sum_{(e,f):e \neq f}^{} X_{e}X_{f} \right] =\sum_{e\in E}^{} \frac{1}{k}+\sum_{(e,f):e \neq f} \frac{1}{k^{2}}\\&=\frac{m}{k}+\frac{m^{2}-m}{k^{2}}=\frac{m^{2}+mk-m}{k^{2}}\end{align}$$
 	
 	Therefore, $$\mathbb{P}(X=0)\leq \frac{\text{Var}(X)}{\mathbb{E}[X]^{2}}= \left( \frac{(k-1)m}{k^{2}} \right)\cdot  \frac{k^{2}}{m^{2}}=\frac{k-1}{m} $$This proves the statement.
-3. We have from Problem 1: $$\mathbb{P}(X=0)\leq \frac{\text{Var}(X)}{\mathbb{E}[X^{2}]}=$$
+3. We have from Problem 1: $$\mathbb{P}(X=0)\leq \frac{\text{Var}(X)}{\mathbb{E}[X^{2}]}=\left( \frac{(k-1)m}{k^{2}} \right) \cdot \frac{k^{2}}{m(m+k-1)}=\frac{k-1}{k+m-1}$$
+---
