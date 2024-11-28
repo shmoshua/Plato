@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 10.md",
+                "file": "Algorithms/Interval Scheduling.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 10.md",
+                "file": "Algorithms/Interval Scheduling.md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 10.md",
+                "file": "Algorithms/Interval Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 10.md",
+                "file": "Algorithms/Interval Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 10.md"
+                "file": "Algorithms/Interval Scheduling.md"
               }
             }
           }
@@ -242,10 +242,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5b9c1a41b51f24ce",
+  "active": "02c5c1c00827dd4a",
   "lastOpenFiles": [
-    "Graph Theory/Erdös-Rényi Graph.md",
     "Courses/Advanced Algorithms/Exercise 10.md",
+    "Algorithms/Interval Scheduling.md",
+    "Graph Theory/Erdös-Rényi Graph.md",
     "Analysis/Landau Notations.md",
     "Probabilistic Methods/Janson Inequality.md",
     "Set Theory/Intersecting Family.md",
@@ -270,7 +271,6 @@
     "Graph Theory/Sparsest Cut.md",
     "Probability Theory/Conditional Probability.md",
     "Probability Theory/Conditional Expectation.md",
-    "Untitled 1.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",
