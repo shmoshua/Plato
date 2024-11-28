@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Probabilistic Methods/Ramsey Number.md",
                 "mode": "preview",
                 "source": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Probabilistic Methods/Ramsey Number.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Probabilistic Methods/Ramsey Number.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Variance.md"
+                "file": "Probabilistic Methods/Ramsey Number.md"
               }
             }
           }
@@ -257,9 +257,9 @@
   },
   "active": "ec10bd6af99fc4de",
   "lastOpenFiles": [
+    "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
     "Algorithms/Interval Scheduling.md",
-    "Probability Theory/Variance.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Measure Theory/Lebesgue Integral.md",
     "Probability Theory/Martingale.md",
