@@ -58,7 +58,14 @@
 
 > [!proof]+
 > We have:
-> 1. Let $G\sim G(n,p)$ be a [[Erdös-Rényi Graph|random graph]]. 
+> 1. Let $G\sim G(n,p)$ with $G=(V,E)$ be a [[Erdös-Rényi Graph|random graph]]. We define the two random variables:
+> 	1. $Y:=$ number of $K_{4}$s in $G$.
+> 	2. $Z:=$ number of $K_{k}$s in $\overline{G}$ where $\overline{G}:=(V,{V \choose 2} \backslash E)$
+> 	
+> 	Finally, let $X:=Y+Z$. Then, $$\mathbb{E}[X]=\mathbb{E}[Y]+\mathbb{E}[Z]= {n \choose 4}p^6+{n \choose k} (1-p)^{k \choose 2}$$Hence, we have that there exists an instance where $X\leq \mathbb{E}[X]$ and by removing one vertex from each $K_{4}$ and each $K_{k}$ in $Y$ and $Z$, we have a lower bound in the Ramsey number. 
+> 	
+> 	Hence, $R(4,k)\geq n-Y - Z= n-X\geq n-{n \choose 4}p^6+{n \choose k} (1-p)^{k \choose 2}$. However, we have that: $$n-{n \choose 4}p^6+{n \choose k} (1-p)^{k \choose 2}\geq n-\frac{n^4}{4!}p^6+\frac{n^k}{k^k}(1-p)^{k^2 /2}$$Let $n=\frac{1}{4}\left( \frac{k}{\ln k} \right)^{2}$ and $p=\frac{1}{\sqrt{ n }}$. Then, we have: $$\mathbb{R}(4,k)\geq n-\frac{n}{24} +\frac{n^k}{k^k}\left( \frac{\sqrt{ n }-1}{\sqrt{ n }} \right)^{k^{2}/2}$$
+> 
 ---
 ##### Examples
 > [!h] Example 1 (Trivial Results)

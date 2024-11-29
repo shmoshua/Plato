@@ -48,8 +48,12 @@
             "id": "e8386836e3deda40",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Probabilistic Methods/Ramsey Number.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ],
@@ -175,6 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Probabilistic Methods/Ramsey Number.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,6 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Probabilistic Methods/Ramsey Number.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +218,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Probabilistic Methods/Ramsey Number.md"
+              }
             }
           }
         ]
@@ -237,6 +245,7 @@
   },
   "active": "e8386836e3deda40",
   "lastOpenFiles": [
+    "Graph Theory/Tree.md",
     "Probabilistic Methods/Ramsey Number.md",
     "2024-11-29.md",
     "Graph Theory/Increasing and Decreasing Event.md",
@@ -263,7 +272,6 @@
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Girth and Circumference.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
-    "Algebra/Permanent.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",
