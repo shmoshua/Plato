@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilistic Methods/Janson Inequality.md",
+                "file": "Probability Theory/Martingale.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "4d5ec56e57395c88",
@@ -70,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Set Theory/Intersecting Family.md",
+                "file": "Probability Theory/Martingale.md",
                 "mode": "preview",
                 "source": true
               }
@@ -112,8 +111,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+                "file": "Probability Theory/Martingale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+                "file": "Probability Theory/Martingale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md"
+                "file": "Probability Theory/Martingale.md"
               }
             }
           }
@@ -243,11 +241,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "215049b117e502c5",
+  "active": "5b9c1a41b51f24ce",
   "lastOpenFiles": [
     "Set Theory/Intersecting Family.md",
-    "Algorithms/Interval Scheduling.md",
+    "Probability Theory/Martingale.md",
+    "Probabilistic Methods/Janson Inequality.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+    "Algorithms/Interval Scheduling.md",
     "Probabilistic Methods/Ramsey Number.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Graph Theory/Tree.md",
@@ -256,13 +256,11 @@
     "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Integral.md",
-    "Probability Theory/Martingale.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Analysis/Landau Notations.md",
     "Courses/Advanced Algorithms/Exercise 10.md",
     "Graph Theory/Erdös-Rényi Graph.md",
-    "Probabilistic Methods/Janson Inequality.md",
     "Graph Theory/Graph Coloring.md",
     "Graph Theory/Spanning Tree.md",
     "Graph Theory/Clique.md",
