@@ -52,6 +52,14 @@
 ^9fbe8f
 
 ---
+> [!lemma] Theorem 3 
+> We have:
+> 1. $R(4,k)\geq \Omega((k / \ln k)^{2})$
+
+> [!proof]+
+> We have:
+> 1. Let $G\sim G(n,p)$ be a [[Erdös-Rényi Graph|random graph]]. 
+---
 ##### Examples
 > [!h] Example 1 (Trivial Results)
 > We have:

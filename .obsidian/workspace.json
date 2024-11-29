@@ -48,28 +48,12 @@
             "id": "e8386836e3deda40",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory/Variance.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b1c0dbedc72db188",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Increasing and Decreasing Event.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -191,7 +175,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilistic Methods/Ramsey Number.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +191,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilistic Methods/Ramsey Number.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,9 +212,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Probabilistic Methods/Ramsey Number.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -255,8 +235,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ec10bd6af99fc4de",
+  "active": "e8386836e3deda40",
   "lastOpenFiles": [
+    "Probabilistic Methods/Ramsey Number.md",
+    "2024-11-29.md",
+    "Graph Theory/Increasing and Decreasing Event.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
     "Algorithms/Interval Scheduling.md",
@@ -270,7 +253,6 @@
     "Graph Theory/Erdös-Rényi Graph.md",
     "Probabilistic Methods/Janson Inequality.md",
     "Set Theory/Intersecting Family.md",
-    "Graph Theory/Increasing and Decreasing Event.md",
     "Graph Theory/Graph Coloring.md",
     "Graph Theory/Spanning Tree.md",
     "Graph Theory/Clique.md",
@@ -282,8 +264,6 @@
     "Graph Theory/Girth and Circumference.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
     "Algebra/Permanent.md",
-    "Technical Lemmas.md",
-    "Measure Theory/Sigma Algebra.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",
