@@ -9,6 +9,8 @@ Then, for $X:=\sum_{e\in {[n] \choose 2}}^{}X_{e}$: $$\begin{align}\mathbb{E}[X]
 
 ---
 ##### Problem 2
+Consider $G \sim G(n,p)$ a random graph. On $[n]$, there are ${n \choose 8} 7!$ different $C_{8}$ that can happen. Let $C$ be a cycle of length $8$ in $K_{n}$. Consider $X_{C}$ as the indicator variable that $C$ is in $G$. Let $X=\sum_{C}X_{C}$. Then, $$\mathbb{E}[X]={n \choose 8}7! p^8\leq \frac{(np)^8}{8}$$Therefore, $\mathbb{P}(X\geq 1)\leq (np)^8 / 8$. 
 
+Let $Y$ be the number of edges $e\in {V \choose 2}$not taken in $G$. Then, $\mathbb{E}[Y]= {n \choose 2} (1-p)\leq  \frac{n^2}{2}(1-p)$ and $$\mathbb{P}(Y>{n \choose 2}-cn^{8/7})\leq \frac{(1-p)}{\left( 1-\frac{cn^{8/7}}{n \choose 2} \right)}$$Therefore, $$\mathbb{P}(X=0\land Y\leq cn^{8/7})\geq 1-\frac{(np)^8}{8}-\frac{1-p}{\left(1-\frac{cn^{8/7}}{n \choose 2} \right)}$$
 
 
