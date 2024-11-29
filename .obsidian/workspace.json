@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
                 "mode": "source",
                 "source": true
               }
@@ -63,6 +63,18 @@
         "type": "tabs",
         "dimension": 51.19533527696794,
         "children": [
+          {
+            "id": "3e90f4b813e7f3e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
           {
             "id": "5b9c1a41b51f24ce",
             "type": "leaf",
@@ -177,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Martingale.md"
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md"
               }
             }
           }
@@ -241,10 +253,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5b9c1a41b51f24ce",
+  "active": "3e90f4b813e7f3e6",
   "lastOpenFiles": [
-    "Set Theory/Intersecting Family.md",
     "Probability Theory/Martingale.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
+    "Set Theory/Intersecting Family.md",
     "Probabilistic Methods/Janson Inequality.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Algorithms/Interval Scheduling.md",
@@ -269,7 +282,6 @@
     "Graph Theory/Path (Graph).md",
     "Graph Theory/Graph.md",
     "Graph Theory/Hypergraph.md",
-    "Graph Theory/Girth and Circumference.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",
