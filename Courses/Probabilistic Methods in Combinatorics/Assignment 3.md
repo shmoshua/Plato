@@ -16,3 +16,10 @@ Let $Y$ be the number of edges in $G$. Then, $\mathbb{E}[Y]= {n \choose 2} p$ an
 $$\mathbb{E}[Y-X]\geq \frac{n^{8/7}}{4} - \frac{n^{8/7}}{8}=\frac{n^{8/7}}{8}$$Therefore, there exists an instance where $Y-X\geq \frac{n^{8/7}}{8}$. 
 
 
+---
+##### Problem 3
+Let $m:=\left\lfloor e^{n/(k 2^k)}\right\rfloor$. Let $S_{1},\dots,S_{m}$ be uniformly random subsets of $[n]$. For $S_{i_{1}},\dots,S_{i_{k}}$, we have that: $$\mathbb{P}\left( \bigcap_{j\in[k]}^{} S_{i_{j}}=\varnothing \right)=\left( 1-\frac{1}{2^k} \right)^n $$Therefore, we have that: $$\mathbb{P}(S_{i_{1}},\dots,S_{i_{k}}\text{ is not }k\text{-independent}) \leq 2^k\left( 1-\frac{1}{2^k} \right)^n   $$and $$\mathbb{E}[X] \leq {m \choose k} 2^k \left( 1-\frac{1}{2^k} \right) ^n\leq \frac{e^{n / 2^k}}{k!}2^k e^{-n/2^k}=\frac{2^k}{k!}<1$$Therefore, with positive probability $S_{1},\dots,S_{m}$ is $k$-independent.
+
+---
+##### Problem 4
+Let $p\in[0,1]$ and we add each vertex $v\in V$ into $S$ independently with probability $p$. Further, let $T\subseteq V$ be the set of vertices that are not in $S$ and that don't have a neighbor in $S$. Then, $$\mathbb{E}[\left| S \right| ]=np$$and we have that for each $v\in V$, $$\mathbb{P}(v\in T)=\mathbb{P}(\forall w\in \{ v \}\cup N(v):w\notin S )=(1-p)^{d(v)+1}\leq (1-p)^{1+\delta}$$Therefore, $\mathbb{E}[\left| T \right| ]\leq n(1-p)^{2}$. Notice that $S\cup T$ is a dominating set. Therefore, $$\mathbb{E}[\left| S\cup T \right| ]\leq n(p+(1-p)^{1+\delta})$$Let $p:= \log(\delta+1) / (\delta+1)$. Then, $$\mathbb{E}[\left| S\cup T \right| ]\leq n\left( \frac{\log(\delta+1)}{\delta+1}+e^{-\log(\delta+1)}\right)=n\left( \frac{\log(\delta+1)+1}{\delta+1}\right) $$Hence, with positive probability such a dominating set exists.
