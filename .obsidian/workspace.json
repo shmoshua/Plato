@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilistic Methods/Ramsey Number.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
                 "mode": "source",
                 "source": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilistic Methods/Ramsey Number.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilistic Methods/Ramsey Number.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilistic Methods/Ramsey Number.md"
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md"
               }
             }
           }
@@ -245,8 +245,9 @@
   },
   "active": "e8386836e3deda40",
   "lastOpenFiles": [
-    "Graph Theory/Tree.md",
     "Probabilistic Methods/Ramsey Number.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+    "Graph Theory/Tree.md",
     "2024-11-29.md",
     "Graph Theory/Increasing and Decreasing Event.md",
     "Probability Theory/Variance.md",
@@ -271,7 +272,6 @@
     "Graph Theory/Graph.md",
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Girth and Circumference.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",
