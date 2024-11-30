@@ -14,5 +14,5 @@ Let $G\sim G(n, 1/2)$ and let $\chi(G)$ be the chromatic number of $G$. Then, wi
 
 Then, $f$ is $1$-Lipschitz if $x,x'\in \Omega$ differ only at the $i$-th element, then the chromatic number can change at most by 1, depending on whether to color node $i$ with a new color or not. 
 
-Now, we have that: $$\mathbb{P}(\left| f(X) - \mathbb{E}[f(X)] \right| \geq)$$
+Now, we have that: $$\mathbb{P}\left( \left| f(X) - \mathbb{E}[f(X)] \right| \geq \frac{c\sqrt{ n }}{2\log n} \right)\leq 2 \exp \left( -\frac{c^{2}}{2 \log^{2}n} \right) $$
 

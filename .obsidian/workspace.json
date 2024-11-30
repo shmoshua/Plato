@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "preview",
                 "source": true
               }
@@ -123,7 +123,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md"
+                "file": "Graph Theory/Graph Coloring.md"
               }
             }
           }
@@ -253,11 +254,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3e90f4b813e7f3e6",
+  "active": "1cd8558287d918c7",
   "lastOpenFiles": [
+    "Graph Theory/Erdös-Rényi Graph.md",
     "Probability Theory/Martingale.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
-    "Graph Theory/Erdös-Rényi Graph.md",
     "Probability Theory/Expected Value.md",
     "Set Theory/Intersecting Family.md",
     "Probabilistic Methods/Janson Inequality.md",
