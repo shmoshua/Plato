@@ -10,7 +10,10 @@ Therefore, by McDiarmid again, we have that: $$\mathbb{P}(f(X)\geq (2+c)\sqrt{ n
 ---
 ##### Problem 2
 
-Let $G\sim G(n, 1/2)$ and let $\chi(G)$ be the chromatic number of $G$. Then, with the vertex exposure martingale, i.e. we have $X_{1},\dots,X_{n}$ as random variables where $X_{i}\in\Omega_{i}:=\{ 0,1 \}^{i-1}$ where $(X_{i})_{j}$ means there is an edge $\{ i,j \}\in E$. Then, let $X:=(X_{1},\dots,X_{n})$ with $\Omega:=\prod_{i=1}^{n}\Omega_{i}$ and consider $f:\Omega\to \mathbb{R}$ where $f(X)=\chi(G)$. 
+Let $G\sim G(n, 1/2)$ and let $\chi(G)$ be the chromatic number of $G$. Then, we have that: $$$$
+
+
+Then, with the vertex exposure martingale, i.e. we have $X_{1},\dots,X_{n}$ as random variables where $X_{i}\in\Omega_{i}:=\{ 0,1 \}^{i-1}$ where $(X_{i})_{j}$ means there is an edge $\{ i,j \}\in E$. Then, let $X:=(X_{1},\dots,X_{n})$ with $\Omega:=\prod_{i=1}^{n}\Omega_{i}$ and consider $f:\Omega\to \mathbb{R}$ where $f(X)=\chi(G)$. 
 
 Then, $f$ is $1$-Lipschitz if $x,x'\in \Omega$ differ only at the $i$-th element, then the chromatic number can change at most by 1, depending on whether to color node $i$ with a new color or not. 
 
