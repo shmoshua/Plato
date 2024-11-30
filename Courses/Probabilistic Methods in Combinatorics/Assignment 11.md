@@ -10,7 +10,7 @@ Therefore, by McDiarmid again, we have that: $$\mathbb{P}(f(X)\geq (2+c)\sqrt{ n
 ---
 ##### Problem 2
 
-Let $G\sim G(n, 1/2)$ and let $\chi(G)$ be the chromatic number of $G$. Then, we have that: $$$$
+Let $G\sim G(n, 1/2)$ and let $\chi(G)$ be the chromatic number of $G$. Let $k$ be the smallest positive integer s.t. $\mathbb{P}(\chi(G)\leq k)\geq \varepsilon$. 
 
 
 Then, with the vertex exposure martingale, i.e. we have $X_{1},\dots,X_{n}$ as random variables where $X_{i}\in\Omega_{i}:=\{ 0,1 \}^{i-1}$ where $(X_{i})_{j}$ means there is an edge $\{ i,j \}\in E$. Then, let $X:=(X_{1},\dots,X_{n})$ with $\Omega:=\prod_{i=1}^{n}\Omega_{i}$ and consider $f:\Omega\to \mathbb{R}$ where $f(X)=\chi(G)$. 
