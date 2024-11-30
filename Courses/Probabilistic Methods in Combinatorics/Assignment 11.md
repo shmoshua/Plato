@@ -10,11 +10,10 @@ Therefore, by McDiarmid again, we have that: $$\mathbb{P}(f(X)\geq (2+c)\sqrt{ n
 ---
 ##### Problem 2
 
-Let $G\sim G(n, 1/2)$ and let $\chi(G)$ be the chromatic number of $G$. Let $k$ be the smallest positive integer s.t. $\mathbb{P}(\chi(G)\leq k)\geq \varepsilon$. 
+Let $G\sim G(n, 1/2)$ and let $\chi(G)$ be the chromatic number of $G$. Let $k$ be the smallest positive integer s.t. $\mathbb{P}(\chi(G)\leq k)> \varepsilon$. Then, by definition, $\mathbb{P}(\chi(G)\geq k)=1-\mathbb{P}(\chi(G)\leq k-1)\geq1-\varepsilon$. 
 
-Then, with the vertex exposure martingale, i.e. we have $X_{1},\dots,X_{n}$ as random variables where $X_{i}\in\Omega_{i}:=\{ 0,1 \}^{i-1}$ where $(X_{i})_{j}$ means there is an edge $\{ i,j \}\in E$. Then, let $X:=(X_{1},\dots,X_{n})$ with $\Omega:=\prod_{i=1}^{n}\Omega_{i}$ and consider $f:\Omega\to \mathbb{R}$ where $f(X)=\chi(G)$. 
 
-Then, $f$ is $1$-Lipschitz if $x,x'\in \Omega$ differ only at the $i$-th element, then the chromatic number can change at most by 1, depending on whether to color node $i$ with a new color or not. 
+Then, with the vertex exposure martingale, i.e. we have $X_{1},\dots,X_{n}$ as random variables where $X_{i}\in\Omega_{i}:=\{ 0,1 \}^{i-1}$ where $(X_{i})_{j}$ means there is an edge $\{ i,j \}\in E$. Then, let $X:=(X_{1},\dots,X_{n})$ with $\Omega:=\prod_{i=1}^{n}\Omega_{i}$ and consider $f:\Omega\to \mathbb{R}$ where $f(X)=\min\{ |S|:S\subseteq V(G), \chi(G \backslash S) \leq k \}$. 
 
-Now, we have that: $$\mathbb{P}\left( \left| f(X) - \mathbb{E}[f(X)] \right| \geq \frac{c\sqrt{ n }}{2\log n} \right)\leq 2 \exp \left( -\frac{c^{2}}{2 \log^{2}n} \right) $$
+Then, $f$ is $1$-Lipschitz. Indeed,  from $x\in \Omega$ if we change only the $i$-th element, $|S|$ can increase by at most 1 (by adding the $i$-th node). Therefore, by McDiarmid we have that for any $\lambda>0$: $$\mathbb{P}\left( f(X)\leq \mathbb{E}[X]-\lambda \sqrt{ n }\right)\leq \exp \left( -2\lambda^{2}\right) $$ By choosing $\lambda^{2}>\frac{1}{2}\ln(1/\varepsilon)$, as $\mathbb{P}(f(X)=0)= \mathbb{P}(\chi(G)\leq k)> \varepsilon$, however, if $\mathbb{E}[f(X)]> \lambda \sqrt{ n }$, then: $$\mathbb{P}(f(X)=0)\leq \mathbb{P}(f(X)\leq \mathbb{E}[X]-\lambda \sqrt{ n } )< \varepsilon$$Therefore, we have that $\mathbb{E}[f(X)]\leq \lambda \sqrt{ n }$ and by McDiarmid: $$\mathbb{P}(f(X)\geq 2\lambda \sqrt{ n })=\mathbb{P}(f(X)\geq \mathbb{E}[X]+\lambda \sqrt{ n })\leq  \varepsilon$$Hence, with probability at least $1-\varepsilon$,  $\mathbb{P}(f(X)< 2\lambda \sqrt{ n })$ and there exists $S\subseteq V$ of size $2\lambda \sqrt{ n }$ s.t. $\chi(G \backslash S)\leq k$, i.e. $\chi(G)\leq k+\chi(G[S])$. 
 
