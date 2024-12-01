@@ -5,4 +5,10 @@ Let $\varepsilon_{n}$ be uniformly randomly chosen between $\{ +1,-1 \}$. Let $X
 
 ---
 ##### Problem 2
-By Lemma 4.4, it suffices to show that 
+Let $H$ be a bipartite graph as given. By Lemma 4.4, it suffices to show that there exists a constant $c$ s.t. any graph $G$ on $n$ vertices with at least $cn^{2-1/r}$ edges has a subset $U\subseteq V$ with $\left| U \right|=a$ and all subsets of size $r$ have at least $a+b$ common neighbors. 
+
+Then, by dependent random choice, for $d\geq 2cn^{1-1/r}$:$$\frac{d^r}{n^{r-1}}-{n \choose r}\left( \frac{a+b}{n} \right) ^r\geq(2c)^r-(a+b)^r\geq a$$for $c$ large enough that depends only on $a+b$ and $r$. Then, by Lemma 4.3 we have the statement.
+
+---
+##### Problem 3
+1. Let $G=(A\cup B,E)$ be a bipartite 
