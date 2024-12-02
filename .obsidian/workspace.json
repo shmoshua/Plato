@@ -55,6 +55,18 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "2e974047fb025e5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Smooth Function.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -129,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "markov",
+                "query": "hadamard",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +158,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -232,8 +245,9 @@
   },
   "active": "e8386836e3deda40",
   "lastOpenFiles": [
-    "Graph Theory/Metric Embedding.md",
+    "Differential Geometry/Smooth Function.md",
     "Algorithms/Multiplicative Weight Update.md",
+    "Graph Theory/Metric Embedding.md",
     "Graph Theory/Tournament.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
@@ -257,7 +271,6 @@
     "Probability Theory/Variance.md",
     "Measure Theory/Lebesgue Integral.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
