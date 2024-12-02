@@ -24,5 +24,7 @@
 
 > [!proof]+
 > Let $\phi_{i,h}:=\phi_{(i-1)H+h}$. Then, $$\left\| \phi(u)-\phi(v) \right\|_{1} =\sum_{i=1}^{L}\sum_{h=1}^{H}\left| \phi_{i,h}(u)-\phi_{i,h}(v) \right|=\sum_{i=1}^{L}\sum_{h=1}^{H}\frac{\left| d(u,S_{i,h})-d(v,S_{i,h}) \right|}{LH}\leq d(u,v)$$
-> Fix $u,v$ and let $t\in\{ 0,1,\dots,\log n \}$ and define: $$\rho_{t}:=\min\{r\geq 0: \left| B_{\leq r} (u)\right|  ,\left| B_{\leq r} (v)\right| \geq 2^t\}$$Then, $\rho_{0}=0$ and $\rho_{t}\leq \rho_{t+1}$. Hence, there exists $j$ s.t. $\rho_{j}< \frac{d(u,v)}{2}\leq \rho_{j+1}$. Let $(\widehat{\rho}_{i})_{i}$ be.a sequence where $\widehat{\rho}_{i}:= \min\left\{  \rho_{i}, \frac{d(u,v)}{2}  \right\}$. Hence, for all $i> j+1$, $$\left| \phi_{i,h}(u)-\phi_{i,h}(v) \right| $$
+> Fix $u,v$ and let $t\in\{ 0,1,\dots,\log n \}$ and define: $$\rho_{t}:=\min\{r\geq 0: \left| B_{\leq r} (u)\right|  ,\left| B_{\leq r} (v)\right| \geq 2^t\}$$Then, $\rho_{0}=0$ and $\rho_{t}\leq \rho_{t+1}$. Hence, there exists $j$ s.t. $\rho_{j}< \frac{d(u,v)}{2}\leq \rho_{j+1}$. Let $(\widehat{\rho}_{i})_{i}$ be.a sequence where $\widehat{\rho}_{i}:= \min\left\{  \rho_{i}, \frac{d(u,v)}{2}  \right\}$. 
+> 
+> We claim that $\left| \phi_{i,h}(u)-\phi_{i,h}(v) \right|\geq (\widehat{\rho}_{i}-\widehat{\rho}_{i-1}) / LH$. For all $i> j+1$, $$\left| \phi_{i,h}(u)-\phi_{i,h}(v) \right| \geq  (\widehat{\rho}_{i}-\widehat{\rho}_{i-1}) / LH = 0$$Let $i\leq j+1$. 
 ---

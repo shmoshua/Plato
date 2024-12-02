@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Algorithms/Multiplicative Weight Update.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Algorithms/Multiplicative Weight Update.md",
                 "mode": "preview",
                 "source": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Algorithms/Multiplicative Weight Update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Algorithms/Multiplicative Weight Update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md"
+                "file": "Algorithms/Multiplicative Weight Update.md"
               }
             }
           }
@@ -232,8 +232,9 @@
   },
   "active": "e8386836e3deda40",
   "lastOpenFiles": [
-    "Graph Theory/Tournament.md",
     "Graph Theory/Metric Embedding.md",
+    "Algorithms/Multiplicative Weight Update.md",
+    "Graph Theory/Tournament.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
     "Algebra/Permanent.md",
@@ -257,7 +258,6 @@
     "Measure Theory/Lebesgue Integral.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Analysis/Landau Notations.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
