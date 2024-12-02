@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,8 +100,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Tournament.md"
+                "file": "Graph Theory/Metric Embedding.md"
               }
             }
           }
@@ -231,16 +230,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ec10bd6af99fc4de",
+  "active": "e8386836e3deda40",
   "lastOpenFiles": [
-    "Algebra/Permanent.md",
     "Graph Theory/Tournament.md",
+    "Graph Theory/Metric Embedding.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
+    "Algebra/Permanent.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Probabilistic Methods/Ramsey Number.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Graph Theory/Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
     "Graph Theory/Graph Coloring.md",
     "Probability Theory/Expected Value.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
@@ -257,8 +258,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Analysis/Landau Notations.md",
-    "Courses/Advanced Algorithms/Exercise 10.md",
-    "Graph Theory/Spanning Tree.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
