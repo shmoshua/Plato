@@ -19,6 +19,9 @@
 \end{algorithmic}
 \end{algorithm}
 > ```
+> Let $m^{*}$ and $m$ be the number of mistakes $\text{MWU}$ and the best expert $e^{*}$ makes, respectively. Then, $$m\leq 2m^{*}(1+\varepsilon)+\frac{2\log n}{\varepsilon}$$
 
 > [!proof]+
-> Let $w_{i}^j$ denote the weight at the end of the $j$-th iteration. Let $a_{j}\neq S_{j}$. Then, the weighted majority was wrong and let $W:=\sum_{i=1}^{n}w_{i}^{j-1}$. Then, $$\sum_{i=1}^{n}w^j_{i}\leq (1-\varepsilon) \frac{W}{2}+\frac{W}{2}=W\left( 1-\frac{\varepsilon}{2} \right)$$
+> Let $w_{i}^j$ denote the weight at the end of the $j$-th iteration. Let $m$ be the number of mistakes our algorithm $\mathcal{A}$ makes. Let $a_{j}\neq S_{j}$. Then, the weighted majority was wrong and let $W:=\sum_{i=1}^{n}w_{i}^{j-1}$. Then, $$\sum_{i=1}^{n}w^j_{i}\leq (1-\varepsilon) \frac{W}{2}+\frac{W}{2}=W\left( 1-\frac{\varepsilon}{2} \right)$$Let the best expert $e^{*}$ make $m^{*}$ mistakes. Hence, $w_{{*}}^N=(1-\varepsilon)^{m^{*}} / n$. On the other hand, the total weight of all experts would be: $$\sum_{i=1}^{n}w_{i}^N\leq \left( 1-\frac{\varepsilon}{2} \right) ^m$$Therefore, $(1-\varepsilon)^{m^{*}} \leq n\left( 1- \varepsilon / 2 \right)^m$ and we have that $$e^{m^{*}(-\varepsilon-\varepsilon^{2})}\leq (1-\varepsilon)^{m^{*}}\leq n(1-\varepsilon / 2)^m\leq n e^{-}$$
+> $$m^{*}\log(1-\varepsilon)\leq m\log (1-\varepsilon /2) + \log n$$Then, as $-x-x^{2}\leq \log (1-x)\leq -x$ for $x<1 / 2$, $$m^{*}(-\varepsilon - \varepsilon^{2})\leq -\frac{m\varepsilon}{2}+\log n$$and $m\leq 2m^{*}(1+\varepsilon)+\frac{2\log n}{\varepsilon}$.
+---
