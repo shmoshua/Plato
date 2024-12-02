@@ -230,12 +230,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e8386836e3deda40",
+  "active": "215049b117e502c5",
   "lastOpenFiles": [
-    "Algorithms/Multiplicative Weight Update.md",
-    "Graph Theory/Tournament.md",
-    "Differential Geometry/Differential.md",
     "Technical Lemmas.md",
+    "Graph Theory/Tournament.md",
+    "Algorithms/Multiplicative Weight Update.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Function.md",
     "Algebra/Permanent.md",
     "Graph Theory/Metric Embedding.md",
