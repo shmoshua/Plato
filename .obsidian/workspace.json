@@ -158,8 +158,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -243,7 +242,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e8386836e3deda40",
+  "active": "ee568ad677adda89",
   "lastOpenFiles": [
     "Differential Geometry/Smooth Function.md",
     "Algorithms/Multiplicative Weight Update.md",

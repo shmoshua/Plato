@@ -43,13 +43,10 @@
 > ```
 > Let $m^{*}$ and $m$ be the number of mistakes $\text{RMWU}$ and the best expert $e^{*}$ makes, respectively. Then, $$\mathbb{E}[m]\leq (1+\varepsilon)m^{*}+\frac{\log n}{\varepsilon}$$
 
-> [!proof]+
+> [!proof]-
 > Let $w_{i}^j$ denote the weight at the end of the $j$-th iteration. 
 > 
-> Let $j\in [N]$. Let $A,B\subseteq[n]$ be the set of experts that output 0 and 1 respectively for day $j$. Let $F_{j}$ be the weighted fraction of wrong experts on day $j$. Then, $$\mathbb{E}[m]=\sum_{j=1}^{N}F_{j}$$However, we have that $\sum_{i=1}^{n}w_{i}^j\leq (1-\varepsilon) F_{j}+(1-F_{j})=1-\varepsilon F_{j}$. As $(1-\varepsilon)^{m^{*}} / n$ is the weight of the best expert at the end, we have that: $$e^{m^{*}(-\varepsilon-\varepsilon^{2})}\leq(1-\varepsilon)^{m^{*}}\leq n\cdot \prod_{j=1}^{N}(1-\varepsilon F_{j})\leq ne^{-\varepsilon \mathbb{E}[m]}$$and $m^{*}(-\varepsilon-\varepsilon^{2})\leq -\varepsilon \mathbb{E}[m]+\log n$. Hence, $$\mathbb{E}[m]\leq$$
+> Let $j\in [N]$. Let $A,B\subseteq[n]$ be the set of experts that output 0 and 1 respectively for day $j$. Let $F_{j}$ be the weighted fraction of wrong experts on day $j$. Then, $$\mathbb{E}[m]=\sum_{j=1}^{N}F_{j}$$However, we have that $\sum_{i=1}^{n}w_{i}^j\leq (1-\varepsilon) F_{j}+(1-F_{j})=1-\varepsilon F_{j}$. As $(1-\varepsilon)^{m^{*}} / n$ is the weight of the best expert at the end, we have that: $$e^{m^{*}(-\varepsilon-\varepsilon^{2})}\leq(1-\varepsilon)^{m^{*}}\leq n\cdot \prod_{j=1}^{N}(1-\varepsilon F_{j})\leq ne^{-\varepsilon \mathbb{E}[m]}$$and $m^{*}(-\varepsilon-\varepsilon^{2})\leq -\varepsilon \mathbb{E}[m]+\log n$. Hence, $$\mathbb{E}[m]\leq (1+\varepsilon)m^{*}+\frac{\log n}{\varepsilon}$$
 
 
-> 
- Then, the weighted majority was wrong and let $W:=\sum_{i=1}^{n}w_{i}^{j-1}$. Then, $$\sum_{i=1}^{n}w^j_{i}\leq (1-\varepsilon) \frac{W}{2}+\frac{W}{2}=W\left( 1-\frac{\varepsilon}{2} \right)$$Let the best expert $e^{*}$ make $m^{*}$ mistakes. Hence, $w_{{*}}^N=(1-\varepsilon)^{m^{*}} / n$. On the other hand, the total weight of all experts would be: $$\sum_{i=1}^{n}w_{i}^N\leq \left( 1-\frac{\varepsilon}{2} \right) ^m$$Therefore, $(1-\varepsilon)^{m^{*}} \leq n\left( 1- \varepsilon / 2 \right)^m$ and we have that $$e^{m^{*}(-\varepsilon-\varepsilon^{2})}\leq (1-\varepsilon)^{m^{*}}\leq n(1-\varepsilon / 2)^m\leq n e^{-m\varepsilon /2}$$
-> Then, $$m^{*}(-\varepsilon - \varepsilon^{2})\leq -\frac{m\varepsilon}{2}+\log n$$and $m\leq 2m^{*}(1+\varepsilon)+\frac{2\log n}{\varepsilon}$.
 ---
