@@ -1,7 +1,7 @@
 #GraphTheory #Definition 
 
 > [!definition]
-> A ***tournament*** $T_{n}$ is a directed graph obtained by orienting the edges of the [[Clique]] $K_{n}$. 
+> A ***tournament*** $T_{n}$ is a [[Graph|digraph]] obtained by orienting the edges of the [[Clique]] $K_{n}$. 
 
 ^d0027e
 
@@ -53,6 +53,9 @@
 > [!lemma] Theorem 4 (Alon)
 > Let $P(n)$ be the maximal number of Hamiltonian paths $T_{n}$ can have. Then, 
 > 1. $P(n)\leq cn^{3/2}\frac{n!}{2^{n-1}}$
+
+> [!proof]+
+> We will define a matrix $A\in \text{Mat}_{n,n}(\{ 0,1 \})$ where: $$A_{ij}=1 \iff i\to j\in T_{n}$$Then, there are precisely ${n \choose 2}$ 1s. Now, for $\sigma\in S_{n}$, $$\prod_{i=1}^{n}A_{i,\sigma(i)}=\begin{cases}1&i\to\sigma(i)\text{ for all }i\in[n]\\0&\text{otherwise}\end{cases}$$Therefore, $\prod_{i=1}^{n}A_{i,\sigma(i)}=1$ if and only if $\sigma$ defines a Hamiltonian cycle. This means that: $$\text{Per }A=\#\text{Hamiltonian cycles}$$
 
 ---
 ###### Consistent Edges

@@ -3,6 +3,7 @@
 >[!definition]
 > Let $A\in \text{Mat}_{n,n}(K)$. 
 > 1. The ***permanent*** of $A$ is defined as:$$\text{Per}(A):=\sum_{\sigma\in S_{n}}^{}\prod_{i=1}^{n}A_{i,\sigma(i)}$$
+- **Remark**: Computing $\text{Per}(A)$ is $\#P$, i.e. harder than NP-hard problems.
 - **Remark**: $\text{Per}(A)\leq \prod_{i=1}^{n}\sum_{j=1}^{n}a_{ij}$
 ---
 ##### Properties

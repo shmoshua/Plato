@@ -11,4 +11,5 @@ Then, by dependent random choice, for $d\geq 2cn^{1-1/r}$:$$\frac{d^r}{n^{r-1}}-
 
 ---
 ##### Problem 3
-1. Let $G=(A\cup B,E)$ be a bipartite 
+1. Let $G=(A\cup B,E)$ be a bipartite digraph with outdegree at least $1$. Now, let $x_{1},x_{2},\dots$ be an infinite walk where $x_{i}\to x_{i+1}\in E$. This exists as the outdegree is at least 1. However, as $G$ is finite, there exists $i<j$ s.t. $x_{i}=x_{j}$. By choosing the pair that appears first, we have that $x_{i},\dots,x_{j}$ is a directed cycle. Notice that this cannot be an odd cycle due to bipartiteness.
+2. 

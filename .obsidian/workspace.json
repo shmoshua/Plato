@@ -21,12 +21,24 @@
             }
           },
           {
+            "id": "b3a0c52f3209a8cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "77f3ac40ba63b66d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
+                "file": "Algebra/Permanent.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,13 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+                "file": "Graph Theory/Tournament.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -69,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md",
+                "file": "Algebra/Permanent.md",
                 "mode": "preview",
                 "source": true
               }
@@ -81,13 +94,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilistic Methods/Ramsey Number.md",
+                "file": "Graph Theory/Tournament.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -153,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
+                "file": "Graph Theory/Tournament.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
+                "file": "Graph Theory/Tournament.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md"
+                "file": "Graph Theory/Tournament.md"
               }
             }
           }
@@ -217,20 +231,24 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02c5c1c00827dd4a",
+  "active": "ec10bd6af99fc4de",
   "lastOpenFiles": [
+    "Algebra/Permanent.md",
+    "Graph Theory/Tournament.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+    "Probabilistic Methods/Ramsey Number.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
+    "Graph Theory/Graph.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
+    "Graph Theory/Graph Coloring.md",
     "Probability Theory/Expected Value.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
     "Probability Theory/Martingale.md",
-    "Graph Theory/Graph Coloring.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Set Theory/Intersecting Family.md",
     "Probabilistic Methods/Janson Inequality.md",
     "Algorithms/Interval Scheduling.md",
-    "Probabilistic Methods/Ramsey Number.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Graph Theory/Tree.md",
     "2024-11-29.md",
     "Graph Theory/Increasing and Decreasing Event.md",
@@ -241,11 +259,7 @@
     "Analysis/Landau Notations.md",
     "Courses/Advanced Algorithms/Exercise 10.md",
     "Graph Theory/Spanning Tree.md",
-    "Graph Theory/Clique.md",
-    "Probability Theory/Independence.md",
     "Set Theory",
-    "Graph Theory/Path (Graph).md",
-    "Graph Theory/Graph.md",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",
