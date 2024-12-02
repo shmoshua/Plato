@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Permanent.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": true
               }
@@ -112,7 +112,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Multiplicative Weight Update.md",
+                "file": "Differential Geometry/Differential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Multiplicative Weight Update.md",
+                "file": "Differential Geometry/Differential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Multiplicative Weight Update.md"
+                "file": "Differential Geometry/Differential.md"
               }
             }
           }
@@ -242,15 +243,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ee568ad677adda89",
+  "active": "1cd8558287d918c7",
   "lastOpenFiles": [
-    "Differential Geometry/Smooth Function.md",
+    "Algebra/Permanent.md",
     "Algorithms/Multiplicative Weight Update.md",
+    "Differential Geometry/Smooth Function.md",
     "Graph Theory/Metric Embedding.md",
     "Graph Theory/Tournament.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
-    "Algebra/Permanent.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Probabilistic Methods/Ramsey Number.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
