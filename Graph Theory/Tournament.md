@@ -52,7 +52,7 @@
 ---
 > [!lemma] Theorem 4 (Alon)
 > Let $P(n)$ be the maximal number of Hamiltonian paths $T_{n}$ can have. Then, 
-> 1. $P(n)\leq cn^{3/2}\frac{n!}{2^{n-1}}$
+> 1. $P(n)\leq (1+\text{o}(1))\frac{\sqrt{ \pi }}{\sqrt{ 2 }e}n^{3/2}\frac{n!}{2^{n-1}}$
 
 > [!proof]-
 > We will define a matrix $A\in \text{Mat}_{n,n}(\{ 0,1 \})$ where: $$A_{ij}=1 \iff i\to j\in T_{n}$$Then, there are precisely ${n \choose 2}$ 1s. Now, for $\sigma\in S_{n}$, $$\prod_{i=1}^{n}A_{i,\sigma(i)}=\begin{cases}1&i\to\sigma(i)\text{ for all }i\in[n]\\0&\text{otherwise}\end{cases}$$Therefore, $\prod_{i=1}^{n}A_{i,\sigma(i)}=1$ if and only if $\sigma$ defines a Hamiltonian cycle. This means that: $$\text{Per }A=\text{HC}(T_{n})$$where $\text{HC}(T_{n})$ denotes the number of hamitonian cycles in $T_{n}$. Therefore, by [[Permanent|Bregman]], $$\text{HC}(T_{n})\leq \prod_{i=1}^{n}(r_{i}!)^{1/r_{i}}$$where $r_{i}:=\sum_{j=1}^{n}A_{ij}$. As we know that $\sum_{i=1}^{n}r_{i}=n(n-1) /2$, by [[Technical Lemmas|Lemma 1]], we have that $\prod_{i=1}^{n}(r_{i}!)^{1/r_{i}}$ is maximal if $r_{i}$ is as equal as possible. By Sterling's formula, we have that: $$(k!)^{1/k}=(1+\text{o}(1)) \frac{k}{e},\quad \frac{(2k)!}{(k!)^2}=(1+\text{o}(1))\frac{2^{2k}}{\sqrt{ \pi k }}$$
