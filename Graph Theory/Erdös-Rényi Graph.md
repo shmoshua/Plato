@@ -5,6 +5,9 @@
 > 1. $\mathbb{P}(e\in E)=p$ for all $e\in {V \choose 2}$
 > 2. $\{ \mathbb{1}_{e\in E} \}_{e\in {V \choose 2}}$ are [[Independence|independent]].
 - **Remark**: Notice that $\sigma(G)=\sigma(X_{1},\dots,X_{n})$ where $X_{i}\in \{ 0,1 \}^{i-1}$ where $X_{i,j}=1$ if and only if $\{ i,j \}\in E$. Further, $X_{1},\dots,X_{n}$ are independent. 
+- **Related definition**: For a graph property $\mathcal{P}$ and $G\sim G(n,p)$, let $f_{\mathcal{P}}(n,p):=\mathbb{P}(G\text{ has }\mathcal{P})$. A ***threshold*** is a function $p_{0}:\mathbb{N}\to [0,1]$ s.t. for every $\varepsilon>0$ there exists $C>1$ with:
+	1. $f_{\mathcal{P}}(n,p)<\varepsilon$ for all $p<p_{0}/C$
+	2. $f_{\mathcal{P}}(n,p)> 1-\varepsilon$ for all $p>Cp_{0}$.
 ---
 ##### Properties
 
@@ -19,6 +22,7 @@
 > Let $G \sim G(n,p)$. 
 > 1. if $p=\text{o}(n^{-1/2})$ then $\mathbb{P}(G\text{ is triangle-free})=e^{-(1+\text{o}(1))n^3 p^3 /6}$
 
-> [!proof]+
+> [!proof]-
 > https://ocw.mit.edu/courses/18-226-probabilistic-methods-in-combinatorics-fall-2022/mit18_226_f22_lec16-17.pdf
-> 
+
+---

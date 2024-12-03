@@ -17,7 +17,6 @@ Let $S\subseteq V$ where each element is taken in $S$ with probability $p:=\sqrt
 ##### Problem 4
 Let $G=(U\cup V,E)$ be a $d$-regular bipartite graph on $n=2k$ vertices. Let $U=\{ u_{1},\dots,u_{k} \}$ and $V=\{ v_{1},\dots,v_{k} \}$. Let $A\in \{ 0,1 \}^{n,n}$ where i.e. $A_{ij}=1$ if and only if $\{ u_{i},v_{j} \}\in E$.
 
-Let $\sigma\in S_{n}$, we claim that $\prod_{i=1}^{k}A_{i\sigma(i)}=1$ if and only if $\{ \{ u_{i},v_{\sigma(i)} \} \}\subseteq E$ is a perfect matching. 
-1. (=>): We have that $A_{i\sigma(i)}=1$ for all $i\in [k]$. Therefore, 
+Let $\sigma\in S_{n}$, we see that $\prod_{i=1}^{k}A_{i\sigma(i)}=1$ if and only if $M:=\{ \{ u_{i},v_{\sigma(i)} \} \}\subseteq E$ is a perfect matching. Therefore, if $X$ is the number of perfect matchings in $G$, by Bregman: $$X=\text{Per}(A)\leq \prod_{i=1}^{k}(r_{i}!)^{1 / r_{i}} =\prod_{i=1}^{k}(d!)^{1 /d} =(d!)^{n/(2d)}$$If $n=2d$, then we have a complete bipartite graph with $d$ nodes on each side. Then, $X=(d!)=(d!)^{n / (2d)}$. 
 
-We now claim that $\text{Per}(A)=\#\text{Perfect Matchings in }G$. Let $\sigma\in S_{n}$ s.t. $\prod_{i=1}^{n}A_{i\sigma(i)}=1$. Then, we claim that 
+---
