@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Symmetry Group.md",
+                "file": "Probability Theory/Covariance.md",
                 "mode": "preview",
                 "source": true
               }
@@ -219,17 +219,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "dbc871dc8364443f",
+  "active": "ec10bd6af99fc4de",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+    "Probability Theory/Covariance.md",
+    "Algebra/Symmetry Group.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Algebra/Permanent.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
     "Technical Lemmas.md",
     "Graph Theory/Hypergraph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
-    "Algebra/Symmetry Group.md",
     "Algebra/Conjugation (Group Theory).md",
     "Graph Theory/Tournament.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
@@ -246,7 +247,6 @@
     "Probability Theory/Martingale.md",
     "Set Theory/Intersecting Family.md",
     "Probabilistic Methods/Janson Inequality.md",
-    "Algorithms/Interval Scheduling.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
