@@ -38,38 +38,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Permanent.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e8386836e3deda40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Permanent.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2e974047fb025e5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technical Lemmas.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -82,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Permanent.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra/Permanent.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra/Permanent.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra/Permanent.md"
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md"
               }
             }
           }
@@ -242,10 +218,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "215049b117e502c5",
+  "active": "77f3ac40ba63b66d",
   "lastOpenFiles": [
-    "Technical Lemmas.md",
     "Algebra/Permanent.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
+    "Technical Lemmas.md",
     "Algebra/Symmetry Group.md",
     "Algebra/Conjugation (Group Theory).md",
     "Graph Theory/Tournament.md",
@@ -260,7 +237,6 @@
     "Probabilistic Methods/Ramsey Number.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Graph Theory/Graph.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
     "Graph Theory/Graph Coloring.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Martingale.md",
