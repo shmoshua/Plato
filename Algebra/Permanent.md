@@ -20,13 +20,20 @@
 > Let $A\in \text{Mat}_{n,n}(\mathbb{Z})$ with entries in $\{ 0,1 \}$. Then, for $r_{i}:=\sum_{j=1}^{n}a_{ij}$, $$\text{Per}(A)\leq \prod_{i=1}^{n}(r_{i}!)^{1 / r_{i}} \approx \frac{1}{e^n}\prod_{i=1}^{n}r_{i}$$
 
 > [!proof]+
+> By induction, if $n=1$, then the statement is trivial. Assume $n\geq 2$. We claim that: $$\text{Per}(A)^{n \text{Per}(A)}\leq \left( \prod_{i=1}^{n}(r_{i}!)^{1 / r_{i}} \right) ^{n\text{Per}(A)} $$
+> 
+> Let $S$ be the set of permutations $\sigma\in S_{n}$ with $A_{i,\sigma(i)}=1$ for every $i\in[n]$. Then, $\text{Per}(A)=\left| S \right|$. Then, $$\begin{align}\text{Per}(A)^{n \text{Per}(A)}=\prod_{i=1}^{n}\text{Per(A)}^{\text{Per}(A)}\end{align}$$Let $i$ be fixed. We claim that $\text{Per}(A)=\frac{\sum_{k:A_{ik}=1}^{}\text{Per}(A_{ik})}{r_{i}}$ where $A_{ik}$ is $A$ without $i$-th row and $k$-th column. 
+
+> [!proof]+
 > Let $S$ be the set of permutations $\sigma\in S_{n}$ with $A_{i,\sigma(i)}=1$ for every $i\in[n]$. Then, $\text{Per}(A)=\left| S \right|$. Choose $\sigma\in S$ and $\tau\in S_{n}$ independently and uniformly at random.
 > 
 > Let $A^{(i)}$ be defined as $A$ with rows $\tau(1),\dots,\tau(i-1)$ and columns $\sigma \tau(1),\dots,\sigma \tau(i-1)$ deleted. Further, let $R_{\tau(i)}$ denote the number of ones in row $\tau(i)$ in $A^{(i)}$. As $A_{\tau(i),\sigma \tau(i)}=1$ from $\sigma\in S$, we have that $R_{\tau(i)}\geq 1$. 
 > 
 > Now, define $L:=\prod_{i=1}^{n}R_{\tau(i)}$. For a random variable $Y>0$ that takes values $a_{1},\dots,a_{s}$ with probability $p_{1},\dots,p_{s}$, we define its geometric mean $G[Y]:=\prod_{i\in[s]}^{}a_{i}^{p_{i}}=\exp \left(\mathbb{E}[\ln Y]\right)$. 
 > 
-> We claim that $\text{Per}(A)\leq G[L]$. Let $\tau$ be fixed. We use induction on the size of the matrix. By lemma 1, we may assume that $\tau(1)$ has ones in the first $r:=r_{1}$ columns. For $1\leq j\leq r$, let $t_{j}$ be defined as the permanent of $A$ with row $\tau(1)$ and $j$-th column removed. 
+> We claim that $\text{Per}(A)\leq G[L]$. Let $\tau$ be fixed. We use induction on the size of the matrix. By lemma 1, we may assume that $\tau(1)$ has ones in the first $r:=r_{1}$ columns. For $1\leq j\leq r$, let $t_{j}:=\left| \{ \sigma\in S:\sigma \tau(1)=j \} \right|$. Then, $\mathbb{P}(\sigma \tau(1)=j)=t_{j} / \text{Per}(A)$. Let $t:=(t_{1}+\dots+t_{r}) / r$. Then, $$\text{Per}(A)=rt$$
+> Then, by induction $$G\left[\left.  \prod_{i=2}^{n}R_{\tau(i)} \right| \sigma \tau(1)=j \right]=\mathbb{P}(\sigma \tau(1)=j)$$.
+> By induction, $G[R_{2},\dots,R_{n}]$
 
 - **Remark**: This bound is tight. For $n=t_{1}+\dots+t_{k}$, consider $A$ be a diagonal block matrix $\text{diag}(M_{1},\dots,M_{k})$ where $M_{i}$ is a $t_{i}\times t_{i}$-matrix of ones. Then, $$\text{Per}(A)=\prod_{i=1}^{k}t_{i}!=\prod_{i=1}^{n}(r_{i}!)^{1/ r_{i}}$$
 

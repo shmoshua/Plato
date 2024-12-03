@@ -5,6 +5,13 @@
 > Let $f:a\mapsto \frac{(a!)^{1/a}}{((a+1)!)^{1/(a+1)}}$. We will show that $f(a)<f(b-1)$ by showing $f$ is an increasing function. Let $a\geq 2$. Then, we will show that $f(a-1)<f(a)$. By taking both sides to power of $a(a+1)(a-1)$, it suffices to show that: $$ \frac{((a-1)! )^{a(a+1)}}{(a!)^{(a-1)(a+1)}}=f(a-1)^{a(a+1)(a-1)}<f(a)^{a(a+1)(a-1)}=\frac{(a!)^{(a+1)(a-1)}}{((a+1)!)^{a(a-1)}}$$
 > and this is equivalent to $((a-1)!)^{a(a+1)}((a+1)!)^{a(a-1)}<(a!)^{2(a+1)(a-1)}$. By dividing both sides by $(a!)^{2a^{2}}$, it suffices to show that: $$\frac{(a+1)^{a(a-1)}}{a^{a(a+1)}}=\frac{((a-1)!)^{a(a+1)}}{(a!)^{a(a+1)}}\cdot \frac{((a+1)!)^{a(a-1)}}{(a!)^{a(a-1)}}< \frac{1}{(a!)^{2}}$$By multiplying both sides by $a^{2a}$, $\left( \frac{a+1}{a} \right)^{a(a-1)}<\left( \frac{a^a}{a!} \right)^2$. 
 ---
+
+> [!lemma]
+> For $t_{1},\dots,t_{r}\geq0$, $$\left( \frac{t_{1}+\dots+t_{r}}{r} \right)^{t_{1}+\dots+t_{r}}\leq t_{1}^{t_{1}}\dots t_{r}^{t_{r}} $$
+
+> [!proof]-
+> This is equivalent to: $$\frac{t_{1}+\dots+t_{r}}{r}\log\left( \frac{t_{1}+\dots+t_{r}}{r} \right)\leq \frac{t_{1}\log t_{1}+\dots+t_{r}\log t_{r}}{r}$$which holds as $f(x)=x\log x$ is a convex function. Therefore,  we have that: $$\frac{t_{1}+\dots+t_{r}}{r}\log\left( \frac{t_{1}+\dots+t_{r}}{r} \right)\leq \frac{t_{1}\log t_{1}}{r}+{\frac{r-1}{r}}\left( \frac{t_{2}+\dots+t_{r}}{r-1} \right) \log \left( \frac{t_{2}+\dots+t_{r}}{r-1} \right)$$This proves the statement.
+---
 > [!lemma]
 > We have that if $k=n^{\text{o}(1)}$. 
 > 1. $\frac{{n-k \choose k-i}}{n \choose k}\sim \frac{k(k-1)\dots (k-i+1)}{n^i}$
