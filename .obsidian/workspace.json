@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
                 "mode": "source",
                 "source": true
               }
@@ -45,7 +45,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -59,7 +59,7 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -88,8 +88,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md"
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md"
               }
             }
           }
@@ -219,15 +218,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ec10bd6af99fc4de",
+  "active": "b3a0c52f3209a8cb",
   "lastOpenFiles": [
+    "Graph Theory/Erdös-Rényi Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Probability Theory/Covariance.md",
     "Algebra/Symmetry Group.md",
-    "Graph Theory/Erdös-Rényi Graph.md",
     "Algebra/Permanent.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
     "Technical Lemmas.md",
     "Graph Theory/Hypergraph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
