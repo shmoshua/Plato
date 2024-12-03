@@ -88,7 +88,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+                "file": "Graph Theory/Erdös-Rényi Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+                "file": "Graph Theory/Erdös-Rényi Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md"
+                "file": "Graph Theory/Erdös-Rényi Graph.md"
               }
             }
           }
@@ -218,10 +219,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b3a0c52f3209a8cb",
+  "active": "ec10bd6af99fc4de",
   "lastOpenFiles": [
-    "Graph Theory/Erdös-Rényi Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+    "Graph Theory/Erdös-Rényi Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Probability Theory/Covariance.md",
