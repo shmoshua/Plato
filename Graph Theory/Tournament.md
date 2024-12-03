@@ -59,6 +59,11 @@
 > 1. if $n$ is odd, i.e. $n=2k+1$: $$\text{HC}(T_{n})\leq(k!)^{(2k+1)/k}\sim \frac{k}{e}(k!)^2\sim\frac{k}{e} \frac{(2k)!}{2^{2k}} \sqrt{ \pi k }\leq\frac{\sqrt{ \pi }}{\sqrt{ 2 }e}n^{3/2}\frac{(n-1)!}{2^n}$$
 > 2. if $n$ is even, i.e. $n=2k$, then: $$\begin{align}\text{HC}(T_{n})&\leq (k!)^{k/k}((k-1)!)^{k/(k-1)}\sim (k!)\left( \frac{k-1}{e} \right)((k-1)!)\leq \frac{(k!)^2}{e}\\&\sim\frac{(2k)!}{2^{2k}}\frac{\sqrt{ \pi k }}{e}\leq \frac{\sqrt{ \pi  }}{\sqrt{ 2 e}}n^{3/2}\frac{(n-1)!}{2^n}\end{align} $$
 > 
+> Now, we prove the following claim: for any tournament $T$ on $n$ vertices, there exists a tournament $T'$ on $n+1$ vertices s.t. $\text{HC}(T')\geq P(T) / 4$.
+> 
+> Let $T$ be a tournament and let $v$ a new node. We will uniformly randomly orient the edges between $v$ and the rest of the graph. For any Hamiltonian path $P=v_{1},\dots,v_{n}$ in $T$, the probability that this extends to a Hamiltonian cycle in $T'$ is $1/4$, as we need that $v\to v_{1}$ and $v_{n}\to v$. Further, every Hamiltonian path gives rise to a different Hamiltonian cycle. Hence, $\mathbb{E}[\text{HC}(T')]=P(T) / 4$ and this proves the claim. 
+> 
+> Finally, we have that for any tournament $T$ on $n$ nodes: $$P(T)\leq 4\text{HC}(T')\leq (1+\text{o}(1))\frac{\sqrt{ \pi }}{\sqrt{ 2 }e}n^{3 / 2}\frac{n!}{2^{n-1}}$$This proves the claim for $P(n)$.
 
 ---
 ###### Consistent Edges
