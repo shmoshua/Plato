@@ -56,6 +56,8 @@
 > We have:
 > 1. $R(4,k)\geq \Omega((k / \ln k)^{2})$
 
+^0999d4
+
 > [!proof]-
 > We have:
 > 1. Let $G\sim G(n,p)$ with $G=(V,E)$ be a [[Erdös-Rényi Graph|random graph]]. We define the two random variables:
@@ -66,6 +68,9 @@
 > 	
 > 	Hence, $R(4,k)\geq n-Y - Z= n-X\geq n-{n \choose 4}p^6+{n \choose k} (1-p)^{k \choose 2}$. However, we have that: $$n-{n \choose 4}p^6-{n \choose k} (1-p)^{k \choose 2}\geq n-\frac{n^4}{4!}p^6-\frac{n^k}{k!}e^{-p{k \choose 2}}$$Let $n=\frac{1}{4}\left( \frac{k}{\ln k} \right)^{2}$ and $p=\frac{1}{\sqrt{ n }}$. Then, we have: $$\begin{align}\mathbb{R}(4,k)&\geq n-\frac{n}{24} -\frac{n^k}{k!}e^{-{k \choose 2}/\sqrt{ n }}\\&=\frac{1}{4}\cdot \frac{23}{24}\left( \frac{k}{\ln k} \right) ^{2}-\frac{1}{2^{2k}}\frac{e^k}{\ln^{2k} k}\\&\geq \frac{1}{4}\cdot \frac{23}{24}\left( \frac{k}{\ln k} \right) ^{2}-1\\&=\Omega((k / \ln k)^{2})\end{align}$$
 > 
+
+^79c6a2
+
 ---
 ##### Examples
 > [!h] Example 1 (Trivial Results)

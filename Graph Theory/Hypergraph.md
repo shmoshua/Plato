@@ -41,19 +41,20 @@
 ^cbd750
 
 > [!proof]-
-> Let $H:=(V,E)$ be a $k$-uniform hypergraph. Then, for every $v\in V$, we draw $x_{v} \sim \mathcal{U}([0,1])$ and sort the vertices into $v_{1},\dots,v_{n}$. We follow the algorithm: 
+> Let $H:=(V,E)$ be a $k$-uniform hypergraph with $m$ edges. Then, for every $v\in V$, we draw $x_{v} \sim \mathcal{U}([0,1])$ and sort the vertices into $v_{1},\dots,v_{n}$. We follow the algorithm: 
 > 1. Color $v$ red whenever possible.
 > 2. Color $v$ blue if coloring $v$ red would make some edge incident to $v$ monochromatic red.
 >   
-> Notice that by construction we have no blue edge. Assume there exists a blue edge. Then, on the first node in the blue edge, a ***conflicting pair*** is a pair of the edge it would have given a monochromatic red and the blue edge. Therefore, for any blue edge a conflicting pair exists and conversely, absence of a conflicting pair would imply that $H$ is $2$-colorable.
+> Notice that by construction we have no red edge. Assume there exists a blue edge $f\in E(H)$. Let $v$ be the first node of $f$. Then, there exists an edge $e\in E(H)$ s.t. $e \backslash\{ v \}$ is colored red, by construction. Let $(e,f)$ be called a conflicting pair. 
 > 
-> Let $R:=\left[ 0, \frac{1-p}{2} \right]$, $P:=\left[ \frac{1-p}{2},\frac{1+p}{2} \right]$, $B=\left[ \frac{1+p}{2},1 \right]$
-> 1. **Claim 1**: $\mathbb{P}(\exists e\in E:x_{v}\in R, \text{for all }v\in e)=\left( \frac{1-p}{2} \right)^k=2^{-k}(1-p)^k\leq 2^{-k}e^{-pk}$
-> 2. **Claim 2**: $\mathbb{P}(\exists e\in E:x_{v}\in B, \text{for all }v\in e)\leq 2^{-k}e^{-pk}$ by symmetry.
+> Therefore, for any blue edge a conflicting pair exists and conversely, absence of a conflicting pair would imply that $H$ is $2$-colorable.
+> 
+> Let for some $p\in[0,1]$ define $R:=\left[ 0, \frac{1-p}{2} \right)$, $P:=\left[ \frac{1-p}{2},\frac{1+p}{2} \right]$, $B=\left( \frac{1+p}{2},1 \right]$
+> 1. **Claim 1**: $\mathbb{P}(\exists e\in E:x_{v}\in R, \text{for all }v\in e)=m\left( \frac{1-p}{2} \right)^k=m2^{-k}(1-p)^k\leq m2^{-k}e^{-pk}$
+> 2. **Claim 2**: $\mathbb{P}(\exists e\in E:x_{v}\in B, \text{for all }v\in e)\leq m2^{-k}e^{-pk}$ by symmetry.
 >    
->  Now, let $(e,f)$ be a pair of vertices where $e\cap f=\{ v \}$. Then, $$\begin{align}\mathbb{P}((e,f)\text{ is a conflicting pair}|x_{v}=x)=x^{k-1}(1-x)^{k-1}\end{align}$$Therefore, as $x(1-x)\leq \frac{1}{4},$$$\mathbb{P}((e,f)\text{ is a conflicting pair}\land x_{v}\in P)=\int_{\frac{1-p}{2}}^{\frac{1+p}{2}}x^{k-1}(1-x)^{k-1}  \, dx\leq \frac{p}{4^{k-1}} $$
->  
->  In conclusion, set $m:=q 2^{k-1}$ and: $$\mathbb{P}(H\text{ has a conflicting pair})\leq m\cdot 2\cdot 2^{-k}e^{-pk}+m^{2} \frac{p}{4^{k-1}}=qe^{-pk}+q^2p$$To make this strictly less than 1, we can choose $p=\log k / k$ and $q=\frac{1}{2}\sqrt{ \frac{k}{\log k} }$. This concludes the statement.
+>  Now, let $(e,f)$ be a pair of edges where $e\cap f=\{ v \}$. Then, $$\begin{align}\mathbb{P}((e,f)\text{ is a conflicting pair}|x_{v}=x)=x^{k-1}(1-x)^{k-1}\end{align}$$Therefore, as $x(1-x)\leq \frac{1}{4}$ for all $x\in[0,1]$: $$\mathbb{P}((e,f)\text{ is a conflicting pair}\land x_{v}\in P)=\int_{\frac{1-p}{2}}^{\frac{1+p}{2}}x^{k-1}(1-x)^{k-1}  \, dx\leq \frac{p}{4^{k-1}} $$
+>  Let $q=\frac{1}{2}\sqrt{ \frac{k}{\log k} }$ and $m=q 2^{k-1}$. Then, $$\mathbb{P}(H\text{ has a conflicting pair})\leq \frac{me^{-pk}}{2^{k-1}}+\frac{m^2p}{4^{k-1}}=qe^{-pk}+q^{2}p$$To make this strictly less than 1, we can choose $p=\log k / k$. This concludes the statement.
 
 ^a8679e
 
