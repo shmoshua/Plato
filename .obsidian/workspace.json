@@ -45,7 +45,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -101,7 +101,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Multiplicative Weight Update.md",
+                "file": "Algorithms/Minimum Enclosing Circle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Multiplicative Weight Update.md",
+                "file": "Algorithms/Minimum Enclosing Circle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Multiplicative Weight Update.md"
+                "file": "Algorithms/Minimum Enclosing Circle.md"
               }
             }
           }
@@ -231,10 +231,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "63987296af6ebbec",
+  "active": "b3a0c52f3209a8cb",
   "lastOpenFiles": [
-    "Algorithms/Minimum Enclosing Circle.md",
     "Algorithms/Multiplicative Weight Update.md",
+    "Algorithms/Minimum Enclosing Circle.md",
     "Probability Theory/Expected Value.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Graph Theory/Graph.md",
