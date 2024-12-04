@@ -9,5 +9,9 @@ We will show that $p_{0}=n^{-2/3}$ is a weak threshold. Let $G\sim G(n,p)$ and $
 ---
 ##### Problem 3
 Let $X= \sum_{i=1}^{n}\varepsilon_{i}a_{i}$. Then, 
-1. $\mathbb{E}[X]= \sum_{i=1}^{n}a_{i}$ and 
-2. $\mathbb{E}[X^{2}]\leq \sum_{i=1}^{n}\left| a_{i} \right|^2=1$ therefore $\text{Var}(X)\leq 1-$
+1. $\mathbb{E}[X]= 0$ and 
+2. $\mathbb{E}[X^{2}]= \sum_{i=1}^{n}(a_{i})^2=1$ therefore $\text{Var}(X)=1$. 
+
+Then, $\mathbb{P}(\left| X-\mathbb{E}[X] \right|>1)\leq 1$
+
+

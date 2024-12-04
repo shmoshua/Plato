@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+                "file": "Probabilistic Methods/Janson Inequality.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,13 +82,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Covariance.md",
+                "file": "Graph Theory/Increasing and Decreasing Event.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+                "file": "Probabilistic Methods/Janson Inequality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+                "file": "Probabilistic Methods/Janson Inequality.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md"
+                "file": "Probabilistic Methods/Janson Inequality.md"
               }
             }
           }
@@ -218,14 +219,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "215049b117e502c5",
+  "active": "ec10bd6af99fc4de",
   "lastOpenFiles": [
+    "Graph Theory/Increasing and Decreasing Event.md",
     "Probabilistic Methods/Janson Inequality.md",
+    "Probability Theory/Covariance.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
-    "Probability Theory/Covariance.md",
     "Algebra/Symmetry Group.md",
     "Algebra/Permanent.md",
     "Technical Lemmas.md",
@@ -245,7 +247,6 @@
     "Graph Theory/Graph Coloring.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Martingale.md",
-    "Set Theory/Intersecting Family.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
