@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md",
+                "file": "Probabilistic Methods/Janson Inequality.md",
                 "mode": "preview",
                 "source": true
               }
@@ -88,8 +88,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md"
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md"
               }
             }
           }
@@ -219,8 +218,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ec10bd6af99fc4de",
+  "active": "215049b117e502c5",
   "lastOpenFiles": [
+    "Probabilistic Methods/Janson Inequality.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
@@ -246,7 +246,6 @@
     "Probability Theory/Expected Value.md",
     "Probability Theory/Martingale.md",
     "Set Theory/Intersecting Family.md",
-    "Probabilistic Methods/Janson Inequality.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
