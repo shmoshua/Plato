@@ -24,4 +24,14 @@
 ---
 ##### Examples
 > [!h] Example 1
-> For $G\sim G$
+> For $G\sim G(n,p)$, 
+> 1. If $p=\text{o}(n^{-1/2})$, $\mathbb{P}(G\text{ is triangle free})=e^{-(1+o(1))n^3p^3/6}$.
+> 2. 
+> 3. $\mathbb{P}(G\text{ is triangle free})\leq \begin{cases}e^{-cn^3p^3}&p\ll n^{-1/2}\\e^{-n^{2}p} &p> n^{-1/2}\end{cases}$
+
+> [!proof]+
+> Let $\{ S_{1},..,S_{k} \}={V \choose 3}$. Then,
+> 1. $\mu=\sum_{i\in[k]}^{}\mathbb{P}(S_{i}\subseteq R)={n \choose 3}p^3$
+> 2. $i\sim j$ happens if and only if they share one edge. Hence, $$\sum_{(i,j):i \sim j}^{}\mathbb{P}(A_{i}\cap A_{j})=\sum_{(i,j): i\sim j}^{}p^5=2{n \choose 4 }p^5$$
+> 
+> Then, if $p=o(n^{-1/2})$, by Janson, we have that: $$\mathbb{P}(G\text{ is triangle free}) \leq \exp \left( -{n \choose 3}p^3+{n \choose 4}p^5 \right) \leq \exp \left( -(1+o(1))\frac{n^3p^3}{6} \right) $$
