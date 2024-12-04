@@ -1,0 +1,12 @@
+
+##### Properties
+> [!lemma] Theorem 1 (Shearer)
+> Let $G$ be a triangle free graph on $n$ nodes with $\Delta(G)\leq d$.
+> 1. $\alpha(G)\geq c\frac{n}{d}\log d$
+
+> [!proof]+
+> Let $I$ be a uniformly randomly chosen independent set. For a vertex $v\in V$, we define the random variable: $$X_{v}:=d \cdot \mathbb{1}_{v\in I}+\left| N(v)\cap I \right| $$Then, $$X:=\sum_{v\in V}^{}X_{v}=d\left| I \right| +\sum_{v\in V}^{}\left| N(v)\cap I \right| =d\left| I \right|+\sum_{v\in I}^{}\left| d_{G}(v) \right| \leq 2d\left| I \right|  $$Therefore, $\mathbb{E}[X]\leq 2d\mathbb{E}[\left| I \right|]$. We now claim that $\mathbb{E}[{X_{v}}]\geq c \log d$ for all $v\in G$. 
+> 
+> Fix $v\in V$ and define $W:=\{ v \}\cup N(v)$. Now, let $I_{0}$ be an independent set in $V$ and assume that $I \backslash W=I_{0}$. Let $U$ denote the set of vertices in $N(v)$ which don't have a neighbor in $I_{0}$, and let $u=\left| U \right|$. Since $G$ is triangle-free, $N(v)$ is an independent set, and hence so is $U$. Now, since $I$ is independent and $I_{0}\subseteq I$,  we must have $Ic$. Furthermore, if v ∈ I then I ∩ N(v) = ∅. We see that conditioning on I \ W = I0, there are exactly 1 + 2u possibilities for I: one in which I = I0 ∪ {v}, and 2 u in which I is the union of I0 and some subset of U (each of these possibilities indeed yields an independent set by the definition of U). In the first case, the first term of xv contributes d, and in the second case, a subset of U of size i contributes i to the second term of xv. We deduce that: E[xv | I \ W = I0] = d 1 + 2u + Pu i=0 i u i  1 + 2u = d 1 + 2u + u2 u−1 1 + 2u ≥ d 2 u+1 + u 4 , where we used the identity Pu i=0 i u i  = Pu i=1 u u−1 i−1  = u2 u−1 and 1 + 2u ≤ 2 u+1 . Finally, we simply have to check that either of the terms d 2 u+1 and u 4 is large enough (i.e., larger than c log d for some small enough absolute constant c). Clearly, if u ≥ 1 4 log d, then we are done since the second term is large enough. So assume that u ≤ 1 4 log d. Then (recall our assumption 4 ≤ log d ≤ √ d) we have u + 1 ≤ 1 2 log d and hence 2 u+1 ≤ √ d, which implies that the first term is at least √ d d = √ d ≥ log
+> 
+> Then, $$\mathbb{E}[\left| I \right| ]\geq \frac{\mathbb{E}[X]}{2d}\geq \frac{cn}{2d}\log d$$

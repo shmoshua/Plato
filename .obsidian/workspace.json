@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilistic Methods/Janson Inequality.md",
+                "file": "Graph Theory/Independent Set.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilistic Methods/Janson Inequality.md",
+                "file": "Graph Theory/Independent Set.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Landau Notations.md",
+                "file": "Graph Theory/Graph.md",
                 "mode": "preview",
                 "source": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilistic Methods/Janson Inequality.md",
+                "file": "Graph Theory/Independent Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilistic Methods/Janson Inequality.md",
+                "file": "Graph Theory/Independent Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilistic Methods/Janson Inequality.md"
+                "file": "Graph Theory/Independent Set.md"
               }
             }
           }
@@ -219,11 +219,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ec10bd6af99fc4de",
+  "active": "b3a0c52f3209a8cb",
   "lastOpenFiles": [
+    "Graph Theory/Graph.md",
+    "Graph Theory/Independent Set.md",
     "Analysis/Landau Notations.md",
-    "Graph Theory/Increasing and Decreasing Event.md",
     "Probabilistic Methods/Janson Inequality.md",
+    "Graph Theory/Increasing and Decreasing Event.md",
     "Probability Theory/Covariance.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Graph Theory/Erdös-Rényi Graph.md",
@@ -244,9 +246,7 @@
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Probabilistic Methods/Ramsey Number.md",
-    "Graph Theory/Graph.md",
     "Graph Theory/Graph Coloring.md",
-    "Probability Theory/Expected Value.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",

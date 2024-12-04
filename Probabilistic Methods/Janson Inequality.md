@@ -11,7 +11,7 @@
 > [!lemma] Theorem 1 (Janson Inequality)
 > We have that:
 > 1. $\mathbb{P}(X=0)\leq \exp \left( -\mu+\frac{\Delta}{2} \right)$
-> 2. $\mathbb{P}(X=0)\leq \exp \left( -\frac{\mu^2}{2\Delta} \right)$
+> 2. $\mathbb{P}(X=0)\leq \exp \left( -\frac{\mu^2}{2\Delta} \right)$ if $\Delta\geq \mu$.
 
 > [!proof]-
 > We have that: 
@@ -21,17 +21,20 @@
 > 	2. $\mathbb{E}[\Delta_{T}]=\mathbb{E}\left[ \sum_{(i,j)\in T^{2}: i\sim j}^{}\mathbb{P}(A_{i}\cap A_{j}) \right]=q^{2}\sum_{(i,j): i\sim j}^{}\mathbb{P}(A_{i}\cap A_{j})=q^{2}\Delta$.
 > 	
 > 	Therefore, $\mathbb{E}[-\mu_{T}+\Delta_{T} / 2]=-q\mu+q^{2}\Delta / 2$. Hence, we have that if we choose $q=\frac{\mu}{\Delta}$, then: $$\mathbb{P}(X=0)\leq \exp \left( -q\mu+\frac{q^{2}\Delta}{2} \right)=\exp \left( - \frac{\mu^{2}}{\Delta}+\frac{\mu^{2}}{2\Delta}\right) =\exp \left( -\frac{\mu^{2}}{2\Delta} \right) $$where $q\leq 1$ as $\mu\leq \Delta$.
+
 ---
 ##### Examples
 > [!h] Example 1
 > For $G\sim G(n,p)$, 
 > 1. If $p=\text{o}(n^{-1/2})$, $\mathbb{P}(G\text{ is triangle free})=e^{-(1+o(1))n^3p^3/6}$.
-> 2. 
-> 3. $\mathbb{P}(G\text{ is triangle free})\leq \begin{cases}e^{-cn^3p^3}&p\ll n^{-1/2}\\e^{-n^{2}p} &p> n^{-1/2}\end{cases}$
+> 2. If $p>\frac{2^3n^{-1/2}}{\sqrt{ 3 }}$, $\mathbb{P}(G\text{ is triangle free})\leq e^{-n^2p /6}$.
 
-> [!proof]+
+> [!proof]-
 > Let $\{ S_{1},..,S_{k} \}={V \choose 3}$. Then,
 > 1. $\mu=\sum_{i\in[k]}^{}\mathbb{P}(S_{i}\subseteq R)={n \choose 3}p^3$
 > 2. $i\sim j$ happens if and only if they share one edge. Hence, $$\sum_{(i,j):i \sim j}^{}\mathbb{P}(A_{i}\cap A_{j})=\sum_{(i,j): i\sim j}^{}p^5=2{n \choose 4 }p^5$$
 > 
 > Then, if $p=o(n^{-1/2})$, by Janson, we have that: $$\mathbb{P}(G\text{ is triangle free}) \leq \exp \left( -{n \choose 3}p^3+{n \choose 4}p^5 \right) \leq \exp \left( -(1+o(1))\frac{n^3p^3}{6} \right) $$
+> 
+> For 2, if $p>n^{-1/2}$, then: $$\Delta=2{n \choose 4}p^5\geq \frac{n^4}{2^7}p^5\geq \frac{n^3p^3}{6}=\mu$$Hence, $$\mathbb{P}(G\text{ is triangle free})\leq \text{exp}\left( -\frac{\mu}{2\Delta} \right)\leq \exp \left( -\frac{n^2p}{6} \right)  $$
+---
