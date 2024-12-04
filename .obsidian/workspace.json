@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Minimum Enclosing Circle.md",
+                "file": "Courses/Advanced Algorithms/Assignment 11.md",
                 "mode": "source",
                 "source": true
               }
@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+                "file": "Courses/Advanced Algorithms/Assignment 11.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,14 +94,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Probability Theory/Conditional Expectation.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Minimum Enclosing Circle.md",
+                "file": "Courses/Advanced Algorithms/Assignment 11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Minimum Enclosing Circle.md",
+                "file": "Courses/Advanced Algorithms/Assignment 11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Minimum Enclosing Circle.md"
+                "file": "Courses/Advanced Algorithms/Assignment 11.md"
               }
             }
           }
@@ -231,11 +230,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b3a0c52f3209a8cb",
+  "active": "215049b117e502c5",
   "lastOpenFiles": [
-    "Algorithms/Multiplicative Weight Update.md",
+    "Probability Theory/Conditional Expectation.md",
     "Algorithms/Minimum Enclosing Circle.md",
+    "Courses/Advanced Algorithms/Assignment 11.md",
     "Probability Theory/Expected Value.md",
+    "Algorithms/Multiplicative Weight Update.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Independent Set.md",
@@ -243,7 +245,6 @@
     "Probabilistic Methods/Janson Inequality.md",
     "Graph Theory/Increasing and Decreasing Event.md",
     "Probability Theory/Covariance.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Algebra/Symmetry Group.md",
@@ -257,8 +258,6 @@
     "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Function.md",
     "Graph Theory/Metric Embedding.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
