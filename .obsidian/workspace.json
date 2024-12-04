@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Independent Set.md",
+                "file": "Algorithms/Minimum Enclosing Circle.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Independent Set.md",
+                "file": "Algorithms/Minimum Enclosing Circle.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,14 +82,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Algorithms/Multiplicative Weight Update.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Independent Set.md",
+                "file": "Algorithms/Minimum Enclosing Circle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Independent Set.md",
+                "file": "Algorithms/Minimum Enclosing Circle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Independent Set.md"
+                "file": "Algorithms/Minimum Enclosing Circle.md"
               }
             }
           }
@@ -221,6 +221,8 @@
   },
   "active": "b3a0c52f3209a8cb",
   "lastOpenFiles": [
+    "Algorithms/Multiplicative Weight Update.md",
+    "Algorithms/Minimum Enclosing Circle.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Independent Set.md",
     "Analysis/Landau Notations.md",
@@ -239,14 +241,12 @@
     "Algebra/Conjugation (Group Theory).md",
     "Graph Theory/Tournament.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
-    "Algorithms/Multiplicative Weight Update.md",
     "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Function.md",
     "Graph Theory/Metric Embedding.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Probabilistic Methods/Ramsey Number.md",
-    "Graph Theory/Graph Coloring.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
