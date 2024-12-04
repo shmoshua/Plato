@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Minimum Enclosing Circle.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "preview",
                 "source": true
               }
@@ -112,7 +112,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hadamard",
+                "query": "chernoff",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -158,7 +159,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -178,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md"
+                "file": "Graph Theory/Graph Coloring.md"
               }
             }
           }
@@ -242,15 +244,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0502fc73e0348ba",
+  "active": "ec10bd6af99fc4de",
   "lastOpenFiles": [
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+    "Probability Theory/Expected Value.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
+    "Probability Theory/Independence.md",
+    "Algorithms/Minimum Enclosing Circle.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
     "Courses/Advanced Algorithms/Assignment 11.md",
     "Probability Theory/Conditional Expectation.md",
-    "Algorithms/Minimum Enclosing Circle.md",
-    "Probability Theory/Expected Value.md",
     "Algorithms/Multiplicative Weight Update.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Graph Theory/Graph.md",
@@ -269,7 +272,6 @@
     "Algebra/Conjugation (Group Theory).md",
     "Graph Theory/Tournament.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
-    "Differential Geometry/Differential.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
