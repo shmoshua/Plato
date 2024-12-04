@@ -22,7 +22,7 @@ Let $p_{1},p_{2},p_{3}$ be s.t. $C(P)=C(\{ p_{1},p_{2},p_{3} \})$.
 ```pseudo
 \begin{algorithm}\caption{Randomized}\begin{algorithmic} 
 \State $w_p\gets 1 / |P|$ for all $p\in P$
-
+\For{}
 \end{algorithmic}
 \end{algorithm}
 ```
