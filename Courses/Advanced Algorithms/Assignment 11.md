@@ -25,9 +25,6 @@ We claim that $\mathbb{E}\left[ \sum_{j\in [T]}^{}F_{j} \right]\leq c\log n$. Ot
 
 We have: $$\mathbb{E}[F_{j}]\leq\frac{3}{r+1}\left( \sum_{p\in P}^{}w_{p}^{j-1} \right)^{2}=\frac{3n^{2}}{r+1}\prod_{\ell=1}^{j-1}(1+\varepsilon F_{\ell})^{2}$$
 
-$$\prod_{i=1}^{j-1}(1+\varepsilon F_{\ell})\leq \frac{1}{n}$$
-
-$(x-1)\mathbb{E}[T]\geq -6\log n$
 
 ---
 
