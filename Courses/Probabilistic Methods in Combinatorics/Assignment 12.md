@@ -16,4 +16,6 @@ For each $\mathcal{F}_{i}$, let $\mathcal{G}_{i}:=\{ X\subseteq[n]:  \exists F\i
 $$\mathbb{P}(\mathcal{F}_{1}\cup\dots \cup \mathcal{F_{k}})\leq \mathbb{P}(\mathcal{G}_{1}\cup\dots \cup \mathcal{G_{k}})=1-\mathbb{P}(\mathcal{G}_{1}^c\cap\dots \cap \mathcal{G}_{k}^c)\leq 1-\frac{1}{2^k}$$where $\mathbb{P}(\mathcal{G}_{i})\leq 1/2$ follows from the lecture. This proves the statement.
 ---
 ##### Problem 4
-Let $G\sim G(2k, 1 / 2)$. For $i\in\{ k,\dots,2k-1 \}$, let $A_{i}$ be the event that there exists a node $x\in V(G)$ with degree $i$. Then, $$\mathbb{P}(\exists x\in V(G):d(x)=i)\leq \sum_{x\in V(G)}\mathbb{P}(d(x)=i)=\sum_{x\in V(G)}{}$$
+Let $G\sim G(2k, 1 / 2)$. For $v\in V(G)$, we have that: $$\mathbb{P}(d(v)\leq k-1)=\frac{1}{2^{2k-1}}\sum_{i=0}^{k-1}{2k-1 \choose i}=\frac{1}{2^{2k-1}}2^{2k-2}=\frac{1}{2}$$where $d(v)\leq k-1$ is a decreasing event for all $v\in V$. Hence, by correlation identity:$$\mathbb{P}(\Delta(G)\leq k-1)\geq \frac{1}{2^{2k}}$$which proves the statement.
+
+---
