@@ -13,4 +13,7 @@ For $x\in[n]$ and $i,j\in[k]$ with $i\neq j$, $$\mathbb{P}(x\notin S_{i}\cap S_{
 We first let $\mathbb{P}$ be the uniform probability measure on $2^{[n]}$. Then, for any $\mathcal{F}\subseteq 2^{[n]}$, $\mathbb{P}(\mathcal{F})=\left| \mathcal{F} \right| / 2^n$. 
 
 For each $\mathcal{F}_{i}$, let $\mathcal{G}_{i}:=\{ X\subseteq[n]:  \exists F\in \mathcal{F}_{i},F\subseteq X\}\supseteq \mathcal{F_{i}}$. Then, $\mathcal{G}_{i}$ is increasing as for $X\subseteq Y$, if there exists $F\in \mathcal{F}_{i}$ with $F\subseteq X\subseteq Y$, then $Y\in \mathcal{G_{i}}$. Further, $\mathcal{G_{i}}$ is an intersecting family as for $A,B\in \mathcal{G}_{i}$, there exists $F,F'\in\mathcal{F_{i}}$ with $F\subseteq A$ and $F'\subseteq B$ where $F\cap F'\neq \varnothing$. Hence, $\mathcal{G}_{i}^c$ is decreasing and by correlation inequalities: 
-$$\mathbb{P}(\mathcal{F}_{1}\cup\dots \cup \mathcal{F_{k}})\leq \mathbb{P}(\mathcal{G}_{1}\cup\dots \cup \mathcal{G_{k}})=1-\mathbb{P}(\mathcal{G}_{1}^c\cap\dots \cap \mathcal{F}_{k}^c)\leq 1-\frac{1}{2^k}$$
+$$\mathbb{P}(\mathcal{F}_{1}\cup\dots \cup \mathcal{F_{k}})\leq \mathbb{P}(\mathcal{G}_{1}\cup\dots \cup \mathcal{G_{k}})=1-\mathbb{P}(\mathcal{G}_{1}^c\cap\dots \cap \mathcal{G}_{k}^c)\leq 1-\frac{1}{2^k}$$where $\mathbb{P}(\mathcal{G}_{i})\leq 1/2$ follows from the lecture. This proves the statement.
+---
+##### Problem 4
+Let $G\sim G(2k, 1 / 2)$. For $i\in\{ k,\dots,2k-1 \}$, let $A_{i}$ be the event that there exists a node $x\in V(G)$ with degree $i$. Then, $$\mathbb{P}(\exists x\in V(G):d(x)=i)\leq \sum_{x\in V(G)}\mathbb{P}(d(x)=i)=\sum_{x\in V(G)}{}$$
