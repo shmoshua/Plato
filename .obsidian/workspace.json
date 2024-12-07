@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,14 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Multiplicative Weight Update.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
                 "mode": "preview",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md"
+                "file": "Graph Theory/Graph Coloring.md"
               }
             }
           }
@@ -254,16 +255,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "215049b117e502c5",
+  "active": "dbc871dc8364443f",
   "lastOpenFiles": [
-    "Set Theory/Intersecting Family.md",
-    "Graph Theory/Increasing and Decreasing Event.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
-    "Probability Theory/Martingale.md",
-    "Graph Theory/Graph.md",
-    "Probabilistic Methods/Janson Inequality.md",
+    "Algorithms/Multiplicative Weight Update.md",
     "Graph Theory/Graph Coloring.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
+    "Probability Theory/Martingale.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
+    "Set Theory/Intersecting Family.md",
+    "Graph Theory/Increasing and Decreasing Event.md",
+    "Graph Theory/Graph.md",
+    "Probabilistic Methods/Janson Inequality.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Independence.md",
     "Algorithms/Minimum Enclosing Circle.md",
@@ -271,7 +273,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
     "Courses/Advanced Algorithms/Assignment 11.md",
     "Probability Theory/Conditional Expectation.md",
-    "Algorithms/Multiplicative Weight Update.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Graph Theory/Independent Set.md",
     "Analysis/Landau Notations.md",

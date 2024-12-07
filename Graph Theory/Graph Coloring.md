@@ -51,3 +51,10 @@
 ![[Girth and Circumference#^4ba9e0]]
 ![[Girth and Circumference#^819748|p]]
 ---
+> [!lemma] Theorem 4 (Chromatic Inequality)
+> Let $G=(V,E)$ be a graph and for any $S\subseteq V$, we let $\alpha(S)$ denote the size of the biggest independent set. Further, $\rho(G):=\max_{S\subseteq V}|S| / \alpha(S)$. Then, $$\rho(G)\leq \chi(G)\leq \text{O}(\log n)\cdot \rho(G)$$
+
+> [!proof]+
+> Let $\chi(G)=:k$ and $c:V\to[k]$ be a proper $k$-coloring of $G$. Let $S\subseteq V$. Then, we can partition $S$ into $S_{1},\dots,S_{k}$ by the colors and each of them form an independent set. Therefore, there is $i$ with $\left| S_{i} \right|\geq \left| S \right| / k$ and: $$\frac{\left| S \right|}{\chi(G)}\leq \left| S_{i} \right| \leq \alpha(S) $$which proves the lower bound.
+> 
+> For the upper bound, 

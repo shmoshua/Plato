@@ -9,3 +9,6 @@ Therefore, we may wlog consider $S\in\{ 0,1 \}^{2n}$ where $S_{i}=1$ if and only
 
 
 ---
+##### Problem 2
+We have that:
+1. 
