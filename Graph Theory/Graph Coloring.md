@@ -54,7 +54,23 @@
 > [!lemma] Theorem 4 (Chromatic Inequality)
 > Let $G=(V,E)$ be a graph and for any $S\subseteq V$, we let $\alpha(S)$ denote the size of the biggest independent set. Further, $\rho(G):=\max_{S\subseteq V}|S| / \alpha(S)$. Then, $$\rho(G)\leq \chi(G)\leq \text{O}(\log n)\cdot \rho(G)$$
 
-> [!proof]+
+> [!proof]-
 > Let $\chi(G)=:k$ and $c:V\to[k]$ be a proper $k$-coloring of $G$. Let $S\subseteq V$. Then, we can partition $S$ into $S_{1},\dots,S_{k}$ by the colors and each of them form an independent set. Therefore, there is $i$ with $\left| S_{i} \right|\geq \left| S \right| / k$ and: $$\frac{\left| S \right|}{\chi(G)}\leq \left| S_{i} \right| \leq \alpha(S) $$which proves the lower bound.
 > 
-> For the upper bound, 
+> For the upper bound, consider the following greedy algorithm: 
+> ```pseudo
+> \begin{algorithm} \caption{Greedy$(G)$}\begin{algorithmic}
+> \State $S_{0}\gets V$, $i\gets 0$
+> \For{$S_{i}\neq \varnothing$}
+> \State $V_{i}\gets$ maximum independent set of $S_{i}$.
+> \State $S_{i+1}\gets S_{i} \backslash V_{i}$
+> \State $i\gets i+1$
+\EndFor
+> \Return $(V_{1},\dots,V_{k})$
+\end{algorithmic}
+\end{algorithm}
+> ```
+> Then, firstly the algorithm returns a valid coloring as $V_{1},\dots,V_{k}$ are all independent sets and because it holds that $V_{1}\cup\dots \cup V_{k}=V$. Therefore, it suffices to show that $k\leq \text{O}(\log n)\rho(G)$. 
+> 
+> We have that $\rho(G)\geq |S_{i}| / \left| V_{i} \right|$ and $\left| V_{i} \right|\geq \left| S_{i} \right| / \rho(G)$. Therefore, $$\left| S_{i+1} \right|\leq \left| S_{i} \right| -\left| V_{i} \right| \leq\left| S_{i} \right| \left( 1-\frac{1}{\rho(G)} \right) $$By induction we have that: $$\left| S_{j} \right| \leq n\left( 1-\frac{1}{\rho(G)} \right) ^j\leq ne^{-j / \rho(G)}$$In other words, $\left| S_{j} \right|=0$ for all $j>\rho(G)\log n$ which proves the statement.
+---

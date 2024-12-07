@@ -11,4 +11,4 @@ Therefore, we may wlog consider $S\in\{ 0,1 \}^{2n}$ where $S_{i}=1$ if and only
 ---
 ##### Problem 2
 We have that:
-1. 
+1. We will show that w.h.p. $\alpha(G)\leq 10 \log_{2}n$. Let $k> 10 \log_{2}n$. Then, $$\mathbb{P}()$$
