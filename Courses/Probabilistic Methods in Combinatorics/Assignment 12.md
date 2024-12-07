@@ -6,7 +6,7 @@ Let for any edge $e\in E(G)$, $A_{e}$ be the event that $e\nsubseteq S$. Then, n
 
 ---
 ##### Problem 2
-For $x\in[n]$ and $i,j\in[k]$ with $i\neq j$, $$\mathbb{P}(x\notin S_{i}\cap S_{j})=1-\mathbb{P}(x\in S_{i}\cap S_{j})=1-\frac{1}{n}$$As these events are independent over all $x\in [n]$, $$\mathbb{P}(S_{i}\cap S_{j}=\varnothing)=\mathbb{P}(\forall x\in[n]:x\notin S_{i}\cap S_{j})=\left( 1-\frac{1}{n} \right) ^n\geq \left( 1-\frac{1}{e} \right) $$Further, these are all decreasing events. For $T_{i}\subseteq S_{i}$ and $T_{j}\subseteq S_{j}$, if $S_{i}\cap S_{j}=\varnothing$ then $T_{i}\cap T_{j}=\varnothing$. Therefore, by correlation inequality: $$\mathbb{P}\left(\forall \{ i,j \}\in {[k] \choose 2}:S_{i}\cap S_{j}=\varnothing\right)\geq \prod_{\{ i,j \}\in {[k] \choose 2}}^{}\mathbb{P}(S_{i}\cap S_{j}=\varnothing)\geq \left( 1-\frac{1}{e} \right) ^{k \choose 2}$$
+For $x\in[n]$ and $i,j\in[k]$ with $i\neq j$, $$\mathbb{P}(x\notin S_{i}\cap S_{j})=1-\mathbb{P}(x\in S_{i}\cap S_{j})=1-\frac{1}{n}$$As these events are independent over all $x\in [n]$, $$\mathbb{P}(S_{i}\cap S_{j}=\varnothing)=\mathbb{P}(\forall x\in[n]:x\notin S_{i}\cap S_{j})=\left( 1-\frac{1}{n} \right) ^n \leq \frac{1}{e}$$and we have that $\mathbb{P}(S_i\cap S_{j}\neq \varnothing)\geq 1-\frac{1}{e}$. Further, these are all increasing events. For $T_{i}\subseteq S_{i}$ and $T_{j}\subseteq S_{j}$, if $T_{i}\cap T_{j}\neq\varnothing$ then $S_{i}\cap S_{j}\neq\varnothing$. Therefore, by correlation inequality: $$\mathbb{P}\left(\forall \{ i,j \}\in {[k] \choose 2}:S_{i}\cap S_{j}\neq\varnothing\right)\geq \prod_{\{ i,j \}\in {[k] \choose 2}}^{}\mathbb{P}(S_{i}\cap S_{j}\neq\varnothing)\geq \left( 1-\frac{1}{e} \right) ^{k \choose 2}$$
 
 ---
 ##### Problem 3

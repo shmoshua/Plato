@@ -124,8 +124,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Increasing and Decreasing Event.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Increasing and Decreasing Event.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Increasing and Decreasing Event.md"
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md"
               }
             }
           }
@@ -255,13 +254,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "cf3e657d705bc706",
+  "active": "215049b117e502c5",
   "lastOpenFiles": [
     "Set Theory/Intersecting Family.md",
+    "Graph Theory/Increasing and Decreasing Event.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Probability Theory/Martingale.md",
     "Graph Theory/Graph.md",
-    "Graph Theory/Increasing and Decreasing Event.md",
     "Probabilistic Methods/Janson Inequality.md",
     "Graph Theory/Graph Coloring.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
