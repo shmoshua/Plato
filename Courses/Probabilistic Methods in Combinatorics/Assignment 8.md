@@ -11,4 +11,5 @@ Therefore, we may wlog consider $S\in\{ 0,1 \}^{2n}$ where $S_{i}=1$ if and only
 ---
 ##### Problem 2
 We have that:
-1. We will show that w.h.p. $\alpha(G)\leq 10 \log_{2}n$. Let $k> 10 \log_{2}n$. Then, $$\mathbb{P}()$$
+1. We will show that w.h.p. $\alpha(G)\leq 10 \log_{2}n$. Let $k=\left\lceil10 \log_{2}n\right\rceil$. Then, $$\begin{align}\mathbb{P}\left(\exists S\in {V \choose k}:S\text{ is independent}\right) &\leq{n \choose k} \frac{1}{2^{k \choose 2}}\leq \frac{e^kn^k}{k^k}2^{-k(k-1) /2}=\left( \frac{e n}{k 2^{-(k-1)/2}} \right)^k\\&=\left( \frac{\sqrt{ 2 }e n}{k 2^{k/2}} \right)^k\leq\left( \frac{\sqrt{ 2 }e}{10  n^4\log_{2}n} \right)^k=o(1)\end{align} $$Hence, we have that w.h.p $\chi(G)\geq n / \alpha(G)\geq n/10 \log_{2} n$.
+2. Let $S$ be a set of $m\geq 100\ln n$ vertices. Then, $$\mathbb{P}\left( \left| E(G[S]) \right|> \frac{2}{3}{m \choose 2} \right)\leq \exp \left( -\frac{m^{2}}{36} \right)\leq $$
