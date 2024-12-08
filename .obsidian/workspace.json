@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exam Practice.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
+                "file": "Algorithms/Approximation Algorithm.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exam Practice.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -113,24 +113,12 @@
             }
           },
           {
-            "id": "cf3e657d705bc706",
+            "id": "a46ffed0cc83397d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Increasing and Decreasing Event.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "40aee0dbf2314bba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Algorithms/Approximation Algorithm.md",
                 "mode": "preview",
                 "source": true
               }
@@ -202,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exam Practice.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exam Practice.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exam Practice.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -266,24 +254,25 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "215049b117e502c5",
+  "active": "c0bfd53bedf16b8d",
   "lastOpenFiles": [
     "Algorithms/FPTAS.md",
-    "Algorithms/Bin-Packing.md",
     "Algorithms/Knapsack.md",
-    "Courses/Advanced Algorithms/Exam Practice.md",
     "Graph Theory/Increasing and Decreasing Event.md",
+    "Graph Theory/Graph.md",
+    "Algorithms/Approximation Algorithm.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Courses/Advanced Algorithms/Exam Practice.md",
+    "Algorithms/Bin-Packing.md",
     "Set Theory/Intersecting Family.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 9.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
     "Courses/Measure Theory/Sheet 10.md",
     "Graph Theory/Graph Coloring.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
     "Algorithms/Multiplicative Weight Update.md",
     "Probability Theory/Martingale.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
-    "Graph Theory/Graph.md",
     "Probabilistic Methods/Janson Inequality.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Independence.md",
@@ -293,7 +282,6 @@
     "Probability Theory/Conditional Expectation.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Graph Theory/Independent Set.md",
-    "Analysis/Landau Notations.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",

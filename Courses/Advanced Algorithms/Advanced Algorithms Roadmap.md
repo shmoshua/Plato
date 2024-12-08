@@ -1,6 +1,8 @@
 #Algorithms #Roadmap 
 
 ### 1. Basics of Approximation Algorithms
+
+![[Approximation Algorithm]]
 In trying to approximate an algorithm there are two approaches: Greedy and Rounding
 
 ---
