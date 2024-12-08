@@ -59,7 +59,7 @@
 
 ^c04d44
 
-> [!proof]+
+> [!proof]-
 > Modulo reindexing, we may assume that $s_{1}\geq s_{2}\geq\dots\geq s_{n}$ is decreasing. Assume that $\text{SortedFirstFit}$ needs $k$ bins $B_{1},\dots,B_{k}$. Further, let $r$ be the number of items that are larger than $s_{i}>\frac{1}{2}$. Then, observe that all such items need to be in separate bins. 
 > 
 > 1. **Case 1: $r\geq \frac{2}{ 3} k$** 
@@ -67,17 +67,22 @@
 >  2. **Case 2: $r< \frac{2}{3}k$**
 >     Let's denote the first $k_{1}:=\left\lceil  \frac{2k}{3} \right\rceil-1$ bins early and the other $k_{2}:=k-k_{1}$ bins late. Then, $s_{1},\dots,s_{r}$ fit into early bins so all items in the late bins have size at most $\leq \frac{1}{2}$. In particular, every late bin should contain at least two items, except maybe the last bin. 
 >     
->     Therefore, there exists at least $2(k_{2}-1)+1=2k-2\left\lceil  \frac{2k}{3} \right\rceil+1>k_{1}-1$ items in the late bins. 
->     
->    Then, in the output of SFF, we have $n_{1}$ bins that are more full than 1/2 and 
+>     Therefore, there exists at least $2(k_{2}-1)+1=2k-2\left\lceil  \frac{2k}{3} \right\rceil+1>k_{1}-1$ items in the late bins, i.e. $2(k_{2}-1)+1\geq k_{1}$. Hence, we have that: $$k_{\text{OPT}}\geq S>k_{1}=\left\lceil \frac{2k}{3}\right\rceil-1 $$and $k_{\text{OPT}}\geq \frac{2k}{3}$, which proves the statement.
 
 ^3e5c2c
 
-- **Remark**: It is $\mathcal{NP}$-hard to get a better factor than $3 / 2$.
 ---
-##### FPTAS
+> [!lemma] Theorem 3 
+> For $0<\varepsilon<1/2$, finding an $(1+\varepsilon)$-approximation algorithm for bin packing is NP-hard.
 
-> [!lemma] Proposition 3
+> [!proof]-
+> We will reduce the partition problem to bin packing. Let $\mathcal{S}=\{ x_{1},\dots,x_{n}\}$ and $X=\sum_{i=1}^{n}x_{i}$. Define a bin packing instance with $p_{i}:=2x_{i} / X$. Since $S=\sum_{i=1}^{n}2x_{i}/X=2\leq k_{\text{OPT}}$. 
+> 
+> However, as we have that we can bipartition $\mathcal{S}$ if and only if $k_{\text{OPT}}=2$. Hence, if we have a $(1+\varepsilon)$-approximation algo $\mathcal{A}$ for $0<\varepsilon<1/2$ then if $k_{\text{OPT}}=2$ then $\mathcal{A}(I)=2$ too. Hence, we can solve the partition problem in polynomial time.
+
+---
+
+> [!lemma] Proposition 4
 > With the assumptions that:
 > 1. All items have size at least $\varepsilon$ for some $\varepsilon>0$.
 > 2. There are only $k$ possible sizes.
@@ -99,7 +104,7 @@
 ^5e1d26
 
 ---
-> [!lemma] Proposition 4
+> [!lemma] Proposition 5
 > With the assumption that:
 > 1. All items have size at least $\varepsilon$ for some $\varepsilon>0$,
 > ```pseudo
@@ -137,7 +142,7 @@
 ^697fb8
 
 ---
-> [!lemma] Theorem 5 (FPTAS)
+> [!lemma] Theorem 6 (FPTAS)
 >  ```pseudo
 >    \begin{algorithm} \caption{FPTAS-BinPacking($I,\varepsilon$)} 
 >    \begin{algorithmic}
