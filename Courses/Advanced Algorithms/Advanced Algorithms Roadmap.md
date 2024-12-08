@@ -35,30 +35,12 @@
 - **Remark**: It is clear that $\max_{i}p_{i}\leq p(\text{OPT}(I))\leq n\cdot \max_{i}p_{i}$. 
 ---
 ![[Knapsack#^13ab4a]]
+![[Knapsack#^f19e50|p]]
 
 ---
 ![[Knapsack#^532344]]
 ![[Knapsack#^c811f3|p]]
 
----
-![[Knapsack#^fca662]]
-- **Remark**: As any $i\in \mathcal{S}$ with $s_{i}>B$ cannot be chosen, wlog we assume that $s_{i}\leq B$.  
-- **Remark**: It is clear that $\max_{i}p_{i}\leq p(\text{OPT}(I))\leq n\cdot \max_{i}p_{i}$. 
----
-![[Knapsack#^13ab4a]]
-
----
-![[Knapsack#^532344]]
-![[Knapsack#^c811f3|p]]
-
----
-
-![[Knapsack#^675511]]
-![[Knapsack#^13ab4a]]
-
----
-![[Knapsack#^532344]]
-![[Knapsack#^c811f3|p]]
 
 ---
 ##### 1.2.3 Bin-Packing

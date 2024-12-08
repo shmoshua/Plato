@@ -13,22 +13,41 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Dynamic Programming)
-> We define the DP as $\text{DP}[i,p]:=\min_{{J\subseteq[i]},p(J)\geq p}s(J)$ for all $i\in[n]$ and $p\in[p_{\max}]$.  Then, $$\text{DP}[i,p]:=\min\{ \text{DP}[i-1,p],\text{DP}[i-1,p-p_{i}]+s_{i} \}$$solves the Knapsack problem in $O(n^2p_{\max})$.
+> We define the DP as $\text{DP}[i,p]:=\min_{{J\subseteq[i]},p(J)\geq p}s(J)$ for all $i\in[n]$ and $p\in[np_{\max}]$.  Then, $$\text{DP}[i,p]=\min\{ \text{DP}[i-1,p],\text{DP}[i-1,p-p_{i}]+s_{i} \}$$solves the Knapsack problem in $O(n^2p_{\max})$.
 
 ^13ab4a
 
-> [!proof]+
+> [!proof]-
+> To show correctness, let $J\in\arg\min_{{J\subseteq[i]},p(J)\geq p}s(J)$. 
+> 1. If $i\notin J$ then $J\in\arg\min_{{J\subseteq[i-1]},p(J)\geq p}s(J)$. Otherwise, let $J'\subseteq[i-1]$ with $p(J')\geq p$ with $s(J')<s(J)$. Then, it is a contradiction to the definition of $J$. Hence, $\text{DP}[i,p]=s(J)=\text{DP}[i-1,p]$.
+> 2. If $i\in J$ then $J \backslash\{ i \}\in \arg\min_{{J\subseteq[i-1]},p(J)\geq p-p_{i}}s(J)$. Therefore, $\text{DP}[i,p]=s(J\backslash \{ i \})+s_{i}=\text{DP}[i-1,p-p_{i}]+s_{i}$.
 > 
+> For the runtime, as there are $O(n^{2}p_{\max})$ entries with each entry computable in $O(1)$ time complexity, we have the statement.
+
+^f19e50
+
 ---
-> [!lemma] Theorem 2 (Rounding)
-> The rounding algorithm works as follows:
-> 1. Let $k:=\max(\varepsilon \cdot p_{\max} / n,1)$ and round down all profits to multiples of $k$, i.e. $\tilde{p}_{i}:=k \left\lfloor p_{i} / k\right\rfloor$.
-> is a $(1+\varepsilon)$-[[Approximation Algorithm]] in runtime $O(n^3 / \varepsilon)$.
+> [!lemma] Theorem 2 (FPTAS Rounding)
+> Consider the algorithm: 
+> ```pseudo
+> \begin{algorithm}\caption{Rounding($I,\varepsilon$)}
+> \begin{algorithmic}
+> \State $k\gets \max\{\left\lfloor\varepsilon p_{\max}/n\right\rfloor,1\}$
+> \State $p_{i}'\gets k\left\lfloor p_{i }/k\right\rfloor$ and call the new instance $I'$.
+> \Return $\text{DP}(I')$
+> \end{algorithmic}
+> \end{algorithm}
+> ```
+> Then, $\text{Rounding}$ is a [[FPTAS]].
 
 ^532344
 
 > [!proof]-
-> Let $\text{OPT}(I')$ be the new setting. Then, $p(\text{OPT}(I'))\geq p'(\text{OPT}(I'))\geq p'(J)$ for any feasible $J\subseteq \mathcal{S}$, i.e. $s(J)\leq B$. As $\text{OPT}(I)$ is a feasible solution, we have that: $$p(\text{OPT}(I'))\geq p'(\text{OPT}(I))= \sum_{i\in \text{OPT}(I)}^{}p_{i}'\geq \sum_{i\in \text{OPT}(I)}^{}(p_{i}-k)\geq p(\text{OPT}(I))-k\cdot n$$Then, $p(\text{OPT}(I'))\geq p(\text{OPT}(I))-\varepsilon \cdot p_{\max}=(1-\varepsilon)p(\text{OPT}(I))$
+> We have that: 
+> 1. If $\varepsilon p_{\max} / n\leq 1$, then $p_{max}\leq n / \varepsilon$ and by Theorem 1, we have a $O(n^3 / \varepsilon)$ solution. 
+> 2. If $\varepsilon p_{max} / n>1$, then $k=\left\lfloor \varepsilon p_{\max} / n\right\rfloor$ and $p(\text{OPT}(I'))\geq p'(\text{OPT}(I'))\geq p'(J)$ for any feasible $J\subseteq[n]$, i.e. $s(J)\leq B$. As $\text{OPT}(I)$ is a feasible solution, we have that: $$p(\text{OPT}(I'))\geq p'(\text{OPT}(I))= \sum_{i\in \text{OPT}(I)}^{}p_{i}'\geq \sum_{i\in \text{OPT}(I)}^{}(p_{i}-k)\geq p(\text{OPT}(I))-k\cdot n$$Then, $p(\text{OPT}(I'))\geq p(\text{OPT}(I))-\varepsilon \cdot p_{\max}=(1-\varepsilon)p(\text{OPT}(I))$. 
+>    
+>    Further, the runtime is given as $O(n^{2}\cdot p_{\max} / k)=O(n^3 / \varepsilon)$.
 
 ^c811f3
 
