@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Bin Packing.md",
+                "file": "Algorithms/Minimum Vertex Cover.md",
                 "mode": "source",
                 "source": true
               }
@@ -50,14 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/DNF Counting.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -112,8 +112,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/DNF Counting.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/DNF Counting.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/DNF Counting.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -243,19 +242,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0be985889f4d072",
+  "active": "215049b117e502c5",
   "lastOpenFiles": [
-    "Logic/Disjunctive Normal Form.md",
-    "Algorithms/DNF Counting.md",
+    "Algorithms/Minimum Vertex Cover.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/DNF Counting.md",
+    "Algorithms/Knapsack.md",
+    "Algorithms/Bin Packing.md",
+    "Logic/Disjunctive Normal Form.md",
     "Algorithms/FPRAS.md",
     "Algorithms/Minimum Set Cover.md",
     "Algorithms/Approximation Algorithm.md",
     "Algorithms/PRAS.md",
     "Logic/Literal.md",
     "Untitled 1",
-    "Algorithms/Knapsack.md",
-    "Algorithms/Bin Packing.md",
     "Algorithms/Minimum Makespan Scheduling.md",
     "Algorithms/FPTAS.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
@@ -271,7 +271,6 @@
     "Probability Theory/Martingale.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Probabilistic Methods/Janson Inequality.md",
-    "Probability Theory/Expected Value.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",

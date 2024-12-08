@@ -102,9 +102,12 @@
 ##### 1.4.1 Minimum Vertex Cover
 ![[Minimum Vertex Cover#^37c645]]
 
+- **Remark**: In ILP, the problem can be formulated as: $$\begin{array}{rl}\text{min}&\sum_{v\in V}x_{v}c_{v}\\\text{subject to}&x_{u}+x_{v}=1&\forall \{ u,v \}\in E\\&x_{v}\in \{ 0,1 \}&\forall v\in V\end{array}$$
+
 ---
 ![[Minimum Vertex Cover#^bfb726]]
 ![[Minimum Vertex Cover#^af947a|p]]
+
 ---
 ##### 1.4.2 Minimum Set Cover
 ![[Minimum Set Cover#^2ed1e3]]

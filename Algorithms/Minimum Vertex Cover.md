@@ -6,10 +6,12 @@
 
 ^37c645
 
+- **Remark**: In ILP, the problem can be formulated as: $$\begin{array}{rl}\text{min}&\sum_{v\in V}x_{v}c_{v}\\\text{subject to}&x_{u}+x_{v}=1&\forall \{ u,v \}\in E\\&x_{v}\in \{ 0,1 \}&\forall v\in V\end{array}$$
+
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Linear Programming)
-> Let $\{ x_{v} \}_{v\in V}\subseteq \mathbb{R}$ be the solution of the optimization problem $$\begin{align}\text{min}\quad&\sum_{v\in V}^{}x_{v}\cdot c(v)\\\text{subject to}\quad &x_{u}+x_{v}\geq 1 &&\forall \{ u,v \}\in E\\&0\leq x_{v}\leq 1&&\forall v\in V \end{align}$$Then, for $S:=\left\{  v\in V: x_{v}\geq \frac{1}{2}  \right\}$, 
+> Let $\{ x_{v} \}_{v\in V}\subseteq \mathbb{R}$ be the relaxed LP$$\begin{align}\text{min}\quad&\sum_{v\in V}^{}x_{v}\cdot c(v)\\\text{subject to}\quad &x_{u}+x_{v}\geq 1 &&\forall \{ u,v \}\in E\\&0\leq x_{v}\leq 1&&\forall v\in V \end{align}$$Then, for $S:=\left\{  v\in V: x_{v}\geq \frac{1}{2}  \right\}$, 
 > 1. $S$ is a $2$-approximation of the optimum. $c(S)\leq 2\cdot c(S_{\text{OPT}})$.
 > 2. the [[Linear Programming|integrality gap]] $\text{IG}= 2$.
 
