@@ -3,20 +3,22 @@
 > [!definition]
 > Let $\mathcal{S}:=[n]$ with a size function $s:\mathcal{S}\to \mathbb{Z}_{\geq0}$ and a profit function $p:\mathcal{S}\to \mathbb{Z}_{\geq 0}$. Given a budget $B\in \mathbb{Z}$, the **Knapsack problem** $I:=(\mathcal{S},s,p,B)$ aims to find: $$\text{OPT}(I)\in \underset{ J\subseteq \mathcal{S}, \sum_{i\in J}^{}s_{i}\leq B }{ \arg\max }\sum_{i\in J}^{}p_{i}$$
 
-^675511
-
 ^fca662
+
+- **Related notation**: In ILP it can be written as: 
+  $$\begin{array}{rl}\text{max}&\sum_{i\in [n]}^{}p_{i}x_{i}\\\text{subject to}&\sum_{i\in[n]}^{} s_{i}x_{i}\leq B\\&x_{i}\in \{ 0,1 \}&\forall i\in[n]\end{array}$$
 - **Related notation**: We extend $s:\mathcal{P}(\mathcal{S})\to \mathbb{Z}_{\geq 0},\mathcal{U}\mapsto \sum_{i\in \mathcal{U}}^{}s_{i}$. Analogously with $p$. 
 - **Remark**: As any $i\in \mathcal{S}$ with $s_{i}>B$ cannot be chosen, wlog we assume that $s_{i}\leq B$.  
 - **Remark**: It is clear that $\max_{i}p_{i}\leq p(\text{OPT}(I))\leq n\cdot \max_{i}p_{i}$. 
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Dynamic Programming)
-> In the DP algorithm, let $M\in \mathbb{R}^{n+1,np_{\max}+1}$. Then, let $M[i,p]$ denote the smallest size of subset form $[i]$ s.t. the total profit is at least $p$. Therefore,$$M[i,p]:=\min\{ M[i-1,p],s_{i}+M[i-1,p-p_{i}] \}$$solves the Knapsack problem in $\mathcal{O}(n^2p_{\max})$, i.e. a pseudo-polynomial algorithm.
-> 
+> We define the DP as $\text{DP}[i,p]:=\min_{{J\subseteq[i]},p(J)\geq p}s(J)$ for all $i\in[n]$ and $p\in[p_{\max}]$.  Then, $$\text{DP}[i,p]:=\min\{ \text{DP}[i-1,p],\text{DP}[i-1,p-p_{i}]+s_{i} \}$$solves the Knapsack problem in $O(n^2p_{\max})$.
 
 ^13ab4a
 
+> [!proof]+
+> 
 ---
 > [!lemma] Theorem 2 (Rounding)
 > The rounding algorithm works as follows:

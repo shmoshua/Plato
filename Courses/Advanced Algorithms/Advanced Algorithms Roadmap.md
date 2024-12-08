@@ -17,6 +17,30 @@
 
 ---
 #### 1.2 Approximation Schemes
+
+##### 1.2.1 PTAS and FPTAS
+
+![[PTAS#^968d36]]
+
+---
+![[FPTAS#^a99681]]
+
+---
+##### 1.2.2 Knapsack
+
+![[Knapsack#^fca662]]
+- **Related notation**: In ILP it can be written as: 
+  $$\begin{array}{rl}\text{max}&\sum_{i\in [n]}^{}p_{i}x_{i}\\\text{subject to}&\sum_{i\in[n]}^{} s_{i}x_{i}\leq B\\&x_{i}\in \{ 0,1 \}&\forall i\in[n]\end{array}$$
+- **Remark**: As any $i\in [n]$ with $s_{i}>B$ cannot be chosen, wlog we assume that $s_{i}\leq B$.  
+- **Remark**: It is clear that $\max_{i}p_{i}\leq p(\text{OPT}(I))\leq n\cdot \max_{i}p_{i}$. 
+---
+![[Knapsack#^13ab4a]]
+
+---
+![[Knapsack#^532344]]
+![[Knapsack#^c811f3|p]]
+
+---
 ![[Knapsack#^fca662]]
 - **Remark**: As any $i\in \mathcal{S}$ with $s_{i}>B$ cannot be chosen, wlog we assume that $s_{i}\leq B$.  
 - **Remark**: It is clear that $\max_{i}p_{i}\leq p(\text{OPT}(I))\leq n\cdot \max_{i}p_{i}$. 
@@ -28,17 +52,6 @@
 ![[Knapsack#^c811f3|p]]
 
 ---
-
-
-##### 1.2.1 PTAS and FPTAS
-![[PTAS#^968d36]]
-
----
-![[FPTAS#^a99681]]
-
----
-
-##### 1.2.2 Knapsack
 
 ![[Knapsack#^675511]]
 ![[Knapsack#^13ab4a]]

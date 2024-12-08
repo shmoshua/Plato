@@ -6,7 +6,7 @@
       {
         "id": "c45eeefa3389e702",
         "type": "tabs",
-        "dimension": 48.80466472303206,
+        "dimension": 46.499416569428234,
         "children": [
           {
             "id": "02c5c1c00827dd4a",
@@ -38,18 +38,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c0bfd53bedf16b8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "source",
                 "source": true
@@ -57,24 +45,24 @@
             }
           },
           {
-            "id": "dbc871dc8364443f",
+            "id": "c6a785cfe1ec71fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md",
+                "file": "Algorithms/Knapsack.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
         "type": "tabs",
-        "dimension": 51.19533527696794,
+        "dimension": 53.50058343057176,
         "children": [
           {
             "id": "215049b117e502c5",
@@ -83,6 +71,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7c7abe06f36484f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Knapsack.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,18 +107,6 @@
               "type": "markdown",
               "state": {
                 "file": "Algorithms/FPTAS.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7c7abe06f36484f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Knapsack.md",
                 "mode": "preview",
                 "source": true
               }
@@ -203,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md",
+                "file": "Algorithms/Knapsack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md",
+                "file": "Algorithms/Knapsack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md"
+                "file": "Algorithms/Knapsack.md"
               }
             }
           }
@@ -267,13 +255,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6ee2c4be60338959",
+  "active": "7c7abe06f36484f6",
   "lastOpenFiles": [
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Knapsack.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
+    "Algorithms/FPTAS.md",
     "Algorithms/Minimum Set Cover.md",
     "Algorithms/Approximation Algorithm.md",
-    "Algorithms/FPTAS.md",
-    "Algorithms/Knapsack.md",
     "Graph Theory/Increasing and Decreasing Event.md",
     "Graph Theory/Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
@@ -283,7 +272,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 9.md",
     "Courses/Measure Theory/Sheet 10.md",
     "Graph Theory/Graph Coloring.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
     "Algorithms/Multiplicative Weight Update.md",
     "Probability Theory/Martingale.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",

@@ -28,13 +28,13 @@
 
 ^eb92be
 
-> [!proof]+
+> [!proof]-
 > Let $\text{OPT}\subseteq [m]$ be the optimal solution where $O_{1},\dots,O_{r}$ denotes the sets $S_{i}$ in the chosen order. Further let $\text{ppi}(S_{i}):=c(S_{i}) / \left| S_{i} \right|$. Then,
 > 1. **Claim 1: $\text{ppi}(O_{1})\leq \text{cost}(\text{OPT}) / n$.**
-> 	Assume otherwise. Then, for any set $S_{i}$, $\text{ppi}(S_{i})> \text{cost}(\text{OPT}) / n$. Let $\mathcal{V_{i}}\subseteq \text{OPT}$ be the subsets that contain $i$ (which is non-empty by assumption), then: $$\text{cost}(\text{OPT})=\sum_{i\in[n]}^{}\sum_{S\in \mathcal{V}_{i}}^{}c(S)=\sum_{i\in [n]}^{} \frac{1}{\left| \mathcal{V}_{i} \right| }\sum_{O_{j}\in \mathcal{V_{i}}}^{}\frac{\text{cost}(O_{j})}{\left| O_{j} \right| } \geq \text{ppi}(S_{i})$$
+> 	Assume otherwise. Then, for any set $S_{i}$, $\text{ppi}(S_{i})> \text{cost}(\text{OPT}) / n$. Let $\mathcal{V_{i}}\subseteq \text{OPT}$ be the subsets that contain $i$ (which is non-empty by assumption), then: $$\text{cost}(\text{OPT})=\sum_{i\in[n]}^{}\sum_{S\in \mathcal{V}_{i}}^{}\frac{c(S)}{\left| S \right| } >\sum_{i\in[n]}^{}\sum_{S\in \mathcal{V}_{i}}^{}\frac{\text{cost}(\text{OPT})}{n} \geq \text{cost}(\text{OPT})$$which is a contradiction.
 >2. **Claim 2: Greedy picks a solution with cost $\leq H_{n}\cdot \text{cost}(\text{OPT})$**.
 > 	  1. If $n=1$, the claim holds.
-> 	  2. If $n>1$, then let the greedy algorithm pick a set $S_{i}$ of size $k$. Then, $$\begin{align}\text{cost}(\text{GREEDY})&\leq k\cdot \frac{\text{cost}(\text{OPT})}{n}+\text{cost}(\text{GREEDY}')\\&\leq \frac{k}{n}\text{cost}(\text{OPT})+H_{n-k}\cdot  \underbrace{ \text{cost}(\text{OPT}(P')) }_{ \leq \text{cost}(\text{OPT}) }\\&\leq\text{cost}(\text{OPT})\left( k / n+H_{n-k} \right) \\&\leq \text{cost}(\text{OPT})\cdot H_{n}\end{align}$$
+> 	  2. If $n>1$, then let the greedy algorithm pick a set $S_{i}$ of size $k$. Then, $$\begin{align}\text{cost}(\text{Greedy})&=\left| O_{1} \right| \cdot  \text{ppi}(O_{1})+\text{cost}(\text{Greedy}')\\&\leq k\cdot \frac{\text{cost}(\text{OPT})}{n}+\text{cost}(\text{Greedy}')\\&\leq \frac{k}{n}\text{cost}(\text{OPT})+H_{n-k}\cdot  \underbrace{ \text{cost}(\text{OPT}(P')) }_{ \leq \text{cost}(\text{OPT}) }\\&\leq\text{cost}(\text{OPT})\left( k / n+H_{n-k} \right) \\&\leq \text{cost}(\text{OPT})\cdot H_{n}\end{align}$$
 
 ^d320dd
 
