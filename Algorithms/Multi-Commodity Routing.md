@@ -9,16 +9,16 @@
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> With the assumptions that:
+> With the assumption that:
 > 1. for each $i\in [K]$, there exists a polynomial-size set $P_{i}$ of $(s_{i},t_{i})$-paths s.t. $p_{i}^\text{OPT}\in P_{i}$. 
 > 
 > Let $\lambda,\{ x_{ip} \}_{i\in[K],p\in P_{i}}$ be the optimal solution of the LP: $$\begin{align}\text{min}\quad & \lambda\\ \text{subject to}\quad&\sum_{p\in P_{i}}^{}x_{ip}=1&&\forall i\in[K]\\&\sum_{i=1}^{K}\sum_{p:e\in p\in P_{i}}^{}x_{ip}\leq\lambda&& \forall e\in E\\&0\leq x_{ip}\leq 1&&\forall i\in [K], p\in P_{i}\end{align}$$
-> Let $p_{i}\in P_{i}$ be chosen with probability $x_{ip}$ and let $y_{ip}=\mathbb{1}_{\{ p=p' \}}$. Then,
+> Let $p_{i}\in P_{i}$ be chosen with probability $x_{ip}$ and let $y_{ip}=\mathbb{1}_{\{ p=p_{i} \}}$. Then,
 
 ^f82556
 
-> [!proof]-
-> We have: $$\mathbb{E}\left[ \sum_{i=1}^{K}\sum_{p:e\in p\in P_{i}}^{} y_{ip} \right]=\sum_{i=1}^{K}\sum_{p: e\in p \in P_{i}}^{} x_{ip} \leq\lambda$$Notice that $\tilde{y}_{i}:=\sum_{p:e\in p\in P_{i}}^{} y_{ip}$ are independent Bernoulli random variables. Then, for $Y:=\sum_{i=1}^{K}\tilde{y}_{i}$, by Chernoff, $$\mathbb{P}(Y\geq(1+9\ln n)\lambda)\leq\mathbb{P}(Y\geq(1+9\ln n)\mathbb{E}[Y])\leq \exp \left( -27 \ln^{2} n\cdot  \mathbb{E}[Y] \right) \leq \exp(-27 \ln^{2} n)?\leq \frac{1}{n^{3}}$$Hence, $\mathbb{P}()$
+> [!proof]+
+> We have: $$\mathbb{E}\left[ \sum_{i=1}^{K}\sum_{p:e\in p\in P_{i}}^{} y_{ip} \right]=\sum_{i=1}^{K}\sum_{p: e\in p \in P_{i}}^{} x_{ip} \leq\lambda$$Now, fix an edge $e\in E$. Notice that $\tilde{y}_{i}:=\sum_{p:e\in p\in P_{i}}^{} y_{ip}$ for all $i\in[K]$ are independent Bernoulli random variables. Then, for $Y:=\sum_{i=1}^{K}\tilde{y}_{i}$, by Chernoff, $$\begin{align}\mathbb{P}(Y\geq(1+9\ln n)\lambda)&\leq\mathbb{P}(Y\geq(1+9\ln n)\mathbb{E}[Y])\leq \exp \left( -27 \ln^{2} n\cdot  \mathbb{E}[Y] \right) \leq \exp(-27 \ln^{2} n)?\leq \frac{1}{n^{3}}\end{align}$$Hence, $\mathbb{P}()$
 
 ^d49992
 

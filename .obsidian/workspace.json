@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md",
+                "file": "Algorithms/Multi-Commodity Routing.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,13 +106,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/DNF Counting.md",
+                "file": "Algorithms/Multi-Commodity Routing.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -178,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Multi-Commodity Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Multi-Commodity Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Algorithms/Multi-Commodity Routing.md"
               }
             }
           }
@@ -242,13 +243,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "215049b117e502c5",
+  "active": "e0be985889f4d072",
   "lastOpenFiles": [
+    "Algorithms/DNF Counting.md",
+    "Algorithms/Multi-Commodity Routing.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Minimum Set Cover.md",
     "Algorithms/Bin Packing.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Minimum Vertex Cover.md",
-    "Algorithms/DNF Counting.md",
     "Algorithms/Knapsack.md",
     "Logic/Disjunctive Normal Form.md",
     "Algorithms/FPRAS.md",
@@ -270,7 +272,6 @@
     "Algorithms/Multiplicative Weight Update.md",
     "Probability Theory/Martingale.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
-    "Probabilistic Methods/Janson Inequality.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
