@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Bin-Packing.md",
+                "file": "Algorithms/FPTAS.md",
                 "mode": "preview",
                 "source": true
               }
@@ -268,10 +268,11 @@
   },
   "active": "215049b117e502c5",
   "lastOpenFiles": [
-    "Algorithms/Knapsack.md",
-    "Graph Theory/Increasing and Decreasing Event.md",
+    "Algorithms/FPTAS.md",
     "Algorithms/Bin-Packing.md",
+    "Algorithms/Knapsack.md",
     "Courses/Advanced Algorithms/Exam Practice.md",
+    "Graph Theory/Increasing and Decreasing Event.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Set Theory/Intersecting Family.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 9.md",
@@ -293,7 +294,6 @@
     "Graph Theory/Erdös-Rényi Graph.md",
     "Graph Theory/Independent Set.md",
     "Analysis/Landau Notations.md",
-    "Probability Theory/Covariance.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
