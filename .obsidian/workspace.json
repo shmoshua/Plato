@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Knapsack.md",
+                "file": "Algorithms/Bin Packing.md",
                 "mode": "source",
                 "source": true
               }
@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Bin Packing.md",
+                "file": "Algorithms/Minimum Makespan Scheduling.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Minimum Makespan Scheduling.md",
                 "mode": "preview",
                 "source": true
               }
@@ -136,8 +136,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Bin Packing.md",
+                "file": "Algorithms/Minimum Makespan Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Bin Packing.md",
+                "file": "Algorithms/Minimum Makespan Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Bin Packing.md"
+                "file": "Algorithms/Minimum Makespan Scheduling.md"
               }
             }
           }
@@ -267,11 +266,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4fd91ecb87815269",
+  "active": "0db503bd9d587518",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Bin Packing.md",
+    "Algorithms/Minimum Makespan Scheduling.md",
     "Algorithms/Knapsack.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/FPTAS.md",
     "Algorithms/Minimum Set Cover.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
@@ -294,7 +294,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Courses/Advanced Algorithms/Assignment 11.md",
     "Probability Theory/Conditional Expectation.md",
-    "Graph Theory/Erdös-Rényi Graph.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",

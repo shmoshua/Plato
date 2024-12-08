@@ -2,7 +2,7 @@
 
 > [!definition]
 > Let $\mathcal{S}:=[n]$ with a size function $s:\mathcal{S}\to(0,1]$. 
-> 1. The ***bin packing problem*** aims to find the minimal number $k$ of bins of size 1 s.t. every item can be put into some bin, i.e. $$k_{\text{OPT}}\in\underset{ \mathcal{B}=\{ B_{1},\dots,B_{k} \},s(B_{i})\leq 1,\bigsqcup_{i}^{}B_{i}=[n] }{ \arg\min }\left| \mathcal{B}\right| $$
+> 1. The ***bin packing problem*** aims to find the minimal number $k$ of bins of size 1 s.t. every item can be put into some bin, i.e. $$\text{OPT}(In)\in\underset{ \mathcal{B}=\{ B_{1},\dots,B_{k} \},s(B_{i})\leq 1,\bigsqcup_{i}^{}B_{i}=[n] }{ \arg\min }\left| \mathcal{B}\right| $$
 
 ^06f901
 
@@ -124,7 +124,7 @@
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
->    is a [[PTAS]] for bin packing. In particular, it is an $(1+\varepsilon)$-approximation algorithm.
+>    is a [[PTAS]] for bin packing.
 
 ^cb3b26
 
@@ -143,6 +143,7 @@
 
 ---
 > [!lemma] Theorem 6 (FPTAS)
+> Consider the algorithm:
 >  ```pseudo
 >    \begin{algorithm} \caption{FPTAS-BinPacking($I,\varepsilon$)} 
 >    \begin{algorithmic}
@@ -154,7 +155,7 @@
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
->    uses $\leq(1+\varepsilon)\left| \text{OPT}(I) \right|+1$ bins.
+>    Then, $\left| \text{FPTAS-BinPacking}(I,\varepsilon) \right|\leq(1+\varepsilon)\left| \text{OPT}(I) \right|+1$ bins.
 
 ^58af47
 
