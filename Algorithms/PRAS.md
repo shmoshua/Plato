@@ -2,7 +2,7 @@
 
 > [!definition]
 > For a given cost metric $c$ and an optimal solution $\text{OPT}$ and a parameter $\varepsilon$, a ***polynomial randomized approximation scheme (PRAS)*** for a minimization problem is a Monte Carlo algorithm $\mathcal{A}_{\varepsilon}$ s.t. for all input instance $I$, 
-> 1. $P(\left| c(\mathcal{A}_{\varepsilon}(I))-c(\text{OPT}(I)) \right|\geq \varepsilon \cdot c(\text{OPT}(I)))\leq \frac{1}{3}$
+> 1. $P(\left| c(\mathcal{A}_{\varepsilon}(I))-c(\text{OPT}(I)) \right|\geq \varepsilon \cdot c(\text{OPT}(I)))\leq \frac{1}{4}$
 > 2. $\mathcal{A}_{\varepsilon}$ runs in $\text{poly}(\left| I \right|)$ time.
 
 ^fecdc3

@@ -54,7 +54,6 @@
 ![[Bin Packing#^c04d44]]
 ![[Bin Packing#^3e5c2c|p]]
 ---
-##### 1.2.3.1 Bin-Packing FPTAS
 ![[Bin Packing#^62d5f8]]
 ![[Bin Packing#^5e1d26|p]]
 
@@ -80,6 +79,7 @@
 
 ---
 ![[PRAS#^858f88]]
+![[PRAS#^bf590a|p]]
 
 ---
 ##### 1.3.2 DNF Counting

@@ -33,18 +33,6 @@
             }
           },
           {
-            "id": "e0502fc73e0348ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "c6a785cfe1ec71fc",
             "type": "leaf",
             "state": {
@@ -62,14 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Minimum Makespan Scheduling.md",
+                "file": "Algorithms/DNF Counting.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -82,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Minimum Makespan Scheduling.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -101,42 +89,19 @@
             }
           },
           {
-            "id": "7c7abe06f36484f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Knapsack.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "6ee2c4be60338959",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a46ffed0cc83397d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Approximation Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -202,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Minimum Makespan Scheduling.md",
+                "file": "Algorithms/DNF Counting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Minimum Makespan Scheduling.md",
+                "file": "Algorithms/DNF Counting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Minimum Makespan Scheduling.md"
+                "file": "Algorithms/DNF Counting.md"
               }
             }
           }
@@ -268,14 +233,19 @@
   },
   "active": "0db503bd9d587518",
   "lastOpenFiles": [
+    "Algorithms/FPRAS.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Minimum Set Cover.md",
+    "Algorithms/Approximation Algorithm.md",
+    "Algorithms/PRAS.md",
+    "Logic/Disjunctive Normal Form.md",
+    "Logic/Literal.md",
+    "Untitled 1",
+    "Algorithms/Knapsack.md",
     "Algorithms/Bin Packing.md",
     "Algorithms/Minimum Makespan Scheduling.md",
-    "Algorithms/Knapsack.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/FPTAS.md",
-    "Algorithms/Minimum Set Cover.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
-    "Algorithms/Approximation Algorithm.md",
     "Graph Theory/Increasing and Decreasing Event.md",
     "Graph Theory/Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
@@ -290,10 +260,6 @@
     "Probabilistic Methods/Janson Inequality.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Independence.md",
-    "Algorithms/Minimum Enclosing Circle.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
-    "Courses/Advanced Algorithms/Assignment 11.md",
-    "Probability Theory/Conditional Expectation.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
@@ -303,7 +269,6 @@
     "Courses/Probabilistic AI",
     "Courses/Information Theory",
     "Information Theory",
-    "Courses/Characteristic Classes",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
