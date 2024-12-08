@@ -44,27 +44,27 @@
 
 ---
 ##### 1.2.3 Bin-Packing
-![[Bin-Packing#^06f901]]
-![[Bin-Packing#^d65196|q]]
-![[Bin-Packing#^a84502|q]]
+![[Bin Packing#^06f901]]
+![[Bin Packing#^d65196|q]]
+![[Bin Packing#^a84502|q]]
 ---
-![[Bin-Packing#^769d08]]
-![[Bin-Packing#^db3116|p]]
+![[Bin Packing#^769d08]]
+![[Bin Packing#^db3116|p]]
 ---
-![[Bin-Packing#^c04d44]]
-![[Bin-Packing#^3e5c2c|p]]
+![[Bin Packing#^c04d44]]
+![[Bin Packing#^3e5c2c|p]]
 ---
 ##### 1.2.3.1 Bin-Packing FPTAS
-![[Bin-Packing#^62d5f8]]
-![[Bin-Packing#^5e1d26|p]]
+![[Bin Packing#^62d5f8]]
+![[Bin Packing#^5e1d26|p]]
 
 ---
-![[Bin-Packing#^cb3b26]]
-![[Bin-Packing#^697fb8|p]]
+![[Bin Packing#^cb3b26]]
+![[Bin Packing#^697fb8|p]]
 
 ---
-![[Bin-Packing#^58af47]]
-![[Bin-Packing#^4776b1|p]]
+![[Bin Packing#^58af47]]
+![[Bin Packing#^4776b1|p]]
 
 ---
 #### 1.3 Randomized Approximation Schemes
