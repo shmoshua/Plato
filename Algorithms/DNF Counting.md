@@ -20,8 +20,8 @@
 >    \State $C_{i}\gets$ Sample one of the $m$ clauses with probability $2^{n-\left| C_{i} \right|} / M$ for $i$.
 >    \State $\alpha_{j}\gets$ Sample one of the $2^{n-\left| C_{i} \right|}$ satisfying assignments for $C_{i}$ uniformly at random. 
 >    \State $\text{IsTopMost}\gets \text{true}$
->    \For{$j\in[i-1]$}
->    \If{$s(i,j)=1$}
+>    \For{$\ell\in[j-1]$}
+>    \If{$s(i,\ell)=1$}
 >    \State $\text{IsTopMost}\gets \text{False}$
 \EndIf
 > \EndFor
@@ -38,10 +38,10 @@
 
 ^44eec7
 
-> [!proof]-
+> [!proof]+
 > We have that: 
 > 1. **Claim 1: $\text{DNF-Count}$ samples a '1' in $s$ uniformly randomly**.
->    We have that: $$\begin{align}\mathbb{P}(C_{i},\alpha_{j}\text{ are chosen})&=\mathbb{P}(C_{i}\text{ is chosen})\mathbb{P}(\alpha_{j}\text{ is chosen}|C_{i}\text{ is chosen})\\&=\frac{2^{n-\left| C_{i} \right| }}{M}\cdot \frac{1}{2^{n-\left| C_{i} \right| }}=\frac{1}{M}\end{align}$$
+>    Let $s(i,j)=1$. Then, $$\begin{align}\mathbb{P}(C_{i},\alpha_{j}\text{ are chosen})&=\mathbb{P}(C_{i}\text{ is chosen})\mathbb{P}(\alpha_{j}\text{ is chosen}|C_{i}\text{ is chosen})\\&=\frac{2^{n-\left| C_{i} \right| }}{M}\cdot \frac{1}{2^{n-\left| C_{i} \right| }}=\frac{1}{M}\end{align}$$
 > 2. **Claim 2: $\mathbb{P}(\left| \text{DNF-Count}(I)-\text{SOL}(I) \right|\leq \varepsilon \cdot \text{SOL}(I))\geq \frac{3}{4}$**
 >    We have that: $p:=\mathbb{P}(\text{isTopMost}=1)=\text{SOL}(I) / M$ by Claim 1. Therefore, $\mathbb{E}[X]=kp$. Hence, $$\begin{align}\mathbb{P}(\left| \text{DNF-Count}(I)-\text{SOL}(I) \right|\geq \varepsilon \cdot \text{SOL}(I))&=\mathbb{P}\left( \left| X-kp\right| \geq \varepsilon kp  \right) \\&\leq 2\exp\left( -\frac{\varepsilon^{2}kp}{3} \right)\\&= 2\exp\left( -\frac{3m\cdot  \text{SOL}(I)}{M} \right)\\&\leq 2\exp(-3)\\&\leq 1 /4\end{align}$$
 > 
