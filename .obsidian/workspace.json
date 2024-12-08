@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Minimum Vertex Cover.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -112,8 +112,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Multi-Commodity Routing.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Multi-Commodity Routing.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Multi-Commodity Routing.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -243,14 +242,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0be985889f4d072",
+  "active": "c6a785cfe1ec71fc",
   "lastOpenFiles": [
-    "Algorithms/DNF Counting.md",
-    "Algorithms/Multi-Commodity Routing.md",
+    "Algorithms/Minimum Vertex Cover.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Multi-Commodity Routing.md",
+    "Algorithms/DNF Counting.md",
     "Algorithms/Minimum Set Cover.md",
     "Algorithms/Bin Packing.md",
-    "Algorithms/Minimum Vertex Cover.md",
     "Algorithms/Knapsack.md",
     "Logic/Disjunctive Normal Form.md",
     "Algorithms/FPRAS.md",

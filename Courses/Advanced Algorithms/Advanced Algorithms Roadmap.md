@@ -128,6 +128,7 @@
 ![[Multi-Commodity Routing#^1afa3b]]
 
 ---
+### 2. Online Algorithms and Competitive Analysis
 #### 2.1 Online Algorithms
 ![[Competitive Online Algorithm#^9352d2]]
 
