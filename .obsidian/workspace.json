@@ -62,14 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Approximation Algorithm.md",
+                "file": "Algorithms/Minimum Set Cover.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "4d5ec56e57395c88",
@@ -83,6 +83,18 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6ee2c4be60338959",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Minimum Set Cover.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +136,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Minimum Set Cover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Minimum Set Cover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Algorithms/Minimum Set Cover.md"
               }
             }
           }
@@ -254,15 +267,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c0bfd53bedf16b8d",
+  "active": "6ee2c4be60338959",
   "lastOpenFiles": [
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Minimum Set Cover.md",
+    "Algorithms/Approximation Algorithm.md",
     "Algorithms/FPTAS.md",
     "Algorithms/Knapsack.md",
     "Graph Theory/Increasing and Decreasing Event.md",
     "Graph Theory/Graph.md",
-    "Algorithms/Approximation Algorithm.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Advanced Algorithms/Exam Practice.md",
     "Algorithms/Bin-Packing.md",
     "Set Theory/Intersecting Family.md",
@@ -281,7 +295,6 @@
     "Courses/Advanced Algorithms/Assignment 11.md",
     "Probability Theory/Conditional Expectation.md",
     "Graph Theory/Erdös-Rényi Graph.md",
-    "Graph Theory/Independent Set.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",

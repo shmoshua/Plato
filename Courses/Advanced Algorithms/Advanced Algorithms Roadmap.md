@@ -2,12 +2,12 @@
 
 ### 1. Basics of Approximation Algorithms
 
-![[Approximation Algorithm]]
-In trying to approximate an algorithm there are two approaches: Greedy and Rounding
+![[Approximation Algorithm#^b7dd2f]]
 
 ---
 
 #### 1.1 Greedy Algorithms
+##### 1.1.1 Minimum Set Cover
 ![[Minimum Set Cover#^2ed1e3]]
 ![[Minimum Set Cover#^0eb03c|q]]
 ---
