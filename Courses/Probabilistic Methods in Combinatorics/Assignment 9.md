@@ -13,3 +13,13 @@ Therefore, $\mathbb{P}\left( \bigcap_{i=1}^{m}\overline{B_{i}} \right)>0$ and th
 Let us color the vertices uniformly randomly and independently. For $e\in E$, let $B_{e}$ denote the event that $\left| r(e)-b(e) \right|>\sqrt{ 6d\log d }$. Then, 
 1. For an edge $e\in E$, let $X_{1},\dots,X_{d}$ be the random variables valued in $\{ +1,-1 \}$ where $X_{i}=+1$ if and only if $i$-th vertex in $e$ is red. Then, by defining $X:=\sum_{i=1}^{d}X_{i}$, $$\mathbb{P}(B_{e})=\mathbb{P}(\left| X \right|> \sqrt{ 6d \log d } )\leq 2\exp \left( -3\log d \right)=2d^{-3}<1 $$
 2. As each vertex is in exactly $d$ edges, each event $B_{e}$ is mutually independent with all other events besides $d^2-1$ events. 
+3. $e\cdot 2d^{-3}\cdot d^{2}=\frac{2e}{d}\leq1$ as $d\geq 6$.
+
+Therefore, by Lovász local lemma, $\mathbb{P}\left( \bigcap_{e\in E}^{}\overline{B_{e}} \right)>0$ and there exists a valid coloring.
+
+---
+##### Problem 3
+Let us color each vertex $v$ uniformly from $S(v)$ and independently. Let $B_{e}$ be the event that $e$ is monochromatic. Then, 
+1. $\mathbb{P}(B_{e})=\frac{\left| S(u)\cap S(v) \right|}{\left| S(u) \right|\left| S(v) \right|}\leq \frac{1}{10d}$
+2. For each $B_{e}$, it is mutually independent with all but 
+
