@@ -49,25 +49,25 @@
 > 2. $y_{i} \sim \text{Bin}(2 \ln n , x_{i})$ and $J:=\{ i\in [m]: y_{i}\geq 1 \}$. It holds that: 
 > 	1. $\mathbb{E}[c(J)]\leq 2\ln n \cdot c(\text{OPT}_{\text{LP}})$ and 
 > 	2. $\mathbb{P}(J\text{ is not feasible})\leq \frac{1}{n}$.
-> 	3. $\mathbb{P}(J \text{ is feasible }\land c(J)\leq 4\ln n \cdot c(\text{OPT}_{LP}))\geq \frac{1}{3}$
+> 	3. $\mathbb{P}(J \text{ is feasible }\land c(J)\leq 4\ln n \cdot c(\text{OPT}_{LP}))\geq \frac{1}{4}$
 
 ^e18582
 
 > [!proof]-
 > We have that:
 > 1. First, observe that $$\mathbb{E}[c(J)]=\mathbb{E}\left[ \sum_{i=1}^{m}y_{i}c(S_{i}) \right]=\sum_{i=1}^{m}c(S_{i})\cdot x_{i}=c(\text{OPT}_{\text{LP}})$$Then, 
-> 	1. **Claim 1**: $\mathbb{P}\left( \sum_{S_{i} \ni e_{j}}^{}y_{i}=0 \right)\leq e^{-1}$.
+> 	1. **Claim 1**: $\mathbb{P}\left( \sum_{S_{i}:e_{j}\in S_{i} }^{}y_{i}=0 \right)\leq e^{-1}$.
 > 	   Observe that:
 >     $$\begin{align}\mathbb{P}\left( \sum_{S_{i} \ni e_{j}}^{}y_{i}=0 \right)&=\mathbb{P}\left( y_{i}=0,\forall S_{i}\ni e_{j}\right)=\prod_{S_{i}\ni e_{j}}^{}(1-x_{i})\\&\leq \prod_{S_{i}\ni e_{j}}^{}\exp \left( -x_{i} \right)=\exp \left( -\sum_{S_{i}\ni e_{j}}^{}x_{i} \right)\leq e^{-1}\end{align}$$
 >     
 >     Therefore, $\mathbb{P}(J\text{ is not feasible})\leq n / e$ by union bound.
 >  1. We have that:
-> 	 1. For the expectation, it holds that:$$\mathbb{E}[c(J)]\leq 2 \ln n\cdot \mathbb{E}\left[ \sum_{i=1}^{m}y_{i}c(S_{i}) \right] =2\ln n\cdot c(\text{OPT}_{\text{LP}})$$
+> 	 1. For the expectation, it holds that:$$\mathbb{E}[c(J)]=\sum_{i=1}^{m}c(S_{i})\mathbb{P}(y_{i}\geq 1)\leq 2 \ln n\sum_{i=1}^{m}x_{i}c(S_{i})=2\ln n\cdot c(\text{OPT}_{\text{LP}})$$
 > 	 2. **Claim 1**: $\mathbb{P}\left( \sum_{S_{i} \ni e_{j}}^{}y_{i}=0 \right)\leq (e^{-1})^{2 \ln n}=\frac{1}{n^{2}}$.
 > 	  2. **Claim 2**: $\mathbb{P}\left( \exists j\in [n]:\sum_{S_{i} \ni e_{j}}^{}y_{i}=0  \right)\leq \frac{1}{n}$ by union bound.
-> 	  3. **Claim 3**: $\mathbb{P}(c(J)\geq 4\ln n \cdot c(\text{OPT}_{\text{LP}}))\leq \frac{1}{2}$.
+> 	  3. **Claim 3**: $\mathbb{P}(c(J)\geq 4\ln n \cdot c(\text{OPT}_{\text{LP}}))\leq \frac{1}{2}$ as we have that by Markov, $$\mathbb{P}(c(J)\geq 4\ln n \cdot c(\text{OPT}_{\text{LP}}))\leq \mathbb{P}(c(J)\geq 2\mathbb{E}[c(J)])\leq \frac{1}{2}$$
 > 	
-> 	Therefore, $\mathbb{P}(J \text{ is not feasible }\land c(J)\geq 4\ln n \cdot c(\text{OPT}_{LP}))\leq \frac{1}{n}+\frac{1}{2}\leq \frac{2}{3}$. 
+> 	Therefore, $\mathbb{P}(J \text{ is not feasible }\land c(J)\geq 4\ln n \cdot c(\text{OPT}_{LP}))\leq \frac{1}{n}+\frac{1}{2}\leq \frac{3}{4}$. 
 
 ^20f82b
 

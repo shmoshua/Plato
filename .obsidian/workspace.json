@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Bin Packing.md",
+                "file": "Algorithms/Minimum Set Cover.md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -242,14 +242,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0db503bd9d587518",
+  "active": "215049b117e502c5",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Minimum Set Cover.md",
+    "Algorithms/Bin Packing.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Minimum Vertex Cover.md",
     "Algorithms/DNF Counting.md",
     "Algorithms/Knapsack.md",
-    "Algorithms/Bin Packing.md",
     "Logic/Disjunctive Normal Form.md",
     "Algorithms/FPRAS.md",
     "Algorithms/Approximation Algorithm.md",
