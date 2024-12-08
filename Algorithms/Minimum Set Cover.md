@@ -2,7 +2,7 @@
 
 > [!definition]
 > Let $\mathcal{S}=\{ S_{1},\dots,S_{m} \}\subseteq 2^{[n]}$ with a cost function $c:\mathcal{S}\to \mathbb{R}_{>0}$. 
-> 1. The ***minimum set cover problem*** aims to find a collection of subsets  with union $\mathcal{U}$that has minimum total cost, i.e. $\arg\min_{J\subseteq[m],\bigcup_{j\in J}^{}S_{j}=[n]}\sum_{j\in J}^{}c(S_{j})$
+> 1. The ***minimum set cover problem*** aims to find:$$\underset{ J\subseteq[m],\bigcup_{j\in J}^{}S_{j}=[n] }{ \arg\min }\sum_{j\in J}^{}c(S_{j})$$
 
 ^2ed1e3
 
@@ -42,7 +42,7 @@
 
 ---
 > [!lemma] Theorem 2 (Linear Programming)
-> Let $\{ x_{i} \}_{i\in [m]}$ be the optimal solution of the problem: $$\begin{align}\text{min}\quad &\sum_{i\in [m]}^{}x_{i}\cdot c(S_{i})\\\text{subject to}\quad &\sum_{S_{i}\ni e_{j}}^{}x_{i}\geq 1&&\forall j\in [n]\\&0\leq x_{i}\leq 1&&\forall i\in[m]\end{align}$$Let 
+> Let $\{ x_{i} \}_{i\in [m]}$ be the optimal solution of the problem: $$\begin{align}\text{min}\quad &\sum_{i\in [m]}^{}x_{i}\cdot c(S_{i})\\\text{subject to}\quad &\sum_{S_{i}:e_{j}\in S_{i}}^{}x_{i}\geq 1&&\forall j\in [n]\\&0\leq x_{i}\leq 1&&\forall i\in[m]\end{align}$$Let 
 > 1. $y_{i} \sim \text{Ber}(x_{i})$ and $J:=\{ i\in[m]: y_{i}=1 \}$. It holds that: 
 > 	1. $\mathbb{E}[c(J)]=c(\text{OPT}_{\text{LP}})$ and 
 > 	2. $\mathbb{P}(J\text{ is not feasible})\leq n / e$

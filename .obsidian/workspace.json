@@ -50,14 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Minimum Set Cover.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Minimum Set Cover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Minimum Set Cover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Algorithms/Minimum Set Cover.md"
               }
             }
           }
@@ -242,16 +242,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "215049b117e502c5",
+  "active": "0db503bd9d587518",
   "lastOpenFiles": [
-    "Algorithms/Minimum Vertex Cover.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Minimum Set Cover.md",
+    "Algorithms/Minimum Vertex Cover.md",
     "Algorithms/DNF Counting.md",
     "Algorithms/Knapsack.md",
     "Algorithms/Bin Packing.md",
     "Logic/Disjunctive Normal Form.md",
     "Algorithms/FPRAS.md",
-    "Algorithms/Minimum Set Cover.md",
     "Algorithms/Approximation Algorithm.md",
     "Algorithms/PRAS.md",
     "Logic/Literal.md",
