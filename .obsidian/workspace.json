@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Representation Theory/Lie Algebra.md",
+                "file": "Probability Theory/Martingale.md",
                 "mode": "preview",
                 "source": true
               }
@@ -137,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -166,7 +166,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\text{tr}",
+                "query": "mcdiarmid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Linear Probing.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Linear Probing.md",
+                "file": "Differential Geometry/Submanifold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Linear Probing.md"
+                "file": "Differential Geometry/Submanifold.md"
               }
             }
           }
@@ -268,15 +268,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "60b2c8adb7a502c9",
+  "active": "1d8258f5f1af4dc3",
   "lastOpenFiles": [
-    "Algorithms/Paging.md",
+    "Representation Theory/Lie Algebra.md",
+    "Probability Theory/Martingale.md",
     "Algorithms/Linear Probing.md",
+    "Algorithms/Paging.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Differential Geometry/Submanifold.md",
     "Representation Theory/Special Linear Lie Algebra.md",
-    "Representation Theory/Lie Algebra.md",
     "Courses/Linear System Theory/Problem Set 3.md",
     "Differential Geometry/Differential.md",
     "Algorithms/Competitive Online Algorithm.md",
@@ -296,7 +297,6 @@
     "Algorithms/Minimum Makespan Scheduling.md",
     "Algorithms/FPTAS.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
-    "Graph Theory/Increasing and Decreasing Event.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
