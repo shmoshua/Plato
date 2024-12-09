@@ -88,14 +88,16 @@
 > 4. By Chebyshev, we have:$$\mathbb{P}(\left| 2^{X_{m}}-1-m \right|\geq \ell m)\leq \frac{1}{2\ell^{2}}$$
 > 5. Notice that we have $X\in O(\log m)$ w.h.p and we need $O(\log X)$ bits for the algorithm.
 
+^1f7d2d
+
 ^1ebd3d
-- **Corollary**: We have that:
+- **Corollary**: We have that: ^39fa84
 	1. By using the mean trick with $k=\left\lceil 2 / \varepsilon^2\right\rceil$, $\mathbb{P}(\left| \mathcal{B}(S)-m \right|\geq \varepsilon m)\leq 1 /2k\varepsilon^2<1/4$ in space complexity $\text{O}(\varepsilon^{-2}\log \log m)$
 	2. By further using the median trick with $t=\left\lceil 24\ln(1 / \delta)\right\rceil$, $\mathbb{P}(\left| \mathcal{B}(S)-m \right|\geq \varepsilon m)\leq \delta$ in space complexity $\text{O}(\varepsilon^{-2}\log \log m\log(1 / \delta))$.
 ---
 ###### Estimating the 0-th moment
 
-> [!lemma] Theorem 3 (FM)
+> [!lemma] Theorem 3 (FM, Flajolet, Martin)
 > Consider the algorithm:
 >    ```pseudo
 >    \begin{algorithm} \caption{FM($S=(a_{1},\dots,a_{m})$)} 
@@ -109,9 +111,17 @@
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
->    Using mean and the median trick, 
+>    where $\text{Zeroes}(x)=\max\{r\in \mathbb{Z}_{\geq 0}:2^r|x\}$.  Let $D$ be the number of distinct elements in the stream.
+>    1. $\text{FM}$ uses $\text{O}(\log n)$ space and $\mathbb{P}(\left| \text{FM}(S)-D \right|\geq 2D)\leq $
+
+^399e1c
 
 > [!proof]+
+> Let $J\subseteq[n]$ be the set of all distinct elements in the stream. Then, for each $j\in [n]$ and $r\in \mathbb{Z}_{\geq 0}$, let $X_{j,r}$ be the indicator variable denoting $\text{Zeroes}(h(j))\geq r$. Let $X_{r}:=\sum_{j\in J}^{}X_{j,r}$. We have:
+> 1. $\mathbb{E}[X_{r}]=\sum_{j\in J}^{}\mathbb{E}[X_{j,r}]=\sum_{j\in J}^{} \frac{1}{2^r}=\frac{D}{2^r}$
+> 2. $\text{Var}(X_{r})\leq \sum_{n=1}^{}$
+
+^30c4d1
 
 ---
 ###### Finding the Majority Element
