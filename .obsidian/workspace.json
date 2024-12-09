@@ -50,14 +50,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Paging.md",
+                "file": "Algorithms/Linear Probing.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -82,13 +82,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/k-wise Independent Hash Function.md",
+                "file": "Algorithms/Linear Probing.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9aa7f8972cbdb9b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Lie Algebra.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "525ac0c52116e684",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Special Linear Lie Algebra.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1d8258f5f1af4dc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Submanifold.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a58cffbc716a91b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Representation Theory/Lie Algebra.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +166,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lovasz",
+                "query": "\\text{tr}",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +183,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Linear Probing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Linear Probing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Algorithms/Linear Probing.md"
               }
             }
           }
@@ -218,12 +268,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c6a785cfe1ec71fc",
+  "active": "60b2c8adb7a502c9",
   "lastOpenFiles": [
-    "Algorithms/k-wise Independent Hash Function.md",
-    "Algorithms/Competitive Online Algorithm.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Paging.md",
+    "Algorithms/Linear Probing.md",
+    "Algorithms/k-wise Independent Hash Function.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Differential Geometry/Submanifold.md",
+    "Representation Theory/Special Linear Lie Algebra.md",
+    "Representation Theory/Lie Algebra.md",
+    "Courses/Linear System Theory/Problem Set 3.md",
+    "Differential Geometry/Differential.md",
+    "Algorithms/Competitive Online Algorithm.md",
     "Algorithms/Multi-Commodity Routing.md",
     "Algorithms/Randomized Online Algorithm.md",
     "Algorithms/Minimum Set Cover.md",
@@ -241,12 +297,6 @@
     "Algorithms/FPTAS.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
     "Graph Theory/Increasing and Decreasing Event.md",
-    "Graph Theory/Graph.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
-    "Courses/Advanced Algorithms/Exam Practice.md",
-    "Set Theory/Intersecting Family.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 9.md",
-    "Courses/Measure Theory/Sheet 10.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
