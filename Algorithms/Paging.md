@@ -3,7 +3,7 @@
 > [!definition]
 > For a universe $U$, let $S\subseteq U$ be a cache s.t. $\left| S \right|\leq k$. 
 > 1. The ***paging problem*** aims to find an optimal algorithm s.t. for a finite sequence $u_{1},\dots,u_{m}\subseteq U$ and $S_{0}=\varnothing$, 
-> 	$$(S^\text{OPT}_{n})_{n}\in \underset{\begin{subarray}{l}S_{1},\dots,S_{m}\subseteq U\\\left| S_{n} \right| \leq k, S_{n} \backslash S_{n-1}=\{ u_{n} \} \end{subarray} }{ \arg\min }\sum_{n=1}^{m}\underbrace{ 1-\chi_{S_{n-1}}(u_{n}) }_{ =:\text{cost}(u_{n}) }$$where $S_{n-1}$ is output before $u_{n}$ is input. 
+> 	$$(S^\text{OPT}_{n})_{n}\in \underset{\begin{subarray}{c}S_{1},\dots,S_{m}\subseteq U\\\left| S_{n} \right| \leq k, S_{n} \backslash S_{n-1}=\{ u_{n} \} \end{subarray} }{ \arg\min }\sum_{n=1}^{m}\underbrace{ 1-\chi_{S_{n-1}}(u_{n}) }_{ =:\text{cost}(u_{n}) }$$where $S_{n-1}$ is output before $u_{n}$ is input. 
 
 ^8651de
 
@@ -27,11 +27,11 @@
 
 ---
 > [!lemma] Theorem 2
-> For $\varepsilon>0$ and a deterministic algorithm $\mathcal{A}$, $\mathcal{A}$ is not $(k-\varepsilon)$-competitive.
+> If a deterministic algorithm $\mathcal{A}$ is $\alpha$-competitive, then $\alpha\geq k$.
 
 ^4e0de5
 
-> [!proof]-
+> [!proof]+
 > Let $U:=[k+1]$. Let the adversary pick an input sequence $\sigma:=(u_{n})_{n}$ s.t. $u_{n}\notin S_{n-1}$. Hence, 
 > 1. $\text{cost}_{\mathcal{A}}(\sigma)=\left| \sigma \right|=:m$. 
 > 
@@ -62,12 +62,12 @@
 >    \end{algorithm}
 >    ```
 >    
->    The $\text{RMA}$ algorithm is $\text{O}(\log k)$-competitive in expectation against an oblivious adversary.
+>    The $\text{RMA}$ algorithm is $\text{O}(\log k)$-competitive in expectation against an [[Competitive Online Algorithm|oblivious adversary]].
 
 ^0ffb3f
 
-> [!proof]-
-> Assume that $i\in [m]$ s.t. $v=0$ before iteration $i$. Let: $$j:=\min\{  j>i: \|v_{j}\| =k \}$$where $v_{j}$ denotes $v$ at iteration $j$. Then, let $P:=\{ u_{i},\dots,u_{j} \}$. We define:
+> [!proof]+
+> Assume that $i\in [m]$ s.t. $v=0$ right before iteration $i$. Let: $$j:=\min\{  j>i: \|v_{j}\|_{1} =k \}$$where $v_{j}$ denotes $v$ at iteration $j$. Then, let $P:=\{ u_{i},\dots,u_{j} \}$. We define:
 > 1. $m:=\left| \{ u_\ell\in P:u_{\ell}\notin S_{i} \} \right|$ the number of unique new requests
 > 2. $o:=\left| \{ u_\ell\in P:u_{\ell}\in S_{i} \} \right|$ the number of unique old requests
 >  

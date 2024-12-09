@@ -1,4 +1,0 @@
-#Definition #Algorithms 
-
-> [!definition]
-> 

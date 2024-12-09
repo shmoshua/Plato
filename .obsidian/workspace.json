@@ -38,19 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0db503bd9d587518",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Multi-Commodity Routing.md",
+                "file": "Algorithms/Paging.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,31 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4fd91ecb87815269",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Minimum Set Cover.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6ee2c4be60338959",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Paging.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Multi-Commodity Routing.md",
+                "file": "Algorithms/Competitive Online Algorithm.md",
                 "mode": "preview",
                 "source": true
               }
@@ -178,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Paging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Paging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Algorithms/Paging.md"
               }
             }
           }
@@ -242,13 +206,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c6a785cfe1ec71fc",
+  "active": "215049b117e502c5",
   "lastOpenFiles": [
-    "Algorithms/Minimum Vertex Cover.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Competitive Online Algorithm.md",
+    "Algorithms/Paging.md",
     "Algorithms/Multi-Commodity Routing.md",
-    "Algorithms/DNF Counting.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Randomized Online Algorithm.md",
     "Algorithms/Minimum Set Cover.md",
+    "Algorithms/Minimum Vertex Cover.md",
+    "Algorithms/DNF Counting.md",
     "Algorithms/Bin Packing.md",
     "Algorithms/Knapsack.md",
     "Logic/Disjunctive Normal Form.md",
@@ -268,9 +235,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 9.md",
     "Courses/Measure Theory/Sheet 10.md",
     "Graph Theory/Graph Coloring.md",
-    "Algorithms/Multiplicative Weight Update.md",
-    "Probability Theory/Martingale.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
