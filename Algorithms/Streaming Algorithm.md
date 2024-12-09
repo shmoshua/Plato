@@ -134,10 +134,10 @@
 > [!lemma] Theorem 4 (FM+,BJKST)
 > Consider the algorithm:
 >    ```pseudo
->    \begin{algorithm} \caption{FM+($S=(a_{1},\dots,a_{m}),C,C'$)} 
+>    \begin{algorithm} \caption{FM+($a_{1},\dots,a_{m},C,C'$)} 
 >    \begin{algorithmic}
 >    \State $h:[n]\to[n]\gets$ uniform, 2-wise independent random hash function.
->    \State $h:[n]\to[b]\gets$ uniform, 2-wise independent random hash function where $b=C\varepsilon^{-4}\log^2n$.
+>    \State $g:[n]\to[b]\gets$ uniform, 2-wise independent random hash function where $b=C\varepsilon^{-4}\log^2n$.
 >    \State $\mathcal{B}\gets \varnothing$
 >    \State $X\gets 0$
 >    \For{$a_{i}\in S$}
@@ -154,12 +154,26 @@
 >    \end{algorithm}
 >    ```
 >    Let $i\in[n]$ appeared in $\mathcal{B}$ if there exists $a_{j}=i$ s.t. $\mathcal{B}\gets \mathcal{B}\cup \{ (g(a_{j}),\text{Zeroes}(h(a_{j}))) \}$ was executed. Let $S\subseteq[n]$ be the set of elements that appeared in $\mathcal{B}$.
->    1. $\mathbb{P}(\exists i\neq j\in[n]:i,j\in K\land g(i)=g(j))\leq \frac{1}{6}$
+>    1. $\mathbb{P}(\exists i\neq j\in[n]:i,j\in S\land g(i)=g(j))\leq \frac{1}{6}$
 
 > [!proof]+
 > We have that:
-> 1. **Claim 1**: If $g(i)\neq g(j)$ for any distinct $i,j\in S$, then $\left| S \right|\leq C'(\log n+2) / \varepsilon^{2}$.
->    Notice that between two increments of $X$, 
+> 1. We first have the following claims:
+> 	1. **Claim 1**: If $g(i)\neq g(j)$ for any distinct $i,j\in S$, then $\left| S \right|\leq C'(\log n+2) / \varepsilon^{2}$.
+> 		Under this assumption for any $j\in [n]$ if $j$ has not appeared in $\mathcal{B}$ then $j$ increases $\mathcal{B}$ by 1. In particular, between two increments of $X$, we can add at most $C'/\varepsilon^{2}$ new elements to $\mathcal{B}$. 
+> 		
+> 		Moreover, as $X-1\leq \text{Zeroes}(h(a_{i}))$ for some $a_{i}$ at the end and as $$\text{Zeroes}(h(a_{i}))\leq \left\lceil \log n\right\rceil\leq \log n+1$$we have that $X\leq \log n+2$ and there are at most $(\log n+2)$ increments. Therefore, $\left| S \right|\leq C'(\log n+2) / \varepsilon^{2}$.
+> 	1. **Claim 2**: If $C\geq 27C'^{2}$ and $\left| S \right|\leq C'(\log n+2) / \varepsilon^{2}$, then we have that:$\mathbb{P}(\exists i\neq j\in[n]:i,j\in S\land g(i)=g(j))\leq \frac{1}{6}$
+> 	   
+> 	   Let $X_{i,j}$ be the indicator variable denoting that $g(i)=g(j)$. Then, $$\begin{align}\mathbb{P}(\exists i\neq j\in[n]:i,j\in S\land g(i)=g(j))\leq{\left| S \right|  \choose 2} \frac{1}{b}\leq \frac{C'^{2}(\log n+2)^{2}}{2C\log^2 n}\leq \frac{1}{6}\end{align}$$
+> 	
+> 	Therefore, now fix an input $a_{1},\dots,a_{m}$. Let $\mathcal{A}$ be a run of $\text{FM}+$ where we replace $\mathcal{B}\gets \mathcal{B}\cup\{ (g(a_{j}),\text{Zeroes}(h(a_{j}))) \}$ with $\mathcal{B}\gets \mathcal{B}\cup\{ (a_{j},\text{Zeroes}(h(a_{j}))) \}$. Let $S'$ be the sets of elements added to $\mathcal{B}$ in $\mathcal{A}$. Then, by Claim 1, $\left| S' \right|\leq C'(\log n+2) / \varepsilon^{2}$. 
+> 	
+> 	Now, coming back to $\text{FM}+$, let $E$ denote the event that there exists distinct $i,j\in S'$ with $g(i)=g(j)$. Then, $$\begin{align}\mathbb{P}(\exists i\neq j\in[n]:i,j\in S\land g(i)=g(j))&\leq \underbrace{ \mathbb{P}(\exists i\neq j\in[n]:i,j\in S\land g(i)=g(j)|\overline{E}) }_{ =0 }+\mathbb{P}(E)\\&=\mathbb{P}(E)\leq \frac{1}{6}\end{align}$$
+> 2. Let $X_{j,r}$ denote the indicator variable that $\text{Zeroes}(h(j))\geq r$. Further, $X_{r}:=\sum_{j\in J}^{}X_{j,r}$ Then, similarly, as Theorem 3, 
+> 	1. $\mathbb{E}[X_{r}]=\frac{D}{2^r}$ and
+> 	2. $\text{Var}(X_{r})\leq \frac{D}{2^r}$.
+> 
 ---
 ###### Finding the Majority Element
 > [!lemma] Theorem 4
