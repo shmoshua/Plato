@@ -20,6 +20,8 @@
 >    \begin{algorithmic}
 >    \State $X\gets 0$
 >    \For{$a_{i}\in S$}
+>    \If{}
+>    \EndIf
 >    \State $r\gets\{0,\dots,2^X-1\}$ uniformly randomly.
 >    \State $X\gets X+\delta_{0,r}$ \EndFor
 >	\Return $2^X-1$
