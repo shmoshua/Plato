@@ -87,57 +87,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "9aa7f8972cbdb9b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory/Martingale.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "525ac0c52116e684",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Special Linear Lie Algebra.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1d8258f5f1af4dc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Submanifold.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a58cffbc716a91b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Representation Theory/Lie Algebra.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Algorithms/Linear Probing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Differential Geometry/Submanifold.md",
+                "file": "Algorithms/Linear Probing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Differential Geometry/Submanifold.md"
+                "file": "Algorithms/Linear Probing.md"
               }
             }
           }
@@ -268,16 +220,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1d8258f5f1af4dc3",
+  "active": "e0be985889f4d072",
   "lastOpenFiles": [
-    "Representation Theory/Lie Algebra.md",
-    "Differential Geometry/Submanifold.md",
     "Probability Theory/Martingale.md",
+    "Representation Theory/Special Linear Lie Algebra.md",
+    "Differential Geometry/Submanifold.md",
+    "Representation Theory/Lie Algebra.md",
     "Algorithms/Linear Probing.md",
     "Algorithms/Paging.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Representation Theory/Special Linear Lie Algebra.md",
     "Courses/Linear System Theory/Problem Set 3.md",
     "Differential Geometry/Differential.md",
     "Algorithms/Competitive Online Algorithm.md",
