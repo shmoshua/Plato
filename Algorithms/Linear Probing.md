@@ -16,7 +16,7 @@
 
 ^279bcf
 
-> [!proof]+
+> [!proof]-
 > For $x\in [U]$, let $R(x):=\{ j\geq h(x):H[j]\neq {\bot} \}$. Then, every operation has runtime $\text{O}(\left| R(x) \right|+1)$. Hence, it suffices to show that $\left| R(x) \right|\in \text{O}(1)$ for all $x\in[U]$ in expectation.
 > 
 > Assume $m=2^k$. We have that: $$\mathbb{E}[\left| R(x) \right| ]\leq\sum_{\ell=1}^{k}2^{\ell}\mathbb{P}(2^{\ell-1}\leq\left| R(x) \right|< 2^{\ell})$$Hence, let's analyze $\mathbb{P}(2^{\ell-1}\leq\left| R(x) \right|< 2^{\ell})$. Let $S$ denote the dynamic collection of the hash table. Further, for every $0\leq \ell\leq k$, let $I_{\ell,i}:=[i\cdot 2^{\ell},(i+1)\cdot 2^{\ell})$
@@ -27,10 +27,12 @@
 > Now, we have that:$$\mathbb{P}(2^{\ell+2}\leq \left| R(x) \right| <  2^{\ell+3})\leq (2^3+1)\mathbb{P}\left(\left| h^{-1}(I_{\ell,i})\cap S \backslash \{ x \} \right|\geq \frac{3}{4}2^\ell \right)$$where $I_{\ell,i}\cap R(x)\neq \varnothing$. Let $I:=I_{\ell,i}$. Then, for any $y\in S \backslash \{ x \}$, let $X_{y}$ be the indicator variable for $h(y)\in I$. Let $X:=\sum_{y\in S \backslash \{ x \}}^{}X_{y}$ and then we have that:
 > 1. $\mathbb{E}[X]\leq n \cdot 2^{\ell} / m\leq \frac{2}{3}\cdot 2^{\ell}$.
 > 
-> Further, as $\{ X_{y} \}_{y\in S \backslash \{ x \}}$ are $4$-wise independent as $h$ is $5$-wise independent, we have that: 
-> 1. If $2^{\ell} / m\geq \frac{1}{n}$, then: $$\begin{align}\mathbb{P}\left(\left| h^{-1}(I)\cap S \backslash \{ x \} \right|\geq \frac{3}{4}2^\ell \right)\leq\mathbb{P}\left( X-\mu\geq \frac{1}{12}2^{\ell}\right)\leq\mathbb{P}\left( X-\mu> \frac{1}{10}\sqrt{ 2 ^\ell \mu}\right)\end{align}$$Hence, by [[Moment|Theorem 1]], $$\mathbb{P}\left(\left| h^{-1}(I)\cap S \backslash \{ x \} \right|\geq \frac{3}{4}2^\ell \right)< \frac{40000}{2^{2\ell}}$$Therefore, $\mathbb{P}(2^{\ell+2}\leq \left| R(x) \right| <  2^{\ell+3})=\text{O}(2^{-2\ell})$. 
-> 2. If $2^{\ell} / m< \frac{1}{n}$, then 
-> 3. 
-> 4. Hence, $$\mathbb{E}[\left| R(x) \right| ]\leq \sum_{\ell=1}^{k}2^{\ell}\text{O}(2^{-2\ell})=\sum_{\ell=1}^{k}\text{O}(2^{-\ell})=\text{O}(1)$$
+> Further, as $\{ X_{y} \}_{y\in S \backslash \{ x \}}$ are $4$-wise independent as $h$ is $5$-wise independent, we have that by [[Moment|Theorem 1]], $$\mathbb{P}\left(\left| h^{-1}(I)\cap S \backslash \{ x \} \right|\geq \frac{3}{4}2^\ell \right)\leq \mathbb{P}\left( X-\mu\geq \frac{1}{12}2^{\ell}\right)\leq 12^4\frac{\mu+3\mu^{2}}{2^{4\ell}}$$
+> 1. If $\mu\geq 1$, then: $$\mathbb{P}\left(\left| h^{-1}(I)\cap S \backslash \{ x \} \right|\geq \frac{3}{4}2^\ell \right)\leq O\left( \frac{\mu^{2}}{2^{4\ell}} \right)\leq O\left( \frac{1}{2^{2\ell}} \right) $$
+> 2. If $\mu<1$, then: $$\mathbb{P}\left(\left| h^{-1}(I)\cap S \backslash \{ x \} \right|\geq \frac{3}{4}2^\ell \right)\leq O\left( \frac{\mu}{2^{4\ell}} \right)\leq O\left( \frac{1}{2^{3\ell}} \right) $$
+>
+ Hence, $$\mathbb{E}[\left| R(x) \right| ]\leq \sum_{\ell=1}^{k}2^{\ell}\text{O}(2^{-2\ell})=\sum_{\ell=1}^{k}\text{O}(2^{-\ell})=\text{O}(1)$$
 
 ^2204d7
+
+---

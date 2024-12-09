@@ -190,9 +190,31 @@
 ![[Linear Probing#^ccfb2c]]
 
 ---
+![[Moment#^7763b9]]
+![[Moment#^9da4fc|p]]
+
+---
+
+
 ![[Linear Probing#^279bcf]]
 ![[Linear Probing#^2204d7|p]]
 
+---
+
+#### 3.2 Streaming Algorithms: Frequency Moments
+
+![[Streaming Algorithm#^b3edf5]]
+![[Streaming Algorithm#^5e97b2|q]]
+---
+##### 3.2.1 Estimating the First Moment of the Stream
+![[Streaming Algorithm#^9a34f6]]
+![[Streaming Algorithm#^1ebd3d|p]]
+---
+![[Streaming Algorithm#^38b8d5]]
+![[Streaming Algorithm#^eb91b6|p]]
+---
+![[Streaming Algorithm#^c2b6ca]]
+![[Streaming Algorithm#^8eb98b]]
 
 
 #### 5 Tree Embedding

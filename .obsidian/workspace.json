@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "mode": "source",
                 "source": true
               }
@@ -55,9 +55,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "d64abdd9624ea966",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Moment.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -82,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Linear Probing.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "mode": "preview",
                 "source": true
               }
@@ -100,8 +112,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Moment.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Moment.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Moment.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -232,8 +243,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "47febee2a1103d0c",
+  "active": "b3a0c52f3209a8cb",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Streaming Algorithm.md",
     "Algorithms/Linear Probing.md",
     "Probability Theory/Moment.md",
     "Probability Theory/Martingale.md",
@@ -242,7 +256,6 @@
     "Representation Theory/Lie Algebra.md",
     "Algorithms/Paging.md",
     "Algorithms/k-wise Independent Hash Function.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Linear System Theory/Problem Set 3.md",
     "Differential Geometry/Differential.md",
     "Algorithms/Competitive Online Algorithm.md",
@@ -259,8 +272,6 @@
     "Algorithms/PRAS.md",
     "Logic/Literal.md",
     "Untitled 1",
-    "Algorithms/Minimum Makespan Scheduling.md",
-    "Algorithms/FPTAS.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
