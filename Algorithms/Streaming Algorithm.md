@@ -155,6 +155,7 @@
 >    ```
 >    Let $i\in[n]$ appeared in $\mathcal{B}$ if there exists $a_{j}=i$ s.t. $\mathcal{B}\gets \mathcal{B}\cup \{ (g(a_{j}),\text{Zeroes}(h(a_{j}))) \}$ was executed. Let $S\subseteq[n]$ be the set of elements that appeared in $\mathcal{B}$.
 >    1. $\mathbb{P}(\exists i\neq j\in[n]:i,j\in S\land g(i)=g(j))\leq \frac{1}{6}$
+>    2. $\text{FM}+$ has space complexity $\text{O}(\log n+\varepsilon^{-2}(\log \log n+\log(1 / \varepsilon)))$  and$$\mathbb{P}(\left| \text{FM+}(S)-D \right|\geq \varepsilon D)\leq \frac{1}{3}$$
 
 > [!proof]+
 > We have that:
@@ -170,9 +171,16 @@
 > 	Therefore, now fix an input $a_{1},\dots,a_{m}$. Let $\mathcal{A}$ be a run of $\text{FM}+$ where we replace $\mathcal{B}\gets \mathcal{B}\cup\{ (g(a_{j}),\text{Zeroes}(h(a_{j}))) \}$ with $\mathcal{B}\gets \mathcal{B}\cup\{ (a_{j},\text{Zeroes}(h(a_{j}))) \}$. Let $S'$ be the sets of elements added to $\mathcal{B}$ in $\mathcal{A}$. Then, by Claim 1, $\left| S' \right|\leq C'(\log n+2) / \varepsilon^{2}$. 
 > 	
 > 	Now, coming back to $\text{FM}+$, let $E$ denote the event that there exists distinct $i,j\in S'$ with $g(i)=g(j)$. Then, $$\begin{align}\mathbb{P}(\exists i\neq j\in[n]:i,j\in S\land g(i)=g(j))&\leq \underbrace{ \mathbb{P}(\exists i\neq j\in[n]:i,j\in S\land g(i)=g(j)|\overline{E}) }_{ =0 }+\mathbb{P}(E)\\&=\mathbb{P}(E)\leq \frac{1}{6}\end{align}$$
-> 2. Let $X_{j,r}$ denote the indicator variable that $\text{Zeroes}(h(j))\geq r$. Further, $X_{r}:=\sum_{j\in J}^{}X_{j,r}$ Then, similarly, as Theorem 3, 
-> 	1. $\mathbb{E}[X_{r}]=\frac{D}{2^r}$ and
-> 	2. $\text{Var}(X_{r})\leq \frac{D}{2^r}$.
+> 2. Assume that there exist no collisions in $g$ from all elements added to $\mathcal{B}$. Denote this event as $E$. Let $Y_{j,r}$ denote the indicator variable that $\text{Zeroes}(h(j))\geq r$. Further, $Y_{r}:=\sum_{j\in J}^{}X_{j,r}$ Then, similarly, as Theorem 3, 
+> 	1. $\mathbb{E}[Y_{r}]=\frac{D}{2^r}$ and
+> 	2. $\text{Var}(Y_{r})\leq \frac{D}{2^r}$.
+> 	
+> 	Now, let $\tau$ be the unique integer s.t. $12\varepsilon^{-2}\leq \frac{D}{2^\tau}\leq 24\varepsilon^{-2}$. Then, $\left| \mathcal{B} \right|=Y_{X}$. Hence, $$\begin{align}\mathbb{P}(\left| Y_{X}2^X-D \right| \geq \varepsilon D)&=\mathbb{P}\left( \left| Y_{X}-\frac{D}{2^X} \right| \geq \frac{\varepsilon D}{2^X} \right)\\&=\sum_{r=0}^{\log n}\mathbb{P}\left( \left| Y_{r}-\frac{D}{2^r} \right| \geq \frac{\varepsilon D}{2^r} ,X=r\right)\\&\leq\sum_{r=0}^{\tau-1}\mathbb{P}\left( \left| Y_{r}-\frac{D}{2^r} \right| \geq \frac{\varepsilon D}{2^r}\right)+\sum_{r=\tau}^{\log n}\mathbb{P}(X=r) \end{align}$$For the latter term, notice that if $X\geq \tau$, then the while loop was triggered when $X=\tau-1$. Hence, $Y_{\tau-1}\geq C' / \varepsilon^{2}$. Therefore, by Markov:$$\sum_{r=\tau}^{\log n}\mathbb{P}(X=\tau)\leq \mathbb{P}(X\geq \tau)\leq\mathbb{P}(Y_{\tau-1}>C'/\varepsilon^{2})\leq \frac{D\varepsilon^2}{2^{\tau-1}C'}\leq \frac{48}{C'}=\frac{1}{12}$$for $C'=576$.
+> 	
+> 	For the first term, $$\begin{align}\sum_{r=0}^{\tau-1}\mathbb{P}\left( \left| Y_{r}-\frac{D}{2^r} \right| \geq \frac{\varepsilon D}{2^r}\right)&\leq \sum_{r=0}^{\tau-1}\frac{\text{Var}(Y_{r})2^{2r}}{\varepsilon^{2}D^{2}}\leq \sum_{r=0}^{\tau-1}\frac{2^r}{\varepsilon^{2}D}\leq \frac{2^\tau}{\varepsilon^{2}D}\leq \frac{1}{12}\end{align}$$Therefore, $\mathbb{P}(\left| Y_{X}2^X-D \right| \geq \varepsilon D)\leq 1 /6$.
+> 	
+> 	Finally, we have that: $$\mathbb{P}(\left| Y_{X}2^X-D \right| \geq \varepsilon D)\leq\mathbb{P}(\left| Y_{X}2^X-D \right| \geq \varepsilon D|E)+\mathbb{P}(\overline{E})\leq \frac{1}{3}$$
+> 	The space complexity is given as follows. Saving the hash functions can be done in $\text{O}(\log n+\log b)$. Further, each $(g(a_{i}),\text{Zeroes}(h(a_{i})))$ can be saved in $\text{O}(\log b+\log\log n)$ bits where $\text{O}(\log b)=\text{O}(\log \log n+\log (1 /\varepsilon))$. We can conclude by saying that we save at most $$
 > 
 ---
 ###### Finding the Majority Element
