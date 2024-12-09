@@ -119,7 +119,11 @@
 > [!proof]+
 > Let $J\subseteq[n]$ be the set of all distinct elements in the stream. Then, for each $j\in [n]$ and $r\in \mathbb{Z}_{\geq 0}$, let $X_{j,r}$ be the indicator variable denoting $\text{Zeroes}(h(j))\geq r$. Let $X_{r}:=\sum_{j\in J}^{}X_{j,r}$. We have:
 > 1. $\mathbb{E}[X_{r}]=\sum_{j\in J}^{}\mathbb{E}[X_{j,r}]=\sum_{j\in J}^{} \frac{1}{2^r}=\frac{D}{2^r}$
-> 2. $\text{Var}(X_{r})\leq \sum_{n=1}^{}$
+> 2. $\text{Var}(X_{r})=\sum_{j\in J}\mathbb{E}[X_{j,r}^{2}]-\mathbb{E}[X_{j,r}]^{2}\leq \sum_{j\in J}^{}\mathbb{E}[X_{j,r}^{2}]=\sum_{j\in J}^{}\mathbb{E}[X_{j,r}]=\frac{D}{2^r}$
+> 
+> Now, let $\tau_{\text{high}}:=\min\{ t\in \mathbb{Z}:2^{t+1/2}>3D \}$ and $\tau_{\text{low}}:=\max\{ t\in \mathbb{Z}:2^{t+1 /2}<D /3 \}$ 
+> 1. If $X\geq \tau_{\text{high}}$ then there exists $j\in J$ with $\text{Zeroes}(h(a_{i}))\geq \tau_{\text{high}}$, i.e. $X_{\tau_{\text{high}}}\geq 1$. Therefore, we have that: $$\begin{align}\mathbb{P}(X\geq \tau_{\text{high}} )\leq \mathbb{P}(X_{\tau_{\text{high}}}\geq 1)\leq \mathbb{E}[X_{\tau_{\text{high}}}]=\frac{D}{2^{\tau_{\text{high}}}}<\frac{\sqrt{ 2 }}{3}\end{align}$$
+> 2. If $X\leq \tau_{\text{low}}$, then $X_{\tau_{\text{low}}+1}=0$. Therefore, 
 
 ^30c4d1
 
