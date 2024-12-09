@@ -112,18 +112,20 @@
 >    \end{algorithm}
 >    ```
 >    where $\text{Zeroes}(x)=\max\{r\in \mathbb{Z}_{\geq 0}:2^r|x\}$.  Let $D$ be the number of distinct elements in the stream.
->    1. $\text{FM}$ uses $\text{O}(\log n)$ space and $\mathbb{P}(\left| \text{FM}(S)-D \right|\geq 2D)\leq $
+>    1. $\text{FM}$ uses $\text{O}(\log n)$ space and $\mathbb{P}(D / 3\leq \text{FM}(S)\leq 3D)\geq 1-\frac{2\sqrt{ 2 }}{3}$.
 
 ^399e1c
 
-> [!proof]+
+> [!proof]-
 > Let $J\subseteq[n]$ be the set of all distinct elements in the stream. Then, for each $j\in [n]$ and $r\in \mathbb{Z}_{\geq 0}$, let $X_{j,r}$ be the indicator variable denoting $\text{Zeroes}(h(j))\geq r$. Let $X_{r}:=\sum_{j\in J}^{}X_{j,r}$. We have:
 > 1. $\mathbb{E}[X_{r}]=\sum_{j\in J}^{}\mathbb{E}[X_{j,r}]=\sum_{j\in J}^{} \frac{1}{2^r}=\frac{D}{2^r}$
 > 2. $\text{Var}(X_{r})=\sum_{j\in J}\mathbb{E}[X_{j,r}^{2}]-\mathbb{E}[X_{j,r}]^{2}\leq \sum_{j\in J}^{}\mathbb{E}[X_{j,r}^{2}]=\sum_{j\in J}^{}\mathbb{E}[X_{j,r}]=\frac{D}{2^r}$
 > 
 > Now, let $\tau_{\text{high}}:=\min\{ t\in \mathbb{Z}:2^{t+1/2}>3D \}$ and $\tau_{\text{low}}:=\max\{ t\in \mathbb{Z}:2^{t+1 /2}<D /3 \}$ 
 > 1. If $X\geq \tau_{\text{high}}$ then there exists $j\in J$ with $\text{Zeroes}(h(a_{i}))\geq \tau_{\text{high}}$, i.e. $X_{\tau_{\text{high}}}\geq 1$. Therefore, we have that: $$\begin{align}\mathbb{P}(X\geq \tau_{\text{high}} )\leq \mathbb{P}(X_{\tau_{\text{high}}}\geq 1)\leq \mathbb{E}[X_{\tau_{\text{high}}}]=\frac{D}{2^{\tau_{\text{high}}}}<\frac{\sqrt{ 2 }}{3}\end{align}$$
-> 2. If $X\leq \tau_{\text{low}}$, then $X_{\tau_{\text{low}}+1}=0$. Therefore, 
+> 2. If $X\leq \tau_{\text{low}}$, then $X_{\tau_{\text{low}}+1}=0$. Therefore, by [[Expected Value|Proposition 1.3]] $$\mathbb{P}(X\leq \tau_{\text{low}})\leq \mathbb{P}(X_{\tau_{\text{low}}+1}=0)\leq \frac{\text{Var}(X_{\tau_{\text{low}}+1})}{\mathbb{E}[X_{\tau_{\text{low}}+1}]^{2}}\leq \frac{2^{\tau_{\text{low}}+1}}{D}<\frac{\sqrt{ 2 }}{3}$$
+>    
+> By union bound, we have that: $$\mathbb{P}(D / 3\leq \text{FM}(S)\leq 3D)\geq 1-\frac{2\sqrt{ 2 }}{3}$$
 
 ^30c4d1
 
