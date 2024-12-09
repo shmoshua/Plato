@@ -28,52 +28,17 @@
 ---
 
 > [!lemma] Theorem 2 (Median Trick)
-> Let $\mathcal{A}$ be an streaming algorithm estimating $x$ with: $$\mathbb{P}(\left| \mathcal{A}(S)-x \right| \geq \varepsilon x)$$ and let $\mathcal{B}$ be the algorithm that runs $\mathcal{A}$ $k$ times and takes the mean, then: 
-> 
-> Consider the algorithm: 
->    ```pseudo
->    \begin{algorithm} \caption{Morris++($S=(a_{1},\dots,a_{m}),\varepsilon,\delta$)} 
->    \begin{algorithmic}
->    \State $t\gets \left\lceil 24\log (1 / \delta)\right\rceil$
->    \For{$i\in[t]$}
->    \State $Z_{i}\gets $\Call{Morris+}{$S,\varepsilon$}
->    \EndFor
->    \Return median among all $Z_{i}$
->    \end{algorithmic}
->    \end{algorithm}
->    ```
->    For any stream $S$ and $\varepsilon,\delta>0$, 
->    1. $\text{Morris+}$ uses space $\text{O}(\varepsilon^{-2}\log \log m\log(1 / \delta))$ and $$\mathbb{P}(\left| \text{Morris++}(S) -m \right|>\varepsilon m )\leq \delta$$
+> Let $\mathcal{A}$ be an streaming algorithm estimating $x$ with: $$\mathbb{P}(\left| \mathcal{A}(S)-x \right| \leq  \varepsilon x)\geq q> \frac{1}{2}$$ and let $\mathcal{B}$ be the algorithm that runs $\mathcal{A}$ $t$ times and takes the median, then: 
+> 1. $\mathbb{P}(\left| \mathcal{B}(S)-x \right|>\varepsilon x)\leq\exp \left( -\frac{\left( 1-\frac{1}{2q} \right)^{2}tq}{2} \right)$
+> 2. For any $\delta>0$, if $t\geq\frac{2\ln(1/\delta)}{q\left( 1-\frac{1}{2q} \right)^{2}}$, then $\mathbb{P}(\left| \mathcal{B}(S)-x \right|\geq \varepsilon x)\leq\delta$.
+
 
 ^c2b6ca
 
 > [!proof]-
-> Let $I_{i}$ denote the indicator variable that the $i$-th run of $\text{Morris+}(S,\varepsilon)$ succeeds. Let $p:=\mathbb{P}(\left| \text{Morris+}(S) -m \right|\leq\varepsilon m )\geq \frac{3}{4}$. Then, $\mathbb{E}\left[ \sum_{i=1}^{t}I_{i} \right]\leq t /4$. $$\begin{align}\mathbb{P}(\left| \text{Morris++}(S) -m \right|>\varepsilon m )&=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}< \frac{t}{2} \right)\\&=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}<\left( \frac{1}{2p} \right)tp\right) \\&\leq \exp \left( -\frac{\left( 1-\frac{1}{2p} \right)^{2}tp}{2} \right) \\&\leq \exp \left( -\frac{t}{24} \right)\\&\leq \delta  \end{align}$$
+> Let $I_{i}$ denote the indicator variable that the $i$-th run of $\mathcal{A}$ succeeds. Let $p:=\mathbb{P}(\left| \mathcal{A}(S) -x \right|\leq\varepsilon x )>1 /2$. Then, $\mathbb{E}\left[ \sum_{i=1}^{t}I_{i} \right]=tp$ and: $$\begin{align}\mathbb{P}(\left| \mathcal{B}(S) -x \right|>\varepsilon x )&=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}< \frac{t}{2} \right)=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}<\left( \frac{1}{2p} \right)tp\right) \\&\leq \exp \left( -\frac{\left( 1-\frac{1}{2p} \right)^{2}tp}{2} \right)  \end{align}$$
 
 ^8eb98b
-
-
-> [!lemma] Theorem 2 (Morris Counter+)
-> Consider the algorithm: 
->    ```pseudo
->    \begin{algorithm} \caption{Morris+($S=(a_{1},\dots,a_{m}),\varepsilon$)} 
->    \begin{algorithmic}
->    \State $k\gets \left\lceil 2/\varepsilon ^{2}\right\rceil$
->    \For{$i\in[k]$}
->    \State $Y_{i}\gets $\Call{Morris}{$S$}\EndFor
->    \Return $\overline{Y}:=\frac{1}{k}\sum_{i=1}^{k}Y_{i}$
->    \end{algorithmic}
->    \end{algorithm}
->    ```
->    For any stream $S$ and $\varepsilon>0$, 
->    1. $\text{Morris+}$ uses space $\text{O}(\varepsilon^{-2}\log \log m)$ and $$\mathbb{P}(\left| \text{Morris+}(S) -m \right|>\varepsilon m )\leq \frac{1}{4}$$
-
-^38b8d5
-
-> [!proof]-
-> We have that: $$\begin{align} \mathbb{P}\left(\left| \overline{Y} -1-m\right| >\ell m\right)&\leq \frac{\text{Var}(\overline{Y})}{\ell^{2}m^{2}}\\&\le \frac{1}{2k\ell^{2}}\end{align}$$Therefore, by choosing $\ell=\sqrt{ 2 / k }\geq \varepsilon$, we have: $$\mathbb{P}(\left| \overline{Y}-(m+1) \right|> \varepsilon m)\leq 1/4$$
-
-^eb91b6
 
 ---
 
@@ -124,31 +89,9 @@
 > 5. Notice that we have $X\in O(\log m)$ w.h.p and we need $O(\log X)$ bits for the algorithm.
 
 ^1ebd3d
-
----
-> [!lemma] Theorem 3 (Morris Counter++)
-> Consider the algorithm: 
->    ```pseudo
->    \begin{algorithm} \caption{Morris++($S=(a_{1},\dots,a_{m}),\varepsilon,\delta$)} 
->    \begin{algorithmic}
->    \State $t\gets \left\lceil 24\log (1 / \delta)\right\rceil$
->    \For{$i\in[t]$}
->    \State $Z_{i}\gets $\Call{Morris+}{$S,\varepsilon$}
->    \EndFor
->    \Return median among all $Z_{i}$
->    \end{algorithmic}
->    \end{algorithm}
->    ```
->    For any stream $S$ and $\varepsilon,\delta>0$, 
->    1. $\text{Morris+}$ uses space $\text{O}(\varepsilon^{-2}\log \log m\log(1 / \delta))$ and $$\mathbb{P}(\left| \text{Morris++}(S) -m \right|>\varepsilon m )\leq \delta$$
-
-^c2b6ca
-
-> [!proof]-
-> Let $I_{i}$ denote the indicator variable that the $i$-th run of $\text{Morris+}(S,\varepsilon)$ succeeds. Let $p:=\mathbb{P}(\left| \text{Morris+}(S) -m \right|\leq\varepsilon m )\geq \frac{3}{4}$. Then, $\mathbb{E}\left[ \sum_{i=1}^{t}I_{i} \right]\leq t /4$. $$\begin{align}\mathbb{P}(\left| \text{Morris++}(S) -m \right|>\varepsilon m )&=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}< \frac{t}{2} \right)\\&=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}<\left( \frac{1}{2p} \right)tp\right) \\&\leq \exp \left( -\frac{\left( 1-\frac{1}{2p} \right)^{2}tp}{2} \right) \\&\leq \exp \left( -\frac{t}{24} \right)\\&\leq \delta  \end{align}$$
-
-^8eb98b
-
+- **Corollary**: We have that:
+	1. By using the mean trick with $k=\left\lceil 2 / \varepsilon^2\right\rceil$, $\mathbb{P}(\left| \mathcal{B}(S)-m \right|\geq \varepsilon m)\leq 1 /2k\varepsilon^2<1/4$ in space complexity $\text{O}(\varepsilon^{-2}\log \log m)$
+	2. By further using the median trick with $t=\left\lceil 24\ln(1 / \delta)\right\rceil$, $\mathbb{P}(\left| \mathcal{B}(S)-m \right|\geq \varepsilon m)\leq \delta$ in space complexity $\text{O}(\varepsilon^{-2}\log \log m\log(1 / \delta))$.
 ---
 ###### Estimating the 0-th moment
 
