@@ -38,6 +38,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "60b2c8adb7a502c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Algorithms/Paging.md",
                 "mode": "source",
                 "source": true
@@ -58,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Paging.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -70,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Competitive Online Algorithm.md",
+                "file": "Algorithms/k-wise Independent Hash Function.md",
                 "mode": "preview",
                 "source": true
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Paging.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Paging.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Paging.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -206,12 +218,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "215049b117e502c5",
+  "active": "c6a785cfe1ec71fc",
   "lastOpenFiles": [
+    "Algorithms/k-wise Independent Hash Function.md",
     "Algorithms/Competitive Online Algorithm.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Paging.md",
     "Algorithms/Multi-Commodity Routing.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Randomized Online Algorithm.md",
     "Algorithms/Minimum Set Cover.md",
     "Algorithms/Minimum Vertex Cover.md",
@@ -234,7 +247,6 @@
     "Set Theory/Intersecting Family.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 9.md",
     "Courses/Measure Theory/Sheet 10.md",
-    "Graph Theory/Graph Coloring.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",

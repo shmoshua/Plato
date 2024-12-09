@@ -160,4 +160,39 @@
 ![[Paging#^7391c2|p]]
 
 ---
+
+![[Paging#^d6ecda]]
+![[Paging#^9aa545|p]]
+
+---
+### 3. Hashing, Streaming and Sparsification
+
+#### 3.1 Advanced Hashing Algorithms
+
+![[k-wise Independent Hash Function#^a7c7d2]]
+![[k-wise Independent Hash Function#^c24dfd|q]]
+
+---
+![[k-wise Independent Hash Function#^8f5cf5]]
+![[k-wise Independent Hash Function#^e73efd|p]]
+
+---
+![[k-wise Independent Hash Function#^01f92a]]
+![[k-wise Independent Hash Function#^8cb2fe|p]]
+
+---
+![[k-wise Independent Hash Function#^43fcd1]]
+![[k-wise Independent Hash Function#^cf7bff|p]]
+
+---
+##### 3.1.1 Linear Probing
+
+![[Linear Probing#^ccfb2c]]
+
+---
+![[Linear Probing#^279bcf]]
+![[Linear Probing#^2204d7|p]]
+
+
+
 #### 5 Tree Embedding

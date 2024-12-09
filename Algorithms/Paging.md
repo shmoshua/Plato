@@ -31,7 +31,7 @@
 
 ^4e0de5
 
-> [!proof]+
+> [!proof]-
 > Let $U:=[k+1]$. Let the adversary pick an input sequence $\sigma:=(u_{n})_{n}$ s.t. $u_{n}\notin S_{n-1}$. Hence, 
 > 1. $\text{cost}_{\mathcal{A}}(\sigma)=\left| \sigma \right|=:m$. 
 > 
@@ -66,7 +66,7 @@
 
 ^0ffb3f
 
-> [!proof]+
+> [!proof]-
 > Assume that $i\in [m]$ s.t. $v=0$ right before iteration $i$. Let: $$j:=\min\{  j>i: \|v_{j}\|_{1} =k \}$$where $v_{j}$ denotes $v$ at iteration $j$. Then, let $P:=\{ u_{i},\dots,u_{j} \}$. We define:
 > 1. $m:=\left| \{ u_\ell\in P:u_{\ell}\notin S_{i} \} \right|$ the number of unique new requests
 > 2. $o:=\left| \{ u_\ell\in P:u_{\ell}\in S_{i} \} \right|$ the number of unique old requests
@@ -80,8 +80,13 @@
 > [!lemma] Theorem 4
 > Every randomized algorithm $\mathcal{A}$ for paging is $\Omega(\log k)$-competitive against an oblivious adversary.
 
-> [!proof]+
+^d6ecda
+
+> [!proof]-
 > Let $m\in \mathbb{N}$ and $q \sim \text{U}(\{ 0,1\dots,k+1 \}^m)$ be a uniform distribution. Then, the probability of having a cache miss is $\frac{1}{k+1}$ for any algorithm $a$. Hence, $\mathbb{E}_{q}[c_{a}(\sigma)]=\frac{m}{k+1}$. 
 > 
 > On the other hand, consider the greedy offline algorithm that choose to evict the page that is requested furthest in the future. As before, we denote a phase as a maximal run where there are $k$ distinct page requests. This means that: $$c_{\text{OPT}}(\sigma)\leq \text{\#phases}=\frac{m}{\text{averange phase length}}$$Hence, the competitive ratio $\alpha_{a}(\sigma)\geq \frac{c_{a}(\sigma)}{m}\cdot\text{averange phase length}$. 
+
+^9aa545
+
 ---
