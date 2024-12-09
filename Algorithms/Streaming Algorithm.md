@@ -12,6 +12,71 @@
 ---
 ##### Properties
 
+> [!lemma] Theorem 1 (Mean Trick)
+> Let $\mathcal{A}$ be an streaming algorithm estimating $x$ and let $\mathcal{B}$ be the algorithm that runs $\mathcal{A}$ $k$ times and takes the mean, then: 
+> 1. $\mathbb{P}(\left| \mathcal{B}(S)-x \right|\geq \varepsilon x)\leq \text{Var}(\mathcal{A}(S)) /k\varepsilon^2x^2$
+> 2. $\mathcal{B}$ has space complexity $k$ times that of $\mathcal{A}$.
+
+
+^38b8d5
+
+> [!proof]-
+> We have that: $$\begin{align} \mathbb{P}(\left| \mathcal{B}(S)-x \right|\geq \varepsilon x)\leq \frac{\text{Var}(\mathcal{B}(S))}{\varepsilon^2x^2}=\frac{\text{Var}(\mathcal{A}(S))}{k\varepsilon^2x^2}\end{align}$$
+
+^eb91b6
+
+---
+
+> [!lemma] Theorem 2 (Median Trick)
+> Let $\mathcal{A}$ be an streaming algorithm estimating $x$ with: $$\mathbb{P}(\left| \mathcal{A}(S)-x \right| \geq \varepsilon x)$$ and let $\mathcal{B}$ be the algorithm that runs $\mathcal{A}$ $k$ times and takes the mean, then: 
+> 
+> Consider the algorithm: 
+>    ```pseudo
+>    \begin{algorithm} \caption{Morris++($S=(a_{1},\dots,a_{m}),\varepsilon,\delta$)} 
+>    \begin{algorithmic}
+>    \State $t\gets \left\lceil 24\log (1 / \delta)\right\rceil$
+>    \For{$i\in[t]$}
+>    \State $Z_{i}\gets $\Call{Morris+}{$S,\varepsilon$}
+>    \EndFor
+>    \Return median among all $Z_{i}$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    For any stream $S$ and $\varepsilon,\delta>0$, 
+>    1. $\text{Morris+}$ uses space $\text{O}(\varepsilon^{-2}\log \log m\log(1 / \delta))$ and $$\mathbb{P}(\left| \text{Morris++}(S) -m \right|>\varepsilon m )\leq \delta$$
+
+^c2b6ca
+
+> [!proof]-
+> Let $I_{i}$ denote the indicator variable that the $i$-th run of $\text{Morris+}(S,\varepsilon)$ succeeds. Let $p:=\mathbb{P}(\left| \text{Morris+}(S) -m \right|\leq\varepsilon m )\geq \frac{3}{4}$. Then, $\mathbb{E}\left[ \sum_{i=1}^{t}I_{i} \right]\leq t /4$. $$\begin{align}\mathbb{P}(\left| \text{Morris++}(S) -m \right|>\varepsilon m )&=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}< \frac{t}{2} \right)\\&=\mathbb{P}\left( \sum_{i=1}^{t}I_{i}<\left( \frac{1}{2p} \right)tp\right) \\&\leq \exp \left( -\frac{\left( 1-\frac{1}{2p} \right)^{2}tp}{2} \right) \\&\leq \exp \left( -\frac{t}{24} \right)\\&\leq \delta  \end{align}$$
+
+^8eb98b
+
+
+> [!lemma] Theorem 2 (Morris Counter+)
+> Consider the algorithm: 
+>    ```pseudo
+>    \begin{algorithm} \caption{Morris+($S=(a_{1},\dots,a_{m}),\varepsilon$)} 
+>    \begin{algorithmic}
+>    \State $k\gets \left\lceil 2/\varepsilon ^{2}\right\rceil$
+>    \For{$i\in[k]$}
+>    \State $Y_{i}\gets $\Call{Morris}{$S$}\EndFor
+>    \Return $\overline{Y}:=\frac{1}{k}\sum_{i=1}^{k}Y_{i}$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    For any stream $S$ and $\varepsilon>0$, 
+>    1. $\text{Morris+}$ uses space $\text{O}(\varepsilon^{-2}\log \log m)$ and $$\mathbb{P}(\left| \text{Morris+}(S) -m \right|>\varepsilon m )\leq \frac{1}{4}$$
+
+^38b8d5
+
+> [!proof]-
+> We have that: $$\begin{align} \mathbb{P}\left(\left| \overline{Y} -1-m\right| >\ell m\right)&\leq \frac{\text{Var}(\overline{Y})}{\ell^{2}m^{2}}\\&\le \frac{1}{2k\ell^{2}}\end{align}$$Therefore, by choosing $\ell=\sqrt{ 2 / k }\geq \varepsilon$, we have: $$\mathbb{P}(\left| \overline{Y}-(m+1) \right|> \varepsilon m)\leq 1/4$$
+
+^eb91b6
+
+---
+
 ###### Estimating the 1st Moment
 > [!lemma] Theorem 1 (Morris Counter)
 > Consider the algorithm: 
@@ -20,10 +85,19 @@
 >    \begin{algorithmic}
 >    \State $X\gets 0$
 >    \For{$a_{i}\in S$}
->    \If{}
+>    \State $r\gets 0$
+>    \For{$j\in X$}
+>    \State $b\gets\{0,1\}$ uniform random bit
+>    \If{$b=1$}
+>    \Break
+\EndIf
+>   
+>    \State $r\gets r+1$
+>    \EndFor
+>    \If{$r=X$}
+>    \State $X\gets X+1$ 
 >    \EndIf
->    \State $r\gets\{0,\dots,2^X-1\}$ uniformly randomly.
->    \State $X\gets X+\delta_{0,r}$ \EndFor
+>    \EndFor
 >	\Return $2^X-1$
 >    \end{algorithmic}
 >    \end{algorithm}
@@ -47,32 +121,9 @@
 > 	2. for $m\geq 1$, we have that: $$\begin{align}\mathbb{E}[2^{2X_{m}}]&=\sum_{j=1}^{m-1}\mathbb{E}[2^{2X_{m}}|X_{m-1}=j]\mathbb{P}(X_{m-1}=j)\\&=\sum_{j=1}^{m-1}(2^{2j+2}\cdot 2^{-j}+2^{2j}(1-2^{-j}))\mathbb{P}(X_{m-1}=j)\\&=\sum_{j=1}^{m-1}(2^{2j}+3\cdot 2^{j})\mathbb{P}(X_{m-1}=j)\\&=\mathbb{E}[2^{2X_{m-1}}]+3\cdot \mathbb{E}[2^{X_{m-1}}]\\&=\frac{3}{2}(m-1)^{2}+\frac{3}{2}(m-1)+1+3m\\&=\frac{3}{2}m^{2}+\frac{3}{2}m+1\end{align}$$
 > 3. We have that: $$\begin{align}\text{Var}(2^{X_{m}}-1)&=\mathbb{E}[2^{2X_{m}}-2(m+1)2^{X_{m}}+(m+1)^{2}]\\&=\frac{3}{2}m^{2}+\frac{3}{2}m+1-(m+1)^{2}\\&=\frac{m^{2}}{2}-\frac{m}{2}\end{align}$$
 > 4. By Chebyshev, we have:$$\mathbb{P}(\left| 2^{X_{m}}-1-m \right|\geq \ell m)\leq \frac{1}{2\ell^{2}}$$
-> 5. Notice that we have $X\in O(\log\log m)$.
+> 5. Notice that we have $X\in O(\log m)$ w.h.p and we need $O(\log X)$ bits for the algorithm.
 
 ^1ebd3d
-
----
-> [!lemma] Theorem 2 (Morris Counter+)
-> Consider the algorithm: 
->    ```pseudo
->    \begin{algorithm} \caption{Morris+($S=(a_{1},\dots,a_{m}),\varepsilon$)} 
->    \begin{algorithmic}
->    \State $k\gets \left\lceil 2/\varepsilon ^{2}\right\rceil$
->    \For{$i\in[k]$}
->    \State $Y_{i}\gets $\Call{Morris}{$S$}\EndFor
->    \Return $\overline{Y}:=\frac{1}{k}\sum_{i=1}^{k}Y_{i}$
->    \end{algorithmic}
->    \end{algorithm}
->    ```
->    For any stream $S$ and $\varepsilon>0$, 
->    1. $\text{Morris+}$ uses space $\text{O}(\varepsilon^{-2}\log \log m)$ and $$\mathbb{P}(\left| \text{Morris+}(S) -m \right|>\varepsilon m )\leq \frac{1}{4}$$
-
-^38b8d5
-
-> [!proof]-
-> We have that: $$\begin{align} \mathbb{P}\left(\left| \overline{Y} -1-m\right| >\ell m\right)&\leq \frac{\text{Var}(\overline{Y})}{\ell^{2}m^{2}}\\&\le \frac{1}{2k\ell^{2}}\end{align}$$Therefore, by choosing $\ell=\sqrt{ 2 / k }\geq \varepsilon$, we have: $$\mathbb{P}(\left| \overline{Y}-(m+1) \right|> \varepsilon m)\leq 1/4$$
-
-^eb91b6
 
 ---
 > [!lemma] Theorem 3 (Morris Counter++)

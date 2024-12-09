@@ -69,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Assignment 11.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "mode": "preview",
                 "source": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Assignment 11.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Assignment 11.md",
+                "file": "Algorithms/Streaming Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Assignment 11.md"
+                "file": "Algorithms/Streaming Algorithm.md"
               }
             }
           }
@@ -245,11 +245,12 @@
   },
   "active": "e0be985889f4d072",
   "lastOpenFiles": [
+    "Courses/Advanced Algorithms/Assignment 11.md",
     "Algorithms/Streaming Algorithm.md",
-    "Probability Theory/Moment.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Algorithms/Linear Probing.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Probability Theory/Moment.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Probability Theory/Martingale.md",
     "Representation Theory/Special Linear Lie Algebra.md",
     "Differential Geometry/Submanifold.md",
@@ -270,7 +271,6 @@
     "Algorithms/FPRAS.md",
     "Algorithms/Approximation Algorithm.md",
     "Algorithms/PRAS.md",
-    "Logic/Literal.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
