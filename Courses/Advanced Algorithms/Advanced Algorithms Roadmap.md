@@ -223,6 +223,9 @@
 ---
 ##### 3.2.2 Estimating the Zeroth Moment of the Stream
 ![[Streaming Algorithm#^399e1c]]
-![[Streaming Algorithm#^30c4d1|p]]
+![[Streaming Algorithm#^894eb0|p]]
+![[Streaming Algorithm#^001d15|q]]
+---
+##### 3.2.3
 
 #### 5 Tree Embedding

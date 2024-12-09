@@ -90,7 +90,6 @@
 
 ^1f7d2d
 
-^1ebd3d
 - **Corollary**: We have that: ^39fa84
 	1. By using the mean trick with $k=\left\lceil 2 / \varepsilon^2\right\rceil$, $\mathbb{P}(\left| \mathcal{B}(S)-m \right|\geq \varepsilon m)\leq 1 /2k\varepsilon^2<1/4$ in space complexity $\text{O}(\varepsilon^{-2}\log \log m)$
 	2. By further using the median trick with $t=\left\lceil 24\ln(1 / \delta)\right\rceil$, $\mathbb{P}(\left| \mathcal{B}(S)-m \right|\geq \varepsilon m)\leq \delta$ in space complexity $\text{O}(\varepsilon^{-2}\log \log m\log(1 / \delta))$.
@@ -127,8 +126,33 @@
 >    
 > By union bound, we have that: $$\mathbb{P}(D / 3\leq \text{FM}(S)\leq 3D)\geq 1-\frac{2\sqrt{ 2 }}{3}$$
 
-^30c4d1
-
+^894eb0
+- **Corollary**: We have that: ^001d15
+	- By using the mean trick with $k=50$, we get that $\mathbb{P}(X\leq \tau_{\text{low}})< \frac{1}{50}$. Hence, $\mathbb{P}(D / 3\leq \mathcal{B}(S)\leq 3D)\geq \frac{51}{100}$.
+	- By using the median trick with $t:=\text{O}(\log(1 / \delta))$, we get that $\mathbb{P}(D / 3\leq \mathcal{B}(S)\leq 3D)\geq 1-\delta$ in space $\text{O}(\log n \log(1 / \delta))$.
+---
+> [!lemma] Theorem 4 (FM+,BJKST)
+> Consider the algorithm:
+>    ```pseudo
+>    \begin{algorithm} \caption{FM+($S=(a_{1},\dots,a_{m})$)} 
+>    \begin{algorithmic}
+>    \State $h:[n]\to[n]\gets$ uniform, 2-wise independent random hash function.
+>    \State $h:[n]\to[b]\gets$ uniform, 2-wise independent random hash function where $b=C\varepsilon^{-4}\log^2n$.
+>    \State $\mathcal{B}\gets \varnothing$
+>    \State $X\gets 0$
+>    \For{$a_{i}\in S$}
+>    \If{$\text{Zeros}(h(a_{i}))\geq X$}
+>    \State $\mathcal{B}\gets\mathcal{B}\cup \{ (g(a_{i}),\text{Zeroes}(h(a_{i}))) \}$
+>    \While{$\left| \mathcal{B} \right|\geq C\varepsilon^{-2}$}
+>    \State $X\gets X+1$
+>    \State Remove from $\mathcal{B}$ all elements $(\alpha,\beta)$ with $\beta<X$.
+\EndWhile
+\EndIf
+>    \EndFor
+>    \Return $\left| \mathcal{B} \right|\cdot2^{X}$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
 ---
 ###### Finding the Majority Element
 > [!lemma] Theorem 4

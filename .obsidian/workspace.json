@@ -62,14 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -245,9 +245,9 @@
   },
   "active": "e0be985889f4d072",
   "lastOpenFiles": [
-    "Probability Theory/Expected Value.md",
-    "Algorithms/Streaming Algorithm.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Streaming Algorithm.md",
+    "Probability Theory/Expected Value.md",
     "Probability Theory/Moment.md",
     "Algorithms/Linear Probing.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
