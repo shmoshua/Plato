@@ -87,9 +87,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "47febee2a1103d0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Moment.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Linear Probing.md",
+                "file": "Probability Theory/Moment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Linear Probing.md",
+                "file": "Probability Theory/Moment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Linear Probing.md"
+                "file": "Probability Theory/Moment.md"
               }
             }
           }
@@ -220,13 +232,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0be985889f4d072",
+  "active": "47febee2a1103d0c",
   "lastOpenFiles": [
+    "Algorithms/Linear Probing.md",
+    "Probability Theory/Moment.md",
     "Probability Theory/Martingale.md",
     "Representation Theory/Special Linear Lie Algebra.md",
     "Differential Geometry/Submanifold.md",
     "Representation Theory/Lie Algebra.md",
-    "Algorithms/Linear Probing.md",
     "Algorithms/Paging.md",
     "Algorithms/k-wise Independent Hash Function.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
@@ -248,7 +261,6 @@
     "Untitled 1",
     "Algorithms/Minimum Makespan Scheduling.md",
     "Algorithms/FPTAS.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 8.md",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",

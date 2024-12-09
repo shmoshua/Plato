@@ -28,6 +28,9 @@
 > 1. $\mathbb{E}[X]\leq n \cdot 2^{\ell} / m\leq \frac{2}{3}\cdot 2^{\ell}$.
 > 
 > Further, as $\{ X_{y} \}_{y\in S \backslash \{ x \}}$ are $4$-wise independent as $h$ is $5$-wise independent, we have that: 
-> 1. If $2^{\ell} / m\geq \frac{1}{n}$, then: $$\begin{align}\mathbb{P}\left(\left| h^{-1}(I)\cap S \backslash \{ x \} \right|\geq \frac{3}{4}2^\ell \right)=\mathbb{P}\left( X-\mu\geq \frac{3}{4}2^{\ell}-\mu \right)\end{align}$$
+> 1. If $2^{\ell} / m\geq \frac{1}{n}$, then: $$\begin{align}\mathbb{P}\left(\left| h^{-1}(I)\cap S \backslash \{ x \} \right|\geq \frac{3}{4}2^\ell \right)\leq\mathbb{P}\left( X-\mu\geq \frac{1}{12}2^{\ell}\right)\leq\mathbb{P}\left( X-\mu> \frac{1}{10}\sqrt{ 2 ^\ell \mu}\right)\end{align}$$Hence, by [[Moment|Theorem 1]], $$\mathbb{P}\left(\left| h^{-1}(I)\cap S \backslash \{ x \} \right|\geq \frac{3}{4}2^\ell \right)< \frac{40000}{2^{2\ell}}$$Therefore, $\mathbb{P}(2^{\ell+2}\leq \left| R(x) \right| <  2^{\ell+3})=\text{O}(2^{-2\ell})$. 
+> 2. If $2^{\ell} / m< \frac{1}{n}$, then 
+> 3. 
+> 4. Hence, $$\mathbb{E}[\left| R(x) \right| ]\leq \sum_{\ell=1}^{k}2^{\ell}\text{O}(2^{-2\ell})=\sum_{\ell=1}^{k}\text{O}(2^{-\ell})=\text{O}(1)$$
 
 ^2204d7
