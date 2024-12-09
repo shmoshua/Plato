@@ -134,7 +134,7 @@
 > [!lemma] Theorem 4 (FM+,BJKST)
 > Consider the algorithm:
 >    ```pseudo
->    \begin{algorithm} \caption{FM+($S=(a_{1},\dots,a_{m})$)} 
+>    \begin{algorithm} \caption{FM+($S=(a_{1},\dots,a_{m}),C,C'$)} 
 >    \begin{algorithmic}
 >    \State $h:[n]\to[n]\gets$ uniform, 2-wise independent random hash function.
 >    \State $h:[n]\to[b]\gets$ uniform, 2-wise independent random hash function where $b=C\varepsilon^{-4}\log^2n$.
@@ -143,7 +143,7 @@
 >    \For{$a_{i}\in S$}
 >    \If{$\text{Zeros}(h(a_{i}))\geq X$}
 >    \State $\mathcal{B}\gets\mathcal{B}\cup \{ (g(a_{i}),\text{Zeroes}(h(a_{i}))) \}$
->    \While{$\left| \mathcal{B} \right|\geq C\varepsilon^{-2}$}
+>    \While{$\left| \mathcal{B} \right|\geq C'\varepsilon^{-2}$}
 >    \State $X\gets X+1$
 >    \State Remove from $\mathcal{B}$ all elements $(\alpha,\beta)$ with $\beta<X$.
 \EndWhile
@@ -153,6 +153,13 @@
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
+>    Let $i\in[n]$ appeared in $\mathcal{B}$ if there exists $a_{j}=i$ s.t. $\mathcal{B}\gets \mathcal{B}\cup \{ (g(a_{j}),\text{Zeroes}(h(a_{j}))) \}$ was executed. Let $S\subseteq[n]$ be the set of elements that appeared in $\mathcal{B}$.
+>    1. $\mathbb{P}(\exists i\neq j\in[n]:i,j\in K\land g(i)=g(j))\leq \frac{1}{6}$
+
+> [!proof]+
+> We have that:
+> 1. **Claim 1**: If $g(i)\neq g(j)$ for any distinct $i,j\in S$, then $\left| S \right|\leq C'(\log n+2) / \varepsilon^{2}$.
+>    Notice that between two increments of $X$, 
 ---
 ###### Finding the Majority Element
 > [!lemma] Theorem 4
