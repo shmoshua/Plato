@@ -291,7 +291,7 @@
 ---
 > [!lemma] Lemma 2 (k-Edge Cut)
 > ```pseudo
->    \begin{algorithm} \caption{$k$-Cut($S=(a_{1},\dots,a_{m}),A,\widehat{k}$)} 
+>    \begin{algorithm} \caption{$k$-Cut($S=(a_{1},\dots,a_{m}),A,\widehat{k},g$)} 
 >    \begin{algorithmic}
 >    \State $h:{n \choose 2}\to [2\widehat{k}]\gets$ a uniform, $2$-wise independent hash function.
 >    \State $\text{XOR}_{v}\gets 0$ for all $v\in V$
@@ -299,21 +299,24 @@
 >    \If{$h(e_{i})\neq 0$}
 >    \Continue
 >    \EndIf
->    \State $\text{id}(e_{i})\gets \langle{ \text{id}(u) , \text{id}(v) \rangle}$ for $e_{i}=\{ u,v \}$ and $u< v$
->    \State $\text{XOR}_{u}\gets\text{XOR}_{u}\oplus \text{id}(e_{i})$
->    \State $\text{XOR}_{v}\gets \text{XOR}_{v}\oplus \text{id}(e_{i})$
+>    
+>    \State $\text{XOR}_{u}\gets\text{XOR}_{u}\oplus g(e_{i})$
+>    \State $\text{XOR}_{v}\gets \text{XOR}_{v}\oplus g(e_{i})$
 >    \EndFor
 >    \State $\text{XOR}_{A}\gets \bigoplus_{v\in A} \text{XOR}_{v}$
->    \Return edge $e$ with $\text{id}(e)=\text{XOR}_{A}$. 
+>    \Return edge $e$ with $g(e)=\text{XOR}_{A}$. 
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
 >  For any well-behaved graph stream $S:=(a_{1},\dots,a_{m})$ and $A\subseteq V$,
-> 1. if $|(A,V \backslash A)|=k$ where $\frac{2}{3}\widehat{k}\leq k\leq \widehat{k}$, then $$\mathbb{P}(k\text{-Cut}(S,A)\in (A, V \backslash A))\geq \frac{1}{12}$$
-> 2. $k\text{-Cut}$ uses $\text{O}(n\log n)$ bits of memory.
+> 1. if $g(e)=\braket{ \text{id}(u) , \text{id}(v) }$ for $e=\{ u,v \}$ with $u<v$ and $|(A,V \backslash A)|=k$ where $\frac{2}{3}\widehat{k}\leq k\leq \widehat{k}$, then $k\text{-Cut}$ uses $\text{O}(n\log n)$ bits of memory and:$$\mathbb{P}(k\text{-Cut}(S,A)\in (A, V \backslash A))\geq \frac{1}{12}$$
+> 2. if $g:{n \choose 2}\to [n^{4\ell}]$ be a uniform, $\ell$-independent hash function where $\ell:=20 \log n+1$, then $k\text{-Cut}$ uses $\text{O}(n\log^{2} n)$ bits of memory and $\mathbb{P}(k\text{-Cut}(S,A)\in (A, V \backslash A))$ w.h.p.
 
-> [!proof]-
+
+> [!proof]+
 > We have that: 
-> $$\text{XOR}_{A}=\bigoplus_{v\in A}\text{XOR}_{v}=\bigoplus_{v\in A}\bigoplus_{e\in S}\text{id}(e)\mathbb{1}_{h(e)=0}\mathbb{1}_{v\in e}  =\bigoplus_{e\in S}\text{id}(e)\mathbb{1}_{h(e)=0}\mathbb{1}_{e\in (A , V \backslash A)}= \bigoplus_{e\in (A , V \backslash A)}\text{id}(e)\mathbb{1}_{h(e)=0}  $$
-> Now, let $Y_{e}=\mathbb{1}_{\{ h(e)=0 \}}$ and $Y:=\sum_{e\in (A, V\backslash A)}^{}Y_{e}$. Then, $\begin{align}\mathbb{P}(k\text{-Cut}(S,A)\notin (A, V \backslash A))\leq \mathbb{P}(Y\neq1)&\end{align}$ where: $$\begin{align}\mathbb{P}(Y=1)&=\mathbb{P}(\exists  e\in (A, V \backslash A): Y_{e}=1\land \forall e\neq e'\in (A, V \backslash A). Y_{e'}=0)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1\land \forall e\neq e'\in (A, V \backslash A). Y_{e'}=0)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\mathbb{P}(\forall e\neq e'\in (A, V \backslash A). Y_{e'}=0|Y_{e}=1)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)(1-\mathbb{P}(\exists e'\neq e\in (A, V \backslash A). Y_{e'}=1|Y_{e}=1))\\&\geq\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\left( 1-\sum_{e'\neq e\in (A, V \backslash A)}^{}\mathbb{P}( Y_{e'}=1|Y_{e}=1) \right)\\&\geq\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\left( 1-\sum_{e'\neq e\in (A, V \backslash A)}^{}\mathbb{P}( Y_{e'}=1) \right)\\&\geq  \frac{k}{2\widehat{k}}\left( 1-\frac{k-1}{2\widehat{k}} \right)\\&\geq \frac{k}{2\widehat{k}}-\left( \frac{k}{2\widehat{k}} \right)^2\geq \frac{1}{12}\end{align}$$
-> For memory, notice that $\frac{2}{3}\widehat{k}\leq k\leq n^2$ hence $\widehat{k}\in O(n^{2})$. Therefore, saving $h$ requires only $O(\log n)$. As we keep $O(\log n)$ bits for each node $v\in V$, we have $O(n\log n)$. 
+> 1. Firstly, with $g=\text{id}$, $$\text{XOR}_{A}=\bigoplus_{v\in A}\text{XOR}_{v}=\bigoplus_{v\in A}\bigoplus_{e\in S}\text{id}(e)\mathbb{1}_{h(e)=0}\mathbb{1}_{v\in e}  =\bigoplus_{e\in S}\text{id}(e)\mathbb{1}_{h(e)=0}\mathbb{1}_{e\in (A , V \backslash A)}= \bigoplus_{e\in (A , V \backslash A)}\text{id}(e)\mathbb{1}_{h(e)=0}  $$
+> 	Now, let $Y_{e}=\mathbb{1}_{\{ h(e)=0 \}}$ and $Y:=\sum_{e\in (A, V\backslash A)}^{}Y_{e}$. Then, $\begin{align}\mathbb{P}(k\text{-Cut}(S,A)\notin (A, V \backslash A))\leq \mathbb{P}(Y\neq1)&\end{align}$ where: $$\begin{align}\mathbb{P}(Y=1)&=\mathbb{P}(\exists  e\in (A, V \backslash A): Y_{e}=1\land \forall e\neq e'\in (A, V \backslash A). Y_{e'}=0)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1\land \forall e\neq e'\in (A, V \backslash A). Y_{e'}=0)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\mathbb{P}(\forall e\neq e'\in (A, V \backslash A). Y_{e'}=0|Y_{e}=1)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)(1-\mathbb{P}(\exists e'\neq e\in (A, V \backslash A). Y_{e'}=1|Y_{e}=1))\\&\geq\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\left( 1-\sum_{e'\neq e\in (A, V \backslash A)}^{}\mathbb{P}( Y_{e'}=1|Y_{e}=1) \right)\\&\geq\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\left( 1-\sum_{e'\neq e\in (A, V \backslash A)}^{}\mathbb{P}( Y_{e'}=1) \right)\\&\geq  \frac{k}{2\widehat{k}}\left( 1-\frac{k-1}{2\widehat{k}} \right)\\&\geq \frac{k}{2\widehat{k}}-\left( \frac{k}{2\widehat{k}} \right)^2\geq \frac{1}{12}\end{align}$$
+> 	For memory, notice that $\frac{2}{3}\widehat{k}\leq k\leq n^2$ hence $\widehat{k}\in O(n^{2})$. Therefore, saving $h$ requires only $O(\log n)$. As we keep $O(\log n)$ bits for each node $v\in V$, we have $O(n\log n)$. 
+> 2. We have that: $$\begin{align}\mathbb{P}\left[\exists k\leq \ell, e_{1},\dots,e_{k}\in {n \choose 2}:\bigoplus_{i\in[k]}g(e_{i})=0\right]&\leq \sum_{1\leq k\leq \ell}\sum_{e_{1},\dots,e_{k}\in {n \choose 2}}^{}\mathbb{P}\left(\bigoplus_{i\in[k]}g(e_{i})=0 \right)\\&= \sum_{1\leq k\leq \ell}{{n \choose 2} \choose k} \frac{1}{n^{4\ell}}\\&\leq \left( \frac{en^{2}}{\ell} \right) \frac{^{\ell}1}{n^{4\ell}}< \frac{1}{n^{2\ell}}< n^{-40}\end{align}$$Furthermore, let $X:=\sum_{e\in (A, V \backslash A)}^{}Y_{e}$. Then, $$$$
+> 

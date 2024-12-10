@@ -32,4 +32,14 @@
 > 
 > Therefore, we have: $$\begin{align}\mathbb{P}(\left| X-\mu \right| >d\sqrt{ \mu })&=\mathbb{P}((X-\mu)^k>d^k \mu^{k / 2})\\&\leq \frac{\mathbb{E}[(X-\mu )^k]}{d^k \mu^{k / 2}}\\&\leq \frac{1}{d^k \mu^{k / 2}}\sum_{c=1}^{k/2}c^k{n \choose c}p^c\\&\leq\frac{1}{d^k\mu^{k /2 }}\sum_{c=1}^{k/2}c^k(np)^c\\&\leq \text{O}\left( \frac{1}{d^k\mu^{k/2}}\mu^{k / 2} (k / 2)^k \right)\\&=\text{O}\left( \frac{k^k}{(2d)^k} \right) \end{align}$$
 ---
+> [!lemma] Theorem 3
+> Let $X_{1},\dots,X_{n}\sim \text{Ber}(p)$ be $k$-wise independent. Let $X:=\sum_{i=1}^{n}X_{i}$ and $\mu:=\mathbb{E}[X]=np$. Then, for any $d>0$, $$\mathbb{P}(\left| X-\mu \right| >d\sqrt{ \mu })\leq O(k^k / (2d)^k)$$
+
+> [!proof]-
+> Let $j_{1},\dots,j_{c}$ be distinct indices in $[k]$. Let $m_{1},\dots,m_{c}$ denote their multiplicity, i.e. $\sum_{j}^{}m_{j}=k$. Then, 
+> 1. if $c>k /2$, then there exists $h\in[c]$ with $m_{h}=1$. Hence, $$\begin{align}\mathbb{E}[(X_{j_{1}}-p)^{m_{1}}\dots(X_{j_{c}}-p)^{m_{c}}]&=\mathbb{E}[(X_{j_{h}}-p)]\mathbb{E}[(X_{j_{1}}-p)^{m_{1}}\dots \widehat{(X_{j_{h}}-p)^{m_{h}}}\dots(X_{j_{c}}-p)^{m_{c}}]\\&=0\end{align}$$
+> 2. if $c\leq k / 2$, then: $$\mathbb{E}[(X_{j_{1}}-p)^{m_{1}}\dots(X_{j_{c}}-p)^{m_{c}}]\leq \prod_{i=1}^{c}\mathbb{E}[(X_{j_{i}}-p)^2]\leq p^c$$
+> 
+> Therefore, we have: $$\begin{align}\mathbb{P}(\left| X-\mu \right| >d\sqrt{ \mu })&=\mathbb{P}((X-\mu)^k>d^k \mu^{k / 2})\\&\leq \frac{\mathbb{E}[(X-\mu )^k]}{d^k \mu^{k / 2}}\\&\leq \frac{1}{d^k \mu^{k / 2}}\sum_{c=1}^{k/2}c^k{n \choose c}p^c\\&\leq\frac{1}{d^k\mu^{k /2 }}\sum_{c=1}^{k/2}c^k(np)^c\\&\leq \text{O}\left( \frac{1}{d^k\mu^{k/2}}\mu^{k / 2} (k / 2)^k \right)\\&=\text{O}\left( \frac{k^k}{(2d)^k} \right) \end{align}$$
+---
 \
