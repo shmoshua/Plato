@@ -238,6 +238,8 @@
 
 ---
 #### 3.3 Streaming Algorithms: Graph Connectivity
-##### 3.3.1 Finding a Single
+##### 3.3.1 Finding a Single Cut Edge
+![[Streaming Algorithm#^f050f5]]
+![[Streaming Algorithm#^4ba20e|p]]
 
 #### 5 Tree Embedding

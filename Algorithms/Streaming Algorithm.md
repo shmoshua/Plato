@@ -8,6 +8,8 @@
 - **Related definition**: A ***$k$-th moment*** of a stream $S$ is: $\sum_{j=1}^{n}\left| \{ i\in [m]:a_{i}=j \} \right|^k$. ^5e97b2
 	- By defining $0^0:=1$, the $0$-th moment is the number of distinct elements in $S$.
 	- the first moment is the length of the stream.
+- **Related definition**: A ***undirected graph stream*** is given by $S:=(a_{1},\dots,a_{m})$ with $a_i:= \braket{ e_{i} , \pm }\in {n \choose 2}\times\{+,-\}$ for all $i\in[m]$ where $\braket{ e , + }$ means edge addition and $\braket{ e , - }$ means edge deletion.
+- **Related definition**: A graph stream $S=(a_{1},\dots,a_{m})$ is ***well-behaved*** if for all $i\in[m]$, if $a_{i}=\braket{ e_{i} , - }$ then there exists $j<i$ with $a_{j}=\braket{ e_{i} , + }$. 
 
 ---
 ##### Properties
@@ -264,44 +266,53 @@
 >  ```pseudo
 >    \begin{algorithm} \caption{SingleCut($S=(a_{1},\dots,a_{m}),A$)} 
 >    \begin{algorithmic}
->    \State $X_{v}\gets 0$ for all $v\in V$
+>    \State $\text{XOR}_{v}\gets 0$ for all $v\in V$
 >    \For {$\left\langle e_{i},\pm\right\rangle\in S$}
 >    \State $\text{id}(e_{i})\gets \langle{ \text{id}(u) , \text{id}(v) \rangle}$ for $e_{i}=\{ u,v \}$ and $u< v$
->    \State $X_u\gets X_{u}\oplus \text{id}(e_{i})$
->    \State $X_v\gets X_{v}\oplus \text{id}(e_{i})$
+>    \State $\text{XOR}_u\gets \text{XOR}_{u}\oplus \text{id}(e_{i})$
+>    \State $\text{XOR}_v\gets \text{XOR}_{v}\oplus \text{id}(e_{i})$
 >    \EndFor
->    \State $X\gets \bigoplus_{v\in A} X_{v}$
->    \Return edge $e$ with $\text{id}(e)=X$. 
+>    \State $\text{XOR}_{A}\gets \bigoplus_{v\in A} \text{XOR}_{v}$
+>    \Return edge $e$ with $\text{id}(e)=\text{XOR}_{A}$. 
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
-> For any stream $S:=(a_{1},\dots,a_{m})$ with $a_i:= \braket{ e_{i} , \pm }\in {n \choose 2}\times\{+,-\}$ for all $i\in[m]$ and a set $A\subseteq V$, if $(A,V \backslash A)=\{ e \}$ then $\text{SingleCut}(S,A)$ returns $e$ using $\text{O}(n\log n)$ bits of memory.
+> For any well-behaved graph stream $S:=(a_{1},\dots,a_{m})$ and $A\subseteq V$,
+> 1. if $(A,V \backslash A)=\{ e ^{*}\}$ then $\text{SingleCut}(S,A)$ returns $e^{*}$ using $\text{O}(n\log n)$ bits of memory.
+
+^f050f5
 
 > [!proof]-
-> Let $e^{*}$ be the one cut edge. We have that: $$X=\bigoplus_{v\in A}X_{v}=\bigoplus_{v\in A}\bigoplus_{e\ni v}\text{id}(e) =\bigoplus_{e\in E} \text{id}(e)\cdot \mathbb{1}_{\{ |e\cap A|=1 \}}  =\text{id}(e^{*}) $$
+> Let $e^{*}$ be the one cut edge. We have that: $$\text{XOR}_{A}=\bigoplus_{v\in A}\text{XOR}_{v}=\bigoplus_{v\in A}\bigoplus _{e\in E}\text{id}(e)\mathbb{1}_{v\in e}=\bigoplus _{e\in E}\text{id}(e)\mathbb{1}_{\left| e\cap A \right| =1}=\text{id}(e^{*}) $$
 > Further, for each $v\in V$, we keep track of $2\log n$ bits. Hence, we use $\text{O}(n\log n)$ space.
+
+^4ba20e
+
 ---
 > [!lemma] Lemma 2 (k-Edge Cut)
 > ```pseudo
 >    \begin{algorithm} \caption{$k$-Cut($S=(a_{1},\dots,a_{m}),A,\widehat{k}$)} 
 >    \begin{algorithmic}
->    \State $X_{v}\gets 0$ for all $v\in V$
->    \State $h\gets\mathcal{H}_{2,{n\choose 2},\widehat{k}}$, a $2$-wise independent hash function.
+>    \State $h:{n \choose 2}\to [2\widehat{k}]\gets$ a uniform, $2$-wise independent hash function.
+>    \State $\text{XOR}_{v}\gets 0$ for all $v\in V$
 >    \For {$\left\langle e_{i},\pm\right\rangle\in S$}
 >    \If{$h(e_{i})\neq 0$}
 >    \Continue
 >    \EndIf
 >    \State $\text{id}(e_{i})\gets \langle{ \text{id}(u) , \text{id}(v) \rangle}$ for $e_{i}=\{ u,v \}$ and $u< v$
->    \State $X_u\gets X_{u}\oplus \text{id}(e_{i})$
->    \State $X_v\gets X_{v}\oplus \text{id}(e_{i})$
+>    \State $\text{XOR}_{u}\gets\text{XOR}_{u}\oplus \text{id}(e_{i})$
+>    \State $\text{XOR}_{v}\gets \text{XOR}_{v}\oplus \text{id}(e_{i})$
 >    \EndFor
->    \State $X\gets \bigoplus_{v\in A} X_{v}$
+>    \State $\text{XOR}_{A}\gets \bigoplus_{v\in A} \text{XOR}_{v}$
 >    \Return edge $e$ with $\text{id}(e)=X$. 
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
-> For any stream $S:=(a_{1},\dots,a_{m})$ with $a_i:= \braket{ e_{i} , \pm }\in {n \choose 2}\times\{+,-\}$ for all $i\in[m]$ and a set $A\subseteq V$, 
-> 1. if $|(A,V \backslash A)|=k$ where $\frac{1}{12}\widehat{k}\leq k\leq \widehat{k}$, then $\text{SingleCut}(S,A)$ returns $e\in(A , V \backslash A)$ with constant probability using $\text{O}(n\log n)$ bits of memory.
+>  For any well-behaved graph stream $S:=(a_{1},\dots,a_{m})$ and $A\subseteq V$,
+> 1. if $|(A,V \backslash A)|=k$ where $\frac{1}{2}\widehat{k}\leq k\leq \widehat{k}$, then $$\mathbb{P}(k\text{-Cut}(S,A)\in (A, V \backslash A))=$$
+> 2. $k\text{-Cut}$ uses $\text{O}(n\log n)$ bits of memory.
 
 > [!proof]+
-> We have that: $$X=\bigoplus_{e\in (A,V \backslash A)} \text{id}(e)\cdot  \mathbb{1}_{\{ h(e)=0 \}}$$Now, let $Y_{e}=\mathbb{1}_{\{ h(e)=0 \}}$ and $Y:=\sum_{e\in (A, V\backslash A)}^{}Y_{e}$. Then, $$\mathbb{E}[Y]=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(h(e)=0)=\frac{k}{\widehat{k}}\in\left[ \frac{11}{12},1 \right]$$Further, $$\begin{align}\text{Var}(Y)=\mathbb{E}[Y^{2}]-\mathbb{E}[Y]^{2}&\leq  \sum_{e,e'\in (A, V \backslash A)}^{}\mathbb{E}\left[Y_{e}Y_{e'} \right] -\mathbb{E}[Y^{2}]\\&\leq \sum_{e\neq e'}^{} \frac{1}{\widehat{k}^{2}}+\sum_{e}^{} \mathbb{E}[Y_{e}^{2}]-\mathbb{E}[Y^{2}]\\&= { k \choose 2} \frac{1}{\widehat{k}^{2}}\\&\leq \frac{1}{2}\left(  \right) \end{align}$$
+> We have that: 
+> $$\text{XOR}_{A}=\bigoplus_{v\in A}\text{XOR} $$
+> $$X=\bigoplus_{e\in (A,V \backslash A)} \text{id}(e)\cdot  \mathbb{1}_{\{ h(e)=0 \}}$$Now, let $Y_{e}=\mathbb{1}_{\{ h(e)=0 \}}$ and $Y:=\sum_{e\in (A, V\backslash A)}^{}Y_{e}$. Then, $$\mathbb{E}[Y]=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(h(e)=0)=\frac{k}{\widehat{k}}\in\left[ \frac{11}{12},1 \right]$$Further, $$\begin{align}\text{Var}(Y)=\mathbb{E}[Y^{2}]-\mathbb{E}[Y]^{2}&\leq  \sum_{e,e'\in (A, V \backslash A)}^{}\mathbb{E}\left[Y_{e}Y_{e'} \right] -\mathbb{E}[Y^{2}]\\&\leq \sum_{e\neq e'}^{} \frac{1}{\widehat{k}^{2}}+\sum_{e}^{} \mathbb{E}[Y_{e}^{2}]-\mathbb{E}[Y^{2}]\\&= { k \choose 2} \frac{1}{\widehat{k}^{2}}\\&\leq \frac{1}{2}\left(  \right) \end{align}$$
