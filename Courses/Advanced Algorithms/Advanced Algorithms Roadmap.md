@@ -242,4 +242,19 @@
 ![[Streaming Algorithm#^f050f5]]
 ![[Streaming Algorithm#^4ba20e|p]]
 
+---
+![[Streaming Algorithm#^0918e4]]
+![[Streaming Algorithm#^533710|p]]
+![[Streaming Algorithm#^7ce55e|q]]
+
+---
+![[Streaming Algorithm#^88bddb]]
+![[Streaming Algorithm#^50642b|p]]
+![[Streaming Algorithm#^511eae|q]]
+
+---
+#### 3.4 Graph Sparsification: Preserving Distances and Cuts
+##### 3.4.1 Distance Preserving Sparsifiers
+
+
 #### 5 Tree Embedding

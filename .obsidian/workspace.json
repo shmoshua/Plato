@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Spanner.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Graph Theory/Spanner.md",
                 "mode": "preview",
                 "source": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Graph Theory/Spanner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Graph Theory/Spanner.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md"
+                "file": "Graph Theory/Spanner.md"
               }
             }
           }
@@ -243,12 +243,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c6a785cfe1ec71fc",
+  "active": "e0be985889f4d072",
   "lastOpenFiles": [
-    "Probability Theory/Moment.md",
-    "Algorithms/Streaming Algorithm.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Spanner.md",
+    "Graph Theory/Girth and Circumference.md",
+    "Algorithms/Streaming Algorithm.md",
+    "Probability Theory/Moment.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Probability Theory/Distribution.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Independence.md",
@@ -269,8 +271,6 @@
     "Algorithms/Randomized Online Algorithm.md",
     "Algorithms/Minimum Set Cover.md",
     "Algorithms/Minimum Vertex Cover.md",
-    "Algorithms/DNF Counting.md",
-    "Algorithms/Bin Packing.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",

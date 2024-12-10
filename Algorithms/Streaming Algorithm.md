@@ -312,6 +312,8 @@
 > 1. if $g(e)=\braket{ \text{id}(u) , \text{id}(v) }$ for $e=\{ u,v \}$ with $u<v$ and $|(A,V \backslash A)|=k$ where $\frac{2}{3}\widehat{k}\leq k\leq \widehat{k}$, then $k\text{-Cut}$ uses $\text{O}(n\log n)$ bits of memory and:$$\mathbb{P}(k\text{-Cut}(S,A)\in (A, V \backslash A))\geq \frac{1}{12}$$
 > 2. if $g:{n \choose 2}\to [n^{4\ell}]$ be a uniform, $\ell$-independent hash function where $\ell$ is the smallest even number greater than $20 \log n+1$, then $k\text{-Cut}$ uses $\text{O}(n\log^{2} n)$ bits of memory and $\mathbb{P}(k\text{-Cut}(S,A)\in (A, V \backslash A))$ w.h.p.
 
+^0918e4
+
 
 > [!proof]-
 > We have that: 
@@ -320,7 +322,9 @@
 > 	For memory, notice that $\frac{2}{3}\widehat{k}\leq k\leq n^2$ hence $\widehat{k}\in O(n^{2})$. Therefore, saving $h$ requires only $O(\log n)$. As we keep $O(\log n)$ bits for each node $v\in V$, we have $O(n\log n)$. 
 > 2. We have that: $$\begin{align}\mathbb{P}\left[\exists k\leq \ell, e_{1},\dots,e_{k}\in {n \choose 2}:\bigoplus_{i\in[k]}g(e_{i})=0\right]&\leq \sum_{1\leq k\leq \ell}\sum_{e_{1},\dots,e_{k}\in {n \choose 2}}^{}\mathbb{P}\left(\bigoplus_{i\in[k]}g(e_{i})=0 \right)\\&= \sum_{1\leq k\leq \ell}{{n \choose 2} \choose k} \frac{1}{n^{4\ell}}\\&\leq \left( \frac{en^{2}}{\ell} \right) \frac{^{\ell}1}{n^{4\ell}}< \frac{1}{n^{2\ell}}< n^{-40}\end{align}$$Furthermore, let $X:=\sum_{e\in (A, V \backslash A)}^{}Y_{e}$. Then, $$\mathbb{P}(X> \ell)\leq \mathbb{P}\left( \left| X-\mathbb{E}[X] \right| > \left( \frac{\ell}{\mathbb{E}[X]}-1 \right)\mathbb{E}[X] \right)\leq \mathbb{P}\left( \left| X-\mathbb{E}[X] \right| >\frac{2\ell-1}{\sqrt{ 3 }}\sqrt{ \mathbb{E}[X] }\right)$$Therefore, by [[Moment|Theorem 2]], $$\mathbb{P}(X > \ell)\leq O\left( \left( \frac{\ell \sqrt{ 3 }}{2(2\ell-1)} \right)^\ell \right)\leq O\left(2^{-\ell}\right)=O(2^{-20\log n})=O(n^{-20})$$Hence by bruteforcing all $g(e)$ for $e\in {n \choose 2}$ and checking with $\text{XOR}_{A}$, we have that:
 
-- **Corollary**: By running $k\text{-Cut}$ with all possible estimates $\widehat{k}\in\left\{  \left( \frac{2}{3} \right)^jn^{2}  \right\}_{j\in}$ we cover all possible $k$. This should give us an $\text{O}(n\log^3n)$ algorithm that works w.h.p.
+^533710
+
+- **Corollary**: By running $k\text{-Cut}$ with all possible estimates $\widehat{k}\in\left\{  \left( \frac{2}{3} \right)^jn^{2}  \right\}_{j\in}$ we cover all possible $k$. This should give us an $\text{O}(n\log^3n)$ algorithm that works w.h.p. ^7ce55e
 ---
 > [!lemma] Theorem 3 (Maximal Forest)
 > Consider the algorithm:
@@ -343,3 +347,14 @@
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
+>    Then, $\text{MaximalForest}(G)$ returns a maximal forest.
+
+^88bddb
+
+> [!proof]-
+> Assume that $G$ is connected. Then, for any other iteration of the for loop, let $A_{1},\dots,A_{k}$ be the connected components. After the iteration the number of connected components is at most $\frac{k}{2}$. Then, the algorithm terminates in $\log n$ iterations and as we delete all cycles, we have a forest at the end. 
+
+^50642b
+
+- **Corollary**: With Theorem 2, there is a streaming algorithm that computes the maximal forest with space complexity $\text{O}(n\log ^4 n)$ with high probability. ^511eae
+---
