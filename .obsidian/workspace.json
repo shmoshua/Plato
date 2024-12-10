@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
                 "mode": "preview",
                 "source": true
               }
@@ -245,11 +245,12 @@
   },
   "active": "e0be985889f4d072",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
+    "Probability Theory/Expected Value.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Streaming Algorithm.md",
     "Probability Theory/Independence.md",
     "Algorithms/Linear Probing.md",
-    "Probability Theory/Expected Value.md",
     "Probability Theory/Moment.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Courses/Advanced Algorithms/Assignment 11.md",
@@ -270,7 +271,6 @@
     "Algorithms/Bin Packing.md",
     "Algorithms/Knapsack.md",
     "Logic/Disjunctive Normal Form.md",
-    "Algorithms/FPRAS.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
