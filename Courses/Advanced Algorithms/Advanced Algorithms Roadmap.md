@@ -263,7 +263,8 @@
 ![[Spanner#^20abf3|p]]
 
 ---
-![[Girth and Circumference#^961545]]
+![[Girth and Circumference#^cc9933]]
+![[Girth and Circumference#^dd797b|p]]
 
 ---
 ##### 3.4.2 Cut Preserving Sparsifiers

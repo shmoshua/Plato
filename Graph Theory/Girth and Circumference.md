@@ -51,7 +51,9 @@
 > Let $G=(V,E)$ be a graph with $n$ vertices. For any $k\geq 2$,
 > 1. if $g(G)> 2k$, then $\left| E \right|\leq O(n^{1+1/k})$
 
-> [!proof]+
+^cc9933
+
+> [!proof]-
 > Assume that $\left| E \right|>2n^{1+1/k}$ and define $H:=(V',E')$ be the graph defined by removing vertices with degree $d(v)\leq n^{1/k}$ from $G$. Then,
 > 1. for all $v\in V'$, $d_{H}(v)> n^{1/k}$.
 > 2. As each vertex removed removes at most $n^{1 / k}$ edges, we have that: $$\left| E' \right| \geq \left| E \right| -n^{1+1/k}>n^{1+1/k}$$
@@ -59,4 +61,10 @@
 > 
 > Let $v\in V'$ fixed and consider $H^i(v)$ as the graph given by the union of all paths of length $i$ starting from $v$. Then, notice that $H^i(v)$ is a tree for all $i\in[k]$. Otherwise there exists $x\in B_{\leq i}(v)$ and two $v$-$x$-paths $p_{1},p_{2}$ s.t. $(p_{1},p_{2})$ contains a cycle of length $\leq 2k$, which is a contradiction.
 > 
-> Lastly, we claim that $\left| B_{\leq i+1}(v) \right|>n^{1/k}\left| B_{\leq i}(v) \right|$ for all $0\leq i<k$. Indeed, for every $u\in B_{\leq i}(v)$, $$d_{H^{i+1}(v)}(u)=d_{H}(u)>n^{1/k}$$Therefore, $$\left| B_{\leq i+1}(v) \right| =\left| E(H^{i+1}(v)) \right|+1\geq \frac{1}{2}\sum_{u\in B_{\leq i+1}(v)}^{}d_{H^{i+1}(v)}(u) +1> \frac{1}{2}n^{1/k}\left| B_{\leq i}(v) \right| $$
+> Lastly, we claim that $\left| B_{\leq i+1}(v) \right|>n^{1/k}\left| B_{\leq i}(v) \right|$ for all $0\leq i<k$. Indeed, for every $u\in B_{\leq i}(v)$, $$d_{H^{i+1}(v)}(u)=d_{H}(u)>n^{1/k}$$As $H^{i+1}(v)$ is a tree (imagine this as a rooted tree at $v$), for all $u\in B_{\leq i}(v)$ except $v$, there are $\geq n^{1 / k}$ children. (with $v$ having $\geq n^{1/k}+1$ children) Therefore, $$\left| B_{\leq i+1}(v) \right| \geq n^{1/k}\left| B_{\leq i}(v) \right|+1>n^{1/k}\left| B_{\leq i}(v) \right| $$
+> 
+> Therefore, $\left| B_{\leq k}(v) \right|>n \left| B_{\leq 0}(v) \right|=n$ which is a contradiction.
+
+^dd797b
+
+---
