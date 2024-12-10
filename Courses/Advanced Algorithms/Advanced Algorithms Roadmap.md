@@ -255,6 +255,19 @@
 ---
 #### 3.4 Graph Sparsification: Preserving Distances and Cuts
 ##### 3.4.1 Distance Preserving Sparsifiers
+![[Spanner#^c6a9ed]]
+
+---
+
+![[Spanner#^1b3b1b]]
+![[Spanner#^20abf3|p]]
+
+---
+![[Girth and Circumference#^961545]]
+
+---
+##### 3.4.2 Cut Preserving Sparsifiers
 
 
+---
 #### 5 Tree Embedding

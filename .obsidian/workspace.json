@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Graph Theory/Cut Sparsifier.md",
                 "mode": "source",
                 "source": true
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Graph Theory/Spanner.md",
                 "mode": "source",
                 "source": true
               }
@@ -68,8 +68,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "4d5ec56e57395c88",
@@ -94,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Spanner.md",
+                "file": "Graph Theory/Cut Sparsifier.md",
                 "mode": "preview",
                 "source": true
               }
@@ -125,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Graph Theory/Cut Sparsifier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Graph Theory/Cut Sparsifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md"
+                "file": "Graph Theory/Cut Sparsifier.md"
               }
             }
           }
@@ -255,13 +254,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d64abdd9624ea966",
+  "active": "02c5c1c00827dd4a",
   "lastOpenFiles": [
-    "Graph Theory/Graph.md",
-    "Graph Theory/Girth and Circumference.md",
-    "Algorithms/Streaming Algorithm.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Spanner.md",
+    "Graph Theory/Cut Sparsifier.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Courses/Advanced Algorithms/Exam Practice.md",
+    "Graph Theory/Hypergraph.md",
+    "Graph Theory/Girth and Circumference.md",
+    "Graph Theory/Graph.md",
+    "Algorithms/Streaming Algorithm.md",
     "Probability Theory/Moment.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Probability Theory/Distribution.md",
@@ -280,9 +282,6 @@
     "Courses/Linear System Theory/Problem Set 3.md",
     "Differential Geometry/Differential.md",
     "Algorithms/Competitive Online Algorithm.md",
-    "Algorithms/Multi-Commodity Routing.md",
-    "Algorithms/Randomized Online Algorithm.md",
-    "Algorithms/Minimum Set Cover.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
