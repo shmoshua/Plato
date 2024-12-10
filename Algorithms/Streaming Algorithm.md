@@ -310,7 +310,7 @@
 >    ```
 >  For any well-behaved graph stream $S:=(a_{1},\dots,a_{m})$ and $A\subseteq V$,
 > 1. if $g(e)=\braket{ \text{id}(u) , \text{id}(v) }$ for $e=\{ u,v \}$ with $u<v$ and $|(A,V \backslash A)|=k$ where $\frac{2}{3}\widehat{k}\leq k\leq \widehat{k}$, then $k\text{-Cut}$ uses $\text{O}(n\log n)$ bits of memory and:$$\mathbb{P}(k\text{-Cut}(S,A)\in (A, V \backslash A))\geq \frac{1}{12}$$
-> 2. if $g:{n \choose 2}\to [n^{4\ell}]$ be a uniform, $\ell$-independent hash function where $\ell$ is the smallest even number greater than $20 \log n+1$, then $k\text{-Cut}$ uses $\text{O}(n\log^{3} n)$ bits of memory and $\mathbb{P}(k\text{-Cut}(S,A)\in (A, V \backslash A))$ w.h.p.
+> 2. if $g:{n \choose 2}\to [n^{4\ell}]$ be a uniform, $\ell$-independent hash function where $\ell$ is the smallest even number greater than $20 \log n+1$, then $k\text{-Cut}$ uses $\text{O}(n\log^{2} n)$ bits of memory and $\mathbb{P}(k\text{-Cut}(S,A)\in (A, V \backslash A))$ w.h.p.
 
 
 > [!proof]-
@@ -319,4 +319,27 @@
 > 	Now, let $Y_{e}=\mathbb{1}_{\{ h(e)=0 \}}$ and $Y:=\sum_{e\in (A, V\backslash A)}^{}Y_{e}$. Then, $\begin{align}\mathbb{P}(k\text{-Cut}(S,A)\notin (A, V \backslash A))\leq \mathbb{P}(Y\neq1)&\end{align}$ where: $$\begin{align}\mathbb{P}(Y=1)&=\mathbb{P}(\exists  e\in (A, V \backslash A): Y_{e}=1\land \forall e\neq e'\in (A, V \backslash A). Y_{e'}=0)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1\land \forall e\neq e'\in (A, V \backslash A). Y_{e'}=0)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\mathbb{P}(\forall e\neq e'\in (A, V \backslash A). Y_{e'}=0|Y_{e}=1)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)(1-\mathbb{P}(\exists e'\neq e\in (A, V \backslash A). Y_{e'}=1|Y_{e}=1))\\&\geq\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\left( 1-\sum_{e'\neq e\in (A, V \backslash A)}^{}\mathbb{P}( Y_{e'}=1|Y_{e}=1) \right)\\&\geq\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\left( 1-\sum_{e'\neq e\in (A, V \backslash A)}^{}\mathbb{P}( Y_{e'}=1) \right)\\&\geq  \frac{k}{2\widehat{k}}\left( 1-\frac{k-1}{2\widehat{k}} \right)\\&\geq \frac{k}{2\widehat{k}}-\left( \frac{k}{2\widehat{k}} \right)^2\geq \frac{1}{12}\end{align}$$
 > 	For memory, notice that $\frac{2}{3}\widehat{k}\leq k\leq n^2$ hence $\widehat{k}\in O(n^{2})$. Therefore, saving $h$ requires only $O(\log n)$. As we keep $O(\log n)$ bits for each node $v\in V$, we have $O(n\log n)$. 
 > 2. We have that: $$\begin{align}\mathbb{P}\left[\exists k\leq \ell, e_{1},\dots,e_{k}\in {n \choose 2}:\bigoplus_{i\in[k]}g(e_{i})=0\right]&\leq \sum_{1\leq k\leq \ell}\sum_{e_{1},\dots,e_{k}\in {n \choose 2}}^{}\mathbb{P}\left(\bigoplus_{i\in[k]}g(e_{i})=0 \right)\\&= \sum_{1\leq k\leq \ell}{{n \choose 2} \choose k} \frac{1}{n^{4\ell}}\\&\leq \left( \frac{en^{2}}{\ell} \right) \frac{^{\ell}1}{n^{4\ell}}< \frac{1}{n^{2\ell}}< n^{-40}\end{align}$$Furthermore, let $X:=\sum_{e\in (A, V \backslash A)}^{}Y_{e}$. Then, $$\mathbb{P}(X> \ell)\leq \mathbb{P}\left( \left| X-\mathbb{E}[X] \right| > \left( \frac{\ell}{\mathbb{E}[X]}-1 \right)\mathbb{E}[X] \right)\leq \mathbb{P}\left( \left| X-\mathbb{E}[X] \right| >\frac{2\ell-1}{\sqrt{ 3 }}\sqrt{ \mathbb{E}[X] }\right)$$Therefore, by [[Moment|Theorem 2]], $$\mathbb{P}(X > \ell)\leq O\left( \left( \frac{\ell \sqrt{ 3 }}{2(2\ell-1)} \right)^\ell \right)\leq O\left(2^{-\ell}\right)=O(2^{-20\log n})=O(n^{-20})$$Hence by bruteforcing all $g(e)$ for $e\in {n \choose 2}$ and checking with $\text{XOR}_{A}$, we have that:
-> 
+
+- **Corollary**: By running $k\text{-Cut}$ with all possible estimates $\widehat{k}\in\left\{  \left( \frac{2}{3} \right)^jn^{2}  \right\}_{j\in}$ we cover all possible $k$. This should give us an $\text{O}(n\log^3n)$ algorithm that works w.h.p.
+---
+> [!lemma] Theorem 3 (Maximal Forest)
+> Consider the algorithm:
+> ```pseudo
+>    \begin{algorithm} \caption{MaximalForest($G$)} 
+>    \begin{algorithmic}
+>    \State $F\gets (V,\varnothing)$
+>    \For{$t\in[\left\lceil \log n\right\rceil]$}
+>    \State Let $A_{1},\dots,A_{k}$ be the connected components of $F$.
+>    \For{each $A_{i}$}
+>    \If {$E(A_{i},V \backslash A_{i})\neq \varnothing$ }
+>    \State Find an edge $e\in E(A_{i},V \backslash A_{i})$ using $k$-Cut and add it to $F$.
+>    \EndIf
+\EndFor
+> \While{there is a cycle $C$ in $F$}
+> \State Delete an arbitrary edge $e\in C$ from $F$.
+\EndWhile
+\EndFor
+> \Return $F$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
