@@ -62,14 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Moment.md",
+                "file": "Graph Theory/Girth and Circumference.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "4d5ec56e57395c88",
@@ -106,14 +106,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Moment.md",
+                "file": "Graph Theory/Girth and Circumference.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Spanner.md",
+                "file": "Graph Theory/Girth and Circumference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Spanner.md",
+                "file": "Graph Theory/Girth and Circumference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Spanner.md"
+                "file": "Graph Theory/Girth and Circumference.md"
               }
             }
           }
@@ -243,13 +243,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0be985889f4d072",
+  "active": "b108f0cae2671ead",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Graph Theory/Spanner.md",
-    "Graph Theory/Girth and Circumference.md",
-    "Algorithms/Streaming Algorithm.md",
     "Probability Theory/Moment.md",
+    "Graph Theory/Girth and Circumference.md",
+    "Graph Theory/Spanner.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Streaming Algorithm.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Probability Theory/Distribution.md",
     "Probability Theory/Variance.md",

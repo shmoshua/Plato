@@ -47,3 +47,12 @@
 ^819748
 
 ---
+> [!lemma] Lemma 2
+> Let $G=(V,E)$ be a graph. For any $k$, 
+> 1. if $g(G)> 2k$, then $\left| E \right|\leq 2n^{1+1/k}$
+
+> [!proof]+
+> Assume that $\left| E \right|>2n^{1+1/k}$ and define $H:=(V',E')$ be the graph defined by removing vertices with degree $d(v)\leq n^{1/k}$ from $G$. Then,
+> 1. for all $v\in V'$, $d_{H}(v)> n^{1/k}$.
+> 2. As each vertex removed removes at most $n^{1 / k}$ edges, we have that: $$\left| E' \right| \geq \left| E \right| -n^{1+1/k}>n^{1+1/k}$$
+> 3. As $H\subseteq G$, we have that $g(H)\geq g(G)> 2k$.
