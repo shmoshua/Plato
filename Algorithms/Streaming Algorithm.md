@@ -153,11 +153,13 @@
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
->    Let $i\in[n]$ appeared in $\mathcal{B}$ if there exists $a_{j}=i$ s.t. $\mathcal{B}\gets \mathcal{B}\cup \{ (g(a_{j}),\text{Zeroes}(h(a_{j}))) \}$ was executed. Let $S\subseteq[n]$ be the set of elements that appeared in $\mathcal{B}$.
+>    Let $i\in[n]$ appeared in $\mathcal{B}$ if there exists $a_{j}=i$ s.t. $\mathcal{B}\gets \mathcal{B}\cup \{ (g(a_{j}),\text{Zeroes}(h(a_{j}))) \}$ was executed. Let $S\subseteq[n]$ be the set of elements that appeared in $\mathcal{B}$. Let $C'=576$ and $C\geq 9C'^{2}$.
 >    1. $\mathbb{P}(\exists i\neq j\in[n]:i,j\in S\land g(i)=g(j))\leq \frac{1}{6}$
 >    2. $\text{FM}+$ has space complexity $\text{O}(\log n+\varepsilon^{-2}(\log \log n+\log(1 / \varepsilon)))$  and$$\mathbb{P}(\left| \text{FM+}(S)-D \right|\geq \varepsilon D)\leq \frac{1}{3}$$
 
-> [!proof]+
+^273243
+
+> [!proof]-
 > We have that:
 > 1. We first have the following claims:
 > 	1. **Claim 1**: If $g(i)\neq g(j)$ for any distinct $i,j\in S$, then $\left| S \right|\leq C'(\log n+2) / \varepsilon^{2}$.
@@ -180,9 +182,36 @@
 > 	For the first term, $$\begin{align}\sum_{r=0}^{\tau-1}\mathbb{P}\left( \left| Y_{r}-\frac{D}{2^r} \right| \geq \frac{\varepsilon D}{2^r}\right)&\leq \sum_{r=0}^{\tau-1}\frac{\text{Var}(Y_{r})2^{2r}}{\varepsilon^{2}D^{2}}\leq \sum_{r=0}^{\tau-1}\frac{2^r}{\varepsilon^{2}D}\leq \frac{2^\tau}{\varepsilon^{2}D}\leq \frac{1}{12}\end{align}$$Therefore, $\mathbb{P}(\left| Y_{X}2^X-D \right| \geq \varepsilon D)\leq 1 /6$.
 > 	
 > 	Finally, we have that: $$\mathbb{P}(\left| Y_{X}2^X-D \right| \geq \varepsilon D)\leq\mathbb{P}(\left| Y_{X}2^X-D \right| \geq \varepsilon D|E)+\mathbb{P}(\overline{E})\leq \frac{1}{3}$$
-> 	The space complexity is given as follows. Saving the hash functions can be done in $\text{O}(\log n+\log b)$. Further, each $(g(a_{i}),\text{Zeroes}(h(a_{i})))$ can be saved in $\text{O}(\log b+\log\log n)$ bits where $\text{O}(\log b)=\text{O}(\log \log n+\log (1 /\varepsilon))$. We can conclude by saying that we save at most $$
+> 	The space complexity is given as follows. Saving the hash functions can be done in $\text{O}(\log n+\log b)$. Further, each $(g(a_{i}),\text{Zeroes}(h(a_{i})))$ can be saved in $\text{O}(\log b+\log\log n)$ bits where $\text{O}(\log b)=\text{O}(\log \log n+\log (1 /\varepsilon))$. We can conclude by saying that we save at most $\text{O}(\varepsilon^{-2})$ of them. 
+
+^4ea1a3
+
+- **Corollary**: For any $\delta>0$, using the median trick with $t=\left\lceil 48\ln (1 / \delta)\right\rceil$,  we have that $\mathbb{P}(\left| \text{FM+}(S)-D \right|\geq \varepsilon D)\leq \delta$ with space  $\text{O}((\log n+\varepsilon^{-2}(\log \log n+\log(1 / \varepsilon)))\log (1 / \delta))$. ^a9914b
+---
+###### Estimating the 2nd moment
+
+> [!lemma] Theorem 5 (AMS)
+> Consider the algorithm:
+>    ```pseudo
+>    \begin{algorithm} \caption{AMS($S=(a_{1},\dots,a_{m})$)} 
+>    \begin{algorithmic}
+>    \State $h:[n]\to \{ -1,+1 \}\gets$ uniform, 4-wise independent random hash function.
+>    \State $Z\gets 0$
+>    \For{$a_{i}\in S$}
+>    \State $Z\gets Z +h(a_{i})$
+>    \EndFor
+>    \Return $Z^{2}$
+>    \end{algorithmic}
+>    \end{algorithm}
+>    ```
+>    Let $f_{j}$ denote the frequency of $j\in[n]$ in $S$, i.e. $f_{j}:=\left| \{ i\in[m]:a_{i}=j \} \right|$ and $F_{2}:=\sum_{j\in[n]}^{}f_{j}^{2}$ be the second moment. Then, 
+>    1. $\mathbb{E}[Z^{2}]=\sum_{j\in[n]}^{}f^{2}_{j}$
+>    2. $\text{Var}(Z^{2})\leq 2(\mathbb{E}[Z^{2}])^{2}$
+>    3. $\mathbb{P}(\left| Z^{2}-F_{2} \right|\geq \ell F_{2})\leq \frac{2}{\ell^{2}}$ for any $\ell>0$.
+>    4. $\text{AMS}$ has space complexity $\text{O}(\log n)$
 > 
 ---
+
 ###### Finding the Majority Element
 > [!lemma] Theorem 4
 > Consider the algorithm:

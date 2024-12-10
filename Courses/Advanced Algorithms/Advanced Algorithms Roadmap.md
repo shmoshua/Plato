@@ -226,6 +226,12 @@
 ![[Streaming Algorithm#^894eb0|p]]
 ![[Streaming Algorithm#^001d15|q]]
 ---
-##### 3.2.3
+![[Streaming Algorithm#^273243]]
+![[Streaming Algorithm#^4ea1a3|p]]
+![[Streaming Algorithm#^a9914b|q]]
+
+---
+##### 3.2.3 Estimating the 2nd Moment of the Stream
+
 
 #### 5 Tree Embedding
