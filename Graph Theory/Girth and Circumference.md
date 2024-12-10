@@ -56,3 +56,7 @@
 > 1. for all $v\in V'$, $d_{H}(v)> n^{1/k}$.
 > 2. As each vertex removed removes at most $n^{1 / k}$ edges, we have that: $$\left| E' \right| \geq \left| E \right| -n^{1+1/k}>n^{1+1/k}$$
 > 3. As $H\subseteq G$, we have that $g(H)\geq g(G)> 2k$.
+> 
+> Let $v\in V'$ fixed and consider $H^i(v)$ as the graph given by the union of all paths of length $i$ starting from $v$. Then, notice that $H^i(v)$ is a tree for all $i\in[k]$. Otherwise there exists $x\in B_{\leq i}(v)$ and two $v$-$x$-paths $p_{1},p_{2}$ s.t. $(p_{1},p_{2})$ contains a cycle of length $\leq 2k$, which is a contradiction.
+> 
+> Lastly, we claim that $\left| B_{\leq i+1}(v) \right|>n^{1/k}\left| B_{\leq i}(v) \right|$ for all $0\leq i<k$. Indeed, for every $u\in B_{\leq i}(v)$, $$d_{H^{i+1}(v)}(u)=d_{H}(u)>n^{1/k}$$Therefore, $$\left| B_{\leq i+1}(v) \right| =\left| E(H^{i+1}(v)) \right|+1\geq \frac{1}{2}\sum_{u\in B_{\leq i+1}(v)}^{}d_{H^{i+1}(v)}(u) +1> \frac{1}{2}n^{1/k}\left| B_{\leq i}(v) \right|+1 $$

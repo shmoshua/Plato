@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Spanner.md",
+                "file": "Graph Theory/Girth and Circumference.md",
                 "mode": "source",
                 "source": true
               }
@@ -62,14 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Graph Theory/Graph.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -107,6 +107,18 @@
               "type": "markdown",
               "state": {
                 "file": "Graph Theory/Girth and Circumference.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "920c54a6f44756a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Graph.md",
                 "mode": "preview",
                 "source": true
               }
@@ -243,13 +255,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b108f0cae2671ead",
+  "active": "d64abdd9624ea966",
   "lastOpenFiles": [
-    "Probability Theory/Moment.md",
-    "Graph Theory/Girth and Circumference.md",
-    "Graph Theory/Spanner.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Streaming Algorithm.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Spanner.md",
+    "Graph Theory/Girth and Circumference.md",
+    "Graph Theory/Graph.md",
+    "Probability Theory/Moment.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Probability Theory/Distribution.md",
     "Probability Theory/Variance.md",
@@ -270,7 +283,6 @@
     "Algorithms/Multi-Commodity Routing.md",
     "Algorithms/Randomized Online Algorithm.md",
     "Algorithms/Minimum Set Cover.md",
-    "Algorithms/Minimum Vertex Cover.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
