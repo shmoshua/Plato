@@ -205,11 +205,25 @@
 >    \end{algorithm}
 >    ```
 >    Let $f_{j}$ denote the frequency of $j\in[n]$ in $S$, i.e. $f_{j}:=\left| \{ i\in[m]:a_{i}=j \} \right|$ and $F_{2}:=\sum_{j\in[n]}^{}f_{j}^{2}$ be the second moment. Then, 
->    1. $\mathbb{E}[Z^{2}]=\sum_{j\in[n]}^{}f^{2}_{j}$
+>    1. $\mathbb{E}[Z^{2}]=\sum_{j\in[n]}^{}f^{2}_{j}=F_{2}$
 >    2. $\text{Var}(Z^{2})\leq 2(\mathbb{E}[Z^{2}])^{2}$
 >    3. $\mathbb{P}(\left| Z^{2}-F_{2} \right|\geq \ell F_{2})\leq \frac{2}{\ell^{2}}$ for any $\ell>0$.
 >    4. $\text{AMS}$ has space complexity $\text{O}(\log n)$
-> 
+
+^f94d70
+
+> [!proof]-
+> We have that: 
+> 1. We have that $Z=\sum_{j\in[n]}^{}h_{j}f_{j}$. Hence, $$\begin{align}\mathbb{E}[Z^{2}]&=\mathbb{E}\left[ \sum_{i,j\in [n]}^{}h_{i}h_{j}f_{i}f_{j} \right]=\sum_{j\in[n]}^{}\mathbb{E}[\underbrace{ h_{j}^{2} }_{ =1 }]f_{j}^{2}=\sum_{j\in [n]}^{}f_{j}^{2}\end{align}$$where for $i\neq j$ we have pairwise independence and $\mathbb{E}[h_{i}h_{j}]=\mathbb{E}[h_{i}]\mathbb{E}[h_{j}]=0$.
+> 2. We have: $$\begin{align}\mathbb{E}[Z^4]&=\sum_{i,j,k,\ell\in [n]}^{}\mathbb{E}[h_{i}h_{j}h_{k}h_{\ell}]f_{i}f_{j}f_{k}f_{\ell}=\sum_{i\in[n]}^{}\mathbb{E}[h_{i}^4]f_{i}^4+6\sum_{i<j\in[n]}^{}\mathbb{E}[h_{i}^{2}h_{j}^{2}]f_{i}^{2}f_{j}^{2}\\&=\sum_{i\in[n]}^{}f_{i}^4+6\sum_{i<j\in[n]}^{}f_{i}^{2}f_{j}^{2}\end{align}$$Therefore,$$\begin{align}\text{Var}(Z^{2})&=\mathbb{E}[Z^4]-\mathbb{E}[Z^{2}]^2=\sum_{i\in[n]}^{}f_{i}^4+6\sum_{i<j\in[n]}^{}f_{i}^{2}f_{j}^{2}-\sum_{i\in[n]}^{}f_{i}^4-2\sum_{i<j\in[n]}^{}f^2_{i}f^2_{j}\\&=4\sum_{i<j\in[n]}^{}f_{i}^{2}f_{j}^{2}\leq 2\left( \sum_{j\in[n]}^{}f_{j}^{2} \right) ^2=2(\mathbb{E}[Z^{2}])^{2}\end{align}$$
+> 3. We have that for any $\ell>0$ by [[Expected Value|Chebyshev]]:$$\begin{align}\mathbb{P}(\left| Z^{2}-F_{2} \right|\geq \ell F_{2})\leq \frac{\text{Var}(Z^{2})}{\ell^{2}F_{2}^{2}}=\frac{2}{\ell^{2}} \end{align}$$
+> 4. We only need $\text{O}(\log n)$ to save $h$. Further, $\left| Z \right|\leq n$ and $Z\leq n^{2}$. Hence we need $\text{O}(\log n)$ bits in total.
+
+^f15f0b
+
+- **Corollary**: We have that:  ^90acce
+	1. By using the mean trick with $k=\left\lceil 8 / \varepsilon^2\right\rceil$, $\mathbb{P}(\left| \mathcal{B}(S)-m \right|\geq \varepsilon m)\leq 1/4$ in space complexity $\text{O}(\varepsilon^{-2}\log n)$
+	2. By further using the median trick with $t=\left\lceil 24\ln(1 / \delta)\right\rceil$, $\mathbb{P}(\left| \mathcal{B}(S)-m \right|\geq \varepsilon m)\leq \delta$ in space complexity $\text{O}(\varepsilon^{-2}\log n\log(1 / \delta))$.
 ---
 
 ###### Finding the Majority Element

@@ -45,18 +45,6 @@
             }
           },
           {
-            "id": "60b2c8adb7a502c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Linear Probing.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "d64abdd9624ea966",
             "type": "leaf",
             "state": {
@@ -69,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -179,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -243,13 +231,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0be985889f4d072",
+  "active": "d64abdd9624ea966",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Streaming Algorithm.md",
+    "Algorithms/Linear Probing.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Moment.md",
-    "Algorithms/Linear Probing.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Courses/Advanced Algorithms/Assignment 11.md",
     "Probability Theory/Martingale.md",

@@ -232,6 +232,12 @@
 
 ---
 ##### 3.2.3 Estimating the 2nd Moment of the Stream
+![[Streaming Algorithm#^f94d70]]
+![[Streaming Algorithm#^f15f0b|p]]
+![[Streaming Algorithm#^90acce|q]]
 
+---
+#### 3.3 Streaming Algorithms: Graph Connectivity
+##### 3.3.1 Finding a Single
 
 #### 5 Tree Embedding
