@@ -21,3 +21,5 @@
 \end{algorithm}
 > ```
 
+> [!proof]+
+> Let $S\subseteq V$ of size $k\leq n / 2$. 
