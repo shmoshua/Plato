@@ -304,7 +304,7 @@
 >    \State $\text{XOR}_{v}\gets \text{XOR}_{v}\oplus \text{id}(e_{i})$
 >    \EndFor
 >    \State $\text{XOR}_{A}\gets \bigoplus_{v\in A} \text{XOR}_{v}$
->    \Return edge $e$ with $\text{id}(e)=X$. 
+>    \Return edge $e$ with $\text{id}(e)=\text{XOR}_{A}$. 
 >    \end{algorithmic}
 >    \end{algorithm}
 >    ```
@@ -314,5 +314,7 @@
 
 > [!proof]+
 > We have that: 
-> $$\text{XOR}_{A}=\bigoplus_{v\in A}\text{XOR} $$
-> $$X=\bigoplus_{e\in (A,V \backslash A)} \text{id}(e)\cdot  \mathbb{1}_{\{ h(e)=0 \}}$$Now, let $Y_{e}=\mathbb{1}_{\{ h(e)=0 \}}$ and $Y:=\sum_{e\in (A, V\backslash A)}^{}Y_{e}$. Then, $$\mathbb{E}[Y]=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(h(e)=0)=\frac{k}{\widehat{k}}\in\left[ \frac{11}{12},1 \right]$$Further, $$\begin{align}\text{Var}(Y)=\mathbb{E}[Y^{2}]-\mathbb{E}[Y]^{2}&\leq  \sum_{e,e'\in (A, V \backslash A)}^{}\mathbb{E}\left[Y_{e}Y_{e'} \right] -\mathbb{E}[Y^{2}]\\&\leq \sum_{e\neq e'}^{} \frac{1}{\widehat{k}^{2}}+\sum_{e}^{} \mathbb{E}[Y_{e}^{2}]-\mathbb{E}[Y^{2}]\\&= { k \choose 2} \frac{1}{\widehat{k}^{2}}\\&\leq \frac{1}{2}\left(  \right) \end{align}$$
+> $$\text{XOR}_{A}=\bigoplus_{v\in A}\text{XOR}_{v}=\bigoplus_{v\in A}\bigoplus_{e\in S}\text{id}(e)\mathbb{1}_{h(e)=0}\mathbb{1}_{v\in e}  =\bigoplus_{e\in S}\text{id}(e)\mathbb{1}_{h(e)=0}\mathbb{1}_{e\in (A , V \backslash A)}= \bigoplus_{e\in (A , V \backslash A)}\text{id}(e)\mathbb{1}_{h(e)=0}  $$
+> Now, let $Y_{e}=\mathbb{1}_{\{ h(e)=0 \}}$ and $Y:=\sum_{e\in (A, V\backslash A)}^{}Y_{e}$. Then, $\begin{align}\mathbb{P}(k\text{-Cut}(S,A)\notin (A, V \backslash A))\leq \mathbb{P}(Y\neq1)&\end{align}$ where: $$\begin{align}\mathbb{P}(Y=1)&=\mathbb{P}(\exists  e\in (A, V \backslash A): Y_{e}=1\land \forall e\neq e'\in (A, V \backslash A). Y_{e'}=0)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1\land \forall e\neq e'\in (A, V \backslash A). Y_{e'}=0)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\mathbb{P}(\forall e\neq e'\in (A, V \backslash A). Y_{e'}=0|Y_{e}=1)\\&=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)(1-\mathbb{P}(\exists e'\neq e\in (A, V \backslash A). Y_{e'}=1|Y_{e}=1))\\&\geq\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\left( 1-\sum_{e'\neq e\in (A, V \backslash A)}^{}\mathbb{P}( Y_{e'}=1|Y_{e}=1) \right)\\&\geq\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(Y_{e}=1)\left( 1-\sum_{e'\neq e\in (A, V \backslash A)}^{}\mathbb{P}( Y_{e'}=1) \right)\\&\geq  \frac{k}{2\widehat{k}}\left( 1-\frac{k-1}{2\widehat{k}} \right)\\&\geq \frac{k}{2\widehat{k}}-\left( \frac{k}{2\widehat{k}} \right)^2\geq \end{align}$$
+> 
+> $$\mathbb{E}[Y]=\sum_{e\in (A , V \backslash A)}^{}\mathbb{P}(h(e)=0)=\frac{k}{\widehat{k}}\in\left[ \frac{11}{12},1 \right]$$Further, $$\begin{align}\text{Var}(Y)=\mathbb{E}[Y^{2}]-\mathbb{E}[Y]^{2}&\leq  \sum_{e,e'\in (A, V \backslash A)}^{}\mathbb{E}\left[Y_{e}Y_{e'} \right] -\mathbb{E}[Y^{2}]\\&\leq \sum_{e\neq e'}^{} \frac{1}{\widehat{k}^{2}}+\sum_{e}^{} \mathbb{E}[Y_{e}^{2}]-\mathbb{E}[Y^{2}]\\&= { k \choose 2} \frac{1}{\widehat{k}^{2}}\\&\leq \frac{1}{2}\left(  \right) \end{align}$$
