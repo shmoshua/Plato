@@ -47,11 +47,18 @@
 ^819748
 
 ---
-> [!lemma] Lemma 2
-> Let $G=(V,E)$ be a graph. For any $k$, 
-> 1. if $g(G)> 2k$, then $\left| E \right|\leq 2n^{1+1/k}$
+> [!lemma] Theorem 2 (Bondy-Simonovits)
+> Let $G=(V,E)$ be a graph with $n$ vertices. For any $k\geq 2$,
+> 1. if $g(G)> 2k$, then $\left| E \right|\leq O(n^{1+1/k})$
 
 > [!proof]+
+> Let $c$ be a constant and assume that $\left| E \right|>cn^{1+1/k}$. Then, $d(G)=2\frac{\left| E \right|}{\left| V \right|}>2cn^{1/k}$ and there exists a subgraph $H\subseteq G$ s.t. $\delta(H)\geq cn^{1/k}$. 
+> 
+> Fix an arbitrary vertex $x\in H$. Let $V_{i}:=\{ v\in V':d_{H}(u,v)=i \}$. 
+
+
+
+
 > Assume that $\left| E \right|>2n^{1+1/k}$ and define $H:=(V',E')$ be the graph defined by removing vertices with degree $d(v)\leq n^{1/k}$ from $G$. Then,
 > 1. for all $v\in V'$, $d_{H}(v)> n^{1/k}$.
 > 2. As each vertex removed removes at most $n^{1 / k}$ edges, we have that: $$\left| E' \right| \geq \left| E \right| -n^{1+1/k}>n^{1+1/k}$$
@@ -59,4 +66,4 @@
 > 
 > Let $v\in V'$ fixed and consider $H^i(v)$ as the graph given by the union of all paths of length $i$ starting from $v$. Then, notice that $H^i(v)$ is a tree for all $i\in[k]$. Otherwise there exists $x\in B_{\leq i}(v)$ and two $v$-$x$-paths $p_{1},p_{2}$ s.t. $(p_{1},p_{2})$ contains a cycle of length $\leq 2k$, which is a contradiction.
 > 
-> Lastly, we claim that $\left| B_{\leq i+1}(v) \right|>n^{1/k}\left| B_{\leq i}(v) \right|$ for all $0\leq i<k$. Indeed, for every $u\in B_{\leq i}(v)$, $$d_{H^{i+1}(v)}(u)=d_{H}(u)>n^{1/k}$$Therefore, $$\left| B_{\leq i+1}(v) \right| =\left| E(H^{i+1}(v)) \right|+1\geq \frac{1}{2}\sum_{u\in B_{\leq i+1}(v)}^{}d_{H^{i+1}(v)}(u) +1> \frac{1}{2}n^{1/k}\left| B_{\leq i}(v) \right|+1 $$
+> Lastly, we claim that $\left| B_{\leq i+1}(v) \right|>n^{1/k}\left| B_{\leq i}(v) \right|$ for all $0\leq i<k$. Indeed, for every $u\in B_{\leq i}(v)$, $$d_{H^{i+1}(v)}(u)=d_{H}(u)>n^{1/k}$$Therefore, $$\left| B_{\leq i+1}(v) \right| =\left| E(H^{i+1}(v)) \right|+1\geq \frac{1}{2}\sum_{u\in B_{\leq i+1}(v)}^{}d_{H^{i+1}(v)}(u) +1> \frac{1}{2}n^{1/k}\left| B_{\leq i}(v) \right| $$
