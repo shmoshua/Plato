@@ -41,7 +41,9 @@
 \end{algorithmic}
 \end{algorithm}
 > ```
-> We need that $\frac{15\log n}{\varepsilon^{2} \delta}\leq \phi$.
+> We need that $\frac{15\log n}{\varepsilon^{2} \delta}\leq \phi$. Then, with high probability:
+> 1. $\left| E' \right|=\tilde{O}(\frac{m}{\varepsilon^{2} \delta})$
+> 2. $\left| w'(E_{H}(S, V \backslash S))-e_{G}(S, V \backslash S) \right|\leq \varepsilon w(E_{G}(S, V \backslash S))$ for all $S\subseteq V$.
 
 
 
