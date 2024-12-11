@@ -148,8 +148,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Competitive Online Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Competitive Online Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Competitive Online Algorithm.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -279,8 +278,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "aff2c4f80f522fff",
+  "active": "215049b117e502c5",
   "lastOpenFiles": [
+    "Algorithms/Competitive Online Algorithm.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Expander.md",
     "Graph Theory/Cut Sparsifier.md",
@@ -306,7 +306,6 @@
     "Differential Geometry/Submanifold.md",
     "Representation Theory/Lie Algebra.md",
     "Algorithms/Paging.md",
-    "Algorithms/k-wise Independent Hash Function.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
