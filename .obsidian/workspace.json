@@ -267,13 +267,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1f325e37b8ec4b81",
+  "active": "ee568ad677adda89",
   "lastOpenFiles": [
-    "Graph Theory/Expander.md",
-    "Graph Theory/Graph.md",
     "Graph Theory/Cut Sparsifier.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Planar Graph.md",
+    "Graph Theory/Expander.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Graph.md",
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Sparsest Cut.md",
     "Algorithms/Streaming Algorithm.md",

@@ -26,7 +26,7 @@
 
 ---
 > [!lemma] Theorem 2
-> $R(Q_{r})\leq 2^{3r}$ where $R$ denotes the [[Ramsey number]].
+> $R(Q_{r})\leq 2^{3r}$ where $R$ denotes the [[Ramsey Number]].
 
 ^d2c90f
 

@@ -27,6 +27,8 @@
 
 > [!proof]+
 > By construction, $G[V_{i}]$ is a $\phi$-expander for all $V_{i}\in \mathcal{V}$ in the output. 
+> 
+> Let $(S,V \backslash S)$ be a $\phi$-sparse cut in $G[V_{i}]$ where wlog $\sum_{v\in S}d_{G}(v)\leq \sum_{v\in V \backslash S}^{}d_{G}(v)$. Then, we add at most $\phi \sum_{v\in S}^{}d_{G[V_{i}]}(v)\leq \phi \sum_{v\in S}d_{G}(v)$
 
 ---
 ##### Examples
