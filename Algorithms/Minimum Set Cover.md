@@ -90,4 +90,12 @@
 > 	$$\mathbb{E}[\left| T' \right| ]=\sum_{t\in T}^{}\mathbb{P}(y_{t}\geq 1)\leq \sum_{t\in T}^{}\mathbb{E}[y_{t}]=c\ln n\sum_{t\in T}^{}x_{t}\leq c\ln n\cdot \text{OPT}$$Further, for any $i\in[k]$, let $Z_{i}:=\sum_{t\in F_{i}}^{}z_{t}$. Then,
 > 	$$\begin{align}\mathbb{P}(Z_{i}\leq 1)&\leq \sum_{S\in {F_{i} \choose \left| F_{i} \right|-1 }}^{}\prod_{t\in S}^{}\mathbb{P}(y_{t}=0)\leq \sum_{S\in {F_{i} \choose \left| F_{i} \right|-1 }}^{}\prod_{t\in S}^{}\mathbb{P}(y_{t}=0)\\&= \sum_{S\in {F_{i} \choose \left| F_{i} \right|-1 }}^{}\prod_{t\in S}^{}(1-x_{t})^{c\ln n}\leq  \sum_{S\in {F_{i} \choose \left| F_{i} \right|-1 }}^{}n^{-c\sum_{t\in S}^{}x_{t}}=\left| F_{i} \right| n^{-c}\leq n^{1-c}\end{align}$$Hence, $$\mathbb{P}(\exists i:Z_{i}\leq 1)\leq n^{2-c}\leq \frac{1}{2}$$for $c\geq 3$.
 ---
-Let $X_{i}$ be the number of balls in $i$-th bin. Then, $\mathbb{E}[X_{i}]$$$\mathbb{P}(X_{i}\geq c\log n)\leq $$
+Let $X_{i}$ be the number of balls in $i$-th bin. Then, $\mathbb{E}[X_{i}]=1$ and:$$\mathbb{P}(X_{i}> c\log n)=\mathbb{P}(2^{X_{i}}\geq n^c)\leq $$
+
+Let $X_{i,j}$ be the indicator variable that $j$-th ball goes to $i$-th bin. Further, let $Z_{i,j}=\sum_{\ell\leq j}^{}X_{i,\ell}$. Then, we claim that $\mathbb{E}[2^{Z_{i,j}}]=\left( \frac{n+1}{n} \right)^j$ by induction. 
+1. If $j=1$, then $\mathbb{E}[2^{Z_{i,1}}]=\frac{2}{n}+\frac{n-1}{n}=\frac{n+1}{n}$.
+2. If $j\geq 1$, then: $$\mathbb{E}[2^{Z_{i,j}}]=\frac{2\mathbb{E}[2^{Z_{i,j-1}}]}{n}+\frac{(n-1)\mathbb{E}[2^{Z_{i,j-1}}]}{n}=\left( \frac{n+1}{n} \right) ^{j}$$
+
+Hence, $$\mathbb{P}(X_{i}> c\log n)=\mathbb{P}(2^{X_{i}}\geq n^c)\leq \frac{\left( \frac{n+1}{n} \right)^n}{n^c}\leq \frac{e}{n^c}$$Therefore, $$\mathbb{P}(\exists i:X_{i}> c\log n)\leq \frac{e}{n^{c-1}}$$
+
+---
