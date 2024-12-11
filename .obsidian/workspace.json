@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Graph Theory/Cut Sparsifier.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Graph Theory/Cut Sparsifier.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Graph Theory/Expander.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Graph Theory/Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Graph Theory/Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Expander.md"
+                "file": "Graph Theory/Graph.md"
               }
             }
           }
@@ -254,14 +254,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0be985889f4d072",
+  "active": "920c54a6f44756a6",
   "lastOpenFiles": [
+    "Graph Theory/Cut Sparsifier.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Expander.md",
     "Graph Theory/Girth and Circumference.md",
-    "Graph Theory/Sparsest Cut.md",
-    "Graph Theory/Cut Sparsifier.md",
     "Graph Theory/Graph.md",
+    "Graph Theory/Sparsest Cut.md",
     "Algorithms/Streaming Algorithm.md",
     "Graph Theory/Spanner.md",
     "Courses/Advanced Algorithms/Exam Practice.md",
