@@ -136,8 +136,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Expander.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -267,11 +266,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ee568ad677adda89",
+  "active": "215049b117e502c5",
   "lastOpenFiles": [
+    "Graph Theory/Expander.md",
     "Graph Theory/Cut Sparsifier.md",
     "Graph Theory/Planar Graph.md",
-    "Graph Theory/Expander.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Girth and Circumference.md",
