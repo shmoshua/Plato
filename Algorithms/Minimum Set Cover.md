@@ -81,22 +81,13 @@
 > 	3. $\mathbb{P}(J \text{ is feasible }\land c(J)\leq 4\ln n \cdot c(\text{OPT}_{LP}))\geq \frac{1}{4}$
 
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. First, observe that as $\sum_{t\in F_{i}}^{}x_{t}\geq 2$, there exists $t\in F_{i}$ with $x_{t}\geq \frac{2}{\left| F_{i} \right|}$
 > 	
 > 	Assume that there exists $i\in[k]$ with $\left| F_{i}\cap T' \right|\leq 1$. Then, we have that: $$2\leq\sum_{t\in F_{i}}^{}x_{t}< \frac{\left| F_{i} \right| -1}{b-1}+1\leq 2$$which is a contradiction. Hence, we have two TAs for each group. Further, $$\sum_{t\in T}^{}x_{t}\geq \left| T' \right| \frac{1}{b-1}$$which proves the statement.
 > 2. Let $y_{t}\sim \text{Bin}(c\ln n, x_{t})$ and $z_{t}$ be the indicator variable that $y_{t}\geq 1$. Then, 
-> 	$$\mathbb{E}[\left| T' \right| ]=\sum_{t\in T}^{}\mathbb{P}(y_{t}\geq 1)\leq \sum_{t\in T}^{}\mathbb{E}[y_{t}]=c\ln n\sum_{t\in T}^{}x_{t}\leq c\ln n\cdot \text{OPT}$$Further, for any $i\in[k]$, let $Z_{i}:=\sum_{t\in F_{i}}^{}z_{t}$. Then, $\mathbb{E}[Z_{i}]=\sum_{n=1}^{}$
-> 	
-> 	$$\mathbb{P}\left(Z_{i}\leq 1 \right)$$
->  1. We have that:
-> 	 1. For the expectation, it holds that:$$\mathbb{E}[c(J)]=\sum_{i=1}^{m}c(S_{i})\mathbb{P}(y_{i}\geq 1)\leq 2 \ln n\sum_{i=1}^{m}x_{i}c(S_{i})=2\ln n\cdot c(\text{OPT}_{\text{LP}})$$
-> 	 2. **Claim 1**: $\mathbb{P}\left( \sum_{S_{i} \ni e_{j}}^{}y_{i}=0 \right)\leq (e^{-1})^{2 \ln n}=\frac{1}{n^{2}}$.
-> 	  2. **Claim 2**: $\mathbb{P}\left( \exists j\in [n]:\sum_{S_{i} \ni e_{j}}^{}y_{i}=0  \right)\leq \frac{1}{n}$ by union bound.
-> 	  3. **Claim 3**: $\mathbb{P}(c(J)\geq 4\ln n \cdot c(\text{OPT}_{\text{LP}}))\leq \frac{1}{2}$ as we have that by Markov, $$\mathbb{P}(c(J)\geq 4\ln n \cdot c(\text{OPT}_{\text{LP}}))\leq \mathbb{P}(c(J)\geq 2\mathbb{E}[c(J)])\leq \frac{1}{2}$$
-> 	
-> 	Therefore, $\mathbb{P}(J \text{ is not feasible }\land c(J)\geq 4\ln n \cdot c(\text{OPT}_{LP}))\leq \frac{1}{n}+\frac{1}{2}\leq \frac{3}{4}$. 
-
-
+> 	$$\mathbb{E}[\left| T' \right| ]=\sum_{t\in T}^{}\mathbb{P}(y_{t}\geq 1)\leq \sum_{t\in T}^{}\mathbb{E}[y_{t}]=c\ln n\sum_{t\in T}^{}x_{t}\leq c\ln n\cdot \text{OPT}$$Further, for any $i\in[k]$, let $Z_{i}:=\sum_{t\in F_{i}}^{}z_{t}$. Then,
+> 	$$\begin{align}\mathbb{P}(Z_{i}\leq 1)&\leq \sum_{S\in {F_{i} \choose \left| F_{i} \right|-1 }}^{}\prod_{t\in S}^{}\mathbb{P}(y_{t}=0)\leq \sum_{S\in {F_{i} \choose \left| F_{i} \right|-1 }}^{}\prod_{t\in S}^{}\mathbb{P}(y_{t}=0)\\&= \sum_{S\in {F_{i} \choose \left| F_{i} \right|-1 }}^{}\prod_{t\in S}^{}(1-x_{t})^{c\ln n}\leq  \sum_{S\in {F_{i} \choose \left| F_{i} \right|-1 }}^{}n^{-c\sum_{t\in S}^{}x_{t}}=\left| F_{i} \right| n^{-c}\leq n^{1-c}\end{align}$$Hence, $$\mathbb{P}(\exists i:Z_{i}\leq 1)\leq n^{2-c}\leq \frac{1}{2}$$for $c\geq 3$.
 ---
+Let $X_{i}$ be the number of balls in $i$-th bin. Then, $\mathbb{E}[X_{i}]$$$\mathbb{P}(X_{i}\geq c\log n)\leq $$
