@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Cut Sparsifier.md",
+                "file": "Graph Theory/Planar Graph.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Cut Sparsifier.md",
+                "file": "Graph Theory/Planar Graph.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Graph Theory/Planar Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Graph Theory/Planar Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Graph.md"
+                "file": "Graph Theory/Planar Graph.md"
               }
             }
           }
@@ -254,13 +254,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "920c54a6f44756a6",
+  "active": "02c5c1c00827dd4a",
   "lastOpenFiles": [
     "Graph Theory/Cut Sparsifier.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Planar Graph.md",
     "Graph Theory/Expander.md",
-    "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Graph.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Sparsest Cut.md",
     "Algorithms/Streaming Algorithm.md",
     "Graph Theory/Spanner.md",
@@ -281,7 +282,6 @@
     "Representation Theory/Lie Algebra.md",
     "Algorithms/Paging.md",
     "Algorithms/k-wise Independent Hash Function.md",
-    "Courses/Linear System Theory/Problem Set 3.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
