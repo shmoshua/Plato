@@ -59,9 +59,10 @@
 > 
 > 
 > 
-> Let $(S,V_{i} \backslash S)$ be a $\phi$-sparse cut in $G[V_{i}]$ where wlog $\sum_{v\in S}d_{G}(v)\leq \sum_{v\in V \backslash S}^{}d_{G}(v)$. Then, we add at most $\phi \sum_{v\in S}^{}d_{G[V_{i}]}(v)\leq \phi \sum_{v\in S}d_{G}(v)$ to $E_{\text{rest}}:=\bigcup_{i\neq j}^{}E(V_{i},V_{j})$. Therefore, for each $v\in S$, we can charge at most $\phi d_{G}(v)$ to pay for the contribution in $E_{\text{rest}}$.
+> Let $(S,V_{i} \backslash S)$ be a $\phi$-sparse cut in $G$ where wlog $\text{vol}(S)\leq \text{vol}( V \backslash S)$. Then, we have that $e(S, V \backslash S)<\phi \text{vol}(S)$. Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we have that: $$e(S, V \backslash S)<\phi \text{vol}(S)=\sum_{v\in S}^{}\text{charge}(v)$$
 > 
-> However, notice that after replacing $V_{i}$ with $S,V_{i} \backslash S$, we have that $$\sum_{v\in S}^{}d_{G[S]}(v)=\sum_{v\in S}^{}d_{G[V_{i}]}(v)-e_{G[V_{i}]}(S,V_{i} \backslash S)\leq \frac{1}{2}\sum_{v\in S}^{}d_{G[V_{i}]}(v)$$Then
+> As $\text{vol}(V)=2m$ and the volume at least halves at every step, each vertex receives charges in at most $\log (2m)$ iterations. Hence, we have that $\text{charge}(v)\leq \phi \cdot d(v)\cdot \log(2m)$. Hence, we have tha
+> 
 
 ---
 ##### Examples
