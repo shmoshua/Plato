@@ -10,6 +10,7 @@
 ##### 1.1.1 Minimum Set Cover
 ![[Minimum Set Cover#^2ed1e3]]
 ![[Minimum Set Cover#^0eb03c|q]]
+
 ---
 ![[Minimum Set Cover#^eb92be]]
 ![[Minimum Set Cover#^d320dd|p]]
@@ -268,7 +269,61 @@
 
 ---
 ##### 3.4.2 Cut Preserving Sparsifiers
-
+![[Cut Sparsifier#^31fd8c]]
 
 ---
-#### 5 Tree Embedding
+![[Cut Sparsifier#^2b64cc]]
+![[Cut Sparsifier#^7e47a0|p]]
+
+---
+###### 3.4.2.1 Expanders
+![[Expander#^fb21f9]]
+![[Expander#^7eada3|q]]
+![[Expander#^477930|q]]
+
+---
+![[Expander#^807967]]
+![[Expander#^11188b|p]]
+
+---
+![[Expander#^652214]]
+![[Expander#^66131c|p]]
+
+---
+![[Expander#^c0d48a]]
+![[Expander#^2b6c8c|p]]
+![[Expander#^b7104c|q]]
+
+---
+![[Expander#^7b2b27]]
+![[Expander#^4eea47|p]]
+
+---
+![[Expander#^f5340c]]
+
+---
+![[Expander#^edc1f0]]
+
+---
+![[Expander#^8a9e7c]]
+![[Expander#^21d1d7|p]]
+
+---
+![[Cut Sparsifier#^1b4fab]]
+![[Cut Sparsifier#^1855a6|p]]
+
+---
+![[Cut Sparsifier#^aa67f0]]
+![[Cut Sparsifier#^b5e439|p]]
+
+---
+### 4 Selected Topics in Approximation Algorithms
+#### 4.1 Distance Preserving Tree Embeddings
+![[Tree Embedding#^4915f3]]
+
+---
+![[Tree Embedding#^15e851]]
+![[Tree Embedding#^a6ffa8|p]]
+
+---
+![[Tree Embedding#^639521]]
