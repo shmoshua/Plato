@@ -85,7 +85,7 @@
 
 
 
-> [!proof]+
+> [!proof]-
 > Let $V_{1},\dots,V_{k}$ be the output from $\text{ExpanderDecomposition}(G',\phi)$. Then, we have: $$d_{G_{i}}(v)\geq e_{G}(v, V_{i}\backslash \{ v \})=e_{G'}(v, V_{i}\backslash \{ v \})\geq \phi \deg_{G'[V_{i}]}(v)\geq \phi \Delta$$Further, for every $G_{i}$, we have that $S\subseteq V_{i}$, $$\begin{align}e_{G_{i}}(S, V_{i}\backslash S)&=e_{G'[V_{i}]}(S, V_{i}\backslash S)\\&\geq \phi \min\{ \deg_{G'[V_{i}]}(S),\deg_{G'[V_{i}]}(V_{i} \backslash S) \}\geq \phi \min\{ \deg_{G_{i}}(S),\deg_{G_{i}}(V_{i} \backslash S) \}\end{align}$$Hence, $G_{i}$ is a $\phi$-expander where $\phi=\tilde{\Omega}(1)$. Further, notice that $\left| E_{\text{rest}} \right|\leq m /2$. Hence, we have at most $\log m=O(\log n)$ iterations of the algorithm.
 > 
 > Then, 
