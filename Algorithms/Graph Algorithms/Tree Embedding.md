@@ -25,14 +25,25 @@
 > 
 > Then, the algorithm outputs a partition $V=\bigsqcup_{i\in[n]}^{} C_{i}$ s.t. 
 > 1. for all $i\in[n]$, $\text{diam}(C_{i})\leq D$
-> 2. there exists $\alpha\in \text{O}(\log n)$ s.t. for all $v\in V$ and $0\leq r\leq D$, $\mathbb{P}(\forall i:B_{\leq r}(v)\nsubseteq C_{i})\leq \alpha r / D$.
+> 2. there exists $\alpha\in \text{O}(\log n)$ s.t. for all $v\in V$ and $0\leq r\leq D$, $\mathbb{P}(\exists i:B_{\leq r}(v)\nsubseteq C_{i})\leq \alpha r / D$.
 
 ^15e851
 
 > [!proof]+
 > We have that:
 > 1. Obvious.
-> 2. Let $v\in V$ and $r\geq 0$. We will sort the nodes into $v=v_{0},v_{1},\dots,v_{n-1}$. Then, for all $i\in[n]$:$$\begin{align}\mathbb{P}(v_{i}\text{ cuts }B_{\leq r}(v))&\leq\mathbb{P}(\pi(v_i)=\min_{j\in[i]}\pi(v_{j}))\cdot \mathbb{P}(d_{G}(v,v_{i})-r\leq\delta\leq d_{G}(v,v_{i})+r)\\&\leq \frac{1}{i}\cdot \frac{2r}{D/8}=\frac{16}{i}\cdot \frac{r}{D}\end{align}$$Therefore, $$\mathbb{P}(\forall i:B_{\leq r}(v)\nsubseteq C_{i})\leq \frac{16r}{D}\sum_{i=1}^{n} \frac{1}{i}=16 H_{n}\cdot \frac{r}{D} $$
+> 2. Let $v\in V$ and $r\geq 0$. We will sort the nodes into $v=v_{0},v_{1},\dots,v_{n-1}$. 
+> 	1. **Claim 1**: If $C_{i}$ is the first partition that cuts $B_{\leq r}(v)$, then we have that $\pi(v_{i})<\pi(v_{j})$ for all $j< i$.
+> 	   
+> 	   Let $j=\max\{ j<i: \pi(v_{j})<\pi(v_{i}) \}$.
+> 		1. If $B_{\leq r}(v)\cap B_{\leq \delta}(v_{j})=\varnothing$, then $r+\delta<d(v,v_{j})\leq d(v,v_{i})$. This shows that $B_{\leq r}(v)\cap B_{\leq \delta}(v_{i})=\varnothing$ which is a contradiction that $C_{i}$ cuts $B_{\leq r}(v)$.
+> 		2. If $B_{\leq r}(v)\subseteq B_{\leq \delta}(v_{i})$. Then, for all $u\in B_{\leq r}(v)$, $d(u,v_{i})\leq \delta$. Hence, $$d(u,v_{j})\leq$$
+> 		3. 
+> 		4. $$d(u,v_{i})\geq d(v,v_{i})-d(u,v)\geq d(v,v_{j})-d(u,v)$$
+> 		   
+> 		   
+> 		   $B_{\leq r}(v)\cap B_{\leq \delta}(v_{i})=\varnothing$
+> 1. Then, for all $i\in[n]$:$$\begin{align}\mathbb{P}(B_{\leq r}(v)\nsubseteq C_{i})&\leq\mathbb{P}(\pi(v_i)=\min_{j\in[i]}\pi(v_{j}))\cdot \mathbb{P}(d_{G}(v,v_{i})-r\leq\delta\leq d_{G}(v,v_{i})+r)\\&\leq \frac{1}{i}\cdot \frac{2r}{D/8}=\frac{16}{i}\cdot \frac{r}{D}\end{align}$$Therefore, $$\mathbb{P}(\exists i:B_{\leq r}(v)\nsubseteq C_{i})\leq \frac{16r}{D}\sum_{i=1}^{n} \frac{1}{i}=16 H_{n}\cdot \frac{r}{D} $$
 
 ^a6ffa8
 
