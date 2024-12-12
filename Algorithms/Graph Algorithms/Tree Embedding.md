@@ -80,8 +80,16 @@
 > ```pseudo
 > \begin{algorithm}\caption{Contract($T$)}
 > \begin{algorithmic} 
-> \While{$T$ has an edge $e=\{ u,w \}\in E$}
-\EndWhile
-\end{algorithmic}
-\end{algorithm}
-```
+> \While{$T$ has an edge $e=\{ u,w \}\in E$ where $u\in V$ and $v$ is an auxiliary node}
+> \State Contract $e$ by merging subtree rooted at $u$ into $v$.\EndWhile
+> \State $w\gets 4w$
+> \Return $T$
+> \end{algorithmic}
+> \end{algorithm}
+> ```
+> Then, $\text{Contract}(T)$ returns a tree $T'$ s.t. 
+> $$d_{T}(u,v)\leq d_{T'}(u,v)\leq 4d_{T}(u,v)$$
+
+> [!proof]-
+> Let $u,v\in V(T)$ and let auxiliary node $w$ at level $i$ is their closest common ancestor. Then, $$d_{T}(u,v)=d_{T}(u,w)+d_{T}(w,v)\leq2\left(  \sum_{j=i}^{\infty}\frac{D}{2^j}\right) =\frac{4D}{2^i}$$ Through contraction, we have that from the original tree, at least $\frac{D}{2^i}$ distance is given for $u,v$. By multiplying the weights by 4, we have that $d_{T}(u,v)\leq \frac{4D}{2^i}\leq d_{T'}(u,v)\leq 4d_{T}(u,v)$ where the upper bound follows from the fact that contraction only decreases the distance.
+---

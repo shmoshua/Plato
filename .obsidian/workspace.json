@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
+                "file": "Algorithms/Buy-At-Bulk Network Design.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
+                "file": "Algorithms/Buy-At-Bulk Network Design.md",
                 "mode": "preview",
                 "source": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
+                "file": "Algorithms/Buy-At-Bulk Network Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
+                "file": "Algorithms/Buy-At-Bulk Network Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md"
+                "file": "Algorithms/Buy-At-Bulk Network Design.md"
               }
             }
           }
@@ -270,6 +270,7 @@
   "active": "fb6e25872da0bda1",
   "lastOpenFiles": [
     "Algorithms/Graph Algorithms/Tree Embedding.md",
+    "Algorithms/Buy-At-Bulk Network Design.md",
     "Graph Theory/Cut Sparsifier.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Minimum Set Cover.md",
@@ -294,7 +295,6 @@
     "Algorithms/Linear Probing.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Courses/Advanced Algorithms/Assignment 11.md",
-    "Probability Theory/Martingale.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
