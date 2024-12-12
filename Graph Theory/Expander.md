@@ -38,7 +38,7 @@
 > Now, wlog assume that $\left| C \right|\leq \left| V \backslash C \right|$. Then,
 > $$\delta(G)\geq \lambda(G)\geq \frac{2}{\delta(G)}\min\{ \text{vol}(C),\text{vol}(V \backslash C) \}\geq \frac{2}{\delta(G)}\delta(G)\left| C \right| =2\left| C \right| $$We can now assume that $\left| C \right|\geq 2$. Then, for any $v\in C$, $$e(v, V \backslash C)\geq \delta(G)-(\left| C \right| -1)>\delta(G) / 2$$However, we have: $$e(C, V \backslash C)> \left| C \right| \delta(G) /2 \geq \delta(G)\geq \lambda(G)$$which is a contradiction.
 ---
-> [!lemma] Theorem 2 (Expander Decomposition)
+> [!lemma] Theorem 3 (Expander Decomposition)
 > Consider the following algorithm:
 > ```pseudo
 > \begin{algorithm} \caption{ExpanderDecomposition($G,\phi$)}
@@ -52,18 +52,41 @@
 \end{algorithmic}
 \end{algorithm}
 > ```
-> Then, for every $0<\phi<1$, the algorithm returns a $(\phi,M)$-expander decomposition where $M=O(\phi m\log m)$.
+> Then, for every $0<\phi<1$, the algorithm returns a $(\phi,M)$-expander decomposition where $M=2\phi m\log(2m)=O(\phi m\log m)$.
 
-> [!proof]+
+> [!proof]-
 > Let $V_{1},\dots,V_{\ell}$ be the output of the algorithm. By construction, $G[V_{i}]$ is a $\phi$-expander for all $i\in[\ell]$.
 > 
 > 
 > 
 > Let $(S,V_{i} \backslash S)$ be a $\phi$-sparse cut in $G$ where wlog $\text{vol}(S)\leq \text{vol}( V \backslash S)$. Then, we have that $e(S, V \backslash S)<\phi \text{vol}(S)$. Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we have that: $$e(S, V \backslash S)<\phi \text{vol}(S)=\sum_{v\in S}^{}\text{charge}(v)$$
 > 
-> As $\text{vol}(V)=2m$ and the volume at least halves at every step, each vertex receives charges in at most $\log (2m)$ iterations. Hence, we have that $\text{charge}(v)\leq \phi \cdot d(v)\cdot \log(2m)$. Hence, we have tha
-> 
+> As $\text{vol}(V)=2m$ and the volume at least halves at every step, each vertex receives charges in at most $\log (2m)$ iterations. Hence, we have that $\text{charge}(v)\leq \phi \cdot d(v)\cdot \log(2m)$. Hence, we have that: $$\sum_{i\in[\ell]}^{}e(V_{i}, V \backslash V_{i})\leq \sum_{v\in V}^{}\text{charge}(v)\leq 2m\phi \log(2m)$$
+- **Remark**: Given that finding a sparse cut is $\mathcal{NP}$-hard, 
 
+---
+> [!lemma] Theorem 4
+> Consider the following algorithm:
+> ```pseudo
+> \begin{algorithm} \caption{Expander($G=(V,E)$)}
+> \begin{algorithmic} 
+> \State $\phi\gets \left\lfloor \frac{1}{8 \log 4m}\right\rfloor$
+> \State $G'\gets$ $G$ but $\Delta:= m / n$ self-loops added to each $v\in V$.
+> \State $V_{1},\dots,V_{k}\gets$ \Call{ExpanderDecomposition}{$G',\phi$}
+> \Return $G[V_{1}],\dots,G[V_{k}]$
+\end{algorithmic}
+\end{algorithm}
+> ```
+> The algorithm returns a $\{ G_{i}:=(V_{i},E_{i}) \}_{i\in[k]}$ where:
+> 1. $G_{i}$ is a $\tilde{\Omega}(1)$-expander for all $i\in[k]$.
+> 2. $E=\bigsqcup_{i\in[k]} E_{i}$.
+> 3. $\delta(G_{i})=\tilde{\Omega}(e(G_{i}) / v(G_{i}))$ for all $i\in[k]$.
+> 4. $\left| \{ i\in[k]:v\in V_{i} \} \right|=O(\log n)$ for all $v\in V$.
+
+
+
+> [!proof]+
+> Let $V_{1},\dots,V_{k}$ be the output from $\text{ExpanderDecomposition}(G',\phi)$. Then, we have: $$d_{G_{i}}(v)\geq e_{G}(v, V_{i}\backslash \{ v \})=e_{G'}(v, V_{i}\backslash \{ v \})\geq \phi \deg_{G'[V_{i}]}(v)\geq \phi \Delta$$Further, for every $G_{i}$, we have that $S\subseteq V_{i}$, $$e_{G_{i}}(S, V_{i}\backslash S)=e_{G'[V_{i}]}(S, V_{i}\backslash S)\geq \phi \min\{ \deg_{G'[V_{i}]}(S),\deg_{G'[V_{i}]}(V_{i} \backslash S) \}$$
 ---
 ##### Examples
 > [!h] Example 1 (Path and Cycles)
