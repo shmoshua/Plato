@@ -37,9 +37,8 @@
 > 	   
 > 	   Let $j=\max\{ j<i: \pi(v_{j})<\pi(v_{i}) \}$.
 > 		1. If $B_{\leq r}(v)\cap B_{\leq \delta}(v_{j})=\varnothing$, then $r+\delta<d(v,v_{j})\leq d(v,v_{i})$. This shows that $B_{\leq r}(v)\cap B_{\leq \delta}(v_{i})=\varnothing$ which is a contradiction that $C_{i}$ cuts $B_{\leq r}(v)$.
-> 		2. If $B_{\leq r}(v)\subseteq B_{\leq \delta}(v_{i})$. Then, for all $u\in B_{\leq r}(v)$, $d(u,v_{i})\leq \delta$. Hence, $$d(u,v_{j})\leq$$
-> 		3. 
-> 		4. $$d(u,v_{i})\geq d(v,v_{i})-d(u,v)\geq d(v,v_{j})-d(u,v)$$
+> 		2. If $B_{\leq r}(v)\subseteq B_{\leq \delta}(v_{j})$. Then, $C_{i}$ doesn't cut $B_{\leq r}(v)$ at all, which is a contradiction.
+> 		3. If $B_{\leq r}(v)\cap B_{\leq \delta}(v_{j})\neq \varnothing$ and $B_{\leq r}(v)\nsubseteq B_{\leq \delta}(v_{j})$, then $C_{j}$ cuts $B_{\leq r}(v)$ before $C_{i}$. 
 > 		   
 > 		   
 > 		   $B_{\leq r}(v)\cap B_{\leq \delta}(v_{i})=\varnothing$
