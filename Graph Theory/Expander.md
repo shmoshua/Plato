@@ -13,11 +13,19 @@
 
 > [!lemma] Lemma 1 (Basic Lemma)
 > For any $G=(V,E)$ and $S\subseteq V$:
-> 1. $e(S, V \backslash S)\leq \text{vol}_{G}(S)\leq 2e(S, V \backslash S)$ 
+> 1. $e(S, V )\leq \text{vol}_{G}(S)\leq 2e(S, V)$ 
+> 2. $\text{vol}(S)+\text{vol}(V \backslash S)=2m$.
+> 3. if $G$ is a connected $\phi$-expander, $\text{diam}(G)=4\log m / \phi$
 
 > [!proof]+
 > We have that:
 > 1. The left inequality is trivial as every cut edge contributes to the volume. For the upper inequality, we have that: $$\sum_{v\in S}^{}d_{G}(v)$$
+> 2. From the handshake lemma.
+> 3. For any $v\in V$, let $r_{v}\geq 1$ s.t. $$\text{vol}(B_{\leq r_{v}-1}(v))\leq \frac{\text{vol}(V)}{2},\quad \text{vol}(B_{\leq r_{v}}(v))> \frac{\text{vol}(V)}{2}$$Since $G$ is connected. $r_{v}$ is well-defined for every $v$. Now, let $s,t\in V$. Then, 
+> 	1. **Claim 1**: $B_{\leq r_{s}}(s)\cap B_{\leq r_{t}}(t)\neq\varnothing$.
+> 	   Assume otherwise. Then, $\text{vol}(B_{\leq r_{s}}(s))+\text{vol}(B_{\leq r_{t}}(t))\leq \text{vol}(V)$ which is a contradiction to the definition of $r_{s}$ and $r_{t}$.
+> 	2. **Claim 2**: For every $v\in V$, $r_{v}\leq 2\log m / \phi$. 
+> 	   Let $r<r_{v}$. Then, by definition, $\text{vol}(B_{\leq r}(v))\leq \text{vol}(V) /2$. Now as $G$ is a $\phi$-expander, we have: 
 ---
 > [!lemma] Theorem 2 (Expander Decomposition)
 > Consider the following algorithm:
@@ -46,6 +54,14 @@
 
 ---
 ##### Examples
+> [!h] Example 1 (Path and Cycles)
+> We have that
+> 1. $P_{n}$ is a $\text{O}\left( \frac{1}{n} \right)$-expander.
+> 2. $C_{n}$ is a $\text{O}\left( \frac{1}{n} \right)$-expander.
+---
+> [!h] Example 2 (Star)
+> If $G=K_{1,t}$, a star on $t+1$ vertices. Then, for any cut, there exists a side that only contains leaves. Let this side be $S$. Then, $$\frac{e(S, V \backslash S)}{\min \{ \text{vol}(S),\text{vol}(V \backslash S) \}} =\frac{\left| S \right| }{\min \{  \left| S \right| ,2t-\left| S \right|  \}}\geq \frac{\left| S \right| }{\left| S \right| }=1$$Hence, $G$ is a $1$-expander.
+---
 > [!h] Example 1
 > $K_{n}$ is a $\frac{1}{2}$-expander.
 
