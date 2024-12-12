@@ -5,9 +5,9 @@
 > 1. A [[Cut (Graph)|cut]] $(S, V\backslash S)$ is ***$\phi$-sparse*** if $\left| E(S, V \backslash S) \right|<\phi\min \left\{  \text{vol}_{G}(S), \text{vol}_{G}(V \backslash S)  \right\}$.
 > 3. $G$ is a ***$\phi$-expander*** if $G$ contains no $\phi$-sparse cut.
 - **Related definition**: For $S\subseteq V$, the ***volume*** is defined as $\text{vol}_{G}(S):=\sum_{v\in S}^{}d_{G}(v)$. 
-- **Related definition**: For a graph $G=(V,E)$, a partition $V_{1},\dots,V_{\ell}$ of $V$ is a ***$\phi$-expander decomposition*** if:
+- **Related definition**: For a graph $G=(V,E)$, a partition $V_{1},\dots,V_{\ell}$ of $V$ is a ***$(\phi,M)$-expander decomposition*** if:
 	1. $G[V_{i}]$ is a $\phi$-expander for all $i\in[\ell]$.
-	2. $\sum_{i=1}^{\ell}e(V_{i}, V \backslash V_{i})=\tilde{O}(\phi m)$.
+	2. $\sum_{i=1}^{\ell}e(V_{i}, V \backslash V_{i})\leq M$.
 ---
 ##### Properties
 
@@ -43,19 +43,19 @@
 > ```pseudo
 > \begin{algorithm} \caption{ExpanderDecomposition($G,\phi$)}
 > \begin{algorithmic} 
-> \State $\mathcal{V}\gets \{ V \}$
-> \While{ there exists $V_{i}\in \mathcal{V}$ s.t. $G[V_{i}]$ is not a $\phi$-expander}
-> \State $(S,V_{i} \backslash S)\gets \phi$-sparse cut in $G[V_{i}]$
-> \State Replace $V_{i}$ by $S,V_{i} \backslash S$ in $\mathcal{V}$
-\EndWhile
-\Return $\mathcal{V}$
+> \If{$G$ is a $\phi$-expander}
+> \Return $G$
+\EndIf
+> \State $(S,V \backslash S)\gets \phi$-sparse cut in $G$.
+> 
+\Return \Call{ExpanderDecomposition}{$G[S],\phi$}$\sqcup$ \Call{ExpanderDecomposition}{$G[V \backslash S],\phi$}
 \end{algorithmic}
 \end{algorithm}
 > ```
-> Then, for every $0<\phi<1$, the algorithm returns a $\phi$-expander decomposition in polynomial time.
+> Then, for every $0<\phi<1$, the algorithm returns a $(\phi,M)$-expander decomposition where $M=O(\phi m\log m)$.
 
 > [!proof]+
-> By construction, $G[V_{i}]$ is a $\phi$-expander for all $V_{i}\in \mathcal{V}$ in the output. 
+> Let $V_{1},\dots,V_{\ell}$ be the output of the algorithm. By construction, $G[V_{i}]$ is a $\phi$-expander for all $i\in[\ell]$.
 > 
 > 
 > 
