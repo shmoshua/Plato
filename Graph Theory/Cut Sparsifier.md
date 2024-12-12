@@ -54,3 +54,21 @@
 > 
 > Further, let $X=\sum_{e\in E}^{}X_{e}$. Then, we have $\mathbb{E}[X]\leq \frac{15m\log n}{\varepsilon^{2}\phi\delta}\leq \frac{15m\log n}{\varepsilon^{2}\delta}\cdot \frac{\log^cn}{t}$ for some $c\geq 0$ and $t\geq 0$ and by Markov:$$\mathbb{P}\left( X\geq \frac{15 m\log^{c+2}n}{\varepsilon^{2}\delta} \right)\leq \frac{1}{ \log n}$$Therefore, w.h.p we have that $\left| E' \right|=\tilde{O}(\frac{m}{\varepsilon^{2}\delta})$ and we have a cut sparsifier.
 ---
+> [!lemma] Theorem 3 (General Graphs)
+> Consider the following algorithm: 
+> ```pseudo
+> \begin{algorithm}\caption{CutSparsifier($G,\varepsilon$)}
+> \begin{algorithmic} 
+> \State $\phi\gets \left\lfloor \frac{1}{8\log 4m}\right\rfloor$
+> \State $G_{1},\dots,G_{k}\gets$ \Call{Expander}{$G$}
+> \For{$i\in[k]$}
+> \State $H_{i}\gets$ \Call{CutSparsifierExpanders}{$G,\phi,\varepsilon$}
+\EndFor
+> \Return $H:=\bigcup_{i\in[k]}^{} H_{i}$
+> \end{algorithmic}
+> \end{algorithm}
+> ```
+> Then, $H$ is a cut sparsifier w.h.p.
+
+> [!proof]+
+> Let $H=(V,E')$. Then, $$\mathbb{E}[\left| E' \right| ]\leq\sum_{i\in[k]}^{}\frac{15e(G_{i})\log v(G_{i})v(G)}{\varepsilon^{2}\phi^{2} e(G)}=\tilde{O}\left( \sum_{i\in[k]}^{} \right)$$$$\frac{e(G)}{v(G)}\geq \frac{e(G_{i})}{v(G_{i})}$$
