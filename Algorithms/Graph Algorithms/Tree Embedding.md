@@ -74,6 +74,8 @@
 > 
 > Now, if we take $u,v\in V$, let $i\in \mathbb{N}$ s.t. $\frac{D}{2^i}\leq d_{G}(u,v)\leq \frac{D}{2^{i-1}}$. Then, from Theorem 1.1, $u,v$ will be separated before the $i$-th level. Therefore, $$d_{T}(u,v)\geq \frac{2D}{2^i}=\frac{D}{2^{i-1}}\geq d_{G}(u,v)$$Similarly, for any $u,v\in V$, let $E_{i}$ be the event that $u,v$ get separated at level $i$. Then,$$\begin{align}\mathbb{E}[d_{T}(u,v)]=\sum_{i=0}^{\log D-1}\mathbb{P}(E_{i})\mathbb{E}[d_{T}(u,v)|E_{i}]\leq\sum_{i=0}^{\log D-1}\left( \alpha \frac{d_{G}(u,v)}{D / 2^i} \right) \frac{4D}{2^i}=4\alpha \log(D)d_{G}(u,v)\end{align}$$
 
+^39ea03
+
 ---
 > [!lemma] Theorem 3 (Contraction)
 > Consider the following algorithm:
@@ -90,6 +92,11 @@
 > Then, $\text{Contract}(T)$ returns a tree $T'$ s.t. 
 > $$d_{T}(u,v)\leq d_{T'}(u,v)\leq 4d_{T}(u,v)$$
 
+^92e278
+
 > [!proof]-
 > Let $u,v\in V(T)$ and let auxiliary node $w$ at level $i$ is their closest common ancestor. Then, $$d_{T}(u,v)=d_{T}(u,w)+d_{T}(w,v)\leq2\left(  \sum_{j=i}^{\infty}\frac{D}{2^j}\right) =\frac{4D}{2^i}$$ Through contraction, we have that from the original tree, at least $\frac{D}{2^i}$ distance is given for $u,v$. By multiplying the weights by 4, we have that $d_{T}(u,v)\leq \frac{4D}{2^i}\leq d_{T'}(u,v)\leq 4d_{T}(u,v)$ where the upper bound follows from the fact that contraction only decreases the distance.
+
+^b4c3c8
+
 ---

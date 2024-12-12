@@ -327,3 +327,25 @@
 
 ---
 ![[Tree Embedding#^639521]]
+![[Tree Embedding#^39ea03|p]]
+
+---
+![[Tree Embedding#^92e278]]
+![[Tree Embedding#^b4c3c8|p]]
+
+---
+##### 4.1.2 Buy-At-Bulk Network Design
+![[Buy-At-Bulk Network Design#^a1f6f3]]
+
+---
+![[Buy-At-Bulk Network Design#^2e1b3e]]
+
+---
+#### 4.2 L1 Metric Embeddings
+##### 4.2.1 Sparsest Cut
+![[Sparsest Cut#^02a58c]]
+![[Sparsest Cut#^9966da|q]]
+
+---
+![[Sparsest Cut#^292a9d]]
+![[Sparsest Cut#^9d40c1|p]]
