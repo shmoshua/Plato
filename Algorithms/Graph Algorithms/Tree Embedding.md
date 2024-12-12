@@ -66,11 +66,22 @@
 
 ^639521
 
-> [!proof]+
+> [!proof]-
 > Let $T:=\text{Tree}(G,D)$ where $D:=\text{diam}(G)$.
 > 1. **Claim 1: For any $u,v\in V$ and $i\in \mathbb{N}$, if $u,v$ are separated at level $i$ in $T$, then $d_{T}(u,v)\in \left[\frac{2D}{2^i},\frac{4D}{2^i} \right]$**.
 > 	
 > 	If $T$ splits $u,v$ at level $i$, then we have that: $$\frac{2D}{2^i}\leq d_{T}(u,v)\leq 2\cdot \sum_{j=i}^{\infty} \frac{D}{2^j}= \frac{4D}{2^i} $$
 > 
-> Now, if we take $u,v\in V$, let $i\in \mathbb{N}$ s.t. $\frac{D}{2^i}\leq d_{G}(u,v)\leq \frac{D}{2^{i-1}}$. Then, from Theorem 1.1, $u,v$ will be separated before the $i$-th level. Therefore, $$d_{T}(u,v)\geq \frac{2D}{2^i}=\frac{D}{2^{i-1}}\geq d_{G}(u,v)$$
-> 
+> Now, if we take $u,v\in V$, let $i\in \mathbb{N}$ s.t. $\frac{D}{2^i}\leq d_{G}(u,v)\leq \frac{D}{2^{i-1}}$. Then, from Theorem 1.1, $u,v$ will be separated before the $i$-th level. Therefore, $$d_{T}(u,v)\geq \frac{2D}{2^i}=\frac{D}{2^{i-1}}\geq d_{G}(u,v)$$Similarly, for any $u,v\in V$, let $E_{i}$ be the event that $u,v$ get separated at level $i$. Then,$$\begin{align}\mathbb{E}[d_{T}(u,v)]=\sum_{i=0}^{\log D-1}\mathbb{P}(E_{i})\mathbb{E}[d_{T}(u,v)|E_{i}]\leq\sum_{i=0}^{\log D-1}\left( \alpha \frac{d_{G}(u,v)}{D / 2^i} \right) \frac{4D}{2^i}=4\alpha \log(D)d_{G}(u,v)\end{align}$$
+
+---
+> [!lemma] Theorem 3 (Contraction)
+> Consider the following algorithm:
+> ```pseudo
+> \begin{algorithm}\caption{Contract($T$)}
+> \begin{algorithmic} 
+> \While{$T$ has an edge $e=\{ u,w \}\in E$}
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
+```
