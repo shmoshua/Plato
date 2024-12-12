@@ -2,22 +2,32 @@
 
 > [!definition]
 > Let $G=(V,E)$ be an [[Graph|undirected graph]]. For any $0<\phi\leq 1$, 
-> 1. A [[Cut (Graph)|cut]] $(S, V\backslash S)$ is ***$\phi$-sparse*** if $\left| E(S, V \backslash S) \right|<\phi\min \left\{  \sum_{v\in S}^{}d(v), \sum_{v\in V \backslash S}^{}d(v)  \right\}$.
-> 2. $G$ is a ***$\phi$-expander*** if $G$ contains no $\phi$-sparse cut.
+> 1. A [[Cut (Graph)|cut]] $(S, V\backslash S)$ is ***$\phi$-sparse*** if $\left| E(S, V \backslash S) \right|<\phi\min \left\{  \text{vol}_{G}(S), \text{vol}_{G}(V \backslash S)  \right\}$.
+> 3. $G$ is a ***$\phi$-expander*** if $G$ contains no $\phi$-sparse cut.
+- **Related definition**: For $S\subseteq V$, the ***volume*** is defined as $\text{vol}_{G}(S):=\sum_{v\in S}^{}d_{G}(v)$. 
 - **Related definition**: For a graph $G=(V,E)$, a partition $V_{1},\dots,V_{\ell}$ of $V$ is a ***$\phi$-expander decomposition*** if:
 	1. $G[V_{i}]$ is a $\phi$-expander for all $i\in[\ell]$.
 	2. $\left| \bigcup_{i\neq j}^{}E(V_{i},V_{j}) \right|=\tilde{O}(\phi m)$.
 ---
 ##### Properties
-> [!lemma] Theorem 1 (Expander Decomposition)
+
+> [!lemma] Lemma 1 (Basic Lemma)
+> For any $G=(V,E)$ and $S\subseteq V$:
+> 1. $e(S, V \backslash S)\leq \text{vol}_{G}(S)\leq 2e(S, V \backslash S)$ 
+
+> [!proof]+
+> We have that:
+> 1. The left inequality is trivial as every cut edge contributes to the volume. For the upper inequality, we have that: $$\sum_{v\in S}^{}d_{G}(v)$$
+---
+> [!lemma] Theorem 2 (Expander Decomposition)
 > Consider the following algorithm:
 > ```pseudo
 > \begin{algorithm} \caption{ExpanderDecomposition($G,\phi$)}
 > \begin{algorithmic} 
 > \State $\mathcal{V}\gets \{ V \}$
 > \While{ there exists $V_{i}\in \mathcal{V}$ s.t. $G[V_{i}]$ is not a $\phi$-expander}
-> \State $(S,V \backslash S)\gets \phi$-sparse cut in $G[V_{i}]$
-> \State Replace $V_{i}$ by $S,V \backslash S$ in $\mathcal{V}$
+> \State $(S,V_{i} \backslash S)\gets \phi$-sparse cut in $G[V_{i}]$
+> \State Replace $V_{i}$ by $S,V_{i} \backslash S$ in $\mathcal{V}$
 \EndWhile
 \Return $\mathcal{V}$
 \end{algorithmic}
@@ -28,7 +38,11 @@
 > [!proof]+
 > By construction, $G[V_{i}]$ is a $\phi$-expander for all $V_{i}\in \mathcal{V}$ in the output. 
 > 
-> Let $(S,V \backslash S)$ be a $\phi$-sparse cut in $G[V_{i}]$ where wlog $\sum_{v\in S}d_{G}(v)\leq \sum_{v\in V \backslash S}^{}d_{G}(v)$. Then, we add at most $\phi \sum_{v\in S}^{}d_{G[V_{i}]}(v)\leq \phi \sum_{v\in S}d_{G}(v)$
+> 
+> 
+> Let $(S,V_{i} \backslash S)$ be a $\phi$-sparse cut in $G[V_{i}]$ where wlog $\sum_{v\in S}d_{G}(v)\leq \sum_{v\in V \backslash S}^{}d_{G}(v)$. Then, we add at most $\phi \sum_{v\in S}^{}d_{G[V_{i}]}(v)\leq \phi \sum_{v\in S}d_{G}(v)$ to $E_{\text{rest}}:=\bigcup_{i\neq j}^{}E(V_{i},V_{j})$. Therefore, for each $v\in S$, we can charge at most $\phi d_{G}(v)$ to pay for the contribution in $E_{\text{rest}}$.
+> 
+> However, notice that after replacing $V_{i}$ with $S,V_{i} \backslash S$, we have that $$\sum_{v\in S}^{}d_{G[S]}(v)=\sum_{v\in S}^{}d_{G[V_{i}]}(v)-e_{G[V_{i}]}(S,V_{i} \backslash S)\leq \frac{1}{2}\sum_{v\in S}^{}d_{G[V_{i}]}(v)$$
 
 ---
 ##### Examples
