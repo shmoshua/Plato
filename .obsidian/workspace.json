@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Bin Covering.md",
+                "file": "Algorithms/DNF Counting.md",
                 "mode": "source",
                 "source": true
               }
@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Bin Covering.md",
+                "file": "Algorithms/DNF Counting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Bin Covering.md",
+                "file": "Algorithms/DNF Counting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Bin Covering.md"
+                "file": "Algorithms/DNF Counting.md"
               }
             }
           }
@@ -281,11 +281,11 @@
   },
   "active": "8c39a34eb8d3b47e",
   "lastOpenFiles": [
+    "Algorithms/Bin Covering.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Sparsest Cut.md",
     "Algorithms/Bin Packing.md",
-    "Algorithms/Bin Covering.md",
     "Algorithms/Knapsack.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Metric Embedding.md",
     "Algorithms/Covering.md",
     "Graph Theory/Matching.md",

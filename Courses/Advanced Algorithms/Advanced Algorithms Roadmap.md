@@ -73,6 +73,18 @@
 ![[Bin Packing#^4776b1|p]]
 
 ---
+##### 1.2.4 Bin-Covering
+![[Bin Covering#^e1a1e7]]
+
+---
+![[Bin Covering#^62d5f8]]
+![[Bin Covering#^5e1d26|p]]
+
+---
+![[Bin Covering#^cb3b26]]
+![[Bin Covering#^697fb8|p]]
+
+---
 #### 1.3 Randomized Approximation Schemes
 
 ##### 1.3.1 PRAS and FPRAS

@@ -38,7 +38,7 @@
 
 ^44eec7
 
-> [!proof]+
+> [!proof]-
 > We have that: 
 > 1. **Claim 1: $\text{DNF-Count}$ samples a '1' in $s$ uniformly randomly**.
 >    Let $s(i,j)=1$. Then, $$\begin{align}\mathbb{P}(C_{i},\alpha_{j}\text{ are chosen})&=\mathbb{P}(C_{i}\text{ is chosen})\mathbb{P}(\alpha_{j}\text{ is chosen}|C_{i}\text{ is chosen})\\&=\frac{2^{n-\left| C_{i} \right| }}{M}\cdot \frac{1}{2^{n-\left| C_{i} \right| }}=\frac{1}{M}\end{align}$$
