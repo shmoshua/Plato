@@ -232,12 +232,12 @@
 > [!lemma] Theorem 4
 > Consider the algorithm:
 >  ```pseudo
->    \begin{algorithm} \caption{A($S=(a_{1},\dots,a_{m})$)} 
+>    \begin{algorithm} \caption{Majority($S=(a_{1},\dots,a_{m})$)} 
 >    \begin{algorithmic}
 >    
->    \State $x\gets a_{0}$
->    \State $\text{count}\gets 0$
->    \For{$a_{i}\in S$}
+>    \State $x\gets a_{1}$
+>    \State $\text{count}\gets 1$
+>    \For{$a_{i}\in S \backslash \{ a_{1} \}$}
 >    \If{$x=a_{i}$}
 >    \State $\text{count}\gets \text{count}+1$
 >    \Else
@@ -245,6 +245,7 @@
 >    \EndIf
 >    \If{$\text{count}=0$}
 >    \State $x\gets a_{i}$
+>    \State $\text{count}\gets 1$
 >    \EndIf
 >    \EndFor
 >    \Return $x$
@@ -256,6 +257,20 @@
 
 > [!proof]+
 > Let $x$ be the output of the algorithm. 
+> 1. Firstly, it is quite clear that the algorithm uses $O(\log n+\log m)$ space. Therefore, it suffices to show the correctness.
+>    
+>    Let $n_{i}:=\left| \{ 1\leq i'\leq i:a_{i'}=j \} \right|$ and $x_{i},\text{count}_{i}$ are the values right after processing $a_{i}$. Then,
+>    
+>    1. **Claim 1**: For all $i\in[m]$, if $n_{i}>i/2$, then $x_{i}=j$ and $\text{count}_{i}\geq 2n_{i}-i$. If $n_{i}\leq i / 2$, then either $x_{i}=j$ or $\text{count}_{i}\leq i - 2n_{i}+1$.
+>       
+> 	    We have the following cases:
+> 		1. $n_{i}> i / 2$ and $a_{i+1}=j$. Then, $n_{i+1}=n_{i}+1> \frac{i}{2}+1\geq \frac{i+1}{2}$ and $x_{i+1}=j$. Further, $$\text{count}_{i+1}\geq \text{count}_{i}+1\geq 2n_{i}-i+1=2(n_{i}+1)-(i+1)$$
+> 		2. $n_{i}> i /2$ and $a_{i+1}\neq j$. Then, $2n_{i}-i-1\geq 0$. If this is greater than $0$, then we are done. Otherwise, we have that $n_{i+1}\leq (i+1) / 2$ and $$\text{count}_{i+1}=1\leq i+1-2n_{i+1}+1$$
+> 		3. $n_{i}\leq i /2$ and $a_{i+1}=j$. If $2n_{i+1}> i+1$, then as $n_{i}\leq i / 2$, we have that $n_{i}= i /2$. Hence, we have that $x_{i}=j$ or $\text{count}_{i}\leq 1$. If $x_{i}=j$, then we have that $x_{i+1}=j$ and $\text{count}_{i+1}\geq 1$. If $\text{count}_{i}\leq 1$ with $x_{i}\neq j$, then $x_{i+1}=j$ with $\text{count}_{i+1}\geq 1$.
+> 		   
+> 		   If $2n_{i+1}\leq i+1$, then $n_{i+1}\leq (i+1) / 2$ and if $x_{i}= j$ then $x_{i+1}=j$. If $x_{i}\neq j$, then $\text{count}_{i}\leq i-2n_{i}+1<$ 
+>    
+>    
 
 ---
 ##### Graph Streaming Algorithms
