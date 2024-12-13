@@ -2,7 +2,7 @@
 
 > [!definition]
 > Let $\mathcal{S}:=[n]$ with a size function $s:\mathcal{S}\to(0,1]$. 
-> 1. The ***bin packing problem*** aims to find the minimal number $k$ of bins of size 1 s.t. every item can be put into some bin, i.e. $$\text{OPT}(In)\in\underset{ \mathcal{B}=\{ B_{1},\dots,B_{k} \},s(B_{i})\leq 1,\bigsqcup_{i}^{}B_{i}=[n] }{ \arg\min }\left| \mathcal{B}\right| $$
+> 1. The ***bin packing problem*** aims to find the minimal number $k$ of bins of size 1 s.t. every item can be put into some bin, i.e. $$\text{OPT}(I)\in\underset{ \mathcal{B}=\{ B_{1},\dots,B_{k} \},s(B_{i})\leq 1,\bigsqcup_{i}^{}B_{i}=[n] }{ \arg\min }\left| \mathcal{B}\right| $$
 
 ^06f901
 
@@ -119,7 +119,7 @@
 >    \For{$u\in G_{i}$}
 >    \State $s(u)\gets i_{\max}$\EndFor
 >    \EndFor
->    \State Denote the modified instance as $\varepsilon$.
+>    \State Denote the modified instance as $J$.
 >    \Return \Call{ExactBinPacking}{$J,\varepsilon,k$}
 >    \end{algorithmic}
 >    \end{algorithm}

@@ -42,18 +42,24 @@
 ![[Knapsack#^532344]]
 ![[Knapsack#^c811f3|p]]
 
+---
+![[Knapsack#^d138a3]]
+![[Knapsack#^013fe1|p]]
 
 ---
 ##### 1.2.3 Bin-Packing
 ![[Bin Packing#^06f901]]
 ![[Bin Packing#^d65196|q]]
 ![[Bin Packing#^a84502|q]]
+
 ---
 ![[Bin Packing#^769d08]]
 ![[Bin Packing#^db3116|p]]
+
 ---
 ![[Bin Packing#^c04d44]]
 ![[Bin Packing#^3e5c2c|p]]
+
 ---
 ![[Bin Packing#^62d5f8]]
 ![[Bin Packing#^5e1d26|p]]

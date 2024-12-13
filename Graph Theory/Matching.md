@@ -31,7 +31,7 @@
 > 1. $\sum_{e\in E}^{}\overline{x}_{e}\geq \text{OPT}_{LP}$
 > 2. $\sum_{e\ni v}^{}\overline{x}_{e}\leq 1+\varepsilon$ for all $v\in V$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Let $x$ be a feasible solution to the LP relaxation of maximum matching problem. Therefore, $\text{OPT}_{LP}\leq \text{OPT}_{\text{Oracle}LP}$ for any $w$. Hence, we have that: $$\sum_{e\in E}^{}\overline{x}_{e}=\frac{1}{T}\sum_{t\in [T]}^{}\underbrace{ \sum_{e\in E}^{}x^{(t)}_{e} }_{ \geq \text{OPT}_{LP} }\geq \text{OPT}_{LP}$$
 > 2. We have the following claims. Let $W^{(t)}:=\sum_{v\in V}^{}w_{v}^{(t)}$. Then,
@@ -41,3 +41,4 @@
 > 	
 > 	Assume that there exists $v\in V$ s.t. $\sum_{e\ni v}^{}\overline{x}_{e}>1+\varepsilon$. Then, $\sum_{t\in [T]}^{}\sum_{e\ni v}^{}x^{(t)}_{e}>T(1+\varepsilon)$. Further, we have: $\sum_{e\ni v}^{}x_{e}^{(t)}\leq n$. 
 > 	$$\begin{align}w^{(T+1)}_{v}=\prod_{t=1}^{T}\left( 1+ \frac{\varepsilon}{2n} \sum_{e\ni v}^{}x_{e}^{(t)} \right)&\geq\prod_{t=1}^{T}\exp \left( \eta \sum_{e\ni v}^{}x_{e}^{(t)}-\eta^{2}\left( \sum_{e\ni v}^{}x_{e}^{(t)} \right)^{2}  \right)\\&\geq\exp \left( \eta \sum_{t\in[T]}^{}\sum_{e\ni v}^{}x_{e}^{(t)}-\eta^{2} \sum_{t\in[T]}^{}\left( \sum_{e\ni v}^{}x_{e}^{(t)} \right)^{2}  \right)\\&\geq\exp \left( \eta \sum_{t\in[T]}^{}\sum_{e\ni v}^{}x_{e}^{(t)}-\eta^{2} \sum_{t\in[T]}^{}\left( \sum_{e\ni v}^{}x_{e}^{(t)} \right)^{2}  \right) \end{align}$$
+---
