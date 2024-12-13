@@ -11,4 +11,19 @@
 ##### Properties
 > [!lemma] Theorem (Bipartite Maximum Matching)
 > Let $G=(V,E)$ be a bipartite graph. Then, 
+
+---
+> [!lemma] Theorem 2 (MWU)
+> Let $G=(V,E)$ and $\{ w_{v} \}_{v\in V}\subseteq [0,1]$. The ***oracle LP*** on $\{ w_{v} \}_{v\in V}$ is defined as:$$\begin{array}{rll}\max&\sum_{e\in E}^{}x_{e}\\\text{subject to}&\sum_{v\in V}^{}w_{v}\sum_{e\ni v}^{}x_{e}\leq \sum_{v\in V}^{}w_{v} & \\&0\leq x_{e}\leq 1&\forall e\in E\end{array}$$Now, consider the following algorithm: 
+> ```pseudo
+> \begin{algorithm} \caption{MWUMatching($G,\varepsilon$)}
+> \begin{algorithmic} 
+> \State $w\gets 1$
+> \For{$t=1,\dots,T:=$}
+> \State $x\gets$ \Call{OracleLP}{$w$}
+> \State $w_{v}\gets (1+\varepsilon \sum_{e\ni v}^{}x_{e}$
+\EndFor
 > 
+\end{algorithmic}
+\end{algorithm}
+```

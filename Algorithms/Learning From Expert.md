@@ -26,7 +26,11 @@
 > Then, $$m^{*}(-\varepsilon - \varepsilon^{2})\leq -\frac{m\varepsilon}{2}+\log n$$and $m\leq 2m^{*}(1+\varepsilon)+\frac{2\log n}{\varepsilon}$.
 ---
 > [!lemma] Theorem 2
-> 
+> For any deterministic algorithm $\mathcal{A}$ for the learning problem, we have that: $$m(\mathcal{A})\geq 2m^{*}$$
+
+> [!proof]-
+> Imagine we have two experts, one predicts $0$ all the time and the other $1$. Then, as $\mathcal{A}$ is deterministic, we can make $\mathcal{A}$ make a mistake every time. But by pigeonhole, there exists an expert that makes a mistake at most $\frac{m(\mathcal{A})}{2}$ times. This proves the statement.
+
 ---
 > [!lemma] Theorem 3 (Randomized MWU)
 > Consider the algorithm:

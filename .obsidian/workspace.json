@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Learning From Expert.md",
+                "file": "Graph Theory/Matching.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Learning From Expert.md",
+                "file": "Graph Theory/Matching.md",
                 "mode": "preview",
                 "source": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Learning From Expert.md",
+                "file": "Graph Theory/Matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Learning From Expert.md",
+                "file": "Graph Theory/Matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Learning From Expert.md"
+                "file": "Graph Theory/Matching.md"
               }
             }
           }
@@ -256,8 +256,9 @@
   },
   "active": "1f325e37b8ec4b81",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Assignment 11.md",
     "Algorithms/Learning From Expert.md",
+    "Graph Theory/Matching.md",
+    "Courses/Advanced Algorithms/Assignment 11.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Sparsest Cut.md",
     "Graph Theory/Metric Embedding.md",
@@ -266,7 +267,6 @@
     "Graph Theory/Path (Graph).md",
     "Algorithms/Buy-At-Bulk Network Design.md",
     "Graph Theory/Expander.md",
-    "Graph Theory/Matching.md",
     "Graph Theory/Tree.md",
     "Graph Theory/Cut Sparsifier.md",
     "Algorithms/Minimum Set Cover.md",
