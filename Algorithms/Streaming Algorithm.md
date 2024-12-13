@@ -255,7 +255,7 @@
 >    If there exists an element $j$ s.t. $\left| \{ i\in[m]:a_{i}=j \} \right|> \frac{m}{ 2}$, then:
 >    1. the algorithm returns $j$ in space $\text{O}(\log n+\log m)$.
 
-> [!proof]+
+> [!proof]-
 > Let $x$ be the output of the algorithm. 
 > 1. Firstly, it is quite clear that the algorithm uses $O(\log n+\log m)$ space. Therefore, it suffices to show the correctness.
 >    
@@ -268,9 +268,16 @@
 > 		2. $n_{i}> i /2$ and $a_{i+1}\neq j$. Then, $2n_{i}-i-1\geq 0$. If this is greater than $0$, then we are done. Otherwise, we have that $n_{i+1}\leq (i+1) / 2$ and $$\text{count}_{i+1}=1\leq i+1-2n_{i+1}+1$$
 > 		3. $n_{i}\leq i /2$ and $a_{i+1}=j$. If $2n_{i+1}> i+1$, then as $n_{i}\leq i / 2$, we have that $n_{i}= i /2$. Hence, we have that $x_{i}=j$ or $\text{count}_{i}\leq 1$. If $x_{i}=j$, then we have that $x_{i+1}=j$ and $\text{count}_{i+1}\geq 1$. If $\text{count}_{i}\leq 1$ with $x_{i}\neq j$, then $x_{i+1}=j$ with $\text{count}_{i+1}\geq 1$.
 > 		   
-> 		   If $2n_{i+1}\leq i+1$, then $n_{i+1}\leq (i+1) / 2$ and if $x_{i}= j$ then $x_{i+1}=j$. If $x_{i}\neq j$, then $\text{count}_{i}\leq i-2n_{i}+1<$ 
->    
->    
+> 		   If $2n_{i+1}\leq i+1$, then $n_{i+1}\leq (i+1) / 2$. If $x_{i+1}\neq j$, then $$\text{count}_{i+1}=\text{count}_{i}-1\leq i-2n_{i}=(i+1)-2(n_{i}+1)+1$$
+> 		4. $n_{i}\leq i / 2$ and $a_{i+1} \neq j$. Then, $n_{i+1}\leq (i+1) /2$ and if we don't have $x_{i+1}=j$, if $x_{i}=j$, then $\text{count}_{i+1}=1$. If $x_{i}\neq j$, then:  $$\text{count}_{i+1}\leq \text{count}_{i}+1\leq (i+1)-2n_{i}+1$$
+> 	
+> 	Therefore, for $m$, as we have that $n_{m}> m /2$, $x=j$.   
+---
+> [!lemma] Theorem 5
+> Every streaming algorithm deciding whether a majority element exists or not requires at least $\Omega(n)$ space.
+
+> [!proof]+
+> 
 
 ---
 ##### Graph Streaming Algorithms
