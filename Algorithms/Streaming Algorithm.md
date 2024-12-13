@@ -274,10 +274,14 @@
 > 	Therefore, for $m$, as we have that $n_{m}> m /2$, $x=j$.   
 ---
 > [!lemma] Theorem 5
-> Every streaming algorithm deciding whether a majority element exists or not requires at least $\Omega(n)$ space.
+> Any deterministic streaming algorithm deciding whether a majority element exists or not requires at least $\Omega(n)$ space.
 
 > [!proof]+
+> Let $A$ be a deterministic algorithm that uses at most $n / 2$ bits. We will show that there exists an input for which $A$ fails. 
 > 
+> Consider ${\mathcal{S}}:={[n] \choose n /2}$. Then, we have that: $$\left| \mathcal{S} \right| ={n \choose n /2}> 2^{n / 2}$$Hence, there exists $S,T\in \mathcal{S}$ distinct s.t. $A$ has the same configuration for. However, there exists $x\in S$ s.t. $x\notin T$. By adding $x$ $n /2$ times, we have that in one input, we have a majority element and in the other we don't. However, $A$ outputs the same result for both the cases. 
+> 
+> Therefore, 
 
 ---
 ##### Graph Streaming Algorithms
