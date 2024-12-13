@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Bin Covering.md",
+                "file": "Algorithms/MAX-SAT.md",
                 "mode": "preview",
                 "source": true
               }
@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -281,9 +281,10 @@
   },
   "active": "8c39a34eb8d3b47e",
   "lastOpenFiles": [
-    "Algorithms/DNF Counting.md",
-    "Algorithms/Bin Covering.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/MAX-SAT.md",
+    "Algorithms/Bin Covering.md",
+    "Algorithms/DNF Counting.md",
     "Graph Theory/Sparsest Cut.md",
     "Algorithms/Bin Packing.md",
     "Algorithms/Knapsack.md",
@@ -306,7 +307,6 @@
     "Algorithms/Competitive Online Algorithm.md",
     "Probability Theory/Expected Value.md",
     "Graph Theory/Graph.md",
-    "Graph Theory/Girth and Circumference.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",

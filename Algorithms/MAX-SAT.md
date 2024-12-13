@@ -21,7 +21,7 @@
 > Then, 
 > 1. $\mathbb{P}(\alpha \text{ satisfies }c_{j})=1-2^{-\left| c_{j} \right|}$ for all $j\in[m]$.
 > 2. $\text{Random}$ is a 1/2-[[Approximation Algorithm|approximation algorithm]] in expectation. 
-> 3. By repeating $\text{Random}$ $n$ times and taking the maximum, 
+> 3. By repeating $\text{Random}$ $n$ times and taking the maximum, we get a $0.49$-approximation with probability at least $0.99$.
 
 > [!proof]-
 > We have that:
@@ -45,15 +45,15 @@
 >    
 >    
 > We have that:
-> 1. With $f=\text{id}$, $\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right)z^{*}_{j}$
+> 1. With $f=\text{id}$, $\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right)z^{*}_{j}$ where $\left| c_{j} \right|=k$.
 > 2. $\text{LP\_Rounding}(I,\text{id})$ is a $\left( 1-\frac{1}{e} \right)$-approximation algorithm in expectation.
 > 3. $\max(\text{Random}(I),\text{LP\_Rounding}(I, \text{id}))$ is a $3/4$-approximation algorithm in expectation.
 > 4. for $f:[0,1]\to[0,1]$ with $f(y)\in [1-4^{-y},4^{y-1}]$, $\text{LP\_Rounding}(I,f)$ is a $3/4$-approximation.
 
-> [!proof]-
+> [!proof]+
 > We have that:
-> 1. Notice that: $$\begin{align}\mathbb{P}(\alpha \text{ doesn't satisfy }c_{j})&=\prod_{i\in S^+_{j}}^{}(1-y_{i}^{*})\prod_{i\in S_{j}^-}^{}y^{*}_{i}\\&\leq \left(  \frac{\sum_{i\in S^+_{j}}^{}(1-y_{i}^{*})+\prod_{i\in S_{j}^-}^{}y^{*}_{i}}{k}\right)^k\\&\leq \left(  \frac{k-z^{*}_{j}}{k}\right)^k \end{align}$$Then, $$\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq 1-\left( 1-\frac{z^{*}_{j}}{k} \right) ^k\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right) z^{*}_{j}$$where $f(t)=1-\left( 1-\frac{t}{k} \right)^k$ is a concave function as: $$f''(t)= \frac{d}{dt}\left( 1-\frac{t}{k} \right)^{k-1}=-\frac{k-1}{k}\left( 1-\frac{t}{k} \right)^{k-2} $$which is non-positive for $t\leq k$. 
-> 2. We have: $$\mathbb{E}[w(S(\alpha))]\geq \sum_{j=1}^{m}w_{j}\left( 1-\frac{1}{k} \right) ^kz^{*}_{j}\geq \left( 1-\frac{1}{k} \right) ^kw_{\text{ILP}}\geq\left( 1-\frac{1}{e} \right) w_{\text{OPT}}$$
+> 1. Notice that: $$\begin{align}\mathbb{P}(\alpha \text{ doesn't satisfy }c_{j})&=\prod_{i\in S^+_{j}}^{}(1-y_{i}^{*})\prod_{i\in S_{j}^-}^{}y^{*}_{i}\\&\leq \left(  \frac{\sum_{i\in S^+_{j}}^{}(1-y_{i}^{*})+\sum_{i\in S_{j}^-}^{}y^{*}_{i}}{k}\right)^k\\&\leq \left(  \frac{k-z^{*}_{j}}{k}\right)^k \end{align}$$Then, $$\mathbb{P}(\alpha \text{ satisfies }c_{j})\geq 1-\left( 1-\frac{z^{*}_{j}}{k} \right) ^k\geq \left( 1-\left( 1-\frac{1}{k} \right)^k \right) z^{*}_{j}$$where $f(t)=1-\left( 1-\frac{t}{k} \right)^k$ is a concave function as: $$f''(t)= \frac{d}{dt}\left( 1-\frac{t}{k} \right)^{k-1}=-\frac{k-1}{k}\left( 1-\frac{t}{k} \right)^{k-2} $$which is non-positive for $t\leq k$. 
+> 2. We have: $$\mathbb{E}[w(S(\alpha))]\geq \sum_{j=1}^{m}w_{j}\left(1- \left( 1-\frac{1}{k} \right) ^k \right)z^{*}_{j}\geq\left(1- \left( 1-\frac{1}{k} \right) ^k \right)w_{\text{ILP}}\geq\left( 1-\frac{1}{e} \right) w_{\text{OPT}}$$
 > 3. Let $X_{r}$ be the weight given from $\text{Random}$ and let $X_{\ell}$ be the weight given by $\text{LP\_Rounding}$. Then, $X:=\max\{ X_{r},X_{\ell} \}$. Notice that we have: $2 X\geq X_{r}+X_{\ell}$. Therefore, it suffices to show that $\mathbb{E}[X_{r}+X_{\ell}]\geq \frac{3}{2}w_{\text{OPT}}$. 
 >    
 >    Let $\mathcal{C}_{k}$ be the clauses with length $k$. Then, $$\mathbb{E}[X_{r}]=\sum_{k}^{}\sum_{C_{j}\in \mathcal{C_{k}}}^{}w_{j}\left( 1-\frac{1}{2^k} \right)\geq\sum_{k}^{}\sum_{C_{j}\in \mathcal{C_{k}}}^{}w_{j}\left( 1-\frac{1}{2^k} \right)z^{*}_{j} $$Similarly, $$\mathbb{E}[X_{\ell}]\geq\sum_{k}^{}\sum_{C_{j}\in \mathcal{C}_{k}}^{}w_{j}\left( 1- \left( 1-\frac{1}{k} \right) ^k\right) z^{*}_{j} $$Hence, $$\begin{align}\mathbb{E}[X_{r}+X_{\ell}]\geq \sum_{k}^{}\sum_{C_{j}\in \mathcal{C}_{k}}^{}w_{j}\underbrace{ \left( 2-\frac{1}{2^k}-\left( 1-\frac{1}{k} \right) ^k \right)  }_{ =: \xi_{k} } z^{*}_{j}\end{align}$$we claim that $\xi_{k}\geq \frac{3}{2}$ for all $k\geq 1$. 

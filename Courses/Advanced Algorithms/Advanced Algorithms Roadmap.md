@@ -1,5 +1,11 @@
 #Algorithms #Roadmap 
 
+### 0. Useful Bounds
+1. $\left( 1+\frac{1}{x} \right)^x\leq e$
+2. $\left( 1-\frac{1}{x} \right)^x\leq \frac{1}{e}$ for $x\geq 1$.
+
+---
+
 ### 1. Basics of Approximation Algorithms
 
 ![[Approximation Algorithm#^b7dd2f]]
