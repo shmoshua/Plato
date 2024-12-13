@@ -90,7 +90,15 @@
 > ```
 > In the online setting, 
 > 1. $\text{OnlineEdgeColoring}(G)$ returns a $(2\Delta(G) -1)$-edge coloring.
+> 2. Any deterministic online algorithm requires at least $(2\Delta(G)-1)$ colors. 
 
-> [!proof]+
+^18c39b
+
+> [!proof]-
 > For $\Delta:=\Delta(G)$, we have that:
 > 1. For an edge $e=\{ u,v \}$, there are at most $\Delta-1$ other edges on each side that could have come before. Hence, there are at most $2\Delta-2$ colors that are already taken. Hence, we use at most $2\Delta-1$ colors. 
+> 2. Consider the following adversary. The adversary first inputs ${2\Delta-2 \choose \Delta-1}(\Delta-1)+1$ distinct stars $K_{\Delta-1,1}$. Then, we have the following two cases:
+> 	1. $\mathcal{A}$ has used more than $2\Delta-2$ colors. Then, we are done.
+> 	2. $\mathcal{A}$ has used at most $2\Delta-2$ colors. Then, there exists by construction $\Delta$ stars that use the same set of colors. By connecting the center nodes of the $\Delta$ stars to a new vertex, we have that $\mathcal{A}$ uses $\Delta$ colors that are not in the $\Delta-1$ colors used for the stars. Hence, we have that $\mathcal{A}$ uses more than $2\Delta-1$ colors. 
+
+^ae9f8d

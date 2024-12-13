@@ -9,3 +9,4 @@
 - **Related definition**: An adversary is ***adaptive*** if at every step $t$, before it decides $\sigma_{t+1}$ it knows the randomness used in $\mathcal{A}$.
 - **Related definition**: An adversary is ***fully adaptive*** if it knows all possible randomness that will be used by the algorithm $\mathcal{A}$ when running on the full input sequence $\sigma$.
 ---
+##### Examples

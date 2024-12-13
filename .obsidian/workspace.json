@@ -81,19 +81,31 @@
             }
           },
           {
-            "id": "8c39a34eb8d3b47e",
+            "id": "f90129d872646aae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/MAX-SAT.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a51cf50719a07164",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Competitive Online Algorithm.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "4d5ec56e57395c88",
@@ -106,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Knapsack.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -118,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md",
+                "file": "Algorithms/Competitive Online Algorithm.md",
                 "mode": "preview",
                 "source": true
               }
@@ -148,8 +160,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -279,19 +290,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "47b7787f52562fc5",
+  "active": "f90129d872646aae",
   "lastOpenFiles": [
+    "Algorithms/Competitive Online Algorithm.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Graph Coloring.md",
-    "Algorithms/Competitive Online Algorithm.md",
+    "Algorithms/Paging.md",
     "Algorithms/MAX-SAT.md",
+    "Graph Theory/Metric Embedding.md",
+    "Graph Theory/Sparsest Cut.md",
+    "Algorithms/Knapsack.md",
     "Algorithms/Multi-Commodity Routing.md",
     "Algorithms/Bin Covering.md",
     "Algorithms/DNF Counting.md",
-    "Graph Theory/Sparsest Cut.md",
     "Algorithms/Bin Packing.md",
-    "Algorithms/Knapsack.md",
-    "Graph Theory/Metric Embedding.md",
     "Algorithms/Covering.md",
     "Graph Theory/Matching.md",
     "Algorithms/Learning From Expert.md",
@@ -306,7 +318,6 @@
     "Algorithms/Minimum Set Cover.md",
     "Graph Theory/Spanner.md",
     "Algorithms/Streaming Algorithm.md",
-    "Graph Theory/Planar Graph.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",

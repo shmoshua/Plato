@@ -206,6 +206,11 @@
 ![[Paging#^9aa545|p]]
 
 ---
+##### 2.1.3 Edge Coloring
+![[Graph Coloring#^18c39b]]
+![[Graph Coloring#^ae9f8d|p]]
+
+---
 ### 3. Hashing, Streaming and Sparsification
 
 #### 3.1 Advanced Hashing Algorithms
@@ -266,6 +271,7 @@
 ![[Streaming Algorithm#^399e1c]]
 ![[Streaming Algorithm#^894eb0|p]]
 ![[Streaming Algorithm#^001d15|q]]
+
 ---
 ![[Streaming Algorithm#^273243]]
 ![[Streaming Algorithm#^4ea1a3|p]]
