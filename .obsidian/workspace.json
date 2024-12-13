@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Graph Theory/Minimum Spanning Tree.md",
                 "mode": "source",
                 "source": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Graph Theory/Minimum Spanning Tree.md",
                 "mode": "preview",
                 "source": true
               }
@@ -160,8 +160,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -291,11 +290,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "47b7787f52562fc5",
+  "active": "8fe2585a940e5e70",
   "lastOpenFiles": [
+    "Graph Theory/Minimum Spanning Tree.md",
+    "Algorithms/Streaming Algorithm.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Competitive Online Algorithm.md",
-    "Algorithms/Streaming Algorithm.md",
     "Graph Theory/Graph Coloring.md",
     "Algorithms/Paging.md",
     "Algorithms/MAX-SAT.md",
@@ -318,7 +318,6 @@
     "Graph Theory/Tree.md",
     "Graph Theory/Cut Sparsifier.md",
     "Algorithms/Minimum Set Cover.md",
-    "Graph Theory/Spanner.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
