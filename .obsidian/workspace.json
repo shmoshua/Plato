@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "4d5ec56e57395c88",
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Graph Theory/Sparsest Cut.md",
                 "mode": "preview",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "mode": "preview",
                 "source": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Graph Theory/Sparsest Cut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Graph Theory/Sparsest Cut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md"
+                "file": "Graph Theory/Sparsest Cut.md"
               }
             }
           }
@@ -257,13 +257,13 @@
   },
   "active": "8fe2585a940e5e70",
   "lastOpenFiles": [
-    "Algorithms/Graph Algorithms/Tree Embedding.md",
-    "Analysis/Lp Space.md",
-    "Graph Theory/Path (Graph).md",
     "Graph Theory/Metric Embedding.md",
     "Graph Theory/Sparsest Cut.md",
-    "Algorithms/Buy-At-Bulk Network Design.md",
+    "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Analysis/Lp Space.md",
+    "Graph Theory/Path (Graph).md",
+    "Algorithms/Buy-At-Bulk Network Design.md",
     "Graph Theory/Expander.md",
     "Graph Theory/Matching.md",
     "Graph Theory/Tree.md",

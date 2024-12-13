@@ -342,7 +342,17 @@
 
 ---
 #### 4.2 L1 Metric Embeddings
-##### 4.2.1 Sparsest Cut
+![[Metric Embedding#^b444c9]]
+
+---
+##### 4.2.1 L1 Embedding
+
+![[Metric Embedding#^257b33]]
+![[Metric Embedding#^04498e|p]]
+
+
+---
+##### 4.2.2 Sparsest Cut
 ![[Sparsest Cut#^02a58c]]
 ![[Sparsest Cut#^9966da|q]]
 
