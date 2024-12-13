@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Multiplicative Weight Update.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Multiplicative Weight Update.md",
                 "mode": "preview",
                 "source": true
               }
@@ -124,8 +124,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Sparsest Cut.md",
+                "file": "Algorithms/Multiplicative Weight Update.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Sparsest Cut.md",
+                "file": "Algorithms/Multiplicative Weight Update.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Sparsest Cut.md"
+                "file": "Algorithms/Multiplicative Weight Update.md"
               }
             }
           }
@@ -255,12 +254,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8fe2585a940e5e70",
+  "active": "1f325e37b8ec4b81",
   "lastOpenFiles": [
-    "Graph Theory/Metric Embedding.md",
-    "Graph Theory/Sparsest Cut.md",
-    "Algorithms/Graph Algorithms/Tree Embedding.md",
+    "Courses/Advanced Algorithms/Assignment 11.md",
+    "Algorithms/Multiplicative Weight Update.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Sparsest Cut.md",
+    "Graph Theory/Metric Embedding.md",
+    "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Analysis/Lp Space.md",
     "Graph Theory/Path (Graph).md",
     "Algorithms/Buy-At-Bulk Network Design.md",
@@ -281,8 +282,6 @@
     "Probability Theory/Moment.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Probability Theory/Distribution.md",
-    "Probability Theory/Variance.md",
-    "Probability Theory/Independence.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",

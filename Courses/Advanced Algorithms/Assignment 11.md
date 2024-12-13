@@ -32,3 +32,40 @@ Let $T$ be the number of iterations. Let $w_{p}^j$ be $w_{p}$ at the end of the 
 
 Therefore, there exists $p\in P$ s.t. $(1-\varepsilon)^{2T / 3}\leq w_{p}^T$. Hence, $$e^{-}\leq w_{p}^T\leq \sum_{p\in P}^{}w_{p}^T=n\prod_{j\in [T]}^{}(1+\varepsilon F_{j})\leq ne^{\varepsilon \sum_{j\in[T]}^{}F_{j}}$$and $T\leq \sum_{j\in[T]}^{}F_{j}+\frac{6\log n}{\varepsilon}$. Now, $$\begin{align}\mathbb{E}\left[ \sum_{j\in [T]}^{}F_{j} \right]&=\sum_{j=1}^{\infty}\mathbb{E}[F_{j}\cdot \mathbb{1}_{T\geq j}]\end{align}$$
 We have that: $$\begin{align}\mathbb{E}[F_{j}\cdot \mathbb{1}_{T\geq j}]&=\mathbb{E}[\mathbb{E}[F_{j}\cdot \mathbb{1}_{T\geq j}|\mathbb{1}_{T\geq j}]]\\&=\mathbb{E}[F_{j}|T\geq j]\mathbb{P}(T\geq j)\\&\leq \frac{3}{r+1}\left( \sum_{p\in P}^{}w_{p}^{j-1} \right) ^{2}\mathbb{P}(T\geq j)\\&\leq \frac{3n^{2}}{r+1}\prod_{\ell=1}^{j-1}(1+\varepsilon F_{\ell})^{2}\mathbb{P}(T\geq j)\end{align}$$Therefore, $$\begin{align}\mathbb{E}\left[ \sum_{j\in [T]}^{}F_{j} \right]&=\sum_{j=1}^{\infty}\mathbb{E}[F_{j}\cdot \mathbb{1}_{T\geq j}]\leq \sum_{j=1}^{\infty}\frac{3n^2}{r+1}\prod_{\ell=1}^{j-1}(1+\varepsilon F_{\ell})^{2}\mathbb{P}(T\geq j)\end{align}$$
+
+
+
+$$\mathbb{E}\left[ \sum_{p\in P,p\notin C(R)}^{} w_{p}\right]\leq \frac{3}{4}\sum_{ p\in P}^{}w_{p}$$
+
+```pseudo
+\begin{algorithm}\caption{Randomized}\begin{algorithmic} 
+\State $w_p\gets 1 / |P|$ for all $p\in P$
+\While{$C(P)$ not found}
+\State Construct $R\sube P$ given in Lemma 1.
+\State Compute $C:=C(R)$.
+\For{$p\in P$}
+
+\EndFor
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
+```
+
+Let $T$ be the number of iterations. We have that: $$\mathbb{E}[T]=\sum_{i=1}^{\infty}\mathbb{P}(T\geq t)$$
+
+We have that: $$\mathbb{P}(T\geq t)=\mathbb{P}()$$
+
+For each iteration, let $w_{p}^t$ be the weights in $t$. Let $F_{j}$ be the weighted fraction of points outside of $C(R_{j})$. 
+
+We have that: $$\mathbb{E}[F_{j}]\leq \frac{3}{r+1}\left( \sum_{p\in P}^{}w_{p}^{j-1} \right)^2\leq \frac{3}{r+1}e^{-2\varepsilon F_{j}}$$
+
+At time step $j$, let $F_{j}$ be weighted fraction then, $\mathbb{E}[F_{j}]\leq \frac{3}{r+1}e^{-2\varepsilon F_{j}}$. Further, 
+1. If $C(R_{j})=C$, then we are done.
+2. If $C(R_{j})\neq C$, then there exists $p\in \{ p_{1},p_{2},p_{3} \}$ s.t. $q \notin C(R_{j})$. Hence, $w_{q}^j=(1-\varepsilon)w_{q}$. 
+
+**Claim**: there exists $q$ s.t. $w_{p1}^{T}=(1-\varepsilon)^{T} / n$. Assume otherwise. 
+ $$w_{p_{1}}^{T}w_{p_{2}}^{T}w_{p_{3}}^{T}\leq(1-\varepsilon)^{T} / n^3$$
+
+Let $K_{j}$ be the number of points not in $C(R_{j})$. Then, $$\prod_{p\in P}w_{p}^j=(1-\varepsilon)^{K_{j}}\prod_{p\in P}w_{p}^j\leq e^{-K_{j}}$$and $\prod_{p\in P}w_{p}^T=(1-\varepsilon)^{\sum_{j\in [T] }^{}K_{j}}$
+
+1. At each step $w_{p}^j\geq (1-\varepsilon)^j$: $$K_{j}(1-\varepsilon)^j\leq\sum_{p\in P}^{}w_{p}^j\mathbb{P}(p\notin C(R))=\mathbb{E}\left[ \sum_{p\in P:p\notin C(R)}^{} w_{p}^j\right]\leq \frac{3}{r+1}\sum_{p\in P}^{}w_{p}^j$$

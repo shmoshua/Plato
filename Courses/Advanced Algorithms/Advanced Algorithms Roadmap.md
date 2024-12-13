@@ -359,3 +359,11 @@
 ---
 ![[Sparsest Cut#^292a9d]]
 ![[Sparsest Cut#^9d40c1|p]]
+
+---
+![[Sparsest Cut#^15aac0]]
+![[Sparsest Cut#^bed5ea|p]]
+
+---
+#### 4.3 Multiplicative Weight Updates (MWU)
+
