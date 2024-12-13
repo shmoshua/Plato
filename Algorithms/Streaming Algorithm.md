@@ -255,6 +255,8 @@
 >    If there exists an element $j$ s.t. $\left| \{ i\in[m]:a_{i}=j \} \right|> \frac{m}{ 2}$, then:
 >    1. the algorithm returns $j$ in space $\text{O}(\log n+\log m)$.
 
+^bcd0f5
+
 > [!proof]-
 > Let $x$ be the output of the algorithm. 
 > 1. Firstly, it is quite clear that the algorithm uses $O(\log n+\log m)$ space. Therefore, it suffices to show the correctness.
@@ -272,16 +274,23 @@
 > 		4. $n_{i}\leq i / 2$ and $a_{i+1} \neq j$. Then, $n_{i+1}\leq (i+1) /2$ and if we don't have $x_{i+1}=j$, if $x_{i}=j$, then $\text{count}_{i+1}=1$. If $x_{i}\neq j$, then:  $$\text{count}_{i+1}\leq \text{count}_{i}+1\leq (i+1)-2n_{i}+1$$
 > 	
 > 	Therefore, for $m$, as we have that $n_{m}> m /2$, $x=j$.   
+
+^4dfe0d
+
 ---
 > [!lemma] Theorem 5
 > Any deterministic streaming algorithm deciding whether a majority element exists or not requires at least $\Omega(n)$ space.
 
-> [!proof]+
+^989ebb
+
+> [!proof]-
 > Let $A$ be a deterministic algorithm that uses at most $n / 2$ bits. We will show that there exists an input for which $A$ fails. 
 > 
 > Consider ${\mathcal{S}}:={[n] \choose n /2}$. Then, we have that: $$\left| \mathcal{S} \right| ={n \choose n /2}> 2^{n / 2}$$Hence, there exists $S,T\in \mathcal{S}$ distinct s.t. $A$ has the same configuration for. However, there exists $x\in S$ s.t. $x\notin T$. By adding $x$ $n /2$ times, we have that in one input, we have a majority element and in the other we don't. However, $A$ outputs the same result for both the cases. 
 > 
-> Therefore, 
+> Therefore, any deterministic streaming algorithm that decides whether a majority element exists requires at least $\Omega(n)$ space.
+
+^bd84b0
 
 ---
 ##### Graph Streaming Algorithms
@@ -384,3 +393,6 @@
 
 - **Corollary**: With Theorem 2, there is a streaming algorithm that computes the maximal forest with space complexity $\text{O}(n\log ^4 n)$ with high probability. ^511eae
 ---
+##### Finding MST
+> [!lemma] Theorem 1 (2-Approximation)
+> 

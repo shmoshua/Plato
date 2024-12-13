@@ -284,6 +284,15 @@
 ![[Streaming Algorithm#^90acce|q]]
 
 ---
+##### 3.2.4 Finding the Majority Element
+![[Streaming Algorithm#^bcd0f5]]
+![[Streaming Algorithm#^4dfe0d|p]]
+
+---
+![[Streaming Algorithm#^989ebb]]
+![[Streaming Algorithm#^bd84b0|p]]
+
+---
 #### 3.3 Streaming Algorithms: Graph Connectivity
 ##### 3.3.1 Finding a Single Cut Edge
 ![[Streaming Algorithm#^f050f5]]
@@ -298,6 +307,10 @@
 ![[Streaming Algorithm#^88bddb]]
 ![[Streaming Algorithm#^50642b|p]]
 ![[Streaming Algorithm#^511eae|q]]
+
+---
+##### 3.3.2 Finding MST
+
 
 ---
 #### 3.4 Graph Sparsification: Preserving Distances and Cuts

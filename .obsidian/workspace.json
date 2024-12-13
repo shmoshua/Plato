@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Competitive Online Algorithm.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -293,8 +293,8 @@
   },
   "active": "47b7787f52562fc5",
   "lastOpenFiles": [
-    "Algorithms/Competitive Online Algorithm.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Competitive Online Algorithm.md",
     "Algorithms/Streaming Algorithm.md",
     "Graph Theory/Graph Coloring.md",
     "Algorithms/Paging.md",
