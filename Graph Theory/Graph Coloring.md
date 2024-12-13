@@ -2,7 +2,8 @@
 
 > [!definition]
 > Let $G=(V,E)$ be an [[Graph|undirected graph]]. 
-> 1. A ***proper vertex $k$-coloring*** is a map $c:V\to[k]$ s.t. for every $\{ u,v \}\in E$: $c_{u}\neq c_{v}$.
+> 1. A ***proper $k$-vertex coloring*** is a map $c:V\to[k]$ s.t. for every $\{ u,v \}\in E$: $c_{u}\neq c_{v}$.
+> 2. A ***proper $k$-edge coloring*** is a map $c:E\to[k]$ s.t. for every $e,f\in E$ if $e\cap f\neq \varnothing$ then $c_{e}\neq c_{f}$.
 - **Remark**: For a finite graph on $n$ nodes, there exists a proper vertex $n$-coloring.
 - **Related definition**: The ***chromatic number*** $\chi(G)$ is given by: $$\chi(G):=\min\{  k\geq 1: \exists \text{proper vertex }k\text{-coloring on }G \}$$
 ---
@@ -74,3 +75,22 @@
 > 
 > We have that $\rho(G)\geq |S_{i}| / \left| V_{i} \right|$ and $\left| V_{i} \right|\geq \left| S_{i} \right| / \rho(G)$. Therefore, $$\left| S_{i+1} \right|\leq \left| S_{i} \right| -\left| V_{i} \right| \leq\left| S_{i} \right| \left( 1-\frac{1}{\rho(G)} \right) $$By induction we have that: $$\left| S_{j} \right| \leq n\left( 1-\frac{1}{\rho(G)} \right) ^j\leq ne^{-j / \rho(G)}$$In other words, $\left| S_{j} \right|=0$ for all $j>\rho(G)\log n$ which proves the statement.
 ---
+###### Edge Coloring
+> [!lemma] Theorem 1 (Online Edge Coloring)
+> Consider the following algorithm:
+> ```pseudo
+> \begin{algorithm} \caption{OnlineEdgeColoring($G=(V,E)$)}
+> \begin{algorithmic} 
+> \State $C_{v}\gets \varnothing$ for all $v\in V$
+> \For{$e=\{ u,v \}\in V$}
+> \State $c_{e}\gets\min\{  i\in \mathbb{Z}_{\geq 0}:  i\notin C_{u}\land i\notin C_{v}\}$\EndFor
+> \Return $c$
+\end{algorithmic}
+\end{algorithm}
+> ```
+> In the online setting, 
+> 1. $\text{OnlineEdgeColoring}(G)$ returns a $(2\Delta(G) -1)$-edge coloring.
+
+> [!proof]+
+> For $\Delta:=\Delta(G)$, we have that:
+> 1. For an edge $e=\{ u,v \}$, there are at most $\Delta-1$ other edges on each side that could have come before. Hence, there are at most $2\Delta-2$ colors that are already taken. Hence, we use at most $2\Delta-1$ colors. 

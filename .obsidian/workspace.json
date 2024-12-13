@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "4d5ec56e57395c88",
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "preview",
                 "source": true
               }
@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/MAX-SAT.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/MAX-SAT.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/MAX-SAT.md"
+                "file": "Graph Theory/Graph Coloring.md"
               }
             }
           }
@@ -279,10 +279,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8c39a34eb8d3b47e",
+  "active": "47b7787f52562fc5",
   "lastOpenFiles": [
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Graph Coloring.md",
+    "Algorithms/Competitive Online Algorithm.md",
     "Algorithms/MAX-SAT.md",
+    "Algorithms/Multi-Commodity Routing.md",
     "Algorithms/Bin Covering.md",
     "Algorithms/DNF Counting.md",
     "Graph Theory/Sparsest Cut.md",
@@ -304,9 +307,6 @@
     "Graph Theory/Spanner.md",
     "Algorithms/Streaming Algorithm.md",
     "Graph Theory/Planar Graph.md",
-    "Algorithms/Competitive Online Algorithm.md",
-    "Probability Theory/Expected Value.md",
-    "Graph Theory/Graph.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",

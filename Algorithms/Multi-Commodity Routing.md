@@ -17,7 +17,7 @@
 
 ^f82556
 
-> [!proof]+
+> [!proof]-
 > We have: $$\mathbb{E}\left[ \sum_{i=1}^{K}\sum_{p:e\in p\in P_{i}}^{} y_{ip} \right]=\sum_{i=1}^{K}\sum_{p: e\in p \in P_{i}}^{} x_{ip} \leq\lambda$$Now, let $X_{e,i}$ be the indicator variable denoting that $e\in p_{i}$. Then, 
 > $$\mathbb{E}[X_{e,i}]=\mathbb{P}(e\in p_{i})=\sum_{p:e \in p\in P_{i}}^{}x_{ip}$$Further, let $X_{e}:=\sum_{i\in[K]}^{}X_{e,i}$. Then, $$\mathbb{E}[X_{e}]=\sum_{i\in[K]}^{}\sum_{p: e\in p\in P_{i}}^{}x_{ip}\leq\lambda$$
 > 

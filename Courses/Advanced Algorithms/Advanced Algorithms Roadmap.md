@@ -153,6 +153,22 @@
 ![[Multi-Commodity Routing#^1afa3b]]
 
 ---
+##### 1.4.4 MAX-SAT
+![[MAX-SAT#^1649fa]]
+
+---
+![[MAX-SAT#^83cf33]]
+![[MAX-SAT#^4e6f05|p]]
+
+---
+![[MAX-SAT#^6edf06]]
+![[MAX-SAT#^d0e858|p]]
+
+---
+![[MAX-SAT#^928690]]
+![[MAX-SAT#^d33657|p]]
+
+---
 ### 2. Online Algorithms and Competitive Analysis
 #### 2.1 Online Algorithms
 ![[Competitive Online Algorithm#^9352d2]]
