@@ -24,9 +24,13 @@
 
 > [!proof]+
 > Let $\phi_{i,h}:=\phi_{(i-1)H+h}$. Then, $$\left\| \phi(u)-\phi(v) \right\|_{1} =\sum_{i=1}^{L}\sum_{h=1}^{H}\left| \phi_{i,h}(u)-\phi_{i,h}(v) \right|=\sum_{i=1}^{L}\sum_{h=1}^{H}\frac{\left| d(u,S_{i,h})-d(v,S_{i,h}) \right|}{LH}\leq d(u,v)$$
-> Fix $u,v$ and let $t\in\{ 0,1,\dots,\log n \}$ and define: $$\rho_{t}:=\min\{r\geq 0: \left| B_{\leq r} (u)\right|  ,\left| B_{\leq r} (v)\right| \geq 2^t\}$$Then, $\rho_{0}=0$ and $\rho_{t}\leq \rho_{t+1}$. Hence, there exists $j$ s.t. $\rho_{j}< \frac{d(u,v)}{2}\leq \rho_{j+1}$. Let $(\widehat{\rho}_{i})_{i}$ be.a sequence where $\widehat{\rho}_{i}:= \min\left\{  \rho_{i}, \frac{d(u,v)}{2}  \right\}$. 
+> Fix $u,v\in V$ and let $t\in\{ 0,1,\dots,\log n \}$ and define: $$\rho_{t}:=\min\{r\geq 0: \left| B_{\leq r} (u)\right|  ,\left| B_{\leq r} (v)\right| \geq 2^t\}$$Then, $\rho_{0}=0$ and $\rho_{t}\leq \rho_{t+1}$. Hence, there exists $j$ s.t. $\rho_{j}< \frac{d(u,v)}{2}\leq \rho_{j+1}$. Let $(\widehat{\rho}_{i})_{i}$ be.a sequence where $\widehat{\rho}_{i}:= \min\left\{  \rho_{i}, \frac{d(u,v)}{2}  \right\}$. 
 > 
-> We claim that $\left| \phi_{i,h}(u)-\phi_{i,h}(v) \right|\geq (\widehat{\rho}_{i}-\widehat{\rho}_{i-1}) / LH$. For all $i> j+1$, $$\left| \phi_{i,h}(u)-\phi_{i,h}(v) \right| \geq  (\widehat{\rho}_{i}-\widehat{\rho}_{i-1}) / LH = 0$$Let $i\leq j+1$. 
+> We claim that $\left| \phi_{i,h}(u)-\phi_{i,h}(v) \right|\geq (\widehat{\rho}_{i}-\widehat{\rho}_{i-1}) / LH$ for all $i\in[L]$.
+> 1. For all $i> j+1$, $\left| \phi_{i,h}(u)-\phi_{i,h}(v) \right| \geq  (\widehat{\rho}_{i}-\widehat{\rho}_{i-1}) / LH = 0$
+> 2. For all $i\leq j+1$, we define the following events: 
+> 	1. $A_{ih}:=\{ S_{i,h}\cap B_{<\widehat{\rho}_{i}}(u)=\varnothing \}$
+> 	2. $B_{ih}:=\{ S_{i,h}\cap B_{<\widehat{\rho}_{i-1}}(v)\neq\varnothing \}$
+> 	
+> 	We first know that $B_{<\widehat{\rho}_{i}}(u)$ and $B_{<\widehat{\rho}_{i-1}}(v)$ are disjoint by construction. Hence, $A_{ih},B_{ih}$ are independent. Given $A_{ih}\cap B_{ih}$, we have that: $$\left| \phi_{i,h}(u)-\phi_{i,h}(v) \right| =\frac{\left| d(u,S_{i,h})-d(v,S_{i,h}) \right|}{LH}\geq \frac{\widehat{\rho}_{i}-\widehat{\rho}_{i-1} }{LH}$$Further, wlog we may assume that $$\mathbb{P}(A_{ih})=\left( 1-\frac{1}{2^i} \right)^{\left| B_{\leq \widehat{\rho}_{i}} (u)\right| }\geq \left( 1-\frac{1}{2^i} \right) ^{2^i}$$
 ---
-
-$$d(u,A)-d(v,A)$$
