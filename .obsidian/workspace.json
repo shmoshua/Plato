@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/DNF Counting.md",
+                "file": "Algorithms/MAX-SAT.md",
                 "mode": "source",
                 "source": true
               }
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/DNF Counting.md",
+                "file": "Algorithms/MAX-SAT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/DNF Counting.md",
+                "file": "Algorithms/MAX-SAT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/DNF Counting.md"
+                "file": "Algorithms/MAX-SAT.md"
               }
             }
           }
@@ -281,6 +281,7 @@
   },
   "active": "8c39a34eb8d3b47e",
   "lastOpenFiles": [
+    "Algorithms/DNF Counting.md",
     "Algorithms/Bin Covering.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Sparsest Cut.md",
@@ -306,7 +307,6 @@
     "Probability Theory/Expected Value.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Girth and Circumference.md",
-    "Courses/Advanced Algorithms/Exam Practice.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
