@@ -43,3 +43,5 @@
 ^04498e
 
 ---
+> [!lemma] Theorem 2 (L1-embedding of a Cycle)
+> 

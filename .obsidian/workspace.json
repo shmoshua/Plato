@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 09.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 09.md",
+                "file": "Courses/Advanced Algorithms/Exercise 10.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "mode": "preview",
                 "source": true
               }
@@ -112,7 +112,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 09.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 09.md",
+                "file": "Graph Theory/Metric Embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 09.md"
+                "file": "Graph Theory/Metric Embedding.md"
               }
             }
           }
@@ -244,14 +245,16 @@
   },
   "active": "889262e1de77b98a",
   "lastOpenFiles": [
-    "Graph Theory/Minimum Spanning Tree.md",
+    "Courses/Advanced Algorithms/Exercise 10.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Graph Theory/Steiner Forest.md",
+    "Graph Theory/Metric Embedding.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
+    "Courses/Advanced Algorithms/Exercise 09.md",
+    "Graph Theory/Minimum Spanning Tree.md",
+    "Graph Theory/Steiner Forest.md",
     "Graph Theory/Cut Sparsifier.md",
     "Graph Theory/Tree.md",
     "Algorithms/Bin Packing.md",
-    "Courses/Advanced Algorithms/Exercise 09.md",
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Spanner.md",
     "Algorithms/MAX-SAT.md",
@@ -259,7 +262,6 @@
     "Algorithms/Streaming Algorithm.md",
     "Algorithms/Competitive Online Algorithm.md",
     "Algorithms/Paging.md",
-    "Graph Theory/Metric Embedding.md",
     "Graph Theory/Sparsest Cut.md",
     "Algorithms/Knapsack.md",
     "Algorithms/Multi-Commodity Routing.md",
@@ -269,7 +271,6 @@
     "Graph Theory/Matching.md",
     "Algorithms/Learning From Expert.md",
     "Courses/Advanced Algorithms/Assignment 11.md",
-    "Analysis/Lp Space.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
