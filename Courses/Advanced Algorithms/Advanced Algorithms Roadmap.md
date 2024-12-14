@@ -308,7 +308,6 @@
 ![[Streaming Algorithm#^50642b|p]]
 ![[Streaming Algorithm#^511eae|q]]
 
----
 
 ---
 #### 3.4 Graph Sparsification: Preserving Distances and Cuts
@@ -324,6 +323,9 @@
 ![[Girth and Circumference#^cc9933]]
 ![[Girth and Circumference#^dd797b|p]]
 
+---
+![[Spanner#^46d296]]
+![[Spanner]]
 ---
 ##### 3.4.2 Cut Preserving Sparsifiers
 ![[Cut Sparsifier#^31fd8c]]

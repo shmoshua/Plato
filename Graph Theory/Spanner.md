@@ -51,25 +51,35 @@
 > \State $A_{1},\dots,A_{\ell}\gets$ connected components of $H$
 > \State $A_{i}$ is `dead' with probability $1-n^{-1/k}$ independently for all $i\in[\ell]$
 > \State $A_{i}$ is `dead' for all $i\in[\ell]$ with probability 1 if $t=k$.
-> \For{all unmarked $v\in A_{i}$ where $A_{i}$ is dead}
+> \For{all $v\in A_{i}$ where $A_{i}$ is dead}
 > \If{ there exists $u\in N(v)\cap \bigcup_{A_{j}\text{ alive}}^{}A_{j}$}
 > \State $H\gets H\cup \{  u,v \}$
+> \State $A_{j}\gets A_{j}\cup \{ u,v \}$
 > \Else
 > \State $H\gets H\cup \{ u,v \}$ where $u\in N(v)\cap A_{j}$ for all $j$, one edge per each $j$.
 > \EndIf
-> \State Mark $v$.
 > \EndFor
 > \EndFor
 > \Return $H$
 > \end{algorithmic}
 > \end{algorithm}
 > ```
-> Let $H$ be the output of the algorithm. Then, 
+> Let $G$ be an unweighted graph and $H$ be the output of the algorithm. Then, 
 > 1. $\mathbb{E}[\left| H \right|]=O(kn^{1+1 /k})$.
-> 2. $H$ is a $(2k-1,0)$-spanner of $G$.
-> 3. The runtime of the algorithm is $\tilde{O}(m)$.
+> 3.  $d_{G}(u,v)\leq d_{H}(u,v)\leq (2k-1)d_{G}(u,v)$ for all $u,v\in V$.
+> 4. The runtime of the algorithm is $\tilde{O}(m)$.
 
-> [!proof]+
+^46d296
+
+> [!proof]-
 > We have that:
-> 1. Let $v$ be a vertex with $d$ neighboring clusters. Then, $$\mathbb{E}[\#\text{edges added by }v]\leq\left( 1-\frac{1}{n^{1/k}} \right)^d d+1\leq e^{-d/n^{1 / k}}d+1=O(n^{1/k})$$
-> 	
+> 1. Let $v$ be a vertex with $d$ neighboring clusters. Then, $$\mathbb{E}[\#\text{edges added by }v]\leq\left( 1-\frac{1}{n^{1/k}} \right)^d d+1\leq e^{-d/n^{1 / k}}d+1\leq n^{1/k}+1=O(n^{1/k})$$Hence, $\mathbb{E}[\#\text{edges added in one phase}]=O(n^{1+1/k})$.
+>    
+>    For the last phase, if we have $X$ surviving clusters, We add at most $nX$ new edges. Thus,  $$\mathbb{E}[\#\text{edges added in last phase}]\leq n\mathbb{E}[X]$$
+>    For a cluster $A_{i}$, we have that: $\mathbb{P}(A_{i}\text{ is surviving})=(n^{-1/k})^{k-1}=n^{-(1-1/k)}$. Hence, $$\mathbb{E}[X]=nn^{-(1-1/k)}=n^{1/k}$$which proves the statement.
+> 2. Firstly, as $E(H)\subseteq E(G)$, we have again that $d_{G}(u,v)\leq d_{H}(u,v)$. For the other inequality, we claim that:
+> 	1. **Claim 1**: Before phase $i$, if $u,v$ are in the same cluster is their distance in $H$ is at most $2i-2$.
+> 	   For $i=1$, each cluster is singleton and we have the claim. For $i\geq 2$, Assume $u,v$ are both added in this phase (to $u'$,$v'$ respectively where $u',v'$ are in the same cluster in the previous phase). We have that: $$d_{H}(u,v)\leq d_{H}(u',v')+2\leq 2(i-1)-2+2=2i-2$$
+> 	2. **Claim 2**: After phase $k$, $d_{H}(u,v)\leq 2k-1$. 
+> 	   For $u,v\in V$, if $u,v$ in the same cluster then: $d_{H}(u,v)\leq 2i-2\leq 2k-2\leq 2k-1$. Since we only add edges afterwards, the distance can only decrease.
+---
