@@ -325,7 +325,8 @@
 
 ---
 ![[Spanner#^46d296]]
-![[Spanner]]
+![[Spanner#^ae8ead|p]]
+
 ---
 ##### 3.4.2 Cut Preserving Sparsifiers
 ![[Cut Sparsifier#^31fd8c]]
@@ -425,4 +426,18 @@
 
 ---
 #### 4.3 Multiplicative Weight Updates (MWU)
+![[Learning From Expert#^879add]]
 
+---
+![[Learning From Expert#^8bda56]]
+![[Learning From Expert#^2b04ee|p]]
+
+---
+![[Learning From Expert#^5d8927]]
+![[Learning From Expert#^2b04ee|p]]
+
+---
+![[Learning From Expert#^87073c]]
+![[Learning From Expert#^89fa0f|p]]
+
+---

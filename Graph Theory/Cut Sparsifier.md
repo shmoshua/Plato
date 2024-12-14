@@ -92,3 +92,11 @@
 ^b5e439
 
 ---
+> [!lemma] Theorem 4 (Graphs with a large min cut)
+> ```pseudo
+> \begin{algorithm}\caption{CutSparsifierLargeMinCut($G=(V,E),\varepsilon$)}
+> \begin{algorithmic} 
+> \State $p\gets \frac{10 \log n}{\varepsilon}$
+\end{algorithmic}
+\end{algorithm}
+```

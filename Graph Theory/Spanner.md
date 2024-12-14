@@ -82,4 +82,7 @@
 > 	   For $i=1$, each cluster is singleton and we have the claim. For $i\geq 2$, Assume $u,v$ are both added in this phase (to $u'$,$v'$ respectively where $u',v'$ are in the same cluster in the previous phase). We have that: $$d_{H}(u,v)\leq d_{H}(u',v')+2\leq 2(i-1)-2+2=2i-2$$
 > 	2. **Claim 2**: After phase $k$, $d_{H}(u,v)\leq 2k-1$. 
 > 	   For $u,v\in V$, if $u,v$ in the same cluster then: $d_{H}(u,v)\leq 2i-2\leq 2k-2\leq 2k-1$. Since we only add edges afterwards, the distance can only decrease.
+
+^ae8ead
+
 ---

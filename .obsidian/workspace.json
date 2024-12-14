@@ -86,14 +86,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Spanner.md",
+                "file": "Graph Theory/Cut Sparsifier.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "4d5ec56e57395c88",
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/MAX-SAT.md",
+                "file": "Graph Theory/Cut Sparsifier.md",
                 "mode": "preview",
                 "source": true
               }
@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Cut Sparsifier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Cut Sparsifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Graph Theory/Cut Sparsifier.md"
               }
             }
           }
@@ -279,16 +279,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "47b7787f52562fc5",
+  "active": "a51cf50719a07164",
   "lastOpenFiles": [
-    "Graph Theory/Minimum Spanning Tree.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Graph Theory/Graph Coloring.md",
     "Graph Theory/Spanner.md",
+    "Graph Theory/Cut Sparsifier.md",
+    "Algorithms/MAX-SAT.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Minimum Spanning Tree.md",
+    "Graph Theory/Graph Coloring.md",
     "Algorithms/Streaming Algorithm.md",
     "Algorithms/Competitive Online Algorithm.md",
     "Algorithms/Paging.md",
-    "Algorithms/MAX-SAT.md",
     "Graph Theory/Metric Embedding.md",
     "Graph Theory/Sparsest Cut.md",
     "Algorithms/Knapsack.md",
@@ -306,7 +307,6 @@
     "Algorithms/Buy-At-Bulk Network Design.md",
     "Graph Theory/Expander.md",
     "Graph Theory/Tree.md",
-    "Graph Theory/Cut Sparsifier.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
