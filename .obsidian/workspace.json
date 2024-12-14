@@ -111,9 +111,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "4459d058f1f0a861",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Minimum Set Cover.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +154,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mcdiarmid",
+                "query": "b-1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +171,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Minimum Set Cover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Algorithms/Minimum Set Cover.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Algorithms/Minimum Set Cover.md"
               }
             }
           }
@@ -243,11 +256,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87e38e5782f7e17d",
+  "active": "4459d058f1f0a861",
   "lastOpenFiles": [
+    "Courses/Advanced Algorithms/Graded Assignment 1.md",
+    "Courses/Advanced Algorithms/Exam Practice.md",
+    "Algorithms/Minimum Makespan Scheduling.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Metric Embedding.md",
     "Courses/Advanced Algorithms/Exercise 10.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
     "Graph Theory/Minimum Spanning Tree.md",
@@ -268,9 +284,6 @@
     "Algorithms/Bin Covering.md",
     "Algorithms/DNF Counting.md",
     "Algorithms/Covering.md",
-    "Graph Theory/Matching.md",
-    "Algorithms/Learning From Expert.md",
-    "Courses/Advanced Algorithms/Assignment 11.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
