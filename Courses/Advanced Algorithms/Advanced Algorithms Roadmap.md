@@ -405,6 +405,14 @@
 ![[Buy-At-Bulk Network Design#^2e1b3e]]
 
 ---
+##### 4.1.3 Steiner Forest
+![[Steiner Forest#^3e602d]]
+
+---
+![[Steiner Forest#^79a6c9]]
+![[Steiner Forest#^d4e5b3|p]]
+
+---
 #### 4.2 L1 Metric Embeddings
 ![[Metric Embedding#^b444c9]]
 

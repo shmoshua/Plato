@@ -62,13 +62,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Graph Algorithms/Tree Embedding.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "4d5ec56e57395c88",
@@ -81,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Steiner Forest.md",
+                "file": "Courses/Advanced Algorithms/Exercise 09.md",
                 "mode": "preview",
                 "source": true
               }
@@ -177,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Steiner Forest.md",
+                "file": "Courses/Advanced Algorithms/Exercise 09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Steiner Forest.md",
+                "file": "Courses/Advanced Algorithms/Exercise 09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Steiner Forest.md"
+                "file": "Courses/Advanced Algorithms/Exercise 09.md"
               }
             }
           }
@@ -243,17 +244,17 @@
   },
   "active": "47b7787f52562fc5",
   "lastOpenFiles": [
+    "Graph Theory/Minimum Spanning Tree.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Graph Theory/Steiner Forest.md",
-    "Algorithms/Bin Packing.md",
-    "Graph Theory/Tree.md",
+    "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Graph Theory/Cut Sparsifier.md",
+    "Graph Theory/Tree.md",
+    "Algorithms/Bin Packing.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Spanner.md",
     "Algorithms/MAX-SAT.md",
-    "Graph Theory/Minimum Spanning Tree.md",
     "Graph Theory/Graph Coloring.md",
     "Algorithms/Streaming Algorithm.md",
     "Algorithms/Competitive Online Algorithm.md",
