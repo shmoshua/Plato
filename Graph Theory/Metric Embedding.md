@@ -44,4 +44,21 @@
 
 ---
 > [!lemma] Theorem 2 (L1-embedding of a Cycle)
-> 
+> ```pseudo
+> \begin{algorithm} \caption{$L^1$-Embedding($C$)}
+> \begin{algorithmic} 
+> \State $v\gets$ Select a vertex uniformly at random.
+> \State Set $v_{1},v_{2},\dots,v_{n}$ as we start from $v$ in clockwise direction.
+> \Return $\phi(v_{i})=i /2$
+> \end{algorithmic}
+> \end{algorithm}
+> ```
+> We have that:
+> 1. the algorithm returns a $\frac{1}{2}$-$L^1$-embedding in expectation.
+
+^15c7a1
+
+> [!proof]-
+> We first have that obviously, $\frac{1}{2}d_{G}(u,v)\leq \left| \phi(u)-\phi(v) \right|$. Similarly, we have: $$\mathbb{E}[\left| \phi(u)-\phi(v) \right| ]=\frac{d(u,v)}{2}\left( 1- \frac{d(u,v)}{n} \right)+\frac{d(u,v)}{n}\frac{n}{2}\leq d(u,v)$$
+
+^59191b

@@ -69,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "4d5ec56e57395c88",
@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -243,11 +243,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "889262e1de77b98a",
+  "active": "87e38e5782f7e17d",
   "lastOpenFiles": [
+    "Graph Theory/Metric Embedding.md",
     "Courses/Advanced Algorithms/Exercise 10.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Graph Theory/Metric Embedding.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
     "Graph Theory/Minimum Spanning Tree.md",

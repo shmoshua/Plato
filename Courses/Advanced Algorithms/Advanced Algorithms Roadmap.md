@@ -422,6 +422,9 @@
 ![[Metric Embedding#^257b33]]
 ![[Metric Embedding#^04498e|p]]
 
+---
+![[Metric Embedding#^15c7a1]]
+![[Metric Embedding#^59191b|p]]
 
 ---
 ##### 4.2.2 Sparsest Cut
