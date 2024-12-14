@@ -109,5 +109,12 @@
 > 1. $\left| E' \right|\leq \frac{20m\log n}{\varepsilon^{2}k}=\tilde{O}(m / \varepsilon^{2})$
 > 2. $\left| e_{H}(S, V \backslash S)-e_{G}(S, V \backslash S) \right|\leq \varepsilon e_{G}(S, V\backslash S)$ for all $S\subseteq V$.
 
-> [!proof]+
+^89bed1
+
+> [!proof]-
 > We have that $\mathbb{E}[\left| E' \right|]=mp$ and by Chernoff: $$\mathbb{P}\left( \left| E' \right| > \frac{20m\log n}{\varepsilon^{2} k} \right)=\mathbb{P}\left(\left| E' \right| \geq 2\mathbb{E}[\left| E' \right| ]  \right) \leq n^{-\frac{3m}{\varepsilon^{2}k}} =\text{o}(1)$$
+> Let $(S,V \backslash S)$ be a cut and let $\alpha\geq 1$ s.t. $e_{G}(S, V \backslash S)=\alpha k$. Let $Y:=e_{H}(S, V\backslash S)$. Then, $$\begin{align}\mathbb{P}\left( \left| \frac{1}{p}Y-\alpha k \right|> \varepsilon\alpha k  \right)&=\mathbb{P}\left( \left| Y-\alpha pk \right|> \varepsilon\alpha pk  \right)\leq 2n^{-3\alpha}\end{align}$$Then, $$\mathbb{P}(\text{fail})\leq \sum_{s=k}^{n^{2}}(2n)^{s / k}2n^{-3s/k}\leq 2\sum_{s=k}^{n^{2}}(2^{1/k}n^{-2/k})^s =\frac{ 2(2n^{-2})}{1-2^{1/k}n^{-2/k}}=o(1)$$
+
+^9f065c
+
+---

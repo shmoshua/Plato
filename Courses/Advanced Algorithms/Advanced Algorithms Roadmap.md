@@ -377,6 +377,10 @@
 ![[Cut Sparsifier#^b5e439|p]]
 
 ---
+![[Cut Sparsifier#^89bed1]]
+![[Cut Sparsifier#^9f065c|p]]
+
+---
 ### 4 Selected Topics in Approximation Algorithms
 #### 4.1 Distance Preserving Tree Embeddings
 ![[Tree Embedding#^4915f3]]

@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "4d5ec56e57395c88",
@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Cut Sparsifier.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Cut Sparsifier.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Cut Sparsifier.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -279,12 +279,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7267c601f2ef9d3c",
+  "active": "889262e1de77b98a",
   "lastOpenFiles": [
+    "Graph Theory/Cut Sparsifier.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Spanner.md",
     "Algorithms/Bin Packing.md",
-    "Graph Theory/Cut Sparsifier.md",
     "Algorithms/MAX-SAT.md",
     "Graph Theory/Minimum Spanning Tree.md",
     "Graph Theory/Graph Coloring.md",
