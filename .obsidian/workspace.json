@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Metric Embedding.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "preview",
                 "source": true
               }
@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -256,13 +256,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4459d058f1f0a861",
+  "active": "87e38e5782f7e17d",
   "lastOpenFiles": [
+    "Graph Theory/Graph Coloring.md",
+    "Graph Theory/Metric Embedding.md",
+    "Algorithms/Minimum Set Cover.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Courses/Advanced Algorithms/Exam Practice.md",
     "Algorithms/Minimum Makespan Scheduling.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Graph Theory/Metric Embedding.md",
     "Courses/Advanced Algorithms/Exercise 10.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
@@ -274,7 +276,6 @@
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Spanner.md",
     "Algorithms/MAX-SAT.md",
-    "Graph Theory/Graph Coloring.md",
     "Algorithms/Streaming Algorithm.md",
     "Algorithms/Competitive Online Algorithm.md",
     "Algorithms/Paging.md",
@@ -283,7 +284,6 @@
     "Algorithms/Multi-Commodity Routing.md",
     "Algorithms/Bin Covering.md",
     "Algorithms/DNF Counting.md",
-    "Algorithms/Covering.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
