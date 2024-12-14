@@ -309,8 +309,6 @@
 ![[Streaming Algorithm#^511eae|q]]
 
 ---
-##### 3.3.2 Finding MST
-
 
 ---
 #### 3.4 Graph Sparsification: Preserving Distances and Cuts

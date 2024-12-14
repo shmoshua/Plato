@@ -12,7 +12,7 @@
 > [!lemma] Theorem 1 (Greedy)
 > Consider the following algorithm:
 > ```pseudo
-> \begin{algorithm}\caption{ComputeSpanner($G=(V,E),k$)}
+> \begin{algorithm}\caption{GreedySpanner($G=(V,E),k$)}
 > \begin{algorithmic} 
 > \State $H\gets (V,\varnothing)$
 > \State Sort the edges by weight into $e_{1},\dots,e_{m}$.
@@ -25,7 +25,7 @@
 > ```
 > We have that:
 > 1. For every $e=\{ u,v \}\in E$, $d_{H}(u,v)\leq (2k-1)w(e)$.
-> 2. $\text{ComputeSpanner}(G,k)$ is a $(2k-1,0)$-spanner of $G$.
+> 2. $\text{GreedySpanner}(G,k)$ is a $(2k-1,0)$-spanner of $G$.
 
 ^1b3b1b
 
@@ -41,3 +41,18 @@
 
 ---
 
+> [!lemma] Theorem 2
+> Consider the following algorithm: 
+> ```pseudo
+> \begin{algorithm}\caption{RandomizedSpanner($G=(V,E),k$)}
+> \begin{algorithmic} 
+> \State $H\gets (V,\varnothing)$
+> \For{$t=1,\dots,k-1$}
+> \State $A_{1},\dots,A_{\ell}\gets$ connected components of $H$
+> \For{$i\in[\ell]$}
+> 
+\EndFor
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+```

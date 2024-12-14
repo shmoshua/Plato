@@ -98,14 +98,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Spanner.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "4d5ec56e57395c88",
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Spanner.md",
                 "mode": "preview",
                 "source": true
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Spanner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Spanner.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Graph Theory/Spanner.md"
               }
             }
           }
@@ -292,9 +292,10 @@
   },
   "active": "8fe2585a940e5e70",
   "lastOpenFiles": [
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Spanner.md",
     "Graph Theory/Minimum Spanning Tree.md",
     "Algorithms/Streaming Algorithm.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Competitive Online Algorithm.md",
     "Graph Theory/Graph Coloring.md",
     "Algorithms/Paging.md",
@@ -317,7 +318,6 @@
     "Graph Theory/Expander.md",
     "Graph Theory/Tree.md",
     "Graph Theory/Cut Sparsifier.md",
-    "Algorithms/Minimum Set Cover.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
