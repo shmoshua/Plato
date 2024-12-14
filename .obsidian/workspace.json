@@ -279,12 +279,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a51cf50719a07164",
+  "active": "7267c601f2ef9d3c",
   "lastOpenFiles": [
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Spanner.md",
+    "Algorithms/Bin Packing.md",
     "Graph Theory/Cut Sparsifier.md",
     "Algorithms/MAX-SAT.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Minimum Spanning Tree.md",
     "Graph Theory/Graph Coloring.md",
     "Algorithms/Streaming Algorithm.md",
@@ -296,7 +297,6 @@
     "Algorithms/Multi-Commodity Routing.md",
     "Algorithms/Bin Covering.md",
     "Algorithms/DNF Counting.md",
-    "Algorithms/Bin Packing.md",
     "Algorithms/Covering.md",
     "Graph Theory/Matching.md",
     "Algorithms/Learning From Expert.md",

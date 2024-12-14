@@ -94,9 +94,20 @@
 ---
 > [!lemma] Theorem 4 (Graphs with a large min cut)
 > ```pseudo
-> \begin{algorithm}\caption{CutSparsifierLargeMinCut($G=(V,E),\varepsilon$)}
+> \begin{algorithm}\caption{CutSparsifierLargeMinCut($G=(V,E),\varepsilon,k$)}
 > \begin{algorithmic} 
-> \State $p\gets \frac{10 \log n}{\varepsilon}$
-\end{algorithmic}
-\end{algorithm}
-```
+> \State $p\gets \frac{10 \log n}{\varepsilon^{2} k}$
+> \State$H\gets (V,\varnothing)$
+> \For{$e\in E$}
+> \State Add $e$ to $H$ with weight $w'(e)=\frac{1}{p}$ with probability $p$ independently.
+> \EndFor
+> \Return $H$
+> \end{algorithmic}
+> \end{algorithm} 
+> ```
+> If for the minimum cut number it holds that $\lambda (G)\geq k$, for any $\varepsilon>0$ with high probability:
+> 1. $\left| E' \right|\leq \frac{20m\log n}{\varepsilon^{2}k}=\tilde{O}(m / \varepsilon^{2})$
+> 2. $\left| e_{H}(S, V \backslash S)-e_{G}(S, V \backslash S) \right|\leq \varepsilon e_{G}(S, V\backslash S)$ for all $S\subseteq V$.
+
+> [!proof]+
+> We have that $\mathbb{E}[\left| E' \right|]=mp$ and by Chernoff: $$\mathbb{P}\left( \left| E' \right| > \frac{20m\log n}{\varepsilon^{2} k} \right)=\mathbb{P}\left(\left| E' \right| \geq 2\mathbb{E}[\left| E' \right| ]  \right) \leq n^{-\frac{3m}{\varepsilon^{2}k}} =\text{o}(1)$$
