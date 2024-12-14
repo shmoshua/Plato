@@ -1,9 +1,9 @@
 #Definition #Algorithms 
 
 > [!definition]
-> Given an undirected [[graph]] $G=(V,E)$, a ***tree embedding*** is a [[random variable]] $T$  where $T$ is a weighted [[tree]] on $V$ s.t.
+> Given an undirected [[graph]] $G=(V,E)$, a ***$c$-tree embedding*** is a [[random variable]] $T$  where $T$ is a weighted [[tree]] on $V$ s.t.
 > 1. for all $u,v\in V$, $d_{G}(u,v)\leq d_{T}(u,v)$.
-> 2. there exists a $c>0$ s.t. for all $u,v\in V$, $\mathbb{E}[d_{T}(u,v)]\leq c\cdot d_{G}(u,v)$
+> 2. for all $u,v\in V$, $\mathbb{E}[d_{T}(u,v)]\leq c\cdot d_{G}(u,v)$
 
 ^4915f3
 
@@ -62,7 +62,7 @@
 > \end{algorithmic}
 > \end{algorithm}
 > ```
-> Then, $\text{TreeEmbedding}(G,\text{diam}(G))$ is a tree embedding.
+> Then, $\text{TreeEmbedding}(G,\text{diam}(G))$ is a $O(\log n)$-tree embedding.
 
 ^639521
 
