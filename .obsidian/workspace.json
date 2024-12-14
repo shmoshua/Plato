@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Exercise 09.md",
                 "mode": "source",
                 "source": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Cut Sparsifier.md",
+                "file": "Courses/Advanced Algorithms/Exercise 09.md",
                 "mode": "preview",
                 "source": true
               }
@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Exercise 09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Exercise 09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,7 +255,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Courses/Advanced Algorithms/Exercise 09.md"
               }
             }
           }
@@ -279,9 +279,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "889262e1de77b98a",
+  "active": "7267c601f2ef9d3c",
   "lastOpenFiles": [
     "Graph Theory/Cut Sparsifier.md",
+    "Courses/Advanced Algorithms/Exercise 09.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Spanner.md",
     "Algorithms/Bin Packing.md",
@@ -306,7 +307,6 @@
     "Graph Theory/Path (Graph).md",
     "Algorithms/Buy-At-Bulk Network Design.md",
     "Graph Theory/Expander.md",
-    "Graph Theory/Tree.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
