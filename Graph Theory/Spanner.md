@@ -47,12 +47,29 @@
 > \begin{algorithm}\caption{RandomizedSpanner($G=(V,E),k$)}
 > \begin{algorithmic} 
 > \State $H\gets (V,\varnothing)$
-> \For{$t=1,\dots,k-1$}
+> \For{$t=1,\dots,k$}
 > \State $A_{1},\dots,A_{\ell}\gets$ connected components of $H$
-> \For{$i\in[\ell]$}
-> 
-\EndFor
-\EndFor
-\end{algorithmic}
-\end{algorithm}
-```
+> \State $A_{i}$ is `dead' with probability $1-n^{-1/k}$ independently for all $i\in[\ell]$
+> \State $A_{i}$ is `dead' for all $i\in[\ell]$ with probability 1 if $t=k$.
+> \For{all unmarked $v\in A_{i}$ where $A_{i}$ is dead}
+> \If{ there exists $u\in N(v)\cap \bigcup_{A_{j}\text{ alive}}^{}A_{j}$}
+> \State $H\gets H\cup \{  u,v \}$
+> \Else
+> \State $H\gets H\cup \{ u,v \}$ where $u\in N(v)\cap A_{j}$ for all $j$, one edge per each $j$.
+> \EndIf
+> \State Mark $v$.
+> \EndFor
+> \EndFor
+> \Return $H$
+> \end{algorithmic}
+> \end{algorithm}
+> ```
+> Let $H$ be the output of the algorithm. Then, 
+> 1. $\mathbb{E}[\left| H \right|]=O(kn^{1+1 /k})$.
+> 2. $H$ is a $(2k-1,0)$-spanner of $G$.
+> 3. The runtime of the algorithm is $\tilde{O}(m)$.
+
+> [!proof]+
+> We have that:
+> 1. Let $v$ be a vertex with $d$ neighboring clusters. Then, $$\mathbb{E}[\#\text{edges added by }v]\leq\left( 1-\frac{1}{n^{1/k}} \right)^d d+1\leq e^{-d/n^{1 / k}}d+1=O(n^{1/k})$$
+> 	
