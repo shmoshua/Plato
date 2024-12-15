@@ -296,21 +296,31 @@
 ![[Streaming Algorithm#^bd84b0|p]]
 
 ---
-#### 3.3 Streaming Algorithms: Graph Connectivity
+#### 3.3 Graph Streaming Algorithms
+
 ##### 3.3.1 Finding a Single Cut Edge
 ![[Streaming Algorithm#^f050f5]]
 ![[Streaming Algorithm#^4ba20e|p]]
 
 ---
+##### 3.3.2 Finding k Cut Edges
 ![[Streaming Algorithm#^0918e4]]
 ![[Streaming Algorithm#^533710|p]]
 ![[Streaming Algorithm#^7ce55e|q]]
 
 ---
+##### 3.3.3 Finding a Maximal Forest
 ![[Streaming Algorithm#^88bddb]]
 ![[Streaming Algorithm#^50642b|p]]
 ![[Streaming Algorithm#^511eae|q]]
 
+---
+##### 3.3.4 Connectivity Decision
+![[Streaming Algorithm#^e8c2d7]]
+![[Streaming Algorithm#^87093d|p]]
+
+---
+![[Streaming Algorithm#^328618]]
 
 ---
 #### 3.4 Graph Sparsification: Preserving Distances and Cuts

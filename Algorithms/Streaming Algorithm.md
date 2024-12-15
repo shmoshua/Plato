@@ -393,6 +393,50 @@
 
 - **Corollary**: With Theorem 2, there is a streaming algorithm that computes the maximal forest with space complexity $\text{O}(n\log ^4 n)$ with high probability. ^511eae
 ---
-##### Finding MST
-> [!lemma] Theorem 1 (2-Approximation)
+##### Connectivity
+> [!lemma] Theorem 1 (Connectivity)
+> ```pseudo
+> \begin{algorithm} \caption{Connectivity($G$)}
+> \begin{algorithmic} 
+> \State $F\gets \varnothing$
+> \For {$e\in E$}
+> \State $F\gets F\cup \{ e \}$ if $F\cup \{ e \}$ contains no cycle.
+> \EndFor
+> \Return $G$ is connected if and only if $e$ is connected.
+> \end{algorithmic}
+> \end{algorithm}
+> ```
+> Then, $\text{Connectivity}(G)$ decides whether $G$ is connected in $\text{O}(n\log n)$ space.
+
+^e8c2d7
+
+> [!proof]-
+> As $F$ is acyclic, $F$ is a forest and hence we use $O(n\log n)$ space.
 > 
+> Now, if $F$ is connected, as $F\subseteq E(G)$, we have that $G$ is connected as well. Now assume that $G$ is connected but $F$ is not. Then, there exists a cut $(S, V\backslash S)$ s.t. $F$ contains no edges in it but $G$ has an edge $e\in (S, V\backslash S)$. However, as $e$ is not added, we have that $F\cup \{ e \}$ forms a cycle and this is a contradiction to there being no edge in the cut. 
+
+^87093d
+
+---
+> [!lemma] Theorem 2 (k-Edge-Connectivity)
+> ```pseudo
+> \begin{algorithm} \caption{$k$-Edge-Connectivity($G$)}
+> \begin{algorithmic} 
+> \State $F_{1},\dots,F_{k}\gets \varnothing$
+> \For {$e\in E$}
+> \If{there exists $F_{i}$ s.t. $F_{i}\cup \{ e \}$ contains no cycle}
+> \State $F_{i}\gets F_{i}\cup \{ e \}$
+\EndIf
+> \EndFor
+> \Return $G$ is $k$-edge-connected if and only if $F_{1}\cup\dots \cup F_{k}$ is $k$-edge-connected.
+> \end{algorithmic}
+> \end{algorithm}
+> ```
+> Then, $k\text{-Edge-Connectivity}(G)$ decides whether $G$ is connected in $\text{O}(nk\log n)$ space.
+
+^328618
+
+> [!proof]-
+> As $F$ is acyclic, $F$ is a forest and hence we use $O(n\log n)$ space.
+> 
+> Now, if $F$ is connected, as $F\subseteq E(G)$, we have that $G$ is connected as well. Now assume that $G$ is connected but $F$ is not. Then, there exists a cut $(S, V\backslash S)$ s.t. $F$ contains no edges in it but $G$ has an edge $e\in (S, V\backslash S)$. However, as $e$ is not added, we have that $F\cup \{ e \}$ forms a cycle and this is a contradiction to there being no edge in the cut. 
