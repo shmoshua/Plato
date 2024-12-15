@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Matching.md",
+                "file": "Courses/Advanced Algorithms/Exam Practice.md",
                 "mode": "preview",
                 "source": true
               }
@@ -136,8 +136,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Exam Practice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Exam Practice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
+                "file": "Courses/Advanced Algorithms/Exam Practice.md"
               }
             }
           }
@@ -267,13 +266,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4459d058f1f0a861",
+  "active": "7267c601f2ef9d3c",
   "lastOpenFiles": [
     "Graph Theory/Matching.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Spanner.md",
     "Algorithms/Streaming Algorithm.md",
     "Graph Theory/Girth and Circumference.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Minimum Set Cover.md",
     "Graph Theory/Graph Coloring.md",
     "Algorithms/Linear Programming.md",
