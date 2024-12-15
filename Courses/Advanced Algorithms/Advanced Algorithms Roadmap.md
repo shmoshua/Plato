@@ -171,7 +171,10 @@
 ---
 ### 2. Online Algorithms and Competitive Analysis
 #### 2.1 Online Algorithms
-![[Competitive Online Algorithm#^9352d2]]
+![[Competitive Online Algorithm#^fd6402]]
+![[Competitive Online Algorithm#^66e9e4|q]]
+![[Competitive Online Algorithm#^a6c8ee|q]]
+![[Competitive Online Algorithm#^4690eb|q]]
 
 ---
 ##### 2.1.1 Ski Rental Problem
