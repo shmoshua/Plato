@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Spanner.md",
+                "file": "Graph Theory/Matching.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Streaming Algorithm.md",
+                "file": "Graph Theory/Matching.md",
                 "mode": "preview",
                 "source": true
               }
@@ -136,8 +136,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Spanner.md",
+                "file": "Graph Theory/Matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Spanner.md",
+                "file": "Graph Theory/Matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Spanner.md"
+                "file": "Graph Theory/Matching.md"
               }
             }
           }
@@ -267,11 +266,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87e38e5782f7e17d",
+  "active": "7267c601f2ef9d3c",
   "lastOpenFiles": [
-    "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Spanner.md",
+    "Graph Theory/Matching.md",
     "Algorithms/Streaming Algorithm.md",
+    "Graph Theory/Girth and Circumference.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Minimum Set Cover.md",
     "Graph Theory/Graph Coloring.md",
@@ -294,7 +294,6 @@
     "Algorithms/Paging.md",
     "Graph Theory/Sparsest Cut.md",
     "Algorithms/Knapsack.md",
-    "Algorithms/Multi-Commodity Routing.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
