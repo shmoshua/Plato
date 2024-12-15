@@ -94,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exam Practice.md",
+                "file": "Probability Theory/Variance.md",
                 "mode": "preview",
                 "source": true
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Spanner.md",
+                "file": "Probability Theory/Martingale.md",
                 "mode": "preview",
                 "source": true
               }
@@ -136,7 +136,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exam Practice.md",
+                "file": "Probability Theory/Martingale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exam Practice.md",
+                "file": "Probability Theory/Martingale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exam Practice.md"
+                "file": "Probability Theory/Martingale.md"
               }
             }
           }
@@ -266,11 +267,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7267c601f2ef9d3c",
+  "active": "87e38e5782f7e17d",
   "lastOpenFiles": [
+    "Graph Theory/Spanner.md",
+    "Probability Theory/Variance.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Courses/Advanced Algorithms/Exam Practice.md",
     "Graph Theory/Matching.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Graph Theory/Spanner.md",
     "Algorithms/Streaming Algorithm.md",
     "Graph Theory/Girth and Circumference.md",
     "Algorithms/Minimum Set Cover.md",
@@ -282,7 +286,6 @@
     "Algorithms/Competitive Online Algorithm.md",
     "Graph Theory/Minimum Spanning Tree.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
-    "Courses/Advanced Algorithms/Exam Practice.md",
     "Courses/Advanced Algorithms/Exercise 10.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/Minimum Makespan Scheduling.md",
@@ -292,8 +295,6 @@
     "Algorithms/Bin Packing.md",
     "Algorithms/MAX-SAT.md",
     "Algorithms/Paging.md",
-    "Graph Theory/Sparsest Cut.md",
-    "Algorithms/Knapsack.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
