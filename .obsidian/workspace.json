@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Secretary Problem.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Secretary Problem.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Secretary Problem.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Secretary Problem.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -254,21 +254,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bd3b30aa0c4bc63c",
+  "active": "47b7787f52562fc5",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Exam Practice.md",
-    "Algorithms/Secretary Problem.md",
+    "Graph Theory/Graph Coloring.md",
+    "Algorithms/Competitive Online Algorithm.md",
+    "Algorithms/Streaming Algorithm.md",
+    "Graph Theory/Minimum Spanning Tree.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
+    "Algorithms/Secretary Problem.md",
+    "Courses/Advanced Algorithms/Exam Practice.md",
     "Algorithms/Linear Programming.md",
     "Courses/Advanced Algorithms/Exercise 10.md",
-    "Graph Theory/Graph Coloring.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Metric Embedding.md",
     "Algorithms/Minimum Set Cover.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/Minimum Makespan Scheduling.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
-    "Graph Theory/Minimum Spanning Tree.md",
     "Graph Theory/Steiner Forest.md",
     "Graph Theory/Cut Sparsifier.md",
     "Graph Theory/Tree.md",
@@ -276,8 +278,6 @@
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Spanner.md",
     "Algorithms/MAX-SAT.md",
-    "Algorithms/Streaming Algorithm.md",
-    "Algorithms/Competitive Online Algorithm.md",
     "Algorithms/Paging.md",
     "Graph Theory/Sparsest Cut.md",
     "Algorithms/Knapsack.md",
