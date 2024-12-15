@@ -136,7 +136,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -202,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Graph Theory/Matching.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Graph Theory/Matching.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph Theory/Matching.md"
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md"
               }
             }
           }
@@ -266,10 +267,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7267c601f2ef9d3c",
+  "active": "4459d058f1f0a861",
   "lastOpenFiles": [
-    "Graph Theory/Spanner.md",
     "Graph Theory/Matching.md",
+    "Graph Theory/Spanner.md",
     "Algorithms/Streaming Algorithm.md",
     "Graph Theory/Girth and Circumference.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
