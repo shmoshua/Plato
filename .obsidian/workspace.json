@@ -107,7 +107,7 @@
               "type": "markdown",
               "state": {
                 "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -269,12 +269,13 @@
   },
   "active": "5ecadc3698fcd469",
   "lastOpenFiles": [
-    "Graph Theory/Girth and Circumference.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
+    "Combinatorics/Janson Inequality.md",
+    "Probability Theory/Variance.md",
+    "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Matching.md",
     "Probability Theory/Martingale.md",
     "Graph Theory/Spanner.md",
-    "Probability Theory/Variance.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Advanced Algorithms/Exam Practice.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
@@ -294,7 +295,6 @@
     "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Graph Theory/Cut Sparsifier.md",
     "Graph Theory/Tree.md",
-    "Algorithms/Bin Packing.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
