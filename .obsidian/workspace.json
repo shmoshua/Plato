@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Matching.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
                 "mode": "source",
                 "source": true
               }
@@ -106,8 +106,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Martingale.md",
-                "mode": "preview",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Combinatorics/Janson Inequality.md",
                 "mode": "preview",
                 "source": true
               }
@@ -137,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Combinatorics/Janson Inequality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Combinatorics/Janson Inequality.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability Theory/Martingale.md"
+                "file": "Combinatorics/Janson Inequality.md"
               }
             }
           }
@@ -267,16 +267,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87e38e5782f7e17d",
+  "active": "5ecadc3698fcd469",
   "lastOpenFiles": [
+    "Graph Theory/Girth and Circumference.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
+    "Graph Theory/Matching.md",
+    "Probability Theory/Martingale.md",
     "Graph Theory/Spanner.md",
     "Probability Theory/Variance.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Advanced Algorithms/Exam Practice.md",
-    "Graph Theory/Matching.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Streaming Algorithm.md",
-    "Graph Theory/Girth and Circumference.md",
     "Algorithms/Minimum Set Cover.md",
     "Graph Theory/Graph Coloring.md",
     "Algorithms/Linear Programming.md",
@@ -293,8 +295,6 @@
     "Graph Theory/Cut Sparsifier.md",
     "Graph Theory/Tree.md",
     "Algorithms/Bin Packing.md",
-    "Algorithms/MAX-SAT.md",
-    "Algorithms/Paging.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
