@@ -10,6 +10,7 @@
 ^420cea
 
 - **Related definition**: ***Homotopy type*** is an equivalence relation defined on topological spaces s.t. $X\sim Y$ if and only if there exists continuous $f:X\to Y$ and $g:Y\to X$ s.t. $f\circ g$ is homotopic to $\text{id}_{Y}$ and $g\circ f$ is homotopic to $\text{id}_{X}$. $f$ is called ***homotopy equivalence***. ^9863c7
+- **Related definition**: A homotopy $h$ from $f_{0}$ to $f_{1}$ is ***relative to*** $A\subseteq X$ if $h(a,t_{1})=h(a,t_{2})$ for all $t_{1},t_{2}\in [0,1]$ and $a\in A$. We write that $f_{0}\sim f_{1}(\mathrm{Re})$
 ---
 ##### Properties
 > [!lemma] Proposition 1
