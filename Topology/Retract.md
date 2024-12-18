@@ -1,8 +1,13 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $X$ be a [[Topological Space]]. A subspace $Y\subseteq X$ is called a ***retract*** of $X$, if there exists a continuous map $r:X\to Y$ s.t.
+> Let $X$ be a [[Topological Space|topological space]]. A subspace $Y\subseteq X$ is called a ***retract*** of $X$, if there exists a continuous map $r:X\to Y$, called a ***retraction***, s.t.
 > 1. $r(y)=y$ for all $y\in Y$, i.e. $r|_{Y}=\text{id}_{Y}$.
+
+^0da441
+
+- **Related definition**: A [[homotopy]] $h:X\times[0,1]\to X$ between $\text{id}_{X}$ and a retraction $r$ is called a ***deformation retraction*** and $X$ a ***deformation retract***. ^5cd052
+
 ---
 ##### Properties
 > [!lemma] Lemma 1

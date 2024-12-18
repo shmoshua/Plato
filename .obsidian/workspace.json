@@ -9,79 +9,31 @@
         "dimension": 46.499416569428234,
         "children": [
           {
-            "id": "b108f0cae2671ead",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Steiner Forest.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1f325e37b8ec4b81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Covering.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "16043519c4835b45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Sparsest Cut.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "889262e1de77b98a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Metric Embedding.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "bd3b30aa0c4bc63c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3a52de36f7a2cf47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Retract.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a09d0c0d964f8e36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -94,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "mode": "preview",
                 "source": true
               }
@@ -118,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Contractible Space.md",
                 "mode": "preview",
                 "source": true
               }
@@ -130,14 +82,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Topology/Retract.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Homotopy.md"
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md"
               }
             }
           }
@@ -267,14 +218,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4459d058f1f0a861",
+  "active": "7267c601f2ef9d3c",
   "lastOpenFiles": [
-    "Topology/Compact Space.md",
+    "Topology/Contractible Space.md",
+    "Topology/Homotopy.md",
+    "Topology/Retract.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Probability Theory/Variance.md",
     "Topology/Quotient Topology.md",
+    "Courses/Algebraic Topology I",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Metric Embedding.md",
+    "Graph Theory/Sparsest Cut.md",
+    "Graph Theory/Steiner Forest.md",
+    "Algorithms/Covering.md",
+    "Topology/Compact Space.md",
     "Combinatorics/Janson Inequality.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
-    "Probability Theory/Variance.md",
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Matching.md",
     "Probability Theory/Martingale.md",
@@ -286,15 +246,7 @@
     "Graph Theory/Graph Coloring.md",
     "Algorithms/Linear Programming.md",
     "Algorithms/Secretary Problem.md",
-    "Graph Theory/Metric Embedding.md",
-    "Graph Theory/Steiner Forest.md",
     "Algorithms/Competitive Online Algorithm.md",
-    "Graph Theory/Minimum Spanning Tree.md",
-    "Courses/Advanced Algorithms/Exercise 09.md",
-    "Courses/Advanced Algorithms/Exercise 10.md",
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
-    "Algorithms/Minimum Makespan Scheduling.md",
-    "Algorithms/Graph Algorithms/Tree Embedding.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
@@ -304,7 +256,6 @@
     "Untitled",
     "Courses/Probabilistic AI",
     "Courses/Information Theory",
-    "Information Theory",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
