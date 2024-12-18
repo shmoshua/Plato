@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "source",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combinatorics/Janson Inequality.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": true
               }
@@ -130,14 +130,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Topology/Homotopy.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Combinatorics/Janson Inequality.md",
+                "file": "Topology/Homotopy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Combinatorics/Janson Inequality.md",
+                "file": "Topology/Homotopy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +243,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Combinatorics/Janson Inequality.md"
+                "file": "Topology/Homotopy.md"
               }
             }
           }
@@ -267,10 +267,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5ecadc3698fcd469",
+  "active": "4459d058f1f0a861",
   "lastOpenFiles": [
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
+    "Topology/Compact Space.md",
+    "Topology/Quotient Topology.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Combinatorics/Janson Inequality.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Probability Theory/Variance.md",
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Matching.md",
@@ -278,7 +281,6 @@
     "Graph Theory/Spanner.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Advanced Algorithms/Exam Practice.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Algorithms/Streaming Algorithm.md",
     "Algorithms/Minimum Set Cover.md",
     "Graph Theory/Graph Coloring.md",
@@ -293,8 +295,6 @@
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/Minimum Makespan Scheduling.md",
     "Algorithms/Graph Algorithms/Tree Embedding.md",
-    "Graph Theory/Cut Sparsifier.md",
-    "Graph Theory/Tree.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
