@@ -33,6 +33,15 @@
 ##### 1.1.3 Retract
 ![[Retract#^0da441]]
 ![[Retract#^5cd052|q]]
+![[Retract#^735e3a|q]]
+
+---
+![[Retract#^5d4435]]
+![[Retract#^0fd510]]
+
+---
+![[Retract#^d770ca]]
+![[Retract#^b65047|p]]
 
 ---
 
