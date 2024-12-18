@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+                "file": "Topology/Retract.md",
                 "mode": "source",
                 "source": true
               }
@@ -43,9 +43,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "2189578df4e1b7e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Homotopy Group.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -82,7 +94,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Topology/Algebraic Topology/Homotopy Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -94,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Retract.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": true
               }
@@ -167,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Topology/Algebraic Topology/Homotopy Group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Topology/Algebraic Topology/Homotopy Group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Homotopy.md"
+                "file": "Topology/Algebraic Topology/Homotopy Group.md"
               }
             }
           }
@@ -231,13 +243,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "db5703fcdba1faaa",
+  "active": "5ecadc3698fcd469",
   "lastOpenFiles": [
     "Topology/Homotopy.md",
+    "Topology/Algebraic Topology/Homotopy Group.md",
+    "Topology/Fundamental Group.md",
+    "Topology/Algebraic Topology",
+    "Topology/Retract.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Contractible Space.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/Retract.md",
     "Probability Theory/Variance.md",
     "Topology/Quotient Topology.md",
     "Courses/Algebraic Topology I",
@@ -258,15 +273,12 @@
     "Algorithms/Minimum Set Cover.md",
     "Graph Theory/Graph Coloring.md",
     "Algorithms/Linear Programming.md",
-    "Algorithms/Secretary Problem.md",
-    "Algorithms/Competitive Online Algorithm.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
-    "Untitled",
     "Courses/Probabilistic AI",
     "Courses/Information Theory",
     "Courses/Algebra I/ARVST.jpeg"

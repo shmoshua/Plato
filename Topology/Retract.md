@@ -7,7 +7,7 @@
 ^0da441
 
 - **Related definition**: A [[homotopy]] $h:X\times[0,1]\to X$ between $\text{id}_{X}$ and a retraction $r$ is called a ***deformation retraction*** and $Y$ a ***deformation retract***. ^5cd052
-- **Related definition**: A deformation retraction $h$ is ***strong*** if for all $t\in[0,1]$. $h(\cdot,t)|_{Y}=\text{id}_{Y}$. Then, $Y$ is called a ***strong deformation retract***. ^735e3a
+- **Related definition**: A deformation retraction $h$ is ***strong*** if for all $t\in[0,1]$. $h(\cdot,t)|_{Y}=\text{id}_{Y}$. Then, $Y$ is called a ***strong deformation retract***. In other words, $\text{id}_{X}\sim_{\text{rel }A}r$. ^735e3a
 
 ---
 ##### Properties

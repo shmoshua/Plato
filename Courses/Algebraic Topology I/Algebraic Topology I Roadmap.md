@@ -5,6 +5,7 @@
 ##### 1.1.1 Homotopy
 ![[Homotopy#^420cea]]
 ![[Homotopy#^9863c7|q]]
+![[Homotopy#^5a32f2|q]]
 
 ---
 ![[Homotopy#^b0fd45]]
@@ -37,12 +38,13 @@
 
 ---
 ![[Retract#^5d4435]]
-![[Retract#^0fd510]]
+![[Retract#^0fd510|p]]
 
 ---
 ![[Retract#^d770ca]]
 ![[Retract#^b65047|p]]
 
 ---
+##### 1.1.4 Homotopy Relative to a Subspace
 
 

@@ -10,7 +10,9 @@
 ^420cea
 
 - **Related definition**: ***Homotopy type*** is an equivalence relation defined on topological spaces s.t. $X\sim Y$ if and only if there exists continuous $f:X\to Y$ and $g:Y\to X$ s.t. $f\circ g$ is homotopic to $\text{id}_{Y}$ and $g\circ f$ is homotopic to $\text{id}_{X}$. $f$ is called ***homotopy equivalence***. ^9863c7
-- **Related definition**: A homotopy $h$ from $f_{0}$ to $f_{1}$ is ***relative to*** $A\subseteq X$ if $h(a,t_{1})=h(a,t_{2})$ for all $t_{1},t_{2}\in [0,1]$ and $a\in A$. We write that $f_{0}\sim f_{1}(\mathrm{Re})$
+- **Related definition**: A homotopy $h$ from $f_{0}$ to $f_{1}$ is ***relative to*** $A\subseteq X$ if $h(a,t_{1})=h(a,t_{2})$ for all $t_{1},t_{2}\in [0,1]$ and $a\in A$. We write that $f_{0}\sim f_{1}\quad(\text{rel }A)$. Further, it holds that $f_{0}|_{A}=f_{1}|_{A}$. ^5a32f2
+- **Related definition**: For two homotopies $h_{1},h_{2}:X\times[0,1]\to Y$, s.t. $h_{1}(\cdot,1)=h_{2}(\cdot,0)$, the ***concatenation*** is another homotopy $h:X\times[0,1]\to Y$, given as: $$h(x,t)=\begin{cases}h_{1}(x,2t)&0\leq t<1/2\\h_{2}(x,2t-1)&1 / 2\leq t\leq 1\end{cases}$$
+- **Related definition**: For topological spaces $X,Y$, $[X,Y]$ denotes the set of homotopy classes of map $X\to Y$. Similarly, $[(X,A),(Y,B)]$ for homotopy classes of map $X\to Y$ with $A$ landing in $B$. 
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -50,6 +52,14 @@
 
 > [!proof]-
 > Let $X$ have the same homotopy type as $\{ x_{0} \}$, then $X$ is contractible by Example 2 and there exists a constant map $f:X\to X$ s.t. $f\sim \text{id}_{X}$. Then, for any continuous $\varphi:Y\to X$, $\varphi=\text{id}_{X}\circ\varphi \sim f\circ\varphi$ which is a constant map. Similarly, for any continuous $\varphi:X\to Y$, $\varphi=\varphi \circ\text{id}_{X}\sim\varphi \circ f$, which is a constant map.
+---
+> [!lemma] Proposition 4 (Reparametrization)
+> Let $I:=[0,1]$ and $\phi_{1},\phi_{2}:(I,\partial I)\to(I,\partial I)$ be continuous maps s.t. $\phi_{1}|_{\partial I}=\phi_{2}|_{\partial I}$. Then, for a homotopy $h:X\times I\to Y$ and $h_{i}:X\times I\to Y,(x,t)\mapsto f(x,\phi_{i}(t))$, we have that:
+> 1. $h_{1}\sim_{\text{rel }X\times \partial I} h_{2}$
+
+> [!proof]-
+> Let $H:(X\times I)\times I\to Y$ given as: $$H(x,t,s)=h(x,s\phi_{2}(t)+(1-s)\phi_{1}(t))$$Then, of course $H$ is a homotopy and we have that for any $x\in X$, $t\in \{ 0,1 \}$ and $s_{1},s_{2}\in I$, we have that: $$H(x,t,s_{1})=h(x,s_{1}\phi_{2}(t)+(1-s_{1})\phi_{1}(t))=h(x,\phi_{1}(t))=H(x,t,s_{2})$$
+- **Corollary**: for any homotopy $h:X\times I\to Y$ from $f_{0}$ to $f_{1}$, $h*\text{const}(f_{1})\sim_{\text{rel }X\times \partial I}h$ and $\text{const}(f_{0})*h\sim_{\text{rel }X\times \partial I}h$.
 ---
 ##### Examples
 > [!h] Example 1
