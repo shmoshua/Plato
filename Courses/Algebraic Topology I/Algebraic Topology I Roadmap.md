@@ -45,6 +45,22 @@
 ![[Retract#^b65047|p]]
 
 ---
-##### 1.1.4 Homotopy Relative to a Subspace
+##### 1.1.4 Homotopy Groups
 
+![[Fundamental Group#^de36cd]]
 
+---
+![[Homotopy Group#^0f2b58]]
+![[Homotopy Group#^405010|q]]
+![[Homotopy Group#^fab5de|q]]
+![[Homotopy Group#^bef566|q]]
+
+---
+![[Homotopy Group#^8bcc93]]
+![[Homotopy Group#^f5a464|p]]
+
+---
+![[Homotopy Group#^6de056]]
+
+---
+### 2. Homology Theory

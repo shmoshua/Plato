@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Retract.md",
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "4d5ec56e57395c88",
@@ -106,14 +105,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topology/Algebraic Topology/Homotopy Group.md",
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topology/Algebraic Topology/Homotopy Group.md",
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topology/Algebraic Topology/Homotopy Group.md"
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md"
               }
             }
           }
@@ -243,17 +241,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5ecadc3698fcd469",
+  "active": "7267c601f2ef9d3c",
   "lastOpenFiles": [
-    "Topology/Homotopy.md",
-    "Topology/Fundamental Group.md",
-    "Topology/Algebraic Topology/Homotopy Group.md",
-    "Topology/Algebraic Topology",
-    "Topology/Retract.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/Contractible Space.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Probability Theory/Variance.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Retract.md",
+    "Topology/Algebraic Topology/Homotopy Group.md",
+    "Topology/Fundamental Group.md",
+    "Topology/Contractible Space.md",
+    "Topology/Homotopy.md",
+    "Topology/Algebraic Topology",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Topology/Quotient Topology.md",
     "Courses/Algebraic Topology I",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
