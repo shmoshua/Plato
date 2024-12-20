@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "mode": "preview",
                 "source": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homotopy Group.md",
+                "file": "Algebra/Direct Sum.md",
                 "mode": "preview",
                 "source": true
               }
@@ -111,7 +111,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md"
+                "file": "Topology/Algebraic Topology/p-Simplex.md"
               }
             }
           }
@@ -241,17 +242,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7267c601f2ef9d3c",
+  "active": "87e38e5782f7e17d",
   "lastOpenFiles": [
-    "Probability Theory/Variance.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/Retract.md",
+    "Algebra/Direct Sum.md",
     "Topology/Algebraic Topology/Homotopy Group.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Probability Theory/Variance.md",
+    "Topology/Retract.md",
     "Topology/Fundamental Group.md",
     "Topology/Contractible Space.md",
     "Topology/Homotopy.md",
     "Topology/Algebraic Topology",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Topology/Quotient Topology.md",
     "Courses/Algebraic Topology I",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
@@ -269,8 +272,6 @@
     "Courses/Advanced Algorithms/Exam Practice.md",
     "Algorithms/Streaming Algorithm.md",
     "Algorithms/Minimum Set Cover.md",
-    "Graph Theory/Graph Coloring.md",
-    "Algorithms/Linear Programming.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
