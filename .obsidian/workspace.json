@@ -50,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homotopy Group.md",
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "mode": "source",
                 "source": true
               }
@@ -242,13 +242,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87e38e5782f7e17d",
+  "active": "3a52de36f7a2cf47",
   "lastOpenFiles": [
-    "Algebra/Direct Sum.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Homotopy Group.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Algebra/Direct Sum.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Probability Theory/Variance.md",
     "Topology/Retract.md",
     "Topology/Fundamental Group.md",

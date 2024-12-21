@@ -64,3 +64,17 @@
 
 ---
 ### 2. Homology Theory
+![[p-Simplex#^702d30]]
+![[p-Simplex#^a6188b|q]]
+![[p-Simplex#^2c4bf0|q]]
+![[p-Simplex#^ff8cc1|q]]
+
+---
+![[p-Simplex#^f65700]]
+![[p-Simplex#^21d685|p]]
+
+---
+![[p-Simplex#^71f3bb]]
+![[p-Simplex#^bbbdc3|p]]
+
+---
