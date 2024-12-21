@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Algebra/Group Homomorphism.md",
                 "mode": "preview",
                 "source": true
               }
@@ -242,16 +242,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3a52de36f7a2cf47",
+  "active": "87e38e5782f7e17d",
   "lastOpenFiles": [
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/Algebraic Topology/Homotopy Group.md",
+    "Algebra/Group Homomorphism.md",
+    "Topology/Fundamental Group.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Homotopy Group.md",
     "Algebra/Direct Sum.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Probability Theory/Variance.md",
     "Topology/Retract.md",
-    "Topology/Fundamental Group.md",
     "Topology/Contractible Space.md",
     "Topology/Homotopy.md",
     "Topology/Algebraic Topology",
@@ -271,7 +272,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Advanced Algorithms/Exam Practice.md",
     "Algorithms/Streaming Algorithm.md",
-    "Algorithms/Minimum Set Cover.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",

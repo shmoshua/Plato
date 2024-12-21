@@ -48,23 +48,33 @@
 
 ^71f3bb
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. it suffices to show that $\partial_{p}(\partial_{p+1}(\sigma))=0$ for all singular $(p+1)$-simplex $\sigma$. We have that: $$\begin{align}\partial_{p}(\partial_{p+1}(\sigma))&=\partial_{p}\left( \sum_{j=0}^{p+1}(-1)^j \sigma \circ F^{p+1}_{j}\right) =\sum_{j=0}^{p+1}(-1)^j\sum_{i=0}^{p}(-1)^i\sigma \circ F^{p+1}_{j}\circ F^p_{i}\\&=\sum_{0\leq i < j\leq p+1}^{}(-1)^{i+j}\sigma \circ F^{p+1}_{j}\circ F^p_{i}+\sum_{0\leq j\leq i\leq p}^{}(-1)^{i+j}\sigma \circ \underbrace{ F^{p+1}_{j}\circ F^p_{i} }_{ =F_{i+1}^{p+1}\circ F_{j}^p }\\&=\sum_{0\leq i < j\leq p+1}^{}(-1)^{i+j}\sigma \circ F^{p+1}_{j}\circ F^p_{i}+\sum_{0\leq j< i'\leq p+1}^{}(-1)^{i'+j-1}\sigma \circ F_{i'}^{p+1}\circ F_{j}^p\\&=0\end{align}$$
-> 2. Let $\sigma$ be a singular $p$-simplex in $X$. Then, $$f_{c}(\partial_{p}(\sigma))=f_{c}\left( \sum_{i=0}^{p}(-1)^i\sigma \circ F^p_{i} \right) =\sum_{i=0}^{p}(-1)^if\circ \sigma \circ F_{i}^p=\partial_{p}(f\circ \sigma)=\partial_{p}(f_{c}(\sigma))$$
+
 
 ^bbbdc3
 
 ---
 > [!lemma] Theorem 3 (Functoriality)
-> Let $f:X\to Y$ be continuous. Then,
+> Let $f:X\to Y$ and $g:Y\to Z$ be continuous. Then,
 >  1. $f_{c}\circ \partial_{p}=\partial_{p}\circ f_{c}$.
 >  2. $f_{c}(Z_{p}(X))\subseteq Z_{p}(Y)$.
 >  3. $f_{c}(B_{p}(X))\subseteq B_{p}(Y)$.
 >  4. $f_{*}:H_{p}(X)\to H_{p}(Y),[a]\mapsto [f_{c}(a)]$ is a group homomorphism.
+>  5. $(g\circ f)_{*}=g_{*}\circ f_{*}$
+>  6. $\text{id}_{*}=\text{id}_{H_{p}(X)}$
+>  7. if $f$ is a homeomorphism, then $f_{*}$ is a group isomorphism.
 
 > [!proof]+
-> 
+> We have:
+> 1. Let $\sigma$ be a singular $p$-simplex in $X$. Then, $$f_{c}(\partial_{p}(\sigma))=f_{c}\left( \sum_{i=0}^{p}(-1)^i\sigma \circ F^p_{i} \right) =\sum_{i=0}^{p}(-1)^if\circ \sigma \circ F_{i}^p=\partial_{p}(f\circ \sigma)=\partial_{p}(f_{c}(\sigma))$$
+> 2. If $a\in Z_{p}(X)$, then $\partial_{p}(f_{c}(a))=f_{c}(\partial_{p}a)=f_c(0)=0$. Hence, $f_{c}(a)\in Z_{p}(Y)$.
+> 3. If $a\in B_{p}(X)$, then there exists $a'\in S_{p+1}(X)$ with $\partial_{p+1}(a')=a$. Hence,$$\partial_{p+1}(f_{c}(a'))=f_{c}(\partial_{p+1}(a'))=f_{c}(a)$$ Hence, $f_{c}(a)\in B_{p}(Y)$.
+> 4. We have that $f_{*}$ is well-defined. Indeed, if $a,a'\in Z_{p}(X)$ with $[a]=[a']$, then, $a-a'\in B_{p}(X)$ and $f_{c}(a)-f_{c}(a')\in B_{p}(Y)$ by 3. Further, $$f_{*}([a]+[b])=f_{*}([a+b])=[f_{c}(a+b)]=[f_{c}(a)]+[f_{c}(b)]$$
+> 5. Let $a\in Z_{p}(X)$. Then, $$ (g\circ f)_{*}([a])=[(g\circ f)_{c}(a)]=[g\circ f\circ a]=g_{*}([f\circ a])=g_{*}(f_{*}([a]))$$
+> 6. Similarly, $\text{id}_{*}([a])=[a]$.
+> 7. Follows from 4,5,6 and the fact that $f\circ f^{-1}=\text{id}_{Y}$ and $f^{-1}\circ f=\text{id}_{X}$. 
 ---
 ##### Examples
 > [!h] Example 1
@@ -77,3 +87,11 @@
 > Fix $p=0$. We have that the only singular $p$-simplex $\sigma_{p}:\Delta_{p}\to X$ is given by the constant map. Therefore, $S_{p}(X)\cong \mathbb{Z}$ for all $p\geq 0$. 
 > 
 > Further, $\partial_{p}(\sigma_{p})$ is an alternating sum of $(p+1)$ summands of which is up to $\sigma_{p-1}$. Hence, $$\partial_{p}(\sigma_{p})=\begin{cases}0&p>0\text{ odd}\\\pm\sigma_{p-1}&p>0\text{ even}\\0&p\leq 0\end{cases}$$Hence, $\partial_{p}$ is an isomorphism if and only if $p>0$ and even. The rest then follows.
+
+---
+> [!h] Example 2 
+> If $X\neq \varnothing$ and $X$ is [[Path-Connected Space|path-connected]], then:
+> 1. $H_{0}(X)=\mathbb{Z}[x]\cong \mathbb{Z}$ for any $x\in X$.
+
+> [!proof]+
+> Consider $\sigma$
