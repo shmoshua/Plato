@@ -76,6 +76,12 @@
 > 6. Similarly, $\text{id}_{*}([a])=[a]$.
 > 7. Follows from 4,5,6 and the fact that $f\circ f^{-1}=\text{id}_{Y}$ and $f^{-1}\circ f=\text{id}_{X}$. 
 ---
+> [!lemma] Theorem 4
+> Let $X\neq \varnothing$ and $X=\bigsqcup_{\alpha}^{}X_{\alpha}$ are the path-connected components of $X$. Then, for all $p\in \mathbb{Z}$, $$H_{p}(X)\cong \bigoplus_{\alpha}H_{p}(X_{\alpha}) $$
+
+> [!proof]-
+> As a singular simplex $\sigma:\Delta_{p}\to X$ always has a path-connected image, we have that $S_{n}(X):=\bigoplus_{\alpha}S_{n}(X_{\alpha})$, which is also preserved by $\partial$. Hence, the homology groups also split. 
+---
 ##### Examples
 > [!h] Example 1
 > For a point space $X=\{ x_{0} \}$, 
@@ -93,5 +99,13 @@
 > If $X\neq \varnothing$ and $X$ is [[Path-Connected Space|path-connected]], then:
 > 1. $H_{0}(X)=\mathbb{Z}[x]\cong \mathbb{Z}$ for any $x\in X$.
 
-> [!proof]+
-> Consider $\sigma$
+> [!proof]-
+> Consider a singular $0$-simplex $\sigma$ in $X$. Then, as $\Delta_{0}$ is a point, we have that $S_{0}(X)$ is a set of finite formal sum of points in $X$. 
+> 
+> Let $\varepsilon:S_{0}(X)\to \mathbb{Z},\sum_{x}^{}n_{x}x\mapsto \sum_{x}^{}n_{x}$. Then, notice that $\varepsilon$ is a homomorphism. 
+> 
+> Let $\sigma:\Delta_{1}\to X$ now be a singular $1$-simplex in $X$. Then, for $x_{0}:=\sigma(e_{0})$ and $x_{1}:=\sigma(e_{1})$, we have that: $$\partial_{1}\sigma=\sigma(e_{1})-\sigma(e_{0})=x_{1}-x_{0}$$and $\varepsilon \partial_{1}(\sigma)=1-1=0$. Hence, $\varepsilon(\partial_{1}d)=0$ for all $d\in S_{1}(X)$ and $\varepsilon(B_{0}(X))=0$. Therefore, we have that: $$\varepsilon_{*}:H_{0}(X)\to \mathbb{Z}$$induces a homomorphism. 
+> 
+> Now, clearly we have $\varepsilon_{*}([y])=1$ for all $y\in X$ and $\varepsilon_{*}$ is surjective. To show that $\varepsilon_{*}$ is also injective, let $x_{0}\in X$ and for all $x\in X$ let $\lambda_{x}:I\to X$ be a path from $\lambda_{x}(0)=x_{0}$ and $\lambda_{x}(1)=x$. By viewing these paths as singular $1$-simplices, we have that: $$\partial_{1}\lambda_{x}=x-x_{0}\in S_{0}(X)$$Let $c\in S_{0}(X)$ with $c=\sum_{x}n_{x}x$ be a $0$-chain and assume that $\varepsilon_{*}([c])=0$. Then, for $d:=\sum_{x}^{}n_{x}\lambda_{x}\in S_{1}(X)$, we have that: $$\partial_{1}d=\sum_{x}n_{x}(x-x_{0})=\sum_{x}n_{x}x-\varepsilon_{*}([c])x_{0}=c$$Hence, $c\in B_{0}(X)$ and $\varepsilon_{*}([c])=0$. 
+
+---
