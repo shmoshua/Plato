@@ -53,3 +53,15 @@
 
 ^bbbdc3
 
+---
+##### Examples
+> [!h] Example 1
+> For a point space $X=\{ x_{0} \}$, 
+> 1. $Z_{p}(X)=\begin{cases}\mathbb{Z}\sigma_{p}&p>0\text{ odd}\\0&p>0\text{ even}\\\mathbb{Z}\sigma_{p}&p=0\\0&p<0\end{cases}$
+> 2. $B_{p}(X)=\begin{cases}\mathbb{Z}\sigma_{p}&p>0\text{ odd}\\0&p>0\text{ even}\\0&p\leq0\end{cases}$
+> 3. $H_{p}(X)\cong\begin{cases}\mathbb{Z}&p=0\\0&\text{otherwise}\end{cases}$
+
+> [!proof]-
+> Fix $p=0$. We have that the only singular $p$-simplex $\sigma_{p}:\Delta_{p}\to X$ is given by the constant map. Therefore, $S_{p}(X)\cong \mathbb{Z}$ for all $p\geq 0$. 
+> 
+> Further, $\partial_{p}(\sigma_{p})$ is an alternating sum of $(p+1)$ summands of which is up to $\sigma_{p-1}$. Hence, $$\partial_{p}(\sigma_{p})=\begin{cases}0&p>0\text{ odd}\\\pm\sigma_{p-1}&p>0\text{ even}\\0&p\leq 0\end{cases}$$Hence, $\partial_{p}$ is an isomorphism if and only if $p>0$ and even. The rest then follows.
