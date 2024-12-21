@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Direct Sum.md",
+                "file": "Algebra/Commutator Subgroup.md",
                 "mode": "preview",
                 "source": true
               }
@@ -244,12 +244,13 @@
   },
   "active": "87e38e5782f7e17d",
   "lastOpenFiles": [
-    "Algebra/Group Homomorphism.md",
+    "Algebra/Commutator Subgroup.md",
+    "Algebra/Direct Sum.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Algebra/Group Homomorphism.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Fundamental Group.md",
     "Topology/Algebraic Topology/Homotopy Group.md",
-    "Algebra/Direct Sum.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Probability Theory/Variance.md",
     "Topology/Retract.md",
@@ -271,7 +272,6 @@
     "Graph Theory/Spanner.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Advanced Algorithms/Exam Practice.md",
-    "Algorithms/Streaming Algorithm.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",

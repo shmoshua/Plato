@@ -82,6 +82,10 @@
 > [!proof]-
 > As a singular simplex $\sigma:\Delta_{p}\to X$ always has a path-connected image, we have that $S_{n}(X):=\bigoplus_{\alpha}S_{n}(X_{\alpha})$, which is also preserved by $\partial$. Hence, the homology groups also split. 
 ---
+> [!lemma] Theorem 5 (Hurewicz)
+> Let $X\neq \varnothing$ be a path connected. Let $G:=\pi_{1}(X)$ be its [[fundamental group]]. Then, 
+> 1. $H_{1}(X)\cong G / [G,G]$ where $[G,G]$ is the [[commutator subgroup]].
+---
 ##### Examples
 > [!h] Example 1
 > For a point space $X=\{ x_{0} \}$, 
