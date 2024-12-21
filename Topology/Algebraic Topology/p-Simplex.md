@@ -12,6 +12,7 @@
 	3. the ***$i$-th face map of a singular $p$-simplex*** $\sigma$, is $\sigma^{(i)}:=\sigma \circ F_{i}^p:\Delta_{p-1}\to X$
 	4. the ***boundary of a singular $p$-simplex*** $\sigma$, $$\partial_{p}\sigma:=\sum_{i=0}^{p}(-1)^i\sigma^{(i)}$$
 	5. the ***boundary operator*** is then given by linearly extending the boundary for simplices: $\partial_{p}:S_{p}(X)\to S_{p-1}(X)$.
+	6. for a continuous map $f:X\to Y$, $f_{c}:S_{p}(X)\to S_{p}(Y)$ is a homomorphism defined as: $f_{c}\left( \sum_{\sigma}^{}n_{\sigma}\cdot\sigma \right)=\sum_{\sigma}^{}n_{\sigma}(f\circ\sigma)$.
 - **Related definition**: For all $p<0$, we define $S_{p}(X):= 0$. For all $p\leq 0$, we define $\partial_{p}:=0$. ^2c4bf0
 - **Related definition**: We denote that: ^ff8cc1
 	1. $Z_{p}(X):=\text{ker }\partial_{p}\leq S_{p}(X)$ is the **$p$-cycles**.
@@ -47,12 +48,23 @@
 
 ^71f3bb
 
-> [!proof]-
+> [!proof]+
 > We have that:
 > 1. it suffices to show that $\partial_{p}(\partial_{p+1}(\sigma))=0$ for all singular $(p+1)$-simplex $\sigma$. We have that: $$\begin{align}\partial_{p}(\partial_{p+1}(\sigma))&=\partial_{p}\left( \sum_{j=0}^{p+1}(-1)^j \sigma \circ F^{p+1}_{j}\right) =\sum_{j=0}^{p+1}(-1)^j\sum_{i=0}^{p}(-1)^i\sigma \circ F^{p+1}_{j}\circ F^p_{i}\\&=\sum_{0\leq i < j\leq p+1}^{}(-1)^{i+j}\sigma \circ F^{p+1}_{j}\circ F^p_{i}+\sum_{0\leq j\leq i\leq p}^{}(-1)^{i+j}\sigma \circ \underbrace{ F^{p+1}_{j}\circ F^p_{i} }_{ =F_{i+1}^{p+1}\circ F_{j}^p }\\&=\sum_{0\leq i < j\leq p+1}^{}(-1)^{i+j}\sigma \circ F^{p+1}_{j}\circ F^p_{i}+\sum_{0\leq j< i'\leq p+1}^{}(-1)^{i'+j-1}\sigma \circ F_{i'}^{p+1}\circ F_{j}^p\\&=0\end{align}$$
+> 2. Let $\sigma$ be a singular $p$-simplex in $X$. Then, $$f_{c}(\partial_{p}(\sigma))=f_{c}\left( \sum_{i=0}^{p}(-1)^i\sigma \circ F^p_{i} \right) =\sum_{i=0}^{p}(-1)^if\circ \sigma \circ F_{i}^p=\partial_{p}(f\circ \sigma)=\partial_{p}(f_{c}(\sigma))$$
 
 ^bbbdc3
 
+---
+> [!lemma] Theorem 3 (Functoriality)
+> Let $f:X\to Y$ be continuous. Then,
+>  1. $f_{c}\circ \partial_{p}=\partial_{p}\circ f_{c}$.
+>  2. $f_{c}(Z_{p}(X))\subseteq Z_{p}(Y)$.
+>  3. $f_{c}(B_{p}(X))\subseteq B_{p}(Y)$.
+>  4. $f_{*}:H_{p}(X)\to H_{p}(Y),[a]\mapsto [f_{c}(a)]$ is a group homomorphism.
+
+> [!proof]+
+> 
 ---
 ##### Examples
 > [!h] Example 1
