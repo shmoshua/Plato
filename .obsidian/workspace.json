@@ -100,18 +100,6 @@
             }
           },
           {
-            "id": "50babc18e3e86757",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
-          },
-          {
             "id": "5ecadc3698fcd469",
             "type": "leaf",
             "state": {
@@ -140,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -284,7 +272,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "50babc18e3e86757",
+  "active": "87e38e5782f7e17d",
   "lastOpenFiles": [
     "Algebra/Commutator Subgroup.md",
     "Algebra/Direct Sum.md",
