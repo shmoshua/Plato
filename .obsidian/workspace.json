@@ -17,7 +17,9 @@
                 "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "p-Simplex"
             }
           },
           {
@@ -29,7 +31,9 @@
                 "file": "Topology/Retract.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Retract"
             }
           },
           {
@@ -41,7 +45,9 @@
                 "file": "Topology/Homotopy.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Homotopy"
             }
           },
           {
@@ -53,7 +59,9 @@
                 "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Algebraic Topology I Roadmap"
             }
           }
         ]
@@ -72,7 +80,9 @@
                 "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Algebraic Topology I Roadmap"
             }
           },
           {
@@ -84,7 +94,21 @@
                 "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "p-Simplex"
+            }
+          },
+          {
+            "id": "50babc18e3e86757",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           },
           {
@@ -96,7 +120,9 @@
                 "file": "Algebra/Commutator Subgroup.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Commutator Subgroup"
             }
           },
           {
@@ -108,11 +134,13 @@
                 "file": "Algebra/Group Homomorphism.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Group Homomorphism"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +160,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -147,7 +177,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -155,7 +187,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -186,7 +220,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for p-Simplex"
             }
           },
           {
@@ -198,7 +234,9 @@
                 "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from p-Simplex"
             }
           },
           {
@@ -209,7 +247,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -219,7 +259,9 @@
               "type": "outline",
               "state": {
                 "file": "Topology/Algebraic Topology/p-Simplex.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of p-Simplex"
             }
           }
         ]
@@ -242,7 +284,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87e38e5782f7e17d",
+  "active": "50babc18e3e86757",
   "lastOpenFiles": [
     "Algebra/Commutator Subgroup.md",
     "Algebra/Direct Sum.md",
