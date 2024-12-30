@@ -91,3 +91,33 @@
 >\end{tikzpicture}
 >\end{document} 
 >```
+
+```tikz
+>    \usepackage{tikz}
+>    \usetikzlibrary{decorations.markings}
+>    \newcommand{\midarrow}{\tikz \draw[-triangle 90] (0,0) -- +(.1,0);}
+>    \begin{document}
+>    \begin{tikzpicture}
+>    \begin{scope}[very thick,decoration={markings,mark=at position 0.55 with {\arrow{>}}}] 
+>    \draw[postaction={decorate}] (0,-1)--(1.73,0);
+>    \draw[postaction={decorate}] (1.73,0)--(0,1);
+>    \draw[postaction={decorate}] (0,-1)--(0,1);
+>    \end{scope}
+>    
+>    \tikzset{edge/.style = {->,> = latex'}}
+>    \path[draw, ultra thick] (0,1) node[anchor=east]{$e_{2}$}
+>    --node[left]{$f*g$} (0,-1)  node[anchor=east] {$e_{0}$}
+>    --node[below right]{$f$} (1.73,0) node[anchor=west]{$e_{1}$}
+>    --node[above right]{$g$} cycle;
+>    \path[clip] (0,1) -- (0,-1) -- (1.73,0) -- cycle; 
+>    \foreach \y in{-1,-0.9,...,1}
+> 	   \draw (0,\y) -- (10,\y);
+>    
+>    \node (a) at  (0,1) {};
+>    \node (b) at  (0,-1) {};
+>    \node (c) at  (1.73,0) {};
+>    
+>    
+>    \end{tikzpicture}
+>    \end{document} 
+>    ```

@@ -85,6 +85,43 @@
 > [!lemma] Theorem 5 (Hurewicz)
 > Let $X\neq \varnothing$ be a path connected. Let $G:=\pi_{1}(X)$ be its [[fundamental group]]. Then, 
 > 1. $H_{1}(X)\cong G / [G,G]$ where $[G,G]$ is the [[commutator subgroup]].
+
+> [!proof]+
+> We have that:
+> 1. **Lemma 1**: Let $f,g:I\to X$ be two paths with $f(1)=g(0)$. Then, $c:=f*g-f-g\in S_{1}(X)$ is a boundary. 
+>    
+>    We first define a singular $2$-simplex $\sigma:\Delta_{2}\to X$ as follows: 
+>    ```tikz
+>    \usepackage{tikz}
+>    \usetikzlibrary{decorations.markings}
+>    \newcommand{\midarrow}{\tikz \draw[-triangle 90] (0,0) -- +(.1,0);}
+>    \begin{document}
+>    \begin{tikzpicture}
+>    \begin{scope}[very thick,decoration={markings,mark=at position 0.55 with {\arrow{>}}}] 
+>    \draw[postaction={decorate}] (0,-1)--(1.73,0);
+>    \draw[postaction={decorate}] (1.73,0)--(0,1);
+>    \draw[postaction={decorate}] (0,-1)--(0,1);
+>    \end{scope}
+>    
+>    \tikzset{edge/.style = {->,> = latex'}}
+>    \path[draw, ultra thick] (0,1) node[anchor=east]{$e_{2}$}
+>    --node[left]{$f*g$} (0,-1)  node[anchor=east] {$e_{0}$}
+>    --node[below right]{$f$} (1.73,0) node[anchor=west]{$e_{1}$}
+>    --node[above right]{$g$} cycle;
+>    \path[clip] (0,1) -- (0,-1) -- (1.73,0) -- cycle; 
+>    \foreach \y in{-1,-0.9,...,1}
+> 	   \draw (0,\y) -- (10,\y);
+>    
+>    \node (a) at  (0,1) {};
+>    \node (b) at  (0,-1) {};
+>    \node (c) at  (1.73,0) {};
+>    
+>    
+>    \end{tikzpicture}
+>    \end{document} 
+>    ```
+>    
+>    where on every horizontal line in the triangle, $\sigma$ is constant. 
 ---
 ##### Examples
 > [!h] Example 1 (Point Space)
@@ -115,11 +152,15 @@
 ---
 > [!h] Example 3 
 > We have that: 
-> 1. $H_{1}(S^n)=\begin{cases}\mathbb{Z}&n=1\\0&n\geq 2\end{cases}$
-> 2. $H_{1}(\mathbb{T}^n)=\bigoplus_{i=1}^n \mathbb{Z}$
-> 3. $$
+> 1. $H_{1}(S^n)\cong\begin{cases}\mathbb{Z}&n=1\\0&n\geq 2\end{cases}$
+> 2. $H_{1}(\mathbb{T}^n)\cong\bigoplus_{i=1}^n \mathbb{Z}$
+> 3. $H_{1}(\mathbb{R}\mathbb{P}^n)\cong \mathbb{Z} / 2\mathbb{Z}$ for $n\geq 2$.
+> 4. $H_{1}(X)\cong \mathbb{Z}\oplus\dots \oplus \mathbb{Z}$ ($n$ times) where $X$ is a bouquet of $n$-circles.
 
-> [!proof]+
+> [!proof]-
 > From Hurewicz, we have that:
 > 1. As $\pi_{1}(S^n)=\begin{cases}\mathbb{Z}&n=1\\0&n\geq 2\end{cases}$ and both are comnmutative, $H_{1}(S^n)\cong \pi_{1}(S^n)$.
 > 2. As $\mathbb{T}^{n}:=\bigoplus_{i=1}^n S^1$, we have that by [[Fundamental Group|Proposition 3]]: $$\pi_{1}(\mathbb{T}^n)\cong \pi_{1}(S^1)\oplus \dots \oplus \pi_{1}(S^1)\cong \mathbb{Z}\oplus \dots \oplus \mathbb{Z}$$As this is commutative, we have the statement.
+> 3. From [[Real Projective Space|Proposition 3]].
+> 4. The fundamental group is a free non-abelian group on $n$ letters and by Hurewicz we have that the 1-homology is the free abelian group on $n$ letters.
+---

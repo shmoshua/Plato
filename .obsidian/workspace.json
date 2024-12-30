@@ -23,20 +23,6 @@
             }
           },
           {
-            "id": "a09d0c0d964f8e36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Retract.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Retract"
-            }
-          },
-          {
             "id": "db5703fcdba1faaa",
             "type": "leaf",
             "state": {
@@ -56,36 +42,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "TIKZ.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
+              "title": "TIKZ"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "4d5ec56e57395c88",
         "type": "tabs",
         "dimension": 53.50058343057176,
         "children": [
-          {
-            "id": "7267c601f2ef9d3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Algebraic Topology I Roadmap"
-            }
-          },
           {
             "id": "87e38e5782f7e17d",
             "type": "leaf",
@@ -120,16 +91,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group Homomorphism.md",
+                "file": "TIKZ.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Group Homomorphism"
+              "title": "TIKZ"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,21 +243,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2189578df4e1b7e0",
+  "active": "3a52de36f7a2cf47",
   "lastOpenFiles": [
+    "TIKZ.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Retract.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Real Projective Space.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
+    "Algebra/Group Homomorphism.md",
+    "Topology/Homotopy.md",
     "Topology/Fundamental Group.md",
     "Algebra/Commutator Subgroup.md",
     "Algebra/Direct Sum.md",
-    "Algebra/Group Homomorphism.md",
     "Topology/Algebraic Topology/Homotopy Group.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Probability Theory/Variance.md",
-    "Topology/Retract.md",
     "Topology/Contractible Space.md",
-    "Topology/Homotopy.md",
     "Topology/Algebraic Topology",
     "Topology/Quotient Topology.md",
     "Courses/Algebraic Topology I",
@@ -302,7 +273,6 @@
     "Graph Theory/Matching.md",
     "Probability Theory/Martingale.md",
     "Graph Theory/Spanner.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
