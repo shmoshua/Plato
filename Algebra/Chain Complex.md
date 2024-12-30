@@ -16,6 +16,8 @@
   
   ^4afe22
   
+- **Related definition**: Chain complexes $\mathcal{A},\mathcal{B},\mathcal{C}$ form a ***short exact sequence (SES)*** with chain maps $i:\mathcal{A}\to \mathcal{B}$ and $j:\mathcal{B}\to \mathcal{C}$, if $0\to A_{k}\xrightarrow{i}B_{k}\xrightarrow{j} C_{k}\to 0$ is a [[Exact Sequence|SES]] for all $k\in \mathbb{Z}$.
+   ^4bd728
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -50,3 +52,8 @@
 > 3. Obvious. 
 
 ^8e49fb
+
+---
+> [!lemma] Theorem 3 (Long Exact Sequence in Homology)
+> Let $0\to A_{k}\xrightarrow{i}B_{k}\xrightarrow{j} C_{k}\to 0$ be a SES of chain complexes. Then, 
+> $$\cdots\to H_{p+1}(\mathcal{C})\xrightarrow{\partial_{*}}H_{p}(\mathcal{A})\xrightarrow{i_{*}}H_{p}(\mathcal{B})\xrightarrow{j_{*}}H_{p}(\mathcal{C})\xrightarrow{\partial_{*}}H_{p-1}(\mathcal{A})\to\cdots$$is an [[exact sequence]] where 
