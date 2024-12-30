@@ -4,8 +4,8 @@
 #### 1.1 Homotopy
 ##### 1.1.1 Homotopy
 ![[Homotopy#^420cea]]
-![[Homotopy#^9863c7|q]]
-![[Homotopy#^5a32f2|q]]
+![[Homotopy#^9863c7]]
+![[Homotopy#^5a32f2|p]]
 
 ---
 ![[Homotopy#^b0fd45]]
@@ -33,8 +33,8 @@
 ---
 ##### 1.1.3 Retract
 ![[Retract#^0da441]]
-![[Retract#^5cd052|q]]
-![[Retract#^735e3a|q]]
+![[Retract#^5cd052]]
+![[Retract#^735e3a|p]]
 
 ---
 ![[Retract#^5d4435]]
@@ -51,9 +51,9 @@
 
 ---
 ![[Homotopy Group#^0f2b58]]
-![[Homotopy Group#^405010|q]]
-![[Homotopy Group#^fab5de|q]]
-![[Homotopy Group#^bef566|q]]
+![[Homotopy Group#^405010]]
+![[Homotopy Group#^fab5de|p]]
+![[Homotopy Group#^bef566|p]]
 
 ---
 ![[Homotopy Group#^8bcc93]]

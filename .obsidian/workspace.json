@@ -42,15 +42,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIKZ.md",
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TIKZ"
+              "title": "Algebraic Topology I Roadmap"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -77,15 +78,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homotopy"
+              "title": "Algebraic Topology I Roadmap"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,20 +231,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87e38e5782f7e17d",
+  "active": "0fb9932122feb2ab",
   "lastOpenFiles": [
-    "Topology/Homotopy.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Continuous Function.md",
+    "Topology/Algebraic Topology/Homotopy Group.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "TIKZ.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Homotopy.md",
+    "Topology/Continuous Function.md",
     "Topology/Real Projective Space.md",
     "Topology/Retract.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Algebra/Group Homomorphism.md",
     "Topology/Fundamental Group.md",
     "Algebra/Commutator Subgroup.md",
     "Algebra/Direct Sum.md",
-    "Topology/Algebraic Topology/Homotopy Group.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Probability Theory/Variance.md",
     "Topology/Contractible Space.md",

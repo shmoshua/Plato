@@ -121,7 +121,7 @@
 >    ```
 >    
 >    where on every horizontal line in the triangle, $\sigma$ is constant. Then, $\sigma$ is continuous and we also have that $\sigma|_{e_{0} e_{2}}=f*g$. Hence, 
->    $$\partial \sigma=\sigma|_{e_{1}e_{2}}-\sigma|_{e_{2}e_{0}}+ \sigma|_{e_{0}e_{1}}=g-f*g+f=-c$$ is a boundary. Hence, $c$ is a boundary.
+>    $$\partial \sigma=\sigma|_{e_{1}e_{2}}-\sigma|_{e_{0}e_{2}}+ \sigma|_{e_{0}e_{1}}=g-f*g+f=-c$$ is a boundary. Hence, $c$ is a boundary.
 > 2. Let $\sigma:\Delta_{2}\to X$ be the constant $2$-simplex s.t. $\sigma(\Delta_{2})=c(I)$. Then, $$\partial\sigma=c-c+c=c$$
 > 3. Let $\sigma:\Delta_{2}\to X$ defined as follows:
 >    ```tikz
@@ -152,22 +152,78 @@
 >    \end{tikzpicture}
 >    \end{document} 
 >    ```
->    where on every vertical line in the triangle, $\sigma$ is constant. Then, $\sigma$ is continuous and we also have that $\sigma|_{e_{2}e_{0}}=:c$ is a constant path. Hence, $$\partial\sigma=f+f^{-1}-c\in B_{1}(X)$$However as $c\in B_{1}(X)$ from 2, we have that $f+f^{-1}\in B_{1}(X)$. 
+>    where on every vertical line in the triangle, $\sigma$ is constant. Then, $\sigma$ is continuous and we also have that $\sigma|_{e_{0}e_{2}}=:c$ is a constant path. Hence, $$\partial\sigma=f+f^{-1}-c\in B_{1}(X)$$However as $c\in B_{1}(X)$ from 2, we have that $f+f^{-1}\in B_{1}(X)$. 
 >    
 > 
 ---
-> [!lemma] Theorem 5 (Hurewicz)
+> [!lemma] Theorem 6 (Hurewicz)
 > Let $X\neq \varnothing$ be a path connected. Let $G:=\pi_{1}(X)$ be its [[fundamental group]]. Then, 
 > 1. $H_{1}(X)\cong G / [G,G]$ where $[G,G]$ is the [[commutator subgroup]].
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. **Lemma 1**: Let $f,g:I\to X$ be two paths with $f(0)=g(0)$ and $f(1)=g(1)$. If $f\sim g$ (rel $\partial I$), then $f$ and $g$ are homologous.
 >    
 >    Let $F:I\times I\to X$ be the homotopy from $f$ to $g$ relative to $\partial I$. Then, $F|_{0\times I}=f(0)$ and $F|_{1\times I}=f(1)$ are both constant. 
 >    
->    Consider the continuous map $p:I\times I\to\Delta_{2}$ that collapses $0\times I$ to $e_{0}$, i.e. $$$$
+>    Consider the continuous map $p:I\times I\to\Delta_{2}$ that collapses $0\times I$ to $e_{0}$, i.e. 
 >    
+>    ```tikz
+>    \usepackage{tikz}
+>    \usetikzlibrary{decorations.markings}
+>    \usetikzlibrary{arrows}
+>    \begin{document}
+>    \begin{tikzpicture}
+>    \begin{scope}[very thick,decoration={markings,mark=at position 0.55 with {\arrow{>}}}] 
+>    \draw[postaction={decorate}] (0,0)--(2,0);
+>    \draw[postaction={decorate}] (0,2)--(2,2);
+>    \draw[postaction={decorate}] (4,1)--(5.73,0);
+>    \draw[postaction={decorate}] (4,1)--(5.73,2);
+>    \end{scope}
+>    
+>    \tikzset{edge/.style = {->,> = latex'}}
+>    \path[draw, ultra thick] 
+>    (0,0) node[anchor=east]{$(0,0)$}
+>    -- (0,2) node[anchor=east]{$(0,1)$}
+>    -- (2,2) node[anchor=west]{$(1,1)$}
+>    -- (2,0) node[anchor=west]{$(1,0)$}
+>    --cycle;
+>    
+>    \path[red, draw, ultra thick] 
+>    (0,0) node{}
+>    -- (0,2) node{};
+>    \path[draw, ultra thick] 
+>    (4,1) node[anchor=east]{$e_{0}$}
+>    -- (5.73,0)  node[anchor=west] {$e_{1}$}
+>    -- (5.73,2) node[anchor=west]{$e_{2}$}
+>    -- cycle;
+>    
+>    \path[red, draw, ultra thick] 
+>    (4,0.95) node{}
+>    -- (4,1.05) node{};
+>    
+>    \tikzset{edge/.style = {->,> = latex'}}
+>    \node (a) at  (2.5,1) {};
+>    \node (b) at  (3.5,1) {};
+>    \draw[edge] (a) tonode[anchor=south]{$p$} (b);
+>    
+>    \begin{scope}
+>    \path[clip] (4,1) -- (5.73,0) -- (5.73,2) -- cycle; 
+>    \foreach \y in{4,4.1,...,6}
+> 	   \draw (\y,0) -- (\y,4);
+>    \end{scope}
+>   \path[clip] (0,0) -- (0,2) -- (2,2) -- (2,0) -- cycle; 
+>   \foreach \y in {0,0.1,...,2}
+> 	   \draw (\y,0) -- (\y,4);
+> 	   
+>    \end{tikzpicture}
+>    \end{document} 
+>    ```
+>    Further, we can choose $p$ s.t. it induces a homeomoprhism from $I\times I /\sim$ to $\Delta_{2}$. Then, $F$ can be written as a composition $\sigma \circ p$ where $\sigma:\Delta_{2}\to X$ is a singular $2$-simplex with $\sigma|_{e_{0}e_{1}}=f$, $\sigma|_{e_{0}e_{2}}=g$ and $\sigma|_{e_{1}e_{2}}=:c$ is constant. Hence, $$\partial\sigma=c-g+f\in B_{1}(X)$$and we have from Lemma 5.2 that $f-g\in B_{1}(X)$. Hence, $f$ and $g$ are homologous.
+>    
+>  Now, let $G:=\pi_{1}(X,x_{0})$. We will define $\phi:G\to H_{1}(X)$ as follows. Let $a\in G$ and choose $f:I\to X$ with $f(0)=f(1)=x_{0}$ s.t. $[f]=a\in G$. Then, we define: $$\phi(a)=[f]$$Then, $\phi$ is well-defined by Lemma 1 above. We now show that $\phi$ is a homomorphism. 
+>  
+>  Let $a,b\in G$ with $f,g:I\to X$ with $[f]=a$ and $[g]=b$. Then, by Lemma 5.1,$$\phi(ab)=\phi([f*g])=[f*g]=[f+g]=[f]+[g]=\phi(a)+\phi(b)$$As $H_{1}(X)$ is abelian, $\phi$ sends $[G,G]$ to $0\in H_{1}(X)$. Hence, $H_{1}(X)\cong G / [G,G]$. 
 >    
 ---
 ##### Examples
