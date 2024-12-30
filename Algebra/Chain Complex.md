@@ -56,4 +56,15 @@
 ---
 > [!lemma] Theorem 3 (Long Exact Sequence in Homology)
 > Let $0\to A_{k}\xrightarrow{i}B_{k}\xrightarrow{j} C_{k}\to 0$ be a SES of chain complexes. Then, 
-> $$\cdots\to H_{p+1}(\mathcal{C})\xrightarrow{\partial_{*}}H_{p}(\mathcal{A})\xrightarrow{i_{*}}H_{p}(\mathcal{B})\xrightarrow{j_{*}}H_{p}(\mathcal{C})\xrightarrow{\partial_{*}}H_{p-1}(\mathcal{A})\to\cdots$$is an [[exact sequence]] where 
+> 1. there exists $\partial_{*}:H_{p}(\mathcal{C})\to H_{p-1}(\mathcal{A})$ for all $p\in \mathbb{Z}$ s.t.:
+> $$\cdots\to H_{p+1}(\mathcal{C})\xrightarrow{\partial_{*}}H_{p}(\mathcal{A})\xrightarrow{i_{*}}H_{p}(\mathcal{B})\xrightarrow{j_{*}}H_{p}(\mathcal{C})\xrightarrow{\partial_{*}}H_{p-1}(\mathcal{A})\to\cdots$$is an [[exact sequence]].
+
+> [!proof]+
+> Consider the following diagram. We define $\partial_{*}$ as follows:
+> $$\begin{CD}0 @>>> A_{p}@>i>>B_{p}@>j>>C_{p}@>>> 0
+  \\& @V\partial VV@V\partial VV@V\partial VV\\0 @>>> A_{p-1}@>>i> B_{p-1}@>>j>C_{p-1}@>>> 0\end{CD}$$ 
+> 
+> 1. Let $c\in Z_{p}(\mathcal{C})$. Then, as $j$ is surjective, there exists $b\in B_{p}$ with $j(b)=c$. Then, we have that: $$j(\partial b)=\partial(j(b))=\partial(c)=0$$However, as $\text{ker}(j)=\text{im}(i)$ and $i$ is injective, there exists a unique $a\in A_{p-1}$ with $i(a)=\partial b$. Further, we have that: $$i(\partial a)=\partial(i(a))=\partial(\partial b)=0$$By injectivity, $\partial a=0$ and $a\in Z_{p-1}(\mathcal{A})$. Hence, we can define $\partial_{*}([c])=[a]$.  
+> 2. We now show that $\partial_{*}$ is well-defined. First, we show that for a fixed $c$, it doesn't depend on the choice of $b$. Let $b'\in B_{p}$ with $j(b')=c$. Further, let $a'\in A_{p-1}$ be the unique element s.t. $i(a')=\partial b'$. Then, $j(b-b')=c-c=0$ and $b-b'\in \text{ker}(j)=\text{im}(i)$. Hence, there exists $a_{0}\in A_{p}$ with $i(a_{0})=b-b'$. Now, $$i(\partial a_{0})=\partial(i(a_{0}))=\partial b-\partial b'=i(a)-i(a')=i(a-a')$$Hence, by injectivity of $i$, $a-a'=\partial a_{0}\in B_{p-1}(\mathcal{A})$ and $[a]=[a']$.
+>    
+>    Now, let $[c]=[c']\in H_{p}(\mathcal{C})$. Then, $c-c'\in B_{p}(\mathcal{C})$ and there exists $c''\in C_{p+1}$ with $c'=c+\partial c''$. Choose $b$ with $j(b)=c$ and $b''$ with $j(b'')=c''$. Set $b':=b+\partial b''$. Then, $$j(b')=j(b+\partial b'')=c+\partial(j(b''))=c+\partial c''=c'$$By choosing $a'\in A_{p-1}$ with $i(a')=\partial b'$, we have that $$i(a')=\partial b'=$$
