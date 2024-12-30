@@ -50,8 +50,7 @@
               "title": "Algebraic Topology I Roadmap"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "4d5ec56e57395c88",
@@ -85,9 +84,22 @@
               "icon": "lucide-file",
               "title": "Algebraic Topology I Roadmap"
             }
+          },
+          {
+            "id": "3b7da21a85300d3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Group Homomorphism.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Group Homomorphism"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,17 +243,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0fb9932122feb2ab",
+  "active": "87e38e5782f7e17d",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Homotopy Group.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "TIKZ.md",
+    "Algebra/Group Homomorphism.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "TIKZ.md",
+    "p-Simplex^.md",
+    "Topology/Algebraic Topology/Homotopy Group.md",
     "Topology/Homotopy.md",
     "Topology/Continuous Function.md",
     "Topology/Real Projective Space.md",
     "Topology/Retract.md",
-    "Algebra/Group Homomorphism.md",
     "Topology/Fundamental Group.md",
     "Algebra/Commutator Subgroup.md",
     "Algebra/Direct Sum.md",
@@ -260,7 +273,6 @@
     "Combinatorics/Janson Inequality.md",
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Matching.md",
-    "Probability Theory/Martingale.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",

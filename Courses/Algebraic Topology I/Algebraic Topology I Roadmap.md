@@ -64,10 +64,11 @@
 
 ---
 ### 2. Homology Theory
+#### 2.1 p-Simplices and Homology
 ![[p-Simplex#^702d30]]
-![[p-Simplex#^a6188b|q]]
-![[p-Simplex#^2c4bf0|q]]
-![[p-Simplex#^ff8cc1|q]]
+![[p-Simplex#^a6188b]]
+![[p-Simplex#^2c4bf0|p]]
+![[p-Simplex#^ff8cc1|p]]
 
 ---
 ![[p-Simplex#^f65700]]
@@ -76,5 +77,35 @@
 ---
 ![[p-Simplex#^71f3bb]]
 ![[p-Simplex#^bbbdc3|p]]
+
+---
+![[p-Simplex#^5b9b18]]
+![[p-Simplex#^a0e972|p]]
+
+---
+![[p-Simplex#^c93e58]]
+![[p-Simplex#^c9a19c|p]]
+
+---
+##### 2.1.1 Examples of Homologies
+![[p-Simplex#^8095bc]]
+![[p-Simplex#^a5f87b|p]]
+
+---
+![[p-Simplex#^1342f9]]
+![[p-Simplex#^909e9b|p]]
+
+---
+##### 2.1.2 Hurewicz's Theorem
+![[p-Simplex#^0b9390]]
+![[p-Simplex#^9bd3fa|p]]
+
+---
+![[p-Simplex#^f7f1b8]]
+![[p-Simplex#^f68c2d|p]]
+
+---
+![[p-Simplex#^6d8abe]]
+![[p-Simplex#^b81476|p]]
 
 ---

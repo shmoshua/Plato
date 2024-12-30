@@ -66,6 +66,8 @@
 >  6. $\text{id}_{*}=\text{id}_{H_{p}(X)}$
 >  7. if $f$ is a homeomorphism, then $f_{*}$ is a group isomorphism.
 
+^5b9b18
+
 > [!proof]-
 > We have:
 > 1. Let $\sigma$ be a singular $p$-simplex in $X$. Then, $$f_{c}(\partial_{p}(\sigma))=f_{c}\left( \sum_{i=0}^{p}(-1)^i\sigma \circ F^p_{i} \right) =\sum_{i=0}^{p}(-1)^if\circ \sigma \circ F_{i}^p=\partial_{p}(f\circ \sigma)=\partial_{p}(f_{c}(\sigma))$$
@@ -75,18 +77,28 @@
 > 5. Let $a\in Z_{p}(X)$. Then, $$ (g\circ f)_{*}([a])=[(g\circ f)_{c}(a)]=[g\circ f\circ a]=g_{*}([f\circ a])=g_{*}(f_{*}([a]))$$
 > 6. Similarly, $\text{id}_{*}([a])=[a]$.
 > 7. Follows from 4,5,6 and the fact that $f\circ f^{-1}=\text{id}_{Y}$ and $f^{-1}\circ f=\text{id}_{X}$. 
+
+^a0e972
+
 ---
 > [!lemma] Theorem 4
 > Let $X\neq \varnothing$ and $X=\bigsqcup_{\alpha}^{}X_{\alpha}$ are the path-connected components of $X$. Then, for all $p\in \mathbb{Z}$, $$H_{p}(X)\cong \bigoplus_{\alpha}H_{p}(X_{\alpha}) $$
 
+^c93e58
+
 > [!proof]-
 > As a singular simplex $\sigma:\Delta_{p}\to X$ always has a path-connected image, we have that $S_{n}(X):=\bigoplus_{\alpha}S_{n}(X_{\alpha})$, which is also preserved by $\partial$. Hence, the homology groups also split. 
+
+^c9a19c
+
 ---
 > [!lemma] Lemma 5 
 > Let $f,g:I\to X$ be two paths with $f(1)=g(0)$. Then, 
 > 1. $f*g-f-g\in S_{1}(X)$ is a boundary.
 > 2. a constant path $c:I\to X$ is a boundary.
 > 3. $f+f^{-1}$ is a boundary.
+
+^0b9390
 
 > [!proof]-
 > We have that:
@@ -155,12 +167,17 @@
 >    where on every vertical line in the triangle, $\sigma$ is constant. Then, $\sigma$ is continuous and we also have that $\sigma|_{e_{0}e_{2}}=:c$ is a constant path. Hence, $$\partial\sigma=f+f^{-1}-c\in B_{1}(X)$$However as $c\in B_{1}(X)$ from 2, we have that $f+f^{-1}\in B_{1}(X)$. 
 >    
 > 
+
+^9bd3fa
+
 ---
 > [!lemma] Theorem 6 (Hurewicz)
 > Let $X\neq \varnothing$ be a path connected. Let $G:=\pi_{1}(X)$ be its [[fundamental group]]. Then, 
 > 1. $H_{1}(X)\cong G / [G,G]$ where $[G,G]$ is the [[commutator subgroup]].
 
-> [!proof]-
+^f7f1b8
+
+> [!proof]+
 > We have that:
 > 1. **Lemma 1**: Let $f,g:I\to X$ be two paths with $f(0)=g(0)$ and $f(1)=g(1)$. If $f\sim g$ (rel $\partial I$), then $f$ and $g$ are homologous.
 >    
@@ -223,8 +240,20 @@
 >    
 >  Now, let $G:=\pi_{1}(X,x_{0})$. We will define $\phi:G\to H_{1}(X)$ as follows. Let $a\in G$ and choose $f:I\to X$ with $f(0)=f(1)=x_{0}$ s.t. $[f]=a\in G$. Then, we define: $$\phi(a)=[f]$$Then, $\phi$ is well-defined by Lemma 1 above. We now show that $\phi$ is a homomorphism. 
 >  
->  Let $a,b\in G$ with $f,g:I\to X$ with $[f]=a$ and $[g]=b$. Then, by Lemma 5.1,$$\phi(ab)=\phi([f*g])=[f*g]=[f+g]=[f]+[g]=\phi(a)+\phi(b)$$As $H_{1}(X)$ is abelian, $\phi$ sends $[G,G]$ to $0\in H_{1}(X)$. Hence, $H_{1}(X)\cong G / [G,G]$. 
->    
+>  Let $a,b\in G$ with $f,g:I\to X$ with $[f]=a$ and $[g]=b$. Then, by Lemma 5.1,$$\phi(ab)=\phi([f*g])=[f*g]=[f+g]=[f]+[g]=\phi(a)+\phi(b)$$As $H_{1}(X)$ is abelian, $\phi$ sends $[G,G]$ to $0\in H_{1}(X)$. Hence, $\phi$ induces a map $\phi_{*}:G / [G,G]\to H_{1}(X)$. To show that this is an isomorphism, we will construct $\psi_{*}:H_{1}(X)\to G / [G,G]$ with $\phi_{*}\circ\psi_{*}=\text{id}$ and $\psi_{*}\circ\phi_{*}=\text{id}$. 
+>  
+>  For all $x\in X$, pick a path $\lambda_{x}:I\to X$ with $\lambda_{x}(0)=x_{0}$ and $\lambda_{x}(1)=x$, which exists as $X$ is path connected. Wlog we may assume that $\lambda_{x_{0}}$ is the constant path at $x_{0}$. 
+>  
+>  Now, we define: $\psi:S_{1}(X)\to G / [G,G]$ where for a singular $1$-simplex $f:I\to X$, $$\psi(f):=[\lambda_{f(0)}*f*\lambda_{f(1)}^{-1}]$$where we abuse the notation of chaining $*$s, which we can as we only look at the path homotopy class of it.
+>  
+>  As $S_{1}(X)$ is a free abelian group and $G / [G,G]$ is abelian, we can extend this definition by linearity to a homomorphism $\psi:S_{1}(X)\to G / [G,G]$.  
+>  
+>  1. **Claim 1**: For all $b\in B_{1}(X)$, we have that $\psi(b)=1\in G / [G,G]$. 
+>     
+>     Let $\sigma:\Delta_{2}\to X$ be a singular $2$-simplex in $X$. Let $f:=\sigma|_{e_{0}e_{1}}, g:=\sigma|_{e_{1}e_{2}}$ and $h:=\sigma|_{e_{2}e_{0}}$. Then, $$\psi(\partial\sigma)=\psi(g-h^{-1}+f)=\psi(g)(\psi(h^{-1}))^{-1}\psi(f)=\psi(f)\psi(g)(\psi(h^{-1}))^{-1}$$Hence, by defining $y_{i}:=\sigma(e_{i})$, we have that: $$\psi(\partial\sigma)=\{ \lambda_{y_{0}}*f*\lambda_{y_{1}}^{-1}*\lambda_{y_{1}}*g*\lambda_{y_{2}}^{-1}*(\lambda_{y_{0}}*h^{-1}*\lambda_{y_{2}}^{-1})^{-1} \}$$
+
+^f68c2d
+
 ---
 ##### Examples
 > [!h] Example 1 (Point Space)
@@ -233,15 +262,21 @@
 > 2. $B_{p}(X)=\begin{cases}\mathbb{Z}\sigma_{p}&p>0\text{ odd}\\0&p>0\text{ even}\\0&p\leq0\end{cases}$
 > 3. $H_{p}(X)\cong\begin{cases}\mathbb{Z}&p=0\\0&\text{otherwise}\end{cases}$
 
+^8095bc
+
 > [!proof]-
 > Fix $p=0$. We have that the only singular $p$-simplex $\sigma_{p}:\Delta_{p}\to X$ is given by the constant map. Therefore, $S_{p}(X)\cong \mathbb{Z}$ for all $p\geq 0$. 
 > 
 > Further, $\partial_{p}(\sigma_{p})$ is an alternating sum of $(p+1)$ summands of which is up to $\sigma_{p-1}$. Hence, $$\partial_{p}(\sigma_{p})=\begin{cases}0&p>0\text{ odd}\\\pm\sigma_{p-1}&p>0\text{ even}\\0&p\leq 0\end{cases}$$Hence, $\partial_{p}$ is an isomorphism if and only if $p>0$ and even. The rest then follows.
 
+^a5f87b
+
 ---
 > [!h] Example 2 (Path-Connected Space)
 > If $X\neq \varnothing$ and $X$ is [[Path-Connected Space|path-connected]], then:
 > 1. $H_{0}(X)=\mathbb{Z}[x]\cong \mathbb{Z}$ for any $x\in X$.
+
+^1342f9
 
 > [!proof]-
 > Consider a singular $0$-simplex $\sigma$ in $X$. Then, as $\Delta_{0}$ is a point, we have that $S_{0}(X)$ is a set of finite formal sum of points in $X$. 
@@ -252,6 +287,8 @@
 > 
 > Now, clearly we have $\varepsilon_{*}([y])=1$ for all $y\in X$ and $\varepsilon_{*}$ is surjective. To show that $\varepsilon_{*}$ is also injective, let $x_{0}\in X$ and for all $x\in X$ let $\lambda_{x}:I\to X$ be a path from $\lambda_{x}(0)=x_{0}$ and $\lambda_{x}(1)=x$. By viewing these paths as singular $1$-simplices, we have that: $$\partial_{1}\lambda_{x}=x-x_{0}\in S_{0}(X)$$Let $c\in S_{0}(X)$ with $c=\sum_{x}n_{x}x$ be a $0$-chain and assume that $\varepsilon_{*}([c])=0$. Then, for $d:=\sum_{x}^{}n_{x}\lambda_{x}\in S_{1}(X)$, we have that: $$\partial_{1}d=\sum_{x}n_{x}(x-x_{0})=\sum_{x}n_{x}x-\varepsilon_{*}([c])x_{0}=c$$Hence, $c\in B_{0}(X)$ and $\varepsilon_{*}([c])=0$. 
 
+^909e9b
+
 ---
 > [!h] Example 3 
 > We have that: 
@@ -260,10 +297,15 @@
 > 3. $H_{1}(\mathbb{R}\mathbb{P}^n)\cong \mathbb{Z} / 2\mathbb{Z}$ for $n\geq 2$.
 > 4. $H_{1}(X)\cong \mathbb{Z}\oplus\dots \oplus \mathbb{Z}$ ($n$ times) where $X$ is a bouquet of $n$-circles.
 
+^6d8abe
+
 > [!proof]-
 > From Hurewicz, we have that:
 > 1. As $\pi_{1}(S^n)=\begin{cases}\mathbb{Z}&n=1\\0&n\geq 2\end{cases}$ and both are comnmutative, $H_{1}(S^n)\cong \pi_{1}(S^n)$.
 > 2. As $\mathbb{T}^{n}:=\bigoplus_{i=1}^n S^1$, we have that by [[Fundamental Group|Proposition 3]]: $$\pi_{1}(\mathbb{T}^n)\cong \pi_{1}(S^1)\oplus \dots \oplus \pi_{1}(S^1)\cong \mathbb{Z}\oplus \dots \oplus \mathbb{Z}$$As this is commutative, we have the statement.
 > 3. From [[Real Projective Space|Proposition 3]].
 > 4. The fundamental group is a free non-abelian group on $n$ letters and by Hurewicz we have that the 1-homology is the free abelian group on $n$ letters.
+
+^b81476
+
 ---
