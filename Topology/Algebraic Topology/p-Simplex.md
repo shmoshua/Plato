@@ -82,15 +82,15 @@
 > [!proof]-
 > As a singular simplex $\sigma:\Delta_{p}\to X$ always has a path-connected image, we have that $S_{n}(X):=\bigoplus_{\alpha}S_{n}(X_{\alpha})$, which is also preserved by $\partial$. Hence, the homology groups also split. 
 ---
-> [!lemma] Theorem 5 (Hurewicz)
-> Let $X\neq \varnothing$ be a path connected. Let $G:=\pi_{1}(X)$ be its [[fundamental group]]. Then, 
-> 1. $H_{1}(X)\cong G / [G,G]$ where $[G,G]$ is the [[commutator subgroup]].
+> [!lemma] Lemma 5 
+> Let $f,g:I\to X$ be two paths with $f(1)=g(0)$. Then, 
+> 1. $f*g-f-g\in S_{1}(X)$ is a boundary.
+> 2. a constant path $c:I\to X$ is a boundary.
+> 3. $f+f^{-1}$ is a boundary.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. **Lemma 1**: Let $f,g:I\to X$ be two paths with $f(1)=g(0)$. Then, $c:=f*g-f-g\in S_{1}(X)$ is a boundary. 
->    
->    We first define a singular $2$-simplex $\sigma:\Delta_{2}\to X$ as follows: 
+> 1. Let $c:=f*g-f-g$. We first define a singular $2$-simplex $\sigma:\Delta_{2}\to X$ as follows: 
 >    ```tikz
 >    \usepackage{tikz}
 >    \usetikzlibrary{decorations.markings}
@@ -100,12 +100,11 @@
 >    \begin{scope}[very thick,decoration={markings,mark=at position 0.55 with {\arrow{>}}}] 
 >    \draw[postaction={decorate}] (0,-1)--(1.73,0);
 >    \draw[postaction={decorate}] (1.73,0)--(0,1);
->    \draw[postaction={decorate}] (0,-1)--(0,1);
 >    \end{scope}
 >    
 >    \tikzset{edge/.style = {->,> = latex'}}
 >    \path[draw, ultra thick] (0,1) node[anchor=east]{$e_{2}$}
->    --node[left]{$f*g$} (0,-1)  node[anchor=east] {$e_{0}$}
+>    -- (0,-1)  node[anchor=east] {$e_{0}$}
 >    --node[below right]{$f$} (1.73,0) node[anchor=west]{$e_{1}$}
 >    --node[above right]{$g$} cycle;
 >    \path[clip] (0,1) -- (0,-1) -- (1.73,0) -- cycle; 
@@ -121,7 +120,55 @@
 >    \end{document} 
 >    ```
 >    
->    where on every horizontal line in the triangle, $\sigma$ is constant. 
+>    where on every horizontal line in the triangle, $\sigma$ is constant. Then, $\sigma$ is continuous and we also have that $\sigma|_{e_{0} e_{2}}=f*g$. Hence, 
+>    $$\partial \sigma=\sigma|_{e_{1}e_{2}}-\sigma|_{e_{2}e_{0}}+ \sigma|_{e_{0}e_{1}}=g-f*g+f=-c$$ is a boundary. Hence, $c$ is a boundary.
+> 2. Let $\sigma:\Delta_{2}\to X$ be the constant $2$-simplex s.t. $\sigma(\Delta_{2})=c(I)$. Then, $$\partial\sigma=c-c+c=c$$
+> 3. Let $\sigma:\Delta_{2}\to X$ defined as follows:
+>    ```tikz
+>    \usepackage{tikz}
+>    \usetikzlibrary{decorations.markings}
+>    \newcommand{\midarrow}{\tikz \draw[-triangle 90] (0,0) -- +(.1,0);}
+>    \begin{document}
+>    \begin{tikzpicture}
+>    \begin{scope}[very thick,decoration={markings,mark=at position 0.55 with {\arrow{>}}}] 
+>    \draw[postaction={decorate}] (0,-1)--(1.73,0);
+>    \draw[postaction={decorate}] (0,1)--(1.73,0);
+>    \end{scope}
+>    
+>    \tikzset{edge/.style = {->,> = latex'}}
+>    \path[draw, ultra thick] (0,1) node[anchor=east]{$e_{2}$}
+>    -- (0,-1)  node[anchor=east] {$e_{0}$}
+>    --node[below right]{$f$} (1.73,0) node[anchor=west]{$e_{1}$}
+>    --node[above right]{$f$} cycle;
+>    \path[clip] (0,1) -- (0,-1) -- (1.73,0) -- cycle; 
+>    \foreach \y in{0,0.1,...,2}
+> 	   \draw (\y,-1) -- (\y,1);
+>    
+>    \node (a) at  (0,1) {};
+>    \node (b) at  (0,-1) {};
+>    \node (c) at  (1.73,0) {};
+>    
+>    
+>    \end{tikzpicture}
+>    \end{document} 
+>    ```
+>    where on every vertical line in the triangle, $\sigma$ is constant. Then, $\sigma$ is continuous and we also have that $\sigma|_{e_{2}e_{0}}=:c$ is a constant path. Hence, $$\partial\sigma=f+f^{-1}-c\in B_{1}(X)$$However as $c\in B_{1}(X)$ from 2, we have that $f+f^{-1}\in B_{1}(X)$. 
+>    
+> 
+---
+> [!lemma] Theorem 5 (Hurewicz)
+> Let $X\neq \varnothing$ be a path connected. Let $G:=\pi_{1}(X)$ be its [[fundamental group]]. Then, 
+> 1. $H_{1}(X)\cong G / [G,G]$ where $[G,G]$ is the [[commutator subgroup]].
+
+> [!proof]+
+> We have that:
+> 1. **Lemma 1**: Let $f,g:I\to X$ be two paths with $f(0)=g(0)$ and $f(1)=g(1)$. If $f\sim g$ (rel $\partial I$), then $f$ and $g$ are homologous.
+>    
+>    Let $F:I\times I\to X$ be the homotopy from $f$ to $g$ relative to $\partial I$. Then, $F|_{0\times I}=f(0)$ and $F|_{1\times I}=f(1)$ are both constant. 
+>    
+>    Consider the continuous map $p:I\times I\to\Delta_{2}$ that collapses $0\times I$ to $e_{0}$, i.e. $$$$
+>    
+>    
 ---
 ##### Examples
 > [!h] Example 1 (Point Space)

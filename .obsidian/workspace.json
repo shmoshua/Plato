@@ -72,31 +72,17 @@
             }
           },
           {
-            "id": "5ecadc3698fcd469",
+            "id": "0fb9932122feb2ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Topology/Homotopy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
-            }
-          },
-          {
-            "id": "4459d058f1f0a861",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TIKZ.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "TIKZ"
+              "title": "Homotopy"
             }
           }
         ]
@@ -243,15 +229,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3a52de36f7a2cf47",
+  "active": "87e38e5782f7e17d",
   "lastOpenFiles": [
-    "TIKZ.md",
+    "Topology/Homotopy.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Continuous Function.md",
+    "TIKZ.md",
+    "Topology/Real Projective Space.md",
     "Topology/Retract.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/Real Projective Space.md",
     "Algebra/Group Homomorphism.md",
-    "Topology/Homotopy.md",
     "Topology/Fundamental Group.md",
     "Algebra/Commutator Subgroup.md",
     "Algebra/Direct Sum.md",
@@ -272,7 +259,6 @@
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Matching.md",
     "Probability Theory/Martingale.md",
-    "Graph Theory/Spanner.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
