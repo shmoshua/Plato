@@ -59,7 +59,7 @@
 > 1. there exists $\partial_{*}:H_{p}(\mathcal{C})\to H_{p-1}(\mathcal{A})$ for all $p\in \mathbb{Z}$ s.t.:
 > $$\cdots\to H_{p+1}(\mathcal{C})\xrightarrow{\partial_{*}}H_{p}(\mathcal{A})\xrightarrow{i_{*}}H_{p}(\mathcal{B})\xrightarrow{j_{*}}H_{p}(\mathcal{C})\xrightarrow{\partial_{*}}H_{p-1}(\mathcal{A})\to\cdots$$is an [[exact sequence]].
 
-> [!proof]+
+> [!proof]-
 > Consider the following diagram. We define $\partial_{*}$ as follows:
 > $$\begin{CD}0 @>>> A_{p}@>i>>B_{p}@>j>>C_{p}@>>> 0
   \\& @V\partial VV@V\partial VV@V\partial VV\\0 @>>> A_{p-1}@>>i> B_{p-1}@>>j>C_{p-1}@>>> 0\end{CD}$$ 
@@ -77,4 +77,13 @@
 > 	   Let $\beta\in H_{p}(\mathcal{B})$. Let $b\in B_{p}$ be a cycle with $\beta=[b]$. Then, we have that $\partial_{*}(j_{*}(\beta))=\partial_{*}([j(b)])$ and we can choose $c:=j(b)$ and $a\in A_{p-1}$ with $i(a)=\partial b=0$. Hence, $a=0$ and $\partial_{*}\circ j_{*}=0$.
 > 	3. **Claim 3**: $i_{*}\circ \partial_{*}=0$.
 > 	   Let $c\in C_{p}$ be a cycle. Then, $i_{*}(\partial_{*}([c]))=[i(a)]$ where $a\in A_{p-1}$ with $i(a)=\partial b$ and $b\in B_{p}$ with $j(b)=c$. Hence, $i_{*}(\partial_{*}([c]))=[i(a)]=[\partial b]=0$ as $\partial b\in B_{p-1}(\mathcal{B})$. 
-> 	4. **Claim 4**: $\text{ker}(j_{*})\subseteq \text{im}(i_{*})$
+> 	4. **Claim 4**: $\text{ker}(j_{*})\subseteq \text{im}(i_{*})$.
+> 	   Let $b\in B_{p}$ be a cycle with $j_{*}([b])=0$. In other words, $j(b)\in B_{p}(\mathcal{C})$ and there exists $c\in C_{p+1}$ with $j(b)=\partial c$. Now, pick $b'\in B_{p+1}$ with $j(b')=c$, which exists as $j$ is surjective. 
+> 	   
+> 	   Now, $j(b-\partial b')=j(b)-\partial(j(b'))=\partial c-\partial c=0$. Hence, $b-\partial b'\in \text{ker}(j)$ and there exists $a\in A_{p}$ with $i(a)=b-\partial b'$. Notice that: $$i(\partial a)=\partial(i(a))=\partial b-\partial \partial b'=\partial b=0$$Hence, by injectivity, $\partial a=0$ and $i_{*}([a])=[b-\partial b']=[b]$.
+> 	5. **Claim 5**: $\text{ker}(i_{*})\subseteq \text{im}(\partial_{*})$.
+> 	   Let $a\in A_{p}$ be a cycle with $i_{*}([a])=0$. In other words, $i(a)\in B_{p}(\mathcal{B})$ and there exists $b\in B_{p+1}$ with $i(a)=\partial b$. First, note that $j(b)$ is a cycle. Indeed, $$\partial (j(b))=j(\partial b)=j(i(b))=0$$
+> 	   Therefore, we have that: $\partial_{*}([j(b)])=[a]$.
+> 	6. **Claim 6**: $\text{ker}(\partial_{*})\subseteq \text{im}(j_{*})$
+> 	   Let $c\in C_{p}$ be a cycle with $\partial_{*}([c])=0$. Choose $b\in B_{p}$ with $j(b)=c$ and $a\in A_{p-1}$ with $i(a)=\partial b$. Then, we have that $a\in B_{p-1}(\mathcal{A})$ and there exists $a'\in A_{p}$ with $a=\partial a'$. Now, we have: $$\partial i(a')=i(\partial a')=i(a)=\partial b$$Hence, $\partial(b-i(a'))=0$ and $b-i(a')$ is a cycle. Further, we have: $$j(b-i(a'))=j(b)=c$$It follows that $j_{*}([b-i(a')])=[c]$.
+---
