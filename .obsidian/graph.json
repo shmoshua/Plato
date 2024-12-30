@@ -76,6 +76,13 @@
         "a": 1,
         "rgb": 16768256
       }
+    },
+    {
+      "query": "tag:#AlgebraicTopology  ",
+      "color": {
+        "a": 1,
+        "rgb": 14228223
+      }
     }
   ],
   "collapse-display": true,
@@ -88,6 +95,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2731825980326402,
+  "scale": 0.2669090146559109,
   "close": true
 }

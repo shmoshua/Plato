@@ -35,8 +35,23 @@
               "icon": "lucide-file",
               "title": "Algebraic Topology I Roadmap"
             }
+          },
+          {
+            "id": "93886d7fa5963f6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Exact Sequence.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Exact Sequence"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -63,16 +78,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Klein Bottle.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Klein Bottle"
+              "title": "Exact Sequence"
             }
           },
           {
-            "id": "e76b392e7373ddfa",
+            "id": "510807fb504d312c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,7 +100,8 @@
               "title": "Algebraic Topology I Roadmap"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,12 +245,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0fb9932122feb2ab",
+  "active": "3b7da21a85300d3c",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Algebra/Chain Complex.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Klein Bottle.md",
+    "Algebra/Exact Sequence.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Homotopy.md",
     "Algebra/Group Homomorphism.md",
     "TIKZ.md",
@@ -258,7 +275,6 @@
     "Graph Theory/Steiner Forest.md",
     "Algorithms/Covering.md",
     "Topology/Compact Space.md",
-    "Combinatorics/Janson Inequality.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
