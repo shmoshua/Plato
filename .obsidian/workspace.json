@@ -58,7 +58,7 @@
         "dimension": 53.50058343057176,
         "children": [
           {
-            "id": "87e38e5782f7e17d",
+            "id": "0fb9932122feb2ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -72,7 +72,7 @@
             }
           },
           {
-            "id": "0fb9932122feb2ab",
+            "id": "3b7da21a85300d3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -84,22 +84,9 @@
               "icon": "lucide-file",
               "title": "Algebraic Topology I Roadmap"
             }
-          },
-          {
-            "id": "3b7da21a85300d3c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Group Homomorphism.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Group Homomorphism"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,11 +230,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87e38e5782f7e17d",
+  "active": "3a52de36f7a2cf47",
   "lastOpenFiles": [
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Algebra/Group Homomorphism.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Algebra/Group Homomorphism.md",
     "TIKZ.md",
     "p-Simplex^.md",
     "Topology/Algebraic Topology/Homotopy Group.md",

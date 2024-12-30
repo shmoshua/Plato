@@ -250,7 +250,17 @@
 >  
 >  1. **Claim 1**: For all $b\in B_{1}(X)$, we have that $\psi(b)=1\in G / [G,G]$. 
 >     
->     Let $\sigma:\Delta_{2}\to X$ be a singular $2$-simplex in $X$. Let $f:=\sigma|_{e_{0}e_{1}}, g:=\sigma|_{e_{1}e_{2}}$ and $h:=\sigma|_{e_{2}e_{0}}$. Then, $$\psi(\partial\sigma)=\psi(g-h^{-1}+f)=\psi(g)(\psi(h^{-1}))^{-1}\psi(f)=\psi(f)\psi(g)(\psi(h^{-1}))^{-1}$$Hence, by defining $y_{i}:=\sigma(e_{i})$, we have that: $$\psi(\partial\sigma)=\{ \lambda_{y_{0}}*f*\lambda_{y_{1}}^{-1}*\lambda_{y_{1}}*g*\lambda_{y_{2}}^{-1}*(\lambda_{y_{0}}*h^{-1}*\lambda_{y_{2}}^{-1})^{-1} \}$$
+>     Let $\sigma:\Delta_{2}\to X$ be a singular $2$-simplex in $X$. Let $f:=\sigma|_{e_{0}e_{1}}, g:=\sigma|_{e_{1}e_{2}}$ and $h:=\sigma|_{e_{2}e_{0}}$. Then, $$\psi(\partial\sigma)=\psi(g-h^{-1}+f)=\psi(g)(\psi(h^{-1}))^{-1}\psi(f)=\psi(f)\psi(g)(\psi(h^{-1}))^{-1}$$Hence, by defining $y_{i}:=\sigma(e_{i})$, we have that: $$\psi(\partial\sigma)=\{ \lambda_{y_{0}}*f*\lambda_{y_{1}}^{-1}*\lambda_{y_{1}}*g*\lambda_{y_{2}}^{-1}*(\lambda_{y_{0}}*h^{-1}*\lambda_{y_{2}}^{-1})^{-1} \}=\{ \lambda_{y_{0}}* f*g*h*\lambda_{y_{0}} \}$$However, using the path homotopy from $f*g*h$ to the constant path at $e_{0}$ in $\Delta_{2}$, we get that $\psi(\partial\sigma)=\{ \lambda_{y_{0}}*\lambda_{y_{0}}^{-1} \}=1\in G / [G,G]$. Therefore, $\psi$ induces a homomorphism $\psi_{*}:H_{1}(X)\to G / [G,G]$.
+>     
+>  Now, it is only left to show that $\psi_{*}$ is the inverse homomorphism of $\phi_{*}$. Let $f:I\to X$ be a loop at $x_{0}$. Then, $$\psi_{*}\phi_{*}(\{ f \})=\psi_{*}([f])=\{ \lambda_{x_{0}}*f*\lambda_{x_{0}}^{-1} \}=\{ f \}$$To show that $\phi_{*}\circ\psi_{*}=\text{id}$, consider the group homomorphism $\lambda:S_{0}(X)\to S_{1}(X)$ defined through $\lambda\left( \sum_{x}^{}n_{x}x \right)=\sum_{x}n_{x}\lambda_{x}$. 
+>  1. **Lemma 2**: For a singular $1$-simplex $\sigma:I\to X$, $\phi_{*}(\psi(\sigma))=[\sigma-\lambda_{\partial\sigma}]$.
+>     
+>     We have that by Lemma 5: $$\phi_{*}(\psi(\sigma))=\phi_{*}(\{ \lambda_{\sigma(0)}*\sigma*\lambda_{\sigma(1)}^{-1} \})=[\lambda_{\sigma(0)}*\sigma*\lambda_{\sigma(1)}^{-1} ]=[\lambda_{\sigma(0)} ]+[\sigma]-[\lambda_{\sigma(1)}]=[\sigma-\lambda_{\partial\sigma}]$$
+>  2. **Lemma 3**: For a singular $1$-chain $c\in S_{1}(X)$, $\phi_{*}(\psi(c))=[c-\lambda_{\partial c}]$ which follows by linearity. 
+>  
+>  Therefore, for any cycle $c\in Z_{1}(X)$, we have that: $$\phi_{*}(\psi(c))=[c-\lambda_{\partial c}]$$
+>  
+
 
 ^f68c2d
 
