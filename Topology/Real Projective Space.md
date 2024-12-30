@@ -25,3 +25,6 @@
 > [!proof]-
 > Let $p\in S^n$. Then, let wlog $p\in U_{j}^+$ from [[Sphere|Proposition 1]], we have that $\pi(p)\in U_{j}$ from above further, $\pi(U_{j}^+)\subseteq U_{j}$. Therefore, for any $x\in B_{<1}(0)\subseteq \mathbb{R}^n$,$$\begin{align}\varphi_{j}\pi(\varphi_{j}^+)^{-1}(x)&=\varphi_{j}\pi(x^1,\dots,x^{j-1},\sqrt{ 1-\|x\|^{2} },x^j,\dots,x^{n-1})\\&=\frac{x}{\sqrt{ 1-\|x\|^{2} }}\end{align}$$which is smooth.
 ---
+> [!lemma] Proposition 3
+> For $n\geq 2$, we have that:
+> 1. $\pi_{1}(\mathbb{R}\mathbb{P}^n,*)\cong \mathbb{Z} / 2\mathbb{Z}$

@@ -66,7 +66,7 @@
 >  6. $\text{id}_{*}=\text{id}_{H_{p}(X)}$
 >  7. if $f$ is a homeomorphism, then $f_{*}$ is a group isomorphism.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $\sigma$ be a singular $p$-simplex in $X$. Then, $$f_{c}(\partial_{p}(\sigma))=f_{c}\left( \sum_{i=0}^{p}(-1)^i\sigma \circ F^p_{i} \right) =\sum_{i=0}^{p}(-1)^if\circ \sigma \circ F_{i}^p=\partial_{p}(f\circ \sigma)=\partial_{p}(f_{c}(\sigma))$$
 > 2. If $a\in Z_{p}(X)$, then $\partial_{p}(f_{c}(a))=f_{c}(\partial_{p}a)=f_c(0)=0$. Hence, $f_{c}(a)\in Z_{p}(Y)$.
@@ -87,7 +87,7 @@
 > 1. $H_{1}(X)\cong G / [G,G]$ where $[G,G]$ is the [[commutator subgroup]].
 ---
 ##### Examples
-> [!h] Example 1
+> [!h] Example 1 (Point Space)
 > For a point space $X=\{ x_{0} \}$, 
 > 1. $Z_{p}(X)=\begin{cases}\mathbb{Z}\sigma_{p}&p>0\text{ odd}\\0&p>0\text{ even}\\\mathbb{Z}\sigma_{p}&p=0\\0&p<0\end{cases}$
 > 2. $B_{p}(X)=\begin{cases}\mathbb{Z}\sigma_{p}&p>0\text{ odd}\\0&p>0\text{ even}\\0&p\leq0\end{cases}$
@@ -99,7 +99,7 @@
 > Further, $\partial_{p}(\sigma_{p})$ is an alternating sum of $(p+1)$ summands of which is up to $\sigma_{p-1}$. Hence, $$\partial_{p}(\sigma_{p})=\begin{cases}0&p>0\text{ odd}\\\pm\sigma_{p-1}&p>0\text{ even}\\0&p\leq 0\end{cases}$$Hence, $\partial_{p}$ is an isomorphism if and only if $p>0$ and even. The rest then follows.
 
 ---
-> [!h] Example 2 
+> [!h] Example 2 (Path-Connected Space)
 > If $X\neq \varnothing$ and $X$ is [[Path-Connected Space|path-connected]], then:
 > 1. $H_{0}(X)=\mathbb{Z}[x]\cong \mathbb{Z}$ for any $x\in X$.
 
@@ -113,3 +113,13 @@
 > Now, clearly we have $\varepsilon_{*}([y])=1$ for all $y\in X$ and $\varepsilon_{*}$ is surjective. To show that $\varepsilon_{*}$ is also injective, let $x_{0}\in X$ and for all $x\in X$ let $\lambda_{x}:I\to X$ be a path from $\lambda_{x}(0)=x_{0}$ and $\lambda_{x}(1)=x$. By viewing these paths as singular $1$-simplices, we have that: $$\partial_{1}\lambda_{x}=x-x_{0}\in S_{0}(X)$$Let $c\in S_{0}(X)$ with $c=\sum_{x}n_{x}x$ be a $0$-chain and assume that $\varepsilon_{*}([c])=0$. Then, for $d:=\sum_{x}^{}n_{x}\lambda_{x}\in S_{1}(X)$, we have that: $$\partial_{1}d=\sum_{x}n_{x}(x-x_{0})=\sum_{x}n_{x}x-\varepsilon_{*}([c])x_{0}=c$$Hence, $c\in B_{0}(X)$ and $\varepsilon_{*}([c])=0$. 
 
 ---
+> [!h] Example 3 
+> We have that: 
+> 1. $H_{1}(S^n)=\begin{cases}\mathbb{Z}&n=1\\0&n\geq 2\end{cases}$
+> 2. $H_{1}(\mathbb{T}^n)=\bigoplus_{i=1}^n \mathbb{Z}$
+> 3. $$
+
+> [!proof]+
+> From Hurewicz, we have that:
+> 1. As $\pi_{1}(S^n)=\begin{cases}\mathbb{Z}&n=1\\0&n\geq 2\end{cases}$ and both are comnmutative, $H_{1}(S^n)\cong \pi_{1}(S^n)$.
+> 2. As $\mathbb{T}^{n}:=\bigoplus_{i=1}^n S^1$, we have that by [[Fundamental Group|Proposition 3]]: $$\pi_{1}(\mathbb{T}^n)\cong \pi_{1}(S^1)\oplus \dots \oplus \pi_{1}(S^1)\cong \mathbb{Z}\oplus \dots \oplus \mathbb{Z}$$As this is commutative, we have the statement.
