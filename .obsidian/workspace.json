@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "b-1",
+                "query": "SES",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -153,7 +153,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -245,12 +246,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3b7da21a85300d3c",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
-    "Topology/Klein Bottle.md",
+    "Algebra/Chain Complex.md",
     "Algebra/Exact Sequence.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Algebra/Chain Complex.md",
+    "Topology/Klein Bottle.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Homotopy.md",
     "Algebra/Group Homomorphism.md",

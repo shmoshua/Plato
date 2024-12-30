@@ -2,5 +2,18 @@
 
 > [!definition]
 > We have that:
-> 1. Abelian groups $A,B,C$ and homomorphisms $A\xrightarrow{i}B\xrightarrow{j} C$ forms an ***exact sequence*** if $\text{ker}(j)=\text{im}(i)$. 
+> 1. [[Abelian Group|Abelian groups]] $A,B,C$ and [[Group Homomorphism|homomorphisms]] $A\xrightarrow{i}B\xrightarrow{j} C$ forms an ***exact sequence*** if $\text{ker}(j)=\text{im}(i)$. 
 > 2. A sequence $\cdots \to A_{k+1}\xrightarrow{f}A_{k}\xrightarrow{f}A_{k-1}\to \cdots$ of abelian groups is ***exact*** if every subsequence of 3 groups is exact.
+- **Remark**: The [[Chain Complex|homology]] of an exact sequence is always zero.
+---
+##### Properties
+> [!lemma] Proposition 1
+> For abelian groups $A,B$ and a homomorphism $f$,
+> 1. $0\to A\xrightarrow{f} B$ is exact if and only if $f$ is injective.
+> 2. $A\xrightarrow{f} B\to 0$ is exact if and only if $f$ is surjective.
+> 3. $0\to A\xrightarrow{f} B\to 0$ is exact if and only if $f$ is an isomorphism.
+
+> [!proof]-
+> Obvious.
+---
+#####
