@@ -177,7 +177,7 @@
 
 ^f7f1b8
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. **Lemma 1**: Let $f,g:I\to X$ be two paths with $f(0)=g(0)$ and $f(1)=g(1)$. If $f\sim g$ (rel $\partial I$), then $f$ and $g$ are homologous.
 >    
@@ -258,7 +258,7 @@
 >     We have that by Lemma 5: $$\phi_{*}(\psi(\sigma))=\phi_{*}(\{ \lambda_{\sigma(0)}*\sigma*\lambda_{\sigma(1)}^{-1} \})=[\lambda_{\sigma(0)}*\sigma*\lambda_{\sigma(1)}^{-1} ]=[\lambda_{\sigma(0)} ]+[\sigma]-[\lambda_{\sigma(1)}]=[\sigma-\lambda_{\partial\sigma}]$$
 >  2. **Lemma 3**: For a singular $1$-chain $c\in S_{1}(X)$, $\phi_{*}(\psi(c))=[c-\lambda_{\partial c}]$ which follows by linearity. 
 >  
->  Therefore, for any cycle $c\in Z_{1}(X)$, we have that: $$\phi_{*}(\psi(c))=[c-\lambda_{\partial c}]$$
+>  Therefore, for any cycle $c\in Z_{1}(X)$, we have that: $$\phi_{*}(\psi(c))=[c-\lambda_{\partial c}]=[c]$$and $\phi_{*}(\psi_{*}([c]))=[c]$, which proves the theorem.
 >  
 
 

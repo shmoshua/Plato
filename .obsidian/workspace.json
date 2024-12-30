@@ -14,26 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "file": "Algebra/Chain Complex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
-            }
-          },
-          {
-            "id": "db5703fcdba1faaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Homotopy.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Homotopy"
+              "title": "Chain Complex"
             }
           },
           {
@@ -63,16 +49,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "file": "Algebra/Chain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
+              "title": "Chain Complex"
             }
           },
           {
             "id": "3b7da21a85300d3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Klein Bottle.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Klein Bottle"
+            }
+          },
+          {
+            "id": "e76b392e7373ddfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,8 +85,7 @@
               "title": "Algebraic Topology I Roadmap"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,15 +229,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3a52de36f7a2cf47",
+  "active": "0fb9932122feb2ab",
   "lastOpenFiles": [
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Algebra/Chain Complex.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Klein Bottle.md",
+    "Topology/Homotopy.md",
     "Algebra/Group Homomorphism.md",
     "TIKZ.md",
     "p-Simplex^.md",
     "Topology/Algebraic Topology/Homotopy Group.md",
-    "Topology/Homotopy.md",
     "Topology/Continuous Function.md",
     "Topology/Real Projective Space.md",
     "Topology/Retract.md",
@@ -258,8 +259,6 @@
     "Algorithms/Covering.md",
     "Topology/Compact Space.md",
     "Combinatorics/Janson Inequality.md",
-    "Graph Theory/Girth and Circumference.md",
-    "Graph Theory/Matching.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
