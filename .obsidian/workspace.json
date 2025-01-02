@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+                "file": "Algebra/Split Exact Sequence.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology I Roadmap"
+              "title": "Split Exact Sequence"
             }
           },
           {
@@ -50,7 +50,8 @@
               "title": "Exact Sequence"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -91,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+                "file": "Algebra/Split Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology I Roadmap"
+              "title": "Split Exact Sequence"
             }
           },
           {
@@ -128,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -272,12 +273,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3a52de36f7a2cf47",
+  "active": "2189578df4e1b7e0",
   "lastOpenFiles": [
-    "Algebra/Exact Sequence.md",
-    "Topology/Algebraic Topology/Relative Homology.md",
-    "Algebra/Chain Complex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Algebra/Split Exact Sequence.md",
+    "Topology/Algebraic Topology/Relative Homology.md",
+    "Algebra/Exact Sequence.md",
+    "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Klein Bottle.md",
     "Topology/Homotopy.md",
@@ -301,7 +303,6 @@
     "Graph Theory/Metric Embedding.md",
     "Graph Theory/Sparsest Cut.md",
     "Graph Theory/Steiner Forest.md",
-    "Algorithms/Covering.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",

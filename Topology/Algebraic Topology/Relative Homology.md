@@ -35,6 +35,16 @@
   \\ \cdots @>>> H_{p}(B) @>>i'_{*}> H_{p}(Y) @>>j'_{*}> H_{p}(Y,B) @>>\partial_{*}> H_{p-1}(B) @>>>\cdots
   \end{CD}$$
 
-> [!proof]+
+^3e1df9
+
+> [!proof]-
 > We have that:
-> 1. for $c\in S_{p}(A)$ we have that: $$f()$$
+> 1. for $c=\sum_{\sigma}^{}n_{\sigma}\sigma\in S_{p}(A)$ we have that: $$f_{c}(\partial c)=f_{c}\left( \sum_{\sigma}^{}n_{\sigma}\partial\sigma \right)=\sum_{\sigma}n_{\sigma}f_{c}\left( \sum_{i=0}^{p}(-1)^i\sigma^{(i)} \right)=\sum_{\sigma}n_{\sigma}\partial(f_{c}(\sigma))=\partial\left( f_{c}\left( \sum_{\sigma}^{}n_{\sigma}\sigma \right) \right)$$Analogous for $X$ and $(X,A)$
+> 2. We have that for $c=\sum_{\sigma}n_{\sigma}\sigma\in S_{p}(A)$, $$f_{c}(i(c))=f_{c}(c)=f_{c}(i(c))$$
+> 	Further, for $c=\sum_{\sigma}n_{\sigma}\sigma\in S_{p}(X)$, $$f_{c}(j(c))=f_{c}([c])=[f_{c}(c)]=j(f_{c}(c))$$
+> 3. Follows from [[Chain Complex|Theorem 4]].
+
+^cca685
+
+---
+
