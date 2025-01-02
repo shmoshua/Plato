@@ -54,17 +54,14 @@
             "id": "38d9f6022c5fab8b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Acyclic Space.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Acyclic Space"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -105,12 +102,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Reduced Homology.md",
+                "file": "Topology/Klein Bottle.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Reduced Homology"
+              "title": "Klein Bottle"
             }
           },
           {
@@ -128,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -272,12 +269,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3a52de36f7a2cf47",
+  "active": "38d9f6022c5fab8b",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Acyclic Space.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Klein Bottle.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Chain Complex.md",
     "Algebra/Split Exact Sequence.md",
@@ -286,7 +284,6 @@
     "Algebra/Module.md",
     "Algebra/Direct Sum.md",
     "Algebra/Group Homomorphism.md",
-    "Topology/Klein Bottle.md",
     "Topology/Homotopy.md",
     "TIKZ.md",
     "p-Simplex^.md",
