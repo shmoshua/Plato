@@ -19,5 +19,16 @@
 > 	1. Let $b,b'\in B$. Then, $$i(a+a')=i(a)+i(a')=b-e(b)+b'-e(b')=(b+b')-e(b+b')$$Hence, $\tau(b+b')=(a+a',j(b)+j(b'))=\tau(b)+\tau(b')$.
 > 	2. $\tau$ is invertible. Let $(a,c)\in A\oplus C$. As $j$ is surjective, there exists $b\in B$ with $j(b)=c$. Then, we let $\rho:A\oplus C\to B,(a,c)\mapsto i(a)+e(b)$. Now,$$\rho(\tau(b))=\rho(a,j(b))=i(a)+e(b)=b-e(b)+e(b)=b$$and we also have that $e(i(a))=0$ and therefore, $i(a)=i(a)-e(i(a))$. Further, $i(0)=e(b)-e(e(b))=0$ and $j(e(b))=j(e(b)+b-b)=j(b)-j(b-e(b))=j(b)=c$. Hence,  $$\tau(\rho(a,c))=\tau(i(a))+\tau(e(b))=(a,\underbrace{ j(i(a)) }_{ =0 })+(0,c)=(a,c)$$
 > 	3. We have that for $a\in A$, $$\tau(i(a))=(a,j(i(a)))=(a,0)=i_{A}(a)$$and $\text{pr}(\tau(b))=j(b)$.
-> 3. (3=>2) Let $e:=s \circ j$. Then, $e^{2}=s\circ j \circ s \circ j= s \circ j = e$ and for $b\in \ker(b)$, $$j(b)=j\circ s\circ  j(\text{id})=$$
+> 3. (3=>2): Let $e:=s \circ j$. Then, $e^{2}=s\circ j \circ s \circ j= s \circ j = e$ and for $b\in \ker(e)$, $$j(b)=j\circ s\circ  j(b)=j (e(b))=j(0)=0$$and $\text{ker}(j)\subseteq \text{ker}(e)$ by definition.
+> 4. (1=>3): Let: $$s:C\to B,\quad c\mapsto \tau ^{-1}(i_{C}(c))$$ Then, $$j(s(c))=j(\tau ^{-1}(i_{C}(c)))=\text{pr}(i_{C}(c))=c$$
+> 5. (4=>2): Let $e:=i \circ u$. Then, $e^{2}=i\circ u\circ i \circ u= i \circ u=e$. 
+>    For $a\in A$, we have that: $$e(i(a))= i\circ  u \circ  i(a)=i(a)$$
+>    Further, we have that for $b\in \text{ker}(e)$, $$i(u(b))=e(b)=0$$and as $i$ is injective, we get that $u(b)= 0$. Assume for all $a\in A$, $i(a)-b\neq 0$. Then, 
+>    
+>    Assume that for all $a\in A$, $i(a)\neq b$. Then, $$i(a)=i(u(i(a)))=e(i(a))\neq b$$ 
+>    
+>    Then, $u(e(b))=0$. 
+>    
+>    Lastly, for $a\in A$, $$e(i(a))=$$
+> 6. (1=>4): Let $u:B\to A$ be defined as $u(b)=\text{pr}_{A}(\tau(b))$. Then, $$u(i())$$
 
