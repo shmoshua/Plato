@@ -284,7 +284,7 @@
 ---
 > [!h] Example 2 (Path-Connected Space)
 > If $X\neq \varnothing$ and $X$ is [[Path-Connected Space|path-connected]], then:
-> 1. $H_{0}(X)=\mathbb{Z}[x]\cong \mathbb{Z}$ for any $x\in X$.
+> 1. $H_{0}(X)\cong \mathbb{Z}$.
 
 ^1342f9
 

@@ -3,6 +3,9 @@
 > [!definition]
 > A [[Exact Sequence|short exact sequence (SES)]] of abelian groups  $0\to A\xrightarrow{i} B\xrightarrow{j} C\to 0$ is ***split*** if: 
 > 1. there exists a [[Group Homomorphism|group isomorphism]] $\tau:B\to A\oplus C$ s.t. the following diagram commutes:$$\begin{CD}0 @>>> A@>i>> B@>j>> C @>>> 0\\&@V\text{id}VV @V\tau VV@V\text{id}VV\\0 @>>> A@>>i_{A}> A\oplus C@>>\text{pr}> C @>>> 0  \end{CD}$$where $i_{A}(a) = (a,c)$ and $\text{pr}(a,c)=c$.
+
+^350e24
+
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -11,6 +14,8 @@
 > 2. there exists a homomorphism $e:B\to B$ with $e^2 = e$ s.t. $\text{ker}(e)=\text{im}(i)=\text{ker}(j)$.
 > 3. there exists a homomorphism $s:C\to B$ with $j\circ s = \text{id}$. (right inverse)
 > 4. there exists a homomorphism $u:B\to A$ with $u \circ i = \text{id}$. (left inverse)
+
+^edefd6
 
 > [!proof]-
 > We have that:
@@ -24,24 +29,35 @@
 > 5. (4=>2): Let $e:= \text{id}_{} - i \circ u$. Then, $$e(e(b))=e(b-i(u(b)))=b-i(u(b))-i(u(b))+i(u(i(u(b))))=e(b)$$Now, let $b\in \text{ker}(e)$. Then, $b-i(u(b))=0$ and $b=i(u(b))$. Hence, $b\in \text{im}(i)$. Conversely, for $a\in A$, we have that: $$e(i(a))=i(a)-i(u(i(a)))=i(a)-i(a)=0$$
 > 6. (1=>4): Let $u:B\to A$ be defined as $u(b)=\text{pr}_{A}(\tau(b))$. Then, $$u(i(a))=\text{pr}_{A}(\tau(i(a)))=\text{pr}_{A}(i_{A}(a))=a$$
 
-- **Remark**: This also holds for SES of chain complexes. Further, by [[Chain Complex|Proposition 1.3]] and [[Chain Complex|Theorem 6]], if the SES is split, we have that $H_{p}(\mathcal{B})\cong H_{p}(\mathcal{A})\oplus H_{p}(\mathcal{C})$.
+^26d5e8
+
+- **Remark**: This also holds for SES of chain complexes. Further, by [[Chain Complex|Proposition 1.3]] and [[Chain Complex|Theorem 6]], if the SES is split, we have that $H_{p}(\mathcal{B})\cong H_{p}(\mathcal{A})\oplus H_{p}(\mathcal{C})$. ^6a0784
 ---
 > [!lemma] Proposition 2
 > Let $0\to A\to B\xrightarrow{j} C \to 0$ be a SES of abelian groups. 
 > 1. If $C$ is free abelian, then the sequence is split. 
 
+^22ebc8
+
 > [!proof]-
 > Let $\{ c_{\alpha} \}_{\alpha\in I}$ be the basis for $C$. Then, we define $s:C\to B$ as follows. For each $\alpha\in I$, choose $b_{\alpha}\in j^{-1}(c_{\alpha})\subseteq B$ and let $s(c_{\alpha}):= b_{\alpha}$. We can then extend $s$ linearly. 
 > 
 > We have that $j\circ s(c_{\alpha})=j(b_{\alpha})=c_{\alpha}$. This proves the statement.
-- **Remark**: This doesn't necessarily hold for chain complexes. For topological spaces $(X,A)$, $H_{p}(X)\not\cong H_{p}(A)\oplus H_{p}(X,A)$ in general.
+
+^63bc3a
+
+- **Remark**: This doesn't necessarily hold for chain complexes. For topological spaces $(X,A)$, $H_{p}(X)\not\cong H_{p}(A)\oplus H_{p}(X,A)$ in general. ^4b7fbe
 ---
 ##### Examples
 > [!h] Example 1
 > $0 \to \mathbb{Z} \xrightarrow{\times2} \mathbb{Z}\xrightarrow{p} \mathbb{Z} / 2\mathbb{Z} \to 0$ is not split.
 
+^784a07
+
 > [!proof]-
 > The only homomorphism $s:\mathbb{Z} / 2\mathbb{Z} \to \mathbb{Z}$ is the zero map, hence by proposition 1. 
+
+^25dda7
 
 ---
  

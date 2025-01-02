@@ -143,6 +143,8 @@
 > 1. $\mathcal{A}\oplus \mathcal{B}:=(\{ A_{p} \oplus B_{p} \}_{p\in \mathbb{Z}},\partial)$ is a chain complex, called the ***direct sum*** of $\mathcal{A}$ and $\mathcal{B}$.
 > 2. $H_{p}(\mathcal{A}\oplus \mathcal{B})\cong H_{p}(\mathcal{A})\oplus H_{p}(\mathcal{B})$.
 
+^f95ddc
+
 > [!proof]-
 > We have that:
 > 1. $\mathcal{A}\oplus \mathcal{B}$ is obviously a chain complex.
