@@ -136,3 +136,5 @@
 ^9e1022
 
 ---
+> [!lemma] Theorem 6 (Direct Sum Chain Complex)
+> Let $\mathcal{A},\mathcal{}$

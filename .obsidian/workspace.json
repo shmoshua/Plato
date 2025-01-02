@@ -42,16 +42,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "Algebra/Chain Complex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "Chain Complex"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -128,8 +128,7 @@
               "title": "Direct Sum"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,15 +272,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9c5a211ed5e64346",
+  "active": "93886d7fa5963f6c",
   "lastOpenFiles": [
+    "Algebra/Exact Sequence.md",
+    "Algebra/Chain Complex.md",
+    "Algebra/Direct Sum.md",
     "Algebra/Group Homomorphism.md",
     "Algebra/Split Exact Sequence.md",
-    "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Algebra/Chain Complex.md",
     "Topology/Klein Bottle.md",
     "Topology/Homotopy.md",
     "TIKZ.md",
@@ -292,7 +292,6 @@
     "Topology/Retract.md",
     "Topology/Fundamental Group.md",
     "Algebra/Commutator Subgroup.md",
-    "Algebra/Direct Sum.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Probability Theory/Variance.md",
     "Topology/Contractible Space.md",
