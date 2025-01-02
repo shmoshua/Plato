@@ -120,16 +120,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group Homomorphism.md",
+                "file": "Algebra/Direct Sum.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Group Homomorphism"
+              "title": "Direct Sum"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -273,12 +273,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "510807fb504d312c",
+  "active": "9c5a211ed5e64346",
   "lastOpenFiles": [
-    "Algebra/Exact Sequence.md",
-    "Algebra/Split Exact Sequence.md",
-    "Topology/Algebraic Topology/Relative Homology.md",
     "Algebra/Group Homomorphism.md",
+    "Algebra/Split Exact Sequence.md",
+    "Algebra/Exact Sequence.md",
+    "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Algebra/Chain Complex.md",

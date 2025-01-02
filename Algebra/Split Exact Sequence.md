@@ -26,8 +26,13 @@
 
 ---
 > [!lemma] Proposition 2
-> Let $0\to A\to B\to C \to 0$ be a SES of abelian groups. 
+> Let $0\to A\to B\xrightarrow{j} C \to 0$ be a SES of abelian groups. 
 > 1. If $C$ is free abelian, then the sequence is split. 
+
+> [!proof]-
+> Let $\{ c_{\alpha} \}_{\alpha\in I}$ be the basis for $C$. Then, we define $s:C\to B$ as follows. For each $\alpha\in I$, choose $b_{\alpha}\in j^{-1}(c_{\alpha})\subseteq B$ and let $s(c_{\alpha}):= b_{\alpha}$. We can then extend $s$ linearly. 
+> 
+> We have that $j\circ s(c_{\alpha})=j(b_{\alpha})=c_{\alpha}$. This proves the statement.
 ---
 ##### Examples
 > [!h] Example 1
