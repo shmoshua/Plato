@@ -33,7 +33,14 @@
 > 2. if $b,d$ are surjective and $e$ is injective, then $c$ is surjective.
 > 3. if $a,b,d,e$ are isomorphisms, then $c$ is an isomorphism.
 
-> [!proof]+
+^b971c0
+
+> [!proof]-
 > We have that:
 > 1. Let $x\in \text{ker}(c)$. Then, $d(\ell(x))=\ell'(c(x))=\ell'(0)=0$. Hence, $\ell(x)\in \text{ker}(d)= 0$ and it follows that $\ell(x)=0$. Therefore, $x\in \text{ker}(\ell)=\text{im}(j)$ and there exists $y\in B$ with $j(y)=x$. Now, we have that: $$j'(b(y))=c(j(y))=c(x)=0$$Hence, $b(y)\in \text{ker}(j')=\text{im}(i')$ and there exists $z'\in A'$ with $i'(z')=b(y)$. Further, as $a$ is surjective, there exists $z\in A$ with $a(z)=z'$. Therefore, we have that: $$b(y)=i'(a(z))=b(i(z))$$By injectivity of $b$, then $y=i(z)\in \text{im}(i)=\text{ker}(j)$. It follows that $x=j(y)=0$ which shows that $c$ is injective.
-> 2. Let $x'\in C'$ and consider $\ell'(x')\in D'$. As $d$ is surjective, there exists $y\in D$ with $d(y)=\ell'(x')\in \text{im}(\ell')=\text{ker}(k')$ and $e(k(y))=k'(d(y))=0$. Hence, by injectivity of $e$, $k(y)=0$ and by exactness, there exists $x\in C$ with $\ell(x)=y$. Then, $$\ell'(c(x))=d(\ell(x))=d(y)=\ell'(x')$$and $c(x)-x'\in \text{ker}(\ell')=\text{im}(j')$ with $z'\in B'$ with $j'(z')=c(x)-x'$. Further, as $b$ is surjective, there exists $z\in B$ with $b(z)=z'$. Therefore, $$c(j(z))=j'(b(z))=j'(z')=c(x)-x'$$
+> 2. Let $x'\in C'$ and consider $\ell'(x')\in D'$. As $d$ is surjective, there exists $y\in D$ with $d(y)=\ell'(x')\in \text{im}(\ell')=\text{ker}(k')$ and $e(k(y))=k'(d(y))=0$. Hence, by injectivity of $e$, $k(y)=0$ and by exactness, there exists $x\in C$ with $\ell(x)=y$. Then, $$\ell'(c(x))=d(\ell(x))=d(y)=\ell'(x')$$and $c(x)-x'\in \text{ker}(\ell')=\text{im}(j')$ with $z'\in B'$ with $j'(z')=c(x)-x'$. Further, as $b$ is surjective, there exists $z\in B$ with $b(z)=z'$. Therefore, $$c(j(z))=j'(b(z))=j'(z')=c(x)-x'$$and $c(x-j(z))=x'$. This proves that $c$ is surjective.
+> 3. Follows from 1,2.
+
+^dc9a84
+
+---

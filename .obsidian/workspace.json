@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "4d5ec56e57395c88",
@@ -100,8 +100,7 @@
               "title": "Algebraic Topology I Roadmap"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -246,11 +245,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "93886d7fa5963f6c",
+  "active": "0fb9932122feb2ab",
   "lastOpenFiles": [
-    "Algebra/Chain Complex.md",
     "Algebra/Exact Sequence.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Algebra/Chain Complex.md",
     "Topology/Klein Bottle.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Homotopy.md",

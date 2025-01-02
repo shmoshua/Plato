@@ -59,6 +59,8 @@
 > 1. there exists $\partial_{*}:H_{p}(\mathcal{C})\to H_{p-1}(\mathcal{A})$ for all $p\in \mathbb{Z}$ s.t.:
 > $$\cdots\to H_{p+1}(\mathcal{C})\xrightarrow{\partial_{*}}H_{p}(\mathcal{A})\xrightarrow{i_{*}}H_{p}(\mathcal{B})\xrightarrow{j_{*}}H_{p}(\mathcal{C})\xrightarrow{\partial_{*}}H_{p-1}(\mathcal{A})\to\cdots$$is an [[exact sequence]].
 
+^7f660e
+
 > [!proof]-
 > Consider the following diagram. We define $\partial_{*}$ as follows:
 > $$\begin{CD}0 @>>> A_{p}@>i>>B_{p}@>j>>C_{p}@>>> 0
@@ -86,6 +88,9 @@
 > 	   Therefore, we have that: $\partial_{*}([j(b)])=[a]$.
 > 	6. **Claim 6**: $\text{ker}(\partial_{*})\subseteq \text{im}(j_{*})$
 > 	   Let $c\in C_{p}$ be a cycle with $\partial_{*}([c])=0$. Choose $b\in B_{p}$ with $j(b)=c$ and $a\in A_{p-1}$ with $i(a)=\partial b$. Then, we have that $a\in B_{p-1}(\mathcal{A})$ and there exists $a'\in A_{p}$ with $a=\partial a'$. Now, we have: $$\partial i(a')=i(\partial a')=i(a)=\partial b$$Hence, $\partial(b-i(a'))=0$ and $b-i(a')$ is a cycle. Further, we have: $$j(b-i(a'))=j(b)=c$$It follows that $j_{*}([b-i(a')])=[c]$.
+
+^6537e1
+
 ---
 > [!lemma] Theorem 4 (Commutativity of Long Exact Sequences)
 > Let $0\to \mathcal{A}\xrightarrow{i}\mathcal{B}\xrightarrow{j} \mathcal{C}\to 0$ and $0\to \mathcal{A}'\xrightarrow{i'}\mathcal{B}'\xrightarrow{j'} \mathcal{C}'\to 0$ be two SES's of chain complexes.
@@ -98,10 +103,14 @@
   \end{CD}$$
   commutes.
 
+^fed84b
+
 > [!proof]-
 > We have that:
 > 1. The first square commutes as by Proposition 2.2: $$i'_{*}\circ  f_{*}=(i' \circ  f)_{*}=(g \circ  i)_{*}=g_{*}\circ  i_{*}$$ 
 > 2. The second square commutes as by Proposition 2.2: $$j'_{*}\circ  g_{*}=(j' \circ  g)_{*}=(h \circ  j)_{*}=h_{*}\circ  j_{*}$$ 
 > 3. For the last square, let $c\in C_{p}$ be a cycle. Then, $\partial_{*}([c])=[a]$ where $a\in A_{p-1}$ and $i(a)=\partial b$ where $b\in B_{p}$ with $j(b)=c$. Then, $$i'(f(a))=g(i(a))=g(\partial b)=\partial (g(b))$$Hence, $$j'(g(b))=h(j(b))=h(c)\in Z_{p}(\mathcal{C}')$$Therefore, $\partial_{*}(h_{*}([c]))=\partial_{*}([h(c)])=[f(a)]=f_{*}([a])=f_{*}(\partial_{*}([c]))$, which proves the statement.
+
+^267869
 
 ---
