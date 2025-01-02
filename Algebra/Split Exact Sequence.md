@@ -24,6 +24,7 @@
 > 5. (4=>2): Let $e:= \text{id}_{} - i \circ u$. Then, $$e(e(b))=e(b-i(u(b)))=b-i(u(b))-i(u(b))+i(u(i(u(b))))=e(b)$$Now, let $b\in \text{ker}(e)$. Then, $b-i(u(b))=0$ and $b=i(u(b))$. Hence, $b\in \text{im}(i)$. Conversely, for $a\in A$, we have that: $$e(i(a))=i(a)-i(u(i(a)))=i(a)-i(a)=0$$
 > 6. (1=>4): Let $u:B\to A$ be defined as $u(b)=\text{pr}_{A}(\tau(b))$. Then, $$u(i(a))=\text{pr}_{A}(\tau(i(a)))=\text{pr}_{A}(i_{A}(a))=a$$
 
+- **Remark**: This also holds for SES of chain complexes. Further, by [[Chain Complex|Proposition 1.3]] and [[Chain Complex|Theorem 6]], if the SES is split, we have that $H_{p}(\mathcal{B})\cong H_{p}(\mathcal{A})\oplus H_{p}(\mathcal{C})$.
 ---
 > [!lemma] Proposition 2
 > Let $0\to A\to B\xrightarrow{j} C \to 0$ be a SES of abelian groups. 
@@ -33,6 +34,7 @@
 > Let $\{ c_{\alpha} \}_{\alpha\in I}$ be the basis for $C$. Then, we define $s:C\to B$ as follows. For each $\alpha\in I$, choose $b_{\alpha}\in j^{-1}(c_{\alpha})\subseteq B$ and let $s(c_{\alpha}):= b_{\alpha}$. We can then extend $s$ linearly. 
 > 
 > We have that $j\circ s(c_{\alpha})=j(b_{\alpha})=c_{\alpha}$. This proves the statement.
+- **Remark**: This doesn't necessarily hold for chain complexes. For topological spaces $(X,A)$, $H_{p}(X)\not\cong H_{p}(A)\oplus H_{p}(X,A)$ in general.
 ---
 ##### Examples
 > [!h] Example 1

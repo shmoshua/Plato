@@ -22,6 +22,8 @@
 - **Related definition**: A chain complex $\mathcal{C}$ is a ***chain subcomplex*** of a chain complex $\mathcal{D}$, if: ^3978bf
 	1. $C_{i}\leq D_{i}$ for all $i\in\mathbb{Z}$ and:
 	2. $\partial^C=\partial^D|_{C_{i}}$ for all $i\in \mathbb{Z}$.
+- **Related definition**: A SES of chain complex $0\to \mathcal{A} \to \mathcal{B}\to \mathcal{C}\to 0$ is ***split*** if we have a isomorphic chain map $\tau:\mathcal{B}\to \mathcal{A}\oplus \mathcal{C}$ s.t. $$\begin{CD}0 @>>> \mathcal{A}@>i>> \mathcal{B}@>j>> \mathcal{C} @>>> 0\\&@V\text{id}VV @V\tau VV@V\text{id}VV\\0 @>>> \mathcal{A}@>>i_{A}> \mathcal{A}\oplus \mathcal{C}@>>\text{pr}> \mathcal{C} @>>> 0  \end{CD}$$where $i_{A}(a) = (a,c)$ and $\text{pr}(a,c)=c$.
+- **Remark**: There exists a non-split SES of chain complex, where for each $p\in \mathbb{Z}$, $0\to A_{p}\to B_{p}\to C_{p}\to 0$ is [[Split Exact Sequence|split]].
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -137,4 +139,13 @@
 
 ---
 > [!lemma] Theorem 6 (Direct Sum Chain Complex)
-> Let $\mathcal{A},\mathcal{}$
+> Let $\mathcal{A},\mathcal{B}$ be chain complexes. Then, for: $$\partial:A_{p}\oplus B_{p}\to A_{p-1}\oplus B_{p-1},\quad (a,b)\mapsto (\partial^A(a),\partial^B(b))$$
+> 1. $\mathcal{A}\oplus \mathcal{B}:=(\{ A_{p} \oplus B_{p} \}_{p\in \mathbb{Z}},\partial)$ is a chain complex, called the ***direct sum*** of $\mathcal{A}$ and $\mathcal{B}$.
+> 2. $H_{p}(\mathcal{A}\oplus \mathcal{B})\cong H_{p}(\mathcal{A})\oplus H_{p}(\mathcal{B})$.
+
+> [!proof]-
+> We have that:
+> 1. $\mathcal{A}\oplus \mathcal{B}$ is obviously a chain complex.
+> 2. We have that: $$Z_{p}(\mathcal{A}\oplus  \mathcal{B})=\text{ker}(\partial_{p})=\text{ker}(\partial^A)\oplus \text{ker}(\partial^B)=Z_{p}(\mathcal{A})\oplus  Z_{p}(\mathcal{B})$$Further, $$B_{p}(\mathcal{A}\oplus \mathcal{B})=\text{im}(\partial)=\text{im}(\partial^A)\oplus \text{im}(\partial^B)=B_{p}(\mathcal{A})\oplus B_{p}(\mathcal{B})$$
+>    Therefore, $$H_{p}(\mathcal{A}\oplus \mathcal{B}):= Z_{p}(\mathcal{A}\oplus  \mathcal{B}) / B_{p}(\mathcal{A}\oplus \mathcal{B})\cong Z_{p}(\mathcal{A})/ B_{p}(\mathcal{A})\oplus Z_{p}(\mathcal{B})/ B_{p}(\mathcal{B})=H_{p}(\mathcal{A})\oplus H_{p}(\mathcal{B})$$
+---

@@ -13,6 +13,7 @@
 > We have that:
 > 1. $\mathcal{S}(X,A)$ is well-defined.
 > 2. there exists a long exact sequence: $$\cdots\to H_{p}(A)\xrightarrow{i_{*}} H_{p}(X)\xrightarrow{j_{*}} H_{p}(X,A)\xrightarrow{\partial_{*}} H_{p-1}(A)\to\cdots$$where $i:\mathcal{S}(A)\to \mathcal{S}(X)$ is the inclusion and $j:\mathcal{S}(X)\to \mathcal{S}(X,A)$ be the standard projection.
+> 3. $S_{p}(X,A)$ is free abelian.
 
 ^63d319
 
@@ -20,6 +21,7 @@
 > We have that:
 > 1. It suffices to show that $\mathcal{S}(A)$ is a chain subcomplex of $\mathcal{S}(X)$. Let $\sigma:\Delta_{p}\to A$ be a singular $p$-simplex in $A$. Then, $\sigma$ is also a $p$-simplex in $X$. Hence, $S_{p}(A)\leq S_{p}(X)$. This shows the statement.
 > 2. This follows from [[Chain Complex|Theorem 5]] and [[Chain Complex|Theorem 3]].
+> 3. Let $I:=\{ \sigma:\Delta_{p}\to X|\text{im}(\sigma)\nsubseteq A \}\subseteq S_{p}(X)$. Then, $\{ [\sigma] \}_{\sigma\in I}$ freely generates $S_{p}(X,A)$. 
 
 ^4c27aa
 
