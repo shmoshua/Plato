@@ -42,26 +42,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Reduced Homology.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Reduced Homology"
-            }
-          },
-          {
-            "id": "38d9f6022c5fab8b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Homology Theory"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -102,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Klein Bottle.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Klein Bottle"
+              "title": "Homology Theory"
             }
           },
           {
@@ -269,11 +259,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "38d9f6022c5fab8b",
+  "active": "bb659875e1f04472",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Acyclic Space.md",
     "Topology/Klein Bottle.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
+    "Topology/Algebraic Topology/Acyclic Space.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Algebra/Exact Sequence.md",
@@ -297,7 +288,6 @@
     "Probability Theory/Variance.md",
     "Topology/Contractible Space.md",
     "Topology/Algebraic Topology",
-    "Topology/Quotient Topology.md",
     "Courses/Algebraic Topology I",
     "Untitled 1",
     "Set Theory",
