@@ -18,6 +18,10 @@
   
 - **Related definition**: Chain complexes $\mathcal{A},\mathcal{B},\mathcal{C}$ form a ***short exact sequence (SES)*** with chain maps $i:\mathcal{A}\to \mathcal{B}$ and $j:\mathcal{B}\to \mathcal{C}$, if $0\to A_{k}\xrightarrow{i}B_{k}\xrightarrow{j} C_{k}\to 0$ is a [[Exact Sequence|SES]] for all $k\in \mathbb{Z}$.
    ^4bd728
+
+- **Related definition**: A chain complex $\mathcal{C}$ is a ***chain subcomplex*** of a chain complex $\mathcal{D}$, if:
+	1. $C_{i}\leq D_{i}$ for all $i\in\mathbb{Z}$ and:
+	2. $\partial^C=\partial^D|_{C_{i}}$ for all $i\in \mathbb{Z}$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -114,3 +118,14 @@
 ^267869
 
 ---
+> [!lemma] Theorem 5 (Quotient Chain Complex)
+> Let $\mathcal{D}$ be a chain complex and $\mathcal{C}$ a chain subcomplex of $\mathcal{D}$. Then, for: $$\partial: D_{p} / C_{p}\to D_{p-1} / C_{p-1},\quad [d]\mapsto[\partial^D(d)]$$we have that: 
+> 1. $\mathcal{D} / \mathcal{C}:=(\{ D_{i} / C_{i} \}_{i\in \mathbb{Z}},\partial)$ is a chain complex, called the ***quotient chain complex***.
+> 2. $0\to \mathcal{C}\xrightarrow{i} \mathcal{D}\xrightarrow{j} \mathcal{D} / \mathcal{C}\to0$ is a [[Exact Sequence|SES]] for inclusion $i$ and projection $j$. 
+
+> [!proof]+
+> We have that: 
+> 1. $\partial$ is well-defined as if $d-d'\in C_{p}$, then $\partial^D(d)-\partial^D(d')=\partial^D(d-d')\in C_{p-1}$. Further, we have that for any $d\in D_{p}$, $$\partial(\partial([d]))=\partial([\partial^D(d)]=[\partial^D(\partial^D(d))]=0$$
+> 2. We show that $i,j$ are chain maps. For $c\in C_{p}$, 
+> 	$$i(\partial^C(c))=\partial^C(c)=\partial^D(c)=\partial^D(i(c))$$
+> 	For $d\in D_{p}$, $$j(\partial^D(d))=[\partial^D(d)]=\partial([d])=\partial(j(d))$$
