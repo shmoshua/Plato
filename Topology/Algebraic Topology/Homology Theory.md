@@ -15,5 +15,26 @@
 > 4. **(Dimensions)**: For all $p\neq 0$ and a point space $X$, $H_{p}(X, \varnothing)=0$.
 > 5. **(Additivity)**: For $X=\bigsqcup_{\alpha\in I}^{}X_{\alpha}$ and the inclusion $i_{\alpha}: X_{\alpha}\to X$, it holds that: $$\oplus(i_{\alpha})_{*}:\bigoplus _{\alpha\in I} H_{p}(X_{\alpha},\varnothing)\to H_{p}(X),\quad (c_{\alpha})_{\alpha\in I}\mapsto \sum_{\alpha\in I}^{}(i_{\alpha})_{*}(c_{\alpha}) $$is an isomorphism for all $p\in \mathbb{Z}$.
 
-- **Related definition**: $H_{p}(X):=H_{p}$
-- **Related definition**: $G:=H_{0}(X,\varnothing)$
+^da2d12
+
+- **Related definition**: $H_{p}(X):=H_{p}(X , \varnothing)$ for all topological space $X$. ^3d68da
+- **Related definition**: $G:=H_{0}(X)$ where $X$ is a point space is known as the ***coefficients group*** of $H$. ^cd0ebd
+---
+##### Properties
+> [!lemma] Lemma 1
+> Let $H$ be a homology theory. Then,
+> 1. $H_{p}(\varnothing)=0$
+
+^d375b2
+
+> [!proof]-
+> We have that:
+> 1. Let $Y=\varnothing$. Then, $H_{p}(X)\oplus H_{p}(\varnothing) \cong H_{p}(X)$. Hence, $H_{p}(\varnothing)=0$.
+
+^525ab9
+
+---
+> [!lemma] Theorem 2
+> The singular homology is a homology theory with coefficients group $\mathbb{Z}$.
+
+---
