@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Chain Complex.md",
+                "file": "Topology/Algebraic Topology/Relative Homology.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Chain Complex"
+              "title": "Relative Homology"
             }
           },
           {
@@ -105,6 +105,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Topology/Algebraic Topology/Relative Homology.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Relative Homology"
+            }
+          },
+          {
+            "id": "9c5a211ed5e64346",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "mode": "preview",
                 "source": true
@@ -166,8 +180,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -259,13 +272,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bb659875e1f04472",
+  "active": "3a52de36f7a2cf47",
   "lastOpenFiles": [
-    "Algebra/Chain Complex.md",
     "Algebra/Exact Sequence.md",
+    "Topology/Algebraic Topology/Relative Homology.md",
+    "Algebra/Chain Complex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/Klein Bottle.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Klein Bottle.md",
     "Topology/Homotopy.md",
     "Algebra/Group Homomorphism.md",
     "TIKZ.md",
@@ -288,7 +302,6 @@
     "Graph Theory/Sparsest Cut.md",
     "Graph Theory/Steiner Forest.md",
     "Algorithms/Covering.md",
-    "Topology/Compact Space.md",
     "Untitled 1",
     "Set Theory",
     "Algorithms/Graph Algorithms",
