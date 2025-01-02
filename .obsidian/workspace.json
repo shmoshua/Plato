@@ -98,9 +98,23 @@
               "icon": "lucide-file",
               "title": "Algebraic Topology I Roadmap"
             }
+          },
+          {
+            "id": "bb659875e1f04472",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "p-Simplex"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -245,11 +259,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3b7da21a85300d3c",
+  "active": "bb659875e1f04472",
   "lastOpenFiles": [
     "Algebra/Chain Complex.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Algebra/Exact Sequence.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Klein Bottle.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Homotopy.md",
