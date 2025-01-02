@@ -14,5 +14,10 @@
 
 > [!proof]+
 > We have that:
-> 1. (1=>2): We define $e:B\to B,b\mapsto \tau ^{-1}(i_{C}(j(b)))$. We have that: $$e\circ  e=\tau ^{-1}\circ  i_{C}\circ  j\circ \tau ^{-1}\circ  i_{C}\circ  j=\tau ^{-1}\circ  i_{C}\circ  j\circ \tau ^{-1}\circ  i_{C}\circ  j$$
+> 1. (1=>2): We define $e:B\to B,b\mapsto \tau ^{-1}(i_{C}(j(b)))$. We have that: $$e\circ  e=\tau ^{-1}\circ  i_{C}\circ  j\circ \tau ^{-1}\circ  i_{C}\circ  j=\tau ^{-1}\circ  i_{C}\circ  \text{pr} \circ  i_{C}\circ  j=\tau ^{-1}\circ  i_{C}\circ  \circ  j=e$$Further, $b\in \text{ker}(e)$ if and only if $i_{C}(j(b))=(0,0)$ and $j(b)=0$. Therefore, $\text{ker}(e)=\text{ker}(j)$.
+> 2. (2=>1): Let $b\in B$. Note that, $b-e(b)\in \text{im}(i)$. Indeed, $$e(b-e(b))=e(b)-e(b)=0$$Hence, $b-e(b)\in \text{ker}(e)=\text{im}(i)$. Hence, there exists a unique $a\in A$ with $i(a)=b-e(b)$ and we define $$\tau:B\to A\oplus C,\quad b\mapsto (a,j(b))$$We need to show that $\tau$ is an isomorphism.
+> 	1. Let $b,b'\in B$. Then, $$i(a+a')=i(a)+i(a')=b-e(b)+b'-e(b')=(b+b')-e(b+b')$$Hence, $\tau(b+b')=(a+a',j(b)+j(b'))=\tau(b)+\tau(b')$.
+> 	2. $\tau$ is invertible. Let $(a,c)\in A\oplus C$. As $j$ is surjective, there exists $b\in B$ with $j(b)=c$. Then, we let $\rho:A\oplus C\to B,(a,c)\mapsto i(a)+e(b)$. Now,$$\rho(\tau(b))=\rho(a,j(b))=i(a)+e(b)=b-e(b)+e(b)=b$$and we also have that $e(i(a))=0$ and therefore, $i(a)=i(a)-e(i(a))$. Further, $i(0)=e(b)-e(e(b))=0$ and $j(e(b))=j(e(b)+b-b)=j(b)-j(b-e(b))=j(b)=c$. Hence,  $$\tau(\rho(a,c))=\tau(i(a))+\tau(e(b))=(a,\underbrace{ j(i(a)) }_{ =0 })+(0,c)=(a,c)$$
+> 	3. We have that for $a\in A$, $$\tau(i(a))=(a,j(i(a)))=(a,0)=i_{A}(a)$$and $\text{pr}(\tau(b))=j(b)$.
+> 3. (3=>2) Let $e:=s \circ j$. Then, $e^{2}=s\circ j \circ s \circ j= s \circ j = e$ and for $b\in \ker(b)$, $$j(b)=j\circ s\circ  j(\text{id})=$$
 
