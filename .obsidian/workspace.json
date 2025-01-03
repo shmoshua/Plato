@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/One-Point Compactification.md",
+                "file": "Differential Geometry/Smooth Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "One-Point Compactification"
+              "title": "Smooth Function"
             }
           },
           {
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -344,13 +344,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0d6ca7f41a2304fc",
+  "active": "8d9d0a70b733e7e3",
   "lastOpenFiles": [
     "Topology/One-Point Compactification.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Continuous Function.md",
     "Differential Geometry/Sphere.md",
     "Differential Geometry/Vector Field.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",

@@ -74,10 +74,12 @@
 > Let $A\in \text{GL}(n,\mathbb{R})$. Then, 
 > 1. $\widehat{A}:\mathbb{R}^n\cup \{ \infty \}\to \mathbb{R}^n\cup \{ \infty \}$ given by $\widehat{A}|_{\mathbb{R}^n}=A$ and $\widehat{A}(\infty)=\infty$ has degree: $$\deg(\widehat{A}):=\text{sgn}(\det A)\in\{ -1,+1 \}$$
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. Let $A=E_{1}\dots E_{r}$ be the Gaussian elimination of $A$, i.e. $E_{1},\dots,E_{r}\in \text{GL}(n,\mathbb{R})$ are elementary matrices of the following type:
->    $$\begin{bmatrix}I_{i}\\&\lambda\\&&I_{n-i-1}\end{bmatrix},\begin{bmatrix} I_{i-1}& \\&1&&\xi \\&&I_{j-i-1}&\\&&&1 \\&&&&I_{n-j} \end{bmatrix},\begin{bmatrix} I_{i-1}& \\&&&1 \\&&I_{j-i-1}&\\&1&& \\&&&&I_{n-j} \end{bmatrix}$$where $\lambda\neq 0$ and $\xi\in \mathbb{R}$. First, we show that the statement holds for these elementary matrices.
+> 1. We first claim that for $A,B\in \text{GL}(n,\mathbb{R})$, if the statements hold for $A,B$ then it also does for $AB$. We have that: $$\deg(\widehat{AB})=\deg(\widehat{A} \circ \widehat{B})=\deg(\widehat{A})\deg(\widehat{B})=\text{sgn}(\det A)\cdot  \text{sgn}(\det B)=\text{sgn}(\det AB)$$
+>    Now, let $A=E_{1}\dots E_{r}$ be the Gaussian elimination of $A$, i.e. $E_{1},\dots,E_{r}\in \text{GL}(n,\mathbb{R})$ are elementary matrices of the following type:
+>    $$\begin{bmatrix}I_{i}\\&\lambda\\&&I_{n-i-1}\end{bmatrix},\begin{bmatrix} I_{i-1}& \\&1&&\xi \\&&I_{j-i-1}&\\&&&1 \\&&&&I_{n-j} \end{bmatrix},\begin{bmatrix} I_{i-1}& \\&&&1 \\&&I_{j-i-1}&\\&1&& \\&&&&I_{n-j} \end{bmatrix}$$where $\lambda\neq 0$ and $\xi\in \mathbb{R}$. Hence, it suffices to show that the statement holds for these elementary matrices.
 >    1. For $E$ in Type 1, we have that: $\widehat{E} \sim \widehat{\begin{bmatrix}I_{i}\\&\text{sgn}(\lambda)\\&&I_{n-i-1}\end{bmatrix}}$. Further, we have that: $\det(E)=\lambda$. Therefore, we have that: $\deg(\widehat{E})=\text{sgn}(\lambda)=\text{sgn}(\det(E))$.
 >    2. For $E$ in Type 2, we first define $$E_{t}:=\begin{bmatrix} I_{i-1}& \\&1&&t\xi \\&&I_{j-i-1}&\\&&&1 \\&&&&I_{n-j} \end{bmatrix}$$Then, $$F:\mathbb{R}^n\cup \{ \infty \}\times[0,1]\to \mathbb{R}^n\cup \{ \infty \},\quad (x,t)\mapsto  \widehat{E}_{t}(x)$$defines a homotopy from $\widehat{E}$ to $\text{id}$. Therefore, $\deg(\widehat{E})=\deg(\text{id})=1=\text{sgn}(1)=\text{sgn}(\det E)$.
->    3.  For $E$ in Type 3, $E$ is a reflection about some hyperplane in $\mathbb{R}^n$. 
+>    3.  For $E$ in Type 3, $E$ is a reflection about some hyperplane in $\mathbb{R}^n$. By changing coordinates, we can write $E$ as $\begin{bmatrix}I\\&-1\end{bmatrix}$. Hence, $$\deg(\widehat{E})=-1=\text{sgn}(-1)=\text{sgn}(\det E)$$
+---
