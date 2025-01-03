@@ -141,9 +141,23 @@
               "icon": "lucide-file",
               "title": "Degree of Sphere Maps"
             }
+          },
+          {
+            "id": "8d9d0a70b733e7e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Homology Theory"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -287,11 +301,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0d6ca7f41a2304fc",
+  "active": "8d9d0a70b733e7e3",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Singular Homology.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Homotopy.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Retract.md",
@@ -307,7 +322,6 @@
     "Topology/Compact Space.md",
     "Topology/Homeomorphism.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Topology/Klein Bottle.md",
     "Algebra/Chain Complex.md",
