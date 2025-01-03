@@ -176,12 +176,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Smooth Function.md",
+                "file": "Differential Geometry/Differential.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Smooth Function"
+              "title": "Differential"
+            }
+          },
+          {
+            "id": "beb539658d49a004",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Submersion.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Submersion"
             }
           },
           {
@@ -199,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,7 +244,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stereographic",
+                "query": "sard",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -344,10 +358,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8d9d0a70b733e7e3",
+  "active": "0d6ca7f41a2304fc",
   "lastOpenFiles": [
-    "Topology/One-Point Compactification.md",
+    "Differential Geometry/Differential.md",
+    "Differential Geometry/Smooth Manifold.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Differential Geometry/Submersion.md",
+    "Differential Geometry/Smooth Function.md",
+    "Topology/One-Point Compactification.md",
     "Topology/Continuous Function.md",
     "Differential Geometry/Sphere.md",
     "Differential Geometry/Vector Field.md",
@@ -368,10 +386,6 @@
     "Algebra/Exact Sequence.md",
     "Topology/Contractible Space.md",
     "Topology/Compact Space.md",
-    "Topology/Homeomorphism.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Acyclic Space.md",
-    "Topology/Klein Bottle.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

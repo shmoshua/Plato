@@ -83,3 +83,12 @@
 >    2. For $E$ in Type 2, we first define $$E_{t}:=\begin{bmatrix} I_{i-1}& \\&1&&t\xi \\&&I_{j-i-1}&\\&&&1 \\&&&&I_{n-j} \end{bmatrix}$$Then, $$F:\mathbb{R}^n\cup \{ \infty \}\times[0,1]\to \mathbb{R}^n\cup \{ \infty \},\quad (x,t)\mapsto  \widehat{E}_{t}(x)$$defines a homotopy from $\widehat{E}$ to $\text{id}$. Therefore, $\deg(\widehat{E})=\deg(\text{id})=1=\text{sgn}(1)=\text{sgn}(\det E)$.
 >    3.  For $E$ in Type 3, $E$ is a reflection about some hyperplane in $\mathbb{R}^n$. By changing coordinates, we can write $E$ as $\begin{bmatrix}I\\&-1\end{bmatrix}$. Hence, $$\deg(\widehat{E})=-1=\text{sgn}(-1)=\text{sgn}(\det E)$$
 ---
+> [!lemma] Theorem 5 (Smooth Maps)
+> Let $f:S^n\to S^n$ be a [[Smooth Function|smooth map]]. For $p\in S^n$, we define $$\varepsilon_{p}(f):=\text{sgn}(\det d_p(\sigma \circ f))\in\{ -1,0,+1 \}$$where $\sigma\in \text{SO}(n+1)$ s.t. $\sigma(f(p))=p$. Then,
+> 1. $\varepsilon_{p}(f)$ is independent of the choice of $\sigma$.
+> 2. If $q\in S^n$ is a [[Submanifold|regular value]] s.t. $f^{-1}(q)=\{ p \}\subseteq S^n$, then $\deg(f)=\varepsilon_{p}(f)\in \{ -1,+1 \}$.
+
+> [!proof]+
+> We have that:
+> 1. Let $\sigma,\sigma'$ be two such maps. Then, $$\sigma'\circ f=(\sigma'\circ \sigma ^{-1})\circ (\sigma \circ f)$$and we have: $$\det d_{p}(\sigma'\circ f)=\det (d_{p}(\sigma' \circ \sigma ^{-1})d_{p}(\sigma \circ f))=\det(\sigma'\circ \sigma ^{-1})\det(d_{p}(\sigma \circ f))=\det(d_{p}(\sigma \circ f))$$
+> 2. Let $\hat{\pi}:S^n\to \mathbb{R}^n \cup \{ 0 \}$ be the homeomorphism from [[One-Point Compactification|Example 1]]. Let $\sigma_{1},\sigma_{2}\in \text{SO}(n+1)$ with $\sigma_{1}(0)=p$ and $\sigma_{2}(q)=0$. Then, let $f':= \sigma_{2} \circ f \circ \sigma_{1}$. Then, if the statement holds for $f'$, we have that: $$\deg(f)=\deg(f_{1})=\text{sgn}(\det d_{0}( \sigma_{2} \circ  f \circ  \sigma_{1}))=\text{sgn}(\det d_{p}(\sigma \circ  f))=\varepsilon_{p}(f)$$where $d_{0}(\sigma_{2}\circ f\circ \sigma_{1})=d_{p}(\sigma_{2}\circ \sigma ^{-1})d_{p}(\sigma \circ f)d_{0}(\sigma_{1})=d_{p}(\sigma_{2}\circ \sigma ^{-1})d_{p}(\sigma \circ f)\sigma_{1}$
