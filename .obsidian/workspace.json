@@ -162,16 +162,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIKZ.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TIKZ"
+              "title": "Compact Space"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -315,11 +315,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b42931d7a097d079",
+  "active": "29bef1dc32e7893e",
   "lastOpenFiles": [
-    "Algebra/Split Exact Sequence.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Homeomorphism.md",
     "TIKZ.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Algebra/Split Exact Sequence.md",
     "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Algebraic Topology/Singular Homology.md",
@@ -342,7 +343,6 @@
     "Topology/Fundamental Group.md",
     "Algebra/Commutator Subgroup.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
-    "Probability Theory/Variance.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
