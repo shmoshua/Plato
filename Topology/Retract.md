@@ -45,3 +45,16 @@
 ^0fd510
 
 ---
+> [!Example 2]
+> We have that:
+> 1. there exists no retraction $r:B^n\to S^{n-1}$.
+
+> [!proof]-
+> Assume there exists such $r$. Let $H$ be a [[homology theory]] with coefficients group $G\neq 0$. Then, by definition, we have that $r\circ i=\text{id}$ where $i$ is the inclusion. Hence, 
+>```tikz 
+>\usepackage{tikz-cd} \begin{document} \begin{tikzcd} {G=\tilde{H}_{n-1}(S^{n-1})} & {0=\tilde{H}_{n-1}(B^n)} \\ & {G=\tilde{H}_{n-1}(S^{n-1})} \arrow["{i_*}", from=1-1, to=1-2] \arrow["{\textrm{id}}"', from=1-1, to=2-2] \arrow["{r_*}", from=1-2, to=2-2] \end{tikzcd}\end{document}
+>```
+> 
+> implies that $G=0$ which is a contradiction.
+
+---

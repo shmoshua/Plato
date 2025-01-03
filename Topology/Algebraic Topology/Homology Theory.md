@@ -105,7 +105,7 @@
 > 2. $H_{p}(B^n,S^{n-1})\cong \begin{cases} G&p=n\\0&p\neq n\end{cases}$
 > 3. $H_{p}(S^n,B^n_{+})=\begin{cases}G&p=n\\0&p\neq n\end{cases}$
 
-> [!proof]+
+> [!proof]-
 > We first define $\pi:S^n\to \mathbb{R}^n,(x_{1},\dots,x_{n+1})\mapsto (x_{1},\dots,x_{n})$. Then, $\pi(S^n)=B^n$ and $\pi(N)=\pi(S)=0$ where $N:=(0,\dots,0,+1)\in S^n$ and $S:=(0,\dots,0,-1)\in S^n$.
 > 
 > Further, $\phi:B^n\to B^n_{+}$ can be defined as $$\phi(x_{1},\dots,x_{n})=\left( x_{1},\dots,x_{n},\sqrt{ 1-\sum_{i=1}^{n}x_{i}^{2} } \right)$$which is continuous inverse for $\pi|_{B^n_{+}}$. Hence, as $B^n_{+}$ is compact and $B^n$ is Hausdorff, $\pi|_{B^n_{+}}$ is a homeomorphism.
@@ -120,4 +120,8 @@
 >    
 >    Now, we will show the homotopy equivalence. We define: $$q:(S^n \backslash U,B^n_{+} \backslash U)\to(B^n_{-},S^{n-1}),\quad x\mapsto \begin{cases}\left( \frac{\pi(x)}{\left\| \pi(x) \right\| } ,0\right)&x\in B^n_{+}\\x&x\in B^n_{-}\end{cases}$$which is well-defined. Then, for the inclusion $i:(B^n_{-},S^{n-1})\to(S^n \backslash U, B^n_{+} \backslash U)$, we have that:
 >    1. $q\circ i=\text{id}$. 
->    2. To show that $i\circ q \sim \text{id}_{(S^n \backslash U)}$, we define the homotopy: $$F:(S^n \backslash U)\times[0,1]\to S^n \backslash U$$
+>    2. To show that $i\circ q \sim \text{id}_{(S^n \backslash U)}$, we define the homotopy: $$F:(S^n \backslash U)\times[0,1]\to S^n \backslash U,\quad (x,t)\mapsto \begin{cases}\frac{(1-t)x+tq(x)}{\left\| (1-t)x+tq(x) \right\| }&x\notin B^n_{-}\\x&x\in B^n_{-}\end{cases}$$Then, $F(x,0)=x$ and $F(x,1)=q(x)$. Further, it is well-defined as $(1-t)x+tq(x)\neq 0$ for all $x\notin B^n_{-}$ and $t\in [0,1]$.  
+>  4. **Claim 4: 2 holds for $n$ if and only if 1 holds for $n-1$.**
+>     Consider the reduced LES: $$0=\tilde{H}_{p}(B^n)\to H_{p}(B^n, S^{n-1})\to \tilde{H}_{p-1}(S^{n-1})\to \tilde{H}_{p-1}(B^n)=0$$which is exact. Hence, $H_{p}(B^n,S^{n-1})\cong \tilde{H}_{p-1}(S^{n-1})$.
+>     
+>  Hence, by induction this proves the statement.
