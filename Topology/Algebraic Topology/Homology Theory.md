@@ -19,23 +19,26 @@
 
 - **Related definition**: $H_{p}(X):=H_{p}(X , \varnothing)$ for all topological space $X$. ^3d68da
 - **Related definition**: $G:=H_{0}(X)$ where $X$ is a point space is known as the ***coefficients group*** of $H$. ^cd0ebd
-- **Related definition**: For $X\neq \varnothing$, let $P$ be a point space. Then, consider $\varepsilon:X\to P$ be the constant map. Then, 
-	1. the ***reduced homology*** $\tilde{H}_{p}(X):=\text{ker }\varepsilon_{*}$ where $\varepsilon_{*}:H_{p}(X)\to H_{p}(P)$ for all $p\in \mathbb{Z}$.
-	2. the ***reduced homology*** for a pair $(X,A)$ is given as $\tilde{H}_{p}(X,A):=H_{p}(X,A)$ for all $p\in \mathbb{Z}$.
-- **Remark**: $\tilde{H}_{p}(X,\varnothing)\neq \tilde{H}_{p}(X)$ in general.
+- **Related definition**: The ***reduced homology*** $\tilde{H}$ is defined as:
+	1.  For $X\neq \varnothing$ and $p\in \mathbb{Z}$, $\tilde{H}_{p}(X):=\text{ker }\varepsilon_{*}$ where $P$ is a point space and $\varepsilon:X\to P$ is the constant map.
+	2. For a pair $(X,A)$, $\tilde{H}_{p}(X,A):=H_{p}(X,A)$ for all $p\in \mathbb{Z}$.
+	3. For $X=\varnothing$, $\tilde{H}_{p}(\varnothing)=\begin{cases}G&p=-1\\0&p\neq-1\end{cases}$
+- **Remark**: $\tilde{H}_{p}(X,\varnothing)\neq \tilde{H}_{p}(X)$ in general and $\tilde{H}_{p}(\varnothing,\varnothing)=H_{p}(\varnothing,\varnothing)=H_{p}(\varnothing)=0$ (cf. Lemma 1)
 ---
 ##### Properties
 > [!lemma] Lemma 1
 > Let $H$ be a homology theory. Then,
-> 1. $H_{p}(\varnothing)=0$
-> 2. For a [[Homotopy|homotopy equivalence]] $f:(X,A)\to(Y,B)$, $f_{*}$ is an isomorphism.
+> 1. $H_{p}(\varnothing)=0$ for all $p\in \mathbb{Z}$.
+> 3. $H_{p}(X,X)=0$ for all $p\in \mathbb{Z}$
+> 4. For a [[Homotopy|homotopy equivalence]] $f:(X,A)\to(Y,B)$, $f_{*}$ is an isomorphism.
 
 ^d375b2
 
-> [!proof]-
+> [!proof]+
 > We have that:
 > 1. Let $Y=\varnothing$. Then, $H_{p}(X)\oplus H_{p}(\varnothing) \cong H_{p}(X)$. Hence, $H_{p}(\varnothing)=0$.
-> 2. Let $g:(Y,B)\to(X,A)$ be the homology inverse of $f$. Then, $$g_{*} \circ  f_{*} = (g\circ f)_{*}=\text{id}_{*}=\text{id}_{H_{p}(X,A)}$$$$f_{*} \circ  g_{*} = (f\circ g)_{*}=\text{id}_{*}=\text{id}_{H_{p}(Y,B)}$$
+> 2. We have an exact sequence: $$\cdots \to H_{p+1}(X,\varnothing)\to H_{p}(X,\varnothing)\xrightarrow{\text{id}} H_{p}(X,\varnothing)\xrightarrow{j_{*}} H_{p}(X,X)\to H_{p-1}(X,\varnothing)\to\cdots$$Hence, $H_{p}(X,\varnothing)=\text{ker }j_{*}$ and $j_{*} = 0$. It follows that $0=\text{ker }\partial_{*}$
+> 3. Let $g:(Y,B)\to(X,A)$ be the homology inverse of $f$. Then, $$g_{*} \circ  f_{*} = (g\circ f)_{*}=\text{id}_{*}=\text{id}_{H_{p}(X,A)}$$$$f_{*} \circ  g_{*} = (f\circ g)_{*}=\text{id}_{*}=\text{id}_{H_{p}(Y,B)}$$
 
 ^525ab9
 
@@ -44,11 +47,17 @@
 > Let $\tilde{H}_{p}(X)$ be the reduced homology given by $\text{ker }\varepsilon_{*}$ where $\varepsilon:X\to P$ for the point space $P$. Then,
 > 1. $H_{p}(X)=\tilde{H}_{p}(X)$ for $p\neq 0$.
 > 2. $H_{0}(X)\cong \tilde{H}_{0}(X)\oplus G$
+> 3. there exists $\tilde{i}_{*},\tilde{j_{*}}$ s.t. the following sequence is exact: $$\cdots \to \tilde{H}_{p}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{p}(X)\xrightarrow{\tilde{j}_{*}}\tilde{H}_{p}(X,A)\xrightarrow{\tilde{\partial}_{*}} \tilde{H}_{p-1}(A)\to\cdots$$
 
 > [!proof]+
 > We have that:
 > 1. Follows from the fact that $\varepsilon_{*}$ is the zero map for $p\neq 0$. 
-> 2. Let $i:P\to X$. Then, $$
+> 2. Let $i:P\to X$. Then, $\varepsilon \circ i=\text{id}_{P}$ and $\varepsilon_{*}\circ i_{*} = \text{id}_{H_{p}(P)}$. This shows that $\varepsilon_{*}$ is surjective and: $$0\to \tilde{H}_{p}(X)\to H_{p}(X)\xrightarrow{\varepsilon_{*}}H_{p}(P)\to 0$$defines a SES. As $i_{*}$ is the right inverse of $\varepsilon_{*}$, by [[Split Exact Sequence|Proposition 1]], the SES is split. Therefore, $$H_{p}(X)\cong \tilde{H}_{p}(X)\oplus H_{p}(P)$$and we have our statement when $p=0$.
+> 3. We first show it for $A\neq \varnothing$. As we only need to check the parts of the sequence with $\tilde{H}\neq H$, we have that we need to show: $$H_{1}(X,A)\xrightarrow{\partial_{*}}\tilde{H}_{0}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{0}(X)\xrightarrow{{j}_{*}|_{\tilde{H}_{0}(X)}}{H}_{0}(X,A)\xrightarrow{\partial_{*}} {H}_{-1}(A)$$is exact.
+>    
+>    We first show that these maps are well-defined: Let $P$ be a point space and consider $\varepsilon:(X,A)\to(P,P)$. 
+>    1. **Claim 1**: $\partial_{*}(H_{1}(X,A))\subseteq \tilde{H}_{0}(A)$.
+>    2. **Claim 2**: $\tilde{i}_{*}(\tilde{H}_{0}(A))\subseteq \tilde{H}_{0}(X)$
 
 ---
 > [!lemma] Theorem 3
