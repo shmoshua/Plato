@@ -91,9 +91,37 @@
               "icon": "lucide-file",
               "title": "Degree of Sphere Maps"
             }
+          },
+          {
+            "id": "aeb6e5ec52600248",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/One-Point Compactification.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "One-Point Compactification"
+            }
+          },
+          {
+            "id": "59e8cf10adde0ae3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Sphere.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Sphere"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       },
       {
         "id": "4d5ec56e57395c88",
@@ -188,7 +216,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bro",
+                "query": "stereographic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,7 +237,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -301,8 +330,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8d9d0a70b733e7e3",
+  "active": "59e8cf10adde0ae3",
   "lastOpenFiles": [
+    "Topology/One-Point Compactification.md",
     "Differential Geometry/Vector Field.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Homology Theory.md",
@@ -328,7 +358,6 @@
     "Topology/Klein Bottle.md",
     "Algebra/Chain Complex.md",
     "Topology/Path-Connected Space.md",
-    "Algebra/Module.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

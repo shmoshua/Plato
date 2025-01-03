@@ -45,3 +45,12 @@
 > 
 > If $x,y\in X$, then as $X$ is Hausdorff, there exists disjoint neighborhoods $U,V$ of $x,y$.
 ---
+##### Examples
+> [!h] Example 1
+> We have that:
+> 1. $S^n$ is homeomorphic to $\alpha\mathbb{R}^n:=\mathbb{R}^n\cup \{ \infty \}$
+
+> [!proof]+
+> We have:
+> 1. Let $N:=(0,\dots,0,1)\in S^n$ and let $\pi:S^n \backslash \{ N \}\to \mathbb{R}^n$ be the stereographic projection defined as: $$\pi(x)=\frac{1}{1-x_{n+1} }(x_{1},\dots,x_{n})$$Notice that $\pi$ is continuous and has the inverse: $$\pi ^{-1}:\mathbb{R}^n\to S^n \backslash \{ N \},\quad (x_{1},\dots,x_{n})\mapsto \frac{1}{\|x\|^2+1}(2x_{1},\dots,2x_{n},\|x\|^{2}-1)$$
+>    We have that: $$\pi ^{-1}\circ \pi(x)=\frac{1}{1+\sum_{i=1}^{n}\frac{x_{i}^2}{(1-x_{n+1})^{2}}}\left( \frac{2x_{1}}{1-x_{n+1} } ,\dots,\frac{2x_{n}}{1-x_{n+1} }, -1+\sum_{i=1}^{n}\frac{x_{i}^2}{(1-x_{n+1})^{2}}\right)$$
