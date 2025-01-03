@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -315,11 +315,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9973f9377eda7949",
+  "active": "0d6ca7f41a2304fc",
   "lastOpenFiles": [
-    "Algebra/Splitting Field.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Algebra/Split Exact Sequence.md",
+    "Algebra/Splitting Field.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Homotopy.md",
@@ -333,7 +334,6 @@
     "Courses/Linear System Theory/Problem Set 5.md",
     "Algebra/Exact Sequence.md",
     "Topology/Contractible Space.md",
-    "Algebra/Split Exact Sequence.md",
     "Topology/Compact Space.md",
     "Topology/Homeomorphism.md",
     "Topology/Algebraic Topology/p-Simplex.md",
