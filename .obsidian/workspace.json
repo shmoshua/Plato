@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -315,10 +315,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0d6ca7f41a2304fc",
+  "active": "8d9d0a70b733e7e3",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Split Exact Sequence.md",
     "Algebra/Splitting Field.md",
     "Topology/Algebraic Topology/Singular Homology.md",
