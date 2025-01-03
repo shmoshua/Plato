@@ -49,7 +49,7 @@
 > 2. $H_{0}(X)\cong \tilde{H}_{0}(X)\oplus G$
 > 3. there exists $\tilde{i}_{*},\tilde{j_{*}}$ s.t. the following sequence is exact: $$\cdots \to \tilde{H}_{p}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{p}(X)\xrightarrow{\tilde{j}_{*}}\tilde{H}_{p}(X,A)\xrightarrow{\tilde{\partial}_{*}} \tilde{H}_{p-1}(A)\to\cdots$$
 
-> [!proof]+ Proof (Incomplete)
+> [!proof]- Proof (Incomplete)
 > We have that:
 > 1. Follows from the fact that $\varepsilon_{*}$ is the zero map for $p\neq 0$. 
 > 2. Let $i:P\to X$. Then, $\varepsilon \circ i=\text{id}_{P}$ and $\varepsilon_{*}\circ i_{*} = \text{id}_{H_{p}(P)}$. This shows that $\varepsilon_{*}$ is surjective and: $$0\to \tilde{H}_{p}(X)\to H_{p}(X)\xrightarrow{\varepsilon_{*}}H_{p}(P)\to 0$$defines a SES. As $i_{*}$ is the right inverse of $\varepsilon_{*}$, by [[Split Exact Sequence|Proposition 1]], the SES is split. Therefore, $$H_{p}(X)\cong \tilde{H}_{p}(X)\oplus H_{p}(P)$$and we have our statement when $p=0$.
@@ -84,12 +84,40 @@
 > 	   Therefore, $a\in \tilde{H}_{0}(A)$ and $x\in \text{im }\tilde{i}_{*}$.
 > 	  
 > 	  3. **Exactness at $H_{0}(X,A)$.** 
-> 	     $\text{im }\tilde{j}_{*}\subseteq \text{ker }\partial_{*}$ by definition. Then, for $x\in \text{ker }\partial_{*}$, we have that $$
+> 	     $\text{im }\tilde{j}_{*}\subseteq \text{ker }\partial_{*}$ by definition. Then, for $x\in \text{ker }\partial_{*}$, we have that 
 
 
 ---
 > [!lemma] Theorem 3
 > The singular homology is a homology theory with coefficients group $\mathbb{Z}$.
-> 
+
 
 ---
+##### Examples
+> [!h] Example 1
+> Let 
+> 1. $B^n:=B_{\leq 1}(0)\subseteq \mathbb{R}^n$ for $n\geq 1$ and $B_{0}:=\{ 0 \}$. 
+> 2. $S^n:=\partial B^{n+1}$.
+> 3. $B^n_{+}:=\{ (x_{1},\dots,x_{n+1})\in S^n:x_{n+1}\geq 0 \}\subseteq S^n$ for all $n\geq 0$.
+>    
+> Then, we have that:
+> 1. $\tilde{H}_{p}(S^n)\cong \begin{cases}G&p=n\\0&p\neq n\end{cases}$
+> 2. $H_{p}(B^n,S^{n-1})\cong \begin{cases} G&p=n\\0&p\neq n\end{cases}$
+> 3. $H_{p}(S^n,B^n_{+})=\begin{cases}G&p=n\\0&p\neq n\end{cases}$
+
+> [!proof]+
+> We first define $\pi:S^n\to \mathbb{R}^n,(x_{1},\dots,x_{n+1})\mapsto (x_{1},\dots,x_{n})$. Then, $\pi(S^n)=B^n$ and $\pi(N)=\pi(S)=0$ where $N:=(0,\dots,0,+1)\in S^n$ and $S:=(0,\dots,0,-1)\in S^n$.
+> 
+> Further, $\phi:B^n\to B^n_{+}$ can be defined as $$\phi(x_{1},\dots,x_{n})=\left( x_{1},\dots,x_{n},\sqrt{ 1-\sum_{i=1}^{n}x_{i}^{2} } \right)$$which is continuous inverse for $\pi|_{B^n_{+}}$. Hence, as $B^n_{+}$ is compact and $B^n$ is Hausdorff, $\pi|_{B^n_{+}}$ is a homeomorphism.
+> 
+> Now we prove the following claims:
+> 1. **Claim 1: 3 holds for $n=0$.**
+>    By excision, we have: $$H_{p}(S^0,B^0_{+})=H_{p}(\{ \pm 1 \},\{ +1 \})=H_{p}(\{ -1 \},\varnothing)=\begin{cases}G&p=0\\0&p\neq 0\end{cases}$$
+> 2. **Claim 2: 1 holds for $n$ if and only if 3 holds for $n$**
+>    Consider the reduced LES of $(S^n,B^n_{+})$. We have that: $$\tilde{H}_{p}(B^n_{+})\to \tilde{H}_{p}(S^n)\to H_{p}(S^n,B^n_{+})\xrightarrow{\partial_{*}}\tilde{H}_{p-1}(B^n_{+})$$However, as $B^n_{+}$ is contractible, we have that $\tilde{H}_{p}(B^n_{+})=0$ and we have that by [[Exact Sequence|Proposition 1]], $\tilde{H}_{p}(S^n)\cong H_{p}(S^n,B^n_{+})$.
+> 3. **Claim 3: 2 holds for $n$ if and only if 3 holds for $n$**.
+>    Let $\mathcal{U}:=\{x\in S^n:x_{n+1} > 1-\varepsilon \}$. Then, $$H_{p}(S^n,B^n_{+})\cong H_{p}(S^n \backslash U,B^n_{+} \backslash U)$$we claim that $(S^n \backslash U,B^n_{+} \backslash U)\sim(B^n_{-},S^{n-1})$. If this is true, then: $$H_{p}(S^n,B^n_{+})\cong H_{p}(B^n_{+},S^{n-1})\cong H_{p}(B^n,S^{n-1})$$where the last follows from the fact that $\pi|_{B^n_{+}}$ is a homeomorphism.
+>    
+>    Now, we will show the homotopy equivalence. We define: $$q:(S^n \backslash U,B^n_{+} \backslash U)\to(B^n_{-},S^{n-1}),\quad x\mapsto \begin{cases}\left( \frac{\pi(x)}{\left\| \pi(x) \right\| } ,0\right)&x\in B^n_{+}\\x&x\in B^n_{-}\end{cases}$$which is well-defined. Then, for the inclusion $i:(B^n_{-},S^{n-1})\to(S^n \backslash U, B^n_{+} \backslash U)$, we have that:
+>    1. $q\circ i=\text{id}$. 
+>    2. To show that $i\circ q \sim \text{id}_{(S^n \backslash U)}$, we define the homotopy: $$F:(S^n \backslash U)\times[0,1]\to S^n \backslash U$$

@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Split Exact Sequence.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Split Exact Sequence"
+              "title": "Exact Sequence"
             }
           },
           {
@@ -162,16 +162,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Contractible Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Compact Space"
+              "title": "Contractible Space"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -315,13 +315,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "29bef1dc32e7893e",
+  "active": "93886d7fa5963f6c",
   "lastOpenFiles": [
+    "Algebra/Exact Sequence.md",
+    "Algebra/Split Exact Sequence.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Contractible Space.md",
+    "Topology/Compact Space.md",
     "Topology/Homeomorphism.md",
     "TIKZ.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "Algebra/Split Exact Sequence.md",
-    "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Homotopy.md",
@@ -341,8 +343,6 @@
     "Topology/Real Projective Space.md",
     "Topology/Retract.md",
     "Topology/Fundamental Group.md",
-    "Algebra/Commutator Subgroup.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
