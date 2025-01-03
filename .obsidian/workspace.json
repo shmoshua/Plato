@@ -49,6 +49,20 @@
               "icon": "lucide-file",
               "title": "Homology Theory"
             }
+          },
+          {
+            "id": "b40bea9cc5405c18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIKZ.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "TIKZ"
+            }
           }
         ],
         "currentTab": 2
@@ -148,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "TIKZ.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "TIKZ"
             }
           }
         ],
@@ -303,9 +317,10 @@
   },
   "active": "b42931d7a097d079",
   "lastOpenFiles": [
-    "Algebra/Exact Sequence.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Split Exact Sequence.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "TIKZ.md",
+    "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Homotopy.md",
@@ -319,7 +334,6 @@
     "Algebra/Module.md",
     "Algebra/Direct Sum.md",
     "Algebra/Group Homomorphism.md",
-    "TIKZ.md",
     "p-Simplex^.md",
     "Topology/Algebraic Topology/Homotopy Group.md",
     "Topology/Continuous Function.md",
