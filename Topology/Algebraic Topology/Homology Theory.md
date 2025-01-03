@@ -47,14 +47,15 @@
 > Let $\tilde{H}_{p}(X)$ be the reduced homology given by $\text{ker }\varepsilon_{*}$ where $\varepsilon:X\to P$ for the point space $P$. Then,
 > 1. $H_{p}(X)=\tilde{H}_{p}(X)$ for $p\neq 0$.
 > 2. $H_{0}(X)\cong \tilde{H}_{0}(X)\oplus G$
-> 3. for $f:X\to Y$, $f_{*}:\tilde{H}_{0}(X)\to \tilde{H}_{0}(Y)$
+> 3. for $f:X\to Y$, $f_{*}(\tilde{H}_{0}(X))\subseteq \tilde{H}_{0}(Y)$.
 > 4. there exists $\tilde{i}_{*},\tilde{j_{*}}$ s.t. the following sequence is exact: $$\cdots \to \tilde{H}_{p}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{p}(X)\xrightarrow{\tilde{j}_{*}}\tilde{H}_{p}(X,A)\xrightarrow{\tilde{\partial}_{*}} \tilde{H}_{p-1}(A)\to\cdots$$
 
 > [!proof]- Proof (Incomplete)
 > We have that:
 > 1. Follows from the fact that $\varepsilon_{*}$ is the zero map for $p\neq 0$. 
 > 2. Let $i:P\to X$. Then, $\varepsilon \circ i=\text{id}_{P}$ and $\varepsilon_{*}\circ i_{*} = \text{id}_{H_{p}(P)}$. This shows that $\varepsilon_{*}$ is surjective and: $$0\to \tilde{H}_{p}(X)\to H_{p}(X)\xrightarrow{\varepsilon_{*}}H_{p}(P)\to 0$$defines a SES. As $i_{*}$ is the right inverse of $\varepsilon_{*}$, by [[Split Exact Sequence|Proposition 1]], the SES is split. Therefore, $$H_{p}(X)\cong \tilde{H}_{p}(X)\oplus H_{p}(P)$$and we have our statement when $p=0$.
-> 3. We first show it for $A\neq \varnothing$. As we only need to check the parts of the sequence with $\tilde{H}\neq H$, we have that we need to show: $$H_{1}(X,A)\xrightarrow{\partial_{*}}\tilde{H}_{0}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{0}(X)\xrightarrow{\tilde{j}_{*}}{H}_{0}(X,A)\xrightarrow{\partial_{*}} {H}_{-1}(A)$$is exact.
+> 3. We have that for $x\in \tilde{H}_{0}(X)$, $\varepsilon_{*}(f_{*}(x))=\varepsilon_{*}(x)=0$
+> 4. We first show it for $A\neq \varnothing$. As we only need to check the parts of the sequence with $\tilde{H}\neq H$, we have that we need to show: $$H_{1}(X,A)\xrightarrow{\partial_{*}}\tilde{H}_{0}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{0}(X)\xrightarrow{\tilde{j}_{*}}{H}_{0}(X,A)\xrightarrow{\partial_{*}} {H}_{-1}(A)$$is exact.
 >    
 >    We first show that these maps are well-defined: Let $P$ be a point space and consider $\varepsilon:(X,A)\to(P,P)$. Now, we have that: $$\begin{CD}
 >    H_{1}(X,A)@>\partial_{*}>> H_{0}(A)@>i_{*}>> H_{0}(X)@>j_{*}>>H_{0}(X,A)\\@V\varepsilon_{*}VV@V\varepsilon_{*}VV@V\varepsilon_{*}VV@V\varepsilon_{*}VV\\H_{1}(P,P)=0@>>>H_{0}(P)@>>\text{id}>H_{0}(P)@>>>H_{0}(P,P)=0\end{CD}$$
