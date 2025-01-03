@@ -35,6 +35,20 @@
 > 
 > Now, let $X:=\{ (a,-a):a\in \mathbb{Z} \}\subseteq \mathbb{Z}\oplus \mathbb{Z}$. Then, we have that $\tau(q^{-1}(\tilde{H}_{0}(S^0)))=X$. Indeed, for $x\in \tilde{H}_{0}(S^0)$, $\varphi(\tau(q ^{-1}(x)))=\varepsilon_{*}(x)=0$ and $\tau(q^{-1}(x))\in X$. On the other hand if $x\in X$, then $0=\varphi(x)=\varepsilon_{*}(q(\tau ^{-1}(x)))$ and $q(\tau ^{-1}(x))\in\tilde{H}_{0}(S^0)$.
 > 
-> Let $\lambda^\pm$ be the homotopy inverse of $\tau^{\pm}$, and let $\lambda:=\lambda^-_{*}\oplus\lambda^+_{*}$. Then, $\tau ^{-1}=\lambda$. Hence, we have that: $$f_{*}(q(\lambda(a,-a)))=f_{*}(i_{*}^-(\lambda^-_{*}(p(a))))-f_{*}(i_{*}^+(\lambda^+_{*}(p(a))))$$
+> Hence, we get that 
+> $$\begin{CD}\tilde{H}_{0}(S^0)@<<<X@<<< \mathbb{Z}\\@Vf_{*}VV@VVV@VVa\mapsto -aV\\\tilde{H}_{0}(S^0)@>>> X @>>>\mathbb{Z}\end{CD}$$and $\deg(f)=-1$.
 > 
->  Hence, $\psi:=\tau \circ q^{-1}$ is an isomorphism and we have that: $$\begin{CD}\tilde{H}_{0}(S^0)@>\phi>>X@>>> \mathbb{Z}\\@Vf_{*}VV@VVV@VVV\\\tilde{H}_{0}(S^0)@<<\phi ^{-1}< X @<<<\mathbb{Z}\end{CD}$$
+> Now, let $n\geq 1$ and assume that the statement holds for all $0\leq k<n$. Let again have:
+> 1. $B^n_{+}:=\{ x\in S^n:x_{n}\geq 0 \}$
+> 2. $B^n_{-}:=\{ x\in S^n:x_{n}\leq 0 \}$
+> 3. $B^n_{+,\varepsilon}:=\{ x\in S^n:x_{n}\geq -\varepsilon \}$
+> 4. $L_{\varepsilon}:=\{ x\in S^n:-\varepsilon\leq x\leq 0 \}$
+> 
+> Then, we have that:
+> 1. $\tilde{H}_{n}(S^n)\cong H_{n}(S^n, B^n_{+})$ from [[Homology Theory|Example 1]].
+> 2. $H_{n}(S^n,B^n_{+})\cong H_{n}(S^n,B^n_{+,\varepsilon})$ as they have the same homotopy type, from [[Homology Theory|Lemma 1.3]]
+> 3. $H_{n}(S^n,B^n_{+,\varepsilon})\cong H_{n}(B^n_{-},L_{\varepsilon})$ from excision.
+> 4. $H_{n}(B^n_{-},L_{\varepsilon})\cong H_{n}(B^n_{-},S^{n-1})$ again from homotopy type.
+> 5. $\tilde{\partial}_{*}:H_{n}(B^n_{-},S^{n-1})\to \tilde{H}_{n-1}(S^{n-1})$ is an isomorphism as: $$0=\tilde{H}_{n}(B^n_{-})\to H_{n}(B^n_{-},S^{n-1}) \to \tilde{H}_{n-1}(S^{n-1}) \to \tilde{H}_{n-1}(B^{n}_{-})=0$$is an exact sequence and the fact that $B^n_{-}$ is contractiable.
+>    
+> Therefore, we have that: $$\begin{CD}\tilde{H}_{n}(S^n) @>\cong>> \tilde{H}_{n-1}(S^{n-1})\\@Vf_{*}VV @V(f|)VV\\\tilde{H}_{n}(S^n) @>\cong>> \tilde{H}_{n-1}(S^{n-1})\end{CD}$$
