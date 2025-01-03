@@ -155,9 +155,23 @@
               "icon": "lucide-file",
               "title": "Homology Theory"
             }
+          },
+          {
+            "id": "9973f9377eda7949",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Split Exact Sequence.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Split Exact Sequence"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -301,8 +315,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8d9d0a70b733e7e3",
+  "active": "9973f9377eda7949",
   "lastOpenFiles": [
+    "Algebra/Splitting Field.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Singular Homology.md",
@@ -328,7 +343,6 @@
     "Topology/Path-Connected Space.md",
     "Algebra/Module.md",
     "Algebra/Direct Sum.md",
-    "Algebra/Group Homomorphism.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

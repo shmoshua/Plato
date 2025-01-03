@@ -28,4 +28,6 @@
 > 1. $\deg(f)=-1$.
 
 > [!proof]+
-> First, let $n=0$. Then, $f:\{ \pm 1 \}\to \{ \pm 1 \}$ where $f(1)=-1$ and $f(-1)=1$. Then, we will show that the following is a commuting diagram$$\begin{CD}H_{0}(\{ -1 \})\oplus H_{0}(\{ 1 \})@>q>> H_{0}(S^0)\\@VVV@V\varepsilon_{*}VV \\\mathbb{Z}\oplus \mathbb{Z}@>>\varphi> \mathbb{Z}\end{CD}$$where $q$ is the isomorphism given by additivity and $\varphi(a,b)=a+b$.
+> First, let $n=0$. Then, $f:\{ \pm 1 \}\to \{ \pm 1 \}$ where $f(1)=-1$ and $f(-1)=1$. Then, we will show that the following is a commuting diagram$$\begin{CD}H_{0}(\{ -1 \})\oplus H_{0}(\{ 1 \})@>q>> H_{0}(S^0)\\@VVV@V\varepsilon_{*}VV \\\mathbb{Z}\oplus \mathbb{Z}@>>\varphi> \mathbb{Z}\end{CD}$$where $q$ is the isomorphism given by additivity i.e. $q(x,y)=i^-_{*}(x)+ i^+_{*}(y)$ where $i^{\pm}:\{ \pm 1 \}\hookrightarrow S^0$ and $\varphi(a,b)=a+b$. Let $\varepsilon^\pm: S^0\to S^0$ be the constant map with $\varepsilon^{\pm}=\pm 1$. Then, we have that: $$$$
+> 
+> Therefore, it suffices to show that $$\begin{CD}H_{0}(\{ \pm1 \})@>i^{\pm}_{*}>> H_{0}(S^0)\\@VVV@V\varepsilon_{*}VV \\\mathbb{Z}@>>> H_{0}(\{ \pm 1 \})\end{CD}$$
