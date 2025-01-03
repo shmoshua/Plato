@@ -10,7 +10,17 @@
 > [!lemma] Proposition 1
 > We have that:
 > 1. $\partial^{2}=0$, i.e. $\mathcal{S}(X;G)$ is a [[chain complex]].
+> 2. For a point space $X$, $$H_{i}(X;G)\cong\begin{cases}G&i=0\\0&i\neq 0\end{cases}$$
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. For singular $p$-simplex $\sigma:\Delta_{p}\to X$, we have that: $$\partial(\partial\sigma)=\partial\left( \sum_{i=0}^{p}(-1)^i g \sigma \circ F_{i}^p \right)=\sum_{i=0}^{p}(-1)^ig\partial(\sigma \circ F_{i}^p)$$
+> 1. Follows from [[p-Simplex|boundary lemma]].
+> 2. We have that the only singular $p$-simplex $\sigma_{p}:\Delta_{p}\to X$ is the constant map. Therefore, $S_{p}(X;G)\cong G$. 
+>    
+>    Now, for $p> 0$, we have that for $p$-simplex $\sigma:\Delta_{p}\to X$: $$\partial (g\sigma)=\begin{cases}0&p\text{ is odd}\\g\sigma_{p-1}&p\text{ is even}\end{cases}$$Hence, $$\text{ker }\partial \cong\begin{cases}G&p>0\text{ odd or }p=0\\0&\text{otherwise}\end{cases}$$
+>    $$B_{p}(X;G) \cong\begin{cases}G&p>0\text{ odd}\\0&\text{otherwise}\end{cases}$$It follows that $H_{p}(X;G)\cong G$ if and only if $p=0$ and $0$ otherwise. 
+---
+> [!lemma] Theorem 2
+> The singular homology $H(\cdot;G)$ is a [[homology theory]] with coefficient group $G$.
+
+---

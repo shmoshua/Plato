@@ -19,22 +19,40 @@
 
 - **Related definition**: $H_{p}(X):=H_{p}(X , \varnothing)$ for all topological space $X$. ^3d68da
 - **Related definition**: $G:=H_{0}(X)$ where $X$ is a point space is known as the ***coefficients group*** of $H$. ^cd0ebd
+- **Related definition**: For $X\neq \varnothing$, let $P$ be a point space. Then, consider $\varepsilon:X\to P$ be the constant map. Then, 
+	1. the ***reduced homology*** $\tilde{H}_{p}(X):=\text{ker }\varepsilon_{*}$ where $\varepsilon_{*}:H_{p}(X)\to H_{p}(P)$ for all $p\in \mathbb{Z}$.
+	2. the ***reduced homology*** for a pair $(X,A)$ is given as $\tilde{H}_{p}(X,A):=H_{p}(X,A)$ for all $p\in \mathbb{Z}$.
+- **Remark**: $\tilde{H}_{p}(X,\varnothing)\neq \tilde{H}_{p}(X)$ in general.
 ---
 ##### Properties
 > [!lemma] Lemma 1
 > Let $H$ be a homology theory. Then,
 > 1. $H_{p}(\varnothing)=0$
+> 2. For a [[Homotopy|homotopy equivalence]] $f:(X,A)\to(Y,B)$, $f_{*}$ is an isomorphism.
 
 ^d375b2
 
 > [!proof]-
 > We have that:
 > 1. Let $Y=\varnothing$. Then, $H_{p}(X)\oplus H_{p}(\varnothing) \cong H_{p}(X)$. Hence, $H_{p}(\varnothing)=0$.
+> 2. Let $g:(Y,B)\to(X,A)$ be the homology inverse of $f$. Then, $$g_{*} \circ  f_{*} = (g\circ f)_{*}=\text{id}_{*}=\text{id}_{H_{p}(X,A)}$$$$f_{*} \circ  g_{*} = (f\circ g)_{*}=\text{id}_{*}=\text{id}_{H_{p}(Y,B)}$$
 
 ^525ab9
 
 ---
-> [!lemma] Theorem 2
+> [!lemma] Theorem 2 (Reduced Homology)
+> Let $\tilde{H}_{p}(X)$ be the reduced homology given by $\text{ker }\varepsilon_{*}$ where $\varepsilon:X\to P$ for the point space $P$. Then,
+> 1. $H_{p}(X)=\tilde{H}_{p}(X)$ for $p\neq 0$.
+> 2. $H_{0}(X)\cong \tilde{H}_{0}(X)\oplus G$
+
+> [!proof]+
+> We have that:
+> 1. Follows from the fact that $\varepsilon_{*}$ is the zero map for $p\neq 0$. 
+> 2. Let $i:P\to X$. Then, $$
+
+---
+> [!lemma] Theorem 3
 > The singular homology is a homology theory with coefficients group $\mathbb{Z}$.
+> 
 
 ---

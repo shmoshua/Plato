@@ -50,7 +50,8 @@
               "title": "Homology Theory"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -91,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "file": "Topology/Homotopy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
+              "title": "Homotopy"
             }
           },
           {
@@ -112,9 +113,23 @@
               "icon": "lucide-file",
               "title": "Relative Homology"
             }
+          },
+          {
+            "id": "b42931d7a097d079",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Homology Theory"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -258,14 +273,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bb659875e1f04472",
+  "active": "b42931d7a097d079",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Homotopy.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Split Exact Sequence.md",
     "Topology/Klein Bottle.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
@@ -275,7 +291,6 @@
     "Algebra/Module.md",
     "Algebra/Direct Sum.md",
     "Algebra/Group Homomorphism.md",
-    "Topology/Homotopy.md",
     "TIKZ.md",
     "p-Simplex^.md",
     "Topology/Algebraic Topology/Homotopy Group.md",
