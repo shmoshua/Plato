@@ -34,10 +34,10 @@
 
 ^d375b2
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Let $Y=\varnothing$. Then, $H_{p}(X)\oplus H_{p}(\varnothing) \cong H_{p}(X)$. Hence, $H_{p}(\varnothing)=0$.
-> 2. We have an exact sequence: $$\cdots \to H_{p+1}(X,\varnothing)\to H_{p}(X,\varnothing)\xrightarrow{\text{id}} H_{p}(X,\varnothing)\xrightarrow{j_{*}} H_{p}(X,X)\to H_{p-1}(X,\varnothing)\to\cdots$$Hence, $H_{p}(X,\varnothing)=\text{ker }j_{*}$ and $j_{*} = 0$. It follows that $0=\text{ker }\partial_{*}$
+> 2. We have an exact sequence: $$\cdots \to H_{p+1}(X,\varnothing)\xrightarrow{\partial_{*}} H_{p}(X,\varnothing)\xrightarrow{\text{id}} H_{p}(X,\varnothing)\xrightarrow{j_{*}} H_{p}(X,X)\to H_{p-1}(X,\varnothing)\to\cdots$$Hence, $H_{p}(X,\varnothing)=\text{ker }j_{*}$ and $j_{*} = 0$. However, we also have that: $\text{im}(\partial_{*})=\text{ker }\text{id} = 0$. Hence, $\partial_{*}=0$. Now, we have that $$H_{p}(X,X)=\text{ker }\partial_{*} =\text{im }j_{*}=0$$
 > 3. Let $g:(Y,B)\to(X,A)$ be the homology inverse of $f$. Then, $$g_{*} \circ  f_{*} = (g\circ f)_{*}=\text{id}_{*}=\text{id}_{H_{p}(X,A)}$$$$f_{*} \circ  g_{*} = (f\circ g)_{*}=\text{id}_{*}=\text{id}_{H_{p}(Y,B)}$$
 
 ^525ab9
@@ -55,9 +55,17 @@
 > 2. Let $i:P\to X$. Then, $\varepsilon \circ i=\text{id}_{P}$ and $\varepsilon_{*}\circ i_{*} = \text{id}_{H_{p}(P)}$. This shows that $\varepsilon_{*}$ is surjective and: $$0\to \tilde{H}_{p}(X)\to H_{p}(X)\xrightarrow{\varepsilon_{*}}H_{p}(P)\to 0$$defines a SES. As $i_{*}$ is the right inverse of $\varepsilon_{*}$, by [[Split Exact Sequence|Proposition 1]], the SES is split. Therefore, $$H_{p}(X)\cong \tilde{H}_{p}(X)\oplus H_{p}(P)$$and we have our statement when $p=0$.
 > 3. We first show it for $A\neq \varnothing$. As we only need to check the parts of the sequence with $\tilde{H}\neq H$, we have that we need to show: $$H_{1}(X,A)\xrightarrow{\partial_{*}}\tilde{H}_{0}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{0}(X)\xrightarrow{{j}_{*}|_{\tilde{H}_{0}(X)}}{H}_{0}(X,A)\xrightarrow{\partial_{*}} {H}_{-1}(A)$$is exact.
 >    
->    We first show that these maps are well-defined: Let $P$ be a point space and consider $\varepsilon:(X,A)\to(P,P)$. 
+>    We first show that these maps are well-defined: Let $P$ be a point space and consider $\varepsilon:(X,A)\to(P,P)$. Now, we have that: $$\begin{CD}
+>    H_{1}(X,A)@>\partial_{*}>> H_{0}(A)@>i_{*}>> H_{0}(X)@>j_{*}>>H_{0}(X,A)\\@V\varepsilon_{*}VV@V\varepsilon_{*}VV@V\varepsilon_{*}VV@V\varepsilon_{*}VV\\H_{1}(P,P)=0@>>>H_{0}(P)@>>\text{id}>H_{0}(P)@>>>H_{0}(P,P)=0\end{CD}$$
+>    
 >    1. **Claim 1**: $\partial_{*}(H_{1}(X,A))\subseteq \tilde{H}_{0}(A)$.
->    2. **Claim 2**: $\tilde{i}_{*}(\tilde{H}_{0}(A))\subseteq \tilde{H}_{0}(X)$
+>       From the first square, we get that $\varepsilon_{*} \circ \partial_{*} = 0$. Hence, $$\partial_{*}(H_{1}(X,A))\subseteq \text{ker }\varepsilon_{*}=\tilde{H}_{0}(A)$$
+>    2. **Claim 2**: $i_{*}(\tilde{H}_{0}(A))\subseteq \tilde{H}_{0}(X)$
+>       From the second square, we get that for all $a\in \tilde{H}_{0}(A)$ if $\varepsilon_{*}(a)=0$, then $\varepsilon_{*}(i_{*}(a))=0$ and $i_{*}(a)\in \text{ker }\varepsilon_{*}=\tilde{H}_{0}(X)$.
+>    
+>    Therefore, we can set $\tilde{i}_{*}:=i_{*}|_{\tilde{H}_{0}(A)}$. Now we show that our sequence is exact:
+>    - We first have that $\tilde{i}_{*}\circ\partial_{*}=0$ as $i_{*} \circ \partial_{*}=0$.
+>    - For $a\in \text{ker }\tilde{i}_{*}$. Then, $i_{*}(a)=\tilde{i}_{*}(a)=0$ and $a\in \text{ker }i_{*}=\text{im }\partial_{*}$
 
 ---
 > [!lemma] Theorem 3

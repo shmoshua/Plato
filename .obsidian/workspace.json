@@ -141,6 +141,20 @@
               "icon": "lucide-file",
               "title": "Split Exact Sequence"
             }
+          },
+          {
+            "id": "29bef1dc32e7893e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Exact Sequence.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Exact Sequence"
+            }
           }
         ],
         "currentTab": 4
@@ -287,10 +301,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "93886d7fa5963f6c",
+  "active": "b42931d7a097d079",
   "lastOpenFiles": [
-    "Algebra/Split Exact Sequence.md",
+    "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Algebra/Split Exact Sequence.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Homotopy.md",
@@ -299,7 +314,6 @@
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Topology/Klein Bottle.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
-    "Algebra/Exact Sequence.md",
     "Algebra/Chain Complex.md",
     "Topology/Path-Connected Space.md",
     "Algebra/Module.md",
