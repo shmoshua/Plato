@@ -63,10 +63,21 @@
 > 1. For any continuous map $f:S^n\to S^n$, there exists $x\in S^n$ s.t. $f(x)\in \{ x,-x \}$.
 > 2. For any continuous [[vector field]] $v:S^n\to \text{T}S^n$ where $\text{T}_{x}S^n:=\{ y\in \mathbb{R}^{n+1}:x{\bot}y \}$, there exists $x_{0}\in S^n$ with $v(x_{0})=0$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Suppose by contradiction we have that $f(x)\notin \{ x,-x \}$ for all $x\in S^n$. Then, we define the following two homotopies: $$F:S^n\times I\to S^n,\quad (x,t)\mapsto \frac{tf(x)+(1-t)x}{\left\| tf(x)+(1-t)x \right\| }$$and $$G:S^n\times I\to S^n,\quad (x,t)\mapsto \frac{tf(x)-(1-t)x}{\left\| tf(x)-(1-t)x \right\| }$$Then, $F$ is a homotopy from $\text{id}$ to $f$ and $G$ is a homotopy from $\sigma$ to $f$ where $\sigma$ is the antipodal map from Theorem 2.3. Note that the homotopies are well-defined. Indeed, assume that $tf(x)+(1-t)x=0$ for some $x,t$. First, as $f(x)\neq x$, we have that this can only happen if $t = \frac{1}{2}$. In which case $f(x)+x = 0$ and $f(x)=-x$, which is a contradicton.
 > 
 > 	Hence, $\text{id}\sim \sigma$ which is a contradiction to the Corollary of Theorem 2.
 > 2. Suppose by contradiction that $\text{supp }v=S^n$. Consider the map: $$f:S^n\to S^n,\quad x\mapsto \frac{v(x)}{\left\| v(x) \right\| }$$Then, clearly $f(x)\in \text{T}_{x}S^n$. However, as $x,-x\notin \text{T}_{x}S^n$, we have that $f(x)\notin \{ x,-x \}$ for all $x\in S^n$. This is a contradiction to 1. 
 ---
+> [!lemma] Proposition 4 (Linear Maps)
+> Let $A\in \text{GL}(n,\mathbb{R})$. Then, 
+> 1. $\widehat{A}:\mathbb{R}^n\cup \{ \infty \}\to \mathbb{R}^n\cup \{ \infty \}$ given by $\widehat{A}|_{\mathbb{R}^n}=A$ and $\widehat{A}(\infty)=\infty$ has degree: $$\deg(\widehat{A}):=\text{sgn}(\det A)\in\{ -1,+1 \}$$
+
+> [!proof]+
+> We have that:
+> 1. Let $A=E_{1}\dots E_{r}$ be the Gaussian elimination of $A$, i.e. $E_{1},\dots,E_{r}\in \text{GL}(n,\mathbb{R})$ are elementary matrices of the following type:
+>    $$\begin{bmatrix}I_{i}\\&\lambda\\&&I_{n-i-1}\end{bmatrix},\begin{bmatrix} I_{i-1}& \\&1&&\xi \\&&I_{j-i-1}&\\&&&1 \\&&&&I_{n-j} \end{bmatrix},\begin{bmatrix} I_{i-1}& \\&&&1 \\&&I_{j-i-1}&\\&1&& \\&&&&I_{n-j} \end{bmatrix}$$where $\lambda\neq 0$ and $\xi\in \mathbb{R}$. First, we show that the statement holds for these elementary matrices.
+>    1. For $E$ in Type 1, we have that: $\widehat{E} \sim \widehat{\begin{bmatrix}I_{i}\\&\text{sgn}(\lambda)\\&&I_{n-i-1}\end{bmatrix}}$. Further, we have that: $\det(E)=\lambda$. Therefore, we have that: $\deg(\widehat{E})=\text{sgn}(\lambda)=\text{sgn}(\det(E))$.
+>    2. For $E$ in Type 2, we first define $$E_{t}:=\begin{bmatrix} I_{i-1}& \\&1&&t\xi \\&&I_{j-i-1}&\\&&&1 \\&&&&I_{n-j} \end{bmatrix}$$Then, $$F:\mathbb{R}^n\cup \{ \infty \}\times[0,1]\to \mathbb{R}^n\cup \{ \infty \},\quad (x,t)\mapsto  \widehat{E}_{t}(x)$$defines a homotopy from $\widehat{E}$ to $\text{id}$. Therefore, $\deg(\widehat{E})=\deg(\text{id})=1=\text{sgn}(1)=\text{sgn}(\det E)$.
+>    3.  For $E$ in Type 3, $E$ is a reflection about some hyperplane in $\mathbb{R}^n$. 

@@ -121,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       },
       {
         "id": "4d5ec56e57395c88",
@@ -183,9 +183,23 @@
               "icon": "lucide-file",
               "title": "One-Point Compactification"
             }
+          },
+          {
+            "id": "1f89264636cd9956",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Continuous Function.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Continuous Function"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -330,9 +344,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "59e8cf10adde0ae3",
+  "active": "0d6ca7f41a2304fc",
   "lastOpenFiles": [
     "Topology/One-Point Compactification.md",
+    "Topology/Continuous Function.md",
+    "Differential Geometry/Sphere.md",
     "Differential Geometry/Vector Field.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Homology Theory.md",
@@ -356,8 +372,6 @@
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Topology/Klein Bottle.md",
-    "Algebra/Chain Complex.md",
-    "Topology/Path-Connected Space.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

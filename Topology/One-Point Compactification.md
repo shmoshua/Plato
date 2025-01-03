@@ -49,8 +49,11 @@
 > [!h] Example 1
 > We have that:
 > 1. $S^n$ is homeomorphic to $\alpha\mathbb{R}^n:=\mathbb{R}^n\cup \{ \infty \}$
+> 2. for any $A\in \text{GL}(n,\mathbb{R})$, $\widehat{A}:\mathbb{R}^n\cup \{ \infty \}\to \mathbb{R}^n\cup \{ \infty \}$ by $\widehat{A}|_{\mathbb{R}^n}=A$ and $\widehat{A}(\infty)=\infty$ is a homeomorphism.
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. Let $N:=(0,\dots,0,1)\in S^n$ and let $\pi:S^n \backslash \{ N \}\to \mathbb{R}^n$ be the stereographic projection defined as: $$\pi(x)=\frac{1}{1-x_{n+1} }(x_{1},\dots,x_{n})$$Notice that $\pi$ is continuous and has the inverse: $$\pi ^{-1}:\mathbb{R}^n\to S^n \backslash \{ N \},\quad (x_{1},\dots,x_{n})\mapsto \frac{1}{\|x\|^2+1}(2x_{1},\dots,2x_{n},\|x\|^{2}-1)$$
->    We have that: $$\pi ^{-1}\circ \pi(x)=\frac{1}{1+\sum_{i=1}^{n}\frac{x_{i}^2}{(1-x_{n+1})^{2}}}\left( \frac{2x_{1}}{1-x_{n+1} } ,\dots,\frac{2x_{n}}{1-x_{n+1} }, -1+\sum_{i=1}^{n}\frac{x_{i}^2}{(1-x_{n+1})^{2}}\right)$$
+> 1. Let $N:=(0,\dots,0,1)\in S^n$ and let $\pi:S^n \backslash \{ N \}\to \mathbb{R}^n$ be the stereographic projection defined as: $$\pi(x)=\frac{1}{1-x_{n+1} }(x_{1},\dots,x_{n})$$Notice that $\pi$ is continuous and has the continuous inverse: $$\pi ^{-1}:\mathbb{R}^n\to S^n \backslash \{ N \},\quad (x_{1},\dots,x_{n})\mapsto \frac{1}{\|x\|^2+1}(2x_{1},\dots,2x_{n},\|x\|^{2}-1)$$Now, let $f:\mathbb{R}^n\cup \{ \infty \}\to S^n$ where $f|_{\mathbb{R}^n}=\pi ^{-1}$ and $f(\infty)=N$. Then, of course $f$ is continuous for every $x\in \mathbb{R}^n$ and at $\infty$, we have that for every $U\ni N$, $f^{-1}(U)=\pi(U \backslash \{ N \})\cup \{ \infty \}$. Notice that $\pi(U \backslash \{ N \})^c=\pi(S^n \backslash U)$ which is compact. Hence, $f$ is a homeomorphism.
+> 2. Follows similarly as the argument in 1 as $A$ is a homeomorphism.
+
+---
