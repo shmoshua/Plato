@@ -47,7 +47,8 @@
 > Let $\tilde{H}_{p}(X)$ be the reduced homology given by $\text{ker }\varepsilon_{*}$ where $\varepsilon:X\to P$ for the point space $P$. Then,
 > 1. $H_{p}(X)=\tilde{H}_{p}(X)$ for $p\neq 0$.
 > 2. $H_{0}(X)\cong \tilde{H}_{0}(X)\oplus G$
-> 3. there exists $\tilde{i}_{*},\tilde{j_{*}}$ s.t. the following sequence is exact: $$\cdots \to \tilde{H}_{p}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{p}(X)\xrightarrow{\tilde{j}_{*}}\tilde{H}_{p}(X,A)\xrightarrow{\tilde{\partial}_{*}} \tilde{H}_{p-1}(A)\to\cdots$$
+> 3. for $f:X\to Y$, $f_{*}:\tilde{H}_{0}(X)\to \tilde{H}_{0}(Y)$
+> 4. there exists $\tilde{i}_{*},\tilde{j_{*}}$ s.t. the following sequence is exact: $$\cdots \to \tilde{H}_{p}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{p}(X)\xrightarrow{\tilde{j}_{*}}\tilde{H}_{p}(X,A)\xrightarrow{\tilde{\partial}_{*}} \tilde{H}_{p-1}(A)\to\cdots$$
 
 > [!proof]- Proof (Incomplete)
 > We have that:

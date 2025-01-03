@@ -84,16 +84,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIKZ.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TIKZ"
+              "title": "Homology Theory"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "4d5ec56e57395c88",
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -330,15 +330,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d79b86b04b470968",
+  "active": "b40bea9cc5405c18",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Reduced Homology.md",
+    "TIKZ.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Differential Geometry/Regular Domain.md",
     "Courses/Topology/Exercise Sheet 11.md",
     "Courses/Topology/Exercise Sheet 1.md",
     "Courses/Linear System Theory/Problem Set 5.md",
-    "Differential Geometry/Regular Domain.md",
     "Topology/Retract.md",
-    "TIKZ.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Exact Sequence.md",
     "Topology/Contractible Space.md",
     "Algebra/Split Exact Sequence.md",
@@ -351,7 +352,6 @@
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Topology/Klein Bottle.md",
-    "Topology/Algebraic Topology/Reduced Homology.md",
     "Algebra/Chain Complex.md",
     "Topology/Path-Connected Space.md",
     "Algebra/Module.md",
