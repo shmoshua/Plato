@@ -112,7 +112,7 @@
 
 ^f9efff
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Let $\sigma,\sigma'$ be two such maps. Then, $$\sigma'\circ f=(\sigma'\circ \sigma ^{-1})\circ (\sigma \circ f)$$and we have: $$\det d_{p}(\sigma'\circ f)=\det (d_{p}(\sigma' \circ \sigma ^{-1})d_{p}(\sigma \circ f))=\det(\sigma'\circ \sigma ^{-1})\det(d_{p}(\sigma \circ f))=\det(d_{p}(\sigma \circ f))$$
 > 2. Let $\hat{\pi}:S^n\to \mathbb{R}^n \cup \{ \infty\}$ be the homeomorphism from [[One-Point Compactification|Example 1]]. Let $\sigma_{1},\sigma_{2}\in \text{SO}(n+1)$ with $\sigma_{1}(0)=p$ and $\sigma_{2}(q)=0$. Then, let $f':= \sigma_{2} \circ f \circ \sigma_{1}$. Then, if the statement holds for $f'$, we have that: $$\deg(f)=\deg(f')=\text{sgn}(\det d_{0}( \sigma_{2} \circ  f \circ  \sigma_{1}))=\text{sgn}(\det d_{p}(\sigma_{1}\circ \sigma_{2}\circ  f))=\varepsilon_{p}(f)$$Hence, it suffices to show for the case where $p=q=0$.

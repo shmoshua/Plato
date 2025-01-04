@@ -135,3 +135,16 @@
 >  Hence, by induction this proves the statement.
 
 ^8c01f3
+
+---
+> [!h] Example 2
+> Let $X:=S^n_{1}\lor \dots \lor S^n_{k}$ be a [[Wedge Sum|bouquet of $k$ $n$-dimensional spheres]]. Then, 
+> 1. for all $p\in \mathbb{Z}$: $$\psi:\tilde{H}_{p}(S^n_{1})\oplus \dots \oplus \tilde{H}_{p}(S^n_{k})\to \tilde{H}_{p}(X),\quad (x_{1},\dots,x_{k})\mapsto(i_{1})_{*}(x_{1})+\dots+(i_{k})_{*}(x_{k})$$is an isomorphism with its inverse map given by: $$\psi ^{-1}:\tilde{H}_{p}(X)\to\tilde{H}_{p}(S^n_{1})\oplus \dots \oplus \tilde{H}_{p}(S^n_{k}),\quad x\mapsto((p_{1})_{*}(x),\dots,(p_{k})_{*}(x))$$
+
+> [!proof]+
+> We have that: 
+> 1. For all $i\in[k]$, $(i_i)_{*}:\tilde{H}_{p}(S_{i}^n)\to \tilde{H}_{p}(X)$. Hence, $\psi$ is well-defined. The fact that it is a homomorphism, follows from $(i_{i})_{*}$ being homomorphisms. 
+>    
+>    Similarly for $\psi ^{-1}$, it is well-defined and as $(p_{i})_{*}$ is a homomorphism so is $\psi ^{-1}$.
+>    
+>    Therefore, it is left to show that they are inverses: $$\psi \circ  \psi ^{-1}(x)=\psi((p_{1})_{*}(x),\dots,(p_{k})_{*}(x))=(i_{1}\circ p_{1})_{*}(x)+\dots+(i_{k}\circ p_{k})_{*}(x)$$where as $i_{i}\circ p_{i}(x):=\begin{cases}x&x\in S^n_{i}\\q&x\notin S^n_{i}\end{cases}$ where $q$ is the joint point in $X$. Therefore, $i_{i}\circ p_{i}|_{S_{i}^n}=\text{id}|_{S^n_{i}}$ and $i_{i}\circ p_{i}|_{S_{j}^n}=i \circ q$ for $j\neq i$ Hence, $$\tilde{H}_{p}(S_{j}^n)\xrightarrow{q_{*}}\tilde{H}_{p}(\{ q \})=\xrightarrow{i_{*}}\tilde{H}(X)$$Hence, $(i_{i}\circ p_{i}|_{S_{j}^n})_{*}=0$. Therefore, 
