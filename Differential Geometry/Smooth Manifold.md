@@ -37,6 +37,13 @@
 > There is a partition of unity $\{ \varphi,\psi \}$ subordinate to the cover $\{ U, M \backslash A \}$ of $M$ per [[Partition of Unity|Example 2]] with $\text{supp }\varphi \subseteq G$ and $\text{supp }\psi \subseteq M\backslash A$. Then, $\varphi$ is the desired function.
 
 ---
+> [!lemma] Theorem 4
+> Let $f:M\to N$ be a continuous function between manifolds. Then, there exists a smooth map $g:M\to N$ s.t. $f$ and $g$ are [[Homotopy|homotopic]].
+
+> [!proof]+
+> 
+
+---
 ##### Examples
 > [!h] Example 1
 > We have that: 

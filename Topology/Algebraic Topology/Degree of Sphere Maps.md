@@ -153,7 +153,7 @@
 > Let $f:S^n\to S^n$ be smooth and $p\in S^n$ is a regular value s.t. $f^{-1}(p)=\{ q_{1},\dots,q_{k} \}$. Then, 
 > 1. $\deg(f)=\sum_{j=1}^{k}\varepsilon_{q_{j}}(f)$. 
 
-> [!proof]+
+> [!proof]-
 > Assume $f^{-1}(p)\neq \varnothing$. Then, $d_{q_{j}}f:\text{T}_{q_{j}}S^n\to \text{T}_{p}S^n$ are surjective and isomorphisms. Therefore, by [[Local Diffeomorphism|inverse function theorem]], there exist disjoint  open neighborhoods $U_{i}\ni q_{i}$ and $V_{i}\ni p$ s.t. $f|_{U_{i}}:U_{i}\to V_{i}$ is a diffeomorphism. Wlog we may assume that $U_{1},\dots,U_{k}\cong \mathbb{R}^n$ and $V:=V_{1}=\dots=V_{k}$ (otherwise reduce $V$ to the intersection). 
 > 
 > Now, there exists a homotopy $F:S^n\times I\to S^n$ s.t. $F(\cdot,0)=\text{id}$ and $F(\cdot,1)=:\phi$ where: 
@@ -162,4 +162,10 @@
 > 3. $\phi(p)=p$
 > 4. $\phi$ is smooth and $d_{p}\phi=\text{id}$. 
 >    
-> Then, $\phi \circ f \sim f$. However, also notice that $(\phi \circ f)(S^n \backslash U_{1}\cup\dots \cup U_{k})=\{ -p \}$. Therefore, $$(\phi \circ f)_{*}=\sum_{i=1}^{k}(\phi \circ  f)_{i*}$$and further, notice that $(\phi \circ f)_{i}:S^n\to S^n$ with $p\in S^n$ regular with $(\phi \circ f)_{i}^{-1}(p)=\{ q_{i} \}.$ Hence, from Theorem 5, $$\deg(f)=\deg(\phi \circ f)=\sum_{i=1}^{k}\deg((\phi \circ f)_{i*})=\sum_{i=1}^{k}\varepsilon_{q_{i}}((\phi \circ  f)_{i})$$To conclude, we show that: $$\varepsilon_{q_{i}}((\phi \circ  f)_{i})=\text{sgn}(\det d_{q_{i}}i_{i}p_{i}d_{q_{i}}f)$$
+> Then, $\phi \circ f \sim f$. However, also notice that $(\phi \circ f)(S^n \backslash U_{1}\cup\dots \cup U_{k})=\{ -p \}$. Therefore, $$(\phi \circ f)_{*}=\sum_{i=1}^{k}(\phi \circ  f)_{i*}$$and further, notice that $(\phi \circ f)_{i}:S^n\to S^n$ with $p\in S^n$ regular with $(\phi \circ f)_{i}^{-1}(p)=\{ q_{i} \}.$ Hence, from Theorem 5, $$\deg(f)=\deg(\phi \circ f)=\sum_{i=1}^{k}\deg((\phi \circ f)_{i*})=\sum_{i=1}^{k}\varepsilon_{q_{i}}((\phi \circ  f)_{i})$$To conclude, we have that: $$d_{q_{i}}((\phi \circ  f)_{i})=d_{q_{i}}(\phi \circ f)=d_{q_{i}}f$$Hence, $\deg(f)=\sum_{i=1}^{k}\varepsilon_{q_{i}}(f)$.
+---
+> [!lemma] Corollary 8 
+> Let $f:S^n\to S^n$ be continuous. Then, $\deg(f)$ is independent of the homology theory $H$, i.e. for homology theories $H_{1},H_{2}$ with coefficients group $\mathbb{Z}$, we have that: $$\deg_{H_{1}}(f)=\deg_{H_{2}}(f)$$
+
+> [!proof]+
+> 
