@@ -151,7 +151,13 @@
 ---
 > [!lemma] Theorem 7 (Smooth Maps II)
 > Let $f:S^n\to S^n$ be smooth and $p\in S^n$ is a regular value s.t. $f^{-1}(p)=\{ q_{1},\dots,q_{k} \}$. Then, 
-> 1. $\deg(f)=\sum_{j=1}^{k}\varepsilon_{p}(f)$. 
+> 1. $\deg(f)=\sum_{j=1}^{k}\varepsilon_{q_{j}}(f)$. 
 
 > [!proof]+
-> Assume $f^{-1}(p)\neq \varnothing$. Then, $d_{q_{j}}f:\text{T}_{q_{j}}S^n\to \text{T}_{p}S^n$ are surjective and isomorphisms. Therefore, by [[Local Diffeomorphism|inverse function theorem]], there exist open neighborhoods $E$
+> Assume $f^{-1}(p)\neq \varnothing$. Then, $d_{q_{j}}f:\text{T}_{q_{j}}S^n\to \text{T}_{p}S^n$ are surjective and isomorphisms. Therefore, by [[Local Diffeomorphism|inverse function theorem]], there exist disjoint  open neighborhoods $U_{i}\ni q_{i}$ and $V_{i}\ni p$ s.t. $f|_{U_{i}}:U_{i}\to V_{i}$ is a diffeomorphism. Wlog we may assume that $U_{1},\dots,U_{k}\cong \mathbb{R}^n$ and $V:=V_{1}=\dots=V_{k}$ (otherwise reduce $V$ to the intersection). 
+> 
+> Now, there exists a homotopy $F:S^n\times I\to S^n$ s.t. $F(\cdot,0)=\text{id}$ and $F(\cdot,1)=:\phi$ where: 
+> 1. $\phi(V)=S^n \backslash\{ -p \}$.
+> 2. $\phi(S^n \backslash V)=\{ -p \}$
+> 3. $\phi(p)=p$
+> 4. $\phi$ is smooth and $d_{p}\phi=\text{id}$. 

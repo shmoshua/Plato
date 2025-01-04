@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -302,7 +302,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b40bea9cc5405c18",
+  "active": "0d6ca7f41a2304fc",
   "lastOpenFiles": [
     "Differential Geometry/Local Diffeomorphism.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
