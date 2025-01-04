@@ -167,5 +167,18 @@
 > [!lemma] Corollary 8 
 > Let $f:S^n\to S^n$ be continuous. Then, $\deg(f)$ is independent of the homology theory $H$, i.e. for homology theories $H_{1},H_{2}$ with coefficients group $\mathbb{Z}$, we have that: $$\deg_{H_{1}}(f)=\deg_{H_{2}}(f)$$
 
+> [!proof]-
+> We have that by [[Smooth Manifold|Theorem 4]], there exists $g:S^n\to S^n$ smooth s.t. $f\sim g$. Further, by [[Submersion|Sard]], $g$ has a regular value. But by Theorem 7, $$\deg_{H_{1}}(f)=\deg_{H_{1}}(g)=\sum_{j=1}^{k}\varepsilon_{q_{j}}(f)=\deg_{H_{2}}(g)=\deg_{H_{2}}(f)$$
+---
+##### Examples
+> [!h] Example 1
+> Consider $S^1\subseteq \mathbb{C}$. 
+> 1. for $f:S^1\to S^1,z\mapsto z^k$, $\deg(f)=k$ for all $k\in \mathbb{Z}$.
+
 > [!proof]+
-> 
+> We have that:
+> 1. $f$ is a smooth map. First, $k\geq 1$. Let $\omega$ be the $k$-th root of unity. Then, $\frac{d}{dz}f(\omega)=k\omega^{k-1}$ which is regular as it is non-zero. Hence, $1$ is a regular value with $1,\omega,\dots,\omega^{k-1}$  as the preimage. As we have that $\det\frac{d}{dz}f(\omega)$ is multiplication by a complex number, its determinant is always positive. Hence, $\deg(f)=k$.
+>    
+>    If $k=0$, then $f$ is constant and $\deg(f)=0$.
+>    
+>    If $k< 0$, then 

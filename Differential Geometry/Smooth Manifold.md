@@ -40,8 +40,10 @@
 > [!lemma] Theorem 4
 > Let $f:M\to N$ be a continuous function between manifolds. Then, there exists a smooth map $g:M\to N$ s.t. $f$ and $g$ are [[Homotopy|homotopic]].
 
-> [!proof]+
+> [!proof]- Proof (Incomplete)
+> Let $f:M\to \mathbb{R}$ be a continuous function and $\varepsilon>0$. Then, there is a smooth $h:M\to \mathbb{R}$ with $\left| f-h \right|<\varepsilon$. 
 > 
+> Now, consider $f:M\to N$ continuous. Then, by [[Submanifold|Whitney embedding theorem]], there is a smooth map $g:N\to \mathbb{R}^n$. Hence, if $g\circ f$ is homotopic to a smooth map, so is $f$. 
 
 ---
 ##### Examples
