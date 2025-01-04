@@ -141,7 +141,7 @@
 > [!lemma] Theorem 6 (Bouquet of Spheres)
 > Let $Y$ be a space with a base point $y_{0}\in Y$. Further, let $E_{1},\dots,E_{k}\subseteq S^n$ be disjoint open s.t. $E_{i}\cong \mathbb{R}^n$. Let $f:S^n\to Y$ be continuous s.t. $f(S^n \backslash E_{1}\cup\dots \cup E_{k})=\{ y_{0} \}$. Then, 
 > 1. $f$ factors into $h\circ g$ where $g:S^n\to S^n_{1}\lor\dots \lor S^n_{k}$ is the quotient map of the homeomorphism $S^n / (S^{n} \backslash (E_{1}\cup\dots \cup E_{k}))\to S^n_{1}\lor\dots \lor S^n_{k}$ and $h:S^n_{1}\lor\dots \lor S^n_{k}\to Y$.
-> 2. Let $f_{q}:=h \circ i_{q} \circ p_{q} \circ g:S^n\to Y$. It holds that: $$f_{*}=\sum_{q=1}^{n}(f_{q})_{*}$$
+> 2. Let $f_{q}:=h \circ i_{q} \circ p_{q} \circ g:S^n\to Y$. It holds that: $$f_{*}=\sum_{q=1}^{k}(f_{q})_{*}$$
 
 > [!proof]-
 > We have that: 
@@ -161,3 +161,5 @@
 > 2. $\phi(S^n \backslash V)=\{ -p \}$
 > 3. $\phi(p)=p$
 > 4. $\phi$ is smooth and $d_{p}\phi=\text{id}$. 
+>    
+> Then, $\phi \circ f \sim f$. However, also notice that $(\phi \circ f)(S^n \backslash U_{1}\cup\dots \cup U_{k})=\{ -p \}$. Therefore, $$(\phi \circ f)_{*}=\sum_{i=1}^{k}(\phi \circ  f)_{i*}$$and further, notice that $(\phi \circ f)_{i}:S^n\to S^n$ with $p\in S^n$ regular with $(\phi \circ f)_{i}^{-1}(p)=\{ q_{i} \}.$ Hence, from Theorem 5, $$\deg(f)=\deg(\phi \circ f)=\sum_{i=1}^{k}\deg((\phi \circ f)_{i*})=\sum_{i=1}^{k}\varepsilon_{q_{i}}((\phi \circ  f)_{i})$$To conclude, we show that: $$\varepsilon_{q_{i}}((\phi \circ  f)_{i})=\text{sgn}(\det d_{q_{i}}i_{i}p_{i}d_{q_{i}}f)$$
