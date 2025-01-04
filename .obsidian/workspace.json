@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Wedge Sum.md",
+                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Wedge Sum"
+              "title": "Degree of Sphere Maps"
             }
           },
           {
@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "4d5ec56e57395c88",
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Wedge Sum.md",
+                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Wedge Sum"
+              "title": "Degree of Sphere Maps"
             }
           },
           {
@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -315,18 +315,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "510807fb504d312c",
+  "active": "0d6ca7f41a2304fc",
   "lastOpenFiles": [
     "Topology/Wedge Sum.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Analysis/Semi-simple Matrix.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Differential Geometry/Regular Domain.md",
     "Topology/One-Point Compactification.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Algebra/Special Orthogonal Group.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Homotopy.md",
     "Analysis/Landau Notations.md",
     "Lie Group/Homogeneous Space.md",

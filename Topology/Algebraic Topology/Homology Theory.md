@@ -49,6 +49,7 @@
 > 2. $H_{0}(X)\cong \tilde{H}_{0}(X)\oplus G$
 > 3. for $f:X\to Y$, $f_{*}(\tilde{H}_{0}(X))\subseteq \tilde{H}_{0}(Y)$.
 > 4. there exists $\tilde{i}_{*},\tilde{j_{*}}$ s.t. the following sequence is exact: $$\cdots \to \tilde{H}_{p}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{p}(X)\xrightarrow{\tilde{j}_{*}}\tilde{H}_{p}(X,A)\xrightarrow{\tilde{\partial}_{*}} \tilde{H}_{p-1}(A)\to\cdots$$
+> 5. $\tilde{H}_{p}(X)\cong H_{p}(X,x_{0})$ for $x_{0}\in X$.
 
 ^0469d8
 
@@ -89,6 +90,7 @@
 > 	  
 > 	  3. **Exactness at $H_{0}(X,A)$.** 
 > 	     $\text{im }\tilde{j}_{*}\subseteq \text{ker }\partial_{*}$ by definition. Then, for $x\in \text{ker }\partial_{*}$, we have that 
+> 5. We have that: $$0=\tilde{H}_{p}(x_{0})\to \tilde{H}_{p}(X)\to H_{p}(X,x_{0})\to \tilde{H}_{p-1}(x_{0})=0$$is exact and $\tilde{H}_{p}\to H_{p}(X,x_{0})$ is an isomorphism.
 
 ^7a6086
 
@@ -141,10 +143,20 @@
 > Let $X:=S^n_{1}\lor \dots \lor S^n_{k}$ be a [[Wedge Sum|bouquet of $k$ $n$-dimensional spheres]]. Then, 
 > 1. for all $p\in \mathbb{Z}$: $$\psi:\tilde{H}_{p}(S^n_{1})\oplus \dots \oplus \tilde{H}_{p}(S^n_{k})\to \tilde{H}_{p}(X),\quad (x_{1},\dots,x_{k})\mapsto(i_{1})_{*}(x_{1})+\dots+(i_{k})_{*}(x_{k})$$is an isomorphism with its inverse map given by: $$\psi ^{-1}:\tilde{H}_{p}(X)\to\tilde{H}_{p}(S^n_{1})\oplus \dots \oplus \tilde{H}_{p}(S^n_{k}),\quad x\mapsto((p_{1})_{*}(x),\dots,(p_{k})_{*}(x))$$
 
-> [!proof]+
+> [!proof]-
 > We have that: 
 > 1. For all $i\in[k]$, $(i_i)_{*}:\tilde{H}_{p}(S_{i}^n)\to \tilde{H}_{p}(X)$. Hence, $\psi$ is well-defined. The fact that it is a homomorphism, follows from $(i_{i})_{*}$ being homomorphisms. 
 >    
 >    Similarly for $\psi ^{-1}$, it is well-defined and as $(p_{i})_{*}$ is a homomorphism so is $\psi ^{-1}$.
 >    
->    Therefore, it is left to show that they are inverses: $$\psi \circ  \psi ^{-1}(x)=\psi((p_{1})_{*}(x),\dots,(p_{k})_{*}(x))=(i_{1}\circ p_{1})_{*}(x)+\dots+(i_{k}\circ p_{k})_{*}(x)$$where as $i_{i}\circ p_{i}(x):=\begin{cases}x&x\in S^n_{i}\\q&x\notin S^n_{i}\end{cases}$ where $q$ is the joint point in $X$. Therefore, $i_{i}\circ p_{i}|_{S_{i}^n}=\text{id}|_{S^n_{i}}$ and $i_{i}\circ p_{i}|_{S_{j}^n}=i \circ q$ for $j\neq i$ Hence, $$\tilde{H}_{p}(S_{j}^n)\xrightarrow{q_{*}}\tilde{H}_{p}(\{ q \})=\xrightarrow{i_{*}}\tilde{H}(X)$$Hence, $(i_{i}\circ p_{i}|_{S_{j}^n})_{*}=0$. Therefore, 
+>    Therefore, it is left to show that they are inverses: $$\psi \circ  \psi ^{-1}(x)=\psi((p_{1})_{*}(x),\dots,(p_{k})_{*}(x))=(i_{1}\circ p_{1})_{*}(x)+\dots+(i_{k}\circ p_{k})_{*}(x)$$where as $i_{i}\circ p_{i}(x):=\begin{cases}x&x\in S^n_{i}\\q&x\notin S^n_{i}\end{cases}$ where $q$ is the joint point in $X$. Now, let $A:=S_{i}$ and $B:= X \backslash S_{i}$. Then, $H_{p}(X)=H_{p}(A)\oplus H_{p}(B)$
+>
+>    
+> 
+>    Therefore, we have that: $\tilde{H}_{p}(S^n_{i})\xrightarrow{(p_{i}|_{S^n_{i}})_{*}}\tilde{H}_{p}(S^n_{i})\xrightarrow{(i_{i})_{*}}\tilde{H}_{p}(X)$.
+>    
+>    $$\tilde{H}_{p}(S^n_{i})\to \tilde{H}_{p}(X)\to H_{p}(X, S^n_{i})$$
+>    
+>    
+>    $i_{i}\circ p_{i}|_{S_{i}^n}=\text{id}|_{S^n_{i}}$ and $i_{i}\circ p_{i}|_{S_{j}^n}=i \circ q$ for $j\neq i$ Hence, $$\tilde{H}_{p}(S_{j}^n)\xrightarrow{q_{*}}\tilde{H}_{p}(\{ q \})=0\xrightarrow{i_{*}}\tilde{H}(X)$$Hence, $(i_{i}\circ p_{i}|_{S_{j}^n})_{*}=0$. Therefore, $\psi \circ\psi ^{-1}(x)=x$ where 
+---
