@@ -117,6 +117,15 @@
 > 1. Let $\sigma,\sigma'$ be two such maps. Then, $$\sigma'\circ f=(\sigma'\circ \sigma ^{-1})\circ (\sigma \circ f)$$and we have: $$\det d_{p}(\sigma'\circ f)=\det (d_{p}(\sigma' \circ \sigma ^{-1})d_{p}(\sigma \circ f))=\det(\sigma'\circ \sigma ^{-1})\det(d_{p}(\sigma \circ f))=\det(d_{p}(\sigma \circ f))$$
 > 2. Let $\hat{\pi}:S^n\to \mathbb{R}^n \cup \{ \infty\}$ be the homeomorphism from [[One-Point Compactification|Example 1]]. Let $\sigma_{1},\sigma_{2}\in \text{SO}(n+1)$ with $\sigma_{1}(0)=p$ and $\sigma_{2}(q)=0$. Then, let $f':= \sigma_{2} \circ f \circ \sigma_{1}$. Then, if the statement holds for $f'$, we have that: $$\deg(f)=\deg(f')=\text{sgn}(\det d_{0}( \sigma_{2} \circ  f \circ  \sigma_{1}))=\text{sgn}(\det d_{p}(\sigma_{1}\circ \sigma_{2}\circ  f))=\varepsilon_{p}(f)$$Hence, it suffices to show for the case where $p=q=0$.
 >    
->    We first assume that $d_{0}f=\text{id}$. Then, by Taylor, there exists $\delta>0$ s.t. $$f(x)=x+g(x),\quad \forall \|x\|\leq\delta$$where $$
+>    We first assume that $d_{0}f=\text{id}$. Then, by Taylor, there exists $\delta>0$ s.t. $$f(x)=x+g(x),\quad \forall \|x\|\leq\delta$$where $\left\| g(x) \right\|= o(\|x\|)$ as $\|x\|\to 0$. Now, notice that as $x\to 0$, $$\frac{\left\| g(x) \right\| }{\left\| f(x) \right\|  }=\frac{1}{\left\| \frac{x}{\left\| g(x) \right\| } +\frac{g(x)}{\left\| g(x) \right\| }\right\|  }\leq \frac{1}{\frac{\left\| x \right\| }{\left\| g(x) \right\| }-1}\to 0$$Therefore, let $0<\varepsilon<\delta / 2$ s.t. for $0\leq  \|x\|\leq2\varepsilon$ it holds that $\frac{\left\| g(x) \right\|}{\left\| f(x) \right\|}< \frac{1}{100}$. Now we define the following homology: $$F:S^n\times I\to S^n,\quad (x,t)\mapsto \begin{cases}f(x)-tg(x)&\|x\|\leq \varepsilon\\f(x)-t\left( 2-\frac{\|x\|}{\varepsilon} \right) g(x)&\varepsilon< \|x\|\leq 2\varepsilon\\f(x)&2\varepsilon< \|x\|\end{cases}$$
+>    where $F$ is well-defined and continuous. Then, $F(\cdot, 0) = f$ and let $F(\cdot,1)=:f_{1}$. Now, 
+>    1. **Claim 1**: For all $x\neq 0$, $f_{1}(x)\neq 0$. 
+>     For all $\|x\|\leq \varepsilon$, $f_{1}(x)=f(x)-g(x)=x$. Hence, the statement holds. For $\|x\|\geq 2\varepsilon$, we have that $f_{1}(x)=f(x)$ and as $f^{-1}(0)=\{ 0 \}$, it holds. 
+>     
+> 	    Finally, for $\varepsilon\leq \|x\|\leq 2\varepsilon$, assume that $f_{1}(x)=0$, i.e. we have that $f(x)=\left( \frac{2\varepsilon-\|x\|}{\varepsilon} \right)g(x)$. Therefore, $$\frac{\left\| g(x) \right\| }{\left\| f(x) \right\| }=\frac{1}{2-\frac{\|x\|}{\varepsilon}}\geq \frac{1}{2}$$which is a contradiction. 
+> 	2. **Claim 2**: For $r>0$ small enough, we have that $f^{-1}_{1}(\{ x \})=\{ x \}$ for all $\|x\|\leq r$
+> 	   Assume otherwise. Then, there exists a sequence $r_{n}\to 0$ and $\|x_{n}\|\leq r$ and $y_{n}$ s.t. $\left\| y_{n} \right\|> \varepsilon$ s.t. $f(y_{n})=x_{n}$. (as $f_{1}(x_{n})=x_{n}$)
+> 
+> 	  
 
 ^d81610
