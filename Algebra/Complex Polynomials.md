@@ -16,4 +16,9 @@
 > Therefore, for any $t\in \mathbb{R}$, $\gamma_{t}:[0,1]\to S^1, s\mapsto h(s,t)$ is a loop at $1$ with $\gamma_{0}=\varepsilon_{1}$. By rescaling the restriction of $h$ to $t\in [0,1]$, we see that $\gamma_{t}\sim_{p}\gamma_{0}=\varepsilon_{1}$ for all $t\in \mathbb{R}$. Hence, $\gamma_{t}\in \pi_{1}(S^1,1)$ for all $t\in \mathbb{R}$.
 > 
 > Now, take $R\in \mathbb{R}$ large and define $f_{t}\in \mathbb{C}[X]$ with: $$f_{t}(x):=x^n+t(f(x)-x^n)$$for $0\leq t\leq 1$. Then, $f_{t}$ does not vanish for $\left| x \right|=R$ and there exists a path homotopy: $$\tilde{h}(s,t):=\frac{f_{t}(Re^{2\pi is}) / f_{t}(R)}{\left| f_{t}(Re^{2\pi is}) / f_{t}(R) \right| }$$as $\tilde{h}(0,t)=1$ and $\tilde{h}(1,t)=1$ for all $t\in \mathbb{R}$ from $\tilde{h}(s,0)=e^{2\pi ins}$ to $\tilde{h}(s,1)=h(s,R)=\gamma_{R}(s)$. Therefore, $s\mapsto e^{2\pi ins}$ is path homotopic to $\varepsilon_{1}$ in $S^1$, which is a contradiction.
+
+> [!proof]+ Proof (Algebraic Topology)
+> We extend $f$ into $\widehat{f}:\mathbb{C}\cup \{ \infty \}\to \mathbb{C}\cup \{ \infty \}$ where $\widehat{f}(\infty)=\infty$ and $\widehat{f}|_{\mathbb{C}}=f$. Then, using stereographic projections, we can express this as a smooth map $p:S^2\to S^2$.
+> 
+> Now, let $z\in \mathbb{C}$ be a [[Submersion|critical point]]. Then, $d_{z}p$ is not a isomorphism and $\text{ker }d_{z}p\neq 0$. As $p$ is holomorphic, $d_{z}p$ is linear in $\mathbb{C}$ and we have that $d_{z}p=0$. Hence, $p'(z)=0$. However, as $p$ is a polynomial and $\deg(p)\geq 1$, by Liouville, $p'\not\equiv 0$. Hence, there are finitely many critical points. However, $p(\mathbb{C})$ is an infinite set as $p$ is path connected and not constant. Hence, there exists a regular point $w\in \mathbb{C}$ s.t. 
 ---
