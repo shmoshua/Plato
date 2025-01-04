@@ -124,8 +124,15 @@
 >     
 > 	    Finally, for $\varepsilon\leq \|x\|\leq 2\varepsilon$, assume that $f_{1}(x)=0$, i.e. we have that $f(x)=\left( \frac{2\varepsilon-\|x\|}{\varepsilon} \right)g(x)$. Therefore, $$\frac{\left\| g(x) \right\| }{\left\| f(x) \right\| }=\frac{1}{2-\frac{\|x\|}{\varepsilon}}\geq \frac{1}{2}$$which is a contradiction. 
 > 	2. **Claim 2**: For $r>0$ small enough, we have that $f^{-1}_{1}(\{ x \})=\{ x \}$ for all $\|x\|\leq r$
-> 	   Assume otherwise. Then, there exists a sequence $r_{n}\to 0$ and $\|x_{n}\|\leq r$ and $y_{n}$ s.t. $\left\| y_{n} \right\|> \varepsilon$ s.t. $f(y_{n})=x_{n}$. (as $f_{1}(x_{n})=x_{n}$)
+> 	   Assume otherwise. Then, there exists a sequence $r_{n}\to 0$ and $\|x_{n}\|\leq r$ and $y_{n}$ s.t. $\left\| y_{n} \right\|> \varepsilon$ s.t. $f(y_{n})=x_{n}$. (as $f_{1}(x_{n})=x_{n}$) Now, as $S^n$ is compact, there exists a subsequence $y_{n_{k}}\to y$. Therefore, we have that $$f_{1}(y)=f_{1}(\lim_{ k \to \infty } y_{n_{k}})=\lim_{ k \to \infty } f_{1}(y_{n_{k}})=\lim_{ k \to \infty } x_{n_{k}}=0$$But $y\neq 0$, which is a contradiction to Claim 1. 
+> 	   
+> 	Now, let $0<r<\varepsilon$ be from Claim 2. We define $K:=S^n \backslash B_{\leq r}(0)$. Then, we have that from Claim 2, $f_{1}(K)\subseteq K$. Also, $f_{1}|_{\partial K}=\text{id}|_{\partial K}$ as $\partial K\subseteq B_{\leq \varepsilon}(0)$. Therefore, we can consider $f_{1}|_{K}:(K,\partial K)\to(K,\partial K)$. 
+> 	- **Claim 3:** $f_{1}|_{K}\sim \text{id}_{K}$ relative to $\partial K$.
+> 	  By stereographic projection from the south pole, we can identify $K$ as $B_{\leq R}(0)$ (where $0$ is the north pole). Then, let: $$G:K\times I\to K,\quad (x,t)\mapsto tx+(1-t)f_{1}(x)$$which is a homotopy. 
+> 	
+> 	As $f_{1}|_{B_{\leq r}(0)}=\text{id}|_{B_{\leq r}(0)}$, we have that $f_{1}\sim \text{id}$ and $f\sim \text{id}$. Therefore, we can conclude that: $$\deg(f)=\deg(\text{id})=1=\text{sgn}(\det d_{p}f)=\varepsilon_{0}(f)$$
+> 	
+> 	Now, let $A:=d_{0}f$ be any not necessarily $\text{id}$. As $0$ is a regular value, we have that $A$ is injective and invertible. Then, we can consider: $$h:=\widehat{A^{-1}} \circ  f$$Then, $d_{0}h=A^{-1}A = \text{id}$. Therefore, $$1=\deg(h)=\deg(\widehat{A^{-1}})\deg(f)=\text{sgn}\left(\det(A)\right)\deg(f)=\varepsilon_{0}(f)\deg(f)$$
 > 
-> 	  
 
 ^d81610

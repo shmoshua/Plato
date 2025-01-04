@@ -183,62 +183,6 @@
               "icon": "lucide-file",
               "title": "Degree of Sphere Maps"
             }
-          },
-          {
-            "id": "beb539658d49a004",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Submersion.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Submersion"
-            }
-          },
-          {
-            "id": "1f89264636cd9956",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Path-Connected Space.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Path-Connected Space"
-            }
-          },
-          {
-            "id": "e41a4d017127ba6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Special Orthogonal Group.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Special Orthogonal Group"
-            }
-          },
-          {
-            "id": "7871d38d664ff5a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Landau Notations.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Landau Notations"
-            }
           }
         ],
         "currentTab": 2
@@ -388,11 +332,12 @@
   },
   "active": "0d6ca7f41a2304fc",
   "lastOpenFiles": [
-    "Analysis/Landau Notations.md",
-    "Lie Group/Homogeneous Space.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Algebra/Special Orthogonal Group.md",
+    "Topology/Homotopy.md",
+    "Analysis/Landau Notations.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Lie Group/Homogeneous Space.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Differential Geometry/Submersion.md",
     "Topology/Path-Connected Space.md",
     "Lie Group/Topological Group.md",
@@ -410,7 +355,6 @@
     "Topology/Algebraic Topology/Reduced Homology.md",
     "Algebra/Split Exact Sequence.md",
     "Algebra/Splitting Field.md",
-    "Topology/Homotopy.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Retract.md",
     "TIKZ.md",
