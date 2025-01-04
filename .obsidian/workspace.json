@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -315,11 +315,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4d9a22262f8a2340",
+  "active": "510807fb504d312c",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Algebra/Split Exact Sequence.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Wedge Sum.md",
     "Analysis/Semi-simple Matrix.md",
     "Topology/Algebraic Topology/Singular Homology.md",
@@ -342,7 +343,6 @@
     "Differential Geometry/Smooth Function.md",
     "Differential Geometry/Vector Field.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
-    "Algebra/Split Exact Sequence.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
