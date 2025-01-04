@@ -19,11 +19,11 @@
 
 - **Related definition**: $H_{p}(X):=H_{p}(X , \varnothing)$ for all topological space $X$. ^3d68da
 - **Related definition**: $G:=H_{0}(X)$ where $X$ is a point space is known as the ***coefficients group*** of $H$. ^cd0ebd
-- **Related definition**: The ***reduced homology*** $\tilde{H}$ is defined as:
+- **Related definition**: The ***reduced homology*** $\tilde{H}$ is defined as: ^5437ba
 	1.  For $X\neq \varnothing$ and $p\in \mathbb{Z}$, $\tilde{H}_{p}(X):=\text{ker }\varepsilon_{*}$ where $P$ is a point space and $\varepsilon:X\to P$ is the constant map.
 	2. For a pair $(X,A)$, $\tilde{H}_{p}(X,A):=H_{p}(X,A)$ for all $p\in \mathbb{Z}$.
 	3. For $X=\varnothing$, $\tilde{H}_{p}(\varnothing)=\begin{cases}G&p=-1\\0&p\neq-1\end{cases}$
-- **Remark**: $\tilde{H}_{p}(X,\varnothing)\neq \tilde{H}_{p}(X)$ in general and $\tilde{H}_{p}(\varnothing,\varnothing)=H_{p}(\varnothing,\varnothing)=H_{p}(\varnothing)=0$ (cf. Lemma 1)
+- **Remark**: $\tilde{H}_{p}(X,\varnothing)\neq \tilde{H}_{p}(X)$ in general and $\tilde{H}_{p}(\varnothing,\varnothing)=H_{p}(\varnothing,\varnothing)=H_{p}(\varnothing)=0$ (cf. Lemma 1) ^b7cbee
 ---
 ##### Properties
 > [!lemma] Lemma 1
@@ -49,6 +49,8 @@
 > 2. $H_{0}(X)\cong \tilde{H}_{0}(X)\oplus G$
 > 3. for $f:X\to Y$, $f_{*}(\tilde{H}_{0}(X))\subseteq \tilde{H}_{0}(Y)$.
 > 4. there exists $\tilde{i}_{*},\tilde{j_{*}}$ s.t. the following sequence is exact: $$\cdots \to \tilde{H}_{p}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{p}(X)\xrightarrow{\tilde{j}_{*}}\tilde{H}_{p}(X,A)\xrightarrow{\tilde{\partial}_{*}} \tilde{H}_{p-1}(A)\to\cdots$$
+
+^0469d8
 
 > [!proof]- Proof (Incomplete)
 > We have that:
@@ -88,6 +90,8 @@
 > 	  3. **Exactness at $H_{0}(X,A)$.** 
 > 	     $\text{im }\tilde{j}_{*}\subseteq \text{ker }\partial_{*}$ by definition. Then, for $x\in \text{ker }\partial_{*}$, we have that 
 
+^7a6086
+
 
 ---
 > [!lemma] Theorem 3
@@ -106,6 +110,8 @@
 > 1. $\tilde{H}_{p}(S^n)\cong \begin{cases}G&p=n\\0&p\neq n\end{cases}$
 > 2. $H_{p}(B^n,S^{n-1})\cong \begin{cases} G&p=n\\0&p\neq n\end{cases}$
 > 3. $H_{p}(S^n,B^n_{+})=\begin{cases}G&p=n\\0&p\neq n\end{cases}$
+
+^d94fc8
 
 > [!proof]-
 > We first define $\pi:S^n\to \mathbb{R}^n,(x_{1},\dots,x_{n+1})\mapsto (x_{1},\dots,x_{n})$. Then, $\pi(S^n)=B^n$ and $\pi(N)=\pi(S)=0$ where $N:=(0,\dots,0,+1)\in S^n$ and $S:=(0,\dots,0,-1)\in S^n$.
@@ -127,3 +133,5 @@
 >     Consider the reduced LES: $$0=\tilde{H}_{p}(B^n)\to H_{p}(B^n, S^{n-1})\to \tilde{H}_{p-1}(S^{n-1})\to \tilde{H}_{p-1}(B^n)=0$$which is exact. Hence, $H_{p}(B^n,S^{n-1})\cong \tilde{H}_{p-1}(S^{n-1})$.
 >     
 >  Hence, by induction this proves the statement.
+
+^8c01f3

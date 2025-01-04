@@ -112,16 +112,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Sphere.md",
-                "mode": "preview",
+                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sphere"
+              "title": "Algebraic Topology I Roadmap"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       },
       {
         "id": "4d5ec56e57395c88",
@@ -204,16 +204,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Path-Connected Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Continuous Function"
+              "title": "Path-Connected Space"
+            }
+          },
+          {
+            "id": "e41a4d017127ba6b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -358,23 +368,24 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0d6ca7f41a2304fc",
+  "active": "e41a4d017127ba6b",
   "lastOpenFiles": [
-    "Differential Geometry/Differential.md",
+    "Topology/Path-Connected Space.md",
+    "Topology/Continuous Function.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Differential Geometry/Sphere.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Differential Geometry/Differential.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Submersion.md",
     "Differential Geometry/Smooth Function.md",
     "Topology/One-Point Compactification.md",
-    "Topology/Continuous Function.md",
-    "Differential Geometry/Sphere.md",
     "Differential Geometry/Vector Field.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
     "Algebra/Split Exact Sequence.md",
     "Algebra/Splitting Field.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Homotopy.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Retract.md",
@@ -385,7 +396,6 @@
     "Courses/Linear System Theory/Problem Set 5.md",
     "Algebra/Exact Sequence.md",
     "Topology/Contractible Space.md",
-    "Topology/Compact Space.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

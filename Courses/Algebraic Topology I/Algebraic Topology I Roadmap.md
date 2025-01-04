@@ -216,9 +216,48 @@
 ![[Homology Theory#^da2d12]]
 ![[Homology Theory#^3d68da]]
 ![[Homology Theory#^cd0ebd|p]]
+![[Homology Theory#^5437ba|p]]
+![[Homology Theory#^b7cbee|p]]
 
 ---
 ![[Homology Theory#^d375b2]]
 ![[Homology Theory#^525ab9|p]]
+
+---
+![[Homology Theory#^0469d8]]
+![[Homology Theory#^7a6086|p]]
+
+---
+![[Homology Theory#^d94fc8]]
+![[Homology Theory#^8c01f3|p]]
+
+---
+##### 2.4.1 Degree of Sphere Maps
+![[Degree of Sphere Maps#^475803]]
+
+---
+![[Degree of Sphere Maps#^0c3745]]
+![[Degree of Sphere Maps#^f7210e|p]]
+
+---
+![[Degree of Sphere Maps#^0901d5]]
+![[Degree of Sphere Maps#^cb5ea4|p]]
+![[Degree of Sphere Maps#^d5b3d2|p]]
+
+---
+![[Degree of Sphere Maps#^2fc6d4]]
+![[Degree of Sphere Maps#^05f580|p]]
+
+---
+![[One-Point Compactification#^170aa2]]
+![[One-Point Compactification#^e9411e|p]]
+
+---
+![[Degree of Sphere Maps#^d93efe]]
+![[Degree of Sphere Maps#^db8fdc|p]]
+
+---
+![[Degree of Sphere Maps#^f9efff]]
+![[Degree of Sphere Maps#^d81610|p]]
 
 ---
