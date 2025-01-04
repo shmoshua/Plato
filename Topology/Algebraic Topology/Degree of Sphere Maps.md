@@ -142,3 +142,16 @@
 > Let $Y$ be a space with a base point $y_{0}\in Y$. Further, let $E_{1},\dots,E_{k}\subseteq S^n$ be disjoint open s.t. $E_{i}\cong \mathbb{R}^n$. Let $f:S^n\to Y$ be continuous s.t. $f(S^n \backslash E_{1}\cup\dots \cup E_{k})=\{ y_{0} \}$. Then, 
 > 1. $f$ factors into $h\circ g$ where $g:S^n\to S^n_{1}\lor\dots \lor S^n_{k}$ is the quotient map of the homeomorphism $S^n / (S^{n} \backslash (E_{1}\cup\dots \cup E_{k}))\to S^n_{1}\lor\dots \lor S^n_{k}$ and $h:S^n_{1}\lor\dots \lor S^n_{k}\to Y$.
 > 2. Let $f_{q}:=h \circ i_{q} \circ p_{q} \circ g:S^n\to Y$. It holds that: $$f_{*}=\sum_{q=1}^{n}(f_{q})_{*}$$
+
+> [!proof]-
+> We have that: 
+> 1. Clear.
+> 2. Let $\alpha\in \tilde{H}_{n}(S^n)$. Then, $$f_{*}(\alpha)=h_{*} \circ  g_{*}(\alpha)=\sum_{q=1}^{k}h_{*}\circ  (i_{q})_{*} \circ  (p_{q})_{*} \circ  g_{*}(\alpha)=\sum_{q=1}^{k}(f_{q})_{*}(\alpha)$$as $\sum_{q=1}^{k}(i_{q})_{*}\circ(p_{q})_{*}=\text{id}$. 
+
+---
+> [!lemma] Theorem 7 (Smooth Maps II)
+> Let $f:S^n\to S^n$ be smooth and $p\in S^n$ is a regular value s.t. $f^{-1}(p)=\{ q_{1},\dots,q_{k} \}$. Then, 
+> 1. $\deg(f)=\sum_{j=1}^{k}\varepsilon_{p}(f)$. 
+
+> [!proof]+
+> Assume $f^{-1}(p)\neq \varnothing$. Then, $d_{q_{j}}f:\text{T}_{q_{j}}S^n\to \text{T}_{p}S^n$ are surjective and isomorphisms. Therefore, by [[Local Diffeomorphism|inverse function theorem]], there exist open neighborhoods $E$
