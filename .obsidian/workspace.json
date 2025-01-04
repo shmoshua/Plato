@@ -162,16 +162,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "file": "Algebra/Split Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
+              "title": "Split Exact Sequence"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -315,12 +315,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0d6ca7f41a2304fc",
+  "active": "4d9a22262f8a2340",
   "lastOpenFiles": [
-    "Topology/Wedge Sum.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Wedge Sum.md",
     "Analysis/Semi-simple Matrix.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Differential Geometry/Regular Domain.md",

@@ -139,5 +139,6 @@
 
 ---
 > [!lemma] Theorem 6 (Bouquet of Spheres)
-> Let $Y$ be a space with a base point $y_{0}\in Y$. Further, let $E_{1},\dots,E_{k}\subseteq S^n$ be disjoint open s.t. $E_{i}\cong \mathbb{R}^n$. 
-> 1. Let $f:S^n\to Y$ be continuous s.t. $f(S^n \backslash E_{1}\cup\dots \cup E_{k})=\{ y_{0} \}$. Then, $f$ factors into $h\circ g$ where $g:S^n\to S^n_{1}\lor\dots \lor S^n_{k}$ is the quotient map of the homeomorphism $S^n / (S^{n} \backslash (E_{1}\cup\dots \cup E_{k}))\to S^n_{1}\lor\dots \lor S^n_{k}$ and $h:S^n_{1}\lor\dots \lor S^n_{k}\to Y$.
+> Let $Y$ be a space with a base point $y_{0}\in Y$. Further, let $E_{1},\dots,E_{k}\subseteq S^n$ be disjoint open s.t. $E_{i}\cong \mathbb{R}^n$. Let $f:S^n\to Y$ be continuous s.t. $f(S^n \backslash E_{1}\cup\dots \cup E_{k})=\{ y_{0} \}$. Then, 
+> 1. $f$ factors into $h\circ g$ where $g:S^n\to S^n_{1}\lor\dots \lor S^n_{k}$ is the quotient map of the homeomorphism $S^n / (S^{n} \backslash (E_{1}\cup\dots \cup E_{k}))\to S^n_{1}\lor\dots \lor S^n_{k}$ and $h:S^n_{1}\lor\dots \lor S^n_{k}\to Y$.
+> 2. Let $f_{q}:=h \circ i_{q} \circ p_{q} \circ g:S^n\to Y$. It holds that: $$f_{*}=\sum_{q=1}^{n}(f_{q})_{*}$$
