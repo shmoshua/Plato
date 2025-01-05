@@ -218,12 +218,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Functional Analysis/Open and Closed Maps.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Compact Space"
+              "title": "Open and Closed Maps"
             }
           }
         ],
@@ -373,15 +373,16 @@
   },
   "active": "960f0f73c5ec75e0",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
-    "Topology/Complex Projective Space.md",
+    "Differential Geometry/Proper Map.md",
     "Topology/Proper Group Action.md",
+    "Topology/Hausdorff Space.md",
+    "Functional Analysis/Open and Closed Maps.md",
+    "Topology/Compact Space.md",
+    "Topology/Complex Projective Space.md",
+    "Topology/Quotient Topology.md",
     "Algebra/Orbit and Stablizer.md",
     "Topology/CW-Complex.md",
-    "Differential Geometry/Proper Map.md",
     "Topology/Real Projective Space.md",
-    "Topology/Hausdorff Space.md",
-    "Topology/Compact Space.md",
     "Algebra/Coset.md",
     "Algebra/Quotient Set.md",
     "Algebra/Group Action.md",
@@ -398,7 +399,6 @@
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Measure Theory/Complex Measure.md",
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Differential Geometry/Smooth Manifold.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

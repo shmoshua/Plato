@@ -22,13 +22,13 @@
 > [!lemma] Lemma 2
 > Consider the map $$f:B^{2n}\to \mathbb{C}\mathbb{P}^n,(w_{0},\dots,w_{n-1})\mapsto \pi(w_{0},\dots,w_{n-1},\sqrt{ 1-\|w\|^{2} })$$Then, 
 > 1. $f$ is continuous 
-> 2. $f$ is injective on $(B^{2n})^\circ$
+> 2. $f$ is an embedding on $(B^{2n})^\circ$
 > 3. $f(\partial B^{2n})\cong\mathbb{C}\mathbb{P}^{n-1}$
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. The map is continuous by definition. 
-> 2. Now, to show the injectivity, let $(w_{0},\dots, w_{n-1})$ and $(z_{0},\dots,z_{n-1})\in (B^{2n})^\circ$. Then, if $$\pi(w_{0},\dots,w_{n-1},\sqrt{ 1-\|w\|^{2} })=\pi(z_{0},\dots,z_{n-1},\sqrt{ 1-\|z\|^{2} })$$Then, there exists $\lambda\in \mathbb{C}^\times$ s.t. $w_{i}=\lambda z_{i}$ and $\sqrt{ 1-\|w\|^{2} }=\lambda \sqrt{ 1-\|z\|^{2} }$. However, as $\sqrt{ 1-\|w\|^{2} }$ and $\sqrt{ 1-\|z\|^{2} }$ are both positive reals, we have that $\lambda$ is positive real. Hence, we have that: $$1-\lambda^{2}\|z\|^{2}=1-\|w\|^{2}=\lambda^{2}(1-\|z\|^{2})$$and $\lambda=1$. This shows the injectivity.
+> 2. Now, to show the injectivity, let $(w_{0},\dots, w_{n-1})$ and $(z_{0},\dots,z_{n-1})\in (B^{2n})^\circ$. Then, if $$\pi(w_{0},\dots,w_{n-1},\sqrt{ 1-\|w\|^{2} })=\pi(z_{0},\dots,z_{n-1},\sqrt{ 1-\|z\|^{2} })$$Then, there exists $\lambda\in \mathbb{C}^\times$ s.t. $w_{i}=\lambda z_{i}$ and $\sqrt{ 1-\|w\|^{2} }=\lambda \sqrt{ 1-\|z\|^{2} }$. However, as $\sqrt{ 1-\|w\|^{2} }$ and $\sqrt{ 1-\|z\|^{2} }$ are both positive reals, we have that $\lambda$ is positive real. Hence, we have that: $$1-\lambda^{2}\|z\|^{2}=1-\|w\|^{2}=\lambda^{2}(1-\|z\|^{2})$$and $\lambda=1$. This shows the injectivity. Further, we have that $f$ is open as norm is an open map and so is $\pi$. Hence, $f$ is an embedding on $(B^{2n})^\circ$.
 > 3. We have that: $$i:\mathbb{C}\mathbb{P}^{n-1}\to \mathbb{C}\mathbb{P}^n,\quad [z_{0}:\dots:z_{n-1}]\mapsto [z_{0}:\dots:z_{n-1}:0]$$is continuous and injective. As $\mathbb{C}\mathbb{P}^{n-1}$ is compact and $\mathbb{C}\mathbb{P}^{n}$ Hausdorff, we have that $i(\mathbb{C}\mathbb{P}^{n-1})$ is homeomorphic to $\mathbb{C}\mathbb{P}^{n-1}$. However, we have that $i(\mathbb{C}\mathbb{P}^{n-1})=f(\partial B^{2n})$.
 
 ---
@@ -37,4 +37,9 @@
 > 1. $\mathbb{C}\mathbb{P}^n$ is a [[CW-complex]].
 
 > [!proof]+
-> Consider the following map: $$$$
+> Consider the following map: $$\Psi:\mathbb{C}\mathbb{P}^{n-1}\cup_{f_{\partial}}B^{2n}\to \mathbb{C}\mathbb{P}^n,\quad  [x]\mapsto \begin{cases}f(x)&x\in B^{2n}\\i(x)&x\in \mathbb{C}\mathbb{P}^{n-1} \end{cases}$$where $i:\mathbb{C}\mathbb{P}^{n-1}\to \mathbb{C}\mathbb{P}^n,[z_{0}:\dots:z_{n-1}]\mapsto [z_{0}:\dots: z_{n-1} : 0]$. Then, this is well-defined and continuous as $f$ and $i$ are and $f(\partial B^{2n})=i(\mathbb{C}\mathbb{P}^{n-1})$. We show that $\Psi$ is a homeomorphism. We have that $\mathbb{C}\mathbb{P}^{n-1}$ and $B^{2n}$ are both compact therefore, the LHS is compact. Further, $\mathbb{C}\mathbb{P}^{n}$ is Hausdorff. Therefore, it is left to show that $\Psi$ is a bijection. This can be done by showing that $f((B^{2n})^\circ)=\{ [z_{0}:\dots:z_{n}]\in \mathbb{C}\mathbb{P}^n :z_{n}\neq 0\}$ which is well-defined. 
+> 
+> Let $[z_{0}:\dots: z_{n}]\in \mathbb{C}\mathbb{P}^n$ with $z_{n}\neq 0$. 
+> 
+> As 
+> 
