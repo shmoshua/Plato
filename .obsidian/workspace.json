@@ -112,16 +112,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Complex Polynomials.md",
+                "file": "Topology/CW-Complex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Complex Polynomials"
+              "title": "CW-Complex"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "4d5ec56e57395c88",
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+                "file": "Topology/Weak Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Degree of Sphere Maps"
+              "title": "Weak Topology"
             }
           },
           {
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Complex Polynomials.md",
+                "file": "Topology/CW-Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Complex Polynomials"
+              "title": "CW-Complex"
             }
           },
           {
@@ -184,7 +184,8 @@
               "title": "Submersion"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -236,8 +237,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -329,14 +329,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0fb9932122feb2ab",
+  "active": "1e653de5e0e6581e",
   "lastOpenFiles": [
-    "Differential Geometry/Submersion.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Initial Topology.md",
+    "Topology/CW-Complex.md",
     "Algebra/Complex Polynomials.md",
+    "Topology/Weak Topology.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Differential Geometry/Submersion.md",
     "Measure Theory/Complex Measure.md",
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Submanifold.md",
@@ -354,9 +357,6 @@
     "Analysis/Landau Notations.md",
     "Lie Group/Homogeneous Space.md",
     "Topology/Path-Connected Space.md",
-    "Lie Group/Topological Group.md",
-    "Lie Group/Lie Group.md",
-    "Topology/Connected Space.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
