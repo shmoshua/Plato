@@ -112,12 +112,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/CW-Complex.md",
+                "file": "Topology/Complex Projective Space.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CW-Complex"
+              "title": "Complex Projective Space"
             }
           }
         ],
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Complex Projective Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Quotient Topology"
+              "title": "Complex Projective Space"
             }
           },
           {
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Orbit and Stablizer"
+              "title": "Quotient Topology"
             }
           }
         ],
@@ -216,7 +216,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fundamental theorem of algebra",
+                "query": "closed graph ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,7 +237,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -331,11 +332,15 @@
   },
   "active": "39277a6839bc6623",
   "lastOpenFiles": [
-    "Topology/Real Projective Space.md",
-    "Algebra/Orbit and Stablizer.md",
-    "Topology/Quotient Topology.md",
-    "Topology/One-Point Compactification.md",
     "Topology/CW-Complex.md",
+    "Topology/Quotient Topology.md",
+    "Topology/Hausdorff Space.md",
+    "Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/Banach Algebra.md",
+    "Topology/Real Projective Space.md",
+    "Topology/Complex Projective Space.md",
+    "Algebra/Orbit and Stablizer.md",
+    "Topology/One-Point Compactification.md",
     "Algebra/Quotient Set.md",
     "Topology/Continuous Function.md",
     "Topology/Initial Topology.md",
@@ -353,10 +358,6 @@
     "Measure Theory/Diffeomorphism.md",
     "Algebra/Split Exact Sequence.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Wedge Sum.md",
-    "Analysis/Semi-simple Matrix.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Differential Geometry/Regular Domain.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
