@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Proper Group Action.md",
+                "file": "Differential Geometry/Proper Map.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Proper Group Action"
+              "title": "Proper Map"
             }
           },
           {
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
+              "title": "Quotient Topology"
             }
           },
           {
@@ -190,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Topology/Proper Group Action.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Orbit and Stablizer"
+              "title": "Proper Group Action"
             }
           },
           {
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -371,18 +371,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4f386ac24684bdd4",
+  "active": "960f0f73c5ec75e0",
   "lastOpenFiles": [
-    "Topology/Complex Projective Space.md",
-    "Topology/Compact Space.md",
+    "Topology/Quotient Topology.md",
     "Topology/Proper Group Action.md",
     "Algebra/Orbit and Stablizer.md",
-    "Topology/Hausdorff Space.md",
-    "Algebra/Coset.md",
-    "Topology/Real Projective Space.md",
-    "Differential Geometry/Proper Map.md",
+    "Topology/Complex Projective Space.md",
     "Topology/CW-Complex.md",
-    "Topology/Quotient Topology.md",
+    "Differential Geometry/Proper Map.md",
+    "Topology/Real Projective Space.md",
+    "Topology/Hausdorff Space.md",
+    "Topology/Compact Space.md",
+    "Algebra/Coset.md",
     "Algebra/Quotient Set.md",
     "Algebra/Group Action.md",
     "Lie Group/Topological Group.md",
