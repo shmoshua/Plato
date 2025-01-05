@@ -143,20 +143,6 @@
             }
           },
           {
-            "id": "0d6ca7f41a2304fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Weak Topology.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Weak Topology"
-            }
-          },
-          {
             "id": "e47c8bac0a08c111",
             "type": "leaf",
             "state": {
@@ -176,16 +162,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Submersion.md",
+                "file": "Topology/Initial Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Submersion"
+              "title": "Initial Topology"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -329,15 +315,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1e653de5e0e6581e",
+  "active": "e47c8bac0a08c111",
   "lastOpenFiles": [
     "Topology/Initial Topology.md",
     "Topology/CW-Complex.md",
-    "Algebra/Complex Polynomials.md",
+    "Differential Geometry/Submersion.md",
     "Topology/Weak Topology.md",
+    "Algebra/Complex Polynomials.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Differential Geometry/Submersion.md",
     "Measure Theory/Complex Measure.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Differential Geometry/Smooth Manifold.md",
