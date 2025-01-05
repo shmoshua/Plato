@@ -119,9 +119,23 @@
               "icon": "lucide-file",
               "title": "Complex Projective Space"
             }
+          },
+          {
+            "id": "2330ffc1e7c62b32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Proper Group Action.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Proper Group Action"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "4d5ec56e57395c88",
@@ -162,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Complex Projective Space.md",
+                "file": "Topology/Proper Group Action.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Complex Projective Space"
+              "title": "Proper Group Action"
             }
           },
           {
@@ -182,6 +196,48 @@
               },
               "icon": "lucide-file",
               "title": "Quotient Topology"
+            }
+          },
+          {
+            "id": "ac587d153add49bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Real Projective Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Real Projective Space"
+            }
+          },
+          {
+            "id": "13274e904a681939",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Orbit and Stablizer.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Orbit and Stablizer"
+            }
+          },
+          {
+            "id": "ae7a31733edb0041",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Group Action.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Group Action"
             }
           }
         ],
@@ -216,7 +272,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "closed graph ",
+                "query": "acts properly",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,8 +293,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -332,14 +387,18 @@
   },
   "active": "39277a6839bc6623",
   "lastOpenFiles": [
-    "Topology/CW-Complex.md",
+    "Algebra/Orbit and Stablizer.md",
+    "Topology/Proper Group Action.md",
+    "Topology/Real Projective Space.md",
     "Topology/Quotient Topology.md",
+    "Algebra/Group Action.md",
+    "Differential Geometry/Proper Map.md",
+    "Topology/Complex Projective Space.md",
+    "Lie Group/Topological Group.md",
+    "Topology/CW-Complex.md",
     "Topology/Hausdorff Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Banach Algebra.md",
-    "Topology/Real Projective Space.md",
-    "Topology/Complex Projective Space.md",
-    "Algebra/Orbit and Stablizer.md",
     "Topology/One-Point Compactification.md",
     "Algebra/Quotient Set.md",
     "Topology/Continuous Function.md",
@@ -354,10 +413,6 @@
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Local Diffeomorphism.md",
     "Differential Geometry/Submanifold.md",
-    "Differential Geometry/Smooth Function.md",
-    "Measure Theory/Diffeomorphism.md",
-    "Algebra/Split Exact Sequence.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
