@@ -143,15 +143,21 @@
 > 1. $f$ factors into $h\circ g$ where $g:S^n\to S^n_{1}\lor\dots \lor S^n_{k}$ is the quotient map of the homeomorphism $S^n / (S^{n} \backslash (E_{1}\cup\dots \cup E_{k}))\to S^n_{1}\lor\dots \lor S^n_{k}$ and $h:S^n_{1}\lor\dots \lor S^n_{k}\to Y$.
 > 2. Let $f_{q}:=h \circ i_{q} \circ p_{q} \circ g:S^n\to Y$. It holds that: $$f_{*}=\sum_{q=1}^{k}(f_{q})_{*}$$
 
+^605f69
+
 > [!proof]-
 > We have that: 
 > 1. Clear.
 > 2. Let $\alpha\in \tilde{H}_{n}(S^n)$. Then, $$f_{*}(\alpha)=h_{*} \circ  g_{*}(\alpha)=\sum_{q=1}^{k}h_{*}\circ  (i_{q})_{*} \circ  (p_{q})_{*} \circ  g_{*}(\alpha)=\sum_{q=1}^{k}(f_{q})_{*}(\alpha)$$as $\sum_{q=1}^{k}(i_{q})_{*}\circ(p_{q})_{*}=\text{id}$. 
 
+^76f00b
+
 ---
 > [!lemma] Theorem 7 (Smooth Maps II)
 > Let $f:S^n\to S^n$ be smooth and $p\in S^n$ is a regular value s.t. $f^{-1}(p)=\{ q_{1},\dots,q_{k} \}$. Then, 
 > 1. $\deg(f)=\sum_{j=1}^{k}\varepsilon_{q_{j}}(f)$. 
+
+^a38c18
 
 > [!proof]-
 > Assume $f^{-1}(p)\neq \varnothing$. Then, $d_{q_{j}}f:\text{T}_{q_{j}}S^n\to \text{T}_{p}S^n$ are surjective and isomorphisms. Therefore, by [[Local Diffeomorphism|inverse function theorem]], there exist disjoint  open neighborhoods $U_{i}\ni q_{i}$ and $V_{i}\ni p$ s.t. $f|_{U_{i}}:U_{i}\to V_{i}$ is a diffeomorphism. Wlog we may assume that $U_{1},\dots,U_{k}\cong \mathbb{R}^n$ and $V:=V_{1}=\dots=V_{k}$ (otherwise reduce $V$ to the intersection). 
@@ -163,21 +169,34 @@
 > 4. $\phi$ is smooth and $d_{p}\phi=\text{id}$. 
 >    
 > Then, $\phi \circ f \sim f$. However, also notice that $(\phi \circ f)(S^n \backslash U_{1}\cup\dots \cup U_{k})=\{ -p \}$. Therefore, $$(\phi \circ f)_{*}=\sum_{i=1}^{k}(\phi \circ  f)_{i*}$$and further, notice that $(\phi \circ f)_{i}:S^n\to S^n$ with $p\in S^n$ regular with $(\phi \circ f)_{i}^{-1}(p)=\{ q_{i} \}.$ Hence, from Theorem 5, $$\deg(f)=\deg(\phi \circ f)=\sum_{i=1}^{k}\deg((\phi \circ f)_{i*})=\sum_{i=1}^{k}\varepsilon_{q_{i}}((\phi \circ  f)_{i})$$To conclude, we have that: $$d_{q_{i}}((\phi \circ  f)_{i})=d_{q_{i}}(\phi \circ f)=d_{q_{i}}f$$Hence, $\deg(f)=\sum_{i=1}^{k}\varepsilon_{q_{i}}(f)$.
+
+^184b4e
+
 ---
 > [!lemma] Corollary 8 
 > Let $f:S^n\to S^n$ be continuous. Then, $\deg(f)$ is independent of the homology theory $H$, i.e. for homology theories $H_{1},H_{2}$ with coefficients group $\mathbb{Z}$, we have that: $$\deg_{H_{1}}(f)=\deg_{H_{2}}(f)$$
 
+^c688e8
+
 > [!proof]-
 > We have that by [[Smooth Manifold|Theorem 4]], there exists $g:S^n\to S^n$ smooth s.t. $f\sim g$. Further, by [[Submersion|Sard]], $g$ has a regular value. But by Theorem 7, $$\deg_{H_{1}}(f)=\deg_{H_{1}}(g)=\sum_{j=1}^{k}\varepsilon_{q_{j}}(f)=\deg_{H_{2}}(g)=\deg_{H_{2}}(f)$$
+
+^471a89
+
 ---
 > [!lemma] Theorem 9 (Hopf)
 > Let $f,g:S^n\to S^n$, 
 > 1. $f\sim g$ if and only if $\deg(f)=\deg(g)$.
+
+^379be4
+
 ---
 ##### Examples
 > [!h] Example 1
 > Consider $S^1\subseteq \mathbb{C}$. 
 > 1. for $f:S^1\to S^1,z\mapsto z^k$, $\deg(f)=k$ for all $k\in \mathbb{Z}$.
+
+^5ba85b
 
 > [!proof]-
 > We have that:
@@ -186,3 +205,6 @@
 >    If $k=0$, then $f$ is constant and $\deg(f)=0$.
 >    
 >    If $k< 0$, then $\deg(z^{-1})=-1$ as it is a reflection and we have that $\deg(z^{-k})=\deg(z^{-1})\deg(z^k)=-k$.
+
+^460c1d
+

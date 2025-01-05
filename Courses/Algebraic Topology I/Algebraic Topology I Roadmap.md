@@ -261,3 +261,35 @@
 ![[Degree of Sphere Maps#^d81610|p]]
 
 ---
+![[Wedge Sum#^56869a]]
+![[Wedge Sum#^6c44a6]]
+
+---
+![[Wedge Sum#^789a47]]
+
+
+---
+![[Degree of Sphere Maps#^605f69]]
+![[Degree of Sphere Maps#^76f00b|p]]
+
+---
+![[Degree of Sphere Maps#^a38c18]]
+![[Degree of Sphere Maps#^184b4e|p]]
+
+---
+![[Degree of Sphere Maps#^c688e8]]
+![[Degree of Sphere Maps#^471a89|p]]
+
+---
+![[Degree of Sphere Maps#^379be4]]
+
+---
+![[Degree of Sphere Maps#^5ba85b]]
+![[Degree of Sphere Maps#^460c1d|p]]
+
+---
+![[Complex Polynomials#^25037e]]
+![[Complex Polynomials#^f27756|p]]
+
+---
+### 3. CW-Complexes

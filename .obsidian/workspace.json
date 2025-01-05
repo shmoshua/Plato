@@ -121,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "4d5ec56e57395c88",
@@ -184,8 +184,7 @@
               "title": "Submersion"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -330,16 +329,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e47c8bac0a08c111",
+  "active": "0fb9932122feb2ab",
   "lastOpenFiles": [
     "Differential Geometry/Submersion.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Algebra/Complex Polynomials.md",
     "Measure Theory/Complex Measure.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Differential Geometry/Smooth Manifold.md",
     "Differential Geometry/Local Diffeomorphism.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Differential Geometry/Submanifold.md",
     "Differential Geometry/Smooth Function.md",
     "Measure Theory/Diffeomorphism.md",
