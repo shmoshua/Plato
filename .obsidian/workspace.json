@@ -51,34 +51,6 @@
             }
           },
           {
-            "id": "abde96df20f5a865",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Retract.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Retract"
-            }
-          },
-          {
-            "id": "d79b86b04b470968",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Homology Theory"
-            }
-          },
-          {
             "id": "b40bea9cc5405c18",
             "type": "leaf",
             "state": {
@@ -135,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       },
       {
         "id": "4d5ec56e57395c88",
@@ -190,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Proper Map.md",
+                "file": "Topology/Complex Projective Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Proper Map"
+              "title": "Complex Projective Space"
             }
           },
           {
@@ -246,16 +218,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Complex Projective Space.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Complex Projective Space"
+              "title": "Compact Space"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -399,17 +371,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "13274e904a681939",
+  "active": "4f386ac24684bdd4",
   "lastOpenFiles": [
+    "Topology/Complex Projective Space.md",
+    "Topology/Compact Space.md",
+    "Topology/Proper Group Action.md",
+    "Algebra/Orbit and Stablizer.md",
+    "Topology/Hausdorff Space.md",
+    "Algebra/Coset.md",
     "Topology/Real Projective Space.md",
     "Differential Geometry/Proper Map.md",
-    "Topology/Proper Group Action.md",
-    "Topology/Quotient Topology.md",
     "Topology/CW-Complex.md",
-    "Topology/Hausdorff Space.md",
-    "Topology/Complex Projective Space.md",
+    "Topology/Quotient Topology.md",
     "Algebra/Quotient Set.md",
-    "Algebra/Orbit and Stablizer.md",
     "Algebra/Group Action.md",
     "Lie Group/Topological Group.md",
     "Functional Analysis/Bounded Linear Map.md",
@@ -425,8 +399,6 @@
     "Measure Theory/Complex Measure.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Differential Geometry/Smooth Manifold.md",
-    "Differential Geometry/Local Diffeomorphism.md",
-    "Differential Geometry/Submanifold.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

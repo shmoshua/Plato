@@ -14,6 +14,4 @@
 > We have that:
 > 1. We define: $$\Psi:(\mathbb{C}^{n+1} \backslash \{ 0 \}) / \mathbb{C}^\times\to \mathbb{C}\mathbb{P}^n,\quad \mathbb{C}^\times z\mapsto \pi(z)$$
 > 	Then, 
-> 2. To show that $\mathbb{C}\mathbb{P}^n$ is Hausdorff, we first show that $\pi$ is open. Let $U\subseteq \mathbb{C}^{n+1} \backslash \{ 0 \}$ be open. Then, $$\pi ^{-1}(\pi(U))=\{ \lambda z:\lambda\in \mathbb{C} \backslash \{ 0 \},z\in U \}$$Indeed, if $w\in \pi ^{-1}(\pi(U))$, then $\pi(w)\in\pi(U)$ and there exists $z\in U$ with $\pi(w)=\pi(z)$, i.e. $w\sim z$. Conversely, for $\lambda z$, we have that $\pi(\lambda z)=\pi(z)\in \pi(U)$. Hence, $\pi ^{-1}(\pi(U))$ is open and so is $\pi(U)$. 
->    
->    Further, we show that the graph $\Gamma:=\{ (z,\lambda z):z\in \mathbb{C}^{n+1} \backslash \{ 0 \},0\neq\lambda\in \mathbb{C}\}$ is closed. 
+> 2. Let $X:=\mathbb{C}^{n+1} \backslash \{ 0 \}$. To show that $\mathbb{C}\mathbb{P}^n$ is Hausdorff, by [[Proper Group Action|Theorem 1]], it suffices to show that the group action is proper, i.e. $$\rho:\mathbb{C}^\times \times X\to X\times X,\quad (\lambda,z)\mapsto (z,\lambda z)$$is [[proper map|proper]]. As $\mathbb{C}^\times \times X$ is Hausdorff and $X\times X$ is LCH, by [[Proper Map|Proposition 1]], we only need to show that for all compact $K\subseteq X\times X$, $\rho ^{-1}(K)$ is compact.
