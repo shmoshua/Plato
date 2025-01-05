@@ -24,8 +24,10 @@
 > 1. $K$ is a $0$-dimensional CW-complex if and only if it is a discrete space.
 > 2. $K$ is a $1$-dimensional CW-complex if and only if it is a [[graph|multigraph]].
 > 3. $S^n$ is a CW-complex.
+> 4. $\mathbb{T}^{2}$ is a CW-complex.
+> 5. [[Klein bottle]] is a CW-complex.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. By definition.
 > 2. $K^{(0)}$ defines the vertices and $K^{(1)}$ the edges on the vertices.
@@ -34,8 +36,9 @@
 > 	2. There are no cells for $0<i<n$.
 > 	3. One cell in $I_{n}=\{ \sigma \}$ where $f_{\partial\sigma}:S^{n-1}_{\sigma}\to K^{(n-1)},\quad y\mapsto x$
 > 	
-> 	Then, we claim that $K^{(n)}\cong S^n$. Let: $$\psi:\{ y \}\sqcup B^n_{\sigma}\to \mathbb{R}^n\cup \{ \infty \},\quad x\mapsto \begin{cases}\infty&x=y\lor x\in S^n_{\sigma}\\ \frac{1}{1-\|x\|}&x\in (B^n_{\sigma})^\circ \end{cases}$$$\psi$ is obviously continuous and as $$
+> 	Then, we claim that $K^{(n)}\cong S^n$. Let: $$\psi:\{ y \}\sqcup B^n_{\sigma}\to \mathbb{R}^n\cup \{ \infty \},\quad x\mapsto \begin{cases}\infty&x=y\lor x\in S^n_{\sigma}\\ \frac{1}{1-\|x\|}&x\in (B^n_{\sigma})^\circ \end{cases}$$$\psi$ is obviously continuous and by definition it can be factored into $\psi:=\varphi \circ p$ where $p:\{ y \}\sqcup B^n_{\sigma}\to K^{(n)}$ is the quotient map. Then, $\varphi :K\to \mathbb{R}^n \cup \{ \infty \}$ is continuous and 
 > 	
-> 	As $$K^{(n)}=(\{ y \}\sqcup B^n_{\sigma} )/\sim$$
-> 	
-> 	$$S^n\cong \mathbb{R}^n\cup \{ \infty \}\cong B^n_{\sigma}\cup \{ \infty \}$$
+> 	$$S^n\cong \mathbb{R}^n\cup \{ \infty \}\cong K^{(n)}$$
+> 4. Let $K^{(0)}$ be a point set and $K^{(1)}$ be two $1$-cells attached to the point. Then, we can attach a $2$-cell to $K^{(1)}$ to get $\mathbb{T}^2$.
+> 5. Similar to 4.
+---
