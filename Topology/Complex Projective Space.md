@@ -25,7 +25,7 @@
 > 2. $f$ is an embedding on $(B^{2n})^\circ$
 > 3. $f(\partial B^{2n})\cong\mathbb{C}\mathbb{P}^{n-1}$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. The map is continuous by definition. 
 > 2. Now, to show the injectivity, let $(w_{0},\dots, w_{n-1})$ and $(z_{0},\dots,z_{n-1})\in (B^{2n})^\circ$. Then, if $$\pi(w_{0},\dots,w_{n-1},\sqrt{ 1-\|w\|^{2} })=\pi(z_{0},\dots,z_{n-1},\sqrt{ 1-\|z\|^{2} })$$Then, there exists $\lambda\in \mathbb{C}^\times$ s.t. $w_{i}=\lambda z_{i}$ and $\sqrt{ 1-\|w\|^{2} }=\lambda \sqrt{ 1-\|z\|^{2} }$. However, as $\sqrt{ 1-\|w\|^{2} }$ and $\sqrt{ 1-\|z\|^{2} }$ are both positive reals, we have that $\lambda$ is positive real. Hence, we have that: $$1-\lambda^{2}\|z\|^{2}=1-\|w\|^{2}=\lambda^{2}(1-\|z\|^{2})$$and $\lambda=1$. This shows the injectivity. Further, we have that $f$ is open as norm is an open map and so is $\pi$. Hence, $f$ is an embedding on $(B^{2n})^\circ$.
@@ -34,12 +34,18 @@
 ---
 > [!lemma] Theorem 3 (CW-complex)
 > We have that:
-> 1. $\mathbb{C}\mathbb{P}^n$ is a [[CW-complex]].
+> 1. $\mathbb{C}\mathbb{P}^n$ is a [[CW-complex]] of dimension $2n$.
 
-> [!proof]+
+> [!proof]-
 > Consider the following map: $$\Psi:\mathbb{C}\mathbb{P}^{n-1}\cup_{f_{\partial}}B^{2n}\to \mathbb{C}\mathbb{P}^n,\quad  [x]\mapsto \begin{cases}f(x)&x\in B^{2n}\\i(x)&x\in \mathbb{C}\mathbb{P}^{n-1} \end{cases}$$where $i:\mathbb{C}\mathbb{P}^{n-1}\to \mathbb{C}\mathbb{P}^n,[z_{0}:\dots:z_{n-1}]\mapsto [z_{0}:\dots: z_{n-1} : 0]$. Then, this is well-defined and continuous as $f$ and $i$ are and $f(\partial B^{2n})=i(\mathbb{C}\mathbb{P}^{n-1})$. We show that $\Psi$ is a homeomorphism. We have that $\mathbb{C}\mathbb{P}^{n-1}$ and $B^{2n}$ are both compact therefore, the LHS is compact. Further, $\mathbb{C}\mathbb{P}^{n}$ is Hausdorff. Therefore, it is left to show that $\Psi$ is a bijection. This can be done by showing that $f((B^{2n})^\circ)=\{ [z_{0}:\dots:z_{n}]\in \mathbb{C}\mathbb{P}^n :z_{n}\neq 0\}$ which is well-defined. 
 > 
-> Let $[z_{0}:\dots: z_{n}]\in \mathbb{C}\mathbb{P}^n$ with $z_{n}\neq 0$. 
+> Let $[z_{0}:\dots: z_{n}]\in \mathbb{C}\mathbb{P}^n$ with $z_{n}\neq 0$. Let $\alpha\in \mathbb{C}$ with $\left| \alpha \right|=1$ s.t. $\alpha z_{n}\in \mathbb{R}$. Then, let $$\lambda=\frac{1}{\sqrt{ \alpha^{2}z_{n}^{2}+\|z_{0:n-1}\|^{2} }}$$which is well-defined as $z_{n}\neq 0$ and $\alpha z_{n}\neq 0$. Then, we have that $$\begin{align}f(\lambda\alpha z_{0},\dots,\lambda\alpha z_{n-1})=[\lambda\alpha z_{0}:\dots:\lambda\alpha z_{n-1}:\sqrt{ 1- \lambda^{2}\|z_{0:n-1}\|^{2}}]\end{align}$$we conclude our proof by claiming that: $$(1- \lambda^{2}\|z_{0:n-1}\|^{2})=\lambda^{2}\alpha^{2}z_{n}^{2}$$
 > 
-> As 
+> Now, we define a CW-complex where:
+> 1. $K^{(0)}=\{ x \}=\mathbb{C}\mathbb{P}^{0}$ and
+> 2. $I_{2n}:=\{ \sigma \}$ where $f_{\partial\sigma}=f|_{\partial B^{2n}}$.
 > 
+> Then, by above homeomorphism, we have that $K^{(2n)}\cong \mathbb{C}\mathbb{P}^n$. 
+
+- **Corollary**: $\mathbb{C}\mathbb{P}^1\cong S^2$ given by $\mathbb{C}\mathbb{P}^1\to \mathbb{C}\cup \{ \infty \},[z_{1}:z_{2}]\mapsto \frac{z_{1}}{z_{0}}$.
+---

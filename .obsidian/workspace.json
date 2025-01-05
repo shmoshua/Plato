@@ -98,16 +98,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Proper Group Action.md",
+                "file": "Topology/CW-Complex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Proper Group Action"
+              "title": "CW-Complex"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "4d5ec56e57395c88",
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Proper Map.md",
+                "file": "Topology/Initial Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Proper Map"
+              "title": "Initial Topology"
             }
           },
           {
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -371,17 +371,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "960f0f73c5ec75e0",
+  "active": "e47c8bac0a08c111",
   "lastOpenFiles": [
+    "Topology/Initial Topology.md",
+    "Topology/CW-Complex.md",
+    "Topology/Complex Projective Space.md",
     "Differential Geometry/Proper Map.md",
     "Topology/Proper Group Action.md",
     "Topology/Hausdorff Space.md",
     "Functional Analysis/Open and Closed Maps.md",
     "Topology/Compact Space.md",
-    "Topology/Complex Projective Space.md",
     "Topology/Quotient Topology.md",
     "Algebra/Orbit and Stablizer.md",
-    "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
     "Algebra/Coset.md",
     "Algebra/Quotient Set.md",
@@ -391,7 +392,6 @@
     "Functional Analysis/Banach Algebra.md",
     "Topology/One-Point Compactification.md",
     "Topology/Continuous Function.md",
-    "Topology/Initial Topology.md",
     "Differential Geometry/Submersion.md",
     "Topology/Weak Topology.md",
     "Algebra/Complex Polynomials.md",
