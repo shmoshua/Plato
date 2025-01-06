@@ -11,10 +11,11 @@
 - **Related definition**: $K^{(n)}$ is called the ***$n$-th skeleton*** of $K$.
 - **Related definition**: A CW-complex $K$ is called ***finite dimensional*** if there exists $n_{0}\geq 0$ with $K^{(n_{0})}=K$. Otherwise, it is ***infinite dimensional***.
 - **Related definition**: For $\sigma\in I_{n}$,
-	 1. the ***characteristic map*** for cell $\sigma\in I_{n}$, is given as: $$f_{\sigma}:B^n_{\sigma}\to K^{(n)},\quad x\mapsto \begin{cases}f_{\partial\sigma}(x)&x\in S^{n-1}_{\sigma}\\i(x)&x\notin S^{n-1}_{\sigma}\end{cases}$$where $i$ is the inclusion. 
+	 1. the ***characteristic map*** for cell $\sigma\in I_{n}$, is given as $f_{\sigma}=q \circ i_{\sigma}:B^n_{\sigma}\to K^{(n)}$ where: $q:K^{(n-1)}\sqcup\bigsqcup_{\sigma\in I_{n }}^{}B^n_{\sigma} \to K^{(n)}$ is the quotient map and $i_{\sigma}:B^n_{\sigma}\to K^{(n-1)}\sqcup\bigsqcup_{\sigma\in I_{n }}^{}B^n_{\sigma}$ the inclusion.
 	 2. $K_{\sigma}:=f_{\sigma}(B^n_{\sigma})$ is called the ***closed cell*** of $\sigma$.
 	 3. $U_{\sigma}:=f_{\sigma}((B^n_{\sigma})^\circ)$ is called the ***open cell*** of $\sigma$ (which is not necessarily open).
 - **Remark**: By definition,  $U\subseteq K$ is open/closed if and only if for all $n\geq 0$, $U\cap K^{(n)}$ is open/closed in $K^{(n)}$.
+- **Related definition**: A ***subcomplex*** of a CW complex $K$ is a subspace $K'\subseteq K$ is a union of open cells $U_{\sigma}$ for $\sigma\in I'_{n}\subseteq I_{n}$ s.t. $K_{\sigma}\subseteq K'$ for all $\sigma\in I'_{n}$. 
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -22,9 +23,22 @@
 > 1. A subset $S\subseteq K^{(n)}$ is open/closed in $K^{(n)}$ if and only if $f^{-1}_{\sigma}(S)$ is open/closed for all $\sigma\in I_{k}$ for $0\leq k\leq n$.
 > 2. A function $g:K\to X$ is continuous if and only if $g\circ f_{\sigma}:B^n_{\sigma}\to X$ is continuous for all $n\geq 0$ and $\sigma\in I_{n}$.
 
+> [!proof]-
+> We have that:
+> 1. We show this via induction over $n$. For $n=0$, a subset $S\subseteq K^{(0)}$ is open. Let $n\geq 1$ and $S\subseteq K^{(n)}$. Then, by quotient topology, $q^{-1}(S)$ is open. However, by final topology, $i_{\sigma}^{-1} \circ q^{-1}(S)=f^{-1}_{\sigma}(S)$ is open for all $\sigma\in I_{n}$. Further, $i \circ q^{-1}(S)$ is open in $K^{(n-1)}$ and by induction it holds. The converse holds by following each step in the other direction.
+> 2. By [[final topology]] Proposition 1,  We have that $g:K\to X$ is continuous if and only if $g \circ i_{n}:K^{(n)}\to X$ is continuous for all $n\geq 0$. 
+>    
+>    Assume that $g \circ i_{n}$ is continuous for all $n\geq 0$. Let $U\subseteq X$ be open. Then, $g^{-1}(U)\cap K^{(n)}$ is open in $K^{(n)}$ and $f_{\sigma}^{-1}(g^{-1}(U))$ is open for all $\sigma\in I_{n}$. Conversely, assume that $g\circ f_{\sigma}$ is continuous for all $n\geq 0$ and $\sigma\in I_{n}$. Then, for any fixed $n$ and for $U\subseteq X$ open, $f_{\sigma}^{-1}(g^{-1}(U))$ is open for all $\sigma\in I_{k}$ for $0\leq k\leq n$. Therefore, $g^{-1}(U)\cap K^{(n)}$ is open in $K^{(n)}$. This proves the statement.
+---
+> [!lemma] Proposition 2 (Subcomplex)
+> We have that:
+> 1. A subcomplex $K'\subseteq K$ is a CW-complex.
+> 2. The CW-complex topology and subspace topology on a subcomplex $K'\subseteq K$ coincide.
+> 3. A subset $K\subseteq K'$ is a subcomplex if and only if $K'$ is a union of some open cells of $K$ and $K'$ is closed in $K$. 
+
 > [!proof]+
 > We have that:
-> 1. We show this via induction over $n$. For $n=0$, a subset $S\subseteq K^{(0)}$ is open. Let $n\geq 1$ and $S\subseteq K^{(n)}$. Let $q:K^{(n-1)}\sqcup bigc$
+> 1. For all $n\geq 0$, let $I'_{n}\subseteq I_{n}$ denote the index set for $K'$ s.t. for all $\sigma\in I'_{n}$, $U_{\sigma}\subseteq K'$. 
 ---
 ##### Examples
 > [!h] Example 1
