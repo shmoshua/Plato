@@ -38,7 +38,15 @@
 
 > [!proof]+
 > We have that:
-> 1. For all $n\geq 0$, let $I'_{n}\subseteq I_{n}$ denote the index set for $K'$ s.t. for all $\sigma\in I'_{n}$, $U_{\sigma}\subseteq K'$. 
+> 1. For all $n\geq 0$, let $I'_{n}\subseteq I_{n}$ denote the index set for $K'$ s.t. for all $\sigma\in I'_{n}$, $U_{\sigma}\subseteq K'$. We will show that repeating the CW-complex process with $I'_{n}$ results in $K'$. Let $J^{(i)}$ be the skeletons of $K'$ and $J^{(0)}:= K'\cap K^{(0)}$.
+>    
+>    We claim that for all $n\geq 0$, $J^{(n)}\subseteq K'$. Of course $J^{(0)}\subseteq K'$. Now, for $J^{(n)}$, we have that: $J^{(n-1)}\subseteq K'$ and $f_{\sigma}((B^n_{\sigma})^\circ)=U_{\sigma}\subseteq K'$. Further, $f_{\partial\sigma}(S^{n-1}_{\sigma})=f_{\sigma}(S^{n-1}_{\sigma})\subseteq K_{\sigma}\subseteq K'$. Therefore, $J^{(n)}\subseteq K'$ and $J\subseteq K'$. The other direction is trivial as for each $\sigma\in I_{n}'$, $U_{\sigma}\subseteq J^{(n)}$.
+> 2. We show that the two topologies agree on $K'\cap K^{(n)}$. $S\subseteq K'$ is open in the subspace topology if and only if $S\cap K^{(n)}\subseteq K'\cap K^{(n)}=J^{(n)}$ is open in $J^{(n)}$ for all $n\geq 0$. By noting $S\cap K^{(n)}=S\cap J^{(n)}$ we have that the topologies coincide.
+> 3. Let $K\subseteq K'$ be a subcomplex. Then, it suffices to show that $K'\cap K^{(n)}$ is closed in $K^{(n)}$ for all $n\geq 0$, which is equivalent to $f^{-1}_{\sigma}(K'\cap K^{(n)})$ being closed for all $\sigma\in I_{k}$ for $0\leq k\leq n$. 
+>    
+>    We prove this via induction over $n$. For $$
+>    .
+>    
 ---
 ##### Examples
 > [!h] Example 1
