@@ -84,20 +84,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Complex Projective Space.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Complex Projective Space"
-            }
-          },
-          {
-            "id": "2330ffc1e7c62b32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Topology/CW-Complex.md",
                 "mode": "source",
                 "source": true
@@ -105,9 +91,23 @@
               "icon": "lucide-file",
               "title": "CW-Complex"
             }
+          },
+          {
+            "id": "4f5a3d47b7537008",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Final Topology.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Final Topology"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "4d5ec56e57395c88",
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/CW-Complex.md",
+                "file": "Topology/Final Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CW-Complex"
+              "title": "Final Topology"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Initial Topology.md",
+                "file": "Topology/CW-Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Initial Topology"
+              "title": "CW-Complex"
             }
           },
           {
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -371,11 +371,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e47c8bac0a08c111",
+  "active": "39277a6839bc6623",
   "lastOpenFiles": [
-    "Topology/Initial Topology.md",
+    "Topology/Final Topology.md",
     "Topology/CW-Complex.md",
+    "Topology/Topological Space.md",
     "Topology/Complex Projective Space.md",
+    "Topology/Initial Topology.md",
     "Differential Geometry/Proper Map.md",
     "Topology/Proper Group Action.md",
     "Topology/Hausdorff Space.md",
@@ -397,8 +399,6 @@
     "Algebra/Complex Polynomials.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Measure Theory/Complex Measure.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

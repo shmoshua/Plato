@@ -1,7 +1,7 @@
 #Definition #AlgebraicTopology #Topology 
 
 > [!definition]
-> A ***CW-complex*** is a [[topological space]] given by $K:=\bigcup_{n\geq 0}^{}K^{(n)}$ with [[Initial Topology|initial topology]] given by projection $p_{n}:K\to K^{(n)}$ where:
+> A ***CW-complex*** is a [[topological space]] given by $K:=\bigcup_{n\geq 0}^{}K^{(n)}$ with [[Final Topology|final topology]] given by inclusion $i_{n}:K^{(n)}\to K$ where:
 > 1. $K^{(0)}$ is a [[Topological Space|discrete space]].
 > 2. For a given set of ***cells*** $I_{n}$, let 
 > 	1. $\{ B^n_{\sigma} \}_{\sigma\in I_{n}}$ be the indexed family of copies of the $n$-dimensional ball $B^n$. 
@@ -23,7 +23,8 @@
 > 2. A function $g:K\to X$ is continuous if and only if $g\circ f_{\sigma}:B^n_{\sigma}\to X$ is continuous for all $n\geq 0$ and $\sigma\in I_{n}$.
 
 > [!proof]+
-> 
+> We have that:
+> 1. We show this via induction over $n$. For $n=0$, a subset $S\subseteq K^{(0)}$ is open. Let $n\geq 1$ and $S\subseteq K^{(n)}$. Let $q:K^{(n-1)}\sqcup bigc$
 ---
 ##### Examples
 > [!h] Example 1

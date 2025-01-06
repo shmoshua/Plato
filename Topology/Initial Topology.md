@@ -1,7 +1,7 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> For a set $X$ and a family $\mathcal{F}=\{ (Y_{i},\varphi_{i}) \}_{i\in I}$ of [[Topological Space|topological spaces]] $Y_{i}$ with $\varphi_{i}:X\to Y_{i}$, the ***initial topology*** is the smallest topology that makes $\varphi_{i}$ continuous for all $i\in I$.
+> For a set $X$ and a family $\mathcal{F}=\{ (Y_{i},\varphi_{i}) \}_{i\in I}$ of [[Topological Space|topological spaces]] $Y_{i}$ with $\varphi_{i}:X\to Y_{i}$, the ***initial topology*** is the coarsest topology that makes $\varphi_{i}$ continuous for all $i\in I$.
 > 
 > In other words, we have: 
 > 1. $\mathcal{O}_{1}:=\{ \varphi_{i}^{-1}[U_{i}]:U_{i}\subseteq Y_{i}\text{ open },i\in I \}$
