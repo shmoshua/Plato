@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Smash Product.md",
+                "file": "Topology/Wedge Sum.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Smash Product"
+              "title": "Wedge Sum"
             }
           },
           {
@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "4d5ec56e57395c88",
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -371,9 +371,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "960f0f73c5ec75e0",
+  "active": "1e653de5e0e6581e",
   "lastOpenFiles": [
     "Topology/Smash Product.md",
+    "Topology/Wedge Sum.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
@@ -381,7 +382,6 @@
     "Topology/Retract.md",
     "Topology/Final Topology.md",
     "Topology/Quotient Topology.md",
-    "Topology/Wedge Sum.md",
     "Topology/Homeomorphism.md",
     "Topology/Normal Space.md",
     "Topology/CW-Complex.md",

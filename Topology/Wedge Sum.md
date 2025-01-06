@@ -9,6 +9,7 @@
 - **Related definition**: For $i\in I$,  ^6c44a6
 	1. the ***inclusion*** $i_{i}:X_{i}\to \bigvee_{i\in I}X_{i}$.
 	2. the **projection** $p_{i}:\bigvee_{i\in I}X_{i}\to X_{i}$ s.t. for every $x\notin X_{i}$, $p(x)=x_{i}$ and $p_{i}|_{X_{i}}=\text{id}|_{X_{i}}$. 
+- **Related definition**: For $f:(X,x_{0})\to(X',x_{0}')$ and $g:(Y,y_{0})\to(Y',y_{0}')$, the map: $$f \lor g:(X\lor Y,*)\to(X'\lor Y',*),\quad [z]=\begin{cases}{[f(z)]}&z\in X\\{[g(z)]}&z\in Y\end{cases}$$
 ---
 ##### Properties
 > [!lemma] Theorem 1
