@@ -98,16 +98,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Retract.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Retract"
+              "title": "Homology Theory"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "4d5ec56e57395c88",
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Retract.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Retract"
+              "title": "Homology Theory"
             }
           },
           {
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -371,11 +371,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1e653de5e0e6581e",
+  "active": "4f5a3d47b7537008",
   "lastOpenFiles": [
     "Topology/Retract.md",
-    "Topology/Final Topology.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Smash Product.md",
+    "Topology/Final Topology.md",
     "Topology/Quotient Topology.md",
     "Topology/Wedge Sum.md",
     "Topology/Homeomorphism.md",
@@ -398,7 +399,6 @@
     "Algebra/Group Action.md",
     "Lie Group/Topological Group.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Functional Analysis/Banach Algebra.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

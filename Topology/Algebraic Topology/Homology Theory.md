@@ -30,7 +30,7 @@
 > Let $H$ be a homology theory. Then,
 > 1. $H_{p}(\varnothing)=0$ for all $p\in \mathbb{Z}$.
 > 3. $H_{p}(X,X)=0$ for all $p\in \mathbb{Z}$
-> 4. For a [[Homotopy|homotopy equivalence]] $f:(X,A)\to(Y,B)$, $f_{*}$ is an isomorphism.
+> 4. For a [[Homotopy|homotopy equivalence]] $f:(X,A)\to(Y,B)$, $f_{*}$ is an isomorphism. 
 
 ^d375b2
 
@@ -50,10 +50,11 @@
 > 3. for $f:X\to Y$, $f_{*}(\tilde{H}_{0}(X))\subseteq \tilde{H}_{0}(Y)$.
 > 4. there exists $\tilde{i}_{*},\tilde{j_{*}}$ s.t. the following sequence is exact: $$\cdots \to \tilde{H}_{p}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{p}(X)\xrightarrow{\tilde{j}_{*}}\tilde{H}_{p}(X,A)\xrightarrow{\tilde{\partial}_{*}} \tilde{H}_{p-1}(A)\to\cdots$$
 > 5. $\tilde{H}_{p}(X)\cong H_{p}(X,x_{0})$ for $x_{0}\in X$.
+> 6. If $X$ is [[Contractible Space|contractible]] then $\tilde{H}_{p}(X)=0$ for all $p\in \mathbb{Z}$.
 
 ^0469d8
 
-> [!proof]- Proof (Incomplete)
+> [!proof]+ Proof (Incomplete)
 > We have that:
 > 1. Follows from the fact that $\varepsilon_{*}$ is the zero map for $p\neq 0$. 
 > 2. Let $i:P\to X$. Then, $\varepsilon \circ i=\text{id}_{P}$ and $\varepsilon_{*}\circ i_{*} = \text{id}_{H_{p}(P)}$. This shows that $\varepsilon_{*}$ is surjective and: $$0\to \tilde{H}_{p}(X)\to H_{p}(X)\xrightarrow{\varepsilon_{*}}H_{p}(P)\to 0$$defines a SES. As $i_{*}$ is the right inverse of $\varepsilon_{*}$, by [[Split Exact Sequence|Proposition 1]], the SES is split. Therefore, $$H_{p}(X)\cong \tilde{H}_{p}(X)\oplus H_{p}(P)$$and we have our statement when $p=0$.
@@ -76,7 +77,7 @@
 > 	  1. **Exactness at $\tilde{H}_{0}(X)$**
 > 	     As $j_{*} \circ i_{*} = 0$, we have that $\tilde{j}_{*} \circ \tilde{i}_{*}=0$. Conversely, consider the following diagram:
 > 	     .
-> 	     ``````tikz
+> 	     ```tikz
 > 	     \usepackage{tikz-cd}\begin{document}\begin{tikzcd} 
 > 	     0 & {\tilde{H}_0(A)} & {H_0(A)} & {H_0(P)} & 0 \\ 0 & {\tilde{H}_0(X)} & {H_0(X)} & {H_0(P)} & 0 \\ && {H_0(X,A)} 
 > 	     \arrow[from=1-1, to=1-2] \arrow[hook, from=1-2, to=1-3] \arrow[from=1-4, to=1-5] \arrow[dashed, no head, from=1-4, to=2-4] \arrow[from=2-1, to=2-2] \arrow[hook, from=2-2, to=2-3] \arrow["{j_*}"', from=2-3, to=3-3] \arrow[from=2-4, to=2-5] \arrow["{\tilde{i}_*}"', from=1-2, to=2-2] \arrow["{\varepsilon_*}", from=1-3, to=1-4] \arrow["{\tilde{i}_*}"', from=1-3, to=2-3] \arrow["{\tilde{j}_*}"', from=2-2, to=3-3] \arrow["{\varepsilon_*}", from=2-3, to=2-4] \arrow["{\textrm{id}}"', from=1-4, to=2-4] \end{tikzcd}
@@ -91,6 +92,7 @@
 > 	  3. **Exactness at $H_{0}(X,A)$.** 
 > 	     $\text{im }\tilde{j}_{*}\subseteq \text{ker }\partial_{*}$ by definition. Then, for $x\in \text{ker }\partial_{*}$, we have that 
 > 5. We have that: $$0=\tilde{H}_{p}(x_{0})\to \tilde{H}_{p}(X)\to H_{p}(X,x_{0})\to \tilde{H}_{p-1}(x_{0})=0$$is exact and $\tilde{H}_{p}\to H_{p}(X,x_{0})$ is an isomorphism.
+> 6. Let $c:X\to X$ be a constant function s.t. $c\sim \text{id}_{X}$. Then, $c$ can be decomposed into: $$X\xrightarrow{\overline{c}}c(X)$$
 
 ^7a6086
 
