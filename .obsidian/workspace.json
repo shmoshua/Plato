@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/CW-Complex.md",
+                "file": "Topology/Wedge Sum.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CW-Complex"
+              "title": "Wedge Sum"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/CW-Complex.md",
+                "file": "Topology/Wedge Sum.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CW-Complex"
+              "title": "Wedge Sum"
             }
           },
           {
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Normal Space.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Normal Space"
+              "title": "Quotient Topology"
             }
           },
           {
@@ -373,11 +373,13 @@
   },
   "active": "39277a6839bc6623",
   "lastOpenFiles": [
+    "Topology/Quotient Topology.md",
+    "Topology/Wedge Sum.md",
+    "Topology/Homeomorphism.md",
     "Topology/Normal Space.md",
     "Topology/CW-Complex.md",
     "Topology/Hausdorff Space.md",
     "Topology/Compact Space.md",
-    "Topology/Quotient Topology.md",
     "Topology/Proper Group Action.md",
     "Topology/Continuous Function.md",
     "Topology/Complex Projective Space.md",
@@ -397,8 +399,6 @@
     "Functional Analysis/Banach Algebra.md",
     "Topology/One-Point Compactification.md",
     "Differential Geometry/Submersion.md",
-    "Topology/Weak Topology.md",
-    "Algebra/Complex Polynomials.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

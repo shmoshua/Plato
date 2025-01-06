@@ -107,3 +107,5 @@
 > 6. See [[Complex Projective Space]].
 > 7. Similar to 6.
 ---
+
+$$nF\left( \frac{1}{n}F^H u\cdot \frac{1}{n}F^Hv \right)=nF$$$$F^Hu\cdot F^Hv=\text{diag}(F^Hu)F^Hv$$
