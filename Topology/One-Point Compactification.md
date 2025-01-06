@@ -12,6 +12,7 @@
 > 1. The topology on $\alpha X$ is well-defined.
 > 2. $\alpha X$ is [[Compact Space|compact]].
 > 3. the inclusion $i:X\to\alpha X$ is an open embedding.
+> 4. if $X\cong Y$ then $\alpha X\cong \alpha Y$.
 
 > [!proof]-
 > We have that:
@@ -25,6 +26,7 @@
 > 	3. $$U\cup((X \backslash K)\cup \{ \infty \})=(X \backslash C)\cup(X\backslash K)\cup \{ \infty \}=(X \backslash (C\cap K))\cup \{ \infty \}$$
 > 2. Let $(U_{i})_{i\in I}$ be an open cover of $\alpha X$. Then, there exists $i_{\infty}$ with $\infty\in U_{i_{\infty}}$. Hence, there exists a compact closed subset $K$ with $X \backslash K\subseteq U_{i_{\infty}}$. Further, $\{ U_{i}: U_{i}\subseteq X \}$ is an open cover of $K$. Hence, there exists finite $J\subseteq I$ s.t. $\{ U_{i} \}_{i\in J}$ is a cover of $K$. This shows that $\{ U_{i} \}_{i\in J}\cup \{ U_{i_{\infty}} \}$ is a finite subcover of $\alpha X$.
 > 3. For $U\subseteq X$ open, $i^{-1}(U)=U$, which is open. For $K\subseteq X$ closed and compact, $i^{-1}(X \backslash K\cup \{ \infty \})=X \backslash K$ which is open. Hence, $i$ is continuous. Further, by definition the map is open. Lastly, we have that $i$ is injective. Hence, $i$ is an embedding. 
+> 4. Let $\psi:X\to Y$ be the homeomorphism. Then, we define: $$\Psi:\alpha X\to\alpha Y,\quad x\mapsto \begin{cases}\psi (x)&x\neq \infty\\\infty&x=\infty\end{cases}$$Let $U\subseteq Y$ be open. Then, $\Psi ^{-1}(U)=\psi ^{-1}(U)$ which is open. For $K\subseteq Y$ closed and compact, $\Psi ^{-1}(Y \backslash K\cup \{ \infty \})=X  \backslash \psi ^{-1}(K)\cup \{ \infty \}$ where $\psi ^{-1}(K)$ is compact. Hence, $\Psi$ is continuous and by symmetry, $\Psi$ is a homeomorphism.
 >    
 ---
 ###### Hausdorff Spaces
@@ -40,7 +42,13 @@
 ---
 > [!lemma] Theorem 2
 > Let $X$ be compact Hausdorff and $x_{0}\in X$. Then, 
-> 1. $X\cong \alpha(X \backslash \{ x_{0} \})$
+> 1. $X\cong \alpha(X \backslash \{ x_{0} \})$ where $X \backslash \{ x_{0} \}$ is LCH.
+
+> [!proof]-
+> We have that:
+> 1. Consider the function: $$\psi:X\to\alpha(X \backslash \{ x_{0} \}),\quad x\mapsto \begin{cases}\infty&x=x_{0}\\x&x\neq x_{0}\end{cases}$$we show that this is a homeomorphism. It is easy to see that $\psi$ is a bijection. As $X$ is compact and $\alpha(X \backslash \{ x_{0} \})$ Hausdorff, it suffices to show that $\psi$ is continuous. We have that for $U\subseteq X \backslash \{ x_{0} \}$ open, as $X \backslash \{ x_{0} \}$ is open in $X$, $U\subseteq X$ is open. For $K\subseteq X \backslash \{ x_{0} \}$ compact, then $K\subseteq X$ is compact and closed. Hence, $X \backslash K$ is open and:$$\psi ^{-1}(X \backslash K\cup \{ \infty \})=X \backslash K\cup \{ x_{0} \}=X \backslash K$$
+>    Lastly, $X \backslash \{ x_{0} \}$ is LCH as an open subspace of a compact Hausdorff space (cf. [[Compact Space|Proposition 2]]).
+---
 
 ##### Examples
 > [!h] Example 1
