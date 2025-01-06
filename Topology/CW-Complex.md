@@ -25,7 +25,6 @@
 > Let $K$ be a CW-complex. Then, 
 > 1. A subset $S\subseteq K^{(n)}$ is open/closed in $K^{(n)}$ if and only if $f^{-1}_{\sigma}(S)$ is open/closed for all $\sigma\in I_{k}$ for $0\leq k\leq n$.
 > 2. A function $g:K\to X$ is continuous if and only if $g\circ f_{\sigma}:B^n_{\sigma}\to X$ is continuous for all $n\geq 0$ and $\sigma\in I_{n}$.
-> 3. The open cells 
 
 > [!proof]-
 > We have that:
@@ -59,7 +58,9 @@
 
 > [!proof]+
 > We have that:
-> 1. 
+> 1. Assume that there exists a sequence $(x_{i})_{i}\subseteq A$ where each of the points in distinct open cells. Then, we show that the set $S:=\{ x_{1},x_{2},\dots. \}$ is closed in $X$. Assume $S\cap K^{(n-1)}$ is closed in $K^{(n-1)}$. Then, for each $\sigma\in I_{n}$, $f^{-1}_{\partial\sigma}(S)$ is closed in $S^{n-1}_{\sigma}$. 
+>    
+>    Indeed, for all $n\geq 0$, we have that $f^{-1}_{\sigma}(S)$ is closed for all 
 ---
 ##### Examples
 > [!h] Example 1
