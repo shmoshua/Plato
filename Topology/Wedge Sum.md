@@ -15,8 +15,8 @@
 > Let $(X,x_{0})$ and $(Y,y_{0})$ be pointed spaces. Then, 
 > 1. $X\lor Y\cong X\times \{ y_{0} \}\cup \{ x_{0} \}\times Y\subseteq X\times Y$
 
-> [!proof]+
-> Let $X\times \{ y_{0} \}\cup \{ x_{0} \}\times Y=:Z$. Then, we have that: $$\psi:Z \to X\lor Y,\quad (x,y)\mapsto \begin{cases}q(x)&y=y_{0}\\q(y)&x=x_{0}\end{cases}$$where $q:X \sqcup Y \to X \lor Y$ be the quotient map. Then, it is continuous as $q$ is continuous and $\psi(x_{0},y_{0})=q(x_{0})=q(y_{0})$ which is well-defined. Similarly, let $$\psi ^{-1}:X \lor Y\to Z,\quad [z]\mapsto \begin{cases}(x,y_{0})&z\in X\\(x_{0},y)&z\in Y\end{cases}$$
+> [!proof]-
+> Let $X\times \{ y_{0} \}\cup \{ x_{0} \}\times Y=:Z$. Then, we have that: $$\psi:Z \to X\lor Y,\quad (x,y)\mapsto \begin{cases}q(x)&y=y_{0}\\q(y)&x=x_{0}\end{cases}$$where $q:X \sqcup Y \to X \lor Y$ be the quotient map. Then, it is continuous as $q$ is continuous and $\psi(x_{0},y_{0})=q(x_{0})=q(y_{0})$ which is well-defined. Similarly, let $$\psi ^{-1}:X \lor Y\to Z,\quad [z]\mapsto \begin{cases}(x,y_{0})&z\in X\\(x_{0},y)&z\in Y\end{cases}$$then $\psi ^{-1} \circ q:X\sqcup Y\to Z$ is continuous $\psi ^{-1}\circ q|_{X}(x)\mapsto(x,y_{0})$ as and similarly for $Y$. Hence, this is a homeomorphism.
 
 ---
 ##### Examples

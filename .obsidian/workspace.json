@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Wedge Sum.md",
+                "file": "Topology/Smash Product.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Wedge Sum"
+              "title": "Smash Product"
             }
           },
           {
@@ -98,12 +98,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Final Topology.md",
+                "file": "Topology/Retract.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Final Topology"
+              "title": "Retract"
             }
           }
         ],
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Smash Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Quotient Topology"
+              "title": "Smash Product"
             }
           },
           {
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Retract.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Quotient Topology"
+              "title": "Retract"
             }
           },
           {
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -371,8 +371,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "39277a6839bc6623",
+  "active": "1e653de5e0e6581e",
   "lastOpenFiles": [
+    "Topology/Retract.md",
+    "Topology/Final Topology.md",
+    "Topology/Smash Product.md",
     "Topology/Quotient Topology.md",
     "Topology/Wedge Sum.md",
     "Topology/Homeomorphism.md",
@@ -384,7 +387,6 @@
     "Topology/Continuous Function.md",
     "Topology/Complex Projective Space.md",
     "Functional Analysis/Open and Closed Maps.md",
-    "Topology/Final Topology.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Topological Space.md",
     "Topology/Initial Topology.md",
@@ -397,8 +399,6 @@
     "Lie Group/Topological Group.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Banach Algebra.md",
-    "Topology/One-Point Compactification.md",
-    "Differential Geometry/Submersion.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
