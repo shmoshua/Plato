@@ -105,9 +105,23 @@
               "icon": "lucide-file",
               "title": "Smash Product"
             }
+          },
+          {
+            "id": "5826eb8383eb0463",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/One-Point Compactification.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "One-Point Compactification"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "4d5ec56e57395c88",
@@ -176,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Topology/One-Point Compactification.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "One-Point Compactification"
             }
           },
           {
@@ -190,12 +204,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Acyclic Space.md",
+                "file": "Topology/Dense Subset.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Acyclic Space"
+              "title": "Dense Subset"
             }
           },
           {
@@ -227,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -258,7 +272,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "acts properly",
+                "query": "locally com",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -279,7 +293,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -371,16 +386,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "39277a6839bc6623",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
+    "Topology/Dense Subset.md",
+    "Topology/One-Point Compactification.md",
+    "Topology/Algebraic Topology/Acyclic Space.md",
     "Topology/Smash Product.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Quotient Topology.md",
     "Topology/Final Topology.md",
     "Algebra/Quotient Set.md",
     "Topology/Wedge Sum.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Algebraic Topology/Acyclic Space.md",
     "Topology/Proper Group Action.md",
     "Topology/Retract.md",
     "Topology/Homeomorphism.md",
@@ -397,8 +414,6 @@
     "Differential Geometry/Proper Map.md",
     "Algebra/Orbit and Stablizer.md",
     "Topology/Real Projective Space.md",
-    "Algebra/Coset.md",
-    "Algebra/Group Action.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

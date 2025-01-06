@@ -1,38 +1,31 @@
 #Definition #Topology #FunctionalAnalysis 
 
 > [!definition]
-> Let $X$ be a [[Topological Space]]. The ***one-point/Alexandroff compactification*** of $X$ is the topological space $\alpha X$ where:
-> 1. $\alpha X:=X\cup \{ \infty \}$ and
-> 2. For any $U$ open in $X$, $U$ is open in $\alpha X$.
+> For a [[Topological Space|topological space]], the ***one-point/Alexandroff compactification*** of $X$ is the topological space $\alpha X:=X\cup \{ \infty \}$ where:
+> 1. For any $U$ open in $X$, $U$ is open in $\alpha X$.
 > 3. For any $K$ closed and compact in $X$, $(X \backslash K)\cup \{ \infty \}$ is open in $\alpha X$.
 - **Remark**: if $X$ is Hausdorff, then condition 3 only requires compactness. 
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> The topology on $\alpha X$ is well-defined, i.e. it is closed under arbitrary unions and finite intersections.
-
-> [!proof]-
-> It is sufficient to see that:
-> 1. the union and finite intersection of $(X \backslash K)\cup \{ \infty \}$ are closed among themselves.
-> 2. for $U,K\subseteq X$ where $U$ open and $K$ closed and compact in $X$, the union and intersection of $U$ and $(X \backslash K)\cup \{ \infty \}$ is again one of the two kinds. 
-> 
-> We have for finite $I$,
-> 1. $$\bigcap_{i\in I}^{}(X \backslash K_{i}) \cup \{ \infty \}=\left( X \backslash \bigcup_{i\in I}^{}K_{i} \right) \cup \{ \infty \},\quad \bigcup_{\lambda\in \Lambda}^{}(X \backslash K_{\lambda})\cup \{ \infty \}= \left( X \backslash \bigcap_{\lambda\in \Lambda}^{}K_{\lambda} \right) \cup \{ \infty \} $$
-> 2. $$U\cap((X \backslash K)\cup \{ \infty \})=(X \backslash C)\cap(X \backslash K)=X \backslash (C \cup K)$$
-> 3. $$U\cup((X \backslash K)\cup \{ \infty \})=(X \backslash C)\cup(X\backslash K)\cup \{ \infty \}=(X \backslash (C\cap K))\cup \{ \infty \}$$
----
-> [!lemma] Proposition 2
-> $\alpha X$ is compact.
-
-> [!proof]+
-
----
-> [!lemma] Lemma 3
 > We have that:
-> 1.  $\{ \infty \}$ is dense in $\alpha X$.
+> 1. The topology on $\alpha X$ is well-defined.
+> 2. $\alpha X$ is [[Compact Space|compact]].
+> 3. the inclusion $i:X\to\alpha X$ is an open embedding.
 
 > [!proof]-
-> Let $y\in X$ and $U$ an open neighborhood of $y$ in $\tilde{X}$. Then, by definition, $\infty\in U$. Therefore, $y\in \overline{\{ \infty \}}$. As $y$ was arbitrary, this proves the statement.
+> We have that:
+> 1. It is sufficient to see that:
+> 	1. the union and finite intersection of $(X \backslash K)\cup \{ \infty \}$ are closed among themselves.
+> 	2. for $U,K\subseteq X$ where $U$ open and $K$ closed and compact in $X$, the union and intersection of $U$ and $(X \backslash K)\cup \{ \infty \}$ is again one of the two kinds. 
+> 
+> 	We have for finite $I$,
+> 	1. $$\bigcap_{i\in I}^{}(X \backslash K_{i}) \cup \{ \infty \}=\left( X \backslash \bigcup_{i\in I}^{}K_{i} \right) \cup \{ \infty \},\quad \bigcup_{\lambda\in \Lambda}^{}(X \backslash K_{\lambda})\cup \{ \infty \}= \left( X \backslash \bigcap_{\lambda\in \Lambda}^{}K_{\lambda} \right) \cup \{ \infty \} $$
+> 	2. $$U\cap((X \backslash K)\cup \{ \infty \})=(X \backslash C)\cap(X \backslash K)=X \backslash (C \cup K)$$
+> 	3. $$U\cup((X \backslash K)\cup \{ \infty \})=(X \backslash C)\cup(X\backslash K)\cup \{ \infty \}=(X \backslash (C\cap K))\cup \{ \infty \}$$
+> 2. Let $(U_{i})_{i\in I}$ be an open cover of $\alpha X$. Then, there exists $i_{\infty}$ with $\infty\in U_{i_{\infty}}$. Hence, there exists a compact closed subset $K$ with $X \backslash K\subseteq U_{i_{\infty}}$. Further, $\{ U_{i}: U_{i}\subseteq X \}$ is an open cover of $K$. Hence, there exists finite $J\subseteq I$ s.t. $\{ U_{i} \}_{i\in J}$ is a cover of $K$. This shows that $\{ U_{i} \}_{i\in J}\cup \{ U_{i_{\infty}} \}$ is a finite subcover of $\alpha X$.
+> 3. For $U\subseteq X$ open, $i^{-1}(U)=U$, which is open. For $K\subseteq X$ closed and compact, $i^{-1}(X \backslash K\cup \{ \infty \})=X \backslash K$ which is open. Hence, $i$ is continuous. Further, by definition the map is open. Lastly, we have that $i$ is injective. Hence, $i$ is an embedding. 
+>    
 ---
 ###### Hausdorff Spaces
 > [!lemma] Proposition 1
@@ -45,6 +38,10 @@
 > 
 > If $x,y\in X$, then as $X$ is Hausdorff, there exists disjoint neighborhoods $U,V$ of $x,y$.
 ---
+> [!lemma] Theorem 2
+> Let $X$ be compact Hausdorff and $x_{0}\in X$. Then, 
+> 1. $X\cong \alpha(X \backslash \{ x_{0} \})$
+
 ##### Examples
 > [!h] Example 1
 > We have that:
