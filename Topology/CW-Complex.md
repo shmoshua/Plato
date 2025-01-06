@@ -56,11 +56,28 @@
 > 1. $A$ can intersect at most finitely many open cells. 
 > 2. $K$ is compact if and only if $K$ is finite.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. Assume that there exists a sequence $(x_{i})_{i}\subseteq A$ where each of the points in distinct open cells. Then, we show that the set $S:=\{ x_{1},x_{2},\dots. \}$ is closed in $X$. Assume $S\cap K^{(n-1)}$ is closed in $K^{(n-1)}$. Then, for each $\sigma\in I_{n}$, $f^{-1}_{\partial\sigma}(S)$ is closed in $S^{n-1}_{\sigma}$. 
+> 1. Assume that there exists a sequence $(x_{i})_{i}\subseteq A$ where each of the points in distinct open cells. Then, we show that the set $S:=\{ x_{1},x_{2},\dots. \}$ is closed in $X$. Assume $S\cap K^{(n-1)}$ is closed in $K^{(n-1)}$. Then, for each $\sigma\in I_{n}$, $f^{-1}_{\partial\sigma}(S)$ is closed in $S^{n-1}_{\sigma}$. As $f^{-1}_{\sigma}(S)$ contains at most one more point than $f^{-1}_{\partial\sigma}(S)$, it is also closed in $B^n_{\sigma}$. Hence, $S\cap K^{(n)}$ is closed in $K^{(n)}$ for all $n\geq 0$ and $S$ is closed. 
 >    
->    Indeed, for all $n\geq 0$, we have that $f^{-1}_{\sigma}(S)$ is closed for all 
+>    Similar argument shows that for all subset $T\subseteq S$, $T$ is closed in $K$. Hence, $S$ has the discrete topology. But it is compact as a closed set in a compact set. Hence, $S$ is finite, which is a contradiction. 
+> 2. If $K$ is compact, then $K$ can intersect at most finitely many open cells and hence $K$ is finite. Conversely, if $K$ is finite, we have that $K^{(0)}$ is finite discrete hence compact. Then, for every $n\geq 1$, $K^{(n-1)}$ is compact by assumption and as we have finitely many cells at $n$, $K^{(n-1)}\sqcup\bigsqcup_{\sigma\in I_{n}}B^n_{\sigma}$ is compact. This implies that $K^{(n)}$ is compact. 
+>    
+>    Further, if $K$ is finite, $K=K^{(n)}$ for some $n$. Hence, $K$ is compact.
+---
+> [!lemma] Theorem 4 (Open Neighborhoods)
+> We define:
+> 1. $N^0_{\varepsilon}(A):=A\cap X^0$.
+> 2. 
+---
+> [!lemma] Theorem 4 (CW-Complexes are Normal)
+> All CW-complexes are [[Normal Space|normal]] and in particular Hausdorff.
+
+> [!proof]-
+> Let $K$ be a CW-complex and $A,B\subseteq K$ disjoint closed sets. We aim to construct $g:K\to[0,1]$ continuous with $g|_{A}=0$ and $g|_{B}=1$. Let's construct a continuous function $g_{n}:K^{(n)}\to[0,1]$ for each skeleton s.t. $g_{n}|_{K^{(m)}}=g_{m}$ for all $m\leq n$ and s.t. $g_{n}(A\cap K^{(n)})=0$ and $g_{n}(B\cap K^{(n)})=1$. 
+> 
+> Assume we have $g_{n-1}$ with the above assumptions. Then, for all $\sigma\in I_{n}$, 
+> 1. $g_{n-1} \circ f_{\partial\sigma}:S^{n-1}_{\sigma}\to[0,1]$ is continuous
 ---
 ##### Examples
 > [!h] Example 1

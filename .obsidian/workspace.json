@@ -218,12 +218,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Function.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Continuous Function"
+              "title": "Compact Space"
             }
           }
         ],
@@ -375,18 +375,18 @@
   "lastOpenFiles": [
     "Topology/Normal Space.md",
     "Topology/CW-Complex.md",
-    "Topology/Complex Projective Space.md",
     "Topology/Hausdorff Space.md",
+    "Topology/Compact Space.md",
+    "Topology/Quotient Topology.md",
+    "Topology/Proper Group Action.md",
     "Topology/Continuous Function.md",
+    "Topology/Complex Projective Space.md",
     "Functional Analysis/Open and Closed Maps.md",
     "Topology/Final Topology.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Topological Space.md",
     "Topology/Initial Topology.md",
     "Differential Geometry/Proper Map.md",
-    "Topology/Proper Group Action.md",
-    "Topology/Compact Space.md",
-    "Topology/Quotient Topology.md",
     "Algebra/Orbit and Stablizer.md",
     "Topology/Real Projective Space.md",
     "Algebra/Coset.md",
