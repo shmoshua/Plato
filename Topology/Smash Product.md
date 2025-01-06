@@ -38,3 +38,17 @@
 > [!proof]-
 > We have:
 > 1. As $S^p$ and $S^q$ are both compact, by Proposition 1.4 $$S^p\land S^q\cong (\mathbb{R}^p\times \mathbb{R}^q)\cup \{ \infty \}\cong \mathbb{R}^{p+q}\cup \{ \infty \}\cong S^{p+q}$$
+
+---
+> [!lemma] Theorem 1
+> We have that:
+> 1. for all $n\geq 0$, there exists a continuous map $\gamma_{n}:(I^n,\partial I^n)\to (S^n,*)$ s.t. $\gamma_{n}|_{(I^n)^\circ}$ is a homeomorphism to its image. 
+> 2. for all $n\geq 0$, there exist the following:
+> 	1. a generator $a_{n}\in H_{n}(I^n,\partial I^n)\cong \mathbb{Z}$.
+> 	2. a generator $s_{n}\in H_{n}(S^n,*)\cong \mathbb{Z}$ with $(\gamma_{n})_{*}(a_{n})=s_{n}$.
+> 	3. a generator $d_{n}\in \tilde{H}_{n}(\partial I^{n+1})\cong \mathbb{Z}$ with $\partial_{*}(a_{n+1})=d_{n}$.
+
+> [!proof]+
+> We have that:
+> 1. We define the maps $\gamma$ as follows:
+> 	1. $\gamma_{0}:(I^0,\varnothing)\to(S^0,*)$ 
