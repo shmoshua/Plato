@@ -50,7 +50,7 @@
 > 3. for $f:X\to Y$, $f_{*}(\tilde{H}_{0}(X))\subseteq \tilde{H}_{0}(Y)$.
 > 4. there exists $\tilde{i}_{*},\tilde{j_{*}}$ s.t. the following sequence is exact: $$\cdots \to \tilde{H}_{p}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{p}(X)\xrightarrow{\tilde{j}_{*}}\tilde{H}_{p}(X,A)\xrightarrow{\tilde{\partial}_{*}} \tilde{H}_{p-1}(A)\to\cdots$$
 > 5. $\tilde{H}_{p}(P)=0$ for point space $P$ for all  $p\in \mathbb{Z}$. 
-> 6. $\tilde{H}_{p}(X)\cong H_{p}(X,x_{0})$ for $x_{0}\in X$.
+> 6. $\tilde{H}_{p}(X)\cong H_{p}(X,x_{0})$ for $x_{0}\in X$ where $X\neq \varnothing$. 
 > 7. If $X$ is [[Contractible Space|contractible]] then $\tilde{H}_{p}(X)=0$ for all $p\in \mathbb{Z}$.
 
 ^0469d8
