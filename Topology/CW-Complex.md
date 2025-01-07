@@ -126,8 +126,15 @@
 > 		- $I^n_{\varepsilon}:=[\varepsilon,1-\varepsilon]^n\subseteq I^n$
 > 		- $K^{(n-1)}_{\varepsilon}:=K^{(n-1)}\cup \bigcup_{\sigma\in I_{n}}^{}f_{\sigma}(I^n \backslash I^n_{\varepsilon})$
 > 	
-> 		Then, we have the following commutative diagram: $$\begin{CD}H_{n}(Z^{(n)},\partial Z^{(n)})@>f_{*}>>H_{n}(K^{(n)},K^{(n-1)})\\@V\cong VV@V\cong VV\\H_{n}\left( \bigsqcup_{\alpha\in I_{n}}^{}(I^n_{\sigma},I^n_{\sigma} \backslash \{ o \}) \right)&&H_{n}\left( K^{(n)},K^{(n)} \backslash \bigcup_{\sigma\in I_{n}}f_{\sigma}(o) \right)\\@A\cong AA@A\cong AA\\H_{n}\left( \bigsqcup_{\alpha\in I_{n}}((I^n_{\sigma})^\circ ,(I^n_{\sigma})^\circ \backslash \{ o \}) \right)@>\cong>>H_{n}\left( K^{(n)} \backslash K^{(n-1)}_{\varepsilon},K^{(n)} \backslash \left( K^{(n-1)}_{\varepsilon}\cup \bigcup_{\sigma\in I_{n}}^{}f_{\sigma}(o) \right) \right)\end{CD}$$where:
-> 		1. $H_{n}(Z^{(n)},\partial Z^{(n)})\cong\bigoplus_{\sigma\in I_{n}}H_{n}(I^n_{\sigma},\partial I^n_{\sigma})$ and as 
+> 		Then, we have the following commutative diagram: $$\begin{CD}H_{n}(Z^{(n)},\partial Z^{(n)})@>f_{*}>>H_{n}(K^{(n)},K^{(n-1)})\\@V\cong V1.V@V\cong V 2.V\\H_{n}\left( \bigsqcup_{\alpha\in I_{n}}^{}(I^n_{\sigma},I^n_{\sigma} \backslash \{ o \}) \right)&&H_{n}\left( K^{(n)},K^{(n)} \backslash \bigcup_{\sigma\in I_{n}}f_{\sigma}(o) \right)\\@A\cong A 3.A@A\cong A 4.A\\H_{n}\left( \bigsqcup_{\alpha\in I_{n}}(I^n_{\varepsilon} ,I^n_{\varepsilon}\backslash \{ o \}) \right)@>\cong> 5.>H_{n}\left( K^{(n)} \backslash K^{(n-1)}_{\varepsilon},K^{(n)} \backslash \left( K^{(n-1)}_{\varepsilon}\cup \bigcup_{\sigma\in I_{n}}^{}f_{\sigma}(o) \right) \right)\end{CD}$$where:
+> 		1. $H_{n}(Z^{(n)},\partial Z^{(n)})\cong\bigoplus_{\sigma\in I_{n}}H_{n}(I^n_{\sigma},\partial I^n_{\sigma})$ and as $i:\partial I^n_{\sigma}\to I^n_{\sigma} \backslash \{ o \}$ is a homotopy equivalence, $i_{*}:H_{p}(\partial I^n_{\sigma})\to H_{p}(I^n_{\sigma} \backslash \{ o \})$ is an isomorphism for all $p\in \mathbb{Z}$. Therefore, by [[Homology Theory|Lemma 1.5]], $H_{n}(I^n_{\sigma},\partial I^n_{\sigma})\cong H_{n}(I^n_{\sigma},I^n_{\sigma} \backslash \{ o \})$.
+> 		2. As $K^{(n-1)}$ is a strong deformation retract of $K^{(n)} \backslash \bigcup_{\sigma\in I_{n}}^{}f_{\sigma}(o)$, $i_{*}$ induces an isomorphism $H_{p}(K^{(n-1)})\to H_{p}\left( K^{(n)} \backslash \bigcup_{\sigma\in I_{n}}^{}f_{\sigma}(o) \right)$ for all $p\in \mathbb{Z}$. We have the isomorphism by [[Homology Theory|Lemma 1.5]].
+> 		3. $(I^n_{\varepsilon}, I^n_{\varepsilon} \backslash \{ o \})$ is a deformation retract of $(I^n,I^n \backslash\{ o \})$. Therefore, the inclusion induces an isomorphism.
+> 		4. As $K_{\varepsilon}^{(n-1)}$ is open and $\overline{K_{\varepsilon}^{(n-1)}}\subseteq K^{(n)} \backslash \bigcup_{\sigma\in I_{n}}^{}f_{\sigma}(o)$, it holds by excision.
+> 		5. for each $\sigma\in I_{n}$, $f_{\sigma}|_{I^n_{\varepsilon}}:I^n_{\varepsilon}\to f_{\sigma}(I^n_{\varepsilon})$ is a homeomorphism as $I^n_{\varepsilon}\subseteq (I^n)^\circ$. We can concluding by noting that: $$\bigsqcup_{\sigma\in I_{n}}f_{\sigma}(I^n_{\varepsilon})=K^{(n)} \backslash \left(K^{(n-1)}\cup\bigsqcup_{\sigma\in I_{n}}^{}f_{\sigma}(I^n \backslash I^n_{\varepsilon})\right)=K^{(n)} \backslash K^{(n-1)_{\varepsilon}}$$
+> 	
+> 		This shows that $f_{*}$ is an isomorphism and so is $\oplus(f_{\sigma})_{*}$ for $p\in \mathbb{Z}$ . 
+> 		  
 
 ---
 ##### Examples

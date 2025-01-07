@@ -372,10 +372,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ac587d153add49bf",
+  "active": "4f5a3d47b7537008",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/CW-Complex.md",
+    "Topology/Hausdorff Space.md",
+    "Topology/Retract.md",
     "Algebra/Exact Sequence.md",
     "Topology/Smash Product.md",
     "Algebra/Split Exact Sequence.md",
@@ -392,10 +394,8 @@
     "Algebra/Quotient Set.md",
     "Topology/Wedge Sum.md",
     "Topology/Proper Group Action.md",
-    "Topology/Retract.md",
     "Topology/Homeomorphism.md",
     "Topology/Normal Space.md",
-    "Topology/Hausdorff Space.md",
     "Topology/Continuous Function.md",
     "Topology/Complex Projective Space.md",
     "Functional Analysis/Open and Closed Maps.md",
