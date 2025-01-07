@@ -113,7 +113,6 @@
 > 2. the map is homeomorphic on $(I^n)^\circ$ to $S^n \backslash \{ * \}$.
 > 3. If we identify the map with $\gamma_{n}$ and factor $\gamma_{n}=p_{\sigma} \circ f_{\sigma}$ for $p_{\sigma}:K^{(n)}\to S^n$ for all $\sigma\in I_{n}$, it holds that $p_{\sigma} \circ f_{\sigma'}=*$ for all $\sigma'\neq\sigma\in I_{n}$. 
 > 5. $\oplus(f_{\sigma})_{*}:\bigoplus_{\sigma\in I_{n}}H_{p}(I^n, \partial I^n)\to H_{p}(K^{(n)},K^{(n-1)})$ is an isomorphism for all $p\in \mathbb{Z}$.
-> 6. $H_{p}(K^{(n)},K^{(n-1)})=0$ for all $p\neq n$. 
 
 > [!proof]-
 > We have that:
@@ -135,8 +134,36 @@
 > 		5. for each $\sigma\in I_{n}$, $f_{\sigma}|_{I^n_{\varepsilon}}:I^n_{\varepsilon}\to f_{\sigma}(I^n_{\varepsilon})$ is a homeomorphism as $I^n_{\varepsilon}\subseteq (I^n)^\circ$. We can concluding by noting that: $$\bigsqcup_{\sigma\in I_{n}}f_{\sigma}(I^n_{\varepsilon})=K^{(n)} \backslash \left(K^{(n-1)}\cup\bigsqcup_{\sigma\in I_{n}}^{}f_{\sigma}(I^n \backslash I^n_{\varepsilon})\right)=K^{(n)} \backslash K^{(n-1)_{\varepsilon}}$$
 > 	
 > 		This shows that $f_{*}$ is an isomorphism and so is $\oplus(f_{\sigma})_{*}$ for $p\in \mathbb{Z}$ . 
-> 5. Holds from the fact that $H_{p}(I^n,\partial I^n)=0$ for all $p\neq n$ and 4. (From [[Homology Theory|Example 1]])
-> 		  
+---
+> [!lemma] Theorem 7
+> For a CW-complex $K$, we have that:
+> 1. $H_{p}(K^{(n)},K^{(n-1)})=\begin{cases}\bigoplus_{\sigma\in I_{n}}\mathbb{Z}&p=n\\0&p\neq n\end{cases}$
+> 2. $H_{p}(K^{(n)})=0$ for all $p>n$.
+
+> [!proof]-
+> We have that:
+> 1. Holds from the fact that $H_{p}(I^n,\partial I^n)=0$ for all $p\neq n$ and 4. (From [[Homology Theory|Example 1]])
+> 2. We show this by induction over $n$. 
+> 	1. If $n=0$, then for all $p>0$, $H_{p}(K^{(0)})=\bigoplus_{x\in K^{(0)}}H_{p}(\{ x \})=0$.
+> 	2. If $n\geq 1$, we have that for $p>n$,  $$0=H_{p}(K^{(n-1)})\to H_{p}(K^{(n)})\to H_{p}(K^{(n)},K^{(n-1)})\to H_{p-1}(K^{(n-1)})=0$$and as this is exact, $H_{p}(K^{(n)})\cong H_{p}(K^{(n)},K^{(n-1)})= 0$.
+
+---
+> [!lemma] Proposition 8
+> Let $K$ be a CW-complex. From the exact sequence we have the following maps: $$j_{n}:H_{n}(K^{(n)})\to H_{n}(K^{(n)},K^{(n-1)}), \quad \partial_{n}:H_{n}(K^{(n)},K^{(n-1)})\to H_{n-1}(K^{(n-1)})$$Now, consider $\beta_{n}:= j_{n-1}\circ\partial_{n}:H_{n}(K^{(n)},K^{(n-1)})\to H_{n-1}(K^{(n-1)},K^{(n-2)})$. Then, 
+> 1. $\beta_{n} \circ \beta_{n+1}=0$ for all $n$.
+> 2. $\text{ker }\beta_{n}=\text{ker }\partial_{n}=\text{im}(j_{n})$.
+> 3. $\text{im}(\beta_{n+1})=j_{n}(\text{im}(\partial_{n+1}))$
+
+> [!proof]+
+> We have the following commutative diagram: 
+> ```tikz
+>  \usepackage{tikz-cd}\begin{document}\begin{tikzcd} [column sep=tiny]
+>  &&& 0 \\ 0 & {H_{n+1}(K^{(n+1)})} & {H_{n+1}(K^{(n+1)},K^{(n)})} & {H_n(K^{(n)})} & {H_n(K^{(n+1)})} & 0 \\ &&& {H_n(K^{(n)},K^{(n-1)})} \\ && 0 & {H_{n-1}(K^{(n-1)})} & {H_{n-1}(K^{(n-1)},K^{(n-2)})} & {H_{n-2}(K^{(n-2)})} \\ &&& {H_{n-1}(K^{(n)})} \\ &&& 0 \arrow[from=1-4, to=2-4] \arrow[from=2-1, to=2-2] \arrow[from=2-2, to=2-3] \arrow["{\partial_{n+1}}", from=2-3, to=2-4] \arrow["{\beta_{n+1}}", color={rgb,255:red,127;green,10;blue,199}, from=2-3, to=3-4] \arrow[from=2-4, to=2-5] \arrow["{j_n}", from=2-4, to=3-4] \arrow[from=2-5, to=2-6] \arrow["{\partial_n}", from=3-4, to=4-4] \arrow["{\beta_n}", color={rgb,255:red,127;green,10;blue,199}, from=3-4, to=4-5] \arrow[from=4-3, to=4-4] \arrow["{j_{n-1}}", from=4-4, to=4-5] \arrow[from=4-4, to=5-4] \arrow[from=4-5, to=4-6] \arrow[from=5-4, to=6-4]\end{tikzcd}
+>  \end{document} 
+>  ```
+> 
+> Hence,
+> 1. $\beta_{n}\circ\beta_{n+1}=j_{n-1}\circ\underbrace{ \partial_{n}\circ j_{n}  }_{  }\circ \partial_{n+1}$
 
 ---
 ##### Examples

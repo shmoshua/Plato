@@ -119,6 +119,20 @@
               "icon": "lucide-file",
               "title": "Homology Theory"
             }
+          },
+          {
+            "id": "4963823b0caab884",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIKZ.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "TIKZ"
+            }
           }
         ],
         "currentTab": 6
@@ -358,17 +372,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ac587d153add49bf",
+  "active": "4f5a3d47b7537008",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Algebra/Chain Complex.md",
+    "Algebra/Exact Sequence.md",
+    "TIKZ.md",
     "Topology/CW-Complex.md",
+    "Topology/Smash Product.md",
     "Topology/Hausdorff Space.md",
     "Topology/Compact Space.md",
     "Topology/Retract.md",
-    "Algebra/Exact Sequence.md",
-    "Topology/Smash Product.md",
     "Algebra/Split Exact Sequence.md",
-    "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Final Topology.md",
     "Topology/Homotopy.md",
@@ -385,7 +400,6 @@
     "Topology/Continuous Function.md",
     "Topology/Complex Projective Space.md",
     "Functional Analysis/Open and Closed Maps.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
