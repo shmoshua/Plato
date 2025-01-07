@@ -29,13 +29,15 @@
 > Let $g:K\to L$ be a [[CW-Complex|cellular map]] between CW-complexes. Then, 
 > 1. $g_{\text{cw}}:=\Phi^L \circ g_{*} \circ\Psi^K:C_{n}(K)\to C_{n}(L)$ is a [[Chain Complex|chain map]].
 > 2. Let $g^H_{\text{cw}}:H_{p}(\mathcal{C}(K))\to H_{p}(\mathcal{C}(L))$. Then, $$\begin{CD}H_{p}(K)@>g_{*}>>H_{p}(L)\\@V\Theta^K VV@V\Theta^L VV\\H_{p}(\mathcal{C}(K))@>>g^H_{\text{cw}}>H_{p}(\mathcal{C}(L))\end{CD}$$commutes, where $\Theta^K:H_{p}(K)\to H_{p}(\mathcal{C}(K))$ and $\Theta^K:H_{p}(L)\to H_{p}(\mathcal{C}(L))$ are isomorphisms (from Proposition 1.4).
+> 3. $g_{\text{cw}}(\sigma)=\sum_{\tau\in I^L_{n}}^{}\deg(g_{\sigma,\tau})\tau$ for all $\sigma\in I^K_{n}$ where $g_{\sigma,\tau}:S^n_{\sigma}\to S^n_{\tau}$ given by $g_{\sigma,\tau}:=\overline{p_{\tau}}\circ \overline{g}\circ \overline{f_{\sigma}}$ from the following diagram:$$\begin{CD}B^n_{\sigma}@>f_{\sigma}>> K^{(n)}@>g>>L^{(n)}@>p_{\tau}>> S^n_{\tau}\\@V\gamma_{n} VV@VVV@VVV@VV\text{id}V\\S^n_{\sigma}@>>\overline{f_{\sigma}}>K^{(n)} / K^{(n-1)}@>>\overline{g}>L^{(n)} / L^{(n-1)}@>>\overline{p_{\tau}}>S^n_{\tau}\end{CD}$$where the lower row is induced by the u
 
-> [!proof]-
+> [!proof]+
 > We have that:
 > 
 > 1. To show that $g_{\text{cw}}$ is a chain map, let $\alpha\in C_{n}(K)$. Then, $$d_{n}^L\circ g_{\text{cw}}=\Phi_{n-1}^L \circ  \beta_{n}^L \circ  \Psi^L_{n}\circ \Phi^L_{n}\circ  g_{*}\circ \Psi^K_{n}=\Phi_{n-1}^L \circ  \beta_{n}^L \circ  g_{*}\circ \Psi^K_{n}$$and $$g_{\text{cw}}\circ d_{n}^K=\Phi^L_{n-1}\circ g_{*}\circ \Psi^K_{n-1}\circ \Phi^K_{n-1}\circ \beta^K_{n}\circ \Psi^K_{n}=\Phi^L_{n-1}\circ g_{*}\circ  \beta^K_{n}\circ \Psi^K_{n}$$Hence, it suffices to show that $g_{*}\circ  \beta^K_{n}=\beta_{n}^L \circ  g_{*}$. This holds by noting that: $$\begin{CD}H_{n}(K^{(n)},K^{(n-1)})@>\partial_{n}>>H_{n-1}(K^{(n-1)})@>j_{n-1}>>H_{n-1}(K^{(n-1)},K^{(n-2)})\\@Vg_{*}VV@Vg_{*}VV@Vg_{*}VV\\H_{n}(L^{(n)},L^{(n-1)})@>\partial_{n}>>H_{n-1}(L^{(n-1)})@>j_{n-1}>>H_{n-1}(L^{(n-1)},L^{(n-2)})\end{CD}$$commute where the first square by naturality of $\partial_{*}$ and the second as $g\circ j=j\circ g$. This concludes the proof.
 > 2. We have that:
 >    $$\begin{CD}H_{p}(K)@>g_{*}>>H_{p}(L)\\@V\cong VV@V\cong VV\\ \text{ker }\beta_{p}^K / \text{im }\beta_{p+1}^K@>g_{*}>>\text{ker }\beta_{p}^L / \text{im }\beta_{p+1}^L\\@V\cong VV@V\cong VV\\H_{p}(\mathcal{C}(K))@>>g^H_{\text{cw}}>H_{p}(\mathcal{C}(L))\end{CD}$$
+> 3. 
 ---
 > [!lemma] Theorem 3 (Cellular Approximation)
 > Let $K,Y$ be CW-complexes and $N\subseteq K$ a subcomplex. 
