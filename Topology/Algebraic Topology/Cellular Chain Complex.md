@@ -18,9 +18,36 @@
 > 3. $\mathcal{C}(K)$ is a chain complex. 
 > 4. $H_{n}(\mathcal{C}(K))\cong H_{n}(K)$ for all $n\in \mathbb{Z}$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. We first notice that $\Psi$ is an isomorphism as it sends every generator to a generator. Hence, it suffices to show that $\Phi \circ\Psi=\text{id}$. By linearity, we can show that $\Phi(\Psi(\sigma))=\sigma$ for all $\sigma\in I_n$. We have: $$\begin{align}\Phi(\Psi(\sigma))=\Phi((f_{\sigma})_{*}[I^n])=\sum_{\tau\in I_{n}}^{}\phi_{n}((p_{\tau})_{*}(f_{\sigma})_{*}[I^n])\tau=\phi_{n}((p_{\sigma}\circ f_{\sigma})_{*}[I^n])\sigma=\phi_{n}([S^n])\sigma=\sigma\end{align}$$where for $\tau\neq\sigma$, $p_{\tau} \circ f_{\sigma}=*$ and $(p_{\tau}\circ f_{\sigma})_{*}=0$.
 > 2. We have that for $\sigma\in I_{n}$: $$\begin{align}\Phi \circ \beta_{n}\circ \Psi(\sigma)&=\Phi \circ j_{n-1}\circ \partial_{n} \circ (f_{\sigma})_{*}[I^n]=\Phi \circ j_{n-1}\circ (f_{\partial\sigma})_{*}[\partial I^n]\\&=\sum_{\tau\in I_{n-1}}^{}\phi_{n-1}((p_{\sigma})_{*}\circ j_{n-1}\circ (f_{\partial\sigma})_{*}[\partial I^n])\tau\\&=\sum_{\tau\in I_{n-1}}^{}\phi_{n-1}((p_{\sigma}\circ f_{\partial\sigma})_{*}[\partial I^n])\tau\end{align}$$We conclude by noting that $\phi_{n-1}((p_{\sigma}\circ f_{\partial\sigma})_{*}[\partial I^n])=\deg(p_{\tau} \circ f_{\partial\sigma})$ by definition. 
 > 3. Holds from the fact that $\beta_{n}\circ\beta_{n+1}=0$ from [[CW-Complex|Proposition 8]] and $\Psi \circ\Phi=\text{id}$.
 > 4. We have that: $$H_{n}(\mathcal{C}(K))=\text{ker}(d_{n}) / \text{im}(d_{n+1})\cong \text{ker}(\beta_{n}) / \text{im}(\beta_{n+1})\cong H_{n}(K^{(n+1)})\cong H_{n}(K)$$
+---
+##### Examples
+> [!h] Example 1 (RP2)
+> We have that: 
+> 1. $H_{0}(\mathbb{R}\mathbb{P}^2)\cong \mathbb{Z}$
+> 2. $H_{1}(\mathbb{R}\mathbb{P}^{2})\cong \mathbb{Z} / 2\mathbb{Z}$
+> 3. $H_{n}(\mathbb{R}\mathbb{P}^2)=0$ for all $n\geq 0$
+
+> [!proof]+
+> We can represent $\mathbb{R}\mathbb{P}^{2}$ as a CW complex with 3 cells. Namely, 
+> 1. one $0$-cell $\sigma_{0}$,
+> 2. one $1$-cell $\sigma_{1}$, a loop at $\sigma_{0}$,
+> 3. one $2$-cell $\sigma_{2}$ where: 
+> 	```tikz
+> 	\usepackage{tikz}
+> 	\usetikzlibrary{calc, arrows, decorations.markings}
+> 	\begin{document}
+> 	\begin{tikzpicture}[
+> 	decoration={markings,mark=at position 0.53 with {\arrow{>>}}}] 
+> 	decoration2={markings,mark=at position 0.53 with {\arrow{>>}}}] 
+> 	\draw[postaction=decorate] (0,0) -- (2,0);
+> 	\draw (2,0) -- (2,-2);
+> 	\draw[postaction=decorate] (2,-2) -- (0,-2);
+> 	\draw (0,0) -- (0,-2);
+> 	\end{tikzpicture}
+> 	\end{document}
+> 	 ```
