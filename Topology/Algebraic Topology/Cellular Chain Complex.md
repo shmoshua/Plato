@@ -28,9 +28,18 @@
 > [!lemma] Proposition 2
 > Let $g:K\to L$ be a [[CW-Complex|cellular map]] between CW-complexes. Then, 
 > 1. $g_{\text{cw}}:=\Phi^L \circ g_{*} \circ\Psi^K:C_{n}(K)\to C_{n}(L)$ is a [[Chain Complex|chain map]].
+> 2. Let $g^H_{\text{cw}}:H_{p}(\mathcal{C}(K))\to H_{p}(\mathcal{C}(L))$. Then, $$\begin{CD}H_{p}(K)@>g_{*}>>H_{p}(L)\\@V\Theta^K VV@V\Theta^L VV\\H_{p}(\mathcal{C}(K))@>>g^H_{\text{cw}}>H_{p}(\mathcal{C}(L))\end{CD}$$commutes, where $\Theta^K:H_{p}(K)\to H_{p}(\mathcal{C}(K))$ and $\Theta^K:H_{p}(L)\to H_{p}(\mathcal{C}(L))$ are isomorphisms (from Proposition 1.4).
 
-> [!proof]+
-> To show that $g_{\text{cw}}$ is a chain map, let $\alpha\in C_{n}(K)$. Then, $$d_{n}^L(g_{\text{cw}}(\alpha))=\Phi_{n-1}^L \circ  \beta_{n}^L \circ  \Psi^L_{n}\circ \Phi^L_{n}\circ  g_{*}\circ \Psi^K_{n}$$and $$g_{*}(d_{n}^K(\alpha))=g_{*}$$
+> [!proof]-
+> We have that:
+> 
+> 1. To show that $g_{\text{cw}}$ is a chain map, let $\alpha\in C_{n}(K)$. Then, $$d_{n}^L\circ g_{\text{cw}}=\Phi_{n-1}^L \circ  \beta_{n}^L \circ  \Psi^L_{n}\circ \Phi^L_{n}\circ  g_{*}\circ \Psi^K_{n}=\Phi_{n-1}^L \circ  \beta_{n}^L \circ  g_{*}\circ \Psi^K_{n}$$and $$g_{\text{cw}}\circ d_{n}^K=\Phi^L_{n-1}\circ g_{*}\circ \Psi^K_{n-1}\circ \Phi^K_{n-1}\circ \beta^K_{n}\circ \Psi^K_{n}=\Phi^L_{n-1}\circ g_{*}\circ  \beta^K_{n}\circ \Psi^K_{n}$$Hence, it suffices to show that $g_{*}\circ  \beta^K_{n}=\beta_{n}^L \circ  g_{*}$. This holds by noting that: $$\begin{CD}H_{n}(K^{(n)},K^{(n-1)})@>\partial_{n}>>H_{n-1}(K^{(n-1)})@>j_{n-1}>>H_{n-1}(K^{(n-1)},K^{(n-2)})\\@Vg_{*}VV@Vg_{*}VV@Vg_{*}VV\\H_{n}(L^{(n)},L^{(n-1)})@>\partial_{n}>>H_{n-1}(L^{(n-1)})@>j_{n-1}>>H_{n-1}(L^{(n-1)},L^{(n-2)})\end{CD}$$commute where the first square by naturality of $\partial_{*}$ and the second as $g\circ j=j\circ g$. This concludes the proof.
+> 2. We have that:
+>    $$\begin{CD}H_{p}(K)@>g_{*}>>H_{p}(L)\\@V\cong VV@V\cong VV\\ \text{ker }\beta_{p}^K / \text{im }\beta_{p+1}^K@>g_{*}>>\text{ker }\beta_{p}^L / \text{im }\beta_{p+1}^L\\@V\cong VV@V\cong VV\\H_{p}(\mathcal{C}(K))@>>g^H_{\text{cw}}>H_{p}(\mathcal{C}(L))\end{CD}$$
+---
+> [!lemma] Theorem 3 (Cellular Approximation)
+> Let $K,Y$ be CW-complexes and $N\subseteq K$ a subcomplex. 
+> 1. If $\phi:K\to Y$ is a continuous map s.t. $\phi|_{N}$ is cellular, then $\phi \sim \psi$ relative to $N$ where $\psi:K\to Y$ is a cellular map.
 ---
 ##### Examples
 > [!h] Example 1 (RP2)
@@ -70,6 +79,7 @@
 >   
 > This proves the statement.
 ---
+
 > [!h] Example 2 (CPn)
 > We have that:
 > 1. $H_{p}(\mathbb{C}\mathbb{P}^n)\cong \begin{cases}\mathbb{Z}&0\leq p\leq 2n, p\text{ even}\\0&\text{otherwise}\end{cases}$
