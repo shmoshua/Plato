@@ -98,16 +98,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Smash Product.md",
+                "file": "Topology/CW-Complex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Smash Product"
+              "title": "CW-Complex"
+            }
+          },
+          {
+            "id": "d4a7b62992936d46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Homology Theory"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       },
       {
         "id": "4d5ec56e57395c88",
@@ -162,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Topology/CW-Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "CW-Complex"
             }
           },
           {
@@ -176,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Degree of Sphere Maps"
+              "title": "Homology Theory"
             }
           },
           {
@@ -213,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -358,10 +372,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "93886d7fa5963f6c",
+  "active": "d4a7b62992936d46",
   "lastOpenFiles": [
-    "Topology/Smash Product.md",
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Algebra/Exact Sequence.md",
+    "Topology/CW-Complex.md",
+    "Topology/Smash Product.md",
+    "Algebra/Split Exact Sequence.md",
+    "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Final Topology.md",
     "Topology/Homotopy.md",
@@ -377,15 +395,11 @@
     "Topology/Retract.md",
     "Topology/Homeomorphism.md",
     "Topology/Normal Space.md",
-    "Topology/CW-Complex.md",
     "Topology/Hausdorff Space.md",
     "Topology/Continuous Function.md",
     "Topology/Complex Projective Space.md",
     "Functional Analysis/Open and Closed Maps.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/Topological Space.md",
-    "Topology/Initial Topology.md",
-    "Differential Geometry/Proper Map.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

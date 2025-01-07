@@ -32,15 +32,16 @@
 > 3. $H_{p}(X,X)=0$ for all $p\in \mathbb{Z}$
 > 4. For a [[Homotopy|homotopy equivalence]] $f:(X,A)\to(Y,B)$, $f_{*}$ is an isomorphism. 
 > 5. The additivity axiom holds for pairs of spaces as well, i.e. for $(X_{\alpha},A_{\alpha})_{\alpha\in I}$, $$\oplus(i_{\alpha})_{*}:\bigoplus _{\alpha\in I} H_{p}(X_{\alpha},A_{\alpha})\to H_{p}\left( \bigsqcup_{\alpha\in I}X,\bigsqcup_{\alpha\in I}A \right),\quad (c_{\alpha})_{\alpha\in I}\mapsto \sum_{\alpha\in I}^{}(i_{\alpha})_{*}(c_{\alpha}) $$is an isomorphism where $i_{\alpha}:(X_{\alpha},A_{\alpha})\to\left( \bigsqcup_{\alpha\in I}X,\bigsqcup_{\alpha\in I}A \right)$ is the inclusion.
+> 6. For $B\subseteq A\subseteq X$, 
 
 ^d375b2
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Let $Y=\varnothing$. Then, $H_{p}(X)\oplus H_{p}(\varnothing) \cong H_{p}(X)$. Hence, $H_{p}(\varnothing)=0$.
 > 2. We have an exact sequence: $$\cdots \to H_{p+1}(X,\varnothing)\xrightarrow{\partial_{*}} H_{p}(X,\varnothing)\xrightarrow{\text{id}} H_{p}(X,\varnothing)\xrightarrow{j_{*}} H_{p}(X,X)\to H_{p-1}(X,\varnothing)\to\cdots$$Hence, $H_{p}(X,\varnothing)=\text{ker }j_{*}$ and $j_{*} = 0$. However, we also have that: $\text{im}(\partial_{*})=\text{ker }\text{id} = 0$. Hence, $\partial_{*}=0$. Now, we have that $$H_{p}(X,X)=\text{ker }\partial_{*} =\text{im }j_{*}=0$$
 > 3. Let $g:(Y,B)\to(X,A)$ be the homology inverse of $f$. Then, $$g_{*} \circ  f_{*} = (g\circ f)_{*}=\text{id}_{*}=\text{id}_{H_{p}(X,A)}$$$$f_{*} \circ  g_{*} = (f\circ g)_{*}=\text{id}_{*}=\text{id}_{H_{p}(Y,B)}$$
-> 4. Notice that we have:$$\begin{CD}\bigoplus _{\alpha\in I}H_{p}(A_{\alpha})@>>>\bigoplus _{\alpha\in I}H_{p}(A_{\alpha})\end{CD}$$
+> 4. Notice that we have which commutes and the rows are exact.$$\begin{CD}\bigoplus _{\alpha\in I}H_{p}(A_{\alpha})@>>>\bigoplus _{\alpha\in I}H_{p}(X_{\alpha})@>>>\bigoplus _{\alpha\in I}H_{p}(X_{\alpha},A_{\alpha})@>>>\bigoplus _{\alpha\in I}H_{p}(A_{\alpha})@>>>\bigoplus _{\alpha\in I}H_{p}(X_{\alpha})\\@V\cong VV @V\cong VV@V\oplus (i_{\alpha})_{*}VV@V\cong VV@V\cong VV\\H_{p}\left( \bigsqcup_{}^{}A_{\alpha} \right)@>>> H_{p}\left( \bigsqcup_{}^{}X_{\alpha} \right)@>>> H_{p}\left( \bigsqcup_{}^{}X_{\alpha},\bigsqcup_{}^{}A_{\alpha} \right)@>>> H_{p}\left( \bigsqcup_{}^{}A_{\alpha} \right)@>>> H_{p}\left( \bigsqcup_{}^{}X_{\alpha} \right)\end{CD}$$and by [[Exact Sequence|5-Lemma]], $\oplus(i_{\alpha})_{*}$ is an isomorphism. 
 
 ^525ab9
 
