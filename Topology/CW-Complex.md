@@ -159,7 +159,7 @@
 > 3. $\text{im}(\beta_{n+1})=j_{n}(\text{im}(\partial_{n+1}))$
 > 4. $H_{n}(K^{(n+1)})\cong \text{coker}(\partial_{n+1})\cong \text{ker }\beta_{n} / \text{im\ }\beta_{n+1}$
 
-> [!proof]+
+> [!proof]-
 > We have the following commutative diagram: 
 > ```tikz
 >  \usepackage{tikz-cd}\begin{document}\begin{tikzcd} [column sep=tiny]
