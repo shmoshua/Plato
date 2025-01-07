@@ -176,6 +176,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Degree of Sphere Maps"
+            }
+          },
+          {
+            "id": "c08f1003024f96fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "preview",
                 "source": true
@@ -185,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -329,10 +343,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae7a31733edb0041",
+  "active": "ac587d153add49bf",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/CW-Complex.md",
     "Algebra/Chain Complex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
@@ -345,7 +360,6 @@
     "Topology/Compact Space.md",
     "Topology/Retract.md",
     "Algebra/Split Exact Sequence.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Homotopy.md",
     "Topology/Quotient Topology.md",
     "Topology/One-Point Compactification.md",
