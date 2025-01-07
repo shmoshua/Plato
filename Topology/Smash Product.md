@@ -52,7 +52,7 @@
 > 	2. a generator $s_{n}\in H_{n}(S^n,*)\cong \mathbb{Z}$ with $(\gamma_{n})_{*}(a_{n})=s_{n}$.
 > 	3. a generator $d_{n}\in \tilde{H}_{n}(\partial I^{n+1})\cong \mathbb{Z}$ with $\partial_{*}(a_{n+1})=d_{n}$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. We define the maps $\gamma$ as follows:
 > 	1. $\gamma_{0}:(I^0,\varnothing)\to(S^0,*),x\mapsto 1$ where $I^0$ is a point and $S^0:=\{ *,1 \}$ . Then, it's continuous and $\gamma_{0}$ is a homeomorphism on the interior. 
@@ -61,7 +61,11 @@
 > 	   
 > 	   To show that it is open, $\gamma_{n}|_{(I^n)^\circ}=q \circ(\gamma_{1}|_{I^\circ}\times\dots\times\gamma_{1}|_{I^\circ})$ and therefore is open. 
 > 	
-> 	Now, to show that $(\gamma_{n})_{*}$ is an isomorphism, let: $$B^n_{+}:=\{ (x_{0},\dots,x_{n})\in S^n:x_{n}\geq 0 \}, \quad B^n_{-}:=\{ (x_{0},\dots,x_{n})\in S^n:x_{n}\leq 0 \}$$Let $S^{n-1}:=B^n_{+}\cap B^n_{-}$. Then, we first claim that there exists a homotopy equivalence $$f:(S^n,B^n_{-})\to(S^n,*),\quad x\mapsto \begin{cases}0&x\in B_{\leq 1}(n)\subseteq \mathbb{R}^n\\\left( 1-\frac{1}{\|x\|} \right)x&\text{otherwise}\end{cases}$$with homotopy inverse $g=\text{id}$. Then, $$f\circ g:(S^n,*)\to(S^n,*)$$
+> 	Now, to show that $(\gamma_{n})_{*}$ is an isomorphism, let: $$B^n_{+}:=\{ (x_{0},\dots,x_{n})\in S^n:x_{n}\geq 0 \}, \quad B^n_{-}:=\{ (x_{0},\dots,x_{n})\in S^n:x_{n}\leq 0 \}$$Let $S^{n-1}:=B^n_{+}\cap B^n_{-}$. Then, we first claim that there exists a homotopy equivalence $$f:(S^n,B^n_{-})\to(S^n,*),\quad x\mapsto \begin{cases}0&x\in B_{\leq 1}(n)\subseteq \mathbb{R}^n\\\left( 1-\frac{1}{\|x\|} \right)x&\text{otherwise}\end{cases}$$Then, $f$ is homotopic to $\text{id}$ and hence has a homotopic inverse $\text{id}$. Therefore, $$f_{*}:H_{n}(S^n,B^n_{-})\to H_{n}(S^n,*)$$is an isomorphism. Finally, we have that the diagram commutes: $$\begin{CD}H_{n}(B_{n}^+,S^{n-1})@>\cong>> H_{n}(S^n,B^n_{-})\\@V\cong VV @Vf_{*}VV\\H_{n}(I^n,\partial I^n)@>>(\gamma_{n})_{*}>H_{n}(S^n,*)\end{CD}$$where $(B^+_{n},S^{n-1})\cong (B^n,S^{n-1})\cong (I^n,\partial I^n)$ and $H_{n}(B^+_{n},S^{n-1})\cong H_{n}(B_{n},S^{n-1})\cong H_{n}(S_{n},B^{n}_{+})$ is shown in [[Homology Theory|Example 1]]. THerefore, $(\gamma_{n})_{*}$ is an isomorphism.
 > 2. Firstly, $H_{n}(I^n,\partial I^n)\cong H_{n}(B^n, S^{n-1})\cong\mathbb{Z}$ and $H_{n}(S^n,*)\cong \tilde{H}_{n}(S^n)\cong \mathbb{Z}$ and $\tilde{H}_{n}\partial I^{n+1})\cong \tilde{H}_{n}(S^n)\cong \mathbb{Z}$. Now, 
 > 	1. Let $a_{0}\in H_{0}(I^0,\partial I^0)$ be a generator. By denoting $X / \varnothing:=X\sqcup\{ * \}$, we have that $S^0\cong I^0 / \partial I^0$.
-> 	2. Assume we have already defined $a_{n}\in H_{n}(I^n,\partial I^n)$
+> 	2. Assume we have already defined $a_{n}\in H_{n}(I^n,\partial I^n)$:
+> 		1. $s_{n}:=(\gamma_{n})_{*}(a_{n})$ which is a generator as $(\gamma_{n})_{*}$ is an isomorphism.
+> 		2. For $d_{n}$, we define first: $$\gamma'_{n}:(\partial I^{n+1},*)\to(S^n,*),\quad (x_{0},\dots,x_{n})\mapsto \begin{cases}\gamma_{n}(x_{1},\dots,x_{n})&x_{0}=1\\ *&\text{otherwise}\end{cases}$$Then, $\gamma'_{n}$ is homotopic to a homeomorphism. Hence, $(\gamma'_{n})_{*}$ is isomorphic and we set: $$d_{n}:=(\gamma'_{n})^{-1}_{*}(s_{n})\in \tilde{H}_{n}(\partial I^{n+1})$$
+> 		3. $a_{n+1}:=\partial_{*}(d_{n})$ where $\partial_{*}:H_{n+1}(I^{n+1},\partial I^{n+1})\to \tilde{H_{n}}(\partial I^{n+1})$ is an isomorphism as: $$0=\tilde{H}_{n+1}(I^{n+1})\to H_{n+1}(I^{n+1},\partial I^{n+1})\xrightarrow{\partial_{*}}\tilde{H}_{n}(\partial I^{n+1})\to \tilde{H}_{n}(I^{n+1})=0$$as $I^{n+1}$ is contractible. As this sequence is exact, this proves our claim.
+---

@@ -105,23 +105,9 @@
               "icon": "lucide-file",
               "title": "Smash Product"
             }
-          },
-          {
-            "id": "5826eb8383eb0463",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Homology Theory"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -190,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homotopy"
+              "title": "Degree of Sphere Maps"
             }
           },
           {
@@ -227,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -372,12 +358,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "39277a6839bc6623",
+  "active": "93886d7fa5963f6c",
   "lastOpenFiles": [
-    "Topology/Homotopy.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Smash Product.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Final Topology.md",
+    "Topology/Homotopy.md",
     "Topology/Compact Space.md",
     "Topology/Quotient Topology.md",
     "Topology/One-Point Compactification.md",
@@ -386,7 +373,6 @@
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Algebra/Quotient Set.md",
     "Topology/Wedge Sum.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Proper Group Action.md",
     "Topology/Retract.md",
     "Topology/Homeomorphism.md",
