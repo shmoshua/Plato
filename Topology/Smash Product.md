@@ -51,4 +51,6 @@
 > [!proof]+
 > We have that:
 > 1. We define the maps $\gamma$ as follows:
-> 	1. $\gamma_{0}:(I^0,\varnothing)\to(S^0,*)$ 
+> 	1. $\gamma_{0}:(I^0,\varnothing)\to(S^0,*),x\mapsto 1$ where $I^0$ is a point and $S^0:=\{ *,1 \}$ . Then, it's continuous and $\gamma_{0}$ is a homeomorphism on the interior. 
+> 	2. $\gamma_{1}:(I^1,\partial I)\to(S^1,*)$ be the quotient map of $S^1\cong I / \partial I$. Then, $$\gamma_{1}(I^\circ )=S^1 \backslash \{ * \}$$which is a continuous injection. To show that it is homeomorphic, we show that it is open: For $U\subseteq I^\circ$, it is open in $I$ and $\gamma_{1} ^{-1}(\gamma_{1}(I))=I$ hence $\gamma_{1}(I)$ is open in $S^1$ and thereby in $S^1 \backslash \{ * \}$. 
+> 	3. $\gamma_{n}:=\gamma_{1}\ \tilde{\land}\ \dots\ \tilde{\land}\ \gamma_{1}:(I^n,\partial I^n)\to (S^1 \land \dots \land S^1,*)\cong (S^n,*)$. Indeed, we have that where for $(x_{1},\dots,x_{n})\in \partial I^n\subseteq \mathbb{R}^n$, there exists $i$ s.t. $x_{i}\in \{ 0,1 \}$. Then, $$\gamma_{n}(x)=[(\gamma_{1}(x_{1}),\dots,*,\dots,\gamma_{n}(x_{n}))]=*$$
