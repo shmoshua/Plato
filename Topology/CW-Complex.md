@@ -112,7 +112,7 @@
 > 1. $\partial I^n$ is sent to $*$.
 > 2. the map is homeomorphic on $(I^n)^\circ$ to $S^n \backslash \{ * \}$.
 > 3. If we identify the map with $\gamma_{n}$ and factor $\gamma_{n}=p_{\sigma} \circ f_{\sigma}$ for $p_{\sigma}:K^{(n)}\to S^n$ for all $\sigma\in I_{n}$, it holds that $p_{\sigma} \circ f_{\sigma'}=*$ for all $\sigma'\neq\sigma\in I_{n}$. 
-> 4. for $f:Z^{(n)}:=\bigsqcup_{\sigma\in I_{n}}^{}I^n_{}\to K^{(n)}$ s.t. $f|_{I^n_{\sigma}}=f_{\sigma}$, we have that $f(\partial Z^{(n)})\subseteq K^{(n-1)}$
+> 4. for $f:Z^{(n)}:=\bigsqcup_{\sigma\in I_{n}}^{}I^n_{}\to K^{(n)}$ s.t. $f|_{I^n_{\sigma}}=f_{\sigma}$, we have that $f(\partial Z^{(n)})\subseteq K^{(n-1)}$, i.e. $$f:(Z^{(n)},\partial Z^{(n)})\to(K^{(n)},K^{(n-1)})$$
 
 > [!proof]+
 > We have that:

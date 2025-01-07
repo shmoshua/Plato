@@ -121,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "4d5ec56e57395c88",
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -372,11 +372,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d4a7b62992936d46",
+  "active": "4f5a3d47b7537008",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Algebra/Exact Sequence.md",
     "Topology/CW-Complex.md",
+    "Algebra/Exact Sequence.md",
     "Topology/Smash Product.md",
     "Algebra/Split Exact Sequence.md",
     "Algebra/Chain Complex.md",
