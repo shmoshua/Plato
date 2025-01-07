@@ -8,7 +8,7 @@
 ##### Properties
 > [!lemma] Proposition 1
 > For $f:(X,x_{0})\to(X',x_{0}')$ and $g:(Y,y_{0})\to(Y',y'_{0})$,
-> 1. $f\land g$ is well-defined.
+> 1. $f\land g$ is well-defined and continuous.
 > 2. $X\land Y\cong Y \land X$ s.t. the homeomorphism is natural to functions, i.e. the diagram commutes for all $f,g$:$$\begin{CD}X\land Y@>\psi>> Y \land X\\@Vf\land gVV@VVg\land fV\\X'\land Y'@>\psi'>> Y'\land X\end{CD}$$
 > 3. $(X\land Y)\land Z\cong X \land(Y\land Z)$, s.t. the homeomorphism is natural to functions. 
 > 4. If $X,Y$ are compact, $X\land Y\cong (X \backslash \{ x_{0} \})\times(Y \backslash \{ y_{0} \})\cup \{ \infty \}$, the [[one-point compactification]] and the homeomorphism is natural.
@@ -16,6 +16,8 @@
 > [!proof]-
 > We have that:
 > 1. If $(x,y)\in X \lor Y$ then either $y=y_{0}$ or $x=x_{0}$. Hence, either $f(x)=x'_{0}$ or $g(y)=y'_{0}$. Hence, $(f(x),g(y))\in X' \lor Y'$. 
+>    
+>    For continuity, we show that $$X\times Y\to X'\land Y',\quad (x,y)\mapsto [(f(x),g(y))]$$is continuous. This follows from the continuity of $(f,g):X\times Y\to X'\times Y'$. 
 > 2. We have that: $$\psi:X\land Y\to Y\land X,\quad [(x,y)]\mapsto [(y,x)]$$Then, $\psi$ is well-defined as $(x,y)\in X \lor Y$, $(y,x)\in Y \lor X$. Further, $\psi$ is bijective. Now, it is left to show that $\psi$ is continuous as the inverse is of the same form modulo changing $X$ and $Y$. To show that it is continuous we have that: $$\psi \circ  q(x,y)=[(y,x)]$$which is continuous as $\psi \circ q$ can be factored into swapping $X$ and $Y$ and projecting. 
 >    
 >    Lastly, for $f,g$: $$\psi'(f\land g([(x,y)]))=\psi'([(f(x),g(y))])=[(g(y),f(x))]=g\land f([(y,x)])=g\land f(\psi([(x,y)]))$$
@@ -42,7 +44,9 @@
 ---
 > [!lemma] Theorem 1
 > We have that:
-> 1. for all $n\geq 0$, there exists a continuous map $\gamma_{n}:(I^n,\partial I^n)\to (S^n,*)$ s.t. $\gamma_{n}|_{(I^n)^\circ}$ is a homeomorphism to its image. 
+> 1. for all $n\geq 0$, there exists a continuous map $\gamma_{n}:(I^n,\partial I^n)\to (S^n,*)$ s.t. 
+> 	1. $\gamma_{n}|_{(I^n)^\circ}$ is a homeomorphism to its image. 
+> 	2. $(\gamma_{n})_{*}:H_{n}(I^n,\partial I^n)\to H_{n}(S^n,*)$ is an isomorphism.
 > 2. for all $n\geq 0$, there exist the following:
 > 	1. a generator $a_{n}\in H_{n}(I^n,\partial I^n)\cong \mathbb{Z}$.
 > 	2. a generator $s_{n}\in H_{n}(S^n,*)\cong \mathbb{Z}$ with $(\gamma_{n})_{*}(a_{n})=s_{n}$.
@@ -53,4 +57,11 @@
 > 1. We define the maps $\gamma$ as follows:
 > 	1. $\gamma_{0}:(I^0,\varnothing)\to(S^0,*),x\mapsto 1$ where $I^0$ is a point and $S^0:=\{ *,1 \}$ . Then, it's continuous and $\gamma_{0}$ is a homeomorphism on the interior. 
 > 	2. $\gamma_{1}:(I^1,\partial I)\to(S^1,*)$ be the quotient map of $S^1\cong I / \partial I$. Then, $$\gamma_{1}(I^\circ )=S^1 \backslash \{ * \}$$which is a continuous injection. To show that it is homeomorphic, we show that it is open: For $U\subseteq I^\circ$, it is open in $I$ and $\gamma_{1} ^{-1}(\gamma_{1}(I))=I$ hence $\gamma_{1}(I)$ is open in $S^1$ and thereby in $S^1 \backslash \{ * \}$. 
-> 	3. $\gamma_{n}:=\gamma_{1}\ \tilde{\land}\ \dots\ \tilde{\land}\ \gamma_{1}:(I^n,\partial I^n)\to (S^1 \land \dots \land S^1,*)\cong (S^n,*)$. Indeed, we have that where for $(x_{1},\dots,x_{n})\in \partial I^n\subseteq \mathbb{R}^n$, there exists $i$ s.t. $x_{i}\in \{ 0,1 \}$. Then, $$\gamma_{n}(x)=[(\gamma_{1}(x_{1}),\dots,*,\dots,\gamma_{n}(x_{n}))]=*$$
+> 	3. $\gamma_{n}:=\gamma_{1}\ \tilde{\land}\ \dots\ \tilde{\land}\ \gamma_{1}:(I^n,\partial I^n)\to (S^1 \land \dots \land S^1,*)\cong (S^n,*)$. Indeed, we have that where for $(x_{1},\dots,x_{n})\in \partial I^n\subseteq \mathbb{R}^n$, there exists $i$ s.t. $x_{i}\in \{ 0,1 \}$. Then, $$\gamma_{n}(x)=[(\gamma_{1}(x_{1}),\dots,*,\dots,\gamma_{n}(x_{n}))]=*$$To show that it is a homeomorphism, we have that: $$\gamma_{n}{(I_{n}^\circ )}=S^n \backslash \{ * \}$$Further, it is continuous. To show that it is injective, if $\gamma_{n}(x)=\gamma_{n}(y)$, then $$*\neq[(\gamma_{1}(x_{1}),\dots,\gamma_{1}(x_{n}))]=[(\gamma_{1}(y_{1}),\dots,\gamma_{1}(y_{n}))]$$which happens if $\gamma_{1}(x_{i})=\gamma_{1}(y_{i})$ for all $i$. As none of these values are $*$, we have from the injectivity of $\gamma_{1}|_{I^\circ}$ that $x_{i}=y_{i}$ for all $i\in [n]$. 
+> 	   
+> 	   To show that it is open, $\gamma_{n}|_{(I^n)^\circ}=q \circ(\gamma_{1}|_{I^\circ}\times\dots\times\gamma_{1}|_{I^\circ})$ and therefore is open. 
+> 	
+> 	Now, to show that $(\gamma_{n})_{*}$ is an isomorphism, let: $$B^n_{+}:=\{ (x_{0},\dots,x_{n})\in S^n:x_{n}\geq 0 \}, \quad B^n_{-}:=\{ (x_{0},\dots,x_{n})\in S^n:x_{n}\leq 0 \}$$Let $S^{n-1}:=B^n_{+}\cap B^n_{-}$. Then, we first claim that there exists a homotopy equivalence $$f:(S^n,B^n_{-})\to(S^n,*),\quad x\mapsto \begin{cases}0&x\in B_{\leq 1}(n)\subseteq \mathbb{R}^n\\\left( 1-\frac{1}{\|x\|} \right)x&\text{otherwise}\end{cases}$$with homotopy inverse $g=\text{id}$. Then, $$f\circ g:(S^n,*)\to(S^n,*)$$
+> 2. Firstly, $H_{n}(I^n,\partial I^n)\cong H_{n}(B^n, S^{n-1})\cong\mathbb{Z}$ and $H_{n}(S^n,*)\cong \tilde{H}_{n}(S^n)\cong \mathbb{Z}$ and $\tilde{H}_{n}\partial I^{n+1})\cong \tilde{H}_{n}(S^n)\cong \mathbb{Z}$. Now, 
+> 	1. Let $a_{0}\in H_{0}(I^0,\partial I^0)$ be a generator. By denoting $X / \varnothing:=X\sqcup\{ * \}$, we have that $S^0\cong I^0 / \partial I^0$.
+> 	2. Assume we have already defined $a_{n}\in H_{n}(I^n,\partial I^n)$

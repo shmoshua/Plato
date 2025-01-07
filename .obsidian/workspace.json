@@ -190,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Topology/Homotopy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Compact Space"
+              "title": "Homotopy"
             }
           },
           {
@@ -372,17 +372,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4f5a3d47b7537008",
+  "active": "39277a6839bc6623",
   "lastOpenFiles": [
+    "Topology/Homotopy.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Smash Product.md",
-    "Topology/One-Point Compactification.md",
-    "Topology/Quotient Topology.md",
+    "Topology/Final Topology.md",
     "Topology/Compact Space.md",
+    "Topology/Quotient Topology.md",
+    "Topology/One-Point Compactification.md",
     "Topology/Locally Compact Space.md",
     "Topology/Dense Subset.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
-    "Topology/Final Topology.md",
     "Algebra/Quotient Set.md",
     "Topology/Wedge Sum.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
@@ -399,7 +400,6 @@
     "Topology/Topological Space.md",
     "Topology/Initial Topology.md",
     "Differential Geometry/Proper Map.md",
-    "Algebra/Orbit and Stablizer.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
