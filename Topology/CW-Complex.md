@@ -112,14 +112,22 @@
 > 1. $\partial I^n$ is sent to $*$.
 > 2. the map is homeomorphic on $(I^n)^\circ$ to $S^n \backslash \{ * \}$.
 > 3. If we identify the map with $\gamma_{n}$ and factor $\gamma_{n}=p_{\sigma} \circ f_{\sigma}$ for $p_{\sigma}:K^{(n)}\to S^n$ for all $\sigma\in I_{n}$, it holds that $p_{\sigma} \circ f_{\sigma'}=*$ for all $\sigma'\neq\sigma\in I_{n}$. 
-> 4. for $f:Z^{(n)}:=\bigsqcup_{\sigma\in I_{n}}^{}I^n_{}\to K^{(n)}$ s.t. $f|_{I^n_{\sigma}}=f_{\sigma}$, we have that $f(\partial Z^{(n)})\subseteq K^{(n-1)}$, i.e. $$f:(Z^{(n)},\partial Z^{(n)})\to(K^{(n)},K^{(n-1)})$$
+> 5. $\oplus(f_{\sigma})_{*}:\bigoplus_{\sigma\in I_{n}}H_{p}(I^n, \partial I^n)\to H_{p}(K^{(n)},K^{(n-1)})$ is an isomorphism for all $p\in \mathbb{Z}$.
 
 > [!proof]+
 > We have that:
 > 1. $f_{\sigma}(\partial I^n)\subseteq K^{(n-1)}$ and therefore, it gets sent to $*$ in $S^n$. 
 > 2. the map is continuous and injective. Further, its image restricted to $(I^n)^\circ$ is $S^n \backslash\{ * \}$. Further, as all maps are open we have that our map is also open on $(I^n)^\circ$. 
 > 3. Assume that $p_{\sigma}(f_{\sigma'}(x))\neq*$. Then, $f_{\sigma'}(x)\in (I^n_{\sigma})^\circ$ which is a contradiction.
-> 4. Obvious as $f(\partial\sigma)\subseteq K^{(n-1)}$ and $\partial Z^{(n)}=\bigsqcup_{\sigma\in I_{n}}^{} \partial I^n_{\sigma}$.
+> 4. We first show the statement for $p=n$. Let's define $f:Z^{(n)}:=\bigsqcup_{\sigma\in I_{n}}^{}I^n_{}\to K^{(n)}$ s.t. $f|_{I^n_{\sigma}}=f_{\sigma}$. Then, we have that $f(\partial Z^{(n)})\subseteq K^{(n-1)}$, i.e. $f:(Z^{(n)},\partial Z^{(n)})\to(K^{(n)},K^{(n-1)})$ and we claim that:
+> 	1. **Claim 1**: $f_{*}:=H_{n}(Z^{(n)},\partial Z^{(n)})\to H_{n}(K^{(n)},K^{(n-1)})$ is an isomorphism. 
+> 	   We define the following spaces:
+> 		- $o:=\left( \frac{1}{2},\dots, \frac{1}{2} \right)\in I^n$
+> 		- $I^n_{\varepsilon}:=[\varepsilon,1-\varepsilon]^n\subseteq I^n$
+> 		- $K^{(n-1)}_{\varepsilon}:=K^{(n-1)}\cup \bigcup_{\sigma\in I_{n}}^{}f_{\sigma}(I^n \backslash I^n_{\varepsilon})$
+> 	
+> 		Then, we have the following commutative diagram: $$\begin{CD}H_{n}(Z^{(n)},\partial Z^{(n)})@>f_{*}>>H_{n}(K^{(n)},K^{(n-1)})\\@V\cong VV@V\cong VV\\H_{n}\left( \bigsqcup_{\alpha\in I_{n}}^{}(I^n_{\sigma},I^n_{\sigma} \backslash \{ o \}) \right)&&H_{n}\left( K^{(n)},K^{(n)} \backslash \bigcup_{\sigma\in I_{n}}f_{\sigma}(o) \right)\\@A\cong AA@A\cong AA\\H_{n}\left( \bigsqcup_{\alpha\in I_{n}}((I^n_{\sigma})^\circ ,(I^n_{\sigma})^\circ \backslash \{ o \}) \right)@>\cong>>H_{n}\left( K^{(n)} \backslash K^{(n-1)}_{\varepsilon},K^{(n)} \backslash \left( K^{(n-1)}_{\varepsilon}\cup \bigcup_{\sigma\in I_{n}}^{}f_{\sigma}(o) \right) \right)\end{CD}$$where:
+> 		1. $H_{n}(Z^{(n)},\partial Z^{(n)})\cong\bigoplus_{\sigma\in I_{n}}H_{n}(I^n_{\sigma},\partial I^n_{\sigma})$ and as 
 
 ---
 ##### Examples
