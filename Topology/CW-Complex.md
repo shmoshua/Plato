@@ -139,6 +139,8 @@
 > For a CW-complex $K$, we have that:
 > 1. $H_{p}(K^{(n)},K^{(n-1)})=\begin{cases}\bigoplus_{\sigma\in I_{n}}\mathbb{Z}&p=n\\0&p\neq n\end{cases}$
 > 2. $H_{p}(K^{(n)})=0$ for all $p>n$.
+> 3. $H_{n}(K^{(n+1)})\cong H_{n}(K^{(n+2)})\cong \dots$ where each isomorphism is induced by inclusion. 
+> 4. If $K$ is $m$-dimensional, then $H_{n}(K)\cong H_{n}(K^{(n+1)})$ for all $n<m$.
 
 > [!proof]-
 > We have that:
@@ -146,6 +148,8 @@
 > 2. We show this by induction over $n$. 
 > 	1. If $n=0$, then for all $p>0$, $H_{p}(K^{(0)})=\bigoplus_{x\in K^{(0)}}H_{p}(\{ x \})=0$.
 > 	2. If $n\geq 1$, we have that for $p>n$,  $$0=H_{p}(K^{(n-1)})\to H_{p}(K^{(n)})\to H_{p}(K^{(n)},K^{(n-1)})\to H_{p-1}(K^{(n-1)})=0$$and as this is exact, $H_{p}(K^{(n)})\cong H_{p}(K^{(n)},K^{(n-1)})= 0$.
+> 3. Let $p> n$. Then, $$0=H_{n+1}(K^{(p+1)},K^{(p)})\to H_{n}(K^{(p)})\to H_{n}(K^{(p+1)})\to H_{n}(K^{(p+1)},K^{(p)})=0$$Hence, we have an isomorphism.
+> 4. Because if $K=K^{(m)}$ for some $m>n$, then $H_{n}(K)=H_{n}(K^{(m)})\cong H_{n}(K^{(n+1)})$.
 
 ---
 > [!lemma] Proposition 8
@@ -153,6 +157,7 @@
 > 1. $\beta_{n} \circ \beta_{n+1}=0$ for all $n$.
 > 2. $\text{ker }\beta_{n}=\text{ker }\partial_{n}=\text{im}(j_{n})$.
 > 3. $\text{im}(\beta_{n+1})=j_{n}(\text{im}(\partial_{n+1}))$
+> 4. $H_{n}(K^{(n+1)})\cong \text{coker}(\partial_{n+1})\cong \text{ker }\beta_{n} / \text{im\ }\beta_{n+1}$
 
 > [!proof]+
 > We have the following commutative diagram: 
@@ -163,7 +168,15 @@
 >  ```
 > 
 > Hence,
-> 1. $\beta_{n}\circ\beta_{n+1}=j_{n-1}\circ\underbrace{ \partial_{n}\circ j_{n}  }_{  }\circ \partial_{n+1}$
+> 1. $\beta_{n}\circ\beta_{n+1}=j_{n-1}\circ\underbrace{ \partial_{n}\circ j_{n}  }_{ =0 }\circ \partial_{n+1}=0$.
+> 2. We have that $\text{ker }\partial_{n}\subseteq \text{ker }\beta_{n}$ by definition. Now, if $x\in \text{ker }\beta_{n}$, then $j_{n-1}(\partial_{n}(x))=0$ and as $j_{n-1}$ is injective, $\partial_{n}(x)=0$.
+> 3. By definition, $j_{n}(\partial_{n+1}(H_{n+1}(K^{(n+1)},K^{(n)})))=\beta_{n+1}(H_{n+1}(K^{(n+1)},K^{(n)})))$.
+> 4. We first notice that: 
+> 	1. $0\to H_{n}(K^{(n)})\to \text{ker }\beta_{n}\to 0$ is exact and $j_{n}:H_{n}(K^{(n)})\to \text{ker }\beta_{n}$ is an isomorphism.
+> 	2. $\text{im }\partial_{n+1}\xrightarrow{j_{n}}\text{im }\beta_{n+1}\to 0$ hence injective and we have that $\text{im }\partial _{n+1}\cong \text{im }\beta_{n+1}$ by $j_{n}$.
+> 
+> 	Therefore, as $i_{n}$ is surjective, $$H_{n}(K^{(n+1)})\cong H_{n}(K^{(n)}) / \text{im } \partial_{n+1}=\text{coker}(\partial_{n+1})\cong \text{ker }\beta_{n} / \text{im }\beta_{n+1}$$
+> 5. 
 
 ---
 ##### Examples
