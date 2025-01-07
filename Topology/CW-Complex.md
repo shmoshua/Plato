@@ -19,6 +19,7 @@
 	 3. $U_{\sigma}:=f_{\sigma}((B^n_{\sigma})^\circ)$ is called the ***open cell*** of $\sigma$ (which is not necessarily open).
 - **Remark**: By definition,  $U\subseteq K$ is open/closed if and only if for all $n\geq 0$, $U\cap K^{(n)}$ is open/closed in $K^{(n)}$.
 - **Related definition**: A ***subcomplex*** of a CW complex $K$ is a subspace $K'\subseteq K$ is a union of open cells $U_{\sigma}$ for $\sigma\in I'_{n}\subseteq I_{n}$ s.t. $K_{\sigma}\subseteq K'$ for all $\sigma\in I'_{n}$. 
+- **Related definition**: A continuous function $g:K\to L$ between CW-complexes is a ***cellular map*** if $g(K^{(n)})\subseteq L^{(n)}$ for all $n\geq 0$.  
 ---
 ##### Properties
 > [!lemma] Proposition 1

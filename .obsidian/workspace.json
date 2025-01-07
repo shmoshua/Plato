@@ -112,12 +112,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "TIKZ.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "TIKZ"
             }
           }
         ],
@@ -171,20 +171,6 @@
             }
           },
           {
-            "id": "fc90c3e5bfbd8de0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Degree of Sphere Maps"
-            }
-          },
-          {
             "id": "c08f1003024f96fd",
             "type": "leaf",
             "state": {
@@ -210,6 +196,20 @@
               },
               "icon": "lucide-file",
               "title": "Homology Theory"
+            }
+          },
+          {
+            "id": "cbff77d30ae9c164",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIKZ.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "TIKZ"
             }
           }
         ],
@@ -359,17 +359,17 @@
   },
   "active": "ae7a31733edb0041",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Chain Complex.md",
-    "Topology/CW-Complex.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/CW-Complex.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "TIKZ.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Final Topology.md",
     "Topology/Smash Product.md",
     "Topology/Wedge Sum.md",
     "Topology/Hausdorff Space.md",
-    "TIKZ.md",
     "Algebra/Exact Sequence.md",
     "Topology/Compact Space.md",
     "Topology/Retract.md",

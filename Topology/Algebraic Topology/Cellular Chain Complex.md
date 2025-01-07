@@ -25,6 +25,13 @@
 > 3. Holds from the fact that $\beta_{n}\circ\beta_{n+1}=0$ from [[CW-Complex|Proposition 8]] and $\Psi \circ\Phi=\text{id}$.
 > 4. We have that: $$H_{n}(\mathcal{C}(K))=\text{ker}(d_{n}) / \text{im}(d_{n+1})\cong \text{ker}(\beta_{n}) / \text{im}(\beta_{n+1})\cong H_{n}(K^{(n+1)})\cong H_{n}(K)$$
 ---
+> [!lemma] Proposition 2
+> Let $g:K\to L$ be a [[CW-Complex|cellular map]] between CW-complexes. Then, 
+> 1. $g_{\text{cw}}:=\Phi^L \circ g_{*} \circ\Psi^K:C_{n}(K)\to C_{n}(L)$ is a [[Chain Complex|chain map]].
+
+> [!proof]+
+> To show that $g_{\text{cw}}$ is a chain map, let $\alpha\in C_{n}(K)$. Then, $$d_{n}^L(g_{\text{cw}}(\alpha))=\Phi_{n-1}^L \circ  \beta_{n}^L \circ  \Psi^L_{n}\circ \Phi^L_{n}\circ  g_{*}\circ \Psi^K_{n}$$and $$g_{*}(d_{n}^K(\alpha))=g_{*}$$
+---
 ##### Examples
 > [!h] Example 1 (RP2)
 > We have that: 
@@ -32,22 +39,42 @@
 > 2. $H_{1}(\mathbb{R}\mathbb{P}^{2})\cong \mathbb{Z} / 2\mathbb{Z}$
 > 3. $H_{n}(\mathbb{R}\mathbb{P}^2)=0$ for all $n\geq 0$
 
-> [!proof]+
+> [!proof]-
 > We can represent $\mathbb{R}\mathbb{P}^{2}$ as a CW complex with 3 cells. Namely, 
 > 1. one $0$-cell $\sigma_{0}$,
 > 2. one $1$-cell $\sigma_{1}$, a loop at $\sigma_{0}$,
-> 3. one $2$-cell $\sigma_{2}$ where: 
+> 3. one $2$-cell $\sigma_{2}$ where the nodes are mapped to $\sigma_{0}$ and the edges are mapped to $\sigma_{1}$. 
+>    .
 > 	```tikz
 > 	\usepackage{tikz}
 > 	\usetikzlibrary{calc, arrows, decorations.markings}
 > 	\begin{document}
-> 	\begin{tikzpicture}[
-> 	decoration={markings,mark=at position 0.53 with {\arrow{>>}}}] 
-> 	decoration2={markings,mark=at position 0.53 with {\arrow{>>}}}] 
-> 	\draw[postaction=decorate] (0,0) -- (2,0);
-> 	\draw (2,0) -- (2,-2);
-> 	\draw[postaction=decorate] (2,-2) -- (0,-2);
-> 	\draw (0,0) -- (0,-2);
+> 	\begin{tikzpicture}[scale=1.5, line width=1pt,
+> 	double_arrow/.style={postaction={decorate}, decoration={markings, mark=at position 0.53 with {\arrow{>>}}}}, 
+> 	single_arrow/.style={postaction={decorate}, decoration={markings, mark=at position 0.53 with {\arrow{>}}}}]
+> 	\tikzset{dot/.style = {shape=circle, fill,draw, inner sep=0pt, minimum size=5pt}}
+> 	\draw[single_arrow] (0,0) -- (2,0);
+> 	\draw[double_arrow] (2,0) -- (2,-2);
+> 	\draw[single_arrow] (2,-2) -- (0,-2);
+> 	\draw[double_arrow] (0,-2) -- (0,0);
+> 	\node[dot] (da) at (0,-2) {};
+> 	\node[dot] (da) at (2,0) {};
 > 	\end{tikzpicture}
 > 	\end{document}
 > 	 ```
+>
+>Then, we have that $0\to C_{2}(K)\to C_{1}(K)\to C_{0}(K)\to 0$ where:
+>1. $d\sigma_{0}=0$,
+>2. $d\sigma_{1}=0$ as $[\sigma_{0}:\sigma_{1}]=0$ as $p_{\sigma_{0}}\circ f_{\partial\sigma_{1}}$ is a constant map.
+>3. $d\sigma_{2}=\pm 2\sigma_{1}$.
+>   
+> This proves the statement.
+---
+> [!h] Example 2 (CPn)
+> We have that:
+> 1. $H_{p}(\mathbb{C}\mathbb{P}^n)\cong \begin{cases}\mathbb{Z}&0\leq p\leq 2n, p\text{ even}\\0&\text{otherwise}\end{cases}$
+
+> [!proof]-
+> We have that:
+> 1. From [[CW-Complex|Example 1]], there is one cell in each odd dimension up to $2n$ and no odd cells. Hence, $$0\to C_{2n}(K)\to 0 \to C_{2n-2}(K) \to 0 \to \dots$$In any case $d=0$ for all $p\in \mathbb{Z}$ and the statement follows.
+---
