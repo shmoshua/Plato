@@ -98,12 +98,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Topology/Algebraic Topology/Euler Characteristic.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "Euler Characteristic"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIKZ.md",
+                "file": "Algebra/Finitely Generated Abelian Group.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TIKZ"
+              "title": "Finitely Generated Abelian Group"
             }
           }
         ],
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/CW-Complex.md",
+                "file": "Topology/Algebraic Topology/Euler Characteristic.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CW-Complex"
+              "title": "Euler Characteristic"
             }
           },
           {
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Algebra/Finitely Generated Abelian Group.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "Finitely Generated Abelian Group"
             }
           },
           {
@@ -213,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -357,14 +357,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae7a31733edb0041",
+  "active": "4f5a3d47b7537008",
   "lastOpenFiles": [
-    "Topology/CW-Complex.md",
+    "Algebra/Finitely Generated Abelian Group.md",
+    "TIKZ.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/Euler Characteristic.md",
+    "Topology/CW-Complex.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Algebra/Chain Complex.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "TIKZ.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Final Topology.md",
     "Topology/Smash Product.md",
@@ -383,8 +385,6 @@
     "Algebra/Quotient Set.md",
     "Topology/Proper Group Action.md",
     "Topology/Homeomorphism.md",
-    "Topology/Normal Space.md",
-    "Topology/Continuous Function.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

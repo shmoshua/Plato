@@ -8,7 +8,7 @@
 	1. $I^n_{K,A}:=\{ \sigma\in I^n_{K}:f_{\sigma}(B^n_{\sigma})\not\subseteq  A\}$
 	2. $C_{n}(K,A):=\bigoplus_{\sigma\in I^n_{K,A}}\mathbb{Z}\sigma$
 	3. $d_{n}:C_{n}(K,A)\to C_{n-1}(K,A)$ with $d_{n}(\sigma):=\sum_{\tau\in I^{n-1}_{K,A}}[\tau:\sigma]\tau$.
-	4. 
+	4. $K^{(n)}_{A}:=K^{(n)}\cup A$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -48,7 +48,18 @@
 > 1. If $\phi:K\to Y$ is a continuous map s.t. $\phi|_{N}$ is cellular, then $\phi \sim \psi$ relative to $N$ where $\psi:K\to Y$ is a cellular map.
 ---
 > [!lemma] Theorem 4 (Relative Chain Complex)
-> Let $K$ be a chain complex and $A$
+> Let $K$ be a CW-complex and $A\subseteq K$ its subcomplex. Then, 
+> 1. $C_{n}(K,A)\cong H_{n}(K^{(n)}_{A},K^{(n-1)}_{A})$
+> 2. $K^{(n)}_{A} / K^{(n-1)}_{A}\cong \bigvee_{\sigma\in I^n_{K,A}}S^n_{\sigma}$
+> 3. $H_{p}(K^{(n)}_{A},A)=0$ for all $p>n$.
+> 4. For another CW-complex $L$ and $B\subseteq L$ subcomplex, for a cellular map $g:(K,A)\to(L,B)$, i.e. $g$ and $g|_{A}:A\to B$ are cellular, $g_{\text{cw}}:C_{n}(K,A)\to C_{n}(L,B)$.
+ 
+> [!proof]-
+> We have that:
+> 1. Analogous to the non-relative case.
+> 2. By induction over $n$. 
+> 	1. If $n=0$, then for all $p>0$, $K^{(0)}_{A}$ is given by $A$ with discrete points. Hence, $H_{p}(K^{(0)}_{A},A)\cong H_{p}(K^{(0)} \backslash A,\varnothing)=H_{p}(K^{(0)} \backslash A)=0$.
+> 	2. If $n\geq 1$, for $p>n$, 
 ---
 ##### Examples
 > [!h] Example 1 (RP2)

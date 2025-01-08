@@ -73,6 +73,13 @@
 - **Remark**: if $p_{1},\dots,p_{s}$ are pairwise disjoint, then there exists exactly one abelian group of order $\prod_{i=1}^{s}p_{i}$.
 - **Remark**: There exists (up to isomorphism) exactly two abelian groups of order $p^{2}$.
 ---
+> [!lemma] Theorem 6
+> Let $0\to A\to B\to C\to 0$ be a [[Exact Sequence|short exact sequence]] of finitely generated abelian groups. Then, 
+> 1. $\text{rank}(B)=\text{rank}(A)+\text{rank}(C)$.
+
+> [!proof]-
+> We have that: $$0\to A\otimes_{\mathbb{Z}}\mathbb{Q}\to B\otimes_{\mathbb{Z}}\mathbb{Q}\to C\otimes_{\mathbb{Z}}\mathbb{Q}\to 0$$is also exact and as $\text{rank}(A)=\text{dim } A\otimes_{\mathbb{Z}}\mathbb{Q}$, we have the statement.
+---
 ##### Examples
 - The rational points on a cubic curve, i.e. $y^{2}=x^{3}+7x^{2}-2x$, form a finitely generated abelian group.
 
