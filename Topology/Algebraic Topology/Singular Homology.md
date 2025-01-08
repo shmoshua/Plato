@@ -51,6 +51,7 @@
 >    Similarly, it holds for $q=0$. 
 >  2. Now, we will show it for general $p,q\geq 0$ by induction over $\ell:=p+q$.
 > 	 1. If $\ell=0$ or $\ell=1$, then either $p=0$ or $q=0$ and we have the statement.
+> 	 2. Let $\ell\geq 2$. Assume that the statement holds for all $X,Y$ and $p+q\leq \ell-1$. 
 ---
 > [!lemma] Theorem 3
 > The singular homology $H(\cdot;G)$ is a [[homology theory]] with coefficient group $G$.
