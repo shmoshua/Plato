@@ -4,7 +4,11 @@
 > Let $K$ be a [[CW-complex]]. The ***cellular chain complex*** of $K$ is a [[chain complex ]] $\mathcal{C}(K):=\{ C_{n}(K),d_{n} \}_{n\in \mathbb{Z}}$ where:
 > 1. $C_{n}(K):=\bigoplus_{\sigma\in I_{n}}\mathbb{Z}\sigma\cong H_{n}(K^{(n)},K^{(n-1)})$ and
 > 2. $d_{n}:C_{n}(K)\to C_{n-1}(K)$ where $d_{n}(\sigma):=\sum_{\tau\in I_{n-1}}^{}[\tau :\sigma]\tau$ for all $\sigma\in I_{n}$ and the ***incidence number*** $[\tau:\sigma]:=\deg(p_{\tau} \circ f_{\partial \sigma})$.
-
+- **Related definition**: For a CW-complex $K$ and a subcomplex $A\subseteq K$, the ***relative cellular chain complex*** is defined as follows:
+	1. $I^n_{K,A}:=\{ \sigma\in I^n_{K}:f_{\sigma}(B^n_{\sigma})\not\subseteq  A\}$
+	2. $C_{n}(K,A):=\bigoplus_{\sigma\in I^n_{K,A}}\mathbb{Z}\sigma$
+	3. $d_{n}:C_{n}(K,A)\to C_{n-1}(K,A)$ with $d_{n}(\sigma):=\sum_{\tau\in I^{n-1}_{K,A}}[\tau:\sigma]\tau$.
+	4. 
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -29,19 +33,22 @@
 > Let $g:K\to L$ be a [[CW-Complex|cellular map]] between CW-complexes. Then, 
 > 1. $g_{\text{cw}}:=\Phi^L \circ g_{*} \circ\Psi^K:C_{n}(K)\to C_{n}(L)$ is a [[Chain Complex|chain map]].
 > 2. Let $g^H_{\text{cw}}:H_{p}(\mathcal{C}(K))\to H_{p}(\mathcal{C}(L))$. Then, $$\begin{CD}H_{p}(K)@>g_{*}>>H_{p}(L)\\@V\Theta^K VV@V\Theta^L VV\\H_{p}(\mathcal{C}(K))@>>g^H_{\text{cw}}>H_{p}(\mathcal{C}(L))\end{CD}$$commutes, where $\Theta^K:H_{p}(K)\to H_{p}(\mathcal{C}(K))$ and $\Theta^K:H_{p}(L)\to H_{p}(\mathcal{C}(L))$ are isomorphisms (from Proposition 1.4).
-> 3. $g_{\text{cw}}(\sigma)=\sum_{\tau\in I^L_{n}}^{}\deg(g_{\sigma,\tau})\tau$ for all $\sigma\in I^K_{n}$ where $g_{\sigma,\tau}:S^n_{\sigma}\to S^n_{\tau}$ given by $g_{\sigma,\tau}:=\overline{p_{\tau}}\circ \overline{g}\circ \overline{f_{\sigma}}$ from the following diagram:$$\begin{CD}B^n_{\sigma}@>f_{\sigma}>> K^{(n)}@>g>>L^{(n)}@>p_{\tau}>> S^n_{\tau}\\@V\gamma_{n} VV@VVV@VVV@VV\text{id}V\\S^n_{\sigma}@>>\overline{f_{\sigma}}>K^{(n)} / K^{(n-1)}@>>\overline{g}>L^{(n)} / L^{(n-1)}@>>\overline{p_{\tau}}>S^n_{\tau}\end{CD}$$where the lower row is induced by the u
+> 3. $g_{\text{cw}}(\sigma)=\sum_{\tau\in I^L_{n}}^{}\deg(g_{\sigma,\tau})\tau$ for all $\sigma\in I^K_{n}$ where $g_{\sigma,\tau}:S^n_{\sigma}\to S^n_{\tau}$ given by $g_{\sigma,\tau}:=\overline{p_{\tau}}\circ \overline{g}\circ \overline{f_{\sigma}}$ from the following diagram:$$\begin{CD}B^n_{\sigma}@>f_{\sigma}>> K^{(n)}@>g>>L^{(n)}@>p_{\tau}>> S^n_{\tau}\\@V\gamma_{n} VV@VVV@VVV@VV\text{id}V\\S^n_{\sigma}@>>\overline{f_{\sigma}}>K^{(n)} / K^{(n-1)}@>>\overline{g}>L^{(n)} / L^{(n-1)}@>>\overline{p_{\tau}}>S^n_{\tau}\end{CD}$$where the lower row is induced by the upper row by collapsing the boundary to a point.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 
 > 1. To show that $g_{\text{cw}}$ is a chain map, let $\alpha\in C_{n}(K)$. Then, $$d_{n}^L\circ g_{\text{cw}}=\Phi_{n-1}^L \circ  \beta_{n}^L \circ  \Psi^L_{n}\circ \Phi^L_{n}\circ  g_{*}\circ \Psi^K_{n}=\Phi_{n-1}^L \circ  \beta_{n}^L \circ  g_{*}\circ \Psi^K_{n}$$and $$g_{\text{cw}}\circ d_{n}^K=\Phi^L_{n-1}\circ g_{*}\circ \Psi^K_{n-1}\circ \Phi^K_{n-1}\circ \beta^K_{n}\circ \Psi^K_{n}=\Phi^L_{n-1}\circ g_{*}\circ  \beta^K_{n}\circ \Psi^K_{n}$$Hence, it suffices to show that $g_{*}\circ  \beta^K_{n}=\beta_{n}^L \circ  g_{*}$. This holds by noting that: $$\begin{CD}H_{n}(K^{(n)},K^{(n-1)})@>\partial_{n}>>H_{n-1}(K^{(n-1)})@>j_{n-1}>>H_{n-1}(K^{(n-1)},K^{(n-2)})\\@Vg_{*}VV@Vg_{*}VV@Vg_{*}VV\\H_{n}(L^{(n)},L^{(n-1)})@>\partial_{n}>>H_{n-1}(L^{(n-1)})@>j_{n-1}>>H_{n-1}(L^{(n-1)},L^{(n-2)})\end{CD}$$commute where the first square by naturality of $\partial_{*}$ and the second as $g\circ j=j\circ g$. This concludes the proof.
 > 2. We have that:
 >    $$\begin{CD}H_{p}(K)@>g_{*}>>H_{p}(L)\\@V\cong VV@V\cong VV\\ \text{ker }\beta_{p}^K / \text{im }\beta_{p+1}^K@>g_{*}>>\text{ker }\beta_{p}^L / \text{im }\beta_{p+1}^L\\@V\cong VV@V\cong VV\\H_{p}(\mathcal{C}(K))@>>g^H_{\text{cw}}>H_{p}(\mathcal{C}(L))\end{CD}$$
-> 3. 
+> 3. We have that: $$\begin{align}g_{\text{cw}}(\sigma)&=\Phi^L\circ g_{*}\circ \Psi^K(\sigma)\\&=\Phi^L\circ g_{*}\circ (f_{\sigma})_{*}[I^n]\\&=\sum_{\tau\in I^L_{n}}\phi_{n}((p_{\tau}\circ  g \circ  f_{\sigma})_{*}[I^n])\tau\\&=\sum_{\tau\in I^L_{n}}\phi_{n}((g_{\sigma,\tau}\circ \gamma_{n})_{*}[I^n])\tau\\&=\sum_{\tau\in I^L_{n}}\phi_{n}((g_{\sigma,\tau})_{*}[S^n])\tau\\&=\sum_{\tau \in I^L_{n}}^{}\deg(g_{\sigma,\tau})\tau\end{align}$$
 ---
 > [!lemma] Theorem 3 (Cellular Approximation)
 > Let $K,Y$ be CW-complexes and $N\subseteq K$ a subcomplex. 
 > 1. If $\phi:K\to Y$ is a continuous map s.t. $\phi|_{N}$ is cellular, then $\phi \sim \psi$ relative to $N$ where $\psi:K\to Y$ is a cellular map.
+---
+> [!lemma] Theorem 4 (Relative Chain Complex)
+> Let $K$ be a chain complex and $A$
 ---
 ##### Examples
 > [!h] Example 1 (RP2)
