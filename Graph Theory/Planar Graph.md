@@ -9,7 +9,7 @@
 > 1. $\left| E \right|\leq 3n-6$.
 
 > [!proof]+
-> Using Euler, if $G$ is connected, 
+> Using [[Topology/Algebraic Topology/Euler Characteristic|Euler]], if $G$ is connected, 
 ---
 > [!lemma] Theorem 1 (Ajtai-Chvátal-Newborn-Szemerédi, Leighton)
 > For any simple graph $G=(V,E)$:

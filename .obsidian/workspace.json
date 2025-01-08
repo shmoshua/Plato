@@ -112,16 +112,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Finitely Generated Abelian Group.md",
+                "file": "Graph Theory/Planar Graph.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Finitely Generated Abelian Group"
+              "title": "Planar Graph"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "4d5ec56e57395c88",
@@ -162,12 +162,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Topology/CW-Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "CW-Complex"
+            }
+          },
+          {
+            "id": "00664c52e4d0e855",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Lift.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lift"
             }
           },
           {
@@ -176,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+                "file": "Topology/Simply Connected Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Degree of Sphere Maps"
+              "title": "Simply Connected Space"
             }
           },
           {
@@ -190,12 +204,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Topology/Locally Path-Connected Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "Locally Path-Connected Space"
             }
           },
           {
@@ -218,16 +232,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Chain Complex.md",
+                "file": "Topology/Fundamental Group.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Chain Complex"
+              "title": "Fundamental Group"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -258,7 +272,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "locally com",
+                "query": "euler",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -279,7 +293,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -371,17 +386,26 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ac587d153add49bf",
+  "active": "1e653de5e0e6581e",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Covering Space.md",
-    "Algebra/Chain Complex.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/Algebraic Topology/Euler Characteristic.md",
-    "TIKZ.md",
-    "Algebra/Finitely Generated Abelian Group.md",
+    "Topology/Simply Connected Space.md",
     "Topology/CW-Complex.md",
+    "Topology/Lift.md",
+    "Topology/Fundamental Group.md",
+    "Algebra/Finitely Generated Abelian Group.md",
+    "Topology/Locally Path-Connected Space.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Homotopy.md",
+    "Courses/Topology/Topology Roadmap.md",
+    "Topology/Covering Space.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Graph Theory/Planar Graph.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/Euler Characteristic.md",
+    "Differential Geometry/Euler Characteristic.md",
+    "Algebra/Chain Complex.md",
+    "Untitled.md",
+    "TIKZ.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Final Topology.md",
     "Topology/Smash Product.md",
@@ -390,15 +414,6 @@
     "Algebra/Exact Sequence.md",
     "Topology/Compact Space.md",
     "Topology/Retract.md",
-    "Algebra/Split Exact Sequence.md",
-    "Topology/Homotopy.md",
-    "Topology/Quotient Topology.md",
-    "Topology/One-Point Compactification.md",
-    "Topology/Locally Compact Space.md",
-    "Topology/Dense Subset.md",
-    "Topology/Algebraic Topology/Acyclic Space.md",
-    "Algebra/Quotient Set.md",
-    "Topology/Proper Group Action.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
