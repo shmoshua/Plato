@@ -25,16 +25,19 @@
 > [!lemma] Theorem 3 (Covering Space CW-Complex)
 > Let $\pi:X\to Y$ be a [[covering space]]. If $Y$ has a finite CW-complex structure, 
 > 1. $\pi$ induces a finite CW-complex structure on $X$ s.t. $\chi(X)=k\chi(Y)$.
+> 2. If a finite CW-complex $X$ has a non-trivial covering to self $\pi:X\to X$, then $\chi(X)=0$
 
 > [!proof]-
-> Let $f_{\sigma}:B^n_{\sigma}\to Y^{(n)}$ be the characteristic map and $k$ be the \#sheets of the covering $\pi$. As $B^n_{\sigma}$ is simply-connected, there exist $k$ different [[Lift|lifts]] of $f_{\sigma}$, given by $f^{(1)}_{\sigma},\dots,f^{(k)}_{\sigma}:B^n_{\sigma}\to X^{(n)}$. Therefore, each $n$-cell is mapped to $k$ $n$-cells in $X$ and we have the statement by [[Topology/Algebraic Topology/Euler Characteristic|Theorem 1 Corollary]].
+> We have:
+> 1. Let $f_{\sigma}:B^n_{\sigma}\to Y^{(n)}$ be the characteristic map and $k$ be the \#sheets of the covering $\pi$. As $B^n_{\sigma}$ is simply-connected, there exist $k$ different [[Lift|lifts]] of $f_{\sigma}$, given by $f^{(1)}_{\sigma},\dots,f^{(k)}_{\sigma}:B^n_{\sigma}\to X^{(n)}$. Therefore, each $n$-cell is mapped to $k$ $n$-cells in $X$ and we have the statement by [[Topology/Algebraic Topology/Euler Characteristic|Theorem 1 Corollary]].
+> 2. Follows trivially from 1.
 ---
 > [!lemma] Theorem 4 (Product CW-Complex)
 > Let $X,Y$ be finite CW-complexes. Then,
 > 1. $\chi(X\times Y)=\chi(X)\chi(Y)$
 
-> [!proof]+
-> This is given by: $$\chi(X\times Y)=\sum_{p\in \mathbb{Z}}^{}(-1)^p\left| I^{X\times Y} _{p}\right| =\sum_{p\in \mathbb{Z}}^{}(-1)^k(-1)^{p-k}\sum_{k=0}^{p}\left| I^{X} _{k}\right|\left| I_{p-k}^Y \right| = $$$$\chi(X)\chi(Y)=\sum_{p\in \mathbb{Z}}^{}\sum_{q\in \mathbb{Z}}^{}(-1)^{p+q}\left| I_{p} \right| \left| I _{q}\right| $$
+> [!proof]-
+> This is given by: $$\chi(X)\chi(Y)=\sum_{p\in \mathbb{Z}}^{}\sum_{q\in \mathbb{Z}}^{}(-1)^{p+q}\left| I^X_{p} \right| \left| I^Y _{q}\right|=\sum_{n\in \mathbb{Z}}^{}(-1)^n\sum_{k=0}^{n}\left| I^X_{k} \right| \left| I^Y_{n-k} \right|=\chi(X\times Y)  $$
 ---
 ##### Examples
 > [!h] Example 1 (Spheres)

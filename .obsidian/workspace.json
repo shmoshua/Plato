@@ -218,12 +218,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Algebra/Chain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Covering Space"
+              "title": "Chain Complex"
             }
           },
           {
@@ -232,16 +232,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Fundamental Group.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fundamental Group"
+              "title": "Homology Theory"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -386,20 +386,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ac587d153add49bf",
+  "active": "cbff77d30ae9c164",
   "lastOpenFiles": [
-    "Topology/CW-Complex.md",
+    "Topology/Covering Space.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Fundamental Group.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
+    "Topology/CW-Complex.md",
     "Topology/Initial Topology.md",
     "Topology/Lift.md",
     "Topology/Simply Connected Space.md",
-    "Topology/Fundamental Group.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Topology/Locally Path-Connected Space.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Homotopy.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/Covering Space.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Graph Theory/Planar Graph.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
