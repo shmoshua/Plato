@@ -23,7 +23,7 @@
 > [!lemma] Theorem 2
 > Let $X$ be a [[contractible space]]. Then, $H_{n}(X)=0$ for all $n\neq 0$.
 
-> [!proof]+
+> [!proof]-
 > As $X$ is contractible, we have a homotopy $F:X\times I\to X$ s.t. $$F(x,0)=x,\quad F(x,1)=x_{0},\quad \forall x\in X$$where $x_{0}\in X$. Now, let $\sigma:\Delta_{n-1}\to X$ be a singular $(n-1)$-simplex. Then, we will define $$D\sigma:\Delta_{n}\to X,\quad \sum_{i=0}^{n}\lambda_{i}e_{i}\mapsto \begin{cases}F\left( \sigma\left( \sum_{i=1}^{n}\frac{\lambda_{i}}{1-\lambda_{0}}e_{i-1} \right) ,\lambda_{0}\right)&\lambda_{0}\neq 1\\x_{0}&\lambda_{0}=1\end{cases}$$Then, $D\sigma$ is continuous and we can extend $D$ linearly to a homomorphism $\mathcal{S}_{n-1}(X)\to \mathcal{S}_{n}(X)$ for all $n\geq 1$. For $n=0$, we set $D\equiv 0$. 
 > 
 > Now, we wish to compute $\partial D+D\partial$. 
@@ -32,7 +32,17 @@
 > 	2. $(D\sigma)^{(i)}=D(\sigma^{(i-1)})$ as we have that: $$\begin{align}(D\sigma)^{(i)}\left( \sum_{k=0}^{n-1}\lambda_{k}e_{k} \right)&=D\sigma \left( \sum_{k=0}^{i-1}\lambda_{k}e_{k} +\sum_{k=i+1}^{n}\lambda_{k-1}e_{k}\right) \end{align}$$If $\lambda_{0}=1$, then $(D\sigma)^{(i)}\left( \sum_{k=0}^{n-1}\lambda_{k}e_{k} \right)=x_{0}=D\left( \sigma\left( \sum_{k=0}^{i-2}\lambda_{k}e_{k}+\sum_{k=i}^{n}\lambda_{k-1}e_{k} \right) \right)$. Otherwise, $$\begin{align}(D\sigma)^{(i)}\left( \sum_{k=0}^{n-1}\lambda_{k}e_{k} \right)&=F\left(\sigma \left(  \sum_{k=1}^{i-1}\frac{\lambda_{k}}{1-\lambda_{0}}e_{k-1}+\sum_{k=i+1}^{n}\frac{\lambda_{k-1}}{1-\lambda_{0}}e_{k-1}\right) ,\lambda_{0}\right)\\&=F\left(\sigma \left(  \sum_{k=1}^{i-1}\frac{\lambda_{k}}{1-\lambda_{0}}e_{k-1}+\sum_{k=i+1}^{n}\frac{\lambda_{k-1}}{1-\lambda_{0}}e_{k-1}\right) ,\lambda_{0}\right)\\&=F\left(\sigma\left( \sum_{k=0}^{i-2}\frac{\lambda_{k+1}}{1-\lambda_{0}}e_{k}+\sum_{k=i}^{n-1}\frac{\lambda_{k}}{1-\lambda_{0}}e_{k}\right),\lambda_{0} \right)\\&=F\left( \sigma^{(i-1)}\left( \sum_{k=0}^{n-2}\frac{\lambda_{k+1}}{1-\lambda_{0}}e_{k}\right),\lambda_{0} \right)\\&=F\left( \sigma^{(i-1)}\left( \sum_{k=1}^{n-1}\frac{\lambda_{k}}{1-\lambda_{0}}e_{k-1}\right),\lambda_{0} \right)\\&=D\left( \sigma^{(i-1)}\left( \sum_{k=0}^{n-1}\lambda_{k}e_{k} \right) \right)\end{align}$$
 > 
 > 	Therefore, $$\partial(D\sigma)=\sigma+\sum_{i=1}^{n}(-1)^iD(\sigma^{(i-1)})=\sigma-\sum_{i=0}^{n-1}(-1)^iD(\sigma^{(i)})=\sigma-D\partial\sigma$$Hence, $\partial D+D\partial=\text{id}$.
-> 2. For $n=1$, let $\sigma$ is a $0$-simplex and let $\sigma_{0}:\Delta_{0}\to X$ be the $0$-simplex corresponding to $x_{0}$
+> 2. For $n=1$, let $\sigma$ is a $0$-simplex and let $\sigma_{0}:\Delta_{0}\to X$ be the $0$-simplex corresponding to $x_{0}$. Then,
+> 	1. $\partial(D\sigma)=\sigma-\sigma_{0}$ and 
+> 	2. $D(\partial\sigma)=D(0)=0$. 
+> 
+> Therefore, we have that: $$D\partial(\sigma)+\partial D(\sigma)=\begin{cases}\sigma&n\geq 2\\\sigma-\sigma_{0}&n=1\\ 0&n\leq 0\end{cases}$$Consider the map $\varepsilon:S_{n}(X)\to S_{n}(X)$ s.t. $\varepsilon=0$ for $n\geq 1$ and for $n=0$, $\varepsilon\left( \sum_{}^{}n_{x}x \right)=\sum_{}n_{x} x_{0}$Then, $\varepsilon$ is of course a chain map and $D\partial+\partial D=\text{id}-\varepsilon$ and $\text{id}\sim \varepsilon$. Hence, $\varepsilon_{*}=\text{id}_{H_{*}(X)}$. However, $\text{id}=\varepsilon_{*}:H_{n}(X)\to H_{n}(X)=0$ for all $n>0$ and we get that $H_{n}(X)=0$ for all $n\neq 0$.
+---
+> [!lemma] Theorem 3
+> Let $X,Y$ be topological spaces. There exists a family bilinear map $$\times:S_{p}(X)\times S_{q}(Y)\to S_{p+1}(X\times Y),\quad \forall p,q\geq 0$$with the following properties:
+> 1. For all $x\in X$ and $y\in Y$, $\sigma:\Delta_{p}\to X$ and $\tau:\Delta_{q}\to Y$ simplices, we have that: $$\sigma \times y:\Delta_{p}\to X\times Y, \quad w\mapsto (\sigma(w),y),\quad x \times \tau:\Delta_{q}\to X\times Y, \quad w\mapsto (x,\tau(w))$$
+> 2. For continuous maps $f:X\to X'$ and $g:Y\to Y'$,  $f\times g:X\times Y\to X'\times Y'$ satisfies: $$(f\times g)_{c}(a\times b)=f_{c}(a)\times g_{c}(b),\quad \forall a\in S_{p}(X),b\in S_{q}(Y)$$
+> 3. Leibniz Formula: $$\partial(a\times b)=\partial a\times b+(-1)^pa\times \partial b,\quad \forall a\in S_{p}(X),b\in S_{q}(Y) $$
 ---
 > [!lemma] Theorem 3
 > The singular homology $H(\cdot;G)$ is a [[homology theory]] with coefficient group $G$.
