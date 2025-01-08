@@ -38,8 +38,8 @@
 > 
 > Therefore, we have that: $$D\partial(\sigma)+\partial D(\sigma)=\begin{cases}\sigma&n\geq 2\\\sigma-\sigma_{0}&n=1\\ 0&n\leq 0\end{cases}$$Consider the map $\varepsilon:S_{n}(X)\to S_{n}(X)$ s.t. $\varepsilon=0$ for $n\geq 1$ and for $n=0$, $\varepsilon\left( \sum_{}^{}n_{x}x \right)=\sum_{}n_{x} x_{0}$Then, $\varepsilon$ is of course a chain map and $D\partial+\partial D=\text{id}-\varepsilon$ and $\text{id}\sim \varepsilon$. Hence, $\varepsilon_{*}=\text{id}_{H_{*}(X)}$. However, $\text{id}=\varepsilon_{*}:H_{n}(X)\to H_{n}(X)=0$ for all $n>0$ and we get that $H_{n}(X)=0$ for all $n\neq 0$.
 ---
-> [!lemma] Theorem 3
-> Let $X,Y$ be topological spaces. There exists a family bilinear map $$\times:S_{p}(X)\times S_{q}(Y)\to S_{p+q}(X\times Y),\quad \forall p,q\geq 0$$with the following properties:
+> [!lemma] Theorem 3 (Cross Product)
+> Let $X,Y$ be topological spaces. There exists a family of bilinear map $$\times:S_{p}(X)\times S_{q}(Y)\to S_{p+q}(X\times Y),\quad \forall p,q\geq 0,X,Y$$with the following properties:
 > 1. For all $x\in X$ and $y\in Y$, $\sigma:\Delta_{p}\to X$ and $\tau:\Delta_{q}\to Y$ simplices, we have that: $$\sigma \times y:\Delta_{p}\to X\times Y, \quad w\mapsto (\sigma(w),y),\quad x \times \tau:\Delta_{q}\to X\times Y, \quad w\mapsto (x,\tau(w))$$
 > 2. For continuous maps $f:X\to X'$ and $g:Y\to Y'$,  $f\times g:X\times Y\to X'\times Y'$ satisfies: $$(f\times g)_{c}(a\times b)=f_{c}(a)\times g_{c}(b),\quad \forall a\in S_{p}(X),b\in S_{q}(Y)$$
 > 3. Leibniz Formula: $$\partial(a\times b)=\partial a\times b+(-1)^pa\times \partial b,\quad \forall a\in S_{p}(X),b\in S_{q}(Y) $$
@@ -51,7 +51,14 @@
 >    Similarly, it holds for $q=0$. 
 >  2. Now, we will show it for general $p,q\geq 0$ by induction over $\ell:=p+q$.
 > 	 1. If $\ell=0$ or $\ell=1$, then either $p=0$ or $q=0$ and we have the statement.
-> 	 2. Let $\ell\geq 2$. Assume that the statement holds for all $X,Y$ and $p+q\leq \ell-1$. 
+> 	 2. Let $\ell\geq 2$. Assume that the statement holds for all $X,Y$ and $p+q\leq \ell-1$. Consider $i_{p}:\Delta_{p}\to\Delta_{p}$ and $i_{q}:\Delta_{q}\to\Delta_{q}$ simplices and define: $$\eta:=\partial i_{p}\times i_{q}+(-1)^p i_{p}\times \partial i_{q}\in S_{\ell-1}(\Delta_{p}\times\Delta_{q})$$which is already defined. Then, by Leibniz$$\begin{align}\partial \eta&=\underbrace{ \partial \partial i_{p} }_{ =0 }\times i_{q}+(-1)^{p-1}\partial i_{p}\times \partial i_{q}+(-1)^p(\partial i_{p}\times \partial i_{q}+(-1)^p(i_{p}\times \underbrace{ \partial \partial i_{q} }_{ =0 }))\\&=0\end{align}$$Therefore, $\eta\in Z_{\ell-1}(\Delta _{p}\times\Delta_{q})$. However, as $\Delta_{p}\times\Delta_{q}$ is contractible, $$Z_{\ell-1}(\Delta _{p}\times\Delta_{q}) / B_{\ell-1}(\Delta _{p}\times\Delta_{q}) = H_{\ell-1}(\Delta_{p}\times\Delta_{q})=0$$ and $\eta\in B_{\ell-1}(\Delta_{p}\times\Delta_{q})$. Hence, there exists $i_{p}\times i_{q}\in S_{\ell}(\Delta_{p}\times\Delta_{q})$ s.t. $\partial(i_{p}\times i_{q})=\eta$.
+> 	    
+> 	    Now, for $\sigma:\Delta_{p}\to X$ and $\tau:\Delta_{q}\to Y$, we define $$\sigma \times \tau:=(\sigma \times \tau)_{c}(i_{p}\times i_{q})$$
+> 	    Firstly, this is well-defined as for $X=\Delta_{p}$ and $Y=\Delta_{q}$, $i_{p}\times i_{q}=(i_{p}\times i_{q})_{c}(i_{p}\times i_{q})$.
+> 	    
+> 	    We are left to show that 2 and 3 hold. 
+> 		   1. for $f:X\to X'$ and $g:Y\to Y'$, $$(f\times g)_{c}(\sigma \times \tau)=(f\times g)_{c}\circ (\sigma \times \tau)_{c}(i_{p}\times i_{q})=(f\circ \sigma)\times(g \circ  \tau)=f_{c}(\sigma)\times g_{c}(\tau)$$
+> 		   2. we have: $$\begin{align}\partial(\sigma \times \tau)&=\partial((\sigma \times \tau)_{c}(i_{p}\times i_{q}))=(\sigma \times \tau)_{c}(\partial(i_{p}\times i_{q}))\\&=(\sigma \times \tau)_{c}\left( \partial i_{p}\times i_{q}+(-1)^p i_{p}\times \partial i_{q} \right)\\&=\sigma_{c}(\partial i_{p})\times \tau_{c}(i_{q})+(-1)^p\sigma_{c}(i_{p})\times \tau_{c}(\partial i_{q}) \\&=\partial\sigma_{c}( i_{p})\times \tau_{c}(i_{q})+(-1)^p\sigma_{c}(i_{p})\times \partial \tau_{c}(i_{q})\\&=\partial\sigma \times \tau+(-1)^p\sigma \times \partial \tau \end{align}$$where $\sigma_{c}(i_{p})=\sigma \circ i_{p}=\sigma$ and $\tau_{c}(i_{q})=\tau$.
 ---
 > [!lemma] Theorem 3
 > The singular homology $H(\cdot;G)$ is a [[homology theory]] with coefficient group $G$.
