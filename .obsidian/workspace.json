@@ -121,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "4d5ec56e57395c88",
@@ -241,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -386,10 +386,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1e653de5e0e6581e",
+  "active": "ac587d153add49bf",
   "lastOpenFiles": [
-    "Topology/Simply Connected Space.md",
     "Topology/CW-Complex.md",
+    "Topology/Algebraic Topology/Euler Characteristic.md",
+    "Topology/Simply Connected Space.md",
     "Topology/Lift.md",
     "Topology/Fundamental Group.md",
     "Algebra/Finitely Generated Abelian Group.md",
@@ -401,7 +402,6 @@
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Graph Theory/Planar Graph.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Topology/Algebraic Topology/Euler Characteristic.md",
     "Differential Geometry/Euler Characteristic.md",
     "Algebra/Chain Complex.md",
     "Untitled.md",

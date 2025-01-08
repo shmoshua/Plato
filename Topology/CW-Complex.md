@@ -179,12 +179,7 @@
 > 	Therefore, as $i_{n}$ is surjective, $$H_{n}(K^{(n+1)})\cong H_{n}(K^{(n)}) / \text{im } \partial_{n+1}=\text{coker}(\partial_{n+1})\cong \text{ker }\beta_{n} / \text{im }\beta_{n+1}$$
 
 ---
-> [!lemma] Theorem 9 (Covering Space CW-Complex)
-> Let $\pi:X\to Y$ be a [[covering space]]. If $Y$ has a finite CW-complex structure, 
-> 1. $\pi$ induces a finite CW-complex structure on $X$. 
 
-> [!proof]
-> Let $f_{\sigma}:B^n_{\sigma}\to Y$ be the characteristic map and $k$ be the number of sheets of the covering $\pi$. As $B^n_{\sigma}$ is simply-connected, there exist $k$ different lifts 
 
 ---
 ##### Examples
