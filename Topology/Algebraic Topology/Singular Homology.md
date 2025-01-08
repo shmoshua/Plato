@@ -21,6 +21,14 @@
 >    $$B_{p}(X;G) \cong\begin{cases}G&p>0\text{ odd}\\0&\text{otherwise}\end{cases}$$It follows that $H_{p}(X;G)\cong G$ if and only if $p=0$ and $0$ otherwise. 
 ---
 > [!lemma] Theorem 2
+> Let $X$ be a [[contractible space]]. Then, $H_{n}(X)=0$ for all $n\neq 0$.
+
+> [!proof]+
+> As $X$ is contractible, we have a homotopy $F:X\times I\to X$ s.t. $$F(x,0)=x,\quad F(x,1)=x_{0},\quad \forall x\in X$$where $x_{0}\in X$. Now, let $\sigma:\Delta_{n-1}\to X$ be a singular $(n-1)$-simplex. Then, we will define $$D\sigma:\Delta_{n}\to X,\quad \sum_{i=0}^{n}\lambda_{i}e_{i}\mapsto \begin{cases}F\left( \sigma\left( \sum_{i=1}^{n}\frac{\lambda_{i}}{1-\lambda_{0}}e_{i-1} \right) ,\lambda_{0}\right)&\lambda_{0}\neq 1\\x_{0}&\lambda_{0}=1\end{cases}$$ as follows: 
+---
+> [!lemma] Theorem 3
 > The singular homology $H(\cdot;G)$ is a [[homology theory]] with coefficient group $G$.
 
+> [!proof]+
+> 
 ---
