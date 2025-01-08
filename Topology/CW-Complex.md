@@ -179,6 +179,15 @@
 > 	Therefore, as $i_{n}$ is surjective, $$H_{n}(K^{(n+1)})\cong H_{n}(K^{(n)}) / \text{im } \partial_{n+1}=\text{coker}(\partial_{n+1})\cong \text{ker }\beta_{n} / \text{im }\beta_{n+1}$$
 
 ---
+> [!lemma] Proposition 9 (Product CW-Complexes)
+> Let $X,Y$ be finite CW-complexes. Then, 
+> 1. $X\times Y$ can be endowed a CW-complex structure s.t. the product topology and the CW-complex topology coincide.
+
+> [!proof]-
+> Let us define $I_{n}^{X\times Y}:=\bigcup_{k=0}^{n}I_{k}^X\times I^Y_{n-k}$ where for $(\sigma,\tau)\in I^{X\times Y}_{n}$, we have the map: $$f_{(\sigma ,\tau)}=f_{\sigma}\times f_{\tau}:I^n\to (X\times Y)^{(n)}$$and $(X\times Y)^{(n)}:=\bigcup_{k=0}^{n}X^{(k)}\times Y^{(n-k)}$. Then, for $(x_{1},\dots,x_{n})\in I^n$, if $x_{i}\in \{ 0,1 \}$ for wlog $i\leq k$ where $\sigma\in I^X_{k}$, then $$f_{(\sigma,\tau)}(x_{1},\dots,x_{n})=(\underbrace{ f_{\sigma}(x_{1},\dots,x_{k}) }_{ \in X^{(k-1)} }, \underbrace{ f_{\tau}(x_{k+1},\dots,x_{n}) }_{ \in Y^{(n-k)} })\in (X\times Y)^{(n-1)}$$To show that the topologies coincide, let $U\subseteq X,V\subseteq Y$ be open. Then, for all $0\leq i\leq n$ and $(\sigma,\tau)\in I^{X\times Y}_{n}$, $f^{-1}_{(\sigma,\tau)}(U\times V)=f^{-1}_{\sigma}(U)\times f^{-1}_{\tau}(V)$ which is open. Hence, $U\times V$ is open in CW topology. 
+> 
+> Conversely, for any $S\subseteq X\times Y$ open in CW-topology, 
+> 
 
 
 ---

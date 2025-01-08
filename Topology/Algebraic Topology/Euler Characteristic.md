@@ -28,7 +28,13 @@
 
 > [!proof]-
 > Let $f_{\sigma}:B^n_{\sigma}\to Y^{(n)}$ be the characteristic map and $k$ be the \#sheets of the covering $\pi$. As $B^n_{\sigma}$ is simply-connected, there exist $k$ different [[Lift|lifts]] of $f_{\sigma}$, given by $f^{(1)}_{\sigma},\dots,f^{(k)}_{\sigma}:B^n_{\sigma}\to X^{(n)}$. Therefore, each $n$-cell is mapped to $k$ $n$-cells in $X$ and we have the statement by [[Topology/Algebraic Topology/Euler Characteristic|Theorem 1 Corollary]].
+---
+> [!lemma] Theorem 4 (Product CW-Complex)
+> Let $X,Y$ be finite CW-complexes. Then,
+> 1. $\chi(X\times Y)=\chi(X)\chi(Y)$
 
+> [!proof]+
+> This is given by: $$\chi(X\times Y)=\sum_{p\in \mathbb{Z}}^{}(-1)^p\left| I^{X\times Y} _{p}\right| =\sum_{p\in \mathbb{Z}}^{}(-1)^k(-1)^{p-k}\sum_{k=0}^{p}\left| I^{X} _{k}\right|\left| I_{p-k}^Y \right| = $$$$\chi(X)\chi(Y)=\sum_{p\in \mathbb{Z}}^{}\sum_{q\in \mathbb{Z}}^{}(-1)^{p+q}\left| I_{p} \right| \left| I _{q}\right| $$
 ---
 ##### Examples
 > [!h] Example 1 (Spheres)
@@ -38,7 +44,7 @@
 > 3. $\chi(\mathbb{R}\mathbb{P}^n)=1$ for even $n$.
 > 4. Any covering map $\pi:\mathbb{R}\mathbb{P}^n\to Y$ to a CW-complex $Y$ is a homeomorphism if $n$ is even.
 
-> [!proof]+
+> [!proof]-
 > We have that: 
 > 1. $H_{p}(S^n)\cong \mathbb{Z}$ for $p=0$ and $p=n$ and $H_{p}(S^n)=0$ otherwise. Hence, by definition, we have the statement.
 > 2. $2=\chi(S^n)=k\chi(Y)$ where $k$ is the number of sheets, which can only be 1 or 2.

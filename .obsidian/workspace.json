@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Topology/Initial Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lift"
+              "title": "Initial Topology"
             }
           },
           {
@@ -390,8 +390,9 @@
   "lastOpenFiles": [
     "Topology/CW-Complex.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
-    "Topology/Simply Connected Space.md",
+    "Topology/Initial Topology.md",
     "Topology/Lift.md",
+    "Topology/Simply Connected Space.md",
     "Topology/Fundamental Group.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Topology/Locally Path-Connected Space.md",
@@ -413,7 +414,6 @@
     "Topology/Hausdorff Space.md",
     "Algebra/Exact Sequence.md",
     "Topology/Compact Space.md",
-    "Topology/Retract.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
