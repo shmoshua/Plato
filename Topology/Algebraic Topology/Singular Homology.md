@@ -39,10 +39,18 @@
 > Therefore, we have that: $$D\partial(\sigma)+\partial D(\sigma)=\begin{cases}\sigma&n\geq 2\\\sigma-\sigma_{0}&n=1\\ 0&n\leq 0\end{cases}$$Consider the map $\varepsilon:S_{n}(X)\to S_{n}(X)$ s.t. $\varepsilon=0$ for $n\geq 1$ and for $n=0$, $\varepsilon\left( \sum_{}^{}n_{x}x \right)=\sum_{}n_{x} x_{0}$Then, $\varepsilon$ is of course a chain map and $D\partial+\partial D=\text{id}-\varepsilon$ and $\text{id}\sim \varepsilon$. Hence, $\varepsilon_{*}=\text{id}_{H_{*}(X)}$. However, $\text{id}=\varepsilon_{*}:H_{n}(X)\to H_{n}(X)=0$ for all $n>0$ and we get that $H_{n}(X)=0$ for all $n\neq 0$.
 ---
 > [!lemma] Theorem 3
-> Let $X,Y$ be topological spaces. There exists a family bilinear map $$\times:S_{p}(X)\times S_{q}(Y)\to S_{p+1}(X\times Y),\quad \forall p,q\geq 0$$with the following properties:
+> Let $X,Y$ be topological spaces. There exists a family bilinear map $$\times:S_{p}(X)\times S_{q}(Y)\to S_{p+q}(X\times Y),\quad \forall p,q\geq 0$$with the following properties:
 > 1. For all $x\in X$ and $y\in Y$, $\sigma:\Delta_{p}\to X$ and $\tau:\Delta_{q}\to Y$ simplices, we have that: $$\sigma \times y:\Delta_{p}\to X\times Y, \quad w\mapsto (\sigma(w),y),\quad x \times \tau:\Delta_{q}\to X\times Y, \quad w\mapsto (x,\tau(w))$$
 > 2. For continuous maps $f:X\to X'$ and $g:Y\to Y'$,  $f\times g:X\times Y\to X'\times Y'$ satisfies: $$(f\times g)_{c}(a\times b)=f_{c}(a)\times g_{c}(b),\quad \forall a\in S_{p}(X),b\in S_{q}(Y)$$
 > 3. Leibniz Formula: $$\partial(a\times b)=\partial a\times b+(-1)^pa\times \partial b,\quad \forall a\in S_{p}(X),b\in S_{q}(Y) $$
+
+> [!proof]+
+> We have that:
+> 1. Assume that $p=0$. We define: $$\left( \sum_{x}^{}n_{x}x \right)\times\left( \sum_{\tau:\Delta_{q}\to Y}^{}n_{\tau}\tau \right)=\sum_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{x}n_{\tau} (x \times \tau)$$
+>    Then, 1 obviously holds and we have that: $$\begin{align}(f\times g)_{c}\left( \sum_{x}^{}\sum_{\tau:\Delta_{q}\to Y}^{}n_{x}n_{\tau}x \times \tau\right)&=\sum_{x}n_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{\tau}(f\times g)\circ (x \times\tau)\\&= \sum_{x}^{}n_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{\tau}(f(x)\times (g \circ  \tau))\\&=\left( \sum_{x}n_{x}f(x) \right) \times \left( \sum_{\tau:\Delta_{q}\to Y}^{}n_{\tau}(g\circ \tau) \right) \\&=f_{c}\left( \sum_{x}^{}n_{x}x \right)\times g_{c}\left( \sum_{\tau:\Delta_{q}\to Y}^{}n_{\tau}\tau \right)\end{align}$$Further, for the Leibniz formula, $$\begin{align}\partial \left( \sum_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{x}n_{\tau} (x \times \tau) \right) &=\sum_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{x}n_{\tau} \sum_{i=0}^{q}(-1)^i(x \times \tau)^{(i)}\\&=\sum_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{x}n_{\tau} (x \times \partial \tau)\\&= \left( \sum_{x}^{}n_{x}x \right) \times \partial \left( \sum_{\tau :\Delta_{q}\to Y}^{}n_{\tau}\tau \right)\end{align}$$
+>    Similarly, it holds for $q=0$. 
+>  2. Now, we will show it for general $p,q\geq 0$ by induction over $\ell:=p+q$.
+> 	 1. If $\ell=0$ or $\ell=1$, then either $p=0$ or $q=0$ and we have the statement.
 ---
 > [!lemma] Theorem 3
 > The singular homology $H(\cdot;G)$ is a [[homology theory]] with coefficient group $G$.
