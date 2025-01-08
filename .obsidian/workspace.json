@@ -246,12 +246,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Algebra/Chain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "Chain Complex"
             }
           }
         ],
@@ -401,10 +401,10 @@
   },
   "active": "9ba489aacf84feae",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Chain Homotopy.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Algebra/Chain Complex.md",
     "Graph Theory/Planar Graph.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
