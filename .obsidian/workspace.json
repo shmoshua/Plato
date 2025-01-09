@@ -135,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       },
       {
         "id": "4d5ec56e57395c88",
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Degree of Sphere Maps"
+              "title": "p-Simplex"
             }
           },
           {
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -371,18 +371,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "cbff77d30ae9c164",
+  "active": "afc02536718005e4",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Algebraic Topology/Euler Characteristic.md",
     "TIKZ.md",
     "Topology/Locally Path-Connected Space.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Interior and Closure.md",
-    "Algebra/Chain Complex.md",
     "Topology/CW-Complex.md",
     "Algebra/Split Exact Sequence.md",
     "Algebra/Exact Sequence.md",

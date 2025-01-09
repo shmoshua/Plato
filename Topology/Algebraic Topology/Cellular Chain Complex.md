@@ -95,7 +95,7 @@
 >Then, we have that $0\to C_{2}(K)\to C_{1}(K)\to C_{0}(K)\to 0$ where:
 >1. $d\sigma_{0}=0$,
 >2. $d\sigma_{1}=0$ as $[\sigma_{0}:\sigma_{1}]=0$ as $p_{\sigma_{0}}\circ f_{\partial\sigma_{1}}$ is a constant map.
->3. $d\sigma_{2}=\pm 2\sigma_{1}$ and we have that $p_{\sigma_{1}}\circ f_{\partial\sigma_{2}}:S^1\to S^1$ is a covering 
+>3. $d\sigma_{2}=\pm 2\sigma_{1}$ and we have that $p_{\sigma_{1}}\circ f_{\partial\sigma_{2}}:S^1\to S^1, z\mapsto z^2$ or $p_{\sigma_{1}}\circ f_{\partial\sigma_{2}}:S^1\to S^1, z\mapsto z^{-2}$, depending on which direction we wrap the boundary to the 1-cell. Hence, $$[\sigma_{1}:\sigma_{2}]=\deg(p_{\sigma_{1}}\circ f_{\partial\sigma_{2}})=\pm2$$. 
 >   
 > This proves the statement.
 ---
