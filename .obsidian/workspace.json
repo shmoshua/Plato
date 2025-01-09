@@ -119,6 +119,20 @@
               "icon": "lucide-file",
               "title": "Singular Homology"
             }
+          },
+          {
+            "id": "00a59ea9009f02e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIKZ.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "TIKZ"
+            }
           }
         ],
         "currentTab": 7
@@ -185,6 +199,20 @@
             }
           },
           {
+            "id": "63b879f3b00eb8c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Chain Complex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Chain Complex"
+            }
+          },
+          {
             "id": "9ba489aacf84feae",
             "type": "leaf",
             "state": {
@@ -196,20 +224,6 @@
               },
               "icon": "lucide-file",
               "title": "Homology Theory"
-            }
-          },
-          {
-            "id": "63b879f3b00eb8c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Chain Homotopy.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Chain Homotopy"
             }
           }
         ],
@@ -360,12 +374,16 @@
   "active": "afc02536718005e4",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Interior and Closure.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Chain Homotopy.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
     "Algebra/Chain Complex.md",
-    "Topology/Inscribed Rectangle Problem.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "TIKZ.md",
     "Topology/CW-Complex.md",
+    "Algebra/Split Exact Sequence.md",
+    "Algebra/Exact Sequence.md",
+    "Topology/Algebraic Topology/Chain Homotopy.md",
+    "Topology/Inscribed Rectangle Problem.md",
     "Topology/Initial Topology.md",
     "Topology/Simply Connected Space.md",
     "Topology/Locally Path-Connected Space.md",
@@ -381,10 +399,6 @@
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Differential Geometry/Euler Characteristic.md",
     "Untitled.md",
-    "TIKZ.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/Final Topology.md",
-    "Topology/Smash Product.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

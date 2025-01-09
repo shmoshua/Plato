@@ -69,6 +69,22 @@
 > 1. Let $a-a'\in S_{p}(A)$ and $b-b'\in S_{q}(B)$, $$\begin{align}a\times b-a'\times b'&=(a-a'+a')\times (b-b'+b')-a'\times b'\\&=\underbrace{ (a-a') \times(b-b') }_{ \in S_{p+q}(A\times B) }+\underbrace{ (a-a')\times b' }_{ \in S_{p+q}(A\times Y) }+\underbrace{ a'\times(b-b') }_{ \in S_{p+q}(X\times B) }\in S_{p+q}((X\times B)\cup (A\times Y))\end{align}$$
 > 2. For continuous maps $f:(X,A)\to(X,A')$ and $g:(Y,B)\to(Y',B')$, we have that for all $[a]\in S_{p}(X,A)$ and $[b]\in S_{p}(Y,B)$, $$\begin{align}(f\times g)_{c}([a]\times [b])=(f\times g)_{c}[a\times b]=[f_{c}(a)\times g_{c}(b)]\end{align}$$
 ---
+> [!lemma] Theorem 4
+> Let $X$ be a topological space and $\mathcal{U}:=\{ U_{\alpha} \}_{\alpha\in \mathcal{A}}$ be a collection of subsets of $X$ s.t. $\{ U_{\alpha}^\circ \}_{\alpha\in \mathcal{A}}$ is a covering of $X$. We say that $Q\subseteq X$ is $\mathcal{U}$-small, if there exists $\alpha\in \mathcal{A}$ with $Q\subseteq U_{\alpha}$. Let: $$S^\mathcal{U}_{p}(X):=\left\{  \sum_{\sigma}^{}n_{\sigma}\sigma: \sigma(\Delta_{p})\text{ is }\mathcal{U}\text{-small}  \right\}\subseteq S_{p}(X)$$Then, $\partial(S_{p}^\mathcal{U}(X))\subseteq S_{p-1}^{\mathcal{U}}(X)$ as if $\sigma$ is $\mathcal{U}$-small then so is $\sigma^{(i)}$ for all $i\in[p]$. Therefore, $\mathcal{S}^{\mathcal{U}}(X)$ is a subcomplex of $\mathcal{S}(X)$. Let  be 
+> 1. the inclusion $i^{\mathcal{U}}:\mathcal{S}^\mathcal{U}(X)\to \mathcal{S}(X)$ induces an isomorphism $i^\mathcal{U}_{*}:H_{p}(\mathcal{S}^\mathcal{U}(X))\to H_{p}(X)$
+
+> [!proof]+
+
+- **Corollary**: For $\mathcal{S}^\mathcal{U}(X,A):=\mathcal{S}^\mathcal{U}(X) / \mathcal{S}^{\mathcal{U}\cap A}(A)$, $i:\mathcal{S}^\mathcal{U}(X,A)\to \mathcal{S}(X,A)$ induces an isomorphism in homology as: $0\to \mathcal{S}^{\mathcal{U}\cap A}(A)\to \mathcal{S}^\mathcal{U}(X)\to \mathcal{S}^\mathcal{U}(X,A)\to 0$ is a SES and by [[Chain Complex|Theorem 3]] and [[Exact Sequence|5-lemma]], we have that the middle map is an isomorphism.
+ ```tikz
+\usepackage{tikz-cd}\begin{document}\begin{tikzcd} [column sep=tiny]{...} & {H_{p}(\mathcal{S}^{\mathcal{U}\cap A}(A))} & {H_{p}(\mathcal{S}^\mathcal{U}(X))} & {H_{p}(\mathcal{S}^{\mathcal{U}}(X,A))} & {H_{p-1}(\mathcal{S}^{\mathcal{U}\cap A}(A))} & {H_{p-1}(\mathcal{S}^\mathcal{U}(X))} & {...} \\ {...} & {H_p(A)} & {H_p(X)} & {H_p(X,A)} & {H_{p-1}(A)} & {H_{p-1}(X)} & {...} \arrow[from=1-1, to=1-2] \arrow[from=1-2, to=1-3] \arrow["{i_*}"', from=1-2, to=2-2] \arrow[from=1-3, to=1-4] \arrow["{i_*}"', from=1-3, to=2-3] \arrow[from=1-4, to=1-5] \arrow[from=1-4, to=2-4] \arrow[from=1-5, to=1-6] \arrow["{i_*}"', from=1-5, to=2-5] \arrow[from=1-6, to=1-7] \arrow["{i_*}"', from=1-6, to=2-6] \arrow[from=2-1, to=2-2] \arrow[from=2-2, to=2-3] \arrow[from=2-3, to=2-4] \arrow[from=2-4, to=2-5] \arrow[from=2-5, to=2-6] \arrow[from=2-6, to=2-7]\end{tikzcd}
+\end{document} 
+```
+
+	
+> 
+
+---
 > [!lemma] Theorem 3
 > The singular homology $H(\cdot;G)$ is a [[homology theory]] with coefficient group $G$.
 
@@ -83,5 +99,5 @@
 > 	$$(\partial D+D\partial)c=\varepsilon_{1}\times c-\varepsilon_{0}\times c=(\eta_{1})_{c}(c)-(\eta_{0})_{c}(c)$$Therefore, $(\eta_{1})_{c}\sim (\eta_{0})_{c}$. 
 > 	
 > 	Hence, for $f_{0},f_{1}:(X,A)\to(Y,B)$ be continuous with $f_{1}\sim f_{0}$, we have a homotopy $F:(I,\varnothing)\times(X,A)\to (Y,B)$ and we have that $F\circ \eta_{0}=f_{0}$ and $F \circ \eta_{1}=f_{1}$. We have that: $$F_{c}:S_{p}(I\times X,I\times A)\to S_{p}(Y,B)$$and: $$\begin{align}\partial \circ (F_{c}\circ D)+(F_{c} \circ  D) \circ  \partial&=F_{c}\circ (\partial D+D\partial)\\&=F_{c}\circ ((\eta_{1})_{c}-(\eta_{0})_{c})\\&=(f_{1})_{c}-(f_{0})_{c}\end{align}$$As $F_{c}\circ D:S_{p}(X,A)\to S_{p+1}(Y,B)$ is a chain homotopy, $(f_{1})_{c}\sim(f_{0})_{c}$. The statement follows from [[Chain Homotopy|Proposition 1]].
-> 2. **Excision**: Let $X$ be a topological space and $\mathcal{U}:=\{ U_{\alpha} \}_{\alpha\in \mathcal{A}}$ be a collection of subsets of $X$ s.t. $\{ U_{\alpha}^\circ \}_{\alpha\in \mathcal{A}}$ is a covering of $X$. We say that $Q\subseteq X$ is $\mathcal{U}$-small, if there exists $\alpha\in \mathcal{A}$ with $Q\subseteq U_{\alpha}$. Now, let: $$S^\mathcal{U}_{p}(X):=\left\{  \sum_{\sigma}^{}n_{\sigma}\sigma: \sigma(\Delta_{p})\text{ is }\mathcal{U}\text{-small}  \right\}\subseteq S_{p}(X)$$Then, $\partial(S_{p}^\mathcal{U}(X))\subseteq S_{p-1}^{\mathcal{U}}(X)$ as if $\sigma$ is $\mathcal{U}$-small then so is $\sigma^{(i)}$ for all $i\in[p]$. Therefore, $\mathcal{S}^{\mathcal{U}}(X)$ is a subcomplex of $\mathcal{S}(X)$. Let $i^{\mathcal{U}}:\mathcal{S}^\mathcal{U}(X)\to \mathcal{S}(X)$ be the inclusion. 
+> 2. **Excision**: Let $X$ be a topological space and $B\subseteq A\subseteq X$ s.t. $\overline{B}\subseteq A^\circ$. Then, take $\mathcal{U}:=\{ A,X \backslash B \}$ whose interiors form a cover. Indeed, $$A^\circ \cup (X \backslash B)^\circ =A^\circ \cup X \backslash \overline{B} \supseteq A^\circ  \cup X \backslash A^\circ =X$$Then, we have by [[Group Homomorphism|Second isomorphism theorem]]: $$\begin{align}S_{p}(X \backslash B) / S_{p}(A \backslash B)&=S_{p}(X \backslash B) / S_{p}(A )\cap S_{p}(X \backslash B)\\&\cong (S_{p}(X \backslash B)+S_{p}(A)) / S_{p}(A)=S_{p}^{\mathcal{U}}(X) / S_{p}(A)\end{align}$$Let $\psi:S_{p}(X \backslash B) / S_{p}(A \backslash B)\to S_{p}^{\mathcal{U}}(X) / S_{p}(A)$ be such an isomorphism. Then, $$\psi_{*}$$
 ---

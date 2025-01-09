@@ -134,3 +134,9 @@
 \usepackage{tikz-cd} \begin{document} \begin{tikzcd}     
 T \arrow[drr, bend left, "x"]     \arrow[ddr, bend right, "y"]     \arrow[dr, dotted, "{(x,y)}" description] & & \\     K & X \times_Z Y \arrow[r, "p"] \arrow[d, "q"]     & X \arrow[d, "f"] \\     & Y \arrow[r, "g"]     & Z \end{tikzcd}\end{document}
 ```
+
+```tikz
+>  \usepackage{tikz-cd}\begin{document}\begin{tikzcd} [column sep=tiny]
+>  &&& 0 \\ 0 & {H_{n+1}(K^{(n+1)})} & {H_{n+1}(K^{(n+1)},K^{(n)})} & {H_n(K^{(n)})} & {H_n(K^{(n+1)})} & 0 \\ &&& {H_n(K^{(n)},K^{(n-1)})} \\ && 0 & {H_{n-1}(K^{(n-1)})} & {H_{n-1}(K^{(n-1)},K^{(n-2)})} & {H_{n-2}(K^{(n-2)})} \\ &&& {H_{n-1}(K^{(n)})} \\ &&& 0 \arrow[from=1-4, to=2-4] \arrow[from=2-1, to=2-2] \arrow[from=2-2, to=2-3] \arrow["{\partial_{n+1}}", from=2-3, to=2-4] \arrow["{\beta_{n+1}}", color={rgb,255:red,127;green,10;blue,199}, from=2-3, to=3-4] \arrow[from=2-4, to=2-5] \arrow["{j_n}", from=2-4, to=3-4] \arrow[from=2-5, to=2-6] \arrow["{\partial_n}", from=3-4, to=4-4] \arrow["{\beta_n}", color={rgb,255:red,127;green,10;blue,199}, from=3-4, to=4-5] \arrow[from=4-3, to=4-4] \arrow["{j_{n-1}}", from=4-4, to=4-5] \arrow[from=4-4, to=5-4] \arrow[from=4-5, to=4-6] \arrow[from=5-4, to=6-4]\end{tikzcd}
+>  \end{document} 
+>  ```
