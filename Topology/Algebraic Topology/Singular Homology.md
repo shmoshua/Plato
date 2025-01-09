@@ -80,6 +80,10 @@
 > 1. **Claim 1**: For all $c\in L_{p}(\Delta_{q})$, $\partial(vc)=\begin{cases}c-v(\partial c)&p>0\\c-\varepsilon(c)v&p=0\end{cases}$ where $\varepsilon:S_{0}(\Delta_{q})\to \mathbb{Z}$ is the augmenting map. 
 > 	- For $p>0$, we have for $\sigma=[v_{0},\dots,v_{p}]$, $$\begin{align}\partial(v\sigma)&=\partial[v,v_{0},\dots,v_{p}]\\&=[v_{0},\dots,v_{p}]-\sum_{i=0}^{p}(-1)^i[v,v_{0},\dots,\widehat{v_{i}},\dots,v_{p}]\\&=\sigma-v(\partial\sigma)\end{align}$$by linearly extending the result, we have the statement for $p>0$.
 > 	- If $p=0$, $\partial(v\sigma)=\partial([v,v_{0}])=\sigma-v$. Therefore, $$\begin{align}\partial\left( v\sum_{\sigma}n_{\sigma}\sigma \right)=\partial\left( \sum_{\sigma}^{}n_{\sigma}v\sigma \right)=\sum_{\sigma}^{}n_{\sigma}(\sigma-v)=c-\sum_{\sigma}^{}n_{\sigma}v=c-\varepsilon(c)v\end{align}$$
+> 
+> We now, define a homomorphism $\gamma:L_{p}(\Delta_{q})\to L_p(\Delta_{q})$ defined inductively as follows:
+> 1. for $p=0$, $\gamma(c)=c$ for all $c\in L_{0}(\Delta_{q})$
+> 2. for $p\geq 1$, let $\sigma\in L_{p}(\Delta_{q})$. 
 
 - **Corollary**: For $\mathcal{S}^\mathcal{U}(X,A):=\mathcal{S}^\mathcal{U}(X) / \mathcal{S}^{\mathcal{U}\cap A}(A)$, $i:\mathcal{S}^\mathcal{U}(X,A)\to \mathcal{S}(X,A)$ induces an isomorphism in homology as: $0\to \mathcal{S}^{\mathcal{U}\cap A}(A)\to \mathcal{S}^\mathcal{U}(X)\to \mathcal{S}^\mathcal{U}(X,A)\to 0$ is a SES and by [[Chain Complex|Theorem 3]] and [[Exact Sequence|5-lemma]], we have that the middle map is an isomorphism.
  ```tikz
