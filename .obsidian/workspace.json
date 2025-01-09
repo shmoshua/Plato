@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/CW-Complex.md",
+                "file": "Topology/Inscribed Rectangle Problem.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CW-Complex"
+              "title": "Inscribed Rectangle Problem"
             }
           },
           {
@@ -286,7 +286,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "euler",
+                "query": "inscri",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -399,8 +399,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae7a31733edb0041",
+  "active": "ee568ad677adda89",
   "lastOpenFiles": [
+    "Topology/CW-Complex.md",
     "Topology/Initial Topology.md",
     "Topology/Simply Connected Space.md",
     "Topology/Locally Path-Connected Space.md",
@@ -413,7 +414,6 @@
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Covering Space.md",
     "Topology/Fundamental Group.md",
-    "Topology/CW-Complex.md",
     "Topology/Lift.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Topology/Homotopy.md",
