@@ -83,7 +83,11 @@
 > 
 > We now, define a homomorphism $\gamma:L_{p}(\Delta_{q})\to L_p(\Delta_{q})$ defined inductively as follows:
 > 1. for $p=0$, $\gamma(c)=c$ for all $c\in L_{0}(\Delta_{q})$
-> 2. for $p\geq 1$, let $\sigma\in L_{p}(\Delta_{q})$. 
+> 2. for $p\geq 1$, let $\sigma\in L_{p}(\Delta_{q})$. Then, $\gamma(\sigma):=\sigma_{B}\gamma(\partial\sigma)$ where $\sigma_{B}:=\frac{1}{p+1}\sum_{i=0}^{p}v_{i}\in \Delta_{q}$. 
+> 
+> We have that:
+> 1. **Claim 2**: $\gamma$ is a chain map. 
+>    
 
 - **Corollary**: For $\mathcal{S}^\mathcal{U}(X,A):=\mathcal{S}^\mathcal{U}(X) / \mathcal{S}^{\mathcal{U}\cap A}(A)$, $i:\mathcal{S}^\mathcal{U}(X,A)\to \mathcal{S}(X,A)$ induces an isomorphism in homology as: $0\to \mathcal{S}^{\mathcal{U}\cap A}(A)\to \mathcal{S}^\mathcal{U}(X)\to \mathcal{S}^\mathcal{U}(X,A)\to 0$ is a SES and by [[Chain Complex|Theorem 3]] and [[Exact Sequence|5-lemma]], we have that the middle map is an isomorphism.
  ```tikz
