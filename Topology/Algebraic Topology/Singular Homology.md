@@ -44,7 +44,7 @@
 > 2. For continuous maps $f:X\to X'$ and $g:Y\to Y'$,  $f\times g:X\times Y\to X'\times Y'$ satisfies: $$(f\times g)_{c}(a\times b)=f_{c}(a)\times g_{c}(b),\quad \forall a\in S_{p}(X),b\in S_{q}(Y)$$
 > 3. Leibniz Formula: $$\partial(a\times b)=\partial a\times b+(-1)^pa\times \partial b,\quad \forall a\in S_{p}(X),b\in S_{q}(Y) $$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Assume that $p=0$. We define: $$\left( \sum_{x}^{}n_{x}x \right)\times\left( \sum_{\tau:\Delta_{q}\to Y}^{}n_{\tau}\tau \right)=\sum_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{x}n_{\tau} (x \times \tau)$$
 >    Then, 1 obviously holds and we have that: $$\begin{align}(f\times g)_{c}\left( \sum_{x}^{}\sum_{\tau:\Delta_{q}\to Y}^{}n_{x}n_{\tau}x \times \tau\right)&=\sum_{x}n_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{\tau}(f\times g)\circ (x \times\tau)\\&= \sum_{x}^{}n_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{\tau}(f(x)\times (g \circ  \tau))\\&=\left( \sum_{x}n_{x}f(x) \right) \times \left( \sum_{\tau:\Delta_{q}\to Y}^{}n_{\tau}(g\circ \tau) \right) \\&=f_{c}\left( \sum_{x}^{}n_{x}x \right)\times g_{c}\left( \sum_{\tau:\Delta_{q}\to Y}^{}n_{\tau}\tau \right)\end{align}$$Further, for the Leibniz formula, $$\begin{align}\partial \left( \sum_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{x}n_{\tau} (x \times \tau) \right) &=\sum_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{x}n_{\tau} \sum_{i=0}^{q}(-1)^i(x \times \tau)^{(i)}\\&=\sum_{x}\sum_{\tau:\Delta_{q}\to Y}^{}n_{x}n_{\tau} (x \times \partial \tau)\\&= \left( \sum_{x}^{}n_{x}x \right) \times \partial \left( \sum_{\tau :\Delta_{q}\to Y}^{}n_{\tau}\tau \right)\end{align}$$
@@ -60,9 +60,25 @@
 > 		   1. for $f:X\to X'$ and $g:Y\to Y'$, $$(f\times g)_{c}(\sigma \times \tau)=(f\times g)_{c}\circ (\sigma \times \tau)_{c}(i_{p}\times i_{q})=(f\circ \sigma)\times(g \circ  \tau)=f_{c}(\sigma)\times g_{c}(\tau)$$
 > 		   2. we have: $$\begin{align}\partial(\sigma \times \tau)&=\partial((\sigma \times \tau)_{c}(i_{p}\times i_{q}))=(\sigma \times \tau)_{c}(\partial(i_{p}\times i_{q}))\\&=(\sigma \times \tau)_{c}\left( \partial i_{p}\times i_{q}+(-1)^p i_{p}\times \partial i_{q} \right)\\&=\sigma_{c}(\partial i_{p})\times \tau_{c}(i_{q})+(-1)^p\sigma_{c}(i_{p})\times \tau_{c}(\partial i_{q}) \\&=\partial\sigma_{c}( i_{p})\times \tau_{c}(i_{q})+(-1)^p\sigma_{c}(i_{p})\times \partial \tau_{c}(i_{q})\\&=\partial\sigma \times \tau+(-1)^p\sigma \times \partial \tau \end{align}$$where $\sigma_{c}(i_{p})=\sigma \circ i_{p}=\sigma$ and $\tau_{c}(i_{q})=\tau$.
 ---
+> [!lemma] Theorem 4 (Relative Cross Product)
+> For $X,Y$ topological spaces and $A\subseteq X,B\subseteq Y$ subspaces,
+> $$\times:S_{p}(X,A)\times S_{q}(Y,B)\to S_{p+q}(X\times Y,(X\times B)\cup (A\times Y)),\quad([a],[b])=[a\times b]$$is a cross product, i.e. extends the three properties. 
+
+> [!proof]-
+> We first show that this is well-defined.
+> 1. Let $a-a'\in S_{p}(A)$ and $b-b'\in S_{q}(B)$, $$\begin{align}a\times b-a'\times b'&=(a-a'+a')\times (b-b'+b')-a'\times b'\\&=\underbrace{ (a-a') \times(b-b') }_{ \in S_{p+q}(A\times B) }+\underbrace{ (a-a')\times b' }_{ \in S_{p+q}(A\times Y) }+\underbrace{ a'\times(b-b') }_{ \in S_{p+q}(X\times B) }\in S_{p+q}((X\times B)\cup (A\times Y))\end{align}$$
+> 2. For continuous maps $f:(X,A)\to(X,A')$ and $g:(Y,B)\to(Y',B')$, we have that for all $[a]\in S_{p}(X,A)$ and $[b]\in S_{p}(Y,B)$, $$\begin{align}(f\times g)_{c}([a]\times [b])=(f\times g)_{c}[a\times b]=[f_{c}(a)\times g_{c}(b)]\end{align}$$
+---
 > [!lemma] Theorem 3
 > The singular homology $H(\cdot;G)$ is a [[homology theory]] with coefficient group $G$.
 
 > [!proof]+
-> 
+> We have that:
+> 1. **Homotopy invariance**: Let $I:\Delta_{1}\to I$ be a 1-simplex to $I:=[0,1]$ that sends $(1,0)$ to $0$ and $(0,1)$ to $1$. Now, let $\varepsilon_{0},\varepsilon_{1}$ be $0$-simplices in $I$ s.t. $\varepsilon_{0}(e_{0})=0$ and $\varepsilon_{0}(e_{1})=1$. Then, 
+> 	1. $\partial I=\varepsilon_{1}-\varepsilon_{0}$
+> 	
+> 	For a topological space $X$, we will now construct a [[chain homotopy]] $$D:S_{p}(X)\to S_{p+1}(I\times X),\quad c\mapsto I\times c$$Then, $$\begin{align}(\partial D+D\partial)c&=\partial(I\times c)+D(\partial c)=\partial I\times c-I\times \partial c+I\times \partial c=\varepsilon_{1}\times c-\varepsilon_{0}\times c\end{align}$$
+> 	
+> 	Now, if we define $\eta_{0},\eta_{1}:X\to I\times X$ with $\eta_{0}(x):=(0,x)$ and $\eta_{1}(x):=(1,x)$ for all $x\in X$, we have that $(\eta_{1})_{c}(\sum_{\sigma}n_{\sigma}\sigma )(x)=$
+> 	$$(\partial D+D\partial)c=$$
 ---
