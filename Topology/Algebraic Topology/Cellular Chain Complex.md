@@ -68,7 +68,7 @@
 > 2. $H_{1}(\mathbb{R}\mathbb{P}^{2})\cong \mathbb{Z} / 2\mathbb{Z}$
 > 3. $H_{n}(\mathbb{R}\mathbb{P}^2)=0$ for all $n\geq 0$
 
-> [!proof]-
+> [!proof]+
 > We can represent $\mathbb{R}\mathbb{P}^{2}$ as a CW complex with 3 cells. Namely, 
 > 1. one $0$-cell $\sigma_{0}$,
 > 2. one $1$-cell $\sigma_{1}$, a loop at $\sigma_{0}$,
@@ -95,7 +95,7 @@
 >Then, we have that $0\to C_{2}(K)\to C_{1}(K)\to C_{0}(K)\to 0$ where:
 >1. $d\sigma_{0}=0$,
 >2. $d\sigma_{1}=0$ as $[\sigma_{0}:\sigma_{1}]=0$ as $p_{\sigma_{0}}\circ f_{\partial\sigma_{1}}$ is a constant map.
->3. $d\sigma_{2}=\pm 2\sigma_{1}$.
+>3. $d\sigma_{2}=\pm 2\sigma_{1}$ and we have that $p_{\sigma_{1}}\circ f_{\partial\sigma_{2}}:S^1\to S^1$ is a covering 
 >   
 > This proves the statement.
 ---

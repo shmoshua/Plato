@@ -126,16 +126,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIKZ.md",
+                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TIKZ"
+              "title": "Cellular Chain Complex"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "4d5ec56e57395c88",
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Locally Path-Connected Space.md",
+                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Locally Path-Connected Space"
+              "title": "Cellular Chain Complex"
             }
           },
           {
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
+              "title": "Degree of Sphere Maps"
             }
           },
           {
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -371,14 +371,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "afc02536718005e4",
+  "active": "cbff77d30ae9c164",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Interior and Closure.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Euler Characteristic.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "TIKZ.md",
+    "Topology/Locally Path-Connected Space.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Interior and Closure.md",
+    "Algebra/Chain Complex.md",
     "Topology/CW-Complex.md",
     "Algebra/Split Exact Sequence.md",
     "Algebra/Exact Sequence.md",
@@ -386,17 +390,13 @@
     "Topology/Inscribed Rectangle Problem.md",
     "Topology/Initial Topology.md",
     "Topology/Simply Connected Space.md",
-    "Topology/Locally Path-Connected Space.md",
     "Graph Theory/Planar Graph.md",
-    "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Covering Space.md",
     "Topology/Fundamental Group.md",
     "Topology/Lift.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Topology/Homotopy.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Differential Geometry/Euler Characteristic.md",
     "Untitled.md",
     "Topology/Algebraic Topology",
