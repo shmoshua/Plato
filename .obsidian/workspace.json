@@ -126,12 +126,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "Compact Space"
             }
           }
         ],
@@ -190,6 +190,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Topology/Compact Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Compact Space"
+            }
+          },
+          {
+            "id": "4eac7029bc951a32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Topology/Algebraic Topology/Singular Homology.md",
                 "mode": "preview",
                 "source": true
@@ -227,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -371,12 +385,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "afc02536718005e4",
+  "active": "292dad5829ce6f1b",
   "lastOpenFiles": [
-    "Algebra/Chain Complex.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Compact Space.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "TIKZ.md",
@@ -398,7 +413,6 @@
     "Topology/Homotopy.md",
     "Courses/Topology/Topology Roadmap.md",
     "Differential Geometry/Euler Characteristic.md",
-    "Untitled.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

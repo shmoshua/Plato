@@ -136,6 +136,14 @@
 > [!proof]-
 > If $X$ is totally bounded, then there exists for each $n$ a finite subset $A_{n}\subseteq X$ s.t. for every $x\in X$: $d(x,A_{n})\leq 1/n$. If we let $A:= \bigcup_{n=1}^{\infty}A_{n}$, then $A$ is countable and for each $x\in X$, we have: $$d(x,A)\leq d(x,A_{n})\leq 1 / n$$ for all $n$. Therefore, $d(x,A)=0$ and $x\in  \overline{A}$. This shows that $A$ is dense in $X$.
 ---
+> [!lemma] Theorem 3 (Lebesgue Covering Lemma)
+> Let $X$ be a compact metric space and $\mathcal{U}:=\{ U_{\alpha} \}_{\alpha\in I}$ be an open cover. Then, there exists $\delta>0$ s.t. for every subset $S\subseteq X$ with $\text{diam}(S)<\delta$ there exists $\alpha\in I$ with $S\subseteq U_{\alpha}$.
+
+ > [!proof]-
+ > As $X$ is compact, there exists a finite subcover $\{ A_{1},..,A_{n} \}\subseteq \mathcal{U}$. If any of the $A_{i}$'s is equal to $X$, then the statement trivially holds. Otherwise, let $C_{i}:=X \backslash A_{i}$. As $C_{i}$ is not empty, we have a function $$f:X\to \mathbb{R},\quad x\mapsto \frac{1}{n}\sum_{i=1}^{n}d(x,C_{i})$$Since $f$ is continuous on a compact set, it attains a minimum $\delta>0$ as every $x$ is contained in some $A_{i}$. Let $S\subseteq X$ with $\text{diam}(S)<\delta$ and $x_{0}\in S$. Then, $S\subseteq B_{< \delta}(x_{0})$. 
+ > 
+ > Since $f(x_{0})\geq\delta$, there must exists at least one $i$ s.t. $d(x_{0},C_{i})\geq \delta$. However, this means that $S\subseteq B_{<\delta}(x_{0})\subseteq X \backslash C_{i}=A_{i}$.
+---
 ##### Examples
 > [!h] Example 1 (Discrete Space)
 > A discrete space $X$ is compact if and only if $X$ is finite.
