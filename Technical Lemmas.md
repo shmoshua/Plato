@@ -21,3 +21,11 @@
 > $$\mu:=\frac{{n-k \choose k-i}}{n \choose k}=\frac{{n-k \choose k}}{n \choose k}\cdot  \frac{k(k-1)\dots (k-i+1)}{(n-2k+i)\dots(n-2k+1)}$$Then, $$\left(\frac{ n-2k+1}{n-k+1} \right)^k \leq\mu\leq \left( \frac{n-k}{n} \right)^k \frac{k(k-1)\dots (k-i+1)}{(n-2k+i)\dots(n-2k+1)}$$
 > 
 > 1. Notice that: $$ \frac{n^i}{k(k-1)\dots (k-i+1)}\mu\leq  \left( \frac{n-k}{k} \right) ^k \frac{n^i}{(n-2k+i)\dots(n-2k+1)}=$$$$\frac{n^i}{n(n-1)\dots(n-i+1)}\cdot \frac{(n-k)(n-k-1)\dots(n-2k+i+1)}{(n-i)(n-i-1)\dots(n-k+1)}$$$$<\frac{n^{i}}{n(n-1)\dots(n-i+1)}\cdot \frac{(n-k+i)^{k-i}}{n^{k-i}}<\frac{n^{i}}{n(n-1)\dots(n-i+1)}\cdot \frac{(n-k+i)^{k-i}}{n^{k-i}}$$
+
+---
+> [!lemma] Lemma 4
+> For $0<m<k\leq p+1$ and $w_{1},\dots,w_{k}\in \mathbb{R}^q$ then: $$\left| \frac{1}{k}\sum_{i=1}^{k}w_{i}-\frac{1}{m}\sum_{j=1}^{m}w_{j} \right|\leq \frac{p}{p+1}\max_{i,j}\left| w_{i}-w_{j} \right|  $$
+
+> [!proof]-
+> We have: $$\begin{align}\left| \frac{1}{k}\sum_{i=1}^{k}w_{i}-\frac{1}{m}\sum_{j=1}^{m}w_{j} \right|&=\left| \frac{k-m}{km}\sum_{j=1}^{m}w_{j}-\frac{1}{k}\sum_{i=m+1}^{k}w_{i}\right|=\frac{k-m}{k}\left| \frac{1}{m}\sum_{j=1}^{m}w_{j}-\frac{1}{k-m}\sum_{i=m+1}^{k}w_{i} \right| \\&=\frac{k-m}{k}\left| \text{Bary}(w_{1},\dots,w_{m})-\text{Bary}(w_{m+1},\dots,w_{k}) \right|\\& \leq \frac{k-1}{k}\max_{i,j}\left| w_{i}-w_{j} \right|  \\
+\\&\leq  \frac{p}{p+1}\max_{i,j}\left| w_{i}-w_{j} \right| \end{align}$$
