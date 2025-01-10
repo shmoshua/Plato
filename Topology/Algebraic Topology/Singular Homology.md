@@ -126,6 +126,11 @@
 > Now, let $\sigma:\Delta_{p}\to X$ be a singular $p$-simplex. Then, $$\gamma^k(\sigma)=\gamma^{k-1}\circ \sigma_{c} \circ \gamma(i_{p})=\sigma_{c}(\gamma^k(i_{p}))$$Let $V_{\alpha}:=\sigma ^{-1}(U_{\alpha}^\circ)$ for all $\alpha\in \mathcal{A}$, which is then an open covering of $\Delta_{p}$. As $\Delta_{p}$ is compact metric, by [[Compact Space|Lebesgue Covering Lemma]] there exists $\delta>0$ s.t. for every $S\subseteq \Delta_{p}$ with $\text{diam}(S)<\delta$ there exists $\alpha\in \mathcal{A}$ with $S\subseteq V_{\alpha}$. 
 > 
 > By choosing $k$ s.t. every affine simplex $\lambda$ in $\gamma^k(\sigma)$ has diameter $\text{diam}(\lambda)< \delta$, we have that every such $\lambda$ is $\mathcal{U}$-small, i.e. $\gamma^k(\sigma)\in S^\mathcal{U}_{p}(X)$. 
+> 
+> Now, it's only left to show that $i^\mathcal{U}$ induces an isomorphism in homology. 
+> 1. We first show that $i^\mathcal{U}_{*}$ is injective: Let $c\in S^\mathcal{U}_{p}(X)$ is a cycle, i.e. $\partial c=0$. Now, assume that $c=\partial e$ for some $e\in S_{p+1}(X)$. We need to show that $c=\partial e'$ for $e'\in S^\mathcal{U}_{p+1}(X)$.
+>    
+>    We first choose $k$ s.t. $\gamma^k(e)\in S^\mathcal{U}_{p+1}(X)$. Let $e':=\gamma^k(e)-T_{k}(c)\in S^\mathcal{U}_{p+1}(X)$. Then, $$\partial e'=\partial\gamma^k(e)-\partial T_{k}(c)=\partial\gamma^k(e)+T_{k}\partial(c)+\partial e-\gamma^k(\partial e)$$
 >    
 >    
 
