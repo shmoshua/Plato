@@ -90,7 +90,10 @@
 > 	- If $p=0$, $\gamma(\partial\sigma)=\gamma(0)=0$ and $\partial(\gamma(\sigma))=\partial\sigma=0$.
 > 	- If $p=1$, $\gamma(\partial\sigma)=\partial\sigma$ and $$\partial(\gamma(\sigma))=\partial(\sigma_{B}\gamma(\partial\sigma))=\partial(\sigma_{B}\partial\sigma)=\partial\sigma-\sigma_{B}(\partial \partial\sigma)=\partial\sigma$$
 > 	- If $p\geq 2$, assume the statement holds for $\leq p-1$. Then, $$\partial(\gamma(\sigma))=\partial(\sigma_{B}\gamma(\partial\sigma))=\gamma(\partial\sigma)-\sigma_{B}(\partial \gamma(\partial\sigma))=\gamma(\partial\sigma)-\sigma_{B}(\gamma(\underbrace{ \partial \partial\sigma }_{ =0 }))=\gamma(\partial\sigma)$$
-> 2. **Claim 3**: $\gamma$ is chain homotopic to $\text{id}$.
+> 2. **Claim 3**: $\gamma$ is chain homotopic to $\text{id}$. 
+>    Define $T:L_{p}(\Delta_{q})\to L_{p+1}(\Delta_{q})$ inductively: 
+> 	   - If $p=0$, $T=0$.
+> 	   - If $p\geq 1$ and $T$ is defined for $\leq p-1$, then for $\sigma:\Delta_{p}\to\Delta_{q}$ affine singular simplex, $$T(\sigma):=\sigma_{B}()$$
 >    
 
 - **Corollary**: For $\mathcal{S}^\mathcal{U}(X,A):=\mathcal{S}^\mathcal{U}(X) / \mathcal{S}^{\mathcal{U}\cap A}(A)$, $i:\mathcal{S}^\mathcal{U}(X,A)\to \mathcal{S}(X,A)$ induces an isomorphism in homology as: $0\to \mathcal{S}^{\mathcal{U}\cap A}(A)\to \mathcal{S}^\mathcal{U}(X)\to \mathcal{S}^\mathcal{U}(X,A)\to 0$ is a SES and by [[Chain Complex|Theorem 3]] and [[Exact Sequence|5-lemma]], we have that the middle map is an isomorphism.
