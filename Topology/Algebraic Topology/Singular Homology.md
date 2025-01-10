@@ -93,7 +93,22 @@
 > 2. **Claim 3**: $\gamma$ is chain homotopic to $\text{id}$. 
 >    Define $T:L_{p}(\Delta_{q})\to L_{p+1}(\Delta_{q})$ inductively: 
 > 	   - If $p=0$, $T=0$.
-> 	   - If $p\geq 1$ and $T$ is defined for $\leq p-1$, then for $\sigma:\Delta_{p}\to\Delta_{q}$ affine singular simplex, $$T(\sigma):=\sigma_{B}()$$
+> 	   - If $p\geq 1$ and $T$ is defined for $\leq p-1$, then for $\sigma:\Delta_{p}\to\Delta_{q}$ affine singular simplex, $$T(\sigma):=\sigma_{B}(\gamma(\sigma)-\sigma-T(\partial\sigma))$$
+> 
+> 	Then, we show that $\partial T+T\partial=\gamma-\text{id}$.
+> 	- If $p=0$, $\partial T(\sigma)+T(\partial\sigma)=0$ and $\gamma(\sigma)-\text{id}(\sigma)=\sigma-\sigma=0$.
+> 	- If $p\geq1$, then: $$\begin{align}\partial(T\sigma)&=\partial(\sigma_{B}(\gamma(\sigma)-\sigma-T(\partial\sigma)))=\gamma(\sigma)-\sigma-T(\partial\sigma)-\sigma_{B}(\partial(\gamma(\sigma)-\sigma-T(\partial\sigma)))\\&=\gamma(\sigma)-\sigma-T(\partial\sigma)-\sigma_{B}(\partial\gamma(\sigma)-\partial\sigma-\gamma(\partial\sigma)+\partial\sigma +T(\partial \partial\sigma))\\&=\gamma(\sigma)-\sigma-T(\partial\sigma)-\sigma_{B}(0)\\&=\gamma(\sigma)-\sigma -T(\partial\sigma)\end{align}$$ 
+> 
+> Now, we can linearly extend $\gamma$ and $T$ to $S_{p}(X)$. Let $\sigma:\Delta_{p}\to X$ be a singular $p$-simplex and $i_{p}:\Delta_{p}\to\Delta_{p}$ be the identity viewed as a $p$-simplex. Then, we define:
+> 1. $\gamma(\sigma):=\sigma_{c}(\gamma(i_{p}))$ and 
+> 2. $T(\sigma):=\sigma_{c}(T(i_{p}))$
+> 
+> and extend the functions linearly. We have that:
+> 1. **Claim 4**: For $X:=\Delta_{q}$, $\gamma$ and $T$ coincides with the old definition on $L^p(\Delta_{p})$. 
+>    Let $\sigma=[v_{0},\dots,v_{p}]$. Then, 
+> 	1. If $p=0$, then $\sigma_{c}(\gamma([e_{0}]))=\sigma_{c}([e_{0}])=\sigma \circ[e_{0}]=\sigma=\gamma(\sigma)$. Further, $$\sigma_{c}(T([e_{0}]))=\sigma_{c}(0)=0=T(\sigma)$$
+> 	2. If $p\geq 1$ and the statement holds for $\leq p-1$. Then,  
+> 	   $$\sigma_{c}(\gamma(i_{p}))=\sigma_{c}( (i_{p})_{B}(\gamma(\partial i_{p})))=\sigma_{c}( (i_{p})_{B}(\partial\gamma( i_{p})))=$$$$\partial i_{p}=\sum_{i=0}^{p}(-1)^i[e_{0},\dots,\widehat{e_{i}},\dots,e_{p}]$$
 >    
 
 - **Corollary**: For $\mathcal{S}^\mathcal{U}(X,A):=\mathcal{S}^\mathcal{U}(X) / \mathcal{S}^{\mathcal{U}\cap A}(A)$, $i:\mathcal{S}^\mathcal{U}(X,A)\to \mathcal{S}(X,A)$ induces an isomorphism in homology as: $0\to \mathcal{S}^{\mathcal{U}\cap A}(A)\to \mathcal{S}^\mathcal{U}(X)\to \mathcal{S}^\mathcal{U}(X,A)\to 0$ is a SES and by [[Chain Complex|Theorem 3]] and [[Exact Sequence|5-lemma]], we have that the middle map is an isomorphism.
