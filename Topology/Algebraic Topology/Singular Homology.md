@@ -104,8 +104,10 @@
 > 2. $T(\sigma):=\sigma_{c}(T(i_{p}))$
 > 
 > and extend the functions linearly. We have that:
-> 1. **Claim 4**: For $X:=\Delta_{q}$, $\gamma$ and $T$ coincides with the old definition on $L^p(\Delta_{p})$. 
->    Let $\sigma=[v_{0},\dots,v_{p}]$. Then, 
+> 1. **Claim 4**: For $X:=\Delta_{q}$, $\gamma$ and $T$ coincides with the old definition on $L^p(\Delta_{q})$. 
+>    Let $\sigma=[v_{0},\dots,v_{p}]$. Then, fix $q\geq 0$. We will show that $\sigma_{c}$ commutes with $\gamma_{\text{old}}$ and with $T_{\text{old}}$.
+>    1. If $p=0$, then: $\sigma_{c}(\gamma(\tau))=\sigma_{c}(\tau)=\gamma(\sigma_{c}(\tau))$ and $\sigma_{c}(T(\tau))=0=T(\sigma_{c}(\tau))$.
+>    2. If $p\geq 1$, then: $$\begin{align}\sigma_{c}(\gamma_{\text{old}}(\tau))&=\sigma_{c}(\tau_{B}\gamma_{\text{old}}(\partial \tau))=(\sigma_{c}(\tau))_{B}\sigma_{c}\gamma_{\text{old}}(\partial \tau)=(\sigma_{c}(\tau))_{B}\gamma_{\text{old}}(\sigma_{c}(\partial \tau))\\&=(\sigma_{c}(\tau))_{B}\gamma_{\text{old}}(\partial (\sigma_{c}(\tau)))=\gamma_{\text{old}}(\sigma_{c}(\tau))\end{align}$$$$\begin{align}\sigma_{c}(T_{\text{old}}(\tau))&=\sigma_{c}(\tau_{B}(\gamma(\tau)-\tau-T(\partial \tau)))=(\sigma_{c}(\tau))_{B}\sigma_{c}(\gamma(\tau)-\tau-T(\partial \tau))\\&=(\sigma_{c}(\tau))_{B}\sigma_{c}(\gamma(\tau)-\tau-T(\partial \tau) \end{align}$$
 > 	1. If $p=0$, then $\sigma_{c}(\gamma([e_{0}]))=\sigma_{c}([e_{0}])=\sigma \circ[e_{0}]=\sigma=\gamma(\sigma)$. Further, $$\sigma_{c}(T([e_{0}]))=\sigma_{c}(0)=0=T(\sigma)$$
 > 	2. If $p\geq 1$ and the statement holds for $\leq p-1$. Then,  
 > 	   $$\sigma_{c}(\gamma(i_{p}))=\sigma_{c}( (i_{p})_{B}(\gamma(\partial i_{p})))=\sigma_{c}( (i_{p})_{B}(\partial\gamma( i_{p})))=$$$$\partial i_{p}=\sum_{i=0}^{p}(-1)^i[e_{0},\dots,\widehat{e_{i}},\dots,e_{p}]$$
