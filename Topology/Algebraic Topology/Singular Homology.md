@@ -113,7 +113,11 @@
 > 2. **Claim 5**: (Naturality) for $f:X\to Y$, $\gamma(f_{c}(c))=f_{c}(\gamma(c))$ and $T(f_{c}(c))=f_{c}(T(c))$ for all $c\in S_{p}(X)$. 
 >    For $\sigma:\Delta_{p}\to X$ a singular $p$-simplex, $$f_{c}(\gamma(\sigma))=f_{c}(\sigma_{c}(\gamma(i_{p})))=(f\circ \sigma)_{c}(\gamma(i_{p}))=\gamma(f \circ  \sigma)=\gamma(f_{c}(\sigma))$$$$f_{c}(T(\sigma))=f_{c}(\sigma_{c}(T(i_{p})))=T(f\circ \sigma)=T(f_{c}(\sigma))$$
 > 3. **Claim 6**: $\gamma$ is a chain map and is chain homotopic to $\text{id}$ via $T$. 
->    We have that: $$\partial\gamma(\sigma)=\partial(\sigma_{c}(\gamma(i_{p})))=\sigma_{c}(\partial(\gamma(i_{p})))=\sigma_{c}(\gamma(\partial(i_{p})))=$$$$\gamma(\partial\sigma)=\sum_{i=0}^{p}(-1)^i\gamma(\sigma^{(i)})=\sum_{i=0}^{p}(-1)^i\sigma^{(i)}_{c}(\gamma(i_{p}))=$$
+>    We have that for $\sigma:\Delta_{p}\to\Delta_{q}$ a singular $p$-simplex, $$\begin{align}\gamma(\partial\sigma)&=\gamma(\sigma_{c}\partial i_{p})=\sigma_{c}(\gamma(\partial i_{p}))=\sigma_{c}(\partial\gamma(i_{p}))=\partial(\sigma_{c}(\gamma(i_{p})))=\partial\gamma(\sigma)\end{align}$$Further, $$\begin{align}(T\partial+\partial T)(\sigma)&=T(\sigma_{c}\partial i_{p})+\partial(\sigma_{c}(T(i_{p})))=\sigma_{c}(T(\partial i_{p})+\partial(T(i_{p})))=\sigma_{c}(\gamma(i_{p})-i_{p})\\&=\gamma(\sigma)-\sigma\end{align}$$
+> 
+> Further $\gamma(\sigma)$ and $T(\sigma)$ have their images in $\text{im}(\sigma)$ by $\sigma_{c}$ in the definition. 
+> 1. **Claim 7**: For $k\geq 1$, $\gamma^k:\mathcal{S}(X)\to \mathcal{S}(X)$ is chain homotopic to $\text{id}$ via $T_{k}$ which is natural w.r.t. maps.  
+>    We have: $$\begin{align}\gamma^k-\text{id}&=\underbrace{ (\gamma^{k-1}+\dots+\gamma+\text{id}) }_{ =:G }(\gamma-\text{id})=G\circ (\gamma-\text{id})=G\circ (T\partial+\partial T)\\&=(G\circ T)\circ \partial+\partial \circ  (G\circ T)\end{align}$$Hence, by defining $T_{k}:=G\circ T$, we have the statement where the naturality follows from $\gamma$ and $T$. 
 >    
 
 - **Corollary**: For $\mathcal{S}^\mathcal{U}(X,A):=\mathcal{S}^\mathcal{U}(X) / \mathcal{S}^{\mathcal{U}\cap A}(A)$, $i:\mathcal{S}^\mathcal{U}(X,A)\to \mathcal{S}(X,A)$ induces an isomorphism in homology as: $0\to \mathcal{S}^{\mathcal{U}\cap A}(A)\to \mathcal{S}^\mathcal{U}(X)\to \mathcal{S}^\mathcal{U}(X,A)\to 0$ is a SES and by [[Chain Complex|Theorem 3]] and [[Exact Sequence|5-lemma]], we have that the middle map is an isomorphism.
