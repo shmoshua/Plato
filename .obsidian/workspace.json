@@ -140,12 +140,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
+              "title": "Homology Theory"
             }
           }
         ],
@@ -218,12 +218,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Topology/Wedge Sum.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lift"
+              "title": "Wedge Sum"
             }
           },
           {
@@ -302,16 +302,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Retract.md",
+                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Retract"
+              "title": "Degree of Sphere Maps"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -455,17 +455,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "afc02536718005e4",
+  "active": "00a59ea9009f02e1",
   "lastOpenFiles": [
-    "Topology/Lift.md",
-    "Topology/Covering Space.md",
-    "Topology/Fundamental Group.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Covering Space.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Retract.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Wedge Sum.md",
+    "Topology/Lift.md",
+    "Topology/Fundamental Group.md",
     "Topology/Compact Space.md",
     "Topology/Mapping Cylinder.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Retract.md",
     "Topology/Quotient Topology.md",
     "Topology/Contractible Space.md",
     "Topology/Initial Topology.md",
@@ -475,14 +478,11 @@
     "Algebra/Split Exact Sequence.md",
     "Algebra/Chain Complex.md",
     "Technical Lemmas.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "TIKZ.md",
     "Topology/Locally Path-Connected Space.md",
     "Topology/Interior and Closure.md",
     "Topology/CW-Complex.md",
-    "Algebra/Exact Sequence.md",
-    "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

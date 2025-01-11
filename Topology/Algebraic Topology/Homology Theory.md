@@ -28,18 +28,18 @@
 ##### Properties
 > [!lemma] Lemma 1
 > Let $H$ be a homology theory. Then,
-> 1. $H_{p}(\varnothing)=0$ for all $p\in \mathbb{Z}$.
-> 3. $H_{p}(X,X)=0$ for all $p\in \mathbb{Z}$
-> 4. For a [[Homotopy|homotopy equivalence]] $f:(X,A)\to(Y,B)$, $f_{*}$ is an isomorphism. 
-> 5. The additivity axiom holds for pairs of spaces as well, i.e. for $(X_{\alpha},A_{\alpha})_{\alpha\in I}$, $$\oplus(i_{\alpha})_{*}:\bigoplus _{\alpha\in I} H_{p}(X_{\alpha},A_{\alpha})\to H_{p}\left( \bigsqcup_{\alpha\in I}X,\bigsqcup_{\alpha\in I}A \right),\quad (c_{\alpha})_{\alpha\in I}\mapsto \sum_{\alpha\in I}^{}(i_{\alpha})_{*}(c_{\alpha}) $$is an isomorphism where $i_{\alpha}:(X_{\alpha},A_{\alpha})\to\left( \bigsqcup_{\alpha\in I}X,\bigsqcup_{\alpha\in I}A \right)$ is the inclusion.
-> 6. For $B\subseteq A\subseteq X$ and the inclusion $i:B\to A$ induces an isomorphism in homology for all $p\in \mathbb{Z}$, then so does the inclusion $(X,B)\to(X,A)$ for all $p\in \mathbb{Z}$. 
+> 1.  $H_{p}(X,X)=0$ for all $p\in \mathbb{Z}$
+> 4. $H_{p}(\varnothing)=0$ for all $p\in \mathbb{Z}$.
+> 5. For a [[Homotopy|homotopy equivalence]] $f:(X,A)\to(Y,B)$, $f_{*}$ is an isomorphism. 
+> 6. The additivity axiom holds for pairs of spaces as well, i.e. for $(X_{\alpha},A_{\alpha})_{\alpha\in I}$, $$\oplus(i_{\alpha})_{*}:\bigoplus _{\alpha\in I} H_{p}(X_{\alpha},A_{\alpha})\to H_{p}\left( \bigsqcup_{\alpha\in I}X,\bigsqcup_{\alpha\in I}A \right),\quad (c_{\alpha})_{\alpha\in I}\mapsto \sum_{\alpha\in I}^{}(i_{\alpha})_{*}(c_{\alpha}) $$is an isomorphism where $i_{\alpha}:(X_{\alpha},A_{\alpha})\to\left( \bigsqcup_{\alpha\in I}X,\bigsqcup_{\alpha\in I}A \right)$ is the inclusion.
+> 7. For $B\subseteq A\subseteq X$ and the inclusion $i:B\to A$ induces an isomorphism in homology for all $p\in \mathbb{Z}$, then so does the inclusion $(X,B)\to(X,A)$ for all $p\in \mathbb{Z}$. 
 
 ^d375b2
 
-> [!proof]-
+> [!proof]+
 > We have that:
-> 1. Let $Y=\varnothing$. Then, $H_{p}(X)\oplus H_{p}(\varnothing) \cong H_{p}(X)$. Hence, $H_{p}(\varnothing)=0$.
-> 2. We have an exact sequence: $$\cdots \to H_{p+1}(X,\varnothing)\xrightarrow{\partial_{*}} H_{p}(X,\varnothing)\xrightarrow{\text{id}} H_{p}(X,\varnothing)\xrightarrow{j_{*}} H_{p}(X,X)\to H_{p-1}(X,\varnothing)\to\cdots$$Hence, $H_{p}(X,\varnothing)=\text{ker }j_{*}$ and $j_{*} = 0$. However, we also have that: $\text{im}(\partial_{*})=\text{ker }\text{id} = 0$. Hence, $\partial_{*}=0$. Now, we have that $$H_{p}(X,X)=\text{ker }\partial_{*} =\text{im }j_{*}=0$$
+> 1. We have an exact sequence: $$\cdots \to H_{p+1}(X,\varnothing)\xrightarrow{\partial_{*}} H_{p}(X,\varnothing)\xrightarrow{\text{id}} H_{p}(X,\varnothing)\xrightarrow{j_{*}} H_{p}(X,X)\to H_{p-1}(X,\varnothing)\to\cdots$$Hence, $H_{p}(X,\varnothing)=\text{ker }j_{*}$ and $j_{*} = 0$. However, we also have that: $\text{im}(\partial_{*})=\text{ker }\text{id} = 0$. Hence, $\partial_{*}=0$. Now, we have that $$H_{p}(X,X)=\text{ker }\partial_{*} =\text{im }j_{*}=0$$
+> 2. We have that: $$\to H_{p+1}(X)\xrightarrow{\text{id}} H_{p+1}(X,\varnothing)\to H_{p}(\varnothing)\to H_{p}(X)\xrightarrow{\text{id}} H_{p}(X,\varnothing)\to$$is exact and therefore, $H_{p}(\varnothing)=0$. 
 > 3. Let $g:(Y,B)\to(X,A)$ be the homology inverse of $f$. Then, $$g_{*} \circ  f_{*} = (g\circ f)_{*}=\text{id}_{*}=\text{id}_{H_{p}(X,A)}$$$$f_{*} \circ  g_{*} = (f\circ g)_{*}=\text{id}_{*}=\text{id}_{H_{p}(Y,B)}$$
 > 4. Notice that we have which commutes and the rows are exact.$$\begin{CD}\bigoplus _{\alpha\in I}H_{p}(A_{\alpha})@>>>\bigoplus _{\alpha\in I}H_{p}(X_{\alpha})@>>>\bigoplus _{\alpha\in I}H_{p}(X_{\alpha},A_{\alpha})@>>>\bigoplus _{\alpha\in I}H_{p}(A_{\alpha})@>>>\bigoplus _{\alpha\in I}H_{p}(X_{\alpha})\\@V\cong VV @V\cong VV@V\oplus (i_{\alpha})_{*}VV@V\cong VV@V\cong VV\\H_{p}\left( \bigsqcup_{}^{}A_{\alpha} \right)@>>> H_{p}\left( \bigsqcup_{}^{}X_{\alpha} \right)@>>> H_{p}\left( \bigsqcup_{}^{}X_{\alpha},\bigsqcup_{}^{}A_{\alpha} \right)@>>> H_{p}\left( \bigsqcup_{}^{}A_{\alpha} \right)@>>> H_{p}\left( \bigsqcup_{}^{}X_{\alpha} \right)\end{CD}$$and by [[Exact Sequence|5-Lemma]], $\oplus(i_{\alpha})_{*}$ is an isomorphism. 
 > 5. We have that: $$\begin{CD}H_{p}(B)@>>> H_{p}(X)@>>>H_{p}(X,B)@>>>H_{p-1}(B)@>>> H_{p-1}(X)\\@V\cong VV@V\cong VV@VVV@V\cong VV@V\cong VV\\H_{p}(A)@>>> H_{p}(X)@>>>H_{p}(X,A)@>>>H_{p-1}(A)@>>> H_{p-1}(X)\end{CD}$$Hence, also by 5-Lemma, it is an isomorphism.
@@ -59,7 +59,7 @@
 
 ^0469d8
 
-> [!proof]- 
+> [!proof]+
 > We have that:
 > 1. Follows from the fact that $\varepsilon_{*}$ is the zero map for $p\neq 0$. 
 > 2. Let $i:P\to X$. Then, $\varepsilon \circ i=\text{id}_{P}$ and $\varepsilon_{*}\circ i_{*} = \text{id}_{H_{p}(P)}$. This shows that $\varepsilon_{*}$ is surjective and: $$0\to \tilde{H}_{p}(X)\to H_{p}(X)\xrightarrow{\varepsilon_{*}}H_{p}(P)\to 0$$defines a SES. As $i_{*}$ is the right inverse of $\varepsilon_{*}$, by [[Split Exact Sequence|Proposition 1]], the SES is split. Therefore, $$H_{p}(X)\cong \tilde{H}_{p}(X)\oplus H_{p}(P)$$and we have our statement when $p=0$.
@@ -96,9 +96,11 @@
 > 	  
 > 	  3. **Exactness at $H_{0}(X,A)$.** 
 > 	     $\text{im }\tilde{j}_{*}\subseteq \text{ker }\partial_{*}$ by definition. Then, for $x\in \text{ker }\partial_{*}\subseteq H_{0}(X,A)$, we have that there exists $y\in H_{0}(X)$ with $j_{*}(y)=x$. Further, as $\varepsilon_{*}$ is surjective, there exists $a\in H_{0}(A)$ with $\varepsilon_{*}(a)=\varepsilon_{*}(i_{*}(a))=\varepsilon_{*}(y)$. Therefore, we have $y-i_{*}(a)\in \tilde{H}_{0}(X)$ and further: $$j_{*}(y-i_{*}(a))=x-0=x$$This proves the statement.
-> 5. For $p\neq 0$, it follows from $\tilde{H}_{p}(P)= H_{p}(P)=0$. For $p=0$, we have that: $$0\to \tilde{H}_{p}(P)\to H_{p}(P)\to H_{p}(P)\to 0$$is an SES. As $\varepsilon=\text{id}_{P}$, $\varepsilon_{*}$ is an isomorphism and $\tilde{H}_{p}(P)\to H_{p}(P)$ is a zero map. As the sequence is exact at $\tilde{H}_{p}(P)$, $\tilde{H}_{p}(P) =0$. 
-> 1. We have that: $$0=\tilde{H}_{p}(x_{0})\to \tilde{H}_{p}(X)\to H_{p}(X,x_{0})\to \tilde{H}_{p-1}(x_{0})=0$$is exact and $\tilde{H}_{p}\to H_{p}(X,x_{0})$ is an isomorphism.
-> 2. Let $c:X\to X$ be a constant function s.t. $c\sim \text{id}_{X}$. Then, $c$ can be decomposed into: $$X\xrightarrow{\overline{c}}c(X)\xrightarrow{i}X$$where $c(X)$ is a point space. Hence, $c_{*}=i_{*} \circ \overline{c}_{*}$ given by: $$\tilde{H}_{p}(X)\xrightarrow{\overline{c}_{*}}\tilde{H}_{p}(c(X))\xrightarrow{i_{*}}\tilde{H}_{p}(X)$$However, from 5, $\tilde{H}_{p}(c(X))=0$ for all $p\in \mathbb{Z}$. Therefore, $\text{id}_{\tilde{H}_{p}(X)}=c_{*}=0$.  
+> 	
+> 	Now, let $A=\varnothing$. Then, $$\to H_{1}(X,\varnothing)=H_{1}(X)\to \tilde{H}_{0}(\varnothing)\to \tilde{H}_{0}(X)\to H_{0}(X)\to \tilde{H}_{-1}(\varnothing)\to 0\to$$
+> 1. For $p\neq 0$, it follows from $\tilde{H}_{p}(P)= H_{p}(P)=0$. For $p=0$, we have that: $$0\to \tilde{H}_{p}(P)\to H_{p}(P)\to H_{p}(P)\to 0$$is an SES. As $\varepsilon=\text{id}_{P}$, $\varepsilon_{*}$ is an isomorphism and $\tilde{H}_{p}(P)\to H_{p}(P)$ is a zero map. As the sequence is exact at $\tilde{H}_{p}(P)$, $\tilde{H}_{p}(P) =0$. 
+> 2. We have that: $$0=\tilde{H}_{p}(x_{0})\to \tilde{H}_{p}(X)\to H_{p}(X,x_{0})\to \tilde{H}_{p-1}(x_{0})=0$$is exact and $\tilde{H}_{p}\to H_{p}(X,x_{0})$ is an isomorphism.
+> 3. Let $c:X\to X$ be a constant function s.t. $c\sim \text{id}_{X}$. Then, $c$ can be decomposed into: $$X\xrightarrow{\overline{c}}c(X)\xrightarrow{i}X$$where $c(X)$ is a point space. Hence, $c_{*}=i_{*} \circ \overline{c}_{*}$ given by: $$\tilde{H}_{p}(X)\xrightarrow{\overline{c}_{*}}\tilde{H}_{p}(c(X))\xrightarrow{i_{*}}\tilde{H}_{p}(X)$$However, from 5, $\tilde{H}_{p}(c(X))=0$ for all $p\in \mathbb{Z}$. Therefore, $\text{id}_{\tilde{H}_{p}(X)}=c_{*}=0$.  
 
 ^7a6086
 
