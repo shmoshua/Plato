@@ -24,6 +24,8 @@
 > We have that: 
 > 1. $\mathbb{R}\mathbb{P}^n \cong S^n / \{ \pm1 \}$ where $\{ \pm 1 \} \curvearrowright S^n,(\lambda,x)=\lambda x$.
 > 2. $\mathbb{R}\mathbb{P}^n \cong B^n / {\sim}$ where $x\sim-x$ for all $x\in \partial B^n$.
+> 3. $\mathbb{R}\mathbb{P}^n$ is a $n$-dimensional [[CW-complex]].
+> 4. $H_{p}^\text{cell}(\mathbb{R}\mathbb{P}^n)$
 
 > [!proof]+
 > We have that:
@@ -31,6 +33,12 @@
 > 1. Define: $$\psi:B^n/ {\sim} \to \mathbb{R}\mathbb{P}^n,\quad [x_{1},\dots,x_{n}]\mapsto [x_{1},\dots,x_{n},\sqrt{ 1-\|x\|^{2} }]$$is continuous. Further, it is injective as if $[x_{1},\dots,x_{n},\sqrt{ 1-\|x\|^{2} }]=[y_{1}:\dots:y_{n}:\sqrt{ 1-\|y\|^{2} }]$, then $x_{i}=\lambda y_{i}$ and $$\sqrt{ 1-\|x\|^{2} }=\sqrt{ 1-\left| \lambda \right| ^{2}\|y\|^{2} }=\lambda\sqrt{ 1-\|y\|^{2} }$$so we have that $1-\left| \lambda \right|^{2}\|y\|^{2}=\lambda^{2}(1-\|y\|^{2})$ and $1=\lambda^{2}$. Hence, $\lambda=\pm 1$ and $\psi$ is injective. Plus, one can see that $\psi$ is surjective. 
 >    
 >    As $B^n / {\sim}$ is compact and $\mathbb{R}\mathbb{P}^n$ is Hausdorff, $\psi$ is a homeomorphism.
+>  2. Let: $$f:B^n\to \mathbb{R}\mathbb{P}^n,\quad (x_{1},\dots,x_{n})\mapsto [x_{1}:\dots:x_{n}:\sqrt{ 1-\|x\|^{2} }]$$Then, for $x\in \partial B^n$, $$f(x)=[x_{1}:\dots: x_{n}: 0]\in \mathbb{R}\mathbb{P}^{n-1}$$Now, we show that $\mathbb{R}\mathbb{P}^n$ is a CW-complex. 
+> 	 1. For $n=0$, $\mathbb{R}\mathbb{P}^0\cong P$ where $P$ is a one-point space, which is a CW-complex.
+> 	 2. For $n\geq 1$, let $\mathbb{R}\mathbb{P}^{n-1}$ be a $n-1$ dimensional CW-complex with one cell in each dimension up to $n-1$. Then, we can attach $B^n$ using $f:(B^n,\partial B^n)\to(\mathbb{R}\mathbb{P}^{n},\mathbb{R}\mathbb{P}^{n-1})$. Hence, $\mathbb{R}\mathbb{P}^n$ is a $n$-dimensional CW-complex.
+> 3. We have that: $$0\to C_{n}(\mathbb{R}\mathbb{P}^n)\to C_{n}(\mathbb{R}\mathbb{P}^{n-1})$$ 
+>    
+>    Let $\sigma_{n}\in I_{n}$ be the only $n$-cell. Then, $$d\sigma_{n}=[\sigma_{n-1}:\sigma_{n}]\sigma_{n-1}$$ where $[\sigma_{n-1}:\sigma_{n}]=2$. Hence, 
 ---
 
 > [!lemma] Proposition 2

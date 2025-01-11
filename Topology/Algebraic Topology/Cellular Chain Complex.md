@@ -68,7 +68,7 @@
 > 2. $H_{1}(\mathbb{R}\mathbb{P}^{2})\cong \mathbb{Z} / 2\mathbb{Z}$
 > 3. $H_{n}(\mathbb{R}\mathbb{P}^2)=0$ for all $n\geq 0$
 
-> [!proof]+
+> [!proof]-
 > We can represent $\mathbb{R}\mathbb{P}^{2}$ as a CW complex with 3 cells. Namely, 
 > 1. one $0$-cell $\sigma_{0}$,
 > 2. one $1$-cell $\sigma_{1}$, a loop at $\sigma_{0}$,
