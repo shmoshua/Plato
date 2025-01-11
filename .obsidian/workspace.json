@@ -246,12 +246,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Chain Complex.md",
+                "file": "Algebra/Split Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Chain Complex"
+              "title": "Split Exact Sequence"
             }
           }
         ],
@@ -401,10 +401,11 @@
   },
   "active": "63b879f3b00eb8c8",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
+    "Algebra/Split Exact Sequence.md",
     "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Compact Space.md",
     "Technical Lemmas.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
@@ -414,7 +415,6 @@
     "Topology/Locally Path-Connected Space.md",
     "Topology/Interior and Closure.md",
     "Topology/CW-Complex.md",
-    "Algebra/Split Exact Sequence.md",
     "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Inscribed Rectangle Problem.md",
