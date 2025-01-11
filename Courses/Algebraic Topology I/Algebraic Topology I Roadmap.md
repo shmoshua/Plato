@@ -261,11 +261,11 @@
 ![[Degree of Sphere Maps#^d81610|p]]
 
 ---
-![[Wedge Sum#^56869a]]
-![[Wedge Sum#^6c44a6]]
+![[Wedge Product#^56869a]]
+![[Wedge Product#^6c44a6]]
 
 ---
-![[Wedge Sum#^789a47]]
+![[Wedge Product#^789a47]]
 
 
 ---

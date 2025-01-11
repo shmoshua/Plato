@@ -158,7 +158,7 @@
 
 ---
 > [!h] Example 2
-> Let $X:=S^n_{1}\lor \dots \lor S^n_{k}$ be a [[Wedge Sum|bouquet of $k$ $n$-dimensional spheres]]. Then, 
+> Let $X:=S^n_{1}\lor \dots \lor S^n_{k}$ be a [[Wedge Product|bouquet of $k$ $n$-dimensional spheres]]. Then, 
 > 1. for all $p\in \mathbb{Z}$: $$\psi:\tilde{H}_{p}(S^n_{1})\oplus \dots \oplus \tilde{H}_{p}(S^n_{k})\to \tilde{H}_{p}(X),\quad (x_{1},\dots,x_{k})\mapsto(i_{1})_{*}(x_{1})+\dots+(i_{k})_{*}(x_{k})$$is an isomorphism with its inverse map given by: $$\psi ^{-1}:\tilde{H}_{p}(X)\to\tilde{H}_{p}(S^n_{1})\oplus \dots \oplus \tilde{H}_{p}(S^n_{k}),\quad x\mapsto((p_{1})_{*}(x),\dots,(p_{k})_{*}(x))$$
 
 > [!proof]-

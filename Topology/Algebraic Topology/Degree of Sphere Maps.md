@@ -75,17 +75,18 @@
 > 1. For any continuous map $f:S^n\to S^n$, there exists $x\in S^n$ s.t. $f(x)\in \{ x,-x \}$.
 > 2. For any continuous [[vector field]] $v:S^n\to \text{T}S^n$ where $\text{T}_{x}S^n:=\{ y\in \mathbb{R}^{n+1}:x{\bot}y \}$, there exists $x_{0}\in S^n$ with $v(x_{0})=0$.
 > 3. For any continuous map $f:S^n\to S^n$, if $f$ has no fixed point, then $\deg f=(-1)^{n+1}$
+> 4. For any free action $G \curvearrowright S^n$, $G$ is either trivial or isomorphic to $\mathbb{Z} / 2\mathbb{Z}$.
 
 ^2fc6d4
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Suppose by contradiction we have that $f(x)\notin \{ x,-x \}$ for all $x\in S^n$. Then, we define the following two homotopies: $$F:S^n\times I\to S^n,\quad (x,t)\mapsto \frac{tf(x)+(1-t)x}{\left\| tf(x)+(1-t)x \right\| }$$and $$G:S^n\times I\to S^n,\quad (x,t)\mapsto \frac{tf(x)-(1-t)x}{\left\| tf(x)-(1-t)x \right\| }$$Then, $F$ is a homotopy from $\text{id}$ to $f$ and $G$ is a homotopy from $\sigma$ to $f$ where $\sigma$ is the antipodal map from Theorem 2.3. Note that the homotopies are well-defined. Indeed, assume that $tf(x)+(1-t)x=0$ for some $x,t$. First, as $f(x)\neq x$, we have that this can only happen if $t = \frac{1}{2}$. In which case $f(x)+x = 0$ and $f(x)=-x$, which is a contradicton.
 > 
 > 	Hence, $\text{id}\sim \sigma$ which is a contradiction to the Corollary of Theorem 2.
 > 2. Suppose by contradiction that $\text{supp }v=S^n$. Consider the map: $$f:S^n\to S^n,\quad x\mapsto \frac{v(x)}{\left\| v(x) \right\| }$$Then, clearly $f(x)\in \text{T}_{x}S^n$. However, as $x,-x\notin \text{T}_{x}S^n$, we have that $f(x)\notin \{ x,-x \}$ for all $x\in S^n$. This is a contradiction to 1. 
-> 3. Let $f$ have no fixed point. Then, for any $x\in X$, $(1-t)f(x)-tx\neq 0$ for all $t\in [0,1]$
-
+> 3. Let $f$ have no fixed point. Then, for any $x\in X$, $(1-t)f(x)-tx\neq 0$ for all $t\in [0,1]$. Therefore, $$F:S^n\times I\to S^n,\quad (x,t)\mapsto \frac{(1-t)f(x)-tx}{\left\| (1-t)f(x)-tx \right\| }$$is a homotopy from $f$ to $-\text{id}$. Therefore, $\deg(f)=\deg(\sigma)=(-1)^{n+1}$. 
+> 4. Let $\rho:G\to \text{Homeo}(S^n)$. Notice that for a homeomorphism $f\in \text{Homeo}(S^n)$, $\deg(f)\in\{ \pm 1 \}$. Therefore, we can define: $$d:G\to \{ \pm 1 \},\quad g\mapsto \deg(\rho(g))$$where this is a group homomorphism as: $$d(gh)=\deg(\rho(gh))=\deg(\rho(g)\circ \rho(h))=\deg(\rho(g))\deg(\rho(h))=d(g)d(h)$$However, for any $e\neq g\in G$, as the action is free $\rho(g)$ has no fixed point and by 3, $\deg(f)=(-1)^{n+1}=-1$. Hence, $\text{ker }d= \{ e \}$ and $G$ is isomorphic to a subset of $\{ \pm 1 \}$.
 ^05f580
 
 ---
