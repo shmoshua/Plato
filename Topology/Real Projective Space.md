@@ -19,6 +19,20 @@
 >  4. We finally show that the charts are smoothly compatible. For $0\leq j< k\leq n$, we have that for $a\in\varphi_{k}(U_{j}\cap U_{k})$: $$\begin{align}\varphi_{j}\varphi_{k}^{-1}(a^0,\dots,a^{n-1})&=\varphi_{j}(\pi(a^0,\dots,a^{k-1},1,a^k,\dots,a^{n-1}))\\&=\frac{(a^0,\dots,\widehat{a^j},\dots,a^{k-1},1,a^k,. ..,a^{n-1})}{a^j}\end{align}$$which is smooth.
 
 ---
+
+> [!lemma] Theorem 1
+> We have that: 
+> 1. $\mathbb{R}\mathbb{P}^n \cong S^n / \{ \pm1 \}$ where $\{ \pm 1 \} \curvearrowright S^n,(\lambda,x)=\lambda x$.
+> 2. $\mathbb{R}\mathbb{P}^n \cong B^n / {\sim}$ where $x\sim-x$ for all $x\in \partial B^n$.
+
+> [!proof]+
+> We have that:
+> 1. Define: $$\psi:S^n / \{ \pm 1 \}\to \mathbb{R}\mathbb{P}^n,\quad x\mapsto \mathbb{R} \backslash \{ 0 \}\cdot x$$Then, $\psi$ is continuous and surjective. Further, for $\mathbb{R} \backslash \{ 0 \}\cdot x=\mathbb{R} \backslash \{ 0 \}y$, then, $x/y\in \mathbb{R} \backslash \{ 0 \}$ and as $\|x\| / \|y\| = 1$, we have that $x / y\in \{ \pm 1 \}$. This shows the injectivity. Hence, we conclude from the fact that $S^n / \{ \pm 1 \}$ is compact and $\mathbb{R}\mathbb{P}^n$ is Hausdorff. 
+> 1. Define: $$\psi:B^n/ {\sim} \to \mathbb{R}\mathbb{P}^n,\quad [x_{1},\dots,x_{n}]\mapsto [x_{1},\dots,x_{n},\sqrt{ 1-\|x\|^{2} }]$$is continuous. Further, it is injective as if $[x_{1},\dots,x_{n},\sqrt{ 1-\|x\|^{2} }]=[y_{1}:\dots:y_{n}:\sqrt{ 1-\|y\|^{2} }]$, then $x_{i}=\lambda y_{i}$ and $$\sqrt{ 1-\|x\|^{2} }=\sqrt{ 1-\left| \lambda \right| ^{2}\|y\|^{2} }=\lambda\sqrt{ 1-\|y\|^{2} }$$so we have that $1-\left| \lambda \right|^{2}\|y\|^{2}=\lambda^{2}(1-\|y\|^{2})$ and $1=\lambda^{2}$. Hence, $\lambda=\pm 1$ and $\psi$ is injective. Plus, one can see that $\psi$ is surjective. 
+>    
+>    As $B^n / {\sim}$ is compact and $\mathbb{R}\mathbb{P}^n$ is Hausdorff, $\psi$ is a homeomorphism.
+---
+
 > [!lemma] Proposition 2
 > The projection $S^n\to \mathbb{R} \mathbb{P}^n,x\mapsto \pi(x)$ is smooth.
 
