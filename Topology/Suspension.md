@@ -10,7 +10,7 @@
 > 1. $C_{+}X$ is [[Contractible Space|contractible]].
 > 2. there exists a natural isomorphism $\tilde{H}_{p}(X)\to \tilde{H}_{p+1}(\Sigma X)$. 
 
-> [!proof]+
+> [!proof]-
 > Let $q:I\times X\to\Sigma X$ be the quotient function. Then, 
 > 1. We define $c:C_{+}X\to C_{+}X, [t,x]\mapsto [1,x]$ be a constant map. We will show that $\text{id}_{C_{+}X}\sim c$. Let: $$F:C_{+}X\times I\to C_{+}X,\quad ([t,x],s)\mapsto [t+(1-t)s,x]$$which is well-defined as $F([1,x],s)=[1,x]=[1,x']=F([1,x'],s)$. Then, $F([t,x],0)=[t,x]$ and $F([t,x],1)=[1,x]=c([t,x])$. 
 > 2. Let $A:=q\left( \left\{  \frac{1}{2}  \right\}\times X \right)\subseteq C_{+}X$. Then, $A\cong X$ and we have from the LES: $$\underbrace{ \tilde{H}_{p+1}(C_{+}X) }_{ =0 }\to H_{p+1}(C_{+}X,A)\to \tilde{H}_{p}(A)\to \underbrace{ \tilde{H}_{p}(C_{+}X) }_{ 0 }$$and $H_{p+1}(C_{+}X,A)\cong \tilde{H}_{p}(A)\cong \tilde{H}_{p}(X)$. 

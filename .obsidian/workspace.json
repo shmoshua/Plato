@@ -140,12 +140,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Suspension.md",
+                "file": "Topology/Wedge Sum.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Suspension"
+              "title": "Wedge Sum"
             }
           }
         ],
@@ -213,7 +213,7 @@
             }
           },
           {
-            "id": "7c18594277eb8f09",
+            "id": "9ba489aacf84feae",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -224,34 +224,6 @@
               },
               "icon": "lucide-file",
               "title": "Wedge Sum"
-            }
-          },
-          {
-            "id": "4eac7029bc951a32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Singular Homology"
-            }
-          },
-          {
-            "id": "9ba489aacf84feae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Contractible Space.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Contractible Space"
             }
           },
           {
@@ -269,35 +241,21 @@
             }
           },
           {
-            "id": "134bf0dbee0ba8f2",
+            "id": "01cd1df0c6ef465c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Suspension.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Suspension"
-            }
-          },
-          {
-            "id": "ac23598b1c960e29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Retract.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Retract"
+              "title": "Exact Sequence"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -441,23 +399,24 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "134bf0dbee0ba8f2",
+  "active": "9ba489aacf84feae",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Algebra/Exact Sequence.md",
+    "Topology/Wedge Sum.md",
     "Topology/Retract.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Suspension.md",
-    "Topology/Quotient Topology.md",
     "Topology/Contractible Space.md",
+    "Topology/Quotient Topology.md",
     "Topology/Mapping Cylinder.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Covering Space.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/Wedge Sum.md",
     "Topology/Lift.md",
     "Topology/Fundamental Group.md",
     "Topology/Compact Space.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Initial Topology.md",
     "Topology/Final Topology.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
@@ -468,7 +427,6 @@
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "TIKZ.md",
     "Topology/Locally Path-Connected Space.md",
-    "Topology/Interior and Closure.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
