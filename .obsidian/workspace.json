@@ -232,12 +232,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Algebra/Split Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "Split Exact Sequence"
             }
           },
           {
@@ -246,16 +246,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "Homology Theory"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -399,11 +399,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ba489aacf84feae",
+  "active": "01cd1df0c6ef465c",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Exact Sequence.md",
+    "Algebra/Split Exact Sequence.md",
+    "Topology/Covering Space.md",
     "Topology/Wedge Sum.md",
+    "Algebra/Splitting Field.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Retract.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Suspension.md",
@@ -412,7 +415,6 @@
     "Topology/Mapping Cylinder.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Covering Space.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Lift.md",
     "Topology/Fundamental Group.md",
@@ -421,12 +423,10 @@
     "Topology/Final Topology.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Homotopy.md",
-    "Algebra/Split Exact Sequence.md",
     "Algebra/Chain Complex.md",
     "Technical Lemmas.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "TIKZ.md",
-    "Topology/Locally Path-Connected Space.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

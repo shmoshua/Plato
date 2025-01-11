@@ -22,10 +22,10 @@
 ---
 > [!lemma] Proposition 2
 > Let $(X,x_{0})$ and $(Y,y_{0})$ be pointed spaces and $N\subseteq X$ a closed neighborhood of $x_{0}$ s.t. $\{ x_{0} \}$ is a strong deformation retract of $N$.
-> 1. $\tilde{H}_{p}(X)\oplus \tilde{H}_{p}(Y)\cong H_{p}(X\lor Y)$ given by the inclusions and projections.
+> 1. $\tilde{H}_{p}(X)\oplus \tilde{H}_{p}(Y)\cong \tilde{H}_{p}(X\lor Y)$ given by the inclusions and projections.
 
-> [!proof]+
-> Let $i^X:(X,\varnothing)\to(X \lor Y,\varnothing)$ and $i^Y:(Y,\varnothing)\to(X\lor Y,\varnothing)$ be inclusions. Further, let $k:(X\lor Y,\varnothing)\to(X\lor Y,X)$ also be an inclusion. Then, $$\dots\to H_{p+1}(X\lor Y,X)\xrightarrow{\partial_{*}} \tilde{H}_{p}(X)\xrightarrow{ i_{*}^X}\tilde{H}_{p}(X\lor Y)\xrightarrow{k_{*}} H_{p}(X \lor Y,X)\to \tilde{H}_{p-1}(X)\to \dots$$However, notice that: $$\tilde{H}_{p}(Y)\cong H_{p}(Y,y_{0})\cong H_{p}(N\cup Y,N)\cong H_{p}(X \lor Y,X)$$which is induced by the inclusion $j:(Y,\varnothing)\to(X\lor Y,X)$. Further, note that $j=k \circ i^Y$ and  as $j_{*}$ is an isomorphism, $k_{*} \circ i^Y_{*}\circ (j_{*})^{-1}=\text{id}$ and $k_{*}$ is surjective. Therefore, 
+> [!proof]-
+> Let $i^X:(X,\varnothing)\to(X \lor Y,\varnothing)$ and $i^Y:(Y,\varnothing)\to(X\lor Y,\varnothing)$ be inclusions. Further, let $k:(X\lor Y,\varnothing)\to(X\lor Y,X)$ also be an inclusion. Then, $$\dots\to H_{p+1}(X\lor Y,X)\xrightarrow{\partial_{*}} \tilde{H}_{p}(X)\xrightarrow{ i_{*}^X}\tilde{H}_{p}(X\lor Y)\xrightarrow{k_{*}} H_{p}(X \lor Y,X)\to \tilde{H}_{p-1}(X)\to \dots$$However, notice that: $$\tilde{H}_{p}(Y)\cong H_{p}(Y,y_{0})\cong H_{p}(N\cup Y,N)\cong H_{p}(X \lor Y,X)$$which is induced by the inclusion $j:(Y,\varnothing)\to(X\lor Y,X)$. Further, note that $j=k \circ i^Y$ and  as $j_{*}$ is an isomorphism, $k_{*} \circ i^Y_{*}\circ (j_{*})^{-1}=\text{id}$ and $k_{*}$ is surjective. Therefore, $$ 0 \to\tilde{H}_{p}(X)\xrightarrow{i^X_{*}} \tilde{H}_{p}(X \lor Y)\xrightarrow{k_{*}} H_{p}(X \lor Y,X) \to 0$$is a SES and we have that: $$ 0 \to\tilde{H}_{p}(X)\xrightarrow{i^X_{*}} \tilde{H}_{p}(X \lor Y)\xrightarrow{(j_{*})^{-1} \circ  k_{*}} \tilde{H}_{p}(Y) \to 0$$is split as $(j_{*})^{-1}\circ k_{*} \circ i^Y_{*} = \text{id}$. Hence, we there exists an isomorphism $\tilde{H}_{p}(X)\oplus \tilde{H}_{p}(Y)\to \tilde{H}_{p}(X\lor Y)$ given by the inclusions and the inverse by the projections.
 ---
 ##### Examples
 > [!h] Example 1 (Bouquet of Spheres)
