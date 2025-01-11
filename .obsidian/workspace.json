@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       },
       {
         "id": "4d5ec56e57395c88",
@@ -246,12 +246,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Regular Domain.md",
+                "file": "Algebra/Free Action.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Regular Domain"
+              "title": "Free Action"
             }
           }
         ],
@@ -400,10 +400,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2e294d59ff666a9e",
+  "active": "b40bea9cc5405c18",
   "lastOpenFiles": [
     "Topology/Wedge Sum.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Algebra/Free Action.md",
+    "Topology/Suspension.md",
     "Differential Geometry/Regular Domain.md",
     "Topology/One-Point Compactification.md",
     "Topology/Algebraic Topology/Homology Theory.md",
@@ -413,7 +415,6 @@
     "Algebra/Splitting Field.md",
     "Topology/Retract.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Suspension.md",
     "Topology/Contractible Space.md",
     "Topology/Quotient Topology.md",
     "Topology/Mapping Cylinder.md",
@@ -427,7 +428,6 @@
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Homotopy.md",
     "Algebra/Chain Complex.md",
-    "Technical Lemmas.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
