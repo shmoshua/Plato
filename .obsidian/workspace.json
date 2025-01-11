@@ -140,12 +140,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Wedge Sum.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Wedge Sum"
+              "title": "Homology Theory"
             }
           }
         ],
@@ -232,12 +232,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Split Exact Sequence.md",
+                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Split Exact Sequence"
+              "title": "Degree of Sphere Maps"
             }
           },
           {
@@ -246,16 +246,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Differential Geometry/Regular Domain.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "Regular Domain"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -286,7 +286,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inscri",
+                "query": "brouwer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -307,7 +307,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -399,21 +400,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "01cd1df0c6ef465c",
+  "active": "2e294d59ff666a9e",
   "lastOpenFiles": [
-    "Algebra/Exact Sequence.md",
-    "Algebra/Split Exact Sequence.md",
-    "Topology/Covering Space.md",
     "Topology/Wedge Sum.md",
-    "Algebra/Splitting Field.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Differential Geometry/Regular Domain.md",
+    "Topology/One-Point Compactification.md",
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Algebra/Split Exact Sequence.md",
+    "Algebra/Exact Sequence.md",
+    "Topology/Covering Space.md",
+    "Algebra/Splitting Field.md",
     "Topology/Retract.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Suspension.md",
     "Topology/Contractible Space.md",
     "Topology/Quotient Topology.md",
     "Topology/Mapping Cylinder.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Lift.md",
@@ -425,8 +428,6 @@
     "Topology/Homotopy.md",
     "Algebra/Chain Complex.md",
     "Technical Lemmas.md",
-    "Topology/Algebraic Topology/Euler Characteristic.md",
-    "TIKZ.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

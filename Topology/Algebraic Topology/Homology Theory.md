@@ -36,7 +36,7 @@
 
 ^d375b2
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. We have an exact sequence: $$\cdots \to H_{p+1}(X,\varnothing)\xrightarrow{\partial_{*}} H_{p}(X,\varnothing)\xrightarrow{\text{id}} H_{p}(X,\varnothing)\xrightarrow{j_{*}} H_{p}(X,X)\to H_{p-1}(X,\varnothing)\to\cdots$$Hence, $H_{p}(X,\varnothing)=\text{ker }j_{*}$ and $j_{*} = 0$. However, we also have that: $\text{im}(\partial_{*})=\text{ker }\text{id} = 0$. Hence, $\partial_{*}=0$. Now, we have that $$H_{p}(X,X)=\text{ker }\partial_{*} =\text{im }j_{*}=0$$
 > 2. We have that: $$\to H_{p+1}(X)\xrightarrow{\text{id}} H_{p+1}(X,\varnothing)\to H_{p}(\varnothing)\to H_{p}(X)\xrightarrow{\text{id}} H_{p}(X,\varnothing)\to$$is exact and therefore, $H_{p}(\varnothing)=0$. 
