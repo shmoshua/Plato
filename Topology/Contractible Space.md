@@ -34,6 +34,14 @@
 > 
 > Further, any path-connected space is connected. Also, simply connectedness follows from Proposition 1. 
 ---
+> [!lemma] Theorem 3
+> Let $X$ be contractible and $r:X\to A$ be a [[Retract|retraction]]. Then, 
+> 1. $A$ is also contractible.
+
+> [!proof]-
+> Let $F:X\times I\to X$ be a homotopy s.t. $F(x,0)=x$ and $F(x,1)=x_{0}$ for all $x\in X$ where $x_{0}\in X$. Then, $G:=r\circ F|_{A\times I}$ is continuous and $G(x,0)=r(x)=x$ and $G(x,1)=r(x_{0})$ for all $x\in A$. Hence, $G$ is a homotopy from $\text{id}_{A}$ to a constant map.
+
+---
 ![[Homotopy#^623c55]]
 ![[Homotopy#^fb1fb4|p]]
 ---
