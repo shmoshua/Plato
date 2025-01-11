@@ -227,20 +227,6 @@
             }
           },
           {
-            "id": "9ba489aacf84feae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Chain Complex.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Chain Complex"
-            }
-          },
-          {
             "id": "63b879f3b00eb8c8",
             "type": "leaf",
             "state": {
@@ -253,9 +239,23 @@
               "icon": "lucide-file",
               "title": "Homology Theory"
             }
+          },
+          {
+            "id": "9ba489aacf84feae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Chain Complex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Chain Complex"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -399,10 +399,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ba489aacf84feae",
+  "active": "4eac7029bc951a32",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Compact Space.md",

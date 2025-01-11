@@ -175,4 +175,12 @@
 > 2. Holds by 1, [[Chain Complex|Theorem 3]] and $H_{p}(\mathcal{S}^\mathcal{U}(X))\cong H_{p}(X)$ by Theorem 4.
 > 3. Let $c\in S^\mathcal{U}_{1}(X)$ be a cycle. Then, $c=c^A-c^B$ with $c^A$ a chain with image in $A$ and $c^B$ in $B$. Consider $(\partial c^A,\partial c^B)$. Since $\partial c=0$, we have that $\partial c^A=\partial c^B\in S_{0}(A\cap B)$. 
 >    
->    Then, $\varepsilon^A(\partial c^A)=0$ and $\varepsilon^{A\cap B}(\partial c^A)=0$. Therefore, $\delta(c)=$
+>    Then, $\varepsilon^A(\partial c^A)=0$ and $\varepsilon^{A\cap B}(\partial c^A)=0$. Therefore, $\delta(c)=[\partial c^A]$ is in the kernel of $\varepsilon^{A\cap B}$. Hence, $\delta(H_{1}(X))\subseteq \tilde{H}_{0}(A\cap B)$.
+>    
+>    To show that the exact sequence also holds in reduced homology, it suffices to show it for: $$\to H_{1}(X)\xrightarrow{\delta}\tilde{H}_{0}(A\cap B)\to \tilde{H}_{0}(A)\oplus \tilde{H}_{0}(B)\to \tilde{H}_{0}(X)\to 0$$
+>    - **Exactness at $\tilde{H}_{0}(A\cap B)$**:
+>     From 2, we have that $\text{im }\delta \subseteq \text{ker }i^A_{*}\oplus i^B_{*}$. Let $a\in \tilde{H}_{0}(A\cap B)$ s.t. $i^A_{*}\oplus i^B_{*}(a)=0$. Then, $a\in \text{im }\delta$ and we have the statement.
+>    - **Exactness at $\tilde{H}_{0}(A)\oplus \tilde{H}_{0}(B)$**:
+>      We have that $\text{im } i^A_{*}\oplus i^B_{*} \subseteq \text{ker }j^A_{*}-j^B_{*}$. Conversely, let $(a,b)\in \tilde{H}_{0}(A)\oplus \tilde{H}_{0}(B)$ s.t. $j^A_{*}(a)-j^B_{*}(b)=0$. Then, there exists $x\in H_{0}(A\cap B)$ with $i^A_{*}(x)=a$ and $i^B_{*}(x)=b$. However, $$\varepsilon_{*}(x)=\varepsilon_{*}(i^A_{*}\oplus  i^B_{*}(x))=(\varepsilon^A_{*}(a),\varepsilon^B_{*}(b))=0$$
+>    - **Exactness at $\tilde{H}_{0}(X)$**:
+>      To show that $j^A_{*}-j^B_{*}$ is surjective, let $a\in \tilde{H}_{0}$
