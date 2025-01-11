@@ -53,13 +53,13 @@
 > 2. $H_{0}(X)\cong \tilde{H}_{0}(X)\oplus G$
 > 3. for $f:X\to Y$, $f_{*}(\tilde{H}_{0}(X))\subseteq \tilde{H}_{0}(Y)$.
 > 4. there exists $\tilde{i}_{*},\tilde{j_{*}}$ s.t. the following sequence is exact: $$\cdots \to \tilde{H}_{p}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{p}(X)\xrightarrow{\tilde{j}_{*}}\tilde{H}_{p}(X,A)\xrightarrow{\tilde{\partial}_{*}} \tilde{H}_{p-1}(A)\to\cdots$$
-> 5. $\tilde{H}_{p}(P)=0$ for point space $P$ for all  $p\in \mathbb{Z}$. 
+> 5. $\tilde{H}_{p}(P)=0$ for point space $P$ for all  $p\in \mathbb{Z}$, i.e. $\tilde{H}_{p}(P)$ is [[Acyclic Space|acyclic]].
 > 6. $\tilde{H}_{p}(X)\cong H_{p}(X,x_{0})$ for $x_{0}\in X$ where $X\neq \varnothing$. 
 > 7. If $X$ is [[Contractible Space|contractible]] then $\tilde{H}_{p}(X)=0$ for all $p\in \mathbb{Z}$.
 
 ^0469d8
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Follows from the fact that $\varepsilon_{*}$ is the zero map for $p\neq 0$. 
 > 2. Let $i:P\to X$. Then, $\varepsilon \circ i=\text{id}_{P}$ and $\varepsilon_{*}\circ i_{*} = \text{id}_{H_{p}(P)}$. This shows that $\varepsilon_{*}$ is surjective and: $$0\to \tilde{H}_{p}(X)\to H_{p}(X)\xrightarrow{\varepsilon_{*}}H_{p}(P)\to 0$$defines a SES. As $i_{*}$ is the right inverse of $\varepsilon_{*}$, by [[Split Exact Sequence|Proposition 1]], the SES is split. Therefore, $$H_{p}(X)\cong \tilde{H}_{p}(X)\oplus H_{p}(P)$$and we have our statement when $p=0$.
@@ -97,7 +97,13 @@
 > 	  3. **Exactness at $H_{0}(X,A)$.** 
 > 	     $\text{im }\tilde{j}_{*}\subseteq \text{ker }\partial_{*}$ by definition. Then, for $x\in \text{ker }\partial_{*}\subseteq H_{0}(X,A)$, we have that there exists $y\in H_{0}(X)$ with $j_{*}(y)=x$. Further, as $\varepsilon_{*}$ is surjective, there exists $a\in H_{0}(A)$ with $\varepsilon_{*}(a)=\varepsilon_{*}(i_{*}(a))=\varepsilon_{*}(y)$. Therefore, we have $y-i_{*}(a)\in \tilde{H}_{0}(X)$ and further: $$j_{*}(y-i_{*}(a))=x-0=x$$This proves the statement.
 > 	
-> 	Now, let $A=\varnothing$. Then, $$\to H_{1}(X,\varnothing)=H_{1}(X)\to \tilde{H}_{0}(\varnothing)\to \tilde{H}_{0}(X)\to H_{0}(X)\to \tilde{H}_{-1}(\varnothing)\to 0\to$$
+> 	Now, let $A=\varnothing$. Then, $$\to H_{1}(X,\varnothing)=H_{1}(X)\to 0\to \tilde{H}_{0}(X)\to H_{0}(X)\to G\to 0\to$$
+> 	We have that:
+> 	1. **Exactness at $\tilde{H}_{0}(X)$:** holds as $\tilde{H}_{0}(X)\to H_{0}(X)$ inclusion is injective.
+> 	2. **Exactness at $H_{0}(X)$**: 
+> 	   As $H_{0}(P)\cong G$, we have the exactness.	   	   
+>    1. **Exactness at $G$**:
+>       As $H_{0}(X)\cong \tilde{H}_{0}(X)\oplus G$, the map is surjective. 
 > 1. For $p\neq 0$, it follows from $\tilde{H}_{p}(P)= H_{p}(P)=0$. For $p=0$, we have that: $$0\to \tilde{H}_{p}(P)\to H_{p}(P)\to H_{p}(P)\to 0$$is an SES. As $\varepsilon=\text{id}_{P}$, $\varepsilon_{*}$ is an isomorphism and $\tilde{H}_{p}(P)\to H_{p}(P)$ is a zero map. As the sequence is exact at $\tilde{H}_{p}(P)$, $\tilde{H}_{p}(P) =0$. 
 > 2. We have that: $$0=\tilde{H}_{p}(x_{0})\to \tilde{H}_{p}(X)\to H_{p}(X,x_{0})\to \tilde{H}_{p-1}(x_{0})=0$$is exact and $\tilde{H}_{p}\to H_{p}(X,x_{0})$ is an isomorphism.
 > 3. Let $c:X\to X$ be a constant function s.t. $c\sim \text{id}_{X}$. Then, $c$ can be decomposed into: $$X\xrightarrow{\overline{c}}c(X)\xrightarrow{i}X$$where $c(X)$ is a point space. Hence, $c_{*}=i_{*} \circ \overline{c}_{*}$ given by: $$\tilde{H}_{p}(X)\xrightarrow{\overline{c}_{*}}\tilde{H}_{p}(c(X))\xrightarrow{i_{*}}\tilde{H}_{p}(X)$$However, from 5, $\tilde{H}_{p}(c(X))=0$ for all $p\in \mathbb{Z}$. Therefore, $\text{id}_{\tilde{H}_{p}(X)}=c_{*}=0$.  
@@ -105,6 +111,8 @@
 ^7a6086
 
 
+   
+   
 ---
 > [!lemma] Theorem 3
 > The singular homology is a homology theory with coefficients group $\mathbb{Z}$.
