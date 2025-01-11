@@ -169,7 +169,7 @@
 > 2. There exists a LES given by: $$\dots\to H_{p}(A\cap B)\to H_{p}(A)\oplus H_{p}(B)\to H_{p}(X)\xrightarrow{\delta}H_{p-1}(A\cap B)\to\dots$$
 > 3. if $A\cap B\neq \varnothing$, then $\delta(H_{1}(X))\subseteq \tilde{H}_{0}(A\cap B)$ and: $$\dots\to \tilde{H}_{p}(A\cap B)\to \tilde{H}_{p}(A)\oplus \tilde{H}_{p}(B)\to \tilde{H}_{p}(X)\xrightarrow{\delta}\tilde{H}_{p-1}(A\cap B)\to\dots$$
 
-> [!proof]+
+> [!proof]-
 > We have that 
 > 1. $i^A_{c}\oplus i^B_{c}$ is injective and $j^A_{c}-j^B_{c}$ is surjective. Now, let $a\in S_{p}(A)$ and $b\in S_{p}(B)$ s.t. $j^A_{c}(a)=j^B_{c}(b)$. Then, $a,b\in S_{p}(A\cap B)$ and $a=b$. Hence, $i^A_{c}\oplus i^B_{c}(a)=(a,b)$. This shows that $\text{ker }j^A_{c}-j^B_{c}\subseteq \text{im }i^A_{c}\oplus i^B_{c}$. The other inclusion is trivial.
 > 2. Holds by 1, [[Chain Complex|Theorem 3]] and $H_{p}(\mathcal{S}^\mathcal{U}(X))\cong H_{p}(X)$ by Theorem 4.

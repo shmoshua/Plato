@@ -140,12 +140,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Mapping Cylinder.md",
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Mapping Cylinder"
+              "title": "p-Simplex"
             }
           }
         ],
@@ -297,7 +297,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -441,22 +441,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "134bf0dbee0ba8f2",
+  "active": "00a59ea9009f02e1",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
     "Topology/Mapping Cylinder.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Retract.md",
+    "Topology/Quotient Topology.md",
     "Topology/Contractible Space.md",
     "Topology/Initial Topology.md",
     "Topology/Final Topology.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Homotopy.md",
     "Topology/Compact Space.md",
     "Algebra/Split Exact Sequence.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Chain Complex.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Technical Lemmas.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",

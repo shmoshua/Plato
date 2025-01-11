@@ -285,17 +285,20 @@
 > [!h] Example 2 (Path-Connected Space)
 > If $X\neq \varnothing$ and $X$ is [[Path-Connected Space|path-connected]], then:
 > 1. $H_{0}(X)\cong \mathbb{Z}$.
+> 2. For any $f:X\to X$, $f_{*}=\text{id}_{H_{0}(X)}$.
 
 ^1342f9
 
-> [!proof]-
-> Consider a singular $0$-simplex $\sigma$ in $X$. Then, as $\Delta_{0}$ is a point, we have that $S_{0}(X)$ is a set of finite formal sum of points in $X$. 
+> [!proof]+
+> We have:
+> 1. Consider a singular $0$-simplex $\sigma$ in $X$. Then, as $\Delta_{0}$ is a point, we have that $S_{0}(X)$ is a set of finite formal sum of points in $X$. 
 > 
-> Let $\varepsilon:S_{0}(X)\to \mathbb{Z},\sum_{x}^{}n_{x}x\mapsto \sum_{x}^{}n_{x}$. Then, notice that $\varepsilon$ is a homomorphism. 
+> 	Let $\varepsilon:S_{0}(X)\to \mathbb{Z},\sum_{x}^{}n_{x}x\mapsto \sum_{x}^{}n_{x}$. Then, notice that $\varepsilon$ is a homomorphism. 
 > 
-> Let $\sigma:\Delta_{1}\to X$ now be a singular $1$-simplex in $X$. Then, for $x_{0}:=\sigma(e_{0})$ and $x_{1}:=\sigma(e_{1})$, we have that: $$\partial_{1}\sigma=\sigma(e_{1})-\sigma(e_{0})=x_{1}-x_{0}$$and $\varepsilon \partial_{1}(\sigma)=1-1=0$. Hence, $\varepsilon(\partial_{1}d)=0$ for all $d\in S_{1}(X)$ and $\varepsilon(B_{0}(X))=0$. Therefore, we have that: $$\varepsilon_{*}:H_{0}(X)\to \mathbb{Z}$$induces a homomorphism. 
+> 	Let $\sigma:\Delta_{1}\to X$ now be a singular $1$-simplex in $X$. Then, for $x_{0}:=\sigma(e_{0})$ and $x_{1}:=\sigma(e_{1})$, we have that: $$\partial_{1}\sigma=\sigma(e_{1})-\sigma(e_{0})=x_{1}-x_{0}$$and $\varepsilon \partial_{1}(\sigma)=1-1=0$. Hence, $\varepsilon(\partial_{1}d)=0$ for all $d\in S_{1}(X)$ and $\varepsilon(B_{0}(X))=0$. Therefore, we have that: $$\varepsilon_{*}:H_{0}(X)\to \mathbb{Z}$$induces a homomorphism. 
 > 
-> Now, clearly we have $\varepsilon_{*}([y])=1$ for all $y\in X$ and $\varepsilon_{*}$ is surjective. To show that $\varepsilon_{*}$ is also injective, let $x_{0}\in X$ and for all $x\in X$ let $\lambda_{x}:I\to X$ be a path from $\lambda_{x}(0)=x_{0}$ and $\lambda_{x}(1)=x$. By viewing these paths as singular $1$-simplices, we have that: $$\partial_{1}\lambda_{x}=x-x_{0}\in S_{0}(X)$$Let $c\in S_{0}(X)$ with $c=\sum_{x}n_{x}x$ be a $0$-chain and assume that $\varepsilon_{*}([c])=0$. Then, for $d:=\sum_{x}^{}n_{x}\lambda_{x}\in S_{1}(X)$, we have that: $$\partial_{1}d=\sum_{x}n_{x}(x-x_{0})=\sum_{x}n_{x}x-\varepsilon_{*}([c])x_{0}=c$$Hence, $c\in B_{0}(X)$ and $\varepsilon_{*}([c])=0$. 
+> 	Now, clearly we have $\varepsilon_{*}([y])=1$ for all $y\in X$ and $\varepsilon_{*}$ is surjective. To show that $\varepsilon_{*}$ is also injective, let $x_{0}\in X$ and for all $x\in X$ let $\lambda_{x}:I\to X$ be a path from $\lambda_{x}(0)=x_{0}$ and $\lambda_{x}(1)=x$. By viewing these paths as singular $1$-simplices, we have that: $$\partial_{1}\lambda_{x}=x-x_{0}\in S_{0}(X)$$Let $c\in S_{0}(X)$ with $c=\sum_{x}n_{x}x$ be a $0$-chain and assume that $\varepsilon_{*}([c])=0$. Then, for $d:=\sum_{x}^{}n_{x}\lambda_{x}\in S_{1}(X)$, we have that: $$\partial_{1}d=\sum_{x}n_{x}(x-x_{0})=\sum_{x}n_{x}x-\varepsilon_{*}([c])x_{0}=c$$Hence, $c\in B_{0}(X)$ and $\varepsilon_{*}([c])=0$. 
+> 2. Let $x\in X$. As $X$ is path connected, let $\lambda_{x}$ be a path from $x$ to $f(x)$, i.e. $\lambda$ is a singular $1$-simplex s.t. $$\partial\lambda=f(x)-x$$hence, $f(x)-x\in B_{0}(X)$ and for any $c\in Z_{0}(X)$, we have that: $$f_{c}(c)-c\in B_{0}(X)$$Thus $f_{*}([c])=[f_{c}(c)]=[c]$ and $f_{*}=\text{id}$.
 
 ^909e9b
 
