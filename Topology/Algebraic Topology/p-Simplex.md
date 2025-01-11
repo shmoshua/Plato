@@ -264,6 +264,8 @@
 
 ^f68c2d
 
+- **Remark**: For $f:(X,x_{0})\to(Y,y_{0})$  be a continuous map and $f_{\#}:\pi_{1}(X,x_{0})\to \pi(Y,y_{0})$ and $f_{*}:H_{0}(X)\to H_{0}(Y)$. Then, the following diagram commutes:$$\begin{CD}\pi_{1}(X,x_{0})@>f_{\#}>> \pi_{1}(Y,y_{0})\\@V\phi_{X}VV@VV\phi_{Y}V\\H_{1}(X)@>>f_{*}> H_{1}(Y)\end{CD}$$This is because if $\sigma:I\to X$ with $\sigma(0)=\sigma(1)=x_{0}$, then $f(\sigma(0))=f(\sigma(1))=y_{0}$ and: $$f_{*}(\phi_{X}([\sigma]))=f_{*}([\sigma])=[f \circ  \sigma]=\phi_{Y}([f\circ \sigma])= \phi_{Y}(f_{\#}([\sigma]))$$
+
 ---
 ##### Examples
 > [!h] Example 1 (Point Space)
@@ -289,7 +291,7 @@
 
 ^1342f9
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Consider a singular $0$-simplex $\sigma$ in $X$. Then, as $\Delta_{0}$ is a point, we have that $S_{0}(X)$ is a set of finite formal sum of points in $X$. 
 > 
