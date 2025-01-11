@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       },
       {
         "id": "4d5ec56e57395c88",
@@ -255,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -399,12 +399,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4eac7029bc951a32",
+  "active": "63b879f3b00eb8c8",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Algebra/Chain Complex.md",
     "Topology/Compact Space.md",
     "Technical Lemmas.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",

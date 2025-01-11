@@ -183,4 +183,6 @@
 >    - **Exactness at $\tilde{H}_{0}(A)\oplus \tilde{H}_{0}(B)$**:
 >      We have that $\text{im } i^A_{*}\oplus i^B_{*} \subseteq \text{ker }j^A_{*}-j^B_{*}$. Conversely, let $(a,b)\in \tilde{H}_{0}(A)\oplus \tilde{H}_{0}(B)$ s.t. $j^A_{*}(a)-j^B_{*}(b)=0$. Then, there exists $x\in H_{0}(A\cap B)$ with $i^A_{*}(x)=a$ and $i^B_{*}(x)=b$. However, $$\varepsilon_{*}(x)=\varepsilon_{*}(i^A_{*}\oplus  i^B_{*}(x))=(\varepsilon^A_{*}(a),\varepsilon^B_{*}(b))=0$$
 >    - **Exactness at $\tilde{H}_{0}(X)$**:
->      To show that $j^A_{*}-j^B_{*}$ is surjective, let $a\in \tilde{H}_{0}$
+>      To show that $j^A_{*}-j^B_{*}$ is surjective, let $x\in \tilde{H}_{0}(X)\subseteq H_{0}(X)$. Then, there exists $(a,b)\in H_{0}(A)\oplus H_{0}(B)$ with $j^A_{*}(a)-j^B_{*}(b)=x$. We now only have that: $$\varepsilon_{*}(a,b)=\varepsilon_{*}(j^A_{*}(a)-j^B_{*}(b))=\varepsilon_{*}(x)=0$$Hence, $(a,b)\in \tilde{H}_{0}(A)\oplus \tilde{H}_{0}(B)$.
+---
+
