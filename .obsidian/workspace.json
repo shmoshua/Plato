@@ -283,21 +283,21 @@
             }
           },
           {
-            "id": "188d135ef1726e92",
+            "id": "ac23598b1c960e29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Retract.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Quotient Topology"
+              "title": "Retract"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -441,13 +441,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2e294d59ff666a9e",
+  "active": "134bf0dbee0ba8f2",
   "lastOpenFiles": [
-    "Topology/Suspension.md",
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Retract.md",
+    "Topology/Suspension.md",
     "Topology/Quotient Topology.md",
     "Topology/Contractible Space.md",
-    "Topology/Retract.md",
     "Topology/Mapping Cylinder.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/p-Simplex.md",
