@@ -53,3 +53,6 @@
 > [!lemma] Proposition 3
 > For $n\geq 2$, we have that:
 > 1. $\pi_{1}(\mathbb{R}\mathbb{P}^n,*)\cong \mathbb{Z} / 2\mathbb{Z}$
+
+$$\begin{CD}H_j(X,A)@>\partial_* >> H_{j-1}(A)\\@Vr_* VV&@VV(r|_A)_*=\text{id} V
+\\H_j(A,A)=0 @>>> H_{j-1}(A)\end{CD}$$

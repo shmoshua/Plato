@@ -140,16 +140,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Topology/Mapping Cylinder.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
+              "title": "Mapping Cylinder"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       },
       {
         "id": "4d5ec56e57395c88",
@@ -232,12 +232,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Topology/Mapping Cylinder.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
+              "title": "Mapping Cylinder"
             }
           },
           {
@@ -246,12 +246,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Topology/Retract.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "Retract"
             }
           },
           {
@@ -316,16 +316,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Split Exact Sequence.md",
+                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Split Exact Sequence"
+              "title": "Degree of Sphere Maps"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -470,19 +470,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "cb8afa3e784fe138",
+  "active": "119ede403c2b0d5d",
   "lastOpenFiles": [
+    "Algebra/Split Exact Sequence.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Retract.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Mapping Cylinder.md",
+    "Topology/Real Projective Space.md",
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "Algebra/Split Exact Sequence.md",
-    "Topology/Retract.md",
     "Topology/Homotopy.md",
     "Topology/Suspension.md",
-    "Topology/Real Projective Space.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Wedge Product.md",
     "Topology/Lift.md",
     "Topology/CW-Complex.md",
@@ -497,7 +498,6 @@
     "Differential Geometry/Regular Domain.md",
     "Topology/One-Point Compactification.md",
     "Algebra/Exact Sequence.md",
-    "Algebra/Splitting Field.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
