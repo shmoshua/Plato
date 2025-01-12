@@ -274,12 +274,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/CW-Complex.md",
+                "file": "Topology/Wedge Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CW-Complex"
+              "title": "Wedge Product"
             }
           },
           {
@@ -444,15 +444,15 @@
   },
   "active": "fb202168c3619b61",
   "lastOpenFiles": [
-    "Topology/CW-Complex.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Wedge Product.md",
+    "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Technical Lemmas.md",
     "Topology/Complex Projective Space.md",
     "Algebra/Orbit and Stablizer.md",
-    "Topology/Wedge Product.md",
     "Topology/Smash Product.md",
     "Topology/Covering Space.md",
     "Algebra/Free Action.md",

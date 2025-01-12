@@ -132,4 +132,20 @@
 > 	3. three $2$-cells $c_{1},c_{2},c_{3}$,
 > 	4. one $3$-cell $d$. 
 > 	
-> 	Then, similarly, we have that $d(b_{1})=d(b_{2})=d(b_{3})=0$ and $d(c_{1})=d(c_{2})=d(c_{3})=0$ by 1. Lastly, for the same reason we have that $[c_{i}:d] = 0$. Hence, we have: $$0\to \mathbb{Z}\xrightarrow{0} \mathbb{Z}^3\xrightarrow{0} \mathbb{Z}^3\xrightarrow{0} \mathbb{Z}\to 0$$
+> 	Then, similarly, we have that $d(b_{1})=d(b_{2})=d(b_{3})=0$ and $d(c_{1})=d(c_{2})=d(c_{3})=0$ by 1. Lastly, for the same reason we have that $[c_{i}:d] = 0$. Hence, we have: $$0\to \mathbb{Z}\xrightarrow{0} \mathbb{Z}^3\xrightarrow{0} \mathbb{Z}^3\xrightarrow{0}  mathbb{Z}\to 0$$
+---
+> [!h] Example 4
+> Let $X$ be the union of $S^2 \subseteq \mathbb{R}^3$ and the line segment between north and south poles. Then, 
+> 1. $H_{p}(X)\cong \begin{cases}\mathbb{Z}&p=0,1,2\\0& \text{otherwise}\end{cases}$
+
+> [!proof]+
+> As a CW-complex, we have:
+> 1. two $0$-cells $a_{1},a_{2}$.
+> 2. three $1$-cells $b_{1},b_{2},b_{3}$ all from $a_{1}$ to $a_{2}$,
+> 3. two $2$-cells $c_{1},c_{2}$ where $f_{\partial c_{1}}=b_{1}b_{2}^{-1}$ and $f_{\partial c_{2}}=b_{2}b_{1}^{-1}$.
+> 
+> Then, we have that $0\to \mathbb{Z}^2\to \mathbb{Z}^3\to \mathbb{Z}^2 \to 0$ where: 
+> 1. $d(b_{i})=(a_{1},a_{2})$
+> 2. $[b_{1}:c_{1}]=1$, $[b_{2}:c_{1}]=1$, $[b_{3}:c_{1}]= 0$. Hence, $$d(c_{1})=(1,1,0)$$and we have that: $$\begin{array}{ccccc}0&\to &\mathbb{Z}^{2}&\to& \mathbb{Z}^3 &\to &\mathbb{Z}^2 &\to &0\\&&(x,y)&\mapsto &(x+y,x+y,0)\\&&&&(x,y,z)&\mapsto&(x+y+z,x+y+z)\end{array}$$
+> 
+> Similarly, we also see that $X=S^2 \lor S^1$ and therefore, $$\tilde{H}_{p}(X)\cong \tilde{H}_{p}(S^2 \lor S^1)\cong \tilde{H}_{p}(S^2)\oplus \tilde{H}_{p}(S^1)$$and we have that: $$\tilde{H}_{p}(X)\cong \begin{cases}0&p=0\\\mathbb{Z}&p=1,2\end{cases}$$This shows the above statement.
