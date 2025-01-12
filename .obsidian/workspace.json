@@ -149,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       },
       {
         "id": "4d5ec56e57395c88",
@@ -255,6 +255,20 @@
             }
           },
           {
+            "id": "c1a8e2d4f21d1b44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Singular Homology.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Singular Homology"
+            }
+          },
+          {
             "id": "88de64223c5bbc65",
             "type": "leaf",
             "state": {
@@ -288,16 +302,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/CW-Complex.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CW-Complex"
+              "title": "Homology Theory"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -328,7 +342,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "brouwer",
+                "query": "mayer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -442,14 +456,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "fb202168c3619b61",
+  "active": "cb8afa3e784fe138",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Chain Homotopy.md",
+    "Topology/Homotopy.md",
+    "Topology/Lift.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/CW-Complex.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Wedge Product.md",
-    "Topology/Homotopy.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Real Projective Space.md",
     "Technical Lemmas.md",
@@ -466,10 +482,8 @@
     "Algebra/Exact Sequence.md",
     "Algebra/Splitting Field.md",
     "Topology/Retract.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Contractible Space.md",
     "Topology/Quotient Topology.md",
-    "Topology/Mapping Cylinder.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
