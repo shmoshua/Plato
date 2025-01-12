@@ -344,16 +344,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Wedge Product.md",
+                "file": "Algebra/Chain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Wedge Product"
+              "title": "Chain Complex"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -498,9 +498,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ba489aacf84feae",
+  "active": "bbd94da92c8b1d08",
   "lastOpenFiles": [
     "Topology/Wedge Product.md",
+    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Real Projective Space.md",
     "Topology/Mapping Cylinder.md",
     "Topology/Covering Space.md",
@@ -512,7 +514,6 @@
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Algebra/Split Exact Sequence.md",
     "Topology/Retract.md",
-    "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Homotopy.md",
     "Topology/Suspension.md",
@@ -525,7 +526,6 @@
     "Algebra/Special Orthogonal Group.md",
     "Differential Geometry/Regular Domain.md",
     "Topology/One-Point Compactification.md",
-    "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
