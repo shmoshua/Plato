@@ -344,16 +344,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Topology/Wedge Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lift"
+              "title": "Wedge Product"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -498,16 +498,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "58e1e69f81e0efe0",
+  "active": "bbd94da92c8b1d08",
   "lastOpenFiles": [
+    "Topology/Lift.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/Lift.md",
     "Algebra/Split Exact Sequence.md",
     "Topology/Retract.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Mapping Cylinder.md",
     "Topology/Real Projective Space.md",
     "Algebra/Chain Complex.md",
