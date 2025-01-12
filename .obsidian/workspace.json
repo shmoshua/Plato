@@ -199,6 +199,20 @@
             }
           },
           {
+            "id": "ed503d3774a48309",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/CW-Complex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "CW-Complex"
+            }
+          },
+          {
             "id": "cbff77d30ae9c164",
             "type": "leaf",
             "state": {
@@ -351,9 +365,23 @@
               "icon": "lucide-file",
               "title": "Chain Complex"
             }
+          },
+          {
+            "id": "75f7e2959946460b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Smash Product.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Smash Product"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -498,17 +526,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bbd94da92c8b1d08",
+  "active": "ed503d3774a48309",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Smash Product.md",
     "Topology/Wedge Product.md",
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Real Projective Space.md",
     "Topology/Mapping Cylinder.md",
     "Topology/Covering Space.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Lift.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
@@ -521,7 +550,6 @@
     "Technical Lemmas.md",
     "Topology/Complex Projective Space.md",
     "Algebra/Orbit and Stablizer.md",
-    "Topology/Smash Product.md",
     "Algebra/Free Action.md",
     "Algebra/Special Orthogonal Group.md",
     "Differential Geometry/Regular Domain.md",
