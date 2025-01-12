@@ -381,7 +381,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -526,8 +526,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ed503d3774a48309",
+  "active": "58e1e69f81e0efe0",
   "lastOpenFiles": [
+    "Topology/CW-Complex.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Smash Product.md",
@@ -546,7 +547,6 @@
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Homotopy.md",
     "Topology/Suspension.md",
-    "Topology/CW-Complex.md",
     "Technical Lemmas.md",
     "Topology/Complex Projective Space.md",
     "Algebra/Orbit and Stablizer.md",
