@@ -138,7 +138,7 @@
 > Let $X$ be the union of $S^2 \subseteq \mathbb{R}^3$ and the line segment between north and south poles. Then, 
 > 1. $H_{p}(X)\cong \begin{cases}\mathbb{Z}&p=0,1,2\\0& \text{otherwise}\end{cases}$
 
-> [!proof]+
+> [!proof]-
 > As a CW-complex, we have:
 > 1. two $0$-cells $a_{1},a_{2}$.
 > 2. three $1$-cells $b_{1},b_{2},b_{3}$ all from $a_{1}$ to $a_{2}$,

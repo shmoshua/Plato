@@ -260,12 +260,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Topology/Algebraic Topology/Chain Homotopy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "Chain Homotopy"
             }
           },
           {
@@ -288,12 +288,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+                "file": "Topology/CW-Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Degree of Sphere Maps"
+              "title": "CW-Complex"
             }
           }
         ],
@@ -444,12 +444,14 @@
   },
   "active": "fb202168c3619b61",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Topology/Wedge Product.md",
     "Topology/CW-Complex.md",
-    "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Wedge Product.md",
+    "Topology/Homotopy.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Real Projective Space.md",
     "Technical Lemmas.md",
     "Topology/Complex Projective Space.md",
     "Algebra/Orbit and Stablizer.md",
@@ -468,8 +470,6 @@
     "Topology/Contractible Space.md",
     "Topology/Quotient Topology.md",
     "Topology/Mapping Cylinder.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
