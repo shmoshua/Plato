@@ -67,6 +67,10 @@
 > 1. $H_{0}(\mathbb{R}\mathbb{P}^2)\cong \mathbb{Z}$
 > 2. $H_{1}(\mathbb{R}\mathbb{P}^{2})\cong \mathbb{Z} / 2\mathbb{Z}$
 > 3. $H_{n}(\mathbb{R}\mathbb{P}^2)=0$ for all $n\geq 0$
+> 4.  If $n$ is even:
+>    $$H_{p}(\mathbb{R}\mathbb{P}^n)\cong \begin{cases}\mathbb{Z}&p=0\\\mathbb{Z} / 2\mathbb{Z}& 0< p<n, p\text{ even}\\0&\text{ otherwise}\end{cases}$$
+>    If $n$ is odd,
+> 	$$H_{p}(\mathbb{R}\mathbb{P}^n)\cong \begin{cases}\mathbb{Z}&p=0,n\\\mathbb{Z} / 2\mathbb{Z}& 0< p<n, p\text{ even}\\0&\text{ otherwise}\end{cases}$$
 
 > [!proof]-
 > We can represent $\mathbb{R}\mathbb{P}^{2}$ as a CW complex with 3 cells. Namely, 
@@ -97,7 +101,8 @@
 >2. $d\sigma_{1}=0$ as $[\sigma_{0}:\sigma_{1}]=0$ as $p_{\sigma_{0}}\circ f_{\partial\sigma_{1}}$ is a constant map.
 >3. $d\sigma_{2}=\pm 2\sigma_{1}$ and we have that $p_{\sigma_{1}}\circ f_{\partial\sigma_{2}}:S^1\to S^1, z\mapsto z^2$ or $p_{\sigma_{1}}\circ f_{\partial\sigma_{2}}:S^1\to S^1, z\mapsto z^{-2}$, depending on which direction we wrap the boundary to the 1-cell. Hence, $$[\sigma_{1}:\sigma_{2}]=\deg(p_{\sigma_{1}}\circ f_{\partial\sigma_{2}})=\pm2$$. 
 >   
-> This proves the statement.
+>    This proves the statement.
+> 4. [[Real Projective Space]]
 ---
 
 > [!h] Example 2 (CPn)
@@ -108,3 +113,23 @@
 > We have that:
 > 1. From [[CW-Complex|Example 1]], there is one cell in each odd dimension up to $2n$ and no odd cells. Hence, $$0\to C_{2n}(K)\to 0 \to C_{2n-2}(K) \to 0 \to \dots$$In any case $d=0$ for all $p\in \mathbb{Z}$ and the statement follows.
 ---
+> [!h] Example 3 (Torus)
+> We have that: 
+> 1. $H_{p}(\mathbb{T}^2)\cong \begin{cases}\mathbb{Z}&p=0,2\\\mathbb{Z}^2&p=1\\0&\text{ otherwise}\end{cases}$
+> 2.  $H_{p}(\mathbb{T}^3)\cong \begin{cases}\mathbb{Z}&p=0,3\\\mathbb{Z}^3&p=1,2\\0&\text{ otherwise}\end{cases}$
+
+> [!proof]-
+> We have that:
+> 1. $\mathbb{T}^2$ has the following CW-structure. 
+> 	1. one $0$-cell $x$.
+> 	2. two $1$-cells $a,b$. 
+> 	3. one $2$-cell $\sigma$, where the attaching map is given as $aba^{-1}b^{-1}$. 
+> 	
+> 	Then, we have that $d(a)=d(b)=0$ and $p_{a}\circ f_{\partial \sigma}$ is given by $a*\varepsilon_{x} * a^{-1} * x\cong x$. Therefore, $\deg(p_{a}\circ f_{\partial \sigma})=\deg(\varepsilon_{x})=0$. Hence, it follows that: $$0\to \mathbb{Z}\xrightarrow{0}\mathbb{Z}^{2} \xrightarrow{0} \mathbb{Z} \to 0$$and we have the statement.
+> 2. $\mathbb{T}^3$ is also given by the following CW-structure: 
+> 	1. one $0$-cell $a$,
+> 	2. three $1$-cells $b_{1},b_{2},b_{3}$,
+> 	3. three $2$-cells $c_{1},c_{2},c_{3}$,
+> 	4. one $3$-cell $d$. 
+> 	
+> 	Then, similarly, we have that $d(b_{1})=d(b_{2})=d(b_{3})=0$ and $d(c_{1})=d(c_{2})=d(c_{3})=0$ by 1. Lastly, for the same reason we have that $[c_{i}:d] = 0$. Hence, we have: $$0\to \mathbb{Z}\xrightarrow{0} \mathbb{Z}^3\xrightarrow{0} \mathbb{Z}^3\xrightarrow{0} \mathbb{Z}\to 0$$

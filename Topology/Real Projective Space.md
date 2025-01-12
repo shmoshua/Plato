@@ -25,7 +25,10 @@
 > 1. $\mathbb{R}\mathbb{P}^n \cong S^n / \{ \pm1 \}$ where $\{ \pm 1 \} \curvearrowright S^n,(\lambda,x)=\lambda x$.
 > 2. $\mathbb{R}\mathbb{P}^n \cong B^n / {\sim}$ where $x\sim-x$ for all $x\in \partial B^n$.
 > 3. $\mathbb{R}\mathbb{P}^n$ is a $n$-dimensional [[CW-complex]].
-> 4. $H_{p}^\text{cell}(\mathbb{R}\mathbb{P}^n)$
+> 4. If $n$ is even:
+>    $$H_{p}(\mathbb{R}\mathbb{P}^n)\cong \begin{cases}\mathbb{Z}&p=0\\\mathbb{Z} / 2\mathbb{Z}& 0< p<n, p\text{ even}\\0&\text{ otherwise}\end{cases}$$
+>    If $n$ is odd,
+> 	$$H_{p}(\mathbb{R}\mathbb{P}^n)\cong \begin{cases}\mathbb{Z}&p=0,n\\\mathbb{Z} / 2\mathbb{Z}& 0< p<n, p\text{ even}\\0&\text{ otherwise}\end{cases}$$
 
 > [!proof]+
 > We have that:
