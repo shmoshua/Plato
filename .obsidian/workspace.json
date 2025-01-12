@@ -260,6 +260,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Homology Theory"
+            }
+          },
+          {
+            "id": "694084fa1447c53b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
                 "mode": "preview",
                 "source": true
@@ -417,17 +431,17 @@
   "active": "01cd1df0c6ef465c",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Real Projective Space.md",
-    "Technical Lemmas.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/CW-Complex.md",
+    "Technical Lemmas.md",
     "Topology/Complex Projective Space.md",
     "Algebra/Orbit and Stablizer.md",
     "Topology/Wedge Product.md",
     "Topology/Smash Product.md",
     "Topology/Covering Space.md",
     "Algebra/Free Action.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Special Orthogonal Group.md",
     "Topology/Suspension.md",
     "Differential Geometry/Regular Domain.md",

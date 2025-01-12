@@ -36,9 +36,8 @@
 >  2. Let: $$f:B^n\to \mathbb{R}\mathbb{P}^n,\quad (x_{1},\dots,x_{n})\mapsto [x_{1}:\dots:x_{n}:\sqrt{ 1-\|x\|^{2} }]$$Then, for $x\in \partial B^n$, $$f(x)=[x_{1}:\dots: x_{n}: 0]\in \mathbb{R}\mathbb{P}^{n-1}$$Now, we show that $\mathbb{R}\mathbb{P}^n$ is a CW-complex. 
 > 	 1. For $n=0$, $\mathbb{R}\mathbb{P}^0\cong P$ where $P$ is a one-point space, which is a CW-complex.
 > 	 2. For $n\geq 1$, let $\mathbb{R}\mathbb{P}^{n-1}$ be a $n-1$ dimensional CW-complex with one cell in each dimension up to $n-1$. Then, we can attach $B^n$ using $f:(B^n,\partial B^n)\to(\mathbb{R}\mathbb{P}^{n},\mathbb{R}\mathbb{P}^{n-1})$. Hence, $\mathbb{R}\mathbb{P}^n$ is a $n$-dimensional CW-complex.
-> 3. We have that: $$0\to C_{n}(\mathbb{R}\mathbb{P}^n)\to C_{n}(\mathbb{R}\mathbb{P}^{n-1})$$ 
->    
->    Let $\sigma_{n}\in I_{n}$ be the only $n$-cell. Then, $$d\sigma_{n}=[\sigma_{n-1}:\sigma_{n}]\sigma_{n-1}$$ where $[\sigma_{n-1}:\sigma_{n}]=2$. Hence, 
+> 3. Let $\sigma_{k}\in I_{k}$ be the only $n$-cell for all $k\leq n$. Then, we find the degree of $p_{\sigma_{k-1}}\circ f_{\partial\sigma_{k}}$. We have that $(0,\dots,0,1)\in S^{k-1}$ has two points in the preimage, $N:=(0,\dots,0,1)$ and $S:=(0,\dots,0,-1)$. Hence, $\deg f|_{N}=1$ and $\deg f|_{S}=(-1)^{k}$. It follows that: $$[\sigma_{k-1}:\sigma_{k}]=1+(-1)^k=\begin{cases}0&k\text{ odd}\\2&k\text{ even}\end{cases}$$
+> 	Therefore, $$H_{k}(\mathbb{R}\mathbb{P}^n)=\begin{cases}\end{cases}$$
 ---
 
 > [!lemma] Proposition 2
