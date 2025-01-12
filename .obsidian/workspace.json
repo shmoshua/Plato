@@ -311,7 +311,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -456,12 +456,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c1a8e2d4f21d1b44",
+  "active": "fb202168c3619b61",
   "lastOpenFiles": [
-    "Topology/Wedge Product.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Wedge Product.md",
     "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Homology Theory.md",
