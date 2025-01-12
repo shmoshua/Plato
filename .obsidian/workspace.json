@@ -274,16 +274,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+                "file": "Topology/CW-Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Degree of Sphere Maps"
+              "title": "CW-Complex"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -428,13 +428,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "01cd1df0c6ef465c",
+  "active": "fb202168c3619b61",
   "lastOpenFiles": [
+    "Topology/CW-Complex.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Real Projective Space.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/CW-Complex.md",
     "Technical Lemmas.md",
     "Topology/Complex Projective Space.md",
     "Algebra/Orbit and Stablizer.md",
