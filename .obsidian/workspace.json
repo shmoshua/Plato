@@ -147,9 +147,23 @@
               "icon": "lucide-file",
               "title": "Mapping Cylinder"
             }
+          },
+          {
+            "id": "04e6996e61417978",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Lift.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lift"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       },
       {
         "id": "4d5ec56e57395c88",
@@ -323,9 +337,23 @@
               "icon": "lucide-file",
               "title": "Degree of Sphere Maps"
             }
+          },
+          {
+            "id": "bbd94da92c8b1d08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Lift.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lift"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -470,11 +498,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "119ede403c2b0d5d",
+  "active": "58e1e69f81e0efe0",
   "lastOpenFiles": [
-    "Algebra/Split Exact Sequence.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Lift.md",
+    "Algebra/Split Exact Sequence.md",
     "Topology/Retract.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
@@ -485,9 +515,7 @@
     "Topology/Homotopy.md",
     "Topology/Suspension.md",
     "Topology/Wedge Product.md",
-    "Topology/Lift.md",
     "Topology/CW-Complex.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Technical Lemmas.md",
     "Topology/Complex Projective Space.md",
     "Algebra/Orbit and Stablizer.md",
