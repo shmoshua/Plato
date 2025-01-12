@@ -29,8 +29,10 @@
 >    $$H_{p}(\mathbb{R}\mathbb{P}^n)\cong \begin{cases}\mathbb{Z}&p=0\\\mathbb{Z} / 2\mathbb{Z}& 0< p<n, p\text{ even}\\0&\text{ otherwise}\end{cases}$$
 >    If $n$ is odd,
 > 	$$H_{p}(\mathbb{R}\mathbb{P}^n)\cong \begin{cases}\mathbb{Z}&p=0,n\\\mathbb{Z} / 2\mathbb{Z}& 0< p<n, p\text{ even}\\0&\text{ otherwise}\end{cases}$$
+> 	
+> 5. For any point $x_{0}\in \mathbb{R}\mathbb{P}^{n}$, $\mathbb{R}\mathbb{P}^n \backslash \{ x_{0} \}\cong \mathbb{R}\mathbb{P}^{n-1}$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Define: $$\psi:S^n / \{ \pm 1 \}\to \mathbb{R}\mathbb{P}^n,\quad x\mapsto \mathbb{R} \backslash \{ 0 \}\cdot x$$Then, $\psi$ is continuous and surjective. Further, for $\mathbb{R} \backslash \{ 0 \}\cdot x=\mathbb{R} \backslash \{ 0 \}y$, then, $x/y\in \mathbb{R} \backslash \{ 0 \}$ and as $\|x\| / \|y\| = 1$, we have that $x / y\in \{ \pm 1 \}$. This shows the injectivity. Hence, we conclude from the fact that $S^n / \{ \pm 1 \}$ is compact and $\mathbb{R}\mathbb{P}^n$ is Hausdorff. 
 > 1. Define: $$\psi:B^n/ {\sim} \to \mathbb{R}\mathbb{P}^n,\quad [x_{1},\dots,x_{n}]\mapsto [x_{1},\dots,x_{n},\sqrt{ 1-\|x\|^{2} }]$$is continuous. Further, it is injective as if $[x_{1},\dots,x_{n},\sqrt{ 1-\|x\|^{2} }]=[y_{1}:\dots:y_{n}:\sqrt{ 1-\|y\|^{2} }]$, then $x_{i}=\lambda y_{i}$ and $$\sqrt{ 1-\|x\|^{2} }=\sqrt{ 1-\left| \lambda \right| ^{2}\|y\|^{2} }=\lambda\sqrt{ 1-\|y\|^{2} }$$so we have that $1-\left| \lambda \right|^{2}\|y\|^{2}=\lambda^{2}(1-\|y\|^{2})$ and $1=\lambda^{2}$. Hence, $\lambda=\pm 1$ and $\psi$ is injective. Plus, one can see that $\psi$ is surjective. 
