@@ -32,6 +32,7 @@
 > [!lemma] Proposition 2 (Sum of Gaussian Processes)
 > For independent $f\sim \text{GP}(\mu,k)$ and $f' \sim \text{GP}(\mu',k')$, we have that:
 > 1. $f+f' \sim \text{GP}(\mu+\mu',k+k')$
+> 2. A constant kernel is independent with any Gaussian process
 
 ^ec2539
 

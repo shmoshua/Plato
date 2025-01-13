@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -85,20 +85,6 @@
             }
           },
           {
-            "id": "fcbdf322c74e0f6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Kernel.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Kernel"
-            }
-          },
-          {
             "id": "2c3234f60697ca6f",
             "type": "leaf",
             "state": {
@@ -113,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -258,11 +244,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4b59114e98643804",
+  "active": "c5171d4660d2343d",
   "lastOpenFiles": [
     "Analysis/Kernel.md",
-    "Machine Learning/Gaussian Process.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Machine Learning/Gaussian Process.md",
+    "Probability Theory/Independence.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
@@ -270,7 +257,6 @@
     "Machine Learning/Linear Regression.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Cyclic Groups.md",
-    "Probability Theory/Independence.md",
     "Probability Theory/Variance.md",
     "Topology/Wedge Product.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",

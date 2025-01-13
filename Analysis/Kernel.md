@@ -123,7 +123,7 @@
 
 > [!proof]-
 > We have:
-> 1. Symmetry follows from that of the distance. For positive semi-definiteness, we have:  $$\left\| x-y \right\| ^{2}=\braket{ x-y , x-y } =\|x\|^{2}+\|y\|^{2}-2\braket{ x , y } $$Hence, $\exp\left( -\frac{\left\| x-y \right\| ^2}{h^{2}} \right)=\exp \left( -\frac{\|x\|^{2}}{h^{2}} \right)\exp \left( \frac{2\braket{ x , y }}{h^{2}} \right)\exp \left( -\frac{\|y\|^{2}}{h^{2}} \right)$. Then, the positive semidefiniteness follows from the fact that $(x,y)\mapsto \braket{ x , y }^k$ is positive semidefinite for all $k$.
+> 1. Symmetry follows from that of the distance. For positive semi-definiteness, we have:  $$\left\| x-y \right\| ^{2}=\braket{ x-y , x-y } =\|x\|^{2}+\|y\|^{2}-2\braket{ x , y } $$Hence, $\exp\left( -\frac{\left\| x-y \right\| ^2}{h^{2}} \right)=\exp \left( -\frac{\|x\|^{2}}{h^{2}} \right)\exp \left( \frac{2\braket{ x , y }}{h^{2}} \right)\exp \left( -\frac{\|y\|^{2}}{h^{2}} \right)$. Then, the positive semidefiniteness follows from the fact that $(x,y)\mapsto \braket{ x , y }^k$ is positive semidefinite for all $k$ and Lemma 4.4.
 
 ^6bfe78
 
@@ -138,9 +138,9 @@
 ---
 > [!h] Example 4 (Matérn Kernel)
 > Let $X$ be an inner product space and $v,h>0$. Then, 
-> $$K_{v,h}(x,y)=\frac{2^{1-v}}{\Gamma(v)}\left( \frac{\sqrt{ 2 }}{h}\left\| x-y \right\| _{2} \right)^v \text{K}_{v}\left(\frac{\sqrt{ 2 }}{h}\left\| x-y \right\| _{2}  \right)  $$where $\Gamma$ is the [[gamma function]] and $\text{K}_{v}$ is the [[modified Bessel function of the second kind]], is a SPsD kernel called ***Matérn kernel***.
-> 1. $K_{1 / 2,h}=K_{\text{Laplace}, h}$, i.e. the exponential kernel is Matérn kernel with $v = 1/2$.
-> 2. $K_{\nu,h}\to K_{\text{Gaussian},h}$ as $v\to \infty$.
+> $$K_{\nu,h}(x,y)=\frac{2^{1- \nu}}{\Gamma(\nu)}\left( \frac{\sqrt{ 2 }}{h}\left\| x-y \right\| _{2} \right)^{\nu} \text{K}_{\nu}\left(\frac{\sqrt{ 2 }}{h}\left\| x-y \right\| _{2}  \right)  $$where $\Gamma$ is the [[gamma function]] and $\text{K}_{\nu}$ is the [[modified Bessel function of the second kind]], is a SPsD kernel called ***Matérn kernel***.
+> 1. $K_{1 / 2,h}=K_{\text{Laplace}, h}$, i.e. the exponential kernel is Matérn kernel with $\nu = 1/2$.
+> 2. $K_{\nu,h}\to K_{\text{Gaussian},h}$ as $\nu\to \infty$.
 
 ^a6cc5d
 
