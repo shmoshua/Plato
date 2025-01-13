@@ -1,7 +1,10 @@
 #Definition #ML 
 > [!definition]
->  For a set $X$, a ***Gaussian process*** is the set  $f:=\{ f(x) \}_{x\in X}\subseteq \mathbb{\mathbb{K}}$ with the ***mean function*** $\mu:X\to \mathbb{R}$ and the ***covariance function*** $k:X \times X\to \mathbb{K}$ s.t. 
->  1. for every finite $A=\{ x_{1},\dots,x_{n} \}\subseteq X$, $$f(A):=(f(x_{1}),\dots,f(x_{n})) \sim \mathcal{N}\left( \mu_{A},K_{AA}\right)$$where $\mu_{A}:=(\mu(x_{1}),\dots,\mu(x_{n}))$ and $K_{AA}:=\begin{bmatrix}k(x_{i},x_{j})\end{bmatrix}_{i,j\in [n]}$.
+>  For a set $X$, a ***Gaussian process*** is a family of $\mathbb{K}$-valued [[Random Variable|random variables]]  $f:=\{ f(x) \}_{x\in X}$ with 
+>  1. the ***mean function*** $\mu:X\to \mathbb{K}$ and 
+>  2. the ***covariance function*** $k:X \times X\to \mathbb{K}$ s.t. 
+> 
+> s.t. for every finite $A=\{ x_{1},\dots,x_{n} \}\subseteq X$, $$f(A):=(f(x_{1}),\dots,f(x_{n})) \sim \mathcal{N}\left( \mu_{A},K_{AA}\right)$$where $\mu_{A}:=(\mu(x_{1}),\dots,\mu(x_{n}))$ and $K_{AA}:=\begin{bmatrix}k(x_{i},x_{j})\end{bmatrix}_{i,j\in [n]}$.
 > 
 > A Gaussian process is denoted as $f \sim \text{GP}(\mu,k)$.
 
