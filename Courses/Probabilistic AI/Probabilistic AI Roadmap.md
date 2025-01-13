@@ -204,8 +204,8 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 
 ---
 
-> [!lemma] Proposition (Bayesian Model Selection)
-> Let $\Theta$ be a set of hyperparameters and $k_{\theta}$ be a covariance function for all $\theta\in \Theta$. Then, with prior $f \sim \text{GP}(0,k_{\theta})$ with $y=f(x)+\varepsilon$ with $\varepsilon \sim \mathcal{N}(0,\sigma^2_{n})$ w.r.t. observed datapoints $y_{1:n}$ at $x_{1:n}\subseteq X$, we have that the ***Bayesian model selection*** $\widehat{\theta}=\underset{ \theta\in \Theta }{ \arg\max } \ p(y_{1:n}|x_{1:n},\theta)$ is given as:
+> [!lemma] Proposition (Bayesian Model Selection for GP)
+> Let $\Theta$ be a set of hyperparameters and $k_{\theta}$ be a covariance function for each $\theta\in \Theta$. Then, with prior $f \sim \text{GP}(0,k_{\theta})$ with $y=f(x)+\varepsilon$ with $\varepsilon \sim \mathcal{N}(0,\sigma^2_{n})$ w.r.t. observed datapoints $y_{1:n}$ at $x_{1:n}\subseteq X$, we have that the ***Bayesian model selection*** $\widehat{\theta}=\underset{ \theta\in \Theta }{ \arg\max } \ p(y_{1:n}|x_{1:n},\theta)$ is given as:
 > $$\text{tr}\left( (K_{y,\widehat{\theta}}^{-1}-\alpha \alpha^\top)\frac{ \partial K_{y,\widehat{\theta}} }{ \partial \widehat{\theta}_{j} }  \right)=0$$where $K_{y,\theta}:=K_{AA}^{\theta}+\sigma_{n}^{2}I$ and $\alpha:=K_{y,\widehat{\theta}}^{-1}y_{1:n}$.
 
 > [!proof]-
