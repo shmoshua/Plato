@@ -89,12 +89,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Machine Learning/Linear Regression.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Linear Regression"
             }
           },
           {
@@ -258,18 +258,22 @@
   },
   "active": "2c3234f60697ca6f",
   "lastOpenFiles": [
+    "Machine Learning/Linear Regression.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Courses/Advanced Algorithms/Exercise 02.md",
+    "Courses/Advanced Algorithms/Exercise 09.md",
+    "Courses/Advanced Algorithms/Graded Assignment 1.md",
+    "Probability Theory/Probability Space.md",
+    "ML Theory/Laplace Approximation.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Probability Theory/Characteristic Function.md",
-    "ML Theory/Laplace Approximation.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Kernel.md",
-    "Functional Analysis/Fourier Transform.md",
     "Probability Theory/Independence.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Machine Learning/Linear Regression.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Cyclic Groups.md",
     "Probability Theory/Variance.md",
@@ -280,10 +284,6 @@
     "Topology/Covering Space.md",
     "Algorithms/Covering.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Smash Product.md",
-    "Topology/Algebraic Topology/Euler Characteristic.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Suspension.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
