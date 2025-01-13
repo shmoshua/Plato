@@ -5,13 +5,17 @@
 - **Remark**: As $X / _\sim$ is a continuous image of $X$, $X /_{\sim}$ inherits the compactness of connectedness of $X$.
 ---
 ##### Properties
-> [!lemma] Lemma 1
-> A map $f:X/_{\sim}\to Y$ is continuous if and only if $f\circ p:X\to Y$ is continuous.
+> [!lemma] Proposition 1
+> Let $X$ be a topological space and $X / {\sim}$ its quotient space. Then, 
+> 1. A map $f:X/_{\sim}\to Y$ is continuous if and only if $f\circ p:X\to Y$ is continuous.
+> 2. If $g:X\to Z$ is continuous s.t. $a\sim b$ implies $g(a)=g(b)$ for all $a,b\in X$, there exists a unique continuous map $f:X / {\sim} \to Z$ s.t $g = f \circ p$.
 
 > [!proof]-
-> We have that $p$ is continuous by definition. Therefore, if $f$ is continuous, $f\circ p$ is continuous.
-> 
-> Conversely, assume that $f\circ p$ is continuous and let $U\subseteq Y$ be open. Then, $p ^{-1}(f^{-1}(U))$ is open and thereby $f^{-1}(U)$ is open.
+> We have that:
+> 1. $p$ is continuous by definition. Therefore, if $f$ is continuous, $f\circ p$ is continuous. Conversely, assume that $f\circ p$ is continuous and let $U\subseteq Y$ be open. Then, $p ^{-1}(f^{-1}(U))$ is open and thereby $f^{-1}(U)$ is open.
+> 2. Let's define: $$f:X / {\sim}\to Z,\quad [x]\mapsto g(x)$$Then, by the assumption this function is well-defined. Further, $g=f \circ p$ and therefore $f \circ p$ is continuous which proves that $f$ is continuous. 
+>    
+>    To prove uniqueness, assume that $f':X / {\sim} \to Z$ s.t. $g=f' \circ p$ as well. Then, $$f'([x])=f'(p(x))=g(x)=f[x]$$for all $x\in X$.
 ---
 > [!lemma] Lemma 2 (Quotient Lemma)
 > Let $G$ be a topological group and $H\leq G$. Then, 

@@ -154,16 +154,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lift"
+              "title": "Quotient Topology"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       },
       {
         "id": "4d5ec56e57395c88",
@@ -204,12 +204,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/CW-Complex.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CW-Complex"
+              "title": "Quotient Topology"
             }
           },
           {
@@ -381,7 +381,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -526,8 +526,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "58e1e69f81e0efe0",
+  "active": "04e6996e61417978",
   "lastOpenFiles": [
+    "Topology/Lift.md",
+    "Topology/Quotient Topology.md",
     "Topology/CW-Complex.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/p-Simplex.md",
@@ -539,7 +541,6 @@
     "Topology/Mapping Cylinder.md",
     "Topology/Covering Space.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Lift.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Algebra/Split Exact Sequence.md",
@@ -553,7 +554,6 @@
     "Algebra/Free Action.md",
     "Algebra/Special Orthogonal Group.md",
     "Differential Geometry/Regular Domain.md",
-    "Topology/One-Point Compactification.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
