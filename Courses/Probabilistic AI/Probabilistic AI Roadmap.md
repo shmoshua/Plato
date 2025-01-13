@@ -267,6 +267,7 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 3. Approximate $k(x,x') \approx z(x)^\top z(x')$
 - **Remark**: From Rahimi et al, for a real scaled continuous integrable covariance kernel $k$ on $\mathbb{R}^n$ and its random fourier features $z:\mathbb{R}^n\to \mathbb{R}^d$ and $\varepsilon>0$, $$\mathbb{P}\left( \text{sup}_{x,x'\in B_{\leq r}(0)} \left| k(x,x')-z(x)^\top z(x') \right|\geq \varepsilon \right)\leq 2^8 \left( \frac{\sigma_{p}\cdot r}{\varepsilon} \right) ^{2} \exp \left( -\frac{d \varepsilon^{2}}{8(n+2)} \right)  $$where $\sigma_{p}:=\mathbb{E}_{\omega}[\omega^\top\omega]$ is the second moment. 
 - **Remark**: RFF gives uniform convergence between $z(x)^\top z(x)$ and $k(x,x')$.
+- **Remark**: By applying Bayesian linear regression with $z$, we have $O(nd^{2}+d^3)$ instead.
 ---
 ##### 2.3.5.3 Inducing Points - Data Sampling
 
@@ -284,4 +285,7 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 	1. $q_{\text{FITC}}(f(x)|f_{y_{1:k}}) =\mathcal{N}([k(x,y_{i})]_{i}^\top K_{UU}^{-1}f_{y_{1:k}},\text{diag}(k(x,x)-[k(x,y_{i})]_{i}^\top K_{UU}^{-1}[k(x,y_{i})]_{i}))$
 	2. $q_{\text{FITC}}(f_{x_{1: n}}|f_{y_{1:k}}) =\mathcal{N}(K_{A U} K_{UU}^{-1}f_{y_{1: k}},\text{diag}(K_{A A}-K_{A U} K_{UU}^{-1}K_{U A}))$. 
 - **Remark**: In inducing point methods, now the inversion has runtime $\Theta(k^3)$ where $k$ is the number of inducing points. $U$ can be chosen uniformly or completely randomly. $U$ can even be treated as hyperparameters for Bayesian learning.
+- **Remark**: The inducing points can be:
+	1. chosen randomly/greedily/deterministically
+	2. chosen with bayesian learning by treating them as hyperparameters.
 ---

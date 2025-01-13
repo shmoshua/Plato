@@ -49,8 +49,7 @@
               "title": "Kernel"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -257,10 +256,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2e8575f5ec7f1a52",
+  "active": "ed1a9be185e2aaac",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Machine Learning/Gaussian Process.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Kernel.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Characteristic Function.md",
