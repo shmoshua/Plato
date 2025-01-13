@@ -15,8 +15,12 @@
 > 2. $\mathbb{E}[X]=\mu$
 > 3. $\text{Var}[X]=\Sigma$
 > 4. the [[characteristic function]] is given by: $$\Phi_{X}(\xi):=\exp \left( i \xi^\top\mu-\frac{1}{2}\xi^\top\Sigma \xi \right) $$
+> 5. the [[entropy]] is given by $H(p)=\frac{1}{2}\ln \left| 2\pi e\Sigma \right|$
 
 ^6f6281
+
+We have that: $$\begin{align}H(p)&=\mathbb{E}[-\log p]\\&=\mathbb{E}\left[ \frac{d}{2}\log(2\pi)+\frac{1}{2}\log \det\Sigma+\frac{1}{2}(x-\mu)^\top\Sigma ^{-1}(x-\mu) \right] \\&=\frac{d}{2}\log(2\pi)+\frac{1}{2}\log \det\Sigma+\frac{1}{2}\mathbb{E}[(x)]\end{align}$$
+
 
 > [!proof]-
 > We have that:

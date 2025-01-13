@@ -290,4 +290,18 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 	2. chosen with bayesian learning by treating them as hyperparameters.
 ---
 ### 3. Approximating Inference
-#### 3.1 Variational Inference
+#### 3.1 Lagrange Approximation
+![[Laplace Approximation#^746b7c]]
+
+---
+![[Laplace Approximation#^166528]]
+![[Laplace Approximation#^438021]]
+
+---
+![[Laplace Approximation#^781bf0]]
+![[Laplace Approximation#^57e4b7|p]]
+![[Laplace Approximation#^770b24]]
+![[Laplace Approximation#^ca4362|p]]
+
+---
+#### 3.2 Variational Inference

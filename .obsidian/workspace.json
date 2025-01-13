@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Laplace Approximation.md",
+                "file": "Information Theory/Relative Entropy.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Laplace Approximation"
+              "title": "Relative Entropy"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Gaussian Process.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Process"
+              "title": "Gaussian Distribution"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "Kernel"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -75,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "Gaussian Distribution"
             }
           },
           {
@@ -89,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Linear Regression.md",
+                "file": "Information Theory/Relative Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Linear Regression"
+              "title": "Relative Entropy"
             }
           },
           {
@@ -112,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,22 +257,25 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7c23c74e8323a679",
+  "active": "2c3234f60697ca6f",
   "lastOpenFiles": [
+    "ML Theory/Variational Inference.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "ML Theory/Laplace Approximation.md",
+    "Information Theory/Relative Entropy.md",
+    "Machine Learning/Linear Regression.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Analysis/Laplace Transform.md",
+    "Machine Learning/Gaussian Process.md",
     "Information Theory/Entropy.md",
     "Probability Theory/Expected Value.md",
     "Functional Analysis/Fourier Transform.md",
     "Topology/Algebraic Topology/Relative Homology.md",
-    "ML Theory/Laplace Approximation.md",
-    "Machine Learning/Linear Regression.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Probability Theory/Probability Space.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Machine Learning/Gaussian Process.md",
     "Probability Theory/Characteristic Function.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Kernel.md",
     "Probability Theory/Independence.md",
     "Topology/Algebraic Topology/Singular Homology.md",
@@ -281,9 +285,6 @@
     "Algebra/Cyclic Groups.md",
     "Probability Theory/Variance.md",
     "Topology/Wedge Product.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/Algebraic Topology/Chain Homotopy.md",
-    "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

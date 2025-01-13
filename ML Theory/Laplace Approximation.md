@@ -3,15 +3,23 @@
 > [!definition]
 > Let $p:\mathbb{R}^n\to \mathbb{R}_{> 0}$ be a twice differentiable function s.t. $\int_{\mathbb{R}^n}^{} p \, dx=1$. Then, 
 > 1. the ***Laplace approximation*** of $p$ is given by the Gaussian distribution $$q(x):=\mathcal{N}(x; \widehat{x},-(\text{H}_{\widehat{x}}f)^{-1})$$where $f = \log \circ p$, $\widehat{x}:=\arg\max_{x\in \mathbb{R}^n}f(x)$ and  $\text{H}_{\widehat{x}}f$ denotes the [[Hessian]] of $f$. 
+
+^746b7c
+
 ---
 ##### Properties
 > [!lemma] Proposition 1
 > Let $f:\mathbb{R}^n\to \mathbb{R}$ be a twice differentiable. Then, 
 > 1. $q(x)\propto\exp(\widehat{f}(x))$ where $\widehat{f}$ is the Taylor polynomial of $f$ of degree 2.
 
+^166528
+
 > [!proof]-
 > We have that:
 > 1. Let $\widehat{f}$ be the Taylor polynomial of $f$ of degree 2. Then, $$\widehat{f}(x)=f(\widehat{x})+\text{D}_{\widehat{x}}f(x-\widehat{x})+\frac{1}{2}(x-\widehat{x})^\top \text{H}_{\widehat{x}}f(x-\widehat{x})$$However, as $\widehat{x}$ is a maximum, $\text{D}_{\widehat{x}}f=0$ and $\text{H}_{\widehat{x}}f$ is symmetric negative semidefinite. Hence, $-\text{H}_{\widehat{x}}f$ is SPsD and we have that: $$q(x)\propto \exp \left(  \frac{1}{2}(x-\widehat{x})^\top\text{H}_{\widehat{x}}f(x-\widehat{x})\right)=\text{exp}(\widehat{f}(x)-f(\widehat{x}))  \propto \exp(\widehat{f}(x))$$
+
+^438021
+
 ---
 ##### Examples
 > [!h] Example 1 (Bayesian Logistic Regression)
@@ -24,10 +32,16 @@
 > 2. $\Lambda:=\sigma_{p}^{-2}I+X^\top \text{diag}(\pi_{i}(1-\pi_{i})_{i})X$ where $\pi_{i}:=\sigma(\widehat{w}^\top x_{i})$.
 > 3. To predict $p(y^{*}|x^{*},x_{1:n},y_{1:n})$ for $x^{*}\in \mathbb{R}^d$, we compute: $$p(y^{*}|x^{*},x_{1:n},y_{1:n})\approx \int_{\mathbb{R}}\sigma(y^{*}f^{*})\mathcal{N}(f^{*};x^{*\top}\widehat{w},x^{*\top}\Lambda ^{-1}x^{*})  \, df^{*} $$
 
+^781bf0
+
 > [!proof]-
 > We have that:
 > 1. Notice that: $$\begin{align}\widehat{w}&=\arg\max_{w\in \mathbb{R}^d}p(w|x_{1:n},y_{1:n})\\&=\arg\max_{w\in \mathbb{R}^d}p(y_{1:n}|x_{1:n},w)p(w)\\&=\arg\max_{w\in \mathbb{R}^d}\log p(w)+\log p(y_{1:n}|x_{1:n},w)\\&=\arg\max_{w\in \mathbb{R}^d}\left( -\frac{\|w\|^{2}_{2}}{2\sigma^{2}_{p}}+\sum_{i=1}^{n}\log \sigma(y_{i}w^\top x_{i}) \right)\\&=\arg\max_{w\in \mathbb{R}^d}\left( -\frac{\|w\|^{2}_{2}}{2\sigma^{2}_{p}}-\sum_{i=1}^{n}\log (1-\exp(-y_{i}w^\top x_{i}))\right)\\&=\arg\min_{w\in \mathbb{R}^d}\frac{\|w\|^{2}_{2}}{2\sigma^{2}_{p}}+\sum_{i=1}^{n}\log (1-\exp(-y_{i}w^\top x_{i}))\end{align}$$
 > 2. Notice that: $$\begin{align}\Lambda&=-\text{H}_{\widehat{w}}(\log p(w|x_{1:n},y_{1:n}))\\&=\text{H}_{\widehat{w}}\left( \frac{\|w\|^{2}_{2}}{2\sigma^{2}_{p}}+\sum_{i=1}^{n}\log (1-\exp(-y_{i}w^\top x_{i}))\right)\\&=\text{D}_{\widehat{w}}\nabla\left( \frac{\|w\|^{2}_{2}}{2\sigma^{2}_{p}}+\sum_{i=1}^{n}\log (1-\exp(-y_{i}w^\top x_{i}))\right)\\&=\text{D}_{\widehat{w}}\left( \frac{w}{\sigma^{2}_{p}}-\sum_{i=1}^{n} \left( 1-\frac{1}{1-\exp(-y_{i}w^\top x_{i})} \right)y_{i}x_{i} \right) \\&=\sigma^{-2}_{p}I-\sum_{i=1}^{n}y_{i}x_{i}\left( \frac{1}{(1-\exp(-y_{i}w^\top x_{i}))^{2}} \right)(-\exp(-y_{i}w^\top x_{i}))(-y_{i}x_{i}^\top)\\&=\sigma^{-2}_{p}I+\sum_{i=1}^{n}x_{i}x_{i}^\top\left(-\frac{\exp(-y_{i}w^\top x_{i})}{(1-\exp(-y_{i}w^\top x_{i}))^{2}} \right) \\&=\sigma^{-2}_{p}I+\sum_{i=1}^{n}x_{i}x_{i}^\top \pi_{i}(1-\pi_{i})\end{align}$$
 > 3. We have: $$\begin{align}p(y^{*}|x^{*},x_{1:n},y_{1:n})&=\int_{\mathbb{R}^d}^{} p(y^{*}|x^{*},w)p(w|x_{1:n},y_{1:n}) \, dw \\&\approx \int_{\mathbb{R}^d}^{} \sigma(y^{*}\underbrace{ w^\top x^{*} }_{ =:f^{*} })q(w) \, dw\\&=\int_{\mathbb{R}}\sigma(y^{*}f^{*})\mathcal{N}(f^{*};x^{*\top}\widehat{w},x^{*\top}\Lambda ^{-1}x^{*})  \, df^{*}\end{align} $$
-- **Remark**: We can use regularized logistic regression using stochastic gradient descent to solve for $\widehat{w}$. Further, for the prediction in 3, we can use numerical methods to precisely compute the integral.
+
+^57e4b7
+
+- **Remark**: We can use regularized logistic regression using stochastic gradient descent to solve for $\widehat{w}$. Further, for the prediction in 3, we can use numerical methods to precisely compute the integral. ^770b24
+- **Remark**: Lagrange approximation gets too overconfident, if e.g. the distribution to estimate is not symmetric.  ^ca4362
 ---
