@@ -289,3 +289,5 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 	1. chosen randomly/greedily/deterministically
 	2. chosen with bayesian learning by treating them as hyperparameters.
 ---
+### 3. Approximating Inference
+#### 3.1 Variational Inference

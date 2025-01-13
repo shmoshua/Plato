@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "ML Theory/Laplace Approximation.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probabilistic AI Roadmap"
+              "title": "Laplace Approximation"
             }
           },
           {
@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "ML Theory/Laplace Approximation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Laplace Approximation"
             }
           },
           {
@@ -89,12 +89,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Characteristic Function.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Characteristic Function"
+              "title": "Gaussian Distribution"
             }
           },
           {
@@ -111,7 +111,8 @@
               "title": "Fourier Transform"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,8 +164,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -256,13 +256,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ed1a9be185e2aaac",
+  "active": "2c3234f60697ca6f",
   "lastOpenFiles": [
+    "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
+    "Probability Theory/Characteristic Function.md",
+    "ML Theory/Laplace Approximation.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Kernel.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Probability Theory/Characteristic Function.md",
     "Functional Analysis/Fourier Transform.md",
     "Probability Theory/Independence.md",
     "Topology/Algebraic Topology/Singular Homology.md",
@@ -283,7 +284,6 @@
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Suspension.md",
-    "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
