@@ -22,6 +22,8 @@
 > [!proof]-
 > We have that:
 > 1. for all $x,y\in X$, $f(\{ x,y \}):=(f(x),f(y)) \sim \mathcal{N}(\mu_{\{ x,y \}},K_{\{ x,y \}})$ where: $$K_{\{ x,y \}}:=\begin{bmatrix}k(x,x)&k(x,y)\\k(y,x)&k(y,y)\end{bmatrix}$$As covariance matrices are symmetric, we have that $k(x,y)=k(y,x)$. 
+>    
+>    To show that it is positive semidefinite, Let $A:=\{ x_{1},\dots,x_{n} \}\subseteq X$ and let $c:=(c_{1},\dots,c_{n})\in \mathbb{R}^n$, $$c^\top f(A) \sim \mathcal{N}(c^\top \mu_{A},c^\top K_{AA}c)$$from assumption and we have that $c^\top K_{AA}c\geq 0$.  
 > 2. For a SPsD kernel $k$, we define the real matrix function: $$K(x,y):=\begin{bmatrix}\frac{\text{Re }k(x,y)}{2}&-\frac{\text{Im }k(x,y)}{2}\\ \frac{\text{Im }k(x,y)}{2}&\frac{\text{Re }k(x,y)}{2}\end{bmatrix}$$Then, we can construct a two-dimensional Gaussian process $(\xi,\eta)$ with correlation matrix $K(x,y)$ and by setting $f:=\xi+i\eta$, we have that: $$\mathbb{E}[f(x)\overline{f(y)}]=k(x,y)$$
 
 ^d1890f

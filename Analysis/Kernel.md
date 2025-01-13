@@ -91,7 +91,7 @@
 ---
 > [!lemma] Proposition 5 (Reproducing Kernel)
 > Let $k:X\times X\to \mathbb{K}$ be a reproducing kernel of $\mathcal{H}$. Then,
-> 1. $\braket{ k(\cdot,x) , k(\cdot, y) }_{\mathcal{H}}=k(x,y)$
+> 1. $\braket{ k(\cdot,x) , k(\cdot, y) }_{\mathcal{H}}=k(y,x)$
 
 > [!proof]-
 > Obvious.
