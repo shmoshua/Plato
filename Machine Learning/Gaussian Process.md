@@ -74,12 +74,11 @@
 > [!proof]-
 > We have:
 > 1. (1=>2): We have that $k$ is a [[Positive Definite Function on a Group|continuous positive definite function]] on the additive group $\mathbb{R}^n$. Therefore, by [[LCA Group|Bochner]], there exists a unique positive bounded measure $\mu$ on $\mathbb{R}^n$ s.t. $$k(x)=\int_{\mathbb{R}^n} e^{i\omega^\top x}\, d\mu(\omega) $$
-> 1. (1=>2) Let $K$ be a covariance function s.t. $k(x-x')=K(x,x')$. Then, for any function $g\in L^1(\mathbb{R}^n)$, we have that: $$\int_{\mathbb{R}^m}^{} \int_{\mathbb{R}^m}^{} k(x-y)g(x)\overline{g(y)} \, dx  \, dy \geq 0 $$Then, by taking $g(x)=\exp \left( -\|x\|^{2} / 2N+i\braket{ x , \omega }\right)$ for $N>0$ and $\omega\in \mathbb{R}^n$, $$\int_{\mathbb{R}^n}\int_{\mathbb{R}^n}k(x-y)\exp \left( -\frac{\|x\|^{2}+\|y\|^{2}}{2N} +i\braket{ x-y ,\omega  } \right)   \, dx   \, dy $$By setting $x-y=:u$ and $x+y=:v$, $$\begin{align}0&\leq \int_{\mathbb{R}^n}\int_{\mathbb{R}^n}k(u)\exp \left( -\frac{\|u\|^{2}+\|v\|^{2}}{N}  +i\braket{ u , \omega } \right)  \, du   \, dv \\&=\sqrt{ (\pi N )^n}\int_{\mathbb{R}^n}k(u)\exp \left( -\frac{\|u\|^{2}}{N}  +i\braket{ u , \omega } \right)  \, du\end{align} $$Therefore, $$\tilde{k}_{N}(\omega)=\frac{1}{(2\pi)^{n / 2}}\int_{\mathbb{R}^n}^{} k(u)e^{-\|u\|^{2} / N} e^{i\braket{ u , \omega } }\, du\geq 0 $$
 > 2. (2=>1): Let $x_{1},\dots,x_{n}\in X$ and $c_{1},\dots,c_{n}\in \mathbb{C}$ . Then, $$\begin{align}\sum_{i,j=1}^{n}c_{i}\overline{c_{j}}k(x_{i}-x_{j})&=\int_{\mathbb{R}^d}^{} \sum_{i,j=1}^{n}c_{i}\overline{c_{j}}e^{i\omega^\top (x_{i}-x_{j})} \, d\mu(\omega)\\&=\int_{\mathbb{R}^d}^{} \left| \sum_{i,j=1}^{n}c_{i}e^{i\omega^\top x_{i}} \right|^{2}\, d\mu(\omega)\geq 0\end{align} $$Therefore, $K(x,x'):=k(x-x')$ is a SPsD kernel and by Proposition 1 it is a covariance function to a Gaussian process.
 
 ^6edada
 
-- **Corollary**: if $k\in L^1(\mathbb{R}^n)$, then by [[Fourier Transform|inversion theorem]] $d\mu=\widehat{k}d\omega$. In this case, $k$ is a covariance function if and only if $\widehat{k}$ is positive. ^d6078a
+- **Corollary**: if $k\in L^1(\mathbb{R}^n)$, then by [[Fourier Transform|inversion theorem]] $d\mu=\widehat{k}d\omega$. In this case, $k$ is a covariance function if and only if $\widehat{k}\geq 0 $. ^d6078a
 ---
 ##### Examples
 > [!h] Example 1 (Constant GP)
