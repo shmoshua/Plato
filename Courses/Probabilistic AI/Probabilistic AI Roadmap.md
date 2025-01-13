@@ -152,7 +152,7 @@ In Bayesian Linear Regression with $w \sim \mathcal{N}(0,I)$ and $y_{i}=w^\top\p
 ---
 ![[Gaussian Process#^ec2539]]
 ![[Gaussian Process#^f3ea71|p]]
-![[Gaussian Process#^5ba3f5|q]]
+![[Gaussian Process#^5ba3f5]]
 
 ---
 

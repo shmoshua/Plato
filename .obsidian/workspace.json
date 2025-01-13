@@ -49,8 +49,7 @@
               "title": "Kernel"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -98,8 +97,7 @@
               "title": "Gaussian Distribution"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -244,11 +242,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c5171d4660d2343d",
+  "active": "ed1a9be185e2aaac",
   "lastOpenFiles": [
+    "Machine Learning/Gaussian Process.md",
     "Analysis/Kernel.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Machine Learning/Gaussian Process.md",
     "Probability Theory/Independence.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Algebraic Topology/Singular Homology.md",
