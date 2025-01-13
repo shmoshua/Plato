@@ -8,7 +8,7 @@
 ---
 #### 1.2 Random Variables
 ![[Random Variable#^4b9e44]]
-![[Random Variable#^a13060|q]]
+![[Random Variable#^a13060|]]
 
 ![[Density#^fe3835]]
 
@@ -27,7 +27,7 @@
 ---
 #### 1.6 Gaussian Distribution
 ![[Gaussian Distribution#^a29bbb]]
-![[Gaussian Distribution#^38c683|q]]
+![[Gaussian Distribution#^38c683]]
 
 ---
 
@@ -51,22 +51,27 @@
 #### 2.1 MLE and MAP
 
 ![[Maximum Likelihood Estimation#^fe8cee]]
-![[Maximum Likelihood Estimation#^6a1148|q]]
+![[Maximum Likelihood Estimation#^6a1148]]
+
+---
 ![[Maximum A Posteriori Estimation#^010b53]]
-![[Maximum A Posteriori Estimation#^935410|q]]
+![[Maximum A Posteriori Estimation#^935410]]
 
 ---
 ![[Linear Regression#^985e1b]]
 ![[Linear Regression#^42a860|p]]
+
 ---
 ![[Linear Regression#^ff972b]]
 ![[Linear Regression#^c76ffe|p]]
+
 ---
 #### 2.2 Bayesian Decision Theory
 
 ![[Linear Regression#^647c71]]
 ![[Linear Regression#^8a650d|p]]
-![[Linear Regression#^c649df|q]]
+![[Linear Regression#^c649df]]
+
 ---
 ![[Aleatoric and Epistemic Uncertainty#^265ad5]]
 
@@ -80,8 +85,8 @@
 ---
 ##### 2.2.1 Bayesian Networks and Graphical Models
 ![[Bayesian Network#^78dc2b]]
-![[Bayesian Network#^62a6d8|q]]
-![[Bayesian Network#^c0cc53|q]]
+![[Bayesian Network#^62a6d8]]
+![[Bayesian Network#^c0cc53|p]]
 
 ---
 ![[Bayesian Network#^acd87b]]
@@ -107,7 +112,7 @@ In Bayesian Linear Regression with $w \sim \mathcal{N}(0,I)$ and $y_{i}=w^\top\p
 ---
 #### 2.3.1 Kernels and Covariance Function
 ![[Kernel#^258b99]]
-![[Kernel#^cc13be|q]]
+![[Kernel#^cc13be]]
 
 ---
 

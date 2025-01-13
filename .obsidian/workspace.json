@@ -4,356 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "c45eeefa3389e702",
-        "type": "tabs",
-        "dimension": 46.499416569428234,
-        "children": [
-          {
-            "id": "3a52de36f7a2cf47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Singular Homology"
-            }
-          },
-          {
-            "id": "2189578df4e1b7e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Split Exact Sequence.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Split Exact Sequence"
-            }
-          },
-          {
-            "id": "93886d7fa5963f6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Homology Theory"
-            }
-          },
-          {
-            "id": "b40bea9cc5405c18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Special Orthogonal Group.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Special Orthogonal Group"
-            }
-          },
-          {
-            "id": "59e8cf10adde0ae3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Algebraic Topology I Roadmap"
-            }
-          },
-          {
-            "id": "1e653de5e0e6581e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/CW-Complex.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "CW-Complex"
-            }
-          },
-          {
-            "id": "4f5a3d47b7537008",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Chain Homotopy.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Chain Homotopy"
-            }
-          },
-          {
-            "id": "292dad5829ce6f1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Singular Homology"
-            }
-          },
-          {
-            "id": "4620fd9da729033f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
-            }
-          },
-          {
-            "id": "00a59ea9009f02e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Real Projective Space.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Real Projective Space"
-            }
-          },
-          {
-            "id": "04e6996e61417978",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Quotient Topology.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Quotient Topology"
-            }
-          }
-        ],
-        "currentTab": 10
-      },
-      {
         "id": "4d5ec56e57395c88",
         "type": "tabs",
-        "dimension": 53.50058343057176,
         "children": [
           {
-            "id": "0fb9932122feb2ab",
+            "id": "ed1a9be185e2aaac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-                "mode": "preview",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology I Roadmap"
-            }
-          },
-          {
-            "id": "58e1e69f81e0efe0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
-            }
-          },
-          {
-            "id": "ed503d3774a48309",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Quotient Topology.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Quotient Topology"
-            }
-          },
-          {
-            "id": "cbff77d30ae9c164",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Suspension.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Suspension"
-            }
-          },
-          {
-            "id": "afc02536718005e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Singular Homology"
-            }
-          },
-          {
-            "id": "9ba489aacf84feae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Euler Characteristic.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Euler Characteristic"
-            }
-          },
-          {
-            "id": "01cd1df0c6ef465c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Mapping Cylinder.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Mapping Cylinder"
-            }
-          },
-          {
-            "id": "fb202168c3619b61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Retract.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Retract"
-            }
-          },
-          {
-            "id": "c1a8e2d4f21d1b44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Singular Homology"
-            }
-          },
-          {
-            "id": "88de64223c5bbc65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Chain Complex.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Chain Complex"
-            }
-          },
-          {
-            "id": "694084fa1447c53b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Gaussian Distribution"
-            }
-          },
-          {
-            "id": "c13190f7432efdec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory/Variance.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Variance"
-            }
-          },
-          {
-            "id": "e541ee7c9b5ae96a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Finitely Generated Abelian Group.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Finitely Generated Abelian Group"
+              "title": "Probabilistic AI Roadmap"
             }
           }
-        ],
-        "currentTab": 12
+        ]
+      },
+      {
+        "id": "7cfba2b510f9f98d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82a1d8c053419e28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Probabilistic AI Roadmap"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -498,8 +186,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e541ee7c9b5ae96a",
+  "active": "ed1a9be185e2aaac",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "ML Theory/Maximum A Posteriori Estimation.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Machine Learning/Linear Regression.md",
+    "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Cyclic Groups.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Independence.md",
@@ -512,7 +206,6 @@
     "Algorithms/Covering.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Smash Product.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Suspension.md",
@@ -521,11 +214,6 @@
     "Topology/Quotient Topology.md",
     "Topology/Lift.md",
     "Topology/CW-Complex.md",
-    "Topology/Mapping Cylinder.md",
-    "Algebra/Split Exact Sequence.md",
-    "Topology/Retract.md",
-    "Topology/Homotopy.md",
-    "Technical Lemmas.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
