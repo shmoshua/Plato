@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Laplace Approximation.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Laplace Approximation"
+              "title": "Entropy"
             }
           },
           {
@@ -103,16 +103,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Fourier Transform.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fourier Transform"
+              "title": "Expected Value"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -256,15 +256,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2c3234f60697ca6f",
+  "active": "7c23c74e8323a679",
   "lastOpenFiles": [
-    "Machine Learning/Linear Regression.md",
+    "Information Theory/Entropy.md",
+    "Probability Theory/Expected Value.md",
     "Functional Analysis/Fourier Transform.md",
+    "Topology/Algebraic Topology/Relative Homology.md",
+    "ML Theory/Laplace Approximation.md",
+    "Machine Learning/Linear Regression.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Probability Theory/Probability Space.md",
-    "ML Theory/Laplace Approximation.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Probability Theory/Characteristic Function.md",
@@ -281,9 +284,6 @@
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Algebra/Chain Complex.md",
-    "Topology/Covering Space.md",
-    "Algorithms/Covering.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
