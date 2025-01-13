@@ -237,7 +237,7 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 ##### 2.3.5.2 Random Fourier Features
 ![[Gaussian Process#^75577d]]
 ![[Gaussian Process#^6edada|p]]
-![[Gaussian Process#^d6078a|q]]
+![[Gaussian Process#^d6078a]]
 
 - **Remark**: Modulo rescaling all the data with $\mu(\mathbb{R}^n)$, **we may assume that wlog $\mu$ is a probability measure**, i.e. $\widehat{k}$ is a probability density function.
 
