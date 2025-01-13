@@ -330,12 +330,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Topology/Algebraic Topology/Chain Homotopy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "Chain Homotopy"
             }
           },
           {
@@ -528,9 +528,9 @@
   },
   "active": "cb8afa3e784fe138",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Suspension.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/p-Simplex.md",
