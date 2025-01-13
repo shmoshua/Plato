@@ -330,12 +330,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Chain Homotopy.md",
+                "file": "Topology/Algebraic Topology/Euler Characteristic.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Chain Homotopy"
+              "title": "Euler Characteristic"
             }
           },
           {
@@ -528,6 +528,7 @@
   },
   "active": "cb8afa3e784fe138",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Suspension.md",
@@ -546,7 +547,6 @@
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Algebra/Split Exact Sequence.md",
     "Topology/Retract.md",
-    "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Homotopy.md",
     "Technical Lemmas.md",
     "Topology/Complex Projective Space.md",
