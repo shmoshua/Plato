@@ -48,9 +48,33 @@
               "icon": "lucide-file",
               "title": "Variational Inference"
             }
+          },
+          {
+            "id": "85d79219095e8fe7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "b32d5576afc99c70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Expected Value.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Expected Value"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -113,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -144,7 +168,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "euler",
+                "query": "mean value",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -257,13 +281,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "003ebaaeb905c12d",
+  "active": "ee568ad677adda89",
   "lastOpenFiles": [
     "Probability Theory/Expected Value.md",
     "ML Theory/Variational Inference.md",
+    "Probability Theory/Gaussian Distribution.md",
     "Analysis/Kernel.md",
     "Information Theory/Relative Entropy.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "ML Theory/Laplace Approximation.md",
     "Machine Learning/Linear Regression.md",

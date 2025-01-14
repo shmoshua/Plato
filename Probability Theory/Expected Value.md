@@ -60,3 +60,10 @@
 > 	Now if $\mathbb{E}[X]$ is arbitrary, then by applying the lemma on $Z:=X-\mathbb{E}[X]$, we have that: $$\mathbb{E}[e^{\lambda (X-\mathbb{E}[X])}]\leq \exp \left(  \frac{\lambda^{2}(b-a)^{2}}{8}\right) $$ and we have that: $$\mathbb{E}[e^{\lambda X}]=\mathbb{E}[e^{\lambda (X-\mathbb{E}[X])}]e^{\lambda \mathbb{E}[X]}\leq e^{\lambda \mathbb{E}[X]}\cdot \exp \left(  \frac{\lambda^{2}(b-a)^{2}}{8}\right) $$
 > 	
 ---
+> [!lemma] Proposition 4
+> Let $X:\Omega\to \mathcal{X}$ be a random variable and $g:\mathbb{R}\times \mathcal{X}\to \mathbb{R}$ s.t. $g(\cdot,X)$ is integrable and $g$ is continuously differentiable w.r.t. $t$. 
+> 1. if there exists a random variable $Z$ with $\left| \frac{\partial}{\partial t}g(t,X) \right|\leq Z$ almost surely and $\mathbb{E}[Z]<+\infty$. Then, $$\frac{ \partial  }{ \partial t } \mathbb{E}[g(t,X)]=\mathbb{E}\left[ \frac{ \partial  }{ \partial t } g(t,X) \right]$$
+
+> [!proof]+
+> We have that: 
+> 1. Notice that: $$\begin{align}\frac{ \partial  }{ \partial t } \mathbb{E}[g(t,X)]&=\lim_{ h \to 0 } \frac{\mathbb{E}[g(t+h,X)]-\mathbb{E}[g(t,X)]}{h}\\&=\lim_{ h \to 0 } \mathbb{E}\left[ \frac{g(t+h,X)-g(t,X)}{h} \right]\\&=\lim_{ h \to 0 } \mathbb{E}\left[ \frac{ \partial  }{ \partial t } g(\tau(h),X) \right] \end{align}$$where $\tau(h)\in (t,t+h)$ exists because of mean value theorem. Then, $$\left| \frac{ \partial  }{ \partial t } g(\tau(h),X) \right|\leq $$
