@@ -63,7 +63,7 @@
 > [!lemma] Proposition 4
 > Let $X:\Omega\to \mathcal{X}$ be a random variable and $g:\mathbb{R}\times \mathcal{X}\to \mathbb{R}$ s.t. $g(\cdot,X)$ is integrable and $g$ is continuously differentiable w.r.t. $t$. 
 > 1. if there exists a random variable $Z$ with $\left| \frac{\partial}{\partial t}g(t,X) \right|\leq Z$ almost surely for all $t$ and $\mathbb{E}[Z]<+\infty$. Then, $$\frac{ \partial  }{ \partial t } \mathbb{E}[g(t,X)]=\mathbb{E}\left[ \frac{ \partial  }{ \partial t } g(t,X) \right]$$
-> 2. if $f:\mathbb{R}^n\times \mathcal{X}\to \mathbb{R}$ s.t. $f$ is integrable and $f$ is continuously differentiable w.r.t. $t$. If there exists a random variable $Z_{i}$ with $\left| \partial_{i}f(x,X)\right|\leq Z_{i}$ a.s. for all $x$ and $\mathbb{E}[Z_{i}]<+\infty$. Then, $$\nabla_{x}\mathbb{E}[f(x,X)]=\mathbb{E}[\nabla_{x}f(x,X)]$$
+> 2. if $f:\mathbb{R}^n\times \mathcal{X}\to \mathbb{R}$ s.t. $f$ is integrable and $f$ is continuously differentiable w.r.t. $t$. If there exists a random variable $Z$ with $\left\| \nabla _{x}f(x,X) \right\|\leq Z$ a.s. for all $x$ and $\mathbb{E}[Z_{i}]<+\infty$. Then, $$\nabla_{x}\mathbb{E}[f(x,X)]=\mathbb{E}[\nabla_{x}f(x,X)]$$
 
 > [!proof]+
 > We have that: 

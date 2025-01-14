@@ -305,3 +305,23 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 
 ---
 #### 3.2 Variational Inference
+![[Variational Inference#^baa2ac]]
+![[Variational Inference#^b6c367]]
+![[Variational Inference#^473bab|p]]
+
+---
+![[Variational Inference#^8f7c5f]]
+![[Variational Inference#^26b614|p]]
+
+---
+![[Variational Inference#^e5c51e]]
+![[Variational Inference#^e82d58|p]]
+![[Variational Inference#^719723]]
+
+---
+![[Variational Inference#^cd942b]]
+![[Variational Inference#^0bbd4c]]
+
+---
+#### 3.3 Markov Chain Monte Carlo (MCMC)
+![[Markov Chain#^a66180]]

@@ -50,31 +50,20 @@
             }
           },
           {
-            "id": "85d79219095e8fe7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "b32d5576afc99c70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "ML Theory/Laplace Approximation.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expected Value"
+              "title": "Laplace Approximation"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -123,31 +112,17 @@
             }
           },
           {
-            "id": "3a29013869833d23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Lebesgue Measure.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Lebesgue Measure"
-            }
-          },
-          {
             "id": "7c23c74e8323a679",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "ML Theory/Laplace Approximation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expected Value"
+              "title": "Laplace Approximation"
             }
           },
           {
@@ -198,16 +173,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Stationary Distribution.md",
+                "file": "Measure Theory/Diffeomorphism.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Stationary Distribution"
+              "title": "Diffeomorphism"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -352,25 +326,27 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3a29013869833d23",
+  "active": "464ee18910056598",
   "lastOpenFiles": [
+    "ML Theory/Variational Inference.md",
+    "ML Theory/Laplace Approximation.md",
+    "Analysis/Laplace Transform.md",
+    "Probability Theory/Expected Value.md",
+    "Measure Theory/Lebesgue Measure.md",
+    "Measure Theory/Diffeomorphism.md",
+    "Markov Processes/Stationary Distribution.md",
     "Measure Theory/Summable Function.md",
     "Measure Theory/Product Measure.md",
     "Differential Geometry/Smooth Function.md",
-    "ML Theory/Variational Inference.md",
     "Markov Processes/Markov Chain.md",
-    "Markov Processes/Stationary Distribution.md",
     "Functional Analysis/Ergodic Measure.md",
-    "Probability Theory/Expected Value.md",
     "Probability Theory/Gaussian Distribution.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Probability Theory/Independence.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Information Theory/Relative Entropy.md",
     "Analysis/Kernel.md",
-    "ML Theory/Laplace Approximation.md",
     "Machine Learning/Linear Regression.md",
-    "Analysis/Laplace Transform.md",
     "Machine Learning/Gaussian Process.md",
     "Information Theory/Entropy.md",
     "Functional Analysis/Fourier Transform.md",
@@ -378,8 +354,6 @@
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
-    "Probability Theory/Probability Space.md",
-    "Probability Theory/Characteristic Function.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
