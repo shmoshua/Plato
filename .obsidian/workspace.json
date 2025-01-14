@@ -53,14 +53,10 @@
             "id": "b32d5576afc99c70",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML Theory/Neural Network.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Neural Network"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -75,12 +71,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Neural Network.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Neural Network"
+              "title": "Probabilistic AI Roadmap"
+            }
+          },
+          {
+            "id": "56df74db369a0659",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Monotone Submodular Function.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Monotone Submodular Function"
             }
           },
           {
@@ -89,12 +99,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Stationary Distribution.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Stationary Distribution"
+              "title": "Entropy"
             }
           },
           {
@@ -187,16 +197,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Monotone Submodular Maximization.md",
+                "file": "Algorithms/Monotone Submodular Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Monotone Submodular Maximization"
+              "title": "Monotone Submodular Function"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -340,20 +349,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6cfb4a1799942bda",
+  "active": "ed1a9be185e2aaac",
   "lastOpenFiles": [
-    "Probability Theory/Variance.md",
+    "ML Theory/Markov Chain Monte Carlo.md",
+    "ML Theory/Neural Network.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Algorithms/Monotone Submodular Function.md",
     "Information Theory/Mutual Information.md",
     "Information Theory/Entropy.md",
+    "Markov Processes/Stationary Distribution.md",
+    "Probability Theory/Variance.md",
     "ML Theory/Laplace Approximation.md",
     "ML Theory/Variational Inference.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Markov Processes/Stationary Distribution.md",
     "Probability Theory/Gibbs Distribution.md",
-    "ML Theory/Markov Chain Monte Carlo.md",
     "Probability Theory/Gaussian Distribution.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
-    "ML Theory/Neural Network.md",
     "Probability Theory/Expected Value.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
@@ -367,7 +377,6 @@
     "Functional Analysis/Ergodic Measure.md",
     "Probability Theory/Independence.md",
     "Information Theory/Relative Entropy.md",
-    "Analysis/Kernel.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

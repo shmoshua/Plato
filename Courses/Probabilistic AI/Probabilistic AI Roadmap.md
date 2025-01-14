@@ -426,3 +426,20 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 	2. $\text{conf}(B_{m}):=\frac{1}{\left| B_{m} \right|}\sum_{i\in B_{m}}^{}\mathbb{P}(Y_{i}=1|x_{i})$
 > 	
 > 	Then, a model is well-calibrated if $\text{freq}(B_{m})\approx \text{conf}(B_{m})$ for all $m$. 
+---
+### 4. Active Learning
+In active learning, we consider the following setting. Let $\mathcal{X}$ be the domain of possible observation of an unknown function $f:\mathcal{X}\to \mathbb{R}$, s.t. the observation at each point $x\in \mathcal{X}$ is given by: $$y_{x}:=f(x)+\varepsilon_{x},\quad \varepsilon\sim \mathcal{N}(0,\sigma^{2}_{n}I)$$Let $S:=\{ x_{1},\dots,x_{n} \}\subseteq \mathcal{X}$ now be a set of observations. Then, $y_{S}:=f_{S}+\varepsilon$ where: 
+1. $y_{S}:=(y_{x_{1}},\dots,y_{x_{n}})$ and 
+2. $f_{S}:=(f_{x_{1}},\dots,f_{x_{n}})$ and 
+3. $\varepsilon \sim \mathcal{N}(0,\sigma^{2}_{n}I)$
+
+For a subset $S\subseteq \mathcal{X}$, then define $I(S):=I(f_{S};y_{S})=H(f_{S})-H(f_{S}|y_{S})$ given by the [[mutual information]]. Hence, our goal is to find: $$S^{*}:=\underset{ S\subseteq \mathcal{X} }{ \arg\max }\ I(S)$$This is known to be an NP-hard problem
+
+---
+> [!lemma] Proposition 1 (Monotone Submodularity of Mutual Information)
+> We have that:
+> 1. $I:2^\mathcal{X}\to \mathbb{R}$ is a [[Monotone Submodular Function|monotone submodular function]].
+
+> [!proof]+
+> We have that: 
+> 1. To show the submodularity, 
