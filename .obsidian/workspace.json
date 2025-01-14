@@ -63,8 +63,7 @@
               "title": "Neural Network"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -104,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Probabilistic AI Roadmap"
             }
           },
           {
@@ -118,12 +117,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Variational Inference.md",
+                "file": "ML Theory/Maximum A Posteriori Estimation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variational Inference"
+              "title": "Maximum A Posteriori Estimation"
             }
           },
           {
@@ -210,7 +209,8 @@
               "title": "Gaussian Distribution"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -354,15 +354,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b32d5576afc99c70",
+  "active": "2c3234f60697ca6f",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "ML Theory/Neural Network.md",
-    "Probability Theory/Gibbs Distribution.md",
-    "ML Theory/Markov Chain Monte Carlo.md",
-    "Markov Processes/Stationary Distribution.md",
-    "Probability Theory/Gaussian Distribution.md",
+    "ML Theory/Maximum A Posteriori Estimation.md",
     "ML Theory/Variational Inference.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "ML Theory/Neural Network.md",
+    "Markov Processes/Stationary Distribution.md",
+    "ML Theory/Markov Chain Monte Carlo.md",
+    "Probability Theory/Gibbs Distribution.md",
     "Probability Theory/Expected Value.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
@@ -381,7 +382,6 @@
     "Machine Learning/Linear Regression.md",
     "Machine Learning/Gaussian Process.md",
     "Information Theory/Entropy.md",
-    "Functional Analysis/Fourier Transform.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

@@ -358,3 +358,23 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 3. **(Stochastic gradient Langevin dynamics,SGLD)** Uses ULA with Monte Carlo methods for the gradient, i.e. $$\theta'\gets \theta-\tau \nabla_{\theta}f+\varepsilon=\theta+\tau \left( \nabla_{\theta}\log p(\theta)+\frac{n}{m}\sum_{j=1}^{m}\nabla_{\theta}\log p(y_{i_{j}}|x_{i_{j}},\theta) \right) +\varepsilon$$where $\varepsilon \sim \mathcal{N}(0,2\tau I)$ and $i_{1},\dots,i_{m}\sim \text{Unif}([n])$ independently
 - **Remark**: If we use dynamic learning rates $\tau_{t}=\Theta(t^{-1 / 3})$, then SGLD is guaranteed to converge to the posterior. 
 ---
+#### 3.4 Application: Bayesian Deep Learning
+![[Neural Network#^1d6c4a]]
+
+---
+##### 3.4.1 Heteroscedastic Noise
+> [!definition]
+> A noise is called:
+> 1. ***homoscedastic*** if it is uniform across the domain. 
+> 2. ***heteroscedastic*** if otherwise.
+---
+> [!outlook] Modelling heteroscedastic noise
+> We use a neural network with two outputs $f:\mathbb{R}^d\to \mathbb{R}^2$ and define: 
+> 1. $p(y|x,\theta)=\mathcal{N}(y;\mu(x;\theta),\sigma^{2}(x;\theta))$ where 
+> 2. $\mu(x;\theta):=f_{1}(x;\theta)$ and
+> 3. $\sigma^{2}(x;\theta):=\exp(f_{2}(x;\theta))$ where the exponential is used to make it non-negative. 
+> 
+> For example, the MAP estimate of $\theta$ becomes with Gaussian prior $\theta \sim \mathcal{N}(0,\sigma^{2}_{p}I)$, $$\begin{align}\widehat{\theta}_{\text{MAP}}&:=\arg\max_{\theta\in \Theta}\log p(\theta)+\sum_{i=1}^{n}\log p(y_{i}|x_{i},\theta)\\&=\arg\max_{\theta\in \Theta}\left( -\frac{\|\theta\|^{2}_{2}}{2\sigma^{2}_{p}}+\sum_{i=1}^{n}\left(-\frac{1}{2}\log \sigma^{2}(x_{i},\theta) -\frac{(y_{i}-\mu(x_{i},\theta))^{2}}{2\sigma^{2}(x_{i},\theta)} \right) \right)\\&=\arg\min_{\theta\in \Theta}\left( \frac{\|\theta\|^{2}_{2}}{\sigma^{2}_{p}}+\sum_{i=1}^{n}\log \sigma^{2}(x_{i},\theta) +\sum_{i=1}^{n}\frac{(y_{i}-\mu(x_{i},\theta))^{2}}{\sigma^{2}(x_{i},\theta)} \right) \end{align}$$
+- **Remark**: This can be used to model the aleatoric uncertainty, but not the epistemic uncertainty as this is a MAP estimate, i.e. a point estimate. 
+---
+##### 3.4.2 Variational Inference with Bayesian Neural Networks
