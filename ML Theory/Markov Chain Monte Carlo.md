@@ -13,7 +13,7 @@
 > \State $x_{0}\gets$ sampled by $\rho$.
 > \For{$t\geq 0$}
 > \State $x'\gets R(X'|X=x_{t})$
-> \State $X_{t+1}\gets x'$ with probability $\alpha:=\min\left\{  1, \frac{q(x')R(x|x')}{q(x)R(x'|x)}  \right\}$ and otherwise $x$.
+> \State $X_{t+1}\gets x'$ with probability $\alpha(x'|x):=\min\left\{  1, \frac{q(x')R(x|x')}{q(x)R(x'|x)}  \right\}$ and otherwise $x$.
 \EndFor
 \end{algorithmic}
 \end{algorithm}
@@ -22,6 +22,33 @@
 > 1. $(X_{t})_{t\geq 0}$ is a Markov chain.
 > 1. the stationary distribution of the Markov chain $(X_{t})_{t\geq 0}$ is given by $q(x) / \|q\|_{1}$.  
 
+> [!proof]-
+> Let $S$ be the transition function. Then, 
+> 1. We have that: $$S(x'|x)=\begin{cases}\alpha(x'|x) R(x'|x)&x\neq x'\\R(x|x)+\sum_{x''\neq x}^{}(1-\alpha(x'|x))R(x''|x)&x=x'\end{cases}$$Then, $$\sum_{x'\in \mathcal{S}}^{}S(x'|x)=\sum_{x'\in \mathcal{S}}^{}R(x'|x)=1$$
+> 
+> 1. It suffices to show that the MC meets the detailed balanced equation w.r.t. $q$. Assume that $x\neq x'$. Then: $$q(x)S(x'|x)=q(x)\alpha(x'|x)R(x'|x)$$
+> 	1. if $\alpha(x'|x)=\frac{q(x')R(x|x')}{q(x)R(x'|x)}$, then $\alpha(x|x')=1$. Hence, $$q(x)S(x'|x)=q(x)\alpha(x'|x)R(x'|x)=q(x')R(x|x')=q(x')S(x'|x)$$
+> 	2. if $\alpha(x'|x)=1$, then $q(x)R(x'|x)\leq q(x')R(x|x')$ and $\alpha(x|x')=\frac{q(x)R(x'|x)}{q(x')R(x|x')}$. Hence, $$q(x')S(x|x')=q(x')\alpha(x|x')R(x|x')=q(x)R(x'|x)=q(x)S(x'|x)$$
+> 	
+> 	And if $x=x'$, it trivially holds. 
+---
+> [!lemma] Theorem 2 (Gibbs-Sampling)
+> ```pseudo
+> \begin{algorithm} \caption{Gibbs-Sampling}
+> \begin{algorithmic}
+> \State initialize $x\in \mathbb{R}^n$
+> \For{$t=1,\dots,T$}
+> \State pick a variable $i\in[n]$ uniformly at random.
+> \State set $x_{-i}:=(x_{1},\dots,\widehat{x_{i}},\dots,x_{n})$
+> \State update $x_{i}$ by sampling according to $p(x_{i}|x_{-i})$. 
+>
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+> ```
+> Then, 
+> 1. Gibbs-Sampling is a Metropolis-Hastings algorithm with $$R(x'|x)=\begin{cases}p(x'_{i}|x'_{-i})&x'\text{ differs from }x\text{ only in entry }i\\0&\text{otherwise}\end{cases}$$and $\alpha(x'|x)=1$.
+
 > [!proof]+
 > We have that:
-> 1. Notice that: $$\begin{align}\sum_{x'\in \mathcal{S}}^{}\mathbb{P}(X_{t+1}=x'|X_{t}=x)=\mathbb{P}(X_{t+1}=x|X_{t}=x)+\sum_{x'\neq x}\min\left\{  1,\frac{q(x')R(x|x')}{q(x)R(x'|x)}  \right\}\end{align}$$
+> 1. Let $x',x\in \mathcal{S}$ s.t. they differ only at $i$-th coordinate, then: $p(x)=p(x_{i}|x_{-i})p(x_{-i})$ and: $$\frac{q(x')R(x|x')}{q(x)R(x'|x)}=p(x')p(x'_{i}|x'_{-})$$
