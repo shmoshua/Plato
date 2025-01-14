@@ -62,8 +62,10 @@
 ---
 > [!lemma] Proposition 4
 > Let $X:\Omega\to \mathcal{X}$ be a random variable and $g:\mathbb{R}\times \mathcal{X}\to \mathbb{R}$ s.t. $g(\cdot,X)$ is integrable and $g$ is continuously differentiable w.r.t. $t$. 
-> 1. if there exists a random variable $Z$ with $\left| \frac{\partial}{\partial t}g(t,X) \right|\leq Z$ almost surely and $\mathbb{E}[Z]<+\infty$. Then, $$\frac{ \partial  }{ \partial t } \mathbb{E}[g(t,X)]=\mathbb{E}\left[ \frac{ \partial  }{ \partial t } g(t,X) \right]$$
+> 1. if there exists a random variable $Z$ with $\left| \frac{\partial}{\partial t}g(t,X) \right|\leq Z$ almost surely for all $t$ and $\mathbb{E}[Z]<+\infty$. Then, $$\frac{ \partial  }{ \partial t } \mathbb{E}[g(t,X)]=\mathbb{E}\left[ \frac{ \partial  }{ \partial t } g(t,X) \right]$$
+> 2. if $f:\mathbb{R}^n\times \mathcal{X}\to \mathbb{R}$ s.t. $f$ is integrable and $f$ is continuously differentiable w.r.t. $t$. If there exists a random variable $Z_{i}$ with $\left| \partial_{i}f(x,X)\right|\leq Z_{i}$ a.s. for all $x$ and $\mathbb{E}[Z_{i}]<+\infty$. Then, $$\nabla_{x}\mathbb{E}[f(x,X)]=\mathbb{E}[\nabla_{x}f(x,X)]$$
 
 > [!proof]+
 > We have that: 
-> 1. Notice that: $$\begin{align}\frac{ \partial  }{ \partial t } \mathbb{E}[g(t,X)]&=\lim_{ h \to 0 } \frac{\mathbb{E}[g(t+h,X)]-\mathbb{E}[g(t,X)]}{h}\\&=\lim_{ h \to 0 } \mathbb{E}\left[ \frac{g(t+h,X)-g(t,X)}{h} \right]\\&=\lim_{ h \to 0 } \mathbb{E}\left[ \frac{ \partial  }{ \partial t } g(\tau(h),X) \right] \end{align}$$where $\tau(h)\in (t,t+h)$ exists because of mean value theorem. Then, $$\left| \frac{ \partial  }{ \partial t } g(\tau(h),X) \right|\leq $$
+> 1. Notice that: $$\begin{align}\frac{ \partial  }{ \partial t } \mathbb{E}[g(t,X)]&=\lim_{ h \to 0 } \frac{\mathbb{E}[g(t+h,X)]-\mathbb{E}[g(t,X)]}{h}\\&=\lim_{ h \to 0 } \mathbb{E}\left[ \frac{g(t+h,X)-g(t,X)}{h} \right]\\&=\lim_{ h \to 0 } \mathbb{E}\left[ \frac{ \partial  }{ \partial t } g(\tau(h),X) \right] \end{align}$$where $\tau(h)\in (t,t+h)$ exists because of mean value theorem. Then, by DCT, $$\frac{ \partial  }{ \partial t } \mathbb{E}[g(t,X)]=\mathbb{E}\left[ \frac{ \partial  }{ \partial t } g(t,X) \right]$$
+> 2. We have that from 1: $$\begin{align}\nabla_{x}\mathbb{E}[f(x,X)]&=(\partial_{1}\mathbb{E}[f(x,X)],\dots,\partial_{n}\mathbb{E}[f(x,X)])\\&=(\mathbb{E}[\partial_{1}f(x,X)],\dots,\mathbb{E}[\partial_{n}f(x,X)])\\&=\mathbb{E}[\nabla_{x}f(x,X)]\end{align} $$

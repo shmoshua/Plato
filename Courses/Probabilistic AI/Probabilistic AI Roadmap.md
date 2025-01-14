@@ -295,7 +295,7 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 
 ---
 ![[Laplace Approximation#^166528]]
-![[Laplace Approximation#^438021]]
+![[Laplace Approximation#^438021|p]]
 
 ---
 ![[Laplace Approximation#^781bf0]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Relative Entropy.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Relative Entropy"
+              "title": "Probabilistic AI Roadmap"
             }
           },
           {
@@ -73,8 +73,7 @@
               "title": "Expected Value"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -135,9 +134,22 @@
               "icon": "lucide-file",
               "title": "Expected Value"
             }
+          },
+          {
+            "id": "1cf617a12385de51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra/Cholesky Decomposition.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Cholesky Decomposition"
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -281,14 +293,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ee568ad677adda89",
+  "active": "ed1a9be185e2aaac",
   "lastOpenFiles": [
-    "Probability Theory/Expected Value.md",
-    "ML Theory/Variational Inference.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Analysis/Kernel.md",
     "Information Theory/Relative Entropy.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Linear Algebra/Cholesky Decomposition.md",
+    "Probability Theory/Expected Value.md",
+    "ML Theory/Variational Inference.md",
+    "Analysis/Kernel.md",
     "ML Theory/Laplace Approximation.md",
     "Machine Learning/Linear Regression.md",
     "Analysis/Laplace Transform.md",
@@ -308,7 +321,6 @@
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Cyclic Groups.md",
     "Probability Theory/Variance.md",
-    "Topology/Wedge Product.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
