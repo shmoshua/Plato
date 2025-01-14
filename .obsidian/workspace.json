@@ -73,7 +73,8 @@
               "title": "Expected Value"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -122,7 +123,49 @@
             }
           },
           {
+            "id": "3a29013869833d23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Lebesgue Measure.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lebesgue Measure"
+            }
+          },
+          {
             "id": "7c23c74e8323a679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Expected Value.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Expected Value"
+            }
+          },
+          {
+            "id": "bdc35b4800862871",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Independence.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Independence"
+            }
+          },
+          {
+            "id": "4c1b7de538ea8384",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -141,15 +184,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/Cholesky Decomposition.md",
+                "file": "Markov Processes/Markov Chain.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cholesky Decomposition"
+              "title": "Markov Chain"
+            }
+          },
+          {
+            "id": "70079afab2ce302c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Processes/Stationary Distribution.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Stationary Distribution"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -180,7 +238,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mean value",
+                "query": "change of variable",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,7 +259,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -293,14 +352,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ed1a9be185e2aaac",
+  "active": "3a29013869833d23",
   "lastOpenFiles": [
-    "Information Theory/Relative Entropy.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Measure Theory/Summable Function.md",
+    "Measure Theory/Product Measure.md",
+    "Differential Geometry/Smooth Function.md",
+    "ML Theory/Variational Inference.md",
+    "Markov Processes/Markov Chain.md",
+    "Markov Processes/Stationary Distribution.md",
+    "Functional Analysis/Ergodic Measure.md",
+    "Probability Theory/Expected Value.md",
     "Probability Theory/Gaussian Distribution.md",
     "Linear Algebra/Cholesky Decomposition.md",
-    "Probability Theory/Expected Value.md",
-    "ML Theory/Variational Inference.md",
+    "Probability Theory/Independence.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Information Theory/Relative Entropy.md",
     "Analysis/Kernel.md",
     "ML Theory/Laplace Approximation.md",
     "Machine Learning/Linear Regression.md",
@@ -314,13 +380,6 @@
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Probability Theory/Probability Space.md",
     "Probability Theory/Characteristic Function.md",
-    "Probability Theory/Independence.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "ML Theory/Maximum A Posteriori Estimation.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Algebra/Finitely Generated Abelian Group.md",
-    "Algebra/Cyclic Groups.md",
-    "Probability Theory/Variance.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
