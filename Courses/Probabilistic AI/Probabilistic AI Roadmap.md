@@ -383,5 +383,18 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 1. Use the reparametrization trick to find $\lambda$ s.t. $$\begin{align}q_{\lambda}&:=\text{argmax}_{q\in \mathcal{Q}}\mathbb{E}_{\theta \sim q}[\log p(y_{1:n}|x_{1:n},\theta)]-D(q\| p(\cdot))\\&\approx \text{argmax}_{q\in \mathcal{Q}}\mathbb{E}_{\varepsilon \sim \mathcal{N}(0,I)}[\log p(y_{1:n}|x_{1:n},\Sigma^{1/2}\varepsilon+\mu)]-D(q\| p(\cdot))\end{align}$$
 > 2. Then, for a new point $x^{*}\in \mathbb{R}^d$, $$\begin{align}p(y^{*}|x^{*},x_{1:n},y_{1:n})&=\int_{\Theta}^{} p(y^{*}|x^{*},\theta)p(\theta|x_{1:n},y_{1:n}) \, d\theta\\&=\mathbb{E}_{\theta \sim p(\cdot |x_{1:n},y_{1:n})}[p(y^{*}|x^{*},\theta)]\\&\approx \mathbb{E}_{\theta \sim q_{\lambda}}[p(y^{*}|x^{*},\theta)] \\&\approx \frac{1}{m}\sum_{j=1}^{m}p(y^{*}|x^{*},\theta^{(j)}) \\&= \frac{1}{m}\sum_{j=1}^{m}\mathcal{N}(y^{*};\mu(x^{*};\theta^{(j)}),\sigma^{2}(x^{*};\theta^{(j)})) \end{align}$$where $\theta^{(1)},\dots,\theta^{(m)}\sim q_{\lambda}$ independently. 
 > 3. The mean is given by: $$\mathbb{E}[y^{*}|x^{*},x_{1:n},y_{1:n}]\approx \frac{1}{m}\sum_{j=1}^{m}\mu(x^{*};\theta^{(j)})=:\overline{\mu}(x^{*})$$
-> 4. The variance is given by: $$\begin{align}\text{Var}[y^{*}|x^{*},x_{1:n},y_{1:n}]&=\mathbb{E}_{\theta}[\text{Var}_{y^{*}}[y^{*}|x^{*},\theta]]+\text{Var}_{\theta}[\mathbb{E}_{y^{*}}[y^{*}|x^{*},\theta]]\\&=\mathbb{E}_{\theta}\left[ \sigma^{2}(x^{*};\theta)\right]+\text{Var}_{\theta}(\mu(x^{*};\theta))\end{align}$$
->
+> 4. The variance is given by: $$\begin{align}\text{Var}[y^{*}|x^{*},x_{1:n},y_{1:n}]&=\mathbb{E}_{\theta}[\text{Var}_{y^{*}}[y^{*}|x^{*},\theta]]+\text{Var}_{\theta}[\mathbb{E}_{y^{*}}[y^{*}|x^{*},\theta]]\\&=\mathbb{E}_{\theta}\left[ \sigma^{2}(x^{*};\theta)\right]+\text{Var}_{\theta}(\mu(x^{*};\theta))\\&\approx \frac{1}{m}\sum_{j=1}^{m}\sigma^{2}(x^{*};\theta^{(j)})+\frac{1}{m-1}\sum_{j=1}^{m}(\mu(x^{*};\theta^{(j)})-\overline{\mu}(x^{*}))^{2}\end{align}$$where the first term corresponds to the aleatoric uncertainty and the second term corresponds to epistemic.
+---
+##### 3.4.3 MCMC with BNN
+> [!outlook] MCMC with BNN
+> The challenges of MCMC with BNN is that:
+> 1. we cannot afford to store all $T$ samples (e.g. in SGLD)
+> 2. we need to drop the first few samples to avoid burn-in period.
+> 
+> The workaround are as follows:
+> 1. **Subsampling**: Keep track of $m$ snapshots of the weights according to some schedule and use it for inference.
+> 2. **Gaussian approximation**: We approximate: $\theta \sim \mathcal{N}(\mu,\Sigma)$ where: $$\mu=\frac{1}{T}\sum_{i=1}^{T}\theta^{(i)},\quad \Sigma=\frac{1}{T-1}\sum_{i=1}^{T}(\theta^{(i)}-\mu)(\theta^{(i)}-\mu)^\top$$This can be done by the following iterations: 
+> 	1. $\mu^{(t+1)}:= \frac{1}{t+1}(t\mu^{(t)}+\theta^{(t)})$.
+> 	2. $A^{(t+1)}:=\frac{1}{t+1}(tA^{(t)}+\theta^{(t)}\theta^{(t)\top})$
+> 
+> 	Then, $$\Sigma=\frac{1}{T-1}\sum_{i=1}^{T}(\theta^{(i)}-\mu)(\theta^{(i)}-\mu)^\top=\frac{T}{T-1}(A^{(T)}-\mu^{(T)} \mu^{(T)\top})$$
