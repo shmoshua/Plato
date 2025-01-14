@@ -10,16 +10,16 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Basic Properties)
-> Let $X\sim \mathcal{N}(\mu,\Sigma)$.
+> Let $X\sim \mathcal{N}(\mu,\Sigma)$
 > 1. $p$ is indeed a density function. 
 > 2. $\mathbb{E}[X]=\mu$
 > 3. $\text{Var}[X]=\Sigma$
 > 4. the [[characteristic function]] is given by: $$\Phi_{X}(\xi):=\exp \left( i \xi^\top\mu-\frac{1}{2}\xi^\top\Sigma \xi \right) $$
-> 5. the [[entropy]] is given by $H(p)=\frac{1}{2}\ln \left| 2\pi e\Sigma \right|$
+> 5. the [[entropy]] is given by $H(p)=\frac{1}{2}\log \det\Sigma+\frac{d}{2}(1+\log 2\pi)$.
+> 6. for $X'\sim \mathcal{N}(\mu',\Sigma')$ with density $p'$, the [[relative entropy]] is given by: $$D(p\|q)=\frac{1}{2}\left( (\mu'-\mu)^\top\Sigma'^{-1}(\mu'-\mu)+\text{tr}(\Sigma'^{-1}\Sigma)-d+ \log \frac{\det\Sigma'}{\det\Sigma} \right) $$
 
 ^6f6281
 
-We have that: $$\begin{align}H(p)&=\mathbb{E}[-\log p]\\&=\mathbb{E}\left[ \frac{d}{2}\log(2\pi)+\frac{1}{2}\log \det\Sigma+\frac{1}{2}(x-\mu)^\top\Sigma ^{-1}(x-\mu) \right] \\&=\frac{d}{2}\log(2\pi)+\frac{1}{2}\log \det\Sigma+\frac{1}{2}\mathbb{E}[(x)]\end{align}$$
 
 
 > [!proof]-
@@ -32,6 +32,12 @@ We have that: $$\begin{align}H(p)&=\mathbb{E}[-\log p]\\&=\mathbb{E}\left[ \frac
 >    
 >    Therefore, $\mathbb{E}[ZZ^\top]=S$ and $\mathbb{V}[X]=USU^\top=\Sigma$.
 > 4. First, we show it for $X \sim \mathcal{N}(0,I)$. Then, we have: $$\begin{align}\Phi_{X}(\xi)&=\mathbb{E}[\exp(i\xi^\top X)]\\&=\frac{1}{\sqrt{ (2\pi)^d}}\int_{\mathbb{R}^d}\exp\left( i\xi^\top x-\frac{1}{2}x^\top x \right)  \, dx \\&=\frac{1}{\sqrt{ (2\pi)^d}}\int_{\mathbb{R}^d}\exp\left( i\sum_{i=1}^{d}\xi_{i}x_{i}-\frac{1}{2}\sum_{i=1}^{d}x_{i}^{2}\right)  \, dx\\&=\prod_{i=1}^{d}\int_{\mathbb{R}} \frac{1}{\sqrt{ 2\pi }}\exp\left( i\xi_{i}x_{i}-\frac{1}{2}x_{i}^{2}\right)  \, dx_{i}\\&=\prod_{i=1}^{d}\exp\left( -\frac{\xi_{i}^{2}}{2} \right) \\&=\exp \left( -\frac{1}{2}\xi^\top \xi \right) \end{align}$$ Now, for a general $X \sim \mathcal{N}(\mu,\Sigma)$, we have that $X=\mu+\sqrt{ \Sigma } Z$ where $Z \sim \mathcal{N}(0,I)$. Therefore, $$\begin{align}\Phi_{X}(\xi)&=\mathbb{E}[\exp(i\xi^\top (\mu+\sqrt{ \Sigma }Z))]\\&=\exp(i\xi^\top\mu)\mathbb{E}[\exp(i\xi^\top\sqrt{ \Sigma }Z)]\\&=\exp(i\xi^\top\mu)\Phi_{Z}(\sqrt{ \Sigma }^\top\xi)\\&=\exp\left( i\xi^\top\mu-\frac{1}{2}\xi^\top\Sigma \xi \right)\end{align}$$
+> 5. We have that: $$\begin{align}H(p)&=\mathbb{E}[-\log p]\\&=\mathbb{E}\left[ \frac{d}{2}\log(2\pi)+\frac{1}{2}\log \det\Sigma+\frac{1}{2}(x-\mu)^\top\Sigma ^{-1}(x-\mu) \right] \\&=\frac{d}{2}\log(2\pi)+\frac{1}{2}\log \det\Sigma+\frac{1}{2}\mathbb{E}[(x-\mu)^\top \Sigma ^{-1}(x-\mu)]\end{align}$$Then, we have: $$\begin{align}\mathbb{E}[(x-\mu)^\top \Sigma ^{-1}(x-\mu)]&=\mathbb{E}[\text{tr}((x-\mu)^\top \Sigma ^{-1}(x-\mu))]\\&=\mathbb{E}[\text{tr}( \Sigma ^{-1}(x-\mu)(x-\mu)^\top)]\\&=\text{tr}( \Sigma ^{-1}\mathbb{E}[(x-\mu)(x-\mu)^\top])\\&=\text{tr}(\Sigma ^{-1}\Sigma)\\&=d\end{align}$$
+>    Hence, $$H(p)=\frac{d}{2}(\log(2\pi)+1)+\frac{1}{2}\log \det\Sigma$$
+>  6. We have that: 
+$$\begin{align}D(p\|q)&=\mathbb{E}_{X}[\log p-\log q]\\&=\mathbb{E}_{X}\left[ \frac{1}{2}\log(\det\Sigma')+\frac{1}{2}(x-\mu')^\top\Sigma'^{-1}(x-\mu')-\frac{1}{2}\log(\det\Sigma)-\frac{1}{2}(x-\mu)^\top\Sigma ^{-1}(x-\mu) \right]\\&= \frac{1}{2}\log\left( \frac{\det\Sigma'}{\det\Sigma} \right)+\frac{1}{2}\mathbb{E}_{X}\left[(x-\mu')^\top\Sigma'^{-1}(x-\mu')\right]-\frac{d}{2}\end{align}$$
+Further, we have that: $$\begin{align}\mathbb{E}_{X}\left[(x-\mu')^\top\Sigma'^{-1}(x-\mu')\right]&=\text{tr}(\Sigma'^{-1}\mathbb{E}_{X}\left[(x-\mu')(x-\mu')^\top\right])\\&=\text{tr}(\Sigma'^{-1}\mathbb{E}_{X}\left[(x-\mu+\mu-\mu')(x-\mu+\mu-\mu')^\top\right])\\&=\text{tr}(\Sigma'^{-1}\mathbb{E}_{X}\left[(x-\mu)(x-\mu)^\top+(x-\mu)(\mu-\mu')^\top+(\mu-\mu')(x-\mu)^\top+(\mu-\mu')(\mu-\mu')^\top\right])\\&=\text{tr}(\Sigma'^{-1}(\Sigma+(\mu-\mu')(\mu-\mu')^\top))\\&=\text{tr}(\Sigma'^{-1}\Sigma)+\text{tr}(\Sigma'^{-1}(\mu-\mu')(\mu-\mu')^\top)\\&=\text{tr}(\Sigma'^{-1}\Sigma)+(\mu-\mu')^\top\Sigma'^{-1}(\mu-\mu')\end{align}$$
+This proves the statement.
 
 ^6af1ff
 
@@ -76,3 +82,7 @@ We have that: $$\begin{align}H(p)&=\mathbb{E}[-\log p]\\&=\mathbb{E}\left[ \frac
 > [!proof]-
 > We have:$$\begin{align}\mathbb{E}[\left| Z \right| ]&=\frac{2}{\sqrt{ 2\pi \sigma^{2} }}\int_{0}^{\infty} z e^{-(z-m)^{2}/2\sigma^{2}} \, dz\\&=\frac{2}{\sqrt{ 2\pi \sigma^{2} }}\int_{0}^{\infty} (z+m) e^{-z^{2}/2\sigma^{2}} \, dz\\&=\frac{2}{\sqrt{ 2\pi \sigma^{2} }}\left( \int_{0}^{\infty} z e^{-z^{2}/2\sigma^{2}} \, dz +m\int_{0}^{\infty} e^{-z^{2}/2\sigma^{2}} \, dz  \right)\\&=\frac{2}{\sqrt{ 2\pi \sigma^{2} }}\left( \sigma^{2}+\frac{m\pi }{\sqrt{ 2 }} \right)\\&=\sigma\sqrt{ \frac{2}{\pi} }+\frac{m\sqrt{ \pi }}{\sigma}\end{align}$$
 ---
+##### Examples
+> [!h] Example 1 (Relative Entropy)
+> Let $X,Y$ be two Gaussian random variables.
+> 1. If $X\sim \mathcal{N}(\mu_{0},I)$ and $Y\sim \mathcal{N}(\mu_{1},I)$, $$D(p_{X}\|p_{Y})=\frac{1}{2}\left( \left\| \mu_{0}-\mu_{1} \right\| ^{2}_{2} \right) $$
