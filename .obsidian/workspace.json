@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "ML Theory/Variational Inference.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Kernel"
+              "title": "Variational Inference"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Relative Entropy.md",
+                "file": "ML Theory/Variational Inference.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Relative Entropy"
+              "title": "Variational Inference"
             }
           },
           {
@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -257,13 +257,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2c3234f60697ca6f",
+  "active": "003ebaaeb905c12d",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Information Theory/Relative Entropy.md",
     "Probability Theory/Expected Value.md",
     "ML Theory/Variational Inference.md",
+    "Analysis/Kernel.md",
+    "Information Theory/Relative Entropy.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "ML Theory/Laplace Approximation.md",
     "Machine Learning/Linear Regression.md",
     "Analysis/Laplace Transform.md",
@@ -276,7 +277,6 @@
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Probability Theory/Probability Space.md",
     "Probability Theory/Characteristic Function.md",
-    "Analysis/Kernel.md",
     "Probability Theory/Independence.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "ML Theory/Maximum A Posteriori Estimation.md",

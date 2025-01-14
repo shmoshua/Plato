@@ -85,4 +85,5 @@ This proves the statement.
 ##### Examples
 > [!h] Example 1 (Relative Entropy)
 > Let $X,Y$ be two Gaussian random variables.
-> 1. If $X\sim \mathcal{N}(\mu_{0},I)$ and $Y\sim \mathcal{N}(\mu_{1},I)$, $$D(p_{X}\|p_{Y})=\frac{1}{2}\left( \left\| \mu_{0}-\mu_{1} \right\| ^{2}_{2} \right) $$
+> 1. If $X\sim \mathcal{N}(\mu_{0},I)$ and $Y\sim \mathcal{N}(\mu_{1},I)$, $$D(p_{X}\|p_{Y})=\frac{ 1}{2}\left\| \mu_{0}-\mu_{1} \right\| ^{2}_{2}$$
+> 2. If $X\sim \mathcal{N}(\mu,\text{diag}(\sigma_{1}^{2},\dots,\sigma_{d}^{2}))$ and $Y\sim \mathcal{N}(0,I)$, then: $$D(p_{X}\|p_{Y})=\frac{1}{2}\left( \|\mu\|^{2}_{2}+\sum_{i=1}^{d}\sigma_{i}^{2}-d+\sum_{i=1}^{d}\log \sigma_{i}^{2} \right)=\frac{1}{2}\sum_{i=1}^{d}\left( \mu^{2}_{i}+\sigma_{i}^{2}-1+\log \sigma_{i}^{2} \right) $$
