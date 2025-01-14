@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Variational Inference.md",
+                "file": "ML Theory/Markov Chain Monte Carlo.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variational Inference"
+              "title": "Markov Chain Monte Carlo"
             }
           },
           {
@@ -55,16 +55,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Markov Chain Monte Carlo.md",
+                "file": "Probability Theory/Gibbs Distribution.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Markov Chain Monte Carlo"
+              "title": "Gibbs Distribution"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -174,12 +173,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Probability Theory/Gibbs Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Markov Chain"
+              "title": "Gibbs Distribution"
             }
           },
           {
@@ -195,9 +194,22 @@
               "icon": "lucide-file",
               "title": "Markov Chain Monte Carlo"
             }
+          },
+          {
+            "id": "6cfb4a1799942bda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Gaussian Distribution.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Gaussian Distribution"
+            }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -341,18 +353,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "70079afab2ce302c",
+  "active": "ed1a9be185e2aaac",
   "lastOpenFiles": [
-    "Markov Processes/Markov Chain.md",
-    "ML Theory/Markov Chain Monte Carlo.md",
     "Markov Processes/Stationary Distribution.md",
-    "Courses/Markov Processes/Markov Processes Roadmap.md",
+    "ML Theory/Markov Chain Monte Carlo.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "ML Theory/Variational Inference.md",
+    "Probability Theory/Gibbs Distribution.md",
     "Probability Theory/Expected Value.md",
+    "Markov Processes/Markov Chain.md",
+    "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Measure Theory/Diffeomorphism.md",
     "ML Theory/Laplace Approximation.md",
     "Linear Algebra/Cholesky Decomposition.md",
-    "ML Theory/Variational Inference.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Laplace Transform.md",
     "Measure Theory/Lebesgue Measure.md",
@@ -368,7 +381,6 @@
     "Information Theory/Entropy.md",
     "Functional Analysis/Fourier Transform.md",
     "Topology/Algebraic Topology/Relative Homology.md",
-    "Courses/Advanced Algorithms/Exercise 02.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

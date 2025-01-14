@@ -330,3 +330,23 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 ![[Stationary Distribution#^e89f70]]
 - **Remark**: An ergodic MC has a unique positive stationary distribution. 
 ---
+![[Markov Chain#^61259e]]
+![[Markov Chain#^f23581|p]]
+
+---
+##### 3.3.1 Markov Chain Monte Carlo
+![[Markov Chain Monte Carlo#^265dad]]
+
+---
+![[Markov Chain Monte Carlo#^487412]]
+![[Markov Chain Monte Carlo#^658ceb|p]]
+![[Markov Chain Monte Carlo#^137832]]
+
+---
+![[Markov Chain Monte Carlo#^1e7ebe]]
+![[Markov Chain Monte Carlo#^cc3fbd|p]]
+
+---
+![[Markov Chain Monte Carlo#^28271d]]
+
+---
