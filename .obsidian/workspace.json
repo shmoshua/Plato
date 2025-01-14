@@ -117,12 +117,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Variational Inference.md",
+                "file": "Information Theory/Mutual Information.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variational Inference"
+              "title": "Mutual Information"
             }
           },
           {
@@ -131,12 +131,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Laplace Approximation.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Laplace Approximation"
+              "title": "Entropy"
             }
           },
           {
@@ -210,7 +210,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -354,16 +354,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2c3234f60697ca6f",
+  "active": "7c23c74e8323a679",
   "lastOpenFiles": [
-    "Markov Processes/Stationary Distribution.md",
+    "ML Theory/Laplace Approximation.md",
+    "Information Theory/Mutual Information.md",
+    "ML Theory/Variational Inference.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Markov Processes/Stationary Distribution.md",
     "Probability Theory/Gibbs Distribution.md",
     "ML Theory/Markov Chain Monte Carlo.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Gaussian Distribution.md",
-    "ML Theory/Variational Inference.md",
-    "ML Theory/Laplace Approximation.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
     "ML Theory/Neural Network.md",
     "Probability Theory/Expected Value.md",
@@ -381,7 +382,6 @@
     "Information Theory/Relative Entropy.md",
     "Analysis/Kernel.md",
     "Machine Learning/Linear Regression.md",
-    "Machine Learning/Gaussian Process.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

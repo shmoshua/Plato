@@ -422,4 +422,7 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > We have the following methods:
 > 1. **Evidence**: For training set $x^{\text{train}}_{1:n}$ and validation set $x_{1:m}^{\text{test}}$, we have: $$\begin{align}\log p(y^\text{val}_{1:m}|x^\text{val}_{1:m},x^\text{train}_{1:n},y^\text{train}_{1:n})&=\log \int_{\Theta} p(y^\text{val}_{1:m}|x^\text{val}_{1:m},\theta)p(\theta|x^\text{train}_{1:n},y^\text{train}_{1:n}) \, d\theta \\&\approx\log \int_{\Theta} \prod_{i=1}^{m}p(y^\text{val}_{i}|x^\text{val}_{i},\theta)q_{\lambda}(\theta) \, d\theta \\&=\log \mathbb{E}_{\theta \sim q_{\lambda}}\left[\prod_{i=1}^{m}p(y^\text{val}_{i}|x^\text{val}_{i},\theta)\right]\\&\geq \mathbb{E}_{\theta \sim q_{\lambda}}\left[\sum_{i=1}^{m}\log p(y^\text{val}_{i}|x^\text{val}_{i},\theta)\right]\\&\approx \frac{1}{k}\sum_{j=1}^{k}\sum_{i=1}^{m}\log p(y^\text{val}_{i}|x^\text{val}_{i},\theta^{(j)})\end{align}$$where $\theta^{(j)}\sim q_{\lambda}$ iid.
 > 2. **Reliability diagram**: Let the validation set be split into $B_{1},\dots,B_{M}$ of similar size. For simplicity, assume the classification problem with two labels $\{ \pm 1 \}$.
-> 	1. $\text{freq}(B_{i}):=\frac{1}{nor}$
+> 	1. $\text{freq}(B_{m}):=\frac{1}{\left| B_{m} \right|}\sum_{i\in B_{m}}^{}\mathbb{1}_{Y_{i}=1}$.
+> 	2. $\text{conf}(B_{m}):=\frac{1}{\left| B_{m} \right|}\sum_{i\in B_{m}}^{}\mathbb{P}(Y_{i}=1|x_{i})$
+> 	
+> 	Then, a model is well-calibrated if $\text{freq}(B_{m})\approx \text{conf}(B_{m})$ for all $m$. 
