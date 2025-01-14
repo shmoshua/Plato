@@ -348,5 +348,13 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 
 ---
 ![[Markov Chain Monte Carlo#^28271d]]
-
+- **Related definition**: The ***Metropolis adjusted Langevin algorithm (MALA)*** uses: $$R(x'|x):=\mathcal{N}(x';x-\tau \nabla_{x}f,2\tau I)$$Similarly, this can be formulated as: $x'\gets x-\tau \nabla_{x}f+\varepsilon$ for $\varepsilon \sim \mathcal{N}(0,2\tau I)$.
+- **Related definition**: The ***unadjusted Langevin algorithm (ULA)*** uses MALA proposal, but with $\alpha=1$.
+---
+> [!outlook] Outlook (MALA for Posterior Distribution)
+> Let the posterior $p:=p(\cdot|x_{1:n},y_{1:n})$ be the distribution we want to sample with. Then, 
+> 1. $p(\cdot|x_{1:n},y_{1:n})$ is a Gibbs distribution, i.e. $$p(\theta|x_{1:n},y_{1:n})=\frac{1}{z}p(y_{1:n}|x_{1:n},\theta)p(\theta )=\frac{1}{z}\exp(-f(\theta))$$ for $f(\theta):=-\sum_{i=1}^{n}\log p(y_{i}|x_{i},\theta)-\log p(\theta)$.
+> 2. The MALA algorithm is given by: $$\theta'\gets \theta-\tau \nabla_{\theta}f+\varepsilon=\theta+\tau \left( \nabla_{\theta}\log p(\theta)+\sum_{i=1}^{n}\nabla_{\theta}\log p(y_{i}|x_{i},\theta) \right) +\varepsilon$$where $\varepsilon \sim \mathcal{N}(0,2\tau I)$.
+> 3. **(Stochastic gradient Langevin dynamics,SGLD)** Uses ULA with Monte Carlo methods for the gradient, i.e. $$\theta'\gets \theta-\tau \nabla_{\theta}f+\varepsilon=\theta+\tau \left( \nabla_{\theta}\log p(\theta)+\frac{n}{m}\sum_{j=1}^{m}\nabla_{\theta}\log p(y_{i_{j}}|x_{i_{j}},\theta) \right) +\varepsilon$$where $\varepsilon \sim \mathcal{N}(0,2\tau I)$ and $i_{1},\dots,i_{m}\sim \text{Unif}([n])$ independently
+- **Remark**: If we use dynamic learning rates $\tau_{t}=\Theta(t^{-1 / 3})$, then SGLD is guaranteed to converge to the posterior. 
 ---

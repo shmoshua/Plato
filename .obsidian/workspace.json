@@ -55,15 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gibbs Distribution.md",
+                "file": "ML Theory/Neural Network.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gibbs Distribution"
+              "title": "Neural Network"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -75,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "ML Theory/Neural Network.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probabilistic AI Roadmap"
+              "title": "Neural Network"
             }
           },
           {
@@ -353,20 +354,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ed1a9be185e2aaac",
+  "active": "b32d5576afc99c70",
   "lastOpenFiles": [
-    "Markov Processes/Stationary Distribution.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "ML Theory/Neural Network.md",
+    "Probability Theory/Gibbs Distribution.md",
     "ML Theory/Markov Chain Monte Carlo.md",
+    "Markov Processes/Stationary Distribution.md",
     "Probability Theory/Gaussian Distribution.md",
     "ML Theory/Variational Inference.md",
-    "Probability Theory/Gibbs Distribution.md",
     "Probability Theory/Expected Value.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Measure Theory/Diffeomorphism.md",
     "ML Theory/Laplace Approximation.md",
     "Linear Algebra/Cholesky Decomposition.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Laplace Transform.md",
     "Measure Theory/Lebesgue Measure.md",
     "Measure Theory/Summable Function.md",
@@ -380,7 +382,6 @@
     "Machine Learning/Gaussian Process.md",
     "Information Theory/Entropy.md",
     "Functional Analysis/Fourier Transform.md",
-    "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
