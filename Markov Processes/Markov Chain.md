@@ -27,4 +27,8 @@
 ---
 > [!lemma] Proposition 2 (Detailed Balanced Equation)
 > Let $q:\mathcal{S}\to \mathbb{R}$ be a (not necessarily normalized) distribution and $(X_{i})_{i\geq 0}$ a Markov chain. 
-> 1. if $q(x)P(x'|x)=q(x')P(x|x')$ for all $x,x'\in \mathcal{S}$, then the [[stationary distribution]] is given by: $$\pi$$
+> 1. if $q(x)P(x'|x)=q(x')P(x|x')$ for all $x,x'\in \mathcal{S}$, then the [[stationary distribution]] is given by: $$\pi=\frac{q}{\|q\|_{1}}$$
+
+> [!proof]-
+> Assume that $\mathbb{P}(X_{n}=x)= q(x) / \|q\|_{1}$ for all $x\in \mathcal{S}$. Then,$$\mathbb{P}(X_{n+1}=x)=\frac{1}{\|q\|_{1}}\sum_{x'\in \mathcal{S}}^{}P(x|x')q(x')=\frac{1}{\|q\|_{1}}\sum_{x'\in \mathcal{S}}^{}P(x'|x)q(x)=\frac{q(x)}{\|q\|_{1}}$$ 
+---

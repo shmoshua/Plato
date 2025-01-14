@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "ML Theory/Markov Chain Monte Carlo.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Markov Chain"
+              "title": "Markov Chain Monte Carlo"
             }
           }
         ],
@@ -188,16 +188,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Diffeomorphism.md",
+                "file": "ML Theory/Markov Chain Monte Carlo.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Diffeomorphism"
+              "title": "Markov Chain Monte Carlo"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -249,8 +249,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -342,19 +341,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b32d5576afc99c70",
+  "active": "70079afab2ce302c",
   "lastOpenFiles": [
-    "ML Theory/Laplace Approximation.md",
     "Markov Processes/Markov Chain.md",
+    "ML Theory/Markov Chain Monte Carlo.md",
     "Markov Processes/Stationary Distribution.md",
+    "Courses/Markov Processes/Markov Processes Roadmap.md",
+    "Probability Theory/Expected Value.md",
+    "Measure Theory/Diffeomorphism.md",
+    "ML Theory/Laplace Approximation.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "ML Theory/Variational Inference.md",
     "Probability Theory/Gaussian Distribution.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Laplace Transform.md",
-    "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Measure.md",
-    "Measure Theory/Diffeomorphism.md",
     "Measure Theory/Summable Function.md",
     "Measure Theory/Product Measure.md",
     "Differential Geometry/Smooth Function.md",
@@ -368,8 +369,6 @@
     "Functional Analysis/Fourier Transform.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
-    "Courses/Advanced Algorithms/Exercise 09.md",
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
