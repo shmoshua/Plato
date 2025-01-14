@@ -437,9 +437,11 @@ For a subset $S\subseteq \mathcal{X}$, then define $I(S):=I(f_{S};y_{S})=H(f_{S}
 
 ---
 > [!lemma] Proposition 1 (Monotone Submodularity of Mutual Information)
-> We have that:
+> Let $I:2^\mathcal{X}\to \mathbb{R}, S\mapsto H(f_{S})-H(f_{S}|y_{S})$ described as above. Then,
+> 1. $I(S\cup x)-I(S)=H(y_{x}|y_{S})-H(\varepsilon_{x})$ for $S\subseteq \mathcal{X}$ and $x\in \mathcal{X}$.
 > 1. $I:2^\mathcal{X}\to \mathbb{R}$ is a [[Monotone Submodular Function|monotone submodular function]].
 
 > [!proof]+
 > We have that: 
-> 1. To show the submodularity, 
+> 1. Notice that: $$\begin{align}I(S\cup x)-I(S)&=H(f_{S\cup x})-H(f_{S\cup x}|y_{S\cup x})-H(f_{S})+H(f_{S}|y_{S})\\&=H(f_{x}|y_{S})-H(f_{x}|y_{S\cup x})\\&=I(f_{x};y_{x}|y_{S})\end{align}$$
+> 1. To show the submodularity, let $S\subseteq T\subseteq \mathcal{X}$ and $x\in\mathcal{X}$. Then, we have to show that:$$I(S\cup x)-I(S)\geq I(T\cup x)-I(T)$$We have that: $$\begin{align}I(S\cup x)-I(S)- I(T\cup x)+I(T)&=H(f_{S\cup x})-H(f_{S\cup x}|y_{S\cup x})-H(f_{S})+H(f_{S}|y_{S})\end{align}$$

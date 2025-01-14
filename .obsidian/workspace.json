@@ -80,20 +80,6 @@
             }
           },
           {
-            "id": "56df74db369a0659",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Monotone Submodular Function.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Monotone Submodular Function"
-            }
-          },
-          {
             "id": "d966487b880df0b8",
             "type": "leaf",
             "state": {
@@ -108,17 +94,17 @@
             }
           },
           {
-            "id": "2c3234f60697ca6f",
+            "id": "56df74db369a0659",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Algorithms/Monotone Submodular Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probabilistic AI Roadmap"
+              "title": "Monotone Submodular Function"
             }
           },
           {
@@ -349,14 +335,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ed1a9be185e2aaac",
+  "active": "464ee18910056598",
   "lastOpenFiles": [
-    "ML Theory/Markov Chain Monte Carlo.md",
-    "ML Theory/Neural Network.md",
+    "Information Theory/Entropy.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Algorithms/Monotone Submodular Function.md",
     "Information Theory/Mutual Information.md",
-    "Information Theory/Entropy.md",
+    "ML Theory/Markov Chain Monte Carlo.md",
+    "ML Theory/Neural Network.md",
     "Markov Processes/Stationary Distribution.md",
     "Probability Theory/Variance.md",
     "ML Theory/Laplace Approximation.md",
