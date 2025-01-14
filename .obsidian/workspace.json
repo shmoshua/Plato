@@ -126,20 +126,6 @@
             }
           },
           {
-            "id": "7c23c74e8323a679",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Entropy.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Entropy"
-            }
-          },
-          {
             "id": "bdc35b4800862871",
             "type": "leaf",
             "state": {
@@ -201,16 +187,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Algorithms/Monotone Submodular Maximization.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variance"
+              "title": "Monotone Submodular Maximization"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -354,16 +340,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7c23c74e8323a679",
+  "active": "6cfb4a1799942bda",
   "lastOpenFiles": [
-    "ML Theory/Laplace Approximation.md",
+    "Probability Theory/Variance.md",
     "Information Theory/Mutual Information.md",
+    "Information Theory/Entropy.md",
+    "ML Theory/Laplace Approximation.md",
     "ML Theory/Variational Inference.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Markov Processes/Stationary Distribution.md",
     "Probability Theory/Gibbs Distribution.md",
     "ML Theory/Markov Chain Monte Carlo.md",
-    "Probability Theory/Variance.md",
     "Probability Theory/Gaussian Distribution.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
     "ML Theory/Neural Network.md",
@@ -381,7 +368,6 @@
     "Probability Theory/Independence.md",
     "Information Theory/Relative Entropy.md",
     "Analysis/Kernel.md",
-    "Machine Learning/Linear Regression.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
