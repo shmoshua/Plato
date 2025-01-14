@@ -117,12 +117,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Maximum A Posteriori Estimation.md",
+                "file": "ML Theory/Variational Inference.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Maximum A Posteriori Estimation"
+              "title": "Variational Inference"
             }
           },
           {
@@ -201,12 +201,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Probability Theory/Variance.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Variance"
             }
           }
         ],
@@ -356,19 +356,20 @@
   },
   "active": "2c3234f60697ca6f",
   "lastOpenFiles": [
-    "ML Theory/Maximum A Posteriori Estimation.md",
-    "ML Theory/Variational Inference.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "ML Theory/Neural Network.md",
     "Markov Processes/Stationary Distribution.md",
-    "ML Theory/Markov Chain Monte Carlo.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Gibbs Distribution.md",
+    "ML Theory/Markov Chain Monte Carlo.md",
+    "Probability Theory/Variance.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "ML Theory/Variational Inference.md",
+    "ML Theory/Laplace Approximation.md",
+    "ML Theory/Maximum A Posteriori Estimation.md",
+    "ML Theory/Neural Network.md",
     "Probability Theory/Expected Value.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Measure Theory/Diffeomorphism.md",
-    "ML Theory/Laplace Approximation.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Analysis/Laplace Transform.md",
     "Measure Theory/Lebesgue Measure.md",
@@ -381,7 +382,6 @@
     "Analysis/Kernel.md",
     "Machine Learning/Linear Regression.md",
     "Machine Learning/Gaussian Process.md",
-    "Information Theory/Entropy.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

@@ -378,3 +378,10 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 - **Remark**: This can be used to model the aleatoric uncertainty, but not the epistemic uncertainty as this is a MAP estimate, i.e. a point estimate. 
 ---
 ##### 3.4.2 Variational Inference with Bayesian Neural Networks
+> [!outlook] Variational Inference on Bayesian NN
+> Using $\mathcal{Q}$ as the Gaussian distributions, 
+> 1. Use the reparametrization trick to find $\lambda$ s.t. $$\begin{align}q_{\lambda}&:=\text{argmax}_{q\in \mathcal{Q}}\mathbb{E}_{\theta \sim q}[\log p(y_{1:n}|x_{1:n},\theta)]-D(q\| p(\cdot))\\&\approx \text{argmax}_{q\in \mathcal{Q}}\mathbb{E}_{\varepsilon \sim \mathcal{N}(0,I)}[\log p(y_{1:n}|x_{1:n},\Sigma^{1/2}\varepsilon+\mu)]-D(q\| p(\cdot))\end{align}$$
+> 2. Then, for a new point $x^{*}\in \mathbb{R}^d$, $$\begin{align}p(y^{*}|x^{*},x_{1:n},y_{1:n})&=\int_{\Theta}^{} p(y^{*}|x^{*},\theta)p(\theta|x_{1:n},y_{1:n}) \, d\theta\\&=\mathbb{E}_{\theta \sim p(\cdot |x_{1:n},y_{1:n})}[p(y^{*}|x^{*},\theta)]\\&\approx \mathbb{E}_{\theta \sim q_{\lambda}}[p(y^{*}|x^{*},\theta)] \\&\approx \frac{1}{m}\sum_{j=1}^{m}p(y^{*}|x^{*},\theta^{(j)}) \\&= \frac{1}{m}\sum_{j=1}^{m}\mathcal{N}(y^{*};\mu(x^{*};\theta^{(j)}),\sigma^{2}(x^{*};\theta^{(j)})) \end{align}$$where $\theta^{(1)},\dots,\theta^{(m)}\sim q_{\lambda}$ independently. 
+> 3. The mean is given by: $$\mathbb{E}[y^{*}|x^{*},x_{1:n},y_{1:n}]\approx \frac{1}{m}\sum_{j=1}^{m}\mu(x^{*};\theta^{(j)})=:\overline{\mu}(x^{*})$$
+> 4. The variance is given by: $$\begin{align}\text{Var}[y^{*}|x^{*},x_{1:n},y_{1:n}]&=\mathbb{E}_{\theta}[\text{Var}_{y^{*}}[y^{*}|x^{*},\theta]]+\text{Var}_{\theta}[\mathbb{E}_{y^{*}}[y^{*}|x^{*},\theta]]\\&=\mathbb{E}_{\theta}\left[ \sigma^{2}(x^{*};\theta)\right]+\text{Var}_{\theta}(\mu(x^{*};\theta))\end{align}$$
+>
