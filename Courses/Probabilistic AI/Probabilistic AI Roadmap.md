@@ -398,3 +398,28 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 	2. $A^{(t+1)}:=\frac{1}{t+1}(tA^{(t)}+\theta^{(t)}\theta^{(t)\top})$
 > 
 > 	Then, $$\Sigma=\frac{1}{T-1}\sum_{i=1}^{T}(\theta^{(i)}-\mu)(\theta^{(i)}-\mu)^\top=\frac{T}{T-1}(A^{(T)}-\mu^{(T)} \mu^{(T)\top})$$
+---
+##### 3.4.4 Dropout and Dropconnect
+
+> [!outlook] Dropout and Dropconnect
+> For a neural network $f$,
+> 1. in ***dropout*** method some vertices in the computation graph are randomly dropped.
+> 2. in ***dropconnect*** method some edges in the computation graph are randomly dropped.
+>    
+>  Suppose we drop each edge independently with probability $p$. Then, dropconnect can be treated as variational inference with: $$\mathcal{Q}:=\left\{\prod_{j=1}^{d}q_{j}(\theta_{j}|\lambda_{j})\right\}$$where $q_{j}(\theta_{j}|\lambda_{j}):=p\delta_{0}(\theta_{j})+(1-p)\delta_{\lambda_{j}}(\theta_{j})$. 
+---
+##### 3.4.5 Ensembles
+> [!outlook] Ensembles
+> Let $\mathcal{D}:=\{ x_{i},y_{i} \}_{i\in[n]}$ be the dataset.
+> 1. Pick $D_{j}$ as $n$ inputs from $\mathcal{D}$ with replacement uniformly at random.
+> 2. Perform MAP estimate on $D_{j}$ to find $\theta^{(j)}$.
+> 3. $p(y^{*}|x^{*},x_{1:n},y_{1:n})\approx \frac{1}{m}\sum_{j=1}^{m}p(y^{*}|x^{*},\theta^{(j)})$.
+---
+##### 3.4.6 Calibration
+- **Definition**: A model is ***well-calibrated*** if its confidence coincides with its accuracy across many predictions.
+
+> [!outlook] Methods for Calibration
+> We have the following methods:
+> 1. **Evidence**: For training set $x^{\text{train}}_{1:n}$ and validation set $x_{1:m}^{\text{test}}$, we have: $$\begin{align}\log p(y^\text{val}_{1:m}|x^\text{val}_{1:m},x^\text{train}_{1:n},y^\text{train}_{1:n})&=\log \int_{\Theta} p(y^\text{val}_{1:m}|x^\text{val}_{1:m},\theta)p(\theta|x^\text{train}_{1:n},y^\text{train}_{1:n}) \, d\theta \\&\approx\log \int_{\Theta} \prod_{i=1}^{m}p(y^\text{val}_{i}|x^\text{val}_{i},\theta)q_{\lambda}(\theta) \, d\theta \\&=\log \mathbb{E}_{\theta \sim q_{\lambda}}\left[\prod_{i=1}^{m}p(y^\text{val}_{i}|x^\text{val}_{i},\theta)\right]\\&\geq \mathbb{E}_{\theta \sim q_{\lambda}}\left[\sum_{i=1}^{m}\log p(y^\text{val}_{i}|x^\text{val}_{i},\theta)\right]\\&\approx \frac{1}{k}\sum_{j=1}^{k}\sum_{i=1}^{m}\log p(y^\text{val}_{i}|x^\text{val}_{i},\theta^{(j)})\end{align}$$where $\theta^{(j)}\sim q_{\lambda}$ iid.
+> 2. **Reliability diagram**: Let the validation set be split into $B_{1},\dots,B_{M}$ of similar size. For simplicity, assume the classification problem with two labels $\{ \pm 1 \}$.
+> 	1. $\text{freq}(B_{i}):=\frac{1}{nor}$
