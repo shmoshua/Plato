@@ -55,15 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Laplace Approximation.md",
+                "file": "Markov Processes/Markov Chain.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Laplace Approximation"
+              "title": "Markov Chain"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -81,6 +82,20 @@
               },
               "icon": "lucide-file",
               "title": "Probabilistic AI Roadmap"
+            }
+          },
+          {
+            "id": "d966487b880df0b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Processes/Stationary Distribution.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Stationary Distribution"
             }
           },
           {
@@ -181,7 +196,8 @@
               "title": "Diffeomorphism"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -326,24 +342,24 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "464ee18910056598",
+  "active": "b32d5576afc99c70",
   "lastOpenFiles": [
-    "ML Theory/Variational Inference.md",
     "ML Theory/Laplace Approximation.md",
+    "Markov Processes/Markov Chain.md",
+    "Markov Processes/Stationary Distribution.md",
+    "Linear Algebra/Cholesky Decomposition.md",
+    "ML Theory/Variational Inference.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Laplace Transform.md",
     "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Measure.md",
     "Measure Theory/Diffeomorphism.md",
-    "Markov Processes/Stationary Distribution.md",
     "Measure Theory/Summable Function.md",
     "Measure Theory/Product Measure.md",
     "Differential Geometry/Smooth Function.md",
-    "Markov Processes/Markov Chain.md",
     "Functional Analysis/Ergodic Measure.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Linear Algebra/Cholesky Decomposition.md",
     "Probability Theory/Independence.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Information Theory/Relative Entropy.md",
     "Analysis/Kernel.md",
     "Machine Learning/Linear Regression.md",

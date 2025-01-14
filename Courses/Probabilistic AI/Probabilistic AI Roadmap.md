@@ -325,3 +325,8 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 ---
 #### 3.3 Markov Chain Monte Carlo (MCMC)
 ![[Markov Chain#^a66180]]
+- **Related definition**: A Markov chain is ***ergodic***, if there exists $n\geq 0$ s.t. for any $i,j\in \mathcal{S}$, $i\to j$ in exactly $n$ timesteps.
+---
+![[Stationary Distribution#^e89f70]]
+- **Remark**: An ergodic MC has a unique positive stationary distribution. 
+---

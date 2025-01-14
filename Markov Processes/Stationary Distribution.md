@@ -2,6 +2,9 @@
 
 > [!definition]
 > A [[Positive Measure|probability measure]] $\pi$ is called a ***stationary probability distribution*** if: $$\pi=\pi P$$where $P$ is the [[Markov Chain|transition matrix]].
+
+^e89f70
+
 - **Remark**: $\pi$ is not unique, i.e. there exists Markov chains with more than one stationary distributions. 
 ---
 ##### Properties

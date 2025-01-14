@@ -23,3 +23,8 @@
 > Finally, let $\{ U_{n} \}_{n\geq 0}$ be a sequence of mutually independent uniformly random variables on $[0,1)$. Then, we set: $$X_{n}:=\begin{cases}f(U_{0})&n=0\\F(X_{n-1},U_{n})&n\geq 1\end{cases}$$Fix $(i_{0},\dots,i_{n})\in \mathcal{S}^{n+1}$. Observe that we have: $$\begin{align}\mathbb{P}(X_{0}=i_{0},\dots,X_{n}=i_{n})&=\mathbb{P}(U_{0}\in [\alpha_{i_{0}-1},\alpha_{i_{0}})\land U_{k}\in [\beta_{i_{k-1},i_{k}-1},\beta_{i_{k-1},i_{k}}), \forall k\in [n])\\&=\mu_{i_{0}}\cdot P_{i_{0} i_{1}}\dots P_{i_{n-1},i_{n}}\\&=\mathbb{P}(X_{0}=i_{0},\dots,X_{n-1}=i_{n-1})\cdot P_{i_{n-1}i_{n}}\end{align}$$This shows that $(X_{n})_{n\geq 0}$ is a Markov chain.
 
 ^8dc0d8
+
+---
+> [!lemma] Proposition 2 (Detailed Balanced Equation)
+> Let $q:\mathcal{S}\to \mathbb{R}$ be a (not necessarily normalized) distribution and $(X_{i})_{i\geq 0}$ a Markov chain. 
+> 1. if $q(x)P(x'|x)=q(x')P(x|x')$ for all $x,x'\in \mathcal{S}$, then the [[stationary distribution]] is given by: $$\pi$$
