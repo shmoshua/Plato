@@ -85,12 +85,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Functional Analysis/Space of Probability Measures.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "Space of Probability Measures"
             }
           },
           {
@@ -177,7 +177,8 @@
               "title": "Monotone Submodular Function"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -321,12 +322,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ed1a9be185e2aaac",
+  "active": "d966487b880df0b8",
   "lastOpenFiles": [
+    "Information Theory/Entropy.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Untitled 1.md",
     "Untitled.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Information Theory/Entropy.md",
     "Algorithms/Monotone Submodular Function.md",
     "Probability Theory/Independence.md",
     "Information Theory/Mutual Information.md",
