@@ -486,4 +486,38 @@ However, this also leads to a problem of not being able to distinguish between e
 > 2. the second term looks for points where sampled models are confident in their predictions. This can also be approximated using MCMC or variational inference.
 ---
 ### 5. Bayesian Optimization
-We also consider a setting where acquiring new observations is expensive. Given some function $f:\mathcal{X}\to \mathbb{R}$ we would like to find: $$x^{*}\in \underset{ x\in \mathcal{X} }{ \arg\max }\ f^{*}(x)$$
+We also consider a setting where acquiring new observations is expensive. Given some function $f:\mathcal{X}\to \mathbb{R}$ we would like to find: $$x^{*}\in \underset{ x\in \mathcal{X} }{ \arg\max }\ f(x)$$where $f$ is unknown. For every point $x\in \mathcal{X}$, we get the observation $y_{x}:=f(x)+\varepsilon_{x}$ where $\varepsilon_{x}\sim \mathcal{N}(0,\sigma^{2}_{n})$
+
+---
+> [!definition] Definition (Regret)
+> For time horizon $T$, the ***regret*** is defined as:$$R_{T}:=\sum_{t=1}^{T}(\max_{x\in \mathcal{X}}f(x)-f(x_{t}))$$
+- **Remark**: The goal is to find sublinear regret, i.e. $R_{T} / T\to 0$, which means we have balanced exploration and exploitation.
+---
+#### 5.1 Acquisition Function
+Assume the setting where for the objective function $f^{*}$ we use a Gaussian Process $f$. For an acquisition function $F$, we can use the following algorithm:
+```pseudo
+\begin{algorithm}\caption{BayesianOptimization}
+\begin{algorithmic}
+\State initialize $f\sim \text{GP}(\mu_0,k_0)$
+\For{$t=1,...,T$}
+\State choose $x_t\gets \argmax_x F(x;\mu_{t-1},k_{t-1})$
+\State observe $y_t=f(x_t)+\varepsilon_t$
+\State update to get $\mu_t$ and $k_t$.
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+```
+
+---
+##### 5.1.1 Upper Confidence Bound
+> [!outlook] UCB
+> In UCB, we find the next point using: $$x_{t+1}:=\underset{ x\in \mathcal{X} }{ \arg\max }\ \mu_{t}(x)+\beta_{t+1}\sigma_{t}(x)$$where $\beta_{t+1}$ is the regularizer. 
+> 1. If $\beta_{t}=0$ then the algorithm is purely exploitative and for $\beta_{t}\to 0$ the algorithm is purely explorative. 
+> 2. To find the optimum $x_{t+1}$, in lower dimensions we can use Lipschitz optimization and gradient ascent in higher dimensions. 
+---
+> [!lemma] Theorem 1 (Bayesian Confidence Intervals)
+> Let $0<\delta<1$ and assume $f^{*}\sim \text{GP}(\mu_{0},k_{0})$ and Gaussian noise $\varepsilon_{t}\sim \mathcal{N}(0,\varepsilon^2_{n})$, 
+> 1. if $\beta_{t}(\delta)=O(\sqrt{ \log(\left| \mathcal{X} \right|t / \delta) })$ then $$\mathbb{P}(f^{*}(x)\in C_{t}(x), \forall x\in \mathcal{X},t\geq 1)\geq 1-\delta$$ where $C_{t}(x):=[\mu_{t-1}(x)\pm \beta_{t+1}\sigma_{t}(x)]$.
+---
+> [!lemma] Theorem 2
+> If $\beta_{t}(\delta)$ is chosen correctly, i.e. $\mathbb{P}(f^{*}(x)\in C_{t}(x),\forall x\in \mathcal{X},t\geq 1)\geq 1-\delta$, then UCB has regret: $$R_{T}=O(\beta_{T}(\delta)\sqrt{ \gamma_{T}T })$$where: $$\gamma_{T}=\max_{S\in }$$
