@@ -433,15 +433,40 @@ In active learning, we consider the following setting. Let $\mathcal{X}$ be the 
 2. $f_{S}:=(f_{x_{1}},\dots,f_{x_{n}})$ and 
 3. $\varepsilon \sim \mathcal{N}(0,\sigma^{2}_{n}I)$
 
-For a subset $S\subseteq \mathcal{X}$, then define $I(S):=I(f_{S};y_{S})=H(f_{S})-H(f_{S}|y_{S})$ given by the [[mutual information]]. Hence, our goal is to find: $$S^{*}:=\underset{ S\subseteq \mathcal{X} }{ \arg\max }\ I(S)$$This is known to be an NP-hard problem
+For a subset $S\subseteq \mathcal{X}$, then define $I(S):=I(f;y_{S})=H(f)-H(f|y_{S})$ given by the [[mutual information]]. Hence, our goal is to find: $$S^{*}:=\underset{ S\subseteq \mathcal{X} }{ \arg\max }\ I(S)$$This is known to be an NP-hard problem
 
 ---
 > [!lemma] Proposition 1 (Monotone Submodularity of Mutual Information)
-> Let $I:2^\mathcal{X}\to \mathbb{R}, S\mapsto H(f_{S})-H(f_{S}|y_{S})$ described as above. Then,
+> Let $I:2^\mathcal{X}\to \mathbb{R}, S\mapsto H(f)-H(f|y_{S})$ described as above. Then,
 > 1. $I(S\cup x)-I(S)=H(y_{x}|y_{S})-H(\varepsilon_{x})$ for $S\subseteq \mathcal{X}$ and $x\in \mathcal{X}$.
 > 1. $I:2^\mathcal{X}\to \mathbb{R}$ is a [[Monotone Submodular Function|monotone submodular function]].
 
-> [!proof]+
+> [!proof]-
 > We have that: 
-> 1. Notice that: $$\begin{align}I(S\cup x)-I(S)&=H(f_{S\cup x})-H(f_{S\cup x}|y_{S\cup x})-H(f_{S})+H(f_{S}|y_{S})\\&=H(f_{x}|y_{S})-H(f_{x}|y_{S\cup x})\\&=I(f_{x};y_{x}|y_{S})\end{align}$$
-> 1. To show the submodularity, let $S\subseteq T\subseteq \mathcal{X}$ and $x\in\mathcal{X}$. Then, we have to show that:$$I(S\cup x)-I(S)\geq I(T\cup x)-I(T)$$We have that: $$\begin{align}I(S\cup x)-I(S)- I(T\cup x)+I(T)&=H(f_{S\cup x})-H(f_{S\cup x}|y_{S\cup x})-H(f_{S})+H(f_{S}|y_{S})\end{align}$$
+> 1. Notice that: $$\begin{align}I(S\cup x)-I(S)&=I(f;y_{S\cup x})-I(f;y_{S})\\&=H(f|y_{S})-H(f|y_{S\cup x})\\&=I(f;y_{x}|y_{S})\\&=H(y_{x}|y_{S})-H(y_{x}|f,y_{S})\\&=H(y_{x}|y_{S})-H(\varepsilon_{x})\end{align}$$
+> 1. To show the submodularity, let $S\subseteq T\subseteq \mathcal{X}$ and $x\in\mathcal{X}$. Then, we have to show that:$$I(S\cup x)-I(S)\geq I(T\cup x)-I(T)$$We have that: $$\begin{align}I(S\cup x)-I(S)=H(y_{x}|y_{S})-H(\varepsilon_{x})\geq H(y_{x}|y_{T})-H(\varepsilon_{x})=I(T\cup x )-I(T)\end{align}$$from [[Entropy|Lemma 1.4]]
+>    
+> 	For monotonicity, let $S\subseteq T$. Then, $$\begin{align}I(T)-I(S)&=H(f|y_{S})-H(f|y_{T})\\&= I(f;y_{T \backslash S}|y_{S})\\&\geq 0\end{align}$$by [[Mutual Information|Lemma 1.2]].
+---
+> [!lemma] Proposition 2 (Greedy)
+> ```pseudo
+> \begin{algorithm}\caption{GreedyMutualInfoMax}
+> \begin{algorithmic}
+> \State $S\gets \varnothing$
+> \For{$t=1,\dots,T$}
+> \State $x_{t}\gets \arg\max_{x\in \mathcal{X}} I(S\cup x)$
+> \State $S\gets S\cup \{ x_{t} \}$
+\EndFor
+> \Return $S$
+> \end{algorithmic}
+> \end{algorithm}
+> ```
+> outputs a $\left( 1-\frac{1}{\varepsilon} \right)$-[[approximation algorithm]].
+
+> [!proof]-
+> Given by [[Monotone Submodular Function]]. 
+
+---
+> [!Outlook] Gaussian setting
+> With homoscedastic noise, 
+> 1. $I(S\cup x)-I(S)=H(y_{x}|y_{S})-H(\varepsilon_{x})=\frac{1}{2}\log\left( 1+\frac{\sigma_{t}^{2}(x)}{\sigma^{2}_{n}} \right)$ where $\sigma^{2}_{t}(x)$ denotes the variance of $y_{x}$ given $y_{S}$, i.e. the epistemic uncertainty. Therefore, $$\arg\max_{x\in \mathcal{X}} I(S\cup x)$$

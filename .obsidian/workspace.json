@@ -94,20 +94,6 @@
             }
           },
           {
-            "id": "56df74db369a0659",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Monotone Submodular Function.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Monotone Submodular Function"
-            }
-          },
-          {
             "id": "003ebaaeb905c12d",
             "type": "leaf",
             "state": {
@@ -127,12 +113,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Algorithms/Monotone Submodular Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Independence"
+              "title": "Monotone Submodular Function"
             }
           },
           {
@@ -191,8 +177,7 @@
               "title": "Monotone Submodular Function"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -336,12 +321,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d966487b880df0b8",
+  "active": "ed1a9be185e2aaac",
   "lastOpenFiles": [
-    "Information Theory/Mutual Information.md",
     "Algorithms/Monotone Submodular Function.md",
-    "Information Theory/Entropy.md",
+    "Probability Theory/Independence.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Information Theory/Mutual Information.md",
+    "Information Theory/Entropy.md",
     "ML Theory/Markov Chain Monte Carlo.md",
     "ML Theory/Neural Network.md",
     "Markov Processes/Stationary Distribution.md",
@@ -362,7 +348,6 @@
     "Measure Theory/Product Measure.md",
     "Differential Geometry/Smooth Function.md",
     "Functional Analysis/Ergodic Measure.md",
-    "Probability Theory/Independence.md",
     "Information Theory/Relative Entropy.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
