@@ -568,3 +568,18 @@ Assume the setting where for the objective function $f^{*}$ we use a Gaussian Pr
 
 ---
 ### 7. Reinforcement Learning
+> [!definition]
+> Let $\mathcal{X}$ be the state space and $\mathcal{A}$ be the action space. 
+> 1. A ***trajectory*** is defined as: $$\tau:=(x_{i},a_{i},r_{i},x_{i+1})_{i\geq 0}\subseteq \mathcal{X}\times \mathcal{A}\times \mathbb{R}\times\mathcal{X}$$
+---
+> [!outlook] Different Branches in RL
+> The collection of data can be identified in two settings:
+> 1. in ***episodic setting***, the agent performs a sequence of “training” rounds called episodes where in the beginning of each episode, the agent is reset to some initial state.
+> 2. in ***non-episodic setting***, the agent learns online where every action, every reward, and every state transition counts.
+> 
+> Further, each RL method can be identified as:
+> 1. ***on-policy methods***: when the agent has control over its own actions, in other words, the agent can freely choose to follow any policy.
+> 2. ***off-policy methods*** when the agent cannot freely choose its actions. Hence, with off-policy methods the agents can utilize purely observational data, e.g. collected by a different agent or by a fixed policy. 
+- **Remark**: Off-policy methods are hence more sample-efficient. 
+---
+#### 7.1 Model-based Approches
