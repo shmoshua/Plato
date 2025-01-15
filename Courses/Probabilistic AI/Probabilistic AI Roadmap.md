@@ -639,7 +639,7 @@ This refers to the case where $\mathcal{X}$ and $\mathcal{A}$ are small so we ca
 ---
 ##### 7.1.2 Model-free Tabular Approaches
 ###### 7.1.2.1 On-Policy Value Estimation
-Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+\gamma \sum_{x'}^{}P(x'|x,\pi(x))\cdot V^\pi_{\text{old}}(x')$$we 
+Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+\gamma \sum_{x'}^{}P(x'|x,\pi(x))\cdot V^\pi_{\text{old}}(x')$$which can be represented as an expected value. However, we cannot use Monte Carlo methods as after one sample we will have moved on to a different state. Hence, we crudely approximate the value with the one pair. Further, as we don't know the next state we will move to, we will just iteratively update $V^\pi$ for the current state. 
 > [!outlook] Temporal Difference Learning
 > ```pseudo
 > \begin{algorithm}\caption{Temporal-Difference Learning($(\alpha_{t})_{t\geq 0}$)}
@@ -652,4 +652,58 @@ Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+
 \end{algorithmic}
 \end{algorithm}
 > ```
-> 
+> We have that:
+> 1. if $\sum_{t=0}^{\infty}\alpha_{t}=\infty$ and $\sum_{t=0}^{\infty}\alpha^{2}_{t}<\infty$ and all pairs $(x,a)$ are chosen infinitely often, then $V^\pi$ converges to the actual value function for $\pi$ almost surely. 
+---
+> [!outlook] SARSA
+> ```pseudo
+> \begin{algorithm}\caption{SARSA($(\alpha_{t})_{t\geq 0}$)}
+> \begin{algorithmic}
+> \State initialize $Q^\pi\gets 0$
+> \State follow a policy $\pi$ to get the transition $(x,a,r,x')$
+> \For{$t\geq 0$}
+> \State follow a policy $\pi$ to get the transition $(x',a',r',x'')$
+> \State $Q^\pi(x,a)\gets (1-\alpha_{t})Q^\pi(x,a)+\alpha_{t}(r+\gamma Q^\pi(x',a'))$
+> \State $(x,a,r,x')\gets(x',a',r',x'')$
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+> ```
+> We have that:
+> 1. if $\sum_{t=0}^{\infty}\alpha_{t}=\infty$ and $\sum_{t=0}^{\infty}\alpha^{2}_{t}<\infty$ and all pairs $(x,a)$ are chosen infinitely often, then $Q^\pi$ converges to the actual Q-function for $\pi$ almost surely. 
+
+---
+###### 7.1.2.2 Off-Policy Value Estimation
+
+> [!outlook] Off Policy SARSA
+> ```pseudo
+> \begin{algorithm}\caption{SARSA($(\alpha_{t})_{t\geq 0}$)}
+> \begin{algorithmic}
+> \State initialize $\widehat{Q}^\pi\gets 0$
+> \For{$t\geq 0$}
+> \State observe the transition $(x,a,r,x')$
+> \State $\widehat{Q}^\pi(x,a)\gets (1-\alpha_{t})\widehat{Q}^\pi(x,a)+\alpha_{t}\left( r+\gamma \sum_{a'\in \mathcal{A}}^{}\pi(a'|x')\widehat{Q}^\pi(x',a') \right)$
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+> ```
+> We have that:
+> 1. if $\sum_{t=0}^{\infty}\alpha_{t}=\infty$ and $\sum_{t=0}^{\infty}\alpha^{2}_{t}<\infty$ and all pairs $(x,a)$ are chosen infinitely often, then $\widehat{Q}^\pi$ converges to $Q^\pi$ almost surely. 
+---
+
+> [!outlook] Q-learning
+> ```pseudo
+> \begin{algorithm}\caption{Q-learning($(\alpha_{t})_{t\geq 0}$)}
+> \begin{algorithmic}
+> \State initialize $\widehat{Q}^{*}\gets 0$
+> \For{$t\geq 0$}
+> \State observe the transition $(x,a,r,x')$
+> \State $\widehat{Q}^{*}(x,a)\gets (1-\alpha_{t})\widehat{Q}^{*}(x,a)+\alpha_{t}\left( r+\gamma \max_{a'\in \mathcal{A}}\widehat{Q}^{*}(x',a') \right)$
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+> ```
+> We have that:
+> 1. if $\sum_{t=0}^{\infty}\alpha_{t}=\infty$ and $\sum_{t=0}^{\infty}\alpha^{2}_{t}<\infty$ and all pairs $(x,a)$ are chosen infinitely often, then $\widehat{Q}^{*}$ converges to $Q^{*}$ almost surely. 
+> 2. 
+---
