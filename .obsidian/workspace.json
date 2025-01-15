@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "ML Theory/Reinforcement Learning/Markov Decision Process.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probabilistic AI Roadmap"
+              "title": "Markov Decision Process"
             }
           },
           {
@@ -85,12 +85,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Space of Probability Measures.md",
+                "file": "ML Theory/Reinforcement Learning/Markov Decision Process.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Space of Probability Measures"
+              "title": "Markov Decision Process"
             }
           },
           {
@@ -324,8 +324,11 @@
   },
   "active": "d966487b880df0b8",
   "lastOpenFiles": [
-    "Information Theory/Entropy.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "ML Theory/Reinforcement Learning/Markov Decision Process.md",
+    "Functional Analysis/Space of Probability Measures.md",
+    "ML Theory/Reinforcement Learning",
+    "Information Theory/Entropy.md",
     "Untitled 1.md",
     "Untitled.md",
     "Algorithms/Monotone Submodular Function.md",
@@ -348,8 +351,6 @@
     "Analysis/Laplace Transform.md",
     "Measure Theory/Lebesgue Measure.md",
     "Measure Theory/Summable Function.md",
-    "Measure Theory/Product Measure.md",
-    "Differential Geometry/Smooth Function.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
@@ -359,7 +360,6 @@
     "Commutative Algebra",
     "Logic",
     "Courses/Probabilistic AI",
-    "Courses/Information Theory",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
