@@ -730,4 +730,4 @@ Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+
 > Let's now try to approximate $V^\pi$ using regression. Let $\theta=(\theta_{1},\dots,\theta_{n})$ be the parameters s.t. $V^\pi(x;\theta)=\theta_{x}$. 
 > 
 > After a transition $(x,a,r,x')$, we define:
-> 1. $\ell(\theta;x,r,x'):=\frac{1}{2}\left( r+\gamma\theta_{x'}-\theta_{x} \right)^{2}$
+> 1. $\ell(\theta;x,r,x'):=\frac{1}{2}\left( r+\gamma \overline{\theta}_{x'}-\theta_{x} \right)^{2}$ where $\overline{\theta}:=\theta$ but treated as a constant.
