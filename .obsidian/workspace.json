@@ -191,7 +191,8 @@
               "title": "Monotone Submodular Function"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -335,12 +336,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "464ee18910056598",
+  "active": "d966487b880df0b8",
   "lastOpenFiles": [
+    "Information Theory/Mutual Information.md",
+    "Algorithms/Monotone Submodular Function.md",
     "Information Theory/Entropy.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Algorithms/Monotone Submodular Function.md",
-    "Information Theory/Mutual Information.md",
     "ML Theory/Markov Chain Monte Carlo.md",
     "ML Theory/Neural Network.md",
     "Markov Processes/Stationary Distribution.md",
