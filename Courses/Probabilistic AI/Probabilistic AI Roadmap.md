@@ -591,6 +591,9 @@ This refers to the case where $\mathcal{X}$ and $\mathcal{A}$ are small so we ca
 
 ---
 ##### 7.1.1 Model-based Tabular Approaches
+- **Remark**: In general has the disadvantage that the whole transition matrix needs to be saved, i.e. $O(\left| \mathcal{X} \right|^{2}\left| \mathcal{A} \right|)$.
+- **Remark**: Model-based approaches are inherently off-policy.
+---
 
 ###### 7.1.1.1 MLE Approximation of MDP
 > [!outlook] MLE Approximation
@@ -634,3 +637,19 @@ This refers to the case where $\mathcal{X}$ and $\mathcal{A}$ are small so we ca
 > 2. with probability at least $1-\delta$, the algorithm reaches an $\varepsilon$-optimal policy in $\text{poly}\left( \left| \mathcal{X} \right|,\left| \mathcal{A} \right|,T, \frac{1}{\varepsilon}, \frac{1}{\delta},R_{\text{max}} \right)$
 - **Remark**: The algorithm computes an optimal policy $O(nm)$ times, which can be quite costly.
 ---
+##### 7.1.2 Model-free Tabular Approaches
+###### 7.1.2.1 On-Policy Value Estimation
+Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+\gamma \sum_{x'}^{}P(x'|x,\pi(x))\cdot V^\pi_{\text{old}}(x')$$we 
+> [!outlook] Temporal Difference Learning
+> ```pseudo
+> \begin{algorithm}\caption{Temporal-Difference Learning($(\alpha_{t})_{t\geq 0}$)}
+> \begin{algorithmic}
+> \State initialize $V^\pi\gets 0$
+> \For{$t\geq 0$}
+> \State follow a policy $\pi$ to get the transition $(x,a,r,x')$
+> \State $V^\pi(x)\gets (1-\alpha_{t})V^\pi(x)+\alpha_{t}(r+\gamma V^\pi(x'))$
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+> ```
+> 
