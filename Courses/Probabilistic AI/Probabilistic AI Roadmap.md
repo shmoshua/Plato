@@ -580,6 +580,36 @@ Assume the setting where for the objective function $f^{*}$ we use a Gaussian Pr
 > Further, each RL method can be identified as:
 > 1. ***on-policy methods***: when the agent has control over its own actions, in other words, the agent can freely choose to follow any policy.
 > 2. ***off-policy methods*** when the agent cannot freely choose its actions. Hence, with off-policy methods the agents can utilize purely observational data, e.g. collected by a different agent or by a fixed policy. 
+> 
+> There are also the following distinctions:
+> 1. ***Model-based*** where the method aims to learn the underlying MDP, especially $P$ and $r$. 
+> 2. ***Model-free*** where the method learns the value function directly.
 - **Remark**: Off-policy methods are hence more sample-efficient. 
 ---
-#### 7.1 Model-based Approches
+#### 7.1 Tabular Setting
+This refers to the case where $\mathcal{X}$ and $\mathcal{A}$ are small so we can keep track of all the values.
+
+---
+##### 7.1.1 Model-based Tabular Approaches
+
+###### 7.1.1.1 MLE Approximation of MDP
+> [!outlook] MLE Approximation
+> We can learn the underlying MDP using the following method. Let $N(x'|x,a)$ be the number of transitions from $x$ to $x'$ with action $a$ and $N(a|x)$ the number of times $a$ is played from state $x$ in the trajectory. Then, $$\widehat{P}(x'|x,a):=\frac{N(x'|x,a)}{N(a|x)},\quad \widehat{r}(a|x):=\frac{1}{N(a|x)}\sum_{t}r_{t}\cdot \mathbb{1}_{x_{t}=x}\cdot \mathbb{1}_{a_{t}=a}$$
+- **Remark**: This will work only if each tuple $(x,x',a)$ is visited multiple times (at least once to be well-defined). We can use Hoeffding to figure out how much data we need.
+---
+###### 7.1.1.2 $\varepsilon$-Greedy Algorithm
+> [!outlook] Eps-Greedy
+> ```pseudo
+> \begin{algorithm}\caption{$\varepsilon$-Greedy($(\varepsilon_{t})_{t\geq 0}$)}
+> \begin{algorithmic}
+> \For{$t\geq 0$}
+> \State with probability $\varepsilon_{t}$, pick action uniformly at random. 
+> \State otherwise, pick the best action.
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+> ```
+> If it holds that $\sum_{t=0}^{\infty}\varepsilon_{t}=+\infty$ but $\sum_{t=0}^{\infty}\varepsilon_{t}^{2}<+\infty$, then the algorithm converges to optimal policy almost surely. 
+- **Remark**: Picking an action uniformly at random can be improved to use past knowledge to decide where to explore. 
+---
+###### 7.1.1.3 $R_{\text{max}}$-algorithm
