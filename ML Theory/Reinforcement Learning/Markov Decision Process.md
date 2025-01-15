@@ -52,3 +52,41 @@
 > 1. $\pi ^{*}=\underset{ \pi }{ \arg\max }\ \mathbb{E}_{X_{0} \sim \mu}[V^\pi(X_{0})]$, i.e. $\pi ^{*}$ is an optimal policy.
 > 2. $\pi ^{*}$ is greedy w.r.t. $V^{\pi ^{*}}$.
 ---
+> [!lemma] Theorem 4 (Policy Iteration)
+> ```pseudo
+> \begin{algorithm} \caption{PolicyIteration($M,\varepsilon$)}
+> \begin{algorithmic} 
+> \State initialize policy $\pi$ arbitrarily
+> \For{$t\geq 1$}
+> \State $\pi\gets \pi_{V^\pi}$, the greedy policy associated with $V^\pi$
+\EndFor
+> \Return $\pi$
+\end{algorithmic}
+\end{algorithm}
+> ```
+> Then, let $\pi_{t}$ be the policy $\pi$ at timestep $t$. It holds that:
+> 1. $V^{\pi_{t+1}}\geq V^{\pi_{t}}$. In particular, if $V^{\pi_{t+1}}\neq V^{\pi_{t}}$, then there exists $x\in \mathcal{X}$ with $V^{\pi_{t+1}}(x)> V^{{\pi}_{t}}(x)$
+> 2. If $M$ is a finite MDP, the algorithm converges to an optimal policy. 
+---
+> [!lemma] Theorem 5 (Value Iteration)
+> ```pseudo
+> \begin{algorithm} \caption{ValueIteration($M,\varepsilon$)}
+> \begin{algorithmic} 
+> \State initialize $V(x)\gets \max_{a\in \mathcal{A}}r(x,a)$ for all $x\in \mathcal{X}$.
+> \For{$t\geq 1$}
+> \State $V(x)\gets\max_{a\in \mathcal{A}}Q(x,a)$ where $Q$ is the $Q$-function associated with $V$.
+> \State stop if $\|V_{\text{old}}-V_{\text{new}}\|_{\infty}\leq \varepsilon$
+\EndFor
+> \Return $\pi_{V}$, i.e. the greedy policy associated with $V$.
+\end{algorithmic}
+\end{algorithm}
+> ```
+> 
+> Then, 
+> 1. the algorithm converges to an optimal policy.
+
+> [!proof]-
+> Let $B:\mathbb{R}^n\to \mathbb{R}^n$ where: $$(Bu)_{x}:=\max_{a\in \mathcal{A}}Q(x,a)$$where $Q$ is associated with $u$. Then, we first show that $B$ is a contraction: $$\begin{align} \|Bu-Bv\|_{\infty}&=\max_{x}\left| (Bu)_{x}-(Bv)_{x} \right|\\&\leq\max_{x}\max_{a}\left| Q_{u}(x,a)-Q_{v}(x,a) \right| \\&\leq\gamma\max_{x}\max_{a}\sum_{x'}^{}p(x'|x,a)\left| u(x')-v(x') \right| \\&\leq\gamma \cdot \|u-v\|_{\infty}\end{align}$$Hence, $B$ converges to a unique fixed point $V$ which is given by the algorithm. The rest holds by Bellman's theorem.
+- **Remark**: Value iteration doesn't converge to an exact solution in general but a $\varepsilon$-optimal one. 
+---
+
