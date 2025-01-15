@@ -18,7 +18,8 @@
 	2. A ***randomized policy*** is a function $\pi:\mathcal{X}\to M^1(\mathcal{A})$. We denote $\pi(x):=\pi(\cdot|x)$ for all $x\in \mathcal{X}$.
 - **Related definition**: For an MDP $M$ and a policy $\pi$,
 	1. the ***state value function*** $V^\pi:\mathcal{X}\to \mathbb{R}$ where: $$V^\pi(x):=\mathbb{E}_{\pi}\left[ \left. \sum_{t=0}^{\infty}\gamma^tr(X_{t},A_{t}))  \right| X_{0}=x\right] =\underset{ \begin{array}{c}A_{t}\sim \pi(\cdot |X_{t})\\X_{t+1}\sim P(\cdot |X_{t},A_{t})\end{array} }{ \mathbb{E} }\left[ \left. \sum_{t=0}^{\infty}\gamma^tr(X_{t},A_{t}))  \right| X_{0}=x\right] $$
-	2. 
+	2. the ***state-action value function*** $Q^\pi:\mathcal{X}\times \mathcal{A}\to \mathbb{R}$ where: $$Q^\pi(x,a):=\mathbb{E}_{\pi}\left[ \left. \sum_{t=0}^{\infty}\gamma^tr(X_{t},A_{t}))  \right| X_{0}=x,A_{0}=a\right]  $$
+- **Related definition**: A deterministic policy $\pi$ is ***greedy*** w.r.t a value function $V$ if: $$\pi(x):=\underset{ a\in \mathcal{A} }{ \arg\max }\ r(x,a)+\gamma \sum_{x'\in \mathcal{X}}^{}P(x'|x,a)\cdot V(x')$$
 ---
 ##### Properties
 > [!lemma] Proposition 1 
@@ -26,19 +27,28 @@
 > Then, 
 > 1. $(X_{t})_{t\geq 0}$ is a [[Markov chain]] with $P(x'|x)=\sum_{a\in \mathcal{A}}^{}\pi(a|x)P(x'|x,a)$.
 > 2. for any $x\in \mathcal{X}$, $$V^\pi(x)=\sum_{a\in \mathcal{A}}^{}\left( r(x,a)+\gamma \sum_{x'\in \mathcal{X}}^{}V^\pi(x')P(x'|x,a) \right) \pi(a|x)$$
+> 3. 
 
 > [!proof]-
 > We have that: 
 > 1. Notice that: $$\begin{align}P(x'|x)&=\sum_{a\in \mathcal{A}}^{}\mathbb{P}(A_{t}=a|X_{t}=x)\mathbb{P}(X_{t+1}=x'|A_{t}=a,X_{t}=x)\\&=\sum_{a\in \mathcal{A}}^{}\pi(a|x)P(x'|x,a)\end{align}$$Further, $$\sum_{x'\in \mathcal{X}}^{}P(x'|x)=\sum_{x'\in \mathcal{X}}^{}\sum_{a\in \mathcal{A}}^{}\pi(a|x)P(x'|x,a)=\sum_{a\in \mathcal{A}}^{}\pi(a|x)=1$$
 > 2. We have that: $$\begin{align}V^\pi(x)&=\mathbb{E}_{\mu}[r(X_{0},A_{0})|X_{0}=x ]+\mathbb{E}_{\mu}\left[\left. \sum_{t=1}^{\infty}\gamma^tr(X_{t},A_{t}))  \right| |X_{0}=x \right]\\&=\sum_{a\in \mathcal{A}}^{}r(x,a)\pi(a|x)+\gamma\mathbb{E}_{\mu}\left[\left. \sum_{t=0}^{\infty}\gamma^{t}r(X_{t+1},A_{t+1}))  \right| X_{0}=x \right]\\&=\sum_{a\in \mathcal{A}}^{}r(x,a)\pi(a|x)+\gamma \mathbb{E}_{\mu}\left[\left.  \mathbb{E}_{\mu}\left[\left. \sum_{t=0}^{\infty}\gamma^{t}r(X_{t+1},A_{t+1}))  \right| X_{1}=x' \right]  \right| X_{0}=x\right]\\&=\sum_{a\in \mathcal{A}}^{}r(x,a)\pi(a|x)+\gamma \mathbb{E}_{\mu}\left[\left. V^\pi(x')\right| X_{0}=x\right]\\&=\sum_{a\in \mathcal{A}}^{}r(x,a)\pi(a|x)+\gamma \sum_{a\in \mathcal{A}}^{}\sum_{x'\in \mathcal{X}}^{}V^\pi(x')P(x'|x,a)\pi(a|x)\\&=\sum_{a\in \mathcal{A}}^{}\left( r(x,a)+\gamma \sum_{x'\in \mathcal{X}}^{}V^\pi(x')P(x'|x,a) \right) \pi(a|x)\end{align}$$
-- **Remark**: By noting $V^\pi=r^\pi+\gamma T^\pi V^\pi$ and $r^\pi=(I-\gamma T^\pi)V^\pi$, we can compute $V^\pi$ exactly by solving the linear systems of equation directly in $O(\left| \mathcal{X} \right|^3)$.
+
 ---
 > [!lemma] Proposition 2 (Computing Value Function)
-> Let $M$ be an MDP, $\pi$ a policy. We further define: $$r^\pi_{x}:=\sum_{a\in \mathcal{A}}^{}r(x,a)\pi(a|x),\quad T^\pi_{x'x}:=\sum_{a\in \mathcal{A}}^{}P(x'|x,a)\pi(a|x)$$Then, 
+> Let $M$ be an MDP, $\pi$ a policy. We further define: $$r^\pi_{x}:=\sum_{a\in \mathcal{A}}^{}r(x,a)\pi(a|x),\quad T^\pi_{x,x'}:=\sum_{a\in \mathcal{A}}^{}P(x'|x,a)\pi(a|x)$$Then, 
 > 1. $V^\pi=r^\pi+\gamma T^\pi V^\pi$.
 > 2. $B:\mathbb{R}^{\left| \mathcal{X} \right|}\to\mathbb{R}^{\left| \mathcal{X} \right|},v\mapsto r^\pi+\gamma T^\pi v$ is a contractible iteration function. In particular, it admits a unique fixed point $V^\pi$.
 
-> [!proof]+
+> [!proof]-
 > We have that: 
 > 1. Obvious.
-> 2. We have that: $$\begin{align}\left\| B(u)-B(v) \right\|_{\infty} \end{align}$$
+> 2. We have that: $$\begin{align}\left\| B(u)-B(v) \right\|_{\infty} &=\left\| \gamma T^\pi u-\gamma T^\pi v \right\| _{\infty}\\&=\gamma\|T^\pi(u-v)\|_{\infty}\\&=\gamma \cdot \max_{x'}\left| \sum_{x'\in \mathcal{X}}^{} \sum_{a\in \mathcal{A}}^{}P(x'|x,a)\pi(a|x)(u-v)_{x'} \right|\\&\leq\gamma \cdot \max_{x'}\left| \sum_{a\in \mathcal{A}}^{}\pi(a|x) \right|\cdot \|u-v\|_{\infty}\\&=\gamma\|u-v\|_{\infty} \end{align}$$The rest follows from Banach's fixed point theorem.
+
+- **Remark**: If $M$ is finite, by noting $r^\pi=(I-\gamma T^\pi)V^\pi$, we can compute $V^\pi$ exactly by solving the linear systems of equation directly in $O(\left| \mathcal{X} \right|^3)$.
+---
+> [!lemma] Theorem 3 (Bellman)
+> Let $\pi ^{*}$ be a deterministic policy. TFAE:
+> 1. $\pi ^{*}=\underset{ \pi }{ \arg\max }\ \mathbb{E}_{X_{0} \sim \mu}[V^\pi(X_{0})]$, i.e. $\pi ^{*}$ is an optimal policy.
+> 2. $\pi ^{*}$ is greedy w.r.t. $V^{\pi ^{*}}$.
+---
