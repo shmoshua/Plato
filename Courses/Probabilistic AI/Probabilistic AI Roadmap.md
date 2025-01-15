@@ -428,6 +428,7 @@ $$\underset{ \text{parameters} }{ w }\gets \underset{ \text{hyperparameters} }{ 
 > 	Then, a model is well-calibrated if $\text{freq}(B_{m})\approx \text{conf}(B_{m})$ for all $m$. 
 ---
 ### 4. Active Learning
+#### 4.1 Active Learning for Regression
 In active learning, we consider the following setting. Let $\mathcal{X}$ be the domain of possible observation of an unknown function $f:\mathcal{X}\to \mathbb{R}$, s.t. the observation at each point $x\in \mathcal{X}$ is given by: $$y_{x}:=f(x)+\varepsilon_{x},\quad \varepsilon\sim \mathcal{N}(0,\sigma^{2}_{n}I)$$Let $S:=\{ x_{1},\dots,x_{n} \}\subseteq \mathcal{X}$ now be a set of observations. Then, $y_{S}:=f_{S}+\varepsilon$ where: 
 1. $y_{S}:=(y_{x_{1}},\dots,y_{x_{n}})$ and 
 2. $f_{S}:=(f_{x_{1}},\dots,f_{x_{n}})$ and 
@@ -468,5 +469,21 @@ For a subset $S\subseteq \mathcal{X}$, then define $I(S):=I(f;y_{S})=H(f)-H(f|y_
 
 ---
 > [!Outlook] Gaussian setting
-> With homoscedastic noise, 
-> 1. $I(S\cup x)-I(S)=H(y_{x}|y_{S})-H(\varepsilon_{x})=\frac{1}{2}\log\left( 1+\frac{\sigma_{t}^{2}(x)}{\sigma^{2}_{n}} \right)$ where $\sigma^{2}_{t}(x)$ denotes the variance of $y_{x}$ given $y_{S}$, i.e. the epistemic uncertainty. Therefore, $$\arg\max_{x\in \mathcal{X}} I(S\cup x)$$
+> We have that:
+> 1. With homoscedastic noise, $I(S\cup x)-I(S)=H(y_{x}|y_{S})-H(\varepsilon_{x})=\frac{1}{2}\log\left( 1+\frac{\sigma_{S}^{2}(x)}{\sigma^{2}_{n}} \right)$ where $\sigma^{2}_{S}(x)$ denotes the variance of $y_{x}$ given $y_{S}$, i.e. the epistemic uncertainty. Therefore, $$\arg\max_{x\in \mathcal{X}} I(S\cup x)=\arg\max_{x\in \mathcal{X}} \sigma^{2}_{S}(x)$$
+> 2. With heteroscedastic noise, we have that $$I(S\cup x)-I(S)=H(y_{x}|y_{S})-H(\varepsilon_{x})=\frac{1}{2}\log\left( 1+\frac{\sigma_{S}^{2}(x)}{\sigma^{2}_{n}(x)} \right)$$Hence, finding the maximum is not as helpful in reducing the epistemic uncertainty!
+- **Remark**: One can of course derive other criteria to reduce uncertainty s.t. entropy, trace or eigenvalue etc, instead of mutual information. Typically more expensive, but comes with other benefits.
+
+---
+#### 4.2 Active Learning for Classification
+We can use the following formula: $$x_{t+1}:=\underset{ x\in \mathcal{X} }{ \arg\max }\ H(y_{x}|x_{1:t},y_{1:t})$$
+However, this also leads to a problem of not being able to distinguish between epistemic and aleatoric uncertainty.
+
+---
+> [!outlook] Bayesian active learning by disagreement (BALD)
+> Let our model be parametrized with $\theta$. We can distinguish the uncertainties by: $$\begin{align}x_{t+1}&:=\underset{ x\in \mathcal{X} }{ \arg\max }\ I(\theta;y_{x}|x_{1:t},y_{1:t})\\ &=\underset{ x\in \mathcal{X} }{ \arg\max }\  H(y_{x}|x_{1:t},y_{1:t})-H(y_{x}|\theta,x_{1:t},y_{1:t})\\ &=\underset{ x\in \mathcal{X} }{ \arg\max }\  H(y_{x}|x_{1:t},y_{1:t})-\mathbb{E}_{\theta |x_{1:t},y_{1:t}}[H(y_{x}|\theta,x_{1:t},y_{1:t})]\\ &=\underset{ x\in \mathcal{X} }{ \arg\max }\  H(y_{x}|x_{1:t},y_{1:t})-\mathbb{E}_{\theta |x_{1:t},y_{1:t}}[H(y_{x}|\theta)]\end{align}$$where the last equality holds due to $y_{x}{\bot}x_{1:t},y_{1:t}|\theta$. Then, 
+> 1. the first term looks for points where *the average prediction is not confident*. This can be approximated by the predictive distribution of an approximated posterior using variational inference.
+> 2. the second term looks for points where sampled models are confident in their predictions. This can also be approximated using MCMC or variational inference.
+---
+### 5. Bayesian Optimization
+We also consider a setting where acquiring new observations is expensive. Given some function $f:\mathcal{X}\to \mathbb{R}$ we would like to find: $$x^{*}\in \underset{ x\in \mathcal{X} }{ \arg\max }\ f^{*}(x)$$
