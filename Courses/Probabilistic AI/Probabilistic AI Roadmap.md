@@ -705,5 +705,22 @@ Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+
 > ```
 > We have that:
 > 1. if $\sum_{t=0}^{\infty}\alpha_{t}=\infty$ and $\sum_{t=0}^{\infty}\alpha^{2}_{t}<\infty$ and all pairs $(x,a)$ are chosen infinitely often, then $\widehat{Q}^{*}$ converges to $Q^{*}$ almost surely. 
-> 2. 
+> 2. With probability at least $1-\delta$, the algorithm converges to a $\varepsilon$-optimal policy in $\text{poly}(\log \left| \mathcal{X} \right|,\log \left| \mathcal{A} \right|, 1 / \varepsilon, \log(1 / \delta))$ steps.
+---
+> [!outlook] Optimistic Q-learning
+> ```pseudo
+> \begin{algorithm}\caption{Optimistic Q-learning($(\alpha_{t})_{t\geq 0}, R_{\text{max}},T_{\text{init}}$)}
+> \begin{algorithmic}
+> \State initialize $\widehat{Q}^{*}\gets (1-\gamma)^{-1}R_{\text{max}}\prod_{t\in [T_{\text{init}}]}^{}(1-\alpha_{t})^{-1}$
+> \For{$t\geq 0$}
+> \State get current state $x$.
+> \State pick $a_{t}:=\arg\max_{a\in \mathcal{A}}\widehat{Q}^{*}(x,a)$observe the transition $(x,a,r,x')$
+> \State $\widehat{Q}^{*}(x,a)\gets (1-\alpha_{t})\widehat{Q}^{*}(x,a)+\alpha_{t}\left( r+\gamma \max_{a'\in \mathcal{A}}\widehat{Q}^{*}(x',a') \right)$
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+> ```
+> We have that:
+> 1. if $\sum_{t=0}^{\infty}\alpha_{t}=\infty$ and $\sum_{t=0}^{\infty}\alpha^{2}_{t}<\infty$ and all pairs $(x,a)$ are chosen infinitely often, then $\widehat{Q}^{*}$ converges to $Q^{*}$ almost surely. 
+> 2. With probability at least $1-\delta$, the algorithm converges to a $\varepsilon$-optimal policy in $\text{poly}(\log \left| \mathcal{X} \right|,\log \left| \mathcal{A} \right|, 1 / \varepsilon, \log(1 / \delta))$ steps.
 ---
