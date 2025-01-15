@@ -520,4 +520,12 @@ Assume the setting where for the objective function $f^{*}$ we use a Gaussian Pr
 > 1. if $\beta_{t}(\delta)=O(\sqrt{ \log(\left| \mathcal{X} \right|t / \delta) })$ then $$\mathbb{P}(f^{*}(x)\in C_{t}(x), \forall x\in \mathcal{X},t\geq 1)\geq 1-\delta$$ where $C_{t}(x):=[\mu_{t-1}(x)\pm \beta_{t+1}\sigma_{t}(x)]$.
 ---
 > [!lemma] Theorem 2
-> If $\beta_{t}(\delta)$ is chosen correctly, i.e. $\mathbb{P}(f^{*}(x)\in C_{t}(x),\forall x\in \mathcal{X},t\geq 1)\geq 1-\delta$, then UCB has regret: $$R_{T}=O(\beta_{T}(\delta)\sqrt{ \gamma_{T}T })$$where: $$\gamma_{T}=\max_{S\in }$$
+> If $\beta_{t}(\delta)$ is chosen correctly, i.e. $\mathbb{P}(f^{*}(x)\in C_{t}(x),\forall x\in \mathcal{X},t\geq 1)\geq 1-\delta$, then UCB has regret: $$R_{T}=O(\beta_{T}(\delta)\sqrt{ \gamma_{T}T })$$where: $\gamma_{T}=\max_{S\in {\mathcal{X} \choose T}}I(f;y_{S})=\max_{S\in {\mathcal{X} \choose T}} \frac{1}{2}\log \det(I+\sigma_{n}^{-2}K_{SS})$. Further we have that:
+> 1. Linear kernel: $\gamma_{T}=O(d \log T)$.
+> 2. Gaussian kernel: $\gamma_{T}=O((\log T)^{d+1})$
+> 3. Matérn kernel for $\nu> \frac{1}{2}$: $\gamma_{T}=O(T^{\frac{d}{2\nu+d}}(\log T)^{\frac{2\nu}{2\nu+d}})$
+---
+##### 5.1.2 Thompson Sampling
+> [!outlook] Thompson Sampling
+> In UCB, we find the next point using: $$x_{t+1}:=\underset{ x\in \mathcal{X} }{ \arg\max }\ \tilde{f}_{t+1}(x)$$where $\tilde{f}_{t+1}\sim p(\cdot|x_{1:t},y_{1:t})$.
+> 1. The randomness in the sampling is enough to explore and exploit. 
