@@ -706,6 +706,7 @@ Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+
 > We have that:
 > 1. if $\sum_{t=0}^{\infty}\alpha_{t}=\infty$ and $\sum_{t=0}^{\infty}\alpha^{2}_{t}<\infty$ and all pairs $(x,a)$ are chosen infinitely often, then $\widehat{Q}^{*}$ converges to $Q^{*}$ almost surely. 
 > 2. With probability at least $1-\delta$, the algorithm converges to a $\varepsilon$-optimal policy in $\text{poly}(\log \left| \mathcal{X} \right|,\log \left| \mathcal{A} \right|, 1 / \varepsilon, \log(1 / \delta))$ steps.
+- **Remark**: Q-learning uses $O(nm)$ memory to store $\widehat{Q}^{*}$ and has $O(m)$ runtime per iteration
 ---
 > [!outlook] Optimistic Q-learning
 > ```pseudo
@@ -714,13 +715,19 @@ Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+
 > \State initialize $\widehat{Q}^{*}\gets (1-\gamma)^{-1}R_{\text{max}}\prod_{t\in [T_{\text{init}}]}^{}(1-\alpha_{t})^{-1}$
 > \For{$t\geq 0$}
 > \State get current state $x$.
-> \State pick $a_{t}:=\arg\max_{a\in \mathcal{A}}\widehat{Q}^{*}(x,a)$observe the transition $(x,a,r,x')$
-> \State $\widehat{Q}^{*}(x,a)\gets (1-\alpha_{t})\widehat{Q}^{*}(x,a)+\alpha_{t}\left( r+\gamma \max_{a'\in \mathcal{A}}\widehat{Q}^{*}(x',a') \right)$
+> \State pick $a_{t}:=\arg\max_{a\in \mathcal{A}}\widehat{Q}^{*}(x,a)$ and observe the transition $(x,a_{t},r,x')$
+> \State $\widehat{Q}^{*}(x,a_{t})\gets (1-\alpha_{t})\widehat{Q}^{*}(x,a)+\alpha_{t}\left( r+\gamma \max_{a'\in \mathcal{A}}\widehat{Q}^{*}(x',a') \right)$
 \EndFor
 \end{algorithmic}
 \end{algorithm}
 > ```
 > We have that:
-> 1. if $\sum_{t=0}^{\infty}\alpha_{t}=\infty$ and $\sum_{t=0}^{\infty}\alpha^{2}_{t}<\infty$ and all pairs $(x,a)$ are chosen infinitely often, then $\widehat{Q}^{*}$ converges to $Q^{*}$ almost surely. 
-> 2. With probability at least $1-\delta$, the algorithm converges to a $\varepsilon$-optimal policy in $\text{poly}(\log \left| \mathcal{X} \right|,\log \left| \mathcal{A} \right|, 1 / \varepsilon, \log(1 / \delta))$ steps.
+> 1. With probability at least $1-\delta$, the algorithm converges to a $\varepsilon$-optimal policy in $\text{poly}(\left| \mathcal{X} \right|, \left| \mathcal{A} \right|, 1 / \varepsilon, \log(1 / \delta),R_{\text{max}})$ steps.
 ---
+#### 7.2 Non-Tabular Setting
+##### 7.2.1 Model-free Reinforcement Learning
+> [!outlook] Tabular RL as Optimization
+> Let's now try to approximate $V^\pi$ using regression. Let $\theta=(\theta_{1},\dots,\theta_{n})$ be the parameters s.t. $V^\pi(x;\theta)=\theta_{x}$. 
+> 
+> After a transition $(x,a,r,x')$, we define:
+> 1. $\ell(\theta;x,r,x'):=\frac{1}{2}\left( r+\gamma\theta_{x'}-\theta_{x} \right)^{2}$
