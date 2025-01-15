@@ -594,7 +594,7 @@ This refers to the case where $\mathcal{X}$ and $\mathcal{A}$ are small so we ca
 
 ###### 7.1.1.1 MLE Approximation of MDP
 > [!outlook] MLE Approximation
-> We can learn the underlying MDP using the following method. Let $N(x'|x,a)$ be the number of transitions from $x$ to $x'$ with action $a$ and $N(a|x)$ the number of times $a$ is played from state $x$ in the trajectory. Then, $$\widehat{P}(x'|x,a):=\frac{N(x'|x,a)}{N(a|x)},\quad \widehat{r}(a|x):=\frac{1}{N(a|x)}\sum_{t}r_{t}\cdot \mathbb{1}_{x_{t}=x}\cdot \mathbb{1}_{a_{t}=a}$$
+> We can learn the underlying MDP using the following method. Let $N(x'|x,a)$ be the number of transitions from $x$ to $x'$ with action $a$ and $N(a|x)$ the number of times $a$ is played from state $x$ in the trajectory. Then, $$\widehat{P}(x'|x,a):=\frac{N(x'|x,a)}{N(a|x)},\quad \widehat{r}(x,a):=\frac{1}{N(a|x)}\sum_{t}r_{t}\cdot \mathbb{1}_{x_{t}=x}\cdot \mathbb{1}_{a_{t}=a}$$
 - **Remark**: This will work only if each tuple $(x,x',a)$ is visited multiple times (at least once to be well-defined). We can use Hoeffding to figure out how much data we need.
 ---
 ###### 7.1.1.2 $\varepsilon$-Greedy Algorithm
@@ -613,3 +613,24 @@ This refers to the case where $\mathcal{X}$ and $\mathcal{A}$ are small so we ca
 - **Remark**: Picking an action uniformly at random can be improved to use past knowledge to decide where to explore. 
 ---
 ###### 7.1.1.3 $R_{\text{max}}$-algorithm
+> [!outlook] Rmax Algorithm
+> ```pseudo
+> \begin{algorithm}\caption{$R_{\text{max}}$ Algorithm}
+> \begin{algorithmic}
+> \State add the fairy-tale state $x^{*}$ to the MDP
+> \State $\widehat{r}(x,a)\gets R_{\text{max}}$ for all $x\in \mathcal{X}$ and $a\in \mathcal{A}$ where $R_{\text{max}}$ is the given upper bound for reward.
+> \State $\widehat{P}(x^{*}|x,a)\gets 1$ for all $x\in \mathcal{X},a\in \mathcal{A}$
+> \State compute the optimal policy $\widehat{\pi}$ w.r.t. $\widehat{P}$ and $\widehat{r}$
+> \For{$t\geq 0$}
+> \State execute $\widehat{\pi}$ for some steps and generate trajectory.
+> \State update $\widehat{r}$ and $\widehat{P}$ using the result (c.f. MLE approximation)
+> \State recompute $\widehat{\pi}$ using the updated $\widehat{r}$ and $\widehat{P}$
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+> ```
+> We need $N(a|x)\geq \frac{R^{2}_{\text{max}}}{2\varepsilon^{2}}\log \frac{2}{\delta}$ s.t. the approximation error is below $\varepsilon$ with probability $\geq 1-\delta$ for $a\in \mathcal{A}$ and $x\in \mathcal{X}$. Then,
+> 1. it can be shown that every $T$ timesteps, the algorithm either obtains a near-optimal reward or visited at least one unknown state-action pair w.h.p.
+> 2. with probability at least $1-\delta$, the algorithm reaches an $\varepsilon$-optimal policy in $\text{poly}\left( \left| \mathcal{X} \right|,\left| \mathcal{A} \right|,T, \frac{1}{\varepsilon}, \frac{1}{\delta},R_{\text{max}} \right)$
+- **Remark**: The algorithm computes an optimal policy $O(nm)$ times, which can be quite costly.
+---
