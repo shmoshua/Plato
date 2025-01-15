@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Partially Observable Markov Decision Process"
+            }
+          },
+          {
+            "id": "2e8575f5ec7f1a52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ML Theory/Reinforcement Learning/Markov Decision Process.md",
                 "mode": "source",
                 "source": true
@@ -22,31 +36,17 @@
             }
           },
           {
-            "id": "2e8575f5ec7f1a52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Gaussian Distribution"
-            }
-          },
-          {
             "id": "4b59114e98643804",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Markov Chain Monte Carlo.md",
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Markov Chain Monte Carlo"
+              "title": "Probabilistic AI Roadmap"
             }
           },
           {
@@ -59,7 +59,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -99,12 +100,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Monotone Submodular Function.md",
+                "file": "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Monotone Submodular Function"
+              "title": "Partially Observable Markov Decision Process"
             }
           },
           {
@@ -163,8 +164,7 @@
               "title": "Monotone Submodular Function"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -308,26 +308,27 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d966487b880df0b8",
+  "active": "4b59114e98643804",
   "lastOpenFiles": [
-    "Information Theory/Mutual Information.md",
-    "ML Theory/Reinforcement Learning/Markov Decision Process.md",
+    "ML Theory/Markov Chain Monte Carlo.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
+    "ML Theory/Reinforcement Learning/Markov Decision Process.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Algorithms/Monotone Submodular Function.md",
+    "Information Theory/Mutual Information.md",
     "Functional Analysis/Space of Probability Measures.md",
     "ML Theory/Reinforcement Learning",
     "Information Theory/Entropy.md",
     "Untitled 1.md",
     "Untitled.md",
-    "Algorithms/Monotone Submodular Function.md",
     "Probability Theory/Independence.md",
-    "ML Theory/Markov Chain Monte Carlo.md",
     "ML Theory/Neural Network.md",
     "Markov Processes/Stationary Distribution.md",
     "Probability Theory/Variance.md",
     "ML Theory/Laplace Approximation.md",
     "ML Theory/Variational Inference.md",
     "Probability Theory/Gibbs Distribution.md",
-    "Probability Theory/Gaussian Distribution.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
     "Probability Theory/Expected Value.md",
     "Markov Processes/Markov Chain.md",
@@ -336,7 +337,6 @@
     "Linear Algebra/Cholesky Decomposition.md",
     "Analysis/Laplace Transform.md",
     "Measure Theory/Lebesgue Measure.md",
-    "Measure Theory/Summable Function.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",

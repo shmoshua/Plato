@@ -529,3 +529,42 @@ Assume the setting where for the objective function $f^{*}$ we use a Gaussian Pr
 > [!outlook] Thompson Sampling
 > In UCB, we find the next point using: $$x_{t+1}:=\underset{ x\in \mathcal{X} }{ \arg\max }\ \tilde{f}_{t+1}(x)$$where $\tilde{f}_{t+1}\sim p(\cdot|x_{1:t},y_{1:t})$.
 > 1. The randomness in the sampling is enough to explore and exploit. 
+---
+### 6. Markov Decision Processes
+#### 6.1 MDP
+![[Markov Decision Process#^676f65]]
+![[Markov Decision Process#^6aea89]]
+![[Markov Decision Process#^48753c|p]]
+![[Markov Decision Process#^282b3a|p]]
+![[Markov Decision Process#^060a16|p]]
+![[Markov Decision Process#^0704ec|p]]
+
+---
+![[Markov Decision Process#^8cd5fc]]
+![[Markov Decision Process#^310f46|p]]
+
+---
+![[Markov Decision Process#^f95d00]]
+![[Markov Decision Process#^26bdee|p]]
+![[Markov Decision Process#^9ca6be]]
+
+---
+![[Markov Decision Process#^950b56]]
+
+---
+![[Markov Decision Process#^0cea46]]
+
+---
+![[Markov Decision Process#^5dd8bf]]
+![[Markov Decision Process#^08b195|p]]
+![[Markov Decision Process#^bcf061]]
+
+---
+#### 6.2 POMDP
+![[Partially Observable Markov Decision Process#^a48413]]
+
+---
+![[Partially Observable Markov Decision Process#^1bdfe5]]
+
+---
+### 7. Reinforcement Learning
