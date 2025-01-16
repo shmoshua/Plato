@@ -821,9 +821,14 @@ We will parameterize the policy $\pi$ with $\varphi$ and denote $j(\varphi):=j(\
 > \Repeat
 > \State use $\pi_{\varphi}$ to obtain $(x,a,r,x')$
 > \State $\varphi\gets \varphi+\eta\gamma^t Q^{\pi_{\varphi}}(x,a;\theta)\nabla_{\varphi}\log \pi_{\varphi}(a|x)$
-> \State $\theta\gets$
+> \State $\delta\gets r+\gamma Q^{\pi_{\varphi}}(x',\pi_{\varphi}(x');\theta)-Q(x,a;\theta)$
+> \State $\theta\gets \theta+\eta\delta \nabla_{\theta}Q^{\pi_{\varphi}}(x,a;\theta)$
 \Until{converged}
 \end{algorithmic}
 \end{algorithm}
 > ```
+> which is online as we use online SARSA. We can further improve this using: $$\varphi\gets \varphi+\eta\gamma^t A^{\pi_{\varphi}}(x,a;\theta)\nabla_{\varphi}\log \pi_{\varphi}(a|x)$$which reduces variance. 
 - **Remark**: In Deep RL, neural networks are used to parametrize both actor and critic. 
+---
+> [!outlook] TRPO and PPO
+> These improve on the low sample efficiency of online actor critic. It replaces the $\varphi$ update with: $$\begin{array}{rl}\varphi_{k+1}\gets \underset{ \varphi }{ \arg\max }\ \mathbb{E}_{x\sim\rho_{\varphi_{k}},a\sim \pi_{\varphi_{k}}(\cdot |x)}\left[ \frac{\pi_{\varphi}(a|x)}{\pi_{\varphi_{k}}(a|x)}A^{\pi_{\varphi_{k}}}(x,a) \right]\\\text{subject to }&\mathbb{E}_{x\sim\rho_{\varphi_{k}}}[D(\pi_{\varphi_{k}}(\cdot |x)\|\pi_{\varphi}(\cdot|x))]\leq \delta\end{array}$$for some $\delta$ 
