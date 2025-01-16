@@ -114,12 +114,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Characteristic Function.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Characteristic Function"
+              "title": "Gaussian Distribution"
             }
           }
         ]
@@ -268,12 +268,14 @@
   },
   "active": "464ee18910056598",
   "lastOpenFiles": [
+    "Probability Theory/Gaussian Distribution.md",
+    "Machine Learning/Gaussian Process.md",
+    "Probability Theory/Characteristic Function.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Information Theory/Mutual Information.md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Entropy.md",
     "Probability Theory/Covariance.md",
-    "Probability Theory/Characteristic Function.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Gibbs Distribution.md",
@@ -282,7 +284,6 @@
     "ML Theory/Markov Chain Monte Carlo.md",
     "Algorithms/Monotone Submodular Function.md",
     "Untitled.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Functional Analysis/Space of Probability Measures.md",
     "ML Theory/Reinforcement Learning",
     "Untitled 1.md",
@@ -294,7 +295,6 @@
     "ML Theory/Maximum A Posteriori Estimation.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
-    "Measure Theory/Diffeomorphism.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
