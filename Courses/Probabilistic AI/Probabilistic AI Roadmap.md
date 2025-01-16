@@ -835,3 +835,30 @@ We will parameterize the policy $\pi$ with $\varphi$ and denote $j(\varphi):=j(\
 
 ---
 ###### 7.2.1.4 Off-Policy Actor-Critic Methods
+> [!outlook] DDPG := Q-learning + DQN
+> As DQN's intractability for large $\mathcal{A}$ comes from the fact that we try to compute $\max_{a} Q^{*}(x,a)$, we can replace this s.t. $\pi_{\varphi}$ tries to learn $\pi ^{*}(x):=\arg\max_{a}Q^{*}(x,a)$.
+> ```pseudo
+> \begin{algorithm}\caption{DDPG($\rho$)}
+> \begin{algorithmic}
+> \State initialize $\varphi$, $\theta$ and replay buffer $\mathcal{D}=\varnothing$
+> \State $\overline{\varphi}\gets \varphi$ and $\overline{\theta}\gets \theta$
+> \For{$t=0,\dots,\infty$}
+> \State observe $x$ and pick action $a:=\pi_{\varphi}(x)+\varepsilon$ for $\varepsilon \sim \mathcal{N}(0,\lambda I)$
+> \State execute $a$ and observe $r$ and $x'$.
+> \State $\mathcal{D}\gets\mathcal{D}\cup \{ (x,a,r,x') \}$
+> \If{$\mathcal{D}$ has collected enoguh data}
+> \For{$j=1,\dots,J$}
+> \State sample a minibatch $B$ of $\mathcal{D}$
+> \State $\theta\gets \theta-\eta \frac{1}{\left| \mathcal{B} \right|}\sum_{(x,a,r,x')\in B}^{}\nabla _\theta  (r+\gamma Q^{*}_{\overline{\theta}}(x',\pi_{\overline{\varphi}}(x'))-Q^{*}_{\theta}(x,a))^{2}$
+> \State $\varphi\gets \varphi+\eta \frac{1}{\left| \mathcal{B} \right|}\sum_{(x,a,r,x')\in B}^{}\nabla_{\varphi}Q^{*}_{\theta}(x,\pi_{\varphi}(x))$
+> \State $\overline{\theta}\gets (1-\rho)\overline{\theta}+\rho\theta$
+> \State $\overline{\varphi}\gets (1-\rho)\overline{\varphi}+\rho\varphi$
+\EndFor
+\EndIf
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+> ```
+- **Remark**: This can be further improved by TD3 by using two critic networks to target the maximization bias. 
+- **Remark**: Can even boost the optimizing function with the entropy to encourage more exploration. This is called ***soft actor critic (SAC)***.
+---
