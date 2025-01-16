@@ -785,7 +785,7 @@ We will parameterize the policy $\pi$ with $\varphi$ and denote $j(\varphi):=j(\
 - **Remark**: We can reduce the variance even further using: $$\nabla_{\varphi}j=\mathbb{E}_{\tau \sim \Pi_{\varphi}}\left[ \sum_{t=0}^{T}\gamma^t(G_{t}-b_{t})\nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]$$where $b_{t}:=\frac{1}{T}\sum_{t=0}^{T-1}G_{t}$.
 - **Remark**: REINFORCE is not guaranteed to converge to an optimal policy. Further, policy gradient methods are on-policy.
 ---
-###### 7.2.1.3 Actor-Critic Methods
+###### 7.2.1.3 On-Policy Actor-Critic Methods
 > [!lemma] Proposition (Advantage Function)
 > For a policy $\pi$, the ***advantage function*** $A^\pi:\mathcal{X}\times \mathcal{A}\to \mathbb{R}$ is defined as: $$A^\pi(x,a):=Q^\pi(x,a)-V^\pi(x)$$
 > Then,
@@ -831,4 +831,7 @@ We will parameterize the policy $\pi$ with $\varphi$ and denote $j(\varphi):=j(\
 - **Remark**: In Deep RL, neural networks are used to parametrize both actor and critic. 
 ---
 > [!outlook] TRPO and PPO
-> These improve on the low sample efficiency of online actor critic. It replaces the $\varphi$ update with: $$\begin{array}{rl}\varphi_{k+1}\gets \underset{ \varphi }{ \arg\max }\ \mathbb{E}_{x\sim\rho_{\varphi_{k}},a\sim \pi_{\varphi_{k}}(\cdot |x)}\left[ \frac{\pi_{\varphi}(a|x)}{\pi_{\varphi_{k}}(a|x)}A^{\pi_{\varphi_{k}}}(x,a) \right]\\\text{subject to }&\mathbb{E}_{x\sim\rho_{\varphi_{k}}}[D(\pi_{\varphi_{k}}(\cdot |x)\|\pi_{\varphi}(\cdot|x))]\leq \delta\end{array}$$for some $\delta$ 
+> These improve on the low sample efficiency of online actor critic. In TPRO, $\varphi$ update is replaced with: $$\begin{array}{rl}\varphi_{k+1}:= \underset{ \varphi }{ \arg\max }& \mathbb{E}_{x\sim\rho_{\varphi_{k}},a\sim \pi_{\varphi_{k}}(\cdot |x)}\left[ \frac{\pi_{\varphi}(a|x)}{\pi_{\varphi_{k}}(a|x)}A^{\pi_{\varphi_{k}}}(x,a) \right]\\\text{subject to }&\mathbb{E}_{x\sim\rho_{\varphi_{k}}}[D(\pi_{\varphi_{k}}(\cdot |x)\|\pi_{\varphi}(\cdot|x))]\leq \delta\end{array}$$for some $\delta>0$. PPO is a family of heuristic variants of TRPO.
+
+---
+###### 7.2.1.4 Off-Policy Actor-Critic Methods
