@@ -750,3 +750,20 @@ Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+
 - **Related definition**: For a policy $\pi$, the ***policy value function*** is given by: $$j(\pi):=\mathbb{E}_{x_{0}\sim \mu}[V^\pi(x_{0})]$$
 
 We will parameterize the policy $\pi$ with $\varphi$ and denote $j(\varphi):=j(\pi_{\varphi})$. Then, our goal is to find: $$\varphi ^{*}=\underset{ \varphi }{ \arg\max }\ j(\varphi)$$
+
+---
+> [!outlook] Policy Parametrization
+> We can parametrize the policy as follows:
+> 1. If $\mathcal{A}$ is continuous: $\pi(a|x,\theta):=\mathcal{N}(a;\mu(x,\theta),\Sigma(x,\theta))$. This can be done e.g. using a NN learning $\mu$ and $C:=\sqrt{ \Sigma }$. 
+> 2. If $\mathcal{A}$ is discrete: we can use either catergorical distribution if $\mathcal{A}$ is small or if it is large have: $$\pi(a_{1:k}|x,\theta):=\prod_{i}^{}\pi_{i}(a_{i}|x,a_{1:i-1},\theta)$$
+---
+- **Related definition**: For parameter $\varphi$ let $\Pi_{\varphi}$ be a distribution on the space of trajectories of length $T$ s.t. $$\Pi_{\varphi}(\tau):=\mu(x_{0})\prod_{t=0}^{T}\pi_{\varphi}(a_{t}|x_{t})P(x_{t+1}|x_{t},a_{t})$$
+---
+> [!lemma] Theorem 1
+> Assuming all our functions are regular, $$\nabla_{\varphi}j(\varphi)=\mathbb{E}_{\tau \sim \Pi_{\varphi}}[r(\tau)\cdot \nabla_{\varphi}\log \Pi_{\varphi}(\tau)]=\mathbb{E}_{\tau \sim \Pi_{\varphi}}\left[ r(\tau)\sum_{t=0}^{T} \nabla_{\varphi}\pi(a_{t}|x_{t},\varphi)\right]$$
+
+> [!proof]-
+> We have that assuming all our functions are regular,$$\begin{align}\nabla_{\varphi}j(\varphi)&=\nabla_{\varphi}\int_{T}r(\tau)\Pi_{\varphi}(\tau)\, d\tau \\&=\int_{T}r(\tau)\nabla_{\varphi}\Pi_{\varphi}(\tau)\, d\tau\\&=\int_{T}r(\tau)\Pi_{\varphi}(\tau)\nabla_{\varphi}\log\Pi_{\varphi}(\tau)\, d\tau\\&=\mathbb{E}_{\tau \sim \Pi_{\varphi}}[r(\tau)\cdot \nabla_{\varphi}\log \Pi_{\varphi}(\tau)]\end{align}$$
+---
+> [!outlook] Policy Gradient
+> One drawback we have is that $\nabla _\varphi j$
