@@ -782,3 +782,17 @@ We will parameterize the policy $\pi$ with $\varphi$ and denote $j(\varphi):=j(\
 \end{algorithmic}
 \end{algorithm}
 > ```
+- **Remark**: We can reduce the variance even further using: $$\nabla_{\varphi}j=\mathbb{E}_{\tau \sim \Pi_{\varphi}}\left[ \sum_{t=0}^{T}\gamma^t(G_{t}-b_{t})\nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]$$where $b_{t}:=\frac{1}{T}\sum_{t=0}^{T-1}G_{t}$.
+- **Remark**: REINFORCE is not guaranteed to converge to an optimal policy. Further, policy gradient methods are on-policy.
+---
+###### 7.2.1.3 Actor-Critic Methods
+> [!lemma] Proposition (Advantage Function)
+> For a policy $\pi$, the ***advantage function*** $A^\pi:\mathcal{X}\times \mathcal{A}\to \mathbb{R}$ is defined as: $$A^\pi(x,a):=Q^\pi(x,a)-V^\pi(x)$$
+> Then,
+> 1. $\max_{a}A^\pi(x,a)\geq 0$ for all $x\in \mathcal{X}$.
+> 2. $\pi$ is optimal if and only if for all $x\in \mathcal{X},a\in \mathcal{A}$, $A^\pi(x,a)\leq 0$.
+
+> [!proof]+
+> We have that:
+> 1. As $V^\pi(x):=\mathbb{E}_{a'\sim \pi(\cdot|x)}[Q^\pi(x,a')]$ there exists $a'$ s.t. $Q^\pi(x,a')\geq V^\pi(x)$. Hence, $$\max_{a}A^\pi(x,a)\geq A^\pi(x,a')\geq 0$$
+> 2. From Bellman, $\pi$ is optimal if and only if $\pi =\pi_{V^{\pi}}$, i.e. $$\pi(x):=\underset{ a }{ \arg\max }\ r(x,a)+\gamma \sum_{x'}^{}P(x'|x,a)\cdot V^\pi$$
