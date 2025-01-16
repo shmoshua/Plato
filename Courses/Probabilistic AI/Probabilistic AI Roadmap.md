@@ -791,8 +791,39 @@ We will parameterize the policy $\pi$ with $\varphi$ and denote $j(\varphi):=j(\
 > Then,
 > 1. $\max_{a}A^\pi(x,a)\geq 0$ for all $x\in \mathcal{X}$.
 > 2. $\pi$ is optimal if and only if for all $x\in \mathcal{X},a\in \mathcal{A}$, $A^\pi(x,a)\leq 0$.
+> 3. $\pi_{Q}(x):=\arg\max_{a}A(x,a)$ where $A$ is the advantage function assoiated with $Q$. 
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. As $V^\pi(x):=\mathbb{E}_{a'\sim \pi(\cdot|x)}[Q^\pi(x,a')]$ there exists $a'$ s.t. $Q^\pi(x,a')\geq V^\pi(x)$. Hence, $$\max_{a}A^\pi(x,a)\geq A^\pi(x,a')\geq 0$$
-> 2. From Bellman, $\pi$ is optimal if and only if $\pi =\pi_{V^{\pi}}$, i.e. $$\pi(x):=\underset{ a }{ \arg\max }\ r(x,a)+\gamma \sum_{x'}^{}P(x'|x,a)\cdot V^\pi$$
+> 2. From Bellman, $\pi$ is optimal if and only if $\pi =\pi_{V^{\pi}}$, i.e. $$\pi(x):=\underset{ a }{ \arg\max }\ Q^{*}(x,a)$$Therefore, for all $x\in \mathcal{X}$ and $a\in \mathcal{A}$, $$Q^\pi(x,a)\leq Q^\pi(x,\pi(a))= V^\pi(x)$$Conversely, if $A^\pi(x,a)\leq 0$, then for all $x\in\mathcal{X}$, there exists $\max_{a}A^\pi(x,a)=0$, i.e. $\max_{a}Q^\pi(x,a)=V^\pi(x)$. 
+> 3. We have: $$\arg\max_{a}A(x,a)=\arg\max_{a}Q(x,a)-V(x)=\arg\max_{a}Q(x,a)$$
+---
+> [!lemma] Theorem (Policy Gradient)
+> Assuming all our functions are regular, $$\nabla_{\varphi}j=\sum_{t=0}^{\infty}\mathbb{E}_{x_{t},a_{t}}\left[ \gamma^tQ^{\pi_{\varphi}}(x_{t},a_{t}) \nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]$$
+
+> [!proof]-
+> We have that: $$\begin{align}\nabla_{\varphi}j&=\mathbb{E}_{\tau \sim \Pi_{\varphi}}\left[\sum_{t=0}^{\infty} \gamma^tG_{t} \nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]\\&=\sum_{t=0}^{\infty} \mathbb{E}_{x_{t},a_{t}}\left[\gamma^t\mathbb{E}_{\tau \sim \Pi_{\varphi}}[G_{t}|x_{t},a_{t}] \nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]\\&=\sum_{t=0}^{\infty} \mathbb{E}_{x_{t},a_{t}}\left[\gamma^t \cdot Q^{\pi_{\varphi}}(x_{t},a_{t})\nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]\end{align}$$
+---
+- **Related definition**: The ***occupancy measure*** of policy $\pi$ is defined as $\rho\in M^1(\mathcal{X})$ where: $$\rho_{\pi}(x):=(1-\gamma)\sum_{t=0}^{\infty}\gamma^t\mathbb{P}_{\pi}(X^t=x)$$where: $\int_{\mathcal{X}}^{} \rho_{\pi}(x) \, dx=(1-\gamma)\sum_{t=0}^{\infty}\gamma^t=1$. Let $\rho_{\varphi}:=\rho_{\pi_{\varphi}}$.
+- **Remark**: We can then write the policy gradient theorem as follows: $$\nabla_{\varphi}j=\mathbb{E}_{x\sim\rho_{\varphi},a\sim \pi_{\varphi}(\cdot |x)}[Q^{\pi_{\varphi}}(x,a)\nabla_{\varphi}\log \pi_{\varphi}(a|x)]$$
+---
+> [!outlook] Actor-Critic Method
+> In an actor-critic method, we define:
+> 1. $\pi_{\varphi}$ as an actor (current estimate of the policy)
+> 2. $Q^{\pi_{\varphi}}$ as a critic (value function approximation)
+> 
+> Then, 
+> ```pseudo
+> \begin{algorithm}\caption{OnlineActorCritic()}
+> \begin{algorithmic}
+> \State initialize $\varphi$ and $\theta$
+> \Repeat
+> \State use $\pi_{\varphi}$ to obtain $(x,a,r,x')$
+> \State $\varphi\gets \varphi+\eta\gamma^t Q^{\pi_{\varphi}}(x,a;\theta)\nabla_{\varphi}\log \pi_{\varphi}(a|x)$
+> \State $\theta\gets$
+\Until{converged}
+\end{algorithmic}
+\end{algorithm}
+> ```
+- **Remark**: In Deep RL, neural networks are used to parametrize both actor and critic. 
