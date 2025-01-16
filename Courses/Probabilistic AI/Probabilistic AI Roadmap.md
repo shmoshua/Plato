@@ -727,7 +727,7 @@ Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+
 #### 7.2 Non-Tabular Setting
 ##### 7.2.1 Model-free Reinforcement Learning
 > [!outlook] Tabular RL as Optimization
-> Let's now try to approximate $V^\pi$ using regression. Let $\theta=(\theta_{1},\dots,\theta_{n})$ be the parameters s.t. $V^\pi(x;\theta)=\theta_{x}$. 
+> Let's now try to approximate $V^\pi$ using regression. As a simple example, let $\theta=(\theta_{1},\dots,\theta_{n})$ be the parameters s.t. $V^\pi(x)=\theta_{x}$. 
 > 
 > After a transition $(x,a,r,x')$, we define:
-> 1. $\ell(\theta;x,r,x'):=\frac{1}{2}\left( r+\gamma \overline{\theta}_{x'}-\theta_{x} \right)^{2}$ where $\overline{\theta}:=\theta$ but treated as a constant.
+> 1. the loss $\ell(\eta;x,r,x'):=\frac{1}{2}\left( r+\gamma \theta_{x'}-\theta_{x} \right)^{2}$ where $\overline{\theta}:=\theta$ but treated as a constant.
