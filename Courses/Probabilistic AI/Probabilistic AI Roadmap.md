@@ -760,10 +760,25 @@ We will parameterize the policy $\pi$ with $\varphi$ and denote $j(\varphi):=j(\
 - **Related definition**: For parameter $\varphi$ let $\Pi_{\varphi}$ be a distribution on the space of trajectories of length $T$ s.t. $$\Pi_{\varphi}(\tau):=\mu(x_{0})\prod_{t=0}^{T}\pi_{\varphi}(a_{t}|x_{t})P(x_{t+1}|x_{t},a_{t})$$
 ---
 > [!lemma] Theorem 1
-> Assuming all our functions are regular, $$\nabla_{\varphi}j(\varphi)=\mathbb{E}_{\tau \sim \Pi_{\varphi}}[r(\tau)\cdot \nabla_{\varphi}\log \Pi_{\varphi}(\tau)]=\mathbb{E}_{\tau \sim \Pi_{\varphi}}\left[ r(\tau)\sum_{t=0}^{T} \nabla_{\varphi}\pi(a_{t}|x_{t},\varphi)\right]$$
+> Assuming all our functions are regular, $$\nabla_{\varphi}j=\mathbb{E}_{\tau \sim \Pi_{\varphi}}[r(\tau)\cdot \nabla_{\varphi}\log \Pi_{\varphi}(\tau)]=\mathbb{E}_{\tau \sim \Pi_{\varphi}}\left[ r(\tau)\sum_{t=0}^{T} \nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]$$
 
 > [!proof]-
 > We have that assuming all our functions are regular,$$\begin{align}\nabla_{\varphi}j(\varphi)&=\nabla_{\varphi}\int_{T}r(\tau)\Pi_{\varphi}(\tau)\, d\tau \\&=\int_{T}r(\tau)\nabla_{\varphi}\Pi_{\varphi}(\tau)\, d\tau\\&=\int_{T}r(\tau)\Pi_{\varphi}(\tau)\nabla_{\varphi}\log\Pi_{\varphi}(\tau)\, d\tau\\&=\mathbb{E}_{\tau \sim \Pi_{\varphi}}[r(\tau)\cdot \nabla_{\varphi}\log \Pi_{\varphi}(\tau)]\end{align}$$
 ---
 > [!outlook] Policy Gradient
-> One drawback we have is that $\nabla _\varphi j$
+> One drawback we have is that $\nabla _\varphi j$ has high variance despite being unbiased. Hence, we can introduce baselines:
+> 
+> We have that for $b\in \mathbb{R}$, $$\mathbb{E}_{\tau \sim \Pi_{\varphi}}[b\nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)]=b\cdot \mathbb{E}_{\tau \sim \Pi_{\varphi}}[\nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)]=b\cdot \nabla_{\varphi}1=0$$Hence, $$\nabla_{\varphi}j=\mathbb{E}_{\tau \sim \Pi_{\varphi}}\left[ r(\tau)\sum_{t=0}^{T} \nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]=\mathbb{E}_{\tau \sim \Pi_{\varphi}}\left[ \sum_{t=0}^{T} (r(\tau)-b(\tau_{0:t-1}))\nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]$$where we define: $b(\tau_{0:t-1}):=\sum_{t'=0}^{t-1}\gamma^{t'}r_{t'}$. Therefore, $$\begin{align}\nabla_{\varphi}j&=\mathbb{E}_{\tau \sim \Pi_{\varphi}}\left[ \sum_{t=0}^{T} (r(\tau)-b(\tau_{0:t-1}))\nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]\\&=\mathbb{E}_{\tau \sim \Pi_{\varphi}}\left[ \sum_{t=0}^{T} \left( \sum_{t'=t}^{T}\gamma^{t'}r_{t'}\right)\nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]\\&=\mathbb{E}_{\tau \sim \Pi_{\varphi}}\left[ \sum_{t=0}^{T}\gamma^tG_{t}\nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)\right]\end{align}$$where $G_{t}:=\sum_{t'=t}^{T}\gamma^{t'-t}r_{t'}$. Hence,
+> ```pseudo
+> \begin{algorithm}\caption{REINFORCE($(\eta)$)}
+> \begin{algorithmic}
+> \State initialize $\varphi$
+> \While{true}
+> \State generate a trajectory $\tau\in \Pi_{\varphi}$
+> \For{$t=0,\dots,T$}
+> \State $\varphi\gets \varphi+\eta\gamma^tG_{t}\nabla_{\varphi}\log\pi(a_{t}|x_{t},\varphi)$
+\EndFor
+> \EndWhile
+\end{algorithmic}
+\end{algorithm}
+> ```
