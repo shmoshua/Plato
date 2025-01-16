@@ -868,7 +868,7 @@ How do we learn the reward function irl?
 > For two trajectories $\tau,\tau'$, we try to find $\widehat{r}$ $$\widehat{P}(\tau,\tau'):=\frac{\exp(\widehat{r}(\tau))}{\exp(\widehat{r}(\tau))+\exp(\widehat{r}(\tau'))}$$
 ---
 ##### 7.2.2 Model-Based Reinforcement Learning
-###### 7.2.2.1 Planning
+###### 7.2.2.1 Planning - Known Dynamics
 > [!outlook] Receding Horizon/Model Predictive Control
 > Assume we have that the transition is deterministic, i.e. $p:\mathcal{X}\times \mathcal{A}\to \mathcal{X}$, which is known.
 > 
@@ -886,5 +886,10 @@ How do we learn the reward function irl?
 > By considering $x_{\tau}$ as a deterministic function that depends on $a_{t:\tau-1}$, our objective function can be written as: $$J_{H}(a_{t:t-H+1}):=\sum_{\tau=t}^{t+H-1}\gamma^{\tau}r(x_{\tau}(a_{t:\tau-1}),a_{\tau})$$If the dynamics and reward are differentiable, we can analytically compute the gradient. 
 - **Remark**: A random shooting method is a heuristic that randomly generates multiple candidates for $a_{t:t-H+1}$ and finds the maximum. 
 - **Remark**: If the agent has an access to the value function, we can use the objective: $$J_{H}(a_{t:t-H+1}):=\sum_{\tau=t}^{t+H-1}\gamma^{\tau-t}r(x_{\tau}(a_{t:\tau-1}),a_{\tau})+\gamma^H V(x_{t+H})$$Notice that if $H=1$, then this is the greedy policy. 
-- **Remark**: If the transition is stochastic, we can use: $$J_{H}(a_{t:t-H+1}):=\mathbb{E}_{x_{t+1:t+H}}\left[ \left. \sum_{\tau=t}^{t+H-1}\gamma^{\tau-t}r(x_{\tau},a_{\tau})+\gamma^H V(x_{t+H})  \right|a_{t:t-H+1} \right]$$
+- **Remark**: If the transition is stochastic, we can use: $$J_{H}(a_{t:t-H+1}):=\mathbb{E}_{x_{t+1:t+H}}\left[ \left. \sum_{\tau=t}^{t+H-1}\gamma^{\tau-t}r(x_{\tau},a_{\tau})+\gamma^H V(x_{t+H})  \right|a_{t:t-H+1} \right]$$However, it is not easy to approximate the integral as the distribution depend on the actions. 
+- **Remark**: If $p$ is reparametrizable, i.e. we can write $p(x_{t},a_{t})=f(x_{t},a_{t},\varepsilon_{t})$ where $f$ is deterministic and $\varepsilon_{t}$ is an independent random variable, then we can use: $$\widehat{J}_{H}(a_{t:t-H+1}):=\frac{1}{m}\sum_{i=1}^{m}  \sum_{\tau=t}^{t+H-1}\gamma^{\tau-t}r(x_{\tau}(a_{t:\tau-1},\varepsilon^{(i)}_{t:\tau-1}),a_{\tau})+\gamma^H V(x_{t+H}) $$by sampling $\varepsilon^{(i)}$ from the distribution. 
 ---
+> [!outlook] Parametrized Policy Method
+> We can also consider a rich family of parametrized policies, we can compute: $$J(\theta):=\mathbb{E}_{x_{0}\sim \mu}\left[ \left. \sum_{\tau=0}^{H-1}\gamma^\tau r_{\tau}+\gamma^HQ(x_{H},\pi_{\theta}(x_{H})) \right|\theta \right]$$
+---
+###### 7.2.2.2 Unknown Dynamics and Known Rewards
