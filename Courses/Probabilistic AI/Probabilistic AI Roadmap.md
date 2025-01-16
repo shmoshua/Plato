@@ -868,3 +868,23 @@ How do we learn the reward function irl?
 > For two trajectories $\tau,\tau'$, we try to find $\widehat{r}$ $$\widehat{P}(\tau,\tau'):=\frac{\exp(\widehat{r}(\tau))}{\exp(\widehat{r}(\tau))+\exp(\widehat{r}(\tau'))}$$
 ---
 ##### 7.2.2 Model-Based Reinforcement Learning
+###### 7.2.2.1 Planning
+> [!outlook] Receding Horizon/Model Predictive Control
+> Assume we have that the transition is deterministic, i.e. $p:\mathcal{X}\times \mathcal{A}\to \mathcal{X}$, which is known.
+> 
+> ```pseudo
+> \begin{algorithm}\caption{MPC$(H)$}
+> \begin{algorithmic}
+> \For{$t=0,\dots,\infty$}
+> \State observe $x_{0}$
+> \State find $a_{t:t+H -1}\gets \arg\max_{a\in \mathcal{A}^{H}} \sum_{\tau=t}^{t+H-1}\gamma^{\tau}r(x_{\tau},a_{\tau})$ where $x_{\tau+1}:=f(x_{\tau},a_{\tau})$
+> \State carry out action $a_{t}$
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+> ```
+> By considering $x_{\tau}$ as a deterministic function that depends on $a_{t:\tau-1}$, our objective function can be written as: $$J_{H}(a_{t:t-H+1}):=\sum_{\tau=t}^{t+H-1}\gamma^{\tau}r(x_{\tau}(a_{t:\tau-1}),a_{\tau})$$If the dynamics and reward are differentiable, we can analytically compute the gradient. 
+- **Remark**: A random shooting method is a heuristic that randomly generates multiple candidates for $a_{t:t-H+1}$ and finds the maximum. 
+- **Remark**: If the agent has an access to the value function, we can use the objective: $$J_{H}(a_{t:t-H+1}):=\sum_{\tau=t}^{t+H-1}\gamma^{\tau-t}r(x_{\tau}(a_{t:\tau-1}),a_{\tau})+\gamma^H V(x_{t+H})$$Notice that if $H=1$, then this is the greedy policy. 
+- **Remark**: If the transition is stochastic, we can use: $$J_{H}(a_{t:t-H+1}):=\mathbb{E}_{x_{t+1:t+H}}\left[ \left. \sum_{\tau=t}^{t+H-1}\gamma^{\tau-t}r(x_{\tau},a_{\tau})+\gamma^H V(x_{t+H})  \right|a_{t:t-H+1} \right]$$
+---
