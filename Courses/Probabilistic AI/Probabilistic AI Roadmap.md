@@ -727,7 +727,18 @@ Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+
 #### 7.2 Non-Tabular Setting
 ##### 7.2.1 Model-free Reinforcement Learning
 > [!outlook] Tabular RL as Optimization
-> Let's now try to approximate $V^\pi$ using regression. As a simple example, let $\theta=(\theta_{1},\dots,\theta_{n})$ be the parameters s.t. $V^\pi(x)=\theta_{x}$. 
+> Let's now try to find $V^\pi$ using regression. As a simple example, let $\theta=(\theta_{1},\dots,\theta_{n})$ be the parameters s.t. $\widehat{V}^\pi(x)=\theta_{x}$. 
 > 
 > After a transition $(x,a,r,x')$, we define:
-> 1. the loss $\ell(\eta;x,r,x'):=\frac{1}{2}\left( r+\gamma \theta_{x'}-\theta_{x} \right)^{2}$ where $\overline{\theta}:=\theta$ but treated as a constant.
+> 1. the loss $\ell(\theta;x,r,x'):=\frac{1}{2}\left( r+\gamma \overline{\theta}_{x'}-\theta_{x} \right)^{2}$ where $\overline{\theta}$ is a constant copy of $\theta$ right after the transition. 
+> 2. the gradient of $\ell$ is given by: $$(\nabla_{\theta}\ell)_{x}=\theta_{x}-(r+\gamma \overline{\theta}_{x'})$$and is called ***TD-error***. Then, $$\begin{align}\widehat{V}^\pi(x)=\theta_{x}&\gets \theta_{x}-\alpha_{t}(\nabla_{\theta}\ell)_{x}\\&=(1-\alpha_{t})\theta_{x}+\alpha_{t}(r+\gamma\overline{\theta}_{x'})\end{align}$$which coincides with the TD-learning update rule. Hence, TD-learning can be viewed as SGD.
+---
+> [!outlook] Q-Learning as Function Approximation
+> Using a similar idea, we can assume that: $$\widehat{Q}^{*}(x,a;\theta):=\theta^\top \phi(x,a)$$where $\phi:\mathcal{X}\times \mathcal{A}\to \mathbb{R}^d$ is a feature map. Then, after a transition $(x,a,r,x')$, we can write: 
+> 1. the loss $\ell(\theta;x,a,r,x'):=\frac{1}{2}(r+\gamma\max_{a'}\widehat{Q}^{*}(x',a';\overline{\theta})-\widehat{Q}^{*}(x,a;\theta))^{2}$ which gives us: $$\nabla_{\theta}\ell:=-\underbrace{ (r+\gamma\max_{a'}\widehat{Q}^{*}(x',a';\overline{\theta})-\widehat{Q}^{*}(x,a;\theta)) }_{ =:\delta_{B} }\cdot \nabla_{\theta}\widehat{Q}^{*}(x,a;\theta)$$and we can again express Q-learning as SGD (or SSGD to be more exact): $$\begin{align}\theta&\gets\theta-\alpha_{t}\nabla_{\theta}\ell\\&=\theta+\alpha_{t}\delta_{B}\nabla_{\theta}\widehat{Q}^{*}(x,a;\theta)\\&=\theta+\alpha_{t}\delta_{B}\phi(x,a)\end{align}$$
+- **Remark**: The standard SSGD is quite slow as the target to optimize changes each step!
+
+---
+> [!outlook] How to deal with SSGD
+> There are several methods to remedy the problem:
+> 1. Stabilizing optimization targets: In DQN, we maintain a data set called ***replay buffer*** and the loss is given by: $$\ell_{\text{DQN}}(\theta;x,a,r,x'):=\frac{1}{2}(r+\gamma\max_{a'}\widehat{Q}^{*}(x',a';\overline{\theta})-\widehat{Q}^{*}(x,a;\theta))^{2}$$
