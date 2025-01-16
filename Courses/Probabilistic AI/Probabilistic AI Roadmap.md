@@ -726,6 +726,7 @@ Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+
 ---
 #### 7.2 Non-Tabular Setting
 ##### 7.2.1 Model-free Reinforcement Learning
+###### 7.2.1.1 Parameterized Value Approximation
 > [!outlook] Tabular RL as Optimization
 > Let's now try to find $V^\pi$ using regression. As a simple example, let $\theta=(\theta_{1},\dots,\theta_{n})$ be the parameters s.t. $\widehat{V}^\pi(x)=\theta_{x}$. 
 > 
@@ -741,4 +742,11 @@ Notice that for the value estimation using: $$V^\pi_{\text{new}}(x)=r(x,\pi(x))+
 ---
 > [!outlook] How to deal with SSGD
 > There are several methods to remedy the problem:
-> 1. Stabilizing optimization targets: In DQN, we maintain a data set called ***replay buffer*** and the loss is given by: $$\ell_{\text{DQN}}(\theta;x,a,r,x'):=\frac{1}{2}(r+\gamma\max_{a'}\widehat{Q}^{*}(x',a';\overline{\theta})-\widehat{Q}^{*}(x,a;\theta))^{2}$$
+> 1. **Stabilizing optimization targets**: In DQN, we maintain a data set $\mathcal{D}$ called ***replay buffer*** and the loss is given by: $$\ell_{\text{DQN}}(\theta;x,a,r,x'):=\frac{1}{2}\sum_{(x,a,r,x')\in \mathcal{D}}^{}(r+\gamma\max_{a'}\widehat{Q}^{*}(x',a';\overline{\theta})-\widehat{Q}^{*}(x,a;\theta))^{2}$$
+> 2. **Maximization Bias**: Updating the parameters only after $\left| \mathcal{D} \right|$ observations can lead to maximization bias where the action $a'$ that maximizes $\widehat{Q}^{*}(x',a';\overline{\theta})$ induces a bias. Therefore, in DDQN, $$\ell_{\text{DDQN}}(\theta;x,a,r,x'):=\frac{1}{2}\sum_{(x,a,r,x')\in \mathcal{D}}^{}(r+\gamma\max_{a'}\widehat{Q}^{*}(x',a^{*}(x';\theta);\overline{\theta})-\widehat{Q}^{*}(x,a;\theta))^{2}$$where $a^{*}(x';\theta):=\arg\max_{a'}\widehat{Q}^{*}(x',a';\theta)$. Hence, the evaluation of the target is consistent with the update of the estimate. 
+- **Remark**: Q-learning implicitly computes the maximum of the estimate over all actions. Hence, this can be intractable if we have a large action space. 
+---
+###### 7.2.1.2 Parametrized Policy Approximation
+- **Related definition**: For a policy $\pi$, the ***policy value function*** is given by: $$j(\pi):=\mathbb{E}_{x_{0}\sim \mu}[V^\pi(x_{0})]$$
+
+We will parameterize the policy $\pi$ with $\varphi$ and denote $j(\varphi):=j(\pi_{\varphi})$. Then, our goal is to find: $$\varphi ^{*}=\underset{ \varphi }{ \arg\max }\ j(\varphi)$$
