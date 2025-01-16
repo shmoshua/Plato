@@ -69,7 +69,7 @@
 ---
 ##### Examples 
 > [!h] Example 1 (Gaussian Proposals)
-> Assume that $R(x'|x):=\mathcal{N}(x';x,\tau I)$ for all $x,x'\in \mathcal{S}$. Then, $$\frac{R(x|x')}{R(x|x')}=\exp \left( -\frac{\|x'-x\|^2}{2\tau}+\frac{\|x'-x\|^2}{2\tau} \right)=1 $$Hence, 
+> Assume that $R(x'|x):=\mathcal{N}(x';x,\tau I)$ for all $x,x'\in \mathcal{S}$. Then, $$\frac{R(x|x')}{R(x'|x)}=\exp \left( -\frac{\|x'-x\|^2}{2\tau}+\frac{\|x'-x\|^2}{2\tau} \right)=1 $$Hence, 
 > 1. $\alpha(x'|x)=\min\{ 1,\exp(f(x)-f(x')) \}$
 
 ^28271d

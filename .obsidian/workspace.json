@@ -53,10 +53,14 @@
             "id": "b32d5576afc99c70",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "ML Theory/Markov Chain Monte Carlo.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Markov Chain Monte Carlo"
             }
           }
         ],
@@ -268,10 +272,11 @@
   },
   "active": "464ee18910056598",
   "lastOpenFiles": [
+    "ML Theory/Markov Chain Monte Carlo.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Probability Theory/Characteristic Function.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Information Theory/Mutual Information.md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Entropy.md",
@@ -281,7 +286,6 @@
     "Probability Theory/Gibbs Distribution.md",
     "ML Theory/Reinforcement Learning/Markov Decision Process.md",
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
-    "ML Theory/Markov Chain Monte Carlo.md",
     "Algorithms/Monotone Submodular Function.md",
     "Untitled.md",
     "Functional Analysis/Space of Probability Measures.md",
