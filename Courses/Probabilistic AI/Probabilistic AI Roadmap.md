@@ -862,3 +862,9 @@ We will parameterize the policy $\pi$ with $\varphi$ and denote $j(\varphi):=j(\
 - **Remark**: This can be further improved by TD3 by using two critic networks to target the maximization bias. 
 - **Remark**: Can even boost the optimizing function with the entropy to encourage more exploration. This is called ***soft actor critic (SAC)***.
 ---
+###### 7.2.1.5 Learning from Preference
+How do we learn the reward function irl?
+> [!outlook] Bradley-Terry Model
+> For two trajectories $\tau,\tau'$, we try to find $\widehat{r}$ $$\widehat{P}(\tau,\tau'):=\frac{\exp(\widehat{r}(\tau))}{\exp(\widehat{r}(\tau))+\exp(\widehat{r}(\tau'))}$$
+---
+##### 7.2.2 Model-Based Reinforcement Learning
