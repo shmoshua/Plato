@@ -128,15 +128,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Probability Theory/Characteristic Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expected Value"
+              "title": "Characteristic Function"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -280,14 +281,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "464ee18910056598",
+  "active": "4c1b7de538ea8384",
   "lastOpenFiles": [
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Probability Theory/Expected Value.md",
+    "Probability Theory/Gibbs Distribution.md",
+    "Probability Theory/Characteristic Function.md",
     "ML Theory/Reinforcement Learning/Markov Decision Process.md",
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
     "ML Theory/Markov Chain Monte Carlo.md",
-    "Probability Theory/Expected Value.md",
     "Algorithms/Monotone Submodular Function.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Untitled.md",
     "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Mutual Information.md",
@@ -301,14 +304,12 @@
     "Probability Theory/Variance.md",
     "ML Theory/Laplace Approximation.md",
     "ML Theory/Variational Inference.md",
-    "Probability Theory/Gibbs Distribution.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Measure Theory/Diffeomorphism.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "Analysis/Laplace Transform.md",
-    "Measure Theory/Lebesgue Measure.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
