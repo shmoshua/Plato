@@ -269,8 +269,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ed1a9be185e2aaac",
+  "active": "464ee18910056598",
   "lastOpenFiles": [
+    "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
     "ML Theory/Markov Chain Monte Carlo.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "ML Theory/Reinforcement Learning/Markov Decision Process.md",
@@ -284,7 +285,6 @@
     "Probability Theory/Covariance.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
-    "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
     "Algorithms/Monotone Submodular Function.md",
     "Untitled.md",
     "Functional Analysis/Space of Probability Measures.md",
