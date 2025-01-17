@@ -153,6 +153,20 @@
               "icon": "lucide-file",
               "title": "Kernel"
             }
+          },
+          {
+            "id": "0ef4d914ac4ffb91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Regular Ideal.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Regular Ideal"
+            }
           }
         ],
         "currentTab": 5
@@ -301,6 +315,16 @@
   },
   "active": "1d7f2140cc64698c",
   "lastOpenFiles": [
+    "Functional Analysis/Regular Ideal.md",
+    "hilbert subspace.md",
+    "Analysis/Kernel.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Analysis/Banach Space.md",
+    "Functional Analysis/Guelfand Spectrum.md",
+    "Algebra/Variety.md",
+    "Analysis/Hilbert Space.md",
     "Probability Theory/Covariance.md",
     "Probability Theory/Gaussian Distribution.md",
     "ML Theory/Markov Chain Monte Carlo.md",
@@ -317,17 +341,7 @@
     "Probability Theory/Expected Value.md",
     "Algorithms/Monotone Submodular Function.md",
     "Untitled.md",
-    "Functional Analysis/Space of Probability Measures.md",
     "ML Theory/Reinforcement Learning",
-    "Untitled 1.md",
-    "Probability Theory/Independence.md",
-    "ML Theory/Neural Network.md",
-    "Markov Processes/Stationary Distribution.md",
-    "ML Theory/Laplace Approximation.md",
-    "ML Theory/Variational Inference.md",
-    "ML Theory/Maximum A Posteriori Estimation.md",
-    "Markov Processes/Markov Chain.md",
-    "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
