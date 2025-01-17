@@ -155,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -299,8 +299,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1d7f2140cc64698c",
+  "active": "bb252f0c26ef5e81",
   "lastOpenFiles": [
+    "Probability Theory/Covariance.md",
     "Probability Theory/Gaussian Distribution.md",
     "ML Theory/Markov Chain Monte Carlo.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
@@ -312,7 +313,6 @@
     "Information Theory/Mutual Information.md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Entropy.md",
-    "Probability Theory/Covariance.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
     "Algorithms/Monotone Submodular Function.md",
