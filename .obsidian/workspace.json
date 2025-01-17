@@ -146,16 +146,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Covariance.md",
+                "file": "Analysis/Kernel.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Covariance"
+              "title": "Kernel"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -299,7 +299,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bb252f0c26ef5e81",
+  "active": "1d7f2140cc64698c",
   "lastOpenFiles": [
     "Probability Theory/Covariance.md",
     "Probability Theory/Gaussian Distribution.md",
