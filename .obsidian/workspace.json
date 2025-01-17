@@ -63,8 +63,7 @@
               "title": "Markov Chain Monte Carlo"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -270,12 +269,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "464ee18910056598",
+  "active": "ed1a9be185e2aaac",
   "lastOpenFiles": [
+    "ML Theory/Markov Chain Monte Carlo.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "ML Theory/Reinforcement Learning/Markov Decision Process.md",
     "Probability Theory/Gibbs Distribution.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "ML Theory/Markov Chain Monte Carlo.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Probability Theory/Characteristic Function.md",
