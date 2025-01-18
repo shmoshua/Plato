@@ -160,16 +160,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Regular Ideal.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Regular Ideal"
+              "title": "Expected Value"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -313,10 +313,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bb252f0c26ef5e81",
+  "active": "0ef4d914ac4ffb91",
   "lastOpenFiles": [
-    "ML Theory/Maximum A Posteriori Estimation.md",
+    "Functional Analysis/Regular Ideal.md",
     "Courses/Probabilistic AI/Homework 1.md",
+    "ML Theory/Maximum A Posteriori Estimation.md",
     "Analysis/Kernel.md",
     "Probability Theory/Gaussian Distribution.md",
     "Controls/Impulse Transition Matrix and Impulse Response Matrix.md",
@@ -325,7 +326,6 @@
     "ML Theory/Reinforcement Learning/Markov Decision Process.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/Dual Space.md",
-    "Functional Analysis/Regular Ideal.md",
     "hilbert subspace.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
