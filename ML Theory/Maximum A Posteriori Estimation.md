@@ -8,3 +8,6 @@
 ^010b53
 
 - **Remark**: $\underset{ \theta\in \Theta }{ \arg\max }\ p(x_{1},\dots,x_{n}|\theta )p_{\Theta}(\theta)=\underset{ \theta\in \Theta }{ \arg\max }\ \log p(x_{1},\dots,x_{n}|\theta )+\log p_{\Theta}(\theta)$. ^935410
+
+
+$$\begin{align}D(q\|p)&=\int_{\mathbb{R}^3}^{}(\log q(\theta,r)-\log p(\theta,r))q(\theta,r)  \, d(\theta,r)\\&=\int_{\mathbb{R}^3}^{}(\log q_{\theta}(\theta)+\log q_{\alpha}(\alpha)-\log p(\theta))q(\theta,r)  \, d(\theta,r) \end{align}$$
