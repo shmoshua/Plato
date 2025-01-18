@@ -146,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Dual Space.md",
+                "file": "Analysis/Kernel.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Dual Space"
+              "title": "Kernel"
             }
           },
           {
@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -313,9 +313,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1d7f2140cc64698c",
+  "active": "bb252f0c26ef5e81",
   "lastOpenFiles": [
     "Analysis/Kernel.md",
+    "Analysis/Hilbert Space.md",
+    "Functional Analysis/Dual Space.md",
     "Functional Analysis/Regular Ideal.md",
     "hilbert subspace.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -324,7 +326,6 @@
     "Analysis/Banach Space.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Variety.md",
-    "Analysis/Hilbert Space.md",
     "Probability Theory/Covariance.md",
     "Probability Theory/Gaussian Distribution.md",
     "ML Theory/Markov Chain Monte Carlo.md",
@@ -340,7 +341,6 @@
     "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
     "Algorithms/Monotone Submodular Function.md",
-    "Untitled.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
