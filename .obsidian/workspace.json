@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "ML Theory/Maximum A Posteriori Estimation.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Maximum A Posteriori Estimation"
             }
           }
         ],
@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "ML Theory/Maximum A Posteriori Estimation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Maximum A Posteriori Estimation"
             }
           },
           {
@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -313,13 +313,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1d7f2140cc64698c",
+  "active": "bb252f0c26ef5e81",
   "lastOpenFiles": [
-    "Analysis/Inner Product Space.md",
+    "Analysis/Kernel.md",
     "Probability Theory/Gaussian Distribution.md",
+    "ML Theory/Maximum A Posteriori Estimation.md",
+    "Controls/Impulse Transition Matrix and Impulse Response Matrix.md",
+    "Analysis/Inner Product Space.md",
     "ML Theory/Markov Chain Monte Carlo.md",
     "ML Theory/Reinforcement Learning/Markov Decision Process.md",
-    "Analysis/Kernel.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/Dual Space.md",
     "Functional Analysis/Regular Ideal.md",
@@ -339,8 +341,6 @@
     "Information Theory/Mutual Information.md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Entropy.md",
-    "Probability Theory/Variance.md",
-    "Probability Theory/Expected Value.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

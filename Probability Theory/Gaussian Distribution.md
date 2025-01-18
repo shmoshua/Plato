@@ -88,7 +88,4 @@ This proves the statement.
 > 1. If $X\sim \mathcal{N}(\mu_{0},I)$ and $Y\sim \mathcal{N}(\mu_{1},I)$, $$D(p_{X}\|p_{Y})=\frac{ 1}{2}\left\| \mu_{0}-\mu_{1} \right\| ^{2}_{2}$$
 > 2. If $X\sim \mathcal{N}(\mu,\text{diag}(\sigma_{1}^{2},\dots,\sigma_{d}^{2}))$ and $Y\sim \mathcal{N}(0,I)$, then: $$D(p_{X}\|p_{Y})=\frac{1}{2}\left( \|\mu\|^{2}_{2}+\sum_{i=1}^{d}\sigma_{i}^{2}-d+\sum_{i=1}^{d}\log \sigma_{i}^{2} \right)=\frac{1}{2}\sum_{i=1}^{d}\left( \mu^{2}_{i}+\sigma_{i}^{2}-1+\log \sigma_{i}^{2} \right) $$
 ---
-
-Let $\mathcal{H}$ be the RKHS of $k$, which exists by Mercer. Then, we can directly show that $g$ is a Hilbert space kernel. 
-
-$$\begin{align}\braket{ g(\cdot ,x) , g(\cdot ,y) }_{\mathcal{H}} &=\left\langle k(\cdot ,x)-\frac{k(0,x)}{k(0,0)}k(\cdot ,0) ,k(\cdot ,y)-\frac{k(0,y)}{k(0,0)}k(\cdot ,0) \right\rangle_{\mathcal{H}}\\&=k(x,y)-\frac{k(0,x)}{k(0,0)}k(0,y)-\frac{k(0,y)}{k(0,0)}k(x,0)+\frac{k(0,y)k(0,x)}{k(0,0)} \\&=k(x,y)-\frac{k(0,x)k(0,y)}{k(0,0)}\end{align}$$Hence, by taking $\varphi:\mathbb{R}\to \mathcal{H},x\mapsto g(\cdot,x)$ as the feature map, $g$ is a kernel function.
+Using $y\sim \mathcal{N}(0,1)$, we have that: $$\begin{align}\nabla_{\mu}\mathbb{E}_{x}[\sigma(wx)]&=\nabla_{\mu}\mathbb{E}_{y}[\sigma(w(y+\mu))]\\&=\int_{\mathbb{R}} \nabla_{\mu}\sigma(w(y+\mu))p(y)  \, dy \\&=w\int_{y> -\mu} p(y)  \, dy \\&=w(1-F(-\mu))\end{align}$$
