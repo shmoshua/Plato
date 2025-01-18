@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Maximum A Posteriori Estimation.md",
+                "file": "Courses/Probabilistic AI/Homework 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Maximum A Posteriori Estimation"
+              "title": "Homework 1"
             }
           }
         ],
@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Maximum A Posteriori Estimation.md",
+                "file": "Courses/Probabilistic AI/Homework 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Maximum A Posteriori Estimation"
+              "title": "Homework 1"
             }
           },
           {
@@ -315,9 +315,10 @@
   },
   "active": "bb252f0c26ef5e81",
   "lastOpenFiles": [
+    "ML Theory/Maximum A Posteriori Estimation.md",
+    "Courses/Probabilistic AI/Homework 1.md",
     "Analysis/Kernel.md",
     "Probability Theory/Gaussian Distribution.md",
-    "ML Theory/Maximum A Posteriori Estimation.md",
     "Controls/Impulse Transition Matrix and Impulse Response Matrix.md",
     "Analysis/Inner Product Space.md",
     "ML Theory/Markov Chain Monte Carlo.md",
@@ -340,7 +341,6 @@
     "Probability Theory/Characteristic Function.md",
     "Information Theory/Mutual Information.md",
     "Information Theory/Relative Entropy.md",
-    "Information Theory/Entropy.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
