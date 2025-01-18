@@ -160,12 +160,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Homework 3.md",
+                "file": "Probability Theory/Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homework 3"
+              "title": "Distribution"
             }
           }
         ],
@@ -313,10 +313,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b32d5576afc99c70",
+  "active": "0ef4d914ac4ffb91",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Homework 1.md",
     "Courses/Probabilistic AI/Homework 3.md",
+    "Courses/Probabilistic AI/Homework 1.md",
     "Probability Theory/Expected Value.md",
     "Functional Analysis/Regular Ideal.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
