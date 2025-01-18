@@ -146,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Functional Analysis/Dual Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Kernel"
+              "title": "Dual Space"
             }
           },
           {
@@ -315,9 +315,9 @@
   },
   "active": "1d7f2140cc64698c",
   "lastOpenFiles": [
+    "Analysis/Kernel.md",
     "Functional Analysis/Regular Ideal.md",
     "hilbert subspace.md",
-    "Analysis/Kernel.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Functional Analysis/C*-Algebra.md",
