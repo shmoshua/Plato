@@ -91,4 +91,4 @@ This proves the statement.
 
 Let $\mathcal{H}$ be the RKHS of $k$, which exists by Mercer. Then, we can directly show that $g$ is a Hilbert space kernel. 
 
-$$\begin{align}\braket{ g(\cdot ,x) , g(\cdot ,y) } &=\left\langle k(\cdot ,x)-\frac{k(0,x)}{k(0,0)}k(\cdot ,0) ,k(\cdot ,x)-\frac{k(0,x)}{k(0,0)}k(\cdot ,0) \right\rangle \end{align}$$
+$$\begin{align}\braket{ g(\cdot ,x) , g(\cdot ,y) }_{\mathcal{H}} &=\left\langle k(\cdot ,x)-\frac{k(0,x)}{k(0,0)}k(\cdot ,0) ,k(\cdot ,y)-\frac{k(0,y)}{k(0,0)}k(\cdot ,0) \right\rangle_{\mathcal{H}}\\&=k(x,y)-\frac{k(0,x)}{k(0,0)}k(0,y)-\frac{k(0,y)}{k(0,0)}k(x,0)+\frac{k(0,y)k(0,x)}{k(0,0)} \\&=k(x,y)-\frac{k(0,x)k(0,y)}{k(0,0)}\end{align}$$Hence, by taking $\varphi:\mathbb{R}\to \mathcal{H},x\mapsto g(\cdot,x)$ as the feature map, $g$ is a kernel function.

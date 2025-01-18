@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -313,8 +313,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bb252f0c26ef5e81",
+  "active": "1d7f2140cc64698c",
   "lastOpenFiles": [
+    "Analysis/Inner Product Space.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "ML Theory/Markov Chain Monte Carlo.md",
+    "ML Theory/Reinforcement Learning/Markov Decision Process.md",
     "Analysis/Kernel.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/Dual Space.md",
@@ -327,11 +331,8 @@
     "Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Variety.md",
     "Probability Theory/Covariance.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "ML Theory/Markov Chain Monte Carlo.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
-    "ML Theory/Reinforcement Learning/Markov Decision Process.md",
     "Probability Theory/Gibbs Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Probability Theory/Characteristic Function.md",
@@ -340,7 +341,6 @@
     "Information Theory/Entropy.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Expected Value.md",
-    "Algorithms/Monotone Submodular Function.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
