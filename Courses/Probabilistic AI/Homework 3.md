@@ -1,0 +1,3 @@
+##### Exercise 2
+1. We have that: $$\begin{align}\psi(f):=\log p(f|x_{1:n},y_{1:n})&=\log p(y_{1:n}|f,x_{1:n})+\log p(f|x_{1:n})+C\\&=\log p(y_{1:n}|f,x_{1:n})-\frac{n}{2}\log 2\pi-\frac{1}{2}\log \det K-\frac{1}{2}(f^\top K^{-1}f)+C\end{align}$$Then, $$\nabla_{f} \psi=\nabla_{f}\log p(y_{1:n}|f,x_{1:n})-K^{-1}f$$and $$\nabla_{f}\nabla \psi=\nabla_{f}\nabla \log p(y_{1:n}|f,x_{1:n})-K^{-1}$$Hence, $\Lambda:=K^{-1}-\nabla_{f}\nabla \log p(y_{1:n}|f,x_{1:n})-K^{-1}$.
+2. We have that for $k(x,x')=x^\top x'$, $K=XX^\top$. Further, $$\log p(y_{1:n}|f,x_{1:n})=\sum_{i=1}^{n}\log\sigma(y_{i}f(x_{i}))$$Hence, $$\nabla_{f}\log p(y_{1:n}|f,x_{1:n})=-\sum_{i=1}^{n} \frac{y_{i}\sigma(y_{i}f(x_{i}))^{2}}{} $$

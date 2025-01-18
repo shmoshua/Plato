@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Homework 1.md",
+                "file": "Courses/Probabilistic AI/Homework 3.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homework 1"
+              "title": "Homework 3"
             }
           }
         ],
@@ -160,12 +160,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Courses/Probabilistic AI/Homework 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expected Value"
+              "title": "Homework 3"
             }
           }
         ],
@@ -313,10 +313,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0ef4d914ac4ffb91",
+  "active": "b32d5576afc99c70",
   "lastOpenFiles": [
-    "Functional Analysis/Regular Ideal.md",
     "Courses/Probabilistic AI/Homework 1.md",
+    "Courses/Probabilistic AI/Homework 3.md",
+    "Probability Theory/Expected Value.md",
+    "Functional Analysis/Regular Ideal.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
     "Analysis/Kernel.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -339,8 +341,6 @@
     "Probability Theory/Gibbs Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Probability Theory/Characteristic Function.md",
-    "Information Theory/Mutual Information.md",
-    "Information Theory/Relative Entropy.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
