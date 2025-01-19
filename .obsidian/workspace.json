@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Maximum A Posteriori Estimation.md",
+                "file": "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Maximum A Posteriori Estimation"
+              "title": "Partially Observable Markov Decision Process"
             }
           },
           {
@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Maximum A Posteriori Estimation.md",
+                "file": "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Maximum A Posteriori Estimation"
+              "title": "Partially Observable Markov Decision Process"
             }
           },
           {
@@ -300,10 +300,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4b59114e98643804",
+  "active": "bb252f0c26ef5e81",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
+    "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Courses/Probabilistic AI/Homework 4.md",
     "Analysis/Kernel.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -326,7 +327,6 @@
     "Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Variety.md",
     "Probability Theory/Covariance.md",
-    "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
     "Probability Theory/Gibbs Distribution.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
