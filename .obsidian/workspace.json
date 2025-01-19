@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "ML Theory/Maximum A Posteriori Estimation.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probabilistic AI Roadmap"
+              "title": "Maximum A Posteriori Estimation"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -132,26 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Homework 4.md",
+                "file": "ML Theory/Maximum A Posteriori Estimation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homework 4"
-            }
-          },
-          {
-            "id": "1d7f2140cc64698c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Kernel.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Kernel"
+              "title": "Maximum A Posteriori Estimation"
             }
           },
           {
@@ -200,7 +186,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "change of variable",
+                "query": "q_{\\theta}",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -221,7 +207,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -313,20 +300,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bb252f0c26ef5e81",
+  "active": "4b59114e98643804",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Homework 1.md",
-    "Courses/Probabilistic AI/Homework 4.md",
-    "Courses/Probabilistic AI/Homework 3.md",
-    "Probability Theory/Distribution.md",
-    "Probability Theory/Expected Value.md",
-    "Functional Analysis/Regular Ideal.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
+    "Courses/Probabilistic AI/Homework 4.md",
     "Analysis/Kernel.md",
     "Probability Theory/Gaussian Distribution.md",
+    "ML Theory/Markov Chain Monte Carlo.md",
+    "Probability Theory/Distribution.md",
+    "Courses/Probabilistic AI/Homework 1.md",
+    "Courses/Probabilistic AI/Homework 3.md",
+    "Probability Theory/Expected Value.md",
+    "Functional Analysis/Regular Ideal.md",
     "Controls/Impulse Transition Matrix and Impulse Response Matrix.md",
     "Analysis/Inner Product Space.md",
-    "ML Theory/Markov Chain Monte Carlo.md",
     "ML Theory/Reinforcement Learning/Markov Decision Process.md",
     "Analysis/Hilbert Space.md",
     "Functional Analysis/Dual Space.md",
@@ -338,7 +326,6 @@
     "Functional Analysis/Guelfand Spectrum.md",
     "Algebra/Variety.md",
     "Probability Theory/Covariance.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
     "Probability Theory/Gibbs Distribution.md",
     "ML Theory/Reinforcement Learning",
