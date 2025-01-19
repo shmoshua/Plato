@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Homework 3.md",
+                "file": "Courses/Probabilistic AI/Homework 4.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homework 3"
+              "title": "Homework 4"
             }
           }
         ],
@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Homework 1.md",
+                "file": "Courses/Probabilistic AI/Homework 4.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homework 1"
+              "title": "Homework 4"
             }
           },
           {
@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -313,10 +313,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0ef4d914ac4ffb91",
+  "active": "bb252f0c26ef5e81",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Homework 3.md",
     "Courses/Probabilistic AI/Homework 1.md",
+    "Courses/Probabilistic AI/Homework 4.md",
+    "Courses/Probabilistic AI/Homework 3.md",
+    "Probability Theory/Distribution.md",
     "Probability Theory/Expected Value.md",
     "Functional Analysis/Regular Ideal.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
@@ -339,8 +341,6 @@
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
     "Probability Theory/Gibbs Distribution.md",
-    "Machine Learning/Gaussian Process.md",
-    "Probability Theory/Characteristic Function.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
