@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
+                "file": "ML Theory/Maximum A Posteriori Estimation.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Partially Observable Markov Decision Process"
+              "title": "Maximum A Posteriori Estimation"
             }
           },
           {
@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
+                "file": "ML Theory/Maximum A Posteriori Estimation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Partially Observable Markov Decision Process"
+              "title": "Maximum A Posteriori Estimation"
             }
           },
           {
@@ -300,10 +300,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bb252f0c26ef5e81",
+  "active": "4b59114e98643804",
   "lastOpenFiles": [
-    "ML Theory/Maximum A Posteriori Estimation.md",
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
+    "ML Theory/Maximum A Posteriori Estimation.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Courses/Probabilistic AI/Homework 4.md",
     "Analysis/Kernel.md",
