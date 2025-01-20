@@ -118,12 +118,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Quotient Topology"
+              "title": "Homology Theory"
+            }
+          },
+          {
+            "id": "aadca76d7cb3c77c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Probabilistic AI Roadmap"
             }
           },
           {
@@ -155,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -186,7 +200,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "as chain maps",
+                "query": "\\mathbb{E}_{\\theta}",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,7 +221,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -299,15 +314,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "842b56bd8ed50217",
+  "active": "aadca76d7cb3c77c",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Wedge Product.md",
+    "Topology/Quotient Topology.md",
     "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Topology/Quotient Topology.md",
     "Topology/Homotopy.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
@@ -316,7 +332,6 @@
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Information Theory/Relative Entropy.md",
-    "Topology/Wedge Product.md",
     "Algebra/Exact Sequence.md",
     "Differential Geometry/Euler Characteristic.md",
     "Topology/CW-Complex.md",
