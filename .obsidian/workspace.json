@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
+                "file": "Topology/Lift.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Partially Observable Markov Decision Process"
+              "title": "Lift"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "Euler Characteristic"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -90,12 +89,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Topology/Lift.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "Lift"
             }
           },
           {
@@ -207,8 +206,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -302,15 +300,18 @@
   },
   "active": "de3bc5cb787a39d8",
   "lastOpenFiles": [
+    "Representation Theory/Tensor Product.md",
+    "Topology/Lift.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Wedge Product.md",
     "Topology/Quotient Topology.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Homotopy.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
@@ -325,9 +326,6 @@
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Courses/Probabilistic AI/Homework 4.md",
     "Differential Geometry/Differential.md",
-    "Topology/One-Point Compactification.md",
-    "Topology/Algebraic Topology/Acyclic Space.md",
-    "Markov Processes/Markov Chain.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
