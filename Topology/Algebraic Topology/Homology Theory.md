@@ -59,22 +59,18 @@
 
 ^0469d8
 
-> [!proof]-
+> [!proof]+
 > We have that:
 > 1. Follows from the fact that $\varepsilon_{*}$ is the zero map for $p\neq 0$. 
 > 2. Let $i:P\to X$. Then, $\varepsilon \circ i=\text{id}_{P}$ and $\varepsilon_{*}\circ i_{*} = \text{id}_{H_{p}(P)}$. This shows that $\varepsilon_{*}$ is surjective and: $$0\to \tilde{H}_{p}(X)\to H_{p}(X)\xrightarrow{\varepsilon_{*}}H_{p}(P)\to 0$$defines a SES. As $i_{*}$ is the right inverse of $\varepsilon_{*}$, by [[Split Exact Sequence|Proposition 1]], the SES is split. Therefore, $$H_{p}(X)\cong \tilde{H}_{p}(X)\oplus H_{p}(P)$$and we have our statement when $p=0$.
-> 3. We have that for $x\in \tilde{H}_{0}(X)$, $\varepsilon_{*}(f_{*}(x))=\varepsilon_{*}(x)=0$
+> 3. We have that for $x\in \tilde{H}_{0}(X)$, $\varepsilon_{*}(f_{*}(x))=\varepsilon_{*}(x)=0$ as $\varepsilon \circ f=\varepsilon$.
 > 4. We first show it for $A\neq \varnothing$. As we only need to check the parts of the sequence with $\tilde{H}\neq H$, we have that we need to show: $$H_{1}(X,A)\xrightarrow{\partial_{*}}\tilde{H}_{0}(A)\xrightarrow{\tilde{i}_{*}}\tilde{H}_{0}(X)\xrightarrow{\tilde{j}_{*}}{H}_{0}(X,A)\xrightarrow{\partial_{*}} {H}_{-1}(A)$$is exact.
 >    
 >    We first show that these maps are well-defined: Let $P$ be a point space and consider $\varepsilon:(X,A)\to(P,P)$. Now, we have that: $$\begin{CD}
 >    H_{1}(X,A)@>\partial_{*}>> H_{0}(A)@>i_{*}>> H_{0}(X)@>j_{*}>>H_{0}(X,A)\\@V\varepsilon_{*}VV@V\varepsilon_{*}VV@V\varepsilon_{*}VV@V\varepsilon_{*}VV\\H_{1}(P,P)=0@>>>H_{0}(P)@>>\text{id}>H_{0}(P)@>>>H_{0}(P,P)=0\end{CD}$$
 >    
->    1. **Claim 1**: $\partial_{*}(H_{1}(X,A))\subseteq \tilde{H}_{0}(A)$.
->       From the first square, we get that $\varepsilon_{*} \circ \partial_{*} = 0$. Hence, $$\partial_{*}(H_{1}(X,A))\subseteq \text{ker }\varepsilon_{*}=\tilde{H}_{0}(A)$$
->    2. **Claim 2**: $i_{*}(\tilde{H}_{0}(A))\subseteq \tilde{H}_{0}(X)$
->       From the second square, we get that for all $a\in \tilde{H}_{0}(A)$ if $\varepsilon_{*}(a)=0$, then $\varepsilon_{*}(i_{*}(a))=0$ and $i_{*}(a)\in \text{ker }\varepsilon_{*}=\tilde{H}_{0}(X)$.
 >    
->    Therefore, we can set $\tilde{i}_{*}:=i_{*}|_{\tilde{H}_{0}(A)}$ and $\tilde{j}_{*}:= j_{*}|_{\tilde{H}_{0}(X)}$. Now we show that our sequence is exact:
+>    From 3, we can set $\tilde{i}_{*}:=i_{*}|_{\tilde{H}_{0}(A)}$ and $\tilde{j}_{*}:= j_{*}|_{\tilde{H}_{0}(X)}$. Now we show that our sequence is exact:
 >    1. **Exactness at $\tilde{H}_{0}(A)$**
 >       We first have that $\tilde{i}_{*}\circ\partial_{*}=0$ as $i_{*} \circ \partial_{*}=0$. Hence, $\text{im}(\partial_{*})\subseteq \text{ker }\tilde{i}_{*}$.
 >       
@@ -85,14 +81,14 @@
 > 	     ```tikz
 > 	     \usepackage{tikz-cd}\begin{document}\begin{tikzcd} 
 > 	     0 & {\tilde{H}_0(A)} & {H_0(A)} & {H_0(P)} & 0 \\ 0 & {\tilde{H}_0(X)} & {H_0(X)} & {H_0(P)} & 0 \\ && {H_0(X,A)} 
-> 	     \arrow[from=1-1, to=1-2] \arrow[hook, from=1-2, to=1-3] \arrow[from=1-4, to=1-5] \arrow[dashed, no head, from=1-4, to=2-4] \arrow[from=2-1, to=2-2] \arrow[hook, from=2-2, to=2-3] \arrow["{j_*}"', from=2-3, to=3-3] \arrow[from=2-4, to=2-5] \arrow["{\tilde{i}_*}"', from=1-2, to=2-2] \arrow["{\varepsilon_*}", from=1-3, to=1-4] \arrow["{\tilde{i}_*}"', from=1-3, to=2-3] \arrow["{\tilde{j}_*}"', from=2-2, to=3-3] \arrow["{\varepsilon_*}", from=2-3, to=2-4] \arrow["{\textrm{id}}"', from=1-4, to=2-4] \end{tikzcd}
+> 	     \arrow[from=1-1, to=1-2] \arrow[hook, from=1-2, to=1-3] \arrow[from=1-4, to=1-5] \arrow[dashed, no head, from=1-4, to=2-4] \arrow[from=2-1, to=2-2] \arrow[hook, from=2-2, to=2-3] \arrow["{j_*}"', from=2-3, to=3-3] \arrow[from=2-4, to=2-5] \arrow["{\tilde{i}_*}"', from=1-2, to=2-2] \arrow["{\varepsilon_*}", from=1-3, to=1-4] \arrow["{{i}_*}"', from=1-3, to=2-3] \arrow["{\tilde{j}_*}"', from=2-2, to=3-3] \arrow["{\varepsilon_*}", from=2-3, to=2-4] \arrow["{\textrm{id}}"', from=1-4, to=2-4] \end{tikzcd}
 > 	     \end{document} 
 > 	     ```
 > 	    
 > 	    
-> 	   Then the two rows are exact and the diagram commutes. Hence, for $x\in \text{ker }\tilde{j}_{*}$, we have that $j_{*}(x)=0$ for $x\in H_{0}(X)$. Hence, there exists $a\in A$ with $i_{*}(a)=x$. Now, $\varepsilon_{*}(a)=\varepsilon_{*}(\tilde{i}_{*}(a))=\varepsilon_{*}(x)=0$ as $x\in \tilde{H}_{0}(X)$. 
+> 	        Then the two rows are exact and the diagram commutes. Hence, for $x\in \text{ker }\tilde{j}_{*}$, we have that $j_{*}(x)=0$ for $x\in H_{0}(X)$. Hence, there exists $a\in H_{0}(A)$ with $i_{*}(a)=x$. Now, $\varepsilon_{*}(a)=\varepsilon_{*}({i}_{*}(a))=\varepsilon_{*}(x)=0$ as $x\in \tilde{H}_{0}(X)$. 
 > 	   
-> 	   Therefore, $a\in \tilde{H}_{0}(A)$ and $x\in \text{im }\tilde{i}_{*}$.
+> 	        Therefore, $a\in \tilde{H}_{0}(A)$ and $x\in \text{im }\tilde{i}_{*}$.
 > 	  
 > 	  3. **Exactness at $H_{0}(X,A)$.** 
 > 	     $\text{im }\tilde{j}_{*}\subseteq \text{ker }\partial_{*}$ by definition. Then, for $x\in \text{ker }\partial_{*}\subseteq H_{0}(X,A)$, we have that there exists $y\in H_{0}(X)$ with $j_{*}(y)=x$. Further, as $\varepsilon_{*}$ is surjective, there exists $a\in H_{0}(A)$ with $\varepsilon_{*}(a)=\varepsilon_{*}(i_{*}(a))=\varepsilon_{*}(y)$. Therefore, we have $y-i_{*}(a)\in \tilde{H}_{0}(X)$ and further: $$j_{*}(y-i_{*}(a))=x-0=x$$This proves the statement.

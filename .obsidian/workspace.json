@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Algebraic Topology I Roadmap"
             }
+          },
+          {
+            "id": "d29575b8ef1fc188",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Homology Theory"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -273,9 +287,10 @@
   },
   "active": "464ee18910056598",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Algebra/Chain Complex.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Markov Processes/Markov Chain.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
@@ -298,7 +313,6 @@
     "Functional Analysis/Dual Space.md",
     "hilbert subspace.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
