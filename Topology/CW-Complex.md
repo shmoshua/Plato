@@ -176,6 +176,8 @@
 > 3. $H_{n}(K^{(n+1)})\cong H_{n}(K^{(n+2)})\cong \dots$ where each isomorphism is induced by inclusion. 
 > 4. If $K$ is $m$-dimensional, then $H_{n}(K)\cong H_{n}(K^{(n+1)})$ for all $n<m$.
 
+^199c0d
+
 > [!proof]-
 > We have that:
 > 1. Holds from the fact that $H_{p}(I^n,\partial I^n)=0$ for all $p\neq n$ and 4. (From [[Homology Theory|Example 1]])
@@ -185,6 +187,8 @@
 > 3. Let $p> n$. Then, $$0=H_{n+1}(K^{(p+1)},K^{(p)})\to H_{n}(K^{(p)})\to H_{n}(K^{(p+1)})\to H_{n}(K^{(p+1)},K^{(p)})=0$$Hence, we have an isomorphism.
 > 4. Because if $K=K^{(m)}$ for some $m>n$, then $H_{n}(K)=H_{n}(K^{(m)})\cong H_{n}(K^{(n+1)})$.
 
+^8b6f99
+
 ---
 > [!lemma] Proposition 8
 > Let $K$ be a CW-complex. From the exact sequence we have the following maps: $$j_{n}:H_{n}(K^{(n)})\to H_{n}(K^{(n)},K^{(n-1)}), \quad \partial_{n}:H_{n}(K^{(n)},K^{(n-1)})\to H_{n-1}(K^{(n-1)})$$Now, consider $\beta_{n}:= j_{n-1}\circ\partial_{n}:H_{n}(K^{(n)},K^{(n-1)})\to H_{n-1}(K^{(n-1)},K^{(n-2)})$. Then, 
@@ -192,6 +196,8 @@
 > 2. $\text{ker }\beta_{n}=\text{ker }\partial_{n}=\text{im}(j_{n})$.
 > 3. $\text{im}(\beta_{n+1})=j_{n}(\text{im}(\partial_{n+1}))$
 > 4. $H_{n}(K^{(n+1)})\cong \text{coker}(\partial_{n+1})\cong \text{ker }\beta_{n} / \text{im\ }\beta_{n+1}$
+
+^ac5722
 
 > [!proof]-
 > We have the following commutative diagram: 
@@ -210,6 +216,8 @@
 > 	2. $\text{im }\partial_{n+1}\xrightarrow{j_{n}}\text{im }\beta_{n+1}\to 0$ hence injective and we have that $\text{im }\partial _{n+1}\cong \text{im }\beta_{n+1}$ by $j_{n}$.
 > 
 > 	Therefore, as $i_{n}$ is surjective, $$H_{n}(K^{(n+1)})\cong H_{n}(K^{(n)}) / \text{im } \partial_{n+1}=\text{coker}(\partial_{n+1})\cong \text{ker }\beta_{n} / \text{im }\beta_{n+1}$$
+
+^f9a6dd
 
 ---
 > [!lemma] Proposition 9 (Product CW-Complexes)
