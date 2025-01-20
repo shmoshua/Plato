@@ -48,6 +48,8 @@
 > 2. The CW-complex topology and subspace topology on a subcomplex $K'\subseteq K$ coincide.
 > 3. A subset $K\subseteq K'$ is a subcomplex if and only if $K'$ is a union of some open cells of $K$ and $K'$ is closed in $K$. 
 
+^7f1394
+
 > [!proof]-
 > We have that:
 > 1. For all $n\geq 0$, let $I'_{n}\subseteq I_{n}$ denote the index set for $K'$ s.t. for all $\sigma\in I'_{n}$, $U_{\sigma}\subseteq K'$. We will show that repeating the CW-complex process with $I'_{n}$ results in $K'$. Let $J^{(i)}$ be the skeletons of $K'$ and $J^{(0)}:= K'\cap K^{(0)}$.
@@ -59,11 +61,16 @@
 >    We prove this via induction over $n$. For $n=0$, $K'\cap K^{(0)}$ is closed in $K^{(0)}$ as it is discrete. Then, for $n\geq 1$ and $\sigma\in I_{n}$, $$f^{-1}_{\sigma}(K'\cap K^{(n)})=f^{-1}_{\sigma}(J^{(n)})=\begin{cases}\varnothing&\sigma\notin I'_{n}\\B^n_{\sigma}&\sigma\in I'_{n}\end{cases}$$which shows that $K'$ is closed. 
 >    
 >    Conversely, if $K'$ is closed in $K$, then $K_{\sigma}=f_{\sigma}(B_{\sigma}^n)\subseteq \overline{f_{\sigma}((B^n_{\sigma})^\circ)}\subseteq \overline{U_{\sigma}}\subseteq \overline{K'}=K'$.
+
+^8178bb
+
 ---
 > [!lemma] Theorem 3 (Finiteness and Compactness)
 > Let $K$ be a CW complex and $A\subseteq K$ a compact subset. 
 > 1. $A$ can intersect at most finitely many open cells. 
 > 2. $K$ is compact if and only if $K$ is finite.
+
+^4cab8c
 
 > [!proof]-
 > We have that:
@@ -73,6 +80,9 @@
 > 2. If $K$ is compact, then $K$ can intersect at most finitely many open cells and hence $K$ is finite. Conversely, if $K$ is finite, we have that $K^{(0)}$ is finite discrete hence compact. Then, for every $n\geq 1$, $K^{(n-1)}$ is compact by assumption and as we have finitely many cells at $n$, $K^{(n-1)}\sqcup\bigsqcup_{\sigma\in I_{n}}B^n_{\sigma}$ is compact. This implies that $K^{(n)}$ is compact. 
 >    
 >    Further, if $K$ is finite, $K=K^{(n)}$ for some $n$. Hence, $K$ is compact.
+
+^af1207
+
 ---
 > [!lemma] Theorem 4 (Open Neighborhoods)
 > We define:
@@ -82,11 +92,16 @@
 > [!lemma] Theorem 4 (CW-Complexes are Normal)
 > All CW-complexes are [[Normal Space|normal]] and in particular Hausdorff.
 
+^faedf9
+
 > [!proof]-
 > Let $K$ be a CW-complex and $A,B\subseteq K$ disjoint closed sets. We aim to construct $g:K\to[0,1]$ continuous with $g|_{A}=0$ and $g|_{B}=1$. Let's construct a continuous function $g_{n}:K^{(n)}\to[0,1]$ for each skeleton s.t. $g_{n}|_{K^{(m)}}=g_{m}$ for all $m\leq n$ and s.t. $g_{n}(A\cap K^{(n)})=0$ and $g_{n}(B\cap K^{(n)})=1$. 
 > 
 > Assume we have $g_{n-1}$ with the above assumptions. Then, for all $\sigma\in I_{n}$, 
 > 1. $g_{n-1} \circ f_{\partial\sigma}:S^{n-1}_{\sigma}\to[0,1]$ is continuous
+
+^f9c8e5
+
 ---
 
 > [!lemma] Theorem 5
@@ -210,6 +225,8 @@
 > 6. $\mathbb{C}\mathbb{P}^n$ is a CW-complex of dimension $2n$.
 > 7. $\mathbb{R}\mathbb{P}^n$ is a CW-complex of dimension $n$.
 
+^eb4895
+
 > [!proof]-
 > We have:
 > 1. By definition.
@@ -226,4 +243,7 @@
 > 5. Similar to 4.
 > 6. See [[Complex Projective Space]].
 > 7. Similar to 6.
+
+^7097ea
+
 ---
