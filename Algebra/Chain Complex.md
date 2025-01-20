@@ -93,7 +93,7 @@
 > 	   Let $a\in A_{p}$ be a cycle with $i_{*}([a])=0$. In other words, $i(a)\in B_{p}(\mathcal{B})$ and there exists $b\in B_{p+1}$ with $i(a)=\partial b$. First, note that $j(b)$ is a cycle. Indeed, $$\partial (j(b))=j(\partial b)=j(i(b))=0$$
 > 	   Therefore, we have that: $\partial_{*}([j(b)])=[a]$.
 > 	6. **Claim 6**: $\text{ker}(\partial_{*})\subseteq \text{im}(j_{*})$
-> 	   Let $c\in C_{p}$ be a cycle with $\partial_{*}([c])=0$. Choose $b\in B_{p}$ with $j(b)=c$ and $a\in A_{p-1}$ with $i(a)=\partial b$. Then, we have that $a\in B_{p-1}(\mathcal{A})$ and there exists $a'\in A_{p}$ with $a=\partial a'$. Now, we have: $$\partial i(a')=i(\partial a')=i(a)=\partial b$$Hence, $\partial(b-i(a'))=0$ and $b-i(a')$ is a cycle. Further, we have: $$j(b-i(a'))=j(b)=c$$It follows that $j_{*}([b-i(a')])=[c]$.
+> 	   Let $c\in C_{p}$ be a cycle with $\partial_{*}([c])=0$. Choose $b\in B_{p}$ with $j(b)=c$ and $a\in A_{p-1}$ with $i(a)=\partial b$. Then, as $[a]=\partial_{*}([c])=0$, we have that $a\in B_{p-1}(\mathcal{A})$ and there exists $a'\in A_{p}$ with $a=\partial a'$. Now, we have: $$\partial i(a')=i(\partial a')=i(a)=\partial b$$Hence, $\partial(b-i(a'))=0$ and $b-i(a')$ is a cycle. Further, we have: $$j(b-i(a'))=j(b)=c$$It follows that $j_{*}([b-i(a')])=[c]$.
 
 ^6537e1
 

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML Theory/Maximum A Posteriori Estimation.md",
+                "file": "Algebra/Chain Complex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Maximum A Posteriori Estimation"
+              "title": "Chain Complex"
             }
           },
           {
@@ -62,19 +62,9 @@
               "icon": "lucide-file",
               "title": "Algebraic Topology I Roadmap"
             }
-          },
-          {
-            "id": "a8ce5c1e83fd08a7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -92,6 +82,34 @@
               },
               "icon": "lucide-file",
               "title": "Algebraic Topology I Roadmap"
+            }
+          },
+          {
+            "id": "0e947b559b153790",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Chain Complex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Chain Complex"
+            }
+          },
+          {
+            "id": "de3bc5cb787a39d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Exact Sequence.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Exact Sequence"
             }
           },
           {
@@ -253,14 +271,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a8ce5c1e83fd08a7",
+  "active": "464ee18910056598",
   "lastOpenFiles": [
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Algebra/Chain Complex.md",
+    "Markov Processes/Markov Chain.md",
+    "ML Theory/Maximum A Posteriori Estimation.md",
+    "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Probability Theory/Distribution.md",
     "Courses/Probabilistic AI/Homework 4.md",
-    "ML Theory/Maximum A Posteriori Estimation.md",
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
     "Analysis/Kernel.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -278,9 +299,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Functional Analysis/C*-Algebra.md",
-    "Analysis/Banach Space.md",
-    "Functional Analysis/Guelfand Spectrum.md",
-    "Algebra/Variety.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
