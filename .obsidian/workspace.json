@@ -118,15 +118,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Topology/Homotopy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
+              "title": "Homotopy"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -270,12 +271,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "464ee18910056598",
+  "active": "842b56bd8ed50217",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Real Projective Space.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Retract.md",
