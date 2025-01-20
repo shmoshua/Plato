@@ -45,8 +45,12 @@
 > We have that:
 > 1. $S^p\land S^q\cong S^{p+q}$
 
+^c08b51
+
 > [!proof]-
 > We have:
 > 1. As $S^p$ and $S^q$ are both compact, by Proposition 1.4 $$S^p\land S^q\cong (\mathbb{R}^p\times \mathbb{R}^q)\cup \{ \infty \}\cong \mathbb{R}^{p+q}\cup \{ \infty \}\cong S^{p+q}$$
+
+^89a8b9
 
 ---

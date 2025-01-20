@@ -114,6 +114,8 @@
 > 	2. a generator $[S^n]\in H_{n}(S^n,*)\cong \mathbb{Z}$ with $(\gamma_{n})_{*}([I^n])=[S^n]$.
 > 	3. a generator $[\partial I^{n+1}]\in \tilde{H}_{n}(\partial I^{n+1})\cong \mathbb{Z}$ with $\partial_{*}([I^{n+1}])=[\partial I^{n+1}]$.
 
+^a62a3e
+
 > [!proof]- 
 > We have that:
 > 1. We define the maps $\gamma$ as follows:
@@ -130,6 +132,9 @@
 > 		1. $[S^n]:=(\gamma_{n})_{*}([I^n])$ which is a generator as $(\gamma_{n})_{*}$ is an isomorphism.
 > 		2. For $[\partial I^{n+1}]$, we define first: $$\gamma'_{n}:(\partial I^{n+1},*)\to(S^n,*),\quad (x_{0},\dots,x_{n})\mapsto \begin{cases}\gamma_{n}(x_{1},\dots,x_{n})&x_{0}=1\\ *&\text{otherwise}\end{cases}$$Then, $\gamma'_{n}$ is homotopic to a homeomorphism. Hence, $(\gamma'_{n})_{*}$ is isomorphic and we set: $$[\partial I^{n+1}]:=(\gamma'_{n})^{-1}_{*}([S^n])\in \tilde{H}_{n}(\partial I^{n+1})$$
 > 		3. $[I^{n+1}]:=\partial_{*}^{-1}([\partial I^{n+1}])$ where $\partial_{*}:H_{n+1}(I^{n+1},\partial I^{n+1})\to \tilde{H_{n}}(\partial I^{n+1})$ is an isomorphism as: $$0=\tilde{H}_{n+1}(I^{n+1})\to H_{n+1}(I^{n+1},\partial I^{n+1})\xrightarrow{\partial_{*}}\tilde{H}_{n}(\partial I^{n+1})\to \tilde{H}_{n}(I^{n+1})=0$$as $I^{n+1}$ is contractible. As this sequence is exact, this proves our claim.
+
+^398a0d
+
 ---
 > [!lemma] Lemma 6 
 > Let $K$ be a CW-complex. We can identify each $n$-cell as $I^n$ with its boundary $\partial I^n$ attached to $K^{(n-1)}$. Consider: $$I^n\xrightarrow{f_{\sigma}}K^{(n)}\to K^{(n)} / K^{(n-1)}\to \bigvee_{\sigma\in I_{n}}S^n\xrightarrow{\pi_{\sigma}} S^n$$where $\pi_{\sigma}$ is a projection to the ball corresponding to $\sigma$. Then, 

@@ -346,3 +346,10 @@
 ![[Smash Product#^2128b6|p]]
 
 ---
+![[Smash Product#^c08b51]]
+![[Smash Product#^89a8b9|p]]
+
+---
+#### 3.2 
+![[CW-Complex#^a62a3e]]
+![[CW-Complex#^398a0d|p]]
