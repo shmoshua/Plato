@@ -118,12 +118,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Topology/CW-Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "CW-Complex"
             }
           },
           {
@@ -155,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -300,13 +300,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "842b56bd8ed50217",
+  "active": "de3bc5cb787a39d8",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Topology/CW-Complex.md",
+    "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Wedge Product.md",
     "Topology/Quotient Topology.md",
-    "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
@@ -320,7 +321,6 @@
     "Information Theory/Relative Entropy.md",
     "Algebra/Exact Sequence.md",
     "Differential Geometry/Euler Characteristic.md",
-    "Topology/CW-Complex.md",
     "Functional Analysis/L1 Space on d-regular Trees.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Courses/Probabilistic AI/Homework 4.md",
