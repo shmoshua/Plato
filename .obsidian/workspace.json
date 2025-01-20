@@ -127,20 +127,6 @@
             }
           },
           {
-            "id": "aadca76d7cb3c77c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Probabilistic AI Roadmap"
-            }
-          },
-          {
             "id": "4590bdf5d68ca108",
             "type": "leaf",
             "state": {
@@ -169,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -314,8 +300,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "aadca76d7cb3c77c",
+  "active": "842b56bd8ed50217",
   "lastOpenFiles": [
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Wedge Product.md",
     "Topology/Quotient Topology.md",
@@ -323,7 +310,6 @@
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Homotopy.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
