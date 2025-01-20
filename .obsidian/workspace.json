@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Chain Homotopy.md",
+                "file": "Topology/Real Projective Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Chain Homotopy"
+              "title": "Real Projective Space"
             }
           },
           {
@@ -155,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -299,14 +299,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4043abd04c3961be",
+  "active": "842b56bd8ed50217",
   "lastOpenFiles": [
+    "Topology/Real Projective Space.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Quotient Topology.md",
     "Topology/Homotopy.md",
-    "Topology/Real Projective Space.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Retract.md",
@@ -315,10 +317,8 @@
     "Topology/Algebraic Topology/Relative Homology.md",
     "Information Theory/Relative Entropy.md",
     "Topology/Wedge Product.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Exact Sequence.md",
     "Differential Geometry/Euler Characteristic.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/CW-Complex.md",
     "Functional Analysis/L1 Space on d-regular Trees.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
