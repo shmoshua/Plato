@@ -111,7 +111,7 @@
 > [!lemma] Theorem 5 (Smooth Maps)
 > Let $f:S^n\to S^n$ be a [[Smooth Function|smooth map]]. For $p\in S^n$, we define $$\varepsilon_{p}(f):=\text{sgn}(\det d_p(\sigma \circ f))\in\{ -1,0,+1 \}$$where $\sigma\in \text{SO}(n+1)$ s.t. $\sigma(f(p))=p$. Then,
 > 1. $\varepsilon_{p}(f)$ is independent of the choice of $\sigma$.
-> 2. If $q\in S^n$ is a [[Submanifold|regular value]] s.t. $f^{-1}(q)=\{ p \}\subseteq S^n$, then $\deg(f)=\varepsilon_{p}(f)\in \{ -1,+1 \}$.
+> 2. If $q\in S^n$ is a [[Submersion|regular value]] s.t. $f^{-1}(q)=\{ p \}\subseteq S^n$, then $\deg(f)=\varepsilon_{p}(f)\in \{ -1,+1 \}$.
 
 ^f9efff
 

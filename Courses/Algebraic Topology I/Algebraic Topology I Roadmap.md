@@ -249,6 +249,10 @@
 ![[Degree of Sphere Maps#^05f580|p]]
 
 ---
+![[One-Point Compactification#^c2b416]]
+![[One-Point Compactification#^122268|p]]
+
+---
 ![[One-Point Compactification#^170aa2]]
 ![[One-Point Compactification#^e9411e|p]]
 

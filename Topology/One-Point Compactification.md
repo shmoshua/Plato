@@ -44,10 +44,15 @@
 > Let $X$ be compact Hausdorff and $x_{0}\in X$. Then, 
 > 1. $X\cong \alpha(X \backslash \{ x_{0} \})$ where $X \backslash \{ x_{0} \}$ is LCH.
 
+^c2b416
+
 > [!proof]-
 > We have that:
 > 1. Consider the function: $$\psi:X\to\alpha(X \backslash \{ x_{0} \}),\quad x\mapsto \begin{cases}\infty&x=x_{0}\\x&x\neq x_{0}\end{cases}$$we show that this is a homeomorphism. It is easy to see that $\psi$ is a bijection. As $X$ is compact and $\alpha(X \backslash \{ x_{0} \})$ Hausdorff, it suffices to show that $\psi$ is continuous. We have that for $U\subseteq X \backslash \{ x_{0} \}$ open, as $X \backslash \{ x_{0} \}$ is open in $X$, $U\subseteq X$ is open. For $K\subseteq X \backslash \{ x_{0} \}$ compact, then $K\subseteq X$ is compact and closed. Hence, $X \backslash K$ is open and:$$\psi ^{-1}(X \backslash K\cup \{ \infty \})=X \backslash K\cup \{ x_{0} \}=X \backslash K$$
 >    Lastly, $X \backslash \{ x_{0} \}$ is LCH as an open subspace of a compact Hausdorff space (cf. [[Compact Space|Proposition 2]]).
+
+^122268
+
 ---
 
 ##### Examples
