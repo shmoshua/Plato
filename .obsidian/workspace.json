@@ -118,16 +118,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "file": "Topology/Real Projective Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
+              "title": "Real Projective Space"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,23 +270,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6b48602334d4b1d9",
+  "active": "464ee18910056598",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Topology/Retract.md",
+    "Topology/Real Projective Space.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Algebraic Topology/Euler Characteristic.md",
+    "Topology/Algebraic Topology/Chain Homotopy.md",
+    "Topology/Retract.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Chain Complex.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Information Theory/Relative Entropy.md",
     "Topology/Homotopy.md",
     "Topology/Wedge Product.md",
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Real Projective Space.md",
     "Algebra/Exact Sequence.md",
-    "Topology/Algebraic Topology/Euler Characteristic.md",
     "Differential Geometry/Euler Characteristic.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/CW-Complex.md",
