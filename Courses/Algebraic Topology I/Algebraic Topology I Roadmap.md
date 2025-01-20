@@ -399,3 +399,41 @@
 ![[Cellular Chain Complex#^4fc2d5]]
 
 ---
+![[Cellular Chain Complex#^4f24c2]]
+![[Cellular Chain Complex#^441812|p]]
+
+---
+#### 3.3 Euler Characteristic
+
+![[Euler Characteristic#^4b0ecc]]
+![[Euler Characteristic#^dea603]]
+
+---
+![[Euler Characteristic#^95695b]]
+![[Euler Characteristic#^d526a3|p]]
+![[Euler Characteristic#^8c0c09]]
+
+---
+![[Euler Characteristic#^43d133]]
+![[Euler Characteristic#^020d4e|p]]
+
+---
+![[Euler Characteristic#^2608f5]]
+![[Euler Characteristic#^5d23ab|p]]
+
+---
+![[Euler Characteristic#^a714bc]]
+![[Euler Characteristic#^76577c|p]]
+
+---
+![[Euler Characteristic#^557169]]
+![[Euler Characteristic#^97f0f0|p]]
+
+---
+### 4. Chain Homotopy and Singular Homology
+
+![[Chain Homotopy#^4bb319]]
+
+---
+![[Chain Homotopy#^24d8c9]]
+![[Chain Homotopy#^5c1240|p]]

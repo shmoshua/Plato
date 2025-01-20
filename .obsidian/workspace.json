@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "b32d5576afc99c70",
+            "id": "9ea1a0a2b33fc0d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,17 +64,17 @@
             }
           },
           {
-            "id": "d29575b8ef1fc188",
+            "id": "c3a6b44c418833b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Topology/Algebraic Topology/Euler Characteristic.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "Euler Characteristic"
             }
           }
         ],
@@ -104,12 +104,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Algebra/Chain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "Chain Complex"
             }
           },
           {
@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "Topology/Real Projective Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "Real Projective Space"
             }
           }
         ]
@@ -284,24 +284,26 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "464ee18910056598",
+  "active": "9ea1a0a2b33fc0d9",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Algebra/Chain Complex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Wedge Product.md",
+    "Topology/Real Projective Space.md",
+    "Algebra/Exact Sequence.md",
+    "Topology/Algebraic Topology/Euler Characteristic.md",
+    "Differential Geometry/Euler Characteristic.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/CW-Complex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Functional Analysis/L1 Space on d-regular Trees.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Courses/Probabilistic AI/Homework 4.md",
-    "Topology/Wedge Product.md",
     "Differential Geometry/Differential.md",
-    "Algebra/Exact Sequence.md",
-    "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/One-Point Compactification.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
-    "Algebra/Chain Complex.md",
     "Markov Processes/Markov Chain.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
     "Probability Theory/Distribution.md",
@@ -310,8 +312,6 @@
     "Probability Theory/Gaussian Distribution.md",
     "ML Theory/Markov Chain Monte Carlo.md",
     "Courses/Probabilistic AI/Homework 1.md",
-    "Courses/Probabilistic AI/Homework 3.md",
-    "Probability Theory/Expected Value.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

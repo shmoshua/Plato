@@ -6,6 +6,9 @@
 > 	$D$ is then called a ***chain homotopy*** and denoted $\phi \underset{ D }{ \sim }\psi$.
 > 2. A chain map $\phi:\mathcal{A}\to \mathcal{B}$ is a ***chain homotopy equivalence*** if there exists a chain map $\psi:\mathcal{B}\to \mathcal{A}$ s.t. $\phi \circ\psi \sim \text{id}_{\mathcal{B}}$ and $\psi \circ\phi \sim \text{id}_{\mathcal{A}}$.
 > 3. A chain map $\phi:\mathcal{A}\to \mathcal{B}$ is ***null chain homotopic*** if $\phi \sim 0$. 
+
+^4bb319
+
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -14,6 +17,8 @@
 > 2. $\sim$ is an equivalence relation. 
 > 3. If $\phi:\mathcal{A}\to \mathcal{B}$ is a chain homotopy equivalence with inverse $\psi$, then $\phi_{*},\psi_{*}$ are isomorphisms with $\phi_{*}^{-1}=\psi_{*}$.
 > 4. If $\phi:\mathcal{A}\to \mathcal{B}$ is null chain homotopic, then $\phi_{*}=0$.
+
+^24d8c9
 
 > [!proof]-
 > We have that:
@@ -24,5 +29,7 @@
 > 	3. If $\partial D+D\partial=\phi-\psi$ and $\partial D'+D'\partial=\psi-\eta$, then, $$\partial(D+D')+(D+D')\partial=\phi-\eta$$
 > 3. We have that $\phi \circ\psi \sim \text{id}_{\mathcal{B}}$ and $\phi_{*}\circ\psi_{*}=\text{id}$ and vice versa.
 > 4. Obvious.
+
+^5c1240
 
 ---

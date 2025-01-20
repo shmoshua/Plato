@@ -69,6 +69,9 @@
 > 2. $K^{(n)}_{A} / K^{(n-1)}_{A}\cong \bigvee_{\sigma\in I^n_{K,A}}S^n_{\sigma}$
 > 3. $H_{p}(K^{(n)}_{A},A)=0$ for all $p>n$.
 > 4. For another CW-complex $L$ and $B\subseteq L$ subcomplex, for a cellular map $g:(K,A)\to(L,B)$, i.e. $g$ and $g|_{A}:A\to B$ are cellular, $g_{\text{cw}}:C_{n}(K,A)\to C_{n}(L,B)$.
+
+^4f24c2
+
  
 > [!proof]-
 > We have that:
@@ -76,6 +79,9 @@
 > 2. By induction over $n$. 
 > 	1. If $n=0$, then for all $p>0$, $K^{(0)}_{A}$ is given by $A$ with discrete points. Hence, $H_{p}(K^{(0)}_{A},A)\cong H_{p}(K^{(0)} \backslash A,\varnothing)=H_{p}(K^{(0)} \backslash A)=0$.
 > 	2. If $n\geq 1$, for $p>n$, 
+
+^441812
+
 ---
 ##### Examples
 > [!h] Example 1 (RP2)
