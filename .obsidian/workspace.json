@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
+                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Homology"
+              "title": "Cellular Chain Complex"
             }
           },
           {
@@ -104,12 +104,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Chain Homotopy.md",
+                "file": "Topology/Algebraic Topology/Euler Characteristic.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Chain Homotopy"
+              "title": "Euler Characteristic"
             }
           },
           {
@@ -126,7 +126,8 @@
               "title": "p-Simplex"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -270,12 +271,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "464ee18910056598",
+  "active": "6b48602334d4b1d9",
   "lastOpenFiles": [
-    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Chain Homotopy.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Retract.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Chain Homotopy.md",
+    "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Information Theory/Relative Entropy.md",
@@ -286,7 +289,6 @@
     "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Differential Geometry/Euler Characteristic.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/CW-Complex.md",
     "Functional Analysis/L1 Space on d-regular Trees.md",
@@ -297,7 +299,6 @@
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Markov Processes/Markov Chain.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
-    "Probability Theory/Distribution.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
