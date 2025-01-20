@@ -41,20 +41,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Chain Complex.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Chain Complex"
-            }
-          },
-          {
-            "id": "9ea1a0a2b33fc0d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
                 "mode": "source",
                 "source": true
@@ -78,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -99,45 +85,45 @@
             }
           },
           {
-            "id": "0778e4946f56f9d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Chain Complex.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Chain Complex"
-            }
-          },
-          {
-            "id": "0e947b559b153790",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Wedge Product.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Wedge Product"
-            }
-          },
-          {
             "id": "de3bc5cb787a39d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Topology/Algebraic Topology/Singular Homology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
+              "title": "Singular Homology"
+            }
+          },
+          {
+            "id": "6b48602334d4b1d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Chain Homotopy.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Chain Homotopy"
+            }
+          },
+          {
+            "id": "842b56bd8ed50217",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "p-Simplex"
             }
           }
         ]
@@ -171,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "q_{\\theta}",
+                "query": "as chain maps",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -284,11 +270,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ea1a0a2b33fc0d9",
+  "active": "464ee18910056598",
   "lastOpenFiles": [
     "Algebra/Chain Complex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Chain Homotopy.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Relative Homology.md",
+    "Information Theory/Relative Entropy.md",
+    "Topology/Homotopy.md",
     "Topology/Wedge Product.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Real Projective Space.md",
     "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
@@ -296,22 +289,15 @@
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/CW-Complex.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Functional Analysis/L1 Space on d-regular Trees.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Courses/Probabilistic AI/Homework 4.md",
     "Differential Geometry/Differential.md",
     "Topology/One-Point Compactification.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Markov Processes/Markov Chain.md",
     "ML Theory/Maximum A Posteriori Estimation.md",
     "Probability Theory/Distribution.md",
-    "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
-    "Analysis/Kernel.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "ML Theory/Markov Chain Monte Carlo.md",
-    "Courses/Probabilistic AI/Homework 1.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

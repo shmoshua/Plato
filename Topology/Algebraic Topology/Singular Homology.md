@@ -15,6 +15,8 @@
 > 1. $\partial^{2}=0$, i.e. $\mathcal{S}(X;G)$ is a [[chain complex]].
 > 2. For a point space $X$, $$H_{i}(X;G)\cong\begin{cases}G&i=0\\0&i\neq 0\end{cases}$$
 
+^1724cc
+
 > [!proof]-
 > We have:
 > 1. Follows from [[p-Simplex|boundary lemma]].
@@ -22,9 +24,14 @@
 >    
 >    Now, for $p> 0$, we have that for $p$-simplex $\sigma:\Delta_{p}\to X$: $$\partial (g\sigma)=\begin{cases}0&p\text{ is odd}\\g\sigma_{p-1}&p\text{ is even}\end{cases}$$Hence, $$\text{ker }\partial \cong\begin{cases}G&p>0\text{ odd or }p=0\\0&\text{otherwise}\end{cases}$$
 >    $$B_{p}(X;G) \cong\begin{cases}G&p>0\text{ odd}\\0&\text{otherwise}\end{cases}$$It follows that $H_{p}(X;G)\cong G$ if and only if $p=0$ and $0$ otherwise. 
+
+^249113
+
 ---
 > [!lemma] Theorem 2
 > Let $X$ be a [[contractible space]]. Then, $H_{n}(X)=0$ for all $n\neq 0$.
+
+^68ac5e
 
 > [!proof]-
 > As $X$ is contractible, we have a homotopy $F:X\times I\to X$ s.t. $$F(x,0)=x,\quad F(x,1)=x_{0},\quad \forall x\in X$$where $x_{0}\in X$. Now, let $\sigma:\Delta_{n-1}\to X$ be a singular $(n-1)$-simplex. Then, we will define $$D\sigma:\Delta_{n}\to X,\quad \sum_{i=0}^{n}\lambda_{i}e_{i}\mapsto \begin{cases}F\left( \sigma\left( \sum_{i=1}^{n}\frac{\lambda_{i}}{1-\lambda_{0}}e_{i-1} \right) ,\lambda_{0}\right)&\lambda_{0}\neq 1\\x_{0}&\lambda_{0}=1\end{cases}$$Then, $D\sigma$ is continuous and we can extend $D$ linearly to a homomorphism $\mathcal{S}_{n-1}(X)\to \mathcal{S}_{n}(X)$ for all $n\geq 1$. For $n=0$, we set $D\equiv 0$. 
@@ -40,12 +47,17 @@
 > 	2. $D(\partial\sigma)=D(0)=0$. 
 > 
 > Therefore, we have that: $$D\partial(\sigma)+\partial D(\sigma)=\begin{cases}\sigma&n\geq 2\\\sigma-\sigma_{0}&n=1\\ 0&n\leq 0\end{cases}$$Consider the map $\varepsilon:S_{n}(X)\to S_{n}(X)$ s.t. $\varepsilon=0$ for $n\geq 1$ and for $n=0$, $\varepsilon\left( \sum_{}^{}n_{x}x \right)=\sum_{}n_{x} x_{0}$Then, $\varepsilon$ is of course a chain map and $D\partial+\partial D=\text{id}-\varepsilon$ and $\text{id}\sim \varepsilon$. Hence, $\varepsilon_{*}=\text{id}_{H_{*}(X)}$. However, $\text{id}=\varepsilon_{*}:H_{n}(X)\to H_{n}(X)=0$ for all $n>0$ and we get that $H_{n}(X)=0$ for all $n\neq 0$.
+
+^d700de
+
 ---
 > [!lemma] Theorem 3 (Cross Product)
 > Let $X,Y$ be topological spaces. There exists a family of bilinear map $$\times:S_{p}(X)\times S_{q}(Y)\to S_{p+q}(X\times Y),\quad \forall p,q\geq 0,X,Y$$with the following properties:
 > 1. For all $x\in X$ and $y\in Y$, $\sigma:\Delta_{p}\to X$ and $\tau:\Delta_{q}\to Y$ simplices, we have that: $$\sigma \times y:\Delta_{p}\to X\times Y, \quad w\mapsto (\sigma(w),y),\quad x \times \tau:\Delta_{q}\to X\times Y, \quad w\mapsto (x,\tau(w))$$
 > 2. For continuous maps $f:X\to X'$ and $g:Y\to Y'$,  $f\times g:X\times Y\to X'\times Y'$ satisfies: $$(f\times g)_{c}(a\times b)=f_{c}(a)\times g_{c}(b),\quad \forall a\in S_{p}(X),b\in S_{q}(Y)$$
 > 3. Leibniz Formula: $$\partial(a\times b)=\partial a\times b+(-1)^pa\times \partial b,\quad \forall a\in S_{p}(X),b\in S_{q}(Y) $$
+
+^03772e
 
 > [!proof]-
 > We have that:
@@ -62,19 +74,29 @@
 > 	    We are left to show that 2 and 3 hold. 
 > 		   1. for $f:X\to X'$ and $g:Y\to Y'$, $$(f\times g)_{c}(\sigma \times \tau)=(f\times g)_{c}\circ (\sigma \times \tau)_{c}(i_{p}\times i_{q})=(f\circ \sigma)\times(g \circ  \tau)=f_{c}(\sigma)\times g_{c}(\tau)$$
 > 		   2. we have: $$\begin{align}\partial(\sigma \times \tau)&=\partial((\sigma \times \tau)_{c}(i_{p}\times i_{q}))=(\sigma \times \tau)_{c}(\partial(i_{p}\times i_{q}))\\&=(\sigma \times \tau)_{c}\left( \partial i_{p}\times i_{q}+(-1)^p i_{p}\times \partial i_{q} \right)\\&=\sigma_{c}(\partial i_{p})\times \tau_{c}(i_{q})+(-1)^p\sigma_{c}(i_{p})\times \tau_{c}(\partial i_{q}) \\&=\partial\sigma_{c}( i_{p})\times \tau_{c}(i_{q})+(-1)^p\sigma_{c}(i_{p})\times \partial \tau_{c}(i_{q})\\&=\partial\sigma \times \tau+(-1)^p\sigma \times \partial \tau \end{align}$$where $\sigma_{c}(i_{p})=\sigma \circ i_{p}=\sigma$ and $\tau_{c}(i_{q})=\tau$.
+
+^97a53f
+
 ---
 > [!lemma] Theorem 4 (Relative Cross Product)
 > For $X,Y$ topological spaces and $A\subseteq X,B\subseteq Y$ subspaces,
 > $$\times:S_{p}(X,A)\times S_{q}(Y,B)\to S_{p+q}(X\times Y,(X\times B)\cup (A\times Y)),\quad([a],[b])=[a\times b]$$is a cross product, i.e. extends the three properties. 
 
+^6ff457
+
 > [!proof]-
 > We first show that this is well-defined.
 > 1. Let $a-a'\in S_{p}(A)$ and $b-b'\in S_{q}(B)$, $$\begin{align}a\times b-a'\times b'&=(a-a'+a')\times (b-b'+b')-a'\times b'\\&=\underbrace{ (a-a') \times(b-b') }_{ \in S_{p+q}(A\times B) }+\underbrace{ (a-a')\times b' }_{ \in S_{p+q}(A\times Y) }+\underbrace{ a'\times(b-b') }_{ \in S_{p+q}(X\times B) }\in S_{p+q}((X\times B)\cup (A\times Y))\end{align}$$
 > 2. For continuous maps $f:(X,A)\to(X,A')$ and $g:(Y,B)\to(Y',B')$, we have that for all $[a]\in S_{p}(X,A)$ and $[b]\in S_{p}(Y,B)$, $$\begin{align}(f\times g)_{c}([a]\times [b])=(f\times g)_{c}[a\times b]=[f_{c}(a)\times g_{c}(b)]\end{align}$$
+
+^cbd460
+
 ---
 > [!lemma] Theorem 4
 > Let $X$ be a topological space and $\mathcal{U}:=\{ U_{\alpha} \}_{\alpha\in \mathcal{A}}$ be a collection of subsets of $X$ s.t. $\{ U_{\alpha}^\circ \}_{\alpha\in \mathcal{A}}$ is a covering of $X$. We say that $Q\subseteq X$ is $\mathcal{U}$-small, if there exists $\alpha\in \mathcal{A}$ with $Q\subseteq U_{\alpha}$. Let: $$S^\mathcal{U}_{p}(X):=\left\{  \sum_{\sigma}^{}n_{\sigma}\sigma: \sigma(\Delta_{p})\text{ is }\mathcal{U}\text{-small}  \right\}\subseteq S_{p}(X)$$Then, $\partial(S_{p}^\mathcal{U}(X))\subseteq S_{p-1}^{\mathcal{U}}(X)$ as if $\sigma$ is $\mathcal{U}$-small then so is $\sigma^{(i)}$ for all $i\in[p]$. Therefore, $\mathcal{S}^{\mathcal{U}}(X)$ is a subcomplex of $\mathcal{S}(X)$. Let  be 
 > 1. the inclusion $i^{\mathcal{U}}:\mathcal{S}^\mathcal{U}(X)\to \mathcal{S}(X)$ induces an isomorphism $i^\mathcal{U}_{*}:H_{p}(\mathcal{S}^\mathcal{U}(X))\to H_{p}(X)$
+
+^89608f
 
 > [!proof]-
 > Consider $\Delta_{q}\subseteq \mathbb{R}^{q+1}$. Let $L_{p}(\Delta_{q})\subseteq S_{p}(\Delta_{q})$ defined as the subgroup generated by affine singular $p$-simplices, i.e. $\sigma:\Delta_{p}\to\Delta_{q}$ where $\sigma=[v_{0},\dots,v_{p}]$ with $v_{0},\dots,v_{p}\in \Delta_{q}$ s.t.: $$\sigma\left( \sum_{i=0}^{p}\lambda_{i}e_{i} \right)=\sum_{i=0}^{p}\lambda_{i}v_{i}$$Then, $\partial\sigma=\sum_{j=0}^{p}(-1)^j\sigma^{(j)}=\sum_{j=0}^{p}(-1)^j[v_{0},\dots,\widehat{v_{j}},\dots,v_{p}]\in L_{p-1}(\Delta_{q})$ and $\mathcal{L}(\Delta_{q})\subseteq \mathcal{S}(\Delta_{q})$ is a subcomplex. 
@@ -140,11 +162,15 @@
 >    
 >    
 
-- **Corollary**: For $\mathcal{S}^\mathcal{U}(X,A):=\mathcal{S}^\mathcal{U}(X) / \mathcal{S}^{\mathcal{U}\cap A}(A)$, $i:\mathcal{S}^\mathcal{U}(X,A)\to \mathcal{S}(X,A)$ induces an isomorphism in homology as: $0\to \mathcal{S}^{\mathcal{U}\cap A}(A)\to \mathcal{S}^\mathcal{U}(X)\to \mathcal{S}^\mathcal{U}(X,A)\to 0$ is a SES and by [[Chain Complex|Theorem 3]] and [[Exact Sequence|5-lemma]], we have that the middle map is an isomorphism.
+^7f1d9b
+
+- **Corollary**: For $\mathcal{S}^\mathcal{U}(X,A):=\mathcal{S}^\mathcal{U}(X) / \mathcal{S}^{\mathcal{U}\cap A}(A)$, $i:\mathcal{S}^\mathcal{U}(X,A)\to \mathcal{S}(X,A)$ induces an isomorphism in homology as: $0\to \mathcal{S}^{\mathcal{U}\cap A}(A)\to \mathcal{S}^\mathcal{U}(X)\to \mathcal{S}^\mathcal{U}(X,A)\to 0$ is a SES and by [[Chain Complex|Theorem 3]] and [[Exact Sequence|5-lemma]], we have that the middle map is an isomorphism. ^165d4d
  ```tikz
 \usepackage{tikz-cd}\begin{document}\begin{tikzcd} [column sep=tiny]{...} & {H_{p}(\mathcal{S}^{\mathcal{U}\cap A}(A))} & {H_{p}(\mathcal{S}^\mathcal{U}(X))} & {H_{p}(\mathcal{S}^{\mathcal{U}}(X,A))} & {H_{p-1}(\mathcal{S}^{\mathcal{U}\cap A}(A))} & {H_{p-1}(\mathcal{S}^\mathcal{U}(X))} & {...} \\ {...} & {H_p(A)} & {H_p(X)} & {H_p(X,A)} & {H_{p-1}(A)} & {H_{p-1}(X)} & {...} \arrow[from=1-1, to=1-2] \arrow[from=1-2, to=1-3] \arrow["{i_*}"', from=1-2, to=2-2] \arrow[from=1-3, to=1-4] \arrow["{i_*}"', from=1-3, to=2-3] \arrow[from=1-4, to=1-5] \arrow[from=1-4, to=2-4] \arrow[from=1-5, to=1-6] \arrow["{i_*}"', from=1-5, to=2-5] \arrow[from=1-6, to=1-7] \arrow["{i_*}"', from=1-6, to=2-6] \arrow[from=2-1, to=2-2] \arrow[from=2-2, to=2-3] \arrow[from=2-3, to=2-4] \arrow[from=2-4, to=2-5] \arrow[from=2-5, to=2-6] \arrow[from=2-6, to=2-7]\end{tikzcd}
 \end{document} 
 ```
+
+^5d7b19
 
 	
 > 
@@ -152,6 +178,8 @@
 ---
 > [!lemma] Theorem 3
 > The singular homology $H(\cdot;G)$ is a [[homology theory]] with coefficient group $G$.
+
+^1bc43d
 
 > [!proof]-
 > We have that:
@@ -165,12 +193,17 @@
 > 	
 > 	Hence, for $f_{0},f_{1}:(X,A)\to(Y,B)$ be continuous with $f_{1}\sim f_{0}$, we have a homotopy $F:(I,\varnothing)\times(X,A)\to (Y,B)$ and we have that $F\circ \eta_{0}=f_{0}$ and $F \circ \eta_{1}=f_{1}$. We have that: $$F_{c}:S_{p}(I\times X,I\times A)\to S_{p}(Y,B)$$and: $$\begin{align}\partial \circ (F_{c}\circ D)+(F_{c} \circ  D) \circ  \partial&=F_{c}\circ (\partial D+D\partial)\\&=F_{c}\circ ((\eta_{1})_{c}-(\eta_{0})_{c})\\&=(f_{1})_{c}-(f_{0})_{c}\end{align}$$As $F_{c}\circ D:S_{p}(X,A)\to S_{p+1}(Y,B)$ is a chain homotopy, $(f_{1})_{c}\sim(f_{0})_{c}$. The statement follows from [[Chain Homotopy|Proposition 1]].
 > 2. **Excision**: Let $X$ be a topological space and $B\subseteq A\subseteq X$ s.t. $\overline{B}\subseteq A^\circ$. Then, take $\mathcal{U}:=\{ A,X \backslash B \}$ whose interiors form a cover. Indeed, $$A^\circ \cup (X \backslash B)^\circ =A^\circ \cup X \backslash \overline{B} \supseteq A^\circ  \cup X \backslash A^\circ =X$$Then, we have by [[Group Homomorphism|Second isomorphism theorem]]: $$\begin{align}S_{p}(X \backslash B) / S_{p}(A \backslash B)&=S_{p}(X \backslash B) / S_{p}(A )\cap S_{p}(X \backslash B)\\&\cong (S_{p}(X \backslash B)+S_{p}(A)) / S_{p}(A)=S_{p}^{\mathcal{U}}(X) / S_{p}(A)\end{align}$$Let $\psi:S_{p}(X \backslash B) / S_{p}(A \backslash B)\to S_{p}^{\mathcal{U}}(X) / S_{p}(A)$ be such an isomorphism. Further, let $\varphi:S_{p}^{\mathcal{U}}(X) / S_{p}(A) \to S_{p}(X) / S_{p}(A)$ be the inclusion. Then, for $k:=\varphi \circ\psi$ given by the inclusion, we have that: $k_{*}:= \varphi_{*}\circ\psi_{*}$ where $\varphi_{*}$ is an isomorphism by the previous corollary and $\psi_{*}$ is an isomorphism. Hence, $k_{*}$ is an isomorphism. 
+
+^c1b606
+
 ---
 > [!lemma] Theorem 4 (Mayer-Vietoris)
 > Let $X$ be a topological space and $A,B\subseteq X$ s.t. $A^\circ\cup B^\circ=X$. Let $\mathcal{U}:=\{ A,B \}$. Further, $$i^A_:A\cap B\to A,\quad i^B:A\cap B\to B,\quad j^A:A\to X,\quad j^B:B\to X$$ be inclusions. Then, 
 > 1. $0 \to \mathcal{S}(A\cap B)\xrightarrow{i^A_{c}\oplus i^B_{c}} \mathcal{S}(A)\oplus \mathcal{S}(B)\xrightarrow{j^A_{c}-j^B_{c}}\mathcal{S}^{\mathcal{U}}(X)\to 0$ is a SES of chain complexes.
 > 2. There exists a LES given by: $$\dots\to H_{p}(A\cap B)\to H_{p}(A)\oplus H_{p}(B)\to H_{p}(X)\xrightarrow{\delta}H_{p-1}(A\cap B)\to\dots$$
 > 3. if $A\cap B\neq \varnothing$, then $\delta(H_{1}(X))\subseteq \tilde{H}_{0}(A\cap B)$ and: $$\dots\to \tilde{H}_{p}(A\cap B)\to \tilde{H}_{p}(A)\oplus \tilde{H}_{p}(B)\to \tilde{H}_{p}(X)\xrightarrow{\delta}\tilde{H}_{p-1}(A\cap B)\to\dots$$
+
+^39ff02
 
 > [!proof]-
 > We have that 
@@ -187,5 +220,8 @@
 >      We have that $\text{im } i^A_{*}\oplus i^B_{*} \subseteq \text{ker }j^A_{*}-j^B_{*}$. Conversely, let $(a,b)\in \tilde{H}_{0}(A)\oplus \tilde{H}_{0}(B)$ s.t. $j^A_{*}(a)-j^B_{*}(b)=0$. Then, there exists $x\in H_{0}(A\cap B)$ with $i^A_{*}(x)=a$ and $i^B_{*}(x)=b$. However, $$\varepsilon_{*}(x)=\varepsilon_{*}(i^A_{*}\oplus  i^B_{*}(x))=(\varepsilon^A_{*}(a),\varepsilon^B_{*}(b))=0$$
 >    - **Exactness at $\tilde{H}_{0}(X)$**:
 >      To show that $j^A_{*}-j^B_{*}$ is surjective, let $x\in \tilde{H}_{0}(X)\subseteq H_{0}(X)$. Then, there exists $(a,b)\in H_{0}(A)\oplus H_{0}(B)$ with $j^A_{*}(a)-j^B_{*}(b)=x$. We now only have that: $$\varepsilon_{*}(a,b)=\varepsilon_{*}(j^A_{*}(a)-j^B_{*}(b))=\varepsilon_{*}(x)=0$$Hence, $(a,b)\in \tilde{H}_{0}(A)\oplus \tilde{H}_{0}(B)$.
+
+^a3eb8e
+
 ---
 
