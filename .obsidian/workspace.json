@@ -118,12 +118,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Homotopy.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homotopy"
+              "title": "Quotient Topology"
             }
           }
         ],
@@ -273,6 +273,7 @@
   },
   "active": "842b56bd8ed50217",
   "lastOpenFiles": [
+    "Topology/Homotopy.md",
     "Topology/Real Projective Space.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
@@ -284,7 +285,6 @@
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Information Theory/Relative Entropy.md",
-    "Topology/Homotopy.md",
     "Topology/Wedge Product.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Exact Sequence.md",
