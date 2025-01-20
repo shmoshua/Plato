@@ -143,6 +143,8 @@
 > 3. If we identify the map with $\gamma_{n}$ and factor $\gamma_{n}=p_{\sigma} \circ f_{\sigma}$ for $p_{\sigma}:K^{(n)}\to S^n$ for all $\sigma\in I_{n}$, it holds that $p_{\sigma} \circ f_{\sigma'}=*$ for all $\sigma'\neq\sigma\in I_{n}$. 
 > 5. $\oplus(f_{\sigma})_{*}:\bigoplus_{\sigma\in I_{n}}H_{p}(I^n, \partial I^n)\to H_{p}(K^{(n)},K^{(n-1)})$ is an isomorphism for all $p\in \mathbb{Z}$.
 
+^9c79d3
+
 > [!proof]-
 > We have that:
 > 1. $f_{\sigma}(\partial I^n)\subseteq K^{(n-1)}$ and therefore, it gets sent to $*$ in $S^n$. 
@@ -163,6 +165,9 @@
 > 		5. for each $\sigma\in I_{n}$, $f_{\sigma}|_{I^n_{\varepsilon}}:I^n_{\varepsilon}\to f_{\sigma}(I^n_{\varepsilon})$ is a homeomorphism as $I^n_{\varepsilon}\subseteq (I^n)^\circ$. We can concluding by noting that: $$\bigsqcup_{\sigma\in I_{n}}f_{\sigma}(I^n_{\varepsilon})=K^{(n)} \backslash \left(K^{(n-1)}\cup\bigsqcup_{\sigma\in I_{n}}^{}f_{\sigma}(I^n \backslash I^n_{\varepsilon})\right)=K^{(n)} \backslash K^{(n-1)_{\varepsilon}}$$
 > 	
 > 		This shows that $f_{*}$ is an isomorphism and so is $\oplus(f_{\sigma})_{*}$ for $p\in \mathbb{Z}$ . 
+
+^1fc272
+
 ---
 > [!lemma] Theorem 7
 > For a CW-complex $K$, we have that:

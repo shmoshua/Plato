@@ -350,6 +350,12 @@
 ![[Smash Product#^89a8b9|p]]
 
 ---
-#### 3.2 
+#### 3.2 Homology of a CW-complex
 ![[CW-Complex#^a62a3e]]
 ![[CW-Complex#^398a0d|p]]
+
+---
+![[CW-Complex#^9c79d3]]
+![[CW-Complex#^1fc272|p]]
+
+---
