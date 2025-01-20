@@ -150,4 +150,7 @@
 > 1. $\mathcal{A}\oplus \mathcal{B}$ is obviously a chain complex.
 > 2. We have that: $$Z_{p}(\mathcal{A}\oplus  \mathcal{B})=\text{ker}(\partial_{p})=\text{ker}(\partial^A)\oplus \text{ker}(\partial^B)=Z_{p}(\mathcal{A})\oplus  Z_{p}(\mathcal{B})$$Further, $$B_{p}(\mathcal{A}\oplus \mathcal{B})=\text{im}(\partial)=\text{im}(\partial^A)\oplus \text{im}(\partial^B)=B_{p}(\mathcal{A})\oplus B_{p}(\mathcal{B})$$
 >    Therefore, $$H_{p}(\mathcal{A}\oplus \mathcal{B}):= Z_{p}(\mathcal{A}\oplus  \mathcal{B}) / B_{p}(\mathcal{A}\oplus \mathcal{B})\cong Z_{p}(\mathcal{A})/ B_{p}(\mathcal{A})\oplus Z_{p}(\mathcal{B})/ B_{p}(\mathcal{B})=H_{p}(\mathcal{A})\oplus H_{p}(\mathcal{B})$$
+
+^a19c7a
+
 ---

@@ -188,7 +188,7 @@
 
 ---
 ![[Chain Complex#^f95ddc]]
-![[Chain Complex#^9e1022|p]]
+![[Chain Complex#^a19c7a|p]]
 
 ---
 ##### 2.3.4 Reduced Homology
@@ -202,7 +202,7 @@
 
 ---
 ![[Reduced Homology#^f3d014]]
-![[Reduced Homology#^c5acbf|[p]]
+![[Reduced Homology#^c5acbf|p]]
 
 ---
 ##### 2.3.5 Acyclic Space
