@@ -145,12 +145,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Relative Entropy.md",
+                "file": "Probability Theory/Moment.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Relative Entropy"
+              "title": "Moment"
             }
           }
         ],
@@ -300,6 +300,8 @@
   },
   "active": "4043abd04c3961be",
   "lastOpenFiles": [
+    "Information Theory/Relative Entropy.md",
+    "Information Theory/Entropy.md",
     "Information Theory/Mutual Information.md",
     "Measure Theory/Convergence in Measure.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
@@ -323,9 +325,7 @@
     "Topology/Retract.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Relative Homology.md",
-    "Information Theory/Relative Entropy.md",
     "Algebra/Exact Sequence.md",
-    "Differential Geometry/Euler Characteristic.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
