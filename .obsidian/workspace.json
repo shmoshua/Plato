@@ -89,12 +89,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Wedge Product.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Wedge Product"
+              "title": "Homology Theory"
             }
           },
           {
@@ -299,9 +299,10 @@
   },
   "active": "464ee18910056598",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Wedge Product.md",
-    "Topology/Complex Projective Space.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Complex Projective Space.md",
     "Topology/Lift.md",
     "Differential Geometry/Submersion.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
@@ -311,7 +312,6 @@
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Quotient Topology.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
