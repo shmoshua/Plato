@@ -145,12 +145,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Convergence in Measure.md",
+                "file": "Information Theory/Relative Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convergence in Measure"
+              "title": "Relative Entropy"
             }
           }
         ],
@@ -300,6 +300,8 @@
   },
   "active": "4043abd04c3961be",
   "lastOpenFiles": [
+    "Information Theory/Mutual Information.md",
+    "Measure Theory/Convergence in Measure.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Homology Theory.md",
@@ -324,8 +326,6 @@
     "Information Theory/Relative Entropy.md",
     "Algebra/Exact Sequence.md",
     "Differential Geometry/Euler Characteristic.md",
-    "Functional Analysis/L1 Space on d-regular Trees.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
