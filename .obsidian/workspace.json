@@ -153,8 +153,7 @@
               "title": "Probabilistic AI Roadmap"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -298,13 +297,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "de3bc5cb787a39d8",
+  "active": "464ee18910056598",
   "lastOpenFiles": [
-    "Representation Theory/Tensor Product.md",
     "Topology/Lift.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Algebra/Chain Complex.md",
+    "Representation Theory/Tensor Product.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Homology Theory.md",
@@ -317,7 +317,6 @@
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Retract.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Information Theory/Relative Entropy.md",
     "Algebra/Exact Sequence.md",
