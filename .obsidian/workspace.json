@@ -89,12 +89,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Topology/Wedge Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lift"
+              "title": "Wedge Product"
             }
           },
           {
@@ -103,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Euler Characteristic.md",
+                "file": "Differential Geometry/Submersion.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Euler Characteristic"
+              "title": "Submersion"
             }
           },
           {
@@ -299,8 +299,12 @@
   },
   "active": "464ee18910056598",
   "lastOpenFiles": [
-    "Topology/Lift.md",
+    "Topology/Wedge Product.md",
+    "Topology/Complex Projective Space.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Lift.md",
+    "Differential Geometry/Submersion.md",
+    "Topology/Algebraic Topology/Euler Characteristic.md",
     "Algebra/Chain Complex.md",
     "Representation Theory/Tensor Product.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
@@ -309,12 +313,10 @@
     "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Topology/Wedge Product.md",
     "Topology/Quotient Topology.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Homotopy.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Retract.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Relative Homology.md",
@@ -323,8 +325,6 @@
     "Differential Geometry/Euler Characteristic.md",
     "Functional Analysis/L1 Space on d-regular Trees.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Courses/Probabilistic AI/Homework 4.md",
-    "Differential Geometry/Differential.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
