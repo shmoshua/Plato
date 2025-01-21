@@ -145,15 +145,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Measure Theory/Convergence in Measure.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probabilistic AI Roadmap"
+              "title": "Convergence in Measure"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -297,11 +298,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "464ee18910056598",
+  "active": "4043abd04c3961be",
   "lastOpenFiles": [
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Wedge Product.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Complex Projective Space.md",
     "Topology/Lift.md",
     "Differential Geometry/Submersion.md",
@@ -312,7 +314,6 @@
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Quotient Topology.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Homotopy.md",
