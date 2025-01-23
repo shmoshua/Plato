@@ -66,7 +66,16 @@
 ^8e99d6
 
 ---
-> [!lme]
+> [!lemma] Proposition 4 (Concavity of Entropy)
+> We have that: 
+> 1. $H:\Delta(\mathcal{X})\to \mathbb{R}, p\mapsto H(p)$ is [[Convex Function|concave]].
+
+^8e1dbc
+
+> [!proof]-
+> Let $p,q\in \Delta(\mathcal{X})$. Let $Y\sim \text{Ber}(\lambda)$ and we define $X$ s.t. $X|Y=1\sim p$ and $X|Y=0\sim q$. Then, $$H(X|Y)=\lambda H(X|Y=1)+(1-\lambda)H(X|Y=0)=\lambda H(p)+(1-\lambda)H(q)$$Therefore, $p_{X}(x)=\lambda p(x)+(1-\lambda)q(x)$ and $$H(\lambda p+(1-\lambda)q)=H(X)\geq H(X|Y)= \lambda H(p)+(1-\lambda)H(q)$$from Proposition 3.4.
+
+^38bd1d
 
 ---
 > [!lemma] Theorem (Fano's Inequality)

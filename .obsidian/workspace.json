@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -97,8 +97,23 @@
               "icon": "lucide-file",
               "title": "Mutual Information"
             }
+          },
+          {
+            "id": "9ffd069f02b286fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Theory/Entropy.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Entropy"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,11 +257,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6940945c5002450d",
+  "active": "b2f96fe97e4c1bb6",
   "lastOpenFiles": [
-    "Courses/Information Theory/Information Theory Roadmap.md",
-    "Information Theory/Mutual Information.md",
     "Information Theory/Entropy.md",
+    "Information Theory/Mutual Information.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Information Theory/Relative Entropy.md",
     "Analysis/Convex Function.md",

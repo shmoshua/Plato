@@ -1,8 +1,9 @@
 #Definition #InformationTheory 
 
 > [!definition]
-> For two discrete random variables $X,Y$ in $\mathcal{X},\mathcal{Y}$, 
+> For discrete random variables $X,Y,Z$ in $\mathcal{X},\mathcal{Y},\mathcal{Z}$, 
 > 1. the ***mutual information*** of $X,Y$ is given by: $$I(X;Y):=H(X) - H(X|Y)=H(Y)-H(Y|X)$$
+> 2. the ***conditional mutual information*** of $X,Y$ given $Z$ is given as: $$I(X;Y|Z)=\mathbb{E}_{Z}[I(X;Y|Z=z)]$$where $I(X;Y|Z=z):=D(p_{XY|Z=z},p_{X|Z=z}\cdot p_{Y|Z=z})$.
 
 ^b7d647
 
@@ -24,7 +25,7 @@
 > 1. From [[Entropy|Proposition 3.2]].
 > 1. Observe that: $$I(X;Y)=\mathbb{E}_{X,Y}\left[ \log \frac{p_{X|Y}(X|Y)}{p_{X}(X)} \right]=\mathbb{E}_{X,Y}\left[ \log \frac{p_{XY}(X,Y)}{p_{X}(X)p_{Y}(Y)} \right]=D(p_{XY}\|p_{X}\cdot p_{Y})$$
 > 2. From [[Relative Entropy|Information inequality]] we have that $I(X;Y)=D(p_{XY}\|p_{X}\cdot p_{Y})\geq 0$. The upper bound holds from the fact that entropy is non-negative.
-> 3. Holds from [[]].
+> 3. Holds from [[Entropy|Proposition 3.4]].
 > 4. We have: $$\begin{align}H(X,Y)-H(X,Y|Z)&=H(X)+H(Y|X)-H(X|Z)-H(Y|X,Z)\\&=I(X;Z)+I(Y;Z|X)\end{align}$$The other one holds by symmetry.
 
 ^7e7455
