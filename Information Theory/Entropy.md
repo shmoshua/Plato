@@ -79,11 +79,16 @@
 
 ---
 > [!lemma] Theorem (Fano's Inequality)
-> Let $X,Y$ be random variables over $\mathcal{X}$ and $\mathcal{Y}$. Let $\Phi:\mathcal{Y}\to \mathcal{X}$ be a [[Maximum A Posteriori Estimation|maximum a posteriori]] guessing function. Then, $$H(X|Y)\leq H_{b}(P_{e})+P_{e}\log(\left| \mathcal{X} \right| -1)$$where $P_{e}:=\mathbb{P}(\Phi(Y)\neq X)$.
+> Let $X,Y$ be jointly distributed over $\mathcal{X}\times \mathcal{Y}$ and let $\phi:\mathcal{Y}\to \mathcal{X}$ be a function. Then, $$H(X|Y)\leq H_{b}(\eta)+\eta \cdot \log(\left| \mathcal{X} \right| -1)$$where $\eta:=\mathbb{P}(\phi(Y)\neq X)$ and $H_{b}(\eta)=H(\text{Ber}(\eta))$.
+
+^730b6a
 
 > [!proof]-
-> Given $\Phi:\mathcal{Y}\to \mathcal{X}$, we have that:
-> $$H(X,\mathbb{1}_{\{ \Phi(Y)\neq X \}}|Y)=H(X|Y)+\underbrace{ H(\mathbb{1}_{\{ \Phi(Y)\neq X \}}|X,Y) }_{ =0 }$$ Therefore, $$\begin{align}H(X|Y)&=H(\mathbb{1}_{\{ \Phi(Y)\neq X \}}|Y)+H(X|Y,\mathbb{1}_{\{ \Phi(Y)\neq X \}})\\&\leq H(\mathbb{1}_{\{ \Phi(Y)\neq X \}})+\mathbb{P}(\Phi(Y)= X)\underbrace{ H(X|Y,\Phi(Y)=X) }_{ =0 }+\mathbb{P}(\Phi(Y)\neq X)H(X|Y,\Phi(Y)\neq X)\\&\le H_{b}(P_{e})+P_{e}\log(\left| \mathcal{X} \right| -1)\end{align}$$
+> Given $\phi:\mathcal{Y}\to \mathcal{X}$, we have that:
+> $$H(X,\mathbb{1}_{\{ \phi(Y)\neq X \}}|Y)=H(X|Y)+\underbrace{ H(\mathbb{1}_{\{ \phi(Y)\neq X \}}|X,Y) }_{ =0 }$$as $\mathbb{1}_{\phi(Y)\neq X}|X,Y$ is determinstic. Therefore, $$\begin{align}H(X|Y)&=H(X,\mathbb{1}_{\{ \phi(Y)\neq X \}}|Y)\\&=H(\mathbb{1}_{\{ \phi(Y)\neq X \}}|Y)+H(X|Y,\mathbb{1}_{\{ \phi(Y)\neq X \}})\\&\leq H_{b}(\eta)+\mathbb{P}(\phi(Y)= X)\underbrace{ H(X|Y,\phi(Y)=X) }_{ =0 }+\mathbb{P}(\phi(Y)\neq X)H(X|Y,\phi(Y)\neq X)\\&\le H_{b}(\eta)+\eta\log(\left| \mathcal{X} \right| -1)\end{align}$$
+
+^9dcdf7
+
 ---
 ##### Examples
 > [!h] Example 1 (Bernoulli distribution)

@@ -63,8 +63,7 @@
               "title": "Mutual Information"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -112,8 +111,7 @@
               "title": "Entropy"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,12 +255,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ffd069f02b286fd",
+  "active": "464ee18910056598",
   "lastOpenFiles": [
-    "Information Theory/Mutual Information.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Entropy.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Information Theory/Mutual Information.md",
     "Information Theory/Relative Entropy.md",
     "Analysis/Convex Function.md",
     "Probability Theory/Expected Value.md",

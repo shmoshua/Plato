@@ -44,3 +44,13 @@
 ---
 ![[Entropy#^8e1dbc]]
 ![[Entropy#^38bd1d|p]]
+
+---
+##### 1.1.4 Fano's Inequality
+![[Entropy#^730b6a]]
+![[Entropy#^9dcdf7|p]]
+
+---
+### 2. Source Codes
+![[Code#^bc3afd]]
+![[Code#^a0f71e]]
