@@ -7,20 +7,29 @@
 > 3. the ***conditional entropy*** of $X$ given $Y$ is given as:$$H(X|Y)=\sum_{y}^{}p_{Y}(y)H(X|Y=y)=-\sum_{x,y}^{}p_{XY}(x,y)\log p(x|y)=-\mathbb{E}(\log p(X | Y))$$
 
 ^2cc2de
-- **Related definition**:
+
+- **Related definition**: the ***self-information*** of $X$ is given by $i_{X}:\text{supp }p_{X}\to \mathbb{R},a\mapsto \log \frac{1}{p_{X}(a)}$. ^09ddcf
 - **Remark**: The joint entropy is symmetric.
 ---
 ##### Properties
 > [!lemma] Lemma 1 (Properties of Entropy)
-> We have that:
+> Let $X$ be a discrete RV.
 > 1. $0\leq H(X) \leq \log \left| \mathcal{X} \right|$
 > 2.  $0=H(X)$ if and only if $X$ is deterministic.
 > 3. $H(X)=\log \left| \mathcal{X} \right|$ if and only if $X\sim \text{Uni}(\mathcal{X})$.
+> 4. $H(X)=\mathbb{E}_{X}[i_{X}(X)]$.
 
-> [!proof]+
+^bf1bbb
+
+> [!proof]-
 > We have that:
-> 1. $p_{X}(\mathcal{X})\subseteq[0,1]$ and $\log \frac{1}{p_{X}(x)}\subseteq[0,\infty)$ for all $x\in \mathcal{X}$.  Further, for the second inequality, for all 
-> 2. 
+> 1. $p_{X}(\mathcal{X})\subseteq[0,1]$ and $\log \frac{1}{p_{X}(x)}\subseteq[0,\infty)$ for all $x\in \mathcal{X}$.  Further, the second inequality trivially holds.
+> 2. If $H(X)=0$, then by [[Expected Value|Theorem 3.1]] $\log \frac{1}{p_{X}(x)}=0$ almost surely and $p_{X}(x)=1$ almost surely in $\text{supp }p_{X}$. Hence, $\{ x \}=\text{supp }p_{X}$. Conversely, if it's deterministic the statement holds.
+> 3. Analogous.
+> 4. Obvious.
+
+^049dcb
+
 ---
 > [!lemma] Lemma 2 (Properties of Conditional Entropy)
 > We have:

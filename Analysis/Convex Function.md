@@ -1,8 +1,10 @@
 #Definition #FunctionalAnalysis 
 
 > [!definition]
-> Let $X$ be a [[Convex Set|convex subset]] of a $\mathbb{R}$-vector space and $f:X\to \mathbb{R}$ be a function. $f$ is ***convex*** if for all $x,y\in X$ and $t\in[0,1]$, we have:$$f(tx+(1-t)y)\leq tf(x)+(1-t)f(y)$$
-- **Related definition**: $f$ is ***concave*** if $-f$ is convex.
+> Let $X$ be a [[Convex Set|convex subset]] of a $\mathbb{R}$-vector space and $f:X\to \mathbb{R}$ be a function. 
+> 1. $f$ is ***convex*** if for all $x,y\in X$ and $t\in[0,1]$, we have:$$f(tx+(1-t)y)\leq tf(x)+(1-t)f(y)$$
+> 2. $f$ is ***strictly convex*** if for all $x,y\in X$ and $t\in(0,1)$, we have:$$f(tx+(1-t)y)< tf(x)+(1-t)f(y)$$
+- **Related definition**: $f$ is ***(strictly) concave*** if $-f$ is (strictly) convex.
 ---
 ##### Properties
 > [!lemma] Proposition 1

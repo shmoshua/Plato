@@ -3,13 +3,15 @@
 ### 1. Basic Definitions
 #### 1.1 Entropy
 ![[Entropy#^2cc2de]]
+![[Entropy#^09ddcf]]
 
 ---
-
-![[Entropy#^f62e41]]
-![[Entropy#^8e99d6|p]]
+![[Entropy#^bf1bbb]]
+![[Entropy#^049dcb|p]]
 
 ---
-#### 1.2 Mutual Information
+##### 1.1.2 Relative Entropy
 
-H(P) is concave.
+![[Relative Entropy#^c8e329]]
+
+---

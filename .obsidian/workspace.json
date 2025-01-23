@@ -13,54 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Courses/Information Theory/Information Theory Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lift"
-            }
-          },
-          {
-            "id": "2e8575f5ec7f1a52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML Theory/Reinforcement Learning/Markov Decision Process.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Markov Decision Process"
-            }
-          },
-          {
-            "id": "4b59114e98643804",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Algebraic Topology I Roadmap"
-            }
-          },
-          {
-            "id": "c3a6b44c418833b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Entropy.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "Information Theory Roadmap"
             }
           },
           {
@@ -76,9 +34,37 @@
               "icon": "lucide-file",
               "title": "Entropy"
             }
+          },
+          {
+            "id": "e6e2ea3193e7007d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Theory/Relative Entropy.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Relative Entropy"
+            }
+          },
+          {
+            "id": "87ad6422ee7710b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Convex Function.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Convex Function"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -104,16 +90,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Analysis/Convex Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "Convex Function"
             }
           },
           {
             "id": "2531b62861e92acf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Theory/Relative Entropy.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Relative Entropy"
+            }
+          },
+          {
+            "id": "b2f96fe97e4c1bb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -127,7 +127,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -271,11 +271,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "de3bc5cb787a39d8",
+  "active": "e6e2ea3193e7007d",
   "lastOpenFiles": [
     "Probability Theory/Expected Value.md",
-    "Information Theory/Entropy.md",
+    "Information Theory/Relative Entropy.md",
+    "Analysis/Convex Function.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Entropy.md",
+    "Topology/Lift.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
@@ -283,13 +286,11 @@
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
     "Probability Theory/Moment.md",
-    "Information Theory/Relative Entropy.md",
     "Information Theory/Mutual Information.md",
     "Measure Theory/Convergence in Measure.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Wedge Product.md",
     "Topology/Complex Projective Space.md",
-    "Topology/Lift.md",
     "Algebra/Chain Complex.md",
     "Representation Theory/Tensor Product.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
@@ -298,7 +299,6 @@
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Homotopy.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Retract.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
