@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -257,11 +257,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b2f96fe97e4c1bb6",
+  "active": "9ffd069f02b286fd",
   "lastOpenFiles": [
-    "Information Theory/Entropy.md",
     "Information Theory/Mutual Information.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Entropy.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Information Theory/Relative Entropy.md",
     "Analysis/Convex Function.md",
