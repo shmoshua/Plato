@@ -55,15 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Euler Characteristic.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Euler Characteristic"
+              "title": "Entropy"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -75,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+                "file": "Courses/Information Theory/Information Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology I Roadmap"
+              "title": "Information Theory Roadmap"
             }
           },
           {
@@ -89,72 +90,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
-            }
-          },
-          {
-            "id": "6b48602334d4b1d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Submersion.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Submersion"
-            }
-          },
-          {
-            "id": "842b56bd8ed50217",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/CW-Complex.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "CW-Complex"
-            }
-          },
-          {
-            "id": "4590bdf5d68ca108",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Real Projective Space.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Real Projective Space"
-            }
-          },
-          {
-            "id": "4043abd04c3961be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory/Moment.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Moment"
+              "title": "Entropy"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -298,34 +242,34 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4043abd04c3961be",
+  "active": "464ee18910056598",
   "lastOpenFiles": [
-    "Information Theory/Relative Entropy.md",
     "Information Theory/Entropy.md",
+    "Topology/Algebraic Topology/Euler Characteristic.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Differential Geometry/Submersion.md",
+    "Topology/CW-Complex.md",
+    "Topology/Real Projective Space.md",
+    "Probability Theory/Moment.md",
+    "Information Theory/Relative Entropy.md",
     "Information Theory/Mutual Information.md",
     "Measure Theory/Convergence in Measure.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Wedge Product.md",
     "Topology/Complex Projective Space.md",
     "Topology/Lift.md",
-    "Differential Geometry/Submersion.md",
-    "Topology/Algebraic Topology/Euler Characteristic.md",
     "Algebra/Chain Complex.md",
     "Representation Theory/Tensor Product.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
-    "Topology/CW-Complex.md",
-    "Topology/Real Projective Space.md",
     "Topology/Quotient Topology.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Homotopy.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Retract.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Relative Homology.md",
-    "Algebra/Exact Sequence.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
