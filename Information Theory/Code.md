@@ -33,7 +33,7 @@
 > 1. For a uniquely decodable code $C$, $\sum_{x\in \mathcal{X}}^{}2^{-\ell(x)}\leq 1$.
 > 2. For positive integers $\ell_{1},\dots,\ell_{n}$ s.t. $\sum_{i=1}^{m}2^{-\ell_{i}}\leq 1$, there exists a prefix-free code with $\ell_{1},\dots,\ell_{n}$ as lengths. 
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. For any $k\geq 1$, we have that: $$\begin{align}\left( \sum_{x\in \mathcal{X}}^{}2^{-L(x)} \right)^k&=\sum_{x_{1},\dots,x_{k}}^{}2^{-\sum_{i=1}^{k}L(x_{i})}=\sum_{x\in \mathcal{X}^k}^{}2^{-L(x)}=\sum_{m=1}^{k\cdot \ell_{\max}}a(m)\cdot 2^{-m}\leq k\cdot \ell_{\max}\end{align}$$where $a(m)$ denotes the number of elements in $\mathcal{X}^k$ with code length $m$. Therefore, $$ \sum_{x\in \mathcal{X}}^{}2^{-L(x)} \leq(k\cdot \ell_{\max})^{1/k}\to 1$$
 > 2. Modulo reordering assume that $\ell_{1}\leq\dots\leq \ell_{n}$. Let $S_{k}:=\{ 0,1 \}^k$ with lexicographical ordering. Then, we have the following algorithm.
@@ -53,17 +53,21 @@
 >    $$2^{\ell_{i}}\left( 1-\sum_{k=1}^{i-1}2^{-\ell_{k}} \right)\geq 2^{\ell_{i}}\cdot 2^{-\ell_{i}}=1 $$This proves the statement.
 ---
 > [!lemma] Theorem 3 (Optimal Length)
-> Consider $L^{*}$ to be the optimal solution of the following optimization problem.
-> $$\begin{align}\underset{ \ell_{1},\dots,\ell_{n}\in \mathbb{Z}_{> 0} }{ \min }\quad &\sum_{i=1}^{n}p_{i}\ell_{i}\\\text{subject to}\quad&\sum_{i=1}^{n}2^{-\ell_{i}}\leq 1\end{align}$$
+> Let $\left| \mathcal{X} \right|=:n$ and $p_{1},\dots,p_{n}$ denote a probability distribution on $\mathcal{X}$, i.e. $\sum_{i=1}^{n}p_{i}=1$. Then, for:
+> $$\begin{align}L^{*}:=\underset{ \ell_{1},\dots,\ell_{n}\in \mathbb{Z}_{> 0} }{ \min }\quad &\sum_{i=1}^{n}p_{i}\ell_{i}\\\text{subject to}\quad&\sum_{i=1}^{n}2^{-\ell_{i}}\leq 1\end{align}$$
 > Then, 
 > 1. $H(X)\leq L^{*}< H(X)+1$.
+> 2. $L^{*}$ is the minimal expected length over all uniquely decodable codes.
 
 > [!proof]-
-> Firstly, we will consider the relaxation of the problem where $\ell_{1},\dots,\ell_{n}$ are not necessarily integers. Then, by Lagrange, we have: $$\begin{align}0&=\frac{ \partial  }{ \partial \ell_{i} } \sum_{i=1}^{n}p_i\ell_{i}+\lambda \left( \sum_{i=1}^{n}2^{-\ell_{i}} -1\right)\\&=p_{i}-\lambda \ln 2 \cdot 2^{-\ell_{i}} \end{align}$$Hence, $\ell_{i}=-\log_{2}(p_{i} / \lambda \ln 2)$ for some $\lambda>0$. Then, $$\sum_{i=1}^{n}p_{i} \ell_{i}=\sum_{i=1}^{n}p_{i} \log_{2}\left( \frac{\lambda \ln 2}{p_{i}} \right) =\log_{2}(\lambda \ln 2)-\sum_{i=1}^{}p_{i}\log_{2} p_{i} \geq -\sum_{i=1}^{}p_{i}\log_{2} p_{i} $$where the equality is given when $\lambda=1 / \ln 2$. Hence, $L^{*}\geq-\sum_{i=1}^{n}p_{i}\log_{2}(p_{i})=H(X)$.
+> We have:
+> 1. Firstly, we will consider the relaxation of the problem where $\ell_{1},\dots,\ell_{n}$ are not necessarily integers. Then, by Lagrange, we have: $$\begin{align}0&=\frac{ \partial  }{ \partial \ell_{i} } \sum_{i=1}^{n}p_i\ell_{i}+\lambda \left( \sum_{i=1}^{n}2^{-\ell_{i}} -1\right)\\&=p_{i}-\lambda \ln 2 \cdot 2^{-\ell_{i}} \end{align}$$Hence, $\ell_{i}=-\log_{2}(p_{i} / \lambda \ln 2)$ for some $\lambda>0$. Then, $$\sum_{i=1}^{n}p_{i} \ell_{i}=\sum_{i=1}^{n}p_{i} \log_{2}\left( \frac{\lambda \ln 2}{p_{i}} \right) =\log_{2}(\lambda \ln 2)-\sum_{i=1}^{}p_{i}\log_{2} p_{i} \geq -\sum_{i=1}^{}p_{i}\log_{2} p_{i} $$where the equality is given when $\lambda=1 / \ln 2$. Hence, $L^{*}\geq-\sum_{i=1}^{n}p_{i}\log_{2}(p_{i})=H(X)$.
 > 
-> Conversely, assume $\ell_{i}:= \left\lceil \log_{2} \frac{1}{p_{i}}\right\rceil$. Then, $$L^{*}\leq\sum_{i=1}^{n}p_{i}\ell_{i}<\sum_{i=1}^{n}p_{i}\left( \log_{2} \frac{1}{p_{i}}+1 \right)=H(X)+1$$
-> 
-
+> 	Conversely, assume $\ell_{i}:= \left\lceil \log_{2} \frac{1}{p_{i}}\right\rceil$. Then, $$L^{*}\leq\sum_{i=1}^{n}p_{i}\ell_{i}<\sum_{i=1}^{n}p_{i}\left( \log_{2} \frac{1}{p_{i}}+1 \right)=H(X)+1$$
+> 2. Let $L'$ denote the optimal length over all uniquely decodable codes. Let $\ell_{1},\dots,\ell_{n}$ generate $L^{*}$. Then, by Kraft, there exists a prefix code with $L^{*}$ as expected length. Hence, by Proposition 1.1, $L'\leq L^{*}$. 
+>    
+>    The converse also holds by Kraft. Therefore, $L'=L^{*}$.
+- **Corollary**: By defining the code to be $\kappa$-to-variable, i.e. $C:\mathcal{X}^\kappa\to \{ 0,1 \}^+$, we can reduce the additive error by $H(X)\leq L^{*} / \kappa < H(X)+ 1/\kappa$
 ---
 
 > [!lemma] Theorem 4 (Huffman Codes)

@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Information Theory/n-R code.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "n-R code"
             }
           }
         ],
@@ -229,11 +229,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87ad6422ee7710b7",
+  "active": "b2f96fe97e4c1bb6",
   "lastOpenFiles": [
-    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/n-R code.md",
     "Information Theory/Code.md",
     "Information Theory/Entropy.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Mutual Information.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
@@ -256,7 +257,6 @@
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
     "Topology/Quotient Topology.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
-    "Topology/Homotopy.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
