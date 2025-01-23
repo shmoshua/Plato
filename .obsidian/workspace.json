@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Entropy"
             }
+          },
+          {
+            "id": "6940945c5002450d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Theory/Entropy.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Entropy"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -97,8 +111,23 @@
               "icon": "lucide-file",
               "title": "Entropy"
             }
+          },
+          {
+            "id": "2531b62861e92acf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Expected Value.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Expected Value"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,12 +271,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "464ee18910056598",
+  "active": "de3bc5cb787a39d8",
   "lastOpenFiles": [
+    "Probability Theory/Expected Value.md",
     "Information Theory/Entropy.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Differential Geometry/Submersion.md",
     "Topology/CW-Complex.md",
@@ -269,7 +299,6 @@
     "Topology/Homotopy.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Retract.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
