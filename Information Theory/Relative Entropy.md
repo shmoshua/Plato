@@ -31,8 +31,13 @@
 > Let $\mathcal{X}$ be finite and $q\sim \text{Uni}(\mathcal{X})$. Then, 
 > 1. $D(p\|q)=\log \left| \mathcal{X} \right|-H(p)$.
 
+^c12de7
+
 > [!proof]-
 > We have:
 > 1. Notice that: $$D(p\|q)=\sum_{x\in \text{supp }p}^{}p(x)\log (\left| \mathcal{X} \right| \cdot p(x))=\sum_{x\in \text{supp }p}^{}p(x)\log  p(x)+\log \left| \mathcal{X} \right|=\log \left| \mathcal{X} \right| -H(p)$$
+
+^819eb1
+
 ---
 ![[Entropy^]]

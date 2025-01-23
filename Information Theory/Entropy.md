@@ -3,8 +3,8 @@
 > [!definition]
 > Let $X,Y$ be [[Random Variable|random variables]] over $\mathcal{X}$ and $\mathcal{Y}$. Then, 
 > 1. the **entropy** of $X$ is given as: $$H(X):=\mathbb{E}_{X}\left[ \log \frac{1}{p_{X}(X)}\right] $$
-> 2. the ***joint entropy*** of $X,Y$ is given as: $$H(X,Y):=\mathbb{E}_{p_{XY}}\left[ \log \frac{1}{p_{XY}(X,Y)} \right] $$
-> 3. the ***conditional entropy*** of $X$ given $Y$ is given as:$$H(X|Y)=\sum_{y}^{}p_{Y}(y)H(X|Y=y)=-\sum_{x,y}^{}p_{XY}(x,y)\log p(x|y)=-\mathbb{E}(\log p(X | Y))$$
+> 2. the ***joint entropy*** of $X,Y$ is given as: $$H(X,Y):=\mathbb{E}_{X,Y}\left[ \log \frac{1}{p_{XY}(X,Y)} \right] $$
+> 3. the ***conditional entropy*** of $X$ given $Y$ is given as:$$H(X|Y):=\mathbb{E}_{y\sim p_{Y}}[H(X|Y=y)]=\mathbb{E}_{X,Y}\left[ \log \frac{1}{p_{X|Y}(X|Y)} \right]$$
 
 ^2cc2de
 
@@ -35,12 +35,17 @@
 > [!lemma] Proposition 2 (Properties of Joint Entropy)
 > Let $X,Y$ be random variables over $\mathcal{X}$ and $\mathcal{Y}$. Then, 
 > 1. $H(X,Y)=H(X)+H(Y)$, if $X$ and $Y$ are independent.
-> 2. $H(X,X)=H(X)$
+> 2. $H(X,X)=H(X)$.
 
-> [!proof]+
+^4eec02
+
+> [!proof]-
 > We have that: 
 > 1. $$H(X,Y)=\mathbb{E}\left[ \log \frac{1}{p_{XY}(X,Y)} \right]=\mathbb{E}\left[ \log \frac{1}{p_{X}(X)p_{Y}(Y)} \right]=H(X)+H(Y)$$
 > 2. $$H(X,X)=\sum_{x\in \mathcal{X}}^{}\sum_{x'\in \mathcal{X'}}^{}p_{XX}(x,x')\log \frac{1}{p_{XX}(x,x')}=\sum_{x\in \mathcal{X}}^{}p_{X}(x)\log \frac{1}{p_{X}(x)}=H(X)$$
+
+^6a94ef
+
 ---
 > [!lemma] Proposition 3 (Properties of Conditional Entropy)
 > We have:
@@ -56,12 +61,14 @@
 > 1. $0\leq H(X|Y=y)\leq \log \left| \mathcal{X} \right|$ for all $y$.
 > 2. We have: $$H(X,Y)=-\mathbb{E}(\log p_{XY}(X,Y))=-\mathbb{E}(\log p_{X}(X))-\mathbb{E}(\log p(X|Y))=H(X)+H(Y|X)$$
 > 3. Analogous to 2. 
-> 4. From [[Mutual Information|Lemma 1]].
+> 4. From [[Mutual Information|Lemma 1.3]].
 
 ^8e99d6
 
 ---
+> [!lme]
 
+---
 > [!lemma] Theorem (Fano's Inequality)
 > Let $X,Y$ be random variables over $\mathcal{X}$ and $\mathcal{Y}$. Let $\Phi:\mathcal{Y}\to \mathcal{X}$ be a [[Maximum A Posteriori Estimation|maximum a posteriori]] guessing function. Then, $$H(X|Y)\leq H_{b}(P_{e})+P_{e}\log(\left| \mathcal{X} \right| -1)$$where $P_{e}:=\mathbb{P}(\Phi(Y)\neq X)$.
 
@@ -73,3 +80,5 @@
 > [!h] Example 1 (Bernoulli distribution)
 > Let $X\sim \text{Ber}(p)$ the [[Distribution|Bernoulli distribution]]. Then, 
 > 1. $H(X)=p\log \frac{1}{p}+(1-p)\log \frac{1}{1-p}=:H_{b}(p)$
+
+^1d6ace
