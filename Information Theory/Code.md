@@ -1,15 +1,16 @@
 #Definition #InformationTheory 
 
 > [!definition]
-> For a finite set $\mathcal{X}$, a ***code*** is a map $C:\mathcal{X}\to \{ 0,1 \}^{+}$.
+> For a finite set $\mathcal{X}$, a ***code*** is a map $C:\mathcal{X}\to \{ 0,1 \}^{+}$ where for a set $A$, $A^+:=\bigcup_{i=1}^{\infty}A^i$.
 
 ^bc3afd
 
-- **Related definition**: the length is a function $L:\mathcal{\mathcal{X}}\to \mathbb{N}$ given by $L(x)=\left| C(x) \right|$. ^a0f71e
-- **Related definition**: a code $C$ is ***non-singular*** if $C$ is injective.
-- **Related definition**: an ***extension*** of the code $C$ is a map $$\mathcal{X}^+\to \{ 0,1 \}^+,\quad x_{1}\dots x_{n}\mapsto C(x_{1})\dots C(x_{n})$$
-	A code $C$ is ***uniquely decodable*** if its extension is non-singular.
-- **Related definition**: A code $C$ is ***prefix-free*** or ***instantaneous*** if no codeword is the prefix of another. 
+- **Related definition**: the ***length*** of a code $C$ is a map $\ell:\mathcal{\mathcal{X}}\to \mathbb{N}$ given by $\ell(x)=\left| C(x) \right|$. ^a0f71e
+- **Related definition**: the ***expected description length*** of a code is given as: $$L(C):=\mathbb{E}_{X}[\ell(X)]$$ ^f40365
+- **Related definition**: a code $C$ is ***non-singular*** if $C$ is injective. ^e75eeb
+- **Related definition**: an ***extension*** of the code $C$ is a map $$C^+:\mathcal{X}^+\to \{ 0,1 \}^+,\quad x_{1}\dots x_{n}\mapsto C(x_{1})\dots C(x_{n})$$
+	A code $C$ is ***uniquely decodable*** if its extension is non-singular. ^8239b2
+- **Related definition**: A code $C$ is ***prefix-free*** or ***instantaneous*** if no codeword is the prefix of another.  ^92dedb
 
 ---
 ##### Properties
@@ -18,12 +19,18 @@
 > 1. $C$ is uniquely decodable.
 > 2. $C$ is equivalent to a binary tree where $\mathcal{X}$ are leaves.
 
+^866846
+
 > [!proof]-
-> Assume $C$ is not uniquely decodable. Then, there exists $x_{1}\dots x_{n}$, $y_{1},\dots,y_{m}\in \mathcal{X}$ s.t. $$C(x_{1})\dots C(x_{m})=C(y_{1})\dots C(y_{m})$$Wlog we may assume that $x_{1}\neq y_{1}$ and $L(x_{1})\leq L(y_{1})$. Then, $C(x_{1})$ is clearly a prefix of $C(y_{1})$ and $C$ is not prefix-free.
+> We have: 
+> 1. Assume $C$ is not uniquely decodable. Then, there exists $x_{1}\dots x_{n}$, $y_{1},\dots,y_{m}\in \mathcal{X}$ s.t. $$C(x_{1})\dots C(x_{m})=C(y_{1})\dots C(y_{m})$$Wlog we may assume that $x_{1}\neq y_{1}$ and $\ell(x_{1})\leq \ell(y_{1})$. Then, $C(x_{1})$ is clearly a prefix of $C(y_{1})$ and $C$ is not prefix-free.
+
+^dd6b98
+
 ---
 > [!lemma] Theorem 2 (Kraft's inequality)
 > We have that:
-> 1. For a uniquely decodable code $C$, $\sum_{x\in \mathcal{X}}^{}2^{-L(x)}\leq 1$.
+> 1. For a uniquely decodable code $C$, $\sum_{x\in \mathcal{X}}^{}2^{-\ell(x)}\leq 1$.
 > 2. For positive integers $\ell_{1},\dots,\ell_{n}$ s.t. $\sum_{i=1}^{m}2^{-\ell_{i}}\leq 1$, there exists a prefix-free code with $\ell_{1},\dots,\ell_{n}$ as lengths. 
 
 > [!proof]-
