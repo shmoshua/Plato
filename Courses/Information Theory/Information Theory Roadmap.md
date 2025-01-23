@@ -15,3 +15,7 @@
 ![[Relative Entropy#^c8e329]]
 
 ---
+![[Relative Entropy#^e6cf2f]]
+![[Relative Entropy#^9f110f|p]]
+
+---

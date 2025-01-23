@@ -53,18 +53,14 @@
             "id": "87ad6422ee7710b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Convex Function.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Convex Function"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -82,20 +78,6 @@
               },
               "icon": "lucide-file",
               "title": "Information Theory Roadmap"
-            }
-          },
-          {
-            "id": "de3bc5cb787a39d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Convex Function.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Convex Function"
             }
           },
           {
@@ -118,12 +100,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expected Value"
+              "title": "Entropy"
             }
           }
         ],
@@ -271,13 +253,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e6e2ea3193e7007d",
+  "active": "b2f96fe97e4c1bb6",
   "lastOpenFiles": [
-    "Probability Theory/Expected Value.md",
-    "Information Theory/Relative Entropy.md",
-    "Analysis/Convex Function.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
+    "Analysis/Convex Function.md",
     "Information Theory/Entropy.md",
+    "Information Theory/Relative Entropy.md",
+    "Probability Theory/Expected Value.md",
     "Topology/Lift.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Algebraic Topology/Homology Theory.md",

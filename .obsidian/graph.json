@@ -83,6 +83,13 @@
         "a": 1,
         "rgb": 14228223
       }
+    },
+    {
+      "query": "tag:#InformationTheory  ",
+      "color": {
+        "a": 1,
+        "rgb": 14329627
+      }
     }
   ],
   "collapse-display": true,
@@ -95,6 +102,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.13516413432688712,
+  "scale": 0.22897978385926296,
   "close": true
 }

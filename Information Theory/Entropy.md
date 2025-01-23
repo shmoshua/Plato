@@ -2,17 +2,18 @@
 
 > [!definition]
 > Let $X,Y$ be [[Random Variable|random variables]] over $\mathcal{X}$ and $\mathcal{Y}$. Then, 
-> 1. the **entropy** of $X$ is given as: $$H(X):=\mathbb{E}_{X}\left[\mathbb{1}_{\text{supp }p_{X}}\cdot  \log \frac{1}{p_{X}(X)}\right] $$
-> 2. the ***joint entropy*** of $X,Y$ is given as: $$H(X,Y)=-\sum_{x,y}^{}p_{XY}(x,y)\log  p_{XY}(x,y)=-\mathbb{E}(\log(p_{XY}(X,Y)))$$
+> 1. the **entropy** of $X$ is given as: $$H(X):=\mathbb{E}_{X}\left[ \log \frac{1}{p_{X}(X)}\right] $$
+> 2. the ***joint entropy*** of $X,Y$ is given as: $$H(X,Y):=\mathbb{E}_{p_{XY}}\left[ \log \frac{1}{p_{XY}(X,Y)} \right] $$
 > 3. the ***conditional entropy*** of $X$ given $Y$ is given as:$$H(X|Y)=\sum_{y}^{}p_{Y}(y)H(X|Y=y)=-\sum_{x,y}^{}p_{XY}(x,y)\log p(x|y)=-\mathbb{E}(\log p(X | Y))$$
 
 ^2cc2de
 
 - **Related definition**: the ***self-information*** of $X$ is given by $i_{X}:\text{supp }p_{X}\to \mathbb{R},a\mapsto \log \frac{1}{p_{X}(a)}$. ^09ddcf
 - **Remark**: The joint entropy is symmetric.
+- **Remark**: All the expected values are meant to be taken over the support. 
 ---
 ##### Properties
-> [!lemma] Lemma 1 (Properties of Entropy)
+> [!lemma] Proposition 1 (Properties of Entropy)
 > Let $X$ be a discrete RV.
 > 1. $0\leq H(X) \leq \log \left| \mathcal{X} \right|$
 > 2.  $0=H(X)$ if and only if $X$ is deterministic.
@@ -23,7 +24,7 @@
 
 > [!proof]-
 > We have that:
-> 1. $p_{X}(\mathcal{X})\subseteq[0,1]$ and $\log \frac{1}{p_{X}(x)}\subseteq[0,\infty)$ for all $x\in \mathcal{X}$.  Further, the second inequality trivially holds.
+> 1. $p_{X}(\mathcal{X})\subseteq[0,1]$ and $\log \frac{1}{p_{X}(x)}\subseteq[0,\infty)$ for all $x\in \mathcal{X}$.  Further, the second inequality is given by [[Relative Entropy|Proposition 1]] and [[Relative Entropy|Example 1]] as: $$\log \left| \mathcal{X} \right| -H(p)=D(p\|q)\geq 0$$
 > 2. If $H(X)=0$, then by [[Expected Value|Theorem 3.1]] $\log \frac{1}{p_{X}(x)}=0$ almost surely and $p_{X}(x)=1$ almost surely in $\text{supp }p_{X}$. Hence, $\{ x \}=\text{supp }p_{X}$. Conversely, if it's deterministic the statement holds.
 > 3. Analogous.
 > 4. Obvious.
@@ -31,7 +32,17 @@
 ^049dcb
 
 ---
-> [!lemma] Lemma 2 (Properties of Conditional Entropy)
+> [!lemma] Proposition 2 (Properties of Joint Entropy)
+> Let $X,Y$ be random variables over $\mathcal{X}$ and $\mathcal{Y}$. Then, 
+> 1. $H(X,Y)=H(X)+H(Y)$, if $X$ and $Y$ are independent.
+> 2. $H(X,X)=H(X)$
+
+> [!proof]+
+> We have that: 
+> 1. $$H(X,Y)=\mathbb{E}\left[ \log \frac{1}{p_{XY}(X,Y)} \right]=\mathbb{E}\left[ \log \frac{1}{p_{X}(X)p_{Y}(Y)} \right]=H(X)+H(Y)$$
+> 2. $$H(X,X)=\sum_{x\in \mathcal{X}}^{}\sum_{x'\in \mathcal{X'}}^{}p_{XX}(x,x')\log \frac{1}{p_{XX}(x,x')}=\sum_{x\in \mathcal{X}}^{}p_{X}(x)\log \frac{1}{p_{X}(x)}=H(X)$$
+---
+> [!lemma] Proposition 3 (Properties of Conditional Entropy)
 > We have:
 > 1. $0\leq H(X|Y)\leq \log \left| \mathcal{X} \right|$
 > 2. $H(X,Y)=H(X)+H(Y|X)$
