@@ -84,10 +84,15 @@
 > Let $C:\mathcal{X}\to \{ 0,1 \}^+$ be a binary code. We define for $c\in \{ 0,1 \}^+:$ $$J(c):=[0.c,0.c+2^{-\left| c \right| })$$Then, for any $c,c'\in \{ 0,1 \}^+$
 > 1. $c'$ is a prefix of $c$ if and only if $J(c')\supseteq J(c)$.
 
-> [!proof]+
+^c590a0
+
+> [!proof]-
 > We have:
 > 1. If $c'=c$, it's trivial. Otherwise, assume that $c'$ is a prefix of $c$. Then, $0.c'\leq 0.c$. Further, let $b\in \{ 0,1 \}^+$ s.t. $(c',b)=c$. Then, $$0.c+2^{-\left| c \right| }\leq 0.c'+0.b\cdot 2^{-\left| c' \right| }+2^{-\left| b \right| }2^{-\left| c' \right|  }=0.c'+\underbrace{ (0.b+2^{-\left| b \right| }) }_{ \leq 1 }\cdot 2^{-\left| c' \right| }\leq 0.c'+2^{-\left| c' \right| }$$
->    Conversely, if $J(c')\supseteq J(c)$, then $0.c'\leq 0.c\leq 0.c'+2^{-\left| c' \right|}-2$
+>    Conversely, $0.c'+2^{-\left| c' \right|}=0.(c'+1)$. Hence, if $J(c)\subseteq J(c')$, then $0.c'\leq 0.c < 0.(c'+1)$. This proves the statement.
+
+^a729b7
+
 ---
 
 > [!lemma] Theorem 4 (Huffman Codes)
@@ -111,16 +116,16 @@
 >    1. $G$ is a rooted binary tree with $\mathcal{X}$ exactly as leaves.
 >    2. the corresponding prefix free code is optimal. 
 
-> [!proof]-
+> [!proof]+
 > Notice that:
-> 1. hihi
-> 2. For a code $C$, let $L(C)$ denote the average length of $C$. 
+> 1. Obvious by construction.
+> 2. For a code $C$, let $\ell(C)$ denote the expected length of $C$. 
 >    
 >    We show by induction over $n:=\left| \mathcal{X} \right|$. Let $n=2$. Then, $G$ is a binary tree with two leaves and $\ell_{\max}=1$. This has to be optimal.
 >    
 >    Let $\mathcal{X}=\{ x_{1},\dots,x_{n} \}$ with $p_{1},\dots,p_{n}$ and without loss of generality, assume that $p_{n-2}\geq p_{n-1}\geq p_{n}$. Then, consider $G'$ in the algorithm. Now, let $C,C'$ denote the code given from $G,G'$ respectively. We have that by assumption $C'$ is optimal.
 >    
->    Suppose we have another code $D$ on $\mathcal{X}$ s.t. $L(D)<L(C)$. Then, wlog we may assume that $L(x_{n-1})=L(x_{n})=\ell_{\max}(D)$. (otherwise we can always swap them and achieve lower average length). Then, by switching between leaves at level $\ell_{\max}(D)$, we have that there exists $y\in \{ 0,1 \}^+$ s.t. $\{ D(x_{n-1}),D(x_{n}) \}=\{ y0,y 1 \}$.
+>    Suppose we have another code $D$ on $\mathcal{X}$ s.t. $\ell(D)<\ell(C)$. Then, wlog we may assume that $\ell(x_{n-1})=\ell(x_{n})=\ell_{\max}(D)$. (otherwise we can always swap them and achieve lower average length). Then, by switching between leaves at level $\ell_{\max}(D)$, we have that there exists $y\in \{ 0,1 \}^+$ s.t. $\{ D(x_{n-1}),D(x_{n}) \}=\{ y0,y 1 \}$.
 >    
 >    Then, we now construct $D'$ on $\mathcal{X'}$ given as: $$D'(z):=\begin{cases}D(z)&\text{if }z\in \mathcal{X}\\y&\text{otherwise}\end{cases}$$We have that this is prefix free and $$L(D')=L(D)-p_{n}-p_{n-1}<L(C)-p_{n}-p_{n-1}=L(C')$$which is a contradiction to the optimality of $C'$. 
 >    
