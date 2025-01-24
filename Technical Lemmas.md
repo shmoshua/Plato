@@ -34,5 +34,11 @@
 > [!lemma] Theorem 5 (Log-Sum Inequality)
 > Let $a_{i}\geq 0$ and $b_{i}\geq 0$ for all $i$. Then, $$\sum_{i}^{}a_{i}\log \frac{a_{i}}{b_{i}}\geq \left( \sum_{i}^{}a_{i} \right)\log\frac{\left( \sum_{i}^{}a_{i} \right)}{\left( \sum_{i}^{}b_{i} \right)}$$
 
-> [!proof]+
-> Let $a:=\sum_{i}^{}a_{i}$ and $b:= \sum_{i}^{}b_{i}$. Then, $a_{i} / a$ and $b_{i} / b$ can be treated as probability distribution on $n$ variables. Hence, $$\begin{align}0\leq D\left( \frac{a_{i}}{a}\|\frac{b_{i}}{b} \right)=\sum_{i}^{}\frac{a_{i}}{a}\log \frac{a_{i} / a}{b_{i} / b}=\sum_{i}^{} \frac{a_{i}}{a}\log \frac{a_{i}}{b_{i}}-\log \frac{a}{b}\end{align}$$
+^676db7
+
+> [!proof]-
+> Let $a:=\sum_{i}^{}a_{i}$ and $b:= \sum_{i}^{}b_{i}$. Then, $a_{i} / a$ and $b_{i} / b$ can be treated as probability distribution on $n$ variables. Hence, $$\begin{align}0\leq D\left( \frac{a_{i}}{a}\|\frac{b_{i}}{b} \right)=\sum_{i}^{}\frac{a_{i}}{a}\log \frac{a_{i} / a}{b_{i} / b}=\sum_{i}^{} \frac{a_{i}}{a}\log \frac{a_{i}}{b_{i}}-\log \frac{a}{b}\end{align}$$Therefore, $$a\log \frac{a}{b}\leq \sum_{i}^{}a_{i}\log \frac{a_{i}}{b_{i}}$$
+
+^af9688
+
+---

@@ -89,3 +89,32 @@
 ---
 ### 3. Asymptotic Equipartition Property
 #### 3.1 Typical Sequences
+![[Typical Sequence#^a981a4]]
+![[Typical Sequence#^331f26]]
+
+---
+![[Typical Sequence#^997b29]]
+![[Typical Sequence#^d52844|p]]
+
+---
+![[Typical Sequence#^93c318]]
+![[Typical Sequence#^067ee1|p]]
+
+---
+#### 3.2 Log-Sum Inequality
+![[Technical Lemmas#^676db7]]
+![[Technical Lemmas#^af9688|p]]
+
+---
+![[Relative Entropy#^0ed2a9]]
+![[Relative Entropy#^ab9003|p]]
+
+---
+### 4. Channel Coding
+![[Discrete Memoryless Channel (DMC)#^caee85]]
+
+---
+![[Discrete Memoryless Channel (DMC)#^bc8814]]
+![[Discrete Memoryless Channel (DMC)#^67dcbf|p]]
+
+---

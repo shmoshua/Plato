@@ -26,6 +26,18 @@
 ^9f110f
 
 ---
+> [!lemma] Proposition 2 (Convexity)
+> Relative entropy is convex, i.e. for $p_{1},p_{2}$ and $q_{1},q_{2}\in\Delta (\mathcal{X})$ and $\lambda\in (0,1)$, $$D(\lambda p_{1}+(1-\lambda)p_{2}\|\lambda q_{1}+(1-\lambda)q_{2})\leq \lambda D(p_{1}\|q_{1})+(1-\lambda)D(p_{2}\|q_{2})$$
+
+^0ed2a9
+
+> [!proof]-
+> We have that: 
+> $$\begin{align}D(\lambda p_{1}+(1-\lambda)p_{2}\|\lambda q_{1}+(1-\lambda)q_{2})&\leq \sum_{x}^{}(\lambda p_{1}(x)+(1-\lambda)p_{2}(x))\log \frac{\lambda p_{1}(x)+(1-\lambda)p_{2}(x)}{\lambda q_{1}(x)+(1-\lambda)q_{2}(x)}\\&\leq \sum_{ x}^{}\left( \lambda p_{1}(x)\log\frac{p_{1}(x)}{q_{1}(x)} +(1-\lambda)p_{2}(x)\log \frac{p_{2}(x)}{q_{2}(x)}\right)\\&=\lambda D(p_{1}\|q_{1})+(1-\lambda)D(p_{2}\|q_{2}) \end{align}$$where the inequality holds from [[Technical Lemmas|log-sum inequality]].
+
+^ab9003
+
+---
 ##### Examples
 > [!h] Example 1 (Uniform q)
 > Let $\mathcal{X}$ be finite and $q\sim \text{Uni}(\mathcal{X})$. Then, 

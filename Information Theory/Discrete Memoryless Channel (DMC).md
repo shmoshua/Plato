@@ -1,23 +1,31 @@
 #Definition #InformationTheory 
 
 > [!definition]
-> Let $\mathcal{X}$ and $\mathcal{Y}$ be finite sets. A ***discrete memoryless channel (DMC)*** from $\mathcal{X}$ to $\mathcal{Y}$ is a $\mathcal{X}\times \mathcal{Y}$[[Markov Chain|transition matrix]] $W$ where 
-> 1. for every $x\in \mathcal{X}$, $\sum_{y\in \mathcal{Y}}^{}W_{xy}=1$
+> Let $\mathcal{X}$ and $\mathcal{Y}$ be finite sets. 
+> 1. A ***discrete memoryless channel (DMC)*** from $\mathcal{X}$ to $\mathcal{Y}$ is a $\mathcal{X}\times \mathcal{Y}$ [[Markov Chain|transition matrix]] $W$ where for every $x\in \mathcal{X}$, $\sum_{y\in \mathcal{Y}}^{}W_{xy}=1$
+
+^caee85
+
 - **Related definition**: A rate $R$ is ***achievable*** on a DMC $W$ if for any block length $n$ and $\mathcal{M}_{n}:=\{ 1,\dots,2^{nR} \}$ there exists $f:\mathcal{M}_{n}\to \mathcal{X}^n$ and $\phi:\mathcal{Y}^n\to \mathcal{M}_{n}$ s.t. $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\sum_{\begin{subarray}{c}y_{1:n}\in \mathcal{Y}^n\\ \phi(y_{1:n})\neq m\end{subarray}}\prod_{i=1}^{n}W_{f(m)_{i},y_{i}}=0$$ 
 - **Related definition**: The ***capacity*** of a DMC is $C:=\sup\{ R:R\text{ is achievable} \}$.
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Data Processing Inequality for Relative Entropy)
-> Let $p,q$ be probability measures on $\mathcal{X}$. 
+> Let $p,q\in \Delta(\mathcal{X})$ and $W$ a DMC. Then,
 > $$D(p\|q)\geq D(pW\|qW)$$
 
+^bc8814
+
 > [!proof]-
-> We have: $$\begin{align}D(pW\|qW)&=\sum_{y\in \mathcal{Y}}^{}(pW)_{y}\log \frac{(pW)_{y}}{(qW)_{y}}\\&=\sum_{y\in \mathcal{Y}}^{}\left( \sum_{x\in \mathcal{X}}^{}p_{x}W_{x,y} \right) \log \frac{\sum_{x}^{}p_{x}W_{x,y}}{\sum_{x}q_{x}W_{x,y}}\\&\leq\sum_{y\in \mathcal{Y}}^{}\sum_{x\in \mathcal{X}}^{}p_{x}W_{x,y}  \log \frac{p_{x}W_{x,y}}{q_{x}W_{x,y}}\\&=\sum_{x\in \mathcal{X}}^{}\sum_{y\in \mathcal{Y}}^{}p_{x}W_{x,y}  \log \frac{p_{x}}{q_{x}}\\&=\sum_{x\in \mathcal{X}}^{}p_{x}  \log \frac{p_{x}}{q_{x}}\\&=D(p\|q)\end{align}$$
+> We have by [[Technical Lemmas|log-sum inequality]],  $$\begin{align}D(pW\|qW)&=\sum_{y\in \mathcal{Y}}^{}(pW)_{y}\log \frac{(pW)_{y}}{(qW)_{y}}\\&=\sum_{y\in \mathcal{Y}}^{}\left( \sum_{x\in \mathcal{X}}^{}p_{x}W_{x,y} \right) \log \frac{\sum_{x}^{}p_{x}W_{x,y}}{\sum_{x}q_{x}W_{x,y}}\\&\leq\sum_{y\in \mathcal{Y}}^{}\sum_{x\in \mathcal{X}}^{}p_{x}W_{x,y}  \log \frac{p_{x}W_{x,y}}{q_{x}W_{x,y}}\\&=\sum_{x\in \mathcal{X}}^{}\sum_{y\in \mathcal{Y}}^{}p_{x}W_{x,y}  \log \frac{p_{x}}{q_{x}}\\&=\sum_{x\in \mathcal{X}}^{}p_{x}  \log \frac{p_{x}}{q_{x}}\\&=D(p\|q)\end{align}$$
+
+^67dcbf
+
 ---
-> [!lemma] Theorem 2
+> [!lemma] Theorem 2 (Concavity and Convexity)
 > We have that:
-> 1. for any $W$, $q\mapsto I(q;W)$ is a concave function.
-> 2. for any $q$, $W\mapsto I(q;W)$ is a convex function.
+> 1. for any DMC $W$, $I(\cdot,W)$ is a concave function.
+> 2. for any $q\in \Delta(\mathcal{X})$, $I(q,\cdot)$ is a convex function.
 
 > [!proof]-
 > We have that:
