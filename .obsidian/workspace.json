@@ -35,8 +35,7 @@
               "title": "Code"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -229,10 +228,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87ad6422ee7710b7",
+  "active": "ed1a9be185e2aaac",
   "lastOpenFiles": [
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Code.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/n-R code.md",
     "Information Theory/Entropy.md",
     "Information Theory/Relative Entropy.md",

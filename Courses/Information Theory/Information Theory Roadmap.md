@@ -77,3 +77,14 @@
 ![[Code#^a729b7|p]]
 
 ---
+#### 2.1 Huffman Coding and Arithmetic Coding
+![[Code#^eb82e8]]
+![[Code#^6a34a3|p]]
+
+---
+![[Code#^816bcd]]
+![[Code#^9ef8e6|p]]
+![[Code#^5c5f45]]
+
+---
+

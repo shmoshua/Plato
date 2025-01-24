@@ -95,7 +95,7 @@
 
 ---
 
-> [!lemma] Theorem 4 (Huffman Codes)
+> [!lemma] Theorem 5 (Huffman Codes)
 > Consider the algorithm:
 >  ```pseudo
 >    \begin{algorithm} \caption{HuffmanRecursion($\mathcal{X},p:\mathcal{X}\to[0,1]$)} 
@@ -116,6 +116,8 @@
 >    1. $G$ is a rooted binary tree with $\mathcal{X}$ exactly as leaves.
 >    2. the corresponding prefix free code is optimal. 
 
+^eb82e8
+
 > [!proof]-
 > Notice that:
 > 1. Obvious by construction.
@@ -129,9 +131,27 @@
 >    
 >    Then, we now construct $D'$ on $\mathcal{X'}$ given as: $$D'(z):=\begin{cases}D(z)&\text{if }z\in \mathcal{X}\\y&\text{otherwise}\end{cases}$$We have that this is prefix free and $$L(D')=L(D)-p_{n}-p_{n-1}<L(C)-p_{n}-p_{n-1}=L(C')$$which is a contradiction to the optimality of $C'$. 
 >    
+
+^6a34a3
+
 ---
-> [!lemma] Theorem 5 (Arithmetic Codes)
-> 
+> [!lemma] Theorem 6 (Arithmetic Codes)
+> Let $\mathcal{X}:=[n]$ and $p\in \Delta(\mathcal{X})$. We define: $$F:\mathcal{X}\to[0,1],\quad x\mapsto \sum_{x'<x}^{}p(x')$$
+> Then, 
+> 1. $C:\mathcal{X}\to \{ 0,1 \}^+, x\mapsto \left\lceil F(x)2^{\ell}\right\rceil 2^{-\ell}$ where $\ell:=1+\left\lceil \log \frac{1}{p(x)}\right\rceil$ is prefix free. 
+
+^816bcd
+
+> [!proof]-
+>
+> We have that:
+> 1. We show that $J(C(x))$ and $J(C(x'))$ are disjoint for all $x,x'\in \mathcal{X}$. Let $c:=C(x)$. Notice that: $$F(x)\leq0.c$$and we have that: $$0.c+2^{-\ell}=F(x)+2^{-\ell }+2^{-\ell}=F(x)+2^{-\left\lceil \log 1/p(x)\right\rceil }\leq F(x)+p(x)$$Hence, $J(C(x))\subseteq[F(x),F(x)+p(x))$ and as $[F(x),F(x)+p(x))$ are disjoint by definition, $J(C(x))$ and $J(C(x'))$ are disjoint.
+>    
+>    By Proposition 4, this shows that the code is prefix free.
+
+^9ef8e6
+
+- **Remark**: As arithmetic coding depends only on $F,p$, this is useful when we want a $\kappa$-to-variable coding when $\kappa$ is large. Without constructing the binary tree, we can find the codeword for each word on the fly. Notice that $F(x_{1:\kappa}),p(x_{1:\kappa})$ can also easily be found from $F(x_{1:\kappa-1}),p(x_{1:\kappa-1})$ given iid source or Markov source. ^5c5f45
 ---
 
 ##### Examples
