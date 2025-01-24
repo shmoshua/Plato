@@ -36,7 +36,7 @@
 
 > [!proof]+
 > We have:
-> 1. For any $k\geq 1$, we have that: $$\begin{align}\left( \sum_{x\in \mathcal{X}}^{}2^{-L(x)} \right)^k&=\sum_{x_{1},\dots,x_{k}}^{}2^{-\sum_{i=1}^{k}L(x_{i})}=\sum_{x\in \mathcal{X}^k}^{}2^{-L(x)}=\sum_{m=1}^{k\cdot \ell_{\max}}a(m)\cdot 2^{-m}\leq k\cdot \ell_{\max}\end{align}$$where $a(m)$ denotes the number of elements in $\mathcal{X}^k$ with code length $m$. Therefore, $$ \sum_{x\in \mathcal{X}}^{}2^{-L(x)} \leq(k\cdot \ell_{\max})^{1/k}\to 1$$
+> 1. For any $k\geq 1$, we have that: $$\begin{align}\left( \sum_{x\in \mathcal{X}}^{}2^{-\ell(x)} \right)^k&=\sum_{x_{1},\dots,x_{k}}^{}2^{-\sum_{i=1}^{k}L(x_{i})}=\sum_{x\in \mathcal{X}^k}^{}2^{-L(x)}=\sum_{m=1}^{k\cdot \ell_{\max}}a(m)\cdot 2^{-m}\leq k\cdot \ell_{\max}\end{align}$$where $a(m)$ denotes the number of elements in $\mathcal{X}^k$ with code length $m$. Therefore, $$ \sum_{x\in \mathcal{X}}^{}2^{-L(x)} \leq(k\cdot \ell_{\max})^{1/k}\to 1$$
 > 2. Modulo reordering assume that $\ell_{1}\leq\dots\leq \ell_{n}$. Let $S_{k}:=\{ 0,1 \}^k$ with lexicographical ordering. Then, we have the following algorithm.
 > 	```pseudo
 >    \begin{algorithm} \caption{Kraft($\ell_{1},\dots,\ell_{n}$)} 
