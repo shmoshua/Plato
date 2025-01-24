@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "file": "Information Theory/Typical Sequence.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Information Theory Roadmap"
+              "title": "Typical Sequence"
             }
           },
           {
@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "file": "Information Theory/Typical Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Information Theory Roadmap"
+              "title": "Typical Sequence"
             }
           },
           {
@@ -229,8 +229,9 @@
   },
   "active": "464ee18910056598",
   "lastOpenFiles": [
-    "Information Theory/Code.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Typical Sequence.md",
+    "Information Theory/Code.md",
     "Information Theory/n-R code.md",
     "Information Theory/Entropy.md",
     "Information Theory/Relative Entropy.md",
@@ -254,7 +255,6 @@
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "ML Theory/Reinforcement Learning/Partially Observable Markov Decision Process.md",
     "Topology/Quotient Topology.md",
-    "Topology/Algebraic Topology/Chain Homotopy.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

@@ -87,4 +87,5 @@
 ![[Code#^5c5f45]]
 
 ---
-### 3. 
+### 3. Asymptotic Equipartition Property
+#### 3.1 Typical Sequences
