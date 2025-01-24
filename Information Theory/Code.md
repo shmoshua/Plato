@@ -116,7 +116,7 @@
 >    1. $G$ is a rooted binary tree with $\mathcal{X}$ exactly as leaves.
 >    2. the corresponding prefix free code is optimal. 
 
-> [!proof]+
+> [!proof]-
 > Notice that:
 > 1. Obvious by construction.
 > 2. For a code $C$, let $\ell(C)$ denote the expected length of $C$. 
@@ -129,6 +129,9 @@
 >    
 >    Then, we now construct $D'$ on $\mathcal{X'}$ given as: $$D'(z):=\begin{cases}D(z)&\text{if }z\in \mathcal{X}\\y&\text{otherwise}\end{cases}$$We have that this is prefix free and $$L(D')=L(D)-p_{n}-p_{n-1}<L(C)-p_{n}-p_{n-1}=L(C')$$which is a contradiction to the optimality of $C'$. 
 >    
+---
+> [!lemma] Theorem 5 (Arithmetic Codes)
+> 
 ---
 
 ##### Examples
