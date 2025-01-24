@@ -34,9 +34,11 @@
 > 1. For a uniquely decodable code $C$, $\sum_{x\in \mathcal{X}}^{}2^{-\ell(x)}\leq 1$.
 > 2. For positive integers $\ell_{1},\dots,\ell_{n}$ s.t. $\sum_{i=1}^{m}2^{-\ell_{i}}\leq 1$, there exists a prefix-free code with $\ell_{1},\dots,\ell_{n}$ as lengths. 
 
-> [!proof]+
+^25cc1f
+
+> [!proof]-
 > We have:
-> 1. For any $k\geq 1$, we have that: $$\begin{align}\left( \sum_{x\in \mathcal{X}}^{}2^{-\ell(x)} \right)^k&=\sum_{x_{1},\dots,x_{k}}^{}2^{-\sum_{i=1}^{k}L(x_{i})}=\sum_{x\in \mathcal{X}^k}^{}2^{-L(x)}=\sum_{m=1}^{k\cdot \ell_{\max}}a(m)\cdot 2^{-m}\leq k\cdot \ell_{\max}\end{align}$$where $a(m)$ denotes the number of elements in $\mathcal{X}^k$ with code length $m$. Therefore, $$ \sum_{x\in \mathcal{X}}^{}2^{-L(x)} \leq(k\cdot \ell_{\max})^{1/k}\to 1$$
+> 1. For any $k\geq 1$, we have that: $$\begin{align}\left( \sum_{x\in \mathcal{X}}^{}2^{-\ell(x)} \right)^k&=\sum_{x_{1},\dots,x_{k}}^{}2^{-\sum_{i=1}^{k}\ell(x_{i})}=\sum_{x\in \mathcal{X}^k}^{}2^{-\ell(x)}=\sum_{m=1}^{k\cdot \ell_{\max}}a(m)\cdot 2^{-m}\leq k\cdot \ell_{\max}\end{align}$$where $a(m)$ denotes the number of elements in $\mathcal{X}^k$ with code length $m$ and $a(m)\leq 2^m$ as $C$ is uniquely decodable. Therefore, $$ \sum_{x\in \mathcal{X}}^{}2^{-\ell(x)} \leq(k\cdot \ell_{\max})^{1/k}\to 1$$
 > 2. Modulo reordering assume that $\ell_{1}\leq\dots\leq \ell_{n}$. Let $S_{k}:=\{ 0,1 \}^k$ with lexicographical ordering. Then, we have the following algorithm.
 > 	```pseudo
 >    \begin{algorithm} \caption{Kraft($\ell_{1},\dots,\ell_{n}$)} 
@@ -52,6 +54,9 @@
 >    By definition this is always prefix-free. We will show that there exists such a $c_{i}$ at every step. Let $i<j$. Then, the number of elements in $S_{\ell_{j}}$ that does not have $c_{i}$ as prefix is given by $2^{\ell_{j}-\ell_{i}}$. Therefore, there are at least $2^{\ell_{i}}-\sum_{k=1}^{i-1}2^{\ell_{i}-\ell_{k}}$ codewords to choose from. However, we have $\sum_{k=1}^{i-1}2^{-\ell_{k}}\leq 1-2^{-\ell_{i}}$
 >    
 >    $$2^{\ell_{i}}\left( 1-\sum_{k=1}^{i-1}2^{-\ell_{k}} \right)\geq 2^{\ell_{i}}\cdot 2^{-\ell_{i}}=1 $$This proves the statement.
+
+^74678f
+
 ---
 > [!lemma] Theorem 3 (Optimal Length)
 > Let $\left| \mathcal{X} \right|=:n$ and $p_{1},\dots,p_{n}$ denote a probability distribution on $\mathcal{X}$, i.e. $\sum_{i=1}^{n}p_{i}=1$. Then, for:
@@ -59,6 +64,8 @@
 > Then, 
 > 1. $H(X)\leq L^{*}< H(X)+1$.
 > 2. $L^{*}$ is the minimal expected length over all uniquely decodable codes.
+
+^c8b0bf
 
 > [!proof]-
 > We have:
@@ -68,7 +75,19 @@
 > 2. Let $L'$ denote the optimal length over all uniquely decodable codes. Let $\ell_{1},\dots,\ell_{n}$ generate $L^{*}$. Then, by Kraft, there exists a prefix code with $L^{*}$ as expected length. Hence, by Proposition 1.1, $L'\leq L^{*}$. 
 >    
 >    The converse also holds by Kraft. Therefore, $L'=L^{*}$.
-- **Corollary**: By defining the code to be $\kappa$-to-variable, i.e. $C:\mathcal{X}^\kappa\to \{ 0,1 \}^+$, we can reduce the additive error by $H(X)\leq L^{*} / \kappa < H(X)+ 1/\kappa$
+
+^0a6de9
+
+- **Corollary**: By defining the code to be $\kappa$-to-variable, i.e. $C:\mathcal{X}^\kappa\to \{ 0,1 \}^+$, we can reduce the additive error by $H(X)\leq L^{*} / \kappa < H(X)+ 1/\kappa$ ^7f2436
+---
+> [!lemma] Proposition 4 (Code Intervals)
+> Let $C:\mathcal{X}\to \{ 0,1 \}^+$ be a binary code. We define for $c\in \{ 0,1 \}^+:$ $$J(c):=[0.c,0.c+2^{-\left| c \right| })$$Then, for any $c,c'\in \{ 0,1 \}^+$
+> 1. $c'$ is a prefix of $c$ if and only if $J(c')\supseteq J(c)$.
+
+> [!proof]+
+> We have:
+> 1. If $c'=c$, it's trivial. Otherwise, assume that $c'$ is a prefix of $c$. Then, $0.c'\leq 0.c$. Further, let $b\in \{ 0,1 \}^+$ s.t. $(c',b)=c$. Then, $$0.c+2^{-\left| c \right| }\leq 0.c'+0.b\cdot 2^{-\left| c' \right| }+2^{-\left| b \right| }2^{-\left| c' \right|  }=0.c'+\underbrace{ (0.b+2^{-\left| b \right| }) }_{ \leq 1 }\cdot 2^{-\left| c' \right| }\leq 0.c'+2^{-\left| c' \right| }$$
+>    Conversely, if $J(c')\supseteq J(c)$, then $0.c'\leq 0.c\leq 0.c'+2^{-\left| c' \right|}-2$
 ---
 
 > [!lemma] Theorem 4 (Huffman Codes)
