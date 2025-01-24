@@ -83,8 +83,7 @@
               "title": "n-R code"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,7 +227,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ed1a9be185e2aaac",
+  "active": "464ee18910056598",
   "lastOpenFiles": [
     "Information Theory/Code.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
