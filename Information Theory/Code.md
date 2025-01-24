@@ -17,13 +17,14 @@
 > [!lemma] Proposition 1
 > For any prefix-free code $C:\mathcal{X}\to \{ 0,1 \}^+$,
 > 1. $C$ is uniquely decodable.
-> 2. $C$ is equivalent to a binary tree where $\mathcal{X}$ are leaves.
+> 2. $C$ is equivalent to a [[Tree|binary tree]] where $C(\mathcal{X})$ are leaves.
 
 ^866846
 
 > [!proof]-
 > We have: 
 > 1. Assume $C$ is not uniquely decodable. Then, there exists $x_{1}\dots x_{n}$, $y_{1},\dots,y_{m}\in \mathcal{X}$ s.t. $$C(x_{1})\dots C(x_{m})=C(y_{1})\dots C(y_{m})$$Wlog we may assume that $x_{1}\neq y_{1}$ and $\ell(x_{1})\leq \ell(y_{1})$. Then, $C(x_{1})$ is clearly a prefix of $C(y_{1})$ and $C$ is not prefix-free.
+> 2. Let $C$ be a code with maximum length $k$. We then generate a tree $T$ on $$D:=\left\{   v\in \bigcup_{i=1}^{k} \{ 0,1 \}^i: \forall x\in \mathcal{X},C(x)\text{ is not a prefix of }v\right\}\cup C(\mathcal{X})$$where between $x\to(x,0)$ and $x\to(x,1)$ if they exist in $D$. Then, this is by construction a binary tree. To show that $\mathcal{X}$ are leaves, we have that for all $x\in \mathcal{X}$, there is no $C(x)\neq y\in D$ s.t. $C(x)$ is a prefix of $y$. Hence, $C(x)$ is a leaf. 
 
 ^dd6b98
 
@@ -48,7 +49,7 @@
 >    \end{algorithm}
 >    ```
 >    
->    By definition this is always prefix free. We will show that there exists such a $c_{i}$ at every step. Let $i<j$. Then, the number of elements in $S_{\ell_{j}}$ that does not have $c_{i}$ as prefix is given by $2^{\ell_{j}-\ell_{i}}$. Therefore, there are at least $2^{\ell_{i}}-\sum_{k=1}^{i-1}2^{\ell_{i}-\ell_{k}}$ codewords to choose from. However, we have $\sum_{k=1}^{i-1}2^{-\ell_{k}}\leq 1-2^{-\ell_{i}}$
+>    By definition this is always prefix-free. We will show that there exists such a $c_{i}$ at every step. Let $i<j$. Then, the number of elements in $S_{\ell_{j}}$ that does not have $c_{i}$ as prefix is given by $2^{\ell_{j}-\ell_{i}}$. Therefore, there are at least $2^{\ell_{i}}-\sum_{k=1}^{i-1}2^{\ell_{i}-\ell_{k}}$ codewords to choose from. However, we have $\sum_{k=1}^{i-1}2^{-\ell_{k}}\leq 1-2^{-\ell_{i}}$
 >    
 >    $$2^{\ell_{i}}\left( 1-\sum_{k=1}^{i-1}2^{-\ell_{k}} \right)\geq 2^{\ell_{i}}\cdot 2^{-\ell_{i}}=1 $$This proves the statement.
 ---
