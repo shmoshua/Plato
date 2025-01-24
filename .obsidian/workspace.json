@@ -83,7 +83,8 @@
               "title": "n-R code"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,12 +228,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ed1a9be185e2aaac",
+  "active": "b2f96fe97e4c1bb6",
   "lastOpenFiles": [
+    "Information Theory/n-R code.md",
+    "Information Theory/Typical Sequence.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Code.md",
-    "Information Theory/Typical Sequence.md",
-    "Information Theory/n-R code.md",
     "Information Theory/Entropy.md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Mutual Information.md",
