@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Code.md",
+                "file": "Courses/Information Theory/Information Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Code"
+              "title": "Information Theory Roadmap"
             }
           },
           {
@@ -227,11 +227,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "464ee18910056598",
+  "active": "ed1a9be185e2aaac",
   "lastOpenFiles": [
     "Courses/Information Theory/Information Theory Roadmap.md",
-    "Information Theory/Typical Sequence.md",
     "Information Theory/Code.md",
+    "Information Theory/Typical Sequence.md",
     "Information Theory/n-R code.md",
     "Information Theory/Entropy.md",
     "Information Theory/Relative Entropy.md",
