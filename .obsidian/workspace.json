@@ -109,7 +109,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -254,18 +254,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "9ffd069f02b286fd",
   "lastOpenFiles": [
-    "Information Theory/Channel.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
-    "Information Theory/Typical Sequence.md",
-    "Information Theory/Relative Entropy.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Mutual Information.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Information Theory/Relative Entropy.md",
+    "Information Theory/Channel.md",
+    "Information Theory/Typical Sequence.md",
     "Technical Lemmas.md",
     "Information Theory/Code.md",
     "Information Theory/n-R code.md",
     "Information Theory/Entropy.md",
-    "Information Theory/Mutual Information.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Analysis/Convex Function.md",
     "Probability Theory/Expected Value.md",
