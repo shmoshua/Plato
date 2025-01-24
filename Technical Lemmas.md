@@ -29,3 +29,10 @@
 > [!proof]-
 > We have: $$\begin{align}\left| \frac{1}{k}\sum_{i=1}^{k}w_{i}-\frac{1}{m}\sum_{j=1}^{m}w_{j} \right|&=\left| \frac{k-m}{km}\sum_{j=1}^{m}w_{j}-\frac{1}{k}\sum_{i=m+1}^{k}w_{i}\right|=\frac{k-m}{k}\left| \frac{1}{m}\sum_{j=1}^{m}w_{j}-\frac{1}{k-m}\sum_{i=m+1}^{k}w_{i} \right| \\&=\frac{k-m}{k}\left| \text{Bary}(w_{1},\dots,w_{m})-\text{Bary}(w_{m+1},\dots,w_{k}) \right|\\& \leq \frac{k-1}{k}\max_{i,j}\left| w_{i}-w_{j} \right|  \\
 \\&\leq  \frac{p}{p+1}\max_{i,j}\left| w_{i}-w_{j} \right| \end{align}$$
+
+---
+> [!lemma] Theorem 5 (Log-Sum Inequality)
+> Let $a_{i}\geq 0$ and $b_{i}\geq 0$ for all $i$. Then, $$\sum_{i}^{}a_{i}\log \frac{a_{i}}{b_{i}}\geq \left( \sum_{i}^{}a_{i} \right)\log\frac{\left( \sum_{i}^{}a_{i} \right)}{\left( \sum_{i}^{}b_{i} \right)}$$
+
+> [!proof]+
+> Let $a:=\sum_{i}^{}a_{i}$ and $b:= \sum_{i}^{}b_{i}$. Then, $a_{i} / a$ and $b_{i} / b$ can be treated as probability distribution on $n$ variables. Hence, $$\begin{align}0\leq D\left( \frac{a_{i}}{a}\|\frac{b_{i}}{b} \right)=\sum_{i}^{}\frac{a_{i}}{a}\log \frac{a_{i} / a}{b_{i} / b}=\sum_{i}^{} \frac{a_{i}}{a}\log \frac{a_{i}}{b_{i}}-\log \frac{a}{b}\end{align}$$
