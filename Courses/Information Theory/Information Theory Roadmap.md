@@ -91,6 +91,7 @@
 #### 3.1 Typical Sequences
 ![[Typical Sequence#^a981a4]]
 ![[Typical Sequence#^331f26]]
+![[Typical Sequence#^1b4717|q]]
 
 ---
 ![[Typical Sequence#^997b29]]
@@ -99,6 +100,14 @@
 ---
 ![[Typical Sequence#^93c318]]
 ![[Typical Sequence#^067ee1|p]]
+
+---
+![[Typical Sequence#^012426]]
+![[Typical Sequence#^d76625|p]]
+
+---
+![[Typical Sequence#^3cf8af]]
+![[Typical Sequence#^d9ff78|p]]
 
 ---
 #### 3.2 Log-Sum Inequality

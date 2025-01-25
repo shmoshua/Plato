@@ -10,14 +10,14 @@
 ^a981a4
 
 - **Related definition**: For $k:=k(n)\in \mathbb{N}$, a ***scheme*** is given by a  pairs of maps $(f_{n},\phi_{n})_{n}$ where $f_{n}:\mathcal{X}^n\to \{ 0,1 \}^{k}$ and $\phi_{n}:\{ 0,1 \}^k\to \mathcal{X}^n$. ^331f26
-- **Related definition**: Let $\mathcal{X}\times \mathcal{Y}$ be a product of finite sets and $p\in \Delta(\mathcal{X}\times \mathcal{Y})$.  For $(\xi,\eta)\in \mathcal{X}^n\times \mathcal{Y}^n$, $(\xi,\eta)$ is $\varepsilon$-***weakly joint typical*** if: 
+- **Related definition**: Let $\mathcal{X}\times \mathcal{Y}$ be a product of finite sets and $p\in \Delta(\mathcal{X}\times \mathcal{Y})$.  For $(\xi,\eta)\in \mathcal{X}^n\times \mathcal{Y}^n$, $(\xi,\eta)$ is $\varepsilon$-***weakly joint typical*** if:  ^1b4717
 	1. $2^{-n(H(p_{XY})+\varepsilon)}\leq \prod_{i=1}^{n}p_{XY}(\xi_{i},\eta_{i})\leq 2^{-n(H(p_{XY})-\varepsilon)}$ and
 	2. $\xi\in \mathcal{A}^n_{\varepsilon}(p_{X})\subseteq \mathcal{X}^n$ and 
 	3. $\eta\in \mathcal{A}^n_{\varepsilon}(p_{Y})\subseteq \mathcal{Y}^n$.
 ---
 ##### Properties
 > [!lemma] Theorem 1 (AEP)
-> Let $X_{1},\dots,X_{n}$ i.i.d random variables with distribution $p$. Then, for all $\varepsilon>0$ $$\lim_{ n \to \infty } \mathbb{P}((X_{1},\dots,X_{n})\in \mathcal{A}^n_{\varepsilon}(p))=1$$
+> Let $X_{1},\dots,X_{n}$ i.i.d random variables with distribution $p$. Then, for all $\varepsilon>0$: $$\lim_{ n \to \infty } \mathbb{P}((X_{1},\dots,X_{n})\in \mathcal{A}^n_{\varepsilon}(p))=1$$
 > Further, it holds that:
 > 1. $\left| \mathcal{A}^n_{\varepsilon}(p) \right|\leq 2^{n(H(p)+\varepsilon)}$ and
 > 2. for large enough $n$, $\left| \mathcal{A}_{\varepsilon}^n(p) \right|\geq (1-\varepsilon)2^{n(H(p)-\varepsilon)}$
@@ -51,4 +51,23 @@
 
 ---
 > [!lemma] Theorem 3 (AEP for joint typicality)
-> Let $(X_{1},Y_{1}),\dots,(X_{n},Y_{n})$ be i.i.d random variables with distribution $p_{XY}$. Then, for all $\varepsilon> 0$, 
+> Let $(X_{1},Y_{1}),\dots,(X_{n},Y_{n})$ be i.i.d random variables with distribution $p_{XY}$. Then, for all $\varepsilon> 0$, $$\lim_{ n \to \infty } \mathbb{P}((X_{1:n},Y_{1:n})\in \mathcal{A}^n_{\varepsilon}(p_{XY}))=1$$
+> 1. ${\left| \mathcal{A}^n_{\varepsilon}(p_{XY}) \right|}\leq 2^{n(H(p_{XY})+\varepsilon)}$
+
+^012426
+
+> [!proof]-
+> Analogous to Theorem 1. 
+
+^d76625
+
+---
+> [!lemma] Proposition 4 (Joint Typicality and Independent RVs)
+> Let $(X_{1},Y_{1}),\dots,(X_{n},Y_{n})$ be i.i.d random variables with distribution $p_{X}p_{Y}$. Then, $$\mathbb{P}((X_{1:n},Y_{1:n})\in \mathcal{A}^n_{\varepsilon}(p_{XY}))\leq 2^{-n(I(X;Y)-3\varepsilon)}$$
+
+^3cf8af
+
+> [!proof]-
+> We have that: $$\begin{align}\mathbb{P}((X_{1:n},Y_{1:n})\in \mathcal{A}^n_{\varepsilon}(p_{XY}))&=\sum_{(\xi,\eta)\in \mathcal{A}^n_{\varepsilon}(p_{XY})}^{}\mathbb{P}(X_{1:n}=\xi,Y_{1:n}=\eta)\\&=\sum_{(\xi,\eta)\in \mathcal{A}^n_{\varepsilon}(p_{XY})}^{}\mathbb{P}(X_{1:n}=\xi) \mathbb{P}(Y_{1:n}=\eta)\\&\leq \sum_{(\xi,\eta)\in \mathcal{A}^n_{\varepsilon}(p_{XY})}^{} 2^{-n(H(p_{X})+H(p_{Y})-2\varepsilon)}\\&\leq2^{-n(H(p_{X})+H(p_{Y})-H(p_{XY})-3\varepsilon)}=2^{-n(I(X;Y)-3\varepsilon)}\end{align}$$
+
+^d9ff78
