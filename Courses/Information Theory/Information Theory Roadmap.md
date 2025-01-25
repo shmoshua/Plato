@@ -112,6 +112,7 @@
 ---
 ### 4. Channel Coding
 ![[Discrete Memoryless Channel (DMC)#^caee85]]
+![[Discrete Memoryless Channel (DMC)#^1491bf]]
 
 ---
 ![[Discrete Memoryless Channel (DMC)#^bc8814]]
@@ -124,5 +125,12 @@
 ---
 ![[Mutual Information#^eb14f8]]
 ![[Mutual Information#^986f22|p]]
+
+---
+![[Discrete Memoryless Channel (DMC)#^a6191c]]
+![[Discrete Memoryless Channel (DMC)#^513ead|q]]
+
+---
+![[Discrete Memoryless Channel (DMC)#^45755d]]
 
 ---

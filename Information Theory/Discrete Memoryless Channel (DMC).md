@@ -7,9 +7,9 @@
 ^caee85
 
 - **Related definition**: For a DMC $W$ from $\mathcal{X}$ to $\mathcal{Y}$ and $q\in \Delta(\mathcal{X})$, $I(q,W):=I(X;Y)$ where $X\sim q$ and $Y \sim qW$.
-  
-- **Related definition**: A rate $R$ is ***achievable*** on a DMC $W$ if for any block length $n$ and $\mathcal{M}_{n}:=\{ 1,\dots,2^{nR} \}$ there exists $f:\mathcal{M}_{n}\to \mathcal{X}^n$ and $\phi:\mathcal{Y}^n\to \mathcal{M}_{n}$ s.t. $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\sum_{\begin{subarray}{c}y\in \mathcal{Y}^n\\ \phi(y)\neq m\end{subarray}}\mathbb{P}(f(m)W=y)=0$$ 
-- **Related definition**: The ***capacity*** of a DMC $W$ is $\text{cap}(W):=\sup\{ R:R\text{ is achievable} \}$.
+   ^1491bf
+- **Related definition**: A rate $R$ is ***achievable*** on a DMC $W$ if there exists $(f_{n},\phi_{n})_{n\geq 1}$ where $f:\mathcal{M}_{n}\to \mathcal{X}^n$ and $\phi:\mathcal{Y}^n\to \mathcal{M}_{n}$ with $\mathcal{M}_{n}:=\{ 1,\dots,2^{nR} \}$ s.t. $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\sum_{\begin{subarray}{c}y\in \mathcal{Y}^n\\ \phi_{n}(y)\neq m\end{subarray}}\mathbb{P}(f_{n}(m)W=y)=0$$  ^a6191c
+- **Related definition**: The ***capacity*** of a DMC $W$ is $\text{cap}(W):=\sup\{ R:R\text{ is achievable} \}$. ^513ead
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Data Processing Inequality for Relative Entropy)
@@ -40,8 +40,11 @@
 
 ---
 > [!lemma] Theorem 3 (Shannon)
-> For a DMC $W$, we have that:
+> For a DMC $W$ from $\mathcal{X}$ to $\mathcal{Y}$, we have that:
 > 1. $\text{cap}(W)=\max_{q\in \Delta(\mathcal{X})}I(q,W)$.
+
+^45755d
+
 ---
 > [!lemma] Proposition 4
 > For $\mathcal{X},\mathcal{Y}$ and a DMC $W$ from $\mathcal{X}$ to $\mathcal{Y}$, let $W'$ be another DMC from $\mathcal X\times \mathcal{X}$ to $\mathcal{Y}\times \mathcal{Y}$ s.t. $$W'_{(x_{1},x_{2}),(y_{1},y_{2})}=W_{x_{1},y_{1}}W_{x_{2},y_{2}}$$
