@@ -60,7 +60,12 @@
 
 > [!proof]+
 > We have that:
-> 1. Let $R$ be achievable, i.e. we have $(f_{n},\phi_{n})_{n}$ with $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\sum_{\begin{subarray}{c}y\in \mathcal{Y}^n\\ \phi_{n}(y)\neq m\end{subarray}}\mathbb{P}(f_{n}(m)W=y)=0$$We will show that $R\leq \max_{q\in \Delta(\mathcal{X})}I(q,W)$. 
+> 1. Let $R$ be achievable, i.e. we have $(f_{n},\phi_{n})_{n}$ with $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\underbrace{ \sum_{\begin{subarray}{c}y\in \mathcal{Y}^n\\ \phi_{n}(y)\neq m\end{subarray}}\mathbb{P}(f_{n}(m)W=y) }_{ =:\lambda_{m} }=0$$We will show that $R\leq \max_{q\in \Delta(\mathcal{X})}I(q,W)$. First, let $$P^n_{e}:=\frac{1}{2^{nR}}\sum_{m\in \mathcal{M}_{n}}^{}\lambda_{m}$$Then, as $P^n_{e}=\frac{1}{2^{nR}}\sum_{m}^{}\lambda_{m}\leq \max_{m}\lambda_{m}$ and $\lim_{ n \to \infty }P^n_{e}=0$.  
+>    
+>    Now, let $M\sim \text{Uni}(\mathcal{M})$. Let $(X_{1},\dots,X_{n}):=f_{n}(M)$ and $(Y_{1},\dots,Y_{n})$ the output of the channel. Then, notice that by [[Entropy|Fano]], $$\begin{align}nR &=H(M)\\&=I(M;Y_{1:n})+H(M|Y_{1:n})\\&\leq I(M;Y_{1:n})+1+P^n_{e}\cdot nR\end{align}$$and $R\leq \frac{1}{n}I(M;Y_{1:n})+\frac{1}{n}+P^n_{e}\cdot R$. We claim that $I(M;Y_{1:n})\leq n\cdot\max_{q\in \Delta(\mathcal{X})}I(q,W)$. We have that: $$\begin{align}I(M;Y_{1:n})&=H(Y_{1:n})-H(Y_{1:n}|M)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1},M)\\&\leq \sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|Y_{1:i-1},X_{i},M)\\&=\sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|X_{i})\\&=\sum_{i=1}^{n}I(X_{i};Y_{i})=\sum_{i=1}^{n}I(p_{X_{i}},W)\leq n\max_{q\in \Delta(\mathcal{X})}I(q,W)\end{align}$$Therefore, we can conclude that: $$R\leq \limsup_{ n \to \infty } \left( \max_{q\in \Delta(\mathcal{X})}I(q,W)+\frac{1}{n}+P^n_{e}\cdot R \right)= \max_{q\in \Delta(\mathcal{X})}I(q,W)$$as $P^n_{e}\to 0$. 
+>    
+>    ---
+>    To show the converse, we claim that there exists 
 > 2. Notice that:  $$\begin{align}\sum_{x}^{}q(x)D(W(\cdot |x)\|r)&=\sum_{x}^{}q(x)\sum_{y}^{}W(y|x)\log \frac{W(y|x)}{r(y)}\\&=\sum_{x}^{}q(x)\sum_{y}^{}W(y|x)\left( \log \frac{W(y|x)}{qW(y)}+\log \frac{qW(y)}{r(y)} \right)\\&=I(q,W)+\sum_{x,y}^{}q(x)W(y|x)\log \frac{qW(y)}{r(y)}\\&=I(q,W)+D(qW\|r)\end{align}$$Therefore, $$\max_{q\in\Delta(\mathcal{X})}I(q,W)\leq \max_{q\in\Delta(\mathcal{X})}\sum_{x}^{}q(x)D(W(\cdot |x)\|r)\leq \max_{x}D(W(\cdot |x)\|r)$$Hence, $C(W)\leq \max_{x}D(W(\cdot|x)\|r)$ for every $r\in \Delta(\mathcal{Y})$ and we have the inequality $\leq$.
 >    
 >    Now, let $q^{*}:=\arg\max_{q\in \Delta(\mathcal{X})}I(q,W)$. Then, by KKT, $$C\geq \max_{x}D(W(\cdot |x)\|q^{*} W)$$and hence, we have the statement.

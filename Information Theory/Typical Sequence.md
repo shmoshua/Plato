@@ -10,6 +10,10 @@
 ^a981a4
 
 - **Related definition**: For $k:=k(n)\in \mathbb{N}$, a ***scheme*** is given by a  pairs of maps $(f_{n},\phi_{n})_{n}$ where $f_{n}:\mathcal{X}^n\to \{ 0,1 \}^{k}$ and $\phi_{n}:\{ 0,1 \}^k\to \mathcal{X}^n$. ^331f26
+- **Related definition**: Let $\mathcal{X}\times \mathcal{Y}$ be a product of finite sets and $p\in \Delta(\mathcal{X}\times \mathcal{Y})$.  For $(\xi,\eta)\in \mathcal{X}^n\times \mathcal{Y}^n$, $(\xi,\eta)$ is $\varepsilon$-***weakly joint typical*** if: 
+	1. $2^{-n(H(p_{XY})+\varepsilon)}\leq \prod_{i=1}^{n}p_{XY}(\xi_{i},\eta_{i})\leq 2^{-n(H(p_{XY})-\varepsilon)}$ and
+	2. $\xi\in \mathcal{A}^n_{\varepsilon}(p_{X})\subseteq \mathcal{X}^n$ and 
+	3. $\eta\in \mathcal{A}^n_{\varepsilon}(p_{Y})\subseteq \mathcal{Y}^n$.
 ---
 ##### Properties
 > [!lemma] Theorem 1 (AEP)
@@ -46,3 +50,5 @@
 ^067ee1
 
 ---
+> [!lemma] Theorem 3 (AEP for joint typicality)
+> Let $(X_{1},Y_{1}),\dots,(X_{n},Y_{n})$ be i.i.d random variables with distribution $p_{XY}$. Then, for all $\varepsilon> 0$, 
