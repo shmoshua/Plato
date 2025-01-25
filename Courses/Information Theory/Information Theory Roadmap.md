@@ -118,3 +118,11 @@
 ![[Discrete Memoryless Channel (DMC)#^67dcbf|p]]
 
 ---
+![[Discrete Memoryless Channel (DMC)#^0b1214]]
+![[Discrete Memoryless Channel (DMC)#^2662b0|p]]
+
+---
+![[Mutual Information#^eb14f8]]
+![[Mutual Information#^986f22|p]]
+
+---

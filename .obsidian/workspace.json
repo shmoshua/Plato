@@ -108,8 +108,7 @@
               "title": "Mutual Information"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,11 +253,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ffd069f02b286fd",
+  "active": "b2f96fe97e4c1bb6",
   "lastOpenFiles": [
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Mutual Information.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Channel.md",
     "Information Theory/Typical Sequence.md",

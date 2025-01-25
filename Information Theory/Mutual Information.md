@@ -38,8 +38,13 @@
 > Let $X{\bot}Z|Y$. Then, 
 > 1. $I(X;Z)\leq I(X;Y)$
 
+^eb14f8
+
 > [!proof]-
 > We have that: $$I(X;Z)=H(X)-H(X|Z)\le H(X)-H(X|Y,Z)=H(X)-H(X|Y)=I(X;Y)$$
+
+^986f22
+
 ---
 > [!lemma] Proposition 3 (Csiszár's Identity)
 > For any pair of random vectors $(A_{1},\dots,A_{n}),(B_{1},...,B_{n})$, $$\sum_{i=1}^{n}(I(A_{i+1:n};B_{i}|B_{1:i-1})-I(B_{1:i-1};A_{i}|A_{i+1:n}))=0$$
