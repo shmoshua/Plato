@@ -134,3 +134,18 @@
 ![[Discrete Memoryless Channel (DMC)#^45755d]]
 
 ---
+![[Discrete Memoryless Channel (DMC)#^5ed592]]
+![[Discrete Memoryless Channel (DMC)#^fe29b9|p]]
+
+---
+![[Discrete Memoryless Channel (DMC)#^54476c]]
+![[Discrete Memoryless Channel (DMC)#^dac41a|p]]
+
+---
+![[Discrete Memoryless Channel (DMC)#^9f9b95]]
+
+---
+![[Discrete Memoryless Channel (DMC)#^ca15d1]]
+![[Discrete Memoryless Channel (DMC)#^39768b|p]]
+
+---

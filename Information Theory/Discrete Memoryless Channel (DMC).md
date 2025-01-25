@@ -70,14 +70,48 @@
 > The ***binary symmetric channel*** for $\varepsilon$, $\text{BSC}(\varepsilon)$ is given as: $$\text{BSC}(\varepsilon):=\begin{bmatrix}1-\varepsilon&\varepsilon\\\varepsilon&1-\varepsilon\end{bmatrix}$$
 > Then, $C(\text{BSC}(\varepsilon))=1-H_{b}(\varepsilon)$ bits.
 
-> [!proof]+
-> We have that for any $q\in \Delta(\mathcal{X})$, $$\begin{align}I(q,W)&=H(Y)-H()\end{align}$$
+^5ed592
+
+> [!proof]-
+> We have that for any $q\in \Delta(\mathcal{X})$, $$\begin{align}I(q,W)&=H(Y)-\sum_{x}^{}q(x)H(Y|X=x)\\&=H(Y)-\sum_{x}^{}q(x)H_{b}(\varepsilon)\\&=H(Y)-H_{b}(\varepsilon)\end{align}$$Hence, by Shannon, the maximum is attained when $q=\left( \frac{1}{2}, \frac{1}{2} \right)$ with $I(q,W)=1-H_{b}(\varepsilon)$.
+
+^fe29b9
+
 ---
 > [!h] Example 2 (Z-channel)
 > For $\mathcal{X}=\mathcal{Y}=\{ 0,1 \}$, the ***$Z$-channel*** is given as: $$W:=\begin{bmatrix}1&0\\ \frac{1}{2}& \frac{1}{2}\end{bmatrix}$$
+
+^54476c
 
 > [!proof]-
 > Let $p=(1-\varepsilon,\varepsilon)$. We have that: $H(Y|X=0)=0$ and $H(Y|X=1)=1$. Hence,  $$H(Y|X)=\varepsilon$$Further, $qW=\left( \frac{2-\varepsilon}{2}, \frac{\varepsilon}{2} \right)$
 > 
 > We have that: $$\begin{align}I(p,Q)&=I(X;Y)=H(Y)-H(Y|X)\\&=-\left(  1-\frac{\varepsilon}{2} \right)\log\left(  1-\frac{\varepsilon}{2} \right)-\frac{\varepsilon}{2}\log\frac{\varepsilon}{2}-\varepsilon\end{align}$$Then, $\frac{d}{d\varepsilon}I(p,Q)=-\frac{1}{2}\log \frac{\varepsilon}{2} -\frac{1}{2}+\frac{1}{2}\log\left( 1-\frac{\varepsilon}{2} \right)+\frac{1}{2}-1=0$ and $$\log\left( \frac{2-\varepsilon}{\varepsilon} \right)=2$$Therefore, $\frac{2-\varepsilon}{\varepsilon}=4$ and $\varepsilon=\frac{2}{5}$. Hence, 
+
+^dac41a
+
+---
+> [!h] Example 3 (Weakly Symmetric Channel)
+> A DMC $W$ is ***weakly symmetric*** if:
+> 1. for all $i,j\in [n]$, $W_{i,:}=\sigma W_{j,:}$ where $\sigma\in S_{n}$, i.e. the rows are permutations of each other.
+> 2. $\sum_{x}W(y|x)=\sum_{x}W(y'|x)$ for all $y=y'$.
+> 
+> Then, 
+> 1. $C(W)=\log \left| \mathcal{Y} \right|-H(W_{i,:})$. 
+
+^9f9b95
+
+---
+> [!h] Example 4 (Binary Erasure Channel)
+> A ***binary erasure channel*** for $\rho$ is given by $\mathcal{X}:=\{ 0,1 \}$, $\mathcal{Y}:=\{ 0,1,{\bot} \}$ where:
+> $$\text{BEC}(\rho):=\begin{bmatrix}1-\rho&0&\rho\\0&1-\rho&\rho\end{bmatrix}$$Then, 
+> 1. $C(\text{BEC}(\rho))=1-\rho$.
+
+^ca15d1
+
+> [!proof]-
+> We have that for any $q\in \Delta(\mathcal{X})$ $$\begin{align}I(q,W)&=H(X)-H(X|Y)\\&=H(X)-q(0)\underbrace{ H(X|Y=0) }_{ =0 }-q(1)\underbrace{ H(X|Y=1) }_{ =0 }-q({\bot})\underbrace{ H(X|Y={\bot}) }_{ H(X) }\\&=H(X)-\rho H(X)\\&=(1-\rho)H(X)\end{align}$$whose maximum is attained at $q=\left( \frac{1}{2}, \frac{1}{2} \right)$ with $I(q,W)=(1-\rho)$.
+
+^39768b
+
 ---
