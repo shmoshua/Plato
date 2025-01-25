@@ -104,12 +104,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Typical Sequence.md",
+                "file": "Information Theory/Mutual Information.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Typical Sequence"
+              "title": "Mutual Information"
             }
           },
           {
@@ -118,16 +118,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Mutual Information.md",
+                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Mutual Information"
+              "title": "Discrete Memoryless Channel (DMC)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "data proc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +179,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -271,7 +272,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ffd069f02b286fd",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
     "Information Theory/Typical Sequence.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",

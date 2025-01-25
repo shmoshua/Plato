@@ -58,7 +58,7 @@
 
 ^45755d
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Let $R$ be achievable, i.e. we have $(f_{n},\phi_{n})_{n}$ with $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\underbrace{ \sum_{\begin{subarray}{c}y\in \mathcal{Y}^n\\ \phi_{n}(y)\neq m\end{subarray}}\mathbb{P}(f_{n}(m)W=y) }_{ =:\lambda_{m} }=0$$We will show that $R\leq \max_{q\in \Delta(\mathcal{X})}I(q,W)$. First, let $$P^n_{e}:=\frac{1}{2^{nR}}\sum_{m\in \mathcal{M}_{n}}^{}\lambda_{m}$$Then, as $P^n_{e}=\frac{1}{2^{nR}}\sum_{m}^{}\lambda_{m}\leq \max_{m}\lambda_{m}$ and $\lim_{ n \to \infty }P^n_{e}=0$.  
 >    
