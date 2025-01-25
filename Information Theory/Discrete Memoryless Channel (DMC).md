@@ -8,8 +8,12 @@
 
 - **Related definition**: For a DMC $W$ from $\mathcal{X}$ to $\mathcal{Y}$ and $q\in \Delta(\mathcal{X})$, $I(q,W):=I(X;Y)$ where $X\sim q$ and $Y \sim qW$.
    ^1491bf
-- **Related definition**: A rate $R$ is ***achievable*** on a DMC $W$ if there exists $(f_{n},\phi_{n})_{n\geq 1}$ where $f:\mathcal{M}_{n}\to \mathcal{X}^n$ and $\phi:\mathcal{Y}^n\to \mathcal{M}_{n}$ with $\mathcal{M}_{n}:=\{ 1,\dots,2^{nR} \}$ s.t. $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\sum_{\begin{subarray}{c}y\in \mathcal{Y}^n\\ \phi_{n}(y)\neq m\end{subarray}}\mathbb{P}(f_{n}(m)W=y)=0$$  ^a6191c
-- **Related definition**: The ***capacity*** of a DMC $W$ is $C(W):=\sup\{ R:R\text{ is achievable} \}$. ^513ead
+- **Related definition**: A rate $R\geq 0$ is 
+  1. ***achievable*** on a DMC $W$ if there exists $(f_{n},\phi_{n})_{n\geq 1}$ where $f:\mathcal{M}_{n}\to \mathcal{X}^n$ and $\phi:\mathcal{Y}^n\to \mathcal{M}_{n}$ with $\mathcal{M}_{n}:=\{ 1,\dots,2^{nR} \}$ s.t. $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\sum_{\begin{subarray}{c}y\in \mathcal{Y}^n\\ \phi_{n}(y)\neq m\end{subarray}}\mathbb{P}(f_{n}(m)W=y)=0$$
+  2. ***achievable with feedback*** on a DMC $W$ if $f_{n}$ also depends on all the previously received values, i.e. $Y_{1:i-1}$ at step $i$.  ^a6191c
+- **Related definition**: We have that:
+	1. The ***capacity*** of a DMC $W$ is $C(W):=\sup\{ R:R\text{ is achievable} \}$. 
+	2. The ***feedback capacity*** of $W$ is $C_{\text{FB}}(W):=\sup\{ R:R\text{ is achievable with feedback} \}$. ^513ead
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Data Processing Inequality for Relative Entropy)
@@ -104,6 +108,14 @@
 > 1. We first show that $C\geq C_{1}+C_{2}$. Let $q_{1}$ and $q_{2}$ be the pmf on $\mathcal{X}_{1}$ and $\mathcal{X}_{2}$ respectively, s.t. $C_{i}=I(q_{i},W_{i})$. Notice that: $$\begin{align}C\geq I(q_{1}\otimes q_{2},W_{1}\otimes W_{2})&=I((X_{1},X_{2});(Y_{1},Y_{2}))\\&=H(X_{1},X_{2})-H(X_{1},X_{2}|Y_{1},Y_{2})\\&=H(X_{1})+H(X_{2})-H(X_{1}|Y_{1},Y_{2})-H(X_{2}|X_{1},Y_{1},Y_{2})\\&=H(X_{1})+H(X_{2})-H(X_{1}|Y_{2})-H(X_{2}|,Y_{2})\\&=I(q_{1},W_{1})+I(q_{2},W_{2})\\&=C_{1}+C_{2}\end{align}$$
 >    Conversely, we will show that $C_{1}+C_{2}\geq C$. Let $q$ be the pmf on $\mathcal{X}_{1}\times \mathcal{X}_{2}$ s.t. $I(q,W_{1}\otimes W_{2})=C$. Then, $$\begin{align}C&=I(q,W_{1}\otimes W_{2})\\&\leq H(Y_{1})+H(Y_{2})-H(Y_{1},Y_{2}|X_{1},X_{2})\end{align}$$where $$\begin{align}H(Y_{1},Y_{2}|X_{1}=x_{1},X_{2}=x_{2})&=H(Y_{1}|X_{1}=x_{1})+H(Y_{2}|X_{2}=x_{2})\end{align}$$Therefore, $$\begin{align}H(Y_{1},Y_{2}|X_{1},X_{2})&=\sum_{x_{1},x_{2}}^{}q(x_{1},x_{2})(H(Y_{1}|X_{1}=x_{1})+H(Y_{2}|X_{2}=x_{2}))\\&=\end{align}$$
 
+---
+###### DMC with Feedback
+> [!lemma] Theorem 7 (Feedback doesn't increase capacity)
+> Let $W$ be a DMC. Then, 
+> 1. $C(W)=C_{\text{FB}}(W)$. 
+
+> [!proof]+
+> As non-feedback code is a feedback code, $C(W)\leq C_{\text{FB}}(W)$. Let $M$ be uniformly distributed over $\mathcal{M}_{n}$. Then, by [[Entropy|Fano]],$$nR=H(M)=H(M|Y_{1:n})+I(M;Y_{1:n})\leq 1+P_{e}^n nR+I(M;Y_{1:n})$$Now, $$\begin{align}I(M;Y_{1:n})&=H(Y_{1:n})-H(Y_{1:n}|M)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1}, M)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1},X_{i} , M)\\&\leq \sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|X_{i})\\&=\sum_{i=1}^{n}I(p_{X};W)\\&\leq nC(W)\end{align}$$ Therefore, $$R\leq \frac{1}{n}+P^n_{e}\cdot R+C(W)$$and we can conclude that $R\leq C(W)$ by $n\to \infty$. Hence, 
 ---
 ##### Examples
 > [!h] Example 1 (Binary Symmetric Channel)

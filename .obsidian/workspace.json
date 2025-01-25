@@ -127,7 +127,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "data proc",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,8 +179,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -272,12 +271,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "9ffd069f02b286fd",
   "lastOpenFiles": [
+    "Information Theory/Mutual Information.md",
     "Information Theory/Typical Sequence.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
-    "Information Theory/Mutual Information.md",
     "Information Theory/Entropy.md",
     "Probability Theory/Conditional Probability.md",
     "Information Theory/Relative Entropy.md",
