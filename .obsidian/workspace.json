@@ -107,9 +107,23 @@
               "icon": "lucide-file",
               "title": "Entropy"
             }
+          },
+          {
+            "id": "4ec51f4ca189f236",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Conditional Probability.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Conditional Probability"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -253,8 +267,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "4ec51f4ca189f236",
   "lastOpenFiles": [
+    "Information Theory/Entropy.md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
@@ -264,7 +279,6 @@
     "Technical Lemmas.md",
     "Information Theory/Code.md",
     "Information Theory/n-R code.md",
-    "Information Theory/Entropy.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Analysis/Convex Function.md",
     "Probability Theory/Expected Value.md",
