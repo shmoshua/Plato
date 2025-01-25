@@ -100,16 +100,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Relative Entropy.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Relative Entropy"
+              "title": "Entropy"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -253,11 +253,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ffd069f02b286fd",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
-    "Courses/Information Theory/Information Theory Roadmap.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Relative Entropy.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Mutual Information.md",
     "Information Theory/Channel.md",
     "Information Theory/Typical Sequence.md",
