@@ -8,10 +8,10 @@
 
 - **Related definition**: For a DMC $W$ from $\mathcal{X}$ to $\mathcal{Y}$ and $q\in \Delta(\mathcal{X})$, $I(q,W):=I(X;Y)$ where $X\sim q$ and $Y \sim qW$.
    ^1491bf
-- **Related definition**: A rate $R\geq 0$ is 
+- **Related definition**: A rate $R\geq 0$ is  ^21b4e0
   1. ***achievable*** on a DMC $W$ if there exists $(f_{n},\phi_{n})_{n\geq 1}$ where $f:\mathcal{M}_{n}\to \mathcal{X}^n$ and $\phi:\mathcal{Y}^n\to \mathcal{M}_{n}$ with $\mathcal{M}_{n}:=\{ 1,\dots,2^{nR} \}$ s.t. $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\sum_{\begin{subarray}{c}y\in \mathcal{Y}^n\\ \phi_{n}(y)\neq m\end{subarray}}\mathbb{P}(f_{n}(m)W=y)=0$$
   2. ***achievable with feedback*** on a DMC $W$ if $f_{n}$ also depends on all the previously received values, i.e. $Y_{1:i-1}$ at step $i$.  ^a6191c
-- **Related definition**: We have that:
+- **Related definition**: We have that: ^3b43b6
 	1. The ***capacity*** of a DMC $W$ is $C(W):=\sup\{ R:R\text{ is achievable} \}$. 
 	2. The ***feedback capacity*** of $W$ is $C_{\text{FB}}(W):=\sup\{ R:R\text{ is achievable with feedback} \}$. ^513ead
 ---
@@ -114,8 +114,13 @@
 > Let $W$ be a DMC. Then, 
 > 1. $C(W)=C_{\text{FB}}(W)$. 
 
-> [!proof]+
-> As non-feedback code is a feedback code, $C(W)\leq C_{\text{FB}}(W)$. Let $M$ be uniformly distributed over $\mathcal{M}_{n}$. Then, by [[Entropy|Fano]],$$nR=H(M)=H(M|Y_{1:n})+I(M;Y_{1:n})\leq 1+P_{e}^n nR+I(M;Y_{1:n})$$Now, $$\begin{align}I(M;Y_{1:n})&=H(Y_{1:n})-H(Y_{1:n}|M)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1}, M)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1},X_{i} , M)\\&\leq \sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|X_{i})\\&=\sum_{i=1}^{n}I(p_{X};W)\\&\leq nC(W)\end{align}$$ Therefore, $$R\leq \frac{1}{n}+P^n_{e}\cdot R+C(W)$$and we can conclude that $R\leq C(W)$ by $n\to \infty$. Hence, 
+^ec9f89
+
+> [!proof]-
+> As non-feedback code is a feedback code, $C(W)\leq C_{\text{FB}}(W)$. Let $M$ be uniformly distributed over $\mathcal{M}_{n}$. Then, by [[Entropy|Fano]],$$nR=H(M)=H(M|Y_{1:n})+I(M;Y_{1:n})\leq 1+P_{e}^n nR+I(M;Y_{1:n})$$Now, $$\begin{align}I(M;Y_{1:n})&=H(Y_{1:n})-H(Y_{1:n}|M)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1}, M)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1},X_{i} , M)\\&\leq \sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|X_{i})\\&=\sum_{i=1}^{n}I(p_{X};W)\\&\leq nC(W)\end{align}$$ Therefore, $$R\leq \frac{1}{n}+P^n_{e}\cdot R+C(W)$$and we can conclude that $R\leq C(W)$ by $n\to \infty$. Hence, $C_{\text{FB}}(W)\leq C(W)$.
+
+^1f04d3
+
 ---
 ##### Examples
 > [!h] Example 1 (Binary Symmetric Channel)

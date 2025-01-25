@@ -136,8 +136,11 @@
 ![[Mutual Information#^986f22|p]]
 
 ---
-![[Discrete Memoryless Channel (DMC)#^a6191c]]
-![[Discrete Memoryless Channel (DMC)#^513ead|q]]
+![[Discrete Memoryless Channel (DMC)#^21b4e0]]
+![[Discrete Memoryless Channel (DMC)#^3b43b6|q]]
+
+---
+![[Discrete Memoryless Channel (DMC)#^79c0ff]]
 
 ---
 ![[Discrete Memoryless Channel (DMC)#^45755d]]
@@ -159,6 +162,22 @@
 ![[Discrete Memoryless Channel (DMC)#^39768b|p]]
 
 ---
-![[Discrete Memoryless Channel (DMC)#^79c0ff]]
+#### 4.1 Feedback
+![[Discrete Memoryless Channel (DMC)#^ec9f89]]
+![[Discrete Memoryless Channel (DMC)#^1f04d3|p]]
 
 ---
+#### 4.2 Source Channel Separation
+> [!lemma] Theorem 1 (Source Channel Separation Theorem)
+> Let $\mathcal{U}$ be a finite alphabet. A ***source channel code*** consists of the following maps: $$\begin{array}{ccccc}
+\mathcal{U}^n&\xrightarrow{f}& \mathcal{X}^n&\xrightarrow{W}&\mathcal{Y}^n &\xrightarrow{\phi} &\mathcal{U}^n&\\U_{1:n}&\mapsto &X_{1:n}(U_{1:n})&\mapsto &Y_{1:n}&\mapsto &\widehat{U}_{1:n}
+\end{array}$$
+> with the probability of error defined as:$$P^n_{e}:=\mathbb{P}(U_{1:n}\neq \widehat{U}_{1:n})=\sum_{y_{1:n}\in \mathcal{Y}^n}^{}\sum_{u_{1:n}\in \mathcal{U}^n}p(u_{1:n})p(y_{1:n}|x_{1:n}(u_{1:n}))\cdot \mathbb{1}_{\{ \phi (y_{1:n})\neq u_{1:n}\}}$$Then, 
+> 1. if $U_{1},\dots,U_{n}\sim p$ i.i.d and $H(p)<C$, there exists a source channel code with $P^n_{e}\to 0$.
+> 2. if $H(p)>C$, then $\lim_{ n \to \infty }P^n_{e}\neq 0$. 
+
+> [!proof]+
+> We have:
+> 1. Notice that from [[Typical Sequence|AEP]], $\left| \mathcal{A}^n_{\varepsilon}(p) \right|\leq 2^{n(H(p)+\varepsilon)}$. Hence, we can only use $n(H(p)+\varepsilon)$ bits to transfer them. 
+>    
+>    Hence, if $H(p)+\varepsilon<C$ then we can find $(f_{n},\phi_{n})$
