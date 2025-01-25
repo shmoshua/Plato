@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -253,10 +253,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87ad6422ee7710b7",
+  "active": "f56e0f5489732331",
   "lastOpenFiles": [
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Mutual Information.md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Channel.md",

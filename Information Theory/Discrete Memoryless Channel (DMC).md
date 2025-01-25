@@ -9,7 +9,7 @@
 - **Related definition**: For a DMC $W$ from $\mathcal{X}$ to $\mathcal{Y}$ and $q\in \Delta(\mathcal{X})$, $I(q,W):=I(X;Y)$ where $X\sim q$ and $Y \sim qW$.
    ^1491bf
 - **Related definition**: A rate $R$ is ***achievable*** on a DMC $W$ if there exists $(f_{n},\phi_{n})_{n\geq 1}$ where $f:\mathcal{M}_{n}\to \mathcal{X}^n$ and $\phi:\mathcal{Y}^n\to \mathcal{M}_{n}$ with $\mathcal{M}_{n}:=\{ 1,\dots,2^{nR} \}$ s.t. $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\sum_{\begin{subarray}{c}y\in \mathcal{Y}^n\\ \phi_{n}(y)\neq m\end{subarray}}\mathbb{P}(f_{n}(m)W=y)=0$$  ^a6191c
-- **Related definition**: The ***capacity*** of a DMC $W$ is $\text{cap}(W):=\sup\{ R:R\text{ is achievable} \}$. ^513ead
+- **Related definition**: The ***capacity*** of a DMC $W$ is $C(W):=\sup\{ R:R\text{ is achievable} \}$. ^513ead
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Data Processing Inequality for Relative Entropy)
@@ -41,12 +41,26 @@
 ---
 > [!lemma] Theorem 3 (Shannon)
 > For a DMC $W$ from $\mathcal{X}$ to $\mathcal{Y}$, we have that:
-> 1. $\text{cap}(W)=\max_{q\in \Delta(\mathcal{X})}I(q,W)$.
+> 1. $C(W)=\max_{q\in \Delta(\mathcal{X})}I(q,W)$.
+> 2. $C(W)=\min_{r\in \Delta(\mathcal{Y})}\max_{x\in \mathcal{X}}D(W(\cdot|x)\| r)$.
 
 ^45755d
 
+> [!proof]+
+> We have that:
+> 1. hihi
+> 2. Notice that:  $$\begin{align}\sum_{x}^{}q(x)D(W(\cdot |x)\|r)&=\sum_{x}^{}q(x)\sum_{y}^{}W(y|x)\log \frac{W(y|x)}{r(y)}\\&=\sum_{x}^{}q(x)\sum_{y}^{}W(y|x)\left( \log \frac{W(y|x)}{qW(y)}+\log \frac{qW(y)}{r(y)} \right)\\&=I(q,W)+\sum_{x,y}^{}q(x)W(y|x)\log \frac{qW(y)}{r(y)}\\&=I(q,W)+D(qW\|r)\end{align}$$
+
 ---
-> [!lemma] Proposition 4
+> [!lemma] Theorem 4 (Karush-Kuhn-Tucker, KKT)
+> Let $W$ be a DMC. 
+> 1. if $q^{*}=\arg\max_{q\in \Delta(\mathcal{X})} I(q,W)$ with $C:=I(q^{*},W)$ then: $$D(W(\cdot |x)\|q^{*}W)\leq C,\quad \forall x\in \mathcal{X}$$with equality for all $x\in \mathcal{X}$ s.t. $q^{*}(x)>0$.
+> 2. for $q\in \Delta(\mathcal{X})$ and $\gamma\in \mathbb{R}$, if: $$D(W(\cdot |x)\|q W)\leq \gamma,\quad \forall x\in \mathcal{X}$$with equality for all $x\in\mathcal{X}$ s.t. $q(x)>0$, then $I(q,W)=\gamma$.
+
+> [!proof]+
+> 
+---
+> [!lemma] Proposition 5
 > For $\mathcal{X},\mathcal{Y}$ and a DMC $W$ from $\mathcal{X}$ to $\mathcal{Y}$, let $W'$ be another DMC from $\mathcal X\times \mathcal{X}$ to $\mathcal{Y}\times \mathcal{Y}$ s.t. $$W'_{(x_{1},x_{2}),(y_{1},y_{2})}=W_{x_{1},y_{1}}W_{x_{2},y_{2}}$$
 > Then, 
 > 1. a rate $R$ is achievable on $W$ if and only if $2R$ is achievable on $W'$.
@@ -55,15 +69,17 @@
 > We have:
 > 1. Assume that $R$ is achievable on $W$. Let $f'_{n}:=f_{2n}$ and $\phi'_{n}:=\phi_{2n}$. Then, for any $m\in \mathcal{M}_{2n}:=\{ 0,1,\dots,2^{2nR} \}$, $$\lambda_{m}:=\sum_{\begin{subarray}{c}y_{1:2n}\in \mathcal{Y}^{2n}\\ \phi_{2n}(y_{1:2n})\neq m\end{subarray}}\prod_{i=1}^{n}W_{f_{2n}(m)_{2i-1,2i},y_{2i-1,2i}}=\sum_{\begin{subarray}{c}y_{1:2n}\in \mathcal{Y}^{2n}\\ \phi_{2n}(y_{1:2n})\neq m\end{subarray}}\prod_{i=1}^{2n}W_{f_{2n}(m)_{i},y_{i}}$$ Therefore, $\lim_{ n \to \infty }\max_{m\in \mathcal{M}_{2n}}\lambda_{m}=0$ and $2R$ is achievable on $W'$.
 > 2. Analogous.
+
 ---
-> [!lemma] Proposition 5
+> [!lemma] Proposition 6
 > Consider two independent DMC $(\mathcal{X}_{1},W_{1},\mathcal{Y}_{1})$ and $(\mathcal{X}_{2},W_{2},\mathcal{Y}_{2})$ with capacities $C_{1}$ and $C_{2}$. 
 > 1. The DMC $(\mathcal{X}_{1}\times \mathcal{X}_{2},W_{1}\otimes W_{2},\mathcal{Y}_{1}\times \mathcal{Y}_{2})$ has the capacity $C:=C_{1}+C_{2}$:
 
-> [!proof]+
+> [!proof]-
 > Let $C$ be the capacity of the joint channel.
 > 1. We first show that $C\geq C_{1}+C_{2}$. Let $q_{1}$ and $q_{2}$ be the pmf on $\mathcal{X}_{1}$ and $\mathcal{X}_{2}$ respectively, s.t. $C_{i}=I(q_{i},W_{i})$. Notice that: $$\begin{align}C\geq I(q_{1}\otimes q_{2},W_{1}\otimes W_{2})&=I((X_{1},X_{2});(Y_{1},Y_{2}))\\&=H(X_{1},X_{2})-H(X_{1},X_{2}|Y_{1},Y_{2})\\&=H(X_{1})+H(X_{2})-H(X_{1}|Y_{1},Y_{2})-H(X_{2}|X_{1},Y_{1},Y_{2})\\&=H(X_{1})+H(X_{2})-H(X_{1}|Y_{2})-H(X_{2}|,Y_{2})\\&=I(q_{1},W_{1})+I(q_{2},W_{2})\\&=C_{1}+C_{2}\end{align}$$
 >    Conversely, we will show that $C_{1}+C_{2}\geq C$. Let $q$ be the pmf on $\mathcal{X}_{1}\times \mathcal{X}_{2}$ s.t. $I(q,W_{1}\otimes W_{2})=C$. Then, $$\begin{align}C&=I(q,W_{1}\otimes W_{2})\\&\leq H(Y_{1})+H(Y_{2})-H(Y_{1},Y_{2}|X_{1},X_{2})\end{align}$$where $$\begin{align}H(Y_{1},Y_{2}|X_{1}=x_{1},X_{2}=x_{2})&=H(Y_{1}|X_{1}=x_{1})+H(Y_{2}|X_{2}=x_{2})\end{align}$$Therefore, $$\begin{align}H(Y_{1},Y_{2}|X_{1},X_{2})&=\sum_{x_{1},x_{2}}^{}q(x_{1},x_{2})(H(Y_{1}|X_{1}=x_{1})+H(Y_{2}|X_{2}=x_{2}))\\&=\end{align}$$
+
 ---
 ##### Examples
 > [!h] Example 1 (Binary Symmetric Channel)
