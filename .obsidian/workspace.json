@@ -126,8 +126,7 @@
               "title": "Typical Sequence"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,11 +270,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ffd069f02b286fd",
+  "active": "b2f96fe97e4c1bb6",
   "lastOpenFiles": [
-    "Information Theory/Distortion.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Typical Sequence.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Information Theory/Distortion.md",
     "Information Theory/Mutual Information.md",
     "Probability Theory/Conditional Probability.md",
     "Courses/Information Theory/Information Theory Roadmap.md",

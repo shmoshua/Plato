@@ -27,7 +27,15 @@
 ---
 > [!lemma] Lemma 2
 > Let $p_{Y|X}$ s.t. $\mathbb{E}[d(X,Y)]\leq D$ for some $D\geq 0$. 
-> 1. there exists a description $(f_{n},\phi_{n})_{n}$ with $n_{0}\geq 0$ s.t. for all $n\geq n_{0}$, $$\mathbb{E}[d(X),\phi_{n}(f_{n}(X))]\leq D+\delta$$ of rate $I(X;Y)+\varepsilon$.
+> 1. there exists a description $(f_{n},\phi_{n})_{n}$ with $n_{0}\geq 0$ s.t. for all $n\geq n_{0}$, $$\mathbb{E}[d(X,\phi_{n}(f_{n}(X)))]\leq D+\delta$$ of rate $I(X;Y)+\varepsilon$.
+
+> [!proof]+
+> Let $0<\varepsilon'<\varepsilon<\tilde{\varepsilon}$ and set $R:=I(X;Y)+\tilde{\varepsilon}$. Let $p_{Y}$ be the marginal of $p_{X}(x)p_{Y|X}(y|x)$.
+> 
+> Now, we define $(f_{n},\phi_{n})_{n}$ as follows. Fix $n$. Let $\mathcal{C}$ be a codebook, i.e. $\mathcal{C}\in \mathcal{Y}^{2^{nR}\times n}$. Denote $\mathcal{C}[i]$ as the $i$-th row of $\mathcal{C}$. Then, 
+> $$f_{n}:\mathcal{X}^n\to[2^{nR}],\quad x\mapsto \begin{cases}j&j=\min\{ i\geq 1:(x,\mathcal{C}[i])\in T^n_{\varepsilon}(p_{X}p_{Y|X}) \}\\{\bot}&\text{otherwise}\end{cases}$$and $\phi_{n}:[2^{nR}]\to \mathcal{Y}^n, j\mapsto \mathcal{C}[j]$.
+> 
+> Let $X:=(X_{1},\dots,X_{n})\in \mathcal{X}^n$ i.i.d sampled with $p_{X}$. Then, $$\begin{align}\mathbb{P}(f_{n}(X)\neq  {\bot})&=\sum_{x\in \mathcal{X}^n}^{}\mathbb{P}(X=x)\mathbb{P}(f_{n}(X)\neq {\bot}|X=x)\\&\leq\sum_{x\in T^n_{\varepsilon}(p_{X}p_{Y|X})}^{}\mathbb{P}(X=x)\mathbb{P}(f_{n}(x)\neq {\bot})+\mathbb{P}(X\notin T^n_{\varepsilon}(p_{X}p_{Y|X}))\end{align}$$Now, as the rows of $\mathcal{C}$ are independent, foir a fixed $x$, $$(x,\mathcal{C}[i])\in T^n_{\varepsilon}(p_{X}p_{Y|X})$$are independent events over $i\in [2^{nR}]$. Notice that we have: $$\lim_{ n \to \infty } 2^{nR}2^{-n(I(X,Y)+4\delta_{XY})}=\lim_{ n \to \infty } 2^{n(\tilde{\varepsilon}+4\delta_{XY})}=\infty$$For all $\tilde{\varepsilon}>4 \delta_{XY}$. Hence, we have that $\lim_{ n \to \infty }\mathbb{P}(f_{n}(x)\neq {\bot})=1$. Therefore, $$\lim_{ n \to \infty } \mathbb{P}(f_{n}(X)\neq {\bot})=\lim_{ n \to \infty } \sum_{x\in \mathcal{X}^n}^{}\mathbb{P}(X=x)\chi_{T^n_{\varepsilon}(p_{X}p_{Y|X})}(x)\mathbb{P}(f_{n}(x)\neq {\bot})=1$$Hence,$$1=\lim_{ n \to \infty } \mathbb{P}(f_{n}(X)\neq {\bot})=\lim_{ n \to \infty } \sum_{}^{}\mathbb{P}(\mathcal{C})\mathbb{P}(f_{n}(X)\neq {\bot}|\mathcal{C})$$and we have a series of codebooks $(\mathcal{C}_{n})_{n}$ s.t. $\mathbb{P}(f_{n}(X)\neq {\bot}|\mathcal{C}_{n})\to 1$. Now, $$\mathbb{E}[d(X,\phi_{n}(f_{n}(X)))]\leq(1+\varepsilon)D$$
 ---
 > [!lemma] Theorem 3 (Shannon)
 > For $\mathcal{X},\mathcal{Y}$ finite,  
