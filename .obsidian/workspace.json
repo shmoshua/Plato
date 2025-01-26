@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "file": "Information Theory/Distortion.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Information Theory Roadmap"
+              "title": "Distortion"
             }
           },
           {
@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "file": "Information Theory/Distortion.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Information Theory Roadmap"
+              "title": "Distortion"
             }
           },
           {
@@ -272,9 +272,10 @@
   },
   "active": "b2f96fe97e4c1bb6",
   "lastOpenFiles": [
+    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Distortion.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Typical Sequence.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Mutual Information.md",
     "Information Theory/Entropy.md",
     "Probability Theory/Conditional Probability.md",
@@ -297,7 +298,6 @@
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Wedge Product.md",
     "Topology/Complex Projective Space.md",
-    "Algebra/Chain Complex.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
