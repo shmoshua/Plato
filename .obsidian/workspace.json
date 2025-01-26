@@ -104,12 +104,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Information Theory/Typical Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "Typical Sequence"
             }
           },
           {
@@ -118,16 +118,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Typical Sequence.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Typical Sequence"
+              "title": "Entropy"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -271,23 +271,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ffd069f02b286fd",
+  "active": "a6aaca5b94aebdb0",
   "lastOpenFiles": [
+    "Information Theory/Code.md",
+    "Information Theory/Typical Sequence.md",
+    "Probability Theory/Expected Value.md",
+    "Information Theory/Entropy.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
-    "Information Theory/Typical Sequence.md",
     "Information Theory/Distortion.md",
     "Information Theory/Mutual Information.md",
     "Probability Theory/Conditional Probability.md",
-    "Information Theory/Entropy.md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Channel.md",
     "Technical Lemmas.md",
-    "Information Theory/Code.md",
     "Information Theory/n-R code.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Analysis/Convex Function.md",
-    "Probability Theory/Expected Value.md",
     "Topology/Lift.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Algebraic Topology/Homology Theory.md",
