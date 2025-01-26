@@ -71,3 +71,12 @@
 > We have that: $$\begin{align}\mathbb{P}((X_{1:n},Y_{1:n})\in \mathcal{A}^n_{\varepsilon}(p_{XY}))&=\sum_{(\xi,\eta)\in \mathcal{A}^n_{\varepsilon}(p_{XY})}^{}\mathbb{P}(X_{1:n}=\xi,Y_{1:n}=\eta)\\&=\sum_{(\xi,\eta)\in \mathcal{A}^n_{\varepsilon}(p_{XY})}^{}\mathbb{P}(X_{1:n}=\xi) \mathbb{P}(Y_{1:n}=\eta)\\&\leq \sum_{(\xi,\eta)\in \mathcal{A}^n_{\varepsilon}(p_{XY})}^{} 2^{-n(H(p_{X})+H(p_{Y})-2\varepsilon)}\\&\leq2^{-n(H(p_{X})+H(p_{Y})-H(p_{XY})-3\varepsilon)}=2^{-n(I(X;Y)-3\varepsilon)}\end{align}$$
 
 ^d9ff78
+
+---
+> [!lemma] Lemma 5
+> Let $\mathcal{X}$ be finite and $p\in \Delta(\mathcal{X})$. Let $g:\mathcal{X}\to \mathbb{R}_{\geq 0}$. Then, 
+> 1. for $\xi\in T^n_{\varepsilon}(p)$ then: $$\frac{1}{n}\sum_{i=1}^{n}g(\xi_{i})\leq(1+\varepsilon)\mathbb{E}_{X\sim p}[g(X)]$$
+
+> [!proof]-
+> We have that by strong typicality: $$\frac{1}{n}\sum_{i=1}^{n}g(\xi_{i})=\sum_{a\in \mathcal{X}}^{} \frac{1}{n}N(a|\xi)g(a)\leq \sum_{a\in \mathcal{X}}^{}(1+\varepsilon)p(a)g(a)=(1+\varepsilon)\mathbb{E}[g(X)]$$
+---

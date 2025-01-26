@@ -29,27 +29,37 @@
 > Let $p_{Y|X}$ s.t. $\mathbb{E}[d(X,Y)]\leq D$ for some $D\geq 0$. 
 > 1. there exists a description $(f_{n},\phi_{n})_{n}$ with $n_{0}\geq 0$ s.t. for all $n\geq n_{0}$, $$\mathbb{E}[d(X,\phi_{n}(f_{n}(X)))]\leq D+\delta$$ of rate $I(X;Y)+\varepsilon$.
 
-> [!proof]+
+> [!proof]-
 > Let $0<\varepsilon'<\varepsilon<\tilde{\varepsilon}$ and set $R:=I(X;Y)+\tilde{\varepsilon}$. Let $p_{Y}$ be the marginal of $p_{X}(x)p_{Y|X}(y|x)$.
 > 
 > Now, we define $(f_{n},\phi_{n})_{n}$ as follows. Fix $n$. Let $\mathcal{C}$ be a codebook, i.e. $\mathcal{C}\in \mathcal{Y}^{2^{nR}\times n}$. Denote $\mathcal{C}[i]$ as the $i$-th row of $\mathcal{C}$. Then, 
 > $$f_{n}:\mathcal{X}^n\to[2^{nR}],\quad x\mapsto \begin{cases}j&j=\min\{ i\geq 1:(x,\mathcal{C}[i])\in T^n_{\varepsilon}(p_{X}p_{Y|X}) \}\\{\bot}&\text{otherwise}\end{cases}$$and $\phi_{n}:[2^{nR}]\to \mathcal{Y}^n, j\mapsto \mathcal{C}[j]$.
 > 
-> Let $X:=(X_{1},\dots,X_{n})\in \mathcal{X}^n$ i.i.d sampled with $p_{X}$. Then, $$\begin{align}\mathbb{P}(f_{n}(X)\neq  {\bot})&=\sum_{x\in \mathcal{X}^n}^{}\mathbb{P}(X=x)\mathbb{P}(f_{n}(X)\neq {\bot}|X=x)\\&\leq\sum_{x\in T^n_{\varepsilon}(p_{X}p_{Y|X})}^{}\mathbb{P}(X=x)\mathbb{P}(f_{n}(x)\neq {\bot})+\mathbb{P}(X\notin T^n_{\varepsilon}(p_{X}p_{Y|X}))\end{align}$$Now, as the rows of $\mathcal{C}$ are independent, foir a fixed $x$, $$(x,\mathcal{C}[i])\in T^n_{\varepsilon}(p_{X}p_{Y|X})$$are independent events over $i\in [2^{nR}]$. Notice that we have: $$\lim_{ n \to \infty } 2^{nR}2^{-n(I(X,Y)+4\delta_{XY})}=\lim_{ n \to \infty } 2^{n(\tilde{\varepsilon}+4\delta_{XY})}=\infty$$For all $\tilde{\varepsilon}>4 \delta_{XY}$. Hence, we have that $\lim_{ n \to \infty }\mathbb{P}(f_{n}(x)\neq {\bot})=1$. Therefore, $$\lim_{ n \to \infty } \mathbb{P}(f_{n}(X)\neq {\bot})=\lim_{ n \to \infty } \sum_{x\in \mathcal{X}^n}^{}\mathbb{P}(X=x)\chi_{T^n_{\varepsilon}(p_{X}p_{Y|X})}(x)\mathbb{P}(f_{n}(x)\neq {\bot})=1$$Hence,$$1=\lim_{ n \to \infty } \mathbb{P}(f_{n}(X)\neq {\bot})=\lim_{ n \to \infty } \sum_{}^{}\mathbb{P}(\mathcal{C})\mathbb{P}(f_{n}(X)\neq {\bot}|\mathcal{C})$$and we have a series of codebooks $(\mathcal{C}_{n})_{n}$ s.t. $\mathbb{P}(f_{n}(X)\neq {\bot}|\mathcal{C}_{n})\to 1$. Now, $$\mathbb{E}[d(X,\phi_{n}(f_{n}(X)))]\leq(1+\varepsilon)D$$
+> Let $X:=(X_{1},\dots,X_{n})\in \mathcal{X}^n$ i.i.d sampled with $p_{X}$. Then, $$\begin{align}\mathbb{P}(f_{n}(X)\neq  {\bot})&=\sum_{x\in \mathcal{X}^n}^{}\mathbb{P}(X=x)\mathbb{P}(f_{n}(X)\neq {\bot}|X=x)\\&\leq\sum_{x\in T^n_{\varepsilon}(p_{X}p_{Y|X})}^{}\mathbb{P}(X=x)\mathbb{P}(f_{n}(x)\neq {\bot})+\mathbb{P}(X\notin T^n_{\varepsilon}(p_{X}p_{Y|X}))\end{align}$$Now, as the rows of $\mathcal{C}$ are independent, foir a fixed $x$, $$(x,\mathcal{C}[i])\in T^n_{\varepsilon}(p_{X}p_{Y|X})$$are independent events over $i\in [2^{nR}]$. Notice that we have: $$\lim_{ n \to \infty } 2^{nR}2^{-n(I(X,Y)+4\delta_{XY})}=\lim_{ n \to \infty } 2^{n(\tilde{\varepsilon}+4\delta_{XY})}=\infty$$For all $\tilde{\varepsilon}>4 \delta_{XY}$. Hence, we have that $\lim_{ n \to \infty }\mathbb{P}(f_{n}(x)\neq {\bot})=1$. Therefore, $$\lim_{ n \to \infty } \mathbb{P}(f_{n}(X)\neq {\bot})=\lim_{ n \to \infty } \sum_{x\in \mathcal{X}^n}^{}\mathbb{P}(X=x)\chi_{T^n_{\varepsilon}(p_{X}p_{Y|X})}(x)\mathbb{P}(f_{n}(x)\neq {\bot})=1$$Hence,$$1=\lim_{ n \to \infty } \mathbb{P}(f_{n}(X)\neq {\bot})=\lim_{ n \to \infty } \sum_{}^{}\mathbb{P}(\mathcal{C})\mathbb{P}(f_{n}(X)\neq {\bot}|\mathcal{C})$$and we have a series of codebooks $(\mathcal{C}_{n})_{n}$ s.t. $\mathbb{P}(f_{n}(X)\neq {\bot}|\mathcal{C}_{n})\to 1$. Now, notice that by [[Typical Sequence|Lemma 5]], if $(x,\mathcal{C}[j])\in T^n_{\varepsilon}(p_{X}p_{Y|X})$ then $d(x,\mathcal{C}[j])\leq (1+\varepsilon)D$. Hence, $$\mathbb{E}[d(X,\phi_{n}(f_{n}(X)))]\leq(1+\varepsilon)D\cdot \mathbb{P}(f_{n}(X)\neq {\bot}|\mathcal{C}_{n})+d_{\max}\cdot \mathbb{P}(f_{n}(X)= {\bot}|\mathcal{C}_{n})$$Hence, $\lim_{ n \to \infty }\mathbb{E}[d(X,\phi_{n}(f_{n}(X)))]\leq (1+\varepsilon)D$.
 ---
 > [!lemma] Theorem 3 (Shannon)
 > For $\mathcal{X},\mathcal{Y}$ finite,  
 > 1. $R(D)=R^{(I)}(D)$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. To show that $R(D)\geq R^{(I)}(D)$, let $R\geq 0$ s.t. $(R,D)$ is achievable. We claim that:
 > 	1. **Claim 1**: If $(f,\phi)$ is a description of rate $R$ and $\mathbb{E}[d(X,\phi(f(X)))]\leq \lambda$, then $R\geq R^{(I)}(\lambda)$ for all $\lambda$. 
 > 	   We have that: $$\begin{align}nR&\geq H( f(X))=H(f(X))-H(f(X);X)\\&=I(X;f(X))\\&\geq  I(X;Y)\\&=H(X)-H(X|Y)\\&=\sum_{i=1}^{n}H(X_{i})-H(X_{i}|Y,X_{1:i-1})\\&\geq \sum_{i=1}^{n}H(X_{i})-H(X_{i}|Y_{i})\\&=\sum_{i=1}^{n}I(X_{i};Y_{i})\\&\geq n\cdot  \frac{1}{n}\sum_{i=1}^{n}R^{(I)}(\mathbb{E}[d(X_{i},Y_{i})])\end{align}$$As $R^{(I)(\cdot)}$ is convex and monotonously decreasing, we have: $$nR\geq n\cdot R^{(I)}\left( \frac{1}{n}\sum_{i=1}^{n}\mathbb{E}[d(X_{i},Y_{i})] \right)=n\cdot R^{(I)}(\mathbb{E}[d(X,Y)])\geq n\cdot R^{(I)}(\lambda)$$
 > 	
 > 	Therefore, let $(\delta_{i})_{i}$ s.t. $\delta_{i}\to 0$. Then, by Claim 1 and continuity: $$R\geq \lim_{ i \to \infty } R^{(I)}(D+\delta_{i})=R^{(I)}(D)$$
-> 2. To show that $R^{(I)}(D)\leq R(D)$, we aim to find $p_{Y|X}$ with $\mathbb{E}[d(x,y)]\leq D$ s.t. $I(X;Y)\leq R(D)$
-> 	   
+> 2. To show that $R^{(I)}(D)\geq R(D)$, let $p_{Y|X}$ attain $R^{(I)}(D)$. Then, by Lemma 2, there exists a description $(f_{n},\phi_{n})_{n}$ with $\mathbb{E}[d(X,\phi_{n}(f_{n}(X)))]\leq D+\delta$ of rate $I(X;Y)+\varepsilon$. Hence, $I(X;Y)=R^{(I)}(D)\geq R(D)$. 
+---
+> [!lemma] Theorem 4 (Source-Channel Separation Theorem)
+> We have the setting: $$\begin{array}{cccccc}\mathcal{S}^k&\to&\mathcal{X}^n&\xrightarrow{W}& \mathcal{Y}^n&\to& \mathcal{T}^k\\S_{1:k}&\mapsto &X_{1:n}&\mapsto &Y_{1:n}&\mapsto &T_{1:k}\end{array}$$
+> Let $\rho_{S}$ denote the number of source symbols per second and $\rho_{C}$ the number of channel uses per second. Then, 
+> 1. if $\rho_{S}R(D)< \rho_{C}C(W)$, we can transmit the source over the channel $W$ with separative approach. 
+> 2. if the source can be sent with distortion $D$, then $\rho_{S}R(D)\leq \rho_{C}C(W)$. 
+
+> [!proof]+
+> We have:
+> 1. hihi
+> 2. We have that $k$ source symbols are generated every $k\cdot\rho_{S}^{-1}$ seconds and $n$ channel uses every $n\cdot\rho_{C}^{-1}$ seconds. Therefore, $\frac{k}{n}=\rho_{S}\rho_{C}^{-1}$. Hence, if the source can be sent then:$$\begin{align}nC(W)&\geq  I(S_{1:k};T_{1:k})\\&=H(S_{1:k})-H(S_{1:k}|T_{1:k})\\&\geq \sum_{i=1}^{k}H(S_{i})-H(S_{i}|T_{i})\\&=\sum_{i=1}^{k}I(S_{i};T_{i})\\&\geq  k \frac{1}{k}\sum_{i=1}^{k}\cdot  R(\mathbb{E}[d(S_{i},T_{i})])\\&\geq k\cdot R\left( \mathbb{E}[d(S_{1:k},T_{1:k})]\right)\\&\geq k\cdot R(D)\end{align}$$Therefore, $$\rho_{S}R(D)\leq \frac{k}{n}\rho_{C} \cdot  R(D)\leq \rho_{C}\cdot C(W)$$
 ---
 ##### Examples
 > [!h] Example 1 (Bernoulli source and Hamming distortion)

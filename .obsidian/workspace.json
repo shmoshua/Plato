@@ -85,6 +85,20 @@
             }
           },
           {
+            "id": "9b9313d05c25084b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Information Theory Roadmap"
+            }
+          },
+          {
             "id": "9ffd069f02b286fd",
             "type": "leaf",
             "state": {
@@ -96,20 +110,6 @@
               },
               "icon": "lucide-file",
               "title": "Discrete Memoryless Channel (DMC)"
-            }
-          },
-          {
-            "id": "9b9313d05c25084b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Typical Sequence.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Typical Sequence"
             }
           },
           {
@@ -272,12 +272,12 @@
   },
   "active": "b2f96fe97e4c1bb6",
   "lastOpenFiles": [
+    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Distortion.md",
     "Information Theory/Typical Sequence.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
-    "Information Theory/Distortion.md",
     "Information Theory/Mutual Information.md",
     "Probability Theory/Conditional Probability.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Entropy.md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Channel.md",
