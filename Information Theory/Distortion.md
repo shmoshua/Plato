@@ -19,14 +19,25 @@
 > 2. $R^{(I)}(D)$ is convex in $D$. 
 > 3. $R^{(I)}(D)$ is continuous over $D\in [0,\infty)$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Obvious.
-> 2. Let $p^1_{Y|X}$ and $p^2_{Y|X}$ achieve $R^{(I)}(D_{1})$ and $R^{(I)}(D_{2})$. Consider: $$p_{Y|X}:=\lambda p^1_{Y|X}+(1-\lambda)p^2_{Y|X}$$Then, $\mathbb{E}_{p_{X}p_{Y|X}}[d(X,Y)]\leq \lambda D_{1}+(1-\lambda)D_{2}$ and: $$R^{(I)}(\lambda D_{1}+(1-\lambda)D_{2})\leq I_{p_{XY}}(X;Y)$$
+> 2. Let $p^1_{Y|X}$ and $p^2_{Y|X}$ achieve $R^{(I)}(D_{1})$ and $R^{(I)}(D_{2})$. Consider: $$p_{Y|X}:=\lambda p^1_{Y|X}+(1-\lambda)p^2_{Y|X}$$Then, $\mathbb{E}_{p_{X}p_{Y|X}}[d(X,Y)]\leq \lambda D_{1}+(1-\lambda)D_{2}$ and: $$\begin{align}R^{(I)}(\lambda D_{1}+(1-\lambda)D_{2})&\leq I_{p_{XY}}(X;Y)\\&=I(p_{X},\lambda p^1_{Y|X}+(1-\lambda)p^2_{Y|X})\\&\leq \lambda I(p_{X},p^1_{Y|X})+(1-\lambda)I(p_{X},p^2_{Y|X})\\&=\lambda R^{(I)}(D_{1})+(1-\lambda)R^{(I)}(D_{2})\end{align}$$
+> 3. The continuity at $(0,\infty)$ is shown by convexity. 
 ---
 > [!lemma] Theorem 2 (Shannon)
 > For $\mathcal{X},\mathcal{Y}$ finite,  
 > 1. $R(D)=R^{(I)}(D)$.
+
+> [!proof]+
+> We have that:
+> 1. To show that $R(D)\geq R^{(I)}(D)$, let $R\geq 0$ s.t. $(R,D)$ is achievable. We claim that:
+> 	1. **Claim 1**: If $(f,\phi)$ is a description of rate $R$ and $\mathbb{E}[d(X,\phi(f(X)))]\leq \lambda$, then $R\geq R^{(I)}(\lambda)$ for all $\lambda$. 
+> 	   We have that: $$\begin{align}nR&\geq H( f(X))=H(f(X))-H(f(X);X)\\&=I(X;f(X))\\&\geq  I(X;Y)\\&=H(X)-H(X|Y)\\&=\sum_{i=1}^{n}H(X_{i})-H(X_{i}|Y,X_{1:i-1})\\&\geq \sum_{i=1}^{n}H(X_{i})-H(X_{i}|Y_{i})\\&=\sum_{i=1}^{n}I(X_{i};Y_{i})\\&\geq n\cdot  \frac{1}{n}\sum_{i=1}^{n}R^{(I)}(\mathbb{E}[d(X_{i},Y_{i})])\end{align}$$As $R^{(I)(\cdot)}$ is convex and monotonously decreasing, we have: $$nR\geq n\cdot R^{(I)}\left( \frac{1}{n}\sum_{i=1}^{n}\mathbb{E}[d(X_{i},Y_{i})] \right)=n\cdot R^{(I)}(\mathbb{E}[d(X,Y)])\geq n\cdot R^{(I)}(\lambda)$$
+> 	
+> 	Therefore, let $(\delta_{i})_{i}$ s.t. $\delta_{i}\to 0$. Then, by Claim 1 and continuity: $$R\geq \lim_{ i \to \infty } R^{(I)}(D+\delta_{i})=R^{(I)}(D)$$
+> 2. To show that $R^{(I)}(D)\leq R(D)$, we aim to find $p_{Y|X}$ with $\mathbb{E}[d(x,y)]\leq D$ s.t. $I(X;Y)\leq R(D)$
+> 	   
 ---
 ##### Examples
 > [!h] Example 1 (Bernoulli source and Hamming distortion)
