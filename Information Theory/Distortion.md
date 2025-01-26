@@ -18,6 +18,11 @@
 > 1. $R^{(I)}(D)$ is monotonically decreasing in $D$. 
 > 2. $R^{(I)}(D)$ is convex in $D$. 
 > 3. $R^{(I)}(D)$ is continuous over $D\in [0,\infty)$.
+
+> [!proof]+
+> We have that:
+> 1. Obvious.
+> 2. Let $p^1_{Y|X}$ and $p^2_{Y|X}$ achieve $R^{(I)}(D_{1})$ and $R^{(I)}(D_{2})$. Consider: $$p_{Y|X}:=\lambda p^1_{Y|X}+(1-\lambda)p^2_{Y|X}$$Then, $\mathbb{E}_{p_{X}p_{Y|X}}[d(X,Y)]\leq \lambda D_{1}+(1-\lambda)D_{2}$ and: $$R^{(I)}(\lambda D_{1}+(1-\lambda)D_{2})\leq I_{p_{XY}}(X;Y)$$
 ---
 > [!lemma] Theorem 2 (Shannon)
 > For $\mathcal{X},\mathcal{Y}$ finite,  
