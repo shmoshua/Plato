@@ -125,8 +125,23 @@
               "icon": "lucide-file",
               "title": "Discrete Memoryless Channel (DMC)"
             }
+          },
+          {
+            "id": "243b6e5122afc9b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Conditional Probability.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Conditional Probability"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -270,10 +285,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b2f96fe97e4c1bb6",
+  "active": "243b6e5122afc9b0",
   "lastOpenFiles": [
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Distortion.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Typical Sequence.md",
     "Information Theory/Mutual Information.md",
