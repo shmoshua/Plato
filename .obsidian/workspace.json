@@ -127,7 +127,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -271,12 +271,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a6aaca5b94aebdb0",
+  "active": "9ffd069f02b286fd",
   "lastOpenFiles": [
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Distortion.md",
-    "Information Theory/Mutual Information.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Typical Sequence.md",
+    "Information Theory/Mutual Information.md",
     "Probability Theory/Conditional Probability.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Entropy.md",
