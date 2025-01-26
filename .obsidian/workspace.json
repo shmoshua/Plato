@@ -104,12 +104,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Discrete Memoryless Channel (DMC)"
+              "title": "Entropy"
             }
           },
           {
@@ -126,7 +126,8 @@
               "title": "Typical Sequence"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -270,12 +271,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b2f96fe97e4c1bb6",
+  "active": "9ffd069f02b286fd",
   "lastOpenFiles": [
-    "Courses/Information Theory/Information Theory Roadmap.md",
-    "Information Theory/Distortion.md",
-    "Information Theory/Typical Sequence.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Typical Sequence.md",
+    "Information Theory/Distortion.md",
     "Information Theory/Mutual Information.md",
     "Probability Theory/Conditional Probability.md",
     "Information Theory/Entropy.md",
