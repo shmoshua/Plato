@@ -173,11 +173,19 @@
 \mathcal{U}^n&\xrightarrow{f}& \mathcal{X}^n&\xrightarrow{W}&\mathcal{Y}^n &\xrightarrow{\phi} &\mathcal{U}^n&\\U_{1:n}&\mapsto &X_{1:n}(U_{1:n})&\mapsto &Y_{1:n}&\mapsto &\widehat{U}_{1:n}
 \end{array}$$
 > with the probability of error defined as:$$P^n_{e}:=\mathbb{P}(U_{1:n}\neq \widehat{U}_{1:n})=\sum_{y_{1:n}\in \mathcal{Y}^n}^{}\sum_{u_{1:n}\in \mathcal{U}^n}p(u_{1:n})p(y_{1:n}|x_{1:n}(u_{1:n}))\cdot \mathbb{1}_{\{ \phi (y_{1:n})\neq u_{1:n}\}}$$Then, 
-> 1. if $U_{1},\dots,U_{n}\sim p$ i.i.d and $H(p)<C$, there exists a source channel code with $P^n_{e}\to 0$.
-> 2. if $H(p)>C$, then $\lim_{ n \to \infty }P^n_{e}\neq 0$. 
+> 1. if $U_{1},\dots,U_{n}\sim p$ i.i.d and $H(p)<C(W)$, there exists a source channel code with $P^n_{e}\to 0$.
+> 2. if $H(p)>C(W)$, then $\lim_{ n \to \infty }P^n_{e}\neq 0$. 
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. Notice that from [[Typical Sequence|AEP]], $\left| \mathcal{A}^n_{\varepsilon}(p) \right|\leq 2^{n(H(p)+\varepsilon)}$. Hence, we can only use $n(H(p)+\varepsilon)$ bits to transfer them. 
+> 1. Notice that from [[Typical Sequence|AEP]], $\left| \mathcal{A}^n_{\varepsilon}(p) \right|\leq 2^{n(H(p)+\varepsilon)}$. Hence, we can only use $n(H(p)+\varepsilon)$ bits to transfer them.  Therefore, we use $\mathcal{U}^n\to \mathcal{M}_{n(H(p)+\varepsilon)}\to \mathcal{X}^n$ where the first map maps the weakly typical sequences and discards the rest.
 >    
->    Hence, if $H(p)+\varepsilon<C$ then we can find $(f_{n},\phi_{n})$
+>    Hence, if $R:=H(p)+\varepsilon<C$ then we can find $(f_{n},\phi_{n})_{n}$ s.t. for large enough $n$, $\lambda_{\max}<\varepsilon$. 
+>    
+>    Therefore, $$P^n_{e}=\mathbb{P}(U_{1:n}\notin \mathcal{A}^n_{\varepsilon}(p))+\lambda_{\max}<2\varepsilon$$for large enough $n$. 
+> 2. Conversely, we will show that $P^n_{e}\to 0$ implies $H(p)\leq C$. By Fano, we have: $$H(U_{1:n}|\widehat{U}_{1:n})\leq 1+P^n_{e}\cdot n\cdot \log \left| \mathcal{U} \right| $$Hence, $$\begin{align} H(p)&\leq \frac{H(U_{1:n})}{n}\leq\frac{1}{n}I(U_{1:n};\widehat{U}_{1:n})+\frac{1}{n}+P^n_{e} \cdot \log \left| \mathcal{U} \right| \\&\leq\frac{1}{n}I(X_{1:n};Y_{1:n})+\frac{1}{n}+P^n_{e} \cdot \log \left| \mathcal{U} \right| \\&\leq C(W)+\frac{1}{n}+P^n_{e}\cdot \log \left| \mathcal{U} \right| \end{align}$$Hence, $H(p)\leq C(W)$.
+
+- **Corollary**: This can be extended to the case where the number of source symbols and number of channel uses differ. In that case the condition becomes $H(p)\rho_{S}<C\rho_{C}$ where $\rho_{S}$ measures the number of source symbols per second and $\rho_{C}$ measures the number of channel uses per second. 
+- **Related definition**: ***Symbol error rate*** talks about $\frac{1}{k}\sum_{i}^{}\mathbb{P}(U_{i}\neq \widehat{U}_{i})$ instead of $P^n_{e}$. However, for symbol error rate, the same conditions as the theorem apply. 
+---
+
