@@ -118,15 +118,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
+                "file": "Information Theory/Typical Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Discrete Memoryless Channel (DMC)"
+              "title": "Typical Sequence"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -270,7 +271,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b2f96fe97e4c1bb6",
+  "active": "a6aaca5b94aebdb0",
   "lastOpenFiles": [
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Distortion.md",

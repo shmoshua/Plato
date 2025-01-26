@@ -25,7 +25,11 @@
 > 2. Let $p^1_{Y|X}$ and $p^2_{Y|X}$ achieve $R^{(I)}(D_{1})$ and $R^{(I)}(D_{2})$. Consider: $$p_{Y|X}:=\lambda p^1_{Y|X}+(1-\lambda)p^2_{Y|X}$$Then, $\mathbb{E}_{p_{X}p_{Y|X}}[d(X,Y)]\leq \lambda D_{1}+(1-\lambda)D_{2}$ and: $$\begin{align}R^{(I)}(\lambda D_{1}+(1-\lambda)D_{2})&\leq I_{p_{XY}}(X;Y)\\&=I(p_{X},\lambda p^1_{Y|X}+(1-\lambda)p^2_{Y|X})\\&\leq \lambda I(p_{X},p^1_{Y|X})+(1-\lambda)I(p_{X},p^2_{Y|X})\\&=\lambda R^{(I)}(D_{1})+(1-\lambda)R^{(I)}(D_{2})\end{align}$$
 > 3. The continuity at $(0,\infty)$ is shown by convexity. 
 ---
-> [!lemma] Theorem 2 (Shannon)
+> [!lemma] Lemma 2
+> Let $p_{Y|X}$ s.t. $\mathbb{E}[d(X,Y)]\leq D$ for some $D\geq 0$. 
+> 1. there exists a description $(f_{n},\phi_{n})_{n}$ with $n_{0}\geq 0$ s.t. for all $n\geq n_{0}$, $$\mathbb{E}[d(X),\phi_{n}(f_{n}(X))]\leq D+\delta$$ of rate $I(X;Y)+\varepsilon$.
+---
+> [!lemma] Theorem 3 (Shannon)
 > For $\mathcal{X},\mathcal{Y}$ finite,  
 > 1. $R(D)=R^{(I)}(D)$.
 
