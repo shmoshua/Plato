@@ -118,16 +118,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Information Theory/Mutual Information.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "Mutual Information"
+            }
+          },
+          {
+            "id": "a327efbbcfde20ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Theory/Relative Entropy.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Relative Entropy"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,18 +284,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a6aaca5b94aebdb0",
+  "active": "b2f96fe97e4c1bb6",
   "lastOpenFiles": [
-    "Information Theory/Code.md",
     "Information Theory/Typical Sequence.md",
-    "Probability Theory/Expected Value.md",
-    "Information Theory/Entropy.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
-    "Information Theory/Distortion.md",
     "Information Theory/Mutual Information.md",
-    "Probability Theory/Conditional Probability.md",
     "Information Theory/Relative Entropy.md",
+    "Information Theory/Entropy.md",
+    "Information Theory/Distortion.md",
+    "Information Theory/Code.md",
+    "Probability Theory/Expected Value.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Probability Theory/Conditional Probability.md",
     "Information Theory/Channel.md",
     "Technical Lemmas.md",
     "Information Theory/n-R code.md",
