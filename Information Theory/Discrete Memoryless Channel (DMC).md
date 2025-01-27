@@ -62,22 +62,31 @@
 
 ^45755d
 
-> [!proof]-
+> [!proof]+
 > We have that:
+> 1. **(Achievability)** We show that $C(W)\geq \max_{q\in \Delta(\mathcal{X})}I(q,W)$. We will try to show that for all $q\in \Delta(\mathcal{X})$, $I(q,W)$ is achievable. 
+>    
+>    Let $R>0$. We generate a codebook as matrix as follows: $$\mathcal{C}:=\begin{bmatrix}x_{1}(1)&x_{2}(1)&\dots&x_{n}(1)\\ \vdots&\vdots && \vdots\\x_{1}(2^{nR})&x_{2}(2^{nR})&\dots&x_{n}(2^{nR})\end{bmatrix}\in \mathcal{X}^{2^{nR}\times n}$$
+>    where each entry is generated i.i.d according to $q$. Let $\mathcal{C}$ be generated then revealed to both the sender and the receiver. 
+>    
+>    1. Let $M\sim \text{Uniform}(\mathcal{M})$. $x^n(M)$ is sent over the channel and the receiver receives $Y^n$ according to: $$W(y^n|x^n(m)):=\prod_{i=1}^{n}W(y_{i}|x_{i}(m))$$
+>    2. The receiver decodes $Y^n$ according to the ***joint typical decoder*** with $\varepsilon>0$, i.e. $$\phi_{n}(y):=\begin{cases}x&\text{if }\{ \xi\in \mathcal{X}^n:(\xi,\eta)\in \mathcal{A}^n_{\varepsilon}(q\times W) \}=\{ x \}\\{\bot}&\text{otherwise}\end{cases}$$
+>    
+>    Let $\lambda_{m}(\mathcal{C})$ be the error given by the codebook $\mathcal{C}$. Now, we have the following claims:
+>    1. **Claim 1**: **$\overline{\lambda}_{m}:=\mathbb{E}_{\mathcal{C}}[\lambda_{m}(\mathcal{C})]$ is constant over $m\in \mathcal{M}$.**
+>       This holds by symmetry as we observe over all possible $\mathcal{C}$.
+>    2. **Claim 2**: $\mathbb{E}_{\mathcal{C}}[P^n_{e}(\mathcal{C})]=\overline{\lambda}_{1}$. 
+>       We have that by Claim 1: $$\mathbb{E}[P^n_{e}(\mathcal{C})]=\mathbb{E}\left[ \frac{1}{2^{nR}}\sum_{m}^{}\lambda_{m}(\mathcal{C}) \right] =\frac{1}{2^{nR}}\sum_{m}^{}\overline{\lambda}_{m}=\overline{\lambda}_{1}$$
+>    
+>    Let $Y$ be the outcome of the channel of $f_{n}(1)$. Define $E_{i}$ as the event that $(f_{n}(i),Y)\in \mathcal{A}^n_{\delta}(q \times W)$. Then, $$\mathbb{P}(\phi_{n}(y)\neq 1)=\mathbb{P}\left( E_{1}^c\cup \bigcup_{i=2}^{2^{mR}}E_{i} \right)\leq \mathbb{P}(E^c_{1})+\sum_{i\geq 2}^{}\mathbb{P}(E_{i})$$ However, by definition of $f_{n}$ and [[Typical Sequence|Proposition 4]], $$\mathbb{P}(\phi_{n}(y)\neq 1)\leq \mathbb{P}(E_{1}^c)+2^{-n(I(q,W)-3\delta-R)}$$Hence, if $R<I(q,W)$, then we can choose $\delta$ and $n$ s.t. $\mathbb{P}(\phi_{n}(y)\neq 1)\leq 2\delta$.
+>    
+>    Now, let $q^{*}:=\arg\max I(q,W)$. Then, for $R<I(q^{*},W)$, we have $\delta$ and $n$ s.t. $\mathbb{E}_{f_{n}}[\phi_{n}(y)\neq 1]\leq 2\delta$. Hence, there exists a deterministic functon $f_{n}$ s.t. $$P^n_{e}(f_{n})\leq 2\delta$$Lastly, wlog assume that $\lambda_{1}(f_{n})\leq\dots\leq \lambda_{2^{nR}}(f_{n})$ and as: $$\frac{1}{2^{nR}}\sum_{m\in \mathcal{M}}^{}\lambda_{m}(f_{n})\leq 2\delta$$we have that $$2\delta \cdot 2^{nR}\geq \sum_{i=1}^{2^{nR}}\lambda_{i}(f_{n})\geq \sum_{i=2^{nR}-1}^{2^{nR}}\lambda_{i}(f_{n})\geq 2^{nR}\cdot \lambda_{2^{nR-1}}(f_{n})$$Hence, $2\delta\geq \lambda_{i}(f_{n})$ for all $i\leq 2^{nR-1}$. Therefore, $R-\frac{1}{n}$ is achievable. Hence, by taking the surpemum, $C(W)=I(q^{*},W)$.
 > 1. Let $R$ be achievable, i.e. we have $(f_{n},\phi_{n})_{n}$ with $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\underbrace{ \sum_{\begin{subarray}{c}y\in \mathcal{Y}^n\\ \phi_{n}(y)\neq m\end{subarray}}\mathbb{P}(f_{n}(m)W=y) }_{ =:\lambda_{m} }=0$$We will show that $R\leq \max_{q\in \Delta(\mathcal{X})}I(q,W)$. First, let $$P^n_{e}:=\frac{1}{2^{nR}}\sum_{m\in \mathcal{M}_{n}}^{}\lambda_{m}$$Then, as $P^n_{e}=\frac{1}{2^{nR}}\sum_{m}^{}\lambda_{m}\leq \max_{m}\lambda_{m}$ and $\lim_{ n \to \infty }P^n_{e}=0$.  
 >    
 >    Now, let $M\sim \text{Uni}(\mathcal{M})$. Let $(X_{1},\dots,X_{n}):=f_{n}(M)$ and $(Y_{1},\dots,Y_{n})$ the output of the channel. Then, notice that by [[Entropy|Fano]], $$\begin{align}nR &=H(M)\\&=I(M;Y_{1:n})+H(M|Y_{1:n})\\&\leq I(M;Y_{1:n})+1+P^n_{e}\cdot nR\end{align}$$and $R\leq \frac{1}{n}I(M;Y_{1:n})+\frac{1}{n}+P^n_{e}\cdot R$. We claim that $I(M;Y_{1:n})\leq n\cdot\max_{q\in \Delta(\mathcal{X})}I(q,W)$. We have that: $$\begin{align}I(M;Y_{1:n})&=H(Y_{1:n})-H(Y_{1:n}|M)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1},M)\\&\leq \sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|Y_{1:i-1},X_{i},M)\\&=\sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|X_{i})\\&=\sum_{i=1}^{n}I(X_{i};Y_{i})=\sum_{i=1}^{n}I(p_{X_{i}},W)\leq n\max_{q\in \Delta(\mathcal{X})}I(q,W)\end{align}$$Therefore, we can conclude that: $$R\leq \limsup_{ n \to \infty } \left( \max_{q\in \Delta(\mathcal{X})}I(q,W)+\frac{1}{n}+P^n_{e}\cdot R \right)= \max_{q\in \Delta(\mathcal{X})}I(q,W)$$as $P^n_{e}\to 0$. 
 >    
 >    ---
->    To show the converse, let $q\in \Delta(\mathcal{X})$ and $R> 0$.  
 >    
-   Let $\mathcal{F}_{n}:=\{ f:\mathcal{M}_{n}\to \mathcal{X}^n \}$ be the set of all possible encoders. Let $f_{n}\sim \mathcal{F}_{n}$ s.t. $$\mathbb{P}(f_{n}(m)=\xi)=\prod_{i=1}^{n}q(\xi_{i}),\quad \forall m\in \mathcal{M}_{n}$$Then, for $\overline{\lambda}_{m}:=\mathbb{E}[\lambda_{m}(f_{n})]$, $\overline{\lambda}_{1}=\overline{\lambda}_{m}$ for all $m\in \mathcal{M}_{n}$ by symmetry. 
->    
->    Now, we define:$$\mathbb{E}[P^n_{e}(f_{n})]=\mathbb{E}\left[ \frac{1}{2^{nR}}\sum_{m}^{}\lambda_{m}(f_{n}) \right]=\frac{1}{2^{nR}}\sum_{m}^{}\mathbb{E}[\lambda_{m}(f_{n})]=\frac{1}{2^{nR}}\sum_{m}^{}\overline{\lambda}_{m}=\overline{\lambda}_{1}$$We now define the decoder as follows:$$\phi_{n}(y):=\begin{cases}x&\text{if }\{ \xi\in \mathcal{X}^n:(\xi,\eta)\in \mathcal{A}^n_{\delta}(q\times W) \}=\{ x \}\\{\bot}&\text{otherwise}\end{cases}$$for some $\delta>0$. 
->    
->    Let $Y$ be the outcome of the channel of $f_{n}(1)$. Define $E_{i}$ as the event that $(f_{n}(i),Y)\in \mathcal{A}^n_{\delta}(q \times W)$. Then, $$\mathbb{P}(\phi_{n}(y)\neq 1)=\mathbb{P}\left( E_{1}^c\cup \bigcup_{i=2}^{2^{mR}}E_{i} \right)\leq \mathbb{P}(E^c_{1})+\sum_{i\geq 2}^{}\mathbb{P}(E_{i})$$ However, by definition of $f_{n}$ and [[Typical Sequence|Proposition 4]], $$\mathbb{P}(\phi_{n}(y)\neq 1)\leq \mathbb{P}(E_{1}^c)+2^{-n(I(q,W)-3\delta-R)}$$Hence, if $R<I(q,W)$, then we can choose $\delta$ and $n$ s.t. $\mathbb{P}(\phi_{n}(y)\neq 1)\leq 2\delta$.
->    
->    Now, let $q^{*}:=\arg\max I(q,W)$. Then, for $R<I(q^{*},W)$, we have $\delta$ and $n$ s.t. $\mathbb{E}_{f_{n}}[\phi_{n}(y)\neq 1]\leq 2\delta$. Hence, there exists a deterministic functon $f_{n}$ s.t. $$P^n_{e}(f_{n})\leq 2\delta$$Lastly, wlog assume that $\lambda_{1}(f_{n})\leq\dots\leq \lambda_{2^{nR}}(f_{n})$ and as: $$\frac{1}{2^{nR}}\sum_{m\in \mathcal{M}}^{}\lambda_{m}(f_{n})\leq 2\delta$$we have that $$2\delta \cdot 2^{nR}\geq \sum_{i=1}^{2^{nR}}\lambda_{i}(f_{n})\geq \sum_{i=2^{nR}-1}^{2^{nR}}\lambda_{i}(f_{n})\geq 2^{nR}\cdot \lambda_{2^{nR-1}}(f_{n})$$Hence, $2\delta\geq \lambda_{i}(f_{n})$ for all $i\leq 2^{nR-1}$. Therefore, $R-\frac{1}{n}$ is achievable. Hence, by taking the surpemum, $C(W)=I(q^{*},W)$.
 >    
 > 2. Notice that:  $$\begin{align}\sum_{x}^{}q(x)D(W(\cdot |x)\|r)&=\sum_{x}^{}q(x)\sum_{y}^{}W(y|x)\log \frac{W(y|x)}{r(y)}\\&=\sum_{x}^{}q(x)\sum_{y}^{}W(y|x)\left( \log \frac{W(y|x)}{qW(y)}+\log \frac{qW(y)}{r(y)} \right)\\&=I(q,W)+\sum_{x,y}^{}q(x)W(y|x)\log \frac{qW(y)}{r(y)}\\&=I(q,W)+D(qW\|r)\end{align}$$Therefore, $$\max_{q\in\Delta(\mathcal{X})}I(q,W)\leq \max_{q\in\Delta(\mathcal{X})}\sum_{x}^{}q(x)D(W(\cdot |x)\|r)\leq \max_{x}D(W(\cdot |x)\|r)$$Hence, $C(W)\leq \max_{x}D(W(\cdot|x)\|r)$ for every $r\in \Delta(\mathcal{Y})$ and we have the inequality $\leq$.
 >    

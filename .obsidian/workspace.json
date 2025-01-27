@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "Discrete Memoryless Channel (DMC)"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -104,12 +104,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Differential Entropy.md",
+                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Differential Entropy"
+              "title": "Discrete Memoryless Channel (DMC)"
             }
           },
           {
@@ -140,7 +140,8 @@
               "title": "Discrete Memoryless Channel (DMC)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -284,22 +285,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "6a77a0e306989677",
   "lastOpenFiles": [
+    "Information Theory/Entropy.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Information Theory/Typical Sequence.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Differential Entropy.md",
     "Information Theory/Channel.md",
     "Information Theory/Distortion.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Code.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Information Theory/Differential Entropy.md",
-    "Information Theory/Entropy.md",
     "Machine Learning/Gaussian Process.md",
     "Information Theory/Mutual Information.md",
     "Markov Processes/Markov Chain.md",
     "Topology/Distance.md",
     "Courses/Information Theory/Exercise Sheet 4.md",
-    "Information Theory/Typical Sequence.md",
     "Technical Lemmas.md",
     "Courses/Information Theory/Exercise Sheet 3.md",
     "Probability Theory/Expected Value.md",
