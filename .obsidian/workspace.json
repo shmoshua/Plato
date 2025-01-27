@@ -103,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Discrete Memoryless Channel (DMC)"
+              "title": "Entropy"
             }
           },
           {
@@ -285,13 +285,13 @@
   },
   "active": "9b9313d05c25084b",
   "lastOpenFiles": [
-    "Information Theory/Code.md",
-    "Information Theory/Relative Entropy.md",
+    "Information Theory/Entropy.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Code.md",
+    "Information Theory/Relative Entropy.md",
     "Information Theory/Distortion.md",
     "Information Theory/Typical Sequence.md",
-    "Information Theory/Entropy.md",
     "Information Theory/Differential Entropy.md",
     "Information Theory/Channel.md",
     "Probability Theory/Gaussian Distribution.md",

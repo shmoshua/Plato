@@ -245,7 +245,9 @@
 > Consider the DMC given by: $$W:=\begin{bmatrix}1&0\\ \frac{1}{2}& \frac{1}{2}\\ \frac{2}{3}& \frac{1}{3}\end{bmatrix}$$Then, $C(W)$
 
 > [!proof]+
-> Let $q=(a,b,c)$. We show that it suffices to assume that $c=0$. Let $q':=\left( a+\frac{1}{3}c,b+\frac{2}{3}c,0 \right)$. Then, $$\begin{align}I(q',W)&=\end{align}$$
+> Let $q=(a,b,c)$. We show that it suffices to assume that $c=0$. Let $q':=\left( a+\frac{1}{3}c,b+\frac{2}{3}c,0 \right)$. Then, $qW=q'W$ and: $$\begin{align}I(q',W)&=H(q'W)-\left( a+\frac{1}{3}c \right)H(W(\cdot |0))-\left( b+\frac{2}{3}c \right)H(W(\cdot |1))\end{align}$$Then, we have that by concavity: $$\frac{1}{3}H(W(\cdot |0))+\frac{2}{3}H(W(\cdot |1))\leq H\left( W(\cdot |2) \right)$$Hence, $I(q',W)\geq H(qW)-aH(W(\cdot|0))-bH(W(\cdot|1))-cH(W(\cdot|2))=I(q,W)$. This proves the claim. 
+> 
+> 
 ---
 #### 4.2 Feedback
 ![[Discrete Memoryless Channel (DMC)#^ec9f89]]
@@ -272,6 +274,22 @@
 
 - **Corollary**: This can be extended to the case where the number of source symbols and number of channel uses differ. In that case the condition becomes $H(p)\rho_{S}<C\rho_{C}$ where $\rho_{S}$ measures the number of source symbols per second and $\rho_{C}$ measures the number of channel uses per second. 
 - **Related definition**: ***Symbol error rate*** talks about $\frac{1}{k}\sum_{i}^{}\mathbb{P}(U_{i}\neq \widehat{U}_{i})$ instead of $P^n_{e}$. However, for symbol error rate, the same conditions as the theorem apply. 
+---
+> [!lemma] Theorem 2 (Source Channel For Multiple Inputs)
+> A memoryless binary source emits $\text{Ber}(p)$ symbols at a rate of $\rho_{s}$ source-symbols-per-second. Independently of that, binary data are generated i.i.d $\text{Ber}(0.5)$ at rate $R_{\text{data}}$ data-bits-per second. To transmit the source sequence and the data sequence, a $\text{BSC}(\varepsilon)$ can be used $\rho_{c}$ times per second.
+> 1. if $\rho_{s}H_{b}(p)+R_{\text{data}}<\rho_{C}\cdot (1-H_{p}(\varepsilon))$, then there exists a source channel code with $P^n_{\varepsilon}\to 0$.
+> 2. if $\rho_{s}H_{b}(p)+R_{\text{data}}> \rho_{C}(1-H_{p}(\varepsilon))$, then $\lim_{ n \to \infty }P^n_{\varepsilon}\neq 0$.
+
+> [!proof]+
+> We have that:
+> 1. We construct the following scheme:
+> 	1. encode input $U^{t\cdot\rho_{s}}$ with $n_{1} H_{b}(p)$ bits and denote the result by $M_{1}$. 
+> 	2. concatenate $M_{1}$ with $V^{t\cdot R_{\text{data}}}$ and get $M$ of length $n_{1}H_{b}(p)+tR_{\text{data}}$.
+> 	3. transfer $M$ through channel and get $\widehat{M}$.
+> 	4. split $\widehat{M}$ into $\widehat{M}_{1}$ and $\widehat{V}^{t\cdot R_{\text{data}}}$.
+> 	5. decode $\widehat{U}^{t\cdot p_{s}}$ from $\widehat{M}_{1}$. 
+> 	   
+> 	Then, we have that: $$\begin{align}P^n_{\varepsilon}&\leq \mathbb{P}(U^{n_{1}}\neq \widehat{U}^{n_{1}})+\mathbb{P}(V^{n_{2}}\neq\widehat{V}^{n_{2}})\\&\leq \mathbb{P}(M_{1}\neq \widehat{M}_{1})+\mathbb{P}(U^{n_{1}}\neq \widehat{U}^{n_{1}}|M_{1}=\widehat{M}_{1})+\mathbb{P}(V^{n_{2}}\neq \widehat{V}^{n_{2}})\\&=\mathbb{P}(M\neq \widehat{M})+\mathbb{P}(U^{n_{1}}\neq \widehat{U}^{n_{1}}|M_{1}=\widehat{M}_{1})\end{align}$$
 ---
 ### 5. Rate Distortion Theory
 
@@ -320,4 +338,11 @@
 ![[Distortion#^b26a0f]]
 ![[Distortion#^ba7db9|p]]
 
+---
+> [!h] Example 6
+> Let $\mathcal{X}:=\{ 0,1 \}$ with $X\sim \text{Ber}(p)$ and $\mathcal{Y}:=\{ 0,1,5 \}$. For distortion function $d(x,y):=2\left| x-y \right|$, 
+> 1. $R(D)=\begin{cases}H_{b}(p)-H_{b}(D /2)& D\leq 2\min \{ p,1-p \}\\0&D\geq 2 \min \{ p,1-p \}\end{cases}$
+
+> [!proof]-
+> We claim that in the optimal scheme, symbol $5$ is never used, i.e. $$R(D)=\min_{p_{Y|X}: \mathbb{E}[d(X,Y)]<D}I(X;Y)=\min_{p_{Y|X}: \mathbb{E}[d(X,Y)]<D, p_{Y|X}(5|i)=0, i=0,1}I(X;Y)$$Let us define a function $f:\mathcal{Y}\to \mathcal{Y}$ where $f|_{\{ 0,1 \}}=\text{id}$ and $f(5)=1$. Then, $(X,Y,f(Y))$ forms a Markov chain and the transition matrix is given by: $$p'_{Y|X}(y|x)=\begin{cases}p_{Y|X}(0|x)&y=0\\p_{Y|X}(1|x)+p_{Y|X}(5|x)&y=1\\0&y=5\end{cases}$$Then, $d(x,f(y))\leq d(x,y)$ and we have: $\mathbb{E}[d(X,f(Y))]\leq \mathbb{E}[d(X,Y)]$. Further, by data processing: $$I_{p'}(X;Y)=I_{p}(X;f(Y))\leq I_{p}(X;Y)$$Therefore, $$\min_{p_{Y|X}: \mathbb{E}[d(X,Y)]<D}I(X;Y)\geq\min_{p_{Y|X}: \mathbb{E}[d(X,Y)]<D, p_{Y|X}(5|i)=0, i=0,1}I(X;Y)$$The other inequality is trivial. 
 ---
