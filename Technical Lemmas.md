@@ -42,3 +42,14 @@
 ^af9688
 
 ---
+> [!lemma] Theorem 6 (AM-GM)
+> Let $a_{1},\dots,a_{n}\geq 0$. We have that: $$\left( \prod_{i=1}^{n}a_{i} \right)^ \frac{1}{ n}\leq  \frac{1}{n}\sum_{i=1}^{n}a_{i}$$
+
+^e84229
+
+> [!proof]-
+> Notice that we have by Jensen,  $$\frac{1}{n}\log \prod_{i=1}^{n}a_{i}=\sum_{i=1}^{n} \frac{1}{n}\log a_{i}=\mathbb{E}[\log a_{i}]\leq \log \mathbb{E}[a_{i}]=\log \frac{1}{n}\sum_{i=1}^{n}a_{i}$$This proves the statement.
+
+^d6a2dd
+
+---

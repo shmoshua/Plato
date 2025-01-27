@@ -20,7 +20,7 @@
 > 3. $H(X)=\log \left| \mathcal{X} \right|$ if and only if $X\sim \text{Uni}(\mathcal{X})$.
 > 4. $H(X)=\mathbb{E}_{X}[i_{X}(X)]$.
 > 5. for a function $g:\mathcal{X}\to \mathcal{Y}$, $H(g(X))\leq H(X)$ with equality if and only if $g|_{\text{supp }p_{X}}$ is injective.
-> 6. Let $\mathcal{X},\mathcal{Y}\subseteq \mathbb{R}$ be finite. For $X:\Omega\to \mathcal{X}$ and $Y:\Omega\to \mathcal{}$
+> 6. Let $\mathcal{X},\mathcal{Y}\subseteq \mathbb{R}$ be finite. For $X:\Omega\to \mathcal{X}$ and $Y:\Omega\to \mathcal{Y}$ independent, $$\max\{H(X),H(Y)\}\leq H(X+Y)$$
 
 ^bf1bbb
 
@@ -31,6 +31,7 @@
 > 3. Analogous.
 > 4. Obvious.
 > 5. We have that: $$H(g(X))\leq H(g(X))+H(X|g(X))+H(g(X),X)=H(X)+\underbrace{ H(g(X)|X) }_{ =0 }=H(X)$$Hence, the equality holds if and only if $H(X|g(X)) = 0$. In other words, there exists $h: g(\text{supp }p_{X})\to \mathcal{X}$ with $x=h(g(x))$ for all $x\in \text{supp }p_{X}$. 
+> 6. We have that for $Z:= X+Y$, $$H(X,Y,Z)=H(X)+H(Y|X)+\underbrace{ H(Z|X,Y) }_{ =0 }=H(X)+H(Y|X)$$$$H(X,Y,Z)=H(X)+H(Z|X)+\underbrace{ H(Y|X,Z) }_{ =0 }=H(X)+H(Z|X)$$Hence, $H(Y|X)=H(X+Y|X)$ and if $X,Y$ are independent, $$H(Z)\geq H(Z|X)=H(Y|X)=H(Y)$$
 
 ^049dcb
 

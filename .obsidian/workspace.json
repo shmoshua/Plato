@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed1a9be185e2aaac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Typical Sequence.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Typical Sequence"
-            }
-          },
-          {
             "id": "87ad6422ee7710b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Courses/Information Theory/Information Theory Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "Information Theory Roadmap"
             }
           },
           {
@@ -41,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
+                "file": "Information Theory/Code.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Discrete Memoryless Channel (DMC)"
+              "title": "Code"
             }
           },
           {
@@ -55,35 +41,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Typical Sequence.md",
+                "file": "Courses/Information Theory/Exercise Sheet 4.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Typical Sequence"
+              "title": "Exercise Sheet 4"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
         "type": "tabs",
         "children": [
-          {
-            "id": "b2f96fe97e4c1bb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Entropy.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Entropy"
-            }
-          },
           {
             "id": "9b9313d05c25084b",
             "type": "leaf",
@@ -99,17 +70,31 @@
             }
           },
           {
+            "id": "facbe4722370c46a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Information Theory/Exercise Sheet 4.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Exercise Sheet 4"
+            }
+          },
+          {
             "id": "9ffd069f02b286fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Typical Sequence.md",
+                "file": "Information Theory/Code.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Typical Sequence"
+              "title": "Code"
             }
           },
           {
@@ -140,7 +125,8 @@
               "title": "Distortion"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -284,20 +270,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b2f96fe97e4c1bb6",
+  "active": "facbe4722370c46a",
   "lastOpenFiles": [
-    "Information Theory/Distortion.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
-    "Information Theory/Entropy.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
-    "Information Theory/Typical Sequence.md",
-    "Information Theory/Mutual Information.md",
-    "Information Theory/Relative Entropy.md",
     "Information Theory/Code.md",
+    "Courses/Information Theory/Exercise Sheet 4.md",
+    "Information Theory/Entropy.md",
+    "Technical Lemmas.md",
+    "Courses/Information Theory/Exercise Sheet 3.md",
+    "Information Theory/Mutual Information.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Probability Theory/Expected Value.md",
+    "Information Theory/Typical Sequence.md",
+    "Information Theory/Distortion.md",
+    "Information Theory/Relative Entropy.md",
     "Probability Theory/Conditional Probability.md",
     "Information Theory/Channel.md",
-    "Technical Lemmas.md",
     "Information Theory/n-R code.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Analysis/Convex Function.md",
@@ -310,8 +298,6 @@
     "Probability Theory/Moment.md",
     "Measure Theory/Convergence in Measure.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Topology/Wedge Product.md",
-    "Topology/Complex Projective Space.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

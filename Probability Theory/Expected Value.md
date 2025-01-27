@@ -46,6 +46,8 @@
 > 9. **Bienaymé-Chebyshev Inequality**: if $X\in L^2(\Omega,\mathcal{A},\mathbb{P})$ and $a>0$, $$\mathbb{P}(\left| X-\mathbb{E}[X] \right| \geq a)\leq \frac{1}{a^{2}}\text{Var}(X)$$
 > 10. **Hoeffding's Lemma**: if $X:\Omega\to \mathbb{R}$ with $a\leq X\leq b$ almost surely, then for all $\lambda\in \mathbb{R}$: $$\mathbb{E}[e^{\lambda X}]\leq \exp \left( \lambda \mathbb{E}[X]+\frac{\lambda^{2}(b-a)^{2}}{8} \right) $$
 
+^0e786a
+
 > [!proof]-
 > We have:
 > 1.
@@ -59,6 +61,9 @@
 > 	
 > 	Now if $\mathbb{E}[X]$ is arbitrary, then by applying the lemma on $Z:=X-\mathbb{E}[X]$, we have that: $$\mathbb{E}[e^{\lambda (X-\mathbb{E}[X])}]\leq \exp \left(  \frac{\lambda^{2}(b-a)^{2}}{8}\right) $$ and we have that: $$\mathbb{E}[e^{\lambda X}]=\mathbb{E}[e^{\lambda (X-\mathbb{E}[X])}]e^{\lambda \mathbb{E}[X]}\leq e^{\lambda \mathbb{E}[X]}\cdot \exp \left(  \frac{\lambda^{2}(b-a)^{2}}{8}\right) $$
 > 	
+
+^f56d8e
+
 ---
 > [!lemma] Proposition 4
 > Let $X:\Omega\to \mathcal{X}$ be a random variable and $g:\mathbb{R}\times \mathcal{X}\to \mathbb{R}$ s.t. $g(\cdot,X)$ is integrable and $g$ is continuously differentiable w.r.t. $t$. 

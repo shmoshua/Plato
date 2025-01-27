@@ -3,6 +3,7 @@
 ##### Problem 1
 ![[Mutual Information#^3fabf6]]
 ![[Mutual Information#^8b584b|p]]
+
 ---
 ##### Problem 2
 Let $\mathcal{S}:=\{ X_{a_{1}},\dots,X_{a_{n}} \}$ and $\mathcal{T}:=\{ X_{b_{1}},\dots,X_{b_{m}} \}$ be subsets of $\Omega$. Then, 
@@ -26,14 +27,3 @@ However, $$I(X;Z|Y)=H(Z|Y)-H(Z|X,Y)=H(Z|Y)$$
 
 
 ---
-##### Approach 1
-We have that for each $i\leq r$ $$\begin{align}\frac{ \partial }{ \partial v_{i} } \left( \sum_{i=1}^{r}v_{i}^\top Av_{i} +\sum_{i,j}^{}\mu_{ij}(v_{i}^\top v_{j}-\delta_{ij})\right)&=2v_{i}^\top A+\sum_{j\neq i}^{}\mu_{ij}v_{j}^\top+\mu_{ii}2v_{i}^\top=0\end{align} $$Therefore, $2(A+\mu_{ii}I)v_{i}=-\sum_{j\neq i}^{}\mu_{ij}v_{j}$ and as $A+\mu_{ii}I=Q\Lambda Q^\top+\mu_{ii}QQ^\top=Q(\Lambda+\mu_{ii}I)Q^\top$. Hence, $$2(\Lambda+\mu_{ii}I)Q^\top v_{i}=-\sum_{j\neq i}^{}\mu_{ij}Q^\top v_{j}$$
-
----
-Let $v_{1},\dots,v_{r}$ be orthonormal set of vectors. Then, $$\begin{align}\sum_{i=1}^{r}v_{i}^\top Av_{i}=\sum_{i=1}^{r}v_{i}^\top Q\Lambda \underbrace{ Q^\top v_{i} }_{ =:w_{i} }=\sum_{i=1}^{r}w_{i}^\top \Lambda w_{i}=\sum_{i=1}^{r}\sum_{j=1}^{n}\lambda_{j}(w_{i})_{j}^2=\sum_{j=1}^{n}\lambda_{j}\underbrace{ \sum_{i=1}^{r}(w_{i})_{j}^{2} }_{ x_{j} }=\sum_{j=1}^{n}\lambda_{j}\left\| W_{:, j} \right\|^2_{2} \end{align}$$where $W:=[w_{1}|\dots |w_{r}]^\top\in \mathbb{R}^{r,n}$ and hence $WW ^\top=I_{r}$.  Then, $$\max \sum_{i=1}^{r}v_{i}^\top Av_{i}=\max \sum_{j=1}^{r}\lambda_{j}\left\| W_{:, j} \right\| ^2_{2}$$$\max \sum_{i=1}^{r}v_{i}^\top Av_{i}=\max \sum_{j=1}^{r}\lambda_{j}x_{j}$ where 
-$$x_{j}=\sum_{i=1}^{r}(W_{ij})^2$$
-
----
-
-
-

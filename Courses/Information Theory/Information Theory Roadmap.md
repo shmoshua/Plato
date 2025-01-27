@@ -1,5 +1,19 @@
 #InformationTheory #Roadmap 
 
+### 0. Probability Basics
+#### 0.1 Lemmas
+![[Expected Value#^d75029]]
+![[Expected Value#^36878b|p]]
+
+---
+![[Expected Value#^0e786a]]
+![[Expected Value#^f56d8e|p]]
+
+---
+![[Technical Lemmas#^e84229]]
+![[Technical Lemmas#^d6a2dd|p]]
+
+---
 ### 1. Basic Definitions
 #### 1.1 Entropy
 ![[Entropy#^2cc2de]]
@@ -46,6 +60,10 @@
 ![[Entropy#^38bd1d|p]]
 
 ---
+![[Mutual Information#^3fabf6]]
+![[Mutual Information#^8b584b|p]]
+
+---
 ##### 1.1.4 Fano's Inequality
 ![[Entropy#^730b6a]]
 ![[Entropy#^9dcdf7|p]]
@@ -85,6 +103,11 @@
 ![[Code#^816bcd]]
 ![[Code#^9ef8e6|p]]
 ![[Code#^5c5f45]]
+
+---
+#### 2.2 Shannon Coding
+![[Code#^8f4e0a]]
+![[Code#^f81c1c|p]]
 
 ---
 ### 3. Asymptotic Equipartition Property
