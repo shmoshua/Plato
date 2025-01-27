@@ -140,8 +140,7 @@
               "title": "Gaussian Distribution"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -285,11 +284,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a6aaca5b94aebdb0",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
+    "Information Theory/Differential Entropy.md",
     "Information Theory/Entropy.md",
     "Information Theory/Distortion.md",
-    "Information Theory/Differential Entropy.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Information Theory/Mutual Information.md",
