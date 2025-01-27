@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Mutual Information.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Mutual Information"
+              "title": "Entropy"
             }
           }
         ],
@@ -288,8 +288,8 @@
   "active": "a327efbbcfde20ae",
   "lastOpenFiles": [
     "Information Theory/Entropy.md",
-    "Information Theory/Distortion.md",
     "Information Theory/Mutual Information.md",
+    "Information Theory/Distortion.md",
     "Markov Processes/Markov Chain.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Topology/Distance.md",

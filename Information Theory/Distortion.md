@@ -100,7 +100,20 @@
 > 2. if $D\leq \frac{1}{2}$, then we have: $$\begin{align}I(X;Y)&=H(X)-H(X|Y)\\&=1-\mathbb{P}(Y=0)H(X|Y=0)-\mathbb{P}(Y=1)H(X|Y=1)\\&=1-\left( \frac{2-a}{2} \right)H_{b}\left( \frac{1}{2-a} \right)\\&\geq 1-\left( \frac{1+2D}{2}\right)H_{b}\left( \frac{1}{1+2D} \right)  \end{align}$$where for $p_{Y|X}(y|1)=(2D, 1-2D)$, we have that $I(X;Y)$ is the minimum. 
 ---
 > [!h] Example 4
-> Let $\mathcal{X},\mathcal{Y}:=[m]$ and $X\sim \text{Uni}(\mathcal{X})$. Consider the Hamming distortion, $$d(x,y):=\begin{cases}0&x=y\\1&x\neq y\end{cases}$$
+> Let $\mathcal{X},\mathcal{Y}:=[m]$ and $X\sim \text{Uni}(\mathcal{X})$. Consider the Hamming distortion, $$d(x,y):=\begin{cases}0&x=y\\1&x\neq y\end{cases}$$Then, $R(D)=\begin{cases}\log m-H_{b}(D)-D\log(m-1)&D\leq \frac{m-1}{m}\\0&D\geq \frac{m-1}{m}\end{cases}$
+
+> [!proof]-
+> We have that: $\mathbb{E}[d(X,Y)]=\mathbb{P}(Y\neq X)$. Hence, 
+> 1. if $D\geq \frac{m-1}{m}$, then a deterministic output has $\mathbb{E}[d(X,Y)]=\frac{m-1}{m}$ with $I(X;Y)=0$.
+> 2. if $D\leq \frac{m-1}{m}$, we have that: $$\begin{align}I(X;Y)&=H(X)-H(X|Y)\\&\geq \log m-H_{b}(P_{e})-P_{e}\log(m-1)\\&\geq \log m-H_{b}(D)-D\log(m-1)\end{align}$$
+> 	Now, if we choose: $$p_{Y|X}(y|x)=\begin{cases}1-D&y=x\\ \frac{D}{m-1}&y\neq x\end{cases}$$then, we have $\mathbb{P}(Y\neq X)\leq D$ and we have that: $$\begin{align}H(X|Y)&=\sum_{y}^{}\sum_{x}p_{Y|X}(y|x)H(X|Y=y)\\&=\frac{1}{m}\sum_{y}^{}H(X|Y=y)\\&=\frac{1}{m}\sum_{ y}^{}\left( D \log \frac{m-1}{D}+(1-D)\log \frac{1}{1-D} \right)\\&=H_{b}(D)+D\log (m-1)\end{align}$$Therefore, $R(D)=\begin{cases}\log m-H_{b}(D)-D\log(m-1)&D\leq \frac{m-1}{m}\\0&D\geq \frac{m-1}{m}\end{cases}$
+---
+> [!h] Example 5
+> Let $\mathcal{X},\mathcal{Y}:=\{ 0,1,2 \}$ with distortion $d(x,y):=\left| x-y \right|$. Then, 
+> 1. $R(0)=$
+> 2. $D(0)=$
 
 > [!proof]+
-> We have that: $$\mathbb{E}[d(X,Y)]=\mathbb{P}(Y)$$
+> We have that for $p_{Y|X}$,  
+> 1. $R(0)$, then $p_{Y|X}(y|x)=\delta_{yx}$. Hence, $$I(X;Y)=H$$
+> 2. $$\mathbb{E}[d(X,Y)]=p$$
