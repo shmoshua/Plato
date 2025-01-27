@@ -245,12 +245,59 @@
 > We have:
 > 1. Notice that from [[Typical Sequence|AEP]], $\left| \mathcal{A}^n_{\varepsilon}(p) \right|\leq 2^{n(H(p)+\varepsilon)}$. Hence, we can only use $n(H(p)+\varepsilon)$ bits to transfer them.  Therefore, we use $\mathcal{U}^n\to \mathcal{M}_{n(H(p)+\varepsilon)}\to \mathcal{X}^n$ where the first map maps the weakly typical sequences and discards the rest.
 >    
->    Hence, if $R:=H(p)+\varepsilon<C$ then we can find $(f_{n},\phi_{n})_{n}$ s.t. for large enough $n$, $\lambda_{\max}<\varepsilon$. 
+>    Hence, if $H(p)<C(W)$, there exists $\varepsilon>0$ s.t. $R:=H(p)+\varepsilon<C$. Then, the receiver can enumerate $\mathcal{A}^n_{\varepsilon}$ and choose the sequence corresponding to the index. Now, as $R<C$, there exists $(f_{n},\phi_{n})$ a $(\mathcal{M},R)$-code. 
 >    
->    Therefore, $$P^n_{e}=\mathbb{P}(U_{1:n}\notin \mathcal{A}^n_{\varepsilon}(p))+\lambda_{\max}<2\varepsilon$$for large enough $n$. 
+>    Then, for $n$ large enough, $$P^n_{e}=\mathbb{P}(U^n\notin \mathcal{A}^n_{\varepsilon}(p))+\mathbb{P}(\phi(Y^n)\neq U^n|U^n\in \mathcal{A}^n_{\varepsilon})\leq2\varepsilon$$and we have that $P^n_{e}\to 0$. 
 > 2. Conversely, we will show that $P^n_{e}\to 0$ implies $H(p)\leq C$. By Fano, we have: $$H(U_{1:n}|\widehat{U}_{1:n})\leq 1+P^n_{e}\cdot n\cdot \log \left| \mathcal{U} \right| $$Hence, $$\begin{align} H(p)&\leq \frac{H(U_{1:n})}{n}\leq\frac{1}{n}I(U_{1:n};\widehat{U}_{1:n})+\frac{1}{n}+P^n_{e} \cdot \log \left| \mathcal{U} \right| \\&\leq\frac{1}{n}I(X_{1:n};Y_{1:n})+\frac{1}{n}+P^n_{e} \cdot \log \left| \mathcal{U} \right| \\&\leq C(W)+\frac{1}{n}+P^n_{e}\cdot \log \left| \mathcal{U} \right| \end{align}$$Hence, $H(p)\leq C(W)$.
 
 - **Corollary**: This can be extended to the case where the number of source symbols and number of channel uses differ. In that case the condition becomes $H(p)\rho_{S}<C\rho_{C}$ where $\rho_{S}$ measures the number of source symbols per second and $\rho_{C}$ measures the number of channel uses per second. 
 - **Related definition**: ***Symbol error rate*** talks about $\frac{1}{k}\sum_{i}^{}\mathbb{P}(U_{i}\neq \widehat{U}_{i})$ instead of $P^n_{e}$. However, for symbol error rate, the same conditions as the theorem apply. 
 ---
 ### 5. Rate Distortion Theory
+
+![[Distortion#^97cce4]]
+![[Distortion#^773ed2]]
+![[Distortion#^62f7b8|q]]
+![[Distortion#^d477f3|q]]
+
+---
+![[Distortion#^12f644]]
+![[Distortion#^4e63b5|p]]
+
+---
+![[Distortion#^1bb529]]
+![[Distortion#^a1d9ae|p]]
+
+---
+![[Distortion#^b3795d]]
+![[Distortion#^540794|p]]
+
+---
+![[Distortion#^412c24]]
+![[Distortion#^0f936d|p]]
+
+---
+![[Distortion#^a63827]]
+![[Distortion#^00635f|p]]
+
+---
+![[Distortion#^8fd3b7]]
+![[Distortion#^93d3ce|p]]
+
+---
+![[Distortion#^389ab1]]
+![[Distortion#^6181cf|p]]
+
+---
+![[Distortion#^d42208]]
+![[Distortion#^45ac3c|p]]
+
+---
+![[Distortion#^898bec]]
+![[Distortion#^1a38d4|p]]
+
+---
+![[Distortion#^b26a0f]]
+![[Distortion#^ba7db9|p]]
+
+---

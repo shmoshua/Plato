@@ -62,7 +62,7 @@
 
 ^45755d
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. **(Achievability)** We show that $C(W)\geq \max_{q\in \Delta(\mathcal{X})}I(q,W)$. We will try to show that for all $q\in \Delta(\mathcal{X})$, $I(q,W)\leq C(W)$. It suffices to show that for all $R<I(q,W)$, we have that $R$ is achievable.
 >    
@@ -80,12 +80,10 @@
 >    3. **Claim 3**: **If $n$ is large enough, $\mathbb{P}(\phi(Y^n)\neq 1)\leq 2\varepsilon$.**
 >       Let $Y^n$ be the outcome of $X^n(1)$ through $W$. Further, let $E_{i}$ denote the event that $(X^n(i),Y)\in \mathcal{A}^n_{\varepsilon}(q \times W)$. Then, $$\mathbb{P}(\phi(Y^{n})\neq 1)=\mathbb{P}\left( E_{1}^c\cup \bigcup_{i=2}^{2^{mR}}E_{i} \right)\leq \mathbb{P}(E^c_{1})+\sum_{i\geq 2}^{}\mathbb{P}(E_{i})$$ However, as $X^{n}(1)$ and $X^n(i)$ are independent, so are $Y^n$ and $X^n(i)$ and we can use [[Typical Sequence|Proposition 4]]: $$\mathbb{P}(\phi(Y^n)\neq 1)\leq \mathbb{P}(E_{1}^c)+2^{nR}2^{-n(I(q,W)-3\varepsilon)}$$Therefore, there exists a $n$ large enough s.t. $$\mathbb{P}(\phi(Y^n)\neq 1)\leq \varepsilon+2^{n(I(q,W)-3\varepsilon)}2^{-n(I(q,W)-3\varepsilon)}\leq 2 \varepsilon$$
 >    4. **Claim 4:**
->       Now, we have $\mathbb{E}_{f_{n}}[\phi_{n}(y)\neq 1]\leq 2\delta$. Hence, there exists a deterministic functon $f_{n}$ s.t. $$P^n_{e}(f_{n})\leq 2\delta$$Lastly, wlog assume that $\lambda_{1}(f_{n})\leq\dots\leq \lambda_{2^{nR}}(f_{n})$ and as: $$\frac{1}{2^{nR}}\sum_{m\in \mathcal{M}}^{}\lambda_{m}(f_{n})\leq 2\delta$$we have that $$2\delta \cdot 2^{nR}\geq \sum_{i=1}^{2^{nR}}\lambda_{i}(f_{n})\geq \sum_{i=2^{nR}-1}^{2^{nR}}\lambda_{i}(f_{n})\geq 2^{nR}\cdot \lambda_{2^{nR-1}}(f_{n})$$Hence, $2\delta\geq \lambda_{i}(f_{n})$ for all $i\leq 2^{nR-1}$. Therefore, $R-\frac{1}{n}$ is achievable. Hence, by taking the surpemum, $C(W)=I(q^{*},W)$.
+>       Now, we have $\mathbb{E}_{f_{n}}[\phi_{n}(y)\neq 1]\leq 2\delta$. Hence, there exists a deterministic functon $f_{n}$ s.t. $$P^n_{e}(f_{n})\leq 2\delta$$Lastly, wlog assume that $\lambda_{1}(f_{n})\leq\dots\leq \lambda_{2^{nR}}(f_{n})$ and as: $$\frac{1}{2^{nR}}\sum_{m\in \mathcal{M}}^{}\lambda_{m}(f_{n})\leq 2\delta$$we have that $$2\delta \cdot 2^{nR}\geq \sum_{i=1}^{2^{nR}}\lambda_{i}(f_{n})\geq \sum_{i=2^{nR}-1}^{2^{nR}}\lambda_{i}(f_{n})\geq 2^{nR}\cdot \lambda_{2^{nR-1}}(f_{n})$$Hence, $2\delta\geq \lambda_{i}(f_{n})$ for all $i\leq 2^{nR-1}$. Therefore, $R-\frac{1}{n}$ is achievable.
 > 1. Let $R$ be achievable, i.e. we have $(f_{n},\phi_{n})_{n}$ with $$\lim_{ n \to \infty } \max_{m\in \mathcal{M}_{n}}\underbrace{ \sum_{\begin{subarray}{c}y\in \mathcal{Y}^n\\ \phi_{n}(y)\neq m\end{subarray}}\mathbb{P}(f_{n}(m)W=y) }_{ =:\lambda_{m} }=0$$We will show that $R\leq \max_{q\in \Delta(\mathcal{X})}I(q,W)$. First, let $$P^n_{e}:=\frac{1}{2^{nR}}\sum_{m\in \mathcal{M}_{n}}^{}\lambda_{m}$$Then, as $P^n_{e}=\frac{1}{2^{nR}}\sum_{m}^{}\lambda_{m}\leq \max_{m}\lambda_{m}$ and $\lim_{ n \to \infty }P^n_{e}=0$.  
 >    
 >    Now, let $M\sim \text{Uni}(\mathcal{M})$. Let $(X_{1},\dots,X_{n}):=f_{n}(M)$ and $(Y_{1},\dots,Y_{n})$ the output of the channel. Then, notice that by [[Entropy|Fano]], $$\begin{align}nR &=H(M)\\&=I(M;Y_{1:n})+H(M|Y_{1:n})\\&\leq I(M;Y_{1:n})+1+P^n_{e}\cdot nR\end{align}$$and $R\leq \frac{1}{n}I(M;Y_{1:n})+\frac{1}{n}+P^n_{e}\cdot R$. We claim that $I(M;Y_{1:n})\leq n\cdot\max_{q\in \Delta(\mathcal{X})}I(q,W)$. We have that: $$\begin{align}I(M;Y_{1:n})&=H(Y_{1:n})-H(Y_{1:n}|M)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1},M)\\&\leq \sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|Y_{1:i-1},X_{i},M)\\&=\sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|X_{i})\\&=\sum_{i=1}^{n}I(X_{i};Y_{i})=\sum_{i=1}^{n}I(p_{X_{i}},W)\leq n\max_{q\in \Delta(\mathcal{X})}I(q,W)\end{align}$$Therefore, we can conclude that: $$R\leq \limsup_{ n \to \infty } \left( \max_{q\in \Delta(\mathcal{X})}I(q,W)+\frac{1}{n}+P^n_{e}\cdot R \right)= \max_{q\in \Delta(\mathcal{X})}I(q,W)$$as $P^n_{e}\to 0$. 
->    
->    ---
 >    
 >    
 > 2. Notice that:  $$\begin{align}\sum_{x}^{}q(x)D(W(\cdot |x)\|r)&=\sum_{x}^{}q(x)\sum_{y}^{}W(y|x)\log \frac{W(y|x)}{r(y)}\\&=\sum_{x}^{}q(x)\sum_{y}^{}W(y|x)\left( \log \frac{W(y|x)}{qW(y)}+\log \frac{qW(y)}{r(y)} \right)\\&=I(q,W)+\sum_{x,y}^{}q(x)W(y|x)\log \frac{qW(y)}{r(y)}\\&=I(q,W)+D(qW\|r)\end{align}$$Therefore, $$\max_{q\in\Delta(\mathcal{X})}I(q,W)\leq \max_{q\in\Delta(\mathcal{X})}\sum_{x}^{}q(x)D(W(\cdot |x)\|r)\leq \max_{x}D(W(\cdot |x)\|r)$$Hence, $C(W)\leq \max_{x}D(W(\cdot|x)\|r)$ for every $r\in \Delta(\mathcal{Y})$ and we have the inequality $\leq$.

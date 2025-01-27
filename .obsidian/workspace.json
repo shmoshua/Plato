@@ -69,16 +69,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
+                "file": "Information Theory/Distortion.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Discrete Memoryless Channel (DMC)"
+              "title": "Distortion"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -140,8 +139,7 @@
               "title": "Discrete Memoryless Channel (DMC)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -285,15 +283,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a6aaca5b94aebdb0",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
-    "Information Theory/Typical Sequence.md",
-    "Information Theory/Entropy.md",
+    "Information Theory/Distortion.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Typical Sequence.md",
+    "Information Theory/Entropy.md",
     "Information Theory/Differential Entropy.md",
     "Information Theory/Channel.md",
-    "Information Theory/Distortion.md",
     "Information Theory/Code.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
