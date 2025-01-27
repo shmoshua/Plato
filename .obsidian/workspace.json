@@ -131,12 +131,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
+                "file": "Information Theory/Code.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Discrete Memoryless Channel (DMC)"
+              "title": "Code"
             }
           }
         ]
@@ -285,14 +285,15 @@
   },
   "active": "9b9313d05c25084b",
   "lastOpenFiles": [
-    "Information Theory/Distortion.md",
+    "Information Theory/Code.md",
+    "Information Theory/Relative Entropy.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Distortion.md",
     "Information Theory/Typical Sequence.md",
     "Information Theory/Entropy.md",
     "Information Theory/Differential Entropy.md",
     "Information Theory/Channel.md",
-    "Information Theory/Code.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Information Theory/Mutual Information.md",
@@ -302,7 +303,6 @@
     "Technical Lemmas.md",
     "Courses/Information Theory/Exercise Sheet 3.md",
     "Probability Theory/Expected Value.md",
-    "Information Theory/Relative Entropy.md",
     "Probability Theory/Conditional Probability.md",
     "Information Theory/n-R code.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",

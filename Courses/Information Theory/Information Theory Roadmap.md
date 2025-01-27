@@ -154,6 +154,12 @@
 ![[Typical Sequence#^d9ff78|p]]
 
 ---
+> [!lemma] Theorem 6 
+> Let $X_{1},..,X_{n}$ be i.i.d over a finite $\mathcal{X}$ with pmf $p$, where $H(p)=\log \pi$. For every $k\in \mathbb{Z}_{\geq 0}$ $$W_{k}:=2^{-k}\left\lfloor 2^k\cdot \left( \prod_{i=1}^{n}p(X_{i}) \right)^{1/n} \right\rfloor $$Then, $\lim_{ n \to \infty }H(W_{k})=0$.
+
+> [!proof]-
+> We have that: $$\log \left( \prod_{i=1}^{n}p(X_{i}) \right)^{1/n}=\frac{1}{n}\sum_{i=1}^{n}\log p(X_{i})\to -H(p)=-\log \pi$$in probability. Hence by continuity, $$\left( \prod_{i=1}^{n}p(X_{i}) \right)^{1 / n} \to \frac{1}{\pi}$$in probability. Hence, for any $\varepsilon>0$, $$\lim_{ n \to \infty } \mathbb{P}\left( \left| \left( \prod_{i=1}^{n}p(X_{i}) \right)^{1/n}- \frac{1}{\pi} \right| >\varepsilon \right)=0$$As $1 / \pi$ is irrational, for a fixed $k$, there always will be $\varepsilon$ small enough s.t. 
+---
 #### 3.2 Log-Sum Inequality
 ![[Technical Lemmas#^676db7]]
 ![[Technical Lemmas#^af9688|p]]
@@ -162,6 +168,14 @@
 ![[Relative Entropy#^0ed2a9]]
 ![[Relative Entropy#^ab9003|p]]
 
+---
+#### 3.3 Shearer's Lemma
+> [!lemma] Theorem 1 (Shearer)
+> Let $\mathcal{F}$ be a family of subsets of $[n]$ with each $i\in[n]$ included in at least $t$ members of $\mathcal{F}$. For a random vector $(X_{1},\dots,X_{n})$, $$H(X_{1},\dots,X_{n})\leq \frac{1}{t}\sum_{F\in \mathcal{F}}^{}H(X_{F})$$
+
+> [!proof]-
+> We write $F:=\{ i_{1},\dots,i_{k} \}$ with $i_{1}<i_{2}<\dots< i_{k}$. Then, $$H(X_{F})=H(X_{i_{1}},\dots,X_{i_{k}})=\sum_{j=1}^{k}H(X_{i_{j}}|X_{i_{1:j-1}})\geq \sum_{j=1}^{k}H(X_{i_{j}}|X_{1},\dots,X_{i_{j}-1})$$Therefore, $$\sum_{F\in \mathcal{F}}^{}H(X_{F})\geq t\sum_{j=1}^{n}H(X_{j}|X_{1},\dots,X_{j-1})=t\cdot H(X_{1},..,X_{n})$$
+> 
 ---
 ### 4. Channel Coding
 #### 4.1 DMC
@@ -226,6 +240,12 @@
 ![[Discrete Memoryless Channel (DMC)#^536f0b]]
 ![[Discrete Memoryless Channel (DMC)#^cba0cb|p]]
 
+---
+> [!h] Example 10
+> Consider the DMC given by: $$W:=\begin{bmatrix}1&0\\ \frac{1}{2}& \frac{1}{2}\\ \frac{2}{3}& \frac{1}{3}\end{bmatrix}$$Then, $C(W)$
+
+> [!proof]+
+> Let $q=(a,b,c)$. We show that it suffices to assume that $c=0$. Let $q':=\left( a+\frac{1}{3}c,b+\frac{2}{3}c,0 \right)$. Then, $$\begin{align}I(q',W)&=\end{align}$$
 ---
 #### 4.2 Feedback
 ![[Discrete Memoryless Channel (DMC)#^ec9f89]]
