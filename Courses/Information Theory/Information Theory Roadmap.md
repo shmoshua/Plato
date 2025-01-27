@@ -14,6 +14,23 @@
 ![[Technical Lemmas#^d6a2dd|p]]
 
 ---
+#### 0.2 Convergence in Probability
+> [!definition] 
+> Let $X_{1},\dots,X_{n},X$ be random variables. Then, 
+> 1. $X_{n}$ ***converges to $X$ almost surely***, if $\mathbb{P}(\lim_{ n \to \infty }X_{n}=X)=1$.
+> 2. $X_{n}$ ***converges to $X$ in probability***, if for all $\varepsilon>0$, $$\lim_{ n \to \infty } \mathbb{P}(\left| X_{n}-X \right| > \varepsilon)=0$$
+---
+##### Properties
+> [!lemma] Proposition 1
+> We have that:
+> 1. if $X_{n}\to X$ almost surely, then $X_{n}\to X$ in probability.
+
+> [!proof]-
+> See [[Convergence in Measure|Theorem 1]].
+---
+> [!lemma] Theorem 2 (Weak LLN)
+
+---
 ### 1. Basic Definitions
 #### 1.1 Entropy
 ![[Entropy#^2cc2de]]

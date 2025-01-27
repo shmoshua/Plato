@@ -49,8 +49,7 @@
               "title": "Exercise Sheet 4"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -112,8 +111,7 @@
               "title": "Distortion"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,12 +255,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ffd069f02b286fd",
+  "active": "87ad6422ee7710b7",
   "lastOpenFiles": [
-    "Courses/Information Theory/Information Theory Roadmap.md",
-    "Courses/Information Theory/Exercise Sheet 4.md",
-    "Information Theory/Code.md",
     "Information Theory/Entropy.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Code.md",
+    "Courses/Information Theory/Exercise Sheet 4.md",
     "Technical Lemmas.md",
     "Courses/Information Theory/Exercise Sheet 3.md",
     "Information Theory/Mutual Information.md",
