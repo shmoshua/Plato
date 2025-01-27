@@ -37,7 +37,7 @@
 > 
 > Let $X:=(X_{1},\dots,X_{n})\in \mathcal{X}^n$ i.i.d sampled with $p_{X}$. Then, $$\begin{align}\mathbb{P}(f_{n}(X)\neq  {\bot})&=\sum_{x\in \mathcal{X}^n}^{}\mathbb{P}(X=x)\mathbb{P}(f_{n}(X)\neq {\bot}|X=x)\\&\leq\sum_{x\in T^n_{\varepsilon}(p_{X}p_{Y|X})}^{}\mathbb{P}(X=x)\mathbb{P}(f_{n}(x)\neq {\bot})+\mathbb{P}(X\notin T^n_{\varepsilon}(p_{X}p_{Y|X}))\end{align}$$Now, as the rows of $\mathcal{C}$ are independent, foir a fixed $x$, $$(x,\mathcal{C}[i])\in T^n_{\varepsilon}(p_{X}p_{Y|X})$$are independent events over $i\in [2^{nR}]$. Notice that we have: $$\lim_{ n \to \infty } 2^{nR}2^{-n(I(X,Y)+4\delta_{XY})}=\lim_{ n \to \infty } 2^{n(\tilde{\varepsilon}+4\delta_{XY})}=\infty$$For all $\tilde{\varepsilon}>4 \delta_{XY}$. Hence, we have that $\lim_{ n \to \infty }\mathbb{P}(f_{n}(x)\neq {\bot})=1$. Therefore, $$\lim_{ n \to \infty } \mathbb{P}(f_{n}(X)\neq {\bot})=\lim_{ n \to \infty } \sum_{x\in \mathcal{X}^n}^{}\mathbb{P}(X=x)\chi_{T^n_{\varepsilon}(p_{X}p_{Y|X})}(x)\mathbb{P}(f_{n}(x)\neq {\bot})=1$$Hence,$$1=\lim_{ n \to \infty } \mathbb{P}(f_{n}(X)\neq {\bot})=\lim_{ n \to \infty } \sum_{}^{}\mathbb{P}(\mathcal{C})\mathbb{P}(f_{n}(X)\neq {\bot}|\mathcal{C})$$and we have a series of codebooks $(\mathcal{C}_{n})_{n}$ s.t. $\mathbb{P}(f_{n}(X)\neq {\bot}|\mathcal{C}_{n})\to 1$. Now, notice that by [[Typical Sequence|Lemma 5]], if $(x,\mathcal{C}[j])\in T^n_{\varepsilon}(p_{X}p_{Y|X})$ then $d(x,\mathcal{C}[j])\leq (1+\varepsilon)D$. Hence, $$\mathbb{E}[d(X,\phi_{n}(f_{n}(X)))]\leq(1+\varepsilon)D\cdot \mathbb{P}(f_{n}(X)\neq {\bot}|\mathcal{C}_{n})+d_{\max}\cdot \mathbb{P}(f_{n}(X)= {\bot}|\mathcal{C}_{n})$$Hence, $\lim_{ n \to \infty }\mathbb{E}[d(X,\phi_{n}(f_{n}(X)))]\leq (1+\varepsilon)D$.
 ---
-> [!lemma] Theorem 3 (Shannon)
+> [!lemma] Theorem 3 (Shannon, Source Coding Theorem)
 > For $\mathcal{X},\mathcal{Y}$ finite,  
 > 1. $R(D)=R^{(I)}(D)$.
 
@@ -50,13 +50,23 @@
 > 	Therefore, let $(\delta_{i})_{i}$ s.t. $\delta_{i}\to 0$. Then, by Claim 1 and continuity: $$R\geq \lim_{ i \to \infty } R^{(I)}(D+\delta_{i})=R^{(I)}(D)$$
 > 2. To show that $R^{(I)}(D)\geq R(D)$, let $p_{Y|X}$ attain $R^{(I)}(D)$. Then, by Lemma 2, there exists a description $(f_{n},\phi_{n})_{n}$ with $\mathbb{E}[d(X,\phi_{n}(f_{n}(X)))]\leq D+\delta$ of rate $I(X;Y)+\varepsilon$. Hence, $I(X;Y)=R^{(I)}(D)\geq R(D)$. 
 ---
-> [!lemma] Theorem 4 (Source-Channel Separation Theorem)
+> [!lemma] Proposition 4
+> Let $p_{X}\in \Delta(\mathcal{X})$ be an i.i.d source and $d$ a distortion measure. 
+> 1. for any $w:\mathcal{X}\to \mathbb{R}$ s.t. $d(x,y)\geq w(x)$ for all $x\in \mathcal{X}$, $y\in \mathcal{Y}$, $$R_{d'}(D)=R_{d}(D+\mathbb{E}[w(X)])$$where $d':\mathcal{X}\times \mathcal{Y}\to \mathbb{R}_{\geq 0},(x,y)\mapsto d(x,y)-w(x)$.
+> 2. If there exists $\widehat{y}\in \mathcal{Y}$ s.t. $\widehat{y}\in \arg\min_{y\in \mathcal{Y}}d(x,y)$ for all $x\in \mathcal{X}$, then, $$R(D)=0,\quad \forall D\geq \mathbb{E}[\min_{y\in \mathcal{Y}}d(X,y)]$$
+
+> [!proof]+
+> We have that:
+> 1. For a fixed $p_{Y|X}$, we have: $$\mathbb{E}[d'(X,Y)]=\mathbb{E}[d(X,Y)-w(X)]=\mathbb{E}[d(X,Y)]-\mathbb{E}[w(X)]$$Hence, $$R_{d'}(D)=\min_{p_{Y|X}: \mathbb{E}[d'(X,Y)]\leq D}I(X;Y)=\min_{p_{Y|X}: \mathbb{E}[d(X,Y)]\leq D+\mathbb{E}[w(X)]}I(X;Y)=R_{d}(D+\mathbb{E}[w(X)])$$
+> 2. Let $w:\mathcal{X}\to \mathbb{R}$ with $w(x):=\min_{y\in \mathcal{Y}}d(x,y)$. Then, we have that by assumption $d'(x,\widehat{y})$
+---
+> [!lemma] Theorem 5 (Source-Channel Separation Theorem)
 > We have the setting: $$\begin{array}{cccccc}\mathcal{S}^k&\to&\mathcal{X}^n&\xrightarrow{W}& \mathcal{Y}^n&\to& \mathcal{T}^k\\S_{1:k}&\mapsto &X_{1:n}&\mapsto &Y_{1:n}&\mapsto &T_{1:k}\end{array}$$
 > Let $\rho_{S}$ denote the number of source symbols per second and $\rho_{C}$ the number of channel uses per second. Then, 
 > 1. if $\rho_{S}R(D)< \rho_{C}C(W)$, we can transmit the source over the channel $W$ with separative approach. 
 > 2. if the source can be sent with distortion $D$, then $\rho_{S}R(D)\leq \rho_{C}C(W)$. 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. hihi
 > 2. We have that $k$ source symbols are generated every $k\cdot\rho_{S}^{-1}$ seconds and $n$ channel uses every $n\cdot\rho_{C}^{-1}$ seconds. Therefore, $\frac{k}{n}=\rho_{S}\rho_{C}^{-1}$. Hence, if the source can be sent then:$$\begin{align}nC(W)&\geq  I(S_{1:k};T_{1:k})\\&=H(S_{1:k})-H(S_{1:k}|T_{1:k})\\&\geq \sum_{i=1}^{k}H(S_{i})-H(S_{i}|T_{i})\\&=\sum_{i=1}^{k}I(S_{i};T_{i})\\&\geq  k \frac{1}{k}\sum_{i=1}^{k}\cdot  R(\mathbb{E}[d(S_{i},T_{i})])\\&\geq k\cdot R\left( \mathbb{E}[d(S_{1:k},T_{1:k})]\right)\\&\geq k\cdot R(D)\end{align}$$Therefore, $$\rho_{S}R(D)\leq \frac{k}{n}\rho_{C} \cdot  R(D)\leq \rho_{C}\cdot C(W)$$

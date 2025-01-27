@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
+                "file": "Information Theory/Distortion.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Discrete Memoryless Channel (DMC)"
+              "title": "Distortion"
             }
           },
           {
@@ -118,12 +118,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
+                "file": "Information Theory/Distortion.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Discrete Memoryless Channel (DMC)"
+              "title": "Distortion"
             }
           },
           {
@@ -140,7 +140,8 @@
               "title": "Markov Chain"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -284,16 +285,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "9b0ddc8c68a53a89",
   "lastOpenFiles": [
     "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Information Theory/Distortion.md",
+    "Topology/Distance.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Code.md",
     "Information Theory/Entropy.md",
     "Information Theory/Mutual Information.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Information Theory/Exercise Sheet 4.md",
-    "Information Theory/Distortion.md",
     "Information Theory/Typical Sequence.md",
     "Technical Lemmas.md",
     "Courses/Information Theory/Exercise Sheet 3.md",
@@ -311,7 +313,6 @@
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
     "Probability Theory/Moment.md",
-    "Measure Theory/Convergence in Measure.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
