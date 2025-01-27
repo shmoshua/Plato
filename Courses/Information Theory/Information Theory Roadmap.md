@@ -81,6 +81,10 @@
 ![[Mutual Information#^8b584b|p]]
 
 ---
+![[Mutual Information#^569dc2]]
+![[Mutual Information#^612399|p]]
+
+---
 ##### 1.1.4 Fano's Inequality
 ![[Entropy#^730b6a]]
 ![[Entropy#^9dcdf7|p]]
@@ -208,7 +212,11 @@
 
 ---
 ![[Discrete Memoryless Channel (DMC)#^f9cb80]]
-![[Discrete Memoryless Channel (DMC)^]]
+![[Discrete Memoryless Channel (DMC)#^2e8a65|p]]
+
+---
+![[Discrete Memoryless Channel (DMC)#^dec724]]
+![[Discrete Memoryless Channel (DMC)#^836fb4|p]]
 
 ---
 #### 4.2 Feedback

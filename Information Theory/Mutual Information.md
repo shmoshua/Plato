@@ -17,7 +17,7 @@
 > 2. $0\leq I(X;Y)\leq \min\{ H(X),H(Y) \}$
 > 3. $I(X;Y)=0$ if and only if $X$ and $Y$ are independent.
 > 4. $I(X;Y|Z)=H(X|Z)-H(X|Y,Z)$
-> 5. $I(X,Y;Z)=I(X;Z)+I(Y;Z|X)=I(Y;Z)+I(X;Z|Y)$
+> 6. $I(X,Y;Z)=I(X;Z)+I(Y;Z|X)=I(Y;Z)+I(X;Z|Y)$
 
 ^f92807
 
@@ -57,3 +57,12 @@
 ^8b584b
 
 ---
+> [!lemma] Theorem 4 (Data Processing)
+> Let $X_{1},\dots,X_{n}$ form a Markov chain, i.e. $X_{i+1:n} {\bot} X_{1:i-1}|X_{i}$. Then, $$I(X_{1};X_{2},\dots,X_{n})=I(X_{1};X_{2})$$
+
+^569dc2
+
+> [!proof]-
+> We have that: $$\begin{align}I(X_{1};X_{2},\dots,X_{n})&=H(X_{2},\dots,X_{n})-H(X_{2},\dots,X_{n}|X_{1})\\&=H(X_{2})+\sum_{k=3}^{n}H(X_{k}|X_{2:k-1})-\sum_{k=2}^{n}H(X_{k}|X_{1:k-1})\\&=H(X_{2})+\sum_{k=3}^{n}H(X_{k}|X_{k-1})-\sum_{k=2}^{n}H(X_{k}|X_{k-1})\\&=H(X_{2})-H(X_{2}|X_{1})\\&=I(X_{1};X_{2})\end{align}$$
+
+^612399

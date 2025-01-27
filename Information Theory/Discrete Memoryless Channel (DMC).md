@@ -123,6 +123,21 @@
 > Let $S\in [m]$ be a random variable that denotes which channel is being used. Let $X\sim q$ for some $q\in \Delta(\mathcal{X})$ and $Y$ it's corresponding output. Then, $H(Z|X)=0$ and $H(Z|Y)=0$. We then have: $$H(X|Y)=H(X|Y)+\underbrace{ H(Z|X,Y) }_{ =0 }=H(X,Z|Y)=\underbrace{ H(Z|Y) }_{ =0 }+H(X|Y,Z)$$Hence, $$H(X|Y)=\sum_{i\in [m]}^{}\mathbb{P}(S=i)H(X_{i}|Y_{i})=H(X|Z)-\sum_{i\in [m]}^{}\mathbb{P}(S=i)I(q_{i},W_{i})$$
 > 
 > Therefore, $$I(q,W)=I(X;Y)=H(X)-H(X|Y)=H(Z)+\sum_{i\in [m]}^{}\mathbb{P}(S=i)I(q_{i},W_{i})$$As all the values are positive, we can maximize over: $$\max_{s\in \Delta([m])}\sum_{i=[m]}^{}s_{i}\left(  \log \frac{1}{s_{i}}+C(W_{i}) \right)$$We have that: $$\frac{ \partial  }{ \partial s_{i} } \mathcal{L}=\log \frac{1}{s_{i}}-1+C(W_{i})-\lambda = 0$$Hence, $s_{i}=2^{C(W_{i})-\lambda-1}$ and as we have: $$\sum_{i}^{}s_{i}=2^{-\lambda - 1}\sum_{i}^{}2^{C(W_{i})}=1$$We have: $$\begin{align}C=\sum_{i}^{}2^{C(W_{i})}2^{-\lambda-1}\left( \lambda+1\right)=\lambda+1\end{align}$$where $$2^{\lambda+1}=\sum_{i}^{}2^{C(W_{i})}$$
+
+^2e8a65
+
+---
+> [!lemma] Theorem 8 (Conditionally Independent Channel)
+> Let $W_{1},W_{2}$ be two channels from $\mathcal{X}$ to $\mathcal{Y}_{i}$ respectively. Let $W:=(W_{1} , W_{2})$ be a channel from $\mathcal{X}$ to $\mathcal{Y}_{1}\times\mathcal{Y}_{2}$ s.t. $X\mapsto (Y_{1},Y_{2})$.
+> 1. If $Y_{1}$ and $Y_{2}$ are conditionally independent given $X$, then: $$C(W)\leq C(W_{1})+C(W_{2})$$
+
+^dec724
+
+> [!proof]-
+> We have that: $$\begin{align}I(X;Y_{1},Y_{2})&=I(X;Y_{1})+I(X;Y_{2}|Y_{1})\\&=I(X;Y_{1})+I(X,Y_{1};Y_{2})-I(Y_{1};Y_{2})\\&=I(X;Y_{1})+I(X;Y_{2})+\underbrace{ I(Y_{1};Y_{2}|X) }_{ =0 }-I(Y_{1};Y_{2})\\&=I(X;Y_{1})+I(X;Y_{2})-I(Y_{1};Y_{2})\end{align}$$Hence, $$C(W)=\max I(X;Y_{1},Y_{2})\leq \max I(X;Y_{1})+I(X;Y_{2})\leq C(W_{1})+C(W_{2})$$
+
+^836fb4
+
 ---
 ###### DMC with Feedback
 > [!lemma] Theorem 1 (Feedback doesn't increase capacity)
