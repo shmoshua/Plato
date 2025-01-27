@@ -160,6 +160,7 @@
 
 ---
 ### 4. Channel Coding
+#### 4.1 DMC
 ![[Discrete Memoryless Channel (DMC)#^caee85]]
 ![[Discrete Memoryless Channel (DMC)#^1491bf]]
 
@@ -202,12 +203,16 @@
 ![[Discrete Memoryless Channel (DMC)#^39768b|p]]
 
 ---
-#### 4.1 Feedback
+![[Discrete Memoryless Channel (DMC)#^84bff1]]
+![[Discrete Memoryless Channel (DMC)#^dd8236|p]]
+
+---
+#### 4.2 Feedback
 ![[Discrete Memoryless Channel (DMC)#^ec9f89]]
 ![[Discrete Memoryless Channel (DMC)#^1f04d3|p]]
 
 ---
-#### 4.2 Source Channel Separation
+#### 4.3 Source Channel Separation
 > [!lemma] Theorem 1 (Source Channel Separation Theorem)
 > Let $\mathcal{U}$ be a finite alphabet. A ***source channel code*** consists of the following maps: $$\begin{array}{ccccc}
 \mathcal{U}^n&\xrightarrow{f}& \mathcal{X}^n&\xrightarrow{W}&\mathcal{Y}^n &\xrightarrow{\phi} &\mathcal{U}^n&\\U_{1:n}&\mapsto &X_{1:n}(U_{1:n})&\mapsto &Y_{1:n}&\mapsto &\widehat{U}_{1:n}

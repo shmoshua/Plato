@@ -101,8 +101,12 @@
 > [!h] Example 1 (Bernoulli distribution)
 > Let $X\sim \text{Ber}(p)$ the [[Distribution|Bernoulli distribution]]. Then, 
 > 1. $H(X)=p\log \frac{1}{p}+(1-p)\log \frac{1}{1-p}=:H_{b}(p)$
+> 2. $\frac{d}{dp}H_{b}(p)=\log\left( \frac{1-p}{p} \right)$.
 
 ^1d6ace
+
+> [!proof]-
+> We have that: $$\frac{d}{dp}H_{b}(p)=-\log p+\log (1-p)=\log \left( \frac{1-p}{p} \right)$$
 
 ---
 > [!h] Example 2
