@@ -71,6 +71,16 @@
 > 1. hihi
 > 2. We have that $k$ source symbols are generated every $k\cdot\rho_{S}^{-1}$ seconds and $n$ channel uses every $n\cdot\rho_{C}^{-1}$ seconds. Therefore, $\frac{k}{n}=\rho_{S}\rho_{C}^{-1}$. Hence, if the source can be sent then:$$\begin{align}nC(W)&\geq  I(S_{1:k};T_{1:k})\\&=H(S_{1:k})-H(S_{1:k}|T_{1:k})\\&\geq \sum_{i=1}^{k}H(S_{i})-H(S_{i}|T_{i})\\&=\sum_{i=1}^{k}I(S_{i};T_{i})\\&\geq  k \frac{1}{k}\sum_{i=1}^{k}\cdot  R(\mathbb{E}[d(S_{i},T_{i})])\\&\geq k\cdot R\left( \mathbb{E}[d(S_{1:k},T_{1:k})]\right)\\&\geq k\cdot R(D)\end{align}$$Therefore, $$\rho_{S}R(D)\leq \frac{k}{n}\rho_{C} \cdot  R(D)\leq \rho_{C}\cdot C(W)$$
 ---
+> [!lemma] Theorem 6 (Source-Channel Separation with Feedback)
+> Consider an i.i.d source $U_{1:k}\in \mathcal{U}^k$ for a finite $\mathcal{U}$, a bounded distortion function $d:\mathcal{U}\times \widehat{\mathcal{U}}\to \mathbb{R}_{\geq 0}$ and a DMC $W$. A ***combined source channel coding scheme*** in the presence of feedback is described as follows: 
+> 1. the encoder is a sequence of mappings $f_{i}:(U_{1:k},Y_{1:i-1})\mapsto X_{i}$, 
+> 2. the decoder is a mapping $g:Y_{1:n}\to \widehat{U}_{1:k}$. 
+> 
+> The combined source-channel coding scheme with feedback can achieve expected distortion $D$ only if: $$\frac{n}{k}C(W)\geq R(D)$$
+
+> [!proof]+
+> We have that: $$\begin{align}kR(D)&\leq kR(\mathbb{E}[d(U^k,\widehat{U}^k)])\\&=kR\left( \sum_{i=1}^{k} \frac{1}{k}\mathbb{E}[d(U_{i},\widehat{U}_{i})] \right) \\&,\leq \sum_{i=1}^{k}R(\mathbb{E}[d(U_{i},\widehat{U}_{i})])\\&=\sum_{i=1}^{k}I(U_{i},\widehat{U}_{i})\\&=\sum_{i=1}^{k}H(U_{i})-H(U_{i}|\widehat{U}_{i})\\&\leq H(U^k)-\sum_{i=1}^{k}H(U_{i}|\widehat{U}^k,U_{1:i-1})\\&=H(U^k)-H(U^k|\widehat{U}^k)\\&=I(U^k|\widehat{U}^k)\\&\leq I(U^k|Y^n)\\&=H(Y^n)-H(Y^n|U^k)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1},U^k)\\&\leq\sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|Y_{1:i-1},U^k,X_{i})\\&=\sum_{i=1}^{n}H(Y_{i})-H(Y_{i})\end{align}$$
+---
 ##### Examples
 > [!h] Example 1 (Bernoulli source and Hamming distortion)
 > Let $\mathcal{X},\mathcal{Y}:=\{ 0,1 \}$ and $X\sim \text{Ber}(p)$. With the hamming distortion, we have:
@@ -109,11 +119,12 @@
 > 	Now, if we choose: $$p_{Y|X}(y|x)=\begin{cases}1-D&y=x\\ \frac{D}{m-1}&y\neq x\end{cases}$$then, we have $\mathbb{P}(Y\neq X)\leq D$ and we have that: $$\begin{align}H(X|Y)&=\sum_{y}^{}\sum_{x}p_{Y|X}(y|x)H(X|Y=y)\\&=\frac{1}{m}\sum_{y}^{}H(X|Y=y)\\&=\frac{1}{m}\sum_{ y}^{}\left( D \log \frac{m-1}{D}+(1-D)\log \frac{1}{1-D} \right)\\&=H_{b}(D)+D\log (m-1)\end{align}$$Therefore, $R(D)=\begin{cases}\log m-H_{b}(D)-D\log(m-1)&D\leq \frac{m-1}{m}\\0&D\geq \frac{m-1}{m}\end{cases}$
 ---
 > [!h] Example 5
-> Let $\mathcal{X},\mathcal{Y}:=\{ 0,1,2 \}$ with distortion $d(x,y):=\left| x-y \right|$. Then, 
-> 1. $R(0)=$
-> 2. $D(0)=$
+> Let $\mathcal{X},\mathcal{Y}:=\{ 0,1,2 \}$ with $p_{X}=(0.5,0.25, 0.25)$ with distortion $d(x,y):=\left| x-y \right|$. Then, 
+> 1. $R(0)=\frac{3}{2}$.
+> 2. $D(0)=\frac{3}{4}$.
 
-> [!proof]+
+> [!proof]-
 > We have that for $p_{Y|X}$,  
-> 1. $R(0)$, then $p_{Y|X}(y|x)=\delta_{yx}$. Hence, $$I(X;Y)=H$$
-> 2. $$\mathbb{E}[d(X,Y)]=p$$
+> 1. $R(0)$, then $p_{Y|X}(y|x)=\delta_{yx}$. Hence, $$\begin{align}I(X;Y)&=H(X)-H(X|Y)=\frac{3}{2}-0=\frac{3}{2}\end{align}$$
+> 2. Assume that we have $R = 0$. Then, our transition is deterministic. Hence, we have $D(0)= \frac{3}{4}$
+---
