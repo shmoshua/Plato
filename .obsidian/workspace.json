@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Information Theory/Mutual Information.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Markov Chain"
+              "title": "Mutual Information"
             }
           }
         ],
@@ -285,16 +285,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b0ddc8c68a53a89",
+  "active": "a327efbbcfde20ae",
   "lastOpenFiles": [
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Information Theory/Mutual Information.md",
+    "Information Theory/Entropy.md",
     "Information Theory/Distortion.md",
+    "Markov Processes/Markov Chain.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Topology/Distance.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Code.md",
-    "Information Theory/Entropy.md",
-    "Information Theory/Mutual Information.md",
-    "Markov Processes/Markov Chain.md",
     "Courses/Information Theory/Exercise Sheet 4.md",
     "Information Theory/Typical Sequence.md",
     "Technical Lemmas.md",

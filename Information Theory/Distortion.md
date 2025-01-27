@@ -55,10 +55,10 @@
 > 1. for any $w:\mathcal{X}\to \mathbb{R}$ s.t. $d(x,y)\geq w(x)$ for all $x\in \mathcal{X}$, $y\in \mathcal{Y}$, $$R_{d'}(D)=R_{d}(D+\mathbb{E}[w(X)])$$where $d':\mathcal{X}\times \mathcal{Y}\to \mathbb{R}_{\geq 0},(x,y)\mapsto d(x,y)-w(x)$.
 > 2. If there exists $\widehat{y}\in \mathcal{Y}$ s.t. $\widehat{y}\in \arg\min_{y\in \mathcal{Y}}d(x,y)$ for all $x\in \mathcal{X}$, then, $$R(D)=0,\quad \forall D\geq \mathbb{E}[\min_{y\in \mathcal{Y}}d(X,y)]$$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. For a fixed $p_{Y|X}$, we have: $$\mathbb{E}[d'(X,Y)]=\mathbb{E}[d(X,Y)-w(X)]=\mathbb{E}[d(X,Y)]-\mathbb{E}[w(X)]$$Hence, $$R_{d'}(D)=\min_{p_{Y|X}: \mathbb{E}[d'(X,Y)]\leq D}I(X;Y)=\min_{p_{Y|X}: \mathbb{E}[d(X,Y)]\leq D+\mathbb{E}[w(X)]}I(X;Y)=R_{d}(D+\mathbb{E}[w(X)])$$
-> 2. Let $w:\mathcal{X}\to \mathbb{R}$ with $w(x):=\min_{y\in \mathcal{Y}}d(x,y)$. Then, we have that by assumption $d'(x,\widehat{y})$
+> 2. Let $w:\mathcal{X}\to \mathbb{R}$ with $w(x):=\min_{y\in \mathcal{Y}}d(x,y)$. Then, we have that by assumption $d'(x,\widehat{y})=0$ for all $x\in \mathcal{X}$. Let $p_{Y|X}(y|x)=\delta_{y,\widehat{y}}$. Then, we have that: $$\mathbb{E}[d'(X,Y)]=\sum_{x\in \mathcal{X}}^{}p(x)d'(x,\widehat{y})=0$$and $I(X;Y)= 0$. Hence, $R_{d'}(D)=0$ for all $D\geq 0$. Therefore, by 1, $$R(D)=R(D-\mathbb{E}[w(X)])=0,\quad \forall D\geq \mathbb{E}[w(X)]$$
 ---
 > [!lemma] Theorem 5 (Source-Channel Separation Theorem)
 > We have the setting: $$\begin{array}{cccccc}\mathcal{S}^k&\to&\mathcal{X}^n&\xrightarrow{W}& \mathcal{Y}^n&\to& \mathcal{T}^k\\S_{1:k}&\mapsto &X_{1:n}&\mapsto &Y_{1:n}&\mapsto &T_{1:k}\end{array}$$
@@ -83,3 +83,10 @@
 >    
 >    To show the other inequality, let $q:=\frac{p-D}{1-2D}$. Then, as $D\leq 1-p$, $q\leq 1$. Further, $q\geq 0$ as $D\leq p$ and $D\leq \frac{1}{2}$. Let $Y\sim \text{Ber}(q)$ independent of $Z\sim \text{Ber}(D)$. Let $X:= Y\oplus Z$. Then,  $$\mathbb{E}[d_{H}(X,Y)]=\mathbb{P}(X\neq Y)=D$$and we have $\mathbb{P}(X)=\mathbb{P}(Y\oplus Z)=p$. Therefore, we have that $I(X;Y)=H_{b}(p)-H_{b}(D)$ and this proves the statement.
 ---
+> [!h] Example 2 (Erasure distortion)
+> Let $\mathcal{X}:=\{ 0,1 \}$, $\mathcal{Y}:=\{ 0,1,? \}$ and $X\sim \text{Ber}( 1/2)$. With the following distortion: $$d:=\begin{bmatrix}0&\infty&1\\ \infty & 0 & 1\end{bmatrix}$$we have that $R(D)=\begin{cases}1-D&D\leq 1\\0&D\geq 1\\\end{cases}$.
+
+> [!proof]-
+> Let $p_{Y|X}$ given s.t. $p_{Y|X}(1|0)=p_{Y|X}(0|1)=0$. Then, $$\mathbb{E}[d(X,Y)]=\frac{1}{2}p_{Y|X}(?|0)+\frac{1}{2}p_{Y|X}(?|1)=\mathbb{P}(Y=?)$$Assume that:
+> 1. if $D\geq 1$, then by choosing $p_{Y|X}(? | x)=1$, we have that $\mathbb{E}[d(X,Y)]\leq D$ and $R(D)=0$.
+> 2. if $D\leq 1$, then we have: $$\begin{align}I(X;Y)&=H(X)-H(X|Y)\\&=1-\underbrace{ \mathbb{P}(Y=0)H(X|Y=0) }_{ =0 }-\underbrace{ \mathbb{P}(Y=1)H(X|Y=1) }_{ =0 }-\mathbb{P}(Y=?)H(X|Y=?)\\&=1-\mathbb{P}(Y=?)H(X|Y=?)\\&\geq 1-D\end{align}$$where choosing $p_{Y|X}(y|x)=\begin{cases}1-D&y=x\\D&y=?\\0&\text{otherwise}\end{cases}$ we have that: $$I(X;Y)=1-D\cdot 1=1-D$$
