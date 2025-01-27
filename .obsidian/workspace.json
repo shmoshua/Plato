@@ -77,7 +77,8 @@
               "title": "Entropy"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -95,20 +96,6 @@
               },
               "icon": "lucide-file",
               "title": "Information Theory Roadmap"
-            }
-          },
-          {
-            "id": "9ffd069f02b286fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Code.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Code"
             }
           },
           {
@@ -153,7 +140,8 @@
               "title": "Markov Chain"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -297,13 +285,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87ad6422ee7710b7",
+  "active": "9b0ddc8c68a53a89",
   "lastOpenFiles": [
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Code.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Entropy.md",
     "Information Theory/Mutual Information.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Information Theory/Exercise Sheet 4.md",
     "Information Theory/Distortion.md",

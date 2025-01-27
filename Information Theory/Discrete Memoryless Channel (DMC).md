@@ -218,3 +218,16 @@
 ^39768b
 
 ---
+> [!h] Example 5 (Channels)
+> Let us have the following channels:
+> 1. $C\left( \begin{bmatrix}1-\varepsilon-\delta & \delta& \varepsilon\\\varepsilon&\delta&1-\varepsilon-\delta\end{bmatrix} \right)=(1-\delta)\left( 1-H_{p}\left( \frac{\varepsilon}{1-\delta} \right) \right)$
+> 2. $C\left( \begin{bmatrix} \frac{3}{4}& \frac{1}{4}& 0\\ \frac{1}{3}& \frac{1}{3}& \frac{1}{3}\\0& \frac{1}{4} & \frac{3}{4}\end{bmatrix} \right)$
+
+> [!proof]+
+> We have that:
+> 1. By symmetry $q:=\left( \frac{1}{2}, \frac{1}{2} \right)$ attains the maximum of $I(q,W)$. Hence, we have: $$\begin{align}C(W)=1-H(X|Y)=1-(1-\delta)H_{b}\left( \frac{\varepsilon}{1-\delta} \right)-\delta\end{align}$$
+> 2. By symmetry, it suffices to check $q:=\left(  p,1-2p,p \right)$ for $0\leq p\leq \frac{1}{2}$. Then, 
+> 	1. $H(Y|X=i)=H_{b}\left( \frac{1}{4} \right)$ for $i=0,2$.
+> 	2. $H(Y|X=1)=\log 3$. 
+> 	   
+> 	Hence, $$H(Y|X)=2p H_{b}\left( \frac{1}{4} \right)+(1-2p)\log 3=4p+\left( 1-\frac{7p}{2} \right)\log 3$$Further, $$I(X;Y)=$$
