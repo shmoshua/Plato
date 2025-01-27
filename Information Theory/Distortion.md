@@ -78,8 +78,8 @@
 > 
 > The combined source-channel coding scheme with feedback can achieve expected distortion $D$ only if: $$\frac{n}{k}C(W)\geq R(D)$$
 
-> [!proof]+
-> We have that: $$\begin{align}kR(D)&\leq kR(\mathbb{E}[d(U^k,\widehat{U}^k)])\\&=kR\left( \sum_{i=1}^{k} \frac{1}{k}\mathbb{E}[d(U_{i},\widehat{U}_{i})] \right) \\&,\leq \sum_{i=1}^{k}R(\mathbb{E}[d(U_{i},\widehat{U}_{i})])\\&=\sum_{i=1}^{k}I(U_{i},\widehat{U}_{i})\\&=\sum_{i=1}^{k}H(U_{i})-H(U_{i}|\widehat{U}_{i})\\&\leq H(U^k)-\sum_{i=1}^{k}H(U_{i}|\widehat{U}^k,U_{1:i-1})\\&=H(U^k)-H(U^k|\widehat{U}^k)\\&=I(U^k|\widehat{U}^k)\\&\leq I(U^k|Y^n)\\&=H(Y^n)-H(Y^n|U^k)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1},U^k)\\&\leq\sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|Y_{1:i-1},U^k,X_{i})\\&=\sum_{i=1}^{n}H(Y_{i})-H(Y_{i})\end{align}$$
+> [!proof]-
+> We have that: $$\begin{align}kR(D)&\leq kR(\mathbb{E}[d(U^k,\widehat{U}^k)])\\&=kR\left( \sum_{i=1}^{k} \frac{1}{k}\mathbb{E}[d(U_{i},\widehat{U}_{i})] \right) \\&,\leq \sum_{i=1}^{k}R(\mathbb{E}[d(U_{i},\widehat{U}_{i})])\\&=\sum_{i=1}^{k}I(U_{i},\widehat{U}_{i})\\&=\sum_{i=1}^{k}H(U_{i})-H(U_{i}|\widehat{U}_{i})\\&\leq H(U^k)-\sum_{i=1}^{k}H(U_{i}|\widehat{U}^k,U_{1:i-1})\\&=H(U^k)-H(U^k|\widehat{U}^k)\\&=I(U^k|\widehat{U}^k)\\&\leq I(U^k|Y^n)\\&=H(Y^n)-H(Y^n|U^k)\\&=\sum_{i=1}^{n}H(Y_{i}|Y_{1:i-1})-H(Y_{i}|Y_{1:i-1},U^k)\\&\leq\sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|Y_{1:i-1},U^k,X_{i})\\&=\sum_{i=1}^{n}H(Y_{i})-H(Y_{i}|X_{i})\\&=\sum_{i=1}^{n}I(Y_{i};X_{i})\\&\leq nC(W)\end{align}$$
 ---
 ##### Examples
 > [!h] Example 1 (Bernoulli source and Hamming distortion)

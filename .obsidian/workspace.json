@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Distortion.md",
+                "file": "Information Theory/Differential Entropy.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Distortion"
+              "title": "Differential Entropy"
             }
           },
           {
@@ -104,12 +104,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Information Theory/Differential Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "Differential Entropy"
             }
           },
           {
@@ -132,16 +132,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "Gaussian Distribution"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -285,10 +285,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a327efbbcfde20ae",
+  "active": "a6aaca5b94aebdb0",
   "lastOpenFiles": [
-    "Information Theory/Entropy.md",
     "Information Theory/Distortion.md",
+    "Information Theory/Differential Entropy.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Machine Learning/Gaussian Process.md",
+    "Information Theory/Entropy.md",
     "Information Theory/Mutual Information.md",
     "Markov Processes/Markov Chain.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
@@ -310,9 +313,6 @@
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Differential Geometry/Submersion.md",
-    "Topology/CW-Complex.md",
-    "Topology/Real Projective Space.md",
-    "Probability Theory/Moment.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
