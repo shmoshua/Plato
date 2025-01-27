@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Distortion.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Distortion"
+              "title": "Entropy"
             }
           },
           {
@@ -132,16 +132,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Entropy.md",
+                "file": "Information Theory/Distortion.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Entropy"
+              "title": "Distortion"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -285,17 +284,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87ad6422ee7710b7",
+  "active": "b2f96fe97e4c1bb6",
   "lastOpenFiles": [
     "Information Theory/Distortion.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Entropy.md",
-    "Information Theory/Relative Entropy.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Typical Sequence.md",
     "Information Theory/Mutual Information.md",
+    "Information Theory/Relative Entropy.md",
     "Information Theory/Code.md",
     "Probability Theory/Expected Value.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Probability Theory/Conditional Probability.md",
     "Information Theory/Channel.md",
     "Technical Lemmas.md",

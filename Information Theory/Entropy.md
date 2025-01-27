@@ -19,6 +19,8 @@
 > 2.  $0=H(X)$ if and only if $X$ is deterministic.
 > 3. $H(X)=\log \left| \mathcal{X} \right|$ if and only if $X\sim \text{Uni}(\mathcal{X})$.
 > 4. $H(X)=\mathbb{E}_{X}[i_{X}(X)]$.
+> 5. for a function $g:\mathcal{X}\to \mathcal{Y}$, $H(g(X))\leq H(X)$ with equality if and only if $g|_{\text{supp }p_{X}}$ is injective.
+> 6. Let $\mathcal{X},\mathcal{Y}\subseteq \mathbb{R}$ be finite. For $X:\Omega\to \mathcal{X}$ and $Y:\Omega\to \mathcal{}$
 
 ^bf1bbb
 
@@ -28,6 +30,7 @@
 > 2. If $H(X)=0$, then by [[Expected Value|Theorem 3.1]] $\log \frac{1}{p_{X}(x)}=0$ almost surely and $p_{X}(x)=1$ almost surely in $\text{supp }p_{X}$. Hence, $\{ x \}=\text{supp }p_{X}$. Conversely, if it's deterministic the statement holds.
 > 3. Analogous.
 > 4. Obvious.
+> 5. We have that: $$H(g(X))\leq H(g(X))+H(X|g(X))+H(g(X),X)=H(X)+\underbrace{ H(g(X)|X) }_{ =0 }=H(X)$$Hence, the equality holds if and only if $H(X|g(X)) = 0$. In other words, there exists $h: g(\text{supp }p_{X})\to \mathcal{X}$ with $x=h(g(x))$ for all $x\in \text{supp }p_{X}$. 
 
 ^049dcb
 
@@ -57,13 +60,14 @@
 
 ^f62e41
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. $0\leq H(X|Y=y)\leq \log \left| \mathcal{X} \right|$ for all $y$.
 > 2. We have: $$H(X,Y)=-\mathbb{E}(\log p_{XY}(X,Y))=-\mathbb{E}(\log p_{X}(X))-\mathbb{E}(\log p(X|Y))=H(X)+H(Y|X)$$
 > 3. Analogous to 2. 
 > 4. From [[Mutual Information|Lemma 1.3]].
-> 5. Assume $H(Y|X)=0$. Then, $$\sum_{x\in \mathcal{X}}^{}p_{X}(x)H(Y|X)$$
+> 5. Assume $H(Y|X)=0$. Then, $$\sum_{x\in \mathcal{X}}^{}p_{X}(x)H(Y|X=x)=0$$and $H(Y|X=x)=0$ for all $x\in \mathcal{X}$. Hence, $Y|X=x$ is deterministic and there exists $g(x)\in \mathcal{Y}$ s.t. $\mathbb{P}(Y=y|X=x)=1$. Now, let $g:\mathcal{X}\to \mathcal{Y},x\mapsto g(x)$. Then, $$\mathbb{P}(Y=g(X))=\sum_{x\in \mathcal{X}}^{}\mathbb{P}(Y=g(X)|X=x)\mathbb{P}(X=x)=1$$
+> 	Conversely, if there exists such a $g$, then we have that $Y|X=x$ is deterministic as $\mathbb{P}(Y=g(x)|X=x)=1$. Therefore, $H(Y|X=x)=0$. 
 
 ^8e99d6
 
