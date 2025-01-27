@@ -113,8 +113,19 @@
 ^dd8236
 
 ---
+> [!lemma] Theorem 7 (Sum Channel)
+> Let $W_{1},\dots,W_{m}$ be DMCs from $\mathcal{X}_{i}$ to $\mathcal{Y}_{i}$ respectively. We define the ***sum channel*** to be a channel $W$ from $\mathcal{X}:=\bigsqcup_{i}^{}\mathcal{X_{i}}$ to $\mathcal{Y}:=\bigsqcup_{i}^{}\mathcal{Y_{i}}$. 
+> 1. $C(W)=\log\left( \sum_{i=1}^{m}2^{C(W_{i})} \right)$
+
+^f9cb80
+
+> [!proof]-
+> Let $S\in [m]$ be a random variable that denotes which channel is being used. Let $X\sim q$ for some $q\in \Delta(\mathcal{X})$ and $Y$ it's corresponding output. Then, $H(Z|X)=0$ and $H(Z|Y)=0$. We then have: $$H(X|Y)=H(X|Y)+\underbrace{ H(Z|X,Y) }_{ =0 }=H(X,Z|Y)=\underbrace{ H(Z|Y) }_{ =0 }+H(X|Y,Z)$$Hence, $$H(X|Y)=\sum_{i\in [m]}^{}\mathbb{P}(S=i)H(X_{i}|Y_{i})=H(X|Z)-\sum_{i\in [m]}^{}\mathbb{P}(S=i)I(q_{i},W_{i})$$
+> 
+> Therefore, $$I(q,W)=I(X;Y)=H(X)-H(X|Y)=H(Z)+\sum_{i\in [m]}^{}\mathbb{P}(S=i)I(q_{i},W_{i})$$As all the values are positive, we can maximize over: $$\max_{s\in \Delta([m])}\sum_{i=[m]}^{}s_{i}\left(  \log \frac{1}{s_{i}}+C(W_{i}) \right)$$We have that: $$\frac{ \partial  }{ \partial s_{i} } \mathcal{L}=\log \frac{1}{s_{i}}-1+C(W_{i})-\lambda = 0$$Hence, $s_{i}=2^{C(W_{i})-\lambda-1}$ and as we have: $$\sum_{i}^{}s_{i}=2^{-\lambda - 1}\sum_{i}^{}2^{C(W_{i})}=1$$We have: $$\begin{align}C=\sum_{i}^{}2^{C(W_{i})}2^{-\lambda-1}\left( \lambda+1\right)=\lambda+1\end{align}$$where $$2^{\lambda+1}=\sum_{i}^{}2^{C(W_{i})}$$
+---
 ###### DMC with Feedback
-> [!lemma] Theorem 7 (Feedback doesn't increase capacity)
+> [!lemma] Theorem 1 (Feedback doesn't increase capacity)
 > Let $W$ be a DMC. Then, 
 > 1. $C(W)=C_{\text{FB}}(W)$. 
 

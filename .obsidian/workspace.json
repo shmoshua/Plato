@@ -63,8 +63,7 @@
               "title": "Entropy"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -140,8 +139,7 @@
               "title": "Entropy"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -285,18 +283,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a327efbbcfde20ae",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
-    "Information Theory/Code.md",
-    "Information Theory/Entropy.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Information Theory/Mutual Information.md",
+    "Information Theory/Entropy.md",
+    "Information Theory/Code.md",
     "Courses/Information Theory/Exercise Sheet 4.md",
     "Information Theory/Distortion.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Typical Sequence.md",
     "Technical Lemmas.md",
     "Courses/Information Theory/Exercise Sheet 3.md",
-    "Information Theory/Mutual Information.md",
     "Probability Theory/Expected Value.md",
     "Information Theory/Relative Entropy.md",
     "Probability Theory/Conditional Probability.md",
