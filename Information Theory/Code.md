@@ -119,7 +119,9 @@
 >    ```
 >    Then, let $G$ be the output of $\text{HuffmanRecursion}(\mathcal{X},p)$. 
 >    1. $G$ is a rooted binary tree with $\mathcal{X}$ exactly as leaves.
->    2. the corresponding prefix free code is optimal. 
+>    2. the corresponding prefix free code, called the ***Huffman code*** is optimal. 
+>    3. if $\max p(x)> 2 /5$, then $\ell(C(x))=1$.
+>    4. if $\max p(x)< 1/3$, then $\ell(C(x))\geq 2$.
 
 ^eb82e8
 
@@ -135,6 +137,13 @@
 >    Suppose we have another code $D$ on $\mathcal{X}$ s.t. $\ell(D)<\ell(C)$. Then, wlog we may assume that $\ell(x_{n-1})=\ell(x_{n})=\ell_{\max}(D)$. (otherwise we can always swap them and achieve lower average length). Then, by switching between leaves at level $\ell_{\max}(D)$, we have that there exists $y\in \{ 0,1 \}^+$ s.t. $\{ D(x_{n-1}),D(x_{n}) \}=\{ y0,y 1 \}$.
 >    
 >    Then, we now construct $D'$ on $\mathcal{X'}$ given as: $$D'(z):=\begin{cases}D(z)&\text{if }z\in \mathcal{X}\\y&\text{otherwise}\end{cases}$$We have that this is prefix free and $$L(D')=L(D)-p_{n}-p_{n-1}<L(C)-p_{n}-p_{n-1}=L(C')$$which is a contradiction to the optimality of $C'$. 
+> 3. We show by induction. Wlog assume that $\left| \mathcal{X} \right|=m$ and $p_{1}\geq p_{2}\geq\dots\geq p_{m}$.
+> 	1. if $m=2$, then by optimality $\ell(C(1))=1$. 
+> 	2. if $m=3$, then $\ell(C(1))=1$. 
+> 	3. if $m\geq 4$, we claim that $p_{m-1}+p_{m}< \frac{2}{ 5}$. Assume that $p_{m-1}+p_{m}\geq 2 / 5$. Then, $$2p_{2}\geq p_{m-1}+p_{m}\geq \frac{2}{5}$$and $p_{2}\geq 1 /5$. Therefore, $p_{1}+p_{2}+p_{m-1}+p_{m}> 1$, which is a contradiction.
+> 	   
+> 	   Hence, we have that $p_{1}$ is still the maximum of the densities of one round. By induction, we have that $\ell(C(1))=1$. 
+> 4. We have that $m\geq 4$. Now, run Huffman coding until $m=3$. If $1$ was combined with any other codeword, we are done. Otherwise, as $p_{1}< \frac{1}{3}$, there exists another message with density $\geq 1 /3$. Hence, $p_{1}$ will be combined. 
 >    
 
 ^6a34a3
