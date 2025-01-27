@@ -207,6 +207,10 @@
 ![[Discrete Memoryless Channel (DMC)#^39768b|p]]
 
 ---
+![[Discrete Memoryless Channel (DMC)#^16812e]]
+![[Discrete Memoryless Channel (DMC)#^9d31e1|p]]
+
+---
 ![[Discrete Memoryless Channel (DMC)#^84bff1]]
 ![[Discrete Memoryless Channel (DMC)#^dd8236|p]]
 
@@ -217,6 +221,10 @@
 ---
 ![[Discrete Memoryless Channel (DMC)#^dec724]]
 ![[Discrete Memoryless Channel (DMC)#^836fb4|p]]
+
+---
+![[Discrete Memoryless Channel (DMC)#^536f0b]]
+![[Discrete Memoryless Channel (DMC)#^cba0cb|p]]
 
 ---
 #### 4.2 Feedback

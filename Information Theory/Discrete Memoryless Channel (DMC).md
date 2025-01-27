@@ -93,10 +93,14 @@
 > Then, 
 > 1. a rate $R$ is achievable on $W$ if and only if $2R$ is achievable on $W'$.
 
+^16812e
+
 > [!proof]-
 > We have:
 > 1. Assume that $R$ is achievable on $W$. Let $f'_{n}:=f_{2n}$ and $\phi'_{n}:=\phi_{2n}$. Then, for any $m\in \mathcal{M}_{2n}:=\{ 0,1,\dots,2^{2nR} \}$, $$\lambda_{m}:=\sum_{\begin{subarray}{c}y_{1:2n}\in \mathcal{Y}^{2n}\\ \phi_{2n}(y_{1:2n})\neq m\end{subarray}}\prod_{i=1}^{n}W_{f_{2n}(m)_{2i-1,2i},y_{2i-1,2i}}=\sum_{\begin{subarray}{c}y_{1:2n}\in \mathcal{Y}^{2n}\\ \phi_{2n}(y_{1:2n})\neq m\end{subarray}}\prod_{i=1}^{2n}W_{f_{2n}(m)_{i},y_{i}}$$ Therefore, $\lim_{ n \to \infty }\max_{m\in \mathcal{M}_{2n}}\lambda_{m}=0$ and $2R$ is achievable on $W'$.
 > 2. Analogous.
+
+^9d31e1
 
 ---
 > [!lemma] Proposition 6
@@ -137,6 +141,18 @@
 > We have that: $$\begin{align}I(X;Y_{1},Y_{2})&=I(X;Y_{1})+I(X;Y_{2}|Y_{1})\\&=I(X;Y_{1})+I(X,Y_{1};Y_{2})-I(Y_{1};Y_{2})\\&=I(X;Y_{1})+I(X;Y_{2})+\underbrace{ I(Y_{1};Y_{2}|X) }_{ =0 }-I(Y_{1};Y_{2})\\&=I(X;Y_{1})+I(X;Y_{2})-I(Y_{1};Y_{2})\end{align}$$Hence, $$C(W)=\max I(X;Y_{1},Y_{2})\leq \max I(X;Y_{1})+I(X;Y_{2})\leq C(W_{1})+C(W_{2})$$
 
 ^836fb4
+
+---
+> [!lemma] Proposition 9 
+> Let $W$ be a DMC from $\mathcal{X}$ to $\mathcal{Y}$ and $p,q\in \Delta(\mathcal{X})$ s.t. $$C(W)=I(p,W)=I(q,W)$$
+> Then, $pW=qW$.
+
+^536f0b
+
+> [!proof]-
+> We define $s:= \frac{1}{2}p+ \frac{1}{2}q$. Assume $pW\neq qW$. Then, by the strict concavity of entropy, $$\begin{align}C(W)&\geq I(s,W)\\&=H(sW)-H(Y|X)\\&> \frac{1}{2}H(pW)+\frac{1}{2}H(qW)-H(Y|X)\\&=\frac{1}{2}I(p,W)+\frac{1}{2}I(q,W)\\&=C(W)\end{align}$$which is a contradiction. 
+
+^cba0cb
 
 ---
 ###### DMC with Feedback

@@ -62,6 +62,20 @@
               "icon": "lucide-file",
               "title": "Discrete Memoryless Channel (DMC)"
             }
+          },
+          {
+            "id": "6a77a0e306989677",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Theory/Entropy.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Entropy"
+            }
           }
         ]
       },
@@ -103,12 +117,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Mutual Information.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Mutual Information"
+              "title": "Entropy"
             }
           },
           {
@@ -283,13 +297,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "87ad6422ee7710b7",
   "lastOpenFiles": [
-    "Information Theory/Mutual Information.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
-    "Information Theory/Entropy.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Code.md",
+    "Information Theory/Entropy.md",
+    "Information Theory/Mutual Information.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Information Theory/Exercise Sheet 4.md",
     "Information Theory/Distortion.md",
