@@ -72,3 +72,4 @@
 > 2. If $D\leq \min \{ p,1-p \}$, we use Shannon. Let $p_{Y|X}$ s.t. $\mathbb{E}[d(x,y)]\leq D$. Then, $$\begin{align} I(X;Y)&=H(X)-H(X|Y)\\&=H_{b}(p)-H(X\oplus  Y|Y)\\&\geq H_{b}(p)-H(X\oplus  Y)\\&=H_{b}(p)-H_{b}(\mathbb{P}(X\neq  Y))\end{align}$$As $\mathbb{P}(X\neq Y)=\mathbb{E}[d(X,Y)]\leq D\leq \frac{1}{2}$, we have $I(X;Y)\geq H_{b}(p)-H_{b}(D)$. Hence, $R(D)\geq H_{b}(p)-H_{b}(D)$.
 >    
 >    To show the other inequality, let $q:=\frac{p-D}{1-2D}$. Then, as $D\leq 1-p$, $q\leq 1$. Further, $q\geq 0$ as $D\leq p$ and $D\leq \frac{1}{2}$. Let $Y\sim \text{Ber}(q)$ independent of $Z\sim \text{Ber}(D)$. Let $X:= Y\oplus Z$. Then,  $$\mathbb{E}[d_{H}(X,Y)]=\mathbb{P}(X\neq Y)=D$$and we have $\mathbb{P}(X)=\mathbb{P}(Y\oplus Z)=p$. Therefore, we have that $I(X;Y)=H_{b}(p)-H_{b}(D)$ and this proves the statement.
+---

@@ -53,15 +53,17 @@
 > 2. $H(X,Y)=H(X)+H(Y|X)$
 > 3. $H(X,Y|Z)=H(X|Z)+H(Y|X,Z)$
 > 4. $H(X|Y)\leq H(X)$ with equality if and only if $X \ {\bot} \ Y$. 
+> 5. $H(Y|X)=0$ if and only if there exists $g:\mathcal{X}\to \mathcal{Y}$ s.t. $\mathbb{P}(Y=g(X))=1$. 
 
 ^f62e41
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. $0\leq H(X|Y=y)\leq \log \left| \mathcal{X} \right|$ for all $y$.
 > 2. We have: $$H(X,Y)=-\mathbb{E}(\log p_{XY}(X,Y))=-\mathbb{E}(\log p_{X}(X))-\mathbb{E}(\log p(X|Y))=H(X)+H(Y|X)$$
 > 3. Analogous to 2. 
 > 4. From [[Mutual Information|Lemma 1.3]].
+> 5. Assume $H(Y|X)=0$. Then, $$\sum_{x\in \mathcal{X}}^{}p_{X}(x)H(Y|X)$$
 
 ^8e99d6
 
@@ -96,3 +98,13 @@
 > 1. $H(X)=p\log \frac{1}{p}+(1-p)\log \frac{1}{1-p}=:H_{b}(p)$
 
 ^1d6ace
+
+---
+> [!h] Example 2
+> Let $p_{XY}(x,y)$ be given by: $$P:=\begin{bmatrix}1 / 3&1 /3 \\0 &1 / 3\end{bmatrix}$$Then,
+> 1. $H(X)=H_{b}(1 /3)$.
+> 2. $H(Y)=H_{b}(1 / 3)$.
+> 3. $H(X|Y)=2 /3$.
+> 4. $H(Y|X)=2 / 3$.
+> 5. $H(X,Y)=H_{b}(1 /3 )+2 / 3$.
+> 6. $I(X;Y)=H(Y)-H(Y|X)= H_{b}(1 /3 )- 2 /3$
