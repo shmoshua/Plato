@@ -224,9 +224,11 @@
 > 2. $C\left( \begin{bmatrix} \frac{3}{4}& \frac{1}{4}& 0\\ \frac{1}{3}& \frac{1}{3}& \frac{1}{3}\\0& \frac{1}{4} & \frac{3}{4}\end{bmatrix} \right)=\frac{3}{4}$
 > 3. $C\left( \begin{bmatrix}1&0&0\\ \frac{1}{2}& \frac{1}{4} & \frac{1}{4}\\0 & \frac{1}{2}& \frac{1}{2}\end{bmatrix} \right)=1$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. By symmetry $q:=\left( \frac{1}{2}, \frac{1}{2} \right)$ attains the maximum of $I(q,W)$. Hence, we have: $$\begin{align}C(W)=1-H(X|Y)=1-(1-\delta)H_{b}\left( \frac{\varepsilon}{1-\delta} \right)-\delta\end{align}$$
 > 2. By symmetry, it suffices to check $q:=\left(  p,1-2p,p \right)$ for $0\leq p\leq \frac{1}{2}$. Then, we have that: $$qW=\left( \frac{p+4}{12} ,\frac{2-p}{6},\frac{p+4}{12}\right)$$and: $$D(W(\cdot |X=0)\|qW)=\frac{3}{4}\log \frac{9}{p+4}+\frac{1}{4}\log \frac{3}{4-2p}\leq \frac{3}{4}$$and: $$D(W(\cdot |X=1)\|qW)=\frac{1}{3}\left( 2\log \frac{4}{p+4}+\log \frac{2}{2-p}\right) \leq \frac{3}{4}$$Hence, $q^{*}=\left( \frac{1}{2},0, \frac{1}{2} \right)$ and the capacity is $3 / 4$.
 > 3. Consider $q=(a,0,1-a)$. Then, $$D(W(\cdot |X=0)\|qW)=\log \frac{1}{a}$$$$D(W(\cdot |X=2)\|qW)=\log \frac{1}{1-a}$$Hence, if $a=\frac{1}{2}$, the capacity is 1. 
 > 4. We have that: $$I(q,W)=H(Y)-\log 3$$where $q^{*}=\left( \frac{1}{5}, \frac{1}{5}, \frac{3}{5} \right)$ and $q^{*}W=\left( \frac{4}{15}, \frac{2}{15}, \frac{4}{15}, \frac{1}{3} \right)$
+
+---
