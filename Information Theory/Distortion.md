@@ -90,3 +90,17 @@
 > Let $p_{Y|X}$ given s.t. $p_{Y|X}(1|0)=p_{Y|X}(0|1)=0$. Then, $$\mathbb{E}[d(X,Y)]=\frac{1}{2}p_{Y|X}(?|0)+\frac{1}{2}p_{Y|X}(?|1)=\mathbb{P}(Y=?)$$Assume that:
 > 1. if $D\geq 1$, then by choosing $p_{Y|X}(? | x)=1$, we have that $\mathbb{E}[d(X,Y)]\leq D$ and $R(D)=0$.
 > 2. if $D\leq 1$, then we have: $$\begin{align}I(X;Y)&=H(X)-H(X|Y)\\&=1-\underbrace{ \mathbb{P}(Y=0)H(X|Y=0) }_{ =0 }-\underbrace{ \mathbb{P}(Y=1)H(X|Y=1) }_{ =0 }-\mathbb{P}(Y=?)H(X|Y=?)\\&=1-\mathbb{P}(Y=?)H(X|Y=?)\\&\geq 1-D\end{align}$$where choosing $p_{Y|X}(y|x)=\begin{cases}1-D&y=x\\D&y=?\\0&\text{otherwise}\end{cases}$ we have that: $$I(X;Y)=1-D\cdot 1=1-D$$
+---
+> [!h] Example 3
+> Let $\mathcal{X},\mathcal{Y}:=\{ 0,1 \}$ and $X\sim \text{Ber}( 1/2)$. With the following distortion: $$d:=\begin{bmatrix}0&\infty\\ 1 & 0\end{bmatrix}$$we have that $R(D)=\begin{cases}1-\left( \frac{1+2D}{2}\right)H_{b}\left( \frac{1}{1+2D} \right) &D\leq 1 /2\\0&D\geq 1 /2\\\end{cases}$.
+
+> [!proof]-
+> Let $p_{Y|X}$ given s.t. $p_{Y|X}(1|0)=0$. Then, $$\mathbb{E}[d(X,Y)]=\frac{1}{2}p_{Y|X}(0|1)$$Assume that:
+> 1. if $D\geq \frac{1}{2}$, then by choosing $p_{Y|X}(0 | x)=1$, we have that $\mathbb{E}[d(X,Y)]\leq D$ and $R(D)=0$.
+> 2. if $D\leq \frac{1}{2}$, then we have: $$\begin{align}I(X;Y)&=H(X)-H(X|Y)\\&=1-\mathbb{P}(Y=0)H(X|Y=0)-\mathbb{P}(Y=1)H(X|Y=1)\\&=1-\left( \frac{2-a}{2} \right)H_{b}\left( \frac{1}{2-a} \right)\\&\geq 1-\left( \frac{1+2D}{2}\right)H_{b}\left( \frac{1}{1+2D} \right)  \end{align}$$where for $p_{Y|X}(y|1)=(2D, 1-2D)$, we have that $I(X;Y)$ is the minimum. 
+---
+> [!h] Example 4
+> Let $\mathcal{X},\mathcal{Y}:=[m]$ and $X\sim \text{Uni}(\mathcal{X})$. Consider the Hamming distortion, $$d(x,y):=\begin{cases}0&x=y\\1&x\neq y\end{cases}$$
+
+> [!proof]+
+> We have that: $$\mathbb{E}[d(X,Y)]=\mathbb{P}(Y)$$
