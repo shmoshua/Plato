@@ -118,12 +118,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Distortion.md",
+                "file": "Information Theory/Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Distortion"
+              "title": "Entropy"
             }
           },
           {
@@ -287,11 +287,11 @@
   },
   "active": "a6aaca5b94aebdb0",
   "lastOpenFiles": [
+    "Information Theory/Entropy.md",
     "Information Theory/Distortion.md",
     "Information Theory/Differential Entropy.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
-    "Information Theory/Entropy.md",
     "Information Theory/Mutual Information.md",
     "Markov Processes/Markov Chain.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
