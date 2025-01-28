@@ -35,8 +35,7 @@
               "title": "Algebra"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -54,20 +53,6 @@
               },
               "icon": "lucide-file",
               "title": "Commutative Algebra Roadmap"
-            }
-          },
-          {
-            "id": "b5b06bd3d947d586",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Variety.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Variety"
             }
           },
           {
@@ -126,8 +111,7 @@
               "title": "Ring Homomorphism"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,11 +255,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7c4c36f6c45c587f",
+  "active": "87ad6422ee7710b7",
   "lastOpenFiles": [
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/Algebra.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Algebra/Variety.md",
+    "Algebra/Ideal (Ring).md",
     "Algebra/Algebra Homomorphism.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Algebra/Radical (Ring).md",
@@ -285,10 +271,8 @@
     "Algebra/Coprime Ideal.md",
     "Information Theory/Differential Entropy.md",
     "Algebra/Field.md",
-    "Algebra/Variety.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Integral Domain.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Algebra/Nilradical.md",
     "Algebra/Ring of Polynomial Functions.md",
     "Information Theory/Typical Sequence.md",

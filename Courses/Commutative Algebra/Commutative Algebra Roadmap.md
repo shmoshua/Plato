@@ -98,10 +98,17 @@
 ![[Algebra#^5fad9a]]
 ![[Algebra#^ab903c|q]]
 ![[Algebra#^17e5f1|q]]
+![[Algebra#^c8cde0|q]]
+![[Algebra#^a2e006|q]]
 
 ---
 ![[Algebra#^a1d159]]
-![[Algebra#^5fad9a|q]]
+
+---
+![[Algebra#^7a4fe7]]
+![[Algebra#^9f5eed|p]]
+
+---
 
 ![[Algebra#^5dc1c3]]
 ![[Algebra#^8c7b8e|p]]
@@ -110,11 +117,11 @@
 #### 1.7 Prime and Maximal Ideals
 
 ![[Prime Ideal#^c90dca]]
-![[Prime Ideal#^347456|q]]
+![[Prime Ideal#^347456]]
 
 ---
 ![[Maximal Ideal#^dce3dc]]
-![[Maximal Ideal#^1891d6|q]]
+![[Maximal Ideal#^1891d6]]
 
 ---
 ![[Maximal Ideal#^05e5ce]]
@@ -133,6 +140,7 @@
 ![[Affine Space#^95322a]]
 ![[Affine Space#^ff2604|q]]
 ![[Affine Space#^b8445a|q]]
+
 ---
 #### 2.2 Varieties
 ![[Variety#^1a7b97]]
@@ -143,6 +151,7 @@
 ![[Variety#^d9dae1|q]]
 ![[Variety#^35d70d]]
 ![[Variety#^c6655d|p]]
+
 ---
 ![[Variety#^cde87b]]
 ![[Variety#^cc24f3|p]]
