@@ -84,14 +84,22 @@
 ![[Field#^40c6b7|p]]
 
 ---
+![[Ring Homomorphism#^1abfa5]]
+![[Ring Homomorphism#^e34374|p]]
+
+---
 ![[Ring Homomorphism#^5f80ff]]
 ![[Ring Homomorphism#^747f92|p]]
 
 ---
 #### 1.6 Algebras
+
 ![[Algebra#^c5ec81]]
+![[Algebra#^5fad9a]]
 ![[Algebra#^ab903c|q]]
 ![[Algebra#^17e5f1|q]]
+
+---
 ![[Algebra#^a1d159]]
 ![[Algebra#^5fad9a|q]]
 

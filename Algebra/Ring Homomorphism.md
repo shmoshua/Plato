@@ -104,9 +104,17 @@ $$\begin{array}{cccccc}\varphi:&S&\xhookrightarrow{}&S+\mathfrak{a}&\xrightarrow
 > 3. for all $I,J\unlhd R$, $(IJ)^e = I^eJ^e$.
 > 4. for all $I,J\unlhd S$, $(I\cap J)^c=I^c\cap J^c$.
 
-> [!proof]+
+^1abfa5
+
+> [!proof]-
 > We have that:
-> 1. For $x\in I$, we want to show that $\varphi(x)\in I^e$.  
+> 1. For $x\in I$, we have by definition $\varphi(x)\in I^e$. and $x\in (I^e)^c$.
+> 2. For $x\in (I^c)^e$, we have that:$$x=a_{1}\varphi(x_{1})+\dots+a_{n}\varphi(x_{n})$$where $x_{1},\dots,x_{n}\in I^c$. Hence, there exists $y_{1},\dots,y_{n}\in I$ with $\varphi(x_{i})=y_{i}$. Hence, $$x=a_{1}y_{1}+\dots +a_{n}y_{n}\in I$$ 
+> 3. For $x\in (IJ)^e$, we have that: $$x=a_{1}\varphi(x_{1})\varphi(y_{1})+\dots+a_{n}\varphi(x_{n})\varphi(y_{n})$$where $x_{i}\in I$ and $y_{i}\in J$. Hence,  $\varphi(x_{i})\in I^e$ and $\varphi(y_{i})\in J^e$ with $x\in I^eJ^e$. Conversely, is analogous.
+> 4. $x\in (I\cap J)^c$ if and only if $\varphi(x)\in I\cap J$. This is equivalent to $x\in I^c$ and $x\in J^c$. hence, $x\in I^c\cap J^c$. 
+>     
+
+^e34374
 
 ---
 > [!lemma] Lemma 5 (Contraction and Extension gives a bijection for Quotient)

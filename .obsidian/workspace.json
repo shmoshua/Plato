@@ -22,77 +22,21 @@
             }
           },
           {
-            "id": "f56e0f5489732331",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Code.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Code"
-            }
-          },
-          {
-            "id": "052515476f0803c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Mutual Information.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Mutual Information"
-            }
-          },
-          {
-            "id": "6a77a0e306989677",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Ideal (Ring).md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Ideal (Ring)"
-            }
-          },
-          {
-            "id": "6b963b813a5c9911",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Radical (Ring).md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Radical (Ring)"
-            }
-          },
-          {
             "id": "87672ea63855148c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring Homomorphism.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ring Homomorphism"
+              "title": "Algebra"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -104,12 +48,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Commutative Algebra/Morphism (Variety).md",
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Morphism (Variety)"
+              "title": "Commutative Algebra Roadmap"
             }
           },
           {
@@ -127,17 +71,17 @@
             }
           },
           {
-            "id": "afd487fce8891c48",
+            "id": "7c4c36f6c45c587f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Commutative Algebra Roadmap"
+              "title": "Algebra"
             }
           },
           {
@@ -183,7 +127,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -327,25 +271,27 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "cdbe308f8316c61b",
+  "active": "7c4c36f6c45c587f",
   "lastOpenFiles": [
-    "Algebra/Coprime Ideal.md",
-    "Information Theory/Mutual Information.md",
-    "Information Theory/Differential Entropy.md",
-    "Algebra/Radical (Ring).md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Ring Homomorphism.md",
-    "Algebra/Field.md",
     "Algebra/Ideal (Ring).md",
+    "Algebra/Algebra.md",
+    "Algebra/Algebra Homomorphism.md",
+    "Commutative Algebra/Morphism (Variety).md",
+    "Algebra/Radical (Ring).md",
+    "Algebra/Ring Homomorphism.md",
+    "Information Theory/Code.md",
+    "Information Theory/Mutual Information.md",
+    "Algebra/Coprime Ideal.md",
+    "Information Theory/Differential Entropy.md",
+    "Algebra/Field.md",
     "Algebra/Variety.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Integral Domain.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Algebra/Nilradical.md",
     "Algebra/Ring of Polynomial Functions.md",
-    "Commutative Algebra/Morphism (Variety).md",
     "Information Theory/Typical Sequence.md",
-    "Information Theory/Code.md",
     "Algebra/Polynomial Ring.md",
     "Information Theory/Distortion.md",
     "Information Theory/Entropy.md",
@@ -353,8 +299,6 @@
     "Information Theory/Relative Entropy.md",
     "Information Theory/Channel.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Machine Learning/Gaussian Process.md",
-    "Markov Processes/Markov Chain.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
