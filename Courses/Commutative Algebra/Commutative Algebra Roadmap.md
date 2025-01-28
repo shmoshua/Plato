@@ -116,6 +116,7 @@
 ---
 #### 1.7 Prime and Maximal Ideals
 
+##### 1.7.1 Prime Ideals
 ![[Prime Ideal#^c90dca]]
 ![[Prime Ideal#^347456]]
 
@@ -124,6 +125,11 @@
 ![[Prime Ideal#^d667e0|p]]
 
 ---
+![[Prime Ideal#^805b27]]
+![[Prime Ideal#^a47838|p]]
+
+---
+##### 1.7.2 Maximal Ideals
 ![[Maximal Ideal#^dce3dc]]
 ![[Maximal Ideal#^1891d6]]
 
@@ -132,21 +138,23 @@
 ![[Maximal Ideal#^fdff02|p]]
 
 ---
-##### 1.7.1 Ring Homomorphisms and Ideals
+![[Maximal Ideal#^05e5ce]]
+![[Maximal Ideal#^8f1aa6|p]]
+
+
+---
+##### 1.7.3 Ring Homomorphisms and Ideals
+
 > [!lemma] Proposition 1
-> Let $\varphi:R\to S$ be a ring homomorphism and $I\unlhd S$. Then, 
+> Let $\varphi:R\to S$ be a ring homomorphism and $I\unlhd S$. Then,
 > 1. if $I$ is radical, $\varphi ^{-1}(I)$ is radical.
 > 3. if $I$ is prime, $\varphi ^{-1}(I)$ is prime.
+  
 
 > [!proof]-
 > We have:
 > 1. Let $x\in \sqrt{ \varphi ^{-1}(I) }$, i.e. $x^n\in \varphi ^{-1}(I)$. Then, $\varphi(x)^n=\varphi(x^n)\in I$ and $\varphi(x)\in I$. Hence, $x\in \varphi ^{-1}(I)$.
-> 2. If $\varphi ^{-1}(I)=R$, then $1\in \varphi ^{-1}(I)$ and $1=\varphi(1)\in I$, i.e. $I=S$. Hence, $\varphi ^{-1}(I)\neq R$. Now, let $ab\in \varphi ^{-1}(I)$. Then, $$\varphi(a)\varphi(b)=\varphi(ab)\in I \implies \varphi(a)\in I\lor \varphi(b)\in I$$which proves the claim. 
-
----
-![[Maximal Ideal#^05e5ce]]
-![[Maximal Ideal#^8f1aa6|p]]
-
+> 2. If $\varphi ^{-1}(I)=R$, then $1\in \varphi ^{-1}(I)$ and $1=\varphi(1)\in I$, i.e. $I=S$. Hence, $\varphi ^{-1}(I)\neq R$. Now, let $ab\in \varphi ^{-1}(I)$. Then, $$\varphi(a)\varphi(b)=\varphi(ab)\in I \implies \varphi(a)\in I\lor \varphi(b)\in I$$which proves the claim.
 
 ---
 ![[Radical (Ring)#^5a7a7e]]
@@ -187,29 +195,6 @@
 ![[Variety#^dfb872]]
 ![[Variety#^c712ee|p]]
 ![[Variety#^df9fc7|q]]
-![[Variety#^4f0f2a]]
-![[Variety#^88859e|p]]
-![[Variety#^121639|p]]
-![[Variety#^039994|q]]
-![[Variety#^1e3e77]]
-
----
-![[Variety#^4ec3ba]]
-![[Variety#^89aa91|p]]
-
----
-#### 2.5 Zariski Topology
-![[Variety#^bc5221]]
-![[Variety#^37ac6e|p]]
-
----
-![[Zariski Topology#^7f255b]]
-![[Zariski Topology#^23c06e|q]]
-
-
----
-![[Variety#^2e6fcc]]
-![[Variety#^abc38b|p]]
 ![[Variety#^da8bb5|q]]
 
 ---

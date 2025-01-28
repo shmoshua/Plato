@@ -40,10 +40,19 @@
 > [!lemma] Proposition 3
 > Let $R$ be a commutative ring. 
 > 1. Let $I_{1},\dots,I_{n}\unlhd R$ and $P\unlhd R$ a prime ideal. If $I_{1}\cap\dots \cap I_{n}\subseteq P$, then $I_{k}\subseteq P$ for some $k\in[n]$.
+> 2. Let $I\unlhd R$ and $P_{1},..,P_{n}\unlhd R$ prime ideals. If $I\subseteq P_{1}\cup\dots \cup P_{n}$, then $I\subseteq P_{k}$ for some $k\in [n]$. 
 
-> [!proof]+
+^805b27
+
+> [!proof]-
 > We have that:
-> 1. Assume there exists $a_{k}\in I_{k}$ s.t. $a_{k}\notin P$ for all $k\in [n]$. Then, $\prod_{k}^{}a_{k}\in I_{i}$ for all $i\in[n]$ and $$\prod_{k}^{}a_{k}\in I_{1}\cap\dots \cap I_{n}\subseteq P$$ Hence, by prime ideal, 
+> 1. Assume there exists $a_{k}\in I_{k}$ s.t. $a_{k}\notin P$ for all $k\in [n]$. Then, $\prod_{k}^{}a_{k}\in I_{i}$ for all $i\in[n]$ and $$\prod_{k}^{}a_{k}\in I_{1}\cap\dots \cap I_{n}\subseteq P$$ Hence, by prime ideal, $a_{k}\in P$ for some $k$, which is a contradiction.
+> 2. We prove by induction on $n$. If $n=1$, the statement holds trivially. Let $n\geq 2$. Now, for every $i\in[n]$, 
+> 	1. if $I\subseteq \bigcup_{j\neq i}^{}P_{j}$ for some $j$, then by induction hypothesis, we have the claim. 
+> 	2. otherwise, choose $a_{i}\in I$ with $a_{i}\notin \bigcup_{j\neq i}^{}P_{j}$. We define: $$a:= a_{1}\dots a_{n-1}+ a_{n}$$Then, $a\in I$ but not in any of the $P_{i}$. Indeed, if $a\in P_{i}$ for some $i\leq n-1$, then $a_{n}\in P_{i}$, which is a contradiction. If $a\in P_{n}$ then $a_{1}\dots a_{n-1}\in P_{n}$.  As $P_{n}$ is prime there exists $a_{k}\in P_{n}$ for some $k\leq n-1$, which is a contradiction. 
+
+^a47838
+
 ---
 ##### Examples
 - For $R = \mathbb{Z}$, $m\mathbb{Z}$ is a prime ideal if and only if $m$ is prime or $m=0$. This is equivalent to $m\mathbb{Z}$ being [[Maximal Ideal|maximal]], i.e. $\mathbb{Z} / m\mathbb{Z}$ is a field.
