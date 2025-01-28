@@ -280,7 +280,7 @@
 > 1. if $\rho_{s}H_{b}(p)+R_{\text{data}}<\rho_{C}\cdot (1-H_{p}(\varepsilon))$, then there exists a source channel code with $P^n_{\varepsilon}\to 0$.
 > 2. if $\rho_{s}H_{b}(p)+R_{\text{data}}> \rho_{C}(1-H_{p}(\varepsilon))$, then $\lim_{ n \to \infty }P^n_{\varepsilon}\neq 0$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. We construct the following scheme:
 > 	1. encode input $U^{t\cdot\rho_{s}}$ with $n_{1} H_{b}(p)$ bits and denote the result by $M_{1}$. 
@@ -289,7 +289,8 @@
 > 	4. split $\widehat{M}$ into $\widehat{M}_{1}$ and $\widehat{V}^{t\cdot R_{\text{data}}}$.
 > 	5. decode $\widehat{U}^{t\cdot p_{s}}$ from $\widehat{M}_{1}$. 
 > 	   
-> 	Then, we have that: $$\begin{align}P^n_{\varepsilon}&\leq \mathbb{P}(U^{n_{1}}\neq \widehat{U}^{n_{1}})+\mathbb{P}(V^{n_{2}}\neq\widehat{V}^{n_{2}})\\&\leq \mathbb{P}(M_{1}\neq \widehat{M}_{1})+\mathbb{P}(U^{n_{1}}\neq \widehat{U}^{n_{1}}|M_{1}=\widehat{M}_{1})+\mathbb{P}(V^{n_{2}}\neq \widehat{V}^{n_{2}})\\&=\mathbb{P}(M\neq \widehat{M})+\mathbb{P}(U^{n_{1}}\neq \widehat{U}^{n_{1}}|M_{1}=\widehat{M}_{1})\end{align}$$
+> 	Then, we have that: $$\begin{align}P^n_{\varepsilon}&\leq \mathbb{P}(U^{n_{1}}\neq \widehat{U}^{n_{1}})+\mathbb{P}(V^{n_{2}}\neq\widehat{V}^{n_{2}})\\&\leq \mathbb{P}(M_{1}\neq \widehat{M}_{1})+\mathbb{P}(U^{n_{1}}\neq \widehat{U}^{n_{1}}|M_{1}=\widehat{M}_{1})+\mathbb{P}(V^{n_{2}}\neq \widehat{V}^{n_{2}})\\&=\mathbb{P}(M\neq \widehat{M})+\mathbb{P}(U^{n_{1}}\neq \widehat{U}^{n_{1}}|M_{1}=\widehat{M}_{1})\end{align}$$Notice that: 
+> 2. For converse, if $\mathbb{P}(U^{n_{1}}\neq \widehat{U}^{n_{1}}\lor V^{n_{2}}\neq \widehat{V}^{n_{2}})<\delta$, then the individual events are also bounded by $\delta$ and by Fano, $$H(U^{n_{1}}|\widehat{U}^{n_{1}})\leq 1+\delta n_{1},\quad H(V^{n_{2}}|\widehat{V}^{n_{2}})\leq 1+\delta n_{2}$$Hence, by data processing: $$\begin{align}I(X^{n_{3}};Y^{n_{3}})&\geq I(U^{n_{1}},V^{n_{2}};\widehat{U}^{n_{1}},\widehat{V}^{n_{2}})\\&=H(U^{n_{1}},V^{n_{2}})-H(U^{n_{1}},V^{n_{2}}|\widehat{U}^{n_{1}},\widehat{V}^{n_{2}})\\&=H(U^{n_{1}})+H(V^{n_{2}})-H(U^{n_{1}}|\widehat{U}^{n_{1}})-H(V^{n_{2}}|\widehat{U}^{n_{1}},\widehat{V}^{n_{2}})\\&\geq H(U^{n_{1}})+H(V^{n_{2}})-H(U^{n_{1}}|\widehat{U}^{n_{1}})-H(V^{n_{2}}|\widehat{V}^{n_{2}})\\&\geq n_{1}H_{b}(p)+n_{2}-1-\delta n_{1}-1-\delta n_{2}\\&=t(\rho_{s}H_{b}(p)+R_{\text{data}}-\delta\rho_{s}-\delta R_{\text{data}})-2\end{align}$$where $I(X^{n_{3}};Y^{n_{3}})\leq n_{3}(1-H_{b}(\varepsilon))$. Therefore, $$\rho_{S}H_{b}(p)+R_{\text{data}}\leq \rho_{c}(1+H_{b}(\varepsilon))$$
 ---
 ### 5. Rate Distortion Theory
 
