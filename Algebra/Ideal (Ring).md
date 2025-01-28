@@ -8,7 +8,7 @@
 
 ^bbcb4f
 
-- **Related Definition**: For ideals $I,J\unlhd R$: 
+- **Related Definition**: For ideals $I,J\unlhd R$:  ^451b55
 	1. the ***sum*** $I+J:=\{ a+b:a\in I,b\in J \}\unlhd R$.
 	2. the ***intersection***: $I\cap J\unlhd R$.
 	3. the ***product***: $I\cdot J:=(\{ ab:a\in I,b\in J \})$

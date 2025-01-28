@@ -32,9 +32,16 @@
 
 ---
 ##### 1.2.1 Ideal Constructions
-![[Ideal (Ring)#^8b2b1e|q]]
+![[Ideal (Ring)#^451b55]]
 
 ---
+![[Principal Ideal Domain#^d366ac]]
+![[Principal Ideal Domain#^eec918|p]]
+
+---
+
+##### 1.2.2 Coprime Ideals
+
 ![[Coprime Ideal#^d314f8]]
 
 ---
@@ -47,6 +54,7 @@
 #### 1.3 Radical Ideals
 ![[Radical (Ring)#^134f35]]
 ![[Radical (Ring)#^3cd183|q]]
+
 ---
 ![[Radical (Ring)#^ef8725]]
 ![[Radical (Ring)#^ac2252|p]]

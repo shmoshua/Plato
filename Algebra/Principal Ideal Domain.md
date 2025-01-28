@@ -103,7 +103,24 @@
 ---
 > [!lemma] Proposition 6 (Ideal Operations in PID)
 > Let $R$ be a PID. Let $I=(a),J=(b)$ with $a=p_{1}^{a_{1}}\dots p_{n}^{a_{n}}$ and $b=p_{1}^{b_{1}}\dots p_{n}^{b_{n}}$ with distinct prime $p_{1},\dots,p_{n}$. Then, 
-> 1. $I+J=$
+> 1. $I+J=(p_{1}^{c_{1}}\dots p_{n}^{c_{n}})$ where $c_{i}:=\min (a_{i},b_{i})$.
+> 2. $I\cap J=(p_{1}^{c_{1}}\dots p_{n}^{c_{n}})$ where $c_{i}:=\max (a_{i},b_{i})$.
+> 3. $I\cdot J=(p_{1}^{c_{1}}\dots p_{n}^{c_{n}})$ where $c_{i}:=a_{i}+b_{i}$.
+> 4. $I:J=(p_{1}^{c_{1}}\dots p_{n}^{c_{n}})$ where $c_{i}:=\max (a_{i}-b_{i},0)$
+> 5. $\sqrt{ I }=(p_{1}^{c_{1}}\dots p_{n}^{c_{n}})$ where $c_{i}:=\min (a_{i},1)$
+
+^d366ac
+
+> [!proof]-
+> We have that:
+> 1. Let $c:=p_{1}^{c_{1}}\dots p_{n}^{c_{n}}$. Then, $a\in (c)$ and $b\in (c)$. Hence, $I+J\subseteq (c)$. Conversely, $(c)=(a,b)$. 
+> 2. Obvious.
+> 3. Obvious.
+> 4. $x\in I:J$. Then, $(xb)\subseteq (a)$. Therefore, $a|xb$ and $dp_{1}^{a_{1}}\dots p_{n}^{a_{n}}=xp_{1}^{b_{1}}\dots p_{n}^{b_{n}}$. Hence, $x\in (c)$. Conversely, if $x\in (c)$, then, $a|xb$.
+> 5. $x\in \sqrt{ I }$. Then, $x^m\in (a)$, i.e. $x^m=rp_{1}^{a_{1}}\dots p_{n}^{a_{n}}$ for some $r\in R$. Hence, $x\in (c)$.
+
+^eec918
+
 ---
 ##### Examples
 > [!h] Example 1

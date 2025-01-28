@@ -8,11 +8,12 @@
 - **Related definition**: An ideal is a ***radical ideal*** if $\sqrt{ I }=I$. ^3cd183
 ---
 ##### Properties
-> [!lemma] Proposition 1:
-> For any ideal $I\unlhd R$,
+> [!lemma] Proposition 1 (Properties of Radicals)
+> For any ideals $I,J\unlhd R$,
 > 1. $\sqrt{ I }\unlhd R$. 
 > 2. $I\leq \sqrt{ I }$
 > 3. $\sqrt{ I }$ is a radical ideal.
+> 4. $\sqrt{ I\cdot J }=\sqrt{ I\cap J }=\sqrt{ I }\cap \sqrt{ J }$
 
 ^ef8725
 
@@ -21,6 +22,9 @@
 > 1. Let $a,b\in \sqrt{ I }$ where $a^n,b^m\in I$. Then, $$(a+b)^{n+m}=\sum_{k=0}^{n+m}{n+m \choose k}a^kb^{n+m-k}$$As for each summand either $k\geq n$ or $n+m-k>m$, we have that $(a+b)^{n+m}\in I$. Further, for $r\in R$ and $a^n\in I$, $(ra)^n=r^na^n\in I$. Therefore, $\sqrt{ I }$ is an ideal.
 > 2. trivial.
 > 3. Let $a\in \sqrt{  (\sqrt{ I })}$. Then, $a^n\in \sqrt{ I }$ and $a^{mn}\in I$. Therefore, it holds that $a\in \sqrt{ I }$.
+> 4. Let $a\in R$ with $a^n\in I\cdot J$. Then, $a^n\in I\cap J$ and $a\in \sqrt{ I\cap J }$. Conversely, let $a^n\in I\cap J$. Then, $a^n\in I$ and $a^n\in J$. Hence, $a\in \sqrt{ I }\cap \sqrt{ J }$. 
+>    
+>    Finally, if $a\in \sqrt{ I }\cap \sqrt{ J }$, then $a^m\in I$ and $a^{n}\in J$ for some $m,n$. Therefore, $a^{m+n}\in I\cdot J$ and $a\in \sqrt{ I\cdot J }$. 
 
 ^ac2252
 
