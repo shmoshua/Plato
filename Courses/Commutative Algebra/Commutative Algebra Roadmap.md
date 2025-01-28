@@ -7,7 +7,7 @@
 ---
 
 ![[Unit#^4f9ab4]]
-![[Unit#^66fef9|q]]
+![[Unit#^66fef9]]
 
 ---
 ![[Ring Homomorphism#^4740fd]]
@@ -23,6 +23,7 @@
 ---
 ![[Ideal (Ring)#^6da822]]
 ![[Ideal (Ring)#^25795b|p]]
+
 ---
 ![[Ring Homomorphism#^d4ff10]]
 ![[Ring Homomorphism#^76eff0|p]]
@@ -53,7 +54,7 @@
 
 #### 1.3 Radical Ideals
 ![[Radical (Ring)#^134f35]]
-![[Radical (Ring)#^3cd183|q]]
+![[Radical (Ring)#^3cd183]]
 
 ---
 ![[Radical (Ring)#^ef8725]]
@@ -65,7 +66,7 @@
 ---
 #### 1.4 Nilradical, Nilpotent elements, and Reduced Rings
 ![[Nilradical#^2063c5]]
-![[Nilradical#^107274|q]]
+![[Nilradical#^107274|]]
 ![[Nilradical#^417ef2|q]]
 
 ---
@@ -75,10 +76,10 @@
 
 ---
 #### 1.5 Contraction and Extension
-![[Ring Homomorphism#^dcea70|q]]
+![[Ring Homomorphism#^dcea70]]
 ![[Ring Homomorphism#^c7184a|q]]
 
-
+---
 ![[Field#^509d9f]]
 ![[Field#^40c6b7|p]]
 

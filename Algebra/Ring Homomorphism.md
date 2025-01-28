@@ -97,6 +97,18 @@ $$\begin{array}{cccccc}\varphi:&S&\xhookrightarrow{}&S+\mathfrak{a}&\xrightarrow
 > 
 > Therefore, by the isomorphism theorem: $$(R / \mathfrak{b}) / (\mathfrak{a / b})\cong R / \mathfrak{a}$$
 ---
+> [!lemma] Proposition 4 (Properties of Contraction/Extension)
+> Let $\varphi:R\to S$ be a ring homomorphism. Then, 
+> 1. for all $I\unlhd R$, $I \subseteq (I^e)^c$
+> 2. for all $I\unlhd S$, $(I^c)^e\subseteq I$.
+> 3. for all $I,J\unlhd R$, $(IJ)^e = I^eJ^e$.
+> 4. for all $I,J\unlhd S$, $(I\cap J)^c=I^c\cap J^c$.
+
+> [!proof]+
+> We have that:
+> 1. For $x\in I$, we want to show that $\varphi(x)\in I^e$.  
+
+---
 > [!lemma] Lemma 5 (Contraction and Extension gives a bijection for Quotient)
 > Let $I\unlhd R$. 
 > 1. the ideals in $R / I$ and the ideals in $R$ containing $I$ form a bijection given by $J\to J^c$ and $J\to J^e$ given by the canonical projection $\varphi:R \to R / I$.
