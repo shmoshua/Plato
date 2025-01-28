@@ -120,8 +120,28 @@
 ![[Prime Ideal#^347456]]
 
 ---
+![[Prime Ideal#^22f699]]
+![[Prime Ideal#^d667e0|p]]
+
+---
 ![[Maximal Ideal#^dce3dc]]
 ![[Maximal Ideal#^1891d6]]
+
+---
+![[Maximal Ideal#^7d34ba]]
+![[Maximal Ideal#^fdff02|p]]
+
+---
+##### 1.7.1 Ring Homomorphisms and Ideals
+> [!lemma] Proposition 1
+> Let $\varphi:R\to S$ be a ring homomorphism and $I\unlhd S$. Then, 
+> 1. if $I$ is radical, $\varphi ^{-1}(I)$ is radical.
+> 3. if $I$ is prime, $\varphi ^{-1}(I)$ is prime.
+
+> [!proof]-
+> We have:
+> 1. Let $x\in \sqrt{ \varphi ^{-1}(I) }$, i.e. $x^n\in \varphi ^{-1}(I)$. Then, $\varphi(x)^n=\varphi(x^n)\in I$ and $\varphi(x)\in I$. Hence, $x\in \varphi ^{-1}(I)$.
+> 2. If $\varphi ^{-1}(I)=R$, then $1\in \varphi ^{-1}(I)$ and $1=\varphi(1)\in I$, i.e. $I=S$. Hence, $\varphi ^{-1}(I)\neq R$. Now, let $ab\in \varphi ^{-1}(I)$. Then, $$\varphi(a)\varphi(b)=\varphi(ab)\in I \implies \varphi(a)\in I\lor \varphi(b)\in I$$which proves the claim. 
 
 ---
 ![[Maximal Ideal#^05e5ce]]

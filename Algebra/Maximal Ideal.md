@@ -7,7 +7,7 @@
 ^dce3dc
 
 - **Remark**: every maximal ideal is a [[prime ideal]] as a field is an integral domain.
-- **Related definition**: The set of all maximal ideals is called the ***spectrum*** of $R$, denoted as $\text{mSpec } R$. ^1891d6
+- **Related definition**: The set of all maximal ideals is called the ***maximal spectrum*** of $R$, denoted as $\text{mSpec } R$. ^1891d6
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Equivalent Definitions of Maximal Ideals)
@@ -15,10 +15,14 @@
 > 1. $I\neq R$ and there exists no ideal $J$ s.t. $I\subsetneq J\subsetneq R$ or
 > 2. $R / I$ is a field.
 
+^7d34ba
+
 > [!proof]-
 > We have:
 > 1. (1=>2): Let $I\neq R$ s.t. there exists no ideal $J$ with $I\subsetneq J\subsetneq R$. Let $\pi:R \to R / I$ be the canonical projection. Then, $\pi$ is a surjective ring homomorphism and for any ideal $J\unlhd R / I$, $\pi ^{-1}(J)$ is an ideal of $R$ that contains $I$. Therefore, either $\pi ^{-1}(J)=I$, in which case $J=I$ and $\pi ^{-1}(J)=R$ which means $J=R / I$ as $\pi$ is surjective. Therefore, by [[Field|Proposition 1]], $R / I$ is a field.
 > 2. (2=>1): Let $R / I$ be a field. Then, trivially $I\neq R$ and for any ideal $J\unlhd R$ with $I\subseteq J$, $\pi(J)\unlhd R / I$. Therefore, $\pi(J)=I$ or $\pi(J)=R/I$. This means that $J=I$ or $R=I$, which proves the statement. 
+
+^fdff02
 
 - **Corollary**: $R$ is a field if and only if $(0)\subseteq R$ is maximal.
 ---

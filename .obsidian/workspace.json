@@ -27,15 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Algebra/Prime Ideal.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "Prime Ideal"
+            }
+          },
+          {
+            "id": "94b25a7b87a91236",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Variety.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Variety"
+            }
+          },
+          {
+            "id": "6ccfa1b59efd2e44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Prime Ideal.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Prime Ideal"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -61,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "Variety"
             }
           },
           {
@@ -89,12 +118,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Radical (Ring).md",
+                "file": "Algebra/Prime Ideal.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Radical (Ring)"
+              "title": "Prime Ideal"
             }
           },
           {
@@ -111,7 +140,8 @@
               "title": "Ring Homomorphism"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -255,16 +285,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "87ad6422ee7710b7",
+  "active": "c5a1f0f6c56bef19",
   "lastOpenFiles": [
-    "Algebra/Algebra.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
-    "Algebra/Variety.md",
     "Algebra/Ideal (Ring).md",
+    "Algebra/Prime Ideal.md",
+    "Algebra/Radical (Ring).md",
+    "Algebra/Variety.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Prime Ring.md",
+    "Algebra/Algebra.md",
+    "Algebra/Maximal Ideal.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
     "Algebra/Algebra Homomorphism.md",
     "Commutative Algebra/Morphism (Variety).md",
-    "Algebra/Radical (Ring).md",
     "Algebra/Ring Homomorphism.md",
     "Information Theory/Code.md",
     "Information Theory/Mutual Information.md",
@@ -280,9 +313,6 @@
     "Information Theory/Distortion.md",
     "Information Theory/Entropy.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
-    "Information Theory/Relative Entropy.md",
-    "Information Theory/Channel.md",
-    "Probability Theory/Gaussian Distribution.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
