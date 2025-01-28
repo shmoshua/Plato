@@ -101,6 +101,10 @@
 
 - **Remark**: $\mathbb{Z}[X]$ is a unique factorization domain, but not a principal ideal domain.
 ---
+> [!lemma] Proposition 6 (Ideal Operations in PID)
+> Let $R$ be a PID. Let $I=(a),J=(b)$ with $a=p_{1}^{a_{1}}\dots p_{n}^{a_{n}}$ and $b=p_{1}^{b_{1}}\dots p_{n}^{b_{n}}$ with distinct prime $p_{1},\dots,p_{n}$. Then, 
+> 1. $I+J=$
+---
 ##### Examples
 > [!h] Example 1
 > $\mathbb{Z}$ is a principal ideal domain, where every ideal has the form $\mathfrak{a}=m\mathbb{Z}$. 

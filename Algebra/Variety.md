@@ -15,7 +15,6 @@
 
 - **Remark**: If $S:=\{ f_{1},\dots,f_{k} \}$ is finite, let $V(f_{1},\dots,f_{k}):=V(S)$.
 - **Remark**: $f,g\in K[x_{1},\dots,x_{n}]$ are equal if and only if they equal on $X$. So $[f]\in A(X)$ is equivalent to a function $X\to K,x\mapsto f(x)$.  ^ca999a
-- **Related definition**: 
 - **Related definition**: A variety $X$ is ***irreducible*** if there is no proper decomposition into subvarieties $X=X_{1}\cup X_{2}$ s.t. $X_{1},X_{2}\subsetneq X$. Otherwise, $X$ is ***reducible***.
 
 ---
@@ -43,6 +42,7 @@
 > 2. if $S\subseteq S'$, $V_{X}(S')\subseteq V_{X}(S)$. 
 > 3. $Y\subseteq V(I(Y))$ and $S\subseteq I(V(S))$.
 > 4. if $Y\subseteq X$ is a subvariety, $Y=V(I(Y))$.
+> 5. if $Y\subseteq X$ is a subvariety, $A(X) / I(Y)\cong A(Y)$ 
 
 ^dfb872
 
@@ -51,7 +51,8 @@
 > 1. if $f\in I_{X}(Y')$, then $f(x)=0$ for all $x\in Y'$ and thereby $Y$.
 > 2. if $x\in V_{X}(S')$, then $f(x)=0$ for all $f\in S'$ and thereby $S$.  
 > 3. for $x\in Y$ and $f\in I(Y)$, $f(x)= 0$. Therefore, $x\in V(I(Y))$. Similarly, for $f\in S$ and $x\in V(S)$, $f(x)=0$. Therefore, $S\subseteq I(V(S))$. 
-> 4. One direction is clear from 3. If $Y$ is a subvariety, $Y=V(S)$ and as $S\subseteq I(V(S))$, we have by 2, $V(S)\supseteq V(I(V(S)))$.
+> 4. One direction is clear from 3. If $Y$ is a subvariety, $Y=V(S)$ for some $S\subseteq A(X)$ and as $S\subseteq I(V(S))$, we have by 2, $Y=V(S)\supseteq V(I(V(S)))$.
+> 5. Consider the ring homomorphism: $$\psi:A(X)\to A(Y),\quad [f]_{X}\mapsto [f]_{Y}$$which is well-defined as if $f|_{X}=g|_{X}$, then $f|_{Y}=g|_{Y}$. Then, $$\text{ker }\psi=\{ [f]_{X}\in A(X):f|_{Y}=0 \}=I(Y)$$
 
 ^c712ee
 

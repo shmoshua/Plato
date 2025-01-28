@@ -18,7 +18,7 @@
 ^ec2c2e
 
 > [!proof]-
-> Obvious as $(0)_{R / I} = I$. 
+> We have that $I$ is radical if and only if for all $a\in R$ and $n\geq 1$, $a^n\in I$ implies $a\in I$. By passing to the quotient $R/I$, this is equivalent to for all $a\in R / I$ and $n\geq 1$, $a^n\in 0$ implies that $a= 0$. Hence, $I$ is radical if and only if $(0)_{R / I}$ is radical and $R / I$ is reduced.
 
 ^f5705d
 
