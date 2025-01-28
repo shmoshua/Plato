@@ -98,20 +98,6 @@
             }
           },
           {
-            "id": "a6aaca5b94aebdb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Theory/Entropy.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Entropy"
-            }
-          },
-          {
             "id": "a327efbbcfde20ae",
             "type": "leaf",
             "state": {
@@ -285,14 +271,14 @@
   },
   "active": "9b9313d05c25084b",
   "lastOpenFiles": [
+    "Information Theory/Differential Entropy.md",
     "Information Theory/Entropy.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Code.md",
     "Information Theory/Relative Entropy.md",
     "Information Theory/Distortion.md",
     "Information Theory/Typical Sequence.md",
-    "Information Theory/Differential Entropy.md",
     "Information Theory/Channel.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
