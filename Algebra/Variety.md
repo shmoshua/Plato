@@ -1,32 +1,44 @@
 #Algebra #Definition 
 
 > [!definition]
-> Let $K$ be a [[field]] and $S\subseteq K[x_{1},\dots,x_{n}]$. Then, $$V(S):=\{  x\in \mathbb{A}_{K}^n:f(x)=0, \forall f\in S \}\subseteq \mathbb{A}_{K}^n$$is called the ***zero locus*** of $S$, where $\mathbb{A}_{K}^n$ is the [[affine space]] over $K$. Subsets of $\mathbb{A}_{K}^n$ like these are called ***varities***.
+> Let $K$ be a [[field]] and $\mathbb{A}_{K}^n$ is the [[affine space]] over $K$. 
+> 1. For $S\subseteq K[x_{1},\dots,x_{n}]$, the ***zero locus*** of $S$ is given as:$$V(S):=\{  x\in \mathbb{A}_{K}^n:f(x)=0, \forall f\in S \}\subseteq \mathbb{A}_{K}^n$$Subsets like these are called ***varieties***.
+> 2. For any $X\subseteq \mathbb{A}_{K}^n$, the ***ideal of $X$*** is defined as:$$I(X):=\{  f\in K[x_{1},\dots,x_{n}]:f(x)=0,\forall x\in X \}\subseteq K[x_{1},\dots,x_{n}]$$ 
+> 3. For a variety $X\subseteq \mathbb{A}_{K}^n$, the ***ring of polynomial functions/coordinate ring*** of $X$ is defined as: $$A(X):=K[x_{1},\dots,x_{n}] / I(X)$$where $[f]=[g]\in A(X)$ if and only if $f|_{X}=g|_{X}$. 
+> 4. For a variety $X\subseteq \mathbb{A}_{K}^n$ and $S\subseteq A(X)$, 
+> 	1. a ***subvariety*** of $X$ is given by: $V_{X}(S):=\{  x\in X: f(x)=0, \forall f\in S \}\subseteq X$
+> 	2. with ideal $I_{X}(Y)=\{ f\in A(X): f(y)=0, \forall y\in Y \}\unlhd A(X)$.
+> 	
+   Subvarieties of $X$ are exactly the varieties in $\mathbb{A}_{K}^n$ contained in $X$.
 
 ^1a7b97
 
-- **Related definition**: For any $X\subseteq \mathbb{A}_{K}^n$, the ***ideal*** of $X$ is defined as:$$I(X):=\{  f\in K[x_{1},\dots,x_{n}]:f(x)=0,\forall x\in X \}$$ ^d9dae1
-
-- **Related definition**: For a variety $X\subseteq \mathbb{A}_{K}^n$ and $S\subseteq A(X)$ the [[ring of polynomial functions]], a ***subvariety*** of $X$ is given by: $$V_{X}(S):=\{  x\in X: f(x)=0, \forall f\in S \}\subseteq X$$with ideal $I_{X}(Y)=\{ f\in A(X): f(y)=0, \forall y\in Y \}$. Subvarieties of $X$ are exactly the varieties in $\mathbb{A}_{K}^n$ contained in $X$.
+- **Remark**: If $S:=\{ f_{1},\dots,f_{k} \}$ is finite, let $V(f_{1},\dots,f_{k}):=V(S)$.
+- **Remark**: $f,g\in K[x_{1},\dots,x_{n}]$ are equal if and only if they equal on $X$. So $[f]\in A(X)$ is equivalent to a function $X\to K,x\mapsto f(x)$.  ^ca999a
+- **Related definition**: 
 - **Related definition**: A variety $X$ is ***irreducible*** if there is no proper decomposition into subvarieties $X=X_{1}\cup X_{2}$ s.t. $X_{1},X_{2}\subsetneq X$. Otherwise, $X$ is ***reducible***.
 
 ---
 ##### Properties
-> [!lemma] Proposition 1
+> [!lemma] Proposition 1 (Properties of Ideal)
 > For $X\subseteq \mathbb{A}_{K}^n$, 
-> 1. $I(X)\unlhd K[x_{1},\dots,x_{n}]$.
+> 1. $I(X)\unlhd K[x_{1},\dots,x_{n}]$, i.e. $I(X)$ is an [[Ideal (Ring)|ideal]].
+> 2. if $X=\{ a \}$, then $I(a)=(x_{1}-a_{1},\dots,x_{n}-a_{n})$
 
 ^35d70d
 
 > [!proof]-
 > We have:
 > 1. for any $f\in I(X)$ and $g\in K[x_{1},\dots,x_{n}]$, $fg(x)=0$ for $x\in X$. Further, $I(X)$ is an additive subgroup.
+> 2. Let $f\in I(a)$. Then, $f(a)=0$. Hence, $f$ is zero modulo $(x_{1}-a_{1},\dots,x_{n}-a_{n})$ and $f\in (x_{1}-a_{1},\dots,x_{n}-a_{n})$.
+> 	
+> 	Conversely, if $f\in (x_{1}-a_{1},\dots,x_{n}-a_{n})$, then $f=\sum_{i=1}^{n}(x_{i}-a_{i})f_{i}$ for some $f_{1},\dots,f_{n}\in K[x_{1},\dots,x_{n}]$. Hence, $f(a)=0$. 
 
 ^c6655d
 
 ---
 > [!lemma] Lemma 2
-> For a variety $X\subseteq \mathbb{A}_{K}^n$ with its [[Ring of Polynomial Functions|coordinate ring]] $A(X)$, $Y,Y'\subseteq X$ and $S,S'\subseteq A(X)$:
+> For a variety $X\subseteq \mathbb{A}_{K}^n$ with its coordinate ring $A(X)$, $Y,Y'\subseteq X$ and $S,S'\subseteq A(X)$:
 > 1. if $Y\subseteq Y'$, $I_{X}(Y')\subseteq I_{X}(Y)$. 
 > 2. if $S\subseteq S'$, $V_{X}(S')\subseteq V_{X}(S)$. 
 > 3. $Y\subseteq V(I(Y))$ and $S\subseteq I(V(S))$.

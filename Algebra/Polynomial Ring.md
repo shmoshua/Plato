@@ -1,7 +1,8 @@
 #Definition #Algebra
 
 > [!definition]
-> For a nontrivial commutative [[Ring|ring]] $R$, the ***polynomial ring*** $R[X]$ s.t. $X\notin R$,  is defined through the commutative ring $$\mathcal{F}_{R}:=\{ f:\mathbb{N}\to R\ |\ \exists n_{f}\in \mathbb{N}.\forall k\geq n_{f}.(f(k)=0_{R}) \}$$s.t. we have: $$R[X]:=\left\{  \sum_{i=0}^{\infty}f(i)X^i:f\in \mathcal{F}_{R}  \right\}$$
+> For a nontrivial commutative [[Ring|ring]] $R$, 
+> 1. the ***polynomial ring*** $R[X]$ s.t. $X\notin R$,  is defined through the commutative ring $$\mathcal{F}_{R}:=\{ f:\mathbb{N}\to R\ |\ \exists n_{f}\in \mathbb{N}.\forall k\geq n_{f}.(f(k)=0_{R}) \}$$s.t. we have: $$R[X]:=\left\{  \sum_{i=0}^{\infty}f(i)X^i:f\in \mathcal{F}_{R}  \right\}$$
 - **Related definition**: For $p\in R[X]$ with $p=a_{0}+\dots+a_{n}x^n$ with $a_{n}\neq 0$, 
 	 1. $\text{deg}(p):=n$ is the ***degree*** of $p$ with $\deg(0)=-\infty$,
 	2. $a_{n}$ is the ***leading coefficient*** of $p$ with ***monic*** if $a_{n}=1$.

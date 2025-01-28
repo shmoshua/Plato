@@ -69,15 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Distortion.md",
+                "file": "Algebra/Variety.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Distortion"
+              "title": "Variety"
+            }
+          },
+          {
+            "id": "6b963b813a5c9911",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Ring of Polynomial Functions.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Ring of Polynomial Functions"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -89,26 +104,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Information Theory Roadmap"
+              "title": "Variety"
             }
           },
           {
-            "id": "a327efbbcfde20ae",
+            "id": "94b19b665f8ecfb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Typical Sequence.md",
+                "file": "Algebra/Ring of Polynomial Functions.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Typical Sequence"
+              "title": "Ring of Polynomial Functions"
             }
           },
           {
@@ -117,12 +132,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Code.md",
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Code"
+              "title": "Commutative Algebra Roadmap"
+            }
+          },
+          {
+            "id": "512bf55ce8e6696b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Ideal (Ring).md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Ideal (Ring)"
             }
           }
         ]
@@ -271,14 +300,19 @@
   },
   "active": "9b9313d05c25084b",
   "lastOpenFiles": [
+    "Algebra/Ring of Polynomial Functions.md",
+    "Algebra/Variety.md",
+    "Algebra/Ideal (Ring).md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Information Theory/Typical Sequence.md",
+    "Information Theory/Code.md",
+    "Algebra/Polynomial Ring.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Information Theory/Distortion.md",
     "Information Theory/Differential Entropy.md",
     "Information Theory/Entropy.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
-    "Information Theory/Code.md",
     "Information Theory/Relative Entropy.md",
-    "Information Theory/Distortion.md",
-    "Information Theory/Typical Sequence.md",
     "Information Theory/Channel.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
@@ -292,11 +326,6 @@
     "Probability Theory/Conditional Probability.md",
     "Information Theory/n-R code.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Analysis/Convex Function.md",
-    "Topology/Lift.md",
-    "Topology/Algebraic Topology/Euler Characteristic.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "Differential Geometry/Submersion.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
