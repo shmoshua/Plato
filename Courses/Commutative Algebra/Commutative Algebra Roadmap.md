@@ -219,7 +219,7 @@
 ### 3. Modules
 #### 3.1 Modules
 ![[Module#^65c206]]
-![[Module#^161b49|q]]
+![[Module#^161b49]]
 ![[Module#^3ed1fe|q]]
 ![[Module#^dd19d0|q]]
 ![[Module#^cdd82e|q]]
