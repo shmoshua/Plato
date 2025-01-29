@@ -21,7 +21,7 @@
 > [!proof]-
 > We have:
 > 1. **Using Zorn's lemma to find the maximal element**:
-> We use [[Poset|Zorn's lemma]] on $\mathcal{E}(B)$ where: $$\mathcal{E}(B):=\{ C\subseteq B:C\text{ is closed, convex, non-empty and extreme in }A \}$$Further, $C_{1}\leq C_{2}\iff C_{2}\subseteq C_{1}$. As $B\in \mathcal{E}(B)$, $\mathcal{E}(B)$ is not empty. Therefore, $(\mathcal{E}(B),\leq)$ defines a poset.
+> We use [[Order|Zorn's lemma]] on $\mathcal{E}(B)$ where: $$\mathcal{E}(B):=\{ C\subseteq B:C\text{ is closed, convex, non-empty and extreme in }A \}$$Further, $C_{1}\leq C_{2}\iff C_{2}\subseteq C_{1}$. As $B\in \mathcal{E}(B)$, $\mathcal{E}(B)$ is not empty. Therefore, $(\mathcal{E}(B),\leq)$ defines a poset.
 > 
 >    Let $\mathcal{C}\subseteq \mathcal{E}(B)$ be a totally ordered subset. We will show that $\mathcal{C}$ is upper bounded. Let $C_{1},\dots,C_{n}\in \mathcal{C}$ and assume $C_{n}\subseteq C_{n-1}\subseteq\dots \subseteq C_{1}$. Then, $$\bigcap_{i=1}^{n}C_{i}=C_{n}$$and since $C_{n}\in \mathcal{C}$, $C_{n}\neq \varnothing$. As $A$ is a compact Hausdorff space, $$M=\bigcap_{C\in \mathcal{C}}^{}C\neq \varnothing$$and $M\in \mathcal{E}(B)$. $M$ is of course convex and closed in $A$ and we only need to show that $M$ is extreme in $A$.  
 > 

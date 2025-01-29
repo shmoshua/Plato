@@ -18,8 +18,8 @@
 > We have the following steps:
 > 1. **Defining $\mathcal{P}$:**
 > Let us define$$\mathcal{P}:=\{ (h,D):M\subseteq D \subseteq V\ \mathbb{R}\text{-linear subspace}, h:D \to \mathbb{R} \text{ linear}, \left. h \right|_{M}=f, h\leq p \text{ on } D\}$$We then define an ordering on $\mathcal{ P}$ as follows: $$(h_{1},D_{1})\leq(h_{2},D_{2}) \iff D_{1}\subseteq D_{2}\land h_{2}|_{D_{1}}=h_{1}$$
-> We will now show that we can use [[Poset|Zorn's lemma]] on $\mathcal{P}$.
-> 2. **Showing that $(\mathcal{P},\leq)$ is a non-empty inductive [[Poset|poset]].**
+> We will now show that we can use [[Order|Zorn's lemma]] on $\mathcal{P}$.
+> 2. **Showing that $(\mathcal{P},\leq)$ is a non-empty inductive [[Order|poset]].**
 > 	1. As $(f,M)\in \mathcal{P}$, $\mathcal{P}\neq \varnothing$.
 > 	2. Let $Q \subseteq \mathcal{P}$ be a totally ordered. Then, we define: $$E:=\bigcup_{(h,D)\in Q}^{}D$$Since $Q$ is totally ordered, $E$ is a $\mathbb{R}$-vector subspace of $V$. 
 > 	   

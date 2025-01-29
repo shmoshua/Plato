@@ -23,7 +23,7 @@
 >    2. For $A,B\in \mathcal{G}$, there exists $i$ s.t. $A,B\in \mathcal{G_{i}}$. Therefore, $A\cap B\in \mathcal{G_{i}}$ and $A\cap B\in \mathcal{G}$.
 >    3. For $A\in \mathcal{G}$ and $B\supseteq A$, there exists $i$ s.t. $A\in \mathcal{G}_{i}$ and $B\in \mathcal{G_{i}}$. Therefore, $B\in \mathcal{G}_{i}$.
 >   
->    Therefore, by [[Poset|Zorn's lemma]], $\mathcal{Z}$ has a maximal element.
+>    Therefore, by [[Order|Zorn's lemma]], $\mathcal{Z}$ has a maximal element.
 > 3. Let $A\cup B\in \mathcal{F}$ and assume $A\notin \mathcal{F}$ and $B\notin \mathcal{F}$. Then, $F^c,G^c\in \mathcal{F}$ and: $$F^c\cap G^c=(F\cup G)^c\in \mathcal{F}$$which is a contradiction. Conversely, if $A\in \mathcal{F}$, then $A\subseteq A\cup B\in \mathcal{F}$.
 
 ^e1a97b

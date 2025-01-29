@@ -37,7 +37,7 @@
 > We have:
 > 1. Let $\mathcal{M}:=\{ J\unlhd R :I\subseteq J,J\neq R\}$. The maximal elements in $\mathcal{M}$ are exactly the maximal ideals. Let $\mathcal{A}\subseteq \mathcal{M}$ be a totally ordered subfamily. If $\mathcal{A}=\varnothing$, then $I\in \mathcal{M}$ is an upper bound. Otherwise, $J':=\bigcup_{J\in \mathcal{A}}^{}J$ is an upper bound. 
 >    
->    Hence, by [[Poset|Zorn's lemma]], we have the statement.
+>    Hence, by [[Order|Zorn's lemma]], we have the statement.
 > 2. Every commutative ring has a proper ideal.
 
 ^8f1aa6
