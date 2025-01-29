@@ -125,34 +125,6 @@
               "icon": "lucide-file",
               "title": "Nilradical"
             }
-          },
-          {
-            "id": "cdbe308f8316c61b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Field.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Field"
-            }
-          },
-          {
-            "id": "26ffbacecf7f4bb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Maximal Ideal.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Maximal Ideal"
-            }
           }
         ],
         "currentTab": 1
@@ -299,23 +271,24 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "53aebc8aeea1317d",
+  "active": "0ba64f0217ba2a01",
   "lastOpenFiles": [
     "Algebra/Algebra.md",
+    "Algebra/Nilradical.md",
+    "Algebra/Field.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Maximal Ideal.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Coprime Ideal.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Prime Ideal.md",
     "Discrete Mathematics/Order.md",
-    "Algebra/Nilradical.md",
-    "Algebra/Field.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Maximal Ideal.md",
     "Algebra/Integral Domain.md",
     "Algebra/Unit.md",
     "Algebra/Ring Homomorphism.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/Variety.md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Algebra/Prime Ring.md",
@@ -325,7 +298,6 @@
     "Information Theory/Differential Entropy.md",
     "Algebra/Ring of Polynomial Functions.md",
     "Information Theory/Typical Sequence.md",
-    "Algebra/Polynomial Ring.md",
     "Information Theory/Distortion.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
