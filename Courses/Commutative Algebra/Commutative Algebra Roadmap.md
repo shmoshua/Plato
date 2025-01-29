@@ -264,3 +264,21 @@
 ![[Module#^000a62|p]]
 
 ---
+![[Module#^c2c2ce]]
+![[Module#^467ec0|p]]
+
+---
+##### 3.1.3 Module Quotient and Annihilators
+![[Annihilator#^bbc121]]
+![[Annihilator#^cc9d0e]]
+
+---
+![[Annihilator#^e3397a]]
+![[Annihilator#^9eec96|p]]
+
+---
+##### 3.1.4 Basis and Free Modules
+![[Basis#^937cda]]
+![[Basis#^2b5c98]]
+
+---

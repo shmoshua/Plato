@@ -170,8 +170,13 @@
 > 1. $IM\leq M$. 
 > 2. $M / IM$ is a $R / I$-module.
 
+^c2c2ce
+
 > [!proof]-
 > We have that:
 > 1. Obvious. 
 > 2. We define: $(r+I) (m+IM)= r m +IM$.
+
+^467ec0
+
 ---

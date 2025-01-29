@@ -4,7 +4,10 @@
 > Let $R$ be a [[ring]] and $M$ a $R$-[[module]].
 > 1. for $N,N'\leq M$, a ***module quotient*** is given as: $$N'{:}N:=\{ a\in R: aN\subseteq N' \}$$
 > 2. the ***annihilator*** of $N\leq M$ is given as: $\text{Ann }N:=\{ a\in R:aN = 0 \}$, i.e. $0{:}N$.
-- **Related definition**: We can apply these definitions to a single element and get:
+
+^bbc121
+
+- **Related definition**: We can apply these definitions to a single element and get: ^cc9d0e
 	1. $N'{:}m:=\{ a\in R :am \subseteq N' \}$ and
 	2. $\text{Ann }m:=\{ a\in R:am=0 \}$.
 - **Remark**: if $M$ is a ring itself, then the definitions coincide with ones defined on ideals.
@@ -16,9 +19,14 @@
 > 3. $N'{:}m\unlhd R$, in particular $\text{Ann }m\unlhd R$.
 > 4. if $I\unlhd R$, then $\text{Ann}(R / I)=I$.
 
+^e3397a
+
 > [!proof]-
 > We have: 
 > 1. for $a,b\in N'{:}N$, $(a+b)N\subseteq N'$ and for every $r\in R$, $raN \subseteq rN'\subseteq N'$ and $ra\in N'{:}N$.
 > 3. for $a,b\in N'{:}m$, $(a+b)m=N'$ and for every $r\in R$, $ram\subseteq rN'\subseteq N'$ and $ra\in N'{:}m$.
 > 4. $\text{Ann}(R / I)=\{ a\in R:ar+I = 0, \forall r\in R \}=I$.
+
+^9eec96
+
 ---
