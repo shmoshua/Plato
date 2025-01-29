@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Basis.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Module"
+              "title": "Basis"
             }
           },
           {
@@ -118,12 +118,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Algebra/Basis.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "Basis"
             }
           },
           {
@@ -132,16 +132,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Direct Sum.md",
+                "file": "Algebra/Ideal (Ring).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Direct Sum"
+              "title": "Ideal (Ring)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -285,21 +285,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "402e47533faa15a4",
+  "active": "94b19b665f8ecfb1",
   "lastOpenFiles": [
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Annihilator.md",
+    "Algebra/Basis.md",
+    "Algebra/Ideal (Ring).md",
     "Algebra/Direct Sum.md",
+    "Algebra/Module.md",
+    "Algebra/Algebra.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Subgroup.md",
     "Algebra/Submodule.md",
-    "Algebra/Module.md",
     "Algebra/Polynomial Ring.md",
     "Commutative Algebra/Morphism (Variety).md",
-    "Algebra/Algebra.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Prime Ideal.md",
     "Algebra/Nilradical.md",
     "Algebra/Field.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Coprime Ideal.md",
     "Discrete Mathematics/Order.md",
@@ -311,8 +313,6 @@
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Algebra/Prime Ring.md",
     "Algebra/Algebra Homomorphism.md",
-    "Information Theory/Code.md",
-    "Information Theory/Mutual Information.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

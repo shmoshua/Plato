@@ -99,10 +99,13 @@
 > 2. $M/N$ has only trivial submodules $0$ and $M / N$.
 > 3. $M / N \cong R / I$ for some maximal ideal $I\unlhd R$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. (1=>2): Let $P$ be some submodule that is not zero or $M/N$. Then, for the natural projection, by Proposition 1, $\pi ^{-1}(P)\leq M$. This shows that there is a submodule $N\subsetneq \pi ^{-1}(P)\subsetneq M$.
-> 2. (2=>3): let $x\in M / N$ s.t. $x\neq 0$. Then, we define a $\varphi\in \text{Hom}_{R}(R,M / N)$ given as: $$\varphi:R\to M / N,\quad a\mapsto ax$$We have that by isomorphism theorem $\varphi$
+> 2. (2=>3): let $x\in M / N$ s.t. $x\neq 0$. Then, we define a $\varphi\in \text{Hom}_{R}(R,M / N)$ given as: $$\varphi:R\to M / N,\quad a\mapsto ax$$Now, as $x\neq 0$, $\text{im }\varphi\neq 0$ and $\text{im }\varphi=M / N$. Hence, we have that by isomorphism theorem $R / \text{ker }\varphi\cong M / N$. 
+>    
+>    Notice that by the isomorphism, $R / \text{ker }\varphi$ also has only $0$ and itself as submodules. However, as $R / \text{ker }\varphi$ is also a quotient ring, we have that the ring has only $0$ and itself as ideals, which shows that $R / \text{ker }\varphi$ is a field and $\text{ker }\varphi$ is maximal.
+> 3. (3=>1): Assume that there exists a submodule $P\leq M$ with $N\subsetneq P\subsetneq M$. Then, $P / N\leq M / N$ and $\text{ker } \varphi \subsetneq\varphi^{-1}( P / N)\subsetneq R$ which proves that $I$ is not maximal. 
 ---
 ##### Examples
 > [!h] Example 1
@@ -159,3 +162,16 @@
 > 	This admits an inverse $\Psi ^{-1}(M,\varphi):=M$ where $$\left( \sum_{i=1}^{n}a_{i}x^i \right)m=\sum_{i=1}^{n}a_{i} \varphi^i(m)$$Then, we have that $\Psi ^{-1}\Psi(M)=M$ and $\Psi \Psi ^{-1}(M,\varphi)=(M,\varphi)$.
 
 ^000a62
+
+---
+> [!h] Example 5 (Product of Ideal and Module)
+> Let $M$ be a $R$-module. For $I\unlhd R$, we define the product: $$IM:=\{ a_{1}m_{1}+\dots+a_{n}m_{n}:n\in \mathbb{N}, a_{i}\in I, m_{i}\in M \}$$
+> Then, 
+> 1. $IM\leq M$. 
+> 2. $M / IM$ is a $R / I$-module.
+
+> [!proof]-
+> We have that:
+> 1. Obvious. 
+> 2. We define: $(r+I) (m+IM)= r m +IM$.
+---
