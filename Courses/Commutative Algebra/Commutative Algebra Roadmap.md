@@ -224,6 +224,7 @@
 ![[Module#^dd19d0|q]]
 ![[Module#^cdd82e|q]]
 ![[Module#^3fd312|q]]
+
 ---
 
 ![[Module#^b92c18]]
@@ -233,4 +234,28 @@
 
 ---
 ##### 3.1.2 Submodules
-![[Submodule#^874a70]]
+![[Module#^dfbe30]]
+![[Module#^b68a13|q]]
+![[Module#^e39a67|q]]
+
+---
+![[Module#^517a52]]
+![[Module#^e24c7d|p]]
+
+---
+![[Module#^b40df2]]
+![[Module#^85521c|p]]
+
+---
+![[Module#^596802]]
+![[Module#^38f525|p]]
+
+---
+![[Module#^9d6653]]
+![[Module^]]
+
+---
+![[Module#^6a1a56]]
+![[Module#^000a62|p]]
+
+---

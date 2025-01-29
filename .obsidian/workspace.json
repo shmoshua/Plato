@@ -77,8 +77,7 @@
               "title": "Direct Sum"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -154,8 +153,7 @@
               "title": "Direct Sum"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -299,15 +297,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "435a9c7ce17ab3f2",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
-    "Algebra/Direct Sum.md",
     "Algebra/Module.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Direct Sum.md",
     "Algebra/Submodule.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Subgroup.md",
     "Commutative Algebra/Morphism (Variety).md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Algebra.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Prime Ideal.md",
