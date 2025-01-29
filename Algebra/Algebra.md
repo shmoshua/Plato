@@ -41,10 +41,42 @@
 ^8c7b8e
 
 ---
+> [!lemma] Proposition 3
+> Let $A$ be a $R$-algebra with $\varphi_{A}:R\to A$.
+> 1. $f\in R[x_{1},\dots,x_{n}]$ induces a map $f:A^n\to A$. 
+
+> [!proof]+
+> Let $f=\sum_{I}r_{I} x_{1}^{i_{1}}\dots x_{n}^{i_{n}}$. Then, we have that: $$f:A^n\to A,\quad (a_{1},\dots,a_{n})\mapsto \sum_{I}\varphi(r_{I}) a_{1}^{i_{1}}\dots a_{n}^{i_{n}}$$
+---
+> [!lemma] Proposition 4
+> Let $A,B$ be $R$-algebras and $\Phi:A\to B$. Then, TFAE:
+> 1. $\Phi:A\to B$ is an $R$-algebra homomorphism.
+> 2. for all $f\in R[x_{1},\dots,x_{n}]$, $$\Phi(f(a_{1},\dots,a_{n}))=f(\Phi(a_{1}),\dots,\Phi(a_{n})),\quad \forall a_{1},\dots,a_{n}\in A$$
+
+> [!proof]+
+> We have that: 
+> 1. (1=>2): Let $f:=\sum_{I}^{}r_{I}x_{1}^{i_{1}}\dots x_{n}^{i_{n}}$. Then, for any $a_{1},\dots,a_{n}\in A$:$$\begin{align}\Phi(f(a_{1},\dots,a_{n}))&=\Phi \left( \sum_{I}^{}\varphi_{A}(r_{I})a_{1}^{i_{1}}\dots a_{n}^{i_{n}} \right) \\&=\sum_{I}^{}\Phi(\varphi_{A}(r_{I}))\Phi(a_{1})^{i_{1}}\dots \Phi(a_{n})^{i_{n}}\\&=\sum_{I}^{}\varphi_{B}(r_{I})\Phi(a_{1})^{i_{1}}\dots \Phi(a_{n})^{i_{n}}\\&=f(\Phi(a_{1}),\dots,\Phi(a_{n}))\end{align}$$
+
+
+---
 ##### Examples
-> [!h] Example 1
-> $R[x_{1},..,x_{n}]$ is a $R$-algebra given by injection. 
+> [!h] Example 1 (Examples of R-algebra)
+> For any ring $R$,
+> 1. $R[x_{1},..,x_{n}]$ is a $R$-algebra given by injection. 
+> 2. for any ideal $I$, $R[x_{1},\dots,x_{n}] / I$ is an $R$-algebra. 
+
+> [!proof]-
+> We have:
+> 1. $R\to R[x_{1},\dots,x_{n}]$ is a ring homomorphism.
 
 ^a1d159
 
+---
+> [!h] Example 2 (Quotient Map)
+> For any $R$-algebra $A$ and an ideal $I\unlhd A$, 
+> 1. $q:A\to A / I$ is a $R$-algebra homomorphism.
+
+> [!proof]-
+> We have:
+> 1. $q$ is naturally a ring homomorphism and $q(\varphi_{A}(a))=\overline{\varphi_{A}(a)}$.
 ---

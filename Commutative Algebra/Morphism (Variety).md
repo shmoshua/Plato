@@ -50,7 +50,11 @@
 > 1. Firstly, $f^{*}(g)=g\circ f:X\to K$. Hence, $f^{*}(g)\in A(X)$ and $f^{*}$ is well-defined. Now, to show that $f^{*}$ is a $K$-algebra homomorphism:
 > 	1. **Claim 1**: $f^{*}$ is a ring homomorphism: For $g_{1},g_{2}\in A(Y)$, $$f^{*}(g_{1}+g_{2})=(g_{1}+g_{2})\circ f=g_{1}\circ f+g_{2}\circ f=f^{*}(g_{1})+f^{*}(g_{2})$$ $$f^{*}(g_{1}g_{2})=(g_{1}g_{2})\circ f=(g_{1}\circ f)(g_{2}\circ f)=f^{*}(g_{1})f^{*}(g_{2})$$
 > 	2. **Claim 2**: $f^{*}$ is an algebra homomorphism: Let $c\in K$. Then, $c\in A(Y)$ as a constant function and $f^{*}(c)= c \circ f=c$. 
-> 2. Let $\Phi:K[y_{1},\dots,y_{m}] \to A(X)$ be the lift of $\varphi$ s.t. $\Phi(g)=\phi(\overline{g})$. 
+> 2. Let $q:K[y_{1},\dots,y_{m}]\to A(Y)$ be the quotient map and define $\Phi:= \varphi \circ q$. Then, $\Phi$ is a $K$-algebra homomorphism as a composition of two $K$-algebra homomorphisms. 
+>    
+>    Let $f_{1},\dots,f_{m}\in K[x_{1},..,x_{n}]$ s.t. $\Phi(y_{i})=\overline{f_{i}}$. Then, for all $g\in K[y_{1},\dots,y_{m}]$, $$g(f_{1},\dots,f_{m})$$
+>    
+>    $$\Phi(g)=\Phi(g(y_{1},\dots,y_{m}))=g(\Phi(y_{1}),\dots,\Phi(y_{m}))$$
 >    
 >    
 > 2. Let $A(Y)=K[y_{1},\dots,y_{m}] / I(Y)=K[\overline{y}_{1},\dots,\overline{y}_{m}]$ for some $\overline{y}_{i}\in A(Y)$. Now, let $f_{i}:=\varphi(\overline{y}_{i})\in A(X)$. Then, we claim that $$f:=(f_{1},\dots,f_{m}):X\to \mathbb{A}_{K}^n$$ is a morphism and $f(X)\subseteq Y$. Let $g\in I(Y)$. Then, 
