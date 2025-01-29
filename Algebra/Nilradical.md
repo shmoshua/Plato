@@ -29,6 +29,11 @@
 > 2. for all $a\in R$, $a$ is a unit or nilpotent.
 > 3. $\sqrt{ (0) }$ is a maximal ideal.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. (1=>2): Let $R$ have one prime ideal $P$. Then, $\sqrt{ (0) }=P$ by [[Radical (Ring)|Lemma 2]]. 
+> 1. (1=>2): Let $R$ have one prime ideal $P$. Then, $\sqrt{ (0) }=P$ by [[Radical (Ring)|Lemma 2]]. Now, assume there exists $a\in R$ where $a$ is nor a unit. Then, consider $I:=(a)$, which is contained in some maximal ideal $M$ by [[Maximal Ideal|Theorem 2]]. 
+>    
+>    As $M$ is prime, we have that $M=\sqrt{ (0) }$ and $a\in \sqrt{ (0) }$. Hence, $a$ is nilpotent.
+> 2. (2=>3): Assume $\sqrt{ (0) }$ is not maximal, i.e. $\sqrt{ (0) }\subsetneq M\subsetneq R$. Then, let $a\in M \backslash \sqrt{ (0) }$. This element is not a unit nor nilpotent. 
+> 3. (3=>1): Let there be two distinct prime ideals $I,J$. Then, $\sqrt{ (0) }\subseteq I\cap J$. Hence, $\sqrt{ (0) }$ cannot be maximal.
+---
