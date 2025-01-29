@@ -31,7 +31,7 @@
 ---
 > [!lemma] Lemma 2
 > For a commutative ring $R$ and $I\unlhd R$, 
-> 1. $\sqrt{ I }=\bigcap_{I\subseteq P\unlhd R,P\text{ prime}}^{}P$
+> $$\sqrt{ I }=\bigcap_{\begin{array}{c}I\subseteq P\\P\text{ prime}\end{array}}^{}P$$
 
 ^5a7a7e
 
@@ -41,7 +41,7 @@
 >    
 >    $\supseteq:$ let $a\in R \backslash\sqrt{ I }$, i.e. $a^n\notin I$ for all $n$. Let $\mathcal{M}:=\{ J\unlhd R:I\subseteq J, a^n\notin J\text{ for all }n\geq 0 \}$. By Zorn's lemma, there exists a maximal element $P$ and we will show that $P$ is prime. 
 >    
->    Assume $P$ is not prime, i.e. there exists $b,c\in R$ s.t. $bc\in P$ but $b,c\notin P$. Then, $P+(b)$ and $P+(c)$ are strictly bigger than $P$. However, as they are not in $\mathcal{M}$, there exists $n,m$ s.t. $a^n\in P+(b)$ and $a^m\in P+(c)$. Then, $$a^{nm}\in(P+(b))(P+(c))\subseteq P+(bc)$$which is a contradiction. Hence, $P$ is prime.
+>    Assume $P$ is not prime, i.e. there exists $b,c\in R$ s.t. $bc\in P$ but $b,c\notin P$. Then, $P+(b)$ and $P+(c)$ are strictly bigger than $P$. However, as they are not in $\mathcal{M}$, there exists $n,m$ s.t. $a^n\in P+(b)$ and $a^m\in P+(c)$. Then, $$a^{nm}\in(P+(b))(P+(c))\subseteq P+(bc)=P$$which is a contradiction. Hence, $P$ is prime.
 
 ^aed7dc
 

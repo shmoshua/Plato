@@ -23,3 +23,12 @@
 ^f5705d
 
 ---
+> [!lemma] Proposition 2
+> For a commutative ring $R$, TFAE:
+> 1. $R$ has exactly one prime ideal.
+> 2. for all $a\in R$, $a$ is a unit or nilpotent.
+> 3. $\sqrt{ (0) }$ is a maximal ideal.
+
+> [!proof]+
+> We have that:
+> 1. (1=>2): Let $R$ have one prime ideal $P$. Then, $\sqrt{ (0) }=P$ by [[Radical (Ring)|Lemma 2]]. 

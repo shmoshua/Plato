@@ -43,3 +43,12 @@
 ^8f1aa6
 
 ---
+> [!lemma] Proposition 3 (Maximal Ideals are Coprime)
+> Let $R$ be a commutative ring and $P,Q\unlhd R$ be two distinct maximal ideals. Then, 
+> 1. for any $m,n\in \mathbb{N}$, $P^n,Q^m$ are [[Coprime Ideal|coprime]]. 
+
+> [!proof]-
+> First we show that $P,Q$ are coprime. This is easy as $P+Q$ contains both $P$ and $Q$. Furthermore as they are distinct, they are strictly greater than both $P,Q$.  However, as they are maximal, $P+Q=R$. 
+> 
+> The rest follows from [[Coprime Ideal|Proposition 1]].
+---
