@@ -77,7 +77,7 @@
 ^38f525
 
 ---
-> [!lemma] Proposition 4 (Isomorphism Theorems)
+> [!lemma] Theorem 4 (Isomorphism Theorems)
 > Let $M,N$ be $R$-modules. 
 > 1. for $\varphi\in \text{Hom}_{R}(M,N)$, $\varphi$ induces an isomorphism:  $M /\text{ker} \varphi\to\text{im }\varphi, \overline{m}\mapsto \varphi(m)$.
 > 2. for $A,B\leq M$, we have $(A+B) / B\cong A / (A\cap B)$
@@ -89,6 +89,20 @@
 > We have that:
 > 1. Let $\psi:M / \text{ker }\varphi\to \text{im }\varphi, x+\text{ker }\varphi\mapsto \varphi(x)$. Then, it is well defined: if $x+\text{ker }\varphi=y+\text{ker }\varphi$, then $x-y\in \text{ker }\varphi$ and: $$\varphi(x)=\varphi(y+x-y)=\varphi(y)+\varphi(x-y)=\varphi(y)$$Further, it is a homomorphism as $\psi(x+y+\text{ker }\varphi)=\varphi(x+y)=\varphi(x)+\varphi(y)$ and $\psi(rx+\text{ker }\varphi)=\varphi(rx)=r\varphi(x)=r\psi(x+\text{ker }\varphi)$. More importantly, $$x+\text{ker }\varphi\in\text{ker }\psi \iff\varphi(x)=0\iff x\in \text{ker }\varphi$$Hence $\psi$ is injective and it is surjective by definition.
 > 
+
+^29ad01
+
+---
+> [!lemma] Proposition 5 
+> Let $M$ be a $R$-module and $N\leq M$ be proper. TFAE:
+> 1. there is no submodule $P\leq M$ with $N\subsetneq P \subsetneq M$.
+> 2. $M/N$ has only trivial submodules $0$ and $M / N$.
+> 3. $M / N \cong R / I$ for some maximal ideal $I\unlhd R$.
+
+> [!proof]+
+> We have:
+> 1. (1=>2): Let $P$ be some submodule that is not zero or $M/N$. Then, for the natural projection, by Proposition 1, $\pi ^{-1}(P)\leq M$. This shows that there is a submodule $N\subsetneq \pi ^{-1}(P)\subsetneq M$.
+> 2. (2=>3): let $x\in M / N$ s.t. $x\neq 0$. Then, we define a $\varphi\in \text{Hom}_{R}(R,M / N)$ given as: $$\varphi:R\to M / N,\quad a\mapsto ax$$We have that by isomorphism theorem $\varphi$
 ---
 ##### Examples
 > [!h] Example 1
@@ -118,12 +132,17 @@
 > 2. $\text{Hom}_{R}(R,M)\to M, \varphi\mapsto \varphi(1)$ is a homomorphism.
 > 3. the two homomorphisms are inverses to teach other and $\text{Hom}_{R}(R,M)\cong M$.
 
+^e60951
+
 > [!proof]-
 > We have that:
 > 1. $(a\mapsto a(m+n))=(a\mapsto am+an)=(a\mapsto am)+(a\mapsto an)$ and $(a\mapsto a(bm))=b\cdot (a\mapsto am)$.
 > 2. $(\varphi+\psi)(1)=\varphi(1)+\psi(1)$ and $(r \cdot\varphi)(1)=r\varphi(1)$.
 > 3. For any $a\in R$, $a\varphi(1)=\varphi(a)$. Similarly, for any $m\in M$, $1\cdot m=m$.
-- **Remark**: $\text{Hom}_{R}(M,R)$ is not isomorphic to $M$ in general, e.g. $\text{Hom}_{\mathbb{Z}}(\mathbb{Z}^{2},\mathbb{Z})=0$.
+
+^b6b46d
+
+- **Remark**: $\text{Hom}_{R}(M,R)$ is not isomorphic to $M$ in general, e.g. $\text{Hom}_{\mathbb{Z}}(\mathbb{Z}^{2},\mathbb{Z})=0$. ^8af67a
 ---
 > [!example] Example 4 (Polynomial Ring Modules)
 > Let $R$ be a commutative ring. 

@@ -77,7 +77,8 @@
               "title": "Direct Sum"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -112,20 +113,6 @@
             }
           },
           {
-            "id": "0ba64f0217ba2a01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Submodule.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Submodule"
-            }
-          },
-          {
             "id": "94b19b665f8ecfb1",
             "type": "leaf",
             "state": {
@@ -153,7 +140,8 @@
               "title": "Direct Sum"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -297,14 +285,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "402e47533faa15a4",
   "lastOpenFiles": [
-    "Algebra/Module.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Direct Sum.md",
-    "Algebra/Submodule.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Subgroup.md",
+    "Algebra/Submodule.md",
+    "Algebra/Module.md",
+    "Algebra/Polynomial Ring.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Algebra/Algebra.md",
     "Algebra/Radical (Ring).md",
