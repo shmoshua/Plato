@@ -45,17 +45,29 @@
 > Let $A$ be a $R$-algebra with $\varphi_{A}:R\to A$.
 > 1. $f\in R[x_{1},\dots,x_{n}]$ induces a map $f:A^n\to A$. 
 
-> [!proof]+
+^4a29c3
+
+> [!proof]-
 > Let $f=\sum_{I}r_{I} x_{1}^{i_{1}}\dots x_{n}^{i_{n}}$. Then, we have that: $$f:A^n\to A,\quad (a_{1},\dots,a_{n})\mapsto \sum_{I}\varphi(r_{I}) a_{1}^{i_{1}}\dots a_{n}^{i_{n}}$$
+
+^36b87d
+
 ---
 > [!lemma] Proposition 4
 > Let $A,B$ be $R$-algebras and $\Phi:A\to B$. Then, TFAE:
 > 1. $\Phi:A\to B$ is an $R$-algebra homomorphism.
 > 2. for all $f\in R[x_{1},\dots,x_{n}]$, $$\Phi(f(a_{1},\dots,a_{n}))=f(\Phi(a_{1}),\dots,\Phi(a_{n})),\quad \forall a_{1},\dots,a_{n}\in A$$
 
-> [!proof]+
+^8d18d8
+
+> [!proof]-
 > We have that: 
 > 1. (1=>2): Let $f:=\sum_{I}^{}r_{I}x_{1}^{i_{1}}\dots x_{n}^{i_{n}}$. Then, for any $a_{1},\dots,a_{n}\in A$:$$\begin{align}\Phi(f(a_{1},\dots,a_{n}))&=\Phi \left( \sum_{I}^{}\varphi_{A}(r_{I})a_{1}^{i_{1}}\dots a_{n}^{i_{n}} \right) \\&=\sum_{I}^{}\Phi(\varphi_{A}(r_{I}))\Phi(a_{1})^{i_{1}}\dots \Phi(a_{n})^{i_{n}}\\&=\sum_{I}^{}\varphi_{B}(r_{I})\Phi(a_{1})^{i_{1}}\dots \Phi(a_{n})^{i_{n}}\\&=f(\Phi(a_{1}),\dots,\Phi(a_{n}))\end{align}$$
+> 2. (2=>1): To show that $\Phi$ is a ring homomorphism, Let $f:=x_{1}+x_{2}$. Then, $$\Phi(a+b)=\Phi(f(a,b,0,\dots,0))=f(\Phi(a),\Phi(b),\Phi(0),\dots,\Phi(0))=\Phi(a)+\Phi(b)$$Similarly $\Phi(ab)=\Phi(a)\Phi(b)$.
+>    
+>    Now, let $f:= r$. Then, $$\Phi(\varphi_{A}(r))=\Phi(f(0,0,\dots,0))=f(\Phi(0),\dots,\Phi(0))=\varphi_{B}(r)$$Hence, $\Phi$ is an algebra homomorphism.
+
+^468cf4
 
 
 ---

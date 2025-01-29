@@ -101,8 +101,6 @@
 ![[Algebra#^c8cde0|q]]
 ![[Algebra#^a2e006|q]]
 
----
-![[Algebra#^a1d159]]
 
 ---
 ![[Algebra#^7a4fe7]]
@@ -112,6 +110,14 @@
 
 ![[Algebra#^5dc1c3]]
 ![[Algebra#^8c7b8e|p]]
+
+---
+![[Algebra#^4a29c3]]
+![[Algebra#^36b87d|p]]
+
+---
+![[Algebra#^8d18d8]]
+![[Algebra#^468cf4|p]]
 
 ---
 #### 1.7 Prime and Maximal Ideals
@@ -173,6 +179,7 @@
 #### 2.2 Varieties
 ![[Variety#^1a7b97]]
 ![[Variety#^d6893c|p]]
+
 ---
 ##### 2.2.1 Ideals of Varieties
 ![[Variety#^35d70d]]
@@ -203,6 +210,7 @@
 ---
 ![[Morphism (Variety)#^fb7c53]]
 ![[Morphism (Variety)#^1b25df|p]]
+
 ---
 ![[Morphism (Variety)#^71ae98]]
 ![[Morphism (Variety)#^1db0b2|p]]
