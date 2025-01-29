@@ -159,24 +159,22 @@
 ---
 ![[Radical (Ring)#^5a7a7e]]
 ![[Radical (Ring)#^aed7dc|p]]
-![[Radical (Ring)#^a3929b|q]]
+![[Radical (Ring)#^a3929b]]
 
 ---
 
 ### 2. Varieties
 #### 2.1 Affine Spaces
 ![[Affine Space#^95322a]]
-![[Affine Space#^ff2604|q]]
+![[Affine Space#^ff2604]]
 ![[Affine Space#^b8445a|q]]
 
 ---
 #### 2.2 Varieties
 ![[Variety#^1a7b97]]
 ![[Variety#^d6893c|p]]
-
 ---
-#### 2.3 Ideals of Varieties
-![[Variety#^d9dae1|q]]
+##### 2.2.1 Ideals of Varieties
 ![[Variety#^35d70d]]
 ![[Variety#^c6655d|p]]
 
@@ -185,24 +183,23 @@
 ![[Variety#^cc24f3|p]]
 
 ---
-#### 2.4 Ring of Polynomial Functions
-![[Ring of Polynomial Functions#^56793e]]
-![[Ring of Polynomial Functions#^ca999a|q]]
+##### 2.2.2 Coordinate Rings
 ![[Ring of Polynomial Functions#^4b2402]]
 ![[Ring of Polynomial Functions#^39a3bf|p]]
+![[Variety#^da8bb5]]
 
 ---
 ![[Variety#^dfb872]]
 ![[Variety#^c712ee|p]]
-![[Variety#^df9fc7|q]]
-![[Variety#^da8bb5|q]]
+![[Variety#^df9fc7]]
+
 
 ---
 #### 2.6 Morphisms of Varieties
-
 ![[Morphism (Variety)#^f860e3]]
-![[Morphism (Variety)#^999568|q]]
+![[Morphism (Variety)#^999568]]
 ![[Morphism (Variety)#^cc40e0|q]]
+
 ---
 ![[Morphism (Variety)#^fb7c53]]
 ![[Morphism (Variety)#^1b25df|p]]
