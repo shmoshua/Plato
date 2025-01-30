@@ -77,6 +77,17 @@
 > 4. We have that: $$\varphi:\mathbb{Q}[x]\otimes _{\mathbb{Q}} \mathbb{C}\to \mathbb{C}[x],\quad f\otimes  \alpha\to \alpha f$$is isomorphic with its inverse given by: $\psi(\alpha x^i)\mapsto x^i\otimes \alpha$.
 
 ---
+> [!h] Example 3 (Vector Spaces and Duals)
+> Let $V,W$ be $K$-vector spaces. Let $V^{*}:=\text{Hom}_{K}(V,K)$ be the dual space of $V$. Then, 
+> 1. there exist following linear maps 
+> 	1. $\Phi:V^{*}\otimes W\to \text{Hom}(V,W)$ s.t. $\Phi(\varphi \otimes w)(v)=\varphi(v)w$
+> 	2. $\Psi:V^{*}\otimes V^{*}\to \text{Bilinear}(V,V)$ s.t. $\Psi(\varphi \otimes \psi)(v,v')=\varphi(v)\psi(v')$.
+> 	3. $T:V^{*}\otimes V\to K$ s.t. $T(\varphi\otimes v)=\varphi(v)$.
+> 	
+>2. $\Phi,\Psi$ are injective 
+> 
+
+---
 > [!h] Example 1
 > Let $V$ be a finite-dimensional vector space. Then, $$\begin{array}{cccc} {J:}&{V^{*}\otimes W}&\to&{\text{Hom}(V,W)}\\&{f\otimes w} &\mapsto & {v\mapsto f(v)w} \end{array}{}$$is an isomorphism.
 
