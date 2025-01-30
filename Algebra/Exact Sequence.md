@@ -44,7 +44,7 @@
 > 2. if $\varphi$ is injective, so is $\text{ker }\alpha\to \text{ker }\beta$ in the sequence above.
 > 3. if $\psi'$ is surjective, so is $N' / \text{im }\beta\to P'/\text{im }\gamma$ in the sequence above.
 
-> [!proof]-
+> [!proof]- 
 > Let's construct the homomorphisms: 
 > 1. $\text{ker }\alpha\to \text{ker }\beta$ is given by $\varphi|_{\text{ker }\alpha}$. For $m\in \text{ker }\alpha$, $\beta(\varphi(m))=\varphi'(\alpha(m))= 0$ and $\varphi(m)\in \text{ker } \beta$.
 > 2. $\text{ker }\beta\to \text{ker }\gamma$ is given by $\psi|_{\text{ker }\beta}$ with similar reasoning as above.
@@ -80,6 +80,19 @@
 
 ^dc9a84
 
+---
+> [!lemma] Proposition 4 (Hom(,N) is left exact)
+> Let $M_{1},M_{2},M_{3}$ be $R$-modules. TFAE:
+> 1. $M_{1}\xrightarrow{\varphi_{1}}M_{2}\xrightarrow{\varphi_{2}}M_{3}\to 0$ is exact.
+> 2. $0 \to \text{Hom}(M_{3},N)\xrightarrow{\varphi_{2}^{*}}\text{Hom}(M_{2},N)\xrightarrow{\varphi_{1}^{*}}\text{Hom}(M_{1},N)$ is exact for every $R$-module $N$ where $\varphi_{i}^{*}(\psi)=\psi \circ \varphi_{i}$. 
+
+> [!proof]+
+> We have that:
+> 1. (1=>2): Assume the sequence is exact. Then, 
+> 	1. Let $\varphi ^{*}_{2}(\psi)=\psi \circ \varphi_{2}=0$ for some $\psi\in \text{Hom}(M_{3},N)$. Then, as $\varphi_{2}$ is surjective, $\psi=0$. 
+> 	2. We have that $\varphi_{1}^{*}(\varphi ^{*}_{2}(\psi))=\psi \circ \varphi_{2} \circ \varphi_{1}=\psi \circ 0=0$. Hence, $\text{im }\varphi ^{*}_{2}\subseteq \text{ker }\varphi ^{*}_{1}$. Conversely, let $\psi\in \text{ker }\varphi ^{*}_{1}$. Then, $\psi \circ \varphi_{1}=0$ and $\text{ker }\varphi_{2}=\text{im }\varphi_{1}\subseteq \text{ker }\psi$. 
+> 	   
+> 	   Let's define $\psi':M_{3}\to N$ as follows. For any $m_{3}\in M_{3}$, by surjectivity, there exists $m_{2}\in M_{2}$ with $\varphi_{2}(m_{2})=m_{3}$. 
 ---
 ##### Examples
 > [!h] Example 1 (Examples of SES)
