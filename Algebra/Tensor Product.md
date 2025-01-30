@@ -1,14 +1,15 @@
-#Definition #Algebra #RepresentationTheory 
+#Definition #Algebra 
 
 > [!definition]
-> Let $M,N$ be $R$-[[Module|modules]]. A ***tensor product*** of $M$ and $N$ is an $R$-module $M\otimes N$ and a bilinear map $\otimes:M\times N\to M\otimes N$ s.t. 
-> 1. for every $R$-bilinear map $\beta:M\times N\to Q$, there exists a unique factorization $\beta=f \circ \beta_{0}$ where $f$ is a $R$-module homomorphism.
+> Let $M,N,P$ be $R$-[[Module|modules]]. 
+> 1. A map $\alpha:M\times N\to P$ is called ***bilinear*** if $\alpha(m,\cdot):N\to P$ and $\alpha(\cdot,n):M\to P$ are $R$-linear for all $m\in M,n\in N$.
+> 2. A ***tensor product of $M$ and $N$ over $R$*** is an $R$-module $M\otimes N$ together with a bilinear map $\tau:M\times N\to M\otimes N$ s.t. 
+> 	1. **universal property**: for every bilinear map $\alpha:M\times N\to P$, there exists a unique linear map $\varphi:M\otimes N\to P$ s.t. $\alpha=\varphi \circ \tau$.
+> 
+> The elements in $M\otimes N$ are called ***tensors***. 
 
-> For two $K$-[[Vector Space|vector spaces]] $V,W$, the ***tensor product*** $V\otimes W$ is defined as $(V\times W) /U$ where $U$ is the subspace spanned by: $$\begin{align}&(v_{1}+v_{2})\otimes w-v_{1}\otimes w-v_{2}\otimes w\\&v\otimes (w_{1}+w_{2})-v\otimes w_{1}-v\otimes w_{2}\\&av\otimes w-a(v\otimes w)\\&v\otimes aw-a(v\otimes w)\end{align}$$for $v\in V,w\in W,a\in K$.
-- **Related definition**: $v\otimes w$ for $v\in V,w\in W$ are called ***pure tensors***.
-- **Equivalent definition**: $V\otimes W$ is the [[Free Group|free abelian group]] $F_{\{ v\otimes w \}_{v\in V,w\in W}} / U$ where $U$ is a subgroup spanned by: $$\begin{align}&(v_{1}+v_{2})\otimes w-v_{1}\otimes w-v_{2}\otimes w\\&v\otimes (w_{1}+w_{2})-v\otimes w_{1}-v\otimes w_{2}\\&av\otimes w-v\otimes aw\end{align}$$
-- **Remark**: Tensor product is associative: $(V_{1}\otimes V_{2})\otimes V_{3}=V_{1}\otimes(V_{2}\otimes V_{3})$.
-- **Related definition**: For $A\in \mathcal{B}(V,V')$ and $B\in \mathcal{B}(W,W')$, the ***tensor product of $A$ and $B$*** is given as: $$\begin{array}{cccc} {A\otimes B:}&{V\otimes W}&\to&{V'\otimes W'}\\&{v\otimes w} &\mapsto & {Av\otimes Bw} \end{array}{}$$
+- **Remark**: By the definition, we have that $\text{Bilinear}(M\times N, P)\cong \text{Hom}(M\otimes N,P)$, i.e. they are bijective.
+
 ---
 ##### Properties
 > [!lemma] Proposition 1

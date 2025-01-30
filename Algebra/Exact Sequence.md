@@ -32,17 +32,24 @@
 > 1. **Splitting**: If $M_{1}\xrightarrow{\varphi_{1}}M_{2}\xrightarrow{\varphi_{2}}M_{3}\xrightarrow{\varphi_{3}}M_{4}$ is an exact sequence of $R$-modules, $$M_{1}\xrightarrow{\varphi_{1}}M_{2}\xrightarrow{\varphi_{2}}\text{ker }\varphi_{3}\to 0,\quad 0\to \text{ker }\varphi_{3}\hookrightarrow M_{3}\xrightarrow{\varphi_{3}}M_{4}$$are exact as well.
 > 2. **Gluing**: If the following sequences are exact: $$M_{1}\xrightarrow{\varphi_{1}}M_{2}\xrightarrow{\varphi_{2}}N\to 0, \quad 0\to N\hookrightarrow M_{3}\xrightarrow{\varphi_{3}}M_{4}$$with $N\leq M_{3}$, then $M_{1}\xrightarrow{\varphi_{1}}M_{2}\xrightarrow{\varphi_{2}}M_{3}\xrightarrow{\varphi_{3}}M_{4}$ is exact as well.
 
+^f850db
+
 > [!proof]-
 > We have:
 > 1. First sequence is exact as $\text{ker }\varphi_{3}=\text{im }\varphi_{2}$. The second sequence is exact trivially.
 > 2. The exactness at $M_{3}$ follows from, $\text{im }\varphi_{2}=N=\text{ker }\varphi_{3}$.
-- **Corollary:** $0\to M_{n}\xrightarrow{\varphi}M_{n-1}\to\dots\to M_{1}\to 0$ can be split into SES's: $$0\to \text{ker }\varphi \to M_{i} \xrightarrow{\varphi} \text{im }\varphi_{i}\to 0$$
+
+^583bf5
+
+- **Corollary:** $0\to M_{n}\xrightarrow{\varphi}M_{n-1}\to\dots\to M_{1}\to 0$ can be split into SES's: $$0\to \text{ker }\varphi \to M_{i} \xrightarrow{\varphi} \text{im }\varphi_{i}\to 0$$ ^85ed3b
 ---
 > [!lemma] Theorem 3 (Snake Lemma)
 > For the following commutative diagram with exact rows, $$\begin{CD}&&M @>\varphi>> N @>\psi>> P @>>> 0\\&@VV\alpha V@VV\beta V@VV\gamma V\\0@>>> M'@>>\varphi'> N' @>>\psi'> P' \end{CD}$$
 > 1. The following sequence is exact:$$\text{ker }\alpha\to \text{ker }\beta\to \text{ker }\gamma \to M' / \text{im }\alpha \to N' / \text{im }\beta\to P' / \text{im }\gamma$$
 > 2. if $\varphi$ is injective, so is $\text{ker }\alpha\to \text{ker }\beta$ in the sequence above.
 > 3. if $\psi'$ is surjective, so is $N' / \text{im }\beta\to P'/\text{im }\gamma$ in the sequence above.
+
+^445d2b
 
 > [!proof]- 
 > Let's construct the homomorphisms: 
@@ -61,6 +68,9 @@
 > 4. Exactness at $N' / \text{im } \beta$: if $\overline{n'}\in \text{im }\tilde{\varphi}'$, then we have $\tilde{\varphi}'(\overline{m'})=\overline{n'}$ for some $m'\in M'$, hence, $$\tilde{\psi}'(\overline{n'})=\tilde{\psi}'(\tilde{\varphi}'(\overline{m'}))=0$$ Conversely, if $\overline{n'}\in \text{ker }\tilde{\psi'}$, then $\psi'(n')\in \text{im } \gamma$ and $\psi'(n')=\gamma(p)$ for some $p\in P$. As $\psi$ is surjective, let $n\in N$ with $\psi(n)=p$. Then, $$\psi'(n'-\beta(n))=\gamma(p-\psi(n))=0$$and $n'-\beta(n)\in \text{ker }\psi'=\text{im }\varphi'$. Hence, there is $m'\in M'$ with $\varphi'(m')=n'-\beta(n)$ and: $$\tilde{\varphi}'(\overline{m'})=[n'-\beta(n)]=[n']$$
 > 5. If $\varphi$ is injective, so is its restriction.
 > 6. If $\psi'$ is surjective, then for any $p'\in P'$, there exists $n'\in N'$ with $\psi'(n')=p'$. Hence, $\tilde{\psi'}(\overline{n'})=\overline{p'}$. 
+
+^ab3adc
+
 ---
 
 > [!lemma] Theorem 3 (5-Lemma)
@@ -86,6 +96,8 @@
 > 1. $M_{1}\xrightarrow{\varphi_{1}}M_{2}\xrightarrow{\varphi_{2}}M_{3}\to 0$ is exact.
 > 2. $0 \to \text{Hom}(M_{3},N)\xrightarrow{\varphi_{2}^{*}}\text{Hom}(M_{2},N)\xrightarrow{\varphi_{1}^{*}}\text{Hom}(M_{1},N)$ is exact for every $R$-module $N$ where $\varphi_{i}^{*}(\psi)=\psi \circ \varphi_{i}$. 
 
+^13c098
+
 > [!proof]-
 > We have that:
 > 1. (1=>2): Assume the sequence is exact. Then, 
@@ -101,13 +113,20 @@
 >    
 >    For exactness at $M_{3}$, consider $N:= M_{3} / \text{im }\varphi_{2}$ and $\psi:M_{3}\to N$. Then, $$\varphi_{2}^{*}(\psi)=\psi \circ  \varphi_{2}= 0$$and by injectivity, $\psi= 0$. However, as $\psi$ is surjective by definition, we have that $M_{3} / \text{im }\varphi_{2}= 0$ and $\text{im }\varphi_{2}=M_{3}$. 
 
+^cefc2b
+
 ---
 > [!lemma] Proposition 5
 > Let: $$0 \to M_{1} \xrightarrow{\varphi} M_{2} \to \dots \to M_{n}\to 0$$be an exact sequence of $R$-modules of finite length. Then, 
 > 1. $\sum_{i=1}^{n}(-1)^i \ell(M_{i})= 0$.
 
+^98a284
+
 > [!proof]-
 > By [[Composition Series|Proposition 2.3]], $$\begin{align}\sum_{i=1}^{n}(-1)^i \ell(M_{i})&=\sum_{i=1}^{n}(-1)^i (\ell(\text{ker }\varphi_{i})+\ell(\text{im }\varphi_{i}))\\&=-\ell(\text{ker }\varphi_{1})+\sum_{i=2}^{n}(-1)^i\ell (\text{ker }\varphi_{i})+\sum_{i=1}^{n-1}(-1)^i \ell(\text{im }\varphi_{i})+(-1)^n \ell(\text{im } \varphi_{n})\\&=-\ell(\text{ker }\varphi_{1})-\sum_{i=1}^{n-1}(-1)^i\ell (\text{im }\varphi_{i})+\sum_{i=1}^{n-1}(-1)^i \ell(\text{im }\varphi_{i})+(-1)^n \ell(\text{im } \varphi_{n})\\&=-\ell(\text{ker }\varphi_{1})+(-1)^n\ell(\text{im }\varphi_{n})\\&=0\end{align}$$
+
+^02d4e6
+
 ---
 ##### Examples
 > [!h] Example 1 (Examples of SES)
@@ -115,13 +134,22 @@
 > 1.  $0\to \text{ker }\varphi\hookrightarrow M \xrightarrow{\varphi} \text{im }\varphi \to 0$ is exact.
 > 2. $0\to A\hookrightarrow M \xrightarrow{q} M / A \to 0$ where $q$ is the quotient map.
 > 3. $0\to \text{ker } \varphi \to M\xrightarrow{\varphi} N \to N / \text{im }\varphi \to 0$ by glueing 1 and 2.
+
+^543479
+
 ---
 > [!h] Example 2 (Ideals)
 > Let $I,J\unlhd R$. 
 > 1. there is an exact sequence $0\to I\cap J \to I\oplus J \to I+J \to 0$.
 > 2. there is an exact sequence $0 \to R / (I\cap J) \to R / I \oplus R / J \to R / (I+J) \to 0$
 
-> [!proof]+
+^d29c40
+
+> [!proof]-
 > We have that:
 > 1. Consider the map $$f:I\cap J \to I\oplus J, \quad x\mapsto (x,x),\quad g:I\oplus  J \to I+J,\quad (x,y)\mapsto x-y$$Then, $f$ is injective, $g$ is surjective and $g(f(x))=0$ hence $\text{im }f\subseteq \text{ker } g$. Similarly, if $(x,y)\in \text{ker } g$, then $x-y=0$ and $x=y$. Hence, $\text{im } f = \text{ker } g$. 
-> 2. Using the Snake lemma, we get $$\begin{CD}&&I\cap J @>f>> I\oplus J @>g>> I+J @>>> 0\\&@VV V@VVV@VVV\\0@>>> R@>>> R\oplus R @>>> R \end{CD}$$where the downward maps are injections. Then, $$ 0 \to 0 \to 0 \to R / (I\cap J) \to R / I \oplus  R / J\to R / (I+J)$$Further, as $R\oplus R \to R$ is surjective, we get and
+> 2. Using the Snake lemma, we get $$\begin{CD}&&I\cap J @>f>> I\oplus J @>g>> I+J @>>> 0\\&@VV V@VVV@VVV\\0@>>> R@>>> R\oplus R @>>> R \end{CD}$$where the downward maps are injections. Then, $$ 0 \to 0 \to 0 \to R / (I\cap J) \to R / I \oplus  R / J\to R / (I+J)$$Further, as $R\oplus R \to R$ is surjective, we get an exact sequence: $$0 \to R / (I\cap J) \to R / I \oplus  R / J\to R / (I+J) \to 0$$
+
+^744c49
+
+---

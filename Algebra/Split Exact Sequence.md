@@ -64,7 +64,12 @@
  > Let $U,V,W$ be $K$-vector spaces. Then, 
  > 1. $0 \to U \xrightarrow{\varphi} V \xrightarrow{\psi} W \to 0$ is split.
 
+^b9664b
+
 > [!proof]-
 > We have:
 > 1. Let $(b_{i})_{i\in I}$ be the basis of $W$ and we choose $c_{i}\in \psi ^{-1}(b_{i})$ by surjectivity of $\psi$. Then, there is a unique linear map $\beta: W\to V$ with $\beta(b_{i}) = c_{i}$. Hence, $\psi \circ \beta=\text{id}_{W}$ and the sequence is split. 
+
+^0a929e
+
  
