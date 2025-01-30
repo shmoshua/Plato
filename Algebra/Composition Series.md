@@ -4,8 +4,11 @@
 > Let $M$ be a $R$-module. 
 > 1. A ***composition series*** of $M$ is a finite chain: $$0=M_{0}\subsetneq M_{1}\subsetneq\dots\subsetneq M_{n} =M $$of submodules s.t. there is no submodule $N$ with $M_{i-1}\subsetneq N\subsetneq M_{i}$ for all $i$.
 > 2. the ***length*** of $M$, denoted as $\ell_{R}(M)$ is the shortest length of a composition series of $M$. If $M$ does not admit a composition series, then $\ell _R(M):=\infty$. 
-- **Remark**: From [[module|Proposition 5]], $0=M_{0}\subsetneq M_{1}\subsetneq\dots\subsetneq M_{n} =M$ forms a composition series if and only if $M_{i} / M_{i-1}$ has no non-trivial proper submodules for all $i$. 
-- **Remark**: For vector spaces, the length is equivalent to their dimension.
+
+^7b6826
+
+- **Remark**: From [[module|Proposition 5]], $0=M_{0}\subsetneq M_{1}\subsetneq\dots\subsetneq M_{n} =M$ forms a composition series if and only if $M_{i} / M_{i-1}$ has no non-trivial proper submodules for all $i$.  ^8cc574
+- **Remark**: For vector spaces, the length is equivalent to their dimension. ^009d6e
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Length)
@@ -14,6 +17,8 @@
 > 2. every composition series of $M$ has length $\ell(M)$.
 > 3. every chain $0=M_{0}\subsetneq M_{1}\subsetneq\dots\subsetneq M_{n} =M$ can be refined into a composition series.
 
+^4f96d6
+
 > [!proof]-
 > We have:
 > 1. Let $n:=\ell(M)$ and  $0=M_{0}\subsetneq M_{1}\subsetneq\dots\subsetneq M_{n} =M$ be a composition series of $M$. Consider,  $$0=N\cap M_{0}\subsetneq N\cap M_{1}\subsetneq\dots\subsetneq N\cap M_{n} =N\cap M $$ is a chain of submodules from $N$ to $0$. Then, by the isomorphism theorem, $$(N\cap M_{i}) / (N\cap M_{i-1})=(N\cap M_{i}) / (N\cap M_{i}\cap M_{i-1})\cong (N\cap M_{i}+M_{i-1}) / M_{i-1}$$which is a submodule of $M_{i} / M_{i+1}$, which is simple. Hence, $(N\cap M_{i}) / (N\cap M_{i-1})$ is trivial or simple. Hence, we have that $\ell(N)\leq \ell(M)$. 
@@ -21,12 +26,17 @@
 >    To show that $\ell(N)< \ell(M)$, notice that $(N\cap M_{i}) / (N\cap M_{i-1})$ is simple only when $N\cap M_{i}+M_{i-1}=M_{i}$. Assume this happens at every $i$. Then, by induction, $$M_{i}=N\cap M_{i}+M_{i-1}=N\cap M_{i}+N\cap M_{i-1}=N\cap M_{i}$$ In particular, $M=N\cap M$, which contradicts our assumption. Hence, there exists $i$ s.t. $(N\cap M_{i}) / (N\cap M_{i-1})= 0$. By taking this out of the composition series, we have that $\ell(N)<\ell(M)$.
 >  2. Let $0=M_{0}\subsetneq M_{1}\subsetneq\dots\subsetneq M_{n} =M$ be a composition series.  Then, by 1, $$0=\ell(M_{0})<\ell(M_{1})<\dots< \ell(M_{n})=\ell(M)$$Hence, $\ell(M)\geq n$. But we have that $\ell(M)\leq n$. Therefore, $\ell(M)=n$. 
 >  3. Let $M_{i+1}, M_{i}$ s.t. $M_{i+1} / M_{i}$ is not simple. Then, let $P$ be a non-trivial submodule and $\pi ^{-1}(P)$ is a submodule between $M_{i}$ and $M_{i+1}$ where $\pi:M_{i+1}\to M_{i+1} / M_{i}$. Hence, it follows.
+
+^efe39a
+
 ---
 > [!lemma] Proposition 2 (Additivity of Length)
 > Let $M$ be a $R$-module and $N,N'\leq M$. Then, 
 > 1. $\ell(N)+\ell(M / N)=\ell(M)$.
 > 2. $\ell(N+N')+\ell(N\cap N')=\ell(N)+\ell(N')$.
 > 3. for any $R$-module homomorphism $\varphi:M\to M'$, $\ell(\text{ker }\varphi)+\ell(\text{im }\varphi)=\ell(M)$
+
+^fb4863
 
 > [!proof]-
 > We have:
@@ -36,7 +46,10 @@
 > 	3. If both sides of the equations are infinite, then the statement is trivially true. 
 > 2. Let $Q:=(N+N') / N'\cong N / (N\cap N')$. Then, $$\ell(N')+\ell(Q)=\ell(N+N'),\quad \ell(N\cap N')+\ell(Q)=\ell(N)$$Hence, if $\ell(N')=\ell(N+N')=\infty$, then the statement is true. Similarly, if $\ell(N\cap N')=\ell(N)=\infty$, then it is also true. Otherwise, $$\ell(N+N')+\ell(N\cap N')=\ell(N)+\ell(N')$$
 > 3. We have that $M / \text{ker }\varphi= \text{im }\varphi$. The rest follows from 1. 
-- **Corollary**: For a $R$-module homomorphism, $\varphi:M\to M$ where $M$ is of finite length, TFAE:
+
+^8891f4
+
+- **Corollary**: For a $R$-module homomorphism, $\varphi:M\to M$ where $M$ is of finite length, TFAE: ^201ec3
 	1. $\varphi$ is injective, i.e. $\ell(\text{ker }\varphi)= 0$.
 	2. $\varphi$ is surjective, i.e. $\ell(\text{im }\varphi)= \ell(M)$.
 	3. $\varphi$ is bijective.

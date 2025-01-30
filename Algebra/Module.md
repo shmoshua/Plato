@@ -106,14 +106,48 @@
 >    
 >    Notice that by the isomorphism, $R / \text{ker }\varphi$ also has only $0$ and itself as submodules. However, as $R / \text{ker }\varphi$ is also a quotient ring, we have that the ring has only $0$ and itself as ideals, which shows that $R / \text{ker }\varphi$ is a field and $\text{ker }\varphi$ is maximal.
 > 3. (3=>1): Assume that there exists a submodule $P\leq M$ with $N\subsetneq P\subsetneq M$. Then, $P / N\leq M / N$ and $\text{ker } \varphi \subsetneq\varphi^{-1}( P / N)\subsetneq R$ which proves that $I$ is not maximal. 
+
+^e2d50e
+
 ---
 > [!lemma] Theorem 6 (Cayley-Hamilton)
 > Let $M$ be a finitely generated $R$-module, $I\unlhd R$ and $\varphi\in \text{Hom}_{R}(M,M)$ with $\varphi(M)\subseteq IM$. Then, 
-> 1. there exists a monic polynomial $\chi\in R[x]$ s.t. $\chi(\varphi)=0$. 
+> 1. there exists a monic polynomial $\chi\in R[x]$ with non-leading coefficients in $I$ s.t. $\chi(\varphi)=0$. 
 
-> [!proof]+
-> Let $m_{1},\dots,m_{n}$ be generators of $M$. By assumption $\varphi(m_{i})\in IM$ for all $i\in [n]$. Hence, there exists $a_{ij}$ for all $i,j\in[n]$ s.t. $$\varphi(m_{i})=\sum_{j}^{}a_{ij}m_{j},\quad \forall i\in[n]$$Now, from Example 4, we can consider $(M,\varphi)$ as a $R[x]$-module, where $$\left( \sum_{k}^{} a_{k}x^k \right)m=\sum_{k}a_{k}\varphi^k(m)$$Then, we can rewrite this as: $$\sum_{j}^{}a_{ij}m_{j}=x\cdot m_{i}=\sum_{j}^{}x\delta_{ij}m_{j},\quad \sum_{j}(x\delta_{ij}-a_{ij})m_{j}=0$$
+^2596fc
 
+> [!proof]-
+> Let $m_{1},\dots,m_{n}$ be generators of $M$. By assumption $\varphi(m_{i})\in IM$ for all $i\in [n]$. Hence, there exists $a_{ij}$ for all $i,j\in[n]$ s.t. $$\varphi(m_{i})=\sum_{j}^{}a_{ij}m_{j},\quad \forall i\in[n]$$Now, from Example 4, we can consider $(M,\varphi)$ as a $R[x]$-module, where $$\left( \sum_{k}^{} a_{k}x^k \right)m=\sum_{k}a_{k}\varphi^k(m)$$Then, we can rewrite this as: $$\sum_{j}^{}a_{ij}m_{j}=x\cdot m_{i}=\sum_{j}^{}x\delta_{ij}m_{j},\quad \sum_{j}(x\delta_{ij}-a_{ij})m_{j}=0$$Hence, we get that: $$\det((x\delta_{ik}-a_{ik})_{ik})\cdot m_{j}=0,\quad \forall j\in [n]$$It follows that $\chi(\varphi):= \det((x\delta_{ik}-a_{ik})_{ik})$ is the zero homomorphism. 
+> 
+> Expanding the determinant we get that the non-leading coefficients are in $I$. 
+
+^689671
+
+---
+> [!lemma] Corollary 7 (Nakayama)
+> Let $M$ be a finitely generated $R$-module, $I\unlhd R$ with $IM=M$. Then, 
+> 1. there is an element $a\in I$ with $am=m$ for all $m\in M$. 
+
+^34f98c
+
+> [!proof]-
+> As $IM=M$, we can apply Cayley-Hamilton to $\varphi=\text{id}_{M}$. Then, there exists $a_{0},\dots,a_{n-1}\in I$ s.t. $$\text{id}^n+a_{n-1}\text{id}^{n-1}+\dots+a_{0}=(1+a_{n-1}+\dots+a_{0})\text{id}=0$$By setting $a:=-a_{n-1}-\dots- a_{0}$, we have that $(1-a)\text{id}= 0$ and for all $m\in M$, $m=am$.
+
+^e10b0f
+
+---
+> [!lemma] Corollary 8 (Conditions for Isomorphisms)
+> Let $M$ be a finitely generated $R$-module:
+> 1. Any surjective homomorphism $\varphi:M\to M$ is an isomorphism.
+
+^ff47ea
+
+> [!proof]-
+> Using Example 4, let us consider $(M,\varphi)$ be a $R[x]$-module with $x\cdot m:=\varphi(m)$. Then, $$x\cdot M=\varphi(M)=M$$and we can use Nakayama's lemma with $I:=(x)$. Hence, there is a polynomial $f\in (x)$ s.t. $$f\cdot m=a_{n}\varphi^n(m)+\dots+a_{1}\varphi(m)=m, \quad \forall m\in M$$Hence, if $\varphi(m)=0$, then $m=0$. Hence, $\varphi$ is injective. 
+
+^82e201
+
+- **Remark**: Even when $M$ is not finitely generated, if $M$ is of finite [[Composition Series|length]], then injective, surjective and bijective are equivalent. (cf. [[Composition Series|Proposition 2]]).
 ---
 ##### Examples
 > [!h] Example 1

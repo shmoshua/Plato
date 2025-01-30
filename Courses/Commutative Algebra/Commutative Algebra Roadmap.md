@@ -280,5 +280,47 @@
 ##### 3.1.4 Basis and Free Modules
 ![[Basis#^937cda]]
 ![[Basis#^2b5c98]]
+![[Basis#^99a3cc|q]]
 
 ---
+![[Basis#^350fd6]]
+![[Basis#^a4ee9e|p]]
+
+---
+![[Basis#^1b2e6b]]
+![[Basis#^aaa83f|p]]
+
+---
+![[Basis#^425e0f]]
+![[Basis#^44d267|p]]
+
+---
+##### 3.1.5 Composition Series and Length of a Module
+![[Composition Series#^7b6826]]
+![[Composition Series#^8cc574]]
+![[Composition Series#^009d6e|q]]
+
+---
+![[Composition Series#^4f96d6]]
+![[Composition Series#^efe39a|p]]
+
+---
+![[Composition Series#^fb4863]]
+![[Composition Series#^8891f4|p]]
+![[Composition Series#^201ec3]]
+
+---
+##### 3.1.6 Surjective Homomorphisms are Isomorphisms
+![[Module#^2596fc]]
+![[Module#^689671|p]]
+
+---
+![[Module#^34f98c]]
+![[Module#^e10b0f|p]]
+
+---
+![[Module#^ff47ea]]
+![[Module#^82e201|p]]
+
+---
+### 4. Exact Sequences

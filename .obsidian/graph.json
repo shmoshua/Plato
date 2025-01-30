@@ -90,6 +90,13 @@
         "a": 1,
         "rgb": 14329627
       }
+    },
+    {
+      "query": "tag:#CommutativeAlgebra  ",
+      "color": {
+        "a": 1,
+        "rgb": 11010048
+      }
     }
   ],
   "collapse-display": true,

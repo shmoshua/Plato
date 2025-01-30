@@ -55,30 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Composition Series.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Composition Series"
-            }
-          },
-          {
-            "id": "1d39779cee39ac0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Module.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Module"
+              "title": "Exact Sequence"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -90,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Commutative Algebra Roadmap"
+              "title": "Exact Sequence"
             }
           },
           {
@@ -125,9 +111,22 @@
               "icon": "lucide-file",
               "title": "Module"
             }
+          },
+          {
+            "id": "1e7bbb51a566339e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Basis.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Basis"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,14 +270,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c5a1f0f6c56bef19",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
-    "Algebra/Free Module.md",
-    "Algebra/Composition Series.md",
-    "Algebra/Module.md",
-    "Untitled 1.md",
-    "Algebra/Basis.md",
+    "Algebra/p-adic Integer.md",
+    "Algebra/Exact Sequence.md",
+    "exact.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Composition Series.md",
+    "Algebra/Basis.md",
+    "Algebra/Module.md",
+    "Algebra Homomorphism.md",
+    "Algebra/Free Module.md",
+    "Untitled 1.md",
     "Algebra/Direct Sum.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Annihilator.md",
@@ -295,10 +298,6 @@
     "Algebra/Coprime Ideal.md",
     "Discrete Mathematics/Order.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Integral Domain.md",
-    "Algebra/Unit.md",
-    "Algebra/Ring Homomorphism.md",
-    "Algebra/Variety.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
