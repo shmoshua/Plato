@@ -84,8 +84,16 @@
 > 	2. $\Psi:V^{*}\otimes V^{*}\to \text{Bilinear}(V,V)$ s.t. $\Psi(\varphi \otimes \psi)(v,v')=\varphi(v)\psi(v')$.
 > 	3. $T:V^{*}\otimes V\to K$ s.t. $T(\varphi\otimes v)=\varphi(v)$.
 > 	
->2. $\Phi,\Psi$ are injective 
-> 
+>2. $\Phi,\Psi$ are injective.
+>3. $\Phi,\Psi$ are isomorphisms if $V,W$ are finite dimensional.
+
+> [!proof]+
+> We have that:
+> 1. Consider: $$V^{*}\times W\to \text{Hom}(V,W),\quad (\varphi,w)\mapsto (v\mapsto \varphi(v)w)$$ is bilinear and by universal property the statement holds. Similarly, $$V^{*}\times V^{*}\to \text{Bilinear}(V,V),\quad (\varphi,\psi)\mapsto ((v,v')\mapsto \varphi(v)\psi(v'))$$$$V^{*}\times V \to K,\quad (\varphi,v)\mapsto \varphi(v)$$are bilinear and by universal property the statement holds. 
+> 2. We have that: $$\Phi\left( \sum_{i}^{}\varphi_{i}\otimes w_{i}\right)(v)=\sum_{i}^{}\Phi(\varphi_{i}\otimes  w_{i})(v)=\sum_{i}\varphi_{i}(v)w_{i}$$Assume that $\sum_{i}^{}\varphi_{i}(v)w_{i}=0$ for all $v\in V$. 
+>    
+>    Let $\Phi(\varphi \otimes w)=0$. Then, $\varphi(v)w=0$ for all $v$, which holds if either $\varphi=0$ or $w=0$, i.e. $\varphi \otimes w= 0$. As $V^{*}\otimes W$ is
+> 	
 
 ---
 > [!h] Example 1
