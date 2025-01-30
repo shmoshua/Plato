@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Algebra/Module.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Free Module"
+              "title": "Module"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -127,7 +127,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -271,14 +271,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "94b19b665f8ecfb1",
+  "active": "c5a1f0f6c56bef19",
   "lastOpenFiles": [
-    "Algebra/Module.md",
+    "Algebra/Free Module.md",
     "Algebra/Composition Series.md",
+    "Algebra/Module.md",
     "Untitled 1.md",
     "Algebra/Basis.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Free Module.md",
     "Algebra/Direct Sum.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Annihilator.md",

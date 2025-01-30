@@ -23,10 +23,22 @@
 >  3. Let $M_{i+1}, M_{i}$ s.t. $M_{i+1} / M_{i}$ is not simple. Then, let $P$ be a non-trivial submodule and $\pi ^{-1}(P)$ is a submodule between $M_{i}$ and $M_{i+1}$ where $\pi:M_{i+1}\to M_{i+1} / M_{i}$. Hence, it follows.
 ---
 > [!lemma] Proposition 2 (Additivity of Length)
-> Let $M$ be a $R$-module and $N\leq M$. Then, 
+> Let $M$ be a $R$-module and $N,N'\leq M$. Then, 
 > 1. $\ell(N)+\ell(M / N)=\ell(M)$.
+> 2. $\ell(N+N')+\ell(N\cap N')=\ell(N)+\ell(N')$.
+> 3. for any $R$-module homomorphism $\varphi:M\to M'$, $\ell(\text{ker }\varphi)+\ell(\text{im }\varphi)=\ell(M)$
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. We first assume that $\ell(M)<\infty$. By Proposition 1.3, we can refine $0\leq N\leq M$ into a composition series. $$0 =N_{0}\subsetneq \dots\subsetneq N_{n}=N= M_{0}\subsetneq\dots\subsetneq M_{m}=M$$where $\ell(M)=n+m$ and $\ell(N)=n$. By setting $P_{i}:= M_{i} / N$, we get a chain:$$0=P_{0}\subsetneq\dots\subsetneq P_{m}=M / N$$To show that this is a composition series, we have that: $$P_{i+1}/P_{i}=(M_{i+1} / N) / (M_{i} / N)\cong M_{i+1} / M_{i}$$Hence is simple. Therefore, $\ell(M/N)=m$.  This shows the statement.
-> 2. We now assume that $\ell(N)$ and $\ell(M/N)$ are finite. 
+> 1. Notice that:
+> 	1. We first assume that $\ell(M)<\infty$. By Proposition 1.3, we can refine $0\leq N\leq M$ into a composition series. $$0 =N_{0}\subsetneq \dots\subsetneq N_{n}=N= M_{0}\subsetneq\dots\subsetneq M_{m}=M$$where $\ell(M)=n+m$ and $\ell(N)=n$. By setting $P_{i}:= M_{i} / N$, we get a chain:$$0=P_{0}\subsetneq\dots\subsetneq P_{m}=M / N$$To show that this is a composition series, we have that: $$P_{i+1}/P_{i}=(M_{i+1} / N) / (M_{i} / N)\cong M_{i+1} / M_{i}$$Hence is simple. Therefore, $\ell(M/N)=m$.  This shows the statement.
+> 	2. We now assume that $\ell(N)$ and $\ell(M/N)$ are finite. Let $$0=N_{0}\subsetneq\dots\subsetneq N_{n}=N,\quad 0=P_{0}\subsetneq\dots\subsetneq P_{m}=M / N$$be the composition series. Let $q:M\to M / N$ be the quotient map and we define $M_{i}:=q^{-1}(P_{i})$ for all $i$. Then, we have that: $M_{i+1}/M_{i}\cong P_{i+1} / P_{i}$ as above and we get a composition series for $m$ of length $m+n$. 
+> 	3. If both sides of the equations are infinite, then the statement is trivially true. 
+> 2. Let $Q:=(N+N') / N'\cong N / (N\cap N')$. Then, $$\ell(N')+\ell(Q)=\ell(N+N'),\quad \ell(N\cap N')+\ell(Q)=\ell(N)$$Hence, if $\ell(N')=\ell(N+N')=\infty$, then the statement is true. Similarly, if $\ell(N\cap N')=\ell(N)=\infty$, then it is also true. Otherwise, $$\ell(N+N')+\ell(N\cap N')=\ell(N)+\ell(N')$$
+> 3. We have that $M / \text{ker }\varphi= \text{im }\varphi$. The rest follows from 1. 
+- **Corollary**: For a $R$-module homomorphism, $\varphi:M\to M$ where $M$ is of finite length, TFAE:
+	1. $\varphi$ is injective, i.e. $\ell(\text{ker }\varphi)= 0$.
+	2. $\varphi$ is surjective, i.e. $\ell(\text{im }\varphi)= \ell(M)$.
+	3. $\varphi$ is bijective.
+	
+---

@@ -107,6 +107,14 @@
 >    Notice that by the isomorphism, $R / \text{ker }\varphi$ also has only $0$ and itself as submodules. However, as $R / \text{ker }\varphi$ is also a quotient ring, we have that the ring has only $0$ and itself as ideals, which shows that $R / \text{ker }\varphi$ is a field and $\text{ker }\varphi$ is maximal.
 > 3. (3=>1): Assume that there exists a submodule $P\leq M$ with $N\subsetneq P\subsetneq M$. Then, $P / N\leq M / N$ and $\text{ker } \varphi \subsetneq\varphi^{-1}( P / N)\subsetneq R$ which proves that $I$ is not maximal. 
 ---
+> [!lemma] Theorem 6 (Cayley-Hamilton)
+> Let $M$ be a finitely generated $R$-module, $I\unlhd R$ and $\varphi\in \text{Hom}_{R}(M,M)$ with $\varphi(M)\subseteq IM$. Then, 
+> 1. there exists a monic polynomial $\chi\in R[x]$ s.t. $\chi(\varphi)=0$. 
+
+> [!proof]+
+> Let $m_{1},\dots,m_{n}$ be generators of $M$. By assumption $\varphi(m_{i})\in IM$ for all $i\in [n]$. Hence, there exists $a_{ij}$ for all $i,j\in[n]$ s.t. $$\varphi(m_{i})=\sum_{j}^{}a_{ij}m_{j},\quad \forall i\in[n]$$Now, from Example 4, we can consider $(M,\varphi)$ as a $R[x]$-module, where $$\left( \sum_{k}^{} a_{k}x^k \right)m=\sum_{k}a_{k}\varphi^k(m)$$Then, we can rewrite this as: $$\sum_{j}^{}a_{ij}m_{j}=x\cdot m_{i}=\sum_{j}^{}x\delta_{ij}m_{j},\quad \sum_{j}(x\delta_{ij}-a_{ij})m_{j}=0$$
+
+---
 ##### Examples
 > [!h] Example 1
 > We have:
