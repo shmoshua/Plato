@@ -33,16 +33,35 @@
 > 	
 > 	Since $\alpha$ is bilinear, $\varphi$ is well-defined and $\alpha=\varphi \circ \tau$. It is also clear that this is the unique choice that makes this possible. This proves the claim.
 ---
-> [!lemma] Proposition 2
-> If $\{ v_{i} \}_{i}$ is a basis of $V$ and $\{ w_{j} \}_{j}$ is a basis of $W$, $\{ v_{i}\otimes w_{j} \}_{i,j}$ is a basis of $V\otimes W$. 
+> [!lemma] Lemma 2 (Properties of Tensors)
+> For any $R$-modules $M,N,P$, 
+> 1. $M\otimes N\cong N\otimes M$.
+> 2. $M\otimes R\cong M$.
+> 3. $(M\oplus N)\otimes P\cong (M\otimes P)\oplus(N\otimes P)$.
+> 4. $M\otimes N\otimes P\cong (M\otimes N)\otimes P\cong M\otimes(N\otimes P)$.
 
 > [!proof]-
-> Clearly $\{ v_{i}\otimes w_{j} \}$ spans $V\otimes W$ by definition. To see the linear independence, let $e_{ij}:V\otimes W\to K$ be s.t. $e_{ij}(v_{i}\otimes w_{j})=1$ and vanishes on any other basis tensor. 
-> 
-> Assume that $A:=\sum_{i,j}^{}a_{ij}(v_{i}\otimes w_{j})=0$. Then, $e_{ij}(A)=a_{ij}=0$ for all $i,j$.
+> We have that:
+> 1. $(m,n)\mapsto n\otimes m$ is bilinear and by the universal property, there exists a unique linear map: $$\varphi:M\otimes N\to N\otimes M,\quad \varphi(m\otimes n)=n\otimes m,\quad \forall m\in M,n\in N$$Similarly, we get $\psi:N\otimes M\to M\otimes N$ with $\psi(n\otimes m)=m\otimes n$. Then, $(\psi \circ\varphi)(m\otimes n)=m\otimes n$ for all $m\in M$ and $n\in N$. As $\{ m\otimes n \}_{m,n}$ generate $M\otimes N$, we have that $\psi \circ \varphi=\text{id}$. Similar for the converse. Hence, $\varphi$ is an isomorphism.
+> 2. $(m,a)\mapsto am$ is bilinear and by the universal property, there exists a unique linear map: $$\varphi:M\otimes R\to M,\quad \varphi(m\otimes a)=am,\quad \forall m\in M,a\in R$$Further, there is a linear map $\psi:M\to M\otimes R,m\mapsto m\otimes 1$. Then, $$(\psi \circ  \varphi)(m\otimes  a)=\psi(am)=am\otimes 1=a(m\otimes 1)=m\otimes a$$and $(\varphi \circ \psi)(m)=\varphi(m\otimes 1)=m$. Hence, $\varphi$ is an isomorphism.
+> 3. $((m,n),p)\to(m\otimes p,n\otimes p)$ induces a bilinear map. Hence, there exists a unique linear: $$\varphi:(M\oplus N)\otimes P\to(M\otimes P)\oplus (N\otimes P), \quad\varphi((m,n)\otimes p)=(m\otimes p, n\otimes p)$$Similarly, we get $M\otimes P\to(M\oplus N)\otimes P,m\otimes p\mapsto (m,0)\otimes p$ and $N\otimes P\to(M\oplus N)\otimes P,n\otimes p\mapsto (0,n)\otimes p$. Hence, $$\psi:(M\otimes P)\oplus (N\otimes P)\to(M\oplus  N)\otimes P,\quad \psi(m\otimes p,n\otimes q)=(m,0)\otimes p+(0,n)\otimes q$$One easily sees that $\psi$ and $\varphi$ are inverses on the pure tensors and hence on the whole space.
+> 4. Let the LHS be a tensor product defined from the trilinear map, i.e. for any trilinear $\alpha:M\times N\times P\to Q$, there exists a unique linear map $\varphi:M\otimes N\otimes P \to Q$ s.t. $\alpha(m,n,p)=\varphi (m\otimes n\otimes p)$. 
+>    
+>    Then, notice that $(m,n,p)\mapsto (m\otimes n) \otimes p$ is trilinear and by the universal property, we have: $$\varphi:M\otimes N\otimes P\to(M\otimes N)\otimes P,\quad \varphi(m\otimes n\otimes p)=(m\otimes  n)\otimes  p$$Conversely, let $\alpha:(M\otimes N)\times P\to M\otimes N\otimes P$ defined on $\alpha(m\otimes n, p):=m\otimes n\otimes p$ then extended on the whole space. Then, $\alpha$ remains bilinear and there exists: $$\psi:(M\otimes N)\otimes P\to M\otimes N\otimes P,\quad \psi((m\otimes n)\otimes  p)=m\otimes n\otimes p$$Hence, $\varphi,\psi$ are inverses on pure tensors and hence on the whole space.
+>    
+>    The proof for $M\otimes(N\otimes P)$ is analogous and this proves the associativity.
+- **Remark**: If $M,N$ are free of rank $m,n$ respectively, $$M\otimes N\cong R^m\otimes (R\oplus \dots \oplus R)\cong (R^m \otimes R)\oplus \dots \oplus (R^m \otimes R)\cong R^m\oplus \dots \oplus R^m\cong R^{mn}$$
 ---
 ##### Examples
+> [!h] Example 1
+> Let $I,J\unlhd R$ be [[Coprime Ideal|coprime]]. Then,
+> 1. $R / I\otimes R / J=0$
 
+> [!proof]+
+> We have: 
+> 1. Let $a\in I,b\in J$ s.t. $a+b=1$. Let $r,s\in R$. For $\overline{r}\otimes \overline{s}\in R / I\otimes R / J$, $$\overline{r} \otimes \overline{s}=(a+b)(\overline{r} \otimes \overline{s})=\overline{ar}\otimes  \overline{s}+\overline{r} \otimes  \overline{bs}=0$$hence, $R / I\otimes R / J=0$.
+
+---
 > [!h] Example 1
 > Let $V$ be a finite-dimensional vector space. Then, $$\begin{array}{cccc} {J:}&{V^{*}\otimes W}&\to&{\text{Hom}(V,W)}\\&{f\otimes w} &\mapsto & {v\mapsto f(v)w} \end{array}{}$$is an isomorphism.
 
