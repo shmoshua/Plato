@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "Algebra/Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "Module"
             }
           },
           {
@@ -246,15 +246,15 @@
   "active": "94b19b665f8ecfb1",
   "lastOpenFiles": [
     "Algebra/Ideal (Ring).md",
-    "Algebra/Basis.md",
-    "Algebra/Ring.md",
+    "Algebra/Module.md",
     "Algebra/Tensor Product.md",
     "Algebra/Exact Sequence.md",
+    "Algebra/Basis.md",
+    "Algebra/Ring.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Composition Series.md",
     "Algebra/Split Exact Sequence.md",
     "Commutative Algebra/Morphism (Variety).md",
-    "Algebra/Module.md",
     "Topology/Quotient Topology.md",
     "Algebra/p-adic Integer.md",
     "exact.md",
