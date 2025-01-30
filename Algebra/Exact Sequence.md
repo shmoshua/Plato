@@ -1,10 +1,9 @@
 #Definition #Algebra 
 
 > [!definition]
-> Let $R$ be a [[ring]] and $(M_{n})_{n}$ be a sequence of $R$-[[Module|modules]] given by: $$\dots\to M$$
-> 
-> 1. [[Abelian Group|Abelian groups]] $A,B,C$ and [[Group Homomorphism|homomorphisms]] $A\xrightarrow{i}B\xrightarrow{j} C$ forms an ***exact sequence*** if $\text{ker}(j)=\text{im}(i)$. 
-> 2. A sequence $\cdots \to A_{k+1}\xrightarrow{f}A_{k}\xrightarrow{f}A_{k-1}\to \cdots$ of abelian groups is ***exact*** if every subsequence of 3 groups is exact.
+> Let $R$ be a [[ring]] and $(M_{n})_{n}$ be a sequence of $R$-[[Module|modules]] given by: $$\dots\to M_{i+1}\xrightarrow{\varphi_{i+1}} M_{i} \xrightarrow{\varphi_{i}} M_{i-1} \to \cdots  $$where $\varphi_{i}:M_{i}\to M_{i-1}$ are $R$-module homomorphisms. 
+> 1. The sequence is called ***exact at $M_{i}$*** if $\text{im } \varphi_{i+1}=\text{ker }\varphi_{i}$. 
+> 2. The sequence is called ***exact***, if it is exact at every module $M_{i}$ except the ends. 
 
 ^ce710c
 
@@ -13,10 +12,11 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> For abelian groups $A,B$ and a homomorphism $f$,
+> For $R$-modules $A,B$ and a homomorphism $f$,
 > 1. $0\to A\xrightarrow{f} B$ is exact if and only if $f$ is injective.
 > 2. $A\xrightarrow{f} B\to 0$ is exact if and only if $f$ is surjective.
 > 3. $0\to A\xrightarrow{f} B\to 0$ is exact if and only if $f$ is an isomorphism.
+> 4. $0\to A\to 0$ is exact if and only if $A=0$.
 
 ^75c17f
 
@@ -27,9 +27,26 @@
 
 - **Corollary**: For a SES $0\to A\xrightarrow{i} B\xrightarrow{j} C\to 0$, $i$ is injective, $j$ is surjective and $j$ induces an isomorphism $B /i(A)\to C$.  ^729f68
 ---
-> [!lemma] Theorem 2 (5-Lemma)
+> [!lemma] Lemma 2 (Splitting and Gluing)
+> We have that:
+> 1. **Splitting**: If $M_{1}\xrightarrow{\varphi_{1}}M_{2}\xrightarrow{\varphi_{2}}M_{3}\xrightarrow{\varphi_{3}}M_{4}$ is an exact sequence of $R$-modules, $$M_{1}\xrightarrow{\varphi_{1}}M_{2}\xrightarrow{\varphi_{2}}\text{ker }\varphi_{3}\to 0,\quad 0\to \text{ker }\varphi_{3}\hookrightarrow M_{3}\xrightarrow{\varphi_{3}}M_{4}$$are exact as well.
+> 2. **Gluing**: If the following sequences are exact: $$M_{1}\xrightarrow{\varphi_{1}}M_{2}\xrightarrow{\varphi_{2}}N\to 0, \quad 0\to N\hookrightarrow M_{3}\xrightarrow{\varphi_{3}}M_{4}$$with $N\leq M_{3}$, then $M_{1}\xrightarrow{\varphi_{1}}M_{2}\xrightarrow{\varphi_{2}}M_{3}\xrightarrow{\varphi_{3}}M_{4}$ is exact as well.
+
+> [!proof]-
+> We have:
+> 1. First sequence is exact as $\text{ker }\varphi_{3}=\text{im }\varphi_{2}$. The second sequence is exact trivially.
+> 2. The exactness at $M_{3}$ follows from, $\text{im }\varphi_{2}=N=\text{ker }\varphi_{3}$.
+- **Corollary:** $0\to M_{n}\xrightarrow{\varphi}M_{n-1}\to\dots\to M_{1}\to 0$ can be split into SES's: $$0\to \text{ker }\varphi \to M_{i} \xrightarrow{\varphi} \text{im }\varphi_{i}\to 0$$
+---
+> [!lemma] Theorem 3 (Snake Lemma)
+> Let: $$\begin{CD}
+
+\end{CD}$$
+---
+
+> [!lemma] Theorem 3 (5-Lemma)
 > Let the following diagram of abelian groups be commutative: 
-> $$\begin{CD}A@>i>>B@>j>>C@>\ell>>D@>k>>E\\@VaVV@VbVV@VcVV@VdVV@VeVV\\A'@>>i'>B'@>>j'>C'@>>\ell'>D'@>>k'>E\end{CD}$$If the two rows are exact sequences, we have that:
+>$$\begin{CD}A@>i>>B@>j>>C@>\ell>>D@>k>>E\\@VaVV@VbVV@VcVV@VdVV@VeVV\\A'@>>i'>B'@>>j'>C'@>>\ell'>D'@>>k'>E\end{CD}$$If the two rows are exact sequences, we have that:
 > 1. if $b,d$ are injective and $a$ is surjective, then $c$ is injective.
 > 2. if $b,d$ are surjective and $e$ is injective, then $c$ is surjective.
 > 3. if $a,b,d,e$ are isomorphisms, then $c$ is an isomorphism.
@@ -45,3 +62,9 @@
 ^dc9a84
 
 ---
+##### Examples
+> [!h] Example 1 (Examples of SES)
+> Let $M,N$ be $R$-modules and $\varphi:M\to N$ a homomorphism. Let $A\leq M$. Then, 
+> 1.  $0\to \text{ker }\varphi\hookrightarrow M \xrightarrow{\varphi} \text{im }\varphi \to 0$ is exact.
+> 2. $0\to A\hookrightarrow M \xrightarrow{q} M / A \to 0$ where $q$ is the quotient map.
+> 3. $0\to \text{ker } \varphi \to M\xrightarrow{\varphi} N \to N / \text{im }\varphi \to 0$ by glueing 1 and 2.
