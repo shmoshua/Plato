@@ -1,7 +1,8 @@
 #Definition #Algebra 
 
 > [!definition]
-> Let $R$ be a [[ring]] and $(M_{n})_{n}$ be a sequence of $R$-[[Module|modules]].
+> Let $R$ be a [[ring]] and $(M_{n})_{n}$ be a sequence of $R$-[[Module|modules]] given by: $$\dots\to M$$
+> 
 > 1. [[Abelian Group|Abelian groups]] $A,B,C$ and [[Group Homomorphism|homomorphisms]] $A\xrightarrow{i}B\xrightarrow{j} C$ forms an ***exact sequence*** if $\text{ker}(j)=\text{im}(i)$. 
 > 2. A sequence $\cdots \to A_{k+1}\xrightarrow{f}A_{k}\xrightarrow{f}A_{k-1}\to \cdots$ of abelian groups is ***exact*** if every subsequence of 3 groups is exact.
 
