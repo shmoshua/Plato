@@ -57,9 +57,24 @@
 > Let $I,J\unlhd R$ be [[Coprime Ideal|coprime]]. Then,
 > 1. $R / I\otimes R / J=0$
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. Let $a\in I,b\in J$ s.t. $a+b=1$. Let $r,s\in R$. For $\overline{r}\otimes \overline{s}\in R / I\otimes R / J$, $$\overline{r} \otimes \overline{s}=(a+b)(\overline{r} \otimes \overline{s})=\overline{ar}\otimes  \overline{s}+\overline{r} \otimes  \overline{bs}=0$$hence, $R / I\otimes R / J=0$.
+
+---
+> [!h] Example 2
+> We have that:
+> 1. $\mathbb{Q} / \mathbb{Z} \otimes_{\mathbb{Z}}\mathbb{Q} / \mathbb{Z}=0$.
+> 2. $\mathbb{Q} \otimes_{\mathbb{Z}}\mathbb{Q} \cong \mathbb{Q}$
+> 3. $\mathbb{C} \otimes_{\mathbb{R}}\mathbb{C}\cong \mathbb{C}\oplus \mathbb{C}$
+> 4. $\mathbb{Q}[x]\otimes_{\mathbb{Q}}\mathbb{C}\cong \mathbb{C}[x]$
+
+> [!proof]-
+> We have:
+> 1. Consider $\frac{p}{q}\otimes \frac{m}{n}$. We have: $$\frac{p}{q}\otimes \frac{m}{n}=\frac{np}{nq}\otimes \frac{m}{n}=n\frac{p}{nq}\otimes \frac{m}{n}=\frac{p}{q}\otimes m=\frac{p}{q}\otimes 0=0$$
+> 2. We claim that: $$\psi:\mathbb{Q}\otimes _{\mathbb{Z}} \mathbb{Q}\to \mathbb{Q},\quad \alpha \otimes  \beta\mapsto \alpha\beta$$is an isomorphism. We have that: $$\frac{a}{b}\otimes  \frac{c}{d}=\frac{ac}{bd}\otimes 1$$Similarly as above. This proves the statement.
+> 3. We have that: $$\mathbb{C}\otimes _{\mathbb{R}}\mathbb{C}\cong \mathbb{C}\otimes _{\mathbb{R}} (\mathbb{R}\oplus \mathbb{R})=(\mathbb{C}\otimes _{\mathbb{R}}\mathbb{R})\oplus (\mathbb{C}\otimes _{\mathbb{R}}\mathbb{R})=\mathbb{C}\oplus \mathbb{C}$$
+> 4. We have that: $$\varphi:\mathbb{Q}[x]\otimes _{\mathbb{Q}} \mathbb{C}\to \mathbb{C}[x],\quad f\otimes  \alpha\to \alpha f$$is isomorphic with its inverse given by: $\psi(\alpha x^i)\mapsto x^i\otimes \alpha$.
 
 ---
 > [!h] Example 1
