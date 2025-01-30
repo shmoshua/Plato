@@ -39,9 +39,25 @@
 - **Corollary:** $0\to M_{n}\xrightarrow{\varphi}M_{n-1}\to\dots\to M_{1}\to 0$ can be split into SES's: $$0\to \text{ker }\varphi \to M_{i} \xrightarrow{\varphi} \text{im }\varphi_{i}\to 0$$
 ---
 > [!lemma] Theorem 3 (Snake Lemma)
-> Let: $$\begin{CD}
+> For the following commutative diagram with exact rows, $$\begin{CD}&&M @>\varphi>> N @>\psi>> P @>>> 0\\&@VV\alpha V@VV\beta V@VV\gamma V\\0@>>> M'@>>\varphi'> N' @>>\psi'> P' \end{CD}$$
+> 1. The following sequence is exact:$$\text{ker }\alpha\to \text{ker }\beta\to \text{ker }\gamma \to M' / \text{im }\alpha \to N' / \text{im }\beta\to P' / \text{im }\gamma$$
+> 2. if $\varphi$ is injective, so is $\text{ker }\alpha\to \text{ker }\beta$ in the sequence above.
+> 3. if $\psi'$ is surjective, so is $N' / \text{im }\beta\to P'/\text{im }\gamma$ in the sequence above.
 
-\end{CD}$$
+> [!proof]+
+> Let's construct the homomorphisms: 
+> 1. $\text{ker }\alpha\to \text{ker }\beta$ is given by $\varphi|_{\text{ker }\alpha}$. For $m\in \text{ker }\alpha$, $\beta(\varphi(m))=\varphi'(\alpha(m))= 0$ and $\varphi(m)\in \text{ker } \beta$.
+> 2. $\text{ker }\beta\to \text{ker }\gamma$ is given by $\psi|_{\text{ker }\beta}$ with similar reasoning as above.
+> 3. $\text{ker }\gamma\to M' / \text{im }\alpha$ is given by the connecting homomorphism $\delta$. Let $p\in \text{ker } \gamma$. As $\psi$ is surjective, there exists $n\in N$ with $\psi(n)=p$. However, $$\psi'(\beta(n))=\gamma(\psi(n))=\gamma(p)=0$$and $\beta(n)\in \text{ker }\psi'=\text{im } \varphi'$. Hence, there exists $m'\in M'$ with $\varphi'(m')=\beta(n)$. We define $\delta(p):=[m']$. 
+>    
+>    We need to verify that this is well-defined. As $\varphi'$ is injective, the choice of $m'$ was unique. Assume we have a different $\tilde{n}\in N$ with $\psi(n)=p$ with $\tilde{m}'$ s.t. $\varphi'(\tilde{m}')=\beta(\tilde{n})$. Then, $\psi(\tilde{n}-n)=0$ and $\tilde{n}-n\in \text{ker }\psi=\text{im }\varphi$. Hence, $\tilde{n}-n=\varphi(m)$ for some $m\in M$. Therefore, $$\varphi'(\tilde{m}'-m')=\beta(\tilde{n}-n)=\beta(\varphi(m))=\varphi'(\alpha(m))$$Hence, by the injectivity, $\tilde{m}'-m'=\alpha(m)$ and $[m']=[\tilde{m}']$.
+> 4. As $\varphi'(\text{im } \alpha)\subseteq \text{im }\beta$, $\varphi'$ gives rise to a well-defined map $M / \text{im }\alpha \to N / \text{im } \beta$. 
+> 5. Similarly for the last map.
+>    
+> It is left to show that this sequence are exact. 
+> 1. Exactness at $\text{ker }\beta$: $\psi(\varphi(m))= 0$ for all $m\in \text{ker }\alpha$. Hence, the image is contained in the kernel. Conversely, if $\psi(n)=0$ for some $n\in \text{ker }\beta$, then $n\in \text{ker }\psi=\text{im } \varphi$ and there exists $m\in M$ with $\varphi(m)=n$. However, notice that: $$\varphi'(\alpha(m))=\beta(n)=0$$As $\varphi'$ is injective, $\alpha(m)=0$ and $m\in \text{ker } \alpha$. This shows that $n$ is in the image.
+> 2. Exactness at $\text{ker }\gamma$: For $n\in \text{ker } \beta$, we get by construction that $\delta(\psi(n))= 0$. Hence, $\text{im }\tilde{\psi}\subseteq \text{ker } \delta$. Conversely, if $p\in \text{ker }\delta$, then let $n\in N$ with $\psi(n)=p$ and $m'\in M'$ with $\varphi'(m')=\beta(n)$. However, we get that $m'\in \text{im }\alpha$ and there exists $m\in M$ with $\alpha(m) = m'$. Therefore, $$\beta(n)=\varphi'(m')=\varphi'(\alpha(m))=\beta(\varphi(m))$$Hence, $n-\varphi(m)\in \text{ker }\beta$ and: $\tilde{\psi}(n-\varphi(m))= p -\psi(\varphi(m))=p$.
+> 3. Exactness at $M' / \text{im }@$
 ---
 
 > [!lemma] Theorem 3 (5-Lemma)

@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Composition Series.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Composition Series"
+              "title": "Quotient Topology"
             }
           },
           {
@@ -110,20 +110,6 @@
               },
               "icon": "lucide-file",
               "title": "Module"
-            }
-          },
-          {
-            "id": "1e7bbb51a566339e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Basis.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Basis"
             }
           }
         ]
@@ -272,13 +258,14 @@
   },
   "active": "9b9313d05c25084b",
   "lastOpenFiles": [
-    "Algebra/p-adic Integer.md",
+    "Algebra/Module.md",
+    "Algebra/Basis.md",
     "Algebra/Exact Sequence.md",
+    "Topology/Quotient Topology.md",
+    "Algebra/Composition Series.md",
+    "Algebra/p-adic Integer.md",
     "exact.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Composition Series.md",
-    "Algebra/Basis.md",
-    "Algebra/Module.md",
     "Algebra Homomorphism.md",
     "Algebra/Free Module.md",
     "Untitled 1.md",
@@ -297,7 +284,6 @@
     "Algebra/Maximal Ideal.md",
     "Algebra/Coprime Ideal.md",
     "Discrete Mathematics/Order.md",
-    "Algebra/Principal Ideal Domain.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
