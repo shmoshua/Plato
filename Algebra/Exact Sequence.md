@@ -92,7 +92,12 @@
 > 	1. Let $\varphi ^{*}_{2}(\psi)=\psi \circ \varphi_{2}=0$ for some $\psi\in \text{Hom}(M_{3},N)$. Then, as $\varphi_{2}$ is surjective, $\psi=0$. 
 > 	2. We have that $\varphi_{1}^{*}(\varphi ^{*}_{2}(\psi))=\psi \circ \varphi_{2} \circ \varphi_{1}=\psi \circ 0=0$. Hence, $\text{im }\varphi ^{*}_{2}\subseteq \text{ker }\varphi ^{*}_{1}$. Conversely, let $\psi\in \text{ker }\varphi ^{*}_{1}$. Then, $\psi \circ \varphi_{1}=0$ and $\text{ker }\varphi_{2}=\text{im }\varphi_{1}\subseteq \text{ker }\psi$. 
 > 	   
-> 	   Let's define $\psi':M_{3}\to N$ as follows. For any $m_{3}\in M_{3}$, by surjectivity, there exists $m_{2}\in M_{2}$ with $\varphi_{2}(m_{2})=m_{3}$. 
+> 	   Let's define $\psi':M_{3}\to N$ as follows. For any $m_{3}\in M_{3}$, by surjectivity, there exists $m_{2}\in M_{2}$ with $\varphi_{2}(m_{2})=m_{3}$. Then, $\psi'(m_{3})=\psi(m_{2})$. To show that this is well-defined, if $m_{2}'\in M_{2}$ s.t. $\varphi_{2}(m_{2}')=m_{3}$, then, $\varphi_{2}(m_{2}-m'_{2})=0$ and $$m_{2}-m'_{2}\in \text{ker }\varphi_{2}\subseteq \text{ker }\psi$$Hence, $\psi(m_{2})=\psi(m'_{2})$. 
+> 	   
+> 	   Further, we show that it is a homomorphism. For $a,b\in M_{3}$ with $a',b'\in M_{2}$ with $\varphi_{2}(a')=a$ and $\varphi_{2}(b')=b$, $\varphi_{2}(a'+b')=a+b$ and, $$\psi'(a+b)=\varphi_{2}(a'+b')=\varphi_{2}(a')+\varphi_{2}(b')=\psi'(a)+\psi'(b)$$Similar for scalar multiplication. 
+> 	   
+> 	   Lastly, $\varphi ^{*}_{2} (\psi')(m_{2})=\psi' (\varphi_{2}(m_{2}))=\psi'(m_{3})=\psi(m_{2})$. Hence, $\psi\in \text{im }\varphi ^{*}_{2}$.
+> 2. (2=>1): We first show that the sequence is exact at $M_{2}$. Consider $N=M_{3}$. Then, $$0 = \varphi ^{*}_{1}(\varphi ^{*}_{2}(\text{id}_{M_{3}}))=\text{id}_{M_{3}}\circ  \varphi_{2}\circ \varphi_{1}=  \varphi_{2}\circ \varphi_{1}$$Hence, $\text{im }\varphi_{1}\subseteq \text{ker }\varphi_{2}$. Conversely, let $m_{2}\in \text{ker }\varphi_{2}$. Then, let $N:=M_{2} / \text{im } \varphi_{1}$ and $\psi:M_{2}\to N$ be the canonical projection. Then, $$\varphi ^{*}_{1}(\psi)=\psi \circ  \varphi_{1} = 0$$and $\psi\in \text{ker }\varphi ^{*}_{1}=\text{im } \varphi ^{*}$
 ---
 ##### Examples
 > [!h] Example 1 (Examples of SES)
