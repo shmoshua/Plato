@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "Algebra/Split Exact Sequence.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "Split Exact Sequence"
             }
           }
         ],
@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "Algebra/Split Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "Split Exact Sequence"
             }
           },
           {
@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Algebra/Composition Series.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Quotient Topology"
+              "title": "Composition Series"
             }
           },
           {
@@ -256,13 +256,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "402e47533faa15a4",
   "lastOpenFiles": [
-    "Topology/Quotient Topology.md",
-    "Algebra/Module.md",
     "Algebra/Exact Sequence.md",
-    "Algebra/Basis.md",
+    "Algebra/Split Exact Sequence.md",
     "Algebra/Composition Series.md",
+    "Algebra/Module.md",
+    "Topology/Quotient Topology.md",
+    "Algebra/Basis.md",
     "Algebra/p-adic Integer.md",
     "exact.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
@@ -283,7 +284,6 @@
     "Algebra/Field.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Coprime Ideal.md",
-    "Discrete Mathematics/Order.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

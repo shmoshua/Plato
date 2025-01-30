@@ -1,15 +1,15 @@
 #Definition #Algebra #AlgebraicTopology 
 
 > [!definition]
-> A [[Exact Sequence|short exact sequence (SES)]] of abelian groups  $0\to A\xrightarrow{i} B\xrightarrow{j} C\to 0$ is ***split*** if: 
-> 1. there exists a [[Group Homomorphism|group isomorphism]] $\tau:B\to A\oplus C$ s.t. the following diagram commutes:$$\begin{CD}0 @>>> A@>i>> B@>j>> C @>>> 0\\&@V\text{id}VV @V\tau VV@V\text{id}VV\\0 @>>> A@>>i_{A}> A\oplus C@>>\text{pr}> C @>>> 0  \end{CD}$$where $i_{A}(a) = (a,c)$ and $\text{pr}(a,c)=c$.
+> A [[Exact Sequence|short exact sequence (SES)]] of $R$-[[Module|modules]]  $0\to A\xrightarrow{i} B\xrightarrow{j} C\to 0$ is ***split*** if: 
+> 1. there exists a $R$-module isomorphism $\tau:B\to A\oplus C$ s.t. the following diagram commutes:$$\begin{CD}0 @>>> A@>i>> B@>j>> C @>>> 0\\&@V\text{id}VV @V\tau VV@V\text{id}VV\\0 @>>> A@>>i_{A}> A\oplus C@>>\text{pr}> C @>>> 0  \end{CD}$$where $i_{A}(a) = (a,c)$ and $\text{pr}(a,c)=c$.
 
 ^350e24
 
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $0\to A\xrightarrow{i} B\xrightarrow{j} C\to 0$ be an SES of abelian groups. Then, TFAE:
+> Let $0\to A\xrightarrow{i} B\xrightarrow{j} C\to 0$ be an SES of $R$-modules. Then, TFAE:
 > 1. the sequence is split.
 > 2. there exists a homomorphism $e:B\to B$ with $e^2 = e$ s.t. $\text{ker}(e)=\text{im}(i)=\text{ker}(j)$.
 > 3. there exists a homomorphism $s:C\to B$ with $j\circ s = \text{id}$. (right inverse)
@@ -60,4 +60,11 @@
 ^25dda7
 
 ---
+ > [!h] Example 2
+ > Let $U,V,W$ be $K$-vector spaces. Then, 
+ > 1. $0 \to U \xrightarrow{\varphi} V \xrightarrow{\psi} W \to 0$ is split.
+
+> [!proof]-
+> We have:
+> 1. Let $(b_{i})_{i\in I}$ be the basis of $W$ and we choose $c_{i}\in \psi ^{-1}(b_{i})$ by surjectivity of $\psi$. Then, there is a unique linear map $\beta: W\to V$ with $\beta(b_{i}) = c_{i}$. Hence, $\psi \circ \beta=\text{id}_{W}$ and the sequence is split. 
  
