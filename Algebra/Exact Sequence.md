@@ -115,3 +115,13 @@
 > 1.  $0\to \text{ker }\varphi\hookrightarrow M \xrightarrow{\varphi} \text{im }\varphi \to 0$ is exact.
 > 2. $0\to A\hookrightarrow M \xrightarrow{q} M / A \to 0$ where $q$ is the quotient map.
 > 3. $0\to \text{ker } \varphi \to M\xrightarrow{\varphi} N \to N / \text{im }\varphi \to 0$ by glueing 1 and 2.
+---
+> [!h] Example 2 (Ideals)
+> Let $I,J\unlhd R$. 
+> 1. there is an exact sequence $0\to I\cap J \to I\oplus J \to I+J \to 0$.
+> 2. there is an exact sequence $0 \to R / (I\cap J) \to R / I \oplus R / J \to R / (I+J) \to 0$
+
+> [!proof]+
+> We have that:
+> 1. Consider the map $$f:I\cap J \to I\oplus J, \quad x\mapsto (x,x),\quad g:I\oplus  J \to I+J,\quad (x,y)\mapsto x-y$$Then, $f$ is injective, $g$ is surjective and $g(f(x))=0$ hence $\text{im }f\subseteq \text{ker } g$. Similarly, if $(x,y)\in \text{ker } g$, then $x-y=0$ and $x=y$. Hence, $\text{im } f = \text{ker } g$. 
+> 2. Using the Snake lemma, we get $$\begin{CD}&&I\cap J @>f>> I\oplus J @>g>> I+J @>>> 0\\&@VV V@VVV@VVV\\0@>>> R@>>> R\oplus R @>>> R \end{CD}$$where the downward maps are injections. Then, $$ 0 \to 0 \to 0 \to R / (I\cap J) \to R / I \oplus  R / J\to R / (I+J)$$Further, as $R\oplus R \to R$ is surjective, we get and

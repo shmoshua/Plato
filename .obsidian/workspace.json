@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Split Exact Sequence.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Split Exact Sequence"
+              "title": "Exact Sequence"
             }
           }
         ],
@@ -104,15 +104,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Module"
+              "title": "Exact Sequence"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -258,10 +259,10 @@
   },
   "active": "402e47533faa15a4",
   "lastOpenFiles": [
-    "Algebra/Exact Sequence.md",
     "Algebra/Split Exact Sequence.md",
-    "Algebra/Composition Series.md",
+    "Algebra/Exact Sequence.md",
     "Algebra/Module.md",
+    "Algebra/Composition Series.md",
     "Topology/Quotient Topology.md",
     "Algebra/Basis.md",
     "Algebra/p-adic Integer.md",
