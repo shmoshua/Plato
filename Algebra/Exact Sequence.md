@@ -44,7 +44,7 @@
 > 2. if $\varphi$ is injective, so is $\text{ker }\alpha\to \text{ker }\beta$ in the sequence above.
 > 3. if $\psi'$ is surjective, so is $N' / \text{im }\beta\to P'/\text{im }\gamma$ in the sequence above.
 
-> [!proof]+
+> [!proof]-
 > Let's construct the homomorphisms: 
 > 1. $\text{ker }\alpha\to \text{ker }\beta$ is given by $\varphi|_{\text{ker }\alpha}$. For $m\in \text{ker }\alpha$, $\beta(\varphi(m))=\varphi'(\alpha(m))= 0$ and $\varphi(m)\in \text{ker } \beta$.
 > 2. $\text{ker }\beta\to \text{ker }\gamma$ is given by $\psi|_{\text{ker }\beta}$ with similar reasoning as above.
@@ -57,7 +57,10 @@
 > It is left to show that this sequence are exact. 
 > 1. Exactness at $\text{ker }\beta$: $\psi(\varphi(m))= 0$ for all $m\in \text{ker }\alpha$. Hence, the image is contained in the kernel. Conversely, if $\psi(n)=0$ for some $n\in \text{ker }\beta$, then $n\in \text{ker }\psi=\text{im } \varphi$ and there exists $m\in M$ with $\varphi(m)=n$. However, notice that: $$\varphi'(\alpha(m))=\beta(n)=0$$As $\varphi'$ is injective, $\alpha(m)=0$ and $m\in \text{ker } \alpha$. This shows that $n$ is in the image.
 > 2. Exactness at $\text{ker }\gamma$: For $n\in \text{ker } \beta$, we get by construction that $\delta(\psi(n))= 0$. Hence, $\text{im }\tilde{\psi}\subseteq \text{ker } \delta$. Conversely, if $p\in \text{ker }\delta$, then let $n\in N$ with $\psi(n)=p$ and $m'\in M'$ with $\varphi'(m')=\beta(n)$. However, we get that $m'\in \text{im }\alpha$ and there exists $m\in M$ with $\alpha(m) = m'$. Therefore, $$\beta(n)=\varphi'(m')=\varphi'(\alpha(m))=\beta(\varphi(m))$$Hence, $n-\varphi(m)\in \text{ker }\beta$ and: $\tilde{\psi}(n-\varphi(m))= p -\psi(\varphi(m))=p$.
-> 3. Exactness at $M' / \text{im }@$
+> 3. Exactness at $M' / \text{im }\alpha$: if $\overline{m'}\in \text{im }\delta$, then $\tilde{\varphi}'(m')=\overline{\varphi'(m')}=\overline{\beta(n)}=0$. Conversely, if $\overline{m'}\in \text{ker }\tilde{\varphi}'$, then $n':=\varphi'(m')\in \text{im }\beta$ and $n'=\beta(n)$ for some $n\in N$. Then, $\psi(n)=:p$ satisfies: $$\gamma(p)=\gamma(\psi(n))=\psi'(\beta(n))=\psi'(n')=\psi'(\varphi'(m'))=0$$Hence, $\delta(p)=\overline{m'}$.
+> 4. Exactness at $N' / \text{im } \beta$: if $\overline{n'}\in \text{im }\tilde{\varphi}'$, then we have $\tilde{\varphi}'(\overline{m'})=\overline{n'}$ for some $m'\in M'$, hence, $$\tilde{\psi}'(\overline{n'})=\tilde{\psi}'(\tilde{\varphi}'(\overline{m'}))=0$$ Conversely, if $\overline{n'}\in \text{ker }\tilde{\psi'}$, then $\psi'(n')\in \text{im } \gamma$ and $\psi'(n')=\gamma(p)$ for some $p\in P$. As $\psi$ is surjective, let $n\in N$ with $\psi(n)=p$. Then, $$\psi'(n'-\beta(n))=\gamma(p-\psi(n))=0$$and $n'-\beta(n)\in \text{ker }\psi'=\text{im }\varphi'$. Hence, there is $m'\in M'$ with $\varphi'(m')=n'-\beta(n)$ and: $$\tilde{\varphi}'(\overline{m'})=[n'-\beta(n)]=[n']$$
+> 5. If $\varphi$ is injective, so is its restriction.
+> 6. If $\psi'$ is surjective, then for any $p'\in P'$, there exists $n'\in N'$ with $\psi'(n')=p'$. Hence, $\tilde{\psi'}(\overline{n'})=\overline{p'}$. 
 ---
 
 > [!lemma] Theorem 3 (5-Lemma)
