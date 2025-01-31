@@ -52,6 +52,16 @@
 >    The proof for $M\otimes(N\otimes P)$ is analogous and this proves the associativity.
 - **Remark**: If $M,N$ are free of rank $m,n$ respectively, $$M\otimes N\cong R^m\otimes (R\oplus \dots \oplus R)\cong (R^m \otimes R)\oplus \dots \oplus (R^m \otimes R)\cong R^m\oplus \dots \oplus R^m\cong R^{mn}$$
 ---
+> [!lemma] Proposition 3 (Tensor Products are Right Exact)
+> Let $R$ be a ring and $M,N,P$ be $R$-modules. 
+> 1.  $\text{Hom}(M,\text{Hom}(N,P))\cong \text{Hom}(M\otimes N,P)$
+> 2. If $M\xrightarrow{\varphi}N\xrightarrow{\psi}P\to 0$ is an [[exact sequence]], then for any $R$-module $A$:$$M\otimes A\xrightarrow{\varphi \otimes  \text{id}}N\otimes A\xrightarrow{\psi \otimes  \text{id}}P\otimes A\to 0$$is an exact sequence as well.
+
+> [!proof]+
+> We have that:
+> 1. We define a homomorphism: $$\Psi:\text{Hom}(M,\text{Hom}(N,P))\to \text{Hom}(M\otimes N,P), \quad \alpha\mapsto (m\otimes n\mapsto \alpha(m)(n))$$More precisely, for $M\times N\to P,(m,n)\mapsto \alpha(m)n$ is a bilinear map and by the universal property, $\Psi(\alpha)$ is well-defined. Hence, this is an isomorphism. 
+> 2. 
+---
 ##### Examples
 > [!h] Example 1
 > Let $I,J\unlhd R$ be [[Coprime Ideal|coprime]]. Then,

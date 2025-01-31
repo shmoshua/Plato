@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Variety"
             }
+          },
+          {
+            "id": "e318f19f611b2ed7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Module.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Module"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -62,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ideal (Ring).md",
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ideal (Ring)"
+              "title": "Commutative Algebra Roadmap"
             }
           },
           {
@@ -99,21 +113,20 @@
             }
           },
           {
-            "id": "7cda26e1c990750a",
+            "id": "b3d517ca690423a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Tensor Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Module"
+              "title": "Tensor Product"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,17 +270,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "307cbdf7a3043d90",
+  "active": "e318f19f611b2ed7",
   "lastOpenFiles": [
-    "Algebra/Variety.md",
+    "Algebra/Exact Sequence.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Module.md",
     "Algebra/Tensor Product.md",
     "Algebra/Algebra.md",
-    "Algebra/Module.md",
+    "Algebra/Variety.md",
     "Algebra/Basis.md",
-    "Algebra/Ideal (Ring).md",
-    "Algebra/Exact Sequence.md",
     "Algebra/Ring.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Composition Series.md",
     "Algebra/Split Exact Sequence.md",
     "Commutative Algebra/Morphism (Variety).md",

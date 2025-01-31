@@ -149,6 +149,43 @@
 
 - **Remark**: Even when $M$ is not finitely generated, if $M$ is of finite [[Composition Series|length]], then injective, surjective and bijective are equivalent. (cf. [[Composition Series|Proposition 2]]).
 ---
+> [!lemma] Proposition 4 (Hom(,N) is left exact)
+> Let $M_{1},M_{2},M_{3}$ be $R$-modules. TFAE:
+> 1. $M_{1}\xrightarrow{\varphi_{1}}M_{2}\xrightarrow{\varphi_{2}}M_{3}\to 0$ is exact.
+> 2. $0 \to \text{Hom}(M_{3},N)\xrightarrow{\varphi_{2}^{*}}\text{Hom}(M_{2},N)\xrightarrow{\varphi_{1}^{*}}\text{Hom}(M_{1},N)$ is exact for every $R$-module $N$ where $\varphi_{i}^{*}(\psi)=\psi \circ \varphi_{i}$. 
+
+^13c098
+
+> [!proof]-
+> We have that:
+> 1. (1=>2): Assume the sequence is exact. Then, 
+> 	1. Let $\varphi ^{*}_{2}(\psi)=\psi \circ \varphi_{2}=0$ for some $\psi\in \text{Hom}(M_{3},N)$. Then, as $\varphi_{2}$ is surjective, $\psi=0$. 
+> 	2. We have that $\varphi_{1}^{*}(\varphi ^{*}_{2}(\psi))=\psi \circ \varphi_{2} \circ \varphi_{1}=\psi \circ 0=0$. Hence, $\text{im }\varphi ^{*}_{2}\subseteq \text{ker }\varphi ^{*}_{1}$. Conversely, let $\psi\in \text{ker }\varphi ^{*}_{1}$. Then, $\psi \circ \varphi_{1}=0$ and $\text{ker }\varphi_{2}=\text{im }\varphi_{1}\subseteq \text{ker }\psi$. 
+> 	   
+> 	   Let's define $\psi':M_{3}\to N$ as follows. For any $m_{3}\in M_{3}$, by surjectivity, there exists $m_{2}\in M_{2}$ with $\varphi_{2}(m_{2})=m_{3}$. Then, $\psi'(m_{3})=\psi(m_{2})$. To show that this is well-defined, if $m_{2}'\in M_{2}$ s.t. $\varphi_{2}(m_{2}')=m_{3}$, then, $\varphi_{2}(m_{2}-m'_{2})=0$ and $$m_{2}-m'_{2}\in \text{ker }\varphi_{2}\subseteq \text{ker }\psi$$Hence, $\psi(m_{2})=\psi(m'_{2})$. 
+> 	   
+> 	   Further, we show that it is a homomorphism. For $a,b\in M_{3}$ with $a',b'\in M_{2}$ with $\varphi_{2}(a')=a$ and $\varphi_{2}(b')=b$, $\varphi_{2}(a'+b')=a+b$ and, $$\psi'(a+b)=\varphi_{2}(a'+b')=\varphi_{2}(a')+\varphi_{2}(b')=\psi'(a)+\psi'(b)$$Similar for scalar multiplication. 
+> 	   
+> 	   Lastly, $\varphi ^{*}_{2} (\psi')(m_{2})=\psi' (\varphi_{2}(m_{2}))=\psi'(m_{3})=\psi(m_{2})$. Hence, $\psi\in \text{im }\varphi ^{*}_{2}$.
+> 2. (2=>1): We first show that the sequence is exact at $M_{2}$. Consider $N=M_{3}$. Then, $$0 = \varphi ^{*}_{1}(\varphi ^{*}_{2}(\text{id}_{M_{3}}))=\text{id}_{M_{3}}\circ  \varphi_{2}\circ \varphi_{1}=  \varphi_{2}\circ \varphi_{1}$$Hence, $\text{im }\varphi_{1}\subseteq \text{ker }\varphi_{2}$. Conversely, let $N:=M_{2} / \text{im } \varphi_{1}$ and $\psi:M_{2}\to N$ be the canonical projection. Then, $$\varphi ^{*}_{1}(\psi)=\psi \circ  \varphi_{1} = 0$$and $\psi\in \text{ker }\varphi ^{*}_{1}=\text{im } \varphi ^{*}_{2}$ and there exists $\psi'\in \text{Hom}(M_{3},N)$ with $\psi' \circ \varphi_{2}=\psi$. Then, $$\text{ker }\varphi_{2}\subseteq \text{ker } \psi=\text{im }\varphi_{1}$$
+>    
+>    For exactness at $M_{3}$, consider $N:= M_{3} / \text{im }\varphi_{2}$ and $\psi:M_{3}\to N$. Then, $$\varphi_{2}^{*}(\psi)=\psi \circ  \varphi_{2}= 0$$and by injectivity, $\psi= 0$. However, as $\psi$ is surjective by definition, we have that $M_{3} / \text{im }\varphi_{2}= 0$ and $\text{im }\varphi_{2}=M_{3}$. 
+
+^cefc2b
+
+---
+> [!lemma] Proposition 5
+> Let: $$0 \to M_{1} \xrightarrow{\varphi} M_{2} \to \dots \to M_{n}\to 0$$be an exact sequence of $R$-modules of finite length. Then, 
+> 1. $\sum_{i=1}^{n}(-1)^i \ell(M_{i})= 0$.
+
+^98a284
+
+> [!proof]-
+> By [[Composition Series|Proposition 2.3]], $$\begin{align}\sum_{i=1}^{n}(-1)^i \ell(M_{i})&=\sum_{i=1}^{n}(-1)^i (\ell(\text{ker }\varphi_{i})+\ell(\text{im }\varphi_{i}))\\&=-\ell(\text{ker }\varphi_{1})+\sum_{i=2}^{n}(-1)^i\ell (\text{ker }\varphi_{i})+\sum_{i=1}^{n-1}(-1)^i \ell(\text{im }\varphi_{i})+(-1)^n \ell(\text{im } \varphi_{n})\\&=-\ell(\text{ker }\varphi_{1})-\sum_{i=1}^{n-1}(-1)^i\ell (\text{im }\varphi_{i})+\sum_{i=1}^{n-1}(-1)^i \ell(\text{im }\varphi_{i})+(-1)^n \ell(\text{im } \varphi_{n})\\&=-\ell(\text{ker }\varphi_{1})+(-1)^n\ell(\text{im }\varphi_{n})\\&=0\end{align}$$
+
+^02d4e6
+
+---
 ##### Examples
 > [!h] Example 1
 > We have:

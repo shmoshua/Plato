@@ -345,12 +345,12 @@
 ![[Exact Sequence#^dc9a84|p]]
 
 ---
-![[Exact Sequence#^13c098]]
-![[Exact Sequence#^cefc2b|p]]
+![[Module#^13c098]]
+![[Module#^cefc2b|p]]
 
 ---
-![[Exact Sequence#^98a284]]
-![[Exact Sequence#^02d4e6|p]]
+![[Module#^98a284]]
+![[Module#^02d4e6|p]]
 
 ---
 ![[Exact Sequence#^543479]]
