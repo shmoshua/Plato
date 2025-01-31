@@ -66,3 +66,13 @@
 > 3. Let $S:=\{ a^n:n\in \mathbb{N} \}$ for a fixed element $a\in R$. Then, $S^{-1}R=:R_{a}$ and is called the ***localization of $R$ at $a$.***
 > 4. For a [[prime ideal]] $P\unlhd R$, $S:= R \backslash P$ is multiplicatively closed. Then, $S^{-1}R=:R_{P}$ and is called ***localization of $R$ at $P$***.
 > 5. $\mathbb{Z}_{(p)}$ is the localization of $R$ at the prime ideal $(p)$ for $p\in \mathbb{Z}$ prime. 
+
+---
+> [!h] Example 2 (Saturation)
+> Let $S$ be a multiplicatively closed set in $R$. Then,
+> 1. the ***saturation*** of $S$, defined as $\overline{S}:=\{ s\in R:as\in S\text{ for some }a\in R \}$ is also multiplicatively closed.
+> 2. $\overline{S}^{-1}R\cong S^{-1}R$.
+
+> [!proof]+
+> We have that:
+> 1. Let $s,s'\in \overline{S}$. Then, there exists $a,a'\in R$ s.t. $as,a's'\in S$. Hence, $$aa'ss'\in S \implies ss'\in \overline{S}$$
