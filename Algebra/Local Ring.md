@@ -5,7 +5,18 @@
 
 ---
 ##### Properties
+> [!lemma] Theorem 1 (Nakayama)
+> Let $R$ be a local ring and $M$ a finitely generated module over $R$. 
+> 1. if there is a proper ideal $I\unlhd R$ with $IM=M$, then $M=0$.
+> 2. if $I\unlhd R$ is the unique maximal ideal and $m_{1},\dots,m_{k}\in M$ s.t. $\overline{m_{1}},\dots,\overline{m_{k}}$ generate $M / IM$ as a $R / I$-vector space. Then, $m_{1},\dots,m_{k}$ generate $M$ as an $R$-module.
 
+> [!proof]+
+> We have that:
+> 1. By [[Maximal Ideal|Theorem 2]], $I$ is contained in some maximal ideal $J$ and as $R$ is local, $J$ is unique. Further, we have that $JM=M$. Hence, by [[Module|Nakayama]], there exists an element $a\in J$ with $am=m$ for all $m\in M$.
+>    
+>    Now, we claim that $1-a$ is a unit. Otherwise, $(1-a)$ is a proper ideal contained in $J$. But, then $1-a$ and $a$ are both in $J$ and $1\in J$, which is a contradiction. Therefore, $(1-a)m=0$ for all $m\in M$ and this is only possible if $M=0$.
+> 2. Assume that $M\neq 0$. Then, we have that $IM\neq M$. 
+>    Let $m\in M$. Then, we have $\overline{a_{i}}\in R / I$ s.t. $$\overline{m}=\sum_{i=1}^k \overline{a_{i}}\cdot  \overline{m_{i}}$$
 ---
 ##### Examples
 > [!h] Example 1

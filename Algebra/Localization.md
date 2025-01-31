@@ -73,6 +73,7 @@
 > 1. the ***saturation*** of $S$, defined as $\overline{S}:=\{ s\in R:as\in S\text{ for some }a\in R \}$ is also multiplicatively closed.
 > 2. $\overline{S}^{-1}R\cong S^{-1}R$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Let $s,s'\in \overline{S}$. Then, there exists $a,a'\in R$ s.t. $as,a's'\in S$. Hence, $$aa'ss'\in S \implies ss'\in \overline{S}$$
+> 2. We have that: $$\varphi:\overline{S}^{-1}R\to S^{-1}R,\quad \frac{r}{s}\mapsto \frac{ar}{as}$$where $a\in R$ s.t. $as\in S$. This is well-defined as for $\frac{r}{s}=\frac{r'}{s'}$ with $u(rs'-r's)=0$ with $u\in \overline{S}$ s.t. $as\in S$ and $a's'\in S$, we have: $$bu(ara's'-a'r'as)=aa'b\cdot u(rs')=0$$where $bu\in S$. Now, $\varphi$ is surjective as $S^{-1}R$ injects into $\overline{S}^{-1}R$. To show the injectivity, let $\varphi\left( \frac{r}{s} \right)=\frac{ar}{as}=\frac{0}{1}$, i.e. $uar=0$ for some $u\in S$. Then, $$ua(r-0)=0$$and $\frac{r}{s}=0$. 
