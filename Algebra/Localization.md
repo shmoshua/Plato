@@ -86,16 +86,29 @@
 > 6. for $M_{1},M_{2}\leq M$, $S^{-1}(M_{1}\cap M_{2})\cong S^{-1}M_{1}\cap S^{-1}M_{2}$
 > 7. for $I\unlhd R$, $S^{-1}\sqrt{ I }\cong  \sqrt{ S^{-1}I }$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. by Proposition 5, localizing $0\to \text{ker }\varphi\to M\to \text{im }\varphi \to 0$, we get: $$0\to S^{-1}\text{ker }\varphi\to S^{-1}M\to S^{-1}\text{im }\varphi \to 0$$but then this means that $\text{ker }(S^{-1}\varphi)=S^{-1}\text{ker }\varphi$ and $\text{im }(S^{-1}\varphi)=S^{-1}\text{im }\varphi$.
 > 2. We localize $0\to N\to M \to M / N\to 0$. Then, $$0\to S^{-1}N\to S^{-1}M\to S ^{-1}(M / N)\to 0$$and $S^{-1}(M / N)\cong S^{-1}M / S^{-1} N$.
 > 3. Proven above. 
 > 4. $S^{-1}(M\oplus N)\cong (M\oplus N)\otimes_{R}S^{-1}R\cong (M\otimes_{R}S^{-1}R)\oplus(N\otimes_{R}S^{-1}R)=S^{-1}M\oplus S^{-1}N$.
 > 5. Consider the exact sequence $0\to M_{1}\cap M_{2}\to M_{1}\oplus M_{2} \to M_{1}+M_{2}\to 0$. Then, $$0\to S^{-1}(M_{1}\cap M_{2})\to S^{-1}M\oplus S^{-1}N\to S^{-1}(M_{1}+M_{2})\to 0$$This shows both 5 and 6.
-> 6. 
+> 6. We have:
+> 	$$\varphi:S^{-1}\sqrt{ I }\to \sqrt{ S^{-1}I },\quad \frac{a}{s}\mapsto \frac{a}{s}$$Let $a^n=0$. Then, $\left( \frac{a}{s} \right)^n=\frac{a^n}{s^n}=0$. One easily sees that this is an isomorphism.
 - **Remark**: Localization doesn't commute with arbitrary intersections: For $S:=\mathbb{Z} \backslash \{ 0 \}$, $$S^{-1}\left( \bigcap_{n\geq 2}^{}n\mathbb{Z} \right)=S^{-1}(0)=0\neq \bigcap_{n\geq 2}^{}S^{-1}(n\mathbb{Z})\ni 1$$
 ---
+> [!lemma] Proposition 7 (Local Properties)
+> Let $R$ be a ring.
+> 1. if $M$ is a $R$-module with $M_{p} =0$ for all maximal $P\unlhd R$, then $M=0$.
+> 2. If $0\to (M_{1})_{P}\to(M_{2})_{P}\to (M_{3})_{P} \to 0$ is exact for all maximal $P\unlhd R$, then: $$0 \to M_{1}\to M_{2}\to M_{3}\to 0$$is exact.
+
+> [!proof]+
+> We have:
+> 1. Assume $M\neq 0$. If we choose $m\neq 0\in M$, then the [[annihilator]] $\text{Ann}(m)$ doesn't contain $1$ and is a proper ideal, hence contained in a maximal ideal $P$. Hence, for all $u\in R \backslash P$, we have that $u\notin \text{Ann}(m)$, i.e. $um\neq 0$ in $M$. Hence, $\frac{m}{1}$ is non-zero in $M_{P}$ and $M_{P}\neq 0$.
+> 2. We show that if $L$
+
+
+
 ##### Examples
 > [!h] Example 1
 > We have that:
@@ -122,4 +135,16 @@
 > [!h] Example 3
 > Let $S\subseteq R$ be multiplicatively closed and $I\unlhd R$. Then, 
 > 1. $S^{-1}I=I^e$ given by $\varphi:R\to S^{-1}R,a\mapsto \frac{a}{1}$.
+---
+> [!h] Example 4 (Rq/Pq)
+> Let $P,Q\unlhd R$ be maximal ideals. Then, 
+> 1. $R_{Q} / P_{Q}$ is a $R_{Q}$-module and $R_{Q} / P_{Q}\cong (R / P)_{Q}$. 
+> 2. if $P\neq Q$, then $R_{Q} / P_{Q} = 0$.
+> 3. if $P=Q$, $R_{P} / P_{P}\cong R / P$.
+
+> [!proof]-
+> We have:
+> 1. This holds by Corollary 6.3.
+> 2. Since $P$ is maximal $P\nsubseteq Q$ and there exists $a\in P \backslash Q$. Then, $1=\frac{a}{a}\in P_{Q}$. Hence, $P_{Q}=R_{Q}$and $R_{Q} / P_{Q}=0$.
+> 3. Consider: $$\varphi:R / P\to R_{P} / P_{P},\quad \overline{a}\mapsto \overline{\left( \frac{a}{1} \right)}$$Now, consider the morphism $R\to R / P,a\mapsto \overline{a}$ which sends $R \backslash P$ to units as $R / P$ is a field. Hence, it passes to a homomorphism: $$\psi: R_{P}\to R / P,\quad \frac{a}{s}\mapsto \overline{s} ^{-1}\overline{a}$$by the universal property. But $P_{P}\subseteq \text{ker }\psi$ and hence, we get a map: $$\overline{\psi}:R_{P} / P_{P}\to R / P,\quad \overline{\left( \frac{a}{s} \right)}\mapsto \overline{s}^{-1}\overline{a}$$which is a inverse to $\varphi$.
 ---

@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Algebra/Composition Series.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Commutative Algebra Roadmap"
+              "title": "Composition Series"
             }
           }
         ],
@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Radical (Ring).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Module"
+              "title": "Radical (Ring)"
             }
           },
           {
@@ -146,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "Algebra/Composition Series.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "Composition Series"
             }
           }
         ],
@@ -300,26 +300,27 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02d604c1852231a2",
+  "active": "e318f19f611b2ed7",
   "lastOpenFiles": [
-    "Algebra/Exact Sequence.md",
-    "Algebra/Radical (Ring).md",
-    "Algebra/Maximal Ideal.md",
+    "Algebra/Composition Series.md",
     "Algebra/Localization.md",
-    "Algebra/Module.md",
-    "Algebra/Tensor Product.md",
+    "Algebra/Radical (Ring).md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Local Ring.md",
+    "Algebra/Composite Field.md",
+    "Algebra/Exact Sequence.md",
+    "Algebra/Module.md",
+    "Algebra/Maximal Ideal.md",
+    "Algebra/Tensor Product.md",
     "Functional Analysis/Spectrum.md",
     "Algebra/Ideal (Ring).md",
     "Functional Analysis/Jacobson Radical.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/C-Algebra.md",
     "Functional Analysis/Regular Ideal.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Free Module.md",
-    "Algebra/Composition Series.md",
     "Untitled.md",
     "Algebra/Variety.md",
     "Algebra/Prime Ideal.md",
@@ -327,7 +328,6 @@
     "Algebra/Integral Domain.md",
     "Algebra/Unit.md",
     "Algebra/Zero Divisor.md",
-    "Algebra/Algebra.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
