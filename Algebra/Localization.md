@@ -46,6 +46,16 @@
 
 - **Remark**: Applying 3 to localization at prime ideals, we have a correspondence between prime ideals in $R_{P}$ and prime ideals $I$ in $R$ with $I\subseteq P$. 
 ---
+> [!lemma] Proposition 3 (Universal Property)
+> Let $S$ be a multiplicatively closed subset of $R$. 
+> 1. for a homomorphism $\alpha:R\to R'$ s.t. $\alpha(S)\subseteq (R')^\times$, there exists a unique ring homomorphism $\varphi:S^{-1}R\to R'$ s.t. $\varphi\left( \frac{r}{1} \right)=\alpha(r)$ for all $r\in R$.
+
+> [!proof]-
+> We define: $$\varphi:S^{-1}R\to R',\quad \frac{r}{s}\mapsto \alpha(r)\alpha(s)^{-1}$$We first show that this is well-defined. If $\frac{r}{s}=\frac{r'}{s'}$ s.t. $u(rs'-sr ')=0$ for some $u\in S$: $$\begin{align}\alpha(r)\alpha(s)^{-1}&=\alpha(u)^{-1}\alpha(u)\alpha(r)\alpha(s')\alpha(s')^{-1}\alpha(s)^{-1}\\&=\alpha(u)^{-1}\alpha(u)\alpha(s)\alpha(r')\alpha(s')^{-1}\alpha(s)^{-1}\\&=\alpha(r')\alpha(s')^{-1}\end{align}$$This is a ring homomorphism as it is defined through homomorphisms. 
+> 
+> To show uniqueness, let $\varphi'$ be another homomorphism with the same property. Then, $$\varphi'\left( \frac{r}{s} \right)=\varphi'\left( \frac{r}{1} \right)\varphi'\left( \frac{1}{s} \right)=\alpha(r)\alpha(s)^{-1}=\varphi\left( \frac{r}{s} \right) $$where $1=\alpha(1)=\varphi'\left( \frac{1}{1} \right)=\varphi'\left( \frac{1}{s} \right)\varphi'\left( \frac{s}{1} \right)=\varphi'\left( \frac{1}{s} \right)\alpha(s)$ hence $\varphi'\left( \frac{1}{s} \right)=\alpha(s)^{-1}$.
+
+---
 ##### Examples
 > [!h] Example 1
 > We have that:

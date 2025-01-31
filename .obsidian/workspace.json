@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Tensor Product.md",
+                "file": "Algebra/Localization.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tensor Product"
+              "title": "Localization"
             }
           },
           {
@@ -77,7 +77,8 @@
               "title": "Commutative Algebra Roadmap"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -109,20 +110,6 @@
               },
               "icon": "lucide-file",
               "title": "Local Ring"
-            }
-          },
-          {
-            "id": "b3d517ca690423a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Tensor Product.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Tensor Product"
             }
           },
           {
@@ -168,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -312,16 +299,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c5a1f0f6c56bef19",
+  "active": "405457a7f3c6e97d",
   "lastOpenFiles": [
-    "Algebra/Localization.md",
     "Algebra/Local Ring.md",
+    "Algebra/Localization.md",
+    "Algebra/Tensor Product.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Untitled.md",
     "Algebra/Variety.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Composition Series.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/p-adic Integer.md",
     "Algebra/Integral Domain.md",
@@ -330,7 +318,6 @@
     "Algebra/Algebra.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Radical (Ring).md",
-    "Algebra/Tensor Product.md",
     "Algebra/Module.md",
     "Algebra/Split Exact Sequence.md",
     "Algebra/Basis.md",
