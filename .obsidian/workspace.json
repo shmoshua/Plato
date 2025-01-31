@@ -154,21 +154,21 @@
             }
           },
           {
-            "id": "e44d7b515d963223",
+            "id": "c6046c30e2964e68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/p-adic Integer.md",
+                "file": "Algebra/Prime Ideal.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-adic Integer"
+              "title": "Prime Ideal"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -312,14 +312,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e44d7b515d963223",
+  "active": "94b25a7b87a91236",
   "lastOpenFiles": [
     "Algebra/Prime Ideal.md",
     "Algebra/Localization.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Ring Homomorphism.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/p-adic Integer.md",
     "Algebra/Integral Domain.md",
     "Algebra/Unit.md",
     "Algebra/Zero Divisor.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Composition Series.md",
     "Algebra/Algebra.md",
     "Algebra/Variety.md",
@@ -330,16 +333,13 @@
     "Algebra/Split Exact Sequence.md",
     "Algebra/Basis.md",
     "Algebra/Free Module.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/Ring.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Topology/Quotient Topology.md",
-    "Algebra/p-adic Integer.md",
     "exact.md",
     "Algebra Homomorphism.md",
     "Untitled 1.md",
     "Algebra/Direct Sum.md",
-    "Algebra/Annihilator.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

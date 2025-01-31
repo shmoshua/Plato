@@ -28,6 +28,19 @@
 ^b7609c
 
 ---
+> [!lemma] Proposition 2 (Ideals in Localizations)
+> Let $S$ be a multiplicatively closed subset of a ring $R$. Consider the homomorphism $\varphi:R\to S^{-1}R$.
+> 1. for any $I\unlhd R$, $I^e=(\varphi(I))=\left\{  \frac{a}{s}:a\in I,s\in S  \right\}$.
+> 2. for any $I\unlhd S^{-1}R$, $(I^c)^e=I$. 
+> 3. [[Ring Homomorphism|contractions]] and [[Ring Homomorphism|extensions]] give a 1:1-correspondence: $$\begin{align}\{ \text{Prime ideals in }S^{-1}R \}&\leftrightarrow \{ \text{Prime ideals } I\text{ in }R\text{ with }I\cap S=\varnothing\}\\I&\mapsto I^c\\I^e&\leftarrow I\end{align}$$
+
+> [!proof]+
+> We have:
+> 1. As $\frac{1}{s}\in S^{-1}R$ for all $s\in S$ and $I^e$ is an ideal, $\frac{a}{s}:=\frac{1}{s}\cdot\varphi(a)\in I^e$. However, for the other direction, for any $a\in I$, $\varphi(a)$ is contained in the RHS. This proves the statement as RHS is an ideal.
+> 2. By [[Ring Homomorphism|Proposition 4]] it suffices to show that $(I^c)^e\supseteq I$. Let $\frac{a}{s}\in I$. Then, $a\in \varphi ^{-1}(I)=I^c$ since $\varphi(a)=\frac{a}{1}=s\cdot \frac{a}{s}\in I$. Applying 1 to $I^c$, we have that: $\frac{a}{s}\in (I^c)^e$. 
+> 3. We first check that $\to$ is well-defined. If $I$ is a prime ideal in $S^{-1}R$, then $I^c$ is a prime ideal in $R$ by [[Prime Ideal|Proposition 2.1]]. Then, 
+
+---
 ##### Examples
 > [!h] Example 1
 > We have that:
@@ -37,3 +50,4 @@
 > 	2. for any multiplicatively closed $T\subseteq S$, $T^{-1}R$ is a subring of $\text{Quot}(R)$. 
 > 3. Let $S:=\{ a^n:n\in \mathbb{N} \}$ for a fixed element $a\in R$. Then, $S^{-1}R=:R_{a}$ and is called the ***localization of $R$ at $a$.***
 > 4. For a [[prime ideal]] $P\unlhd R$, $S:= R \backslash P$ is multiplicatively closed. Then, $S^{-1}R=:R_{P}$ and is called ***localization of $R$ at $P$***.
+> 5. $\mathbb{Z}_{(p)}$ is the localization of $R$ at the prime ideal $(p)$ for $p\in \mathbb{Z}$ prime. 
