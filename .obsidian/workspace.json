@@ -67,10 +67,14 @@
             "id": "6f4a779412f55419",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Commutative Algebra Roadmap"
             }
           }
         ]
@@ -148,9 +152,23 @@
               "icon": "lucide-file",
               "title": "Localization"
             }
+          },
+          {
+            "id": "e44d7b515d963223",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/p-adic Integer.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "p-adic Integer"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -294,12 +312,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "94b25a7b87a91236",
+  "active": "e44d7b515d963223",
   "lastOpenFiles": [
-    "Algebra/Algebra.md",
+    "Algebra/Prime Ideal.md",
     "Algebra/Localization.md",
-    "Algebra/Composition Series.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Unit.md",
+    "Algebra/Zero Divisor.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Composition Series.md",
+    "Algebra/Algebra.md",
     "Algebra/Variety.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Radical (Ring).md",
@@ -318,10 +340,6 @@
     "Untitled 1.md",
     "Algebra/Direct Sum.md",
     "Algebra/Annihilator.md",
-    "Algebra/Subgroup.md",
-    "Algebra/Submodule.md",
-    "Algebra/Polynomial Ring.md",
-    "Algebra/Prime Ideal.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

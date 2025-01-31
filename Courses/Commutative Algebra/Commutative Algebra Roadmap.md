@@ -433,3 +433,11 @@
 
 ---
 ### 6. Localization
+![[Localization#^e626db]]
+![[Localization#^59501f]]
+
+---
+![[Localization#^321ab4]]
+![[Localization#^b7609c|p]]
+
+---
