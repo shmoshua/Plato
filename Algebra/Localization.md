@@ -82,11 +82,19 @@
 > 2. If $N\leq M$, then $S^{-1}N\leq S^{-1}M$ in a natural way.
 > 3. If $N\leq M$, then $S^{-1}(M / N)\cong S^{-1}M / S ^{-1}N$.
 > 4. for any $R$-modules $M,N$, $S^{-1}(M\oplus N)\cong S^{-1}M\oplus S^{-1}N$.
+> 5. for $M_{1},M_{2}\leq M$, $S^{-1}(M_{1}+M_{2})\cong S^{-1}M_{1}+S^{-1}M_{2}$
+> 6. for $M_{1},M_{2}\leq M$, $S^{-1}(M_{1}\cap M_{2})\cong S^{-1}M_{1}\cap S^{-1}M_{2}$
+> 7. for $I\unlhd R$, $S^{-1}\sqrt{ I }\cong  \sqrt{ S^{-1}I }$
 
 > [!proof]+
 > We have:
 > 1. by Proposition 5, localizing $0\to \text{ker }\varphi\to M\to \text{im }\varphi \to 0$, we get: $$0\to S^{-1}\text{ker }\varphi\to S^{-1}M\to S^{-1}\text{im }\varphi \to 0$$but then this means that $\text{ker }(S^{-1}\varphi)=S^{-1}\text{ker }\varphi$ and $\text{im }(S^{-1}\varphi)=S^{-1}\text{im }\varphi$.
-> 2. We localize $0\to N\to M \to M / N\to 0$. Then
+> 2. We localize $0\to N\to M \to M / N\to 0$. Then, $$0\to S^{-1}N\to S^{-1}M\to S ^{-1}(M / N)\to 0$$and $S^{-1}(M / N)\cong S^{-1}M / S^{-1} N$.
+> 3. Proven above. 
+> 4. $S^{-1}(M\oplus N)\cong (M\oplus N)\otimes_{R}S^{-1}R\cong (M\otimes_{R}S^{-1}R)\oplus(N\otimes_{R}S^{-1}R)=S^{-1}M\oplus S^{-1}N$.
+> 5. Consider the exact sequence $0\to M_{1}\cap M_{2}\to M_{1}\oplus M_{2} \to M_{1}+M_{2}\to 0$. Then, $$0\to S^{-1}(M_{1}\cap M_{2})\to S^{-1}M\oplus S^{-1}N\to S^{-1}(M_{1}+M_{2})\to 0$$This shows both 5 and 6.
+> 6. 
+- **Remark**: Localization doesn't commute with arbitrary intersections: For $S:=\mathbb{Z} \backslash \{ 0 \}$, $$S^{-1}\left( \bigcap_{n\geq 2}^{}n\mathbb{Z} \right)=S^{-1}(0)=0\neq \bigcap_{n\geq 2}^{}S^{-1}(n\mathbb{Z})\ni 1$$
 ---
 ##### Examples
 > [!h] Example 1

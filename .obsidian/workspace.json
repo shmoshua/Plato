@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Tensor Product.md",
+                "file": "Algebra/Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tensor Product"
+              "title": "Module"
             }
           },
           {
@@ -146,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Maximal Ideal.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Maximal Ideal"
+              "title": "Exact Sequence"
             }
           }
         ],
@@ -302,11 +302,14 @@
   },
   "active": "02d604c1852231a2",
   "lastOpenFiles": [
-    "Algebra/Tensor Product.md",
+    "Algebra/Exact Sequence.md",
+    "Algebra/Radical (Ring).md",
+    "Algebra/Maximal Ideal.md",
     "Algebra/Localization.md",
+    "Algebra/Module.md",
+    "Algebra/Tensor Product.md",
     "Algebra/Local Ring.md",
     "Functional Analysis/Spectrum.md",
-    "Algebra/Module.md",
     "Algebra/Ideal (Ring).md",
     "Functional Analysis/Jacobson Radical.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
@@ -314,7 +317,6 @@
     "Functional Analysis/C-Algebra.md",
     "Functional Analysis/Regular Ideal.md",
     "Lie Group/Ideal (Lie Algebra).md",
-    "Algebra/Maximal Ideal.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Free Module.md",
     "Algebra/Composition Series.md",
@@ -326,8 +328,6 @@
     "Algebra/Unit.md",
     "Algebra/Zero Divisor.md",
     "Algebra/Algebra.md",
-    "Algebra/Exact Sequence.md",
-    "Algebra/Radical (Ring).md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
