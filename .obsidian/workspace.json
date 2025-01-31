@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Tensor Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Module"
+              "title": "Tensor Product"
             }
           },
           {
@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Basis.md",
+                "file": "Algebra/Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Basis"
+              "title": "Module"
             }
           }
         ],
@@ -247,10 +247,10 @@
   "lastOpenFiles": [
     "Algebra/Tensor Product.md",
     "Algebra/Algebra.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/Module.md",
-    "Algebra/Exact Sequence.md",
     "Algebra/Basis.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Exact Sequence.md",
     "Algebra/Ring.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Composition Series.md",

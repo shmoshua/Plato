@@ -70,9 +70,9 @@
 ^468cf4
 
 ---
-##### Extension of Scalars
+##### Tensor Product with Algebras
 > [!lemma] Proposition 5 (Extension of Scalars)
-> Let $M$ be a $R$-module and $R'$ an $R$-algebra. For any $a\in R'$, let $\mu_{a}:R'\to R',s\mapsto as$ denote the multiplication map. Then, 
+> Let $M$ be a $R$-[[module]] and $R'$ an $R$-algebra. For any $a\in R'$, let $\mu_{a}:R'\to R',s\mapsto as$ denote the multiplication map. Then, 
 > 1. $M_{R'}:=M\otimes_{R} R'$ is a $R'$-module called ***extension of scalars*** with the scalar multiplication given by: $$a\cdot (m\otimes s):=(1\otimes  \mu_{a})(m\otimes  s)=m\otimes  (as)$$
 > 2. Any $R$-module homomorphism $\varphi:M\to N$ gives rise to $\varphi_{R'}:M_{R'}\to N_{R'}$.
 
@@ -84,7 +84,22 @@
 
 ---
 > [!lemma] Proposition 6
-> 
+> Let $M,N$ be $R$-modules and $R'$ a $R$-algebra. Then, 
+> 1. $(M\otimes_{R}N)_{R'}\cong M_{R'}\otimes_{R'}N_{R'}$
+
+> [!proof]-
+> We have:
+> 1. Let us define: $$(M\otimes_{R}  N) \times R'\to M_{R'}\otimes _{R'}N_{R'},\quad (m\otimes  n, a)\mapsto (m\otimes  a )\otimes (n\otimes  1)$$is bilinear. Thus, $\varphi:(M\otimes_{R}N)_{R'}\to M_{R'}\otimes_{R'}N_{R'}$ with $\varphi(m\otimes n\otimes a)=(m\otimes a)\otimes (n\otimes 1)$. Similarly, $M_{R'}\times N_{R'}\to M\otimes_{R}N\otimes_{R} R',(m\otimes a,n\otimes b)\mapsto m\otimes n\otimes ab$ is a bilinear map. Hence, it induces an inverse to $\varphi$ on pure tensors. This proves the statement.
+---
+> [!lemma] Proposition 7 (Tensor Product with Algebras)
+> Let $R_{1},R_{2}$ be $R$-algebras. Then, 
+> 1. there exists a homomorphism: $$\varphi:(R_{1}\otimes R_{2})\otimes (R_{1} \otimes  R_{2})\to R_{1}\otimes R_{2},\quad (s\otimes t)\otimes  (s'\otimes  t')\mapsto ss'\otimes  tt'$$
+> 2. $R_{1}\otimes R_{2}$ is a $R$-algebra.
+
+> [!proof]-
+> We have:
+> 1. As $R_{1}\times R_{2}\times R_{1}\times R_{2}\to R_{1}\otimes R_{2}, (s,t,s',t')\mapsto ss'\otimes tt'$ is multilinear, by universal property and associativity the claim holds. 
+> 2. $\varphi$ induces a multiplication on $R_{1}\otimes R_{2}$, given by: $$(R_{1}\otimes R_{2})\times(R_{1}\otimes R_{2})\to R_{1}\otimes R_{2},\quad (s\otimes t,s'\otimes t')\mapsto ss'\otimes tt'$$
 ---
 ##### Examples
 > [!h] Example 1 (Examples of R-algebra)
@@ -106,4 +121,13 @@
 > [!proof]-
 > We have:
 > 1. $q$ is naturally a ring homomorphism and $q(\varphi_{A}(a))=\overline{\varphi_{A}(a)}$.
+---
+> [!h] Example 3 (Polynomial Rings as Tensor Products)
+> For a commutative ring $R$, 
+> 1. $R[x,y]\cong R[x]\otimes_{R} R[y]$ as $R$-algebras. 
+
+> [!proof]-
+> By the universal property, there exists: $$\varphi:R[x]\otimes _{R}R[y]\to R[x,y],\quad f\otimes g\mapsto fg$$and $$\psi:R[x,y]\to R[x]\otimes _{R}R[y],\quad \sum_{i,j}^{}a_{i,j}x^iy^j\mapsto \sum_{i,j}^{}a_{i,j}(x^i \otimes  y^j)$$Then, $\varphi$ and $\psi$ are inverses on $x^i\otimes y^j$, which generate the whole tensor product. Hence, they are isomorphic as $R$-modules. 
+> 
+> To show that they are also isomorphic as $R$-algebras, notice that $\varphi$ is also a ring homomorphism as: $$\varphi((f\otimes  g)(f'\otimes  g'))=\varphi(ff'\otimes gg')=ff'gg'=fg f'g'=\varphi(f\otimes g)\varphi(f'\otimes g')$$This shows the statement.
 ---
