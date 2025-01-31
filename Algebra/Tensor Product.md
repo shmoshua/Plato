@@ -56,11 +56,17 @@
 > Let $R$ be a ring and $M,N,P$ be $R$-modules. 
 > 1.  $\text{Hom}(M,\text{Hom}(N,P))\cong \text{Hom}(M\otimes N,P)$
 > 2. If $M\xrightarrow{\varphi}N\xrightarrow{\psi}P\to 0$ is an [[exact sequence]], then for any $R$-module $A$:$$M\otimes A\xrightarrow{\varphi \otimes  \text{id}}N\otimes A\xrightarrow{\psi \otimes  \text{id}}P\otimes A\to 0$$is an exact sequence as well.
+> 3. If $0\to M \to N\to P \to 0$ is exact, then for any $R$-module $A$:$$0\to M\otimes A \to N\otimes A \to P \otimes A \to 0$$is exact if:
+> 	1. $0\to M\to N\to P \to 0$ is [[Split Exact Sequence|split]].
+> 	2. $A$ is a finitely generated, free $R$-module.
 
 > [!proof]+
 > We have that:
 > 1. We define a homomorphism: $$\Psi:\text{Hom}(M,\text{Hom}(N,P))\to \text{Hom}(M\otimes N,P), \quad \alpha\mapsto (m\otimes n\mapsto \alpha(m)(n))$$More precisely, for $M\times N\to P,(m,n)\mapsto \alpha(m)n$ is a bilinear map and by the universal property, $\Psi(\alpha)$ is well-defined. Hence, this is an isomorphism. 
-> 2. 
+> 2. As [[Module|Hom(.,N) is left exact]], $$0\to \text{Hom}(P,\text{Hom}(A,B))\xrightarrow{\psi ^{*}}\text{Hom}(N,\text{Hom}(A,B))\to\text{Hom}(M,\text{Hom}(A,B))$$ is left exact for all $R$-modules $A,B$ with: $\psi ^{*}(f)=f \circ  \psi$. From 1, this is the same as: $$0\to \text{Hom}(P\otimes A,B)\xrightarrow{\tilde{\psi}}\text{Hom}(N\otimes A,B)\to\text{Hom}(M\otimes A,B)$$where for $g:P\otimes A\to B$:$$\tilde{\psi}(g)(n\otimes a)=g(\psi(n)\otimes a)=g(\psi \otimes  \text{id}(n\otimes  a))$$
+>    
+>    We send it back so we get: $$M\otimes A\xrightarrow{\varphi \otimes \text{id}} N\otimes A \xrightarrow{\psi \otimes \text{id}} P\otimes A\to 0$$as an exact sequence.
+> 3. We just have to show that if $\varphi:M\to N$ is injective, $\varphi \otimes \text{id}$ is injective. Assume that the sequence is split. Then, there exists $j:N\to M$ s.t. $j \circ\varphi= \text{id}_{M}$. 
 ---
 ##### Examples
 > [!h] Example 1

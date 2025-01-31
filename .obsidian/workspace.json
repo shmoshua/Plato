@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Tensor Product.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Module"
+              "title": "Tensor Product"
             }
           }
         ],
@@ -125,8 +125,37 @@
               "icon": "lucide-file",
               "title": "Tensor Product"
             }
+          },
+          {
+            "id": "405457a7f3c6e97d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Split Exact Sequence.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Split Exact Sequence"
+            }
+          },
+          {
+            "id": "02d604c1852231a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Module.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Module"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -270,19 +299,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e318f19f611b2ed7",
+  "active": "405457a7f3c6e97d",
   "lastOpenFiles": [
+    "Algebra/Tensor Product.md",
+    "Algebra/Split Exact Sequence.md",
+    "Algebra/Module.md",
     "Algebra/Exact Sequence.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Ideal (Ring).md",
-    "Algebra/Module.md",
-    "Algebra/Tensor Product.md",
     "Algebra/Algebra.md",
     "Algebra/Variety.md",
     "Algebra/Basis.md",
     "Algebra/Ring.md",
     "Algebra/Composition Series.md",
-    "Algebra/Split Exact Sequence.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Topology/Quotient Topology.md",
     "Algebra/p-adic Integer.md",
