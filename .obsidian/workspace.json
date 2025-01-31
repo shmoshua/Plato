@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Tensor Product.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tensor Product"
+              "title": "Algebra"
             }
           }
         ],
@@ -62,12 +62,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Tensor Product.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tensor Product"
+              "title": "Algebra"
             }
           },
           {
@@ -245,9 +245,10 @@
   },
   "active": "94b19b665f8ecfb1",
   "lastOpenFiles": [
+    "Algebra/Tensor Product.md",
+    "Algebra/Algebra.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Module.md",
-    "Algebra/Tensor Product.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Basis.md",
     "Algebra/Ring.md",
@@ -263,7 +264,6 @@
     "Untitled 1.md",
     "Algebra/Direct Sum.md",
     "Algebra/Annihilator.md",
-    "Algebra/Algebra.md",
     "Algebra/Subgroup.md",
     "Algebra/Submodule.md",
     "Algebra/Polynomial Ring.md",

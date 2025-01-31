@@ -69,7 +69,22 @@
 
 ^468cf4
 
+---
+##### Extension of Scalars
+> [!lemma] Proposition 5 (Extension of Scalars)
+> Let $M$ be a $R$-module and $R'$ an $R$-algebra. For any $a\in R'$, let $\mu_{a}:R'\to R',s\mapsto as$ denote the multiplication map. Then, 
+> 1. $M_{R'}:=M\otimes_{R} R'$ is a $R'$-module called ***extension of scalars*** with the scalar multiplication given by: $$a\cdot (m\otimes s):=(1\otimes  \mu_{a})(m\otimes  s)=m\otimes  (as)$$
+> 2. Any $R$-module homomorphism $\varphi:M\to N$ gives rise to $\varphi_{R'}:M_{R'}\to N_{R'}$.
 
+> [!proof]-
+> We have:
+> 1. Obvious.
+> 2. Consider $\varphi_{R'}:=\varphi \otimes \text{id}$. 
+- **Remark**: Any $\mathbb{R}$-vector space $V$ can be complexified into $V_{\mathbb{C}}:= V \otimes_{\mathbb{R}}\mathbb{C}$. If $V$ is $n$-dimensional, $$V_{\mathbb{C}}=V\otimes _{\mathbb{R}}\mathbb{C}\cong \mathbb{R}^n \otimes _{\mathbb{R}}\mathbb{C}\cong (\mathbb{R}\otimes _{\mathbb{R}}\mathbb{C})^n\cong \mathbb{C}^n$$
+
+---
+> [!lemma] Proposition 6
+> 
 ---
 ##### Examples
 > [!h] Example 1 (Examples of R-algebra)
