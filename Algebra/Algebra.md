@@ -131,3 +131,12 @@
 > 
 > To show that they are also isomorphic as $R$-algebras, notice that $\varphi$ is also a ring homomorphism as: $$\varphi((f\otimes  g)(f'\otimes  g'))=\varphi(ff'\otimes gg')=ff'gg'=fg f'g'=\varphi(f\otimes g)\varphi(f'\otimes g')$$This shows the statement.
 ---
+> [!h] Example 4 
+> We have that:
+> 1. For $I,J\unlhd R$, $R / I\otimes_{R} R / J\cong R / (I+J)$ as $R$-algebras.
+
+> [!proof]-
+> We have that:
+> 1. Notice that by universal property, we have: $$\varphi:R / I\otimes _{R} R / J\to R / (I+J),\quad \varphi((a+I )\otimes ( b+J))=ab+I+J$$with the inverse $\psi:R / (I+J) \to R / I \otimes _R R / J, (r+I+J)\mapsto (r+I )\otimes (1+J)$. Hence, they are isomorphic as $R$-modules. However, we have that: $$\varphi((a+I )\otimes ( b+J)\cdot (a'+I )\otimes ( b'+J))=\varphi((aa'+I)\otimes (bb'+J))=aa'bb'+I+J$$Hence, $\varphi$ is a ring homomorphism as well.
+
+---

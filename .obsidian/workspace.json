@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Algebra"
             }
+          },
+          {
+            "id": "307cbdf7a3043d90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Variety.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Variety"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -76,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Tensor Product.md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tensor Product"
+              "title": "Variety"
             }
           },
           {
@@ -99,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -243,8 +257,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "94b19b665f8ecfb1",
+  "active": "307cbdf7a3043d90",
   "lastOpenFiles": [
+    "Algebra/Variety.md",
     "Algebra/Tensor Product.md",
     "Algebra/Algebra.md",
     "Algebra/Module.md",
@@ -270,7 +285,6 @@
     "Algebra/Radical (Ring).md",
     "Algebra/Prime Ideal.md",
     "Algebra/Nilradical.md",
-    "Algebra/Field.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

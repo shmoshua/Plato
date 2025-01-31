@@ -129,6 +129,12 @@
 - **Remark**: Similarly $X$ is a point if and only if $I(X)$ is maximal.  ^da8bb5
 
 ---
+> [!lemma] Proposition 8 (Tensor Product of Coordinate Rings)
+> Let $X\subseteq \mathbb{A}^n_{K}$ and $Y\subseteq \mathbb{A}^m_{K}$ be varieties over $K$ s.t. $X\times Y\subseteq K^{n+m}$. Then, 
+> 1. $X\times Y$ is a variety.
+> 2. $A(X\times Y)\cong A(X)\otimes_{K}A(Y)$ as $K$-algebras.
+
+---
 
 ##### Examples 
 > [!h] Example 1
