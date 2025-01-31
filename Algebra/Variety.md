@@ -134,11 +134,15 @@
 > 1. $X\times Y$ is a variety.
 > 2. $A(X\times Y)\cong A(X)\otimes_{K}A(Y)$ as $K$-algebras.
 
-> [!proof]+
+^a3ca0c
+
+> [!proof]-
 > We have that:
 > 1. Let $X$ be a zero locus of $S\subseteq K[x_{1},\dots,x_{n}]$ and $Y$ a zero locus of $T\subseteq K[y_{1},..,y_{m}]$. Then, $$X\times Y=\{ (x,y)\in \mathbb{A}^{n+m}_{K}:f(x)=0,g(y)=0, \forall f\in S,g\in T \}$$Hence, $X\times Y$ is a zero locus of $S\times T$. 
 > 2. We define a map: $$A(X)\times A(Y)\to A(X\times Y),\quad (f+I(X),g+I(Y))\mapsto fg+I(X\times Y)$$Then, it is indeed $K$-bilinear. To show that this is well-defined, we have that if $f'-f\in I(X)$, then: $f'g-fg=(f'-f)g$ and for all $(x,y)\in X\times Y$, $$(f'-f)(x)g(y)=0$$Hence, by universal property, $$\varphi:A(X)\otimes_{K} A(Y)\to A(X\times Y),\quad \varphi(\overline{f}\otimes \overline{g})=\overline{fg}$$
 > 	which has the following inverse: $$\psi:A(X\times Y)\to A(X)\otimes_{K}A(Y),\quad \overline{h}\mapsto (\overline{h_{X}}\otimes  \overline{h_{Y}})$$where $h_{X}$ is a polynomial given by sending all $y_{1},\dots,y_{m}$ to $b\in Y$ and $h_{Y}$ $x_{1},\dots,x_{n}$ to $a\in X$ which are fixed chosen elements. This is again well-defined: Indeed, if $h-h'\in I(X\times Y)$, then for all $x\in X,y\in Y$: $$(h_{X}-h'_{X})(x)=h(x,b)-h'(x,b)=0,\quad (h_{Y}-h'_{Y})(y)=h(a,y)-h'(a,y)=0$$Further, $$\psi \circ  \varphi(\overline{f}\otimes  \overline{g})=\psi(\overline{fg})=\overline{(fg)_{X}}\otimes  \overline{(fg)_{Y}}=$$
+
+^5054fd
 
 ---
 

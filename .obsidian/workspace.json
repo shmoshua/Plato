@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Algebra/Localization.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Commutative Algebra Roadmap"
+              "title": "Localization"
             }
           },
           {
@@ -67,18 +67,13 @@
             "id": "6f4a779412f55419",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Composition Series.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Composition Series"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -146,16 +141,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "Algebra/Localization.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "Localization"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -299,19 +294,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6f4a779412f55419",
+  "active": "94b25a7b87a91236",
   "lastOpenFiles": [
-    "Algebra/Module.md",
-    "Algebra/Tensor Product.md",
+    "Algebra/Algebra.md",
+    "Algebra/Localization.md",
     "Algebra/Composition Series.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Variety.md",
     "Algebra/Exact Sequence.md",
+    "Algebra/Radical (Ring).md",
+    "Algebra/Tensor Product.md",
+    "Algebra/Module.md",
     "Algebra/Split Exact Sequence.md",
     "Algebra/Basis.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Algebra.md",
     "Algebra/Free Module.md",
     "Algebra/Ideal (Ring).md",
-    "Algebra/Variety.md",
     "Algebra/Ring.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Topology/Quotient Topology.md",
@@ -324,9 +321,7 @@
     "Algebra/Subgroup.md",
     "Algebra/Submodule.md",
     "Algebra/Polynomial Ring.md",
-    "Algebra/Radical (Ring).md",
     "Algebra/Prime Ideal.md",
-    "Algebra/Nilradical.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

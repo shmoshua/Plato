@@ -374,3 +374,62 @@
 
 ---
 ### 5. Tensor Products
+![[Tensor Product#^c31781]]
+![[Tensor Product#^267a80]]
+![[Tensor Product#^3e23bf|q]]
+
+---
+![[Tensor Product#^5fb0e9]]
+![[Tensor Product#^96a6da|p]]
+
+---
+![[Tensor Product#^bd93e0]]
+![[Tensor Product#^6fa18d|p]]
+![[Tensor Product#^552c4a]]
+
+---
+![[Tensor Product#^c4c085]]
+![[Tensor Product#^ffbf53|p]]
+
+---
+![[Tensor Product#^3e32bf]]
+![[Tensor Product#^79a8a1|p]]
+
+---
+![[Tensor Product#^45d1be]]
+![[Tensor Product#^bba294|p]]
+
+---
+![[Tensor Product#^88632b]]
+
+---
+![[Algebra#^cdcaca]]
+![[Algebra#^27e68a|p]]
+![[Algebra#^f164de]]
+
+---
+![[Algebra#^bd53f4]]
+![[Algebra#^5a73a2|p]]
+
+---
+![[Algebra#^2229a5]]
+![[Algebra#^968ba1|p]]
+
+---
+![[Algebra#^5face0]]
+![[Algebra#^9cdcf6|p]]
+
+---
+![[Variety#^a3ca0c]]
+![[Variety#^5054fd|p]]
+
+---
+![[Tensor Product#^47b82c]]
+![[Tensor Product#^2db9e9|p]]
+
+---
+![[Composition Series#^e28bda]]
+![[Composition Series#^204142|p]]
+
+---
+### 6. Localization

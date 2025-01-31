@@ -76,30 +76,45 @@
 > 1. $M_{R'}:=M\otimes_{R} R'$ is a $R'$-module called ***extension of scalars*** with the scalar multiplication given by: $$a\cdot (m\otimes s):=(1\otimes  \mu_{a})(m\otimes  s)=m\otimes  (as)$$
 > 2. Any $R$-module homomorphism $\varphi:M\to N$ gives rise to $\varphi_{R'}:M_{R'}\to N_{R'}$.
 
+^cdcaca
+
 > [!proof]-
 > We have:
 > 1. Obvious.
 > 2. Consider $\varphi_{R'}:=\varphi \otimes \text{id}$. 
-- **Remark**: Any $\mathbb{R}$-vector space $V$ can be complexified into $V_{\mathbb{C}}:= V \otimes_{\mathbb{R}}\mathbb{C}$. If $V$ is $n$-dimensional, $$V_{\mathbb{C}}=V\otimes _{\mathbb{R}}\mathbb{C}\cong \mathbb{R}^n \otimes _{\mathbb{R}}\mathbb{C}\cong (\mathbb{R}\otimes _{\mathbb{R}}\mathbb{C})^n\cong \mathbb{C}^n$$
+
+^27e68a
+
+- **Remark**: Any $\mathbb{R}$-vector space $V$ can be complexified into $V_{\mathbb{C}}:= V \otimes_{\mathbb{R}}\mathbb{C}$. If $V$ is $n$-dimensional, $$V_{\mathbb{C}}=V\otimes _{\mathbb{R}}\mathbb{C}\cong \mathbb{R}^n \otimes _{\mathbb{R}}\mathbb{C}\cong (\mathbb{R}\otimes _{\mathbb{R}}\mathbb{C})^n\cong \mathbb{C}^n$$ ^f164de
 
 ---
 > [!lemma] Proposition 6
 > Let $M,N$ be $R$-modules and $R'$ a $R$-algebra. Then, 
 > 1. $(M\otimes_{R}N)_{R'}\cong M_{R'}\otimes_{R'}N_{R'}$
 
+^bd53f4
+
 > [!proof]-
 > We have:
 > 1. Let us define: $$(M\otimes_{R}  N) \times R'\to M_{R'}\otimes _{R'}N_{R'},\quad (m\otimes  n, a)\mapsto (m\otimes  a )\otimes (n\otimes  1)$$is bilinear. Thus, $\varphi:(M\otimes_{R}N)_{R'}\to M_{R'}\otimes_{R'}N_{R'}$ with $\varphi(m\otimes n\otimes a)=(m\otimes a)\otimes (n\otimes 1)$. Similarly, $M_{R'}\times N_{R'}\to M\otimes_{R}N\otimes_{R} R',(m\otimes a,n\otimes b)\mapsto m\otimes n\otimes ab$ is a bilinear map. Hence, it induces an inverse to $\varphi$ on pure tensors. This proves the statement.
+
+^5a73a2
+
 ---
 > [!lemma] Proposition 7 (Tensor Product with Algebras)
 > Let $R_{1},R_{2}$ be $R$-algebras. Then, 
 > 1. there exists a homomorphism: $$\varphi:(R_{1}\otimes R_{2})\otimes (R_{1} \otimes  R_{2})\to R_{1}\otimes R_{2},\quad (s\otimes t)\otimes  (s'\otimes  t')\mapsto ss'\otimes  tt'$$
 > 2. $R_{1}\otimes R_{2}$ is a $R$-algebra.
 
+^2229a5
+
 > [!proof]-
 > We have:
 > 1. As $R_{1}\times R_{2}\times R_{1}\times R_{2}\to R_{1}\otimes R_{2}, (s,t,s',t')\mapsto ss'\otimes tt'$ is multilinear, by universal property and associativity the claim holds. 
 > 2. $\varphi$ induces a multiplication on $R_{1}\otimes R_{2}$, given by: $$(R_{1}\otimes R_{2})\times(R_{1}\otimes R_{2})\to R_{1}\otimes R_{2},\quad (s\otimes t,s'\otimes t')\mapsto ss'\otimes tt'$$
+
+^968ba1
+
 ---
 ##### Examples
 > [!h] Example 1 (Examples of R-algebra)
@@ -135,8 +150,12 @@
 > We have that:
 > 1. For $I,J\unlhd R$, $R / I\otimes_{R} R / J\cong R / (I+J)$ as $R$-algebras.
 
+^5face0
+
 > [!proof]-
 > We have that:
 > 1. Notice that by universal property, we have: $$\varphi:R / I\otimes _{R} R / J\to R / (I+J),\quad \varphi((a+I )\otimes ( b+J))=ab+I+J$$with the inverse $\psi:R / (I+J) \to R / I \otimes _R R / J, (r+I+J)\mapsto (r+I )\otimes (1+J)$. Hence, they are isomorphic as $R$-modules. However, we have that: $$\varphi((a+I )\otimes ( b+J)\cdot (a'+I )\otimes ( b'+J))=\varphi((aa'+I)\otimes (bb'+J))=aa'bb'+I+J$$Hence, $\varphi$ is a ring homomorphism as well.
+
+^9cdcf6
 
 ---

@@ -59,7 +59,13 @@
 > Let $M,N$ be two $R$-modules. Then, 
 > 1. $\ell(M\otimes N)\leq \ell(M)\ell(N)$
 
-> [!proof]+
+^e28bda
+
+> [!proof]-
 > We have:
-> 1. Assume $\ell(M)=\infty$. Then, the RHS is $\infty$ and the statement holds.
-> 2. if $\ell(M)=:n<\infty$, then we prove 
+> 1. Assume $\ell(M)=\infty$ or $\ell(N)=\infty$. Then, the RHS is $\infty$ and the statement holds.
+> 2. if $\ell(M)=:n<\infty$, then we prove it by induction. If $M=1$, then: $$0 \to R \to M \to M / R \to 0$$is exact and therefore, $$N \xrightarrow{\psi} M\otimes _{R}N \xrightarrow{\varphi} N \otimes  M / R \to 0$$is exact. Hence,$$\ell(M\otimes _{R}N)=\ell(N\otimes M / R)+\ell(\text{im }\psi)\leq \ell(N\otimes M / R)+\ell(N)\leq \ell(M)\ell(N)$$
+
+^204142
+
+---

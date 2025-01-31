@@ -8,8 +8,10 @@
 > 
 > The elements in $M\otimes N$ are called ***tensors*** and for $(m,n)\in M\times N$, $m\otimes n:= \tau(m,n)$. 
 
-- **Remark**: By the definition, we have that $\text{Bilinear}(M\times N, P)\cong \text{Hom}(M\otimes N,P)$, i.e. they are bijective.
-- **Related definition**: Tensors in $M\otimes N$ of the form $m\otimes n$ are called ***pure/monomial***. Any tensor can be written as a linear combination of pure tensors. 
+^c31781
+
+- **Remark**: By the definition, we have that $\text{Bilinear}(M\times N, P)\cong \text{Hom}(M\otimes N,P)$, i.e. they are bijective. ^267a80
+- **Related definition**: Tensors in $M\otimes N$ of the form $m\otimes n$ are called ***pure/monomial***. Any tensor can be written as a linear combination of pure tensors.  ^3e23bf
 
 ---
 ##### Properties
@@ -17,6 +19,8 @@
 > Let $M,N$ be $R$-modules. Then,
 > 1. **Existence**: there exists a tensor product $M\otimes N$.
 > 2. **Uniqueness**: the tensor product is unique up to isomorphism, i.e. if $(M\otimes N, \tau)$ and $(M\otimes' N,\tau')$ are two tensor products of $M,N$, then there is a unique $R$-isomorphism $\varphi:M\otimes N\to M\otimes'N$ s.t. $\tau'=\varphi\circ \tau$.
+
+^5fb0e9
 
 > [!proof]-
 > We have that:
@@ -32,6 +36,9 @@
 > 	for all $m,m_{1},m_{2}\in M,n,n_{1},n_{2}\in N,a\in R$. Now, set $M\otimes N:= F /G$. Then, the map: $$\tau:M\times N\to M\otimes N,\quad (m,n)\mapsto \overline{(m,n)}$$ is a bilinear map. We claim that $M\otimes N$ with $\tau$ is a tensor product of $M,N$ over $R$. Let $\alpha:M\times N\to P$ be a $R$-bilinear map. Then, define $\varphi:M\otimes N\to P$ by setting $\varphi(\overline{(m,n)}):=\alpha(m,n)$ and extending it by linearity. 
 > 	
 > 	Since $\alpha$ is bilinear, $\varphi$ is well-defined and $\alpha=\varphi \circ \tau$. It is also clear that this is the unique choice that makes this possible. This proves the claim.
+
+^96a6da
+
 ---
 > [!lemma] Lemma 2 (Properties of Tensors)
 > For any $R$-modules $M,N,P$, 
@@ -39,6 +46,8 @@
 > 2. $M\otimes R\cong M$.
 > 3. $(M\oplus N)\otimes P\cong (M\otimes P)\oplus(N\otimes P)$.
 > 4. $M\otimes N\otimes P\cong (M\otimes N)\otimes P\cong M\otimes(N\otimes P)$.
+
+^bd93e0
 
 > [!proof]-
 > We have that:
@@ -50,7 +59,10 @@
 >    Then, notice that $(m,n,p)\mapsto (m\otimes n) \otimes p$ is trilinear and by the universal property, we have: $$\varphi:M\otimes N\otimes P\to(M\otimes N)\otimes P,\quad \varphi(m\otimes n\otimes p)=(m\otimes  n)\otimes  p$$Conversely, let $\alpha:(M\otimes N)\times P\to M\otimes N\otimes P$ defined on $\alpha(m\otimes n, p):=m\otimes n\otimes p$ then extended on the whole space. Then, $\alpha$ remains bilinear and there exists: $$\psi:(M\otimes N)\otimes P\to M\otimes N\otimes P,\quad \psi((m\otimes n)\otimes  p)=m\otimes n\otimes p$$Hence, $\varphi,\psi$ are inverses on pure tensors and hence on the whole space.
 >    
 >    The proof for $M\otimes(N\otimes P)$ is analogous and this proves the associativity.
-- **Remark**: If $M,N$ are free of rank $m,n$ respectively, $$M\otimes N\cong R^m\otimes (R\oplus \dots \oplus R)\cong (R^m \otimes R)\oplus \dots \oplus (R^m \otimes R)\cong R^m\oplus \dots \oplus R^m\cong R^{mn}$$
+
+^6fa18d
+
+- **Remark**: If $M,N$ are free of rank $m,n$ respectively, $$M\otimes N\cong R^m\otimes (R\oplus \dots \oplus R)\cong (R^m \otimes R)\oplus \dots \oplus (R^m \otimes R)\cong R^m\oplus \dots \oplus R^m\cong R^{mn}$$ ^552c4a
 ---
 > [!lemma] Proposition 3 (Tensor Products are Right Exact)
 > Let $R$ be a ring and $M,N,P$ be $R$-modules. 
@@ -59,6 +71,8 @@
 > 3. If $0\to M \to N\to P \to 0$ is exact, then for any $R$-module $A$:$$0\to M\otimes A \to N\otimes A \to P \otimes A \to 0$$is exact if:
 > 	1. $0\to M\to N\to P \to 0$ is [[Split Exact Sequence|split]].
 > 	2. $A$ is a finitely generated, free $R$-module.
+
+^47b82c
 
 > [!proof]-
 > We have that:
@@ -71,15 +85,22 @@
 >    Let: $\varphi \otimes \text{id}\left( \sum_{i}^{}m_{i}\otimes a_{i} \right)=0$. Then, $\sum_{i}^{}\varphi(m_{i})\otimes a_{i} = 0$ and $$\sum_{i}^{}m_{i}\otimes  a_{i}=(j\otimes \text{id})\left( \sum_{i}^{}\varphi(m_{i})\otimes  a_{i} \right)=0$$Hence, $\varphi \otimes \text{id}$ is injective.
 >    
 >    If $A$ is finitely generated free with basis $b_{1},\dots,b_{k}$. Then, for any $m\in M$, $$\varphi \otimes  \text{id}\left( \sum_{i}^{}m_{i}\otimes a_{i} \right)=\sum_{i}^{}\varphi(m_{i})\otimes  a_{i}=\sum_{i,j}^{}r_{ij}\varphi(m_{i})\otimes b_{j}=0$$Hence, $\sum_{i}^{}r_{ij}= 0$ for all $j$ and $\sum_{i}^{}m_{i}\otimes a_{i} = 0$.
+
+^2db9e9
+
 ---
 ##### Examples
 > [!h] Example 1
 > Let $I,J\unlhd R$ be [[Coprime Ideal|coprime]]. Then,
 > 1. $R / I\otimes R / J=0$
 
+^c4c085
+
 > [!proof]-
 > We have: 
 > 1. Let $a\in I,b\in J$ s.t. $a+b=1$. Let $r,s\in R$. For $\overline{r}\otimes \overline{s}\in R / I\otimes R / J$, $$\overline{r} \otimes \overline{s}=(a+b)(\overline{r} \otimes \overline{s})=\overline{ar}\otimes  \overline{s}+\overline{r} \otimes  \overline{bs}=0$$hence, $R / I\otimes R / J=0$.
+
+^ffbf53
 
 ---
 > [!h] Example 2
@@ -89,12 +110,16 @@
 > 3. $\mathbb{C} \otimes_{\mathbb{R}}\mathbb{C}\cong \mathbb{C}\oplus \mathbb{C}$
 > 4. $\mathbb{Q}[x]\otimes_{\mathbb{Q}}\mathbb{C}\cong \mathbb{C}[x]$
 
+^3e32bf
+
 > [!proof]-
 > We have:
 > 1. Consider $\frac{p}{q}\otimes \frac{m}{n}$. We have: $$\frac{p}{q}\otimes \frac{m}{n}=\frac{np}{nq}\otimes \frac{m}{n}=n\frac{p}{nq}\otimes \frac{m}{n}=\frac{p}{q}\otimes m=\frac{p}{q}\otimes 0=0$$
 > 2. We claim that: $$\psi:\mathbb{Q}\otimes _{\mathbb{Z}} \mathbb{Q}\to \mathbb{Q},\quad \alpha \otimes  \beta\mapsto \alpha\beta$$is an isomorphism. We have that: $$\frac{a}{b}\otimes  \frac{c}{d}=\frac{ac}{bd}\otimes 1$$Similarly as above. This proves the statement.
 > 3. We have that: $$\mathbb{C}\otimes _{\mathbb{R}}\mathbb{C}\cong \mathbb{C}\otimes _{\mathbb{R}} (\mathbb{R}\oplus \mathbb{R})=(\mathbb{C}\otimes _{\mathbb{R}}\mathbb{R})\oplus (\mathbb{C}\otimes _{\mathbb{R}}\mathbb{R})=\mathbb{C}\oplus \mathbb{C}$$
 > 4. We have that: $$\varphi:\mathbb{Q}[x]\otimes _{\mathbb{Q}} \mathbb{C}\to \mathbb{C}[x],\quad f\otimes  \alpha\to \alpha f$$is isomorphic with its inverse given by: $\psi(\alpha x^i)\mapsto x^i\otimes \alpha$.
+
+^79a8a1
 
 ---
 > [!h] Example 3 (Vector Spaces and Duals)
@@ -107,6 +132,8 @@
 >2. $\Phi,\Psi$ are injective.
 >3. $\Phi,\Psi$ are isomorphisms if $V,W$ are finite dimensional.
 
+^45d1be
+
 > [!proof]-
 > We have that:
 > 1. Consider: $$V^{*}\times W\to \text{Hom}(V,W),\quad (\varphi,w)\mapsto (v\mapsto \varphi(v)w)$$ is bilinear and by universal property the statement holds. Similarly, $$V^{*}\times V^{*}\to \text{Bilinear}(V,V),\quad (\varphi,\psi)\mapsto ((v,v')\mapsto \varphi(v)\psi(v'))$$$$V^{*}\times V \to K,\quad (\varphi,v)\mapsto \varphi(v)$$are bilinear and by universal property the statement holds. 
@@ -115,11 +142,16 @@
 >    Let $\Psi(\varphi \otimes \psi) = 0$. Then, $\varphi(v)\psi(v')=0$ for all $v,v'\in V$, which holds if either $\varphi=0$ or $\psi=0$, i.e. $\varphi \otimes \psi=0$. Similarly, $\Psi$ is injective.
 > 3. $V,W$ are finite dimensional, hence injective implies bijective.
 
+^bba294
+
 ---
 > [!h] Example 4 (Tensor Product of Homomorphisms)
 > Let $\varphi:M\to N$ and $\varphi':M'\to N'$ be homomorphisms of $R$-modules. Then, 
 > 1. $M\times M'\to N\otimes N', (m,m')\mapsto \varphi(m)\otimes\varphi'(m')$ is a bilinear map and:
 > 2. $\varphi \otimes\varphi':M\otimes M'\to N\otimes N'$ is well-defined s.t. $\varphi \otimes\varphi'(m\otimes m')=\varphi(m)\otimes\varphi'(m')$. 
+
+^88632b
+
 ---
 > [!h] Example 1
 > Let $V$ be a finite-dimensional vector space. Then, $$\begin{array}{cccc} {J:}&{V^{*}\otimes W}&\to&{\text{Hom}(V,W)}\\&{f\otimes w} &\mapsto & {v\mapsto f(v)w} \end{array}{}$$is an isomorphism.
