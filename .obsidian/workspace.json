@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Tensor Product"
             }
+          },
+          {
+            "id": "6f4a779412f55419",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Composition Series.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Composition Series"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -82,20 +96,6 @@
               },
               "icon": "lucide-file",
               "title": "Commutative Algebra Roadmap"
-            }
-          },
-          {
-            "id": "94b19b665f8ecfb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Algebra.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Algebra"
             }
           },
           {
@@ -127,35 +127,35 @@
             }
           },
           {
-            "id": "405457a7f3c6e97d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Split Exact Sequence.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Split Exact Sequence"
-            }
-          },
-          {
             "id": "02d604c1852231a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Composition Series.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Module"
+              "title": "Composition Series"
+            }
+          },
+          {
+            "id": "405457a7f3c6e97d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Exact Sequence.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Exact Sequence"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -299,25 +299,25 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "405457a7f3c6e97d",
+  "active": "6f4a779412f55419",
   "lastOpenFiles": [
-    "Algebra/Tensor Product.md",
-    "Algebra/Split Exact Sequence.md",
     "Algebra/Module.md",
-    "Algebra/Exact Sequence.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Ideal (Ring).md",
-    "Algebra/Algebra.md",
-    "Algebra/Variety.md",
-    "Algebra/Basis.md",
-    "Algebra/Ring.md",
+    "Algebra/Tensor Product.md",
     "Algebra/Composition Series.md",
+    "Algebra/Exact Sequence.md",
+    "Algebra/Split Exact Sequence.md",
+    "Algebra/Basis.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Algebra.md",
+    "Algebra/Free Module.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Variety.md",
+    "Algebra/Ring.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Topology/Quotient Topology.md",
     "Algebra/p-adic Integer.md",
     "exact.md",
     "Algebra Homomorphism.md",
-    "Algebra/Free Module.md",
     "Untitled 1.md",
     "Algebra/Direct Sum.md",
     "Algebra/Annihilator.md",

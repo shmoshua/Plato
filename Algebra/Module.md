@@ -248,13 +248,15 @@
 > Then, 
 > 1. $IM\leq M$. 
 > 2. $M / IM$ is a $R / I$-module.
+> 3. $M/IM\cong M\otimes_{R}R / I$.
 
 ^c2c2ce
 
-> [!proof]-
+> [!proof]+
 > We have that:
 > 1. Obvious. 
 > 2. We define: $(r+I) (m+IM)= r m +IM$.
+> 3. From [[Exact Sequence|Example 1]], $$0\to I\to R \to R / I\to 0$$is exact. Hence, by [[Tensor Product|Right exactness of tensor products]], $$M\otimes _{R}I\xrightarrow{\varphi} M \xrightarrow{\psi} M\otimes _{R} R / I \to 0$$is exact where $\varphi(m\otimes a)=am$ and $\psi(m)=m\otimes \overline{1}$. Further, $\text{im }\varphi=IM$. Therefore, $$M\otimes _{R} R / I=\text{im }\psi\cong M / \text{im }\varphi= M / IM$$
 
 ^467ec0
 

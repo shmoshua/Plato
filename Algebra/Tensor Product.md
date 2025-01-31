@@ -60,13 +60,17 @@
 > 	1. $0\to M\to N\to P \to 0$ is [[Split Exact Sequence|split]].
 > 	2. $A$ is a finitely generated, free $R$-module.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. We define a homomorphism: $$\Psi:\text{Hom}(M,\text{Hom}(N,P))\to \text{Hom}(M\otimes N,P), \quad \alpha\mapsto (m\otimes n\mapsto \alpha(m)(n))$$More precisely, for $M\times N\to P,(m,n)\mapsto \alpha(m)n$ is a bilinear map and by the universal property, $\Psi(\alpha)$ is well-defined. Hence, this is an isomorphism. 
 > 2. As [[Module|Hom(.,N) is left exact]], $$0\to \text{Hom}(P,\text{Hom}(A,B))\xrightarrow{\psi ^{*}}\text{Hom}(N,\text{Hom}(A,B))\to\text{Hom}(M,\text{Hom}(A,B))$$ is left exact for all $R$-modules $A,B$ with: $\psi ^{*}(f)=f \circ  \psi$. From 1, this is the same as: $$0\to \text{Hom}(P\otimes A,B)\xrightarrow{\tilde{\psi}}\text{Hom}(N\otimes A,B)\to\text{Hom}(M\otimes A,B)$$where for $g:P\otimes A\to B$:$$\tilde{\psi}(g)(n\otimes a)=g(\psi(n)\otimes a)=g(\psi \otimes  \text{id}(n\otimes  a))$$
 >    
 >    We send it back so we get: $$M\otimes A\xrightarrow{\varphi \otimes \text{id}} N\otimes A \xrightarrow{\psi \otimes \text{id}} P\otimes A\to 0$$as an exact sequence.
 > 3. We just have to show that if $\varphi:M\to N$ is injective, $\varphi \otimes \text{id}$ is injective. Assume that the sequence is split. Then, there exists $j:N\to M$ s.t. $j \circ\varphi= \text{id}_{M}$. 
+>    
+>    Let: $\varphi \otimes \text{id}\left( \sum_{i}^{}m_{i}\otimes a_{i} \right)=0$. Then, $\sum_{i}^{}\varphi(m_{i})\otimes a_{i} = 0$ and $$\sum_{i}^{}m_{i}\otimes  a_{i}=(j\otimes \text{id})\left( \sum_{i}^{}\varphi(m_{i})\otimes  a_{i} \right)=0$$Hence, $\varphi \otimes \text{id}$ is injective.
+>    
+>    If $A$ is finitely generated free with basis $b_{1},\dots,b_{k}$. Then, for any $m\in M$, $$\varphi \otimes  \text{id}\left( \sum_{i}^{}m_{i}\otimes a_{i} \right)=\sum_{i}^{}\varphi(m_{i})\otimes  a_{i}=\sum_{i,j}^{}r_{ij}\varphi(m_{i})\otimes b_{j}=0$$Hence, $\sum_{i}^{}r_{ij}= 0$ for all $j$ and $\sum_{i}^{}m_{i}\otimes a_{i} = 0$.
 ---
 ##### Examples
 > [!h] Example 1

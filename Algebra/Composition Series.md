@@ -55,3 +55,11 @@
 	3. $\varphi$ is bijective.
 	
 ---
+> [!lemma] Proposition 3 (Tensor Product)
+> Let $M,N$ be two $R$-modules. Then, 
+> 1. $\ell(M\otimes N)\leq \ell(M)\ell(N)$
+
+> [!proof]+
+> We have:
+> 1. Assume $\ell(M)=\infty$. Then, the RHS is $\infty$ and the statement holds.
+> 2. if $\ell(M)=:n<\infty$, then we prove 
