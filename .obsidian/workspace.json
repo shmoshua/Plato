@@ -77,7 +77,8 @@
               "title": "Commutative Algebra Roadmap"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -117,12 +118,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Jacobson Radical.md",
+                "file": "Algebra/Localization.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Jacobson Radical"
+              "title": "Localization"
             }
           },
           {
@@ -131,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Algebra/Tensor Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Spectrum"
+              "title": "Tensor Product"
             }
           },
           {
@@ -154,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -299,27 +300,27 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c5a1f0f6c56bef19",
+  "active": "02d604c1852231a2",
   "lastOpenFiles": [
-    "Functional Analysis/Jacobson Radical.md",
-    "Algebra/Local Ring.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Tensor Product.md",
     "Functional Analysis/Spectrum.md",
+    "Algebra/Localization.md",
+    "Algebra/Module.md",
+    "Algebra/Local Ring.md",
+    "Algebra/Ideal (Ring).md",
+    "Functional Analysis/Jacobson Radical.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/C-Algebra.md",
     "Functional Analysis/Regular Ideal.md",
     "Lie Group/Ideal (Lie Algebra).md",
-    "Algebra/Localization.md",
-    "Algebra/Module.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Free Module.md",
     "Algebra/Composition Series.md",
-    "Algebra/Tensor Product.md",
     "Untitled.md",
     "Algebra/Variety.md",
     "Algebra/Prime Ideal.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/p-adic Integer.md",
     "Algebra/Integral Domain.md",
     "Algebra/Unit.md",

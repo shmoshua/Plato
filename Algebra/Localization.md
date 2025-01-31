@@ -4,6 +4,8 @@
 > Let $R$ be a commutative [[ring]].
 > 1. A subset $S\subseteq R$ is called ***multiplicatively closed***, if $1\in S$ and $ab\in S$ for all $a,b\in S$. 
 > 2. For a multiplicatively closed set $S\subseteq R$, the ***localization of $R$ at $S$*** is given by the ring: $$S^{-1}R:= (R\times S) / {\sim}$$where $(a,s)\sim(a',s')$ if and only if there exists $u\in S$ s.t. $u(as'-a's)=0$ where $\frac{a}{s}:=[(a,s)]$. The addition and multiplication are given by: $$\frac{a}{s}+\frac{a'}{s'}=\frac{as'+a's}{ss'},\quad \frac{a}{s}\cdot \frac{a'}{s'}=\frac{aa'}{ss'}$$
+> 3. For a multiplicatively closed set $S\subseteq R$ and a $R$-[[module]] $M$, the ***localization of $M$ at $S$*** is given by the $S^{-1}R$-module: $$S^{-1}M:= (M\times S) / {\sim}$$where $(m,s)\sim(m',s')$ if and only if there exists $u\in S$ s.t. $u(ms'-m's)=0$ where $\frac{m}{s}:=[(m,s)]$. The addition and multiplication are given by: $$\frac{m}{s}+\frac{m'}{s'}=\frac{ms'+m's}{ss'},\quad \frac{a}{s}\cdot \frac{m'}{s'}=\frac{am'}{ss'}$$
+> 4. For a multiplicatively closed set $S\subseteq R$ and a homomorphism $\varphi:M\to N$ of $R$-modules, the ***localization of $\varphi$ at $S$*** is given by: $$S^{-1}\varphi:S^{-1}M\to S^{-1}N,\quad S^{-1}\varphi\left( \frac{m}{s} \right)=\frac{\varphi(m)}{s}$$
 
 ^e626db
 
@@ -12,10 +14,11 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $R$ be a ring and $S\subseteq R$ a multiplicatively closed subset. Then, 
+> Let $R$ be a ring and $S\subseteq R$ a multiplicatively closed subset. Further, let $M$ be a  $R$-module. Then, 
 > 1. $\sim$ is an equivalence relation. 
 > 2. $S^{-1}R$ is a ring.
 > 3. $S^{-1}R$ is a $R$-[[algebra]].
+> 4. $S^{-1}M$ is a $S^{-1}R$-module.
 
 ^321ab4
 
@@ -56,6 +59,20 @@
 > To show uniqueness, let $\varphi'$ be another homomorphism with the same property. Then, $$\varphi'\left( \frac{r}{s} \right)=\varphi'\left( \frac{r}{1} \right)\varphi'\left( \frac{1}{s} \right)=\alpha(r)\alpha(s)^{-1}=\varphi\left( \frac{r}{s} \right) $$where $1=\alpha(1)=\varphi'\left( \frac{1}{1} \right)=\varphi'\left( \frac{1}{s} \right)\varphi'\left( \frac{s}{1} \right)=\varphi'\left( \frac{1}{s} \right)\alpha(s)$ hence $\varphi'\left( \frac{1}{s} \right)=\alpha(s)^{-1}$.
 
 ---
+> [!lemma] Proposition 4 (Localization is a Tensor Product)
+> Let $S$ be a multiplicatively closed subset of $R$ and $M$ a $R$-module. Then, 
+> 1. $S^{-1}M\cong M\otimes_{R} S^{-1}R$
+
+> [!proof]-
+> Consider the homomorphism: $$\varphi:S^{-1}M\to M \otimes _{R}S^{-1}R,\quad \frac{m}{s}\mapsto m\otimes  \frac{1}{s}$$This is well-defined as if $\frac{m}{s}=\frac{m'}{s'}$ with $u(ms'-m's)=0$ for $u\in S$, we have that: $$m\otimes  \frac{1}{s}=m\otimes \frac{us'}{uss'}=us'm\otimes  \frac{1}{uss'}=usm'\otimes  \frac{1}{uss'}=m'\otimes \frac{1}{s'} $$Similarly, $M\times S^{-1}R\to S^{-1}M,\left( m, \frac{a}{s} \right)\mapsto \frac{am}{s}$ is a bilinear map and this extends to a map $\psi :M\otimes S^{-1}R\to S^{-1}M$, where $\varphi$ and $\psi$ are inverses. This map is well-defined as for $\frac{a}{s}=\frac{a'}{s'}$ with $u(as'-a's)$, $u(ams'-a'ms)=0$.
+- **Remark**: This shows the localization of homomorphisms as $\varphi \otimes \text{id}:M\otimes S^{-1}R\to N\otimes S^{-1}N$.
+---
+> [!lemma] Proposition 5 (Localization is Exact)
+> Let $0\to M_{1}\xrightarrow{\varphi} M_{2}\xrightarrow{\psi} M_{3}\to 0$ be a [[Exact Sequence|SES]]. Then, for any multiplicatively closed $S\subseteq R$, $$0\to S^{-1}M_{1}\xrightarrow{S^{-1}\varphi}S^{-1}M_{2}\xrightarrow{S^{-1}\psi}S^{-1}M_{3}\to 0$$is also exact.
+
+> [!proof]+
+> By Proposition 4 and right exactness of tensor products, it is left to show that 
+---
 ##### Examples
 > [!h] Example 1
 > We have that:
@@ -77,3 +94,9 @@
 > We have that:
 > 1. Let $s,s'\in \overline{S}$. Then, there exists $a,a'\in R$ s.t. $as,a's'\in S$. Hence, $$aa'ss'\in S \implies ss'\in \overline{S}$$
 > 2. We have that: $$\varphi:\overline{S}^{-1}R\to S^{-1}R,\quad \frac{r}{s}\mapsto \frac{ar}{as}$$where $a\in R$ s.t. $as\in S$. This is well-defined as for $\frac{r}{s}=\frac{r'}{s'}$ with $u(rs'-r's)=0$ with $u\in \overline{S}$ s.t. $as\in S$ and $a's'\in S$, we have: $$bu(ara's'-a'r'as)=aa'b\cdot u(rs')=0$$where $bu\in S$. Now, $\varphi$ is surjective as $S^{-1}R$ injects into $\overline{S}^{-1}R$. To show the injectivity, let $\varphi\left( \frac{r}{s} \right)=\frac{ar}{as}=\frac{0}{1}$, i.e. $uar=0$ for some $u\in S$. Then, $$ua(r-0)=0$$and $\frac{r}{s}=0$. 
+
+---
+> [!h] Example 3
+> Let $S\subseteq R$ be multiplicatively closed and $I\unlhd R$. Then, 
+> 1. $S^{-1}I=I^e$ given by $\varphi:R\to S^{-1}R,a\mapsto \frac{a}{1}$.
+---
