@@ -303,10 +303,10 @@
   "active": "02d604c1852231a2",
   "lastOpenFiles": [
     "Algebra/Tensor Product.md",
-    "Functional Analysis/Spectrum.md",
     "Algebra/Localization.md",
-    "Algebra/Module.md",
     "Algebra/Local Ring.md",
+    "Functional Analysis/Spectrum.md",
+    "Algebra/Module.md",
     "Algebra/Ideal (Ring).md",
     "Functional Analysis/Jacobson Radical.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",

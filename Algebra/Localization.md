@@ -70,8 +70,23 @@
 > [!lemma] Proposition 5 (Localization is Exact)
 > Let $0\to M_{1}\xrightarrow{\varphi} M_{2}\xrightarrow{\psi} M_{3}\to 0$ be a [[Exact Sequence|SES]]. Then, for any multiplicatively closed $S\subseteq R$, $$0\to S^{-1}M_{1}\xrightarrow{S^{-1}\varphi}S^{-1}M_{2}\xrightarrow{S^{-1}\psi}S^{-1}M_{3}\to 0$$is also exact.
 
+> [!proof]-
+> By Proposition 4 and right exactness of tensor products, it is left to show that $S^{-1}\varphi$ is injective if $\varphi$ is. 
+> 
+> Let $\frac{m}{s}\in S^{-1}M_{1}$ s.t. $S^{-1}\varphi\left( \frac{m}{s} \right)=\frac{\varphi(m)}{s}=0$. Then, there exists $u\in S$ with $u\varphi(m)=\varphi(um)=0$. However, as $\varphi$ is injective, $um=0$. Hence, $\frac{m}{s}=0$. 
+---
+> [!lemma] Corollary 6
+> Let $S$ be a multiplicatively closed set of $R$. Then,
+> 1. for any homomorphism $\varphi:M\to N$ of $R$-modules, $$\text{ker}(S^{-1}\varphi)=S^{-1}\text{ker }\varphi,\quad \text{im}(S^{-1}\varphi)=S^{-1}\text{im }\varphi$$
+> 	In particular, if $\varphi$ is injective/surjective, so is $S^{-1}\varphi$. 
+> 2. If $N\leq M$, then $S^{-1}N\leq S^{-1}M$ in a natural way.
+> 3. If $N\leq M$, then $S^{-1}(M / N)\cong S^{-1}M / S ^{-1}N$.
+> 4. for any $R$-modules $M,N$, $S^{-1}(M\oplus N)\cong S^{-1}M\oplus S^{-1}N$.
+
 > [!proof]+
-> By Proposition 4 and right exactness of tensor products, it is left to show that 
+> We have:
+> 1. by Proposition 5, localizing $0\to \text{ker }\varphi\to M\to \text{im }\varphi \to 0$, we get: $$0\to S^{-1}\text{ker }\varphi\to S^{-1}M\to S^{-1}\text{im }\varphi \to 0$$but then this means that $\text{ker }(S^{-1}\varphi)=S^{-1}\text{ker }\varphi$ and $\text{im }(S^{-1}\varphi)=S^{-1}\text{im }\varphi$.
+> 2. We localize $0\to N\to M \to M / N\to 0$. Then
 ---
 ##### Examples
 > [!h] Example 1
