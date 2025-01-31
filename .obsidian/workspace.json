@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Localization.md",
+                "file": "Algebra/Local Ring.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Localization"
+              "title": "Local Ring"
             }
           },
           {
@@ -103,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Algebra/Local Ring.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "Local Ring"
             }
           },
           {
@@ -159,16 +159,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Prime Ideal.md",
+                "file": "Algebra/Ring Homomorphism.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Prime Ideal"
+              "title": "Ring Homomorphism"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -312,20 +312,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "94b25a7b87a91236",
+  "active": "c5a1f0f6c56bef19",
   "lastOpenFiles": [
-    "Algebra/Prime Ideal.md",
     "Algebra/Localization.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Local Ring.md",
+    "Untitled.md",
+    "Algebra/Variety.md",
     "Algebra/Ring Homomorphism.md",
+    "Algebra/Prime Ideal.md",
+    "Algebra/Composition Series.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Algebra/p-adic Integer.md",
     "Algebra/Integral Domain.md",
     "Algebra/Unit.md",
     "Algebra/Zero Divisor.md",
-    "Algebra/Composition Series.md",
     "Algebra/Algebra.md",
-    "Algebra/Variety.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Tensor Product.md",
@@ -338,8 +340,6 @@
     "Topology/Quotient Topology.md",
     "exact.md",
     "Algebra Homomorphism.md",
-    "Untitled 1.md",
-    "Algebra/Direct Sum.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

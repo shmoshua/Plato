@@ -34,12 +34,17 @@
 > 2. for any $I\unlhd S^{-1}R$, $(I^c)^e=I$. 
 > 3. [[Ring Homomorphism|contractions]] and [[Ring Homomorphism|extensions]] give a 1:1-correspondence: $$\begin{align}\{ \text{Prime ideals in }S^{-1}R \}&\leftrightarrow \{ \text{Prime ideals } I\text{ in }R\text{ with }I\cap S=\varnothing\}\\I&\mapsto I^c\\I^e&\leftarrow I\end{align}$$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. As $\frac{1}{s}\in S^{-1}R$ for all $s\in S$ and $I^e$ is an ideal, $\frac{a}{s}:=\frac{1}{s}\cdot\varphi(a)\in I^e$. However, for the other direction, for any $a\in I$, $\varphi(a)$ is contained in the RHS. This proves the statement as RHS is an ideal.
 > 2. By [[Ring Homomorphism|Proposition 4]] it suffices to show that $(I^c)^e\supseteq I$. Let $\frac{a}{s}\in I$. Then, $a\in \varphi ^{-1}(I)=I^c$ since $\varphi(a)=\frac{a}{1}=s\cdot \frac{a}{s}\in I$. Applying 1 to $I^c$, we have that: $\frac{a}{s}\in (I^c)^e$. 
-> 3. We first check that $\to$ is well-defined. If $I$ is a prime ideal in $S^{-1}R$, then $I^c$ is a prime ideal in $R$ by [[Prime Ideal|Proposition 2.1]]. Then, 
+> 3. We first check that $\to$ is well-defined. If $I$ is a prime ideal in $S^{-1}R$, then $I^c$ is a prime ideal in $R$ by [[Prime Ideal|Proposition 2.1]]. Further $S$ are all mapped to units in by $\varphi$ but $I^c$ cannot contain any units. 
+>    
+>    To check that $\gets$ is well-defined, let $I\unlhd R$ be prime with $I\cap S=\varnothing$. Let $\frac{a}{s}, \frac{b}{t}\in S^{-1}R$ with $\frac{ab}{st}\in I^e$. Then, by 1, $\frac{ab}{st}=\frac{c}{u}$ for some $c\in I$ and $u\in S$, i.e. there exists some $v\in S$ s.t. $v(abu-stc)=0$. This implies that $vabu\in I$. Since $I$ is prime, one of these 4 factors have to lie in $I$, but as $u,v\in S$, either $a\in I$ or $b\in I$. Hence, $\frac{a}{s}\in I^e$ or $\frac{b}{t}\in I^e$.
+>    
+>    Now, from 2, $(I^c)^e=I$ and we are left to show that $(I^e)^c=I$ for all prime $I\unlhd R$ with $I\cap S=\varnothing$. From [[Ring Homomorphism|Proposition 4]], we only need to show $\subseteq$. Let $a\in (I^e)^c$, i.e. $\varphi(a)=\frac{a}{1}\in I^e$. Then, by $a$, there exists $b\in I$ and $s\in S$ s.t. $\frac{a}{1}=\frac{b}{s}$, i.e. there exists $u\in S$ with $u(as-b)$. hence, $uas\in I$ and as $u,s\in S$ and $I$ is prime, we have that $a\in I$. 
 
+- **Remark**: Applying 3 to localization at prime ideals, we have a correspondence between prime ideals in $R_{P}$ and prime ideals $I$ in $R$ with $I\subseteq P$. 
 ---
 ##### Examples
 > [!h] Example 1
