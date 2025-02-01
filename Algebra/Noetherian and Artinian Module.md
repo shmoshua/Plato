@@ -68,11 +68,25 @@
 > 1. If $M$ is Noetherian and $\varphi$ is surjective, $\varphi$ is isomorphic. 
 > 2. If $M$ is Artinian and $\varphi$ is injective, $\varphi$ is isomorphic. 
 
-> [!proof]
+> [!proof]-
 > We have:
 > 1. If $M$ is Noetherian, then it is finitely generated and the rest follows from [[Module|Corollary 8]].
-> 2. If $M$ is Artinian, then let $M_{n}:= \text{im }\varphi^n$. Then, $M_{n+1}\subseteq M_{n}$ for all $n$ and: $$M_{1}\supseteq M_{2}\supseteq \dots$$is a descending chain of submodules. Hence, there exists $n\in \mathbb{N}$ s.t. $\text{im }\varphi^k=\text{im }\varphi^n$ for all $k\geq n$. Assume $\varphi$ is not surjective, i.e. there exists $a\in M$ s.t. $\varphi(b)\neq a$ for all $b\in M$. Then, $$\varphi^n(\varphi^{k-n}(a))=\varphi^n(a)\implies \varphi^{k-n}(a)=a$$
+> 2. If $M$ is Artinian, then let $M_{n}:= \text{im }\varphi^n$. Then, $M_{n+1}\subseteq M_{n}$ for all $n$ and: $$M_{1}\supseteq M_{2}\supseteq \dots$$is a descending chain of submodules. Hence, there exists $n\in \mathbb{N}$ s.t. $\text{im }\varphi^k=\text{im }\varphi^n$ for all $k\geq n$. Let $b\in M$. Then, we have that: $$\varphi^n(b)=\varphi^{n+1}(a)$$for some $a\in M$. Hence, by injectivity, $b=\varphi(a)$ and $\varphi$ is isomorphic. 
 
+---
+##### Noetherian Rings
+> [!lemma] Theorem 1 (Hilbert's Basis Theorem)
+> Let $R$ be a Noetherian ring. 
+> 1. $R[x]$ is also Noetherian.
+
+> [!proof]+
+> Assume $R[x]$ is not Noetherian. Then, by Proposition 1, there exists an ideal $I\unlhd R[x]$ that is not finitely generated. Hence, we can find $(f_{i})_{i}\subseteq I$ as follows: 
+>1. $f_{0}\in I$ is a non-zero polynomial of minimal degree.
+>2. $f_{k+1}$ is a non-zero polynomial of minimal degree in $I \backslash \braket{ f_{0} , \dots,f_{k} }$.
+>   
+> Now, for all $k$, let $d_{k}$ denote the degree of $f_{k}$ and $a_{k}\in R$ the leading coefficient of $f_{k}$. Then, $d_{k}\leq d_{k+1}$ by construction. Now, since $R$ is Noetherian, $(a_{0})\subseteq (a_{0},a_{1})\subseteq(a_{0},a_{1},a_{2})\subseteq \dots$ becomes stationary and we have: $$a_{n+1}=c_{0}a_{0}+\dots+c_{n}a_{n}$$for some $n\in \mathbb{N}$ and $c_{i}\in R$. 
+> 
+> If we now define: $$f'_{n+1}:= f_{n+1}-\sum_{k=0}^{n}c_{k}(x^{d_{n+1}-d_{k}})f_{k}$$Then, $x^{d_{n+1}}$ coefficient is $0$ and $\deg f'_{n+1}\leq \deg f_{n+1}$. However, as $f_{n+1}\notin \braket{ f_{0} , \dots,f_{n} }$, so is $f'_{n+1}$. This contradicts the minimality of $f_{n+1}$ and $R[x]$ is Noetherian. 
 ---
 ##### Examples
 
