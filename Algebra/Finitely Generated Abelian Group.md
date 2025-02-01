@@ -59,6 +59,11 @@
 >  > It follows that $y_{j_{0}}^d=\prod_{i=j_{0}}^{r}x_{i}^{n_{i}}=\prod_{i=1}^{r}x_{i}^{n_{i}}=1$ from our assumption. As $y_{j_{0}},\dots,y_{r}$ are generators of $H$, $y_{j_{0}}\neq 1$. Since $d | n_{j_{0}}$ and $0 <n_{j_{0}}$, we have that $d \leq n_{j_{0}}< N_{j_{0}}$. Further, we have that $\text{ord}(y_{j_{0}}) \le d<N_{j_{0}}$.
 >  > 
 >  > Finally, as $G = \braket{ x_{1} , \dots,x_{j_{0}-1},y_{j_{0}},\dots,y_{r} }$ but $\text{ord}(y_{j_{0}})=d<N_{j_{0}}$ this is a contradiction.
+
+> [!proof]+ Proof (Using Noetherian Modules)
+> Let $G$ be a finitely generated abelian group, viewed as a $\mathbb{Z}$-module. Then, from [[Noetherian and Artinian Module|Corollary 3]], as $\mathbb{Z}$ is Noetherian, $G$ is Noetherian. 
+> 
+> Let $M:=\braket{ m_{1} , \dots,m_{k} }$ and the module homomorphism: $$\varphi:\mathbb{Z}^k\to M,\quad (a_{1},\dots,a_{k})\mapsto a_{1}m_{1}+\dots+a_{k}m_{k}$$is surjective and we get $0\to \text{ker }\varphi\to \mathbb{Z}^k \to M \to 0$ as an exact sequence. Now, as $\mathbb{Z}^k$ is Noetherian and $\text{ker }\varphi\leq \mathbb{Z}^k$, by [[Noetherian and Artinian Module|Proposition 1.3]], $\text{ker }\varphi$ is also finitely generated, i.e. $\text{ker }\varphi=\braket{ x_{1},\dots,x_{\ell}  }$. Now, $$\psi:R^\ell\to \text{ker }\varphi,\quad (b_{1},..,b_{\ell})\mapsto b_{1}x_{1}+\dots+b_{\ell}x_{\ell}$$is a surjective homomorphism and we get $0\to \text{ker }\psi\to \mathbb{Z}^\ell \to \text{ker }\varphi\to 0$. Hence, by [[Exact Sequence|Glueing]], we get: $$0\to \text{ker }\psi\to \mathbb{Z}^\ell\xrightarrow{\psi} \mathbb{Z}^k \xrightarrow{\varphi} M \to 0$$
 ---
 > [!lemma] Corollary 5
 > Let $G$ be a finitely generated abelian group. Then, $$G \cong C_{n_{1}}\times C_{n_{2}}\times\dots \times C_{n_{t}}\times \mathbb{Z}^k$$where $n_{i} |n_{i+1}$ for all $i\in[t-1]$. Then, $k$ is called the ***rank*** of $G$ and the finite part $C_{n_{1}}\times \dots \times C_{n_{t}}$ is called the ***torsion group*** of $G$.
