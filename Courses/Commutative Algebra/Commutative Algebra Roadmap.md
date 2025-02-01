@@ -498,3 +498,12 @@
 ![[Localization#^a19d79]]
 
 ---
+### 7. Chain Conditions
+![[Noetherian and Artinian Module#^11ada3]]
+
+---
+![[Noetherian and Artinian Module#^5e1255]]
+![[Noetherian and Artinian Module#^159f21|p]]
+
+---
+![[Noetherian and Artinian Module#^7b589f]]

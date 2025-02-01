@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "Noetherian and Artinian Module"
             }
+          },
+          {
+            "id": "1652382bc3c67270",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Localization.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Localization"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -132,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Localization.md",
+                "file": "Algebra/Ideal (Ring).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Localization"
+              "title": "Ideal (Ring)"
             }
           },
           {
@@ -160,16 +174,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Algebra/Annihilator.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Principal Ideal Domain"
+              "title": "Annihilator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -313,23 +326,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ee568ad677adda89",
+  "active": "6f4a779412f55419",
   "lastOpenFiles": [
-    "Algebra/Principal Ideal Domain.md",
-    "Algebra/Ideal (Ring).md",
-    "Algebra/Noetherian and Artinian Module.md",
-    "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Localization.md",
-    "Functional Analysis/Jacobson Radical.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Annihilator.md",
+    "Algebra/Module.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Finitely Generated Abelian Group.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Functional Analysis/Jacobson Radical.md",
     "Algebra/Coprime Ideal.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Noetherian Module.md",
-    "Algebra/Module.md",
     "Algebra/Algebra.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Composition Series.md",
     "Algebra/Basis.md",
     "Discrete Mathematics/Order.md",

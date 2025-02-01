@@ -103,6 +103,7 @@
 > 5. for $M_{1},M_{2}\leq M$, $S^{-1}(M_{1}+M_{2})\cong S^{-1}M_{1}+S^{-1}M_{2}$
 > 6. for $M_{1},M_{2}\leq M$, $S^{-1}(M_{1}\cap M_{2})\cong S^{-1}M_{1}\cap S^{-1}M_{2}$
 > 7. for $I\unlhd R$, $S^{-1}\sqrt{ I }\cong  \sqrt{ S^{-1}I }$
+> 8. if $R$ is [[Noetherian and Artinian Module|Noetherian/Artinian]], then so is $S^{-1}R$.
 
 ^66b9c4
 
@@ -115,6 +116,7 @@
 > 5. Consider the exact sequence $0\to M_{1}\cap M_{2}\to M_{1}\oplus M_{2} \to M_{1}+M_{2}\to 0$. Then, $$0\to S^{-1}(M_{1}\cap M_{2})\to S^{-1}M\oplus S^{-1}N\to S^{-1}(M_{1}+M_{2})\to 0$$This shows both 5 and 6.
 > 6. We have:
 > 	$$\varphi:S^{-1}\sqrt{ I }\to \sqrt{ S^{-1}I },\quad \frac{a}{s}\mapsto \frac{a}{s}$$Let $a^n=0$. Then, $\left( \frac{a}{s} \right)^n=\frac{a^n}{s^n}=0$. One easily sees that this is an isomorphism.
+> 7. Let $M_{0}\subseteq M_{1}\subseteq \dots$ be an ascending chain of ideals of $S^{-1}R$. Then, we have that: 
 
 ^15a3cb
 
