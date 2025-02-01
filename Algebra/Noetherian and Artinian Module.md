@@ -92,38 +92,65 @@
 > 2. By [[Algebra|Lemma 2]], $A\cong R[x_{1},\dots,x_{n}] / I$ for some $I\unlhd R[x_{1},\dots,x_{n}]$. Now, from Hilbert's Basis theorem, we have that $R[x_{1},\dots,x_{n}]$ is Noetherian. Hence, by Lemma 2, $A$ is Noetherian as well.
 ---
 ##### Artinian Rings
-> [!lemma] Proposition 2
+> [!lemma] Proposition 1
 > Let $R$ be an Artinian ring. 
 > 1. there are maximal ideals $P_{1},\dots,P_{n}\unlhd R$ s.t. $P_{1}\cdots P_{n}=0$.
 > 2. $R$ has only finitely many prime ideals all of which are maximal. They all occur among $P_{1},\dots,P_{n}$ in $1$.
 
-> [!proof]+
-> Let $I=P_{1}\dots P_{n}$ be a product of maximal ideals $P_{1},\dots,P_{n}$ s.t. $I$ is minimal among all ideals, which exists by Proposition 1.2. We need to show that $I=0$. 
-> 1. $I^{2}$ is also the product of maximal ideals and from $I^2\subseteq I$, $I=I^{2}$. 
-> 2. if $P\unlhd R$ is any maximal ideal, $PI\subseteq I$ and by minimality $I=PI\subseteq P$. Hence, $$I\subseteq \text{Rad}(R)$$ where $\text{Rad}(R)$ is the [[Jacobson radical]].
+> [!proof]-
+> We have:
+> 1. Let $I=P_{1}\dots P_{n}$ be a product of maximal ideals $P_{1},\dots,P_{n}$ s.t. $I$ is minimal among all ideals, which exists by Proposition 1.2. We need to show that $I=0$. 
+> 	1. $I^{2}$ is also the product of maximal ideals and from $I^2\subseteq I$, $I=I^{2}$. 
+> 	2. if $P\unlhd R$ is any maximal ideal, $PI\subseteq I$ and by minimality $I=PI\subseteq P$. Hence, $$I\subseteq \text{Rad}(R)$$ where $\text{Rad}(R)$ is the [[Jacobson radical]].
 >    
-> Now, assume that $I\neq 0$. Then, as $R$ is Artinian, there exists a minimal ideal $J\unlhd R$ with $IJ\neq 0$. Then, 
-> 1. $J$ is principal. Indeed, there must be an element $b\in J$ with $I\cdot(b)\neq 0$. Hence, by minimality of $J$, $(b)=J$. 
-> 2. $IJ=J$ as we have $IJ\subseteq J$ and $I\cdot IJ= I^{2}J=IJ\neq 0$.
+> 	Now, assume that $I\neq 0$. Then, as $R$ is Artinian, there exists a minimal ideal $J\unlhd R$ with $IJ\neq 0$. Then, 
+> 	1. $J$ is principal. Indeed, there must be an element $b\in J$ with $I\cdot(b)\neq 0$. Hence, by minimality of $J$, $(b)=J$. 
+> 	2. $IJ=J$ as we have $IJ\subseteq J$ and $I\cdot IJ= I^{2}J=IJ\neq 0$.
 >    
-> Hence, $J$ is finitely generated and by [[Module|Nakayama]], there is an element $a\in I$ with $(1-a)m=0$ for all $m\in J$. As 
+> 	Hence, $J$ is finitely generated and by [[Module|Nakayama]], there is an element $a\in I$ with $(1-a)m=0$ for all $m\in J$. As $J\neq 0$, $(1-a)$ is not a unit in $R$. Then, $(1-a)\neq R$, hence $1-a$ is contained in some maximal ideal $P\unlhd R$. However, so is $a\in I\subseteq P$, hence $$1=(1-a)+a\in P$$which is a contradiction. Hence, $I=0$.
+> 2. Let $P\unlhd R$ be a prime ideal. Then, $P_{i}\subseteq P$ for some $i=1,\dots,n$. Otherwise, there exists $a_i\in  P_{i} \backslash P$ for all $i$ and $a_{1}\dots a_{n}\in P_{1}\dots P_{n}=0\subseteq P$. But this contradicts that $P$ is prime. Hence, $P_{i}\subseteq P$ for some $i$ and as $P_{i}$ is maximal, $P=P_{i}$. 
 
 ---
+> [!lemma] Theorem 2 (Hopkins)
+> Let $R$ be a ring. TFAE:
+> 1. $R$ is Artinian.
+> 2. $R$ is Noetherian and every prime ideal is maximal.
 
+> [!proof]-
+> We have:
+> 1. (1=>2): Let $R$ be Artinian. Then, every prime ideal is maximal by Proposition 1. Furthermore, we have a chain: $$0=Q_{0}\subseteq Q_{1}\subseteq\dots \subseteq Q_{n}=R$$where $Q_{i}:= P_{i+1}\cdots P_{n}$. Now, for all $i$, the quotient $Q_{i} / Q_{i-1}=Q_{i} / P_{i}Q_{i-1}$ is an Artinian $R$-module by Lemma 2. Hence, it is a Artinian $R / P_{i}$-vector space by Example 1.7. Hence, by Example 1.2, it is a Noetherian $R / P_{i}$-vector space and Noetherian $R$-module. 
+>    
+>    Hence, by induction on $i$, it follows that $Q_{i}$ is Noetherian and in particular $R= Q_{n}$ is Noetherian.
+>    
+>    The rest follows from Proposition 1.
+>  2. (2=> 1): Assume that $R$ is Noetherian but not Artinian. We will find a prime ideal $P\unlhd R$ that is not maximal. 
+>     
+>     Consider the family of all ideals $I\unlhd R$ s.t. $R / I$ is not Artinian. Then it is non-empty as it contains the zero ideal. As $R$ is Noetherian, by Proposition 1.1, it has a maximal element $P$. However, $P$ is not maximal in $R$, as if it is then $R/P$ is a field, hence Artinian. 
+>     
+>     We are left to show that $P$ is prime, i.e. $S:=R / P$ is an integral domain. For any $a\in R$, consider the exact sequence: $$0 \to S / \text{Ann}(\overline{a})\xrightarrow{\cdot \overline{a}} S \to S / (\overline{a}) \to 0$$As $S$ is not Artinian, either $S / \text{Ann}(\overline{a})$ or $S / (\overline{a})$ is not Artinian. However, as $P$ is chosen to be maximal over all such rings, taking a further quotient of $S$ by a non-zero ideal must give an Artinian ring. This shows that either $\text{Ann}(\overline{a})=0$ or $\overline{a}=0$. Hence, every non-zero element of $R / P$ is a non-zero divisor. This shows that $R / P$ is an integral domain.
+---
+> [!lemma] Theorem 3 (Structure Theorem for Artinian Rings)
+> Every Artinian ring $R$ is a finite product of local Artinian rings. 
+> 1. if $P_{1},\dots,P_{n}$ are the distinct maximal ideals, then $R_{P_{i}}$ are also Artinian and $R$ is isomorphic to $R_{P_{1}}\times\dots \times R_{P_{n}}$. 
+
+> [!proof]+
+> By Proposition 1, we can find $k\in \mathbb{N}$ s.t. $P_{1}^k\cdot\dots \cdot P^k_{n}=0$. Then, $P^k_{1},\dots,P^k_{n}$ are pairwise coprime by [[]] 
+---
 ##### Examples
 
 > [!h] Example 1
 > We have that:
 > 1. Any field $K$ is both Noetherian and Artinian as it only has trivial ideals. 
 > 2. For a $K$-vector space $V$, TFAE:
-> 	1. $K$ is Noetherian.
-> 	2. $K$ is Artinian.
-> 	3. $K$ is finite dimensional.
+> 	1. $V$ is Noetherian.
+> 	2. $V$ is Artinian.
+> 	3. $V$ is finite dimensional.
 > 3. $\mathbb{Z}$ is Noetherian but not Artinian.
 > 4. $R:=\bigcup_{n}^{}\mathbb{R}[x_{0},x_{1},\dots,x_{n}]$ is neither Noetherian nor Artinian.
 > 5. Every [[Principal Ideal Domain|PID]] $R$ is Noetherian by Proposition 1.3. 
 > 6. $\mathbb{R}[x]$ is a Noetherian ring but a non-Noetherian $R$-module by 2.
-> 7. $R/I$ is Noetherian/Artinian as a ring if and only if it is as a $R$-module.
+> 7. $M / IM$ is Noetherian/Artinian as an $R / I$ module if and only if it is as a $R$-module.
+> 8. $R/I$ is Noetherian/Artinian as a ring if and only if it is as a $R$-module.
 
 > [!proof]-
 > We have:

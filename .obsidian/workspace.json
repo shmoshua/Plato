@@ -146,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Maximal Ideal.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Module"
+              "title": "Maximal Ideal"
             }
           },
           {
@@ -188,16 +188,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Noetherian Module.md",
+                "file": "Algebra/Annihilator.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Noetherian Module"
+              "title": "Annihilator"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -341,19 +341,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c5a1f0f6c56bef19",
+  "active": "6c1a8b1ad0201576",
   "lastOpenFiles": [
-    "Algebra/Module.md",
+    "Algebra/Maximal Ideal.md",
+    "Algebra/Prime Ideal.md",
+    "Algebra/Coprime Ideal.md",
+    "Algebra/Exact Sequence.md",
     "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Annihilator.md",
+    "Algebra/Noetherian Module.md",
+    "Algebra/Module.md",
     "Algebra/Ideal (Ring).md",
     "Functional Analysis/Jacobson Radical.md",
     "Algebra/Algebra.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Composition Series.md",
     "Algebra/Basis.md",
-    "Algebra/Exact Sequence.md",
     "Algebra/Finitely Generated Abelian Group.md",
-    "Algebra/Noetherian Module.md",
     "Discrete Mathematics/Order.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Localization.md",
@@ -365,10 +369,6 @@
     "Algebra/Local Ring.md",
     "Algebra/Nilradical.md",
     "Algebra/Composite Field.md",
-    "Algebra/Maximal Ideal.md",
-    "Algebra/Tensor Product.md",
-    "Functional Analysis/Spectrum.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
