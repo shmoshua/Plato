@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Principal Ideal Domain.md",
+                "file": "Discrete Mathematics/Order.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Principal Ideal Domain"
+              "title": "Order"
             }
           },
           {
@@ -146,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Composition Series.md",
+                "file": "Algebra/Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Composition Series"
+              "title": "Module"
             }
           }
         ],
@@ -301,19 +301,20 @@
   },
   "active": "c5a1f0f6c56bef19",
   "lastOpenFiles": [
-    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Module.md",
+    "Algebra/Composition Series.md",
     "Algebra/Noetherian and Artinian Module.md",
+    "Discrete Mathematics/Order.md",
+    "Algebra/Principal Ideal Domain.md",
     "Algebra/Localization.md",
     "Algebra/Integral Domain.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Radical (Ring).md",
     "Picard iteration.md",
-    "Algebra/Module.md",
     "Algebra/Ideal (Ring).md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Local Ring.md",
-    "Algebra/Composition Series.md",
     "Algebra/Nilradical.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Composite Field.md",
@@ -326,7 +327,6 @@
     "Functional Analysis/Regular Ideal.md",
     "Lie Group/Ideal (Lie Algebra).md",
     "Algebra/Free Module.md",
-    "Untitled.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

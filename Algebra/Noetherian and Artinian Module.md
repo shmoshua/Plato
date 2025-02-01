@@ -6,6 +6,36 @@
 > 2. $M$ is called ***Artinian*** if every deschedning chain of submodules of $M$: $$M_{0}\supseteq M_{1} \supseteq M_{2} \supseteq\dots$$becomes stationary.
 
 ---
+##### Properties
+> [!lemma] Proposition 1 (Equivalent Conditions of Noetherian/Artinian Modules)
+> Let $M$ be a $R$-module.
+> 1. $M$ is Noetherian if and only if every non-empty family of submodules of $M$ has a maximal element.
+> 2. $M$ is Artinian if and only if every non-empty family of submodules of $M$ has a minimal element.
+> 3. $M$ is Noetherian if and only if every submodule of $M$ is finitely generated.
+
+> [!proof]-
+> We have:
+> 1. We will show that:
+> 	1. (1=>2): Let $A$ be a non-empty family of submodules of $M$. If there is no maximal element, then we can recursively choose a chain $M_{0}\subsetneq M_{1}\subsetneq\dots$ from $A$. This is a contradiction.
+> 	2. (2=>1): Let $M_{0}\subseteq M_{1}\subseteq M_{2}\subseteq\dots$ be a chain of submodules. Then, this has a maximal element $M_{n}$. Hence, the chain is stationary and $M$ is Noetherian.
+> 2. Analogous to 1. 
+> 3. We show that:
+> 	1. (1=>2): Assume there exists a submodule $N\leq M$ that is not finitely generated. Then, we can recursively pick $m_{0}\in N$ and $m_{n+1}\in N \backslash \braket{ m_{0} , \dots,m_{n} }$ and obtain a chain: $$M_{0}\subsetneq M_{1}\subsetneq \dots$$which is a contradiction. 
+> 	2. (2=>1): Let $M_{0}\subseteq M_{1}\subseteq\dots$ be a chain. Then, $N:=\bigcup_{n}^{}M_{n}\leq M$ and $N=\braket{ m_{1} , \dots,m_{r} }$. Then, by definition we have $n_{i}\in \mathbb{N}$ s.t. $m_{i}\in M_{n_{i}}$ for all $i$. Hence, by choosing $n:= \max n_{i}$, $M$ is Noetherian. 
+
+---
+> [!lemma] Lemma 2
+> Let $M$ be a $R$-module and $N\leq M$.
+> 1. $M$ is Noetherian if and only if $N$ and $M / N$ are Noetherian.
+> 2. $M$ is Artinian if and only if $N$ and $M / N$ are Artinian.
+
+> [!proof]+
+> We have:
+> 1. We show that:
+> 	1. (1=>2): Let $M$ be Noetherian. As any chain of submodules of $N$ is also that of $M$, $N$ is Noetherian. 
+> 	   
+> 	   Similarly, let $P_{0}\subseteq P_{1}\subseteq\dots$ be a chain of submodules of $M /N$. Let $M_{i}:= q^{-1}(P_{i})$ where $q:M\to M / N$ be the quotient map. Then, $M_{0}\subseteq M_{1}\subseteq \dots$ is a chain of submodules of $M$ and 
+---
 ##### Examples
 
 > [!h] Example 1
@@ -17,6 +47,9 @@
 > 	3. $K$ is finite dimensional.
 > 3. $\mathbb{Z}$ is Noetherian but not Artinian.
 > 4. $R:=\bigcup_{n}^{}\mathbb{R}[x_{0},x_{1},\dots,x_{n}]$ is neither Noetherian nor Artinian.
+> 5. Every [[Principal Ideal Domain|PID]] $R$ is Noetherian by Proposition 1.3. 
+> 6. $\mathbb{R}[x]$ is a Noetherian ring but a non-Noetherian $R$-module by 2.
+> 7. $R/I$ is Noetherian/Artinian as a ring if and only if it is as a $R$-module.
 
 > [!proof]-
 > We have:
@@ -34,7 +67,8 @@
 > 1. every proper submodule of $M$ is of the form $\braket{ \overline{\frac{1}{p^n}}  }$.
 > 2. $M$ is Artinian but not Noetherian.
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. $$\mathbb{Z}_{p}:=\left\{  \frac{a}{p^n}:a\in \mathbb{Z},n\in \mathbb{N}  \right\}$$Then, let $N$ be a proper submodule of $M$. If $N=0$, then $N=\braket{ \overline{\frac{1}{p^0}}  }$. Assume $N\neq 0$. Let $0\neq\overline{\frac{a}{p^n}}\in N$. Wlog we may assume that $1\leq a< p^n$. Then, $\gcd(a,p^n)=d$. Then, $a=da'$ where $\gcd(a',p^n)=1$. Hence, by [[Principal Ideal Domain|Theorem 2]], there exists $x,y\in \mathbb{Z}$ s.t. $$1=a'x+p^ny$$Multiplying it by $\frac{d}{p^n}$, we get $\frac{d}{p^n}=\frac{a}{p^n}x+dy$ and $\overline{\frac{d}{p^n}}=x\overline{\frac{a}{p^n}}\in N$. As $d$ is a divisor of $a$, we can repeat this argument to get that $\overline{\frac{1}{p^n}}\in N$. Therefore, $N\geq \braket{  \overline{\frac{1}{p^n}} }$. To show the opposite inclusion, Let $\overline{\frac{1}{p^n}},\overline{\frac{1}{p^m}}\in N$ with $n<m$. Then, $\overline{\frac{1}{p^n}}=\overline{\frac{p^{m-n}}{p^m}}$ and $\overline{\frac{1}{p^n}}\in \braket{ \overline{\frac{1}{p^m}}  }$. This proves the statement.
-> 2. We showed that $\braket{ \overline{\frac{1}{p^n }}}\subsetneq\braket{ \overline{\frac{1}{p^m }}}$ for all $n<m$. Hence, $M$ is not Noetherian. Conversely, 
+> 2. We showed that $\braket{ \overline{\frac{1}{p^n }}}\subsetneq\braket{ \overline{\frac{1}{p^m }}}$ for all $n<m$. Hence, $M$ is not Noetherian. Conversely, let $$N_{0}\supsetneq N_{1} \supsetneq \dots $$be a descending chain. Then, $N_1=\braket{ \overline{\frac{1}{p^n}}  }$ for some $n$ and there can be only finitely many submodules strictly smaller. 
+---
