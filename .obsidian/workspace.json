@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete Mathematics/Order.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Order"
+              "title": "Exact Sequence"
             }
           },
           {
@@ -302,9 +302,10 @@
   "active": "c5a1f0f6c56bef19",
   "lastOpenFiles": [
     "Algebra/Module.md",
-    "Algebra/Composition Series.md",
     "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Exact Sequence.md",
     "Discrete Mathematics/Order.md",
+    "Algebra/Composition Series.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Localization.md",
     "Algebra/Integral Domain.md",
@@ -316,7 +317,6 @@
     "Algebra/Ring Homomorphism.md",
     "Algebra/Local Ring.md",
     "Algebra/Nilradical.md",
-    "Algebra/Exact Sequence.md",
     "Algebra/Composite Field.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Tensor Product.md",

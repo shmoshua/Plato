@@ -29,12 +29,28 @@
 > 1. $M$ is Noetherian if and only if $N$ and $M / N$ are Noetherian.
 > 2. $M$ is Artinian if and only if $N$ and $M / N$ are Artinian.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. We show that:
 > 	1. (1=>2): Let $M$ be Noetherian. As any chain of submodules of $N$ is also that of $M$, $N$ is Noetherian. 
 > 	   
-> 	   Similarly, let $P_{0}\subseteq P_{1}\subseteq\dots$ be a chain of submodules of $M /N$. Let $M_{i}:= q^{-1}(P_{i})$ where $q:M\to M / N$ be the quotient map. Then, $M_{0}\subseteq M_{1}\subseteq \dots$ is a chain of submodules of $M$ and 
+> 	   Similarly, let $P_{0}\subseteq P_{1}\subseteq\dots$ be a chain of submodules of $M /N$. Let $M_{i}:= q^{-1}(P_{i})$ where $q:M\to M / N$ be the quotient map. Then, $M_{0}\subseteq M_{1}\subseteq \dots$ is a chain of submodules of $M$ and becomes stationary. As $q$ is surjective, this means that the $P$-chain also becomes stationary. Hence, $M / N$ is Noetherian.
+> 	2. (2=>1): Let $M_{0}\subseteq M_{1}\subseteq \dots$ be an ascending chain of submodules. If we set $N_{i}:= M_{i}\cap N$, and $P_{i}:=(M_{i}+N) / N$, then: $$N_{0}\subseteq N_{1}\subseteq\dots,\quad P_{0}\subseteq P_{1}\subseteq\dots$$are ascending chain of submodules of $N$ and $M / N$ respectively. As they both become stationary, there exists $n\in \mathbb{N}$ s.t. $N_{k}=N_{n}$ and $P_{k}=P_{n}$ for all $k\geq n$. Then, we get a commutative diagram: $$\begin{CD}0 @>>> N_{n}@>>> M_{n} @>>> P_{n}@>>> 0\\&@VVV @VVV@VVV\\0 @>>> N_{k}@>>> M_{k} @>>> P_{k}@>>> 0\end{CD}$$where the rows are exact. Then, by [[Exact Sequence|5-lemma]], the inclusion $M_{n}\to M_{k}$ is an isomorphism, i.e. $M_{n}=M_{k}$ for all $k\geq n$. 
+> 2. Analogous to 1.
+- **Corollary**: Let $R$ be a Noetherian ring and $I\unlhd R$. Then, $R / I$ is a Noetherian ring. 
+
+---
+> [!lemma] Corollary 3
+> Let $M,N$ be $R$-modules.
+> 1. $M\oplus N$ is Noetherian/Artinian if and only if $M,N$ are.
+> 2. if $R$ is Noetherian/Artinian and $M$ is finitely generated, then $M$ is also Noetherian/Artinian.
+
+> [!proof]-
+> We have that:
+> 1. From the exact sequence $0\to M \to M\oplus N \to N \to 0$ and Lemma 2 by treating $M$ as a submodule of $M\oplus N$ and $N\cong M\oplus N / M$.
+> 2. Let $M:=\braket{ m_{1} , \dots,m_{k} }$ for some $m_{1},\dots,m_{k}\in M$. Then, the module homomorphism: $$\varphi:R^k\to M,\quad (a_{1},..,a_{k})\mapsto a_{1}m_{1}+\dots+a_{k}m_{k}$$ is surjective and we have an exact sequence, $0 \to \text{ker }\varphi \to R^k \to M \to 0$. As $R$ is Noetherian /Artinian, so is $R^k$ by 1 and subsequently $M$ by Lemma 2.
+---
+
 ---
 ##### Examples
 
