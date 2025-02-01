@@ -441,3 +441,60 @@
 ![[Localization#^b7609c|p]]
 
 ---
+![[Localization#^ea6d10]]
+
+---
+![[Localization#^68bf11]]
+![[Localization#^c88fd9|p]]
+![[Localization#^56eb95]]
+
+---
+#### 6.1 Local Rings
+![[Local Ring#^d4517a]]
+
+---
+![[Local Ring#^3ccf2f]]
+![[Local Ring#^00409a|p]]
+
+---
+#### 6.2 Properties of Localization
+![[Localization#^7baea4]]
+![[Localization#^e819db|p]]
+
+---
+![[Localization#^a105c9]]
+![[Localization#^200add|p]]
+
+---
+![[Local Ring#^597fd1]]
+![[Local Ring#^d028e7|p]]
+
+---
+![[Localization#^35ae68]]
+![[Localization#^ef7c7d|p]]
+![[Localization#^07bb27]]
+
+---
+![[Localization#^4d7290]]
+![[Localization#^9b7b77|p]]
+
+---
+![[Localization#^66b9c4]]
+![[Localization#^15a3cb|p]]
+![[Localization#^86ca13]]
+
+---
+![[Localization#^30c1ef]]
+![[Localization#^9b8442|p]]
+
+---
+![[Composition Series#^591699]]
+![[Composition Series#^f262e0|p]]
+![[Composition Series#^1a5ed8]]
+
+---
+![[Localization#^48623c]]
+![[Localization#^6a5807|p]]
+![[Localization#^a19d79]]
+
+---

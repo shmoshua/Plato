@@ -73,6 +73,11 @@
 > Let $M$ be a $R$-module of finite length and: $$0=M_{0}\subsetneq M_{1}\subsetneq \dots\subsetneq M_{n}=M$$be a composition series s.t. $M_{i} / M_{i-1}\cong R / I_{i}$ for some maximal $I_{i}\unlhd R$. Then,
 > 1. for any maximal $P\unlhd R$, $\ell_{R_{P}}(M_{P})$ is the number of indices $i$ s.t. $I_{i}=P$.
 
+^591699
+
 > [!proof]-
 > Consider the chain of localized modules: $$0=(M_{0})_{P}\subsetneq (M_{1})_{P}\subsetneq \dots\subsetneq (M_{n})_{P}=M_{P}$$Then, for all $i$, $$(M_{i})_{P} / (M_{i-1})_{P}\cong (M_{i} / M_{i-1})_{P}\cong (R / I_{i})_{P}\cong R_{P} / (I_{i})_{P}$$Now, by [[Localization|Example 4]], $R_{P} / (I_{i})_{P}\cong R / I_{i}$ if and only if $P=I_{i}$ and otherwise zero. This proves the statement.
-- **Corollary**: $\ell(M)=\sum_{P\unlhd R, \text{maximal}}^{}\ell_{R_{P}}(M_{P})$. 
+
+^f262e0
+
+- **Corollary**: $\ell(M)=\sum_{P\unlhd R, \text{maximal}}^{}\ell_{R_{P}}(M_{P})$.  ^1a5ed8

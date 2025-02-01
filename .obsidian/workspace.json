@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Composition Series.md",
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Composition Series"
+              "title": "Commutative Algebra Roadmap"
+            }
+          },
+          {
+            "id": "6c1a8b1ad0201576",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Noetherian and Artinian Module.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Noetherian and Artinian Module"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -104,12 +118,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Local Ring.md",
+                "file": "Algebra/Noetherian and Artinian Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Local Ring"
+              "title": "Noetherian and Artinian Module"
             }
           },
           {
@@ -132,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Algebra/Integral Domain.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Nilradical"
+              "title": "Integral Domain"
             }
           },
           {
@@ -169,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,8 +235,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -314,16 +327,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02d604c1852231a2",
+  "active": "6c1a8b1ad0201576",
   "lastOpenFiles": [
     "Algebra/Local Ring.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Localization.md",
+    "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Composition Series.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Nilradical.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Exact Sequence.md",
-    "Algebra/Nilradical.md",
     "Algebra/Ideal (Ring).md",
-    "Algebra/Composition Series.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Composite Field.md",
     "Algebra/Module.md",
     "Algebra/Maximal Ideal.md",
@@ -340,8 +355,6 @@
     "Algebra/Variety.md",
     "Algebra/Prime Ideal.md",
     "Algebra/p-adic Integer.md",
-    "Algebra/Integral Domain.md",
-    "Algebra/Unit.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

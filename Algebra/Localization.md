@@ -37,6 +37,8 @@
 > 2. for any $I\unlhd S^{-1}R$, $(I^c)^e=I$. 
 > 3. [[Ring Homomorphism|contractions]] and [[Ring Homomorphism|extensions]] give a 1:1-correspondence: $$\begin{align}\{ \text{Prime ideals in }S^{-1}R \}&\leftrightarrow \{ \text{Prime ideals } I\text{ in }R\text{ with }I\cap S=\varnothing\}\\I&\mapsto I^c\\I^e&\leftarrow I\end{align}$$
 
+^68bf11
+
 > [!proof]-
 > We have:
 > 1. As $\frac{1}{s}\in S^{-1}R$ for all $s\in S$ and $I^e$ is an ideal, $\frac{a}{s}:=\frac{1}{s}\cdot\varphi(a)\in I^e$. However, for the other direction, for any $a\in I$, $\varphi(a)$ is contained in the RHS. This proves the statement as RHS is an ideal.
@@ -47,33 +49,49 @@
 >    
 >    Now, from 2, $(I^c)^e=I$ and we are left to show that $(I^e)^c=I$ for all prime $I\unlhd R$ with $I\cap S=\varnothing$. From [[Ring Homomorphism|Proposition 4]], we only need to show $\subseteq$. Let $a\in (I^e)^c$, i.e. $\varphi(a)=\frac{a}{1}\in I^e$. Then, by $a$, there exists $b\in I$ and $s\in S$ s.t. $\frac{a}{1}=\frac{b}{s}$, i.e. there exists $u\in S$ with $u(as-b)$. hence, $uas\in I$ and as $u,s\in S$ and $I$ is prime, we have that $a\in I$. 
 
-- **Remark**: Applying 3 to localization at prime ideals, we have a correspondence between prime ideals in $R_{P}$ and prime ideals $I$ in $R$ with $I\subseteq P$. 
+^c88fd9
+
+- **Remark**: Applying 3 to localization at prime ideals, we have a correspondence between prime ideals in $R_{P}$ and prime ideals $I$ in $R$ with $I\subseteq P$.  ^56eb95
 ---
 > [!lemma] Proposition 3 (Universal Property)
 > Let $S$ be a multiplicatively closed subset of $R$. 
 > 1. for a homomorphism $\alpha:R\to R'$ s.t. $\alpha(S)\subseteq (R')^\times$, there exists a unique ring homomorphism $\varphi:S^{-1}R\to R'$ s.t. $\varphi\left( \frac{r}{1} \right)=\alpha(r)$ for all $r\in R$.
+
+^7baea4
 
 > [!proof]-
 > We define: $$\varphi:S^{-1}R\to R',\quad \frac{r}{s}\mapsto \alpha(r)\alpha(s)^{-1}$$We first show that this is well-defined. If $\frac{r}{s}=\frac{r'}{s'}$ s.t. $u(rs'-sr ')=0$ for some $u\in S$: $$\begin{align}\alpha(r)\alpha(s)^{-1}&=\alpha(u)^{-1}\alpha(u)\alpha(r)\alpha(s')\alpha(s')^{-1}\alpha(s)^{-1}\\&=\alpha(u)^{-1}\alpha(u)\alpha(s)\alpha(r')\alpha(s')^{-1}\alpha(s)^{-1}\\&=\alpha(r')\alpha(s')^{-1}\end{align}$$This is a ring homomorphism as it is defined through homomorphisms. 
 > 
 > To show uniqueness, let $\varphi'$ be another homomorphism with the same property. Then, $$\varphi'\left( \frac{r}{s} \right)=\varphi'\left( \frac{r}{1} \right)\varphi'\left( \frac{1}{s} \right)=\alpha(r)\alpha(s)^{-1}=\varphi\left( \frac{r}{s} \right) $$where $1=\alpha(1)=\varphi'\left( \frac{1}{1} \right)=\varphi'\left( \frac{1}{s} \right)\varphi'\left( \frac{s}{1} \right)=\varphi'\left( \frac{1}{s} \right)\alpha(s)$ hence $\varphi'\left( \frac{1}{s} \right)=\alpha(s)^{-1}$.
 
+^e819db
+
 ---
 > [!lemma] Proposition 4 (Localization is a Tensor Product)
 > Let $S$ be a multiplicatively closed subset of $R$ and $M$ a $R$-module. Then, 
 > 1. $S^{-1}M\cong M\otimes_{R} S^{-1}R$
 
+^35ae68
+
 > [!proof]-
 > Consider the homomorphism: $$\varphi:S^{-1}M\to M \otimes _{R}S^{-1}R,\quad \frac{m}{s}\mapsto m\otimes  \frac{1}{s}$$This is well-defined as if $\frac{m}{s}=\frac{m'}{s'}$ with $u(ms'-m's)=0$ for $u\in S$, we have that: $$m\otimes  \frac{1}{s}=m\otimes \frac{us'}{uss'}=us'm\otimes  \frac{1}{uss'}=usm'\otimes  \frac{1}{uss'}=m'\otimes \frac{1}{s'} $$Similarly, $M\times S^{-1}R\to S^{-1}M,\left( m, \frac{a}{s} \right)\mapsto \frac{am}{s}$ is a bilinear map and this extends to a map $\psi :M\otimes S^{-1}R\to S^{-1}M$, where $\varphi$ and $\psi$ are inverses. This map is well-defined as for $\frac{a}{s}=\frac{a'}{s'}$ with $u(as'-a's)$, $u(ams'-a'ms)=0$.
-- **Remark**: This shows the localization of homomorphisms as $\varphi \otimes \text{id}:M\otimes S^{-1}R\to N\otimes S^{-1}N$.
+
+^ef7c7d
+
+- **Remark**: This shows the localization of homomorphisms as $\varphi \otimes \text{id}:M\otimes S^{-1}R\to N\otimes S^{-1}N$. ^07bb27
 ---
 > [!lemma] Proposition 5 (Localization is Exact)
 > Let $0\to M_{1}\xrightarrow{\varphi} M_{2}\xrightarrow{\psi} M_{3}\to 0$ be a [[Exact Sequence|SES]]. Then, for any multiplicatively closed $S\subseteq R$, $$0\to S^{-1}M_{1}\xrightarrow{S^{-1}\varphi}S^{-1}M_{2}\xrightarrow{S^{-1}\psi}S^{-1}M_{3}\to 0$$is also exact.
+
+^4d7290
 
 > [!proof]-
 > By Proposition 4 and right exactness of tensor products, it is left to show that $S^{-1}\varphi$ is injective if $\varphi$ is. 
 > 
 > Let $\frac{m}{s}\in S^{-1}M_{1}$ s.t. $S^{-1}\varphi\left( \frac{m}{s} \right)=\frac{\varphi(m)}{s}=0$. Then, there exists $u\in S$ with $u\varphi(m)=\varphi(um)=0$. However, as $\varphi$ is injective, $um=0$. Hence, $\frac{m}{s}=0$. 
+
+^9b7b77
+
 ---
 > [!lemma] Corollary 6
 > Let $S$ be a multiplicatively closed set of $R$. Then,
@@ -86,6 +104,8 @@
 > 6. for $M_{1},M_{2}\leq M$, $S^{-1}(M_{1}\cap M_{2})\cong S^{-1}M_{1}\cap S^{-1}M_{2}$
 > 7. for $I\unlhd R$, $S^{-1}\sqrt{ I }\cong  \sqrt{ S^{-1}I }$
 
+^66b9c4
+
 > [!proof]-
 > We have:
 > 1. by Proposition 5, localizing $0\to \text{ker }\varphi\to M\to \text{im }\varphi \to 0$, we get: $$0\to S^{-1}\text{ker }\varphi\to S^{-1}M\to S^{-1}\text{im }\varphi \to 0$$but then this means that $\text{ker }(S^{-1}\varphi)=S^{-1}\text{ker }\varphi$ and $\text{im }(S^{-1}\varphi)=S^{-1}\text{im }\varphi$.
@@ -95,7 +115,10 @@
 > 5. Consider the exact sequence $0\to M_{1}\cap M_{2}\to M_{1}\oplus M_{2} \to M_{1}+M_{2}\to 0$. Then, $$0\to S^{-1}(M_{1}\cap M_{2})\to S^{-1}M\oplus S^{-1}N\to S^{-1}(M_{1}+M_{2})\to 0$$This shows both 5 and 6.
 > 6. We have:
 > 	$$\varphi:S^{-1}\sqrt{ I }\to \sqrt{ S^{-1}I },\quad \frac{a}{s}\mapsto \frac{a}{s}$$Let $a^n=0$. Then, $\left( \frac{a}{s} \right)^n=\frac{a^n}{s^n}=0$. One easily sees that this is an isomorphism.
-- **Remark**: Localization doesn't commute with arbitrary intersections: For $S:=\mathbb{Z} \backslash \{ 0 \}$, $$S^{-1}\left( \bigcap_{n\geq 2}^{}n\mathbb{Z} \right)=S^{-1}(0)=0\neq \bigcap_{n\geq 2}^{}S^{-1}(n\mathbb{Z})\ni 1$$
+
+^15a3cb
+
+- **Remark**: Localization doesn't commute with arbitrary intersections: For $S:=\mathbb{Z} \backslash \{ 0 \}$, $$S^{-1}\left( \bigcap_{n\geq 2}^{}n\mathbb{Z} \right)=S^{-1}(0)=0\neq \bigcap_{n\geq 2}^{}S^{-1}(n\mathbb{Z})\ni 1$$ ^86ca13
 ---
 > [!lemma] Proposition 7 (Local Properties)
 > Let $R$ be a ring.
@@ -104,7 +127,9 @@
 > 3. For two ideals $I,J\unlhd R$, $I_{P}\subseteq J_{P}$ for all maximal $P\unlhd R$ if and only if $I\subseteq J$.
 > 4. $R$ is [[Nilradical|reduced]] if and only if $R_{P}$ is reduced for all maximal $P\unlhd R$. 
 
-> [!proof]+
+^48623c
+
+> [!proof]-
 > We have:
 > 1. Assume $M\neq 0$. If we choose $m\neq 0\in M$, then the [[annihilator]] $\text{Ann}(m)$ doesn't contain $1$ and is a proper ideal, hence contained in a maximal ideal $P$. Hence, for all $u\in R \backslash P$, we have that $u\notin \text{Ann}(m)$, i.e. $um\neq 0$ in $M$. Hence, $\frac{m}{1}$ is non-zero in $M_{P}$ and $M_{P}\neq 0$.
 >    
@@ -119,9 +144,12 @@
 > 1. Consider the exact sequence $0\to I_{P}\cap J_{P}\to I_{P}\oplus J_{P} \to I_{P}+J_{P} \to 0$. Then, we have: $$0 \to I_{P}\to (I\oplus J)_{P}\to (I+J)_{P}\to 0$$for all maximal $P\unlhd R$ and by 2, $0\to I\to I\oplus J\to I+J\to 0$ which shows that $I\subseteq J$. 
 >    
 >    The converse holds by Corollary 6.2
-> 2. Let $R$ be reduced, i.e. $\sqrt{ (0) }=(0)$. Then, we see that $(0)_{P}=\sqrt{ (0) }_{P}=\sqrt{ (0)_{P} }$ is the nilradical of $R_{P}$. Hence, $R_{P}$ is reduced.
+> 2. $R$ being reduced is equivalent to $\sqrt{ (0) }\subseteq(0)$, which are two ideals in $R$. Hence, by 3, it suffices to show that $(0)_{P}$ coincides with the $(0)$ of $R_{P}$. However this is obvious. 
 >    
-- **Corollary**: A homomorphism $\varphi:M\to N$ is injective/surjective if and only if $\varphi_{P}:M_{P}\to N_{P}$ is, for all maximal $P\unlhd R$.
+
+^6a5807
+
+- **Corollary**: A homomorphism $\varphi:M\to N$ is injective/surjective if and only if $\varphi_{P}:M_{P}\to N_{P}$ is, for all maximal $P\unlhd R$. ^a19d79
 
 ---
 ##### Examples
@@ -135,21 +163,30 @@
 > 4. For a [[prime ideal]] $P\unlhd R$, $S:= R \backslash P$ is multiplicatively closed. Then, $S^{-1}R=:R_{P}$ and is called ***localization of $R$ at $P$***.
 > 5. $\mathbb{Z}_{(p)}$ is the localization of $R$ at the prime ideal $(p)$ for $p\in \mathbb{Z}$ prime. 
 
+^ea6d10
+
 ---
 > [!h] Example 2 (Saturation)
 > Let $S$ be a multiplicatively closed set in $R$. Then,
 > 1. the ***saturation*** of $S$, defined as $\overline{S}:=\{ s\in R:as\in S\text{ for some }a\in R \}$ is also multiplicatively closed.
 > 2. $\overline{S}^{-1}R\cong S^{-1}R$.
 
+^a105c9
+
 > [!proof]-
 > We have that:
 > 1. Let $s,s'\in \overline{S}$. Then, there exists $a,a'\in R$ s.t. $as,a's'\in S$. Hence, $$aa'ss'\in S \implies ss'\in \overline{S}$$
 > 2. We have that: $$\varphi:\overline{S}^{-1}R\to S^{-1}R,\quad \frac{r}{s}\mapsto \frac{ar}{as}$$where $a\in R$ s.t. $as\in S$. This is well-defined as for $\frac{r}{s}=\frac{r'}{s'}$ with $u(rs'-r's)=0$ with $u\in \overline{S}$ s.t. $as\in S$ and $a's'\in S$, we have: $$bu(ara's'-a'r'as)=aa'b\cdot u(rs')=0$$where $bu\in S$. Now, $\varphi$ is surjective as $S^{-1}R$ injects into $\overline{S}^{-1}R$. To show the injectivity, let $\varphi\left( \frac{r}{s} \right)=\frac{ar}{as}=\frac{0}{1}$, i.e. $uar=0$ for some $u\in S$. Then, $$ua(r-0)=0$$and $\frac{r}{s}=0$. 
 
+^200add
+
 ---
 > [!h] Example 3
 > Let $S\subseteq R$ be multiplicatively closed and $I\unlhd R$. Then, 
 > 1. $S^{-1}I=I^e$ given by $\varphi:R\to S^{-1}R,a\mapsto \frac{a}{1}$.
+
+^6871e3
+
 ---
 > [!h] Example 4 (Rq/Pq)
 > Let $P,Q\unlhd R$ be maximal ideals. Then, 
@@ -157,9 +194,14 @@
 > 2. if $P\neq Q$, then $R_{Q} / P_{Q} = 0$.
 > 3. if $P=Q$, $R_{P} / P_{P}\cong R / P$.
 
+^30c1ef
+
 > [!proof]-
 > We have:
 > 1. This holds by Corollary 6.3.
 > 2. Since $P$ is maximal $P\nsubseteq Q$ and there exists $a\in P \backslash Q$. Then, $1=\frac{a}{a}\in P_{Q}$. Hence, $P_{Q}=R_{Q}$and $R_{Q} / P_{Q}=0$.
 > 3. Consider: $$\varphi:R / P\to R_{P} / P_{P},\quad \overline{a}\mapsto \overline{\left( \frac{a}{1} \right)}$$Now, consider the morphism $R\to R / P,a\mapsto \overline{a}$ which sends $R \backslash P$ to units as $R / P$ is a field. Hence, it passes to a homomorphism: $$\psi: R_{P}\to R / P,\quad \frac{a}{s}\mapsto \overline{s} ^{-1}\overline{a}$$by the universal property. But $P_{P}\subseteq \text{ker }\psi$ and hence, we get a map: $$\overline{\psi}:R_{P} / P_{P}\to R / P,\quad \overline{\left( \frac{a}{s} \right)}\mapsto \overline{s}^{-1}\overline{a}$$which is a inverse to $\varphi$.
+
+^9b8442
+
 ---
