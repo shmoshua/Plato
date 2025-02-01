@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Localization.md",
+                "file": "Algebra/Ideal (Ring).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Localization"
+              "title": "Ideal (Ring)"
             }
           },
           {
@@ -327,18 +327,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6c1a8b1ad0201576",
+  "active": "c5a1f0f6c56bef19",
   "lastOpenFiles": [
-    "Algebra/Local Ring.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Localization.md",
+    "Algebra/Ring Homomorphism.md",
     "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Localization.md",
+    "Algebra/Local Ring.md",
     "Algebra/Composition Series.md",
     "Algebra/Integral Domain.md",
     "Algebra/Nilradical.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Exact Sequence.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/Composite Field.md",
     "Algebra/Module.md",
     "Algebra/Maximal Ideal.md",
@@ -349,7 +350,6 @@
     "Functional Analysis/C-Algebra.md",
     "Functional Analysis/Regular Ideal.md",
     "Lie Group/Ideal (Lie Algebra).md",
-    "Algebra/Ring Homomorphism.md",
     "Algebra/Free Module.md",
     "Untitled.md",
     "Algebra/Variety.md",
