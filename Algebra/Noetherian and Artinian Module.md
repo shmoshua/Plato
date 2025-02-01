@@ -16,9 +16,9 @@
 > 	2. $K$ is Artinian.
 > 	3. $K$ is finite dimensional.
 > 3. $\mathbb{Z}$ is Noetherian but not Artinian.
-> 4. $R:=\bigcup_{n}^{}\mathbb{R}[]$
+> 4. $R:=\bigcup_{n}^{}\mathbb{R}[x_{0},x_{1},\dots,x_{n}]$ is neither Noetherian nor Artinian.
 
-> [!proof]
+> [!proof]-
 > We have:
 > 1. Obvious.
 > 2. If $V$ is finite dimensional, there can only be finite strictly increasing ascending or descending chain of vector subspaces. As the dimension has to be strictly increasing. 
@@ -27,4 +27,14 @@
 > 3. Assume we have a ascending chain $I_{0}\subsetneq I_{1}\subsetneq \dots$. As $\mathbb{Z}$ is a PID, we have that $I_{1}=(a)$ for some $a\neq 0$. However, by [[Ring Homomorphism|Proposition 5]], the ideals in $\mathbb{Z}$ that contain $(a)$ forms a bijection to the ideals in $\mathbb{Z} / (a)$, which is finite. Hence, the chain cannot be infinitely long. 
 >    
 >    $\mathbb{Z}$ is not Artinian as we have: $$\mathbb{Z} \supsetneq  2\mathbb{Z} \supsetneq 4\mathbb{Z} \supsetneq 8\mathbb{Z} \supsetneq \dots$$
-> 	2. 
+>  4. We have: $$(x_{0})\subsetneq (x_{0},x_{1})\subsetneq(x_{0},x_{1},x_{2})\subsetneq \dots, \quad (x_{0})\supsetneq (x_{0}^{2})\supsetneq (x_{0}^3)\supsetneq \dots$$
+---
+> [!h] Example 2
+> Let $p\in \mathbb{N}$ be a prime number and consider $M:= \mathbb{Z}_{p} / \mathbb{Z}$ as a $\mathbb{Z}$-module, where $\mathbb{Z}_{p}\subseteq \mathbb{Q}$ denotes the [[localization]] of $\mathbb{Z}$ at $p$. Then,
+> 1. every proper submodule of $M$ is of the form $\braket{ \overline{\frac{1}{p^n}}  }$.
+> 2. $M$ is Artinian but not Noetherian.
+
+> [!proof]+
+> We have: 
+> 1. $$\mathbb{Z}_{p}:=\left\{  \frac{a}{p^n}:a\in \mathbb{Z},n\in \mathbb{N}  \right\}$$Then, let $N$ be a proper submodule of $M$. If $N=0$, then $N=\braket{ \overline{\frac{1}{p^0}}  }$. Assume $N\neq 0$. Let $0\neq\overline{\frac{a}{p^n}}\in N$. Wlog we may assume that $1\leq a< p^n$. Then, $\gcd(a,p^n)=d$. Then, $a=da'$ where $\gcd(a',p^n)=1$. Hence, by [[Principal Ideal Domain|Theorem 2]], there exists $x,y\in \mathbb{Z}$ s.t. $$1=a'x+p^ny$$Multiplying it by $\frac{d}{p^n}$, we get $\frac{d}{p^n}=\frac{a}{p^n}x+dy$ and $\overline{\frac{d}{p^n}}=x\overline{\frac{a}{p^n}}\in N$. As $d$ is a divisor of $a$, we can repeat this argument to get that $\overline{\frac{1}{p^n}}\in N$. Therefore, $N\geq \braket{  \overline{\frac{1}{p^n}} }$. To show the opposite inclusion, Let $\overline{\frac{1}{p^n}},\overline{\frac{1}{p^m}}\in N$ with $n<m$. Then, $\overline{\frac{1}{p^n}}=\overline{\frac{p^{m-n}}{p^m}}$ and $\overline{\frac{1}{p^n}}\in \braket{ \overline{\frac{1}{p^m}}  }$. This proves the statement.
+> 2. We showed that $\braket{ \overline{\frac{1}{p^n }}}\subsetneq\braket{ \overline{\frac{1}{p^m }}}$ for all $n<m$. Hence, $M$ is not Noetherian. Conversely, 

@@ -127,45 +127,17 @@
             }
           },
           {
-            "id": "02d604c1852231a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Ideal (Ring).md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Ideal (Ring)"
-            }
-          },
-          {
-            "id": "f32d1290a1b80185",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Integral Domain.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Integral Domain"
-            }
-          },
-          {
             "id": "405457a7f3c6e97d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Radical (Ring).md",
+                "file": "Algebra/Principal Ideal Domain.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Radical (Ring)"
+              "title": "Principal Ideal Domain"
             }
           },
           {
@@ -329,19 +301,22 @@
   },
   "active": "c5a1f0f6c56bef19",
   "lastOpenFiles": [
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Localization.md",
+    "Algebra/Integral Domain.md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Radical (Ring).md",
+    "Picard iteration.md",
+    "Algebra/Module.md",
+    "Algebra/Ideal (Ring).md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Ring Homomorphism.md",
-    "Algebra/Noetherian and Artinian Module.md",
-    "Algebra/Ideal (Ring).md",
-    "Algebra/Localization.md",
     "Algebra/Local Ring.md",
     "Algebra/Composition Series.md",
-    "Algebra/Integral Domain.md",
     "Algebra/Nilradical.md",
-    "Algebra/Radical (Ring).md",
     "Algebra/Exact Sequence.md",
     "Algebra/Composite Field.md",
-    "Algebra/Module.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Tensor Product.md",
     "Functional Analysis/Spectrum.md",
@@ -352,9 +327,6 @@
     "Lie Group/Ideal (Lie Algebra).md",
     "Algebra/Free Module.md",
     "Untitled.md",
-    "Algebra/Variety.md",
-    "Algebra/Prime Ideal.md",
-    "Algebra/p-adic Integer.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
