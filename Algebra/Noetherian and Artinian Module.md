@@ -3,7 +3,7 @@
 > [!definition]
 > Let $M$ be a $R$-module.
 > 1. $M$ is called ***Noetherian*** if every ascending chain of submodules of $M$: $$M_{0}\subseteq M_{1}\subseteq M_{2}\subseteq\dots$$becomes stationary, i.e. for every chain, there exists $n\in \mathbb{N}$ s.t. $M_{k}=M_{n}$ for all $k\geq n$. 
-> 2. $M$ is called ***Artinian*** if every deschedning chain of submodules of $M$: $$M_{0}\supseteq M_{1} \supseteq M_{2} \supseteq\dots$$becomes stationary.
+> 2. $M$ is called ***Artinian*** if every descending chain of submodules of $M$: $$M_{0}\supseteq M_{1} \supseteq M_{2} \supseteq\dots$$becomes stationary.
 
 ---
 ##### Properties
@@ -50,6 +50,28 @@
 > 1. From the exact sequence $0\to M \to M\oplus N \to N \to 0$ and Lemma 2 by treating $M$ as a submodule of $M\oplus N$ and $N\cong M\oplus N / M$.
 > 2. Let $M:=\braket{ m_{1} , \dots,m_{k} }$ for some $m_{1},\dots,m_{k}\in M$. Then, the module homomorphism: $$\varphi:R^k\to M,\quad (a_{1},..,a_{k})\mapsto a_{1}m_{1}+\dots+a_{k}m_{k}$$ is surjective and we have an exact sequence, $0 \to \text{ker }\varphi \to R^k \to M \to 0$. As $R$ is Noetherian /Artinian, so is $R^k$ by 1 and subsequently $M$ by Lemma 2.
 ---
+> [!lemma] Lemma 4 (Noetherian, Artinian and Length)
+> Let $M$ be a $R$-module.
+> 1. $M$ is of finite [[Composition Series|length]] if and only if it is both Noetherian and Artinian.
+
+> [!proof]-
+> We have:
+> 1. If $M$ is of finite length, then all strict chains of submodules of $M$ are finite by [[Composition Series|Proposition 1]]. Hence, $M$ is both Noetherian and Artinian.
+> 	
+> 	Conversely, assume $M$ is both Noetherian and Artinian. Starting from $M_{0}=0$, we construct a chain as follows: Let $M_{n+1}$ be the minimal submodule of $M$ that strictly contains $M_{n}$. As long as $M_{n}\neq M$, this works by Proposition 1.2 since $M$ is Artinian. However, as $M$ is Noetherian, this chain cannot grow indefinitely and we will have $M_{n}=M$ for some $n\in \mathbb{N}$. 
+> 	
+> 	This gives us a composition series by construction and $M$ is of finite length. 
+> 	
+---
+> [!lemma] Proposition 5
+> Let $M$ be a $R$-module and $\varphi:M\to M$ a $R$-module homomorphism.
+> 1. If $M$ is Noetherian and $\varphi$ is surjective, $\varphi$ is isomorphic. 
+> 2. If $M$ is Artinian and $\varphi$ is injective, $\varphi$ is isomorphic. 
+
+> [!proof]
+> We have:
+> 1. If $M$ is Noetherian, then it is finitely generated and the rest follows from [[Module|Corollary 8]].
+> 2. If $M$ is Artinian, then let $M_{n}:= \text{im }\varphi^n$. Then, $M_{n+1}\subseteq M_{n}$ for all $n$ and: $$M_{1}\supseteq M_{2}\supseteq \dots$$is a descending chain of submodules. Hence, there exists $n\in \mathbb{N}$ s.t. $\text{im }\varphi^k=\text{im }\varphi^n$ for all $k\geq n$. Assume $\varphi$ is not surjective, i.e. there exists $a\in M$ s.t. $\varphi(b)\neq a$ for all $b\in M$. Then, $$\varphi^n(\varphi^{k-n}(a))=\varphi^n(a)\implies \varphi^{k-n}(a)=a$$
 
 ---
 ##### Examples
