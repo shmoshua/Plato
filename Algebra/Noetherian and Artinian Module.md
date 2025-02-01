@@ -133,8 +133,12 @@
 > Every Artinian ring $R$ is a finite product of local Artinian rings. 
 > 1. if $P_{1},\dots,P_{n}$ are the distinct maximal ideals, then $R_{P_{i}}$ are also Artinian and $R$ is isomorphic to $R_{P_{1}}\times\dots \times R_{P_{n}}$. 
 
-> [!proof]+
-> By Proposition 1, we can find $k\in \mathbb{N}$ s.t. $P_{1}^k\cdot\dots \cdot P^k_{n}=0$. Then, $P^k_{1},\dots,P^k_{n}$ are pairwise coprime by [[]] 
+> [!proof]-
+> By Proposition 1, we can find $k\in \mathbb{N}$ s.t. $P_{1}^k\cdot\dots \cdot P^k_{n}=0$. Then, $P^k_{1},\dots,P^k_{n}$ are pairwise coprime by [[Maximal Ideal|Proposition 3]]. Hence, by [[Coprime Ideal|Theorem 2]]: $$P^k_{1}\cap\dots \cap P^k_{n}=P^k_{1}\cdot \dots \cdot P^k_{n}=0$$ Hence, by [[Ideal (Ring)|Chinese remainder theorem]], $$R\cong R / P^k_{1}\times\dots \times R / P^k_{n}$$and $R / P^k_{i}$ are Artinian for all $i$. Therefore, it suffices to show that $R / P^k_{i} \cong R_{P_{i}}$. We have:
+> 1. Consider $\varphi_{i}:R\to R_{P_{i}}, a\mapsto \frac{a}{1}$. Then $P^k_{i}\subseteq \text{ker }\varphi_{i}$. Indeed, for $a\in P^k_{i}$, we can choose $a_{j}\in P_{j} \backslash P_{i}$. Then, $u:=a_{1}^k\dots a_{i-1}^k a^k_{i}\dots a^k_{n}\notin P_{i}$ since $P_{i}$ is prime. It follows that $ua\in P^k_{1}\dots P^k_{n}=0$. Hence, $\frac{a}{1}=0$ in $R_{P_{i}}$. Hence, we have a map $$\tilde{\varphi}_{i}:R / P_{i}^k \to R_{P_{i}},\quad \overline{a}\mapsto \frac{a}{1}$$
+> 2. Consider $\psi:R \to R / P^k_{i}, a\mapsto \overline{a}$. For any $a\in R / P_{i}$, if $(\overline{a})$ is proper, then it is contained in some maximal ideal which must be of the form $P / P^k_{i}$ for a maximal ideal $P\supseteq P^k_{i}$ of $R$. As $P$ is prime, this means that $P\supseteq P_{i}$ and $P=P_{i}$ since $P_{i}$ is maximal. However, $\overline{a}\in P_{i} / P_{i}^k$ implies that $a\in P_{i}$, which is a contradiction. 
+>    
+>    Therefore, by [[Localization|universal property]] we have a map $\tilde{\psi}:R_{P_{i}} \to R / P^k_{i}$ with $\frac{a}{1}\mapsto \overline{a}$. 
 ---
 ##### Examples
 
@@ -173,3 +177,10 @@
 > 1. $$\mathbb{Z}_{p}:=\left\{  \frac{a}{p^n}:a\in \mathbb{Z},n\in \mathbb{N}  \right\}$$Then, let $N$ be a proper submodule of $M$. If $N=0$, then $N=\braket{ \overline{\frac{1}{p^0}}  }$. Assume $N\neq 0$. Let $0\neq\overline{\frac{a}{p^n}}\in N$. Wlog we may assume that $1\leq a< p^n$. Then, $\gcd(a,p^n)=d$. Then, $a=da'$ where $\gcd(a',p^n)=1$. Hence, by [[Principal Ideal Domain|Theorem 2]], there exists $x,y\in \mathbb{Z}$ s.t. $$1=a'x+p^ny$$Multiplying it by $\frac{d}{p^n}$, we get $\frac{d}{p^n}=\frac{a}{p^n}x+dy$ and $\overline{\frac{d}{p^n}}=x\overline{\frac{a}{p^n}}\in N$. As $d$ is a divisor of $a$, we can repeat this argument to get that $\overline{\frac{1}{p^n}}\in N$. Therefore, $N\geq \braket{  \overline{\frac{1}{p^n}} }$. To show the opposite inclusion, Let $\overline{\frac{1}{p^n}},\overline{\frac{1}{p^m}}\in N$ with $n<m$. Then, $\overline{\frac{1}{p^n}}=\overline{\frac{p^{m-n}}{p^m}}$ and $\overline{\frac{1}{p^n}}\in \braket{ \overline{\frac{1}{p^m}}  }$. This proves the statement.
 > 2. We showed that $\braket{ \overline{\frac{1}{p^n }}}\subsetneq\braket{ \overline{\frac{1}{p^m }}}$ for all $n<m$. Hence, $M$ is not Noetherian. Conversely, let $$N_{0}\supsetneq N_{1} \supsetneq \dots $$be a descending chain. Then, $N_1=\braket{ \overline{\frac{1}{p^n}}  }$ for some $n$ and there can be only finitely many submodules strictly smaller. 
 ---
+> [!h] Example 3 (Ideals in PID)
+> Let $R$ be a PID.
+> 1. for $0\neq I\unlhd R$, $I=(a)$ where $a=p_{1}^{a_{1}}\cdots p_{n}^{a_{n}}$ for $a_{1},\dots,a_{n}\in \mathbb{N}_{>0}$ and $p_{1},\dots ,p_{n}$ are distinct prime. 
+> 2. the ideals of $R / I$ correspond to the ideals of $R$ that contain $I$, i.e. ideals $(b)$ with $b=p_{1}^{b_{1}}\dots p_{n}^{b_{n}}$ where $b_{i}\leq a_{i}$. 
+> 3. $R / I$ is Noetherian and Artinian as it only has finitely many ideals. 
+> 4. Every non-zero prime ideal in $R / I$ is maximal. 
+> 5. Let $k:= \max a_{i}$. Then, $$(R / I) / (\overline{p}_{i}^k)\cong R / (a,p_{i}^k)=R / (p)$$
