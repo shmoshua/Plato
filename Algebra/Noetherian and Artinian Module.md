@@ -78,16 +78,38 @@
 > [!lemma] Theorem 1 (Hilbert's Basis Theorem)
 > Let $R$ be a Noetherian ring. 
 > 1. $R[x]$ is also Noetherian.
+> 2. A finitely generated $R$-algebra $A$ is a Noetherian ring.
+
+> [!proof]-
+> We have:
+> 1. Assume $R[x]$ is not Noetherian. Then, by Proposition 1, there exists an ideal $I\unlhd R[x]$ that is not finitely generated. Hence, we can find $(f_{i})_{i}\subseteq I$ as follows: 
+>	1. $f_{0}\in I$ is a non-zero polynomial of minimal degree.
+>	2. $f_{k+1}$ is a non-zero polynomial of minimal degree in $I \backslash \braket{ f_{0} , \dots,f_{k} }$.
+>   
+> 	Now, for all $k$, let $d_{k}$ denote the degree of $f_{k}$ and $a_{k}\in R$ the leading coefficient of $f_{k}$. Then, $d_{k}\leq d_{k+1}$ by construction. Now, since $R$ is Noetherian, $(a_{0})\subseteq (a_{0},a_{1})\subseteq(a_{0},a_{1},a_{2})\subseteq \dots$ becomes stationary and we have: $$a_{n+1}=c_{0}a_{0}+\dots+c_{n}a_{n}$$for some $n\in \mathbb{N}$ and $c_{i}\in R$. 
+> 
+> 	If we now define: $$f'_{n+1}:= f_{n+1}-\sum_{k=0}^{n}c_{k}(x^{d_{n+1}-d_{k}})f_{k}$$Then, $x^{d_{n+1}}$ coefficient is $0$ and $\deg f'_{n+1}\leq \deg f_{n+1}$. However, as $f_{n+1}\notin \braket{ f_{0} , \dots,f_{n} }$, so is $f'_{n+1}$. This contradicts the minimality of $f_{n+1}$ and $R[x]$ is Noetherian. 
+> 2. By [[Algebra|Lemma 2]], $A\cong R[x_{1},\dots,x_{n}] / I$ for some $I\unlhd R[x_{1},\dots,x_{n}]$. Now, from Hilbert's Basis theorem, we have that $R[x_{1},\dots,x_{n}]$ is Noetherian. Hence, by Lemma 2, $A$ is Noetherian as well.
+---
+##### Artinian Rings
+> [!lemma] Proposition 2
+> Let $R$ be an Artinian ring. 
+> 1. there are maximal ideals $P_{1},\dots,P_{n}\unlhd R$ s.t. $P_{1}\cdots P_{n}=0$.
+> 2. $R$ has only finitely many prime ideals all of which are maximal. They all occur among $P_{1},\dots,P_{n}$ in $1$.
 
 > [!proof]+
-> Assume $R[x]$ is not Noetherian. Then, by Proposition 1, there exists an ideal $I\unlhd R[x]$ that is not finitely generated. Hence, we can find $(f_{i})_{i}\subseteq I$ as follows: 
->1. $f_{0}\in I$ is a non-zero polynomial of minimal degree.
->2. $f_{k+1}$ is a non-zero polynomial of minimal degree in $I \backslash \braket{ f_{0} , \dots,f_{k} }$.
->   
-> Now, for all $k$, let $d_{k}$ denote the degree of $f_{k}$ and $a_{k}\in R$ the leading coefficient of $f_{k}$. Then, $d_{k}\leq d_{k+1}$ by construction. Now, since $R$ is Noetherian, $(a_{0})\subseteq (a_{0},a_{1})\subseteq(a_{0},a_{1},a_{2})\subseteq \dots$ becomes stationary and we have: $$a_{n+1}=c_{0}a_{0}+\dots+c_{n}a_{n}$$for some $n\in \mathbb{N}$ and $c_{i}\in R$. 
-> 
-> If we now define: $$f'_{n+1}:= f_{n+1}-\sum_{k=0}^{n}c_{k}(x^{d_{n+1}-d_{k}})f_{k}$$Then, $x^{d_{n+1}}$ coefficient is $0$ and $\deg f'_{n+1}\leq \deg f_{n+1}$. However, as $f_{n+1}\notin \braket{ f_{0} , \dots,f_{n} }$, so is $f'_{n+1}$. This contradicts the minimality of $f_{n+1}$ and $R[x]$ is Noetherian. 
+> Let $I=P_{1}\dots P_{n}$ be a product of maximal ideals $P_{1},\dots,P_{n}$ s.t. $I$ is minimal among all ideals, which exists by Proposition 1.2. We need to show that $I=0$. 
+> 1. $I^{2}$ is also the product of maximal ideals and from $I^2\subseteq I$, $I=I^{2}$. 
+> 2. if $P\unlhd R$ is any maximal ideal, $PI\subseteq I$ and by minimality $I=PI\subseteq P$. Hence, $$I\subseteq \text{Rad}(R)$$ where $\text{Rad}(R)$ is the [[Jacobson radical]].
+>    
+> Now, assume that $I\neq 0$. Then, as $R$ is Artinian, there exists a minimal ideal $J\unlhd R$ with $IJ\neq 0$. Then, 
+> 1. $J$ is principal. Indeed, there must be an element $b\in J$ with $I\cdot(b)\neq 0$. Hence, by minimality of $J$, $(b)=J$. 
+> 2. $IJ=J$ as we have $IJ\subseteq J$ and $I\cdot IJ= I^{2}J=IJ\neq 0$.
+>    
+> Hence, $J$ is finitely generated and by [[Module|Nakayama]], there is an element $a\in I$ with $(1-a)m=0$ for all $m\in J$. As 
+
 ---
+
 ##### Examples
 
 > [!h] Example 1

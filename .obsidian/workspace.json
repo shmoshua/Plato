@@ -141,17 +141,31 @@
             }
           },
           {
+            "id": "7ec81a5ea8eb3df6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Module.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Module"
+            }
+          },
+          {
             "id": "84635a87ba0c4164",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Composition Series.md",
+                "file": "Functional Analysis/Jacobson Radical.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Composition Series"
+              "title": "Jacobson Radical"
             }
           },
           {
@@ -180,20 +194,6 @@
               },
               "icon": "lucide-file",
               "title": "Noetherian Module"
-            }
-          },
-          {
-            "id": "7ec81a5ea8eb3df6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Module.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Module"
             }
           }
         ],
@@ -345,11 +345,14 @@
   "lastOpenFiles": [
     "Algebra/Module.md",
     "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Ideal (Ring).md",
+    "Functional Analysis/Jacobson Radical.md",
+    "Algebra/Algebra.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Composition Series.md",
     "Algebra/Basis.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Finitely Generated Abelian Group.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Noetherian Module.md",
     "Discrete Mathematics/Order.md",
     "Algebra/Principal Ideal Domain.md",
@@ -358,7 +361,6 @@
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Radical (Ring).md",
     "Picard iteration.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Local Ring.md",
     "Algebra/Nilradical.md",
@@ -366,9 +368,7 @@
     "Algebra/Maximal Ideal.md",
     "Algebra/Tensor Product.md",
     "Functional Analysis/Spectrum.md",
-    "Functional Analysis/Jacobson Radical.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/C-Algebra.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
