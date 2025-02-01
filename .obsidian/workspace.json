@@ -127,6 +127,20 @@
             }
           },
           {
+            "id": "f32d1290a1b80185",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Nilradical.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Nilradical"
+            }
+          },
+          {
             "id": "405457a7f3c6e97d",
             "type": "leaf",
             "state": {
@@ -300,20 +314,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e318f19f611b2ed7",
+  "active": "02d604c1852231a2",
   "lastOpenFiles": [
-    "Algebra/Composition Series.md",
+    "Algebra/Local Ring.md",
     "Algebra/Localization.md",
     "Algebra/Radical (Ring).md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Local Ring.md",
-    "Algebra/Composite Field.md",
     "Algebra/Exact Sequence.md",
+    "Algebra/Nilradical.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Composition Series.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Composite Field.md",
     "Algebra/Module.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Tensor Product.md",
     "Functional Analysis/Spectrum.md",
-    "Algebra/Ideal (Ring).md",
     "Functional Analysis/Jacobson Radical.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/C-Algebra.md",
@@ -327,7 +342,6 @@
     "Algebra/p-adic Integer.md",
     "Algebra/Integral Domain.md",
     "Algebra/Unit.md",
-    "Algebra/Zero Divisor.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

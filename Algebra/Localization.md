@@ -99,16 +99,31 @@
 ---
 > [!lemma] Proposition 7 (Local Properties)
 > Let $R$ be a ring.
-> 1. if $M$ is a $R$-module with $M_{p} =0$ for all maximal $P\unlhd R$, then $M=0$.
-> 2. If $0\to (M_{1})_{P}\to(M_{2})_{P}\to (M_{3})_{P} \to 0$ is exact for all maximal $P\unlhd R$, then: $$0 \to M_{1}\to M_{2}\to M_{3}\to 0$$is exact.
+> 1. $M$ is a $R$-module with $M_{p} =0$ for all maximal $P\unlhd R$ if and only if $M=0$.
+> 2. $0\to (M_{1})_{P}\to(M_{2})_{P}\to (M_{3})_{P} \to 0$ is exact for all maximal $P\unlhd R$, if and only if: $$0 \to M_{1}\to M_{2}\to M_{3}\to 0$$is exact.
+> 3. For two ideals $I,J\unlhd R$, $I_{P}\subseteq J_{P}$ for all maximal $P\unlhd R$ if and only if $I\subseteq J$.
+> 4. $R$ is [[Nilradical|reduced]] if and only if $R_{P}$ is reduced for all maximal $P\unlhd R$. 
 
 > [!proof]+
 > We have:
 > 1. Assume $M\neq 0$. If we choose $m\neq 0\in M$, then the [[annihilator]] $\text{Ann}(m)$ doesn't contain $1$ and is a proper ideal, hence contained in a maximal ideal $P$. Hence, for all $u\in R \backslash P$, we have that $u\notin \text{Ann}(m)$, i.e. $um\neq 0$ in $M$. Hence, $\frac{m}{1}$ is non-zero in $M_{P}$ and $M_{P}\neq 0$.
-> 2. We show that if $L$
+>    
+>    Conversely, if $M=0$, then $M_{P} = 0$.
+> 2. We show that if $L_{P}\xrightarrow{\varphi_{P}}M_{P}\xrightarrow{\psi_{P}}N_{P}$ is exact for all maximal $P\unlhd R$ then $L\to M\to N$ is exact.
+>    
+>    First, note that: $$\begin{align}(\psi(\varphi(L)))_{P}&=\left\{  \frac{\psi(\varphi(m))}{s}:m\in L,s\in S  \right\}=\left\{  \psi_{P}\left( \varphi_{P}\left( \frac{m}{s} \right) \right):m\in L,s\in S  \right\}\\&=\psi_{P}(\varphi_{P}(L_{P}))=0\end{align}$$Hence, by 1, $\psi(\varphi(L))=0$, i.e. $\text{im }\varphi \subseteq \text{ker }\psi$.
+>    
+>    Now, by considering $\text{ker }\psi / \text{im }\varphi$, we get: $$(\text{ker }\psi / \text{im }\varphi)_{P}\cong (\text{ker }\psi)_{P} / (\text{im }\varphi)_{P}\cong \text{ker }\psi_{P} / \text{im }\varphi_{P}=0$$This means $\text{ker }\psi / \text{im }\varphi=0$ by 1 again. hence, $\text{ker }\psi=\text{im }\varphi$, which proves the statement.
+>    
+>    The converse is shown by Proposition 5.
+> 1. Consider the exact sequence $0\to I_{P}\cap J_{P}\to I_{P}\oplus J_{P} \to I_{P}+J_{P} \to 0$. Then, we have: $$0 \to I_{P}\to (I\oplus J)_{P}\to (I+J)_{P}\to 0$$for all maximal $P\unlhd R$ and by 2, $0\to I\to I\oplus J\to I+J\to 0$ which shows that $I\subseteq J$. 
+>    
+>    The converse holds by Corollary 6.2
+> 2. Let $R$ be reduced, i.e. $\sqrt{ (0) }=(0)$. Then, we see that $(0)_{P}=\sqrt{ (0) }_{P}=\sqrt{ (0)_{P} }$ is the nilradical of $R_{P}$. Hence, $R_{P}$ is reduced.
+>    
+- **Corollary**: A homomorphism $\varphi:M\to N$ is injective/surjective if and only if $\varphi_{P}:M_{P}\to N_{P}$ is, for all maximal $P\unlhd R$.
 
-
-
+---
 ##### Examples
 > [!h] Example 1
 > We have that:
