@@ -3,6 +3,9 @@
 > [!definition]
 > Let $R$ be an [[integral domain]]. $R$ is a ***unique factorization domain (UFD)***, if every $r\in R\backslash\{ 0 \}$ and $r\notin R^{\times}$ has the following properties:
 > 1. $r$ can be written as a product of [[Integral Domain|irreducibles]]: $r=s_{1}\dots s_{n}$ where the decomposition is unique up to associates and renumbering.
+
+^41e878
+
 - **Remark**: In a UFD $R$, $a,b\in R$ with $a=up_{1}^{e_{1}}\dots p_{n}^{e_{n}},b=vp_{1}^{f_{1}}\dots p_{n}^{f_{n}}$ with $e_{i},f_{i}\geq 0$ and $u,v\in R^{\times}$, $$\text{gcd}(a,b)=p_{1}^{\min\{ e_{1},f_{1} \}}\dots p_{n}^{\min\{ e_{n},f_{n} \}}$$However, $\text{gcd}(a,b)$ is not necessarily a linear combination of $a,b$ (compare it with [[Principal Ideal Domain|Theorem 2]])
 - **Remark**: $\mathbb{Z}[2i]$ is an integral domain that is not a UFD.
 - **Related definition**: Let $R$ be a UFD and $f\in R[X]$ with $\deg(f)\geq 1$. Then, for $f(x)=a_{0}+\dots+a_{n}x^n$, the ***content*** of $f$ is given by $\text{c}(f):=\gcd(a_{0},\dots,a_{n})$.
@@ -70,6 +73,8 @@
 > 1. $R$ is a UFD 
 > 2. $R[X]$ is a UFD.
 
+^190411
+
 > [!proof]-
 > We have:
 > 1. (1=>2): Let $R$ be a UFD and let $f\in R[X]$ s.t. $f\neq 0$ and non-unit. If $\deg(f)=0$, then $f\in R$ and we are done. Suppose $\deg(f)>0$. Then $f(x)\in \text{Quot}(R)[X]$. Let $F:=\text{Quot}(R)$ and as $F$ is a field, $F[X]$ is a PID and hence UFD. Therefore, there exists $p_{1},\dots,p_{r}\in F[X]$ irreducible polynomials s.t. $$f(x)=p_{1}(x)\dots p_{r}(x)$$Hence, there exists $d\in R$ and $q_{1},\dots,q_{r}\in R[X]$ s.t. $$df(x)=q_{1}(x)\dots q_{r}(x)$$
@@ -81,6 +86,8 @@
 >    
 >    Since $F[X]$ is a UFD, $r=s$ and the factorizations are unique modulo unit multiplication and reordering. Therefore, $g_{i}=c_{i}h_{i}$ where $c_{i}=a_{i} / b_{i}$ for $a_{i},b_{i}\in R$. As $b_{i}g_{i}=a_{i}h_{i}$ and by uniqueness in Lemma 4, $ub_{i}=a_{i}$ for some $u\in R^{\times}$ and $g_{i}=uh_{i}$, i.e. $g_{i}\sim h_{i}$ in $R[X]$.
 >  2. (2=>1): Since $R[X]$ is a UFD, the constant polynomials have to be factored uniquely. However, due to degree concerns, the factorization in $R[X]$ is a factorization in $R$.
+
+^f0f99d
 
 ---
 > [!lemma] Theorem 6 (Eisenstein Criteria)

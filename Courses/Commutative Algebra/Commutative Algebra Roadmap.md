@@ -565,3 +565,13 @@
 
 ---
 ### 8. Prime Factorization and Primary Decompositions
+#### 8.1 Unique Factorization Domains
+![[Unique Factorization Domain#^41e878]]
+
+---
+![[Unique Factorization Domain#^190411]]
+![[Unique Factorization Domain#^f0f99d|p]]
+
+---
+#### 8.2 Primary Ideals
+
