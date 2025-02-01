@@ -4,6 +4,7 @@
 > Let $R$ be a commutative [[ring]]. 
 > 1. A proper ideal $Q\unlhd R$ is called ***primary***, if for all $a,b\in R$ with $ab\in Q$, we have $a\in Q$ or $b\in \sqrt{ Q }$. 
 - **Related definition**: For a primary ideal $Q$, if $P:=\sqrt{ Q }$, it is called ***$P$-primary***.
+- **Related definition**: Let $I\unlhd R$. A ***primary decomposition*** of $I$ is a finite collection $\{ Q_{1},..,Q_{n} \}$ of primary ideals s.t. $I=Q_{1}\cap\dots \cap Q_{n}$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -23,10 +24,23 @@
 > 
 > then $Q$ is $P$-primary.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. If $\sqrt{ Q }=P$, then in $R / Q$ the nilradical $\sqrt{ (0) }=P / Q$. 
+> 1. If $\sqrt{ Q }=P$, then in $R / Q$ the nilradical $\sqrt{ (0) }=P / Q$, which is maximal in $R / Q$ as $P$ is maximal in $R$. Hence by [[Nilradical|Proposition 2]], every element is either unit or nilpotent. Hence, by Proposition 1.2, $Q$ is $P$-primary.
+> 2. We have: $$\sqrt{ P }=\sqrt{ P^n }\subseteq \sqrt{ Q }\subseteq\sqrt{ P }$$and $\sqrt{ Q }=\sqrt{ P }=P$. So it reduces to condition 1. 
+---
+> [!lemma] Proposition 3 (Existence of Primary Decompositions)
+> Let $R$ be a [[Noetherian and Artinian Module|Noetherian ring]]. Then,
+> 1. any ideal $I\unlhd R$ admits a primary decomposition.
 
+> [!proof]-
+> Assume otherwise. By [[Noetherian and Artinian Module|Proposition 1]], there exists an ideal $I\unlhd R$ that is maximal among ideals without a primary decomposition. In the quotient ring $S:= R /I$, the zero ideal $I / I$ is then the only ideal without primary decomposition.
+> 
+> Hence, as $(0)\unlhd S$ is not primary, there exists $a,b\in S$ with $ab=0$ but $a\neq 0$ and $b\notin \sqrt{ (0) }$. As $R$ is Noetherian, so is $S$ and the chain of ideals: $$\text{Ann}(b)\subseteq \text{Ann}(b ^{2})\subseteq\dots$$becomes stationary. Hence, there exists $n$ with $\text{Ann}(b^n)=\text{Ann}(b^{n+1})$. 
+> 
+> However, notice that $(a)\neq 0$ and $(b^n)\neq 0$ by our choice of $a,b$. In particular, these two ideals have primary decomposition. Therefore, we also have a primary decomposition of $(a)\cap(b^n)$ as well. But we claim that $(a)\cap(b^n)=0$: if $x\in(a)\cap(b^n)$, then $x=ca$ and $x=db^n$ for some $c,d\in S$. As $ab=0$, $0=cab=xb=db^{n+1}$ and as $d\in \text{Ann}(b^{n+1})=\text{Ann}(b^n)$, $x=db^n=0$. 
+> 
+> This is a contradiction as $(0)$ doesn't have a primary decomposition by assumption.
 ---
 ##### Examples
 > [!h] Example 1
@@ -43,3 +57,12 @@
 > [!h] Example 2
 > Let $R$ be a ring.
 > 1. Every prime ideal in $R$ is primary.
+> 2. Primary ideals are not necessarily powers of prime ideals.
+> 3. Powers of prime ideals are not necessarily primary ideals.
+
+> [!proof]+
+> We have:
+> 1. Obvious.
+> 2. Let $R:= \mathbb{R}[x,y]$ and $Q:=(x^{2},y)$. Then, $$\sqrt{ Q }=\{ f\in \mathbb{R}[x,y]:f^n\in Q \}=(x,y)$$which is maximal. Hence, $Q$ is $(x,y)$-primary. But for $P:=(x,y)$, $$(x^{2},xy,y^{2})=P^{2}\subsetneq Q\subsetneq P= (x,y)$$
+> 3. Let $R:=\mathbb{R}[x,y,z] / (xy-z^{2})$ and $P:=(\overline{x},\overline{z})\unlhd R$. Then, $P$ is prime since $R / P\cong \mathbb{R}[y]$ is an integral domain. However, $P^{2}=(\overline{x}^{2},\overline{x}\overline{z},\overline{z}^{2})$ is not primary as $\overline{x}\overline{y}=\overline{z}^{2}\in P^{2}$, but neither $\overline{x}$ nor $\overline{y}^n$ is in $P^{2}$.
+---
