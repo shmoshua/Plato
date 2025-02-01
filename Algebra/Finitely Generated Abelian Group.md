@@ -25,6 +25,8 @@
 > [!lemma] Theorem 4 (Fundamental Theorem of Finitely Generated Abelian Groups)
 > Let $G$ be a finitely generated abelian group. Then, there exists $x_{1},\dots,x_{r}\in G$ s.t. $$G\cong \braket{ x_{1}  }\times \braket{ x_{2}  } \times \cdots \times \braket{ x_{r}  }  $$If $\text{ord}(x_{i})=n_{i}$, then $\braket{ x_{i}  }\cong C_{n_{i}}$. Similarly, if $\text{ord}(x_{i})=\infty$, then $\braket{ x_{i}  }\cong \mathbb{Z}$. It follows that we can write it as:$$G\cong C_{n_{1}}\times C_{n_{2}}\times \cdots \times  C_{n_{s}} \times \mathbb{Z} \times \cdots \times\mathbb{Z} \cong C_{n_{1}}\times C_{n_{2}}\times \cdots \times  C_{n_{s}} \times \mathbb{Z}^k$$
 
+^8c75e0
+
 > [!proof]-
 > If $r=1$, then $G\cong \braket{ x_{1}   }$. Therefore, we consider $r>1$. 
 > 
@@ -64,6 +66,9 @@
 > Let $G$ be a finitely generated abelian group, viewed as a $\mathbb{Z}$-module. Then, from [[Noetherian and Artinian Module|Corollary 3]], as $\mathbb{Z}$ is Noetherian, $G$ is Noetherian. 
 > 
 > Let $M:=\braket{ m_{1} , \dots,m_{k} }$ and the module homomorphism: $$\varphi:\mathbb{Z}^k\to M,\quad (a_{1},\dots,a_{k})\mapsto a_{1}m_{1}+\dots+a_{k}m_{k}$$is surjective and we get $0\to \text{ker }\varphi\to \mathbb{Z}^k \to M \to 0$ as an exact sequence. Now, as $\mathbb{Z}^k$ is Noetherian and $\text{ker }\varphi\leq \mathbb{Z}^k$, by [[Noetherian and Artinian Module|Proposition 1.3]], $\text{ker }\varphi$ is also finitely generated, i.e. $\text{ker }\varphi=\braket{ x_{1},\dots,x_{\ell}  }$. Now, $$\psi:R^\ell\to \text{ker }\varphi,\quad (b_{1},..,b_{\ell})\mapsto b_{1}x_{1}+\dots+b_{\ell}x_{\ell}$$is a surjective homomorphism and we get $0\to \text{ker }\psi\to \mathbb{Z}^\ell \to \text{ker }\varphi\to 0$. Hence, by [[Exact Sequence|Glueing]], we get: $$0\to \text{ker }\psi\to \mathbb{Z}^\ell\xrightarrow{\psi} \mathbb{Z}^k \xrightarrow{\varphi} M \to 0$$i.e. $M\cong \mathbb{Z}^k / \text{ker }\varphi\cong \mathbb{Z}^k / \text{im }\psi$. Now, $\psi\in \text{Hom}(\mathbb{Z}^\ell,\mathbb{Z}^k)$ is given by a $k\times \ell$-matrix and using SVD, we can find bases for $\mathbb{Z}^\ell$ and $\mathbb{Z}^k$ s.t. $\psi$ is represented using a diagonal matrix. This means, $$\text{im }\psi=\braket{ a_{1}e_{1} , \dots,a_{k}e_{k} } $$for some $a_{1},\dots,a_{k}\in \mathbb{Z}$ and $e_{1},\dots,e_{k}$ is the standard basis in $\mathbb{Z}^k$. Hence, $$M \cong \mathbb{Z}^k / \text{im }\psi\cong \mathbb{Z} / a_{1}\mathbb{Z} \times \dots \times \mathbb{Z} / a_{k} \mathbb{Z}$$This proves the statement.
+
+^8af402
+
 ---
 > [!lemma] Corollary 5
 > Let $G$ be a finitely generated abelian group. Then, $$G \cong C_{n_{1}}\times C_{n_{2}}\times\dots \times C_{n_{t}}\times \mathbb{Z}^k$$where $n_{i} |n_{i+1}$ for all $i\in[t-1]$. Then, $k$ is called the ***rank*** of $G$ and the finite part $C_{n_{1}}\times \dots \times C_{n_{t}}$ is called the ***torsion group*** of $G$.

@@ -506,4 +506,62 @@
 ![[Noetherian and Artinian Module#^159f21|p]]
 
 ---
+![[Noetherian and Artinian Module#^dac35e]]
+![[Noetherian and Artinian Module#^06e384|p]]
+
+---
 ![[Noetherian and Artinian Module#^7b589f]]
+![[Noetherian and Artinian Module#^0f47ce|p]]
+
+---
+![[Noetherian and Artinian Module#^ad1eee]]
+![[Noetherian and Artinian Module#^0f0168|p]]
+
+![[Noetherian and Artinian Module#^bf8e86]]
+
+---
+![[Noetherian and Artinian Module#^f57f95]]
+![[Noetherian and Artinian Module#^201b37|p]]
+
+---
+![[Finitely Generated Abelian Group#^8c75e0]]
+![[Finitely Generated Abelian Group#^8af402|p]]
+
+---
+![[Noetherian and Artinian Module#^851c01]]
+![[Noetherian and Artinian Module#^79018c|p]]
+
+---
+![[Noetherian and Artinian Module#^8f7e90]]
+![[Noetherian and Artinian Module#^c49c05|p]]
+
+---
+![[Noetherian and Artinian Module#^53ccea]]
+![[Noetherian and Artinian Module#^52e94b|p]]
+
+---
+#### 7.1 Noetherian and Artinian Rings
+![[Noetherian and Artinian Module#^0b0197]]
+![[Noetherian and Artinian Module#^1f586a|p]]
+
+---
+![[Noetherian and Artinian Module#^2f8b5f]]
+![[Noetherian and Artinian Module#^734d2a|p]]
+
+---
+![[Noetherian and Artinian Module#^5a3218]]
+![[Noetherian and Artinian Module#^d98383|p]]
+
+---
+![[Noetherian and Artinian Module#^930aa1]]
+![[Noetherian and Artinian Module#^1ee703|p]]
+
+---
+![[Noetherian and Artinian Module#^a4a5fe]]
+![[Noetherian and Artinian Module#^7b30ca|p]]
+
+---
+![[Noetherian and Artinian Module#^677f46]]
+
+---
+### 8. Prime Factorization and Primary Decompositions
