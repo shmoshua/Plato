@@ -91,6 +91,16 @@
 > 	If we now define: $$f'_{n+1}:= f_{n+1}-\sum_{k=0}^{n}c_{k}(x^{d_{n+1}-d_{k}})f_{k}$$Then, $x^{d_{n+1}}$ coefficient is $0$ and $\deg f'_{n+1}\leq \deg f_{n+1}$. However, as $f_{n+1}\notin \braket{ f_{0} , \dots,f_{n} }$, so is $f'_{n+1}$. This contradicts the minimality of $f_{n+1}$ and $R[x]$ is Noetherian. 
 > 2. By [[Algebra|Lemma 2]], $A\cong R[x_{1},\dots,x_{n}] / I$ for some $I\unlhd R[x_{1},\dots,x_{n}]$. Now, from Hilbert's Basis theorem, we have that $R[x_{1},\dots,x_{n}]$ is Noetherian. Hence, by Lemma 2, $A$ is Noetherian as well.
 ---
+> [!lemma] Proposition 2
+> Let $R$ be a Noetherian ring. 
+> 1. if $R$ is an integral domain, every non-zero non-unit $a\in R$ can be written as a product of irreducible elements in $R$. 
+> 2. for any ideal $I\unlhd R$, there is an $n\in \mathbb{N}$ s.t. $(\sqrt{ I })^n\subseteq I$.
+
+> [!proof]+
+> We have:
+> 1. Let $X$ be the set of non-zero non-units in $R$ that cannot be written in irreducible elements. If $X\neq \varnothing$, then pick $x_0\in X$. As $x_{0}$ is not irreducible, hence, we can find $x_{1}\in X$ s.t. $x_{0}=yx_{1}$. Continuing this, we have a sequence, $$(x_{0})\subseteq(x_{1})\subseteq\dots$$As $R$ is Noetherian, we have $x_{n}$ s.t. $(x_{n})=(x_{n+1})$. Then, by construction $x_{n}=ax_{n+1}$ for some non-unit $a\in R$. However, as $x_{n+1}\in (x_{n})$, there exists some $z\in R$ s.t. $x_{n+1}=zax_{n+1}$. As $R$ is an integral domain, we have that $1=za$ which proves that $a$ is a unit. This is a contradiction and $X=\varnothing$.
+> 2. As $R$ is Noetherian, $\sqrt{ I }$ is finitely generated, i.e. $\sqrt{ I }=(a_{1},\dots,a_{k})$. Then, we have $n_{i}$ s.t. $a_{i}^{n_{i}}\in I$ and by taking $n:= n_{1}+\dots+n_{k}$, we have that for any $b_{1}\dots b_{n}\in (\sqrt{ I })^n$, $$b_{1}\dots b_{n}=(a)$$
+---
 ##### Artinian Rings
 > [!lemma] Proposition 1
 > Let $R$ be an Artinian ring. 
@@ -183,4 +193,5 @@
 > 2. the ideals of $R / I$ correspond to the ideals of $R$ that contain $I$, i.e. ideals $(b)$ with $b=p_{1}^{b_{1}}\dots p_{n}^{b_{n}}$ where $b_{i}\leq a_{i}$. 
 > 3. $R / I$ is Noetherian and Artinian as it only has finitely many ideals. 
 > 4. Every non-zero prime ideal in $R / I$ is maximal. 
-> 5. Let $k:= \max a_{i}$. Then, $$(R / I) / (\overline{p}_{i}^k)\cong R / (a,p_{i}^k)=R / (p)$$
+> 5. Let $k:= \max a_{i}$. Then, $$(R / I) / (\overline{p}_{i}^k)\cong R / (a,p_{i}^k)=R / (p_{i}^{a_{i}})$$from [[Principal Ideal Domain|Proposition 6]]. Hence, $$R /I\cong R / (p_{1}^{a_{1}})\times\dots \times R / (p_{n}^{a_{n}})$$
+---

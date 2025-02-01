@@ -200,7 +200,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "naka",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -313,15 +313,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c5a1f0f6c56bef19",
+  "active": "ee568ad677adda89",
   "lastOpenFiles": [
     "Algebra/Principal Ideal Domain.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Localization.md",
-    "Algebra/Noetherian and Artinian Module.md",
     "Functional Analysis/Jacobson Radical.md",
     "Algebra/Annihilator.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/Coprime Ideal.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Prime Ideal.md",
