@@ -9,6 +9,9 @@
 	2. A primary decomposition $\{ Q_{1},\dots,Q_{n} \}$ is called ***minimal*** if:
 		1. $\bigcap_{j\neq i}^{}Q_{j}\nsubseteq Q_{i}$ for all $i$.
 		2. $\sqrt{ Q_{i} }\neq \sqrt{ Q_{j} }$ for all $i\neq j$.
+- **Related definition**: Let $I\unlhd R$. 
+	1. An ***associated prime ideal*** of $I$ is a prime ideal that can be written as $\sqrt{ I{:}a }$ for some $a\in R$. The set of associated prime ideals of $I$ is denoted $\text{Ass}(I)$.
+	2. The minimal elements of $\text{Ass}(I)$ are called ***isolated prime ideals*** of $I$. The others are called ***embedded prime ideals*** of $I$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -58,7 +61,39 @@
 > 	This is a contradiction as $(0)$ doesn't have a primary decomposition by assumption.
 > 2. Let $\{ Q_{1},\dots,Q_n \}$ be a primary decomposition. Then, we can take out every primary ideal for which $\bigcap_{j\neq i}^{} Q_{j}\subseteq Q_{i}$. Further, if $\sqrt{ Q_{i} }=\sqrt{ Q_{j} }$, then we replace $Q_{i},Q_{j}$ by $Q_{i}\cap Q_{j}$ which is $\sqrt{ Q_{i} }$-primary as well by Lemma 3.
 ---
+> [!lemma] Lemma 5
+> Let $Q$ be a $P$-primary ideal in $R$. Then, for any $a\in R$, 
+> $$\sqrt{ Q{:}a }=\begin{cases}R&a\in Q\\P&a\notin Q\end{cases}$$
 
+> [!proof]-
+> We have that:
+> 1. if $a\in Q$, then $Q{:}a=R$ and therefore $\sqrt{ Q{:}a }=R$. 
+>    
+>    if $a\notin Q$, then for any $b\in Q{:}a$, $ab\in Q$ and we have that $b\in P$ as $Q$ is $P$-primary. Hence, $Q\subseteq Q{:a}\subseteq P$ and by taking radicals, $P\subseteq \sqrt{ Q{:}a }\subseteq P$. 
+---
+> [!lemma] Theorem 6 (First Uniqueness Theorem for Primary Decompositions)
+> Let $Q_{1},\dots,Q_{n}$ form a minimal primary decomposition for $I\unlhd R$. Let $P_{i}:=\sqrt{ Q_{i} }$. 
+> 1. $\{ P_{1},\dots,P_{n} \}=\text{Ass}(I)$.
+
+> [!proof]-
+> We have:
+> 1. ($\subseteq$): Let $i\in[n]$. We will show that $P_{i}\in \text{Ass}(I)$. As the decomposition is minimal, we can find $a\in \bigcap_{j\neq i}^{}Q_{j}$ with $a\notin Q_{i}$. Then, $$\begin{align} \sqrt{ I{:}a }&=\sqrt{ Q_{1}{:}a\cap\dots \cap Q_{n}{:}a}\\&=\sqrt{ Q_{1}{:}a }\cap\dots \cap\sqrt{ Q_{n}{:}a }\\&=P_{i}\end{align}$$by Lemma 5. Hence, $P_{i}\in \text{Ass}(I)$.
+> 2. ($\supseteq$): Let $P\in \text{Ass}(I)$, i.e. $P=\sqrt{ I{:}a }$ for some $a\in R$. Then, as above, $$P=\sqrt{ I{:}a }=\sqrt{ Q_{1}{:}a }\cap\dots \cap \sqrt{ Q_{n}{:}a }$$. Hence, by [[Prime Ideal|Proposition 3]], $P\supseteq \sqrt{ Q_{i}{:}a }$ for some $i$ since $P$ is prime. However, as we have $P\subseteq \sqrt{ Q_{i}{:}a }$, we get $P=\sqrt{ Q_{i}{:}a }$. As by Lemma 5, $\sqrt{ Q_{i}:a }$ can only be $R$ or $P_{i}$, we get that $P_{i}=P$. 
+
+- **Corollary**: the number of components in the minimal primary decomposition is independent of the decomposition.
+---
+##### Primary Decompositions and Noetherian Rings
+> [!lemma] Proposition 1
+> Let $R$ be a Noetherian ring and $I\unlhd R$.
+> 1. $\text{Ass}(I)=\{ P\unlhd R:P\text{ prime, }P=I{:}a\text{ for some }a\in R  \}$
+
+> [!proof]+
+> We have:
+> 1. As $R$ is Noetherian, by Proposition 4, $I$ admits a minimal primary decomposition $I=Q_{1}\cap\dots \cap Q_{n}$. Hence, by Theorem 6, $\text{Ass}(I)=\{ P_{1},\dots,P_{n} \}$ where $P_{i}:=\sqrt{ Q_{i} }$. 
+>    
+>    Now, let $P\unlhd R$ prime s.t. $P=I{:}a$ for some $a\in R$. Then, 
+>    
+ 
 ---
 ##### Examples
 > [!h] Example 1
@@ -91,9 +126,10 @@
 > [!h] Example 3
 > We have that:
 > 1. In $R:=\mathbb{R}[x,y] / (x^{2}+y^{2}-1)$, $I:=(\overline{x}^{2})=(1+\overline{y})\cap(1-\overline{y})$ is the minimal primary decomposition.
-> 2. In $R:=\mathbb{Z}[\sqrt{ 5 }i]$, $I:=(6)=$ 
+> 2. In $R:=\mathbb{Z}[\sqrt{ 5 }i]$, $I:=(6)=(2)\cap(3)$.
+> 3. In $R:=\mathbb{R}[x,y]$, $I:=(y)\cdot(x,y)=(y)\cap(x^{2},xy,y^{2})=(y)\cap(x,y^{2})$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. $(\overline{x}^{2})=(1-\overline{y}^{2})=((1+\overline{y})(1-\overline{y}))=(1+\overline{y})\cap(1-\overline{y})$. Now, $$R / (1+\overline{y})\cong\mathbb{R}[\overline{x},\overline{y}] / (1+\overline{y})\cong\mathbb{R}[\overline{x}]$$Hence, $(1+\overline{y}),(1-\overline{y})$ are prime and hence primary.
 > 2. We have that $(2),(3)$ are coprime in $R$. Hence, $(6)=(2)\cap(3)$ and this is primary decomposition. 

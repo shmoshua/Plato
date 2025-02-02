@@ -146,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Radical (Ring).md",
+                "file": "Algebra/Annihilator.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Radical (Ring)"
+              "title": "Annihilator"
             }
           },
           {
@@ -160,12 +160,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Coprime Ideal.md",
+                "file": "Algebra/Prime Ideal.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Coprime Ideal"
+              "title": "Prime Ideal"
             }
           }
         ],
@@ -315,20 +315,20 @@
   },
   "active": "c5a1f0f6c56bef19",
   "lastOpenFiles": [
-    "Courses/Algebra II/Exercise Sheet 0.md",
-    "Algebra/Coprime Ideal.md",
-    "Algebra/Ideal (Ring).md",
+    "Algebra/Prime Ideal.md",
     "Algebra/Primary Ideal.md",
-    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Coprime Ideal.md",
+    "Algebra/Annihilator.md",
     "Algebra/Radical (Ring).md",
+    "Courses/Algebra II/Exercise Sheet 0.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Unique Factorization Domain.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Nilradical.md",
     "Algebra/Maximal Ideal.md",
-    "Algebra/Annihilator.md",
     "Algebra/Noetherian and Artinian Module.md",
-    "Algebra/Prime Ideal.md",
     "Algebra/Localization.md",
     "Algebra/Variety.md",
     "Algebra/Algebra.md",
