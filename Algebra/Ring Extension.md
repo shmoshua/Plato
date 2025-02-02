@@ -6,6 +6,8 @@
 > 2. For a ring extension $R':R$, $a\in R'$ is called ***integral*** over $R$ if there exists a monic polynomial $f\in R[x]$ with $f(a)=0$.
 > 3. $R'$ is ***integral*** over $R$ if every element $a\in R'$ is integral over $R$.
 - **Related definition**: A ring extension $R':R$ is called ***finite*** if $R'$ is finitely generated as a $R$-[[module]].
+- **Related definition**: For a ring extension $R':R$, the set $\overline{R}$ of all integral elements in $R'$ over $R$ is called ***integral closure*** of $R$ in $R'$. $R$ is ***integrally closed in $R'$***  if $\overline{R}=R$.
+- **Related definition**: An integral domain $R$ is ***integrally closed*** if it is integrally closed in $\text{Quot}R$.
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Integral and Finite Ring Extensions)
@@ -41,8 +43,11 @@
 > 2. if $S$ is multiplicatively closed in $R$, then $S^{-1}R': S^{-1}R$ is an integral ring extension.
 > 3. $R'[x]:R[x]$ is an integral ring extension.
 
-> [!proof]+
-> 
+> [!proof]-
+> We have:
+> 1. Note that $R / (I\cap R)\to R'  / I,\overline{a}\to \overline{a}$ is injective hence it is a ring extension. Now, for any $a\in R'$, we have $a^n+c_{n-1}a^{n-1}+\dots+c_{0}=0$ for some $c_{0},\dots,c_{n-1}\in R$. Hence by passing to the quotient, $$\overline{a}^n+\overline{c_{n-1}}\overline{a}^{n-1}+\dots+\overline{c_{0}}=0$$So $a$ is integral over $R / (I\cap R)$.
+> 2. The ring homomorphism $S^{-1}R\to S^{-1}R', \frac{a}{ s}\mapsto \frac{a}{s}$ is well defined and injective. For $\frac{a}{s}\in S^{-1}R'$, we have the monic relation $a^n+c_{n-1}a^{n-1}+\dots+c_{0}=0$. Therefore, $$\left( \frac{a}{s} \right)^n+\frac{c_{n-1}}{s}\left( \frac{a}{s} \right) ^{n-1}+\dots+\frac{c_{0}}{s^n}=0$$Hence, $\frac{a}{s}$ is integral over $S^{-1}R$.
+> 3. Let $f=a_{n}x^n+\dots+a_{0}\in R'[x]$. Then, as $a_{0},\dots,a_{n}$ are integral over $R$, it is also integral over $R[x]$. Therefore, $R[x][a_{0},\dots,a_{n}]=R[a_{0},\dots,a_{n}][x]$ is integral over $R[x]$ by Proposition 1. This means that $f$ is integral over $R[x]$. 
 
 ---
 ##### Examples
