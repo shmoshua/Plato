@@ -575,3 +575,12 @@
 ---
 #### 8.2 Primary Ideals
 
+
+
+---
+### 9. Integral Ring Extensions
+![[Algebraic and Transcendental Element#^47659f]]
+![[Algebraic and Transcendental Element#^7782b7]]
+![[Algebraic and Transcendental Element#^c7f997|q]]
+
+---

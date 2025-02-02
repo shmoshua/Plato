@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Algebra/Ring Extension.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Commutative Algebra Roadmap"
+              "title": "Ring Extension"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -118,12 +118,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Ring Extension.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Unique Factorization Domain"
+              "title": "Ring Extension"
             }
           },
           {
@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -313,11 +313,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c5a1f0f6c56bef19",
+  "active": "307cbdf7a3043d90",
   "lastOpenFiles": [
-    "Algebra/Ring Homomorphism.md",
-    "Algebra/Primary Ideal.md",
     "Algebra/Unique Factorization Domain.md",
+    "Algebra/Ring Extension.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Algebra.md",
+    "Algebra/Primary Ideal.md",
+    "Algebra/Ring Homomorphism.md",
     "Algebra/Localization.md",
     "Algebra/Annihilator.md",
     "Algebra/Noetherian and Artinian Module.md",
@@ -326,13 +329,11 @@
     "Algebra/Coprime Ideal.md",
     "Courses/Algebra II/Exercise Sheet 0.md",
     "Algebra/Ideal (Ring).md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Nilradical.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Variety.md",
-    "Algebra/Algebra.md",
     "Algebra/Local Ring.md",
     "Algebra/Module.md",
     "Algebra/Principal Ideal Domain.md",
@@ -340,7 +341,6 @@
     "Algebra/Exact Sequence.md",
     "Algebra/Noetherian Module.md",
     "Algebra/Composition Series.md",
-    "Algebra/Basis.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
