@@ -28,6 +28,22 @@
 > 1. if $R':R$ and $R'':R'$ are finite, then so is $R'':R$.
 > 2. if $R':R$ and $R'':R'$ are integral, then so is $R'':R$.
 
+> [!proof]-
+> We have:
+> 1. Let $a_{1},\dots,a_{n}$ generate $R'$ as a $R$-module and $b_{1},\dots,b_{m}$ generate $R''$ as a $R'$-module. Then, every element in $R''$ is of the form $\sum_{i=1}^{m}c_{i}b_{i}$ for some $c_{i}\in R'$ and $\sum_{i=1}^{m}\sum_{j=1}^{n}c_{ij}a_{j}b_{i}$ for some $c_{ij}\in R$. Hence, $a_{j}b_{i}$ generate $R''$ as a $R$-module.
+> 2. Let $a\in R''$. As $a$ is integral over $R'$, there is $n\in \mathbb{N}_{> 0}$ and $c_{0},\dots,c_{n-1}\in R'$ s.t. $a^n+c_{n-1}a^{n-1}+\dots+c_{0}=0$. Then, $a$ is integral over $R[c_{0},\dots,c_{n-1}]$. Further, as $c_{0},\dots,c_{n-1}$ are integral over $R$, by Proposition 1 $R[c_{0},\dots,c_{n-1},a]$ is finite over $R[c_{0},\dots,c_{n-1}]$ and $R[c_{0},\dots,c_{n-1}]$ is finite over $R$. 
+>    
+>    Therefore, by 1, $R[c_{0},\dots,c_{n-1},a]$ is finite over $R$ and $a$ is integral over $R$ by Proposition 1. 
+---
+> [!lemma] Lemma 3
+> Let $R':R$ be a ring extension.
+> 1. if $I\unlhd R'$, then $(R' /I):R/(I\cap R)$ is an integral ring extension.
+> 2. if $S$ is multiplicatively closed in $R$, then $S^{-1}R': S^{-1}R$ is an integral ring extension.
+> 3. $R'[x]:R[x]$ is an integral ring extension.
+
+> [!proof]+
+> 
+
 ---
 ##### Examples
 > [!h] Example 1 (UFD)
