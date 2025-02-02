@@ -146,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ideal (Ring).md",
+                "file": "Algebra/Radical (Ring).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ideal (Ring)"
+              "title": "Radical (Ring)"
             }
           },
           {
@@ -313,14 +313,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c5a1f0f6c56bef19",
+  "active": "1652382bc3c67270",
   "lastOpenFiles": [
-    "Algebra/Unique Factorization Domain.md",
-    "Algebra/Ideal (Ring).md",
-    "Algebra/Finitely Generated Abelian Group.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Primary Ideal.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Finitely Generated Abelian Group.md",
+    "Algebra/Polynomial Ring.md",
     "Algebra/Nilradical.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Annihilator.md",
