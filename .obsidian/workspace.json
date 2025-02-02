@@ -160,12 +160,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Localization.md",
+                "file": "Algebra/Ring Homomorphism.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Localization"
+              "title": "Ring Homomorphism"
             }
           }
         ],
@@ -313,11 +313,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1652382bc3c67270",
+  "active": "c5a1f0f6c56bef19",
   "lastOpenFiles": [
-    "Algebra/Localization.md",
+    "Algebra/Ring Homomorphism.md",
     "Algebra/Primary Ideal.md",
     "Algebra/Unique Factorization Domain.md",
+    "Algebra/Localization.md",
     "Algebra/Annihilator.md",
     "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Prime Ideal.md",
@@ -340,7 +341,6 @@
     "Algebra/Noetherian Module.md",
     "Algebra/Composition Series.md",
     "Algebra/Basis.md",
-    "Discrete Mathematics/Order.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

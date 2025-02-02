@@ -85,10 +85,18 @@
 > [!lemma] Lemma 7
 > Let $S$ be a multiplicatively closed subset of $R$ and $Q$ a $P$-primary ideal. Then, w.r.t. $\varphi:R\to S^{-1}R, a\mapsto \frac{a}{1}$, $$(Q^e)^c=\begin{cases}R&S\cap P\neq \varnothing\\Q&S\cap P=\varnothing\end{cases}$$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. if $S\cap P\neq \varnothing$, then there exists $s\in S$ with $s\in \sqrt{ Q }$, i.e. $s^n\in Q$ for some $n\in \mathbb{N}$. Hence, by [[Localization|Proposition 2]], $$1=\frac{s^n}{s^n}\in S^{-1}Q=Q^e$$Therefore, $Q^e=S^{-1}R$ and $(Q^e)^c=R$.
-> 2. if $S\cap P=\varnothing$, then by [[Ring Homomorphism|Proposition 4]]
+> 2. if $S\cap P=\varnothing$, then by [[Ring Homomorphism|Proposition 4]], it suffices to show that $(Q^e)^c\subseteq Q$. If $a\in (Q^e)^c$, then $\frac{a}{1}\in Q^e$ and $\frac{a}{1}=\frac{q}{s}$ for some $q\in Q$ and $s\in S$. Hence, $u(as-q)=0$ for some $u\in S$ and this implies that $a\cdot us=uq\in Q$. As $Q$ is $P$-primary, $a\in Q$ or $us\in P$. However, if $us\in P$, then $us\notin S$, which is a contradiction. Hence, $a\in Q$.
+---
+> [!lemma] Theorem 8 (Second Uniqueness Theorem for Primary Decompositions)
+> Let $Q_{1},\dots,Q_{n}$ form a minimal primary decomposition for $I\unlhd R$. Let $P_{i}:= \sqrt{ Q_{i} }$.
+> 1. if $P_{i}$ is minimal over $I$, then $(I^e)^c=Q_{i}$ w.r.t. $\varphi :R\to R_{P_{i}}$
+
+> [!proof]-
+> By localizing $I=Q_{1}\cap\dots \cap Q_{n}$, we have: $$S^{-1}I=S^{-1}Q_{1}\cap\dots \cap S^{-1}Q_{n}$$Hence, $I^e=Q_{1}^e\cap\dots \cap Q_{n}^e$ by [[Localization|Proposition 2]]. Therefore, by [[Ring Homomorphism|Proposition 4.4]], $$(I^e)^c=(Q_{1}^e)^c\cap\dots \cap(Q_{n}^e)^c=Q_{i}$$where the last step follows as $P_{i}$ is minimal over $I$ and $S:= R \backslash P_{i}$. Therefore, $S\cap P_{j}=\varnothing$ if and only if $j=i$ from Lemma 7.
+- **Corollary**: the primary components in the minimal primary decomposition corresponding to minimal prime ideals are independent of the decomposition.
 ---
 ##### Primary Decompositions and Noetherian Rings
 > [!lemma] Proposition 1
