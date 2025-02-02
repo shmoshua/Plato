@@ -146,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Noetherian and Artinian Module.md",
+                "file": "Algebra/Localization.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Noetherian and Artinian Module"
+              "title": "Localization"
             }
           }
         ],
@@ -301,12 +301,12 @@
   },
   "active": "f34af4f280c8db9c",
   "lastOpenFiles": [
+    "Algebra/Localization.md",
+    "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Ring Extension.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Minimal Polynomial.md",
-    "Algebra/Ring Extension.md",
-    "Algebra/Localization.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Normal Extension.md",
     "Algebra/Module.md",

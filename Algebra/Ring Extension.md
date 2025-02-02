@@ -79,6 +79,35 @@
 >    As $g(a)=0$, $f|g$ in $K[x]$ again and $g=fh$ in $R[x]$ (by 1). Modulo $P$, we get that $\overline{x}^n=\overline{f}\cdot \overline{h}$ in $(R / P)[x]$. However, $R / P$ is an integral domain and this is only possible if $\overline{f}$ and $\overline{h}$ are powers of $\overline{x}$ themselves. Hence, the non-leading coefficients of $f$ lie in $P$.
 
 ---
+##### Algebraic Geometry
+> [!lemma] Proposition 1 (Lying Over)
+> Let $R':R$ be a ring extension and $P\unlhd R$ prime.
+> 1. there is a prime ideal $P'\unlhd R'$ that lies over $P$, i.e. $P'\cap R=P$ if and only if $PR'\cap R\subseteq P$.
+> 2. if $R':R$ is an integral extension, this holds always.
+
+> [!proof]-
+> We have:
+> 1. We show that:
+> 	1. if $P'\cap R=P$, then: $$PR'\cap R=(P'\cap R)R'\cap R\subseteq P'R'\cap R=P'\cap R=P$$
+> 	2. if $PR'\cap R\subseteq P$, then for $S:= R \backslash P$, $PR'\cap S=\varnothing$. Hence, $PR'$ is contained in a prime ideal $P'$ of $R'$ s.t. $P'\cap S=\varnothing$, i.e. $P'\subseteq P$. Therefore, $P'\cap R\subseteq P$ and we have: $P\subseteq PR'\cap R\subseteq P'\cap R$.
+> 2. Let $a\in PR'\cap R$. Since $a\in PR'$, from [[Module|Cayley Hamilton]] there exists a monic relation $a^n+c_{n-1}a^{n-1}+\dots+c_{0}=0$ for $c_0,\dots,c_{n-1}\in P$. As $P$ is prime, this means that $$a^n=-c_{n-1}a^{n-1}-\dots-c_{0}\in P$$and $a\in P$. 
+
+---
+> [!lemma] Proposition 2 (Incomparability)
+> Let $R':R$ be an integral ring extension. 
+> 1. if $P',Q'$ are distinct prime ideals in $R'$ with $P'\cap R=Q'\cap R$ then $P'\nsubseteq Q'$ and $Q'\nsubseteq P'$.
+> 2. if $R,R'$ are integral domains, $R$ is a field if and only if $R'$ is a field.
+> 3. a prime ideal $P'\unlhd R'$ is maximal if and only if $P'\cap R$ is maximal in $R$. 
+
+> [!proof]+
+> We have:
+> 1. Let $P'\cap R=Q'\cap R$ and $P'\subseteq Q'$. Then, we will show that $Q'\subseteq P'$ and thereby $Q'=P'$.
+> 
+> 	Assume for contradiction that there exists $a\in Q ' \backslash P'$. By Lemma 3.1, we know that $(R' / P'):R / (P'\cap R)$ is an integral extension. Therefore, there is a monic relation: $$\overline{a}^n+\overline{c_{n-1}}\overline{a}^{n-1}+\dots+\overline{c_{0}}=0$$in $R' / P'$ with $c_{0},\dots,c_{n-1}\in R$. Pick such a relation of minimal degree $n$. Since $a\in Q'$, this implies that $\overline{c_{0}}\in Q'  / P'$ but as $c_{0}\in R$, we conclude that: $$\overline{c_{0}}\in(Q ' \cap R) / (P'\cap R)=(Q ' \cap R) / (Q'\cap R)=0$$Hence, the relation has no constant term. But since $\overline{a}\neq 0$ and $R' / P'$ is an integral domain, we can reduce the relation by a degree, which is a contradiction to the minimality. 
+> 2. We show that:
+> 	1. (=>): Assume that $R$ is a field. Let $P'\unlhd R'$ be a maximal ideal. Also, $0\unlhd R'$ is prime as $R'$ is an integral domain. Then, as they both contract to a prime ideal via $\varphi: R \to R'$, we have that  
+> 
+---
 ##### Examples
 > [!h] Example 1 (UFD)
 > Let $R$ be a [[Unique Factorization Domain|UFD]] and $R':=\text{Quot}R$. Then, 
@@ -92,6 +121,7 @@
 > Let $d\in \mathbb{Z} \backslash\{ 0,1 \}$. Then, 
 > 1. for $\mathbb{Q}(\sqrt{ d }):\mathbb{Z}$, $\overline{\mathbb{Z}}=\{ a+b \sqrt{ d }:a,b\in \mathbb{Q}, -2a\in\mathbb{Z},a^{2}-db ^{2}\in \mathbb{Z} \}$
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. Let $R=\mathbb{Z}$ and $R'=\mathbb{Q}(\sqrt{ d })$. Then, for $a+ b \sqrt{ d }\in R'$, the minimal polynomial $f$ is given by: $$(x-a-b \sqrt{ d })(x-a+b \sqrt{ d })=x^{2}-2ax+a^{2}-db ^{2}$$As $\mathbb{Z}$ is normal from Example 1, by applying Lemma 5.1 on $\overline{R}:R$, $a+b \sqrt{ d }$ is integral if and only if 
+> 1. Let $R=\mathbb{Z}$ and $R'=\mathbb{Q}(\sqrt{ d })$. Then, for $a+ b \sqrt{ d }\in R'$, the minimal polynomial $f$ is given by: $$(x-a-b \sqrt{ d })(x-a+b \sqrt{ d })=x^{2}-2ax+a^{2}-db ^{2}$$As $\mathbb{Z}$ is normal from Example 1, by applying Lemma 5.1 on $\overline{R}:R$, $a+b \sqrt{ d }$ is integral if and only if the minimal polynomial has integer coefficients. This proves the statement.
+---
