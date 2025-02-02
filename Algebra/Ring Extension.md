@@ -87,3 +87,11 @@
 > [!proof]-
 > We have:
 > 1. if $a\in R$, then obviously it is integral. Conversely, assume that $a=\frac{p}{q}$ is integral over $R$ with $p,q$ coprime, i.e. there exists: $$\left( \frac{p}{q} \right)^n+c_{n-1}\left( \frac{p}{q} \right) ^{n-1}+\dots+c_{0}=0$$with $c_{0},\dots,c_{n-1}\in R$. We multiply it with $q^n$ and get: $$p^n=-c_{n-1}p^{n-1}q-\dots-c_{0}q^n=-q(c_{n-1}p^{n-1}+\dots+c_{0}q^{n-1})$$and $q|p^n$. As $p$ and $q$ are coprime, we have that $q$ is a unit and $a\in R$.
+---
+> [!h] Example 2
+> Let $d\in \mathbb{Z} \backslash\{ 0,1 \}$. Then, 
+> 1. for $\mathbb{Q}(\sqrt{ d }):\mathbb{Z}$, $\overline{\mathbb{Z}}=\{ a+b \sqrt{ d }:a,b\in \mathbb{Q}, -2a\in\mathbb{Z},a^{2}-db ^{2}\in \mathbb{Z} \}$
+
+> [!proof]+
+> We have:
+> 1. Let $R=\mathbb{Z}$ and $R'=\mathbb{Q}(\sqrt{ d })$. Then, for $a+ b \sqrt{ d }\in R'$, the minimal polynomial $f$ is given by: $$(x-a-b \sqrt{ d })(x-a+b \sqrt{ d })=x^{2}-2ax+a^{2}-db ^{2}$$As $\mathbb{Z}$ is normal from Example 1, by applying Lemma 5.1 on $\overline{R}:R$, $a+b \sqrt{ d }$ is integral if and only if 
