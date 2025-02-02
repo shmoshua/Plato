@@ -82,19 +82,35 @@
 
 - **Corollary**: the number of components in the minimal primary decomposition is independent of the decomposition.
 ---
+> [!lemma] Lemma 7
+> Let $S$ be a multiplicatively closed subset of $R$ and $Q$ a $P$-primary ideal. Then, w.r.t. $\varphi:R\to S^{-1}R, a\mapsto \frac{a}{1}$, $$(Q^e)^c=\begin{cases}R&S\cap P\neq \varnothing\\Q&S\cap P=\varnothing\end{cases}$$
+
+> [!proof]+
+> We have:
+> 1. if $S\cap P\neq \varnothing$, then there exists $s\in S$ with $s\in \sqrt{ Q }$, i.e. $s^n\in Q$ for some $n\in \mathbb{N}$. Hence, by [[Localization|Proposition 2]], $$1=\frac{s^n}{s^n}\in S^{-1}Q=Q^e$$Therefore, $Q^e=S^{-1}R$ and $(Q^e)^c=R$.
+> 2. if $S\cap P=\varnothing$, then by [[Ring Homomorphism|Proposition 4]]
+---
 ##### Primary Decompositions and Noetherian Rings
 > [!lemma] Proposition 1
 > Let $R$ be a Noetherian ring and $I\unlhd R$.
 > 1. $\text{Ass}(I)=\{ P\unlhd R:P\text{ prime, }P=I{:}a\text{ for some }a\in R  \}$
+> 2. the isolated prime ideals of $I$ are exactly the minimal prime ideals containing $I$. 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. As $R$ is Noetherian, by Proposition 4, $I$ admits a minimal primary decomposition $I=Q_{1}\cap\dots \cap Q_{n}$. Hence, by Theorem 6, $\text{Ass}(I)=\{ P_{1},\dots,P_{n} \}$ where $P_{i}:=\sqrt{ Q_{i} }$. 
 >    
 >    Now, let $P\unlhd R$ prime s.t. $P=I{:}a$ for some $a\in R$. Then, as all prime ideals are radical, $P=\sqrt{ I:a }$. This shows that $P\in \text{Ass}(I)$. 
 >    
->    Let $i\in [n]$. We will show that $P_{i}=I{:a}$ for some $a\in R$. Let $K_{i}:=\bigcap_{j\neq i}^{}Q_{j} \backslash Q_{i}$. Then, as $R$ is Noetherian, there exists a maximal element in $\{ I{:}a \}_{a\in K_{i}}$. Let $b\in K_{i}$ for which we get a maximal element. Then, $$I{:}b=Q_{1}{:}b\cap\dots \cap Q_{n}{:}b=$$
+>    Let $i\in [n]$. We will show that $P_{i}=I{:a}$ for some $a\in R$. Let $K_{i}:=\bigcap_{j\neq i}^{}Q_{j} \backslash Q_{i}$. Then, as $R$ is Noetherian, there exists a maximal element in $\{ I{:}a \}_{a\in K_{i}}$. Let $b\in K_{i}$ for which we get a maximal element. Then, $$I{:}b=Q_{1}{:}b\cap\dots \cap Q_{n}{:}b=Q_{i}{:}b \subseteq P_{i}$$Now, we show that $I{:}b$ is prime. Let $cd\in I{:}b$ with $c\notin I{:}b$. Then, $bcd\in I$ and $d\in I{:}bc$. Notice that $bc\in Q_{j}$ for all $j\neq i$. Further, we have $bc\notin Q_{i}$ as $c\notin Q_{i}{:}b=I {:} b$. Hence, $bc\in K_{i}$ and as $(I{:}b)\subseteq (I{:}bc)$ by maximality, $(I{:}b)=(I{:}bc)$ and $d\in I{:}b$. 
 >    
+>    Hence, $Q_{i}\subseteq Q_{i}{:}b =I{:} b$, $P_{i}\subseteq \sqrt{ I{:}b }=I{:}b\subseteq P_{i}$. This shows the statement.
+> 2. As $R$ is Noetherian, there exists a minimal primary decomposition $I=Q_{1}\cap\dots \cap Q_{n}$. We then set $P_{i}:=\sqrt{ Q_{i} }$. 
+>    
+>    If $P\supseteq I$ is any prime ideal, then $P\supseteq Q_{1}\cap\dots \cap Q_{n}$ and by [[Prime Ideal|Proposition 3.1]], $Q_{i}\subseteq P$ for some $i$. Hence, $P_{i}\subseteq P$ by taking radicals. 
+>    1. Let $P_{i}\in \text{Ass}(I)$ be isolated. If $P$ is any prime ideal with $I\subseteq P\subseteq P_{i}$, then from above $P_{j}\subseteq P\subseteq P_{i}$ for some $j$. But as $P_{i}$ is isolated, $P_{j}=P_{i}$. Hence, $P=P_{i}$. Hence, $P_{i}$ is minimal over $I$.
+>    2. Let $P$ be minimal over $I$. Then, by above, $I\subseteq Q_{i}\subseteq P_{i}\subseteq P$ for some $i$. As $P_{i}$ is minimal, we have that $P_{i}=P$. 
+- **Corollary**: Isolated prime ideals of an ideal $I\unlhd A(X)$ correspond exactly to maximal subvarieties. 
  
 ---
 ##### Examples

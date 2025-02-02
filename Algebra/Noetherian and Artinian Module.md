@@ -115,6 +115,7 @@
 
 ^52e94b
 
+
 ---
 ##### Noetherian Rings
 > [!lemma] Theorem 1 (Hilbert's Basis Theorem)
@@ -152,6 +153,13 @@
 
 ^734d2a
 
+---
+> [!lemma] Proposition 3
+ > Let $R$ be an Noetherian integral domain. 
+ > 1. $R$ is UFD if and only if every minimal prime ideal over a principal ideal is principal.
+ > 2. if $R$ is a UFD then every minimal non-zero prime ideal is principal.
+
+> [!proof]- Proof (Incomplete)
 ---
 ##### Artinian Rings
 > [!lemma] Proposition 1

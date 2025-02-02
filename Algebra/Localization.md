@@ -107,7 +107,7 @@
 
 ^66b9c4
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. by Proposition 5, localizing $0\to \text{ker }\varphi\to M\to \text{im }\varphi \to 0$, we get: $$0\to S^{-1}\text{ker }\varphi\to S^{-1}M\to S^{-1}\text{im }\varphi \to 0$$but then this means that $\text{ker }(S^{-1}\varphi)=S^{-1}\text{ker }\varphi$ and $\text{im }(S^{-1}\varphi)=S^{-1}\text{im }\varphi$.
 > 2. We localize $0\to N\to M \to M / N\to 0$. Then, $$0\to S^{-1}N\to S^{-1}M\to S ^{-1}(M / N)\to 0$$and $S^{-1}(M / N)\cong S^{-1}M / S^{-1} N$.
