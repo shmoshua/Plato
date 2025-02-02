@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Localization.md",
+                "file": "Algebra/Algebraic and Transcendental Element.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Localization"
+              "title": "Algebraic and Transcendental Element"
             }
           },
           {
@@ -146,16 +146,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring Homomorphism.md",
+                "file": "Algebra/Noetherian and Artinian Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ring Homomorphism"
+              "title": "Noetherian and Artinian Module"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -299,19 +299,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "59a458cf2ef90dc7",
+  "active": "f34af4f280c8db9c",
   "lastOpenFiles": [
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Minimal Polynomial.md",
     "Algebra/Ring Extension.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Localization.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Ring Homomorphism.md",
     "Algebra/Normal Extension.md",
     "Algebra/Module.md",
     "Algebra/Field Extension.md",
     "Algebra/Primary Ideal.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Algebra.md",
-    "Algebra/Ring Homomorphism.md",
     "Algebra/Annihilator.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Radical (Ring).md",
@@ -325,8 +327,6 @@
     "Algebra/Variety.md",
     "Algebra/Local Ring.md",
     "Algebra/Principal Ideal Domain.md",
-    "Functional Analysis/Jacobson Radical.md",
-    "Algebra/Exact Sequence.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

@@ -55,16 +55,29 @@
 > 1. Let $R':R$ be a ring extension and $\overline{R}$ the integral closure. Then, $S^{-1}\overline{R}$ is the integral closure of $S^{-1}R$ in $S^{-1}R'$. 
 > 2. If $R$ is normal, then $S^{-1}R$ is normal.
 > 3. If $R_{P}$ is normal for all maximal $P\unlhd R$, then $R$ is normal.
+> 4. for $R':R$ a ring extension with an integral domain $R'$, for any two monic $f,g\in R'[x]$ with $fg\in \overline{R}[x]$, we have $f,g\in \overline{R}[x]$.
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $a\in R'$ be integral. Then, $a^n+c_{n-1}a^{n-1}+\dots+c_{0}=0$ for some $c_{0},\dots,c_{n-1}\in R$ and similarly as Lemma 3.2, we have that $\frac{a}{s}$ is integral over $S^{-1}R$ for all $s\in S$. 
 >    
 >    Similarly, for every $\frac{a}{s}\in \overline{S^{-1}R}$, we have that $f\left( \frac{a}{s} \right):=\left( \frac{a}{s} \right)^n+d_{n-1}\left( \frac{a}{s} \right)^{n-1}+\dots+d_{0}=0$ for $d_{0},..,d_{n-1}\in S^{-1}R$. Now, let $u\in S$ s.t. $u\cdot f\in R[x]$. Then, $$u^n\cdot f(x)=u^nx^n+a_{n-1} u^{n-1}x^{ n-1}+\dots+a_{0}=g(ux)$$for $g(x)=x^n+c_{n-1}x^{n-1}+\dots+c_{0}\in R[x]$. Now, $$g\left(  u \frac{a}{s} \right)=u^n\cdot f\left( \frac{a}{s} \right)=0$$Hence, $\frac{ua}{s}\in \overline{R}$ and $\frac{ua}{us}=\frac{a}{s}\in S^{-1}\overline{R}$.
 > 2. Let $R$ be integrally closed in $\text{Quot}R$. Then, $\overline{R}=R$. Hence, $$S^{-1}R=S^{-1}\overline{R}=\overline{S^{-1}R}$$from 1. 
-> 3. As $R_{P}$ is an integral domain for all $P$, 
+> 3. Let $\frac{a}{s}\in \text{Quot}R$ be integrally over $R$. Then, $$\left( \frac{a}{s} \right) ^n+c_{n-1}\left( \frac{a}{s} \right) ^{n-1}+\dots+c_{0}=0$$for some $c_{0},\dots,c_{n-1}\in R$. We want to show that $x\in R$. 
+> 4. 
+---
+> [!lemma] Lemma 5
+> Let $R':R$ be an integral extension of integral domains and assume $R$ is normal.
+> 1. for any $a\in R'$ its [[minimal polynomial]] $f$ over $K:=\text{Quot }R$ has coefficients in $R$.
+> 2. if $a\in PR'$ for some prime $P\unlhd R$, then all non-leading coefficients of $f$ are contained in $P$.
+
+> [!proof]-
+> We have:
+> 1. As $a$ is integral over $R$, there is a monic polynomial $g\in R[x]$ with $g(a)=0$. Then, $g\in K[x]$ with $g(a)=0$. Hence, by [[Algebraic and Transcendental Element|Proposition 2]], $f|g$ in $K[x]$, i.e. $g=fh$ in $K[x]$. Hence, by Lemma 4.4, $fh=g\in \overline{R}[x]=R[x]$. Therefore, $f\in R[x]$. 
+> 2. Let $a=p_{1}a_{1}+\dots+p_{k}a_{k}$ for some $p_{1},..,p_{k}\in P$ and $a_{1},\dots,a_{k}\in R'$. By replacing $R'$ by $R[a_{1},\dots,a_{k}]$ we may assume that $R'$ is finite over $R$. Hence, we can apply [[Module|Cayley Hamilton]] and define $\varphi:R'\to R',x\mapsto ax$. We get: $$\varphi^n+c_{n-1}\varphi^{n-1}+\dots+c_{0}=0$$with $c_{n-1},\dots,c_{0}\in P$. By plugging $x=1$, we get that $g(a):=a^n+c_{n-1}a^{n-1}+\dots+c_{0}=0$. 
 >    
->    Let $\frac{a}{s}\in \text{Quot}R$ be integrally closed. 
+>    As $g(a)=0$, $f|g$ in $K[x]$ again and $g=fh$ in $R[x]$ (by 1). Modulo $P$, we get that $\overline{x}^n=\overline{f}\cdot \overline{h}$ in $(R / P)[x]$. However, $R / P$ is an integral domain and this is only possible if $\overline{f}$ and $\overline{h}$ are powers of $\overline{x}$ themselves. Hence, the non-leading coefficients of $f$ lie in $P$.
+
 ---
 ##### Examples
 > [!h] Example 1 (UFD)
