@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Primary Ideal.md",
+                "file": "Algebra/Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Primary Ideal"
+              "title": "Module"
             }
           },
           {
@@ -313,13 +313,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "307cbdf7a3043d90",
+  "active": "f34af4f280c8db9c",
   "lastOpenFiles": [
-    "Algebra/Unique Factorization Domain.md",
+    "Algebra/Module.md",
+    "Algebra/Field Extension.md",
     "Algebra/Ring Extension.md",
+    "Algebra/Primary Ideal.md",
+    "Algebra/Unique Factorization Domain.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Algebra.md",
-    "Algebra/Primary Ideal.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Localization.md",
     "Algebra/Annihilator.md",
@@ -335,12 +337,10 @@
     "Algebra/Maximal Ideal.md",
     "Algebra/Variety.md",
     "Algebra/Local Ring.md",
-    "Algebra/Module.md",
     "Algebra/Principal Ideal Domain.md",
     "Functional Analysis/Jacobson Radical.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Noetherian Module.md",
-    "Algebra/Composition Series.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
