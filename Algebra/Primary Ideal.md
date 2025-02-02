@@ -91,7 +91,9 @@
 > We have:
 > 1. As $R$ is Noetherian, by Proposition 4, $I$ admits a minimal primary decomposition $I=Q_{1}\cap\dots \cap Q_{n}$. Hence, by Theorem 6, $\text{Ass}(I)=\{ P_{1},\dots,P_{n} \}$ where $P_{i}:=\sqrt{ Q_{i} }$. 
 >    
->    Now, let $P\unlhd R$ prime s.t. $P=I{:}a$ for some $a\in R$. Then, 
+>    Now, let $P\unlhd R$ prime s.t. $P=I{:}a$ for some $a\in R$. Then, as all prime ideals are radical, $P=\sqrt{ I:a }$. This shows that $P\in \text{Ass}(I)$. 
+>    
+>    Let $i\in [n]$. We will show that $P_{i}=I{:a}$ for some $a\in R$. Let $K_{i}:=\bigcap_{j\neq i}^{}Q_{j} \backslash Q_{i}$. Then, as $R$ is Noetherian, there exists a maximal element in $\{ I{:}a \}_{a\in K_{i}}$. Let $b\in K_{i}$ for which we get a maximal element. Then, $$I{:}b=Q_{1}{:}b\cap\dots \cap Q_{n}{:}b=$$
 >    
  
 ---
