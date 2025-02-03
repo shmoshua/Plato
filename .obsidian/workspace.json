@@ -155,12 +155,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Algebra/Noetherian and Artinian Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "Noetherian and Artinian Module"
             }
           },
           {
@@ -169,12 +169,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic and Transcendental Element.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic and Transcendental Element"
+              "title": "Algebra"
             }
           }
         ],
@@ -324,15 +324,15 @@
   },
   "active": "37993910d58a29bb",
   "lastOpenFiles": [
-    "Algebra/Ring Extension.md",
-    "Algebra/Krull Dimension.md",
-    "Algebra/Primary Ideal.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Algebra.md",
+    "Algebra/Primary Ideal.md",
+    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Krull Dimension.md",
     "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Ring Extension.md",
     "Algebra/Variety.md",
     "Algebra/Localization.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Ideal (Ring).md",
     "Functional Analysis/Spectrum.md",

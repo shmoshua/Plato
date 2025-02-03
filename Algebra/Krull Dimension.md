@@ -57,6 +57,15 @@
 > 2. all maximal chains of prime ideals in $K[x_{1},\dots,x_{n}]$ have length $n$.
 
 > [!proof]+
+> We prove both by induction on $n$. 
+> 1. If $n=0$, then $\text{dim}K=0$ and all maximal chains have length $n$.
+> 2. if $n\geq 1$ and let $P_{0}\subsetneq\dots \subsetneq P_{m}$ be a chain of prime ideals in $K[x_{1},\dots,x_{n}]$. We have to show that $m\leq n$ and that equality holds for a maximal chain. 
+>    
+>    By possibly extending the chain, we may assume that $P_{0}=0$, $P_{1}$ is a minimal non-zero prime ideal and $P_{m}$ is a maximal ideal. Then, $P_{1}=(f)$ for some non-zero $f$ by [[Noetherian and Artinian Module|Noetherian Rings Proposition 3.2]], as $K[x_{1},\dots,x_{n}]$ is a UFD.
+>    
+>    By changing the coordinates similarly to the [[Algebra|proof of Noether normalization]], we may assume wlog that $f$ is monic in $x_{n}$. Hence, $K[x_{1},\dots,x_{n}] / (f)$ is integral over $K[x_{1},\dots,x_{n-1}]$ by [[Ring Extension|Proposition 1]]. 
+>    
+>    Now, we can take $P_{i}$ and extend it to $P_{i} / P_{1}\unlhd K[x_{1},\dots,x_{n}] / P_{1}$ and contract it to $(P_{i} / P_{1})\cap K[x_{1},\dots,x_{n-1}]$ in $K[x_{1},\dots,x_{n-1}]$. Then, both these steps preserve prime ideals and their strict inclusions. Hence, it transfers maximal chains to maximal chains. 
 ---
 ##### Examples 
 > [!h] Example 1
