@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring Extension.md",
+                "file": "Algebra/Variety.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ring Extension"
+              "title": "Variety"
             }
           },
           {
@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Algebra/Noetherian and Artinian Module.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "Noetherian and Artinian Module"
             }
           }
         ]
@@ -145,12 +145,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring Extension.md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ring Extension"
+              "title": "Variety"
             }
           },
           {
@@ -326,20 +326,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "37993910d58a29bb",
+  "active": "402e47533faa15a4",
   "lastOpenFiles": [
     "Algebra/Variety.md",
-    "Algebra/Krull Dimension.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Localization.md",
     "Algebra/Ring Extension.md",
-    "Algebra/Algebra.md",
+    "Algebra/Krull Dimension.md",
     "Algebra/Noetherian and Artinian Module.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Algebra.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Primary Ideal.md",
     "Algebra/Ideal (Ring).md",
     "Functional Analysis/Spectrum.md",
-    "Algebra/Localization.md",
     "Algebra/Minimal Polynomial.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Normal Extension.md",

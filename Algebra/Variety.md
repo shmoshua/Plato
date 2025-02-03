@@ -16,6 +16,9 @@
 - **Remark**: If $S:=\{ f_{1},\dots,f_{k} \}$ is finite, let $V(f_{1},\dots,f_{k}):=V(S)$.
 - **Remark**: $f,g\in K[x_{1},\dots,x_{n}]$ are equal if and only if they equal on $X$. So $[f]\in A(X)$ is equivalent to a function $X\to K,x\mapsto f(x)$.  ^ca999a
 - **Related definition**: A variety $X$ is ***irreducible*** if there is no proper decomposition into subvarieties $X=X_{1}\cup X_{2}$ s.t. $X_{1},X_{2}\subsetneq X$. Otherwise, $X$ is ***reducible***.
+- **Related definition**: The ***dimension*** $\text{dim}X$ of a variety $X$ is given by the [[Krull dimension]] of the coordinate ring $A(X)$. 
+	1. A ***curve*** is a 1-dimensional variety.
+	2. The ***codimension*** of a irreducible subvariety $Y$ in $X$ is given by $\text{codim}_{X}Y:=\text{codim}_{A(X)}I(Y)$.
 
 ---
 ##### Properties
@@ -173,6 +176,12 @@
 > 2. $\supseteq$: Let $f\in \sqrt{ I }$, i.e. $f^n\in I$ for some $n\in \mathbb{N}$. Then, $(f(a))^n = 0$ and hence $f(a)^n=0$ for all $a\in V(I)$. Hence, $f\in I(V(I))$. 
 >    
 > The second statement follows from Proposition 4, Lemma 2.4, and 1. 
+---
+##### Dimensions
+> [!lemma] Proposition 1
+> For a variety $X$ and an irreducible subvariety $Y$,
+> 1. $\text{dim}X\geq \text{dim} Y+\text{codim}_{X}Y$
+
 ---
 ##### Examples 
 > [!h] Example 1

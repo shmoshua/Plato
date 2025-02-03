@@ -189,6 +189,7 @@
 > Let $R$ be a ring. TFAE:
 > 1. $R$ is Artinian.
 > 2. $R$ is Noetherian and every prime ideal is maximal.
+> 3. $R$ is Noetherian and $\text{dim}R=0$.
 
 ^930aa1
 
@@ -204,6 +205,7 @@
 >     Consider the family of all ideals $I\unlhd R$ s.t. $R / I$ is not Artinian. Then it is non-empty as it contains the zero ideal. As $R$ is Noetherian, by Proposition 1.1, it has a maximal element $P$. However, $P$ is not maximal in $R$, as if it is then $R/P$ is a field, hence Artinian. 
 >     
 >     We are left to show that $P$ is prime, i.e. $S:=R / P$ is an integral domain. For any $a\in R$, consider the exact sequence: $$0 \to S / \text{Ann}(\overline{a})\xrightarrow{\cdot \overline{a}} S \to S / (\overline{a}) \to 0$$As $S$ is not Artinian, either $S / \text{Ann}(\overline{a})$ or $S / (\overline{a})$ is not Artinian. However, as $P$ is chosen to be maximal over all such rings, taking a further quotient of $S$ by a non-zero ideal must give an Artinian ring. This shows that either $\text{Ann}(\overline{a})=0$ or $\overline{a}=0$. Hence, every non-zero element of $R / P$ is a non-zero divisor. This shows that $R / P$ is an integral domain.
+>  3. (2<=>3) is given by [[Krull Dimension|Example 1]].
 
 ^1ee703
 
