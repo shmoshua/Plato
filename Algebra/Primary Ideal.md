@@ -121,6 +121,19 @@
 - **Corollary**: Isolated prime ideals of an ideal $I\unlhd A(X)$ correspond exactly to maximal subvarieties. 
  
 ---
+> [!lemma] Lemma 2 (Symbolic Powers)
+> Let $R$ be a ring. For a prime $P\unlhd R$, consider the ideal: $$P^{(n)}:=\{ a\in R:ab\in P^n\text{ for some }b\in R \backslash P \}$$called the ***$n$-th symbolic power*** of $P$. Then, 
+> 1. $P^n\subseteq P^{(n)}\subseteq P$.
+> 2. $P^{(n)}$ is $P$-primary.
+> 3. $P^{(n)}R_{P}=P^nR_{P}$
+
+> [!proof]+
+> We have that:
+> 1. The first inclusion is obvious by taking $b=1$. For the second, let $a\in P^{(n)}$. Then, $ab\in P^n\subseteq P$ for some $b\in R \backslash P$. Hence, $a\in P$.
+> 2. Taking radicals we get that $P=\sqrt{ P }=\sqrt{ P^n }\subseteq \sqrt{ P^{(n)} }\subseteq \sqrt{ P }=P$. Hence, $\sqrt{ P^{(n)} }=P$. To see that it is primary, let $ab\in P^{(n)}$, i.e. $abc\in P^{n}$ for some $c\in R \backslash P$. If $b\notin  \sqrt{ P^{(n)} }=P$, then we also have $bc\notin P$ and therefore, $a\in P^{(n)}$. 
+> 3. For $\subseteq$, let $\frac{b}{s}\in P^{(n)}R_{P}$ i.e. $bc\in P^n$ for some $s,c\in R \backslash P$. Then, $$\frac{b}{s}=\frac{bc}{sc}\in P^n R_{P}$$The other inclusion is obvious as $P^n\subseteq P^{(n)}$.
+
+---
 ##### Examples
 > [!h] Example 1
 > Let $R$ be a UFD and $Q\unlhd R$ be a principal ideal. 

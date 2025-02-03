@@ -72,7 +72,7 @@
 >   
 > 	  Therefore, by induction hypothesis $m-1\leq n-1$ and if it is a maximal chain, we have that $m-1=n-1$. We have our statement.
 - **Remark**: For [[algebra|Noether normalization]] $R:K[z_{1},\dots,z_{r}]$, $r=\text{dim}K[z_{1},\dots,z_{r}]=\text{dim} R$ by Proposition 4,5. Hence, $r$ is uniquely determined. Further, a finitely generated algebra over a field always has finite dimension. 
-- 
+- **Corollary**: A finitely generated $K$-algebra $R$ for a field $K$ also has all of its maximal chain of prime ideals as same length, if $R$ is a integral domain. This follows from [[Algebra|Lemma 2]], Lemma 5 and Lemma 2. 
 ---
 
 ---

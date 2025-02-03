@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Algebra/Primary Ideal.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "Primary Ideal"
             }
           },
           {
@@ -101,7 +101,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -141,12 +142,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring Extension.md",
+                "file": "Algebra/Primary Ideal.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ring Extension"
+              "title": "Primary Ideal"
             }
           },
           {
@@ -178,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -322,15 +323,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "37993910d58a29bb",
+  "active": "4a2358584f68bc70",
   "lastOpenFiles": [
     "Algebra/Ring Extension.md",
-    "Algebra/Krull Dimension.md",
-    "Algebra/Algebra.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Primary Ideal.md",
-    "Algebra/Algebraic and Transcendental Element.md",
+    "Algebra/Algebra.md",
+    "Algebra/Krull Dimension.md",
     "Algebra/Noetherian and Artinian Module.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Variety.md",
     "Algebra/Localization.md",
     "Algebra/Prime Ideal.md",
