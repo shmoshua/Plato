@@ -56,7 +56,7 @@
 > 1. $\text{dim}K[x_{1},\dots,x_{n}]=n$.
 > 2. all maximal chains of prime ideals in $K[x_{1},\dots,x_{n}]$ have length $n$.
 
-> [!proof]+
+> [!proof]-
 > We prove both by induction on $n$. 
 > 1. If $n=0$, then $\text{dim}K=0$ and all maximal chains have length $n$.
 > 2. if $n\geq 1$ and let $P_{0}\subsetneq\dots \subsetneq P_{m}$ be a chain of prime ideals in $K[x_{1},\dots,x_{n}]$. We have to show that $m\leq n$ and that equality holds for a maximal chain. 
@@ -65,7 +65,16 @@
 >    
 >    By changing the coordinates similarly to the [[Algebra|proof of Noether normalization]], we may assume wlog that $f$ is monic in $x_{n}$. Hence, $K[x_{1},\dots,x_{n}] / (f)$ is integral over $K[x_{1},\dots,x_{n-1}]$ by [[Ring Extension|Proposition 1]]. 
 >    
->    Now, we can take $P_{i}$ and extend it to $P_{i} / P_{1}\unlhd K[x_{1},\dots,x_{n}] / P_{1}$ and contract it to $(P_{i} / P_{1})\cap K[x_{1},\dots,x_{n-1}]$ in $K[x_{1},\dots,x_{n-1}]$. Then, both these steps preserve prime ideals and their strict inclusions. Hence, it transfers maximal chains to maximal chains. 
+>    Now, we can take $P_{i}$ and extend it to $P_{i} / P_{1}\unlhd K[x_{1},\dots,x_{n}] / P_{1}$ and contract it to $(P_{i} / P_{1})\cap K[x_{1},\dots,x_{n-1}]$ in $K[x_{1},\dots,x_{n-1}]$. Then, both these steps preserve prime ideals and their strict inclusions. Hence, it transfers maximal chains to maximal chains: Indeed, 
+> 	  1. the extension along the quotient map follows from one-to-one correspondence between prime ideals in rings and their quotients. 
+> 	  2. the contraction also maps prime ideals to prime ideals. The strict inclusion comes from the incomparability.
+> 	  3. As the chain after contraction goes from $0$ to a maximal prime. If this is not maximal, we can also extend the middle chains. 
+>   
+> 	  Therefore, by induction hypothesis $m-1\leq n-1$ and if it is a maximal chain, we have that $m-1=n-1$. We have our statement.
+- **Remark**: For [[algebra|Noether normalization]] $R:K[z_{1},\dots,z_{r}]$, $r=\text{dim}K[z_{1},\dots,z_{r}]=\text{dim} R$ by Proposition 4,5. Hence, $r$ is uniquely determined. Further, a finitely generated algebra over a field always has finite dimension. 
+- 
+---
+
 ---
 ##### Examples 
 > [!h] Example 1
