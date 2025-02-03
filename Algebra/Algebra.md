@@ -135,6 +135,13 @@
 > Let $R$ be a finitely generated $K$-algebra for a field $K$ with generators $x_{1},\dots,x_{n}\in R$.
 > 1. there exists an injective $K$-algebra homomorphism $K[z_{1},\dots,z_{r}]\to R$ s.t. $R:K[z_{1},\dots,z_{r}]$ is a finite [[ring extension]]. 
 > 2. moreover, if $K$ is an infinite field, the images of $z_{1},\dots,z_{r}$ in $R$ can be chosen to be $K$-linear combinations of $x_{1},\dots,x_{n}$.
+
+> [!proof]+
+> We prove this using induction over $n$. 
+> 1. If $n=0$, then $R=K$ and we have the statement for $r=0$.
+> 2. If $n\geq 1$, we have the two following cases:
+> 	1. if there exists a non-zero $f\in K[x_{1},\dots,x_{n}]$ s.t. $f(x_{1},\dots,x_{n})=0$ in $R$. Then, we choose $r=n$ and $K[z_{1},\dots,z_{n}]\to R$ given by $z_{i}\mapsto x_{i}$ which is even an isomorphism.
+> 	2. if 
 ---
 ##### Examples
 > [!h] Example 1 (Examples of R-algebra)
