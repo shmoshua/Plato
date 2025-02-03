@@ -160,12 +160,24 @@
 > Let $R$ be a Noetherian ring and $P_{0}\subsetneq \dots \subsetneq P_{n}$ be a chain of prime ideals with $a\in P_{n}$.
 > 1. there exists a chain of prime ideals $P'_{0}\subsetneq \dots \subsetneq P'_{n-1}\subsetneq P_{n}$ s.t. $a\in P'_{1}$.
 
-> [!proof]+
+> [!proof]-
 > We can show this by induction over $n$.
 > 1. If $n=1$, then the statement is trivially true. 
 > 2. if $n\geq 2$, we have that $(a)\subseteq P_{n}$. However, as $\text{codim}P_{n}\geq n$, $P_{n}$ cannot be minimal over $(a)$. Let $(a)\subseteq P'_{n-1}\subsetneq P_{n}$ and by localizing with $P'_{n-1}$, $$(P_{0})_{P'_{n-1}}\subsetneq \dots \subsetneq (P_{n-1})_{P'_{n-1}}$$
 >    
 >    we have a chain $P'_{0}\subsetneq \dots \subsetneq P'_{n-1}$ with $a\in  P'_{n-1}$. 
+---
+> [!lemma] Theorem 5 (Krull's Principal Ideal Theorem, general)
+> Let $R$ be a Noetherian ring and $a_{1},\dots,a_{n}\in R$. 
+> 1. for every minimal prime ideal $P$ over $(a_{1},\dots,a_{n})$, $\text{codim}P\leq n$.
+
+> [!proof]-
+> By induction on $n$. 
+> 1. if $n=1$, shown by Theorem 3.
+> 2. if $n\geq 2$, let $P_{0}\subsetneq\dots \subsetneq P_{s}$ be a chain of prime ideals in $P$. By Corollary we may wlog assume that $a\in P_{1}$. But then, $$P_{1} / (a_{n})\subsetneq \dots \subsetneq P_{s} / (a_{n})$$is a chain of prime ideals of length $s-1$ in $P / (a_{n})$. As $P / (a_{n})$ is minimal over $(\overline{a_{1}},\dots,\overline{a_{n-1}})$, by induction we have that $s-1\leq \text{codim}P / (a_{n})\leq n-1$ and $s\leq n$.
+>    
+>    However, as the chain was arbitrary $\text{codim}P\leq n$.
+
 ---
 ##### Examples
 > [!h] Example 1
