@@ -150,10 +150,30 @@
 > Let $K$ be an [[Algebraic Closure|algebraically closed field]].
 > 1. All [[Maximal Ideal|maximal ideals]] of $K[x_{1},\dots,x_{n}]$ are of the form: $$I(a)=(x_{1}-a_{1},\dots,x_{n}-a_{n})$$for $a=(a_{1},..,a_{n})\in \mathbb{A}^n_{K}$.
 
-> [!proof]+
-> Let $P\unlhd K[x_{1},..,x_{n}]$ be a maximal ideal. Then, $K[x_{1},\dots,x_{n}] / P$ is a field and a finitely generated $K$-algebra. Hence, by [[Algebra|Hilbert's Nullstellensatz]], $K[x_{1},\dots,x_{n}] $
+> [!proof]-
+> Let $P\unlhd K[x_{1},..,x_{n}]$ be a maximal ideal. Then, $K[x_{1},\dots,x_{n}] / P$ is a field and a finitely generated $K$-algebra. Hence, by [[Algebra|Hilbert's Nullstellensatz]], $K[x_{1},\dots,x_{n}] / P \cong K$ and: $$\pi: K\to K[x_{1},\dots,x_{n}] / P,\quad c\mapsto \overline{c}$$is an isomorphism. Choosing inverse images $a_{i}:=\pi ^{-1}(\overline{x_{i}})$, we get $\overline{x}_{i}=\overline{a}_{i}$ for all $i$ and hence, $$\overline{x}_{i}-\overline{a_{i}}=0$$Therefore, $(x_{1}-a_{1},\dots,x_{n}-a_{n})\subseteq P$. However, as the LHS is a maximal ideal, we have the equality.
 ---
+> [!lemma] Theorem 2 (Hilbert's Nullstellensatz)
+> Let $K$ be a field and $R$ a finitely generated $K$-algebra. 
+> 1. for any $I\unlhd R$, $\sqrt{ I }=\bigcap_{P\in \text{Max}(R), P\supseteq I}^{}P$
 
+> [!proof]-
+> The inclusion $\subseteq$ follows from [[Radical (Ring)|lemma 2]]. For the converse, let $f\in R$ with $f\notin \sqrt{ I }$. We have to find a maximal ideal $P\unlhd R$ with $P\supseteq I$ and $f\notin P$. Consider the multiplicatively closed set $S:=\{ f^n:n\in \mathbb{N} \}$ As $f\notin \sqrt{ I }$, we have that $I\cap S=\varnothing$.  Hence, $I$ is contained in the prime ideal $P$ of $R$ s.t. $P\cap S=\varnothing$ and $P_{f}:=S^{-1}P$ is maximal in $R_{f}:=S^{-1}R$. In particular, $f\notin P$. It only remains to show that $P$ is maximal.
+> 
+> Consider the ring extension $R_{f} / P_{f} :R / P:K$ where $R_{f} / P_{f}:R / P$ holds as $R / P$ is an integral domain. Furthermore, $R_{f} / P_{f}$ is a field as $P_{f}$ is maximal, and finitely generated as a $K$-algebra. So $R_{f} / P_{f}:K$ is a finite field extension by [[Algebra|Hilbert's Nullstellensatz]] and integral. However, this shows that $R_{f} / P_{f}:R / P$ is integral as well, which shows that $R / P$ is a field as well from [[Ring Extension|Incomparability]]. Hence, $P$ is maximal.
+---
+> [!lemma] Theorem 3 (Hilbert's Nullstellensatz)
+> Let $X\subseteq \mathbb{A}^n_{K}$ be a variety over an algebraically closed field $K$. 
+> 1. for every ideal $I\unlhd A(X)$, we have $I(V(I))=\sqrt{ I }$.
+> 2. In particular, there is a one-to-one correspondence: $$\begin{array}{rcl}\{ \text{subvarieties of }X \}&\leftrightarrow &\{ \text{radical ideals of }A(X) \}\\Y&\mapsto &I(Y)\\V(I)&\gets&I\end{array}$$
+
+> [!proof]-
+> We have that:
+> 1. $\subseteq$: Assume $f\notin \sqrt{ I }$. Then, by Theorem 2, there exists a maximal ideal $P\unlhd A(X)$ with $P \supseteq I$ and $f\notin P$. However, by Theorem 1, this has to be of the form: $$I(a)=(x_{1}-a_{1},\dots,x_{n}-a_{n})$$for some $a\in X$. Now, $I(a)\supseteq I$ implies that $a\in V(I)$ and as $f\notin I(a)$, $f(a)\neq 0$. Hence, $f\notin I(V(I))$. 
+> 2. $\supseteq$: Let $f\in \sqrt{ I }$, i.e. $f^n\in I$ for some $n\in \mathbb{N}$. Then, $(f(a))^n = 0$ and hence $f(a)^n=0$ for all $a\in V(I)$. Hence, $f\in I(V(I))$. 
+>    
+> The second statement follows from Proposition 4, Lemma 2.4, and 1. 
+---
 ##### Examples 
 > [!h] Example 1
 > We have:
