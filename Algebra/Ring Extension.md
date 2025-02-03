@@ -78,6 +78,7 @@
 >    
 >    As $g(a)=0$, $f|g$ in $K[x]$ again and $g=fh$ in $R[x]$ (by 1). Modulo $P$, we get that $\overline{x}^n=\overline{f}\cdot \overline{h}$ in $(R / P)[x]$. However, $R / P$ is an integral domain and this is only possible if $\overline{f}$ and $\overline{h}$ are powers of $\overline{x}$ themselves. Hence, the non-leading coefficients of $f$ lie in $P$.
 
+
 ---
 ##### Algebraic Geometry
 > [!lemma] Proposition 1 (Lying Over)
@@ -135,6 +136,12 @@
 > Let $R':R$ be a ring extension. 
 > 1. $R':R$ has the going up property if and only if for all prime $P'\unlhd R'$ and $P:= P'\cap R$, the natural map $\text{Spec}(R' / P')\to \text{Spec}(R / P)$ is surjective.
 > 2. $R':R$ has the going down property if and only if for all prime $P'\unlhd R'$ and $P:= P'\cap R$, the natural map $\text{Spec}(R'_{P'})\to \text{Spec}(R_{P})$ is surjective.
+
+---
+> [!lemma] Proposition 6
+> Let $R':R$ be an integral ring extension and assume $R$ is finitely generated algebra over some field $K$. Let $P_{1}\subsetneq P_{3}$ be prime ideals in $R$ and $P'_{1}\subsetneq P'_{3}$ prime in $R'$ s.t. $P_{1}'\cap R=P_{1}$ and $P_{3}'\cap R=P_{3}$. 
+> 1. if there is a prime ideal $P_{2}\unlhd R$ with $P_{1}\subsetneq P_{2}\subsetneq P_{3}$, then there exists $P_{2}'\unlhd R'$ s.t. $P_{1}'\subsetneq P_{2}'\subsetneq P'_{3}$.
+
 ---
 ##### Examples
 > [!h] Example 1 (UFD)

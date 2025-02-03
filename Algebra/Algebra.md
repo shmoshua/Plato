@@ -136,12 +136,24 @@
 > 1. there exists an injective $K$-algebra homomorphism $K[z_{1},\dots,z_{r}]\to R$ s.t. $R:K[z_{1},\dots,z_{r}]$ is a finite [[ring extension]]. 
 > 2. moreover, if $K$ is an infinite field, the images of $z_{1},\dots,z_{r}$ in $R$ can be chosen to be $K$-linear combinations of $x_{1},\dots,x_{n}$.
 
-> [!proof]+
+> [!proof]-
 > We prove this using induction over $n$. 
 > 1. If $n=0$, then $R=K$ and we have the statement for $r=0$.
 > 2. If $n\geq 1$, we have the two following cases:
-> 	1. if there exists a non-zero $f\in K[x_{1},\dots,x_{n}]$ s.t. $f(x_{1},\dots,x_{n})=0$ in $R$. Then, we choose $r=n$ and $K[z_{1},\dots,z_{n}]\to R$ given by $z_{i}\mapsto x_{i}$ which is even an isomorphism.
-> 	2. if 
+> 	1. if there exists no non-zero $f\in K[x_{1},\dots,x_{n}]$ s.t. $f(x_{1},\dots,x_{n})=0$ in $R$. Then, we choose $r=n$ and $K[z_{1},\dots,z_{n}]\to R$ given by $z_{i}\mapsto x_{i}$ which is even an isomorphism.
+> 	2. if there exists non-zero $f\in K[x_{1},\dots,x_{n}]$ with $f(x_{1},\dots,x_{n})=0$ in $R$. By Lemma 1.3, we have $\lambda\in K$ and $a_{1},..,a_{n-1}\in \mathbb{N}$ s.t: $$\lambda f(y_{1}+y_{n}^{a_{1}},\dots, y_{n-1}+y_{n}^{a_{n-1}},y_{n})$$is monic in $y_{n}$. Now, let $y_{i}:=x_{i}-x_{n}^{a_{i}}$ for $i\leq n-1$ and $y_{n}:=x_{n}$. Hence,  $$\lambda f(x_{1},\dots,x_{n-1},x_{n})$$is monic in $y_{n}$ and equal to $0$. Therefore, $R=K[y_{1},\dots,y_{n}]$ is finite over $K[y_{1},\dots,y_{n-1}]$ by [[Ring Extension|Proposition 1]]. Further, by induction hypothesis $K[y_{1},\dots,y_{n-1}]$ is finite over a polynomial ring $K[z_{1},\dots,z_{r}]$. Hence, $R$ is also finite over polynomial ring $K[z_{1},\dots,z_{r}]$.
+> 	   
+>  If $K$ is infinite, we can use Lemma 1.2 instead of 1.3 and get that $y_{1},\dots,y_{n}$ is a linear combination of $x_{1},..,x_{n}$.
+---
+> [!lemma] Corollary 3 (Hilbert's Nullstellensatz)
+> Let $K$ be a field and $R$ a finitely generated $K$-algebra which is also a field. 
+> 1. $R:K$ is a finite [[field extension]].
+> 2. If $K$ is algebraically closed, then $K=R$. 
+
+> [!proof]-
+> We have:
+> 1. By Noether Normalization, $R$ is finite over a polynomial ring $K[z_{1},\dots,z_{r}]$ and also integral. But $R$ is a field and by [[Ring Extension|incomparability]] $K[z_{1},\dots,z_{r}]$ is also a field. This is only the case for $r=0$. So $R$ is finite over $K$.
+> 2. If $K$ is additionally algebraically closed, then there are no algebraic extension fields of $K$ since all zeros of polynomials over $K$ lie in $K$ already. Hence, there exists no finite extensions in this case and $K=R$.
 ---
 ##### Examples
 > [!h] Example 1 (Examples of R-algebra)

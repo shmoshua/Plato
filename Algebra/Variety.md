@@ -145,6 +145,14 @@
 ^5054fd
 
 ---
+##### Hilbert's Nullstellensatz
+> [!lemma] Theorem 1 (Hilbert's Nullstellensatz)
+> Let $K$ be an [[Algebraic Closure|algebraically closed field]].
+> 1. All [[Maximal Ideal|maximal ideals]] of $K[x_{1},\dots,x_{n}]$ are of the form: $$I(a)=(x_{1}-a_{1},\dots,x_{n}-a_{n})$$for $a=(a_{1},..,a_{n})\in \mathbb{A}^n_{K}$.
+
+> [!proof]+
+> Let $P\unlhd K[x_{1},..,x_{n}]$ be a maximal ideal. Then, $K[x_{1},\dots,x_{n}] / P$ is a field and a finitely generated $K$-algebra. Hence, by [[Algebra|Hilbert's Nullstellensatz]], $K[x_{1},\dots,x_{n}] $
+---
 
 ##### Examples 
 > [!h] Example 1
