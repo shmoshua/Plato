@@ -121,6 +121,7 @@
 > Let $f\in K[x_{1},\dots,x_{n}]$ be a non-zero polynomial over an infinite field $K$.
 > 1. if $f$ is homogeneous, then there are $a_{1},\dots,a_{n-1}$ s.t. $f(a_{1},\dots,a_{n-1},1)\neq 0$.
 > 2. there exist $\lambda\in K$ and $a_{1},\dots,a_{n-1}\in K$ s.t. $$\lambda f(y_{1}+a_{1}y_{n},y_{2}+a_{2}y_{n},\dots, y_{n-1}+a_{n-1}y_{n},y_{n})\in K[y_{1},\dots,y_{n}]$$is monic in $y_{n}$, i.e. as an element in $R[y_{n}]$ for $R:=K[y_{1},\dots,y_{n-1}]$.
+> 3. If $K$ is not necessarily infinite, there exists $\lambda\in K$ and $a_{1},\dots,a_{n-1}\in \mathbb{N}$ s.t. $$\lambda f(y_{1}+y_{n}^{a_{1}},\dots,y_{n-1}+y_{n}^{a_{n-1}},y_{n})\in K[y_{1},\dots,y_{n}]$$is monic in $y_{n}$.
 
 > [!proof]-
 > We have:
@@ -128,9 +129,12 @@
 > 	1. If $n=1$, then $f(x)=bx^m$ for some $a\in K$ and $m\in  \mathbb{N}_{> 0}$. Hence, $f(1)\neq 0$. 
 > 	2. If $n\geq 2$, write $f=\sum_{i=0}^{d}f_{i}x^i_{1}$ where $f_{i}\in K[x_{2},\dots,x_{n}]$ are homogeneous of degree $d-i$. As $f$ is non-zero we have that at least one of $f_{i}$ is non-zero. By induction, we can choose $a_{2},\dots,a_{n-1}$ s.t. $f_{i}(a_{2},\dots,a_{n-1},1)\neq 0$. Then, $f(\cdot,a_{2},\dots,a_{n-1},1)$ is also a non-zero polynomial. So we can find $a_{1}\in K$ s.t. $f(a_{1},a_{2},\dots,a_{n-1},1)\neq 0$.
 > 2. Let $f$ have degree $d$ and we can write: $$f(x_{1},\dots,x_{n})=\sum_{k_{1},\dots,k_{n}}^{}c_{k_{1}\dots k_{n}}x_{1}^{k_{1}}\dots x_{n}^{k_{n}}$$ with $c_{k_{1},\dots,k_{n}}\in K$. Then, the leading term of: $$\lambda f(y_{1}+a_{1}y_{n},y_{2}+a_{2}y_{n},\dots, y_{n-1}+a_{n-1}y_{n},y_{n})=\lambda\sum_{k_{1},\dots,k_{n}}^{}c_{k_{1}\dots k_{n}}(y_{1}+a_{1}y_{n})^{k_{1}}\dots y_{n}^{k_{n}}$$in $y_{n}$ is obtained by only keeping the $d$-terms. Hence, it is given as: $$\lambda \sum_{\begin{array} \ k_{1},\dots,k_{n}\\k_{1}+\dots+k_{n}\end{array}}^{}c_{k_{1}\dots k_{n}}a_{1}^{k_{1}}\dots a_{n-1}^{k_{n-1}}y_{n}^{d}=\lambda f_{d}(a_{1},\dots,a_{n-1},1)y_{n}^{d}$$where $f_{d}$ is the homogeneous degree-$d$ part of $f$. Now, by 1, we can choose $a_{1},\dots,a_{n-1}$ s.t. $f_{d}(a_{1},\dots,a_{n-1})\neq 0$ and we can set $\lambda:=f_{d}(a_{1},\dots,a_{n-1},1)^{-1}$.
-> 
+> 3. Let: $$f(x_{1},\dots,x_{n})=\sum_{k_{1},\dots,k_{n}}^{}c_{k_{1}\dots k_{n}}x_{1}^{k_{1}}\dots x_{n}^{k_{n}}$$Then, $$\lambda f(y_{1}+y_{n}^{a_{1}},\dots,y_{n-1}+y_{n}^{a_{n-1}},y_{n})=\lambda \sum_{k_{1},\dots,k_{n}}^{}c_{k_{1}\dots k_{n}}(y_{1}+y_{n}^{a_{1}})^{k_{1}}\dots(y_{n-1}+y_{n}^{a_{n-1}})^{k_{n-1}}y_{n}^{k_{n}}$$and with the first term: $$\lambda c_{k_{1}\dots k_{n}}y_{n}^{a_{1}k_{1}+\dots+a_{n-1}k_{n-1}+k_{n}}$$given that $a_{i}\geq 1$. Hence, by setting $\lambda:=c_{k_{1}\dots k_{n}}^{-1}$, we have the statement.
 ---
-
+> [!lemma] Theorem 2 (Noether Normalization)
+> Let $R$ be a finitely generated $K$-algebra for a field $K$ with generators $x_{1},\dots,x_{n}\in R$.
+> 1. there exists an injective $K$-algebra homomorphism $K[z_{1},\dots,z_{r}]\to R$ s.t. $R:K[z_{1},\dots,z_{r}]$ is a finite [[ring extension]]. 
+> 2. moreover, if $K$ is an infinite field, the images of $z_{1},\dots,z_{r}$ in $R$ can be chosen to be $K$-linear combinations of $x_{1},\dots,x_{n}$.
 ---
 ##### Examples
 > [!h] Example 1 (Examples of R-algebra)
