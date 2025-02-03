@@ -170,12 +170,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Local Ring.md",
+                "file": "Algebra/Prime Ideal.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Local Ring"
+              "title": "Prime Ideal"
             }
           }
         ],
@@ -325,21 +325,21 @@
   },
   "active": "4a2358584f68bc70",
   "lastOpenFiles": [
-    "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Prime Ideal.md",
+    "Algebra/Localization.md",
     "Algebra/Primary Ideal.md",
     "Algebra/Krull Dimension.md",
     "Algebra/Local Ring.md",
+    "Algebra/Ring Homomorphism.md",
+    "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Ideal (Ring).md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Localization.md",
     "Algebra/Algebra.md",
     "Algebra/Ring Extension.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Variety.md",
-    "Algebra/Prime Ideal.md",
-    "Algebra/Ideal (Ring).md",
     "Functional Analysis/Spectrum.md",
     "Algebra/Minimal Polynomial.md",
-    "Algebra/Ring Homomorphism.md",
     "Algebra/Normal Extension.md",
     "Algebra/Module.md",
     "Algebra/Field Extension.md",

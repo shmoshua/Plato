@@ -138,16 +138,34 @@
 > Let $R$ be a Noetherian ring and $a\in R$. 
 > 1. for every minimal prime ideal $P$ over $(a)$, $\text{codim}P\leq 1$.
 
-> [!proof]+
+> [!proof]-
 > Let $Q'\subseteq Q\subsetneq P$ be a chain of prime ideals in $R$. We have to prove that $Q'=Q$. 
 > 
 > We first prove it for the case where $Q'=0$ and $R$ is [[Local Ring|local]] with $P$ as the unique maximal ideal. Consider the symbolic powers $Q^{(n)}$ of $Q$. Then, $Q^{(n+1)}\subseteq Q^{(n)}$. Further, 
-> 1. $Q^{(n)}\subseteq Q^{(n+1)}+(a)$ for some $n$: The ring $R / (a)$ is Noetherian by [[Noetherian and Artinian Module|Lemma 2]] and of dimension 0 since the unique maximal ideal $P / (a)$ is also minimal by assumption. Hence, $R / (a)$ is Artinian by [[Noetherian and Artinian Module|Hopkins]] and the descending chain: $$(Q^{(0)}+(a)) / (a)$$
+> 1. **Claim 1: $Q^{(n)}\subseteq Q^{(n+1)}+(a)$ for some $n$**: 
+>    The ring $R / (a)$ is Noetherian by [[Noetherian and Artinian Module|Lemma 2]] and of dimension 0 since the unique maximal ideal $P / (a)$ is also minimal by assumption. Hence, $R / (a)$ is Artinian by [[Noetherian and Artinian Module|Hopkins]] and the descending chain: $$(Q^{(0)}+(a)) / (a)\supseteq (Q^{(1)}+(a)) / (a)\supseteq \dots$$becomes stationary. Hence, $Q^{(n+1)} + (a) = Q^{(n)}+(a)$ for some $n$, which implies the claim. 
+> 2. **Claim 2: $Q^{(n)}=Q^{(n+1)}+PQ^{(n)}$.** 
+>    The inclusion $\supseteq$ is clear. For the converse, if $b\in Q^{(n)}$, then $b=c+ar$ for some $c\in Q^{(n+1)}$ and $r\in R$ from Claim 1. So $ar=b-c\in Q^{(n)}$. But as $P$ is minimal over $(a)$, $a\notin Q$ and as $Q^{(n)}$ is $Q$-primary, we have that: $r\in Q^{(n)}$. This means $b\in Q^{(n+1)}+PQ^{(n)}$.
+>  
+>  Now, taking the quotient by $Q^{(n+1)}$, we have $Q^{(n)} / Q^{(n+1)}=PQ^{(n)} / Q^{(n+1)}=P(Q^{(n)} / Q^{(n+1)})$. As $R$ is local and $Q^{(n)} / Q^{(n+1)}$ is a finitely generated module over $R$, by [[Local Ring|Nakayama]], $$Q^{(n)} / Q^{(n+1)}=0$$and $Q^{(n)}=Q^{(n+1)}$. Therefore, by Lemma 2, $Q^n R_{Q}=Q^{(n)}R_{Q}=Q^{(n+1)}R_{Q}=Q^{n+1}R_{Q}$. Hence, $$Q^n R_{Q}=(QR_{Q})(Q^n R_{Q})$$by [[Ring Homomorphism|Proposition 4.3]]. Now, using Nakayama again, $Q^n R_{Q}=0$. However, as $R$ is an integral domain, this is only possible if $Q=0$.
+>  
+>  Now, assume $Q'\subseteq Q\subsetneq P$ is general. Then,
 > 
-> 1. Consider $R / Q'$ and we have $0\subseteq Q / Q'\subsetneq P / Q'$.
-> 2. Consider $(R / Q')_{P}\cong R_{P} / Q'_{P}$ which is local and we have $0\subseteq Q_{P} / Q_{P}'\subsetneq P_{P} / Q'_{P}$ where the last ideal is the only maximal ideal.
+> 1. Consider $R / Q'$ and we have $0\subseteq Q / Q'\subsetneq P / Q'$ where $R / Q'$ is a Noetherian ring
+> 2. Consider $(R / Q')_{P}\cong R_{P} / Q'_{P}$ which is local Noetherian ring and we have $0\subseteq Q_{P} / Q_{P}'\subsetneq P_{P} / Q'_{P}$ where the last ideal is the only maximal ideal.
 >    
->  Hence, wlog we assume that $R$ is 
+>  Hence, by above, $Q_{P} / Q'_{P}=0$ and $Q / Q'=0$. This shows that $Q=Q'$. 
+---
+> [!lemma] Corollary 4 
+> Let $R$ be a Noetherian ring and $P_{0}\subsetneq \dots \subsetneq P_{n}$ be a chain of prime ideals with $a\in P_{n}$.
+> 1. there exists a chain of prime ideals $P'_{0}\subsetneq \dots \subsetneq P'_{n-1}\subsetneq P_{n}$ s.t. $a\in P'_{1}$.
+
+> [!proof]+
+> We can show this by induction over $n$.
+> 1. If $n=1$, then the statement is trivially true. 
+> 2. if $n\geq 2$, we have that $(a)\subseteq P_{n}$. However, as $\text{codim}P_{n}\geq n$, $P_{n}$ cannot be minimal over $(a)$. Let $(a)\subseteq P'_{n-1}\subsetneq P_{n}$ and by localizing with $P'_{n-1}$, $$(P_{0})_{P'_{n-1}}\subsetneq \dots \subsetneq (P_{n-1})_{P'_{n-1}}$$
+>    
+>    we have a chain $P'_{0}\subsetneq \dots \subsetneq P'_{n-1}$ with $a\in  P'_{n-1}$. 
 ---
 ##### Examples
 > [!h] Example 1
