@@ -170,16 +170,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Prime Ideal.md",
+                "file": "Algebra/Primary Ideal.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Prime Ideal"
+              "title": "Primary Ideal"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -323,19 +323,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4a2358584f68bc70",
+  "active": "1652382bc3c67270",
   "lastOpenFiles": [
-    "Algebra/Prime Ideal.md",
-    "Algebra/Localization.md",
-    "Algebra/Primary Ideal.md",
     "Algebra/Krull Dimension.md",
+    "Algebra/Primary Ideal.md",
+    "Algebra/Ring Extension.md",
+    "Algebra/Prime Ideal.md",
+    "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Localization.md",
     "Algebra/Local Ring.md",
     "Algebra/Ring Homomorphism.md",
-    "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Ideal (Ring).md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Algebra.md",
-    "Algebra/Ring Extension.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Variety.md",
     "Functional Analysis/Spectrum.md",

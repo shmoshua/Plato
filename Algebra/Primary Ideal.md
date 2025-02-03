@@ -137,24 +137,31 @@
 > [!lemma] Theorem 3 (Krull's Principal Ideal Theorem)
 > Let $R$ be a Noetherian ring and $a\in R$. 
 > 1. for every minimal prime ideal $P$ over $(a)$, $\text{codim}P\leq 1$.
+> 2. if $a$ is not a zero-divisor, then for every minimal prime ideal $P$ over $(a)$, $\text{codim}P=1$.
 
 > [!proof]-
-> Let $Q'\subseteq Q\subsetneq P$ be a chain of prime ideals in $R$. We have to prove that $Q'=Q$. 
+> We have:
+> 1. Let $Q'\subseteq Q\subsetneq P$ be a chain of prime ideals in $R$. We have to prove that $Q'=Q$. 
 > 
-> We first prove it for the case where $Q'=0$ and $R$ is [[Local Ring|local]] with $P$ as the unique maximal ideal. Consider the symbolic powers $Q^{(n)}$ of $Q$. Then, $Q^{(n+1)}\subseteq Q^{(n)}$. Further, 
-> 1. **Claim 1: $Q^{(n)}\subseteq Q^{(n+1)}+(a)$ for some $n$**: 
+> 	We first prove it for the case where $Q'=0$ and $R$ is [[Local Ring|local]] with $P$ as the unique maximal ideal. Consider the symbolic powers $Q^{(n)}$ of $Q$. Then, $Q^{(n+1)}\subseteq Q^{(n)}$. Further, 
+> 	1. **Claim 1: $Q^{(n)}\subseteq Q^{(n+1)}+(a)$ for some $n$**: 
 >    The ring $R / (a)$ is Noetherian by [[Noetherian and Artinian Module|Lemma 2]] and of dimension 0 since the unique maximal ideal $P / (a)$ is also minimal by assumption. Hence, $R / (a)$ is Artinian by [[Noetherian and Artinian Module|Hopkins]] and the descending chain: $$(Q^{(0)}+(a)) / (a)\supseteq (Q^{(1)}+(a)) / (a)\supseteq \dots$$becomes stationary. Hence, $Q^{(n+1)} + (a) = Q^{(n)}+(a)$ for some $n$, which implies the claim. 
-> 2. **Claim 2: $Q^{(n)}=Q^{(n+1)}+PQ^{(n)}$.** 
+> 	1. **Claim 2: $Q^{(n)}=Q^{(n+1)}+PQ^{(n)}$.** 
 >    The inclusion $\supseteq$ is clear. For the converse, if $b\in Q^{(n)}$, then $b=c+ar$ for some $c\in Q^{(n+1)}$ and $r\in R$ from Claim 1. So $ar=b-c\in Q^{(n)}$. But as $P$ is minimal over $(a)$, $a\notin Q$ and as $Q^{(n)}$ is $Q$-primary, we have that: $r\in Q^{(n)}$. This means $b\in Q^{(n+1)}+PQ^{(n)}$.
 >  
->  Now, taking the quotient by $Q^{(n+1)}$, we have $Q^{(n)} / Q^{(n+1)}=PQ^{(n)} / Q^{(n+1)}=P(Q^{(n)} / Q^{(n+1)})$. As $R$ is local and $Q^{(n)} / Q^{(n+1)}$ is a finitely generated module over $R$, by [[Local Ring|Nakayama]], $$Q^{(n)} / Q^{(n+1)}=0$$and $Q^{(n)}=Q^{(n+1)}$. Therefore, by Lemma 2, $Q^n R_{Q}=Q^{(n)}R_{Q}=Q^{(n+1)}R_{Q}=Q^{n+1}R_{Q}$. Hence, $$Q^n R_{Q}=(QR_{Q})(Q^n R_{Q})$$by [[Ring Homomorphism|Proposition 4.3]]. Now, using Nakayama again, $Q^n R_{Q}=0$. However, as $R$ is an integral domain, this is only possible if $Q=0$.
+> 	 Now, taking the quotient by $Q^{(n+1)}$, we have $Q^{(n)} / Q^{(n+1)}=PQ^{(n)} / Q^{(n+1)}=P(Q^{(n)} / Q^{(n+1)})$. As $R$ is local and $Q^{(n)} / Q^{(n+1)}$ is a finitely generated module over $R$, by [[Local Ring|Nakayama]], $$Q^{(n)} / Q^{(n+1)}=0$$and $Q^{(n)}=Q^{(n+1)}$. Therefore, by Lemma 2, $Q^n R_{Q}=Q^{(n)}R_{Q}=Q^{(n+1)}R_{Q}=Q^{n+1}R_{Q}$. Hence, $$Q^n R_{Q}=(QR_{Q})(Q^n R_{Q})$$by [[Ring Homomorphism|Proposition 4.3]]. Now, using Nakayama again, $Q^n R_{Q}=0$. However, as $R$ is an integral domain, this is only possible if $Q=0$.
 >  
->  Now, assume $Q'\subseteq Q\subsetneq P$ is general. Then,
+> 	 Now, assume $Q'\subseteq Q\subsetneq P$ is general. Then,
 > 
-> 1. Consider $R / Q'$ and we have $0\subseteq Q / Q'\subsetneq P / Q'$ where $R / Q'$ is a Noetherian ring
-> 2. Consider $(R / Q')_{P}\cong R_{P} / Q'_{P}$ which is local Noetherian ring and we have $0\subseteq Q_{P} / Q_{P}'\subsetneq P_{P} / Q'_{P}$ where the last ideal is the only maximal ideal.
+> 	1. Consider $R / Q'$ and we have $0\subseteq Q / Q'\subsetneq P / Q'$ where $R / Q'$ is a Noetherian ring
+> 	2. Consider $(R / Q')_{P}\cong R_{P} / Q'_{P}$ which is local Noetherian ring and we have $0\subseteq Q_{P} / Q_{P}'\subsetneq P_{P} / Q'_{P}$ where the last ideal is the only maximal ideal.
 >    
->  Hence, by above, $Q_{P} / Q'_{P}=0$ and $Q / Q'=0$. This shows that $Q=Q'$. 
+> 	 Hence, by above, $Q_{P} / Q'_{P}=0$ and $Q / Q'=0$. This shows that $Q=Q'$. 
+> 2. Let $P_{1},\dots,P_{n}$ be minimal prime ideals over the zero ideal. Then, by Proposition 1, they are in $\text{Ass}(0)$, i.e. there exists non-zero $b_{i}\in R$ s.t. $P_{i}=\sqrt{ 0:b_{i} }$. 
+>    
+>    We claim that $a\notin P_{i}$ for all $i=1,\dots,n$: If $a\in P_{i}$ then $a\in \sqrt{ 0:b_{i} }$ and $a^rb_{i}=0$ for some $r\geq 0$. If we choose $r$ to be minimal, then, $a(a^{r-1}b_{i})=0$, which is a contradiction as $a$ is not a zero divisor and $a^{r-1}b_{i}\neq 0$.
+>    
+>    So $a\notin P_{i}$ for all $i$ but $a\in P$. Hence, $P$ cannot be any of the minimal prime ideals. Hence, $P$ must strictly contain one of the $P_{i}$'s. Therefore, $\text{codim}P\geq 1$ and with 1, we have the statement.
 ---
 > [!lemma] Corollary 4 
 > Let $R$ be a Noetherian ring and $P_{0}\subsetneq \dots \subsetneq P_{n}$ be a chain of prime ideals with $a\in P_{n}$.
