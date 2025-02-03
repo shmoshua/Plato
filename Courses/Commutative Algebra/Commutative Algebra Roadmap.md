@@ -584,3 +584,4 @@
 ![[Algebraic and Transcendental Element#^c7f997|q]]
 
 ---
+### 10. Noether Normalization and Hilbert's Nullstellensatz

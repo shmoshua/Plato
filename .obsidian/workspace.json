@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "Commutative Algebra Roadmap"
             }
           },
           {
@@ -83,16 +83,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Primary Ideal.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Primary Ideal"
+              "title": "Algebra"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -118,12 +118,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ring Extension.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ring Extension"
+              "title": "Algebra"
             }
           },
           {
@@ -146,12 +146,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Localization.md",
+                "file": "Algebra/Prime Ideal.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Localization"
+              "title": "Prime Ideal"
             }
           }
         ],
@@ -301,32 +301,32 @@
   },
   "active": "f34af4f280c8db9c",
   "lastOpenFiles": [
+    "Algebra/Ring Extension.md",
+    "Algebra/Algebra.md",
+    "Algebra/Primary Ideal.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Prime Ideal.md",
+    "Algebra/Ideal (Ring).md",
+    "Functional Analysis/Spectrum.md",
     "Algebra/Localization.md",
     "Algebra/Noetherian and Artinian Module.md",
-    "Algebra/Ring Extension.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Minimal Polynomial.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Ring Homomorphism.md",
     "Algebra/Normal Extension.md",
     "Algebra/Module.md",
     "Algebra/Field Extension.md",
-    "Algebra/Primary Ideal.md",
     "Algebra/Unique Factorization Domain.md",
-    "Algebra/Algebra.md",
     "Algebra/Annihilator.md",
-    "Algebra/Prime Ideal.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Coprime Ideal.md",
     "Courses/Algebra II/Exercise Sheet 0.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Nilradical.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Variety.md",
     "Algebra/Local Ring.md",
-    "Algebra/Principal Ideal Domain.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

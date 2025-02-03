@@ -130,7 +130,11 @@
 > Now, assume for a contradiction that $a\notin P$. Then, as $c'_{i}a^i=c_{i}\in P$, we have that $c'_{i}\in P$ for all $i$. So as $s\in R'$, we have that: $$s^n=-c'_{n-1}s^{n-1}-\dots - c'_{0}\in PR'\subseteq QR'=(Q'\cap R)R'\subseteq Q'R'=Q'$$which means that $s\in Q'$ as $Q'$ is prime. This is a contradiction.
 > 
 > Now, we have by lying over $P'_{Q'}$ that lies over $P$. Hence, it contracts to $P'\unlhd R'$ prime with $P'\cap R=P$.
-> 
+---
+> [!lemma] Proposition 5
+> Let $R':R$ be a ring extension. 
+> 1. $R':R$ has the going up property if and only if for all prime $P'\unlhd R'$ and $P:= P'\cap R$, the natural map $\text{Spec}(R' / P')\to \text{Spec}(R / P)$ is surjective.
+> 2. $R':R$ has the going down property if and only if for all prime $P'\unlhd R'$ and $P:= P'\cap R$, the natural map $\text{Spec}(R'_{P'})\to \text{Spec}(R_{P})$ is surjective.
 ---
 ##### Examples
 > [!h] Example 1 (UFD)
