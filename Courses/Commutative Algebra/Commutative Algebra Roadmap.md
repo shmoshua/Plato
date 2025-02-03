@@ -585,3 +585,6 @@
 
 ---
 ### 10. Noether Normalization and Hilbert's Nullstellensatz
+
+---
+### 11. Dimension

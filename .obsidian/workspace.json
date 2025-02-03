@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Algebra/Krull Dimension.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Commutative Algebra Roadmap"
+              "title": "Krull Dimension"
             }
           },
           {
@@ -105,8 +105,7 @@
               "title": "Variety"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -132,12 +131,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Algebra/Krull Dimension.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "Krull Dimension"
             }
           },
           {
@@ -235,8 +234,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -330,10 +328,11 @@
   },
   "active": "37993910d58a29bb",
   "lastOpenFiles": [
+    "Algebra/Variety.md",
+    "Algebra/Krull Dimension.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Ring Extension.md",
     "Algebra/Algebra.md",
-    "Algebra/Variety.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Prime Ideal.md",
@@ -355,7 +354,6 @@
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Nilradical.md",
     "Algebra/Maximal Ideal.md",
-    "Algebra/Local Ring.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
