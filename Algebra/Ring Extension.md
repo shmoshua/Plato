@@ -99,14 +99,31 @@
 > 2. if $R,R'$ are integral domains, $R$ is a field if and only if $R'$ is a field.
 > 3. a prime ideal $P'\unlhd R'$ is maximal if and only if $P'\cap R$ is maximal in $R$. 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $P'\cap R=Q'\cap R$ and $P'\subseteq Q'$. Then, we will show that $Q'\subseteq P'$ and thereby $Q'=P'$.
 > 
 > 	Assume for contradiction that there exists $a\in Q ' \backslash P'$. By Lemma 3.1, we know that $(R' / P'):R / (P'\cap R)$ is an integral extension. Therefore, there is a monic relation: $$\overline{a}^n+\overline{c_{n-1}}\overline{a}^{n-1}+\dots+\overline{c_{0}}=0$$in $R' / P'$ with $c_{0},\dots,c_{n-1}\in R$. Pick such a relation of minimal degree $n$. Since $a\in Q'$, this implies that $\overline{c_{0}}\in Q'  / P'$ but as $c_{0}\in R$, we conclude that: $$\overline{c_{0}}\in(Q ' \cap R) / (P'\cap R)=(Q ' \cap R) / (Q'\cap R)=0$$Hence, the relation has no constant term. But since $\overline{a}\neq 0$ and $R' / P'$ is an integral domain, we can reduce the relation by a degree, which is a contradiction to the minimality. 
 > 2. We show that:
-> 	1. (=>): Assume that $R$ is a field. Let $P'\unlhd R'$ be a maximal ideal. Also, $0\unlhd R'$ is prime as $R'$ is an integral domain. Then, as they both contract to a prime ideal via $\varphi: R \to R'$, we have that  
+> 	1. (=>): Assume that $R$ is a field. Let $P'\unlhd R'$ be a maximal ideal. Also, $0\unlhd R'$ is prime as $R'$ is an integral domain. Then, as they both contract to a prime ideal via $\varphi: R \to R'$ and $R$ is a field, they both contract to $0\unlhd R$. Now, by incomparability, we have that $P'=0$. So $0$ is maximal and $R'$ is a field.
+> 	2. (<=): Assume $R$ is not a field. Then, there is a non-zero maximal ideal $P\unlhd R$. By Lying over, we have a prime ideal $P'\unlhd R'$ with $P'\cap R=P$. In particular, $P'\neq 0$. Hence, $R'$ is not a field. 
+> 3. As $(R'  / P'):(R / (P'\cap R))$ is an integral extension of integral domains by Lemma 3.1, the statement follows from 2. 
+---
+> [!lemma] Proposition 3 (Going Up)
+> Let $R':R$ be integral ring extension and $P,Q\unlhd R$ be prime with $P\subseteq Q$. 
+> 1. if we have $P'\unlhd R'$ prime with $P'\cap R=P$, there is a prime ideal $Q'\unlhd R'$ with $Q'\cap R=Q$ and $P'\subseteq Q'$. 
+
+> [!proof]-
+> As $R':R$ is integral, $R' / P'$ is integral over $R / P$ by Proposition 3.1. Now, $Q / P$ is prime and by Lying over, there exists a prime ideal in $R' / P'$ contracting to $Q / P$, which must be in the form of $Q' / P'$ for a prime ideal $Q'\unlhd R$ with $P'\subseteq Q'$. 
 > 
+> Now, $(Q' / P)\cap(R / P)=Q / P$ and this implies that $Q'\cap R=Q$.
+---
+> [!lemma] Proposition 4 (Going Down)
+> Let $R':R$ be integral extension of integral domains. Assume that $R$ is normal. Let $P\subseteq Q$ be prime ideals in $R$.
+> 1.  if we have $Q'\unlhd R'$ prime with $Q'\cap R=Q$, there is a prime ideal $P'\unlhd R'$ with $P'\cap R=P$ and $P'\subseteq Q'$.
+
+> [!proof]+
+> The natural map $\pi:R'\to R'_{Q'}$ is injective as $R'$ is an integral domain. 
 ---
 ##### Examples
 > [!h] Example 1 (UFD)
