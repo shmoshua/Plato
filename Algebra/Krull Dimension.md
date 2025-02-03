@@ -42,6 +42,22 @@
 > 
 > Conversely, if $I\subseteq P_{0}\subsetneq \dots \subsetneq P_{n}$ is a chain of prime ideals s.t. $\text{dim} R / I=n$. Then, $P_{0}$ is an isolated prime ideal. Otherwise there exists $I\subseteq P\subsetneq P$ for a prime $P$ and $\text{dim} R / I\geq n+ 1$. Therefore, $\text{dim}R / I\leq \text{dim}R / P_{0}$. 
 ---
+> [!lemma] Proposition 4 (Invariance of dimension under integral extensions)
+> Let $R':R$ be an [[Ring Extension|integral ring extension]]. Then, $\text{dim}R=\text{dim}R'$.
+
+> [!proof]-
+> We have:
+> 1. $\leq$: Let $P_{0}\subsetneq\dots \subsetneq P_{n}$ be a chain of prime ideals in $R$. Then, by [[Ring Extension|Lying over]] and [[Ring Extension|Going up]], we get a chain of prime ideals $P'_{0}\subsetneq\dots \subsetneq P'_{n}$ in $R'$.
+> 2. $\geq$: Let $P'_{0}\subsetneq \dots \subsetneq P_{n}'$ be a chain of prime ideals in $R'$. Then, by taking the chain intersected with $R$, i.e. $P_{i}:= P_{i}'\cap R$, we get $P_{0}\subseteq\dots \subseteq P_{n}$ where the strictness comes from [[Ring Extension|Imcomparability]].
+
+---
+> [!lemma] Proposition 5 (Dimension of Polynomial Rings)
+> Let $K$ be a field. 
+> 1. $\text{dim}K[x_{1},\dots,x_{n}]=n$.
+> 2. all maximal chains of prime ideals in $K[x_{1},\dots,x_{n}]$ have length $n$.
+
+> [!proof]+
+---
 ##### Examples 
 > [!h] Example 1
 > We have that:

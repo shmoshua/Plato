@@ -95,14 +95,10 @@
             "id": "fb33ca6f4e7039ea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Noetherian and Artinian Module.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Noetherian and Artinian Module"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -145,12 +141,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Primary Ideal.md",
+                "file": "Algebra/Ring Extension.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Primary Ideal"
+              "title": "Ring Extension"
             }
           },
           {
@@ -328,14 +324,14 @@
   },
   "active": "37993910d58a29bb",
   "lastOpenFiles": [
-    "Algebra/Primary Ideal.md",
+    "Algebra/Ring Extension.md",
     "Algebra/Krull Dimension.md",
+    "Algebra/Primary Ideal.md",
+    "Algebra/Algebra.md",
+    "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Variety.md",
     "Algebra/Localization.md",
-    "Algebra/Ring Extension.md",
-    "Algebra/Noetherian and Artinian Module.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Algebra.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Ideal (Ring).md",
