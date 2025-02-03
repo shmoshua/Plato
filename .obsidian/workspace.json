@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Primary Ideal.md",
+                "file": "Algebra/Algebraic Dependence.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Primary Ideal"
+              "title": "Algebraic Dependence"
             }
           },
           {
@@ -170,12 +170,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Primary Ideal.md",
+                "file": "Algebra/Algebraic Dependence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Primary Ideal"
+              "title": "Algebraic Dependence"
             }
           }
         ],
@@ -325,8 +325,9 @@
   },
   "active": "1652382bc3c67270",
   "lastOpenFiles": [
-    "Algebra/Krull Dimension.md",
     "Algebra/Primary Ideal.md",
+    "Algebra/Algebraic Dependence.md",
+    "Algebra/Krull Dimension.md",
     "Algebra/Ring Extension.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Noetherian and Artinian Module.md",
@@ -350,7 +351,6 @@
     "Courses/Algebra II/Exercise Sheet 0.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Finitely Generated Abelian Group.md",
-    "Algebra/Nilradical.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
