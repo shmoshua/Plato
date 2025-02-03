@@ -127,12 +127,27 @@
 > 2. $P^{(n)}$ is $P$-primary.
 > 3. $P^{(n)}R_{P}=P^nR_{P}$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. The first inclusion is obvious by taking $b=1$. For the second, let $a\in P^{(n)}$. Then, $ab\in P^n\subseteq P$ for some $b\in R \backslash P$. Hence, $a\in P$.
 > 2. Taking radicals we get that $P=\sqrt{ P }=\sqrt{ P^n }\subseteq \sqrt{ P^{(n)} }\subseteq \sqrt{ P }=P$. Hence, $\sqrt{ P^{(n)} }=P$. To see that it is primary, let $ab\in P^{(n)}$, i.e. $abc\in P^{n}$ for some $c\in R \backslash P$. If $b\notin  \sqrt{ P^{(n)} }=P$, then we also have $bc\notin P$ and therefore, $a\in P^{(n)}$. 
 > 3. For $\subseteq$, let $\frac{b}{s}\in P^{(n)}R_{P}$ i.e. $bc\in P^n$ for some $s,c\in R \backslash P$. Then, $$\frac{b}{s}=\frac{bc}{sc}\in P^n R_{P}$$The other inclusion is obvious as $P^n\subseteq P^{(n)}$.
 
+---
+> [!lemma] Theorem 3 (Krull's Principal Ideal Theorem)
+> Let $R$ be a Noetherian ring and $a\in R$. 
+> 1. for every minimal prime ideal $P$ over $(a)$, $\text{codim}P\leq 1$.
+
+> [!proof]+
+> Let $Q'\subseteq Q\subsetneq P$ be a chain of prime ideals in $R$. We have to prove that $Q'=Q$. 
+> 
+> We first prove it for the case where $Q'=0$ and $R$ is [[Local Ring|local]] with $P$ as the unique maximal ideal. Consider the symbolic powers $Q^{(n)}$ of $Q$. Then, $Q^{(n+1)}\subseteq Q^{(n)}$. Further, 
+> 1. $Q^{(n)}\subseteq Q^{(n+1)}+(a)$ for some $n$: The ring $R / (a)$ is Noetherian by [[Noetherian and Artinian Module|Lemma 2]] and of dimension 0 since the unique maximal ideal $P / (a)$ is also minimal by assumption. Hence, $R / (a)$ is Artinian by [[Noetherian and Artinian Module|Hopkins]] and the descending chain: $$(Q^{(0)}+(a)) / (a)$$
+> 
+> 1. Consider $R / Q'$ and we have $0\subseteq Q / Q'\subsetneq P / Q'$.
+> 2. Consider $(R / Q')_{P}\cong R_{P} / Q'_{P}$ which is local and we have $0\subseteq Q_{P} / Q_{P}'\subsetneq P_{P} / Q'_{P}$ where the last ideal is the only maximal ideal.
+>    
+>  Hence, wlog we assume that $R$ is 
 ---
 ##### Examples
 > [!h] Example 1

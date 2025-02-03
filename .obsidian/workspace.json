@@ -170,12 +170,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Algebra/Local Ring.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "Local Ring"
             }
           }
         ],
@@ -325,15 +325,16 @@
   },
   "active": "4a2358584f68bc70",
   "lastOpenFiles": [
-    "Algebra/Ring Extension.md",
-    "Algebra/Primary Ideal.md",
-    "Algebra/Algebra.md",
-    "Algebra/Krull Dimension.md",
     "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Primary Ideal.md",
+    "Algebra/Krull Dimension.md",
+    "Algebra/Local Ring.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Algebra/Localization.md",
+    "Algebra/Algebra.md",
+    "Algebra/Ring Extension.md",
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Variety.md",
-    "Algebra/Localization.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Ideal (Ring).md",
     "Functional Analysis/Spectrum.md",
@@ -350,7 +351,6 @@
     "Algebra/Polynomial Ring.md",
     "Algebra/Finitely Generated Abelian Group.md",
     "Algebra/Nilradical.md",
-    "Algebra/Maximal Ideal.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
