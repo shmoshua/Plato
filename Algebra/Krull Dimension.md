@@ -14,12 +14,33 @@
 > 2. for any prime $P\unlhd R$, $\text{dim}R\geq \text{dim}R / P+\text{codim}P$
 > 3. dimension is a local property, i.e. $$\text{dim}R=\sup_{P\in \text{Max}(R)}\text{dim}R_{P}$$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. follows from [[Localization|Proposition 2]].
 > 2. Let $n:= \text{dim}R/P$ and $m:=\text{codim}P=\text{dim}R_{P}$. Then, there are chains of prime ideals: $$P_{0}\subsetneq\dots \subsetneq P_{m}\subseteq P,\quad P\subseteq Q_{0}\subsetneq\dots \subsetneq Q_{n}$$which gives us a chain of prime ideals of length $m+n$.
-> 3. if $P_{0}\subsetneq \dots \subsetneq P_{n}$ then this also translates to $R / P$ where $P$ is any maximal ideal containing $P_{n}$. 
+> 3. if $P_{0}\subsetneq \dots \subsetneq P_{n}$ then this also translates to $R / P$ where $P$ is any maximal ideal containing $P_{n}$. Conversely, any chain of prime ideals in the localization corresponds to one in $R$ of the same length.
+---
+> [!lemma] Lemma 2
+> Let $R$ be a ring with $\text{dim}R<+\infty$ in which all maximal chains of prime ideals have the same length. Then, for $P\unlhd R$, 
+> 1. $\text{dim} R / P< \infty$ and every maximal chain of prime ideals in $R / P$ have the same length.
+> 2. $\text{dim}R=\text{dim}R/P+\text{codim}P$.
+> 3. $\text{dim}R_{P}=\text{dim}R$ if $P$ is maximal.
 
+> [!proof]-
+> We have:
+> 1. As the chains of prime ideals in $R$ correspond to the chains of prime ideals in $R / P$. 
+> 2. $\geq$ is given by Proposition 1.2. For the converse, for any maximal chain of prime ideals in $R$, we can find the corresponding chain of prime of ideals in $R / P$ and by maximality we must have $Q_{0}=P$. Hence, $$\text{dim}R\leq \text{dim}R / P+\text{codim}P$$
+> 3. If $P$ is maximal $R /P$ is a field and $\text{dim}R / P=0$. 
+
+---
+> [!lemma] Proposition 3
+> Let $R$ be a [[Noetherian and Artinian Module|Noetherian ring]]. Let $I\unlhd R$.
+> $$\text{dim}R / I=\max\{ \text{dim} R / P:P\text{ is an isolated prime ideal of }I \}$$
+
+> [!proof]-
+> We have that by [[Primary Ideal|Primary Decomposition in Noetherian Rings Proposition 1]], the isolated prime ideals of $I$ are exactly the minimal prime ideals containing $I$. Therefore, for any isolated prime ideal $P$ of $I$:$$P\subsetneq P_{0}\subseteq \dots \subseteq P_{n}$$be a chain of prime ideals s.t. $\text{dim}R / P=n$. Hence, $I\subseteq P\subsetneq P_{0}\subseteq \dots \subseteq P_{n}$ and $\text{dim}R / I\geq n$. 
+> 
+> Conversely, if $I\subseteq P_{0}\subsetneq \dots \subsetneq P_{n}$ is a chain of prime ideals s.t. $\text{dim} R / I=n$. Then, $P_{0}$ is an isolated prime ideal. Otherwise there exists $I\subseteq P\subsetneq P$ for a prime $P$ and $\text{dim} R / I\geq n+ 1$. Therefore, $\text{dim}R / I\leq \text{dim}R / P_{0}$. 
 ---
 ##### Examples 
 > [!h] Example 1
