@@ -122,8 +122,15 @@
 > Let $R':R$ be integral extension of integral domains. Assume that $R$ is normal. Let $P\subseteq Q$ be prime ideals in $R$.
 > 1.  if we have $Q'\unlhd R'$ prime with $Q'\cap R=Q$, there is a prime ideal $P'\unlhd R'$ with $P'\cap R=P$ and $P'\subseteq Q'$.
 
-> [!proof]+
-> The natural map $\pi:R'\to R'_{Q'}$ is injective as $R'$ is an integral domain. 
+> [!proof]-
+> The natural map $\pi:R'\to R'_{Q'}$ is injective as $R'$ is an integral domain. Hence, we can treat $R'_{Q'}:R':R$ as a ring extension and we will use Lying over to show that there is a prime ideal lying over $P$ in $R'_{Q'}$. 
+> 
+> Let $a\in PR'_{Q'}\cap R$, in particular $a=\frac{p}{s}$ for some $p\in PR'$ and $s\in R' \backslash Q'$. We may assume wlog that $a\neq 0$. As $R$ is normal, we can apply Lemma 5.2 to get the minimal polynomial of $p$ over $K:=\text{Quot}R$ is of the form: $$f(x)=x^n+c_{n-1}x^{n-1}+\dots+c_{0}$$where $c_{0},\dots,c_{n-1}\in P$. Now, by definition $f$ is irreducible over $K$ and as $a\in R\subseteq K$: $$\frac{1}{a^n}f(ax)=x^n+\frac{c_{n-1}}{a}x^{n-1}+\dots+\frac{c_{0}}{a^n}=:x^n+c_{n-1}'x^{n-1}+\dots+c_{0}'$$is also irreducible over $K$. Now, as it is monic and satisfies $\frac{1}{a^n}f(as)=\frac{1}{a^n}f(p)=0$. Hence, it is a minimal polynomial of $s$ over $K$. It follows that by Lemma 5.1, $c'_{0},\dots,c_{n-1}'\in R$.
+> 
+> Now, assume for a contradiction that $a\notin P$. Then, as $c'_{i}a^i=c_{i}\in P$, we have that $c'_{i}\in P$ for all $i$. So as $s\in R'$, we have that: $$s^n=-c'_{n-1}s^{n-1}-\dots - c'_{0}\in PR'\subseteq QR'=(Q'\cap R)R'\subseteq Q'R'=Q'$$which means that $s\in Q'$ as $Q'$ is prime. This is a contradiction.
+> 
+> Now, we have by lying over $P'_{Q'}$ that lies over $P$. Hence, it contracts to $P'\unlhd R'$ prime with $P'\cap R=P$.
+> 
 ---
 ##### Examples
 > [!h] Example 1 (UFD)
