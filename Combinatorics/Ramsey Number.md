@@ -1,12 +1,13 @@
 #ProbabilisticMethods #Definition 
 
 > [!definition]
-> For $s,t\in \mathbb{Z}_{>0}$, the ***Ramsey number*** $R(s,t)$ is the smallest integer $n$ s.t. 
-> 1. every red-blue edge-coloring of the [[Clique]] $K_{n}$ has a red clique of size $s$ or a blue clique of size $t$.
+> We have that: 
+> 1. for $s,t\in \mathbb{Z}_{>0}$, the ***Ramsey number*** $R(s,t)$ is the smallest integer $n\geq 0$ s.t. every red-blue edge-coloring of the [[clique]] $K_{n}$ has a red clique of size $s$ or a blue clique of size $t$.
 > 2. for a graph $G$, the ***Ramsey number $R(G)$*** is the smallest integer $n$ s.t. any 2-edge-coloring of $K_{n}$ contains a monochromatic $G$. 
 
 ^bf6551
 
+- **Remark**: From the definition, if $R(s,t)<n$, then every 2-edge-coloring of $K_{n}$ does satisfy the property, i.e. if there exists an edge coloring of $K_{n}$ for which the property doesn't hold, then $R(s,t)>n$.  ^610a32
 ---
 ##### Properties
 > [!lemma] Theorem 1
@@ -86,7 +87,7 @@
 > 1. Consider a complete graph $K_{n-1}$ colored with red. Then, there doesn't exists a blue edge but nor a red $K_{n}$. Therefore, $R(n,2)>n-1$.
 >    
 >     However, for any 2-coloring of $K_{n}$, if there is no blue edge, then $K_{n}$ is a red clique of size $n$. Therefore, $R(n,2)\leq n$. 
-> 2. Firstly, we see that $R(3,3)>5$. For $n=3,4$ we can easily find a 2-coloring without a monochromatic triangle. For $n=5$, we can color the outer pentagon red and the insides blue. 
+> 2. Firstly, we see that $R(3,3)>5$. For $n=5$, we can color the outer pentagon red and the insides blue. 
 > 
 > 	Now, to show that $R(3,3)=6$, choose a vertex $v$. Then, by pigeonhole, at least 3 of the incident edges to $v$ are of the same color, wlog, red. Choose any 3 and consider the triangle formed by connecting the other endpoints of the 3 edges. If this is a blue triangle, we are done. Otherwise there exists a red edge which together with the red edges to $v$ form a red triangle. This proves the statement.
 

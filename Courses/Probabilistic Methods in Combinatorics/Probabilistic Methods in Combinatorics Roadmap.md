@@ -1,9 +1,10 @@
-#ProbabilisticMethods #Roadmap 
+#Combinatorics #Roadmap 
 
 ### 1. The Basics
 #### 1.1 Ramsey Numbers
 
 ![[Ramsey Number#^bf6551]]
+![[Ramsey Number#^610a32]]
 
 ---
 ![[Ramsey Number#^ba602f]]
@@ -12,7 +13,7 @@
 ---
 ![[Ramsey Number#^5ce7f6]]
 ![[Ramsey Number#^3cf037|p]]
-![[Ramsey Number#^8e9a7c|q]]
+![[Ramsey Number#^8e9a7c]]
 
 ---
 ![[Ramsey Number#^0bfef8]]
@@ -23,9 +24,11 @@
 
 ![[Tournament#^d0027e]]
 ![[Tournament#^00613b|q]]
+
 ---
 ![[Tournament#^7efafb]]
 ![[Tournament#^67a465|p]]
+
 ---
 
 ![[Hypergraph#^9201b6]]
@@ -41,6 +44,7 @@
 ![[Hypergraph#^ce5313]]
 ![[Hypergraph#^f29f34|p]]
 ![[Hypergraph#^16c0c2|q]]
+
 ---
 
 > [!lemma] Theorem 2 (Bollobás)
@@ -60,6 +64,7 @@ $(A_{i},B_{i})$ where $1\leq i\leq m$ where $\left| A_{i} \right|=a$ and $\left|
 
 ![[Cut (Graph)#^b245ae]]
 ![[Cut (Graph)#^b83c9a|p]]
+
 ---
 #### 2.2 Tournaments and Hamiltonian Path
 ![[Hamiltonian Path#^a7fcdb]]
@@ -96,6 +101,7 @@ $(A_{i},B_{i})$ where $1\leq i\leq m$ where $\left| A_{i} \right|=a$ and $\left|
 ##### 3.2 Non-2-colorable $k$-uniform Hypergraphs
 ![[Hypergraph#^cbd750]]
 ![[Hypergraph#^a8679e|p]]
+
 ---
 #### 3.3 Dependent Random Choice
 ![[Ramsey Number#^bf6551]]
@@ -109,6 +115,7 @@ $(A_{i},B_{i})$ where $1\leq i\leq m$ where $\left| A_{i} \right|=a$ and $\left|
 ---
 ![[Hypercube (Graph)#^7f6399]]
 ![[Hypercube (Graph)#^da9439|p]]
+
 ---
 ![[Graph#^07cd66]]
 ![[Graph#^9e183d|p]]
