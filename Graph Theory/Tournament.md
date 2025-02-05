@@ -5,7 +5,7 @@
 
 ^d0027e
 
-- **Related definition**: A tournament $T_{n}$ has a ***$S_{k}$-property*** if for all $S\subseteq V(T_{n})$ with $\left| S \right|= k$, there is a vertex in $T_{n}$ that dominates all vertices in $S$.  ^00613b
+- **Related definition**: A tournament $T_{n}$ has a ***$S_{k}$-property*** if for all $S\subseteq V(T_{n})$ with $\left| S \right|\leq k$, there is a vertex in $T_{n}$ that dominates all vertices in $S$, i.e. there exists $v\in S$ s.t. $u\to v$ for all $u\in S \backslash \{ v \}$. ^00613b
 - **Related definition**: Let $T_{n}$ be a tournament on $[n]$ and $\pi:[n]\to[n]$ a permutation. An edge $i\to j$ is ***consistent*** if $\pi ^{-1}(i)<\pi ^{-1}(j)$. 
 ---
 ##### Properties

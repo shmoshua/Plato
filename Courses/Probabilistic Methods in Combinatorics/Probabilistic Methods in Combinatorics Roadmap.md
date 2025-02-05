@@ -23,7 +23,7 @@
 #### 1.2 Tournaments
 
 ![[Tournament#^d0027e]]
-![[Tournament#^00613b|q]]
+![[Tournament#^00613b]]
 
 ---
 ![[Tournament#^7efafb]]

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combinatorics/Ramsey Number.md",
+                "file": "Graph Theory/Tournament.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ramsey Number"
+              "title": "Tournament"
             }
           }
         ],
@@ -69,8 +69,23 @@
               "icon": "lucide-file",
               "title": "Ramsey Number"
             }
+          },
+          {
+            "id": "0e5ca01b54a27edd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Tournament.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Tournament"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -214,10 +229,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "0e5ca01b54a27edd",
   "lastOpenFiles": [
-    "Combinatorics/Ramsey Number.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Combinatorics/Ramsey Number.md",
+    "Graph Theory/Tournament.md",
     "Algebra/Algebraic Dependence.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Primary Ideal.md",
@@ -241,7 +257,6 @@
     "Algebra/Annihilator.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Coprime Ideal.md",
-    "Courses/Algebra II/Exercise Sheet 0.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
