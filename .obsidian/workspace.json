@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Combinatorics/Sum-Free Set.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tournament"
+              "title": "Sum-Free Set"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Graph Theory/Cut (Graph).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hypergraph"
+              "title": "Cut (Graph)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Graph Theory/Tournament.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hypergraph"
+              "title": "Tournament"
             }
           }
         ]
@@ -242,12 +242,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "2158f7029b3c6597",
   "lastOpenFiles": [
-    "Graph Theory/Hypergraph.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Tournament.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Combinatorics/Ramsey Number.md",
+    "Graph Theory/Hypergraph.md",
+    "Graph Theory/Cut (Graph).md",
     "Algebra/Algebraic Dependence.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Primary Ideal.md",
@@ -269,7 +270,6 @@
     "Algebra/Field Extension.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Annihilator.md",
-    "Algebra/Radical (Ring).md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

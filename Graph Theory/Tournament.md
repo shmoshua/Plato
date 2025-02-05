@@ -32,7 +32,7 @@
 > We prove this by induction. For $n=1$ it is clear. For $n>1$, choose $v\in V(T_{n})$ and we acquire from induction that there exists a Hamiltonian path $v_{1},\dots,v_{n-1}$in $T_{n} \backslash\{ v \}$.  Now, 
 > 1. if $v\to v_{1}$, then $v,v_{1},\dots,v_{n-1}$ is a Hamiltonian path.
 > 2. if $v_{n-1}\to v$, then $v_{1},\dots,v_{n-1},v$ is a Hamiltonian path.
-> 3. 
+> 3. otherwise, there exists $1\leq i\leq n-2$ s.t. $v_{i}\to v$ and $v \to v_{i+1}$. Hence, $v_{1},\dots,v_{i},v,v_{i+1},\dots,v_{n-1}$ is a Hamiltonian path. 
 
 ^64e966
 
