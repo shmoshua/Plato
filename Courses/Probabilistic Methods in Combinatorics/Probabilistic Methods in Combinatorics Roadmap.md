@@ -45,7 +45,7 @@
 ---
 ![[Hypergraph#^ce5313]]
 ![[Hypergraph#^f29f34|p]]
-![[Hypergraph#^16c0c2|q]]
+![[Hypergraph#^16c0c2]]
 
 ---
 
