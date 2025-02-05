@@ -54,6 +54,8 @@
 > Let $P(n)$ be the maximal number of Hamiltonian paths $T_{n}$ can have. Then, 
 > 1. $P(n)\leq (1+\text{o}(1))\frac{\sqrt{ \pi }}{\sqrt{ 2 }e}n^{3/2}\frac{n!}{2^{n-1}}$
 
+^64c36c
+
 > [!proof]-
 > We will define a matrix $A\in \text{Mat}_{n,n}(\{ 0,1 \})$ where: $$A_{ij}=1 \iff i\to j\in T_{n}$$Then, there are precisely ${n \choose 2}$ 1s. Now, for $\sigma\in S_{n}$, $$\prod_{i=1}^{n}A_{i,\sigma(i)}=\begin{cases}1&i\to\sigma(i)\text{ for all }i\in[n]\\0&\text{otherwise}\end{cases}$$Therefore, $\prod_{i=1}^{n}A_{i,\sigma(i)}=1$ if and only if $\sigma$ defines a Hamiltonian cycle. This means that: $$\text{Per }A=\text{HC}(T_{n})$$where $\text{HC}(T_{n})$ denotes the number of hamitonian cycles in $T_{n}$. Therefore, by [[Permanent|Bregman]], $$\text{HC}(T_{n})\leq \prod_{i=1}^{n}(r_{i}!)^{1/r_{i}}$$where $r_{i}:=\sum_{j=1}^{n}A_{ij}$. As we know that $\sum_{i=1}^{n}r_{i}=n(n-1) /2$, by [[Technical Lemmas|Lemma 1]], we have that $\prod_{i=1}^{n}(r_{i}!)^{1/r_{i}}$ is maximal if $r_{i}$ is as equal as possible. By Sterling's formula, we have that: $$(k!)^{1/k}=(1+\text{o}(1)) \frac{k}{e},\quad \frac{(2k)!}{(k!)^2}=(1+\text{o}(1))\frac{2^{2k}}{\sqrt{ \pi k }}$$
 > 1. if $n$ is odd, i.e. $n=2k+1$: $$\text{HC}(T_{n})\leq(k!)^{(2k+1)/k}\sim \frac{k}{e}(k!)^2\sim\frac{k}{e} \frac{(2k)!}{2^{2k}} \sqrt{ \pi k }\leq\frac{\sqrt{ \pi }}{\sqrt{ 2 }e}n^{3/2}\frac{(n-1)!}{2^n}$$
@@ -64,6 +66,8 @@
 > Let $T$ be a tournament and let $v$ a new node. We will uniformly randomly orient the edges between $v$ and the rest of the graph. For any Hamiltonian path $P=v_{1},\dots,v_{n}$ in $T$, the probability that this extends to a Hamiltonian cycle in $T'$ is $1/4$, as we need that $v\to v_{1}$ and $v_{n}\to v$. Further, every Hamiltonian path gives rise to a different Hamiltonian cycle. Hence, $\mathbb{E}[\text{HC}(T')]=P(T) / 4$ and this proves the claim. 
 > 
 > Finally, we have that for any tournament $T$ on $n$ nodes: $$P(T)\leq 4\text{HC}(T')\leq (1+\text{o}(1))\frac{\sqrt{ \pi }}{\sqrt{ 2 }e}n^{3 / 2}\frac{n!}{2^{n-1}}$$This proves the claim for $P(n)$.
+
+^9e37ff
 
 ---
 ###### Consistent Edges

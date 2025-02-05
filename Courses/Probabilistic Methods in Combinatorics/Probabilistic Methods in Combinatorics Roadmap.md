@@ -95,9 +95,28 @@
 ![[Sum-Free Set#^68b7e6]]
 
 ---
-### 3. Methods of Alteration
+### 3. Permanents
+![[Permanent#^cc906b]]
+![[Permanent#^7904f8]]
+![[Permanent#^f4f2dc|p]]
 
-##### 3.1 High Girth and High Chromatic Number
+---
+![[Permanent#^530cc3]]
+![[Permanent#^63071a|p]]
+
+---
+![[Permanent#^eefbb0]]
+![[Permanent#^a1cd36|p]]
+
+---
+![[Tournament#^64c36c]]
+![[Tournament#^9e37ff|p]]
+
+---
+
+### 4. Methods of Alteration
+
+##### 4.1 High Girth and High Chromatic Number
 ![[Girth and Circumference#^803604]]
 
 ---
@@ -105,16 +124,16 @@
 ![[Girth and Circumference#^819748|p]]
 
 ---
-##### 3.2 Non-2-colorable $k$-uniform Hypergraphs
+##### 4.2 Non-2-colorable $k$-uniform Hypergraphs
 ![[Hypergraph#^cbd750]]
 ![[Hypergraph#^a8679e|p]]
 
 ---
-#### 3.3 Dependent Random Choice
+#### 4.3 Dependent Random Choice
 ![[Ramsey Number#^bf6551]]
 
 ---
-##### 3.3.1 Ramsey Number of Hypercube
+##### 4.3.1 Ramsey Number of Hypercube
 
 ![[Hypercube (Graph)#^0ce392]]
 ![[Hypercube (Graph)#^6fb7b0|q]]
