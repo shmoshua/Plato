@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "file": "Graph Theory/Hypergraph.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probabilistic Methods in Combinatorics Roadmap"
+              "title": "Hypergraph"
             }
           },
           {
@@ -89,12 +89,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Graph Theory/Girth and Circumference.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph"
+              "title": "Girth and Circumference"
             }
           },
           {
@@ -280,10 +280,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "1652382bc3c67270",
   "lastOpenFiles": [
-    "Graph Theory/Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Algebra/Algebraic Dependence.md",
+    "Graph Theory/Girth and Circumference.md",
+    "Graph Theory/Graph.md",
     "Graph Theory/Tournament.md",
     "Analysis/Landau Notations.md",
     "Algebra/Permanent.md",
@@ -292,7 +294,6 @@
     "Graph Theory/Cut (Graph).md",
     "Combinatorics/Sum-Free Set.md",
     "Graph Theory/Hypergraph.md",
-    "Algebra/Algebraic Dependence.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Primary Ideal.md",
     "Algebra/Krull Dimension.md",
@@ -307,7 +308,6 @@
     "Algebra/Algebraic and Transcendental Element.md",
     "Algebra/Variety.md",
     "Functional Analysis/Spectrum.md",
-    "Algebra/Minimal Polynomial.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
