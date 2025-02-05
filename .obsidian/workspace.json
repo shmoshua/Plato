@@ -63,8 +63,7 @@
               "title": "Technical Lemmas"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -136,8 +135,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -282,10 +280,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d51691437cb8a809",
+  "active": "1652382bc3c67270",
   "lastOpenFiles": [
-    "Analysis/Landau Notations.md",
     "Graph Theory/Tournament.md",
+    "Analysis/Landau Notations.md",
     "Algebra/Permanent.md",
     "Technical Lemmas.md",
     "Combinatorics/Ramsey Number.md",

@@ -115,8 +115,12 @@
 ---
 
 ### 4. Methods of Alteration
+##### 4.1 Dominating Set
+> [!definition]
+> For a graph $G$, $S\subseteq V(G)$ is called a ***dominating set*** if:
+> 1. for all 
 
-##### 4.1 High Girth and High Chromatic Number
+##### 4.2 High Girth and High Chromatic Number
 ![[Girth and Circumference#^803604]]
 
 ---
@@ -124,16 +128,16 @@
 ![[Girth and Circumference#^819748|p]]
 
 ---
-##### 4.2 Non-2-colorable $k$-uniform Hypergraphs
+##### 4.3 Non-2-colorable $k$-uniform Hypergraphs
 ![[Hypergraph#^cbd750]]
 ![[Hypergraph#^a8679e|p]]
 
 ---
-#### 4.3 Dependent Random Choice
+#### 4.4 Dependent Random Choice
 ![[Ramsey Number#^bf6551]]
 
 ---
-##### 4.3.1 Ramsey Number of Hypercube
+##### 4.4.1 Ramsey Number of Hypercube
 
 ![[Hypercube (Graph)#^0ce392]]
 ![[Hypercube (Graph)#^6fb7b0|q]]
