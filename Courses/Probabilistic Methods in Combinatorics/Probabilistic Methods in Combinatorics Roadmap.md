@@ -156,7 +156,7 @@
 ##### 4.4.1 Ramsey Number of Hypercube
 
 ![[Hypercube (Graph)#^0ce392]]
-![[Hypercube (Graph)#^6fb7b0|q]]
+![[Hypercube (Graph)#^6fb7b0]]
 
 ---
 ![[Hypercube (Graph)#^7f6399]]

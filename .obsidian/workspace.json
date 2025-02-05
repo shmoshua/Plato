@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1652382bc3c67270",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Hypergraph.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Hypergraph"
-            }
-          },
-          {
             "id": "2158f7029b3c6597",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combinatorics/Sum-Free Set.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sum-Free Set"
+              "title": "Probabilistic Methods in Combinatorics Roadmap"
             }
           },
           {
@@ -53,14 +39,10 @@
             "id": "9b83152ee09618bc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technical Lemmas.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Technical Lemmas"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -280,20 +262,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1652382bc3c67270",
+  "active": "2158f7029b3c6597",
   "lastOpenFiles": [
+    "Graph Theory/Tournament.md",
+    "Technical Lemmas.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Combinatorics/Sum-Free Set.md",
     "Algebra/Algebraic Dependence.md",
+    "Graph Theory/Hypergraph.md",
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Graph.md",
-    "Graph Theory/Tournament.md",
     "Analysis/Landau Notations.md",
     "Algebra/Permanent.md",
-    "Technical Lemmas.md",
     "Combinatorics/Ramsey Number.md",
     "Graph Theory/Cut (Graph).md",
-    "Combinatorics/Sum-Free Set.md",
-    "Graph Theory/Hypergraph.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Primary Ideal.md",
     "Algebra/Krull Dimension.md",

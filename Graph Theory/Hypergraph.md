@@ -47,7 +47,7 @@
 ^cbd750
 
 > [!proof]-
-> Let $H:=(V,E)$ be a $k$-uniform hypergraph with $m$ edges. Then, for every $v\in V$, we draw $x_{v} \sim \mathcal{U}([0,1])$ and sort the vertices into $v_{1},\dots,v_{n}$. We follow the algorithm: 
+> Let $H:=(V,E)$ be a $k$-uniform hypergraph with $m$ edges. Then, for every $v\in V$, we draw $x_{v} \sim \mathcal{U}([0,1])$ independently and sort the vertices into $v_{1},\dots,v_{n}$. We follow the algorithm: 
 > 1. Color $v$ red whenever possible.
 > 2. Color $v$ blue if coloring $v$ red would make some edge incident to $v$ monochromatic red.
 >   
@@ -56,7 +56,7 @@
 > Therefore, for any blue edge a conflicting pair exists and conversely, absence of a conflicting pair would imply that $H$ is $2$-colorable.
 > 
 > Let for some $p\in[0,1]$ define $R:=\left[ 0, \frac{1-p}{2} \right)$, $P:=\left[ \frac{1-p}{2},\frac{1+p}{2} \right]$, $B=\left( \frac{1+p}{2},1 \right]$
-> 1. **Claim 1**: $\mathbb{P}(\exists e\in E:x_{v}\in R, \text{for all }v\in e)=m\left( \frac{1-p}{2} \right)^k=m2^{-k}(1-p)^k\leq m2^{-k}e^{-pk}$
+> 1. **Claim 1**: $\mathbb{P}(\exists e\in E:x_{v}\in R, \text{for all }v\in e)\leq m\left( \frac{1-p}{2} \right)^k=m2^{-k}(1-p)^k\leq m2^{-k}e^{-pk}$
 > 2. **Claim 2**: $\mathbb{P}(\exists e\in E:x_{v}\in B, \text{for all }v\in e)\leq m2^{-k}e^{-pk}$ by symmetry.
 >    
 >  Now, let $(e,f)$ be a pair of edges where $e\cap f=\{ v \}$. Then, $$\begin{align}\mathbb{P}((e,f)\text{ is a conflicting pair}|x_{v}=x)=x^{k-1}(1-x)^{k-1}\end{align}$$Therefore, as $x(1-x)\leq \frac{1}{4}$ for all $x\in[0,1]$: $$\mathbb{P}((e,f)\text{ is a conflicting pair}\land x_{v}\in P)=\int_{\frac{1-p}{2}}^{\frac{1+p}{2}}x^{k-1}(1-x)^{k-1}  \, dx\leq \frac{p}{4^{k-1}} $$
