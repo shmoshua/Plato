@@ -89,12 +89,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Graph Theory/Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tournament"
+              "title": "Graph"
             }
           },
           {
@@ -280,14 +280,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1652382bc3c67270",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
+    "Graph Theory/Graph.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Tournament.md",
     "Analysis/Landau Notations.md",
     "Algebra/Permanent.md",
     "Technical Lemmas.md",
     "Combinatorics/Ramsey Number.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Cut (Graph).md",
     "Combinatorics/Sum-Free Set.md",
     "Graph Theory/Hypergraph.md",
@@ -307,7 +308,6 @@
     "Algebra/Variety.md",
     "Functional Analysis/Spectrum.md",
     "Algebra/Minimal Polynomial.md",
-    "Algebra/Normal Extension.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

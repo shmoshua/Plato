@@ -117,8 +117,20 @@
 ### 4. Methods of Alteration
 ##### 4.1 Dominating Set
 > [!definition]
-> For a graph $G$, $S\subseteq V(G)$ is called a ***dominating set*** if:
-> 1. for all 
+> For a [[graph]] $G$, $S\subseteq V(G)$ is called a ***dominating set*** if:
+> 1. for all $v\notin S$, $N(v)\cap S\neq \varnothing$.
+
+---
+> [!lemma] Proposition 1
+> For any graph $G$, there exists a dominating set of size $\geq \frac{4n\log n}{\delta(G)+1}$.
+
+> [!proof]-
+> As $V(G)$ is a dominating set, if $\delta(G)+1\leq 4\log n$, the results are trivial. Assume $\delta(G)+1\geq 4\log n$. 
+> 
+> Let $S$ be a random set chosen by taking each vertex independently randomly with probability $p\in[0,1]$. Then, $\mathbb{E}[\left| S \right|]=np$. Moreover, $$\mathbb{P}(v\text{ is not covered})=(1-p)^{d(v)+1}\leq(1-p)^{\delta(G)+1}\leq e^{-p(\delta(G)+1)}$$Hence, $\mathbb{E}[\#\text{uncovered elements}]\leq ne^{-p(\delta(G)+1)}$. If $p=\frac{2\log n}{\delta(G)+1}$, then: $$\mathbb{E}[\#\text{uncovered elements}]\leq ne^{-2\log n}=\frac{1}{n}\leq \frac{1}{4}$$Furthermore, by Markov, $$\mathbb{E}\left[ \left| S \right| \geq  \frac{4n\log n}{\delta(G)+1} \right]\leq \frac{1}{2}$$Hence, $S$ is valid with probability at least $1 /4$. This shows that such a set exists. 
+---
+> [!lemma] Proposition 2 (Alteration)
+> For any graph $G$, there exists a dominating set of size $\geq \frac{n(1+\log \delta(G))}{1+\delta(G)}$.
 
 ##### 4.2 High Girth and High Chromatic Number
 ![[Girth and Circumference#^803604]]
