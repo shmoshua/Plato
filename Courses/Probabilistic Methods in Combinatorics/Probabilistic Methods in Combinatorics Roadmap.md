@@ -30,15 +30,17 @@
 ![[Tournament#^67a465|p]]
 
 ---
+#### 1.3 Hypergraph Coloring
 
 ![[Hypergraph#^9201b6]]
-![[Hypergraph#^76aa99|q]]
+![[Hypergraph#^76aa99]]
 ![[Hypergraph#^edbb24|q]]
 ![[Hypergraph#^fd7276|q]]
 ![[Hypergraph#^68e4e2|q]]
 
 ---
 ![[Hypergraph#^3327ed]]
+![[Hypergraph#^4bb28b|p]]
 
 ---
 ![[Hypergraph#^ce5313]]

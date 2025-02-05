@@ -8,15 +8,21 @@
 - **Related definition**: A hypergraph $(V,E)$ is ***$k$-uniform*** if $\left| e \right|=k$ for all $e\in E$. ^76aa99
 - **Remark**: A standard graph is a $2$-uniform hypergraph. ^edbb24
 - **Related definition**: A $k$-coloring of the vertices of a hypergraph $G$ is called ***proper***, if no edge in $G$ is monochromatic. ^fd7276
-- **Related definition**: $m(k)$ is the smallest integer $m$ s.t. there exists a $k$-uniform hypergraph with $m$ edges for which there is no proper 2-coloring. ^68e4e2
+- **Related definition**: $m(k)$ is the smallest integer $m$ s.t. there exists a $k$-uniform hypergraph with $m$ edges for which there is no proper 2-coloring, i.e. $m(k)-1$ is the largest integer $m$ s.t. every $k$-uniform hypergraphs with $m$ edges has a proper $2$-coloring.  ^68e4e2
 ---
 ##### Properties
 > [!lemma] Proposition 1
 > We have that:
 > 1. $m(2)=3$
-> 2. for $k\geq 2$, $2$-colorability is NP-complete.
+> 2. for $k\geq 3$, $2$-colorability is NP-complete.
 
 ^3327ed
+
+> [!proof]-
+> We have that:
+> 1. Consider $K_{3}$, i.e. a triangle. Then, this is $2$-uniform with $3$ edges which has no proper $2$-coloring. Hence, $m(2)\leq 3$. However, consider a graph with two edges, then one can color it with 2 colors!
+
+^4bb28b
 
 ---
 > [!lemma] Proposition 2 (Erdös)
