@@ -12,13 +12,20 @@
 > [!lemma] Proposition 1 (Shamir-Spencer, 1987)
 > Let $G\sim G(n,p)$, i.e. the [[Erdös-Rényi Graph]]. For any $\lambda>0$, $$\mathbb{P}(\left| \chi(G)-\mathbb{E}[\chi(G)] \right| \geq \lambda)\leq 2 \exp \left( -2\lambda^{2} / n \right) $$
 
+^ffc682
+
 > [!proof]-
 > We have that from [[Erdös-Rényi Graph|Remark]] that $\sigma(G)=\sigma(X_{1},\dots,X_{n})$. Let $$\chi(G)=f_{\chi}(X_{1},\dots,X_{n})$$Then, we see that $f_{\chi}$ is $1$-Lipschitz. Therefore, by [[Martingale|McDiarmid]], $$\mathbb{P}(\left| \chi(G)-\mathbb{E}[\chi(G)] \right| \geq \lambda)\leq 2\exp \left( -\frac{2\lambda^{2}}{n} \right) $$
+
+^fb140c
+
 ---
 
 > [!lemma] Theorem 2 (Bollobás, 1988)
 > Let $G\sim G(n , 1/2)$ and $\mu_{k}:={n \choose k}2^{-{k \choose 2}}$. Further, let $k_{0}:=\min\{ k:\mu_{k}<1 \}$.
 > 1. $\mathbb{P}(\alpha(G)<k_{0}-4)\leq \exp(-4n^{2-\text{o}(1)})$
+
+^6db2cc
 
 > [!proof]-
 > Let $k_{1}:=k_{0}-4$. 
@@ -37,6 +44,9 @@
 >    
 > 	   
 > 	Hence, $$\mathbb{E}[Y]\geq q \mu-(1+\text{o}(1))\frac{q^{2}}{2}\frac{k^4}{n^{2}}\mu^{2}\geq (1+\text{o}(1))\frac{n^2}{2k^4}$$for $q=\frac{n^2}{k^4\mu}$.
+
+^dbdce1
+
 ---
 > [!lemma] Theorem 2 (Bollobas)
 > For $G\sim G(n , 1/2)$, w.h.p.$$\chi(G)=(1+\text{o(1)})\frac{n}{2\log_{2}n}$$

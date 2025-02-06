@@ -117,12 +117,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combinatorics/Distinct Subset Sum.md",
+                "file": "Graph Theory/Erdös-Rényi Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Distinct Subset Sum"
+              "title": "Erdös-Rényi Graph"
             }
           },
           {
@@ -131,12 +131,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Landau Notations.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Landau Notations"
+              "title": "Graph Coloring"
             }
           },
           {
@@ -167,7 +167,8 @@
               "title": "Path (Graph)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -312,14 +313,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2158f7029b3c6597",
+  "active": "3f1481e11c2bae6d",
   "lastOpenFiles": [
-    "Combinatorics/Sum-Free Set.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Graph Theory/Graph Coloring.md",
+    "Analysis/Landau Notations.md",
+    "Graph Theory/Erdös-Rényi Graph.md",
+    "Probability Theory/Martingale.md",
     "Combinatorics/Distinct Subset Sum.md",
+    "Combinatorics/Sum-Free Set.md",
     "Topology/Path.md",
     "Graph Theory/Path (Graph).md",
-    "Graph Theory/Erdös-Rényi Graph.md",
     "Probability Theory/Independence.md",
     "Graph Theory/Tournament.md",
     "Graph Theory/Girth and Circumference.md",
@@ -330,7 +334,6 @@
     "Algebra/Algebraic Dependence.md",
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Graph.md",
-    "Analysis/Landau Notations.md",
     "Combinatorics/Ramsey Number.md",
     "Graph Theory/Cut (Graph).md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
@@ -338,8 +341,6 @@
     "Algebra/Krull Dimension.md",
     "Algebra/Ring Extension.md",
     "Algebra/Prime Ideal.md",
-    "Algebra/Noetherian and Artinian Module.md",
-    "Algebra/Localization.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

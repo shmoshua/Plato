@@ -22,8 +22,13 @@
 > Let $f$ be a function on graphs s.t. $\mathbb{E}[\left| f(G) \right|]<+\infty$ for all $n,p$ where $G\sim G(n,p)$. Further, for $V_{i}:=[i]$ and $H_{i}:=G[V_{i}]$, we let $\mathcal{B}_{i}:=\sigma(H_{1},\dots,H_{i})$. Then,
 > 1. $X_{i}:=\mathbb{E}[f(G)|\mathcal{B}_{i}]$ defines a [[Martingale|martingale]] called ***vertex exposure***.
 
+^26d955
+
 > [!proof]-
 > We have that: $$\mathbb{E}[X_{i}|\mathcal{B}_{i-1}]=\mathbb{E}[\mathbb{E}[f(G)|\mathcal{B}_{i}]|\mathcal{B}_{i-1}]=\mathbb{E}[f(G)|\mathcal{B}_{i-1}]=X_{i-1}$$
+
+^f425df
+
 ---
 > [!lemma] Theorem 2 (Triangle Free Random Graphs)
 > Let $G \sim G(n,p)$. 

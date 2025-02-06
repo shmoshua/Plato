@@ -267,3 +267,33 @@
 > Let $T:=\bigcup_{x\in X}^{}(x+S)$ and $y\in T$. We color this uniformly randomly with a color from $[k]$, independently. Then, for all $x\in X$, $B_{x}$ is the event that denotes that $x+S$ is not multicolored. In particular, $\mathbb{P}(B_{x})\leq k\left( 1-\frac{1}{k} \right)^m$. Then, $B_{x}$ is independent of $B_{y}$ except at most $m(m-1)$ elements. Hence, $$ep(d+1)\leq ek\left( 1-\frac{1}{k} \right)^m\cdot m^{2}\leq e^{1+\log k-m/k+2\log m}<1$$
 
 ---
+### 8. Martingales
+![[Martingale#^73ec38]]
+
+
+---
+![[Martingale#^4f0340]]
+![[Martingale#^a70fa3|p]]
+
+---
+![[Martingale#^5db261]]
+![[Martingale#^b83d12|p]]
+![[Martingale#^313187]]
+![[Martingale#^2c7306|q]]
+
+---
+#### 8.1 Random Graph as Martingale
+
+![[Erdös-Rényi Graph#^26d955]]
+![[Erdös-Rényi Graph#^f425df|p]]
+
+---
+##### 8.1.1 Chromatic Number of Random Graphs
+![[Graph Coloring#^ffc682]]
+![[Graph Coloring#^fb140c|p]]
+
+---
+![[Graph Coloring#^6db2cc]]
+![[Graph Coloring#^dbdce1|p]]
+
+---
