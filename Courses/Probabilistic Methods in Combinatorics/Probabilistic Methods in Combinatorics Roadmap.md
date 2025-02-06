@@ -207,3 +207,12 @@
 ![[Erdös-Rényi Graph#^6823b3|q]]
 
 ---
+![[Erdös-Rényi Graph#^a1d995]]
+![[Erdös-Rényi Graph#^fd55e7|p]]
+
+---
+#### 5.4 Clique Number of Random Graphs
+![[Clique#^7a36d7]]
+![[Clique#^05c6d7|p]]
+
+---

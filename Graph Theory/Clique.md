@@ -16,6 +16,8 @@
 > 2. If $k\sim 2\log_{2} n$ and  $\mu_{k}\to \infty$ as $n\to \infty$, then $\omega(G)\geq k$ w.h.p.
 > 3. there exists $k_0\in \mathbb{N}$ s.t. $\omega(G)\in \{k_{0}-1,k_{0}\}$ w.h.p.
 
+^7a36d7
+
 > [!proof]-
 > Let $X_{k}$ be the number of cliques of size $k$ of $G$. Then, $X_{k}=\sum_{S}^{}X_{S}$ where $S\in {V \choose k}$ and $X_{S}$ is the indicator variable if $S$ spans a clique or not. Then,$$\mu_{k}:=\mathbb{E}[X_{k}]={n \choose k}2^{-{k \choose 2}}$$
 > Then, 
@@ -35,5 +37,7 @@
 >    Further, we have that $\mu_{k_{0}-1}>n^{1/2}$. Then, $\mu_{k_{0}-1}\to \infty$ and as $k_{0}-1 \sim 2 \log_{2} n$, $\omega(G)\geq k_{0}+1$ w.h.p. by 3.
 >    
 >    This proves the statement.
+
+^05c6d7
 
 ---

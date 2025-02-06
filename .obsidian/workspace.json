@@ -63,8 +63,7 @@
               "title": "Erdös-Rényi Graph"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -118,12 +117,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Permanent.md",
+                "file": "Graph Theory/Clique.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Permanent"
+              "title": "Clique"
             }
           },
           {
@@ -285,11 +284,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d2507a61adbc416d",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
+    "Graph Theory/Clique.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Erdös-Rényi Graph.md",
-    "Graph Theory/Clique.md",
+    "Algebra/Permanent.md",
     "Combinatorics/Sum-Free Set.md",
     "Combinatorics/Distinct Subset Sum.md",
     "Controls/Equilibrium of a System.md",
@@ -300,7 +300,6 @@
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Graph.md",
     "Analysis/Landau Notations.md",
-    "Algebra/Permanent.md",
     "Combinatorics/Ramsey Number.md",
     "Graph Theory/Cut (Graph).md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",

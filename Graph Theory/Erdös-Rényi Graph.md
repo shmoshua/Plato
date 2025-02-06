@@ -48,11 +48,16 @@
 > We have that:
 > 1. $p_{0}=n^{-2/3}$ is a weak threshold for containing $K_{4}$.
 
+^a1d995
+
 > [!proof]-
 > Let $X$ be the number of $K_{4}$ in $G\sim G(n,p)$. Then, 
 > 1. $\mathbb{E}[X]={n \choose 4}p^6$ and 
 > 2. Let $S,T\in {[n] \choose 4}$. Then, let $X_{S},X_{T}$ be the indicator variables that $G[S]$ and $G[T]$ are cliques.  Then, $$\text{Cov}(X_{S},X_{T})=\begin{cases} p^6-p^{12}&S=T\\p^9-p^{12}&\left| S\cap T \right| =3\\p^{11}-p^{12}&\left| S\cap T \right| =2\\0&\text{otherwise}\end{cases}$$However, for any $k\in\{ 0,1,2,3,4 \}$, the number of ordered pairs $(S,T)$ s.t. $\left| S\cap T \right|=k$ is given by $${n \choose 4}{n -4 \choose 4-k}<n^{8-k}$$Therefore, $$\text{Var}(X)<p^6n^4-p^{12}n^4+p^9 n^5-p^{12}n^5+p^{11}n^6-p^{12}n^6<p^6n^4+p^9 n^5+p^{11}n^6$$
 >    
 > 
-> Let $\varepsilon>0$. Choose $C>\left( \frac{1}{24\varepsilon} \right)^{1/6}$. Then, for all $p<p_{0} / C$, we have that: $$f_{\mathcal{P}}(n,p)=\mathbb{P}(X\geq 1)\leq \mathbb{E}[X]=\frac{1}{4!C^6}<\varepsilon$$and for $p>Cp_{0}$ with $C>4^8\cdot 3 / \varepsilon$, $$\begin{align}1-f_{\mathcal{P}}(n,p)&=\mathbb{P}(X= 0)\leq \frac{\text{Var}(X)}{\mathbb{E}[X]^{2}}<4^8\cdot \frac{p^6n^4+p^9 n^5+p^{11}n^6}{n^8 p^{12}}\\&<4^8\left( \frac{1}{n^4p^6}+\frac{1}{n^3p^3}+\frac{1}{n^2p} \right)\\&\leq 4^8\left( \frac{1}{C^6}+\frac{1}{C^3n}+\frac{1}{Cn^{4/3}} \right)\\&<4^8\cdot 3 \frac{1}{C}<\varepsilon\end{align}$$Therefore, by taking the maximum $p_{0}$ is a weak threshold.
+> Let $\varepsilon>0$. Choose $C>\left( \frac{1}{\varepsilon} \right)^{1/6}$. Then, for all $p<p_{0} / C=n^{-2 /3} / C$, we have that: $$f_{\mathcal{P}}(n,p)=\mathbb{P}(X\geq 1)\leq \mathbb{E}[X]={n \choose 4} p^6 <n^4 p^6<\frac{1}{C^6}<\varepsilon$$and for $p>Cp_{0}=Cn^{-2 / 3}$ with $C>4^8\cdot 3 / \varepsilon$, $$\begin{align}1-f_{\mathcal{P}}(n,p)&=\mathbb{P}(X= 0)\leq \frac{\text{Var}(X)}{\mathbb{E}[X]^{2}}<4^8\cdot \frac{p^6n^4+p^9 n^5+p^{11}n^6}{n^8 p^{12}}\\&<4^8\left( \frac{1}{n^4p^6}+\frac{1}{n^3p^3}+\frac{1}{n^2p} \right)\\&\leq 4^8\left( \frac{1}{C^6}+\frac{1}{C^3n}+\frac{1}{Cn^{4/3}} \right)\\&<4^8\cdot 3 \frac{1}{C}<\varepsilon\end{align}$$Therefore, by taking the maximum $C$, $p_{0}$ is a weak threshold.
+
+^fd55e7
+
 ---
