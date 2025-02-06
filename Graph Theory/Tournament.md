@@ -6,7 +6,7 @@
 ^d0027e
 
 - **Related definition**: A tournament $T_{n}$ has a ***$S_{k}$-property*** if for all $S\subseteq V(T_{n})$ with $\left| S \right|\leq k$, there is a vertex in $T_{n}$ that dominates all vertices in $S$, i.e. there exists $v\in T_{n}$ s.t. $u\to v$ for all $u\in S$. ^00613b
-- **Related definition**: Let $T_{n}$ be a tournament on $[n]$ and $\pi:[n]\to[n]$ a permutation. An edge $i\to j$ is ***consistent*** if $\pi ^{-1}(i)<\pi ^{-1}(j)$. 
+- **Related definition**: Let $T_{n}$ be a tournament on $[n]$ and $\pi:[n]\to[n]$ a permutation. An edge $i\to j$ is ***consistent*** if $\pi ^{-1}(i)<\pi ^{-1}(j)$.  ^81ade0
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Erdös)
@@ -76,16 +76,21 @@
 ###### Consistent Edges
 
 > [!lemma] Theorem 1
-> Let $T$ be a tournament on $[n]$ and let $T_{n}$ be a random tournament. Then, $$f(T):=\max_{\pi\in S_{n}}\left( \#\text{consistent edges}-\#\text{inconsistent edges} \right) $$
+> Let $T$ be a tournament on $[n]$ and let $T_{n}$ be a random tournament. Then, 랙:$$f(T):=\max_{\pi\in S_{n}}\left( \#\text{consistent edges}-\#\text{inconsistent edges} \right) $$
 > 1. $f(T)\geq 0$
-> 2. $f(T_{n})\leq \text{O}(n^{3/2}\sqrt{ \log n })$ almost surely. 
+> 2. $f(T_{n})\leq O(n^{3/2}\sqrt{ \log n })$ with high probability. 
 > 3. (de la Vega) $f(T_{n})\leq O(n^{3/2})$
 
-> [!proof]+
+^e5cad1
+
+> [!proof]-
 > We have that:
 > 1. If $f(T)<0$ with maximum $\pi$, we have that the reverse ordering $\pi'$ turns all consistent edges to inconsistent and vice versa. Therefore, $f(T)>0$, which is a contradiction.
-> 2. Let $X_{ij}$ be a random variable taking a value in $\{ -1,+1 \}$ where: $$X_{ij}=\begin{cases}+1&i\text{ is left to  }j \text{ in ordering }\pi\\-1&\text{otherwise}\end{cases}$$Therefore, we have that $$\mathbb{P}\left( \sum_{i,j}^{}X_{ij}\geq n^{3/2} \sqrt{ \log n } \right)\leq e^{-n^3\log n/n^2}=e^{-n\log n}$$Hence, $$\mathbb{P}\left( f(T_{n})\geq n^{3/2}\sqrt{ \log n } \right)\leq n! e^{-n\log n}\lesssim \left( \frac{n}{e} \right) ^n e^{-n\log n}=e^{-n}\to 0$$
+> 2. Let $X_{ij}$ be a random variable taking a value in $\{ -1,+1 \}$ where: $$X_{ij}=\begin{cases}+1&i\text{ is left to  }j \text{ in ordering }\pi\\-1&\text{otherwise}\end{cases}$$Therefore, we have by Chernoff, $$\mathbb{P}\left( \sum_{i,j}^{}X_{ij}\geq n^{3/2} \sqrt{ \log n } \right)\leq e^{-n^3\log n/n^2}=e^{-n\log n}$$Hence, $$\mathbb{P}\left( f(T_{n})\geq n^{3/2}\sqrt{ \log n } \right)\leq n! e^{-n\log n}\lesssim \left( \frac{n}{e} \right) ^n e^{-n\log n}=e^{-n}\to 0$$
 > 3. Assume $n=2^k$. We will define a partition where: $$V_{i,j}:=\{ \pi(a):2^{k-i}(j-1)<a\leq 2^{k-i}j \}$$Then, $\bigcup_{j}^{}V_{i,j}=V$ for all $i$. Let $E_{i,j}$ be the edges between $V_{i,2j-1}$ and $V_{i,2j}$. Further, let $E_{i}:=\bigcup_{j=1}^{2^{i-1}}E_{i,j}$. Then, $$\left| E_{i} \right| =\sum_{j=1}^{2^{i-1}}\left| E_{i,j} \right| =2^{i-1}2^{2(k-i)}=2^{2k-i-1}=n^22^{-i-1}$$
 >    
 >    Let $X_{i}$ be the number of inconsistent edges in $E_{i}$. Then, by Chernoff, $$\mathbb{P}(X_{i}\geq n^{3/2}2^{-i/2}\sqrt{ i })\leq e^{-ni}$$Hence, $$\mathbb{P}\left( \sum_{i=1}^{k}X_{i}\geq n^{3/2}\sum_{i=1}^{k}2^{-i/2}\sqrt{ i } \right)\leq \sum_{i=1}^{k}e^{-ni}$$
+
+^8ad1a0
+
 ---

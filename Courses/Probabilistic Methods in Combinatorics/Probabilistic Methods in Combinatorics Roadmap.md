@@ -220,5 +220,22 @@
 > [!lemma] Theorem 1 (Chernoff)
 > Let $X_{1},\dots,X_{n}$ be independent Bernoulli random variables valued in $\{ +1,-1 \}$ with probability $1 / 2$. Then, for $X:=\sum_{i=1}^{n}X_{i}$, $$\mathbb{P}(X\leq -t)=\mathbb{P}(X \geq t)\leq \exp \left( -\frac{t^2}{2n} \right) ,\quad \forall t> 0$$
 
-> [!proof]+
+> [!proof]-
 > By Markov, $$\mathbb{P}(X \geq t)\leq \mathbb{P}(e^{cX}\geq e^{ct})\leq \frac{\mathbb{E}[e^{cX}]}{e^{ct}}$$where: $$\mathbb{E}[e^{cX}]=\mathbb{E}\left[ \prod_{i=1}^{n}e^{cX_{i}} \right] =\prod_{i=1}^{n}\mathbb{E}[e^{cX_{i}}]=\mathbb{E}[e^{cX_{i}}]^n=\left( \frac{e^{c}+e^{-c}}{2} \right) ^n$$Hence, $$\mathbb{P}(X\geq t)\leq \exp \left( \frac{c^2n}{2}-ct \right) $$By choosing $c=\frac{t}{n}$, we have that: $\mathbb{P}(X\geq t)\leq \exp \left( \frac{t^{2}}{2n}-\frac{t^{2}}{n} \right)=\exp \left( -\frac{t^{2}}{2n} \right)$
+---
+> [!lemma] Corollary 2 (Chernoff)
+>  Let $X_{1},\dots,X_{n}$ be independent Bernoulli random variables valued in $\{ 0,1 \}$ with probability $1 / 2$. Then, for $X:=\sum_{i=1}^{n}X_{i}$, $$\mathbb{P}\left( X\leq \frac{n}{2}-t \right)=\mathbb{P}\left( X \geq \frac{n}{2}+ t \right)\leq \exp \left( -\frac{2t^2}{n} \right) ,\quad \forall t> 0$$
+
+> [!proof]-
+> Apply Theorem 1 on $Y_{i}:=2X_{i} -1$. 
+
+---
+#### 6.1 Random Tournaments
+![[Tournament#^d0027e]]
+![[Tournament#^81ade0]]
+
+---
+![[Tournament#^e5cad1]]
+![[Tournament#^8ad1a0|p]]
+
+---

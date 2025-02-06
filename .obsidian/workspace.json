@@ -63,7 +63,8 @@
               "title": "Erdös-Rényi Graph"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -284,17 +285,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "426a3c97ada45d5c",
+  "active": "31698f89ced7e387",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Graph Theory/Tournament.md",
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Clique.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Algebra/Permanent.md",
     "Combinatorics/Sum-Free Set.md",
     "Combinatorics/Distinct Subset Sum.md",
     "Controls/Equilibrium of a System.md",
-    "Graph Theory/Tournament.md",
     "Technical Lemmas.md",
     "Algebra/Algebraic Dependence.md",
     "Graph Theory/Hypergraph.md",
