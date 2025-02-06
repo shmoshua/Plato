@@ -297,4 +297,13 @@
 ![[Graph Coloring#^dbdce1|p]]
 
 ---
-##### 8.1.2 Isoperimetric Inequality for Hamming Cube
+### 9. Correlation Inequalities
+![[Increasing and Decreasing Event#^8f65f7]]
+
+![[Increasing and Decreasing Event#^138747]]
+
+---
+![[Increasing and Decreasing Event#^ec589e]]
+![[Increasing and Decreasing Event#^541d26|p]]
+
+---

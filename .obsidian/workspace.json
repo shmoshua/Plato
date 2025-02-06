@@ -81,14 +81,10 @@
             "id": "d2507a61adbc416d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Path.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Path"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -198,7 +194,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hamming cube",
+                "query": "correlation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -312,21 +308,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "426a3c97ada45d5c",
+  "active": "2158f7029b3c6597",
   "lastOpenFiles": [
-    "Graph Theory/Graph Coloring.md",
+    "Graph Theory/Clique.md",
+    "Topology/Path.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Analysis/Landau Notations.md",
     "Graph Theory/Erdös-Rényi Graph.md",
+    "Graph Theory/Graph Coloring.md",
+    "Analysis/Landau Notations.md",
     "Probability Theory/Martingale.md",
     "Combinatorics/Distinct Subset Sum.md",
     "Combinatorics/Sum-Free Set.md",
-    "Topology/Path.md",
     "Graph Theory/Path (Graph).md",
     "Probability Theory/Independence.md",
     "Graph Theory/Tournament.md",
     "Graph Theory/Girth and Circumference.md",
-    "Graph Theory/Clique.md",
     "Algebra/Permanent.md",
     "Controls/Equilibrium of a System.md",
     "Technical Lemmas.md",
