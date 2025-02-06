@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combinatorics/Distinct Subset Sum.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Distinct Subset Sum"
+              "title": "Probabilistic Methods in Combinatorics Roadmap"
             }
           },
           {
@@ -121,8 +121,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -266,10 +265,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2158f7029b3c6597",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
-    "Combinatorics/Sum-Free Set.md",
     "Combinatorics/Distinct Subset Sum.md",
+    "Combinatorics/Sum-Free Set.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Controls/Equilibrium of a System.md",
     "Graph Theory/Girth and Circumference.md",
