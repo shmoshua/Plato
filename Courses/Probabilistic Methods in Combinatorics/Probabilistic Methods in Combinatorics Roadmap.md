@@ -195,8 +195,15 @@
 > [!lemma] Theorem 1 (Hardy-Ramanujan)
 > Let $w(n)$ be an arbitrary function s.t. $\lim_{ n \to \infty }\omega(n)=\infty$. The number of positive numbers $x\leq n$ s.t. $$\left| \nu(x)-\log \log n \right| >\omega(n)\sqrt{ \log \log n }$$is $o(n)$.
 
-> [!proof]+ Proof (Turan)
+> [!proof]- Proof (Turan)
 > Let $x\in[n]$ be chosen uniformly. For every prime $p$, we define $x_{p}$ as the indicator variable with $x_{p}=1$ if and only if $p|x$. Then, $\nu(x)=\sum_{p\leq n}^{}x_{p}$. 
 > 
-> Let $Z:=\sum_{p\leq N}^{} x_{p}$ with $N:=n^{1 / 3}$. Note that any number at most $n$ can have at most $2$ prime divisors of size at least $n^{1 / 3}$. Hence, $\left| Z-\nu(x) \right|\leq 2$. Therefore, it suffices to show that: $$\mathbb{P}(\left| Z-\log \log n \right| > \omega(n)\sqrt{ \log \log n })\to 0$$We have: $$\mathbb{E}[Z]=\sum_{p<N}^{}\frac{\left\lfloor n / p\right\rfloor }{n}=\sum_{p<N}^{}\left( \frac{1}{p}+O\left( \frac{1}{n} \right) \right)=\log \log N+O(1) $$For the variance, $$\text{Var}(x_{p})=\mathbb{E}[x_{p}^{2}]-\mathbb{E}[x_{p}]^{2}=\frac{1}{p}-\frac{1}{p^{2}}+O\left( \frac{1}{n} \right)$$and $$\text{Cov}(x_{p},x_{q})=$$
-> 
+> Let $Z:=\sum_{p\leq N}^{} x_{p}$ with $N:=n^{1 / 3}$. Note that any number at most $n$ can have at most $2$ prime divisors of size at least $n^{1 / 3}$. Hence, $\left| Z-\nu(x) \right|\leq 2$. Therefore, it suffices to show that: $$\mathbb{P}(\left| Z-\log \log n \right| > \omega(n)\sqrt{ \log \log n })\to 0$$We have: $$\mathbb{E}[Z]=\sum_{p<N}^{}\frac{\left\lfloor n / p\right\rfloor }{n}=\sum_{p<N}^{}\left( \frac{1}{p}+O\left( \frac{1}{n} \right) \right)=\log \log N+O(1) $$For the variance, $$\text{Var}(x_{p})=\mathbb{E}[x_{p}^{2}]-\mathbb{E}[x_{p}]^{2}=\frac{1}{p}-\frac{1}{p^{2}}+O\left( \frac{1}{n} \right)$$and $$\begin{align}\text{Cov}(x_{p},x_{q})&=\frac{1}{pq}+O\left( \frac{1}{n} \right)-\left( \frac{1}{p}+O\left( \frac{1}{n} \right) \right) \left( \frac{1}{q}+O\left( \frac{1}{n} \right) \right) \\&=O\left( \frac{1}{n} \right)-O\left( \frac{1}{qn} +\frac{1}{pn}+\frac{1}{n^{2}}\right)\\&=O\left( \frac{1}{n} \right)\end{align}$$Therefore, $\sum_{p<q<N}^{}\text{Cov}(x_{p},x_{q})=O\left( \frac{N^2}{n} \right)=o(1)$ and: $$\text{Var}(Z)=o(1)+\sum_{p<N}^{}\text{Var}(x_{p})\leq o(1)+\sum_{p<N}^{} \frac{1}{p}=\log \log N+O(1)$$Hence, $$\mathbb{P}(\left| Z - \mathbb{E}[Z] \right| > \omega(n)\sqrt{ \log \log n })\leq \frac{\text{Var}(Z)}{\omega(n)^2\log \log n}=O\left( \frac{1}{\omega(n)^{2}} \right)=o(1) $$
+
+---
+#### 5.3 Threshold Functions
+![[Erdös-Rényi Graph#^2cce3e]]
+![[Erdös-Rényi Graph#^f62064]]
+![[Erdös-Rényi Graph#^6823b3|q]]
+
+---

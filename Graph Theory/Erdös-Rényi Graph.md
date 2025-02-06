@@ -4,11 +4,14 @@
 > Let $n\in \mathbb{N}$ and $p\in[0,1]$. The ***Erdös-Rényi graph*** $G:=(V:=[n],E)$ is an [[graph|undirected graph]] given by a distribution $G\sim G(n,p)$ where for each $e\in {V \choose 2}$, 
 > 1. $\mathbb{P}(e\in E)=p$ for all $e\in {V \choose 2}$
 > 2. $\{ \mathbb{1}_{e\in E} \}_{e\in {V \choose 2}}$ are [[Independence|independent]].
-- **Remark**: Notice that $\sigma(G)=\sigma(X_{1},\dots,X_{n})$ where $X_{i}\in \{ 0,1 \}^{i-1}$ where $X_{i,j}=1$ if and only if $\{ i,j \}\in E$. Further, $X_{1},\dots,X_{n}$ are independent. 
-- **Related definition**: For a graph property $\mathcal{P}$ and $G\sim G(n,p)$, let $f_{\mathcal{P}}(n,p):=\mathbb{P}(G\text{ has }\mathcal{P})$. 
-	1. A ***weak threshold*** is a function $p_{0}:\mathbb{N}\to [0,1]$ s.t. for every $\varepsilon>0$ there exists $C>1$ with:
-		1. $f_{\mathcal{P}}(n,p)<\varepsilon$ for all $p<p_{0}/C$
-		2. $f_{\mathcal{P}}(n,p)> 1-\varepsilon$ for all $p>Cp_{0}$.
+
+^2cce3e
+
+- **Remark**: Notice that $\sigma(G)=\sigma(X_{1},\dots,X_{n})$ where $X_{i}\in \{ 0,1 \}^{i-1}$ where $X_{i,j}=1$ if and only if $\{ i,j \}\in E$. Further, $X_{1},\dots,X_{n}$ are independent.  ^f62064
+- **Related definition**: For a graph property $\mathcal{P}$ and $G\sim G(n,p)$, let $f_{\mathcal{P}}(n,p):=\mathbb{P}(G\text{ has }\mathcal{P})$.  ^6823b3
+	1. A ***weak threshold*** is a function $p_{0}:\mathbb{N}\to [0,1]$ s.t. for every $\varepsilon>0$ there exists $C>1$ s.t. for every $n$:
+		1. $f_{\mathcal{P}}(n,p)<\varepsilon$ for all $p<p_{0}(n)/C$
+		2. $f_{\mathcal{P}}(n,p)> 1-\varepsilon$ for all $p>Cp_{0}(n)$.
 	2. A ***sharp threshold*** is a function $p_{0}:\mathbb{N}\to [0,1]$ s.t. for every $\varepsilon>0$:
 		1. $f_{\mathcal{P}}(p)=\text{o}(1)$ if $p<(1-\varepsilon)p_{0}$ and 
 		2. $f_{\mathcal{P}}(p)=1-\text{o}(1)$ if $p>(1+\varepsilon)p_{0}$
