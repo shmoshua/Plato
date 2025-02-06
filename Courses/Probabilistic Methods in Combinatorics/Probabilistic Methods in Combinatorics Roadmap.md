@@ -172,4 +172,14 @@
 ![[Hypercube (Graph)#^c5ab08]]
 
 ---
+### 5. Second Moment Method
+![[Expected Value#^0e786a]]
+![[Expected Value#^f56d8e|p]]
 
+---
+![[Variance#^a34f60]]
+![[Variance#^d93e5b|p]]
+
+---
+#### 5.1 Distinct Subset Sum
+![[Sum-Free Set#^a38971]]

@@ -11,6 +11,8 @@
 > 3. for every $a\in \mathbb{R}$, $\mathbb{E}[(X-a)^{2}]=\text{Var}(X)+(\mathbb{E}[X]-a)^{2}$
 > 5. $\text{Var}(X)=\inf_{a\in \mathbb{R}}\mathbb{E}[(X-a)^{2}]$
 
+^0bf01f
+
 > [!proof]-
 > We have:
 > 1. if $\text{Var}(X)=0$, then $\mathbb{E}[(X-\mathbb{E[X]})^{2}]=0$. Then, by [[Expected Value|Theorem 3]], $X-\mathbb{E}[X]=0$ almost surely. 
@@ -36,6 +38,8 @@
 > 1. if $\text{Var}(X)=\text{o}(\mathbb{E}[X]^{2})$ then $X>0$ almost surely.
 > 2. if $\text{Var}(X)=\text{o}(\mathbb{E}[X]^{2})$ then $X\sim \mathbb{E}[X]$ almost surely.
 
+^a34f60
+
 
 > [!proof]-
 > We have:
@@ -43,6 +47,9 @@
 > 1. $\mathbb{P}(X=0)\leq \text{o}(1)$.
 > 2. For any $\varepsilon>0$, $\mathbb{P}\left( \left| \frac{X}{\mathbb{E}[X]}-1 \right|\geq \varepsilon \right)\leq \frac{1}{\varepsilon^{2}}\text{o}(1)=\text{o}(1)$
 > 3. By [[Expected Value|Chebyshev]] for any $\varepsilon>0$: $$\mathbb{P}(X=0)\leq \mathbb{P}(X\leq \varepsilon \mathbb{E}[X])\leq\mathbb{P}(\left| X-\mathbb{E}[X] \right| \geq  \varepsilon \mathbb{E}[X])\leq \frac{\text{Var}(X)}{\varepsilon^{2} \mathbb{E}[X]^{2}} = \text{o}(1)$$
+
+^d93e5b
+
 ---
 > [!lemma] Theorem 4
 > Let $A_{1},\dots,A_{m}\in \mathcal{A}$. Then, we define $i\sim j$ if and only if $A_{i},A_{j}$ are not independent. Further, let $X:=\mathbb{1}_{A_{1}}+\dots+\mathbb{1}_{A_{m}}$ and define: $$\Delta:=\sum_{i\sim j}^{}\mathbb{P}(A_{i}\land A_{j}),\quad \Delta ^{*}:=\max_{i} \sum_{j: j \sim i}^{}\mathbb{P}(A_{j}|A_{i})$$

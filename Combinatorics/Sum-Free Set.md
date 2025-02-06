@@ -12,7 +12,7 @@
 
 ^ae3312
 
-> [!proof]+
+> [!proof]-
 > As there are infinitely many primes of form $3k+2$, we can choose $p=3k+2$ s.t. $p>2\cdot \max_{a\in A}\left| a \right|$. 
 > 
 > Then, we can treat $A$ as a subset of $\mathbb{Z} / p\mathbb{Z} \backslash \{ 0 \}$. Let $I=[k+1,2k+1]$. Notice that $I$ is sum-free. 

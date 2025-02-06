@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+                "file": "Combinatorics/Distinct Subset Sum.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probabilistic Methods in Combinatorics Roadmap"
+              "title": "Distinct Subset Sum"
             }
           },
           {
@@ -39,10 +39,14 @@
             "id": "9b83152ee09618bc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Combinatorics/Sum-Free Set.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Sum-Free Set"
             }
           }
         ]
@@ -71,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
+                "file": "Combinatorics/Distinct Subset Sum.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Girth and Circumference"
+              "title": "Distinct Subset Sum"
             }
           },
           {
@@ -117,7 +121,8 @@
               "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,8 +174,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -264,13 +268,15 @@
   },
   "active": "2158f7029b3c6597",
   "lastOpenFiles": [
+    "Combinatorics/Sum-Free Set.md",
+    "Combinatorics/Distinct Subset Sum.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Controls/Equilibrium of a System.md",
+    "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Tournament.md",
     "Technical Lemmas.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Combinatorics/Sum-Free Set.md",
     "Algebra/Algebraic Dependence.md",
     "Graph Theory/Hypergraph.md",
-    "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Graph.md",
     "Analysis/Landau Notations.md",
     "Algebra/Permanent.md",
@@ -288,8 +294,6 @@
     "Algebra/Ideal (Ring).md",
     "Algebra/Algebra.md",
     "Algebra/Algebraic and Transcendental Element.md",
-    "Algebra/Variety.md",
-    "Functional Analysis/Spectrum.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
