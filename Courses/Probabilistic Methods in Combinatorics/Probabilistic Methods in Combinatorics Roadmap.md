@@ -216,3 +216,9 @@
 ![[Clique#^05c6d7|p]]
 
 ---
+### 6. Concentration
+> [!lemma] Theorem 1 (Chernoff)
+> Let $X_{1},\dots,X_{n}$ be independent Bernoulli random variables valued in $\{ +1,-1 \}$ with probability $1 / 2$. Then, for $X:=\sum_{i=1}^{n}X_{i}$, $$\mathbb{P}(X\leq -t)=\mathbb{P}(X \geq t)\leq \exp \left( -\frac{t^2}{2n} \right) ,\quad \forall t> 0$$
+
+> [!proof]+
+> By Markov, $$\mathbb{P}(X \geq t)\leq \mathbb{P}(e^{cX}\geq e^{ct})\leq \frac{\mathbb{E}[e^{cX}]}{e^{ct}}$$where: $$\mathbb{E}[e^{cX}]=\mathbb{E}\left[ \prod_{i=1}^{n}e^{cX_{i}} \right] =\prod_{i=1}^{n}\mathbb{E}[e^{cX_{i}}]=\mathbb{E}[e^{cX_{i}}]^n=\left( \frac{e^{c}+e^{-c}}{2} \right) ^n$$Hence, $$\mathbb{P}(X\geq t)\leq \exp \left( \frac{c^2n}{2}-ct \right) $$By choosing $c=\frac{t}{n}$, we have that: $\mathbb{P}(X\geq t)\leq \exp \left( \frac{t^{2}}{2n}-\frac{t^{2}}{n} \right)=\exp \left( -\frac{t^{2}}{2n} \right)$

@@ -170,7 +170,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "graph property",
+                "query": "chernoff",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -284,7 +284,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Clique.md",
