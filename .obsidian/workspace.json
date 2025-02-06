@@ -117,12 +117,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Clique.md",
+                "file": "Graph Theory/Girth and Circumference.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Clique"
+              "title": "Girth and Circumference"
             }
           },
           {
@@ -286,6 +286,7 @@
   },
   "active": "9b9313d05c25084b",
   "lastOpenFiles": [
+    "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Clique.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Erdös-Rényi Graph.md",
@@ -293,7 +294,6 @@
     "Combinatorics/Sum-Free Set.md",
     "Combinatorics/Distinct Subset Sum.md",
     "Controls/Equilibrium of a System.md",
-    "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Tournament.md",
     "Technical Lemmas.md",
     "Algebra/Algebraic Dependence.md",
