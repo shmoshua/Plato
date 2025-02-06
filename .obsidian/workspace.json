@@ -22,7 +22,35 @@
             }
           },
           {
+            "id": "f559adca2b4bcd3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Independence.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Independence"
+            }
+          },
+          {
             "id": "31698f89ced7e387",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Tournament.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Tournament"
+            }
+          },
+          {
+            "id": "e55a14a220976916",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -63,8 +91,7 @@
               "title": "Erdös-Rényi Graph"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -171,7 +198,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "chernoff",
+                "query": "lov",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -285,8 +312,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "31698f89ced7e387",
+  "active": "2158f7029b3c6597",
   "lastOpenFiles": [
+    "Probability Theory/Independence.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Tournament.md",
     "Graph Theory/Girth and Circumference.md",
@@ -312,7 +340,6 @@
     "Algebra/Localization.md",
     "Algebra/Local Ring.md",
     "Algebra/Ring Homomorphism.md",
-    "Algebra/Ideal (Ring).md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

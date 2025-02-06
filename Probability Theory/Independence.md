@@ -96,6 +96,9 @@
 > 3. $ep(d+1)\leq 1$.
 > 
 > Then, $\mathbb{P}\left( \bigcap_{i=1}^{m}B_{i}^c \right)>0$.
+
+^734148
+
 ---
 ##### Examples
 ##### Non-Examples
