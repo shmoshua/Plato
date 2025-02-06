@@ -239,7 +239,7 @@
 ![[Tournament#^8ad1a0|p]]
 
 ---
-### 7. Lovasz Local Lemma
+### 7. Lovász Local Lemma
 
 ![[Independence#^734148]]
 
@@ -247,5 +247,23 @@
 #### 7.1 Colorability of Hypergraphs
 ![[Hypergraph#^4d93b1]]
 ![[Hypergraph#^dc5d32|p]]
+
+---
+#### 7.2 Directed Cycles of Certain Length
+![[Path (Graph)#^eb646f]]
+![[Path (Graph)#^c1e54e|p]]
+
+---
+#### 7.3 Multicolored Set of Real Numbers
+> [!definition]
+> For a function $f:\mathbb{R}\to [k]$, a subset $T\subseteq \mathbb{R}$ is called ***multicolored*** if $f(T)=[k]$.
+---
+> [!lemma] Theorem 1
+> Let $m,k\in \mathbb{N}$ and $m>11 k \log k> 0$. Then, for any $S\subseteq \mathbb{R}$ of size $\left| S \right|=m$, there is a function $f:\mathbb{R}\to [k]$ s.t. for any $x\in \mathbb{R}$, $x+S$ is multicolored w.r.t. $f$.
+
+> [!proof]-
+> We will show the statement holds for all finite $X\subseteq R$ and $x\in X$. Then, the rest follows from [[Compact Space|Tychonov]]. 
+> 
+> Let $T:=\bigcup_{x\in X}^{}(x+S)$ and $y\in T$. We color this uniformly randomly with a color from $[k]$, independently. Then, for all $x\in X$, $B_{x}$ is the event that denotes that $x+S$ is not multicolored. In particular, $\mathbb{P}(B_{x})\leq k\left( 1-\frac{1}{k} \right)^m$. Then, $B_{x}$ is independent of $B_{y}$ except at most $m(m-1)$ elements. Hence, $$ep(d+1)\leq ek\left( 1-\frac{1}{k} \right)^m\cdot m^{2}\leq e^{1+\log k-m/k+2\log m}<1$$
 
 ---

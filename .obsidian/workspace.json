@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md",
+                "file": "Topology/Path.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Erdös-Rényi Graph"
+              "title": "Path"
             }
           }
         ]
@@ -159,12 +159,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md",
+                "file": "Graph Theory/Path (Graph).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Erdös-Rényi Graph"
+              "title": "Path (Graph)"
             }
           }
         ]
@@ -198,7 +198,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lov",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -314,15 +314,17 @@
   },
   "active": "2158f7029b3c6597",
   "lastOpenFiles": [
-    "Probability Theory/Independence.md",
+    "Combinatorics/Sum-Free Set.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Combinatorics/Distinct Subset Sum.md",
+    "Topology/Path.md",
+    "Graph Theory/Path (Graph).md",
+    "Graph Theory/Erdös-Rényi Graph.md",
+    "Probability Theory/Independence.md",
     "Graph Theory/Tournament.md",
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Clique.md",
-    "Graph Theory/Erdös-Rényi Graph.md",
     "Algebra/Permanent.md",
-    "Combinatorics/Sum-Free Set.md",
-    "Combinatorics/Distinct Subset Sum.md",
     "Controls/Equilibrium of a System.md",
     "Technical Lemmas.md",
     "Algebra/Algebraic Dependence.md",
@@ -338,8 +340,6 @@
     "Algebra/Prime Ideal.md",
     "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Localization.md",
-    "Algebra/Local Ring.md",
-    "Algebra/Ring Homomorphism.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

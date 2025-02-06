@@ -25,6 +25,8 @@
 > Let $k\in \mathbb{Z}_{\geq 1}$ and $D=(V,E)$ a finite digraph with $\Delta^-$ and $\delta^+$ as the maximal in-degree and minimal out-degree. 
 > 1. If it holds that: $$e((\delta^++1)\Delta^-+1)\left( 1-\frac{1}{k} \right) ^{\delta^+}\leq 1$$then $D$ contains a directed cycle of length divisible by $k$.
 
+^eb646f
+
 > [!proof]-
 > Let's first remove edges until there are exactly $\delta^+$ out-neighbors for each node. Then, $\delta^+$ stays the same and $\Delta^-$ decreases but the condition still holds. Further, any circle in the new digraph is also one in the old one. 
 > 
@@ -37,5 +39,7 @@
 >    For each $x\in N^+(v)$, there are at most $\Delta^-$ vertices $u\neq v$ that could be either $u=x$ or $u\to x\in E$. Hence, the total number of vertices $u\neq v$ s.t. $\{ u \}\cup N^+(u)$ intersects $\{ v \}\cup N^+(v)$ is at most $(\delta^++1)\Delta^-$.
 > 
 > Therefore, by the local lemma, $\mathbb{P}\left( \bigcap_{v\in V}^{}B_{v}^c \right)>0$. 
+
+^c1e54e
 
 ---
