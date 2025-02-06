@@ -167,8 +167,7 @@
               "title": "Path (Graph)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,7 +198,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hamming cube",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -313,10 +312,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3f1481e11c2bae6d",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Graph Coloring.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Analysis/Landau Notations.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Probability Theory/Martingale.md",
