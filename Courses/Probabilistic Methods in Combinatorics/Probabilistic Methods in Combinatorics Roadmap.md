@@ -149,11 +149,11 @@
 ![[Hypergraph#^a8679e|p]]
 
 ---
-#### 4.4 Dependent Random Choice
+##### 4.4 Dependent Random Choice
 ![[Ramsey Number#^bf6551]]
 
 ---
-##### 4.4.1 Ramsey Number of Hypercube
+###### 4.4.1 Ramsey Number of Hypercube
 
 ![[Hypercube (Graph)#^0ce392]]
 ![[Hypercube (Graph)#^6fb7b0]]
@@ -169,6 +169,7 @@
 ---
 ![[Hypercube (Graph)#^d2c90f]]
 ![[Hypercube (Graph)#^e87ba0|p]]
-![[Hypercube (Graph)#^c5ab08|q]]
+![[Hypercube (Graph)#^c5ab08]]
 
 ---
+
