@@ -2,16 +2,20 @@
 
 > [!definition]
 > Let $R\in \{ 0,1 \}^N$ a random subset with $\mathbb{P}(R_{i}=1)=p_{i}$ independently. Further, let $S_{1},\dots,S_{k}\in \{ 0,1 \}^N$.
-> 1. $A_{i}$ denotes the event that $S_{i}\subseteq R$, i.e. $S_{i}\leq R$.
-> 2. $X:=\sum_{i\in[k]}^{}\mathbb{1}_{A_{i}}$
-> 3. $\mu:=\mathbb{E}\left[ \sum_{i\in[k]}^{}\mathbb{1}_{A_{i}} \right]=\sum_{i\in[k]}^{}\mathbb{P}(S_{i}\subseteq R)$
+> 1. $X:=\sum_{i\in[k]}^{}\mathbb{1}_{A_{i}}$ where $A_{i}$ denotes the event that $S_{i}\subseteq R$, i.e. $S_{i}\leq R$.
+> 3. $\mu:=\mathbb{E}\left[ X\right]=\sum_{i\in[k]}^{}\mathbb{P}(S_{i}\subseteq R)$
 > 4. $\Delta:=\sum_{(i,j):i \sim j}^{}\mathbb{P}(A_{i}\cap A_{j})=\sum_{(i,j):i \sim j}^{}\mathbb{P}(S_{i}\cup S_{j}\subseteq R)$ where $i\sim j$ iff $i\neq j$ and $S_{i}\cap S_{j}\neq \varnothing$. 
+
+^8d186c
+
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Janson Inequality)
 > We have that:
 > 1. $\mathbb{P}(X=0)\leq \exp \left( -\mu+\frac{\Delta}{2} \right)$
 > 2. $\mathbb{P}(X=0)\leq \exp \left( -\frac{\mu^2}{2\Delta} \right)$ if $\Delta\geq \mu$.
+
+^594f12
 
 > [!proof]-
 > We have that: 
@@ -21,6 +25,8 @@
 > 	2. $\mathbb{E}[\Delta_{T}]=\mathbb{E}\left[ \sum_{(i,j)\in T^{2}: i\sim j}^{}\mathbb{P}(A_{i}\cap A_{j}) \right]=q^{2}\sum_{(i,j): i\sim j}^{}\mathbb{P}(A_{i}\cap A_{j})=q^{2}\Delta$.
 > 	
 > 	Therefore, $\mathbb{E}[-\mu_{T}+\Delta_{T} / 2]=-q\mu+q^{2}\Delta / 2$. Hence, we have that if we choose $q=\frac{\mu}{\Delta}$, then: $$\mathbb{P}(X=0)\leq \exp \left( -q\mu+\frac{q^{2}\Delta}{2} \right)=\exp \left( - \frac{\mu^{2}}{\Delta}+\frac{\mu^{2}}{2\Delta}\right) =\exp \left( -\frac{\mu^{2}}{2\Delta} \right) $$where $q\leq 1$ as $\mu\leq \Delta$.
+
+^8fceb3
 
 ---
 ##### Examples
