@@ -191,8 +191,7 @@
               "title": "Integral Operator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -336,8 +335,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8d81f0a52482dd59",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
@@ -363,7 +363,6 @@
     "Combinatorics/Distinct Subset Sum.md",
     "Probability Theory/Independence.md",
     "Graph Theory/Girth and Circumference.md",
-    "Algebra/Permanent.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
