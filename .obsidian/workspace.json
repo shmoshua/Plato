@@ -127,12 +127,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Planar Graph.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Planar Graph"
+              "title": "Assignment 2"
             }
           },
           {
@@ -192,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -244,8 +244,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -337,11 +336,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8b43475bf381fc01",
+  "active": "8d81f0a52482dd59",
   "lastOpenFiles": [
-    "Set Theory/Intersecting Family.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Planar Graph.md",
+    "Functional Analysis/Integral Operator.md",
+    "Set Theory/Intersecting Family.md",
     "Graph Theory/Independent Set.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Combinatorics/Janson Inequality.md",
@@ -363,8 +364,6 @@
     "Graph Theory/Girth and Circumference.md",
     "Algebra/Permanent.md",
     "Controls/Equilibrium of a System.md",
-    "Technical Lemmas.md",
-    "Algebra/Algebraic Dependence.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
