@@ -1,4 +1,4 @@
-#Definition #SetTheory
+#Definition #Combinatorics 
 
 > [!definition]
 > Let $\mathcal{F}$ be a family of subsets of $[n]$. $\mathcal{F}$ is an ***intersecting family*** if 

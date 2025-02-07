@@ -99,10 +99,24 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:#Combinatorics  ",
       "color": {
         "a": 1,
-        "rgb": 6084269
+        "rgb": 53567
+      }
+    },
+    {
+      "query": "tag:#Algorithms  ",
+      "color": {
+        "a": 1,
+        "rgb": 18203
+      }
+    },
+    {
+      "query": "tag:#LST  ",
+      "color": {
+        "a": 1,
+        "rgb": 16753152
       }
     }
   ],
@@ -117,5 +131,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.22897978385926296,
-  "close": false
+  "close": true
 }

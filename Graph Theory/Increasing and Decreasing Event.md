@@ -1,4 +1,4 @@
-#Definition #ProbabilisticMethods 
+#Definition #Combinatorics 
 
 > [!definition]
 > Let $\Omega:=\{ 0,1 \}^N$ with $\mathcal{A}:=2^\Omega$ and there exists $p_{1},\dots,p_{N}$ s.t. $\mathbb{P}(\omega)=\prod_{i:\omega_{i}=1}^{}p_{i}\prod_{j:\omega_{j}=0}(1-p_{j})$.

@@ -1,4 +1,4 @@
-#ProbabilisticMethods #Definition 
+#Definition #Combinatorics 
 
 > [!definition]
 > We have that: 

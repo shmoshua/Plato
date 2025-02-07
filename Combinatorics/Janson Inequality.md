@@ -1,4 +1,4 @@
-#Definition 
+#Definition #Combinatorics 
 
 > [!definition]
 > Let $R\in \{ 0,1 \}^N$ a random subset with $\mathbb{P}(R_{i}=1)=p_{i}$ independently. Further, let $S_{1},\dots,S_{k}\in \{ 0,1 \}^N$.

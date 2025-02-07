@@ -1,4 +1,4 @@
-#Definition #ProbabilisticMethods 
+#Definition #Combinatorics 
 
 > [!definition]
 > Let $A\subseteq \mathbb{Z} \backslash \{ 0 \}$. A set $B\subseteq A$ is ***sum-free*** if $b_{1}+b_{2}\neq b_{3}$ for all $b_{1},b_{2},b_{3}\in B$. 
