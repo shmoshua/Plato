@@ -183,15 +183,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Set Theory/Intersecting Family.md",
+                "file": "Functional Analysis/Integral Operator.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Intersecting Family"
+              "title": "Integral Operator"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -336,17 +337,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "426a3c97ada45d5c",
+  "active": "8b43475bf381fc01",
   "lastOpenFiles": [
-    "Graph Theory/Planar Graph.md",
+    "Set Theory/Intersecting Family.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Graph Theory/Planar Graph.md",
     "Graph Theory/Independent Set.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Combinatorics/Janson Inequality.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Graph Theory/Graph Coloring.md",
     "Analysis/Norm.md",
-    "Set Theory/Intersecting Family.md",
     "Graph Theory/Increasing and Decreasing Event.md",
     "Combinatorics/Bayesian Decision.md",
     "Combinatorics/Ramsey Number.md",
