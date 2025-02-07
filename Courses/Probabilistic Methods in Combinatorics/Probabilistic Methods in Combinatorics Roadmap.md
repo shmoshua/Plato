@@ -334,3 +334,22 @@
 #### 11.1 Independence Number of Triangle-Free Graphs
 ![[Independent Set#^1ab2d1]]
 ![[Independent Set#^33b1ea|p]]
+
+---
+#### 11.2 Crossing Number of a Graph
+![[Planar Graph#^98b3fd]]
+
+---
+![[Planar Graph#^f8d45e]]
+![[Planar Graph#^227361|p]]
+
+---
+![[Planar Graph#^c09fc4]]
+![[Planar Graph#^d80cd4|p]]
+
+---
+![[Planar Graph#^b577a8]]
+![[Planar Graph#^df2625|p]]
+
+---
+#### 11.3 Sum-Product Theorem

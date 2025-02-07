@@ -2,7 +2,7 @@
 ##### Properties
 > [!lemma] Theorem 1 (Shearer)
 > Let $G$ be a triangle free graph on $n$ nodes with $\Delta(G)\leq d$.
-> 1. $\alpha(G)\geq c\frac{n}{d}\log d$
+> 1. $\alpha(G)\geq c\frac{n}{d}\log d$ for some $c>0$.
 
 ^1ab2d1
 

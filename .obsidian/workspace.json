@@ -93,16 +93,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Independent Set.md",
+                "file": "Graph Theory/Planar Graph.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Independent Set"
+              "title": "Planar Graph"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -128,12 +127,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Independent Set.md",
+                "file": "Graph Theory/Planar Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Independent Set"
+              "title": "Planar Graph"
             }
           },
           {
@@ -223,7 +222,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shearer",
+                "query": "sum-produc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -337,11 +336,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
-    "Graph Theory/Independent Set.md",
-    "Combinatorics/Janson Inequality.md",
+    "Graph Theory/Planar Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Graph Theory/Independent Set.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Combinatorics/Janson Inequality.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Graph Theory/Graph Coloring.md",
     "Analysis/Norm.md",
@@ -363,8 +364,6 @@
     "Controls/Equilibrium of a System.md",
     "Technical Lemmas.md",
     "Algebra/Algebraic Dependence.md",
-    "Graph Theory/Hypergraph.md",
-    "Graph Theory/Graph.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
