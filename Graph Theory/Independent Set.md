@@ -4,7 +4,9 @@
 > Let $G$ be a triangle free graph on $n$ nodes with $\Delta(G)\leq d$.
 > 1. $\alpha(G)\geq c\frac{n}{d}\log d$
 
-> [!proof]+
+^1ab2d1
+
+> [!proof]-
 > Assume that $4\leq \log d\leq \sqrt{ d }$.
 > 
 > Let $I$ be a uniformly randomly chosen independent set. For a vertex $v\in V$, we define the random variable: $$X_{v}:=d \cdot \mathbb{1}_{v\in I}+\left| N(v)\cap I \right| $$Then, $$X:=\sum_{v\in V}^{}X_{v}=d\left| I \right| +\sum_{v\in V}^{}\left| N(v)\cap I \right| =d\left| I \right|+\sum_{v\in I}^{}\left| d_{G}(v) \right| \leq 2d\left| I \right|  $$Therefore, $\mathbb{E}[X]\leq 2d\mathbb{E}[\left| I \right|]$. We now claim that $\mathbb{E}[{X_{v}}]\geq c \log d$ for all $v\in G$. 
@@ -17,3 +19,5 @@
 > 2. if $u\leq \frac{1}{4}\log d$. Then we have $u+1\leq \frac{1}{2}\log d$ and hence $2^{u+1}\leq \sqrt{ d }$, which implies that the first term is at least $\frac{d}{\sqrt{ d }}\geq \sqrt{ d }\geq \log d$.
 > 
 > Then, $$\mathbb{E}[\left| I \right| ]\geq \frac{\mathbb{E}[X]}{2d}\geq \frac{cn}{2d}\log d$$
+
+^33b1ea

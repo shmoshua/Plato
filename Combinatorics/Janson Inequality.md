@@ -35,6 +35,8 @@
 > 1. If $p=\text{o}(n^{-1/2})$, $\mathbb{P}(G\text{ is triangle free})=e^{-(1+o(1))n^3p^3/6}$.
 > 2. If $p>\frac{2^3n^{-1/2}}{\sqrt{ 3 }}$, $\mathbb{P}(G\text{ is triangle free})\leq e^{-n^2p /6}$.
 
+^75396b
+
 > [!proof]-
 > Let $\{ S_{1},..,S_{k} \}={V \choose 3}$. Then,
 > 1. $\mu=\sum_{i\in[k]}^{}\mathbb{P}(S_{i}\subseteq R)={n \choose 3}p^3$
@@ -43,4 +45,7 @@
 > Then, if $p=o(n^{-1/2})$, by Janson, we have that: $$\mathbb{P}(G\text{ is triangle free}) \leq \exp \left( -{n \choose 3}p^3+{n \choose 4}p^5 \right) \leq \exp \left( -(1+o(1))\frac{n^3p^3}{6} \right) $$
 > 
 > For 2, if $p>n^{-1/2}$, then: $$\Delta=2{n \choose 4}p^5\geq \frac{n^4}{2^7}p^5\geq \frac{n^3p^3}{6}=\mu$$Hence, $$\mathbb{P}(G\text{ is triangle free})\leq \text{exp}\left( -\frac{\mu}{2\Delta} \right)\leq \exp \left( -\frac{n^2p}{6} \right)  $$
+
+^557e62
+
 ---
