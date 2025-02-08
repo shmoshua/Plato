@@ -127,12 +127,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Assignment 3"
+              "title": "Assignment 4"
             }
           },
           {
@@ -191,7 +191,8 @@
               "title": "Variance"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -335,12 +336,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "8d81f0a52482dd59",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Probability Theory/Variance.md",
     "Functional Analysis/Integral Operator.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Graph Theory/Planar Graph.md",
