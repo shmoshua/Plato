@@ -191,8 +191,7 @@
               "title": "Variance"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -336,10 +335,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8d81f0a52482dd59",
+  "active": "9b9313d05c25084b",
   "lastOpenFiles": [
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Probability Theory/Variance.md",
