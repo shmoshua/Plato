@@ -113,12 +113,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 9.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Assignment 9"
+              "title": "Probabilistic Methods in Combinatorics Roadmap"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Assignment 7"
+              "title": "Assignment 10"
             }
           },
           {
@@ -337,10 +337,12 @@
   },
   "active": "9b9313d05c25084b",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 9.md",
     "Algebra/Permanent.md",
     "Graph Theory/Erdös-Rényi Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
@@ -361,8 +363,6 @@
     "Combinatorics/Ramsey Number.md",
     "Combinatorics/Sum-Free Set.md",
     "Graph Theory/Tournament.md",
-    "Graph Theory/Clique.md",
-    "Graph Theory/Path (Graph).md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
