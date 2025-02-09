@@ -183,15 +183,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Analysis/Landau Notations.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variance"
+              "title": "Landau Notations"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -335,12 +336,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "8b43475bf381fc01",
   "lastOpenFiles": [
+    "Probability Theory/Variance.md",
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Algebra/Permanent.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
@@ -350,7 +352,6 @@
     "Graph Theory/Erdös-Rényi Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 4.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
-    "Probability Theory/Variance.md",
     "Functional Analysis/Integral Operator.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
