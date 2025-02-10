@@ -191,7 +191,8 @@
               "title": "Landau Notations"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -335,11 +336,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9b9313d05c25084b",
+  "active": "8b43475bf381fc01",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
-    "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Analysis/Inner Product Space.md",
     "Algebra/Permanent.md",
     "Analysis/Landau Notations.md",
