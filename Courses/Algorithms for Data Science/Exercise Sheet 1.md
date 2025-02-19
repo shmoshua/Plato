@@ -6,4 +6,8 @@ Let $\varphi:[d]\times[d]\to [d^{2}]$ be a bijection given by $\varphi(i,j)=(i-1
 ---
 #### 2. Nuclear and Frobenius norm for Low-Rank
 
-Let $X\in \mathbb{R}^{n,d}$ with $\text{rk}(X)=:r$. Then, $$\left\| X \right\| _{*}^{2}=\sum_{i,j=1}^{r}\sigma_{i}\sigma_{j}$$
+Let $X\in \mathbb{R}^{n,d}$ with $\text{rk}(X)=:r$. Then, by Cauchy-Schwarz$$\left\| X \right\| _{*}^{2}=\left( \sum_{i=1}^{r}\sigma_{i} \right) ^{2}\leq r\left( \sum_{i=1}^{r}\sigma_{i}^{2} \right) =r\left\| X \right\| _{F}^{2}$$
+
+---
+#### 3. Second Moment of Random Unit Vectors
+Let $U\in \mathbb{R}^{d,d}$ be an orthogonal matrix. Then, $y:=Ux$ is also a vector sampled uniformly at random on the unit sphere. Then, $$\mathbb{E}[xx^\top]=\mathbb{E}[yy^\top]=\mathbb{E}[Uxx^\top U^\top]=U\mathbb{E}[xx^\top]U^\top$$
