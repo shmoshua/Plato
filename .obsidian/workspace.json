@@ -218,6 +218,20 @@
                   "icon": "lucide-file",
                   "title": "AlgoDat Roadmap"
                 }
+              },
+              {
+                "id": "37ba6eb02aaa948e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Probability Theory/Conditional Expectation.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "Conditional Expectation"
+                }
               }
             ]
           }
@@ -232,10 +246,11 @@
       }
     ]
   },
-  "active": "b39243330c4ff4ad",
+  "active": "0781b6cb5ef34835",
   "lastOpenFiles": [
-    "Machine Learning/Linear Regression.md",
+    "Probability Theory/Conditional Expectation.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Machine Learning/Linear Regression.md",
     "Graph Theory/Path (Graph).md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Algorithms for Data Science",
@@ -260,7 +275,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
