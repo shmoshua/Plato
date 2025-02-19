@@ -1,11 +1,14 @@
 #Definition #GraphTheory 
 
 > [!definition] 
-> Let $G=(V,E)$ and $G'=(V',E')$ be two [[graph|graphs]]. A ***graph homomorphism*** is a map $\varphi:V\to V'$ s.t. $$\{ x,y \}\in E\implies\{ \varphi(x),\varphi(y) \}\in E'$$
-> $\varphi$ is additionally, 
-> 1. an ***isomorphism***, if $\varphi$ is bijective and $\varphi ^{-1}$ is a homomorphism. In this case, $G\cong G'$.
-> 2. an ***automorphism***, if $G'=G$.
-- **Related definition**: A map is a ***graph invariant***, if it assigns the same value to isomorphic graphs.
+> Let $G=(V,E)$ and $G'=(V',E')$ be two [[graph|graphs]]. A map $\varphi:V\to V'$ is:
+> 1. A ***graph homomorphism*** is for all $x\sim y$ in $G$, $\varphi(x)\sim\varphi(y)$ in $G'$.
+> 1. A ***graph isomorphism***, if $\varphi$ is bijective and $\varphi,\varphi ^{-1}$ is a homomorphism. We denote $G\cong G'$.
+> 2. A ***graph automorphism***, if $G'=G$.
+
+^46553c
+
+- **Related definition**: A map is a ***graph invariant***, if it assigns the same value to isomorphic graphs. ^facdab
 ---
 ##### Properties
 > [!lemma] Lemma 1

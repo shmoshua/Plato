@@ -20,8 +20,47 @@
               "icon": "lucide-file",
               "title": "Graph"
             }
+          },
+          {
+            "id": "68d72b978e1e76f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Graph Homomorphism.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Graph Homomorphism"
+            }
+          },
+          {
+            "id": "79def644e0e2cfb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Graph Theory Roadmap"
+            }
+          },
+          {
+            "id": "097dcd9a2610b87f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -42,6 +81,20 @@
             }
           },
           {
+            "id": "488262dc6e78d990",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Graph Homomorphism.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Graph Homomorphism"
+            }
+          },
+          {
             "id": "33a929675eabc2b0",
             "type": "leaf",
             "state": {
@@ -56,77 +109,20 @@
             }
           },
           {
-            "id": "8d81f0a52482dd59",
+            "id": "0781b6cb5ef34835",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
+                "file": "Graph Theory/Regular Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Assignment 12"
-            }
-          },
-          {
-            "id": "d51691437cb8a809",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Inner Product Space.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Inner Product Space"
-            }
-          },
-          {
-            "id": "3f1481e11c2bae6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Erdös-Rényi Graph.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Erdös-Rényi Graph"
-            }
-          },
-          {
-            "id": "0e5ca01b54a27edd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Girth and Circumference.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Girth and Circumference"
-            }
-          },
-          {
-            "id": "8b43475bf381fc01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Landau Notations.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Landau Notations"
+              "title": "Regular Graph"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -270,12 +266,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b39243330c4ff4ad",
+  "active": "79def644e0e2cfb7",
   "lastOpenFiles": [
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Graph.md",
-    "Graph Theory/Planar Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
+    "Graph Theory/Regular Graph.md",
+    "Graph Theory/Graph Homomorphism.md",
+    "Graph Theory/Planar Graph.md",
     "Analysis/Landau Notations.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
@@ -296,8 +294,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Set Theory/Intersecting Family.md",
     "Graph Theory/Independent Set.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Combinatorics/Janson Inequality.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
