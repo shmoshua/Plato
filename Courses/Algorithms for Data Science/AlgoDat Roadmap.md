@@ -43,4 +43,11 @@
 > [!proof]+
 > Fix an estimator $\widehat{w}:\mathbb{R}^n\to \mathbb{R}^d$ and $t\geq 1$. We will show that: $$\mathbb{E}_{w\sim \mathcal{N}(0,t\cdot I_{d})}[\text{R}(\widehat{w};w)]\geq  \frac{d}{n+1/ t}$$If this holds, then we have $\sup_{w}\text{R}(\widehat{w};w)\geq \frac{d}{n+1 / t}$ for all $t\geq 1$ and $\sup_{w}\text{R}(\widehat{w};w)\geq \frac{d}{n}$. 
 > 
+> 1. **Claim 1**: $w|y\sim \mathcal{N}\left( \frac{1}{n+ 1 / t}X^\top y, \frac{1}{n+1 / t}I_{d} \right)$.
+>    First assume that $X=(\sqrt{ n }I_{d},0)$, i.e. $y_{i}=\sqrt{ n }w_{i}+\varepsilon_{i}$ for all $i\in [d]$. We show that there exists $\alpha\in \mathbb{R}$ s.t. $z_{i}:=w_{i}-\alpha y_{i}$ is independent to $y_{i}$ for all $i\in[d]$. 
+>    
+>    Notice that $z_{i}=w_{i}-\alpha(\sqrt{ n }w_{i}+\varepsilon_{i})=(1-\alpha\sqrt{ n })w_{i}-\alpha\varepsilon_{i}$. 
 > 
+> Notice that for $w\sim \mathcal{N}(0,t\cdot I_{d})$, we have:$$\begin{bmatrix}w\\y  \end{bmatrix}=\begin{bmatrix}I_{d}&0\\X&I_{n}\end{bmatrix}\begin{bmatrix}w\\\varepsilon\end{bmatrix}\sim \mathcal{N}\left( 0,\begin{bmatrix}tI_{d}&tX^\top\\tX&tXX^\top+I_{n}\end{bmatrix} \right) $$Hence, 
+> 
+> $$w|y\sim \mathcal{N}\left( \frac{1}{n+ 1 / t}X^\top y, \frac{1}{n+1 / t}I_{d} \right)$$
