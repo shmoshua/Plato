@@ -45,6 +45,20 @@
 
 - **Remark**: This result is tight! Consider $K_{\delta+1}$ for any $\delta\geq 2$. ^590fcb
 ---
+> [!lemma] Proposition 3
+> Let $G$ be a $n$-vertex graph with $m$ edges. Then, 
+> 1. $G$ has at least $n-m$ connected components. 
+
+^aec20e
+
+> [!proof]-
+> Delete all edges and get empty graph. Put edges back one by one and track the number of components. 
+> 
+> Then, for all $m$, the number of connected components can decrease by at most 1. As we have $n$ connected components in the beginning, we have the claim. 
+
+^0d4367
+
+---
 
 > [!lemma] Theorem (Cycles in Digraphs)
 > Let $k\in \mathbb{Z}_{\geq 1}$ and $D=(V,E)$ a finite digraph with $\Delta^-$ and $\delta^+$ as the maximal in-degree and minimal out-degree. 

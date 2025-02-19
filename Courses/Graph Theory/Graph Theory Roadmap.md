@@ -69,3 +69,9 @@
 ---
 ##### 1.1.7 Connectivity
 ![[Path (Graph)#^0c6bd0]]
+
+---
+![[Path (Graph)#^aec20e]]
+![[Path (Graph)#^0d4367|p]]
+
+---

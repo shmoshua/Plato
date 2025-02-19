@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Clique.md",
+                "file": "Graph Theory/Path (Graph).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Clique"
+              "title": "Path (Graph)"
             }
           }
         ]
@@ -56,63 +56,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9b9313d05c25084b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
-            }
-          },
-          {
-            "id": "488262dc6e78d990",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Independence and Clique.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Independence and Clique"
-            }
-          },
-          {
-            "id": "33a929675eabc2b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Graph.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Graph"
-            }
-          },
-          {
             "id": "0781b6cb5ef34835",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Path (Graph)"
+              "title": "AlgoDat Roadmap"
+            }
+          },
+          {
+            "id": "adad23fbd13ff462",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Linear Regression.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Linear Regression"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -258,12 +229,16 @@
   },
   "active": "0781b6cb5ef34835",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Graph Theory/Graph.md",
+    "Machine Learning/Linear Regression.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Path (Graph).md",
-    "Graph Theory/Independence and Clique.md",
-    "Graph Theory/Connectivity.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Courses/Algorithms for Data Science",
+    "Courses/Untitled 1.md",
     "Graph Theory/Clique.md",
+    "Graph Theory/Independence and Clique.md",
+    "Graph Theory/Graph.md",
+    "Graph Theory/Connectivity.md",
     "Graph Theory/Induced Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Graph Homomorphism.md",
@@ -281,9 +256,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 10.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 5.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 6.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 7.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 9.md",
-    "Graph Theory/Erdös-Rényi Graph.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
@@ -293,7 +265,6 @@
     "Linear Algebra",
     "Commutative Algebra",
     "Logic",
-    "Courses/Probabilistic AI",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
