@@ -1,27 +1,49 @@
 #Definition #GraphTheory 
 
 > [!definition]
-> Let $G=(V,E)$ be a [[graph]] and $s,t\in V$.
-> 1. A ***path*** is a $(s,t)$-[[walk]] $W=(v_{1},\dots,v_{k})$ s.t. $v_{i}\neq v_{j}$ for all $i\neq j$.
+> Let $G=(V,E)$ be a [[graph]].
+> 1. A ***path*** is a [[walk]] $W=(v_{1},\dots,v_{k})$ s.t. $v_{i}\neq v_{j}$ for all $i\neq j$.
 > 2. A **cycle** is a walk $W=(v_{1},\dots,v_{k})$ where $v_{1}=v_{k}$ and $(v_{1},\dots,v_{k-1})$ is a path.
 
 ^9274a2
 
-- **Related Notation**: For an edge $e\in E$ and a walk $W$, $e\in W$ if $e=(v_{i},v_{i+1})$ for some $i$. The ***length*** of $W$ is given by the number of edges in $W$.
-- **Related Definition**: A graph $G$ is ***connected*** if for every $v,w\in G$, there exists a $(v,w)$-path.
+- **Related Notation**: The ***length*** of a walk $W$ is given by the number of edges in $W$. ^14b918
+- **Related Notation**: For $u,v\in V$, a $(u,v)$-***path*** is a path $(v_{1},\dots,v_{k})$ s.t. $u=v_{1}$ and $v=v_{k}$.  ^150295
+- **Related Definition**: A graph $G$ is ***connected*** if for every $v,w\in G$, there exists a $(v,w)$-path. ^0c6bd0
 - **Related Definition**: Two paths are ***independent*** if they do not share an inner node.
 - **Related Definition**: For $s,t\in V$, the ***distance*** $d_{G}(s,t)$ is the length of the shortest $(s,t)$-path in $G$. If such path doesn't exist, $d_{G}(s,t)=\infty$.
 - **Related Definition**: The ***diameter*** of a graph is $\text{diam}(G):= \max_{s,t\in V}d_{G}(s,t)$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
+> Let $G$ be a graph and $u,v\in V$. 
+> 1. any $(u,v)$-walk contains a $(u,v)$-path. 
+
+^82af28
+
+> [!proof]-
+> Let $(v_{1},\dots,v_{k})$ be a $(u,v)$-walk. We show by induction over $k$. 
+> 1. if $k=2$, then the walk is also a path.
+> 2. if $k\geq 3$, then if there is no $i\neq j$ with $v_{i}=v_{j}$, then we have a path and we're done. Suppose otherwise. Then, wlog assume $i<j$ and: $$(v_{1},\dots,v_{i-1},v_{j},\dots,v_{k})$$ is a $(u,v)$-walk and by induction we have a $(u,v)$-path. 
+
+^4d3705
+
+---
+> [!lemma] Proposition 2
 > For a finite graph $G$ with $\delta(G)\geq 2$,
 > 1. $G$ has a path of length $\delta(G)$. 
-> 2. $G$ has a cyclic of length at least $\delta(G)+1$.
+> 2. $G$ has a cycle of length at least $\delta(G)+1$.
+
+^4e3ecc
 
 > [!proof]-
 > We have:
 > 1. Let $x_{0}\dots x_{k}$ be the longest path in $G$. Then, all the neighbors of $x_{k}$ are on the path. Hence, $k\geq d(x_{k})\geq\delta(G)$.
+> 2. Further, with $x_{k}$, we get a cycle of length at least $\delta(G)+1$.
+
+^ccedf3
+
+- **Remark**: This result is tight! Consider $K_{\delta+1}$ for any $\delta\geq 2$. ^590fcb
 ---
 
 > [!lemma] Theorem (Cycles in Digraphs)

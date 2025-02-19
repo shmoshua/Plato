@@ -332,8 +332,8 @@
 ---
 ### 11. Probabilistic Gems
 #### 11.1 Independence Number of Triangle-Free Graphs
-![[Independent Set#^1ab2d1]]
-![[Independent Set#^33b1ea|p]]
+![[Independence and Clique#^1ab2d1]]
+![[Independence and Clique#^33b1ea|p]]
 
 ---
 #### 11.2 Crossing Number of a Graph

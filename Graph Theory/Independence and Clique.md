@@ -1,6 +1,31 @@
+#Definition #GraphTheory 
 
+> [!definition]
+> For a [[graph]] $G$, 
+> 1. a subset $S\subseteq V(G)$ is ***independent*** if $G[S]$ is empty.
+> 2. a subset $S\subseteq V(G)$ forms a ***clique*** if $G[S]$ is complete.
+
+^28742d
+
+- **Related definition**: For a graph $G$,  ^01670d
+	1. the ***independence number*** of $G$ is given by $\alpha(G):=\max\{\left| S \right|: S\subseteq V\text{ independent}\}$
+	2. the ***clique number*** of $G$ is given by $\omega(G):=\max\{\left| S \right|: S\subseteq V\text{ forms a clique}\}$
+---
 ##### Properties
-> [!lemma] Theorem 1 (Shearer)
+> [!lemma] Proposition 1
+> Let $G$ be a graph. For the complement $\overline{G}$ of $G$,
+> 1. $\alpha(G)=\omega(\overline{G})$ and
+> 2. $\omega(G)=\alpha(\overline{G})$
+
+^a259ae
+
+> [!proof]-
+> Obvious.
+
+^644b07
+
+---
+> [!lemma] Theorem 2 (Shearer)
 > Let $G$ be a triangle free graph on $n$ nodes with $\Delta(G)\leq d$.
 > 1. $\alpha(G)\geq c\frac{n}{d}\log d$ for some $c>0$.
 
