@@ -40,9 +40,10 @@
 > Let $\widehat{w}:\mathbb{R}^n\to \mathbb{R}^d$ be an estimator and $\sigma^{2}=1$. Then, 
 > $$\sup_{w_{0}\in \mathbb{R}^d}\text{R}(\widehat{w};w_{0})\geq \frac{d}{n}$$
 
-> [!proof]+
+> [!proof]-
 > Fix an estimator $\widehat{w}:\mathbb{R}^n\to \mathbb{R}^d$ and $t\geq 1$. We will show that: $$\mathbb{E}_{w\sim \mathcal{N}(0,t\cdot I_{d})}[\text{R}(\widehat{w};w)]\geq  \frac{d}{n+1/ t}$$If this holds, then we have $\sup_{w}\text{R}(\widehat{w};w)\geq \frac{d}{n+1 / t}$ for all $t\geq 1$ and $\sup_{w}\text{R}(\widehat{w};w)\geq \frac{d}{n}$. 
 > 
+> ---
 > First assume that $X=(\sqrt{ n }I_{d},0)$, i.e. $y_{i}=\sqrt{ n }w_{i}+\varepsilon_{i}$ for all $i\in [d]$. We show that there exists $\alpha\in \mathbb{R}$ s.t. $z_{i}:=w_{i}-\alpha y_{i}$ is independent to $y_{i}$ for all $i\in[d]$.
 > 
 > As $w,\varepsilon$ are jointly Gaussian, we have that so are $y_{i},z_{i}$ for all $i\in[d]$. Hence, to show that they are independent we need that $y_{i},z_{i}$ are uncorrelated i.e. $\mathbb{E}[y_{i}z_{i}]=\mathbb{E}[y_{i}]\mathbb{E}[z_{i}]=0$. Notice that $z_{i}=w_{i}-\alpha(\sqrt{ n }w_{i}+\varepsilon_{i})=(1-\alpha\sqrt{ n })w_{i}-\alpha\varepsilon_{i}$. Therefore, $y_{i},z_{i}$ are uncorrelated if and only if: $$\begin{align}0&=\mathbb{E}[y_{i}z_{i}]=\sqrt{ n }(1-\alpha \sqrt{ n })\mathbb{E}[w_{i}^{2}]-\alpha \mathbb{E}[\varepsilon_{i}^{2}]=t\sqrt{ n }(1-\alpha \sqrt{ n })-\alpha\\\alpha&=t\sqrt{ n }(1-\alpha \sqrt{ n })\\(1+tn)\alpha&=t\sqrt{ n }\\\alpha&=\frac{\sqrt{ n }}{n+1 /t}\end{align}$$
@@ -50,5 +51,11 @@
 > By setting $z:=z_{1:d}\in \mathbb{R}^d$, we have that: $$\begin{align}\mathbb{E}[z]=(1-\alpha \sqrt{ n })\underbrace{ \mathbb{E}[w] }_{ =0 }-\alpha \underbrace{ \mathbb{E}[\varepsilon_{1:d}] }_{ =0 }=0\end{align}$$and $\mathbb{E}[zz^\top]=(1-\alpha \sqrt{ n })^{2}t\cdot I_{d}+\alpha^{2} I_{d}$.
 > 
 > Therefore, we have that $z|y=z\sim \mathcal{N}(0,\mathbb{E}[zz^\top])$ as $z \bot y$. Hence, $$w|y=z+\alpha y_{1:d}|y\sim \mathcal{N}(\alpha y_{1:d}, \mathbb{E}[zz^\top])=\mathcal{N}\left( \frac{1}{n+1/t}X^\top y, \frac{1}{n+1 / t}I_{d} \right)$$
- 
 > 
+> ---
+> Now, assume that $X$ is general. Then, there exists $U$ orthogonal s.t. $$X':=(\sqrt{ n }I_{d},0)=UX$$Then, $$(w|Xw+\varepsilon=y)=(w|X'w+U\varepsilon=Uy)\sim\mathcal{N}\left( \frac{1}{n+1/t} X^\top \underbrace{ U^\top U }_{ =I }y, \frac{1}{n+ 1 / t}I_{d}\right) $$
+> 
+> ---
+> Therefore, we have that $w|y\sim \mathcal{N}\left( \frac{1}{n+ 1 / t}X^\top y, \frac{1}{n+ 1 / t}I_{d} \right)$ and from Bayes-Optimal estimator:$$\begin{align}\mathbb{E}_{w}[\text{R}(\widehat{w};w)]&\geq \mathbb{E}_{w}[\text{R}(\widehat{w}_{P};w)]\\&=\mathbb{E}_{(w,\varepsilon)}[\left\| \widehat{w}_{P} -w\right\|^{2} ]\\&=\mathbb{E}_{(w,\varepsilon)}[\mathbb{E}[\left\| \widehat{w}_{P} -w\right\|^{2}|y] ]\\&=\mathbb{E}_{(w,\varepsilon)}\left[ \sum_{i=1}^{d}\text{Var}(w_{i}|y)  \right]\\&=\mathbb{E}_{(w,\varepsilon)}\left( \frac{d}{n+ 1 / t} \right) \\&=\frac{d}{n+1 / t}\end{align}$$
+
+---
