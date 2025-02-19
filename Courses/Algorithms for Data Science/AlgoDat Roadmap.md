@@ -43,11 +43,12 @@
 > [!proof]+
 > Fix an estimator $\widehat{w}:\mathbb{R}^n\to \mathbb{R}^d$ and $t\geq 1$. We will show that: $$\mathbb{E}_{w\sim \mathcal{N}(0,t\cdot I_{d})}[\text{R}(\widehat{w};w)]\geq  \frac{d}{n+1/ t}$$If this holds, then we have $\sup_{w}\text{R}(\widehat{w};w)\geq \frac{d}{n+1 / t}$ for all $t\geq 1$ and $\sup_{w}\text{R}(\widehat{w};w)\geq \frac{d}{n}$. 
 > 
-> 1. **Claim 1**: $w|y\sim \mathcal{N}\left( \frac{1}{n+ 1 / t}X^\top y, \frac{1}{n+1 / t}I_{d} \right)$.
->    First assume that $X=(\sqrt{ n }I_{d},0)$, i.e. $y_{i}=\sqrt{ n }w_{i}+\varepsilon_{i}$ for all $i\in [d]$. We show that there exists $\alpha\in \mathbb{R}$ s.t. $z_{i}:=w_{i}-\alpha y_{i}$ is independent to $y_{i}$ for all $i\in[d]$. 
->    
->    Notice that $z_{i}=w_{i}-\alpha(\sqrt{ n }w_{i}+\varepsilon_{i})=(1-\alpha\sqrt{ n })w_{i}-\alpha\varepsilon_{i}$. 
+> First assume that $X=(\sqrt{ n }I_{d},0)$, i.e. $y_{i}=\sqrt{ n }w_{i}+\varepsilon_{i}$ for all $i\in [d]$. We show that there exists $\alpha\in \mathbb{R}$ s.t. $z_{i}:=w_{i}-\alpha y_{i}$ is independent to $y_{i}$ for all $i\in[d]$.
 > 
-> Notice that for $w\sim \mathcal{N}(0,t\cdot I_{d})$, we have:$$\begin{bmatrix}w\\y  \end{bmatrix}=\begin{bmatrix}I_{d}&0\\X&I_{n}\end{bmatrix}\begin{bmatrix}w\\\varepsilon\end{bmatrix}\sim \mathcal{N}\left( 0,\begin{bmatrix}tI_{d}&tX^\top\\tX&tXX^\top+I_{n}\end{bmatrix} \right) $$Hence, 
+> As $w,\varepsilon$ are jointly Gaussian, we have that so are $y_{i},z_{i}$ for all $i\in[d]$. Hence, to show that they are independent we need that $y_{i},z_{i}$ are uncorrelated i.e. $\mathbb{E}[y_{i}z_{i}]=\mathbb{E}[y_{i}]\mathbb{E}[z_{i}]=0$. Notice that $z_{i}=w_{i}-\alpha(\sqrt{ n }w_{i}+\varepsilon_{i})=(1-\alpha\sqrt{ n })w_{i}-\alpha\varepsilon_{i}$. Therefore, $y_{i},z_{i}$ are uncorrelated if and only if: $$\begin{align}0&=\mathbb{E}[y_{i}z_{i}]=\sqrt{ n }(1-\alpha \sqrt{ n })\mathbb{E}[w_{i}^{2}]-\alpha \mathbb{E}[\varepsilon_{i}^{2}]=t\sqrt{ n }(1-\alpha \sqrt{ n })-\alpha\\\alpha&=t\sqrt{ n }(1-\alpha \sqrt{ n })\\(1+tn)\alpha&=t\sqrt{ n }\\\alpha&=\frac{\sqrt{ n }}{n+1 /t}\end{align}$$
 > 
-> $$w|y\sim \mathcal{N}\left( \frac{1}{n+ 1 / t}X^\top y, \frac{1}{n+1 / t}I_{d} \right)$$
+> By setting $z:=z_{1:d}\in \mathbb{R}^d$, we have that: $$\begin{align}\mathbb{E}[z]=(1-\alpha \sqrt{ n })\underbrace{ \mathbb{E}[w] }_{ =0 }-\alpha \underbrace{ \mathbb{E}[\varepsilon_{1:d}] }_{ =0 }=0\end{align}$$and $\mathbb{E}[zz^\top]=(1-\alpha \sqrt{ n })^{2}t\cdot I_{d}+\alpha^{2} I_{d}$.
+> 
+> Therefore, we have that $z|y=z\sim \mathcal{N}(0,\mathbb{E}[zz^\top])$ as $z \bot y$. Hence, $$w|y=z+\alpha y_{1:d}|y\sim \mathcal{N}(\alpha y_{1:d}, \mathbb{E}[zz^\top])=\mathcal{N}\left( \frac{1}{n+1/t}X^\top y, \frac{1}{n+1 / t}I_{d} \right)$$
+ 
+> 
