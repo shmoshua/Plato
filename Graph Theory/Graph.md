@@ -1,9 +1,10 @@
 #Definition #GraphTheory 
 
 > [!definition]
-> A ***graph*** is a pair $G:=(V,E)$ of disjoint sets s.t. $E\subseteq \{ \{ x,y \}:x,y\in V,x\neq y \}$, where
+> A ***graph*** is a pair $G:=(V,E)$ of disjoint sets s.t. $E\subseteq V\times V$ is a multiset, where
 > 1.  $v\in V$ is called a ***vertex/node*** and $e\in E$ is called an ***edge***. The vertices and edges of a graph $G$ are often denoted as $V(G)$ and $E(G)$.
-> 2. The ***order*** of a graph $G$ is given as $\left| V(G) \right|$.
+> 2. A graph $G$ is ***simple*** if there is no loop and no multiple edges.
+> 3. The ***order*** of a graph $G$ is given as $\left| V(G) \right|$.
 
 - **Related definition**: $v\in V$ is ***incident*** to $e\in E$ if $v\in e$. $E(v)\subseteq E$ denotes the set of all edges incident to $v$.
 - **Notation**: An edge $\{ x,y \}\in E$ are also written as $xy$ (or $yx$).
