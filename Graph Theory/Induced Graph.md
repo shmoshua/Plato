@@ -1,8 +1,10 @@
 #Definition #GraphTheory 
 
 > [!definition]
-> Let $G=(V,E)$ be a graph. For $U\subseteq V$, the ***induced graph*** $G[U]$ is defined as $(U,E')$ where
+> Let $G=(V,E)$ be a graph. For $U\subseteq V$, the ***induced subgraph*** $G[U]$ is defined as $(U,E')$ where
 > 1. $E':=\{ \{ x,y \}\in E:x,y\in U \}$
+
+^834ef5
 
 - **Related definition**: If $H\subseteq G$, $G[H]:=G[V(H)]$.
 - **Related definition**: For $U\subseteq V$, the ***deletion*** $G -U:=G[V \backslash U]$. For $H\subseteq G$, $G-H:=G -V(H)$.

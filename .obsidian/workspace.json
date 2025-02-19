@@ -53,14 +53,18 @@
             "id": "097dcd9a2610b87f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Path (Graph).md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Path (Graph)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "7cfba2b510f9f98d",
@@ -86,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Homomorphism.md",
+                "file": "Graph Theory/Induced Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Homomorphism"
+              "title": "Induced Graph"
             }
           },
           {
@@ -266,13 +270,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "79def644e0e2cfb7",
+  "active": "097dcd9a2610b87f",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Topology/Path.md",
+    "Graph Theory/Walk.md",
     "Graph Theory/Graph.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Graph Theory/Regular Graph.md",
+    "Graph Theory/Induced Graph.md",
     "Graph Theory/Graph Homomorphism.md",
+    "Graph Theory/Regular Graph.md",
     "Graph Theory/Planar Graph.md",
     "Analysis/Landau Notations.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
@@ -291,9 +298,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Functional Analysis/Integral Operator.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
-    "Set Theory/Intersecting Family.md",
-    "Graph Theory/Independent Set.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

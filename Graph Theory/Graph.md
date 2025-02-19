@@ -60,3 +60,15 @@
 > For a vertex set $T$, let $N(T):=\bigcap_{x\in T}^{}N(x)$. Pick a set of $t$ vertices $T$ uniformly at random with repetition. Set $A:=N(T)$. Let $X$ be the random variable for the cardinality of $A$. Then, $$\mathbb{E}[X]=\sum_{v\in V}^{}\left( \frac{d(v)}{n} \right)^t=\frac{1}{n^t}\sum_{v\in V}^{}d(v)^t\geq \frac{1}{n^t}\cdot n d(G)^t=\frac{d(G)^t}{n^{t-1}} $$Let $Y$ denote the random variable counting the number of subsets $S\subseteq A$ of size $r$ with fewer than $m$ common neighbors. For a given such $S\subseteq V$, the probability that it is a subset of $A$ equals $\left( \frac{\left| N(S) \right|}{n} \right)^t$. Since there are at most $n \choose r$ subsets $S \subseteq V$ of size $r$ for which $\left| N(S) \right|<m$, it follows that: $$\mathbb{E}[Y]< {n \choose r}\frac{m^t}{n^t}$$By linearity of expectation, $$\mathbb{E}[X-Y]\geq \frac{d(G)^t}{n^{t-1}}-{n \choose r} \frac{m^t}{n^t}\geq a$$ Hence there exists a choice of $T$ for which the corresponding set $A=N(T)$ satisfies $X-Y\geq a$. Delete one vertex from each subset $S$ of $A$ of size $r$ with fewer than $m$ common neighbors. We let $U$ be the remaining subset of $A$. The set $U$ has at least $X-Y\geq a$ vertices and all subsets of size $r$ have at least $m$ common neighbors.
 
 ^9e183d
+
+---
+##### Examples
+> [!h] Example 1
+> Let $G$ be a graph. 
+> 1. $G$ is ***empty*** if $E(G)=\varnothing$.
+> 2. $G$ is ***complete*** if $E(G)={V \choose 2}$.
+> 3. $G$ is ***bipartite*** if there is a partition $V(G)=U\sqcup V$ s.t. every edge $e\in E$, $\left| e\cap U \right|=\left| e\cap V \right|=1$.
+
+^0e6c3d
+
+---
