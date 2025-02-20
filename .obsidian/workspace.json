@@ -98,17 +98,17 @@
             }
           },
           {
-            "id": "5ecf63a895e4e277",
+            "id": "98625d50a19842f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group Action.md",
+                "file": "Algebra/Unitary Representation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Group Action"
+              "title": "Unitary Representation"
             }
           }
         ]
@@ -258,10 +258,12 @@
   },
   "active": "30085cb51434f7d6",
   "lastOpenFiles": [
+    "Algebra/Unitary Representation.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "unitary matrix.md",
     "Algebra/Group Action.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Algebra/Unitary Representation.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
     "Graph Theory/Tree.md",
@@ -284,7 +286,6 @@
     "Graph Theory/Connectivity.md",
     "Graph Theory/Induced Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
-    "Graph Theory/Graph Homomorphism.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
@@ -293,7 +294,6 @@
     "Algorithms/Graph Algorithms",
     "Linear Algebra",
     "Commutative Algebra",
-    "Logic",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
