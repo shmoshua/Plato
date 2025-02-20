@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Algebra/Unitary Representation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Unitary Representation"
             }
           }
         ]
@@ -282,8 +282,10 @@
   },
   "active": "30085cb51434f7d6",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Algebra/Unitary Representation.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Topology/Path.md",
     "Graph Theory/Path (Graph).md",
     "Probability Theory/Gaussian Distribution.md",
@@ -307,8 +309,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
     "Analysis/Inner Product Space.md",
-    "Algebra/Permanent.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 11.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
