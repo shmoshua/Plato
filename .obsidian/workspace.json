@@ -84,17 +84,17 @@
             }
           },
           {
-            "id": "74072b880b566b42",
+            "id": "5e9eb576d8e82ca8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unitary Representation.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Unitary Representation"
+              "title": "AlgoDat Roadmap"
             }
           }
         ]
@@ -242,86 +242,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "floating": {
-    "id": "bca8c3f886e66d7b",
-    "type": "floating",
-    "children": [
-      {
-        "id": "6a502f43d471f6fb",
-        "type": "window",
-        "children": [
-          {
-            "id": "fefc3b8d37b78f11",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0781b6cb5ef34835",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-                    "mode": "preview",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "AlgoDat Roadmap"
-                }
-              },
-              {
-                "id": "37ba6eb02aaa948e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Probability Theory/Variance.md",
-                    "mode": "preview",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "Variance"
-                }
-              },
-              {
-                "id": "0d49df17383bc3d2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Probability Theory/Gaussian Distribution.md",
-                    "mode": "preview",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "Gaussian Distribution"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1992,
-        "y": 107,
-        "width": 857,
-        "height": 1007,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "b39243330c4ff4ad",
+  "active": "30085cb51434f7d6",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+    "Algebra/Unitary Representation.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
     "Graph Theory/Tree.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Path (Graph).md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Topology/Path.md",
     "Graph Theory/Cut (Graph).md",
-    "Algebra/Unitary Representation.md",
     "Algebra/Orthogonal Group.md",
     "Functional Analysis/Unitary Linear Map.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
