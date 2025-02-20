@@ -96,6 +96,20 @@
               "icon": "lucide-file",
               "title": "Problem Set 1"
             }
+          },
+          {
+            "id": "4f34931ff90c2e4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIKZ.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "TIKZ"
+            }
           }
         ],
         "currentTab": 3
