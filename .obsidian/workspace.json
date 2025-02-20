@@ -280,12 +280,14 @@
       }
     ]
   },
-  "active": "30085cb51434f7d6",
+  "active": "b39243330c4ff4ad",
   "lastOpenFiles": [
     "Algebra/Unitary Representation.md",
+    "Algebra/Orthogonal Group.md",
+    "Functional Analysis/Unitary Linear Map.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Topology/Path.md",
     "Graph Theory/Path (Graph).md",
     "Probability Theory/Gaussian Distribution.md",
@@ -307,8 +309,6 @@
     "Graph Theory/Planar Graph.md",
     "Analysis/Landau Notations.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 13.md",
-    "Analysis/Inner Product Space.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

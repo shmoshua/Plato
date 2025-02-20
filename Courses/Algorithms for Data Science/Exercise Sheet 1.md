@@ -10,9 +10,15 @@ Let $X\in \mathbb{R}^{n,d}$ with $\text{rk}(X)=:r$. Then, by Cauchy-Schwarz$$\le
 
 ---
 #### 3. Second Moment of Random Unit Vectors
-Let $U\in \text{SO}(d)$ be an orthogonal matrix. Then, $y:=Ux \sim \text{Uniform}(S^{d-1})$ is also a vector sampled uniformly at random on the unit sphere. Then, $$\mathbb{E}[xx^\top]=\mathbb{E}[yy^\top]=\mathbb{E}[Uxx^\top U^\top]=U\mathbb{E}[xx^\top]U^\top,\quad \forall U\in \text{SO}(d)$$i.e. $\mathbb{E}[xx^\top]$ commutes with all rotation matrices. Let $A:=\mathbb{E}[xx^\top]$. 
+Let $U\in \text{SO}(d)$ be an orthogonal matrix. Then, $y:=Ux \sim \text{Uniform}(S^{d-1})$ if $x\sim \text{Uniform}(S^{d-1})$. Then, we get that:$$\mathbb{E}[xx^\top]U=\mathbb{E}[yy^\top]U=\mathbb{E}[Uxx^\top U^\top]U=U\mathbb{E}[xx^\top],\quad \forall U\in \text{SO}(d)$$i.e. $\mathbb{E}[xx^\top]$ commutes with all rotation matrices. Let $A:=\mathbb{E}[xx^\top]$. Further, notice that $A$ is symmetric as expectation commutes with transposition. Therefore, let $A=V\Lambda V^\top$ be its spectral decomposition. We have that: $$V\Lambda V^\top=UV\Lambda V^\top U^\top$$
 
-Consider: $$E_{ij}:=\begin{bmatrix}I_{i-1}&\\&&&1\\&&I_{j-i-1}\\&1\\&&&&I_{d-j}\end{bmatrix}$$Then, 
+
+
+We claim that $A$ has to be a scalar multiple of the identity. Consider the inclusion $\pi:\text{SO}(d)\hookrightarrow \text{GL}(d,\mathbb{R})$. Then, 
+
+
+---
+$$\left\| X(\widehat{\beta}-\beta ^{*}) \right\| ^{2}=n(\widehat{\beta}-\beta ^{*})^\top (\widehat{\beta}-\beta ^{*})=$$
 
 
 
