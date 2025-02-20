@@ -85,3 +85,24 @@
 
 \end{document} 
 ```
+    
+2. The two graphs cannot be isomorphic. On the right graph, notice that the every second node around the outer octagon forms a $K_{4}$ s.t. there are four edges in the $K_{4}$ that form of a triangle with a node that is not part of the $K_{4}$. 
+   
+   However, notice that in the left graph, every subgraph isomorphic to $K_{4}$ has only two edges that form a triangle with a node not in the subgraph. 
+
+---
+#### Problem 3
+
+Assume that $G$ is not connected. Let $v,w\in V(G)$. 
+1. if $vw\notin G$, then $vw\in \overline{G}$ and there is a $(v,w)$-path in $\overline{G}$.
+2. if $vw\in G$, then $v,w$ belong to the same connected component and as $G$ is not connected, there exists $u\in V(G)$ s.t. $uv,uw\notin G$, i.e. $uv,uw\in \overline{G}$. Hence, $vuw$ is a $(v,w)$-path in $\overline{G}$.
+   
+Therefore, $\overline{G}$ is connected.
+
+---
+#### Problem 4
+We show this by induction over $n:=\left| V(G) \right|$. 
+1. If $n=2$, either $G$ is empty or a single edge. In both cases, the statement holds. 
+2. If $n\geq 3$,  
+   
+Let $G$ be a simple graph on $n$ vertices and assume that the degrees are all different, i.e. the degree sequence is given by $n-1,n-2,\dots,0$. Then, $$2\left| E \right|=\sum_{v\in V}^{}d(v)=\sum_{i=0}^{n-1}i=\frac{n(n-1)}{2}$$
