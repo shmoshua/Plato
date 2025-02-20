@@ -207,12 +207,17 @@
 >  1. if $X=\{ a \}$, then $I(a)=(x_{1}-a_{1},\dots,x_{n}-a_{n})$.
 >  2. $I(a)$ is maximal in $K[x_{1},\dots,x_{n}]$.
 
+^8bb4dc
+
 > [!proof]-
 > We have:
 > 1. Let $f\in I(a)$. Then, $f(a)=0$. Hence, $f$ is zero modulo $(x_{1}-a_{1},\dots,x_{n}-a_{n})$ and $f\in (x_{1}-a_{1},\dots,x_{n}-a_{n})$.
 > 	
 > 	Conversely, if $f\in (x_{1}-a_{1},\dots,x_{n}-a_{n})$, then $f=\sum_{i=1}^{n}(x_{i}-a_{i})f_{i}$ for some $f_{1},\dots,f_{n}\in K[x_{1},\dots,x_{n}]$. Hence, $f(a)=0$. 
 > 2. Consider the ring homomorphism: $$K[x_{1},\dots,x_{n}] / I(a)\to K,\quad \overline{f}\mapsto f(a)$$Then, this is an isomorphism and $K[x_{1},\dots,x_{n}] / I(a)\cong K$ hence is a field. Therefore, $I(a)$ is maximal. 
+
+^8520c7
+
 ---
 > [!h] Example 4 (Irreducible and Reducible Varieties)
 > We have:
