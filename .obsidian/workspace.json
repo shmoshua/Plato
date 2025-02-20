@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4d5ec56e57395c88",
+        "id": "7677b24b2d0bf489",
         "type": "tabs",
         "children": [
           {
-            "id": "b39243330c4ff4ad",
+            "id": "bf83c5e2855a4970",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,71 +20,29 @@
               "icon": "lucide-file",
               "title": "Algebraic Geometry Roadmap"
             }
-          },
-          {
-            "id": "8d8b6127c3c63a04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
-            }
-          },
-          {
-            "id": "5645f484517aaf73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Tree.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Tree"
-            }
-          },
-          {
-            "id": "1e0126b5e1fa0821",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Path (Graph).md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Path (Graph)"
-            }
           }
         ]
       },
       {
-        "id": "7677b24b2d0bf489",
+        "id": "d54d634cc1ba8421",
         "type": "tabs",
         "children": [
           {
-            "id": "30085cb51434f7d6",
+            "id": "fe19a1480482e56d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+                "file": "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Commutative Algebra Roadmap"
+              "title": "Algebraic Geometry Roadmap"
             }
           },
           {
-            "id": "7e018f6758e73fec",
+            "id": "93654b42abd9ce42",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -96,51 +54,8 @@
               "icon": "lucide-file",
               "title": "Noetherian and Artinian Module"
             }
-          },
-          {
-            "id": "5e9eb576d8e82ca8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
-            }
-          },
-          {
-            "id": "98625d50a19842f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Variety.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Variety"
-            }
-          },
-          {
-            "id": "bf83c5e2855a4970",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Algebraic Geometry Roadmap"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -284,26 +199,27 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b39243330c4ff4ad",
+  "active": "fe19a1480482e56d",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+    "Algebra/Noetherian and Artinian Module.md",
     "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Graph Theory/Path (Graph).md",
+    "Graph Theory/Tree.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+    "Algebra/Ideal (Ring).md",
     "Algebra/Radical (Ring).md",
     "Courses/Algebraic Geometry",
     "Algebra/Variety.md",
     "Algebra/Unitary Representation.md",
-    "Algebra/Noetherian and Artinian Module.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "unitary matrix.md",
     "Algebra/Group Action.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
-    "Graph Theory/Tree.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Graph Theory/Path (Graph).md",
     "Topology/Path.md",
     "Graph Theory/Cut (Graph).md",
     "Algebra/Orthogonal Group.md",
@@ -314,7 +230,6 @@
     "Graph Theory/Independence and Clique.md",
     "Machine Learning/Linear Regression.md",
     "Courses/Algorithms for Data Science",
-    "Courses/Untitled 1.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
