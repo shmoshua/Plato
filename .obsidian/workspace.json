@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
+                "file": "Courses/Graph Theory/Problem Set 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Geometry Roadmap"
+              "title": "Problem Set 1"
+            }
+          },
+          {
+            "id": "09209123d2d18f28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIKZ.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "TIKZ"
             }
           }
         ]
@@ -56,20 +70,6 @@
             }
           },
           {
-            "id": "ebaa0145d18a0ff9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Algebra.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Algebra"
-            }
-          },
-          {
             "id": "6c2a0c107982deb7",
             "type": "leaf",
             "state": {
@@ -89,15 +89,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Prime Ideal.md",
+                "file": "Courses/Graph Theory/Problem Set 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Prime Ideal"
+              "title": "Problem Set 1"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hilbert null",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,8 +150,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -242,14 +242,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "fe19a1480482e56d",
+  "active": "bf83c5e2855a4970",
   "lastOpenFiles": [
+    "TIKZ.md",
+    "Courses/Graph Theory/Problem Set 1.md",
+    "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
+    "Graph Theory/Graph.md",
+    "Algebra/Algebraic Closure.md",
+    "Algebra/Splitting Field.md",
+    "Algebra/Field.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Algebra.md",
+    "Algebra/Variety.md",
+    "Algebra/Polynomial Ring.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Radical (Ring).md",
-    "Algebra/Variety.md",
-    "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
-    "Algebra/Algebra.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/Noetherian and Artinian Module.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
@@ -265,13 +272,6 @@
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Topology/Path.md",
-    "Graph Theory/Cut (Graph).md",
-    "Algebra/Orthogonal Group.md",
-    "Functional Analysis/Unitary Linear Map.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Probability Theory/Variance.md",
-    "Probability Theory/Conditional Expectation.md",
     "Courses/Algorithms for Data Science",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",

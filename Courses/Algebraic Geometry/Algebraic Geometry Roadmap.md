@@ -66,5 +66,18 @@
 > Let $K$ be algebraically closed field. 
 > 1. For any affine variety $X\subseteq \mathbb{A}^n_{K}$, $V(I(X))=X$.
 > 2. For any ideal $J\unlhd K[x_{1},\dots,x_{n}]$, $I(V(J))=\sqrt{ J }$.
-> 3. There is a bijection given by: $$\left\{ \begin{matrix} \text{Affine varieties}\\X\subseteq \mathbb{A}^n \end{matrix} \right\} \overset{ I(\cdot ) }{ \underset{  V }{ \longleftrightarrows  }}$$
-> 
+> 3. There is a bijection given by: $$\left\{ \begin{matrix} \text{Affine varieties}\\X\subseteq \mathbb{A}^n \end{matrix} \right\} \overset{ I(\cdot ) }{ \underset{  V(\cdot ) }{ \longleftrightarrows  }}\left\{ \begin{matrix} \text{Radical ideals}\\J\unlhd K[x_{1},\dots,x_{n}] \end{matrix} \right\} $$
+
+> [!proof]-
+> We have that:
+> 1. $\supseteq$ for 1: let $x\in X$. For all $f\in I(X)$, we have that $f(x)=0$ and $x\in V(I(X))$.
+> 2. $\supseteq$ for 2: let $f\in \sqrt{ J }$. For all $x\in V(J)=V(\sqrt{ J })$, we have that $f(x)=0$. Hnece, $f\in I(V(J))$.
+> 3. $\subseteq$ for 1: If $X$ is an affine variety, we have that $X=V(J)$ for some ideal $J$. Then, $$V(I(X))=V(\underbrace{ I(V(J)) }_{ \supseteq \sqrt{ J } })\subseteq V(\sqrt{ J })=V(J)=X$$
+> 4. $\subseteq$ for 2: given by [[Variety|Nullstellensatz]].
+---
+> [!h] Example 1
+> Let $n=1$. Then, 
+> 1. for $J\subseteq K[x_{1}]$, $K[x_{1}]$ is a PID and $J=(f)$. As $K$ is algebraically closed, by [[Algebraic Closure|Theorem 1.2]] $f$ splits, i.e. $f(x_{1})=c(x_{1}-a_{1})^{k_{1}}\dots(x_{1}-a_{r})^{k_{r}}$
+> 2. $V(f)=\{ a_{1},\dots,a_{r} \}$ if $c\neq0$.
+> 3. $I(V(f))=((x_{1}-a_{1})\dots(x_{1}-a_{r}))$.
+> 4. $\sqrt{ J }=((x_{1}-a_{1})\dots(x_{1}-a_{r}))$.
