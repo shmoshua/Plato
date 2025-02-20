@@ -63,8 +63,7 @@
               "title": "Path (Graph)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7677b24b2d0bf489",
@@ -76,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Homology"
+              "title": "Exercise Sheet 1"
             }
           },
           {
@@ -97,51 +96,8 @@
               "icon": "lucide-file",
               "title": "Unitary Representation"
             }
-          },
-          {
-            "id": "88e40626d98d26db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
-            }
-          },
-          {
-            "id": "34017e873216e75c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Tree.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Tree"
-            }
-          },
-          {
-            "id": "d066e8ef04624f32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Path (Graph).md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Path (Graph)"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -353,15 +309,15 @@
       }
     ]
   },
-  "active": "8d8b6127c3c63a04",
+  "active": "b39243330c4ff4ad",
   "lastOpenFiles": [
-    "Probability Theory/Gaussian Distribution.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Graph Theory/Tree.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Graph Theory/Path (Graph).md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
+    "Graph Theory/Tree.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Graph Theory/Path (Graph).md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Topology/Path.md",
     "Graph Theory/Cut (Graph).md",

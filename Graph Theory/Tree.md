@@ -65,6 +65,15 @@
 ^ded13e
 
 ---
+##### Cayley's Formula
+> [!lemma] Theorem 1 (Prüfer Code)
+> 
+
+---
+> [!lemma] Theorem 1 (Cayley's Formula)
+> On $[n]$, there are $n^{n-2}$ different trees.
+
+---
 > [!lemma] Theorem 4 (Boruvka)
 >  ```pseudo
 >    \begin{algorithm} \caption{ComputeSpanningForest($G$)} 
