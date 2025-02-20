@@ -47,12 +47,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Noetherian and Artinian Module.md",
+                "file": "Algebra/Ideal (Ring).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Noetherian and Artinian Module"
+              "title": "Ideal (Ring)"
+            }
+          },
+          {
+            "id": "ebaa0145d18a0ff9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Algebra.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Algebra"
+            }
+          },
+          {
+            "id": "6c2a0c107982deb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Variety.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Variety"
+            }
+          },
+          {
+            "id": "22f4de0339fefb96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Prime Ideal.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Prime Ideal"
             }
           }
         ]
@@ -86,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hilbert's basis",
+                "query": "hilbert null",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +149,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,18 +244,20 @@
   },
   "active": "fe19a1480482e56d",
   "lastOpenFiles": [
-    "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Prime Ideal.md",
+    "Algebra/Radical (Ring).md",
+    "Algebra/Variety.md",
     "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
+    "Algebra/Algebra.md",
+    "Algebra/Ideal (Ring).md",
+    "Algebra/Noetherian and Artinian Module.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Path (Graph).md",
     "Graph Theory/Tree.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Algebra/Ideal (Ring).md",
-    "Algebra/Radical (Ring).md",
     "Courses/Algebraic Geometry",
-    "Algebra/Variety.md",
     "Algebra/Unitary Representation.md",
     "unitary matrix.md",
     "Algebra/Group Action.md",
@@ -227,8 +272,6 @@
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Conditional Expectation.md",
-    "Graph Theory/Independence and Clique.md",
-    "Machine Learning/Linear Regression.md",
     "Courses/Algorithms for Data Science",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",

@@ -44,6 +44,27 @@
 > 2. $V(J_{1})\cup V(J_{2})=V(J_{1}J_{2})=V(J_{1}\cap J_{2})$.
 > 3. $V(J_{1})\cap V(J_{2})=V(J_{1}+J_{2})$
 
-> [!proof]+
+> [!proof]-
 > We have:
-> 1. Since $J\subseteq \sqrt{ J }$, we have $V(\sqrt{ J })\subseteq V(J)$. Conversely, for $x\in V(J)$, we have for any $g\in \sqrt{ J }$, there exists $m\in \mathbb{N}$ s.t. $g^m\in J$ and $g^m(x)=0$
+> 1. Since $J\subseteq \sqrt{ J }$, we have $V(\sqrt{ J })\subseteq V(J)$. Conversely, for $x\in V(J)$, we have for any $g\in \sqrt{ J }$, there exists $m\in \mathbb{N}$ s.t. $g^m\in J$ and $g(x)^m=0$ and $g(x)=0$.
+> 2. The first equation follows from Lemma 1.2. The second equation follows from [[Radical (Ring)|Proposition 1.4]] as: $$V(J_{1}J_{2})=V(\sqrt{ J_{1}J_{2} })=V(\sqrt{ J_{1}\cap J_{2} })=V(J_{1}\cap J_{2})$$
+> 3. As $J_{1}+J_{2}=(J_{1}\cup J_{2})$, we have that: $$V(J_{1})\cap V(J_{2})=V(J_{1}\cup J_{2})=V(J_{1}+J_{2})$$ 
+
+---
+##### 0.1.2 Vanishing Ideals
+> [!lemma] Lemma 1 (Properties of Vanishing Ideals)
+> We have:
+> 1. for any $X_{1}\subseteq X_{2}\subseteq \mathbb{A}^n$, then $I(X_{2})\subseteq I(X_{1})$.
+> 2. for any $X\subseteq \mathbb{A}^n$, $I(X)$ is [[Radical (Ring)|radical]].
+
+> [!proof]-
+> We have:
+> 1. if $f\in I(X_{2})$, then for all $x\in X_{1}\subseteq X_{2}$, $f(x)=0$.
+> 2. $I(X)\subseteq \sqrt{ I(X) }$ is trivial. If $f\in \sqrt{ I(X) }$, then there exists $m\in \mathbb{N}$ with $f^m\in I(X)$ and for all $x\in X$, $f(x)^m=0$ and $f(x)=0$. Hence, $f\in I(X)$. 
+---
+> [!lemma] Theorem 2
+> Let $K$ be algebraically closed field. 
+> 1. For any affine variety $X\subseteq \mathbb{A}^n_{K}$, $V(I(X))=X$.
+> 2. For any ideal $J\unlhd K[x_{1},\dots,x_{n}]$, $I(V(J))=\sqrt{ J }$.
+> 3. There is a bijection given by: $$\left\{ \begin{matrix} \text{Affine varieties}\\X\subseteq \mathbb{A}^n \end{matrix} \right\} \overset{ I(\cdot ) }{ \underset{  V }{ \longleftrightarrows  }}$$
+> 
