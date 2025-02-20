@@ -6,7 +6,7 @@
 ^6a6272
 
 - **Related definition**: For a tree $T=(V,E)$, any vertex $v\in V$ with $d(v)=1$ is called  a ***leaf***. ^8551a4
-
+- **Related defintion**: For a connected graph $G$, a ***spanning tree*** $T$ is a tree that is a subgraph of $G$ s.t. $V(T)=V(G)$. ^ce4662
 ---
 ##### Properties
 
@@ -35,18 +35,37 @@
 
 ^481b12
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. (1=>2): $G$ is connected by definition. We show by induction on $n:=\left| V \right|$.
 > 	1. If $n=1$ it is obvious.
 > 	1. If $n\geq 2$, then let $v\in V$ be a leaf (which exists by Lemma 1.1). Then, $G':=G \backslash \{ v \}$ is a tree as well and we have that $\left| E(G) \right|=\left| E(G') \right|+1=n-2+1=n-1$.
 > 2. (2=>3): Assume that $G$ has a cycle. Then, by [[Path (Graph)|Lemma 4]], we can take an edge $e\in G$ s.t. $G \backslash e$ is connected and has $n-2$ edges. This contradicts [[Path (Graph)|Proposition 3]].
-> 3. (3=>4)
+> 3. (3=>1): Let $V_{1},\dots,V_{k}$ be the connected components of $V$. Then, as each connected components are acyclic and connected, we have that, $\left| E(G[V_{i}]) \right|=\left| V_{i} \right|-1$ for all $i$. Hence, $$\left| V \right| -1=\sum_{i=1}^{k}\left| V_{i} \right| -1=\left| V \right| -k$$Hence, $k=1$. 
+> 4. (1=>4): The existence of path is given by connectedness. We will show that the path is unique. Suppose there exist two paths $P,Q$ from $x$ to $y$. There must exist an edge $e=\{ u,v \}\in P$ that is not in $Q$. Further, there exists a $(u,v)$-walk that doesn't contain $e$. Hence, by [[Path (Graph)|Proposition 1]], the walk contains a $(u,v)$-path and this path doesn't contain $e$. This shows that this path forms a cycle with $e$ and this is a contradiction.
+> 5. (4=>1): Connected is given by the existence of paths and if $G$ has a cycle, then there exists two paths. 
 
 ^7a33da
 
 ---
-> [!lemma] Theorem 3 (Boruvka)
+> [!lemma] Corollary 3
+> We have that:
+> 1. any connected graph $G$ has a spanning tree.
+> 2. every edge in a tree is a [[Path (Graph)|cut edge]].
+> 3. adding an edge to a tree creates exactly one cycle.
+
+^848d8c
+
+> [!proof]-
+> We have that:
+> 1. If $G$ is a tree, we are done. Otherwise, there exists a cycle and we can delete any edge and by [[Path (Graph)|Lemma 4]] we still get a connected graph. As the number of edges decrease by 1 in every step, this holds.
+> 2. A tree on $n$ vertices has $n-1$ edges. If we remove one edge, then we have $n-2$ edges and this cannot be connected by [[Path (Graph)|Proposition 3]].
+> 3. Let $T$ be a tree and add an edge $e:=u\sim v$ that was not in $T$. Then, as there is a unique $(u,v)$-path and hence adding $e$ creates exactly one cycle. 
+
+^ded13e
+
+---
+> [!lemma] Theorem 4 (Boruvka)
 >  ```pseudo
 >    \begin{algorithm} \caption{ComputeSpanningForest($G$)} 
 >    \begin{algorithmic}

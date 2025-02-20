@@ -75,7 +75,8 @@
 ![[Path (Graph)#^0d4367|p]]
 
 ---
-##### 1.1.8 Trees and Forests
+### 2. Trees and Forests
+
 ![[Tree#^6a6272]]
 ![[Tree#^8551a4]]
 
@@ -88,3 +89,11 @@
 ![[Tree#^7a33da|p]]
 
 ---
+![[Tree#^ce4662]]
+
+---
+![[Tree#^848d8c]]
+![[Tree#^ded13e|p]]
+
+---
+#### 2.1 Cayley's Formula

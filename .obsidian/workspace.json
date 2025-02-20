@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "7677b24b2d0bf489",
@@ -141,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -353,18 +353,18 @@
       }
     ]
   },
-  "active": "34017e873216e75c",
+  "active": "8d8b6127c3c63a04",
   "lastOpenFiles": [
-    "Graph Theory/Path (Graph).md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Tree.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Graph Theory/Path (Graph).md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Topology/Path.md",
     "Graph Theory/Cut (Graph).md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebra/Unitary Representation.md",
     "Algebra/Orthogonal Group.md",
     "Functional Analysis/Unitary Linear Map.md",
