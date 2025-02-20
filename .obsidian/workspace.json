@@ -96,6 +96,20 @@
               "icon": "lucide-file",
               "title": "AlgoDat Roadmap"
             }
+          },
+          {
+            "id": "5ecf63a895e4e277",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Group Action.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Group Action"
+            }
           }
         ]
       }
@@ -245,6 +259,7 @@
   "active": "30085cb51434f7d6",
   "lastOpenFiles": [
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Algebra/Group Action.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Algebra/Unitary Representation.md",
     "Topology/Algebraic Topology/Singular Homology.md",
@@ -270,7 +285,6 @@
     "Graph Theory/Induced Graph.md",
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Graph Homomorphism.md",
-    "Graph Theory/Walk.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
