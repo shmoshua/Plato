@@ -27,15 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Graph Theory Roadmap"
+            }
+          },
+          {
+            "id": "5645f484517aaf73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Tree.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Tree"
+            }
+          },
+          {
+            "id": "1e0126b5e1fa0821",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Path (Graph).md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Path (Graph)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7677b24b2d0bf489",
@@ -47,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+                "file": "Topology/Algebraic Topology/Singular Homology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 1"
+              "title": "Singular Homology"
             }
           },
           {
@@ -68,8 +97,51 @@
               "icon": "lucide-file",
               "title": "Unitary Representation"
             }
+          },
+          {
+            "id": "88e40626d98d26db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Graph Theory Roadmap"
+            }
+          },
+          {
+            "id": "34017e873216e75c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Tree.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Tree"
+            }
+          },
+          {
+            "id": "d066e8ef04624f32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Path (Graph).md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Path (Graph)"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +172,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sum-produc",
+                "query": "vietoris",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +193,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -280,22 +353,26 @@
       }
     ]
   },
-  "active": "b39243330c4ff4ad",
+  "active": "34017e873216e75c",
   "lastOpenFiles": [
+    "Graph Theory/Path (Graph).md",
+    "Graph Theory/Tree.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Reduced Homology.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+    "Topology/Path.md",
+    "Graph Theory/Cut (Graph).md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebra/Unitary Representation.md",
     "Algebra/Orthogonal Group.md",
     "Functional Analysis/Unitary Linear Map.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Topology/Path.md",
-    "Graph Theory/Path (Graph).md",
-    "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Conditional Expectation.md",
     "Graph Theory/Independence and Clique.md",
     "Machine Learning/Linear Regression.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Algorithms for Data Science",
     "Courses/Untitled 1.md",
     "Graph Theory/Clique.md",
@@ -305,10 +382,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Probabilistic Methods in Combinatorics Roadmap.md",
     "Graph Theory/Graph Homomorphism.md",
     "Graph Theory/Walk.md",
-    "Graph Theory/Regular Graph.md",
-    "Graph Theory/Planar Graph.md",
-    "Analysis/Landau Notations.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",

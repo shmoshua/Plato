@@ -13,6 +13,7 @@
 - **Related Definition**: Two paths are ***independent*** if they do not share an inner node.
 - **Related Definition**: For $s,t\in V$, the ***distance*** $d_{G}(s,t)$ is the length of the shortest $(s,t)$-path in $G$. If such path doesn't exist, $d_{G}(s,t)=\infty$.
 - **Related Definition**: The ***diameter*** of a graph is $\text{diam}(G):= \max_{s,t\in V}d_{G}(s,t)$.
+- **Related Definition**: For a connected graph $G$, an edge $e\in E$ is a ***cut edge***, if $G \backslash e$ is not connected. 
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -59,7 +60,14 @@
 ^0d4367
 
 ---
+> [!lemma] Lemma 4
+> Let $G$ be a connected graph. 
+> 1. Any edge in a cycle is not a cut edge.
 
+> [!proof]-
+> We have that:
+> 1. Let $e=\{ u,v \}\in E$ be contained in a cycle, i.e. there exists a $(u,v)$-path $P$ that does not contain $e$ s.t. $P+e$ is a cycle. Therefore, $G \backslash e$ is also connected via $P$. 
+---
 > [!lemma] Theorem (Cycles in Digraphs)
 > Let $k\in \mathbb{Z}_{\geq 1}$ and $D=(V,E)$ a finite digraph with $\Delta^-$ and $\delta^+$ as the maximal in-degree and minimal out-degree. 
 > 1. If it holds that: $$e((\delta^++1)\Delta^-+1)\left( 1-\frac{1}{k} \right) ^{\delta^+}\leq 1$$then $D$ contains a directed cycle of length divisible by $k$.

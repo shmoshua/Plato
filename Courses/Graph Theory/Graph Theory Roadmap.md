@@ -75,3 +75,16 @@
 ![[Path (Graph)#^0d4367|p]]
 
 ---
+##### 1.1.8 Trees and Forests
+![[Tree#^6a6272]]
+![[Tree#^8551a4]]
+
+---
+![[Tree#^8ecefa]]
+![[Tree#^cffecf|p]]
+
+---
+![[Tree#^481b12]]
+![[Tree#^7a33da|p]]
+
+---
