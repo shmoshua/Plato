@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 1"
+              "title": "Variety"
             }
           },
           {
@@ -258,11 +258,11 @@
   },
   "active": "30085cb51434f7d6",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Algebra/Unitary Representation.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "unitary matrix.md",
     "Algebra/Group Action.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
