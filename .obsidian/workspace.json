@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 1.md",
+                "file": "Courses/Algebraic Geometry/Exercise Sheet 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 1"
+              "title": "Exercise Sheet 1"
             }
           }
         ],
@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 1.md",
+                "file": "Courses/Algebraic Geometry/Exercise Sheet 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 1"
+              "title": "Exercise Sheet 1"
             }
           },
           {
@@ -90,30 +90,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Path (Graph)"
-            }
-          },
-          {
-            "id": "9ef6c646125f1e34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Information Theory/Information Theory Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Information Theory Roadmap"
+              "title": "Variety"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,21 +242,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1cfc7065564ccc90",
+  "active": "fe19a1480482e56d",
   "lastOpenFiles": [
+    "Algebra/Variety.md",
+    "Courses/Algebraic Geometry/Exercise Sheet 1.md",
+    "Algebra/Field.md",
     "Graph Theory/Path (Graph).md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Courses/Graph Theory/Problem Set 1.md",
     "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
     "Algebra/Noetherian and Artinian Module.md",
-    "Courses/Graph Theory/Problem Set 1.md",
     "Topology/Noetherian Space.md",
-    "Courses/Information Theory/Information Theory Roadmap.md",
     "Topology/Connected Space.md",
     "Topology/Reducible Space.md",
     "Topology/Zariski Topology.md",
     "Graph Theory/Graph.md",
     "Algebra/Polynomial Function.md",
     "Algebra/Radical (Ring).md",
-    "Algebra/Variety.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Maximal Ideal.md",
@@ -280,11 +267,9 @@
     "Topology/Path.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Splitting Field.md",
-    "Algebra/Field.md",
     "Algebra/Algebra.md",
     "Algebra/Polynomial Ring.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Graph Theory/Tree.md",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",
