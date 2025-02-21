@@ -130,3 +130,13 @@
 
 - **Remark**: There is a bijection given by: $$\left\{ \begin{matrix} \text{Affine subvarieties}\\X\text{ of }Y \end{matrix} \right\} \overset{ I_{Y}(\cdot ) }{ \underset{  V_{Y}(\cdot ) }{ \longleftrightarrows  }}\left\{ \begin{matrix} \text{Radical ideals}\\J\unlhd A(Y)\end{matrix} \right\} $$
 ---
+> [!lemma] Proposition 2
+> Let $Y\subseteq \mathbb{A}^n_{K}$ be an affine variety and $X\subseteq Y$ an affine subvariety. 
+> 1. $X$ is also an affine variety of $\mathbb{A}^n_{K}$.
+> 2. if $Z\subseteq \mathbb{A}^n$ is an affine variety, then $Z\cap X\subseteq X$ is an affine subvariety.
+---
+### 2. Zariski Topology
+![[Zariski Topology#^7f255b]]
+![[Zariski Topology#^7bb410]]
+
+---

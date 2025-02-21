@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
+                "file": "Topology/Zariski Topology.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Geometry Roadmap"
+              "title": "Zariski Topology"
             }
           },
           {
@@ -41,15 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Function.md",
+                "file": "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Polynomial Function"
+              "title": "Algebraic Geometry Roadmap"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -75,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Function.md",
+                "file": "Topology/Zariski Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Polynomial Function"
+              "title": "Zariski Topology"
             }
           },
           {
@@ -103,16 +104,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Radical (Ring).md",
+                "file": "Graph Theory/Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Radical (Ring)"
+              "title": "Graph"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,8 +165,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -257,15 +257,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bf83c5e2855a4970",
+  "active": "09209123d2d18f28",
   "lastOpenFiles": [
     "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
+    "Topology/Zariski Topology.md",
     "Algebra/Polynomial Function.md",
-    "Algebra/Variety.md",
+    "Courses/Graph Theory/Problem Set 1.md",
     "Graph Theory/Graph.md",
     "Algebra/Radical (Ring).md",
+    "Algebra/Variety.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Courses/Graph Theory/Problem Set 1.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Maximal Ideal.md",
     "Graph Theory/Path (Graph).md",
@@ -285,7 +286,6 @@
     "Courses/Algebraic Geometry",
     "Algebra/Unitary Representation.md",
     "unitary matrix.md",
-    "Algebra/Group Action.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",
     "ML Theory/Reinforcement Learning",

@@ -2,13 +2,18 @@
 
 > [!definition]
 > Let $X\subseteq \mathbb{A}_{K}^n$ be a [[variety]]. Then, 
-> 1. ***Zariski topology*** on $X$ is given by $C\subseteq X$ is closed if and only if $C=V(I)$ for some ideal $I\unlhd A(X)$ where $A(X)$ is the [[Polynomial Function|ring of polynomial functions]].
+> 1. the ***Zariski topology*** on $X$ is the topology whose closed sets are the affine subvarieties of $X$.
 
 ^7f255b
 
+- **Remark**: The Zariski topology on $X\subseteq \mathbb{A}^n_{K}$ coincides with the induced topology of the Zariski topology on $\mathbb{A}^n_{K}$. ^7bb410
  - **Remark**: Zariski topology is not Hausdorff: on $\mathbb{A}_{K}^1$, Zariski topology coincides with the [[Topological Space|cofinite topology]]. ^23c06e
 ---
 ##### Properties
+> [!lemma] Proposition 1
+> Let $f:\mathbb{A}^n_{}$
+
+---
 > [!lemma] Proposition 1
 > Let $n\geq 1$ be an integer. If $U\subseteq \mathbb{C}^n$ is any non-empty open set for the Zariski topology, then $U$ is dense for the Zariski topology. 
 

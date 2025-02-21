@@ -115,7 +115,15 @@ We show this via induction.
 
 ---
 #### Problem 6
-Assume that there exists two paths $P_{1},P_{2}$ of maximal length that do not share any vertex. Then, as $G$ is connected, there exists a $(u,v)$-path $Q$ where $u$ is on $P_{1}$ and $v$ is on $P_{2}$. Let $k$ be the length of $$
+Assume that there exists two paths $P_{1},P_{2}$ of maximal length that do not share any vertex. Then, as $G$ is connected, there exists a $(u,v)$-path $Q$ where $u$ is on $P_{1}$ and $v$ is on $P_{2}$. Modulo taking a subpath, we may assume that $Q$ is edge disjoint from $P_{1},P_{2}$. 
+
+Let $k$ be the length of $P_{1}$ and $P_{2}$. Let $P'_{1}$ and $P_{2}'$ be the longer subpath of $P_{1},P_{2}$ that starts in an endpoint and ends in $u,v$ respectively. More formally, for $P_{1}:=v_{0}v_{1}\dots v_{k}$, $$P_{1}':=\begin{cases}v_{0}\dots u&\text{if }u=v_{i}\text{ with }i\geq \frac{k}{2}\\v_{k}\dots u&\text{otherwise}\end{cases}$$and similarly for $P'_{2}$. Then, $P'_{1}+Q+P'_{2}$ is a path of length $\geq \frac{k}{2}+1+\frac{k}{2}>k$. This is a contradiction to the fact that $P_{1},P_{2}$ are paths of maximal length.
+
+---
+#### Problem 7
+Let $G=(V,E)$ be bipartite. Assume there is a cycle of odd length $v_{1}\dots v_{k}v_{1}$. Then, 
+
+Let $G$ contain only even cycles. Fix a vertex $v_{0}$ and define: $$A:=\{ v\in V: d(v,v_{0})\text{ is even} \}$$and $B:= V \backslash A$. Then, 
 
  
 
