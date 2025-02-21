@@ -121,9 +121,16 @@ Let $k$ be the length of $P_{1}$ and $P_{2}$. Let $P'_{1}$ and $P_{2}'$ be the l
 
 ---
 #### Problem 7
-Let $G=(V,E)$ be bipartite. Assume there is a cycle of odd length $v_{1}\dots v_{k}v_{1}$. Then, 
+Let $G=(A\sqcup B,E)$ be bipartite. Assume there is a cycle of odd length $v_{1}\dots v_{k}v_{1}$. Then, let $v_{1}\in A$ wlog. Then, $v_{2}\in B$ and we can easily show that $v_{i}\in A$ for odd $i$ and $v_{i}\in B$ for even $i$. However, as $k$ is odd, $v_{1},v_{k}\in A$ and this is a contradiction. 
 
-Let $G$ contain only even cycles. Fix a vertex $v_{0}$ and define: $$A:=\{ v\in V: d(v,v_{0})\text{ is even} \}$$and $B:= V \backslash A$. Then, 
+Conversely, let $G=(V,E)$ contain only even cycles. We may assume that $G$ is connected, as if we show that each connected component is bipartite, we have that the whole graph is bipartite as well.
 
- 
+Fix a vertex $v_{0}\in V$ and let $P_{v}$ be the shortest path from $v_{0}$ to $v$ for all $v\in V$. Further, let $$A:=\{ v\in V: P_{v}\text{ is of even length} \}$$and $B:= V \backslash A$. Then, assume we have an edge $uv$ where $u,v\in A$. By connecting $P_{v},uv,P_{u}$, we get a closed walk of odd length, say $k$. We claim that this contains an odd cycle.
 
+We show this by induction over $k$.
+1. if $k=3$, then the closed walk is a cycle and the statement holds.
+2. if $k\geq 5$, then if the closed walk is a cycle, we are done. Otherwise, there exists a point $w$ in the walk that is visited twice. Hence, we can partition the closed walk into two closed walks at $w$, where one of them has to be have odd length. However, this length is strictly smaller than $k$ and by induction we are done. 
+
+Therefore, $A$ forms an independent set and so does $B$ by an analogous argument.
+
+---

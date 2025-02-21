@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
+                "file": "Courses/Graph Theory/Problem Set 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Geometry Roadmap"
+              "title": "Problem Set 1"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Noetherian Space.md",
+                "file": "Courses/Graph Theory/Problem Set 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Noetherian Space"
+              "title": "Problem Set 1"
             }
           },
           {
@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Noetherian and Artinian Module.md",
+                "file": "Graph Theory/Path (Graph).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Noetherian and Artinian Module"
+              "title": "Path (Graph)"
             }
           },
           {
@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -257,23 +257,24 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9ef6c646125f1e34",
+  "active": "1cfc7065564ccc90",
   "lastOpenFiles": [
-    "Topology/Connected Space.md",
-    "Topology/Noetherian Space.md",
+    "Graph Theory/Path (Graph).md",
+    "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
     "Algebra/Noetherian and Artinian Module.md",
+    "Courses/Graph Theory/Problem Set 1.md",
+    "Topology/Noetherian Space.md",
+    "Courses/Information Theory/Information Theory Roadmap.md",
+    "Topology/Connected Space.md",
     "Topology/Reducible Space.md",
     "Topology/Zariski Topology.md",
-    "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
     "Graph Theory/Graph.md",
-    "Courses/Graph Theory/Problem Set 1.md",
     "Algebra/Polynomial Function.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Variety.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Maximal Ideal.md",
-    "Graph Theory/Path (Graph).md",
     "TIKZ.md",
     "Algebra/Ideal (Ring).md",
     "Topology/Path.md",
@@ -284,7 +285,6 @@
     "Algebra/Polynomial Ring.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Tree.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",
