@@ -56,4 +56,28 @@ plot (-{1 /\t},-{\t});
 \draw[->] (0,-2.2) -- (0,2.2) node[above] {$y$}; 
 \end{tikzpicture} 
 \end{document} ```
-4. 
+4. ```tikz 
+\begin{document} 
+\begin{tikzpicture}
+\draw[color=red,scale=0.5,domain=-0.9:0,smooth,variable=\t]plot (\t,{sqrt(\t*(\t-1)*(\t-2)*(\t-3))});
+\draw[color=red,scale=0.5,domain=-0.9:0,smooth,variable=\t]plot (\t,{-sqrt(\t*(\t-1)*(\t-2)*(\t-3))});
+\draw[color=red,scale=0.5,domain=1:2,smooth,variable=\t]plot (\t,{sqrt(\t*(\t-1)*(\t-2)*(\t-3))});\draw[color=red,scale=0.5,domain=1:2,smooth,variable=\t]plot (\t,{-sqrt(\t*(\t-1)*(\t-2)*(\t-3))});
+\draw[color=red,scale=0.5,domain=3:3.9,smooth,variable=\t]plot (\t,{sqrt(\t*(\t-1)*(\t-2)*(\t-3))});
+\draw[color=red,scale=0.5,domain=3:3.9,smooth,variable=\t]plot (\t,-{sqrt(\t*(\t-1)*(\t-2)*(\t-3))});
+\draw[->] (-2.2,0) -- (2.2,0) node[right] {$x$}; 
+\draw[->] (0,-2.2) -- (0,2.2) node[above] {$y$}; 
+\end{tikzpicture} 
+\end{document} ```
+4. ```tikz 
+\begin{document} 
+\begin{tikzpicture}
+\draw[color=red,scale=0.5,domain=0:1,smooth,variable=\t]plot (\t,{sqrt(\t*(\t-1)*(\t-2)*(\t-3)*(\t-4))});
+\draw[color=red,scale=0.5,domain=0:1,smooth,variable=\t]plot (\t,{-sqrt(\t*(\t-1)*(\t-2)*(\t-3)*(\t-4))});
+\draw[color=red,scale=0.5,domain=2:3,smooth,variable=\t]plot (\t,{sqrt(\t*(\t-1)*(\t-2)*(\t-3)*(\t-4))});
+\draw[color=red,scale=0.5,domain=2:3,smooth,variable=\t]plot (\t,{-sqrt(\t*(\t-1)*(\t-2)*(\t-3)*(\t-4))});
+\draw[color=red,scale=0.5,domain=4:4.4,smooth,variable=\t]plot (\t,{sqrt(\t*(\t-1)*(\t-2)*(\t-3)*(\t-4))});
+\draw[color=red,scale=0.5,domain=4:4.4,smooth,variable=\t]plot (\t,{-sqrt(\t*(\t-1)*(\t-2)*(\t-3)*(\t-4))});
+\draw[->] (-2.2,0) -- (2.2,0) node[right] {$x$}; 
+\draw[->] (0,-2.2) -- (0,2.2) node[above] {$y$}; 
+\end{tikzpicture} 
+\end{document} ```
