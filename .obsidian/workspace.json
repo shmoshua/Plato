@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Zariski Topology.md",
+                "file": "Topology/Noetherian Space.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Zariski Topology"
+              "title": "Noetherian Space"
             }
           },
           {
@@ -76,12 +76,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Zariski Topology.md",
+                "file": "Topology/Noetherian Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Zariski Topology"
+              "title": "Noetherian Space"
             }
           },
           {
@@ -90,12 +90,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 1.md",
+                "file": "Algebra/Noetherian and Artinian Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 1"
+              "title": "Noetherian and Artinian Module"
             }
           },
           {
@@ -104,16 +104,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Courses/Information Theory/Information Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph"
+              "title": "Information Theory Roadmap"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -257,13 +257,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "09209123d2d18f28",
+  "active": "9ef6c646125f1e34",
   "lastOpenFiles": [
-    "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
+    "Topology/Connected Space.md",
+    "Topology/Noetherian Space.md",
+    "Algebra/Noetherian and Artinian Module.md",
+    "Topology/Reducible Space.md",
     "Topology/Zariski Topology.md",
-    "Algebra/Polynomial Function.md",
-    "Courses/Graph Theory/Problem Set 1.md",
+    "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
     "Graph Theory/Graph.md",
+    "Courses/Graph Theory/Problem Set 1.md",
+    "Algebra/Polynomial Function.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Variety.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
@@ -278,14 +282,10 @@
     "Algebra/Field.md",
     "Algebra/Algebra.md",
     "Algebra/Polynomial Ring.md",
-    "Algebra/Noetherian and Artinian Module.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Tree.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Courses/Algebraic Geometry",
-    "Algebra/Unitary Representation.md",
-    "unitary matrix.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",
     "ML Theory/Reinforcement Learning",

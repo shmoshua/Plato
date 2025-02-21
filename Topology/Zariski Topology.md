@@ -11,10 +11,6 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> Let $f:\mathbb{A}^n_{}$
-
----
-> [!lemma] Proposition 1
 > Let $n\geq 1$ be an integer. If $U\subseteq \mathbb{C}^n$ is any non-empty open set for the Zariski topology, then $U$ is dense for the Zariski topology. 
 
 ^da17d5

@@ -140,3 +140,18 @@
 ![[Zariski Topology#^7bb410]]
 
 ---
+![[Reducible Space#^30a488]]
+![[Reducible Space#^02173d]]
+
+---
+![[Reducible Space#^2239df]]
+![[Reducible Space#^055bf8|p]]
+
+---
+![[Reducible Space#^c2e554]]
+
+---
+![[Reducible Space#^043276]]
+
+---
+#### 2.1 Noetherian Space
