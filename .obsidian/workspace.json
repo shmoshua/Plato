@@ -104,12 +104,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ideal (Ring).md",
+                "file": "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ideal (Ring)"
+              "title": "Linear Systems Theory Roadmap"
             }
           }
         ],
@@ -257,10 +257,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "09209123d2d18f28",
+  "active": "22f4de0339fefb96",
   "lastOpenFiles": [
-    "Topology/Noetherian Space.md",
+    "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
+    "Algebra/Linear Algebra/Eigenvalues and Eigenvectors.md",
+    "Algebra/Linear Algebra/Rank and Nullity.md",
+    "Algebra/Linear Algebra/Kernel and Image.md",
+    "Algebra/Linear Algebra/Orthogonal Complement.md",
+    "Algebra/Ideal (Ring).md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
+    "Topology/Noetherian Space.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Courses/Advanced Graph Algorithms",
     "Courses/Untitled.md",
@@ -269,7 +275,6 @@
     "TIKZ.md",
     "Algebra/Algebra.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Algebra/Ideal (Ring).md",
     "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
     "Algebra/Field.md",
     "Graph Theory/Path (Graph).md",
@@ -281,11 +286,6 @@
     "Graph Theory/Graph.md",
     "Algebra/Polynomial Function.md",
     "Algebra/Radical (Ring).md",
-    "Algebra/Prime Ideal.md",
-    "Algebra/Maximal Ideal.md",
-    "Topology/Path.md",
-    "Algebra/Algebraic Closure.md",
-    "Algebra/Splitting Field.md",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",
