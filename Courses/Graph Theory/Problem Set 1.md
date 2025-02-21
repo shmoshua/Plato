@@ -111,5 +111,11 @@ Hence, in both cases there are $n-1$ possible options for $n$ values and we conc
 #### Problem 5
 We show this via induction. 
 1. For $n=7$, then $5n-14=21={7 \choose 2}$. Hence, any graph with more than $5n-14$ edges is exactly $K_{7}$. In this case, $K_{7}$ is the desired subgraph.
-2. Let $n\geq 8$. Let $\delta(G)$
+2. Let $n\geq 8$. If $\delta(G)\geq 6$ then we are done. Otherwise, there exists $v\in V(G)$ with $d(v)\leq 5$. Then, consider $G':=G  \backslash \{ v \}$. Then, $\left| E(G') \right|=\left| E(G) \right|-d(v)\geq 5n-14-5=5(n-1)-14$. Hence, by induction there exists a subgraph in $G'$ with minimal degree 6 and of course this is a subgraph in $G$ as well.
+
+---
+#### Problem 6
+Assume that there exists two paths $P_{1},P_{2}$ of maximal length that do not share any vertex. Then, as $G$ is connected, there exists a $(u,v)$-path $Q$ where $u$ is on $P_{1}$ and $v$ is on $P_{2}$. Let $k$ be the length of $$
+
+ 
 

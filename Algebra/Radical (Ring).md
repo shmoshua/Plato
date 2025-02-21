@@ -53,3 +53,16 @@
 > 1. $\sqrt{ (x^2) }=(x)$.
 
 ^1e2e72
+
+---
+> [!h] Example 2 (Sum of radical ideals is not always radical)
+> Consider $\mathbb{A}^2_{K}$ and consider 
+> 1. $I_{1}:=(y-x^{2})\unlhd K[x,y]$ and 
+> 2. $I_{2}:=(y)\unlhd K[x,y]$.
+> 
+> Then,
+> 1. $I_{1}+I_{2}=(y-x^{2},y)=(x^{2},y)$ is not radical as $x\in \sqrt{ I_{1}+I_{2} }$ but $x\notin I_{1}+I_{2}$.
+
+^d10f50
+
+---

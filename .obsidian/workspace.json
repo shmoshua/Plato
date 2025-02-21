@@ -34,9 +34,22 @@
               "icon": "lucide-file",
               "title": "Algebraic Geometry Roadmap"
             }
+          },
+          {
+            "id": "198df660f4bc6b60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Polynomial Function.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Polynomial Function"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -57,6 +70,20 @@
             }
           },
           {
+            "id": "1cfc7065564ccc90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Polynomial Function.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Polynomial Function"
+            }
+          },
+          {
             "id": "22f4de0339fefb96",
             "type": "leaf",
             "state": {
@@ -68,20 +95,6 @@
               },
               "icon": "lucide-file",
               "title": "Problem Set 1"
-            }
-          },
-          {
-            "id": "1cfc7065564ccc90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Graph.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Graph"
             }
           },
           {
@@ -98,7 +111,8 @@
               "title": "Radical (Ring)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -150,7 +164,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -242,17 +257,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "09209123d2d18f28",
+  "active": "bf83c5e2855a4970",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Problem Set 1.md",
     "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
+    "Algebra/Polynomial Function.md",
+    "Algebra/Variety.md",
     "Graph Theory/Graph.md",
     "Algebra/Radical (Ring).md",
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
+    "Courses/Graph Theory/Problem Set 1.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Maximal Ideal.md",
     "Graph Theory/Path (Graph).md",
     "TIKZ.md",
-    "Algebra/Variety.md",
     "Algebra/Ideal (Ring).md",
     "Topology/Path.md",
     "Algebra/Algebraic Closure.md",
@@ -261,7 +278,6 @@
     "Algebra/Algebra.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Noetherian and Artinian Module.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Tree.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
@@ -271,7 +287,6 @@
     "unitary matrix.md",
     "Algebra/Group Action.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Courses/Algorithms for Data Science",
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",

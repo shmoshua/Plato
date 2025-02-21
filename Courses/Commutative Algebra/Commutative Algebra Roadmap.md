@@ -191,8 +191,8 @@
 
 ---
 ##### 2.2.2 Coordinate Rings
-![[Ring of Polynomial Functions#^4b2402]]
-![[Ring of Polynomial Functions#^39a3bf|p]]
+![[Polynomial Function#^4b2402]]
+![[Polynomial Function#^39a3bf|p]]
 ![[Variety#^da8bb5]]
 
 ---

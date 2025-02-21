@@ -100,8 +100,33 @@
 > [!lemma] Lemma 4 (More properties of Vanishing Ideals)
 > Let $X_{1},X_{2}\subseteq \mathbb{A}^n$. Then, 
 > 1. $I(X_{1}\cup X_{2})=I(X_{1})\cap I(X_{2})$
+> 2. $I(X_{1}\cap X_{2})=\sqrt{ I(X_{1})+I(X_{2}) }$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. If $f\in I(X_{1}\cup X_{2})$, then for all $x\in X_{1}$, $f(x)=0$ and $f\in I(X_{1})$. Similarly $f\in I(X_{2})$. The converse is analogous.
-> 2. If $f\in I(X_{1}\cap X_{2})$, then 
+> 2. We have that: $$I(X_{1}\cap X_{2})=I(V(I(X_{1}))\cap V(I(X_{2})))=I(V(I(X_{1})+I(X_{2})))=\sqrt{ I(X_{1})+I(X_{2}) }$$
+
+---
+![[Radical (Ring)#^d10f50]]
+
+---
+##### 0.1.3 Polynomial Functions
+
+> [!lemma] Proposition 1
+> On $\mathbb{A}^n_{K}$, the polynomials and polynomial functions coincide.
+
+> [!proof]-
+> If $f,g\in K[x_{1},\dots,x_{n}]$ define the same function $\mathbb{A}^n_{K}\to K$, then $f-g\in I(\mathbb{A}^n_{K})=0$. Hence, $f=g$.
+
+---
+![[Polynomial Function#^56793e]]
+
+---
+> [!definition]
+> For $Y\subseteq \mathbb{A}^n_{K}$ an affine variety,
+> 1. for $S\subseteq A(Y)$, the ***affine subvariety*** is $V(S):=V_{Y}(S):=\{ x\in Y:f(x)=0,\forall f\in S \}$.
+> 2. for $X\subseteq Y$, $I(X):=I_{Y}(X):=\{ f\in A(Y):f(x)=0,\forall x\in X \}\unlhd A(Y)$.
+
+- **Remark**: There is a bijection given by: $$\left\{ \begin{matrix} \text{Affine subvarieties}\\X\text{ of }Y \end{matrix} \right\} \overset{ I_{Y}(\cdot ) }{ \underset{  V_{Y}(\cdot ) }{ \longleftrightarrows  }}\left\{ \begin{matrix} \text{Radical ideals}\\J\unlhd A(Y)\end{matrix} \right\} $$
+---

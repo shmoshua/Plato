@@ -18,7 +18,7 @@
 ^fb7c53
 
 > [!proof]-
-> We have that if $f$ is a morphism, $f_{i}\in A(X)$ by [[Ring of Polynomial Functions|Remark]]. Conversely, if $f_{i}\in A(X)$, then there exists $F_{1},\dots,F_{m}\in K[x_{1},\dots,x_{n}]$ s.t. $f(x)=(F_{1}(x),\dots,F_{n}(x))$. 
+> We have that if $f$ is a morphism, $f_{i}\in A(X)$ by [[Polynomial Function|Remark]]. Conversely, if $f_{i}\in A(X)$, then there exists $F_{1},\dots,F_{m}\in K[x_{1},\dots,x_{n}]$ s.t. $f(x)=(F_{1}(x),\dots,F_{n}(x))$. 
 
 ^1b25df
 
