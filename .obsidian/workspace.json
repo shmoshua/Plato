@@ -90,15 +90,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "Algebra"
+            }
+          },
+          {
+            "id": "40ca3b94a7944ba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Ideal (Ring).md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Ideal (Ring)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,7 +144,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "homogeneous ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +165,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -242,15 +258,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "fe19a1480482e56d",
+  "active": "22f4de0339fefb96",
   "lastOpenFiles": [
+    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Variety.md",
     "Courses/Algebraic Geometry/Exercise Sheet 1.md",
+    "Algebra/Ideal (Ring).md",
+    "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
     "Algebra/Field.md",
     "Graph Theory/Path (Graph).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Courses/Graph Theory/Problem Set 1.md",
-    "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
     "Algebra/Noetherian and Artinian Module.md",
     "Topology/Noetherian Space.md",
     "Topology/Connected Space.md",
@@ -259,11 +277,9 @@
     "Graph Theory/Graph.md",
     "Algebra/Polynomial Function.md",
     "Algebra/Radical (Ring).md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Maximal Ideal.md",
     "TIKZ.md",
-    "Algebra/Ideal (Ring).md",
     "Topology/Path.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Splitting Field.md",
