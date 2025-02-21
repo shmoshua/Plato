@@ -2,6 +2,9 @@
 
 #### Problem 1
 We have that:
+1. Let $v,w\in V$. Then: $$(BR^{-1}B)_{uv}=\sum_{e,e'\in E}^{}B_{ue}R^{-1}_{ee' }B_{ve'}=\sum_{e\in E}^{}\frac{B_{ue}B_{ve}}{r(e)}$$
+	1. if $(v,w)\in E$, then: $$D_{uv}-A_{uv}=0-\frac{1}{r_{uv}}=$$
+We have that:
 1. Let $v,w\in V$. 
 	1. if $v=w$, then: $$D_{vv}-A_{vv}=w(v)=\sum_{(u,v)\in E} \frac{1}{r(u,v)}=\sum_{(u,v)\in E}^{}\frac{B^{2}_{v(u,v)}}{r(e)}=\sum_{e\in E}^{}\frac{B^2_{ve}}{r(e)}=\sum_{e,e'\in E}^{}B_{ve}R^{-1}_{ee'}B_{ve'}=(BR^{-1}B)_{vv}$$
 	2. if $v\neq w$ with $(v,w)\in E$, then: $$D_{vw}-A_{vw}=-\frac{1}{r(v,w)}=\sum_{e\in E}^{}\frac{B_{ve}B_{we}}{r(e)}=(BR^{-1}B)_{vw}$$
@@ -25,4 +28,8 @@ Hence, $$\begin{align}x^\top Lx&=2\sum_{(u,v)\in E}^{}\frac{x(v)^{2} }{r(u,v)}-\
    
    For the converse, it suffices to show that $(\text{im }A)^{\bot}\subseteq \text{ker }A^\top$. Indeed, then by Claim 1 and 2, it follows that $(\text{ker }A^\top)^{\bot}\subseteq(\text{im }A)^{\bot\bot}=\text{im }A$. Let $x\in (\text{im }A)^{\bot}$. Then, for all $z\in V$, $$0=\braket{ x , Az } =\braket{ A^\top x , z } $$Hence, it holds that $A^\top x=0$. This concludes the proof.
 
-2. 
+2. We show that if $G$ is connected, $\text{ker }B^\top=\braket{ 1  }$, i.e. it is spanned by $1$. Firstly, notice that $$(B^\top 1)_{e}=\sum_{v\in V}^{}B_{v,e}=1-1=0$$and by linearity, $\braket{ 1  }\subseteq \text{ker }B^\top$. Conversely, if $\lambda\in \text{ker }B^\top$, then: $$0=(B^\top\lambda)_{e}=\sum_{v\in V}^{}B_{v,e}\lambda_{v}=\lambda_{u}-\lambda_{w},\quad \forall e=(u,w)\in E$$This means, for any $u,v\in V$, if there is a $(u,v)$-path, then $\lambda_{u}=\lambda_{v}$. Hence, as $G$ is connected, $\lambda\in \braket{ 1  }$. 
+   
+   Therefore, $$\exists f: Bf=d \iff d\in \text{im }B=(\text{ker }B^\top)^{\bot}=\braket{ 1  }^{\bot} \iff 1^\top d =0 $$
+
+---
