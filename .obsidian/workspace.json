@@ -104,12 +104,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
+                "file": "Algebra/Linear Algebra/Orthogonal Complement.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Linear Systems Theory Roadmap"
+              "title": "Orthogonal Complement"
+            }
+          },
+          {
+            "id": "b951555aa80cd47f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Hilbert Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Hilbert Space"
             }
           }
         ],
@@ -259,13 +273,14 @@
   },
   "active": "22f4de0339fefb96",
   "lastOpenFiles": [
+    "Algebra/Linear Algebra/Orthogonal Complement.md",
+    "Analysis/Hilbert Space.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Algebra/Linear Algebra/Eigenvalues and Eigenvectors.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Algebra/Linear Algebra/Kernel and Image.md",
-    "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Algebra/Ideal (Ring).md",
-    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Topology/Noetherian Space.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Courses/Advanced Graph Algorithms",
@@ -285,7 +300,6 @@
     "Topology/Zariski Topology.md",
     "Graph Theory/Graph.md",
     "Algebra/Polynomial Function.md",
-    "Algebra/Radical (Ring).md",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",
