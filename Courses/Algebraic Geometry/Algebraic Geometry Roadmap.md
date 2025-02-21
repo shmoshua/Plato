@@ -74,6 +74,14 @@
 > 2. $\supseteq$ for 2: let $f\in \sqrt{ J }$. For all $x\in V(J)=V(\sqrt{ J })$, we have that $f(x)=0$. Hnece, $f\in I(V(J))$.
 > 3. $\subseteq$ for 1: If $X$ is an affine variety, we have that $X=V(J)$ for some ideal $J$. Then, $$V(I(X))=V(\underbrace{ I(V(J)) }_{ \supseteq \sqrt{ J } })\subseteq V(\sqrt{ J })=V(J)=X$$
 > 4. $\subseteq$ for 2: given by [[Variety|Nullstellensatz]].
+- **Remark**: This bijection restricts to $$\left\{ \begin{matrix} \text{Points }x\in \mathbb{A}^n \end{matrix} \right\} \overset{ I(\cdot ) }{ \underset{  V(\cdot ) }{ \longleftrightarrows  }}\left\{ \begin{matrix} \text{Maximal ideals}\\J\unlhd K[x_{1},\dots,x_{n}] \end{matrix} \right\} $$
+---
+> [!lemma] Proposition 3 (Weak NullstellenSatz)
+> Let $J\unlhd K[x_{1},\dots,x_{n}]$. 
+> 1. if $J$ is proper, then $V(J)\neq \varnothing$.
+
+> [!proof]-
+> If $V(J)=\varnothing$, then by Theorem 2, $$\sqrt{ J }=I(V(J))=I(\varnothing)=K[x_{1},\dots,x_{n}]$$Then, $1\in \sqrt{ J }$ and $1\in J$. Hence, $J=K[x_{1},\dots,x_{n}]$
 ---
 > [!h] Example 1
 > Let $n=1$. Then, 
@@ -81,3 +89,19 @@
 > 2. $V(f)=\{ a_{1},\dots,a_{r} \}$ if $c\neq0$.
 > 3. $I(V(f))=((x_{1}-a_{1})\dots(x_{1}-a_{r}))$.
 > 4. $\sqrt{ J }=((x_{1}-a_{1})\dots(x_{1}-a_{r}))$.
+
+---
+> [!h] Example 2 (Why we need Algebraically Closed Field)
+> Let $J:=(x^{2}+1)\unlhd \mathbb{R}[x]$. Then, 
+> 1. $I(V(J))=I(\varnothing)=\mathbb{R}[x]$ but
+> 2. $\sqrt{ J }=J$ as $J$ is prime. 
+
+---
+> [!lemma] Lemma 4 (More properties of Vanishing Ideals)
+> Let $X_{1},X_{2}\subseteq \mathbb{A}^n$. Then, 
+> 1. $I(X_{1}\cup X_{2})=I(X_{1})\cap I(X_{2})$
+
+> [!proof]+
+> We have:
+> 1. If $f\in I(X_{1}\cup X_{2})$, then for all $x\in X_{1}$, $f(x)=0$ and $f\in I(X_{1})$. Similarly $f\in I(X_{2})$. The converse is analogous.
+> 2. If $f\in I(X_{1}\cap X_{2})$, then 

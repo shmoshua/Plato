@@ -101,8 +101,15 @@ Therefore, $\overline{G}$ is connected.
 
 ---
 #### Problem 4
-We show this by induction over $n:=\left| V(G) \right|$. 
-1. If $n=2$, either $G$ is empty or a single edge. In both cases, the statement holds. 
-2. If $n\geq 3$,  
-   
-Let $G$ be a simple graph on $n$ vertices and assume that the degrees are all different, i.e. the degree sequence is given by $n-1,n-2,\dots,0$. Then, $$2\left| E \right|=\sum_{v\in V}^{}d(v)=\sum_{i=0}^{n-1}i=\frac{n(n-1)}{2}$$
+Let $G$ be a simple graph on $n$ vertices. Notice that for any $v\in V(G)$, $d(v)\in \{ 0,1,\dots, n-1 \}$. However, 
+1. if there is a vertex with degree 0, then there is no vertex with degree $n-1$. Hence, $d(v)\in \{ 0,1,\dots, n-2 \}$ for all $v\in V(G)$.
+2. if there is no vertex with degree 0, then $d(v)\in \{ 1,\dots,n-1 \}$ for all $v\in V(G)$.
+
+Hence, in both cases there are $n-1$ possible options for $n$ values and we conclude the claim via pigeonhole principle. 
+
+---
+#### Problem 5
+We show this via induction. 
+1. For $n=7$, then $5n-14=21={7 \choose 2}$. Hence, any graph with more than $5n-14$ edges is exactly $K_{7}$. In this case, $K_{7}$ is the desired subgraph.
+2. Let $n\geq 8$. Let $\delta(G)$
+
