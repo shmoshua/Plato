@@ -8,7 +8,7 @@ We have that:
 2. We have: $$\begin{align}x^\top Lx&=\sum_{u,v\in V}^{}x_{u}x_{v}(D_{uv}-A_{uv})\\&=\sum_{v\in V}x_{v}^{2}\sum_{u:(u,v)\in E}^{} \frac{1}{r_{uv}}-2\sum_{(u,v)\in E}\frac{x_{u}x_{v}}{r_{uv}}\\\\&=\sum_{(u,v)\in E}\frac{x_{u}^{2}+x_{v}^{2}}{r_{uv}}-2\sum_{(u,v)\in E}\frac{x_{u}x_{v}}{r_{uv}}\\&=\sum_{(u,v)\in E}^{}\frac{(x_{u}-x_{v})^{2}}{r_{uv}}\end{align}$$
 	Hence, for any $x\in \mathbb{R}^V$, $x^\top Lx\geq 0$ as $r\geq 0$ and $L$ is positive semi-definite.
 
-3. 
+3. From 2, we see that $x^\top Lx=0$ if and only if $x\in \braket{ \mathbb{1}_{C_{1}} , \mathbb{1}_{C_{2}},\dots,\mathbb{1}_{C_{k}} }$, i.e. the subspace spanned by the characteristic functions of the connected components $C_{1},\dots,C_{k}$ of $G$. Now, as $L$ is positive semi-definite, $\text{ker }L=\{ x\in \mathbb{R}^V : x^\top L x=0 \}=\braket{ \mathbb{1}_{C_{1}} , \mathbb{1}_{C_{2}},\dots,\mathbb{1}_{C_{k}}}$.
 	
 
 ---
