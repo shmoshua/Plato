@@ -99,6 +99,18 @@
             }
           },
           {
+            "id": "5498540b0f6f138b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
+          },
+          {
             "id": "b951555aa80cd47f",
             "type": "leaf",
             "state": {
@@ -113,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +144,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -257,7 +270,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "22f4de0339fefb96",
+  "active": "5498540b0f6f138b",
   "lastOpenFiles": [
     "Analysis/Symmetric Positive Definite Matrices.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
