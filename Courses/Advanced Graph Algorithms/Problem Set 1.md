@@ -2,19 +2,14 @@
 
 #### Problem 1
 We have that:
-1. Let $v,w\in V$. Then: $$(BR^{-1}B)_{uv}=\sum_{e,e'\in E}^{}B_{ue}R^{-1}_{ee' }B_{ve'}=\sum_{e\in E}^{}\frac{B_{ue}B_{ve}}{r(e)}$$
-	1. if $(v,w)\in E$, then: $$D_{uv}-A_{uv}=0-\frac{1}{r_{uv}}=$$
-We have that:
-1. Let $v,w\in V$. 
-	1. if $v=w$, then: $$D_{vv}-A_{vv}=w(v)=\sum_{(u,v)\in E} \frac{1}{r(u,v)}=\sum_{(u,v)\in E}^{}\frac{B^{2}_{v(u,v)}}{r(e)}=\sum_{e\in E}^{}\frac{B^2_{ve}}{r(e)}=\sum_{e,e'\in E}^{}B_{ve}R^{-1}_{ee'}B_{ve'}=(BR^{-1}B)_{vv}$$
-	2. if $v\neq w$ with $(v,w)\in E$, then: $$D_{vw}-A_{vw}=-\frac{1}{r(v,w)}=\sum_{e\in E}^{}\frac{B_{ve}B_{we}}{r(e)}=(BR^{-1}B)_{vw}$$
-	3. if $v\neq w$ with $(v,w)\notin E$, then $D_{vw}-A_{vw}=0=(BR^{-1}B)_{vw}$.
-2. We have: $$x^\top Lx=\sum_{u,v\in V}^{}x(u)x(v)(D_{uv}-A_{uv})$$
-	1. if $u=v$, then $x(u)x(v)(D_{uv}-A_{uv})=x(v)^{2}\sum_{(w,v)}^{} \frac{1}{r(w,v)}$.
-	2. if $u\neq v$ and $(u,v)\notin E$, then $x(u)x(v)(D_{uv}-A_{uv})=0$.
-	3. if $u\neq v$ and $(u,v)\in E$, then $x(u)x(v)(D_{uv}-A_{uv})=-\frac{x(u)x(v)}{r(u,v)}$.
- 
-Hence, $$\begin{align}x^\top Lx&=2\sum_{(u,v)\in E}^{}\frac{x(v)^{2} }{r(u,v)}-\sum_{(u,v)\in E}^{}\frac{x(u)x(v)}{r(u,v)}\\&=2\sum_{v\in V}^{} \sum_{(u,v)\in E}^{} \frac{x(v)^{2}}{r(u,v)}-\sum_{(u,v)\in E}^{}\frac{x(u)x(v)}{r(u,v)}\end{align}$$
+1. Let $v,w\in V$. Then: $$(BR^{-1}B)_{vw}=\sum_{e,e'\in E}^{}B_{ve}R^{-1}_{ee' }B_{we'}=\sum_{e\in E}^{}\frac{B_{ve}B_{we}}{r(e)}$$
+	1. if $v\neq w$, then: $$(BR^{-1}B)_{vw}=-\frac{\mathbb{1}_{(v,w)\in E}}{r_{vw}}=0-\frac{\mathbb{1}_{(v,w)\in E}}{r_{vw}}=D_{vw}-A_{vw}$$
+	2. if $v=w$, then: $$(BR^{-1}B)_{vv}=\sum_{e\in E}^{}\frac{B_{ve}^{2}}{r(e)}=\sum_{u:(u,v)\in E} \frac{1}{r(u,v)}=w(v)=D_{vv}-A_{vv}$$
+2. We have: $$\begin{align}x^\top Lx&=\sum_{u,v\in V}^{}x_{u}x_{v}(D_{uv}-A_{uv})\\&=\sum_{v\in V}x_{v}^{2}\sum_{u:(u,v)\in E}^{} \frac{1}{r_{uv}}-2\sum_{(u,v)\in E}\frac{x_{u}x_{v}}{r_{uv}}\\\\&=\sum_{(u,v)\in E}\frac{x_{u}^{2}+x_{v}^{2}}{r_{uv}}-2\sum_{(u,v)\in E}\frac{x_{u}x_{v}}{r_{uv}}\\&=\sum_{(u,v)\in E}^{}\frac{(x_{u}-x_{v})^{2}}{r_{uv}}\end{align}$$
+	Hence, for any $x\in \mathbb{R}^V$, $x^\top Lx\geq 0$ as $r\geq 0$ and $L$ is positive semi-definite.
+
+3. 
+	
 
 ---
 #### Problem 2
