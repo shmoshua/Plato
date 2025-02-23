@@ -6,6 +6,7 @@
       {
         "id": "7677b24b2d0bf489",
         "type": "tabs",
+        "dimension": 48.30805134189031,
         "children": [
           {
             "id": "bf83c5e2855a4970",
@@ -48,27 +49,14 @@
               "icon": "lucide-file",
               "title": "Variety"
             }
-          },
-          {
-            "id": "c3411ce6be8c0320",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Graph Theory/Problem Set 1.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Problem Set 1"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
         "type": "tabs",
+        "dimension": 51.69194865810969,
         "children": [
           {
             "id": "fe19a1480482e56d",
@@ -88,14 +76,10 @@
             "id": "22f4de0339fefb96",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 1.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Problem Set 1"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -112,8 +96,7 @@
               "title": "Hilbert Space"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -258,11 +241,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "22f4de0339fefb96",
+  "active": "fe19a1480482e56d",
   "lastOpenFiles": [
+    "Courses/Graph Theory/Problem Set 1.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Analysis/Symmetric Positive Definite Matrices.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Analysis/Hilbert Space.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Algebra/Linear Algebra/Eigenvalues and Eigenvectors.md",
@@ -270,7 +254,6 @@
     "Algebra/Linear Algebra/Kernel and Image.md",
     "Algebra/Ideal (Ring).md",
     "Topology/Noetherian Space.md",
-    "Courses/Graph Theory/Problem Set 1.md",
     "Courses/Advanced Graph Algorithms",
     "Courses/Untitled.md",
     "Courses/Algebraic Geometry/Exercise Sheet 1.md",
