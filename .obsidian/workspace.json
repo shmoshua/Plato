@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
-                "mode": "preview",
+                "file": "Courses/Probability Theory/Exercise Class 1.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "Exercise Class 1"
             }
           }
         ],
@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
+                "file": "Courses/Probability Theory/Exercise Class 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Geometry Roadmap"
+              "title": "Exercise Class 1"
             }
           },
           {
@@ -241,8 +241,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "fe19a1480482e56d",
+  "active": "35a7f9ae689ee3d0",
   "lastOpenFiles": [
+    "Algebra/Variety.md",
+    "Courses/Probability Theory/Exercise Class 1.md",
+    "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Analysis/Symmetric Positive Definite Matrices.md",
@@ -257,11 +260,9 @@
     "Courses/Advanced Graph Algorithms",
     "Courses/Untitled.md",
     "Courses/Algebraic Geometry/Exercise Sheet 1.md",
-    "Algebra/Variety.md",
     "TIKZ.md",
     "Algebra/Algebra.md",
     "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
-    "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
     "Algebra/Field.md",
     "Graph Theory/Path (Graph).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
@@ -269,7 +270,6 @@
     "Topology/Connected Space.md",
     "Topology/Reducible Space.md",
     "Topology/Zariski Topology.md",
-    "Graph Theory/Graph.md",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",
