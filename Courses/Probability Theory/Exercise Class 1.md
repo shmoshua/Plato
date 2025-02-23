@@ -1,5 +1,8 @@
 #ExerciseClass
 
+##### 0. Organisatory stuff
+
+---
 ##### 1. Introduction to Probability Theory
 1. **How can we mathematically model non-deterministic statements and variables?**
    In probability theory, non-deterministic statements are expressed as events. Non-deterministic variables are expressed using random variables. 
@@ -15,6 +18,8 @@
 1. **Why do we need measures?**
 	1. $\mu(\varnothing)=0$ and sigma additivity. What are "good sets"?
 2. **Why do we need sigma algebra?**
+3. **Random Variable Jargons**
+4. 
 	
 
 ##### 3. Examples
@@ -24,5 +29,16 @@
 4. arbitrary intersections of sigma algebras are a sigma algebra.
 5. generated sigma algebra
 6. Borel sigma algebra - Lebesgue Measure
-7. 
+
+7. measurable functions
+
+8. Properties (monotonicity, union bound)
+
+Let us choose $n$ numbers from $\{ 1,2,3 \}$ with replacement u.a.r. 
+
+Probability that there exists a $3$ in the sequence? $$1-\left( \frac{2}{3} \right)^n$$
+Probability that there exists a series of 33 in the sequence? $$\leq (n-1) \frac{1}{9}$$
+Probability that there are two sereis of 33. 
+
+
 ---

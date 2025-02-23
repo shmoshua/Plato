@@ -96,8 +96,7 @@
               "title": "Sigma Algebra"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,10 +241,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b951555aa80cd47f",
+  "active": "fe19a1480482e56d",
   "lastOpenFiles": [
-    "Courses/Probability Theory/Exercise Class 1.md",
     "Measure Theory/Sigma Algebra.md",
+    "Courses/Probability Theory/Exercise Class 1.md",
     "Courses/Measure Theory/Measure Theory Roadmap.md",
     "Analysis/Hilbert Space.md",
     "Algebra/Variety.md",
