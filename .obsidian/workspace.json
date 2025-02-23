@@ -88,15 +88,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Measure Theory/Sigma Algebra.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hilbert Space"
+              "title": "Sigma Algebra"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -241,16 +242,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "35a7f9ae689ee3d0",
+  "active": "b951555aa80cd47f",
   "lastOpenFiles": [
-    "Algebra/Variety.md",
     "Courses/Probability Theory/Exercise Class 1.md",
+    "Measure Theory/Sigma Algebra.md",
+    "Courses/Measure Theory/Measure Theory Roadmap.md",
+    "Analysis/Hilbert Space.md",
+    "Algebra/Variety.md",
     "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Analysis/Symmetric Positive Definite Matrices.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
-    "Analysis/Hilbert Space.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Algebra/Linear Algebra/Eigenvalues and Eigenvectors.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
@@ -268,8 +271,6 @@
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Algebra/Noetherian and Artinian Module.md",
     "Topology/Connected Space.md",
-    "Topology/Reducible Space.md",
-    "Topology/Zariski Topology.md",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",
