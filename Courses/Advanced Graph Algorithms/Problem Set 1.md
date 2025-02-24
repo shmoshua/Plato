@@ -67,6 +67,15 @@ We have:
 1. $f(x)=\left| x \right|^6=x^6$. Hence, $\nabla^2_{x}f=30x^4\geq 0$. Therefore, $f$ is convex.
 2. $\nabla^{2}_{x}\exp=\exp(x)\geq 0$ for $x\in (0,\infty)$. Hence, $f$ is convex.
 3. Let $(x,y):=\left( \frac{1}{4}, \frac{1}{4} \right)$ and $(x',y'):=\left( \frac{3}{4}, \frac{3}{4} \right)$ Then, for $t=\frac{1}{2}$,$$\sqrt{\frac{1}{2}+\frac{1}{2} }=1> \frac{1}{2}\sqrt{ \frac{1}{2} }+\frac{1}{2}\sqrt{ \frac{3}{2} }$$as $\left( \sqrt{ \frac{1}{2} }+\sqrt{ \frac{3}{2} } \right)^{2}=2+\sqrt{ 3 }<4$. Hence, $f$ is not convex.
-4. Let $(x,y):= (\frac{1}{2},0)$ and $(x',y'):=\left( 0, \frac{1}{2} \right)$. Then, for $t=\frac{1}{2}$, $$f(x)$$
-5. 
-6. $$\nabla ^2_{x,y}f=\begin{bmatrix} -\frac{1}{4\sqrt{ x+y }^3}\end{bmatrix}$$
+4. Let $(x,y):= (\frac{1}{2},0)$ and $(x',y'):=\left( 0, \frac{1}{2} \right)$. Then, for $t=\frac{1}{2}$, $$f(t(x,y)+(1-t)(x',y'))=\frac{1}{16}>0=tf(x,y)+(1-t)f(x',y')$$Hence, $f$ is non-convex.
+
+---
+#### Problem 10
+1. We show this via induction over $n$. 
+	1. If $n=2$, then this follows from the definition of convexity. 
+	2. Let $n\geq 3$, then notice that by convexity of $S$, $\frac{\theta_{1}}{1-\theta_{n}}x_{1}+\dots+\frac{\theta_{n-1}}{1-\theta_{n}}x_{n-1}\in S$. Hence, $$\begin{align}f(\theta_{1}x_{1}+\dots+\theta_{n}x_{n})&=f\left( (1-\theta_{n})\left( \frac{\theta_{1}}{1-\theta_{n}}x_{1}+\dots+\frac{\theta_{n-1}}{1-\theta_{n}}x_{n-1} \right) +\theta_{n}x_{n}\right)\\&\leq (1-\theta _{n})f\left( \frac{\theta_{1}}{1-\theta_{n}}x_{1}+\dots+\frac{\theta_{n-1}}{1-\theta_{n}}x_{n-1} \right) +\theta _{n}f(x_{n})\\&\leq \theta_{1}f(x_{1})+\dots+\theta_{n-1}f(x_{n-1})+\theta_{n}f(x_{n})\end{align}$$as $\frac{1}{1-\theta_{n}}\sum_{i=1}^{n-1}\theta_{i}=1$.
+2. We have that $f:x\mapsto-\log x$ is a convex function on $(0,\infty)$ as: $$\nabla^{2}_{x}f=\frac{1}{x^{2}}\geq 0$$Hence, $$-\log\left( \frac{1}{n}\sum_{i=1}^{n}x_{i} \right)\leq -\frac{1}{n}\sum_{i=1}^{n}\log(x_{i})=-\log\left( \prod_{i=1}^{n}x_{i} \right)^{1 / n}$$Therefore, $\left( \prod_{i=1}^{n}x_{i} \right)^{1/n}\leq \frac{1}{n}\sum_{i=1}^n x_{i}$.
+3. We have that: $$\frac{1}{\left( \prod_{i=1}^{n}x_{i} \right)^{1/n}}=\left( \prod_{i=1}^{n} \frac{1}{x_{i}}\right)^{1/n}\leq \frac{1}{n}\sum_{i=1}^{n} \frac{1}{x_{i}}$$As both sides are non-negative, by taking the reciprocal we have our statement.
+
+---
+
