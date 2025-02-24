@@ -39,8 +39,13 @@ Therefore, $Lx=d$ if and only if $\nabla_{x}c=0$.
 2. We have that: $$(x_{v}-x_{u}-r_{uv}f_{uv})^{2}=(x_{v}-x_{u})^{2}-2(x_{v}-x_{u})r_{uv}f_{uv}+r_{uv}^{2}f_{uv}^{2}\geq 0$$Hence, by dividing both sides by $2r_{uv}$, $$(x_{v}-x_{u})f_{uv}-\frac{1}{2}r_{uv}f_{uv}^{2}\leq \frac{1}{2}\frac{(x_{v}-x_{u})^{2}}{r_{uv}}$$
 3. By exercise 1.2, we have that: $$\begin{align}x^\top d-\frac{1}{2}x^\top Lx&=x^\top d-\frac{1}{2}\sum_{(u,v)\in E}^{}\frac{(x_{u}-x_{v})^{2}}{r_{uv}}\\&\leq x^\top d-\sum_{(u,v)\in E}^{}\left( (x_{v}-x_{u})f_{uv}-\frac{1}{2}r_{uv}f^{2}_{uv} \right)\\&=\frac{1}{2}\sum_{e}^{}r_{e}f_{e}^{2}\\&=\frac{1}{2}f^\top Rf\end{align}$$
 4. We have that $B\tilde{f}=BR^{-1}B^\top \tilde{x}=L\tilde{x}=d$. Further, $$\tilde{x}^\top d-\frac{1}{2}\tilde{x}^\top L\tilde{x}=\frac{1}{2}\tilde{x}^\top d=\frac{1}{2}\tilde{x}^\top B\tilde{f}=\frac{1}{2}\tilde{f}^\top R \tilde{f}$$
-5. We have that: $$\tilde{x}$$
-6. 
-7. $$\frac{1}{2}\tilde{f}^\top R \tilde{f}=\frac{1}{2}\tilde{x}^\top B R^{-1}R^{^{-1}}$$
+5. We have that by iii) $$\tilde{x}^\top d-\frac{1}{2}\tilde{x}^\top L\tilde{x}=\frac{1}{2}\tilde{f} ^\top R\tilde{f}\geq {x}^\top d-\frac{1}{2}{x}^\top L{x},\quad \forall x\in \mathbb{R}^V$$Further, we have $B\tilde{f}=d$ and:$$\frac{1}{2}\tilde{f}^\top R \tilde{f}=\tilde{x}^\top d-\frac{1}{2}\tilde{x}^\top L\tilde{x}\leq \frac{1}{2}f^\top Rf,\quad \forall f\in \mathbb{R}^E,Bf=d$$
 
 ---
+#### Problem 5
+1. Let $f$ be convex. Let $\alpha\in \mathbb{R}$ and $x,y\in S_{\alpha}$. Then, for any $t\in[0,1]$, $$f(tx+(1-t)y)\leq tf(x)+(1-t)f(y)\leq t\alpha+(1-t)\alpha=\alpha$$Hence, $tx+(1-t)y\in S_{\alpha}$ for all $t\in[0,1]$ and $S_{\alpha}$ is convex. 
+2. No, consider $f:\mathbb{R}\to \mathbb{R},x\mapsto x+\sin x$. Then, $f$ is monotonously increasing and for all $\alpha\in \mathbb{R}$, $S_{\alpha}$ is given by an interval, which is convex. However, $f$ is not convex as: $$f\left( \frac{\pi}{2} \right)=\frac{\pi}{2}+1> 0+\frac{\pi}{2}=\frac{f(0)}{2}+\frac{f(\pi)}{2}$$
+
+---
+#### Problem 6
+By Boundedness theorem, $f$ is bounded on $\mathcal{F}$ and: $$m:=\inf_{x\in \mathcal{F}}f(x)>-\infty$$Now, we have to show that there exists $x^{*}\in \mathcal{F}$ s.t. $f(x^{*})=m$. Now, by the definition of infimum, there exists $x_{n}$ s.t. $f(x_{n})<$

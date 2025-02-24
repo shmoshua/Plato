@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Positive Operator.md",
+                "file": "Topology/Compact Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Positive Operator"
+              "title": "Compact Space"
             }
           }
         ]
@@ -258,14 +258,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bf83c5e2855a4970",
+  "active": "fe19a1480482e56d",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Problem Set 1.md",
+    "Topology/Compact Space.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
+    "Functional Analysis/Positive Operator.md",
+    "Courses/Graph Theory/Problem Set 1.md",
     "Analysis/Convex Function.md",
     "Measure Theory/Measure Space.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-    "Functional Analysis/Positive Operator.md",
     "Analysis/Hessian.md",
     "Courses/Probability Theory/Exercise Class 1.md",
     "Measure Theory/Sigma Algebra.md",
@@ -286,7 +287,6 @@
     "Courses/Algebraic Geometry/Exercise Sheet 1.md",
     "TIKZ.md",
     "Algebra/Algebra.md",
-    "Courses/Commutative Algebra/Commutative Algebra Roadmap.md",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",
