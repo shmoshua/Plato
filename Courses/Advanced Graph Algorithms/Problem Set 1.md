@@ -48,4 +48,25 @@ Therefore, $Lx=d$ if and only if $\nabla_{x}c=0$.
 
 ---
 #### Problem 6
-By Boundedness theorem, $f$ is bounded on $\mathcal{F}$ and: $$m:=\inf_{x\in \mathcal{F}}f(x)>-\infty$$Now, we have to show that there exists $x^{*}\in \mathcal{F}$ s.t. $f(x^{*})=m$. Now, by the definition of infimum, there exists $x_{n}$ s.t. $f(x_{n})<$
+By Boundedness theorem, $f$ is bounded on $\mathcal{F}$ and: $$m:=\inf_{x\in \mathcal{F}}f(x)>-\infty$$Now, we have to show that there exists $x^{*}\in \mathcal{F}$ s.t. $f(x^{*})=m$. Now, by the definition of infimum, there exists $x_{n}\in \mathcal{F}$ s.t. $f(x_{n})\leq m + \frac{1}{n}$. Now, $(x_{n})\subseteq \mathcal{F}$ is a bounded sequence as $\mathcal{F}$ is bounded. Hence, by Bolzano-Weierstrass, there is a convergent subsequence $(x_{n_{k}})_{k}\subseteq \mathcal{F}$ s.t. $x_{n_{k}}\to x^{*}$. However, by closedness of $\mathcal{F}$, we have that $x^{*}\in \mathcal{F}$. Hence, $$m\leq f(x^{*})=f(\lim_{k \to \infty } x_{n_{k}})=\lim_{ k \to \infty } f(x_{n_{k}})\leq m+\lim_{ k \to \infty } \frac{1}{n_{k}}=m$$This shows that, $f(x^{*})=m$. 
+
+---
+#### Problem 7
+Let $X$ be the domain and $x,y\in X$. Then, for $t\in[0,1]$, there exists $i\in[k]$ s.t. $$f(tx+(1-t)y)=f_{i}(tx+(1-t)y)\leq tf_{i}(x)+(1-t)f_{i}(y)\leq tf(x)+(1-t)f(y)$$
+and $f$ is convex.
+
+---
+#### Problem 8
+Let $x,x'\in X$ and $t\in[0,1]$. Then by definition of infimum, for any $\varepsilon>0$ there exists $y,y'\in S$ s.t. $f(x,y)\leq g(x) + \varepsilon$ and $f(x',y')\leq g(x')+\varepsilon$. As convexity of $S$, we have $ty+(1-t)y'\in S$. Hence, 
+
+$$\begin{align}g(tx+(1-t)x')&=\inf_{z\in S}f(tx+(1-t)x',z)\\&\leq f(t(x,y)+(1-t)(x',y'))\\&\leq tf(x,y)+(1-t)f(x',y')\\&\leq tg(x)+(1-t)g(x')+\varepsilon \end{align}$$By sending $\varepsilon \to 0$, we have that $g(tx+(1-t)x')\leq tg(x)+(1-t)g(x')$ and $g$ is convex.
+
+---
+#### Problem 9
+We have:
+1. $f(x)=\left| x \right|^6=x^6$. Hence, $\nabla^2_{x}f=30x^4\geq 0$. Therefore, $f$ is convex.
+2. $\nabla^{2}_{x}\exp=\exp(x)\geq 0$ for $x\in (0,\infty)$. Hence, $f$ is convex.
+3. Let $(x,y):=\left( \frac{1}{4}, \frac{1}{4} \right)$ and $(x',y'):=\left( \frac{3}{4}, \frac{3}{4} \right)$ Then, for $t=\frac{1}{2}$,$$\sqrt{\frac{1}{2}+\frac{1}{2} }=1> \frac{1}{2}\sqrt{ \frac{1}{2} }+\frac{1}{2}\sqrt{ \frac{3}{2} }$$as $\left( \sqrt{ \frac{1}{2} }+\sqrt{ \frac{3}{2} } \right)^{2}=2+\sqrt{ 3 }<4$. Hence, $f$ is not convex.
+4. Let $(x,y):= (\frac{1}{2},0)$ and $(x',y'):=\left( 0, \frac{1}{2} \right)$. Then, for $t=\frac{1}{2}$, $$f(x)$$
+5. 
+6. $$\nabla ^2_{x,y}f=\begin{bmatrix} -\frac{1}{4\sqrt{ x+y }^3}\end{bmatrix}$$
