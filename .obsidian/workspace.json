@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 1.md",
+                "file": "Algebra/Tensor Product.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 1"
+              "title": "Tensor Product"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+                "file": "Algebra/Tensor Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AGAO Roadmap"
+              "title": "Tensor Product"
             }
           },
           {
@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Function.md",
+                "file": "Algebra/Free Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Function"
+              "title": "Free Module"
             }
           },
           {
@@ -113,7 +113,8 @@
               "title": "Compact Space"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -258,11 +259,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "fe19a1480482e56d",
+  "active": "22f4de0339fefb96",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
+    "Algebra/Free Module.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Analysis/Convex Function.md",
+    "Algebra/Tensor Product.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
+    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Measure Theory/Measure Space.md",
     "Topology/Compact Space.md",
     "Functional Analysis/Positive Operator.md",
@@ -284,9 +288,6 @@
     "Topology/Noetherian Space.md",
     "Courses/Advanced Graph Algorithms",
     "Courses/Untitled.md",
-    "Courses/Algebraic Geometry/Exercise Sheet 1.md",
-    "TIKZ.md",
-    "Algebra/Algebra.md",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",

@@ -17,8 +17,8 @@
 ##### Properties
 > [!lemma] Theorem 1 (Uniqueness and Existence of Tensor Products)
 > Let $M,N$ be $R$-modules. Then,
-> 1. **Existence**: there exists a tensor product $M\otimes N$.
-> 2. **Uniqueness**: the tensor product is unique up to isomorphism, i.e. if $(M\otimes N, \tau)$ and $(M\otimes' N,\tau')$ are two tensor products of $M,N$, then there is a unique $R$-isomorphism $\varphi:M\otimes N\to M\otimes'N$ s.t. $\tau'=\varphi\circ \tau$.
+> 1. **Uniqueness**: the tensor product is unique up to isomorphism, i.e. if $(M\otimes N, \tau)$ and $(M\otimes' N,\tau')$ are two tensor products of $M,N$, then there is a unique $R$-isomorphism $\varphi:M\otimes N\to M\otimes'N$ s.t. $\tau'=\varphi\circ \tau$.
+> 2.  **Existence**: there exists a tensor product $M\otimes N$.
 
 ^5fb0e9
 
