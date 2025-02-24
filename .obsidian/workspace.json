@@ -114,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -259,8 +259,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b951555aa80cd47f",
+  "active": "22f4de0339fefb96",
   "lastOpenFiles": [
+    "Measure Theory/Measure Space.md",
     "Algebra/Free Module.md",
     "Courses/Probability Theory/Exercise Class 1.md",
     "Algebra/Tensor Product.md",
@@ -268,7 +269,6 @@
     "Analysis/Convex Function.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-    "Measure Theory/Measure Space.md",
     "Topology/Compact Space.md",
     "Functional Analysis/Positive Operator.md",
     "Courses/Graph Theory/Problem Set 1.md",
