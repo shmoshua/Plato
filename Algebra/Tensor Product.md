@@ -68,7 +68,9 @@
 
 - **Remark**: If $M,N$ are free of rank $m,n$ respectively, $$M\otimes N\cong R^m\otimes (R\oplus \dots \oplus R)\cong (R^m \otimes R)\oplus \dots \oplus (R^m \otimes R)\cong R^m\oplus \dots \oplus R^m\cong R^{mn}$$ ^552c4a
 ---
-> [!lemma] Proposition 3 (Tensor Products are Right Exact)
+> [!lemma] 
+---
+> [!lemma] Proposition 4 (Tensor Products are Right Exact)
 > Let $R$ be a ring and $M,N,P$ be $R$-modules. 
 > 1.  $\text{Hom}(M,\text{Hom}(N,P))\cong \text{Hom}(M\otimes N,P)$
 > 2. If $M\xrightarrow{\varphi}N\xrightarrow{\psi}P\to 0$ is an [[exact sequence]], then for any $R$-module $A$:$$M\otimes A\xrightarrow{\varphi \otimes  \text{id}}N\otimes A\xrightarrow{\psi \otimes  \text{id}}P\otimes A\to 0$$is an exact sequence as well.

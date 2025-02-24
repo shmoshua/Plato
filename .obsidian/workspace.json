@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Tensor Product.md",
+                "file": "Courses/Probability Theory/Exercise Class 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tensor Product"
+              "title": "Exercise Class 1"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Tensor Product.md",
+                "file": "Courses/Probability Theory/Exercise Class 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tensor Product"
+              "title": "Exercise Class 1"
             }
           },
           {
@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Free Module.md",
+                "file": "Measure Theory/Measure Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Free Module"
+              "title": "Measure Space"
             }
           },
           {
@@ -114,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -259,9 +259,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "22f4de0339fefb96",
+  "active": "b951555aa80cd47f",
   "lastOpenFiles": [
     "Algebra/Free Module.md",
+    "Courses/Probability Theory/Exercise Class 1.md",
     "Algebra/Tensor Product.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Analysis/Convex Function.md",
@@ -272,7 +273,6 @@
     "Functional Analysis/Positive Operator.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Analysis/Hessian.md",
-    "Courses/Probability Theory/Exercise Class 1.md",
     "Measure Theory/Sigma Algebra.md",
     "Courses/Measure Theory/Measure Theory Roadmap.md",
     "Analysis/Hilbert Space.md",
