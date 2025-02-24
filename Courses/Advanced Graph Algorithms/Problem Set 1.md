@@ -36,4 +36,4 @@ Therefore, $Lx=d$ if and only if $\nabla_{x}c=0$.
 ---
 #### Problem 4
 1. We have that: $$x^\top Bf=\sum_{v\in V}^{}\sum_{e\in E}^{}x_{v}B_{v,e}f_{e}=\sum_{e\in E}^{}\sum_{v\in V}^{}x_{v}B_{v,e}f_{e}=\sum_{(u,w)\in E}^{}(x_{w}-x_{u})f_{(u,w)}$$Hence, as $x^\top(Bf-d)=0$, $$\frac{1}{2}\sum_{e}^{}r(e)f(e)^{2}=\frac{1}{2}\sum_{(u,v)\in E}^{}r_{uv}f_{uv}^{2}-x^\top(Bf-d)=x^\top d-\sum_{(u,v)\in E}^{}\left( (x_{v}-x_{u})f_{uv}-\frac{1}{2}r_{uv}f^{2}_{uv} \right)$$
-2. We have that: $$(x_{v}-x_{u}-r_{uv}f_{uv})^{2}=(x_{v}-x_{u})^{2}-2(x_{v}-x_{u})r_{uv}f_{uv}+r_{uv}^{2}f_{uv}^{2}\geq 0$$Hence, $$(x_{v}-x_{u})f_{uv}-\frac{1}{2}r_{uv}f_{uv}^{2}$$
+2. We have that: $$(x_{v}-x_{u}-r_{uv}f_{uv})^{2}=(x_{v}-x_{u})^{2}-2(x_{v}-x_{u})r_{uv}f_{uv}+r_{uv}^{2}f_{uv}^{2}\geq 0$$Hence, by dividing both sides by $2r_{uv}$, $$(x_{v}-x_{u})f_{uv}-\frac{1}{2}r_{uv}f_{uv}^{2}\leq \frac{1}{2}\frac{(x_{v}-x_{u})^{2}}{r_{uv}}$$
