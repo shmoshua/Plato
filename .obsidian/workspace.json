@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 1.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 1.md",
                 "mode": "source",
                 "source": true
               },
@@ -50,8 +50,7 @@
               "title": "Convex Function"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -64,12 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Function.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Function"
+              "title": "Problem Set 1"
             }
           },
           {
@@ -259,13 +258,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "fe19a1480482e56d",
+  "active": "bf83c5e2855a4970",
   "lastOpenFiles": [
+    "Courses/Graph Theory/Problem Set 1.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
+    "Analysis/Convex Function.md",
     "Measure Theory/Measure Space.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Functional Analysis/Positive Operator.md",
-    "Analysis/Convex Function.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Analysis/Hessian.md",
     "Courses/Probability Theory/Exercise Class 1.md",
     "Measure Theory/Sigma Algebra.md",
@@ -273,7 +273,6 @@
     "Analysis/Hilbert Space.md",
     "Algebra/Variety.md",
     "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
-    "Courses/Graph Theory/Problem Set 1.md",
     "Analysis/Symmetric Positive Definite Matrices.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",

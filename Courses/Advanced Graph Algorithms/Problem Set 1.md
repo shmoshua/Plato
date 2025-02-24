@@ -37,3 +37,10 @@ Therefore, $Lx=d$ if and only if $\nabla_{x}c=0$.
 #### Problem 4
 1. We have that: $$x^\top Bf=\sum_{v\in V}^{}\sum_{e\in E}^{}x_{v}B_{v,e}f_{e}=\sum_{e\in E}^{}\sum_{v\in V}^{}x_{v}B_{v,e}f_{e}=\sum_{(u,w)\in E}^{}(x_{w}-x_{u})f_{(u,w)}$$Hence, as $x^\top(Bf-d)=0$, $$\frac{1}{2}\sum_{e}^{}r(e)f(e)^{2}=\frac{1}{2}\sum_{(u,v)\in E}^{}r_{uv}f_{uv}^{2}-x^\top(Bf-d)=x^\top d-\sum_{(u,v)\in E}^{}\left( (x_{v}-x_{u})f_{uv}-\frac{1}{2}r_{uv}f^{2}_{uv} \right)$$
 2. We have that: $$(x_{v}-x_{u}-r_{uv}f_{uv})^{2}=(x_{v}-x_{u})^{2}-2(x_{v}-x_{u})r_{uv}f_{uv}+r_{uv}^{2}f_{uv}^{2}\geq 0$$Hence, by dividing both sides by $2r_{uv}$, $$(x_{v}-x_{u})f_{uv}-\frac{1}{2}r_{uv}f_{uv}^{2}\leq \frac{1}{2}\frac{(x_{v}-x_{u})^{2}}{r_{uv}}$$
+3. By exercise 1.2, we have that: $$\begin{align}x^\top d-\frac{1}{2}x^\top Lx&=x^\top d-\frac{1}{2}\sum_{(u,v)\in E}^{}\frac{(x_{u}-x_{v})^{2}}{r_{uv}}\\&\leq x^\top d-\sum_{(u,v)\in E}^{}\left( (x_{v}-x_{u})f_{uv}-\frac{1}{2}r_{uv}f^{2}_{uv} \right)\\&=\frac{1}{2}\sum_{e}^{}r_{e}f_{e}^{2}\\&=\frac{1}{2}f^\top Rf\end{align}$$
+4. We have that $B\tilde{f}=BR^{-1}B^\top \tilde{x}=L\tilde{x}=d$. Further, $$\tilde{x}^\top d-\frac{1}{2}\tilde{x}^\top L\tilde{x}=\frac{1}{2}\tilde{x}^\top d=\frac{1}{2}\tilde{x}^\top B\tilde{f}=\frac{1}{2}\tilde{f}^\top R \tilde{f}$$
+5. We have that: $$\tilde{x}$$
+6. 
+7. $$\frac{1}{2}\tilde{f}^\top R \tilde{f}=\frac{1}{2}\tilde{x}^\top B R^{-1}R^{^{-1}}$$
+
+---
