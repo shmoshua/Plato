@@ -44,8 +44,9 @@
 > For any $R$-modules $M,N,P$, 
 > 1. $M\otimes N\cong N\otimes M$.
 > 2. $M\otimes R\cong M$.
-> 3. $(M\oplus N)\otimes P\cong (M\otimes P)\oplus(N\otimes P)$.
+> 3. $(\bigoplus_{\alpha\in \mathcal{A}}M_{\alpha})\otimes N\cong \bigoplus_{\alpha\in \mathcal{A}}(M_{\alpha}\otimes N)$.
 > 4. $M\otimes N\otimes P\cong (M\otimes N)\otimes P\cong M\otimes(N\otimes P)$.
+> 5. if $M,N$ are [[Basis|free]] with basis $\{ m_{i} \}_{i}$ and $\{ n_{j} \}_{j}$ respectively, then $M\otimes N$ is free with basis $\{ m_{i}\otimes n_{j} \}_{i,j}$.
 
 ^bd93e0
 
@@ -53,12 +54,15 @@
 > We have that:
 > 1. $(m,n)\mapsto n\otimes m$ is bilinear and by the universal property, there exists a unique linear map: $$\varphi:M\otimes N\to N\otimes M,\quad \varphi(m\otimes n)=n\otimes m,\quad \forall m\in M,n\in N$$Similarly, we get $\psi:N\otimes M\to M\otimes N$ with $\psi(n\otimes m)=m\otimes n$. Then, $(\psi \circ\varphi)(m\otimes n)=m\otimes n$ for all $m\in M$ and $n\in N$. As $\{ m\otimes n \}_{m,n}$ generate $M\otimes N$, we have that $\psi \circ \varphi=\text{id}$. Similar for the converse. Hence, $\varphi$ is an isomorphism.
 > 2. $(m,a)\mapsto am$ is bilinear and by the universal property, there exists a unique linear map: $$\varphi:M\otimes R\to M,\quad \varphi(m\otimes a)=am,\quad \forall m\in M,a\in R$$Further, there is a linear map $\psi:M\to M\otimes R,m\mapsto m\otimes 1$. Then, $$(\psi \circ  \varphi)(m\otimes  a)=\psi(am)=am\otimes 1=a(m\otimes 1)=m\otimes a$$and $(\varphi \circ \psi)(m)=\varphi(m\otimes 1)=m$. Hence, $\varphi$ is an isomorphism.
-> 3. $((m,n),p)\to(m\otimes p,n\otimes p)$ induces a bilinear map. Hence, there exists a unique linear: $$\varphi:(M\oplus N)\otimes P\to(M\otimes P)\oplus (N\otimes P), \quad\varphi((m,n)\otimes p)=(m\otimes p, n\otimes p)$$Similarly, we get $M\otimes P\to(M\oplus N)\otimes P,m\otimes p\mapsto (m,0)\otimes p$ and $N\otimes P\to(M\oplus N)\otimes P,n\otimes p\mapsto (0,n)\otimes p$. Hence, $$\psi:(M\otimes P)\oplus (N\otimes P)\to(M\oplus  N)\otimes P,\quad \psi(m\otimes p,n\otimes q)=(m,0)\otimes p+(0,n)\otimes q$$One easily sees that $\psi$ and $\varphi$ are inverses on the pure tensors and hence on the whole space.
+> 3. $((m_{\alpha})_{\alpha},n)\to(m_{\alpha}\otimes n)_{\alpha}$ induces a bilinear map. Hence, there exists a unique linear: $$\varphi:(\bigoplus_{\alpha\in \mathcal{A}}M_{\alpha})\otimes N\to\bigoplus_{\alpha\in \mathcal{A}}(M_{\alpha}\otimes N), \quad\varphi((m_{\alpha})_{\alpha}\otimes n)=(m_{\alpha}\otimes n)_{\alpha}$$Similarly, we get $M_{\alpha}\otimes N\to(\bigoplus_{\alpha}M_{\alpha})\otimes N,m_{\alpha}\otimes n\mapsto (\dots,m_{\alpha},\dots)\otimes n$.  Hence, $$\psi:\bigoplus _{\alpha}(M_{\alpha}\otimes N)\to( \bigoplus _{\alpha}M_{\alpha})\otimes N,\quad \psi((m_{\alpha}\otimes  n_{\alpha})_{\alpha})=\sum_{\alpha}^{}(\dots,m_{\alpha},\dots)\otimes n_{\alpha}$$One easily sees that $\psi$ and $\varphi$ are inverses on the pure tensors and hence on the whole space.
 > 4. Let the LHS be a tensor product defined from the trilinear map, i.e. for any trilinear $\alpha:M\times N\times P\to Q$, there exists a unique linear map $\varphi:M\otimes N\otimes P \to Q$ s.t. $\alpha(m,n,p)=\varphi (m\otimes n\otimes p)$. 
 >    
 >    Then, notice that $(m,n,p)\mapsto (m\otimes n) \otimes p$ is trilinear and by the universal property, we have: $$\varphi:M\otimes N\otimes P\to(M\otimes N)\otimes P,\quad \varphi(m\otimes n\otimes p)=(m\otimes  n)\otimes  p$$Conversely, let $\alpha:(M\otimes N)\times P\to M\otimes N\otimes P$ defined on $\alpha(m\otimes n, p):=m\otimes n\otimes p$ then extended on the whole space. Then, $\alpha$ remains bilinear and there exists: $$\psi:(M\otimes N)\otimes P\to M\otimes N\otimes P,\quad \psi((m\otimes n)\otimes  p)=m\otimes n\otimes p$$Hence, $\varphi,\psi$ are inverses on pure tensors and hence on the whole space.
 >    
 >    The proof for $M\otimes(N\otimes P)$ is analogous and this proves the associativity.
+> 5. We show that $\{ m_{i}\otimes n_{j} \}_{i,j}$ is linearly independent. Let $\beta_{kl}:M\times N\to R$ be a bilinear map given by: $$\beta_{kl}(m_{i},n_{j}):=\begin{cases}1&i=k,j=l\\0&\text{otherwise}\end{cases}$$Then, there exists $\varphi_{kl}:M\otimes N\to R$ with $\varphi_{kl}(m_{i}\otimes n_{j})=\mathbb{1}_{i=k,j=l}$. Now, let $\sum_{i,j}^{}a_{ij}(m_{i}\otimes n_{j}) =0$. We get that:$$0=\varphi_{kl}\left( \sum_{i,j}^{}a_{ij}(m_{i}\otimes n_{j}) \right)=a_{kl}$$and it is linearly independent.
+>    
+>    Now, we get that: $$m\otimes n=\left( \sum_{i}^{}a_{i}m_{i} \right)\otimes \left( \sum_{j}^{}b_{j}n_{j} \right)=\sum_{i}\sum_{j}^{}a_{i}b_{j}(m_{i}\otimes n_{j})$$
 
 ^6fa18d
 
