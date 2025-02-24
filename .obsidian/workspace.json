@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 1.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 1"
+              "title": "Problem Set 1"
             }
           }
         ],
@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 1.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 1"
+              "title": "Problem Set 1"
             }
           },
           {
@@ -88,12 +88,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Sigma Algebra.md",
+                "file": "Measure Theory/Measure Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sigma Algebra"
+              "title": "Measure Space"
             }
           }
         ]
@@ -243,14 +243,15 @@
   },
   "active": "fe19a1480482e56d",
   "lastOpenFiles": [
-    "Measure Theory/Sigma Algebra.md",
     "Courses/Probability Theory/Exercise Class 1.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
+    "Measure Theory/Measure Space.md",
+    "Measure Theory/Sigma Algebra.md",
     "Courses/Measure Theory/Measure Theory Roadmap.md",
     "Analysis/Hilbert Space.md",
     "Algebra/Variety.md",
     "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
     "Courses/Graph Theory/Problem Set 1.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Analysis/Symmetric Positive Definite Matrices.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
@@ -269,7 +270,6 @@
     "Graph Theory/Path (Graph).md",
     "Courses/Information Theory/Information Theory Roadmap.md",
     "Algebra/Noetherian and Artinian Module.md",
-    "Topology/Connected Space.md",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",

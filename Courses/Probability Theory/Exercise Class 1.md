@@ -17,10 +17,10 @@
 ##### 2. Measure Theory and Sigma Algebra
 1. **Why do we need measures?**
 	1. $\mu(\varnothing)=0$ and sigma additivity. What are "good sets"?
+		$$\mathbb{P}\left( \bigcup_{i=1}^{\infty}A_{i} \right)=\lim_{ n \to \infty } \mathbb{P}\left( \bigcup_{i=1}^{n}A_{i} \right)=\lim_{ n \to \infty } \sum_{i=1}^{n}\mathbb{P}(A_{i})=\sum_{i=1}^{\infty}\mathbb{P}(A_{i})$$
 2. **Why do we need sigma algebra?**
 3. **Random Variable Jargons**
-4. 
-	
+
 
 ##### 3. Examples
 1. Trivial sigma algebra $\{ \varnothing,\Omega \}$ is the coarsest sigma algebra.
