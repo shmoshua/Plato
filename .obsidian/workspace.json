@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Measure Space.md",
+                "file": "Courses/Probability Theory/Exercise Class 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Measure Space"
+              "title": "Exercise Class 1"
             }
           },
           {
@@ -127,7 +127,8 @@
               "title": "Adjoint Linear Map"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,18 +274,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "fe19a1480482e56d",
+  "active": "b951555aa80cd47f",
   "lastOpenFiles": [
+    "Measure Theory/Measure Space.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Optimization/Optimization Problem.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
-    "Measure Theory/Measure Space.md",
     "Analysis/Convex Set.md",
     "Topology/Compact Space.md",
     "Analysis/Convex Function.md",
