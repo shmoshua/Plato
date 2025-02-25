@@ -25,5 +25,11 @@ This proves the statement.
 
 ---
 #### Problem 3
-We will show that $\|x_{i+1}-x^{*}\|_{2}\leq \|x_{i}-x^{*}\|_{2}$. We have that: $$\left\| x_{i+1}-x^{*} \right\| _{2}\leq \left\| x_{i}-x^{*} \right\| _{2}+\frac{1}{\beta}\left\|  \right\| $$
-We have that: $$\left\| x_{1}-x^{*} \right\| \leq \left\| x_{0}-x^{*} -(x_{i}-x^{*})\right\| $$
+We will show that $\|x_{i+1}-x^{*}\|_{2}\leq \|x_{i}-x^{*}\|_{2}$ for all $i$. Then, it holds that: $$\left\| x_{i+1}-x^{*} \right\| _{2}\leq \left\| x_{i}-x^{*} \right\| _{2}\leq\dots\leq \left\| x_{0}-x^{*} \right\| _{2}$$Notice that: $$\left\| x_{i+1}-x^{*} \right\| _{2}^2=\left\| x_{i}-\frac{1}{\beta}\nabla f(x_{i})-x^{*} \right\|^2_{2}=\left\| x_{i}-x^{*} \right\| ^2_{2}-\frac{2}{\beta}\nabla f(x_{i})^\top(x_{i}-x^{*})+\frac{1}{\beta^{2}}\left\| \nabla f(x_{i}) \right\|^{2}_{2}  $$Therefore, it suffices to show that $\frac{1}{\beta^{2}}\left\| \nabla f(x_{i}) \right\|^{2}_{2} -\frac{2}{\beta}\nabla f(x_{i})^\top(x_{i}-x^{*})\leq 0$. By convexity, we have: $$f(x_{i})-f(x^{*})\leq \nabla f(x_{i})^\top(x_{i}-x^{*})$$and from the lectures we get that: $$\frac{1}{2\beta}\left\| \nabla f(x_{i}) \right\| ^{2}_{2}\leq f(x_{i})-f(x_{i+1})$$Hence, $$\frac{1}{\beta^{2}}\left\| \nabla f(x_{i}) \right\|^{2}_{2} -\frac{2}{\beta}\nabla f(x_{i})^\top(x_{i}-x^{*})\leq \frac{2}{\beta}\left( f(x_{i})-f(x_{i+1})-f(x_{i})+f(x^{*}) \right) =\frac{2}{\beta}(f(x^{*})-f(x_{i+1}))\leq 0$$as $f(x^{*})\leq f(x_{i+1})$. This proves the statement.
+
+---
+#### Problem 4
+Fix $k$. Let $n\in \mathbb{N}$. We claim that if $\frac{1}{\text{gap}_{k}}\leq n$, then it holds that: $$\text{gap}_{k}$$
+
+Let do an induction 
+
