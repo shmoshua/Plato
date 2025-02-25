@@ -15,4 +15,4 @@ Now, consider $$A:=\begin{bmatrix}0&2\\0 &0\end{bmatrix}$$Then, the eigenvalues 
 
 ---
 #### Problem 2
-Assume that $f$ is $\beta$-gradient Lipschitz. Let $x\in S$ and for $\delta$ small, we have: $$f(x+\delta)=f(x)+(\nabla _{x}f)^\top\delta+\frac{1}{2}\delta^\top\nabla^{2}_{x}f \delta+o(\|\delta \|^{2})$$
+Assume $f$ is $\beta$-gradient Lipschitz. Let $x\in S$ and $\delta$ small s.t. $x+\delta\in S$ and consider $g:[0,1]\to \mathbb{R}^n$ given by $g(t):=\nabla f(x+t\delta)$, which is differentiable on $(0,1)$. Hence, by mean value theorem, there exists $t\in(0,1)$ and $z:=x+t\delta$ s.t. $$\nabla f(y)-\nabla f(x)=g(1)-g(0)=\nabla g(t)=H_{f}(z)(y-x)$$By Cauchy-Schwarz, we get: $$\|\nabla f(x+\delta)-\nabla f(x)\|_{2}=\|H_{f}(x+t\delta)\delta\|_{2}\leq \beta\|\delta\|_{2}$$
