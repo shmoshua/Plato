@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Set.md",
+                "file": "Analysis/Convex Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Set"
+              "title": "Convex Function"
             }
           },
           {
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hahn banach",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -261,9 +261,11 @@
   },
   "active": "fe19a1480482e56d",
   "lastOpenFiles": [
+    "Analysis/Convex Function.md",
+    "Analysis/Convex Set.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Probability Theory/Exercise Class 1.md",
     "Measure Theory/Measure Space.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
@@ -272,9 +274,7 @@
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Optimization/Optimization Problem.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
-    "Analysis/Convex Set.md",
     "Topology/Compact Space.md",
-    "Analysis/Convex Function.md",
     "Optimization",
     "Algebra/Free Module.md",
     "Algebra/Tensor Product.md",
