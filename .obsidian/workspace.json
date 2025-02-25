@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 1.md",
+                "file": "Optimization/Optimization Problem.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 1"
+              "title": "Optimization Problem"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 1.md",
+                "file": "Optimization/Optimization Problem.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 1"
+              "title": "Optimization Problem"
             }
           },
           {
@@ -261,9 +261,11 @@
   },
   "active": "22f4de0339fefb96",
   "lastOpenFiles": [
+    "Courses/Probability Theory/Exercise Class 1.md",
+    "Optimization/Optimization Problem.md",
+    "Optimization",
     "Measure Theory/Measure Space.md",
     "Algebra/Free Module.md",
-    "Courses/Probability Theory/Exercise Class 1.md",
     "Algebra/Tensor Product.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Analysis/Convex Function.md",
@@ -287,7 +289,6 @@
     "Algebra/Ideal (Ring).md",
     "Topology/Noetherian Space.md",
     "Courses/Advanced Graph Algorithms",
-    "Courses/Untitled.md",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",
@@ -296,7 +297,6 @@
     "Courses/Algebraic Topology I",
     "Untitled 1",
     "Set Theory",
-    "Algorithms/Graph Algorithms",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
