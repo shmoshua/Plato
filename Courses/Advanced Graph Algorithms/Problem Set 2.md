@@ -15,12 +15,10 @@ Now, consider $$A:=\begin{bmatrix}0&2\\0 &0\end{bmatrix}$$Then, the eigenvalues 
 
 ---
 #### Problem 2
-Assume $f$ is $\beta$-gradient Lipschitz. Let $x\in S$ and as $S$ is open, there exists $r>0$ s.t. $B_{\leq r}(x)\subseteq S$. Let $\delta\in B_{\leq r}(x)$. Then, we have: $$\nabla f(x+\delta)-\nabla f(x)=H_{f}(x)\delta+R(\delta)$$where $\lim_{ \delta \to 0 } $
+Assume $f$ is $\beta$-gradient Lipschitz. Let $x\in S$ and as $S$ is open, there exists $r>0$ s.t. $B_{\leq r}(x)\subseteq S$. Let $\delta\in B_{\leq r}(x)$. Then, we have: $$\nabla f(x+\delta)-\nabla f(x)=H_{f}(x)\delta+R(\delta)$$where $R(\delta)_{i}=o(\|\delta\|_{2})$ for all $i\in[n]$. Hence, 
 
-Let $t:=\min \{ 1,r \}$. Hence, $$\|H_{f}(x)\|=\sup_{\|u\|=1}\|H_{f}(x)u\|_{2}=\frac{1}{t}\sup_{\|u\|=1}\|H_{f}(x)tu\|\leq \frac{1}{t}\sup_{\|u\|=1}\|H_{f}(x)\delta-o(\|\delta\|_{2})\|_{2}$$
-
-
-$$\beta\|\delta\|_{2}\geq\|\nabla f(x+\delta)-\nabla f(x)\|_{2}=\|H_{f}(x)\delta+R_{1}(\delta) \|$$
+$$\beta\|\delta\|_{2}\geq\|\nabla f(x+\delta)-\nabla f(x)\|_{2}=\|H_{f}(x)\delta+R_{1}(\delta) \|_{2}$$and:$$\frac{\left\| H_{f}(x)\delta \right\| _{2}}{\left\| \delta \right\| _{2}}\leq\beta +o(1) $$
+Therefore, for $t:=\min \{ 1,r \}$, we have: $$\left\| H_{f}(x)\right\| =\sup_{\|u\|=1}\left\| H_{f}(x)u \right\|_{2} =\frac{1}{t}\sup_{\|u\|=1}\left\| H_{f} (x)tu\right\|_{2}= $$
 
 
 Let $\delta\in B_{<r}(x)$ and consider $g:[0,1]\to \mathbb{R}^n$ given by $g(t):=\nabla f(x+t\delta)$, which is differentiable on $(0,1)$ by assumption. Hence, by mean value theorem, there exists $t\in(0,1)$ s.t. $$\nabla f(x+\delta)-\nabla f(x)=g(1)-g(0)=\nabla g(t)=H_{f}(x+t\delta)\delta$$By Cauchy-Schwarz, we get: $$\|H_{f}(x+t\delta)\delta\|_{2}=\|\nabla f(x+\delta)-\nabla f(x)\|_{2}\leq \beta\|\delta\|_{2}$$Therefore, $\frac{\|H_{f}(x+t\delta)\delta\|_{2}}{\|\delta\|_{2}}\leq \beta$ for all $@b$ $$\|H_{f}(x+t\delta)\|=\sup_{\delta\in B_{<r}(x)}\|H_{f}(x+t\delta)\|$$
