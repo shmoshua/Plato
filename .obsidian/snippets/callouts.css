@@ -23,7 +23,7 @@
 
 
 .inline-embed .markdown-embed-content .callout-content {
-  margin-top: 0.5em !important;
+  margin-top: -0.5em !important;
 }
 
 .inline-embed .markdown-rendered .callout{

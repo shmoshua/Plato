@@ -4,6 +4,9 @@
 > Let $X$ be a [[Convex Set|convex subset]] of a $\mathbb{R}$-vector space $V$ and $f:X\to \mathbb{R}$ be a function. 
 > 1. $f$ is ***convex*** if for all $x,y\in X$ and $t\in[0,1]$, we have:$$f(tx+(1-t)y)\leq tf(x)+(1-t)f(y)$$
 > 2. $f$ is ***strictly convex*** if for all $x,y\in X$ and $t\in(0,1)$, we have:$$f(tx+(1-t)y)< tf(x)+(1-t)f(y)$$
+
+^c94c8e
+
 - **Related definition**: $f$ is ***(strictly) concave*** if $-f$ is (strictly) convex.
 ---
 ##### Properties

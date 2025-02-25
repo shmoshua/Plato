@@ -98,7 +98,7 @@
 ---
 ##### Problem Sets
 1. [[Courses/Linear System Theory/Problem Set 1]]
-2. [[Problem Set 2]]
+2. [[Courses/Linear System Theory/Problem Set 2]]
 3. [[Problem Set 3]]
 4. [[Problem Set 4]]
 5. [[Problem Set 5]]
