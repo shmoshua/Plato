@@ -29,7 +29,10 @@ We will show that $\|x_{i+1}-x^{*}\|_{2}\leq \|x_{i}-x^{*}\|_{2}$ for all $i$. T
 
 ---
 #### Problem 4
-Fix $k$. Let $n\in \mathbb{N}$. We claim that if $\frac{1}{\text{gap}_{k}}\leq n$, then it holds that: $$\text{gap}_{k}$$
 
-Let do an induction 
+From the lectures, we have that: $$\text{gap}_{i+1}\leq \text{gap}_{i}-\frac{1}{2\beta}\frac{\text{gap}_{i}^{2}}{\left\| x_{0}-x^{*} \right\| ^2_{2}}=\frac{\text{gap}_{i}(2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i})}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}$$Hence, $$\frac{1}{\text{gap}_{i+1}}\geq \frac{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}{\text{gap}_{i}(2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i})}=\frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i}}$$
+
+Now, as $\nabla f(x^{*})=0$ from optimality, we have that $\left\| \nabla f(x_{i}) \right\|_{2}=\left\| \nabla f(x_{i})-\nabla f(x^{*}) \right\|_{2}\leq \beta \left\| x_{i}-x^{*} \right\|_{2}$. It follows that: $$\text{gap}_{i}\leq \left\| \nabla f(x_{i}) \right\| _{2}\left\| x_{i}-x^{*} \right\| _{2}\leq \beta \left\| x_{i}-x^{*} \right\| ^2_{2}\leq\beta \left\| x_{0}-x^{*} \right\| ^2_{2}$$and $2\beta \left\| x_{0}-x^{*} \right\|^2_{2}-\text{gap}_{i}\geq 0$. Therefore, we get the relation: $$\frac{1}{\text{gap}_{i+1}}\geq \frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i}}\geq \frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}\geq \frac{i+1}{2\beta \left\| x_{0}-x^{*} \right\| ^2_{2}}$$This proves the statement.
+
+
 
