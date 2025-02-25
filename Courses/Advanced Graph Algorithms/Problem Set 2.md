@@ -15,4 +15,9 @@ Now, consider $$A:=\begin{bmatrix}0&2\\0 &0\end{bmatrix}$$Then, the eigenvalues 
 
 ---
 #### Problem 2
-Assume $f$ is $\beta$-gradient Lipschitz. Let $x\in S$ and $\delta$ small s.t. $x+\delta\in S$ and consider $g:[0,1]\to \mathbb{R}^n$ given by $g(t):=\nabla f(x+t\delta)$, which is differentiable on $(0,1)$. Hence, by mean value theorem, there exists $t\in(0,1)$ and $z:=x+t\delta$ s.t. $$\nabla f(y)-\nabla f(x)=g(1)-g(0)=\nabla g(t)=H_{f}(z)(y-x)$$By Cauchy-Schwarz, we get: $$\|\nabla f(x+\delta)-\nabla f(x)\|_{2}=\|H_{f}(x+t\delta)\delta\|_{2}\leq \beta\|\delta\|_{2}$$
+Assume $f$ is $\beta$-gradient Lipschitz. Let $x\in S$ and as $S$ is open, there exists $r>0$ s.t. $B_{<r}(x)\subseteq S$. Let $\delta\in B_{<r}(x)$. Then, $$\beta\|\delta\|_{2}\geq\|\nabla f(x+\delta)-\nabla f(x)\|_{2}=\|H_{f}(x)\delta+R_{1}(\delta) \|$$
+
+
+Let $\delta\in B_{<r}(x)$ and consider $g:[0,1]\to \mathbb{R}^n$ given by $g(t):=\nabla f(x+t\delta)$, which is differentiable on $(0,1)$ by assumption. Hence, by mean value theorem, there exists $t\in(0,1)$ s.t. $$\nabla f(x+\delta)-\nabla f(x)=g(1)-g(0)=\nabla g(t)=H_{f}(x+t\delta)\delta$$By Cauchy-Schwarz, we get: $$\|H_{f}(x+t\delta)\delta\|_{2}=\|\nabla f(x+\delta)-\nabla f(x)\|_{2}\leq \beta\|\delta\|_{2}$$Therefore, $\frac{\|H_{f}(x+t\delta)\delta\|_{2}}{\|\delta\|_{2}}\leq \beta$ for all $@b$ $$\|H_{f}(x+t\delta)\|=\sup_{\delta\in B_{<r}(x)}\|H_{f}(x+t\delta)\|$$
+
+Let $\delta$$H_{f}(x)$
