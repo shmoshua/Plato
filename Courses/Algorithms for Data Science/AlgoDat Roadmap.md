@@ -59,3 +59,13 @@
 > Therefore, we have that $w|y\sim \mathcal{N}\left( \frac{1}{n+ 1 / t}X^\top y, \frac{1}{n+ 1 / t}I_{d} \right)$ and from Bayes-Optimal estimator:$$\begin{align}\mathbb{E}_{w}[\text{R}(\widehat{w};w)]&\geq \mathbb{E}_{w}[\text{R}(\widehat{w}_{P};w)]\\&=\mathbb{E}_{(w,\varepsilon)}[\left\| \widehat{w}_{P} -w\right\|^{2} ]\\&=\mathbb{E}_{(w,\varepsilon)}[\mathbb{E}[\left\| \widehat{w}_{P} -w\right\|^{2}|y] ]\\&=\mathbb{E}_{(w,\varepsilon)}\left[ \sum_{i=1}^{d}\text{Var}(w_{i}|y)  \right]\\&=\mathbb{E}_{(w,\varepsilon)}\left( \frac{d}{n+ 1 / t} \right) \\&=\frac{d}{n+1 / t}\end{align}$$
 
 ---
+#### 1.4 Sparsity and Regression
+We consider the case where from the $d$ features, only $k\ll d$ are relevant. If we know the $k$ features, then using minimax we can reach $\frac{k}{n}$ risk.
+
+What do we do when the $k$ relevant features are unknown? 
+
+---
+##### 1.4.1 Sparse Linear Regression
+> [!definition]
+> Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be known vectors. For an unknown $w\in \mathbb{R}^d$ we observe $y:=Xw+\varepsilon$ where $\varepsilon \sim \mathcal{N}(0,I_{n})$.
+> 1. In ***sparse linear regression***, we aim to find $$w^{*}\in \underset{ w\in \mathbb{R}^d }{ \arg\min }\left\| Xw-y \right\| ^2_{2}$$
