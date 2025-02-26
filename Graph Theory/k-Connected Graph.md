@@ -30,7 +30,7 @@
 > 
 > Now, let $G$ be an arbitrary simple graph on $n$ vertices and $m$ edges s.t. $n\geq 2k-1$ and $m\geq (2k-3)(n-k+1)+1$. Then, we claim that $G$ has a $k$-connected subgraph.
 > 
-> If this claim holds, then we have that: $$n\geq \Delta(G)\geq d(G)\geq 4k\geq 2k-1,\quad e(G)=\frac{n}{2}d(G)$$
+> If this claim holds, then we have that: $$n\geq \Delta(G)\geq d(G)\geq 4k\geq 2k-1,\quad e(G)=\frac{n}{2}d(G)\geq 2kn\geq (2k-3)(n-k+1)+1$$
 > We claim that $G$ has $n$ vertices and $m$ edges 
 > 
 > We show this using induction over $n$.
