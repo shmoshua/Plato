@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Set.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Set"
+              "title": "Problem Set 2"
             }
           }
         ]
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Function.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Function"
+              "title": "Problem Set 2"
             }
           },
           {
@@ -261,9 +261,9 @@
   "active": "bf83c5e2855a4970",
   "lastOpenFiles": [
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Analysis/Convex Function.md",
     "Analysis/Convex Set.md",
+    "Analysis/Convex Function.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Courses/Probability Theory/Exercise Class 1.md",
     "Measure Theory/Measure Space.md",

@@ -44,5 +44,7 @@ We show this by induction over $i$.
 3. $f$ is convex as $\exp$ is convex on $\mathbb{R}$ and a restriction of a convex function is still convex. However, this time we also have that $f''(x)=\exp(x)\leq e$ for all $x\in (-1,1)$. Hence, $f$ is $e$-gradient-Lipschitz. 
 4. We have that: $$H_{f}(x,y)=- \frac{1}{4\sqrt{ x+y }^3}\begin{bmatrix}1&1\\1&1\end{bmatrix}$$which has $\left( 0,-\frac{1}{2\sqrt{ x+y }^3} \right)$ as eigenvalues. Hence, $H_{f}(x,y)$ cannot be positive semidefinite and $f$ is not convex. However, we have that $\left\| H_{f}(x,y) \right\|=\frac{1}{2\sqrt{ x+y }^3}$ from Exercise 1 and $f$ cannot be $\beta$-gradient-Lipschitz as $\sup_{x,y\in(0,1)} \frac{1}{2\sqrt{ x+y }^3} =\infty$.
 5. With the same reason as above $f$ is not convex. However, we have that: $$\sup_{x,y\in\left( \frac{1}{2},1 \right)} \frac{1}{2\sqrt{ x+y }^3}=\frac{1}{2}$$and $f$ is $\beta$-gradient-Lipschitz.
+6. We have $f(x)=\|x\|$ on $x\in \mathbb{R}^{2}$. Hence, $f$ is a convex function by triangle inequality. 
+
 
 

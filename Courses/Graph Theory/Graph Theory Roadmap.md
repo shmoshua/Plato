@@ -132,7 +132,19 @@
 > [!proof]- Proof (Prüfer code)
 > Follows from Theorem 2.
 
-> [!proof]+ Proof (Joyal, 1981)
+> [!proof]- Proof (Joyal, 1981)
 > Let $\mathcal{F}$ be a set of tuples $(T,\ell,r)$ where $T$ is a labelled tree on $n$ vertices and $\ell$ and $r$ are two vertices. Then, it suffices to show that: $$\left| \mathcal{F} \right| =n^n$$
 > 
-> Consider the digraph $G=(V,E)$ on $n$ vertices. 
+> Let $f:[n]\to[n]$ be an arbitrary function and let $D_{f}=([n],E)$ be the digraph that is generated from $f$, i.e. $x\to y\iff y=f(x)$. Then, $e(D_{f})=n$ and $d^+\equiv 1$. 
+> 
+> Notice that every connected component in $D_{f}$ contains exactly one directed cycle and every other vertex is part of a tree that is attached to the cycle in the component. 
+> 
+> Now, let $N:=\{ i\in[n]: i\text{ is in a cycle in }D_{f} \}$. Then, $N$ is the unique maximal subset of $[n]$ s.t. $f|_{N}$ is a bijection. Let $N=\{ v_{1},\dots,v_{k} \}$ be ordered i.e. $v_{i}\leq v_{i+1}$. Then, we construct $(T,\ell,r)$ where, 
+> 1. $T$ is a union of the path $f(v_{1})\dots f(v_{k})$ and the trees that are attached to the cycles in $D_{f}$.
+> 2. $\ell:=f(v_{1})$ and $r:=f(v_{k})$.
+>    
+>  To show that this forms a bijection, let $(T,\ell,r)$. Then, there exists a unique $\ell r$-path. Hence, we can construct a function $f$ s.t. that path is given by $N=\{ v_{1},\dots,v_{k} \}$ and more precisely $f(v_{1})\dots f(v_{k})$.
+>  
+>  Therefore, this gives a bijection between $\mathcal{F}\cong [n]^{[n]}$. This proves the statement. 
+
+---
