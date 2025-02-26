@@ -29,10 +29,14 @@ We will show that $\|x_{i+1}-x^{*}\|_{2}\leq \|x_{i}-x^{*}\|_{2}$ for all $i$. T
 
 ---
 #### Problem 4
+We show this by induction over $i$. 
+1. Let $i=0$. Then, $$\text{gap}_{0}=f(x_{0})-f(x^{*})\leq \nabla f(x_{0})^\top(x_{0}-x^{*})\leq \left\| \nabla f(x_{0}) \right\|_{2}\left\| x_{0}-x^{*} \right\| _{2}\leq \beta \left\| x_{0}-x^{*} \right\| _{2}^2$$where for the first inequality, we use the convexity, for the second we use Cauchy-Schwarz and for the last, $\beta$-gradient-Lipschitzness and $\nabla f(x^{*})=0$. Therefore, the statement holds.
+2. Let $i\geq 1$. Then, from the lectures, we have that: $$\text{gap}_{i+1}\leq \text{gap}_{i}-\frac{1}{2\beta}\frac{\text{gap}_{i}^{2}}{\left\| x_{0}-x^{*} \right\| ^2_{2}}=\frac{\text{gap}_{i}(2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i})}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}$$Hence, $$\frac{1}{\text{gap}_{i+1}}\geq \frac{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}{\text{gap}_{i}(2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i})}=\frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i}}$$Now, as $\text{gap}_{i}\leq \text{gap}_{i-1}-\frac{\left\| \nabla f(x_{i-1}) \right\|^2_{2}}{2\beta}\leq \text{gap}_{i-1}$ for all $i$, from Case 1, $\text{gap}_{i}\leq 2\beta \left\| x_{0}-x^{*} \right\|^2_{2}$ and we get the relation: $$\frac{1}{\text{gap}_{i+1}}\geq \frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i}}\geq \frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}\geq \frac{i+1}{2\beta \left\| x_{0}-x^{*} \right\| ^2_{2}}$$This proves the statement.
 
-From the lectures, we have that: $$\text{gap}_{i+1}\leq \text{gap}_{i}-\frac{1}{2\beta}\frac{\text{gap}_{i}^{2}}{\left\| x_{0}-x^{*} \right\| ^2_{2}}=\frac{\text{gap}_{i}(2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i})}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}$$Hence, $$\frac{1}{\text{gap}_{i+1}}\geq \frac{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}{\text{gap}_{i}(2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i})}=\frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i}}$$
-
-Now, as $\nabla f(x^{*})=0$ from optimality, we have that $\left\| \nabla f(x_{i}) \right\|_{2}=\left\| \nabla f(x_{i})-\nabla f(x^{*}) \right\|_{2}\leq \beta \left\| x_{i}-x^{*} \right\|_{2}$. It follows that: $$\text{gap}_{i}\leq \left\| \nabla f(x_{i}) \right\| _{2}\left\| x_{i}-x^{*} \right\| _{2}\leq \beta \left\| x_{i}-x^{*} \right\| ^2_{2}\leq\beta \left\| x_{0}-x^{*} \right\| ^2_{2}$$and $2\beta \left\| x_{0}-x^{*} \right\|^2_{2}-\text{gap}_{i}\geq 0$. Therefore, we get the relation: $$\frac{1}{\text{gap}_{i+1}}\geq \frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i}}\geq \frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}\geq \frac{i+1}{2\beta \left\| x_{0}-x^{*} \right\| ^2_{2}}$$This proves the statement.
-
-
+---
+#### Problem 5
+1. Firstly, $g:x\mapsto \left| x \right|$ is convex on $\mathbb{R}$ by triangle inequality. Further, $h_{p}:x\mapsto x^p$ is convex on $[0,\infty)$ for any $p\geq 1$. Indeed, $h''(x)=p(p-1)x^{p-2}\geq 0$. 
+   
+   Therefore, $$\left| tx+(1-t)y \right| ^{3/2}=h_{3/2}(g(tx+(1-t)y))\leq$$
+2. For any $x,y\in \mathbb{R}$ and $t\in[0,1]$, $$\left| tx+(1-t)y \right| ^{3/2}\leq t\left| x \right|^{3/2}+(1-t)\left| y \right| ^{3/2} $$as we have $\left| tx+(1-t)y \right|^3\leq t^{2}\left| x \right|^3+(1-t)^{2}\left| y \right|^3$
 
