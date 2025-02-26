@@ -67,5 +67,9 @@ What do we do when the $k$ relevant features are unknown?
 ---
 ##### 1.4.1 Sparse Linear Regression
 > [!definition]
-> Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be known vectors. For an unknown $w\in \mathbb{R}^d$ we observe $y:=Xw+\varepsilon$ where $\varepsilon \sim \mathcal{N}(0,I_{n})$.
-> 1. In ***sparse linear regression***, we aim to find $$w^{*}\in \underset{ w\in \mathbb{R}^d }{ \arg\min }\left\| Xw-y \right\| ^2_{2}$$
+> Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be known vectors. For an unknown $w_{0}\in \mathbb{R}^d$ we observe $y:=Xw_{0}+\varepsilon$ where $\varepsilon \sim \mathcal{N}(0,I_{n})$.
+> 1. In ***sparse linear regression***, we aim to find $$w^{*}\in \underset{ w\in \mathbb{R}^d }{ \arg\min }\ \left\| Xw-y \right\| ^2_{2}$$where $w$ is $k$-sparse, i.e. $\|w_{0}\|_{0}\leq k$.
+
+---
+> [!lemma] Theorem 1 (Best-Subset-Selection)
+> Let $\widehat{\beta}\in \underset{ \beta\in\mathbb{R}^d, k\text{-sparse} }{ \arg\min }$
