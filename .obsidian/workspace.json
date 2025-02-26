@@ -9,7 +9,35 @@
         "dimension": 48.30805134189031,
         "children": [
           {
-            "id": "bf83c5e2855a4970",
+            "id": "09209123d2d18f28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Tree.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Tree"
+            }
+          },
+          {
+            "id": "20ab57ef16786b48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/k-Connected Graph.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "k-Connected Graph"
+            }
+          },
+          {
+            "id": "bf8b230d722e2f90",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,36 +49,9 @@
               "icon": "lucide-file",
               "title": "Graph Theory Roadmap"
             }
-          },
-          {
-            "id": "09209123d2d18f28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "AGAO Roadmap"
-            }
-          },
-          {
-            "id": "41ddffc1269e28e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 2.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Problem Set 2"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -63,6 +64,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Graph Theory/k-Connected Graph.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "k-Connected Graph"
+            }
+          },
+          {
+            "id": "d53805eee7406fbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
@@ -72,31 +87,17 @@
             }
           },
           {
-            "id": "d53805eee7406fbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 2.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Problem Set 2"
-            }
-          },
-          {
             "id": "6640de57367d9540",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Bounded Linear Map.md",
+                "file": "Graph Theory/Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Bounded Linear Map"
+              "title": "Graph"
             }
           },
           {
@@ -258,18 +259,24 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bf83c5e2855a4970",
+  "active": "fe19a1480482e56d",
   "lastOpenFiles": [
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/k-Connected Graph.md",
+    "Graph Theory/Graph.md",
+    "Graph Theory/Path (Graph).md",
+    "Topology/Path.md",
+    "Functional Analysis/Bounded Linear Map.md",
+    "Graph Theory/Walk.md",
+    "Graph Theory/Tree.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
+    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Analysis/Convex Set.md",
     "Analysis/Convex Function.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Courses/Probability Theory/Exercise Class 1.md",
     "Measure Theory/Measure Space.md",
     "Functional Analysis/Adjoint Linear Map.md",
-    "Functional Analysis/Bounded Linear Map.md",
-    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Optimization/Optimization Problem.md",
@@ -281,12 +288,6 @@
     "Functional Analysis/Positive Operator.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Analysis/Hessian.md",
-    "Measure Theory/Sigma Algebra.md",
-    "Courses/Measure Theory/Measure Theory Roadmap.md",
-    "Analysis/Hilbert Space.md",
-    "Algebra/Variety.md",
-    "Courses/Algebraic Geometry/Algebraic Geometry Roadmap.md",
-    "Analysis/Symmetric Positive Definite Matrices.md",
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",

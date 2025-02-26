@@ -97,54 +97,20 @@
 
 ---
 #### 2.1 Cayley's Formula
-
-> [!definition]
-> Let $T$ be a [[tree]] on an ordered set $S$ of $n$ vertices. The ***Prüfer code*** $f(T)$ of $T$ is given by the following process:
-> 1. iteratively delete the leaf with the smallest label
-> 2. append the label of its neighbour to the sequence. 
-> 3. After $n-2$ iterations a single edge remains and we have produced a sequence $f(T)$ of length $n-2$.
+![[Tree#^7e2ec4]]
 
 ---
-> [!lemma] Proposition 1
-> Let $T$ be a tree and $f(T)$ the Prüfer code. 
-> 1. $x\in T$ appears in $f(T)$ if and only if $x$ is not a leaf.
-
-> [!proof]-
-> If $x$ is a leaf, by construction $x$ cannot appear in $f(T)$.
-> 
-> Conversely, if $x$ is not a leaf, there exists $\{ u,v \}\subseteq N(x)$. As only leaves can be deleted, either $u$ or $v$ will be deleted before $x$. Hence, $x$ appears in $f(T)$.
+![[Tree#^97eff3]]
+![[Tree#^0b054b|p]]
 
 ---
-> [!lemma] Theorem 2
-> Let $S$ be an ordered set of $n$ vertices. The following map is a bijection: $$\{ \text{Trees on }S \}\to S^{n-2},\quad T\mapsto f(T)$$
-
-> [!proof]-
-> We prove this by induction over $n$. 
-> 1. If $n=2$, then there exists only one tree on $S$ and this is uniquely given.
-> 2. If $n\geq 3$, we know that $f(T)$ has length $n-2$ for all $f$. To show that it is a bijection, let $s_{1},\dots,s_{n-2}\in S$ be a sequence. 
->    
->    Let $s^{*}$ be the smallest element in $S$ s.t. it does not appear in $s_{1},\dots,s_{n-2}$. Then, by induction there exists a unique tree $T$ on $S \backslash \{ s^{*} \}$ s.t. $f(T)=(s_{2},\dots,s_{n-2})$. Now, consider $T':=T\cup \{ s^{*}s_{1} \}$. Then, $$f(T')=(s_{1},\dots,s_{n-2})$$Hence, there exists a unique tree $T'$ on $S$ with $f(T')=(s_{1},\dots,s_{n-2})$.
-- **Corollary: (Cayley)** There are $n^{n-2}$ different labelled trees on $n$ vertices.
----
-> [!lemma] Corollary 3 (Cayley's Formula)
-> There are $n^{n-2}$ different labelled trees on $n$ vertices.
-
-> [!proof]- Proof (Prüfer code)
-> Follows from Theorem 2.
-
-> [!proof]- Proof (Joyal, 1981)
-> Let $\mathcal{F}$ be a set of tuples $(T,\ell,r)$ where $T$ is a labelled tree on $n$ vertices and $\ell$ and $r$ are two vertices. Then, it suffices to show that: $$\left| \mathcal{F} \right| =n^n$$
-> 
-> Let $f:[n]\to[n]$ be an arbitrary function and let $D_{f}=([n],E)$ be the digraph that is generated from $f$, i.e. $x\to y\iff y=f(x)$. Then, $e(D_{f})=n$ and $d^+\equiv 1$. 
-> 
-> Notice that every connected component in $D_{f}$ contains exactly one directed cycle and every other vertex is part of a tree that is attached to the cycle in the component. 
-> 
-> Now, let $N:=\{ i\in[n]: i\text{ is in a cycle in }D_{f} \}$. Then, $N$ is the unique maximal subset of $[n]$ s.t. $f|_{N}$ is a bijection. Let $N=\{ v_{1},\dots,v_{k} \}$ be ordered i.e. $v_{i}\leq v_{i+1}$. Then, we construct $(T,\ell,r)$ where, 
-> 1. $T$ is a union of the path $f(v_{1})\dots f(v_{k})$ and the trees that are attached to the cycles in $D_{f}$.
-> 2. $\ell:=f(v_{1})$ and $r:=f(v_{k})$.
->    
->  To show that this forms a bijection, let $(T,\ell,r)$. Then, there exists a unique $\ell r$-path. Hence, we can construct a function $f$ s.t. that path is given by $N=\{ v_{1},\dots,v_{k} \}$ and more precisely $f(v_{1})\dots f(v_{k})$.
->  
->  Therefore, this gives a bijection between $\mathcal{F}\cong [n]^{[n]}$. This proves the statement. 
+![[Tree#^fa0d83]]
+![[Tree#^6c8dad|p]]
 
 ---
+![[Tree#^5bf805]]
+![[Tree#^8ff773|p]]
+![[Tree#^1fd061|p]]
+
+---
+### 3. Connectivity
