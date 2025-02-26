@@ -109,7 +109,30 @@
 > Let $T$ be a tree and $f(T)$ the Prüfer code. 
 > 1. $x\in T$ appears in $f(T)$ if and only if $x$ is not a leaf.
 
-> [!proof]+
-> If $x$ is a leaf, by construction $x$ cannot ap
-- **Remark**: Leaves do not appear in $f(T)$.
--
+> [!proof]-
+> If $x$ is a leaf, by construction $x$ cannot appear in $f(T)$.
+> 
+> Conversely, if $x$ is not a leaf, there exists $\{ u,v \}\subseteq N(x)$. As only leaves can be deleted, either $u$ or $v$ will be deleted before $x$. Hence, $x$ appears in $f(T)$.
+
+---
+> [!lemma] Theorem 2
+> Let $S$ be an ordered set of $n$ vertices. The following map is a bijection: $$\{ \text{Trees on }S \}\to S^{n-2},\quad T\mapsto f(T)$$
+
+> [!proof]-
+> We prove this by induction over $n$. 
+> 1. If $n=2$, then there exists only one tree on $S$ and this is uniquely given.
+> 2. If $n\geq 3$, we know that $f(T)$ has length $n-2$ for all $f$. To show that it is a bijection, let $s_{1},\dots,s_{n-2}\in S$ be a sequence. 
+>    
+>    Let $s^{*}$ be the smallest element in $S$ s.t. it does not appear in $s_{1},\dots,s_{n-2}$. Then, by induction there exists a unique tree $T$ on $S \backslash \{ s^{*} \}$ s.t. $f(T)=(s_{2},\dots,s_{n-2})$. Now, consider $T':=T\cup \{ s^{*}s_{1} \}$. Then, $$f(T')=(s_{1},\dots,s_{n-2})$$Hence, there exists a unique tree $T'$ on $S$ with $f(T')=(s_{1},\dots,s_{n-2})$.
+- **Corollary: (Cayley)** There are $n^{n-2}$ different labelled trees on $n$ vertices.
+---
+> [!lemma] Corollary 3 (Cayley's Formula)
+> There are $n^{n-2}$ different labelled trees on $n$ vertices.
+
+> [!proof]- Proof (Prüfer code)
+> Follows from Theorem 2.
+
+> [!proof]+ Proof (Joyal, 1981)
+> Let $\mathcal{F}$ be a set of tuples $(T,\ell,r)$ where $T$ is a labelled tree on $n$ vertices and $\ell$ and $r$ are two vertices. Then, it suffices to show that: $$\left| \mathcal{F} \right| =n^n$$
+> 
+> Consider the digraph $G=(V,E)$ on $n$ vertices. 
