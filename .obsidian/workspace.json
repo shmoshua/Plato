@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Adjoint Linear Map.md",
+                "file": "Analysis/Convex Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Adjoint Linear Map"
+              "title": "Convex Function"
             }
           }
         ]
@@ -231,10 +231,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bf8b230d722e2f90",
+  "active": "fe19a1480482e56d",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Analysis/Convex Function.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
+    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+    "Functional Analysis/Adjoint Linear Map.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Path (Graph).md",
@@ -242,13 +245,10 @@
     "Functional Analysis/Bounded Linear Map.md",
     "Graph Theory/Walk.md",
     "Graph Theory/Tree.md",
-    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Analysis/Convex Set.md",
-    "Analysis/Convex Function.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Courses/Probability Theory/Exercise Class 1.md",
     "Measure Theory/Measure Space.md",
-    "Functional Analysis/Adjoint Linear Map.md",
     "Courses/Topology/Topology Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Optimization/Optimization Problem.md",

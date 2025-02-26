@@ -45,4 +45,5 @@ We show this by induction over $i$.
 
 ---
 #### Problem 6
-1. Let $x,y\in \mathbb{R}^n$. Then, by 2nd Taylor: $$f(y)=f(x)+\nabla f(x)^\top(y-x)+\frac{1}{2}(y-x)^\top H_{f}(z)(y-x)$$for some $z\in \mathbb{R}^n$. Note that as 
+1. Let $x,y\in \mathbb{R}^n$. Wlog, we may assume that $x\neq y$. Then, by 2nd Taylor: $$f(y)=f(x)+\nabla f(x)^\top(y-x)+\frac{1}{2}(y-x)^\top H_{f}(z)(y-x)$$for some $z\in \mathbb{R}^n$. Note that as $H_{f}(z)$ is symmetric, by Courant-Fischer, $$\frac{(y-x)^\top H_{f}(z)(y-x)}{\|y-x\|^2_{2}}\geq\min_{u\in \mathbb{R}^n,u\neq 0}\frac{u^\top H_{f}(z)u}{\|u\|^2_{2}}=\lambda_{\min}(H_{f}(z))\geq \mu$$Hence, $$f(y)\geq f(x)+\nabla f(x)^\top(y-x)+\frac{\mu}{2}\|y-x\|^2_{2}$$
+2. Assume that we have a sequence $(x_{i})_{i}$ s.t. $f(x_{i+1})< f(x_{i})$. Then, $$f(x_{i})>f(x_{i+1})\geq f(x_{i})+\nabla f(x_{i})^\top(x_{i+1}-x_{i})+\underbrace{ \frac{\mu}{2}\left\| x_{i+1}-x_{i} \right\|^2_{2} }_{ >0 } > f(x_{i})+\nabla f(x_{i})^\top(x_{i+1}-x_{i})$$Hence $\nabla f(x_{i})^\top(x_{i+1}-x_{i})< 0$ for all $i$. Therefore, $$\sum_{i}^{}\nabla f(x_{i})^\top (x_{i+1}-x_{i})=-\nabla f(x_{1})^\top x_{1}+\sum_{i}^{}(\nabla f(x_{i-1})-\nabla f(x_{i}))^\top x_{i}$$
