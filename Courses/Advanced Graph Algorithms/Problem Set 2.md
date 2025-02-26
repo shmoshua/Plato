@@ -52,7 +52,9 @@ We show this by induction over $i$.
 	$$\frac{\gamma}{t+1}\left\| x_{i-1}-x^{*} \right\| ^2_{2} \geq f(x_{i})-f(x^{*})\geq \underbrace{ \nabla f(x^{*})^\top }_{ =0 }(x_{i}-x^{*})+\frac{\mu}{2}\left\| x_{i}-x^{*} \right\| ^2_{2}\geq \frac{\mu}{2}\left\| x_{i}-x^{*} \right\| ^2_{2}$$
 	
 	Hence, $\left\| x_{i}-x^{*} \right\|^2_{2}\leq \frac{2}{t+1}\frac{\gamma}{\mu}\left\| x_{i-1}-x^{*} \right\|^2_{2}$ and $\left\| x_{s}-x^{*} \right\|^2_{2}\leq \left( \frac{2}{t+1}\frac{\gamma}{\mu} \right)^s\left\| x_{0}-x^{*} \right\|^2_{2}$. Now, 
-	1. If $4\gamma<\mu$, then let $t:=\left\lceil \frac{4\gamma}{\mu}-1\right\rceil$ and we have $\frac{2}{t+1}\frac{\gamma}{\mu}\leq$
+	1. If $4\gamma>\mu$, then let $t:=\left\lceil \frac{4\gamma}{\mu}-1\right\rceil\geq 1$ and we have $\frac{2}{t+1}\frac{\gamma}{\mu}\leq \frac{1}{2}$. Therefore, for any $s\geq 2\log(\|x_{0}-x^{*}\|_{2} / \delta)$, we have: $$\left\| x_{s}-x^{*} \right\| ^2_{2}\leq 2^{-s}\left\| x_{0}-x^{*} \right\| ^2_{2}\leq \delta^{2}$$With the cost as $st\leq \frac{4\gamma}{\mu}s$ which proves the statement.
+	2. If $4\gamma\leq \mu$, then let $t=1$. Then, $\frac{2}{t+1}\frac{\gamma}{\mu}=\frac{\gamma}{\mu}\leq \frac{1}{4}$. Therefore, for any $s\geq 2\log(\|x_{0}-x^{*}\|_{2} / \delta) / \log(\mu / \gamma)$, $$\left\| x_{s}-x^{*} \right\| ^2_{2}\leq \left( \frac{\gamma}{\mu} \right) ^s\left\| x_{0}-x^{*} \right\| ^2_{2}\leq \delta^{2}$$With the cost $st= s$ which proves the statement.
+	3. 
 	
 	$$\begin{align}&\left(\frac{2}{t+1}\frac{\gamma}{\mu}\right)^s\left\| x_{0}-x^{*} \right\|^2_{2}\leq \delta^{2}\\\iff&2\log\left( \frac{\left\| x_{0}-x^{*} \right\|_{2}}{\delta} \right)\leq s\log\left( \frac{\mu(t+1)}{2\gamma} \right)\end{align}$$
 

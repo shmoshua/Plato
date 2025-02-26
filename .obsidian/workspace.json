@@ -85,6 +85,20 @@
               "icon": "lucide-file",
               "title": "Convex Function"
             }
+          },
+          {
+            "id": "a6a8f37e9c39b593",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Exercise Sheet 1"
+            }
           }
         ]
       }
@@ -233,8 +247,9 @@
   },
   "active": "fe19a1480482e56d",
   "lastOpenFiles": [
-    "Analysis/Convex Function.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
+    "Analysis/Convex Function.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
@@ -259,7 +274,6 @@
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Functional Analysis/Positive Operator.md",
     "Courses/Graph Theory/Problem Set 1.md",
-    "Analysis/Hessian.md",
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
