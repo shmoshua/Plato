@@ -35,8 +35,14 @@ We show this by induction over $i$.
 
 ---
 #### Problem 5
-1. Firstly, $g:x\mapsto \left| x \right|$ is convex on $\mathbb{R}$ by triangle inequality. Further, $h_{p}:x\mapsto x^p$ is convex on $[0,\infty)$ for any $p\geq 1$. Indeed, $h''(x)=p(p-1)x^{p-2}\geq 0$. 
+1. Firstly, $g:x\mapsto \left| x \right|$ is convex on $\mathbb{R}$ by triangle inequality. Further, $h:x\mapsto x^p$ is convex on $[0,\infty)$ for any $p\geq 1$. Indeed, $h''(x)=p(p-1)x^{p-2}\geq 0$. 
    
-   Therefore, $$\left| tx+(1-t)y \right| ^{3/2}=h_{3/2}(g(tx+(1-t)y))\leq$$
-2. For any $x,y\in \mathbb{R}$ and $t\in[0,1]$, $$\left| tx+(1-t)y \right| ^{3/2}\leq t\left| x \right|^{3/2}+(1-t)\left| y \right| ^{3/2} $$as we have $\left| tx+(1-t)y \right|^3\leq t^{2}\left| x \right|^3+(1-t)^{2}\left| y \right|^3$
+   Also, notice that $h$ is an increasing function for all $p$. Hence, $$\left| tx+(1-t)y \right| ^{p}=h(g(tx+(1-t)y))\leq h(tg(x)+(1-t)g(y))\leq t \left| x \right| ^p+(1-t)\left| y \right| ^p$$This shows the convexity of $f$.
+   
+   $f$ cannot be $\beta$-gradient-Lipschitz as it is not differentiable at $x=0$. 
+2. $f$ is convex as $f''(x)=\exp(x)\geq 0$ for all $x\in \mathbb{R}$. However, it cannot be $\beta$-gradient-Lipschitz for any $\beta$ as $f''$ is unbounded by Proposition 3.3.2.
+3. $f$ is convex as $\exp$ is convex on $\mathbb{R}$ and a restriction of a convex function is still convex. However, this time we also have that $f''(x)=\exp(x)\leq e$ for all $x\in (-1,1)$. Hence, $f$ is $e$-gradient-Lipschitz. 
+4. We have that: $$H_{f}(x,y)=- \frac{1}{4\sqrt{ x+y }^3}\begin{bmatrix}1&1\\1&1\end{bmatrix}$$which has $\left( 0,-\frac{1}{2\sqrt{ x+y }^3} \right)$ as eigenvalues. Hence, $H_{f}(x,y)$ cannot be positive semidefinite and $f$ is not convex. However, we have that $\left\| H_{f}(x,y) \right\|=\frac{1}{2\sqrt{ x+y }^3}$ from Exercise 1 and $f$ cannot be $\beta$-gradient-Lipschitz as $\sup_{x,y\in(0,1)} \frac{1}{2\sqrt{ x+y }^3} =\infty$.
+5. With the same reason as above $f$ is not convex. However, we have that: $$\sup_{x,y\in\left( \frac{1}{2},1 \right)} \frac{1}{2\sqrt{ x+y }^3}=\frac{1}{2}$$and $f$ is $\beta$-gradient-Lipschitz.
+
 

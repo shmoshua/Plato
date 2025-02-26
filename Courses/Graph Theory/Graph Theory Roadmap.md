@@ -97,3 +97,19 @@
 
 ---
 #### 2.1 Cayley's Formula
+
+> [!definition]
+> Let $T$ be a [[tree]] on an ordered set $S$ of $n$ vertices. The ***Prüfer code*** $f(T)$ of $T$ is given by the following process:
+> 1. iteratively delete the leaf with the smallest label
+> 2. append the label of its neighbour to the sequence. 
+> 3. After $n-2$ iterations a single edge remains and we have produced a sequence $f(T)$ of length $n-2$.
+
+---
+> [!lemma] Proposition 1
+> Let $T$ be a tree and $f(T)$ the Prüfer code. 
+> 1. $x\in T$ appears in $f(T)$ if and only if $x$ is not a leaf.
+
+> [!proof]+
+> If $x$ is a leaf, by construction $x$ cannot ap
+- **Remark**: Leaves do not appear in $f(T)$.
+-
