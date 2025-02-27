@@ -28,16 +28,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Graph Theory Roadmap"
+            }
+          },
+          {
+            "id": "f0f1549da78d63ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/k-Connected Graph.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "k-Connected Graph"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -50,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Graph Theory Roadmap"
             }
           },
           {
@@ -64,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Function.md",
+                "file": "Graph Theory/k-Connected Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Function"
+              "title": "k-Connected Graph"
             }
           },
           {
@@ -86,7 +100,8 @@
               "title": "Exercise Sheet 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,17 +246,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "fe19a1480482e56d",
+  "active": "22be31a9b15b5a72",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Graph Theory/Tree.md",
-    "Graph Theory/k-Connected Graph.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Analysis/Convex Function.md",
+    "Graph Theory/k-Connected Graph.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
+    "Graph Theory/Tree.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Functional Analysis/Adjoint Linear Map.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Path (Graph).md",
     "Topology/Path.md",

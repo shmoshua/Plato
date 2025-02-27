@@ -7,7 +7,9 @@
 > 	1. $\left| V \right|> k$ and:
 > 	2. for any $S\in {V \choose k-1}$, $G \backslash S$ is connected.
 
-- **Related definition**: The ***connectivity number*** $\kappa$ of $G$ is given by: $$\kappa(G):=\text{max }\{ k\in \mathbb{N} :G\text{ is }k\text{-connected}\}$$
+^203f06
+
+- **Related definition**: The ***connectivity number*** $\kappa$ of $G$ is given by: $$\kappa(G):=\text{max }\{ k\in \mathbb{N} :G\text{ is }k\text{-connected}\}$$ ^cc03cf
 
 ---
 ##### Properties
@@ -15,28 +17,45 @@
 > Let $G$ be a graph.
 > 1. $\kappa(G)\leq \delta(G)$
 
+^4e811f
+
 > [!proof]-
 > Let $k> \delta(G)$. Then, we show that $G$ cannot be $k$-connected. Assume that $\left| V \right|>k$. Let $v$ s.t. $d(v)=\delta(G)$. Then, $k-1\geq \delta(G)$ and 
 > 1. if $N(v)=V \backslash \{ v \}$. Then, as $d(u)\geq \delta(G)=d(v)$, we have that $G$ is a complete graph on $\delta(G)+1$ vertices and we get that $\kappa(G)\leq \delta(G)$. 
 > 2. otherwise, there exists $w\neq v$ that is not in $N(v)$. Hence, by deleting $N(v)$, we disconnect $v$ and $w$. 
+
+^049821
 
 ---
 > [!lemma] Theorem 2 (Mader)
 > Let $G$ be a graph and $k\in \mathbb{N}$.
 > 1. if $d(G)\geq 4k$, then $G$ has a $k$-connected subgraph.
 
+^dd00c3
+
 > [!proof]+
 > If $k\in \{ 0,1 \}$, then the statement is trivial. Hence, let $k\geq 2$. Let further $m:=e(G)$. 
 > 
-> Now, let $G$ be an arbitrary simple graph on $n$ vertices and $m$ edges s.t. $n\geq 2k-1$ and $m\geq (2k-3)(n-k+1)+1$. Then, we claim that $G$ has a $k$-connected subgraph.
+> Now, let $\Gamma$ be an arbitrary simple graph on $n$ vertices and $m$ edges s.t. $n\geq 2k-1$ and $m\geq (2k-3)(n-k+1)+1$. Then, we claim that $G$ has a $k$-connected subgraph.
 > 
-> If this claim holds, then we have that: $$n\geq \Delta(G)\geq d(G)\geq 4k\geq 2k-1,\quad e(G)=\frac{n}{2}d(G)\geq 2kn\geq (2k-3)(n-k+1)+1$$
-> We claim that $G$ has $n$ vertices and $m$ edges 
+> If this claim holds, then we have that for our original graph $G$, i.e. $d(G)\geq 4k$. Then: $$n\geq \Delta(G)\geq d(G)\geq 4k\geq 2k-1,\quad e(G)=\frac{n}{2}d(G)\geq 2kn\geq (2k-3)(n-k+1)+1$$
+> Hence, it suffices to show the claim.
 > 
 > We show this using induction over $n$.
-> 
-> Let $m:=e(G)$. 
-> 1. Let $n=k+1$. 
+> 1. Let $n=2k-1$. Then, $k=\frac{n+1}{2}$ and the number of edges is: $$m\geq (n-2)\left( \frac{n+1}{2} \right)+1=\frac{n^2-n}{2}=\frac{n(n-1)}{2}$$and $\Gamma=K_{n}$ and $\Gamma$ is $n-1=2k-2\geq k$-connected. 
+> 2. Let $n\geq 2k$. If there exists $v\in V$ s.t. $d(v)\leq 2k-2$, then $\Gamma':=\Gamma \backslash \{ v \}$. Then, $\left| V(\Gamma') \right|=n-1\geq 2k-1$ and $e(\Gamma')\geq e(\Gamma)-2k+3=(2k-3)(n-k)+1$. Hence, by induction we have a $k$-connected subgraph. 
+>    
+>    Now, assume that $\delta(\Gamma)\geq 2k-2$. 
+> 	1. If $\Gamma$ is $k$-connected, then we are done. 
+> 	2. if $\Gamma$ is not $k$-connected, then there exists $S\subseteq V$ with $\left| S \right|\leq k-1$ s.t. $\Gamma \backslash S$ is disconnected. 
+> 	   
+> 	   Hence, we can write $V=V_{1}\sqcup S \sqcup V_{2}$ s.t. $V_{1},V_{2}\neq \varnothing$ and $e(V_{1},V_{2})= 0$. Now, let $\Gamma_{1}:=\Gamma[V_{1}\cup S]$ and $\Gamma_{2}:=\Gamma[V_{2}\cup S]$.
+> 	   
+> 	   For any $v\in V_{1}$, $N_{v}\subseteq \Gamma_{1}$ and $\left| V(\Gamma_{1}) \right|\geq N_{v}+1\geq 2k-2+1=2k-1$. If $e(\Gamma_{1})\geq (2k-3)(\left| V(\Gamma_{1}) \right|-k+1)+1$, then we are done by induction. Otherwise, $$e(\Gamma_{1})\leq (2k-3)(\left| V(\Gamma_{1}) \right| -k+1)$$
+> 	   By symmetry, we are left to show it for the case that: $$e(\Gamma_{1})\leq (2k-3)(\left| V(\Gamma_{1}) \right| -k+1),\quad e(\Gamma_{2})\leq (2k-3)(\left| V(\Gamma_{2}) \right| -k+1)$$Then, $$e(\Gamma)\leq e(\Gamma_{1})+e(\Gamma_{2})\leq(2k-3)(n-k+1)$$which is a contradiction so this cannot happen. 
+
+^ab76d0
+
 ---
 ##### Examples
 > [!h] Example 1
@@ -44,7 +63,11 @@
 > 1. $\kappa(K_{n})=n-1$.
 > 2. $\kappa(K_{r,s})=\min \{ r,s \}$.
 
+^b902c3
+
 > [!proof]-
 > We have:
 > 1. Obvious.
 > 2. Let $V(K_{r,s})=A\sqcup B$. Assume wlog $\min \{ r,s \}=r$. Then, for any $S\in {V \choose r-1}$, there will be at least $u$
+
+^d93829

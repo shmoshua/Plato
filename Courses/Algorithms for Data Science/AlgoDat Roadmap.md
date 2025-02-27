@@ -77,4 +77,4 @@ What do we do when the $k$ relevant features are unknown?
 
 > [!proof]+
 > Define $f:\mathbb{R}^n\to \mathbb{R},w\mapsto \frac{1}{2n}\left\| Xw-y \right\|^{2}$. Then, $$\nabla f(w_{0})=\frac{1}{n}X^\top(Xw_{0}-y)=-\frac{1}{n}X^\top\varepsilon$$Let $u:=\widehat{w}-w_{0}$. Then, $$f(w_{0})\geq f(w_{0}+u)=f(w_{0})-\frac{1}{n}uX^\top\varepsilon+\frac{1}{2n}\left\| Xu \right\| ^2_{2}$$Hence, $$\left\| Xu \right\| ^2_{2}\leq 2\varepsilon^\top X u,\quad \left\| Xu \right\| ^2_{2}\leq \frac{4\braket{ \varepsilon , Xu } ^2}{\left\| Xu \right\| ^2_{2}}$$Notice that $u$ is $2k$-sparse as if $u_i\neq 0$ then either $\widehat{w}_{i}\neq 0$ or $w_{i}^0\neq 0$. Hence, it suffices to show w.h.p that: $$\max_{u\in \mathbb{R}^d, 2k\text{-sparse}}\frac{\braket{ \varepsilon , Xu } ^{2}}{\left\| Xu \right\| ^2}\leq k\cdot O\left( \log \frac{2d}{k} \right)$$
-> Now, for all $S\in {[d] \choose 2k}$, let $\phi_{S}$
+> Now, for all $S\in {[d] \choose 2k}$, let $\phi_{S}\in \mathbb{R}^{n,2k}$ have orthogonal columns. 
