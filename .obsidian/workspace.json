@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+                "file": "Graph Theory/Cut (Graph).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 1"
+              "title": "Cut (Graph)"
             }
           }
         ],
@@ -248,13 +248,14 @@
   },
   "active": "22be31a9b15b5a72",
   "lastOpenFiles": [
-    "Analysis/Convex Function.md",
+    "Graph Theory/Cut (Graph).md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Graph Theory/k-Connected Graph.md",
+    "Analysis/Convex Function.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Graph Theory/Tree.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Functional Analysis/Adjoint Linear Map.md",
     "Graph Theory/Graph.md",
@@ -274,7 +275,6 @@
     "Algebra/Tensor Product.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Functional Analysis/Positive Operator.md",
-    "Courses/Graph Theory/Problem Set 1.md",
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",

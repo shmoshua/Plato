@@ -2,27 +2,45 @@
 
 > [!definition]
 > Let $G=(V,E)$ be a simple [[Path|connected]] [[graph]].
-> 1. A ***vertex cut*** is $S\subseteq V$ s.t. $G \backslash S$ is not connected.
-> 2. $G$ is ***$k$-connected*** if:
+> 1. $G$ is ***$k$-connected*** if:
 > 	1. $\left| V \right|> k$ and:
 > 	2. for any $S\in {V \choose k-1}$, $G \backslash S$ is connected.
+> 2. $G$ is ***$k$-edge-connected*** if:
+> 	1. for any $E'\in {E \choose k-1}$, $G \backslash E'$ is connected.
 
 ^203f06
 
-- **Related definition**: The ***connectivity number*** $\kappa$ of $G$ is given by: $$\kappa(G):=\text{max }\{ k\in \mathbb{N} :G\text{ is }k\text{-connected}\}$$ ^cc03cf
+- **Related definition**: For a connected graph $G=(V,E)$,
+	1. A ***cut vertex*** is a vertex $v\in V$ s.t. $G \backslash v$ is disconnected.
+	2. A ***bridge*** is an edge $e\in E$ s.t. $G \backslash e$ is disconnected.
+- **Related definition**: 
+	1. The ***connectivity number*** $\kappa(G):=\text{max }\{ k\in \mathbb{N} :G\text{ is }k\text{-connected}\}$
+	2. The ***edge connectivity number*** $\kappa'(G):=\text{max }\{ k\in \mathbb{N} :G\text{ is }k\text{-edge-connected}\}$ ^cc03cf
 
 ---
 ##### Properties
-> [!lemma] Proposition 1
-> Let $G$ be a graph.
+> [!lemma] Theorem 1
+> Let $G=(V,E)$ be a graph.
 > 1. $\kappa(G)\leq \delta(G)$
+> 2. $\kappa'(G)=\min_{S\subseteq V}e(S,\overline{S})$.
+> 3. $\kappa(G)\leq \kappa'(G)\leq \delta(G)$
 
 ^4e811f
 
 > [!proof]-
-> Let $k> \delta(G)$. Then, we show that $G$ cannot be $k$-connected. Assume that $\left| V \right|>k$. Let $v$ s.t. $d(v)=\delta(G)$. Then, $k-1\geq \delta(G)$ and 
-> 1. if $N(v)=V \backslash \{ v \}$. Then, as $d(u)\geq \delta(G)=d(v)$, we have that $G$ is a complete graph on $\delta(G)+1$ vertices and we get that $\kappa(G)\leq \delta(G)$. 
-> 2. otherwise, there exists $w\neq v$ that is not in $N(v)$. Hence, by deleting $N(v)$, we disconnect $v$ and $w$. 
+> We have:
+> 
+> 1. Let $k> \delta(G)$. Then, we show that $G$ cannot be $k$-connected. Assume that $\left| V \right|>k$. Let $v$ s.t. $d(v)=\delta(G)$. Then, $k-1\geq \delta(G)$ and 
+> 	1. if $N(v)=V \backslash \{ v \}$. Then, as $d(u)\geq \delta(G)=d(v)$, we have that $G$ is a complete graph on $\delta(G)+1$ vertices and we get that $\kappa(G)\leq \delta(G)$. 
+> 	2. otherwise, there exists $w\neq v$ that is not in $N(v)$. Hence, by deleting $N(v)$, we disconnect $v$ and $w$. 
+> 2. Follows from the fact that a minimal disconnecting set is always a cut.
+> 3. Take $v$ with $d(v)=\delta(G)$. Then, we can delete all the incident edges to $v$ and we get a disconnected graph.
+>    
+>    Let $S\subseteq V$ s.t. $\kappa'(G)=e(S,\overline{S})$ with $\left| S \right|=s$. 
+> 	1. If the cut is complete, then $\kappa'(G)=s(n-s)\geq n-1$. However, obviously,  $\kappa(G)\leq n-1$. 
+> 	2. if the cut is not complete, then there exists $x\in S$ and $y\in \overline{S}$ s.t. $xy\notin E$. Let $T_{1}:= \overline{S}\cap N(x)$ and let $T_{2}:=\{ v\in S \backslash \{ x \}:N(v)\cap \overline{S}\neq \varnothing \}$.
+> 	   
+> 	   Now, note that $T_{1}\cup T_{2}$ disconnects $x$ from $y$. Then, $$T_{1}\cup T_{2}\hookrightarrow E (S,\overline{S}),\quad v\mapsto \begin{cases}xv&\text{if }v\in T_{1}\\vw&\text{if }v\in T_{2}\text{ which exists by definition }\end{cases}$$Therefore $\kappa(G)\leq \left| T_{1}\cup T_{2} \right|\leq e(S,\overline{S})=\kappa'(G)$.
 
 ^049821
 
@@ -33,7 +51,7 @@
 
 ^dd00c3
 
-> [!proof]+
+> [!proof]-
 > If $k\in \{ 0,1 \}$, then the statement is trivial. Hence, let $k\geq 2$. Let further $m:=e(G)$. 
 > 
 > Now, let $\Gamma$ be an arbitrary simple graph on $n$ vertices and $m$ edges s.t. $n\geq 2k-1$ and $m\geq (2k-3)(n-k+1)+1$. Then, we claim that $G$ has a $k$-connected subgraph.
@@ -62,12 +80,22 @@
 > We have:
 > 1. $\kappa(K_{n})=n-1$.
 > 2. $\kappa(K_{r,s})=\min \{ r,s \}$.
+> 3. $\kappa'(K_{n})=n-1$.
 
 ^b902c3
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. Obvious.
-> 2. Let $V(K_{r,s})=A\sqcup B$. Assume wlog $\min \{ r,s \}=r$. Then, for any $S\in {V \choose r-1}$, there will be at least $u$
+> 2. Let $V(K_{r,s})=A\sqcup B$. Assume wlog $\min \{ r,s \}=r$. Then, for any $S\in {V \choose r-1}$, there will be at least $u$.
+> 3. From Proposition 1.2, $$\kappa'(G)=\min_{s\in[n-1]}s(n-s)=n-1$$
 
 ^d93829
+
+---
+> [!h] Example 2
+> We have that:
+> 1. A [[Cut (Graph)|cut]] is always a disconnecting set. 
+> 2. A minimal disconnecting set is always a cut.
+
+---
