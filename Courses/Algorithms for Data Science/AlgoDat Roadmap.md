@@ -59,24 +59,39 @@
 > Therefore, we have that $w|y\sim \mathcal{N}\left( \frac{1}{n+ 1 / t}X^\top y, \frac{1}{n+ 1 / t}I_{d} \right)$ and from Bayes-Optimal estimator:$$\begin{align}\mathbb{E}_{w}[\text{R}(\widehat{w};w)]&\geq \mathbb{E}_{w}[\text{R}(\widehat{w}_{P};w)]\\&=\mathbb{E}_{(w,\varepsilon)}[\left\| \widehat{w}_{P} -w\right\|^{2} ]\\&=\mathbb{E}_{(w,\varepsilon)}[\mathbb{E}[\left\| \widehat{w}_{P} -w\right\|^{2}|y] ]\\&=\mathbb{E}_{(w,\varepsilon)}\left[ \sum_{i=1}^{d}\text{Var}(w_{i}|y)  \right]\\&=\mathbb{E}_{(w,\varepsilon)}\left( \frac{d}{n+ 1 / t} \right) \\&=\frac{d}{n+1 / t}\end{align}$$
 
 ---
-#### 1.4 Sparsity and Regression
+#### 1.4 Sparse Linear Regression
 We consider the case where from the $d$ features, only $k\ll d$ are relevant. If we know the $k$ features, then using minimax we can reach $\frac{k}{n}$ risk.
 
 What do we do when the $k$ relevant features are unknown? 
 
 ---
-##### 1.4.1 Sparse Linear Regression
+
 > [!definition]
 > Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be known vectors. For an unknown $w_{0}\in \mathbb{R}^d$ we observe $y:=Xw_{0}+\varepsilon$ where $\varepsilon \sim \mathcal{N}(0,I_{n})$.
 > 1. In ***sparse linear regression***, we aim to find $$w^{*}\in \underset{ w\in \mathbb{R}^d }{ \arg\min }\ \left\| y-Xw^0 \right\| ^2_{2}$$where $w^0$ is $k$-sparse, i.e. $\|w_{0}\|_{0}\leq k$.
-
 ---
+##### 1.4.1 BSS
+
 > [!lemma] Theorem 1 (Best-Subset-Selection)
-> Let $\widehat{w}(w_{0})\in \underset{ \beta\in\mathbb{R}^d, k\text{-sparse} }{ \arg\min }\|y-Xw_{0}\|^2$. Then, 
+> Let $\widehat{w}(w_{0})\in \underset{ w\in\mathbb{R}^d, k\text{-sparse} }{ \arg\min }\|y-Xw_{0}\|^2$. Then, 
 > $$\frac{1}{n}\left\| X(\widehat{w}-w^0) \right\| ^{2}\leq \frac{k}{n}\cdot O\left( \log \frac{2d}{k} \right)\text{ whp}, \quad \forall w_{0}\in \mathbb{R}^n$$
 
-> [!proof]+
+> [!proof]-
 > Define $f:\mathbb{R}^n\to \mathbb{R},w\mapsto \frac{1}{2n}\left\| Xw-y \right\|^{2}$. Then, $$\nabla f(w_{0})=\frac{1}{n}X^\top(Xw_{0}-y)=-\frac{1}{n}X^\top\varepsilon$$Let $u:=\widehat{w}-w_{0}$. Then, $$f(w_{0})\geq f(w_{0}+u)=f(w_{0})-\frac{1}{n}uX^\top\varepsilon+\frac{1}{2n}\left\| Xu \right\| ^2_{2}$$Hence, $$\left\| Xu \right\| ^2_{2}\leq 2\varepsilon^\top X u,\quad \left\| Xu \right\| ^2_{2}\leq \frac{4\braket{ \varepsilon , Xu } ^2}{\left\| Xu \right\| ^2_{2}}$$Notice that $u$ is $2k$-sparse as if $u_i\neq 0$ then either $\widehat{w}_{i}\neq 0$ or $w_{i}^0\neq 0$. Hence, it suffices to show w.h.p that: $$\max_{u\in \mathbb{R}^d, 2k\text{-sparse}}\frac{\braket{ \varepsilon , Xu } ^{2}}{\left\| Xu \right\| ^2}\leq k\cdot O\left( \log \frac{2d}{k} \right)$$
-> Now, for all $S\in {[d] \choose 2k}$, let $\phi_{S}\in \mathbb{R}^{n,2k}$ have orthogonal columns s.t. the columns $X_{i}$ of $X$ for $i\in S$ are all spanned by the columns of $\phi_{S}$. 
+> Now, for all $S\in {[d] \choose 2k}$, let $\phi_{S}\in \mathbb{R}^{n,2k}$ have orthonormal columns s.t. the columns $X_{i}$ of $X$ for $i\in S$ are all spanned by the columns of $\phi_{S}$. 
 > 
-> Then, by choosing $S\supseteq \{ i:u_{i}\neq 0 \}$, we have that $Xu\in \text{span}(\phi_{S,1}\dots,\phi_{S,2k})$ and there exists $v$ with $\|v\|=1$ s.t. $\frac{Xu}{\left\| Xu \right\|}=$
+> Then, by choosing $S\supseteq \text{supp }u$, we have that $Xu\in \text{span}(\phi_{S,1}\dots,\phi_{S,2k})$ and there exists $v$ with $\|v\|=1$ s.t. $\frac{Xu}{\left\| Xu \right\|}=\phi_{S}v$. Hence, $$\max_{u\in \mathbb{R}^d, 2k\text{-sparse}}\frac{\braket{ \varepsilon , Xu } ^{2}}{\left\| Xu \right\| ^2}\leq \max_{S\in {[d] \choose 2k}}\max_{v\in \mathbb{R}^{2k},\|v\|=1}\braket{ \varepsilon , \phi_{S}v } ^2\leq \max_{S\in {[d] \choose 2k}}\left\| \phi_{S}^\top \varepsilon \right\| ^2$$
+> Notice that by rotational invariance of the distribution of $\varepsilon$, we have that $\left\| \phi^\top_{S}\varepsilon \right\|^{2}$ has the same distribution as $\varepsilon^{2}_{1}+\dots+\varepsilon_{2k}^2\sim \chi^2_{2k}$. Hence,
+> 
+> Therefore, for any $t\geq 2$: $$\begin{align}\mathbb{P}\left(\max_{S}\left\| \phi_{S}^\top  \varepsilon\right\|^2> t \cdot 2k \right)&\leq \sum_{S}\mathbb{P}(\left\| \phi^\top_{S}\varepsilon \right\|^{2}> t\cdot 2k )\\&\leq {d \choose 2k}\mathbb{P}(\chi^2_{2k}> t 2k)\\&\leq \left( \frac{4d}{2k} \right)^{2k}e^{-tk/10}\\&\leq e^{2k\log (2d/k)-tk/10}\end{align}$$By taking $t=30\log \frac{2d}{k}$, we have that:$$\mathbb{P}\left(\max_{S}\left\| \phi_{S}^\top  \varepsilon\right\|^2> t \cdot 2k \right)\leq e^{-k\log (2d / k)}=\left( \frac{2d}{k} \right)^{-k}\leq 2^{-k}$$Since $t 2k\leq k \cdot O\left( \log \frac{2d}{k} \right)$, we have that the statement holds with probability at least $1-2^{-k}$
+
+- **Remark**: However, BSS optimization problem is NP-hard in worst case!
+
+---
+##### 1.4.2 LASSO
+> [!lemma] Theorem 2 (LASSO)
+> Assume that $R:=\left\| w_{0} \right\|_{1}$ is known. Let $\widehat{w}(w_{0})\in \underset{ w \in \mathbb{R}^d,\|w\|_{1}\leq R }{ \arg\min }\left\| Xw_{0} -y\right\|^2$. 
+> 1. If $\left\| X_{i} \right\|^2=n$ for all columns $X_{i}$, $$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w_{0}) \right\| ^2]\leq \frac{\left\| w_{0} \right\| _{1}}{\sqrt{ n }}\cdot O(\log 2d)^{1/2}$$
+
+> [!proof]+
+> Let $u:= \widehat{w}-w_{0}$. Then, similarly to the Theorem 1, $$\frac{1}{2}\left\| Xu \right\| ^2_{2}\leq \braket{ u , X^\top \varepsilon } \leq \|u\|_{1}\left\| X^\top\varepsilon \right\| _{\infty}$$
