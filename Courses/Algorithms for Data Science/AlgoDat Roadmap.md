@@ -116,8 +116,29 @@ What do we do when the $k$ relevant features are unknown?
 
 
 > [!lemma] Theorem 4 (LASSO fast rate)
-> Assume that $R:=\left\| w_{0} \right\|_{1}$ is known. Let $\widehat{w}(w_{0})\in \underset{ w \in \mathbb{R}^d,\|w\|_{1}\leq R }{ \arg\min }\left\| Xw_{0} -y\right\|^2$. 
-> 1. If $\left\| X_{i} \right\|^2=n$ for all columns $X_{i}$ and $X$ is $\gamma$-RE w.r.t. $\text{supp }w^0$ $$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w_{0}) \right\| ^2]\leq \frac{\left\| w_{0} \right\| _{1}}{\sqrt{ n }}\cdot O(\log 2d)^{1/2}$$
+> Assume that $R:=\left\| w^{*} \right\|_{1}$ is known. Let $\widehat{w}(w^{*})\in \underset{ w \in \mathbb{R}^d,\|w\|_{1}\leq R }{ \arg\min }\left\| Xw^{*} -y\right\|^2$. 
+> 1. If $\left\| X_{i} \right\|^2=n$ for all columns $X_{i}$ and $X$ is $\gamma$-RE w.r.t. $\text{supp}(w^{*})$, then:$$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w^{*}) \right\| ^2]\leq \frac{k}{\gamma n}\cdot O(\log d)$$
 
-> [!proof]+
-> 
+> [!proof]-
+> Let $u:= \widehat{w}-w_{0}$. Then, similarly to the Theorem 1, $$\frac{1}{2}\left\| Xu \right\| ^2_{2}\leq \braket{ u , X^\top \varepsilon } \leq \|u\|_{1}\left\| X^\top\varepsilon \right\| _{\infty}$$Now, let $S:=\text{supp}(w^{*})$. From Lemma 3, $u\in C(S)$ and: $$\|u\|_{1}\leq 2\sqrt{ k }\|u\|_{2}\leq 2\sqrt{ \frac{k}{\gamma n} }\|Xu\|_{2}$$Hence, $$\left\| Xu \right\| ^2_{2}\leq 4\sqrt{ \frac{k}{\gamma n} }\|Xu\|_{2}\|X^\top\varepsilon\|_{\infty}$$ and $\|Xu\|^2_{2}\leq \frac{16k}{\gamma n}\|X^\top \varepsilon\|_{\infty}^2$. Using, $\mathbb{E}[\left\| X^\top\varepsilon \right\| _{\infty}]\leq \sqrt{ n }\cdot O(\log 2d)^{1/2}$ we get that, $$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w_{0}) \right\| ^{2}_{2}]\leq \frac{k}{\gamma n}\cdot O(\log d)$$
+
+---
+##### 1.4.2.1 Sufficient Conditions for Restricted Eigenvalue Property
+- **Related definition**: Let $X\in \mathbb{R}^{n,d}$ be a matrix s.t. $\left\| X_{1} \right\|^2=\dots=\left\| X_{d} \right\|^2=n$. Then, the ***pairwise incoherence*** of $X$ is defined as:$$\delta_{\text{PW}}(X):=\max_{i\neq j} \frac{1}{n}\left| \braket{ X_{i} ,  X_{j}}  \right| $$
+
+---
+> [!lemma] Theorem 5
+> Let $X\in \mathbb{R}^{n,d}$ with $\left\| X_{1} \right\|^2=\dots=\left\| X_{d} \right\|^2=n$.
+> 1. If $\delta_{\text{PW}}(X)\leq \frac{1}{8k}$, then $X$ is $\frac{1}{2}$-RE for every $S\subseteq [d]$ of size at most $k$.
+
+> [!proof]-
+> Let $S\subseteq [d]$ with size at most $k$ and $u\in C(S)$. Further, let $\delta:=\frac{1}{8k}$. We want to show that: $$\frac{1}{n}\left\| Xu \right\| ^{2}\geq \frac{1}{2}\|u\|^{2}$$We have that: $$\frac{1}{n}\left\| Xu \right\| ^{2}=\frac{1}{n}\sum_{i,j}\braket{ X_{i} , X_{j} } u_{i}u_{j}$$Then, $$\left| \sum_{i\neq j}^{} \frac{1}{n}\braket{ X_{i} , X_{j} } u_{i}u_{j} \right|\leq \sum_{i,j}^{}\left| u_{i} \right| \left| u_{j} \right| \delta= \delta\|u\|_{1}^2\leq 4k\delta\|u\|^2_{2}$$Hence, $$\frac{1}{n}\|Xu\|^2=\left( \sum_{i}^{} \frac{1}{n}\|X_{i}\|^2 u_{i}^2 \right)+\sum_{i\neq j}^{} \frac{1}{n}\braket{ X_{i} , X_{j} } u_{i}u_{j}\geq(1-4k\delta)\|u\|^2_{2}=\frac{1}{2}\|u\|^2_{2} $$
+---
+> [!h] Example 1
+> Let $X$ be a Gaussian random matrix, i.e. $X_{1},\dots,X_{d}\sim \mathcal{N}(0,I_{n})$ i.i.d. for $d\geq n\geq 2$. Then, 
+> 1. for $k=\Omega\left( \sqrt{ \frac{n}{\log d} } \right)$, w.h.p., $X$ is $\frac{1}{2}$-RE for all $S\subseteq [d]$ with $\left| S \right|\leq k$.
+
+> [!proof]-
+> We have that: $$\mathbb{E}[\braket{ X_{i} , X_{j} } ]=\begin{cases}n&i=j\\0&i\neq j\end{cases}$$Hence, we get that: $$\frac{\braket{ X_{i} , X_{j} } }{n}\leq \frac{1}{n}O(\sqrt{ n\log d })$$and $\delta_{\text{PW}}(X)\lesssim \sqrt{ \frac{\log d}{n} }$. The rest follows from Theorem 5.
+
+---
