@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expected Value"
+              "title": "Gaussian Distribution"
             }
           },
           {
@@ -276,9 +276,9 @@
   },
   "active": "2f45a582dd0e0076",
   "lastOpenFiles": [
+    "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Expected Value.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Analysis/Lp Space.md",
