@@ -88,10 +88,34 @@ What do we do when the $k$ relevant features are unknown?
 - **Remark**: However, BSS optimization problem is NP-hard in worst case!
 
 ---
-##### 1.4.2 LASSO
-> [!lemma] Theorem 2 (LASSO)
+##### 1.4.2 LASSO Slow Rate
+> [!lemma] Theorem 2 (LASSO slow rate)
 > Assume that $R:=\left\| w_{0} \right\|_{1}$ is known. Let $\widehat{w}(w_{0})\in \underset{ w \in \mathbb{R}^d,\|w\|_{1}\leq R }{ \arg\min }\left\| Xw_{0} -y\right\|^2$. 
 > 1. If $\left\| X_{i} \right\|^2=n$ for all columns $X_{i}$, $$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w_{0}) \right\| ^2]\leq \frac{\left\| w_{0} \right\| _{1}}{\sqrt{ n }}\cdot O(\log 2d)^{1/2}$$
 
+> [!proof]-
+> Let $u:= \widehat{w}-w_{0}$. Then, similarly to the Theorem 1, $$\frac{1}{2}\left\| Xu \right\| ^2_{2}\leq \braket{ u , X^\top \varepsilon } \leq \|u\|_{1}\left\| X^\top\varepsilon \right\| _{\infty}$$However, notice that $\|u\|_{1}\leq\|\widehat{w}\|_{1}+\|w_{0}\|_{1}\leq 2\|w_{0}\|_{1}$ and: $$\mathbb{E}[\left\| X^\top\varepsilon \right\| _{\infty}]\leq \sqrt{ n }\cdot O(\log 2d)^{1/2}$$Therefore, $$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w_{0}) \right\| ^{2}_{2}]\leq \frac{\left\| w_{0} \right\| _{1}}{\sqrt{ n }}O(\log 2d)^{1/2}$$
+
+---
+##### 1.4.2 LASSO Fast Rate
+- **Related definition**: For $S\subseteq[d]$,  $C(S):=\{ u\in \mathbb{R}^d:\|u_{S}\|_{1}\geq \|u_{\overline{S}}\|_{1} \}$.
+- **Related definition**: $X\in \mathbb{R}^{n,d}$ has ***restricted eigenvalue property*** with $\gamma>0$, i.e. ***$\gamma$-RE*** for $S\subseteq [d]$ if: $$\frac{1}{n}\left\| Xu \right\| ^2\geq\gamma \|u\|^2,\quad \forall u\in C(S)$$
+
+---
+> [!lemma] Lemma 3
+> Let $w,w_{0}\in \mathbb{R}^d$.
+> 1. if $\|w\|_{1}\leq \|w_{0}\|_{1}$, then $w-w_{0}\in C(\text{supp}(w_{0}))$.
+> 2. for all $S\subseteq[d]$ and $v\in C(S)$, $\|v\|_{1}\leq 2\sqrt{ \left| S \right| }\cdot\|v\|_{2}$. 
+
 > [!proof]+
-> Let $u:= \widehat{w}-w_{0}$. Then, similarly to the Theorem 1, $$\frac{1}{2}\left\| Xu \right\| ^2_{2}\leq \braket{ u , X^\top \varepsilon } \leq \|u\|_{1}\left\| X^\top\varepsilon \right\| _{\infty}$$
+> We have:
+> 1. Let $S:=\text{supp}(w^0)$. Then, 
+>    $$\left\| (w-w^0)_{\overline{S}} \right\| _{1}=\sum_{i\notin S}\left| w_{i}-w_{i}^0 \right| =\sum_{i\notin S}\left| w_{i} \right| =\|w_{\overline{S}}\|_{1}=\|w\|_{1}-\|w_{S}\|_{1}\leq \|w^0\|_{1}-\|w_{S}\|_{1}$$However, notice that $\|w^0\|_{1}=\|w^0_{S}\|_{1}$ by definition of $S$. Hence, $$\left\| (w-w^0)_{\overline{S}} \right\| _{1}\leq\|w^0_{S}\|_{1}-\|w_{S}\|$$
+>    
+>    $$\left\| (w-w_{0})_{S} \right\|_{1}+\left\| (w-w_{0})_{\overline{S}} \right\| _{1}=\left\| w-w_{0} \right\|_{1}\geq \|w\|_{1} $$
+---
+
+
+> [!lemma] Theorem 4 (LASSO fast rate)
+> Assume that $R:=\left\| w_{0} \right\|_{1}$ is known. Let $\widehat{w}(w_{0})\in \underset{ w \in \mathbb{R}^d,\|w\|_{1}\leq R }{ \arg\min }\left\| Xw_{0} -y\right\|^2$. 
+> 1. If $\left\| X_{i} \right\|^2=n$ for all columns $X_{i}$, $$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w_{0}) \right\| ^2]\leq \frac{\left\| w_{0} \right\| _{1}}{\sqrt{ n }}\cdot O(\log 2d)^{1/2}$$

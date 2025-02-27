@@ -100,8 +100,7 @@
               "title": "Lp Space"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -246,7 +245,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f0f1549da78d63ec",
+  "active": "fe19a1480482e56d",
   "lastOpenFiles": [
     "Analysis/Lp Space.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
