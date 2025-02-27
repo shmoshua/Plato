@@ -68,8 +68,13 @@ What do we do when the $k$ relevant features are unknown?
 ##### 1.4.1 Sparse Linear Regression
 > [!definition]
 > Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be known vectors. For an unknown $w_{0}\in \mathbb{R}^d$ we observe $y:=Xw_{0}+\varepsilon$ where $\varepsilon \sim \mathcal{N}(0,I_{n})$.
-> 1. In ***sparse linear regression***, we aim to find $$w^{*}\in \underset{ w\in \mathbb{R}^d }{ \arg\min }\ \left\| Xw-y \right\| ^2_{2}$$where $w$ is $k$-sparse, i.e. $\|w_{0}\|_{0}\leq k$.
+> 1. In ***sparse linear regression***, we aim to find $$w^{*}\in \underset{ w\in \mathbb{R}^d }{ \arg\min }\ \left\| y-Xw^0 \right\| ^2_{2}$$where $w^0$ is $k$-sparse, i.e. $\|w_{0}\|_{0}\leq k$.
 
 ---
 > [!lemma] Theorem 1 (Best-Subset-Selection)
-> Let $\widehat{\beta}\in \underset{ \beta\in\mathbb{R}^d, k\text{-sparse} }{ \arg\min }$
+> Let $\widehat{w}(w_{0})\in \underset{ \beta\in\mathbb{R}^d, k\text{-sparse} }{ \arg\min }\|y-Xw_{0}\|^2$. Then, 
+> $$\frac{1}{n}\left\| X(\widehat{w}-w^0) \right\| ^{2}\leq \frac{k}{n}\cdot O\left( \log \frac{2d}{k} \right)\text{ whp}, \quad \forall w_{0}\in \mathbb{R}^n$$
+
+> [!proof]+
+> Define $f:\mathbb{R}^n\to \mathbb{R},w\mapsto \frac{1}{2n}\left\| Xw-y \right\|^{2}$. Then, $$\nabla f(w_{0})=\frac{1}{n}X^\top(Xw_{0}-y)=-\frac{1}{n}X^\top\varepsilon$$Let $u:=\widehat{w}-w_{0}$. Then, $$f(w_{0})\geq f(w_{0}+u)=f(w_{0})-\frac{1}{n}uX^\top\varepsilon+\frac{1}{2n}\left\| Xu \right\| ^2_{2}$$Hence, $$\left\| Xu \right\| ^2_{2}\leq 2\varepsilon^\top X u,\quad \left\| Xu \right\| ^2_{2}\leq \frac{4\braket{ \varepsilon , Xu } ^2}{\left\| Xu \right\| ^2_{2}}$$Notice that $u$ is $2k$-sparse as if $u_i\neq 0$ then either $\widehat{w}_{i}\neq 0$ or $w_{i}^0\neq 0$. Hence, it suffices to show w.h.p that: $$\max_{u\in \mathbb{R}^d, 2k\text{-sparse}}\frac{\braket{ \varepsilon , Xu } ^{2}}{\left\| Xu \right\| ^2}\leq k\cdot O\left( \log \frac{2d}{k} \right)$$
+> Now, for all $S\in {[d] \choose 2k}$, let $\phi_{S}$
