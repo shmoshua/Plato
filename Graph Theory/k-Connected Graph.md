@@ -13,6 +13,7 @@
 - **Related definition**: For a connected graph $G=(V,E)$,
 	1. A ***cut vertex*** is a vertex $v\in V$ s.t. $G \backslash v$ is disconnected.
 	2. A ***bridge*** is an edge $e\in E$ s.t. $G \backslash e$ is disconnected.
+	3. For $A,B\subseteq V$, $X\subseteq V$ or $X\subseteq E$ ***separates*** $A$ and $B$ if every $AB$-path contains a vertex/an edge in $X$.
 - **Related definition**: 
 	1. The ***connectivity number*** $\kappa(G):=\text{max }\{ k\in \mathbb{N} :G\text{ is }k\text{-connected}\}$
 	2. The ***edge connectivity number*** $\kappa'(G):=\text{max }\{ k\in \mathbb{N} :G\text{ is }k\text{-edge-connected}\}$ ^cc03cf
@@ -73,6 +74,27 @@
 > 	   By symmetry, we are left to show it for the case that: $$e(\Gamma_{1})\leq (2k-3)(\left| V(\Gamma_{1}) \right| -k+1),\quad e(\Gamma_{2})\leq (2k-3)(\left| V(\Gamma_{2}) \right| -k+1)$$Then, $$e(\Gamma)\leq e(\Gamma_{1})+e(\Gamma_{2})\leq(2k-3)(n-k+1)$$which is a contradiction so this cannot happen. 
 
 ^ab76d0
+
+---
+> [!lemma] Theorem 3 (Whitney, 1932)
+> Let $G=(V,E)$ be a graph with $\left| V \right|\geq 3$. TFAE:
+> 1. $G$ is $2$-connected.
+> 2. for all $u,v\in V$, there exist two internally disjoint $uv$-paths.
+> 3. for all $u,v\in V$, there exists a cycle that contains $u,v$. 
+
+> [!proof]-
+> We have that:
+> 1. (1=>2): Let $G$ be $2$-connected and fix $u,v\in V$. We show by induction on $d(u,v)$. 
+> 	1. Let $d(u,v)=1$ and $e=uv$. As $G$ is $2$-connected, $G$ is $2$-edge-connected and $G \backslash e$ is connected. Hence, there exists a $uv$-path in $G \backslash e$, i.e. there exist two internally disjoint $uv$-paths.
+> 	2. Let $d(u,v)\geq 2$. Let $w$ be vertex adjacent to $v$ in the shortest $uv$ path of length $k:= d(u,v)$. Then, $d(u,w)=k-1$ and there exist two internally disjoint $uw$-paths $Q,R$. Now, if we delete $w$, then $G \backslash w$ is still connected as $G$ is $2$-connected. 
+> 	   
+> 	   Let $P$ be a $uv$-path in $G \backslash e$. Let $x$ be the last vertex from either $Q$ or $R$ on $P$. Wlog we may assume $x\in Q$. Now, by taking $Q':=Q|_{u\dots x}+P|_{x\dots v}$ and $R':=R+wv$ which are internally vertex disjoint by definition.
+> 2. (2=>3): The two paths form a cycle.
+> 3. (3=>1): Deletion of one vertex cannot separate $u,v\in V$ for all $u,v\in V$. 
+---
+> [!lemma] Theorem 4 (Menger, 1927)
+> Let $G=(V,E)$ be a graph and $S,T\subseteq V(G)$.
+> 1. the maximal number of vertex disjoint $ST$-paths is the size of the minimal $ST$-separating set.
 
 ---
 ##### Examples

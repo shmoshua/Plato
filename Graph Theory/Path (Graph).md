@@ -8,7 +8,9 @@
 ^9274a2
 
 - **Related Notation**: The ***length*** of a walk $W$ is given by the number of edges in $W$. ^14b918
-- **Related Notation**: For $u,v\in V$, a $(u,v)$-***path*** is a path $(v_{1},\dots,v_{k})$ s.t. $u=v_{1}$ and $v=v_{k}$.  ^150295
+- **Related Notation**: 
+	1. For $u,v\in V$, a $(u,v)$-***path*** is a path $(v_{1},\dots,v_{k})$ s.t. $u=v_{1}$ and $v=v_{k}$.
+	2. For $A,B\subseteq V$, a ***$AB$-path*** is a path with one endpoint in $A$, the other in $B$ and all interior points in $V \backslash (A\cup B)$. ^150295
 - **Related Definition**: A graph $G$ is ***connected*** if for every $v,w\in G$, there exists a $(v,w)$-path. ^0c6bd0
 - **Related Definition**: Two paths are ***independent*** if they do not share an inner node.
 - **Related Definition**: For $s,t\in V$, the ***distance*** $d_{G}(s,t)$ is the length of the shortest $(s,t)$-path in $G$. If such path doesn't exist, $d_{G}(s,t)=\infty$.
