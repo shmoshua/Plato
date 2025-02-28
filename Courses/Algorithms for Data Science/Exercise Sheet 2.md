@@ -6,4 +6,7 @@
 
 ---
 #### 2. Ridge Regression
-
+1. Consider the objective function $$f:\mathbb{R}^d\to \mathbb{R},\quad \beta\mapsto \left\| X\beta-y \right\| ^{2}+\lambda \left\| \beta \right\| ^2$$Then, $$\nabla f(\beta)=2X^\top (X\beta-y)+2\lambda\beta=2(n+\lambda)\beta-2X^\top y$$By equating it with zero, we get that: $$\widehat{\beta}_{\text{ridge},\lambda}(y)=\frac{1}{n+\lambda}X^\top y$$
+2. We have that: $$\mathbb{E}[\widehat{\beta}_{\text{ridge},\lambda}(y)]=\frac{1}{n+\lambda}X^\top(X\beta ^{*}+\mathbb{E}[w])=\frac{n}{n+\lambda}\beta ^{*}$$Hence, $$\left\| \beta ^{*}-\mathbb{E}[\widehat{\beta}_{\text{ridge},\lambda}(y)] \right\|=\left\| \beta ^{*}-\frac{n}{n+\lambda}\beta ^{*}\right\| = \frac{\lambda}{n+\lambda}\left\| \beta ^{*}\right\| $$
+3. We have: $$\begin{align}\mathbb{E}\left[ \left\| \widehat{\beta}_{\text{ridge},\lambda}(y)-\beta ^{*} \right\|^{2}  \right] &=\mathbb{E}\left[ \left\| \frac{n}{n+\lambda}\beta ^{*}+\frac{1}{n+\lambda}X^\top w-\beta ^{*} \right\|^{2}  \right] \\&=\mathbb{E}\left[ \left\| \frac{1}{n+\lambda}(X^\top w-\lambda\beta ^{*}) \right\|^{2}  \right] \\&=\left( \frac{1}{n+\lambda} \right) ^{2}\mathbb{E}[\left\| X^\top w -\lambda\beta ^{*}\right\| ^{2}]\\&=\left( \frac{1}{n+\lambda} \right) ^{2}(\mathbb{E}[\|X^\top w\|^2]+\lambda^{2}\left\| \beta ^{*} \right\| ^2)\end{align}$$We can conclude by noting: $$\mathbb{E}[\left\| X^\top w \right\| ^2]=\mathbb{E}[\text{tr}(w^\top XX^\top w)]=\mathbb{E}[\text{tr}(XX^\top ww^\top)]=\text{tr}(XX^\top)=\text{tr}(X^\top X)=\text{tr}(nI_{d})=nd$$
+4. By law of total expectation, $$\begin{align} \mathbb{E}[\left\| \widehat{\beta} \right\| ]\end{align}$$
