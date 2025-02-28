@@ -40,5 +40,7 @@ Therefore, let $Q:=P_{1}\cap P_{2}$. Now, assume we don't have a common vertex f
 #### Problem 6
 We will show this by induction. 
 1. Let $r=1$. Then, $T=T_{1}$ is a tree on $[n]$ and there exists exactly one spanning tree containing $T$, as all trees have exactly $n-1$ edges. The statement holds as $n^{-1}\left| T_{1} \right|=1$.
-2. Let $r\geq 2$. 
+2. Let $r\geq 2$. Let $i,j\in [r]$ s.t. $i\neq j$. Then, there are $e(T_{i},T_{j})=\left| T_{i} \right|\left| T_{j} \right|$. Let $e\in E(T_{i},T_{j})$. Then, $T_{ij}:=T_{i}\cup \{ e \}\cup T_{j}$ forms a tree and $T_{1},\dots,T_{r}$, where we replace $T_{i},T_{j}$ with $T_{ij}$, forms a forest $T'$ on $[n]$ with $r-1$ components. Hence, by induction, we get $$n^{r-3}(\left| T_{i} \right| +\left| T_{j} \right| )\prod_{k\neq i,j}^{}\left| T_{k} \right| $$different spanning trees containing $T'$. As there are $\left| T_{i} \right|\left| T_{j} \right|$ different edges we can choose between $T_{i},T_{j}$, there are $n^{r-3}(\left| T_{i} \right|+\left| T_{j} \right|)\prod_{k}^{}\left| T_{k} \right|$ spanning trees containing $T$ s.t. it contains an edge between $T_{i}$ and $T_{j}$. 
+   
+   Now, let 
 
