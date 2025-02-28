@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 2.md",
+                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 2"
+              "title": "Algebraic Topology II Roadmap"
             }
           }
         ],
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 2.md",
+                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 2"
+              "title": "Algebraic Topology II Roadmap"
             }
           },
           {
@@ -260,10 +260,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9603efbf4614bfd6",
+  "active": "f56b16cf72907000",
   "lastOpenFiles": [
-    "TIKZ.md",
     "Courses/Graph Theory/Problem Set 2.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Courses/Algebraic Topology II",
+    "TIKZ.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
@@ -287,7 +289,6 @@
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Courses/Probability Theory/Exercise Class 1.md",
     "Measure Theory/Measure Space.md",
-    "Courses/Topology/Topology Roadmap.md",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",
@@ -297,7 +298,6 @@
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
     "Untitled 1",
-    "Set Theory",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
