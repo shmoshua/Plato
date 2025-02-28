@@ -39,5 +39,6 @@ Therefore, let $Q:=P_{1}\cap P_{2}$. Now, assume we don't have a common vertex f
 ---
 #### Problem 6
 We will show this by induction. 
-1. Let $r=1$. Then, $T=T_{1}$ is a tree on $[n]$ and there exists exactly one spanning tree containing $T$, as all trees have exactly $n-1$ edges. The statement holds as $n^{-1}$
+1. Let $r=1$. Then, $T=T_{1}$ is a tree on $[n]$ and there exists exactly one spanning tree containing $T$, as all trees have exactly $n-1$ edges. The statement holds as $n^{-1}\left| T_{1} \right|=1$.
+2. Let $r\geq 2$. 
 
