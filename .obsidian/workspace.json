@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tree.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tree"
+              "title": "Graph Theory Roadmap"
             }
           }
         ],
@@ -262,8 +262,10 @@
   },
   "active": "f56b16cf72907000",
   "lastOpenFiles": [
-    "Graph Theory/Tree.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Graph Theory/Problem Set 2.md",
+    "Graph Theory/k-Connected Graph.md",
+    "Graph Theory/Tree.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Graph Theory/Graph.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
@@ -273,8 +275,6 @@
     "Analysis/Lp Space.md",
     "Graph Theory/Path (Graph).md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Cut (Graph).md",
     "Analysis/Convex Function.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
