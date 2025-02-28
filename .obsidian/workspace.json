@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "TIKZ.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "TIKZ"
             }
           },
           {
@@ -260,10 +260,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f56b16cf72907000",
+  "active": "9603efbf4614bfd6",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "TIKZ.md",
     "Courses/Graph Theory/Problem Set 2.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Tree.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
@@ -271,7 +273,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Probability Theory/Expected Value.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Analysis/Lp Space.md",
     "Graph Theory/Path (Graph).md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
@@ -287,7 +288,6 @@
     "Courses/Probability Theory/Exercise Class 1.md",
     "Measure Theory/Measure Space.md",
     "Courses/Topology/Topology Roadmap.md",
-    "Optimization/Optimization Problem.md",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",

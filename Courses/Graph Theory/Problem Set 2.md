@@ -9,20 +9,11 @@ Let $G$ be a connected graph on $n$ vertices. Then $G$ contains a spanning tree 
 
 ---
 #### Problem 3
-We show this using induction over $k$. 
-1. Let $k=1$. Then, $T$ is a path. 
-2. Let $k\geq 2$. Let $u\in T$ be a leaf. Let $P:=uv_{1}\dots v_{\ell}w$ be the maximal path s.t. $d(v_{1}),\dots,d(v_{\ell})\leq 2$. Notice that as it is a path, $d(v_{i})=2$ for all $i\in[\ell]$.
+We show this for all forests instead, i.e. if $F$ is a forest with exactly $2k$ odd degree vertices, then it decomposes into $k$ paths. Consider the following induction over $k$. 
+1. Let $k=1$. Then, $F$ is a path. Hence, the statement holds.
+2. Let $k\geq 2$. As we have more than $2k$ odd degree vertices, there exists a connected component $T$ in $F$ that is not a single point. Then, $T$ is a tree and as $\left| T \right|\geq 2$, there exists leaves $u,v$ with $u\neq v$ in $T$. Let $P$ be the unique $uv$-path. 
    
-   Consider $T':= T \backslash P$ (viewing $P$ as a set of edges). Then, if $d(w)$ is odd, then $w$ has an even degree in $T'$ and $T'$ has now $2k-2$ odd vertices. Further, $T'$ is connected and acyclic, hence a tree. 
-   
-   If $d(w)$ is even, then 
-   
-	1. if $\ell=2k-2$, then $T=P$ and we are done by splitting the path into $k$ different paths. 
-	2. if $\ell< 2k-2$, then $d(w)\geq 3$ and let $T':=T \backslash P$ (viewing $P$ as a set of edges). Notice that 
-   
-   Then, take the longest path $P$ in $T$. We see that the endpoints of $P$ have to be leaves, otherwise we can extend the path. Let $u,v$ be the endpoints of $P$. Consider $T':=T \backslash P$ (viewing $P$ as a set of edges). 
-   
-   We have that for any $x\in V(T) \backslash \{ u,v \}$, $$d_{T'}(x)=\begin{cases}d_{T}(x)-2&x\in P\\d_{T}(x)&x\notin P\end{cases}$$From this it follows that every connected component $C$ that is not a single point is a tree composed of exactly $2\ell\leq 2k-2$ odd-degree vertices. Therefore, by induction $C$ decomposes into $\ell$ different 
+	Consider $F':=F \backslash P$ (treating $P$ as a set of edges). Then, for $u,v$, $d_{F'}(u)=d_{F'}(v)=0$. Further, for all internal vertices on $P$, we decrease the degree by 2, the parity stays the same. Hence, the number of odd degree vertices decreases exactly by 2 and $F'$ is a forest with exactly $2k-2$ odd degree vertices. By induction, it decomposes into $k-1$ paths. Therefore, with $P$, $F$ decomposes into $k$ paths. 
 
 ---
 #### Problem 4
@@ -42,5 +33,22 @@ We will show this by induction.
 1. Let $r=1$. Then, $T=T_{1}$ is a tree on $[n]$ and there exists exactly one spanning tree containing $T$, as all trees have exactly $n-1$ edges. The statement holds as $n^{-1}\left| T_{1} \right|=1$.
 2. Let $r\geq 2$. Let $i,j\in [r]$ s.t. $i\neq j$. Then, there are $e(T_{i},T_{j})=\left| T_{i} \right|\left| T_{j} \right|$. Let $e\in E(T_{i},T_{j})$. Then, $T_{ij}:=T_{i}\cup \{ e \}\cup T_{j}$ forms a tree and $T_{1},\dots,T_{r}$, where we replace $T_{i},T_{j}$ with $T_{ij}$, forms a forest $T'$ on $[n]$ with $r-1$ components. Hence, by induction, we get $$n^{r-3}(\left| T_{i} \right| +\left| T_{j} \right| )\prod_{k\neq i,j}^{}\left| T_{k} \right| $$different spanning trees containing $T'$. As there are $\left| T_{i} \right|\left| T_{j} \right|$ different edges we can choose between $T_{i},T_{j}$, there are $n^{r-3}(\left| T_{i} \right|+\left| T_{j} \right|)\prod_{k}^{}\left| T_{k} \right|$ spanning trees containing $T$ s.t. it contains an edge between $T_{i}$ and $T_{j}$. 
    
-   Now, let 
+   Therefore, we have that: $$\sum_{(i,j)\in{ [r] \choose 2}}^{}n^{r-3}(\left| T_{i} \right|+\left| T_{j} \right|)\prod_{k}^{}\left| T_{k} \right|=(r-1)n^{r-2}\prod_{k}^{}\left| T_{k} \right| $$We conclude by noting that the same spanning tree is counted exactly $r-1$ times as there are $r-1$ edges between some two trees $T_{i},T_{j}$. 
 
+To deduce Cayley's formula, let the forest be the empty graph on $[n]$. Then, we get that the number of spanning trees on $[n]$ is given by $n^{n-2}$.
+
+---
+#### Problem 7
+1. The Prüfer code is given by: $16144611$. For left $4$ and right $5$, we have: $$f\downarrow\begin{bmatrix}1&4&5&6\\4&6&1&5\end{bmatrix}$$as the bijection nodes. Therefore, we get: $$f\downarrow\begin{bmatrix}1&2&3&4&5&6&7&8&9&10\\4&1&6&6&1&5&4&4&1&1\end{bmatrix}$$
+2. We have:
+```tikz
+\usepackage{tikz-cd}
+\usetikzlibrary{arrows}
+
+\begin{document}
+\begin{tikzcd} 2 & 5 & 7 & 1 & 4 \\ & 8 & 6 & 3 \arrow[no head, from=1-1, to=1-2] \arrow[no head, from=1-2, to=1-3] \arrow[no head, from=1-2, to=2-2] \arrow[no head, from=1-3, to=1-4] \arrow[no head, from=1-3, to=2-3] \arrow[no head, from=1-4, to=1-5] \arrow[no head, from=1-4, to=2-4] \end{tikzcd}
+\end{document} 
+```
+
+---
+   
