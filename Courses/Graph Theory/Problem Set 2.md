@@ -28,5 +28,10 @@ We show this using induction over $k$.
 #### Problem 4
 Let $G$ be a connected graph. If $G$ is not a tree, then $G$ contains a cycle $C$. This cycle can be decomposed into three paths $P_{1},P_{2},P_{3}$ of length $\geq 1$. Notice that they are pairwise intersecting, but they do not admit a common vertex. 
 
-Conversely, let $G$ be a tree. Further, let $P_{1},\dots,P_{k}$ be a pairwise-intersecting family of paths. If $k\leq 2$, then by definition there exists a common vertex. If $k\geq 3$, assume that there does not exist a common vertex. 
+Conversely, let $G$ be a tree. Further, let $P_{1},\dots,P_{k}$ be a pairwise-intersecting family of paths. If $k\leq 2$, then by definition there exists a common vertex. If $k\geq 3$, consider $P_{1},P_{2}$. We claim that $P_{1}\cap P_{2}$ is a path (possibly of length 0 if there is no common edge). Otherwise, we can easily form a cycle 
+ 
+
+assume that there does not exist a common vertex. Then, there exists $P_{i},P_{j},P_{\ell}$ that do not have a common vertex. 
+
+Now, notice that $P_{i}\cup P_{j}$ forms a tree as $v$ connects all the points and it is still a subgraph of $G$, a tree. Let $P_{\ell}$ intersect with $P_{i}$ and $P_{j}$ at 
 
