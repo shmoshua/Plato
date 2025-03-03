@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Measure Space.md",
+                "file": "Probability Theory/Independence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Measure Space"
+              "title": "Independence"
             }
           }
         ],
@@ -304,10 +304,11 @@
   },
   "active": "31f5e4aab7bbf00a",
   "lastOpenFiles": [
-    "Measure Theory/Convergence of Sets.md",
     "Measure Theory/Measure Space.md",
     "Courses/Probability Theory/Exercise Class 2.md",
+    "TIKZ.md",
     "Courses/Measure Theory/Sheet 2.md",
+    "Measure Theory/Convergence of Sets.md",
     "Probability Theory/Probability Space.md",
     "Courses/Measure Theory/Sheet 3.md",
     "Measure Theory/Measurable Function.md",
@@ -316,7 +317,6 @@
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Courses/Graph Theory/Problem Set 2.md",
     "Courses/Algebraic Topology II",
-    "TIKZ.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Tree.md",
