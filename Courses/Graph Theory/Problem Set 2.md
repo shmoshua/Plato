@@ -19,9 +19,11 @@ We show this for all forests instead, i.e. if $F$ is a forest with exactly $2k$ 
 #### Problem 4
 Let $G$ be a connected graph. If $G$ is not a tree, then $G$ contains a cycle $C$. This cycle can be decomposed into three paths $P_{1},P_{2},P_{3}$ of length $\geq 1$. Notice that they are pairwise intersecting, but they do not admit a common vertex. 
 
-Conversely, let $G$ be a tree. Further, let $P_{1},\dots,P_{k}$ be a pairwise-intersecting family of paths. If $k\leq 2$, then by definition there exists a common vertex. If $k\geq 3$, consider $P_{1},P_{2}$. We claim that $P_{1}\cap P_{2}$ is a path (possibly of length 0 if there is no common edge). Otherwise, we can easily create a cycle as we get two internally disjoint $uv$-paths between some $u,v\in P_{1}\cap P_{2}$. 
+Conversely, let $G$ be a tree on $n$ nodes. Let $P_{1},\dots,P_{k}$ be the pairwise-intersecting family of paths. Firstly, assume that there exists a path of length 0 in $P_{1},\dots,P_{k}$, i.e. a single vertex. Then, by pairwise intersecting property, this vertex must be common.
 
-Therefore, let $Q:=P_{1}\cap P_{2}$. Now, assume we don't have a common vertex for $P_{1},\dots,P_{k}$. If every path $P_{3},\dots,P_{k}$ passes through $Q$, then we have two different paths $P_{i},P_{j}$ s.t. $P_{i}\cap P_{j}\cap Q=\varnothing$. But as $P_{i}\cap P_{j}\neq \varnothing$, $P_{i}\cup P_{j}\cup Q$ contains a cycle, which is a contradiction. Therefore, there exists a path $P_{i}$ that doesn't go through $Q$. However, then $P_{i}$ intersects with $P_{1}$ and $P_{2}$ at two different points $u,v$ and as $P_{1}\cup P_{2}$ is connected and contains a $uv$-path that cross $Q$, we have that $P_{i}\cup P_{1}\cup P_{2}$ contains a cycle, which is also a contradiction.
+Hence, we can assume that the paths are all at least of length 1. We will prove the statement using induction on $n$. 
+1. Let $n=2$. Then, there exists only one path $P$ of length $\geq 1$, which is a single edge. Hence, the statement holds.
+2. Let $n\geq 3$. Further, As $G$ is a tree, there exists a leaf $v\in V(G)$. Consider $G':= G \backslash v$. Then, $G'$ is a tree on $n-1$ nodes. Further, as $v$ is a leaf in $G$, it cannot appear as an inner node of any path $P_{1},\dots,P_{k}$. Therefore, by denoting $P'_{i}:=P_{i} \backslash v$, we have that $P'_{i}$ is a path for all $i\in[k]$. Further, if $P_{i},P_{j}$ have $v$ as common node, then as $\deg(v)=1$, $P_{i}$ and $P_{j}$ also have $u$ as a common vertex where $u$ is the unique neighbor of $v$. Hence, $P'_{1},\dots,P'_{k}$ is also a pairwise-intersecting family of paths. By induction, this shows that there exists a common vertex for $P'_{1},\dots,P'_{k}$ in $G'$ and so does it in $G$.  
 
 ---
 #### Problem 5 
