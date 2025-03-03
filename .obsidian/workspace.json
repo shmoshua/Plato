@@ -37,31 +37,17 @@
             }
           },
           {
-            "id": "f0f1549da78d63ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Graph Theory/Problem Set 2.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Problem Set 2"
-            }
-          },
-          {
             "id": "137d0fcbb561b3a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Measure Theory/Sheet 2.md",
+                "file": "Courses/Probability Theory/Exercise Class 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sheet 2"
+              "title": "Exercise Class 2"
             }
           }
         ],
@@ -141,9 +127,23 @@
               "icon": "lucide-file",
               "title": "Independence"
             }
+          },
+          {
+            "id": "2315cfe320b56c3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Measure Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Measure Space"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -288,18 +288,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "cd0c7e8cc88d5fdd",
+  "active": "2315cfe320b56c3f",
   "lastOpenFiles": [
+    "Courses/Probability Theory/Exercise Class 2.md",
+    "Courses/Measure Theory/Sheet 2.md",
+    "Measure Theory/Measure Space.md",
     "Probability Theory/Independence.md",
     "Measure Theory/Convergence of Sets.md",
-    "Courses/Probability Theory/Exercise Class 2.md",
     "Courses/Graph Theory/Problem Set 2.md",
     "Graph Theory/Tree.md",
     "TIKZ.md",
     "Courses/Measure Theory/Lebesgue Measure Problems.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Measure Theory/Measure Space.md",
-    "Courses/Measure Theory/Sheet 2.md",
     "Probability Theory/Probability Space.md",
     "Courses/Measure Theory/Sheet 3.md",
     "Measure Theory/Measurable Function.md",
