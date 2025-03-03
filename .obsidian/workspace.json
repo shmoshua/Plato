@@ -56,16 +56,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+                "file": "Courses/Probability Theory/Exercise Class 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology II Roadmap"
+              "title": "Exercise Class 2"
+            }
+          },
+          {
+            "id": "137d0fcbb561b3a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Measure Theory/Sheet 2.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Sheet 2"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "d54d634cc1ba8421",
@@ -92,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+                "file": "Courses/Probability Theory/Exercise Class 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology II Roadmap"
+              "title": "Exercise Class 2"
             }
           },
           {
@@ -106,16 +120,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Courses/Measure Theory/Sheet 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
+              "title": "Sheet 2"
+            }
+          },
+          {
+            "id": "cd0c7e8cc88d5fdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Convergence of Sets.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Convergence of Sets"
+            }
+          },
+          {
+            "id": "31f5e4aab7bbf00a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Measure Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Measure Space"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -260,14 +302,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f56b16cf72907000",
+  "active": "cd0c7e8cc88d5fdd",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Problem Set 2.md",
+    "Probability Theory/Probability Space.md",
+    "Measure Theory/Measure Space.md",
+    "Measure Theory/Convergence of Sets.md",
+    "Courses/Measure Theory/Sheet 2.md",
+    "Courses/Measure Theory/Sheet 3.md",
+    "Measure Theory/Measurable Function.md",
+    "Courses/Measure Theory/Sheet 4.md",
+    "Courses/Probability Theory/Exercise Class 2.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Courses/Graph Theory/Problem Set 2.md",
     "Courses/Algebraic Topology II",
     "TIKZ.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Tree.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
@@ -281,14 +331,6 @@
     "Graph Theory/Cut (Graph).md",
     "Analysis/Convex Function.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
-    "Functional Analysis/Adjoint Linear Map.md",
-    "Topology/Path.md",
-    "Functional Analysis/Bounded Linear Map.md",
-    "Graph Theory/Walk.md",
-    "Analysis/Convex Set.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
-    "Courses/Probability Theory/Exercise Class 1.md",
-    "Measure Theory/Measure Space.md",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",
