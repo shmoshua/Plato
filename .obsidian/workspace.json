@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 2.md",
+                "file": "Courses/Probability Theory/Exercise Class 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 2"
+              "title": "Exercise Class 2"
             }
           },
           {
@@ -142,7 +142,8 @@
               "title": "Independence"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -287,18 +288,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "fe19a1480482e56d",
+  "active": "cd0c7e8cc88d5fdd",
   "lastOpenFiles": [
-    "Graph Theory/Tree.md",
+    "Probability Theory/Independence.md",
+    "Measure Theory/Convergence of Sets.md",
     "Courses/Probability Theory/Exercise Class 2.md",
     "Courses/Graph Theory/Problem Set 2.md",
+    "Graph Theory/Tree.md",
     "TIKZ.md",
     "Courses/Measure Theory/Lebesgue Measure Problems.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Probability Theory/Independence.md",
     "Measure Theory/Measure Space.md",
     "Courses/Measure Theory/Sheet 2.md",
-    "Measure Theory/Convergence of Sets.md",
     "Probability Theory/Probability Space.md",
     "Courses/Measure Theory/Sheet 3.md",
     "Measure Theory/Measurable Function.md",
