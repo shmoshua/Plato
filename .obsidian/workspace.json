@@ -79,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -302,16 +302,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "cd0c7e8cc88d5fdd",
+  "active": "31f5e4aab7bbf00a",
   "lastOpenFiles": [
-    "Probability Theory/Probability Space.md",
-    "Measure Theory/Measure Space.md",
     "Measure Theory/Convergence of Sets.md",
+    "Measure Theory/Measure Space.md",
+    "Courses/Probability Theory/Exercise Class 2.md",
     "Courses/Measure Theory/Sheet 2.md",
+    "Probability Theory/Probability Space.md",
     "Courses/Measure Theory/Sheet 3.md",
     "Measure Theory/Measurable Function.md",
     "Courses/Measure Theory/Sheet 4.md",
-    "Courses/Probability Theory/Exercise Class 2.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Courses/Graph Theory/Problem Set 2.md",
