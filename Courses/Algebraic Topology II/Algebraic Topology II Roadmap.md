@@ -22,8 +22,6 @@
 ![[Reduced Homology#^c5acbf|p]]
 
 ---
-- **Related definition**: A pair $(X,A)$ is ***good*** if:
-	1. $\varnothing\neq A\subseteq X$ and $A$ is closed in $X$ s.t.
-	2. there exists $A\subseteq N\subseteq X$ s.t. $A$ is a [[Retract|strong deformation retract]] of $N$.
+- **Related definition**: 
 - **Remark**: For any [[CW-complex]] $X$ and a subcomplex $A$, $(X,A)$ is a good pair.
 ---
