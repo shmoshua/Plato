@@ -32,7 +32,7 @@
 
 ^f3d014
 
-> [!proof]+
+> [!proof]-
 > We have that, 
 > 1. for $p\geq 1$, $$\tilde{H}_{p}(X;G)=Z_{p}(\mathcal{S}(X;G)) / B_{p}(\mathcal{S}(X;G))=H_{p}(X;G)$$
 > 2. for $p\geq 1$, we have that: $$\tilde{H}_{p}(X)= Z_{p}(X) / B_{p}(X)=H_{p}(X)$$
@@ -43,9 +43,9 @@
 >    Therefore, $f_{*}:H_{p}(X)\to H_{p}(\mathcal{B})$ is a group homomorphism where: $$H_{p}(\mathcal{B}):=\begin{cases}\mathbb{Z}&p=0\\0&p\neq 0\end{cases}$$Hence, we have that $\tilde{H}_{p}(X)=\text{ker }\varepsilon_{*}=\text{ker }f_{*}$ if $p=0$ and if $p\neq 0$, we have that: $$\tilde{H}_{p}(X)=H_{p}(X)=\text{ker }f_{*}$$
 >1. Consider a singular $0$-simplex $\sigma$ in $X$. Then, as $\Delta_{0}$ is a point, $S_{0}(X;G)$ is a set a finite formal sum of points in $X$. 
 >   
->   Let now $\sigma:\Delta_{1}\to X$ be a singular $1$-simplex in $X$. Then, for any $g\in G$, $x_{0}:=\sigma(e_{0})$ and $x_{1}:=\sigma(e_{1})$, we have: $$\partial_{1}(g\sigma)=g\sigma_{1}$$
->   
->   We have that $\tilde{H}_{0}(X)=\text{ker } \varepsilon_{*} = 0$ where in [[p-Simplex|Example 2]] we show that $\varepsilon_{*}:H_{0}(X)\to \mathbb{Z}$ is an isomorphism.
+>    From Proposition 1, we have that $\varepsilon \partial=0$. Hence, $\varepsilon(B_{0}(X;G))=0$ and we have that: $$\varepsilon _{*}:H_{0}(X;G)\to G$$is a homomorphism.
+>    
+>    Now, clearly, $\varepsilon_{*}([gx])=g\in G$ and $\varepsilon_{*}$ is surjective. To show that it is also injective, let $x_{0}\in X$ and for all $x\in X$, let $\lambda_{x}:I\to X$ be a path from $\lambda_{x}(0)=x_{0}$ and $\lambda_{x}(1)=x$. By viewing these paths as singular $1$-simplices, we have that: $$\partial(g\lambda_{x})=gx-gx_{0}\in S_{0}(X;G)$$Let $c\in S_{0}(X;G)$ with $c=\sum_{x}^{}g_{x}x$ be a $0$-chain and assume that $\varepsilon_{*}([c])=0$. Then, for $d:=\sum_{x}^{}g_{x}\lambda_{x}\in S_{1}(X;G)$, we have that: $$\partial d=\sum_{x}^{}g_{x}(x-x_{0})=\sum_{x}^{}g_{x}x-\varepsilon_{*}([c])x_{0}=c$$Hence, $c\in B_{0}(X;G)$ and $\varepsilon_{*}([c])=0$.
 
 ^c5acbf
 

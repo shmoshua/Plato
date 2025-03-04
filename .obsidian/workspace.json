@@ -56,16 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Reduced Homology.md",
+                "file": "Topology/Algebraic Topology/Singular Homology.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Reduced Homology"
+              "title": "Singular Homology"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -134,16 +134,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Homology"
+              "title": "Homology Theory"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,8 +195,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -289,13 +287,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "db0cc9fd236b2a5a",
+  "active": "137d0fcbb561b3a0",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Reduced Homology.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Reduced Homology.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Algebra/Chain Complex.md",
     "Graph Theory/Tree.md",
     "Topology/Algebraic Topology/Singular Homology with Coefficients.md",
     "Courses/Measure Theory/Sheet 2.md",
@@ -317,7 +316,6 @@
     "Courses/Algebraic Topology II",
     "Graph Theory/k-Connected Graph.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
-    "Graph Theory/Graph.md",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",
