@@ -142,8 +142,7 @@
               "title": "Measure Space"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -288,10 +287,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "137d0fcbb561b3a0",
+  "active": "fe19a1480482e56d",
   "lastOpenFiles": [
-    "Graph Theory/Tree.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Graph Theory/Tree.md",
     "Courses/Probability Theory/Exercise Class 2.md",
     "Courses/Measure Theory/Sheet 2.md",
     "Measure Theory/Convergence of Sets.md",
