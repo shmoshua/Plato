@@ -142,3 +142,25 @@ What do we do when the $k$ relevant features are unknown?
 > We have that: $$\mathbb{E}[\braket{ X_{i} , X_{j} } ]=\begin{cases}n&i=j\\0&i\neq j\end{cases}$$Hence, we get that: $$\frac{\braket{ X_{i} , X_{j} } }{n}\leq \frac{1}{n}O(\sqrt{ n\log d })$$and $\delta_{\text{PW}}(X)\lesssim \sqrt{ \frac{\log d}{n} }$. The rest follows from Theorem 5.
 
 ---
+### 2. Linear Regression with Oblivious Outliers
+> [!outlook] Setup
+> We have:
+> 1. **Design**: $X\in \mathbb{R}^{n,d}$ with $\frac{1}{n}X^\top X=I_{d}$.
+> 2. **Observation**: $y=X\beta ^{*}+\eta$ for unknown $\beta ^{*}\in \mathbb{R}^d$.
+> 3. **Noise**: $\eta$ with $p(\eta)=p(-\eta)$ and $\eta_{1},\dots,\eta_{n}$ are independent.
+
+---
+> [!h] Example 1
+> Let $w\sim \mathcal{N}(0,I_{n})$ and $Q\in \mathbb{R}^n$ arbitrary. Then, 
+> $$\eta_{i}:=\begin{cases}w_{i}&\text{with probability }\alpha\\Q_{i}&\text{with probability } \frac{1}{2}(1-\alpha)\\-Q_{i}&\text{with probability } \frac{1}{2}(1-\alpha)\end{cases}$$
+
+---
+#### 2.1 Huber Loss Estimator
+> [!definition] 
+> Consider the setup as above and the Huber loss function: $$\Phi:\mathbb{R}\to \mathbb{R}_{\geq 0},\quad t\mapsto \begin{cases} \frac{1}{2}t^{2}&\left| t \right| \leq 2\\2\left| t \right| -2&\left| t \right| \geq 2\end{cases}$$and it's component-wise extension $\Phi:=\bigoplus_{i=1}^n\Phi:\mathbb{R}^n\to \mathbb{R}_{\geq 0}$. Then, 
+> 1. the ***Huber loss estimator*** is given by: $$\widehat{\beta}:\mathbb{R}^n\to \mathbb{R}^d,\quad y\mapsto \underset{ \beta\in \mathbb{R}^d }{ \arg\min }\ \Phi(X\beta-y)$$
+
+---
+> [!lemma] Theorem 1
+> Let $\alpha:=\min_{i}\mathbb{P}(\eta_{i}\leq 1)$. Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be the rows of $X$ and $C:=\frac{1}{\sqrt{ d }}\max_{i}\|x_{i}\|$. 
+> 1. if $n\geq O\left( \frac{d^{2}}{C^2\alpha^{2}} \right)$ then for the Huber loss estimator $\widehat{\beta}$, $$\left\| \widehat{\beta}-\beta ^{*} \right\| ^{2}\leq O\left( \frac{d}{\alpha^{2}n} \right)$$
