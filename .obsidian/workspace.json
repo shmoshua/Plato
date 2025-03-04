@@ -78,58 +78,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Graph Theory/Tree.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
-            }
-          },
-          {
-            "id": "cd0c7e8cc88d5fdd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Convergence of Sets.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Convergence of Sets"
-            }
-          },
-          {
-            "id": "31f5e4aab7bbf00a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory/Independence.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Independence"
-            }
-          },
-          {
-            "id": "c95e054804500132",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability Theory/Moment.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Moment"
+              "title": "Tree"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,16 +231,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c95e054804500132",
+  "active": "f56b16cf72907000",
   "lastOpenFiles": [
-    "Probability Theory/Independence.md",
-    "Probability Theory/Expected Value.md",
-    "Measure Theory/Measure Space.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Probability Theory/Exercise Class 2.md",
     "Graph Theory/Tree.md",
-    "Courses/Measure Theory/Sheet 2.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Measure Theory/Convergence of Sets.md",
+    "Probability Theory/Independence.md",
+    "Probability Theory/Moment.md",
+    "Probability Theory/Expected Value.md",
+    "Measure Theory/Measure Space.md",
+    "Courses/Measure Theory/Sheet 2.md",
     "Courses/Graph Theory/Problem Set 2.md",
     "TIKZ.md",
     "Courses/Measure Theory/Lebesgue Measure Problems.md",
@@ -302,7 +260,6 @@
     "Analysis/Lp Space.md",
     "Graph Theory/Path (Graph).md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-    "Graph Theory/Cut (Graph).md",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",
