@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Good Pair.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 3.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Good Pair"
+              "title": "Problem Set 3"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Good Pair.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Good Pair"
+              "title": "Problem Set 3"
             }
           }
         ],
@@ -288,11 +288,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "137d0fcbb561b3a0",
+  "active": "d11ecc83270fa1c0",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Good Pair.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
@@ -316,7 +317,6 @@
     "Measure Theory/Measurable Function.md",
     "Courses/Measure Theory/Sheet 4.md",
     "Courses/Algebraic Topology II",
-    "Graph Theory/k-Connected Graph.md",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",
