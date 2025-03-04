@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Algebraic Topology II Roadmap"
             }
           },
           {
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tree.md",
+                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tree"
+              "title": "Algebraic Topology II Roadmap"
             }
           }
         ]
@@ -231,11 +231,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f56b16cf72907000",
+  "active": "137d0fcbb561b3a0",
   "lastOpenFiles": [
-    "Courses/Probability Theory/Exercise Class 2.md",
-    "Graph Theory/Tree.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Graph Theory/Tree.md",
+    "Courses/Probability Theory/Exercise Class 2.md",
     "Measure Theory/Convergence of Sets.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Moment.md",
@@ -250,7 +251,6 @@
     "Measure Theory/Measurable Function.md",
     "Courses/Measure Theory/Sheet 4.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Courses/Algebraic Topology II",
     "Graph Theory/k-Connected Graph.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
