@@ -154,3 +154,18 @@
 ^a19c7a
 
 ---
+> [!lemma] Theorem 7 (Tensor Product Chain Complex)
+> Let $\mathcal{C}$ be a chain complex and $G$ an abelian group. Then, 
+> $$D_{i}:=C_{i}\otimes G,\quad \partial:=\partial \otimes \text{id}$$
+> 1. if $\mathcal{C}$ is bounded below, $\mathcal{D}$ is a chain complex.
+
+^80998e
+
+> [!proof]-
+> Let $c\in C_{i}$ and $g\in G$. Then, $$\partial^{2}(c\otimes g)=\partial(\partial c\otimes  g)=\partial^{2}c\otimes g=0\otimes g=0$$
+
+^2a1c9b
+
+- **Remark**: Instead of $c\otimes g\in C_{i}\otimes G$, we will write $gc$. Similarly, $\partial\left( \sum_{i}g_{i}c_{i} \right)=\sum_{i}^{}g_{i}\partial c_{i}$ ^39d0e6
+
+---

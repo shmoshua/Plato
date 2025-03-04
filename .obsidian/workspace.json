@@ -9,20 +9,6 @@
         "dimension": 48.30805134189031,
         "children": [
           {
-            "id": "09209123d2d18f28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Tree.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Tree"
-            }
-          },
-          {
             "id": "bf8b230d722e2f90",
             "type": "leaf",
             "state": {
@@ -56,16 +42,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Measure Theory/Sheet 2.md",
-                "mode": "preview",
+                "file": "Algebra/Chain Complex.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sheet 2"
+              "title": "Chain Complex"
+            }
+          },
+          {
+            "id": "db0cc9fd236b2a5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Reduced Homology.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Reduced Homology"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -85,8 +85,65 @@
               "icon": "lucide-file",
               "title": "Algebraic Topology II Roadmap"
             }
+          },
+          {
+            "id": "ae5b3e6d904ef5b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Reduced Homology.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Reduced Homology"
+            }
+          },
+          {
+            "id": "d121a45a13e9b8bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "p-Simplex"
+            }
+          },
+          {
+            "id": "97f07ba6593ea277",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Singular Homology.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Singular Homology"
+            }
+          },
+          {
+            "id": "d11ecc83270fa1c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Singular Homology.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Singular Homology"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,7 +196,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -231,18 +289,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "137d0fcbb561b3a0",
+  "active": "db0cc9fd236b2a5a",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Reduced Homology.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Algebra/Chain Complex.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Graph Theory/Tree.md",
+    "Topology/Algebraic Topology/Singular Homology with Coefficients.md",
+    "Courses/Measure Theory/Sheet 2.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Probability Theory/Exercise Class 2.md",
     "Measure Theory/Convergence of Sets.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Moment.md",
     "Probability Theory/Expected Value.md",
     "Measure Theory/Measure Space.md",
-    "Courses/Measure Theory/Sheet 2.md",
     "Courses/Graph Theory/Problem Set 2.md",
     "TIKZ.md",
     "Courses/Measure Theory/Lebesgue Measure Problems.md",
@@ -255,11 +318,6 @@
     "Graph Theory/k-Connected Graph.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Graph Theory/Graph.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Analysis/Lp Space.md",
-    "Graph Theory/Path (Graph).md",
-    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",
