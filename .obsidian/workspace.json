@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Inner Product Space.md",
+                "file": "Probability Theory/Independence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Inner Product Space"
+              "title": "Independence"
             }
           }
         ],
@@ -276,16 +276,17 @@
   },
   "active": "d121a45a13e9b8bf",
   "lastOpenFiles": [
+    "Probability Theory/Independence.md",
+    "Analysis/Inner Product Space.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/k-Connected Graph.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
-    "Analysis/Inner Product Space.md",
     "Analysis/Normed Space.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Algebra/Chain Complex.md",
-    "Graph Theory/k-Connected Graph.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Algebraic Topology/Homology Theory.md",
@@ -295,7 +296,6 @@
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Probability Theory/Exercise Class 2.md",
     "Measure Theory/Convergence of Sets.md",
-    "Probability Theory/Independence.md",
     "Probability Theory/Moment.md",
     "Probability Theory/Expected Value.md",
     "Measure Theory/Measure Space.md",

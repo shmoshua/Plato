@@ -96,7 +96,7 @@
 > Let $G=(V,E)$ be a graph and $S,T\subseteq V(G)$.
 > 1. the maximal number of vertex disjoint $ST$-paths is the size of the minimal $ST$-separating set.
 
-> [!proof]+
+> [!proof]-
 > Obviously, the maximum number of disjoint paths does not exceed the minimum size of a separating set, because for any collection of disjoint paths, any separating set must contain a vertex from each path. Hence, $\leq$ holds.
 > 
 > Suppose $k$ is the size of the minimum size of a $ST$-separating set. We need to show that there exist $k$ vertex disjoint $ST$-paths. We show this using induction over $\left| E \right|+\left| V \right|$.
