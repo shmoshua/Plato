@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Chain Complex.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Chain Complex"
+              "title": "Exercise Sheet 3"
             }
           },
           {
@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
+              "title": "Exercise Sheet 3"
             }
           },
           {
@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -288,18 +288,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "d121a45a13e9b8bf",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Reduced Homology.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Algebra/Chain Complex.md",
     "Graph Theory/k-Connected Graph.md",
+    "Topology/Algebraic Topology/Reduced Homology.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Algebra/Chain Complex.md",
     "Graph Theory/Tree.md",
     "Topology/Algebraic Topology/Singular Homology with Coefficients.md",
     "Courses/Measure Theory/Sheet 2.md",
@@ -315,7 +316,6 @@
     "Courses/Measure Theory/Lebesgue Measure Problems.md",
     "Probability Theory/Probability Space.md",
     "Courses/Measure Theory/Sheet 3.md",
-    "Measure Theory/Measurable Function.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
