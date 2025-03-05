@@ -96,14 +96,27 @@
 > Let $G=(V,E)$ be a graph and $S,T\subseteq V(G)$.
 > 1. the maximal number of vertex disjoint $ST$-paths is the size of the minimal $ST$-separating set.
 
-> [!proof]-
+> [!proof]+
 > Obviously, the maximum number of disjoint paths does not exceed the minimum size of a separating set, because for any collection of disjoint paths, any separating set must contain a vertex from each path. Hence, $\leq$ holds.
 > 
-> Suppose we have a separating set of size $k$. We need to show that there exist $k$ vertex disjoint $ST$-paths. We show this using induction over $\left| E \right|+\left| V \right|$.
+> Suppose $k$ is the size of the minimum size of a $ST$-separating set. We need to show that there exist $k$ vertex disjoint $ST$-paths. We show this using induction over $\left| E \right|+\left| V \right|$.
 > 1. Let $\left| E \right|=\varnothing$. Then, the minimal $ST$-separating set is $X:=S\cap T$. This is precisely the number of vertex disjoint $ST$-paths. 
 > 2. Let $\left| V \right|+\left| E \right|> \left| V \right|$. 
-> 	1. Assume that $S\cap T=\varnothing$. Take $e:=uv\in E$ arbitrary and let $G':= G \backslash e$. 
-> 		1. If the minimal separa
+> 	1. Assume that $S\cap T=\varnothing$. Take arbitrary $e:=uv\in E$ and let $G':= G \backslash e$. 
+> 		1. If the minimal $ST$-separating set has still size $k$ then we can use induction.
+> 		2. If the minimal $ST$-separating set $C$ has size $\leq k-1$, then $C\cup \{ u \}$ or $C\cup \{ v \}$ is still separates $S,T$. Hence, $\left| C \right|=k-1$. 
+> 		   
+> 		   Since $C$ is a separating set for $G'$, no component of $G' \backslash C$ has elements from both $S$ and $T$. Let $V_{S},V_{T}$ be the union of components with elements from $S$ and $T$, respectively. If we add $e$ to $G' \backslash C$, then there would be a path from $S$ to $T$ as $C$ does not separate $S$ and $T$ in $G$. Hence, wlog we may assume $u\in V_{S}$ and $v\in V_{T}$. 
+> 		   
+> 		   Now, each $S\text{-}(C\cup \{ u \})$ separating set $B$ of $G'$ has at least size $k$, as such set is also $ST$-separating in $G$. Indeed, each $ST$-path $P$ in $G$ intersects $C\cup \{ u \}$. Let $P_{0}$ be the subpath of $P$ that goes from $S$ to the first time it touches $C\cup \{ u \}$. If $P_{0}$ ends in $C$, then $u\notin P_{0}$ and $P_{0}$ is a $S\text{-}(C\cup \{ u \})$-path in $G'$. If $P_{0}$ ends in $u$, then it is disjoint from $C$ and by above, it contains only vertices in $V_{S}$. Therefore, $v\notin P_{0}$ and again $P_{0}$ is a $S\text{-}(C\cup \{ u \})$ path in $G'$. 
+> 		   
+> 		   Hence, in both cases $P$ intersects $B$. So by induction, $G'$ contains $k$ disjoint $S\text{-}(C\cup \{ u \})$ paths. Similarly, $G'$ contains $k$ disjoint $(C\cup \{ v \})\text{-}T$-paths. 
+> 		   
+> 		   Any path in the first collection intersects any path in the second only in $C$, since otherwise $G'$ contains a $ST$-path avoiding $C$. Hence, as $\left| C \right|=k-1$, we can pairwise concatenate these paths to obtain $k-1$ disjoint $ST$-paths. Now, by connecting the two paths to $u$ and $v$ with $e$, we have $k$ disjoint $ST$-paths.
+> 	2. Let $S\cap T\neq \varnothing$. 
+> 		   
+ Now, each S-(C ∪ {u}) separating vertex set B of G0 has size at least k, as it is S-T separating in G. Indeed, each S-T path P in G intersects C ∪ {u}. Let P 0 be the subpath of P that goes from S to the first time it touches C ∪ {u}. If P 0 ends with a vertex in C, then u /∈ P 0 so P 0 is an S-(C ∪ {u}) path in G0 . If P 0 ends in u, then it is disjoint from C and so by the above it contains only vertices in VS. So v /∈ P 0 and again P 0 is an S-(C ∪ {u}) path in G0 . In both cases we showed that P 0 is an S-(C ∪ {u}) path in G0 so P intersects B. So by induction, G0 contains k disjoint S-(C ∪{u}) paths. Similarly, G0 contains k disjoint (C ∪{v})- T paths. Any path in the first collection intersects any path in the second collection only in C, since otherwise G0 contains an S-T path avoiding C. Hence, as |C| = k − 1, we can pairwise concatenate these paths to obtain k − 1 disjoint S-T paths. We can finally obtain a kth path by inserting the e between the path ending at u and the path starting at v. It remains to consider the general situation where S and T might not be disjoint. Let X = S ∩ T and apply the induction hypothesis with the (disjoint) sets S 0 = S\X and T 0 = T\X, in the graph G0 = G\X. Let k 0 be the size of a minimum separating set in G0 . We can obtain a (k 0 + |X|)-vertex S-T separating set in G by adding every vertex in X to an S 0 -T 0 separating set in G0 . Similarly we can obtain a collection of k 0 + |X| vertex-disjoint S-T paths by adding each vertex in X as a trivial path to a collection of vertex-disjoint S 0 -T 0 paths in G0 .
+
 ---
 ##### Examples
 > [!h] Example 1
@@ -114,7 +127,7 @@
 
 ^b902c3
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Obvious.
 > 2. Let $V(K_{r,s})=A\sqcup B$. Assume wlog $\min \{ r,s \}=r$. Then, for any $S\in {V \choose r-1}$, there will be at least $u$.
