@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Independence.md",
+                "file": "Functional Analysis/Bounded Linear Map.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Independence"
+              "title": "Bounded Linear Map"
             }
           }
         ],
@@ -276,9 +276,10 @@
   },
   "active": "d121a45a13e9b8bf",
   "lastOpenFiles": [
+    "Functional Analysis/Bounded Linear Map.md",
     "Probability Theory/Independence.md",
-    "Analysis/Inner Product Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Analysis/Inner Product Space.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
     "Topology/Algebraic Topology/Singular Homology.md",
@@ -301,7 +302,6 @@
     "Measure Theory/Measure Space.md",
     "Courses/Graph Theory/Problem Set 2.md",
     "TIKZ.md",
-    "Courses/Measure Theory/Lebesgue Measure Problems.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
