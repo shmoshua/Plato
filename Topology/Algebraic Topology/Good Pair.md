@@ -6,6 +6,11 @@
 > 2. there exists $A\subseteq N\subseteq X$ s.t. $A$ is a [[Retract|strong deformation retract]] of $N$.
 
 ---
+> [!lemma] Theorem 1
+> Let $(X,A)$ be a good pair. Let $q:(X,A)\to(X / A,*)$ be the quotient map. 
+> 1. $q_{*}:H$
+
+---
 ##### Examples
 > [!h] Example 1
 > We have that:
