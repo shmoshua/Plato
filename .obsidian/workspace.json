@@ -70,16 +70,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 1.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 3.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 1"
+              "title": "Problem Set 3"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "d54d634cc1ba8421",
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -302,16 +302,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "044babed1d387803",
+  "active": "521fe168d6725333",
   "lastOpenFiles": [
-    "TIKZ.md",
     "Courses/Graph Theory/Problem Set 1.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Graph Theory/Hamiltonian Path.md",
+    "TIKZ.md",
     "Graph Theory/Tough Graph.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Eulerian Trail.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Graph Theory/Untitled.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/One-Point Compactification.md",

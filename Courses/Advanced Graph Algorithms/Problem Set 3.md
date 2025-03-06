@@ -19,10 +19,14 @@ Then, by Cauchy-Schwarz:$$\begin{align}(x_{n}-x_{1})^{2}=\left( \sum_{i=1}^{n-1}
 
 ---
 #### Problem 4
-Firstly, for $v\in T_{n}$, let $\ell(v)\in \mathbb{N}$ denote the level of the vertex $v$ in the tree. Wlog, we may assume that for every $i<j$, $\ell(i)\leq \ell(j)$. Then, for edge $(u,v)$ where $v$ is the child of $u$, we assign the weight $2^{\ell(u)}$ to $(u,v)$.
+Firstly, for $v\in T_{n}$, let $\ell(v)$ denote the level of the vertex $v$ in the tree, where the root is in level $0$. Then, for edge $(u,v)$ where $v$ is the child of $u$, we assign the weight $2^{\ell(v)}$ to $(u,v)$.
 
-Let $i,j$ arbitrary with $i<j$. Then, let $G^{i,j}$ denote the (unique) path between $i,j$ and let $u$ be the vertex on the path with the lowest level. Hence, by Problem 3, $$G_{i,j}\preceq ()$$
+Let $i,j$ arbitrary with $i<j$. Then, let $G^{i,j}$ denote the (unique) path between $i,j$ and let $u$ be the vertex on the path with the lowest level. Then, the sum of the reciprocal of the weights of the path is at most: $2\cdot \sum_{i=1}^{d} \frac{1}{2^i}\leq 2$.
 
-Every edge $(u,v)$ is in: $$$$
+Hence, by Problem 3, we have that:$$K_{n}=\sum_{i<j}^{}G_{i,j}\preceq \sum_{i<j}^{}\left( 2\sum_{e\in G^{i,j}}w_{e}G_{e} \right) $$
+
+Let $e=(u,v)\in T_{n}$ where $v$ is the child of $u$. Then, $e$ appears exactly $(2^{d-\ell(v)})(n-2^{d-\ell(v)})$ times in $G^{i,j}$ over $i<j$. Therefore, we have that: $$K_{n}\preceq  2\sum_{e\in G^{i,j}}2^d(n-2^{d-\ell(v)}) G_{e}\preceq K_{n}\preceq  2\sum_{e\in G^{i,j}}2^d(n-2^{d-\ell(v)}) T_{n}$$
+
+Every edge $(u,v)$ where $u$ is a child of $v$ is in $(2^{d-\ell(u)})(n-2^{d-\ell(u)})$ paths. Hence, 
 
 Let us give weights to the edges of $T_{n}$ where 
