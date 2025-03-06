@@ -19,14 +19,8 @@ Then, by Cauchy-Schwarz:$$\begin{align}(x_{n}-x_{1})^{2}=\left( \sum_{i=1}^{n-1}
 
 ---
 #### Problem 4
-Firstly, for $v\in T_{n}$, let $\ell(v)$ denote the level of the vertex $v$ in the tree, where the root is in level $0$. Then, for edge $(u,v)$ where $v$ is the child of $u$, we assign the weight $2^{\ell(v)}$ to $(u,v)$.
+Firstly, for $v\in T_{n}$, let $\ell(v)$ denote the level of the vertex $v$ in the tree, where the root is in level $0$. 
 
-Let $i,j$ arbitrary with $i<j$. Then, let $G^{i,j}$ denote the (unique) path between $i,j$ and let $u$ be the vertex on the path with the lowest level. Then, the sum of the reciprocal of the weights of the path is at most: $2\cdot \sum_{i=1}^{d} \frac{1}{2^i}\leq 2$.
+Let $i,j$ arbitrary with $i<j$. Then, let $G^{i,j}$ denote the (unique) path between $i,j$. For any edge $e=(u,v)$ with $\ell(v)\geq \ell(u)$, we let $p(u,v)$ as the number of $(i,j)$ with $i<j$ s.t. $e$ is in $G^{i,j}$. We compute that: $$p(u,v)=(2^{d-\ell(v)+1}-1)(n-2^{d-\ell(v)+1}+1)$$Notice that $p(u,v)$ only depends on the level of the vertices. 
 
-Hence, by Problem 3, we have that:$$K_{n}=\sum_{i<j}^{}G_{i,j}\preceq \sum_{i<j}^{}\left( 2\sum_{e\in G^{i,j}}w_{e}G_{e} \right) $$
-
-Let $e=(u,v)\in T_{n}$ where $v$ is the child of $u$. Then, $e$ appears exactly $(2^{d-\ell(v)})(n-2^{d-\ell(v)})$ times in $G^{i,j}$ over $i<j$. Therefore, we have that: $$K_{n}\preceq  2\sum_{e\in G^{i,j}}2^d(n-2^{d-\ell(v)}) G_{e}\preceq K_{n}\preceq  2\sum_{e\in G^{i,j}}2^d(n-2^{d-\ell(v)}) T_{n}$$$$K_{n}=\sum_{i=0}^{d}\sum_{j=0}^{d}$$
-
-Every edge $(u,v)$ where $u$ is a child of $v$ is in $(2^{d-\ell(u)})(n-2^{d-\ell(u)})$ paths. Hence, 
-
-Let us give weights to the edges of $T_{n}$ where 
+Now, let $i<j$ be arbitrary, we have that: $$\sum_{e\in G^{i,j}}^{} p(e)\leq 2\cdot \sum_{k=1}^{d}(2^{d-k+1}-1)(n-2^{d-k+1}+1)< 2n\sum_{k=1}^{d}2^{d-k+1}=2n^2$$Hence, by setting the weight of each edge $e$ as $\frac{1}{p(e)}$, we have that by Problem 3, $$K_{n}=   \sum_{i<j} G_{i,j}\preceq   2n^{2}\sum_{i<j}^{}\sum_{e\in G^{i,j}} \frac{1}{p(e)}G_{e}=2n^{2}\sum_{ e\in T_{n}}^{}G_{e}=2n^{2} T_{n}$$Therefore, $n\leq 2n^{2} \lambda_{2}(T_{n})$ and this proves the statement.
