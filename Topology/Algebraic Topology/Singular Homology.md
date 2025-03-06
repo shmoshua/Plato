@@ -233,6 +233,6 @@
 
 > [!proof]+
 > We have: 
-> 1. Notice that: $$\partial\sigma_{0}=\sum_{i=0}^{n}(-1)^i (\sigma \circ  F^n_{i})=\sum_{i=0}^{n}(-1)^i *\in S_{n-1}(*)$$Hence, $\partial[\sigma_{0}]=[\partial\sigma_{0}]=0$. 
-> 2. Let $\sigma$ be a cycle in $S_{n}(\Delta_{n} / \partial \Delta_{n}, *)$. We will show that $[\sigma]=k[\sigma_{0}]$ for some $k\in \mathbb{Z}$. We have that $\sigma$ induces a map: $$\sigma:\Delta_{n}\to \Delta_{n} / \partial \Delta_{n}$$ where $\partial\sigma=\sum_{i=0}^{n}(-1)^i\sigma \circ F^n_{i}\in S_{n-1}(*)$. 
+> 1. Notice that: $$\partial\sigma_{0}=\sum_{i=0}^{n}(-1)^i (\sigma_{0} \circ  F^n_{i})=\sum_{i=0}^{n}(-1)^i *\in S_{n-1}(*)$$Hence, $\partial[\sigma_{0}]=[\partial\sigma_{0}]=0$. 
+> 2. Let $\sigma$ be a cycle in $S_{n}(\Delta_{n} / \partial \Delta_{n}, *)$. We will show that $[\sigma]=k[\sigma_{0}]$ for some $k\in \mathbb{Z}$. We have that $\sigma$ induces a map: $$\sigma:\Delta_{n}\to \Delta_{n} / \partial \Delta_{n}$$ where $\partial\sigma=\sum_{i=0}^{n}(-1)^i\sigma \circ F^n_{i}\in S_{n-1}(*)$. Notice that $\partial\sigma_{0}=\mathbb{1}_{n\text{ even}}*$. 
 	
