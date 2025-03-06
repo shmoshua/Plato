@@ -11,3 +11,11 @@
 3. We have: $$\nabla m_{i+1}(v)=\nabla m_{i}(v)+ a_{i+1}\nabla f(x_{i+1})=\sigma(v-v_{i})+ a_{i+1}\nabla f(x_{i+1})$$Hence, by equating it with zero, $v_{i+1}=v-\frac{a_{i+1}}{\sigma}\nabla f(x_{i+1})$.
 
 ---
+#### Problem 3
+Let $i,j\in[n]$ with $i<j$. Then, one sees that: $$L_{G_{i,j}}(u,v)=\begin{cases}1&u=v\in\{ i,j \}\\-1&\{ u,v \}=\{ i,j \}\\0&\text{otherwise}\end{cases}$$
+Let $x\in \mathbb{R}^n$ be arbitrary. Then, $$x^\top L_{G_{i,j}}x=(x_{i}-x_{j})^{2}$$
+
+Then, by Cauchy-Schwarz:$$\begin{align}(x_{n}-x_{1})^{2}=\left( \sum_{i=1}^{n-1}x_{i+1}-x_{i} \right)^{2}=\left( \sum_{i=1}^{n-1} \frac{1}{\sqrt{ w_{i} }}\sqrt{ w_{i} }(x_{i+1}-x_{i}) \right)^{2}\leq\left( \sum_{i=1}^{n-1} \frac{1}{w_{i}} \right) \left( \sum_{i=1}^{n-1}w_{i}(x_{i+1}-x_{i})^{2} \right) \end{align} $$This shows that $G_{1,n}\preceq \left( \sum_{i=1}^{n-1} \frac{1}{w_{i}} \right)\sum_{i=1}^{n-1}w_{i}G_{i,i+1}$.
+
+---
+#### Problem 4
