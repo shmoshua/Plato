@@ -19,3 +19,10 @@ Then, by Cauchy-Schwarz:$$\begin{align}(x_{n}-x_{1})^{2}=\left( \sum_{i=1}^{n-1}
 
 ---
 #### Problem 4
+Firstly, for $v\in T_{n}$, let $\ell(v)\in \mathbb{N}$ denote the level of the vertex $v$ in the tree. Wlog, we may assume that for every $i<j$, $\ell(i)\leq \ell(j)$. Then, for edge $(u,v)$ where $v$ is the child of $u$, we assign the weight $2^{\ell(u)}$ to $(u,v)$.
+
+Let $i,j$ arbitrary with $i<j$. Then, let $G^{i,j}$ denote the (unique) path between $i,j$ and let $u$ be the vertex on the path with the lowest level. Hence, by Problem 3, $$G_{i,j}\preceq ()$$
+
+Every edge $(u,v)$ is in: $$$$
+
+Let us give weights to the edges of $T_{n}$ where 

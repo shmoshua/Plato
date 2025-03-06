@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 3.md",
+                "file": "Graph Theory/Eulerian Trail.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 3"
+              "title": "Eulerian Trail"
             }
           },
           {
@@ -56,16 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 3.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Homology"
+              "title": "Problem Set 3"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/One-Point Compactification.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "One-Point Compactification"
+              "title": "Problem Set 3"
             }
           },
           {
@@ -120,16 +120,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 3.md",
+                "file": "Graph Theory/Eulerian Trail.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 3"
+              "title": "Eulerian Trail"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -274,13 +274,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "044babed1d387803",
+  "active": "db0cc9fd236b2a5a",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Good Pair.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
+    "Topology/One-Point Compactification.md",
+    "Graph Theory/Eulerian Trail.md",
+    "Courses/Graph Theory/Problem Set 2.md",
+    "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Quotient Topology.md",
-    "Topology/One-Point Compactification.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
@@ -288,7 +291,6 @@
     "Functional Analysis/Bounded Linear Map.md",
     "Probability Theory/Independence.md",
     "Analysis/Inner Product Space.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Analysis/Normed Space.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Algebra/Chain Complex.md",
@@ -300,8 +302,6 @@
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Probability Theory/Exercise Class 2.md",
     "Measure Theory/Convergence of Sets.md",
-    "Probability Theory/Moment.md",
-    "Probability Theory/Expected Value.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
