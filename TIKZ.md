@@ -140,3 +140,33 @@ T \arrow[drr, bend left, "x"]     \arrow[ddr, bend right, "y"]     \arrow[dr
 >  &&& 0 \\ 0 & {H_{n+1}(K^{(n+1)})} & {H_{n+1}(K^{(n+1)},K^{(n)})} & {H_n(K^{(n)})} & {H_n(K^{(n+1)})} & 0 \\ &&& {H_n(K^{(n)},K^{(n-1)})} \\ && 0 & {H_{n-1}(K^{(n-1)})} & {H_{n-1}(K^{(n-1)},K^{(n-2)})} & {H_{n-2}(K^{(n-2)})} \\ &&& {H_{n-1}(K^{(n)})} \\ &&& 0 \arrow[from=1-4, to=2-4] \arrow[from=2-1, to=2-2] \arrow[from=2-2, to=2-3] \arrow["{\partial_{n+1}}", from=2-3, to=2-4] \arrow["{\beta_{n+1}}", color={rgb,255:red,127;green,10;blue,199}, from=2-3, to=3-4] \arrow[from=2-4, to=2-5] \arrow["{j_n}", from=2-4, to=3-4] \arrow[from=2-5, to=2-6] \arrow["{\partial_n}", from=3-4, to=4-4] \arrow["{\beta_n}", color={rgb,255:red,127;green,10;blue,199}, from=3-4, to=4-5] \arrow[from=4-3, to=4-4] \arrow["{j_{n-1}}", from=4-4, to=4-5] \arrow[from=4-4, to=5-4] \arrow[from=4-5, to=4-6] \arrow[from=5-4, to=6-4]\end{tikzcd}
 >  \end{document} 
 >  ```
+
+```tikz
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\begin{document}
+
+\begin{tikzpicture}[shorten >=1pt,->]
+  \tikzstyle{vertex}=[circle,fill=black,minimum size=6pt,inner sep=2pt]
+  \node[vertex] (G_1) at (-0.5,-0) {};
+  \node[vertex] (G_2) at (0.5,-0)   {};
+  \node[vertex] (G_3) at (-1.2,-0.8)  {};
+  \node[vertex] (G_4) at (1.2,-0.8)  {};
+  \node[vertex] (G_5) at (-0.9,-1.67)  {};
+  \node[vertex] (G_6) at (0.9,-1.7)  {};
+  \node[vertex] (G_7) at (0,-2.2)  {};
+  \draw (G_5)--(G_1) -- (G_6) -- cycle;
+  \draw (G_5)--(G_2) -- (G_6) -- cycle;
+  \draw (G_5)--(G_3) -- (G_6) -- cycle;
+  \draw (G_5)--(G_4) -- (G_6) -- cycle;
+  \draw (G_5)--(G_5) -- (G_6) -- cycle;
+  \draw (G_5)--(G_7) -- (G_6) -- cycle;
+  \draw (G_7)--(G_1) -- cycle;
+  \draw (G_7)--(G_2) -- cycle;
+  \draw (G_7)--(G_3) -- cycle;
+  \draw (G_7)--(G_4) -- cycle;
+  \draw (G_3)--(G_4) -- cycle;
+  
+\end{tikzpicture}
+\end{document} 
+```
