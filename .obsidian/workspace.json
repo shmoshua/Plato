@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hamiltonian Path.md",
+                "file": "Graph Theory/Expander.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hamiltonian Path"
+              "title": "Expander"
             }
           }
         ],
@@ -189,7 +189,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path graph",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,7 +210,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -302,11 +303,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "521fe168d6725333",
+  "active": "02fc4021d0138fa6",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Problem Set 1.md",
+    "Topology/Quotient Topology.md",
+    "Graph Theory/Expander.md",
+    "Graph Theory/Sparsest Cut.md",
+    "Graph Theory/Path (Graph).md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
+    "Graph Theory/Cut Sparsifier.md",
     "Graph Theory/Hamiltonian Path.md",
+    "Courses/Graph Theory/Problem Set 1.md",
     "TIKZ.md",
     "Graph Theory/Tough Graph.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
@@ -318,7 +324,6 @@
     "Courses/Graph Theory/Problem Set 2.md",
     "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Quotient Topology.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Functional Analysis/Bounded Linear Map.md",
@@ -326,10 +331,6 @@
     "Analysis/Inner Product Space.md",
     "Analysis/Normed Space.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Algebra/Chain Complex.md",
-    "Topology/Algebraic Topology/Reduced Homology.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Graph Theory/Tree.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",

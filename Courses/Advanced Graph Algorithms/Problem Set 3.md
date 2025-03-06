@@ -24,3 +24,11 @@ Firstly, for $v\in T_{n}$, let $\ell(v)$ denote the level of the vertex $v$ in t
 Let $i,j$ arbitrary with $i<j$. Then, let $G^{i,j}$ denote the (unique) path between $i,j$. For any edge $e=(u,v)$ with $\ell(v)\geq \ell(u)$, we let $p(u,v)$ as the number of $(i,j)$ with $i<j$ s.t. $e$ is in $G^{i,j}$. We compute that: $$p(u,v)=(2^{d-\ell(v)+1}-1)(n-2^{d-\ell(v)+1}+1)$$Notice that $p(u,v)$ only depends on the level of the vertices. 
 
 Now, let $i<j$ be arbitrary, we have that: $$\sum_{e\in G^{i,j}}^{} p(e)\leq 2\cdot \sum_{k=1}^{d}(2^{d-k+1}-1)(n-2^{d-k+1}+1)< 2n\sum_{k=1}^{d}2^{d-k+1}=2n^2$$Hence, by setting the weight of each edge $e$ as $\frac{1}{p(e)}$, we have that by Problem 3, $$K_{n}=   \sum_{i<j} G_{i,j}\preceq   2n^{2}\sum_{i<j}^{}\sum_{e\in G^{i,j}} \frac{1}{p(e)}G_{e}=2n^{2}\sum_{ e\in T_{n}}^{}G_{e}=2n^{2} T_{n}$$Therefore, $n\leq 2n^{2} \lambda_{2}(T_{n})$ and this proves the statement.
+
+---
+#### Problem 5
+
+1. Let $S\subseteq V$ with  size $k$. Then, $$\phi_{S}=\frac{e(S,\overline{S}) }{\text{vol}(S)}=\frac{k(n-k)}{k(n-1)}=\frac{n-k}{n-1}$$Hence, $\phi(K_{n})=\frac{n-\left\lfloor n / 2\right\rfloor}{n-1}\approx\frac{1}{2}$. 
+2. Let $S\subseteq V$ with size $k$. Then, the volume is given as $2k-2\leq\text{vol}(S)\leq 2k$. If $\text{vol}(2k)=2k$, then we have that $2\leq e(S,\overline{S})$. However, if $2k-1$, by taking the first $k$ vertices as $S$, we have that: $$\text{vol}(S)=1$$Therefore, we have that: $$\phi(P_{n})=\frac{1}{2\left\lfloor n  / 2\right\rfloor -1}$$
+---
+#### Problem 6
