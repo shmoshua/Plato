@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Good Pair.md",
+                "file": "Topology/Algebraic Topology/Singular Homology.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Good Pair"
+              "title": "Singular Homology"
             }
           },
           {
@@ -120,16 +120,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+                "file": "Topology/Algebraic Topology/Singular Homology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Degree of Sphere Maps"
+              "title": "Singular Homology"
+            }
+          },
+          {
+            "id": "d99195cdd8c90f70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "p-Simplex"
+            }
+          },
+          {
+            "id": "70a1be86c5895f8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Chain Complex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Chain Complex"
+            }
+          },
+          {
+            "id": "c8b8c614810d3b1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Chain Complex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Chain Complex"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -275,13 +317,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2ff4945a6432ce65",
+  "active": "8966ac07a0cc5258",
   "lastOpenFiles": [
-    "Algebra/Chain Complex.md",
-    "Topology/Algebraic Topology/Good Pair.md",
-    "Topology/Retract.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
+    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Relative Homology.md",
+    "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Reduced Homology.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Retract.md",
     "Topology/Algebraic Topology/Homotopy Group.md",
     "Algebra/Exact Sequence.md",
     "Graph Theory/Eulerian Trail.md",
@@ -299,10 +345,6 @@
     "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Untitled.md",
     "Topology/One-Point Compactification.md",
-    "Courses/Graph Theory/Problem Set 2.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
-    "Functional Analysis/Bounded Linear Map.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",

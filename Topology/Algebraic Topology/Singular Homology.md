@@ -225,3 +225,14 @@
 
 ---
 
+> [!lemma] Proposition 5
+> Let $\sigma_{0}:\Delta_n \to \Delta_{n} / \partial\Delta_{n}$ be the quotient map. Then,
+> 1. $\sigma_{0}$ is a cycle in $\mathcal{S}(\Delta_{n} / \partial \Delta_{n}, *)$. 
+> 2. $[\sigma_{0}]$ is a generator in $H_{n}(\Delta_{n} / \partial \Delta _{n}, *)\cong H_{n}(S^n, *)\cong \tilde{H}_{n}(S^n)\cong \mathbb{Z}$.
+> 3. for any abelian group $G$, $$G\to H_{n}(\Delta_{n} / \partial \Delta_{n},*;G),\quad g\mapsto [g\sigma_{0}]$$is an isomorphism.
+
+> [!proof]+
+> We have: 
+> 1. Notice that: $$\partial\sigma_{0}=\sum_{i=0}^{n}(-1)^i (\sigma \circ  F^n_{i})=\sum_{i=0}^{n}(-1)^i *\in S_{n-1}(*)$$Hence, $\partial[\sigma_{0}]=[\partial\sigma_{0}]=0$. 
+> 2. Let $\sigma$ be a cycle in $S_{n}(\Delta_{n} / \partial \Delta_{n}, *)$. We will show that $[\sigma]=k[\sigma_{0}]$ for some $k\in \mathbb{Z}$. We have that $\sigma$ induces a map: $$\sigma:\Delta_{n}\to \Delta_{n} / \partial \Delta_{n}$$ where $\partial\sigma=\sum_{i=0}^{n}(-1)^i\sigma \circ F^n_{i}\in S_{n-1}(*)$. 
+	
