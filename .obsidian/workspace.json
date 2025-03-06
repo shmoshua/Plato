@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -274,12 +274,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "db0cc9fd236b2a5a",
+  "active": "044babed1d387803",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
-    "Topology/One-Point Compactification.md",
     "Graph Theory/Eulerian Trail.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/One-Point Compactification.md",
     "Courses/Graph Theory/Problem Set 2.md",
     "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Algebraic Topology/Homology Theory.md",
