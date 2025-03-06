@@ -128,3 +128,23 @@
 ---
 ![[k-Connected Graph#^dd00c3]]
 ![[k-Connected Graph#^ab76d0|p]]
+
+---
+### 4. Eulerian Tours and Hamiltonian Cycles
+
+#### 4.1 Eulerian Tours and Eulerian Trails
+![[Eulerian Trail#^af172c]]
+
+---
+![[Eulerian Trail#^bb32a6]]
+![[Eulerian Trail#^bdc3a8|p]]
+
+---
+![[Eulerian Trail#^b2ca6d]]
+![[Eulerian Trail#^59ce63|p]]
+
+---
+#### 4.2 Hamiltonian Paths and Hamiltonian Cycles
+![[Hamiltonian Path#^a7fcdb]]
+
+---
