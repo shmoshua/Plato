@@ -31,4 +31,3 @@ Now, let $i<j$ be arbitrary, we have that: $$\sum_{e\in G^{i,j}}^{} p(e)\leq 2\c
 1. Let $S\subseteq V$ with  size $k$. Then, $$\phi_{S}=\frac{e(S,\overline{S}) }{\text{vol}(S)}=\frac{k(n-k)}{k(n-1)}=\frac{n-k}{n-1}$$Hence, $\phi(K_{n})=\frac{n-\left\lfloor n / 2\right\rfloor}{n-1}\approx\frac{1}{2}$. 
 2. Let $S\subseteq V$ with size $k$. Then, the volume is given as $2k-2\leq\text{vol}(S)\leq 2k$. If $\text{vol}(2k)=2k$, then we have that $2\leq e(S,\overline{S})$. However, if $2k-1$, by taking the first $k$ vertices as $S$, we have that: $$\text{vol}(S)=1$$Therefore, we have that: $$\phi(P_{n})=\frac{1}{2\left\lfloor n  / 2\right\rfloor -1}$$
 ---
-#### Problem 6
