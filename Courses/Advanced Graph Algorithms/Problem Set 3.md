@@ -6,5 +6,8 @@
 
 ---
 #### Problem 2
-1. We have that for all $v$: $$\nabla m_{i}(v)=\sigma (v-x_{0})+\sum_{j\leq i}^{}a_{j}\nabla f(x_{j}) $$and $\text{H}_{m_{i}}(v)=\sigma I$. Hence, by Taylor and the optimality of $v_{i}$:$$m_{i}(v)=m_{i}(v_{i})+\underbrace{ \nabla m_{i}(v_{i})^\top }_{ =0 }(v-v_{i})+\frac{\sigma}{2}\left\| v-v_{i} \right\| ^2_{2}=m_{i}(v_{i})+\frac{\sigma}{2}\left\| v-v_{i} \right\| ^2_{2}$$This proves the statement.
-2. We have: $$\begin{align}m_{i+1}(v) &=\phi(v)-\phi(x^{*})+\sum_{j\leq i+1}^{}a_{j}f(x_{j})+\braket{ a_{j}\nabla f(x_{j}) ,v-x_{j}  } \end{align}$$
+1. One easily sees that $m_{i}$ is twice differentiable. Hence, we have that for all $v$: $$\nabla m_{i}(v)=\sigma (v-x_{0})+\sum_{j\leq i}^{}a_{j}\nabla f(x_{j}) $$and $\text{H}_{m_{i}}(v)=\sigma I$. Hence, by Taylor and the optimality of $v_{i}$:$$m_{i}(v)=m_{i}(v_{i})+\underbrace{ \nabla m_{i}(v_{i})^\top }_{ =0 }(v-v_{i})+\frac{\sigma}{2}\left\| v-v_{i} \right\| ^2_{2}=m_{i}(v_{i})+\frac{\sigma}{2}\left\| v-v_{i} \right\| ^2_{2}$$This proves the statement.
+2. We have: $$\begin{align}m_{i+1}(v) &=\phi(v)-\phi(x^{*})+\sum_{j\leq i+1}^{}a_{j}f(x_{j})+\braket{ a_{j}\nabla f(x_{j}) ,v-x_{j}  }\\&=\phi(v)-\phi(x^{*})+\sum_{j\leq i}^{}a_{j}f(x_{j})+\braket{ a_{j}\nabla f(x_{j}) ,v-x_{j}  } +a_{i+1}f(x_{i+1})+\braket{ a_{i+1}\nabla f(x_{i+1}) ,v-x_{i+1}  } \\&=m_{i}(v)+a_{i+1}f(x_{i+1})+\braket{ a_{i+1}\nabla f(x_{i+1}) ,v-x_{i+1}  } \end{align}$$
+3. We have: $$\nabla m_{i+1}(v)=\nabla m_{i}(v)+ a_{i+1}\nabla f(x_{i+1})=\sigma(v-v_{i})+ a_{i+1}\nabla f(x_{i+1})$$Hence, by equating it with zero, $v_{i+1}=v-\frac{a_{i+1}}{\sigma}\nabla f(x_{i+1})$.
+
+---
