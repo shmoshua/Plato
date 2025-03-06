@@ -25,7 +25,7 @@ Let $i,j$ arbitrary with $i<j$. Then, let $G^{i,j}$ denote the (unique) path bet
 
 Hence, by Problem 3, we have that:$$K_{n}=\sum_{i<j}^{}G_{i,j}\preceq \sum_{i<j}^{}\left( 2\sum_{e\in G^{i,j}}w_{e}G_{e} \right) $$
 
-Let $e=(u,v)\in T_{n}$ where $v$ is the child of $u$. Then, $e$ appears exactly $(2^{d-\ell(v)})(n-2^{d-\ell(v)})$ times in $G^{i,j}$ over $i<j$. Therefore, we have that: $$K_{n}\preceq  2\sum_{e\in G^{i,j}}2^d(n-2^{d-\ell(v)}) G_{e}\preceq K_{n}\preceq  2\sum_{e\in G^{i,j}}2^d(n-2^{d-\ell(v)}) T_{n}$$
+Let $e=(u,v)\in T_{n}$ where $v$ is the child of $u$. Then, $e$ appears exactly $(2^{d-\ell(v)})(n-2^{d-\ell(v)})$ times in $G^{i,j}$ over $i<j$. Therefore, we have that: $$K_{n}\preceq  2\sum_{e\in G^{i,j}}2^d(n-2^{d-\ell(v)}) G_{e}\preceq K_{n}\preceq  2\sum_{e\in G^{i,j}}2^d(n-2^{d-\ell(v)}) T_{n}$$$$K_{n}=\sum_{i=0}^{d}\sum_{j=0}^{d}$$
 
 Every edge $(u,v)$ where $u$ is a child of $v$ is in $(2^{d-\ell(u)})(n-2^{d-\ell(u)})$ paths. Hence, 
 
