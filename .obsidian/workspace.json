@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "p-Simplex"
             }
           }
         ],
@@ -303,16 +303,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0cf3ffe29df6b1f6",
+  "active": "3bf961c4d7b51deb",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/Real Projective Space.md",
-    "Topology/CW-Complex.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/CW-Complex.md",
+    "Topology/Real Projective Space.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Good Pair.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Algebra/Chain Complex.md",
     "Algebra/Tensor Product.md",
     "Algebra/Exact Sequence.md",
