@@ -63,7 +63,7 @@
 
 ![[Degree of Sphere Maps#^0b154f]]
 ![[Degree of Sphere Maps#^54871b|p]]
-
+- **Remark**: This construction cannot happen over $\mathbb{Z}$. Even when we define $T(\sigma):= \tilde{\sigma}-\Theta\tilde{\sigma}$, we then have that $T$ is not a chain map.
 ---
 ![[Degree of Sphere Maps#^f28141]]
 ![[Degree of Sphere Maps#^ac52f2|p]]

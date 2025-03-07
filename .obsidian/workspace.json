@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+                "file": "Courses/Graph Theory/Problem Set 3.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology II Roadmap"
+              "title": "Problem Set 3"
             }
           },
           {
@@ -54,14 +54,17 @@
             "id": "0cf3ffe29df6b1f6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Degree of Sphere Maps"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -88,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+                "file": "Courses/Graph Theory/Problem Set 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology II Roadmap"
+              "title": "Problem Set 3"
             }
           },
           {
@@ -206,8 +209,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -299,10 +301,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0cf3ffe29df6b1f6",
+  "active": "bf8b230d722e2f90",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Courses/Graph Theory/Problem Set 3.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
@@ -326,7 +329,6 @@
     "Topology/Quotient Topology.md",
     "Graph Theory/Sparsest Cut.md",
     "Graph Theory/Path (Graph).md",
-    "Graph Theory/Cut Sparsifier.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
