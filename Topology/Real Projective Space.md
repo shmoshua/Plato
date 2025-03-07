@@ -40,12 +40,16 @@
 > 2. The cellular homology with integer coefficients is given by: $$H^{\text{cw}}_{p}(\mathbb{R}\mathbb{P}^n)\cong \begin{cases}0&p=n, p\text{ even}\\\mathbb{Z}&p=n, p\text{ odd}\\0&0<p<n, p\text{ even}\\\mathbb{Z} / 2\mathbb{Z}&0<p<n, p\text{ odd}\\\mathbb{Z}&p=0\\0&p<0\text{ or }p>n\end{cases}$$
 > 3. The cellular homology with coefficients $G$ is given by: $$H^{\text{cw}}_{p}(\mathbb{R}\mathbb{P}^n;G)\cong \begin{cases}K&p=n, p\text{ even}\\G&p=n, p\text{ odd}\\K&0<p<n, p\text{ even}\\G / 2G&0<p<n, p\text{ odd}\\G&p=0\\0&p<0\text{ or }p>n\end{cases}$$where $K:=\text{ker }(G\xrightarrow{\times2} G)$. 
 
+^3af109
+
 > [!proof]-
 > We have: 
 > 1. Let: $$f:B^n\to \mathbb{R}\mathbb{P}^n,\quad (x_{1},\dots,x_{n})\mapsto [x_{1}:\dots:x_{n}:\sqrt{ 1-\|x\|^{2} }]$$Then, for $x\in \partial B^n$, $$f(x)=[x_{1}:\dots: x_{n}: 0]\in \mathbb{R}\mathbb{P}^{n-1}$$Now, we show that $\mathbb{R}\mathbb{P}^n$ is a CW-complex. 
 > 	 1. For $n=0$, $\mathbb{R}\mathbb{P}^0\cong P$ where $P$ is a one-point space, which is a CW-complex.
 > 	 2. For $n\geq 1$, let $\mathbb{R}\mathbb{P}^{n-1}$ be a $n-1$ dimensional CW-complex with one cell in each dimension up to $n-1$. Then, we can attach $B^n$ using $f:(B^n,\partial B^n)\to(\mathbb{R}\mathbb{P}^{n},\mathbb{R}\mathbb{P}^{n-1})$. Hence, $\mathbb{R}\mathbb{P}^n$ is a $n$-dimensional CW-complex.
 > 2. Let $\sigma_{k}\in I_{k}$ be the only $n$-cell for all $k\leq n$. Then, we find the degree of $p_{\sigma_{k-1}}\circ f_{\partial\sigma_{k}}$. We have that $(0,\dots,0,1)\in S^{k-1}$ has two points in the preimage, $N:=(0,\dots,0,1)$ and $S:=(0,\dots,0,-1)$. Hence, $\deg f|_{N}=1$ and $\deg f|_{S}=(-1)^{k}$. It follows that: $$[\sigma_{k-1}:\sigma_{k}]=1+(-1)^k=\begin{cases}0&k\text{ odd}\\2&k\text{ even}\end{cases}$$Hence, by setting $e_{i}$ as the $i$-cell, we have that $\partial(ge_{i})=(1+(-1)^i)e_{i-1}$. It follows that: $$Z_{i}:=\begin{cases}Ke_{i}&0< i \leq n, i\text{ even}\\Ge_{i}&0< i \leq n, i\text{ odd}\\G e_{0}&i=0\\0&\text{otherwise}\end{cases},\quad B_{i}:=\begin{cases}0&0\leq i < n, i\text{ even}\\2Ge_{i}&0\leq i < n, i\text{ odd}\\ 0&i=n\\0&\text{otherwise}\end{cases}$$Therefore, we have that: $$H_{p}^{\text{cw}}(\mathbb{R}\mathbb{P}^n;G)\cong  \begin{cases}K&p=n, n\text{ even}\\G&p=n, n\text{ odd}\\K&0<p<n, p\text{ even}\\G / 2G&0<p<n, p\text{ odd}\\G&p=0\\0&p<0\text{ or }p>n\end{cases}$$
+
+^c79c2d
 
 ---
 > [!lemma] Proposition 2
@@ -64,3 +68,8 @@
 > We have that: 
 > 1. with $G:= \mathbb{Z} / 2\mathbb{Z}$:$$H^{\text{cw}}_{p}(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})\cong \begin{cases}\mathbb{Z} / 2\mathbb{Z}&0\leq p\leq n\\0&\text{otherwise}\end{cases}$$
 > 2. with $G:= \mathbb{R} , \mathbb{Q},\mathbb{C}$, we have that: $$H^{\text{cw}}_{p}(\mathbb{R}\mathbb{P}^n;G)\cong \begin{cases}G&p=n, p\text{ odd}\\G&p=0\\0&\text{otherwise}\end{cases}$$
+
+^309c40
+
+---
+

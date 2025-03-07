@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
+              "title": "Degree of Sphere Maps"
             }
           }
         ],
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Good Pair.md",
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Good Pair"
+              "title": "p-Simplex"
             }
           },
           {
@@ -148,16 +148,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "file": "Topology/Lift.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
+              "title": "Lift"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -303,16 +303,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3bf961c4d7b51deb",
+  "active": "c8b8c614810d3b1e",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/CW-Complex.md",
-    "Topology/Real Projective Space.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Lift.md",
     "Topology/Algebraic Topology/Good Pair.md",
+    "Topology/Real Projective Space.md",
+    "Topology/CW-Complex.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Chain Complex.md",
     "Algebra/Tensor Product.md",
     "Algebra/Exact Sequence.md",
@@ -330,7 +331,6 @@
     "Graph Theory/Sparsest Cut.md",
     "Graph Theory/Path (Graph).md",
     "Graph Theory/Cut Sparsifier.md",
-    "Courses/Graph Theory/Problem Set 1.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",

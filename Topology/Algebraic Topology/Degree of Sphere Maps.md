@@ -211,6 +211,31 @@
 
 - **Corollary**: The recipe for [[Cellular Chain Complex|cellular homology]] also works for coefficients $G$.  ^b2f009
 ---
+###### Borsuk-Ulam Theorem
+
+> [!lemma] Lemma 1
+> Let $\pi:X\to Y$ be a 2:1 [[Covering Space|covering]]. Let $\Theta:X\to X$ be the unique non-trivial map s.t. $\pi=\Theta \pi$.
+> 1. there exists a chain map: $T:\mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})\to \mathcal{S}(X; \mathbb{Z} / 2\mathbb{Z})$ s.t. $$T(\sigma)=\tilde{\sigma}+\Theta \circ \tilde{\sigma},\quad \forall \sigma:\Delta_{n}\to Y$$where $\tilde{\sigma}:\Delta_{n}\to X$ is a choice of lift given by [[Lift|Theorem 2.2]].
+> 2. the following is a SES: $$0\to \mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})\xrightarrow{T} \mathcal{S}(X;\mathbb{Z} / 2\mathbb{Z})\xrightarrow{\pi_{c}} \mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})\to 0$$
+
+> [!proof]+
+> We have that:
+> 1. We first show that $T$ is well-defined. If $\tilde{\sigma}'$ is another choice of the lift, then as $\pi$ is a 2:1 covering, $\tilde{\sigma}'=\Theta\tilde{\sigma}$. Hence, $$\tilde{\sigma}'+\Theta\tilde{\sigma}'=\Theta\tilde{\sigma}+\underbrace{ \Theta\Theta }_{ =\text{id} } \tilde{\sigma}=\tilde{\sigma}+\Theta\tilde{\sigma}$$
+> 	To show that it is a chain map, we have that: $$\partial(T\sigma)=\partial\tilde{\sigma}+\partial\Theta\tilde{\sigma}=\partial\tilde{\sigma}+\Theta \partial\tilde{\sigma}=T(\partial\sigma)$$as $\pi \circ \partial\tilde{\sigma}=\partial(\pi \circ \tilde{\sigma})=\partial \sigma$.
+> 2. We first show that $T$ is injective. If $T(\sigma)=\tilde{\sigma}+\Theta \tilde{\sigma}=0$ then $\tilde{\sigma}=0$ and $\sigma=0$. 
+>    
+>    To show that $\pi_{c}$ is surjective, let $\sigma:\Delta_{n}\to Y$. Then, $\pi_{c}(\tilde{\sigma})=\sigma$. 
+>    
+>    Lastly, $$\pi_{c} (T(\sigma))=\pi_{c}(\tilde{\sigma}+\Theta \tilde{\sigma})=\sigma+\sigma=0$$Hence, $\text{im } T\subseteq \text{ker }\pi_{c}$. Conversely, if $\pi_{c}(\tilde{\sigma})=0$, then either $\tilde{\sigma}=0$. If not, w
+
+---
+
+> [!lemma] Theorem 2 (Borsuk-Ulam)
+> Let $f:S^n\to \mathbb{R}^n$ be a continuous map. 
+> 1. There exists $x\in S^n$ s.t. $f(x)=f(-x)$.
+
+
+---
 ##### Examples
 > [!h] Example 1
 > Consider $S^1\subseteq \mathbb{C}$. 
