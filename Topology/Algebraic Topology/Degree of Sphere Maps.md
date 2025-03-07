@@ -194,6 +194,23 @@
 ^379be4
 
 ---
+> [!lemma] Theorem 10 (Degree with Coefficients)
+> Let $f:S^n\to S ^n$ be a continuous map and $G$ an abelian group.
+> 1. For $f_{*}:\tilde{H}_{n}(S^n;G)\to \tilde{H}_{n}(S^n;G)$ is also given as $f_{*}(a)=\deg(f)\cdot a$ where $\deg(f)$ is the degree given with $\mathbb{Z}$ as coordinates.
+
+^1b2ced
+
+> [!proof]-
+> Consider $\sigma_{n}:\Delta_{n}\to \Delta_{n} / \partial \Delta_{n}\cong S^n$ be the quotient map. Then, by [[Singular Homology|Proposition 5]], $[\sigma_{n}]$ is a generator of $H_{n}(\Delta_{n} / \partial \Delta_{n},*)\cong H_{n}(S^n, *)\cong \tilde{H}_{n}(S^n)$. 
+> 
+> Hence, $f\circ\sigma_{n}$ is homologous to $\deg(f)\cdot\sigma_{n}$, i.e. there exists $c=\sum_{j}^{}n_{j}\tau_{j}$ with $\tau_{j}:\Delta_{n+1}\to S^n$ s.t.: $$f\circ \sigma_{n}-\deg(f)\sigma_{n}=\partial c$$
+> 
+> Now, for all $g\in G$, we have that: $$f_{c}(g\sigma_{n})-\deg(f)(g\sigma_{n})=\partial (gc),\quad f_{*}[g\sigma_{n}]=\deg(f)[g\sigma_{n}]$$Hence, $f_{*}(a)=\deg(f)a$ for all $a\in \tilde{H}_{n}(S^n ; G)$.
+
+^feb704
+
+- **Corollary**: The recipe for [[Cellular Chain Complex|cellular homology]] also works for coefficients $G$.  ^b2f009
+---
 ##### Examples
 > [!h] Example 1
 > Consider $S^1\subseteq \mathbb{C}$. 

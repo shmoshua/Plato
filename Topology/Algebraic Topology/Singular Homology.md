@@ -231,6 +231,8 @@
 > 2. $[\sigma_{n}]$ is a generator in $H_{n}(\Delta_{n} / \partial \Delta _{n}, *)\cong H_{n}(S^n, *)\cong \tilde{H}_{n}(S^n)\cong \mathbb{Z}$.
 > 3. for any abelian group $G$, $$G\to H_{n}(\Delta_{n} / \partial \Delta_{n},*;G),\quad g\mapsto [g\sigma_{n}]$$is an isomorphism.
 
+^22d01e
+
 > [!proof]-
 > We have: 
 > 1. Notice that: $$\partial\sigma_{0}=\sum_{i=0}^{n}(-1)^i (\sigma_{0} \circ  F^n_{i})=\sum_{i=0}^{n}(-1)^i *\in S_{n-1}(*)$$Hence, $\partial[\sigma_{0}]=[\partial\sigma_{0}]=0$. 
@@ -242,6 +244,9 @@
 > 	1. For $n=0$, $[\beta_{0}]$ obviously generates $\tilde{H}_{0}(\partial\Delta_{1})$. 
 > 	2. For $n\geq 1$, consider a map $\phi:\partial\Delta^n\to\Delta^{n-1} / \partial \Delta^{n-1}$ which collapses all but zeroth face to a point. Then, for the induced map $\phi_{*}:\tilde{H}_{n-1}(\partial\Delta_{n})\to \tilde{H}_{n-1}(\Delta_{n-1} / \partial\Delta_{n-1})$ it holds that $\phi_{*}([\beta_{n-1}])=[\sigma_{n-1}]$ which is a generator by the induction hypothesis. 
 >  1. Analogously, we have the following isomorphisms: $$H_{n}(\Delta _{n} / \partial  \Delta_{n},*;G)\xleftarrow{q_{*},\cong}H_{n}(\Delta_{n}, \partial\Delta_{n};G)\xrightarrow{\cong} \tilde{H}_{n-1}( \partial\Delta_{n};G)\to {H}_{n-1}(\Delta_{n-1} / \partial \Delta_{n-1}, *;G)$$and $G \to \tilde{H}_{0}(\partial\Delta_{0} ; G),g\mapsto [g\beta_{0}]$ is an isomorphism.
+
+^e3fe27
+
 ---
 > [!lemma] Proposition 6 (Change of Coefficients)
 > Let $G_{1},G_{2},G_{3}$ be abelian groups and $\varphi:G_{1}\to G_{2}$ and $\psi:G_{2}\to G_{3}$ homomorphisms. 
@@ -249,12 +254,18 @@
 > 2. if $0\to G_{1}\to G_{2}\to G_{3}\to 0$ is a SES, then $$0 \to \mathcal{S}(X,A;G_{1})\to \mathcal{S}(X,A;G_{2})\to \mathcal{S}(X,A;G_{3})\to 0$$is a SES as well.
 > 3. there exists a LES: $$\dots\to H_{n}(X,A;G_{1})\to H_{n}(X,A;G_{2})\to H_{n}(X,A;G_{3})\to H_{n-1}(X,A;G_{1})\to \cdots $$
 
+^ff019f
+
 > [!proof]-
 > We have that: 
 > 1. It follows from:$$\varphi^c\left( \sum_{i}^{}g_{i}\sigma_{i} \right)=\sum_{i}\varphi(g_{i})\sigma_{i}$$Then, this obviously commutes with $f_{c}$. 
 > 2. As $S_{*}(X,A)$ is a free abelian group, the statement follows from the right exactness of [[Tensor Product]]. (Proposition 3).
 > 3. Follows from 2 and [[Exact Sequence|Theorem 3]].
 
-- **Remark**: Most interesting examples of the SES of abelian groups are of the form:
+^347ad0
+
+- **Remark**: Most interesting examples of the SES of abelian groups are of the form: ^fb77d6
 	1. $0\to \mathbb{Z} \xrightarrow{\times p} \mathbb{Z} \to \mathbb{Z} / p\mathbb{Z} \to 0$
 	2. $0 \to \mathbb{Z} / p\mathbb{Z} \xrightarrow{\times p}  \mathbb{Z} / p^{2} \mathbb{Z} \to \mathbb{Z} / p\mathbb{Z} \to 0$
+
+---

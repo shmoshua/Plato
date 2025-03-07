@@ -25,3 +25,30 @@
 - **Related definition**: 
 - **Remark**: For any [[CW-complex]] $X$ and a subcomplex $A$, $(X,A)$ is a good pair.
 ---
+##### 1.1.1 Good Pairs
+![[Good Pair#^d83b17]]
+
+---
+![[Good Pair#^0d0ef3]]
+
+---
+![[Good Pair#^248625]]
+![[Good Pair#^db47d0|p]]
+
+---
+##### 1.1.2 Change of Coefficients
+![[Singular Homology#^ff019f]]
+![[Singular Homology#^347ad0|p]]
+![[Singular Homology#^fb77d6]]
+
+---
+##### 1.1.3 Degree with Coefficients
+![[Singular Homology#^22d01e]]
+![[Singular Homology#^e3fe27|p]]
+
+---
+![[Degree of Sphere Maps#^1b2ced]]
+![[Degree of Sphere Maps#^feb704|p]]
+![[Degree of Sphere Maps#^b2f009]]
+
+---
