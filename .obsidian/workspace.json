@@ -100,20 +100,6 @@
             }
           },
           {
-            "id": "3bf961c4d7b51deb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
-            }
-          },
-          {
             "id": "2ff4945a6432ce65",
             "type": "leaf",
             "state": {
@@ -125,6 +111,20 @@
               },
               "icon": "lucide-file",
               "title": "k-Connected Graph"
+            }
+          },
+          {
+            "id": "3bf961c4d7b51deb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Graph Theory Roadmap"
             }
           },
           {
@@ -156,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -301,13 +301,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8966ac07a0cc5258",
+  "active": "bf8b230d722e2f90",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
+    "Courses/Graph Theory/Problem Set 3.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
-    "Courses/Graph Theory/Problem Set 3.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Singular Homology.md",

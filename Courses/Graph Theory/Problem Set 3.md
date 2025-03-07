@@ -8,3 +8,4 @@ Conversely, assume $X$ is not minimal, i.e. there exists $x\in X$ s.t. $Y:= X \b
 ---
 #### Problem 2
 
+Let $G$ be a graph with $\left| V(G) \right|=: n\geq k+1$ and $\delta(G)\geq (n+k-2) / 2$. Assume that $G$ is not $k$-connected. Then, there exists 
