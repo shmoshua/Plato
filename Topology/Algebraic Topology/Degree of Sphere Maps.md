@@ -218,7 +218,7 @@
 > 1. there exists a chain map: $T:\mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})\to \mathcal{S}(X; \mathbb{Z} / 2\mathbb{Z})$ s.t. $$T(\sigma)=\tilde{\sigma}+\Theta \circ \tilde{\sigma},\quad \forall \sigma:\Delta_{n}\to Y$$where $\tilde{\sigma}:\Delta_{n}\to X$ is a choice of lift given by [[Lift|Theorem 2.2]].
 > 2. the following is a SES: $$0\to \mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})\xrightarrow{T} \mathcal{S}(X;\mathbb{Z} / 2\mathbb{Z})\xrightarrow{\pi_{c}} \mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})\to 0$$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. We first show that $T$ is well-defined. If $\tilde{\sigma}'$ is another choice of the lift, then as $\pi$ is a 2:1 covering, $\tilde{\sigma}'=\Theta\tilde{\sigma}$. Hence, $$\tilde{\sigma}'+\Theta\tilde{\sigma}'=\Theta\tilde{\sigma}+\underbrace{ \Theta\Theta }_{ =\text{id} } \tilde{\sigma}=\tilde{\sigma}+\Theta\tilde{\sigma}$$
 > 	To show that it is a chain map, we have that: $$\partial(T\sigma)=\partial\tilde{\sigma}+\partial\Theta\tilde{\sigma}=\partial\tilde{\sigma}+\Theta \partial\tilde{\sigma}=T(\partial\sigma)$$as $\pi \circ \partial\tilde{\sigma}=\partial(\pi \circ \tilde{\sigma})=\partial \sigma$.
@@ -226,8 +226,24 @@
 >    
 >    To show that $\pi_{c}$ is surjective, let $\sigma:\Delta_{n}\to Y$. Then, $\pi_{c}(\tilde{\sigma})=\sigma$. 
 >    
->    Lastly, $$\pi_{c} (T(\sigma))=\pi_{c}(\tilde{\sigma}+\Theta \tilde{\sigma})=\sigma+\sigma=0$$Hence, $\text{im } T\subseteq \text{ker }\pi_{c}$. Conversely, if $\pi_{c}(\tilde{\sigma})=0$, then either $\tilde{\sigma}=0$. If not, w
+>    Lastly, $$\pi_{c} (T(\sigma))=\pi_{c}(\tilde{\sigma}+\Theta \tilde{\sigma})=\sigma+\sigma=0$$Hence, $\text{im } T\subseteq \text{ker }\pi_{c}$. Conversely, if $\pi_{c}(\tilde{\sigma})=0$, then either $\tilde{\sigma}=0$. If not, we have that $\pi_{c}(\tilde{\sigma})=\sigma+\Theta\sigma=T(\sigma)$. 
 
+---
+> [!lemma] Lemma 2
+> Let $\pi:X\to Y,\pi':X'\to Y'$ be two 2:1 coverings. Let $\Theta:X\to X$ and $\Theta':X'\to X'$ be the unique non-trivial maps s.t. $\pi=\Theta \pi$ and $\pi'=\Theta'\pi'$ respectively. 
+> 1. Let $f:X\to X'$ s.t. $\Theta' \circ f=f\circ\Theta$, then there exists a map $\overline{f}:Y\to Y'$ s.t. $\overline{f} \circ\pi=\pi' \circ f$.
+> 2. the following two SES's commute: $$\begin{CD}0@>>> \mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})@>T>> \mathcal{S}(X;\mathbb{Z} / 2\mathbb{Z})@>\pi_{c}>> \mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})\to 0\\&@V\overline{f}_{c}VV@Vf_{c}VV@V\overline{f}_{c}VV\\0@>>> \mathcal{S}(Y';\mathbb{Z} / 2\mathbb{Z})@>T'>> \mathcal{S}(X';\mathbb{Z} / 2\mathbb{Z})@>\pi'_{c}>> \mathcal{S}(Y';\mathbb{Z} / 2\mathbb{Z})\to 0\end{CD}$$
+
+> [!proof]-
+> We have: 
+> 1. Define $\overline{f}:Y\to Y'$ s.t. $\overline{f}(\pi(x))=\pi'(f(x))$. We show that this is well-defined. Let $\tilde{x},\tilde{x}'$ be the two choices of lift of $x$. Then, $$\pi'(f(\tilde{x}'))=\pi'(f(\Theta(\tilde{x})))=\pi'(\Theta'(f(\tilde{x})))=\pi'(f(\tilde{x}))$$
+> 2. We have that: $$f_{c}(T(\sigma))=f_{c}(\tilde{\sigma}+\Theta\tilde{\sigma})=f\circ \tilde{\sigma}+\Theta' \circ  f \circ  \tilde{\sigma}=T'(\pi'(f(\tilde{\sigma})))=T'(\overline{f}_{c}(\sigma))$$
+---
+> [!lemma] Lemma 3
+If there exists a continuous function $\phi:S^n\to S^m$ that is odd, i.e. $\phi(-x)=-\phi(x)$ for all $x\in S^n$. Then, $n\leq m$
+
+> [!proof]+
+> Assume $n>m$ by contradiction. Assume wlog that $m>0$ as for $m=0$ the statement is clear. 
 ---
 
 > [!lemma] Theorem 2 (Borsuk-Ulam)
