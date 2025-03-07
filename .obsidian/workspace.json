@@ -54,14 +54,10 @@
             "id": "0cf3ffe29df6b1f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Degree of Sphere Maps"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -157,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -303,17 +299,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c8b8c614810d3b1e",
+  "active": "0cf3ffe29df6b1f6",
   "lastOpenFiles": [
-    "Topology/Lift.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/CW-Complex.md",
+    "Topology/Real Projective Space.md",
+    "Topology/Lift.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Good Pair.md",
-    "Topology/Real Projective Space.md",
-    "Topology/CW-Complex.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Chain Complex.md",
     "Algebra/Tensor Product.md",
     "Algebra/Exact Sequence.md",

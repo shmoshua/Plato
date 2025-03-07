@@ -218,6 +218,8 @@
 > 1. there exists a chain map: $T:\mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})\to \mathcal{S}(X; \mathbb{Z} / 2\mathbb{Z})$ s.t. $$T(\sigma)=\tilde{\sigma}+\Theta \circ \tilde{\sigma},\quad \forall \sigma:\Delta_{n}\to Y$$where $\tilde{\sigma}:\Delta_{n}\to X$ is a choice of lift given by [[Lift|Theorem 2.2]].
 > 2. the following is a SES: $$0\to \mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})\xrightarrow{T} \mathcal{S}(X;\mathbb{Z} / 2\mathbb{Z})\xrightarrow{\pi_{c}} \mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})\to 0$$
 
+^0b154f
+
 > [!proof]-
 > We have that:
 > 1. We first show that $T$ is well-defined. If $\tilde{\sigma}'$ is another choice of the lift, then as $\pi$ is a 2:1 covering, $\tilde{\sigma}'=\Theta\tilde{\sigma}$. Hence, $$\tilde{\sigma}'+\Theta\tilde{\sigma}'=\Theta\tilde{\sigma}+\underbrace{ \Theta\Theta }_{ =\text{id} } \tilde{\sigma}=\tilde{\sigma}+\Theta\tilde{\sigma}$$
@@ -228,28 +230,58 @@
 >    
 >    Lastly, $$\pi_{c} (T(\sigma))=\pi_{c}(\tilde{\sigma}+\Theta \tilde{\sigma})=\sigma+\sigma=0$$Hence, $\text{im } T\subseteq \text{ker }\pi_{c}$. Conversely, if $\pi_{c}(\tilde{\sigma})=0$, then either $\tilde{\sigma}=0$. If not, we have that $\pi_{c}(\tilde{\sigma})=\sigma+\Theta\sigma=T(\sigma)$. 
 
+^54871b
+
 ---
 > [!lemma] Lemma 2
 > Let $\pi:X\to Y,\pi':X'\to Y'$ be two 2:1 coverings. Let $\Theta:X\to X$ and $\Theta':X'\to X'$ be the unique non-trivial maps s.t. $\pi=\Theta \pi$ and $\pi'=\Theta'\pi'$ respectively. 
 > 1. Let $f:X\to X'$ s.t. $\Theta' \circ f=f\circ\Theta$, then there exists a map $\overline{f}:Y\to Y'$ s.t. $\overline{f} \circ\pi=\pi' \circ f$.
 > 2. the following two SES's commute: $$\begin{CD}0@>>> \mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})@>T>> \mathcal{S}(X;\mathbb{Z} / 2\mathbb{Z})@>\pi_{c}>> \mathcal{S}(Y;\mathbb{Z} / 2\mathbb{Z})\to 0\\&@V\overline{f}_{c}VV@Vf_{c}VV@V\overline{f}_{c}VV\\0@>>> \mathcal{S}(Y';\mathbb{Z} / 2\mathbb{Z})@>T'>> \mathcal{S}(X';\mathbb{Z} / 2\mathbb{Z})@>\pi'_{c}>> \mathcal{S}(Y';\mathbb{Z} / 2\mathbb{Z})\to 0\end{CD}$$
 
+^f28141
+
 > [!proof]-
 > We have: 
 > 1. Define $\overline{f}:Y\to Y'$ s.t. $\overline{f}(\pi(x))=\pi'(f(x))$. We show that this is well-defined. Let $\tilde{x},\tilde{x}'$ be the two choices of lift of $x$. Then, $$\pi'(f(\tilde{x}'))=\pi'(f(\Theta(\tilde{x})))=\pi'(\Theta'(f(\tilde{x})))=\pi'(f(\tilde{x}))$$
 > 2. We have that: $$f_{c}(T(\sigma))=f_{c}(\tilde{\sigma}+\Theta\tilde{\sigma})=f\circ \tilde{\sigma}+\Theta' \circ  f \circ  \tilde{\sigma}=T'(\pi'(f(\tilde{\sigma})))=T'(\overline{f}_{c}(\sigma))$$
+
+^ac52f2
+
 ---
 > [!lemma] Lemma 3
 If there exists a continuous function $\phi:S^n\to S^m$ that is odd, i.e. $\phi(-x)=-\phi(x)$ for all $x\in S^n$. Then, $n\leq m$
 
-> [!proof]+
-> Assume $n>m$ by contradiction. Assume wlog that $m>0$ as for $m=0$ the statement is clear. 
+^08fde8
+
+> [!proof]-
+> Assume $n>m$ by contradiction. Assume wlog that $m>0$ as for $m=0$ the statement is clear. Using Lemma 2 on $X:= S^n$, $X':= S^m$ and $Y:= \mathbb{R}\mathbb{P}^n$ and $Y':=\mathbb{R}\mathbb{P}^m$, we have that: $$\Theta' \circ  \phi=\phi \circ  \Theta$$by assumption and we have that there exists a map $\tilde{\phi}:\mathbb{R}\mathbb{P}^n\to \mathbb{R}\mathbb{P}^m$ with $\overline{\phi} \circ \pi=\pi' \circ \phi$.
+> 
+> Now, consider the LES associated to $S^m$ and $\mathbb{R}\mathbb{P}^m$. We have by Lemma 1:
+> 1. $T'_{*}:H_{m}(\mathbb{R}\mathbb{P}^m , \mathbb{Z} / 2\mathbb{Z})\to H_{m}(S^m , \mathbb{Z} / 2\mathbb{Z})$ is an isomorphism. Indeed, both maps are isomorphic to $\mathbb{Z} / 2\mathbb{Z}$ and $T'_{*}$ is injective as: 
+> $$0\to H_{m}(\mathbb{R}\mathbb{P}^m, \mathbb{Z} / 2\mathbb{Z}) \xrightarrow{T'_{*}} H_{m}(S^{m}, \mathbb{Z} / 2\mathbb{Z})\xrightarrow{\pi'_{*}} H_{m}(\mathbb{R}\mathbb{P}^m , \mathbb{Z} / 2 \mathbb{Z})\xrightarrow{\partial_{*}} \dots$$
+> 1. $\partial_{*}:H_{k}(\mathbb{R}\mathbb{P}^m; \mathbb{Z} / 2\mathbb{Z})\to H_{k-1}(\mathbb{R}\mathbb{P}^m, \mathbb{Z} / 2\mathbb{Z})$ is an isomorphism for all $1\leq k\leq m$. 
+>    Indeed, $$H_{m}(\mathbb{R}\mathbb{P}^m, \mathbb{Z} / 2\mathbb{Z}) \xrightarrow{\cong} H_{m}(S^{m}, \mathbb{Z} / 2\mathbb{Z})\xrightarrow{\pi'_{*}} H_{m}(\mathbb{R}\mathbb{P}^m , \mathbb{Z} / 2 \mathbb{Z})\xrightarrow{\partial_{*}}  H_{m-1}(\mathbb{R}\mathbb{P}^m , \mathbb{Z} / 2 \mathbb{Z})\to \dots$$Here as $T'_{*}$ is an isomorphism, $\partial_{*}$ is injective and as both groups are isomorphic to $\mathbb{Z} / 2\mathbb{Z}$, $\partial_{*}$ is an isomorphism. For every $1< k< m$, $$0\cong H_{k}(S^{m}, \mathbb{Z} / 2\mathbb{Z})\xrightarrow{\pi'_{*}} H_{k}(\mathbb{R}\mathbb{P}^m , \mathbb{Z} / 2 \mathbb{Z})\xrightarrow{\partial_{*}}  H_{k-1}(\mathbb{R}\mathbb{P}^m , \mathbb{Z} / 2 \mathbb{Z})\to  H_{k-1}(S^m , \mathbb{Z} / 2 \mathbb{Z})\cong 0$$Hence, $\partial_{*}$ is an isomorphism. Finally, $\partial_{*}$ is also an isomorphism for $k=1$, analogously to $k=m$. 
+>    
+>  Now, consider the commutative diagram: $$\begin{CD}H_{k}(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})@>\partial_{*}>> H_{k-1}(\mathbb{R}\mathbb{P}^n ; \mathbb{Z} / 2\mathbb{Z})\\ @V\overline{\phi}_{*}VV@V\overline{\phi}_{*}VV\\ H_{k}(\mathbb{R}\mathbb{P}^m;\mathbb{Z} / 2\mathbb{Z})@>>\partial_{*}> H_{k-1}(\mathbb{R}\mathbb{P}^m ; \mathbb{Z} / 2\mathbb{Z}) \end{CD}$$If $k=1$, then as $\mathbb{R}\mathbb{P}^n, \mathbb{R}\mathbb{P}^m$ are both path-connected, any map induces an isomorphism in the zeroth homology. As $\partial_{*}$'s are isomorphisms as well, $\overline{\phi}_{i}$ is an isomorphism at degree $k$ as well. 
+>  
+>  Inductively, we have that $\overline{\phi}_{*}:H_{m}(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})\to H_{m}(\mathbb{R}\mathbb{P}^m;\mathbb{Z} / 2\mathbb{Z})$ is an isomorphism. Hence, we have that: $$\begin{CD}H_{m}(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})@>T_{*}>> H_{m}(S^n ; \mathbb{Z} / 2\mathbb{Z})\\ @V\overline{\phi}_{*}V\cong V@V\phi_{*}VV\\ H_{m}(\mathbb{R}\mathbb{P}^m;\mathbb{Z} / 2\mathbb{Z})@>\cong>T'_{*}> H_{m}(S^m ; \mathbb{Z} / 2\mathbb{Z}) \end{CD}$$However, this is a contradiction as $H_{m}(S^n;\mathbb{Z} / 2\mathbb{Z})\cong 0$ where $H_{m}(\mathbb{R}\mathbb{P}^m;\mathbb{Z} / 2\mathbb{Z})\cong \mathbb{Z} / 2\mathbb{Z}$. 
+>    
+>    
+
+^fd0c59
+
 ---
 
-> [!lemma] Theorem 2 (Borsuk-Ulam)
+> [!lemma] Theorem 4 (Borsuk-Ulam)
 > Let $f:S^n\to \mathbb{R}^n$ be a continuous map. 
 > 1. There exists $x\in S^n$ s.t. $f(x)=f(-x)$.
 
+^b87953
+
+> [!proof]-
+> Assume that such a point doesn't exist. Then, we define: $$\phi:S^n\to S^{n-1},\quad x\mapsto \frac{f(x)-f(-x)}{\left\| f(x)-f(-x) \right\| }$$Then, $\phi$ is well-defined and $\phi(-x)=-\phi(x)$. Hence, by Lemma 3, we have that $n\leqn-1$, which is a contradiction.
+
+^25a61e
 
 ---
 ##### Examples
