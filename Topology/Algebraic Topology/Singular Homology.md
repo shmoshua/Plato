@@ -226,16 +226,24 @@
 ---
 
 > [!lemma] Proposition 5
-> Let $\sigma_{0}:\Delta_n \to \Delta_{n} / \partial\Delta_{n}$ be the quotient map. Then,
-> 1. $\sigma_{0}$ is a cycle in $\mathcal{S}(\Delta_{n} / \partial \Delta_{n}, *)$. 
-> 2. $[\sigma_{0}]$ is a generator in $H_{n}(\Delta_{n} / \partial \Delta _{n}, *)\cong H_{n}(S^n, *)\cong \tilde{H}_{n}(S^n)\cong \mathbb{Z}$.
-> 3. for any abelian group $G$, $$G\to H_{n}(\Delta_{n} / \partial \Delta_{n},*;G),\quad g\mapsto [g\sigma_{0}]$$is an isomorphism.
+> Let $\sigma_{n}:\Delta_n \to \Delta_{n} / \partial\Delta_{n}$ be the quotient map. Then,
+> 1. $\sigma_{n}$ is a cycle in $\mathcal{S}(\Delta_{n} / \partial \Delta_{n}, *)$. 
+> 2. $[\sigma_{n}]$ is a generator in $H_{n}(\Delta_{n} / \partial \Delta _{n}, *)\cong H_{n}(S^n, *)\cong \tilde{H}_{n}(S^n)\cong \mathbb{Z}$.
+> 3. for any abelian group $G$, $$G\to H_{n}(\Delta_{n} / \partial \Delta_{n},*;G),\quad g\mapsto [g\sigma_{n}]$$is an isomorphism.
 
 > [!proof]+
 > We have: 
 > 1. Notice that: $$\partial\sigma_{0}=\sum_{i=0}^{n}(-1)^i (\sigma_{0} \circ  F^n_{i})=\sum_{i=0}^{n}(-1)^i *\in S_{n-1}(*)$$Hence, $\partial[\sigma_{0}]=[\partial\sigma_{0}]=0$. 
 > 2. Let $\sigma$ be a cycle in $S_{n}(\Delta_{n} / \partial \Delta_{n}, *)$. We will show that $[\sigma]=k[\sigma_{0}]$ for some $k\in \mathbb{Z}$. We have that $\sigma$ induces a map: $$\sigma:\Delta_{n}\to \Delta_{n} / \partial \Delta_{n}$$ where $\partial\sigma=\sum_{i=0}^{n}(-1)^i\sigma \circ F^n_{i}\in S_{n-1}(*)$. Notice that $\partial\sigma_{0}=\mathbb{1}_{n\text{ even}}*$. 
-> 3. We will show this by induction over $n$. 
+> 3. Consider the following maps: $$H_{n}(\Delta _{n} / \partial  \Delta_{n},*)\xleftarrow{q_{*},\cong}H_{n}(\Delta_{n}, \partial\Delta_{n})\xrightarrow{\cong} \tilde{H}_{n-1}( \partial\Delta_{n})$$where the first isomorphism is from the fact that $(\Delta_{n}, \partial\Delta_{n})$ is a [[good pair]] and the second isomorphism from the reduced LES and the fact that $\Delta_{n}$ is contractible. 
+>    
+>    Now, consider $i_{n}:\Delta_{n}\to \Delta_{n}$. Then, we notice that $q_{*}[i_{n}]=[\sigma_{n}]$. Further, $\partial_{*}[i_{n}]=[\beta_{n-1}]$ where: $$\beta_{n-1}=\partial i_{n}=\sum_{i=0}^{n}(-1)^i F^n_{i}\in S_{n-1}(\partial \Delta_{n})$$Hence, it suffices to show that $[\beta_{n-1}]$ generates $\tilde{H}_{n-1}(\partial\Delta_{n})$. 
+>    
+>    We show this by induction over $n$.
+> 	1. For $n=0$, $[\beta_{0}]$ obviously generates $\tilde{H}_{0}(\partial\Delta_{1})$. 
+> 	2. For $n\geq 1$, consider a map $\phi:\partial\Delta^n\to\Delta^{n-1} / \partial \Delta^{n-1}$ which collapses all but zeroth face to a point. Then, for the induced map $\phi_{*}:\tilde{H}_{n-1}(\partial\Delta_{n})\to \tilde{H}_{n-1}(\Delta_{n-1} / \partial\Delta_{n-1})$ it holds that $p$
+>    
+>    We will show this by induction over $n$. 
 > 	1. For $n=0$, $\sigma_{0}$ is obviously a generator. 
-> 	2. Let $n\geq 1$. Let $\Lambda \subseteq \Delta^n$ be the union of all but one of the $n-1$-dimensional faces of $\Delta^n$. Then, consider: $$H_{n}(\Delta ^n / \partial  \Delta)$$
+> 	2. Let $n\geq 1$. Let $\Lambda \subseteq \Delta_{n}$ be the union of all but one of the $n-1$-dimensional faces of $\Delta_{n}$. Then, consider: $$H_{n}(\Delta _{n} / \partial  \Delta_{n},*)\xleftarrow{\cong}H_{n}(\Delta_{n}, \partial\Delta_{n})\xrightarrow{\cong} H_{n-1}( )$$
 	
