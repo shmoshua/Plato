@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
+              "title": "Graph Theory Roadmap"
             }
           },
           {
@@ -119,12 +119,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/CW-Complex.md",
+                "file": "Graph Theory/k-Connected Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CW-Complex"
+              "title": "k-Connected Graph"
             }
           },
           {
@@ -301,14 +301,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bf8b230d722e2f90",
+  "active": "8966ac07a0cc5258",
   "lastOpenFiles": [
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Courses/Graph Theory/Problem Set 3.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/k-Connected Graph.md",
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
+    "Courses/Graph Theory/Problem Set 3.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Lift.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Good Pair.md",
@@ -327,8 +329,6 @@
     "TIKZ.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Topology/Quotient Topology.md",
-    "Graph Theory/Sparsest Cut.md",
-    "Graph Theory/Path (Graph).md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
