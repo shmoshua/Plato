@@ -68,15 +68,13 @@
 
 - **Remark**: If $M,N$ are free of rank $m,n$ respectively, $$M\otimes N\cong R^m\otimes (R\oplus \dots \oplus R)\cong (R^m \otimes R)\oplus \dots \oplus (R^m \otimes R)\cong R^m\oplus \dots \oplus R^m\cong R^{mn}$$ ^552c4a
 ---
-> [!lemma] 
----
-> [!lemma] Proposition 4 (Tensor Products are Right Exact)
+> [!lemma] Proposition 3 (Tensor Products are Right Exact)
 > Let $R$ be a ring and $M,N,P$ be $R$-modules. 
 > 1.  $\text{Hom}(M,\text{Hom}(N,P))\cong \text{Hom}(M\otimes N,P)$
 > 2. If $M\xrightarrow{\varphi}N\xrightarrow{\psi}P\to 0$ is an [[exact sequence]], then for any $R$-module $A$:$$M\otimes A\xrightarrow{\varphi \otimes  \text{id}}N\otimes A\xrightarrow{\psi \otimes  \text{id}}P\otimes A\to 0$$is an exact sequence as well.
 > 3. If $0\to M \to N\to P \to 0$ is exact, then for any $R$-module $A$:$$0\to M\otimes A \to N\otimes A \to P \otimes A \to 0$$is exact if:
 > 	1. $0\to M\to N\to P \to 0$ is [[Split Exact Sequence|split]].
-> 	2. $A$ is a finitely generated, free $R$-module.
+> 	2. $A$ is a free $R$-module.
 
 ^47b82c
 
@@ -90,7 +88,7 @@
 >    
 >    Let: $\varphi \otimes \text{id}\left( \sum_{i}^{}m_{i}\otimes a_{i} \right)=0$. Then, $\sum_{i}^{}\varphi(m_{i})\otimes a_{i} = 0$ and $$\sum_{i}^{}m_{i}\otimes  a_{i}=(j\otimes \text{id})\left( \sum_{i}^{}\varphi(m_{i})\otimes  a_{i} \right)=0$$Hence, $\varphi \otimes \text{id}$ is injective.
 >    
->    If $A$ is finitely generated free with basis $b_{1},\dots,b_{k}$. Then, for any $m\in M$, $$\varphi \otimes  \text{id}\left( \sum_{i}^{}m_{i}\otimes a_{i} \right)=\sum_{i}^{}\varphi(m_{i})\otimes  a_{i}=\sum_{i,j}^{}r_{ij}\varphi(m_{i})\otimes b_{j}=0$$Hence, $\sum_{i}^{}r_{ij}= 0$ for all $j$ and $\sum_{i}^{}m_{i}\otimes a_{i} = 0$.
+>    If $A$ is finitely generated free with basis $(b_{i})_{i\in I}$. Then, if we have that: $$0=\varphi \otimes  \text{id}\left( \sum_{i}^{}m_{i}\otimes a_{i} \right)=\sum_{i}^{}\varphi(m_{i})\otimes  a_{i}$$However, note that the following map is a bijection.$$M\otimes  A\to M^I,\quad \sum_{i\in I}^{}m_{i}\otimes  a_{i}\mapsto (m_{i})_{i\in I} $$Hence, $\varphi(m_{i})=0$ for all $i\in I$ and by injectivity of $\varphi$, we have that $m_{i}=0$ for all $i\in I$.
 
 ^2db9e9
 

@@ -231,19 +231,30 @@
 > 2. $[\sigma_{n}]$ is a generator in $H_{n}(\Delta_{n} / \partial \Delta _{n}, *)\cong H_{n}(S^n, *)\cong \tilde{H}_{n}(S^n)\cong \mathbb{Z}$.
 > 3. for any abelian group $G$, $$G\to H_{n}(\Delta_{n} / \partial \Delta_{n},*;G),\quad g\mapsto [g\sigma_{n}]$$is an isomorphism.
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. Notice that: $$\partial\sigma_{0}=\sum_{i=0}^{n}(-1)^i (\sigma_{0} \circ  F^n_{i})=\sum_{i=0}^{n}(-1)^i *\in S_{n-1}(*)$$Hence, $\partial[\sigma_{0}]=[\partial\sigma_{0}]=0$. 
-> 2. Let $\sigma$ be a cycle in $S_{n}(\Delta_{n} / \partial \Delta_{n}, *)$. We will show that $[\sigma]=k[\sigma_{0}]$ for some $k\in \mathbb{Z}$. We have that $\sigma$ induces a map: $$\sigma:\Delta_{n}\to \Delta_{n} / \partial \Delta_{n}$$ where $\partial\sigma=\sum_{i=0}^{n}(-1)^i\sigma \circ F^n_{i}\in S_{n-1}(*)$. Notice that $\partial\sigma_{0}=\mathbb{1}_{n\text{ even}}*$. 
-> 3. Consider the following maps: $$H_{n}(\Delta _{n} / \partial  \Delta_{n},*)\xleftarrow{q_{*},\cong}H_{n}(\Delta_{n}, \partial\Delta_{n})\xrightarrow{\cong} \tilde{H}_{n-1}( \partial\Delta_{n})$$where the first isomorphism is from the fact that $(\Delta_{n}, \partial\Delta_{n})$ is a [[good pair]] and the second isomorphism from the reduced LES and the fact that $\Delta_{n}$ is contractible. 
+> 2. Consider the following maps: $$H_{n}(\Delta _{n} / \partial  \Delta_{n},*)\xleftarrow{q_{*},\cong}H_{n}(\Delta_{n}, \partial\Delta_{n})\xrightarrow{\cong} \tilde{H}_{n-1}( \partial\Delta_{n})$$where the first isomorphism is from the fact that $(\Delta_{n}, \partial\Delta_{n})$ is a [[good pair]] and the second isomorphism from the reduced LES and the fact that $\Delta_{n}$ is contractible. 
 >    
 >    Now, consider $i_{n}:\Delta_{n}\to \Delta_{n}$. Then, we notice that $q_{*}[i_{n}]=[\sigma_{n}]$. Further, $\partial_{*}[i_{n}]=[\beta_{n-1}]$ where: $$\beta_{n-1}=\partial i_{n}=\sum_{i=0}^{n}(-1)^i F^n_{i}\in S_{n-1}(\partial \Delta_{n})$$Hence, it suffices to show that $[\beta_{n-1}]$ generates $\tilde{H}_{n-1}(\partial\Delta_{n})$. 
 >    
 >    We show this by induction over $n$.
 > 	1. For $n=0$, $[\beta_{0}]$ obviously generates $\tilde{H}_{0}(\partial\Delta_{1})$. 
-> 	2. For $n\geq 1$, consider a map $\phi:\partial\Delta^n\to\Delta^{n-1} / \partial \Delta^{n-1}$ which collapses all but zeroth face to a point. Then, for the induced map $\phi_{*}:\tilde{H}_{n-1}(\partial\Delta_{n})\to \tilde{H}_{n-1}(\Delta_{n-1} / \partial\Delta_{n-1})$ it holds that $p$
->    
->    We will show this by induction over $n$. 
-> 	1. For $n=0$, $\sigma_{0}$ is obviously a generator. 
-> 	2. Let $n\geq 1$. Let $\Lambda \subseteq \Delta_{n}$ be the union of all but one of the $n-1$-dimensional faces of $\Delta_{n}$. Then, consider: $$H_{n}(\Delta _{n} / \partial  \Delta_{n},*)\xleftarrow{\cong}H_{n}(\Delta_{n}, \partial\Delta_{n})\xrightarrow{\cong} H_{n-1}( )$$
-	
+> 	2. For $n\geq 1$, consider a map $\phi:\partial\Delta^n\to\Delta^{n-1} / \partial \Delta^{n-1}$ which collapses all but zeroth face to a point. Then, for the induced map $\phi_{*}:\tilde{H}_{n-1}(\partial\Delta_{n})\to \tilde{H}_{n-1}(\Delta_{n-1} / \partial\Delta_{n-1})$ it holds that $\phi_{*}([\beta_{n-1}])=[\sigma_{n-1}]$ which is a generator by the induction hypothesis. 
+>  1. Analogously, we have the following isomorphisms: $$H_{n}(\Delta _{n} / \partial  \Delta_{n},*;G)\xleftarrow{q_{*},\cong}H_{n}(\Delta_{n}, \partial\Delta_{n};G)\xrightarrow{\cong} \tilde{H}_{n-1}( \partial\Delta_{n};G)\to {H}_{n-1}(\Delta_{n-1} / \partial \Delta_{n-1}, *;G)$$and $G \to \tilde{H}_{0}(\partial\Delta_{0} ; G),g\mapsto [g\beta_{0}]$ is an isomorphism.
+---
+> [!lemma] Proposition 6 (Change of Coefficients)
+> Let $G_{1},G_{2},G_{3}$ be abelian groups and $\varphi:G_{1}\to G_{2}$ and $\psi:G_{2}\to G_{3}$ homomorphisms. 
+> 1. for any $(X,A)$, there exists a [[Chain Complex|chain map]] $\varphi^c:S_{*}(X,A;G_{1})\to S_{*}(X,A;G_{2})$ s.t. for any $f:(X,A)\to(Y,B)$, $\varphi^c$ commutes with $f_{c}$. 
+> 2. if $0\to G_{1}\to G_{2}\to G_{3}\to 0$ is a SES, then $$0 \to \mathcal{S}(X,A;G_{1})\to \mathcal{S}(X,A;G_{2})\to \mathcal{S}(X,A;G_{3})\to 0$$is a SES as well.
+> 3. there exists a LES: $$\dots\to H_{n}(X,A;G_{1})\to H_{n}(X,A;G_{2})\to H_{n}(X,A;G_{3})\to H_{n-1}(X,A;G_{1})\to \cdots $$
+
+> [!proof]-
+> We have that: 
+> 1. It follows from:$$\varphi^c\left( \sum_{i}^{}g_{i}\sigma_{i} \right)=\sum_{i}\varphi(g_{i})\sigma_{i}$$Then, this obviously commutes with $f_{c}$. 
+> 2. As $S_{*}(X,A)$ is a free abelian group, the statement follows from the right exactness of [[Tensor Product]]. (Proposition 3).
+> 3. Follows from 2 and [[Exact Sequence|Theorem 3]].
+
+- **Remark**: Most interesting examples of the SES of abelian groups are of the form:
+	1. $0\to \mathbb{Z} \xrightarrow{\times p} \mathbb{Z} \to \mathbb{Z} / p\mathbb{Z} \to 0$
+	2. $0 \to \mathbb{Z} / p\mathbb{Z} \xrightarrow{\times p}  \mathbb{Z} / p^{2} \mathbb{Z} \to \mathbb{Z} / p\mathbb{Z} \to 0$
