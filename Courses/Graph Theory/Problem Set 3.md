@@ -26,4 +26,6 @@ Hence, we can extend the cycle using the two paths instead of $u_{1}u_{2}$. This
 
 ---
 #### Problem 5
-Let 
+Let $G=(S\sqcup T, E)$ be a bipartite graph. Assume $G$ has no matching of size $k$. Then, the maximum number of vertex disjoint $S$-$T$ paths is $\leq k-1$. Hence, there exists a $S$-$T$ separating set $X$ of size $\leq k-1$. $X$ has to then intersect every edge, as every edge is a $S$-$T$-path. This proves the statement.
+
+---
