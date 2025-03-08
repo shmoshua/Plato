@@ -8,4 +8,6 @@ Conversely, assume $X$ is not minimal, i.e. there exists $x\in X$ s.t. $Y:= X \b
 ---
 #### Problem 2
 
-Let $G$ be a graph with $\left| V(G) \right|=: n\geq k+1$ and $\delta(G)\geq (n+k-2) / 2$. Assume that $G$ is not $k$-connected. Then, there exists 
+Let $G$ be a graph with $\left| V(G) \right|=: n\geq k+1$ and $\delta(G)\geq (n+k-2) / 2$. Assume that $G$ is not $k$-connected. Then, there exists $S\in {V(G) \choose k-1}$ s.t. $G \backslash S$ is not connected. Then, as $G \backslash S$ has $n-k+1$ vertices, the smallest component $C$ in $G \backslash S$ has at most $(n-k+1) / 2$ vertices. Now, for any $v\in C$, we have that: $$d(v)\leq \frac{n-k+1}{2}-1+k-1=\frac{n+k-3}{2}<\delta(G)$$which is a contradiction.
+
+---

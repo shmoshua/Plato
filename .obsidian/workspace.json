@@ -156,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -301,7 +301,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bf8b230d722e2f90",
+  "active": "8966ac07a0cc5258",
   "lastOpenFiles": [
     "Graph Theory/k-Connected Graph.md",
     "Courses/Graph Theory/Problem Set 3.md",
