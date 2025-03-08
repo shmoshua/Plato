@@ -14,8 +14,8 @@ Let $G$ be a graph with $\left| V(G) \right|=: n\geq k+1$ and $\delta(G)\geq (n+
 #### Problem 3
 Assume that for any three vertices $x,y,z$ there is a $xz$-path containing $y$. If $G$ is not 2-connected, there exists $z\in V$ s.t. $G \backslash z$ is not connected. Let $x,y$ be two vertices that are not connected in $G \backslash z$. However, denote the $xz$-path containing $y$ as $P$. This clearly contains a subpath $Q$ from $x$ to $y$ that does not contain $z$. This is a contradiction to $x,y$ being disconnected in $G \backslash z$.
 
-Conversely, let $G$ be 2-connected and $x,y\in V$ disjoint. Fix $z\notin \{ x,y \}$. Then, by definition, there exists a $xy$-path $v_{1}\dots.v_{k}$ with $v_{1}=x$ and $v_{k}=y$ that doesn't contain $z$
+Conversely, let $G$ be 2-connected and $x,y\in V$ disjoint. Fix $z\in V \backslash \{ x,y \}$. Then, by definition, there exists a $xy$-path $P:=v_{1}\dots.v_{k}$ with $v_{1}=x$ and $v_{k}=y$ that doesn't contain $z$. Now, by Menger, there also exists two internally disjoint $yz$-paths $Q_{1}$ and $Q_{2}$. If either of the paths cross $P$ only at $y$, we have a $xz$-path containing $y$. Otherwise, both paths cross $P$ at some internal nodes. Wlog assume $P_{1}$ crosses $P$ "first", i.e. for $i_{1}:=\min \{j\in [k]:v_{j}\in P_{1} \}$ and similarly $i_{2}$, that $i_{1}<i_{2}$. (Notice that $i_{1}=i_{2}$ cannot happen as $P_{1},P_{2}$ are internally disjoint and $z\notin P$). Therefore, by taking $v_{1}\dots v_{i_{1}}$, $v_{i_{1}}$ to $y$ along $P_{1}$ and then to $z$ along $P_{2}$, we have a $xz$-path that contains $y$. 
 
-by Menger there exists two internally disjoint paths between any two vertices $x,y\in V$. Hence, 
-
-
+---
+#### Problem 4
+Let $G$ be $k$-connected with $\left| V(G) \right|\geq 2k$. Let $C$ be a cycle of maximum length. Assume that $C<2k$. 
