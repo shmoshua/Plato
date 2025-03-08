@@ -18,4 +18,12 @@ Conversely, let $G$ be 2-connected and $x,y\in V$ disjoint. Fix $z\in V \backsla
 
 ---
 #### Problem 4
-Let $G$ be $k$-connected with $\left| V(G) \right|\geq 2k$. Let $C$ be a cycle of maximum length. Assume that $C<2k$. 
+Let $G$ be $k$-connected with $\left| V(G) \right|\geq 2k$. Let $C$ be a cycle of maximum length. Assume that $\left| C \right|\leq2k -1$. Then, there exists $v\in V$ that is not on the cycle, as $\left| V \right|\geq 2k$. 
+
+Now, let $S:= \left| V(C) \right|$. Then, by Corollary 3.15, we have $k$ paths forming a $v$-$S$ fan in $G$, as $G$ is $k$-connected. However, as $\left| S\right|\leq 2k-1$, we have two adjacent 
+
+Let $S$ be the set of nodes outside of $C$ and $T:=\{ v\in C:N(v)\cap S\neq \varnothing \}$. Then, we have that $G \backslash T$ is disconnected, i.e. $\left| T \right|\geq k$. 
+
+Now, as $\left| C \right|\leq 2k-1$, there exists two vertices $v_{1},v_{2}\in T$ that are adjacent on $C$. Let $u_{1},u_{2}\in S$ be vertices $v_{1},v_{2}$ are adjacent to in $S$, respectively. 
+1. if $v_{1}=v_{2}$, then we can automatically extend the cycle and reach a contradiction.
+2. if $v_{1}\neq v_{2}$, then we claim that $C$ does not separate $v_{1}$ and $v_{2}$. Otherwise, 
