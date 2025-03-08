@@ -11,3 +11,11 @@ Conversely, assume $X$ is not minimal, i.e. there exists $x\in X$ s.t. $Y:= X \b
 Let $G$ be a graph with $\left| V(G) \right|=: n\geq k+1$ and $\delta(G)\geq (n+k-2) / 2$. Assume that $G$ is not $k$-connected. Then, there exists $S\in {V(G) \choose k-1}$ s.t. $G \backslash S$ is not connected. Then, as $G \backslash S$ has $n-k+1$ vertices, the smallest component $C$ in $G \backslash S$ has at most $(n-k+1) / 2$ vertices. Now, for any $v\in C$, we have that: $$d(v)\leq \frac{n-k+1}{2}-1+k-1=\frac{n+k-3}{2}<\delta(G)$$which is a contradiction.
 
 ---
+#### Problem 3
+Assume that for any three vertices $x,y,z$ there is a $xz$-path containing $y$. If $G$ is not 2-connected, there exists $z\in V$ s.t. $G \backslash z$ is not connected. Let $x,y$ be two vertices that are not connected in $G \backslash z$. However, denote the $xz$-path containing $y$ as $P$. This clearly contains a subpath $Q$ from $x$ to $y$ that does not contain $z$. This is a contradiction to $x,y$ being disconnected in $G \backslash z$.
+
+Conversely, let $G$ be 2-connected and $x,y\in V$ disjoint. Fix $z\notin \{ x,y \}$. Then, by definition, there exists a $xy$-path $v_{1}\dots.v_{k}$ with $v_{1}=x$ and $v_{k}=y$ that doesn't contain $z$
+
+by Menger there exists two internally disjoint paths between any two vertices $x,y\in V$. Hence, 
+
+
