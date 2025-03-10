@@ -77,3 +77,8 @@
 ![[Degree of Sphere Maps#^25a61e|p]]
 
 ---
+![[Degree of Sphere Maps#^6cea15]]
+![[Degree of Sphere Maps#^e6641a|p]]
+
+---
+### 2. Cohomology
