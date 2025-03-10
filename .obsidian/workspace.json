@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "file": "Courses/Measure Theory/Sheet 7.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
+              "title": "Sheet 7"
             }
           },
           {
@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/k-Connected Graph.md",
+                "file": "Probability Theory/Independence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "k-Connected Graph"
+              "title": "Independence"
             }
           },
           {
@@ -119,12 +119,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Probability Theory/Random Variable.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
+              "title": "Random Variable"
             }
           },
           {
@@ -142,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -289,32 +289,32 @@
   },
   "active": "bf8b230d722e2f90",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Problem Set 3.md",
+    "Probability Theory/Independence.md",
+    "Probability Theory/Random Variable.md",
+    "Measure Theory/Measurable Function.md",
     "Courses/Probability Theory/Exercise Class 3.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/k-Connected Graph.md",
+    "Courses/Measure Theory/Sheet 7.md",
+    "Courses/Measure Theory/Sheet 6.md",
+    "Courses/Measure Theory/Sheet 5.md",
+    "Courses/Measure Theory/Sheet 4.md",
+    "Courses/Measure Theory/Sheet 3.md",
+    "Courses/Measure Theory/Sheet 2.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Courses/Graph Theory/Problem Set 3.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Lift.md",
-    "Graph Theory/k-Connected Graph.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Algebra/Chain Complex.md",
     "Algebra/Tensor Product.md",
     "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Algebraic Topology/Relative Homology.md",
-    "Topology/Algebraic Topology/Reduced Homology.md",
-    "Topology/Retract.md",
-    "Topology/Algebraic Topology/Homotopy Group.md",
-    "Graph Theory/Eulerian Trail.md",
-    "Graph Theory/Expander.md",
-    "Graph Theory/Hamiltonian Path.md",
-    "TIKZ.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
