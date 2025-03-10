@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 3.md",
+                "file": "Courses/Probability Theory/Exercise Class 3.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 3"
+              "title": "Exercise Class 3"
             }
           },
           {
@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 3.md",
+                "file": "Courses/Probability Theory/Exercise Class 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 3"
+              "title": "Exercise Class 3"
             }
           },
           {
@@ -287,12 +287,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8966ac07a0cc5258",
+  "active": "bf8b230d722e2f90",
   "lastOpenFiles": [
+    "Courses/Graph Theory/Problem Set 3.md",
+    "Courses/Probability Theory/Exercise Class 3.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Lift.md",
     "Graph Theory/k-Connected Graph.md",
-    "Courses/Graph Theory/Problem Set 3.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
@@ -314,7 +315,6 @@
     "Graph Theory/Hamiltonian Path.md",
     "TIKZ.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
-    "Topology/Quotient Topology.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
