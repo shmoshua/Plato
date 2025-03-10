@@ -279,9 +279,19 @@ If there exists a continuous function $\phi:S^n\to S^m$ that is odd, i.e. $\phi(
 ^b87953
 
 > [!proof]-
-> Assume that such a point doesn't exist. Then, we define: $$\phi:S^n\to S^{n-1},\quad x\mapsto \frac{f(x)-f(-x)}{\left\| f(x)-f(-x) \right\| }$$Then, $\phi$ is well-defined and $\phi(-x)=-\phi(x)$. Hence, by Lemma 3, we have that $n\leqn-1$, which is a contradiction.
+> Assume that such a point doesn't exist. Then, we define: $$\phi:S^n\to S^{n-1},\quad x\mapsto \frac{f(x)-f(-x)}{\left\| f(x)-f(-x) \right\| }$$Then, $\phi$ is well-defined and $\phi(-x)=-\phi(x)$. Hence, by Lemma 3, we have that $n\leq n-1$, which is a contradiction.
 
 ^25a61e
+
+---
+> [!lemma] Theorem 5 (Lusternik–Schnirelmann)
+> Let $A_{1},..,A_{\ell}\subseteq S^n$ be $\ell$ closed subsets s.t. $A_{1}\cup\dots \cup A_{\ell}=S^n$. 
+> 1. if $\ell\leq n+1$, then there exists $i\in[\ell]$ s.t. $A_{i}$ contains antipodal points. 
+
+> [!proof]+
+> We may assume wlog that $\ell=n+1$. Otherwise add empty sets to the cover. Now, assume that $A_{i}\cap (A_{i}^c)=\varnothing$ for all $i\in[n]$. We will show that $A_{n+1}\cap(A_{n+1}^c)\neq \varnothing$. 
+> 
+> As $S^n$ is a [[normal space]], by Urysohn's lemma, there exists continuous functions $f_{i}:S^n\to [0,1]$ s.t. $f|_{A_{i}}=0$ and $f|_{A_{i}^c}=1$ for all $i\in[n]$. Now, consider: $$f:S^n\to \mathbb{R}^n,\quad x\mapsto (f_{1}(x),\dots,f_{n}(x))$$Then, by Borsuk-Ulam, there exists $x\in S^n$ s.t. $f(x)=f(-x)$. However, note that $x\notin A_{i}$ for all $i\in[n]$. Otherwise, $0=f_{i}(x)=f_{i}(-x)=1$ which is a contradiction. 
 
 ---
 ##### Examples
