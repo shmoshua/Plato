@@ -82,3 +82,23 @@
 
 ---
 ### 2. Cohomology
+![[Cochain Complex#^7727cb]]
+
+![[Cochain Complex#^12fba2]]
+![[Cochain Complex#^915852|q]]
+![[Cochain Complex#^1d5d0b|q]]
+![[Cochain Complex#^e374e8|q]]
+
+---
+![[Cochain Complex#^347ad5]]
+![[Cochain Complex#^26627c|p]]
+
+---
+![[Cochain Complex#^8cac80]]
+![[Cochain Complex#^8e49fb|p]]
+
+---
+![[Cochain Complex#^7f660e]]
+![[Cochain Complex#^cbaa04|p]]
+
+---
