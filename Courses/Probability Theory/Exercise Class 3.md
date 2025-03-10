@@ -22,7 +22,8 @@ We have that:
 2. Definition of independent $\sigma$ algebras.
 3. Definition of independent random variables.
 4. If independent then sub-sigma algebras are independent.
-5. Independent then $f(X)$ $g(Y)$ independnet e.g. $\mathbb{1}_{(X\leq 0)}$.
-6. Constant functions are independent to any random variable.
-7. 
+5. Are norm of indpeendent functions independent?
+6. Independent then $f(X)$ $g(Y)$ independnet e.g. $\mathbb{1}_{(X\leq 0)}$.
+7. Constant functions are independent to any random variable.
+8. 
 
