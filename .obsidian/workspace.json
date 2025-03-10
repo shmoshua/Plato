@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+                "file": "Probability Theory/Independence.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Degree of Sphere Maps"
+              "title": "Independence"
             }
           }
         ]
@@ -142,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -289,13 +289,14 @@
   },
   "active": "bf8b230d722e2f90",
   "lastOpenFiles": [
+    "Courses/Measure Theory/Sheet 7.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Random Variable.md",
-    "Measure Theory/Measurable Function.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Courses/Probability Theory/Exercise Class 3.md",
+    "Measure Theory/Measurable Function.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
-    "Courses/Measure Theory/Sheet 7.md",
     "Courses/Measure Theory/Sheet 6.md",
     "Courses/Measure Theory/Sheet 5.md",
     "Courses/Measure Theory/Sheet 4.md",
@@ -303,7 +304,6 @@
     "Courses/Measure Theory/Sheet 2.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Graph Theory/Problem Set 3.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Lift.md",
     "Topology/CW-Complex.md",
     "Topology/Real Projective Space.md",
