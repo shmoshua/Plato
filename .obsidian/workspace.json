@@ -87,9 +87,23 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "a223277d0c22deb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Probability Theory/Exercise Class 3.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Exercise Class 3"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "d54d634cc1ba8421",
@@ -130,12 +144,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+                "file": "Courses/Probability Theory/Exercise Class 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology II Roadmap"
+              "title": "Exercise Class 3"
             }
           },
           {
@@ -326,10 +340,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "fd52941df635f76a",
+  "active": "a223277d0c22deb8",
   "lastOpenFiles": [
-    "Algebra/Chain Complex.md",
+    "Courses/Probability Theory/Exercise Class 3.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Algebra/Chain Complex.md",
     "Algebra/Cochain Complex.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Homotopy.md",
@@ -341,7 +356,6 @@
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Probability Theory/Random Variable.md",
     "Probability Theory/Independence.md",
-    "Courses/Probability Theory/Exercise Class 3.md",
     "Measure Theory/Measurable Function.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
