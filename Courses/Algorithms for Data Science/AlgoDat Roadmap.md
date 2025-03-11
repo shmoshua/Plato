@@ -231,3 +231,11 @@ What do we do when the $k$ relevant features are unknown?
 > Let $U:= \widehat{X}-X^{*}$. We have that: $$0\leq \left\| X^{*}-Y \right\| ^2_{F}-\left\| \widehat{X}-Y \right\| ^2_{F}=\left\| W \right\| ^2_{F}-\left\| U-W \right\| ^{2}_{F}=2\braket{ U , W } -\left\| U \right\| ^{2}_{F}$$ where $\braket{ U , W }:=\sum_{i,j}^{}U_{ij}W_{ij}$. Further, $\text{rk}(U)\leq \text{rk}(\widehat{X})+\text{rk}(X^{*})\leq 2r$. Hence, $$\left\| U \right\| _*\leq \sqrt{ 2r }\|U\|_{F}$$Therefore, by Hölder, $$\left\| U \right\| ^{2}_{F}\leq 2\braket{ U , W } \leq 2 \|U\|_{*}\|W\|\leq 2\sqrt{ 2r }\|U\|_{F}\|W\|$$Hence, $\|U\|^2_{F}\leq 8r\|W\|^{2}$. We can conclude by: $$\frac{1}{nm}\mathbb{E}\left[  \left\| \widehat{X}-X^{*} \right\| ^{2}_{F}\right]\leq \frac{8r}{nm}\mathbb{E}[\left\| W \right\| ^{2}]\leq  r \cdot O\left( \frac{n+m}{nm} \right)=r \cdot O\left( \frac{1}{n}+\frac{1}{m} \right)$$
 
 ---
+#### 3.3 Matrix Completion Model
+> [!outlook] Setup
+> For $r,d,n\geq2$.
+> 1. **Observation**: $\{ (X_{i},y_{i}) \}_{i\in [n]}$ where $y_{i}:= \braket{ X_{i} , \Theta ^{*} }+w$ for $w\sim \mathcal{N}(0,1)$ and $X_{i}:= e_{a_{i}}e_{b_{i}}^\top$ where $a_{i},b_{i}\sim \text{Uni}([d])$ i.i.d. 
+---
+> [!definition]
+> In the given setup,
+> 1. The ***maximum likelihood estimator*** is given by: $$\widehat{X}\in \underset{ \text{rank}(\Theta)\leq r }{ \arg\min } \sum_{i=1}^{n}(\braket{ X_{i} , \Theta  } -y_{i})^{2}$$

@@ -162,15 +162,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Taylor's Theorem.md",
+                "file": "Courses/Probability Theory/Exercise Class 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Taylor's Theorem"
+              "title": "Exercise Class 3"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -315,11 +316,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "66328353a2003542",
   "lastOpenFiles": [
-    "Analysis/Lp Space.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Analysis/Taylor's Theorem.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Analysis/Lp Space.md",
     "Algebra/Linear Algebra/Rank and Nullity.md",
     "Analysis/Convex Function.md",
     "Differential Geometry/Rank.md",
