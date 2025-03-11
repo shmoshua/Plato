@@ -161,12 +161,34 @@ What do we do when the $k$ relevant features are unknown?
 > 1. the ***Huber loss estimator*** is given by: $$\widehat{\beta}:\mathbb{R}^n\to \mathbb{R}^d,\quad y\mapsto \underset{ \beta\in \mathbb{R}^d }{ \arg\min }\ \Phi(X\beta-y)$$
 
 ---
+> [!lemma] Lemma 1
+>  Let $R>0$. Let $f:\mathbb{R}^d\to \mathbb{R}$ be convex s.t. for $\kappa>0$:$$f(u)\geq f(0)-\left\| \nabla f(0) \right\| \cdot \|u\|+\kappa\|u\|^{2},\quad \forall u\in B_{\leq R}(0)$$
+>  1. if $R\geq 2\left\| \nabla f(0) \right\| / \kappa$, then for $u^{*}\in \arg\min f$, $$\|u^{*}\|^{2}\leq \left\| \nabla f(0) \right\| ^{2} / \kappa^{2}$$
+
+> [!proof]+
+> Let $v$ be an arbitrary unit vector. Then, for $0<\lambda\leq R$, $$f(\lambda v)\geq f(0)-\lambda\left\| \nabla f(0) \right\|+\lambda^{2}\kappa $$Now, let $\ell:\mathbb{R}\to \mathbb{R}$ be an affine function s.t. 
+> 1. $\ell(0)=f(0)$ and 
+> 2. $\ell(R)=f(Rv)$.
+>  
+>  As $f$ is convex, $f(\lambda v)\leq \ell(\lambda)$ for all $\lambda\in[0,R]$ and $f(\lambda v)\geq \ell(\lambda)$ for all $\lambda\notin [0,R]$. Now, $$\ell(R)=f(Rv)\geq f(0)-R\left\| \nabla f(0) \right\|+R^{2} \kappa $$$$\ell(0)=f(0)< f(Rv)=\ell(R)$$
+---
 > [!lemma] Theorem 1
 > Let $\alpha:=\min_{i}\mathbb{P}(\eta_{i}\leq 1)$. Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be the rows of $X$ and $C:=\frac{1}{\sqrt{ d }}\max_{i}\|x_{i}\|$. 
-> 1. if $n= \Omega\left( \frac{d^{2}}{C^2\alpha^{2}} \right)$ then for the Huber loss estimator $\widehat{\beta}$, $$\left\| \widehat{\beta}-\beta ^{*} \right\| ^{2}\leq O\left( \frac{d}{\alpha^{2}n} \right)$$
+> 1. if $n= \Omega\left( \frac{d^{2}C^2}{\alpha^{2}} \right)$ then for the Huber loss estimator $\widehat{\beta}$ with probability $0.99$: $$\left\| \widehat{\beta}-\beta ^{*} \right\| ^{2}\leq O\left( \frac{d}{\alpha^{2}n} \right)$$
 
 > [!proof]+
 > We define: $$f:\mathbb{R}^d\to \mathbb{R},\quad \beta\mapsto \frac{1}{n}\sum_{i\in[n]}^{}\Phi(\braket{ x_{i} , \beta } -y_{i})$$Then, $\nabla f(\beta)=\frac{1}{n}\sum_{i\in[n]}^{}\Phi'(\braket{ x_{i} , \beta } -y_{i})x_{i}$ where: $$\Phi'(t)=\begin{cases}\text{sgn}(t)\cdot \left| t \right|&\left| t \right|\leq 2\\2\cdot  \text{sgn}(t)&\left| t \right|\geq 2\end{cases}=\text{sgn}(t)\cdot\min\{ \left| t \right|,2 \}, \quad \Phi''(t)=\mathbb{1}_{\{ \left| t \right| \leq 2 \}}$$
-> We claim that for all $u$ with $\|u\|\leq R$, we have that: $$f(\beta ^{*}+u)\geq f(\beta ^{*})-\left\| \nabla f(\beta ^{*}) \right\|\cdot \|u\|+\frac{\alpha}{10}\|u\|^{2}$$If we have this, then by setting $u:= \widehat{\beta}-\beta ^{*}$, we have $f(\beta ^{*})\geq f(\widehat{\beta})=f(\beta ^{*}+u)$ and: $$\left\| \nabla f(\beta ^{*}) \right\|\cdot \|u\|\geq \frac{\alpha}{10}\|u\|^{2},\quad \frac{100}{\alpha^{2}} \left\| \nabla f(\beta ^{*}) \right\| ^{2}\geq \|u\|^{2} $$By noting that $\nabla f(\beta ^{*})=\frac{1}{n}\sum_{i\in[n]}^{}\Phi'(\eta_{i})x_{i}$ we have:$$\begin{align}\mathbb{E}[\left\| \nabla f(\beta ^{*}) \right\| ^{2}]=\frac{1}{n^{2}}\sum_{i\in [n]}^{}\|x_{i}\|^2\cdot \underbrace{ \mathbb{E}[\Phi'(\eta_{i})^{2}] }_{ \leq 4 }+\frac{1}{n^{2}}\sum_{i\neq j}^{}\braket{ x_{i} , x_{j} } \underbrace{ \mathbb{E}[\Phi'(\eta_{i})\Phi'(\eta_{j})] }_{ =0 }\leq \frac{4}{n^{2}}dn=\frac{4d}{n}\end{align}$$
+> 1. **Claim 1**:
+>    
+> 2. **Claim 2**: for all $u$ with $\|u\|\leq  R$, we have that: $$f(\beta ^{*}+u)\geq f(\beta ^{*})-\left\| \nabla f(\beta ^{*}) \right\|\cdot \|u\|+\frac{\alpha}{10}\|u\|^{2}$$
+>    
+>    From [[Taylor's Theorem|2nd order Hamadard Lemma]], $$f(\beta ^{*}+u)=f(\beta ^{*})+\braket{ \nabla f(\beta ^{*}) , u } +\left\langle u , \left( \int_{0}^{1} (1-t)H_{f}(\beta ^{*}+tu) \, dt  \right)u  \right\rangle $$
+>    
 > 
-> Now we will prove the claim for $R>10\|\nabla f(\beta ^{*})\| / \alpha$. From [[Taylor's Theorem|2nd order Hamadard Lemma]], $$f(\beta ^{*}+u)=f(\beta ^{*})+\braket{ \nabla f(\beta ^{*}) , u } +\left\langle u , \left( \int_{0}^{1} (1-t)H_{f}(\beta ^{*}+tu) \, dt  \right)u  \right\rangle $$
+> 
+> Now, by seting $u:= \widehat{\beta}-\beta ^{*}$, we have $f(\beta ^{*})\geq f(\widehat{\beta})=f(\beta ^{*}+u)$ and further that: $$\left\| \widehat{\beta}-\beta ^{*} \right\| \leq \frac{10}{\alpha}\left\| \nabla f(\beta ^{*}) \right\| $$
+> 
+> $$\left\| \nabla f(\beta ^{*}) \right\|\cdot \|u\|\geq \frac{\alpha}{10}\|u\|^{2},\quad \frac{100}{\alpha^{2}} \left\| \nabla f(\beta ^{*}) \right\| ^{2}\geq \|u\|^{2} $$By noting that $\nabla f(\beta ^{*})=\frac{1}{n}\sum_{i\in[n]}^{}\Phi'(\eta_{i})x_{i}$ we have:$$\begin{align}\mathbb{E}[\left\| \nabla f(\beta ^{*}) \right\| ^{2}]=\frac{1}{n^{2}}\sum_{i\in [n]}^{}\|x_{i}\|^2\cdot \underbrace{ \mathbb{E}[\Phi'(\eta_{i})^{2}] }_{ \leq 4 }+\frac{1}{n^{2}}\sum_{i\neq j}^{}\braket{ x_{i} , x_{j} } \underbrace{ \mathbb{E}[\Phi'(\eta_{i})\Phi'(\eta_{j})] }_{ =0 }\leq \frac{4}{n^{2}}dn=\frac{4d}{n}\end{align}$$
+> 
+> Therefore, $$\mathbb{P}\left( \left\| \widehat{\beta}- \beta ^{*}\right\| ^{2}\geq \frac{40000 d}{\alpha^{2}n}\right)\leq  \frac{\mathbb{E}\left[ \left\| \widehat{\beta}- \beta ^{*}\right\| ^{2} \right] }{40000d / \alpha^{2}n}\leq \frac{\mathbb{E}\left[ \left\| \nabla f(\beta ^{*}) \right\| ^{2} \right] }{400d / n}\leq0.01$$
+> This proves the statement.
