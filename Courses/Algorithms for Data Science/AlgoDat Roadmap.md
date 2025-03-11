@@ -176,11 +176,10 @@ What do we do when the $k$ relevant features are unknown?
 > Let $\alpha:=\min_{i}\mathbb{P}(\eta_{i}\leq 1)$. Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be the rows of $X$ and $C:=\frac{1}{\sqrt{ d }}\max_{i}\|x_{i}\|$. 
 > 1. if $n= \Omega\left( \frac{d^{2}C^2}{\alpha^{2}} \right)$ then for the Huber loss estimator $\widehat{\beta}$ with probability $0.99$: $$\left\| \widehat{\beta}-\beta ^{*} \right\| ^{2}\leq O\left( \frac{d}{\alpha^{2}n} \right)$$
 
-> [!proof]+
+> [!proof]-
 > We define: $$f:\mathbb{R}^d\to \mathbb{R},\quad \beta\mapsto \frac{1}{n}\sum_{i\in[n]}^{}\Phi(\braket{ x_{i} , \beta } -y_{i})$$Then, $\nabla f(\beta)=\frac{1}{n}\sum_{i\in[n]}^{}\Phi'(\braket{ x_{i} , \beta } -y_{i})x_{i}$ where: $$\Phi'(t)=\begin{cases}\text{sgn}(t)\cdot \left| t \right|&\left| t \right|\leq 2\\2\cdot  \text{sgn}(t)&\left| t \right|\geq 2\end{cases}=\text{sgn}(t)\cdot\min\{ \left| t \right|,2 \}, \quad \Phi''(t)=\mathbb{1}_{\{ \left| t \right| \leq 2 \}}$$
-> 1. **Claim 1**: $f$
 >    
-> 2. **Claim 2**: for $R\geq 20 \|\nabla f(0)\| / \alpha$ and for all $u$ with $\|u\|\leq  R$, we have that: $$f(\beta ^{*}+u)\geq f(\beta ^{*})-\left\| \nabla f(\beta ^{*}) \right\|\cdot \|u\|+\frac{\alpha}{10}\|u\|^{2}$$
+> 1. **Claim 1**: for $R\geq 20 \|\nabla f(0)\| / \alpha$ and for all $u$ with $\|u\|\leq  R$, we have that: $$f(\beta ^{*}+u)\geq f(\beta ^{*})-\left\| \nabla f(\beta ^{*}) \right\|\cdot \|u\|+\frac{\alpha}{10}\|u\|^{2}$$
 >    
 >    From [[Taylor's Theorem|2nd order Hamadard Lemma]], $$f(\beta ^{*}+u)=f(\beta ^{*})+\braket{ \nabla f(\beta ^{*}) , u } +\underbrace{ u^\top \left( \int_{0}^{1} (1-t)\text{H}_{f}(\beta ^{*}+tu) \, dt  \right)u }_{ =: M(u) }  $$Now, we have that: $$\text{H}_{f}(\beta ^{*}+tu)=\frac{1}{n}\sum_{i\in[n]}^{}\Phi''(t\braket{ x_{i} ,u } -\eta_{i})x_{i}x_{i}^\top=\frac{1}{n}\sum_{i\in[n]}^{} \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}}x_{i}x_{i}^\top$$ and:$$\begin{align}M(u)&= \frac{1}{n}\sum_{i\in[n]}\left( \int_{0}^{1}  (1-t) \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}} \, dt \right)\braket{ x_{i} , u }^{2}\\&\geq \frac{1}{2n}\sum_{i\in[n]}\mathbb{1}_{\{ \left| \braket{ x_{i} , u } \right| \leq 1 \}}\mathbb{1_{\{ \left| \eta_{i}\right| \leq 1 \}}}\braket{ x_{i} , u }^{2}\\&\geq \mathbb{1}_{\{ \left| C\sqrt{ d }\cdot R\right| \leq 1  \}}\left( \frac{1}{2n}\sum_{i\in[n]}\mathbb{1_{\{ \left| \eta_{i}\right| \leq 1 \}}}\braket{ x_{i} , u }^{2} \right)\end{align}$$
 >    
@@ -193,4 +192,42 @@ What do we do when the $k$ relevant features are unknown?
 > Therefore, $$\mathbb{P}\left( \left\| \widehat{\beta}- \beta ^{*}\right\| ^{2}\geq \frac{40000 d}{\alpha^{2}n}\right)\leq  \frac{\mathbb{E}\left[ \left\| \widehat{\beta}- \beta ^{*}\right\| ^{2} \right] }{40000d / \alpha^{2}n}\leq \frac{\mathbb{E}\left[ \left\| \nabla f(\beta ^{*}) \right\| ^{2} \right] }{400d / n}\leq0.01$$
 > This proves the statement.
 
-$$f$$
+---
+### 3. Low-Rank Factorization Models and PCA
+#### 3.1 Single Spike Model
+> [!outlook] Setup (Single-Spike)
+> We have:
+> 1. **Observation**: $Y:= X^{*}+W$ for unknown $X^{*}\in \mathbb{R}^{m,n}$ with $\text{rk}(X^{*})=1$.
+> 2. **Noise**: $W\in \mathbb{R}^{m,n}$ where $W_{i,j}\sim \mathcal{N}(0,1)$ i.i.d.
+
+---
+> [!definition]
+> Consider the setup as above. 
+> 1. the ***rank-1 estimator*** is given by: $$\widehat{X}\in\underset{ \text{rank}(X)\leq 1 }{ \arg\min }\|X-Y\|^{2}_{F}$$
+---
+> [!lemma] Theorem 1 (Guarantees of Best Rank-1 Approximation)
+> In single-spike model, we have that: $$\frac{1}{nm}\mathbb{E}\left[  \left\| \widehat{X}-X^{*} \right\| ^{2}_{F}\right]\leq O\left( \frac{1}{n}+\frac{1}{m} \right) $$
+
+> [!proof]-
+> Let $U:= \widehat{X}-X^{*}$. We have that: $$0\leq \left\| X^{*}-Y \right\| ^2_{F}-\left\| \widehat{X}-Y \right\| ^2_{F}=\left\| W \right\| ^2_{F}-\left\| U-W \right\| ^{2}_{F}=2\braket{ U , W } -\left\| U \right\| ^{2}_{F}$$ where $\braket{ U , W }:=\sum_{i,j}^{}U_{ij}W_{ij}$. Further, $\text{rk}(U)\leq \text{rk}(\widehat{X})+\text{rk}(X^{*})\leq 2$. Hence, $$\left\| U \right\| _*\leq \sqrt{ 2 }\|U\|_{F}$$Therefore, by Hölder, $$\left\| U \right\| ^{2}_{F}\leq 2\braket{ U , W } \leq 2 \|U\|_{*}\|W\|\leq 2\sqrt{ 2 }\|U\|_{F}\|W\|$$Hence, $\|U\|^2_{F}\leq 8\|W\|^{2}$. We can conclude by: $$\frac{1}{nm}\mathbb{E}\left[  \left\| \widehat{X}-X^{*} \right\| ^{2}_{F}\right]\leq \frac{8}{nm}\mathbb{E}[\left\| W \right\| ^{2}]\leq O\left( \frac{n+m}{nm} \right)=O\left( \frac{1}{n}+\frac{1}{m} \right)$$
+
+---
+#### 3.2 Multiple-Spike Model
+
+> [!outlook] Setup (Multiple-Spike)
+> We have:
+> 1. **Observation**: $Y:= X^{*}+W$ for unknown $X^{*}\in \mathbb{R}^{m,n}$ with $\text{rk}(X^{*})\leq r$.
+> 2. **Noise**: $W\in \mathbb{R}^{m,n}$ where $W_{i,j}\sim \mathcal{N}(0,1)$ i.i.d.
+
+---
+> [!definition]
+> Consider the setup as above. 
+> 1. the ***rank-r estimator*** is given by: $$\widehat{X}\in\underset{ \text{rank}(X)\leq r }{ \arg\min }\|X-Y\|^{2}_{F}$$
+---
+> [!lemma] Theorem 1 (Guarantees of Best Rank-r Approximation)
+> In multiple-spike model, we have that: $$\frac{1}{nm}\mathbb{E}\left[  \left\| \widehat{X}-X^{*} \right\| ^{2}_{F}\right]\leq r \cdot  O\left( \frac{1}{n}+\frac{1}{m} \right) $$
+
+> [!proof]-
+> Let $U:= \widehat{X}-X^{*}$. We have that: $$0\leq \left\| X^{*}-Y \right\| ^2_{F}-\left\| \widehat{X}-Y \right\| ^2_{F}=\left\| W \right\| ^2_{F}-\left\| U-W \right\| ^{2}_{F}=2\braket{ U , W } -\left\| U \right\| ^{2}_{F}$$ where $\braket{ U , W }:=\sum_{i,j}^{}U_{ij}W_{ij}$. Further, $\text{rk}(U)\leq \text{rk}(\widehat{X})+\text{rk}(X^{*})\leq 2r$. Hence, $$\left\| U \right\| _*\leq \sqrt{ 2r }\|U\|_{F}$$Therefore, by Hölder, $$\left\| U \right\| ^{2}_{F}\leq 2\braket{ U , W } \leq 2 \|U\|_{*}\|W\|\leq 2\sqrt{ 2r }\|U\|_{F}\|W\|$$Hence, $\|U\|^2_{F}\leq 8r\|W\|^{2}$. We can conclude by: $$\frac{1}{nm}\mathbb{E}\left[  \left\| \widehat{X}-X^{*} \right\| ^{2}_{F}\right]\leq \frac{8r}{nm}\mathbb{E}[\left\| W \right\| ^{2}]\leq  r \cdot O\left( \frac{n+m}{nm} \right)=r \cdot O\left( \frac{1}{n}+\frac{1}{m} \right)$$
+
+---

@@ -115,6 +115,20 @@
             }
           },
           {
+            "id": "a73e5175b5ef018c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Lp Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lp Space"
+            }
+          },
+          {
             "id": "2ff4945a6432ce65",
             "type": "leaf",
             "state": {
@@ -154,20 +168,6 @@
               },
               "icon": "lucide-file",
               "title": "Taylor's Theorem"
-            }
-          },
-          {
-            "id": "a73e5175b5ef018c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Differential Geometry/Smooth Function.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Smooth Function"
             }
           }
         ]
@@ -317,14 +317,17 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Analysis/Convex Function.md",
+    "Analysis/Lp Space.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Analysis/Taylor's Theorem.md",
+    "Algebra/Linear Algebra/Rank and Nullity.md",
+    "Analysis/Convex Function.md",
+    "Differential Geometry/Rank.md",
+    "Differential Geometry/Smooth Function.md",
     "Functional Analysis/Convex Hull.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
-    "Analysis/Taylor's Theorem.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Algebra/Exact Sequence.md",
-    "Differential Geometry/Smooth Function.md",
     "Functional Analysis/Weak Derivative.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Algebra/Cochain Complex.md",
@@ -340,9 +343,6 @@
     "Courses/Measure Theory/Sheet 7.md",
     "Differential Geometry/De Rham Cohomology.md",
     "Topology/Normal Space.md",
-    "Probability Theory/Random Variable.md",
-    "Probability Theory/Independence.md",
-    "Measure Theory/Measurable Function.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
