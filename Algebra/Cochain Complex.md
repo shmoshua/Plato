@@ -66,3 +66,35 @@
 
 ---
 ##### Examples
+> [!h] Example 1 
+> Let $(\mathcal{C},\partial)$ be a [[chain complex]].
+> 1. $(\mathcal{D},d)$ is a cochain complex where $D^i:=C_{-i}$ and $d:D^i\to D^{i+1}$ is $\partial:C_{-i}\to C_{-i-1}$. 
+
+^806b31
+
+> [!proof]-
+> We have that: 
+> 1. Obvious.
+
+^66eb56
+
+
+---
+> [!h] Example 2 (Homomorphism Cochain)
+>  Let $(\mathcal{C},\partial)$ be a chain complex and $G$ an abelian group $G$. Let:
+>   $$D^i:= \text{Hom}(C_{i},G),\quad \delta:=\partial ^{*}:D^i\to D^{i+1},f\mapsto f \circ  \partial$$
+>   1. $\mathcal{D}:=(D,\delta)$ is a cochain complex.
+>   2. $f\in Z^i(\mathcal{D})$ if and only if $f|_{B_{i}(\mathcal{C})}\equiv 0$.
+>   3. if $f\in B^i(\mathcal{D})$ then $f|_{Z^i(\mathcal{C})}\equiv 0$.
+
+^846fe1
+
+> [!proof]-
+> We have:
+> 1. Let $f\in D^i$. Then, $$\delta \circ  \delta(f)=\delta(f \circ  \partial) = f \circ  \underbrace{ \partial \circ  \partial }_{ =0 } = 0 $$Hence, it is a cochain complex.
+> 2. Let $f\in Z^i(\mathcal{D})$. This is equivalent to $\delta(f) = f \circ \partial= f|_{\text{im }\partial}=f|_{B_{i}(\mathcal{C})}= 0$. 
+> 3. Let $f\in B^i(\mathcal{D})$. Then, there exists $g\in D^{i-1}$ with $\delta(g)=g \circ \partial =f$. Hence, $$f|_{Z^i(\mathcal{C})}=g \circ  \partial|_{Z^i(\mathcal{C})}=0$$
+
+^fa5a91
+
+---
