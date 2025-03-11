@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
+                "file": "Analysis/Convex Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Cohomology"
+              "title": "Convex Function"
             }
           },
           {
@@ -315,16 +315,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a223277d0c22deb8",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Analysis/Taylor's Theorem.md",
+    "Analysis/Convex Function.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Functional Analysis/Convex Hull.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
+    "Analysis/Taylor's Theorem.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Algebra/Exact Sequence.md",
     "Differential Geometry/Smooth Function.md",
     "Functional Analysis/Weak Derivative.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Algebra/Cochain Complex.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Singular Homology.md",
@@ -341,8 +343,6 @@
     "Probability Theory/Random Variable.md",
     "Probability Theory/Independence.md",
     "Measure Theory/Measurable Function.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Graph Theory/k-Connected Graph.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",

@@ -163,14 +163,14 @@ What do we do when the $k$ relevant features are unknown?
 ---
 > [!lemma] Lemma 1
 >  Let $R>0$. Let $f:\mathbb{R}^d\to \mathbb{R}$ be convex s.t. for $\kappa>0$:$$f(u)\geq f(0)-\left\| \nabla f(0) \right\| \cdot \|u\|+\kappa\|u\|^{2},\quad \forall u\in B_{\leq R}(0)$$
->  1. if $R\geq 2\left\| \nabla f(0) \right\| / \kappa$, then for $u^{*}\in \arg\min f$, $$\|u^{*}\|^{2}\leq \left\| \nabla f(0) \right\| ^{2} / \kappa^{2}$$
+>  1. if $R\geq 2\left\| \nabla f(0) \right\| / \kappa$, then for $u^{*}\in \arg\min f$, $$\|u^{*}\|\leq \left\| \nabla f(0) \right\| / \kappa$$
 
-> [!proof]+
+> [!proof]-
 > Let $v$ be an arbitrary unit vector. Then, for $0<\lambda\leq R$, $$f(\lambda v)\geq f(0)-\lambda\left\| \nabla f(0) \right\|+\lambda^{2}\kappa $$Now, let $\ell:\mathbb{R}\to \mathbb{R}$ be an affine function s.t. 
 > 1. $\ell(0)=f(0)$ and 
 > 2. $\ell(R)=f(Rv)$.
 >  
->  As $f$ is convex, $f(\lambda v)\leq \ell(\lambda)$ for all $\lambda\in[0,R]$ and $f(\lambda v)\geq \ell(\lambda)$ for all $\lambda\notin [0,R]$. Now, $$\ell(R)=f(Rv)\geq f(0)-R\left\| \nabla f(0) \right\|+R^{2} \kappa $$$$\ell(0)=f(0)< f(Rv)=\ell(R)$$
+>  As $f$ is convex, $f(\lambda v)\leq \ell(\lambda)$ for all $\lambda\in[0,R]$ and $f(\lambda v)\geq \ell(\lambda)$ for all $\lambda\notin [0,R]$. Now, $$\ell(R)=f(Rv)\geq f(0)-R\left\| \nabla f(0) \right\|+R^{2} \kappa> f(0)=\ell(0) $$Hence, $\ell$ is increasing and the minimum of $\ell$ is found in $[0,R]$. Therefore, this shows that: $$\left\| u^{*} \right\| \leq \left\| \nabla f(0) \right\|/ \kappa$$ 
 ---
 > [!lemma] Theorem 1
 > Let $\alpha:=\min_{i}\mathbb{P}(\eta_{i}\leq 1)$. Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be the rows of $X$ and $C:=\frac{1}{\sqrt{ d }}\max_{i}\|x_{i}\|$. 
@@ -178,11 +178,11 @@ What do we do when the $k$ relevant features are unknown?
 
 > [!proof]+
 > We define: $$f:\mathbb{R}^d\to \mathbb{R},\quad \beta\mapsto \frac{1}{n}\sum_{i\in[n]}^{}\Phi(\braket{ x_{i} , \beta } -y_{i})$$Then, $\nabla f(\beta)=\frac{1}{n}\sum_{i\in[n]}^{}\Phi'(\braket{ x_{i} , \beta } -y_{i})x_{i}$ where: $$\Phi'(t)=\begin{cases}\text{sgn}(t)\cdot \left| t \right|&\left| t \right|\leq 2\\2\cdot  \text{sgn}(t)&\left| t \right|\geq 2\end{cases}=\text{sgn}(t)\cdot\min\{ \left| t \right|,2 \}, \quad \Phi''(t)=\mathbb{1}_{\{ \left| t \right| \leq 2 \}}$$
-> 1. **Claim 1**:
+> 1. **Claim 1**: $f$
 >    
-> 2. **Claim 2**: for all $u$ with $\|u\|\leq  R$, we have that: $$f(\beta ^{*}+u)\geq f(\beta ^{*})-\left\| \nabla f(\beta ^{*}) \right\|\cdot \|u\|+\frac{\alpha}{10}\|u\|^{2}$$
+> 2. **Claim 2**: for $R\geq 20 \|\nabla f(0)\| / \alpha$ and for all $u$ with $\|u\|\leq  R$, we have that: $$f(\beta ^{*}+u)\geq f(\beta ^{*})-\left\| \nabla f(\beta ^{*}) \right\|\cdot \|u\|+\frac{\alpha}{10}\|u\|^{2}$$
 >    
->    From [[Taylor's Theorem|2nd order Hamadard Lemma]], $$f(\beta ^{*}+u)=f(\beta ^{*})+\braket{ \nabla f(\beta ^{*}) , u } +\left\langle u , \left( \int_{0}^{1} (1-t)H_{f}(\beta ^{*}+tu) \, dt  \right)u  \right\rangle $$
+>    From [[Taylor's Theorem|2nd order Hamadard Lemma]], $$f(\beta ^{*}+u)=f(\beta ^{*})+\braket{ \nabla f(\beta ^{*}) , u } +\underbrace{ u^\top \left( \int_{0}^{1} (1-t)\text{H}_{f}(\beta ^{*}+tu) \, dt  \right)u }_{ =: M(u) }  $$Now, we have that: $$\text{H}_{f}(\beta ^{*}+tu)=\frac{1}{n}\sum_{i\in[n]}^{}\Phi''(t\braket{ x_{i} ,u } -\eta_{i})x_{i}x_{i}^\top=\frac{1}{n}\sum_{i\in[n]}^{} \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}}x_{i}x_{i}^\top$$ and:$$\begin{align}M(u)&= \frac{1}{n}\sum_{i\in[n]}\left( \int_{0}^{1}  (1-t) \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}} \, dt \right)\braket{ x_{i} , u }^{2}\\&\geq \frac{1}{2n}\sum_{i\in[n]}\mathbb{1}_{\{ \left| \braket{ x_{i} , u } \right| \leq 1 \}}\mathbb{1_{\{ \left| \eta_{i}\right| \leq 1 \}}}\braket{ x_{i} , u }^{2}\\&\geq \mathbb{1}_{\{ \left| C\sqrt{ d }\cdot R\right| \leq 1  \}}\left( \frac{1}{2n}\sum_{i\in[n]}\mathbb{1_{\{ \left| \eta_{i}\right| \leq 1 \}}}\braket{ x_{i} , u }^{2} \right)\end{align}$$
 >    
 > 
 > 
@@ -192,3 +192,5 @@ What do we do when the $k$ relevant features are unknown?
 > 
 > Therefore, $$\mathbb{P}\left( \left\| \widehat{\beta}- \beta ^{*}\right\| ^{2}\geq \frac{40000 d}{\alpha^{2}n}\right)\leq  \frac{\mathbb{E}\left[ \left\| \widehat{\beta}- \beta ^{*}\right\| ^{2} \right] }{40000d / \alpha^{2}n}\leq \frac{\mathbb{E}\left[ \left\| \nabla f(\beta ^{*}) \right\| ^{2} \right] }{400d / n}\leq0.01$$
 > This proves the statement.
+
+$$f$$
