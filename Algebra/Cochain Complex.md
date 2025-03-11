@@ -86,14 +86,17 @@
 >   1. $\mathcal{D}:=(D,\delta)$ is a cochain complex.
 >   2. $f\in Z^i(\mathcal{D})$ if and only if $f|_{B_{i}(\mathcal{C})}\equiv 0$.
 >   3. if $f\in B^i(\mathcal{D})$ then $f|_{Z^i(\mathcal{C})}\equiv 0$.
+>   4. for a chain map $\varphi:\mathcal{C}\to \mathcal{C'}$, the map: $$\varphi ^{*}:\text{Hom}(C_{i}',G)\to \text{Hom}(C_{i},G),\quad f\mapsto f\circ  \varphi$$is a cochain map.
 
 ^846fe1
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. Let $f\in D^i$. Then, $$\delta \circ  \delta(f)=\delta(f \circ  \partial) = f \circ  \underbrace{ \partial \circ  \partial }_{ =0 } = 0 $$Hence, it is a cochain complex.
 > 2. Let $f\in Z^i(\mathcal{D})$. This is equivalent to $\delta(f) = f \circ \partial= f|_{\text{im }\partial}=f|_{B_{i}(\mathcal{C})}= 0$. 
 > 3. Let $f\in B^i(\mathcal{D})$. Then, there exists $g\in D^{i-1}$ with $\delta(g)=g \circ \partial =f$. Hence, $$f|_{Z^i(\mathcal{C})}=g \circ  \partial|_{Z^i(\mathcal{C})}=0$$
+> 4. For $f\in \text{Hom}(C'_{i},G)$: $$\varphi ^{*} ( \delta_{C'}(f))=f \circ  \partial_{C'} \circ  \varphi=f \circ  \varphi \circ  \partial_{C}=\delta_{C}(f \circ  \varphi)=\delta_{C}(\varphi ^{*}(f))$$
+
 
 ^fa5a91
 
