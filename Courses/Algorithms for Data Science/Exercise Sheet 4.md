@@ -1,0 +1,8 @@
+#Series  #Algorithms 
+
+#### 1. Multiple-Spike Model Estimation
+Let $U:= \widehat{X}-X^{*}$. We have that: $$0\leq \left\| X^{*}-Y \right\| ^2_{F}-\left\| \widehat{X}-Y \right\| ^2_{F}=\left\| W \right\| ^2_{F}-\left\| U-W \right\| ^{2}_{F}=2\braket{ U , W } -\left\| U \right\| ^{2}_{F}$$ Further, $\text{rk}(U)\leq \text{rk}(\widehat{X})+\text{rk}(X^{*})\leq 2r$. Hence, $$\left\| U \right\| _*\leq \sqrt{ 2r }\|U\|_{F}$$Therefore, by Hölder, $$\left\| U \right\| ^{2}_{F}\leq 2\braket{ U , W } \leq 2 \|U\|_{*}\|W\|\leq 2\sqrt{ 2r }\|U\|_{F}\|W\|$$Hence, $\|U\|^2_{F}\leq 8r\|W\|^{2}$. We can conclude by: $$\mathbb{E}\left[  \left\| \widehat{X}-X^{*} \right\| ^{2}_{F}\right]\leq 8r\underbrace{ \mathbb{E}[\left\| W \right\| ^{2}] }_{ \leq O(n) }\leq  O(rn)$$
+
+---
+#### 2. Closed-Form Optimal Solution for PCA
+We have that: $$\left\| Y-ab^\top \right\| ^2_{F}=\text{tr}((Y-ab^\top)^\top(Y-ab^\top))=\text{tr}(Y^\top Y)-2\underbrace{ \text{tr}(Y^\top ab^\top) }_{ = b^\top Y^\top a }+\text{tr}(ba^\top ab^\top)$$As $\text{tr}(ba^\top ab^\top) = \text{tr}(a^\top a b^\top b)=\|a\|^2\|b\|^2$, we have that for $f:\mathbb{R}^{n}\times \mathbb{R}^d\to \mathbb{R},\quad (a,b)\mapsto \left\| Y-ab^\top \right\| ^{2}_{F}$, $$\nabla f(a,b)=\left(2\|b\|^{2}a-2Yb,2\|a\|^{2} b -2Y^\top a\right)$$Let $f$ attain its minimum at $a^{*},b^{*}$. Then, we have that: $$\left\| b^{*} \right\| ^{2}a^{*}=Yb^{*},\quad \|a^{*}\|^{2}b^{*}=Y^\top a^{*}$$Hence, $(b^{*})^\top Y^\top a^{*}=\|a^{*}\|^2\|b^{*}\|^2$ and $$\left\| Y-a^{*}b^{*} \right\|^{2}_{F}=\|Y\|^2_{F}-\|a^{*}\|^2\|b^{*}\|^2$$

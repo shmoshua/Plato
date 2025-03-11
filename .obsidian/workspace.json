@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Cohomology"
+              "title": "Exercise Sheet 4"
             }
           },
           {
@@ -50,7 +50,8 @@
               "title": "Module"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -77,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Cohomology"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -91,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Split Exact Sequence.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Split Exact Sequence"
+              "title": "Exercise Sheet 4"
             }
           },
           {
@@ -181,8 +182,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -276,10 +276,12 @@
   },
   "active": "5bfbc1c14a57ad23",
   "lastOpenFiles": [
+    "Algebra/Split Exact Sequence.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Algebra/Module.md",
-    "Algebra/Split Exact Sequence.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Algebra/Chain Complex.md",
     "Algebra/Tensor Product.md",
     "Algebra/Exact Sequence.md",
@@ -288,7 +290,6 @@
     "Topology/Algebraic Topology/Homotopy Group.md",
     "Topology/Fundamental Group.md",
     "Analysis/Taylor's Theorem.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Analysis/Lp Space.md",
     "Analysis/Convex Function.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
@@ -301,7 +302,6 @@
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Functional Analysis/Dual Space.md",
     "Topology/Algebraic Topology/Cochain Homotopy.md",
-    "Topology/Algebraic Topology/Chain Homotopy.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
