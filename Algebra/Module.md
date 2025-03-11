@@ -173,6 +173,8 @@
 
 ^cefc2b
 
+- **Remark**: However, for $0\to U\xrightarrow{f}V$ exact, i.e. $f$ injective, $\text{Hom}(V,N)\to \text{Hom}(U,N)\to 0$ is not necessarily exact. Let $R:= \mathbb{Z}$ and consider $0\to \mathbb{Z} \xrightarrow{\times m} \mathbb{Z}$ where $m\notin \{ -1,1,0 \}$. Then, $$\varphi ^{*}:\mathbb{Z}\cong\text{Hom}(\mathbb{Z},\mathbb{Z})\to \text{Hom}(\mathbb{Z},\mathbb{Z})\cong \mathbb{Z},\quad n\mapsto mn$$which is not surjective. 
+   ^b3a8d0
 ---
 > [!lemma] Proposition 5
 > Let: $$0 \to M_{1} \xrightarrow{\varphi} M_{2} \to \dots \to M_{n}\to 0$$be an exact sequence of $R$-modules of finite length. Then, 

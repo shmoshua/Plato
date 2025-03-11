@@ -34,8 +34,8 @@
 - **Remark**: This also holds for SES of chain complexes. Further, by [[Chain Complex|Proposition 1.3]] and [[Chain Complex|Theorem 6]], if the SES is split, we have that $H_{p}(\mathcal{B})\cong H_{p}(\mathcal{A})\oplus H_{p}(\mathcal{C})$. ^6a0784
 ---
 > [!lemma] Proposition 2
-> Let $0\to A\to B\xrightarrow{j} C \to 0$ be a SES of abelian groups. 
-> 1. If $C$ is free abelian, then the sequence is split. 
+> Let $0\to A\to B\xrightarrow{j} C \to 0$ be a SES of $R$-modules.
+> 1. If $C$ is [[Free Module|free]], then the sequence is split. 
 
 ^22ebc8
 

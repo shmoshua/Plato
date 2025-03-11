@@ -42,16 +42,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Cochain Complex.md",
+                "file": "Algebra/Module.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cochain Complex"
+              "title": "Module"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -92,12 +91,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Cochain Complex.md",
+                "file": "Algebra/Split Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cochain Complex"
+              "title": "Split Exact Sequence"
+            }
+          },
+          {
+            "id": "7370ea8f531e40ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Tensor Product.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Tensor Product"
+            }
+          },
+          {
+            "id": "7ecee287cc96348f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Module.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Module"
             }
           }
         ],
@@ -133,7 +160,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "left exact",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,7 +181,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -246,14 +274,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2a926e470b0260ff",
+  "active": "5bfbc1c14a57ad23",
   "lastOpenFiles": [
-    "Algebra/Cochain Complex.md",
-    "Topology/Algebraic Topology/Homotopy Group.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Algebra/Module.md",
+    "Algebra/Split Exact Sequence.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
+    "Algebra/Chain Complex.md",
+    "Algebra/Tensor Product.md",
+    "Algebra/Exact Sequence.md",
+    "Algebra/Cochain Complex.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Homotopy Group.md",
     "Topology/Fundamental Group.md",
     "Analysis/Taylor's Theorem.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Analysis/Lp Space.md",
     "Analysis/Convex Function.md",
@@ -263,17 +297,11 @@
     "Differential Geometry/Rank.md",
     "Differential Geometry/Smooth Function.md",
     "Functional Analysis/Convex Hull.md",
-    "Algebra/Exact Sequence.md",
     "Functional Analysis/Weak Derivative.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Functional Analysis/Dual Space.md",
     "Topology/Algebraic Topology/Cochain Homotopy.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "Algebra/Chain Complex.md",
-    "Topology/Homotopy.md",
-    "Courses/Measure Theory/Sheet 7.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
