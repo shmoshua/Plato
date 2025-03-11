@@ -102,3 +102,12 @@
 ![[Cochain Complex#^cbaa04|p]]
 
 ---
+#### 2.1 Cochain Homotopy
+![[Cochain Homotopy#^4bb319]]
+
+---
+![[Cochain Homotopy#^24d8c9]]
+![[Cochain Homotopy#^5c1240|p]]
+
+---
+#### 2.2 Constructing Cochain Complex from Chain Complexes
