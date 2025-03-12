@@ -23,20 +23,6 @@
             }
           },
           {
-            "id": "0710390c6a86e072",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Exercise Sheet 4"
-            }
-          },
-          {
             "id": "2a926e470b0260ff",
             "type": "leaf",
             "state": {
@@ -49,9 +35,23 @@
               "icon": "lucide-file",
               "title": "Module"
             }
+          },
+          {
+            "id": "65e7d7cbe6382ec9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Split Exact Sequence.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Split Exact Sequence"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -87,20 +87,6 @@
             }
           },
           {
-            "id": "5bfbc1c14a57ad23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Exercise Sheet 4"
-            }
-          },
-          {
             "id": "7370ea8f531e40ee",
             "type": "leaf",
             "state": {
@@ -120,16 +106,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Algebra/Split Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Module"
+              "title": "Split Exact Sequence"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -274,15 +260,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5bfbc1c14a57ad23",
+  "active": "7ecee287cc96348f",
   "lastOpenFiles": [
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Algebra/Tensor Product.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Algebra/Split Exact Sequence.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Algebra/Module.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
+    "Algebra/Tensor Product.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Algebra/Chain Complex.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Cochain Complex.md",

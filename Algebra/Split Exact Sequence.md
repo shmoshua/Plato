@@ -48,6 +48,14 @@
 
 - **Remark**: This doesn't necessarily hold for chain complexes. For topological spaces $(X,A)$, $H_{p}(X)\not\cong H_{p}(A)\oplus H_{p}(X,A)$ in general. ^4b7fbe
 ---
+> [!lemma] Proposition 3 (Homomorphisms of Split SES is Exact)
+> Let $0\to A \to B\to C \to 0$ be a split SES. Then,
+> 1. $0\to \text{Hom}(C,M)\to \text{Hom}(B,M)\to \text{Hom}(A,M)\to 0$ is a split SES for all $R$-module $M$.
+
+> [!proof]+
+> Let $\tau:B\to A\oplus C$ be the split SES isomorphism. For exactness, we have to show that $\text{Hom}(B,M)\to \text{Hom}(A,M)$ is surjective. We have: $$\text{Hom}(B,M)\cong \text{Hom}(A\oplus C,M)\cong \text{Hom}(A,M)\oplus \text{Hom}(C,M)$$Hence, 
+
+---
 ##### Examples
 > [!h] Example 1
 > $0 \to \mathbb{Z} \xrightarrow{\times2} \mathbb{Z}\xrightarrow{p} \mathbb{Z} / 2\mathbb{Z} \to 0$ is not split.
