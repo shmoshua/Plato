@@ -2,7 +2,7 @@
 
 > [!definition]
 > A [[Exact Sequence|short exact sequence (SES)]] of $R$-[[Module|modules]]  $0\to A\xrightarrow{i} B\xrightarrow{j} C\to 0$ is ***split*** if: 
-> 1. there exists a $R$-module isomorphism $\tau:B\to A\oplus C$ s.t. the following diagram commutes:$$\begin{CD}0 @>>> A@>i>> B@>j>> C @>>> 0\\&@V\text{id}VV @V\tau VV@V\text{id}VV\\0 @>>> A@>>i_{A}> A\oplus C@>>\text{pr}> C @>>> 0  \end{CD}$$where $i_{A}(a) = (a,c)$ and $\text{pr}(a,c)=c$.
+> 1. there exists a $R$-module isomorphism $\tau:B\to A\oplus C$ s.t. the following diagram commutes:$$\begin{CD}0 @>>> A@>i>> B@>j>> C @>>> 0\\&@V\text{id}VV @V\tau VV@V\text{id}VV\\0 @>>> A@>>i_{A}> A\oplus C@>>\text{pr}> C @>>> 0  \end{CD}$$where $i_{A}(a) = (a,0)$ and $\text{pr}(a,c)=c$.
 
 ^350e24
 
@@ -52,8 +52,25 @@
 > Let $0\to A \to B\to C \to 0$ be a split SES. Then,
 > 1. $0\to \text{Hom}(C,M)\to \text{Hom}(B,M)\to \text{Hom}(A,M)\to 0$ is a split SES for all $R$-module $M$.
 
-> [!proof]+
+> [!proof]-
 > Let $\tau:B\to A\oplus C$ be the split SES isomorphism. For exactness, we have to show that $\text{Hom}(B,M)\to \text{Hom}(A,M)$ is surjective. We have: $$\text{Hom}(B,M)\cong \text{Hom}(A\oplus C,M)\cong \text{Hom}(A,M)\oplus \text{Hom}(C,M)$$Hence, 
+> 
+>  ```tikz
+> \usepackage{tikz-cd}
+> \usetikzlibrary{fit}
+>
+> \begin{document}
+> \begin{tikzcd} && {\textmd{Hom}(B,M)} \\ 0 & {\textmd{Hom}(C,M)} & {\textmd{Hom}(A\oplus C,M)} & {\textmd{Hom}(A,M)} & 0 \\ && {\textmd{Hom}(A,M)\oplus \textmd{Hom}(C,M)} \arrow["\cong", from=1-3, to=2-3] \arrow["{f^*}", from=1-3, to=2-4] \arrow[from=2-1, to=2-2] \arrow["{g^*}", from=2-2, to=1-3] \arrow["{p_C^*}", from=2-2, to=2-3] \arrow["{i_A^*}", from=2-3, to=2-4] \arrow["\cong", from=2-3, to=3-3] \arrow[from=2-4, to=2-5] \arrow["q", from=3-3, to=2-4] \end{tikzcd}
+> \end{document} 
+> ```
+> is a commuting diagram where $q(\sigma,\tau)=\sigma$ as we have for any $h\in \text{Hom}(B,M)$: $$(h \circ  \tau ^{-1})|_{A}=h \circ  \tau ^{-1} \circ   i_{A}=i_{A}^{*} \circ (\tau ^{-1})^{*}(h)=f^{*}(h)$$
+> However, one easily sees that $q$ is surjective. Hence, the homomorphism sequence is exact.
+> 
+> Further, for $h\in \text{Hom}(C,M)$, $g=p_{C} \circ \tau$. Hence, $g^{*}=\tau ^{*} \circ p_{C}^{*}$. 
+> 
+> $$((\tau ^{-1})^{*}  \circ  g^{*}(h))=p^{*}_{C}(h)=h \circ  p_{C}$$Hence, $h \circ p_{C}$ corresponds to $(0, h)$ which shows that the left side of the diagram commutes as well. This shows that the homomorphism SES splits as well.
+> 
+>
 
 ---
 ##### Examples
