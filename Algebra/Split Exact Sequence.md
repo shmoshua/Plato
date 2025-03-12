@@ -52,6 +52,8 @@
 > Let $0\to A \to B\to C \to 0$ be a split SES. Then,
 > 1. $0\to \text{Hom}(C,M)\to \text{Hom}(B,M)\to \text{Hom}(A,M)\to 0$ is a split SES for all $R$-module $M$.
 
+^aebc22
+
 > [!proof]-
 > Let $\tau:B\to A\oplus C$ be the split SES isomorphism. For exactness, we have to show that $\text{Hom}(B,M)\to \text{Hom}(A,M)$ is surjective. We have: $$\text{Hom}(B,M)\cong \text{Hom}(A\oplus C,M)\cong \text{Hom}(A,M)\oplus \text{Hom}(C,M)$$Hence, 
 > 
@@ -71,6 +73,8 @@
 > $$((\tau ^{-1})^{*}  \circ  g^{*}(h))=p^{*}_{C}(h)=h \circ  p_{C}$$Hence, $h \circ p_{C}$ corresponds to $(0, h)$ which shows that the left side of the diagram commutes as well. This shows that the homomorphism SES splits as well.
 > 
 >
+
+^bb21f0
 
 ---
 ##### Examples

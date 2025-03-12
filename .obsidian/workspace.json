@@ -79,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "d54d634cc1ba8421",
@@ -142,8 +142,7 @@
               "title": "Algebra"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -288,10 +287,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "65e7d7cbe6382ec9",
+  "active": "76505253772bfdb1",
   "lastOpenFiles": [
-    "Algebra/Split Exact Sequence.md",
     "Algebra/Cochain Complex.md",
+    "Algebra/Split Exact Sequence.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Chain Complex.md",
     "Graph Theory/Vertex Cover.md",
