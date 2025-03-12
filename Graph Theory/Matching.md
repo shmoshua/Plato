@@ -29,7 +29,7 @@
 > 1. there exists a matching $M$ covering $A$. 
 > 2. for all $S\subseteq A$, $\left| S \right|\leq \left| N(S) \right|$ where $N(S):= \bigcup_{v\in S}^{}N_{v}$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. (1=>2): Obvious as $M$ covers $A$.
 > 2. (2=>1): We show this via induction on $\left| A \right|$.
@@ -38,7 +38,11 @@
 > 		1. If $\left| N(S) \right|\geq \left| S \right|+1$ for every non-empty $S\subsetneq A$, then pick any $u$ in $A$ and as $\left| N_{u} \right|\geq 1$, we can also pick $v\in N_{u}$. Then, define $e:=uv$ and $H':= H \backslash e=(A'\sqcup B',E')$. We then have for all $S\subseteq A'$, $$\left| N_{H'}(S) \right| \geq \left| N_{H}(S) \right| -1\geq \left| S \right| +1-1=\left| S \right| $$Hence, there exists a matching $M'$ in $H'$ covering $A'$. With $e$, this creates a matching covering $A$.
 > 		2. Otherwise, there exists a non-empty $S\subsetneq A$ s.t. $\left| N(S) \right|= \left| S \right|$. Let $R:= A \backslash S$ and $T:= B \backslash N(S)$. Then, by definition $e(S,T)=0$. We claim that $H_{1}:=H[S\sqcup N(S)]$ and $H_{2}:=H[R\sqcup T]$ satisfy 2. 
 > 		   
-> 		   For $H_{1}$, for any $S'\subseteq S$, $\left| N_{H_{1}}(S') \right|=\left| N_{H}(S') \right|\geq \left| S' \right|$. For $H_{2}$, for any $S'\subseteq R$, 
+> 		   For $H_{1}$, for any $S'\subseteq S$, $\left| N_{H_{1}}(S') \right|=\left| N_{H}(S') \right|\geq \left| S' \right|$. For $H_{2}$, for any $S'\subseteq R$, if $\left| N_{H_{2}}(S') \right|< \left| S' \right|$, then: $$\left| N_{H}(S\cup S') \right|=\left| N_{H}(S) \right| +\left| N_{H_{2}}(S') \right| +e(S,T)<\left| N_{H}(S') \right| +\left| S' \right| =\left| S \right| +\left| S' \right|  $$which is a contradiction as $\left| S\cup S' \right|=\left| S \right|+\left| S' \right|$.
+> 		   
+> 		   Hence, by induction we have disjoint matchings that cover $S$ and $R$ and this together covers $A$.
+> 
+> This proves the theorem.
 ---
 > [!lemma] Theorem (Bipartite Maximum Matching)
 > Let $G=(V,E)$ be a bipartite graph. Then, 
