@@ -168,3 +168,24 @@
 ---
 ### 5. Matchings
 ![[Matching#^ba7938]]
+![[Matching#^32ed75]]
+![[Matching#^cf73c8|p]]
+
+---
+![[Matching#^ef41f6]]
+
+---
+#### 5.1 Vertex Cover
+
+![[Vertex Cover#^63a2ab]]
+![[Vertex Cover#^32ed75]]
+![[Vertex Cover#^cf73c8|p]]
+
+---
+![[Vertex Cover#^31a060]]
+![[Vertex Cover#^5c6854|p]]
+
+---
+![[Vertex Cover#^c36b60]]
+
+---

@@ -6,14 +6,27 @@
 
 ^ba7938
 
-- **Related definition**: A matching $M$ is:
+- **Related definition**: A matching $M$ is: ^32ed75
 	1. ***maximal*** if there is no other matching $M'\supseteq M$ with $\left| M' \right|> \left| M \right|$.
 	2. ***maximum*** if there is no other matching $M'$ with $\left| M' \right|> \left| M \right|$.
 	3. ***perfect*** if $\left| M \right|=\left| V(G) \right| / 2$.
-- **Related definition**: For a graph $G$, $\nu(G)$ denotes the size of maximum matching.
+- **Related definition**: For a graph $G$, $\nu(G)$ denotes the size of maximum matching. ^cf73c8
 - **Remark**: The maximum matching problem can be written in ILP as follows: $$\begin{array}{rll}\max&\sum_{e\in E}^{}x_{e}\\\text{subject to}&\sum_{e\ni v}^{}x_{e}\leq 1 & \forall v\in V\\&x_{e}\in \{ 0,1 \}&\forall e\in E\end{array}$$
 ---
 ##### Properties
+> [!lemma] Proposition 1 
+> Let $G=(V,E)$ be a graph. Then,
+> 1. $\nu(G)\leq \tau(G)\leq 2\nu(G)$ where $\tau(G)$ is the size of the minimum [[vertex cover]].
+
+> [!proof]-
+> See [[Vertex Cover]].
+---
+![[Vertex Cover#^c36b60]]
+
+---
+> [!lemma] Theorem 3 (Hall)
+> Let $H:=(A\sqcup B,E)$ be bipartite. 
+---
 > [!lemma] Theorem (Bipartite Maximum Matching)
 > Let $G=(V,E)$ be a bipartite graph. Then, 
 
@@ -63,5 +76,9 @@
 
 > [!h] Example 1
 > We have that:
-> 1. $\nu(K_{n})= \left\lfloor \frac{n}{2}\right\rfloor$.
+> 1. $\nu(K_{n})= \left\lfloor \frac{n}{2}\right\rfloor$
 > 2. $\nu(K_{r,s})=\min \{ r,s \}$.
+
+^ef41f6
+
+---
