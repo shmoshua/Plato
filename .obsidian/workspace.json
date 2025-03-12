@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
+                "file": "Algebra/Cochain Complex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Cohomology"
+              "title": "Cochain Complex"
             }
           },
           {
@@ -79,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Transform.md",
+                "file": "Algebra/Cochain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Guelfand Transform"
+              "title": "Cochain Complex"
             }
           },
           {
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Vertex Cover.md",
+                "file": "Algebra/Split Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Vertex Cover"
+              "title": "Split Exact Sequence"
             }
           },
           {
@@ -142,7 +142,8 @@
               "title": "Algebra"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -287,30 +288,30 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "76505253772bfdb1",
+  "active": "65e7d7cbe6382ec9",
   "lastOpenFiles": [
-    "Graph Theory/Matching.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Functional Analysis/Guelfand Spectrum.md",
+    "Algebra/Split Exact Sequence.md",
+    "Algebra/Cochain Complex.md",
+    "Algebra/Exact Sequence.md",
+    "Algebra/Chain Complex.md",
+    "Graph Theory/Vertex Cover.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Functional Analysis/Guelfand Transform.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Graph Theory/Matching.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Graph Theory/Vertex Cover.md",
     "Algebra/Algebra.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Graph Theory/Problem Set 3.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Graph Theory/Hamiltonian Path.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algorithms/Minimum Vertex Cover.md",
     "Algebra/Tensor Product.md",
     "TIKZ.md",
-    "Algebra/Split Exact Sequence.md",
     "Algebra/Module.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
-    "Algebra/Chain Complex.md",
-    "Algebra/Exact Sequence.md",
-    "Algebra/Cochain Complex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Homotopy Group.md",
     "Topology/Fundamental Group.md",

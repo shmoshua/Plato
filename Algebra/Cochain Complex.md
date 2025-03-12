@@ -65,6 +65,26 @@
 ^cbaa04
 
 ---
+> [!lemma] Theorem 4 (Homology and Cohomology)
+> Let $(C,\partial)$ be a chain complex and $(\text{Hom}(C,G), \delta)$ be the homomorphism cochain complex (c.f. Example 2). Then, 
+> 1. for all $n\in \mathbb{Z}$, there exists a canonical map $h:H^n(C;G)\to \text{Hom}(H_{n}(C),G)$ that admits a right inverse.
+
+> [!proof]+
+> Let $\alpha\in H^n(C,G)$. Then, we have that $\alpha$ is represented by some $\varphi: C_{n}\to G$ s.t. $d(\varphi)=\varphi \circ \partial=0$, i.e. $B_{n}(C)\subseteq \text{ker }\varphi$.  Hence, $\varphi$ descends to $\overline{\varphi}:H_{n}(C)= Z_{n}(C) / B_{n}(C)\to G$. We define: $$h:H^n(C;G)\to \text{Hom}(H_{n}(C),G),\quad [\varphi]\mapsto \overline{\varphi}$$
+> 1. **Claim 1**: $h$ is well-defined. 
+>    Let $[\varphi]=[\varphi']$. Then, $\varphi-\varphi'=d(\psi)=\psi \circ \partial$ for some $\psi: C_{n-1}\to G$. Hence, $(\varphi-\varphi')|_{Z_{n}}\equiv 0$. This shows that $\overline{\varphi}=\overline{\varphi'}$. 
+> 2. **Claim 2**: $h$ is linear.
+>    $[\varphi]+[\psi]=[\varphi+\psi]$ where $\varphi+\psi$ are cocycles. Then, $\overline{\varphi+\psi}=\overline{\varphi}+\overline{\psi}$. 
+>  
+>  Now, we will construct the right inverse $s:\text{Hom}(H_{n}(C),G)\to H^n(C;G)$. Consider the SES: $$0\to Z_{n}(C)\xrightarrow{i}C_{n}\xrightarrow{\partial} B_{n-1}(C)\to 0$$As $B_{n-1}(C)\subseteq C_{n-1}$ and $C_{n-1}$ is free abelian, so is $B_{n-1}(C)$ and by [[Split Exact Sequence|Proposition 2]] the SES splits. 
+>  
+>  Hence, by [[Split Exact Sequence|Proposition 1]], there exists $p:C_{n}\to Z_{n}(C)$ with $p \circ i=\text{id}_{Z_{n}(C)}$. Now, for any $\varphi_{0}\in \text{Hom}(Z_{n}(C),G)$, we can extend this to $\varphi: = \varphi_{0} \circ p\in \text{Hom}(C_{n},G)$ as $\varphi|_{Z_{n}(C)}=\varphi_{0}$. 
+>  
+>  Let $\sigma\in \text{Hom}(H_{n}(C),G)$. Then, by composing with $Z_{n}(C)\to Z _n (C) / B_{n}(C)=H_{n}(C)$ we have: $$\sigma':Z_{n}(C)\to G,\quad \widehat{\sigma}:=p^{*}(\sigma')=\sigma' \circ  p\in \text{Hom}(C_{n},G)$$
+
+  
+
+---
 ##### Examples
 > [!h] Example 1 
 > Let $(\mathcal{C},\partial)$ be a [[chain complex]].
