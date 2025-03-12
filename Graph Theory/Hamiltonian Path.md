@@ -16,8 +16,13 @@
 > Let $G=(V,E)$ be a graph.
 > 1. If $G$ is Hamiltonian, then $G$ is $1$-[[Tough Graph|tough]], i.e. for any $S\subseteq V$, $G \backslash S$ has at most $\left| S \right|$ connected components.  
 
+^7a36d1
+
 > [!proof]-
 > Let $C_{1},\dots,C_{k}$ be the components of $G \backslash S$. Imagine that we are moving along a Hamilton cycle in some order, vertex-by-vertex. We must visit each component of $G \backslash S$ at least once; when we leave $C_{i}$ for the first time, let $v_{i}$ be the subsequent vertex visited, which must be in $S$. Each $v_{i}$ must be distinct because a cycle cannot intersect itself. Hence, $S$ must have at least as many vertices as the number of connected components of $G \backslash S$.
+
+^e3866f
+
 - **Remark**: The converse is not true. Consider the graph: 
 	```tikz
 	\usepackage{tikz}
@@ -41,26 +46,40 @@
 	\end{tikzpicture}
 	\end{document} 
 	```
-	This is 1-tough but not Hamiltonian. 
+	This is 1-tough but not Hamiltonian.  ^7fb646
 
 ---
 > [!lemma] Corollary 2
 > Let $G=(A\sqcup B,E)$ be a bipartite graph. 
 > 1. if $G$ is Hamiltonian, $\left| A \right|=\left| B \right|$.
 
+^29e18f
+
 > [!proof]-
 > We have that:
 > 1. As $G$ is Hamiltonian by Proposition 1, $G$ is 1-tough. Hence, $G \backslash A$ has at most $\left| A \right|$ connected components. Hence, $\left| B \right|\leq \left| A \right|$. By symmetry, we have $\left| A \right|=\left| B \right|$.
+
+^3f2859
+
 ---
-> [!lemma] Theorem 3 (Dirac, 1952)
+> [!lemma] Theorem 3 (Dirac/Ore, 1952)
 > Let $G$ be a simple graph with $n\geq 3$ vertices.
 > 1. if $\delta(G)\geq n / 2$, then $G$ is Hamiltonian.
+> 2. if $d(u)+d(v)\geq n$ for all $u,v\in V$ with $uv\notin E$, then $G$ is Hamiltonian
+
+^e8af36
 
 > [!proof]-
-> Let $G$ be a non-Hamiltonian graph with $\delta(G)\geq n / 2$. We may assume wlog that $G$ is maximal, i.e. if we add any edge $e$ to $G$, then $G\cup e$ is Hamiltonian. 
+> We have:
+> 1. Let $G$ be a non-Hamiltonian graph with $\delta(G)\geq n / 2$. We may assume wlog that $G$ is maximal, i.e. if we add any edge $e$ to $G$, then $G\cup e$ is Hamiltonian. 
 > 
-> By maximality, we have that $G$ has a Hamiltonian path $v_{1}\dots v_{n}$from $u=v_{1}$ to $v=v_{n}$. Let 
-> 1. $S:=\{ i:(u,v_{i+1})\in E \}$ and
-> 2. $T:=\{ i:(v,v_{i})\in E \}$. 
+> 	By maximality, we have that $G$ has a Hamiltonian path $v_{1}\dots v_{n}$from $u=v_{1}$ to $v=v_{n}$. Let 
+> 	1. $S:=\{ i:(u,v_{i+1})\in E \}$ and
+> 	2. $T:=\{ i:(v,v_{i})\in E \}$. 
 >    
->   Then, we have that: $$\left| S\cap T \right| +\left| S\cup T \right|=\left| S \right| +\left| T \right| =d(u)+d(v)\geq n $$However, as $n\notin S\cup T$, we have that $\left| S\cup T \right|<n$ and $\left| S\cap T \right|\geq 1$. Hence, there exists $i\in S\cap T$ and we have that: $$uv_{i+1}\dots v_{n-1}vv_{i}v_{i-1}\dots v_{2}u$$is a Hamiltonian cycle, which is a contradiction. 
+> 	  Then, we have that: $$\left| S\cap T \right| +\left| S\cup T \right|=\left| S \right| +\left| T \right| =d(u)+d(v)\geq n $$However, as $n\notin S\cup T$, we have that $\left| S\cup T \right|<n$ and $\left| S\cap T \right|\geq 1$. Hence, there exists $i\in S\cap T$ and we have that: $$uv_{i+1}\dots v_{n-1}vv_{i}v_{i-1}\dots v_{2}u$$is a Hamiltonian cycle, which is a contradiction. 
+> 1. Analogous to above.
+
+^afd4a9
+
+---
