@@ -134,16 +134,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Graph Theory/Matching.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "Matching"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -288,10 +288,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d5f8640f4b8f56e6",
+  "active": "7370ea8f531e40ee",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Problem Set 4.md",
+    "Algebra/Algebra.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Courses/Graph Theory/Problem Set 4.md",
     "Algebra/Split Exact Sequence.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Algebra/Cochain Complex.md",
@@ -307,7 +308,6 @@
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Algebra/Algebra.md",
     "Graph Theory/Hamiltonian Path.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algorithms/Minimum Vertex Cover.md",

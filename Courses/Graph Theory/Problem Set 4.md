@@ -38,4 +38,10 @@ Let $a_{1},\dots,a_{k}$ and $b_{1},\dots,b_{k}$ be an arbitrary ordering on the 
 #### Problem 4
 Let $n\geq 3$. Consider a graph $G=(V,E)$ on $n$ nodes where there exists $v\in V$ s.t. $d(v)=1$ and $G \backslash v\cong K_{n-1}$. Then, $G$ cannot be Hamiltonian due to $v$ and $\left| E \right|={n-1 \choose 2}+1$. 
 
-Now, we will show that any graph $G$ on $n$ nodes with ${n-1 \choose 2}+2$ edges has to be Hamiltonian. 
+Now, we will show that any graph $G$ on $n$ nodes with at least ${n-1 \choose 2}+2$ edges has to be Hamiltonian. Notice that: $${n \choose 2}-{n-1 \choose 2}-2=n-3$$and there are at most $n-3$ edges in the complement graph $\overline{G}$. Hence, for any $vw\notin E(G)$, we have that: $$d(v)+d(w)\geq (n-2)+(n-2)-(n-4)=n$$The statement then follows from Ore's theorem.
+
+---
+#### Problem 5
+1. If $d=0$, then the statement trivially holds. Let $d\in[n-1]$ and let $G$ be a graph on $dn$ nodes $v_{1},\dots,v_{dn}$ where $G$ is the maximal graph s.t. $S_{i}:=\{ v_{id+1} ,\dots,v_{(i+1)d}\}$ is independent for all $i\in\{ 0,1,\dots,n-1 \}$. In other words, for all $v\in S_{i}$, $vw\in E(G)$ for all $w\notin S_{i}$ and $S_{i}$ are independent. 
+   
+   Then, we see that for every $v\in V$, $d(v)=(n-1)d$. Hence, $\delta(G)=(n-1)d\geq n-1\geq \frac{n}{2}$ as $n\geq 2$. Therefore, $G$ is Hamiltonian and 
