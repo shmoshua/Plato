@@ -156,8 +156,7 @@
               "title": "Algebra"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -302,7 +301,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "76505253772bfdb1",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Graph Theory/Problem Set 4.md",

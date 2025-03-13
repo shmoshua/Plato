@@ -28,3 +28,7 @@ Let $a_{1},\dots,a_{k}$ and $b_{1},\dots,b_{k}$ be an arbitrary ordering on the 
 
 ---
 #### Problem 3
+
+1. Let $P:=v_{0}v_{1}\dots.v_{k}$ be any longest path in $G$. If $k=n-1$, then $G$ has a path of length $2\delta\leq n-1$ and we are done. Assume $k\leq n-2$. As $G$ is connected, there exists $v\in V$ s.t. $v$ is not on $P$ but is adjacent to $v_{i}$. 
+	1. If $i\in \{ 0,k \}$ then we can extend the path which is a contradiction. 
+	2. 
