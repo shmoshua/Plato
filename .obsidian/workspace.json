@@ -156,7 +156,8 @@
               "title": "Algebra"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -301,10 +302,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "76505253772bfdb1",
+  "active": "d5f8640f4b8f56e6",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Problem Set 1.md",
     "Courses/Graph Theory/Problem Set 4.md",
+    "Courses/Graph Theory/Problem Set 1.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Algebra/Cochain Complex.md",
     "Courses/Graph Theory/Problem Set 2.md",

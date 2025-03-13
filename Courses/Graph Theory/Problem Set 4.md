@@ -24,4 +24,7 @@ Let $a_{1},\dots,a_{k}$ and $b_{1},\dots,b_{k}$ be an arbitrary ordering on the 
 \draw (G_2) -- (G_3) -- (G_6) -- (G_2)  --cycle;
 \end{tikzpicture}\end{document} 
 ```
-1. 
+1. False. Consider the same counterexample as above. Let $v$ be the vertex in both the $4$-cycle and $3$-cycle. Then, the two edges in $3$-cycle incident to $v$ cannot appear consecutively in any Eulerian tour. 
+
+---
+#### Problem 3
