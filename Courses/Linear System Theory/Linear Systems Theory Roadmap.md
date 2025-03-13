@@ -100,7 +100,7 @@
 1. [[Courses/Linear System Theory/Problem Set 1]]
 2. [[Courses/Linear System Theory/Problem Set 2]]
 3. [[Courses/Linear System Theory/Problem Set 3]]
-4. [[Problem Set 4]]
+4. [[Courses/Linear System Theory/Problem Set 4]]
 5. [[Problem Set 5]]
 6. [[Problem Set 6]]
 ---
