@@ -129,20 +129,6 @@
             }
           },
           {
-            "id": "67f83dc162f32fc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Split Exact Sequence.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Split Exact Sequence"
-            }
-          },
-          {
             "id": "7370ea8f531e40ee",
             "type": "leaf",
             "state": {
@@ -156,7 +142,8 @@
               "title": "Algebra"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -301,16 +288,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "d5f8640f4b8f56e6",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Graph Theory/Problem Set 4.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Algebra/Split Exact Sequence.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Algebra/Cochain Complex.md",
     "Courses/Graph Theory/Problem Set 2.md",
     "Courses/Graph Theory/Problem Set 3.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Algebra/Split Exact Sequence.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Chain Complex.md",
     "Graph Theory/Vertex Cover.md",

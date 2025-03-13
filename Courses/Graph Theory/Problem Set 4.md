@@ -31,4 +31,11 @@ Let $a_{1},\dots,a_{k}$ and $b_{1},\dots,b_{k}$ be an arbitrary ordering on the 
 
 1. Let $P:=v_{0}v_{1}\dots.v_{k}$ be any longest path in $G$. If $k=n-1$, then $G$ has a path of length $2\delta\leq n-1$ and we are done. Assume $k\leq n-2$. As $G$ is connected, there exists $v\in V$ s.t. $v$ is not on $P$ but is adjacent to $v_{i}$. 
 	1. If $i\in \{ 0,k \}$ then we can extend the path which is a contradiction. 
-	2. 
+	2. Let $1\leq i\leq k-1$. Notice that as soon as we have a cycle on $V(P)$ we have a contradiction as $v$ with the cycle contains a path longer than $P$. Hence, we first have $v_{0}v_{k}\notin E$. Further, by letting $S:= N(v_{0})$ and $T:=\{ v_{i+1}:v_{i}\in N(v_{k}) \}$, we have that $\left| S\cap T \right|=0$ as otherwise we have a cycle the same way for the proof for Dirac's theorem. Therefore: $$k\geq \left| S\cup T \right| =\left| S \right| +\left| T \right| \geq 2\delta$$This proves the statement.
+2. Let $P:= v_{0}v_{1}\dots v_{k}$ be any longest path in $G$. If $P$ is not a Hamiltonian path, we have similarly as above $v\in V$ that is not on $P$ but adjacent to $v_{i}$. Then, for $S:= N(v_{0})$ and $T:=\{ v_{i+1}:v_{i}\in N(v_{k}) \}$, we have $\left| S\cup T \right|\leq n-2$ and: $$n-2+\left| S\cap T \right| \geq \left| S\cup T \right| +\left| S\cap T \right| =\left| S \right| +\left| T \right| \geq 2\delta\geq n-1$$It follows that $\left| S\cap T \right|\geq 1$. This shows that we can find a cycle on $V(P)$ and further a path of length $\left| P \right|+1$. This is a contradiction and $P$ is Hamiltonian. 
+
+---
+#### Problem 4
+Let $n\geq 3$. Consider a graph $G=(V,E)$ on $n$ nodes where there exists $v\in V$ s.t. $d(v)=1$ and $G \backslash v\cong K_{n-1}$. Then, $G$ cannot be Hamiltonian due to $v$ and $\left| E \right|={n-1 \choose 2}+1$. 
+
+Now, we will show that any graph $G$ on $n$ nodes with ${n-1 \choose 2}+2$ edges has to be Hamiltonian. 
