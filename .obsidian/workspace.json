@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+                "file": "Functional Analysis/Seminorm.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 3"
+              "title": "Seminorm"
             }
           },
           {
@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "d54d634cc1ba8421",
@@ -156,8 +156,7 @@
               "title": "Topological Vector Space with Seminorms"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -302,11 +301,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4f13d7cb7dd6d11e",
+  "active": "76505253772bfdb1",
   "lastOpenFiles": [
-    "Topology/Hausdorff Space.md",
-    "Projects/Berkovich Spectral Theory.md",
+    "Untitled.md",
     "Functional Analysis/Seminorm.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Projects/Berkovich Spectral Theory.md",
+    "Topology/Hausdorff Space.md",
     "Projects",
     "Topology/Local Base of Topology.md",
     "Topology/Topological Vector Space with Seminorms.md",
@@ -316,7 +317,6 @@
     "Topology/Weak Topology.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
@@ -330,7 +330,6 @@
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Chain Complex.md",
-    "Graph Theory/Vertex Cover.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",

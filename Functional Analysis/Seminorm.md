@@ -14,6 +14,7 @@
 - **Remark**: A seminorm differs from a [[Norm|norm]] in a sense that it is possible that $p(v)=0$ for some $v \neq 0$.  
 - **Remark**: A seminorm is called ***non-Archimedian*** if $\left\| f-g \right\|\leq \max(\left\| f \right\|,\left\| g \right\|)$. ^a18329
 - **Remark**: The ***seminorm topology*** has a base made up of the following sets: $$N(v,r):=\{ w\in M:\|w-v\|<r \}$$where $v\in M$, $r>0$. ^8c8b4e
+- **Remark**: Two seminorms $\|\cdot\|,\|\cdot\|'$ on abelian group $M$ are ***equivalent*** if there exist $c,c'>0$ s.t. $c\|f\|\leq \|f\|'\leq c'\|f\|$ for all $f\in M$.
 ---
 ##### Properties
 ###### Seminorms on Vector Spaces
@@ -40,6 +41,7 @@
 > 1. $\|-x\|=\|x\|$ for all $x\in M$.
 > 2. the seminorm topology $\tau_{\|\cdot\|}$ is indeed a topology.
 > 3. $\tau_{\|\cdot\|}$ is Hausdorff if and only if $\|\cdot\|$ is a norm, i.e. $\|f\|=0$ only when $f=0$.
+> 4. if $\|\cdot\|$ and $\|\cdot\|'$ are equivalent, 
 
 ^eaf99a
 
