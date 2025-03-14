@@ -42,10 +42,14 @@ Now, we will show that any graph $G$ on $n$ nodes with at least ${n-1 \choose 2}
 
 ---
 #### Problem 5
-1. Let $n=2k$. We claim that if $G$ is a $d$-regular graph on $n$ nodes for $d\geq \frac{n}{2}$, then we have a $(d-2)$-regular graph $G'$ on $n$ nodes. As $G$ is $d$-regular, 
+1. Let $n=2k$. If $n=2$ then the statement is trivial by considering an empty graph for $d=0$ and an edge for $d=1$. Hence, we may assume that $n\geq 3$. 
+   
+   We claim that if $G$ is a $d$-regular graph on $n$ nodes for $d\geq \frac{n}{2}$, then we have a $(d-2)$-regular graph $G'$ on $n$ nodes. As $G$ is $d$-regular, $\delta(G)\geq n /2$ and by Dirac, there exists a Hamiltonian cycle $H$ in $G$. Deleting this cycle from $G$ and calling the rest as $G'$, we have that every degree decreases exactly by 2 and we have a $(d-2)$-regular graph. This shows the claim. 
+   
+   Notice that we have $K_{n}$ as a $(n-1)$-regular graph and as $n$ is even we have a perfect matching $M$. by deleting $M$ from $K_{n}$, we have a $(n-2)$-regular graph. Therefore, using the claim we get the existence of a $d$-regular graph for all $n-1\geq d\geq \frac{n}{2}-2$. We conclude by noting that for any $d$-regular graph $G$, the complement $\overline{G}$ is a $(n-1-d)$-regular graph. 
    
    
    
 2. Let $d$ be even. Then, on $V:=[n]$, we can define a graph $G$ s.t. each vertex $i$ is adjacent to exactly $S_{i}:=\{ i-d / 2, \dots, i-1, i+1,\dots,i+d / 2 \}$ modulo $n$. This is well-defined as this is a symmetric relation and as $\left| S_{i} \right|=d\leq n-1$ for all $i$, we have that $G$ is a $d$-regular graph.
    
-   
+---

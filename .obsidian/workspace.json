@@ -70,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 4.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 4.md",
                 "mode": "source",
                 "source": true
               },
@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 4.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 4.md",
                 "mode": "preview",
                 "source": true
               },
@@ -142,8 +142,7 @@
               "title": "Matching"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -288,9 +287,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d5f8640f4b8f56e6",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
     "Courses/Graph Theory/Problem Set 4.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Matching.md",
     "Algebra/Algebra.md",
@@ -315,7 +315,6 @@
     "TIKZ.md",
     "Algebra/Module.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
