@@ -12,3 +12,11 @@ Let $M\in \mathbb{R}^{n,n}$ be a symmetric matrix. Then, $Z=\sum_{i,\lambda_{i}\
 
 ---
 #### Exercise 2
+We show that $Z$ meets the three conditions of a pseudoinverse form above. 
+
+Let $v\in (\text{ker } M)^{\bot}=\text{im }M^\top=\text{im } M$. Then, $v=Mu$ for some $u\in \mathbb{R}^n$. Hence, $$MZv=M\Pi_{M}(X^\top)^{-1}Y^+  X ^{-1}\underbrace{ \Pi_{M}v }_{ =v=XYX^\top  u }=M\Pi_{M}(X^\top)^{-1}Y^+  YX^\top u$$ 
+Let $$
+
+Notice that $M$ and $Y$ are similar by definition and hence share the eigenvalues. Let $Y=V$
+
+We claim that $\Pi_{M}$
