@@ -41,7 +41,7 @@
 > 1. $\|-x\|=\|x\|$ for all $x\in M$.
 > 2. the seminorm topology $\tau_{\|\cdot\|}$ is indeed a topology.
 > 3. $\tau_{\|\cdot\|}$ is Hausdorff if and only if $\|\cdot\|$ is a norm, i.e. $\|f\|=0$ only when $f=0$.
-> 4. if $\|\cdot\|$ and $\|\cdot\|'$ are equivalent, 
+> 4. if $\|\cdot\|$ and $\|\cdot\|'$ are equivalent, $\tau_{\|\cdot\|}=\tau_{\|\cdot\|'}$. 
 
 ^eaf99a
 
@@ -54,7 +54,18 @@
 > 3. Let $\tau_{\|\cdot\|}$ be Hausdorff. However, assume that we have $f\neq 0$ s.t. $\left\| f \right\|=0$. Then, let $s,t>0$ s.t. $$N(0,s)\cap N(f,t)=\varnothing$$However, $\left\| f-0 \right\|\leq \left\| f \right\|+\left\| 0 \right\|=0<s$ and $f\in N(0,s)$. This is a contradiction. 
 >    
 >    Conversely, if $\|\cdot\|$ is a norm. Assume that there exists $u,v$ s.t. $N(u,s)\cap N(v,t)\neq \varnothing$ for all $s,t>0$. Then, $v\in N(u,s)$ for all $s > 0$ and $\|u-v\|=0$. This shows that $u=v$.
+> 4. Let $C\|f\|\leq \|f\|'\leq C'\|f\|$ for all $f\in M$. Then, for any $v\in M$ and $r>0$, we will show that $N(v,r)$ is open in $\tau_{\|\cdot\|'}$. For any $w\in N(v,r)$, we have that $\|v-w\|<r$ and: $$\|x-w\|'<C(r-\|v-w\| )\implies \|v-x\|\leq \|v-w\|+\|w-x\|<r$$for any $x$. Hence, $N'(w,C(r-\|v-w\|))\subseteq N(v,r)$. This shows the statement and the other direction holds by symmetry.
 
 ^dd4e85
 
 ---
+> [!lemma] Proposition 2 (Residue Seminorm)
+> Let $M$ be an abelian group and $N\leq M$. Then, for a seminorm $\|\cdot\|$ on $M$, the ***residue seminorm*** is a seminorm on $M / N$ defined as:$$\|\cdot \|:M / N\to \mathbb{R}_{\geq 0},\quad f\mapsto \inf \{ \|g\|: g\in q^{-1}(f) \}$$where $q:M\to M / N$ is the quotient homomorphism.
+> 1. the residue seminorm is a seminorm.
+> 2. the residue seminorm is a norm if and only if $N$ is closed in $M$.
+> 3. if $M$ is complete w.r.t. a norm and $N$ is closed, then $M / N$ is complete w.r.t. the residue norm.
+
+> [!proof]+
+> We have that:
+> 1. $\|0\|=0$ as $q(0)=0$. Now for $f,g\in M / N$, we have for any $q(f_{0})=f$ and $q(g_{0})=g$, $$\inf\|f_{0}-g_{0}\|\leq \left\| f_{0}-g_{0} \right\|\leq \left\| f_{0} \right\| +\left\| g_{0} \right\|  $$ Hence, $\|f-g\|\leq \|f\|+\|g\|$. 
+> 2. If the residue seminorm is a norm, then $\left\| f \right\|=0$ only when $f=0$. If $N$ is not closed, then there exists $(x_{n})_{n}\subseteq N$ s.t. $\lim_{ n \to \infty }x_{n}=: x\notin N$. Hence, $x+N\neq N$. However, $$\left\| x+N \right\| \leq \|x\|=\lim_{ n \to \infty } \|x_{n}\|$$

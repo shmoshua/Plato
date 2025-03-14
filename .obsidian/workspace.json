@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Berkovich Spectral Theory.md",
+                "file": "Topology/Interior and Closure.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Berkovich Spectral Theory"
+              "title": "Interior and Closure"
             }
           },
           {
@@ -303,11 +303,13 @@
   },
   "active": "76505253772bfdb1",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Topology/Interior and Closure.md",
     "Functional Analysis/Seminorm.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
-    "Projects/Berkovich Spectral Theory.md",
+    "Topology/Topological Space.md",
     "Topology/Hausdorff Space.md",
+    "Projects/Berkovich Spectral Theory.md",
+    "Untitled.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Projects",
     "Topology/Local Base of Topology.md",
     "Topology/Topological Vector Space with Seminorms.md",
@@ -328,8 +330,6 @@
     "Courses/Graph Theory/Problem Set 2.md",
     "Courses/Graph Theory/Problem Set 3.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Algebra/Exact Sequence.md",
-    "Algebra/Chain Complex.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
