@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -288,11 +288,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7370ea8f531e40ee",
+  "active": "d5f8640f4b8f56e6",
   "lastOpenFiles": [
-    "Algebra/Algebra.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Graph Theory/Problem Set 4.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Matching.md",
+    "Algebra/Algebra.md",
     "Algebra/Split Exact Sequence.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Algebra/Cochain Complex.md",
@@ -304,7 +305,6 @@
     "Graph Theory/Vertex Cover.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Functional Analysis/Guelfand Transform.md",
-    "Graph Theory/Matching.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Spectrum.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",

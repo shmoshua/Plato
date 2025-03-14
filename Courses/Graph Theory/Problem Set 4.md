@@ -42,6 +42,10 @@ Now, we will show that any graph $G$ on $n$ nodes with at least ${n-1 \choose 2}
 
 ---
 #### Problem 5
-1. If $d=0$, then the statement trivially holds. Let $d\in[n-1]$ and let $G$ be a graph on $dn$ nodes $v_{1},\dots,v_{dn}$ where $G$ is the maximal graph s.t. $S_{i}:=\{ v_{id+1} ,\dots,v_{(i+1)d}\}$ is independent for all $i\in\{ 0,1,\dots,n-1 \}$. In other words, for all $v\in S_{i}$, $vw\in E(G)$ for all $w\notin S_{i}$ and $S_{i}$ are independent. 
+1. Let $n=2k$. We claim that if $G$ is a $d$-regular graph on $n$ nodes for $d\geq \frac{n}{2}$, then we have a $(d-2)$-regular graph $G'$ on $n$ nodes. As $G$ is $d$-regular, 
    
-   Then, we see that for every $v\in V$, $d(v)=(n-1)d$. Hence, $\delta(G)=(n-1)d\geq n-1\geq \frac{n}{2}$ as $n\geq 2$. Therefore, $G$ is Hamiltonian and 
+   
+   
+2. Let $d$ be even. Then, on $V:=[n]$, we can define a graph $G$ s.t. each vertex $i$ is adjacent to exactly $S_{i}:=\{ i-d / 2, \dots, i-1, i+1,\dots,i+d / 2 \}$ modulo $n$. This is well-defined as this is a symmetric relation and as $\left| S_{i} \right|=d\leq n-1$ for all $i$, we have that $G$ is a $d$-regular graph.
+   
+   
