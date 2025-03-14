@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 4.md",
+                "file": "Projects/Berkovich Spectral Theory.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 4"
+              "title": "Berkovich Spectral Theory"
             }
           }
         ],
@@ -106,29 +106,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 4.md",
+                "file": "Functional Analysis/Seminorm.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 4"
+              "title": "Seminorm"
             }
           },
           {
-            "id": "d5f8640f4b8f56e6",
+            "id": "4f13d7cb7dd6d11e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Projects/Berkovich Spectral Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
+              "title": "Berkovich Spectral Theory"
+            }
+          },
+          {
+            "id": "b177626029d05332",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Base of Topology.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Base of Topology"
+            }
+          },
+          {
+            "id": "1cda112bb8bd9091",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Topological Vector Space with Seminorms.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Topological Vector Space with Seminorms"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,11 +302,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "4f13d7cb7dd6d11e",
   "lastOpenFiles": [
+    "Topology/Hausdorff Space.md",
+    "Projects/Berkovich Spectral Theory.md",
+    "Functional Analysis/Seminorm.md",
+    "Projects",
+    "Topology/Local Base of Topology.md",
+    "Topology/Topological Vector Space with Seminorms.md",
+    "Topology/Base of Topology.md",
+    "Analysis/Norm.md",
+    "Topology/Initial Topology.md",
+    "Topology/Weak Topology.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
@@ -292,15 +331,6 @@
     "Algebra/Exact Sequence.md",
     "Algebra/Chain Complex.md",
     "Graph Theory/Vertex Cover.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
-    "Functional Analysis/Guelfand Transform.md",
-    "Functional Analysis/Guelfand Spectrum.md",
-    "Functional Analysis/Spectrum.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Graph Theory/Hamiltonian Path.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Algorithms/Minimum Vertex Cover.md",
-    "Algebra/Tensor Product.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
@@ -310,7 +340,6 @@
     "ML Theory/Reinforcement Learning",
     "Topology/Algebraic Topology",
     "Courses/Algebraic Topology I",
-    "Untitled 1",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
