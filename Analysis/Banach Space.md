@@ -35,6 +35,12 @@
 > - Case 1: $\|z\|=0$. Then, $z=x+y=0$ and $x\in E\cap F$ and $y=-x$. Therefore, $$\left\| \overline{T}^{-1}(z) \right\|=\inf\{ \|w\|+\|-w\|:w\in E\cap F  \} =0$$
 > - Case 2: $\|z\|>0$. Then, there exists $v\in E\cap F$ s.t. $\|x+v\|+\|y-v\|\leq 2c\|z\|$. As $x+v+y-v=x+y=z$, this concludes the proof.
 ---
+> [!lemma] Propostion 3
+> Let $X$ be a normed space. TFAE:
+> 1. $X$ is Banach.
+> 2. for all $(x_{n})_{n}\subseteq X$, if $\sum_{n=1}^{\infty}\|x_{n}\|$ converges then $\sum_{n=1}^{\infty}x_{n}$ converges in $X$.
+> 
+---
 ##### Examples
 > [!claim] Example 1
 > For a topological space $X$, the space of all bounded continuous functions: $$C^b(X):=\{ f:X\to \mathbb{R}|f\in C^0(X), \text{sup}_{x\in X}\left| f(x) \right| <+\infty \}$$with the sup norm: $$\left\| f \right\| _{b}:=\sup_{x\in X}\left| f(x) \right| $$is a Banach space.

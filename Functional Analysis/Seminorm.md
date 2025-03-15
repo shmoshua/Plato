@@ -78,6 +78,7 @@
 >    Conversely, if $N$ is closed in $M$. Let $x\in M$ with $\left\| x+N \right\|=0$. Then, we have $(y_{n})_{n}\subseteq N$ s.t. $\lim_{ n \to \infty }\left\| x+y_{n} \right\|=0$. This means $\lim_{ n \to \infty }x+y_{n}=0$ and $x+\lim_{ n \to \infty }y_{n}=0$ where $\lim_{ n \to \infty }y_{n}\in N$ by the closure. Hence, $x\in N$.
 > 3. As $N$ is closed, the residue seminorm is a norm and we have that from $\|x+N\|\leq\|x\|$ that $q:M\to M / N$ is continuous. 
 >    
->    Let $(f_{n})_{n}\subseteq M / N$ be a Cauchy sequence. 
+>    Now, let $(f_{n})_{n}\subseteq M / N$ s.t. $\sum_{n=1}^{\infty}\|f_{n}\|$ converges. If it converges to  
 >    
->    Then, let $\varepsilon> 0$ we have that: $$\left\| x_{n}- x_{N} \right\| \leq \left\| x_{n} \right\| +\left\| x_{N} \right\| =$$
+>    Then, by definition we can choose $x_{n}\in q^{-1}(f_{n})$ s.t. $\|x_{n}\|\leq 2\|f_{n}\|$. 
+>    

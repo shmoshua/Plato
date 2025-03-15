@@ -91,6 +91,20 @@
               "icon": "lucide-file",
               "title": "Berkovich Spectral Theory"
             }
+          },
+          {
+            "id": "d31449181fd80ec7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Banach Space.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Banach Space"
+            }
           }
         ],
         "currentTab": 4
@@ -162,12 +176,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Continuous Functions in Metric Spaces.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Continuous Functions in Metric Spaces"
+              "title": "Quotient Topology"
+            }
+          },
+          {
+            "id": "72e4a83e3c437b88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Bounded Linear Map.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Bounded Linear Map"
+            }
+          },
+          {
+            "id": "556fd289787ea28d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Banach Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Banach Space"
             }
           }
         ]
@@ -202,7 +244,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "left exact",
+                "query": "open mapp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -223,7 +265,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -315,19 +358,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "76505253772bfdb1",
   "lastOpenFiles": [
-    "Topology/Continuous Functions in Metric Spaces.md",
-    "Analysis/Cauchy Sequence.md",
-    "Functional Analysis/Seminorm.md",
-    "Topology/Topological Vector Space with Seminorms.md",
+    "Topology/Quotient Topology.md",
+    "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Banach Space.md",
+    "Projects/Berkovich Spectral Theory.md",
+    "Analysis/Normed Space.md",
+    "Topology/Continuous Functions in Metric Spaces.md",
+    "Functional Analysis/Seminorm.md",
+    "Analysis/Cauchy Sequence.md",
+    "Topology/Topological Vector Space with Seminorms.md",
     "Topology/Complete Space.md",
     "Topology/Interior and Closure.md",
     "Topology/Hausdorff Space.md",
     "Topology/Base of Topology.md",
     "Topology/Topological Space.md",
-    "Projects/Berkovich Spectral Theory.md",
     "Untitled.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Projects",
@@ -341,9 +387,6 @@
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Graph Theory/Matching.md",
-    "Courses/Graph Theory/Problem Set 4.md",
-    "Algebra/Algebra.md",
-    "Algebra/Split Exact Sequence.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
