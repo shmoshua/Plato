@@ -75,6 +75,9 @@
 > 2. If the residue seminorm is a norm, then $\left\| f \right\|=0$ only when $f=0$. If $N$ is not closed, then there exists $(x_{n})_{n}\subseteq N$ s.t. $\lim_{ n \to \infty }x_{n}=: x\notin N$. Hence, $x+N\neq N$. We first claim that $\lim_{ n \to \infty }\|x_{n}+N\|=\|x+N\|$. Let $\varepsilon>0$. Then, there exists $n_{0}$ s.t. $x_{n}\in N(x,\varepsilon)$ for all $n\geq n_{0}$. Thus: $$\left| \left\| x_{n} +N\right\| -\|x+N\| \right| \leq \left\| x_{n}-x+N \right\|\leq \left\| x_{n}-x \right\| < \varepsilon, \quad \forall n\geq n_{0} $$
 >    This shows that $\|x+N\|=0$ and $x+N=0$ which is a contradiction.
 >    
->    Conversely, if $N$ is closed in $M$.
-
-Then, for any $x\in M$ with $\|x+N\|=0$, there exists $(y_{n})_{n}\subseteq N$ s.t. $\lim_{ n \to \infty }\left\| x+y_{n} \right\|=0$. 
+>    Conversely, if $N$ is closed in $M$. Let $x\in M$ with $\left\| x+N \right\|=0$. Then, we have $(y_{n})_{n}\subseteq N$ s.t. $\lim_{ n \to \infty }\left\| x+y_{n} \right\|=0$. This means $\lim_{ n \to \infty }x+y_{n}=0$ and $x+\lim_{ n \to \infty }y_{n}=0$ where $\lim_{ n \to \infty }y_{n}\in N$ by the closure. Hence, $x\in N$.
+> 3. As $N$ is closed, the residue seminorm is a norm and we have that from $\|x+N\|\leq\|x\|$ that $q:M\to M / N$ is continuous. 
+>    
+>    Let $(f_{n})_{n}\subseteq M / N$ be a Cauchy sequence. 
+>    
+>    Then, let $\varepsilon> 0$ we have that: $$\left\| x_{n}- x_{N} \right\| \leq \left\| x_{n} \right\| +\left\| x_{N} \right\| =$$
