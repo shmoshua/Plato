@@ -39,16 +39,20 @@
 > [!lemma] Proposition 1 (Topology with Seminorms)
 > Let $M$ be an abelian group and $\|\cdot\|$ a seminorm on $M$. Then, 
 > 1. $\|-x\|=\|x\|$ for all $x\in M$.
-> 2. the seminorm topology $\tau_{\|\cdot\|}$ is indeed a topology.
-> 3. $\tau_{\|\cdot\|}$ is Hausdorff if and only if $\|\cdot\|$ is a norm, i.e. $\|f\|=0$ only when $f=0$.
-> 4. if $\|\cdot\|$ and $\|\cdot\|'$ are equivalent, $\tau_{\|\cdot\|}=\tau_{\|\cdot\|'}$. 
+> 2. $\left| \left\| f \right\|-\left\| g \right\| \right|\leq \left\| f+g \right\|$ for all $f,g\in M$.
+> 3. $\left| \left\| f \right\|-\left\| g \right\| \right|\leq \left\| f-g \right\|$ for all $f,g\in M$.
+> 4. the seminorm topology $\tau_{\|\cdot\|}$ is indeed a topology.
+> 5. $\tau_{\|\cdot\|}$ is Hausdorff if and only if $\|\cdot\|$ is a norm, i.e. $\|f\|=0$ only when $f=0$.
+> 6. if $\|\cdot\|$ and $\|\cdot\|'$ are equivalent, $\tau_{\|\cdot\|}=\tau_{\|\cdot\|'}$. 
 
 ^eaf99a
 
 > [!proof]-
 > We have that:
 > 1. For any $x\in M$, $$\|-x\|=\|0-x\|\leq \|0\|+\|x\|=\|x\|$$As $x= -(-x)$, we have our statement.
-> 2. It suffices to show that $A:=N(v,s)\cap N(w,t)$ is open in $\tau_{\|\cdot\|}$ for any $v,w\in M$ and $s,t>0$. Let $u\in A$. Then, we have that $\|u-v\|<s$ and $\|w-v\|<t$. 
+> 2. We have that: $$\left\| f \right\| =\left\| f+g-g \right\|\leq \left\| f+g \right\| +\left\| g \right\|,\quad \left\| g \right\| =\left\| f+g-f \right\| \leq \left\| f+g \right\| +\left\| f \right\|   $$
+> 3. We have that: $$\left\| f+(-g) \right\| \geq \left| \left\| f \right\| -\left\| -g \right\|  \right| =\left| \left\| f \right\| -\left\| g \right\|  \right| $$
+> 4. It suffices to show that $A:=N(v,s)\cap N(w,t)$ is open in $\tau_{\|\cdot\|}$ for any $v,w\in M$ and $s,t>0$. Let $u\in A$. Then, we have that $\|u-v\|<s$ and $\|w-v\|<t$. 
 >    
 >    Let $\varepsilon:= \min \{ s-\|u-v\|,t-\|w-v\| \}> 0$. Then, for any $x \in N(u,\varepsilon)$, $$\|v-x\|=\|v-u+u-x\|\leq \|v-u\|+\|u-x\|< \|u-v\|+ \varepsilon\leq s$$Similarly $\|w-x\|< t$. Hence, $N(u,\varepsilon)\subseteq A$. This shows the statement.
 > 3. Let $\tau_{\|\cdot\|}$ be Hausdorff. However, assume that we have $f\neq 0$ s.t. $\left\| f \right\|=0$. Then, let $s,t>0$ s.t. $$N(0,s)\cap N(f,t)=\varnothing$$However, $\left\| f-0 \right\|\leq \left\| f \right\|+\left\| 0 \right\|=0<s$ and $f\in N(0,s)$. This is a contradiction. 
@@ -68,4 +72,9 @@
 > [!proof]+
 > We have that:
 > 1. $\|0\|=0$ as $q(0)=0$. Now for $f,g\in M / N$, we have for any $q(f_{0})=f$ and $q(g_{0})=g$, $$\inf\|f_{0}-g_{0}\|\leq \left\| f_{0}-g_{0} \right\|\leq \left\| f_{0} \right\| +\left\| g_{0} \right\|  $$ Hence, $\|f-g\|\leq \|f\|+\|g\|$. 
-> 2. If the residue seminorm is a norm, then $\left\| f \right\|=0$ only when $f=0$. If $N$ is not closed, then there exists $(x_{n})_{n}\subseteq N$ s.t. $\lim_{ n \to \infty }x_{n}=: x\notin N$. Hence, $x+N\neq N$. However, $$\left\| x+N \right\| \leq \|x\|=\lim_{ n \to \infty } \|x_{n}\|$$
+> 2. If the residue seminorm is a norm, then $\left\| f \right\|=0$ only when $f=0$. If $N$ is not closed, then there exists $(x_{n})_{n}\subseteq N$ s.t. $\lim_{ n \to \infty }x_{n}=: x\notin N$. Hence, $x+N\neq N$. We first claim that $\lim_{ n \to \infty }\|x_{n}+N\|=\|x+N\|$. Let $\varepsilon>0$. Then, there exists $n_{0}$ s.t. $x_{n}\in N(x,\varepsilon)$ for all $n\geq n_{0}$. Thus: $$\left| \left\| x_{n} +N\right\| -\|x+N\| \right| \leq \left\| x_{n}-x+N \right\|\leq \left\| x_{n}-x \right\| < \varepsilon, \quad \forall n\geq n_{0} $$
+>    This shows that $\|x+N\|=0$ and $x+N=0$ which is a contradiction.
+>    
+>    Conversely, if $N$ is closed in $M$.
+
+Then, for any $x\in M$ with $\|x+N\|=0$, there exists $(y_{n})_{n}\subseteq N$ s.t. $\lim_{ n \to \infty }\left\| x+y_{n} \right\|=0$. 

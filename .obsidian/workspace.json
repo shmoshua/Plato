@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Base of Topology.md",
+                "file": "Topology/Hausdorff Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Base of Topology"
+              "title": "Hausdorff Space"
             }
           },
           {
@@ -301,19 +301,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "76505253772bfdb1",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
+    "Topology/Hausdorff Space.md",
+    "Topology/Base of Topology.md",
     "Topology/Interior and Closure.md",
     "Functional Analysis/Seminorm.md",
     "Topology/Topological Space.md",
-    "Topology/Hausdorff Space.md",
     "Projects/Berkovich Spectral Theory.md",
     "Untitled.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Projects",
     "Topology/Local Base of Topology.md",
     "Topology/Topological Vector Space with Seminorms.md",
-    "Topology/Base of Topology.md",
     "Analysis/Norm.md",
     "Topology/Initial Topology.md",
     "Topology/Weak Topology.md",
