@@ -12,9 +12,12 @@
 ^e0febd
 
 - **Remark**: A seminorm differs from a [[Norm|norm]] in a sense that it is possible that $p(v)=0$ for some $v \neq 0$.  
-- **Remark**: A seminorm is called ***non-Archimedian*** if $\left\| f-g \right\|\leq \max(\left\| f \right\|,\left\| g \right\|)$. ^a18329
-- **Remark**: The ***seminorm topology*** has a base made up of the following sets: $$N(v,r):=\{ w\in M:\|w-v\|<r \}$$where $v\in M$, $r>0$. ^8c8b4e
-- **Remark**: Two seminorms $\|\cdot\|,\|\cdot\|'$ on abelian group $M$ are ***equivalent*** if there exist $c,c'>0$ s.t. $c\|f\|\leq \|f\|'\leq c'\|f\|$ for all $f\in M$.
+- **Related definition**: A seminorm is called ***non-Archimedian*** if $\left\| f-g \right\|\leq \max(\left\| f \right\|,\left\| g \right\|)$. ^a18329
+- **Related definition**: The ***seminorm topology*** has a base made up of the following sets: $$N(v,r):=\{ w\in M:\|w-v\|<r \}$$where $v\in M$, $r>0$. ^8c8b4e
+- **Related definition**: Two seminorms $\|\cdot\|,\|\cdot\|'$ on abelian group $M$ are ***equivalent*** if there exist $c,c'>0$ s.t. $c\|f\|\leq \|f\|'\leq c'\|f\|$ for all $f\in M$.
+- **Related definition**: Let $\varphi:M\to N$ be a homomorphism of seminored groups. We say that:
+  1. $\varphi$ is ***bounded*** if there exists $c>0$ s.t. $\left\| \varphi(f) \right\|\leq \left\| f \right\|$ for all $f\in M$.
+  2. $\varphi$ is ***admissible*** if the residue seminorm on $M / \text{ker }\varphi$ is equivalent to the restriction of $\|\cdot\|_{N}$ onto $\text{im }\varphi$.
 ---
 ##### Properties
 ###### Seminorms on Vector Spaces
@@ -69,7 +72,7 @@
 > 2. the residue seminorm is a norm if and only if $N$ is closed in $M$.
 > 3. if $M$ is complete w.r.t. a norm and $N$ is closed, then $M / N$ is complete w.r.t. the residue norm.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. $\|0\|=0$ as $q(0)=0$. Now for $f,g\in M / N$, we have for any $q(f_{0})=f$ and $q(g_{0})=g$, $$\inf\|f_{0}-g_{0}\|\leq \left\| f_{0}-g_{0} \right\|\leq \left\| f_{0} \right\| +\left\| g_{0} \right\|  $$ Hence, $\|f-g\|\leq \|f\|+\|g\|$. 
 > 2. If the residue seminorm is a norm, then $\left\| f \right\|=0$ only when $f=0$. If $N$ is not closed, then there exists $(x_{n})_{n}\subseteq N$ s.t. $\lim_{ n \to \infty }x_{n}=: x\notin N$. Hence, $x+N\neq N$. We first claim that $\lim_{ n \to \infty }\|x_{n}+N\|=\|x+N\|$. Let $\varepsilon>0$. Then, there exists $n_{0}$ s.t. $x_{n}\in N(x,\varepsilon)$ for all $n\geq n_{0}$. Thus: $$\left| \left\| x_{n} +N\right\| -\|x+N\| \right| \leq \left\| x_{n}-x+N \right\|\leq \left\| x_{n}-x \right\| < \varepsilon, \quad \forall n\geq n_{0} $$
@@ -78,7 +81,10 @@
 >    Conversely, if $N$ is closed in $M$. Let $x\in M$ with $\left\| x+N \right\|=0$. Then, we have $(y_{n})_{n}\subseteq N$ s.t. $\lim_{ n \to \infty }\left\| x+y_{n} \right\|=0$. This means $\lim_{ n \to \infty }x+y_{n}=0$ and $x+\lim_{ n \to \infty }y_{n}=0$ where $\lim_{ n \to \infty }y_{n}\in N$ by the closure. Hence, $x\in N$.
 > 3. As $N$ is closed, the residue seminorm is a norm and we have that from $\|x+N\|\leq\|x\|$ that $q:M\to M / N$ is continuous. 
 >    
->    Now, let $(f_{n})_{n}\subseteq M / N$ s.t. $\sum_{n=1}^{\infty}\|f_{n}\|$ converges. If it converges to  
+>    Now, let $(f_{n})_{n}\subseteq M / N$ s.t. $\sum_{n=1}^{\infty}\|f_{n}\|$ converges.
 >    
->    Then, by definition we can choose $x_{n}\in q^{-1}(f_{n})$ s.t. $\|x_{n}\|\leq 2\|f_{n}\|$. 
->    
+>    Then, by definition we can choose $x_{n}\in q^{-1}(f_{n})$ s.t. $\|x_{n}\|\leq 2\|f_{n}\|$. Therefore $\sum_{n=1}^{\infty}\|x_{n}\|$ converges too and as $M$ is Banach, by [[Banach Space|Proposition 3]], $\sum_{n=1}^{\infty}x_{n}$ converges to say $x$. Hence, by definition, we have that $\sum_{n=1}^{\infty}f_{n}$ converges to $x+N$. Using Proposition 3 again, we have that $M / N$ is Banach.
+
+---
+> [!lemma] Proposition 3 (Seminormed Group Homomorphism)
+> 
