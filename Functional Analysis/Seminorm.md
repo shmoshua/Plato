@@ -8,6 +8,10 @@
 > 2. A ***seminorm*** on an [[abelian group]] $M$ is a map $\|\cdot\|:M\to \mathbb{R}_{\geq 0}$ s.t.
 > 	1. $\|0\|=0$ and 
 > 	2. $\left\| f-g \right\|\leq \left\| f \right\|+\left\| g \right\|$ for all $f,g\in M$.
+> 3. A ***seminorm*** on a [[ring]] with identity $A$ is a map $\|\cdot\|:A\to \mathbb{R}_{\geq 0}$ s.t. 
+> 	1. $\|\cdot\|$ is a seminorm on $A$ as an additive group.
+> 	2. $\|1\|=1$.
+> 	3. $\left\| fg \right\|\leq \left\| f \right\|\left\| g \right\|$ for all $f,g\in A$.
 
 ^e0febd
 
@@ -18,6 +22,10 @@
 - **Related definition**: Let $\varphi:M\to N$ be a homomorphism of seminored groups. We say that:
   1. $\varphi$ is ***bounded*** if there exists $c>0$ s.t. $\left\| \varphi(f) \right\|\leq \left\| f \right\|$ for all $f\in M$.
   2. $\varphi$ is ***admissible*** if the residue seminorm on $M / \text{ker }\varphi$ is equivalent to the restriction of $\|\cdot\|_{N}$ onto $\text{im }\varphi$.
+- **Related definition**: A seminorm on a ring $A$ is called 
+	1. ***power-multiplicative*** if $\left\| f^n \right\|=\left\| f \right\|^n$ for all $f\in A$ and $n\geq 1$.
+	2.  ***multiplicative*** if $\left\| fg \right\|=\left\| f \right\|\left\| g \right\|$ for all $f,g\in A$.
+	3. a ***valuation*** if it is a multiplicative norm.
 ---
 ##### Properties
 ###### Seminorms on Vector Spaces

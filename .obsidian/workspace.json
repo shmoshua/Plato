@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Seminorm.md",
+                "file": "Functional Analysis/Banach Ring.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Seminorm"
+              "title": "Banach Ring"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Banach Space.md",
+                "file": "Functional Analysis/Banach Ring.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Banach Space"
+              "title": "Banach Ring"
             }
           },
           {
@@ -212,7 +212,8 @@
               "title": "Banach Space"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -265,8 +266,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -358,15 +358,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "76505253772bfdb1",
+  "active": "4f13d7cb7dd6d11e",
   "lastOpenFiles": [
+    "Functional Analysis/Seminorm.md",
+    "Functional Analysis/Banach Ring.md",
+    "Analysis/Banach Space.md",
     "Topology/Quotient Topology.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Analysis/Banach Space.md",
     "Projects/Berkovich Spectral Theory.md",
     "Analysis/Normed Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
-    "Functional Analysis/Seminorm.md",
     "Analysis/Cauchy Sequence.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Topology/Complete Space.md",
@@ -386,7 +387,6 @@
     "Courses/Graph Theory/Problem Set 1.md",
     "Algebra/Linear Algebra/Orthogonal Complement.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
-    "Graph Theory/Matching.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
