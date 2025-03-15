@@ -21,13 +21,16 @@
 > 1. for a proper closed ideal $I\unlhd A$, $A / I$ is Banach w.r.t. [[Seminorm|residue norm]].
 > 2. $\prod_{i\in I}^{}A_{i}:=\{ (f_{i})_{i\in I}: \exists c>0, \|f\|_{i}\leq c, \forall i\in I \}$ is Banach w.r.t. $\|(f_{i})_{i\in I}\|:=\sup_{i\in I}\left\| f_{i} \right\|$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. By [[Seminorm|Proposition 2.3]] we have that $A / I$ is complete w.r.t. the residue norm as an additive group. Now, we only have to show that it is also a norm as a ring. Of course we have: $$\left\| 1+I \right\|\leq \left\| 1 \right\| =1 $$Now assume that $\left\| 1+I \right\|<1$. Then, there exists $m\in I$ s.t. $\left\| 1+m \right\|<1$. Then, by Proposition 1, $1-1-m=-m$ is a unit. This is a contradiction to the fact that $I$ is proper. Hence, $\left\| 1+I \right\|=1$. 
 >    
 >    Similarly, for $f,g\in A$, $\left\| fg+I \right\|\leq \left\| f+I \right\|\left\| g+I \right\|$. Indeed, let $m,m'\in I$ s.t. $\left\| f+m \right\|\leq \left\| f+I \right\|+\varepsilon$ and $\left\| g+m' \right\|\leq \left\| g+I \right\|+ \varepsilon$. Then, $$\begin{aligned}\left\| fg+I \right\|& \leq \left\| (f+m)(g+m') \right\| \\&\leq \left\| f+m \right\|\left\| g+m' \right\| \leq \left\| f+I \right\| \left\| g+I \right\| +\varepsilon(\left\| f+I \right\| +\left\| g+I \right\| )+\varepsilon^{2} \end{aligned}$$By taking $\varepsilon$ to zero, we have our statement. 
-> 2. We have that $\left\| 0 \right\|=0$ and: $$\left\| f-g \right\| =\sup_{i\in I}\left\| f_{i}-g_{i} \right\| \leq \sup_{i\in I}\left\| f_{i} \right\| +\left\| g_{i} \right\| \leq \left\| f \right\| +\left\| g \right\| $$Further, $\left\| 1 \right\|=1$ and $\left\| fg \right\|\leq \left\| f \right\|\left\| g \right\|$ with the same argument as above. 
-
+> 2. We have that $\left\| 0 \right\|=0$ and: $$\left\| f-g \right\| =\sup_{i\in I}\left\| f_{i}-g_{i} \right\| \leq \sup_{i\in I}\left\| f_{i} \right\| +\left\| g_{i} \right\| \leq \left\| f \right\| +\left\| g \right\| $$Further, $\left\| 1 \right\|=1$ and $\left\| fg \right\|\leq \left\| f \right\|\left\| g \right\|$ with the same argument as above. To show that it is Banach, let $(f_{n})_{n}$ be a Cauchy sequence. Then, for any $\varepsilon>0$ there exists $m$ s.t. $$\left\| f_{n,i}-f_{m,i} \right\| \leq \left\| f_{n}-f_{m} \right\| \leq \varepsilon,\quad \forall n\geq m,i\in I$$Hence, $(f_{n,i})_{n}$ is Cauchy for all $i$ and converges to $f_{i}$. 
+> 	1. **$f$ is bounded**. For $\varepsilon>0$, we have for some $n$: $$\left\| f \right\| \leq \left\| f-f_{n} \right\| +\left\| f_{n} \right\| \leq \varepsilon+\left\| f_{n} \right\| <+\infty$$
+> 	2. **$f_{n}\to f$ in norm**: For $\varepsilon>0$, there exists $K$ s.t. $\left\| f_{n}-f_{m} \right\|< \varepsilon$ for all $n,m\geq K$. Then, by $n\to \infty$, we have that: $$\left\| f-f_{m} \right\|\leq \left\| f-f_{n} \right\| +\left\| f_{n}-f_{m} \right\| <2\varepsilon $$for large $n,m\geq K$.
+>    
+>    This shows that we have a Banach ring.
 ---
 ##### Examples
 > [!h] Example 1
@@ -40,3 +43,11 @@
 > 1. Obviously $\left| \cdot \right|_{0}$ is a seminorm on $A$ as a ring. Further by definition it is a norm as well. Now, if we have a Cauchy sequence $(f_{n})_{n}$, by taking $\varepsilon = 1 /2$, there exists $n_{0}$ s.t. $\left| f_{m}-f_{n_{0}} \right|_{0}=0$, i.e. $f_{m}=f_{n_{0}}$ for all $m\geq n_{0}$. By taking $f:=f_{n_{0}}$, we have that $f_{n}\to f$.
 > 2. $\left| \cdot \right|$ is a norm on $\mathbb{Z}$ as an abelian group. Further, it is a multiplicative norm. With the same arguments as above, for any Cauchy sequence $(n_{k})_{k}$ there exists $k_{0}$ s.t. $n_{\ell}=n_{k_{0}}$ for all $\ell\geq k_{0}$. Hence, the sequence converges. 
 ---
+> [!h] Example 2 (Power Series Banach Ring)
+> Let $A$ be a Banach ring and $r>0$. Then, $$A\langle r^{-1}T\rangle:=\left\{  f=\sum_{i=0}^{\infty}a_{i}T^i: a_{i}\in A, \left\| f \right\| :=\sum_{i=0}^{\infty}\left\| a_{i} \right\| r^i <+\infty \right\}$$
+> 1. $A\langle r^{-1}T\rangle$ is a Banach ring.
+> 2. $1-aT$ is invertible if and only if $\sum_{i=0}^{\infty}\left\| a^i \right\|r^i<\infty$.
+
+> [!proof]+
+> We have that:
+> 1. $\left\| 0 \right\|=0$ and $$\left\| \sum_{i=0}^{\infty}(a_{i}-b_{i})T^i \right\|=\sum_{i=0}^{\infty}\left\| a_{i}-b_{i} \right\| r^i\leq \sum_{i=0}^{\infty}\left\| a_{i}\right\|r^i+\sum_{i=0}^{\infty}\left\|b_{i} \right\| r^i=\left\| \sum_{i=0}^{\infty}a_{i}T^i \right\|+\left\| \sum_{i=0}^{\infty}b_{i}T^i \right\|  $$

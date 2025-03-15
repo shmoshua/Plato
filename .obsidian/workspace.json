@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Spectrum.md",
+                "file": "Analysis/Banach Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Spectrum"
+              "title": "Banach Space"
             }
           },
           {
@@ -344,9 +344,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4f13d7cb7dd6d11e",
+  "active": "76505253772bfdb1",
   "lastOpenFiles": [
     "Functional Analysis/Seminorm.md",
+    "Analysis/Banach Space.md",
     "Functional Analysis/Banach Ring.md",
     "Functional Analysis/Spectrum.md",
     "Algebra/Unit.md",
@@ -355,7 +356,6 @@
     "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/C*-Algebra.md",
     "Topology/Hausdorff Space.md",
-    "Analysis/Banach Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Projects/Berkovich Spectral Theory.md",
     "Analysis/Normed Space.md",
