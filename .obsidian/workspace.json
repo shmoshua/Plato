@@ -143,31 +143,17 @@
             }
           },
           {
-            "id": "b177626029d05332",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Hausdorff Space.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Hausdorff Space"
-            }
-          },
-          {
             "id": "1cda112bb8bd9091",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Cauchy Sequence.md",
+                "file": "Functional Analysis/Spectrum.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cauchy Sequence"
+              "title": "Spectrum"
             }
           },
           {
@@ -176,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Algebra/Unit.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Quotient Topology"
+              "title": "Unit"
             }
           },
           {
@@ -362,17 +348,21 @@
   "lastOpenFiles": [
     "Functional Analysis/Seminorm.md",
     "Functional Analysis/Banach Ring.md",
-    "Analysis/Banach Space.md",
+    "Functional Analysis/Spectrum.md",
+    "Algebra/Unit.md",
     "Topology/Quotient Topology.md",
+    "Analysis/Cauchy Sequence.md",
+    "Functional Analysis/Banach Algebra.md",
+    "Functional Analysis/C*-Algebra.md",
+    "Topology/Hausdorff Space.md",
+    "Analysis/Banach Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Projects/Berkovich Spectral Theory.md",
     "Analysis/Normed Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
-    "Analysis/Cauchy Sequence.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Topology/Complete Space.md",
     "Topology/Interior and Closure.md",
-    "Topology/Hausdorff Space.md",
     "Topology/Base of Topology.md",
     "Topology/Topological Space.md",
     "Untitled.md",
@@ -383,10 +373,6 @@
     "Topology/Initial Topology.md",
     "Topology/Weak Topology.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 4.md",
-    "Courses/Graph Theory/Problem Set 1.md",
-    "Algebra/Linear Algebra/Orthogonal Complement.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
