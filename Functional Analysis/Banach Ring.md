@@ -3,7 +3,7 @@
 > [!definition]
 > Let $A$ be a normed [[ring]], i.e. it is equipped with a [[Seminorm|norm]] $\|\cdot\|$.
 > 1. $A$ is a ***Banach ring*** if it is [[Banach Space|Banach]] w.r.t. the norm.
-
+- **Related definition**: A [[Seminorm|seminorm]] $\left| \cdot \right|$ on a Banach ring $A$ is called ***bounded*** if there exists $c>0$ s.t. $\left| f \right|\leq c\left\| f \right\|$ for all $f\in A$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -32,6 +32,14 @@
 >    
 >    This shows that we have a Banach ring.
 ---
+> [!lemma] Proposition 3 (Bounded Seminorms)
+> Let $A$ be a Banach ring and $\left| \cdot \right|$ a seminorm on $A$.
+> 1. if $\left| \cdot \right|$ is [[Seminorm|power-multiplicative]], then $\left| f \right|\leq \left\| f \right\|$ for all $f\in A$.
+
+> [!proof]+
+> We have that:
+> 1. there exists $c>0$ with $\left| f \right|\leq c\left\| f \right\|$ for all $f\in A$. Hence, $$\left| f \right|^n=\left| f^n \right|\leq C\left\| f^n \right\|\leq C \left\| f \right\| ^n,\quad \forall n$$Therefore, $\left| f \right|\leq C^{1 / n} \left\| f \right\|$ for all $n$ and $\left| f \right|\leq \left\| f \right\|$.
+---
 ##### Examples
 > [!h] Example 1
 > We have that:
@@ -48,6 +56,9 @@
 > 1. $A\langle r^{-1}T\rangle$ is a Banach ring.
 > 2. $1-aT$ is invertible if and only if $\sum_{i=0}^{\infty}\left\| a^i \right\|r^i<\infty$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. $\left\| 0 \right\|=0$ and $$\left\| \sum_{i=0}^{\infty}(a_{i}-b_{i})T^i \right\|=\sum_{i=0}^{\infty}\left\| a_{i}-b_{i} \right\| r^i\leq \sum_{i=0}^{\infty}\left\| a_{i}\right\|r^i+\sum_{i=0}^{\infty}\left\|b_{i} \right\| r^i=\left\| \sum_{i=0}^{\infty}a_{i}T^i \right\|+\left\| \sum_{i=0}^{\infty}b_{i}T^i \right\|  $$
+> 1. $\left\| 0 \right\|=0$ and $$\left\| \sum_{i=0}^{\infty}(a_{i}-b_{i})T^i \right\|=\sum_{i=0}^{\infty}\left\| a_{i}-b_{i} \right\| r^i\leq \sum_{i=0}^{\infty}\left\| a_{i}\right\|r^i+\sum_{i=0}^{\infty}\left\|b_{i} \right\| r^i=\left\| \sum_{i=0}^{\infty}a_{i}T^i \right\|+\left\| \sum_{i=0}^{\infty}b_{i}T^i \right\|  $$Further, $$\left\| \sum_{i=0}^{\infty}a_{i}T^i \right\| =\sum_{i=0}^{\infty}\left\| a_{i} \right\| r^i=0$$then $a_{i}=0$ for all $i$. Lastly, $\left\| 1 \right\|=1$ and $$\left\| \sum_{i,j=0}^{\infty}a_{i}b_{j}T^{i+j} \right\| \leq \sum_{i,j=0}^{\infty}\left\| a_{i} \right\| \left\| b_{j} \right\| r^{i+j}=\left\| \sum_{i=0}^{\infty}a_{i}T^i \right\| \cdot \left\| \sum_{j=0}^{\infty}b_{j}T^j \right\| $$Hence, $A \braket{ r^{-1}T  }$ is a normed ring. Now, let $(f_{n})_{n}$ be a Cauchy sequence. Then, for any $\varepsilon>0$ there exists $m$ s.t:$$\left\| \sum_{i=0}^{\infty}(a_{n,i}-a_{m,i}) T^i\right\|=\sum_{i=0}^{\infty}\left\| a_{n,i}-a_{m,i} \right\| r^i<\varepsilon,\quad \forall n\geq m $$Then, $\left\| a_{n,i}-a_{m,i} \right\|< \varepsilon /r^i$ and we have that for all $i\geq 0$ $(a_{n,i})_{n}$ is Cauchy. Hence, $a_{n,i}\to a_{i}$ and we have that similarly to Proposition 2.2, $\sum_{i=0}^{\infty}a_{n,i}T^i$ converges to $\sum_{i=0}^{\infty}a_{i}T^i$ and the limit is in $A\langle r^{-1}T\rangle$. 
+> 2. We have that: $$(1-aT)\left( \sum_{i=0}^{\infty}a^i T^i \right)=\sum_{i=0}^{\infty}a^iT^i-\sum_{i=1}^{\infty}a^iT^i=1$$Hence, if $1-aT$ is invertible if and only if  $\sum_{i=0}^{\infty}a^i T^i\in A\braket{ r^{-1}T  }$, i.e. $\sum_{i=0}^{\infty}\left\| a^i \right\|r^i<+\infty$. 
+
+---
