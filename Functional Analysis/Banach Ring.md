@@ -36,7 +36,7 @@
 > Let $A$ be a Banach ring and $\left| \cdot \right|$ a seminorm on $A$.
 > 1. if $\left| \cdot \right|$ is [[Seminorm|power-multiplicative]], then $\left| f \right|\leq \left\| f \right\|$ for all $f\in A$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. there exists $c>0$ with $\left| f \right|\leq c\left\| f \right\|$ for all $f\in A$. Hence, $$\left| f \right|^n=\left| f^n \right|\leq C\left\| f^n \right\|\leq C \left\| f \right\| ^n,\quad \forall n$$Therefore, $\left| f \right|\leq C^{1 / n} \left\| f \right\|$ for all $n$ and $\left| f \right|\leq \left\| f \right\|$.
 ---
