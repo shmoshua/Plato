@@ -129,34 +129,6 @@
             }
           },
           {
-            "id": "4f13d7cb7dd6d11e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Uniformly Continuous Function"
-            }
-          },
-          {
-            "id": "1cda112bb8bd9091",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Uniform Structure.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Uniform Structure"
-            }
-          },
-          {
             "id": "ded96a4b2c0cf9a4",
             "type": "leaf",
             "state": {
@@ -190,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Banach Space.md",
+                "file": "Analysis/Equivalence of Norms.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Banach Space"
+              "title": "Equivalence of Norms"
             }
           }
         ]
@@ -343,25 +315,26 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "76505253772bfdb1",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Functional Analysis/Uniformly Continuous Function.md",
-    "Functional Analysis/Valuation Field.md",
-    "Topology/Uniform Structure.md",
+    "Algebra/Unit.md",
+    "Functional Analysis/Bounded Linear Map.md",
+    "Analysis/Equivalence of Norms.md",
     "Analysis/Banach Space.md",
+    "Functional Analysis/Valuation Field.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
+    "Topology/Uniform Structure.md",
     "Projects/Berkovich Spectral Theory.md",
     "Functional Analysis/Seminorm.md",
     "Untitled.md",
     "Untitled 1.md",
     "Functional Analysis/Banach Ring.md",
     "Functional Analysis/Spectrum.md",
-    "Algebra/Unit.md",
     "Topology/Quotient Topology.md",
     "Analysis/Cauchy Sequence.md",
     "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/C*-Algebra.md",
     "Topology/Hausdorff Space.md",
-    "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Normed Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Topological Vector Space with Seminorms.md",
@@ -371,7 +344,6 @@
     "Topology/Topological Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Projects",
-    "Topology/Local Base of Topology.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
