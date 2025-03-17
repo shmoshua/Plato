@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unit.md",
+                "file": "Measure Theory/Lebesgue Integral.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Unit"
+              "title": "Lebesgue Integral"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Bounded Linear Map.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Bounded Linear Map"
+              "title": "Expected Value"
             }
           },
           {
@@ -170,7 +170,8 @@
               "title": "Equivalence of Norms"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -315,13 +316,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "72e4a83e3c437b88",
   "lastOpenFiles": [
-    "Algebra/Unit.md",
+    "Measure Theory/Lebesgue Integral.md",
+    "Probability Theory/Expected Value.md",
     "Functional Analysis/Bounded Linear Map.md",
+    "Algebra/Unit.md",
+    "Functional Analysis/Valuation Field.md",
     "Analysis/Equivalence of Norms.md",
     "Analysis/Banach Space.md",
-    "Functional Analysis/Valuation Field.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Topology/Uniform Structure.md",
     "Projects/Berkovich Spectral Theory.md",
@@ -341,8 +344,6 @@
     "Topology/Complete Space.md",
     "Topology/Interior and Closure.md",
     "Topology/Base of Topology.md",
-    "Topology/Topological Space.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
