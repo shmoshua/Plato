@@ -16,21 +16,7 @@
 > We have that:
 > 1. We have that for a norm $\left| \cdot \right|$, $$N(0,1)=\{ f\in A:\lim_{ n \to \infty } f^n =0 \}$$Hence, for $\left| \cdot \right|$ and $\left| \cdot \right|'$, $B_{<1}(0)=B_{<1}'(0)$ and $B_{\le 1}(0)=B_{\leq 1}'(0)$. Hence, for the unit spheres, $S=S'$. 
 >    
->    Now, let $f,g\in A$ s.t. $\left| f \right|=\left| g \right|$. Then, $$\left|  \right| $$
+>    Now, let $f,g\in A$ s.t. $\left| f \right|=\left| g \right|$. Then, $$1=\left| f f^{-1} \right|=\left| f \right| \left| f^{-1} \right| =\left| g \right| \left| f^{-1} \right| =\left| gf^{-1} \right| $$Hence $\left| gf^{-1} \right|'=1$ and we have that $\left| g \right|'=\frac{1}{\left| f^{-1} \right|'}=\left| f \right|'$. Hence, we can define $\varphi:\mathbb{R}_{\geq 0}\to \mathbb{R}_{\geq 0}$ s.t. $\varphi(\left| f \right|)=\left| f \right|'$ for all $f\in A$.
 >    
->    
->    
->    
->    Assume they induce the same topology. Then, there exists $c>0$ s.t. $B'_{<c}(0)\subseteq B_{<1}(0)$, i.e. $\left| x \right|'<c\implies \left| x \right|<1$. Then, $\left| x \right|'\leq c$ implies $\left| x \right|\leq 1$ by continuity of the norm. Hence, for any $f\in A$, $$\left| \frac{f}{\left| f \right|' } \right| \leq  \frac{1}{c},\quad \left| f \right| \leq  \frac{1}{c}\left| f' \right| $$for all $f\neq 0$. By symmetry, the two valuations are equivalent. Now, let $f,g\in A$ s.t. $\left| f \right|=\left| g \right|$. Then, $$$$
->    
->    $\varphi:\mathbb{R}_{\geq 0}\to \mathbb{R}_{\geq 0}$ s.t. $$\varphi(\left| f \right| )=\left| f \right| '$$
->    
->    
->    
->    Now, let $c\left| f \right|'\leq \left| f \right|\leq d\left| f \right|'$ for all $f\in A$. However, we have that: 
->    
->    $$\left| f \right| $$
-> 2. 
->    Similarly, there exists $c'>0$ s.t. $\left| x \right|<c'\implies \left| x \right|'<1$. Hence, $$$$
->    
->    Hence, $\text{id}:(A, \left| \cdot \right|)\to (A,\left| \cdot \right|')$ is a homeomorphism. We show that then $\left| \cdot \right|$ and $\left| \cdot \right|'$ are equivalent. Let $f\in A$. Then, as $0\in N(f,\left| f \right|+\varepsilon)$ for any $\varepsilon>0$, there exists $\delta>0$ s.t. $N'(0,\delta)\subseteq N(f,\left| f \right|+\varepsilon)$. Hence, $$\left| f \right| '$$
+>    Finally, we show that $\varphi$ is a power function. We have: $$\varphi(\lim_{ n \to \infty } \left| f_{n} \right| )=\varphi(\left| f \right| )=\left| f \right| '=\lim_{ n \to \infty } \left| f_{n} \right| '=\lim_{ n \to \infty } \varphi(\left| f_{n} \right| )$$Hence, $\varphi$ is continuous. Further, for any $f,g\in A$, $$\varphi(\left| f \right| \left| g \right| )=\varphi(\left| fg \right| )=\left| fg \right| '=\left| f \right| '\left| g \right| '=\varphi(\left| f \right| )\varphi(\left| g \right| )$$
+>    We conclude by pointing that the only continuous multiplicative function on the positive reals is the power function. 
