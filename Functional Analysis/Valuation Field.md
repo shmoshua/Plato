@@ -14,4 +14,4 @@
 
 > [!proof]+
 > We have that:
-> 1. 
+> 1. They induce the same topology. Hence, $\text{id}:(A, \left| \cdot \right|)\to (A,\left| \cdot \right|')$ is a homeomorphism. We claim that 

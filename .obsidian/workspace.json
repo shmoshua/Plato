@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Berkovich Spectral Theory.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Berkovich Spectral Theory"
+              "title": "Uniformly Continuous Function"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Seminorm.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Seminorm"
+              "title": "Uniformly Continuous Function"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Banach Space.md",
+                "file": "Topology/Uniform Structure.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Banach Space"
+              "title": "Uniform Structure"
             }
           },
           {
@@ -345,12 +345,15 @@
   },
   "active": "76505253772bfdb1",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Valuation Field.md",
-    "Untitled 1.md",
-    "Functional Analysis/Seminorm.md",
-    "Functional Analysis/Banach Ring.md",
+    "Topology/Uniform Structure.md",
     "Analysis/Banach Space.md",
+    "Projects/Berkovich Spectral Theory.md",
+    "Functional Analysis/Seminorm.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Functional Analysis/Banach Ring.md",
     "Functional Analysis/Spectrum.md",
     "Algebra/Unit.md",
     "Topology/Quotient Topology.md",
@@ -359,7 +362,6 @@
     "Functional Analysis/C*-Algebra.md",
     "Topology/Hausdorff Space.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Projects/Berkovich Spectral Theory.md",
     "Analysis/Normed Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Topological Vector Space with Seminorms.md",
@@ -370,8 +372,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Projects",
     "Topology/Local Base of Topology.md",
-    "Analysis/Norm.md",
-    "Topology/Initial Topology.md",
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
