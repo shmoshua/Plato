@@ -162,16 +162,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Equivalence of Norms.md",
+                "file": "Probability Theory/Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Equivalence of Norms"
+              "title": "Distribution"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -316,14 +316,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "72e4a83e3c437b88",
+  "active": "556fd289787ea28d",
   "lastOpenFiles": [
+    "Probability Theory/Distribution Function.md",
+    "Analysis/Equivalence of Norms.md",
     "Measure Theory/Lebesgue Integral.md",
     "Probability Theory/Expected Value.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Algebra/Unit.md",
     "Functional Analysis/Valuation Field.md",
-    "Analysis/Equivalence of Norms.md",
     "Analysis/Banach Space.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Topology/Uniform Structure.md",
@@ -343,7 +344,6 @@
     "Topology/Topological Vector Space with Seminorms.md",
     "Topology/Complete Space.md",
     "Topology/Interior and Closure.md",
-    "Topology/Base of Topology.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
