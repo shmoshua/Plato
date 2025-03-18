@@ -24,7 +24,11 @@
 
 > [!proof]+
 > Let $x\in \widehat{A}$.
-> 1. 
+> 1. We first show that $\text{ker }x$ is an ideal. Let $f,g\in \text{ker }x$. Then, $$0\leq x(f+g)\leq x(f)+x(g)=0$$Further, for any $h\in A$, $x(fh)=x(f)x(h)=0$. Hence, $\text{ker }x$ is an ideal.
+>    
+>    Let $x(fg)=0$. Then, $0=x(fg)=x(f)x(g)$ and $x(f)=0$ or $x(g)=0$. This shows that $\text{ker }x$ is prime. Further, let $f\in A \backslash \text{ker }x$. Then, $x(f)>0$ and by choosing $r:=x(f) / 2$, we have that: $$N(f,r)\subseteq A \backslash \text{ker }x$$Indeed, for any $x(f-g)<r$, we have that: $$x(f)\leq x(f-g)+x(g)\leq x(f) / 2+x(g)$$and $0<x(f) / 2\leq x(g)$ and $g\in A \backslash \text{ker } x$. 
+>    
+>    
 > 2. Then, $\text{ker }x=\{ f\in A:x(f)=0 \}$. 
 > 
 ---
