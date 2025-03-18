@@ -129,17 +129,17 @@
             }
           },
           {
-            "id": "ded96a4b2c0cf9a4",
+            "id": "9e6f968d70ae969e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Lebesgue Integral.md",
+                "file": "Functional Analysis/Banach Ring.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lebesgue Integral"
+              "title": "Banach Ring"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Functional Analysis/Seminorm.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expected Value"
+              "title": "Seminorm"
             }
           },
           {
@@ -162,16 +162,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Distribution.md",
+                "file": "Projects/Berkovich Spectral Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Distribution"
+              "title": "Berkovich Spectral Theory"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -316,24 +315,24 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ded96a4b2c0cf9a4",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
+    "Functional Analysis/Banach Ring.md",
+    "Functional Analysis/Valuation Field.md",
+    "Projects/Berkovich Spectral Theory.md",
+    "Probability Theory/Distribution.md",
+    "Functional Analysis/Seminorm.md",
     "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Integral.md",
-    "Probability Theory/Distribution.md",
     "Probability Theory/Distribution Function.md",
     "Analysis/Equivalence of Norms.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Algebra/Unit.md",
-    "Functional Analysis/Valuation Field.md",
     "Analysis/Banach Space.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Topology/Uniform Structure.md",
-    "Projects/Berkovich Spectral Theory.md",
-    "Functional Analysis/Seminorm.md",
     "Untitled.md",
     "Untitled 1.md",
-    "Functional Analysis/Banach Ring.md",
     "Functional Analysis/Spectrum.md",
     "Topology/Quotient Topology.md",
     "Analysis/Cauchy Sequence.md",

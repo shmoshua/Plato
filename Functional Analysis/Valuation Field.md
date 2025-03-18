@@ -11,6 +11,7 @@
 > [!lemma] Proposition 1
 > Let $A$ be a normed field. 
 > 1. if $\left| \cdot \right|$ and $\left| \cdot \right|'$ are two [[Seminorm|valuations]] on $A$ inducing the same topology, then there exists $a>0$ with $\left| f \right|'=\left| f \right|^a$ for all $f\in A$.
+> 2. if $\left| \cdot \right|,\left| \cdot \right|'\neq \left| \cdot \right|_{0}$ from [[Banach Ring|Example 1]], then $a$ is unique.
 
 > [!proof]+
 > We have that:
@@ -20,3 +21,4 @@
 >    
 >    Finally, we show that $\varphi$ is a power function. We have: $$\varphi(\lim_{ n \to \infty } \left| f_{n} \right| )=\varphi(\left| f \right| )=\left| f \right| '=\lim_{ n \to \infty } \left| f_{n} \right| '=\lim_{ n \to \infty } \varphi(\left| f_{n} \right| )$$Hence, $\varphi$ is continuous. Further, for any $f,g\in A$, $$\varphi(\left| f \right| \left| g \right| )=\varphi(\left| fg \right| )=\left| fg \right| '=\left| f \right| '\left| g \right| '=\varphi(\left| f \right| )\varphi(\left| g \right| )$$
 >    We conclude by pointing that the only continuous multiplicative function on the positive reals is the power function. 
+> 2. Assume that we have $\left| f \right|^a=\left| f \right|^b$ for $0<a<b$ for all $f$. Then, $1=\left| f^n \right|^{b-a}=\left| f \right|^{n(b-a)}$
