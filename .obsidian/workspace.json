@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Valuation Field.md",
+                "file": "Functional Analysis/Normed Module.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Valuation Field"
+              "title": "Normed Module"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Seminorm.md",
+                "file": "Functional Analysis/Normed Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Seminorm"
+              "title": "Normed Module"
             }
           },
           {
@@ -162,15 +162,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Berkovich Spectral Theory.md",
+                "file": "Functional Analysis/Banach Algebra.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Berkovich Spectral Theory"
+              "title": "Banach Algebra"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -315,13 +316,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "72e4a83e3c437b88",
   "lastOpenFiles": [
-    "Functional Analysis/Banach Ring.md",
-    "Functional Analysis/Valuation Field.md",
+    "Functional Analysis/Banach Algebra.md",
+    "Functional Analysis/Normed Module.md",
     "Projects/Berkovich Spectral Theory.md",
-    "Probability Theory/Distribution.md",
+    "Functional Analysis/Banach Ring.md",
     "Functional Analysis/Seminorm.md",
+    "Functional Analysis/Valuation Field.md",
+    "Probability Theory/Distribution.md",
     "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Integral.md",
     "Probability Theory/Distribution Function.md",
@@ -336,13 +339,11 @@
     "Functional Analysis/Spectrum.md",
     "Topology/Quotient Topology.md",
     "Analysis/Cauchy Sequence.md",
-    "Functional Analysis/Banach Algebra.md",
     "Functional Analysis/C*-Algebra.md",
     "Topology/Hausdorff Space.md",
     "Analysis/Normed Space.md",
     "Topology/Continuous Functions in Metric Spaces.md",
     "Topology/Topological Vector Space with Seminorms.md",
-    "Topology/Complete Space.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
