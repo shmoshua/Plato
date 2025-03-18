@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -316,13 +316,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "72e4a83e3c437b88",
+  "active": "ded96a4b2c0cf9a4",
   "lastOpenFiles": [
+    "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Integral.md",
     "Probability Theory/Distribution.md",
     "Probability Theory/Distribution Function.md",
     "Analysis/Equivalence of Norms.md",
-    "Probability Theory/Expected Value.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Algebra/Unit.md",
     "Functional Analysis/Valuation Field.md",
