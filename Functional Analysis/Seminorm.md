@@ -19,7 +19,7 @@
 - **Related definition**: A seminorm is called ***non-Archimedian*** if $\left\| f-g \right\|\leq \max(\left\| f \right\|,\left\| g \right\|)$. ^a18329
 - **Related definition**: The ***seminorm topology*** has a base made up of the following sets: $$N(v,r):=\{ w\in M:\|w-v\|<r \}$$where $v\in M$, $r>0$. ^8c8b4e
 - **Related definition**: Two seminorms $\|\cdot\|,\|\cdot\|'$ on abelian group $M$ are ***equivalent*** if there exist $c,c'>0$ s.t. $c\|f\|\leq \|f\|'\leq c'\|f\|$ for all $f\in M$.
-- **Related definition**: Let $\varphi:M\to N$ be a homomorphism of seminored groups. We say that:
+- **Related definition**: Let $\varphi:M\to N$ be a homomorphism of seminormed groups. We say that:
   1. $\varphi$ is ***bounded*** if there exists $c>0$ s.t. $\left\| \varphi(f) \right\|\leq \left\| f \right\|$ for all $f\in M$.
   2. $\varphi$ is ***admissible*** if the residue seminorm on $M / \text{ker }\varphi$ is equivalent to the restriction of $\|\cdot\|_{N}$ onto $\text{im }\varphi$.
 - **Related definition**: A seminorm on a ring $A$ is called 
