@@ -119,6 +119,20 @@
               "icon": "lucide-file",
               "title": "Guelfand Spectrum (Banach Ring)"
             }
+          },
+          {
+            "id": "3c691dfb8088deb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Valuation Field.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Valuation Field"
+            }
           }
         ],
         "currentTab": 7
@@ -134,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Valuation Field.md",
+                "file": "Functional Analysis/Seminorm.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Valuation Field"
+              "title": "Seminorm"
             }
           },
           {
@@ -168,20 +182,6 @@
               },
               "icon": "lucide-file",
               "title": "Guelfand Spectrum (Banach Ring)"
-            }
-          },
-          {
-            "id": "556fd289787ea28d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Initial Topology.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Initial Topology"
             }
           },
           {
@@ -346,17 +346,17 @@
   },
   "active": "72e4a83e3c437b88",
   "lastOpenFiles": [
-    "Topology/Initial Topology.md",
+    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
     "Functional Analysis/Banach Ring.md",
-    "Functional Analysis/Spectrum.md",
-    "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Seminorm.md",
+    "Functional Analysis/Valuation Field.md",
+    "Topology/Initial Topology.md",
+    "Functional Analysis/Spectrum.md",
     "Analysis/Banach Space.md",
     "Functional Analysis/Normed Module.md",
     "Functional Analysis/Banach Algebra.md",
     "Projects/Berkovich Spectral Theory.md",
-    "Functional Analysis/Valuation Field.md",
     "Probability Theory/Distribution.md",
     "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Integral.md",
