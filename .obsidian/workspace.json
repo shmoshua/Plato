@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
+              "title": "Exercise Sheet 5"
             }
           },
           {
@@ -134,8 +134,7 @@
               "title": "Valuation Field"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -148,12 +147,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Seminorm.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Seminorm"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -162,12 +161,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Banach Ring.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Banach Ring"
+              "title": "Exercise Sheet 5"
             }
           },
           {
@@ -199,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -344,14 +343,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "72e4a83e3c437b88",
+  "active": "a223277d0c22deb8",
   "lastOpenFiles": [
     "Functional Analysis/Banach Ring.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Functional Analysis/Seminorm.md",
     "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
     "Algebra/Ideal (Ring).md",
     "Algebra/Ring Homomorphism.md",
     "Functional Analysis/Guelfand Spectrum.md",
-    "Functional Analysis/Seminorm.md",
     "Functional Analysis/Valuation Field.md",
     "Topology/Initial Topology.md",
     "Functional Analysis/Spectrum.md",
@@ -369,9 +371,6 @@
     "Functional Analysis/Uniformly Continuous Function.md",
     "Topology/Uniform Structure.md",
     "Untitled.md",
-    "Untitled 1.md",
-    "Topology/Quotient Topology.md",
-    "Analysis/Cauchy Sequence.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
