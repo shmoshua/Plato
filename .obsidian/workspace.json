@@ -135,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -329,13 +329,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d2addd8972c94f04",
+  "active": "2a926e470b0260ff",
   "lastOpenFiles": [
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Graph Theory/Conductance.md",
     "Graph Theory/Expander.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Algebra/Module.md",
     "Algebra/Ideal (Ring).md",
     "Functional Analysis/Guelfand Spectrum (Banach Ring).md",

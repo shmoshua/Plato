@@ -13,4 +13,4 @@
 ---
 #### Problem 2
 1. We have that as $D=I$,  $$N=L=\begin{bmatrix}1&-1\\-1&1 \end{bmatrix},\quad \lambda_{2}(N)=2$$However, if $S$ is a single vertex, then: $\phi(S)=1$. Hence, $\phi(G)=1= \lambda_{2}(N) / 2$.
-2. Let $G:=C_{n}$ be a cycle. We 
+2. We know that $\lambda_{2}(P_{n})\leq O(n^{-2})$. Now, $D=\text{diag}(1,2,\dots,2,1)$. Now, $$\lambda_{2}(N)=\min_{0\neq x\bot D1} \frac{x^\top Lx}{x^\top Dx}=\min_{0\neq x\bot 1} \frac{x^\top D^{-1} LD ^{-1}x}{x^\top D^{-1}x}=$$
