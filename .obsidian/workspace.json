@@ -37,6 +37,20 @@
             }
           },
           {
+            "id": "d2addd8972c94f04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 3.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Problem Set 3"
+            }
+          },
+          {
             "id": "65e7d7cbe6382ec9",
             "type": "leaf",
             "state": {
@@ -121,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -315,10 +329,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "d2addd8972c94f04",
   "lastOpenFiles": [
-    "Graph Theory/Conductance.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Graph Theory/Conductance.md",
     "Graph Theory/Expander.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
