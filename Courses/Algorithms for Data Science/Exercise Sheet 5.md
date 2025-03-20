@@ -2,9 +2,9 @@
 
 #### Problem 1
 1. We have that: $$\begin{aligned}\mathbb{P}\left(\exists i\in[d]:\left| W_{ii} \right| \geq 2\sqrt{ \log(d / \delta) }\right)&\leq \sum_{i\in[d]}\mathbb{P}\left(\left| W_{ii} \right| \geq 2\sqrt{ \log(d / \delta) }\right)\\&\leq 2d \exp \left( -2\log (d / \delta)\right) =2 \frac{\delta^{2}}{d}\leq \delta \end{aligned}$$
-2. From 1, we have that with probability at least $1-\delta$, $$\left| W_{ii} \right|<2\sqrt{ \log(d / \delta) },\quad \forall i\in[d] $$
+2. Instead of $\lambda=4k\sqrt{ \log(d / \delta) }$, we show it for $\lambda\geq 4k\sqrt{ \log(d / \delta) }$ for future purposes. From 1, we have that with probability at least $1-\delta$, $$\left| W_{ii} \right|<2\sqrt{ \log(d / \delta) },\quad \forall i\in[d] $$
    
-   As $Y_{ii}=\lambda (x_{i}^{*})^{2}+W_{ii}$ for any $i\in[d]$ and $\left| x_{i}^{*} \right|=\frac{1}{\sqrt{ k }}$ for $i\in S^{*}$, we have: $$Y_{ii}=\begin{cases} \frac{\lambda}{k}+W_{ii}&i\in S^{*}\\W_{ii}&i\notin S^{*}\end{cases}$$Therefore, if the above inequality holds, then for any $i\in S^{*}$ and $j\notin S^{*}$: $$\left| Y_{ii} \right| =\left| 4\sqrt{ \log (d / \delta) }+W_{ii}\right|\geq  4\sqrt{ \log (d / \delta) } - \left| W_{ii} \right| >2\sqrt{ \log(d / \delta) }> \left| W_{jj} \right| =\left| Y_{jj} \right|  $$
+   As $Y_{ii}=\lambda (x_{i}^{*})^{2}+W_{ii}$ for any $i\in[d]$ and $\left| x_{i}^{*} \right|=\frac{1}{\sqrt{ k }}$ for $i\in S^{*}$, we have: $$Y_{ii}=\begin{cases} \frac{\lambda}{k}+W_{ii}&i\in S^{*}\\W_{ii}&i\notin S^{*}\end{cases}$$Therefore, if the above inequality holds, then for any $i\in S^{*}$ and $j\notin S^{*}$: $$\left| Y_{ii} \right| =\left| \frac{\lambda}{k}+W_{ii}\right|\geq  \frac{\lambda}{k} - \left| W_{ii} \right| >2\sqrt{ \log(d / \delta) }> \left| W_{jj} \right| =\left| Y_{jj} \right|  $$
    This means that the $k$ largest values are exactly taken from $S^{*}$ and $K=S^{*}$. Therefore, this happens also with probability at least $1-\delta$.
 3. Using law of total expectation, we have: $$\begin{aligned}\mathbb{E}\left[\left\| \tilde{X}-X^{*} \right\| ^{2}_{F}\right]=\mathbb{P}(K=S^{*})\mathbb{E}\left[\left. \left\| \tilde{X}-X^{*} \right\| ^{2}_{F} \right| K=S^{*}\right]+\mathbb{P}(K\neq S^{*})\mathbb{E}\left[\left. \left\| \tilde{X}-X^{*} \right\| ^{2}_{F} \right| K\neq S^{*}\right]\end{aligned}$$Now, if $K=S^{*}$, then for any $i,j\in[d]$ s.t. $i\notin S^{*}$ or $j\notin S^{*}$, we have that $\tilde{X}_{ij}=0$ and $X^{*}=0$. Hence, $\left\| \tilde{X}-X^{*} \right\| ^2_{F}=\left\| \widehat{X}(S^{*})-X^{*}_{S^{*}} \right\| ^{2}_{F}$.
    
@@ -12,5 +12,11 @@
 
 4. From Exercise Sheet 4 exercise 2, we know that $$\left\|  \widehat{X}(K)\right\|^{2}_{F}=\sigma_{1}(Y_{K})^{2}\leq \left\| Y_{K} \right\| ^{2}_{F}\leq \left\| Y \right\| ^{2}_{F}=\left\| X^{*}-W \right\| ^{2}_{F}\leq 2\left\| X^{*} \right\|^{2}_{F}+2\left\| W \right\| ^{2}_{F} $$as we have already shown in 3, that $\left\| A-B \right\|^{2}_{F}\leq 2\left\| A \right\|^{2}_{F}+2\left\| B \right\|^{2}_{F}$ for $A=\tilde{X}$ and $B=X^{*}$. 
    
-   Therefore, $$\mathbb{E}\left[ \left. \left\| \widehat{X}(K) \right\| ^{2}_{F} \right| K\neq S^{*} \right]\leq 2\mathbb{E}\left[ \left. \left\| W\right\| ^{2}_{F} \right| K\neq S^{*} \right] +2\left\| X^{*} \right\| ^{2}_{F}\leq 2d^{3}+2\left\| X^{*} \right\| ^{2}_{F}$$Hence, by 3,  $$\begin{aligned}\mathbb{E}\left[\left\| \tilde{X}-X^{*} \right\| ^{2}_{F}\right]\leq k^{2} \cdot  O\left( \frac{1}{d} \right)+\mathbb{P}(K\neq S^{*})\left(4d^{3}+7\left\| X^{*} \right\| ^{2}_{F}\right)\end{aligned}$$Further, $$\left\| X^{*} \right\| ^{2}_{F}=\sum_{i,j\in S^{*}}^{}(\lambda x_{i}^{*}x_{j}^{*})^{2}=\sum_{i,j\in S^{*}}^{}\frac{\lambda^{2}}{k^{2}}=\lambda^{2}$$and: $$\mathbb{P}(K\neq S^{*})\leq$$
+   Therefore, $$\mathbb{E}\left[ \left. \left\| \widehat{X}(K) \right\| ^{2}_{F} \right| K\neq S^{*} \right]\leq 2\mathbb{E}\left[ \left. \left\| W\right\| ^{2}_{F} \right| K\neq S^{*} \right] +2\left\| X^{*} \right\| ^{2}_{F}\leq 2d^{3}+2\left\| X^{*} \right\| ^{2}_{F}$$Hence, by 3,  $$\begin{aligned}\mathbb{E}\left[\left\| \tilde{X}-X^{*} \right\| ^{2}_{F}\right]\leq O(k)+\mathbb{P}(K\neq S^{*})\left(4d^{3}+7\left\| X^{*} \right\| ^{2}_{F}\right)\end{aligned}$$Now, $$\left\| X^{*} \right\| ^{2}_{F}=\sum_{i,j\in S^{*}}^{}(\lambda x_{i}^{*}x_{j}^{*})^{2}=\sum_{i,j\in S^{*}}^{}\frac{\lambda^{2}}{k^{2}}=\lambda^{2}$$
    
+   Further,  let $\delta=d^{-3}$. Then, as we have $\lambda\geq 10k\sqrt{ \log d }\geq 4k\sqrt{ \log(d /\delta ) }$, by part 2 $\mathbb{P}(K\neq S^{*})\leq d^{-3}$. It follows that: $$\begin{aligned}\mathbb{E}\left[\left\| \tilde{X}-X^{*} \right\| ^{2}_{F}\right]\leq O\left( k+\frac{\lambda^{2}}{d^3} \right)\end{aligned}$$
+   
+   
+   Therefore, 
+
+
