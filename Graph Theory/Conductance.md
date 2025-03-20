@@ -8,3 +8,20 @@
 - **Remark**: $\phi(S)=\phi(V \backslash S)$ for all $S\subseteq V$. 
 - **Remark**: Finding the conductance of a graph is NP-hard.
 ---
+##### Properties
+> [!lemma] Lemma 1
+> Let $S\subseteq V$ with $\text{vol}(S)\leq \text{vol}(V) / 2$. Then, $$\phi(S)=\frac{1_{S}^\top L 1_{S}}{1_{S}^\top D 1_{S}}$$ where $L$ is the Laplacian and $D:=\text{diag}(d)$. 
+
+> [!proof]-
+> We have that: $$\phi(S):=\frac{e(S, V \backslash S)}{\min \{ \text{vol}(S),\text{vol}(V \backslash S) \}}=\frac{e(S, V \backslash S)}{ \text{vol}(S)}$$Then,
+> 1. For the numerator: $$e(S, V \backslash S)=\sum_{(u,v)\in E}^{}(1_{S}(u)-1_{S}(v))^{2}=1_{S}^\top L 1_{S}$$
+> 2. For the denominator: $$\text{vol}(S)=1^\top_{S}d=1_{S}^\top D 1_{S}$$
+- **Corollary**: It is given that:$$\phi(G)=\min_{\begin{array}. S\subseteq V\\\text{vol}(S)\leq \text{vol}(V) / 2\end{array}}\frac{1_{S}^\top L 1_{S}}{1_{S}^\top D 1_{S}}$$
+---
+> [!lemma] Theorem 2 (Cheeger)
+>  Let $N:=D^{-1/2}LD^{-1/2}$ be the normalized Laplacian. Then, 
+>  $$\frac{\lambda_{2}}{2}\leq \phi(G)\leq \sqrt{ 2\lambda_{2} }$$where $\lambda_{2}$ is the 2nd smallest eigenvalue of $N$. 
+
+> [!proof]+
+> We show the lower bound first.
+> 1. Let $S\subseteq V$ with $\text{vol}(S) \leq \text{vol}(V) / 2$. Let $\alpha:= \frac{\text{vol}(S)}{\text{vol}(V)}$. Define $z_{S}:=1_{S}-\alpha 1$. Then, we have: $$d^\top z_{S}=d^\top 1_{S}-\alpha d^\top 1=\text{vol}(S)-\alpha \cdot  \text{vol}(V)=0$$

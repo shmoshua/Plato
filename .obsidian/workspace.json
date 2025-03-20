@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Graph Theory/Conductance.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expander"
+              "title": "Conductance"
             }
           },
           {
@@ -169,8 +169,7 @@
               "title": "Ideal (Ring)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -315,11 +314,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "72e4a83e3c437b88",
+  "active": "e7d871f6735e72de",
   "lastOpenFiles": [
-    "Algebra/Ideal (Ring).md",
     "Graph Theory/Expander.md",
     "Graph Theory/Conductance.md",
+    "Algebra/Ideal (Ring).md",
     "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Vertex Cover.md",
