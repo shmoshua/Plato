@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Module"
+              "title": "Problem Set 5"
             }
           },
           {
@@ -120,7 +120,8 @@
               "title": "Valuation Field"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -133,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Conductance.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conductance"
+              "title": "Problem Set 5"
             }
           },
           {
@@ -147,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Graph Theory/Conductance.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expander"
+              "title": "Conductance"
             }
           },
           {
@@ -314,10 +315,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e7d871f6735e72de",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Graph Theory/Expander.md",
     "Graph Theory/Conductance.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Graph Theory/Expander.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 4.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
+    "Algebra/Module.md",
     "Algebra/Ideal (Ring).md",
     "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
@@ -338,10 +343,6 @@
     "Probability Theory/Distribution.md",
     "Probability Theory/Expected Value.md",
     "Measure Theory/Lebesgue Integral.md",
-    "Probability Theory/Distribution Function.md",
-    "Analysis/Equivalence of Norms.md",
-    "Functional Analysis/Bounded Linear Map.md",
-    "Algebra/Unit.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
