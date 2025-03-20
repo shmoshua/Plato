@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Conductance.md",
+                "file": "Graph Theory/Expander.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conductance"
+              "title": "Expander"
             }
           },
           {
@@ -147,12 +147,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
+                "file": "Graph Theory/Expander.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Guelfand Spectrum (Banach Ring)"
+              "title": "Expander"
             }
           },
           {
@@ -169,7 +169,8 @@
               "title": "Ideal (Ring)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -314,14 +315,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e7d871f6735e72de",
+  "active": "72e4a83e3c437b88",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Algebra/Ideal (Ring).md",
+    "Graph Theory/Expander.md",
     "Graph Theory/Conductance.md",
+    "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Vertex Cover.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
-    "Algebra/Ideal (Ring).md",
-    "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
     "Functional Analysis/Banach Ring.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Functional Analysis/Seminorm.md",
@@ -341,7 +343,6 @@
     "Analysis/Equivalence of Norms.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Algebra/Unit.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",

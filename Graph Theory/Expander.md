@@ -2,15 +2,14 @@
 
 > [!definition]
 > Let $G=(V,E)$ be an [[Graph|undirected graph]]. For any $0<\phi\leq 1$, 
-> 1. A [[Cut (Graph)|cut]] $(S, V\backslash S)$ is ***$\phi$-sparse*** if $\left| E(S, V \backslash S) \right|<\phi\min \left\{  \text{vol}_{G}(S), \text{vol}_{G}(V \backslash S)  \right\}$.
-> 3. $G$ is a ***$\phi$-expander*** if $G$ contains no $\phi$-sparse cut.
+> 1. $G$ is a ***$\phi$-expander*** if $\phi(G)\geq \phi$. 
 
 ^fb21f9
 
 - **Related definition**: For $S\subseteq V$, the ***volume*** is defined as $\text{vol}_{G}(S):=\sum_{v\in S}^{}d_{G}(v)$.  ^7eada3
-- **Related definition**: For a graph $G=(V,E)$, a partition $V_{1},\dots,V_{\ell}$ of $V$ is a ***$(\phi,M)$-expander decomposition*** if: ^477930
+- **Related definition**: For a graph $G=(V,E)$, a partition $V_{1},\dots,V_{\ell}$ of $V$ is a ***$\phi$-expander decomposition of quality $q$*** if: ^477930
 	1. $G[V_{i}]$ is a $\phi$-expander for all $i\in[\ell]$.
-	2. $\sum_{i=1}^{\ell}e(V_{i}, V \backslash V_{i})\leq M$.
+	2. $\sum_{i=1}^{\ell}e(V_{i}, V \backslash V_{i})\leq q\cdot \phi \cdot m$.
 ---
 ##### Properties
 
