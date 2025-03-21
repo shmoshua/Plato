@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 4.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 5"
+              "title": "Problem Set 4"
             }
           },
           {
@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 3.md",
-                "mode": "preview",
+                "file": "Graph Theory/Expander.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 3"
+              "title": "Expander"
             }
           },
           {
@@ -184,7 +184,8 @@
               "title": "Ideal (Ring)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -329,15 +330,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "ee568ad677adda89",
   "lastOpenFiles": [
-    "Graph Theory/Expander.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
-    "Graph Theory/Conductance.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
-    "Algebra/Module.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Graph Theory/Expander.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Algebra/Ideal (Ring).md",
+    "Courses/Advanced Algorithms/Assignment 11.md",
+    "Courses/Advanced Algorithms/Exercise 02.md",
+    "Graph Theory/Conductance.md",
+    "Algebra/Module.md",
     "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Vertex Cover.md",
@@ -355,8 +358,6 @@
     "Functional Analysis/Banach Algebra.md",
     "Projects/Berkovich Spectral Theory.md",
     "Probability Theory/Distribution.md",
-    "Probability Theory/Expected Value.md",
-    "Measure Theory/Lebesgue Integral.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",

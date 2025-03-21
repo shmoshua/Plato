@@ -28,5 +28,32 @@ $$\mathbb{P}\left( \left| e(S,V \backslash S) -\eta\right|> \frac{1}{2}\eta  \ri
 
 
 Let $0<\phi<1$ be a fixed constant. Then,  $$\mathbb{P}(\phi(G)< \phi)=\mathbb{P}(\exists S\subseteq V,\left| S \right| \leq n /2:\phi(S)< \phi)\leq \sum_{1\leq k\leq n /2}{n \choose k}\mathbb{P}(\phi(S)< \phi)$$Now, w.h.p we have that $d(u)=\Theta(np)$ for all $u\in V$. Hence, for any $S\subseteq V$ with $k\leq n /2$ vertices, we have that: $\text{vol}(S)\leq \text{vol}(V \backslash S)$ for large $n$ and we have: $$\phi(S)< \phi \iff e(S, V \backslash S)< \phi\Theta(knp)$$
-Therefore, $$\mathbb{P}(\phi(G)<\phi)\leq \sum_{1\leq k\leq n /2}^{}{n \choose k}n^{-\lambda k}+o(1)$$where $\sum_{1\leq k\leq n /2}^{}{n \choose k}n^{-\lambda k}\leq\sum_{1\leq k\leq n /2}^{}n^{-(\lambda-1) k}\leq$
-$$\mathbb{P}(\phi(S)\leq \phi)=\mathbb{P}\left( e(S,V \backslash S) \leq \phi \cdot \Theta(knp)\right)+o(1)\leq $$
+Therefore, $$\mathbb{P}(\phi(G)<\phi)\leq \sum_{1\leq k\leq n /2}^{}{n \choose k}n^{-\lambda k}+o(1)=o(1)$$This concludes the proof.
+
+---
+#### Problem 5
+
+Consider the following algorithm:
+```pseudo
+\begin{algorithm}\caption{ExpanderDecomposition($G,\phi$)}\begin{algorithmic}
+\If{\Call{CertifyOrCut}{$G,\phi$} certifies that $G$ is a $\phi$-expander}
+	\Return $V(G)$
+\EndIf
+\State $S\gets$ the cut \Call{CertifyOrCut}{$G,\phi$} presents.
+\Return \Call{ExpanderDecomposition}{$G[S], \phi$}$\cup$\Call{ExpanderDecomposition}{$G[V\backslash S], \phi$}
+
+\end{algorithmic}
+\end{algorithm}
+```
+
+Let $X_{1},\dots,X_{k}$ be the output of the algorithm. By construction, $G[X_{i}]$ is a $\phi$-expander for all $i$.
+
+Now, let $(S,V \backslash S)$ be a cut in $G$ given in the algorithm where wlog $\text{vol}(S)\leq \text{vol}( V) / 2$. Then, we have that $e(S, V \backslash S)=O(\sqrt{ \phi })\cdot \text{vol}(S)$. We show that 
+
+
+Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we have that: $$e(S, V \backslash S)<\phi \text{vol}(S)=\sum_{v\in S}^{}\text{charge}(v)$$
+> 
+> As $\text{vol}(V)=2m$ and the volume at least halves at every step, each vertex receives charges in at most $\log (2m)$ iterations. Hence, we have that $\text{charge}(v)\leq \phi \cdot d(v)\cdot \log(2m)$. Hence, we have that: $$\sum_{i\in[\ell]}^{}e(V_{i}, V \backslash V_{i})\leq \sum_{v\in V}^{}\text{charge}(v)\leq 2m\phi \log(2m)$$
+
+---
+#### Problem 6
