@@ -184,8 +184,7 @@
               "title": "Ideal (Ring)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -330,12 +329,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "72e4a83e3c437b88",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Graph Theory/Conductance.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Graph Theory/Expander.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Graph Theory/Conductance.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Algebra/Module.md",
     "Algebra/Ideal (Ring).md",

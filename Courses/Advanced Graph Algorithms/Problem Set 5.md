@@ -21,3 +21,7 @@ Now, let $S\subseteq V$ with $\left| S \right|\leq n /2$. Let $z_{S}:= 1_{S}-\al
 
 ---
 #### Problem 4
+Let $G\sim G(n,p)$ with $G=(V,E)$. Further, let $p\geq c\frac{\log n}{n}$ for some $c>0$. Then, as $d(v)\sim \text{Bin}(n-1,p)$, for $\mu:=(n-1)p$ by Chernoff:$$\begin{aligned}\mathbb{P}\left( \exists v\in V: \left| d(v)-\mu \right| \geq \frac{1}{2}\mu \right)&\leq \sum_{v\in V}^{}  \mathbb{P}( \left| d(v)-\mu \right| \geq \mu /2)\leq 2n\cdot \exp \left( -\frac{\mu}{12} \right) \\&\leq 2\exp \left(  \left( \frac{c}{12} \frac{n-1}{n}-1 \right)\log \frac{1}{n} \right)\xrightarrow{n\to \infty} 0\end{aligned} $$Hence, w.h.p we have that for all $v\in V$: $\frac{1}{2}\mu\leq d(v)\leq \frac{3}{2}\mu$. 
+
+Now, let $S\in {V \choose k}$ where $k\leq n /2$, we have that: $e(S, V \backslash S)\sim \text{Bin}(k(n-k),p)$. Hence,
+ $$\mathbb{P}(\left|  \right| )$$
