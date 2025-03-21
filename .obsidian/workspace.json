@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 4.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 4"
+              "title": "Problem Set 5"
             }
           },
           {
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 4.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expander"
+              "title": "Problem Set 4"
             }
           },
           {
@@ -176,16 +176,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ideal (Ring).md",
+                "file": "Graph Theory/Expander.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ideal (Ring)"
+              "title": "Expander"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -330,13 +329,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ee568ad677adda89",
+  "active": "2a926e470b0260ff",
   "lastOpenFiles": [
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Graph Theory/Expander.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Algebra/Ideal (Ring).md",
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Algorithms/Assignment 11.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Graph Theory/Conductance.md",

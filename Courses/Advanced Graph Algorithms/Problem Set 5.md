@@ -57,3 +57,6 @@ Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we hav
 
 ---
 #### Problem 6
+Let $z{\bot}1$. Then, as $1$ spans $\text{ker }L$, $z\in \text{im }L$ and as $L=D^{1/2}ND^{1/2}$, we have:  $$z^\top L^{\dagger}z\leq z^\top \Pi_{L} D^{-1/2}N^{\dagger}D^{-1/2}\underbrace{ \Pi_{L}z }_{ =z }$$
+
+Note that: $$\phi^{2}\leq 2 \lambda_{2}(N)=2\cdot \min_{0\neq x \bot D^{1 /2}1} \frac{x^\top Nx}{x^\top x}=2\cdot \min_{0\neq z \bot 1} \frac{z^\top D^{-1/2} ND^{-1/2}z}{z^\top D^{-1} z}\leq 2\frac{z^\top D^{-1/2} ND^{-1/2}z}{z^\top D^{-1} z}$$for any $z {\bot}1$. 
