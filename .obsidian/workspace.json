@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Conductance.md",
+                "file": "Graph Theory/Expander.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conductance"
+              "title": "Expander"
             }
           },
           {
@@ -184,7 +184,8 @@
               "title": "Ideal (Ring)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -329,11 +330,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2a926e470b0260ff",
+  "active": "72e4a83e3c437b88",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Graph Theory/Conductance.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Graph Theory/Expander.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Algebra/Module.md",
