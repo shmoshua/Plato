@@ -23,5 +23,10 @@ Now, let $S\subseteq V$ with $\left| S \right|\leq n /2$. Let $z_{S}:= 1_{S}-\al
 #### Problem 4
 Let $G\sim G(n,p)$ with $G=(V,E)$. Further, let $p\geq c\frac{\log n}{n}$ for some $c>0$. Then, as $d(v)\sim \text{Bin}(n-1,p)$, for $\mu:=(n-1)p$ by Chernoff:$$\begin{aligned}\mathbb{P}\left( \exists v\in V: \left| d(v)-\mu \right| \geq \frac{1}{2}\mu \right)&\leq \sum_{v\in V}^{}  \mathbb{P}( \left| d(v)-\mu \right| \geq \mu /2)\leq 2n\cdot \exp \left( -\frac{\mu}{12} \right) \\&\leq 2\exp \left(  \left( \frac{c}{12} \frac{n-1}{n}-1 \right)\log \frac{1}{n} \right)\xrightarrow{n\to \infty} 0\end{aligned} $$Hence, w.h.p we have that for all $v\in V$: $\frac{1}{2}\mu\leq d(v)\leq \frac{3}{2}\mu$. 
 
-Now, let $S\in {V \choose k}$ where $k\leq n /2$, we have that: $e(S, V \backslash S)\sim \text{Bin}(k(n-k),p)$. Hence,
- $$\mathbb{P}(\left|  \right| )$$
+Now, let $S\in {V \choose k}$ where $k\leq n /2$, we have that: $e(S, V \backslash S)\sim \text{Bin}(k(n-k),p)$. Hence, for $\eta:=k(n-k)p$, we have that $n-k\geq n/2$ and therefore, $\eta\geq \frac{1}{2} knp$.  Hence:
+$$\mathbb{P}\left( \left| e(S,V \backslash S) -\eta\right|> \frac{1}{2}\eta  \right)\leq 2\exp \left( -\frac{\eta}{12} \right) \leq 2\exp \left( -\frac{knp}{24} \right)\leq 2n^{-\frac{c}{24} k}$$It follows that there exists a constant $\lambda>0$ s.t. $\mathbb{P}\left( \left| e(S,V \backslash S) -\eta\right|> \frac{1}{2}\eta  \right)< n^{-\lambda k}$ for all $S$. This shows that $$\mathbb{P}(e(S, V \backslash S)=\Theta(kpn))> 1-n^{-\lambda k}$$ as $\eta\leq knp$ and $\eta=\Theta(knp)$.
+
+
+Let $0<\phi<1$ be a fixed constant. Then,  $$\mathbb{P}(\phi(G)< \phi)=\mathbb{P}(\exists S\subseteq V,\left| S \right| \leq n /2:\phi(S)< \phi)\leq \sum_{1\leq k\leq n /2}{n \choose k}\mathbb{P}(\phi(S)< \phi)$$Now, w.h.p we have that $d(u)=\Theta(np)$ for all $u\in V$. Hence, for any $S\subseteq V$ with $k\leq n /2$ vertices, we have that: $\text{vol}(S)\leq \text{vol}(V \backslash S)$ for large $n$ and we have: $$\phi(S)< \phi \iff e(S, V \backslash S)< \phi\Theta(knp)$$
+Therefore, $$\mathbb{P}(\phi(G)<\phi)\leq \sum_{1\leq k\leq n /2}^{}{n \choose k}n^{-\lambda k}+o(1)$$where $\sum_{1\leq k\leq n /2}^{}{n \choose k}n^{-\lambda k}\leq\sum_{1\leq k\leq n /2}^{}n^{-(\lambda-1) k}\leq$
+$$\mathbb{P}(\phi(S)\leq \phi)=\mathbb{P}\left( e(S,V \backslash S) \leq \phi \cdot \Theta(knp)\right)+o(1)\leq $$
