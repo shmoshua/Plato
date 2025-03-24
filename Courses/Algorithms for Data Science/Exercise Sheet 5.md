@@ -21,3 +21,4 @@
 ---
 
 
+$$\min _{i\in S^{*}}Y_{ii}>\frac{\lambda}{k}-2\sqrt{ \log d / \delta }\geq 2\sqrt{ \log d / \delta } > \max_{i\notin S^{*}} Y_{ii}$$
