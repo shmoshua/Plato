@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Untitled.md",
+                "file": "Courses/Probability Theory/Exercise Class 5.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Exercise Class 5"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+                "file": "Courses/Probability Theory/Exercise Class 5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 5"
+              "title": "Exercise Class 5"
             }
           },
           {
@@ -329,10 +329,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2a926e470b0260ff",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
-    "Courses/Probability Theory/Untitled.md",
+    "Courses/Probability Theory/Exercise Class 5.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Graph Theory/Expander.md",
     "Algebra/Ideal (Ring).md",
