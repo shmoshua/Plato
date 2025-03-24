@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+                "file": "Courses/Probability Theory/Untitled.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 5"
+              "title": "Untitled"
             }
           },
           {
@@ -329,10 +329,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "2a926e470b0260ff",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Courses/Probability Theory/Untitled.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Graph Theory/Expander.md",
     "Algebra/Ideal (Ring).md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
@@ -356,7 +357,6 @@
     "Functional Analysis/Normed Module.md",
     "Functional Analysis/Banach Algebra.md",
     "Projects/Berkovich Spectral Theory.md",
-    "Probability Theory/Distribution.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
