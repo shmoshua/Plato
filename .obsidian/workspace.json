@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 4.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 4"
+              "title": "Gaussian Distribution"
             }
           },
           {
@@ -184,7 +184,8 @@
               "title": "Expander"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -329,11 +330,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "72e4a83e3c437b88",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
-    "Courses/Probability Theory/Exercise Class 5.md",
+    "Machine Learning/Gaussian Process.md",
+    "Probability Theory/Gaussian Distribution.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
+    "Courses/Probability Theory/Exercise Class 5.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Graph Theory/Expander.md",
     "Algebra/Ideal (Ring).md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
@@ -355,8 +358,6 @@
     "Functional Analysis/Spectrum.md",
     "Analysis/Banach Space.md",
     "Functional Analysis/Normed Module.md",
-    "Functional Analysis/Banach Algebra.md",
-    "Projects/Berkovich Spectral Theory.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
