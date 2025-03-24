@@ -184,8 +184,7 @@
               "title": "Expander"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -330,10 +329,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "72e4a83e3c437b88",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Machine Learning/Gaussian Process.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Machine Learning/Gaussian Process.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Probability Theory/Exercise Class 5.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
