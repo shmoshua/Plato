@@ -22,3 +22,5 @@
 
 
 $$\min _{i\in S^{*}}Y_{ii}>\frac{\lambda}{k}-2\sqrt{ \log d / \delta }\geq 2\sqrt{ \log d / \delta } > \max_{i\notin S^{*}} Y_{ii}$$
+
+$$\left\| M \right\| _{C}:=\max_{X\in C}\left| \braket{ X , M }  \right| $$then: $$\left\| M \right\| _{C}\leq \left\| M \right\| _{\text{conv}(C)}$$For any $Y=\sum_{X\in C}^{}\lambda_{X}X$, we have: $$\left| \braket{ Y , M }  \right| \leq \sum_{X\in C}^{}\lambda_{X}\left| \braket{ X , M }  \right| $$

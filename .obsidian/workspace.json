@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Exercise Sheet 5"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Exercise Sheet 5"
             }
           },
           {
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Functional Analysis/Convex Hull.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Convex Hull"
             }
           },
           {
@@ -329,12 +329,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "2a926e470b0260ff",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
+    "Functional Analysis/Convex Hull.md",
+    "Probability Theory/Gaussian Distribution.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Probability Theory/Exercise Class 5.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
@@ -356,7 +357,6 @@
     "Topology/Initial Topology.md",
     "Functional Analysis/Spectrum.md",
     "Analysis/Banach Space.md",
-    "Functional Analysis/Normed Module.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
