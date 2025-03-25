@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 5"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 5"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -331,8 +331,9 @@
   },
   "active": "2a926e470b0260ff",
   "lastOpenFiles": [
-    "Courses/Probability Theory/Exercise Class 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Probability Theory/Exercise Class 5.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
@@ -345,7 +346,6 @@
     "Graph Theory/Conductance.md",
     "Algebra/Module.md",
     "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Vertex Cover.md",
     "Functional Analysis/Banach Ring.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",

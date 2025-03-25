@@ -239,3 +239,15 @@ What do we do when the $k$ relevant features are unknown?
 > [!definition]
 > In the given setup,
 > 1. The ***maximum likelihood estimator*** is given by: $$\widehat{X}\in \underset{ \text{rank}(\Theta)\leq r }{ \arg\min } \sum_{i=1}^{n}(\braket{ X_{i} , \Theta  } -y_{i})^{2}$$
+
+---
+### 4. Community Detection
+> [!outlook] Setup
+> For $\varepsilon\in [0,1]$ and $n\geq 10d\geq 10$, 
+> 1. **Unknown**: $x^{*}\in \{ \pm 1 \}^n$. 
+> 2. **Observation**: A $n$-vertex [[graph]] $G$ where: $$\mathbb{P}(ij\in E(G))=(1+\varepsilon x^{*}_{i}x^{*}_{j}) d / n$$
+
+---
+> [!lemma] Theorem 1
+> Let $d\geq O( 1 / \varepsilon^{2})$ in the above setup.
+> 1. there exists an efficiently computable estimator $\widehat{X}:=\widehat{X}(G)$ s.t. with high probability: $$\frac{1}{n^{2}}\left\| \widehat{X}-X^{*} \right\| ^{2}_{F}\leq 0.01$$where $X^{*}:= x^{*}(x^{*})^\top$. 
