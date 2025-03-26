@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Degenerate Graph.md",
+                "file": "Technical Lemmas.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Degenerate Graph"
+              "title": "Technical Lemmas"
             }
           }
         ]
@@ -332,9 +332,10 @@
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
     "Graph Theory/Graph Coloring.md",
+    "Technical Lemmas.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
-    "Functional Analysis/Valuation Field.md",
     "Graph Theory/Degenerate Graph.md",
+    "Functional Analysis/Valuation Field.md",
     "Graph Theory/Independence and Clique.md",
     "Graph Theory/Expander.md",
     "Graph Theory/Conductance.md",
@@ -356,7 +357,6 @@
     "Functional Analysis/Banach Ring.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Functional Analysis/Seminorm.md",
-    "Algebra/Ring Homomorphism.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",

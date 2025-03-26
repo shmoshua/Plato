@@ -12,4 +12,17 @@
 $x_{i}^{2}x_{j}^{2}-2x_{i}$
 
 If $\widehat{x}_{i}x^{*}_{i}=\frac{x_{i}x^{*}_{i}}{\left| x_{i} \right|}=1$, then $x_{i}x^{*}_{i}=\left| x_{i} \right|$ and $$\sum_{i,j}^{}(x_{i}^{2}x_{j}^{2}-2x_{i}x_{i}^{*}x_{j}x_{j}^{*}+x^{*}_{i}x)$$ $$\left\| X-X^{*} \right\| ^{2}_{F}=\left\| X \right\| ^{2}_{F}-2\braket{ X , X^{*} } +n^{2}$$We have: $$\braket{ X , X^{*} } =\left( \sum_{i\in[n]}^{}x_{i}x^{*}_{i} \right)^{2}= $$
-$$\sum_{i\in [n]}x_{i}x^{*}_{i}=\sum_{i\in S_{\geq }}^{}\left| x_{i} \right| -\sum_{i\in S_{\leq }}^{}\left| x_{i} \right| $$
+$$\sum_{i\in [n]}x_{i}x^{*}_{i}=\sum_{i\in S_{\geq }}^{}\left| x_{i} \right| -\sum_{i\in S_{\leq }}^{}\left| x_{i} \right| \leq n \|x\|^{2}$$
+
+If $\widehat{x}_{i}x^{*}_{i}=1$, then $\text{sgn}(x_{i})=\text{sgn}(x^{*}_{i})$ and $\left| x_{i} \right|=x_{i}x^{*}_{i}$. 
+
+We have: $$4N_{\geq}N_{\leq}=n^2-(N_{\geq }-N_{\leq})^{2}=n^2-\braket{ \widehat{X} , X^{*} }\leq 2\left\| X-X^{*} \right\| ^{2}_{F} $$We have: $$N_{\geq }=\sum_{n=1}^{}$$
+
+
+
+1. Let $\left\| X-X^{*} \right\|_{F}\leq 0.1n$. Then, $2N_{\geq}N_{\leq}\leq 0.01n^{2}$. Hence, $$\braket{ \widehat{x} , x^{*} } ^{2}=(N_{\geq }-N_{\leq})^{2}=(N_{\geq}+N_{\leq})^{2}-4N_{\geq}N_{\leq}\geq n^{2}-0.02n^{2}=0.98n^{2}$$
+
+---
+We have: $$\left\| X-X^{*} \right\| ^{2}_{F}=\sum_{i,j\in[n]}^{}(x^{2}_{i}x^{2}_{j}-2x_{i}x^{*}_{i}x_{j}x^{*}_{j}+1)$$
+Let
+$$\braket{ X , X^{*} } =\left( \sum_{i}^{}x_{i}x^{*}_{i} \right)^{2}=\left( \sum_{i\in S_{\geq }}^{}\left| x_{i} \right| -\sum_{i\in S_{\leq}}^{}\left| x_{i} \right|  \right) ^{2}$$
