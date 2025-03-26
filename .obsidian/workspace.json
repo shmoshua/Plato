@@ -133,6 +133,20 @@
               "icon": "lucide-file",
               "title": "Problem Set 5"
             }
+          },
+          {
+            "id": "eda2dc9c78cb1585",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Conductance.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Conductance"
+            }
           }
         ],
         "currentTab": 8
@@ -162,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Graph Theory/Conductance.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Conductance"
             }
           },
           {
@@ -182,6 +196,20 @@
               },
               "icon": "lucide-file",
               "title": "Technical Lemmas"
+            }
+          },
+          {
+            "id": "1ff933327f712a82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Hilbert Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Hilbert Space"
             }
           }
         ]
@@ -331,16 +359,18 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+    "Graph Theory/Conductance.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Graph Theory/Graph Coloring.md",
+    "Analysis/Hilbert Space.md",
     "Technical Lemmas.md",
+    "Analysis/Inner Product Space.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+    "Graph Theory/Graph Coloring.md",
     "Graph Theory/Degenerate Graph.md",
     "Functional Analysis/Valuation Field.md",
     "Graph Theory/Independence and Clique.md",
     "Graph Theory/Expander.md",
-    "Graph Theory/Conductance.md",
     "Functional Analysis/Convex Hull.md",
     "Courses/Probability Theory/Exercise Class 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
@@ -355,8 +385,6 @@
     "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
     "Graph Theory/Vertex Cover.md",
     "Functional Analysis/Banach Ring.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Functional Analysis/Seminorm.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
