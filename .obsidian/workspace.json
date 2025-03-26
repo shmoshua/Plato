@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Conductance.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conductance"
+              "title": "Graph Coloring"
             }
           },
           {
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 5.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 5"
+              "title": "Exercise Sheet 6"
             }
           },
           {
@@ -134,8 +134,7 @@
               "title": "Valuation Field"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -148,12 +147,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 5.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 5"
+              "title": "Exercise Sheet 6"
             }
           },
           {
@@ -162,12 +161,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Convex Hull.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Hull"
+              "title": "Graph Coloring"
             }
           },
           {
@@ -176,15 +175,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Graph Theory/Independence and Clique.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expander"
+              "title": "Independence and Clique"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -329,22 +329,25 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "72e4a83e3c437b88",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
-    "Courses/Probability Theory/Exercise Class 5.md",
+    "Graph Theory/Independence and Clique.md",
+    "Graph Theory/Expander.md",
+    "Graph Theory/Graph Coloring.md",
+    "Graph Theory/Conductance.md",
     "Functional Analysis/Convex Hull.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+    "Courses/Probability Theory/Exercise Class 5.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Probability Theory/Gaussian Distribution.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Machine Learning/Gaussian Process.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
-    "Graph Theory/Expander.md",
     "Algebra/Ideal (Ring).md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Algorithms/Assignment 11.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
-    "Graph Theory/Conductance.md",
     "Algebra/Module.md",
     "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
     "Graph Theory/Vertex Cover.md",
@@ -354,9 +357,6 @@
     "Algebra/Ring Homomorphism.md",
     "Functional Analysis/Guelfand Spectrum.md",
     "Functional Analysis/Valuation Field.md",
-    "Topology/Initial Topology.md",
-    "Functional Analysis/Spectrum.md",
-    "Analysis/Banach Space.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",

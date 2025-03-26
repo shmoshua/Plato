@@ -8,7 +8,15 @@
 - **Related definition**: The ***chromatic number*** $\chi(G)$ is given by: $$\chi(G):=\min\{  k\geq 1: \exists \text{proper vertex }k\text{-coloring on }G \}$$
 ---
 ##### Properties
+> [!lemma] Proposition 1
+> Let $G$ be a graph. Then, 
+> 1. $\chi(H)\leq \chi(G)$ for all $H\leq G$.
+> 2. $\omega(G)\leq \chi(G)$ where $\omega(G)$ is the [[Independence and Clique|clique number]].
 
+> [!proof]+
+> 
+
+---
 > [!lemma] Proposition 1 (Shamir-Spencer, 1987)
 > Let $G\sim G(n,p)$, i.e. the [[Erdös-Rényi Graph]]. For any $\lambda>0$, $$\mathbb{P}(\left| \chi(G)-\mathbb{E}[\chi(G)] \right| \geq \lambda)\leq 2 \exp \left( -2\lambda^{2} / n \right) $$
 
@@ -112,3 +120,6 @@
 > 	2. $\mathcal{A}$ has used at most $2\Delta-2$ colors. Then, there exists by construction $\Delta$ stars that use the same set of colors. By connecting the center nodes of the $\Delta$ stars to a new vertex, we have that $\mathcal{A}$ uses $\Delta$ colors that are not in the $\Delta-1$ colors used for the stars. Hence, we have that $\mathcal{A}$ uses more than $2\Delta-1$ colors. 
 
 ^ae9f8d
+
+---
+##### Examples
