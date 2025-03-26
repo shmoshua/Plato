@@ -126,12 +126,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 6"
+              "title": "Problem Set 5"
             }
           }
         ],
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 6"
+              "title": "Problem Set 5"
             }
           },
           {
@@ -331,10 +331,11 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Graph Coloring.md",
     "Technical Lemmas.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Graph Theory/Degenerate Graph.md",
     "Functional Analysis/Valuation Field.md",
     "Graph Theory/Independence and Clique.md",
@@ -346,7 +347,6 @@
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Algebra/Ideal (Ring).md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Algorithms/Assignment 11.md",

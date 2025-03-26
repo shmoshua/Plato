@@ -19,7 +19,10 @@ Let $i< j$.
    
 Hence, by setting $b:= \frac{(1+\varepsilon(r-1)) n}{\varepsilon d}$, we have that $\left\| Z^{ij} \right\|=\left| Y_{ij}-X^{*}_{ij} \right|\leq b$. Further, $$$$
 
+1. if $x^{*}_{i}=x^{*}_{j}$, then as $(1+(r-1)\varepsilon)\leq n /d$: $$\begin{aligned}\mathbb{E}[(Y_{ij}-X_{ij}^{*})^{2}]&\leq(1+(r-1)\varepsilon)\frac{n}{\varepsilon^{2} d}+(1+(r-1)\varepsilon)^{2}\cdot \frac{1}{\varepsilon^{2}}\leq \frac{2(1+(r-1)\varepsilon)n}{\varepsilon^{2} d}\end{aligned}$$
 
-1. if $x^{*}_{i}=x^{*}_{j}$, then: $$\begin{aligned}\mathbb{E}[(Y_{ij}-X_{ij}^{*})^{2}]&=\mathbb{P}(ij\in E(G))(\underbrace{ \alpha_{1}-r+1 }_{ \in [0,\alpha_{1}] })^{2}+\mathbb{P}(ij\notin E(G))\left( 1-\frac{1}{\varepsilon}-r \right)^{2}\\&\leq (1+(r-1)\varepsilon) \cdot \frac{d}{n}\cdot  \frac{1}{\varepsilon^{2}}\left( \frac{n}{d}-1 \right)^{2}+\left( r-1+\frac{1}{\varepsilon} \right)^{2}\end{aligned}$$
-2. if $i\neq j$ and $x^{*}_{i}\neq x^{*}_{j}$, then: $$\begin{aligned}\mathbb{E}[(Y_{ij}-X_{ij}^{*})^{2}]&=\mathbb{P}(ij\in E(G))( \alpha_{1}+1 )^{2}+\mathbb{P}(ij\notin E(G))\left( 1-\frac{1}{\varepsilon} \right)^{2}\\&\leq (1-\varepsilon) \cdot \frac{d}{n}\cdot  \frac{1}{\varepsilon^{2}}\left( \frac{n}{d}-1 \right)^{2}+\left( r-1+\frac{1}{\varepsilon} \right)^{2}\end{aligned}$$
-3. $$\mathbb{E}[(Y_{ij}-X^{*}_{ij})^{2}]\leq (1+(r-1)\varepsilon) \frac{1}{\varepsilon^{2}}\left( \frac{n}{d}-1 \right)^{2}+\frac{1}{\varepsilon}  $$ $$\mathbb{E}[Z^{ij}(Z^{ij})^\top]=\mathbb{E}[(Y_{ij}-X^{*}_{ij})^{2}](e_{i}e_{j}^\top+e_{j}e_{i}^\top)\leq$$
+2. if $x^{*}_{i}\neq x^{*}_{j}$, then: $$\begin{aligned}\mathbb{E}[(Y_{ij}-X_{ij}^{*})^{2}]\leq (1-\varepsilon)\frac{n}{\varepsilon^{2} d}+\frac{(1-\varepsilon) ^{2}}{\varepsilon^{2}}\leq \frac{2(1-\varepsilon)n}{\varepsilon^{2}d}\leq \frac{2(1+(r-1)\varepsilon)n}{\varepsilon^{2} d}\end{aligned}$$
+
+Therefore, similar to the proof in the lectures,$$\sum_{i<j}^{}\mathbb{E}[Z^{ij}(Z^{ij})^\top]\preceq \frac{2(1+(r-1)\varepsilon)n^{2}\log n}{\varepsilon^{2} d}  I_{n}$$Hence, by Bernstein, we can conclude that with probability at least $1-n^{-100}$, we have that $$\left\| Y-X^{*} \right\|^{2} \lesssim  \frac{n^2(1+(r-1)\varepsilon)\log n}{\varepsilon^{2}d} $$This is contained in $0.01 (r-1)n^{2}$ as long as $d\gg\frac{(1+(r-1)\varepsilon)\log n}{\varepsilon^{2}}$. This concludes the proof.
+
+---

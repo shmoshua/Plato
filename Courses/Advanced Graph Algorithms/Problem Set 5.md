@@ -58,5 +58,3 @@ Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we hav
 ---
 #### Problem 6
 Let $z{\bot}1$. Then, as $1$ spans $\text{ker }L$, $z\in \text{im }L$ and as $L=D^{1/2}ND^{1/2}$, we have:  $$z^\top L^{\dagger}z= z^\top \Pi_{L} D^{-1/2}N^{\dagger}D^{-1/2}\Pi_{L}z$$Let $\{ v_{i} \}_{i\in[n]}$ be the eigenbasis of $N$ s.t. $v_{i}$ corresponds to $\lambda_{i}$. Then by Cheeger, $\frac{\phi^{2}}{2}\leq \lambda_{2}\leq \lambda_{i}$ for all $i\geq 2$. Hence: $$w^\top N^{\dagger}w=w^\top\sum_{i\geq 2}^{}\frac{v_{i}v_{i^\top}}{\lambda_{i}}w=\sum_{i\geq 2}^{}\frac{\braket{ v_{i} , w } ^{2}}{\lambda_{i}}\leq 2\phi^{-2}\sum_{i\geq 2}\braket{ v_{i} , w } ^{2}$$Therefore, $$\begin{aligned}z^\top L^{\dagger}z&= z^\top \Pi_{L} D^{-1/2}N^{\dagger}\underbrace{ D^{-1/2}\Pi_{L}z }_{ =: w }\leq 2\phi^{-2}\sum_{i\geq 2}^{}\braket{ v_{i} ,  D^{-1/2}\Pi_{L}z } ^{2}\end{aligned}$$
-
-Note that: $$\phi^{2}\leq 2 \lambda_{2}(N)=2\cdot \min_{0\neq x \bot D^{1 /2}1} \frac{x^\top Nx}{x^\top x}=2\cdot \min_{0\neq z \bot 1} \frac{z^\top D^{-1/2} ND^{-1/2}z}{z^\top D^{-1} z}\leq 2\frac{z^\top D^{-1/2} ND^{-1/2}z}{z^\top D^{-1} z}$$for any $z {\bot}1$. 
