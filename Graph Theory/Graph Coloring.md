@@ -8,13 +8,30 @@
 - **Related definition**: The ***chromatic number*** $\chi(G)$ is given by: $$\chi(G):=\min\{  k\geq 1: \exists \text{proper vertex }k\text{-coloring on }G \}$$
 ---
 ##### Properties
-> [!lemma] Proposition 1
-> Let $G$ be a graph. Then, 
+> [!lemma] Proposition 1 (Basic Properties of Chromatic Number)
+> Let $G$ be a graph on $n$ vertices. Then, 
 > 1. $\chi(H)\leq \chi(G)$ for all $H\leq G$.
-> 2. $\omega(G)\leq \chi(G)$ where $\omega(G)$ is the [[Independence and Clique|clique number]].
+> 2. $\chi(G)\geq \omega(G)$ where $\omega(G)$ is the [[Independence and Clique|clique number]].
+> 3. $\chi(G)\geq \left| V(G) \right| / \alpha(G)$ where $\omega(G)$ is the [[Independence and Clique|independence number]].
+> 4. for any $U\subseteq V(G)$, $\chi(G)\leq \chi(G[U])+\chi(G[V \backslash U])$.
+> 5. $\chi(G_{1}\cup G_{2})\leq \chi(G_{1})\chi(G_{2})$.
+> 6. $\chi(G)\chi(\overline{G})\geq n$.
+> 7. $\chi(G)+\chi(\overline{G})\leq n+1$.
+> 8. $\chi(G)\leq \Delta(G)+1$
 
 > [!proof]+
-> 
+> We have:
+> 1. Any proper coloring for $G$ restricted to $V(H)$ is a proper coloring on $H$.
+> 2. Otherwise we can color a $k$-clique with less than $k$ colors, which is a contradiction. 
+> 3. Let $c$ be a proper $\chi(G)$-coloring. Then, every color induced an independent set. Hence, there exists an independent set of size larger than $\left| V(G) \right| / \chi(G)$. This shows the statement.
+> 4. For a proper $\chi(G[U])$ coloring $c$ on $G[U]$ and proper $\chi(G[V \backslash U])$ coloring $c'$ on $G[V \backslash U]$. Then, $c \oplus c'$ defines a proper coloring on $G$.
+> 5. Let $c_{1},c_{2}$ be the proper coloring for $G_{1},G_{2}$ of chromatic number. Let $c:= c_{1}\times c_{2}$. Then, for any $uv\in G_{1}\cup G_{2}$, $(c_{1}(u),c_{2}(u))\neq(c_{1}(v),c_{2}(v))$. 
+> 6. From 5.
+> 7. We show by induction over $n$. 
+> 	1. if $n=1$, then $\chi(G)+\chi(\overline{G})=2=n+1$.
+> 	2. if $n\geq 2$, take an arbitrary vertex $v\in G$ and consider $G':= G \backslash v$. Then, $$\chi(G')+\chi(\overline{G'})\leq n$$Let $k:= \chi(G')$ and $\ell:= n-k\geq \chi(\overline{G'})$. 
+> 		1. if $d(v)\leq k-1$, then $G$ is also $k$ colorable and $\chi(G)\leq k$. However, we have that $\chi(G')\leq \chi(\overline{G'})+1\leq n-k+1$. Hence, $\chi(G)+\chi(\overline{G})\leq n+1$.
+> 		2. if $d(v)\geq k$. Then, $d(v)+d_{\overline{G}}(v)=n-1$ and we have that $d_{\overline{G}}(v)\leq n-k-1\leq \ell-1$. Hence, analogously as above, we have $\chi(\overline{G})\leq \ell$ and $\chi(G)\leq \chi(G')+1\leq k+1$. This shows that $\chi(G)+\chi(\overline{G})\leq n+1$. 
 
 ---
 > [!lemma] Proposition 1 (Shamir-Spencer, 1987)
