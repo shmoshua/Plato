@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md",
+                "file": "Graph Theory/Degenerate Graph.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Coloring"
+              "title": "Degenerate Graph"
             }
           },
           {
@@ -126,15 +126,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Valuation Field.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Valuation Field"
+              "title": "Exercise Sheet 6"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       },
       {
         "id": "d54d634cc1ba8421",
@@ -175,16 +176,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Independence and Clique.md",
+                "file": "Graph Theory/Degenerate Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Independence and Clique"
+              "title": "Degenerate Graph"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -329,14 +329,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "72e4a83e3c437b88",
+  "active": "3c691dfb8088deb5",
   "lastOpenFiles": [
+    "Functional Analysis/Valuation Field.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+    "Graph Theory/Degenerate Graph.md",
     "Graph Theory/Independence and Clique.md",
     "Graph Theory/Graph Coloring.md",
     "Graph Theory/Expander.md",
     "Graph Theory/Conductance.md",
     "Functional Analysis/Convex Hull.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Probability Theory/Exercise Class 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -355,8 +357,6 @@
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Functional Analysis/Seminorm.md",
     "Algebra/Ring Homomorphism.md",
-    "Functional Analysis/Guelfand Spectrum.md",
-    "Functional Analysis/Valuation Field.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",

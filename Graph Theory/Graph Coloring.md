@@ -19,7 +19,7 @@
 > 7. $\chi(G)+\chi(\overline{G})\leq n+1$.
 > 8. $\chi(G)\leq \Delta(G)+1$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Any proper coloring for $G$ restricted to $V(H)$ is a proper coloring on $H$.
 > 2. Otherwise we can color a $k$-clique with less than $k$ colors, which is a contradiction. 
@@ -32,6 +32,20 @@
 > 	2. if $n\geq 2$, take an arbitrary vertex $v\in G$ and consider $G':= G \backslash v$. Then, $$\chi(G')+\chi(\overline{G'})\leq n$$Let $k:= \chi(G')$ and $\ell:= n-k\geq \chi(\overline{G'})$. 
 > 		1. if $d(v)\leq k-1$, then $G$ is also $k$ colorable and $\chi(G)\leq k$. However, we have that $\chi(G')\leq \chi(\overline{G'})+1\leq n-k+1$. Hence, $\chi(G)+\chi(\overline{G})\leq n+1$.
 > 		2. if $d(v)\geq k$. Then, $d(v)+d_{\overline{G}}(v)=n-1$ and we have that $d_{\overline{G}}(v)\leq n-k-1\leq \ell-1$. Hence, analogously as above, we have $\chi(\overline{G})\leq \ell$ and $\chi(G)\leq \chi(G')+1\leq k+1$. This shows that $\chi(G)+\chi(\overline{G})\leq n+1$. 
+> 8. Analogous to the proof in $8$. 
+
+---
+> [!lemma] Proposition 2 (Greedy Coloring)
+> ```pseudo
+> \begin{algorithm} \caption{Greedy$(G)$}\begin{algorithmic}
+> \State Let $v_{1},\dots,v_{n}$ be an ordering of $V(G)$.
+> \For{$i\in[n]$}
+> \State $c(v_{i})\gets \min\{ i\in[n]: i\notin  N(v_{i})\cap \{ v_{1},\dots,v_{i-1} \} \}$
+\EndFor
+> \Return $c$
+\end{algorithmic}
+\end{algorithm}
+> ```
 
 ---
 > [!lemma] Proposition 1 (Shamir-Spencer, 1987)
