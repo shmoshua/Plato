@@ -6,4 +6,10 @@
 
 3. We have: $$\braket{ \widehat{X} , X^{*} } =(N_{\geq }-N_{\leq})^{2}=N_{\geq }^{2}-2N_{\geq }N_{\leq} + N_{\leq }^{2}$$
 4. $$\braket{ X , X^{*} } =\sum_{i,j}^{}x_{i}x_{j}x^{*}_{i}x^{*}_{j}=\left( \sum_{i}^{}x_{i}x_{i}^{*} \right) ^{2}=\braket{ x , x^{*} } ^{2}$$
-5. 
+5. We have that: $$\widehat{X}_{ij}=\widehat{x}_{i}\widehat{x}_{j}=\frac{x_{i}}{\left| x_{i} \right| }\cdot \frac{x_{j}}{\left| x_{j} \right| }$$
+6. $$\left\| X- X^{*}\right\|^{2}_{F}=\sum_{i,j\in [n]}^{}(x_{i}x_{j}-x^{*}_{i}x^{*}_{j}) ^{2}=\sum_{i,j\in [n]}^{}(\left| x_{i}x_{j} \right| \widehat{x}_{i}\widehat{x}_{j}-x^{*}_{i}x^{*}_{j}) ^{2}$$$$\braket{ \widehat{X} , X^{*} } =\sum_{i,j}^{}\widehat{x}_{i}\widehat{x}_{j}x^{*}_{i}x^{*}_{j}=\sum_{i,j}^{}\frac{x_{i}}{\left| x_{i} \right| }\frac{x_{j}}{\left| x_{j} \right| }x^{*}_{i}x^{*}_{j}\geq$$
+
+$x_{i}^{2}x_{j}^{2}-2x_{i}$
+
+If $\widehat{x}_{i}x^{*}_{i}=\frac{x_{i}x^{*}_{i}}{\left| x_{i} \right|}=1$, then $x_{i}x^{*}_{i}=\left| x_{i} \right|$ and $$\sum_{i,j}^{}(x_{i}^{2}x_{j}^{2}-2x_{i}x_{i}^{*}x_{j}x_{j}^{*}+x^{*}_{i}x)$$ $$\left\| X-X^{*} \right\| ^{2}_{F}=\left\| X \right\| ^{2}_{F}-2\braket{ X , X^{*} } +n^{2}$$We have: $$\braket{ X , X^{*} } =\left( \sum_{i\in[n]}^{}x_{i}x^{*}_{i} \right)^{2}= $$
+$$\sum_{i\in [n]}x_{i}x^{*}_{i}=\sum_{i\in S_{\geq }}^{}\left| x_{i} \right| -\sum_{i\in S_{\leq }}^{}\left| x_{i} \right| $$
