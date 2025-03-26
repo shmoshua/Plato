@@ -10,4 +10,4 @@
 
 ---
 #### Problem 2
-We define $Y:=Y(G)\in \mathbb{R}^{n,n}$ as follows: $$Y_{ij}:=\begin{cases}\alpha_{1}&ij\in E(G)\\\alpha_{0} &ij\notin E(G)\end{cases}$$Then, $$\mathbb{E}[Y_{ij}]=\mathbb{P}(ij\in E(G))(\alpha_{1}-\alpha_{0})+\alpha_{0}$$
+We define $Y:=Y(G)\in \mathbb{R}^{n,n}$ as follows: $$Y_{ij}:=\begin{cases}\alpha_{1}:=\frac{1}{\varepsilon}\left( \frac{n}{d} -1\right)&ij\in E(G)\\\alpha_{0}:= -\frac{1}{\varepsilon} &ij\notin E(G)\end{cases}$$Then, $\alpha_{1}-\alpha_{0}=\frac{1}{\varepsilon}\frac{n}{d}$ and$$\begin{aligned}\mathbb{E}[Y_{ij}]&=\mathbb{P}(ij\in E(G))(\alpha_{1}-\alpha_{0})+\alpha_{0}=(1+X^{*}_{ij}\varepsilon) \frac{1}{\varepsilon}-\frac{1}{\varepsilon}=X^{*}_{ij}\end{aligned}$$
