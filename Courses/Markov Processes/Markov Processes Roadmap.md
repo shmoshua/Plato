@@ -20,16 +20,16 @@
 ---
 ### 2. Random Walks on $\mathbb{Z}^d$
 
-![[Random Walk#^0af11e]]
+![[Markov Processes/Random Walk#^0af11e]]
 
 ---
-![[Random Walk#^6363a1]]
-![[Random Walk#^82c078|p]]
+![[Markov Processes/Random Walk#^6363a1]]
+![[Markov Processes/Random Walk#^82c078|p]]
 
 ---
 ##### 2.1 Recurrence and Transience of Random Walks
-![[Random Walk#^3b4697|q]]
-![[Random Walk#^15327c|q]]
+![[Markov Processes/Random Walk#^3b4697|q]]
+![[Markov Processes/Random Walk#^15327c|q]]
 
 [!TODO] Things to add
 

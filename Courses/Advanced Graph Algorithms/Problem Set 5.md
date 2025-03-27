@@ -67,4 +67,8 @@ Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we hav
 3. By definition we have that $z_{sc}(1)<0$ and $z_{sc}(n)> 0$. Hence,$$\int_{\mathbb{R}}^{} p_{\tau} \, dt =2\int_{z_{sc}(1)}^{z_{sc}(n)}\left| t \right|   \, dt=2\left( -\int_{z_{sc}(1)}^{0}t    \, dt+\int_{0}^{z_{sc}(n)}t   \, dt \right)= z_{sc}(1)^{2}+z_{sc}(n)^{2}=1$$
 4. Let $a,b\in \mathbb{R}$ s.t. $a<0<b$. Then, $ab<0$ and we have that: $$a^{2}+b ^{2}<(a-b)^{2}\leq \left| a-b \right| \left| a-b \right| \leq \left| a-b \right| (\left| a \right| +\left| b \right| )$$Further, for any $a,b\in \mathbb{R}$: $$\left| a^{2}-b ^{2} \right|=\left| a-b \right| \cdot \left| a+b \right| \leq \left| a-b \right| (\left| a \right| +\left| b \right| ) $$This proves the statement.
 5. Assume otherwise. Then, for all $\omega$, $X(\omega)<\mathbb{E}[X]$ and there exists $\sup X<q< \mathbb{E}[X]$. This is a contradiction as: $$\mathbb{E}[X]=\int_{\Omega}X \, d\mathbb{P}\leq \int_{\Omega} q  \, d\mathbb{P}=q< \mathbb{E}[X]  $$
-6. 
+6. Let $\lambda:=\sqrt{ \frac{2z^\top_{sc}Lz_{sc}}{z^\top_{sc}Dz_{sc}} }$. Then, as we have $0\leq \mathbb{E}_{\tau}[\lambda1_{S}^\top D 1_{S}-1^\top_{S} L 1_{S}]$, there exists $\tau$ and thereby $S$ s.t. $$0\leq \lambda 1_{S}^\top D 1_{S}-1_{S}^\top L 1_{S}$$This concludes the proof.
+
+---
+#### Problem 8
+1. 

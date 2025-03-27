@@ -140,16 +140,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Conductance.md",
+                "file": "Graph Theory/Random Walk (Graph).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conductance"
+              "title": "Random Walk (Graph)"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "d54d634cc1ba8421",
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Conductance.md",
+                "file": "Markov Processes/Random Walk.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conductance"
+              "title": "Random Walk"
             }
           },
           {
@@ -190,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technical Lemmas.md",
+                "file": "Markov Processes/Markov Chain.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Technical Lemmas"
+              "title": "Markov Chain"
             }
           },
           {
@@ -213,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -358,14 +358,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "72e4a83e3c437b88",
+  "active": "eda2dc9c78cb1585",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Markov Processes/Markov Chain.md",
+    "Technical Lemmas.md",
+    "Graph Theory/Random Walk (Graph).md",
+    "Markov Processes/Random Walk.md",
     "Graph Theory/Conductance.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Probability Theory/Expected Value.md",
     "Analysis/Hilbert Space.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Technical Lemmas.md",
     "Analysis/Inner Product Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Graph Theory/Graph Coloring.md",
@@ -383,9 +386,6 @@
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Algorithms/Assignment 11.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
-    "Algebra/Module.md",
-    "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
-    "Graph Theory/Vertex Cover.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
