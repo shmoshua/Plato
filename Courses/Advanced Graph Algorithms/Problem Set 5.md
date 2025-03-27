@@ -2,7 +2,7 @@
 
 #### Problem 1
 
-1. Let $S\subseteq V$ with  size $k$. Then, $\text{vol}(S)=k(n-1)\leq \frac{n(n-1)}{2}=\text{vol}(V) / 2$ if and only if $k\leq n /2$. Further, if $k\leq n /2$:$$\phi(S)=\frac{e(S,V \backslash S) }{k(n-1)}=\frac{k(n-k)}{k(n-1)}=\frac{n-k}{n-1}$$Hence, $$\phi(K_{n})=\min_{k\leq  n / 2}\frac{n-k}{n-1}=\frac{n-\left\lfloor n / 2\right\rfloor}{n-1}\approx\frac{1}{2}$$ 
+1. Let $S\subseteq V$ with  size $k$. Then, $\text{vol}(S)=k(n-1)\leq \frac{n(n-1)}{2}=\text{vol}(V) / 2$ if and only if $k\leq n /2$. Further, if $k\leq n /2$:$$\phi(S)=\frac{e(S,V \backslash S) }{k(n-1)}=\frac{k(n-k)}{k(n-1)}=\frac{n-k}{n-1}$$Hence, $$\phi(K_{n})=\min_{k\leq  n / 2}\frac{n-k}{n-1}=\frac{n-\left\lfloor n / 2\right\rfloor}{n-1}\to\frac{1}{2}$$ 
 2. Let $u,v$ be the endpoints of $P_{n}$. Let $S\subseteq V$ with size $k$. Then, $\text{vol}(S)=2k-\left| \{ u,v \}\cap S \right|$. Now, we can do the following case distinctions:
 	1. Let $\left| \{ u,v \}\cap S \right|=0$. Then, $\text{vol}(S)=2k$ and $\text{vol}(S) \leq \text{vol}(V) / 2=n-1$ if and only if $k\leq \frac{n-1}{2}$. However, in this case, $e(S, V \backslash S)\geq 2$. Hence, $$\min_{S,\left| \{ u,v \}\cap S \right| =0} \frac{e(S, V \backslash S)}{ \text{vol}(S)}\geq\frac{1}{\left\lfloor \frac{n-1}{2}\right\rfloor }$$
 	2. Let $\left| \{ u,v \}\cap S \right|=1$. Then, $\text{vol}(S)=2k -1$ and $\text{vol}(S) \leq \text{vol}(V) / 2=n-1$ if and only if $k\leq \frac{n}{2}$. Further, for any $k\leq n /2$, we can find $S$ s.t. $e(S, V \backslash S)=1$. Hence, $$\min_{S,\left| \{ u,v \}\cap S \right| =1} \frac{e(S, V \backslash S)}{ \text{vol}(S)}=\frac{1}{2\left\lfloor n /2\right\rfloor -1}$$
@@ -71,4 +71,8 @@ Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we hav
 
 ---
 #### Problem 8
-1. For $G=K_{n}$ and unit weight we have that: $$\left\| p_{t}-\pi \right\| _{\infty}\leq e^{-\lambda_{2}(N)t /2}$$as $d$ is constant. Hence, if $$\phi(G)t\geq \lambda_{2}(N)t /2\geq  \log \frac{1}{\varepsilon}$$
+1. For $G=K_{n}$ and unit weight we have that: $$\left\| p_{t}-\pi \right\| _{\infty}\leq e^{-\lambda_{2}(N)t /2}$$as $d$ is constant. Hence, if $\phi(G)t\geq \lambda_{2}(N)t /2\geq  \log \frac{1}{\varepsilon}$, then $\left\| p_{t}-\pi \right\|_{\infty}\leq \varepsilon$. Therefore, we can choose e.g. $t\geq \frac{4}{3}\log (1 / \varepsilon)$ for all $n\geq 5$.
+2. For $G=P_{n}$, notice that if $a$ is an end node, then $\sqrt{ d(b) / d(a) }\leq \sqrt{ 2 }$ and otherwise $\sqrt{ d(b) / d(a) }\leq 1$. Hence, we have that: $$\left\| p_{t}-\pi \right\| _{\infty}\leq e^{-\lambda_{2}(N) t / 2}\sqrt{ 2 }$$and by Cheeger, $t\geq \frac{1}{\phi(G)}\log\left( \frac{\sqrt{ 2 }}{\varepsilon} \right)$ where $\phi(G)\geq \frac{1}{n-1}$. Hence, for $t\geq (n-1)\log\left( \frac{\sqrt{ 2 }}{\varepsilon} \right)$ we have that $\left\| p_{t}-\pi \right\|_{\infty}\leq \varepsilon$.
+
+---
+#### Problem 9
