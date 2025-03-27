@@ -55,19 +55,26 @@ Therefore, $$\mathbb{P}(\phi(G)<\phi)\leq \sum_{1\leq k\leq n /2}^{}{n \choose k
    ```pseudo
 	\begin{algorithm}\caption{CertifyOrLargeCut($G,\phi$)}\begin{algorithmic}
 	\If{\Call{CertifyOrCut}{$G,\phi$} certifies that $G$ is a $\phi$-expander}
-		\Return $S:=\empty$
+		\Return $\empty$
 	\EndIf
 	\State $S\gets$ the cut \Call{CertifyOrCut}{$G,\phi$} presents.
 	\If{$\text{vol}_G(S),\text{vol}_G( V\backslash S) \ge m /3$}
 	\Return $S$
 	\Else 
-	\State $T\in \{S, V \backslash S\}$ s.t. $$
+	\State switch $S$ to $V\backslash S$ if necessary s.t. $\text{vol}_G(S) < m /3$.
+	\Return $S\ \sqcup$ \Call{CertifyOrLargeCut}{$G[V\backslash S], \phi$}
     \EndIf
-	\Return \Call{ExpanderDecomposition}{$G[S], \phi$}$\cup$\Call{ExpanderDecomposition}{$G[V\backslash S], \phi$}
-	
 	\end{algorithmic}
 	\end{algorithm}
 	```
+	Let $S_{1},\dots,S_{k}\subseteq V$ be the disjoint non-empty sets that are returned in each recursion. Indeed, they are disjoint as $S_{i}\subseteq V \backslash \bigcup_{j<i}^{}S_{j}$ for all $i$. Further, as we have $\left| S_{i} \right|\geq 1$ for all $i$, we remove at least one node in each recursion and therefore, we have $k\leq n$. Hence, the total runtime of the algorithm is $O(mn\log^{c'}n)$. 
+	
+	It remains to show that our output $S:=\bigsqcup_{i\in[k]}^{} S_{i}$ meets the desired properties. We will show that $\phi(S)=O(\sqrt{ \phi })$. We introduce the notation that $S_{i:j}:=S_{i}\sqcup\dots \sqcup S_{j}$ for any $i\leq j$. We first show that 
+	
+	
+	Now, assume that $\phi_{G[V \backslash S_{1:i}]}(S_{i+1:k})=O(\sqrt{ \phi })$.  Then, $\phi_{G[V \backslash S_{1:i-1}]}(S_{i})=O(\sqrt{ \phi })$ as $S_{i}$ is the output of $\text{CertifyOrCut}(G[V \backslash S_{1:i-1}],\phi)$. Further, $$\text{vol}_{G[V \backslash S_{1:i-1}]}(S_{i}\cup S_{i+1:k})\leq \text{vol}_{G[V \backslash S_{1:i-1}]}(S_{i})+\text{vol}_{G[V \backslash S_{1:i-1}]}(S_{i+1:k})<\frac{e(G[V \backslash S_{1:i-1}])}{3}$$
+	
+	From the claim, if it holds that $\text{vol}()$
 
 
 ---
