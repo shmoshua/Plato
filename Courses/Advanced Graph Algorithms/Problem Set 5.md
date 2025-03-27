@@ -78,31 +78,6 @@ Therefore, $$\mathbb{P}(\phi(G)<\phi)\leq \sum_{1\leq k\leq n /2}^{}{n \choose k
 	
 	From the claim, if it holds that $\text{vol}()$
 
-```pseudo
-\begin{algorithm}\caption{CertifyOrLargeCut($G,\phi$)}\begin{algorithmic}
-\If{\Call{CertifyOrCut}{$G,\phi$} certifies that $G$ is a $\phi$-expander}
-    \Return $\emptyset$
-\EndIf
-\State $S\gets$ the cut \Call{CertifyOrCut}{$G,\phi$} presents.
-\If{$\min\{\text{vol}_G(S), \text{vol}_G(V \setminus S)\} \geq m/3$}
-    \Return $S$
-\Else 
-    \State switch $S$ to $V \setminus S$ if necessary s.t. $\text{vol}_G(S) < m/3$.
-    \If{$\text{vol}_G(V \setminus S) < m/3$}
-        \Return $S$ \Comment{In this case, $\text{vol}_G(S) < m/3$ and $\text{vol}_G(V \setminus S) < m/3$, which is impossible since $\text{vol}_G(V) = 2m$.}
-    \Else
-        \State $S' \gets$ \Call{CertifyOrLargeCut}{$G[V \setminus S], \phi$}
-        \If{$S' = \emptyset$}
-            \Return $S$ \Comment{$G[V \setminus S]$ is a $\phi$-expander and $\text{vol}_G(V \setminus S) \geq m/3$}
-        \Else
-            \Return $S \cup S'$ \Comment{$\phi(S \cup S') = O(\sqrt{\phi})$ by the claim}
-        \EndIf
-    \EndIf
-\EndIf
-\end{algorithmic}
-\end{algorithm}
-```
-
 ---
 #### Problem 6
 
