@@ -181,20 +181,6 @@
             }
           },
           {
-            "id": "1ff933327f712a82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/k-Connected Graph.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "k-Connected Graph"
-            }
-          },
-          {
             "id": "72e4a83e3c437b88",
             "type": "leaf",
             "state": {
@@ -381,12 +367,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "3c691dfb8088deb5",
   "lastOpenFiles": [
-    "Graph Theory/Matching.md",
-    "Markov Processes/Random Walk.md",
+    "Functional Analysis/Valuation Field.md",
     "Graph Theory/k-Connected Graph.md",
     "Courses/Graph Theory/Problem Set 5.md",
+    "Graph Theory/Matching.md",
+    "Markov Processes/Random Walk.md",
     "Graph Theory/Expander.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Graph Theory/Conductance.md",
@@ -400,7 +387,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Graph Theory/Graph Coloring.md",
     "Graph Theory/Degenerate Graph.md",
-    "Functional Analysis/Valuation Field.md",
     "Graph Theory/Independence and Clique.md",
     "Functional Analysis/Convex Hull.md",
     "Courses/Probability Theory/Exercise Class 5.md",
