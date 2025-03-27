@@ -12,4 +12,10 @@ Assume that $G$ is not $2$-edge connected. Then, there exists $e\in E$ s.t. $G \
 
 ---
 #### Problem 3
-We define a bipartite graph $G=(A\sqcup B,E)$ where $B:=\{ A_{kj} \}_{k\in [n],j\in [d_{k}]}$. Then, for $a\in E$, $aA_{kj}\in E$ if and only if $a\in A_{k}$. 
+
+We first have that if such $D_{k}$ exists for all $k$, then for any $I\subseteq [n]$, $\left| \bigcup_{i\in I}^{}A_{i} \right|\geq \left| \bigcup_{i\in I}^{} D_{i}\right|=\sum_{i\in I}^{}d_{i}$. Conversely, let $\sum_{i\in I}^{}d_{i}\leq \left| \bigcup_{i\in I}^{}A_{i} \right|$ for all $I\subseteq [n]$. 
+
+We define a bipartite graph $G=(A\sqcup B,E)$ where $B:=\{ A_{kj} \}_{k\in [n],j\in [d_{k}]}$. Then, for $a\in E$, $aA_{kj}\in E$ if and only if $a\in A_{k}$. Now by Hall, $G$ has a matching covering $B$ if and only if $\left| N(S) \right|\geq \left| S \right|$ for all $S\subseteq B$. Let $S\subseteq B$ and define $I:=\{ k\in[n]:A_{kj}\in S \}$. Then, $$\left| S \right| \leq \sum_{k\in I}^{}d_{i}\leq \left| \bigcup_{k\in I}^{}A_{i} \right| =\left| N(S) \right| $$Hence, there exists a matching $M$ covering $B$. Now, define $D_{k}:=\{ a\in A: aA_{kj} \in M,j\in [d_{k}]\}$. Then, by definition $D_{k}\subseteq A_{k}$ and as $M$ is a matching, $D_{k}$'s are disjoint. Further, as the matching covers $B$, we have that $\left| D_{k} \right|=d_{k}$. This concludes the proof.
+
+---
+#### Problem 4
