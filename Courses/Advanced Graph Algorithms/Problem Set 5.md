@@ -33,31 +33,25 @@ Therefore, $$\mathbb{P}(\phi(G)<\phi)\leq \sum_{1\leq k\leq n /2}^{}{n \choose k
 ---
 #### Problem 5
 
-Consider the following algorithm:
-```pseudo
-\begin{algorithm}\caption{ExpanderDecomposition($G,\phi$)}\begin{algorithmic}
-\If{\Call{CertifyOrCut}{$G,\phi$} certifies that $G$ is a $\phi$-expander}
-	\Return $V(G)$
-\EndIf
-\State $S\gets$ the cut \Call{CertifyOrCut}{$G,\phi$} presents.
-\Return \Call{ExpanderDecomposition}{$G[S], \phi$}$\cup$\Call{ExpanderDecomposition}{$G[V\backslash S], \phi$}
+1. Consider the following algorithm:
+	   
+	```pseudo
+	\begin{algorithm}\caption{ExpanderDecomposition($G,\phi$)}\begin{algorithmic}
+	\If{\Call{CertifyOrCut}{$G,\phi$} certifies that $G$ is a $\phi$-expander}
+		\Return $V(G)$
+	\EndIf
+	\State $S\gets$ the cut \Call{CertifyOrCut}{$G,\phi$} presents.
+	\Return \Call{ExpanderDecomposition}{$G[S], \phi$}$\cup$\Call{ExpanderDecomposition}{$G[V\backslash S], \phi$}
+	
+	\end{algorithmic}
+	\end{algorithm}
+	```
 
-\end{algorithmic}
-\end{algorithm}
-```
+	Let $X_{1},\dots,X_{k}$ be the output of the algorithm. By construction, $G[X_{i}]$ is a $\phi$-expander for all $i$. Further, as we have at most $n$ splits, we have that the overall runtime is $O(mn\log ^{c'}n)$. Hence, it suffices to show that it is of quality $O(\phi^{-1/2}\log n)$. 
 
-Let $X_{1},\dots,X_{k}$ be the output of the algorithm. By construction, $G[X_{i}]$ is a $\phi$-expander for all $i$. Further, as we have at most $n$ splits, we have that the overall runtime is $O(mn\log ^{c'}n)$. Hence, it suffices to show that it is of quality $O(\phi^{-1/2}\log n)$. 
-
-Let $(S_{1},V_{1}),\dots,(S_{\ell},V_{\ell})$ be the pairs s.t. $S_{i}$ is the cut found by $\text{CertifyOrCut}(G[V_{i}],\phi)$ that occur in the run of the algorithm. Wlog we may assume $\text{vol}(S_{i})\leq \text{vol}(V_{i}) / 2$ for all $i$. We define the following charge function: $$c:V\to \mathbb{R}^+,\quad v\mapsto \sum_{i\in[n]}^{}$$
-
-Now, we will define a charge function $c:V\to \mathbb{R}^+$ to show the claim. At every cut $(S,V\backslash S)$ given by the algorithm, where wlog $\text{vol}(S)\leq \text{vol}(V) / 2$, we have that $\eta:=\frac{e(S, V \backslash S)}{\text{vol}(S)}=O(\sqrt{ \phi })\cdot$. Then, for all $u\in S$, we add $\eta \cdot d(u)$ charge. 
-
-Now, let $(S,V \backslash S)$ be a cut in $G$ given in the algorithm where wlog $\text{vol}(S)\leq \text{vol}( V) / 2$. Then, we have that $e(S, V \backslash S)=O(\sqrt{ \phi })\cdot \text{vol}(S)$. 
-
-
-Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we have that: $$e(S, V \backslash S)<\phi \text{vol}(S)=\sum_{v\in S}^{}\text{charge}(v)$$
-> 
-> As $\text{vol}(V)=2m$ and the volume at least halves at every step, each vertex receives charges in at most $\log (2m)$ iterations. Hence, we have that $\text{charge}(v)\leq \phi \cdot d(v)\cdot \log(2m)$. Hence, we have that: $$\sum_{i\in[\ell]}^{}e(V_{i}, V \backslash V_{i})\leq \sum_{v\in V}^{}\text{charge}(v)\leq 2m\phi \log(2m)$$
+	Let $(S_{1},V_{1}),\dots,(S_{\ell},V_{\ell})$ be the pairs s.t. $S_{i}$ is the cut found by $\text{CertifyOrCut}(G[V_{i}],\phi)$ that occur in the run of the algorithm. Wlog we may assume $\text{vol}(S_{i})\leq \text{vol}(V_{i}) / 2$ for all $i$. We define the following charge function: $$c:V\to \mathbb{R}^+,\quad v\mapsto \sum_{i:v\in S_{i}}^{}\frac{e(S_{i},V_{i} \backslash S_{i})}{\text{vol}_{G[V_{i}]}(S_{i})}\cdot d_{G[V_{i}]}(v)$$Then, we have that: $$e(S_{i},V \backslash S_{i})=\sum_{v\in S_{i}}^{}\frac{e(S_{i},V_{i} \backslash S_{i})}{\text{vol}_{G[V_{i}]}(S_{i})}\cdot d_{G[V_{i}]}(v),\quad i\in[\ell]$$However, as $\text{vol}(V)=2m$ and the volume at least halves at every step, each vertex is in at most $\log(2m)$ cuts $S_{i}$. Further, $\frac{e(S_{i},V_{i} \backslash S_{i})}{\text{vol}_{G[V_{i}]}(S_{i})}\cdot d_{G[V_{i}]}(v)\leq O(\sqrt{ \phi })\cdot d(v)$. Hence, $c(v)\leq O(\sqrt{ \phi }\log n)d(v)$. We conclude by showing that: $$\sum_{i\in[k]}^{}e(X_{i}, V \backslash X_{i})=\sum_{i\in[\ell]}^{}e(S_{i}, V_{i}\backslash S_{i})=\sum_{v\in V}^{}c(v)\leq O(\sqrt{ \phi }\log n)m$$
+	This shows that the quality of the decomposition is $O(\phi^{-1/2}\log n)$.
+2. 
 
 ---
 #### Problem 6
