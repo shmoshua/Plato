@@ -46,9 +46,13 @@ Consider the following algorithm:
 \end{algorithm}
 ```
 
-Let $X_{1},\dots,X_{k}$ be the output of the algorithm. By construction, $G[X_{i}]$ is a $\phi$-expander for all $i$.
+Let $X_{1},\dots,X_{k}$ be the output of the algorithm. By construction, $G[X_{i}]$ is a $\phi$-expander for all $i$. Further, as we have at most $n$ splits, we have that the overall runtime is $O(mn\log ^{c'}n)$. Hence, it suffices to show that it is of quality $O(\phi^{-1/2}\log n)$. 
 
-Now, let $(S,V \backslash S)$ be a cut in $G$ given in the algorithm where wlog $\text{vol}(S)\leq \text{vol}( V) / 2$. Then, we have that $e(S, V \backslash S)=O(\sqrt{ \phi })\cdot \text{vol}(S)$. We show that 
+Let $(S_{1},V_{1}),\dots,(S_{\ell},V_{\ell})$ be the pairs s.t. $S_{i}$ is the cut found by $\text{CertifyOrCut}(G[V_{i}],\phi)$ that occur in the run of the algorithm. Wlog we may assume $\text{vol}(S_{i})\leq \text{vol}(V_{i}) / 2$ for all $i$. We define the following charge function: $$c:V\to \mathbb{R}^+,\quad v\mapsto \sum_{i\in[n]}^{}$$
+
+Now, we will define a charge function $c:V\to \mathbb{R}^+$ to show the claim. At every cut $(S,V\backslash S)$ given by the algorithm, where wlog $\text{vol}(S)\leq \text{vol}(V) / 2$, we have that $\eta:=\frac{e(S, V \backslash S)}{\text{vol}(S)}=O(\sqrt{ \phi })\cdot$. Then, for all $u\in S$, we add $\eta \cdot d(u)$ charge. 
+
+Now, let $(S,V \backslash S)$ be a cut in $G$ given in the algorithm where wlog $\text{vol}(S)\leq \text{vol}( V) / 2$. Then, we have that $e(S, V \backslash S)=O(\sqrt{ \phi })\cdot \text{vol}(S)$. 
 
 
 Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we have that: $$e(S, V \backslash S)<\phi \text{vol}(S)=\sum_{v\in S}^{}\text{charge}(v)$$
@@ -81,4 +85,6 @@ Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we hav
 2. Let $a\neq b$ for $a,b\in V$. We define $h_{a}:=\mathbb{E}[H_{a,b}]$. Then, notice that by symmetry, for any other $a'\neq b$ we have that $h_{a}=h_{a'}$. Therefore, $$h_{a}=1+\frac{1}{n}\sum_{c\neq a}^{}h_{c}=1+h_{b}+\frac{n-1}{n}h_{a}=1+\frac{n-1}{n}h_{a}$$Hence, we get that $h_{a}=n$. 
 3. Let $a,b$ be the two endpoints of the path graph in the Lollipop graph with $a$ being the vertex joining the path and the complete graph. Then from our result from above, we see that $\mathbb{E}[H_{ba}]=(n-1)^{2}$. Now, consider $h_{a}:=\mathbb{E}[H_{ab}]$. We will argue that $h_{a}> (n-1)^{2}$. 
    
-   Let $H$ be the $n$-clique subgraph of $G$ and $a'$ be the (only) neighbor of $a$ on the path graph. Then,$$h_{a}=1+\frac{1}{n}h_{a'}+\frac{1}{n}\sum_{c\in V(H) \backslash \{  \}}^{}$$
+	Let $H$ be the $n$-clique subgraph of $G$ and $a'$ be the (only) neighbor of $a$ on the path graph. Then,$$h_{a}=1+\frac{1}{n}h_{a'}+\frac{1}{n}\sum_{c\in V(H) \backslash \{ a \}}^{}h_{c}$$Now, notice that for any $c\in V(H)  \backslash \{ a \}$, $h_{c}\geq 1+h_{a}$, since in any instance of the random walk, $c$ has to go through $a$ to get to $b$. Further, notice that $h_{a'}\geq (n-2)^{2}$ as $$(n-2)^{2}=\mathbb{E}[H_{a'b}|\text{random walk does not visit }a]\leq \mathbb{E}[H_{a'b}]=h_{a'}$$given by part 1. Therefore, $$h_{a}\geq 1+\frac{1}{n}(n-2)^{2}+\frac{n-1}{n}(1+h_{a})$$and we get that: $$h_{a}\geq n+(n-2)^{2}+(n-1)=n^2-2n+3> (n-1)^{2}$$This shows that $\mathbb{E}[H_{ba}]\neq \mathbb{E}[H_{ab}]$.
+
+---

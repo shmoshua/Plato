@@ -186,12 +186,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Random Walk (Graph).md",
+                "file": "Graph Theory/Expander.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Random Walk (Graph)"
+              "title": "Expander"
             }
           },
           {
@@ -383,8 +383,9 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Graph Theory/Random Walk (Graph).md",
+    "Graph Theory/Expander.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Graph Theory/Random Walk (Graph).md",
     "Graph Theory/Conductance.md",
     "Markov Processes/Random Walk.md",
     "Markov Processes/Markov Chain.md",
@@ -398,7 +399,6 @@
     "Graph Theory/Degenerate Graph.md",
     "Functional Analysis/Valuation Field.md",
     "Graph Theory/Independence and Clique.md",
-    "Graph Theory/Expander.md",
     "Functional Analysis/Convex Hull.md",
     "Courses/Probability Theory/Exercise Class 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
