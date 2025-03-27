@@ -78,4 +78,7 @@ Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we hav
 #### Problem 9
 
 1. Let $h_{i}:=\mathbb{E}[H_{i,n}]$. Then, we get: $$h_{i}=1+\frac{1}{2}h_{i+1}+\frac{1}{2}h_{i-1},\quad \forall 1<i<n$$and $h_{1}=1+h_{2}$. Hence, $$h_{i}-h_{i+1}=h_{i-1}-h_{i}+2,\quad \forall 1<i<n$$If we define $c_{i}:=h_{i}-h_{i+1}$, we have that $c_{i}=c_{i-1}+2$ and $c_{1}=1$. Therefore, $$c_{i}=1+2(i-1)$$Now, $$h_{1}=h_{1}-h_{n}=\sum_{i=1}^{n-1}c_{i}=(n-1)+(n-1)(n-2)=(n-1)^{2}$$
-2. 
+2. Let $a\neq b$ for $a,b\in V$. We define $h_{a}:=\mathbb{E}[H_{a,b}]$. Then, notice that by symmetry, for any other $a'\neq b$ we have that $h_{a}=h_{a'}$. Therefore, $$h_{a}=1+\frac{1}{n}\sum_{c\neq a}^{}h_{c}=1+h_{b}+\frac{n-1}{n}h_{a}=1+\frac{n-1}{n}h_{a}$$Hence, we get that $h_{a}=n$. 
+3. Let $a,b$ be the two endpoints of the path graph in the Lollipop graph with $a$ being the vertex joining the path and the complete graph. Then from our result from above, we see that $\mathbb{E}[H_{ba}]=(n-1)^{2}$. Now, consider $h_{a}:=\mathbb{E}[H_{ab}]$. We will argue that $h_{a}> (n-1)^{2}$. 
+   
+   Let $H$ be the $n$-clique subgraph of $G$ and $a'$ be the (only) neighbor of $a$ on the path graph. Then,$$h_{a}=1+\frac{1}{n}h_{a'}+\frac{1}{n}\sum_{c\in V(H) \backslash \{  \}}^{}$$
