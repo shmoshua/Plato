@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       },
       {
         "id": "d54d634cc1ba8421",
@@ -178,6 +178,20 @@
               },
               "icon": "lucide-file",
               "title": "Problem Set 5"
+            }
+          },
+          {
+            "id": "1ff933327f712a82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Random Walk (Graph).md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Random Walk (Graph)"
             }
           },
           {
@@ -209,21 +223,20 @@
             }
           },
           {
-            "id": "1ff933327f712a82",
+            "id": "85ab322ee913fbaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Random Walk (Graph).md",
+                "file": "Graph Theory/Conductance.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Random Walk (Graph)"
+              "title": "Conductance"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -368,15 +381,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1ff933327f712a82",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Markov Processes/Markov Chain.md",
-    "Graph Theory/Random Walk (Graph).md",
-    "Probability Theory/Expected Value.md",
-    "Markov Processes/Random Walk.md",
-    "Technical Lemmas.md",
     "Graph Theory/Conductance.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Graph Theory/Random Walk (Graph).md",
+    "Markov Processes/Random Walk.md",
+    "Markov Processes/Markov Chain.md",
+    "Probability Theory/Expected Value.md",
+    "Technical Lemmas.md",
     "Analysis/Hilbert Space.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Analysis/Inner Product Space.md",

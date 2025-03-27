@@ -30,6 +30,17 @@
 > 1. $p=\sum_{i=1}^{n}\alpha_{i}D^{1/2}\psi_{i}$
 > 2. $\psi_{i}^\top D^{-1/2}p=\alpha_{i}$ for all $i\in[n]$.
 
-> [!proof]+
+
+> [!proof]-
 > We have that:
 > 1. Observe that: $$p=\sum_{i=1}^{n}\alpha_{i}D^{1/2}\psi_{i}\iff D^{-1/2}p=\sum_{i=1}^{n}\alpha_{i}\psi_{i}$$Now, for any $i\in[n]$, $\psi_{i}^\top D^{-1/2}p=\alpha_{i}\psi_{i}^\top \psi_{i}=\alpha_{i}$. Conversely, $$\sum_{i=1}^{n}\alpha_{i}\psi_{i}=\sum_{i=1}^{n}\psi_{i}^\top D^{-1/2}p \psi_{i}=\sum_{i=1}^{n}\braket{ D^{-1/2}p , \psi_{i} } \psi_{i}=D^{-1/2}p$$
+
+- **Corollary**: $p_{t}=\sum_{i=1}^{n}\alpha_{i}\left( 1-\frac{\lambda_{i}(N)}{2} \right)^t D^{1/2}\psi_{i}$ where $p_{0}=\sum_{i=1}^{n}\alpha_{i}D^{1/2}\psi_{i}$.
+---
+> [!lemma] Theorem 3 (Rate of Convergence of Lazy Random Walk)
+> Let $G=(V,E,w)$ be a connected graph. For any $u,v\in V$ and initial distribution $1_{u}$, we have:$$\left| p_{t}(v)-\pi(v) \right| \leq e^{-\lambda_{2}(N)t / 2}\cdot \sqrt{ \frac{d(v)}{d(u)} }$$where $p_{t}:=\tilde{W}^t 1_{u}$
+
+> [!proof]-
+> We have that: $$ p_{t}(v)-\pi(v) =1_{v}^\top \left( \sum_{i=2}^{n}\alpha_{i}\left( 1-\frac{\lambda_{i}(N)}{2} \right)^t D^{1/2}\psi_{i} \right) \leq \left( 1-\frac{\lambda_{2}(N)}{2} \right) ^t \sum_{i=2}^{n}\alpha_{i}1_{v}^\top D^{1/2} \psi_{i}$$Hence, by Cauchy-Schwarz, $$\left| p_{t}(v)-\pi(v) \right| \leq\left( 1-\frac{\lambda_{2}(N)}{2} \right)^t \sqrt{ \left( \sum_{i=2}^{n}\alpha_{i}^{2} \right)\left( \sum_{i=2}^{n}(1_{v}^\top D^{1/2}\psi_{i})^{2} \right)  }$$where: $$\sum_{i=2}^{n}\alpha_{i}^{2}=\sum_{i=2}^{n}(\psi_{i}^\top D^{-1/2}1_{u})^{2}\leq \left\| D^{-1/2}1_{u} \right\|^{2}_{2} =1 / d(u)$$and $$\sum_{i=2}^{n}(1_{v}^\top D^{1/2}\psi_{i})^{2}\leq \sum_{i=1}^{n}(\psi_{i}^\top D^{1/2}1_{v})^{2}=\left\| D^{1/2}1_{v} \right\| ^{2}_{2}=d(v)$$This proves the statement.
+- **Corollary**: If $G$ is unweighted, i.e. $w\equiv 1$, $\left\| p_{t}-\pi \right\|_{\infty}\leq e^{-\lambda_{2}(N)t /2}\sqrt{ n }$
+---

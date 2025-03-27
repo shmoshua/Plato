@@ -71,4 +71,4 @@ Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we hav
 
 ---
 #### Problem 8
-1. 
+1. For $G=K_{n}$ and unit weight we have that: $$\left\| p_{t}-\pi \right\| _{\infty}\leq e^{-\lambda_{2}(N)t /2}$$as $d$ is constant. Hence, if $$\phi(G)t\geq \lambda_{2}(N)t /2\geq  \log \frac{1}{\varepsilon}$$
