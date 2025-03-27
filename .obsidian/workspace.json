@@ -236,8 +236,7 @@
               "title": "Conductance"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -382,11 +381,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1ff933327f712a82",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
+    "Graph Theory/Random Walk (Graph).md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Graph Theory/Conductance.md",
-    "Graph Theory/Random Walk (Graph).md",
     "Markov Processes/Random Walk.md",
     "Markov Processes/Markov Chain.md",
     "Probability Theory/Expected Value.md",

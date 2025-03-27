@@ -76,3 +76,5 @@ Then, we charge each vertex $u\in S$ with $\phi \cdot d(u)$ charge. Then, we hav
 
 ---
 #### Problem 9
+
+1. Let $h_{i}:=\mathbb{E}[H_{i,n}]$. Then, we get: $$h_{i}=1+\frac{1}{2}h_{i+1}+\frac{1}{2}h_{i-1},\quad \forall 1<i<n$$and $h_{1}=1+\frac{1}{2}h_{2}$. Hence, $$h_{n-1}=1+\frac{1}{2}h_{n-2}$$and $$h_{n-2}=1+\frac{1}{2}h_{n-1}+\frac{1}{2}$$
