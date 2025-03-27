@@ -126,7 +126,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+                "file": "Courses/Graph Theory/Problem Set 5.md",
                 "mode": "source",
                 "source": true
               },
@@ -172,7 +172,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+                "file": "Courses/Graph Theory/Problem Set 5.md",
                 "mode": "preview",
                 "source": true
               },
@@ -186,12 +186,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Graph Theory/k-Connected Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expander"
+              "title": "k-Connected Graph"
             }
           },
           {
@@ -200,12 +200,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Random Walk.md",
+                "file": "Graph Theory/Matching.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Random Walk"
+              "title": "Matching"
             }
           },
           {
@@ -383,11 +383,14 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
+    "Graph Theory/Matching.md",
+    "Markov Processes/Random Walk.md",
+    "Graph Theory/k-Connected Graph.md",
+    "Courses/Graph Theory/Problem Set 5.md",
     "Graph Theory/Expander.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Graph Theory/Conductance.md",
     "Graph Theory/Random Walk (Graph).md",
-    "Markov Processes/Random Walk.md",
     "Markov Processes/Markov Chain.md",
     "Probability Theory/Expected Value.md",
     "Technical Lemmas.md",
@@ -406,9 +409,6 @@
     "Machine Learning/Gaussian Process.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Algebra/Ideal (Ring).md",
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
-    "Courses/Advanced Algorithms/Assignment 11.md",
-    "Courses/Advanced Algorithms/Exercise 02.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
