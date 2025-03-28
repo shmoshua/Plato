@@ -32,3 +32,9 @@ We claim that for any path $P=v_{1}\dots v_{k}\subseteq M$ for odd $k$, if $v_{1
 Hence, if $k$ is odd, we have that one endpoint is not in $A\cup B$. Hence, we can choose every second edge in $P$ s.t. we cover every nodes in $A\cup B$ covered by $P$. Finally for each cycle, pick every second edge.  This results in a matching and we cover $A\cup B$. 
 
 ---
+#### Problem 5
+1. Let $M$ be a matching in $G$. Assume we have Hall's condition, i.e. $\left| S \right|\leq \left| N(S) \right|$ for all $S\subseteq A$ and $M$ does not cover $A$. 
+   
+   Now, let $a\in A$ be a point not covered in $M$. We define: $$X:=\{ x\in A: \text{there is a }M\text{-alternating path from }a\text{ to }x \}$$
+   
+   By Hall, $\left| N(a_{1}) \right|\geq 1$ and let $b_{1}\in N(a_{1})$. If $b_{1}$ is not covered, $a_{1}b_{1}$ is an augmenting path and we are done. Otherwise there exists $a_{2}\in A$ s.t. $b_{1}a_{2}\in M$. Now, there 
