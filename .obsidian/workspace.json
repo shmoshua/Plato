@@ -381,10 +381,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "50c164a8b72b2e93",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Problem Set 5.md",
+    "Courses/Graph Theory/Problem Set 4.md",
+    "Courses/Graph Theory/Problem Set 3.md",
     "Courses/Graph Theory/Problem Set 6.md",
+    "Courses/Graph Theory/Problem Set 5.md",
     "Graph Theory/k-Connected Graph.md",
     "Markov Processes/Markov Chain.md",
     "Graph Theory/Matching.md",
@@ -407,8 +409,6 @@
     "Courses/Probability Theory/Exercise Class 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Machine Learning/Gaussian Process.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
