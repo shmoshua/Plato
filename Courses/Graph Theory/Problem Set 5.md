@@ -19,3 +19,13 @@ We define a bipartite graph $G=(A\sqcup B,E)$ where $B:=\{ A_{kj} \}_{k\in [n],j
 
 ---
 #### Problem 4
+Wlog we may assume that $M_{A},M_{B}$ do not contain any edges that are not incident to $A$ and $B$ respectively. Otherwise we can reduce them so that they are the minimal matching covering $A$ and $B$. 
+
+Consider $M:= M_{A}\cup M_{B}$. Then, for any node $v$ covered by $M_{A}\cup M_{B}$, we have that $d(v)\leq 2$. This implies that in $M$ all components are path or cycles. Further, as no two incident edges in $M$ both come from $M_{A}$ or $M_{B}$, we know that they are alternating in $M$. 
+
+Let $P=v_{1}v_{2}\dots v_{k}$ be a path component in $M$. If $k$ is odd, there are odd number of edges in $P$ and we can choose every other edge into a new matching $M'$ s.t. $v_{1},\dots,v_{k}$ are all covered. If $k$ is even, consider the following:
+1. if $v_{1}\in A$ then $v_{1}v_{2}\in M_{A}$ as otherwise we could extend the path with the edge in $M_{A}$ covering $v_{1}$. As $k$ is even, $v_{2}\in B$. We claim that 
+
+We now claim that for every path, at least one endpoint is contained in $A\cup B$. Assume otherwise. Let $P=v_{1}v_{2}\dots.v_{k}$ be a path and wlog assume that $v_{1}v_{2}\in M_{A}$. Then, $v_{2}\in A$ and as $v_{2}v_{3}\in M_{B}$, $v_{3}\in B$, we can iteratively follow this to see that if $v_{i}v_{i+1}\in M_{C}$ then $v_{i+1}\in C$ for $C\in \{ A,B \}$. Hence, $v_{k}\in A\cup B$, which is a contradiction. Therefore, for each path, there is a way to select every other edge s.t. 
+
+For each cycle, pick every second edge. For each path, pick the first edge and skip every other edge. This results in a matching and further covers every vertex covered by $M_{A}\cup M_{B}$ except possibly the endpoints 
