@@ -54,10 +54,14 @@
             "id": "e7504f193e62a0e2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Exercise Sheet 2"
             }
           }
         ]
@@ -96,34 +100,21 @@
             }
           },
           {
-            "id": "9d67325c509f7614",
+            "id": "6902d1bc2eb37059",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/k-Connected Graph.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "k-Connected Graph"
-            }
-          },
-          {
-            "id": "85ab322ee913fbaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Conductance.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Conductance"
+              "title": "Exercise Sheet 2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -268,11 +259,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "72e4a83e3c437b88",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Analysis/Taylor's Theorem.md",
     "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "Graph Theory/Matching.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Graph Theory/Degenerate Graph.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "Functional Analysis/Normed Module.md",
@@ -293,9 +287,6 @@
     "Technical Lemmas.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Inner Product Space.md",
-    "Graph Theory/Graph Coloring.md",
-    "Graph Theory/Independence and Clique.md",
-    "Functional Analysis/Convex Hull.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
