@@ -35,6 +35,11 @@ Hence, if $k$ is odd, we have that one endpoint is not in $A\cup B$. Hence, we c
 #### Problem 5
 1. Let $M$ be a matching in $G$. Assume we have Hall's condition, i.e. $\left| S \right|\leq \left| N(S) \right|$ for all $S\subseteq A$ and $M$ does not cover $A$. 
    
-   Now, let $a\in A$ be a point not covered in $M$. We define: $$X:=\{ x\in A: \text{there is a }M\text{-alternating path from }a\text{ to }x \}$$
+   Now, let $a\in A$ be a point not covered in $M$. We define: $$X:=\{ x\in A: \text{there is a }M\text{-alternating path from }a\text{ to }x \}$$$$Y:=\{ y\in B: \text{there is a }M\text{-alternating path from }a\text{ to }y\}$$Now, if there exists $y\in Y$ not covered by $M$, then we have an $M$-augmenting path and we are done. Otherwise, $Y$ is covered by $M$. We also have that for every $x\in X \backslash \{ a \}$ $x$ is covered by $M$ as the last edge in the $M$-alternating path from $a$ to $x$ has to be in $M$ by parity. Hence, $\left| X \backslash\{ a \} \right|=\left| Y \right|$. However, for every $x\in X$ and $y\in N(x)$, we claim that $y\in Y$. If $y$ is on the $M$-alternating path from $a$ to $x$, $y\in Y$. Otherwise, we can extend the alternating path with $xy$ and $y\in Y$. Therefore, $N(X)\subseteq Y$ and we have that: $$\left| N(X) \right| \leq \left| Y \right| =\left| X \right| -1<\left| X \right| $$which is a contradiction to Hall's condition.
+2. Let $M$ be a non-maximum matching and $M'$ a maximum matching. Then, consider $G':=(V,M\triangle M')$ the symmetric difference. As $\Delta(G')\leq 2$, we have that the components of $G'$ are paths and cycles again. Now from the fact that $M,M'$ are matchings, in any cycle there are same number of edges from $M$ and $M'$. However, as $\left| M \right|\leq \left| M' \right|$, there exists a path in $G'$ s.t. it alternates between edges of $M'$ and $M$ but contains more edges from $M'$. This is a $M$-augmenting path.
    
-   By Hall, $\left| N(a_{1}) \right|\geq 1$ and let $b_{1}\in N(a_{1})$. If $b_{1}$ is not covered, $a_{1}b_{1}$ is an augmenting path and we are done. Otherwise there exists $a_{2}\in A$ s.t. $b_{1}a_{2}\in M$. Now, there 
+   This is true for non-bipartite graphs as well as we have not used any bipartiteness in the proof.
+
+---
+#### Problem 6
+Let $G$ be a $k$-regular $(k-1)$-edge connected graph on even number of vertices. Let $S\subseteq V(G)$. Then, 
