@@ -30,3 +30,4 @@ We have that: $$\text{Var}(w_{j})=\mathbb{E}[(z_{j}-(\beta ^{*}_{j})^\top z^{ \b
 
 ---
 #### Problem 2.4
+Let $j\in [d]$. We denote the $j$-th column of $Z$ as $Z_{j}$. Then, $$\mathbb{P}(\left\| Z_{j} \right\|\leq 2\sqrt{ n } )=\mathbb{P}(\left\| Z_{j} \right\| ^{2}\leq 4n)=\mathbb{P}\left( \sum_{i\in[n]}^{}z_{i}(j)^{2}\leq 4n \right)$$Now, notice that $z_{1}(j),\dots,z_{n}(j)\sim \mathcal{N}(0,1-\theta s_{j}^{2})$ i.i.d. Hence, for $\sigma^{2}:= 1-\theta s^{2}$
