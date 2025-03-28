@@ -14,124 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Degenerate Graph.md",
+                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Degenerate Graph"
-            }
-          },
-          {
-            "id": "2a926e470b0260ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Exercise Sheet 6"
-            }
-          },
-          {
-            "id": "d2addd8972c94f04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Expander.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Expander"
-            }
-          },
-          {
-            "id": "65e7d7cbe6382ec9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Cochain Complex.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Cochain Complex"
-            }
-          },
-          {
-            "id": "76505253772bfdb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Normed Module.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Normed Module"
-            }
-          },
-          {
-            "id": "08df93a5a0db804f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Uniformly Continuous Function"
-            }
-          },
-          {
-            "id": "d31449181fd80ec7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Banach Space.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Banach Space"
-            }
-          },
-          {
-            "id": "c7f2780e3b0691f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Guelfand Spectrum (Banach Ring).md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Guelfand Spectrum (Banach Ring)"
-            }
-          },
-          {
-            "id": "3c691dfb8088deb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Graph Theory/Problem Set 5.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Problem Set 5"
+              "title": "Special Assignment 1"
             }
           },
           {
@@ -172,8 +60,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -200,12 +87,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Matching.md",
+                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matching"
+              "title": "Special Assignment 1"
             }
           },
           {
@@ -383,14 +270,19 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Problem Set 6.md",
+    "Courses/Algorithms for Data Science/Special Assignment 1.md",
+    "Graph Theory/Matching.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Graph Theory/Degenerate Graph.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
+    "Functional Analysis/Normed Module.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+    "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Graph Theory/Problem Set 4.md",
     "Courses/Graph Theory/Problem Set 3.md",
     "Courses/Graph Theory/Problem Set 5.md",
     "Graph Theory/k-Connected Graph.md",
     "Markov Processes/Markov Chain.md",
-    "Graph Theory/Matching.md",
     "Functional Analysis/Valuation Field.md",
     "Markov Processes/Random Walk.md",
     "Graph Theory/Expander.md",
@@ -401,14 +293,9 @@
     "Technical Lemmas.md",
     "Analysis/Hilbert Space.md",
     "Analysis/Inner Product Space.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Graph Theory/Graph Coloring.md",
-    "Graph Theory/Degenerate Graph.md",
     "Graph Theory/Independence and Clique.md",
     "Functional Analysis/Convex Hull.md",
-    "Courses/Probability Theory/Exercise Class 5.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
