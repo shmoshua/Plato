@@ -140,12 +140,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 6.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 6"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -186,12 +186,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 6.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 6"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -381,11 +381,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "50c164a8b72b2e93",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
+    "Courses/Graph Theory/Problem Set 6.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Graph Theory/Problem Set 4.md",
     "Courses/Graph Theory/Problem Set 3.md",
-    "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Graph Theory/Problem Set 5.md",
     "Graph Theory/k-Connected Graph.md",
     "Markov Processes/Markov Chain.md",
@@ -399,7 +400,6 @@
     "Probability Theory/Expected Value.md",
     "Technical Lemmas.md",
     "Analysis/Hilbert Space.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Analysis/Inner Product Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Graph Theory/Graph Coloring.md",

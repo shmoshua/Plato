@@ -99,4 +99,10 @@ Therefore, $3k$ is even and this shows that $k$ is even.
 
 ---
 #### Problem 6
-We draw a graph $G$ on the $n$ points where $uv\in E(G)$ if $d(u,v)=1$. Now assume that there exists a crossing between $uv$ and $wz$. Then, we have that: $$1=d(w,z)\leq d(w,u)+d(u,z)$$
+We draw a graph $G$ on the $n$ points where $uv\in E(G)$ if $d(u,v)=1$. Now assume that there exists a crossing between $uv$ and $wz$. Let $p$ denote the intersection between the two edges. Wlog we may assume that $d(u,p)\leq d(v,p)$ and $d(w,p)\leq d(z,p)$. Then, $d(u,p),d(w,p)\leq 1 /2$.
+1. If either $d(u,p)$ or $d(w,p)$ is strictly less than $1 / 2$, wlog assume $d(u,p)<  1 / 2$. As we also have $d(w,p)\leq 1 / 2$, by triangle inequality, $$d(u,w)\leq d(u,p)+d(w,p)< 1$$which is a contradiction.
+2. Otherwise both $d(u,p)=d(w,p)= 1/ 2$ and the two edges form the two diagonals of a rectangle. This is again a contradiction as the side lengths cannot be larger than the length of a diagonal. 
+
+Therefore, this graph is planar and there are at most $3n-6$ edges, i.e. pairs with distance exactly 1 between them.
+
+---
