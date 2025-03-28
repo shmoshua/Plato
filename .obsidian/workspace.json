@@ -222,7 +222,8 @@
               "title": "Conductance"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -367,11 +368,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3c691dfb8088deb5",
+  "active": "72e4a83e3c437b88",
   "lastOpenFiles": [
+    "Courses/Graph Theory/Problem Set 5.md",
     "Functional Analysis/Valuation Field.md",
     "Graph Theory/k-Connected Graph.md",
-    "Courses/Graph Theory/Problem Set 5.md",
     "Graph Theory/Matching.md",
     "Markov Processes/Random Walk.md",
     "Graph Theory/Expander.md",
