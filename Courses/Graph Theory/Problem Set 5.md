@@ -42,4 +42,10 @@ Hence, if $k$ is odd, we have that one endpoint is not in $A\cup B$. Hence, we c
 
 ---
 #### Problem 6
-Let $G$ be a $k$-regular $(k-1)$-edge connected graph on even number of vertices. Let $S\subseteq V(G)$. Then, 
+Let $G$ be a $k$-regular $(k-1)$-edge connected graph on even number of vertices. Let $S\subseteq V(G)$. Then, if $S=\varnothing$, then as $G$ is connected with even number of vertices, $q(G \backslash S)=q(S)=0\leq \left| S \right|$.
+
+Now, let $S\neq \varnothing$. Let $A$ denote an odd component in $G \backslash S$. Then, as $G$ is $k$-regular, $k\cdot \left| A \right|=\sum_{x\in A}^{}d_{G}(x)=2e_{G}(A,A)+e_{G}(A,S)$. 
+
+We then have that $e_{G}(A,S)=k$ mod $2$. However, as $e_{G}(A,S)\geq k-1$ we have that $e_{G}(A,S)\geq k$. Therefore, $$k\left| S \right| \geq e_{G}(S, G \backslash S)\geq\sum_{A\text{ odd in }G \backslash S}^{}k=k\cdot q(G \backslash S)$$and $q(G \backslash S)\leq \left| S \right|$. By Tutte, we can conclude that $G$ has a perfect matching.
+
+---
