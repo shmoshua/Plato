@@ -90,3 +90,13 @@ This shows that $G$ is bipartite.
 
 ---
 #### Problem 4
+Assume that there exists a drawing of $G$ with $\ell\leq k-1$ crossing pairs of edges. Then, we can delete at most $\ell$ edges from $G$ and obtain a drawing of a graph on $n$ vertices with more than $3n-6$ edges but with no crossings, i.e. the new graph $G'$ is planar. This is a contradiction. 
+
+---
+#### Problem 5
+Let $k$ be the number of faces with all three colors. For a face $f$ let $c(f)$ be the number of bichromatic edges in its triangular boundary. Then, we notice that $c(f)=1$ is impossible as we cannot have only one bichromatic edge in a triangle. Hence, we have that: $$2\cdot\#\text{bichromatic edges}=\sum_{f\text{ face}}^{}c(f)=3k+\text{even}$$
+Therefore, $3k$ is even and this shows that $k$ is even.
+
+---
+#### Problem 6
+We draw a graph $G$ on the $n$ points where $uv\in E(G)$ if $d(u,v)=1$. Now assume that there exists a crossing between $uv$ and $wz$. Then, we have that: $$1=d(w,z)\leq d(w,u)+d(u,z)$$
