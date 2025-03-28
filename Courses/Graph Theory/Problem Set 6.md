@@ -80,3 +80,13 @@ Therefore, $K_{r,s}$ with $r\leq s$ is planar if and only if $r\leq 2$.
 
 ---
 #### Problem 3
+Let $G$ be a connected bipartite plane graph. Then, $G$ contains no odd cycles. If the outer face is of odd length, we have an odd cycle after removing all edges that are not contained in the boundary of any other faces, as they contribute only an even number to the length. Similarly, for any other inner face, if the length is odd, we can find an odd cycle. 
+
+Assume now that all the faces have even length. If $G$ is not bipartite, then there exists an odd cycle and consider an odd cycle $C$ with the minimum number of faces inside. Then, by assumption $C$ cannot be a face boundary and $C$ contains at least 2 faces. 
+1. if there exists a face $f$ in $C$ whose boundary contains $C$, as there exists another face contained in $C$, we have a cycle $C'$ contained entirely in $f$. Now, as $l(f)$ is even, $C'$ is an odd cycle. However as $C'$ has strictly fewer faces inside than $C$, this is a contradiction to the minimality of $C$.
+2. otherwise, there has to exist a "diagonal" path in $C$ from one point in $C$ to another point in $C$ that is contained in the interior of $C$. This gives us two cycles $D,D'$ and as by the minimality of $C$, we have that both are even. This is a contradiction as $C$ is odd and we have that: $$\left| D \right| +\left| D' \right| -2k=\left| C \right| $$where $k$ is the number of interior nodes on the diagonal path.
+   
+This shows that $G$ is bipartite.
+
+---
+#### Problem 4
