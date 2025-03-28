@@ -17,4 +17,10 @@ For the rest, as we have that $\|u\|_{1}\leq\|\beta\|_{1}+\|\beta ^{*}\|_{1}\leq
 ---
 #### Problem 2.2
 
-Let $j\in[d]$. Define the following matrix $A\in \mathbb{R}^{d,d}$ where: $$A_{k\ell}:=\begin{cases}1&k=\ell\\ -b_{j}s_{\ell}&k=j, \ell\neq j\\0&\text{otherwise}\end{cases}$$Then, one sees that $Az=(z(1),\dots,z(j-1),w_{j},z(j+1),\dots,z(d))\sim \mathcal{N}(0,A(I_{d}-\theta ss^\top)A^\top)$. This shows that $w_{j}$ and $z^{\backslash j}$ are jointly Gaussian. 
+Let $j\in[d]$. Define the following matrix $A\in \mathbb{R}^{d,d}$ where: $$A_{k\ell}:=\begin{cases}1&k=\ell\\ b_{j}s_{\ell}&k=j, \ell\neq j\\0&\text{otherwise}\end{cases}$$Then, one sees that $Az=(z(1),\dots,z(j-1),w_{j},z(j+1),\dots,z(d))\sim \mathcal{N}(0,A(I_{d}-\theta ss^\top)A^\top)$. This shows that $w_{j}$ and $z^{\backslash j}$ are jointly Gaussian. 
+
+Now, notice that for any $\ell\neq j$, $$\begin{aligned}(A(I_{d}-\theta ss^\top)A^\top)_{j\ell}&=\sum_{k,h\in[d]}^{}A_{jk}(I_{d}-\theta ss^\top)_{kh}\underbrace{ A_{\ell h} }_{ =\delta_{\ell h} }\\&=\sum_{k\in[d]}^{}A_{jk}(\delta_{k\ell}-\theta s_{k}s_{\ell})\\&=-\theta s_{j}s_{\ell}+\sum_{k\neq j}^{}b_{j}s_{k}(\delta_{k\ell}-\theta s_{k}s_{\ell})\\&=-\theta s_{j}s_{\ell}+b_{j}s_{\ell}-b_{j}\theta\sum_{k\neq j}^{}s_{k}^{2} s_{\ell}\end{aligned}$$However, as $s$ is $k$-sparse, we have that $\sum_{k\in[d]}^{}s_{k}^{2}=k\cdot \frac{1}{k}=1$. Hence, $$(A(I_{d}-\theta ss^\top)A^\top)_{j\ell}=-\theta s_{j}s_{\ell}+b_{j}s_{\ell}-b_{j}\theta(1-s_{j}^{2}) s_{\ell}=-\theta s_{j}s_{\ell}+\underbrace{ b_{j}(1-\theta(1-s_{j}^{2})) }_{ =\theta s_{j} }s_{\ell}= 0$$This shows that $\text{Cov}(w_{j},z^{ \backslash j})=0$ and as they are jointly Gaussian, they are independent.
+
+---
+#### Problem 2.3
+It suffices to show that $(A(I_{d}-\theta ss^\top)A^\top)_{jj}\leq 1$ for all $j\in [d]$. We have: $$\begin{aligned}(A(I_{d}-\theta ss^\top)A^\top)_{jj}=\sum_{k,h\in[d]}^{}A_{jk}(I_{d}-\theta ss^\top)_{kh}A_{jh}=\sum_{k\in[d]}A_{jk}^{2}(1-\theta s_{k}^{2})-\theta\sum_{k\neq h}^{}A_{jk}A_{jh}s_{k}s_{h}\end{aligned}$$Now, $$$$
