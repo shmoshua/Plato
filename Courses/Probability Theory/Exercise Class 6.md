@@ -3,10 +3,11 @@
 1. Uniform
 2. Normal/Gaussian
 3. Exponential
+	$$\mathbb{P}(T>t)=\int_{t}^{\infty} \lambda e^{-\lambda x} \, dx =- [e^{-\lambda x}]^\infty_{t}=e^{-\lambda t}$$
 
 Problems
 1. Let $X\sim \text{Exp}(\lambda)$ and $Y\sim \text{Exp}(\mu)$. What is $F_{\min \{ X,Y \}}$? $$F_{\min \{ X,Y \}}(z)=(1-e^{-(\lambda+\gamma)z})\cdot \mathbb{1}_{z\geq 0}$$ and $\text{min}(X,Y)\sim \text{Exp}(\lambda+\gamma)$.
-2. Density of $M:= max(U_{1},U_{2})$ where $U_{1},U_{2}\sim \mathcal{U}([0,1])$ iid.
+2. Density of $M:= max(U_{1},U_{2})$ where $U_{1},U_{2}\sim \mathcal{U}([0,1])$ iid. $$\mathbb{P}(X\leq t)=\mathbb{P}(U_{1}\leq t)\mathbb{P}(U_{2}\leq t)=$$
 3. Density of $M:= max(U_{1},U_{2},U_{3})$ where $U_{1},U_{2},U_{3}\sim \mathcal{U}([0,1])$ iid.
 4. Find $\mathbb{P}(U_{1}\leq x|\max\{ U_{1},U_{2} \}\geq y)$ for some $y\in(0,1)$. 
 
