@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -273,10 +273,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "72e4a83e3c437b88",
+  "active": "02531ae3af29bf7b",
   "lastOpenFiles": [
-    "Probability Theory/Expected Value.md",
     "Courses/Probability Theory/Exercise Class 6.md",
+    "Probability Theory/Expected Value.md",
     "Probability Theory/Gaussian Distribution.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Probability Theory/Independence.md",
