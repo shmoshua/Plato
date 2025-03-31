@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
+                "file": "Courses/Probability Theory/Exercise Class 6.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Exercise Class 6"
             }
           },
           {
@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
+                "file": "Courses/Probability Theory/Exercise Class 6.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Exercise Class 6"
             }
           },
           {
@@ -127,7 +127,8 @@
               "title": "Gaussian Distribution"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -272,11 +273,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "6902d1bc2eb37059",
   "lastOpenFiles": [
+    "Courses/Probability Theory/Exercise Class 6.md",
     "Courses/Algorithms for Data Science/Special Assignment 1.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Analysis/Taylor's Theorem.md",
@@ -299,7 +301,6 @@
     "Graph Theory/Random Walk (Graph).md",
     "Probability Theory/Expected Value.md",
     "Technical Lemmas.md",
-    "Analysis/Hilbert Space.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
