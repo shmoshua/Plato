@@ -100,21 +100,21 @@
             }
           },
           {
-            "id": "6902d1bc2eb37059",
+            "id": "02531ae3af29bf7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 2"
+              "title": "Expected Value"
             }
           },
           {
-            "id": "02531ae3af29bf7b",
+            "id": "c313c3839a5fbb07",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -273,13 +273,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6902d1bc2eb37059",
+  "active": "c313c3839a5fbb07",
   "lastOpenFiles": [
+    "Probability Theory/Expected Value.md",
     "Courses/Probability Theory/Exercise Class 6.md",
-    "Courses/Algorithms for Data Science/Special Assignment 1.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Independence.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Analysis/Taylor's Theorem.md",
     "Graph Theory/Matching.md",
@@ -299,8 +301,6 @@
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Graph Theory/Conductance.md",
     "Graph Theory/Random Walk (Graph).md",
-    "Probability Theory/Expected Value.md",
-    "Technical Lemmas.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
