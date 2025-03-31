@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 6.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 6"
+              "title": "Exercise Sheet 6"
             }
           },
           {
@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,11 +273,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02531ae3af29bf7b",
+  "active": "72e4a83e3c437b88",
   "lastOpenFiles": [
     "Courses/Probability Theory/Exercise Class 6.md",
-    "Probability Theory/Expected Value.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Probability Theory/Expected Value.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Probability Theory/Independence.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
