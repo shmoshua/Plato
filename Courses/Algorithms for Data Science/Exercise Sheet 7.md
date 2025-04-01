@@ -1,2 +1,2 @@
 #### Problem 1
-1. Let $M\in \mathbb{R}^{n,n}$. 
+1. Let $M\in \mathbb{R}^{n,n}$. Let $u_{1},\dots,u_{n},v_{1},\dots,v_{n}\in \mathbb{R}^{2n}$ be unit vectors. Then, we define $U:=(u_{1},\dots,u_{n})\in \mathbb{R}^{2n,n}$ and $V:=(v_{1},\dots,v_{n})\in \mathbb{R}^{2n,n}$. $$X:=\begin{bmatrix}I_{n}&U^\top V\\V^\top U& I_{n}\end{bmatrix}$$Hence, $\text{diag}(X)=I_{2n}$. Now, to show that $X$ is positive semidefinite, it suffices to show that the schur complement is. Consider $Z:=I_{n}-V^\top U U^\top V$. We have that for any $x\in \mathbb{R}^n$, $$x^\top Z x=\|x\|^{2}-\|U^\top V x\|^{2}\geq 0$$as $\left\| U^\top V x \right\|^{2}=\sum_{i\in [n]}\left( \sum_{j\in[n]}^{}\braket{ u_{i} , v_{j} }x_{j} \right)^{2}$
