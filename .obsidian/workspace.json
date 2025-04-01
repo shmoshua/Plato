@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 6.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 6"
+              "title": "Exercise Sheet 7"
             }
           },
           {
@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 6.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 6"
+              "title": "Exercise Sheet 7"
             }
           },
           {
@@ -275,9 +275,10 @@
   },
   "active": "72e4a83e3c437b88",
   "lastOpenFiles": [
+    "Courses/Probability Theory/Exercise Class 6.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Courses/Probability Theory/Exercise Class 6.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Expected Value.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
@@ -300,7 +301,6 @@
     "Graph Theory/Expander.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Graph Theory/Conductance.md",
-    "Graph Theory/Random Walk (Graph).md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
