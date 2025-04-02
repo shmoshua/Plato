@@ -41,3 +41,14 @@ Firstly, as $j\notin S^{*}$, $s(j)=0$ and we have that $b_{j}=0$. Hence, $\beta 
 As $j\in S^{*}$, $s_{j}\in \left\{  \pm \frac{1}{\sqrt{ k }}  \right\}$ and we have that: $$b_{j}=\frac{\theta s_{j}}{1-\theta\left( \frac{k-1}{k} \right)}=\frac{\theta s_{j}}{1-\frac{k-1}{k+1}}=\left( \frac{k+1}{2} \right)\theta s_{j}=\frac{k}{2}s_{j}\in \left\{ \pm \frac{\sqrt{ k }}{2}  \right\}$$Hence, $$\left\| \beta ^{*} _{j}\right\|_{1} =\sum_{k\neq j}^{}\left| b_{j} \right| \left| s_{k} \right| \leq(k-1)\cdot \frac{\sqrt{ k }}{2}\cdot \frac{1}{\sqrt{ k }}=\frac{k-1}{2}\leq k $$
 
 Further, for the same reasoning as above, $y_{i}=w_{i}(j)+(X^\top \beta ^{*}_{j})_{i}$ for all $i\in [n]$ where $w_{i}(j)\sim \mathcal{N}(0,\sigma^{2})$ with $\sigma^{2}=(1-\theta s_{j}b_{j})(1-s_{j}^{2})\leq 1$ as constant over all $i\in[n]$. Now, $$\beta ^{*}_{j}=$$
+
+---
+#### Problem 3.7
+Let $j\in[d]$. Then, the algorithm for iteration $j$ is wrong if:
+1. $j\in S^{*}$ and $\left\| X\widehat{\beta} \right\|^{2}< n / 100$ or 
+2. $j\notin S^{*}$ and $\left\| X\widehat{\beta} \right\|^{2}\geq n / 100$.
+
+We have that both cases happen with probability at most $d^{-5}$. Hence,
+$$\mathbb{P}(S\neq S^{*})\leq \mathbb{P}( \exists j:\text{Algorithm is wrong on }j)\leq d^{-4}$$
+
+---
