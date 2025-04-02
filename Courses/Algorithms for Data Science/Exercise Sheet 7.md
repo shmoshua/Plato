@@ -8,5 +8,13 @@
    Therefore, this shows that $f_{=}(M)\geq f_{\leq }(M)$.
 
 ---
-
+#### Problem 2
+1. Notice that: $$\braket{ x^{>\tau} , Ay^{\leq \tau} } =\sum_{k,\ell\in[n]}^{}x^{> \tau}_{k}A_{k\ell} y^{\leq \tau}_{\ell}=\braket{ (w_{1}w_{1}^\top)_{1,2} , A }=\left\langle w_{1}w_{1}^\top , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle  $$However, $(w_{1}w_{1}^\top)_{ii}=(x^{>\tau}_{i})^{2}\geq 0$ and $(w_{1}w_{1}^\top)_{n+i,n+i}=(y^{\leq\tau}_{i})^{2}$ for $1\leq i\leq n$. Now, as $x_{i},y_{i}$ they are all identically distributed, $\mathbb{E}[(w_{1}w_{1}^\top)_{ii}]=\mathbb{E}[(x_{i}^{>\tau})^{2}]=\mathbb{E}[(x_{1}^{>\tau})^{2}]=\mathbb{E}[(w_{1}w_{1}^\top)_{11}]\geq 0$. 
+   
+   Let $X:=\mathbb{E}[w_{1}w_{1}^\top]$. Then, one sees that $X\succeq 0$. Indeed, $$z^\top Xz=\mathbb{E}[zw_{1}w_{1}^\top z]\geq 0,\quad \forall z$$Further, as $X_{11}\geq 0$, $\frac{1}{X_{11}}X\succeq 0$ and $\text{diag}(\frac{1}{X_{11}}X)=I_{2n}$. 
+   
+   
+   
+   
+   In other words, for $$\mathbb{E}[\braket{ x^{>\tau} ,Ay^{\leq \tau}  } ]=\mathbb{E}\left[ \left\langle w_{1}w_{1}^\top , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle \right]=\mathbb{E}\left[ (w_{1}w_{1}^\top)_{11}\left\langle w_{1}w_{1}^\top , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle \right] $$
    
