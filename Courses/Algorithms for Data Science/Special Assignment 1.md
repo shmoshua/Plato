@@ -42,6 +42,8 @@ As $j\in S^{*}$, $s_{j}\in \left\{  \pm \frac{1}{\sqrt{ k }}  \right\}$ and we h
 
 Further, for the same reasoning as above, $y_{i}=w_{i}(j)+(X^\top \beta ^{*}_{j})_{i}$ for all $i\in [n]$ where $w_{i}(j)\sim \mathcal{N}(0,\sigma^{2})$ with $\sigma^{2}=(1-\theta s_{j}b_{j})(1-s_{j}^{2})\leq 1$ as constant over all $i\in[n]$. Now, $$\beta ^{*}_{j}=$$
 
+We have: $$\left\| X\widehat{\beta} \right\| $$
+
 ---
 #### Problem 3.7
 Let $j\in[d]$. Then, the algorithm for iteration $j$ is wrong if:
