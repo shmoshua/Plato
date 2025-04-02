@@ -13,4 +13,5 @@
    
    Let $X:=\mathbb{E}[w_{1}w_{1}^\top]$. Then, one sees that $X\succeq 0$. Indeed, $$z^\top Xz=\mathbb{E}[zw_{1}w_{1}^\top z]\geq 0,\quad \forall z$$Further, as $X_{11}\geq 0$, $\frac{1}{X_{11}}X\succeq 0$ and $\text{diag}(\frac{1}{X_{11}}X)=I_{2n}$. Therefore we have that: $$\mathbb{E}[\braket{ x^{>\tau} ,Ay^{\leq \tau}  } ]=\mathbb{E}\left[ \left\langle w_{1}w_{1}^\top , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle \right]= \left\langle X , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle= X_{11}\left\langle \frac{1}{X_{11}} X , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle\leq X_{11}\left\| A \right\| _{G}$$Analogously it holds for $w_{2},w_{3}$ and we have our statement. 
 
-2. 
+
+$$\int_{-\tau}^{\tau} x^2 e^{-x^{2} / 2} \, dx\leq  \tau^{2} \cdot e^{-\tau^{2} /4} $$
