@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 6.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Problem Set 6"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 6.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Problem Set 6"
             }
           },
           {
@@ -113,8 +113,7 @@
               "title": "Exercise Sheet 5"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,15 +258,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e7d871f6735e72de",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 6.md",
     "Courses/Algorithms for Data Science/Special Assignment 1.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Probability Theory/Expected Value.md",
     "Courses/Probability Theory/Exercise Class 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
@@ -286,7 +286,6 @@
     "Markov Processes/Markov Chain.md",
     "Functional Analysis/Valuation Field.md",
     "Markov Processes/Random Walk.md",
-    "Graph Theory/Expander.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
