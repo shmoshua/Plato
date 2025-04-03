@@ -10,3 +10,4 @@ Then, $B-A=\begin{bmatrix}1&1\\1&1\end{bmatrix}\in S^2_{+}$ as it admits $0,2$ a
 ---
 #### Problem 2
 1. We have: $$\left( I+uv^\top \right) \left( I-\frac{uv^\top}{1+v^\top u} \right)=I+uv^\top -\frac{uv^\top+uv^\top uv^\top}{1+v^\top u} =I+uv^\top -\frac{(1+v^\top u)uv^\top}{1+v^\top u} =I$$
+2. 
