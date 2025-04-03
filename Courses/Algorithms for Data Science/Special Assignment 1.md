@@ -42,13 +42,24 @@ As $j\in S^{*}$, $s_{j}\in \left\{  \pm \frac{1}{\sqrt{ k }}  \right\}$ and we h
 
 Further, for the same reasoning as above, $y_{i}=w_{i}(j)+(X^\top \beta ^{*}_{j})_{i}$ for all $i\in [n]$ where $w_{i}(j)\sim \mathcal{N}(0,\sigma^{2})$ with $\sigma^{2}=(1-\theta s_{j}b_{j})(1-s_{j}^{2})\leq 1$ as constant over all $i\in[n]$. Now, $$\beta ^{*}_{j}=$$
 
+We have: $$\left\| \beta ^{*}_{j} \right\| ^{2}_{2}=\sum_{\ell\neq j}^{}b_{j}^{2} s_{k}^{2}=\frac{k}{2}(k-1) \frac{1}{k}= \frac{k-1}{2}$$
+
 We have: $$\left\| X(\widehat{\beta}-\beta ^{*}) \right\|^{2}=\left\| X\widehat{\beta} \right\| ^{2}-2(\widehat{\beta})^\top X^\top X\beta ^{*}+\left\| X\beta ^{*} \right\| ^{2} $$
+
+Further, 
 
 $$\left\| X(\widehat{\beta}-\beta ^{*}) \right\| ^{2}\leq 2\left\| X\widehat{\beta} \right\| ^{2}+2\left\| X\beta ^{*} \right\| ^{2}$$
 
-Notice that: $$\left\| X\beta ^{*} \right\| ^{2}=(\beta ^{*})^\top  X^\top X \beta ^{*}=\frac{k}{4} (s^{ \backslash j})^\top X^\top X s^{ \backslash j}=\frac{k}{4}\sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , s^{ \backslash j} } $$Then, $$\frac{k}{4}\sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , s^{ \backslash j} }\leq \frac{k}{4}\sum_{i\in[n]}^{}\left\| z_{i}^{ \backslash j} \right\| \left\| s^ {\backslash j} \right\|= \frac{k}{4}\sum_{i\in[n]}^{}\left\| z_{i}^{ \backslash j} \right\|  $$
+Notice that: $$\left\| X\beta ^{*} \right\| ^{2}=(\beta ^{*})^\top  X^\top X \beta ^{*}=\frac{k}{4} (s^{ \backslash j})^\top X^\top X s^{ \backslash j}=\frac{k}{4}\sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , s^{ \backslash j} }^{2} $$Then, $$\frac{k}{4}\sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , s^{ \backslash j} }\leq \frac{k}{4}\sum_{i\in[n]}^{}\left\| z_{i}^{ \backslash j} \right\| \left\| s^ {\backslash j} \right\|= \frac{k}{4}\sum_{i\in[n]}^{}\left\| z_{i}^{ \backslash j} \right\|sr  $$
 
-$$\mathbb{P}\left( \sum_{k\neq j}^{}z_{i}(k)^{2} \right) $$
+$$\left\| X\beta ^{*} \right\| ^{2}=\sum_{i\in[n]}^{}\braket{ z^{\backslash j}_{i} , s^{ \backslash j} } ^{2}$$
+
+As $z_{i}^ {\backslash j}\sim \mathcal{N}(0,I_{d-1}-\theta s^{ \backslash j}(s^{ \backslash j})^\top)$ we have that  $\braket{ z^{\backslash j}_{i} , s^{ \backslash j} }\sim \mathcal{N}(0,\left\| s^{ \backslash j} \right\|^{2}-\theta \left\| s^{ \backslash j} \right\|^{4})=\mathcal{N}\left( 0,\frac{k-1}{k}\frac{2}{k+1}\right)$ as $\left\| s^{ \backslash j} \right\|^{2}=\frac{k-1}{k}$. 
+
+As $z_{i}^ {\backslash j}\sim \mathcal{N}(0,I_{d-1}-\theta s^{ \backslash j}(s^{ \backslash j})^\top)$ we have that  $\braket{ z^{\backslash j}_{i} , \beta ^{*} }\sim \mathcal{N}\left( 0,\left\| \beta ^{*}_{j} \right\|^{2}-\frac{\theta k}{2} \left\| s^{ \backslash j} \right\|^{4} \right)=\mathcal{N}\left( 0,\frac{k-1}{k}\frac{2}{k+1}\right)$ as $\left\| s^{ \backslash j} \right\|^{2}=\frac{k-1}{k}$.  $$\frac{k-1}{2}-\frac{(k-1)^{2}}{2(k+1)}=\frac{k-1}{2}\left( 1-\frac{k-1}{k+1} \right) =\frac{k-1}{k+1}$$
+
+Hence, $$\mathbb{P}\left( \left| \frac{1}{n} \left\| X\beta ^{*} \right\|^{2}-\sigma^{2} \right|\geq \frac{\sigma^{2}}{2}  \right) \leq \exp(-\Omega(n))$$
+
 
 ---
 #### Problem 3.7
