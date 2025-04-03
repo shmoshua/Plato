@@ -10,4 +10,9 @@ Then, $B-A=\begin{bmatrix}1&1\\1&1\end{bmatrix}\in S^2_{+}$ as it admits $0,2$ a
 ---
 #### Problem 2
 1. We have: $$\left( I+uv^\top \right) \left( I-\frac{uv^\top}{1+v^\top u} \right)=I+uv^\top -\frac{uv^\top+uv^\top uv^\top}{1+v^\top u} =I+uv^\top -\frac{(1+v^\top u)uv^\top}{1+v^\top u} =I$$
-2. 
+2. Notice that: $$\begin{aligned}(A+uv^\top)\left( A^{-1}-\frac{A^{-1}uv^\top A^{-1}}{1+v^\top A^{-1}u} \right)&=I+uv^\top A^{-1}-\frac{uv^\top A^{-1}+u(v^\top A^{-1}u)v^\top A^{-1}}{1+v^\top A^{-1}u}\\&=I+uv^\top A^{-1}-uv^\top A^{-1}\\&=I\end{aligned}$$
+
+---
+#### Problem 3
+Let $X\in \text{GL}(n,\mathbb{R})$. We have that: $$d_{X}f(uv^\top)=\left. \frac{ \partial  }{ \partial t }  \right|_{t=0}(X+tuv^\top)^{-1}=\left. \frac{ \partial  }{ \partial t }  \right| _{t=0}X ^{-1}-\frac{tX ^{-1}uv^\top X ^{-1}}{1+ t  v^\top A u} $$
+
