@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
+                "file": "Algebra/General Linear Group.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "General Linear Group"
             }
           },
           {
@@ -261,9 +261,9 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
+    "Algebra/General Linear Group.md",
     "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "Courses/Advanced Graph Algorithms/Problem Set 6.md",
-    "Algebra/General Linear Group.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Differential.md",

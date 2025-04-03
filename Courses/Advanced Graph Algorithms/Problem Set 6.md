@@ -14,5 +14,12 @@ Then, $B-A=\begin{bmatrix}1&1\\1&1\end{bmatrix}\in S^2_{+}$ as it admits $0,2$ a
 
 ---
 #### Problem 3
-Let $X\in \text{GL}(n,\mathbb{R})$. We have that: $$d_{X}f(uv^\top)=\left. \frac{ \partial  }{ \partial t }  \right|_{t=0}(X+tuv^\top)^{-1}=\left. \frac{ \partial  }{ \partial t }  \right| _{t=0}X ^{-1}-\frac{tX ^{-1}uv^\top X ^{-1}}{1+ t  v^\top A u} $$
+Let $X\in \text{GL}(n,\mathbb{R})$. We have that for any $u,v\in \mathbb{R}^n$, $$d_{X}f(uv^\top)=\left. \frac{ \partial  }{ \partial t }  \right|_{t=0}(X+tuv^\top)^{-1}=\left. \frac{ \partial  }{ \partial t }  \right| _{t=0}X ^{-1}-\frac{tX ^{-1}uv^\top X ^{-1}}{1+ t  v^\top A u}=-X ^{-1}uv^\top X ^{-1} $$where we may use that $X+tuv^\top$ is invertible for small $t$ as $\text{GL}(n,\mathbb{R})$ is open in $\text{Mat}_{n,n}(\mathbb{R})$ as $\text{GL}(n,\mathbb{R})= \det ^{-1}(\mathbb{R} \backslash \{ 0 \})$.
+
+Hence, for any $Y$, let $Y=\sum_{i=1}^{n}\sigma_{i}u_{i}v_{i}^\top$ be the SVD. Using the linearity of differentials, we have: $$d_{X}f(Y)=\sum_{i=1}^{n}\sigma_{i}d_{X}f(u_{i}v_{i}^\top)=-X ^{-1}Y X ^{-1}$$
+
+---
+#### Problem 4
+1. As $0\preceq \Delta$, we have that $A\preceq A+\Delta$. Further, we have that $A+\Delta\in S^n_{++}$ as $A\in S^n_{++}$. Indeed, $$z^\top(A+\Delta)z=z^\top Az+z^\top \Delta z> 0,\quad \forall z\in \mathbb{R}^n$$Therefore, by Problem 1.2, $(A+\Delta)^{-1}\preceq A^{-1}$.
+2. 
 
