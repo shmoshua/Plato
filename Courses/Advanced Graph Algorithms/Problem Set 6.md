@@ -21,5 +21,9 @@ Hence, for any $Y$, let $Y=\sum_{i=1}^{n}\sigma_{i}u_{i}v_{i}^\top$ be the SVD. 
 ---
 #### Problem 4
 1. As $0\preceq \Delta$, we have that $A\preceq A+\Delta$. Further, we have that $A+\Delta\in S^n_{++}$ as $A\in S^n_{++}$. Indeed, $$z^\top(A+\Delta)z=z^\top Az+z^\top \Delta z> 0,\quad \forall z\in \mathbb{R}^n$$Therefore, by Problem 1.2, $(A+\Delta)^{-1}\preceq A^{-1}$.
-2. 
+2. We now have that: $$\begin{aligned}d^{2}_{X}f(Y,Y)&=\left. \frac{ \partial  }{ \partial t }  \right|_{t=0}d_{X+tY}f(Y)\\&=-\left. \frac{ \partial  }{ \partial t }  \right|_{t=0}(X+tY)^{-1} Y (X+tY)^{-1}\\&=-\left( \left. \frac{ \partial  }{ \partial t }  \right|_{t=0}(X+tY)^{-1} \right) Y X^{-1}-X^{-1} Y \left( \left. \frac{ \partial  }{ \partial t }  \right|_{t=0}(X+tY)^{-1} \right)\\&=2X ^{-1}YX ^{-1}YX ^{-1}\end{aligned} $$which is positive semi-definite for all $Y\in S^n$ and $X\in  S^n_{++}$ by taking $y:= \sqrt{ 2 }YX ^{-1}x$ for all $x\in \mathbb{R}^n$.
+   
+   Now, let $v\in \mathbb{R}^n$ and define $$\phi:T\to X,\quad X\mapsto v^\top f(X)v$$Then, $$d^2_{X}\phi(Y,Y)=v^\top d^2_{X}f(Y,Y)v^\top\geq 0,\quad \forall X\in S^n_{++},Y\in S^n$$Hence, $\phi$ is a convex function and as $v$ is arbitrary, $f$ is a convex operator.
+
+---
 

@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
+                "file": "Analysis/Convex Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 5"
+              "title": "Convex Function"
             }
           }
         ]
@@ -261,10 +261,11 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Algebra/General Linear Group.md",
-    "Courses/Algorithms for Data Science/Special Assignment 1.md",
+    "Analysis/Convex Function.md",
     "Courses/Advanced Graph Algorithms/Problem Set 6.md",
+    "Algebra/General Linear Group.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
+    "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Differential.md",
     "Linear Algebra/Matrix Calculus.md",
@@ -286,7 +287,6 @@
     "Functional Analysis/Normed Module.md",
     "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Graph Theory/Problem Set 4.md",
-    "Courses/Graph Theory/Problem Set 3.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
