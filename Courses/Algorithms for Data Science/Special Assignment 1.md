@@ -44,6 +44,12 @@ Further, for the same reasoning as above, $y_{i}=w_{i}(j)+(X^\top \beta ^{*}_{j}
 
 We have: $$\left\| X(\widehat{\beta}-\beta ^{*}) \right\|^{2}=\left\| X\widehat{\beta} \right\| ^{2}-2(\widehat{\beta})^\top X^\top X\beta ^{*}+\left\| X\beta ^{*} \right\| ^{2} $$
 
+$$\left\| X(\widehat{\beta}-\beta ^{*}) \right\| ^{2}\leq 2\left\| X\widehat{\beta} \right\| ^{2}+2\left\| X\beta ^{*} \right\| ^{2}$$
+
+Notice that: $$\left\| X\beta ^{*} \right\| ^{2}=(\beta ^{*})^\top  X^\top X \beta ^{*}=\frac{k}{4} (s^{ \backslash j})^\top X^\top X s^{ \backslash j}=\frac{k}{4}\sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , s^{ \backslash j} } $$Then, $$\frac{k}{4}\sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , s^{ \backslash j} }\leq \frac{k}{4}\sum_{i\in[n]}^{}\left\| z_{i}^{ \backslash j} \right\| \left\| s^ {\backslash j} \right\|= \frac{k}{4}\sum_{i\in[n]}^{}\left\| z_{i}^{ \backslash j} \right\|  $$
+
+$$\mathbb{P}\left( \sum_{k\neq j}^{}z_{i}(k)^{2} \right) $$
+
 ---
 #### Problem 3.7
 Let $j\in[d]$. Then, the algorithm for iteration $j$ is wrong if:

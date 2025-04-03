@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 7"
+              "title": "Special Assignment 1"
             }
           },
           {
@@ -114,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -259,15 +259,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c313c3839a5fbb07",
+  "active": "e7d871f6735e72de",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+    "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Probability Theory/Expected Value.md",
     "Courses/Probability Theory/Exercise Class 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
