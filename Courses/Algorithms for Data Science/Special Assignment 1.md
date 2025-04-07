@@ -60,6 +60,10 @@ As $z_{i}^ {\backslash j}\sim \mathcal{N}(0,I_{d-1}-\theta s^{ \backslash j}(s^{
 
 Hence, $$\mathbb{P}\left( \left| \frac{1}{n} \left\| X\beta ^{*} \right\|^{2}-\sigma^{2} \right|\geq \frac{\sigma^{2}}{2}  \right) \leq \exp(-\Omega(n))$$
 
+---
+We have that: $$\begin{aligned}\left\| X\widehat{\beta} -y\right\|^{2}_{2}&=\left\| X(\widehat{\beta}-\beta ^{*} )\right\|^{2}_{2}+2\braket{ X(\widehat{\beta}-\beta ^{*}) , X\beta ^{*}-y }+\left\| X\beta ^{*}-y \right\| ^{2}_{2}\\ &=\left\| X\widehat{\beta}\right\|^{2}_{2}-2\braket{ X\widehat{\beta} , X\beta ^{*} } +\left\| X\beta ^{*} \right\| ^{2}_{2}+2\braket{ X(\widehat{\beta}-\beta ^{*}) , X\beta ^{*}-y }+\left\| X\beta ^{*}-y \right\| ^{2}_{2} \end{aligned}  $$
+
+$$\begin{aligned}\left\| X\widehat{\beta}-y \right\|^{2}_{2} &\leq \left\| X\beta ^{*}-y \right\| ^{2}_{2}\\&=\left\| X(\beta ^{*}-\widehat{\beta}) \right\| ^{2}_{2}+2\braket{ X(\beta ^{*}-\widehat{\beta}) , X\widehat{\beta}-y } +\left\| X\widehat{\beta}-y \right\| ^{2}_{2}\end{aligned}$$Hence, $$0\leq \left\| X(\beta ^{*}-\widehat{\beta}) \right\| ^{2}_{2}+2\braket{ X(\beta ^{*}-\widehat{\beta}) , X\widehat{\beta}-y }= \left\| X(\beta ^{*}-\widehat{\beta}) \right\| ^{2}_{2}+2\beta ^{*}X^\top X \widehat{\beta}y-2\left\| X\beta \right\| \braket{ X(\beta ^{*}-\widehat{\beta}) , X\widehat{\beta}-y }$$
 
 ---
 #### Problem 3.7
@@ -71,3 +75,4 @@ We have that both cases happen with probability at most $d^{-5}$. Hence,
 $$\mathbb{P}(S\neq S^{*})\leq \mathbb{P}( \exists j:\text{Algorithm is wrong on }j)\leq d^{-4}$$
 
 ---
+Notice that: $$\left\| X\widehat{\beta} \right\|^{2}_{2}= $$

@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 7.md",
+                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 7"
+              "title": "Special Assignment 1"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 7.md",
+                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 7"
+              "title": "Special Assignment 1"
             }
           },
           {
@@ -274,19 +274,19 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
+    "Probability Theory/Expected Value.md",
+    "Courses/Algorithms for Data Science/Special Assignment 1.md",
+    "Courses/Probability Theory/Exercise Class 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Analysis/Convex Function.md",
-    "Probability Theory/Expected Value.md",
     "Courses/Probability Theory/Exercise Class 6.md",
-    "Courses/Probability Theory/Exercise Class 7.md",
     "Measure Theory/Lebesgue Measure.md",
     "Measure Theory/Product Measure.md",
     "Measure Theory/Lebesgue Integral.md",
     "Algebra/General Linear Group.md",
     "Courses/Advanced Graph Algorithms/Problem Set 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
-    "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "Analysis/Lie Derivative.md",
     "Differential Geometry/Differential.md",
     "Linear Algebra/Matrix Calculus.md",
