@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
+                "file": "Courses/Probability Theory/Exercise Class 7.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Exercise Class 7"
             }
           },
           {
@@ -274,8 +274,8 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Probability Theory/Expected Value.md",
     "Courses/Algorithms for Data Science/Special Assignment 1.md",
+    "Probability Theory/Expected Value.md",
     "Courses/Probability Theory/Exercise Class 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
