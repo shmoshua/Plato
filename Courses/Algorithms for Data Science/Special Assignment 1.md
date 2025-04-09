@@ -77,7 +77,17 @@ $$\mathbb{P}(S\neq S^{*})\leq \mathbb{P}( \exists j:\text{Algorithm is wrong on 
 ---
 Let $w_{j}$ defined s.t. $w_{j}(i):= w_{j}$ given with $z_{i}^{ \backslash j}$. 
 
-Notice that: $$\left\| X\widehat{\beta} -y \right\| ^{2}_{2}=\left\| X\widehat{\beta} \right\| ^{2}_{2}-2\braket{ X\widehat{\beta} , y } +\left\| y \right\| ^{2}_{2},\quad \|w\|^{2}_{2}=\left\| X\beta ^{*}_{j} -y \right\| ^{2}_{2}=\left\| X\beta ^{*}_{j} \right\| ^{2}_{2}-2\braket{ X\beta ^{*}_{j}, y } +\left\| y \right\| ^{2}_{2}, $$Therefore, $$\begin{aligned}\left\| X\widehat{\beta} \right\|^{2} &=\left\| X\widehat{\beta}-y \right\| ^{2}+2\braket{ X\widehat{\beta} , y } -\left\| y \right\| ^{2}_{2}\\&=\left\| X\widehat{\beta}-y \right\| ^{2}-\|w\| ^{2}_{2}+\left\| X\beta ^{*}_{j} \right\| ^{2}-2\braket{ X(\beta ^{*}_{j}-\widehat{\beta}) , X\beta ^{*}+w } \\&=\left\| X\widehat{\beta}-y \right\| ^{2}-\|w\| ^{2}_{2}+\left\| X\beta ^{*}_{j} \right\| ^{2}-2\braket{ X(\beta ^{*}_{j}-\widehat{\beta}) , X\beta ^{*}+w } \end{aligned}$$
+Notice that: $$\left\| X\widehat{\beta} -y \right\| ^{2}_{2}=\left\| X\widehat{\beta} \right\| ^{2}_{2}-2\braket{ X\widehat{\beta} , y } +\left\| y \right\| ^{2}_{2},\quad \|w\|^{2}_{2}=\left\| X\beta ^{*}_{j} -y \right\| ^{2}_{2}=\left\| X\beta ^{*}_{j} \right\| ^{2}_{2}-2\braket{ X\beta ^{*}_{j}, y } +\left\| y \right\| ^{2}_{2}, $$Therefore, $$\begin{aligned}\left\| X\widehat{\beta} \right\|^{2} &=\left\| X\widehat{\beta}-y \right\| ^{2}+2\braket{ X\widehat{\beta} , y } -\left\| y \right\| ^{2}_{2}\\&=\left\| X\widehat{\beta}-y \right\| ^{2}-\|w\| ^{2}_{2}+\left\| X\beta ^{*}_{j} \right\| ^{2}-2\braket{ X(\beta ^{*}_{j}-\widehat{\beta}) , X\beta ^{*}+w } \\&\geq\left\| X\widehat{\beta}-y \right\| ^{2}-\frac{3n}{4}+\left\| X\beta ^{*}_{j} \right\| ^{2}-2\braket{ X(\beta ^{*}_{j}-\widehat{\beta}) , X\beta ^{*}+w } \end{aligned}$$
 
 We have that:
-$$\|w_{j}\|^2=\sum_{i\in[n]}^{}w_{j}(i)^{2}$$
+$$\|w_{j}\|^2=\sum_{i\in[n]}^{}w_{j}(i)^{2}$$where $w_{j}(i)\sim \mathcal{N}(0,\sigma^{2})$ with $$\sigma^{2}=1-\theta s_{j}^{2}-\theta b_{j}s_{j}(1-s^{2}_{j})= \frac{k}{k+1}-\frac{1}{2}\frac{k-1}{k+1}=\frac{1}{2}$$Therefore, $$\mathbb{P}\left( \left| \|w\|^{2}- \frac{n}{2}\right|  \geq \frac{n}{4} \right)=\mathbb{P}\left( \left| \frac{1}{n}\|w\|^{2}- \frac{1}{2}\right|  \geq \frac{1}{4} \right)\leq \exp(-\Omega(n))$$
+1. We have that $\frac{n}{4}\leq \|w\|^2\leq \frac{3n}{4}$. 
+
+
+2. We have that: $$\left| w^\top X\beta ^{*} \right| \leq \left\| \beta ^{*} \right\| _{1}\left\| X^\top w \right\| \leq $$
+   
+   We have that $\left\| X^\top w \right\|_{\infty}=\max_{i\in[d]}X_{i}^\top w\leq \sqrt{ n }\cdot O(\sqrt{ \log d })$.  $$\left\| X\beta ^{*} \right\|^2 -\left\| X\widehat{\beta} \right\|^2=\left\| X(\beta ^{*}-\widehat{\beta}) \right\|^{2}+2\braket{ X\beta ^{*} , X\widehat{\beta} }-2\left\| X\widehat{\beta} \right\| ^{2}   $$$$\left\| X(\beta ^{*}-\widehat{\beta}) \right\|^{2}+\left\| X\widehat{\beta} \right\| ^{2}=\left\| X\beta ^{*} \right\|^{2}-2\braket{ X\beta ^{*} , X\widehat{\beta} } +2\left\| X\widehat{\beta} \right\| ^{2} $$ 
+
+$$ \left\| X\widehat{\beta}-y \right\| ^{2}-\left\| y \right\| ^{2}=\left\| X\widehat{\beta} \right\| ^{2}-2\braket{ X\widehat{\beta} , y } =\left\| X\widehat{\beta} \right\| ^{2}-2\braket{ X\widehat{\beta} , X\beta ^{*}+w }  $$ 
+
+$$\left\| y \right\|^{2}-\left\| y-X\widehat{\beta} \right\| ^{2}=2\braket{ X\widehat{\beta} , X\beta ^{*}+w } -\left\| X\widehat{\beta} \right\| ^{2}$$
