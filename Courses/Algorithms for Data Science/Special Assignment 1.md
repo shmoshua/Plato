@@ -40,39 +40,10 @@ Firstly, as $j\notin S^{*}$, $s(j)=0$ and we have that $b_{j}=0$. Hence, $\beta 
 #### Problem 3.6
 Notice that we have: $$\left\| X\widehat{\beta} \right\| = \left\| X\beta ^{*}-X\beta ^{*}+X\widehat{\beta} \right\|\geq \left| \left\| X\beta ^{*} \right\| -\left\| X(\beta ^{*}-\widehat{\beta}) \right\|  \right|  $$Therefore, it suffices to show that $\left| \left\| X\beta ^{*} \right\|-\left\| X(\beta ^{*}-\widehat{\beta}) \right\| \right|\geq \sqrt{ \frac{n}{100} }$. 
 1. **Bounds on $\left\| X\beta ^{*} \right\|$**: 
-   We have that $\left\| X\beta ^{*} \right\|^{2}= \sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , \beta ^{*}_{j} } ^{2}$ where $\braket{ z_{i}^{ \backslash j} , \beta ^{*} }\sim \mathcal{N}(0,\left\| \beta ^{*}_{j} \right\|^{2}-\theta \braket{ s^{ \backslash j} ,  \beta^{*}_{j}}^{2})$. As $j\in S^{*}$, $$b_{j}=\frac{\theta s(j)}{1-\theta\left( \frac{k-1}{k} \right)}= \frac{k}{2}s(j)$$Hence, the variance of $\braket{ z_{i}^{\backslash j} , \beta ^{*}_{j} }$ is given by: $$\sigma^{2}:=\frac{k^{2}}{4}\cdot \frac{k-1}{k}- \frac{k}{k+1}\cdot \frac{k^{2}}{4}\cdot \left( \frac{k-1}{k} \right) ^{2}=\left( \frac{k-1}{4} \right)\left(  \right)  $$
+   We have that $\left\| X\beta ^{*} \right\|^{2}= \sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , \beta ^{*}_{j} } ^{2}$ where $\braket{ z_{i}^{ \backslash j} , \beta ^{*} }\sim \mathcal{N}(0,\left\| \beta ^{*}_{j} \right\|^{2}-\theta \braket{ s^{ \backslash j} ,  \beta^{*}_{j}}^{2})$. As $j\in S^{*}$, $$b_{j}=\frac{\theta s(j)}{1-\theta\left( \frac{k-1}{k} \right)}= \frac{k}{2}s(j)\in \left\{  \pm \frac{\sqrt{ k }}{2}  \right\}$$Hence, the variance of $\braket{ z_{i}^{\backslash j} , \beta ^{*}_{j} }$ is given by: $$\sigma^{2}:=\frac{k}{4}\cdot \frac{k-1}{k}- \frac{k}{k+1}\cdot \frac{k}{4}\cdot \left( \frac{k-1}{k} \right) ^{2}=\frac{k-1}{4} \frac{2}{k+1}  =\frac{k-1}{2(k+1)} $$As $z_{1}^{\backslash j},\dots,z_{n}^{\backslash j}$ are i.i.d so are $\braket{ z_{1}^{ \backslash j} , \beta ^{*}_{j} },\dots,\braket{ z_{n}^{ \backslash j} , \beta ^{*}_{j} }$ and therefore using the $\chi^{2}$-tail bound, with probability at least $1-\exp(-\Omega(n))$, $$\left\| X\beta ^{*} \right\| ^{2}\geq \frac{\sigma^{2}}{2}\cdot n=\frac{n}{4}\frac{k-1}{k+1}$$
+2. **Bounds on $\left\| X(\beta ^{*}-\widehat{\beta}) \right\|$**:
+   We check the conditions for part 1. We have that $w(1),\dots,w(n)$ are i.i.d with $\sigma^{2}\leq 1$. Further, $$\left\| \beta ^{*}_{j} \right\| _{1}=\sum_{k\neq j}^{}\left| b_{j} \right| \left| s(k) \right| =\frac{\sqrt{ k }}{2}\cdot (k-1)\cdot \frac{1}{\sqrt{ k }}=\frac{k-1}{2}\leq k$$Now, from part 4, with probability at least $1-d \cdot \exp(-\Omega(n))$ all columns of $Z$ hence thereby of $X$ have norm at most $2\sqrt{ n }$. Hence, by part 1 and union bound, we have that: $$\left\| X(\beta ^{*}_{j}-\widehat{\beta}) \right\|^{2}\leq k\sqrt{ n }\cdot O(\sqrt{ \log d })\leq \sqrt{ n }\cdot ck\sqrt{  \log d } $$with probability at least $1-d \cdot \exp(-\Omega(n))-d^{-10}$. 
    
- where $\left\| \beta ^{*}_{j} \right\|^{2}-\theta \braket{ s^{ \backslash j} ,  \beta^{*}_{j}}^{2}=\frac{k-1}{2}-\frac{k}{k+1}$ where: $$\braket{ s^{\backslash j} , \beta ^{*}_{j} }^{2}=\left( \sum_{k\neq j}^{} s_{k}b_{j}s_{k} \right)^{2}=  \frac{k}{2}\cdot \frac{k-1}{k}\cdot \frac{k-1}{k}$$Hence, $$\left\| \beta ^{*}_{j} \right\|^{2}-\theta \braket{ s^{ \backslash j} ,  \beta^{*}_{j}}^{2}= \frac{k-1}{k+1}$$
-
-
----
-As $j\in S^{*}$, $s_{j}\in \left\{  \pm \frac{1}{\sqrt{ k }}  \right\}$ and we have that: $$b_{j}=\frac{\theta s_{j}}{1-\theta\left( \frac{k-1}{k} \right)}=\frac{\theta s_{j}}{1-\frac{k-1}{k+1}}=\left( \frac{k+1}{2} \right)\theta s_{j}=\frac{k}{2}s_{j}\in \left\{ \pm \frac{\sqrt{ k }}{2}  \right\}$$Hence, $$\left\| \beta ^{*} _{j}\right\|_{1} =\sum_{k\neq j}^{}\left| b_{j} \right| \left| s_{k} \right| \leq(k-1)\cdot \frac{\sqrt{ k }}{2}\cdot \frac{1}{\sqrt{ k }}=\frac{k-1}{2}\leq k $$
-
-Further, for the same reasoning as above, $y_{i}=w_{i}(j)+(X^\top \beta ^{*}_{j})_{i}$ for all $i\in [n]$ where $w_{i}(j)\sim \mathcal{N}(0,\sigma^{2})$ with $\sigma^{2}=(1-\theta s_{j}b_{j})(1-s_{j}^{2})\leq 1$ as constant over all $i\in[n]$. Now, $$\beta ^{*}_{j}=$$
-
-We have: $$\left\| \beta ^{*}_{j} \right\| ^{2}_{2}=\sum_{\ell\neq j}^{}b_{j}^{2} s_{k}^{2}=\frac{k}{2}(k-1) \frac{1}{k}= \frac{k-1}{2}$$
-
-We have: $$\left\| X(\widehat{\beta}-\beta ^{*}) \right\|^{2}=\left\| X\widehat{\beta} \right\| ^{2}-2(\widehat{\beta})^\top X^\top X\beta ^{*}+\left\| X\beta ^{*} \right\| ^{2} $$
-
-Further, 
-
-$$\left\| X(\widehat{\beta}-\beta ^{*}) \right\| ^{2}\leq 2\left\| X\widehat{\beta} \right\| ^{2}+2\left\| X\beta ^{*} \right\| ^{2}$$
-
-Notice that: $$\left\| X\beta ^{*} \right\| ^{2}=(\beta ^{*})^\top  X^\top X \beta ^{*}=\frac{k}{4} (s^{ \backslash j})^\top X^\top X s^{ \backslash j}=\frac{k}{4}\sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , s^{ \backslash j} }^{2} $$Then, $$\frac{k}{4}\sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , s^{ \backslash j} }\leq \frac{k}{4}\sum_{i\in[n]}^{}\left\| z_{i}^{ \backslash j} \right\| \left\| s^ {\backslash j} \right\|= \frac{k}{4}\sum_{i\in[n]}^{}\left\| z_{i}^{ \backslash j} \right\|sr  $$
-
-$$\left\| X\beta ^{*} \right\| ^{2}=\sum_{i\in[n]}^{}\braket{ z^{\backslash j}_{i} , s^{ \backslash j} } ^{2}$$
-
-As $z_{i}^ {\backslash j}\sim \mathcal{N}(0,I_{d-1}-\theta s^{ \backslash j}(s^{ \backslash j})^\top)$ we have that  $\braket{ z^{\backslash j}_{i} , s^{ \backslash j} }\sim \mathcal{N}(0,\left\| s^{ \backslash j} \right\|^{2}-\theta \left\| s^{ \backslash j} \right\|^{4})=\mathcal{N}\left( 0,\frac{k-1}{k}\frac{2}{k+1}\right)$ as $\left\| s^{ \backslash j} \right\|^{2}=\frac{k-1}{k}$. 
-
-As $z_{i}^ {\backslash j}\sim \mathcal{N}(0,I_{d-1}-\theta s^{ \backslash j}(s^{ \backslash j})^\top)$ we have that  $\braket{ z^{\backslash j}_{i} , \beta ^{*} }\sim \mathcal{N}\left( 0,\left\| \beta ^{*}_{j} \right\|^{2}-\frac{\theta k}{2} \left\| s^{ \backslash j} \right\|^{4} \right)=\mathcal{N}\left( 0,\frac{k-1}{k}\frac{2}{k+1}\right)$ as $\left\| s^{ \backslash j} \right\|^{2}=\frac{k-1}{k}$.  $$\frac{k-1}{2}-\frac{(k-1)^{2}}{2(k+1)}=\frac{k-1}{2}\left( 1-\frac{k-1}{k+1} \right) =\frac{k-1}{k+1}$$
-
-Hence, $$\mathbb{P}\left( \left| \frac{1}{n} \left\| X\beta ^{*} \right\|^{2}-\sigma^{2} \right|\geq \frac{\sigma^{2}}{2}  \right) \leq \exp(-\Omega(n))$$
-
----
-We have that: $$\begin{aligned}\left\| X\widehat{\beta} -y\right\|^{2}_{2}&=\left\| X(\widehat{\beta}-\beta ^{*} )\right\|^{2}_{2}+2\braket{ X(\widehat{\beta}-\beta ^{*}) , X\beta ^{*}-y }+\left\| X\beta ^{*}-y \right\| ^{2}_{2}\\ &=\left\| X\widehat{\beta}\right\|^{2}_{2}-2\braket{ X\widehat{\beta} , X\beta ^{*} } +\left\| X\beta ^{*} \right\| ^{2}_{2}+2\braket{ X(\widehat{\beta}-\beta ^{*}) , X\beta ^{*}-y }+\left\| X\beta ^{*}-y \right\| ^{2}_{2} \end{aligned}  $$
-
-$$\begin{aligned}\left\| X\widehat{\beta}-y \right\|^{2}_{2} &\leq \left\| X\beta ^{*}-y \right\| ^{2}_{2}\\&=\left\| X(\beta ^{*}-\widehat{\beta}) \right\| ^{2}_{2}+2\braket{ X(\beta ^{*}-\widehat{\beta}) , X\widehat{\beta}-y } +\left\| X\widehat{\beta}-y \right\| ^{2}_{2}\end{aligned}$$Hence, $$0\leq \left\| X(\beta ^{*}-\widehat{\beta}) \right\| ^{2}_{2}+2\braket{ X(\beta ^{*}-\widehat{\beta}) , X\widehat{\beta}-y }= \left\| X(\beta ^{*}-\widehat{\beta}) \right\| ^{2}_{2}+2\beta ^{*}X^\top X \widehat{\beta}y-2\left\| X\beta \right\| \braket{ X(\beta ^{*}-\widehat{\beta}) , X\widehat{\beta}-y }$$
-
 ---
 #### Problem 3.7
 Let $j\in[d]$. Then, the algorithm for iteration $j$ is wrong if:
@@ -83,45 +54,3 @@ We have that both cases happen with probability at most $d^{-5}$. Hence,
 $$\mathbb{P}(S\neq S^{*})\leq \mathbb{P}( \exists j:\text{Algorithm is wrong on }j)\leq d^{-4}$$
 
 ---
-Let $w_{j}$ defined s.t. $w_{j}(i):= w_{j}$ given with $z_{i}^{ \backslash j}$. 
-
-Notice that: $$\left\| X\widehat{\beta} -y \right\| ^{2}_{2}=\left\| X\widehat{\beta} \right\| ^{2}_{2}-2\braket{ X\widehat{\beta} , y } +\left\| y \right\| ^{2}_{2},\quad \|w\|^{2}_{2}=\left\| X\beta ^{*}_{j} -y \right\| ^{2}_{2}=\left\| X\beta ^{*}_{j} \right\| ^{2}_{2}-2\braket{ X\beta ^{*}_{j}, y } +\left\| y \right\| ^{2}_{2}, $$Therefore, $$\begin{aligned}\left\| X\widehat{\beta} \right\|^{2} &=\left\| X\widehat{\beta}-y \right\| ^{2}+2\braket{ X\widehat{\beta} , y } -\left\| y \right\| ^{2}_{2}\\&=\left\| X\widehat{\beta}-y \right\| ^{2}-\|w\| ^{2}_{2}+\left\| X\beta ^{*}_{j} \right\| ^{2}-2\braket{ X(\beta ^{*}_{j}-\widehat{\beta}) , X\beta ^{*}+w } \\&\geq\left\| X\widehat{\beta}-y \right\| ^{2}-\frac{3n}{4}+\left\| X\beta ^{*}_{j} \right\| ^{2}-2\braket{ X(\beta ^{*}_{j}-\widehat{\beta}) , X\beta ^{*}+w } \end{aligned}$$
-
-We have that:
-$$\|w_{j}\|^2=\sum_{i\in[n]}^{}w_{j}(i)^{2}$$where $w_{j}(i)\sim \mathcal{N}(0,\sigma^{2})$ with $$\sigma^{2}=1-\theta s_{j}^{2}-\theta b_{j}s_{j}(1-s^{2}_{j})= \frac{k}{k+1}-\frac{1}{2}\frac{k-1}{k+1}=\frac{1}{2}$$Therefore, $$\mathbb{P}\left( \left| \|w\|^{2}- \frac{n}{2}\right|  \geq \frac{n}{4} \right)=\mathbb{P}\left( \left| \frac{1}{n}\|w\|^{2}- \frac{1}{2}\right|  \geq \frac{1}{4} \right)\leq \exp(-\Omega(n))$$
-1. We have that $\frac{n}{4}\leq \|w\|^2\leq \frac{3n}{4}$. 
-
-
-2. We have that: $$\left| w^\top X\beta ^{*} \right| \leq \left\| \beta ^{*} \right\| _{1}\left\| X^\top w \right\| \leq $$
-   
-   We have that $\left\| X^\top w \right\|_{\infty}=\max_{i\in[d]}X_{i}^\top w\leq \sqrt{ n }\cdot O(\sqrt{ \log d })$.  $$\left\| X\beta ^{*} \right\|^2 -\left\| X\widehat{\beta} \right\|^2=\left\| X(\beta ^{*}-\widehat{\beta}) \right\|^{2}+2\braket{ X\beta ^{*} , X\widehat{\beta} }-2\left\| X\widehat{\beta} \right\| ^{2}   $$$$\left\| X(\beta ^{*}-\widehat{\beta}) \right\|^{2}+\left\| X\widehat{\beta} \right\| ^{2}=\left\| X\beta ^{*} \right\|^{2}-2\braket{ X\beta ^{*} , X\widehat{\beta} } +2\left\| X\widehat{\beta} \right\| ^{2} $$ 
-
-$$ \left\| X\widehat{\beta}-y \right\| ^{2}-\left\| y \right\| ^{2}=\left\| X\widehat{\beta} \right\| ^{2}-2\braket{ X\widehat{\beta} , y } =\left\| X\widehat{\beta} \right\| ^{2}-2\braket{ X\widehat{\beta} , X\beta ^{*}+w }  $$ 
-
-$$\left\| y \right\|^{2}-\left\| y-X\widehat{\beta} \right\| ^{2}=2\braket{ X\widehat{\beta} , X\beta ^{*}+w } -\left\| X\widehat{\beta} \right\| ^{2}$$ 
-
-$$\begin{aligned}\|w\|^{2}&=\left\| X\beta ^{*}-y \right\|^{2}\\&=\left\| X\beta ^{*}-X\widehat{\beta}+X\widehat{\beta}-y \right\| ^{2}\\&=\left\| X(\beta ^{*}-\widehat{\beta}) \right\| ^{2}+2\braket{ X(\beta ^{*}-\widehat{\beta}) , X\widehat{\beta}-y } + \left\| X\widehat{\beta}-y \right\| ^{2}\\&=\left\| X(\beta ^{*}-\widehat{\beta}) \right\| ^{2}+2\braket{ X\beta ^{*} , X\widehat{\beta} } -2\braket{ X(\beta ^{*}-\widehat{\beta}) , y }+2\left\| X\widehat{\beta} \right\| ^{2}  + \left\| X\widehat{\beta}-y \right\| ^{2}\\&\leq\left\| X(\beta ^{*}-\widehat{\beta}) \right\| ^{2}-2\braket{ X\beta ^{*} , X\widehat{\beta} } +2\braket{ X(\beta ^{*}-\widehat{\beta}) , y }+2\left\| X\widehat{\beta} \right\| ^{2}  + \|w\| ^{2}\\&\leq\left\| X(\beta ^{*}-\widehat{\beta}) \right\| ^{2}-2\braket{ X\beta ^{*} , X\widehat{\beta} } +2\braket{ X(\beta ^{*}-\widehat{\beta}) , X\beta ^{*}+w }+2\left\| X\widehat{\beta} \right\| ^{2}  + \|w\| ^{2}\end{aligned}$$
-
-2.hihi
-$$ \begin{aligned}\left\| y-X\widehat{\beta} \right\| ^{2}\leq\|w\|^{2}&=\|y-X\beta ^{*}\|^{2}\\&=\left\| y-X\widehat{\beta}+X(\widehat{\beta}-\beta ^{*}) \right\|^{2}\\&=\left\| y-X\widehat{\beta} \right\| ^{2}+2\braket{ y-X\widehat{\beta} , X(\widehat{\beta}-\beta ^{*}) } +\left\| X(\widehat{\beta}-\beta ^{*}) \right\| ^{2}\\&=\left\| y-X\widehat{\beta} \right\| ^{2}+2\braket{ y-X\widehat{\beta} , X(\widehat{\beta}-\beta ^{*}) } +\left\| X(\widehat{\beta}-\beta ^{*}) \right\| ^{2}\\&=\left\| y-X\widehat{\beta} \right\| ^{2}+2\braket{ y , X(\widehat{\beta}-\beta ^{*}) } -\braket{ y-X\widehat{\beta} , X(\widehat{\beta}-\beta ^{*}) } +\left\| X(\widehat{\beta}-\beta ^{*}) \right\| ^{2} \end{aligned}$$
-
-Hence, $$\begin{aligned}\left\|  \right\| \left\| X\widehat{\beta} \right\|^{2}&\geq \braket{ X\beta ^{*} , X\widehat{\beta} } - \frac{1}{2}\left\| X(\beta ^{*}-\widehat{\beta}) \right\|^{2}-\braket{ X(\beta ^{*}-\widehat{\beta}) , y }\\&\geq \braket{ X\beta ^{*} , X\widehat{\beta} } - \frac{1}{2} k\sqrt{ n } O( \sqrt{ \log d })-\braket{ X(\beta ^{*}-\widehat{\beta}) , y } \end{aligned}  $$
-
-$$\begin{aligned}\left\| X\widehat{\beta} \right\|^{2}&\geq \braket{ X\beta ^{*} , X\widehat{\beta} } - \frac{1}{2}\left\| X(\beta ^{*}-\widehat{\beta}) \right\|^{2}-\braket{ X(\beta ^{*}-\widehat{\beta}) , y }\\&= \braket{ X\beta ^{*} , X\widehat{\beta} } - \frac{1}{2}\left\| X(\beta ^{*}-\widehat{\beta}) \right\|^{2}-\braket{ X(\beta ^{*}-\widehat{\beta}) , X\beta ^{*} }-\braket{ X(\beta ^{*}-\widehat{\beta}) , w }\end{aligned}  $$
-
----
-Hehehe
- $$\left\| X\widehat{\beta}-y \right\|^{2}=\left\| X\widehat{\beta} \right\| ^{2}-2\braket{ X\widehat{\beta} , X\beta ^{*} } -2\braket{ X\widehat{\beta} , w } +\left\| y \right\| ^{2}=\left\| X(\widehat{\beta}-\beta ^{*}) \right\| ^{2}-\left\| X\beta ^{*} \right\| ^{2}-2\braket{ X\widehat{\beta} , w } +\left\| y \right\| ^{2}$$ $$\left\| X\beta ^{*}-y \right\| ^{2}=\left\| X\beta ^{*} \right\| ^{2}-2\braket{ X\beta ^{*}, y } +\left\| y \right\| ^{2}$$
-
-$$\left\| X\widehat{\beta}-y \right\| ^{2}=\left\| X\widehat{\beta}-X\beta ^{*}-w \right\| ^{2}=\left\| X(\widehat{\beta}-\beta ^{*}) \right\| ^{2}-2\braket{ X(\widehat{\beta}-\beta ^{*}) , w }+\|w\|^{2}$$$$\begin{aligned}\left\| X\widehat{\beta}-y \right\| ^{2}&=\left\| X\widehat{\beta} \right\| ^{2}-2\braket{ X\widehat{\beta} , X\beta ^{*} } -2\braket{ X\widehat{\beta} , w } +\left\| y \right\| ^{2}\\&=\left\| X\widehat{\beta} \right\| ^{2}-2\braket{ X\widehat{\beta} , X\beta ^{*} } -2\braket{ X\widehat{\beta} , w } +\left\| X\beta ^{*} \right\|^{2} +2\braket{ X\beta ^{*} ,  w}+\|w\|^{2}\end{aligned}$$
-
-
-Hence, $$\begin{aligned}\left\| X\widehat{\beta} \right\| ^{2}&=\left\| X(\widehat{\beta}-\beta ^{*}) \right\|^{2}-2\braket{ X(\widehat{\beta}-\beta ^{*}) , w } +\|w\|^{2}+2\braket{ X\widehat{\beta} , X\beta ^{*} } +2\braket{ X\widehat{\beta} , w } -\left\| y \right\| ^{2}\\&=\left\| X(\widehat{\beta}-\beta ^{*}) \right\|^{2}+2\braket{ X\beta ^{*} , w } +\|w\|^{2}+2\braket{ X\widehat{\beta} , X\beta ^{*} }  -\left\| y \right\| ^{2}\end{aligned} $$
-
-1. $\left\| y \right\|^{2}\leq 4n$
-
-$$\begin{aligned}\left\| X\widehat{\beta} \right\|^{2}&=\left\| X\widehat{\beta}-X\beta ^{*}+X\beta ^{*} \right\| ^{2}\\&=\left\| X(\widehat{\beta}-\beta ^{*}) \right\|^{2}+2\braket{ X(\widehat{\beta}-\beta ^{*}) , X\beta ^{*} } +\left\| X\beta ^{*} \right\| ^{2}  \\&=\left\| X(\widehat{\beta}-\beta ^{*}) \right\|^{2}+2\braket{ X(\widehat{\beta}-\beta ^{*}) , X\beta ^{*} } +\left\| X\beta ^{*} \right\| ^{2}  \end{aligned}$$
-
-
-1. **Bounds on $\left\| X\beta ^{*} \right\|^{2}$.**
-	We have that: $$\begin{aligned}\left\| X\beta ^{*} \right\|^{2}= \sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , \beta ^{*} } ^{2} \end{aligned}$$Then, $\braket{ z_{i}^{ \backslash j} , \beta ^{*} }\sim \mathcal{N}(0,\left\| \beta ^{*}_{j} \right\|^{2}-\theta \braket{ s^{ \backslash j} ,  b^{*}_{j}}^{2})$ where $\left\| \beta ^{*}_{j} \right\|^{2}-\theta \braket{ s^{ \backslash j} ,  \beta^{*}_{j}}^{2}=\frac{k-1}{2}-\frac{k}{k+1}$ where: $$\braket{ s^{\backslash j} , \beta ^{*}_{j} }^{2}=\left( \sum_{k\neq j}^{} s_{k}b_{j}s_{k} \right)^{2}=  \frac{k}{2}\cdot \frac{k-1}{k}\cdot \frac{k-1}{k}$$Hence, $$\left\| \beta ^{*}_{j} \right\|^{2}-\theta \braket{ s^{ \backslash j} ,  \beta^{*}_{j}}^{2}= \frac{k-1}{k+1}$$
