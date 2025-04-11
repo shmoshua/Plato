@@ -38,6 +38,14 @@ Firstly, as $j\notin S^{*}$, $s(j)=0$ and we have that $b_{j}=0$. Hence, $\beta 
 
 ---
 #### Problem 3.6
+Notice that we have: $$\left\| X\widehat{\beta} \right\| = \left\| X\beta ^{*}-X\beta ^{*}+X\widehat{\beta} \right\|\geq \left| \left\| X\beta ^{*} \right\| -\left\| X(\beta ^{*}-\widehat{\beta}) \right\|  \right|  $$Therefore, it suffices to show that $\left| \left\| X\beta ^{*} \right\|-\left\| X(\beta ^{*}-\widehat{\beta}) \right\| \right|\geq \sqrt{ \frac{n}{100} }$. 
+1. **Bounds on $\left\| X\beta ^{*} \right\|$**: 
+   We have that $\left\| X\beta ^{*} \right\|^{2}= \sum_{i\in[n]}^{}\braket{ z_{i}^{ \backslash j} , \beta ^{*}_{j} } ^{2}$ where $\braket{ z_{i}^{ \backslash j} , \beta ^{*} }\sim \mathcal{N}(0,\left\| \beta ^{*}_{j} \right\|^{2}-\theta \braket{ s^{ \backslash j} ,  \beta^{*}_{j}}^{2})$. As $j\in S^{*}$, $$b_{j}=\frac{\theta s(j)}{1-\theta\left( \frac{k-1}{k} \right)}= \frac{k}{2}s(j)$$Hence, the variance of $\braket{ z_{i}^{\backslash j} , \beta ^{*}_{j} }$ is given by: $$\sigma^{2}:=\frac{k^{2}}{4}\cdot \frac{k-1}{k}- \frac{k}{k+1}\cdot \frac{k^{2}}{4}\cdot \left( \frac{k-1}{k} \right) ^{2}=\left( \frac{k-1}{4} \right)\left(  \right)  $$
+   
+ where $\left\| \beta ^{*}_{j} \right\|^{2}-\theta \braket{ s^{ \backslash j} ,  \beta^{*}_{j}}^{2}=\frac{k-1}{2}-\frac{k}{k+1}$ where: $$\braket{ s^{\backslash j} , \beta ^{*}_{j} }^{2}=\left( \sum_{k\neq j}^{} s_{k}b_{j}s_{k} \right)^{2}=  \frac{k}{2}\cdot \frac{k-1}{k}\cdot \frac{k-1}{k}$$Hence, $$\left\| \beta ^{*}_{j} \right\|^{2}-\theta \braket{ s^{ \backslash j} ,  \beta^{*}_{j}}^{2}= \frac{k-1}{k+1}$$
+
+
+---
 As $j\in S^{*}$, $s_{j}\in \left\{  \pm \frac{1}{\sqrt{ k }}  \right\}$ and we have that: $$b_{j}=\frac{\theta s_{j}}{1-\theta\left( \frac{k-1}{k} \right)}=\frac{\theta s_{j}}{1-\frac{k-1}{k+1}}=\left( \frac{k+1}{2} \right)\theta s_{j}=\frac{k}{2}s_{j}\in \left\{ \pm \frac{\sqrt{ k }}{2}  \right\}$$Hence, $$\left\| \beta ^{*} _{j}\right\|_{1} =\sum_{k\neq j}^{}\left| b_{j} \right| \left| s_{k} \right| \leq(k-1)\cdot \frac{\sqrt{ k }}{2}\cdot \frac{1}{\sqrt{ k }}=\frac{k-1}{2}\leq k $$
 
 Further, for the same reasoning as above, $y_{i}=w_{i}(j)+(X^\top \beta ^{*}_{j})_{i}$ for all $i\in [n]$ where $w_{i}(j)\sim \mathcal{N}(0,\sigma^{2})$ with $\sigma^{2}=(1-\theta s_{j}b_{j})(1-s_{j}^{2})\leq 1$ as constant over all $i\in[n]$. Now, $$\beta ^{*}_{j}=$$
