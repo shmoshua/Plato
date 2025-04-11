@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Exercise Sheet 7"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Exercise Sheet 7"
             }
           },
           {
@@ -272,10 +272,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e7d871f6735e72de",
+  "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
-    "Untitled.md",
     "Courses/Algorithms for Data Science/Special Assignment 1.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+    "Untitled.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
@@ -295,7 +296,6 @@
     "Differential Geometry/Differential.md",
     "Linear Algebra/Matrix Calculus.md",
     "Functional Analysis/RKHS.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Independence.md",

@@ -9,10 +9,19 @@
 
 ---
 #### Problem 2
-1. Notice that: $$\braket{ x^{>\tau} , Ay^{\leq \tau} } =\sum_{k,\ell\in[n]}^{}x^{> \tau}_{k}A_{k\ell} y^{\leq \tau}_{\ell}=\braket{ (w_{1}w_{1}^\top)_{1,2} , A }=\left\langle w_{1}w_{1}^\top , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle  $$However, $(w_{1}w_{1}^\top)_{ii}=(x^{>\tau}_{i})^{2}\geq 0$ and $(w_{1}w_{1}^\top)_{n+i,n+i}=(y^{\leq\tau}_{i})^{2}$ for $1\leq i\leq n$. Now, as $x_{i},y_{i}$ they are all identically distributed, $\mathbb{E}[(w_{1}w_{1}^\top)_{ii}]=\mathbb{E}[(x_{i}^{>\tau})^{2}]=\mathbb{E}[(x_{1}^{>\tau})^{2}]=\mathbb{E}[(w_{1}w_{1}^\top)_{11}]\geq 0$. 
+1. Notice that: $$\braket{ x^{>\tau} , Ay^{\leq \tau} } =\sum_{k,\ell\in[n]}^{}x^{> \tau}_{k}A_{k\ell} y^{\leq \tau}_{\ell}=\braket{ (w_{1}w_{1}^\top)_{1,2} , A }=\left\langle w_{1}w_{1}^\top , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle  $$Hence, similarly, $$\braket{ x^{>\tau} , Ay^{\leq \tau} } +\braket{ x^{\leq\tau} , Ay^{> \tau} } +\braket{ x^{>\tau} , Ay^{> \tau} } =\left\langle w_{1}w_{1}^\top + w_{2}w_{2}^\top + w_{3}w_{3}^\top , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle $$ Now, as $x_{i},y_{i}$ they are all identically distributed, $$W_{ii}=\mathbb{E}[2(x_{i}^{>\tau})^{2}+(x_{i}^{\leq\tau})^{2}]$$$$\mathbb{E}[w_{1}w_{1}^\top]_{ii}=\mathbb{E}[(x_{i}^{> \tau})^{2}]$$
+2. 
+3. $\mathbb{E}[(w_{1}w_{1}^\top)_{ii}]=\mathbb{E}[(x_{i}^{>\tau})^{2}]=\mathbb{E}[(x_{1}^{>\tau})^{2}]=\mathbb{E}[(w_{1}w_{1}^\top)_{11}]\geq 0$. 
    
    Let $X:=\mathbb{E}[w_{1}w_{1}^\top]$. Then, one sees that $X\succeq 0$. Indeed, $$z^\top Xz=\mathbb{E}[zw_{1}w_{1}^\top z]\geq 0,\quad \forall z$$Further, as $X_{11}\geq 0$, $\frac{1}{X_{11}}X\succeq 0$ and $\text{diag}(\frac{1}{X_{11}}X)=I_{2n}$. Therefore we have that: $$\mathbb{E}[\braket{ x^{>\tau} ,Ay^{\leq \tau}  } ]=\mathbb{E}\left[ \left\langle w_{1}w_{1}^\top , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle \right]= \left\langle X , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle= X_{11}\left\langle \frac{1}{X_{11}} X , \begin{bmatrix}0&A\\0&0\end{bmatrix} \right\rangle\leq X_{11}\left\| A \right\| _{G}$$Analogously it holds for $w_{2},w_{3}$ and we have our statement. 
-2. We claim that $\alpha\beta=1$ is a sufficient condition. Let $\alpha\beta=1$. Then, $$\mathbb{E}[(x_{1}^{> r})^{2}]=$$
+2. We claim that a sufficient condition is $\alpha\geq 1$ and $\alpha\beta=1$. Let $X_{1}:=\mathbb{E}[w'_{1}w'^\top_{1}]$ and $X_{2}:=\mathbb{E}[w'_{2}w'^\top_{2}]$. Then similarly to above, $$(X_{1}+X_{2})_{ii}=\begin{cases}\alpha^{2}\mathbb{E}[(x_{1}^{> \tau})^{2}]\end{cases}$$
+   
+   We have that: $$\mathbb{E}[w'_{1}w'^\top_{1}]+\mathbb{E}[w'_{2}w'^\top_{2}]$$
+
+
+
+---
+1. We claim that $\alpha\beta=1$ is a sufficient condition. Let $\alpha\beta=1$. Then, $$\mathbb{E}[(x_{1}^{> r})^{2}]=$$
    
    We have that: $$(\alpha^{2}-1)\mathbb{E}[(x^{>r}_{1})^{2}]-\left(1- \frac{1}{\alpha^{2}}\right)\mathbb{E}[(x_{1}^{\leq r})^{2}]\geq 0$$ $$\mathbb{E}[(x^{>r}_{1})^{2}]\geq \frac{1}{\alpha^{2}}\mathbb{E}[(x_{1}^{\leq r})^{2}]$$Notice that: $$\begin{aligned}\mathbb{E}[(x^{>r}_{1})^{2}]=\mathbb{E}[(x_{1}-x^{\leq \tau}_{1})^{2}]=1-2\mathbb{E}[x_{1}x_{1}^{\leq \tau}]+\mathbb{E}[(x_{1}^{\leq \tau})^{2}]\end{aligned}$$where: $$\mathbb{E}[x_{1}x_{1}^{\leq \tau}]=\int_{-\tau}^{\tau} x^2\gamma(x) \, dx +2\tau\int_{\tau}^{\infty} x\gamma(x) \, dx$$
    
