@@ -112,6 +112,20 @@
               "icon": "lucide-file",
               "title": "Dual Space"
             }
+          },
+          {
+            "id": "11d3cda224086678",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Bounded Linear Map.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Bounded Linear Map"
+            }
           }
         ]
       }
@@ -261,10 +275,11 @@
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
-    "Functional Analysis/Dual Space.md",
-    "Measure Theory/Lebesgue Measure.md",
     "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+    "Functional Analysis/Dual Space.md",
+    "Functional Analysis/Bounded Linear Map.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+    "Measure Theory/Lebesgue Measure.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
@@ -285,7 +300,6 @@
     "Algebra/General Linear Group.md",
     "Courses/Advanced Graph Algorithms/Problem Set 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
-    "Analysis/Lie Derivative.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
