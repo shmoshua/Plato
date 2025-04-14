@@ -21,4 +21,15 @@
 
 ---
 ##### Part D.
-Let $x,y\in \mathbb{R}^n$. Then, by Proposition 3.3.4 we have that: $$\begin{aligned}f(y)&=f(x)+\int_{0}^{1} \nabla f(x_{\theta})^\top (y-x) \, d\theta\\&=f(x)+\int_{0}^{1} \nabla f(x)^\top (y-x) \, d\theta+\int_{0}^{1} (\nabla f(x_{\theta})-\nabla  f(x))^\top (y-x) \, d\theta\\&\leq f(x)+\int_{0}^{1} \nabla f(x)^\top (y-x) \, d\theta+\int_{0}^{1} \|\nabla f(x_{\theta})-\nabla  f(x)\|_{*}\left\| y-x \right\|  \, d\theta\end{aligned} $$where the last inequality follows from Part A.3. Now, as $f$ is $\beta$-gradient Lipschitz, $$\begin{aligned}f(y)&\leq f(x)+\int_{0}^{1} \nabla f(x)^\top (y-x) \, d\theta+\int_{0}^{1} \beta\theta\left\| y-x \right\|^{2}  \, d\theta\\&\leq f(x)+\nabla f(x)^\top (y-x) +\int_{0}^{1} \beta\theta\left\| y-x \right\|^{2}  \, d\theta\end{aligned}$$
+Let $x,y\in \mathbb{R}^n$. Then, by Proposition 3.3.4 we have that: $$\begin{aligned}f(y)&=f(x)+\int_{0}^{1} \nabla f(x_{\theta})^\top (y-x) \, d\theta\\&=f(x)+\int_{0}^{1} \nabla f(x)^\top (y-x) \, d\theta+\int_{0}^{1} (\nabla f(x_{\theta})-\nabla  f(x))^\top (y-x) \, d\theta\\&\leq f(x)+\int_{0}^{1} \nabla f(x)^\top (y-x) \, d\theta+\int_{0}^{1} \|\nabla f(x_{\theta})-\nabla  f(x)\|_{*}\left\| y-x \right\|  \, d\theta\end{aligned} $$where the last inequality follows from Part A.3. Now, as $f$ is $\beta$-gradient Lipschitz, $$\begin{aligned}f(y)&\leq f(x)+\int_{0}^{1} \nabla f(x)^\top (y-x) \, d\theta+\int_{0}^{1} \beta\theta\left\| y-x \right\|^{2}  \, d\theta\\&\leq f(x)+\nabla f(x)^\top (y-x) +\frac{\beta}{2}\left\| y-x \right\|^{2}  \end{aligned}$$
+
+---
+##### Part E.
+Similarly to the gradient descent in the script, We perform Gradient Descent by: $$x_{i+1}:=x_{i}- \frac{1}{\beta} \nabla f(x_{i})$$Then, notice that using Part D and Part A.3 we can analogously follow the proof s.t. we have the guarantee: $$f(x_{k})-f(x^{*})\leq \frac{2\beta \left\| x_{0}-x^{*} \right\| ^{2}}{k+1},\quad \forall k\geq 1$$
+Now, let $k:= \left\lceil \frac{2\beta \left\| x_{0}-x^{*} \right\|^{2}}{ \varepsilon}\right\rceil$. Then, we have that $f(x_{k})-f(x^{*})\leq \varepsilon$. In each iteration, we have 1 access to $\nabla f(\cdot)$ and computing $x_{i+1}$ takes at most $O(n)$ arithmetic operations. Hence, as $k=O\left( \frac{\beta R^{2}}{\varepsilon} \right)$ we have the desired algorithm by outputting $\tilde{x}:=x_{k}$.
+
+---
+##### Part F.
+
+
+

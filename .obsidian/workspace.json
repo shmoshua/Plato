@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lipschitz Function.md",
+                "file": "Analysis/Convex Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lipschitz Function"
+              "title": "Convex Function"
             }
           },
           {
@@ -274,9 +274,12 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
+    "Analysis/Convex Function.md",
+    "Analysis/Convex Set.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
+    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
     "Analysis/Lipschitz Function.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
-    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
     "Functional Analysis/Dual Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
@@ -284,7 +287,6 @@
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Special Assignment 1.md",
@@ -294,12 +296,10 @@
     "Probability Theory/Expected Value.md",
     "Courses/Probability Theory/Exercise Class 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Analysis/Convex Function.md",
     "Courses/Probability Theory/Exercise Class 6.md",
     "Measure Theory/Product Measure.md",
     "Measure Theory/Lebesgue Integral.md",
     "Algebra/General Linear Group.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 6.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
