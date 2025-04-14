@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+                "file": "Courses/Probability Theory/Exercise Class 8.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Exercise Class 8"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+                "file": "Courses/Probability Theory/Exercise Class 8.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Exercise Class 8"
             }
           },
           {
@@ -272,10 +272,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "e7d871f6735e72de",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+    "Courses/Probability Theory/Exercise Class 8.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Analysis/Convex Function.md",
     "Functional Analysis/Dual Space.md",
     "Analysis/Convex Set.md",
@@ -299,7 +300,6 @@
     "Courses/Probability Theory/Exercise Class 6.md",
     "Measure Theory/Product Measure.md",
     "Measure Theory/Lebesgue Integral.md",
-    "Algebra/General Linear Group.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
