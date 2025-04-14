@@ -59,4 +59,8 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 1. Notice that as $\widehat{P}$ is a projection matrix, $\widehat{P}^{2}=\widehat{P}$ and it follows that $P^{2}=P$. Now, $$Pf_{0}=P(I-P)U^{-1}\tilde{f}_{0}=0$$Let $x^{*}\in \mathbb{R}^n$ be a minimzer i.e. $\left\| f_{0}-Px^{*} \right\|_{\infty}=\text{OPT}$. Then, we have that: $$\begin{aligned}\left\| f_{0} \right\| _{\infty}=\left\| f_{0}+Px^{*}-Pf_{0}-P^{2}x^{*} \right\|_{\infty} \leq \left\| f_{0}+Px^{*} \right\|_{\infty}+\left\| P \right\|_{\infty\to \infty}\left\| f_{0}+Px^{*} \right\| _{\infty}  \end{aligned}$$This shows the claim.
    
 2. We have: $$g(y)\leq g(0)=s(f_{0})\leq \left\| f_{0} \right\| _{\infty}+\frac{2\log \left| E \right| }{\lambda}\leq (1+\left\| P \right\| _{\infty\to \infty})\text{OPT}+\frac{2\log \left| E \right| }{\lambda}$$
-3. As $g$ is convex, we have that: $$g(x^{*})-g(x)\geq \nabla g(x)^\top (x^{*}-x)\geq g(x)-\left\| \nabla g(x) \right\|_{1}\left\| x-x^{*} \right\| _{\infty}$$
+3. 
+4. As $g$ is convex, we have that: $$g(x^{*})-g(x)\geq \nabla g(x)^\top (x^{*}-x)\geq g(x)-\left\| \nabla g(x) \right\|_{1}\left\| x-x^{*} \right\| _{\infty}$$
+
+Let $R:=\max_{g(x)\leq g(0)}\min_{x^{*}\in X^{*}}\left\| x-x^{*} \right\|_{\infty}$ where $X^{*}:=\arg\min_{x} g(x)$. Now, if we have for all $x$ with $g(x)\leq g(0)$ that $$g(x)\leq \alpha+\beta$$
+	

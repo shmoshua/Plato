@@ -56,15 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+                "file": "Courses/Probability Theory/Exercise Class 8.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 2"
+              "title": "Exercise Class 8"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -91,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 6.md",
+                "file": "Courses/Probability Theory/Exercise Class 8.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 6"
+              "title": "Exercise Class 8"
             }
           },
           {
@@ -127,7 +128,8 @@
               "title": "Bounded Linear Map"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,12 +274,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "e7504f193e62a0e2",
   "lastOpenFiles": [
-    "Courses/Probability Theory/Exercise Class 6.md",
-    "Analysis/Convex Function.md",
-    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Probability Theory/Exercise Class 8.md",
+    "Courses/Probability Theory/Exercise Class 6.md",
+    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+    "Analysis/Convex Function.md",
     "Courses/Probability Theory/Exercise Class 7.md",
     "Courses/Probability Theory/Exercise Class 5.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -287,7 +290,6 @@
     "Analysis/Lipschitz Function.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Measure Theory/Lebesgue Measure.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
