@@ -51,4 +51,8 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 
 ---
 ##### Part I
-1. 
+1. Let $h(x):=f_{0}+Px$. Then, $\nabla g(x)=P \nabla s(h(x))$. Hence,  $$\begin{aligned}\left\| \nabla g(x)-\nabla g(y) \right\|_{\infty}&=\left\| \nabla  \right\| \end{aligned} $$
+   
+   We first have that: $$\partial_{e}s(x)=\frac{\lambda\exp(\lambda x(e))-\lambda\exp(-\lambda x(e))}{\lambda\left( \sum_{e}\exp(\lambda x(e))+\exp(-\lambda x(e)) \right)}=\frac{\exp(\lambda x(e))-\exp(-\lambda x(e))}{\sum_{e}\exp(\lambda x(e))+\exp(-\lambda x(e))}$$
+
+2. $$\nabla g(x)=\nabla s$$
