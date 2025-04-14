@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 1.md",
+                "file": "Analysis/Lipschitz Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 1"
+              "title": "Lipschitz Function"
             }
           },
           {
@@ -274,6 +274,7 @@
   },
   "active": "ae5b3e6d904ef5b1",
   "lastOpenFiles": [
+    "Analysis/Lipschitz Function.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
     "Functional Analysis/Dual Space.md",
@@ -299,7 +300,6 @@
     "Measure Theory/Lebesgue Integral.md",
     "Algebra/General Linear Group.md",
     "Courses/Advanced Graph Algorithms/Problem Set 6.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
