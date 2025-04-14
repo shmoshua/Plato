@@ -52,10 +52,10 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 ---
 ##### Part I
 1. Let $h(x):=f_{0}+Px$. Then, $\nabla g(x)=P^\top \nabla s(h(x))$. As we have that the dual of $\|\cdot\|_{\infty}$ is $\|\cdot\|_{1}$, we have that: $$\begin{aligned}\left\| \nabla g(x) -\nabla g(y)\right\|_{1}&=\left\| P^\top (\nabla  s(h(x))-\nabla  s(h(y))) \right\|_{1} \leq \left\| P^\top \right\| _{1\to 1}\left\| \nabla  s(h(x))-\nabla s(h(y)) \right\| _{1}\end{aligned} $$Now, as $s$ is $O(\lambda)$-gradient Lipschitz, $$\left\| \nabla  g(x)-\nabla g(y) \right\| _{1}\leq O(\lambda)\cdot \left\| P^\top \right\| _{1\to 1}\cdot \left\| P(x-y) \right\|_{\infty}\leq O(\lambda)\cdot \left\| P^\top \right\| _{1\to 1}\cdot \left\| P \right\|_{\infty\to \infty}\left\| x-y \right\| _{\infty} $$Therefore, it suffices to show that $\left\| P^\top \right\|_{1\to1}=\left\| P \right\|_{\infty\to \infty}$. We have that by the definition of dual norms:$$\left\| P^\top \right\| _{1\to 1}=\sup_{\|x\|_{1}=1}\left\| P^\top x \right\|_{1}=\sup_{\|x\|_{1}=1}\sup_{\|y\|_{\infty}=1} y^\top P^\top x =\sup_{\left\| y \right\| _{\infty }=1}\left\| Py \right\| _{\infty}=\left\| P \right\| _{\infty\to \infty}$$
+2. We have that: $$\left\| f_{0}+P\widehat{x} \right\| _{\infty}\leq g(\widehat{x})\leq g(x^{*})+\frac{\varepsilon}{2}\text{OPT}$$Now, let $x'\in \mathbb{R}^n$ s.t. $\|f_{0}+Px'\|_{\infty}=\text{OPT}$. Then, $$\left\| f_{0}+P\widehat{x} \right\| _{\infty}\leq g(x')+\frac{\varepsilon}{2}\text{OPT}\leq \text{OPT}+\frac{\varepsilon}{2}\text{OPT}+\frac{2\log(\left| E \right| )}{\lambda}$$Hence, by taking $\lambda=\frac{4 \log \left| E \right|}{\varepsilon \text{OPT}}$, we have the desired bound.
    
-   
-2. Let $h(x):=f_{0}+Px$. Then, $\nabla g(x)=P \nabla s(h(x))$. Hence,  $$\begin{aligned}\left\| \nabla g(x)-\nabla g(y) \right\|_{\infty}&=\left\| \nabla  \right\| \end{aligned} $$
-   
-   We first have that: $$\partial_{e}s(x)=\frac{\lambda\exp(\lambda x(e))-\lambda\exp(-\lambda x(e))}{\lambda\left( \sum_{e}\exp(\lambda x(e))+\exp(-\lambda x(e)) \right)}=\frac{\exp(\lambda x(e))-\exp(-\lambda x(e))}{\sum_{e}\exp(\lambda x(e))+\exp(-\lambda x(e))}$$
-
-2. $$\nabla g(x)=\nabla s$$
+---
+##### Part J
+1. Let $x^{*}\in \mathbb{R}^n$ be a minimzer i.e. $\left\| f_{0}-Px^{*} \right\|_{\infty}=\text{OPT}$. Then, we have that: $$\left\| f_{0} \right\| _{\infty}=\left\| (I-P)U^{-1} \tilde{f_{0}} \right\|_{\infty}\leq\left\| U^{-1} \tilde{f_{0}} \right\|_{\infty}+\left\| PU^{-1} \tilde{f_{0}} \right\|_{\infty}\leq (1+\left\| P \right\| _{\infty\to \infty}) \left\| U^{-1}\tilde{f_{0}} \right\|_{\infty} $$Hence, it suffices to show that $\left\| U^{-1}\tilde{f_{0}} \right\|_{\infty}\leq \text{OPT}$. 
+2. 
+3. $$\left\| f_{0} \right\| _{\infty}=\left\| f_{0}-Px^{*}+Px^{*} \right\|_{\infty}\leq \text{OPT}+\left\| Px^{*} \right\| _{\infty}\leq \text{OPT}+\left\| P \right\| _{\infty\to \infty}\left\| x^{*} \right\| _{\infty} $$
