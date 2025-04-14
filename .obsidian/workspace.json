@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 2.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 2"
+              "title": "Problem Set 5"
             }
           },
           {
@@ -142,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -287,11 +287,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e7d871f6735e72de",
+  "active": "02531ae3af29bf7b",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
-    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
+    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Probability Theory/Exercise Class 8.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Probability Theory/Exercise Class 6.md",

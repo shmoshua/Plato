@@ -59,13 +59,8 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 1. Notice that as $\widehat{P}$ is a projection matrix, $\widehat{P}^{2}=\widehat{P}$ and it follows that $P^{2}=P$. Now, $$Pf_{0}=P(I-P)U^{-1}\tilde{f}_{0}=0$$Let $x^{*}\in \mathbb{R}^n$ be a minimzer i.e. $\left\| f_{0}-Px^{*} \right\|_{\infty}=\text{OPT}$. Then, we have that: $$\begin{aligned}\left\| f_{0} \right\| _{\infty}=\left\| f_{0}+Px^{*}-Pf_{0}-P^{2}x^{*} \right\|_{\infty} \leq \left\| f_{0}+Px^{*} \right\|_{\infty}+\left\| P \right\|_{\infty\to \infty}\left\| f_{0}+Px^{*} \right\| _{\infty}  \end{aligned}$$This shows the claim.
    
 2. We have: $$g(y)\leq g(0)=s(f_{0})\leq \left\| f_{0} \right\| _{\infty}+\frac{2\log \left| E \right| }{\lambda}\leq (1+\left\| P \right\| _{\infty\to \infty})\text{OPT}+\frac{2\log \left| E \right| }{\lambda}$$
-3. $$\min_{x^{*}\in X^{*}}\left\| x-x^{*} \right\| _{\infty}\leq $$
-
-
-4. As $g$ is convex, we have that: $$g(x^{*})-g(x)\geq \nabla g(x)^\top (x^{*}-x)\geq g(x)-\left\| \nabla g(x) \right\|_{1}\left\| x-x^{*} \right\| _{\infty}$$
-
-Let $R:=\max_{g(x)\leq g(0)}\min_{x^{*}\in X^{*}}\left\| x-x^{*} \right\|_{\infty}$ where $X^{*}:=\arg\min_{x} g(x)$. Now, if we have for all $x$ with $g(x)\leq g(0)$ that $$g(x)\leq \alpha+\beta$$
-
-
-1. $g(x^{*})\geq g(x)+\nabla g(x)^\top(x^{*}-x)$
-2.  $$\left\| x^{*}-x \right\|_{\infty} $$ $$\left\| x^{*}-x \right\| _{\infty}=\left\| f_{0}-x-f_{0}+x^{*} \right\| _{\infty}\leq \left\| f_{0}-x \right\| _{\infty}+\left\| f_{0}+x^{*} \right\|_{\infty} $$
+3. Let $x\in \mathbb{R}^\left| E \right|$ with $g(x)\leq g(0)$ and $x^{*}\in X^{*}$. Then, by defining $y:=x-Px+Px^{*}$, we have that $Py=Px-Px+Px^{*}=Px^{*}$ and $g(y)=g(x^{*})$. Therefore, $y\in X^{*}$ and we have that: $$\min_{x^{*}\in X^{*}}\left\| x-x^{*} \right\| _{\infty}\leq \left\| x-y \right\| _{\infty}=\left\| Px-Px^{*} \right\| \left\| f_{0}+Px -f_{0}-Px^{*}\right\|_{\infty}$$Hence, by triangle inequality, $$\min_{x^{*}\in X^{*}}\left\| x-x^{*} \right\| _{\infty}\leq \left\| f_{0}+Px \right\| _{\infty}+\left\| f_{0}+P x^{*}\right\|_{\infty} \leq g(x)+g(x^{*})\leq 2g(x)\leq O(g(x))$$The rest follows from Part J.2.
+---
+#### Problem 2. Computing dissimilar test groups
+##### Part A
+1. We first claim that $2-\lambda_{n}\leq 2\eta(G)$. 
