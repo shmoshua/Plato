@@ -34,6 +34,19 @@ Now, let $k:= \left\lceil \frac{2\beta \left\| x_{0}-x^{*} \right\|^{2}}{ \varep
 For $x\in \mathbb{R}^n$, define the following function:$$g:\mathbb{R}^n\to \mathbb{R},\quad y\mapsto f(y)-\nabla f(x)^\top y$$
 Then, we claim that for any $y,z\in \mathbb{R}^n$, $$g(z)\leq g(y)+\nabla g(y)^\top (z-y)+\frac{\beta}{2}\left\| z-y \right\| ^{2}$$We have that: $$\begin{aligned}f(z)&\leq f(y)+\nabla f(y)^\top(z-y)+\frac{\beta}{2}\left\| z-y \right\| ^{2}\\&=f(y)+(\nabla f(y)-\nabla f(x))^\top(z-y)+\nabla f(x)^\top (z-y)+\frac{\beta}{2}\left\| z-y \right\| ^{2}\end{aligned}$$Noticing that $\nabla g(y)=\nabla f(y)-\nabla f(x)$ and rearranging, we have our claim. 
 
-Now similarly, by convexity of $f$,$$\begin{aligned}g(y)&=f(y)-\nabla f(x)^\top y\\&\geq f(z)-\nabla f(x)^\top z+\nabla f(z)^\top (y-z) -\nabla f(x)^\top (y-z)\\&=g(z)+\nabla  g(z)^\top (y-z)\end{aligned}$$and $g$ is convex as well. Hence, $x$ is a global minimum for $g$ and let $z^{*}$ be a minimizer of $g(y)+\nabla g(y)^\top (z-y)+\frac{\beta}{2}\left\| z-y \right\| ^{2}$.
+Now similarly, by convexity of $f$,$$\begin{aligned}g(y)&=f(y)-\nabla f(x)^\top y\\&\geq f(z)-\nabla f(x)^\top z+\nabla f(z)^\top (y-z) -\nabla f(x)^\top (y-z)\\&=g(z)+\nabla  g(z)^\top (y-z)\end{aligned}$$and $g$ is convex as well. Hence, $x$ is a global minimum for $g$ and let $t^{*}$ be a minimizer of $\phi(t):=g(y)-\left\| \nabla g(y) \right\|_{*} t+\frac{\beta}{2}t^{2}$. Then, $t^{*}=\left\| \nabla g(y) \right\|_{*} / \beta$. 
+
+Now, let $w\in \mathbb{R}^n$ with $\|w\|=1$ s.t. $\left\| \nabla g(y) \right\|_{*}=\nabla g(y)^\top w$, which exists. Then, by defining $z:=y-t^{*} w$, we have:  $$g(x)\leq g(z)\leq g(y)-t^{*}\nabla  g(y)^\top w+\frac{\beta}{2}\cdot  (t^{*})^{2}\|w\|^{2}=g(y)-\frac{\|\nabla  g(y)\|_{*}^{2}}{2\beta}$$Therefore, $$\frac{\left\| \nabla f(x)-\nabla f(y) \right\| ^{2}_{*}}{2\beta}\leq g(y)-g(x)=f(y)-f(x)+\nabla f(x)^\top(x-y)$$and by symmetry, $$\frac{\left\| \nabla f(x)-\nabla f(y) \right\| ^{2}_{*}}{2\beta}\leq f(x)-f(y)-\nabla f(y)^\top(x-y)$$By adding the two inequalities, $$\left\| \nabla f(x)-\nabla f(y) \right\| ^{2}_{*}\leq \beta(\nabla f(x)-\nabla f(y))^\top(x-y)\leq \beta \|\nabla f(x)-\nabla f(y)\|_{*}\|x-y\|$$Now if $\left\| \nabla f(x)-\nabla f(y) \right\|_{*}=0$, then the statement is trivially true. Otherwise, we get the statement by dividing both sides with $\left\| \nabla f(x)-\nabla f(y) \right\|_{*}$.
+
+---
+##### Part G.
+We have that $\text{H}_{f}(x)$ is positive semidefinite for all $x$. Hence, $f$ is a convex function. 
+
+Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{aligned}f(y)&=f(x)+\nabla f(x)^\top(y-x)+\frac{1}{2}(y-x)\text{H}_{f}(z)(y-x)\\&\leq f(x)+\nabla f(x)^\top(y-x)+\frac{\beta}{2}\|y-x\|^{2}\end{aligned}$$The rest follows from Part F.
+
+---
+##### Part H.
+1. Let $j:=\arg\max_{i}x(i)$. Then, $$m(x)=\frac{1}{\lambda}\log \left( \sum_{i}^{}e^{\lambda x(i)} \right)\leq \frac{1}{\lambda}\log \left( ne^{\lambda x(j)} \right)\leq \frac{\log(n)}{\lambda}+x(j) $$For the left inequality, we have: $$m(x)=\frac{1}{\lambda}\log \left( \sum_{i}^{}e^{\lambda x(i)} \right)\geq \frac{1}{\lambda}\log \left( e^{\lambda x(j)} \right)=x(j)$$as $\exp\geq 0$.
+2. 
 
 ---
