@@ -32,10 +32,8 @@ Now, let $k:= \left\lceil \frac{2\beta \left\| x_{0}-x^{*} \right\|^{2}}{ \varep
 ##### Part F.
 
 For $x\in \mathbb{R}^n$, define the following function:$$g:\mathbb{R}^n\to \mathbb{R},\quad y\mapsto f(y)-\nabla f(x)^\top y$$
-Then, $$
+Then, we claim that for any $y,z\in \mathbb{R}^n$, $$g(z)\leq g(y)+\nabla g(y)^\top (z-y)+\frac{\beta}{2}\left\| z-y \right\| ^{2}$$We have that: $$\begin{aligned}f(z)&\leq f(y)+\nabla f(y)^\top(z-y)+\frac{\beta}{2}\left\| z-y \right\| ^{2}\\&=f(y)+(\nabla f(y)-\nabla f(x))^\top(z-y)+\nabla f(x)^\top (z-y)+\frac{\beta}{2}\left\| z-y \right\| ^{2}\end{aligned}$$Noticing that $\nabla g(y)=\nabla f(y)-\nabla f(x)$ and rearranging, we have our claim. 
 
-
-
-we have that: $$f(y)\leq f(x)+\nabla f(x)^\top (y-x)+\frac{\beta}{2}\left\| y-x \right\| ^{2},\quad f(x)\leq f(y)+\nabla f(y)^\top (x-y)+\frac{\beta}{2}\left\| y-x \right\| ^{2}$$Hence, $$$$
+Now similarly, by convexity of $f$,$$\begin{aligned}g(y)&=f(y)-\nabla f(x)^\top y\\&\geq f(z)-\nabla f(x)^\top z+\nabla f(z)^\top (y-z) -\nabla f(x)^\top (y-z)\\&=g(z)+\nabla  g(z)^\top (y-z)\end{aligned}$$and $g$ is convex as well. Hence, $x$ is a global minimum for $g$ and let $z^{*}$ be a minimizer of $g(y)+\nabla g(y)^\top (z-y)+\frac{\beta}{2}\left\| z-y \right\| ^{2}$. Then, $z^{*}= y- \frac{1}{\beta}\nabla g(y)^\top$. Bringing this together, $$g(x)\leq g(z^{*})\leq  g(y)- \frac{1}{\beta}\left\| \nabla  g(y) \right\|  $$
 
 
