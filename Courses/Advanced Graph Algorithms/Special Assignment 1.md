@@ -47,6 +47,8 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 ---
 ##### Part H.
 1. Let $j:=\arg\max_{i}x(i)$. Then, $$m(x)=\frac{1}{\lambda}\log \left( \sum_{i}^{}e^{\lambda x(i)} \right)\leq \frac{1}{\lambda}\log \left( ne^{\lambda x(j)} \right)\leq \frac{\log(n)}{\lambda}+x(j) $$For the left inequality, we have: $$m(x)=\frac{1}{\lambda}\log \left( \sum_{i}^{}e^{\lambda x(i)} \right)\geq \frac{1}{\lambda}\log \left( e^{\lambda x(j)} \right)=x(j)$$as $\exp\geq 0$.
-2. 
+2. We compute the Hessian of $m$, we have that: $$\partial_{i}m(x)=\frac{e^{\lambda x(i)}}{\sum_{i}^{}e^{\lambda x(i)}}=:p(i),\quad \partial^{2}_{i,j}m(x)= \frac{(\sum_{i}^{}e^{\lambda x(i)})\mathbb{1}_{i=j}\lambda e^{\lambda x(i)}-\lambda e^{\lambda x(i)}e^{\lambda x(j)}}{(\sum_{i}^{}e^{\lambda x(i)})^{2}}$$Now, notice that $$\partial^{2}_{i,j}m(x)=\lambda p(i)\left( \mathbb{1}_{i=j}-p(j) \right) $$Hence, $\text{H}_{m}(x)=\lambda(\text{diag}(p)-pp^\top)$. For any $y\in \mathbb{R}^n$, $$y^\top \text{H}_{m}(x)y=\lambda \left( \sum_{i}^{}p(i)y(i)^{2}- \left( \sum_{i}p(i)y(i) \right)^{2}\right)$$As $\sum_{i}p(i)=1$ and $p(i)\geq 0$ for all $i$, we can treat $p$ as a probability measure on $[n]$. Hence, we have that $y^\top \text{H}_{m}(x)y=\lambda(\mathbb{E}[y^{2}]-\mathbb{E}[y]^{2})=\lambda \cdot\text{Var}(y)\geq 0$. Similarly, $$y^\top \text{H}_{m}(x)y\leq \lambda \sum_{i}^{}p(i)y(i)^{2}\leq \lambda \sum_{i}^{}p(i)\left\| y \right\|^{2}_{\infty}=\lambda \|y\|^{2}_{\infty} $$Therefore, $m$ satisfies the condition for Part G and this shows the statement.
 
 ---
+##### Part I
+1. 
