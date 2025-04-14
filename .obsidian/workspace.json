@@ -127,7 +127,8 @@
               "title": "Bounded Linear Map"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,11 +273,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ae5b3e6d904ef5b1",
+  "active": "02531ae3af29bf7b",
   "lastOpenFiles": [
+    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
     "Analysis/Convex Function.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
-    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
     "Functional Analysis/Dual Space.md",
     "Analysis/Convex Set.md",
     "Analysis/Lipschitz Function.md",

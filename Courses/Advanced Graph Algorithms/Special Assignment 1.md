@@ -56,6 +56,7 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
    
 ---
 ##### Part J
-1. Let $x^{*}\in \mathbb{R}^n$ be a minimzer i.e. $\left\| f_{0}-Px^{*} \right\|_{\infty}=\text{OPT}$. Then, we have that: $$\left\| f_{0} \right\| _{\infty}=\left\| (I-P)U^{-1} \tilde{f_{0}} \right\|_{\infty}\leq\left\| U^{-1} \tilde{f_{0}} \right\|_{\infty}+\left\| PU^{-1} \tilde{f_{0}} \right\|_{\infty}\leq (1+\left\| P \right\| _{\infty\to \infty}) \left\| U^{-1}\tilde{f_{0}} \right\|_{\infty} $$Hence, it suffices to show that $\left\| U^{-1}\tilde{f_{0}} \right\|_{\infty}\leq \text{OPT}$. 
-2. 
-3. $$\left\| f_{0} \right\| _{\infty}=\left\| f_{0}-Px^{*}+Px^{*} \right\|_{\infty}\leq \text{OPT}+\left\| Px^{*} \right\| _{\infty}\leq \text{OPT}+\left\| P \right\| _{\infty\to \infty}\left\| x^{*} \right\| _{\infty} $$
+1. Notice that as $\widehat{P}$ is a projection matrix, $\widehat{P}^{2}=\widehat{P}$ and it follows that $P^{2}=P$. Now, $$Pf_{0}=P(I-P)U^{-1}\tilde{f}_{0}=0$$Let $x^{*}\in \mathbb{R}^n$ be a minimzer i.e. $\left\| f_{0}-Px^{*} \right\|_{\infty}=\text{OPT}$. Then, we have that: $$\begin{aligned}\left\| f_{0} \right\| _{\infty}=\left\| f_{0}+Px^{*}-Pf_{0}-P^{2}x^{*} \right\|_{\infty} \leq \left\| f_{0}+Px^{*} \right\|_{\infty}+\left\| P \right\|_{\infty\to \infty}\left\| f_{0}+Px^{*} \right\| _{\infty}  \end{aligned}$$This shows the claim.
+   
+2. We have: $$g(y)\leq g(0)=s(f_{0})\leq \left\| f_{0} \right\| _{\infty}+\frac{2\log \left| E \right| }{\lambda}\leq (1+\left\| P \right\| _{\infty\to \infty})\text{OPT}+\frac{2\log \left| E \right| }{\lambda}$$
+3. 
