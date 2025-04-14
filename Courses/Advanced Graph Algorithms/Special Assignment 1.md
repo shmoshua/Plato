@@ -31,5 +31,11 @@ Now, let $k:= \left\lceil \frac{2\beta \left\| x_{0}-x^{*} \right\|^{2}}{ \varep
 ---
 ##### Part F.
 
+For $x\in \mathbb{R}^n$, define the following function:$$g:\mathbb{R}^n\to \mathbb{R},\quad y\mapsto f(y)-\nabla f(x)^\top y$$
+Then, $$
+
+
+
+we have that: $$f(y)\leq f(x)+\nabla f(x)^\top (y-x)+\frac{\beta}{2}\left\| y-x \right\| ^{2},\quad f(x)\leq f(y)+\nabla f(y)^\top (x-y)+\frac{\beta}{2}\left\| y-x \right\| ^{2}$$Hence, $$$$
 
 
