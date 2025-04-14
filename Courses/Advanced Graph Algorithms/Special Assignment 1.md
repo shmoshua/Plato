@@ -51,7 +51,10 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 
 ---
 ##### Part I
-1. Let $h(x):=f_{0}+Px$. Then, $\nabla g(x)=P \nabla s(h(x))$. Hence,  $$\begin{aligned}\left\| \nabla g(x)-\nabla g(y) \right\|_{\infty}&=\left\| \nabla  \right\| \end{aligned} $$
+1. Let $h(x):=f_{0}+Px$. Then, $\nabla g(x)=P^\top \nabla s(h(x))$. As we have that the dual of $\|\cdot\|_{\infty}$ is $\|\cdot\|_{1}$, we have that: $$\begin{aligned}\left\| \nabla g(x) -\nabla g(y)\right\|_{1}&=\left\| P^\top (\nabla  s(h(x))-\nabla  s(h(y))) \right\|_{1} \leq \left\| P^\top \right\| _{1\to 1}\left\| \nabla  s(h(x))-\nabla s(h(y)) \right\| _{1}\end{aligned} $$Now, as $s$ is $O(\lambda)$-gradient Lipschitz, $$\left\| \nabla  g(x)-\nabla g(y) \right\| _{1}\leq O(\lambda)\cdot \left\| P^\top \right\| _{1\to 1}\cdot \left\| P(x-y) \right\|_{\infty}\leq O(\lambda)\cdot \left\| P^\top \right\| _{1\to 1}\cdot \left\| P \right\|_{\infty\to \infty}\left\| x-y \right\| _{\infty} $$Therefore, it suffices to show that $\left\| P^\top \right\|_{1\to1}=\left\| P \right\|_{\infty\to \infty}$. We have that by the definition of dual norms:$$\left\| P^\top \right\| _{1\to 1}=\sup_{\|x\|_{1}=1}\left\| P^\top x \right\|_{1}=\sup_{\|x\|_{1}=1}\sup_{\|y\|_{\infty}=1} y^\top P^\top x =\sup_{\left\| y \right\| _{\infty }=1}\left\| Py \right\| _{\infty}=\left\| P \right\| _{\infty\to \infty}$$
+   
+   
+2. Let $h(x):=f_{0}+Px$. Then, $\nabla g(x)=P \nabla s(h(x))$. Hence,  $$\begin{aligned}\left\| \nabla g(x)-\nabla g(y) \right\|_{\infty}&=\left\| \nabla  \right\| \end{aligned} $$
    
    We first have that: $$\partial_{e}s(x)=\frac{\lambda\exp(\lambda x(e))-\lambda\exp(-\lambda x(e))}{\lambda\left( \sum_{e}\exp(\lambda x(e))+\exp(-\lambda x(e)) \right)}=\frac{\exp(\lambda x(e))-\exp(-\lambda x(e))}{\sum_{e}\exp(\lambda x(e))+\exp(-\lambda x(e))}$$
 
