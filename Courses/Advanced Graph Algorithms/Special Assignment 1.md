@@ -60,6 +60,8 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
    
 2. We have: $$g(y)\leq g(0)=s(f_{0})\leq \left\| f_{0} \right\| _{\infty}+\frac{2\log \left| E \right| }{\lambda}\leq (1+\left\| P \right\| _{\infty\to \infty})\text{OPT}+\frac{2\log \left| E \right| }{\lambda}$$
 3. 
+
+
 4. As $g$ is convex, we have that: $$g(x^{*})-g(x)\geq \nabla g(x)^\top (x^{*}-x)\geq g(x)-\left\| \nabla g(x) \right\|_{1}\left\| x-x^{*} \right\| _{\infty}$$
 
 Let $R:=\max_{g(x)\leq g(0)}\min_{x^{*}\in X^{*}}\left\| x-x^{*} \right\|_{\infty}$ where $X^{*}:=\arg\min_{x} g(x)$. Now, if we have for all $x$ with $g(x)\leq g(0)$ that $$g(x)\leq \alpha+\beta$$

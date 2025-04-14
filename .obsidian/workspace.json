@@ -64,8 +64,7 @@
               "title": "Exercise Class 8"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -128,8 +127,7 @@
               "title": "Bounded Linear Map"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,10 +272,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e7504f193e62a0e2",
+  "active": "e7d871f6735e72de",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Probability Theory/Exercise Class 8.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Probability Theory/Exercise Class 6.md",
     "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
     "Analysis/Convex Function.md",
