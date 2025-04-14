@@ -142,7 +142,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -287,11 +287,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02531ae3af29bf7b",
+  "active": "04f222e17248b652",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
-    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
+    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Probability Theory/Exercise Class 8.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Probability Theory/Exercise Class 6.md",
@@ -305,7 +306,6 @@
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Measure Theory/Lebesgue Measure.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",

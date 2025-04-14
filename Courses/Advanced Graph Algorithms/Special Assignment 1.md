@@ -63,4 +63,8 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 ---
 #### Problem 2. Computing dissimilar test groups
 ##### Part A
-1. We first claim that $2-\lambda_{n}\leq 2\eta(G)$. 
+1. We first claim that $2-\lambda_{n}\leq 2\eta(G)$. Let $S\subseteq V$ with $\left| S \right|\leq n /2$ and  $z\in \{ -1,1 \}^\left| V \right|$ s.t. $z_{v}=1$ if and only if $v\in S$. Then, notice that: $$z^\top Lz=\sum_{\{ u,v \}\in E}^{}(z_{u}-z_{v})^{2}=4\cdot  e(S,V \backslash S),\quad z^\top Dz=\sum_{v\in V}^{}d_{v} z_{v}^{2}=\sum_{v\in V}^{}d_{v}=2\left| E \right| $$Therefore, $$\lambda_{n}=\max_{x\neq 0} \frac{x^\top Lx}{x^\top Dx}\geq \frac{2e(S, V \backslash S)}{\left| E \right| }=2\left( 1-\frac{e(S)-e(V\backslash S)}{\left| E \right| } \right)=2\left( 1-\eta(S)\right)$$Hence, $$2\eta(G)=\min_{S\subseteq V: \left| S \right| \leq n /2} 2\eta(S)\geq 2-\lambda_{n} $$
+   Now, we show the statement via induction over $n:\left| S_{0} \right|$
+	1. Let $S_{0}=\varnothing$. Then, $(A,B)=(S_{-1},S_{1})$ and $y\in \{ +1,-1 \}^V$. Therefore, $y_{u}+y_{v}=2\cdot \mathbb{1}_{(u,v)\in E(A)\cup E(B)}$. Hence, 
+	    $$q(y)=\frac{\sum_{(u,v)\in E}^{}(y_{u}+y_{v})^{2}}{\sum_{v\in V}d_{v}y_{v}^{2}}=\frac{4(e(A)+e(B))}{2\left| E \right| }$$It follows that: $$e(A)+e(B)=\frac{1}{2}\left| E \right| q(y)\leq \frac{1}{2}\left| E \right| \sqrt{ 2(2-\lambda) }\leq \frac{1}{2}\left| E \right| \sqrt{ 4\eta(G) }=\left| E \right| \sqrt{ \eta(G) }$$
+	2. Assume now the statement holds for any case where $$
