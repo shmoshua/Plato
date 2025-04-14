@@ -31,6 +31,8 @@ Let $X\sim \text{Exp}(\lambda)$ and $Y\sim \text{Exp}(\gamma)$. Then, what is th
 	1. $\mathbb{E}[Y]=2$
 	2. $\text{Var}(Y)=\frac{3}{2}$
 	3. $\mathbb{E}[Z]=\frac{1}{2}\cdot \frac{3}{2}= \frac{3}{4}$.
-	4. Which event happens almost surely? $X_{1}\leq X_{2}$, $X_{2}\leq Y$, $0\leq Y$, $X_{1}\leq Y$.
+	4. Which event happens almost surely? $X_{1}\leq X_{2}$, $X_{2}\leq Y$, $0\leq Y$, $X_{1}\leq Y$. 
 	5. Which is incorrect, $\mathbb{E}[Y^4]\geq 16$, $\mathbb{E}[Y^2]\geq 8, \mathbb{E}[Y^2]\geq 4, \mathbb{E}[\left| Y \right|]\geq 2$.
+3. $Z=(X,Y)$ with $f_{X,Y}(x,y)= \frac{1}{2\pi}e^{-1/2(x^{2}+y^{2})}$ are they independent and uncorrelated?
+4. Let $(X,Y,Z)$ be uniformly distributed on $B_{\leq 1}$, i.e. $\mathbb{1}_{B_{1}}\cdot \frac{3}{4\pi}$. What is $$g(x,y)= \frac{3}{2\pi}\sqrt{ 1-x^{2}-y^{2} }\cdot \mathbb{1}_{x^{2}+y^{2}\leq 1}$$
 ---
