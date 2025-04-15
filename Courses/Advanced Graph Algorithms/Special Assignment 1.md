@@ -95,4 +95,6 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
    Now, for any edge $uv$, we have: $$(y_{\theta}(u)+y_{\theta}(v))^{2}=\begin{cases}4& \text{if }\theta<  \min\{z(u)^{2},z(v)^{2}\}\text{ and }\text{sgn}(z(u)z(v))=1\\1&\text{if }\min\{z(u)^{2},z(v)^{2}\}\leq \theta< \max\{z(u)^{2},z(v)^{2}\}\\0&\text{ otherwise}\end{cases}$$Therefore, $$\begin{aligned}\mathbb{E}[(y_{\theta}(u)+y_{\theta}(v))^{2}]&\leq 4\cdot \min\{ z(u)^{2},z(v)^{2} \}+\max\{z(u)^{2},z(v)^{2}\}-\min\{ z(u)^{2},z(v)^{2} \}\\&\leq 3\cdot \min\{ z(u)^{2},z(v)^{2} \}+\max\{z(u)^{2},z(v)^{2}\}\\&\leq \underbrace{ 2\cdot \min\{ z(u)^{2},z(v)^{2} \} }_{ \leq z(u)^{2}+z(v)^{2} }+ \underbrace{ \min\{ z(u)^{2},z(v)^{2} \}+\max\{z(u)^{2},z(v)^{2}\} }_{ =z(u)^{2}+z(v)^{2} }\\&\leq 2(z(u)^{2}+z(v)^{2})\end{aligned}$$
 	$$\mathbb{E}[X]=\sum_{(u,v)\in E}\mathbb{E}[(y_{\theta}(u)+y_{\theta}(v))^{2}]\leq 2\sum_{(u,v)\in E} z(u)^{2}+z(v)^{2}$$and $$\frac{\mathbb{E}[X]}{\mathbb{E}[Y]}\leq  \frac{2\sum_{(u,v)\in E}^{}z(u)^{2}+z(v)^{2}}{\sum_{v\in V}^{}d_{v}z(v)^{2}}$$
 	
-	Now, let $N$ be the normalized Laplacian. Then, $$$$
+	Now, let $N$ be the normalized Laplacian. Then, $z^\top Nz=\lambda_{n}z^\top z=\lambda_{n}$. 
+	
+	We have that: $$\mathbb{E}[(y_{\theta}(u)+y_{\theta}(v))^{2}]$$
