@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+                "file": "Courses/Probability Theory/Exercise Class 8.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Exercise Class 8"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 3.md",
+                "file": "Courses/Probability Theory/Exercise Class 8.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 3"
+              "title": "Exercise Class 8"
             }
           },
           {
@@ -141,8 +141,7 @@
               "title": "Bounded Linear Map"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -287,15 +286,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "04f222e17248b652",
+  "active": "e7d871f6735e72de",
   "lastOpenFiles": [
+    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+    "Courses/Probability Theory/Exercise Class 8.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Advanced Graph Algorithms/Problem Set 6.md",
-    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
-    "Courses/Probability Theory/Exercise Class 8.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Probability Theory/Exercise Class 6.md",
     "Analysis/Convex Function.md",
