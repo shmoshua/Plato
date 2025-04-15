@@ -82,4 +82,6 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 
 	This concludes the induction.
 
-2. 
+2. Firstly, notice that as $y\neq 0$, we have that $S_{0}\subsetneq V$ and $e(S_{0})\leq \left| E \right|$. In other words, at each recursion, we reduce the size of the edges by at least 1. Hence, we can have at most $\left| E \right|=O(n^2)$ recursions. 
+   
+   In each recursion, we need $O(n^3)$ to compute $\lambda_{n}$ and $z$ via Gaussian elimination. To compute $y$, notice that we do not need to optimize it over all $\theta$, but only at $z(u)^{2}$ over all $u\in V$. Indeed, by definition $y_{\theta}$ is constant between each interval given by $z(u)^{2}$. Therefore, there are at most $O(n)$ test vectors and for each we need $O(n^2)$ operations to compute as we go over all edges. Finally, partitioning $V$ according to $$
