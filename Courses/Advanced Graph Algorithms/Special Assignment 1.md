@@ -72,10 +72,12 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 	   Notice that $$e(S_{0},S_{-1})+e(S_{0},S_{1})=e(A',S_{-1})+e(B',S_{-1})+e(A',S_{1})+e(B',S_{1})$$Hence, $e(A',S_{-1})+e(B',S_{1})\leq \frac{e(S_{0},S_{-1})+e(S_{0},S_{1})}{2}$. 
 	   
 
-	   
-sdssd
-
 $$\begin{aligned}e(A)+e(B)&=e(A')+e(A',S_{-1})+e(S_{-1})+e(B')+e(B',S_{1})+e(S_{1})\\&=e(A')+e(B')+\frac{e(S_{0},S_{-1})+e(S_{0},S_{1})}{2}+e(S_{-1})+e(S_{1})\\&\leq 4\sqrt{ \eta(G[S]) }\cdot e(S_{0})+2\sqrt{ \eta(G) }\left| E \right| -2e(S_{-1})-2e(S_{1})\end{aligned}$$
 
 
 $$q(y)=\frac{\sum_{(u,v)\in E}^{}(y_{u}+y_{v})^{2}}{\sum_{v\in V}d_{v}y_{v}^{2}}=\frac{4(e(S_{-1})+e(S_{1}))+e(S_{0},S_{-1})+e(S_{0},S_{1})}{2 (e(S_{-1})+e(S_{1})+e(S_{-1},S_{1}))}\leq \sqrt{ 2(2-\lambda_{n}) }\leq 2\sqrt{ \eta(G) }$$
+
+1. **Claim 1**: $\eta(G[S_{0}])\leq \eta(G)\cdot \frac{\left| E \right|}{e(S_{0})}$
+	Let $T\subseteq G$. Then, let $T_{0}:= T\cap S_{0}$. We have that $$\eta(G[S_{0}])\leq\eta_{S_{0}}(T_{0})=\frac{e(T_{0})+e(S_{0} \backslash T_{0})}{e(S_{0})}\leq \frac{e(T)+e(V \backslash T)}{e(S_{0})}=\frac{e(T)+e(V \backslash T)}{\left| E \right| }\cdot \frac{\left| E \right| }{e(S_{0})}$$This proves the claim.
+
+Therefore, we have that: $$e(A')+e(B')\leq 4\sqrt{ \eta(G[S_{0}]) }\cdot e(S_{0})\leq 4\sqrt{ \eta(G)\cdot \left| E \right| \cdot e(S_{0}) }$$As $e(S_{0})=\left| E \right|-e(S_{1})-e(S_{-1})-e(S_{1},S_{-1})-e(S_{1},S_{0})-e(S_{-1},S_{0})$, It suffices to show that: $$e(A',S_{-1})+e(B',S_{1})+e(S_{-1})+e(S_{1})\leq 4\sqrt{ \eta(G)\cdot \left| E \right| \cdot  }$$
