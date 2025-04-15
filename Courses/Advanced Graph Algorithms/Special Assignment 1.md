@@ -91,9 +91,6 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 ##### Part B
 1. Let $z\in \{ -1,0,1 \}^V$. Then, $z^\top Dz=\sum_{v\in V}^{}d_{v} z_{v}^{2}$. Hence, $$q(z)+\lambda_{n}\geq \frac{\sum_{\{ u,v \}\in E}^{}(z_{u}+z_{v})^{2}}{\sum_{v\in V}^{}d_{v}z_{v}^{2}}+\frac{\sum_{\{ u,v \}\in E}^{}(z_{u}-z_{v})^{2}}{\sum_{v\in V}^{}d_{v}z_{v}^{2}}=\frac{2\sum_{\{ u,v \}\in E}^{}(z_{u}^2+z_{v}^{2})}{\sum_{v\in V}^{}d_{v}z_{v}^{2}}=2$$as we have: $$2\sum_{\{ u,v \}\in E}^{}(z_{u}^2+z_{v}^{2})=\sum_{v\in V}^{}\sum_{u\in N(v)}^{}z_{v}^{2}+\sum_{u\in V}^{}\sum_{v\in N(u)}^{}z_{u}^{2}=2 \sum_{v\in V}^{}d_{v}z^{2}_{v}$$
 2. We use the probabilistic method. Let $\theta \sim \text{Uni}([0,1))$. Then, let $X:=\sum_{(u,v)\in E}(y_{\theta}(u)+y_{\theta}(v))^{2}$ and $Y:=\sum_{v\in V} d_{v}y_{\theta}(v)^{2}$ which are discrete random variables as $y_{\theta}\in \{ -1,0,1 \}^V$. Now, from Problem Set 5 Exercise 7.6, it suffices to show that $\frac{\mathbb{E}[X]}{\mathbb{E}[Y]}\leq \sqrt{ 2(2-\lambda) }$. Indeed, we then have $\theta\in [0,1)$ s.t. $$q(y)\leq q(y_{\theta})\leq \frac{\mathbb{E}[X]}{\mathbb{E}[Y]}\leq \sqrt{ 2(2-\lambda) }$$
-   Now, for any edge $uv$, let $z(u)\leq z(v)$ wlog. Then, $$(y_{\theta}(u)+y_{\theta}(v))^{2}=\begin{cases}4&\end{cases}$$
-   
-   $$\mathbb{E}[X]=\sum_{(u,v)\in E}\mathbb{E}[(y_{\theta}(u)+y_{\theta}(v))^{2}]$$
-   
-   
-   $$\mathbb{E}[q(y_{\theta})]=$$
+   Firstly, $$\mathbb{E}[Y]=\sum_{v\in V}^{}d_{v}\mathbb{E}[y_{\theta}(v)^{2}]=\sum_{v\in V}^{}d_{v}\mathbb{P}(\theta<z(v)^{2})=\sum_{v\in V}^{}d_{v}z(v)^{2}=z^\top Dz$$
+   Now, for any edge $uv$, we have: $$(y_{\theta}(u)+y_{\theta}(v))^{2}=\begin{cases}4& \text{if }\theta<  \min\{z(u)^{2},z(v)^{2}\}\text{ and }\text{sgn}(z(u)z(v))=1\\1&\text{if }\min\{z(u)^{2},z(v)^{2}\}\leq \theta< \max\{z(u)^{2},z(v)^{2}\}\\0&\text{ otherwise}\end{cases}$$Therefore, $$\begin{aligned}\mathbb{E}[(y_{\theta}(u)+y_{\theta}(v))^{2}]&\leq 4\cdot \min\{ z(u)^{2},z(v)^{2} \}+\max\{z(u)^{2},z(v)^{2}\}-\min\{ z(u)^{2},z(v)^{2} \}\\&\leq 3\cdot \min\{ z(u)^{2},z(v)^{2} \}+\max\{z(u)^{2},z(v)^{2}\}\\&\leq \underbrace{ 2\cdot \min\{ z(u)^{2},z(v)^{2} \} }_{ \leq z(u)^{2}+z(v)^{2} }+ \underbrace{ \min\{ z(u)^{2},z(v)^{2} \}+\max\{z(u)^{2},z(v)^{2}\} }_{ =z(u)^{2}+z(v)^{2} }\\&\leq 2(z(u)^{2}+z(v)^{2})\end{aligned}$$
+	$$\mathbb{E}[X]=\sum_{(u,v)\in E}\mathbb{E}[(y_{\theta}(u)+y_{\theta}(v))^{2}]\leq 2\sum_{(u,v)\in E} z(u)^{2}+z(v)^{2}$$and $$\frac{\mathbb{E}[X]}{\mathbb{E}[Y]}\leq  \frac{2\sum_{(u,v)\in E}^{}z(u)^{2}+z(v)^{2}}{\sum_{v\in V}^{}d_{v}z(v)^{2}}$$
