@@ -106,3 +106,10 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 ##### Part C.
 1. Consider the lollipop graph $L_{n,n}$. Then, 
 2. Let $P_{n}$ be the path graph on $n$ nodes. Then, 
+3. Let $C_{n}$ be a cycle graph where $n$ is odd. Then, we will analyze $q(C_{n})$.
+	1. If $y$ does not contain zero, $q(y)= \frac{\sum_{(u,v)\in E}^{}(y(u)-y(v))^{2}}{2n}$. We have that $y(u)-y(v)=4\cdot \mathbb{1}_{y(u)=y(v)}$. As $n$ is odd, if there is no zero, we have at least one such edge where $y$ is equal. Hence, in this case the minimum quality is given as $\frac{4}{2n}=\frac{2}{n}$. 
+	2. If $y$ contains at least one zero, then we have that there are at least 2 edges where $(y(u)-y(v))^{2}=1$. Therefore, the smallest numerator we can have is $2$. However, in this case the denominator can be at most $2(n-1)$ (by having only one zero), we have that the minimum quality is given as $\frac{1}{n-1}$. 
+	
+	This shows that $q(C_{n})=\Theta\left(  \frac{1}{n} \right)$. Now to find $\lambda_{n}$, notice that $D=2I$ and we have that $N=I-\frac{1}{2}A$. As $A$ is circulant and we have that $\mu_{k}:=2\cos\left( \frac{2\pi k}{n} \right)$ for $k=0,\dots,n-1$ are the eigenvalues by Fourier. Hence, $\lambda_{k}=1- \cos \left( \frac{2\pi k}{n} \right)$ are the eigenvalues of $N$. This is maximized when $k=\left\lfloor n / 2\right\rfloor$.  If $n=2\ell+1$, then $\left\lfloor n /2\right\rfloor=\ell$ and we have that: $$2-\lambda_{n}=1+\cos\left( \frac{2\pi \ell}{2\ell+1} \right)=1+\cos\left(\pi- \frac{\pi}{n} \right)=1-\cos\left( \frac{\pi}{n} \right)=\Theta\left( \frac{1}{n^{2}} \right)$$
+	
+	
