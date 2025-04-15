@@ -82,6 +82,18 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 
 	This concludes the induction.
 
-2. Firstly, notice that as $y\neq 0$, we have that $S_{0}\subsetneq V$ and $e(S_{0})\leq \left| E \right|$. In other words, at each recursion, we reduce the size of the edges by at least 1. Hence, we can have at most $\left| E \right|=O(n^2)$ recursions. 
+2. Firstly, as $q(y)\leq \sqrt{ 2(2-\lambda_{n}) }< \sqrt{ 2 q(0)}$, we have that $y\neq 0$. Hence, $S_{0}\subsetneq V$ and $e(S_{0})\leq \left| E \right|$. In other words, at each recursion, we reduce the size of the edges by at least 1. Hence, we can have at most $\left| E \right|=O(n^2)$ recursions. 
    
-   In each recursion, we need $O(n^3)$ to compute $\lambda_{n}$ and $z$ via Gaussian elimination. To compute $y$, notice that we do not need to optimize it over all $\theta$, but only at $z(u)^{2}$ over all $u\in V$. Indeed, by definition $y_{\theta}$ is constant between each interval given by $z(u)^{2}$. Therefore, there are at most $O(n)$ test vectors and for each we need $O(n^2)$ operations to compute as we go over all edges. Finally, partitioning $V$ according to $$
+   In each recursion, we need $O(n^3)$ to compute $\lambda_{n}$ and $z$ via Gaussian elimination. To compute $y$, notice that we do not need to optimize it over all $\theta$, but only at $z(u)^{2}$ over all $u\in V$. Indeed, by definition $y_{\theta}$ is constant between each interval given by $z(u)^{2}$. Therefore, there are at most $O(n)$ test vectors and for each we need $O(n^2)$ operations to compute as we go over all edges. Finally, partitioning $V$ according to $y$ takes $O(n)$ time.
+   
+   This shows that the algorithm can be implemented in polynomial time.
+---
+##### Part B
+1. Let $z\in \{ -1,0,1 \}^V$. Then, $z^\top Dz=\sum_{v\in V}^{}d_{v} z_{v}^{2}$. Hence, $$q(z)+\lambda_{n}\geq \frac{\sum_{\{ u,v \}\in E}^{}(z_{u}+z_{v})^{2}}{\sum_{v\in V}^{}d_{v}z_{v}^{2}}+\frac{\sum_{\{ u,v \}\in E}^{}(z_{u}-z_{v})^{2}}{\sum_{v\in V}^{}d_{v}z_{v}^{2}}=\frac{2\sum_{\{ u,v \}\in E}^{}(z_{u}^2+z_{v}^{2})}{\sum_{v\in V}^{}d_{v}z_{v}^{2}}=2$$as we have: $$2\sum_{\{ u,v \}\in E}^{}(z_{u}^2+z_{v}^{2})=\sum_{v\in V}^{}\sum_{u\in N(v)}^{}z_{v}^{2}+\sum_{u\in V}^{}\sum_{v\in N(u)}^{}z_{u}^{2}=2 \sum_{v\in V}^{}d_{v}z^{2}_{v}$$
+2. We use the probabilistic method. Let $\theta \sim \text{Uni}([0,1))$. Then, let $X:=\sum_{(u,v)\in E}(y_{\theta}(u)+y_{\theta}(v))^{2}$ and $Y:=\sum_{v\in V} d_{v}y_{\theta}(v)^{2}$ which are discrete random variables as $y_{\theta}\in \{ -1,0,1 \}^V$. Now, from Problem Set 5 Exercise 7.6, it suffices to show that $\frac{\mathbb{E}[X]}{\mathbb{E}[Y]}\leq \sqrt{ 2(2-\lambda) }$. Indeed, we then have $\theta\in [0,1)$ s.t. $$q(y)\leq q(y_{\theta})\leq \frac{\mathbb{E}[X]}{\mathbb{E}[Y]}\leq \sqrt{ 2(2-\lambda) }$$
+   Now, for any edge $uv$, let $z(u)\leq z(v)$ wlog. Then, $$(y_{\theta}(u)+y_{\theta}(v))^{2}=\begin{cases}4&\end{cases}$$
+   
+   $$\mathbb{E}[X]=\sum_{(u,v)\in E}\mathbb{E}[(y_{\theta}(u)+y_{\theta}(v))^{2}]$$
+   
+   
+   $$\mathbb{E}[q(y_{\theta})]=$$
