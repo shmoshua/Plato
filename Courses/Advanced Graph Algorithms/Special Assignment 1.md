@@ -101,3 +101,8 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 	
 	
 	Using Cauchy-Schwarz, we get: $$\mathbb{E}[X]=\sum_{(u,v)\in E}^{}\mathbb{E}[(y_{\theta}(u)+y_{\theta}(v))^{2}]\leq \sqrt{ \sum_{(u,v)\in E}(z(u)^{2}+z(v)^{2})^{2} }\cdot \sqrt{ \sum_{(u,v)\in E}^{}1+\text{sgn}(z(u))\text{sgn}(z(v)) }$$
+
+---
+##### Part C.
+1. Consider the lollipop graph $L_{n,n}$. Then, 
+2. Let $P_{n}$ be the path graph on $n$ nodes. Then, 
