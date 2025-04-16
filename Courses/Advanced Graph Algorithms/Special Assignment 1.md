@@ -96,13 +96,20 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
    
    Finally, $$\begin{aligned}\mathbb{E}[X]&=\sum_{(u,v)\in E}\mathbb{E}[(y_{\theta}(u)^{2}+y_{\theta}(v)^{2})]\leq \sum_{(u,v)\in E}\left| z(u)+z(v) \right|\cdot(\left| z(u) \right|+\left| z(v) \right|)\\&\leq \sqrt{ \sum_{(u,v)\in E}^{}(z(u)+z(v))^{2} }\cdot \sqrt{ \sum_{(u,v)\in E}^{}(\left| z(u) \right| +\left| z(v) \right| )^{2} }\end{aligned}$$Now, 
 	1. $\sum_{(u,v)\in E}^{}(\left| z(u) \right| +\left| z(v) \right| )^{2}\leq 2\sum_{(u,v)\in E}z(u)^{2}+z(v)^{2}=2\sum_{v\in V}^{}d_{v}z(v)^{2}=2z^\top Dz$.
-	2. 
-3. 
+	2. As we have that $z^\top Lz = \lambda_{n}z^\top Dz$, we have that: $$\begin{aligned}\sum_{(u,v)\in E}^{}(z(u)+z(v))^{2}&=\sum_{(u,v)\in E}^{}2z(u)^{2}+2z(v)^{2}-(z(u)-z(v))^{2}\\&=2z^\top Dz-z^\top Lz\\&=(2-\lambda_{n})z^\top Dz\end{aligned}$$
+
+   This shows that $\mathbb{E}[X]\leq \sqrt{ 2(2-\lambda_{n}) }z^\top Dz$ and as $\mathbb{E}[Y]=z^\top Dz$, we have the desired claim.
 
 ---
 ##### Part C.
-1. Consider the lollipop graph $L_{n,n}$. Then, 
-2. Let $P_{n}$ be the path graph on $n$ nodes. Then, 
+1. Consider a star graph on $n$ nodes. We choose a pair of leaves and add a single edge between them. Let this graph be called $G$. 
+   
+   We first show that $2-\lambda_{n}=\Theta(1 / n)$. 
+   
+   Let 
+	
+	Let the center node be $v$. If $y(v)=0$ let $a:=\left| \{ u\in V\backslash \{ v \}: y(u)\neq 0 \} \right|$. Then, $$\frac{a}{a+2}\leq q(y)$$
+2. 
 3. Let $C_{n}$ be a cycle graph where $n$ is odd. Then, we will analyze $q(C_{n})$.
 	1. If $y$ does not contain zero, $q(y)= \frac{\sum_{(u,v)\in E}^{}(y(u)-y(v))^{2}}{2n}$. We have that $y(u)-y(v)=4\cdot \mathbb{1}_{y(u)=y(v)}$. As $n$ is odd, if there is no zero, we have at least one such edge where $y$ is equal. Hence, in this case the minimum quality is given as $\frac{4}{2n}=\frac{2}{n}$. 
 	2. If $y$ contains at least one zero, then we have that there are at least 2 edges where $(y(u)-y(v))^{2}=1$. Therefore, the smallest numerator we can have is $2$. However, in this case the denominator can be at most $2(n-1)$ (by having only one zero), we have that the minimum quality is given as $\frac{1}{n-1}$. 
