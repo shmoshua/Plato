@@ -18,6 +18,8 @@
 ---
 ##### Part C.
 1. A dual vector map for $\|\cdot\|_{M}$ is given by: $$(\cdot )^{\sharp}:\mathbb{R}^n\to \mathbb{R}^n,\quad x\mapsto \frac{Mx}{\sqrt{ x^\top Mx }}$$Then, the properties hold for $x=0$ and for all non-zero $x$, $x^\top x^{\sharp}=\frac{x^\top Mx}{\sqrt{ x^\top Mx }}=\sqrt{ x^\top Mx }=\|x\|_{M}$. Further, $$(\left\| x^{\sharp} \right\|_{M})_{*}=\left\| x^{\sharp} \right\| _{M^{-1}}=\frac{x^\top Mx}{x^\top Mx}=1 $$To show the uniqueness, notice that for $x=0$, 
+2. Consider the following map. For $x\in \mathbb{R}^n$, let $j\in[n]$ s.t. $\|x\|_{\infty}=\left| x_{j} \right|$. Then, define: $$x^{\sharp}=\text{sgn}(x_{j})\cdot e_{j}$$and $0^{\sharp}=e_{1}$. This already shows non-uniqueness as $j$ is not unique for all $x$. Now, $$x^\top x^{\sharp}=\text{sgn}(x_{j})x^\top e_{j}=\text{sgn}(x_{j})x_{j}=\left| x_{j} \right| =\|x\|_{\infty}$$and $\left\| x^{\sharp} \right\| _{1}=\left\| e_{j} \right\| _{1}=1$ for some $j$. This shows that it is indeed a dual vector map.
+   
 
 ---
 ##### Part D.
@@ -25,7 +27,10 @@ Let $x,y\in \mathbb{R}^n$. Then, by Proposition 3.3.4 we have that: $$\begin{ali
 
 ---
 ##### Part E.
-Similarly to the gradient descent in the script, We perform Gradient Descent by: $$x_{i+1}:=x_{i}- \frac{1}{\beta} \nabla f(x_{i})$$Then, notice that using Part D and Part A.3 we can analogously follow the proof s.t. we have the guarantee: $$f(x_{k})-f(x^{*})\leq \frac{2\beta \left\| x_{0}-x^{*} \right\| ^{2}}{k+1},\quad \forall k\geq 1$$
+Similarly to the gradient descent in the script, We perform Gradient Descent by: $$x_{i+1}:=x_{i}- \frac{1}{\beta} \left\| \nabla  f(x_{i}) \right\| _{*}(\nabla f(x_{i}))^{\sharp}$$As $f$ is $\beta$-gradient Lipschitz, from Part D,$$\begin{aligned}f(x_{i+1})\leq f(x_{i})-\frac{1}{\beta}\left\| \nabla f(x_{i}) \right\| _{*}\nabla f(x_{i})^\top \nabla f(x_{i})^{\sharp}+\frac{\beta}{2}\cdot  \frac{1}{\beta^{2}}\left\| \nabla f(x_{i}) \right\| ^{2}_{*}\left\| \nabla f(x_{i})^{\sharp} \right\|^{2} \end{aligned}$$
+
+
+Then, notice that using Part D and Part A.3 we can analogously follow the proof s.t. we have the guarantee: $$f(x_{k})-f(x^{*})\leq \frac{2\beta \left\| x_{0}-x^{*} \right\| ^{2}}{k+1},\quad \forall k\geq 1$$
 Now, let $k:= \left\lceil \frac{2\beta \left\| x_{0}-x^{*} \right\|^{2}}{ \varepsilon}\right\rceil$. Then, we have that $f(x_{k})-f(x^{*})\leq \varepsilon$. In each iteration, we have 1 access to $\nabla f(\cdot)$ and computing $x_{i+1}$ takes at most $O(n)$ arithmetic operations. Hence, as $k=O\left( \frac{\beta R^{2}}{\varepsilon} \right)$ we have the desired algorithm by outputting $\tilde{x}:=x_{k}$.
 
 ---
