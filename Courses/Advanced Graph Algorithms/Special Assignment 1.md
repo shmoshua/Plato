@@ -116,14 +116,14 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 ---
 ##### Part D.
 
-Consider $K_{n,n}$. On each side of $K_{n,n}$, we choose $\log n$ vertices and add edges so that they become a clique. Let this new graph be called $G$. 
-1. Consider the test vector $z$ that assigns $1$ and $-1$ on each side of $K_{n,n}$ and $0$ for all the clique vertices. Then, $$\begin{aligned}\lambda_{n}&\geq \frac{\sum_{(u,v)\in E}^{}(z(u)-z(v))^{2}}{\sum_{v\in V}^{}d_{v}z(v)^{2}}\\&=\frac{4(n-x)^{2}+2x(n-x)}{2(n-\log n)n}\\&=\frac{2n-1}{2n}\end{aligned}$$
+Consider $K_{n,n}=(A\sqcup B, E)$. On each side of $K_{n,n}$, we choose $\log n$ vertices and add edges so that they become a clique. Let this new graph be called $G$. 
+1. Consider the test vector $z$ that assigns $1$ and $-1$ on each side of $K_{n,n}$ and $0$ for all the clique vertices. Then, for $x:= \log n$,$$\begin{aligned}\lambda_{n}&\geq \frac{\sum_{(u,v)\in E}^{}(z(u)-z(v))^{2}}{\sum_{v\in V}^{}d_{v}z(v)^{2}}\\&=\frac{4(n-x)^{2}+2x(n-x)}{2(n-x)n}\\&=\frac{2(n-x)+x}{n}=2-\frac{x}{n}\end{aligned}$$Therefore, $2-\lambda_{n} = o(1)$. 
+2. Now, for $\gamma(G)$, let $y\in \{ \pm 1 \}^n$. Then, the denominator is equal to $\sum_{v\in V}^{}d_{v}=2\left| E \right|$. Hence the denominator is given as: $2(n^2+x(x-1))$. For the numerator, it is clear that the quality is lower if the non-clique vertices are assigned $-1,+1$ according to their sides in $K_{n,n}$. 
+   
+   For the clique vertices, let $a_{1},a_{-1}$ be the number of nodes in the clique of $A$ with $y=+1$ and $y=-1$ respectively. Similarly, let $b_{1},b_{-1}$ be the numbers in the clique of $B$. By definition $a_{1}+a_{-1}=b_{1}+b_{-1}=x$. Now, the numerator is given by $4\cdot$ number of edges with the same label. Wlog assume that $-1$ is assigned to non-clique vertices in $A$. Then, the numerator is given by: $$\begin{aligned}&\ 4(a_{1}(n-x)+a_{1}b_{1}+b_{-1}(n-x)+a_{-1}b_{-1}+{a_{1} \choose 2}+{a_{-1} \choose 2}+{b_{1} \choose 2}+{b_{-1} \choose 2})\\=&\ 2 (2(a_{1}+b_{-1})(n-x)+(a_{1}+b_{1})^{2}+(a_{-1}+b_{-1})^{2}-2x)\end{aligned}$$This is minimized when $a_{1}=b_{1}=a_{-1}=b_{-1}=x /2$.  Therefore, we have that: $$q(G)\geq \frac{2x(n-x)+2x^{2}-2x}{n^2+x(x-1)}=\frac{2x(n-1)}{n^2+x(x-1)}$$
+   
+3. . We consider the following optimization problem 
+   $$q(y)=\frac{}{}$$
 
-Let $k\geq 1$. We define $n:= 2^k$. Now, let $G$ be a graph constructed by $C_{n}$ and one additional node $c$ that is connected to $\frac{n}{\log n}$ consecutive nodes on the cycle. Then,
-1. Consider the test vector $z$ that alternates between $+1$ and $-1$ on the cycle and $z(c)=0$. Then,
- $$\lambda_{n}\geq \frac{4\cdot n+ \frac{n}{\log n}}{2n+\frac{n}{\log n}}=2-\frac{\frac{1}{\log n}}{2+\frac{1}{\log n}}=2-\frac{1}{2\log n+1}$$Therefore, $2-\lambda_{n}=o(1)$.
- 1. Now, for $\gamma(G)$, as $y\in \{ \pm 1 \}^n$, we have that the denominator is $2\left( n+\frac{n}{\log n} \right)$. However, by construction, there exists at least 
-
-Consider a wheel graph $G$, i.e. we have a cycle on $n-1$ nodes and a center node $c$ that shares an edge with every other node. Then, for any $y\in \{ \pm 1 \}^n$, the denominator is given as $n-1+3(n-1)=4(n-1)$. Notice that there will always be at least $\frac{n}{2}$ edges with $(y(u)+y(v))^{2}=4$. Hence, $\gamma(G)= \Omega(1)$. 
 
 
