@@ -31,15 +31,15 @@ $(\cdot)^\flat :\mathbb{R}^n\to \mathbb{R}^n$ s.t. $x^\top x^{\flat}=\|x\|_{*}$ 
 Similarly to the gradient descent in the script, We perform Gradient Descent by: $$x_{i+1}:=x_{i}- \frac{1}{\beta} \left\| \nabla  f(x_{i}) \right\| _{*}(\nabla f(x_{i}))^{\flat}$$As $f$ is $\beta$-gradient Lipschitz, from Part D,$$\begin{aligned}f(x_{i+1})&\leq f(x_{i})-\frac{1}{\beta}\left\| \nabla f(x_{i}) \right\| _{*}\nabla f(x_{i})^\top \nabla f(x_{i})^{\flat}+\frac{\beta}{2}\cdot  \frac{1}{\beta^{2}}\left\| \nabla f(x_{i}) \right\| ^{2}_{*}\left\| \nabla f(x_{i})^{\flat}\right\|^{2}\\&= f(x_{i})-\frac{1}{\beta}\left\| \nabla f(x_{i}) \right\| _{*}^{2}+\frac{1}{2\beta}\left\| \nabla f(x_{i}) \right\| ^{2}_{*}\\&= f(x_{i})-\frac{1}{2\beta}\left\| \nabla f(x_{i}) \right\| ^{2}_{*}\end{aligned}$$
 Then, for the rest we can analogously follow the proof with $\text{gap}_{i}:=f(x_{i})-f(x^{*})$ and get $\text{gap}_{i+1}- \text{gap}_{i}\leq -\frac{\left\| \nabla f(x_{i}) \right\|^{2}_{*}}{2\beta}$. Further, we claim that: 
 $$
-f(x_{k})-f(x^{*})\leq \frac{2\beta \left\| x_{0}-x^{*} \right\| ^{2}}{k+1}
+\text{gap}_{k}=f(x_{k})-f(x^{*})\leq \frac{2\beta R^{2}}{k+1}
 $$
+First note that: $$\text{gap}_{k}=f(x_{k})-f(x^{*})\leq \nabla f(x_{k})^\top (x_{k}-x^{*})\leq R \left\| \nabla f(x_{k}) \right\| _{*}$$
 
 We show this by induction over $i$. 
-1. Let $i=0$. Then, $$\text{gap}_{0}=f(x_{0})-f(x^{*})\leq \nabla f(x_{0})^\top(x_{0}-x^{*})\leq \left\| \nabla f(x_{0}) \right\|_{*}\left\| x_{0}-x^{*} \right\| \leq \beta \left\| x_{0}-x^{*} \right\| _{2}^2$$where for the first inequality, we use the convexity, for the second we use Cauchy-Schwarz and for the last, $\beta$-gradient-Lipschitzness and $\nabla f(x^{*})=0$. Therefore, the statement holds.
-2. Let $i\geq 1$. Then, from the lectures, we have that: $$\text{gap}_{i+1}\leq \text{gap}_{i}-\frac{1}{2\beta}\frac{\text{gap}_{i}^{2}}{\left\| x_{0}-x^{*} \right\| ^2_{2}}=\frac{\text{gap}_{i}(2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i})}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}$$Hence, $$\frac{1}{\text{gap}_{i+1}}\geq \frac{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}{\text{gap}_{i}(2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i})}=\frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i}}$$Now, as $\text{gap}_{i}\leq \text{gap}_{i-1}-\frac{\left\| \nabla f(x_{i-1}) \right\|^2_{2}}{2\beta}\leq \text{gap}_{i-1}$ for all $i$, from Case 1, $\text{gap}_{i}\leq 2\beta \left\| x_{0}-x^{*} \right\|^2_{2}$ and we get the relation: $$\frac{1}{\text{gap}_{i+1}}\geq \frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}-\text{gap}_{i}}\geq \frac{1}{\text{gap}_{i}}+\frac{1}{2\beta \left\| x_{0}-x^{*} \right\| ^{2}_{2}}\geq \frac{i+1}{2\beta \left\| x_{0}-x^{*} \right\| ^2_{2}}$$This proves the statement.
-
-Then, notice that using Part D and Part A.3 we can analogously follow the proof s.t. we have the guarantee: $$f(x_{k})-f(x^{*})\leq \frac{2\beta \left\| x_{0}-x^{*} \right\| ^{2}}{k+1},\quad \forall k\geq 1$$
-Now, let $k:= \left\lceil \frac{2\beta \left\| x_{0}-x^{*} \right\|^{2}}{ \varepsilon}\right\rceil$. Then, we have that $f(x_{k})-f(x^{*})\leq \varepsilon$. In each iteration, we have 1 access to $\nabla f(\cdot)$ and computing $x_{i+1}$ takes at most $O(n)$ arithmetic operations. Hence, as $k=O\left( \frac{\beta R^{2}}{\varepsilon} \right)$ we have the desired algorithm by outputting $\tilde{x}:=x_{k}$.
+1. Let $i=0$. Then, $$\text{gap}_{0}=f(x_{0})-f(x^{*})\leq \nabla f(x_{0})^\top(x_{0}-x^{*})\leq \left\| \nabla f(x_{0}) \right\|_{*}\left\| x_{0}-x^{*} \right\| \leq \beta R^{2}$$where for the first inequality, we use the convexity, for the second we use Cauchy-Schwarz and for the last, $\beta$-gradient-Lipschitzness and $\nabla f(x^{*})=0$. Therefore, the statement holds.
+2. Let $i\geq 1$. Then, $$\frac{1}{\text{gap}_{i-1}}-\frac{1}{\text{gap}_{i}}=\frac{\text{gap}_{i}-\text{gap}_{i-1}}{\text{gap}_{i-1}\text{gap}_{i}}\leq -\frac{1}{2\beta}\frac{\left\| \nabla f(x_{i-1}) \right\| ^{2}_{*}}{\text{gap}_{i-1}\text{gap}_{i}}\leq -\frac{1}{2\beta R^{2}}\frac{\text{gap}_{i-1}}{\text{gap}_{i}}\leq  -\frac{1}{2\beta R^{2}}$$Therefore, by induction: $$\frac{1}{\text{gap}_{i}}\geq \frac{1}{\text{gap}_{i-1}}+\frac{1}{2\beta R^{2}}=\frac{i+1}{2\beta R^{2}}$$and this proves the claim.
+   
+Now, let $k:= \left\lceil \frac{2\beta R^{2}}{ \varepsilon}\right\rceil$. Then, we have that $f(x_{k})-f(x^{*})\leq \varepsilon$. In each iteration, we have 1 access to $\nabla f(\cdot)$ and $(\cdot)^{\flat}$ and computing $x_{i+1}$ takes at most $O(n)$ arithmetic operations. Hence, as $k=O\left( \frac{\beta R^{2}}{\varepsilon} \right)$ we have the desired algorithm by outputting $\tilde{x}:=x_{k}$.
 
 ---
 ##### Part F.
@@ -73,6 +73,15 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
    
 2. We have: $$g(y)\leq g(0)=s(f_{0})\leq \left\| f_{0} \right\| _{\infty}+\frac{2\log \left| E \right| }{\lambda}\leq (1+\left\| P \right\| _{\infty\to \infty})\text{OPT}+\frac{2\log \left| E \right| }{\lambda}$$
 3. Let $x\in \mathbb{R}^\left| E \right|$ with $g(x)\leq g(0)$ and $x^{*}\in X^{*}$. Then, by defining $y:=x-Px+Px^{*}$, we have that $Py=Px-Px+Px^{*}=Px^{*}$ and $g(y)=g(x^{*})$. Therefore, $y\in X^{*}$ and we have that: $$\min_{x^{*}\in X^{*}}\left\| x-x^{*} \right\| _{\infty}\leq \left\| x-y \right\| _{\infty}=\left\| Px-Px^{*} \right\| \left\| f_{0}+Px -f_{0}-Px^{*}\right\|_{\infty}$$Hence, by triangle inequality, $$\min_{x^{*}\in X^{*}}\left\| x-x^{*} \right\| _{\infty}\leq \left\| f_{0}+Px \right\| _{\infty}+\left\| f_{0}+P x^{*}\right\|_{\infty} \leq g(x)+g(x^{*})\leq 2g(x)\leq O(g(x))$$The rest follows from Part J.2.
+---
+##### Part K
+We will show that running the gradient descent given in Part E on $g$ w.r.t $\|\cdot\|_{\infty}$ gives a $(1+\varepsilon)$-approximation of $\text{OPT}$ in the given complexity bounds. From Part I.2, it suffices to find $\widehat{x}$ s.t. $g(\widehat{x})-g(x^{*})\leq \frac{\varepsilon}{2}\text{OPT}$ for a $(1+\varepsilon)$-approximation for some $\lambda=O(\log \left| E \right| / \varepsilon \text{OPT})$.
+
+From Part E, we have that with at most $O\left( \frac{\beta R^{2}}{\varepsilon \text{OPT}} \right)$ calls to $\nabla g$ and $(\cdot)^{\flat}$ (in this case would be w.r.t. $\|\cdot\|_{1}$) and at most $O\left( \left| E \right|\frac{\beta R^{2}}{\varepsilon \text{OPT}} \right)$ additional arithmetic operations s.t. $g(\widehat{x})-g(x^{*})\leq  \frac{\varepsilon}{2}\text{OPT}$. 
+
+Then, we have: $$\beta=O(\lambda \left\| P \right\| ^{2}_{\infty\to \infty})=O\left( \frac{\log \left| E \right| }{\varepsilon \text{OPT}}\left( 1+8\frac{\log(\left| E \right| )}{\Phi^{2}} \right) ^{2} \right)=O\left( \frac{\log^3\left| E \right| }{\varepsilon \text{OPT}\Phi^4} \right)$$and $$R=O\left( (1+\left\| P \right\| _{\infty\to \infty})\text{OPT}+\frac{\log \left| E \right| }{\lambda} \right)=O\left(  \frac{\log \left| E \right| }{\Phi^{2}}\text{OPT} \right)$$Therefore, $$O\left( \frac{\beta R^{2}}{\varepsilon \text{OPT}} \right)=O\left( \frac{\log^5\left| E \right|\text{OPT}^{2}}{} \right)$$
+
+
 ---
 #### Problem 2. Computing dissimilar test groups
 ##### Part A
