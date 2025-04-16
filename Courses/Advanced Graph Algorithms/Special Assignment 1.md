@@ -128,4 +128,4 @@ Consider $K_{n,n}=(A\sqcup B, E)$. On each side of $K_{n,n}$, we choose $\log n$
 
 
 
-Let $C_{n}$ be a cycle on $n$ edges and $K_{x}$ a clique on $x$. We connect s.t. each cycle node is connected to $$\lambda\geq \frac{4()}{n\log n+2n+2(k-1+n^{1/2}\log n )}$$
+Let $C_{n}$ be a cycle on $n$ edges and $K_{x}$ a clique on $x$. We connect s.t. each cycle node is connected to $$\lambda\geq \frac{4(n+n^{3/4}+1)+(n^{1/2}-2)\cdot  n^{3/4}+2(n^{1/2}-2)}{n^{5/4}+2n+2(n^{3/4}+n^{1/2}-1 )}$$
