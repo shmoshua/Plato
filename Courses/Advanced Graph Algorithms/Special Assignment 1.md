@@ -116,6 +116,9 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 ---
 ##### Part D.
 
+Consider $K_{n,n}$. On each side of $K_{n,n}$, we choose $\log n$ vertices and add edges so that they become a clique. Let this new graph be called $G$. 
+1. Consider the test vector $z$ that assigns $1$ and $-1$ on each side of $K_{n,n}$ and $0$ for all the clique vertices. Then, $$\begin{aligned}\lambda_{n}&\geq \frac{\sum_{(u,v)\in E}^{}(z(u)-z(v))^{2}}{\sum_{v\in V}^{}d_{v}z(v)^{2}}\\&=\frac{4(n-x)^{2}+2x(n-x)}{2(n-\log n)n}\\&=\frac{2n-1}{2n}\end{aligned}$$
+
 Let $k\geq 1$. We define $n:= 2^k$. Now, let $G$ be a graph constructed by $C_{n}$ and one additional node $c$ that is connected to $\frac{n}{\log n}$ consecutive nodes on the cycle. Then,
 1. Consider the test vector $z$ that alternates between $+1$ and $-1$ on the cycle and $z(c)=0$. Then,
  $$\lambda_{n}\geq \frac{4\cdot n+ \frac{n}{\log n}}{2n+\frac{n}{\log n}}=2-\frac{\frac{1}{\log n}}{2+\frac{1}{\log n}}=2-\frac{1}{2\log n+1}$$Therefore, $2-\lambda_{n}=o(1)$.
