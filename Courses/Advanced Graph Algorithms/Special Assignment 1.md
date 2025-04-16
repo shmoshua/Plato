@@ -102,18 +102,16 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 
 ---
 ##### Part C.
-1. Consider a star graph on $n$ nodes. We choose a pair of leaves and add a single edge between them. Let this graph be called $G$. 
+1. Consider a star graph on $n$ nodes. We choose a pair of leaves and add a single edge between them. Let this graph be called $G$. Further, we denote $c$ as the center node and $v_{1},\dots,v_{n-1}$ be the leaves where wlog we assume $(v_{1},v_{2})\in E$.
    
-   We first show that $2-\lambda_{n}=\Theta(1 / n)$. 
-   
-   Let 
-	
-	Let the center node be $v$. If $y(v)=0$ let $a:=\left| \{ u\in V\backslash \{ v \}: y(u)\neq 0 \} \right|$. Then, $$\frac{a}{a+2}\leq q(y)$$
-2. 
-3. Let $C_{n}$ be a cycle graph where $n$ is odd. Then, we will analyze $q(C_{n})$.
-	1. If $y$ does not contain zero, $q(y)= \frac{\sum_{(u,v)\in E}^{}(y(u)-y(v))^{2}}{2n}$. We have that $y(u)-y(v)=4\cdot \mathbb{1}_{y(u)=y(v)}$. As $n$ is odd, if there is no zero, we have at least one such edge where $y$ is equal. Hence, in this case the minimum quality is given as $\frac{4}{2n}=\frac{2}{n}$. 
-	2. If $y$ contains at least one zero, then we have that there are at least 2 edges where $(y(u)-y(v))^{2}=1$. Therefore, the smallest numerator we can have is $2$. However, in this case the denominator can be at most $2(n-1)$ (by having only one zero), we have that the minimum quality is given as $\frac{1}{n-1}$. 
+   We first show that $2-\lambda_{n}=\Theta(1 / n)$. Let $z\in \{ \pm 1 \}^n$ where $z(c)=1$ and $z(v)=-1$ for all $v\neq c$. Then, $$\lambda_{n}\geq \frac{\sum_{(u,v)\in E}^{}(z(u)-z(v))^{2}}{\sum_{v\in V}^{}d_{v}z(v)^{2}}=\frac{4(n-1)}{2n}=2-\frac{1}{2n}$$
+   Now, as $2-\lambda\leq q(y)$ for all $y\in \{ -1,0,+1 \}^n$, $2-\lambda\leq q(G)$. Therefore, we are left to upper bound $q(G)$. Consider $y\in \{ -1,0,+1 \}^n$ where: $$y(v)=\begin{cases}1&v=c\\0&v\in \{ v_{1},v_{2} \}\\-1&\text{otherwise}\end{cases}$$Then, $$q(y)=\frac{\sum_{(u,v)\in E}^{}(y(u)+y(v))^2}{\sum_{v\in V}d_{v}y(v)^{2}}=\frac{2}{n-1+n-3}=O\left( \frac{1}{n} \right)$$This shows the claim.
+
+2. Let $C_{n}$ be a cycle graph where $n$ is odd. Then, we will analyze $q(C_{n})$.
+	1. If $y$ does not contain zero, $q(y)= \frac{\sum_{(u,v)\in E}^{}(y(u)+y(v))^{2}}{2n}$. We have that $y(u)+y(v)=4\cdot \mathbb{1}_{y(u)=y(v)}$. As $n$ is odd, if there is no zero, we have at least one such edge where $y$ is equal. Hence, in this case the minimum quality is given as $\frac{4}{2n}=\frac{2}{n}$. 
+	2. If $y$ contains at least one zero, then we have that there are at least 2 edges where $(y(u)+y(v))^{2}=1$. Therefore, the smallest numerator we can have is $2$. However, in this case the denominator can be at most $2(n-1)$ (by having only one zero), we have that the minimum quality is given as $\frac{1}{n-1}$. 
 	
 	This shows that $q(C_{n})=\Theta\left(  \frac{1}{n} \right)$. Now to find $\lambda_{n}$, notice that $D=2I$ and we have that $N=I-\frac{1}{2}A$. As $A$ is circulant and we have that $\mu_{k}:=2\cos\left( \frac{2\pi k}{n} \right)$ for $k=0,\dots,n-1$ are the eigenvalues by Fourier. Hence, $\lambda_{k}=1- \cos \left( \frac{2\pi k}{n} \right)$ are the eigenvalues of $N$. This is maximized when $k=\left\lfloor n / 2\right\rfloor$.  If $n=2\ell+1$, then $\left\lfloor n /2\right\rfloor=\ell$ and we have that: $$2-\lambda_{n}=1+\cos\left( \frac{2\pi \ell}{2\ell+1} \right)=1+\cos\left(\pi- \frac{\pi}{n} \right)=1-\cos\left( \frac{\pi}{n} \right)=\Theta\left( \frac{1}{n^{2}} \right)$$
 	
-	
+---
+##### Part D.
