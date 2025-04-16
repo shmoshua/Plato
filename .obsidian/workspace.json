@@ -127,8 +127,7 @@
               "title": "Bounded Linear Map"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,8 +272,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02531ae3af29bf7b",
+  "active": "04f222e17248b652",
   "lastOpenFiles": [
+    "Graph Theory/Expander.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
     "Courses/Advanced Graph Algorithms/Problem Set 6.md",
@@ -300,7 +300,6 @@
     "Untitled.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
-    "Probability Theory/Expected Value.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
