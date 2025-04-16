@@ -116,6 +116,11 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 ---
 ##### Part D.
 
+Let $k\geq 1$. We define $n:= 2^k$. Now, let $G$ be a graph constructed by $C_{n}$ and one additional node $c$ that is connected to $\frac{n}{\log n}$ consecutive nodes on the cycle. Then,
+1. Consider the test vector $z$ that alternates between $+1$ and $-1$ on the cycle and $z(c)=0$. Then,
+ $$\lambda_{n}\geq \frac{4\cdot n+ \frac{n}{\log n}}{2n+\frac{n}{\log n}}=2-\frac{\frac{1}{\log n}}{2+\frac{1}{\log n}}=2-\frac{1}{2\log n+1}$$Therefore, $2-\lambda_{n}=o(1)$.
+ 1. Now, for $\gamma(G)$, as $y\in \{ \pm 1 \}^n$, we have that the denominator is $2\left( n+\frac{n}{\log n} \right)$. However, by construction, there exists at least 
+
 Consider a wheel graph $G$, i.e. we have a cycle on $n-1$ nodes and a center node $c$ that shares an edge with every other node. Then, for any $y\in \{ \pm 1 \}^n$, the denominator is given as $n-1+3(n-1)=4(n-1)$. Notice that there will always be at least $\frac{n}{2}$ edges with $(y(u)+y(v))^{2}=4$. Hence, $\gamma(G)= \Omega(1)$. 
 
 
