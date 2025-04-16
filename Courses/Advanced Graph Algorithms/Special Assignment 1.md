@@ -115,3 +115,7 @@ Now, using the second-order Taylor, for some $z\in [x,y]$ we have:$$\begin{align
 	
 ---
 ##### Part D.
+
+Consider a wheel graph $G$, i.e. we have a cycle on $n-1$ nodes and a center node $c$ that shares an edge with every other node. Then, for any $y\in \{ \pm 1 \}^n$, the denominator is given as $n-1+3(n-1)=4(n-1)$. Notice that there will always be at least $\frac{n}{2}$ edges with $(y(u)+y(v))^{2}=4$. Hence, $\gamma(G)= \Omega(1)$. 
+
+
