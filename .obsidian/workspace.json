@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Problem Set 2"
             }
           },
           {
@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Expander.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expander"
+              "title": "Problem Set 2"
             }
           },
           {
@@ -274,14 +274,15 @@
   },
   "active": "04f222e17248b652",
   "lastOpenFiles": [
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Graph Theory/Expander.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
-    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
     "Courses/Advanced Graph Algorithms/Problem Set 6.md",
     "Courses/Probability Theory/Exercise Class 8.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Probability Theory/Exercise Class 6.md",
     "Analysis/Convex Function.md",
@@ -294,7 +295,6 @@
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Measure Theory/Lebesgue Measure.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "Untitled.md",
