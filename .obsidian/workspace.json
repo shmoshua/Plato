@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+                "file": "Graph Theory/Expander.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 5"
+              "title": "Expander"
             }
           },
           {
@@ -127,7 +127,8 @@
               "title": "Bounded Linear Map"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,11 +273,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "04f222e17248b652",
+  "active": "02531ae3af29bf7b",
   "lastOpenFiles": [
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 6.md",
     "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 6.md",
     "Courses/Probability Theory/Exercise Class 8.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
