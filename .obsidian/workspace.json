@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Exercise Sheet 8"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Exercise Sheet 8"
             }
           },
           {
@@ -274,8 +274,9 @@
   },
   "active": "04f222e17248b652",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Graph Theory/Expander.md",
@@ -299,7 +300,6 @@
     "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "Untitled.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
