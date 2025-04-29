@@ -78,8 +78,7 @@
               "title": "Exercise Class 8"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -106,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 2.md",
+                "file": "Measure Theory/Convergence in Measure.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 2"
+              "title": "Convergence in Measure"
             }
           },
           {
@@ -288,18 +287,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a4f36ac9fe653c7e",
+  "active": "04f222e17248b652",
   "lastOpenFiles": [
+    "Measure Theory/Convergence in Measure.md",
+    "Measure Theory/Convergence of Sets.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Probability Theory/Exercise Class 9.md",
+    "Courses/Probability Theory/Exercise Class 8.md",
+    "Probability Theory/Independence.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Graph Theory/Expander.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Courses/Advanced Graph Algorithms/Problem Set 6.md",
-    "Courses/Probability Theory/Exercise Class 8.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Probability Theory/Exercise Class 6.md",
@@ -313,9 +315,6 @@
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Measure Theory/Lebesgue Measure.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
-    "Courses/Algorithms for Data Science/Special Assignment 1.md",
-    "Untitled.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
