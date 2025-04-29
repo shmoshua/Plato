@@ -14,12 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
+                "file": "Courses/Probability Theory/Exercise Class 9.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 8"
+              "title": "Exercise Class 9"
+            }
+          },
+          {
+            "id": "a4f36ac9fe653c7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Independence.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Independence"
             }
           },
           {
@@ -64,7 +78,8 @@
               "title": "Exercise Class 8"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -77,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
+                "file": "Courses/Probability Theory/Exercise Class 9.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 8"
+              "title": "Exercise Class 9"
             }
           },
           {
@@ -159,7 +174,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "d_{I}",
+                "query": "law of large",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,7 +195,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -272,10 +288,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "04f222e17248b652",
+  "active": "a4f36ac9fe653c7e",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
+    "Courses/Probability Theory/Exercise Class 9.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
+    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
@@ -299,7 +316,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "Untitled.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
