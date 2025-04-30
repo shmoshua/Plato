@@ -10,3 +10,4 @@
 
 ---
 #### Exercise 3
+We first analyze the time for $\text{FindPartition}(G,\{ M_{1},\dots,M_{t} \})$. Finding a random $r\  \bot\  1$ can be done in $O(n)$. Computing $u$ can also be done in $O(tn)$. Partitioning $u$ then takes $\tilde{O}(n)$. Hence, $\text{FindPartition}(G,\{ M_{1},\dots,M_{t} \})$ can be done in $\tilde{O}(tn)$. 
