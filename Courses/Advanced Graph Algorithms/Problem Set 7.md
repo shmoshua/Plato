@@ -11,3 +11,7 @@
 ---
 #### Exercise 3
 We first analyze the time for $\text{FindPartition}(G,\{ M_{1},\dots,M_{t} \})$. Finding a random $r\  \bot\  1$ can be done in $O(n)$. Computing $u$ can also be done in $O(tn)$. Partitioning $u$ then takes $\tilde{O}(n)$. Hence, $\text{FindPartition}(G,\{ M_{1},\dots,M_{t} \})$ can be done in $\tilde{O}(tn)$. 
+
+Now, for the Cut-Matching Algorithm, in iteration with $i$, we have:
+1. $\text{FindPartition}(G,\{ M_{1},\dots,M_{i} \})$ in $\tilde{O}(in)$.
+2. Solving the flow problem in $T_{\text{max-flow}}(m)+O(n)$ where we need $O(n)$ to add edges. 
