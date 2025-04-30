@@ -15,3 +15,9 @@ We first analyze the time for $\text{FindPartition}(G,\{ M_{1},\dots,M_{t} \})$.
 Now, for the Cut-Matching Algorithm, in iteration with $i$, we have:
 1. $\text{FindPartition}(G,\{ M_{1},\dots,M_{i} \})$ in $\tilde{O}(in)$.
 2. Solving the flow problem in $T_{\text{max-flow}}(m)+O(n)$ where we need $O(n)$ to add edges. 
+3. Computing the path decomposition can be done in $$O\left( \sum_{e\in E}^{}f(e) \right)\leq O\left( \sum_{e\in E}^{}c(e) \right)\leq O(m / \psi)$$
+4. Creating the matching can be done in $O(n)$.
+
+Therefore, as $n\leq m$ we have the runtime as: $$\sum_{i=1}^{T}(T_{\text{max-flow}}(m)+\tilde{O}( i \cdot  n)+ O(m / \psi))=T(T_{\text{max-flow}}(m)+O(m / \psi))+\tilde{O}(T^2 n)$$Hence, by $T=\Theta(\log^{2} n)$ from the script, we have that the runtime is given as: $$O(\log^{2}n)(T_{\text{max-flow}}(m)+\tilde{O}(m / \psi))$$
+
+---
