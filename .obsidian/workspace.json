@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 8.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 8"
+              "title": "Exercise Sheet 10"
             }
           },
           {
@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 8.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 8"
+              "title": "Exercise Sheet 10"
             }
           },
           {
@@ -288,8 +288,9 @@
   },
   "active": "04f222e17248b652",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Problem Set 7.md",
     "Courses/Advanced Graph Algorithms/Problem Set 8.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 7.md",
     "Courses/Probability Theory/Exercise Class 9.md",
     "Measure Theory/Convergence in Measure.md",
     "Measure Theory/Convergence of Sets.md",
@@ -313,7 +314,6 @@
     "Functional Analysis/Dual Space.md",
     "Analysis/Convex Set.md",
     "Analysis/Lipschitz Function.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
