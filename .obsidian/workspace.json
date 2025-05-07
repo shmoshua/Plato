@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 7.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 8.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 7"
+              "title": "Problem Set 8"
             }
           },
           {
@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 7.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 8.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 7"
+              "title": "Problem Set 8"
             }
           },
           {
@@ -288,8 +288,9 @@
   },
   "active": "04f222e17248b652",
   "lastOpenFiles": [
-    "Courses/Probability Theory/Exercise Class 9.md",
     "Courses/Advanced Graph Algorithms/Problem Set 7.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 8.md",
+    "Courses/Probability Theory/Exercise Class 9.md",
     "Measure Theory/Convergence in Measure.md",
     "Measure Theory/Convergence of Sets.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
@@ -313,7 +314,6 @@
     "Analysis/Convex Set.md",
     "Analysis/Lipschitz Function.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
-    "Functional Analysis/Bounded Linear Map.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
