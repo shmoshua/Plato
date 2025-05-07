@@ -1,3 +1,6 @@
 #Series #Algorithms 
 
 #### Exercise 2
+Let $M\in \mathbb{R}^{d,d}$. Further, let $M=\sum_{i\in[d]}^{}\sigma_{i}u_{i}v_{i}^\top$ be its singular value decomposition. Then, $$\left\| M \right\| \|x\|^{2}-\braket{ x , Mx } =\sigma_{1}\|x\|^{2}-\sum_{i\in[d]}^{}\sigma_{i}\braket{ x , u_{i} } \braket{ x , v_{} } $$Now, as $\|x\|^2=\sum_{i\in[d]}^{}\braket{ x , u_{i} }^{2}=\sum_{i\in[d]}^{}\braket{ x , v_{i} }^{2}$ we have that: $$\left\| M \right\| \|x\|^{2}-\braket{ x , Mx } =\sum_{i\in[d]}^{}\left( \frac{\sigma_{1}}{2}\braket{ x , u_{i} }^{2}+\frac{\sigma_{1}}{2}\braket{ x , v_{i} }^{2}-\sigma_{i}\braket{ x , u_{i} } \braket{ x , v_{i} } \right) $$
+
+We have that: $$\begin{aligned}\sum_{i\in[d]}^{}\sigma_{i}\braket{ x , \frac{u_{i}-v_{i}}{\sqrt{ 2 }} } ^{2}&=\sum_{i\in[d]}^{}\sigma_{i}\left( \frac{\braket{ x , u_{i} }^{2} }{2}+ \frac{\braket{ x , v_{i} }^{2} }{2}+\braket{ x , u_{i} } \braket{ x , v_{i} } \right)\\&=\sum_{i\in[d]}^{}(\sigma_{1}-\sigma_{i})\left( \|x\|^2+\braket{ x , u_{i} } \braket{ x , v_{i} } \right)\\&=\end{aligned}$$
