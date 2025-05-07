@@ -1,6 +1,17 @@
 #Series #AGAO 
 
-#### Problem 1
+#### Exercise 1
 For the first program, the Lagrangian is given as: $$L(f,x):=\left\| C^{-1}f \right\| _{\infty}+x^\top(d-Bf)$$as $\left\| \cdot \right\|_{\infty}$ is convex. Then, by letting $L(x):= \min_{f\in \mathbb{R}^E_{\geq 0}}L(f,x)$, the dual is given by: $\max_{x}L(x)$. 
 
+To compute this explicitly, we can rewrite the 
+
 For strong duality, consider the following example. $V=\{ u,v,w \}$ and $E:=\{  u\to v , v\to w, u\to w \}$ with $c(u\to v)=$ and $d=[-1,0,1]$. Then, $$B=\begin{bmatrix}-1&0&-1\\1&-1&0\\0&1&1\end{bmatrix}$$and $Bf=d$ implies that $f=(1,1,0)+a(-1,-1,1)$ for some $a\in \mathbb{R}$. However as $f\geq 0$, $0\leq a\leq 1$.
+
+In the second program, we have that the Lagrangian is given as: $$L(f,x,s):=\left\| C^{-1}f \right\| _{\infty}+x^\top(d-Bf)-s^\top f$$and the dual is given by $\max_{x,s,s\geq 0}\min_{f} L(f,x,s)$. 
+
+
+#### Exercise 2
+We have that the Lagrangian is given as: $$L(x,y,s)=e^{-x}+\frac{sx^{2}}{y}$$Now, for$s\geq0$:  $$L(s)=\inf_{x\in \mathbb{R},y> 0}\left( e^{-x}+\frac{sx^2}{y} \right)=\inf_{x\in \mathbb{R}} e^{-x}=0$$Hence, the dual optimum is given by $0$. However, for the primal program, as $y> 0$ and $x^{2}\geq 0$, $x^{2} / y\leq 0$ if and only if $x=0$. Hence, the optimal value is given by $1$. Therefore, the strong duality doesn't hold. 
+
+Notice that however thast the Slater condition also does hold: Indeed, $(x,y)=(0,1)$ is feasible. Further, we have that $(0,1)\in $
+
