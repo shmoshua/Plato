@@ -13,5 +13,8 @@ In the second program, we have that the Lagrangian is given as: $$L(f,x,s):=\lef
 #### Exercise 2
 We have that the Lagrangian is given as: $$L(x,y,s)=e^{-x}+\frac{sx^{2}}{y}$$Now, for$s\geq0$:  $$L(s)=\inf_{x\in \mathbb{R},y> 0}\left( e^{-x}+\frac{sx^2}{y} \right)=\inf_{x\in \mathbb{R}} e^{-x}=0$$Hence, the dual optimum is given by $0$. However, for the primal program, as $y> 0$ and $x^{2}\geq 0$, $x^{2} / y\leq 0$ if and only if $x=0$. Hence, the optimal value is given by $1$. Therefore, the strong duality doesn't hold. 
 
-Notice that however thast the Slater condition also does hold: Indeed, $(x,y)=(0,1)$ is feasible. Further, we have that $(0,1)\in $
+Notice that the Slater condition also does not hold: $x^2 / y <0$ cannot hold for any $x\in \mathbb{R}$ and $y> 0$. 
+
+---
+
 
