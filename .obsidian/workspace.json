@@ -100,6 +100,18 @@
             }
           },
           {
+            "id": "d14ac424e13b20fb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
+          },
+          {
             "id": "02531ae3af29bf7b",
             "type": "leaf",
             "state": {
@@ -141,7 +153,8 @@
               "title": "Bounded Linear Map"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -286,7 +299,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "04f222e17248b652",
+  "active": "d14ac424e13b20fb",
   "lastOpenFiles": [
     "Courses/Advanced Graph Algorithms/Problem Set 8.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
