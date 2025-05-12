@@ -36,3 +36,7 @@ Let $X_{1},\dots,X_{n}\sim \text{Poi}(\lambda)$ iid. Then $X:=\sum_{i}^{}X_{i}\s
 Laura throws a dart on $D:=\{ (x,y)\in \mathbb{R}^{2}:x^{2}+y^{2}\leq 1 \}$. Let $\theta$ be a model family s.t. the hitting point $(X,Y)$ has the distribution: $$f_{\theta}(x,y):=c_{\theta}(x^{2}+y^{2})^{\theta / 2}$$
 1. Show that $\theta>-2$ and $c_{\theta}=\frac{\theta+2}{2\pi}$
 2. If Laura throws $n$ times and they are all indpeendent, find the MLE estimator.
+3. Find the distribution of $-\log R$ where $R=\sqrt{ X^2+Y^2 }$. 
+4. Find the confidence interval of $\theta$ with probability $95$.
+
+---
