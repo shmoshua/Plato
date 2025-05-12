@@ -25,4 +25,14 @@ $$\mathbb{E}[T]=\mathbb{E}[X_{1}]=\theta$$ and $$\text{MSE}(T)=\text{Var}(T)=\fr
 #### 3. Confidence Intervals
 Let $X_{1},\dots,X_{n}\sim \mathcal{N}(\mu,\sigma^{2})$ iid.
 1. CI of $\mu$ when $\sigma^{2}$ is known. $$\left[ \overline{X}-\Phi ^{-1}\left( 1-\frac{\alpha}{2} \right)\sqrt{ \frac{\sigma^{2}}{n} } ,\overline{X}+\Phi ^{-1}\left( 1-\frac{\alpha}{2} \right)\sqrt{ \frac{\sigma^{2}}{n} } \right]$$is a $(1-\alpha)$ confidence interval for $\mu$.
-2. CI of $\mu$ when $\sigma^{2}$ is unknown. 
+2. CI of $\mu$ when $\sigma^{2}$ is unknown. $$\left[ \overline{X}-c\left( n-1, \frac{\alpha}{2} \right)\sqrt{ \frac{S^{2}}{n} } ,\overline{X}+c\left( n-1, \frac{\alpha}{2} \right)\sqrt{ \frac{S^{2}}{n} } \right]$$
+3. CI of $\sigma^{2}$ when $\mu$ is known. $$\left[ \frac{n\widehat{\sigma}^{2}}{G^{-1}_{n}\left( 1-\frac{\alpha}{2} \right)} ,\frac{n\widehat{\sigma}^{2}}{G^{-1}_{n}\left( \frac{\alpha}{2} \right)} \right] $$
+
+---
+#### 4. Approximate Confidence Intervals
+Let $X_{1},\dots,X_{n}\sim \text{Poi}(\lambda)$ iid. Then $X:=\sum_{i}^{}X_{i}\sim \text{Poi}(n\lambda)$. 
+
+---
+Laura throws a dart on $D:=\{ (x,y)\in \mathbb{R}^{2}:x^{2}+y^{2}\leq 1 \}$. Let $\theta$ be a model family s.t. the hitting point $(X,Y)$ has the distribution: $$f_{\theta}(x,y):=c_{\theta}(x^{2}+y^{2})^{\theta / 2}$$
+1. Show that $\theta>-2$ and $c_{\theta}=\frac{\theta+2}{2\pi}$
+2. If Laura throws $n$ times and they are all indpeendent, find the MLE estimator.
