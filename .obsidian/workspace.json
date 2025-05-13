@@ -9,31 +9,17 @@
         "dimension": 48.71645274212369,
         "children": [
           {
-            "id": "2e17e3def98888e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Stationary Point.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Stationary Point"
-            }
-          },
-          {
             "id": "a4f36ac9fe653c7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Positive Definite.md",
+                "file": "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Positive Definite"
+              "title": "AGAO Roadmap"
             }
           },
           {
@@ -42,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Taylor's Theorem.md",
+                "file": "Analysis/Convex Function.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Taylor's Theorem"
+              "title": "Convex Function"
             }
           }
         ]
@@ -113,8 +99,7 @@
               "title": "Bounded Linear Map"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,20 +244,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02531ae3af29bf7b",
+  "active": "a4f36ac9fe653c7e",
   "lastOpenFiles": [
-    "Analysis/Taylor's Theorem.md",
-    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-    "Analysis/Stationary Point.md",
-    "Analysis/Positive Definite.md",
-    "Functional Analysis/Examples/Spectral Theorem.md",
     "Analysis/Convex Function.md",
+    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+    "Analysis/Taylor's Theorem.md",
+    "Analysis/Positive Definite.md",
+    "Courses/Probability Theory/Exercise Class 11.md",
+    "Analysis/Stationary Point.md",
+    "Functional Analysis/Examples/Spectral Theorem.md",
     "Symmetric Matrices.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Optimization/Optimization Problem.md",
     "Analysis/Convex Set.md",
     "Graph Theory/Random Walk (Graph).md",
-    "Courses/Probability Theory/Exercise Class 11.md",
     "Probability Theory/Independence.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Graph Theory/Graph Matrices.md",

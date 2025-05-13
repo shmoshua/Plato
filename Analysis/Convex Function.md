@@ -26,16 +26,21 @@
 
 ---
 > [!lemma] Proposition 2 (2nd order Convexity)
-> Let $f:X\to \mathbb{R}$ be twice continuously differentiable.
-> 1. if $\nabla^{2}_{x}f\succeq 0$ for all $x\in X$, then $f$ is convex.
-> 2. if $\nabla^{2}_{x}f\succ 0$ for all $x\in X$, then $f$ is strictly convex.
-> 3. if $f$ is convex, then $\nabla^{2}_{x}f\succeq 0$.
+> Let $f:X\to \mathbb{R}$ be twice continuously differentiable where $X$ is open convex.
+> 1. if $\nabla^{2}f(x)\geq 0$ for all $x\in X$, then $f$ is convex.
+> 2. if $\nabla^{2}f(x)> 0$ for all $x\in X$, then $f$ is strictly convex.
+> 3. if $f$ is convex, then $\nabla^{2}f(x)\geq 0$.
+
+^441c8c
 
 > [!proof]-
 > We have that:
-> 1. By Taylor's theorem, for all $y\in X$, there exists $z\in X$ s.t. $$f(y)=f(x)+(\nabla _{x}f)^\top(y-x)+\frac{1}{2}((y-x)^\top \nabla^{2}_{z}f(y-x))$$Then, by positive semidefiniteness, $f(y)\geq f(x)+(\nabla _{x}f)^\top(y-x)$ and it follows from Proposition 1.
+> 1. By Taylor's theorem, for all $y\in X$, there exists $z\in X$ s.t. $$f(y)=f(x)+\nabla f(x)^\top(y-x)+\frac{1}{2}(y-x)^\top \nabla^{2}f(z)(y-x)$$Then, by positive semidefiniteness, $f(y)\geq f(x)+(\nabla f(x))^\top(y-x)$ and it follows from Proposition 1.
 > 2. Analogous to 1. 
-> 3. Let $f$ be convex. For $x\in X$ and some $\lambda>0$. For any $d\in V$, we have $x+\lambda d\in X$. Hence, by Taylor, we get: $$f(x)+\lambda(\nabla _{x}f)^\top d\leq f(x+\lambda d)=f(x)+\lambda \nabla _{x}f^\top d+\frac{\lambda^{2}}{2}d^\top \nabla^{2}_{x}f d+o(\lambda^{2}\left\| d \right\| ^{2})$$Hence, $0\leq d^\top \nabla^{2}_{x}fd+o(\|d\|^{2})$ for all $d\in V$. Therefore, $\nabla_{x}^{2}f\succeq 0$.
+> 3. Let $f$ be convex. For $x\in X$ and $d\in \mathbb{R}^n$, there exists a small $\lambda > 0$ s.t. $x+\lambda d\in X$. Hence, by Taylor, we get: $$f(x)+\lambda(\nabla f(x))^\top d\leq f(x+\lambda d)=f(x)+\lambda \nabla f(x)^\top d+\frac{\lambda^{2}}{2}d^\top \nabla^{2}f(x) d+o(\lambda^{2}\left\| d \right\| ^{2})$$Hence, $0\leq d^\top \nabla^{2}f(x)d+o(\|d\|^{2})$ for all $d\in V$. Therefore, $\nabla^{2}f(x)\geq  0$.
+
+^688f85
+
 ---
 > [!lemma] Proposition 1
 > For a function $f:X\to \mathbb{R}$ with a convex domain, the following are equivalent.
