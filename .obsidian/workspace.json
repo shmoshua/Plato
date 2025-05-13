@@ -14,6 +14,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Analysis/Stationary Point.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Stationary Point"
+            }
+          },
+          {
+            "id": "2e17e3def98888e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
                 "mode": "source",
                 "source": true
@@ -23,31 +37,17 @@
             }
           },
           {
-            "id": "e7d871f6735e72de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Optimization/Optimization Problem.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Optimization Problem"
-            }
-          },
-          {
             "id": "a4f36ac9fe653c7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Set.md",
-                "mode": "preview",
+                "file": "Analysis/Convex Function.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Set"
+              "title": "Convex Function"
             }
           },
           {
@@ -56,29 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/Problem Set 2.md",
+                "file": "Functional Analysis/Examples/Spectral Theorems.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 2"
-            }
-          },
-          {
-            "id": "eda2dc9c78cb1585",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Taylor's Theorem.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Taylor's Theorem"
+              "title": "Spectral Theorems"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -105,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Taylor's Theorem.md",
+                "file": "Analysis/Positive Definite.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Taylor's Theorem"
+              "title": "Positive Definite"
             }
           },
           {
@@ -288,13 +275,18 @@
   },
   "active": "04f222e17248b652",
   "lastOpenFiles": [
-    "Analysis/Taylor's Theorem.md",
+    "Functional Analysis/Examples/Spectral Theorems.md",
+    "Analysis/Positive Definite.md",
     "Analysis/Convex Function.md",
-    "Optimization/Optimization Problem.md",
-    "Graph Theory/Random Walk (Graph).md",
+    "Symmetric Matrices.md",
+    "Analysis/Stationary Point.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-    "Courses/Probability Theory/Exercise Class 11.md",
+    "Analysis/Taylor's Theorem.md",
+    "Optimization/Optimization Problem.md",
     "Analysis/Convex Set.md",
+    "Graph Theory/Random Walk (Graph).md",
+    "Courses/Probability Theory/Exercise Class 11.md",
     "Probability Theory/Independence.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Graph Theory/Graph Matrices.md",
@@ -308,12 +300,7 @@
     "Courses/Advanced Graph Algorithms/Problem Set 8.md",
     "Courses/Advanced Graph Algorithms/Problem Set 7.md",
     "Measure Theory/Convergence of Sets.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
-    "Courses/Advanced Graph Algorithms/Special Assignment 1.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
-    "Graph Theory/Expander.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",

@@ -1,7 +1,7 @@
 #Definition #ProbabilityTheory 
 
 > [!definition]
-> A [[random variable]] $X:\Omega\to \mathbb{R}^d$ has a ***Gaussian distribution*** with mean $\mu\in \mathbb{R}^d$ and a [[Symmetric Positive Definite Matrices|SPD]] matrix $\Sigma\in \mathbb{R}^{d,d}$ called the covariance matrix, if the [[Density|density]] is given as: $$p(x)=\frac{1}{\sqrt{ (2\pi)^d \det \Sigma }}\exp \left( -\frac{1}{2}(x-\mu)^\top\Sigma ^{-1}(x-\mu) \right) $$and denoted by $X\sim \mathcal{N}(\mu,\Sigma)$. 
+> A [[random variable]] $X:\Omega\to \mathbb{R}^d$ has a ***Gaussian distribution*** with mean $\mu\in \mathbb{R}^d$ and a [[Positive Definite|SPD]] matrix $\Sigma\in \mathbb{R}^{d,d}$ called the covariance matrix, if the [[Density|density]] is given as: $$p(x)=\frac{1}{\sqrt{ (2\pi)^d \det \Sigma }}\exp \left( -\frac{1}{2}(x-\mu)^\top\Sigma ^{-1}(x-\mu) \right) $$and denoted by $X\sim \mathcal{N}(\mu,\Sigma)$. 
 
 ^a29bbb
 
