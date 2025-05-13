@@ -6,10 +6,19 @@
 ![[Optimization Problem#^72e4bb]]
 
 ---
-#### 1.1. Convex Sets
+#### 1.1. Convex Sets and Convex Functions
 ![[Convex Set#^a3c9f3]]
+
+---
 ![[Convex Function#^c94c8e]]
 
+---
+![[Taylor's Theorem#^baca64]]
+
+---
+##### 1.1.1 First Order Convexity
+![[Convex Function#^4455df]]
+![[Convex Function#^7dbca8|p]]
 
 ---
 

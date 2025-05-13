@@ -15,10 +15,15 @@
 > 1. $f$ is convex.
 > 2. for any $x,y\in X$, $f(y)\geq f(x)+(\nabla_{x}f)^\top(y-x)$
 
+^4455df
+
 > [!proof]-
 > We have:
 > 1. Let $f$ be convex. Fix $x,y\in X$. For any $t\in [0,1]$, for $z:=(1-t)x+ty$, we have that: $$f(z)=f((1-t)x+ty)\leq (1-t)f(x)+tf(y)$$Therefore, $$f(x+t(y-x))-f(x)\leq t(f(y)-f(x))$$and $$(\nabla _{x}f)^\top(y-x)=\lim_{ t \to 0 }\frac{f(x+t(y-x))-f(x)}{t}\leq f(y)-f(x) $$
 > 2. Let $x,y\in X$ and $t\in [0,1]$. Further, let $z:=(1-t)x+ty$. Then, $$\begin{align}(1-t)f(x)+tf(y)&\geq f(z)+(1-t)(\nabla _{z}f)^\top(x-z)+t(\nabla _{z}f)^\top(y-z)\\&\geq f(z)+(\nabla _{z}f)^\top 0\\&=f((1-t)x+t y)\end{align}$$
+
+^7dbca8
+
 ---
 > [!lemma] Proposition 2 (2nd order Convexity)
 > Let $f:X\to \mathbb{R}$ be twice continuously differentiable.
