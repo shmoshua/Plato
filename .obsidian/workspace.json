@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Function.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Function"
+              "title": "Problem Set 2"
             }
           }
         ]
@@ -63,12 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Taylor's Theorem.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Taylor's Theorem"
+              "title": "Problem Set 2"
             }
           },
           {
@@ -246,16 +246,16 @@
   },
   "active": "04f222e17248b652",
   "lastOpenFiles": [
-    "Analysis/Taylor's Theorem.md",
-    "Analysis/Gradient Lipschitz.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Analysis/Convex Function.md",
+    "Analysis/Gradient Lipschitz.md",
+    "Analysis/Taylor's Theorem.md",
     "Analysis/Stationary Point.md",
     "Courses/Probability Theory/Exercise Class 11.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Analysis/Positive Definite.md",
     "Functional Analysis/Examples/Spectral Theorem.md",
     "Symmetric Matrices.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Optimization/Optimization Problem.md",
     "Analysis/Convex Set.md",
     "Graph Theory/Random Walk (Graph).md",
