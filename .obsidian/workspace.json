@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+                "file": "Analysis/Gradient Lipschitz.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AGAO Roadmap"
+              "title": "Gradient Lipschitz"
             }
           },
           {
@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+                "file": "Analysis/Gradient Lipschitz.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AGAO Roadmap"
+              "title": "Gradient Lipschitz"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Function.md",
+                "file": "Courses/Probability Theory/Exercise Class 11.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Function"
+              "title": "Exercise Class 11"
             }
           },
           {
@@ -99,7 +99,8 @@
               "title": "Bounded Linear Map"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -244,14 +245,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a4f36ac9fe653c7e",
+  "active": "83ca64246e25a9b6",
   "lastOpenFiles": [
     "Analysis/Convex Function.md",
+    "Analysis/Stationary Point.md",
+    "Analysis/Gradient Lipschitz.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Analysis/Taylor's Theorem.md",
     "Analysis/Positive Definite.md",
     "Courses/Probability Theory/Exercise Class 11.md",
-    "Analysis/Stationary Point.md",
     "Functional Analysis/Examples/Spectral Theorem.md",
     "Symmetric Matrices.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
@@ -271,7 +273,6 @@
     "Courses/Advanced Graph Algorithms/Problem Set 8.md",
     "Courses/Advanced Graph Algorithms/Problem Set 7.md",
     "Measure Theory/Convergence of Sets.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",

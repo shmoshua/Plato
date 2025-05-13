@@ -60,3 +60,4 @@
 
 ---
 #### 1.2 Gradient Descent
+##### 1.2.1 Gradient Lipschitz
