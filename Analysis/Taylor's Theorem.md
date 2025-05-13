@@ -13,3 +13,7 @@
 
 ^baca64
 
+---
+> [!lemma] Theorem 2 (Second-order Remainder Form)
+> Let $S$ be a [[convex set]] and $f\in C^2([x,y])$ for $x,y\in S$. Then, $$\exists z\in [x,y]: f(y)=f(x)+\nabla f(x)^\top(y-x)+\frac{1}{2}(y-x)^\top \text{H}_{f}(z)(y-x)$$
+

@@ -33,6 +33,22 @@
 ![[Stationary Point#^7d64c2|p]]
 
 ---
+##### 1.1.3 Second Order Convexity
+![[Positive Definite#^fd40d2]]
+
+---
+![[Spectral Theorem#^9a1dbe]]
+![[Spectral Theorem#^9514ed]]
+
+---
+![[Positive Definite#^39de24]]
+![[Positive Definite#^a74f2b|p]]
+
+---
+![[Positive Definite#^0e2d57]]
+
+
+---
 
 
 

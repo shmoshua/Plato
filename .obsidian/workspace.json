@@ -9,7 +9,7 @@
         "dimension": 48.71645274212369,
         "children": [
           {
-            "id": "e7504f193e62a0e2",
+            "id": "2e17e3def98888e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,31 +23,17 @@
             }
           },
           {
-            "id": "2e17e3def98888e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "AGAO Roadmap"
-            }
-          },
-          {
             "id": "a4f36ac9fe653c7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Function.md",
+                "file": "Analysis/Positive Definite.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Function"
+              "title": "Positive Definite"
             }
           },
           {
@@ -56,16 +42,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Examples/Spectral Theorems.md",
+                "file": "Analysis/Taylor's Theorem.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Spectral Theorems"
+              "title": "Taylor's Theorem"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -92,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Positive Definite.md",
+                "file": "Analysis/Stationary Point.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Positive Definite"
+              "title": "Stationary Point"
             }
           },
           {
@@ -128,7 +113,8 @@
               "title": "Bounded Linear Map"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,16 +259,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "04f222e17248b652",
+  "active": "02531ae3af29bf7b",
   "lastOpenFiles": [
-    "Functional Analysis/Examples/Spectral Theorems.md",
+    "Analysis/Taylor's Theorem.md",
+    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+    "Analysis/Stationary Point.md",
     "Analysis/Positive Definite.md",
+    "Functional Analysis/Examples/Spectral Theorem.md",
     "Analysis/Convex Function.md",
     "Symmetric Matrices.md",
-    "Analysis/Stationary Point.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
-    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-    "Analysis/Taylor's Theorem.md",
     "Optimization/Optimization Problem.md",
     "Analysis/Convex Set.md",
     "Graph Theory/Random Walk (Graph).md",
