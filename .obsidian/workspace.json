@@ -78,8 +78,7 @@
               "title": "Exercise Class 11"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -98,20 +97,6 @@
               },
               "icon": "lucide-file",
               "title": "Exercise Sheet 10"
-            }
-          },
-          {
-            "id": "d14ac424e13b20fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Probability Theory/Exercise Class 11.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Exercise Class 11"
             }
           },
           {
@@ -302,15 +287,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e7504f193e62a0e2",
+  "active": "e7d871f6735e72de",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
+    "Courses/Probability Theory/Exercise Class 11.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Courses/Probability Theory/Exercise Class 8.md",
-    "Courses/Probability Theory/Exercise Class 11.md",
     "Courses/Probability Theory/Exercise Class 7.md",
     "Courses/Probability Theory/Exercise Class 9.md",
     "Measure Theory/Convergence in Measure.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Courses/Advanced Graph Algorithms/Problem Set 8.md",
     "Courses/Advanced Graph Algorithms/Problem Set 7.md",
     "Measure Theory/Convergence of Sets.md",
