@@ -12,8 +12,8 @@
 ---
 > [!lemma] Theorem (Courant-Fischer)
 > Let $A\in \mathbb{R}^{n,n}$ be symmetric with $\lambda_{1}\leq\lambda_{2}\leq\dots\leq \lambda_{n}$. Then,
-> 1. $$\lambda_{i}=\min_{W\leq \mathbb{R}^n:\text{dim}(W)=i}\max_{0\neq x\in W} \frac{x^\top Ax}{x^\top x}$$
-> 2. $$\lambda_{i}=\max_{W\leq \mathbb{R}^n:\text{dim}(W)=n-i+1}\min_{0\neq x\in W} \frac{x^\top Ax}{x^\top x}$$
+> 1. $$\lambda_{i}=\min_{W\leq \mathbb{R}^n:\text{dim}(W)=i}\max_{0\neq x\in W} \frac{x^\top Ax}{x^\top x}=\min_{0\neq x {\bot} v_{1},..,v_{i-1} } \frac{x^\top Ax}{x^\top x}$$
+> 2. $$\lambda_{i}=\max_{W\leq \mathbb{R}^n:\text{dim}(W)=n-i+1}\min_{0\neq x\in W} \frac{x^\top Ax}{x^\top x}=\max_{0\neq x {\bot} v_{i+1},..,v_{n} } \frac{x^\top Ax}{x^\top x}$$
 
 ^9514ed
 
