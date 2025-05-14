@@ -61,3 +61,22 @@
 ---
 #### 1.2 Gradient Descent
 ##### 1.2.1 Gradient Lipschitz
+![[Gradient Lipschitz#^057f97]]
+
+---
+![[Gradient Lipschitz#^a111a4]]
+
+---
+![[Gradient Lipschitz#^813ced]]
+![[Gradient Lipschitz#^6cec0a|p]]
+
+---
+##### 1.2.2 Gradient Descent
+![[Gradient Lipschitz#^b69798]]
+![[Gradient Lipschitz#^7f3601|p]]
+
+---
+![[Gradient Lipschitz#^145097]]
+![[Gradient Lipschitz#^47c23b|p]]
+
+---
