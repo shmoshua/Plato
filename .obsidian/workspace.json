@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Matrices.md",
+                "file": "Algebra/Pseudoinverse.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Matrices"
+              "title": "Pseudoinverse"
             }
           },
           {
@@ -275,10 +275,10 @@
   },
   "active": "04f222e17248b652",
   "lastOpenFiles": [
-    "Graph Theory/Graph Matrices.md",
-    "Algebra/Pseudoinverse.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+    "Algebra/Pseudoinverse.md",
     "Graph Theory/Effective Resistance.md",
+    "Graph Theory/Graph Matrices.md",
     "Graph Theory/Graph Laplacian.md",
     "Courses/Probability Theory/Exercise Class 12.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
