@@ -31,26 +31,42 @@
 > [!lemma] Proposition 2
 > For any unit weight graph, 
 > 1. $\lambda_{n}(G)\leq 2 \Delta(G)$.
+> 2. $\lambda_{2}(G)\geq \frac{1}{n\text{diam}(G)}$
+
+^54ea01
 
 > [!proof]-
 > We have that: 
-> 2. From Proposition 2, for unit weights, $L=D-A\geq 0$. Now, we have that: $$x^\top (D+A)x=x^\top Ax=\sum_{u}d(u)x_{u}^{2}+\sum_{uv\in E}^{}2x_{u}x_{v}=\sum_{uv\in E}(x_{u}+x_{v})^{2}\geq 0$$Hence, $D+A\geq 0$ and $-A\leq D$. Therefore, it follows that $L\leq 2D$ and by [[Positive Definite|Proposition 3.5]] $$\lambda_{n}(G)\leq 2\lambda_{n}(D)=2\Delta(G)$$
-- **Remark**: This is tight on a single edge with $\lambda_{2}(G)=2$. 
+> 1. From Proposition 2, for unit weights, $L=D-A\geq 0$. Now, we have that: $$x^\top (D+A)x=x^\top Ax=\sum_{u}d(u)x_{u}^{2}+\sum_{uv\in E}^{}2x_{u}x_{v}=\sum_{uv\in E}(x_{u}+x_{v})^{2}\geq 0$$Hence, $D+A\geq 0$ and $-A\leq D$. Therefore, it follows that $L\leq 2D$ and by [[Positive Definite|Proposition 3.5]] $$\lambda_{n}(G)\leq 2\lambda_{n}(D)=2\Delta(G)$$
+> 2. Let $G^{i,j}$ be the shortest path in $G$ from $i$ to $j$. Then, this will have length at most $D:=\text{diam}(G)$. Hence, $$K_{n}=\sum_{i<j}^{}G_{i,j}\leq \sum_{i<j}^{} DG^{i,j}\leq \sum_{i<j}^{}DG\leq n^2 DG$$Therefore, $n=\lambda_{2}(K_n)\leq n^2 D \lambda_{2}(G)$ and this proves the statement.
+
+^686806
+
+- **Remark**: This is tight on a single edge with $\lambda_{2}(G)=2$.  ^19d6b0
 ---
 > [!lemma] Proposition 3 (Loewner Order for Graphs)
 > Let $G$ be a unit weight graph and $H\leq G$ a unit weight subgraph. Then, 
 > 1. $H\leq G$. 
 
+^340947
+
 > [!proof]-
 > We have that: $$x^\top L_{G}x = \sum_{uv\in E_{G}}^{}(x_{u}-x_{v})^{2}\geq  \sum_{uv\in E_{H}}^{}(x_{u}-x_{v})^{2}=x^\top L_{H}x$$
+
+^111582
 
 ---
 > [!lemma] Theorem 4 (The Path Inequality)
 > Let $G_{i,j}$ be the graph on $[n]$ with a single edge $ij$. Then, 
 > 1. $(n-1)P_{n}\geq G_{1,n}$
 
+^d0ab87
+
 > [!proof]-
 > We want to show that: $$(n-1)\sum_{i=1}^{n-1}(x_{i+1}-x_{i})^{2}\geq( x_{n}-x_{1})^{2}$$Let $\xi_{i}:= x_{i+1}-x_{i}$. Then, $$(x_{n}-x_{1})^{2}=\left( \sum_{i=1}^{n-1}\xi_{i} \right) ^{2}\leq (n-1)\sum_{i=1}^{n-1}\xi_{i}^{2}=(n-1)\sum_{i=1}^{n-1}(x_{i+1}-x_{i})^{2} $$
+
+^7ca672
+
 ---
 ##### Examples
 > [!h] Example 1 (Complete Graph)
@@ -66,15 +82,31 @@
 ---
 > [!h] Example 2 (Path Graph)
 > Let $G=P_{n}$ be the unweighted path graph. Then, 
-> 1. $\lambda_{2}(P_{n})\leq \frac{12}{n^{2}}$
+> 1. $\frac{1}{n^{2}}\leq \lambda_{2}(P_{n})\leq \frac{12}{n^{2}}$
 > 2. $1\leq \lambda_{n}(P_{n})\leq 4$
 
 ^da60b7
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. Consider $x_{i}:=(n+1)-2i$. Then, $x\bot 1$ and by Courant-Fischer, $$\lambda_{2}(P_{n})\leq \frac{x^\top Lx}{x^\top x}=\frac{\sum_{i\in[n-1]}(x_{i}-x_{i+1})^{2}}{\sum_{i\in[n]}^{}x_{i}^{2}}=\frac{4(n-1)}{\sum_{i\in[n]}(n+1-2i)^{2}}\leq \frac{12}{n(n+1)}\leq \frac{12}{n^{2}}$$For the lower bound, $$$$
+> 1. Consider $x_{i}:=(n+1)-2i$. Then, $x\bot 1$ and by Courant-Fischer, $$\lambda_{2}(P_{n})\leq \frac{x^\top Lx}{x^\top x}=\frac{\sum_{i\in[n-1]}(x_{i}-x_{i+1})^{2}}{\sum_{i\in[n]}^{}x_{i}^{2}}=\frac{4(n-1)}{\sum_{i\in[n]}(n+1-2i)^{2}}\leq \frac{12}{n(n+1)}\leq \frac{12}{n^{2}}$$For the lower bound, using path inequality, $$G_{i,j}\leq (j-i)\sum_{k=i}^{j-1}G_{k,k+1}\leq (j-i) P_{n}$$Therefore, $K_{n}\leq \sum_{i<j}^{}G_{i,j}\leq \sum_{i< j}(j-i)P_{n}\leq n^3 P_{n}$. Hence, $$n\leq \lambda_{2}(K_{n})\leq n^3\lambda_{2}(P_{n})$$and $\frac{1}{n^{2}}\leq \lambda_{2}(P_{n})$. 
 > 2. Consider $x\in\mathbb{R}^V$ where $x_{1}=-1$, $x_{n}=1$ and 0 everywhere else. Then, $$\lambda_{n}(P_{n})\geq \frac{x^\top Lx}{x^\top x}=\frac{2}{2}=1$$The upper bound is given by Proposition 2.
 
 ^31dc20
 
+---
+> [!h] Example 3 (Complete Binary Tree)
+> Let $T_{n}$ be a complete binary tree of $d$ levels. Then
+> 1. $\frac{1}{2n\log n}\leq \lambda_{2}(T_{n})\leq \frac{2}{n-1}$
+> 2. $1\leq \lambda_{n}(T_{n})\leq 6$.
+
+^4f2bda
+
+> [!proof]-
+> We have that:
+> 1. We give the upper bound via test vector. Let $x(1)=0$ and $x(i)=-1$ for $i$ in the left subtree and $x(i)=1$ for the right subtree. Then, $$\lambda_{2}(T_{n})\leq \frac{x^\top Lx}{x^\top x}=\frac{2}{n-1}$$ For the lower bound, we use Proposition 2.2 and the fact that $\text{diam}(G)=2\log n$. 
+> 2. We give the lower bound via test vector. Let $x$ given s.t. $x(i)=0$ for all inner nodes and for each odd number leaf $x(i)=+1$ and for all even numbered leaf $x(i)=-1$. As there are $(n+1) / 2$ leaves, we have that: $$\lambda_{n}(T_{n})\geq \frac{x^\top Lx}{x^\top x}=\frac{(n+1) / 2}{(n+1) / 2}=1$$For the upperbound, we use Proposition 2.
+
+^ab6244
+
+---

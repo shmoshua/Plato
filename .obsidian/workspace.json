@@ -56,16 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Positive Definite.md",
+                "file": "Algebra/Pseudoinverse.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Positive Definite"
+              "title": "Pseudoinverse"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Positive Definite.md",
+                "file": "Algebra/Pseudoinverse.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Positive Definite"
+              "title": "Pseudoinverse"
             }
           },
           {
@@ -120,15 +120,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Matrices.md",
+                "file": "Courses/Advanced Graph Algorithms/Problem Set 5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Matrices"
+              "title": "Problem Set 5"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -273,12 +274,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "04f222e17248b652",
+  "active": "83ca64246e25a9b6",
   "lastOpenFiles": [
-    "Graph Theory/Graph Matrices.md",
-    "Graph Theory/Graph Laplacian.md",
     "Analysis/Positive Definite.md",
+    "Algebra/Pseudoinverse.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+    "Graph Theory/Graph Laplacian.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 3.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 4.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
+    "Graph Theory/Graph Matrices.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Functional Analysis/Examples/Spectral Theorem.md",
     "Courses/Probability Theory/Exercise Class 12.md",
@@ -287,7 +293,6 @@
     "Functional Analysis/Bounded Linear Map.md",
     "Courses/Probability Theory/Exercise Class 11.md",
     "Analysis/Gradient Lipschitz.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Analysis/Convex Function.md",
     "Analysis/Taylor's Theorem.md",
     "Analysis/Stationary Point.md",
@@ -297,10 +302,6 @@
     "Graph Theory/Random Walk (Graph).md",
     "Probability Theory/Independence.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
-    "Graph Theory/Flow (Graph).md",
-    "Lie Group/Flow.md",
-    "Courses/Probability Theory/Exercise Class 8.md",
-    "Courses/Probability Theory/Exercise Class 7.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",

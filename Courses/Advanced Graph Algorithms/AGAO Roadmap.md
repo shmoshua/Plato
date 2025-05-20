@@ -96,5 +96,29 @@
 ![[Graph Laplacian#^c29c29|p]]
 
 ---
+![[Positive Definite#^f018dd]]
+![[Positive Definite#^c0ae47|p]]
+
+---
+![[Graph Laplacian#^54ea01]]
+![[Graph Laplacian#^686806|p]]
+![[Graph Laplacian#^19d6b0]]
+
+---
+![[Graph Laplacian#^340947]]
+![[Graph Laplacian#^111582|p]]
+
+---
+![[Graph Laplacian#^d0ab87]]
+![[Graph Laplacian#^7ca672|p]]
+
+---
 ![[Graph Laplacian#^da60b7]]
 ![[Graph Laplacian#^31dc20|p]]
+
+---
+![[Graph Laplacian#^4f2bda]]
+![[Graph Laplacian#^ab6244|p]]
+
+---
+#### 2.1.2 Pseudoinverse
