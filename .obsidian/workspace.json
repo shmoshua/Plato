@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Pseudoinverse.md",
+                "file": "Graph Theory/Effective Resistance.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pseudoinverse"
+              "title": "Effective Resistance"
             }
           }
         ],
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Laplacian.md",
+                "file": "Graph Theory/Effective Resistance.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Laplacian"
+              "title": "Effective Resistance"
             }
           },
           {
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Pseudoinverse.md",
+                "file": "Graph Theory/Graph Matrices.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pseudoinverse"
+              "title": "Graph Matrices"
             }
           },
           {
@@ -128,8 +128,7 @@
               "title": "Exercise Class 12"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,20 +273,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "11d3cda224086678",
+  "active": "04f222e17248b652",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Graph Theory/Graph Matrices.md",
     "Algebra/Pseudoinverse.md",
-    "Analysis/Positive Definite.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+    "Graph Theory/Effective Resistance.md",
     "Graph Theory/Graph Laplacian.md",
+    "Courses/Probability Theory/Exercise Class 12.md",
+    "Courses/Advanced Graph Algorithms/Problem Set 5.md",
+    "Analysis/Positive Definite.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
-    "Graph Theory/Graph Matrices.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
     "Functional Analysis/Examples/Spectral Theorem.md",
-    "Courses/Probability Theory/Exercise Class 12.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Courses/Advanced Graph Algorithms/Problem Set 9.md",
     "Functional Analysis/Bounded Linear Map.md",
@@ -301,7 +301,6 @@
     "Analysis/Convex Set.md",
     "Graph Theory/Random Walk (Graph).md",
     "Probability Theory/Independence.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",

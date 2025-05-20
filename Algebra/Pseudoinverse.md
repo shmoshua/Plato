@@ -14,3 +14,5 @@
 > 1. $(A^+)^\top=A^+$.
 > 2. $A^+v=0$ for all $v\in \text{ker }A$.
 > 3. $A^+ Av=A A^+ v=v$ for all $v\in \text{ker }L^ \bot$.
+
+---
