@@ -80,3 +80,21 @@
 ![[Gradient Lipschitz#^47c23b|p]]
 
 ---
+### 2. Spectral Graph Theory
+
+![[Graph Matrices#^41f1d4]]
+
+![[Graph Matrices#^f42544]]
+
+---
+#### 2.1.1 Graph Laplacian
+![[Graph Laplacian#^0a9fe6]]
+![[Graph Laplacian#^ebe958]]
+
+---
+![[Graph Laplacian#^0b2b13]]
+![[Graph Laplacian#^c29c29|p]]
+
+---
+![[Graph Laplacian#^da60b7]]
+![[Graph Laplacian#^31dc20|p]]

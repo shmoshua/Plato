@@ -6,6 +6,8 @@
 > 2. The ***degree matrix*** $D\in \mathbb{R}^{V,V}$ is given by $D:= \text{diag}(d)$ where $d(v):=\sum_{u\in N(v)}^{}w(u,v)$
 > 3. The ***weighted adjacency matrix*** $A\in \mathbb{R}^{V,V}$ is given as: $$A(u,v):= w(u,v)\cdot \mathbb{1}_{uv\in E}$$
 
-- **Remark**: As $G$ is undirected, $A=A^\top$.
+^41f1d4
+
+- **Remark**: As $G$ is undirected, $A=A^\top$. ^f42544
 
 ---

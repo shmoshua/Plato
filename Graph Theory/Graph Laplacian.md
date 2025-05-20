@@ -3,7 +3,10 @@
 > [!definition]
 > Let $G=(V,E)$ be an undirected [[graph]] with weights $w$.
 > 1. the ***Laplacian*** of $G$ is defined as $$L:=BWB^\top$$ where $B$ is the [[Graph Matrices|edge-vertex incidence matrix]] and $W:= \text{diag}(w)$ is the weight matrix.
-- **Related definition**: $\lambda_{i}(G):= \lambda_{i}(L)$.
+
+^0a9fe6
+
+- **Related definition**: $\lambda_{i}(G):= \lambda_{i}(L)$. ^ebe958
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -11,6 +14,8 @@
 > 1. $L=D-A$.
 > 2. for any $x\in \mathbb{R}^V$, $x^\top Lx=\sum_{uv\in E}^{}w_{uv}(x_{u}-x_{v})^{2}$.
 > 3. $1$ is an eigenvector of $L$ with eigenvalue $0$.
+
+^0b2b13
 
 > [!proof]-
 > We have that:
@@ -20,6 +25,16 @@
 > 2. Notice that: $$x^\top Lx=x^\top B WB^\top x = \sum_{uv\in E}^{}w_{uv}(B^\top x)_{uv}^{2}=\sum_{uv\in E}^{}w_{uv} (x_{u}-x_{v})^{2}$$
 > 3. Notice that: $$L1= BWB^\top 1= 0$$
 
+^c29c29
+
+---
+> [!lemma] Proposition 2
+> For any unit weight graph, 
+> 1. $\lambda_{n}(G)\leq 2 \Delta(G)$.
+
+> [!proof]+
+> We have that: 
+> 1. From Proposition 2, for unit weights, $L=D-A\geq 0$. Now, we have that: $$x^\top (D+A)x=$$
 ---
 ##### Examples
 > [!h] Example 1 (Complete Graph)
@@ -38,8 +53,12 @@
 > 1. $\lambda_{2}(P_{n})\leq \frac{12}{n^{2}}$
 > 2. $1\leq \lambda_{n}(P_{n})\leq$
 
+^da60b7
+
 > [!proof]+
 > We have that:
 > 1. Consider $x_{i}:=(n+1)-2i$. Then, $x\bot 1$ and by Courant-Fischer, $$\lambda_{2}(P_{n})\leq \frac{x^\top Lx}{x^\top x}=\frac{\sum_{i\in[n-1]}(x_{i}-x_{i+1})^{2}}{\sum_{i\in[n]}^{}x_{i}^{2}}=\frac{4(n-1)}{\sum_{i\in[n]}(n+1-2i)^{2}}\leq \frac{12}{n(n+1)}\leq \frac{12}{n^{2}}$$
 > 2. Consider $x\in\mathbb{R}^V$ where $x_{1}=-1$, $x_{n}=1$ and 0 everywhere else. Then, $$\lambda_{n}(P_{n})\geq \frac{x^\top Lx}{x^\top x}=\frac{2}{2}=1$$
+
+^31dc20
 
