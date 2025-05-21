@@ -122,3 +122,18 @@
 
 ---
 #### 2.1.2 Pseudoinverse
+
+---
+#### 2.2 Conductance and Expanders
+![[Conductance#^3ce776]]
+
+---
+![[Expander#^fb21f9]]
+![[Expander#^7eada3]]
+![[Expander#^477930|p]]
+
+---
+![[Conductance#^618b9c]]
+![[Conductance#^2b2dcf|p]]
+
+---

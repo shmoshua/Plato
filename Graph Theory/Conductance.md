@@ -5,6 +5,8 @@
 > 1. for $S\subseteq V$, the ***conductance*** $\phi(S)$ of $S$ is given by: $$\phi(S):=\frac{e(S, V \backslash S)}{\min \{ \text{vol}(S),\text{vol}(V \backslash S) \}}$$where $\text{vol}(A):=\sum_{v\in A}^{}d(v)$. 
 > 2. the ***conductance*** of $G$ is given by: $$\phi(G):=\min _{S\subseteq V}\phi(S)$$
 
+^3ce776
+
 - **Remark**: $\phi(S)=\phi(V \backslash S)$ for all $S\subseteq V$. 
 - **Remark**: Finding the conductance of a graph is NP-hard.
 ---
@@ -12,10 +14,15 @@
 > [!lemma] Lemma 1
 > Let $S\subseteq V$ with $\text{vol}(S)\leq \text{vol}(V) / 2$. Then, $$\phi(S)=\frac{1_{S}^\top L 1_{S}}{1_{S}^\top D 1_{S}}$$ where $L$ is the Laplacian and $D:=\text{diag}(d)$. 
 
+^618b9c
+
 > [!proof]-
 > We have that: $$\phi(S):=\frac{e(S, V \backslash S)}{\min \{ \text{vol}(S),\text{vol}(V \backslash S) \}}=\frac{e(S, V \backslash S)}{ \text{vol}(S)}$$Then,
 > 1. For the numerator: $$e(S, V \backslash S)=\sum_{(u,v)\in E}^{}(1_{S}(u)-1_{S}(v))^{2}=1_{S}^\top L 1_{S}$$
 > 2. For the denominator: $$\text{vol}(S)=1^\top_{S}d=1_{S}^\top D 1_{S}$$
+
+^2b2dcf
+
 - **Corollary**: It is given that:$$\phi(G)=\min_{\begin{array}. S\subseteq V\\\text{vol}(S)\leq \text{vol}(V) / 2\end{array}}\frac{1_{S}^\top L 1_{S}}{1_{S}^\top D 1_{S}}$$
 ---
 > [!lemma] Theorem 2 (Cheeger)

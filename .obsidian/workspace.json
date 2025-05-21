@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Laplacian.md",
+                "file": "Graph Theory/Conductance.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Laplacian"
+              "title": "Conductance"
             }
           },
           {
@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Special Assignment 2.md",
+                "file": "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 2"
+              "title": "AGAO Roadmap"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Graph Theory/Conductance.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph"
+              "title": "Conductance"
             }
           },
           {
@@ -273,15 +273,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "04f222e17248b652",
+  "active": "c87e7ff59d8cd087",
   "lastOpenFiles": [
-    "Graph Theory/Graph.md",
-    "Courses/Algorithms for Data Science/Special Assignment 2.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+    "Graph Theory/Conductance.md",
+    "Graph Theory/Graph.md",
+    "Graph Theory/Graph Laplacian.md",
+    "Courses/Algorithms for Data Science/Special Assignment 2.md",
     "Graph Theory/Effective Resistance.md",
     "Algebra/Pseudoinverse.md",
     "Graph Theory/Graph Matrices.md",
-    "Graph Theory/Graph Laplacian.md",
     "Courses/Probability Theory/Exercise Class 12.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Analysis/Positive Definite.md",
@@ -300,7 +301,6 @@
     "Analysis/Stationary Point.md",
     "Symmetric Matrices.md",
     "Optimization/Optimization Problem.md",
-    "Analysis/Convex Set.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
