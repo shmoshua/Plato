@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Conductance.md",
+                "file": "Probability Theory/Concentration.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conductance"
+              "title": "Concentration"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Conductance.md",
+                "file": "Probability Theory/Concentration.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conductance"
+              "title": "Concentration"
             }
           },
           {
@@ -128,7 +128,8 @@
               "title": "Exercise Class 12"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,7 +161,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "chernoff",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -275,8 +276,9 @@
   },
   "active": "c87e7ff59d8cd087",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Graph Theory/Conductance.md",
+    "Probability Theory/Concentration.md",
+    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Graph Laplacian.md",
     "Courses/Algorithms for Data Science/Special Assignment 2.md",
@@ -300,7 +302,6 @@
     "Analysis/Taylor's Theorem.md",
     "Analysis/Stationary Point.md",
     "Symmetric Matrices.md",
-    "Optimization/Optimization Problem.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",

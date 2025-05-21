@@ -12,7 +12,7 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1
-> Let $S\subseteq V$ with $\text{vol}(S)\leq \text{vol}(V) / 2$. Then, $$\phi(S)=\frac{1_{S}^\top L 1_{S}}{1_{S}^\top D 1_{S}}$$ where $L$ is the Laplacian and $D:=\text{diag}(d)$. 
+> Let $S\subseteq V$ with $\text{vol}(S)\leq \text{vol}(V) / 2$. Then, $$\phi(S)=\frac{1_{S}^\top L 1_{S}}{1_{S}^\top D 1_{S}}$$ where $L$ is the [[Graph Laplacian|Laplacian]] and $D:=\text{diag}(d)$. 
 
 ^618b9c
 
@@ -29,6 +29,8 @@
 >  Let $N:=D^{-1/2}LD^{-1/2}$ be the normalized Laplacian. Then, 
 >  $$\frac{\lambda_{2}}{2}\leq \phi(G)\leq \sqrt{ 2\lambda_{2} }$$where $\lambda_{2}$ is the 2nd smallest eigenvalue of $N$. 
 
+^1c0f8c
+
 > [!proof]+
 > Notice that: $y:=D^{1/2}1$ is an eigenvector of $\lambda_{1}(N)$. By Courant-Fischer, $$\lambda_{1}(N)=\min_{x\neq 0} \frac{x^\top Nx}{x^\top x}\leq \frac{y^\top D^{ -1/2}LD^{-1/2}y}{y^\top y}=\frac{1^\top L 1}{1^\top D 1}=0$$Further, as $N$ is PSD, $\lambda_{1}(N)=0$ and $\text{ker } N=\{ x: x^\top Nx = 0 \}$. Now, for $\lambda_{2}$, 
 > 
@@ -41,3 +43,6 @@
 > 	2. $z_{sc}:=\beta z_{c}$ for some $\beta\in \mathbb{R}$ s.t. $z_{sc}(1)^{2}+z_{sc}(n)^{2}=1$. 
 > 	
 > 	We now claim that $\frac{z^\top Lz}{z^\top Dz}\geq \frac{z_{sc}^\top Lz_{sc}}{z_{sc}^\top Dz_{sc}}$. 
+
+^6f10a3
+
