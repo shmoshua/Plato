@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+                "file": "Courses/Algorithms for Data Science/Special Assignment 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AGAO Roadmap"
+              "title": "Special Assignment 2"
             }
           },
           {
@@ -120,16 +120,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 12.md",
+                "file": "Probability Theory/Conditional Expectation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 12"
+              "title": "Conditional Expectation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,18 +273,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c87e7ff59d8cd087",
+  "active": "92dc71f35726a4ea",
   "lastOpenFiles": [
-    "Graph Theory/Conductance.md",
-    "Probability Theory/Concentration.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+    "Probability Theory/Concentration.md",
+    "Algebra/Pseudoinverse.md",
+    "Probability Theory/Conditional Expectation.md",
+    "Courses/Probability Theory/Exercise Class 12.md",
+    "Graph Theory/Conductance.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Graph Laplacian.md",
     "Courses/Algorithms for Data Science/Special Assignment 2.md",
     "Graph Theory/Effective Resistance.md",
-    "Algebra/Pseudoinverse.md",
     "Graph Theory/Graph Matrices.md",
-    "Courses/Probability Theory/Exercise Class 12.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Analysis/Positive Definite.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
@@ -301,7 +301,6 @@
     "Analysis/Convex Function.md",
     "Analysis/Taylor's Theorem.md",
     "Analysis/Stationary Point.md",
-    "Symmetric Matrices.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
