@@ -22,4 +22,5 @@ Notice that $d(G)=\frac{1}{n}\sum_{v}^{}\text{deg}_{G}(v)=\frac{1}{n}\sum_{v}^{}
 Using $\vdash \braket{ a , b }\leq\|a\|^{2}\|b\|^{2}$ from 8. Useful SOS Proofs,  $$\begin{aligned}\{ M=M^\top,M^2=\alpha I_{n}- RR^\top \}\vdash \braket{ x , My } ^{2}&\leq \|x\|^{2}\|My\|^{2}\\&=\|x\|^{2} y^\top M^\top My\\&=\|x\|^{2} y^\top M^{2}y\\&=\|x\|^{2} y^\top (\alpha I_{n}-RR^\top)y\\&=\alpha\|x\|^{2}\|y\|^{2}-\|x\|^{2}\|R^\top y\|^{2}\\&\leq \alpha\|x\|^{2}\|y\|^{2}\end{aligned}$$where the last inequality follows as $\|x\|^2\|R^\top y\|^{2}$ is a square. We also see that the degree is constant. 
 
 ---
-#### Part 6. 
+#### Part 6. SoS identifiability, Part I
+$$\begin{aligned}\mathcal{A}\vdash n^2(d(Y)-d(G))^{2}&=\braket{Y- G , 11^\top }^{2}\\&=\sum_{i,j}(Y_{ij}-G_{ij})(1-\tilde{z}_{i}\tilde{z}_{j})\\&\leq\sum_{i,j}(Y_{ij}-G_{ij})(1-\tilde{z}_{i}) \end{aligned} $$
