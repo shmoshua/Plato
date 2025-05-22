@@ -128,5 +128,5 @@
 9. [[Courses/Topology/Exercise Sheet 9|Exercise Sheet 9]]
 10. [[Courses/Topology/Exercise Sheet 10|Exercise Sheet 10]]
 11. [[Courses/Topology/Exercise Sheet 11]]
-12. [[Exercise Sheet 12]]
+12. [[Courses/Topology/Exercise Sheet 12]]
 13. 

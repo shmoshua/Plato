@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Special Assignment 2.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 2"
+              "title": "Exercise Sheet 12"
             }
           },
           {
@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Concentration.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Concentration"
+              "title": "Exercise Sheet 12"
             }
           },
           {
@@ -127,7 +127,8 @@
               "title": "Conditional Expectation"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -274,10 +275,11 @@
   },
   "active": "50c164a8b72b2e93",
   "lastOpenFiles": [
-    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-    "Courses/Algorithms for Data Science/Special Assignment 2.md",
-    "Algorithms/Sum of Squares.md",
     "Probability Theory/Concentration.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+    "Courses/Algorithms for Data Science/Special Assignment 2.md",
+    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+    "Algorithms/Sum of Squares.md",
     "Algebra/Pseudoinverse.md",
     "Probability Theory/Conditional Expectation.md",
     "Courses/Probability Theory/Exercise Class 12.md",
@@ -299,7 +301,6 @@
     "Courses/Probability Theory/Exercise Class 11.md",
     "Analysis/Gradient Lipschitz.md",
     "Analysis/Convex Function.md",
-    "Analysis/Taylor's Theorem.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
