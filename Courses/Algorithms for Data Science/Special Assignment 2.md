@@ -7,7 +7,7 @@ Now, for $G\sim G\left( n, \frac{d}{n} \right)$. For any edge $e\in E(K_{n})$, e
 
 ---
 #### Part 2. Spectral norm bound
-We use the Matrix Bernstein inequality. For $i<j$ let: $$Z_{ij}:= X_{ij}(E_{ij}+E_{ji})$$Then, $\overline{G}=-\frac{d(G)}{n}I+\sum_{i<j}^{}Z_{ij}$. We have that $Z_{ij}$ are symmetric and: $$\mathbb{E}[Z_{ij}]=\left( \mathbb{E}[X_{ij}]-\frac{\mathbb{E}[d(G)]}{n-1} \right) (E_{ij}+E_{ji}) =\left( \frac{d}{n}-\frac{\frac{n-1}{n}d}{n-1} \right)(E_{ij}+E_{ji})=0 $$Further, $$\left\| Z_{ij} \right\| =\left( X_{ij}-\frac{d(G)}{n-1} \right)\leq 1$$and $$\left\| \sum_{i<j}^{}\mathbb{E}[Z_{ij}Z_{ij}^\top] \right\| =\left\| \sum_{i<j}^{}\mathbb{E}\left[ \left( X_{ij}-\frac{d(G)}{n-1} \right)^{2}(E_{ii}+E_{jj}) \right] \right\|=\left\| \sum_{i<j}^{}\mathbb{E}\left[ \left( X_{ij}-\frac{d(G)}{n-1} \right)^{2} \right] (E_{ii}+E_{jj})\right\| $$
+We use the Matrix Bernstein inequality. For $i<j$ let: $$Z_{ij}:= \left( X_{ij}-\frac{d(G)}{n-1} \right)(E_{ij}+E_{ji})$$Then, $G=\sum_{i<j}^{}Z_{ij}$. We have that $Z_{ij}$ are symmetric and: $$\mathbb{E}[Z_{ij}]=\left( \mathbb{E}[X_{ij}]-\frac{\mathbb{E}[d(G)]}{n-1} \right) (E_{ij}+E_{ji}) =\left( \frac{d}{n}-\frac{\frac{n-1}{n}d}{n-1} \right)(E_{ij}+E_{ji})=0 $$Further, $$\left\| Z_{ij} \right\| =\left( X_{ij}-\frac{d(G)}{n-1} \right)\leq 1$$and $$\mathbb{E}[Z_{ij}Z_{ij}^\top] =\mathbb{E}\left[ \left( X_{ij}-\frac{d(G)}{n-1} \right)^{2}\right](E_{ii}+E_{jj}) =\left( \underbrace{ \mathbb{E}[X_{ij}^{2}] }_{ \frac{d}{n}\left( 1-\frac{d}{n} \right)  }+\frac{d(G)^{2}}{(n-1)^{2}} \right)(E_{ii}+E_{jj})$$Therefore, $$\left\| \sum_{i<j}^{}\mathbb{E}[Z_{ij}Z_{ij}^\top] \right\| \leq (n-1)\left( \frac{d}{n}\left( 1-\frac{d}{n} \right)+\frac{d(G)^{2}}{(n-1)^{2}} \right)\leq  $$
 
 
 ---
