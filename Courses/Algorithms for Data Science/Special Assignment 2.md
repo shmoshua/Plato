@@ -11,7 +11,7 @@ We use the matrix bernstein inequality. For $i<j$ let: $$Z_{ij}:=\left( X_{ij}-\
 
 ---
 #### Part 3. Median fails
-Let $G\sim G(n, d /n)$. We construct an adversary that takes $\eta n$ vertices in $G$ with the highest degree and deletes all edges incident to them. Then, 
+Let $G\sim G(n, d /n)$. We construct an adversary that takes $\eta n$ vertices in $G$ with the highest degree and deletes all edges incident to them. Then, any node in 
 
 ---
 #### Part 4. Spectral certificate
@@ -29,4 +29,4 @@ $$\mathcal{A}\vdash n\left( \frac{\braket{ \tilde{z} , 1 } }{n} \right)^{2}(d(Y)
 
 ---
 #### Part 7. SoS identifiability, Part II
-We have that: $$\begin{aligned}\mathcal{A}\vdash \braket{ \overline{Y} , 11^\top-\tilde{z}\tilde{z}^\top } ^{2}&=(nd(Y) -\braket{ \tilde{z} , \overline{Y}\tilde{z} })^{2}\\&\leq 2(n^{2}\braket{ 1 , \overline{Y}1 } ^2+\braket{ \tilde{z} , \overline{Y} \tilde{z}}^{2} ) \end{aligned}$$
+We have that: $$\begin{aligned}\mathcal{A}\vdash \braket{ \overline{Y} , 11^\top-\tilde{z}\tilde{z}^\top } ^{2}&=(nd(Y) -\braket{ \tilde{z} , \overline{Y}\tilde{z} })^{2}\\&\leq 2(n^{2}\braket{ 1 , \overline{Y}1 } ^2+\braket{ \tilde{z} , \overline{Y} \tilde{z}}^{2} ) \end{aligned}$$We have: $$\mathcal{A}\vdash \braket{ \overline{Y} , 11^\top-\tilde{z}\tilde{z}^\top } =\text{tr}(\overline{Y})$$
