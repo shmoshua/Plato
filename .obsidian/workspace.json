@@ -119,12 +119,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Expectation.md",
+                "file": "Probability Theory/Variance.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conditional Expectation"
+              "title": "Variance"
             }
           }
         ]
@@ -274,13 +274,14 @@
   },
   "active": "04f222e17248b652",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+    "Probability Theory/Variance.md",
+    "Probability Theory/Conditional Expectation.md",
     "Courses/Algorithms for Data Science/Special Assignment 2.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Probability Theory/Concentration.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Algorithms/Sum of Squares.md",
     "Algebra/Pseudoinverse.md",
-    "Probability Theory/Conditional Expectation.md",
     "Courses/Probability Theory/Exercise Class 12.md",
     "Graph Theory/Conductance.md",
     "Graph Theory/Graph.md",
@@ -299,7 +300,6 @@
     "Functional Analysis/Bounded Linear Map.md",
     "Courses/Probability Theory/Exercise Class 11.md",
     "Analysis/Gradient Lipschitz.md",
-    "Analysis/Convex Function.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
