@@ -23,4 +23,7 @@ Using $\vdash \braket{ a , b }\leq\|a\|^{2}\|b\|^{2}$ from 8. Useful SOS Proofs,
 
 ---
 #### Part 6. SoS identifiability, Part I
-$$\begin{aligned}\mathcal{A}\vdash n^2(d(Y)-d(G))^{2}&=\braket{Y- G , 11^\top }^{2}\\&=\sum_{i,j}(Y_{ij}-G_{ij})(1-\tilde{z}_{i}\tilde{z}_{j})\\&\leq\sum_{i,j}(Y_{ij}-G_{ij})(1-\tilde{z}_{i}) \end{aligned} $$
+As we have that $$\mathcal{A}\vdash Y_{ij}\tilde{z}_{i}\tilde{z}_{j}=G_{ij}\tilde{z}_{i}\tilde{z}_{j},\quad \forall i,j\in[n]$$it follows that:
+$$\begin{aligned}\mathcal{A}\vdash n(d(Y)-d(G))&=\braket{Y- G , 11^\top }\\&=\braket{Y- G , 11^\top -\tilde{z}\tilde{z}^\top} \\&=\left\langle\overline{Y}- \overline{G} +\frac{d(Y)-d(G)}{n}11^\top , 11^\top -\tilde{z}\tilde{z}^\top\right\rangle \\&=\braket{ \overline{Y} , 11^\top-\tilde{z}\tilde{z}^\top } -\braket{ \overline{G} , 11^\top-\tilde{z}\tilde{z}^\top } +\frac{d(Y)-d(G)}{n}\braket{11^\top , 11^\top-\tilde{z}\tilde{z}^\top } \end{aligned} $$However, notice that, $$\braket{ 11^\top , 11^\top -\tilde{z} \tilde{z}^\top } =n^2-\sum_{i,j}^{}\tilde{z}_{i}\tilde{z}_{j}=n^2-$$
+
+$$\braket{ 11^\top , 2w 1^\top-ww^\top }=\sum_{i,j}^{}2w_{i}-w_{i}w_{j}=\sum_{i}^{} $$

@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
+                "file": "Courses/Algorithms for Data Science/Special Assignment 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AGAO Roadmap"
+              "title": "Special Assignment 2"
             }
           },
           {
@@ -64,8 +64,7 @@
               "title": "Sum of Squares"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -78,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Sum of Squares.md",
+                "file": "Courses/Algorithms for Data Science/Special Assignment 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sum of Squares"
+              "title": "Special Assignment 2"
             }
           },
           {
@@ -273,11 +272,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "92dc71f35726a4ea",
+  "active": "50c164a8b72b2e93",
   "lastOpenFiles": [
+    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Courses/Algorithms for Data Science/Special Assignment 2.md",
     "Algorithms/Sum of Squares.md",
-    "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Probability Theory/Concentration.md",
     "Algebra/Pseudoinverse.md",
     "Probability Theory/Conditional Expectation.md",
