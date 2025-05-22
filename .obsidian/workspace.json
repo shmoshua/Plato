@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+                "file": "Courses/Algorithms for Data Science/Special Assignment 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 12"
+              "title": "Special Assignment 2"
             }
           },
           {
@@ -127,8 +127,7 @@
               "title": "Conditional Expectation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -275,9 +274,9 @@
   },
   "active": "50c164a8b72b2e93",
   "lastOpenFiles": [
-    "Probability Theory/Concentration.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/Special Assignment 2.md",
+    "Probability Theory/Concentration.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
     "Algorithms/Sum of Squares.md",
     "Algebra/Pseudoinverse.md",

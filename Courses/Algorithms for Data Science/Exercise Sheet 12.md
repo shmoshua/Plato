@@ -1,19 +1,10 @@
 #Series #Algorithms 
 
 #### 1. The Median as a Robust Mean Estimator
-We firs 
-Let $S\subseteq[n]$ be the set that are not corrupted, i.e. $S:=\{ i\in[n] :Z_{i}=Y_{i}\}$. Then, $\left| S \right|\geq (1-\varepsilon) n$. Then, $\widehat{\mu}\leq$
+We first show that there exists $C$ large enough s.t. for every $0<\varepsilon< \frac{1}{ C}$:  $\mathbb{P}(Y_{i}<\mu ^{*}-C\varepsilon)\leq 1 / 2-2\varepsilon$. Then, $$\mathbb{P}(Y_{i}-\mu ^{*}<-C\varepsilon)=\Phi(-C\varepsilon)=1-\Phi(C\varepsilon)$$As $Y_{i}-\mu ^{*}\sim \mathcal{N}(0,1)$, it suffices to show that $$\frac{1}{\sqrt{ 2\pi }}\int_{0}^{C\varepsilon} \exp\left( -\frac{x^2}{2} \right) \, dx \geq 2\varepsilon$$From Taylor series of $\exp\left( -\frac{x^2}{2} \right)$, we have that: $$\frac{1}{\sqrt{ 2\pi }}\int_{0}^{C\varepsilon} \exp\left( -\frac{x^2}{2} \right) \, dx \geq\frac{1}{\sqrt{ 2\pi }}\int_{0}^{C\varepsilon} 1-\frac{x^{2}}{2}\, dx = \frac{1}{\sqrt{ 2\pi }}\left( C\varepsilon-\frac{C^3\varepsilon^3}{6} \right)$$As $C\varepsilon<1$, we have that: $$\frac{1}{\sqrt{ 2\pi }}\int_{0}^{C\varepsilon} \exp\left( -\frac{x^2}{2} \right) \, dx \geq \frac{1}{\sqrt{ 2\pi }}\cdot \frac{5}{6} C\varepsilon $$Hence, by choosing $C\geq \frac{12}{5}\sqrt{ 2\pi }$ we have our desired statement.
 
-Let $X_{i}$ be the indicator variable denoting if $Y_{i}-\mu ^{*}>C\varepsilon$. Then, $\mathbb{E}[X_{i}]=\mathbb{P}(Y_{i}-\mu ^{*}>C\varepsilon)\leq \frac{1}{2}-2\varepsilon$.
+Let $C$ be $C$ from above and $0< \varepsilon < 1 / C$. 
+1. Let $X_{i}$ be the indicator variable denoting if $Y_{i}-\mu ^{*}>C\varepsilon$. Then, $\mathbb{E}[X_{i}]=\mathbb{P}(Y_{i}-\mu ^{*}>C\varepsilon)\leq \frac{1}{2}-2\varepsilon$ by symmetry. We have that $\mu_{\text{high}}> \mu ^{*}+C\varepsilon$ if and only if $\frac{1}{n}\sum_{i}^{}X_{i}\geq \frac{1}{2}-\varepsilon$. $$\mathbb{P}(\mu_{\text{high}}> \mu ^{*}+C\varepsilon)\leq\mathbb{P}\left( \frac{1}{n}\sum_{i}^{}X_{i}\geq \frac{1}{2}-\varepsilon\right)\leq \mathbb{P}\left( \frac{1}{n}\sum_{i}^{}X_{i}\geq \mathbb{E}[X_{1}]+\varepsilon\right)\leq \exp \left( -2n\varepsilon^{2} \right) $$
+2. Similarly, this time by setting $X_{i}:= \mathbb{1}_{Y_{i}-\mu ^{*}<-C\varepsilon}$, we have that by Hoeffding again: $\mathbb{P}(\mu_{\text{low}}< \mu ^{*}-C\varepsilon)\leq \exp \left( -2n\varepsilon^{2} \right)$
 
-1. We have that $\mu_{\text{high}}\geq \mu ^{*}+C\varepsilon$ if and only if $\frac{1}{n}\sum_{i}^{}X_{i}\geq \frac{1}{2}-\varepsilon$. $$\mathbb{P}\left( \frac{1}{n}\sum_{i}^{}X_{i}\geq \frac{1}{2}-\varepsilon\right)\leq \mathbb{P}\left( \frac{1}{n}\sum_{i}^{}X_{i}\geq \mathbb{E}[X_{1}]+\varepsilon\right)\leq \exp \left( -2n\varepsilon^{2} \right) $$
-
-We first show it for 
-Let $C$ be a constant and $0<\varepsilon< 1 / C$. We have that $\left| \widehat{\mu}-\mu ^{*} \right|> C\varepsilon$ implies that $\left| \mu_{\text{low}}-\mu ^{*} \right|> C\varepsilon$ or $\left| \mu_{\text{high}}-\mu ^{*} \right|> C\varepsilon$ as $\mu_{\text{low}}\leq \widehat{\mu}\leq \mu_{\text{high}}$. 
-
-Now, we have that: 
-$$\mathbb{P}(\mu ^{*}<\mu_{\text{low}})=$$
-
-Then,
-
- $$\mathbb{P}(\left| \mu_{\text{low}}-\mu ^{*} \right|> C\varepsilon)=\mathbb{P}(\exists S\in {\choose })$$
+Therefore, as $2\exp(-2n\varepsilon^{2})\leq 2\exp(-20)\leq 0.01$, with probability at least $0.99$ we have that: $$\mu ^{*}-C\varepsilon\leq \mu_{\text{low}}\leq \widehat{\mu}\leq \mu_{\text{high}}\leq \mu ^{*}+C\varepsilon$$This proves the statement.
