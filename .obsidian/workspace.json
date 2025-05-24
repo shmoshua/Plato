@@ -56,15 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Sum of Squares.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sum of Squares"
+              "title": "Exercise Sheet 12"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -127,7 +128,8 @@
               "title": "Variance"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,15 +274,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "04f222e17248b652",
+  "active": "92dc71f35726a4ea",
   "lastOpenFiles": [
+    "Algorithms/Sum of Squares.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+    "Courses/Algorithms for Data Science/Special Assignment 2.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Conditional Expectation.md",
-    "Courses/Algorithms for Data Science/Special Assignment 2.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Probability Theory/Concentration.md",
     "Courses/Advanced Graph Algorithms/AGAO Roadmap.md",
-    "Algorithms/Sum of Squares.md",
     "Algebra/Pseudoinverse.md",
     "Courses/Probability Theory/Exercise Class 12.md",
     "Graph Theory/Conductance.md",
