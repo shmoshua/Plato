@@ -13,7 +13,7 @@ We use the Matrix Bernstein inequality. For $i<j$ let: $$Z_{ij}:= \left( X_{ij}-
 ---
 #### Part 3. Median fails
 Let $G\sim G(n, d /n)$. We construct an adversary as follows. 
-1. If $$
+1. If $\widehat{d}_{\text{med}}< d$, then 
 
 that takes $\eta n$ vertices in $G$ with the highest degree and deletes all edges incident to them. Then, any node in 
 
