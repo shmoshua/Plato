@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+                "file": "Courses/Probability Theory/Exercise Class 13.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 12"
+              "title": "Exercise Class 13"
             }
           }
         ],
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+                "file": "Courses/Probability Theory/Exercise Class 13.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 12"
+              "title": "Exercise Class 13"
             }
           },
           {
@@ -276,8 +276,9 @@
   },
   "active": "92dc71f35726a4ea",
   "lastOpenFiles": [
-    "Algorithms/Sum of Squares.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+    "Courses/Probability Theory/Exercise Class 13.md",
+    "Algorithms/Sum of Squares.md",
     "Courses/Algorithms for Data Science/Special Assignment 2.md",
     "Probability Theory/Variance.md",
     "Probability Theory/Conditional Expectation.md",
@@ -301,7 +302,6 @@
     "Courses/Advanced Graph Algorithms/Problem Set 9.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Courses/Probability Theory/Exercise Class 11.md",
-    "Analysis/Gradient Lipschitz.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
