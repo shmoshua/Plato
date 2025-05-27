@@ -7,10 +7,13 @@ Now, for $G\sim G\left( n, \frac{d}{n} \right)$. For any edge $e\in E(K_{n})$, e
 
 ---
 #### Part 2. Spectral norm bound
-We first claim that: $$\left\| I-\alpha 11^\top \right\|=1-\alpha n $$
-
-Notice that we have: $$\overline{G}=G-\mathbb{E}[G]+\mathbb{E}[G]-\frac{d(G)}{n}11^\top=G-\mathbb{E}[G]+\frac{d-d(G)}{n}11^\top-\frac{d}{n}I_{n}$$
+From Part 1, we have that with probability $\geq 1-n^{-10}$, we have from $d\geq C\log n$ that: $$d\leq d(G)+20\sqrt{ \frac{d}{n}\log n }\leq d(G)+\frac{20}{\sqrt{ Cn }}d$$Assuming $C$ is large enough, we may wlog assume that $\frac{20}{\sqrt{ Cn }}\leq \frac{1}{10}d$. Therefore, $d\leq \frac{10}{9}d(G)$. Now, 
+$$\overline{G}=G-\mathbb{E}[G]+\mathbb{E}[G]-\frac{d(G)}{n}11^\top=G-\mathbb{E}[G]+\frac{d-d(G)}{n}11^\top-\frac{d}{n}I_{n}$$We first bound 
 Then, $$\left\| \frac{d-d(G)}{n}11^\top-\frac{d}{n}I_{n} \right\| =\frac{d}{n}\left\| I_{n}-\frac{d-d(G)}{d}11^\top \right\|=\frac{d}{n}\left( 1-\frac{d-d(G)}{d}n \right) $$
+
+We first claim that: $$\left\| I-\alpha 11^\top \right\|=1-\alpha n $$
+As $\alpha1$
+Notice that we have: 
 We use the Matrix Bernstein inequality. Notice t
 
 ---
