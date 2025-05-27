@@ -17,11 +17,12 @@ $$\left\| \overline{G} \right\| \leq \left\| G-\mathbb{E}[G] \right\|+\left\| \m
 
 ---
 #### Part 3. Median fails
-Let $G\sim G(n, d /n)$. We construct an adversary as follows. 
-1. If $\widehat{d}_{\text{med}}< d$, then the adversary finds the $\eta n$ vertices in $G$ with the lowest degree and adds all possible edges incident to them.
-2. If $\widehat{d}_{\text{med}}\geq d$, then the adversary finds the $\eta n$ vertices in $G$ with the highest degree and deletes all edges incident to them.
+Let $G\sim G(n, d /n)$. We construct an adversary as follows. Let $d_{\text{med}}$ be the median of $G$. Further, let $d_{\text{low}}, d_{\text{high}}$ be the $\left( \frac{1}{2}-\eta \right)n$ and $\left( \frac{1}{2}+\eta \right)n$ smallest degree of $G$, respectively.
+1. If ${d}_{\text{med}}< d$, then the adversary finds the $\eta n$ vertices in $G$ with the lowest degree and adds all possible edges incident to them.
+2. If ${d}_{\text{med}}\geq d$, then the adversary finds the $\eta n$ vertices in $G$ with the highest degree and deletes all edges incident to them.
 
-Let $G'$ denote the modified graph. 
+Let $G'$ denote the modified graph. Then, as $\text{deg}_{G'}(1),\dots,\deg_{G'}(n)$ differ from $\text{deg}_{G}(1),\dots,\deg_{G}(n)$ in at most $\eta n$ nodes, we have that $d_{\text{low}}\leq\widehat{d}_{\text{med}}\leq d_{\text{high}}$. 
+1. If $d_{\text{med}}< d$, then
 
 ---
 #### Part 4. Spectral certificate
