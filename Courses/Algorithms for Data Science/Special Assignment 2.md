@@ -12,7 +12,7 @@ We use the Matrix Bernstein inequality.
 
 ---
 ##### Option 1: 
-Let $$Z^{ij}:=\left( X_{ij}-\frac{d(G)}{n-1} \right) (E^{ij}+E^{ji})$$Then, $Z_{ij}$ are symmetric and: $\mathbb{E}[Z^{ij}]=0$. Further, $$\left\| Z^{ij} \right\| =\left| X_{ij}-\frac{d(G)}{n-1} \right| $$and $$\mathbb{E}[Z^{ij}Z^{ij\top}]=$$
+Let $$Z^{ij}:=\left( X_{ij}-\frac{d(G)}{n-1} \right) (E^{ij}+E^{ji})$$Then, $Z_{ij}$ are symmetric and: $\mathbb{E}[Z^{ij}]=0$. Further, $$\left\| Z^{ij} \right\| =\left| X_{ij}-\frac{d(G)}{n-1} \right| $$and $$\mathbb{E}[Z^{ij}Z^{ij\top}]=\mathbb{E}\left[ \left( X_{ij}-\frac{d(G)}{n-1} \right)^{2} \right](E_{ii}+E_{jj})=$$
 
 
 ---
