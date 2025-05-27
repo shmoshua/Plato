@@ -7,8 +7,11 @@ Now, for $G\sim G\left( n, \frac{d}{n} \right)$. For any edge $e\in E(K_{n})$, e
 
 ---
 #### Part 2. Spectral norm bound
+We first claim that: $$\left\| I-\alpha 11^\top \right\|=1-\alpha n $$
 
-We use the Matrix Bernstein inequality. 
+Notice that we have: $$\overline{G}=G-\mathbb{E}[G]+\mathbb{E}[G]-\frac{d(G)}{n}11^\top=G-\mathbb{E}[G]+\frac{d-d(G)}{n}11^\top-\frac{d}{n}I_{n}$$
+Then, $$\left\| \frac{d-d(G)}{n}11^\top-\frac{d}{n}I_{n} \right\| =\frac{d}{n}\left\| I_{n}-\frac{d-d(G)}{d}11^\top \right\|=\frac{d}{n}\left( 1-\frac{d-d(G)}{d}n \right) $$
+We use the Matrix Bernstein inequality. Notice t
 
 ---
 ##### Option 1: 
