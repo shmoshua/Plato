@@ -31,7 +31,7 @@ Let $G'$ denote the modified graph. Then, as $\text{deg}_{G'}(1),\dots,\deg_{G'}
 
 ---
 #### Part 4. Spectral certificate
-Notice that $d(G)=\frac{1}{n}\sum_{v}^{}\text{deg}_{G}(v)=\frac{1}{n}\sum_{v}^{}\sum_{u}^{}G_{uv}=\frac{1}{n}\braket{ G , 11^\top }$. Similarly, $d(Y)=\frac{1}{n}\braket{ Y , 11^\top }$. Hence, $$\left| d(G)-d(Y) \right| =\frac{1}{n}\left| \braket{ G-Y , 11^\top }  \right| $$
+Notice that $d(G)=\frac{1}{n}\sum_{v}^{}\text{deg}_{G}(v)=\frac{1}{n}\sum_{v}^{}\sum_{u}^{}G_{uv}=\frac{1}{n}\braket{ G , 11^\top }$. Similarly, $d(Y)=\frac{1}{n}\braket{ Y , 11^\top }$. Hence, $$\left| d(G)-d(Y) \right| =\frac{1}{n}\left| \braket{ G-Y , 11^\top }  \right| =\frac{1}{n}\left| \left\langle \overline{G}- \overline{Y}+ \frac{d(G)-d(Y)}{n}11^\top ,  11^\top\right\rangle  \right| $$
 
 ---
 #### Part 5. Using spectral certificates inside SOS
