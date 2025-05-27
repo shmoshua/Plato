@@ -31,6 +31,10 @@ Let $G'$ denote the modified graph. Then, as $\text{deg}_{G'}(1),\dots,\deg_{G'}
 
 ---
 #### Part 4. Spectral certificate
+Let $Y$ be a $\rho$-node corruption of $G$. Then, there exists $S\subseteq[n]$ s.t. $\left| S \right|\geq (1-\rho) n$ and for all $i,j\in S$ $Y_{ij}=G_{ij}$. Therefore, in otherwords, we have: $\braket{ G-Y , 1_{S}1_{S}^\top }=0$. It follows that,$$\begin{aligned}\left| d(G)-d(Y) \right| &=\frac{1}{n}\left| \braket{ G-Y , 11^\top }  \right| \\&=\frac{1}{n}\left| \braket{ G-Y , 11^\top -1_{S}1_{S}^\top}  \right| \\&=\frac{1}{n}\left| \left\langle \overline{G}-\overline{Y}+\frac{d(G)-d(Y)}{n}11^\top , 11^\top -1_{S}1_{S}^\top\right\rangle  \right|\\&\leq\frac{1}{n}\left| \left\langle \overline{G},11^\top -1_{S}1_{S}^\top\right\rangle \right|+\frac{1}{n}\left|\left\langle\overline{Y},11^\top -1_{S}1_{S}^\top\right\rangle\right| +\frac{\left| d(G)-d(Y) \right| }{n^{2}}\left|\left\langle 11^\top , 11^\top -1_{S}1_{S}^\top\right\rangle  \right| \end{aligned}$$
+Now, $$\braket{ 11^\top  , 11^\top -1_{S}1_{S}^\top } =n^2-\left| S \right| ^{2}\leq (1-(1-\rho)^{2})n^{2}$$
+
+We have that: $$d(G)-d(Y)=\frac{1}{n}\braket{ G-Y , 11^\top } =\frac{1}{n}\braket{ \overline{G}-\overline{Y}+\frac{d(G)-d(Y)}{n}11^\top ,11^\top  }=\frac{1}{n}\braket{ \overline{G}-\overline{Y},11^\top  } +d(G)-d(Y)$$Hence, $\braket{ \overline{G}-\overline{Y} , 11^\top }=0$. 
 Notice that $d(G)=\frac{1}{n}\sum_{v}^{}\text{deg}_{G}(v)=\frac{1}{n}\sum_{v}^{}\sum_{u}^{}G_{uv}=\frac{1}{n}\braket{ G , 11^\top }$. Similarly, $d(Y)=\frac{1}{n}\braket{ Y , 11^\top }$. Hence, $$\left| d(G)-d(Y) \right| =\frac{1}{n}\left| \braket{ G-Y , 11^\top }  \right| =\frac{1}{n}\left| \left\langle \overline{G}- \overline{Y}+ \frac{d(G)-d(Y)}{n}11^\top ,  11^\top\right\rangle  \right| $$
 
 ---
