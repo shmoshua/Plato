@@ -7,31 +7,21 @@ Now, for $G\sim G\left( n, \frac{d}{n} \right)$. For any edge $e\in E(K_{n})$, e
 
 ---
 #### Part 2. Spectral norm bound
-From Part 1, we have that with probability $\geq 1-n^{-10}$, we have from $d\geq C\log n$ that: $$d\leq d(G)+20\sqrt{ \frac{d}{n}\log n }\leq d(G)+\frac{20}{\sqrt{ Cn }}d$$Assuming $C$ is large enough, we may wlog assume that $\frac{20}{\sqrt{ Cn }}\leq \frac{1}{10}d$. Therefore, $d\leq \frac{10}{9}d(G)$. Now, 
-$$\overline{G}=G-\mathbb{E}[G]+\mathbb{E}[G]-\frac{d(G)}{n}11^\top=G-\mathbb{E}[G]+\frac{d-d(G)}{n}11^\top-\frac{d}{n}I_{n}$$We first bound 
-Then, $$\left\| \frac{d-d(G)}{n}11^\top-\frac{d}{n}I_{n} \right\| =\frac{d}{n}\left\| I_{n}-\frac{d-d(G)}{d}11^\top \right\|=\frac{d}{n}\left( 1-\frac{d-d(G)}{d}n \right) $$
+From Part 1, we have that with probability $\geq 1-n^{-10}$, we have from $d\geq C\log n$ that: $$d\leq d(G)+20\sqrt{ \frac{d}{n}\log n }\leq d(G)+\frac{20}{\sqrt{ Cn }}d$$Assuming $C$ is large enough, we may wlog assume that $\frac{20}{\sqrt{ Cn }}\leq \frac{1}{20}$. Therefore, $d\leq \frac{20}{19}d(G)$. Now, 
+$$\overline{G}=G-\mathbb{E}[G]+\mathbb{E}[G]-\frac{d(G)}{n}11^\top=G-\mathbb{E}[G]+\frac{d-d(G)}{n}11^\top-\frac{d}{n}I_{n}$$We first bound the spectrum of $\frac{d-d(G)}{n}11^\top-\frac{d}{n}I_{n}$. Let $0< \alpha < 1 / n$. Then, as $\text{Spec}(\alpha 11^\top)=\{ \alpha n,0 \}$, we have that: $\left\| I-\alpha 11^\top \right\| =\max\{1-\alpha n,1 \}=1$. Indeed, $\lambda$ is an eigenvalue of $\alpha 11^\top$, if and only if $1-\lambda$ is an eigenvalue for $I-\alpha 11^\top$.
 
-We first claim that: $$\left\| I-\alpha 11^\top \right\|=1-\alpha n $$
-As $\alpha1$
-Notice that we have: 
-We use the Matrix Bernstein inequality. Notice t
+ 
+Therefore, as we have that $\frac{d-d(G)}{d}\leq \frac{20}{\sqrt{ Cn }}\leq \frac{1}{20}$ from above, we have that:$$\left\| \frac{d-d(G)}{n}11^\top-\frac{d}{n}I_{n} \right\| =\frac{d}{n}\left\| I_{n}-\frac{d-d(G)}{d}11^\top \right\|=\frac{d}{n} \leq 1\leq \sqrt{ d\log n }$$To bound the spectrum of $G-\mathbb{E}[G]$, we use the matrix Bernstein inequality: We have: $$G-\mathbb{E}[G]=\sum_{i<j}Z^{ij},\quad Z^{ij}:=\left( X_{ij}- \frac{d}{n} \right)(E_{ij}+E_{ji})$$where $E^{ij}$ is the indicator matrix at $(i,j)$ and $X_{ij}$ is the indicator variable from above. Then, $Z^{ij}$ is symmetric and zero-mean by definition and: $$\left\| Z^{ij} \right\| =\left| X_{ij}-\frac{d}{n} \right| \left\| E_{ij}+E_{ji} \right\| =\left| X_{ij}-\frac{d}{n} \right| \leq 1$$Further, $$\mathbb{E}[(Z^{ij})^{2}]=\left( \underbrace{ \mathbb{E}[X_{ij}^{2}] }_{ \frac{d}{n}\left( 1-\frac{d}{n} \right) }-\frac{d^{2}}{n^{2}} \right)(E_{ii}+E_{jj})=\frac{d}{n}(E_{ii}+E_{jj})$$Therefore, $$\left\| \sum_{i<j}^{}\mathbb{E}[(Z^{ij})^{2}] \right\| =\left\| \frac{d}{n}(n-1)I_{n} \right\| =\frac{d(n-1)}{n}\leq d$$It follows that with probability $1-n^{-10}$, $$\left\| G-\mathbb{E}[G] \right\| \leq 8(\sqrt{ d \log n }+\log n)\leq 8\left( 1+\frac{1}{\sqrt{ C }} \right)\sqrt{ d\log n }$$By assuming $C$ is large enough, we may assume that $8\left( 1+\frac{1}{\sqrt{ C }} \right)\leq \frac{17}{2}$. Bringing it all together, 
 
----
-##### Option 1: 
-Let $$Z^{ij}:=\left( X_{ij}-\frac{d(G)}{n-1} \right) (E^{ij}+E^{ji})$$Then, $Z_{ij}$ are symmetric and: $\mathbb{E}[Z^{ij}]=0$. Further, $$\left\| Z^{ij} \right\| =\left| X_{ij}-\frac{d(G)}{n-1} \right| $$and $$\mathbb{E}[Z^{ij}Z^{ij\top}]=\mathbb{E}\left[ \left( X_{ij}-\frac{d(G)}{n-1} \right)^{2} \right](E_{ii}+E_{jj})=$$
-
-
----
-
-For $i<j$ let: $$Z_{ij}:= \left( X_{ij}-\frac{d(G)}{n-1} \right)(E_{ij}+E_{ji})$$Then, $G=\sum_{i<j}^{}Z_{ij}$. We have that $Z_{ij}$ are symmetric and: $$\mathbb{E}[Z_{ij}]=\left( \mathbb{E}[X_{ij}]-\frac{\mathbb{E}[d(G)]}{n-1} \right) (E_{ij}+E_{ji}) =\left( \frac{d}{n}-\frac{\frac{n-1}{n}d}{n-1} \right)(E_{ij}+E_{ji})=0 $$Further, $$\left\| Z_{ij} \right\| =\left( X_{ij}-\frac{d(G)}{n-1} \right)\leq 1$$and $$\mathbb{E}[Z_{ij}Z_{ij}^\top] =\mathbb{E}\left[ \left( X_{ij}-\frac{d(G)}{n-1} \right)^{2}\right](E_{ii}+E_{jj}) =\left( \underbrace{ \mathbb{E}[X_{ij}^{2}] }_{ \frac{d}{n}\left( 1-\frac{d}{n} \right)  }+\frac{d(G)^{2}}{(n-1)^{2}} \right)(E_{ii}+E_{jj})$$Therefore, $$\left\| \sum_{i<j}^{}\mathbb{E}[Z_{ij}Z_{ij}^\top] \right\| \leq (n-1)\left( \frac{d}{n}\left( 1-\frac{d}{n} \right)+\frac{d(G)^{2}}{(n-1)^{2}} \right)\leq  $$
-
+$$\left\| \overline{G} \right\| \leq \left\| G-\mathbb{E}[G] \right\|+\left\| \mathbb{E}[G]-\frac{d(G)}{n} 11^\top \right\| \leq \frac{19}{2}\sqrt{ d\log n }\leq 10\sqrt{ d(G)\log n } $$with error probability at most $2n^{-10}\leq n^{-9}$ using union bound. As $\overline{G}$ is symmetric, we also have that: $\left\| \overline{G}^{2} \right\| =\left\| \overline{G} \right\| ^{2}\leq 100d(G) \log n$.
 
 ---
 #### Part 3. Median fails
 Let $G\sim G(n, d /n)$. We construct an adversary as follows. 
-1. If $\widehat{d}_{\text{med}}< d$, then 
+1. If $\widehat{d}_{\text{med}}< d$, then the adversary finds the $\eta n$ vertices in $G$ with the lowest degree and adds all possible edges incident to them.
+2. If $\widehat{d}_{\text{med}}\geq d$, then the adversary finds the $\eta n$ vertices in $G$ with the highest degree and deletes all edges incident to them.
 
-that takes $\eta n$ vertices in $G$ with the highest degree and deletes all edges incident to them. Then, any node in 
+Let $G'$ denote the modified graph. 
 
 ---
 #### Part 4. Spectral certificate
