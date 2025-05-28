@@ -22,7 +22,9 @@ Let $G\sim G(n, d /n)$. We construct an adversary as follows. Let $d_{\text{med}
 2. If $0\leq d_{\text{med}}-d< 0.99\eta n$, then the adversary finds the $\left\lfloor\eta n\right\rfloor$ vertices in $G$ with the lowest degree and adds all possible edges incident to them.
 3. If $0\leq d-d_{\text{med}}< 0.99\eta n$, then the adversary finds the $\eta n$ vertices in $G$ with the highest degree and deletes all edges incident to them.
 
-Assume that $d\leq d_{\text{med}}<d+ 0.99 \eta n$ (Case 2). Then, for each of the $\eta n$ vertices, we increase the degree by at least $(n-1-d)$. Therefore, the total increase of the degrees is at least $(n-1-d)\eta n$. 
+Assume that $d\leq d_{\text{med}}<d+ 0.99 \eta n$ (Case 2). Then, for each of the $\eta n$ vertices, we increase the degree by at least $(n-1-d)$. Therefore, the total increase of the degrees is at least $(n-1-d(\eta n))\eta n$. 
+
+1. $d'(\eta n)\geq d(\eta n)$
 
 Let $d_{\text{med}}$ be the median of $G$. Further, let $d_{\text{low}}, d_{\text{high}}$ be the $\left( \frac{1}{2}-\eta \right)n$ and $\left( \frac{1}{2}+\eta \right)n$ smallest degree of $G$, respectively.
 1. If ${d}_{\text{med}}< d$, then the adversary finds the $\eta n$ vertices in $G$ with the lowest degree and adds all possible edges incident to them.
