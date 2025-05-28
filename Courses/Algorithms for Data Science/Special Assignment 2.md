@@ -28,7 +28,11 @@ We have that:
 1. $\frac{n}{2}d_{\text{med}}\leq \sum_{i}^{}\text{deg}_{G}(i)\leq \frac{n}{2}(d_{\text{med}}+n-1)$
 2. $\frac{n}{2}\widehat{d}_{\text{med}}\leq \sum_{i}^{}\text{deg}_{G'}(i)\leq \frac{n}{2}(\widehat{d}_{\text{med}}+n-1)$
 
-Therefore, $$\frac{n}{2}(\widehat{d}_{\text{med}}+n-1-d_{\text{med}})\geq\sum_{i}^{}\text{deg}_{G'}(i)-\deg_{G}(i)\geq \eta n(n-1-d_{\text{med}})$$Hence, $$\widehat{d}_{\text{med}}\geq \left( 2\eta-1\right)(n-1-d_{\text{med}})\overset{ ? }{ \geq }d+0.99\eta n$$
+Therefore, $$\frac{n}{2}(\widehat{d}_{\text{med}}+n-1-d_{\text{med}})\geq\sum_{i}^{}\text{deg}_{G'}(i)-\deg_{G}(i)\geq \eta n(n-1-d_{\text{med}})$$
+
+Hence, $\widehat{d}_{\text{med}}+n-1-d\geq \widehat{d}_{\text{med}}+n-1-d_{\text{med}}\geq 2\eta (n-1-d_{\text{med}})$.$$\widehat{d}_{\text{med}}-d\geq  (1-0.99\eta)2\eta n-2\eta-n+1-2\eta d$$
+
+$$\widehat{d}_{\text{med}}\geq \left( 2\eta-1\right)(n-1-d_{\text{med}})\overset{ ? }{ \geq }d+0.99\eta n$$$$$$
 
 
 Let $d_{\text{med}}$ be the median of $G$. Further, let $d_{\text{low}}, d_{\text{high}}$ be the $\left( \frac{1}{2}-\eta \right)n$ and $\left( \frac{1}{2}+\eta \right)n$ smallest degree of $G$, respectively.
