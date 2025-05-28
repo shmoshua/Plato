@@ -19,8 +19,10 @@ $$\left\| \overline{G} \right\| \leq \left\| G-\mathbb{E}[G] \right\|+\left\| \m
 #### Part 3. Median fails
 Let $G\sim G(n, d /n)$. We construct an adversary as follows. Let $d_{\text{med}}$ be the median of $G$. 
 1. If $\left| d_{\text{med}}-d \right|\geq 0.99\eta n$, then the adversary does nothing and $G':= G$.
-2. If $0\leq d_{\text{med}}-d< 0.99\eta n$, then the adversary finds the $\eta n$ vertices in $G$ with the lowest degree and adds all possible edges incident to them.
+2. If $0\leq d_{\text{med}}-d< 0.99\eta n$, then the adversary finds the $\left\lfloor\eta n\right\rfloor$ vertices in $G$ with the lowest degree and adds all possible edges incident to them.
 3. If $0\leq d-d_{\text{med}}< 0.99\eta n$, then the adversary finds the $\eta n$ vertices in $G$ with the highest degree and deletes all edges incident to them.
+
+Assume that $d\leq d_{\text{med}}<d+ 0.99 \eta n$ (Case 2). Then, for each of the $\eta n$ vertices, we increase the degree by at least $(n-1-d)$. Therefore, the total increase of the degrees is at least $(n-1-d)\eta n$. 
 
 Let $d_{\text{med}}$ be the median of $G$. Further, let $d_{\text{low}}, d_{\text{high}}$ be the $\left( \frac{1}{2}-\eta \right)n$ and $\left( \frac{1}{2}+\eta \right)n$ smallest degree of $G$, respectively.
 1. If ${d}_{\text{med}}< d$, then the adversary finds the $\eta n$ vertices in $G$ with the lowest degree and adds all possible edges incident to them.
@@ -56,4 +58,6 @@ We have that: $$\begin{aligned}\mathcal{A}\vdash (d(Y)-d(G))^{2}&\leq O\left( \f
 
 Now, $$\begin{aligned}\mathcal{A}\vdash d(Y)&=\frac{d(Y)-d(G)}{\sqrt{ D\eta \log n }}\sqrt{ D\eta \log n }+d(G)\\&\leq \frac{(d(Y)-d(G))^{2}}{2D\eta \log n}+d(G)+\frac{D}{2}\eta \log n\\&\leq \frac{(d(Y)-d(G))^{2}}{2D\eta \log n}+O(1)d(G)\end{aligned}$$where $O(1)$ comes from the fact that $\eta \log n\leq \frac{d}{C^{2}}$ and $d\leq O(1)d(G)$ with probability at least $1-n^{-9}$ together with $\mathcal{A}_{\text{goodness}}$ (cf. Part 2). Therefore, $$\begin{aligned}\mathcal{A}\vdash (d(Y)-d(G))^{2}&\leq D\eta \log n\left( O(1)d(G)+\frac{(d(Y)-d(G))^{2}}{2D\eta \log n}\right) \\&=\frac{(d(Y)-d(G))^{2}}{2}+ O(\eta \log n)d(G)\end{aligned}$$Rearranging the statement we have that $\mathcal{A}\vdash (d(Y)-d(G))^2\leq O(\eta \log n)d(G)$.
 
-Now, by the SOS meta theorem and the fact that $d(Y)=\frac{1}{n}\braket{ Y , 11^\top }$, we have that: $$(\widehat{d}-d(G))^{2}=\left( \frac{1}{n}\braket{ \tilde{\mathbb{E}}[Y] , 11^\top }  -d(G)\right)^{2}\leq O(\eta \log n)d(G)$$Therefore, $$\left| \widehat{d}-d \right| \leq \left| \widehat{d}-d(G) \right| +\left| d(G)-d \right| \leq O\left( \sqrt{ \frac{d\log n}{n} }+ \right)$$
+Now, by the SOS meta theorem and the fact that $d(Y)=\frac{1}{n}\braket{ Y , 11^\top }$, we have that: $$(\widehat{d}-d(G))^{2}=\left( \frac{1}{n}\braket{ \tilde{\mathbb{E}}[Y] , 11^\top }  -d(G)\right)^{2}\leq O(\eta \log n)d(G)\leq O(\eta \log n \cdot d)$$Therefore, with Part 1, with probability at least $1-n^{-5}$: $$\left| \widehat{d}-d \right| \leq \left| \widehat{d}-d(G) \right| +\left| d(G)-d \right| \leq O\left( \sqrt{ \frac{d\log n}{n} }+ \sqrt{ \eta \log n \cdot d }\right)$$
+
+---
