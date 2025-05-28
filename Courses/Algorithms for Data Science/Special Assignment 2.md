@@ -26,7 +26,8 @@ Assume that $d\leq d_{\text{med}}<d+ 0.99 \eta n$ (Case 2). Then, for each of th
 
 We have that:
 1. $\frac{n}{2}d_{\text{med}}\leq \sum_{i}^{}\text{deg}_{G}(i)\leq \frac{n}{2}(d_{\text{med}}+n-1)$
-2. $\frac{n}{2}\widehat{d}_{\text{med}}\leq \sum_{i}^{}\text{deg}_{G'}(i)\leq \frac{n}{2}(\widehat{d}_{\text{med}}+n-1)$
+2. $\frac{n}{2}(\widehat{d}_{\text{med}}+\eta n)\leq \sum_{i}^{}\text{deg}_{G'}(i)\leq \frac{n}{2}(\widehat{d}_{\text{med}}+n-1)$
+3. $\delta(G')\geq \eta n$
 
 Therefore, $$\frac{n}{2}(\widehat{d}_{\text{med}}+n-1-d_{\text{med}})\geq\sum_{i}^{}\text{deg}_{G'}(i)-\deg_{G}(i)\geq \eta n(n-1-d_{\text{med}})$$
 
