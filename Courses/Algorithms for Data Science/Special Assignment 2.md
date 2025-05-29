@@ -17,31 +17,8 @@ $$\left\| \overline{G} \right\| \leq \left\| G-\mathbb{E}[G] \right\|+\left\| \m
 
 ---
 #### Part 3. Median fails
-Let $G\sim G(n, d /n)$. We construct an adversary as follows. Let $d_{\text{med}}$ be the median of $G$. 
-1. If $\left| d_{\text{med}}-d \right|\geq 0.99\eta n$, then the adversary does nothing and $G':= G$.
-2. If $0\leq d_{\text{med}}-d< 0.99\eta n$, then the adversary finds the $\left\lfloor\eta n\right\rfloor$ vertices in $G$ with the lowest degree and adds all possible edges incident to them.
-3. If $0\leq d-d_{\text{med}}< 0.99\eta n$, then the adversary finds the $\eta n$ vertices in $G$ with the highest degree and deletes all edges incident to them.
+Let $n$ be large enough s.t. $n^{0.99}\leq 10^{-5} n$. Now, let $G\sim G(n,d /n)$. The adversary then finds the $\eta n$ vertices with the lowest degree and adds all possible edges incident to them. Let $G'$ be the corrupted graph. We have that the minimum degree $\delta(G')\geq \eta n$ as we have $\eta n$ vertices that are adjacent to every other vertex. Therefore, we have that: $$\widehat{d}_{\text{med}}\geq \delta(G')\geq \eta n$$However, notice that: $$d\leq n^{0.99}\leq 10^{-5}n\leq 0.01 \eta n$$Therefore, $\widehat{d}_{\text{med}}\geq \eta n\geq d+0.99\eta n$. This proves the statement.
 
-Assume that $d\leq d_{\text{med}}<d+ 0.99 \eta n$ (Case 2). Then, for each of the $\eta n$ vertices, we increase the degree by at least $(n-1-d_{\text{med}})$. Therefore, the total increase of the degrees is at least $(n-1-d_{\text{med}})\eta n$. 
-
-We have that:
-1. $\frac{n}{2}d_{\text{med}}\leq \sum_{i}^{}\text{deg}_{G}(i)\leq \frac{n}{2}(d_{\text{med}}+n-1)$
-2. $\frac{n}{2}(\widehat{d}_{\text{med}}+\eta n)\leq \sum_{i}^{}\text{deg}_{G'}(i)\leq \frac{n}{2}(\widehat{d}_{\text{med}}+n-1)$
-3. $\delta(G')\geq \eta n$
-
-Therefore, $$\frac{n}{2}(\widehat{d}_{\text{med}}+n-1-d_{\text{med}})\geq\sum_{i}^{}\text{deg}_{G'}(i)-\deg_{G}(i)\geq \eta n(n-1-d_{\text{med}})$$
-
-Hence, $\widehat{d}_{\text{med}}+n-1-d\geq \widehat{d}_{\text{med}}+n-1-d_{\text{med}}\geq 2\eta (n-1-d_{\text{med}})$.$$\widehat{d}_{\text{med}}-d\geq  (1-0.99\eta)2\eta n-2\eta-n+1-2\eta d$$
-
-$$\widehat{d}_{\text{med}}\geq \left( 2\eta-1\right)(n-1-d_{\text{med}})\overset{ ? }{ \geq }d+0.99\eta n$$$$$$
-
-
-Let $d_{\text{med}}$ be the median of $G$. Further, let $d_{\text{low}}, d_{\text{high}}$ be the $\left( \frac{1}{2}-\eta \right)n$ and $\left( \frac{1}{2}+\eta \right)n$ smallest degree of $G$, respectively.
-1. If ${d}_{\text{med}}< d$, then the adversary finds the $\eta n$ vertices in $G$ with the lowest degree and adds all possible edges incident to them.
-2. If ${d}_{\text{med}}\geq d$, 
-
-Let $G'$ denote the modified graph. Then, as $\text{deg}_{G'}(1),\dots,\deg_{G'}(n)$ differ from $\text{deg}_{G}(1),\dots,\deg_{G}(n)$ in at most $\eta n$ nodes, we have that $d_{\text{low}}\leq\widehat{d}_{\text{med}}\leq d_{\text{high}}$. 
-1. If $d_{\text{med}}< d$, then
 
 ---
 #### Part 4. Spectral certificate
