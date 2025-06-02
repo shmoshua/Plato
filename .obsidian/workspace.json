@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Autoencoder.md",
+                "file": "Machine Learning/Principal Component Analysis.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Autoencoder"
+              "title": "Principal Component Analysis"
             }
           }
         ]
@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Machine Learning/Principal Component Analysis.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph"
+              "title": "Principal Component Analysis"
             }
           },
           {
@@ -71,7 +71,8 @@
               "title": "Hilbert Space Operator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,14 +217,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "83ca64246e25a9b6",
+  "active": "11d3cda224086678",
   "lastOpenFiles": [
-    "Functional Analysis/Hilbert Space Operator.md",
+    "Graph Theory/Graph.md",
+    "Machine Learning/Principal Component Analysis.md",
     "Machine Learning/Autoencoder.md",
+    "Functional Analysis/Hilbert Space Operator.md",
     "Courses/Probability Theory/Exercise Class 13.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Courses/Algorithms for Data Science/Special Assignment 2.md",
-    "Graph Theory/Graph.md",
     "Probability Theory/Variance.md",
     "Algebra/Pseudoinverse.md",
     "Probability Theory/Concentration.md",
@@ -243,7 +245,6 @@
     "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Courses/Advanced Graph Algorithms/Problem Set 2.md",
     "Courses/Advanced Graph Algorithms/Problem Set 1.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
