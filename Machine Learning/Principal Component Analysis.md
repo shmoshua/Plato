@@ -20,7 +20,19 @@
 > [!lemma] Proposition 2 (Power Method)
 >  Let $A\in \mathbb{R}^{n,n}$ be a diagonalizable matrix with $\lambda_{1}(A)> \lambda_{2}(A)\geq\dots\geq \lambda_{n}(A)\geq 0$ with a unique principal component $u_{1}$. 
 >  1. for $v_{0}\in \mathbb{R}^n$, if $\braket{ v_{0} , u_{1} }\neq0$, then: $$v^{t+1}:=\frac{Av^t}{\left\| Av^t \right\| }$$converges to $u_{1}$ with computational complexity $O(Tn^{2})$ after $T$ iterations.
+>  2. By iteratively finding the principal component of $A_{i}:=A - \sum_{j< i}^{}\lambda_{j} u_{j}u_{j}^\top$ using the power method, we can find the $m$ principal components in time $O(Tn^{2}m)$.
+
+> [!proof]-
+> We have:
+> 1. The runtime is easy to see. Now, let $A=\sum_{i\in [n]}^{}\lambda_{i} u_{i}u_{i}^\top$. Then, $v^0=\sum_{i}^{}\alpha_{i}u_{i}$ where $\alpha_{1}\neq 0$ as $\braket{ v^0 , u_{1} }\neq 0$. Hence, $$v^k \propto \sum_{i\in[n]}^{}\lambda_{i}^k\alpha_{i}u_{i} \propto \alpha_{1}u_{1}+\sum_{i\geq 2} \alpha_{i}\left( \frac{\lambda_{i}}{\lambda_{1}} \right) ^k u_{i}$$where $0\leq \lambda_{i} / \lambda_{1}< 1$. Hence, as $v^k$ is normal, $v^k \to u_{1}$.
+> 2. Obvious.
+- **Remark**: In PCA, as we find the principal components of $\mathbb{E}[xx^\top]$ which takes $O(Nn^{2})$ time to compute where $N$ is the number of data points, we have the total runtime $O(Tn^{2}m+Nn^{2})$.
+
+---
+> [!lemma] Proposition 3 (SGD)
+> We find $W,V$ by: $$V\gets V - \eta (I-P)xx^\top W^\top, \quad W\gets W-\eta V^\top(I-P)xx^\top$$where $x$ is either chosen u.a.r. from the data or $x \sim \mathcal{D}$. 
+
 
 > [!proof]+
-> We have:
-> 2. The runtime is easy to see. Now, let $A=\sum_{i\in [n]}^{}\lambda_{i} u_{i}u_{i}^\top$. Then, $v^0=\sum_{i}^{}\alpha_{i}u_{i}$ where $\alpha_{1}\neq 0$ as $\braket{ v^0 , u_{1} }\neq 0$. Hence, $$v^k \propto $$
+> We have that:
+> $$\begin{aligned}\nabla _{V} \left\| x-VWx \right\| ^{2}_{2}=\nabla _{V}\left\| (I-VW)x \right\| ^{2}_{2}=(I-P)xx^\top W^\top\\\nabla _{W} \left\| x-VWx \right\| ^{2}_{2}=\nabla _{W}\left\| (I-VW)x \right\| ^{2}_{2}=V^\top(I-P)xx^\top \end{aligned}$$
