@@ -15,4 +15,6 @@
 
 > [!proof]+
 > We have that:
-> 1. Let $F:x\mapsto Ax+a$ and $G:y\mapsto By+b$. Then, $$\begin{aligned}\mathbb{E}[\ell(x,GFx)]=\end{aligned}$$
+> 1. Let $F:x\mapsto Ax+a$ and $G:y\mapsto By+b$. Then, $$\begin{aligned}\mathbb{E}[\ell(x,GFx)]&=\frac{1}{2}\mathbb{E}[\left\| x-(BAx+Ba+b) \right\| ^{2}_{2}]\\&=\frac{1}{2}\mathbb{E}[\left\| x-BAx \right\| ^{2}_{2}]+\frac{1}{2}\left\| Ba+b \right\| ^{2}_{2}-\braket{ \underbrace{ \mathbb{E}[x] }_{ =0 }-BA\mathbb{E}[x] , Ba+b } \\&\geq \frac{1}{2}\mathbb{E}[\left\| x-BAx \right\| ^{2}_{2}]\end{aligned}$$The converse is from the fact that linearity implies affinity.
+> 2. Let $A\in \text{GL}(m,\mathbb{R})$. Then, $$\ell(x,GFx)=\frac{1}{2}\left\| x-GFx \right\| ^{2}_{2}=\frac{1}{2}\left\| x-GA^{-1}AFx \right\| ^{2}_{2}=\ell(x,GA^{-1}AFx),\quad \forall x\in \mathbb{R}^n$$
+> 3. If $F,G$ are linear then, $\text{rank}(GF)\leq \min \{ \text{rank}(F),\text{rank}(G) \}\leq \min \{ m,n \}=m$. Therefore, $$\min_{F,G \text{ linear}}\mathbb{E}[\ell(x,GFx)]\geq\min_{P\in\mathbb{R}^{n\times n}, \text{rnk}(P)\leq m}\mathbb{E}[\ell(x,Px)]$$Conversely, if $P$
