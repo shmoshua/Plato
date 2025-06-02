@@ -33,6 +33,8 @@
 > We find $W,V$ by: $$V\gets V - \eta (I-P)xx^\top W^\top, \quad W\gets W-\eta V^\top(I-P)xx^\top$$where $x$ is either chosen u.a.r. from the data or $x \sim \mathcal{D}$. 
 
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > $$\begin{aligned}\nabla _{V} \left\| x-VWx \right\| ^{2}_{2}=\nabla _{V}\left\| (I-VW)x \right\| ^{2}_{2}=(I-P)xx^\top W^\top\\\nabla _{W} \left\| x-VWx \right\| ^{2}_{2}=\nabla _{W}\left\| (I-VW)x \right\| ^{2}_{2}=V^\top(I-P)xx^\top \end{aligned}$$
+
+---
