@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Computational Intelligence Lab/CIL Roadmap.md",
+                "file": "Machine Learning/Matrix Completion.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CIL Roadmap"
+              "title": "Matrix Completion"
             }
           }
         ]
@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Principal Component Analysis.md",
+                "file": "Machine Learning/Matrix Completion.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Principal Component Analysis"
+              "title": "Matrix Completion"
             }
           },
           {
@@ -71,7 +71,8 @@
               "title": "Hilbert Space Operator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,12 +217,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "83ca64246e25a9b6",
+  "active": "11d3cda224086678",
   "lastOpenFiles": [
+    "Machine Learning/Principal Component Analysis.md",
+    "Machine Learning/Matrix Completion.md",
+    "Courses/Computational Intelligence Lab/CIL Roadmap.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Machine Learning/Autoencoder.md",
-    "Courses/Computational Intelligence Lab/CIL Roadmap.md",
-    "Machine Learning/Principal Component Analysis.md",
     "Courses/Computational Intelligence Lab",
     "Courses/Untitled.md",
     "Functional Analysis/Hilbert Space Operator.md",
@@ -244,7 +246,6 @@
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
     "Analysis/Positive Definite.md",
     "Courses/Advanced Graph Algorithms/Problem Set 3.md",
-    "Courses/Advanced Graph Algorithms/Problem Set 4.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",

@@ -6,6 +6,8 @@
 > 2. $R(P)=\frac{1}{2}(\text{Var}(x)-\text{tr}(P\mathbb{E}[x x^\top]))$, in particular $\mathbb{E}[x x^\top]$ is a sufficient statistic for $\text{Var}(Px)$.
 > 3. We have that: $$U U^\top = \underset{ \begin{array}{c}P: P^{2}=P,P=P^\top\\\text{rnk}(P)\leq m\end{array}}{ \arg\min }R(P)$$where $U$ is the $m$ principal orthogonal eigenvectors of $\mathbb{E}[xx^\top]$. 
 
+^51f957
+
 > [!proof]-
 > We have that:
 > 1. Consider: $$\begin{aligned}R(P)=\frac{1}{2}\mathbb{E}[\left\| x-Px \right\| ^{2}_{2}]=\frac{1}{2}\mathbb{E}[\|x\|^{2}_{2}]+\frac{1}{2}\mathbb{E}[\left\| Px \right\| ^{2}_{2}]-\underbrace{ \mathbb{E}\left[ \braket{ x , P^{2}x }  \right]  }_{ =\mathbb{E}[\braket{ Px , Px } ]=\mathbb{E}[\left\| Px \right\| ^{2}_{2}] }=\frac{1}{2}(\mathbb{E}[\|x\|^{2}_{2}-\left\| Px \right\| ^{2}_{2}])\end{aligned}$$The rest follows from the fact that $\mathbb{E}[x]=0$.
@@ -16,25 +18,36 @@
 >    
 >    Now, for any general $\mathbb{E}[x x^\top]$, as it is SPD, we have that $\mathbb{E}[xx^\top]=Q \Lambda Q^\top$ for some orthogonal $Q$. Then, $$\begin{aligned}\underset{ \begin{array}{c}V\in \mathbb{R}^{n,m}:V=[v_{1}|\dots|v_{r}|0|\dots|0]\\V_{1:r}^\top V_{1:r}=I_{r}\end{array}}{ \arg\max } \text{tr}(V V^\top Q\Lambda Q^\top)&=\underset{ \begin{array}{c}V\in \mathbb{R}^{n,m}:V=[v_{1}|\dots|v_{r}|0|\dots|0]\\V_{1:r}^\top V_{1:r}=I_{r}\end{array}}{ \arg\max } \text{tr}(Q^\top V V^\top Q\Lambda)\\&=Q\cdot \underset{ \begin{array}{c}V\in \mathbb{R}^{n,m}:V=[v_{1}|\dots|v_{r}|0|\dots|0]\\V_{1:r}^\top V_{1:r}=I_{r}\end{array}}{ \arg\max } \text{tr}(W W^\top\Lambda)\\&=QU\end{aligned}$$where $U$ is the principal orthogonal eigenvectors of $\Lambda$.
 
+^a15f10
+
 ---
 > [!lemma] Proposition 2 (Power Method)
 >  Let $A\in \mathbb{R}^{n,n}$ be a diagonalizable matrix with $\lambda_{1}(A)> \lambda_{2}(A)\geq\dots\geq \lambda_{n}(A)\geq 0$ with a unique principal component $u_{1}$. 
 >  1. for $v_{0}\in \mathbb{R}^n$, if $\braket{ v_{0} , u_{1} }\neq0$, then: $$v^{t+1}:=\frac{Av^t}{\left\| Av^t \right\| }$$converges to $u_{1}$ with computational complexity $O(Tn^{2})$ after $T$ iterations.
 >  2. By iteratively finding the principal component of $A_{i}:=A - \sum_{j< i}^{}\lambda_{j} u_{j}u_{j}^\top$ using the power method, we can find the $m$ principal components in time $O(Tn^{2}m)$.
 
+^585c59
+
 > [!proof]-
 > We have:
 > 1. The runtime is easy to see. Now, let $A=\sum_{i\in [n]}^{}\lambda_{i} u_{i}u_{i}^\top$. Then, $v^0=\sum_{i}^{}\alpha_{i}u_{i}$ where $\alpha_{1}\neq 0$ as $\braket{ v^0 , u_{1} }\neq 0$. Hence, $$v^k \propto \sum_{i\in[n]}^{}\lambda_{i}^k\alpha_{i}u_{i} \propto \alpha_{1}u_{1}+\sum_{i\geq 2} \alpha_{i}\left( \frac{\lambda_{i}}{\lambda_{1}} \right) ^k u_{i}$$where $0\leq \lambda_{i} / \lambda_{1}< 1$. Hence, as $v^k$ is normal, $v^k \to u_{1}$.
 > 2. Obvious.
-- **Remark**: In PCA, as we find the principal components of $\mathbb{E}[xx^\top]$ which takes $O(Nn^{2})$ time to compute where $N$ is the number of data points, we have the total runtime $O(Tn^{2}m+Nn^{2})$.
+
+^991e71
+
+- **Remark**: In PCA, as we find the principal components of $\mathbb{E}[xx^\top]$ which takes $O(Nn^{2})$ time to compute where $N$ is the number of data points, we have the total runtime $O(Tn^{2}m+Nn^{2})$. ^507e38
 
 ---
 > [!lemma] Proposition 3 (SGD)
 > We find $W,V$ by: $$V\gets V - \eta (I-P)xx^\top W^\top, \quad W\gets W-\eta V^\top(I-P)xx^\top$$where $x$ is either chosen u.a.r. from the data or $x \sim \mathcal{D}$. 
 
+^ea7a15
+
 
 > [!proof]-
 > We have that:
 > $$\begin{aligned}\nabla _{V} \left\| x-VWx \right\| ^{2}_{2}=\nabla _{V}\left\| (I-VW)x \right\| ^{2}_{2}=(I-P)xx^\top W^\top\\\nabla _{W} \left\| x-VWx \right\| ^{2}_{2}=\nabla _{W}\left\| (I-VW)x \right\| ^{2}_{2}=V^\top(I-P)xx^\top \end{aligned}$$
+
+^acbb43
 
 ---
