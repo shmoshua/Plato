@@ -31,8 +31,9 @@
 > 3. Modulo treating $U$ as a constant, we can isolate the objective w.r.t $v_{j}$: $$\ell_{U}(v_{j}):= \frac{1}{2}v_{j}^\top\left( \sum_{i\in[k]} \omega_{ij}u_{i}u_{i}^\top+\lambda I_{k} \right)v_{j}-\sum_{i\in[k]}^{}\omega_{ij}a_{ij}u_{i}^\top v_{j}$$
 > 4. this gives rise to ***alternating least squares (ALS)***: $$V^{t+1}\gets \underset{ V }{ \arg\min }\ \ell(U^t,V),\quad U^{t+1}\gets \underset{ U }{ \arg\min }\ \ell(U,V^{t+1})$$
 
-> [!proof]+
-> We have that 1.2. are easy to check. Now, treating $U$ as a constant, $$\left\| (A-UV)\odot \Omega \right\|^{2}_{F}=\sum_{i,j}^{}\omega_{ij}(a_{ij}-u_{i}^\top v_{j} )^{2}$$
+> [!proof]-
+> We have that 1.2. are easy to check. Now, treating $U$ as a constant, $$\left\| (A-UV)\odot \Omega \right\|^{2}_{F}=\sum_{i,j}^{}\omega_{ij}(a_{ij}-u_{i}^\top v_{j} )^{2}=\sum_{i,j}^{}\omega_{ij}(a_{ij}^{2}-2u_{i}^\top v_{j}+v_{j}^\top u_{i}u_{i}^\top v_{j} )$$Further, $\left\| V \right\|^{2}_{F}=\sum_{j=1}^{m}v_{j}^\top v_{j}$. This shows the statement. Now, if we try to optimize $\ell_{U}(v_{j})$, we get that: $$\frac{ \partial \ell_{U} }{ \partial v_{j} } =v_{j}^\top\left( \sum_{i\in[k]}\omega_{ij}u_{i}u_{i}^\top +\lambda I_{k} \right)-\left( \sum_{i\in[k]}^{} \omega_{ij}a_{ij}u_{i}^\top \right)  $$and we can solve the lsq problem: $$v_{j}^{*}:=\left( \sum_{i\in[k]}\omega_{ij}u_{i}u_{i}^\top +\lambda I_{k} \right)^{-1}\left( \sum_{i\in[k]}^{} \omega_{ij}a_{ij}u_{i}\right) $$
+> 
 > 
 > 
 - **Remark**: In ALS, the objective will monotonically decrease and converges to a fixed point, i.e. $\nabla \ell(U^{*},V^{*})=0$ but might be a saddle point. 
