@@ -21,5 +21,20 @@
 - **Remark**: The left right singular vectors can be found using [[Principal Component Analysis|power iteration]] on $AA^\top$ and $A^\top A$. 
 
 ---
-> [!lemma] Proposition 2 (ALS)
+> [!lemma] Proposition 2 (Regularized Rank-k and ALS)
+> Consider the regularized objective $\ell(U,V)$: $$\underset{U\in \mathbb{R}^{n\times k} ,V\in \mathbb{R}^{k\times m}}{ \arg\min }\frac{1}{2}\left\|(A-UV)\odot \Omega \right\|^{2}_{F}  +\frac{\lambda}{2}(\left\| U \right\| ^{2}_{F}+\left\| V \right\| ^{2}_{F})$$
+> 1. $\ell(U,V)$ is a polynomial of degree 4 in the following monomials:
+> 	1. $\omega_{ij}u_{ir}v_{rj}u_{is}v_{sj}$ for $1\leq r,s\leq k$ and
+> 	2. $w_{ij}u_{ir}v_{rj}$ for $1\leq r\leq k$ and
+> 	3. $u^{2}_{ir},v^{2}_{rj}$
+> 2. In particular, higher order terms only involve exactly one row index $i$ of $U$ and column index $j$ of $V$. 
+> 3. Modulo treating $U$ as a constant, we can isolate the objective w.r.t $v_{j}$: $$\ell_{U}(v_{j}):= \frac{1}{2}v_{j}^\top\left( \sum_{i\in[k]} \omega_{ij}u_{i}u_{i}^\top+\lambda I_{k} \right)v_{j}-\sum_{i\in[k]}^{}\omega_{ij}a_{ij}u_{i}^\top v_{j}$$
+> 4. this gives rise to ***alternating least squares (ALS)***: $$V^{t+1}\gets \underset{ V }{ \arg\min }\ \ell(U^t,V),\quad U^{t+1}\gets \underset{ U }{ \arg\min }\ \ell(U,V^{t+1})$$
+
+> [!proof]+
+> We have that 1.2. are easy to check. Now, treating $U$ as a constant, $$\left\| (A-UV)\odot \Omega \right\|^{2}_{F}=\sum_{i,j}^{}\omega_{ij}(a_{ij}-u_{i}^\top v_{j} )^{2}$$
 > 
+> 
+- **Remark**: In ALS, the objective will monotonically decrease and converges to a fixed point, i.e. $\nabla \ell(U^{*},V^{*})=0$ but might be a saddle point. 
+- **Remark**: ALS also has the advantage of easy augmentation of the model increaisng $n$ or $m$ by one. Just increase one LS problem.
+---
