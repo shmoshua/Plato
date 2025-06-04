@@ -74,8 +74,15 @@
 ---
 > [!lemma] Theorem 1 (EM-Algorithm)
 > In other above setting:
-> 1. The log-likelihood is given by $$\log p(x_{1:n};\theta)=\sum_{i=1}^{}$$
+> 1. The log-likelihood is given by $$\log p(x_{1:n};\theta)=\sum_{i\in[n]}^{}\log \sum_{z=1}^{k}\pi_{z}p(x_{i};\theta_{z})$$
+> 2. The ELBO is given by:$$\text{ELBO}(x_{1:n};\theta,q)=\sum_{i\in[n]}^{}\sum_{z\in[k]}q_{iz}\log p(x_{i};\theta_{z})-\text{D}(q_{i}\|\pi)$$
+> 3. The EM algorithm is given by:
+> 	$$q_{iz}\gets \mathbb{P}(Z_{i}=z|x_{i};\theta)$$$$$$
 
 > [!proof]+
 > We have that: 
-> 2. From the setting: $$p(x;\theta)=\sum_{z=1}^{k}p(x,z)=\sum_{z=1}^{k}\pi_{z}p(x;\theta_{z})$$
+> 1. From the setting: $$p(x;\theta)=\sum_{z=1}^{k}p(x,z)=\sum_{z=1}^{k}\pi_{z}p(x;\theta_{z})$$
+> 2. We have that: $$\log p(x_{1:n};\theta)=\sum_{i\in[n]}^{}\log \sum_{z=1}^{k}\pi_{z}p(x;\theta_{z})= \sum_{i\in[n]}^{}\log \sum_{z=1}^{k}q_{z}\frac{\pi_{z}}{q_{z}}p(x;\theta_{z})\geq  \sum_{i\in[n]}^{}\sum_{z=1}^{k}q_{z}\log \left( \frac{\pi_{z}}{q_{z}}p(x;\theta_{z}) \right)$$
+> 3. Consider the Lagrangian: $$\mathcal{L}(q_{i}):=\sum_{z} q_{iz}(\log p(x;\theta_{z})+\log \pi_{z}-\log q_{iz})-\lambda\left( \sum_{z}^{}q_{iz}-1 \right)$$ We have that: $$\frac{ \partial \mathcal{L} }{ \partial q_{iz} }=\log p(x_{i};\theta_{z})+\log \pi_{z}-\log q_{iz}-1-\lambda\overset{ ! }{ = } 0 $$Therefore, $q_{iz}\propto \pi_{z}p(x_{i};\theta_{z})$ and as $\left\| q_{i} \right\|_{1}=1$, we have that $q_{iz}=\mathbb{P}(Z_{i}=z|x_{i};0)$. 
+>    
+>    Consi
