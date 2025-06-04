@@ -100,6 +100,6 @@
 - **Remark**: From the last assumption, we have that $N_{ij}:= \left| \{ x_{it}=w_{j}: t\in[s_{i}] \} \right|$. This gives us the occurrence matrix $N\in \mathbb{\mathbb{N}}^{n,m}$ which is also a minimal sufficient statistic.
 
 ---
-> [!lemma] Theorem
+> [!lemma] Theorem 1 (EM-Algorithm)
 > In the above setting: 
 > 1. the log-likelihood is given by: $$\log p(N;\theta)=\sum_{i,j} N_{i,j}\log \sum_{z\in[k]} p(w_{j}|z)p(z|d_{i})$$
