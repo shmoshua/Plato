@@ -40,4 +40,22 @@
 - **Remark**: ALS also has the advantage of easy augmentation of the model increaisng $n$ or $m$ by one. Just increase one LS problem.
 ---
 > [!lemma] Proposition 3 (Projected Gradient Descent)
-> The ***projected gradient descent*** is the following iterative algorithm: $$A^0\gets 0,\quad A^{t+1}\gets \text{BestRa}$$
+> The ***projected gradient descent*** with learning rate $\eta>0$ is the following iterative algorithm: $$A^0\gets 0,\quad A^{t+1}\gets \text{Approx}_{k}(A^t+\eta(A-A^t) \odot \Omega)$$where $\text{Approx}_{k}:A \mapsto \sum_{i\leq k}^{}\sigma_{i}u_{i}v_{i}^\top$ is the best rank-$k$ approximation function.
+> 1. For the loss function $\ell(B):=\frac{1}{2}\left\| \Omega \odot (A-B) \right\|^{2}_{F}$, $\nabla_{B} \ell(B)=-\Omega \odot (A -B)$.
+> 2. $\{ A\in \text{Mat}_{n,m}(\mathbb{R}): \text{rnk}(A)\leq k \}$ is not convex. In particular, the gradient descent projects the matrix back to rank $k$ by the approximation at each step.
+
+> [!proof]-
+> We have that:
+> 1. Notice that: $$\frac{ \partial \ell}{ \partial b_{ij} }=-\omega_{ij}(a_{ij}-b_{ij})$$
+> 2. Notice that: $$\alpha \begin{bmatrix}1&0\\0&0\end{bmatrix}+(1-\alpha)\begin{bmatrix}0&0\\0&1\end{bmatrix}=\begin{bmatrix}\alpha&0\\0&1-\alpha\end{bmatrix}$$
+
+---
+> [!lemma] Proposition 4 (Nuclear Norm Relaxation)
+> We have that:
+> 1. the [[convex envelope]] of $\text{rnk}$ is $\|\cdot\|_{*}$ on $R:=\{ A\in \text{Mat}_{m,n}(\mathbb{R}): \|A\|\leq 1 \}$.
+> 2. We have that: $$\underset{ B:\text{rnk}(B)\leq k }{ \text{argmin} } \frac{1}{2}\left\| \Omega \odot (A-B) \right\|^{2}_{F}=\underset{ B:\Omega \odot (A-B)=0 }{ \text{argmin} } \|B\|_{*} $$
+
+> [!proof]+
+> We have:
+> 1. Omitted.
+> 2. Notice that: $$\begin{aligned}\underset{ B:\text{rnk}(B)\leq k }{ \text{argmin} } \frac{1}{2}\left\| \Omega \odot (A-B) \right\|^{2}_{F}&=\underset{ B }{ \text{argmin} } \frac{1}{2}\left\| \Omega \odot (A-B) \right\|^{2}_{F}+\mu \cdot  \text{rnk}(B)\\&=\underset{ B :}{ \text{argmin} } \|B\|_{*}\end{aligned}$$
