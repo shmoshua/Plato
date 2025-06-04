@@ -107,8 +107,27 @@
 > 2. the ELBO is given by: $$\text{ELBO}(x;\theta,q)=\sum_{i\in[n]}^{}\sum_{t\in[s_{i}]}^{}\sum_{z\in[k]}^{}q_{itz}(\log p(x_{it}|z)+\log p(z| d_{i})-\log q_{itz})$$
 > 3. the EM-algrotihm is given by: $$q_{itz}\gets \frac{p(x_{it}|z)p(z|d_{i})}{\sum_{z'}^{}p(x_{it}|z')p(z'|d_{i})},\quad p(w_{j}|z)\gets\frac{\sum_{i,t}^{}\mathbb{1}_{x_{it}=w_{j}}q_{itz}}{\sum_{i,t}^{}q_{itz}},\quad p(z|d_{i})\gets  \frac{1}{s_{i}}\sum_{t\in[s_{i}]}^{}q_{itz}$$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. This is given by: $$p(x;\theta)=\prod_{i,t}^{}\sum_{z}^{}p(x_{it}|z)p(z|d_{i})$$Further, $$\sum_{i,t}\log \sum_{z\in[k]} p(x_{it}|z)p(z|d_{i})=\sum_{i,j,t}\mathbb{1}_{x_{it}=w_{j}}\log \sum_{z\in[k]} p(w_{j}|z)p(z|d_{i})=\sum_{i,j}N_{ij}\log \sum_{z\in[k]} p(w_{j}|z)p(z|d_{i})$$
 > 2. Given by: $$\begin{aligned}\sum_{i,t}\log \sum_{z\in[k]} p(x_{it}|z)p(z|d_{i})&= \sum_{i,t}\log \sum_{z\in[k]} q_{itz}\frac{p(x_{it}|z)}{q_{itz}}p(z|d_{i})\\&\ge \sum_{i,t}\sum_{z\in[k]} q_{itz}\left( \log p(x_{it}|z)+\log p(z|d_{i})  - \log q_{itz}\right)\\&= \sum_{i,j,t}\sum_{z\in[k]}\mathbb{1}_{x_{it}=w_{j}} q_{itz}\left( \log p(w_{j}|z)+\log p(z|d_{i})  - \log q_{itz}\right)\end{aligned}$$
-> 3. Similarly as above, we have: $$\frac{ \partial \mathcal{L} }{ \partial q_{itz} } =\log p(x_{it}|z)+\log p(z|d_{i})-\log q_{itz}-1-\lambda\overset{ ! }{ = }0$$and we have the desired expression. Further, $$\frac{ \partial \mathcal{L} }{ \partial p(w_{j}|z) } =\frac{\sum_{i,t}^{} \mathbb{1}_{x_{it}=w_{j}} q_{itz}}{p(w_{j}|z)}-\lambda\overset{ ! }{ = }0$$Therefore, we get the desired expression. Lastly, $$\frac{ \partial \mathcal{L} }{ \partial p(z|d_{i}) } =\sum_{t}^{}$$
+> 3. Similarly as above, we have: $$\frac{ \partial \mathcal{L} }{ \partial q_{itz} } =\log p(x_{it}|z)+\log p(z|d_{i})-\log q_{itz}-1-\lambda\overset{ ! }{ = }0$$and we have the desired expression. Further, $$\frac{ \partial \mathcal{L} }{ \partial p(w_{j}|z) } =\frac{\sum_{i,t}^{} \mathbb{1}_{x_{it}=w_{j}} q_{itz}}{p(w_{j}|z)}-\lambda\overset{ ! }{ = }0$$Therefore, we get the desired expression. Lastly, $$\frac{ \partial \mathcal{L} }{ \partial p(z|d_{i}) } =\frac{\sum_{t} q_{itz}}{p(z|d_{i})}-\lambda\overset{ ! }{ = }0$$Therefore, we have the desired expression. 
+
+---
+> [!lemma] Theorem 2 (Latent Dirichlet Allocation (LDA))
+> Let from the above setting further define that: $$u_{jz}:=p(w_{j}|z),\quad v_{zi}:=p(z|d_{i})$$Now, if we assume that $v_{i}\sim \text{Dir}(\alpha)$ i.i.d. Then, 
+> 1. the likelihood is given by:$$p(x_{i1:s_{i}};U)=\int_{\Omega}\prod_{t}^{}p(x_{it}|v_{i},U) p(v_{i}) \, dv,\quad p(x_{it}=w_{j}|U,v_{i})=\sum_{z}^{}u_{jz}v_{zi}$$
+
+> [!proof]-
+> We have:
+> 1. Notice that: $$p(x_{i1:s_{i}};U)=\int_{\Omega}p(x_{i 1:s_{i}},v_{i};U)  \, dv=\int_{\Omega}p(x_{i 1:s_{i}}|v_{i},U) p(v_{i}) \, dv=\int_{\Omega}\prod_{t}^{}p(x_{it}|v_{i},U) p(v_{i}) \, dv $$and $$p(x_{it}=w_{j}|U,v_{i})=\sum_{z}^{}p(w_{j}|z)v_{zi}=\sum_{z}^{}u_{jz}v_{zi}$$
+
+- **Remark**: LDA incorporates Bayesian learning and prevents overfitting. Produces topic distributions over documents. More complicated but there are other scalable implementations using MCMC or Variational EM.
+
+---
+> [!lemma] Theorem 3 (Non-negative Matrix Factorization (NMF))
+> From above, we see that $U,V$ are non-negative matrices s.t. $$\widehat{N}:=V^\top U ^\top,\quad \widehat{N}_{ij}=p(w_{j}|d_{i})$$
+> Then, 
+> 1. the log-likelihood is given by: $$\log p(N;U,V)=\sum_{i,j} N_{ij}\log \widehat{N}_{ij}$$
+> 2. In particular, the topic model can be represented as a non-negative matrix factorization problem with log-likelihood objective.
+> 
