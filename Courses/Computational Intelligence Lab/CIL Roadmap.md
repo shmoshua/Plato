@@ -144,6 +144,14 @@
 > The goal is to learn parameters $\theta$ s.t. each word predicts its context words.
 
 ---
-> [!lemma] Theorem 1
+> [!lemma] Proposition 1
 > We have that:
-> 1. the log-likelihood is given as: $$\log p(x;\theta)=\sum_{t=1}^{T}\sum_{n=1}^{}$$
+> 1. the log-likelihood is given as: $$\log p(x;\theta)=\sum_{t=1}^{T}\sum_{i=-R}^{R} \log p(x_{t+i}|x_{t};\theta)\cdot \mathbb{1}_{i\neq 0}$$
+> 2. For words $v,w\in \Sigma$, we then have that: $$p(v|w;\theta)=\frac{\exp(\xi_{w}^\top z_{v}+b_{v})}{\sum_{u} \exp(\xi_{w}^\top z_{u}+b_{u})},\quad  w\mapsto \theta_{w}:=(z_{w},\xi_{w},b_{w})\in \mathbb{R}^{2n+1}$$
+> 3. The updated log-likelihood is given as: $$\log p(x;\theta)=\sum_{v,w} N_{vw}\left( \xi_{w}^\top z_{v}+b_{v}-\ln \sum_{u}\exp(\xi_{w}^\top z_{u}+b_{u}) \right)$$
+
+---
+> [!lemma] Proposition 2 (Binary Classification Objective)
+> Let $S^+,S^-\subseteq \Sigma^{2}$ where: 
+> $$\begin{aligned}S^+&:=\{ (x_{t},x_{t+i}):t\in[T],i\in\{ -R,\dots,-1,1,\dots,R \} \}\\ S^-&:=\{ (x_{t},v_{tj}):t\in[T],v_{tj}\overset{ \text{iid} }{ \sim } q ,j\in[r]\} \end{aligned}$$where $q\in \Delta(\Sigma)$ and $r$ is the negative-positive ratio parameter. Then, 
+> 1. the logistic log likelihood is given by: $$\log(x;\theta)=$$
