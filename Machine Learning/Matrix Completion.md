@@ -21,7 +21,7 @@
 - **Remark**: The left right singular vectors can be found using [[Principal Component Analysis|power iteration]] on $AA^\top$ and $A^\top A$. 
 
 ---
-> [!lemma] Proposition 2 (Regularized Rank-k and ALS)
+> [!lemma] Proposition 2 (ALS)
 > Consider the regularized objective $\ell(U,V)$: $$\underset{U\in \mathbb{R}^{n\times k} ,V\in \mathbb{R}^{k\times m}}{ \arg\min }\frac{1}{2}\left\|(A-UV)\odot \Omega \right\|^{2}_{F}  +\frac{\lambda}{2}(\left\| U \right\| ^{2}_{F}+\left\| V \right\| ^{2}_{F})$$
 > 1. $\ell(U,V)$ is a polynomial of degree 4 in the following monomials:
 > 	1. $\omega_{ij}u_{ir}v_{rj}u_{is}v_{sj}$ for $1\leq r,s\leq k$ and
@@ -39,3 +39,5 @@
 - **Remark**: In ALS, the objective will monotonically decrease and converges to a fixed point, i.e. $\nabla \ell(U^{*},V^{*})=0$ but might be a saddle point. 
 - **Remark**: ALS also has the advantage of easy augmentation of the model increaisng $n$ or $m$ by one. Just increase one LS problem.
 ---
+> [!lemma] Proposition 3 (Projected Gradient Descent)
+> The ***projected gradient descent*** is the following iterative algorithm: $$A^0\gets 0,\quad A^{t+1}\gets \text{BestRa}$$
