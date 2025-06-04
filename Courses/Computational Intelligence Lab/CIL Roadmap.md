@@ -69,4 +69,13 @@
 ### 3. Latent Variable Models
 #### 3.1 Mixture Models
 > [!outlook] Setting
-> Let $\pi\in\Delta([k])$ and  $Z_{1},\dots,Z_{k}\sim \pi$ i.i.d. Then, we have that: $p()$
+> Let $\pi\in\Delta([k])$ and  $Z_{1},\dots,Z_{n}\sim \pi$ i.i.d. Then, we have that: $p(x_{i}|z_{i}):=p(x_{i};\theta_{z_{i}})$
+
+---
+> [!lemma] Theorem 1 (EM-Algorithm)
+> In other above setting:
+> 1. The log-likelihood is given by $$\log p(x_{1:n};\theta)=\sum_{i=1}^{}$$
+
+> [!proof]+
+> We have that: 
+> 2. From the setting: $$p(x;\theta)=\sum_{z=1}^{k}p(x,z)=\sum_{z=1}^{k}\pi_{z}p(x;\theta_{z})$$
