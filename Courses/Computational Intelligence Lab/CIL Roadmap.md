@@ -154,4 +154,7 @@
 > [!lemma] Proposition 2 (Binary Classification Objective)
 > Let $S^+,S^-\subseteq \Sigma^{2}$ where: 
 > $$\begin{aligned}S^+&:=\{ (x_{t},x_{t+i}):t\in[T],i\in\{ -R,\dots,-1,1,\dots,R \} \}\\ S^-&:=\{ (x_{t},v_{tj}):t\in[T],v_{tj}\overset{ \text{iid} }{ \sim } q ,j\in[r]\} \end{aligned}$$where $q\in \Delta(\Sigma)$ and $r$ is the negative-positive ratio parameter. Then, 
-> 1. the logistic log likelihood is given by: $$\log(x;\theta)=$$
+> 1. the logistic log likelihood is given by: $$\log(x;\theta)=\sum_{(w,v)\in S^+}^{}\log\sigma(v,w;\theta)+\sum_{(w,u)\in S^-}^{}\log(1-\sigma(u,w;\theta))$$with $q(w)\propto p(w)^\alpha$ where $\alpha$ flattens the distribution for balance (commonly $\alpha=3 /4$) and $p(w)$ is the empirical frequency of $w$ in the corpus.
+> 2. Considering $q(v,w):=p(w)q(v)$, we have that the optimal bayes classifier is given by: $$\mathbb{P}((v,w)=1)=\frac{\pi p(v,w)}{\pi p(v,w)+(1-\pi)q(v,w)}$$where $\pi=p(1)$ the prior probability. Then, $$h^{*}_{vw}:=\sigma ^{-1}(\mathbb{P}((v,w)=1))=\log \frac{p(v,w)}{p(w)q(v)}+\log\frac{ \pi}{1-\pi}$$and if $\pi=\frac{1}{2}$ and $\alpha=1$, then we get that $h^{*}_{vw}=\log \frac{p(v,w)}{p(w)p(v)}$ which is the pointwise term in mutual information.
+- **Remark**: The ***word2vec*** approach with balanced negative sampling (and $\alpha=1$) can be interpreted as a method to maximize the mutual information of word co-occurrences.
+---
