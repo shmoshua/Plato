@@ -63,4 +63,4 @@
 ---
 > [!lemma] Theorem 2
 > Let $A\in \mathbb{R}^{n,n}$ with $\text{rnk}(A)=k$ that is incoherent with $\mu\geq 1$. If $S$ samples are observed at random, then there exists a universal constant $C\geq 0$ s.t. 
-> 1. if $S\geq C\mu^{2}nk\log^6 n$ then: $$A=$$
+> 1. if $S\geq C\mu^{2}nk\log^6 n$ then: $$A= \underset{ B: \Omega \odot (A-B)=0 }{ \text{argmin} }\left\| B \right\| _{*}$$with probability $\geq 1-n^{-3}$.
