@@ -91,15 +91,24 @@
 #### 3.2 Topic Models
 > [!outlook] Setting
 > We have:
-> 1. Documents $i:=1,\dots,n$ with $s_{i}$ as document length.
-> 2. Words $x_{it}\in\Sigma$ as words for $t\in [s_{i}]$.
-> 3. Dictionary $\Sigma:=[m]$.
+> 1. Documents $d_{1},\dots,d_{n}\sim \mathcal{D}$ with $s_{i}$ as document length for $i\in[n]$.
+> 2. Topics $z_{1},\dots,z_{n}\in[k]$ given by $p(z|d_{i})$.
+> 3. Words $x_{it}\in\Sigma$ as words for $t\in [s_{i}]$.
+> 4. Dictionary $\Sigma:=[m]$.
 > 
 > Words in a document are invariant under reordering.
 
 - **Remark**: From the last assumption, we have that $N_{ij}:= \left| \{ x_{it}=w_{j}: t\in[s_{i}] \} \right|$. This gives us the occurrence matrix $N\in \mathbb{\mathbb{N}}^{n,m}$ which is also a minimal sufficient statistic.
 
 ---
-> [!lemma] Theorem 1 (EM-Algorithm)
+> [!lemma] Theorem 1 (EM-Algorithm / PLAS)
 > In the above setting: 
-> 1. the log-likelihood is given by: $$\log p(N;\theta)=\sum_{i,j} N_{i,j}\log \sum_{z\in[k]} p(w_{j}|z)p(z|d_{i})$$
+> 1. the log-likelihood is given by: $$\log p(x;\theta)=\sum_{i,t}\log \sum_{z\in[k]} p(x_{it}|z)p(z|d_{i})=\sum_{i,j} N_{i,j}\log \sum_{z\in[k]} p(w_{j}|z)p(z|d_{i})$$
+> 2. the ELBO is given by: $$\text{ELBO}(x;\theta,q)=\sum_{i\in[n]}^{}\sum_{t\in[s_{i}]}^{}\sum_{z\in[k]}^{}q_{itz}(\log p(x_{it}|z)+\log p(z| d_{i})-\log q_{itz})$$
+> 3. the EM-algrotihm is given by: $$q_{itz}\gets \frac{p(x_{it}|z)p(z|d_{i})}{\sum_{z'}^{}p(x_{it}|z')p(z'|d_{i})},\quad p(w_{j}|z)\gets\frac{\sum_{i,t}^{}\mathbb{1}_{x_{it}=w_{j}}q_{itz}}{\sum_{i,t}^{}q_{itz}},\quad p(z|d_{i})\gets  \frac{1}{s_{i}}\sum_{t\in[s_{i}]}^{}q_{itz}$$
+
+> [!proof]+
+> We have that:
+> 1. This is given by: $$p(x;\theta)=\prod_{i,t}^{}\sum_{z}^{}p(x_{it}|z)p(z|d_{i})$$Further, $$\sum_{i,t}\log \sum_{z\in[k]} p(x_{it}|z)p(z|d_{i})=\sum_{i,j,t}\mathbb{1}_{x_{it}=w_{j}}\log \sum_{z\in[k]} p(w_{j}|z)p(z|d_{i})=\sum_{i,j}N_{ij}\log \sum_{z\in[k]} p(w_{j}|z)p(z|d_{i})$$
+> 2. Given by: $$\begin{aligned}\sum_{i,t}\log \sum_{z\in[k]} p(x_{it}|z)p(z|d_{i})&= \sum_{i,t}\log \sum_{z\in[k]} q_{itz}\frac{p(x_{it}|z)}{q_{itz}}p(z|d_{i})\\&\ge \sum_{i,t}\sum_{z\in[k]} q_{itz}\left( \log p(x_{it}|z)+\log p(z|d_{i})  - \log q_{itz}\right)\\&= \sum_{i,j,t}\sum_{z\in[k]}\mathbb{1}_{x_{it}=w_{j}} q_{itz}\left( \log p(w_{j}|z)+\log p(z|d_{i})  - \log q_{itz}\right)\end{aligned}$$
+> 3. Similarly as above, we have: $$\frac{ \partial \mathcal{L} }{ \partial q_{itz} } =\log p(x_{it}|z)+\log p(z|d_{i})-\log q_{itz}-1-\lambda\overset{ ! }{ = }0$$and we have the desired expression. Further, $$\frac{ \partial \mathcal{L} }{ \partial p(w_{j}|z) } =\frac{\sum_{i,t}^{} \mathbb{1}_{x_{it}=w_{j}} q_{itz}}{p(w_{j}|z)}-\lambda\overset{ ! }{ = }0$$Therefore, we get the desired expression. Lastly, $$\frac{ \partial \mathcal{L} }{ \partial p(z|d_{i}) } =\sum_{t}^{}$$
