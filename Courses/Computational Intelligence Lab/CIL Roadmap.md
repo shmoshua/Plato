@@ -130,4 +130,20 @@
 > Then, 
 > 1. the log-likelihood is given by: $$\log p(N;U,V)=\sum_{i,j} N_{ij}\log \widehat{N}_{ij}$$
 > 2. In particular, the topic model can be represented as a non-negative matrix factorization problem with log-likelihood objective.
+- **Remark**: The NMF can be solved using ***alternating least squares*** with projection steps to project it back to the space of positive matrices.
+- **Remark**: Comparing NMF and LDA, 
+	1. NMF is fast, simple and interpretable. 
+	2. LDA is a fully Bayesian model with priors and better generalization
+---
+#### 3.3. Embeddings
+> [!outlook] Setting
+> We have:
+> 1. a vocabulary $\Sigma$ 
+> 2. a sequence of words $x_{1},\dots,x_{T}\in \Sigma$
 > 
+> The goal is to learn parameters $\theta$ s.t. each word predicts its context words.
+
+---
+> [!lemma] Theorem 1
+> We have that:
+> 1. the log-likelihood is given as: $$\log p(x;\theta)=\sum_{t=1}^{T}\sum_{n=1}^{}$$
