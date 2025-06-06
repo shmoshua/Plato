@@ -35,9 +35,23 @@
               "icon": "lucide-file",
               "title": "CIL Roadmap"
             }
+          },
+          {
+            "id": "8b04ad94e4a44236",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algorithms for Data Science/Special Assignment 2.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Special Assignment 2"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -64,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Matrix Completion.md",
+                "file": "Courses/Algorithms for Data Science/Special Assignment 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matrix Completion"
+              "title": "Special Assignment 2"
             }
           },
           {
@@ -86,7 +100,8 @@
               "title": "Convex Envelope"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,20 +246,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "cf8f65c6dc11dfdb",
+  "active": "8b04ad94e4a44236",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Special Assignment 2.md",
     "Machine Learning/Matrix Completion.md",
+    "Courses/Computational Intelligence Lab/CIL Roadmap.md",
     "Analysis/Convex Envelope.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Machine Learning/Principal Component Analysis.md",
-    "Courses/Computational Intelligence Lab/CIL Roadmap.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Machine Learning/Autoencoder.md",
     "Courses/Computational Intelligence Lab",
     "Courses/Untitled.md",
     "Graph Theory/Graph.md",
     "Courses/Probability Theory/Exercise Class 13.md",
-    "Courses/Algorithms for Data Science/Special Assignment 2.md",
     "Probability Theory/Variance.md",
     "Algebra/Pseudoinverse.md",
     "Probability Theory/Concentration.md",
