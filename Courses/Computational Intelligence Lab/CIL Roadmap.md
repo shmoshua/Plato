@@ -159,4 +159,7 @@
 - **Remark**: The ***word2vec*** approach with balanced negative sampling (and $\alpha=1$) can be interpreted as a method to maximize the mutual information of word co-occurrences.
 ---
 > [!lemma] Proposition 3 (GloVe)
-> 
+> We have the objective: $$\ell(\theta,N):=\sum_{v,w: N_{vw}>0}^{}f(N_{vw})(\ln N_{vw}-\ln \widehat{N}_{vw})^{2}$$where $\widehat{N}_{vw}:=\widehat{p}(v,w;\theta)$ and $f$ is a weighting function so that we don't overpay for high frequency, e.g. $f(N):=\min\{ 1,(N/N_{\max})^\alpha \}$. 
+> 1. By choosing $\widehat{p}(v,w;\theta):=\exp(\braket{ \xi_{w} , z_{v} })$, we have that $\ln \widehat{N}=:UV$ and our objective can be written as a low-rank factorization:  $$\ell(\theta,N):=\sum_{v,w: N_{vw}>0}^{}f(N_{vw})(\ln N_{vw}-(UV)_{vw})^{2}$$
+> 2. Using SGD, we have that: $$\xi_{w}\gets \xi_{w}+2\eta f(N_{vw})(\ln N_{vw}-\braket{ \xi_{w} , z_{v} } )z_{v}$$$$z_{v}\gets z_{v}+2\eta f(N_{vw})(\ln N_{vw}-\braket{ \xi_{w} , z_{v} } )\xi_{w}$$
+---
