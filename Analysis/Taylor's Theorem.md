@@ -1,5 +1,7 @@
 #Definition #Analysis 
 
+
+---
 > [!lemma] Theorem 1
 > Let $f\in C^{k+1}(B(x_{0},r))$ for some $r>0$. Then, $$f(x)=P_{k}(x;x_{0})+(k+1)\sum_{\left| \alpha \right| =k+1}^{}\left( \int_{0}^{1} (1-t)^k \text{D}^\alpha f(x_{0}+t(x-x_{0}))\, dt  \right) \frac{(x-x_{0})^\alpha}{\alpha!}$$where $P_{k}(x;x_{0})$ is the Taylor polynomial of degree $k$. 
 

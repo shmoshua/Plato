@@ -35,9 +35,23 @@
               "icon": "lucide-file",
               "title": "CIL Roadmap"
             }
+          },
+          {
+            "id": "4c2aff4b622d5056",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Taylor's Theorem.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Taylor's Theorem"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -71,8 +85,23 @@
               "icon": "lucide-file",
               "title": "Convex Envelope"
             }
+          },
+          {
+            "id": "5965b2df7d0c3a87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Taylor's Theorem.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Taylor's Theorem"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,10 +247,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "cf8f65c6dc11dfdb",
+  "active": "4c2aff4b622d5056",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Special Assignment 2.md",
+    "Analysis/Taylor's Theorem.md",
     "Courses/Computational Intelligence Lab/CIL Roadmap.md",
+    "Courses/Algorithms for Data Science/Special Assignment 2.md",
     "Machine Learning/Matrix Completion.md",
     "Analysis/Convex Envelope.md",
     "Functional Analysis/Hilbert Space Operator.md",
@@ -246,7 +276,6 @@
     "Graph Theory/Effective Resistance.md",
     "Graph Theory/Graph Matrices.md",
     "Courses/Advanced Graph Algorithms/Problem Set 5.md",
-    "Analysis/Positive Definite.md",
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
