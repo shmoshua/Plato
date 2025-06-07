@@ -158,3 +158,5 @@
 > 2. Considering $q(v,w):=p(w)q(v)$, we have that the optimal bayes classifier is given by: $$\mathbb{P}((v,w)=1)=\frac{\pi p(v,w)}{\pi p(v,w)+(1-\pi)q(v,w)}$$where $\pi=p(1)$ the prior probability. Then, $$h^{*}_{vw}:=\sigma ^{-1}(\mathbb{P}((v,w)=1))=\log \frac{p(v,w)}{p(w)q(v)}+\log\frac{ \pi}{1-\pi}$$and if $\pi=\frac{1}{2}$ and $\alpha=1$, then we get that $h^{*}_{vw}=\log \frac{p(v,w)}{p(w)p(v)}$ which is the pointwise term in mutual information.
 - **Remark**: The ***word2vec*** approach with balanced negative sampling (and $\alpha=1$) can be interpreted as a method to maximize the mutual information of word co-occurrences.
 ---
+> [!lemma] Proposition 3 (GloVe)
+> 

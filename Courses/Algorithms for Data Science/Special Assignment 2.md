@@ -49,4 +49,3 @@ Now, $$\begin{aligned}\mathcal{A}\vdash d(Y)&=\frac{d(Y)-d(G)}{\sqrt{ D\eta \log
 
 Now, by the SOS meta theorem and the fact that $d(Y)=\frac{1}{n}\braket{ Y , 11^\top }$, we have that: $$(\widehat{d}-d(G))^{2}=\left( \frac{1}{n}\braket{ \tilde{\mathbb{E}}[Y] , 11^\top }  -d(G)\right)^{2}\leq O(\eta \log n)d(G)\leq O(\eta \log n \cdot d)$$Therefore, with Part 1, with probability at least $1-n^{-5}$: $$\left| \widehat{d}-d \right| \leq \left| \widehat{d}-d(G) \right| +\left| d(G)-d \right| \leq O\left( \sqrt{ \frac{d\log n}{n} }+ \sqrt{ \eta \log n \cdot d }\right)$$
 
----
