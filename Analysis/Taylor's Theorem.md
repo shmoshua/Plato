@@ -19,3 +19,7 @@
 > [!lemma] Theorem 2 (Second-order Remainder Form)
 > Let $S$ be a [[convex set]] and $f\in C^2([x,y])$ for $x,y\in S$. Then, $$\exists z\in [x,y]: f(y)=f(x)+\nabla f(x)^\top(y-x)+\frac{1}{2}(y-x)^\top \text{H}_{f}(z)(y-x)$$
 
+
+---
+
+We have that: $$\begin{aligned}q(z_{s}|z_{t},x)&=\frac{q(z_{t}|z_{s})q(z_{s}|x)}{q(z_{t}|x)}=\frac{\mathcal{N}(z_{t};\alpha_{t|s}z_{s},\sigma^{2}_{t|s}I)\mathcal{N}(z_{s};\alpha_{s}x,\sigma_{s}^{2}I)}{\mathcal{N}(z_{t};\alpha_{t}x,\sigma^{2}_{t}I)}\\&=C\exp\left( -\frac{1}{2}\left( \frac{(z_{t}-\alpha_{t|s}z_{s})(z_{t}-\alpha_{t|s}z_{s})^\top}{\sigma^{2}_{t|s}}  +\frac{(z_{s}-\alpha_{s}x)(z_{s}-\alpha_{s}x)^\top}{\sigma^{2}_{s}}\right)\right)\end{aligned}$$
