@@ -1,5 +1,25 @@
 + #AlgebraicTopology #Roadmap 
 
+### 0. Tensor Products
+![[Tensor Product#^c31781]]
+
+---
+![[Tensor Product#^5fb0e9]]
+![[Tensor Product#^96a6da|p]]
+
+---
+![[Tensor Product#^bd93e0]]
+![[Tensor Product#^6fa18d|p]]
+
+---
+![[Tensor Product#^88632b]]
+- **Remark**: Further, $(\varphi_{1}\circ\varphi_{2})\otimes(\psi_{1} \circ\psi_{2})=(\varphi_{1}\otimes \psi_{1})\circ(\varphi_{2}\otimes \psi_{2})$.
+---
+![[Tensor Product#^47b82c]]
+![[Tensor Product#^2db9e9|p]]
+
+---
+
 ### 1. Homology with Coefficients
 
 ![[Chain Complex#^80998e]]
