@@ -41,9 +41,7 @@
 ![[Reduced Homology#^f3d014]]
 ![[Reduced Homology#^c5acbf|p]]
 
----
-- **Related definition**: 
-- **Remark**: For any [[CW-complex]] $X$ and a subcomplex $A$, $(X,A)$ is a good pair.
+- **Remark**: For $n\geq 0$, $$\tilde{H}_{p}(S^n,G)\cong \begin{cases}G&p=n\\0&p\neq n\end{cases}$$
 ---
 ##### 1.1.1 Good Pairs
 ![[Good Pair#^d83b17]]
