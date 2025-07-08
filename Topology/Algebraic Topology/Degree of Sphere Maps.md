@@ -254,7 +254,7 @@ If there exists a continuous function $\phi:S^n\to S^m$ that is odd, i.e. $\phi(
 ^08fde8
 
 > [!proof]-
-> Assume $n>m$ by contradiction. Assume wlog that $m>0$ as for $m=0$ the statement is clear. Using Lemma 2 on $X:= S^n$, $X':= S^m$ and $Y:= \mathbb{R}\mathbb{P}^n$ and $Y':=\mathbb{R}\mathbb{P}^m$, we have that: $$\Theta' \circ  \phi=\phi \circ  \Theta$$by assumption and we have that there exists a map $\tilde{\phi}:\mathbb{R}\mathbb{P}^n\to \mathbb{R}\mathbb{P}^m$ with $\overline{\phi} \circ \pi=\pi' \circ \phi$.
+> Assume $n>m$ by contradiction. Assume wlog that $m>0$ as for $m=0$ the statement is clear. Using Lemma 2 on $X:= S^n$, $X':= S^m$ and $Y:= \mathbb{R}\mathbb{P}^n$ and $Y':=\mathbb{R}\mathbb{P}^m$, we have that: $$\Theta' \circ  \phi=\phi \circ  \Theta$$by assumption and we have that there exists a map $\bar{\phi}:\mathbb{R}\mathbb{P}^n\to \mathbb{R}\mathbb{P}^m$ with $\overline{\phi} \circ \pi=\pi' \circ \phi$.
 > 
 > Now, consider the LES associated to $S^m$ and $\mathbb{R}\mathbb{P}^m$. We have by Lemma 1:
 > 1. $T'_{*}:H_{m}(\mathbb{R}\mathbb{P}^m , \mathbb{Z} / 2\mathbb{Z})\to H_{m}(S^m , \mathbb{Z} / 2\mathbb{Z})$ is an isomorphism. Indeed, both maps are isomorphic to $\mathbb{Z} / 2\mathbb{Z}$ and $T'_{*}$ is injective as: 
@@ -264,7 +264,7 @@ If there exists a continuous function $\phi:S^n\to S^m$ that is odd, i.e. $\phi(
 >    
 >  Now, consider the commutative diagram: $$\begin{CD}H_{k}(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})@>\partial_{*}>> H_{k-1}(\mathbb{R}\mathbb{P}^n ; \mathbb{Z} / 2\mathbb{Z})\\ @V\overline{\phi}_{*}VV@V\overline{\phi}_{*}VV\\ H_{k}(\mathbb{R}\mathbb{P}^m;\mathbb{Z} / 2\mathbb{Z})@>>\partial_{*}> H_{k-1}(\mathbb{R}\mathbb{P}^m ; \mathbb{Z} / 2\mathbb{Z}) \end{CD}$$If $k=1$, then as $\mathbb{R}\mathbb{P}^n, \mathbb{R}\mathbb{P}^m$ are both path-connected, any map induces an isomorphism in the zeroth homology. As $\partial_{*}$'s are isomorphisms as well, $\overline{\phi}_{i}$ is an isomorphism at degree $k$ as well. 
 >  
->  Inductively, we have that $\overline{\phi}_{*}:H_{m}(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})\to H_{m}(\mathbb{R}\mathbb{P}^m;\mathbb{Z} / 2\mathbb{Z})$ is an isomorphism. Hence, we have that: $$\begin{CD}H_{m}(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})@>T_{*}>> H_{m}(S^n ; \mathbb{Z} / 2\mathbb{Z})\\ @V\overline{\phi}_{*}V\cong V@V\phi_{*}VV\\ H_{m}(\mathbb{R}\mathbb{P}^m;\mathbb{Z} / 2\mathbb{Z})@>\cong>T'_{*}> H_{m}(S^m ; \mathbb{Z} / 2\mathbb{Z}) \end{CD}$$However, this is a contradiction as $H_{m}(S^n;\mathbb{Z} / 2\mathbb{Z})\cong 0$ where $H_{m}(\mathbb{R}\mathbb{P}^m;\mathbb{Z} / 2\mathbb{Z})\cong \mathbb{Z} / 2\mathbb{Z}$. 
+>  Inductively, we have that $\overline{\phi}_{*}:H_{m}(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})\to H_{m}(\mathbb{R}\mathbb{P}^m;\mathbb{Z} / 2\mathbb{Z})$ is an isomorphism. Hence, we have that: $$\begin{CD}H_{m}(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})@>T_{*}>> H_{m}(S^n ; \mathbb{Z} / 2\mathbb{Z})\\ @V\overline{\phi}_{*}V\cong V@V\phi_{*}VV\\ H_{m}(\mathbb{R}\mathbb{P}^m;\mathbb{Z} / 2\mathbb{Z})@>\cong>T'_{*}> H_{m}(S^m ; \mathbb{Z} / 2\mathbb{Z}) \cong \mathbb{Z} / 2\mathbb{Z}\end{CD}$$However, this is a contradiction as $H_{m}(S^n;\mathbb{Z} / 2\mathbb{Z})\cong 0$ where $H_{m}(\mathbb{R}\mathbb{P}^m;\mathbb{Z} / 2\mathbb{Z})\cong \mathbb{Z} / 2\mathbb{Z}$. 
 >    
 >    
 
@@ -290,10 +290,10 @@ If there exists a continuous function $\phi:S^n\to S^m$ that is odd, i.e. $\phi(
 
 ^6cea15
 
-> [!proof]-
-> We may assume wlog that $\ell=n+1$. Otherwise add empty sets to the cover. Now, assume that $A_{i}\cap (A_{i}^c)=\varnothing$ for all $i\in[n]$. We will show that $A_{n+1}\cap(A_{n+1}^c)\neq \varnothing$. 
+> [!proof]+
+> We may assume wlog that $\ell=n+1$. Otherwise add empty sets to the cover. Now, assume that $A_{i}\cap (-A_{i})=\varnothing$ for all $i\in[n]$. We will show that $A_{n+1}\cap(-A_{n+1})\neq \varnothing$. 
 > 
-> As $S^n$ is a [[normal space]], by Urysohn's lemma, there exists continuous functions $f_{i}:S^n\to [0,1]$ s.t. $f|_{A_{i}}=0$ and $f|_{A_{i}^c}=1$ for all $i\in[n]$. Now, consider: $$f:S^n\to \mathbb{R}^n,\quad x\mapsto (f_{1}(x),\dots,f_{n}(x))$$Then, by Borsuk-Ulam, there exists $x\in S^n$ s.t. $f(x)=f(-x)$. However, note that $x\notin A_{i}$ for all $i\in[n]$. Otherwise, $0=f_{i}(x)=f_{i}(-x)=1$ which is a contradiction. Similarly, $-x\notin A_{i}$ for all $i\in[n]$. Hence, $x,-x\in S^{n} \backslash (A_{1}\cup\dots \cup A_{n})\subseteq A_{n+1}$.
+> As $S^n$ is a [[normal space]], by Urysohn's lemma, there exists continuous functions $f_{i}:S^n\to [0,1]$ s.t. $f|_{A_{i}}=0$ and $f|_{-A_{i}}=1$ for all $i\in[n]$. Now, consider: $$f:S^n\to \mathbb{R}^n,\quad x\mapsto (f_{1}(x),\dots,f_{n}(x))$$Then, by Borsuk-Ulam, there exists $x\in S^n$ s.t. $f(x)=f(-x)$. However, note that $x\notin A_{i}$ for all $i\in[n]$. Otherwise, $0=f_{i}(x)=f_{i}(-x)=1$ which is a contradiction. Similarly, $-x\notin A_{i}$ for all $i\in[n]$. Hence, $x,-x\in S^{n} \backslash (A_{1}\cup\dots \cup A_{n})\subseteq A_{n+1}$.
 
 ^e6641a
 
