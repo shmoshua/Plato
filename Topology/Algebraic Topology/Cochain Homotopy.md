@@ -13,7 +13,7 @@
 ##### Properties
 > [!lemma] Proposition 1
 > Let $\mathcal{A},\mathcal{B}$ be cochain complexes.
-> 1. if $\phi \sim \psi$ then $\phi_{*}=\psi_{*}:H^{*}(\mathcal{A})\to H^{*}(\mathcal{B})$.
+> 1. if $\phi \sim \psi$ then $\phi ^{*}=\psi ^{*}:H^{*}(\mathcal{A})\to H^{*}(\mathcal{B})$.
 > 2. $\sim$ is an equivalence relation. 
 > 3. If $\phi:\mathcal{A}\to \mathcal{B}$ is a cochain homotopy equivalence with inverse $\psi$, then $\phi ^{*},\psi ^{*}$ are isomorphisms with $(\phi ^{*})^{-1}=\psi ^{*}$.
 > 4. If $\phi:\mathcal{A}\to \mathcal{B}$ is null cochain homotopic, then $\phi ^{*}=0$.

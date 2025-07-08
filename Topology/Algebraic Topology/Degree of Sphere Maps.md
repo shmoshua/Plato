@@ -290,7 +290,7 @@ If there exists a continuous function $\phi:S^n\to S^m$ that is odd, i.e. $\phi(
 
 ^6cea15
 
-> [!proof]+
+> [!proof]-
 > We may assume wlog that $\ell=n+1$. Otherwise add empty sets to the cover. Now, assume that $A_{i}\cap (-A_{i})=\varnothing$ for all $i\in[n]$. We will show that $A_{n+1}\cap(-A_{n+1})\neq \varnothing$. 
 > 
 > As $S^n$ is a [[normal space]], by Urysohn's lemma, there exists continuous functions $f_{i}:S^n\to [0,1]$ s.t. $f|_{A_{i}}=0$ and $f|_{-A_{i}}=1$ for all $i\in[n]$. Now, consider: $$f:S^n\to \mathbb{R}^n,\quad x\mapsto (f_{1}(x),\dots,f_{n}(x))$$Then, by Borsuk-Ulam, there exists $x\in S^n$ s.t. $f(x)=f(-x)$. However, note that $x\notin A_{i}$ for all $i\in[n]$. Otherwise, $0=f_{i}(x)=f_{i}(-x)=1$ which is a contradiction. Similarly, $-x\notin A_{i}$ for all $i\in[n]$. Hence, $x,-x\in S^{n} \backslash (A_{1}\cup\dots \cup A_{n})\subseteq A_{n+1}$.
