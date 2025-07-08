@@ -14,7 +14,7 @@
 
 ^248625
 
-> [!proof]+
+> [!proof]-
 > We will omit $G$ from the notation of the proof. As $(X,A)$ is a good pair, we have $A\subseteq N\subseteq X$ in the definition. Consider: $$h:(X \backslash A,N \backslash A)\to(X / A\backslash \{ * \}, N / A \backslash \{ * \})$$ the map induced by $q$. Then, 
 > 1. $h$ is a homeomorphism. Indeed, $h$ is bijective. To check the continuity, let $U$ be an open set in $X  / A \backslash \{ * \}$. Then, either $U\subseteq X \backslash A$ is open or $U\sqcup A \subseteq X$ is open. In any case, $h^{-1}(U)=U \backslash A$, which is open in $X \backslash A$. The converse is analogous.
 > 

@@ -233,9 +233,9 @@
 
 ^22d01e
 
-> [!proof]-
+> [!proof]+
 > We have: 
-> 1. Notice that: $$\partial\sigma_{0}=\sum_{i=0}^{n}(-1)^i (\sigma_{0} \circ  F^n_{i})=\sum_{i=0}^{n}(-1)^i *\in S_{n-1}(*)$$Hence, $\partial[\sigma_{0}]=[\partial\sigma_{0}]=0$. 
+> 1. Notice that: $$\partial\sigma_{n}=\sum_{i=0}^{n}(-1)^i (\sigma_{n} \circ  F^n_{i})=\sum_{i=0}^{n}(-1)^i *\in S_{n-1}(*)$$Hence, $\partial[\sigma_{0}]=[\partial\sigma_{0}]=0$. 
 > 2. Consider the following maps: $$H_{n}(\Delta _{n} / \partial  \Delta_{n},*)\xleftarrow{q_{*},\cong}H_{n}(\Delta_{n}, \partial\Delta_{n})\xrightarrow{\cong} \tilde{H}_{n-1}( \partial\Delta_{n})$$where the first isomorphism is from the fact that $(\Delta_{n}, \partial\Delta_{n})$ is a [[good pair]] and the second isomorphism from the reduced LES and the fact that $\Delta_{n}$ is contractible. 
 >    
 >    Now, consider $i_{n}:\Delta_{n}\to \Delta_{n}$. Then, we notice that $q_{*}[i_{n}]=[\sigma_{n}]$. Further, $\partial_{*}[i_{n}]=[\beta_{n-1}]$ where: $$\beta_{n-1}=\partial i_{n}=\sum_{i=0}^{n}(-1)^i F^n_{i}\in S_{n-1}(\partial \Delta_{n})$$Hence, it suffices to show that $[\beta_{n-1}]$ generates $\tilde{H}_{n-1}(\partial\Delta_{n})$. 
@@ -251,8 +251,9 @@
 > [!lemma] Proposition 6 (Change of Coefficients)
 > Let $G_{1},G_{2},G_{3}$ be abelian groups and $\varphi:G_{1}\to G_{2}$ and $\psi:G_{2}\to G_{3}$ homomorphisms. 
 > 1. for any $(X,A)$, there exists a [[Chain Complex|chain map]] $\varphi^c:S_{*}(X,A;G_{1})\to S_{*}(X,A;G_{2})$ s.t. for any $f:(X,A)\to(Y,B)$, $\varphi^c$ commutes with $f_{c}$. 
-> 2. if $0\to G_{1}\to G_{2}\to G_{3}\to 0$ is a SES, then $$0 \to \mathcal{S}(X,A;G_{1})\to \mathcal{S}(X,A;G_{2})\to \mathcal{S}(X,A;G_{3})\to 0$$is a SES as well.
-> 3. there exists a LES: $$\dots\to H_{n}(X,A;G_{1})\to H_{n}(X,A;G_{2})\to H_{n}(X,A;G_{3})\to H_{n-1}(X,A;G_{1})\to \cdots $$
+> 2. if $0\to G_{1}\to G_{2}\to G_{3}\to 0$ is a SES, then 
+> 	1. we have that $$0 \to \mathcal{S}(X,A;G_{1})\to \mathcal{S}(X,A;G_{2})\to \mathcal{S}(X,A;G_{3})\to 0$$is a SES as well.
+> 	2. there exists a LES: $$\dots\to H_{n}(X,A;G_{1})\to H_{n}(X,A;G_{2})\to H_{n}(X,A;G_{3})\to H_{n-1}(X,A;G_{1})\to \cdots $$
 
 ^ff019f
 
