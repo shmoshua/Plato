@@ -249,7 +249,7 @@
 
 ---
 > [!lemma] Lemma 3
-If there exists a continuous function $\phi:S^n\to S^m$ that is odd, i.e. $\phi(-x)=-\phi(x)$ for all $x\in S^n$. Then, $n\leq m$
+If there exists a continuous function $\phi:S^n\to S^m$ that is odd, i.e. $\phi(-x)=-\phi(x)$ for all $x\in S^n$. Then, $n\leq m$.
 
 ^08fde8
 
