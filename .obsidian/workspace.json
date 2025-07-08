@@ -35,6 +35,20 @@
               "icon": "lucide-file",
               "title": "Good Pair"
             }
+          },
+          {
+            "id": "5f1044ef9be1a1a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Homology Theory"
+            }
           }
         ],
         "currentTab": 1
@@ -87,7 +101,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,8 +247,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "da1e5359407d6618",
+  "active": "96d42dd66a1d6fa2",
   "lastOpenFiles": [
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Subspace Topology.md",
@@ -243,7 +258,6 @@
     "Functional Analysis/Normal Operator.md",
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Tensor Product.md",
     "Analysis/Convex Envelope.md",
