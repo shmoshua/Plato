@@ -66,17 +66,17 @@
 
 ---
 > [!lemma] Theorem 4 (Homology and Cohomology)
-> Let $(C,\partial)$ be a chain complex and $(\text{Hom}(C,G), \delta)$ be the homomorphism cochain complex. Then, 
-> 1. for all $n\in \mathbb{Z}$, there exists a canonical map $h:H^n(C;G)\to \text{Hom}(H_{n}(C),G)$ that admits a right inverse.
+> Let $(C,\partial)$ be a chain complex of free abelian groups and let $(\text{Hom}(C,G), \delta)$ be the homomorphism cochain complex. Then, 
+> 1. for all $n\in \mathbb{Z}$, there exists a canonical map $h:H^n(C;G)\to \text{Hom}(H_{n}(C),G)$ that admits a right inverse. In particular, $h$ is surjective. 
 > 2. $0\to \text{ker }h\to H^n(C;G)\xrightarrow{h} \text{Hom}(H_{n}(C),G)\to 0$ is split.
 
 ^232eea
 
 > [!proof]-
 > We have:
->  1. Let $\alpha\in H^n(C,G)$. Then, we have that $\alpha$ is represented by some $\varphi: C_{n}\to G$ s.t. $d(\varphi)=\varphi \circ \partial=0$, i.e. $B_{n}(C)\subseteq \text{ker }\varphi$.  Hence, $\varphi$ descends to $\overline{\varphi}:H_{n}(C)= Z_{n}(C) / B_{n}(C)\to G$. We define: $$h:H^n(C;G)\to \text{Hom}(H_{n}(C),G),\quad [\varphi]\mapsto \overline{\varphi}$$
+>  1. Let $\alpha\in H^n(C,G)$. Then, we have that $\alpha$ is represented by some $\varphi: C_{n}\to G$ s.t. $\delta(\varphi)=\varphi \circ \partial=0$, i.e. $B_{n}(C)\subseteq \text{ker }\varphi$.  Hence, $\varphi$ descends to $\overline{\varphi}:H_{n}(C)= Z_{n}(C) / B_{n}(C)\to G$. We define: $$h:H^n(C;G)\to \text{Hom}(H_{n}(C),G),\quad [\varphi]\mapsto \overline{\varphi}$$
 > 	1. **Claim 1**: $h$ is well-defined. 
->    Let $[\varphi]=[\varphi']$. Then, $\varphi-\varphi'=d(\psi)=\psi \circ \partial$ for some $\psi: C_{n-1}\to G$. Hence, $(\varphi-\varphi')|_{Z_{n}}\equiv 0$. This shows that $\overline{\varphi}=\overline{\varphi'}$. 
+>    Let $[\varphi]=[\varphi']$. Then, $\varphi-\varphi'=\delta(\psi)=\psi \circ \partial$ for some $\psi: C_{n-1}\to G$. Hence, $(\varphi-\varphi')|_{Z_{n}}\equiv 0$. This shows that $\overline{\varphi}=\overline{\varphi'}$. 
 > 	2. **Claim 2**: $h$ is linear.
 >    $[\varphi]+[\psi]=[\varphi+\psi]$ where $\varphi+\psi$ are cocycles. Then, $\overline{\varphi+\psi}=\overline{\varphi}+\overline{\psi}$. 
 >  
@@ -87,14 +87,14 @@
 > 	 Let $\sigma\in \text{Hom}(H_{n}(C),G)$. Then, by composing with $Z_{n}(C)\to Z _n (C) / B_{n}(C)=H_{n}(C)$ we have: $$\sigma':Z_{n}(C)\to G,\quad \widehat{\sigma}:=p^{*}(\sigma')=\sigma' \circ  p\in \text{Hom}(C_{n},G)$$Further, we claim that $\delta(\widehat{\sigma})=0$. Indeed, $$\delta(\widehat{\sigma})=\widehat{\sigma} \circ  \partial=\sigma' \circ \underbrace{ p \circ  \partial }_{ =\partial } =\sigma' \circ  \partial=0$$
 >  
 > 	 Hence, we define the right inverse as: $$s:\text{Hom}(H_{n}(C),G)\to H^n(C;G),\quad \sigma\mapsto [\widehat{\sigma}]$$
-> 	 1. **Claim 3**: $s$ is linear.
+> 	 3. **Claim 3**: $s$ is linear.
 > 	$$[\widehat{\sigma}]+[\widehat{\rho}]=[\widehat{\sigma}+\widehat{\rho}]=[p^{*}(\sigma' + \rho')]=[p^{*}(\sigma + \rho)']=[\widehat{\sigma+\rho}]$$
-> 	1. **Claim 4**: $h \circ s=\text{id}$. 
+> 	4. **Claim 4**: $h \circ s=\text{id}$. 
 >    For any $\sigma\in \text{Hom}(H_{n}(C),G)$, we have: $h (s(\sigma))=h[\widehat{\sigma}]=\overline{\widehat{\sigma}}=\sigma$.
-> 1. Follows from $h$ being surjective as $h \circ s = \text{id}$ and [[Split Exact Sequence|Proposition 1.3]]. 
+> 2. Follows from $h$ being surjective as $h \circ s = \text{id}$ and [[Split Exact Sequence|Proposition 1.3]]. 
 
 ^7c6d20
-
+- **Example**: Let $\mathcal{C}$ be the cellular chain complex of $\mathbb{R}\mathbb{P}^3$. Then, it is represented as: $$\mathcal{C}:=(0 \to \mathbb{Z} \overset{ 0 }{ \to } \mathbb{Z} \overset{ \times 2 }{ \to  }\mathbb{Z} \overset{  0 }{ \to } \mathbb{Z}\to 0)$$with homology $H_{n}(\mathbb{R}\mathbb{P}^3)\cong(\mathbb{Z},\mathbb{Z} / 2\mathbb{Z},0,  \mathbb{Z})$
   
 
 ---
