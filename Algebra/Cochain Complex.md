@@ -66,7 +66,7 @@
 
 ---
 > [!lemma] Theorem 4 (Homology and Cohomology)
-> Let $(C,\partial)$ be a chain complex and $(\text{Hom}(C,G), \delta)$ be the homomorphism cochain complex (c.f. Example 2). Then, 
+> Let $(C,\partial)$ be a chain complex and $(\text{Hom}(C,G), \delta)$ be the homomorphism cochain complex. Then, 
 > 1. for all $n\in \mathbb{Z}$, there exists a canonical map $h:H^n(C;G)\to \text{Hom}(H_{n}(C),G)$ that admits a right inverse.
 > 2. $0\to \text{ker }h\to H^n(C;G)\xrightarrow{h} \text{Hom}(H_{n}(C),G)\to 0$ is split.
 
