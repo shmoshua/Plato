@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "Topology/Algebraic Topology/Cochain Homotopy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "Cochain Homotopy"
             }
           },
           {
@@ -198,8 +198,7 @@
               "title": "Homology Theory"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -344,18 +343,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "beb011816bc79289",
+  "active": "85d5955ed0ff6ab3",
   "lastOpenFiles": [
-    "Algebra/Split Exact Sequence.md",
-    "Topology/Algebraic Topology/Ext.md",
-    "Topology/Algebraic Topology/Chain Homotopy.md",
-    "Algebra/Cochain Complex.md",
     "Topology/Algebraic Topology/Resolution.md",
+    "Topology/Algebraic Topology/Ext.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Cochain Homotopy.md",
+    "Algebra/Exact Sequence.md",
+    "Topology/Algebraic Topology/Chain Homotopy.md",
+    "Algebra/Split Exact Sequence.md",
+    "Algebra/Cochain Complex.md",
     "Algebra/Chain Complex.md",
     "Algebra/Module.md",
-    "Algebra/Exact Sequence.md",
-    "Topology/Algebraic Topology/Cochain Homotopy.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Machine Learning/Matrix Completion.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
