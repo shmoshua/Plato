@@ -94,6 +94,7 @@
 > 2. Follows from $h$ being surjective as $h \circ s = \text{id}$ and [[Split Exact Sequence|Proposition 1.3]]. 
 
 ^7c6d20
+
 - **Example**: Let $\mathcal{C}$ be the cellular chain complex of $\mathbb{R}\mathbb{P}^3$. Then, it is represented as: $$\mathcal{C}:=(0 \to \mathbb{Z} \overset{ 0 }{ \to } \mathbb{Z} \overset{ \times 2 }{ \to  }\mathbb{Z} \overset{  0 }{ \to } \mathbb{Z}\to 0)$$with homology $H_{n}(\mathbb{R}\mathbb{P}^3)\cong(\mathbb{Z},\mathbb{Z} / 2\mathbb{Z},0,  \mathbb{Z})$
   
 

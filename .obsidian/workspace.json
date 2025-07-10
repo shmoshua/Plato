@@ -50,8 +50,7 @@
               "title": "Cochain Homotopy"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -64,12 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Cochain Complex.md",
+                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cochain Complex"
+              "title": "Algebraic Topology II Roadmap"
             }
           },
           {
@@ -78,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Cohomology"
+              "title": "Exact Sequence"
             }
           },
           {
@@ -302,26 +301,26 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "96d42dd66a1d6fa2",
+  "active": "83ca64246e25a9b6",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Algebra/Cochain Complex.md",
+    "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Algebra/Cochain Complex.md",
+    "Topology/Algebraic Topology/Reduced Homology.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/CW-Complex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Cochain Homotopy.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Chain Complex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Subspace Topology.md",
     "Analysis/Taylor's Theorem.md",
     "Topology/Homeomorphism.md",
     "Functional Analysis/Normal Operator.md",
-    "Topology/Algebraic Topology/Reduced Homology.md",
     "Algebra/Tensor Product.md",
     "Analysis/Convex Envelope.md",
     "Machine Learning/Matrix Completion.md",
