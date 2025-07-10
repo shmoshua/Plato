@@ -196,3 +196,8 @@
 
 ---
 ##### 2.3.4 The Universal Coefficient Theorem
+![[Ext#^327278]]
+![[Ext#^a2ab91|p]]
+![[Ext#^4565bf|p]]
+
+---
