@@ -185,3 +185,14 @@
 ![[Cochain Complex#^7c6d20|p]]
 
 ---
+##### 2.3.3 Free Resolutions
+![[Resolution#^57fffb]]
+
+![[Resolution#^b055f9]]
+
+---
+![[Resolution#^f592d6]]
+![[Resolution#^f9084a|p]]
+
+---
+##### 2.3.4 The Universal Coefficient Theorem

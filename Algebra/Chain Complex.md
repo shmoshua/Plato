@@ -24,6 +24,9 @@
 	2. $\partial^C=\partial^D|_{C_{i}}$ for all $i\in \mathbb{Z}$.
 - **Related definition**: A SES of chain complex $0\to \mathcal{A} \to \mathcal{B}\to \mathcal{C}\to 0$ is ***split*** if we have a isomorphic chain map $\tau:\mathcal{B}\to \mathcal{A}\oplus \mathcal{C}$ s.t. $$\begin{CD}0 @>>> \mathcal{A}@>i>> \mathcal{B}@>j>> \mathcal{C} @>>> 0\\&@V\text{id}VV @V\tau VV@V\text{id}VV\\0 @>>> \mathcal{A}@>>i_{A}> \mathcal{A}\oplus \mathcal{C}@>>\text{pr}> \mathcal{C} @>>> 0  \end{CD}$$where $i_{A}(a) = (a,c)$ and $\text{pr}(a,c)=c$.
 - **Remark**: There exists a non-split SES of chain complex, where for each $p\in \mathbb{Z}$, $0\to A_{p}\to B_{p}\to C_{p}\to 0$ is [[Split Exact Sequence|split]].
+- **Related definition**: A chain map $g:\mathcal{A}\to \mathcal{B}$ is a ***quasi-isomorphism*** if $g_{*}:H_{i}(\mathcal{A})\to H_{i}(\mathcal{B})$ is an isomorphism for all $i$.
+
+
 ---
 ##### Properties
 > [!lemma] Proposition 1

@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+                "file": "Topology/Algebraic Topology/Ext.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology II Roadmap"
+              "title": "Ext"
             }
           },
           {
@@ -42,16 +42,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cochain Homotopy.md",
+                "file": "Algebra/Cochain Complex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cochain Homotopy"
+              "title": "Cochain Complex"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -65,11 +64,25 @@
               "type": "markdown",
               "state": {
                 "file": "Topology/Algebraic Topology/Resolution.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Resolution"
+            }
+          },
+          {
+            "id": "233717f20454d3f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Cochain Complex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Cochain Complex"
             }
           },
           {
@@ -78,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "Topology/Algebraic Topology/Ext.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "Ext"
             }
           },
           {
@@ -156,7 +169,8 @@
               "title": "Homology Theory"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -301,20 +315,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "96d42dd66a1d6fa2",
+  "active": "92dc71f35726a4ea",
   "lastOpenFiles": [
-    "Algebra/Cochain Complex.md",
+    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Ext.md",
+    "Machine Learning/Matrix Completion.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Algebra/Cochain Complex.md",
     "Topology/Algebraic Topology/Resolution.md",
+    "Topology/Algebraic Topology/Cochain Homotopy.md",
     "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/CW-Complex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Cochain Homotopy.md",
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Algebra/Chain Complex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Good Pair.md",
@@ -324,11 +340,9 @@
     "Functional Analysis/Normal Operator.md",
     "Algebra/Tensor Product.md",
     "Analysis/Convex Envelope.md",
-    "Machine Learning/Matrix Completion.md",
     "Courses/Computational Intelligence Lab/CIL Roadmap.md",
     "Probability Theory/Gaussian Distribution.md",
     "Courses/Algorithms for Data Science/Special Assignment 2.md",
-    "Functional Analysis/Hilbert Space Operator.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",
