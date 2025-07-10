@@ -1,8 +1,10 @@
 #Definition #AlgebraicTopology 
 
 > [!definition]
+> Let $H$ be an [[abelian group]]. Then, 
+> 1. $\text{Ext}(H,G):=H^1(\mathcal{F};G)$ where $\mathcal{F}\overset{ \varepsilon }{ \to } H$ is a [[Resolution|free resolution]] of $H$.
 
-
+- **Remark**: By [[Resolution|Example 1]], there always exists a free resolution. By [[Resolution|Theorem 3]], $\text{Ext}(H,G)$ is well-defined, i.e. doesn't depend on the choice of $\mathcal{F}$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -31,3 +33,29 @@
 > [!lemma] Proposition 2
 > Let $\mathcal{C}$ be a chain complex of free abelian groups. 
 > 1. For every $n$, the followings are exact sequences: $$0\to B_{n-1}\overset{ i_{n-1} }{ \to } Z_{n-1} \overset{ q }{ \to } H_{n-1}(\mathcal{C}) \to 0$$$$0\to \text{Hom}(H_{n-1}(\mathcal{C}),G)\to Z_{n-1}^{*}\to B^{*}_{n-1}\to \text{coker}(i^{*}_{n-1})\to 0$$
+> 2. $\mathcal{F}\overset{ q}{ \to }H_{n-1}(\mathcal{C})$ is a [[Resolution|free resolution]] of $H_{n-1}(\mathcal{C})$ where $F_{0}:= Z_{n-1}$, $F_{1}:=B_{n-1}$ and $F_{i}=0$ for $i\geq 2$. 
+> 3. $H^1(\mathcal{F};G)\cong \text{coker}(i^{*}_{n-1})\cong \text{ker }h$.
+
+> [!proof]-
+> We have that:
+> 1. Obvious. 
+> 2. By definition and from 1.
+> 3. Obvious.
+
+---
+> [!lemma] Theorem 3 (Universal Coefficient Theorem)
+> Let $\mathcal{C}$ be a chain complex of free abelian groups. For an abelian group $G$,
+> 1. there exists a split SES: $$0\to \text{Ext}(H_{n-1}(\mathcal{C}),G)\to H^n(\mathcal{C};G)\to \text{Hom}(H_{n}(\mathcal{C}),G)\to 0$$
+
+> [!proof]-
+> Follows from [[Resolution|Theorem 3]] and Proposition 1,2.
+
+- **Remark**: In general, there is no canonical splitting.
+
+---
+> [!lemma] Lemma 4 (Computation with Ext)
+> We have that:
+> 1. $\text{Ext}(H\oplus H',G)\cong \text{Ext}(H,G)\oplus \text{Ext}(H',G)$ canonically.
+> 2. if $H$ is free abelian, $\text{Ext}(H,G)=0$.
+> 3. $\text{Ext}(\mathbb{Z} / n\mathbb{Z},G)\cong G / nG$
+- **Remark**: This gives us a way to compute the Ext for every finitely generated abelian group $H$.

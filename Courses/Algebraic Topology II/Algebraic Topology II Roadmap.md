@@ -195,6 +195,19 @@
 ![[Resolution#^f9084a|p]]
 
 ---
+![[Resolution#^db3384]]
+![[Resolution#^7844ed|p]]
+
+---
+![[Resolution#^910349]]
+
+---
+![[Resolution#^c44c09]]
+
+![[Resolution#^a90f58]]
+
+
+---
 ##### 2.3.4 The Universal Coefficient Theorem
 ![[Ext#^327278]]
 ![[Ext#^a2ab91|p]]

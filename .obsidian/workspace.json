@@ -64,8 +64,7 @@
               "title": "Algebraic Topology II Roadmap"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -347,10 +346,10 @@
   "active": "8793a9a1056c2f66",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Resolution.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Algebra/Cochain Complex.md",
     "Topology/Algebraic Topology/Ext.md",
     "Algebra/Split Exact Sequence.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Algebra/Cochain Complex.md",
     "Algebra/Chain Complex.md",
     "Algebra/Module.md",
     "Algebra/Exact Sequence.md",

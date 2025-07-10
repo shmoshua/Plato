@@ -35,7 +35,29 @@
 > 1. We can dualize the exact sequence into: $$0\to H^{*} \overset{ \varepsilon ^{*} }{ \to } F^{*}_{0}\overset{ f_{1}^{*} }{ \to } F^{*}_{1}\overset{ f_{2}^{*} }{ \to } F^{*}_{2}\overset{ f_{3}^{*} }{ \to } F^{*}_{3}\to \cdots$$where up to $F^{*}_{1}$ the sequence is exact.
 > 2. $H^0(\mathcal{F};G)\cong H^{*}=\text{Hom}(H,G)$.
 
-> [!proof]+
+^db3384
+
+> [!proof]-
 > We have that:
 > 1. By [[Module|left exactness of homomorphism]].
-> 2. We have that: $$H^0(\mathcal{F};G)=$$
+> 2. We have that: $$H^0(\mathcal{F};G)=\text{ker }f^{*}_{1}=\text{im }\varepsilon ^{*}$$However, as $\varepsilon ^{*}$ is injective, we have that $\varepsilon ^{*}:H^{*}\to H^0(\mathcal{F};G)$ is an isomorphism. 
+
+^7844ed
+
+---
+> [!lemma] Theorem 3 (Uniqueness of Resolution)
+> Let $H$ be an abelian group and $\mathcal{F}\overset{ \varepsilon }{ \to }H$ a free resolution.
+> 1. Let $\mathcal{F}'\overset{ \varepsilon' }{ \to }H'$ be a resolution of an abelian group $H'$. For any homomorphism $\alpha:H\to H'$, we can extend it to a chain map as follows: $$\begin{CD}\mathcal{F}:\ \cdots @>>> F_{2}@>f_{2}>> F_{1}@>f_{1}>> F_{0} @>\varepsilon >> H@>>>0\\ &@V\alpha_{2}VV&@V\alpha_{1}VV&@V\alpha_{0} VV&@V\alpha VV\\ \mathcal{F}':\ \cdots @>>>F_{2}'@>>f_{2}'> F_{1}'@>>f_{1}'>F'_{0} @>>\varepsilon '> H'@>>>0\end{CD}$$
+> 	Moreover, any two such extensions are [[Chain Homotopy|chain homotopic]].
+> 2. Let $\mathcal{F}'\overset{ \varepsilon' }{ \to }H$ be a free resolution. Then, there exists a canonical isomorphism $H^{n}(\mathcal{F};G)\cong H^{n}(\mathcal{F}';G)$ for all $n\geq 0$. In other words, $H^n(\mathcal{F};G)$ only depends on $H$ and $G$.
+
+^c44c09
+
+- **Corollary**: From Example 1, we have that $H^n(\mathcal{F};G)=0$ for all $n\geq 2$.  ^a90f58
+---
+##### Examples
+> [!h] Example 1
+> Let $H$ be an abelian group. 
+> 1. Let $\mathcal{S}$ be a set of generators of $H$. Then, $$0\to \text{ker }\varepsilon \to\bigoplus_{s\in \mathcal{S}}\mathbb{Z}x_{s}\overset{ \varepsilon }{ \to }H\to 0$$ is exact and this gives rise to a free resolution of $H$.
+
+^910349
