@@ -30,3 +30,12 @@
 ^f9084a
 
 ---
+> [!lemma] Proposition 2
+> Let $\mathcal{F}\overset{ \varepsilon }{ \to }H$ be a free resolution. Then, 
+> 1. We can dualize the exact sequence into: $$0\to H^{*} \overset{ \varepsilon ^{*} }{ \to } F^{*}_{0}\overset{ f_{1}^{*} }{ \to } F^{*}_{1}\overset{ f_{2}^{*} }{ \to } F^{*}_{2}\overset{ f_{3}^{*} }{ \to } F^{*}_{3}\to \cdots$$where up to $F^{*}_{1}$ the sequence is exact.
+> 2. $H^0(\mathcal{F};G)\cong H^{*}=\text{Hom}(H,G)$.
+
+> [!proof]+
+> We have that:
+> 1. By [[Module|left exactness of homomorphism]].
+> 2. We have that: $$H^0(\mathcal{F};G)=$$

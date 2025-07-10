@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Chain Complex.md",
+                "file": "Topology/Algebraic Topology/Resolution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Chain Complex"
+              "title": "Resolution"
             }
           },
           {
@@ -198,7 +198,8 @@
               "title": "Homology Theory"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -343,14 +344,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "83ca64246e25a9b6",
+  "active": "8793a9a1056c2f66",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Resolution.md",
-    "Topology/Algebraic Topology/Ext.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Algebra/Chain Complex.md",
-    "Algebra/Split Exact Sequence.md",
     "Algebra/Cochain Complex.md",
+    "Topology/Algebraic Topology/Ext.md",
+    "Algebra/Split Exact Sequence.md",
+    "Algebra/Chain Complex.md",
     "Algebra/Module.md",
     "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Cochain Homotopy.md",

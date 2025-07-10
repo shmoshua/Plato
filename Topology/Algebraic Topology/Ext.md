@@ -26,3 +26,8 @@
 ^a2ab91
 
 - **Corollary**: $\text{ker } h\cong \text{coker}(i^{*}_{n-1})$.  ^4565bf
+
+---
+> [!lemma] Proposition 2
+> Let $\mathcal{C}$ be a chain complex of free abelian groups. 
+> 1. For every $n$, the followings are exact sequences: $$0\to B_{n-1}\overset{ i_{n-1} }{ \to } Z_{n-1} \overset{ q }{ \to } H_{n-1}(\mathcal{C}) \to 0$$$$0\to \text{Hom}(H_{n-1}(\mathcal{C}),G)\to Z_{n-1}^{*}\to B^{*}_{n-1}\to \text{coker}(i^{*}_{n-1})\to 0$$
