@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Algebra/Cochain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "Cochain Complex"
             }
           },
           {
@@ -119,12 +119,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cochain Homotopy.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cochain Homotopy"
+              "title": "Exact Sequence"
             }
           },
           {
@@ -315,19 +315,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "92dc71f35726a4ea",
+  "active": "8793a9a1056c2f66",
   "lastOpenFiles": [
-    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Resolution.md",
     "Topology/Algebraic Topology/Ext.md",
+    "Algebra/Cochain Complex.md",
+    "Algebra/Exact Sequence.md",
+    "Topology/Algebraic Topology/Cochain Homotopy.md",
+    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Machine Learning/Matrix Completion.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Algebra/Cochain Complex.md",
-    "Topology/Algebraic Topology/Resolution.md",
-    "Topology/Algebraic Topology/Cochain Homotopy.md",
-    "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/CW-Complex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Homology Theory.md",
