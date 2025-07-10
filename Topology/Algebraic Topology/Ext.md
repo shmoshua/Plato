@@ -58,4 +58,9 @@
 > 1. $\text{Ext}(H\oplus H',G)\cong \text{Ext}(H,G)\oplus \text{Ext}(H',G)$ canonically.
 > 2. if $H$ is free abelian, $\text{Ext}(H,G)=0$.
 > 3. $\text{Ext}(\mathbb{Z} / n\mathbb{Z},G)\cong G / nG$
+
+> [!proof]+
+> We have:
+> 1. Let $\mathcal{F}\overset{ \varepsilon }{ \to }H$ and $\mathcal{F}'\overset{ \varepsilon' }{ \to }H'$ be free resolutions of $H$ and $H'$ respectively. Then, $$ \to F_{2}\oplus F_{2}'\overset{ f_{2}\oplus f_{2}' }{ \to }F_{1}\oplus F_{1}'\overset{ f_{1}\oplus f_{1}' }{ \to }F_{0}\oplus F_{0}'\overset{ \varepsilon \oplus \varepsilon' }{ \to } H\oplus H' \to 0$$ is an exact sequence. 
+
 - **Remark**: This gives us a way to compute the Ext for every finitely generated abelian group $H$.
