@@ -53,6 +53,14 @@
 
 ^c44c09
 
+> [!proof]+
+> We have that:
+> 1. We will extend $\alpha$ inductively. Let $\alpha_{-1}:= \alpha$, $f_{0}:=\varepsilon$ and $f_{0}':=\varepsilon'$. Let $\{ x_{s} \}_{s\in \mathcal{S}}$ be a basis of $F_{0}$. Choose $\alpha_{0}(x_{s})\in F'_{0}$ s.t. $f_{0}'(\alpha_{0}(x_{s}))=\alpha_{-1}(f_{0}(x_{s}))$. This exists as $f'_{0}$ is surjective. Since $F_{0}$ is free abelian, this defines $\alpha_{0}:F_{0}\to F'_{0}$ s.t. it commutes. 
+>    
+>    Now, let $i\geq 0$. Consider the setting: $$\begin{CD}\cdots @>>> F_{i+1}@>f_{i+1}>> F_{i}@>f_{i}>> F_{i-1} @>>>\cdots \\ &&&@V\alpha_{i}VV&@V\alpha_{i-1} VV&\\ \ \cdots @>>>F_{i+1}'@>>f_{i+1}'> F_{i}'@>>f_{i}'>F'_{i-1} @>>> \cdots\end{CD}$$where we have $\alpha_{0},\dots,\alpha_{i}$ all satisfying the desired properties. To define $\alpha_{i+1}$, let $\{ x_{s} \}_{s\in \mathcal{S}}$ be a basis of $F_{i+1}$. Then, we claim that $\alpha_{i}(f_{i+1}(x_{s}))\in \text{im}f'_{i+1}$. Indeed, we have: $$f'_{i}(\alpha_{i}(f_{i+1}(x_{s})))=\alpha_{i-1}(\underbrace{ f_{i}(f_{i+1} }_{ =0 }(x_{s})))=0$$Hence, $\alpha_{i}(f_{i+1}(x_{s}))\in \text{ker }f'_{i}=\text{im }f'_{i+1}$. Therefore, we can choose $\alpha_{i+1}(x_{s})$ s.t. $f'_{i+1}(\alpha_{i+1}(x_{s}))=\alpha_{i}(f_{i+1}(x_{s}))$. Therefore, the existence is given by induction. 
+>    
+>    To show the uniqueness up to homotopy, let $\{ \alpha_{i} \}$ and $\{ \alpha_{i}' \}$ be two extensions. 
+
 - **Corollary**: From Example 1, we have that $H^n(\mathcal{F};G)=0$ for all $n\geq 2$.  ^a90f58
 ---
 ##### Examples

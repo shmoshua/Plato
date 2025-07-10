@@ -36,21 +36,29 @@
 > 2. $\mathcal{F}\overset{ q}{ \to }H_{n-1}(\mathcal{C})$ is a [[Resolution|free resolution]] of $H_{n-1}(\mathcal{C})$ where $F_{0}:= Z_{n-1}$, $F_{1}:=B_{n-1}$ and $F_{i}=0$ for $i\geq 2$. 
 > 3. $H^1(\mathcal{F};G)\cong \text{coker}(i^{*}_{n-1})\cong \text{ker }h$.
 
+^eac318
+
 > [!proof]-
 > We have that:
 > 1. Obvious. 
 > 2. By definition and from 1.
 > 3. Obvious.
 
+^9b9273
+
 ---
 > [!lemma] Theorem 3 (Universal Coefficient Theorem)
 > Let $\mathcal{C}$ be a chain complex of free abelian groups. For an abelian group $G$,
 > 1. there exists a split SES: $$0\to \text{Ext}(H_{n-1}(\mathcal{C}),G)\to H^n(\mathcal{C};G)\to \text{Hom}(H_{n}(\mathcal{C}),G)\to 0$$
 
+^87b1dc
+
 > [!proof]-
 > Follows from [[Resolution|Theorem 3]] and Proposition 1,2.
 
-- **Remark**: In general, there is no canonical splitting.
+^817d2e
+
+- **Remark**: In general, there is no canonical splitting. ^c22a3c
 
 ---
 > [!lemma] Lemma 4 (Computation with Ext)
@@ -59,8 +67,15 @@
 > 2. if $H$ is free abelian, $\text{Ext}(H,G)=0$.
 > 3. $\text{Ext}(\mathbb{Z} / n\mathbb{Z},G)\cong G / nG$
 
-> [!proof]+
-> We have:
-> 1. Let $\mathcal{F}\overset{ \varepsilon }{ \to }H$ and $\mathcal{F}'\overset{ \varepsilon' }{ \to }H'$ be free resolutions of $H$ and $H'$ respectively. Then, $$ \to F_{2}\oplus F_{2}'\overset{ f_{2}\oplus f_{2}' }{ \to }F_{1}\oplus F_{1}'\overset{ f_{1}\oplus f_{1}' }{ \to }F_{0}\oplus F_{0}'\overset{ \varepsilon \oplus \varepsilon' }{ \to } H\oplus H' \to 0$$ is an exact sequence. 
+^3976b6
 
-- **Remark**: This gives us a way to compute the Ext for every finitely generated abelian group $H$.
+> [!proof]-
+> We have:
+> 1. Let $\mathcal{F}\overset{ \varepsilon }{ \to }H$ and $\mathcal{F}'\overset{ \varepsilon' }{ \to }H'$ be free resolutions of $H$ and $H'$ respectively. Then, $$ \to F_{2}\oplus F_{2}'\overset{ f_{2}\oplus f_{2}' }{ \to }F_{1}\oplus F_{1}'\overset{ f_{1}\oplus f_{1}' }{ \to }F_{0}\oplus F_{0}'\overset{ \varepsilon \oplus \varepsilon' }{ \to } H\oplus H' \to 0$$ is an exact sequence and $\mathcal{F}\oplus \mathcal{F'}$ is a free resolution of $H\oplus H'$. Therefore, $$\text{Ext}(H\oplus H',G)=H^1(\mathcal{F}\oplus \mathcal{F'};G)\cong H^1(\mathcal{F};G)\oplus H^1(\mathcal{F}';G)=\text{Ext}(H,G)\oplus \text{Ext}(H',G)$$
+> 2. If $H$ is free abelian, $$0\to H\overset{ \text{id} }{ \to }H\to 0$$is exact and $F_{0}:= H$ and $F_{n}:= 0$ for $n\neq0$ is a free resolution of $H$. Therefore, $$\text{Ext}(H,G)=H^1(F;G)= 0$$
+> 3. We have that: $$0\to \mathbb{Z} \overset{ \times n }{ \to } \mathbb{Z} \to\mathbb{Z} /n \mathbb{Z} \to 0$$is an exact sequence. Hence, $F_{0}:= \mathbb{Z}$ and $F_{1}:= \mathbb{Z}$ is a free resolution of $\mathbb{Z} / n\mathbb{Z}$. Then, $$0 \to \text{Hom}(\mathbb{Z} , G) \overset{ (\times n)^{*} }{ \to } \text{Hom}(\mathbb{Z} , G) \to 0$$where the map is given as $f\mapsto (x\mapsto f(nx)=nf(x))$. In other words, $f\mapsto nf$. Therefore, the map is also $\times n$ and as $\text{Hom}(\mathbb{Z},G)\cong G$, we have that $$\text{Ext}(\mathbb{Z} / n\mathbb{Z}, G)\cong  G / nG$$
+
+^b9aa9b
+
+- **Remark**: This gives us a way to compute the Ext for every finitely generated abelian group $H$. ^43f119
+---
