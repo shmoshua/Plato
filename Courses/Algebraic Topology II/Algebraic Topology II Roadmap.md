@@ -17,7 +17,7 @@
 ---
 ![[Tensor Product#^47b82c]]
 ![[Tensor Product#^2db9e9|p]]
-
+- **Remark**: $0\to \mathbb{Z} \overset{ \times2 }{ \to }\mathbb{Z}$ is exact but $0 \to \mathbb{Z} \otimes \mathbb{Z} / 2\mathbb{Z}\to \mathbb{Z} \otimes \mathbb{Z} / 2\mathbb{Z}$ is not exact as $\mathbb{Z} \otimes \mathbb{Z} / 2\mathbb{Z} \cong \mathbb{Z} / 2\mathbb{Z}$ and we have the zero map.
 ---
 
 ### 1. Homology with Coefficients
