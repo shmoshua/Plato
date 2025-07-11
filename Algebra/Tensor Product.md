@@ -64,6 +64,7 @@
 >    
 >    Now, we get that: $$m\otimes n=\left( \sum_{i}^{}a_{i}m_{i} \right)\otimes \left( \sum_{j}^{}b_{j}n_{j} \right)=\sum_{i}\sum_{j}^{}a_{i}b_{j}(m_{i}\otimes n_{j})$$
 
+	
 ^6fa18d
 
 - **Remark**: If $M,N$ are free of rank $m,n$ respectively, $$M\otimes N\cong R^m\otimes (R\oplus \dots \oplus R)\cong (R^m \otimes R)\oplus \dots \oplus (R^m \otimes R)\cong R^m\oplus \dots \oplus R^m\cong R^{mn}$$ ^552c4a
@@ -91,6 +92,19 @@
 >    If $A$ is finitely generated free with basis $(b_{i})_{i\in I}$. Then, if we have that: $$0=\varphi \otimes  \text{id}\left( \sum_{i}^{}m_{i}\otimes a_{i} \right)=\sum_{i}^{}\varphi(m_{i})\otimes  a_{i}$$However, note that the following map is a bijection.$$M\otimes  A\to M^I,\quad \sum_{i\in I}^{}m_{i}\otimes  a_{i}\mapsto (m_{i})_{i\in I} $$Hence, $\varphi(m_{i})=0$ for all $i\in I$ and by injectivity of $\varphi$, we have that $m_{i}=0$ for all $i\in I$.
 
 ^2db9e9
+
+---
+> [!lemma] Proposition 4 (Cokernel of Tensor Product)
+> Let $R$ be a ring and $U,V,M$ be $R$-modules. 
+> 1. for a homomorphism $f:U\to V$, we have that: $$\text{coker}(f\otimes  \text{id}_{M})\cong \text{coker}(f)\otimes  M$$
+
+^df073f
+
+> [!proof]-
+> Notice that:
+> 1. We have that: $$U\overset{ f }{ \to } V \overset{ q }{ \to } \text{coker}(f)\to 0$$is an exact sequence where $q$ is standard projection. Therefore, by right exactness, $$U\otimes  M \overset{ f\otimes  \text{id} }{ \to } V\otimes  M \overset{ q\otimes  \text{id} }{ \to } \text{coker}(f)\otimes M\to 0$$is also an exact sequence. Then, $$\begin{CD}U\otimes M @> f\otimes  \text{id}>> V \otimes M @>q\otimes  \text{id}>> \text{coker}(f)\otimes  M @>>> 0@>>> 0\\@V\text{id}VV@V\text{id}VV@V\varphi VV @VVV@VVV\\U\otimes M @>>f\otimes  \text{id}> V \otimes M @>>q'> \text{coker}(f\otimes  \text{id})@>>> 0@>>> 0\end{CD}$$commutes if we define $\varphi([v]\otimes m)=[v\otimes m]$. Therefore, by 5-lemma it is isomorphic.
+
+^3c1324
 
 ---
 ##### Examples

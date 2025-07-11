@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Ext.md",
+                "file": "Algebra/Tensor Product.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ext"
+              "title": "Tensor Product"
             }
           },
           {
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Resolution.md",
+                "file": "Topology/Algebraic Topology/Tor.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Resolution"
+              "title": "Tor"
             }
           },
           {
@@ -51,7 +51,7 @@
             }
           },
           {
-            "id": "85d5955ed0ff6ab3",
+            "id": "46e69747382ef1f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Split Exact Sequence.md",
+                "file": "Algebra/Tensor Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Split Exact Sequence"
+              "title": "Tensor Product"
             }
           },
           {
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Ext.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ext"
+              "title": "Exact Sequence"
             }
           },
           {
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Resolution.md",
+                "file": "Topology/Algebraic Topology/Tor.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Resolution"
+              "title": "Tor"
             }
           },
           {
@@ -346,19 +346,21 @@
   },
   "active": "beb011816bc79289",
   "lastOpenFiles": [
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Real Projective Space.md",
+    "Topology/Algebraic Topology/Tor.md",
+    "Algebra/Exact Sequence.md",
+    "Algebra/Tensor Product.md",
+    "Topology/Algebraic Topology/Ext.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Algebra/Split Exact Sequence.md",
+    "Topology/Algebraic Topology/Resolution.md",
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Cochain Complex.md",
-    "Algebra/Split Exact Sequence.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
-    "Topology/Algebraic Topology/Ext.md",
-    "Topology/Real Projective Space.md",
-    "Topology/Algebraic Topology/Resolution.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology/Cochain Homotopy.md",
-    "Algebra/Exact Sequence.md",
     "Algebra/Module.md",
     "Machine Learning/Matrix Completion.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
@@ -370,8 +372,6 @@
     "Topology/Subspace Topology.md",
     "Analysis/Taylor's Theorem.md",
     "Topology/Homeomorphism.md",
-    "Functional Analysis/Normal Operator.md",
-    "Algebra/Tensor Product.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",
