@@ -265,3 +265,19 @@
 ![[Tor#^a5f237|p]]
 
 ---
+![[Tor#^1b5eed]]
+![[Tor#^fdb79b|p]]
+
+---
+##### 2.3.7 Ext and Tor for $R$-modules
+- **Remark**: For general $R$-modules, the submodule of a free $R$-module is not necessarily free. Hence, we don't have the guarantee that $H^i(\mathcal{F};G)=H_{i}(\mathcal{F};G)=0$ for $i\geq 2$. Therefore, we have $\text{Tor}_{i}^R(H,Q):=H_{i}(P\otimes_{R} Q)$ where $\text{Tor}_{1}^\mathbb{Z}(H,G):=\text{Tor}(H,G)$.
+- **Remark**: For [[Principal Ideal Domain|PID]] $R$, we have that a submodule of a free $R$-module is also free. (cf. [[Free Module|Theorem 3]]). Hence, for PID $R$, $\text{Tor}_{i}^R=\text{Ext}_{i}^R = 0$ for all $i\geq 2$.
+
+---
+##### 2.3.8 Extensions
+![[Group Extension#^e9dd1f]]
+
+![[Group Extension#^4445e7]]
+![[Group Extension^]]
+
+---

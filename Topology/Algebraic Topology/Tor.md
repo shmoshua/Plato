@@ -46,7 +46,7 @@
 
 ^fe86d5
 
-> [!proof]+
+> [!proof]-
 > We have that: 
 > 1.  From 2, we get the following SES's: $$0\to \text{coker}(i_{n}\otimes  \text{id})\to H_{n}(\mathcal{C};G)\to \text{ker}(i_{n-1}\otimes \text{id})\to 0$$However, by [[Tensor Product|Proposition 4]], $\text{coker}(i_{n}\otimes \text{id})\cong \text{coker}(i_{n})\otimes G=H_{n}(\mathcal{C})\otimes G$.
 >    
@@ -57,7 +57,10 @@
 > 	   
 > 	   Now, to show that $\text{ker}(i_{n-1}\otimes \text{id})\cong \text{Tor}(H_{n-1}(\mathcal{C}),G)$ consider the free resolution: $$0\to B_{n-1}\otimes  G\overset{ i_{n-1}\otimes  \text{id} }{ \to }Z_{n-1}\otimes  G \to H_{n-1}(\mathcal{C}) \otimes  G \to 0$$Hence, $\text{ker}(i_{n-1}\otimes \text{id})\cong \text{Tor}(H_{n-1}(\mathcal{C}),G)$. 
 > 	   
-> 	   Finally, it's left to show that this sequence splits. 
+> 	   Finally, it's left to show that this sequence splits. Consider $0\to Z_{n}\overset{ j_{n} }{ \to }C_{n}\overset{ \partial }{ \to } B_{n-1}\to 0$which splits as $B_{n-1}$ is free. Therefore, there exists a left inverse $p:C_{n}\to Z_{n}$ s.t. $p|_{Z_{n}}=\text{id}$. by composing $p$ with $Z_{n}\to H_{n}(\mathcal{C})$, we have $\overline{p}:C_{n}\to H_{n}(\mathcal{C})$ s.t. $\bar{p}(z)=[z]$ for all $z\in Z_{n}$.
+> 	   
+> 	   Now, we claim that $\overline{p}$ gives a chain map $\overline{p}:\mathcal{C}\to \mathcal{H}_{*}(\mathcal{C})$ where $\mathcal{H}_{*}(\mathcal{C})$ is the chain complex of $H_{n}(\mathcal{C})$ with zero differential. Indeed, $$\overline{p}(\partial c)=[\partial c]=0$$Hence, we can consider $\overline{p} \otimes \text{id}: \mathcal{C}\otimes G\to \mathcal{H}_{*}(\mathcal{C})\otimes G$ as a chain map. We claim that $$(\overline{p}\otimes  \text{id})_{*}:H_{n}(\mathcal{C};G)\to H_{n}(\mathcal{C})\otimes  G$$ is a left inverse of $\tau$. For any $c\in Z_{n}$ and $g\in G$, we have that: $$(\overline{p}\otimes  \text{id})_{*} \circ  \tau([c]\otimes  g)=(\overline{p}\otimes \text{id})_{*}([c\otimes  g])=\overline{p}(c)\otimes   g=[c]\otimes  g$$This proves the statement.
+> 	   
 > 2. Analogous to Ext
 > 3. Analogous to Ext
 
@@ -74,6 +77,8 @@
 > 6. $\text{Tor}(\mathbb{Z} / m\mathbb{Z}, \mathbb{Z} / n \mathbb{Z})\cong \mathbb{Z} / \text{gcd}(m,n)\mathbb{Z}$.
 > 7. if $A,B$ are finitely generated $\text{Tor}(A,B)\cong A_{\text{tors}}\otimes B_{\text{tors}}$
 
+^1b5eed
+
 
 > [!proof]-
 > We have:
@@ -86,5 +91,7 @@
 > 5. Consider the free resolution: $0\to \mathbb{Z} \overset{ \times m }{ \to } \mathbb{Z} \to \mathbb{Z} / m\mathbb{Z} \to 0$. Hence, we get: $$\to 0\to \mathbb{Z} \otimes  A \overset{ (\times m )\otimes  \text{id} }{ \to } \mathbb{Z} \otimes  A $$As $\mathbb{Z}\otimes A\cong A$, we have that $\text{Tor}(\mathbb{Z} / m\mathbb{Z}, A)\cong \text{ker }(A \overset{ \times m }{ \to } A)$.
 > 6. We have that: $$\text{Tor}(\mathbb{Z} / m\mathbb{Z} , \mathbb{Z} / n\mathbb{Z})\cong \text{ker }(\mathbb{Z} / n\mathbb{Z}\overset{ \times m }{ \to }\mathbb{Z} / n\mathbb{Z})\cong \mathbb{Z} / \text{gcd}(m,n)\mathbb{Z}$$
 > 7. Let $A_{\text{tors}}=\bigoplus_{i=1}^r \mathbb{Z} / m_{i} \mathbb{Z}$ and $B_{\text{tors}}=\bigoplus_{j=1}^\ell \mathbb{Z} / n_{j}\mathbb{Z}$. Then, $$\text{Tor}(A,B)\cong \text{Tor}(A_{\text{tors}},B)\cong \text{Tor}(B,A_{\text{tors}})\cong \text{Tor}(B_{\text{tors}}, A_{\text{tors}})\cong \text{Tor}(A_{\text{tors}}, B_{\text{tors}})$$where: $$\begin{aligned}\text{Tor}(A_{\text{tors}}, B_{\text{tors}})&\cong \bigoplus _{i=1}^r\bigoplus _{j=1}^{\ell}\text{Tor}(\mathbb{Z} / m_{i}\mathbb{Z}, \mathbb{Z} / n_{j}\mathbb{Z})\cong \bigoplus _{i=1}^r\bigoplus _{j=1}^{\ell} \mathbb{Z} / {\text{gcd}(m_{i},n_{j})\mathbb{Z}}\\&\cong \bigoplus _{i=1}^r\bigoplus _{j=1}^{\ell} (\mathbb{Z} / m_{i} \mathbb{Z} \otimes  \mathbb{Z}  / n_{j}\mathbb{Z})\cong A_{\text{tors}}\otimes  B_{\text{tors}}\end{aligned}$$
+
+^fdb79b
 
 ---

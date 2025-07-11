@@ -117,6 +117,10 @@
 - **Corollary**: If $H_{0}(\mathcal{C})$ is free and $H_{1}(\mathcal{C})$ is finitely generated, then $H^1(\mathcal{C};\mathbb{Z})$ is also free.  ^4f0026
 
 ---
+> [!lemma] Theorem 7
+> Let $A,B$ be abelian groups. There exist a bijection between: $$\text{Ext}(A,B)\leftrightarrow  \{ \text{Equivalence classes of Extensions of }A\text{ by }B \}$$s.t. $0\leftrightarrow[0\to B\to B\oplus A \to A \to 0]$.
+- **Corollary**: If $\text{Ext}(A,B)=0$, then every [[Group Extension|extension]] of $A$ by $B$ is split.
+---
 ##### Examples
 
 > [!h] Example 1 (RPn and Z/2Z)
