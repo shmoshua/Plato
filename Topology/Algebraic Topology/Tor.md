@@ -56,6 +56,8 @@
 > 	   Therefore, there exists a unique homomorphism $\tau:H_{n}(\mathcal{C})\otimes G\to H_{n}(\mathcal{C};G)$. Further, $$\begin{CD}H_{n}(\mathcal{C})\otimes  G @>\tau>> H_{n}(\mathcal{C};G)\\@V\cong VV@VV\text{id}V\\\text{coker}(i_{n}\otimes \text{id}) @>>(j\otimes \text{id})_{*}> H_{n}(\mathcal{C};G)\end{CD}$$commutes. 
 > 	   
 > 	   Now, to show that $\text{ker}(i_{n-1}\otimes \text{id})\cong \text{Tor}(H_{n-1}(\mathcal{C}),G)$ consider the free resolution: $$0\to B_{n-1}\otimes  G\overset{ i_{n-1}\otimes  \text{id} }{ \to }Z_{n-1}\otimes  G \to H_{n-1}(\mathcal{C}) \otimes  G \to 0$$Hence, $\text{ker}(i_{n-1}\otimes \text{id})\cong \text{Tor}(H_{n-1}(\mathcal{C}),G)$. 
+> 	   
+> 	   Finally, it's left to show that this sequence splits. 
 > 2. Analogous to Ext
 > 3. Analogous to Ext
 
@@ -73,7 +75,7 @@
 > 7. if $A,B$ are finitely generated $\text{Tor}(A,B)\cong A_{\text{tors}}\otimes B_{\text{tors}}$
 
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. If $A$ is free, then $0 \to A \to A \to 0$ is exact and $0\to A\overset{ \text{id} }{ \to }A$ is a free resolution. Hence, $\text{Tor}(A,B)=0$. 
 >    
@@ -81,4 +83,8 @@
 > 2. To be added
 > 3. Let $\mathcal{F}_{i}\to A_{i}$ be a free resolution. Then, $\bigoplus_{i\in \mathcal{I}}\mathcal{F}_{i}\to \bigoplus_{i\in \mathcal{I}}A_{i}$ is also a free resolution. Hence, $$\text{Tor}\left( \bigoplus_{i\in \mathcal{I}} A_{i},B \right) =H_{1}\left( \bigoplus_{i\in \mathcal{I}} \mathcal{F}_{i} ;B\right) \cong \bigoplus_{i\in \mathcal{I}} H_{1}(\mathcal{F}_{i};B)=\bigoplus _{i\in \mathcal{I}}\text{Tor}(A_{i},B)$$
 > 4. We have that: $$\text{Tor}(A,B)\cong \text{Tor}(A_{\text{tors}},B)\oplus \underbrace{ \text{Tor}(A_{\text{free}},B) }_{ =0 }=\text{Tor}(A_{\text{tors}},B)$$
-> 5. Consider the free resolution: $0\to \mathbb{Z} \overset{ \times m }{ \to{ } \mathbb{Z}$
+> 5. Consider the free resolution: $0\to \mathbb{Z} \overset{ \times m }{ \to } \mathbb{Z} \to \mathbb{Z} / m\mathbb{Z} \to 0$. Hence, we get: $$\to 0\to \mathbb{Z} \otimes  A \overset{ (\times m )\otimes  \text{id} }{ \to } \mathbb{Z} \otimes  A $$As $\mathbb{Z}\otimes A\cong A$, we have that $\text{Tor}(\mathbb{Z} / m\mathbb{Z}, A)\cong \text{ker }(A \overset{ \times m }{ \to } A)$.
+> 6. We have that: $$\text{Tor}(\mathbb{Z} / m\mathbb{Z} , \mathbb{Z} / n\mathbb{Z})\cong \text{ker }(\mathbb{Z} / n\mathbb{Z}\overset{ \times m }{ \to }\mathbb{Z} / n\mathbb{Z})\cong \mathbb{Z} / \text{gcd}(m,n)\mathbb{Z}$$
+> 7. Let $A_{\text{tors}}=\bigoplus_{i=1}^r \mathbb{Z} / m_{i} \mathbb{Z}$ and $B_{\text{tors}}=\bigoplus_{j=1}^\ell \mathbb{Z} / n_{j}\mathbb{Z}$. Then, $$\text{Tor}(A,B)\cong \text{Tor}(A_{\text{tors}},B)\cong \text{Tor}(B,A_{\text{tors}})\cong \text{Tor}(B_{\text{tors}}, A_{\text{tors}})\cong \text{Tor}(A_{\text{tors}}, B_{\text{tors}})$$where: $$\begin{aligned}\text{Tor}(A_{\text{tors}}, B_{\text{tors}})&\cong \bigoplus _{i=1}^r\bigoplus _{j=1}^{\ell}\text{Tor}(\mathbb{Z} / m_{i}\mathbb{Z}, \mathbb{Z} / n_{j}\mathbb{Z})\cong \bigoplus _{i=1}^r\bigoplus _{j=1}^{\ell} \mathbb{Z} / {\text{gcd}(m_{i},n_{j})\mathbb{Z}}\\&\cong \bigoplus _{i=1}^r\bigoplus _{j=1}^{\ell} (\mathbb{Z} / m_{i} \mathbb{Z} \otimes  \mathbb{Z}  / n_{j}\mathbb{Z})\cong A_{\text{tors}}\otimes  B_{\text{tors}}\end{aligned}$$
+
+---
