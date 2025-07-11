@@ -245,3 +245,15 @@
 
 ---
 ##### 2.3.6 Universal Coefficient Theorem for Tensor Products
+
+![[Resolution#^c1178a]]
+![[Resolution#^e06859|p]]
+
+---
+![[Tor#^629334]]
+
+---
+![[Tor#^6e33f6]]
+![[Tor#^3ae30a|p]]
+
+---

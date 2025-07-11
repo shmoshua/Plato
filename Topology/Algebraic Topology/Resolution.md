@@ -49,7 +49,7 @@
 > Let $H$ be an abelian group and $\mathcal{F}\overset{ \varepsilon }{ \to }H$ a free resolution.
 > 1. Let $\mathcal{F}'\overset{ \varepsilon' }{ \to }H'$ be a resolution of an abelian group $H'$. For any homomorphism $\alpha:H\to H'$, we can extend it to a chain map as follows: $$\begin{CD}\mathcal{F}:\ \cdots @>>> F_{2}@>f_{2}>> F_{1}@>f_{1}>> F_{0} @>\varepsilon >> H@>>>0\\ &@V\alpha_{2}VV&@V\alpha_{1}VV&@V\alpha_{0} VV&@V\alpha VV\\ \mathcal{F}':\ \cdots @>>>F_{2}'@>>f_{2}'> F_{1}'@>>f_{1}'>F'_{0} @>>\varepsilon '> H'@>>>0\end{CD}$$
 > 	Moreover, any two such extensions are [[Chain Homotopy|chain homotopic]].
-> 2. Let $\mathcal{F}'\overset{ \varepsilon' }{ \to }H$ be a free resolution. Then, there exists a canonical isomorphism $H^{n}(\mathcal{F};G)\cong H^{n}(\mathcal{F}';G)$ for all $n\geq 0$. In other words, $H^n(\mathcal{F};G)$ only depends on $H$ and $G$.
+> 2. Let $\mathcal{F}'\overset{ \varepsilon' }{ \to }H$ be a free resolution. Then, there exists a canonical isomorphism $H^{n}(\mathcal{F};G)\cong H^{n}(\mathcal{F}';G)$ and $H_{n}(\mathcal{F};G)\cong H_{n}(\mathcal{F}';G)$ for all $n\geq 0$. In other words, $H^n(\mathcal{F};G)$ and $H_{n}(\mathcal{F};G)$ only depend on $H$ and $G$.
 
 ^c44c09
 
@@ -70,7 +70,24 @@
 
 ^a01a4f
 
-- **Corollary**: From Example 1, we have that $H^n(\mathcal{F};G)=0$ for all $n\geq 2$.  ^a90f58
+- **Corollary**: From Example 1, we have that $H^n(\mathcal{F};G)=0,H_{n}(\mathcal{F};G)=0$ for all $n\geq 2$.  ^a90f58
+---
+ > [!lemma] Proposition 4
+ > Let $\mathcal{F}\overset{ \varepsilon }{ \to }H$ be a free resolution. Then,
+ > 1. We can tensor the exact sequence into: $$\cdots \to F_{2} \otimes  G\to F_{1}\otimes  G\to F_{0} \otimes  G\to H \otimes  G\to 0$$where upto $F_{1}$ the sequence is exact.
+ > 2. $H_{0}(\mathcal{F};G)\cong H\otimes G$
+
+^c1178a
+
+
+> [!proof]-
+> We have that:
+> 1. From [[Tensor Product|Right Exactness of tensor products]].
+> 2. We have that: $$H_{0}(\mathcal{F};G)=F_{0} \otimes  G /  \text{im}(f_{1}\otimes  \text{id})=F_{0} \otimes  G /  \text{ker}(\varepsilon\otimes  \text{id})$$However, as $\varepsilon$ is surjective, so is $\varepsilon \otimes \text{id}$ and we have that: $$F_{0}\otimes  G / \text{ker}(\varepsilon \otimes  \text{id})\cong H \otimes  G$$
+
+^e06859
+
+
 ---
 ##### Examples
 > [!h] Example 1

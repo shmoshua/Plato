@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Tensor Product.md",
+                "file": "Topology/Algebraic Topology/Resolution.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tensor Product"
+              "title": "Resolution"
             }
           },
           {
@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Topology/Algebraic Topology/Ext.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "Ext"
             }
           },
           {
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Exact Sequence.md",
+                "file": "Topology/Algebraic Topology/Resolution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exact Sequence"
+              "title": "Resolution"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Topology/Algebraic Topology/Ext.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
+              "title": "Ext"
             }
           },
           {
@@ -344,20 +344,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "beb011816bc79289",
+  "active": "96d42dd66a1d6fa2",
   "lastOpenFiles": [
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Topology/Real Projective Space.md",
-    "Topology/Algebraic Topology/Tor.md",
-    "Algebra/Exact Sequence.md",
-    "Algebra/Tensor Product.md",
     "Topology/Algebraic Topology/Ext.md",
+    "Topology/Algebraic Topology/Tor.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Algebra/Split Exact Sequence.md",
+    "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Resolution.md",
+    "Algebra/Tensor Product.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Algebra/Chain Complex.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Cochain Complex.md",
+    "Algebra/Exact Sequence.md",
+    "Algebra/Split Exact Sequence.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology/Cochain Homotopy.md",
