@@ -106,10 +106,34 @@
 > Let $\mathcal{C}$ be a complex of free abelian groups. Suppose $H_{n}(\mathcal{C})$ and $H_{n-1}(\mathcal{C})$ are finitely generated. 
 > 1. there exists a non-canonical isomorphism $H^n(\mathcal{C};\mathbb{Z})\cong H_{n}(\mathcal{C})_{\text{free}}\oplus H_{n-1}(\mathcal{C})_{\text{tors}}$
 
+^ede6e4
+
 > [!proof]-
 > We have that:
 > 1. From the UCT, we have that $H^n(\mathcal{C};\mathbb{Z})\cong  \text{Ext}(H_{n-1}(\mathcal{C}),\mathbb{Z})\oplus \text{Hom}(H_{n}(\mathcal{C}),\mathbb{Z})$. From Remark of Lemma 5, we have that: $$\text{Ext}(H_{n-1}(\mathcal{C}),\mathbb{Z})\cong \bigoplus _{j=1}^\ell \mathbb{Z} / k_{j} \mathbb{Z} = H_{n-1}(\mathcal{C})_{\text{tors}}$$Similarly, $$\text{Hom}(H_{n}(\mathcal{C}),\mathbb{Z})\cong \text{Hom}(H_{n}(\mathcal{C})_{\text{free}},\mathbb{Z})\oplus \underbrace{ \text{Hom}(H_{n}(\mathcal{C})_{\text{tors}},\mathbb{Z}) }_{ =0 }=\text{Hom}(H_{n}(\mathcal{C})_{\text{free}},\mathbb{Z})\cong H_{n}(\mathcal{C})_{\text{free}}$$
 
-- **Corollary**: If $H_{0}(\mathcal{C})$ is free and $H_{1}(\mathcal{C})$ is finitely generated, then $H^1(\mathcal{C};\mathbb{Z})$ is also free. 
+^ffc234
+
+- **Corollary**: If $H_{0}(\mathcal{C})$ is free and $H_{1}(\mathcal{C})$ is finitely generated, then $H^1(\mathcal{C};\mathbb{Z})$ is also free.  ^4f0026
 
 ---
+##### Examples
+
+> [!h] Example 1 (RPn and Z/2Z)
+> Let $n> 0$ be even and consider $\mathbb{R}\mathbb{P}^n$ with coefficients $\mathbb{Z} / 2\mathbb{Z}$.
+> 1. from [[Real Projective Space|Cellular Homology]], $$H_{p}(\mathbb{R}\mathbb{P}^n)\cong \begin{cases}\mathbb{Z}& p = 0\\\mathbb{Z} / 2\mathbb{Z}&0< p\leq n, p \text{ odd}\\ 0 &0<p\leq n,p\text{ even}\end{cases}$$
+> 2. then: $$\text{Ext}(H_{p}(\mathbb{R}\mathbb{P}^n), \mathbb{Z} / 2\mathbb{Z})\cong \begin{cases}0&p=0\\\mathbb{Z} / 2 \mathbb{Z}& 0< p \leq n, p \text{ odd}\\ 0& 0< p \leq n, p \text{ even}\end{cases}$$
+> 3. further: $$\text{Hom}(H_{p}(\mathbb{R}\mathbb{P}^n), \mathbb{Z} / 2\mathbb{Z})\cong \begin{cases}\mathbb{Z} / 2\mathbb{Z}&p =0\\ \mathbb{Z} / 2\mathbb{Z}&0< p \leq n, p\text{ odd}\\ 0&0< p \leq n, p\text{ even}\end{cases}$$
+> 4. therefore by UCT: $$H^p(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})\cong \mathbb{Z} / 2\mathbb{Z},\quad \forall 0\leq p \leq n$$
+
+^e6d8a2
+
+---
+> [!h] Example 2 (RPn and Z/2Z)
+> Let $n> 0$ be odd and consider $\mathbb{R}\mathbb{P}^n$ with coefficients $\mathbb{Z} / 2\mathbb{Z}$.
+> 1. from [[Real Projective Space|Cellular Homology]], $$H_{p}(\mathbb{R}\mathbb{P}^n)\cong \begin{cases}\mathbb{Z}& p = 0\\\mathbb{Z} / 2\mathbb{Z}&0< p< n, p \text{ odd}\\ 0 &0<p< n,p\text{ even}\\\mathbb{Z}&p=n\end{cases}$$
+> 2. then: $$\text{Ext}(H_{p}(\mathbb{R}\mathbb{P}^n), \mathbb{Z} / 2\mathbb{Z})\cong \begin{cases}0&p=0\\\mathbb{Z} / 2 \mathbb{Z}& 0< p < n, p \text{ odd}\\ 0& 0< p < n, p \text{ even}\\0&p=n\end{cases}$$
+> 3. further: $$\text{Hom}(H_{p}(\mathbb{R}\mathbb{P}^n), \mathbb{Z} / 2\mathbb{Z})\cong \begin{cases}\mathbb{Z} / 2\mathbb{Z}&p =0\\ \mathbb{Z} / 2\mathbb{Z}&0< p < n, p\text{ odd}\\ 0&0< p < n, p\text{ even}\\\mathbb{Z} / 2\mathbb{Z}&p=n\end{cases}$$
+> 4. therefore by UCT: $$H^p(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})\cong \mathbb{Z} / 2\mathbb{Z},\quad \forall 0\leq p \leq n$$
+
+^cbf919

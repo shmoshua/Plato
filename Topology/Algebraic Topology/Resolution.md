@@ -78,3 +78,4 @@
 > 1. Let $\mathcal{S}$ be a set of generators of $H$. Then, $$0\to \text{ker }\varepsilon \to\bigoplus_{s\in \mathcal{S}}\mathbb{Z}x_{s}\overset{ \varepsilon }{ \to }H\to 0$$ is exact and this gives rise to a free resolution of $H$.
 
 ^910349
+
