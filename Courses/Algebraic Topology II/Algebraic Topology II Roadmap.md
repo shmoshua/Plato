@@ -228,3 +228,4 @@
 ![[Ext#^43f119]]
 
 ---
+##### 2.3.5 Corollaries of the UCT

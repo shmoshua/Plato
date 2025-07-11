@@ -47,9 +47,26 @@
 ^9b9273
 
 ---
-> [!lemma] Theorem 3 (Universal Coefficient Theorem)
+> [!lemma] Proposition 3 (Induced Maps between Ext)
+> Let $G,G',H,H'$ be abelian groups. 
+> 1. For a homomorphism $\alpha:H\to H'$ and free resolutions $\mathcal{F}\to H$ and $\mathcal{F'}\to H'$, the extension of $\alpha$ given by [[Resolution|Theorem 3]] induces a map in cohomology:
+>    $$\alpha^{\text{ext}}:\text{Ext}(H',G)\to \text{Ext}(H,G)$$In particular, $\alpha^{\text{ext}}$ is well-defined and canonical.
+> 2. A homomorphism $\varphi:G \to G'$ induces a map for any abelian group $M$. $$\varphi: \text{Hom}(M,G)\to \text{Hom}(M,G')$$ Therefore, $\varphi ^{*}:\text{Ext}(H,G)\to \text{Ext}(H,G')$ is well-defined. 
+
+> [!proof]-
+> We have that:
+> 1. Let $\mathcal{E}\to H$ and $\mathcal{E}'\to H'$ be another pair of free resolutions. It suffices to show that: $$\begin{CD}H^1(\mathcal{F}';G)@>\alpha_{1}^*>>H^1(\mathcal{F};G)\\@V\cong VV & @VV\cong V \\H^1(\mathcal{E}';G)@> >\alpha_{2}^*>H^1(\mathcal{E};G)\end{CD}$$where $\alpha_{1},\alpha_{2}$ are two respective extensions of $\alpha$. 
+>    
+>    Let $\beta$ be the extension of $\text{id}_{H}$ from $\mathcal{E}$ to $\mathcal{F}$. Similarly, let $\beta'$ be the extension of $\text{id}_{H'}$ from $\mathcal{E}'$ to $\mathcal{F}'$. Then, $\alpha_{1}\circ\beta$ and $\beta' \circ \alpha_{2}$ are extension of $\alpha$. Therefore, by [[Resolution|Theorem 3]], they are chain homotopic and in cohomology, they induce the same maps, i.e. $$\beta ^{*} \circ  \alpha_{1}^{*}=(\alpha_{1} \circ  \beta)^{*}=(\beta' \circ  \alpha_{2})^{*}=\alpha_{2}^{*} \circ  (\beta')^{*}$$
+> 2. Obvious.
+
+---
+
+> [!lemma] Theorem 4 (Universal Coefficient Theorem)
 > Let $\mathcal{C}$ be a chain complex of free abelian groups. For an abelian group $G$,
 > 1. there exists a split SES: $$0\to \text{Ext}(H_{n-1}(\mathcal{C}),G)\to H^n(\mathcal{C};G)\to \text{Hom}(H_{n}(\mathcal{C}),G)\to 0$$
+> 2. the SES is natural w.r.t. chain maps, i.e. for any chain map $\alpha:\mathcal{C}\to \mathcal{C}'$, $$\begin{CD}0& @>>> \text{Ext}(H_{n-1}(\mathcal{C}),G)@>>> H^n(\mathcal{C};G)@>>> \text{Hom}(H_{n}(\mathcal{C}),G) @>>> 0\\&@A\alpha_{h}^{\text{ext}}AA&@A\alpha ^{*} AA&@A\alpha_{h}^{*}AA\\0& @>>> \text{Ext}(H_{n-1}(\mathcal{C}'),G)@>>> H^n(\mathcal{C}';G)@>>> \text{Hom}(H_{n}(\mathcal{C}'),G) @>>> 0\end{CD}$$where $\alpha_{h}:H_{*}(\mathcal{C})\to H_{*}(\mathcal{C}')$.
+> 3. the SES is natural w.r.t. homomorphisms between $G,G'$ i.e. for any homomorphism $\varphi:G \to G'$, $$\begin{CD}0& @>>> \text{Ext}(H_{n-1}(\mathcal{C}),G)@>>> H^n(\mathcal{C};G)@>>> \text{Hom}(H_{n}(\mathcal{C}),G) @>>> 0\\&@V\varphi ^{*} VV&@V\varphi ^{*} VV&@V\varphi VV\\0& @>>> \text{Ext}(H_{n-1}(\mathcal{C}),G')@>>> H^n(\mathcal{C};G')@>>> \text{Hom}(H_{n}(\mathcal{C}),G') @>>> 0\end{CD}$$
 
 ^87b1dc
 
@@ -61,7 +78,7 @@
 - **Remark**: In general, there is no canonical splitting. ^c22a3c
 
 ---
-> [!lemma] Lemma 4 (Computation with Ext)
+> [!lemma] Lemma 5 (Computation with Ext)
 > We have that:
 > 1. $\text{Ext}(H\oplus H',G)\cong \text{Ext}(H,G)\oplus \text{Ext}(H',G)$ canonically.
 > 2. if $H$ is free abelian, $\text{Ext}(H,G)=0$.
@@ -77,16 +94,22 @@
 
 ^b9aa9b
 
-- **Remark**: This gives us a way to compute the Ext for every finitely generated abelian group $H$. ^43f119
+- **Remark**: This gives us a way to compute the Ext for every [[finitely generated abelian group]] $H$. Then,
+	1. $H_{\text{tors}}:=\{ h\in H: \exists 0\neq k\in \mathbb{Z} , kh = 0\}\leq H$ and
+	2. $H_{\text{free}}:= H / H_{\text{tors}}$, where $H_{\text{free}}$ is free abelian. 
+	
+	Therefore, $0 \to H_{\text{tors}} \to H \to H_{\text{free}} \to 0$ is a split SES and $H\cong H_{\text{tors}}\oplus H_{\text{free}}$. It follows that: $$\text{Ext}(H,G)\cong \text{Ext}(H_{\text{tors}},G)\oplus \underbrace{ \text{Ext}(H_{\text{free}},G) }_{ =0 }\cong \text{Ext}(H_{\text{tors}},G)\cong \bigoplus_{j=1}^\ell G / k_{j}G$$where $H_{\text{tors}}=\bigoplus_{j=1}^\ell \mathbb{Z} / k_{j}\mathbb{Z}$.
+  
+  ^43f119
 ---
-> [!lemma] Proposition 5 (Induced Maps between Ext)
-> Let $G,G',H,H'$ be abelian groups. 
-> 1. For a homomorphism $\alpha:H\to H'$ and free resolutions $\mathcal{F}\to H$ and $\mathcal{F'}\to H'$, the extension of $\alpha$ given by [[Resolution|Theorem 3]] induces a map in cohomology:
->    $$\alpha^{\text{ext}}:\text{Ext}(H',G)\to \text{Ext}(H,G)$$In particular, $\alpha^{\text{ext}}$ is well-defined and canonical.
-> 2. A homomorphism $\varphi:G \to G'$ induces a map for any abelian group $M$. $$\Phi: \text{Hom}(M,G)\to \text{Hom}(M,G')$$ 
+> [!lemma] Corollary 6 
+> Let $\mathcal{C}$ be a complex of free abelian groups. Suppose $H_{n}(\mathcal{C})$ and $H_{n-1}(\mathcal{C})$ are finitely generated. 
+> 1. there exists a non-canonical isomorphism $H^n(\mathcal{C};\mathbb{Z})\cong H_{n}(\mathcal{C})_{\text{free}}\oplus H_{n-1}(\mathcal{C})_{\text{tors}}$
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 3. Let $\mathcal{E}\to H$ and $\mathcal{E}'\to H'$ be another pair of free resolutions. It suffices to show that: $$\begin{CD}H^1(\mathcal{F}';G)@>\alpha_{1}^*>>H^1(\mathcal{F};G)\\@V\cong VV & @VV\cong V \\H^1(\mathcal{E}';G)@> >\alpha_{2}^*>H^1(\mathcal{E};G)\end{CD}$$where $\alpha_{1},\alpha_{2}$ are two respective extensions of $\alpha$. 
->    
->    Let $\beta$ be the extension of $\text{id}_{H}$ from $\mathcal{E}$ to $\mathcal{F}$. Similarly, let $\beta'$ be the extension of $\text{id}_{H'}$ from $\mathcal{E}'$ to $\mathcal{F}'$. Then, $\alpha_{1}\circ\beta$ and $\beta' \circ \alpha_{2}$ are extension of $\alpha$. Therefore, by [[Resolution|Theorem 3]], they are chain homotopic and in cohomology, they induce the same maps, i.e. $$\beta ^{*} \circ  \alpha_{1}^{*}=(\alpha_{1} \circ  \beta)^{*}=(\beta' \circ  \alpha_{2})^{*}=\alpha_{2}^{*} \circ  (\beta')^{*}$$
+> 1. From the UCT, we have that $H^n(\mathcal{C};\mathbb{Z})\cong  \text{Ext}(H_{n-1}(\mathcal{C}),\mathbb{Z})\oplus \text{Hom}(H_{n}(\mathcal{C}),\mathbb{Z})$. From Remark of Lemma 5, we have that: $$\text{Ext}(H_{n-1}(\mathcal{C}),\mathbb{Z})\cong \bigoplus _{j=1}^\ell \mathbb{Z} / k_{j} \mathbb{Z} = H_{n-1}(\mathcal{C})_{\text{tors}}$$Similarly, $$\text{Hom}(H_{n}(\mathcal{C}),\mathbb{Z})\cong \text{Hom}(H_{n}(\mathcal{C})_{\text{free}},\mathbb{Z})\oplus \underbrace{ \text{Hom}(H_{n}(\mathcal{C})_{\text{tors}},\mathbb{Z}) }_{ =0 }=\text{Hom}(H_{n}(\mathcal{C})_{\text{free}},\mathbb{Z})\cong H_{n}(\mathcal{C})_{\text{free}}$$
+
+- **Corollary**: If $H_{0}(\mathcal{C})$ is free and $H_{1}(\mathcal{C})$ is finitely generated, then $H^1(\mathcal{C};\mathbb{Z})$ is also free. 
+
+---

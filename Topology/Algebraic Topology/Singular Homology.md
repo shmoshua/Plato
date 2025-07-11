@@ -233,7 +233,7 @@
 
 ^22d01e
 
-> [!proof]+
+> [!proof]-
 > We have: 
 > 1. Notice that: $$\partial\sigma_{n}=\sum_{i=0}^{n}(-1)^i (\sigma_{n} \circ  F^n_{i})=\sum_{i=0}^{n}(-1)^i *\in S_{n-1}(*)$$Hence, $\partial[\sigma_{0}]=[\partial\sigma_{0}]=0$. 
 > 2. Consider the following maps: $$H_{n}(\Delta _{n} / \partial  \Delta_{n},*)\xleftarrow{q_{*},\cong}H_{n}(\Delta_{n}, \partial\Delta_{n})\xrightarrow{\cong} \tilde{H}_{n-1}( \partial\Delta_{n})$$where the first isomorphism is from the fact that $(\Delta_{n}, \partial\Delta_{n})$ is a [[good pair]] and the second isomorphism from the reduced LES and the fact that $\Delta_{n}$ is contractible. 
