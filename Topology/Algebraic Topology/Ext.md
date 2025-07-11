@@ -79,3 +79,14 @@
 
 - **Remark**: This gives us a way to compute the Ext for every finitely generated abelian group $H$. ^43f119
 ---
+> [!lemma] Proposition 5 (Induced Maps between Ext)
+> Let $G,G',H,H'$ be abelian groups. 
+> 1. For a homomorphism $\alpha:H\to H'$ and free resolutions $\mathcal{F}\to H$ and $\mathcal{F'}\to H'$, the extension of $\alpha$ given by [[Resolution|Theorem 3]] induces a map in cohomology:
+>    $$\alpha^{\text{ext}}:\text{Ext}(H',G)\to \text{Ext}(H,G)$$In particular, $\alpha^{\text{ext}}$ is well-defined and canonical.
+> 2. A homomorphism $\varphi:G \to G'$ induces a map for any abelian group $M$. $$\Phi: \text{Hom}(M,G)\to \text{Hom}(M,G')$$ 
+
+> [!proof]+
+> We have that:
+> 3. Let $\mathcal{E}\to H$ and $\mathcal{E}'\to H'$ be another pair of free resolutions. It suffices to show that: $$\begin{CD}H^1(\mathcal{F}';G)@>\alpha_{1}^*>>H^1(\mathcal{F};G)\\@V\cong VV & @VV\cong V \\H^1(\mathcal{E}';G)@> >\alpha_{2}^*>H^1(\mathcal{E};G)\end{CD}$$where $\alpha_{1},\alpha_{2}$ are two respective extensions of $\alpha$. 
+>    
+>    Let $\beta$ be the extension of $\text{id}_{H}$ from $\mathcal{E}$ to $\mathcal{F}$. Similarly, let $\beta'$ be the extension of $\text{id}_{H'}$ from $\mathcal{E}'$ to $\mathcal{F}'$. Then, $\alpha_{1}\circ\beta$ and $\beta' \circ \alpha_{2}$ are extension of $\alpha$. Therefore, by [[Resolution|Theorem 3]], they are chain homotopic and in cohomology, they induce the same maps, i.e. $$\beta ^{*} \circ  \alpha_{1}^{*}=(\alpha_{1} \circ  \beta)^{*}=(\beta' \circ  \alpha_{2})^{*}=\alpha_{2}^{*} \circ  (\beta')^{*}$$

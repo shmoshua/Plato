@@ -64,8 +64,7 @@
               "title": "Algebraic Topology II Roadmap"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -148,12 +147,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cochain Homotopy.md",
+                "file": "Algebra/Cochain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cochain Homotopy"
+              "title": "Cochain Complex"
             }
           },
           {
@@ -198,7 +197,8 @@
               "title": "Homology Theory"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -343,12 +343,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "85d5955ed0ff6ab3",
+  "active": "d22b03d94053e21a",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Resolution.md",
-    "Topology/Algebraic Topology/Ext.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Cochain Homotopy.md",
+    "Topology/Algebraic Topology/Ext.md",
+    "Topology/Algebraic Topology/Resolution.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Algebra/Split Exact Sequence.md",
