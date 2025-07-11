@@ -1,7 +1,7 @@
 #Definition #Algebra 
 
 > [!definition]
-> Let $A,B$ be two [[Group|groups]]. A group $G$ is the group extension, if there exist an [[exact sequence]]: $$0\to A\hookrightarrow G\twoheadrightarrow B\to 0$$
+> Let $A,B$ be two [[Group|groups]]. A group $G$ is the group extension, if there exist a [[Exact Sequence|SES]]: $$0\to A\hookrightarrow G\twoheadrightarrow B\to 0$$
 ---
 ##### Examples
 > [!h] Example 1 (Normal subgroups)

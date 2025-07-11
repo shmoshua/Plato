@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Ext.md",
+                "file": "Algebra/Group Extension.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ext"
+              "title": "Group Extension"
             }
           },
           {
@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Ext.md",
+                "file": "Algebra/Group Extension.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ext"
+              "title": "Group Extension"
             }
           },
           {
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -344,12 +344,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "beb011816bc79289",
+  "active": "5f1044ef9be1a1a4",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Ext.md",
-    "Topology/Algebraic Topology/Resolution.md",
-    "Topology/Algebraic Topology/Tor.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Algebra/Group Extension.md",
+    "Algebra/Free Module.md",
+    "Topology/Algebraic Topology/Tor.md",
+    "Topology/Algebraic Topology/Resolution.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Real Projective Space.md",
     "Algebra/Tensor Product.md",
@@ -370,8 +372,6 @@
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Subspace Topology.md",
-    "Analysis/Taylor's Theorem.md",
-    "Topology/Homeomorphism.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",
