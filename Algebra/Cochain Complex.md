@@ -99,7 +99,10 @@
   
 
 ---
+> [!lemma] Proposition 5 (Quasi-Isomorphism induces Isomorphism in Cohomology)
+> Let $\mathcal{C,\mathcal{D}}$ be chain complexes of free abelian groups. 
 
+---
 
 
 ##### Examples

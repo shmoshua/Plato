@@ -56,16 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group Extension.md",
+                "file": "Algebra/Cochain Complex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Group Extension"
+              "title": "Cochain Complex"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -198,7 +198,8 @@
               "title": "Homology Theory"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -343,19 +344,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5f1044ef9be1a1a4",
+  "active": "a68a540ce2c8aed2",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Ext.md",
     "Algebra/Group Extension.md",
+    "Algebra/Cochain Complex.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Ext.md",
     "Algebra/Free Module.md",
     "Topology/Algebraic Topology/Tor.md",
     "Topology/Algebraic Topology/Resolution.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Algebra/Tensor Product.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Real Projective Space.md",
     "Algebra/Chain Complex.md",
-    "Algebra/Cochain Complex.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Split Exact Sequence.md",
     "Topology/Algebraic Topology/Singular Homology.md",
