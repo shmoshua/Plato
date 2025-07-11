@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -344,8 +344,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e59a8fcdeb8a9ca1",
+  "active": "beb011816bc79289",
   "lastOpenFiles": [
+    "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Cochain Complex.md",
     "Algebra/Split Exact Sequence.md",
@@ -355,7 +356,6 @@
     "Topology/Algebraic Topology/Ext.md",
     "Topology/Real Projective Space.md",
     "Topology/Algebraic Topology/Resolution.md",
-    "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology/Cochain Homotopy.md",
     "Algebra/Exact Sequence.md",
