@@ -64,16 +64,21 @@
 ---
 > [!lemma] Lemma 5 (Computation with Tor)
 > Let $A,B$ be abelian groups. 
-> 1. $\text{Tor}(A,B)\cong \text{Tor}(B,A)$
-> 2. if $A$ or $B$ is free, $\text{Tor}(A,B)=0$.
+> 1. if $A$ or $B$ is free, $\text{Tor}(A,B)=0$.
+> 2. $\text{Tor}(A,B)\cong \text{Tor}(B,A)$
 > 3. $\text{Tor}(\bigoplus_{i\in \mathcal{I}}A_{i},B)\cong \bigoplus_{i\in \mathcal{I}}\text{Tor}(A_{i},B)$
 > 4. if $A$ is finitely generated, $\text{Tor}(A,B)\cong \text{Tor}(A_{\text{tors}}, B)$
 > 5. $\text{Tor}(\mathbb{Z} / m\mathbb{Z}, A)\cong \text{ker}(A \overset{ \times m }{ \to } A)$
 > 6. $\text{Tor}(\mathbb{Z} / m\mathbb{Z}, \mathbb{Z} / n \mathbb{Z})\cong \mathbb{Z} / \text{gcd}(m,n)\mathbb{Z}$.
+> 7. if $A,B$ are finitely generated $\text{Tor}(A,B)\cong A_{\text{tors}}\otimes B_{\text{tors}}$
 
 
 > [!proof]+
 > We have:
-> 7. Let $\mathcal{F}\overset{ \varepsilon }{ \to }H$ and $\mathcal{F}'\overset{ \varepsilon' }{ \to }H'$ be free resolutions of $H$ and $H'$ respectively. Then, $$ \to F_{2}\oplus F_{2}'\overset{ f_{2}\oplus f_{2}' }{ \to }F_{1}\oplus F_{1}'\overset{ f_{1}\oplus f_{1}' }{ \to }F_{0}\oplus F_{0}'\overset{ \varepsilon \oplus \varepsilon' }{ \to } H\oplus H' \to 0$$ is an exact sequence and $\mathcal{F}\oplus \mathcal{F'}$ is a free resolution of $H\oplus H'$. Therefore, $$\text{Ext}(H\oplus H',G)=H^1(\mathcal{F}\oplus \mathcal{F'};G)\cong H^1(\mathcal{F};G)\oplus H^1(\mathcal{F}';G)=\text{Ext}(H,G)\oplus \text{Ext}(H',G)$$
-> 8. If $H$ is free abelian, $$0\to H\overset{ \text{id} }{ \to }H\to 0$$is exact and $F_{0}:= H$ and $F_{n}:= 0$ for $n\neq0$ is a free resolution of $H$. Therefore, $$\text{Ext}(H,G)=H^1(F;G)= 0$$
-> 9. We have that: $$0\to \mathbb{Z} \overset{ \times n }{ \to } \mathbb{Z} \to\mathbb{Z} /n \mathbb{Z} \to 0$$is an exact sequence. Hence, $F_{0}:= \mathbb{Z}$ and $F_{1}:= \mathbb{Z}$ is a free resolution of $\mathbb{Z} / n\mathbb{Z}$. Then, $$0 \to \text{Hom}(\mathbb{Z} , G) \overset{ (\times n)^{*} }{ \to } \text{Hom}(\mathbb{Z} , G) \to 0$$where the map is given as $f\mapsto (x\mapsto f(nx)=nf(x))$. In other words, $f\mapsto nf$. Therefore, the map is also $\times n$ and as $\text{Hom}(\mathbb{Z},G)\cong G$, we have that $$\text{Ext}(\mathbb{Z} / n\mathbb{Z}, G)\cong  G / nG$$
+> 1. If $A$ is free, then $0 \to A \to A \to 0$ is exact and $0\to A\overset{ \text{id} }{ \to }A$ is a free resolution. Hence, $\text{Tor}(A,B)=0$. 
+>    
+>    If $B$ is free, then consider the SES from [[Resolution|Example 1]] which is a free resolution for $A$. Then, as $B$ is free, tensoring with $B$ keeps the exactness. Therefore, $\text{Tor}(A,B)=0$.
+> 2. To be added
+> 3. Let $\mathcal{F}_{i}\to A_{i}$ be a free resolution. Then, $\bigoplus_{i\in \mathcal{I}}\mathcal{F}_{i}\to \bigoplus_{i\in \mathcal{I}}A_{i}$ is also a free resolution. Hence, $$\text{Tor}\left( \bigoplus_{i\in \mathcal{I}} A_{i},B \right) =H_{1}\left( \bigoplus_{i\in \mathcal{I}} \mathcal{F}_{i} ;B\right) \cong \bigoplus_{i\in \mathcal{I}} H_{1}(\mathcal{F}_{i};B)=\bigoplus _{i\in \mathcal{I}}\text{Tor}(A_{i},B)$$
+> 4. We have that: $$\text{Tor}(A,B)\cong \text{Tor}(A_{\text{tors}},B)\oplus \underbrace{ \text{Tor}(A_{\text{free}},B) }_{ =0 }=\text{Tor}(A_{\text{tors}},B)$$
+> 5. Consider the free resolution: $0\to \mathbb{Z} \overset{ \times m }{ \to{ } \mathbb{Z}$
