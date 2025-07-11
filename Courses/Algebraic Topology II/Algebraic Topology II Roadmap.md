@@ -244,6 +244,10 @@
 ![[Ext#^cbf919]]
 
 ---
+![[Cochain Complex#^d85926]]
+![[Cochain Complex#^8d28b4|p]]
+
+---
 ##### 2.3.6 Universal Coefficient Theorem for Tensor Products
 
 ![[Resolution#^c1178a]]

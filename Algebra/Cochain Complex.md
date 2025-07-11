@@ -101,6 +101,14 @@
 ---
 > [!lemma] Proposition 5 (Quasi-Isomorphism induces Isomorphism in Cohomology)
 > Let $\mathcal{C,\mathcal{D}}$ be chain complexes of free abelian groups. 
+> 1. For a [[Chain Complex|quasi-isomorphism]] $f:\mathcal{C}\to \mathcal{D}$, $f^{*}:\text{Hom}(\mathcal{D},G)\to \text{Hom}(\mathcal{C},G)$ induces an isomorphism in cohomology.
+
+^d85926
+
+> [!proof]-
+> From the [[Ext|UCT]], we have that: $$\begin{CD} 0 @>>> \text{Ext}(H_{n-1}(\mathcal{C}),G) @>>> H^n(\mathcal{C};G)@>>> \text{Hom}(H_{n}(\mathcal{C}),G) @>>> 0\\ &@Af_{*}^{\text{ext}}AA@A(f^{*})^{*}AA@A(f_{*})^{*}AA\\0 @>>> \text{Ext}(H_{n-1}(\mathcal{D}),G) @>>> H^n(\mathcal{D};G)@>>> \text{Hom}(H_{n}(\mathcal{D}),G) @>>> 0\end{CD}$$However, $f_{*}^{\text{ext}}$ is an isomorphism as $f_{*}$ induces an isomorphism, and similarly so is $(f_{*})^{*}$. Therefore, by 5-lemma $(f^{*})^{*}$ is an isomorphism.
+
+^8d28b4
 
 ---
 

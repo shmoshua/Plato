@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -98,20 +98,6 @@
               },
               "icon": "lucide-file",
               "title": "Tensor Product"
-            }
-          },
-          {
-            "id": "8793a9a1056c2f66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Free Module.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Free Module"
             }
           },
           {
@@ -199,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -344,19 +330,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "a68a540ce2c8aed2",
+  "active": "5f1044ef9be1a1a4",
   "lastOpenFiles": [
-    "Algebra/Group Extension.md",
     "Algebra/Cochain Complex.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Topology/Algebraic Topology/Ext.md",
-    "Algebra/Free Module.md",
-    "Topology/Algebraic Topology/Tor.md",
-    "Topology/Algebraic Topology/Resolution.md",
     "Algebra/Tensor Product.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Tor.md",
+    "Topology/Algebraic Topology/Ext.md",
+    "Algebra/Group Extension.md",
+    "Algebra/Free Module.md",
+    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Resolution.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Real Projective Space.md",
-    "Algebra/Chain Complex.md",
     "Algebra/Exact Sequence.md",
     "Algebra/Split Exact Sequence.md",
     "Topology/Algebraic Topology/Singular Homology.md",
