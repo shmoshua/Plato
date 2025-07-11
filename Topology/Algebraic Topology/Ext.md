@@ -119,7 +119,10 @@
 ---
 > [!lemma] Theorem 7
 > Let $A,B$ be abelian groups. There exist a bijection between: $$\text{Ext}(A,B)\leftrightarrow  \{ \text{Equivalence classes of Extensions of }A\text{ by }B \}$$s.t. $0\leftrightarrow[0\to B\to B\oplus A \to A \to 0]$.
-- **Corollary**: If $\text{Ext}(A,B)=0$, then every [[Group Extension|extension]] of $A$ by $B$ is split.
+
+^10b350
+
+- **Corollary**: If $\text{Ext}(A,B)=0$, then every [[Group Extension|extension]] of $A$ by $B$ is split. ^53132c
 ---
 ##### Examples
 
