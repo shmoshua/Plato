@@ -55,12 +55,34 @@
 > 1. $0\to S^k(X,A;G)\to S^k(X;G)\to S^k(A;G)\to 0$ is a split SES.
 > 2. for the LES: $$\cdots \to H^{n-1}(A;G)\overset{ \delta ^{*} }{ \to }H^n(X,A;G)\to H^n(X;G)\to H^n(A;G)\overset{ \delta ^{*} }{ \to  }H^{n+1}(X,A;G)\to \cdots$$We have that: $$\begin{CD}0 @>>>\text{Ext}(H_{n-1}(A),G) @>>> H^n(A;G)@>h>>\text{Hom}(H_{n}(A),G) @>>> 0\\ & @VVV& @V\delta ^{*}VV& @V(\partial_{*})^{*}VV\\ 0 @>>>\text{Ext}(H_{n}(X,A),G) @>>> H^{n+1}(X,A;G)@>>h>\text{Hom}(H_{n+1}(X,A),G) @>>> 0\end{CD}$$commutes where $\partial_{*}:H_{n+1}(X,A)\to H_{n}(A)$.
 
-> [!proof]+
+^faa1c5
+
+> [!proof]-
 > We have that:
 > 1. Given as $S^k(X,A)$ is free abelian, $$0\to S_{k}(A)\to S_{k}(X)\to S_{k}(X,A)\to 0$$is a split SES and so is its dual.
 > 2. The LES is given by the SES from 1. 
 >    
 >    Let $\Phi:S^n(X;G)$. Then, $\delta ^{*}([\Phi|_{S_{n}(A)}])=[\Psi]$ for $\Psi\in S^{n+1}(X,A;G)$ where $\Psi \circ q=\Phi \circ \partial$ with $q:S_{n+1}(X)\to S_{n+1}(X,A)$. Therefore, $$(h \circ \delta ^{*})([\Phi|_{S_{n}(A)}])=h[\Psi]=\overline{\Psi}$$Similarly, $h([\Phi|_{S_{n}(A)}])=\overline{\Phi|_{Z_{n}(A)}}$ and for $[c]\in H_{n+1}(X,A)$, there exists $b\in S_{n+1}(X)$ and $a\in S_{n}(A)$ s.t. $a=\partial b$ and $q(b)=c$. $$\overline{\Phi|_{Z_{n}(A)}} \circ \partial_{*}([c])=\overline{\Phi|_{Z_{n}(A)}} ([a])=\Phi(a)=\Phi \circ  \partial(b)=\Psi \circ  q(b)=\Psi(c)=\overline{\Psi}([c])$$This proves the statement.
+
+^b8c240
+
+---
+> [!lemma] Proposition 4 (Singular Cohomology Properties)
+> Let $X,Y$ be topological spaces. 
+> 1. **(homotopy invariance):** if $f,g:(X,A)\to (Y,B)$ and $f\simeq g$, then $f^{*}=g^{*}$.
+> 2. **(excision):** for $Z\subseteq A$ with $\overline{Z}\subseteq A^\circ$, $$i^{*}:H^n(X,A;G)\overset{ \cong }{ \to }H^n(X \backslash Z, A \backslash Z;G)$$is an isomorphism where $i:(X \backslash Z, A \backslash Z)\to (X, A)$ is the inclusion map.
+> 3. **(Mayer-Vietoris):** for $A,B\subseteq X$ s.t. $A^\circ \cup B^\circ =X$, there exists a LES: $$\dots\to H^n(X;G)\to H^n(A;G)\oplus H^n(B;G)\to H^n(A\cap B;G)\to H^{n+1}(X;G)\to \cdots $$
+
+^081c9f
+
+> [!proof]+
+> We have that:
+> 1. If $f\simeq g$, then $f_{c}$ and $g_{c}$ are chain homotopic, i.e. $f_{c}\sim g_{c}$. In other words, $f^c\sim g^c$, i.e. $f^c$ and $g^c$ are cochain homotopic. Hence, $f^{*}=g^{*}$.
+> 2. Let $i_{*}:H_{n}(X \backslash Z, A \backslash Z)\to H_{n}(X, A)$ be the map in homology, which is an isomorphism from [[Singular Homology|Theorem 3]]. Hence, by UCT: $$\begin{CD} 0 @>>>\text{Ext}(H_{n-1}(X \backslash Z, A\backslash Z),G)@>>> H^n(X \backslash Z, A\backslash Z;G)@>>> \text{Hom}(H_{n}(X \backslash Z, A \backslash Z),G)@>>>  0\\ & @A(i_{*})^\text{ext}A\cong A@Ai^{*}AA@A(i_{*})^{*}A\cong A\\  0 @>>>\text{Ext}(H_{n-1}(X , A),G)@>>> H^n(X , A;G)@>>> \text{Hom}(H_{n}(X , A ),G)@>>>  0\end{CD}$$and by 5-Lemma we have the statement.
+> 3. Let $S^{A,B}_{n}(X)\subseteq S_{n}(X)$ be the group of chains that are linear combinations of chains in $S_{n}(A)$ and $S_{n}(B)$. Then, $S_{n}^{A,B}(X)$ is free abelian and: $$0\to S_{n}(A\cap B)\to S_{n}(A)\oplus S_{n}(B)\to S_{n}^{A,B}(X) \to 0$$from [[]]
+
+^c2872e
+
 ---
 ##### Examples
 > [!h] Example 1
