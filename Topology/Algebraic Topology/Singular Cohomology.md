@@ -53,8 +53,16 @@
 > [!lemma] Proposition 3
 > Let $X$ be a topological space and $A\subseteq X$. 
 > 1. $0\to S^k(X,A;G)\to S^k(X;G)\to S^k(A;G)\to 0$ is a split SES.
-> 2. for the LES: $$\cdots \to H^{n-1}(A;G)\overset{ \delta ^{*} }{ \to }H^n(X,A;G)\to H^n(X;G)\to H^n(A;G)\to H^n(X,A;G)\to \cdots$$
-> 3. $0\to S_{k}(A)\to S_{k}(X)\to S_{k}(X,A)\to 0$ is a split SES.
+> 2. for the LES: $$\cdots \to H^{n-1}(A;G)\overset{ \delta ^{*} }{ \to }H^n(X,A;G)\to H^n(X;G)\to H^n(A;G)\overset{ \delta ^{*} }{ \to  }H^{n+1}(X,A;G)\to \cdots$$We have that: $$\begin{CD}0 @>>>\text{Ext}(H_{n-1}(A),G) @>>> H^n(A;G)@>h>>\text{Hom}(H_{n}(A),G) @>>> 0\\ & @VVV& @V\delta ^{*}VV& @V(\partial_{*})^{*}VV\\ 0 @>>>\text{Ext}(H_{n}(X,A),G) @>>> H^{n+1}(X,A;G)@>>h>\text{Hom}(H_{n+1}(X,A),G) @>>> 0\end{CD}$$commutes where $\partial_{*}:H_{n+1}(X,A)\to H_{n}(A)$.
+
+> [!proof]+
+> We have that:
+> 1. Given as $S^k(X,A)$ is free abelian, $$0\to S_{k}(A)\to S_{k}(X)\to S_{k}(X,A)\to 0$$is a split SES and so is its dual.
+> 2. The LES is given by the SES from 1. Then, let $[\varphi]\in H^n(A;G)$ where $\varphi: S_{n}(A)\to G$. Then, $$((\partial_{*})^{*} \circ h)([\varphi])=(\partial_{*})^{*}(\overline{\varphi})=\overline{\varphi} \circ  \partial_{*}$$where for $[\psi]\in H_{n+1}(X,A)$ with $\psi\in S_{n+1}(X,A)$ with $\partial \psi=0$. Then, it holds by definition that there exists $\psi'\in S_{n+1}(X)$ and $\phi\in S_{n}(A)$ s.t. $\phi=\partial \psi'$ and $q(\psi')=\psi$ s.t. $$\partial_{*}([\psi])=[\phi]$$We get that $((\partial_{*})^{*} \circ h)([\varphi])[\psi]=\overline{\varphi}([\phi])=\varphi(\phi)$.
+>    
+>    Let $\Phi:S^n(X;G)$. Then, $\delta ^{*}([\Phi|_{S_{n}(A)}])=[\Psi]$ for $\Psi\in S^{n+1}(X,A;G)$ where $\Psi \circ q=\Phi \circ \partial$
+>    
+>    Similarly, for $\delta ^{*}([\varphi])$, 
 ---
 ##### Examples
 > [!h] Example 1
