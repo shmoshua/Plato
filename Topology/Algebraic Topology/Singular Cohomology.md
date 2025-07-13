@@ -58,11 +58,9 @@
 > [!proof]+
 > We have that:
 > 1. Given as $S^k(X,A)$ is free abelian, $$0\to S_{k}(A)\to S_{k}(X)\to S_{k}(X,A)\to 0$$is a split SES and so is its dual.
-> 2. The LES is given by the SES from 1. Then, let $[\varphi]\in H^n(A;G)$ where $\varphi: S_{n}(A)\to G$. Then, $$((\partial_{*})^{*} \circ h)([\varphi])=(\partial_{*})^{*}(\overline{\varphi})=\overline{\varphi} \circ  \partial_{*}$$where for $[\psi]\in H_{n+1}(X,A)$ with $\psi\in S_{n+1}(X,A)$ with $\partial \psi=0$. Then, it holds by definition that there exists $\psi'\in S_{n+1}(X)$ and $\phi\in S_{n}(A)$ s.t. $\phi=\partial \psi'$ and $q(\psi')=\psi$ s.t. $$\partial_{*}([\psi])=[\phi]$$We get that $((\partial_{*})^{*} \circ h)([\varphi])[\psi]=\overline{\varphi}([\phi])=\varphi(\phi)$.
+> 2. The LES is given by the SES from 1. 
 >    
->    Let $\Phi:S^n(X;G)$. Then, $\delta ^{*}([\Phi|_{S_{n}(A)}])=[\Psi]$ for $\Psi\in S^{n+1}(X,A;G)$ where $\Psi \circ q=\Phi \circ \partial$
->    
->    Similarly, for $\delta ^{*}([\varphi])$, 
+>    Let $\Phi:S^n(X;G)$. Then, $\delta ^{*}([\Phi|_{S_{n}(A)}])=[\Psi]$ for $\Psi\in S^{n+1}(X,A;G)$ where $\Psi \circ q=\Phi \circ \partial$ with $q:S_{n+1}(X)\to S_{n+1}(X,A)$. Therefore, $$(h \circ \delta ^{*})([\Phi|_{S_{n}(A)}])=h[\Psi]=\overline{\Psi}$$Similarly, $h([\Phi|_{S_{n}(A)}])=\overline{\Phi|_{Z_{n}(A)}}$ and for $[c]\in H_{n+1}(X,A)$, there exists $b\in S_{n+1}(X)$ and $a\in S_{n}(A)$ s.t. $a=\partial b$ and $q(b)=c$. $$\overline{\Phi|_{Z_{n}(A)}} \circ \partial_{*}([c])=\overline{\Phi|_{Z_{n}(A)}} ([a])=\Phi(a)=\Phi \circ  \partial(b)=\Psi \circ  q(b)=\Psi(c)=\overline{\Psi}([c])$$This proves the statement.
 ---
 ##### Examples
 > [!h] Example 1
