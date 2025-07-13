@@ -307,3 +307,8 @@
 ![[Reduced Cohomology#^14f563|p]]
 
 ---
+![[Reduced Cohomology#^e4d557]]
+![[Reduced Cohomology#^67aed1|p]]
+
+---
+##### 2.4.2 Relative Cohomology

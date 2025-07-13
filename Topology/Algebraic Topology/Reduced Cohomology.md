@@ -27,8 +27,16 @@
 > For the augmented chain complex $\mathcal{C}$:
 > 1. $Z^0(\mathcal{C})$ are locally constant functions $X\to G$.
 > 2. $B^0(\mathcal{C})$ are globally constant functions $X\to G$.
-> 3. $\tilde{H}^0(X;G)=$ locally constant functions modded by globally constant fucntions.
+> 3. $\tilde{H}^0(X;G)=$ locally constant functions modded by globally constant functions.
 
-> [!proof]+
+^e4d557
+
+> [!proof]-
 > We have:
-> 1.  For 
+> 1.  For $f\in \text{Hom}(S_{0}(X),G)$, we have that $f:S_{0}(X)\to G$ and $$f\circ \partial(e_{0}e_{1})=f(e_{1}-e_{0})=f(e_{1})-f(e_{0})$$Hence, if $\delta(f)=0$, then $f(e_{0})=f(e_{1})$ for all paths $e_{0}e_{1}$ in $X$. This shows the statement.
+> 2. As $\text{Hom}(\mathbb{Z} , G)\cong G$, we have that $f\in \text{Hom}(\mathbb{Z}, G)$ is identified with where $1$ is sent. Therefore, $B^0(\mathcal{C})\cong G$.
+> 3. Obvious.
+
+^67aed1
+
+---

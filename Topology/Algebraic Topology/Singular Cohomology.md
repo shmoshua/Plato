@@ -50,7 +50,11 @@
 
 - **Remark**: Recall that $H_{0}(X;G)\cong \bigoplus_{c\in \pi_{0}(X)}G$. Hence, if $\pi_{0}(X)$ is finite $H_{0}(X;G)\cong H^0(X;G)$. However, if $\pi_{0}(X)$ is infinite, then $H^0(X;G)$ is a lot bigger than $H_{0}(X;G)$.  ^24d876
 ---
-
+> [!lemma] Proposition 3
+> Let $X$ be a topological space and $A\subseteq X$. 
+> 1. $0\to S^k(X,A;G)\to S^k(X;G)\to S^k(A;G)\to 0$ is a split SES.
+> 2. for the LES: $$\cdots \to H^{n-1}(A;G)\overset{ \delta ^{*} }{ \to }H^n(X,A;G)\to H^n(X;G)\to H^n(A;G)\to H^n(X,A;G)\to \cdots$$
+> 3. $0\to S_{k}(A)\to S_{k}(X)\to S_{k}(X,A)\to 0$ is a split SES.
 ---
 ##### Examples
 > [!h] Example 1
