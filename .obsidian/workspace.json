@@ -9,34 +9,6 @@
         "dimension": 48.71645274212369,
         "children": [
           {
-            "id": "92dc71f35726a4ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Ext.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Ext"
-            }
-          },
-          {
-            "id": "96d42dd66a1d6fa2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Tor.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Tor"
-            }
-          },
-          {
             "id": "5f1044ef9be1a1a4",
             "type": "leaf",
             "state": {
@@ -79,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -134,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+                "file": "Topology/Algebraic Topology/Reduced Homology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology I Roadmap"
+              "title": "Reduced Homology"
             }
           },
           {
@@ -358,15 +330,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d3b6f724862c12ee",
+  "active": "b7632f7e804e15f9",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Reduced Homology.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Reduced Cohomology.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Reduced Homology.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Algebra/Group Extension.md",
     "Topology/Algebraic Topology/Ext.md",
     "Algebra/Tensor Product.md",

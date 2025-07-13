@@ -299,3 +299,11 @@
 > 1. for a field $F$, $H^k(X;F)\cong \text{Hom}_{F}(H_{k}(X;F),F)$
 ---
 ##### 2.4.1 Reduced Cohomology
+![[Reduced Cohomology#^f8d920]]
+
+---
+
+![[Reduced Cohomology#^d4c5e7]]
+![[Reduced Cohomology#^14f563|p]]
+
+---
