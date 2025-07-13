@@ -289,3 +289,13 @@
 ![[Ext#^53132c|p]]
 
 ---
+#### 2.4 Properties of Singular Cohomology
+![[Singular Cohomology#^c2af52]]
+![[Singular Cohomology#^347df6|p]]
+
+---
+> [!lemma] Proposition 
+> Let $X$ be a topological space. 
+> 1. for a field $F$, $H^k(X;F)\cong \text{Hom}_{F}(H_{k}(X;F),F)$
+---
+##### 2.4.1 Reduced Cohomology

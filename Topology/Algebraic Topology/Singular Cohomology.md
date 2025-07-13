@@ -29,20 +29,27 @@
 ^76f5e7
 
 ---
-> [!lemma] Proposition 2 (Zeroth Cohomology)
+> [!lemma] Proposition 2 (Zeroth and First Cohomology)
 > We have that:
 > 1. $H^0(X;G)\cong \prod_{c\in \pi_{0}(X)}^{}G$ where $\pi_{0}(X)$ is the set of path-connected components of $X$
+> 2. $H^1(X;G)\cong \text{Hom}(H_{1}(X),G)$. 
+> 3. If $X$ is path connected, then $H^1(X;G)\cong \text{Hom}(\pi_{1}(X),G)$
 
 ^c2af52
 
 > [!proof]-
 >  Firstly, notice that $\varphi\in S^0(X;G)\cong G^X$. Now, let $\sigma:[e_{0},e_{1}]\to X$ be a singular $1$-simplex. Then, $$\braket{ \delta\varphi , \sigma } =\braket{ \varphi ,  \partial \sigma}=\varphi(\sigma(e_{1}))-\varphi(\sigma(e_{0})) $$Now if $\varphi$ is a cocycle, then $\delta\varphi=0$ and $\varphi(\sigma(e_{1}))=\varphi(\sigma(e_{0}))$ for all $\sigma:[e_{0},e_{1}]\to X$. Hence for all $c\in \pi_{0}(X)$, $\varphi|_{c}$ is constant. The converse is also trivially true and this shows that $H^0(X;G)\cong \prod_{c\in \pi_{0}(X)}^{}G$. 
 
+> [!proof]- Proof using UCT
+> By [[Ext|UCT]]:
+> 1.  we have the split SES: $$0 \to \text{Ext}(\underbrace{ H_{-1}(X) }_{ =0 },G) \to H^0(X;G)\to \text{Hom}(H_{0}(X),G) \to 0$$Hence, $\text{Ext}(H_{-1}(X) ,G) =0$ and $H^0(X;G)\cong \text{Hom}(H_{0}(X),G)$. However, as $H_{0}(X)\cong \bigoplus_{c\in \pi_{0}(X)}\mathbb{Z}$, we have the desired claim.
+> 2. we have the split SES: $$0\to \text{Ext}(H_{0}(X),G)\to H^1(X;G)\to \text{Hom}(H_{1}(X),G)\to 0$$As $H_{0}(X)$ is free abelian, $\text{Ext}(H_{0}(X),G)=0$. Hnece, $$H^1(X;G)\cong \text{Hom}(H_{1}(X),G)$$
+> 3. if $X$ is path connected, by [[p-Simplex|Hurewicz]] $H_{1}(X)\cong \pi_{1}(X)^\text{ab}$. However, as $G$ is abelian as well, $$H^1(X;G)\cong \text{Hom}(\pi_{1}(X)^{\text{ab}},G)\cong \text{Hom}(\pi_{1}(X),G)$$
+
 ^347df6
 
 - **Remark**: Recall that $H_{0}(X;G)\cong \bigoplus_{c\in \pi_{0}(X)}G$. Hence, if $\pi_{0}(X)$ is finite $H_{0}(X;G)\cong H^0(X;G)$. However, if $\pi_{0}(X)$ is infinite, then $H^0(X;G)$ is a lot bigger than $H_{0}(X;G)$.  ^24d876
 ---
-
 
 ---
 ##### Examples
