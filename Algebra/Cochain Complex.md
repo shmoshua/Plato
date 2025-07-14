@@ -153,9 +153,11 @@
 > Let $(\mathcal{A},\partial_{A}),(\mathcal{B},\partial_{B})$ be chain complexes. 
 > $$\text{Hom}(\mathcal{A},\mathcal{B})^p:=\prod_{i\in \mathbb{Z}}\text{Hom}(A_{i},B_{i-p})$$and the differential:$$\tilde{\delta}:\text{Hom}(\mathcal{A},\mathcal{B})^p\to\text{Hom}(\mathcal{A},\mathcal{B})^{p+1},\quad f\mapsto (a\mapsto \partial_{B}\braket{ f , a } +(-1)^{p+1}\braket{ f , \partial_{A}a } )$$
 > 1. $\text{Hom}(\mathcal{A},\mathcal{B})^{*}$ is a cochain complex.
-> 2. For a graded homomorphism $f:\mathcal{A}\to \mathcal{B}$ with $\left| f \right|=0$, $\tilde{\delta}f=0$ if and only if $f$ is a chain map.
+> 2. For a graded homomorphism $f:\mathcal{A}\to \mathcal{B}$ with $\left| f \right|=0$, 
+> 	1. $\tilde{\delta}f=0$ if and only if $f$ is a chain map.
+> 	2. 
 
 > [!proof]+
 > We have that:
-> 1. Notice that: $$\begin{aligned}\braket{ \tilde{\delta}^{2}f , a }&=\partial_{B}\braket{ \tilde{\delta}f , a } +(-1)^{p}\braket{ \tilde{\delta} f , \partial_{A}a }\\&=\partial_{B}^{2}\braket{ f , a } +(-1)^{p+1}\partial_{B}\braket{ f , \partial_{A}a } +(-1)^{p}\partial_{B}\braket{ f , \partial_{A}a } -\braket{  f , \partial_{A}^{2}a }\\&=0\end{aligned}  $$
-> 2. Let $\tilde{\delta}f=0$. Then, $$0=\braket{ \tilde{\delta}f , a } =\partial_{B}\braket{ f , a } -\braket{ f , \partial_{A}a } ,\quad \forall a\in \mathcal{A}$$Therefore, we have $\partial_{B}\circ f=f \circ \partial_{A}$. This proves the statement.
+> 4. Notice that: $$\begin{aligned}\braket{ \tilde{\delta}^{2}f , a }&=\partial_{B}\braket{ \tilde{\delta}f , a } +(-1)^{p}\braket{ \tilde{\delta} f , \partial_{A}a }\\&=\partial_{B}^{2}\braket{ f , a } +(-1)^{p+1}\partial_{B}\braket{ f , \partial_{A}a } +(-1)^{p}\partial_{B}\braket{ f , \partial_{A}a } -\braket{  f , \partial_{A}^{2}a }\\&=0\end{aligned}  $$
+> 5. Let $\tilde{\delta}f=0$. Then, $$0=\braket{ \tilde{\delta}f , a } =\partial_{B}\braket{ f , a } -\braket{ f , \partial_{A}a } ,\quad \forall a\in \mathcal{A}$$Therefore, we have $\partial_{B}\circ f=f \circ \partial_{A}$. This proves the statement.
