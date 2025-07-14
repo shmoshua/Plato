@@ -271,4 +271,13 @@
 
 ---
 > [!lemma] Proposition 7 (Cross Product on Tensor Simplices)
-> Let $X,Y$ be topological spaces. 
+> Let $X,Y$ be topological spaces. Then, the cross product induces a chain map: $$\times:\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\to \mathcal{S}_{*}(X\times Y)$$where $\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$ is the [[Chain Complex|tensor product of chain complexes]] $\mathcal{S}_{*}(X)$ and $\mathcal{S}_{*}(Y)$.
+
+^1d79d3
+
+> [!proof]-
+> As the cross product is bilinear, it induces a bilinear map on: $$\times:S_{p}(X)\otimes S_{q}(Y)\to S_{p+q}(X\times Y)$$Now, to show that it is a chain map, for $a\in S_{p}(X)$ and $b\in S_{q}(Y)$, $$\times(\partial(a\otimes  b))=\times(\partial_{X} a\otimes  b+(-1)^{\left| a \right| }a\otimes  \partial_{Y}b)=\partial_{X}a\times b+(-1)^{p }a\times\partial_{Y}b=\partial(a\times b)$$
+
+^92ad74
+
+- **Corollary**: $\times_{*}:H_{*}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))\to H_{*}(X\times Y)$.
