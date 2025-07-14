@@ -56,15 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Tor.md",
+                "file": "Algebra/Cochain Complex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tor"
+              "title": "Cochain Complex"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -119,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Resolution.md",
+                "file": "Algebra/Cochain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Resolution"
+              "title": "Cochain Complex"
             }
           },
           {
@@ -133,15 +134,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Cochain Complex.md",
+                "file": "Algebra/Exact Sequence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cochain Complex"
+              "title": "Exact Sequence"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -286,15 +288,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "83ca64246e25a9b6",
+  "active": "8b637d72a5b1482d",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Tor.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Algebra/Chain Complex.md",
-    "Topology/Algebraic Topology/Resolution.md",
-    "Algebra/Tensor Product.md",
     "Algebra/Cochain Complex.md",
+    "Topology/Algebraic Topology/Resolution.md",
+    "Algebra/Exact Sequence.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Algebra/Chain Complex.md",
+    "Algebra/Tensor Product.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology/Graded Group.md",
     "Algebra/Module.md",
@@ -313,7 +316,6 @@
     "Topology/Algebraic Topology/Cochain Homotopy.md",
     "Topology/Algebraic Topology/Reduced Cohomology.md",
     "Topology/Algebraic Topology/Ext.md",
-    "Algebra/Free Module.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",

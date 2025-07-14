@@ -118,3 +118,8 @@
 
 - **Remark**: Let $G$ be an abelian group and consider this as a chain complex concentrated at $0$ with zero differential. Then, by Künneth, we get: $$0\to H_{n}(\mathcal{K})\otimes  G\to H_{n}(\mathcal{K}\otimes  G)\to \text{Tor}(H_{n-1}(\mathcal{K}),G)\to 0$$which is the UCT for tensor products. ^471eba
 ---
+> [!lemma] Theorem 5 (Coefficients in Field)
+> Let $\mathcal{K},\mathcal{L}$ be two chain complexes of $F$-vector spaces for a field $F$. Then, $$\bigoplus _{p+q=n}H_{p}(\mathcal{K})\otimes H_{q}(\mathcal{L})\cong H_{n}(\mathcal{K}\otimes _{F}\mathcal{L})$$
+
+> [!proof]+
+> Consider the SES $0\to Z_{n}\to K_{n}\to B_{n-1}\to 0$. As all vector spaces are free, we have that this splits and: $$0\to \mathcal{Z}\otimes _{F}\mathcal{L}\overset{ j\otimes  \text{id} }{ \to  }\mathcal{K}\otimes_{F}  \mathcal{L}\overset{ \partial \otimes  \text{id} }{ \to } \mathcal{B}[-1]\otimes_{F}  \mathcal{L}\to 0$$Then, similar to the proof of Künneth, in homology we have the LES $$\dots\to \bigoplus _{p+q=n}Z_{p}\otimes_{F}H_{q}(\mathcal{L})\to H_{n}(\mathcal{K}\otimes _{F}\mathcal{L})\to \bigoplus _{p+q=n-1}B_{p}\otimes  H_{q}(\mathcal{L})\overset{ i\otimes \text{id} }{ \to } \bigoplus _{p+q=n-1}Z_{p}\otimes  H_{q}(\mathcal{L})\to \cdots$$where $i:B_{p}\to Z_{p}$. Then, we claim that $i\otimes \text{id}$ is injective. This is because $H_{q}(\mathcal{L})$ is a vector space, hence free. Therefore, we have the SES:$$0\to \bigoplus _{p+q=n}H_{p}(\mathcal{K})\otimes H_{q}(\mathcal{L})\to H_{n}(\mathcal{K}\otimes  _{F}\mathcal{L})\to 0$$
