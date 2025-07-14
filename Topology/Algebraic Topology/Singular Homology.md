@@ -284,6 +284,42 @@
 - **Remark**: Using the relative cross product, we also have $$\times:H_{p}(X,A)\otimes H_{q}(Y,B)\to H_{p+q}(X\times Y, X\times B \cup A\times Y)$$ ^33d779
 
 ---
+> [!lemma] Lemma 8 
+> Let $X,Y$ be [[Contractible Space|contractible]] and $x_{0}\in X$, $y_{0}\in Y$. Then,
+> 1. there exists a [[chain homotopy]] $$E:\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\to (\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))[1]$$ between $\varepsilon_{x_{0}}\otimes \varepsilon_{y_{0}}$ and $\text{id}\otimes \text{id}$.
+> 2. $H_{n}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))=0$ for all $n\geq 1$.
+
+> [!proof]-
+> Recall that from the proof of Theorem 2, for any contractible space $X$ and $x_{0}\in X$, there exists a chain map: $\varepsilon_{x_{0}}:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)$ with $\varepsilon_{x_{0}}\equiv 0$ in degree $i>0$ and:$$\varepsilon_{x_{0}}:\mathcal{S}_{0}(X)\to \mathcal{S}_{0}(X),\quad \sum_{x\in X}n_{x}x\mapsto \left( \sum_{x\in X}^{}n_{x} \right)x_{0}$$    and a chain homotopy $D:=D_{X,x_{0}}:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)[1]$ s.t. $D\partial+\partial D=\text{id}-\varepsilon_{x_{0}}$.
+> 1.  Let $D_{X}:=D_{X,x_{0}}$ and $D_{Y}:= D_{Y,y_{0}}$ from above. Then, for $E:=D_{X}\otimes \text{id}+\varepsilon_{x_{0}}\otimes D_{Y}$ we have that: $$\begin{aligned}E \circ  \partial+\partial \circ  E&=(D_{X}\otimes  \text{id}+\varepsilon_{x_{0}}\otimes  D_{Y})\circ  (\partial \otimes  \text{id}+\text{id}\otimes  \partial)\\&\quad\quad\quad\quad+ (\partial \otimes  \text{id}+\text{id}\otimes  \partial) \circ (D_{X}\otimes  \text{id}+\varepsilon_{x_{0}}\otimes  D_{Y})\\&= (D_{X}\circ  \partial)\otimes  \text{id}+D_{X}\otimes \partial-(\varepsilon_{x_{0}}\circ  \partial)\otimes  D_{Y}+ \varepsilon_{x_{0}}\otimes  (D_{Y}\circ  \partial)\\&\quad\quad\quad\quad+(\partial \circ  D_{X})\otimes  \text{id}+(\partial \circ  \varepsilon_{x_{0}})\otimes  D_{Y}-D_{X}\otimes \partial+\varepsilon_{x_{0}}\otimes(\partial \circ  D_{Y})\\&=\text{id}\otimes  \text{id}-\varepsilon_{x_{0}}\otimes  \text{id}+\underbrace{ (\partial \circ  \varepsilon_{x_{0}}-\varepsilon_{x_{0}}\circ  \partial) }_{ =0 }\otimes  D_{Y}+ \varepsilon_{x_{0}}\otimes  \text{id}-\varepsilon_{x_{0}}\otimes  \varepsilon_{y_{0}}\\&=\text{id}\otimes \text{id}-\varepsilon_{x_{0}}\otimes  \varepsilon_{y_{0}}\end{aligned}$$
+> 2. From 1, $(\varepsilon_{x_{0}}\otimes \varepsilon_{y_{0}})_{*}=\text{id}_{H_{n}(\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y))}$. However, as $(\varepsilon_{x_{0}}\otimes \varepsilon_{y_{0}})_{*}=0$ for $n\geq 1$, we have the statement.
+
+---
+> [!lemma] Theorem 9 (Existence of Chain Homotopy with S(XxY) and S(X) tensor S(Y))
+> Let $\phi,\psi$ be two chain maps defined on all topological spaces  $X,Y$ s.t. 
+> 1. $\phi,\psi:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X\times Y)$ or 
+> 2. $\phi,\psi:\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\to \mathcal{S}_{*}(X\times Y)$ or 
+> 3. $\phi,\psi:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$ or 
+> 4. $\phi,\psi:\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\to \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$
+> 
+> s.t. it holds that: 
+> 
+> 1. in degree $0$, both maps are the canonical maps.
+> 2. $\phi,\psi$ are natural w.r.t $f:X\to X'$ and $g:Y\to Y'$. 
+> 
+> Then, there exists a [[chain homotopy]] $D_{X,Y}$ between $\phi$ and $\psi$ that is natural w.r.t $f:X\to X'$ and $g:Y\to Y'$.
+
+> [!proof]+
+> We show the case $\phi,\psi:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$. The other cases are analogous. We need to find: $$D:\mathcal{S}_{*}(X\times Y)\to (\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))[1]$$s.t. $D\partial + \partial D = \phi-\psi$.
+> 
+> We achieve this via induction over $n$. 
+> 1. If $n=0$, let $D:= 0$. As $\phi \equiv \psi$ for degree 0, this holds.
+> 2. If $n\geq 1$, assume that $D$ has already been defined for all $0\leq k< n$ for all spaces $X,Y$ satisfying the naturality and $D\partial +\partial D=\phi-\psi$. 
+>    
+>    We claim that $(\phi-\psi-D\partial)(d_{n})\in(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))_{n}$ is a cycle. Indeed, $$\begin{aligned}\partial(\phi-\psi-D\partial)(d_{n})&=\partial \phi d_{n}-\partial \psi d_{n}-\partial D\partial (d_{n})\\&= \phi\partial d_{n}-\psi \partial d_{n}+D\partial^{2} (d_{n})+\psi \partial d_{n}-\phi \partial d_{n}\\&=D\partial^{2}(d_{n})=0\end{aligned}$$As $H_{n}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))=0$, we have that there exists $a_{n}\in \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$ 
+
+
+---
 > [!lemma] Theorem 8 (Eilenberg-Zilberg)
 > Consider the following. 
 > 1. there exist a chain map $\Theta:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y)$ for any topological spaces $X,Y$ s.t.
@@ -294,16 +330,16 @@
 
 ^254457
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. Recall that from the proof of Theorem 2, for any contractible space $X$ and $x_{0}\in X$, there exists a chain map: $\varepsilon_{x_{0}}:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)$ with $\varepsilon_{x_{0}}\equiv 0$ in degree $i>0$ and:$$\varepsilon_{x_{0}}:\mathcal{S}_{0}(X)\to \mathcal{S}_{0}(X),\quad \sum_{x\in X}n_{x}x\mapsto \left( \sum_{x\in X}^{}n_{x} \right)x_{0}$$    and a chain homotopy $D:=D_{X,x_{0}}:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)[1]$ s.t. $D\partial+\partial D=\text{id}-\varepsilon_{x_{0}}$.
+> 1. 
 >    
 >    Now, we first show the following lemma: 
 > 	1. **Lemma 1**: For contractible $X,Y$ and $x_{0}\in X$, $y_{0}\in Y$, there exists a chain homotopy $$E:\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y)\to (\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y))[1]$$between $\varepsilon_{x_{0}}\otimes \varepsilon_{y_{0}}$ and $\text{id}\otimes \text{id}=\text{id}_{\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)}$.
 > 	   
-> 	   Let $D_{X}:=D_{X,x_{0}}$ and $D_{Y}:= D_{Y,y_{0}}$ from above. Then, for $E:=D_{X}\otimes \text{id}+\varepsilon_{x_{0}}\otimes D_{Y}$ we have that: $$\begin{aligned}E \circ  \partial+\partial \circ  E&=(D_{X}\otimes  \text{id}+\varepsilon_{x_{0}}\otimes  D_{Y})\circ  (\partial \otimes  \text{id}+\text{id}\otimes  \partial)\\&\quad\quad\quad\quad+ (\partial \otimes  \text{id}+\text{id}\otimes  \partial) \circ (D_{X}\otimes  \text{id}+\varepsilon_{x_{0}}\otimes  D_{Y})\\&= (D_{X}\circ  \partial)\otimes  \text{id}+D_{X}\otimes \partial-(\varepsilon_{x_{0}}\circ  \partial)\otimes  D_{Y}+ \varepsilon_{x_{0}}\otimes  (D_{Y}\circ  \partial)\\&\quad\quad\quad\quad+(\partial \circ  D_{X})\otimes  \text{id}+(\partial \circ  \varepsilon_{x_{0}})\otimes  D_{Y}-D_{X}\otimes \partial+\varepsilon_{x_{0}}\otimes(\partial \circ  D_{Y})\\&=\text{id}\otimes  \text{id}-\varepsilon_{x_{0}}\otimes  \text{id}+\underbrace{ (\partial \circ  \varepsilon_{x_{0}}-\varepsilon_{x_{0}}\circ  \partial) }_{ =0 }\otimes  D_{Y}+ \varepsilon_{x_{0}}\otimes  \text{id}-\varepsilon_{x_{0}}\otimes  \varepsilon_{y_{0}}\\&=\text{id}\otimes \text{id}-\varepsilon_{x_{0}}\otimes  \varepsilon_{y_{0}}\end{aligned}$$
+> 	   
 > 	2. **Lemma 2**: For contractible $X,Y$ and $x_{0}\in X$, $y_{0}\in Y$, $$H_{n}(\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y))=0,\quad \forall n\geq 1$$
-> 		   From Lemma 1, $(\varepsilon_{x_{0}}\otimes \varepsilon_{y_{0}})_{*}=\text{id}_{H_{n}(\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y))}$. However, as $(\varepsilon_{x_{0}}\otimes \varepsilon_{y_{0}})_{*}=0$ for $n\geq 1$, we have the statement.
+> 		   
 > 	
 >    We then prove the theorem with induction. 
 >    
