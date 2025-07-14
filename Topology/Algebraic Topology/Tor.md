@@ -95,3 +95,10 @@
 ^fdb79b
 
 ---
+> [!lemma] Theorem 4 (Künneth Formula)
+> Let $\mathcal{K},\mathcal{L}$ be two chain complexes of free abelian groups. 
+> 1. there exists a split SES: $$0\to \bigoplus _{p+q=n}H_{p}(\mathcal{K})\otimes H_{q}(\mathcal{L})\overset{ h }{ \to }H_{n}(\mathcal{K}\otimes  \mathcal{L})\to \bigoplus _{p+q=n-1}\text{Tor}(H_{p}(\mathcal{K}),H_{q}(\mathcal{L}))\to 0$$where $h([k]\otimes[\ell])=[k\otimes \ell]$. 
+> 2. the SES is natural w.r.t. chain maps $f:\mathcal{K}\to \mathcal{K}'$ and $g:\mathcal{L}\to \mathcal{L}'$.
+
+> [!proof]+
+> From Proposition 1, we have the SES: $$0\to \mathcal{Z}\to$$

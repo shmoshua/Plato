@@ -289,10 +289,14 @@
 > 1. there exists a [[chain homotopy]] $$E:\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\to (\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))[1]$$ between $\varepsilon_{x_{0}}\otimes \varepsilon_{y_{0}}$ and $\text{id}\otimes \text{id}$.
 > 2. $H_{n}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))=0$ for all $n\geq 1$.
 
+^a05561
+
 > [!proof]-
 > Recall that from the proof of Theorem 2, for any contractible space $X$ and $x_{0}\in X$, there exists a chain map: $\varepsilon_{x_{0}}:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)$ with $\varepsilon_{x_{0}}\equiv 0$ in degree $i>0$ and:$$\varepsilon_{x_{0}}:\mathcal{S}_{0}(X)\to \mathcal{S}_{0}(X),\quad \sum_{x\in X}n_{x}x\mapsto \left( \sum_{x\in X}^{}n_{x} \right)x_{0}$$    and a chain homotopy $D:=D_{X,x_{0}}:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)[1]$ s.t. $D\partial+\partial D=\text{id}-\varepsilon_{x_{0}}$.
 > 1.  Let $D_{X}:=D_{X,x_{0}}$ and $D_{Y}:= D_{Y,y_{0}}$ from above. Then, for $E:=D_{X}\otimes \text{id}+\varepsilon_{x_{0}}\otimes D_{Y}$ we have that: $$\begin{aligned}E \circ  \partial+\partial \circ  E&=(D_{X}\otimes  \text{id}+\varepsilon_{x_{0}}\otimes  D_{Y})\circ  (\partial \otimes  \text{id}+\text{id}\otimes  \partial)\\&\quad\quad\quad\quad+ (\partial \otimes  \text{id}+\text{id}\otimes  \partial) \circ (D_{X}\otimes  \text{id}+\varepsilon_{x_{0}}\otimes  D_{Y})\\&= (D_{X}\circ  \partial)\otimes  \text{id}+D_{X}\otimes \partial-(\varepsilon_{x_{0}}\circ  \partial)\otimes  D_{Y}+ \varepsilon_{x_{0}}\otimes  (D_{Y}\circ  \partial)\\&\quad\quad\quad\quad+(\partial \circ  D_{X})\otimes  \text{id}+(\partial \circ  \varepsilon_{x_{0}})\otimes  D_{Y}-D_{X}\otimes \partial+\varepsilon_{x_{0}}\otimes(\partial \circ  D_{Y})\\&=\text{id}\otimes  \text{id}-\varepsilon_{x_{0}}\otimes  \text{id}+\underbrace{ (\partial \circ  \varepsilon_{x_{0}}-\varepsilon_{x_{0}}\circ  \partial) }_{ =0 }\otimes  D_{Y}+ \varepsilon_{x_{0}}\otimes  \text{id}-\varepsilon_{x_{0}}\otimes  \varepsilon_{y_{0}}\\&=\text{id}\otimes \text{id}-\varepsilon_{x_{0}}\otimes  \varepsilon_{y_{0}}\end{aligned}$$
 > 2. From 1, $(\varepsilon_{x_{0}}\otimes \varepsilon_{y_{0}})_{*}=\text{id}_{H_{n}(\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y))}$. However, as $(\varepsilon_{x_{0}}\otimes \varepsilon_{y_{0}})_{*}=0$ for $n\geq 1$, we have the statement.
+
+^d63fbb
 
 ---
 > [!lemma] Theorem 9 (Existence of Chain Homotopy with S(XxY) and S(X) tensor S(Y))
@@ -308,6 +312,8 @@
 > 2. $\phi,\psi$ are natural w.r.t $f:X\to X'$ and $g:Y\to Y'$. 
 > 
 > Then, there exists a [[chain homotopy]] $D_{X,Y}$ between $\phi$ and $\psi$ that is natural w.r.t $f:X\to X'$ and $g:Y\to Y'$.
+
+^2d541a
 
 > [!proof]-
 > We show the case $\phi,\psi:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$. The other cases are analogous. We need to find: $$D:\mathcal{S}_{*}(X\times Y)\to (\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))[1]$$s.t. $D\partial + \partial D = \phi-\psi$.
@@ -329,6 +335,8 @@
 >  This proves the claim.
 > 	   
 
+^11e18d
+
 
 ---
 > [!lemma] Theorem 10 (Eilenberg-Zilberg)
@@ -342,7 +350,7 @@
 
 ^254457
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. We prove this via induction over $n$.
 >    
@@ -364,4 +372,11 @@
 >       Let $\sigma\in S_{n}(X\times Y)$. Then, $$\begin{aligned} \partial\Theta(\sigma)&=\partial((\pi_{X}\circ \sigma)_{c}\otimes (\pi_{Y} \circ  \sigma)_{c})(\Theta(d_{n}))\\&=((\pi_{X}\circ \sigma)_{c}\otimes (\pi_{Y} \circ  \sigma)_{c})(\partial\Theta(d_{n}))\\&=((\pi_{X}\circ \sigma)_{c}\otimes (\pi_{Y} \circ  \sigma)_{c})(\Theta(\partial d_{n}))\\&=\Theta((\pi_{X}\circ \sigma)\times (\pi_{Y} \circ  \sigma))_{c}(\partial d_{n})\\&=\Theta\partial((\pi_{X}\circ \sigma)\times (\pi_{Y} \circ  \sigma))_{c}( d_{n})\\&=\Theta\partial(\sigma)\end{aligned}$$
 >  2. Follows from Theorem 9.
 >  3. Follows from Theorem 9 with $\Theta \circ \times:\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\to \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$ being canonical at degree $0$ and natural w.r.t. $f:X\to X'$ and $g:Y\to Y'$. Similarly with $\times \circ \Theta$.
->  4. Chain homotopy equivalence induces isomorphisms in homology.
+>  4. [[Chain Homotopy|Chain homotopy equivalence induces isomorphisms in homology]].
+
+^352d23
+
+- **Corollary**: For an abelian group $G$, we have that: ^8b49d3
+	1. $H_{n}(X\times Y;G)\cong H_{n}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\otimes G)$ from Eilenberg-Zilberg and
+	2. $H^n(X\times Y;G)\cong H_{n}(\text{Hom}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y),G))$ as $\Theta$ is a quasi-isomorphism and [[Cochain Complex|quasi-isomorphisms induce isomorphisms in cohomology]].
+---
