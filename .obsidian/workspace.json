@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
+                "file": "Topology/Algebraic Topology/Graded Group.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Cohomology"
+              "title": "Graded Group"
             }
           },
           {
@@ -78,26 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
-                "mode": "preview",
+                "file": "Topology/Algebraic Topology/Graded Group.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Cohomology"
-            }
-          },
-          {
-            "id": "65ecf1bbd97be6ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "Graded Group"
             }
           },
           {
@@ -106,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
+                "file": "Algebra/Chain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Homology"
+              "title": "Chain Complex"
             }
           },
           {
@@ -120,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Cohomology.md",
+                "file": "Algebra/Tensor Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Cohomology"
+              "title": "Tensor Product"
             }
           },
           {
@@ -134,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Algebra/Cochain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "Cochain Complex"
             }
           },
           {
@@ -316,17 +302,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d3b6f724862c12ee",
+  "active": "beb011816bc79289",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
+    "Algebra/Tensor Product.md",
     "Topology/Algebraic Topology/Cellular Cohomology.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Algebra/Cochain Complex.md",
+    "Topology/Algebraic Topology/Graded Group.md",
     "Algebra/Chain Complex.md",
-    "Topology/Algebraic Topology/Reduced Homology.md",
+    "Representation Theory/Graded Algebra.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
+    "Algebra/Cochain Complex.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Algebraic Topology/Reduced Homology.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Cochain Homotopy.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
@@ -334,7 +323,6 @@
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Ext.md",
     "Algebra/Group Extension.md",
-    "Algebra/Tensor Product.md",
     "Topology/Algebraic Topology/Tor.md",
     "Algebra/Free Module.md",
     "Topology/Algebraic Topology/Resolution.md",
@@ -342,8 +330,6 @@
     "Algebra/Exact Sequence.md",
     "Algebra/Split Exact Sequence.md",
     "Algebra/Module.md",
-    "Machine Learning/Matrix Completion.md",
-    "Topology/CW-Complex.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",

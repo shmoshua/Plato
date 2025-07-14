@@ -75,11 +75,11 @@
 
 ^081c9f
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. If $f\simeq g$, then $f_{c}$ and $g_{c}$ are chain homotopic, i.e. $f_{c}\sim g_{c}$. In other words, $f^c\sim g^c$, i.e. $f^c$ and $g^c$ are cochain homotopic. Hence, $f^{*}=g^{*}$.
 > 2. Let $i_{*}:H_{n}(X \backslash Z, A \backslash Z)\to H_{n}(X, A)$ be the map in homology, which is an isomorphism from [[Singular Homology|Theorem 3]]. Hence, by UCT: $$\begin{CD} 0 @>>>\text{Ext}(H_{n-1}(X \backslash Z, A\backslash Z),G)@>>> H^n(X \backslash Z, A\backslash Z;G)@>>> \text{Hom}(H_{n}(X \backslash Z, A \backslash Z),G)@>>>  0\\ & @A(i_{*})^\text{ext}A\cong A@Ai^{*}AA@A(i_{*})^{*}A\cong A\\  0 @>>>\text{Ext}(H_{n-1}(X , A),G)@>>> H^n(X , A;G)@>>> \text{Hom}(H_{n}(X , A ),G)@>>>  0\end{CD}$$and by 5-Lemma we have the statement.
-> 3. Let $S^{A,B}_{n}(X)\subseteq S_{n}(X)$ be the group of chains that are linear combinations of chains in $S_{n}(A)$ and $S_{n}(B)$. Then, $S_{n}^{A,B}(X)$ is free abelian and: $$0\to S_{n}(A\cap B)\to S_{n}(A)\oplus S_{n}(B)\to S_{n}^{A,B}(X) \to 0$$from [[]]
+> 3. Let $S^{A,B}_{n}(X)\subseteq S_{n}(X)$ be the group of chains that are linear combinations of chains in $S_{n}(A)$ and $S_{n}(B)$. Then, $S_{n}^{A,B}(X)$ is free abelian and: $$0\to S_{n}(A\cap B)\to S_{n}(A)\oplus S_{n}(B)\to S_{n}^{A,B}(X) \to 0$$from [[Singular Homology|Mayer-Vietoris]] splits. Hence, we can take the dual and we get: $$0\to S^n_{A,B}(X;G)\overset{ \Psi }{ \to } S^n(A;G)\oplus S^n(B;G)\overset{ \Phi }{ \to } S^n(A\cap B;G)\to 0$$where: $\Psi(h)=(h|_{S_{n}(A)},h|_{S_{n}(B)})$ and $\Phi(f,g)=f|_{S_{n}(A\cap B)}-g|_{S_{n}(A\cap B)}$. Now, therefore, we get the LES: $$\dots \to H^n_{A,B}(X;G)\to H^n(A;G)\oplus H^n(B;G)\to H^n(A\cap B;G)\to H^{n+1}_{A,B}(X;G)\to \cdots$$However, as $i:S^{A,B}_{n}(X)\to S_{n}(X)$ is a quasi isomorphism from [[Singular Homology|Theorem 4]], we have by [[Cochain Complex|Proposition 5]] that $i^{*}:S^n(X)\to S^n_{A,B}(X)$ induces an isomorphism in cohomology. This proves the statement.
 
 ^c2872e
 
