@@ -270,3 +270,5 @@
 	2. $0 \to \mathbb{Z} / p\mathbb{Z} \xrightarrow{\times p}  \mathbb{Z} / p^{2} \mathbb{Z} \to \mathbb{Z} / p\mathbb{Z} \to 0$
 
 ---
+> [!lemma] Proposition 7 (Cross Product on Tensor Simplices)
+> Let $X,Y$ be topological spaces. 

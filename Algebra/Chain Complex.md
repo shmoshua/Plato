@@ -1,7 +1,7 @@
 #Definition #Algebra 
 
 > [!definition]
-> Let $\{ C_{i} \}_{i\in \mathbb{Z}}$ be a [[graded abelian group]], i.e. a sequence of abelian groups. 
+> Let $\{ C_{i} \}_{i\in \mathbb{Z}}$ be a [[Graded Group|graded abelian group]], i.e. a sequence of abelian groups. 
 > 1. A ***chain complex*** is a pair of a graded abelian group $\{ C_{i} \}_{i\in \mathbb{Z}}$ and [[Group Homomorphism|group homomorphisms]] $\{ \partial:C_{i}\to C_{i-1} \}_{i\in \mathbb{Z}}$ s.t. $\partial^{2}=0$. 
 
 ^8f3281
@@ -172,3 +172,16 @@
 - **Remark**: Instead of $c\otimes g\in C_{i}\otimes G$, we will write $gc$. Similarly, $\partial\left( \sum_{i}g_{i}c_{i} \right)=\sum_{i}^{}g_{i}\partial c_{i}$ ^39d0e6
 
 ---
+> [!lemma] Theorem 8 (Tensor Product Chain Complex)
+> Let $\mathcal{A,\mathcal{B}}$ be chain complexes. Then, $$(A\otimes B)_{n}:=\bigoplus _{i+j=n}A_{i}\otimes B_{j},\quad \partial:=\partial_{A}\otimes \text{id}_{B}+\text{id}_{A}\otimes  \partial_{B}$$is a chain complex.
+
+^1dc5ec
+
+> [!proof]-
+> We have that:
+> 1. Let $a\in A_{i+1}$ and $b\in B_{j+1}$. Then, $$\partial(a\otimes  b)=\partial_{A}a\otimes b+(-1)^{\left| a \right|  }a\otimes  \partial_{B}b$$Further, $$\partial^{2}(a\otimes  b)=\underbrace{ \partial_{A}^{2} a }_{ =0 }\otimes  b+(-1)^{\left| \partial_{A}a \right| }\partial_{A}a\otimes \partial_{B}b+(-1)^\left| a \right| \partial_{A}a\otimes \partial_{B}b+(-1)^{\left| a \right|\left| b \right|  }a\otimes  \underbrace{ \partial_{B}^{2}b }_{ =0 }=0 $$This proves the statement.
+
+^f49522
+
+---
+
