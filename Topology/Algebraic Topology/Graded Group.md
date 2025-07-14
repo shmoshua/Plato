@@ -6,6 +6,7 @@
 ^1e4733
 
 - **Related definition**: For graded groups $A$ and $B$ with a homomorphism $f:A_{i}\to B_{i}$, $f$ is ***graded of degree*** $d\in \mathbb{Z}$ if $f(A_{i})\subseteq B_{i+d}$ for all $i$. We write $\left| f \right|:= d$. ^40ff8e
+- **Related definition**: For $d\in \mathbb{Z}$, $\mathcal{A}[d]$ is a graded group with $\mathcal{A}[d]_{i}:=A_{i+d}$.
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Tensor Products of Graded Groups)
@@ -24,3 +25,11 @@
 
 ^ddd5d1
 
+---
+> [!lemma] Proposition 2
+> Let $A\overset{ f }{ \to } A'\overset{ f' }{ \to } A''$ and $B\overset{ g }{ \to } B'\overset{ g' }{ \to } B''$ be graded homomorphisms between graded abelian groups. Then, 
+> 1. $(f'\circ f)\otimes(g' \circ g)=(-1)^{\left| f \right|\left| g' \right|}(f'\otimes g')\circ(f\otimes g)$.
+
+> [!proof]+
+> We have that: 
+> 1. For $a\in A_{i}$ and $b\in B_{j}$, $$(f'\circ f)\otimes(g' \circ g)(a)$$ 

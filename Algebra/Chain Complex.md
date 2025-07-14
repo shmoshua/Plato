@@ -173,13 +173,16 @@
 
 ---
 > [!lemma] Theorem 8 (Tensor Product Chain Complex)
-> Let $\mathcal{A,\mathcal{B}}$ be chain complexes. Then, $$(A\otimes B)_{n}:=\bigoplus _{i+j=n}A_{i}\otimes B_{j},\quad \partial:=\partial_{A}\otimes \text{id}_{B}+\text{id}_{A}\otimes  \partial_{B}$$is a chain complex.
+> Let $\mathcal{A,\mathcal{B}}$ be chain complexes. Then, 
+> 1. the ***tensor product chain complex*** $$(\mathcal{A}\otimes \mathcal{B})_{n}:=\bigoplus _{i+j=n}A_{i}\otimes B_{j},\quad \partial:=\partial_{A}\otimes \text{id}_{B}+\text{id}_{A}\otimes  \partial_{B}$$is a chain complex.
+> 2. for any $p,q\geq 0$ there is a linear map: $$h:H_{p}(\mathcal{A})\otimes H_{q}(\mathcal{B})\to H_{p+q}(\mathcal{A}\otimes \mathcal{B}),\quad [a]\otimes  [b]\mapsto [a\otimes  b]$$
 
 ^1dc5ec
 
 > [!proof]-
 > We have that:
 > 1. Let $a\in A_{i+1}$ and $b\in B_{j+1}$. Then, $$\partial(a\otimes  b)=\partial_{A}a\otimes b+(-1)^{\left| a \right|  }a\otimes  \partial_{B}b$$Further, $$\partial^{2}(a\otimes  b)=\underbrace{ \partial_{A}^{2} a }_{ =0 }\otimes  b+(-1)^{\left| \partial_{A}a \right| }\partial_{A}a\otimes \partial_{B}b+(-1)^\left| a \right| \partial_{A}a\otimes \partial_{B}b+(-1)^{\left| a \right|\left| b \right|  }a\otimes  \underbrace{ \partial_{B}^{2}b }_{ =0 }=0 $$This proves the statement.
+> 2. We construct the map: $$\tilde{h}:H_{p}(\mathcal{A})\times H_{q}(\mathcal{B})\to H_{p+q}(\mathcal{A}\otimes  \mathcal{B}),\quad ([a],[b])\mapsto [a\otimes  b]$$We show that this map is well-defined. Let $a\in Z_{p}(\mathcal{A})$ and $b\in Z_{q}(\mathcal{B})$. Then, $$\partial(a\otimes  b)=\underbrace{ \partial_{A}a }_{ =0 }\otimes  b+(-1)^{p }a\otimes  \underbrace{ \partial_{B}b }_{ =0 }=0$$Hence, $a\otimes b\in Z_{p+q}(\mathcal{A}\otimes \mathcal{B})$. Further, if $a'-a\in B_{p}(\mathcal{A})$ and $b'-b\in B_{q}(\mathcal{B})$, then $a'-a=\partial c$ and $b'-b=\partial d$ and: $$\begin{aligned}a'\otimes b'-a\otimes  b&=(a'-a)\otimes b'+a\otimes  (b'-b)\\&=\partial c\otimes b'+a\otimes  \partial d\\&=\partial(c\otimes  b')+(-1)^{p}\underbrace{ c\otimes \partial_{B}b' }_{ =0 }+(-1)^{\left| a \right| }(\partial(a \otimes  d)-\underbrace{ \partial a\otimes  d }_{ =0 })\\&=\partial(c\otimes  b'+(-1)^{\left| a \right| }a\otimes  d)\end{aligned}$$This shows that the map is well-defined. Further it is clearly bilinear. Hence by the universe property, we have our statement.
 
 ^f49522
 
