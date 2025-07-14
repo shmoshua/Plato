@@ -30,6 +30,10 @@
 > Let $A\overset{ f }{ \to } A'\overset{ f' }{ \to } A''$ and $B\overset{ g }{ \to } B'\overset{ g' }{ \to } B''$ be graded homomorphisms between graded abelian groups. Then, 
 > 1. $(f'\circ f)\otimes(g' \circ g)=(-1)^{\left| f \right|\left| g' \right|}(f'\otimes g')\circ(f\otimes g)$.
 
-> [!proof]+
+^47da0d
+
+> [!proof]-
 > We have that: 
-> 1. For $a\in A_{i}$ and $b\in B_{j}$, $$(f'\circ f)\otimes(g' \circ g)(a)$$ 
+> 1. For $a\in A_{i}$ and $b\in B_{j}$, $$\begin{aligned}(f'\circ f)\otimes(g' \circ g)(a\otimes  b)&=(-1)^{\left| g'\circ  g \right| \left| a \right| }(f'\circ  f)(a)\otimes  (g'\circ  g)(b)\\&=(-1)^{(\left| g' \right|+\left| g \right| ) \left| a \right| }(f'\circ  f)(a)\otimes  (g'\circ  g)(b)\end{aligned}$$ and $$\begin{aligned}(f'\otimes g')\circ(f\otimes g)(a\otimes  b)&=(-1)^{\left| g \right| \left| a \right| }(f'\otimes  g')(f(a)\otimes  g(b))\\&=(-1)^{\left| g \right| \left| a \right|+\left| g' \right| \left| f(a) \right|  }(f'\circ  f)a\otimes  (g'\circ  g)(b)\\&=(-1)^{\left| g \right| \left| a \right|+\left| g' \right| \left| a \right|+\left| g' \right| \left| f \right|   }(f'\circ  f)a\otimes  (g'\circ  g)(b)\end{aligned}$$This proves the statement.
+
+^6b0b32

@@ -64,8 +64,7 @@
               "title": "Graded Group"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -170,8 +169,7 @@
               "title": "Chain Homotopy"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -316,14 +314,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8b637d72a5b1482d",
+  "active": "83ca64246e25a9b6",
   "lastOpenFiles": [
+    "Algebra/Tensor Product.md",
     "Topology/Algebraic Topology/Graded Group.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Reduced Homology.md",
+    "Algebra/Group Extension.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Chain Complex.md",
-    "Algebra/Tensor Product.md",
     "Untitled 1.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Algebra/Cochain Complex.md",
@@ -333,12 +333,10 @@
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Algebraic Topology/Reduced Homology.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Cochain Homotopy.md",
     "Topology/Algebraic Topology/Reduced Cohomology.md",
     "Topology/Algebraic Topology/Ext.md",
-    "Algebra/Group Extension.md",
     "Topology/Algebraic Topology/Tor.md",
     "Algebra/Free Module.md",
     "Topology/Algebraic Topology/Resolution.md",

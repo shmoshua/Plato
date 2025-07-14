@@ -281,10 +281,12 @@
 ^92ad74
 
 - **Corollary**: the cross product induces a map $H_{*}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))\to H_{*}(X\times Y)$. Together with $h:H_{*}(X)\otimes H_{*}(Y)\to H_{*}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))$ from [[Chain Complex|Tensor Product Chain Complex]] we have a map: $$\times:H_{p}(X)\otimes  H_{q}(Y)\to H_{p+q}(X\times Y)$$ ^7574ee
-- **Remark**: Using the relative cross product, we also have $$\times:H_{p}(X,A)\otimes H_{q}(Y,B)\to H_{p+q}(X\times Y, X\times B \cup A\times Y)$$
+- **Remark**: Using the relative cross product, we also have $$\times:H_{p}(X,A)\otimes H_{q}(Y,B)\to H_{p+q}(X\times Y, X\times B \cup A\times Y)$$ ^33d779
 
 ---
 > [!lemma] Theorem 8 (Eilenberg-Zilberg)
 > Let $X,Y$ be topological spaces. 
 > 1. there is a [[Chain Homotopy|chain homotopy equivalence]] between $\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\cong \mathcal{S}_{*}(X\times Y)$
 > 2. $H_{*}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))\cong H_{*}(X\times Y)$.
+
+^254457
