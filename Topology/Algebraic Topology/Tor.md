@@ -95,12 +95,14 @@
 ^fdb79b
 
 ---
-> [!lemma] Theorem 4 (Künneth Formula)
+> [!lemma] Theorem 4 (Algebraic Künneth Formula)
 > Let $\mathcal{K},\mathcal{L}$ be two chain complexes of free abelian groups. 
 > 1. there exists a split SES: $$0\to \bigoplus _{p+q=n}H_{p}(\mathcal{K})\otimes H_{q}(\mathcal{L})\overset{ h }{ \to }H_{n}(\mathcal{K}\otimes  \mathcal{L})\to \bigoplus _{p+q=n-1}\text{Tor}(H_{p}(\mathcal{K}),H_{q}(\mathcal{L}))\to 0$$where $h([k]\otimes[\ell])=[k\otimes \ell]$. 
 > 2. the SES is natural w.r.t. chain maps $f:\mathcal{K}\to \mathcal{K}'$ and $g:\mathcal{L}\to \mathcal{L}'$.
 
-> [!proof]+
+^594630
+
+> [!proof]-
 > From Proposition 1, we have the SES: $$0\to \mathcal{Z}\overset{ j }{ \to }\mathcal{K}\overset{ \partial }{ \to }\mathcal{B}[-1]\to 0$$We have that the following is an SES:$$0\to \mathcal{Z}\otimes  \mathcal{L}\overset{ j\otimes  \text{id} }{ \to } \mathcal{K}\otimes  \mathcal{L}\overset{ \partial \otimes  \text{id} }{ \to } \mathcal{B}[-1]\otimes  \mathcal{L}\to 0$$where $\partial_{\mathcal{Z}\otimes \mathcal{L}}=\text{id}\otimes \partial_{L}$ and $\partial_{\mathcal{B}[-1]\otimes \mathcal{L}}=\text{id}\otimes \partial_{L}$.
 > 
 > Indeed, we have that: $$0\to \bigoplus _{p+q=n}Z_{p}\otimes  L_{q}\to \bigoplus _{p+q=n}K_{p}\otimes  L_{q}\to \bigoplus _{p+q=n-1}B_{p}\otimes  L_{q}\to 0$$which splits as $\bigoplus_{p+q=n-1}B_{p}\otimes L_{q}$ is free. Now, as $\mathcal{Z}\otimes \mathcal{L}=\bigoplus_{p\in \mathbb{Z}}Z_{p}\otimes \mathcal{L}$, we have that: $$H_{n}(\mathcal{Z}\otimes  \mathcal{L})\cong\bigoplus _{p\in \mathbb{Z}}H_{n}(Z_{p}\otimes  \mathcal{L})\cong \bigoplus _{p\in \mathbb{Z}}Z_{p}\otimes  H_{n-p}(\mathcal{L})=\bigoplus _{p+q=n}Z_{p}\otimes  H_{q}(\mathcal{L})$$Similarly, $H_{n}(\mathcal{B}[-1]\otimes \mathcal{L})\cong\bigoplus_{p+q=n}B_{p-1}\otimes H_{q}(\mathcal{L})=\bigoplus_{p+q=n-1}B_{p}\otimes H_{q}(\mathcal{L})$
@@ -108,4 +110,11 @@
 > 
 > We hence get the LES: $$\dots\to \bigoplus _{p+q=n}Z_{p}\otimes  H_{q}(\mathcal{L})\to H_{n}(\mathcal{K}\otimes  \mathcal{L})\to \bigoplus_{p+q=n-1}B_{p}\otimes H_{q}(\mathcal{L})\overset{i_{n-1} }{ \to } \bigoplus _{p+q=n-1}Z_{p}\otimes  H_{q}(\mathcal{L})\to\cdots$$Therefore, we have the SES: $$0\to \text{coker}(i_{n})\to H_{n}(\mathcal{K}\otimes  \mathcal{L})\to \text{ker } i_{n-1}\to 0$$where: $$\text{coker}(i_{n})=\left( \bigoplus _{p+q=n}Z_{p}\otimes  H_{q}(\mathcal{L}) \right) / \left( \bigoplus _{p+q=n}B_{p}\otimes  H_{q}(\mathcal{L}) \right) \cong \bigoplus _{p+q=n}H_{p}(\mathcal{K})\otimes  H_{q}(\mathcal{L}) $$as $0\to B_{p}\overset{ i }{ \to } Z_{p}\overset{ q }{ \to } H_{p}(\mathcal{K})\to 0$ is exact and by [[Tensor Product|right exactness of tensor products]], $$B_{p}\otimes  H_{q}(\mathcal{L})\to Z_{p}\otimes  H_{q}(\mathcal{L})\to H_{p}(\mathcal{K})\otimes  H_{q}(\mathcal{L})\to 0$$is exact. Therefore, by surjectivity, $$H_{p}(\mathcal{K})\otimes  H_{q}(\mathcal{L})\cong \frac{Z_{p }\otimes  H_{q}(\mathcal{L})}{B_{p}\otimes  H_{q}(\mathcal{L})}$$Now, as $0\to B_{p}\to Z_{p}\to H_{p}(\mathcal{K})\to 0$ is a free resolution, $$\text{ker }i_{n-1}\cong \bigoplus _{p+q=n-1}\text{Tor}(H_{p}(\mathcal{K}),H_{q}(\mathcal{L}))$$This gives us the statement.
 > 
-> To show that the SES splits, from $0\to Z_{i}\to K_{i}\to B_{i-1}\to 0$ which splits, we have a left inverse $p:K_{i}\to Z_{i}$ s.t. $p|_{Z_{i}}=\text{id}$. By composing with $Z_{i}\to H_{i}(\mathcal{K})$, we have $\overline{p}:K_{i}\to H_{i}(\mathcal{K})$ s.t. $\overline{p}(z)=[z]$ for all $z\in Z_{i}$. Similarly $\overline{q}:L_{j}\to H_{j}(\mathcal{L})$ which are chain maps considering $H_{i}(\mathcal{K})$ and $H_{j}(\mathcal{L})$ as chain complexes with zero differential. Hence, $$\overline{p}\otimes  \overline{q}:\mathcal{K}\otimes  \mathcal{L}\to $$
+> To show that the SES splits, from $0\to Z_{i}\to K_{i}\to B_{i-1}\to 0$ which splits, we have a left inverse $p:K_{i}\to Z_{i}$ s.t. $p|_{Z_{i}}=\text{id}$. By composing with $Z_{i}\to H_{i}(\mathcal{K})$, we have $\overline{p}:K_{i}\to H_{i}(\mathcal{K})$ s.t. $\overline{p}(z)=[z]$ for all $z\in Z_{i}$. Similarly $\overline{q}:L_{j}\to H_{j}(\mathcal{L})$ which are chain maps considering $H_{i}(\mathcal{K})$ and $H_{j}(\mathcal{L})$ as chain complexes with zero differential. Hence, $$\overline{p}\otimes  \overline{q}:\mathcal{K}\otimes  \mathcal{L}\to \mathcal{H}_{*}(\mathcal{K})\otimes \mathcal{H}_{*}(\mathcal{L})$$We claim that $(\overline{p}\otimes \overline{q})_{*}:H_{n}(\mathcal{K}\otimes \mathcal{L})\to \bigoplus_{p+q=n}H_{p}(\mathcal{K})\otimes H_{q}(\mathcal{L})$ is the left inverse of $h$. 
+> 
+> We have that: $$(\overline{p}\otimes \overline{q})_{*}h([k]\otimes [\ell])=(\overline{p}\otimes \overline{q})_{*}[k\otimes \ell]=\overline{p}(k)\otimes  \overline{q}(\ell)=[k]\otimes  [\ell]$$
+
+^5adc74
+
+- **Remark**: Let $G$ be an abelian group and consider this as a chain complex concentrated at $0$ with zero differential. Then, by Künneth, we get: $$0\to H_{n}(\mathcal{K})\otimes  G\to H_{n}(\mathcal{K}\otimes  G)\to \text{Tor}(H_{n-1}(\mathcal{K}),G)\to 0$$which is the UCT for tensor products. ^471eba
+---

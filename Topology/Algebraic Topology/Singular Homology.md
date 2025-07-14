@@ -380,3 +380,16 @@
 	1. $H_{n}(X\times Y;G)\cong H_{n}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\otimes G)$ from Eilenberg-Zilberg and
 	2. $H^n(X\times Y;G)\cong H_{n}(\text{Hom}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y),G))$ as $\Theta$ is a quasi-isomorphism and [[Cochain Complex|quasi-isomorphisms induce isomorphisms in cohomology]].
 ---
+> [!lemma] Theorem 11 (Topological Künneth Formula)
+> Let $X,Y$ be topological spaces. 
+> 1. there exists a split SES: $$0\to \bigoplus _{p+q=n}H_{p}(X)\otimes H_{q}(Y)\overset{ \times }{ \to } H_{n}(X\times Y)\to \bigoplus _{p+q=n-1}\text{Tor}(H_{p}(X),H_{q}(Y))\to 0$$where $\times([a]\otimes [b])=[a\times b]$
+> 2. the SES is natural w.r.t chain maps $f:X\to X'$ and $g:Y\to Y'$.
+
+^817af7
+
+> [!proof]-
+> Follows from the [[Tor|algebraic Künneth formula]] and Eiglenberg-Zilberg. 
+
+^70ff12
+
+---

@@ -64,8 +64,7 @@
               "title": "Tor"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -92,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Chain Complex.md",
+                "file": "Topology/Algebraic Topology/Singular Homology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Chain Complex"
+              "title": "Singular Homology"
             }
           },
           {
@@ -142,8 +141,7 @@
               "title": "Cochain Complex"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -288,14 +286,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d22b03d94053e21a",
+  "active": "83ca64246e25a9b6",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Resolution.md",
-    "Topology/Algebraic Topology/Tor.md",
-    "Algebra/Chain Complex.md",
-    "Algebra/Tensor Product.md",
     "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Tor.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Resolution.md",
+    "Algebra/Tensor Product.md",
     "Algebra/Cochain Complex.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology/Graded Group.md",
