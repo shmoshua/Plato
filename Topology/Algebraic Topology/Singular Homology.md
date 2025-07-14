@@ -309,51 +309,59 @@
 > 
 > Then, there exists a [[chain homotopy]] $D_{X,Y}$ between $\phi$ and $\psi$ that is natural w.r.t $f:X\to X'$ and $g:Y\to Y'$.
 
-> [!proof]+
+> [!proof]-
 > We show the case $\phi,\psi:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$. The other cases are analogous. We need to find: $$D:\mathcal{S}_{*}(X\times Y)\to (\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))[1]$$s.t. $D\partial + \partial D = \phi-\psi$.
 > 
 > We achieve this via induction over $n$. 
 > 1. If $n=0$, let $D:= 0$. As $\phi \equiv \psi$ for degree 0, this holds.
 > 2. If $n\geq 1$, assume that $D$ has already been defined for all $0\leq k< n$ for all spaces $X,Y$ satisfying the naturality and $D\partial +\partial D=\phi-\psi$. 
 >    
->    We claim that $(\phi-\psi-D\partial)(d_{n})\in(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))_{n}$ is a cycle. Indeed, $$\begin{aligned}\partial(\phi-\psi-D\partial)(d_{n})&=\partial \phi d_{n}-\partial \psi d_{n}-\partial D\partial (d_{n})\\&= \phi\partial d_{n}-\psi \partial d_{n}+D\partial^{2} (d_{n})+\psi \partial d_{n}-\phi \partial d_{n}\\&=D\partial^{2}(d_{n})=0\end{aligned}$$As $H_{n}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))=0$, we have that there exists $a_{n}\in \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$ 
+>    For $d_{n}:\Delta^n\to \Delta^n\times\Delta^n,x\mapsto (x,x)$, we claim that $(\phi-\psi-D\partial)(d_{n})\in(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))_{n}$ is a cycle. Indeed, $$\begin{aligned}\partial(\phi-\psi-D\partial)(d_{n})&=\partial \phi d_{n}-\partial \psi d_{n}-\partial D\partial (d_{n})\\&= \phi\partial d_{n}-\psi \partial d_{n}+D\partial^{2} (d_{n})+\psi \partial d_{n}-\phi \partial d_{n}\\&=D\partial^{2}(d_{n})=0\end{aligned}$$As $H_{n}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))=0$, we have that there exists $a\in (\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))_{n+1}$ s.t. $$\partial a=(\phi-\psi-D\partial)(d_{n})$$ Let $D(d_{n}):= a$. Clearly, $$D\partial(d_{n})+\partial D(d_{n})=D\partial(d_{n})+(\phi-\psi)(d_{n})-D\partial(d_{n})=(\phi-\psi)(d_{n})$$Now, for $\sigma:\Delta^n\to X\times Y$, let $\pi_{X}:X\times Y\to X$ and $\pi_{Y}:X\times Y\to Y$ be canonical projections and: $$D(\sigma):=((\pi_{X}\circ  \sigma)_{c}\otimes (\pi_{Y}\circ  \sigma)_{c})(D(d_{n}))$$
+>    
+>    Then, we have the following claims:
+> 	1. **$D$ is well-defined**:
+> 	   We have that: $$((\pi_{1}\circ d_{n})_{c}\otimes (\pi_{2}\circ d_{n})_{c})(D(d_{n}))=(\text{id}\otimes  \text{id})_{c}(D(d_{n}))=D(d_{n})$$
+> 	2. **$D$ is natural w.r.t. $f:X\to X'$ and $g:Y\to Y'$**:
+> 	   Let $\sigma\in S_{n}(X,Y)$. Then, $$\begin{aligned}D_{X',Y'}(f\times g)_{c}(\sigma)&=((\pi_{X'}\circ (f\times g) \circ \sigma)_{c}\otimes (\pi_{Y'}\circ (f\times g) \circ \sigma)_{c})(D(d_{n}))\\&=((f \circ  \pi_{X} \circ \sigma)_{c}\otimes (g \circ  \pi_{Y} \circ \sigma)_{c})(D(d_{n}))\\&=(-1)^{\underbrace{ \left| \pi_{X}\circ \sigma \right| }_{ =0 } \left| g \right| }(f_{c}\otimes  g_{c})\circ ((\pi_{X} \circ \sigma)_{c}\otimes (\pi_{Y} \circ \sigma)_{c})(D(d_{n}))\\&=(f_{c}\otimes  g_{c})(D(\sigma))\end{aligned}$$
+> 	3. **$D$ satisfies $D\partial+\partial D=\phi-\psi$**:
+> 	   Let $\sigma\in S_{n}(X,Y)$. Then, $$\begin{aligned}\partial D(\sigma)&=\partial ((\pi_{X}\circ  \sigma)_{c}\otimes (\pi_{Y}\circ  \sigma)_{c})(D(d_{n}))\\&=((\pi_{X}\circ  \sigma)_{c}\otimes (\pi_{Y}\circ  \sigma)_{c})(\partial D(d_{n}))\\&=((\pi_{X}\circ  \sigma)_{c}\otimes (\pi_{Y}\circ  \sigma)_{c})\circ  (\phi-\psi-D\partial)(d_{n})\\&=(\phi-\psi-D\partial)((\pi_{X}\circ  \sigma)\times (\pi_{Y}\circ  \sigma))_{c}(d_{n})\\&=(\phi-\psi-D\partial)(\sigma)\end{aligned}$$
+> 
+>  This proves the claim.
+> 	   
 
 
 ---
-> [!lemma] Theorem 8 (Eilenberg-Zilberg)
+> [!lemma] Theorem 10 (Eilenberg-Zilberg)
 > Consider the following. 
 > 1. there exist a chain map $\Theta:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y)$ for any topological spaces $X,Y$ s.t.
 > 	1. $\Theta:S_{0}(X\times Y)\to S_{0}(X)\otimes S_{0}(Y), (x,y)\mapsto x\otimes y$.
 > 	2. $\Theta$ is natural w.r.t. continuous maps between spaces, i.e. for all $f:X\to X'$ and $g:Y\to Y'$, the following diagram commutes: $$\begin{CD}\mathcal{S}_{*}(X\times Y)@>\Theta>>\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y)\\@V(f\times g)_{c}VV @VVf_{c}\otimes  g_{c}V\\ \mathcal{S}_{*}(X'\times Y') @>>\Theta>\mathcal{S}_{*}(X')\otimes  \mathcal{S}_{*}(Y')\end{CD}$$
-> 2. $\Theta$ is a [[Chain Homotopy|chain homotopy equivalence]].
-> 3. $H_{*}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))\cong H_{*}(X\times Y)$.
+> 2. $\Theta:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$ and $\times:\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\to \mathcal{S}_{*}(X\times Y)$ are uniquely defined up to chain homotopy.
+> 3. $\Theta \circ \times\simeq \text{ id}$ and $\times \circ \Theta\simeq \text{ id}$.
+> 4. there are canonical isomorphisms $H_{*}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))\cong H_{*}(X\times Y)$ that are natural w.r.t. continuous maps $f:X\to X'$ and $g:Y\to Y'$.
 
 ^254457
 
-> [!proof]-
+> [!proof]+
 > We have that:
-> 1. 
->    
->    Now, we first show the following lemma: 
-> 	1. **Lemma 1**: For contractible $X,Y$ and $x_{0}\in X$, $y_{0}\in Y$, there exists a chain homotopy $$E:\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y)\to (\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y))[1]$$between $\varepsilon_{x_{0}}\otimes \varepsilon_{y_{0}}$ and $\text{id}\otimes \text{id}=\text{id}_{\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)}$.
-> 	   
-> 	   
-> 	2. **Lemma 2**: For contractible $X,Y$ and $x_{0}\in X$, $y_{0}\in Y$, $$H_{n}(\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y))=0,\quad \forall n\geq 1$$
-> 		   
-> 	
->    We then prove the theorem with induction. 
+> 1. We prove this via induction over $n$.
 >    
 >    First, if $n=0$, we define $\Theta(x,y)=x\otimes y$. For $n\geq 1$, assume $\Theta$ has been defined for all $0\leq k< n$ and $X,Y$. Consider the diagonal map $d_{n}:\Delta^n \to \Delta^n\times\Delta^n,x\mapsto (x,x)$. Then, $d_{n}\in S_{n}(\Delta^n \times\Delta^n)$. Therefore, by induction $\Theta$ is already defined on $\partial d_{n}\in S_{n-1}(\Delta^n\times\Delta^n)$.
 >    
 >    We now claim that there exists $a_{n}\in (\mathcal{S}_{*}(\Delta^n)\otimes \mathcal{S}_{*}(\Delta^n))_{n}$ s.t. $\partial a_{n}=\Theta(\partial d_{n})$. Indeed, $$\partial\Theta(\partial d_{n})=\Theta \partial^{2}d_{n}=0$$as $\Theta$ is a chain map up to degree $n-1$. Hence, $\Theta(\partial d_{n})$ is a cycle of deg $n-1$. 
 >    
->    If $n\geq 2$, then $n-1\geq 1$ and since $\Delta^n$ is contractible, by Lemma 2, $H_{n-1}(\mathcal{S}_{*}(\Delta^n)\otimes \mathcal{S}_{*}(\Delta^n))=0$. Therefore, there exists $a_{n}\in (\mathcal{S}_{*}(\Delta^n)\otimes \mathcal{S}_{*}(\Delta^n))_{n}$ with $\partial a_{n}=\Theta(\partial d_{n})$.
+>    - If $n\geq 2$, then $n-1\geq 1$ and since $\Delta^n$ is contractible, by Lemma 8.2, $H_{n-1}(\mathcal{S}_{*}(\Delta^n)\otimes \mathcal{S}_{*}(\Delta^n))=0$. Therefore, there exists $a_{n}\in (\mathcal{S}_{*}(\Delta^n)\otimes \mathcal{S}_{*}(\Delta^n))_{n}$ with $\partial a_{n}=\Theta(\partial d_{n})$.
 >    
->    If $n=1$, then $\Theta (\partial d_{1})=\Theta((1,1)-(0,0))=1\otimes 1-0 \otimes 0$. Therefore, by Lemma 1, $$\begin{aligned} \ [ \Theta (\partial d_{1})] =\text{id}_{*}[\Theta (\partial d_{1})]=(\varepsilon_{x_{0}}\otimes  \varepsilon_{y_{0}})_{*}[\Theta (\partial d_{1})]&=[(\varepsilon_{x_{0}}\otimes  \varepsilon_{y_{0}})(1\otimes  1-0\otimes  0)]\\&=[x_{0}\otimes  y_{0}-x_{0}\otimes  y_{0}]\\&=[0]\end{aligned}$$Hence, $\Theta(\partial d_{1})$ is a boundary and we have $a_{1}\in (\mathcal{S_{*}}(\Delta^1)\otimes \mathcal{S}_{*}(\Delta^1))_{1}$ s.t. $\partial a_{1}=\Theta(\partial d_{1})$. This shows the claim. We now let $\Theta(d_{n}):=a_{n}$. We especially get that: $$\partial\Theta(d_{n})=\partial a_{n}=\Theta(\partial d_{n})$$Now, let $\pi_{X}:X\times Y\to X$ and $\pi_{Y}:X\times Y\to Y$ be standard projections. For any $\sigma\in S_{n}(X\times Y)$, we define: $$\Theta(\sigma):=((\pi_{X}\circ \sigma)_{c}\otimes  (\pi_{Y}\circ  \sigma)_{c})(\Theta(d_{n}))$$Indeed, as $\sigma=((\pi_{X}\circ\sigma)\times(\pi_{Y}\circ \sigma))(d_{n})$, the following diagram commutes. $$\begin{CD}S_{n}(\Delta^n\times \Delta^n)@>\Theta>> (\mathcal{S}_{*}(\Delta^n)\otimes  \mathcal{S}_{*}(\Delta^n))_{n}\\@V((\pi_{X}\circ \sigma)\times(\pi_{Y}\circ  \sigma))_{c}VV@VV(\pi_{X}\circ  \sigma)_{c}\otimes (\pi_{Y}\circ  \sigma)_{c}V\\S_{n}(X\times Y) @>>\Theta> (\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y))_{n}\end{CD}$$
+>    - If $n=1$, then $\Theta (\partial d_{1})=\Theta((1,1)-(0,0))=1\otimes 1-0 \otimes 0$. Therefore, by Lemma 8.1, $$\begin{aligned} \ [ \Theta (\partial d_{1})] =\text{id}_{*}[\Theta (\partial d_{1})]=(\varepsilon_{x_{0}}\otimes  \varepsilon_{y_{0}})_{*}[\Theta (\partial d_{1})]&=[(\varepsilon_{x_{0}}\otimes  \varepsilon_{y_{0}})(1\otimes  1-0\otimes  0)]\\&=[x_{0}\otimes  y_{0}-x_{0}\otimes  y_{0}]\\&=[0]\end{aligned}$$Hence, $\Theta(\partial d_{1})$ is a boundary and we have $a_{1}\in (\mathcal{S_{*}}(\Delta^1)\otimes \mathcal{S}_{*}(\Delta^1))_{1}$ s.t. $\partial a_{1}=\Theta(\partial d_{1})$. This shows the claim. 
 >    
->    3. **Claim 1:** $\Theta$ is well-defined. 
+>    We now let $\Theta(d_{n}):=a_{n}$. We especially get that: $$\partial\Theta(d_{n})=\partial a_{n}=\Theta(\partial d_{n})$$Now, let $\pi_{X}:X\times Y\to X$ and $\pi_{Y}:X\times Y\to Y$ be standard projections. For any $\sigma\in S_{n}(X\times Y)$, we define: $$\Theta(\sigma):=((\pi_{X}\circ \sigma)_{c}\otimes  (\pi_{Y}\circ  \sigma)_{c})(\Theta(d_{n}))$$Indeed, as $\sigma=((\pi_{X}\circ\sigma)\times(\pi_{Y}\circ \sigma))(d_{n})$, the following diagram commutes. $$\begin{CD}S_{n}(\Delta^n\times \Delta^n)@>\Theta>> (\mathcal{S}_{*}(\Delta^n)\otimes  \mathcal{S}_{*}(\Delta^n))_{n}\\@V((\pi_{X}\circ \sigma)\times(\pi_{Y}\circ  \sigma))_{c}VV@VV(\pi_{X}\circ  \sigma)_{c}\otimes (\pi_{Y}\circ  \sigma)_{c}V\\S_{n}(X\times Y) @>>\Theta> (\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y))_{n}\end{CD}$$
+>    
+>    2. **Claim 1:** $\Theta$ is well-defined. 
 >       Let $X=Y=\Delta^n$. Then, $$((\pi_{1}\circ  d_{n})\otimes (\pi_{2}\circ  d_{n}))(\Theta(d_{n}))=(\text{id}\otimes  \text{id})(\Theta(d_{n}))=\Theta(d_{n})$$
->    4. **Claim 2**: $\Theta$ is natural w.r.t. continuous maps. 
+>    3. **Claim 2**: $\Theta$ is natural w.r.t. continuous maps. 
 >       Let $f:X\to X'$ and $g:Y\to Y'$. Then, let $\sigma\in S_{n}(X\times Y)$. We have that: $$(f_{c}\otimes g_{c}) \circ ((\pi_{X}\circ \sigma)_{c}\otimes  (\pi_{Y}\circ \sigma)_{c})(\Theta d_{n})=(f\circ  \pi_{X} \circ  \sigma)_{c}\otimes  (g \circ  \pi_{Y}\circ  \sigma)_{c}(\Theta d_{n})$$and: $$\begin{aligned}\Theta((f\times g)_{c}(\sigma))&=((\pi_{X}\circ  (f\times g) \circ \sigma)_{c}\otimes (\pi_{Y}\circ  (f\times g) \circ \sigma)_{c})(\Theta(d_{n}))\\&=((f\circ \pi_{X} \circ \sigma)_{c}\otimes (g \circ \pi_{Y}\circ \sigma)_{c})(\Theta(d_{n}))\end{aligned}$$
->    5. **Claim 3**: $\Theta$ is a chain map. 
+>    4. **Claim 3**: $\Theta$ is a chain map. 
 >       Let $\sigma\in S_{n}(X\times Y)$. Then, $$\begin{aligned} \partial\Theta(\sigma)&=\partial((\pi_{X}\circ \sigma)_{c}\otimes (\pi_{Y} \circ  \sigma)_{c})(\Theta(d_{n}))\\&=((\pi_{X}\circ \sigma)_{c}\otimes (\pi_{Y} \circ  \sigma)_{c})(\partial\Theta(d_{n}))\\&=((\pi_{X}\circ \sigma)_{c}\otimes (\pi_{Y} \circ  \sigma)_{c})(\Theta(\partial d_{n}))\\&=\Theta((\pi_{X}\circ \sigma)\times (\pi_{Y} \circ  \sigma))_{c}(\partial d_{n})\\&=\Theta\partial((\pi_{X}\circ \sigma)\times (\pi_{Y} \circ  \sigma))_{c}( d_{n})\\&=\Theta\partial(\sigma)\end{aligned}$$
+>  2. Follows from Theorem 9.
+>  3. Follows from Theorem 9 with $\Theta \circ \times:\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\to \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$ being canonical at degree $0$ and natural w.r.t. $f:X\to X'$ and $g:Y\to Y'$. Similarly with $\times \circ \Theta$.
+>  4. Chain homotopy equivalence induces isomorphisms in homology.
