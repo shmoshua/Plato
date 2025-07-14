@@ -285,8 +285,20 @@
 
 ---
 > [!lemma] Theorem 8 (Eilenberg-Zilberg)
-> Let $X,Y$ be topological spaces. 
-> 1. there is a [[Chain Homotopy|chain homotopy equivalence]] between $\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\cong \mathcal{S}_{*}(X\times Y)$
-> 2. $H_{*}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))\cong H_{*}(X\times Y)$.
+> Consider the following. 
+> 1. there exist a chain map $\Theta:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y)$ for any topological spaces $X,Y$ s.t.
+> 	1. $\Theta:S_{0}(X\times Y)\to S_{0}(X)\otimes S_{0}(Y), (x,y)\mapsto x\otimes y$.
+> 	2. $\Theta$ is natural w.r.t. continuous maps between spaces, i.e. for all $f:X\to X'$ and $g:Y\to Y'$, the following diagram commutes: $$\begin{CD}\mathcal{S}_{*}(X\times Y)@>\Theta>>\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y)\\@V(f\times g)_{c}VV @VVf_{c}\otimes  g_{c}V\\ \mathcal{S}_{*}(X'\times Y') @>>\Theta>\mathcal{S}_{*}(X')\otimes  \mathcal{S}_{*}(Y')\end{CD}$$
+> 2. $\Theta$ is a [[Chain Homotopy|chain homotopy equivalence]].
+> 3. $H_{*}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))\cong H_{*}(X\times Y)$.
 
 ^254457
+
+> [!proof]+
+> We have that:
+> 1. Recall that from the proof of Theorem 2, for any contractible space $X$ and $x_{0}\in X$, there exists a chain map: $$\varepsilon_{x_{0}}:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X),\quad \sum_{x\in X}n_{x}x\mapsto \left( \sum_{x\in X}^{}n_{x} \right)x_{0}$$    and a chain homotopy $D:=D_{X,x_{0}}:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)[1]$ s.t. $D\partial+\partial D=\text{id}-\varepsilon_{x_{0}}$.
+>    
+>    Now, we first show the following lemma: 
+> 	1. **Lemma 1**: For contractible $X,Y$ and $x_{0}\in X$, $y_{0}\in Y$, there exists a chain homotopy $$E:\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y)\to (\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y))[1]$$between $\varepsilon_{x_{0}}\otimes \varepsilon_{y_{0}}$ and $\text{id}\otimes \text{id}$.
+> 	   
+> 	   Let $D_{X}:=D_{X,x_{0}}$ and $D_{Y}:= D_{Y,y_{0}}$ from above. Then, for $E:=D_{X}\otimes \text{id}+\varepsilon_{x_{0}}\otimes D_{Y}$ we have that: $$\begin{aligned}E \circ  \partial+\partial \circ  E&=(D_{X}\otimes  \text{id}+\varepsilon_{x_{0}}\otimes  D_{Y})\circ  (\partial \otimes  \text{id}+\text{id}\otimes  \partial)+ (\partial \otimes  \text{id}+\text{id}\otimes  \partial) \circ (D_{X}\otimes  \text{id}+\varepsilon_{x_{0}}\otimes  D_{Y})\\&= -(D_{X}\circ  \partial)\otimes  \text{id}\end{aligned}$$
