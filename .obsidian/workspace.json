@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
+                "file": "Topology/Algebraic Topology/Resolution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Homology"
+              "title": "Resolution"
             }
           },
           {
@@ -290,11 +290,12 @@
   },
   "active": "d22b03d94053e21a",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Resolution.md",
     "Topology/Algebraic Topology/Tor.md",
     "Algebra/Chain Complex.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Algebra/Tensor Product.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Algebra/Cochain Complex.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Topology/Algebraic Topology/Graded Group.md",
@@ -315,7 +316,6 @@
     "Topology/Algebraic Topology/Reduced Cohomology.md",
     "Topology/Algebraic Topology/Ext.md",
     "Algebra/Free Module.md",
-    "Topology/Algebraic Topology/Resolution.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",
