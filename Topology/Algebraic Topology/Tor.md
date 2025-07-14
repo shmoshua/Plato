@@ -101,4 +101,9 @@
 > 2. the SES is natural w.r.t. chain maps $f:\mathcal{K}\to \mathcal{K}'$ and $g:\mathcal{L}\to \mathcal{L}'$.
 
 > [!proof]+
-> From Proposition 1, we have the SES: $$0\to \mathcal{Z}\overset{ j }{ \to }\mathcal{K}\overset{ \partial }{ \to }\mathcal{B}[-1]\to 0$$We now claim that the following is an SES:$$0\to \mathcal{Z}\otimes  \mathcal{L}\overset{ j\otimes  \text{id} }{ \to } \mathcal{K}\otimes  \mathcal{L}\overset{ \partial \otimes  \text{id} }{ \to } \mathcal{B}[-1]\otimes  \mathcal{L}\to 0$$
+> From Proposition 1, we have the SES: $$0\to \mathcal{Z}\overset{ j }{ \to }\mathcal{K}\overset{ \partial }{ \to }\mathcal{B}[-1]\to 0$$We have that the following is an SES:$$0\to \mathcal{Z}\otimes  \mathcal{L}\overset{ j\otimes  \text{id} }{ \to } \mathcal{K}\otimes  \mathcal{L}\overset{ \partial \otimes  \text{id} }{ \to } \mathcal{B}[-1]\otimes  \mathcal{L}\to 0$$where $\partial_{\mathcal{Z}\otimes \mathcal{L}}=\text{id}\otimes \partial_{L}$ and $\partial_{\mathcal{B}[-1]\otimes \mathcal{L}}=\text{id}\otimes \partial_{L}$.
+> 
+> Indeed, we have that: $$0\to \bigoplus _{p+q=n}Z_{p}\otimes  L_{q}\to \bigoplus _{p+q=n}K_{p}\otimes  L_{q}\to \bigoplus _{p+q=n-1}B_{p}\otimes  L_{q}\to 0$$which splits as $\bigoplus_{p+q=n-1}B_{p}\otimes L_{q}$ is free. Now, we have that: $$H_{n}(\mathcal{Z}\otimes  \mathcal{L})=\bigoplus _{p+q=n}(Z_{p}\otimes  H_{q}(\mathcal{L}))$$
+> 
+> 
+> We hence get the LES: $$\dots\to H_{n}(\mathcal{Z}\otimes  \mathcal{L})\to H_{n}(\mathcal{K}\otimes  \mathcal{L})\to H_{n-1}(\mathcal{B}\otimes  \mathcal{L})$$
