@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Cochain Complex.md",
+                "file": "Algebra/Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cochain Complex"
+              "title": "Module"
             }
           },
           {
@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -288,13 +288,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7004414e420fff6e",
+  "active": "e59a8fcdeb8a9ca1",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Acyclic Space.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Cochain Complex.md",
     "Algebra/Tensor Product.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Acyclic Space.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
