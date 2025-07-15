@@ -13,6 +13,7 @@
 	1. $f_{c}:S_{*}(X)\to S_{*}(Y)$ is a chain map.
 	2. $f^c:S^*(Y)\to S^{*}(X),\varphi\mapsto \varphi \circ f_{c}$ is a cochain map. (c.f. [[Cochain Complex|Example 2]])
 	3. $f^{*}:H^{*}(Y;G)\to H^{*}(X;G)$
+- **Related definition**: For a ring $R$, the ***unity*** $1\in H^0(X;R)$ is given as $1:=[\varepsilon]$ where: $$\varepsilon:S_{0}(X)\to R,\quad \sum_{x\in X}^{}n_{x}x\mapsto \sum_{x\in X}^{}n_{x}$$
 
 ---
 ##### Properties
@@ -112,11 +113,26 @@
 > [!lemma] Proposition 6 
 > Let $R$ be a [[ring]]. For $\varphi\in \mathcal{S}^{*}(X;R)$ and $\psi\in \mathcal{S}^{*}(Y;R)$ cocycles, and $a\in \mathcal{S}_{*}(X)$ and $b\in \mathcal{S}_{*}(Y)$ cycles, we have: $$\braket{ \varphi \times \psi , a\times b }=(-1)^{\left| \psi \right| \left| a \right| }\braket{ \varphi , a } \braket{ \psi , b }  $$where we use the convention that $\braket{ f , c }=0$ for $f\in S^r(Z;R)$ and $c\in S_{s}(Z)$ if $r\neq s$.
 
-> [!proof]+
+^e93291
+
+> [!proof]-
 > We have that: $$\begin{aligned}\braket{ \varphi \times \psi , a\times b } =\braket{ (\varphi \otimes  \psi) \circ  \Theta , a\times b } =((\varphi \otimes  \psi)\circ \Theta \circ \times)(a\otimes  b)\end{aligned}$$From [[Singular Homology|Eilenberg-Zilberg]], there exists a chain homotopy $D$ s.t. $\Theta \circ \times=\text{id}+D\partial_{\otimes}+\partial_{\otimes}D$ on $\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$. Therefore, $$\begin{aligned}\braket{ \varphi \times \psi , a\times b } &=(\varphi \otimes  \psi)\circ (a\otimes  b+D\underbrace{ \partial_{\otimes }(a\otimes  b) }_{ =0 }+\partial_{\otimes }D(a\otimes  b))\\&=(\varphi \otimes  \psi)\circ (a\otimes  b+\partial_{\otimes }D(a\otimes  b))\\&=(-1)^{\left| \psi \right| \left| a \right| }\braket{ \varphi , a } \braket{ \psi , b } +(-1)\underbrace{ \delta_{\otimes }(\varphi \otimes  \psi) }_{ =0 }(D(a\otimes  b))\\&=(-1)^{\left| \psi \right| \left| a \right| }\braket{ \varphi , a } \braket{ \psi , b }\end{aligned}$$as $\varphi,\psi$ are cocycles. 
 
----
+^bffd5e
 
+---
+> [!lemma] Proposition 7 (Unity Properties)
+> We have that:
+> 1. $\varepsilon$ is a cocycle.
+> 2. $1$ is preserved by maps, i.e. for $f:X\to Y$, $f^{*}(1_{Y})=1_{X}$
+> 3. for any $\alpha\in H^p(X;R)$ and $\beta\in H^q(Y;R)$, $$\alpha \times 1_{Y}=\pi ^{*}_{X}(\alpha),\quad 1_{X}\times\beta=\pi ^{*}_{Y}(\beta)$$
+
+> [!proof]-
+> We have that:
+> 4. $\varepsilon \circ\partial:S_{1}(X)\to R$ is $0$. This is because for any $\varphi\in S_{1}(X)$, we have that: $$\varepsilon(\partial(\varphi))=\varepsilon(\varphi(1)-\varphi(0))=1-1=0$$Therefore, $\delta(\varepsilon)=0$.
+> 5. We have that: $$f^{*}(1_{Y})=[f^c(\varepsilon_{Y})]=[\varepsilon_{Y}\circ  f_{c}]=[\varepsilon_{X}]=1_{X}$$
+
+---
 ##### Examples
 > [!h] Example 1
 > Let $(X,A)$ be a pair of spaces and $i:A\to X$ the inclusion. 

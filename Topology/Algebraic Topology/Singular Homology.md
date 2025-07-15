@@ -393,3 +393,6 @@
 ^70ff12
 
 ---
+> [!lemma] Proposition 12
+> Let $X$ be a topological space and $P$ a point space. Then, the composition
+> $$\mathcal{S}_{*}(X\times P)\xrightarrow{\Theta}\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(P)\xrightarrow{\text{id}\otimes  \varepsilon_{\mathbb{Z}}}\mathcal{S}_{*}(X)\otimes  \mathbb{Z}\xrightarrow{\cong } \mathcal{S}_{*}(X)$$is naturally chain homotopic to the map $\tau_{c}$ where $\tau:X\times P\to X,(x,p)\mapsto x$.

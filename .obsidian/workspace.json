@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -120,16 +120,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Graded Group.md",
+                "file": "Algebra/Cochain Complex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graded Group"
+              "title": "Cochain Complex"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -274,16 +274,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "30241b51aa0cadbc",
+  "active": "4a67a6e31d39ee99",
   "lastOpenFiles": [
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Kronecker Pairing.md",
     "Algebra/Cochain Complex.md",
-    "Topology/Algebraic Topology/Tor.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Graded Group.md",
+    "Topology/Algebraic Topology/Kronecker Pairing.md",
+    "Topology/Algebraic Topology/Tor.md",
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Resolution.md",
