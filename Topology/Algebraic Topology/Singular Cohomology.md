@@ -86,8 +86,18 @@
 ---
 > [!lemma] Proposition 5 (Cohomological Cross Product)
 > Let $R$ be a [[ring|commutative ring]] and $X,Y$ topological spaces.
-> 1. there exists a cochain map $\times:\mathcal{S}^{*}(X;R)\otimes_{\mathbb{Z}}\mathcal{S}^{*}(Y;R)\to \mathcal{S}^{*}()$
+> 1. there exists a cochain map $$\times:\mathcal{S}^{*}(X;R)\otimes_{\mathbb{Z}}\mathcal{S}^{*}(Y;R)\to \mathcal{S}^{*}(X\times Y;R)$$ that is natural via maps $X\to X'$ and $Y\to Y'$.
+> 2. 
+
+> [!proof]+
+> We have that:
+> 2. Let $\varphi\in S^p(X;R)$ and $\psi\in S^q(X;R)$ s.t. $p+q=n$. Let $\Theta:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes_{\mathbb{Z}} \mathcal{S}_{*}(Y)$ be a choice of a map from [[Singular Homology|Eilenberg-Zilberg]]. As $\varphi \otimes \psi:S^p(X)\otimes_{\mathbb{Z}}S^q(Y)\to R\otimes_{\mathbb{Z}}R$, by extending with $R\otimes_{\mathbb{Z}}R\to R,(x\otimes y)\mapsto xy$, we have a map: $$\varphi \otimes  \psi:S^p(X)\otimes_{\mathbb{Z}}S^q(X) \to R$$Extending this to a homomorphism: $$\varphi \otimes  \psi:(\mathcal{S}^{*}(X)\otimes _{\mathbb{Z}} \mathcal{S}^{*}(Y))_{n}\to R$$by filling the rest with $0$, we can define $\varphi \times \psi:=(\varphi \otimes \psi)\circ\Theta\in S^n(X\times Y;R)$. Further, 
+> 	1. **For $f:X\to X'$ and $g:Y\to Y'$, the following diagram commutes:**$$\begin{CD}S^p(X';R)\otimes  S^q(Y';R) @>\times>> S^{p+q}(X'\times Y';R)\\ @Vf^c \otimes  g^cVV&@VV(f\times g)^cV\\S^p(X;R)\otimes  S^q(Y;R) @>>\times> S^{p+q}(X\times Y;R)\end{CD}$$
+> 		
+> 		Let $\varphi\in S^p(X';R)$ and $\psi\in S^q(Y';R)$. Then, for $\mu\in S_{p+q}(X\times Y)$, $$\begin{aligned}(f\times g)^c(\varphi \times \psi)&=(\varphi \times \psi)\circ (f\times g)_{c}=(\varphi \otimes  \psi)\circ  \Theta\circ (f\times g)_{c}\\&=(\varphi \otimes  \psi)\circ (f_{c}\otimes  g_{c})\circ  \Theta\\&=((\varphi \circ  f_{c})\otimes  (\psi \circ g_{c}))\circ \Theta\\&=(\varphi \circ  f_{c})\times(\psi \circ  g_{c})\\&=\times (f^c(\varphi)\otimes g^c(\psi))\end{aligned}$$
+- **Remark**: For $c\in S_{n}(X\times Y)$, $\varphi\in S^p(X;R)$ and $\psi\in S^q(Y;R)$, we have for $\Theta c=:\sum_{r+s=n}^{}\sum_{i,j}^{}a_{i}^r\otimes b_{j}^s$, $$\braket{ \varphi \times \psi , c } =\left\langle  \varphi \otimes  \psi , \sum_{i,j} a_{i}^p\otimes  b^q_{j}\right\rangle=\sum_{i,j}^{}(-1)^{pq}\varphi(a_{i}^p)\cdot  \psi(b^q_{j})  $$
 ---
+
 ##### Examples
 > [!h] Example 1
 > Let $(X,A)$ be a pair of spaces and $i:A\to X$ the inclusion. 
