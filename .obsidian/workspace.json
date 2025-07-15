@@ -129,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -274,14 +274,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8b637d72a5b1482d",
+  "active": "44bbf9d5498f4730",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Relative Homology.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Topology/Algebraic Topology/Relative Homology.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Cochain Complex.md",
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Graded Group.md",
