@@ -13,7 +13,7 @@
 	1. $f_{c}:S_{*}(X)\to S_{*}(Y)$ is a chain map.
 	2. $f^c:S^*(Y)\to S^{*}(X),\varphi\mapsto \varphi \circ f_{c}$ is a cochain map. (c.f. [[Cochain Complex|Example 2]])
 	3. $f^{*}:H^{*}(Y;G)\to H^{*}(X;G)$
-- **Related definition**: For a ring $R$, the ***unity*** $1\in H^0(X;R)$ is given as $1:=[\varepsilon]$ where: $$\varepsilon:S_{0}(X)\to R,\quad \sum_{x\in X}^{}n_{x}x\mapsto \sum_{x\in X}^{}n_{x}$$
+- **Related definition**: For a ring $R$, the ***unity*** $1\in H^0(X;R)$ is given as $1:=[\varepsilon]$ where: $$\varepsilon:S_{0}(X)\to R,\quad \sum_{x\in X}^{}n_{x}x\mapsto \sum_{x\in X}^{}n_{x}$$ ^3ce17d
 
 ---
 ##### Properties
@@ -96,7 +96,7 @@
 
 > [!proof]-
 > We have that:
-> 1. Let $\varphi\in S^p(X;R)$ and $\psi\in S^q(X;R)$ s.t. $p+q=n$. Let $\Theta:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes_{\mathbb{Z}} \mathcal{S}_{*}(Y)$ be a choice of a map from [[Singular Homology|Eilenberg-Zilberg]]. As $\varphi \otimes \psi:S^p(X)\otimes_{\mathbb{Z}}S^q(Y)\to R\otimes_{\mathbb{Z}}R$, by extending with $R\otimes_{\mathbb{Z}}R\to R,(x\otimes y)\mapsto xy$, we have a map: $$\varphi \otimes  \psi:S^p(X)\otimes_{\mathbb{Z}}S^q(X) \to R$$Extending this to a homomorphism: $$\varphi \otimes  \psi:(\mathcal{S}^{*}(X)\otimes _{\mathbb{Z}} \mathcal{S}^{*}(Y))_{n}\to R$$by filling the rest with $0$, we can define $\varphi \times \psi:=(\varphi \otimes \psi)\circ\Theta\in S^n(X\times Y;R)$. Further, 
+> 1. Let $\varphi\in S^p(X;R)$ and $\psi\in S^q(X;R)$ s.t. $p+q=n$. Let $\Theta:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes_{\mathbb{Z}} \mathcal{S}_{*}(Y)$ be a choice of a map from [[Singular Homology|Eilenberg-Zilberg]]. As $\varphi \otimes \psi:S_{p}(X)\otimes_{\mathbb{Z}}S_{q}(Y)\to R\otimes_{\mathbb{Z}}R$, by extending with $R\otimes_{\mathbb{Z}}R\to R,(x\otimes y)\mapsto xy$, we have a map: $$\varphi \otimes  \psi:S_{p}(X)\otimes_{\mathbb{Z}}S_{q}(X) \to R$$Extending this to a homomorphism: $$\varphi \otimes  \psi:(\mathcal{S}_{*}(X)\otimes _{\mathbb{Z}} \mathcal{S}_{*}(Y))_{n}\to R$$by filling the rest with $0$, we can define $\varphi \times \psi:=(\varphi \otimes \psi)\circ\Theta\in S^n(X\times Y;R)$. Further, 
 > 	1. **For $f:X\to X'$ and $g:Y\to Y'$, the following diagram commutes:**$$\begin{CD}S^p(X';R)\otimes  S^q(Y';R) @>\times>> S^{p+q}(X'\times Y';R)\\ @Vf^c \otimes  g^cVV&@VV(f\times g)^cV\\S^p(X;R)\otimes  S^q(Y;R) @>>\times> S^{p+q}(X\times Y;R)\end{CD}$$
 > 		
 > 		Let $\varphi\in S^p(X';R)$ and $\psi\in S^q(Y';R)$. Then, for $\mu\in S_{p+q}(X\times Y)$, $$\begin{aligned}(f\times g)^c(\varphi \times \psi)&=(\varphi \times \psi)\circ (f\times g)_{c}=(\varphi \otimes  \psi)\circ  \Theta\circ (f\times g)_{c}\\&=(\varphi \otimes  \psi)\circ (f_{c}\otimes  g_{c})\circ  \Theta\\&=((\varphi \circ  f_{c})\otimes  (\psi \circ g_{c}))\circ \Theta\\&=(\varphi \circ  f_{c})\times(\psi \circ  g_{c})\\&=\times (f^c(\varphi)\otimes g^c(\psi))\end{aligned}$$
@@ -127,10 +127,15 @@
 > 2. $1$ is preserved by maps, i.e. for $f:X\to Y$, $f^{*}(1_{Y})=1_{X}$
 > 3. for any $\alpha\in H^p(X;R)$ and $\beta\in H^q(Y;R)$, $$\alpha \times 1_{Y}=\pi ^{*}_{X}(\alpha),\quad 1_{X}\times\beta=\pi ^{*}_{Y}(\beta)$$
 
-> [!proof]-
+^bb7e67
+
+> [!proof]+
 > We have that:
-> 4. $\varepsilon \circ\partial:S_{1}(X)\to R$ is $0$. This is because for any $\varphi\in S_{1}(X)$, we have that: $$\varepsilon(\partial(\varphi))=\varepsilon(\varphi(1)-\varphi(0))=1-1=0$$Therefore, $\delta(\varepsilon)=0$.
-> 5. We have that: $$f^{*}(1_{Y})=[f^c(\varepsilon_{Y})]=[\varepsilon_{Y}\circ  f_{c}]=[\varepsilon_{X}]=1_{X}$$
+> 1. $\varepsilon \circ\partial:S_{1}(X)\to R$ is $0$. This is because for any $\varphi\in S_{1}(X)$, we have that: $$\varepsilon(\partial(\varphi))=\varepsilon(\varphi(1)-\varphi(0))=1-1=0$$Therefore, $\delta(\varepsilon)=0$.
+> 2. We have that: $$f^{*}(1_{Y})=[f^c(\varepsilon_{Y})]=[\varepsilon_{Y}\circ  f_{c}]=[\varepsilon_{X}]=1_{X}$$
+> 3. Let $c_{p}:Y\to P$ be the constant map. Then, we have the following commutative diagram: $$\begin{CD}H^p(X;R)\otimes  \mathbb{Z} @>(\alpha,1)\mapsto ()>> H^p(X)\otimes  H^0(P) @>>> H^p(X)\otimes H^0(Y)\\ @VVV&@VVV&@VVV\\ H^p(X;R)\otimes  \mathbb{Z} @>>> H^p(X)\otimes  H^0(P) @>>> H^p(X)\otimes H^0(Y)\end{CD}$$
+
+^988416
 
 ---
 ##### Examples

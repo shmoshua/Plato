@@ -397,7 +397,12 @@
 > Let $X$ be a topological space and $P$ a point space. Then, 
 > 1. the composition
 > $$\mathcal{S}_{*}(X\times P)\xrightarrow{\Theta}\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(P)\xrightarrow{\text{id}\otimes  \varepsilon_{\mathbb{Z}}}\mathcal{S}_{*}(X)\otimes  \mathbb{Z}\xrightarrow{\cong } \mathcal{S}_{*}(X)$$is naturally chain homotopic to the map $\tau_{c}$ where $\tau:X\times P\to X,(x,p)\mapsto x$.
+> 2. For a ring $R$, by dualizing we get a map: $$\mathcal{S}^{*}(X;R)\to \mathcal{S}^{*}(X\times P),\quad \varphi \mapsto \varphi \times \varepsilon_{P,R}$$
+> 3. In cohomology, we get: $$H^p(X;R)\to H^p(X\times P;R),\quad \alpha\mapsto \alpha \times 1_{P}$$
+> 4. $\alpha \times 1_{P}=\tau ^{*}(\alpha)$ for all $\alpha\in H^p(X;R)$. 
 
+---
+ss
 > [!proof]+
 > We have that:
 > 1. We show that two chain maps defined on all topological spaces $X$ s.t. $\phi,\psi:\mathcal{S}_{*}(X\times P)\to \mathcal{S}_{*}(X)$ with
@@ -418,6 +423,10 @@
 > 		   1. **$D$ is well-defined**: 
 > 		      We have that $\pi_{X}\circ d_{n}=\text{id}$ and $D(d_{n})=\text{id}_{c}D(d_{n})$.
 > 		   2. **$D$ is natural w.r.t. $f:X\to X'$**:$$\begin{aligned}f_{c}(D(\sigma))&=f_{c}(\pi_{X}\circ  \sigma)_{c}D(d_{n})=(f \circ  \pi_{X}\circ  \sigma)_{c}D(d_{n})=(\pi_{X}\circ  (f\times \text{id})\circ  \sigma)_{c}D(d_{n})\\&=D((f\times \text{id})\circ  \sigma)=D((f\times \text{id})_{c}(\sigma))\end{aligned}$$
-> 		   3. $D\partial+\partial D=\phi$
-> 		      
+> 		   3. $D\partial+\partial D=\phi-\psi$.
+> 		     We have that: $$\begin{aligned}\partial D(\sigma)&=\partial \circ (\pi_{X}\circ \sigma)_{c} \circ  D(d_{n})\\&=(\pi_{X}\circ \sigma)_{c} \circ  \partial\circ  D(d_{n})\\&=(\pi_{X}\circ \sigma)_{c} \circ  (\phi-\psi-D\partial)(d_{n})\\&=(\phi-\psi-D\partial)(\pi_{X}\circ  \sigma \times \text{id})_{c}(d_{n})\\&=(\phi-\psi-D\partial)(\sigma)\end{aligned}$$ 
+> 		
+> 	Finally, we can conclude the statement by showing that both the composition and $\tau_{c}$ meets condition 1,2. We have in degree $0$, $$(\text{id}\otimes  \varepsilon_{\mathbb{Z}})\circ \Theta(x,p)=(\text{id}\otimes  \varepsilon_{\mathbb{Z}})(x\otimes  p)=x \otimes  1$$Further, the naturality of the map follows from the naturality of $\Theta$. Hence, we have our statement.
+> 2. Let $J:\mathcal{S}_{*}(X\times P)\to \mathcal{S}_{*}(X)$ be the map from 1. Then, we get that: $$J^{c}(\varphi)=\varphi \circ  J=\varphi \circ I\circ (\text{id}\otimes  \varepsilon_{\mathbb{Z}})\circ  \Theta=(\varphi \otimes  \varepsilon_{P,R})\circ  \Theta=\varphi \times \varepsilon_{P,R}$$
+> 3. Obvious and $1_{P}:=[\varepsilon_{P,R}]$. 
 > 	
