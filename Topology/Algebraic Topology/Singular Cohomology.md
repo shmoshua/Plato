@@ -87,16 +87,19 @@
 > [!lemma] Proposition 5 (Cohomological Cross Product)
 > Let $R$ be a [[ring|commutative ring]] and $X,Y$ topological spaces.
 > 1. there exists a cochain map $$\times:\mathcal{S}^{*}(X;R)\otimes_{\mathbb{Z}}\mathcal{S}^{*}(Y;R)\to \mathcal{S}^{*}(X\times Y;R)$$ that is natural via maps $X\to X'$ and $Y\to Y'$.
-> 2. 
+> 2. $\times$ induces a map $\times:S^{p}(X;R)\otimes_{R}S^{q}(Y;R)\to S^{p+q}(X\times Y;R)$.
+> 3. $\times$ induces a map in cohomology: $\times ^{*}:H^p(X;R)\otimes_{R}H^q(Y;R)\to H^{p+q}(X\times Y;R)$ which is independent of the choice of $\Theta$.
+> 4. $\times:S^p(X;R)\times S^q(Y;R)\to S^{p+q}(X\times Y;R),(\varphi,\psi)\mapsto \varphi \times \psi$ is bilinear in $R$. 
 
 > [!proof]+
 > We have that:
-> 1. Let $\varphi\in S^p(X;R)$ and $\psi\in S^q(X;R)$ s.t. $p+q=n$. Let $\Theta:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes_{\mathbb{Z}} \mathcal{S}_{*}(Y)$ be a choice of a map from [[Singular Homology|Eilenberg-Zilberg]]. As $\varphi \otimes \psi:S^p(X)\otimes_{\mathbb{Z}}S^q(Y)\to R\otimes_{\mathbb{Z}}R$, by extending with $R\otimes_{\mathbb{Z}}R\to R,(x\otimes y)\mapsto xy$, we have a map: $$\varphi \otimes  \psi:S^p(X)\otimes_{\mathbb{Z}}S^q(X) \to R$$Extending this to a homomorphism: $$\varphi \otimes  \psi:(\mathcal{S}^{*}(X)\otimes _{\mathbb{Z}} \mathcal{S}^{*}(Y))_{n}\to R$$by filling the rest with $0$, we can define $\varphi \times \psi:=(\varphi \otimes \psi)\circ\Theta\in S^n(X\times Y;R)$. Further, 
+> 5. Let $\varphi\in S^p(X;R)$ and $\psi\in S^q(X;R)$ s.t. $p+q=n$. Let $\Theta:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes_{\mathbb{Z}} \mathcal{S}_{*}(Y)$ be a choice of a map from [[Singular Homology|Eilenberg-Zilberg]]. As $\varphi \otimes \psi:S^p(X)\otimes_{\mathbb{Z}}S^q(Y)\to R\otimes_{\mathbb{Z}}R$, by extending with $R\otimes_{\mathbb{Z}}R\to R,(x\otimes y)\mapsto xy$, we have a map: $$\varphi \otimes  \psi:S^p(X)\otimes_{\mathbb{Z}}S^q(X) \to R$$Extending this to a homomorphism: $$\varphi \otimes  \psi:(\mathcal{S}^{*}(X)\otimes _{\mathbb{Z}} \mathcal{S}^{*}(Y))_{n}\to R$$by filling the rest with $0$, we can define $\varphi \times \psi:=(\varphi \otimes \psi)\circ\Theta\in S^n(X\times Y;R)$. Further, 
 > 	1. **For $f:X\to X'$ and $g:Y\to Y'$, the following diagram commutes:**$$\begin{CD}S^p(X';R)\otimes  S^q(Y';R) @>\times>> S^{p+q}(X'\times Y';R)\\ @Vf^c \otimes  g^cVV&@VV(f\times g)^cV\\S^p(X;R)\otimes  S^q(Y;R) @>>\times> S^{p+q}(X\times Y;R)\end{CD}$$
 > 		
 > 		Let $\varphi\in S^p(X';R)$ and $\psi\in S^q(Y';R)$. Then, for $\mu\in S_{p+q}(X\times Y)$, $$\begin{aligned}(f\times g)^c(\varphi \times \psi)&=(\varphi \times \psi)\circ (f\times g)_{c}=(\varphi \otimes  \psi)\circ  \Theta\circ (f\times g)_{c}\\&=(\varphi \otimes  \psi)\circ (f_{c}\otimes  g_{c})\circ  \Theta\\&=((\varphi \circ  f_{c})\otimes  (\psi \circ g_{c}))\circ \Theta\\&=(\varphi \circ  f_{c})\times(\psi \circ  g_{c})\\&=\times (f^c(\varphi)\otimes g^c(\psi))\end{aligned}$$
-> 	2. **$\times$ is a cochain map**:
-> 	   For $\varphi\in S^p(X;R)$ and $\psi\in S^q(Y;R)$: $$\delta_{X\times Y}(\varphi \times \psi)=(-1)^{p+q+1}(\varphi \times \psi)\circ \partial_{X\times Y}$$and $$\begin{aligned}\times \circ (\delta_{X}\otimes  \text{id}+\text{id}\otimes  \delta_{Y})(\varphi \otimes  \psi)&=\times \circ (\delta_{X}(\varphi)\otimes \psi+(-1)^{p+1}\varphi \otimes \delta_{Y}(\psi))\\&=\times \circ ((-1)^{p+1}\varphi \circ  \partial_{X}\otimes \psi+(-1)^{p+1}\varphi \otimes \delta_{Y}(\psi))\end{aligned}$$
+> 	2. **$\times$ is a cochain map**: 
+> 	   For $\varphi\in S^p(X;R)$ and $\psi\in S^q(Y;R)$: $$\begin{aligned}\delta_{X\times Y}(\varphi \times \psi)&=(-1)^{p+q+1}(\varphi \times \psi)\circ \partial_{X\times Y}\\&=(-1)^{p+q+1}(\varphi \otimes  \psi)\circ  \Theta\circ \partial_{X\times Y}\\&=(-1)^{p+q+1}(\varphi \otimes  \psi)\circ  (\partial_{X}\otimes  \text{id}+\text{id}\otimes  \partial_{Y})\circ  \Theta\\&=(-1)^{p+q+1}((-1)^{q}(\varphi \circ \partial_{X})\otimes  \psi+\varphi \otimes \psi \circ \partial_{Y})\circ  \Theta\\&=((-1)^{p+1}(\varphi \circ \partial_{X})\otimes  \psi+(-1)^{p+q+1}\varphi \otimes \psi \circ \partial_{Y})\circ  \Theta\\&=\delta_{X}\varphi\times  \psi+(-1)^{p}\varphi \times \delta_{Y}\psi\\&=\times \circ (\delta_{X}\otimes  \text{id}+\text{id}\otimes  \delta_{Y})(\varphi \otimes  \psi)\end{aligned}$$
+> 	   
 - **Remark**: For $c\in S_{n}(X\times Y)$, $\varphi\in S^p(X;R)$ and $\psi\in S^q(Y;R)$, we have for $\Theta c=:\sum_{r+s=n}^{}\sum_{i,j}^{}a_{i}^r\otimes b_{j}^s$, $$\braket{ \varphi \times \psi , c } =\left\langle  \varphi \otimes  \psi , \sum_{i,j} a_{i}^p\otimes  b^q_{j}\right\rangle=\sum_{i,j}^{}(-1)^{pq}\varphi(a_{i}^p)\cdot  \psi(b^q_{j})  $$
 ---
 
