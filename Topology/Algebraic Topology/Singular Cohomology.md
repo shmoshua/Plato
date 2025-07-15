@@ -133,7 +133,7 @@
 > We have that:
 > 1. $\varepsilon \circ\partial:S_{1}(X)\to R$ is $0$. This is because for any $\varphi\in S_{1}(X)$, we have that: $$\varepsilon(\partial(\varphi))=\varepsilon(\varphi(1)-\varphi(0))=1-1=0$$Therefore, $\delta(\varepsilon)=0$.
 > 2. We have that: $$f^{*}(1_{Y})=[f^c(\varepsilon_{Y})]=[\varepsilon_{Y}\circ  f_{c}]=[\varepsilon_{X}]=1_{X}$$
-> 3. Let $c_{p}:Y\to P$ be the constant map. Then, we have the following commutative diagram: $$\begin{CD}H^p(X;R)\otimes  \mathbb{Z} @>(\alpha,1)\mapsto ()>> H^p(X)\otimes  H^0(P) @>>> H^p(X)\otimes H^0(Y)\\ @VVV&@VVV&@VVV\\ H^p(X;R)\otimes  \mathbb{Z} @>>> H^p(X)\otimes  H^0(P) @>>> H^p(X)\otimes H^0(Y)\end{CD}$$
+> 3. Let $c_{p}:Y\to P$ be the constant map. Then, we have the following commutative diagram: $$\begin{CD}H^p(X;R)\otimes  \mathbb{Z} @>\alpha \otimes 1\mapsto \alpha \otimes  1_{P}>> H^p(X)\otimes  H^0(P) @>\text{id}\otimes  c_{p}^{*}>> H^p(X)\otimes H^0(Y)\\ @V\cong VV&@V\times VV&@V\times VV\\ H^p(X;R) @>>\tau ^{*}> H^p(X\times P) @>>(\text{id}\times c_{p})^{*}> H^p(X\times Y)\end{CD}$$Indeed, the second square commutes by naturality of $\times$. The first square commutes, as: $$\tau ^{*}(\alpha)=\alpha \times 1_{P}$$per [[Singular Homology|Proposition 12.4]]. However, $\tau \circ(\text{id}\times c_{p})=\pi_{X}$. Therefore, $$\pi ^{*}_{X}(\alpha)=\tau ^{*}(\text{id}\times c_{p})^{*}(\alpha)=\alpha \times 1_{Y}$$The proof for $\pi ^{*}_{Y}(\beta)$ is analogous.
 
 ^988416
 
