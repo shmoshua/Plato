@@ -401,9 +401,10 @@
 > 3. In cohomology, we get: $$H^p(X;R)\to H^p(X\times P;R),\quad \alpha\mapsto \alpha \times 1_{P}$$
 > 4. $\alpha \times 1_{P}=\tau ^{*}(\alpha)$ for all $\alpha\in H^p(X;R)$. 
 
----
-ss
-> [!proof]+
+^9d86bd
+
+
+> [!proof]-
 > We have that:
 > 1. We show that two chain maps defined on all topological spaces $X$ s.t. $\phi,\psi:\mathcal{S}_{*}(X\times P)\to \mathcal{S}_{*}(X)$ with
 > 	1. in degree $0$, $\phi(x,p)=\psi(x,p)=x$ and
@@ -430,3 +431,5 @@ ss
 > 2. Let $J:\mathcal{S}_{*}(X\times P)\to \mathcal{S}_{*}(X)$ be the map from 1. Then, we get that: $$J^{c}(\varphi)=\varphi \circ  J=\varphi \circ I\circ (\text{id}\otimes  \varepsilon_{\mathbb{Z}})\circ  \Theta=(\varphi \otimes  \varepsilon_{P,R})\circ  \Theta=\varphi \times \varepsilon_{P,R}$$
 > 3. Obvious and $1_{P}:=[\varepsilon_{P,R}]$. 
 > 	
+
+^3c46dd

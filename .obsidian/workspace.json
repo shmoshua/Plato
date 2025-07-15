@@ -56,16 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Cochain Complex.md",
+                "file": "Topology/Algebraic Topology/Relative Homology.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cochain Complex"
+              "title": "Relative Homology"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
+                "file": "Topology/Algebraic Topology/Relative Homology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Cohomology"
+              "title": "Relative Homology"
             }
           },
           {
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
+              "title": "Singular Cohomology"
             }
           }
         ],
@@ -274,13 +274,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "30241b51aa0cadbc",
+  "active": "8b637d72a5b1482d",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
+    "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Algebra/Cochain Complex.md",
+    "Topology/Algebraic Topology/Relative Homology.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Algebra/Cochain Complex.md",
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/Graded Group.md",
     "Topology/Algebraic Topology/Kronecker Pairing.md",
@@ -300,8 +302,6 @@
     "Representation Theory/Graded Algebra.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Algebraic Topology/Cochain Homotopy.md",
-    "Topology/Algebraic Topology/Reduced Cohomology.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",

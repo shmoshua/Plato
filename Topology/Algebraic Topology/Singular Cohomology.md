@@ -129,7 +129,7 @@
 
 ^bb7e67
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. $\varepsilon \circ\partial:S_{1}(X)\to R$ is $0$. This is because for any $\varphi\in S_{1}(X)$, we have that: $$\varepsilon(\partial(\varphi))=\varepsilon(\varphi(1)-\varphi(0))=1-1=0$$Therefore, $\delta(\varepsilon)=0$.
 > 2. We have that: $$f^{*}(1_{Y})=[f^c(\varepsilon_{Y})]=[\varepsilon_{Y}\circ  f_{c}]=[\varepsilon_{X}]=1_{X}$$

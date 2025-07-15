@@ -1,9 +1,10 @@
 #Definition #AlgebraicTopology 
 
 > [!definition]
-> For a [[topological space]] $X$ and a subspace $A\subseteq X$, let $\mathcal{S}(X)$ and $\mathcal{S}(A)$ be the [[chain complex]] of [[p-Simplex|singular $p$-chains]] $S_{p}(X)$ and $S_{p}(A)$. Then, for the [[Chain Complex|quotient chain complex]]: $$\mathcal{S}(X,A):= \mathcal{S}(X) / \mathcal{S}(A)$$
+> For a [[topological space]] $X$ and $A\subseteq X$, consider the [[Chain Complex|quotient chain complex]]: $$\mathcal{S}(X,A):= \mathcal{S}(X) / \mathcal{S}(A)$$
 > We have that:
 > 1. the ***relative homology*** is given as $H_{p}(X,A):=H_{p}(\mathcal{S}(X, A))$ for all $p\in \mathbb{Z}$.
+> 2. the ***relative cohomology*** for a ring $R$ is given as $H^p(X,A;R)$.
 
 ^40f092
 
@@ -49,4 +50,15 @@
 ^cca685
 
 ---
+> [!lemma] Proposition 3 (Relative Cross Product)
+> Let $X,Y$ be topological spaces and $A\subseteq X$. Further, let $R$ be a ring. Then, 
+> 1. $S^p(X,A;R)\cong\text{ker }J\subseteq S^p(X;R)$ where $$J:S^p(X;R)\to S^p(A;R),\quad \varphi\mapsto \varphi|_{S_{p}(A)}$$
+> 2. for $\varphi\in S^p(X,A;R)$ and $\psi\in S^q(Y;R)$, $\varphi \times \psi\in S^{p+q}((X,A)\times Y;R)$
+> 3. the following diagram commutes: $$\begin{CD}H^p(X,A;R)\otimes H^q(Y;R) @>\times>>H^{p+q}((X,A)\times Y;R)\\ @VVV @VVV\\H^p(X;R)\otimes H^q(Y;R) @>>\times>H^{p+q}((X,A)\times Y;R)\end{CD}$$
 
+
+> [!proof]+
+> We have that:
+> 4. Recall that:$$S^p(X,A;R)=\text{Hom}(S_{p}(X,A),R)=\text{Hom}(S_{p}(X) / S_{p}(A),R)$$Now, let $\varphi\in S^p(X,A;R)$. Then, $\varphi:S_{p}(X) / S_{p}(A)\to R$ and $\varphi \circ q:S_{p}(X)\to R$ where: $$J(\varphi \circ  q)=\varphi \circ  q|_{S_{p}(A)}=\varphi(0)=0$$ Similarly, if $\varphi|_{S_{p}(A)} = 0$, then $\overline{\varphi}: S_{p}(X) / S_{p}(A)\to R$ is induced.
+> 5. Consider the commutative diagram: $$\begin{CD}\mathcal{S}_{*}(A\times Y) @>\Theta>> \mathcal{S}_{*}(A)\otimes \mathcal{S}_{*}(Y)\\ @V(i_{A}\times \text{id})_{c}VV @VV(i_{A})_{c}\otimes  \text{id}V\\ \mathcal{S}_{*}(X\times Y) @>\Theta>> \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\end{CD}$$Let $\varphi\in S^p(X,A;R)$. Then, $\varphi \circ q\in S^p(X;R)$ with $\varphi \circ q|_{S_{p}(A)}=0$. Now, for $c\in S_{p+q}(A\times Y)$, we have that: $$\begin{aligned}((\varphi \circ  q)\times \psi)(c)&=((\varphi \circ  q)\otimes  \psi)\circ  \Theta_{X,Y}(c)\\&=((\varphi \circ  q)\otimes  \psi)\circ( (i_{A})_{c}\otimes \text{id})\circ   \Theta_{A,Y}(c)\\&=((\varphi \circ  \underbrace{ q \circ   (i_{A})_{c} }_{ =0 })\otimes  \psi)\circ   \Theta_{A,Y}(c)=0\end{aligned}$$
+> 6. Therefore, we have that: $$(\varphi \circ  q)\times \psi=((\varphi \circ  q)\otimes  \psi)\circ  \Theta$$
