@@ -394,5 +394,30 @@
 
 ---
 > [!lemma] Proposition 12
-> Let $X$ be a topological space and $P$ a point space. Then, the composition
+> Let $X$ be a topological space and $P$ a point space. Then, 
+> 1. the composition
 > $$\mathcal{S}_{*}(X\times P)\xrightarrow{\Theta}\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(P)\xrightarrow{\text{id}\otimes  \varepsilon_{\mathbb{Z}}}\mathcal{S}_{*}(X)\otimes  \mathbb{Z}\xrightarrow{\cong } \mathcal{S}_{*}(X)$$is naturally chain homotopic to the map $\tau_{c}$ where $\tau:X\times P\to X,(x,p)\mapsto x$.
+
+> [!proof]+
+> We have that:
+> 1. We show that two chain maps defined on all topological spaces $X$ s.t. $\phi,\psi:\mathcal{S}_{*}(X\times P)\to \mathcal{S}_{*}(X)$ with
+> 	1. in degree $0$, $\phi(x,p)=\psi(x,p)=x$ and
+> 	2. $\phi,\psi$ are natural w.r.t. $f:X\to X'$. 
+> 	
+> 	Then, there exists a chain homotopy $D$ between $\phi$ and $\psi$ that is natural w.r.t. $f:X\to X'$. 
+> 	
+> 	We need to find $D:\mathcal{S}_{*}(X\times P)\to \mathcal{S}_{*}(X)[1]$ s.t. $D\partial_{X\times P}+\partial_{X}D=\phi-\psi$. We will proceed with induction over $n$.
+>
+> 	
+> 	 1. If $n=0$, then let $D:= 0$. As $\phi \equiv \psi$ for degree 0, this holds.
+> 	2. If $n\geq 1$, assume that $D$ has already been defined for all $0\leq k<n$ for all space $X$ satisfying the naturality and $D\partial+\partial D=\phi-\psi$.
+> 	   
+> 	   For $d_{n}:\Delta^n\to \Delta^n\times P, x\mapsto (x,p)$, we claim that $(\phi-\psi-D\partial)(d_{n})\in S_{n}(\Delta^n)$ is a cycle. Indeed, $$\begin{aligned}\partial(\phi-\psi-D\partial)(d_{n})&=\partial \phi d_{n}-\partial \psi d_{n}-\partial D\partial(d_{n})\\&=\partial \phi d_{n}-\partial \psi d_{n}+D\partial^{2} (d_{n})+\psi \partial(d_{n})-\phi \partial d_{n}=0\end{aligned}$$Now, as $\Delta^n$ is contractible, $H_{n}(\Delta^n)=0$ for all $n\geq 1$ and therefore, there exists $a\in S_{n+1}(\Delta^n)$ s.t. $\partial a=(\phi-\psi-D\partial)(d_{n})$. Let $D(d_{n}):=a$. Then, of course it holds that $D\partial(d_{n})+\partial D(d_{n})=(\phi-\psi)(d_{n})$.
+> 	   
+> 	   Now, for $\sigma:\Delta^n\to X\times P$, we define: $$D(\sigma):=(\pi_{X}\circ  \sigma)_{c}D(d_{n})$$Then, 
+> 		   1. **$D$ is well-defined**: 
+> 		      We have that $\pi_{X}\circ d_{n}=\text{id}$ and $D(d_{n})=\text{id}_{c}D(d_{n})$.
+> 		   2. **$D$ is natural w.r.t. $f:X\to X'$**:$$\begin{aligned}f_{c}(D(\sigma))&=f_{c}(\pi_{X}\circ  \sigma)_{c}D(d_{n})=(f \circ  \pi_{X}\circ  \sigma)_{c}D(d_{n})=(\pi_{X}\circ  (f\times \text{id})\circ  \sigma)_{c}D(d_{n})\\&=D((f\times \text{id})\circ  \sigma)=D((f\times \text{id})_{c}(\sigma))\end{aligned}$$
+> 		   3. $D\partial+\partial D=\phi$
+> 		      
+> 	
