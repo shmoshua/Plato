@@ -397,3 +397,10 @@
 ![[Singular Cohomology#^083b5c]]
 
 ---
+![[Kronecker Pairing#^995fc2]]
+
+---
+![[Kronecker Pairing#^b1ea26]]
+![[Kronecker Pairing#^917623|p]]
+
+---

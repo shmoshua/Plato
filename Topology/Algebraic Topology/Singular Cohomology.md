@@ -109,6 +109,13 @@
 
 - **Remark**: For $c\in S_{n}(X\times Y)$, $\varphi\in S^p(X;R)$ and $\psi\in S^q(Y;R)$, we have for $\Theta c=:\sum_{r+s=n}^{}\sum_{i,j}^{}a_{i}^r\otimes b_{j}^s$, $$\braket{ \varphi \times \psi , c } =\left\langle  \varphi \otimes  \psi , \sum_{i,j} a_{i}^p\otimes  b^q_{j}\right\rangle=\sum_{i,j}^{}(-1)^{pq}\varphi(a_{i}^p)\cdot  \psi(b^q_{j})  $$ ^083b5c
 ---
+> [!lemma] Proposition 6 
+> Let $R$ be a [[ring]]. For $\varphi\in \mathcal{S}^{*}(X;R)$ and $\psi\in \mathcal{S}^{*}(Y;R)$ cocycles, and $a\in \mathcal{S}_{*}(X)$ and $b\in \mathcal{S}_{*}(Y)$ cycles, we have: $$\braket{ \varphi \times \psi , a\times b }=(-1)^{\left| \psi \right| \left| a \right| }\braket{ \varphi , a } \braket{ \psi , b }  $$where we use the convention that $\braket{ f , c }=0$ for $f\in S^r(Z;R)$ and $c\in S_{s}(Z)$ if $r\neq s$.
+
+> [!proof]+
+> We have that: $$\begin{aligned}\braket{ \varphi \times \psi , a\times b } =\braket{ (\varphi \otimes  \psi) \circ  \Theta , a\times b } =((\varphi \otimes  \psi)\circ \Theta \circ \times)(a\otimes  b)\end{aligned}$$From [[Singular Homology|Eilenberg-Zilberg]], there exists a chain homotopy $D$ s.t. $\Theta \circ \times=\text{id}+D\partial_{\otimes}+\partial_{\otimes}D$ on $\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$. Therefore, $$\begin{aligned}\braket{ \varphi \times \psi , a\times b } &=(\varphi \otimes  \psi)\circ (a\otimes  b+D\underbrace{ \partial_{\otimes }(a\otimes  b) }_{ =0 }+\partial_{\otimes }D(a\otimes  b))\\&=(\varphi \otimes  \psi)\circ (a\otimes  b+\partial_{\otimes }D(a\otimes  b))\\&=(-1)^{\left| \psi \right| \left| a \right| }\braket{ \varphi , a } \braket{ \psi , b } +(-1)\underbrace{ \delta_{\otimes }(\varphi \otimes  \psi) }_{ =0 }(D(a\otimes  b))\\&=(-1)^{\left| \psi \right| \left| a \right| }\braket{ \varphi , a } \braket{ \psi , b }\end{aligned}$$as $\varphi,\psi$ are cocycles. 
+
+---
 
 ##### Examples
 > [!h] Example 1
