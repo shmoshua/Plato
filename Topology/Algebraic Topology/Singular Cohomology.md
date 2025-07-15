@@ -84,6 +84,10 @@
 ^c2872e
 
 ---
+> [!lemma] Proposition 5 (Cohomological Cross Product)
+> Let $R$ be a [[ring|commutative ring]] and $X,Y$ topological spaces.
+> 1. there exists a cochain map $\times:\mathcal{S}^{*}(X;R)\otimes_{\mathbb{Z}}\mathcal{S}^{*}(Y;R)\to \mathcal{S}^{*}()$
+---
 ##### Examples
 > [!h] Example 1
 > Let $(X,A)$ be a pair of spaces and $i:A\to X$ the inclusion. 

@@ -384,4 +384,11 @@
 ![[Singular Homology#^70ff12|p]]
 
 ---
-### 2.7 Homomoprhism Cohomology
+### 2.7 Homomorphism Cohomology
+![[Cochain Complex#^37bd59]]
+![[Cochain Complex#^04430c|p]]
+![[Cochain Complex#^c595f5]]
+
+---
+##### 2.7.1 Cohomological Cross Product
+

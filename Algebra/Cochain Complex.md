@@ -153,11 +153,32 @@
 > Let $(\mathcal{A},\partial_{A}),(\mathcal{B},\partial_{B})$ be chain complexes. 
 > $$\text{Hom}(\mathcal{A},\mathcal{B})^p:=\prod_{i\in \mathbb{Z}}\text{Hom}(A_{i},B_{i-p})$$and the differential:$$\tilde{\delta}:\text{Hom}(\mathcal{A},\mathcal{B})^p\to\text{Hom}(\mathcal{A},\mathcal{B})^{p+1},\quad f\mapsto (a\mapsto \partial_{B}\braket{ f , a } +(-1)^{p+1}\braket{ f , \partial_{A}a } )$$
 > 1. $\text{Hom}(\mathcal{A},\mathcal{B})^{*}$ is a cochain complex.
-> 2. For a graded homomorphism $f:\mathcal{A}\to \mathcal{B}$ with $\left| f \right|=0$, 
+> 2. For a graded homomorphism $f:\mathcal{A}\to \mathcal{B}$ with $\left| f \right|=p$ even, 
 > 	1. $\tilde{\delta}f=0$ if and only if $f$ is a chain map.
-> 	2. 
+> 	2. $f=\tilde{\delta}h$ if and only if $f$ is chain homotopic to $0$ via $h$
+> 3. For graded homomorphisms $f,g:\mathcal{A}\to \mathcal{B}$ with even degree $\left| f \right|=\left| g \right|$ that are also chain maps, 
+> 	1. $f\sim g$ if and only if $[f]=[g]$ in $H^0(\text{Hom}(\mathcal{A},\mathcal{B})^{*})$
+> 4. For a graded homomorphism $f:\mathcal{A}\to \mathcal{B}$ with $\left| f \right|=p$ odd, 
+> 	1. $\tilde{\delta}f=0$ if and only if $f$ is a chain map.
+> 	2. $f=\tilde{\delta}h$ if and only if $f$ is chain homotopic to $0$ via $h$
 
-> [!proof]+
+^37bd59
+
+
+> [!proof]-
 > We have that:
-> 4. Notice that: $$\begin{aligned}\braket{ \tilde{\delta}^{2}f , a }&=\partial_{B}\braket{ \tilde{\delta}f , a } +(-1)^{p}\braket{ \tilde{\delta} f , \partial_{A}a }\\&=\partial_{B}^{2}\braket{ f , a } +(-1)^{p+1}\partial_{B}\braket{ f , \partial_{A}a } +(-1)^{p}\partial_{B}\braket{ f , \partial_{A}a } -\braket{  f , \partial_{A}^{2}a }\\&=0\end{aligned}  $$
-> 5. Let $\tilde{\delta}f=0$. Then, $$0=\braket{ \tilde{\delta}f , a } =\partial_{B}\braket{ f , a } -\braket{ f , \partial_{A}a } ,\quad \forall a\in \mathcal{A}$$Therefore, we have $\partial_{B}\circ f=f \circ \partial_{A}$. This proves the statement.
+> 1. Notice that: $$\begin{aligned}\braket{ \tilde{\delta}^{2}f , a }&=\partial_{B}\braket{ \tilde{\delta}f , a } +(-1)^{p}\braket{ \tilde{\delta} f , \partial_{A}a }\\&=\partial_{B}^{2}\braket{ f , a } +(-1)^{p+1}\partial_{B}\braket{ f , \partial_{A}a } +(-1)^{p}\partial_{B}\braket{ f , \partial_{A}a } -\braket{  f , \partial_{A}^{2}a }\\&=0\end{aligned}  $$
+> 2. Let $\tilde{\delta}f=0$. Then, $$0=\braket{ \tilde{\delta}f , a } =\partial_{B}\braket{ f , a } -\braket{ f , \partial_{A}a } ,\quad \forall a\in \mathcal{A}$$Therefore, we have $\partial_{B}\circ f=f \circ \partial_{A}$. This proves the statement.
+>    
+>    Similarly, if $h\in \text{Hom}(\mathcal{A},\mathcal{B})^{-1}$ s.t. $\tilde{\delta} h=f$ if and only if $f=\partial_{B}h+h \partial _{A}$.
+> 3. If $\left| f \right|=\left| g \right|=0$, then $\left| f-g \right|=0$ and $f-g\sim 0$. Therefore, $f-g=\tilde{\delta}h$ for some $h\in \text{Hom}(\mathcal{A},\mathcal{B})^{-1}$. Hence, $f-g\in B^0$ if and only if $f-g=\tilde{\delta}h$.
+> 4. Let $f$ be a chain map with $\left| f \right|=p$. Then, $f\in \text{Hom}(\mathcal{A,\mathcal{B}})^{-p}$ Then, $$\tilde{\delta} f=\partial_{B}f+(-1)^{-p+1}f \partial_{A}$$
+
+^04430c
+
+- **Remark**: Let $(\mathcal{A},\partial)$ be a chain complex and $G$ an abelian group. Then, considering $G$ as a chain complex at 0 with zero differential,  ^c595f5
+	1. $\text{Hom}(\mathcal{A},\mathcal{B})^p=\text{Hom}(A_{p},G)$ and
+	2. for $f\in \text{Hom}(\mathcal{A},\mathcal{B})^p$, $\tilde{\delta}f=(-1)^{p+1}f \circ \partial = (-1)^{p+1}\delta f$.
+	3. $H^i(\mathcal{A};G)=H^i(\text{Hom}(\mathcal{A},G))$, hence we may replace $\delta$ with $\tilde{\delta}$ from now on.
+
+---
