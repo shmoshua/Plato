@@ -421,3 +421,12 @@
 
 ---
 ##### 2.7.3 Cross Product for Relative Cohomology
+![[Relative Homology#^14638d]]
+![[Relative Homology#^8840d9|p]]
+![[Relative Homology#^85bd50]]
+
+---
+![[Relative Homology#^614e58]]
+
+---
+##### 2.7.4 Commutativity of Cohomology Cross Product

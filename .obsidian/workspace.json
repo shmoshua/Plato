@@ -64,8 +64,7 @@
               "title": "Relative Homology"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -128,8 +127,7 @@
               "title": "Singular Cohomology"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,13 +272,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "44bbf9d5498f4730",
+  "active": "5f1044ef9be1a1a4",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Relative Homology.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
-    "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Algebra/Cochain Complex.md",
     "Algebra/Chain Complex.md",

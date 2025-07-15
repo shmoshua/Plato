@@ -8,6 +8,7 @@
 
 ^40f092
 
+- **Remark**: If $X$ is path connected and $\phi\neq A\subseteq X$, then the relative cohomology doesn't have a [[Singular Cohomology|unity]], i.e. in $H^0(X,A;R)$. ^614e58
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -57,10 +58,16 @@
 > 3. the following diagram commutes: $$\begin{CD}H^p(X,A;R)\otimes H^q(Y;R) @>\times>>H^{p+q}((X,A)\times Y;R)\\ @Vj^{*}\otimes  \text{id}VV @VVk^{*}V\\H^p(X;R)\otimes H^q(Y;R) @>>\times>H^{p+q}(X\times Y;R)\end{CD}$$where $j:(X,\varnothing)\to (X,A)$ and $k:X\times Y\to (X,A)\times Y$ are the inclusions.
 > 4. the following diagram commutes: $$\begin{CD}H^p(A;R)\otimes H^q(Y;R) @>\times>>H^{p+q}(A\times Y;R)\\ @V\delta ^{*}\otimes  \text{id}VV @VV\delta ^{*}V\\H^{p+1}(X,A;R)\otimes H^q(Y;R) @>>\times>H^{p+q+1}((X,A)\times Y;R)\end{CD}$$
 
+^14638d
 
-> [!proof]+
+
+> [!proof]-
 > We have that:
 > 1. Recall that:$$S^p(X,A;R)=\text{Hom}(S_{p}(X,A),R)=\text{Hom}(S_{p}(X) / S_{p}(A),R)$$Now, let $\varphi\in S^p(X,A;R)$. Then, $\varphi:S_{p}(X) / S_{p}(A)\to R$ and $\varphi \circ q:S_{p}(X)\to R$ where: $$J(\varphi \circ  q)=\varphi \circ  q|_{S_{p}(A)}=\varphi(0)=0$$ Similarly, if $\varphi|_{S_{p}(A)} = 0$, then $\overline{\varphi}: S_{p}(X) / S_{p}(A)\to R$ is induced.
 > 2. Consider the commutative diagram: $$\begin{CD}\mathcal{S}_{*}(A\times Y) @>\Theta>> \mathcal{S}_{*}(A)\otimes \mathcal{S}_{*}(Y)\\ @V(i_{A}\times \text{id})_{c}VV @VV(i_{A})_{c}\otimes  \text{id}V\\ \mathcal{S}_{*}(X\times Y) @>\Theta>> \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\end{CD}$$Let $\varphi\in S^p(X,A;R)$. Then, $\varphi \circ q\in S^p(X;R)$ with $\varphi \circ q|_{S_{p}(A)}=0$. Now, for $c\in S_{p+q}(A\times Y)$, we have that: $$\begin{aligned}((\varphi \circ  q)\times \psi)(c)&=((\varphi \circ  q)\otimes  \psi)\circ  \Theta_{X,Y}(c)\\&=((\varphi \circ  q)\otimes  \psi)\circ( (i_{A})_{c}\otimes \text{id})\circ   \Theta_{A,Y}(c)\\&=((\varphi \circ  \underbrace{ q \circ   (i_{A})_{c} }_{ =0 })\otimes  \psi)\circ   \Theta_{A,Y}(c)=0\end{aligned}$$
 > 3. Follows from 2. 
-> 4. Let $\varphi\in S^p(A;R)$ and $\psi\in S^q(Y;R)$ by cocycles. We first try to find what $\delta ^{*}([\varphi])$ is.  Consider the diagram: $$\begin{CD}0  @>>> S^p(X,A) @>>> S^p(X)@>>> S^p(A) @>>> 0\\ &@VVV &@VVV&@VVV\\ 0  @>>> S^{p+1}(X,A) @>>> S^{p+1}(X)@>>> S^{p+1}(A) @>>> 0\end{CD}$$Then, we can extend $\varphi$ to $\tilde{\varphi}\in S^p(X)$. As $\delta\varphi=0$, $\varphi|_{B_{p}(A)}=0$ and $\delta \tilde{\varphi}|_{S_{p+1}(A)}=0$. Now, we can view $\delta \tilde{\varphi}$ as an element in $S^{p+1}(X,A;R)$, which we denote with $\varphi'$. Hence, $$\delta ^{*}([\varphi])=[\delta \tilde{\varphi}]=[\varphi']\in H^{p+1}(X,A;R)$$Then, we have that: $$\times \circ (\delta ^{*}\otimes  \text{id})([\varphi]\otimes [\psi])=\times([\varphi']\otimes [\psi])=[\varphi'\times \psi]$$To show the rest, we first claim that $\tilde{\varphi}\times \psi\in S^{p+q}(X\times Y;R)$ extends $\varphi \times \psi\in S^{p+q}(A\times Y;R)$. This is from the fact that: $$\begin{CD}S^{p}(X)\end{CD}$$
+> 4. Let $\varphi\in S^p(A;R)$ and $\psi\in S^q(Y;R)$ by cocycles. We first try to find what $\delta ^{*}([\varphi])$ is.  Consider the diagram: $$\begin{CD}0  @>>> S^p(X,A) @>>> S^p(X)@>>> S^p(A) @>>> 0\\ &@VVV &@VVV&@VVV\\ 0  @>>> S^{p+1}(X,A) @>>> S^{p+1}(X)@>>> S^{p+1}(A) @>>> 0\end{CD}$$Then, we can extend $\varphi$ to $\tilde{\varphi}\in S^p(X)$. As $\delta\varphi=0$, $\varphi|_{B_{p}(A)}=0$ and $\delta \tilde{\varphi}|_{S_{p+1}(A)}=0$. Now, we can view $\delta \tilde{\varphi}$ as an element in $S^{p+1}(X,A;R)$, which we denote with $\varphi'$. Hence, $$\delta ^{*}([\varphi])=[\delta \tilde{\varphi}]=[\varphi']\in H^{p+1}(X,A;R)$$Then, we have that: $$\times \circ (\delta ^{*}\otimes  \text{id})([\varphi]\otimes [\psi])=\times([\varphi']\otimes [\psi])=[\varphi'\times \psi]$$To show the rest, we first claim that $\tilde{\varphi}\times \psi\in S^{p+q}(X\times Y;R)$ extends $\varphi \times \psi\in S^{p+q}(A\times Y;R)$. This is from the fact that: $$\begin{CD}S^{p}(X;R)\otimes  S^q(Y;R) @>\times>> S^{p+q}(X\times Y;R)\\ @V(i_{A})^c\otimes  \text{id}VV@VV(i_{A}\times \text{id})^cV \\ S^{p}(A;R)\otimes  S^q(Y;R) @>>\times> S^{p+q}(A\times Y;R)\end{CD}$$commutes from naturality. Therefore, $$(i_{A}\times \text{id})^c(\tilde{\varphi} \times \psi)=\varphi \times \psi$$Hence, we have that: $$\begin{aligned}\ [\delta(\varphi \times \psi)]&=[\delta\varphi \times \psi+(-1)^p\varphi \times\underbrace{ \delta \psi }_{ =0 }]\\&=[\delta\varphi \times \psi]=[\varphi'\times \psi]\end{aligned}$$This shows that the diagram commutes.
+
+^8840d9
+
+- **Remark**: Similarly, for $B\subseteq Y$, we have: $$H^p(X;R)\otimes H^q(Y,B;R)\to H^{p+q}(X\times(Y,B);R)$$and a diagram as 4 above commutes up to $(-1)^p$, which incurs in the last step.   ^85bd50
